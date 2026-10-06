@@ -131,3 +131,47 @@
     a formatted single HTML page in the same step as generating the answer, removing the copy-paste-and-format
     steps, so people who need AI long answers turned into deliverables would choose it when writing reports
     or preparing to share.'
+- id: req-full-answer-me-with-html-2026-10-06
+  project_slug: answer-me-with-html
+  level: full
+  reviewed_at: '2026-10-06T02:51:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI长回答难通读、难转发的需求，痛点真实但非刚性；旧做法是手工复制排版，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-5bcbca4e58959166
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标与复刻数，属关注度证据，没有用户评价或采用案例说明谁在持续使用。
+    evidence_ids:
+    - ev-5bcbca4e58959166
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，钱可能来自to C或to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5bcbca4e58959166
+  - gate: truth
+    status: insufficient
+    reason: 未说明渲染是否需人工确认、支持哪些问题类型，交付确定性缺少公开材料支持。
+    evidence_ids:
+    - ev-5bcbca4e58959166
+  next_validation: 收集该仓库的issue与discussion，确认用户实际用它处理哪些问题类型、是否出现重复使用与人工修改环节。
+  market: ''
+  job: 开发者或知识工作者在向AI提出复杂问题、拿到大段纯文本回答后，需要把回答整理成可阅读、可分享的材料，于是让agent把回答渲染成一页HTML。
+  job_en: After asking an AI a complex question and receiving a long plain-text answer, a developer or
+    knowledge worker needs to turn it into readable, shareable material, so they have the agent render
+    the answer as a single HTML page.
+  pain: 聊天窗口里的长回答结构松散、难以通读和转发，人工重新排版要额外花时间，不整理就只能自己反复滚动阅读。
+  pain_en: Long answers in a chat window are loosely structured, hard to read through and hard to forward;
+    manually reformatting costs extra time, and without it the user just scrolls repeatedly.
+  current_alternative: 旧做法是把回答复制到文档或Markdown编辑器里手工排版，或直接阅读聊天窗口原文。
+  current_alternative_en: The old way is copying the answer into a document or Markdown editor and formatting
+    it by hand, or simply reading the raw text in the chat window.
+  usage_reason: 相较手工复制排版，它让agent在生成回答的同一步直接产出排版好的一页HTML，省掉复制、粘贴、调格式这几步，因此需要把AI长回答变成可交付材料的人会在写报告或做分享时选择它。这是基于产品能力的推断。
+  usage_reason_en: Compared with copying and formatting by hand, it has the agent produce a formatted
+    single HTML page in the same step as generating the answer, removing the copy-paste-and-format steps,
+    so people who need AI long answers turned into deliverables would choose it when writing reports or
+    preparing to share. This is an inference from product capability.

@@ -172,3 +172,52 @@
     remove the step of writing scaffolding from scratch; however, no public evidence shows any user choosing
     it for that reason or which step it removes versus Replit or v0, so no verifiable adoption reason
     can be given.'
+- id: req-full-builder-2026-10-06
+  project_slug: builder
+  level: full
+  reviewed_at: '2026-10-06T02:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非专业开发者快速产出可运行网站或应用原型的任务，痛点是从零搭建与平台锁定；公开材料显示 Puter 为开源可自托管、浏览器内运行，并自称 Lovable、Replit、v0
+      的开源替代，旧做法与交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-e7ad85693f3aed55
+    - ev-c71f5d786504f0de
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出 Puter 的开源定位与订阅功能描述，没有可归因到 Builder 的采用规模、持续使用或社区讨论数据，无法判断目标用户是否已形成使用共识。
+    evidence_ids:
+    - ev-e7ad85693f3aed55
+    - ev-c71f5d786504f0de
+  - gate: model
+    status: insufficient
+    reason: Puter 页面提到订阅解锁文档、表格、团队聊天、发票等功能，但未披露 Builder 本身的定价、付费主体或单位经济；谁付钱是判断而非已验证事实。
+    evidence_ids:
+    - ev-54f6b4061e44cd39
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 生成代码的部署方式、人工修改环节、安全边界与交付确定性，无法核验承诺能否稳定兑现。
+    evidence_ids:
+    - ev-cb2f876cdec55b2d
+  next_validation: 追踪 Puter 官方文档与 公开代码仓库 仓库中 Builder 相关 issue/discussion，确认生成项目的部署路径、自托管方式与用户实际使用反馈。
+  market: ''
+  job: 非专业开发者或小团队在需要快速验证一个网站或小应用想法时，用自然语言描述需求，让 AI 生成可运行的项目，省去从零搭建脚手架和写样板代码。
+  job_en: Non-professional developers or small teams who need to quickly validate a website or small app
+    idea describe requirements in natural language and have AI generate a runnable project, skipping scaffolding
+    and boilerplate.
+  pain: 公开材料只说明 Puter 是开源、可自托管的浏览器内互联网操作系统，并提到订阅解锁文档、表格、团队聊天、发票等功能；没有用户抱怨、workaround 或案例说明从零搭站的具体代价，痛点强度只能由工作流结构推断。
+  pain_en: Public materials only describe Puter as an open-source, self-hostable in-browser internet OS
+    and mention a subscription unlocking documents, spreadsheets, team chat and invoicing; no user complaints,
+    workarounds or cases show the concrete cost of building from scratch, so pain intensity is only a
+    workflow inference.
+  current_alternative: 公开材料把 Puter 定位为 Lovable、Replit、v0 等平台的开源替代，说明用户当前可能在这些托管式 AI 建站工具或手写代码之间选择；但材料未记录用户实际如何迁移或替换。
+  current_alternative_en: Public materials position Puter as an open-source alternative to Lovable, Replit
+    and v0, implying users currently choose among those hosted AI builders or hand-coding; the materials
+    do not record how users actually migrate or replace them.
+  usage_reason: 推断：相较托管式 AI 建站工具，Puter 以开源、可自托管、浏览器内运行的方式交付，用户若在意数据留在自己的实例或不想被平台锁定，会在需要快速出原型时选择它；但公开材料没有用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus hosted AI builders, Puter delivers as open-source, self-hostable
+    and browser-run, so users who care about keeping data on their own instance or avoiding platform lock-in
+    may choose it when prototyping fast; no public user feedback or case confirms this motive.'

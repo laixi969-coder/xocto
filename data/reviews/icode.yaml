@@ -246,3 +246,50 @@
   usage_reason_en: 'No usage reason can be written: the offline-agent and workflow capabilities claimed
     in the candidate summary have no corresponding fact in the cited evidence, so no user type or concrete
     action can explain adoption.'
+- id: req-full-icode-2026-10-06
+  project_slug: icode
+  level: full
+  reviewed_at: '2026-10-06T02:52:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其为离线开发平台与 agent 工具链，但全部公开证据指向儿童线下编程教育机构 iCode，含课程、假期营与教学看板；两者不是同一产品，连要解决的需求与痛点都无法从公开材料还原。
+    evidence_ids:
+    - ev-056535aa01a86c62
+    - ev-591910236d426caf
+    - ev-8963a2040d9348c3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪候选摘要所指离线开发平台自身的官方仓库与文档（README、release、issue、discussion），确认其真实产品身份、输入输出与部署方式，并与现有
+    iCode 教育机构证据区分开。
+  market: ''
+  job: 候选摘要描述的是开发者在数据不能出内网或无稳定外网的环境中，把本地代码仓库与任务交给离线 agent 和工作流执行，并在终端界面取回结果；但公开证据全部指向面向儿童与青少年的线下编程教育机构
+    iCode，没有任何材料能还原这一离线开发任务的具体输入、动作与交付物。
+  job_en: The candidate summary describes developers in offline or data-restricted environments handing
+    local repositories and tasks to an offline agent and workflow and retrieving results in a terminal
+    UI; however, all public evidence points to iCode, an in-person coding school for kids and teens, and
+    none of it reconstructs the inputs, actions, or deliverables of that offline development job.
+  pain: 公开材料只说明 iCode 提供线下 STEM 与编程课程、机器人、游戏设计、假期营，以及面向学生、教练和家长的 XP、腰带里程碑与实时看板；没有记录任何开发者因无法联网或数据不能外传而受阻的痛点、频率或不解决的后果。
+  pain_en: Public materials only show that iCode offers in-person STEM and coding classes, robotics, game
+    design, holiday camps, and XP/belt-milestone dashboards for students, instructors, and parents; they
+    record no developer pain, frequency, or consequence tied to offline or data-restricted work.
+  current_alternative: 公开材料未说明开发者目前如何完成离线 agent 执行这类工作，也未说明 iCode 替代了什么旧流程；现有证据描述的是家长为孩子选择线下编程课程与假期营这一教育消费场景。
+  current_alternative_en: Public materials do not show how developers currently perform offline agent
+    execution, nor what iCode replaces; the evidence describes parents choosing in-person coding classes
+    and camps for their children.
+  usage_reason: 无法给出使用理由：公开证据中的产品是儿童编程教育机构及其教学套件，与候选摘要所称的离线开发平台和 agent 工具链不是同一事物，缺少任何可归因到该离线开发产品的用户选择依据。
+  usage_reason_en: 'No usage reason can be given: the product in the public evidence is a children''s
+    coding school and its education suite, not the offline development platform and agent toolkit described
+    in the candidate summary, so there is no attributable basis for user choice.'

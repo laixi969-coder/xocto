@@ -1,0 +1,87 @@
+- id: req-initial-hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-in-2026-10-06
+  project_slug: hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-in
+  level: initial
+  reviewed_at: '2026-10-06T02:19:01Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决招聘初筛产能不足与标准不一的需求，痛点刚性且交付可核对；买方是招聘团队，公开材料未说明定价。
+    evidence_ids:
+    - ev-71fc60820fcf3b15
+  - gate: consensus
+    status: supported
+    reason: Snowflake、Snorkel、Capgemini 等具名企业参与早期试用，说明大雇主愿意把它放进真实流程。
+    evidence_ids:
+    - ev-71fc60820fcf3b15
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、按席位还是按场次收费，也未说明招聘方是否已实际付费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-71fc60820fcf3b15
+  - gate: truth
+    status: insufficient
+    reason: 评分是否贴近岗位真实能力、候选人体验与合规边界如何，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-71fc60820fcf3b15
+  next_validation: 收集 HackerRank 官方关于 AI Interviewer 的定价页或客户案例页，确认收费方式与已付费客户。
+  market: ''
+  job: 技术招聘官在简历量远超面试产能时，需要处理成百上千份候选人材料，完成初筛问答并给出可比较的评估，以便决定谁进入下一轮。
+  job_en: A technical recruiter facing far more resumes than interview capacity must process hundreds
+    of candidate profiles, run screening Q&A and produce comparable assessments to decide who advances.
+  pain: 人工电话初筛耗时且标准不一致，招聘官难以在短时间内覆盖全部候选人，容易漏掉合格者或让面试官把时间花在明显不合格的人身上。
+  pain_en: Manual phone screens are slow and inconsistent; recruiters cannot cover every candidate quickly,
+    so qualified people get missed and interviewers spend time on clearly unsuitable ones.
+  current_alternative: 旧做法是招聘官或工程师逐份看简历、打初筛电话、写面试记录，或用在线测评加人工复核。
+  current_alternative_en: The old way is recruiters or engineers reading resumes one by one, making screening
+    calls and writing notes, or using online assessments plus manual review.
+  usage_reason: 相较人工电话初筛，它把问答与记录这一步交给 AI 自动完成，招聘官只需复核生成的评估，从而把覆盖范围从少数候选人扩大到全部投递者；推断，因为公开材料未给出留存或复购数据。
+  usage_reason_en: Compared with manual phone screens, it hands the Q&A and note-taking step to AI so
+    recruiters only review generated assessments, expanding coverage from a few candidates to the whole
+    applicant pool; this is inference, as no retention or repeat-use data is public.
+- id: req-full-hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-in-2026-10-06
+  project_slug: hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-in
+  level: full
+  reviewed_at: '2026-10-06T02:52:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决招聘初筛产能不足与标准不一的需求，痛点刚性且交付可核对；买方是招聘团队，公开材料未说明定价。
+    evidence_ids:
+    - ev-241475a1f39ae8ee
+    - ev-3769e531793c07fc
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只覆盖 HackerRank 开发者题库与公司背景，未提供 Snowflake、Snorkel、Capgemini 试用或 50 万场面试的可核对来源。
+    evidence_ids:
+    - ev-241475a1f39ae8ee
+    - ev-3769e531793c07fc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露按席位还是按场次收费，也未说明招聘方是否已实际付费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-241475a1f39ae8ee
+  - gate: truth
+    status: insufficient
+    reason: 评分是否贴近岗位真实能力、候选人体验与合规边界如何，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-3769e531793c07fc
+  next_validation: 收集 HackerRank 官方 AI Interviewer 产品页或客户案例页，确认已付费客户与收费方式。
+  market: ''
+  job: 技术招聘官在简历量远超面试产能时，需要处理成百上千份候选人材料，完成初筛问答并产出可比较的评估，以决定谁进入下一轮。
+  job_en: A technical recruiter facing far more resumes than interview capacity must process hundreds
+    of candidate profiles, run screening Q&A and produce comparable assessments to decide who advances.
+  pain: 人工电话初筛耗时且标准不一致，招聘官难以在短时间内覆盖全部候选人，容易漏掉合格者，也让面试官把时间花在明显不合格的人身上。
+  pain_en: Manual phone screens are slow and inconsistent; recruiters cannot cover every candidate quickly,
+    so qualified people get missed and interviewers spend time on clearly unsuitable ones.
+  current_alternative: 旧做法是招聘官或工程师逐份看简历、打初筛电话、手写面试记录，或用在线测评加人工复核。
+  current_alternative_en: The old way is recruiters or engineers reading resumes one by one, making screening
+    calls and writing notes, or using online assessments plus manual review.
+  usage_reason: 相较人工电话初筛，它把问答与记录这一步交给 AI 自动完成，招聘官只需复核生成的评估，从而把覆盖范围从少数候选人扩大到全部投递者；这是基于产品能力与任务结构的推断，公开材料未给出留存或复购数据。
+  usage_reason_en: Compared with manual phone screens, it hands the Q&A and note-taking step to AI so
+    recruiters only review generated assessments, expanding coverage from a few candidates to the whole
+    applicant pool; this is inference from product capability and task structure, as no retention or repeat-use
+    data is public.

@@ -1,6 +1,6 @@
 ---
 slug: openai-宣布28-天计划持续改进-codexworktiktok-上线一系列-ai-电商功能蓝色起源公布月球动力塔
-name: OpenAI 宣布「28 天计划」，持续改进 Codex、Work；TikTok 上线一系列 AI 电商功能；蓝色起源公布月球「动力塔计划」
+name: OpenAI Codex
 builder: ''
 category: ''
 summary_zh: ''
@@ -74,7 +74,7 @@ summary: "2026 诺贝尔奖生理学或医学奖揭晓：三学者凭借「光�
   \ \n 今年代表 LPL 赛区出战的队伍是 AL、BLG、TES、IG。（来源：IT 之家）"
 first_seen: '2026-10-06T01:16:53Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -85,7 +85,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI 宣布「28 天计划」，持续改进 Codex、Work；TikTok 上线一系列 AI 电商功能；蓝色起源公布月球「动力塔计划」
+# OpenAI Codex
 
 2026 诺贝尔奖生理学或医学奖揭晓：三学者凭借「光控离子通道和光遗传学」领域发现获表彰 
  10 月 5 日消息，诺贝尔奖基金会宣布将 2026 年诺贝尔生理学或医学奖授予以下三人，以表彰他们在「光控离子通道和光遗传学」领域的发现：美国霍华德 · 休斯医学研究所及斯坦福大学的 Karl Deisseroth、德国柏林洪堡大学的 Peter Hegemann、德国维尔茨堡大学的 Georg Nagel。 

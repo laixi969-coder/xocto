@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbTFiYklhQ2V6
 summary: Artificial Intelligence, Automation and the Ethics of Responsible Innovation varindia
 first_seen: '2026-10-05T22:21:25Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

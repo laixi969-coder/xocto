@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/the-best-ai-opportunities-may-not-look
 summary: ''
 first_seen: '2026-10-05T13:36:55Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

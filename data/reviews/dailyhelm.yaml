@@ -1,0 +1,86 @@
+- id: req-initial-dailyhelm-2026-10-06
+  project_slug: dailyhelm
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是把分析数据转成当天可执行改动这一步，痛点存在，但公开材料只有一句描述，说不清输入数据与交付形式，价值结构无法确认。
+    evidence_ids:
+    - ev-e221fe9f9e967380
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品自述外，没有用户评价、客户案例或采用信号，无法判断是否有人真的把它放进日常工作。
+    evidence_ids:
+    - ev-e221fe9f9e967380
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e221fe9f9e967380
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近增长工作的第一性目标、修复建议能否确定性交付，也看不到人工确认边界。
+    evidence_ids:
+    - ev-e221fe9f9e967380
+  next_validation: 收集 DailyHelm 官方定价页或产品文档，确认它接入哪些分析数据源、每日交付的具体形式以及是否按结果收费。
+  market: ''
+  job: 增长或运营人员在每天查看网站与转化分析报表时，需要从数据中找出当天该做的增收改动并安排执行。
+  job_en: Growth or operations staff reviewing daily site and conversion analytics need to find and schedule
+    the day's revenue-boosting changes from the data.
+  pain: 分析报表能显示指标变化，但把指标翻译成具体该改哪一步、由谁改，仍要人手动判断，容易停留在看数不动手。
+  pain_en: Analytics reports show metric changes, but translating them into which step to change and who
+    changes it still requires manual judgment, so teams often look at data without acting.
+  current_alternative: 人工看仪表盘、导出表格做分析，或在会议里逐条讨论要改什么。
+  current_alternative_en: Manually reading dashboards, exporting spreadsheets for analysis, or discussing
+    changes item by item in meetings.
+  usage_reason: 推断：若它确实能接入现有分析源并每天输出可执行的修复清单，就省去了人工从图表里逐项推断改动的步骤，适合没有专职分析师的小型增长团队；但目前公开材料只有一句产品描述，无法确认它接什么数据、输出什么格式，因此需求强度未明。
+  usage_reason_en: 'Inference: if it truly connects to existing analytics sources and outputs an executable
+    fix list daily, it removes the manual step of inferring changes from charts, suiting small growth
+    teams without a dedicated analyst. However, public material is only a one-line description, so its
+    data inputs and output format cannot be confirmed and demand strength is unclear.'
+- id: req-full-dailyhelm-2026-10-06
+  project_slug: dailyhelm
+  level: full
+  reviewed_at: '2026-10-06T02:51:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决把分析数据转成当天可执行增收改动这一步，但公开材料只有一句产品自述，说不清输入数据源、交付形式与不解决的后果，连需求与痛点都无法具体还原，故价值结构无法确认。
+    evidence_ids:
+    - ev-e221fe9f9e967380
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 DailyHelm 官方产品文档或定价页，确认它接入哪些分析数据源、每日交付的具体形式以及是否按结果收费。
+  market: ''
+  job: 增长或运营人员在每天查看网站与转化分析报表时，处理已有的分析数据，要完成的任务是把指标变化翻译成当天可执行的增收修复项并排成待办。
+  job_en: Growth or operations staff reviewing daily site and conversion analytics work from existing
+    analytics data to translate metric changes into the day's executable revenue fixes and turn them into
+    a to-do list.
+  pain: 公开材料只有一句产品自述，未说明接入哪些数据源、输出什么格式、修复项如何验证，因此无法确认用户当前在'看数不动手'这一步上具体卡在哪里、代价多大。
+  pain_en: Public material is only a one-line product description; it does not state which data sources
+    are connected, what format is output, or how fixes are verified, so it is impossible to confirm where
+    users actually get stuck in the 'look at data without acting' step or how costly that is.
+  current_alternative: 公开材料未披露用户现在用什么替代方式，只能推测为人工看仪表盘、导出表格分析或在会议里逐条讨论改动，缺少可引用的旧替代行为证据。
+  current_alternative_en: Public material does not disclose what users currently use instead; only manual
+    dashboard reading, spreadsheet analysis, or meeting-by-meeting discussion can be inferred, with no
+    citable evidence of prior substitute behavior.
+  usage_reason: 推断：若它真能接入现有分析源并每天输出可执行修复清单，就省去人工从图表逐项推断改动的步骤，适合没有专职分析师的小型增长团队；但公开材料只有一句描述，无法确认数据输入与交付形式，因此用户为何选择它仍说不清。
+  usage_reason_en: 'Inference: if it truly connects to existing analytics sources and outputs an executable
+    fix list daily, it removes the manual step of inferring changes from charts, suiting small growth
+    teams without a dedicated analyst. But public material is only one line, so data inputs and delivery
+    format cannot be confirmed and why users would choose it remains unclear.'

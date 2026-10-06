@@ -1,0 +1,91 @@
+- id: req-initial-jarq-2026-10-06
+  project_slug: jarq
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决光标附近文本的翻译、缩写、纠错与改写需求，但公开材料未说明旧流程卡在哪一步、不采用会失去什么，痛点刚性无法判断。
+    evidence_ids:
+    - ev-531dcef094a593d3
+  - gate: consensus
+    status: insufficient
+    reason: 除一条功能描述外，没有用户评价、社区讨论或采用迹象，无法判断是否有人真的把它放进日常写作流程。
+    evidence_ids:
+    - ev-531dcef094a593d3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，to C 订阅还是 to B 坐席采购均属未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-531dcef094a593d3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真的在任意应用内完成替换、是否保留原文格式，以及人工确认边界如何设置。
+    evidence_ids:
+    - ev-531dcef094a593d3
+  next_validation: 收集 Jarq 官方页面上的支持平台列表与定价页，确认它能在哪些应用内直接替换文本以及按什么方式收费。
+  market: ''
+  job: 写作者、客服或非母语使用者在邮件、文档或网页输入框里编辑一段文字时，需要把光标附近的文本翻译、缩写、纠错或改写后继续使用。
+  job_en: A writer, support agent or non-native speaker editing text in an email, document or web form
+    needs the passage near the cursor translated, shortened, corrected or rewritten before continuing.
+  pain: 候选材料只给出功能描述，没有说明用户此前在哪一步受阻、耗时多久或出错代价，痛点强度无法从公开事实判断。
+  pain_en: The candidate material only gives a feature description; it does not say which step previously
+    blocked users, how long it took or what errors cost, so pain intensity cannot be judged from public
+    facts.
+  current_alternative: 用户目前通常复制文本到通用聊天助手或翻译工具，处理后再粘贴回原处，或直接在原应用里手动改写。
+  current_alternative_en: Users currently copy text into a general chat assistant or translation tool,
+    process it, then paste it back, or simply rewrite it by hand in the original application.
+  usage_reason: 推断：相较复制到外部工具再粘贴回来，Jarq 若能在光标处直接完成替换，可省去切换窗口与两次复制粘贴；但公开材料未说明它支持哪些应用、是否保留格式，因此哪类用户会因此选择它仍缺少证据。
+  usage_reason_en: 'Inference: compared with copying into an external tool and pasting back, Jarq could
+    remove window switching and two copy-paste steps if it truly replaces text at the cursor; but public
+    material does not say which applications it supports or whether formatting is preserved, so which
+    users would choose it lacks evidence.'
+- id: req-full-jarq-2026-10-06
+  project_slug: jarq
+  level: full
+  reviewed_at: '2026-10-06T02:52:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在任意应用内就地翻译、缩写、纠错、改写光标附近文本的需求，痛点来自跨应用复制粘贴与格式丢失；不采用则需手动改写或反复切换工具。公开材料仅一条功能描述，痛点刚性属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-531dcef094a593d3
+  - gate: consensus
+    status: insufficient
+    reason: 除一条产品功能描述外，没有用户评价、社区讨论、收藏或采用迹象，无法判断是否有人真的把它放进日常写作流程，也无法归因任何使用规模。
+    evidence_ids:
+    - ev-531dcef094a593d3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，to C 订阅还是 to B 坐席采购均属未知；这是判断而非已验证事实，但买方不清不取消价值关结论。
+    evidence_ids:
+    - ev-531dcef094a593d3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真的在任意应用内完成替换、是否保留原文格式，以及人工确认边界如何设置；承诺能否确定性交付缺少部署文档或实测证据。
+    evidence_ids:
+    - ev-531dcef094a593d3
+  next_validation: 收集 Jarq 官方页面上的支持平台列表与定价页，确认它能在哪些应用内直接替换文本以及按什么方式收费。
+  market: ''
+  job: 写作者、客服与销售支持人员或非母语使用者在邮件、文档、网页输入框等任意应用里编辑一段文字时，选中光标附近的段落，需要把它翻译、缩写、纠错或改写后继续使用，并自行确认是否采纳替换文本。
+  job_en: A writer, support/sales agent or non-native speaker editing text in an email, document or web
+    form needs the passage near the cursor translated, shortened, corrected or rewritten before continuing,
+    and decides whether to accept the replacement.
+  pain: 公开材料只给出功能描述，未说明旧流程卡在哪一步、耗时多久或出错代价；从工作流结构推理，跨应用改写需在原文与外部工具间反复切换、复制粘贴，并承担格式丢失与上下文断裂的风险，但痛点强度尚无用户反馈佐证。
+  pain_en: Public material only gives a feature description and does not state which step blocks users,
+    how long it takes or what errors cost; by workflow inference, cross-application rewriting forces repeated
+    switching, copy-paste and risks of lost formatting and broken context, though pain intensity lacks
+    user-feedback support.
+  current_alternative: 用户目前通常把文本复制到通用聊天助手或翻译工具，处理后再粘贴回原处，或直接在原应用里手动改写。
+  current_alternative_en: Users currently copy text into a general chat assistant or translation tool,
+    process it, then paste it back, or rewrite it by hand in the original application.
+  usage_reason: 推断：相较复制到外部工具再粘贴回来，Jarq 若能在光标处直接完成替换，可省去切换窗口与两次复制粘贴，并让改写发生在原文语境中，因此高频处理多语言或需润色文本的写作者、客服与非母语使用者会在原应用内直接调用它；但公开材料未说明支持哪些应用、是否保留格式，该因果仍属结构推理。
+  usage_reason_en: 'Inference: compared with copying into an external tool and pasting back, Jarq could
+    remove window switching and two copy-paste steps and keep rewriting inside the original context, so
+    writers, support agents and non-native speakers handling multilingual or polished text frequently
+    would invoke it in-app; but public material does not say which applications it supports or whether
+    formatting is preserved, so this causal link remains structural inference.'

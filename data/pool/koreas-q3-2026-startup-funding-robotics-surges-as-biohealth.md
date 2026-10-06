@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE43ZHF4YmdqU1FN
 summary: 'Korea’s Q3 2026 Startup Funding: Robotics Surges as Biohealth Mega-Deals Vanish Wowtale'
 first_seen: '2026-10-05T03:42:14Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

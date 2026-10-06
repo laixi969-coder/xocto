@@ -1,0 +1,90 @@
+- id: req-initial-devboard-2026-10-06
+  project_slug: devboard
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决小团队排期与任务跟踪需求，痛点真实但强度不明；公开材料未说明相较现有工具具体省掉哪一步，也未给出用户反馈。
+    evidence_ids:
+    - ev-f74bc8a7f8853d6b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布描述，社区讨论量为零，无法判断是否有团队真的把它放进日常工作流。
+    evidence_ids:
+    - ev-f74bc8a7f8853d6b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页或买方信息，无法判断收入来自团队订阅还是其他方式，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f74bc8a7f8853d6b
+  - gate: truth
+    status: insufficient
+    reason: MCP 接入与原生应用能否确定性交付任务状态，缺少文档或可复现验证，人工确认边界也未说明。
+    evidence_ids:
+    - ev-f74bc8a7f8853d6b
+  next_validation: 收集 DevBoard 官方定价页或产品文档，确认其计费方式与 MCP 接入的具体能力边界。
+  market: ''
+  job: 小型开发团队在迭代排期时，需要把需求拆成任务、分配负责人并跟踪状态，材料是待办事项与进度信息。
+  job_en: Small development teams breaking requirements into tasks, assigning owners and tracking status
+    during iteration planning, working from to-do items and progress information.
+  pain: 重型项目管理工具配置项多、上手和维护成本高，小团队常被迫在功能过剩的界面里做简单排期。
+  pain_en: Heavy project tools carry many configuration options and high setup and upkeep costs, forcing
+    small teams to do simple scheduling inside an over-featured interface.
+  current_alternative: 继续用 ClickUp、Jira、Linear 或表格与聊天工具手工同步任务状态。
+  current_alternative_en: Continuing with ClickUp, Jira, Linear, or spreadsheets and chat tools to sync
+    task status by hand.
+  usage_reason: 推断：若原生应用确实省去配置步骤，并让 AI 助手通过 MCP 直接读写任务，团队可少一步手工录入和状态同步；但公开材料未说明它比现有工具少做哪一步，也缺少用户反馈，因此选择理由尚不成立。
+  usage_reason_en: 'Inference: if the native apps really skip configuration and let AI assistants read
+    and write tasks via MCP, teams could save a manual entry and status-sync step; however, public material
+    does not say which step it removes versus existing tools and lacks user feedback, so the reason to
+    choose it is not yet established.'
+- id: req-full-devboard-2026-10-06
+  project_slug: devboard
+  level: full
+  reviewed_at: '2026-10-06T02:52:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小团队排期与任务跟踪需求：重型工具配置与维护成本高，任务状态还需人工同步。公开材料已给出原生应用与 MCP 读写任务的交付路径，可还原旧流程中被省掉的手工录入环节，属工作流结构推理；痛点刚性成立，但缺用户反馈佐证强度。
+    evidence_ids:
+    - ev-f74bc8a7f8853d6b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品发布描述，未发现开发者讨论、评价或团队采用记录，无法判断小团队是否真把它放进日常排期工作流，共识卡在感知与场景验证环节。
+    evidence_ids:
+    - ev-f74bc8a7f8853d6b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页或买方信息，收入可能来自小团队订阅或按席位收费，但这是判断而非已验证事实；公开材料也未说明 MCP 接入是否单独计费。
+    evidence_ids:
+    - ev-f74bc8a7f8853d6b
+  - gate: truth
+    status: insufficient
+    reason: 原生应用与 MCP 能否确定性读写任务状态，缺少部署文档或可复现验证，AI 助手写入任务时的人工确认与权限边界也未说明。
+    evidence_ids:
+    - ev-f74bc8a7f8853d6b
+  next_validation: 追踪 DevBoard 官网定价页与产品文档，确认计费方式及 MCP 读写任务的能力边界与权限说明。
+  market: ''
+  job: 小型开发团队在迭代排期时，把需求拆成任务、分配负责人并跟踪状态，处理的是待办事项与进度信息，最终交付一份团队共享的任务看板与进度状态。
+  job_en: Small dev teams breaking requirements into tasks, assigning owners and tracking status during
+    iteration planning, working from to-do items and progress data, delivering a shared task board and
+    status.
+  pain: ClickUp、Jira 这类重型工具配置项多、上手与维护成本高，小团队被迫在功能过剩的界面里做简单排期；同时任务状态散落在工具与聊天记录中，需要人工同步。
+  pain_en: Heavy tools like ClickUp and Jira carry many configuration options and high setup and upkeep
+    costs, forcing small teams to do simple scheduling in an over-featured interface, while task status
+    scatters across tools and chat and must be synced by hand.
+  current_alternative: 继续用 ClickUp、Jira、Linear，或用表格加聊天工具手工同步任务状态。
+  current_alternative_en: Continuing with ClickUp, Jira, Linear, or spreadsheets plus chat tools to sync
+    task status by hand.
+  usage_reason: 推断：相较在 ClickUp 里逐项配置看板、列表和状态字段，DevBoard 以原生应用承载建任务、改状态，并让 AI 助手通过 MCP 直接读写同一份任务数据，省去手工录入与状态同步这一步；因此嫌重型工具配置负担重、又希望
+    AI 助手直接操作任务的小型开发团队会在排期场景选择它。公开材料尚未给出用户反馈，此为结构推理。
+  usage_reason_en: 'Inference: versus configuring boards, lists and status fields item by item in ClickUp,
+    DevBoard carries task creation and status changes in native apps and lets AI assistants read and write
+    the same task data via MCP, removing the manual entry and status-sync step; small dev teams that find
+    heavy tools burdensome and want AI assistants to operate tasks directly would choose it for planning.
+    Public material gives no user feedback yet, so this is structural reasoning.'

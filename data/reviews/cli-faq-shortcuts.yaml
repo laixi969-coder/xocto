@@ -288,3 +288,53 @@
     history, mines frequent asks, and generates short commands, removing the ''recall and retype the original
     phrasing'' step, so developers with high-frequency repeated prompts would choose it; no public retention
     evidence shows it stays in the workflow.'
+- id: req-full-cli-faq-shortcuts-2026-10-06
+  project_slug: cli-faq-shortcuts
+  level: full
+  reviewed_at: '2026-10-06T02:51:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是终端编码助手用户反复手敲同类提问、提示词措辞不一致的问题，痛点来自重复劳动本身，旧替代是手动重敲或自建片段库；产品以本地历史提取加命令生成完成交付，闭环可确定。属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-07dd489d460b83e7
+    - ev-53355babde7f44ba
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 110 增至 127，说明有开发者关注并收藏，但收藏不等于持续使用；公开材料没有 issue、discussion 或评价说明谁在何种场景长期调用这些命令，采用共识尚未形成。
+    evidence_ids:
+    - ev-07dd489d460b83e7
+    - ev-1e234568ea1a0db6
+  - gate: model
+    status: insufficient
+    reason: 这是开源 Agent Skill，公开材料未见定价页、付费路径或买方描述；谁付钱、以何种方式变现均无公开事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-53355babde7f44ba
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称提取器在本地运行、读取本机历史，但未见部署文档、权限说明或可复现实测，无法核对生成命令的准确率与人工确认边界，交付确定性待补证。
+    evidence_ids:
+    - ev-53355babde7f44ba
+  next_validation: 追踪该仓库的 README/部署文档与 issue、discussion，确认本地历史提取的权限范围、生成命令的采纳率，以及是否有用户公开描述将其纳入日常终端工作流。
+  market: ''
+  job: 使用 Claude Code、Codex 或 Cursor 的开发者，在终端里反复输入同一类提问（如代码审查、重构、解释报错）时，需要把本机历史里高频出现的提问整理成可复用的 slash 命令，以便下次直接调用而不必重新敲一遍。
+  job_en: Developers using Claude Code, Codex, or Cursor who repeatedly type the same class of prompts
+    in the terminal need to mine their local history for high-frequency asks and turn them into reusable
+    slash commands, so they can invoke them next time instead of retyping.
+  pain: 公开说明指向的痛点是重复输入：同一类提问在多次会话中反复手敲，既费时又容易措辞不一致，导致同一任务每次得到的指令质量参差；不解决的代价是每次都要重新组织提示词。这是从产品说明与工作流结构推出的，尚无用户抱怨或反馈直接佐证。
+  pain_en: 'The stated pain is repeated typing: the same class of prompt is hand-typed across sessions,
+    costing time and producing inconsistent wording, so the same task gets uneven instructions each time;
+    the cost of leaving it unsolved is re-composing the prompt every session. This is inferred from the
+    product description and workflow structure, not from direct user complaints or feedback.'
+  current_alternative: 旧做法是每次手动重新输入提示词，或自己维护一份提示词片段/备忘文本再复制粘贴；公开材料未说明用户是否已在用其他提示词管理工具。
+  current_alternative_en: The old way is retyping the prompt each time, or maintaining one's own snippet/notes
+    file and copy-pasting; public materials do not show whether users already use other prompt-management
+    tools.
+  usage_reason: 推断：相较手动重敲或自建片段库，它通过本地 Python 提取器读取本机 Claude Code/Codex 历史、自动归纳高频提问并生成 slash 命令，省去用户自己统计频次和命名的那一步；因此高频使用同一批提示词的终端开发者会在重复劳动明显时选择它。缺少用户反馈，动机仍属推断。
+  usage_reason_en: 'Inference: versus retyping or hand-building a snippet library, it reads local Claude
+    Code/Codex history via a local Python extractor, auto-clusters frequent asks, and emits slash commands,
+    removing the step of counting frequency and naming commands yourself; thus terminal developers with
+    a stable set of repeated prompts would pick it when the repetition becomes noticeable. Without user
+    feedback, the motive remains inferred.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNTUExa29oN09p
 summary: Human or AI? Study Spots Machine-Written and Rephrased Text With 96.46% Accuracy Devdiscourse
 first_seen: '2026-10-05T13:24:35Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

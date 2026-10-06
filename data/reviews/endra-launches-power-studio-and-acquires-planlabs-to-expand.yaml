@@ -1,0 +1,92 @@
+- id: req-initial-endra-launches-power-studio-and-acquires-planlabs-to-expand-2026-10-06
+  project_slug: endra-launches-power-studio-and-acquires-planlabs-to-expand
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电气设计中方案与计算从零手工搭建的需求，痛点是重复核对与返工成本高，旧流程明确存在。
+    evidence_ids:
+    - ev-781b7687d89c4e67
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明发布与收购，未见客户采用、评价或使用规模，共识环节证据不足。
+    evidence_ids:
+    - ev-781b7687d89c4e67
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，钱可能来自设计院或承包商，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-781b7687d89c4e67
+  - gate: truth
+    status: insufficient
+    reason: 工程方案需人工复核，交付确定性与安全边界在公开材料中未说明。
+    evidence_ids:
+    - ev-781b7687d89c4e67
+  next_validation: 收集 Endra 官方定价页或客户案例页面，确认其电气设计方案的交付物与付费方式。
+  market: ''
+  job: 电气工程师在机电设计阶段处理负荷清单、回路与配电要求等资料，要产出一套可交付的电气设计方案与计算书。
+  job_en: Electrical engineers handling load lists, circuits and distribution requirements during MEP
+    design need to produce a deliverable electrical design scheme and calculation set.
+  pain: 这类计算与方案整理高度依赖人工逐项核对规范与参数，重复劳动多，出错后返工成本高。
+  pain_en: Such calculations and scheme drafting rely heavily on manual, item-by-item checking of codes
+    and parameters, with much repetitive work and costly rework after errors.
+  current_alternative: 目前主要靠工程师用通用CAD、表格与计算软件手工搭建方案，再逐条人工复核。
+  current_alternative_en: Today engineers mainly build schemes by hand in general CAD, spreadsheets and
+    calculation software, then review them item by item.
+  usage_reason: 相较手工在表格与CAD里逐项搭建，它由 agent 直接根据工程输入生成电气方案与计算，减少从零起草这一步；推断设计院或机电承包商在方案初稿阶段会优先试用，但公开材料未给出客户案例或复购证据。
+  usage_reason_en: Compared with building schemes item by item in spreadsheets and CAD, it has agents
+    generate the electrical scheme and calculations directly from engineering inputs, removing the from-scratch
+    drafting step; inference is that design institutes or MEP contractors would try it at the draft-scheme
+    stage, but public materials give no customer case or repeat-use evidence.
+- id: req-full-endra-launches-power-studio-and-acquires-planlabs-to-expand-2026-10-06
+  project_slug: endra-launches-power-studio-and-acquires-planlabs-to-expand
+  level: full
+  reviewed_at: '2026-10-06T02:52:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电气设计中负荷计算、回路与配电方案从零手工搭建的需求，痛点是逐项核对规范、参数改动牵动全稿导致返工成本高，旧流程明确存在；这是基于产品输入—动作—交付闭环的工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-378a773ba9044de5
+    - ev-d256c8d231d1a8c6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有产品定位与发布信息，未见客户采用、用户评价或使用规模，无法判断工程师是否已在工作流中持续使用，共识环节证据不足。
+    evidence_ids:
+    - ev-378a773ba9044de5
+    - ev-e223eca207a1fb50
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，钱可能来自设计院、机电承包商或工程顾问的 to B 采购，也可能走 to VC；这是判断而非已验证事实，且无付费或采购记录可核。
+    evidence_ids:
+    - ev-d256c8d231d1a8c6
+  - gate: truth
+    status: insufficient
+    reason: 电气方案涉及安全与规范合规，公开材料未说明 agent 产出的复核机制、人工边界与交付确定性，也未给出可核对的交付结果。
+    evidence_ids:
+    - ev-378a773ba9044de5
+  next_validation: 追踪 Endra 官网（endra.ai）是否上线 Power Studio 的定价页或客户案例页，以核验交付物范围、买方类型与付费方式。
+  market: ''
+  job: 电气工程师在机电（MEP）设计阶段处理负荷清单、回路划分与配电要求等工程输入，要产出一套可交付的电气设计方案与计算文档，并同步进 Revit 等协同设计流程。
+  job_en: Electrical engineers in the MEP design phase take load lists, circuit assignments and distribution
+    requirements as inputs and must produce a deliverable electrical design scheme and calculation documentation,
+    synced into coordinated workflows such as Revit.
+  pain: 负荷计算、回路与配电方案长期靠人工逐项搭建和核对规范参数，重复劳动密集，一处参数改动会牵动整套计算与图纸，返工成本高。
+  pain_en: Load calculations, circuits and distribution schemes are long built and code-checked item by
+    item by hand; the work is repetitive and a single parameter change ripples through the whole calculation
+    and drawing set, making rework costly.
+  current_alternative: 工程师目前用通用 CAD、电子表格与独立计算软件手工搭建方案，再逐条人工复核，并在 Revit 中手工维护模型与图纸的一致性。
+  current_alternative_en: Engineers today build schemes by hand in general CAD, spreadsheets and standalone
+    calculation software, review them item by item, and manually keep models and drawings consistent in
+    Revit.
+  usage_reason: 推断：相较在表格与 CAD 里从零起草，Endra 由 agent 依据工程输入直接生成电气方案与计算产出，省去初稿搭建这一步，并借 Revit 同步减少模型与图纸对不上的返工；因此方案初稿阶段的电气工程师或机电设计团队更可能选择它，但公开材料尚无客户案例或复购证据支持这一动机。
+  usage_reason_en: 'Inference: rather than drafting from scratch in spreadsheets and CAD, Endra''s agents
+    generate the electrical scheme and calculations directly from engineering inputs, removing the first-draft
+    step and, via Revit sync, reducing rework from model-drawing mismatch; electrical engineers or MEP
+    design teams at the draft-scheme stage are therefore the likelier adopters, though public materials
+    offer no customer case or repeat-use evidence for this motive.'

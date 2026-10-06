@@ -2,35 +2,32 @@
 slug: reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark
 name: Reco
 builder: ''
-category: AI + 开发
-summary_zh: 企业安全团队在把 AI 智能体接入内部系统时，需要处理智能体的权限、数据访问范围和操作日志等材料，Reco 接收这些运行数据并执行监控与风险识别，最终交付可核查的智能体行为风险视图；具体检测流程与交付形态仍待核验。
-inspiration: 趋势是 AI 智能体开始进入企业生产环境，随之出现对智能体行为本身的监控与治理需求，而不是只保护传统账号和终端。切入可从金融、医疗等强合规行业的安全团队入手，卖法可能是按受管智能体数量或按合规审计交付计费，但公开材料未披露定价，属推断。
-summary_en: When enterprise security teams connect AI agents to internal systems, they must handle agent
-  permissions, data-access scope and operation logs; Reco ingests this runtime data and performs monitoring
-  and risk identification, delivering a checkable view of agent behavior risk. The specific detection
-  workflow and delivery format still need verification.
-inspiration_en: The trend is that AI agents are entering enterprise production environments, creating
-  demand to monitor and govern agent behavior itself rather than only protecting traditional accounts
-  and endpoints. The entry point could be security teams in highly regulated sectors such as finance and
-  healthcare, potentially priced per managed agent or per compliance audit deliverable, though no public
-  pricing is disclosed and this is inference.
+category: 基础层
+summary_zh: 候选材料只说明 Reco 是一家 AI 代理安全方向的初创公司及其融资额，未提供产品界面、输入材料、执行动作或交付结果，具体流程与交付仍待核验。
+inspiration: 融资额本身不是可抄的机制；真正值得观察的是企业把 AI 代理接入内部系统后，谁负责审计代理的权限与行为。若这一环节由安全团队而非代理厂商承担，就可能出现按代理数量或按审计次数收费的独立供给。
+summary_en: The candidate material only states that Reco is an AI agent security startup and its funding
+  amounts; it provides no product interface, input material, actions performed, or deliverables, so the
+  concrete workflow and output remain unverified.
+inspiration_en: The funding amount itself is not a copyable mechanism; what is worth watching is who audits
+  an AI agent's permissions and behavior once enterprises connect agents to internal systems. If that
+  step falls to security teams rather than agent vendors, an independent offering priced per agent or
+  per audit could emerge.
 priority_review: false
 project_type: new_application
 industries:
-- 企业软件与信息安全
-- 金融与专业服务
+- 信息安全
+- 企业软件
 industries_en:
-- Enterprise Software & Cybersecurity
-- Financial & Professional Services
+- Information Security
+- Enterprise Software
 jobs:
-- 企业安全团队在部署 AI 智能体时，处理智能体权限、数据访问与操作日志等材料，完成对智能体行为的监控与风险处置
+- 企业安全团队在部署 AI 代理前评估其权限与访问风险
 jobs_en:
-- Enterprise security teams handling agent permissions, data access and operation logs when AI agents
-  are deployed, to monitor agent behavior and remediate risk
+- Enterprise security teams assessing permission and access risk before deploying AI agents
 regions:
-- 北美
+- 美国
 regions_en:
-- North America
+- United States
 open_source: false
 url: https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/
 canonical_url: https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market
@@ -38,7 +35,7 @@ summary: The round builds on a $30 million fundraise in February, taking the com
   $140 million.
 first_seen: '2026-09-29T12:30:00Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 - newssearch

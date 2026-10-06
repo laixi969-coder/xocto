@@ -193,3 +193,57 @@
     own Chrome, and writes each application or skip as a greppable, diffable markdown file — cutting the
     repeated screening and re-entry steps and making application history auditable. Job seekers in an
     intensive search with many criteria and a need to audit submissions are therefore the likely'
+- id: req-full-seekter-2026-10-06
+  project_slug: seekter
+  level: full
+  reviewed_at: '2026-10-06T02:54:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者每日跨来源筛职位并按硬条件过滤、再重复填写申请表单的需求；痛点是职位分散、签证与地点等硬条件需逐条比对、表单重复填写且投递记录不可回溯。公开仓库说明已还原输入、动作与交付闭环，属工作流结构推理；谁付钱未在公开材料中说明，留待模式关。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+    - ev-5ecca461280c4b47
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 44 升至 52，说明开发者社区注意到该项目，但收藏与关注属规模或关注度证据，不能证明目标求职者已把它留在日常工作流或持续使用；缺少 issue、discussion
+      或用户评价说明实际使用场景。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+    - ev-5ecca461280c4b47
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断收入来自求职者个人订阅、招聘方还是其他方；这是判断而非已验证事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  - gate: truth
+    status: insufficient
+    reason: 产品在用户本人 Chrome 中自动填写申请表单，交付是否稳定、是否触发招聘网站反自动化限制、以及人工复核与账号安全边界，公开材料均未说明；缺少部署文档或可复现实测来确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+    - ev-5441ad48d0c4613c
+  next_validation: 追踪 seekter 仓库的 issue 与 discussion，确认是否有用户报告实际部署、替代了哪种旧投递流程，以及自动填表在真实招聘网站上的失败与风控情况。
+  market: ''
+  job: 求职者在密集投递期，每天处理多个招聘来源的职位列表，按地点、签证、薪资、行业、资历、语言等自定规则筛出可投职位，并在本人 Chrome 中填写申请表单，同时留下可检索、可对比的申请与跳过记录。
+  job_en: During an intensive job hunt, a job seeker processes postings from multiple sources daily, filters
+    them against self-defined rules (location, visa, salary, sector, seniority, language), fills application
+    forms in their own Chrome, and keeps greppable, diffable records of each application and skip.
+  pain: 公开材料显示的真实摩擦是：职位分散在多个来源、需逐条比对硬性条件（尤其签证与地点），重复填写同类表单，且申请与跳过没有可回溯记录，导致重复投递、漏投和无法复盘筛选规则。这是从产品输入—动作—交付闭环作出的工作流结构推理，不是用户口述。
+  pain_en: The friction visible in public materials is that postings are scattered across sources, must
+    be checked one by one against hard constraints (especially visa and location), forms are refilled
+    repeatedly, and applications/skips leave no traceable record, causing duplicate or missed applications
+    and no way to audit filtering rules. This is workflow-structural inference from the product's input-action-delivery
+    loop, not user testimony.
+  current_alternative: 旧做法是求职者自己每天刷招聘网站与聚合站、用关键词和站点筛选器粗筛、在表格或笔记里手工记录投递状态，并逐个网站重复填写表单；部分人用浏览器自动填充或通用爬虫脚本，但规则与记录仍分散。
+  current_alternative_en: The old approach is manually refreshing job boards and aggregators daily, coarse-filtering
+    with keywords and site filters, tracking applications in a spreadsheet or notes, and refilling forms
+    site by site; some use browser autofill or generic scraping scripts, but rules and records stay fragmented.
+  usage_reason: 推断：相较手工刷站与逐个填表，它把“按自定规则过滤”和“在本人已登录的 Chrome 中填表”合并为一次每日运行，并把每次申请或跳过落成 markdown 文件，使求职者能
+    grep 与 diff 自己的筛选与投递历史，减少重复比对和重复填表这两步负担；因此处于密集投递期、且对签证/地点等硬条件敏感的求职者会在需要批量处理职位时选择它。
+  usage_reason_en: 'Inference: versus manual board-refreshing and form-filling, it merges rule-based filtering
+    and form filling inside the user''s own logged-in Chrome into one daily run, and writes each application
+    or skip to a markdown file so the seeker can grep and diff their own filtering and submission history,
+    removing the repeated comparison and repeated form-filling steps; hence seekers in an intensive application
+    period who are sensitive to hard constraints like visa and location would '

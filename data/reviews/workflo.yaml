@@ -390,3 +390,79 @@
   usage_reason_en: 'Inference: if it truly automates locally without uploading screen content, users handling
     sensitive material would pick it to avoid sending content to the cloud; however, the candidate material
     gives no feature detail or user feedback to confirm this.'
+- id: req-initial-workflo-2026-10-06
+  project_slug: workflo
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本地重复操作自动化，但公开材料未说明具体任务、频率与不做的后果，痛点强度无法判断。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有可归因到该产品的采用或持续使用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方信息，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 不读屏的执行边界与人工确认环节未披露，承诺能否确定性交付无法核对。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或文档，确认其支持的具体自动化动作、输入材料与交付结果。
+  market: ''
+  job: Mac 用户在日常工作中反复执行同一套本地操作（如文件整理、跨应用搬运数据）时，希望把这些步骤交给工具自动完成。
+  job_en: A Mac user who repeatedly performs the same local operations at work (e.g. file organizing,
+    moving data across apps) wants a tool to run those steps automatically.
+  pain: 重复的本地操作耗时且易出错，但公开材料没有说明具体是哪一步、多频繁、不做的代价是什么。
+  pain_en: Repetitive local operations are time-consuming and error-prone, but the public material does
+    not say which step, how often, or what the cost of not doing it is.
+  current_alternative: 用户目前靠手动操作、系统自带快捷指令或通用脚本工具完成，具体替代方式未在材料中说明。
+  current_alternative_en: Users currently rely on manual work, built-in shortcuts, or generic scripting
+    tools; the material does not specify which.
+  usage_reason: 推断：若它真能在不读屏的前提下稳定执行本地重复流程，用户可能因为省去逐步手动点击而选择它；但缺少功能细节与使用反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if it reliably runs local repetitive flows without screen reading, users
+    might choose it to avoid step-by-step manual clicking; but without feature detail or user feedback
+    this causal link is unconfirmed.'
+- id: req-full-workflo-2026-10-06
+  project_slug: workflo
+  level: full
+  reviewed_at: '2026-10-06T02:55:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本地重复操作自动化，但公开材料未说明具体任务、频率与不做的后果，痛点强度无法判断。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或文档，确认其支持的具体自动化动作、输入材料与交付结果。
+  market: ''
+  job: Mac 用户在日常工作中反复执行同一套本地操作（如文件整理、跨应用搬运数据）时，希望把这些步骤交给工具自动完成。
+  job_en: A Mac user who repeatedly performs the same local operations at work (e.g. file organizing,
+    moving data across apps) wants a tool to run those steps automatically.
+  pain: 重复的本地操作耗时且易出错，但公开材料没有说明具体是哪一步、多频繁、不做的代价是什么。
+  pain_en: Repetitive local operations are time-consuming and error-prone, but the public material does
+    not say which step, how often, or what the cost of not doing it is.
+  current_alternative: 用户目前靠手动操作、系统自带快捷指令或通用脚本工具完成，具体替代方式未在材料中说明。
+  current_alternative_en: Users currently rely on manual work, built-in shortcuts, or generic scripting
+    tools; the material does not specify which.
+  usage_reason: 推断：若它真能在不读屏的前提下稳定执行本地重复流程，用户可能因为省去逐步手动点击而选择它；但缺少功能细节与使用反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if it reliably runs local repetitive flows without screen reading, users
+    might choose it to avoid step-by-step manual clicking; but without feature detail or user feedback
+    this causal link is unconfirmed.'

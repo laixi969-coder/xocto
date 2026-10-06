@@ -1,6 +1,6 @@
 ---
 slug: downgrading-user-roles-in-amazon-quick
-name: Downgrading user roles in Amazon Quick
+name: Amazon Quick
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: 'Amazon Quick doesn''t offer a direct console path to downgrade a user 
   CLI step-down sequence that downgrades roles safely while preserving asset ownership.'
 first_seen: '2026-10-05T15:51:38Z'
 last_seen: '2026-10-06T02:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Downgrading user roles in Amazon Quick
+# Amazon Quick
 
 Amazon Quick doesn't offer a direct console path to downgrade a user from Admin or Author to Reader. This post walks through two reliable methods: a manual delete-and-recreate approach and an AWS CLI step-down sequence that downgrades roles safely while preserving asset ownership.
 

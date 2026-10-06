@@ -1,0 +1,85 @@
+- id: req-initial-soldstack-2026-10-06
+  project_slug: soldstack
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决二手服装定价时缺少可比成交价的问题，痛点真实，但材料只有一句接口描述，无法确认数据来源与交付是否确定。
+    evidence_ids:
+    - ev-46054f1c3f60b9d3
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 8 个点赞、9 条评论，属于早期关注，不能说明卖家已把它纳入定价流程。
+    evidence_ids:
+    - ev-46054f1c3f60b9d3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、买方类型或收费方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-46054f1c3f60b9d3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对成交数据的真实性与更新机制，也未说明人工复核边界，交付确定性存疑。
+    evidence_ids:
+    - ev-46054f1c3f60b9d3
+  next_validation: 收集 SoldStack 官方定价页或 API 文档，确认数据来源、覆盖平台、更新频率与收费方式。
+  market: ''
+  job: 二手服装卖家在给库存定价时，需要参考同类商品的历史成交价，以决定挂牌价和收货价。
+  job_en: Secondhand clothing sellers pricing inventory need comparable historical sold prices to set
+    listing and sourcing prices.
+  pain: 成交价分散在各转售平台，人工逐条翻查耗时且口径不一，定价偏差直接影响利润。
+  pain_en: Sold prices are scattered across resale platforms; manual lookup is slow and inconsistent,
+    and pricing errors directly hit margins.
+  current_alternative: 卖家手动搜索各平台的已售记录，或凭经验估价，或使用平台自带的有限价格提示。
+  current_alternative_en: Sellers manually search sold listings on each platform, estimate from experience,
+    or rely on limited built-in price hints.
+  usage_reason: 推断：若接口能稳定返回可比成交价，卖家可在定价环节少做一步跨平台人工检索，直接得到参考价；但目前只有一句接口描述，缺少数据来源、覆盖范围与使用证据，无法确认这一减负是否成立。
+  usage_reason_en: 'Inference: if the API reliably returns comparable sold prices, sellers could skip
+    a cross-platform manual search step and get a reference price directly; however, only a one-line API
+    description exists, with no data source, coverage or usage evidence to confirm this reduction in effort.'
+- id: req-full-soldstack-2026-10-06
+  project_slug: soldstack
+  level: full
+  reviewed_at: '2026-10-06T02:54:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决二手服装卖家定价时缺少可比成交价的问题：成交价分散在各平台，人工翻查耗时且口径不一，定价偏差直接影响利润，卖家已有手动搜索或凭经验估价的替代行为，交付物是可直接调用的参考价。
+    evidence_ids:
+    - ev-46054f1c3f60b9d3
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句接口描述，未见卖家讨论、评价或将其纳入定价流程的行为记录，无法判断目标用户是否形成采用共识。
+    evidence_ids:
+    - ev-46054f1c3f60b9d3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、买方类型或收费方式，钱可能来自调用接口的转售工具或卖家，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-46054f1c3f60b9d3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对成交数据的来源、覆盖平台与更新机制，也未说明人工复核边界，交付能否确定发生尚缺公开证据。
+    evidence_ids:
+    - ev-46054f1c3f60b9d3
+  next_validation: 收集 SoldStack 官方定价页或 API 文档，确认数据来源、覆盖平台、更新频率与收费方式。
+  market: ''
+  job: 二手服装卖家在给一件库存定价时，需要参考同类商品在各转售平台的历史成交价，以决定挂牌价和收货价。
+  job_en: Secondhand clothing sellers pricing an item need comparable historical sold prices across resale
+    platforms to set listing and sourcing prices.
+  pain: 成交价分散在多个转售平台，卖家逐条翻查耗时且口径不一，定价偏高滞销、偏低损失利润，这一后果直接落在卖家收入上。
+  pain_en: Sold prices are scattered across resale platforms; manual lookup is slow and inconsistent,
+    and mispricing causes either dead stock or lost margin, directly hitting seller income.
+  current_alternative: 卖家手动搜索各平台的已售记录，凭经验估价，或使用平台自带的有限价格提示。
+  current_alternative_en: Sellers manually search sold listings on each platform, estimate from experience,
+    or rely on limited built-in price hints.
+  usage_reason: 推断：若接口能稳定返回可比成交价，卖家在定价环节可少做一步跨平台人工检索，直接拿到参考价，因此高频上架、按件定价的转售卖家会在定价时调用它；但数据来源与覆盖范围未公开，这一减负尚未被使用证据确认。
+  usage_reason_en: 'Inference: if the API reliably returns comparable sold prices, sellers skip a cross-platform
+    manual search step and get a reference price directly, so high-volume per-item resellers would call
+    it when pricing; however, data source and coverage are undisclosed, so this reduction is not yet confirmed
+    by usage evidence.'

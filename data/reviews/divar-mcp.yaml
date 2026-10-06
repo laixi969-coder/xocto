@@ -420,3 +420,52 @@
     step, so buyers, renters and agents who frequently compare Divar listings would choose it when narrowing
     candidates quickly; stars rising from 74 to 89 shows sustained developer attention, but no user feedback
     yet proves it is retained in a workflow.'
+- id: req-full-divar-mcp-2026-10-06
+  project_slug: divar-mcp
+  level: full
+  reviewed_at: '2026-10-06T02:52:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在 Divar 上找房或找二手货时逐条翻看、人工比价筛选的痛点，任务具体、旧替代明确、不解决会持续耗时漏选；只读接口加 AI 助手能确定性地完成检索与对比交付。这是工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-28f603826b2b21a9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 79 增至 90，说明开发者社区持续关注，但收藏与复刻只属关注度，不能证明找房者或中介已把它留在工作流；缺少 issue、discussion 或使用反馈说明谁在何种场景实际调用。
+    evidence_ids:
+    - ev-28f603826b2b21a9
+    - ev-d59c98da1c9fb0b7
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有只读、免 API key 的 MCP server 说明，没有定价页、付费主体或采购记录；钱可能来自 to C 订阅、to B 中介工具或 to VC 赞助，均属判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-28f603826b2b21a9
+  - gate: truth
+    status: insufficient
+    reason: 只读、免 key 降低了越权与封号风险，但公开材料未说明 Divar 反爬或条款限制、检索结果完整性、失败重试与人工兜底，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-28f603826b2b21a9
+  next_validation: 追踪该 MCP server 仓库的 README、issue 与 discussion，确认是否披露 Divar 接口稳定性、反爬限制及真实用户部署案例。
+  market: ''
+  job: 在伊朗 Divar 上找房或找二手货的购房者、租客与房产中介，面对大量波斯语分类广告，需要把逐条翻页浏览变成按条件检索、跨条对比和筛选，最终拿到一份可继续联系的候选清单。
+  job_en: Home buyers, renters and agents working on Iran's Divar take a large set of Persian-language
+    classified ads and need to turn page-by-page browsing into condition-based search, cross-listing comparison
+    and shortlisting, ending with a contactable candidate list.
+  pain: Divar 广告量大、字段不统一、需反复翻页与人工记录，找房者要在几十上百条里比对价格、面积和位置，耗时且容易漏掉合适房源；中介批量带看前也要重复做同样的检索整理。这是从产品只读检索与对比能力作出的工作流结构推理，尚无用户抱怨或访谈证据。
+  pain_en: Divar listings are numerous and inconsistently structured, forcing repeated paging and manual
+    note-taking; buyers must compare price, size and location across dozens of ads, which is slow and
+    easy to miss matches, and agents repeat the same retrieval work before bulk viewings. This is workflow-structure
+    inference from the read-only search and compare capability, not user complaint or interview evidence.
+  current_alternative: 旧做法是直接在 Divar 网站或 App 内用关键词和筛选器逐页翻看，把候选链接复制到聊天或表格里人工比对；部分用户可能借助浏览器插件或手工整理。公开材料未说明这些替代方式的具体使用比例。
+  current_alternative_en: The old way is browsing Divar's site or app page by page with keywords and filters,
+    copying candidate links into chat or spreadsheets for manual comparison; some may use browser extensions
+    or manual notes. Public materials do not quantify how widely these alternatives are used.
+  usage_reason: 相较逐页翻看，它把 Divar 检索接入 AI 助手，由助手直接调用只读接口完成搜索、对比和分析，用户少掉的是逐条打开、抄录字段和人工比价这几步，拿到的是已筛选的候选清单；因此会在需要快速缩小房源范围时选择它。这是基于产品能力与旧流程的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with page-by-page browsing, it plugs Divar retrieval into an AI assistant
+    that calls a read-only interface to search, compare and analyze, removing the steps of opening each
+    ad, transcribing fields and manually comparing prices, and returning a filtered shortlist; users would
+    choose it when they need to narrow listings quickly. This is inference from product capability and
+    the old workflow, not confirmed by user feedback.

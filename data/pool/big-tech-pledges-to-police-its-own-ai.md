@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE9DNnphdnpzQmlq
 summary: Big Tech Pledges to Police Its Own AI varindia
 first_seen: '2026-10-05T11:37:57Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

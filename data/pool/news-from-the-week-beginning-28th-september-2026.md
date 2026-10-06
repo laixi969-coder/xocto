@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxPeEJiNkxwSEVG
 summary: News from the week beginning 28th September 2026 - Enterprise Times
 first_seen: '2026-10-05T06:52:50Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

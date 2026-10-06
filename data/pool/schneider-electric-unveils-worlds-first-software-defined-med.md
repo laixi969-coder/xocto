@@ -22,7 +22,7 @@ summary: Schneider Electric Unveils World's First Software-Defined Medium Voltag
   AI-Ready Data Center Power Portfolio TradingView
 first_seen: '2026-09-28T14:00:00Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

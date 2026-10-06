@@ -1,0 +1,86 @@
+- id: req-initial-dirac-2026-10-06
+  project_slug: dirac
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决记不住命令语法、需反复查文档的问题，痛点结构成立，但公开材料只有作者自述，缺少可核验的准确率与使用场景。
+    evidence_ids:
+    - ev-fcc5a7be6d2e5226
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论且无评论，没有采用或评价证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-fcc5a7be6d2e5226
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fcc5a7be6d2e5226
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其生成命令的准确性与安全性，也未见人工确认边界说明。
+    evidence_ids:
+    - ev-fcc5a7be6d2e5226
+  next_validation: 收集 dirac 的公开仓库或评测材料，核验 EasyCommand 的准确率数据、部署方式与是否有独立复现结果。
+  market: ''
+  job: 开发者在需要把自然语言意图转成 bash 命令时，要快速得到一条可执行指令。
+  job_en: Developers need to quickly get an executable command when turning natural-language intent into
+    bash.
+  pain: 记不住复杂命令语法，或需要反复查文档才能拼出正确参数。
+  pain_en: They cannot recall complex command syntax or must repeatedly check documentation to assemble
+    correct arguments.
+  current_alternative: 目前多靠搜索引擎、man 手册、历史命令或直接问通用大模型。
+  current_alternative_en: Today they mostly rely on search engines, man pages, command history, or asking
+    a general large model.
+  usage_reason: 推断：相较查文档或问通用大模型，dirac 用微调小模型直接生成命令，减少检索与复制这一步，因此常写命令行的开发者可能选择它；公开材料未给出用户反馈或持续使用证据。
+  usage_reason_en: 'Inference: compared with checking docs or asking a general model, dirac uses a fine-tuned
+    small model to generate commands directly, removing the search-and-copy step, so frequent command-line
+    users may choose it; public materials give no user feedback or continued-use evidence.'
+- id: req-full-dirac-2026-10-06
+  project_slug: dirac
+  level: full
+  reviewed_at: '2026-10-06T02:52:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决把自然语言意图转成 bash 命令、免去记语法与查文档的问题，但公开材料只有作者自述的模型规模与性能对比，没有任何用户任务、痛点或旧替代行为的记录，连需求本身都还无法还原，故价值关不成立。
+    evidence_ids:
+    - ev-93710d842acc8862
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 dirac 的公开代码仓库或模型卡（如 公开模型社区 / 公开代码仓库），核验 EasyCommand 的评测数据、部署方式与是否有独立复现结果。
+  market: ''
+  job: 开发者或运维人员在终端里需要把一句自然语言意图（如“找出占用 8080 端口的进程并杀掉”）转成一条可直接执行的 bash 命令时，处理的是自己的意图描述与当前系统环境，要完成的任务是拿到一条语法正确、参数可用的命令行指令。
+  job_en: A developer or operator at a terminal needs to turn a natural-language intent (e.g. 'find the
+    process on port 8080 and kill it') into a directly executable bash command, working from their own
+    intent description and current system context, to obtain a syntactically correct command with usable
+    arguments.
+  pain: 公开材料只有作者一句“微调 1.5B Qwen 达到接近 GPT-4o 的 bash 生成水平”的自述，没有任何用户抱怨、使用记录或工作流描述，无法确认记不住命令语法、反复查 man 手册这一痛点是否真实存在且足够刚性。
+  pain_en: The only public material is the author's own claim that a fine-tuned 1.5B Qwen reaches near-GPT-4o
+    bash generation; there is no user complaint, usage record, or workflow description confirming that
+    forgetting command syntax and repeatedly checking man pages is a real and sufficiently acute pain.
+  current_alternative: 公开证据未描述任何现有替代行为；按命令行工作的常识，可能的旧做法是搜索引擎、man 手册、shell 历史或直接询问通用大模型，但这些都属推断，材料中没有用户实际行为的记录。
+  current_alternative_en: The public evidence describes no existing alternative behavior; by general command-line
+    practice the likely old ways are search engines, man pages, shell history, or asking a general LLM,
+    but these are inferences and no actual user behavior is recorded.
+  usage_reason: 推断：若产品真能用一个 1.5B 小模型在本地直接生成命令，相较查文档或调用通用大模型可省去检索与复制一步，常写命令行的开发者可能因此选择它；但公开材料没有用户反馈、采用或持续使用证据，这一因果链尚未被任何事实支撑。
+  usage_reason_en: 'Inference: if the product really generates commands locally with a 1.5B model, it
+    could remove the search-and-copy step versus checking docs or calling a general LLM, so frequent command-line
+    users might choose it; however, public materials contain no user feedback, adoption, or continued-use
+    evidence, so this causal chain is not backed by any fact.'

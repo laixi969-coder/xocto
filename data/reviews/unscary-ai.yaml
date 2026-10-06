@@ -1,0 +1,81 @@
+- id: req-initial-unscary-ai-2026-10-06
+  project_slug: unscary-ai
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 AI 落后焦虑，但公开材料说不出具体工作问题与学完后的可核对产出，痛点刚性不足。
+    evidence_ids:
+    - ev-7c58a3f21ad48e57
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布信息，无用户评价、采用或复购证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-7c58a3f21ad48e57
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅或 to B 培训采购均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-7c58a3f21ad48e57
+  - gate: truth
+    status: insufficient
+    reason: 无法核对课程是否贴近岗位第一性目标，也无交付确定性与人工边界说明。
+    evidence_ids:
+    - ev-7c58a3f21ad48e57
+  next_validation: 收集 Unscary AI 官方课程大纲或定价页，确认其按什么岗位任务组织内容、交付什么可核对产出。
+  market: ''
+  job: 担心在 AI 上落后的职场人，在碎片时间打开短课，想弄懂 AI 基础概念并跟上同事节奏。
+  job_en: Professionals worried about falling behind on AI open short lessons in spare moments to grasp
+    AI basics and keep pace with colleagues.
+  pain: 对 AI 的落后焦虑真实存在，但公开材料没有说明这些短课解决哪个具体工作问题，也没说明学完之后能完成什么原本做不了的任务。
+  pain_en: Anxiety about falling behind on AI is real, but the public material does not say which concrete
+    work problem these lessons solve, nor what task the learner can newly complete afterwards.
+  current_alternative: 看免费科普文章、短视频、公司内部培训，或干脆不学。
+  current_alternative_en: Reading free explainer articles, watching short videos, attending internal company
+    training, or simply not learning.
+  usage_reason: 推断：若短课能按岗位任务组织并给出可核对的练习产出，用户可能因为比零散科普更省筛选时间而选择它；但公开材料未披露课程内容与交付，无法确认它比现有免费内容减少了哪一步负担。
+  usage_reason_en: 'Inference: if the lessons were organized around job tasks and produced checkable practice
+    output, users might pick it to save the filtering time of scattered explainers; however, no curriculum
+    or deliverable is disclosed, so it cannot be confirmed which step it removes versus free content.'
+- id: req-full-unscary-ai-2026-10-06
+  project_slug: unscary-ai
+  level: full
+  reviewed_at: '2026-10-06T02:55:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 AI 落后焦虑，但公开材料说不出具体工作问题与学完后的可核对产出，痛点刚性不足。
+    evidence_ids:
+    - ev-7c58a3f21ad48e57
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Unscary AI 官方课程大纲或定价页，确认其按什么岗位任务组织内容、交付什么可核对产出。
+  market: ''
+  job: 担心在 AI 上落后的职场人，在碎片时间打开短课，想弄懂 AI 基础概念并跟上同事节奏。
+  job_en: Professionals worried about falling behind on AI open short lessons in spare moments to grasp
+    AI basics and keep pace with colleagues.
+  pain: 对 AI 的落后焦虑真实存在，但公开材料没有说明这些短课解决哪个具体工作问题，也没说明学完之后能完成什么原本做不了的任务。
+  pain_en: Anxiety about falling behind on AI is real, but the public material does not say which concrete
+    work problem these lessons solve, nor what task the learner can newly complete afterwards.
+  current_alternative: 看免费科普文章、短视频、公司内部培训，或干脆不学。
+  current_alternative_en: Reading free explainer articles, watching short videos, attending internal company
+    training, or simply not learning.
+  usage_reason: 推断：若短课能按岗位任务组织并给出可核对的练习产出，用户可能因为比零散科普更省筛选时间而选择它；但公开材料未披露课程内容与交付，无法确认它比现有免费内容减少了哪一步负担。
+  usage_reason_en: 'Inference: if the lessons were organized around job tasks and produced checkable practice
+    output, users might pick it to save the filtering time of scattered explainers; however, no curriculum
+    or deliverable is disclosed, so it cannot be confirmed which step it removes versus free content.'

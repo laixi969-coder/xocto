@@ -1,0 +1,90 @@
+- id: req-initial-french-cybersecurity-startup-fleuret-ai-raises-4-million-to-2026-10-06
+  project_slug: french-cybersecurity-startup-fleuret-ai-raises-4-million-to
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决渗透测试执行与报告整理的需求，痛点真实，但公开材料未说明 AI 具体替代哪一步、交付是否确定，价值结构尚不完整。
+    evidence_ids:
+    - ev-a33134d4d9d8881b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户采用、安全团队评价或场景验证，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-a33134d4d9d8881b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方类型，to B 按项目或订阅收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-a33134d4d9d8881b
+  - gate: truth
+    status: insufficient
+    reason: 渗透测试涉及安全边界与人工复核，公开材料未说明代理权限范围与误报处理方式，确定性交付无法核对。
+    evidence_ids:
+    - ev-a33134d4d9d8881b
+  next_validation: 收集 Fleuret AI 官方产品页或定价页，确认其渗透测试的输入、交付物、人工复核流程与收费方式。
+  market: ''
+  job: 安全团队在合规审计或上线前，需要处理目标系统与资产清单，完成渗透测试并产出可交付的漏洞报告。
+  job_en: Before a compliance audit or launch, a security team works from target systems and asset lists
+    to complete penetration testing and produce a deliverable vulnerability report.
+  pain: 人工渗透测试依赖资深工程师，排期长、成本高，报告整理也占时间；但公开材料未说明 Fleuret AI 具体减轻哪一步。
+  pain_en: Manual penetration testing depends on senior engineers, has long lead times and high cost,
+    and report writing takes time; the public material does not say which step Fleuret AI actually relieves.
+  current_alternative: 企业目前多雇佣渗透测试公司或内部安全工程师，按项目人工执行并出具报告。
+  current_alternative_en: Firms currently hire penetration testing vendors or in-house security engineers
+    to run engagements manually and issue reports.
+  usage_reason: 推断：若 AI 代理能自动完成扫描与初步验证，团队可省去部分重复执行与报告整理，从而在合规节点更快拿到结果；但缺少客户案例与实测证据，无法确认其能否替代人工验证，因此选择理由仍不成立。
+  usage_reason_en: 'Inference: if AI agents can automate scanning and initial validation, teams could
+    skip some repetitive execution and report drafting and get results faster at compliance deadlines;
+    however, with no customer cases or reproducible tests, it is unconfirmed whether human verification
+    can be replaced, so the reason to choose it is not yet established.'
+- id: req-full-french-cybersecurity-startup-fleuret-ai-raises-4-million-to-2026-10-06
+  project_slug: french-cybersecurity-startup-fleuret-ai-raises-4-million-to
+  level: full
+  reviewed_at: '2026-10-06T02:52:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合规或上线前渗透测试执行与报告整理的需求，痛点是资深工程师稀缺、排期长、成本高且报告耗时；公开报道称 AI 代理承担执行环节，输入资产清单、输出测试结果，不做的后果是合规节点无法交付。这是工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-a33134d4d9d8881b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有安全团队评价、客户案例或可观察的采用行为，无法判断共识卡在感知、场景还是利益环节；融资额只属关注度证据，不能证明持续使用。
+    evidence_ids:
+    - ev-a33134d4d9d8881b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方类型，to B 按项目或订阅收费只是推断而非已验证事实；安全预算通常由企业安全部门或合规部门支出，但公开材料未确认付费路径。
+    evidence_ids:
+    - ev-a33134d4d9d8881b
+  - gate: truth
+    status: insufficient
+    reason: 渗透测试涉及授权边界、误报处理与人工复核，公开材料未说明 AI 代理的权限范围、验证方式与交付确定性，无法核对承诺能否稳定兑现。
+    evidence_ids:
+    - ev-a33134d4d9d8881b
+  next_validation: 追踪 Fleuret AI 官方产品页或定价页，确认其渗透测试的输入材料、交付物形式、人工复核流程与收费方式。
+  market: ''
+  job: 安全团队在合规审计、客户安全审查或产品上线前，拿到目标系统与资产清单后，需要完成渗透测试并产出可交付的漏洞报告。
+  job_en: Before a compliance audit, client security review, or product launch, a security team takes
+    target systems and asset lists and must complete penetration testing and produce a deliverable vulnerability
+    report.
+  pain: 人工渗透测试依赖资深工程师，排期长、单次成本高，攻击路径规划、扫描执行与报告整理都占用人力；合规节点时间固定，人力不足时只能压缩测试范围。
+  pain_en: Manual penetration testing depends on scarce senior engineers, has long lead times and high
+    per-engagement cost, and attack-path planning, scan execution, and report writing all consume labor;
+    compliance deadlines are fixed, so teams understaffed must cut scope.
+  current_alternative: 企业目前雇佣第三方渗透测试公司或由内部安全工程师按项目人工执行，使用扫描器加人工验证，最后手工撰写报告。
+  current_alternative_en: Firms currently hire third-party penetration testing vendors or use in-house
+    security engineers to run engagements manually, combining scanners with manual validation and hand-written
+    reports.
+  usage_reason: 推断：相较按项目排期的人工测试，若 AI 代理能自动完成攻击路径规划、扫描执行与初步验证并直接生成报告，安全团队可省去重复执行与报告整理这两步，在合规节点前更快拿到结果；因此排期紧张、预算有限的安全团队会在例行或合规驱动的测试中选择它。公开材料未提供客户案例或实测，此因果仍属结构推理。
+  usage_reason_en: 'Inference: compared with manually scheduled engagements, if AI agents can automate
+    attack-path planning, scan execution, and initial validation and generate the report directly, security
+    teams skip the repetitive execution and report-drafting steps and get results before compliance deadlines;
+    teams with tight schedules and limited budgets would therefore choose it for routine or compliance-driven
+    testing. No customer cases or reproducible tests are public, so this causal clai'

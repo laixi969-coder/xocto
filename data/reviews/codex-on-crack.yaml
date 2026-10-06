@@ -141,3 +141,54 @@
     comparison, so developers using several models across scattered workspaces would pick it when they
     need unified orchestration and review; without user feedback or adoption evidence the causal link
     is unconfirmed.'
+- id: req-full-codex-on-crack-2026-10-06
+  project_slug: codex-on-crack
+  level: full
+  reviewed_at: '2026-10-06T02:51:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型并用时上下文手工搬运、分派与审查重复执行、跨工作区产出易漏项的问题；旧替代是人工切换界面复制上下文并逐处核对，不解决则编排成本随模型数量上升。这是基于产品说明的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-fa2a5a48e4ce8551
+    - ev-9abbe4b4acba2a0d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标 730 至 738 属关注度而非持续采用，没有用户评价、issue 或案例说明开发者是否把它留在日常编码流程里，强场景存在但共识证据不足。
+    evidence_ids:
+    - ev-fa2a5a48e4ce8551
+    - ev-9abbe4b4acba2a0d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱来自个人开发者、团队还是其他方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fa2a5a48e4ce8551
+  - gate: truth
+    status: insufficient
+    reason: 公开描述未说明交付是否确定发生、人工确认边界在哪，也未交代与宿主工具的权限关系，编排出错时的责任与回退方式无法核对。
+    evidence_ids:
+    - ev-fa2a5a48e4ce8551
+    - ev-9abbe4b4acba2a0d
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际替代的手动步骤、交付形态，以及是否出现重复使用或付费线索。
+  market: ''
+  job: 使用多个模型的软件开发者，在跨本地或远程工作区推进编码任务时，需要把任务规划、分派给不同模型、调用宿主工具和产出审查串成一条流程，最终拿到可复核的代码改动或审查结论。
+  job_en: Software developers using several models need to chain planning, delegating to different models,
+    calling host tools and reviewing output across local or remote workspaces, ending with reviewable
+    code changes or review conclusions.
+  pain: 多模型并用时上下文要在界面间手工搬运，分派与审查各做一遍，跨工作区核对产出容易漏项；公开材料只说明它能编排模型与调用宿主工具，未给出用户抱怨或旧流程细节，痛点强度属结构推理。
+  pain_en: With several models in play, context is hand-carried between interfaces, delegation and review
+    are done twice, and cross-workspace output checks are easy to miss; public material only says it orchestrates
+    models and calls host tools, giving no user complaints or old-workflow detail, so pain intensity is
+    structural inference.
+  current_alternative: 开发者目前手动在多个模型界面之间切换、自行复制上下文并人工审查产出，候选材料未提供这一旧流程的具体描述。
+  current_alternative_en: Developers currently switch manually between model interfaces, copy context
+    by hand and review output themselves; the candidate material gives no concrete description of this
+    old workflow.
+  usage_reason: 推断：若它确实把规划、分派与跨工作区审查合并为一次调用，就省掉在多个模型界面间搬运上下文和逐处核对产出这两步，因此同时用多个模型推进编码任务的开发者会尝试；仓库星标 730
+    至 738 只说明关注度，无留存或付费证据。
+  usage_reason_en: 'Inference: if it truly merges planning, delegation and cross-workspace review into
+    one call, it removes the steps of carrying context between model interfaces and checking output piece
+    by piece, so developers running coding tasks across several models would try it; stars moving 730
+    to 738 show attention only, with no retention or payment evidence.'

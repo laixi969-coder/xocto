@@ -409,3 +409,46 @@
   usage_reason: 仅有仓库收藏数从 314 增至 325 的关注度记录，没有用户反馈、案例或使用说明能解释用户为何选择它，因此无法给出使用理由。
   usage_reason_en: Only star counts rising from 314 to 325 are recorded; no user feedback, case study,
     or usage documentation explains why users would choose it, so no usage reason can be given.
+- id: req-full-uplifting-biomolecular-modeling-2026-10-06
+  project_slug: uplifting-biomolecular-modeling
+  level: full
+  reviewed_at: '2026-10-06T02:55:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只显示这是 Anthropic 发布的一个生物分子建模相关仓库，未说明用户任务、痛点与不解决代价，无法还原需求结构。
+    evidence_ids:
+    - ev-b137aee639f2bcee
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它接收什么输入、执行什么动作、产出什么交付，以及谁在何种建模场景使用。
+  market: ''
+  job: 生物分子建模研究者或药物发现计算人员，在需要构建或评估分子结构的工作节点，处理建模相关材料，想完成建模或计算分析任务；但公开材料未说明具体输入、动作与交付。
+  job_en: Biomolecular modeling researchers or computational drug discovery staff, at a work step requiring
+    molecular structure construction or evaluation, handle modeling materials to complete a modeling or
+    computational analysis task; however, public materials do not specify the concrete input, action,
+    or deliverable.
+  pain: 公开材料只显示这是 Anthropic 发布的一个生物分子建模相关仓库，未说明用户当前在建模流程中卡在哪一步、不解决的具体代价或发生频率，因此无法确认痛点。
+  pain_en: Public materials only show this is an Anthropic-published repository related to biomolecular
+    modeling; they do not state which step of the modeling workflow users are stuck on, the concrete cost
+    of leaving it unsolved, or its frequency, so the pain cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作、它实际替代了什么旧流程或工具。
+  current_alternative_en: Public materials do not show how users currently complete this job or what prior
+    process or tool it replaces.
+  usage_reason: 推断：若该仓库能提供可复现的建模流程或工具链，研究者可能因减少自行搭建脚本的负担而选用；但公开材料未披露输入、动作与交付，无法确认它相较现有做法减少了哪一步。
+  usage_reason_en: 'Inference: if the repository provided a reproducible modeling workflow or toolchain,
+    researchers might adopt it to reduce the burden of building scripts themselves; however, no input,
+    action, or deliverable is disclosed, so it cannot be confirmed which step it removes versus existing
+    practice.'

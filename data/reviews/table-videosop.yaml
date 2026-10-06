@@ -309,3 +309,51 @@
     by row and get an executable production flow, skipping the step of re-organizing shot breakdown, pacing
     and prompts; directors and content operators who regularly produce AI short videos or ads and must
     hand the flow to others would choose it before shooting.'
+- id: req-full-table-videosop-2026-10-06
+  project_slug: table-videosop
+  level: full
+  reviewed_at: '2026-10-06T02:54:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI视频制作前分镜、节奏与提示词缺乏统一规范的需求，痛点是经验散落、换人重来；仓库把SOP、规则、模板与提示词整理成可复用表格，交付物明确，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-ec8966fb762ac0ee
+    - ev-79dbf83ee2fc36c6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从89升至129，说明社区持续关注，但收藏与复刻只属关注度证据，公开材料没有用户评价、issue或案例说明目标编导已把它留在日常制作流程里，持续采用尚未核验。
+    evidence_ids:
+    - ev-ec8966fb762ac0ee
+    - ev-bc7d02ea29684403
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费记录或采购信息，谁付钱、按什么单位收费均未披露；开源仓库可能靠赞助或引流变现，这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-ec8966fb762ac0ee
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明只描述SOP、规则、模板与提示词，未展示模板实际内容、可复现的填表产出或人工审核边界，交付能否稳定发生尚缺可核验的公开证据。
+    evidence_ids:
+    - ev-79dbf83ee2fc36c6
+    - ev-c670cf4ec7f0dc25
+  next_validation: 追踪该公开代码仓库仓库的README、模板文件与issue/discussion，确认模板实际内容、使用者反馈及是否出现付费或赞助入口。
+  market: ''
+  job: 短视频或广告片的编导、剪辑在开拍前，面对脚本、素材和平台要求，需要产出一份可执行的分镜、节奏与AI提示词制作流程，让拍摄和生成环节能按同一套规则推进。
+  job_en: Short-video or ad directors and editors, before shooting, take scripts, footage and platform
+    requirements and must produce an executable production flow of storyboard, pacing and AI prompts so
+    shooting and generation follow one shared rule set.
+  pain: 公开材料只说明仓库把AI视频制作的SOP、规则、模板和提示词整理成可复用表格，未提供用户抱怨或失败案例；从工作流结构推理，痛点在于分镜、节奏与提示词经验散落在个人脑中或零散文档里，换人或换项目就要重新摸索，交付质量随人波动。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 当前替代方式是编导和剪辑凭个人经验临场定分镜与提示词，或翻找零散文档、聊天记录和往期项目文件；公开材料未说明这些旧做法的具体使用频率。
+  current_alternative_en: The current alternative is directors and editors improvising storyboards and
+    prompts from personal experience, or digging through scattered docs, chat logs and past project files;
+    public materials do not state how often these old practices are used.
+  usage_reason: 推断：相较临场凭经验或翻零散文档，该仓库把SOP、规则、模板和提示词收进一张可复用表格，用户照着填即可得到一份可执行流程，减少的是每次重新组织分镜与提示词结构这一步负担；因此缺少固定制作规范的小团队或独立编导在开新项目时更可能选择它。
+  usage_reason_en: 'Inference: versus improvising or digging through scattered docs, the repo puts SOPs,
+    rules, templates and prompts into one reusable table that users fill in to get an executable flow,
+    cutting the step of re-organizing storyboard and prompt structure each time; small teams or solo directors
+    lacking a fixed production spec are therefore more likely to pick it when starting a new project.'

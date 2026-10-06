@@ -1,6 +1,6 @@
 ---
 slug: teradyne-makes-strategic-investment-in-bright-machines-to-ad
-name: Teradyne Makes Strategic Investment in Bright Machines to Advance AI Infrastructure Manufacturing
+name: Teradyne
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Teradyne Makes Strategic Investment in Bright Machines to Advance AI In
   GlobeNewswire
 first_seen: '2026-10-05T13:00:00Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Teradyne Makes Strategic Investment in Bright Machines to Advance AI Infrastructure Manufacturing
+# Teradyne
 
 Teradyne Makes Strategic Investment in Bright Machines to Advance AI Infrastructure Manufacturing GlobeNewswire
 

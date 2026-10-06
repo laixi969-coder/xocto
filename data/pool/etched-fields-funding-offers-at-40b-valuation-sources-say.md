@@ -1,6 +1,6 @@
 ---
 slug: etched-fields-funding-offers-at-40b-valuation-sources-say
-name: Etched fields funding offers at $40B+ valuation, sources say
+name: Etched
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNRXdxYnpXd3ZN
 summary: Etched fields funding offers at $40B+ valuation, sources say TechCrunch
 first_seen: '2026-10-05T20:24:09Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Etched fields funding offers at $40B+ valuation, sources say
+# Etched
 
 Etched fields funding offers at $40B+ valuation, sources say TechCrunch
 

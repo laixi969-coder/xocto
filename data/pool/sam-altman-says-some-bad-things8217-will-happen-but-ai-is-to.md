@@ -24,7 +24,7 @@ summary: Sam Altman thinks that the benefits of AI will be so great that "the wo
   more good stuff" with AI, […]
 first_seen: '2026-10-05T16:44:21Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

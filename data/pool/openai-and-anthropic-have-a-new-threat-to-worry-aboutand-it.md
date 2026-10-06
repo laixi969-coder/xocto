@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQNGY4aVZPY1Rn
 summary: OpenAI and Anthropic Have a New Threat to Worry About—and It Isn’t China Gizmodo
 first_seen: '2026-10-05T16:30:51Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

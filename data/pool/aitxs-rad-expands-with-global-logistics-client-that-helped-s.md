@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxPd3A4OEtmcTk0
 summary: AITX's RAD Expands with Global Logistics Client That Helped Shape Its Solutions TradingView
 first_seen: '2026-10-05T12:40:00Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

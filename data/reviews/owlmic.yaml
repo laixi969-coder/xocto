@@ -128,3 +128,57 @@
     and account-login steps and avoiding upload-then-return audio latency; privacy-conscious remote-meeting
     or livestream users who need low-latency A/V and no signup would choose it when old tools are laggy
     or require login.'
+- id: req-full-owlmic-2026-10-06
+  project_slug: owlmic
+  level: full
+  reviewed_at: '2026-10-06T02:53:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是电脑缺摄像头/麦克风或画质差时，用安卓手机充当高质量视频与音频输入的需求；痛点在于会议直播是实时场景，旧方案 DroidCam/Iriun/WO Mic 的延迟、账号与云端中转会损害沟通与隐私。公开说明已能还原输入—传输—虚拟设备交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-f4989b6e85c13fde
+    - ev-62df2fb7af52f0f8
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库仅显示 40 个收藏，说明开发者社区注意到它，但没有用户评价、issue 讨论或持续采用数据证明目标用户已把它留在会议/直播工作流里；关注度不等于采用。
+    evidence_ids:
+    - ev-f4989b6e85c13fde
+    - ev-baba08c373a4ab60
+  - gate: model
+    status: insufficient
+    reason: 项目为 100% 开源、无账号，公开材料未给出定价页、捐赠、商业授权或企业采购路径，因此钱可能来自 to C 捐赠或 to B 支持，但这是判断而非已验证事实；无融资叙事，不构成每日优鲜风险。
+    evidence_ids:
+    - ev-f4989b6e85c13fde
+  - gate: truth
+    status: insufficient
+    reason: 承诺的 1080p、低延迟 Opus、RNNoise 与 DirectShow 虚拟摄像头能否在 Windows 各版本与不同安卓机型上稳定交付，尚缺部署文档、issue 或可复现实测；USB(ADB)
+      依赖调试授权，安全与人工边界也未公开说明。
+    evidence_ids:
+    - ev-f4989b6e85c13fde
+    - ev-62df2fb7af52f0f8
+  next_validation: 追踪 owlmic 仓库的 README/部署文档与 issue、discussion，确认 Windows 与安卓机型上的实际安装步骤、延迟与画质反馈，以及是否出现付费或捐赠入口。
+  market: ''
+  job: 远程办公、网课或直播的电脑使用者，在笔记本内置摄像头画质差、台式机没有摄像头或麦克风、或需要更好收音时，用安卓手机采集 1080p 画面与音频，通过 USB(ADB)、Wi-Fi 或蓝牙送入电脑，让
+    Zoom、OBS、腾讯会议等软件把手机识别为摄像头和麦克风。
+  job_en: A remote worker, student, or streamer whose laptop webcam is poor or whose desktop has no camera/mic
+    uses an Android phone to capture 1080p video and audio and feed it into the PC over USB (ADB), Wi-Fi,
+    or Bluetooth, so Zoom, OBS, or similar software sees the phone as a webcam and microphone.
+  pain: 公开事实显示它明确对标 DroidCam、Iriun、WO Mic 这类旧方案，说明用户已在用手机替代电脑摄像头/麦克风，但旧方案常被抱怨延迟、画质压缩、需要账号或云端中转；owlmic
+    以本地处理、无账号、RNNoise 降噪与 AEC 回应这些摩擦。痛点刚性来自会议与直播是实时场景，音画不同步或隐私外传会直接损害沟通，属于工作流结构推理。
+  pain_en: 'Public facts show it explicitly positions against DroidCam, Iriun, and WO Mic, implying users
+    already substitute phones for PC cameras/mics, while those tools are commonly associated with latency,
+    compression, and account/cloud requirements; owlmic answers with local processing, no accounts, RNNoise,
+    and AEC. The pain is rigid because meetings and streams are real-time: desync or privacy leakage directly
+    harms communication. This is workflow-structure inference.'
+  current_alternative: 旧做法是购买 USB 摄像头/麦克风，或使用 DroidCam、Iriun、WO Mic 等手机转摄像头应用；这些方案通常需要安装驱动、注册账号或经云端/局域网中转，部分免费版带水印或画质限制。
+  current_alternative_en: The old approach is buying a USB webcam/mic, or using DroidCam, Iriun, or WO
+    Mic; those typically require driver installs, account signup, or cloud/LAN relay, and some free tiers
+    add watermarks or quality caps.
+  usage_reason: 推断：相较 DroidCam 等旧方案，owlmic 通过 USB(ADB) 直连降低延迟、以本地 RNNoise 与 AEC 在端侧完成降噪和回声消除、并免账号免云端，减少了注册、配置中转和担心音频外传的步骤；因此在意隐私、延迟或不想买硬件的远程会议与直播用户会在缺摄像头/麦克风时选择它。
+  usage_reason_en: 'Inference: versus DroidCam-style tools, owlmic reduces latency via direct USB (ADB),
+    performs RNNoise and AEC on-device, and avoids accounts and cloud relay, cutting signup, relay setup,
+    and audio-leakage concerns; thus privacy- or latency-sensitive meeting and streaming users short on
+    camera/mic hardware would pick it.'

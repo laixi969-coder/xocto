@@ -533,3 +533,49 @@
   usage_reason_en: The repository has 1,995 stars and 253 forks, showing developers noticed and may have
     tried it; stars are attention evidence, not a reason users choose it, and there is no retention or
     repeat-use evidence.
+- id: req-full-cindy-2026-10-06
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-10-06T02:51:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 cindy 官方仓库的 issue / discussion 与 README 更新，确认是否有跨模型切换后记忆与任务保持的可复现说明及用户重复使用反馈。
+  market: ''
+  job: 开发者或小团队在同一个工作区里处理跨厂商的编码任务：把不同家的写代码助手接入同一会话，在任务中途切换模型，同时保留上下文记忆与未完成的工作，最终交付可运行的代码改动。
+  job_en: 'A developer or small team works inside one workspace on cross-vendor coding tasks: wiring assistants
+    from different vendors into the same session, switching models mid-task while keeping context memory
+    and unfinished work, and delivering runnable code changes.'
+  pain: 公开材料显示其定位是解决多厂商编码助手各自为政的摩擦：换模型要重开会话、上下文与任务状态丢失、需要重复粘贴仓库与需求背景。这是从产品说明与工作流结构推出的痛点，公开用户抱怨或采用数据尚未提供，因此强度属推断而非已证事实。
+  pain_en: 'Public materials position it against the friction of fragmented multi-vendor coding assistants:
+    switching models means restarting sessions, losing context and task state, and re-pasting repo and
+    requirement background. This pain is inferred from the product description and workflow structure;
+    public user complaints or adoption data are not provided, so its intensity is inference, not established
+    fact.'
+  current_alternative: 旧做法是分别使用各家编码助手或 IDE 插件，在多个窗口或订阅之间手动切换，靠人工复制粘贴上下文、自己维护任务清单与记忆；也可能只用单一厂商模型以避免切换成本。
+  current_alternative_en: The old way is using each vendor's coding assistant or IDE plugin separately,
+    manually switching between windows or subscriptions, hand-copying context, and maintaining task lists
+    and memory by hand; some users simply stay with one vendor's model to avoid switching cost.
+  usage_reason: 推断：相较手动在多助手间搬运上下文，它把多厂商模型收进同一工作区并保留记忆与任务状态，省掉换模型时重开会话、重贴背景这一步，因此经常在多个编码模型间比较或切换、且不愿丢失上下文的开发者会在中途换模型或跨任务续做时选择它。公开仓库
+    1,995 收藏、253 复刻只说明开发者关注与试用，不能证明持续使用或付费。
+  usage_reason_en: 'Inference: versus manually shuttling context between assistants, it puts multi-vendor
+    models in one workspace and preserves memory and task state, removing the step of reopening sessions
+    and re-pasting background when switching models. Developers who frequently compare or switch coding
+    models and do not want to lose context would choose it when switching mid-task or resuming across
+    tasks. The public repo''s 1,995 stars and 253 forks show developer attention and trial, not sust'

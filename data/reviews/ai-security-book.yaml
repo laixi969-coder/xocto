@@ -1,0 +1,93 @@
+- id: req-initial-ai-security-book-2026-10-06
+  project_slug: ai-security-book
+  level: initial
+  reviewed_at: '2026-10-06T02:18:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 AI 安全知识零散、缺少工程验证方法的问题，但公开材料未给出具体使用场景与读者痛点，价值结构无法确认。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 51 个星标与 3 次复刻，属于关注度信号，不能说明安全从业者已把它纳入日常工作流。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  - gate: model
+    status: insufficient
+    reason: 开源书采用非商业许可，公开材料未说明任何付费、赞助或企业采购路径，买方是谁无法判断。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对书中攻击与防御方法是否经过真实系统验证，也未见人工复核或安全边界说明。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  next_validation: 收集该仓库的 issue、discussion 或提交记录，确认是否有安全从业者提出具体使用场景或反馈。
+  market: ''
+  job: AI 安全工程师或合规审查人员在评估生成式模型与具身智能系统的攻击面时，需要处理模型接口、部署架构与验证记录等材料，产出一份可对照的安全评估结论。
+  job_en: An AI security engineer or compliance reviewer assessing the attack surface of generative and
+    embodied AI systems needs to work through model interfaces, deployment architecture and verification
+    records to produce a checkable security assessment conclusion.
+  pain: 公开材料只说明这是一本讲攻击、防御与工程验证的书，没有给出任何具体使用场景、读者反馈或采用行为，因此无法确认读者在什么环节感到困难。
+  pain_en: The public material only says this is a book about attacks, defenses and engineering verification;
+    it gives no concrete usage scenario, reader feedback or adoption behaviour, so it is impossible to
+    confirm where readers feel pain.
+  current_alternative: 公开材料未说明读者此前用什么替代方式，只能推断可能依赖零散博客、论文与厂商文档，这是推断而非已核实事实。
+  current_alternative_en: The public material does not state what readers used before; it can only be
+    inferred that they may rely on scattered blogs, papers and vendor documentation, which is an inference
+    rather than a verified fact.
+  usage_reason: 相较零散博客与论文，这本书把攻击、防御与工程验证整理成中英双语章节，减少读者自行搜集与拼装资料的一步负担；但缺少读者反馈或采用证据，无法确认哪类读者会因此选择它，这是推断。
+  usage_reason_en: Compared with scattered blogs and papers, the book organises attacks, defenses and
+    engineering verification into bilingual chapters, reducing the step of collecting and assembling material
+    oneself; but without reader feedback or adoption evidence, it cannot be confirmed which readers would
+    choose it on that basis — this is an inference.
+- id: req-full-ai-security-book-2026-10-06
+  project_slug: ai-security-book
+  level: full
+  reviewed_at: '2026-10-06T02:50:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 安全知识零散、缺少工程验证方法的问题：工程师评估生成式与具身系统攻击面时，需把攻击手法、防御方案与验证方法对照使用，散落资料难以拼装。开源书按章节整理中英双语内容，交付可确定；这是工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 51 个星标，属于关注度信号，不能说明安全从业者已把它纳入日常工作流；公开材料未见读者反馈、引用或采用记录，共识强度无法确认。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  - gate: model
+    status: insufficient
+    reason: 开源书采用 CC BY-NC-SA 4.0 非商业许可，公开材料未说明任何付费、赞助或企业采购路径，买方是谁无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对书中攻击与防御方法是否经过真实系统验证，也未见人工复核或安全边界说明；交付内容的技术准确性尚缺可复现的公开证据。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与提交记录，确认是否有安全从业者提出具体使用场景、引用或反馈。
+  market: ''
+  job: AI 安全工程师或合规审查人员在评估生成式模型与具身智能系统的攻击面时，需要处理模型接口、部署架构与验证记录等材料，产出一份可对照的安全评估结论。
+  job_en: An AI security engineer or compliance reviewer assessing the attack surface of generative and
+    embodied AI systems needs to work through model interfaces, deployment architecture and verification
+    records to produce a checkable security assessment conclusion.
+  pain: AI 安全领域攻击手法与防御方案散落在论文、博客和厂商文档中，工程师在评估具体系统时缺少一份把攻击、防御与工程验证串起来的可对照材料，需要自行搜集拼装。
+  pain_en: AI security attack techniques and defenses are scattered across papers, blogs and vendor documentation;
+    engineers assessing a concrete system lack a single checkable reference that connects attacks, defenses
+    and engineering verification, and must collect and assemble it themselves.
+  current_alternative: 公开材料未直接说明读者此前用什么替代方式，只能推断可能依赖零散博客、论文与厂商文档，这是工作流结构推理而非已核实事实。
+  current_alternative_en: The public material does not state what readers used before; it can only be
+    inferred that they may rely on scattered blogs, papers and vendor documentation — this is workflow-structural
+    inference, not a verified fact.
+  usage_reason: 相较零散博客与论文，这本书把攻击、防御与工程验证整理成中英双语章节，减少读者自行搜集与拼装资料的一步负担，因此需要快速建立 AI 安全评估框架的工程师或合规人员会在评估前查阅它；但缺少读者反馈或采用证据，这是推断。
+  usage_reason_en: Compared with scattered blogs and papers, the book organises attacks, defenses and
+    engineering verification into bilingual chapters, reducing the step of collecting and assembling material
+    oneself, so engineers or compliance staff needing to quickly build an AI security assessment framework
+    would consult it before an assessment; but without reader feedback or adoption evidence, this is an
+    inference.

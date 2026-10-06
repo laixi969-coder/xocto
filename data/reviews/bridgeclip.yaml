@@ -469,3 +469,52 @@
     uses desktop AI to auto-produce candidate clips, removing the step of watching all footage and finding
     each in/out point; a local desktop form appeals to users who cannot upload footage. But public materials
     do not describe cutting rules, export flow, or user feedback, so the choice motive remains an inference.'
+- id: req-full-bridgeclip-2026-10-06
+  project_slug: bridgeclip
+  level: full
+  reviewed_at: '2026-10-06T02:51:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长视频素材转可发布短片这一任务，痛点是逐段回看与手动标记入出点的重复劳动，旧替代为通用剪辑软件或云端切片服务；不解决的后果是产出短片耗时高。公开材料仅有仓库定位与收藏数，未含用户抱怨或耗时数据，故痛点刚性属工作流结构推理，非已验证事实。
+    evidence_ids:
+    - ev-c65f2e7e2896d120
+    - ev-1a551d92b942724b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 346 缓慢增至 364，说明有开发者关注，但公开材料没有用户评价、issue 讨论或采用案例，无法判断目标剪辑用户是否真的把它留在工作流里，关注度不等于持续使用。
+    evidence_ids:
+    - ev-c65f2e7e2896d120
+    - ev-75159e4d350af86c
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：开源桌面应用，未见定价页、付费主体或单位经济，钱可能来自 to C 订阅、to B 团队授权或 to VC 融资，公开材料无法区分；买方不清不取消需求判定。
+    evidence_ids:
+    - ev-88d9ca3ac706e9c7
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输入格式、切分规则、导出流程与人工确认边界，无法核对 AI 切片结果是否可确定性交付，也未见到安全或版权处理说明，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-a78a33a7132f1dcf
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 说明与 issue/discussion，确认支持的输入格式、切分与导出流程，以及是否有用户报告实际替代了原有剪辑步骤。
+  market: ''
+  job: 短视频剪辑师或自媒体运营者在拿到一段长视频（如访谈、直播回放、课程录像）后，打开这个桌面应用，让 AI 从长素材中切出若干可发布的短片片段，再人工确认并导出成片。
+  job_en: A short-form video editor or social media operator takes a long video (interview, livestream
+    replay, course recording), opens this desktop app, has AI cut candidate short clips from the long
+    footage, then manually confirms and exports the finished clips.
+  pain: 长素材转短视频需要逐段回看、手动标记入出点、反复试剪，是重复且耗时的机械劳动；公开材料只给出产品定位，未提供用户抱怨或耗时数据，痛点强度属工作流结构推理。
+  pain_en: Turning long footage into short clips requires rewatching, manually marking in/out points and
+    repeated trial cuts — repetitive mechanical labor. Public materials only give the product positioning,
+    with no user complaints or time data, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是人工在通用非线性剪辑软件（如 Premiere、剪映、Final Cut）里逐段回看并手动切分，或使用云端 AI 切片服务上传长视频后下载结果；公开材料未说明本产品具体替代哪一种。
+  current_alternative_en: The old way is manual review and cutting in general NLE software (Premiere,
+    CapCut, Final Cut), or uploading long video to a cloud AI clipping service and downloading results;
+    public materials do not specify which one this replaces.
+  usage_reason: 推断：相较在通用剪辑软件里逐段回看，它把“从长素材中找出可发布片段”这一步交给 AI 在本地桌面完成，用户只需在候选片段上做确认，减少的是逐段回看与手动标记入出点的负担；因此处理长素材、需要批量产出短片的剪辑师或运营者会在这种情况下选择它。公开材料未提供用户反馈或案例佐证这一动机。
+  usage_reason_en: 'Inference: versus rewatching segment by segment in a general NLE, it hands the ''find
+    publishable segments in long footage'' step to AI locally on the desktop, leaving the user only to
+    confirm candidates — reducing the burden of rewatching and manually marking in/out points. Editors
+    or operators handling long footage and needing batch short clips would choose it in that situation.
+    Public materials provide no user feedback or case evidence for this motive.'

@@ -480,3 +480,57 @@
     plan, apply after approval and verify results, collapsing cross-provider lookup and trial-and-error
     into one checkable run; developers who value account ownership and avoid single-platform lock-in would
     choose it at launch time. This is an inference from product capability and task structure, n
+- id: req-full-golive-skill-2026-10-06
+  project_slug: golive-skill
+  level: full
+  reviewed_at: '2026-10-06T02:52:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 写完代码后上线环节分散、需在多个服务商后台手工配置的需求，痛点是发布前流程被迫中断且配置错误到运行时才暴露；公开说明已还原检测—计划—批准—执行—验证的输入动作与交付，属工作流结构推理，仓库
+      1,198→1,228 星显示持续关注。
+    evidence_ids:
+    - ev-0b0f9fbe3676c620
+    - ev-f7e5876ef96f5f2a
+    - ev-b6eba61efc05912c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 1,198 增至 1,228，说明开发者社区注意到该项目，但公开材料没有用户评价、issue 讨论或客户案例说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-0b0f9fbe3676c620
+    - ev-f7e5876ef96f5f2a
+  - gate: model
+    status: insufficient
+    reason: 项目声明开源、无 GoLive 账号、后端与遥测，公开材料未见定价页或付费路径，因此钱可能来自 to C 开发者捐赠或后续托管增值，这是判断而非已验证事实，买方与单位经济尚未核验。
+    evidence_ids:
+    - ev-0b0f9fbe3676c620
+    - ev-6ce93299dbd6a80d
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺检测、计划、批准、执行、验证并记录资源与漂移复查，但缺少可复现的部署文档或实测结果证明各服务商配置能确定性交付，人工与安全边界也仅由“需用户批准”一句带过。
+    evidence_ids:
+    - ev-b6eba61efc05912c
+    - ev-03f8519c3ecac7bd
+  next_validation: 追踪 golive-skill 仓库的 README/部署文档与 issue、discussion，确认是否有真实用户报告在自有账号上完成域名、托管、数据库、邮件或支付配置并验证通过的可复现记录。
+  market: ''
+  job: 独立开发者或小团队用 agent 写完代码后，面对一个可运行但未上线的项目，要处理域名、托管、数据库、邮件与支付等上线材料，把产品真正发布到公网并可收款。
+  job_en: Solo developers or small teams, after an agent writes the code, take a runnable-but-unshipped
+    project and handle domain, hosting, database, email and payments to actually publish it publicly and
+    accept payment.
+  pain: 上线环节分散在多个服务商后台，需逐个手工配置并交叉核对；agent 能写代码却无法把结果落到真实账号上，开发者被迫在发布前中断自动化流程，且配置错误往往到运行时才暴露。
+  pain_en: Go-live work is scattered across multiple provider dashboards that must be configured and cross-checked
+    by hand; the agent can write code but cannot land it on real accounts, forcing developers to break
+    the automation right before shipping, with misconfigurations surfacing only at runtime.
+  current_alternative: 现有做法是开发者自己逐个登录域名、托管、数据库、邮件和支付服务商后台手工配置，或依赖 Vercel、Railway、Supabase 等一体化平台把部分环节打包，但账号与凭据仍由人工管理。
+  current_alternative_en: Today developers log into each domain, hosting, database, email and payment
+    provider dashboard and configure by hand, or rely on bundled platforms like Vercel, Railway or Supabase
+    that package some steps while accounts and credentials stay manual.
+  usage_reason: 推断：相较逐个后台手工配置，它先检测项目缺哪些上线资源、生成计划、经用户批准后用用户自己的登录执行并验证结果，还记录所创建资源并可按需复查漂移，因此把“查缺—配置—验证”三步压缩为一次可复核的流程；会在
+    agent 已产出代码、但不愿把账号交给第三方托管后端的独立开发者中选择。
+  usage_reason_en: 'Inference: versus manual per-dashboard setup, it detects missing go-live resources,
+    plans, applies with the user''s own logins after approval, verifies results, records what it created
+    and re-checks drift on demand, compressing detect-configure-verify into one reviewable pass; chosen
+    by solo developers whose agent already produced code but who won''t hand accounts to a third-party
+    backend.'

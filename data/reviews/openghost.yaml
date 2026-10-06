@@ -177,3 +177,47 @@
     cutting the step of switching tools and manually assembling diagrams, so technical users needing explainable
     desktop operations may choose it; however, public materials contain no user feedback or cases supporting
     this motive.'
+- id: req-full-openghost-2026-10-06
+  project_slug: openghost
+  level: full
+  reviewed_at: '2026-10-06T02:53:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只能说明它是一个自带代理引擎、浏览器工具和绘图引擎的桌面代理，无法还原具体用户任务、旧替代流程与不解决的后果；同名证据还指向树莓派显示装置和云端编码代理运行器，需求与痛点均无法确认。
+    evidence_ids:
+    - ev-7f0f441b7683293b
+    - ev-be725ec33bac7513
+    - ev-63751b403428f844
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ANDRETRIPOL/OpenGhost 仓库的 README、issue 与 release 记录，确认该桌面代理的具体使用场景、输入材料与交付物，并区分同名项目。
+  market: ''
+  job: 公开材料把 OpenGhost 描述为 Windows、macOS、Linux 上的开源桌面 AI 代理，自带代理引擎、浏览器工具和绘图引擎；但谁在什么工作节点打开它、处理什么材料、最终交付什么，公开材料未说明，无法还原具体任务。
+  job_en: Public material describes OpenGhost as an open desktop AI agent for Windows, macOS and Linux
+    with its own agent engine, browser tooling and a drawing engine; but who opens it at which work step,
+    what material it handles and what it finally delivers is not stated, so the concrete job cannot be
+    reconstructed.
+  pain: 公开材料只给出产品能力描述，没有用户抱怨、workaround 或客户案例说明不解决时的具体代价、频率与后果，因此无法确认痛点存在。
+  pain_en: Public material only gives product capability descriptions; no user complaints, workarounds
+    or customer cases show the cost, frequency or consequence of leaving the problem unsolved, so the
+    pain cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前用什么方式完成同类桌面代理任务，也未说明它替代了哪一步旧流程。
+  current_alternative_en: Public material does not state how users currently accomplish comparable desktop-agent
+    tasks, nor which prior step it replaces.
+  usage_reason: 证据中同名条目混杂：一个仓库是桌面 AI 代理，另一个是树莓派 Pepper's Ghost 显示装置，还有一个站点是云端编码代理运行器，无法确定用户实际选择的是哪一个产品及其理由。
+  usage_reason_en: 'Evidence mixes same-named entries: one repo is a desktop AI agent, another is a Raspberry
+    Pi Pepper''s Ghost display, and a site is a cloud coding-agent runner, so which product users actually
+    choose and why cannot be determined.'

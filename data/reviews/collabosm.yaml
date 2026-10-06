@@ -368,3 +368,58 @@
     usage-shutdown into one local launch, shows cost before start, tracks spend in a CU ledger, and auto-stops;
     so cost-conscious individual developers who need an OpenAI-compatible endpoint would pick it for ad-hoc
     open-model runs instead of rebuilding Colab each time or renting hourly cloud GPUs.'
+- id: req-full-collabosm-2026-10-06
+  project_slug: collabosm
+  level: full
+  reviewed_at: '2026-10-06T02:51:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者想低成本调用开源大模型却要自己搭 Colab 推理栈、且额度消耗不可见的问题；公开说明已能还原旧流程的输入、动作与交付，痛点刚性来自额度跑飞与手工部署，属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-e5e258a9c7eb6189
+    - ev-1167baee2c12b86d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 90 缓慢升至 97，说明有开发者注意到它，但公开材料没有 issue、discussion 或评价说明谁在什么场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-e5e258a9c7eb6189
+    - ev-5680ccfb6c535531
+  - gate: model
+    status: insufficient
+    reason: 公开材料只说明费用在启动前显示、由 Colab CU 额度结算，没有定价页、订阅或抽成说明，谁付钱给项目方尚不清楚；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-e5e258a9c7eb6189
+  - gate: truth
+    status: insufficient
+    reason: 自动停止、CU ledger 与本地 /v1 端点能否在长会话中稳定交付、以及 Colab 条款下账号安全边界，公开材料未给出可复现验证，承诺确定性尚未核验。
+    evidence_ids:
+    - ev-1167baee2c12b86d
+    - ev-304362f4f92d783e
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户公开报告在自有 Colab 账号上实际部署、替代了哪套旧流程以及额度消耗结果。
+  market: ''
+  job: 开发者在本地机器上打开该应用，用自己的 Google Colab 账号租一块 A100（40G 或 80G）GPU，加载 Qwen 27B 或 Flash-Next 125B-A6B MoE
+    等开源模型，并通过固定的本地 /v1 端点让 Codex 或任意 OpenAI 兼容客户端调用，同时用 CU ledger 与自动停止控制额度消耗。
+  job_en: A developer opens the local app, rents an A100 (40G or 80G) GPU inside their own Google Colab
+    account, loads open models such as Qwen 27B or Flash-Next 125B-A6B MoE, and serves them through a
+    fixed local /v1 endpoint so Codex or any OpenAI-compatible client can call them, while a CU ledger
+    and auto-stop control quota spend.
+  pain: 公开说明显示用户此前要自己写 Colab notebook、手动装依赖、把模型权重拉进运行时、再想办法把远端端口暴露给本地 OpenAI 客户端，且 Colab 的 CU 额度消耗在启动前不可见、容易跑飞；这些手工步骤和额度不可控是采用前的主要摩擦（工作流结构推理，非用户口述）。
+  pain_en: The public description implies users previously had to write their own Colab notebook, install
+    dependencies, pull model weights into the runtime, and expose a remote port to a local OpenAI client,
+    while Colab CU consumption was invisible before launch and easy to overshoot; these manual steps and
+    uncontrolled quota are the main friction before adoption (workflow-structure inference, not user testimony).
+  current_alternative: 旧做法是手写 Colab notebook 或脚本自行加载模型并暴露端口，或直接购买 OpenAI/Anthropic 等托管 API，或租用 RunPod/Vast.ai
+    等按小时 GPU 并自行部署推理服务。
+  current_alternative_en: The old approach is a hand-written Colab notebook or script that loads the model
+    and exposes a port, or paying for hosted APIs such as OpenAI/Anthropic, or renting hourly GPUs on
+    RunPod/Vast.ai and deploying the inference server yourself.
+  usage_reason: 相较手写 notebook，它把依赖安装、权重加载、端口暴露和 OpenAI 兼容端点封装成一次本地启动，并在启动前显示费用、用 CU ledger 与 auto-stop
+    约束额度，因此已经拥有 Colab 订阅、想低成本调用开源模型又不想维护部署脚本的开发者会在需要本地 /v1 端点时选择它（推断，基于产品能力与旧流程对比）。
+  usage_reason_en: Compared with a hand-written notebook, it packages dependency install, weight loading,
+    port exposure and an OpenAI-compatible endpoint into one local launch, and shows cost before start
+    with a CU ledger and auto-stop to bound quota, so developers who already have a Colab subscription
+    and want low-cost open-model access without maintaining a deployment script would choose it when they
+    need a local /v1 endpoint (inference from product capability versus the old workflow).

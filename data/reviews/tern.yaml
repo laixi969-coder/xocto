@@ -344,3 +344,44 @@
     and SigLIP-2 visual indexing locally into one natural-language query, removing the upload and manual-search
     steps and exporting FCPXML directly so timelines need not be rebuilt; editors with large private archives
     would pick it for archive retrieval.'
+- id: req-full-tern-2026-10-06
+  project_slug: tern
+  level: full
+  reviewed_at: '2026-10-06T02:54:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述了本地多模态检索与 FCPXML 导出，但所附证据全部指向 Tern 自行车、燕鸥鸟类与旅行社软件，无一条涉及音视频素材检索的用户任务、痛点或替代行为，无法还原需求结构。
+    evidence_ids:
+    - ev-0d3d6074e0903848
+    - ev-8c44f9c2bbe43f05
+    - ev-fb8e06705d1dd09d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目自身仓库或官网的 README、release 与 issue/discussion，确认其真实产品页面、功能范围与用户反馈，替换当前指向同名无关实体的证据。
+  market: ''
+  job: 视频剪辑师与播客制作人在整理本地历史音视频素材时，需要按台词、画面文字或视觉场景定位片段并导入剪辑时间线。
+  job_en: Video editors and podcasters need to locate clips by spoken line, on-screen text, or visual
+    scene across local archives and bring them into an edit timeline.
+  pain: 公开证据中没有出现任何关于素材检索耗时、人工回放或打标签负担的用户陈述或案例，痛点只能从产品功能反推，缺少可引用的公开事实。
+  pain_en: No public evidence contains user statements or cases about footage-search time, manual scrubbing,
+    or tagging burden; the pain is only inferred from product features, not citable facts.
+  current_alternative: 公开材料未记录目标用户当前用什么方式检索素材，无法确认旧替代流程。
+  current_alternative_en: Public materials do not record how target users currently search footage, so
+    the prior workaround cannot be confirmed.
+  usage_reason: 无法从现有证据说明用户为何选择它；所附证据全部指向自行车、鸟类或旅行社软件，与音视频检索无关，产品能力描述本身不构成采用理由。
+  usage_reason_en: No evidence explains why users would choose it; all attached evidence points to bicycles,
+    birds, or travel-agency software, unrelated to media search, and feature descriptions alone are not
+    adoption reasons.

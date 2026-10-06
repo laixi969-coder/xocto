@@ -1,15 +1,22 @@
 ---
 slug: compute
-name: compute
+name: compute.cx
 builder: hargup
 category: 基础层
-summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
-inspiration: 简化 GPU 访问，可能使更多开发者使用 AI 计算
-summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
-  confirm its workflow value.
-inspiration_en: Simplifying GPU access could enable more developers to use AI compute
+summary_zh: 开发者或小团队在需要临时跑训练、推理或批处理任务时，打开 compute.cx 提交算力需求，由平台按需分配 GPU 并返回可运行的计算环境；相比自建集群或直接对接云厂商，它把配置和调度步骤压缩成一次提交。具体计费方式、可用卡型与交付边界仍待核验。
+inspiration: 趋势是算力获取正在从云厂商控制台下沉为面向小团队的按需接口，门槛从采购合同降到一次提交。切入不在通用算力转售，而在某个垂直工作流里把算力与任务绑定：例如为做视频渲染、模型微调或批量推理的小团队提供按任务交付的算力，按产出而非按卡时收费，前提是能拿到稳定供给。
+summary_en: When developers or small teams need to run training, inference or batch jobs on short notice,
+  they open compute.cx, submit a compute request, and the platform allocates GPUs on demand and returns
+  a runnable environment; compared with building a cluster or going directly to a cloud console, it compresses
+  configuration and scheduling into a single submission. Pricing, available GPU types and delivery boundaries
+  still need verification.
+inspiration_en: 'The trend is that compute access is moving from cloud consoles down to on-demand interfaces
+  for small teams, lowering the barrier from a procurement contract to a single submission. The opening
+  is not generic GPU resale but binding compute to a vertical workflow: for example, serving small teams
+  doing video rendering, model fine-tuning or batch inference with task-level delivery priced on output
+  rather than GPU hours, provided supply can be secured.'
 priority_review: false
-project_type: ''
+project_type: new_application
 industries: []
 industries_en: []
 jobs: []
@@ -22,7 +29,7 @@ canonical_url: https://compute.cx
 summary: Compute.cx is simple (modal.com like) interface for on-demand GPUs
 first_seen: '2026-08-20T15:47:24Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds
@@ -110,7 +117,7 @@ sightings:
   kind: news
 ---
 
-# compute
+# compute.cx
 
 Compute.cx is simple (modal.com like) interface for on-demand GPUs
 

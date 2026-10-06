@@ -21,7 +21,7 @@ canonical_url: https://pumpkins.sh
 summary: claim, carve, and display a pumpkin to the world
 first_seen: '2026-10-05T14:18:09Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

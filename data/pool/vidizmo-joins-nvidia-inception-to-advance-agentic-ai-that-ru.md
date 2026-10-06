@@ -1,6 +1,6 @@
 ---
 slug: vidizmo-joins-nvidia-inception-to-advance-agentic-ai-that-ru
-name: VIDIZMO Joins NVIDIA Inception to Advance Agentic AI That Runs Inside the Customer's Boundary
+name: VIDIZMO
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: VIDIZMO Joins NVIDIA Inception to Advance Agentic AI That Runs Inside t
   AOL.com
 first_seen: '2026-10-05T18:15:41Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# VIDIZMO Joins NVIDIA Inception to Advance Agentic AI That Runs Inside the Customer's Boundary
+# VIDIZMO
 
 VIDIZMO Joins NVIDIA Inception to Advance Agentic AI That Runs Inside the Customer's Boundary AOL.com
 

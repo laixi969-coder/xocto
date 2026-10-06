@@ -1,0 +1,87 @@
+- id: req-initial-reviu-2026-10-06
+  project_slug: reviu
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是代理写完代码后由谁把关、怎么留下评审意见这一具体任务，痛点来自改动量与评审人力的落差，旧做法是人工逐条读 diff，结构上成立；但公开材料只有一句定位，具体交付仍待核验。
+    evidence_ids:
+    - ev-0f6b85f67b88b6a4
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条产品社区发布记录，没有用户评价、采用数据或团队内部推广的公开证据，无法判断评审者是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-0f6b85f67b88b6a4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方是个人开发者还是团队采购、按席位还是按评审量计费；钱可能来自 to B 研发团队，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-0f6b85f67b88b6a4
+  - gate: truth
+    status: insufficient
+    reason: 评审结论是否可核对、误报漏报如何处理、是否保留人工确认边界，公开材料均未说明，无法判断它能否确定性交付。
+    evidence_ids:
+    - ev-0f6b85f67b88b6a4
+  next_validation: 收集 Reviu 官方定价页或部署文档，确认它按什么计价、面向个人还是团队，以及评审结论的交付形态。
+  market: ''
+  job: 开发团队在 AI 编码代理提交一批代码改动后，需要有人逐条看过这些 diff，判断能不能合并进主干，并留下评审意见。
+  job_en: After an AI coding agent submits a batch of code changes, a development team needs someone to
+    go through the diff line by line, decide whether it can merge into the main branch, and leave review
+    comments.
+  pain: 代理产出的代码量远大于人工手写，评审者要在不熟悉的改动上快速判断对错，漏看一处就可能把缺陷带进主干；这是工作流推理，公开材料未给出用户抱怨。
+  pain_en: Agents produce far more code than humans write by hand, so reviewers must judge unfamiliar
+    changes quickly, and one missed spot can push a defect into the main branch; this is workflow reasoning,
+    as public material contains no user complaints.
+  current_alternative: 现在多数团队靠人工在代码托管平台的合并请求里逐条读 diff，或让另一个 AI 会话临时读一遍，评审质量取决于谁有空、谁熟悉这块代码。
+  current_alternative_en: Most teams today rely on humans reading the diff line by line in a merge request
+    on their code hosting platform, or asking another AI session to read it ad hoc, so review quality
+    depends on who is free and who knows that code.
+  usage_reason: 推断：相较人工逐条读 diff，它把评审动作直接挂在代理产出的改动上，省掉评审者自己组织上下文这一步，因此改动量大、评审人手紧的团队会先试它；但公开材料没有用户反馈或客户案例，这一动机尚未被证实。
+  usage_reason_en: 'Inference: compared with humans reading the diff line by line, it attaches the review
+    action directly to the agent-produced change, removing the step where a reviewer assembles context
+    themselves, so teams with high change volume and thin review capacity would try it first; public material
+    has no user feedback or customer cases, so this motive is unconfirmed.'
+- id: req-full-reviu-2026-10-06
+  project_slug: reviu
+  level: full
+  reviewed_at: '2026-10-06T02:54:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决代理写完代码后由谁把关这一任务，但公开材料只有一句定位，没有可引用的用户痛点、旧替代行为或不解决的后果，连需求和痛点都无法从公开事实还原，价值结构不成立。
+    evidence_ids:
+    - ev-6b80432fee90f8e3
+    - ev-d2aa3f4e9d3a880c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Reviu 官方产品页或仓库 README，确认它接收什么输入、按什么规则给出评审结论、交付形态如何，以及是否有用户反馈或客户案例。
+  market: ''
+  job: 开发团队在 AI 编码代理提交一批代码改动后，需要有人逐条看过这些 diff，判断能不能合并进主干，并留下评审意见。
+  job_en: After an AI coding agent submits a batch of code changes, a development team needs someone to
+    go through the diff line by line, decide whether it can merge into the main branch, and leave review
+    comments.
+  pain: 公开材料只有一句定位，没有任何用户抱怨、评审耗时或漏检后果的可引用事实，无法确认痛点真实存在及其强度。
+  pain_en: Public material contains only a one-line positioning statement, with no citable user complaints,
+    review-time costs, or missed-defect consequences, so the pain's existence and intensity cannot be
+    confirmed.
+  current_alternative: 公开材料未说明开发者现在用什么方式评审代理产出的代码，无法确认旧替代行为。
+  current_alternative_en: Public material does not describe how developers currently review agent-produced
+    code, so the prior alternative cannot be confirmed.
+  usage_reason: 公开材料未给出任何用户反馈、客户案例或采用证据，无法解释哪类用户会在什么情况下选择它，动机不可判断。
+  usage_reason_en: Public material provides no user feedback, customer cases, or adoption evidence, so
+    which users would choose it and under what circumstances cannot be explained; the motive is undeterminable.

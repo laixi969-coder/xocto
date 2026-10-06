@@ -399,3 +399,45 @@
   usage_reason_en: 'No usage reason can be given: evidence contains no product capability description,
     integrations, extraction output, or user feedback, so no step saved versus the old approach can be
     explained.'
+- id: req-full-relate-2026-10-06
+  project_slug: relate
+  level: full
+  reviewed_at: '2026-10-06T02:54:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据仅为词典对 relate 一词的释义，与聊天承诺跟进无关，既写不出用户任务与痛点，也看不到旧替代行为，价值结构无法成立。
+    evidence_ids:
+    - ev-41e01a94850cfe63
+    - ev-90c76103c162ae50
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 Relate 项目自身的官网或代码仓库 README、issue 与 discussion，确认它实际接入哪些聊天平台、承诺抽取的准确率说明以及是否提供托管付费版本。
+  market: ''
+  job: 独立顾问、销售或经纪人同时跟进多段客户对话，需要从聊天记录里找出对方提过的需求和自己答应过的事，整理成不漏项的跟进清单。
+  job_en: An independent consultant, salesperson or agent tracking several client conversations needs
+    to pull stated needs and self-made promises out of chat logs into a follow-up list with no missed
+    items.
+  pain: 公开材料中没有任何关于该产品用户痛点的证据：现有证据全部是英语词典对 relate 一词的释义，与聊天承诺散落、跟进漏项无关，无法确认痛点真实存在。
+  pain_en: 'No public evidence describes this product''s user pain: all available evidence is dictionary
+    definitions of the English word ''relate'', unrelated to scattered chat promises or missed follow-ups,
+    so the pain cannot be confirmed.'
+  current_alternative: 公开材料未披露任何现有替代方式；词典释义无法说明用户今天如何手动翻聊天记录、记备忘录或靠记忆跟进。
+  current_alternative_en: No current alternative is disclosed in public material; dictionary definitions
+    cannot show how users today scroll chat logs, keep memos, or rely on memory.
+  usage_reason: 无法给出使用理由：证据中没有产品页面、文档、用户反馈或案例，无法说明它相较旧做法减少哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: evidence contains no product page, docs, user feedback
+    or cases, so it cannot show which step it removes versus the old way or which users would choose it
+    when.'

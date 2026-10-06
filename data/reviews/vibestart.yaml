@@ -1,0 +1,86 @@
+- id: req-initial-vibestart-2026-10-06
+  project_slug: vibestart
+  level: initial
+  reviewed_at: '2026-10-06T02:18:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新项目开工前反复配置类型、lint 与测试的负担，不配置会让智能体产出难验证，旧做法是复制模板手工补。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  - gate: consensus
+    status: insufficient
+    reason: 仅 42 星、1 个 fork，无用户评价或重复使用证据，尚未形成采用共识。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页，付费路径未披露，是否靠托管或企业模板收费属推断。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成骨架的验证方式与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  next_validation: 查看 vibestart 仓库的 issue 与 discussion，确认开发者是否在真实项目中重复使用该脚手架并提出配置需求。
+  market: ''
+  job: 全栈开发者在启动新项目时，需要选定技术栈并搭好类型检查、lint、测试配置，让 AI 编码智能体能在规范骨架里写代码。
+  job_en: Full-stack developers starting a new project need to pick a stack and set up type checking,
+    lint, and test configuration so AI coding agents can write code inside a standardized skeleton.
+  pain: 手工搭脚手架要反复配置类型、lint 与测试，且配置不一致会让 AI 智能体产出难以验证的代码，返工成本高。
+  pain_en: Hand-building scaffolding means repeatedly configuring types, lint, and tests, and inconsistent
+    setups make agent-generated code hard to verify, driving rework costs.
+  current_alternative: 手动初始化仓库、复制旧项目模板，或使用通用脚手架再自行补配置。
+  current_alternative_en: Manually initializing repositories, copying old project templates, or using
+    generic scaffolding and adding configuration by hand.
+  usage_reason: 推断：相比复制旧模板再逐项补配置，它把类型安全、lint 与测试一次性写进生成结果，省掉新项目开工前的配置与校验步骤，因此常开新仓库的全栈开发者会在启动阶段选择它。
+  usage_reason_en: 'Inference: compared with copying an old template and patching configuration item by
+    item, it writes type safety, lint, and tests into the generated result at once, removing the setup
+    and verification steps before a new project starts, so full-stack developers who frequently open new
+    repositories would choose it at kickoff.'
+- id: req-full-vibestart-2026-10-06
+  project_slug: vibestart
+  level: full
+  reviewed_at: '2026-10-06T02:55:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新项目开工前反复配置类型、lint 与测试的负担，不配置会让智能体产出难验证，旧做法是复制模板手工补。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  - gate: consensus
+    status: insufficient
+    reason: 仅 42 星、1 个 fork，无用户评价或重复使用证据，尚未形成采用共识。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页，付费路径未披露，是否靠托管或企业模板收费属推断。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成骨架的验证方式与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  next_validation: 查看 vibestart 仓库的 issue 与 discussion，确认开发者是否在真实项目中重复使用该脚手架并提出配置需求。
+  market: ''
+  job: 全栈开发者在启动新项目时，需要选定 TypeScript 技术栈组合，并搭好类型检查、lint 与测试配置，让 AI 编码智能体能在规范骨架里写代码。
+  job_en: Full-stack developers starting a new project need to pick a TypeScript stack and set up type
+    checking, lint, and test configuration so AI coding agents can write code inside a standardized skeleton.
+  pain: 手工搭脚手架要反复配置类型、lint 与测试，配置不一致会让 AI 智能体产出难以验证的代码，返工成本高。
+  pain_en: Hand-building scaffolding means repeatedly configuring types, lint, and tests, and inconsistent
+    setups make agent-generated code hard to verify, driving rework costs.
+  current_alternative: 手动初始化仓库、复制旧项目模板，或使用通用脚手架再自行补配置。
+  current_alternative_en: Manually initializing repositories, copying old project templates, or using
+    generic scaffolding and adding configuration by hand.
+  usage_reason: 推断：相比复制旧模板再逐项补配置，它把类型安全、lint 与测试一次性写进生成结果，省掉新项目开工前的配置与校验步骤，因此常开新仓库的全栈开发者会在启动阶段选择它。
+  usage_reason_en: 'Inference: compared with copying an old template and patching configuration item by
+    item, it writes type safety, lint, and tests into the generated result at once, removing the setup
+    and verification steps before a new project starts, so full-stack developers who frequently open new
+    repositories would choose it at kickoff.'

@@ -1,6 +1,6 @@
 ---
 slug: making-amazon-quick-enterprise-ready-automated-auditable-cro
-name: 'Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion'
+name: Amazon Quick
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Promoting Amazon Quick resources (agents, action connectors, knowledge 
   how to automate cross-account promotion with an idempotent, auditable MCP server on Amazon Bedrock AgentCore.
 first_seen: '2026-10-05T15:56:28Z'
 last_seen: '2026-10-06T02:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion
+# Amazon Quick
 
 Promoting Amazon Quick resources (agents, action connectors, knowledge bases, flows, and spaces) from a development to a production AWS account has been a manual, error-prone chore. This post shows how to automate cross-account promotion with an idempotent, auditable MCP server on Amazon Bedrock AgentCore.
 

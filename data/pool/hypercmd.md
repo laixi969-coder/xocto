@@ -21,7 +21,7 @@ canonical_url: https://github.com/fusor-rs/hypercmd
 summary: write CLI applications using plain HTML
 first_seen: '2026-10-05T01:33:16Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

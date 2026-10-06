@@ -21,7 +21,7 @@ canonical_url: https://coryd.dev/posts/2026/ai-companies-are-parasites
 summary: AI Companies Are Parasites
 first_seen: '2026-10-05T19:30:10Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

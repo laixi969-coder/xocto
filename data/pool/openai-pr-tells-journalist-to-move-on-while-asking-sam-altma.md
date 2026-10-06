@@ -24,7 +24,7 @@ summary: An OpenAI publicist tried to change the topic of CEO Sam Altman's inter
   on" to another topic. The interruption came […]
 first_seen: '2026-10-05T16:55:42Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -23,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE41YXp5SDJUTldF
 summary: CrowdStrike推出AI合作伙伴专项计划 拓展企业AI部署安全生态 Moomoo
 first_seen: '2026-09-01T06:28:00Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

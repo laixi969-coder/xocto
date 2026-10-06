@@ -225,3 +225,56 @@
     need not restart and citations ship with the report; analysts or consultants who repeatedly produce
     checkable drafts and care about traceable sources would choose it for long research runs. Public material
     provides no user feedback or customer case confirming this motive.'
+- id: req-full-deepresearchagent-2026-10-06
+  project_slug: deepresearchagent
+  level: full
+  reviewed_at: '2026-10-06T02:52:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把散落公开网页材料整理成带引用调研初稿的需求，痛点在长链路检索中断后需重跑、证据与引用难追溯；公开说明已给出输入、检索规划、证据归集、续跑与引用交付的闭环，属工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-91984fd2bb08379b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数在 60 至 63 之间小幅波动，说明有开发者关注，但公开材料没有目标分析师的使用反馈、复刻部署或持续采用记录，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-91984fd2bb08379b
+    - ev-a155c28ba447035a
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费客户或采购记录，谁付钱尚不清楚；按能力推断可能走 to C 开发者自用或 to B 团队定制，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-78f6dac3e4125cb5
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺可恢复、可审计并生成带引用报告，但未见可复现实测、部署文档或引用准确率数据，交付能否稳定发生及人工核对边界仍缺公开证据。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-e287b98a9b553908
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有真实用户报告部署场景、中断续跑效果与引用核对结果。
+  market: ''
+  job: 分析师或咨询顾问在需要快速产出带引用的行业调研初稿时，把散落的公开网页材料交给这个 LangGraph agent：它先规划检索步骤，再搜索网页、归集证据与上下文，中断后可续跑，最后输出带引用的报告，人工再核对引用是否成立。
+  job_en: 'Analysts or consultants who need a cited first-draft industry research report hand scattered
+    public web material to this LangGraph agent: it plans search steps, searches the web, organizes evidence
+    and context, resumes interrupted runs, and outputs a cited report for human verification of each citation.'
+  pain: 公开材料只说明它做检索规划、证据归集与引用生成，未提供用户抱怨、频率或不采用代价；从工作流结构推理，痛点是长链路调研中断后需从头重跑、证据与上下文散落难以追溯、引用无法逐条核对。
+  pain_en: 'Public material only describes search planning, evidence collection and citation generation;
+    it gives no user complaints, frequency or cost of inaction. Structural inference from the workflow:
+    long research runs that restart from scratch after interruption, evidence and context scattered and
+    hard to trace, and citations that cannot be checked one by one.'
+  current_alternative: 公开材料未说明用户当前做法；结构上可对应人工逐页检索并手工整理笔记与参考文献，或使用不可续跑、不保留证据链的通用搜索与聊天式工具。
+  current_alternative_en: Public material does not state the current practice; structurally it maps to
+    manual page-by-page searching with hand-kept notes and references, or general search and chat tools
+    that cannot resume runs or preserve an evidence chain.
+  usage_reason: 推断：相较人工逐页检索或不可续跑的通用工具，它把检索规划、证据归集和引用生成串成一次可恢复的运行，中断后不必从头重跑，报告自带可核对引用，因此需要反复产出带引用初稿的分析师或咨询顾问会在长链路调研时选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus manual page-by-page searching or non-resumable general tools, it
+    chains search planning, evidence collection and citation generation into one recoverable run, so an
+    interrupted job need not restart from scratch and the report carries checkable citations; analysts
+    or consultants who repeatedly produce cited drafts would choose it for long research chains. No user
+    feedback or case yet confirms this motive.'

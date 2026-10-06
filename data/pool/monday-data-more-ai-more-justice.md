@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/monday-data-more-ai-more-justice
 summary: Everyone’s got a lawyer now
 first_seen: '2026-10-05T13:51:44Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

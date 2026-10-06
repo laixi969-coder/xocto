@@ -1,0 +1,91 @@
+- id: req-initial-scm-2-2026-10-06
+  project_slug: scm-2
+  level: initial
+  reviewed_at: '2026-10-06T02:18:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是本地影像按画面内容检索的需求，痛点方向成立，但候选材料只有一句功能描述，说不清输入、索引范围与交付确认，价值判断缺一环。
+    evidence_ids:
+    - ev-2bda0437e62ecb63
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标数，属于关注度而非采用证据，没有用户评价、案例或重复使用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-2bda0437e62ecb63
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、付费路径或买方说明；钱可能来自捐赠或后续商业版，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2bda0437e62ecb63
+  - gate: truth
+    status: insufficient
+    reason: 无法核对检索准确率、是否需人工复核，以及本地索引对隐私与安全边界的处理，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-2bda0437e62ecb63
+  next_validation: 收集该开源仓库的 README 与 issue/discussion，确认支持的媒体格式、索引方式、检索准确率说明与用户实际使用反馈。
+  market: ''
+  job: 影视后期或素材量大的个人用户，在剪辑或整理前面对本地文件夹里成百上千的照片与视频，需要按画面内容而非文件名找出某个镜头或某张照片。
+  job_en: A post-production editor or a user with a large personal library, facing hundreds or thousands
+    of local photos and videos before editing or organizing, needs to find a specific shot or photo by
+    visual content rather than filename.
+  pain: 文件名和文件夹层级无法描述画面内容，逐条点开预览翻找耗时且容易漏掉素材；候选材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: Filenames and folder hierarchies cannot describe visual content, so opening previews one by
+    one is slow and easy to miss material; the candidate material gives no direct evidence of user complaints
+    or workaround behavior.
+  current_alternative: 靠文件名、拍摄日期、文件夹分类，或系统自带的相册与 Spotlight 搜索，再手动逐个预览确认。
+  current_alternative_en: Relying on filenames, capture dates, folder categories, or built-in Photos and
+    Spotlight search, then manually previewing items one by one.
+  usage_reason: 推断：相较逐个预览，它把检索动作从“打开文件看内容”变成“用画面描述直接命中”，省掉翻找这一步；但候选材料没有说明索引范围、准确率或人工复核方式，因此哪类用户会持续选择它尚不清楚。
+  usage_reason_en: 'Inference: compared with previewing items one by one, it turns retrieval from opening
+    files to check content into matching a visual description directly, removing the hunting step; however
+    the candidate material does not describe indexing scope, accuracy or human review, so which users
+    would keep choosing it remains unclear.'
+- id: req-full-scm-2-2026-10-06
+  project_slug: scm-2
+  level: full
+  reviewed_at: '2026-10-06T02:54:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地照片与视频按画面内容检索的需求：文件名和文件夹无法描述画面，逐条预览翻找耗时且易漏，不解决就要在剪辑前反复人工翻查。产品以自然语言描述直接命中文件或片段，交付物明确；但输入格式、索引范围与人工确认未公开，属工作流结构推理。
+    evidence_ids:
+    - ev-2bda0437e62ecb63
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条仓库功能描述与 373 星标，星标属关注度而非采用证据；没有用户评价、案例或重复使用信号，无法判断共识卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-2bda0437e62ecb63
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、付费路径或买方说明；钱可能来自捐赠或后续商业版，这是判断而非已验证事实，也未出现融资叙事，暂无每日优鲜风险。
+    evidence_ids:
+    - ev-2bda0437e62ecb63
+  - gate: truth
+    status: insufficient
+    reason: 无法核对检索准确率、是否需人工复核，以及本地索引对隐私与安全边界的处理；承诺能否确定性交付未知，但产品目标贴近“按画面找素材”这一第一性任务。
+    evidence_ids:
+    - ev-2bda0437e62ecb63
+  next_validation: 收集该开源仓库的 README 与 issue/discussion，确认支持的媒体格式、索引方式、检索准确率说明与用户实际使用反馈。
+  market: ''
+  job: 影视后期剪辑师或素材量大的个人用户，在剪辑或整理前面对本地文件夹里成百上千的照片与视频，需要按画面内容而非文件名定位某个镜头或某张照片，最终拿到命中的文件或片段。
+  job_en: A post-production editor or a user with a large local library, facing hundreds or thousands
+    of photos and videos before editing or organizing, needs to locate a specific shot or photo by visual
+    content rather than filename, ending with the matched file or clip.
+  pain: 文件名、拍摄日期和文件夹层级无法描述画面内容，逐条点开预览翻找耗时且容易漏掉素材；候选材料只有功能描述，没有用户抱怨或替代行为的直接证据，痛点强度属结构推理。
+  pain_en: Filenames, capture dates and folder hierarchies cannot describe visual content, so opening
+    previews one by one is slow and easy to miss material; the candidate material only has a feature description,
+    with no direct evidence of user complaints or workaround behavior, so pain intensity is a structural
+    inference.
+  current_alternative: 靠文件名、拍摄日期、文件夹分类，或系统自带的相册与 Spotlight 搜索，再手动逐个预览确认。
+  current_alternative_en: Relying on filenames, capture dates, folder categories, or built-in Photos and
+    Spotlight search, then manually previewing items one by one.
+  usage_reason: 推断：相较逐个预览，它把检索动作从“打开文件看内容”变成“用画面描述直接命中”，省掉翻找这一步，因此素材量大、需要按画面找镜头的剪辑前期用户会在整理阶段选择它；但索引范围、准确率与人工复核方式未公开，持续使用尚无证据。
+  usage_reason_en: 'Inference: compared with previewing items one by one, it turns retrieval from opening
+    files to check content into matching a visual description directly, removing the hunting step, so
+    editors with large libraries who need to find shots by visual content would choose it during the organizing
+    stage; however indexing scope, accuracy and human review are not public, and continued use is unevidenced.'

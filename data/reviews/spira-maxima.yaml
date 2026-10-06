@@ -1,0 +1,85 @@
+- id: req-initial-spira-maxima-2026-10-06
+  project_slug: spira-maxima
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决账号持续更新时脚本到成片的制作负担，痛点具体且不采用会限制更新频率；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-e9a9029ec901b9f8
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品描述，没有成片案例、用户评价或使用规模，无法判断创作者是否真的把它纳入发布流程。
+    evidence_ids:
+    - ev-e9a9029ec901b9f8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，按条收费或订阅都只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e9a9029ec901b9f8
+  - gate: truth
+    status: insufficient
+    reason: 成片质量、生成时长与是否需人工返工没有公开材料说明，交付确定性未核验。
+    evidence_ids:
+    - ev-e9a9029ec901b9f8
+  next_validation: 收集 Spira Maxima 官方定价页或公开成片案例，确认其计费方式与脚本到成片的实际交付质量。
+  market: ''
+  job: 社交媒体运营或短视频创作者在需要持续更新账号时，要把写好的脚本变成一条可发布的短视频。
+  job_en: A social media operator or short-form creator who must keep an account updated needs to turn
+    a written script into a publishable short video.
+  pain: 脚本到成片之间要拍摄、剪辑、配字幕和配乐，单条制作耗时长，账号更新频率因此受限。
+  pain_en: Between script and finished clip lie shooting, editing, subtitling and music, so a single video
+    takes long to produce and posting frequency is capped.
+  current_alternative: 旧做法是自己拍摄加剪辑软件，或外包给剪辑师、使用模板化剪辑工具逐条拼装。
+  current_alternative_en: The old way is to shoot and edit in-house, outsource to an editor, or assemble
+    each clip with template-based editing tools.
+  usage_reason: 相较自己拍摄剪辑或外包排期，它把脚本直接转成成片，省掉拍摄与逐条剪辑这两步，因此需要高频更新但缺少拍摄条件的账号会尝试它；推断，公开材料没有用户反馈或采用数据支持这一动机。
+  usage_reason_en: Compared with shooting and editing in-house or scheduling an outsourced editor, it
+    converts the script directly into a finished clip, removing the shooting and per-clip editing steps,
+    so accounts that need high-frequency updates without shooting capacity would try it; this is inference,
+    as no user feedback or adoption data supports the motive in the public material.
+- id: req-full-spira-maxima-2026-10-06
+  project_slug: spira-maxima
+  level: full
+  reviewed_at: '2026-10-06T02:54:37Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向同名吉他品牌与 EMI 屏蔽制造商，与视频生成产品无关，无法确认它解决什么需求、痛点是否刚性，价值结构无法成立。
+    evidence_ids:
+    - ev-74d28380340d70ee
+    - ev-0c5c117aec242d5b
+    - ev-b250cd50178e6366
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Spira Maxima 官方产品页或发布页，确认其脚本到成片的实际输入格式、成片案例与计费方式。
+  market: ''
+  job: 社交媒体运营或短视频创作者在需要持续更新账号时，要把写好的脚本变成一条可发布的短视频。
+  job_en: A social media operator or short-form creator who must keep an account updated needs to turn
+    a written script into a publishable short video.
+  pain: 公开材料未提供任何关于脚本到成片制作负担的用户陈述或案例，痛点只能从任务结构推测，缺少可引用的公开事实。
+  pain_en: The public material provides no user statement or case about the burden of turning a script
+    into a finished clip; the pain can only be inferred from task structure, with no citable public fact.
+  current_alternative: 按任务结构推测为自行拍摄剪辑、外包剪辑师或使用模板化剪辑工具，但公开材料未记录任何实际替代行为。
+  current_alternative_en: Inferred from task structure as in-house shooting and editing, outsourcing to
+    an editor, or template-based editing tools, but the public material records no actual alternative
+    behavior.
+  usage_reason: 无法从现有证据说明用户为何选择它：所引证据全部指向 Spira Guitars 与 Spira Manufacturing 的吉他、EMI 屏蔽产品页面，与视频生成产品无关，无法建立产品能力与用户选择的因果链。
+  usage_reason_en: 'No reason for choosing it can be established from the available evidence: all cited
+    items point to Spira Guitars and Spira Manufacturing pages about guitars and EMI shielding, unrelated
+    to a video-generation product, so no causal link between capability and user choice can be built.'

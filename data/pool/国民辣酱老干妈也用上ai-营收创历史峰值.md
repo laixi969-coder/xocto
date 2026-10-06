@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9jUmdkUXdIQUpo
 summary: “国民辣酱”老干妈也用上AI 营收创历史峰值 中华网
 first_seen: '2026-10-05T08:25:02Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

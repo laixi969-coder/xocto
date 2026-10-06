@@ -24,7 +24,7 @@ summary: Yossi Matias, Vice President & Head of Google Research, explores how AI
   and unpublished insights from the team that researches…
 first_seen: '2026-10-05T04:00:00Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

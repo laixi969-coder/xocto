@@ -210,3 +210,47 @@
   usage_reason: 公开材料未提供任何用户选择理由或采用证据，无法判断用户为何会选用它。
   usage_reason_en: The public material provides no user rationale or adoption evidence, so it is impossible
     to judge why users would choose it.
+- id: req-full-dioramas-2026-10-06
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-06T02:52:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决三维发布页素材与编排成本高的问题，但所引证据全部是实体微缩景观（diorama）的制作指南与展馆案例，与三维网页交付无关，无法还原用户任务、痛点与旧替代，需求结构无法成立。
+    evidence_ids:
+    - ev-b42cf433d889428c
+    - ev-a8550ed35c5adfbd
+    - ev-7d2c57ba0eb385d9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该框架官方仓库的 README、issue 与 discussion，确认是否有团队用它交付真实商业三维站点，以及素材生成到上线的实际步骤与部署方式。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 公开材料未提供任何关于三维发布页制作痛点的用户陈述、抱怨或替代行为记录；现有证据全部指向实体微缩景观模型（diorama）的制作与展示，与三维网页交付无关。
+  pain_en: The public material provides no user statements, complaints, or workaround records about the
+    pain of building 3D launch pages; all available evidence concerns physical miniature diorama model
+    making and display, unrelated to 3D web delivery.
+  current_alternative: 公开材料未记录三维网页制作者当前的替代方式；所引证据描述的是学校项目或展馆中手工制作实体微缩景观的旧做法。
+  current_alternative_en: The public material does not record how 3D web builders currently work around
+    the problem; the cited evidence describes handcrafting physical miniature dioramas for school projects
+    or museum display.
+  usage_reason: 无法从现有证据说明用户为何选择它：所引来源均为实体微缩景观（diorama）的制作指南与展馆案例，未涉及该框架的素材生成、编排或上线流程，也没有任何用户反馈或采用记录。
+  usage_reason_en: 'No reason for user choice can be established from the available evidence: all cited
+    sources are guides for making physical miniature dioramas and museum display cases, with nothing on
+    this framework''s asset generation, orchestration, or deployment flow, and no user feedback or adoption
+    records.'

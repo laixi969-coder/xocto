@@ -1,0 +1,88 @@
+- id: req-initial-qwen-image-21-outfit-swap-2026-10-06
+  project_slug: qwen-image-21-outfit-swap
+  level: initial
+  reviewed_at: '2026-10-06T02:19:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决服装出图要重拍、重绘的问题，痛点刚性且旧流程清晰；但公开材料只有一句功能描述，交付确定性仍待核验。
+    evidence_ids:
+    - ev-f7701572ed2d5153
+  - gate: consensus
+    status: insufficient
+    reason: 仅 3 个点赞，没有用户评价、案例或社区讨论，无法判断设计师是否真的把它放进工作流。
+    evidence_ids:
+    - ev-f7701572ed2d5153
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费路径，买方可能是品牌方或代运营，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f7701572ed2d5153
+  - gate: truth
+    status: insufficient
+    reason: 未说明商用授权、人物肖像合规与批量一致性，服装换装涉及版权与肖像边界，公开材料未覆盖。
+    evidence_ids:
+    - ev-f7701572ed2d5153
+  next_validation: 收集该演示空间的官方说明或模型卡，确认是否支持批量出图、商用授权与人物肖像合规条款。
+  market: ''
+  job: 服装品牌或电商代运营的视觉设计师，在新品上架前需要把同一件衣服呈现在不同模特或不同姿态的图片上，用于详情页和投放素材。
+  job_en: A visual designer at an apparel brand or e-commerce agency needs the same garment shown on different
+    models or poses before a product launch, for detail pages and ad creatives.
+  pain: 传统做法要重新约模特、租棚、拍摄并后期修图，单款成本高、周期以周计，改一个款式就要重拍一轮。
+  pain_en: The traditional route requires rebooking models, renting a studio, shooting and retouching;
+    cost per style is high, cycles run in weeks, and any change means another shoot.
+  current_alternative: 目前多用 Photoshop 手工合成、找模特重拍，或使用通用图像生成工具整图重绘，但人物一致性差、常需大量返工。
+  current_alternative_en: Today people manually composite in Photoshop, reshoot with models, or use general
+    image generators that regenerate the whole image with poor identity consistency and heavy rework.
+  usage_reason: 推断：相较重拍或整图重绘，它只替换服装而保留原人物与姿态，省掉约模特、布光和重拍这一整步，因此预算有限、上新频繁的中小服装卖家会先试用；但公开材料没有付费、留存或客户案例，长期采用尚未被证实。
+  usage_reason_en: 'Inference: compared with reshoots or full regeneration, it replaces only the garment
+    while keeping the person and pose, removing the steps of booking models, lighting and reshooting,
+    so small apparel sellers with tight budgets and frequent launches would try it first; public materials
+    show no payment, retention or customer cases, so sustained use is unproven.'
+- id: req-full-qwen-image-21-outfit-swap-2026-10-06
+  project_slug: qwen-image-21-outfit-swap
+  level: full
+  reviewed_at: '2026-10-06T02:54:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决服装出图必须重拍或整图重绘、人物一致性差的问题，痛点刚性且旧流程清晰；产品以只换服装、保留原人物姿态的方式交付，属工作流结构推理，公开材料仅一句功能描述，交付确定性仍待核验。
+    evidence_ids:
+    - ev-f7701572ed2d5153
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句功能描述与少量点赞，没有设计师评价、客户案例或社区讨论，无法判断它是否真被放进上新出图流程，强场景尚未被外部行为印证。
+    evidence_ids:
+    - ev-f7701572ed2d5153
+  - gate: model
+    status: insufficient
+    reason: 演示空间没有定价页或付费路径，买方可能是品牌方、代运营或平台方，属判断而非已验证事实；也未出现融资叙事，商业路径完全未披露。
+    evidence_ids:
+    - ev-f7701572ed2d5153
+  - gate: truth
+    status: insufficient
+    reason: 未说明商用授权、人物肖像合规与批量出图一致性，服装换装直接涉及版权与肖像边界，公开材料未覆盖这些交付前提，无法核对承诺能否确定性兑现。
+    evidence_ids:
+    - ev-f7701572ed2d5153
+  next_validation: 追踪 Qwen-Image-2.1 Outfit Swap 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 服装品牌或电商代运营的视觉设计师，在新品上架前需要把同一件衣服呈现在不同模特或不同姿态的图片上，用于详情页与投放素材，于是上传一张人物原图并指定新服装，得到保留原人物与姿态的换装图。
+  job_en: A visual designer at an apparel brand or e-commerce agency needs the same garment shown on different
+    models or poses before launch for detail pages and ad creatives, so they upload a person image and
+    specify a new outfit to get a swap that keeps the original person and pose.
+  pain: 传统做法要重新约模特、租棚、拍摄并后期修图，单款成本高、周期以周计，改一个款式就要重拍一轮；用通用图像生成工具整图重绘则人物一致性差、返工量大。
+  pain_en: The traditional route requires rebooking models, renting a studio, shooting and retouching;
+    cost per style is high, cycles run in weeks, and any change means another shoot; general image generators
+    regenerate the whole image with poor identity consistency and heavy rework.
+  current_alternative: Photoshop 手工合成、找模特重拍，或用通用图像生成工具整图重绘后再大量修图。
+  current_alternative_en: Manual compositing in Photoshop, reshoots with models, or full-image regeneration
+    with general generators followed by heavy retouching.
+  usage_reason: 推断：相较重拍或整图重绘，它只替换服装而保留原人物与姿态，省掉约模特、布光、重拍这一整步，因此预算有限、上新频繁的中小服装卖家会先试用；公开材料只有一句功能描述，没有付费、留存或客户案例，长期采用未被证实。
+  usage_reason_en: 'Inference: compared with reshoots or full regeneration, it replaces only the garment
+    while keeping the person and pose, removing the steps of booking models, lighting and reshooting,
+    so small apparel sellers with tight budgets and frequent launches would try it first; public material
+    is one functional line with no payment, retention or customer cases, so sustained use is unproven.'

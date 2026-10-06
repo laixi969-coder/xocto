@@ -1,0 +1,89 @@
+- id: req-initial-qiaomu-rss-dsh-2026-10-06
+  project_slug: qiaomu-rss-dsh
+  level: initial
+  reviewed_at: '2026-10-06T02:18:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订阅源多、逐篇阅读耗时的问题，痛点具体，旧做法是通用阅读器加手工摘录，结构上成立。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  - gate: consensus
+    status: insufficient
+    reason: 40 星属于关注度信号，没有用户反馈或案例说明研究者已长期用它伴读。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  - gate: model
+    status: insufficient
+    reason: 开源项目无公开定价，付费路径可能是托管或定制信息源，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 伴读的解读是否准确、是否贴近筛选信息的第一性目标，缺少可复现测试。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它支持的订阅格式、AI 对话能力与实际使用反馈。
+  market: ''
+  job: 内容研究者或行业分析师在跟踪多个订阅源时，打开该工具阅读 RSS 文章，并就文章内容与 AI 对话提问以完成信息筛选。
+  job_en: A content researcher or industry analyst tracking many feeds opens this tool to read RSS articles
+    and asks the AI questions about them to filter information.
+  pain: 订阅源多、文章长，人工逐篇读完再判断相关性耗时，容易漏掉关键信息。
+  pain_en: With many feeds and long articles, reading each one to judge relevance is slow and key information
+    is easily missed.
+  current_alternative: 用通用 RSS 阅读器或浏览器标签页逐篇阅读，再手工摘录要点。
+  current_alternative_en: Reading item by item in a general RSS reader or browser tabs, then taking notes
+    by hand.
+  usage_reason: 推断：它把 AI 对话直接放进阅读界面，读者可在同一屏内就当前文章提问，省去复制正文到另一个对话窗口的一步；因此需要快速筛选大量订阅文章的研究者会尝试它。
+  usage_reason_en: 'Inference: it puts AI dialogue inside the reading view so readers can question the
+    current article on the same screen, skipping the step of copying text into a separate chat window;
+    researchers who must screen many subscribed articles quickly would try it.'
+- id: req-full-qiaomu-rss-dsh-2026-10-06
+  project_slug: qiaomu-rss-dsh
+  level: full
+  reviewed_at: '2026-10-06T02:54:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订阅源多、逐篇通读才能判断相关性、要点易漏的问题，痛点具体；旧做法是通用阅读器加手工摘录或另开对话窗口，不解决的后果是筛选耗时且遗漏。产品把 AI 对话嵌入阅读界面完成交付，属工作流结构推理，公开材料仅仓库标题与星数。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  - gate: consensus
+    status: insufficient
+    reason: 40 星只反映关注度，不能证明研究者已把它放进日常伴读流程；公开材料没有用户评价、案例或社区讨论，无法判断强场景是否形成。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无公开定价，付费路径可能是托管服务或定制信息源，属判断而非已验证事实；谁付钱、按什么计费均未披露，也未出现融资叙事。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 伴读的解读是否准确、是否贴近筛选信息的第一性目标，也未见支持的订阅格式与对话能力说明，缺少可复现测试与交付边界。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  next_validation: 追踪该 公开代码仓库 仓库的 README 与 issue/discussion，确认支持的订阅格式、AI 对话能力边界以及是否有用户反馈或使用记录。
+  market: ''
+  job: 内容研究者或行业分析师在跟踪多个订阅源时，在 DeepSeek Harness 内打开该 RSS 阅读器，处理订阅源里的长文章，边读边就当前文章向原生 AI 提问，完成信息筛选与要点提取。
+  job_en: A content researcher or industry analyst tracking many feeds opens this RSS reader inside DeepSeek
+    Harness, works through long subscribed articles, and asks the native AI questions about the current
+    article to screen information and extract key points.
+  pain: 订阅源多、单篇长，逐篇通读才能判断相关性，耗时且容易漏掉关键信息；把正文复制到另一个对话窗口再提问又多一步操作。
+  pain_en: Many feeds and long articles mean each item must be read to judge relevance, which is slow
+    and easily misses key information; copying text into a separate chat window to ask questions adds
+    another step.
+  current_alternative: 用通用 RSS 阅读器或浏览器标签页逐篇阅读，再手工摘录要点，或把正文复制到独立 AI 对话窗口提问。
+  current_alternative_en: Reading item by item in a general RSS reader or browser tabs, then taking notes
+    by hand, or copying text into a standalone AI chat window to ask questions.
+  usage_reason: 推断：相较通用阅读器加独立对话窗口的旧做法，它把 AI 对话嵌进阅读界面，读者可在同一屏内就当前文章提问，省去复制正文、切换窗口这一步；因此需要快速筛选大量订阅文章、且已在用
+    DeepSeek Harness 的研究者会尝试它。公开材料仅有仓库标题与 40 星，尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with a general reader plus a separate chat window, it embeds AI
+    dialogue in the reading view so readers can question the current article on one screen, skipping the
+    copy-and-switch step; researchers who must screen many subscribed articles and already use DeepSeek
+    Harness would try it. Public material shows only the repo title and 40 stars, with no retention or
+    repeat-use evidence.'

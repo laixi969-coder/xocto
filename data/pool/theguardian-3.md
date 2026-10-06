@@ -21,7 +21,7 @@ canonical_url: https://theguardian.com/technology/2026/oct/05/sam-altman-open-ai
 summary: Accept 'bad things' in return for benefits of AI, says Sam Altman
 first_seen: '2026-10-05T12:56:18Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -316,3 +316,55 @@
     an independent critic loop to self-check quality during generation, cutting the steps of hunting references,
     aligning style and manually reworking between script and deliverable asset, so budget-constrained
     marketing teams or solo creators producing a promo in-house would pick it.'
+- id: req-full-motion-video-kit-2026-10-06
+  project_slug: motion-video-kit
+  level: full
+  reviewed_at: '2026-10-06T02:53:31Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是营销团队用 AI 制作商业宣传片时质量不稳、动效与音效缺乏统一标准、需反复人工返工的问题；技能包以 28 部发布片的动效原则、音效规范与独立评审循环约束输出，痛点刚性来自品牌交付不可随意降级，交付物为脚本与素材，属工作流结构推理。
+    evidence_ids:
+    - ev-3b18bb39a0519c4b
+    - ev-fa4cda2f0eb429b1
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 580 增至 1,008 并持续上升，说明英文开发者社区已注意到该技能包并持续关注；但公开材料未显示目标营销团队的实际采用、复购或留存，关注度不等于持续使用，故共识仅部分成立。
+    evidence_ids:
+    - ev-3b18bb39a0519c4b
+    - ev-fa4cda2f0eb429b1
+    - ev-9aabbe7f955848b3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断钱来自 to C 创作者、to B 营销团队还是 to VC；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-3b18bb39a0519c4b
+  - gate: truth
+    status: insufficient
+    reason: 技能包承诺通过独立评审循环确定性交付品牌级视频，但公开材料未给出可复现的产出样例、人工修改量或安全边界说明，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-3b18bb39a0519c4b
+    - ev-fa4cda2f0eb429b1
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认是否出现真实用户提交的成品视频案例、使用反馈或部署说明，以核验交付质量与采用情况。
+  market: ''
+  job: 营销团队或独立创作者在需要为产品发布、融资或投放制作商业宣传片时，在 Claude Code 中加载这套技能包，处理脚本、动效原则、音效规范与 Three.js 画面代码，产出一版可交付的视频脚本与素材。
+  job_en: A marketing team or solo creator producing a business promo video for a launch, fundraise, or
+    ad campaign loads this skill kit in Claude Code, working on scripts, motion principles, sound specs,
+    and Three.js scene code to produce a deliverable video script and assets.
+  pain: 公开材料显示该技能包针对的是 AI 生成商业视频质量不稳定、动效与音效缺乏统一标准、需要反复人工返工的问题；它用来自 28 部发布片的动效原则和独立评审循环来约束输出，但公开材料未给出返工量或交付周期的量化数据。
+  pain_en: Public materials indicate the kit targets unstable quality in AI-generated business videos,
+    inconsistent motion and sound standards, and repeated manual rework; it constrains output with motion
+    principles drawn from 28 launch films and an independent critic loop, though no quantified rework
+    or turnaround data is public.
+  current_alternative: 旧做法是创作者直接向通用大模型下提示词生成视频脚本与画面，再靠人工逐帧检查动效、音效与品牌调性，或外包给动效设计师；公开材料未说明用户此前具体使用哪些工具组合。
+  current_alternative_en: The prior approach is prompting a general LLM directly for video scripts and
+    visuals, then manually checking motion, sound, and brand tone frame by frame, or outsourcing to a
+    motion designer; public materials do not specify which tool combinations users previously used.
+  usage_reason: 推断：相较通用提示词，该技能包把动效原则、音效规范与 Three.js 模式固化为可复用技能，并用独立评审循环在生成后自动检查质量，减少创作者逐条重写提示词和逐帧人工复核的步骤，因此需要批量产出品牌级宣传片的营销团队会在
+    Claude Code 工作流中选择它。
+  usage_reason_en: 'Inference: versus generic prompting, the kit encodes motion principles, sound specs,
+    and Three.js patterns as reusable skills and runs an independent critic loop to check quality after
+    generation, cutting the steps of rewriting prompts and manually reviewing frames, so marketing teams
+    producing brand-grade promos in volume would choose it inside a Claude Code workflow.'

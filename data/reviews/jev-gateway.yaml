@@ -314,3 +314,54 @@
     protocol adaptation and forwarding per integration, so developers wiring jev tool-calling reasoning
     into a coding agent would pick it at the integration stage; star growth only reflects attention, not
     sustained use.'
+- id: req-full-jev-gateway-2026-10-06
+  project_slug: jev-gateway
+  level: full
+  reviewed_at: '2026-10-06T02:53:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码 agent 调用外部工具时把推理请求转发给 jev 并取回结果的需求，旧做法是自写胶水代码，不解决则每个 agent 都要重复实现对接；公开材料只给定位与星标，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-d651cadcace57894
+    - ev-ebc8f2518449472e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 268 升至 298 只说明关注度增长，没有用户反馈、issue 讨论或客户案例说明谁在什么场景下依赖它，无法判断是否形成持续采用共识。
+    evidence_ids:
+    - ev-d651cadcace57894
+    - ev-ebc8f2518449472e
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、收费或商业路径，买方与付费方式均未知；这是判断而非已验证事实，但价值关已成立，不因此取消真需求判定。
+    evidence_ids:
+    - ev-d651cadcace57894
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明转发结果是否确定交付、失败如何处理、是否需要人工确认，承诺的可验证性不足，无法核对交付确定性。
+    evidence_ids:
+    - ev-d651cadcace57894
+  next_validation: 追踪该仓库的 README、部署文档与未关闭 issue，确认转发失败处理、人工确认边界与是否有真实使用反馈。
+  market: ''
+  job: 开发者在为编码 agent 接入外部工具调用时，需要把 agent 发出的推理请求转发给 jev 决策服务并取回结果，再交回 agent 继续执行，从而让 agent 的工具调用具备可用的推理决策环节。
+  job_en: Developers wiring external tool calls into a coding agent need to forward the agent's reasoning
+    requests to the jev decision service, retrieve the results, and hand them back to the agent so tool-calling
+    can proceed with a usable reasoning step.
+  pain: 公开材料只给出项目定位（让编码 agent 便捷使用 jev 做工具调用推理），未披露旧做法中自写转发/胶水代码的具体负担、失败代价或人工确认需求；痛点强度属于工作流结构推理，而非用户口述。
+  pain_en: Public material only states the positioning (an easy way to use jev with a coding agent for
+    tool-calling reasoning) and does not disclose the concrete burden, failure cost, or human-confirmation
+    needs of hand-written forwarding/glue code; pain intensity is a workflow-structure inference, not
+    user testimony.
+  current_alternative: 开发者通常自行编写胶水代码，把编码 agent 与 jev 决策服务对接并处理请求转发与结果回传；具体替代方式未在公开材料中说明。
+  current_alternative_en: Developers typically write their own glue code to connect the coding agent with
+    the jev decision service and handle request forwarding and result return; the specific alternative
+    is not described in public material.
+  usage_reason: 推断：相较自写胶水代码，该网关把 agent 到 jev 的转发与结果回传收敛为一个可复用组件，减少每个 agent 重复实现对接的那一步负担；维护多个编码 agent、且已选定
+    jev 作为决策服务的开发者，会在需要统一接入时选择它。星标增长只反映关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: compared with hand-written glue code, this gateway collapses agent-to-jev
+    forwarding and result return into one reusable component, removing the step of re-implementing integration
+    per agent; developers maintaining several coding agents who have already chosen jev as their decision
+    service would pick it when they need a unified integration. Star growth only reflects attention and
+    does not prove sustained use.'

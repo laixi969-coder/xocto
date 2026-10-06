@@ -1,0 +1,92 @@
+- id: req-initial-bashcut-2026-10-06
+  project_slug: bashcut
+  level: initial
+  reviewed_at: '2026-10-06T02:18:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是剪辑中重复手工操作的问题，痛点真实，但公开材料未说明代理驱动具体替代了哪一步旧流程，也未给出成片或用户反馈，价值结构尚不能确认。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+  - gate: consensus
+    status: insufficient
+    reason: 46 星、16 分支属于早期关注度，202 个未关闭 issue 反而说明使用中问题密集，没有持续采用或口碑证据。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露任何定价、付费路径或买方；钱可能来自团队自用或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+  - gate: truth
+    status: insufficient
+    reason: 代理直接操作剪辑时间线涉及成片质量与误操作风险，公开材料未说明人工确认边界与失败回退方式。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+  next_validation: 收集 BashCut 仓库的 issue 与 discussion，确认是否有用户跑通完整剪辑链路并说明代理驱动相比手工剪辑省掉了哪一步。
+  market: ''
+  job: 视频剪辑师或代运营团队在 macOS 上处理原始素材，需要完成分层时间线剪辑、字幕与配音，产出可交付的成片。
+  job_en: A video editor or agency team working on macOS takes raw footage and must complete layered-timeline
+    editing, captions and voiceover to produce a deliverable cut.
+  pain: 剪辑中的重复操作（对齐、打字幕、录配音）要逐条手工完成，批量出片时人力成为瓶颈；但公开材料没有说明代理驱动相比手工或现有脚本化剪辑究竟省掉哪一步。
+  pain_en: Repetitive editing steps such as aligning, typing captions and recording voiceover are done
+    by hand clip by clip, and human effort becomes the bottleneck for batch output; however the public
+    material does not say which step agent control actually removes compared with manual or existing scripted
+    editing.
+  current_alternative: 剪辑师手工使用 Premiere、Final Cut 等桌面软件，或自行写脚本调用 ffmpeg 等命令行工具。
+  current_alternative_en: Editors work by hand in desktop software such as Premiere or Final Cut, or write
+    their own scripts against command-line tools such as ffmpeg.
+  usage_reason: 推断：如果代理能直接调用与界面等价的时间线、字幕和配音动作，剪辑师可以把逐条手工操作换成用自然语言下达剪辑指令，减少重复点击这一步；但公开材料未给出任何用户反馈或成片案例，因此尚不能确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the agent can invoke timeline, caption and voiceover actions equivalent
+    to the UI, editors could replace clip-by-clip manual operation with natural-language editing instructions,
+    removing repeated clicking; but the public material offers no user feedback or finished-video case,
+    so it is not yet possible to confirm which users would choose it for that reason.'
+- id: req-full-bashcut-2026-10-06
+  project_slug: bashcut
+  level: full
+  reviewed_at: '2026-10-06T02:51:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决剪辑中重复手工操作的需求：对齐、打字幕、录配音逐条执行，批量出片时人力成瓶颈，旧做法是手工用 Premiere/Final Cut 或自写 ffmpeg 脚本。公开材料已能还原输入素材、代理动作与交付工程/成片的结构闭环，属工作流推理；痛点刚性来自批量出片的人力约束，交付可确定。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 46 星属早期关注度，只能说明有人关注，不能证明持续采用或口碑；公开材料没有用户评价、客户案例或重复使用证据，无法判断剪辑师是否已把它留在工作流里。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价、付费路径或买方；钱可能来自团队自用、后续托管服务或企业定制，这是判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+  - gate: truth
+    status: insufficient
+    reason: 代理直接操作时间线、字幕与配音涉及成片质量与误操作风险，公开材料未说明人工确认边界、失败回退方式，也未给出成片案例验证承诺能否确定性交付。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+  next_validation: 追踪 BashCut 仓库的 issue 与 discussion，确认是否有用户跑通完整剪辑链路并说明代理驱动相比手工剪辑省掉了哪一步。
+  market: ''
+  job: 视频剪辑师或代运营团队在 macOS 上处理原始素材，需要完成分层时间线剪辑、字幕与配音，产出可继续人工调整的工程与成片。
+  job_en: A video editor or agency team on macOS takes raw footage and must complete layered-timeline
+    editing, captions and voiceover, producing a project and cut that can still be adjusted by hand.
+  pain: 对齐、打字幕、录配音等重复操作要逐条手工完成，批量出片时人力成为瓶颈；公开材料未量化省掉多少工时，但旧流程中这些步骤确实由人逐条执行。
+  pain_en: Repetitive steps such as aligning, typing captions and recording voiceover are done clip by
+    clip by hand, and human effort becomes the bottleneck for batch output; the public material does not
+    quantify the hours saved, but in the old workflow these steps are indeed executed one by one by a
+    person.
+  current_alternative: 剪辑师手工使用 Premiere、Final Cut 等桌面软件，或自行写脚本调用 ffmpeg 等命令行工具，代理无法直接驱动同一套界面能力。
+  current_alternative_en: Editors work by hand in desktop software such as Premiere or Final Cut, or write
+    their own scripts against command-line tools such as ffmpeg, where an agent cannot drive the same
+    UI capabilities directly.
+  usage_reason: 推断：相较手工逐条操作或自写 ffmpeg 脚本，BashCut 让 Claude Code、Codex 通过 CLI 或 MCP 调用与界面等价的时间线、字幕、配音动作，把逐条点击换成下达剪辑指令，减少重复操作这一步；处理批量素材、需要脚本化出片的剪辑师或代运营团队会在这种情况下选择它。
+  usage_reason_en: 'Inference: compared with clip-by-clip manual work or self-written ffmpeg scripts,
+    BashCut lets Claude Code and Codex invoke timeline, caption and voiceover actions equivalent to the
+    UI through the CLI or MCP server, replacing repeated clicking with editing instructions and removing
+    that repetitive step; editors or agency teams handling batch footage and needing scripted output would
+    choose it in that situation.'

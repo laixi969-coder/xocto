@@ -1,0 +1,97 @@
+- id: req-initial-invofox-2026-10-06
+  project_slug: invofox
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是单据字段录入这一具体旧工作流，痛点是人工敲字段慢且易错，不采用就要继续承担积压与返工，价值结构成立。
+    evidence_ids:
+    - ev-daca73eae548f275
+  - gate: consensus
+    status: insufficient
+    reason: 社区提交仅有少量讨论，没有客户案例、用户评价或行业采用证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-daca73eae548f275
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方是财务团队还是系统集成方，也未说明按份数还是按席位收费，付费路径属于推断。
+    evidence_ids:
+    - ev-daca73eae548f275
+  - gate: truth
+    status: insufficient
+    reason: 校验规则、人工复核边界与抽取准确率均未公开，交付能否确定性发生无法核对。
+    evidence_ids:
+    - ev-daca73eae548f275
+  next_validation: 收集 Invofox 官方定价页或客户案例页面，确认其按什么计价、面向哪类买方以及是否披露抽取准确率或人工复核流程。
+  market: ''
+  job: 财务或运营人员在收到供应商发票、保单、提单等 PDF 或扫描件时，需要把这些材料里的字段录入台账或业务系统，以便完成记账、对账或理赔登记。
+  job_en: Finance or operations staff receiving supplier invoices, policy documents or bills of lading
+    as PDFs or scans need to key the fields from these materials into ledgers or business systems to complete
+    bookkeeping, reconciliation or claims registration.
+  pain: 人工逐份阅读并敲字段既慢又容易出错，字段错一位就要回头核对原件，单据量大时形成积压。
+  pain_en: Reading each document and typing fields by hand is slow and error-prone; a single wrong field
+    forces a return to the original document, and volume creates backlogs.
+  current_alternative: 旧做法是人工录入，或使用模板固定的 OCR 工具，遇到版式变化就要重新配置模板，抽取结果仍需人工逐字段核对。
+  current_alternative_en: The old approach is manual data entry or fixed-template OCR tools that need
+    reconfiguration when layouts change, with extracted results still checked field by field by a person.
+  usage_reason: 推断：相较人工录入或固定模板 OCR，它把文档直接转成带校验的结构化 JSON，省去逐字段敲入和模板重配这一步，因此单据版式杂、字段需要进入下游系统的财务与运营团队会在处理批量单据时选择它；公开材料未给出校验规则与人工复核边界，也未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with manual entry or fixed-template OCR, it converts documents
+    directly into validated structured JSON, removing the step of typing each field and reconfiguring
+    templates, so finance and operations teams with varied document layouts and downstream systems would
+    choose it when processing document batches; the public material does not describe validation rules
+    or human review boundaries, nor does it provide retention or repeat-use evidence.'
+- id: req-full-invofox-2026-10-06
+  project_slug: invofox
+  level: full
+  reviewed_at: '2026-10-06T02:52:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是发票、保单、提单等单据字段录入台账或业务系统这一具体旧工作流，痛点是人工敲字段慢且易错、版式变化后模板要重配，不采用就要继续承担积压与返工；产品把文档转成带校验的结构化
+      JSON，交付物明确。这是基于公开定位与任务结构的工作流推理，尚无用户抱怨或采用数据佐证。
+    evidence_ids:
+    - ev-daca73eae548f275
+    - ev-06b62e9d47d5c384
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网一句定位和一条 公开资料 提交（6 分、4 条评论），没有客户案例、用户评价或行业采用证据，无法判断共识卡在感知、场景还是利益环节，也无法确认是否被持续使用。
+    evidence_ids:
+    - ev-daca73eae548f275
+    - ev-36b4ef955c39678e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、计价单位与买方类型，无法确认钱来自财务团队、系统集成方还是按份数计费；这是判断而非已验证事实，但不足以取消真需求判定。
+    evidence_ids:
+    - ev-1d2b4848d136d6c3
+  - gate: truth
+    status: insufficient
+    reason: 校验规则、人工复核边界与抽取准确率均未公开，交付能否确定性发生无法核对；公开资料 讨论标题指向大规模运行出问题，但正文内容未采集，无法据此判断失败模式。
+    evidence_ids:
+    - ev-06b62e9d47d5c384
+    - ev-69d930145bbb1d11
+  next_validation: 追踪 Invofox 官网定价页与客户案例页面，确认其计价单位、目标买方，以及是否公开抽取准确率或人工复核流程。
+  market: ''
+  job: 财务、运营或合规人员在收到供应商发票、保单、提单等 PDF 或扫描件时，需要把其中的字段抽取出来并写入台账、理赔或业务系统，以完成记账、对账或登记。
+  job_en: Finance, operations or compliance staff receiving supplier invoices, policy documents or bills
+    of lading as PDFs or scans need to extract fields and write them into ledgers, claims or business
+    systems to complete bookkeeping, reconciliation or registration.
+  pain: 公开材料只给出产品定位与一篇关于 Azure Document Intelligence 大规模运行出问题的讨论，未直接记录用户抱怨；从任务结构看，人工逐份阅读并敲字段慢且易错，字段错一位就要回查原件，单据量大时形成积压，这是工作流推理而非用户口述。
+  pain_en: Public material gives only the product positioning and one discussion about what broke when
+    running Azure Document Intelligence at scale, with no direct user complaints; structurally, reading
+    each document and typing fields by hand is slow and error-prone, one wrong field forces a return to
+    the source, and volume creates backlogs — this is workflow inference, not user testimony.
+  current_alternative: 旧做法是人工录入，或使用模板固定的 OCR 工具，版式一变就要重新配置模板，抽取结果仍需人工逐字段核对；公开材料未说明 Invofox 自身如何处理校验与人工复核。
+  current_alternative_en: The old approach is manual entry or fixed-template OCR tools that need reconfiguration
+    when layouts change, with results still checked field by field by a person; the public material does
+    not describe how Invofox itself handles validation or human review.
+  usage_reason: 推断：相较人工录入或固定模板 OCR，它把文档直接转成带校验的结构化 JSON，省去逐字段敲入与模板重配这一步，因此单据版式杂、字段要进下游系统的财务与运营团队会在批量处理时选择它；公开材料未给出校验规则、准确率或留存复购证据。
+  usage_reason_en: 'Inference: compared with manual entry or fixed-template OCR, it converts documents
+    directly into validated structured JSON, removing the step of typing each field and reconfiguring
+    templates, so finance and operations teams with varied layouts and downstream systems would choose
+    it for batch processing; the public material gives no validation rules, accuracy figures or retention
+    evidence.'

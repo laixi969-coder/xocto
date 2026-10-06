@@ -1,0 +1,84 @@
+- id: req-initial-instinct-brings-its-ai-agent-to-group-chats-even-for-friends-2026-10-06
+  project_slug: instinct-brings-its-ai-agent-to-group-chats-even-for-friends
+  level: initial
+  reviewed_at: '2026-10-06T02:19:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人协调中信息分散、反复确认的需求，痛点真实且交付可核对；买方是个人用户，公开材料未说明定价。
+    evidence_ids:
+    - ev-ad4940f10679aa57
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一次发布报道，未披露使用规模、留存或用户反馈，尚不能判断群体是否真的把它留在协调流程里。
+    evidence_ids:
+    - ev-ad4940f10679aa57
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费路径，个人订阅还是按次收费均不清楚，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ad4940f10679aa57
+  - gate: truth
+    status: insufficient
+    reason: 多人授权与隐私边界如何落地、代理动作是否可回滚，公开材料只给出原则性说明，缺少可核对结果。
+    evidence_ids:
+    - ev-ad4940f10679aa57
+  next_validation: 收集 Instinct 官方定价页或公开使用数据，确认群聊功能的收费方式与是否有持续使用证据。
+  market: ''
+  job: 朋友群体中的组织者在群里协调出行或活动时，需要处理多人零散的时间、地点和偏好信息，最终敲定一份大家都能接受的安排。
+  job_en: An organizer in a friend group coordinating a trip or event must process scattered times, places
+    and preferences from several people and settle on one arrangement everyone accepts.
+  pain: 群聊里信息分散、反复确认，组织者往往要手动汇总并逐个追问，协调成本高且容易遗漏或产生分歧。
+  pain_en: Information is scattered across the chat and repeatedly re-confirmed; the organizer manually
+    consolidates and chases each person, which is costly and prone to omissions or disputes.
+  current_alternative: 旧做法是在群聊里人工接龙、用投票工具或表格收集意见，再由组织者手动整理成方案。
+  current_alternative_en: The old way is manual roll-calls in the chat, polls or spreadsheets to collect
+    opinions, then the organizer manually turns them into a plan.
+  usage_reason: 相较人工接龙与投票，它直接读取群聊中的偏好并生成方案，省去组织者逐条汇总和追问这一步；推断，因为公开材料未提供使用留存或付费证据。
+  usage_reason_en: Compared with manual roll-calls and polls, it reads preferences directly from the chat
+    and drafts a plan, removing the organizer's step of consolidating and chasing each reply; this is
+    inference, as no retention or payment evidence is public.
+- id: req-full-instinct-brings-its-ai-agent-to-group-chats-even-for-friends-2026-10-06
+  project_slug: instinct-brings-its-ai-agent-to-group-chats-even-for-friends
+  level: full
+  reviewed_at: '2026-10-06T02:52:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人协调中信息分散、反复确认的需求，痛点真实且交付可核对；买方是个人用户，公开材料未说明定价。
+    evidence_ids:
+    - ev-1f3af00706662794
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一次发布报道，未披露使用规模、留存或用户反馈，尚不能判断群体是否真的把它留在协调流程里。
+    evidence_ids:
+    - ev-1f3af00706662794
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费路径，个人订阅还是按次收费均不清楚，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1f3af00706662794
+  - gate: truth
+    status: insufficient
+    reason: 多人授权与隐私边界如何落地、代理动作是否可回滚，公开材料只给出原则性说明，缺少可核对结果。
+    evidence_ids:
+    - ev-1f3af00706662794
+  next_validation: 收集 Instinct 官方定价页或公开使用数据，确认群聊功能的收费方式与是否有持续使用证据。
+  market: ''
+  job: 朋友群体中的组织者在群里商量出行或活动时，需要把多人零散的时间、地点和偏好汇总成一份大家都能接受的行程或分工。
+  job_en: An organizer in a friend group discussing a trip or event must consolidate scattered times,
+    places and preferences from several people into one itinerary or division of labor everyone accepts.
+  pain: 群聊信息分散、反复确认，组织者要手动汇总并逐个追问，协调成本高且容易遗漏或产生分歧。
+  pain_en: Chat information is scattered and repeatedly re-confirmed; the organizer manually consolidates
+    and chases each person, which is costly and prone to omissions or disputes.
+  current_alternative: 旧做法是在群聊里人工接龙、用投票工具或表格收集意见，再由组织者手动整理成方案。
+  current_alternative_en: The old way is manual roll-calls in the chat, polls or spreadsheets to collect
+    opinions, then the organizer manually turns them into a plan.
+  usage_reason: 相较人工接龙与投票，它直接读取群聊中的偏好并生成方案，省去组织者逐条汇总和追问这一步；这是基于产品能力与任务结构的推断，公开材料未提供留存或付费证据。
+  usage_reason_en: Compared with manual roll-calls and polls, it reads preferences directly from the chat
+    and drafts a plan, removing the organizer's step of consolidating and chasing each reply; this is
+    inference from product capability and task structure, as no retention or payment evidence is public.

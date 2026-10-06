@@ -394,3 +394,56 @@
     one by one; it would therefore be chosen by designers or startup brand leads who need an editable
     vector mark fast without drawing from scratch. Stars rising from 843 to 1,862 shows attention, but
     no re'
+- id: req-full-logo-design-skill-2026-10-06
+  project_slug: logo-design-skill
+  level: full
+  reviewed_at: '2026-10-06T02:53:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是出标志时缺乏设计规范与可控矢量交付的问题：通用 AI 出图后需人工转矢量、方案难系统比对。该技能内置原则、流程、SVG 工艺、测试工具与 1400+ 参考库，属工作流结构推理；仓库收藏从
+      1111 增至 2025，说明有持续关注，但无用户痛点陈述与不采用代价证据。
+    evidence_ids:
+    - ev-92d1882e31e66266
+    - ev-9c52297be1fb5f9f
+  - gate: consensus
+    status: insufficient
+    reason: 公开可归因到该仓库的只有收藏数从 1111 增至 2025，属关注度而非持续采用；没有 issue、discussion、用户评价或客户案例说明谁在什么场景反复使用它，因此无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-92d1882e31e66266
+    - ev-9c52297be1fb5f9f
+  - gate: model
+    status: insufficient
+    reason: 这是开源技能仓库，公开材料没有定价页、付费记录或采购信息，无法判断钱来自 to C 设计师订阅、to B 团队采购还是仅靠赞助；买方与单位经济均未核验，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-92d1882e31e66266
+  - gate: truth
+    status: insufficient
+    reason: 公开描述称包含测试工具与 SVG 工艺，但未见部署文档、可复现实测或交付样例，无法确认生成的 SVG 是否稳定可用、人工确认环节如何界定；承诺能否确定性交付仍缺公开证据。
+    evidence_ids:
+    - ev-92d1882e31e66266
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开描述实际出稿流程、交付样例与人工确认环节，以核验交付确定性。
+  market: ''
+  job: 品牌设计师或初创公司品牌负责人在需要产出可用的标志方案时，把品牌定位与风格要求交给 Claude、Gemini CLI、Codex 等 AI 代理，由该技能按内置设计原则、流程与 SVG 规范生成标志，并借助测试工具与
+    1400+ 标志参考库比对，最终交付可用的 SVG 标志文件。
+  job_en: A brand designer or startup brand lead who needs a usable logo hands brand positioning and style
+    requirements to an AI agent (Claude, Gemini CLI, Codex), which generates marks following built-in
+    design principles, process and SVG craft, cross-checks against a 1,400+ logo reference library and
+    testing tools, and delivers a usable SVG logo file.
+  pain: 公开材料显示该技能内置设计原则、流程、SVG 工艺与测试工具，说明它针对的是通用 AI 代理直接出图时缺乏设计规范、SVG 结构不可控、方案无法系统比对的问题；但公开证据未包含用户对不采用代价或返工频率的陈述，痛点强度属工作流结构推理。
+  pain_en: The public description shows built-in design principles, process, SVG craft and testing tools,
+    implying it targets the lack of design discipline, uncontrolled SVG structure and uncomparable options
+    when generic AI agents generate marks directly; public evidence contains no user statement on the
+    cost of not adopting it or rework frequency, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是设计师手工绘制标志，或直接用通用 AI 图像生成工具出图后人工修补矢量文件，再靠个人经验或零散参考图判断方案好坏；公开材料未说明用户具体如何完成这一替代流程。
+  current_alternative_en: The old approach is a designer drawing the mark by hand, or generating it with
+    a generic AI image tool and manually repairing the vector file, judging quality by personal experience
+    or scattered references; public materials do not describe exactly how users run this alternative.
+  usage_reason: 推断：相较手工绘制或通用出图后修补，该技能把设计原则、流程、SVG 规范、测试工具与 1400+ 参考库打包进代理，使代理在生成阶段就按可核对的规范产出 SVG，减少事后手工转矢量与反复比对参考的步骤，因此需要快速拿到规范矢量标志的设计师或初创品牌负责人会在出稿阶段选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus hand-drawing or generic generation plus repair, the skill packages
+    design principles, process, SVG craft, testing tools and a 1,400+ reference library into the agent
+    so it produces spec-conformant SVG at generation time, cutting post-hoc vector conversion and manual
+    reference comparison; designers or startup brand leads needing a spec-compliant vector mark quickly
+    would choose it at the drafting stage, though no public user feedback yet confirms this motive.'

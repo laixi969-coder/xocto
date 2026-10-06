@@ -3,28 +3,31 @@ slug: cursor
 name: Cursor
 builder: ''
 category: AI + 开发
-summary_zh: Cursor 是 AI 代码编辑器，程序员在编写、修改代码时使用，AI 根据上下文提供补全、生成和修改建议，交付可直接应用的代码变更。本次事件：OpenAI 因 SpaceX 收购
-  Cursor 而终止向其提供模型，Vercel 宣布 Cursor 集成到 AI SDK harness 层。
-inspiration: 趋势是 AI 编码工具成为开发者标配，但模型供应和生态整合成为关键。切入可从垂直行业或特定框架的深度集成入手，或提供模型无关的解决方案。
-summary_en: 'Cursor is an AI code editor that programmers use while writing and modifying code; AI provides
-  completions, generation, and modification suggestions based on context, delivering directly applicable
-  code changes. This event: OpenAI terminated its contract to provide models to Cursor following its acquisition
-  by SpaceX; Vercel announced Cursor integration into the AI SDK harness layer.'
-inspiration_en: The trend is AI coding tools becoming standard for developers, with model supply and ecosystem
-  integration as key factors. Entry could focus on deep integration for vertical industries or specific
-  frameworks, or provide model-agnostic solutions.
+summary_zh: 软件工程师在写代码、改 bug 或重构模块时打开它，把整个代码仓库作为上下文交给编辑器内的 AI；AI 读取相关文件后直接生成或修改代码、给出跨文件的改动建议，工程师在编辑器里逐处确认后落地。具体交付边界与人工复核比例仍待核验。
+inspiration: 趋势是代码生成从补全片段走向以整个仓库为上下文的改动，编辑器本身成了入口。切入不在通用编码助手正面竞争，而在被大厂代码库排除在外的场景：受监管行业的私有化部署、遗留语言与老旧框架的迁移改造、以及按“迁移完成的服务数”而非席位收费的交付型服务。
+summary_en: Software engineers open it while writing code, fixing bugs or refactoring modules, handing
+  the whole repository to the AI inside the editor; the AI reads the relevant files, then generates or
+  edits code and proposes cross-file changes, which the engineer confirms change by change in the editor.
+  The exact delivery boundary and the share of human review still need verification.
+inspiration_en: 'The trend is code generation moving from snippet completion to repository-wide edits,
+  with the editor itself becoming the entry point. The opening is not head-on competition with general
+  coding assistants but the scenarios big-vendor codebases exclude: on-premise deployment in regulated
+  industries, migration of legacy languages and old frameworks, and delivery work priced per migrated
+  service rather than per seat.'
 priority_review: false
-project_type: ai_transformation
+project_type: new_application
 industries:
-- 软件开发
+- 软件与信息技术服务
+- 互联网产品开发
 industries_en:
-- Software development
+- Software and IT services
+- Internet product development
 jobs:
-- 程序员
 - 软件工程师
+- 技术团队负责人
 jobs_en:
-- Programmers
 - Software engineers
+- Engineering team leads
 regions:
 - 全球
 regions_en:
@@ -36,7 +39,7 @@ summary: Latest updates and insights from the Cursor team. Learn about AI-powere
   and development tips.
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - officialfeeds

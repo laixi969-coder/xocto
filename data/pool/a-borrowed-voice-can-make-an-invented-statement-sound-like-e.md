@@ -23,7 +23,7 @@ summary: A Borrowed Voice Can Make an Invented Statement Sound Like Evidence | b
   Oct, 2026 Medium
 first_seen: '2026-10-05T07:01:02Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

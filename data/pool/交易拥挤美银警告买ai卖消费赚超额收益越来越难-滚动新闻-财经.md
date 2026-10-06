@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfa2dVMlczd19o
 summary: 交易拥挤！美银警告：“买AI、卖消费”赚超额收益越来越难_滚动新闻_财经 证券之星
 first_seen: '2026-10-05T11:51:47Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

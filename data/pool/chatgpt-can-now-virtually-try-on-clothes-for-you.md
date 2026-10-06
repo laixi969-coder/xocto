@@ -3,30 +3,31 @@ slug: chatgpt-can-now-virtually-try-on-clothes-for-you
 name: ChatGPT
 builder: geox
 category: 通用助手
-summary_zh: 线上买衣服的人在挑选服装和配饰时，把商品和自己的照片交给 ChatGPT，由它生成试穿效果图，并把中意的商品存进 Favorites 收藏库；最终拿到的是试穿预览和一份可回看的收藏清单，是否下单仍由用户自己判断。
-inspiration: 趋势：通用助手正把“看图—试穿—收藏”这段原本分散在电商 App 与试衣工具里的动作收进同一个对话入口。切入：服装电商与独立站卖家可围绕退货率最高的尺码与版型环节做垂直试穿，或做面向品牌的多渠道试穿素材交付；通用助手已占据入口，正面做通用试穿窗口已关，垂直品类与线下量体数据仍可切。
-summary_en: Shoppers buying clothes online hand a product and their own photo to ChatGPT, which generates
-  a virtual try-on image and saves liked items to a Favorites library; the deliverable is a try-on preview
-  plus a revisitable saved list, while the purchase decision stays with the user.
-inspiration_en: 'Trend: a general assistant is folding the browse-try-save loop that used to live across
-  shopping apps and fitting tools into one conversational entry point. Entry: apparel e-commerce and independent
-  sellers can go vertical on sizing and fit, the step that drives most returns, or sell multi-channel
-  try-on assets to brands; the generic entry point is taken, but niche categories and offline body-measurement
-  data remain open.'
+summary_zh: 线上买衣服的人在浏览商品时，把商品图和自己上传的照片交给 ChatGPT，由它生成试穿效果并把中意商品存进收藏库；用户最终拿到的是试穿预览图和一份可回看的商品清单，实际是否合身仍需本人判断。具体支持的品类、地区与是否收费，公开材料未说明。
+inspiration: 趋势是通用助手正把“看图文猜效果”的购物决策环节接进对话里，试穿从品牌官网的专属功能变成入口级能力。切入不在做通用试穿，而在垂直人群：婚纱、西装定制、大码女装、二手奢侈品这类高退货率、高客单的品类，把试穿与尺码建议、退换规则、门店预约绑成一条可交付的选购服务，按成交或按次收费。
+summary_en: Shoppers browsing apparel hand product images and their own photos to ChatGPT, which generates
+  a try-on preview and saves liked items to a Favorites library; the user ends up with a preview image
+  and a revisitable product list, while real fit still needs their own judgement. Supported categories,
+  regions and whether it is paid are not stated in the public material.
+inspiration_en: 'The trend is that a general assistant is absorbing the ''guess how it looks'' step of
+  shopping, turning virtual try-on from a brand-site feature into an entry-point capability. The opening
+  is not generic try-on but vertical groups: bridal, made-to-measure suits, plus-size womenswear, second-hand
+  luxury — high-return, high-ticket categories where try-on can be bundled with sizing advice, return
+  rules and store appointments into a deliverable buying service, charged per transaction or per session.'
 priority_review: false
 project_type: ai_transformation
 industries:
 - 服装零售
 - 电商
 industries_en:
-- Apparel Retail
+- Apparel retail
 - E-commerce
 jobs:
 - 线上服装选购与搭配
-- 电商商品浏览与收藏
+- 商品收藏与比价
 jobs_en:
 - Online apparel selection and styling
-- E-commerce product browsing and saving
+- Product saving and comparison
 regions:
 - 全球
 regions_en:
@@ -38,7 +39,7 @@ summary: OpenAI is rolling out new shopping features for ChatGPT that let users 
   and accessories using their own photos and save products they like to a Favorites library.
 first_seen: '2026-10-01T19:21:53Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 - newssearch

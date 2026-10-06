@@ -34,3 +34,85 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：按需 GPU 的简单接口，类似 modal.com；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: Simple interface for on-demand GPUs,
     like modal.com The exact adoption motive and repeat use are not yet verified.'
+- id: req-initial-compute-2026-10-06
+  project_slug: compute
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是临时算力获取这一需求，痛点真实存在，但公开材料只有一句功能描述，无法确认它替代了哪一步具体旧流程，价值结构尚不完整。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 53 分与 20 条评论，说明有人关注，但没有采用、留存或付费证据，无法判断共识是否形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与买方类型，按需算力可能来自 to C 开发者或 to B 团队，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该任务的第一性目标，也看不到交付确定性与安全边界，公开材料不足。
+    evidence_ids: []
+  next_validation: 收集 compute.cx 官方定价页或部署文档，确认计费方式、可用 GPU 类型与任务交付边界。
+  market: ''
+  job: 小型开发团队或独立开发者在需要临时跑训练、微调或批量推理任务时，处理自己的代码与数据集，要拿到一块能立刻开始运行的 GPU 环境并跑完任务。
+  job_en: A small development team or solo developer with a training, fine-tuning or batch inference job
+    at hand works with its own code and datasets and needs a GPU environment it can start running immediately
+    to finish the task.
+  pain: 自建集群成本高、周期长，直接对接大型云厂商要处理配额申请、实例选型、驱动与调度配置，任务不连续时资源闲置。
+  pain_en: Building a cluster is costly and slow, while going directly to large clouds means quota requests,
+    instance selection, driver and scheduling setup, and idle resources when jobs are intermittent.
+  current_alternative: 自建 GPU 机器、租用大型云厂商实例，或使用 modal.com 等已有的按需算力平台。
+  current_alternative_en: Self-built GPU machines, renting instances from large cloud providers, or existing
+    on-demand platforms such as modal.com.
+  usage_reason: 推断：如果它确实把实例选型、驱动配置和调度压缩成一次提交，用户就能省掉对接云厂商控制台的那一步，在任务零散、不想长期包机器时选择它；但公开材料只有一句功能描述，缺少定价、可用卡型与真实使用反馈，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if it truly compresses instance selection, driver setup and scheduling
+    into a single submission, users could skip the cloud-console step and choose it when jobs are sporadic
+    and long-term machine rental is unwanted; however, public material offers only a one-line description
+    with no pricing, GPU types or real usage feedback, so whether that burden is actually reduced cannot
+    be confirmed.'
+- id: req-full-compute-2026-10-06
+  project_slug: compute
+  level: full
+  reviewed_at: '2026-10-06T02:51:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是临时算力获取这一需求，痛点真实存在，但公开材料只有一句功能描述，无法确认它替代了哪一步具体旧流程，价值结构尚不完整。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 compute.cx 官方定价页或部署文档，确认计费方式、可用 GPU 类型与任务交付边界。
+  market: ''
+  job: 小型开发团队或独立开发者在需要临时跑训练、微调或批量推理任务时，处理自己的代码与数据集，要拿到一块能立刻开始运行的 GPU 环境并跑完任务。
+  job_en: A small development team or solo developer with a training, fine-tuning or batch inference job
+    at hand works with its own code and datasets and needs a GPU environment it can start running immediately
+    to finish the task.
+  pain: 自建集群成本高、周期长，直接对接大型云厂商要处理配额申请、实例选型、驱动与调度配置，任务不连续时资源闲置。
+  pain_en: Building a cluster is costly and slow, while going directly to large clouds means quota requests,
+    instance selection, driver and scheduling setup, and idle resources when jobs are intermittent.
+  current_alternative: 自建 GPU 机器、租用大型云厂商实例，或使用 modal.com 等已有的按需算力平台。
+  current_alternative_en: Self-built GPU machines, renting instances from large cloud providers, or existing
+    on-demand platforms such as modal.com.
+  usage_reason: 推断：若它真把实例选型、驱动配置与调度压缩成一次提交，用户可省掉对接云厂商控制台那一步，在任务零散、不愿长期包机器时选择它；但公开材料只有一句功能描述，缺少定价、可用卡型与真实使用反馈，无法确认这一步负担是否真被减少。
+  usage_reason_en: 'Inference: if it truly compresses instance selection, driver setup and scheduling
+    into a single submission, users could skip the cloud-console step and choose it when jobs are sporadic
+    and long-term machine rental is unwanted; however, public material offers only a one-line description
+    with no pricing, GPU types or real usage feedback, so whether that burden is actually reduced cannot
+    be confirmed.'

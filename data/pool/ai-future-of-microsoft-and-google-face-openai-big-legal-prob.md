@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxONk9KbVN3Uml6
 summary: AI Future Of Microsoft and Google Face OpenAI Big Legal Problems 24/7 Wall St.
 first_seen: '2026-10-05T14:05:00Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

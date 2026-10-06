@@ -21,7 +21,7 @@ canonical_url: https://refactoringenglish.com
 summary: I wrote a book to help developers to improve their writing
 first_seen: '2026-10-05T13:45:48Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

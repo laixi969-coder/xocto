@@ -33,7 +33,7 @@ canonical_url: https://maritime.sh
 summary: a platform for running AI agents for $1 a month
 first_seen: '2026-08-18T23:02:32Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - producthunt

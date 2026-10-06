@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQazBxY05HZml2
 summary: Bill Gates demands federal AI regulation as industry divides varindia
 first_seen: '2026-10-05T19:37:34Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -376,3 +376,83 @@
   usage_reason_en: 'No evidence-based usage reason can be given: the evidence contains no product page,
     model list, input format, delivery form or any user feedback, so it cannot be shown which step it
     removes or which verifiable result it improves versus the old approach.'
+- id: req-initial-local-2026-10-06
+  project_slug: local
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句零摩擦宣传语，无法还原旧流程与交付结果。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。仅有社区讨论热度，没有可归因到该产品的采用或持续使用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。资料未披露定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核对它是否贴近该工作的第一性目标，也无法判断交付是否确定。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或文档，确认它接收什么输入、执行什么动作、输出什么交付物。
+  market: ''
+  job: Mac 用户在处理不便上传云端的本地文件或材料时，打开该工具完成某项任务；但候选资料未说明具体是谁、处理什么材料、要完成什么任务。
+  job_en: A Mac user opens the tool to complete a task on local files or material that cannot be uploaded
+    to the cloud; the candidate material does not say who exactly, what material, or which task.
+  pain: 候选资料未给出任何用户痛点描述，只能推断隐私顾虑可能是动机，但这是推断，不是事实。
+  pain_en: The candidate material gives no user pain description; privacy concerns can only be inferred
+    as a motive, and that is inference, not fact.
+  current_alternative: 候选资料未说明用户现在用什么替代，仅列出 ChatGPT、DeepAI、Perplexity、Meta AI 等云端对话产品作为对照，无法确认旧做法。
+  current_alternative_en: The candidate material does not state the current alternative; it only lists
+    cloud chat products such as ChatGPT, DeepAI, Perplexity and Meta AI as comparisons, so the old practice
+    cannot be confirmed.
+  usage_reason: 无法写出因果：资料未说明它通过什么具体动作减少哪一步负担，也未给出任何用户反馈或采用证据，因此不能解释用户为何选择它。
+  usage_reason_en: 'No causal explanation can be written: the material does not say which concrete step
+    it removes, and gives no user feedback or adoption evidence, so it cannot explain why users would
+    choose it.'
+- id: req-full-local-2026-10-06
+  project_slug: local
+  level: full
+  reviewed_at: '2026-10-06T02:53:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句零摩擦宣传语，无法还原旧流程、输入与交付结果，价值结构不成立。
+    evidence_ids:
+    - ev-a67736c4e483062c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官方页面或文档（如 localnow.com 之外的独立官网、Mac App Store 页面或 公开代码仓库 仓库），确认它接收什么输入、执行什么动作、输出什么交付物。
+  market: ''
+  job: 候选资料只给出“面向 Mac 用户的零摩擦本地 AI”一句宣传语，未说明谁在什么情况下、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The candidate material gives only the tagline 'zero-friction local AI for Mac users' and does
+    not state who, in what situation, handling what material, to complete which task, so no concrete job
+    can be reconstructed.
+  pain: 公开材料未描述任何用户痛点；隐私顾虑只能算推断，不是事实，也没有用户抱怨、workaround 或案例支撑。
+  pain_en: The public material describes no user pain; privacy concerns are only an inference, not a fact,
+    and there is no user complaint, workaround or case support.
+  current_alternative: 候选资料未说明用户现在用什么替代，只列出 ChatGPT、Gemini、Perplexity 等云端对话产品作为对照，无法确认旧做法。
+  current_alternative_en: The candidate material does not state the current alternative; it only lists
+    cloud chat products such as ChatGPT, Gemini and Perplexity as comparisons, so the old practice cannot
+    be confirmed.
+  usage_reason: 无法写出因果：资料未说明它通过什么具体动作减少哪一步负担，也无用户反馈或采用证据，因此不能解释用户为何选择它。
+  usage_reason_en: 'No causal explanation can be written: the material does not say which concrete step
+    it removes, and gives no user feedback or adoption evidence, so it cannot explain why users would
+    choose it.'

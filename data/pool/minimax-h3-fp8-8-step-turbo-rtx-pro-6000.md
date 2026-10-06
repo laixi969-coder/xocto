@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/fluxjhk/h3-pool-2-b
 summary: MiniMax-H3 video+audio on RTX PRO 6000, FP8 + 8-step turbo
 first_seen: '2026-10-05T05:48:18Z'
 last_seen: '2026-10-06T02:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

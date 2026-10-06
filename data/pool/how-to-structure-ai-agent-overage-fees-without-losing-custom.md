@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQMkd0MFRlRHA2
 summary: How To Structure AI Agent Overage Fees Without Losing Customers startupfortune.com
 first_seen: '2026-10-06T00:33:35Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

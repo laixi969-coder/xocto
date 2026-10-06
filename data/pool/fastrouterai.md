@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/fastrouter-ai
 summary: Route requests to the right LLM for cost, latency & quality
 first_seen: '2026-09-30T22:36:38Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

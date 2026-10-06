@@ -1,6 +1,6 @@
 ---
 slug: meta-的-ai-助手-muse-被曝可深度分析用户社交关系并为每位联系人建立个人档案
-name: Meta 的 AI 助手 Muse 被曝可深度分析用户社交关系，并为每位联系人建立个人档案
+name: Meta Muse
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTFAzOTFqSDhqOFd0
 summary: Meta 的 AI 助手 Muse 被曝可深度分析用户社交关系，并为每位联系人建立个人档案 新浪财经
 first_seen: '2026-10-05T01:08:00Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Meta 的 AI 助手 Muse 被曝可深度分析用户社交关系，并为每位联系人建立个人档案
+# Meta Muse
 
 Meta 的 AI 助手 Muse 被曝可深度分析用户社交关系，并为每位联系人建立个人档案 新浪财经
 

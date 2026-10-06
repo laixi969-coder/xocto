@@ -278,3 +278,51 @@
     one reference-video input that yields a reusable template, removing the manual pacing-alignment and
     caption-avoidance steps; so solo creators or small teams with raw talking-head footage who want to
     replicate a proven packaging style quickly would pick it when racing a publishing schedule.'
+- id: req-full-ghost-editor-2026-10-06
+  project_slug: ghost-editor
+  level: full
+  reviewed_at: '2026-10-06T02:52:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播短视频成片制作中字幕对齐、避脸、套节奏与模仿参考片风格的高重复劳动，痛点刚性来自发布节奏下的持续产出压力；公开说明已能还原输入—动作—交付闭环，属工作流结构推理，尚无用户反馈或量化返工数据。
+    evidence_ids:
+    - ev-f5db41e97581c3f2
+    - ev-71dba39f61e7e2d3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 61 缓慢增至 65，说明有开发者关注，但公开材料没有目标创作者的使用评价、复刻或持续采用证据，无法判断是否进入真实工作流。
+    evidence_ids:
+    - ev-f5db41e97581c3f2
+    - ev-fbc29166abe16f57
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；作为 Claude Code / agent skill 形态，钱可能来自 to C 创作者订阅或 to B 团队采购，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-71dba39f61e7e2d3
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺输出可直接发布的成片，但缺少可复现的成片质量、人工返工量与安全边界证据，交付确定性尚未核验。
+    evidence_ids:
+    - ev-49322c0939d2a85e
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有创作者公开贴出用它产出的成片、返工量或替代旧流程的具体案例。
+  market: ''
+  job: 口播类短视频创作者或剪辑师在剪一条竖屏成片时，把原始口播素材和一条想模仿的参考视频交给它，按 7 种风格套用节奏、生成不遮脸字幕并加入动态场景，输出可直接发布的成片。
+  job_en: A talking-head short-video creator or editor, cutting one vertical clip, hands raw talking-head
+    footage plus a reference video to it, applies one of 7 styles for pacing, generates face-safe captions
+    and motion scenes, and outputs a publish-ready clip.
+  pain: 口播剪辑的重复劳动集中在逐句对齐字幕、避开人脸、套节奏和模仿参考片风格；这些步骤耗时且容易返工，但公开材料未给出耗时或返工量的量化数据。
+  pain_en: 'Talking-head editing repeats the same labor: aligning captions line by line, avoiding faces,
+    matching pacing, and imitating a reference style; these steps are slow and rework-prone, though public
+    materials give no quantified time or rework data.'
+  current_alternative: 现有替代是人工在通用剪辑软件里逐条剪、手动打字幕，或套用固定模板；参考视频的节奏只能靠肉眼拆解后手动复刻。
+  current_alternative_en: The current alternative is manual cutting in general editing software, hand-typed
+    captions, or fixed templates; a reference video's pacing is reverse-engineered by eye and rebuilt
+    by hand.
+  usage_reason: 推断：相较手动逐句对齐和肉眼拆解参考片，它把参考视频反推成可复用模板，并自动生成不遮脸字幕与动态场景，减少字幕对齐和风格复刻这两步手工负担，因此需要批量产出统一风格口播片的创作者会在赶发布节奏时选择它。
+  usage_reason_en: 'Inference: versus manual line-by-line caption alignment and eyeballing a reference
+    edit, it reverse-engineers the reference into a reusable template and auto-generates face-safe captions
+    and motion scenes, cutting the manual caption-alignment and style-replication steps, so creators producing
+    uniform talking-head clips at publishing cadence would pick it.'

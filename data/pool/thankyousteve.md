@@ -21,7 +21,7 @@ canonical_url: https://thankyousteve.org
 summary: Steve Jobs died 15 years ago today. I built an interactive tribute
 first_seen: '2026-10-05T12:42:45Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

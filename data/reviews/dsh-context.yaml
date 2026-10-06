@@ -1062,3 +1062,58 @@
     surfaces context composition and compaction/pruning events directly in a panel and command output,
     removing the manual log-diffing step, so developers debugging long sessions or needing stable constraints
     would pick it when chasing forgetting issues.'
+- id: req-full-dsh-context-2026-10-06
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-06T02:52:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩、剪枝或静默丢弃却不可见的问题，用户需确认关键信息是否还在，否则返工或产出错误；旧做法是翻记录或盲信压缩。这是基于上下文管理机制的工作流结构推理，公开材料尚无用户抱怨或频率数据。
+    evidence_ids:
+    - ev-238e9413f152b6c2
+    - ev-1ff7c80e97de49a4
+  - gate: consensus
+    status: insufficient
+    reason: 同生态的 dsh-knit、dsh-claude-style、jevmem 等插件有 40 至 111 个收藏，说明 DeepSeek Harness 插件生态存在关注度，但这些数字属于其他项目，不能证明
+      dsh-context 本身被持续采用。
+    evidence_ids:
+    - ev-34ff0d20e8130cf7
+    - ev-238e9413f152b6c2
+    - ev-1ff7c80e97de49a4
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，开源插件可能靠捐赠、赞助或引流变现；这是判断而非已验证事实，买方路径尚未在公开材料中核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明上下文面板的读取边界、是否触及敏感对话内容、以及压缩/剪枝事件展示的准确性，交付确定性与安全边界缺可复现证据。
+    evidence_ids:
+    - ev-238e9413f152b6c2
+  next_validation: 追踪 dsh-context 在 npm 与代码仓库的 README、issue 和 discussion，确认其上下文面板的读取范围、压缩/剪枝事件展示的准确性，以及是否有用户报告实际排查场景。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或 AI 编码用户在长对话/多轮任务中，处理不断膨胀的上下文材料（对话历史、工作区文件、压缩与剪枝事件），要弄清当前这轮上下文由什么组成、哪些内容被压缩或丢弃、关键信息是否还在，从而决定是否补回或调整提示。
+  job_en: Developers or AI-coding users of DeepSeek Harness, working through long multi-turn tasks, handle
+    an ever-growing context (chat history, workspace files, compaction and pruning events) and must determine
+    what the current context is made of, what was compacted or dropped, and whether key facts survived,
+    so they can decide to restore or adjust the prompt.
+  pain: 长对话中上下文会被压缩、剪枝或静默丢弃，用户看不到组成与演进过程，容易在关键信息被丢掉后才发现，导致返工、重复解释或产出错误；这是从上下文管理机制推出的结构性痛点，公开材料尚未给出用户抱怨或频率数据。
+  pain_en: In long sessions the context gets compacted, pruned or silently dropped; users cannot see its
+    composition or evolution, so they often discover a lost key fact only after the damage, causing rework,
+    repeated explanation or wrong output. This is a structural pain inferred from how context management
+    works; public materials do not yet show user complaints or frequency.
+  current_alternative: 旧做法是凭记忆或翻看原始对话记录猜测上下文状态，或依赖 Harness 自身的压缩行为而不加检查；同生态的 dsh-knit 做任务相关上下文检索、jevmem
+    做跨会话项目记忆，但都不提供上下文组成与演进的可视化透视。
+  current_alternative_en: The old way is to guess the context state from memory or by scrolling raw transcripts,
+    or to trust the Harness's own compaction without inspection; sibling projects dsh-knit (task-aware
+    context retrieval) and jevmem (cross-session project memory) address adjacent needs but neither visualizes
+    context composition and evolution.
+  usage_reason: 推断：相较翻记录或盲信压缩，它通过 Context 面板/浏览器与 Context 命令把上下文组成、压缩、剪枝事件直接摊开，省去用户逐条回溯对话来确认关键信息是否还在的那一步，因此长会话中担心丢上下文的
+    DeepSeek Harness 用户会在排查或调优提示时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus scrolling transcripts or blindly trusting compaction, it lays out
+    context composition and compaction/pruning events through a Context panel/browser and Context command,
+    removing the step of tracing the conversation line by line to confirm a key fact survived; DeepSeek
+    Harness users worried about context loss in long sessions would therefore pick it when debugging or
+    tuning prompts. Public materials do not yet confirm this motive via user feedback.'

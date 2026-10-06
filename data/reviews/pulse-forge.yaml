@@ -1,0 +1,85 @@
+- id: req-initial-pulse-forge-2026-10-06
+  project_slug: pulse-forge
+  level: initial
+  reviewed_at: '2026-10-06T02:18:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决自建训练流程重复拼装的问题，但公开材料只有仓库标题与星数，说不清替代了哪一步旧工作，价值结构无法确认。
+    evidence_ids:
+    - ev-44237a36792a50e8
+    - ev-fbe7c159d32bc6e3
+  - gate: consensus
+    status: insufficient
+    reason: 53 星属于关注度信号，不能说明开发者已把它放进日常训练流程；缺少 issue、讨论或采用案例。
+    evidence_ids:
+    - ev-44237a36792a50e8
+  - gate: model
+    status: insufficient
+    reason: 开源库本身没有公开定价或付费路径，钱可能来自支持服务或托管，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fbe7c159d32bc6e3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近训练工作的第一性目标、承诺能否确定性交付，缺少文档与可复现实测。
+    evidence_ids:
+    - ev-44237a36792a50e8
+  next_validation: 收集该仓库的 README、示例脚本与 issue/discussion，确认它实际封装了哪些训练步骤与支持的数据格式。
+  market: ''
+  job: 开发者或小团队在需要针对自有数据训练或微调模型时，打开该库组织训练流程并产出可运行的训练配置。
+  job_en: A developer or small team training or fine-tuning a model on their own data opens this library
+    to organize the training pipeline and produce runnable training configurations.
+  pain: 自建训练流程需要反复拼装数据加载、训练循环与配置，重复劳动多；但公开材料未说明该库具体替代了哪一步。
+  pain_en: Self-built training pipelines require repeatedly assembling data loading, training loops and
+    configs, which is repetitive; the public material does not say which step this library actually replaces.
+  current_alternative: 直接用 PyTorch、公开模型社区 Trainer 等通用训练框架自行编写脚本。
+  current_alternative_en: Writing scripts directly on general frameworks such as PyTorch or public model
+    community Trainer.
+  usage_reason: 推断：若它把常见训练步骤封装成可复用配方，用户可省去从零拼装训练循环的一步；但仓库仅有标题与星数，缺少文档、示例或使用反馈，无法确认这一动作是否真的发生。
+  usage_reason_en: 'Inference: if it packages common training steps into reusable recipes, users could
+    skip assembling the training loop from scratch; but the repository offers only a title and star count,
+    with no docs, examples or usage feedback to confirm this happens.'
+- id: req-full-pulse-forge-2026-10-06
+  project_slug: pulse-forge
+  level: full
+  reviewed_at: '2026-10-06T02:54:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决自建训练流程重复拼装的问题，但公开材料只有仓库标题与星数，说不清替代了哪一步旧工作，价值结构无法确认。
+    evidence_ids:
+    - ev-44237a36792a50e8
+    - ev-fbe7c159d32bc6e3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、示例脚本与 issue/discussion，确认它实际封装了哪些训练步骤与支持的数据格式。
+  market: ''
+  job: 开发者或小团队在需要针对自有数据训练或微调模型时，打开该库组织训练流程并产出可运行的训练配置。
+  job_en: A developer or small team training or fine-tuning a model on their own data opens this library
+    to organize the training pipeline and produce runnable training configurations.
+  pain: 公开材料只有仓库标题与星数，未说明它替代了自建训练流程中的哪一步，也未给出任何用户抱怨或旧做法描述，痛点无法从公开事实还原。
+  pain_en: The public material offers only a repository title and star count, without saying which step
+    of a self-built training pipeline it replaces, and without any user complaint or legacy-workflow description,
+    so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未描述现有替代方式；只能推测为直接用 PyTorch 等通用框架自行编写训练脚本，但这是推断而非公开事实。
+  current_alternative_en: The public material does not describe any current alternative; one can only
+    infer writing training scripts directly on general frameworks such as PyTorch, but that is inference,
+    not public fact.
+  usage_reason: 公开材料未提供文档、示例或使用反馈，无法说明用户为何选择它；缺少可核对的具体动作与结果，不能仅凭 53 星推断采用动机。
+  usage_reason_en: The public material provides no docs, examples or usage feedback to explain why a user
+    would choose it; there is no checkable concrete action or outcome, so adoption motive cannot be inferred
+    from 53 stars alone.

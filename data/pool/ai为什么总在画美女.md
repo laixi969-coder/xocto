@@ -1,11 +1,19 @@
 ---
 slug: ai为什么总在画美女
-name: AI，为什么总在画美女？
+name: AI 图像生成默认审美倾向
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年10月的一篇分析指出，AI 图像生成模型因训练数据分布、人类对平均脸的审美偏好以及用户点击反馈循环，倾向于将年轻女性形象作为默认输出；文中引用 Civitai 平台 NSFW
+  图片占比从 2023 年 1 月的 41% 升至 2024 年 12 月的 80%，并提到 Grok 的 Spicy 模式及 2026 年 1 月数字脱衣事件后 X 将图像生成限制为付费功能。这一结构性倾向意味着图像生成应用在内容审核、合规成本与用户获取之间面临持续张力，厂商的奖励模型调优与前台审核之间存在方向冲突，可能推高合规与审核成本并影响企业级采用。
 inspiration: ''
-summary_en: ''
+summary_en: An October 2026 analysis notes that AI image generation models tend to default to young female
+  imagery due to training data distributions, human preference for average faces, and user click feedback
+  loops; it cites NSFW content on the Civitai platform rising from 41% in January 2023 to 80% in December
+  2024, and mentions Grok's Spicy mode and the January 2026 digital undressing incident after which X
+  restricted image generation to paid users. This structural tendency means image generation applications
+  face persistent tension among content moderation, compliance costs, and user acquisition; the conflict
+  between reward-model tuning and front-end moderation may raise compliance and review costs and affect
+  enterprise adoption.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -58,7 +66,7 @@ summary: "作者｜汤一涛 \n 编辑｜靖宇 \n   \n \n 今年 5 月初，X 
   \ \n 互联网第一夫人 Lena 是一种偶然。今天的默认值，则是模型从数据的中心长出来的。用户的点击把它越推越远，最后有人给它标上了价格。 \n AI 生成模型的统计特性、人类对「平均脸」的审美偏好，以及用户点击与商业激励构成了反馈循环。它们各自独立，但它们恰好共同指向同一个方向，成为了我们今天内容消费的默认选项。"
 first_seen: '2026-10-05T09:45:01Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -69,7 +77,7 @@ sightings:
   kind: news
 ---
 
-# AI，为什么总在画美女？
+# AI 图像生成默认审美倾向
 
 作者｜汤一涛 
  编辑｜靖宇 

@@ -24,7 +24,7 @@ summary: In 2026, the question for enterprise AI is no longer whether predictive
   to autonomous decision making, and the gap between…
 first_seen: '2026-10-05T13:29:32Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

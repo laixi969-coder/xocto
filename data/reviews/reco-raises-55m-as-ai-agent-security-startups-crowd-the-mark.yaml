@@ -192,3 +192,89 @@
     of reading logs line by line and manually inventorying agents, so security teams in regulated sectors
     that already deploy agents may adopt it around rollout; public materials provide no usage or retention
     evidence.'
+- id: req-initial-reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark-2026-10-06
+  project_slug: reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark
+  level: initial
+  reviewed_at: '2026-10-06T02:19:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决代理权限审查问题，但材料未写出具体痛点、旧流程与不采用的后果，价值结构无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资信息，没有客户采用、部署案例或安全团队反馈，无法判断共识卡在哪一环。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自企业安全预算还是其他方；这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理权限审查是否贴近该工作的第一性目标，也看不到人工确认边界与交付确定性。
+    evidence_ids: []
+  next_validation: 收集 Reco 官方产品页或部署文档，确认其审查对象、交付物与是否公开定价。
+  market: ''
+  job: 企业安全团队在把 AI 代理接入内部系统前，需要评估代理的权限范围与访问行为，以决定是否放行。
+  job_en: Before connecting AI agents to internal systems, enterprise security teams need to assess an
+    agent's permission scope and access behavior to decide whether to approve it.
+  pain: 候选材料未描述任何具体痛点，只能推断代理获得系统访问权后权限边界不清会带来风险，这一推断缺少材料支持。
+  pain_en: The candidate material describes no specific pain point; one can only infer that unclear permission
+    boundaries create risk once agents gain system access, and this inference lacks material support.
+  current_alternative: 候选材料未说明企业目前用什么方式处理代理权限审查，公开材料不足。
+  current_alternative_en: The candidate material does not state how enterprises currently handle agent
+    permission review; public material is insufficient.
+  usage_reason: 材料只给出融资事实，未说明产品通过什么具体动作减少哪一步负担，因此无法解释用户为何选择它；缺少产品能力、定价与使用证据这一环。
+  usage_reason_en: The material only gives funding facts and does not explain what concrete action reduces
+    which step of effort, so it cannot explain why users would choose it; product capability, pricing,
+    and usage evidence are the missing link.
+- id: req-full-reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark-2026-10-06
+  project_slug: reco-raises-55m-as-ai-agent-security-startups-crowd-the-mark
+  level: full
+  reviewed_at: '2026-10-06T02:54:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理接入前权限与访问风险不可见的问题：代理拿到系统访问权后边界不清，不解决则越权与数据暴露只能事后发现；旧做法是手工逐系统拉权限比对。这是从产品说明与工作流作出的结构推理，非采用数据。
+    evidence_ids:
+    - ev-2dc9722f01c642c0
+    - ev-0291b0935a0377f7
+  - gate: consensus
+    status: insufficient
+    reason: 官网称安全团队可发现风险并修复，但公开材料只有融资额与产品自述，没有客户案例、部署反馈或安全团队实际采用记录，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-2dc9722f01c642c0
+    - ev-0291b0935a0377f7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，收入可能来自企业安全预算或投资方；这是判断，不是已验证事实。融资额只说明资本关注，不构成付费路径证据。
+    evidence_ids:
+    - ev-2dc9722f01c642c0
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺发现并修复代理风险，但公开材料未说明修复是否需人工确认、代理权限变更的边界在哪，交付确定性无法核对。
+    evidence_ids:
+    - ev-0291b0935a0377f7
+  next_validation: 追踪 Reco 官网客户案例页或部署文档，确认是否有具名企业安全团队采用、交付物形态与是否公开定价。
+  market: ''
+  job: 企业安全团队在把 AI 代理接入内部应用与身份体系前，需要盘点代理可见的应用、身份与数据，识别越权与暴露风险并决定是否放行。
+  job_en: Before connecting AI agents to internal apps and identity systems, enterprise security teams
+    must inventory what apps, identities and data each agent can reach, identify over-permission and exposure
+    risks, and decide whether to approve it.
+  pain: 代理一旦获得系统访问权，权限边界与访问行为往往不透明，安全团队难以在放行前说清它到底能碰哪些数据；不解决则越权访问与数据暴露只能在事后发现。
+  pain_en: Once an agent gains system access, its permission boundary and access behavior are often opaque,
+    so the security team cannot state before approval which data it can touch; unresolved, over-permission
+    and data exposure are only discovered after the fact.
+  current_alternative: 旧做法是安全团队手工拉取各 SaaS 与身份系统的权限清单、逐项比对，或依赖通用 SaaS 安全工具，缺少针对代理这一新主体的统一视图。
+  current_alternative_en: The old approach is manual permission exports from each SaaS and identity system
+    compared item by item, or generic SaaS security tooling, with no unified view of the agent as a new
+    principal.
+  usage_reason: 推断：相较手工逐系统拉权限，Reco 通过 280+ 集成自动发现应用、身份与代理并给出风险优先级，把“先收集再比对”这一步变成一次集中盘点，因此需要快速给代理放行做决策的安全团队会在接入前选择它。
+  usage_reason_en: 'Inference: versus manually pulling permissions per system, Reco auto-discovers apps,
+    identities and agents across 280+ integrations and prioritizes risk, collapsing the collect-then-compare
+    step into one consolidated inventory, so security teams that must decide quickly on agent approval
+    would choose it before onboarding.'

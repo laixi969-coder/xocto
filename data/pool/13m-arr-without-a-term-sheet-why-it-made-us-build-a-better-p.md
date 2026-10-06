@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxQQzNFQTZRSTZs
 summary: '13M ARR without a term sheet: why it made us build a better product Startups Magazine'
 first_seen: '2026-10-05T08:25:05Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

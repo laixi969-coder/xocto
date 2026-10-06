@@ -233,3 +233,94 @@
     lawyers, so firms and legal teams with high matter volume and a need for fast first drafts would choose
     it; this is an inference from product capability and task structure, as public materials provide no
     retention or repeat-use evidence.
+- id: req-initial-legal-ai-startup-harvey-hits-156-billion-value-with-550-mill-2026-10-06
+  project_slug: legal-ai-startup-harvey-hits-156-billion-value-with-550-mill
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师在尽调与合同审阅中逐份阅读、手工摘要的痛点，旧行为明确且不做的代价高，交付为可复核初稿。
+    evidence_ids:
+    - ev-4d0291449a102ffe
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与创始人访谈，未见客户名单、使用规模或律所采用细节。
+    evidence_ids:
+    - ev-4d0291449a102ffe
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方为律所或企业法务属推断，付费路径尚未核验。
+    evidence_ids:
+    - ev-4d0291449a102ffe
+  - gate: truth
+    status: insufficient
+    reason: 法律场景对准确性与责任边界要求高，公开材料未说明人工复核流程与错误处理机制。
+    evidence_ids:
+    - ev-4d0291449a102ffe
+  next_validation: 收集 Harvey 官方定价页或公开客户案例，核验其计费方式与律所实际采用情况。
+  market: ''
+  job: 律所律师与企业法务在并购尽调、合同审阅或法律检索时，面对成百上千页合同、判例与监管文件，需要先产出可复核的要点与初稿。
+  job_en: Law-firm lawyers and in-house counsel facing hundreds or thousands of pages of contracts, case
+    law and regulatory filings during M&A due diligence, contract review or legal research need a reviewable
+    set of points and a first draft.
+  pain: 人工逐份阅读耗时且容易漏项，初级律师大量时间花在重复检索与摘要上，出错代价高。
+  pain_en: Reading document by document is slow and error-prone, junior lawyers spend most of their time
+    on repetitive retrieval and summarisation, and mistakes are costly.
+  current_alternative: 旧做法是初级律师与 paralegal 人工翻阅文件、手工整理摘要，辅以关键词检索的传统法律数据库。
+  current_alternative_en: The old way is junior lawyers and paralegals reading files by hand and writing
+    summaries manually, aided by keyword-search legal databases.
+  usage_reason: 相较人工逐份翻阅，它把检索、摘要与草拟合并成一次可复核的初稿输出，减少初级律师在重复阅读上的时间；推断，律所会在尽调或合同量大的时段选择它，但公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with reading files one by one, it merges retrieval, summarisation and drafting
+    into a single reviewable first-draft output, cutting the time junior lawyers spend on repetitive reading;
+    this is an inference, and public materials provide no retention or repeat-purchase evidence.
+- id: req-full-legal-ai-startup-harvey-hits-156-billion-value-with-550-mill-2026-10-06
+  project_slug: legal-ai-startup-harvey-hits-156-billion-value-with-550-mill
+  level: full
+  reviewed_at: '2026-10-06T02:53:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师在尽调与合同审阅中逐份阅读、手工摘要的痛点，旧行为明确且不做的代价高，交付为可复核初稿；这是基于产品说明与工作流结构的推理。
+    evidence_ids:
+    - ev-393499c05004a711
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网产品定位与融资报道，未见客户名单、使用规模或律所采用细节，无法核验持续采用。
+    evidence_ids:
+    - ev-393499c05004a711
+    - ev-0b2b2b476e2cf680
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方为律所或企业法务属推断，付费路径尚未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-393499c05004a711
+  - gate: truth
+    status: insufficient
+    reason: 法律场景对准确性与责任边界要求高，公开材料未说明人工复核流程、错误处理机制与安全边界。
+    evidence_ids:
+    - ev-393499c05004a711
+    - ev-0b2b2b476e2cf680
+  next_validation: 收集 Harvey 官方定价页或公开客户案例，核验其计费方式与律所实际采用情况。
+  market: ''
+  job: 律所律师与企业法务在并购尽调、合同审阅、合规审查或诉讼准备时，面对成百上千页合同、判例与监管文件，需要先产出可复核的要点、摘要与初稿。
+  job_en: Law-firm lawyers and in-house counsel handling M&A due diligence, contract review, compliance
+    checks or litigation preparation face hundreds or thousands of pages of contracts, case law and regulatory
+    filings, and need a reviewable set of points, summaries and a first draft.
+  pain: 逐份人工阅读耗时且易漏项，初级律师与 paralegal 大量时间花在重复检索与摘要上，遗漏关键条款或判例的代价高。
+  pain_en: Reading document by document is slow and error-prone; junior lawyers and paralegals spend most
+    of their time on repetitive retrieval and summarisation, and missing a key clause or precedent is
+    costly.
+  current_alternative: 旧做法是初级律师与 paralegal 人工翻阅文件、手工整理摘要，辅以关键词检索的传统法律数据库。
+  current_alternative_en: The old way is junior lawyers and paralegals reading files by hand and writing
+    summaries manually, aided by keyword-search legal databases.
+  usage_reason: 相较人工逐份翻阅，Harvey 把合同分析、尽调、合规与诉讼材料的检索、摘要与草拟合并为一次可复核的初稿输出，减少初级律师在重复阅读上的负担；这是基于产品说明与工作流结构的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with reading files one by one, Harvey merges retrieval, summarisation and
+    drafting of contract, due-diligence, compliance and litigation materials into a single reviewable
+    first-draft output, cutting the repetitive-reading burden on junior lawyers; this is an inference
+    from product descriptions and workflow structure, and public materials provide no retention or repeat-purchase
+    evidence.

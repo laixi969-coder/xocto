@@ -229,3 +229,53 @@
     security-heavy tickable list and adds an AI-agent version so an agent runs the same list, cutting
     the effort of deciding what to check and the risk of omission; inferred to be chosen by web/mobile
     teams that need one shared pre-release security checklist.
+- id: req-full-deployment-checklist-2026-10-06
+  project_slug: deployment-checklist
+  level: full
+  reviewed_at: '2026-10-06T02:52:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线前安全与配置项易漏的需求：开发者或安全负责人需逐项核对，漏项会把漏洞带上线。旧做法靠记忆或零散文档，清单提供语言无关、可勾选且含 AI 代理版本，交付可确定。此为工作流结构推理，公开材料未给漏项频率或事故代价。
+    evidence_ids:
+    - ev-748ee345bf608129
+    - ev-98c908fa4185e59d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 增至 47，说明有开发者关注，但这是关注度而非持续采用证据；公开材料没有 issue、discussion 或用户反馈说明谁在何种场景反复使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-748ee345bf608129
+    - ev-ec482c4f0accaf58
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费路径或买方信息，无法判断钱来自 to C、to B 还是赞助；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-748ee345bf608129
+  - gate: truth
+    status: insufficient
+    reason: 清单条目、AI 代理如何执行检查、是否产出报告均未在公开材料中说明，交付能否稳定发生与人工安全边界缺可复现证据；但清单本身作为可勾选交付物结构上可确定。
+    evidence_ids:
+    - ev-748ee345bf608129
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认清单具体条目、AI 代理版本如何执行检查以及是否产出可核对报告。
+  market: ''
+  job: Web 与移动应用团队在版本上线前，由开发者或安全负责人打开这份语言无关的部署前清单，逐项核对安全与配置事项（也可让 AI 代理按同一清单执行检查），最终产出一份可勾选的检查结果。
+  job_en: Before a release, a web or mobile team's developer or security owner opens this language-agnostic
+    pre-deployment checklist and verifies security and configuration items one by one (or has an AI agent
+    run the same list), producing a checkable result.
+  pain: 上线前的安全与配置项分散在多人记忆和零散文档里，容易漏项；漏掉一项安全配置就可能把漏洞带上线，事后修复成本远高于上线前核对。公开材料只说明清单存在，未给出漏项频率或事故代价的量化数据。
+  pain_en: Pre-release security and configuration items live in scattered memory and docs, so items get
+    missed; one missed security setting ships a vulnerability whose post-release fix costs far more than
+    a pre-release check. Public materials show the checklist exists but give no quantified miss rate or
+    incident cost.
+  current_alternative: 旧做法是团队各自凭记忆、口头交接或自建零散 wiki/issue 模板核对，缺少统一、语言无关且可交给 AI 代理执行的清单。
+  current_alternative_en: The old way is each team relying on memory, verbal handoff, or a self-built
+    scattered wiki/issue template, with no unified, language-agnostic list that can also be handed to
+    an AI agent.
+  usage_reason: 推断：相较自建零散清单，它把安全与配置项集中成一份语言无关、可直接勾选、并额外提供 AI 代理版本的清单，用户省去自己从零整理和跨项目维护条目的步骤，因此上线前需要统一核对口径的
+    Web/移动团队会选它。
+  usage_reason_en: 'Inference: versus a self-built scattered list, it consolidates security and configuration
+    items into one language-agnostic, directly checkable list plus an AI-agent version, sparing users
+    the work of compiling and maintaining items from scratch, so web/mobile teams wanting a single pre-release
+    check standard would pick it.'

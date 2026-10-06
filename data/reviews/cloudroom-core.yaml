@@ -88,3 +88,53 @@
     step of building isolation, session persistence and permission management; engineering teams with
     compliance constraints that already use several coding agents would choose it. The repository''s 252
     stars indicate developer attention, but there is no deployment or retention evidence.'
+- id: req-full-cloudroom-core-2026-10-06
+  project_slug: cloudroom-core
+  level: full
+  reviewed_at: '2026-10-06T02:51:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理运行环境分散、不可审计、无法并行的问题，痛点来自团队实际使用代理后的运维负担，旧替代是各自本机跑或自拼容器；这是从产品定位与工作流结构作出的推理，非用户采用证据。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+    - ev-e02c1ad9ceaeb558
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 252 增至 256，只说明有开发者关注，公开材料没有部署案例、团队采用或重复使用证据，无法判断是否进入真实工作流。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+    - ev-e02c1ad9ceaeb558
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，公开材料没有托管版定价或商业支持方案，收入来自服务、托管还是捐赠无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+  - gate: truth
+    status: insufficient
+    reason: 隔离方式、权限模型与会话持久化的确定性未在公开材料中说明，安全边界与人工介入边界无法核对。
+    evidence_ids:
+    - ev-e8a3c51eef1fd5a3
+    - ev-e02c1ad9ceaeb558
+  next_validation: 收集 cloudroom-core 仓库的 README、部署文档与 issue/discussion，确认隔离与权限模型，以及是否提供托管版或商业支持。
+  market: ''
+  job: 平台工程师或研发团队负责人需要在受控的云端环境里同时运行 Claude Code、Codex、Pi 等多个编码代理会话，而不是让它们散落在各人笔记本上，以便统一管理运行环境、权限与任务生命周期。
+  job_en: A platform engineer or engineering lead needs to run multiple coding-agent sessions (Claude
+    Code, Codex, Pi) in a controlled cloud environment rather than scattered across individual laptops,
+    so runtimes, permissions and task lifecycles can be managed centrally.
+  pain: 代理跑在个人机器上时环境不一致、任务无法并行、合上笔记本任务就断，团队也无法统一审计谁让代理做了什么；公开材料只给出运行时定位，未说明隔离与权限模型。
+  pain_en: When agents run on personal machines, environments diverge, tasks cannot run in parallel, closing
+    the laptop kills the task, and the team cannot audit who had an agent do what; public material only
+    states the runtime positioning, not the isolation or permission model.
+  current_alternative: 旧做法是各自在本机跑代理，或用通用容器与 CI 自己拼一套运行环境。
+  current_alternative_en: The old behaviour is running agents locally on each machine, or hand-rolling
+    a runtime with generic containers and CI.
+  usage_reason: 推断：相较本机跑或自拼容器，自托管运行时把代理会话的承载、环境一致性与集中管理收进一个可部署组件，省掉团队自己拼容器与权限这一步，因此已在用多个编码代理、又有自托管要求的研发团队会在需要并行或长期运行代理任务时选择它；仓库
+    252→256 星只说明开发者关注，不构成部署或留存证据。
+  usage_reason_en: 'Inference: versus running locally or hand-rolling containers, a self-hosted runtime
+    folds agent-session hosting, environment consistency and central management into one deployable component,
+    removing the step of assembling containers and permissions; engineering teams already using several
+    coding agents with self-hosting constraints would pick it when they need parallel or long-running
+    agent tasks. The 252→256 stars indicate developer attention only, not deployment or retenti'

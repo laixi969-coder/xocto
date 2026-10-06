@@ -1,0 +1,88 @@
+- id: req-initial-recly-2026-10-06
+  project_slug: recly
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决面谈记录要另带设备、事后导出转写的问题，旧流程清晰、痛点刚性；但录音触发与转写交付方式未披露，交付确定性存疑。
+    evidence_ids:
+    - ev-3da6bae718a57b2f
+  - gate: consensus
+    status: insufficient
+    reason: 仅 5 分、0 条评论，没有用户评价或案例，无法判断面谈型职业是否真的采用。
+    evidence_ids:
+    - ev-3da6bae718a57b2f
+  - gate: model
+    status: insufficient
+    reason: 没有定价页，买方可能是个人用户或诊所、律所等机构，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3da6bae718a57b2f
+  - gate: truth
+    status: insufficient
+    reason: 手表端录音权限、续航、音频存储位置与隐私合规均未说明，涉及问诊与采访的敏感录音边界。
+    evidence_ids:
+    - ev-3da6bae718a57b2f
+  next_validation: 收集该项目的官方说明或文档，确认支持的手表型号、录音触发方式、音频存储位置与转写交付形式。
+  market: ''
+  job: 咨询顾问、门诊医生或记者在面谈、问诊或采访时，需要一边对话一边留下可检索的文字记录，用于会后整理纪要或写稿。
+  job_en: A consultant, clinic doctor or journalist needs a searchable written record while talking in
+    a meeting, consultation or interview, to write up notes or an article afterwards.
+  pain: 手写或事后凭记忆整理会漏掉细节，另带录音笔又要多一件设备、多一步导出和转写，面谈密集的人一天要重复多次。
+  pain_en: Handwriting or reconstructing from memory loses details, and carrying a separate recorder adds
+    a device plus an export and transcription step, repeated many times a day for interview-heavy people.
+  current_alternative: 现在多用手机录音加转写服务、专用 AI 录音笔，或干脆手写速记，前者要事后导出，后者要多带设备。
+  current_alternative_en: Today people use phone recording plus a transcription service, a dedicated AI
+    recorder, or plain shorthand; the first needs a later export, the second an extra device.
+  usage_reason: 推断：相较手机录音加转写，它把手表变成采集端，省掉掏手机、事后导出音频这一步，因此已经习惯戴表、又不想多带设备的面谈型职业会先关注；但公开材料没有用户反馈、付费或留存证据，是否真被长期使用无法确认。
+  usage_reason_en: 'Inference: compared with phone recording plus transcription, it makes the watch the
+    capture device, removing the steps of pulling out a phone and exporting audio later, so interview-heavy
+    professionals who already wear a watch and dislike extra devices would look first; public material
+    has no user feedback, payment or retention evidence, so sustained use cannot be confirmed.'
+- id: req-full-recly-2026-10-06
+  project_slug: recly
+  level: full
+  reviewed_at: '2026-10-06T02:54:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决面谈记录要另带设备、事后导出转写的问题，痛点刚性且旧流程清晰；产品以手表作采集端完成录制与转写交付，属工作流结构推理，但录音触发与转写交付方式未披露，交付确定性存疑。
+    evidence_ids:
+    - ev-3da6bae718a57b2f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句定位描述与极少评分、零评论，没有用户评价或案例，无法判断面谈型职业是否真的采用，强场景是否成立仍无外部行为印证。
+    evidence_ids:
+    - ev-3da6bae718a57b2f
+  - gate: model
+    status: insufficient
+    reason: 没有定价页，买方可能是个人用户或诊所、律所等机构，属判断而非已验证事实；付费路径与计费方式均未披露，也未出现融资叙事。
+    evidence_ids:
+    - ev-3da6bae718a57b2f
+  - gate: truth
+    status: insufficient
+    reason: 手表端录音权限、续航、音频存储位置与隐私合规均未说明，问诊与采访属敏感录音场景，公开材料未覆盖这些边界，无法核对交付是否安全确定。
+    evidence_ids:
+    - ev-3da6bae718a57b2f
+  next_validation: 追踪 recly.dev 的官方说明或文档，确认支持的手表型号、录音触发方式、音频存储位置与转写交付形式。
+  market: ''
+  job: 咨询顾问、门诊医生或记者在面谈、问诊或采访时，用手表端工具录制现场对话，处理现场语音材料，事后得到可检索的文字记录，用于整理纪要或写稿。
+  job_en: A consultant, clinic doctor or journalist records an on-site conversation with a watch-based
+    tool during a meeting, consultation or interview, handling live speech material to obtain a searchable
+    written record for notes or an article afterwards.
+  pain: 手写或事后凭记忆整理会漏掉细节，另带录音笔要多一件设备、多一步导出与转写，面谈密集的人一天要重复多次。
+  pain_en: Handwriting or reconstructing from memory loses details, and carrying a separate recorder adds
+    a device plus an export and transcription step, repeated many times a day for interview-heavy people.
+  current_alternative: 手机录音加转写服务、专用 AI 录音笔，或干脆手写速记；前者要事后导出，后者要多带设备。
+  current_alternative_en: Phone recording plus a transcription service, a dedicated AI recorder, or plain
+    shorthand; the first needs a later export, the second an extra device.
+  usage_reason: 推断：相较手机录音加转写，它把手表变成采集端，省掉掏手机、事后导出音频这一步，因此已习惯戴表、又不想多带设备的面谈型职业会先关注；公开材料只有一句定位描述，没有用户反馈、付费或留存证据，是否真被长期使用无法确认。
+  usage_reason_en: 'Inference: compared with phone recording plus transcription, it makes the watch the
+    capture device, removing the steps of pulling out a phone and exporting audio later, so interview-heavy
+    professionals who already wear a watch and dislike extra devices would look first; public material
+    is one positioning line with no user feedback, payment or retention evidence, so sustained use cannot
+    be confirmed.'

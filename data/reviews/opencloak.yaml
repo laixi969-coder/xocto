@@ -175,3 +175,50 @@
     fields on-device before the prompt is sent, removing the item-by-item check and requiring no server
     or account, so teams handling large volumes of customer text under compliance constraints may choose
     it before calling external models; no customer cases or retention data support this yet.'
+- id: req-full-opencloak-2026-10-06
+  project_slug: opencloak
+  level: full
+  reviewed_at: '2026-10-06T02:53:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把含个人信息的提示词发给外部模型前的脱敏需求，痛点是合规与泄露风险，旧做法是人工删改；公开说明支持本机识别替换，属工作流结构推理。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从44升至46属关注度信号，未见用户反馈、团队采用或重复使用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-da921345ea898dbd
+    - ev-5bb9a4a11eb9a82b
+  - gate: model
+    status: insufficient
+    reason: 开源且无账号体系，未见定价页或企业采购路径，买方与收费方式未披露；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  - gate: truth
+    status: insufficient
+    reason: 未提供识别准确率、漏检处理或人工复核机制，脱敏能否确定性完成无法核对，安全边界也未说明。
+    evidence_ids:
+    - ev-da921345ea898dbd
+  next_validation: 收集该仓库的 issue/discussion 与文档，核对识别准确率、漏检处理方式及是否支持自定义脱敏规则。
+  market: ''
+  job: 合规与安全工程师或数据保护负责人在把含客户姓名、联系方式等个人信息的提示词发给外部大模型前，处理这些原始文本，要完成本机脱敏后再调用模型的任务。
+  job_en: Compliance/security engineers or data-protection officers handle raw text containing customer
+    names and contact details before sending prompts to an external LLM, aiming to redact it locally before
+    the call.
+  pain: 公开说明只支持一个事实：提示词中的个人细节会在发送前被替换。由此可推断的痛点是，把含个人信息的提示词直接发给外部模型会带来合规与泄露风险，而手工删改费时且容易漏项。
+  pain_en: 'The public description supports one fact: personal details in prompts are swapped out before
+    sending. The inferable pain is that sending prompts with personal information to an external model
+    creates compliance and leakage risk, while manual editing is slow and error-prone.'
+  current_alternative: 当前替代方式多为人工逐条删改提示词，或制定规范要求员工不要粘贴客户资料；公开材料未提供其他替代方案的对比数据。
+  current_alternative_en: Current alternatives are mostly editing prompts by hand item by item, or writing
+    policies telling staff not to paste customer data; public materials provide no comparison data on
+    other alternatives.
+  usage_reason: 推断：相较人工删改，它在发送前于本机自动识别并替换个人字段，省去逐条检查这一步，因此处理大量客户文本且受合规约束的团队会在调用外部模型前选择它；尚无客户案例或留存数据支持。
+  usage_reason_en: 'Inference: compared with manual editing, it automatically detects and swaps personal
+    fields on-device before sending, removing the item-by-item check, so teams handling large volumes
+    of customer text under compliance constraints may choose it before calling external models; no customer
+    cases or retention data support this yet.'

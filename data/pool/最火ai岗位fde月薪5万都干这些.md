@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/501506.html
 summary: 什么是FDE？它会一直存在吗？
 first_seen: '2026-10-04T06:05:35Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

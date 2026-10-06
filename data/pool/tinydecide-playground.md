@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/TheREZOR/TinyDecide-Playground
 summary: A 10M-parameter decision model running in your browser
 first_seen: '2026-10-05T10:08:33Z'
 last_seen: '2026-10-06T02:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -164,3 +164,51 @@
   usage_reason_en: 'The task is: Consumers or price-comparison tools querying and comparing prices across
     shops while shopping Public materials do not yet explain why users choose this product over their
     existing approach.'
+- id: req-full-torob-mcp-2026-10-06
+  project_slug: torob-mcp
+  level: full
+  reviewed_at: '2026-10-06T02:54:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨店铺比价时逐个开页面抄价的需求，痛点是耗时且易漏低价；旧做法是人工逐站检索或装比价插件，不解决则比价成本高。只读 MCP 把搜索比价封装为可调用工具，交付路径确定，属工作流结构推理。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+    - ev-0ad49d00ab79c33e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 40 增至 55，属关注度而非持续采用；没有用户评价或案例说明 AI 助手已把它接入日常选购流程，强场景存在但采用证据未核验。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+    - ev-0ad49d00ab79c33e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是个人消费者或接入方，属判断而非已验证事实；只读、无 API key 也意味着难以直接向查询方收费，付费路径尚未在公开材料中出现。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+  - gate: truth
+    status: supported
+    reason: 只读、无需 API key、托管在 Cloudflare Workers，承诺的跨店铺搜索比价与实现路径一致；但数据来源为 Torob 店铺数据，覆盖品类与更新频率未公开，人工仍需自行判断报价是否可信。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+    - ev-0ad49d00ab79c33e
+  next_validation: 追踪该 MCP 仓库的 issue 与 discussion，确认是否有用户报告实际接入 AI 助手完成比价的使用记录。
+  market: ''
+  job: 消费者或接入该 MCP 的 AI 助手，在选购某件商品时，把商品关键词交给 Torob 的店铺数据，跨店铺检索并核对价格，最终得到一份可比较的报价清单。
+  job_en: Consumers or AI assistants wired to this MCP who, while shopping for a product, pass keywords
+    to Torob's shop data to search and price-check across shops and end up with a comparable quote list.
+  pain: 跨店铺比价需要逐个打开电商页面抄价，人工核对耗时且容易漏掉更低价；公开材料未给出用户抱怨原文，痛点强度属工作流结构推理。
+  pain_en: Cross-shop price comparison requires opening each e-commerce page and copying prices by hand,
+    which is slow and easily misses a lower offer; public materials give no verbatim user complaint, so
+    pain intensity is workflow inference.
+  current_alternative: 手动逐个打开电商网站或比价站搜索同一商品，或依赖浏览器比价插件，把价格抄进表格再比较。
+  current_alternative_en: Manually opening each e-commerce site or comparison site for the same product,
+    or relying on browser price-comparison extensions, copying prices into a spreadsheet to compare.
+  usage_reason: 相较人工逐个开页面抄价，它把搜索、比价、价格核对封装成 14 个只读工具，由 AI 助手在对话中直接调用并返回跨店铺报价，省掉逐站检索与手工记录这一步，因此已在用 AI 助手做选购、且需要即时比价的用户会在询价时选择它；这是基于产品能力的工作流推断，尚无留存或付费证据。
+  usage_reason_en: Compared with manually opening pages and copying prices, it wraps search, comparison
+    and price-checking into 14 read-only tools that an AI assistant calls in-conversation and returns
+    cross-shop quotes, removing the per-site lookup and manual recording step, so users already shopping
+    via an AI assistant who need instant price comparison would pick it when asking for quotes; this is
+    workflow inference from product capability, with no retention or payment evidence yet.

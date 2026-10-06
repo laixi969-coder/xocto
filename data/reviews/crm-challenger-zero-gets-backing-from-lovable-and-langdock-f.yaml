@@ -160,3 +160,79 @@
   usage_reason_en: The candidate does not say which step of burden it removes versus legacy CRMs or which
     checkable result it improves, so it cannot explain which users would choose it and when; this is a
     gap, not a proven adoption reason.
+- id: req-initial-crm-challenger-zero-gets-backing-from-lovable-and-langdock-f-2026-10-06
+  project_slug: crm-challenger-zero-gets-backing-from-lovable-and-langdock-f
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决销售客户记录整理，但材料未给出痛点、旧流程或交付细节，无法判断需求是否成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与挑战者的定位表述，没有客户采用或场景共识证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工边界与安全说明。
+    evidence_ids: []
+  next_validation: 收集 Zero 官方定价页或客户案例页面，确认其收费方式与真实使用场景。
+  market: ''
+  job: 销售或销售运营人员在跟进客户、更新商机阶段，处理邮件、通话记录和表格里的客户信息，要完成把零散往来整理成可推进的客户档案与下一步动作。
+  job_en: Sales or sales-ops staff, while following up with customers and updating pipeline, handle customer
+    information in email, call notes and spreadsheets, and need to turn scattered exchanges into an actionable
+    customer record and next step.
+  pain: 候选材料只说明它挑战 Salesforce 和 HubSpot，未提供任何关于旧流程痛点、用户抱怨或替代行为的具体事实。
+  pain_en: The candidate material only says it challenges Salesforce and HubSpot, and provides no concrete
+    facts about legacy-workflow pain, user complaints or workaround behavior.
+  current_alternative: 按候选材料推断，现有替代是 Salesforce、HubSpot 等既有 CRM，但材料未说明用户为何要换。
+  current_alternative_en: Inferred from the candidate material, the current alternative is incumbent CRM
+    such as Salesforce and HubSpot, but the material does not say why users would switch.
+  usage_reason: 材料未披露产品具体动作与交付，无法说明相较旧 CRM 减少了哪一步负担，因此缺少可判断的使用理由。
+  usage_reason_en: The material discloses no concrete product action or deliverable, so it cannot show
+    which step is reduced versus legacy CRM; a judgeable usage reason is missing.
+- id: req-full-crm-challenger-zero-gets-backing-from-lovable-and-langdock-f-2026-10-06
+  project_slug: crm-challenger-zero-gets-backing-from-lovable-and-langdock-f
+  level: full
+  reviewed_at: '2026-10-06T02:51:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决销售客户记录整理，但公开材料未给出痛点、旧流程或交付细节，无法判断需求是否成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Zero 官方定价页或客户案例页面，确认其收费方式与真实使用场景。
+  market: ''
+  job: 销售或销售运营人员在跟进客户、更新商机阶段，处理散落在邮件、通话记录和表格里的客户往来材料，要完成把零散信息整理成可推进的客户档案与下一步动作。
+  job_en: Sales or sales-ops staff, while following up with customers and updating pipeline, handle customer
+    materials scattered across email, call notes and spreadsheets, and need to turn scattered information
+    into an actionable customer record and next step.
+  pain: 公开材料只称 Zero 挑战 Salesforce 与 HubSpot，未给出任何旧流程痛点、用户抱怨或替代行为的具体事实，无法确认痛点是否刚性。
+  pain_en: Public material only says Zero challenges Salesforce and HubSpot, with no concrete facts on
+    legacy-workflow pain, user complaints or workaround behavior, so pain rigidity cannot be confirmed.
+  current_alternative: 按候选材料推断，现有替代是 Salesforce、HubSpot 等既有 CRM，但材料未说明用户为何要换、换的代价是什么。
+  current_alternative_en: Inferred from the candidate material, the current alternative is incumbent CRM
+    such as Salesforce and HubSpot, but the material does not say why users would switch or at what cost.
+  usage_reason: 材料未披露产品具体动作与交付形态，无法说明相较旧 CRM 减少了哪一步负担，因此缺少可判断的使用理由；这是事实缺口，不是推断结论。
+  usage_reason_en: The material discloses no concrete product action or deliverable, so it cannot show
+    which step is reduced versus legacy CRM; this is a factual gap, not an inferred conclusion.

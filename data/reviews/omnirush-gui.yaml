@@ -88,3 +88,44 @@
     desktop client, removing the configuration and quota-management step, which attracts developers wanting
     low-cost trials of frontier models; public materials show no user feedback or retention evidence,
     so long-term use is unconfirmed.'
+- id: req-full-omnirush-gui-2026-10-06
+  project_slug: omnirush-gui
+  level: full
+  reviewed_at: '2026-10-06T02:53:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决开发者接入前沿模型编码的配置负担，但免费访问前沿模型本身不可持续，缺少明确付费方与交付边界，属于靠补贴续命的拼凑型需求。
+    evidence_ids:
+    - ev-e6a7df0ce2f4cb4e
+    - ev-845232c9f1b2f952
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 omnirush-gui 官方仓库的 issue 与发布说明，核对免费前沿模型的实际额度、限制与代码交付质量。
+  market: ''
+  job: 软件开发者在自己电脑上处理代码库，需要让智能体读取项目、生成或修改代码，并拿到可运行的改动。
+  job_en: A software developer works on a codebase on their own machine, needing an agent to read the
+    project, generate or modify code, and produce runnable changes.
+  pain: 开发者要在编辑器、终端和模型服务之间切换，前沿模型调用成本高，配置与额度管理占用时间。
+  pain_en: Developers switch among editor, terminal and model services, frontier model calls are costly,
+    and configuring quotas takes time.
+  current_alternative: 开发者目前使用现有编码助手、编辑器插件或自行接入模型 API，按用量付费并自行管理密钥与额度。
+  current_alternative_en: Developers currently use existing coding assistants, editor plugins or self-wired
+    model APIs, paying by usage and managing keys and quotas themselves.
+  usage_reason: 推断：相较自行接入模型 API，它把前沿模型访问打包进桌面客户端，减少配置与额度管理这一步，因此对想低成本试用前沿模型的开发者有吸引力；但公开材料没有用户反馈或留存证据，无法确认长期使用。
+  usage_reason_en: 'Inference: versus self-wiring model APIs, it bundles frontier model access into a
+    desktop client, removing the configuration and quota-management step, which attracts developers wanting
+    low-cost trials of frontier models; public materials show no user feedback or retention evidence,
+    so long-term use is unconfirmed.'

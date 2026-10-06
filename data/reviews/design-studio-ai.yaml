@@ -495,3 +495,86 @@
   usage_reason_en: 'Inference: it lets AI agents read and write design files directly in the workspace
     and perform editing and motion work, removing the export-and-clean-up step, so designers or front-end
     engineers who iterate with agents frequently would choose it when producing assets in batches.'
+- id: req-initial-design-studio-ai-2026-10-06
+  project_slug: design-studio-ai
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决智能体参与设计编辑的需求，但候选资料未说明具体痛点、旧流程和不解决的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-add180fc673c7974
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源关注度与社区讨论热度，属于关注度证据，不能说明设计团队或开发者已把它纳入日常工作流。
+    evidence_ids:
+    - ev-add180fc673c7974
+  - gate: model
+    status: insufficient
+    reason: 开源 MIT 项目，候选资料未给出定价、付费方或按结果收费的路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-add180fc673c7974
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近设计工作的第一性目标、交付是否确定发生，也看不到人工确认边界。
+    evidence_ids:
+    - ev-add180fc673c7974
+  next_validation: 收集该开源仓库的 README、部署文档与 issue/discussion，确认它实际接收的设计材料、产出的交付物以及是否有人重复使用。
+  market: ''
+  job: 设计工具开发者或 AI 智能体开发者，在需要让智能体直接产出可编辑设计文件时，打开该工作区处理设计素材并完成编辑与导出。
+  job_en: A design tool developer or AI agent developer opens this workspace to process design assets
+    and complete editing and export when an agent must directly produce editable design files.
+  pain: 候选资料未说明具体痛点，只能确认它试图让智能体参与设计编辑；谁在什么环节难受、不解决会失去什么，公开材料没有交代。
+  pain_en: The candidate material states no specific pain; it only shows an attempt to let agents take
+    part in design editing. Who suffers at which step and what is lost without it is not stated publicly.
+  current_alternative: 现有替代方式在候选资料中未说明，无法确认此前由谁、用什么工具、花多久完成同类设计编辑。
+  current_alternative_en: The current alternative is not described in the candidate material, so who previously
+    did comparable design editing, with what tool, and in how long cannot be confirmed.
+  usage_reason: 推断：相较人工在传统设计软件里逐步操作，它让智能体通过 MCP/CLI 直接调用编辑能力，可能减少人工搬运素材与重复操作这一步；但缺少用户反馈或客户案例，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: compared with manual step-by-step work in traditional design software,
+    it lets agents call editing capabilities through MCP/CLI, potentially removing the step of manually
+    moving assets and repeating operations; without user feedback or customer cases, which users would
+    choose it cannot be confirmed.'
+- id: req-full-design-studio-ai-2026-10-06
+  project_slug: design-studio-ai
+  level: full
+  reviewed_at: '2026-10-06T02:52:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决智能体参与设计编辑的需求，但候选资料未说明具体痛点、旧流程和不解决的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-add180fc673c7974
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、部署文档与 issue/discussion，确认它实际接收的设计材料、产出的交付物以及是否有人重复使用。
+  market: ''
+  job: 设计工具开发者或 AI 智能体开发者在需要让智能体直接产出可编辑设计文件时，打开该工作区处理设计素材并完成编辑与导出。
+  job_en: A design tool developer or AI agent developer opens this workspace to process design assets
+    and complete editing and export when an agent must directly produce editable design files.
+  pain: 候选资料未说明具体痛点，只能确认它试图让智能体参与设计编辑；谁在什么环节难受、不解决会失去什么，公开材料没有交代。
+  pain_en: The candidate material states no specific pain; it only shows an attempt to let agents take
+    part in design editing. Who suffers at which step and what is lost without it is not stated publicly.
+  current_alternative: 现有替代方式在候选资料中未说明，无法确认此前由谁、用什么工具、花多久完成同类设计编辑。
+  current_alternative_en: The current alternative is not described in the candidate material, so who previously
+    did comparable design editing, with what tool, and in how long cannot be confirmed.
+  usage_reason: 推断：相较人工在传统设计软件里逐步操作，它让智能体通过 MCP/CLI 直接调用编辑能力，可能减少人工搬运素材与重复操作这一步；但缺少用户反馈或客户案例，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: compared with manual step-by-step work in traditional design software,
+    it lets agents call editing capabilities through MCP/CLI, potentially removing the step of manually
+    moving assets and repeating operations; without user feedback or customer cases, which users would
+    choose it cannot be confirmed.'

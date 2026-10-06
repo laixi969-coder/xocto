@@ -1,0 +1,88 @@
+- id: req-initial-siteprint-2026-10-06
+  project_slug: siteprint
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是复刻或对齐网站视觉风格时靠人眼比对的问题，痛点方向成立，但材料未给出旧流程细节与采用行为，价值判断只能停留在结构推理。
+    evidence_ids:
+    - ev-67ba60797100b606
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句话描述，无用户评价、收藏或采用数据，看不出共识卡在感知、场景还是利益。
+    evidence_ids:
+    - ev-67ba60797100b606
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是设计团队或前端团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-67ba60797100b606
+  - gate: truth
+    status: insufficient
+    reason: 测量结果能否确定性交付、是否贴近设计工作的第一性目标，材料未说明，也无安全与人工边界信息。
+    evidence_ids:
+    - ev-67ba60797100b606
+  next_validation: 收集该产品的官方定价页或客户案例，确认测量维度、输出格式与是否按结果收费。
+  market: ''
+  job: 设计师或前端开发者在需要参考或复刻某个网站视觉风格时，输入网址，由工具测量设计参数并交给 AI 使用。
+  job_en: Designers or front-end developers who need to reference or replicate a website's visual style
+    enter a URL, and the tool measures design parameters for AI to use.
+  pain: 对齐或复刻视觉风格通常靠人眼比对、截图和手动记录数值，容易遗漏且难以交接；候选材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: Aligning or replicating a visual style usually relies on eyeballing, screenshots and manually
+    noting values, which is error-prone and hard to hand off; the candidate material gives no direct evidence
+    of user complaints or workarounds.
+  current_alternative: 人工截图、用浏览器开发者工具逐项查看样式，或凭经验估算间距与配色。
+  current_alternative_en: Manual screenshots, inspecting styles item by item in browser dev tools, or
+    estimating spacing and colors by experience.
+  usage_reason: 推断：相较人工逐项查看样式，它把测量动作自动化并输出可交给 AI 的结构化参数，省掉手工记录与转述这一步，因此需要跨团队对齐视觉的设计师或前端可能选择它；但材料未提供用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: compared with inspecting styles item by item, it automates measurement
+    and outputs structured parameters that can be handed to AI, removing the manual recording and retelling
+    step, so designers or front-end developers aligning visuals across teams may choose it; however, no
+    user feedback or repeat-use evidence is provided.'
+- id: req-full-siteprint-2026-10-06
+  project_slug: siteprint
+  level: full
+  reviewed_at: '2026-10-06T02:54:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复刻或对齐网站视觉风格时靠人眼比对、截图和手记数值的需求，痛点是遗漏多、难交接；旧替代明确为开发者工具逐项查看，不解决的后果是返工与风格偏差，属工作流结构推理。
+    evidence_ids:
+    - ev-67ba60797100b606
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，无用户评价、收藏或采用数据，看不出共识卡在感知、场景还是利益，强场景只能从任务结构推断。
+    evidence_ids:
+    - ev-67ba60797100b606
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是设计团队或前端团队，这是判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-67ba60797100b606
+  - gate: truth
+    status: insufficient
+    reason: 测量维度、输出格式与能否确定性交付均未说明，是否贴近设计工作第一性目标及人工复核边界无法核对。
+    evidence_ids:
+    - ev-67ba60797100b606
+  next_validation: 追踪 Siteprint 官方定价页或 公开资料 评论区，确认测量维度、输出格式与是否按结果收费。
+  market: ''
+  job: 设计师或前端开发者在需要参考或复刻某个网站视觉风格时，输入网址，由工具测量配色、间距、字体等设计参数并交给 AI 使用。
+  job_en: Designers or front-end developers who need to reference or replicate a website's visual style
+    enter a URL, and the tool measures design parameters such as colors, spacing and fonts for AI to use.
+  pain: 对齐或复刻视觉风格通常靠人眼比对、截图和手动记录数值，容易遗漏且难以交接；候选材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: Aligning or replicating a visual style usually relies on eyeballing, screenshots and manually
+    noting values, which is error-prone and hard to hand off; the candidate material gives no direct evidence
+    of user complaints or workarounds.
+  current_alternative: 人工截图、用浏览器开发者工具逐项查看样式，或凭经验估算间距与配色。
+  current_alternative_en: Manual screenshots, inspecting styles item by item in browser dev tools, or
+    estimating spacing and colors by experience.
+  usage_reason: 推断：相较人工逐项查看样式，它把测量动作自动化并输出可交给 AI 的结构化参数，省掉手工记录与转述这一步，因此需要跨团队对齐视觉的设计师或前端可能选择它；但材料未提供用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: compared with inspecting styles item by item, it automates measurement
+    and outputs structured parameters that can be handed to AI, removing the manual recording and retelling
+    step, so designers or front-end developers aligning visuals across teams may choose it; however, no
+    user feedback or repeat-use evidence is provided.'

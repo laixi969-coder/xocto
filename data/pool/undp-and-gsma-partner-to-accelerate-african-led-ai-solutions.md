@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxQMlFxY1psVjBh
 summary: UNDP and GSMA partner to accelerate African-led AI solutions innovation-village.com
 first_seen: '2026-10-05T19:27:41Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

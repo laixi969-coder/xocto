@@ -22,7 +22,7 @@ summary: Some people might think there’s only one way to do an interview. Whil
   or Zoom calls are the norm, that format doesn’t suit everyone. I believe that if someone has a compelling...
 first_seen: '2026-10-05T11:49:51Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

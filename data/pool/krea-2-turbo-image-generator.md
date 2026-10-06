@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/Aura1in/Krea-2-Turbo_v2
 summary: Krea 2 Turbo text2image and image editing
 first_seen: '2026-10-05T07:05:39Z'
 last_seen: '2026-10-06T02:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

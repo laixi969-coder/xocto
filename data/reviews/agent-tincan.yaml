@@ -350,3 +350,53 @@
     Tailscale network identity and connectivity for agent-to-agent help, removing the step of separately
     exposing ports and configuring forwarding per host, so developers already using Tailscale to manage
     multi-machine agents would pick it when cross-host collaboration is needed.'
+- id: req-full-agent-tincan-2026-10-06
+  project_slug: agent-tincan
+  level: full
+  reviewed_at: '2026-10-06T02:50:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 跨主机协作时缺少互访通道的需求，痛点是手工隧道与胶水脚本的维护负担，不解决的后果是 agent 只能挤在一台机器或调用链自维护。公开说明已能还原输入、动作与交付，属工作流结构推理；仓库收藏从
+      162 升至 223 说明有开发者持续关注。
+    evidence_ids:
+    - ev-d1302bed2f3e618e
+    - ev-21a6bc5286e04765
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏由 162 增至 223，属关注度与规模证据，只能说明开发者注意到它，不能证明目标用户已把它留在日常工作流或形成持续采用；缺少 issue、discussion 或客户案例佐证真实使用场景。
+    evidence_ids:
+    - ev-d1302bed2f3e618e
+    - ev-59c2fa3153701933
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 开发者自用或 to B 团队支持，属判断而非已验证事实；开源不等于没有商业路径，但当前无法核验单位经济。
+    evidence_ids:
+    - ev-e5ea33d5ba59ff79
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只给出 Tailscale 转发这一层，交付能否稳定发生、agent 间请求的人工确认与安全边界如何界定，尚缺部署文档或可复现实测支撑，无法确认承诺可确定性兑现。
+    evidence_ids:
+    - ev-c45746fc3600ba5c
+  next_validation: 追踪 agent-tincan 仓库的 README、部署文档与 issue/discussion，确认是否有开发者公开描述跨主机 agent 协作的实际部署与替代旧流程。
+  market: ''
+  job: 自建或混合部署多个 AI agent 的开发者，在 agent 分散于不同机器、需要互相调用或求助时，打开这个开源项目，把 agent 间的求助请求经 Tailscale 网络转发，让跨主机的
+    agent 完成协作任务。
+  job_en: Developers running multiple AI agents across self-hosted or hybrid machines open this open-source
+    project when agents on different hosts need to call or ask each other for help, routing those requests
+    over a Tailscale network so cross-host agents can complete a collaborative task.
+  pain: 多 agent 分散在不同主机时，agent 之间没有现成的互访通道，开发者只能手工搭端口转发、写胶水脚本或把 agent 挤到同一台机器上，跨机协作的调用链路要自己维护。
+  pain_en: When agents live on different hosts there is no ready channel between them, so developers hand-roll
+    port forwarding, glue scripts, or cram agents onto one machine, maintaining the cross-host call path
+    themselves.
+  current_alternative: 手工配置 SSH 隧道、反向代理或自写 HTTP 转发脚本，或干脆把多个 agent 部署在同一台机器上以规避跨机通信。
+  current_alternative_en: Hand-configured SSH tunnels, reverse proxies, or self-written HTTP forwarding
+    scripts, or simply co-locating all agents on one machine to avoid cross-host communication.
+  usage_reason: 推断：相较手工隧道与胶水脚本，它把 agent 间求助请求的转发直接绑定到已有的 Tailscale 网络，开发者不必再为每对 agent 单独开端口或维护转发脚本，因此自建多
+    agent 且已用 Tailscale 组网的开发者会在需要跨机协作时选择它。
+  usage_reason_en: 'Inference: versus hand-built tunnels and glue scripts, it binds agent-to-agent help
+    routing to an existing Tailscale network, so developers no longer open ports or maintain forwarding
+    scripts per agent pair; developers already running multi-agent setups on Tailscale would pick it when
+    cross-host collaboration is needed.'

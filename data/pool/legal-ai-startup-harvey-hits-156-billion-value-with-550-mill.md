@@ -3,42 +3,42 @@ slug: legal-ai-startup-harvey-hits-156-billion-value-with-550-mill
 name: Harvey
 builder: ''
 category: AI + 商业
-summary_zh: 律所律师和法务在合同审阅、尽职调查、法律检索等节点打开它，把案件文件、合同和判例材料交给系统处理，由 AI 起草初稿、提取条款要点并给出引用来源，最终交付可复核的文书草稿或检索结论，仍需律师本人确认后使用。具体流程与交付边界仍待核验。
-inspiration: 趋势是法律这类高保密、高单价的专业工作开始被 AI 承接初稿环节，买方是律所与企业法务，付费能力已被融资规模侧面印证。切入可从并购尽调、合同条款比对或合规检索等单一环节做起，按案件或按份交付收费，而不是做通用法律问答；保密与责任边界本身就是壁垒。
-summary_en: Lawyers and in-house counsel open it at contract review, due diligence and legal research
-  steps, feeding case files, contracts and case law into the system; the AI drafts first versions, extracts
-  clause points and returns citations, delivering a reviewable draft or research conclusion that a lawyer
-  still has to confirm. The exact workflow and delivery boundary remain unverified.
-inspiration_en: The trend is that high-confidentiality, high-price professional work is starting to have
-  its first-draft step taken over by AI, with law firms and corporate legal teams as buyers whose willingness
-  to pay is indirectly suggested by the funding scale. Entry points are single steps such as M&A due diligence,
-  clause comparison or compliance research, priced per matter or per document rather than as generic legal
-  Q&A; confidentiality and liability boundaries are themselves the moat.
+summary_zh: 律所律师与企业法务在合同审阅、尽职调查和法律检索这类节点上，原本要人工翻阅大量文件与判例；Harvey 接收这些法律材料后执行检索、摘要与草拟，输出可复核的初稿供律师确认。具体流程与交付边界仍待核验。
+inspiration: 趋势是法律这类高门槛专业服务开始被按任务拆开交给 AI，且应用层不再靠自研模型取胜。切入可考虑从并购尽调、合规审查等单一高频文书环节进入，按案件或按份交付收费，而不是卖通用席位；公开材料未披露其定价，不得据此推断。
+summary_en: At nodes such as contract review, due diligence and legal research, law-firm lawyers and in-house
+  counsel previously had to read through large volumes of documents and case law by hand; Harvey takes
+  in these legal materials, performs retrieval, summarisation and drafting, and returns a reviewable first
+  draft for a lawyer to confirm. The exact workflow and delivery boundary still need verification.
+inspiration_en: The trend is that high-barrier professional services like law are being split into discrete
+  tasks handed to AI, and the application layer no longer wins by training its own models. An entry point
+  could be a single high-frequency document step such as M&A due diligence or compliance review, charged
+  per matter or per document rather than per seat; its pricing is not disclosed in public materials and
+  must not be inferred.
 priority_review: false
 project_type: ai_transformation
 industries:
 - 法律服务
-- 专业服务
+- 企业软件
 industries_en:
 - Legal services
-- Professional services
+- Enterprise software
 jobs:
-- 律师
-- 法务人员
+- 律师与法务人员处理合同审阅、尽职调查与法律检索
 jobs_en:
-- Lawyers
-- In-house counsel
+- Lawyers and in-house counsel handling contract review, due diligence and legal research
 regions:
 - 美国
+- 全球
 regions_en:
 - United States
+- Global
 open_source: false
 url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQTWExU3E3aE81dGxIOGh3al9sbjBGOVlLU3h6UXUyOHlHM09USVJWMEtwYl9abDV6akxKNVBqdndKY1UyUTJsVjNKSWFQQXBnNWhteWRmSzJtYWl1eldCR2xWYWxEU19wYWluZ0dBWGZMTG05Wnh6MV9INHdBNUVaMW5xMnluYUROMkU1NTktbC1teXdVeEN6ZUxoQjAwM1p2V2pDTnJFNFJjYW15c1JRa29ManF3ZDlIcTFLWXR3?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQTWExU3E3aE81dGxIOGh3al9sbjBGOVlLU3h6UXUyOHlHM09USVJWMEtwYl9abDV6akxKNVBqdndKY1UyUTJsVjNKSWFQQXBnNWhteWRmSzJtYWl1eldCR2xWYWxEU19wYWluZ0dBWGZMTG05Wnh6MV9INHdBNUVaMW5xMnluYUROMkU1NTktbC1teXdVeEN6ZUxoQjAwM1p2V2pDTnJFNFJjYW15c1JRa29ManF3ZDlIcTFLWXR3?oc=5
 summary: Legal AI Startup Harvey Hits $15.6 Billion Value With $550 Million Round Bloomberg.com
 first_seen: '2026-09-09T11:30:01Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:

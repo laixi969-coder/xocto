@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxOVjVuTWFORUgw
 summary: Eisman says AI bubble rests on two customers startuphub.ai
 first_seen: '2026-10-04T11:08:45Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

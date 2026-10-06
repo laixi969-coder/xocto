@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/xtracticle
 summary: Save X Articles and threads as PDF, Markdown or EPUB
 first_seen: '2026-10-04T12:53:37Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

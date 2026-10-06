@@ -758,3 +758,46 @@
   usage_reason_en: 44.85M monthly visits and 13.76% MoM growth only show scale and attention; they do
     not explain why users pick it over the old search flow, and without retention or feedback no causal
     reason can be given.
+- id: req-full-ai-搜索-百度-2026-10-06
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-10-06T02:50:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度AI搜索官方产品页与帮助文档，确认是否公布独立定价、会员权益或企业版采购信息，以及是否披露答案引用来源与准确性说明。
+  market: ''
+  job: 普通中文用户在百度搜索框里提出一个需要多步拆解的问题（如选型、学习、写作素材整理），需要边搜边追问、并在同一页完成文字或图片产出，而不是在多个标签页和工具间来回搬运。
+  job_en: An ordinary Chinese-language user poses a multi-step question in the Baidu search box (e.g.,
+    comparison, learning, drafting material) and needs to search, follow up, and produce text or images
+    on the same page instead of shuttling between tabs and tools.
+  pain: 传统关键词搜索只返回链接列表，用户要自己判断哪条可信、自己把零散信息拼成答案，再切换到写作或绘图工具；多轮追问时上下文丢失，重复检索和复制粘贴构成主要摩擦。
+  pain_en: 'Classic keyword search returns a list of links: the user must judge credibility, assemble
+    scattered fragments into an answer, then switch to a writing or drawing tool; context is lost across
+    follow-up rounds, so repeated searching and copy-pasting are the main friction.'
+  current_alternative: 现状替代是百度传统关键词搜索加人工筛选，再配合独立 AI 对话产品（如文心一言、豆包、Kimi）和单独的写作/绘图工具，多窗口切换完成同一任务。
+  current_alternative_en: The status quo is classic Baidu keyword search plus manual filtering, combined
+    with standalone AI chat products (Wenxin Yiyan, Doubao, Kimi) and separate writing/drawing tools,
+    switching across windows to finish one task.
+  usage_reason: 推断：相较旧做法，它把检索、追问、阅读和创作收敛到同一对话页，省去在搜索结果页与外部工具间反复复制粘贴、重建上下文这一步；习惯百度入口、又需要多轮追问和即时产出的中文用户会在做复杂查询或初稿时选择它。公开材料未提供留存或付费证据，故这是基于产品能力与任务结构的推断。
+  usage_reason_en: 'Inference: versus the old path, it collapses retrieval, follow-up, reading, and creation
+    into one chat page, removing the step of repeatedly copy-pasting and rebuilding context between the
+    results page and external tools; Chinese users already anchored to Baidu''s entry point who need multi-round
+    follow-up and immediate output would pick it for complex queries or first drafts. Public materials
+    give no retention or payment evidence, so this is an inference from product capabili'

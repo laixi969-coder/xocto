@@ -2,16 +2,15 @@
 slug: local
 name: Local
 builder: Lukas Wesemann
-category: 基础层
-summary_zh: Mac 用户在需要处理不便上传云端的文档或代码时打开 Local，由它在本地加载并运行模型，直接在本机完成问答或生成；用户拿到的是本机推理结果，具体支持的模型、输入格式与交付形态仍待核验。
-inspiration: 趋势是本地推理正从命令行玩家走向普通 Mac 用户，隐私与离线成为卖点。切入可考虑对数据不能出本机的律所、诊所、财务团队做预装式本地助手，按设备或年费交付，但需先确认其模型来源与硬件门槛。
-summary_en: Mac users open Local when handling documents or code they would rather not upload to the cloud;
-  it loads and runs a model on the machine to answer or generate locally. The exact supported models,
-  input formats and deliverables still need verification.
-inspiration_en: The trend is local inference moving from command-line hobbyists toward ordinary Mac users,
-  with privacy and offline use as the pitch. A wedge could be preinstalled local assistants for law firms,
-  clinics or finance teams whose data cannot leave the machine, sold per device or per year, but model
-  sourcing and hardware requirements must be confirmed first.
+category: AI + 效率
+summary_zh: 面向 Mac 用户的本地 AI 工具，宣称零摩擦使用；候选资料只给出一句宣传语，具体接收什么输入、执行什么动作、交付什么结果均未说明，具体流程或交付仍待核验。
+inspiration: 本地推理正在从开发者玩具走向普通 Mac 用户，切入点是隐私敏感、不愿把材料上传云端的人群；但仅凭一句宣传语无法判断它替代了哪一步旧工作，需先看它是否绑定某个具体文件或行业材料。
+summary_en: A local AI tool for Mac users advertised as zero-friction; the candidate material provides
+  only a tagline, with no description of inputs, actions or deliverables, so the concrete workflow and
+  output remain unverified.
+inspiration_en: On-device inference is moving from developer toys toward ordinary Mac users, and the entry
+  point is privacy-sensitive people who refuse to upload material to the cloud; a single tagline cannot
+  show which old step it replaces, so it must first be tied to a specific file or industry material.
 priority_review: false
 project_type: new_application
 industries: []
@@ -26,7 +25,7 @@ canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - officialfeeds

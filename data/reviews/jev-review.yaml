@@ -480,3 +480,51 @@
   usage_reason_en: 'Inference: versus reading diffs line by line, it splits review into stages run by
     the agent and lands results in a local dashboard, cutting the developer''s manual triage steps; local-first
     means code stays on-machine, which appeals to developers wary of code leakage.'
+- id: req-full-jev-review-2026-10-06
+  project_slug: jev-review
+  level: full
+  reviewed_at: '2026-10-06T02:53:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决提交前代码质量评审的需求：人工逐行看 diff 易漏检且耗时，不解决则缺陷流入主干。公开事实仅说明分阶段评审工作流与本地看板，痛点强度与不采用代价属工作流结构推理，尚无用户抱怨或返工数据佐证。
+    evidence_ids:
+    - ev-dd76a10bbe04102f
+    - ev-13289869dc65617b
+  - gate: consensus
+    status: insufficient
+    reason: 两个同名仓库分别有 653 与 231 星，且主仓库星数从 653 缓慢升至 671，说明开发者已注意到并收藏；但星标属关注度证据，不能证明持续使用或已进入日常工作流，缺少 issue、讨论或采用案例。
+    evidence_ids:
+    - ev-dd76a10bbe04102f
+    - ev-13289869dc65617b
+    - ev-cc64b234ac0efd18
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断 to C 开发者自付还是 to B 团队采购；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-dd76a10bbe04102f
+  - gate: truth
+    status: insufficient
+    reason: 公开事实只说明它是基于 Jev 的本地优先 MCP 插件与看板，未披露具体检查项、交付格式、可复现性及人工与安全边界，无法核验评审结果能否确定性交付。
+    evidence_ids:
+    - ev-13289869dc65617b
+    - ev-dd76a10bbe04102f
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认分阶段评审的具体检查项、交付格式及是否有开发者报告实际接入提交前流程。
+  market: ''
+  job: 开发者在提交代码前，把待评审的改动交给 AI 编码代理，由代理按阶段做质量检查，结果汇总到本地看板供人工确认。
+  job_en: Before committing, developers hand pending changes to an AI coding agent that runs staged quality
+    checks and aggregates results into a local dashboard for human confirmation.
+  pain: 公开材料只说明它是分阶段评审工作流与本地看板，未给出用户抱怨、缺陷拦截率或返工代价；痛点强度属工作流结构推理：提交前评审若靠人工逐行看 diff，容易漏检且耗时。
+  pain_en: 'Public materials only describe a staged review workflow and local dashboard, with no user
+    complaints, defect-catch rates, or rework costs; pain intensity is a workflow-structure inference:
+    manual line-by-line diff review before commit is slow and error-prone.'
+  current_alternative: 公开材料未说明现有替代方式；结构上可推断为人工自查 diff、CI 静态检查或通用 AI 编码代理的临时评审提示，但这些均未在证据中确认。
+  current_alternative_en: Public materials do not state the current alternative; structurally it can be
+    inferred as manual diff self-review, CI static checks, or ad-hoc review prompts in general AI coding
+    agents, none confirmed by evidence.
+  usage_reason: 推断：相较人工逐行看 diff 或临时提示，它把评审拆成固定阶段并汇总到本地看板，减少开发者自行组织检查步骤的负担，因此会在提交前需要结构化评审的开发者中选择它；尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus manual diff reading or ad-hoc prompts, it splits review into fixed
+    stages and aggregates them into a local dashboard, reducing the burden of organizing checks; developers
+    needing structured pre-commit review would choose it, though no user feedback confirms this.'

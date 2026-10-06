@@ -1,0 +1,88 @@
+- id: req-initial-pilot5-legal-2026-10-06
+  project_slug: pilot5-legal
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法律问答中单模型幻觉导致核对成本高的问题，痛点对律师是刚性的，多模型互查直接针对错误条文与判例这一后果。
+    evidence_ids:
+    - ev-62de04bf536cbf06
+  - gate: consensus
+    status: insufficient
+    reason: 除上线信息外没有律师评价或事务所采用案例，无法判断法律从业者是否真的把多模型互查纳入检索流程。
+    evidence_ids:
+    - ev-62de04bf536cbf06
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是律师个人订阅、律所采购还是按问题收费均不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-62de04bf536cbf06
+  - gate: truth
+    status: insufficient
+    reason: 多模型互查能否降低而非放大错误、答案是否附可核验的法规与判例出处、责任边界如何划分，公开材料均未说明。
+    evidence_ids:
+    - ev-62de04bf536cbf06
+  next_validation: 查看 Pilot5 Legal 官方页面或定价页，确认适用法域、答案引用来源与收费方式。
+  market: ''
+  job: 律师或企业法务在接到新问题、需要快速判断方向时，要先用 AI 做初步检索，再决定是否深入。
+  job_en: When a new question arrives and direction must be judged quickly, lawyers or in-house counsel
+    first use AI for preliminary research before deciding whether to dig deeper.
+  pain: 单模型法律问答容易给出看似合理但错误的条文或判例，律师必须逐条回查，反而增加核对负担。
+  pain_en: Single-model legal Q&A easily produces plausible but wrong statutes or cases, forcing lawyers
+    to re-check every line and adding verification burden.
+  current_alternative: 现在多靠人工在法规数据库和判例库里检索，或直接用通用 AI 助手提问后自行核对。
+  current_alternative_en: Today lawyers mostly search statute and case databases manually, or ask a general
+    AI assistant and verify the output themselves.
+  usage_reason: 推断：多模型互相挑战把单次问答变成可对照的多份答案，律师能更快发现分歧点，从而减少逐条回查的负担；但公开材料未说明引用来源与法域覆盖，无法确认答案是否可直接采信。
+  usage_reason_en: 'Inference: multi-model challenge turns a single answer into several comparable ones,
+    letting lawyers spot disagreements faster and cutting line-by-line re-checking; however public material
+    does not describe citation sources or jurisdiction coverage, so whether answers can be relied on directly
+    cannot be confirmed.'
+- id: req-full-pilot5-legal-2026-10-06
+  project_slug: pilot5-legal
+  level: full
+  reviewed_at: '2026-10-06T02:53:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法律问答中单模型幻觉导致核对成本高的问题：律师要快速判断方向，却必须逐条回查条文与判例，多模型互查直接针对错误条文这一后果，痛点对法律从业者刚性，交付形式可确定。
+    evidence_ids:
+    - ev-62de04bf536cbf06
+  - gate: consensus
+    status: insufficient
+    reason: 除上线信息外没有律师评价或事务所采用案例，无法判断法律从业者是否真的把多模型互查纳入检索流程，公开关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-62de04bf536cbf06
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是律师个人订阅、律所采购还是按问题收费均不清楚，这是判断而非已验证事实，但买方不清不取消真需求判定。
+    evidence_ids:
+    - ev-62de04bf536cbf06
+  - gate: truth
+    status: insufficient
+    reason: 多模型互查能否降低而非放大错误、答案是否附可核验的法规与判例出处、责任边界如何划分，公开材料均未说明，交付确定性仍缺关键一环。
+    evidence_ids:
+    - ev-62de04bf536cbf06
+  next_validation: 查看 Pilot5 Legal 官方页面或定价页，确认适用法域、答案引用来源与收费方式。
+  market: ''
+  job: 律师或企业法务在接到新法律问题、需要快速判断方向时，把问题交给 Pilot5 Legal，由五个 AI 模型分别作答并互相质疑，得到一份经过交叉挑战的初步答案，再决定是否深入检索。
+  job_en: When a new legal question arrives and direction must be judged quickly, lawyers or in-house
+    counsel give the question to Pilot5 Legal, where five AI models answer and challenge each other, producing
+    a cross-challenged preliminary answer before deciding whether to dig deeper.
+  pain: 单模型法律问答容易给出看似合理但错误的条文或判例，律师必须逐条回查，核对成本高；公开材料只说明多模型互查这一机制，未说明适用法域与引用来源。
+  pain_en: Single-model legal Q&A easily produces plausible but wrong statutes or cases, forcing lawyers
+    to re-check every line at high verification cost; public material only describes the multi-model challenge
+    mechanism, not jurisdiction coverage or citation sources.
+  current_alternative: 目前多靠人工在法规数据库和判例库中检索，或直接用通用 AI 助手提问后自行逐条核对。
+  current_alternative_en: Today lawyers mostly search statute and case databases manually, or ask a general
+    AI assistant and verify each line themselves.
+  usage_reason: 推断：相较单模型问答后逐条回查，多模型互查把一次回答变成可对照的多份答案，律师能更快定位分歧点，从而减少核对负担；但公开材料未说明引用来源与法域覆盖，无法确认答案是否可直接采信。
+  usage_reason_en: 'Inference: compared with line-by-line re-checking after a single-model answer, multi-model
+    challenge turns one answer into several comparable ones, letting lawyers locate disagreements faster
+    and cutting verification burden; however public material does not describe citation sources or jurisdiction
+    coverage, so whether answers can be relied on directly cannot be confirmed.'

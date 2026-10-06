@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxON08yeDhqczVB
 summary: AI legal software firm to open Boston office The Business Journals
 first_seen: '2026-10-05T16:57:00Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

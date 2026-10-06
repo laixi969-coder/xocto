@@ -1,0 +1,85 @@
+- id: req-initial-vals-backed-by-andreessen-horowitz-is-looking-to-become-the-2-2026-10-06
+  project_slug: vals-backed-by-andreessen-horowitz-is-looking-to-become-the-2
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型选型缺乏可比依据、材料早期筛选靠人工试错的问题，痛点具体且不采用会拖长决策周期。
+    evidence_ids:
+    - ev-4c4efaf9e86fa899
+    - ev-46118ae78c6e0eda
+  - gate: consensus
+    status: insufficient
+    reason: 有媒体报道与社区讨论热度，但未见客户名单或持续采用证据，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-4c4efaf9e86fa899
+  - gate: model
+    status: insufficient
+    reason: 公开材料只提到投资方，未见定价页或付费客户，收入来源是判断而非已验证事实。
+    evidence_ids:
+    - ev-4c4efaf9e86fa899
+  - gate: truth
+    status: insufficient
+    reason: 材料发现结果来自官方博客自述，未见独立复现或第三方核验，交付确定性待查。
+    evidence_ids:
+    - ev-46118ae78c6e0eda
+  next_validation: 收集 Vals 官方定价页或公开客户案例，确认评测服务的收费方式与实际采用方。
+  market: ''
+  job: 模型评测工程师或材料研究团队在选型或早期筛选阶段，处理多个候选模型或大量候选材料，要产出一份可比较、可复核的结论清单。
+  job_en: Model evaluation engineers or materials research teams, at selection or early screening stage,
+    work through multiple candidate models or large candidate material sets to produce a comparable, reviewable
+    shortlist.
+  pain: 旧做法靠公开榜单和零散论文，榜单与自家任务不匹配，材料筛选则依赖人工试错，周期长且难以横向比较。
+  pain_en: The old way relies on public leaderboards and scattered papers that do not match one's own
+    tasks; materials screening depends on manual trial and error, taking long and being hard to compare
+    across options.
+  current_alternative: 公开基准榜单、内部自建脚本评测、人工文献调研与实验试错。
+  current_alternative_en: Public benchmark leaderboards, in-house scripted evaluations, manual literature
+    review and experimental trial and error.
+  usage_reason: 推断：相较公开榜单，Vals 把候选模型放到同一批任务上统一跑分并给出对比，减少团队自己搭评测脚本这一步；材料场景则把筛选动作交给智能体先出候选清单，研究者只需复核少数候选，因此选型或早期筛选阶段的团队会考虑使用。
+  usage_reason_en: 'Inference: compared with public leaderboards, Vals runs candidates through one shared
+    task set and returns comparisons, removing the step of building an in-house evaluation harness; in
+    the materials case agents produce a candidate shortlist first so researchers only review a few options,
+    which is why teams at selection or early screening stage would consider it.'
+- id: req-full-vals-backed-by-andreessen-horowitz-is-looking-to-become-the-2-2026-10-06
+  project_slug: vals-backed-by-andreessen-horowitz-is-looking-to-become-the-2
+  level: full
+  reviewed_at: '2026-10-06T02:55:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向同名餐厅菜单与心理细分方法论文本，无一条可归因到该 AI 基准测试产品，连它解决什么需求、什么痛点都无法写出，故价值关不成立。
+    evidence_ids:
+    - ev-c8c63ec13a69b05c
+    - ev-aa7eec066b7efd20
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 vals.ai 官网首页与产品/定价页面原文，确认其是否为 AI 基准测试服务并提取可归因的评测口径与客户案例。
+  market: ''
+  job: 待补充：现有证据无法确认 Vals 是 AI 基准测试产品，也无法还原谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: 'To be determined: the available evidence cannot confirm that Vals is an AI benchmarking product,
+    nor reconstruct who handles what material in what situation to complete what task.'
+  pain: 待补充：证据中没有任何可归因到该产品的用户痛点描述，只有餐厅菜单与心理细分方法论文本。
+  pain_en: 'To be determined: no user pain attributable to this product appears in the evidence, only
+    restaurant menu text and psychographic segmentation methodology text.'
+  current_alternative: 待补充：无法从现有证据识别用户当前用什么方式替代该产品。
+  current_alternative_en: 'To be determined: the current alternatives users rely on cannot be identified
+    from the available evidence.'
+  usage_reason: 待补充：证据未提供任何可归因到该产品的采用、评价或使用动机，无法解释用户为何选择它。
+  usage_reason_en: 'To be determined: the evidence offers no adoption, review, or usage motivation attributable
+    to this product, so why users would choose it cannot be explained.'

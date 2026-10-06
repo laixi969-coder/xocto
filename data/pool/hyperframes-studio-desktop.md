@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/heygen
 summary: The First Video Editor built for Agents
 first_seen: '2026-10-05T06:03:02Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

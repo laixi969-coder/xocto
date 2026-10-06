@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/8-pre-seed-rounds-led-by-tier-1-us-inv
 summary: ''
 first_seen: '2026-10-05T05:00:58Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/split-9
 summary: Resize connected Mac windows together, with live content
 first_seen: '2026-09-20T15:59:37Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

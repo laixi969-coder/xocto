@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiakFVX3lxTE5UWWRxOWhrQWxx
 summary: AI漫剧，正在带来哪些品牌合作新可能？ 风闻
 first_seen: '2026-10-06T00:20:25Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

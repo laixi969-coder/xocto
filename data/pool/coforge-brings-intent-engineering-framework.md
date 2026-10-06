@@ -1,6 +1,6 @@
 ---
 slug: coforge-brings-intent-engineering-framework
-name: Coforge Brings Intent Engineering Framework
+name: Coforge Intent Engineering Framework
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTE1ud0tUd1FoNDVy
 summary: Coforge Brings Intent Engineering Framework varindia
 first_seen: '2026-10-05T16:46:24Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Coforge Brings Intent Engineering Framework
+# Coforge Intent Engineering Framework
 
 Coforge Brings Intent Engineering Framework varindia
 

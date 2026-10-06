@@ -3,19 +3,16 @@ slug: crm-challenger-zero-gets-backing-from-lovable-and-langdock-f
 name: Zero
 builder: Anon84
 category: AI + 商业
-summary_zh: 销售团队在跟进客户、记录商机和维护客户档案时打开它，处理的是原本要手工录入 CRM 的客户往来材料；公开材料只说明它要做挑战 Salesforce、HubSpot 的 CRM，AI
-  具体接收什么、执行哪一步、交付什么结果均未披露，具体流程与交付仍待核验。
-inspiration: 趋势是 CRM 这类被巨头锁死的老品类开始出现由 AI 原生团队重做的新玩家，且欧洲 AI 创业者愿意下注。切入要看它是否真把录入、跟进、复盘中的某一步交给模型完成，而不是只换界面；可从销售流程最脏的手工录入环节进入，卖法未披露前不宜假设。
-summary_en: Sales teams would open it while following up on customers, logging opportunities and maintaining
-  account records, working with the customer material that today has to be typed into a CRM by hand; public
-  material only says it aims to challenge Salesforce and HubSpot as a CRM, and what the AI ingests, which
-  step it performs and what it delivers are undisclosed, so the concrete workflow and deliverable remain
-  unverified.
-inspiration_en: The trend is that a locked-in legacy category like CRM is drawing AI-native challengers,
-  with European AI founders willing to back one. The opening depends on whether it truly hands a step
-  of logging, follow-up or review to a model rather than reskinning the interface; a plausible entry is
-  the dirtiest manual data-entry step of the sales process, and no pricing should be assumed before it
-  is disclosed.
+summary_zh: 销售团队在客户跟进与商机推进环节打开它，处理原本散落在邮件、表格和旧 CRM 里的客户记录；AI 接收这些往来材料并整理成客户档案与跟进动作，用户拿到可继续推进的商机视图，具体流程与交付仍待核验。
+inspiration: 趋势：CRM 这类成熟企业软件正被 AI 原生团队重新拆解，融资方本身是 AI 创业者的信号强于产品细节。切入：从销售跟进记录整理这一具体环节进入中小企业销售团队，卖法可考虑按席位或按结果计费，但公开材料未披露定价。
+summary_en: Sales teams open it during follow-up and pipeline work, handling customer records that previously
+  sat in email, spreadsheets and legacy CRM; AI takes in those materials and turns them into customer
+  profiles and next actions, giving users a pipeline view to act on, though the exact workflow and deliverable
+  still need verification.
+inspiration_en: 'Trend: mature enterprise software like CRM is being rebuilt by AI-native teams, and AI-founder
+  backers are a stronger signal than product detail. Entry: start from the specific step of organizing
+  sales follow-up records for SMB sales teams; seat-based or outcome-based pricing is conceivable, but
+  no pricing was disclosed.'
 priority_review: false
 project_type: new_application
 industries:
@@ -44,7 +41,7 @@ summary: The founders of European AI startups Lovable and Langdock are among the
   has ...
 first_seen: '2026-09-15T07:00:00Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 - hackernews

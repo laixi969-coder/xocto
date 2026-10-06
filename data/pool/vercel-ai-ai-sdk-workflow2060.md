@@ -1,6 +1,6 @@
 ---
 slug: vercel-ai-ai-sdk-workflow2060
-name: 'vercel/ai: @ai-sdk/workflow@2.0.60'
+name: '@ai-sdk/workflow'
 builder: vercel
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: '### Patch Changes
   - d9e04cb: fix(workflow): reuse persisted tool denial results during approval resumption'
 first_seen: '2026-10-05T23:04:03Z'
 last_seen: '2026-10-06T02:18:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -36,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# vercel/ai: @ai-sdk/workflow@2.0.60
+# @ai-sdk/workflow
 
 ### Patch Changes
 

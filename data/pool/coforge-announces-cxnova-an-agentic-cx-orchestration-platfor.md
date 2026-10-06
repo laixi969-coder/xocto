@@ -1,6 +1,6 @@
 ---
 slug: coforge-announces-cxnova-an-agentic-cx-orchestration-platfor
-name: Coforge announces CXNova, an agentic CX orchestration platform
+name: Coforge CXNova
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNdFdiaUFKeXhl
 summary: Coforge announces CXNova, an agentic CX orchestration platform varindia
 first_seen: '2026-10-05T22:16:25Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Coforge announces CXNova, an agentic CX orchestration platform
+# Coforge CXNova
 
 Coforge announces CXNova, an agentic CX orchestration platform varindia
 

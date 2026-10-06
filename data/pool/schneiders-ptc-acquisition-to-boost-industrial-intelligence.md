@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxQT1dxb2tRM0xE
 summary: Schneider’s PTC Acquisition to Boost Industrial Intelligence Construction Digital
 first_seen: '2026-10-05T19:16:45Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

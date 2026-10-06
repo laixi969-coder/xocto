@@ -1,0 +1,85 @@
+- id: req-initial-simaai-and-wobotai-partner-to-bring-reasoning-based-video-an-2026-10-06
+  project_slug: simaai-and-wobotai-partner-to-bring-reasoning-based-video-an
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决从海量监控视频中及时发现异常的需求，痛点是人工盯屏漏看且事后排查慢，旧做法明确。
+    evidence_ids:
+    - ev-2207873830ed6fee
+  - gate: consensus
+    status: insufficient
+    reason: 仅有合作公告，未见客户名单、部署规模或使用反馈，共识环节证据不足。
+    evidence_ids:
+    - ev-2207873830ed6fee
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，按摄像头或按事件收费均为推断，不是已验证事实。
+    evidence_ids:
+    - ev-2207873830ed6fee
+  - gate: truth
+    status: insufficient
+    reason: 公告未说明误报处理与人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-2207873830ed6fee
+  next_validation: 查找 SiMa.ai 或 Wobot.ai 官方页面上的客户案例或部署文档，确认实际落地场景与计费方式。
+  market: ''
+  job: 门店或工厂的运营与安全人员，在摄像头持续拍摄的情况下，需要从大量视频里找出异常行为或安全事件并处置。
+  job_en: Operations and safety staff at stores or factories need to spot and act on anomalies or safety
+    incidents within continuous camera footage.
+  pain: 人工盯监控既费人力又容易漏看，事后回放排查耗时，异常往往在发生后才被发现。
+  pain_en: Human monitoring is labor-intensive and error-prone, and after-the-fact review is slow, so
+    incidents are often found only after they happen.
+  current_alternative: 靠值班人员轮班盯屏，或使用只能做固定规则检测的传统视频分析系统。
+  current_alternative_en: Shift staff watching screens, or legacy video analytics limited to fixed-rule
+    detection.
+  usage_reason: 推断：相较人工盯屏，推理式视频分析把连续画面转成带语义的事件描述，减少值班人员逐帧判断的负担，因此有多个摄像头点位的连锁门店或工厂更可能选择它。
+  usage_reason_en: 'Inference: compared with human screen-watching, reasoning-based analytics turns continuous
+    footage into semantic event descriptions, cutting the per-frame judgment burden, so multi-camera chains
+    or factories are more likely to adopt it.'
+- id: req-full-simaai-and-wobotai-partner-to-bring-reasoning-based-video-an-2026-10-06
+  project_slug: simaai-and-wobotai-partner-to-bring-reasoning-based-video-an
+  level: full
+  reviewed_at: '2026-10-06T02:54:30Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决从监控视频中及时发现异常的需求，但所引证据均为 SIMA 冰雪管理、SIMA 金融、Sima 护肤等同名无关页面及通用 AI 释义，未提供任何用户痛点、旧替代或采用行为，痛点刚性无法确认。
+    evidence_ids:
+    - ev-e6e4d73f60f42c43
+    - ev-417487b943af0ea5
+    - ev-cbc06c06c5edd849
+    - ev-a2a96f1ad972b0fe
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 SiMa.ai 或 Wobot.ai 官网的客户案例或部署文档页面，确认实际落地场景、误报处理方式与计费口径。
+  market: ''
+  job: 门店或产线的运营与安全人员，在摄像头持续拍摄的情况下，需要从大量视频里找出异常行为或安全事件并复核处置。
+  job_en: Operations and safety staff at stores or production lines need to spot and review anomalies
+    or safety incidents within continuous camera footage.
+  pain: 公开材料未提供任何用户抱怨、漏看事故或人工盯屏负担的直接证据，痛点只能从任务结构推测，无法确认其刚性。
+  pain_en: The public material provides no direct evidence of user complaints, missed incidents, or the
+    burden of human screen-watching; the pain can only be inferred from task structure and its rigidity
+    cannot be confirmed.
+  current_alternative: 公开材料未说明当前替代方式，按任务结构推测为值班人员轮班盯屏或固定规则的传统视频分析。
+  current_alternative_en: The public material does not state the current alternative; by task structure
+    it would be shift staff watching screens or fixed-rule legacy video analytics.
+  usage_reason: 推断：若推理式分析能把连续画面转成带语义的事件描述，可减少值班人员逐帧判断的负担，多摄像头点位更可能采用；但材料未给出任何用户反馈或采用证据。
+  usage_reason_en: 'Inference: if reasoning-based analytics turns continuous footage into semantic event
+    descriptions, it could cut the per-frame judgment burden and multi-camera sites might adopt it; but
+    no user feedback or adoption evidence is provided.'

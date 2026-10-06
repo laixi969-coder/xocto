@@ -21,7 +21,7 @@ canonical_url: https://github.com/bkraad47/ramen
 summary: self-hosted multi-zone MCP server for Kubernetes(Rust & Python)
 first_seen: '2026-10-05T03:27:26Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

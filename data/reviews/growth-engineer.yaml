@@ -297,3 +297,58 @@
     server, removing the step of translating doc steps into agent instructions; hence growth operators
     already using an MCP client would pick it when they need to reuse one process. Stars rising from 117
     to 147 shows attention, not a reason for adoption.'
+- id: req-full-growth-engineer-2026-10-06
+  project_slug: growth-engineer
+  level: full
+  reviewed_at: '2026-10-06T02:52:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是增长运营把散落文档表格中的 go-to-market 流程交给 agent 按步骤执行的需求，痛点是流程知识分散、每次需人工重述与粘贴上下文；公开事实仅说明其为 markdown
+      工作流目录加只读 MCP 服务器，痛点强度属工作流结构推理，尚无用户材料佐证。
+    evidence_ids:
+    - ev-ef0fea742b98a033
+    - ev-cd77b641be0a1e92
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏由 117 增至 216，说明开发者社区注意到该项目，但公开材料没有 issue、discussion 或用户反馈说明谁在何种场景持续使用；关注度不能替代采用证据。
+    evidence_ids:
+    - ev-ef0fea742b98a033
+    - ev-cd77b641be0a1e92
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或任何采购记录，无法判断收入来自 to C 运营者、to B 团队还是仅靠开源维护；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-ef0fea742b98a033
+  - gate: truth
+    status: insufficient
+    reason: 只读 MCP 服务器降低了误操作风险，但公开材料未说明工作流覆盖哪些渠道、交付结果如何核对，也没有部署文档或可复现实测证明流程能稳定跑通。
+    evidence_ids:
+    - ev-ef0fea742b98a033
+    - ev-504d32749c8bbff1
+  next_validation: 追踪 growth-engineer 仓库的 README、issue 与 discussion，确认其工作流覆盖的具体渠道、MCP 部署方式，以及是否有用户公开描述替代了哪套旧流程。
+  market: ''
+  job: 增长或市场运营人员在自己的 agent 环境（如 Claude/Cursor 等支持 MCP 的客户端）中，处理散落在文档、表格与各渠道后台里的 go-to-market 流程材料，要完成把获客、内容、外联等重复流程固化为
+    agent 可按步骤执行的 markdown 工作流这一任务。
+  job_en: A growth or marketing operator working inside their own agent environment (an MCP-capable client)
+    handles go-to-market process material scattered across docs, spreadsheets and channel dashboards,
+    and must turn repeatable acquisition, content and outreach processes into markdown workflows an agent
+    can execute step by step.
+  pain: 公开事实仅说明这是一套 markdown 工作流目录加只读 MCP 服务器；据此可推断的痛点是：增长流程知识散落在文档与表格中，每次执行都要人工重述步骤、复制粘贴上下文，agent 无法直接调用既有流程。该痛点强度与不采用代价尚无用户材料佐证，属工作流结构推理。
+  pain_en: Public facts only show a markdown workflow catalog plus a read-only MCP server; the inferable
+    pain is that growth process knowledge sits scattered in docs and spreadsheets, so each run requires
+    manually restating steps and pasting context, and the agent cannot call existing processes directly.
+    Pain intensity and cost of non-adoption lack user evidence and are workflow-structural inference.
+  current_alternative: 旧做法是运营人员自己维护 Notion/Google Docs 里的 SOP 与表格模板，手动把步骤和上下文粘贴进通用聊天 agent，或直接手工执行各渠道动作；公开材料未说明它具体替代了哪一套工具。
+  current_alternative_en: The old way is operators maintaining SOPs and spreadsheet templates in Notion/Google
+    Docs, manually pasting steps and context into a general chat agent, or executing channel actions by
+    hand; public materials do not say which specific toolset it replaces.
+  usage_reason: 推断：相较手工维护 SOP 再逐次粘贴，它把流程以 markdown 文件形式直接放进 agent 可读取的目录，并通过只读 MCP 服务器让 agent 按目录调用，减少“每次重新描述步骤”这一步；因此已在用
+    MCP 类 agent 且需要重复执行增长流程的运营者，会在搭建或复用流程时选择它。仓库收藏从 117 增至 216 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus hand-maintaining SOPs and pasting them each time, it places processes
+    as markdown files in a directory the agent can read and exposes them via a read-only MCP server, removing
+    the step of re-describing the process each run; operators already using MCP-style agents for repeatable
+    growth processes would pick it when building or reusing workflows. Stars rising from 117 to 216 shows
+    attention, not sustained use.'

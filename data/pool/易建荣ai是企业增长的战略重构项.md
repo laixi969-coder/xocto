@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTFBFNm5mby1SRy0z
 summary: 易建荣：AI是企业增长的战略重构项 新浪财经
 first_seen: '2026-10-05T15:33:36Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

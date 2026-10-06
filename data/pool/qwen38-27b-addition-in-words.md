@@ -1,11 +1,18 @@
 ---
 slug: qwen38-27b-addition-in-words
-name: Qwen3.8 27B addition in words
+name: Qwen3.8 27B
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026 年 10 月，一项在本地硬件（DGX Spark）上对 Qwen3.8-27B-Q4_K_M.gguf 进行的受控实验显示：关闭推理时，模型在“用文字返回大数相加结果”任务上的表现随数字增大而下降；开启推理后，169
+  次一次性尝试中答对 167 次。该结果说明本地部署的中等规模模型在开启推理后可以完成此前需要更大模型或外部计算器的多位数运算，对本地推理的可用性与成本判断有参考意义；但这是单次实验、样本有限，不能据此推断整个行业已经转向。
 inspiration: ''
-summary_en: ''
+summary_en: In October 2026, a controlled experiment on local hardware (a DGX Spark) with Qwen3.8-27B-Q4_K_M.gguf
+  showed that with reasoning disabled the model's ability to return the sum of large numbers in words
+  degraded as the numbers grew, while with reasoning enabled it answered 167 of 169 one-shot attempts
+  correctly. The result suggests locally deployed mid-sized models can handle multi-digit arithmetic that
+  previously required larger models or an external calculator, which is relevant to assessments of local
+  inference usability and cost; however, this is a single experiment with limited samples and does not
+  support concluding that the whole industry has shifted.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -38,7 +45,7 @@ summary: "Research:   Qwen3.8 27B addition in words  \n         Colin Frasier  p
   \ ,  qwen ,  llm-reasoning ,  dgx-spark"
 first_seen: '2026-10-04T23:34:00Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -49,7 +56,7 @@ sightings:
   kind: news
 ---
 
-# Qwen3.8 27B addition in words
+# Qwen3.8 27B
 
 Research:   Qwen3.8 27B addition in words  
          Colin Frasier  posted on Bluesky  about an experiment he ran over two years ago using GPT-4o to see how well it could "compute the sum but return the answer in words" across increasingly large numbers. Here's the chart he shared of those results: 

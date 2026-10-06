@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/reactive-resume
 summary: A free and open-source resume builder
 first_seen: '2026-10-04T00:44:32Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

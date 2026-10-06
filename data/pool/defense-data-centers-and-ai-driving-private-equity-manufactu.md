@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNUTdXUFFENWoy
 summary: Defense, data centers and AI driving private equity manufacturing investments Manufacturing Dive
 first_seen: '2026-10-05T20:59:22Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -182,3 +182,55 @@
     cross-tool copy-paste and segment-by-segment manual assembly step. Solo story-channel creators with
     only an idea and no production crew would choose it when they need to ship videos in volume; public
     materials provide no user feedback or case to confirm this motive.'
+- id: req-full-bang-story-2026-10-06
+  project_slug: bang-story
+  level: full
+  reviewed_at: '2026-10-06T02:51:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是单人创作者把故事创意变成可上传 YouTube 视频的需求，痛点是脚本、配图、剪辑三段技能分散、手工串联耗时；公开材料已说明输入创意即自动产出脚本、图片、视频的闭环，属工作流结构推理，痛点刚性与交付确定性尚缺用户证据。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-5ba25d6f5d030e2a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 增至 70，说明有开发者关注并收藏，但收藏与关注只属规模信号，公开材料没有用户评价、案例或重复使用记录，无法证明目标创作者已把它留在工作流里。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-266074db31c78708
+    - ev-5ba25d6f5d030e2a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入，无法判断钱来自创作者订阅、按量计费还是 to VC；这是商业证据缺口，不反推需求不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明成片质量、是否需逐段人工确认、生成失败如何处理，也未给出可复现的交付结果；承诺能否确定性交付与人工安全边界仍缺公开证据。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-cc668c736dda3199
+  next_validation: 追踪该项目的官方仓库 README、release 说明与 issue/discussion，确认成片交付流程、人工确认环节与是否有真实创作者使用案例。
+  market: ''
+  job: 做 YouTube 故事类视频的独立创作者或小团队，在只有一个故事创意、没有编剧和剪辑资源的情况下，用桌面应用把创意依次转成脚本、配图和视频，最终拿到可上传的成片文件。
+  job_en: An independent YouTube story-video creator or small team with only a story idea and no writing
+    or editing resources uses the desktop app to turn that idea into script, images, and video in sequence,
+    ending with an uploadable video file.
+  pain: 公开材料只说明它把脚本、图片、视频串成自动流程，未披露用户抱怨、失败率或返工代价；从工作流结构推理，痛点在于故事类视频需要脚本、分镜配图、剪辑三段不同技能，单人创作者在每段之间切换工具会拖长从创意到成片的周期。
+  pain_en: Public materials only describe an automated script-image-video pipeline and disclose no user
+    complaints, failure rates, or rework cost; by workflow inference, the pain is that story videos require
+    three distinct skills (scripting, storyboard imagery, editing), and a solo creator switching tools
+    between each stage lengthens the idea-to-publish cycle.
+  current_alternative: 结构推理：创作者通常用 ChatGPT 类工具写脚本、用 Midjourney 或图库找配图、再用剪映或 Premiere 逐段拼接配音与画面，多工具手工串联。
+  current_alternative_en: 'Structural inference: creators typically write scripts with ChatGPT-like tools,
+    source images from Midjourney or stock libraries, then assemble voiceover and visuals segment by segment
+    in CapCut or Premiere, manually chaining multiple tools.'
+  usage_reason: 推断：相较手工串联多个工具，它把脚本、配图、成片三步收进一个桌面应用、由一次创意输入触发，减少的是在写作、绘图、剪辑工具之间反复导出导入和重新对齐素材的步骤；因此缺人手、想快速产出故事类视频的独立创作者会在需要批量出片时选择它。公开材料未提供用户反馈或留存证据，此判断为工作流推理。
+  usage_reason_en: 'Inference: versus manually chaining multiple tools, it folds scripting, imagery, and
+    final video into one desktop app triggered by a single idea input, removing the repeated export-import
+    and re-alignment of assets across writing, image, and editing tools; solo creators short on hands
+    who want fast story-video output would therefore pick it when producing at volume. Public materials
+    provide no user feedback or retention evidence, so this is workflow inference.'

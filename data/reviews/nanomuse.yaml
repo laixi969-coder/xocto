@@ -89,3 +89,52 @@
     actions, removing the step of staying at the device clicking through; this is a reason for individuals
     who repeatedly move information between phone and computer and worry about automation mistakes. Public
     materials show no user feedback or retention evidence yet.'
+- id: req-full-nanomuse-2026-10-06
+  project_slug: nanomuse
+  level: full
+  reviewed_at: '2026-10-06T02:53:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨设备重复操作与应用关闭后任务中断的需求，痛点是用户须全程盯守且误操作难撤回；公开说明已给出输入（用户指令）、动作（调用本机与浏览器执行）、交付（已执行动作或待确认提示）与不解决的后果，属工作流结构推理，价值结构成立。
+    evidence_ids:
+    - ev-8f61291963965fe6
+    - ev-9b673ae0993fb247
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库星标从 40 增至 46，属关注度信号，不能说明持续采用或场景共识；公开材料未出现用户评价、复刻使用或讨论，卡在感知与场景验证一环。
+    evidence_ids:
+    - ev-8f61291963965fe6
+    - ev-9b673ae0993fb247
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、买方或付费路径，钱可能来自 to C 个人订阅或 to VC 资助，这是判断而非已验证事实；未出现仅靠融资续命的叙事，但付费路径尚未核验。
+    evidence_ids:
+    - ev-8f61291963965fe6
+  - gate: truth
+    status: insufficient
+    reason: 常驻执行与不可撤销操作前确认的设计贴近安全边界，但缺少部署文档、可复现实测或用户反馈来核对承诺能否确定性交付，人工确认边界是否覆盖真实风险场景仍待核验。
+    evidence_ids:
+    - ev-8f61291963965fe6
+    - ev-9b673ae0993fb247
+  next_validation: 追踪 nanoMuse 官方仓库的 issue、discussion 或部署文档，核对它实际支持的任务类型、执行可靠性与不可撤销操作的确认边界。
+  market: ''
+  job: 个人用户在自己的手机、平板与电脑之间处理跨设备日常操作，例如在浏览器与本机应用之间搬运信息、执行重复动作，希望不必守在设备前逐步操作就能完成。
+  job_en: An individual handles cross-device routine operations among their own phone, tablet and computer,
+    such as moving information or repeating actions between a browser and local apps, hoping to finish
+    without staying at the device and stepping through each action.
+  pain: 跨设备操作要在多个应用间来回切换并手动重复，应用关闭后任务中断，且自动化动作一旦出错难以撤回，用户必须全程盯着。
+  pain_en: Cross-device work requires switching among apps and repeating steps manually, tasks stop when
+    the app closes, and automated actions are hard to undo once wrong, forcing the user to watch throughout.
+  current_alternative: 用户目前靠手动操作、系统自带快捷指令或自写脚本，以及通用对话助手逐步完成，缺少常驻执行与不可撤销操作前的确认边界。
+  current_alternative_en: Users currently rely on manual operation, built-in shortcuts or self-written
+    scripts, and general chat assistants step by step, lacking resident execution and a confirmation boundary
+    before irreversible actions.
+  usage_reason: 推断：相较手动逐步操作或脚本，它把动作执行放进常驻进程，应用关闭后仍继续跑，并在不可撤销操作前要求确认，减少用户守在设备前逐步点击这一步；因此需要跨设备重复操作又担心误操作的个人用户会在这种情况下选择它。公开材料尚无用户反馈、留存或客户案例，是否长期留在工作流未获证实。
+  usage_reason_en: 'Inference: versus manual step-by-step operation or scripts, it moves execution into
+    a resident process that keeps running after the app closes and requires confirmation before irreversible
+    actions, removing the step of staying at the device and clicking through; individuals who need cross-device
+    repetition yet fear mistakes would choose it in that situation. Public materials show no user feedback,
+    retention or customer cases, so long-term workflow retention is unconfirmed.'

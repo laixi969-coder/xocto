@@ -24,7 +24,7 @@ summary: This past year, OpenAI, Anthropic, and other labs have announced breakt
   Valley style, AI labs are moving fast and breaking things, […]
 first_seen: '2026-10-05T19:28:59Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

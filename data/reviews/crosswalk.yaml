@@ -1,0 +1,81 @@
+- id: req-initial-crosswalk-2026-10-06
+  project_slug: crosswalk
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，仅有一句定位描述，无法还原用户任务与不采用的后果。
+    evidence_ids:
+    - ev-67109fe249811bfc
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料没有场景、评价或采用信号可供判断共识卡在哪一环。
+    evidence_ids:
+    - ev-67109fe249811bfc
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方、付费路径与交付方式均未披露。
+    evidence_ids:
+    - ev-67109fe249811bfc
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对它是否贴近收件箱工作的第一性目标或能否确定性交付。
+    evidence_ids:
+    - ev-67109fe249811bfc
+  next_validation: 收集 crosswalk 官方产品页或文档中关于输入、动作与交付物的具体说明，以及是否公布定价页。
+  market: ''
+  job: 公开材料未说明具体使用者、触发情境、处理的材料与要完成的任务，仅称从收件箱开始，无法还原一个可核对的工作场景。
+  job_en: Public material does not state the specific user, triggering situation, material handled, or
+    task to complete; it only says it starts with the inbox, so no verifiable work scenario can be reconstructed.
+  pain: 未披露任何用户痛点，也未说明现有收件箱或 agent 使用方式哪里令人不满。
+  pain_en: No user pain is disclosed, nor is it explained what is unsatisfactory about current inbox or
+    agent usage.
+  current_alternative: 未说明用户现在用什么替代，无法判断它替代的是邮件客户端、任务管理工具还是多 agent 编排方式。
+  current_alternative_en: No current alternative is stated, so it is unclear whether it replaces an email
+    client, a task manager, or multi-agent orchestration.
+  usage_reason: 缺少功能、输入输出与交付说明，无法解释用户为何会在具体情况下选择它而非旧做法；这是事实不足，不是需求已被否定。
+  usage_reason_en: With no features, inputs, outputs, or deliverables described, there is no way to explain
+    why a user would choose it over the old way in a specific situation; this is missing facts, not a
+    refuted need.
+- id: req-full-crosswalk-2026-10-06
+  project_slug: crosswalk
+  level: full
+  reviewed_at: '2026-10-06T02:51:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，仅有一句定位描述，无法还原用户任务与不采用的后果。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 crosswalk 官方产品页或文档中关于输入、动作与交付物的具体说明，以及是否公布定价页。
+  market: ''
+  job: 公开材料只称它是人与各自 agent 共处的第三空间、从收件箱切入，未说明谁在什么情况下处理什么材料、要完成什么任务，无法还原可核对的工作场景。
+  job_en: Public material only calls it a third place for people and their agents starting with the inbox;
+    it does not state who handles what material in what situation to complete what task, so no verifiable
+    work scenario can be reconstructed.
+  pain: 未披露任何用户痛点，也未说明现有收件箱处理或多 agent 协作方式哪里令人不满。
+  pain_en: No user pain is disclosed, nor is it explained what is unsatisfactory about current inbox handling
+    or multi-agent collaboration.
+  current_alternative: 未说明用户现在用什么替代，无法判断它替代的是邮件客户端、任务管理工具还是多 agent 编排方式。
+  current_alternative_en: No current alternative is stated, so it is unclear whether it replaces an email
+    client, a task manager, or multi-agent orchestration.
+  usage_reason: 缺少功能、输入输出与交付说明，无法解释用户为何会在具体情况下选择它而非旧做法；这是事实不足，不是需求已被否定。
+  usage_reason_en: With no features, inputs, outputs, or deliverables described, there is no way to explain
+    why a user would choose it over the old way in a specific situation; this is missing facts, not a
+    refuted need.

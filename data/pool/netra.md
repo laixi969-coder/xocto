@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/netra
 summary: A watchful notch with tools to keep you focused
 first_seen: '2026-10-03T21:57:34Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -24,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5LR0Q0Y1pIcXNP
 summary: 聚力智能体AI 英特尔携手生态探索算力新范式 新华网
 first_seen: '2026-09-23T08:29:45Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

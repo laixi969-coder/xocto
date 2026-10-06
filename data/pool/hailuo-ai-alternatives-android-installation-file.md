@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9wcTl1MUhWS0ln
 summary: Hailuo AI alternatives Android Installation File Học viện Nông nghiệp Việt Nam
 first_seen: '2026-10-05T09:20:20Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

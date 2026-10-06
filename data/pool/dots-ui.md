@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/dots-ui
 summary: A React library for morphable particle interfaces
 first_seen: '2026-10-04T16:18:38Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

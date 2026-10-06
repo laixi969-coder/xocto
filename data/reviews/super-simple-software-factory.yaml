@@ -395,3 +395,53 @@
     Python graph and keeps agents as bounded nodes, removing the step of re-ordering calls and re-stating
     boundaries each time so the pipeline can be versioned and rerun with the repo; developers who care
     about reproducible builds would pick it when fixing an agent workflow.'
+- id: req-full-super-simple-software-factory-2026-10-06
+  project_slug: super-simple-software-factory
+  level: full
+  reviewed_at: '2026-10-06T02:54:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理调用顺序不可复现、边界不受控的痛点：确定性 Python 掌管编排图、代理作为受约束节点，交付物是可重复运行的代理加代码工作流。公开材料只给出机制，痛点强度与不采用代价属工作流结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-054aa3ab6703cfbc
+    - ev-799ef3228e765c05
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 156 增至 190、配套指南从 146 增至 166，说明开发者持续关注，但收藏与指南热度只属关注度证据，不能证明目标用户已把它留在日常流程或形成强场景共识。
+    evidence_ids:
+    - ev-054aa3ab6703cfbc
+    - ev-799ef3228e765c05
+    - ev-c052d02e8f250423
+  - gate: model
+    status: insufficient
+    reason: 公开材料未出现定价页、付费主体或采购记录，钱可能来自 to C 开发者自用、to B 团队授权或 to VC 开源叙事，均属判断而非已验证事实；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-054aa3ab6703cfbc
+  - gate: truth
+    status: insufficient
+    reason: 确定性 Python 掌管图、代理为受约束节点，结构上贴近可复现这一第一性目标；但公开材料未给出人工确认环节、失败回退与安全边界的可复现证据，交付确定性仍待核验。
+    evidence_ids:
+    - ev-054aa3ab6703cfbc
+    - ev-7ca76a2c7e993371
+  next_validation: 追踪该项目的官方 README 与仓库 issue/discussion，确认是否有开发者公开描述在真实仓库中部署该编排、替代了哪种旧流程及运行结果。
+  market: ''
+  job: 开发者在已有代码仓库中，需要把编码代理的调用顺序固定成可重复流程时，用确定性 Python 编排图、把编码代理作为受约束节点执行具体步骤，产出可重复运行的代理加代码工作流。
+  job_en: 'A developer working inside an existing repository needs to fix the call order of coding agents
+    into a repeatable workflow: deterministic Python owns the orchestration graph while coding agents
+    run as bounded nodes, producing a re-runnable agents-plus-code workflow.'
+  pain: 编码代理每次执行顺序和边界不稳定，同一任务难以复现，代理越权或跑偏后要人工回退重跑；公开材料只给出产品机制，未给出用户口述的代价与频率，痛点强度属工作流结构推理。
+  pain_en: Coding-agent runs are order- and boundary-unstable, the same task is hard to reproduce, and
+    out-of-scope agent actions force manual rollback and re-runs; public material only shows the mechanism,
+    not user-stated cost or frequency, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是手工在会话里逐步提示代理、用脚本或 Makefile 串命令、或依赖代理自身的自主规划；公开材料未说明用户具体替代了哪一种。
+  current_alternative_en: The old way is prompting the agent step by step in a session, chaining commands
+    via scripts or Makefiles, or relying on the agent's own autonomous planning; public material does
+    not say which one users actually replace.
+  usage_reason: 推断：相较手工逐步提示或让代理自主规划，它把编排逻辑从代理的临场判断移到确定性 Python 图中，代理只在受约束节点内执行，从而减少重跑和人工回退这一步；需要可复现代理流程的开发者会在已有仓库里选择它。
+  usage_reason_en: 'Inference: versus manual step-by-step prompting or letting the agent plan autonomously,
+    it moves orchestration out of the agent''s in-the-moment judgment into a deterministic Python graph,
+    with agents executing only inside bounded nodes, removing the re-run and manual-rollback step; developers
+    needing reproducible agent workflows would pick it inside an existing repo.'

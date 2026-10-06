@@ -27,7 +27,7 @@ canonical_url: https://github.com/nilbuild/rundown
 summary: Hacker News Client with Claude Code and Codex Integration
 first_seen: '2026-08-28T19:55:47Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

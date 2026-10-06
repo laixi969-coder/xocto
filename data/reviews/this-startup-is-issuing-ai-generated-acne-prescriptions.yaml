@@ -1,0 +1,92 @@
+- id: req-initial-this-startup-is-issuing-ai-generated-acne-prescriptions-2026-10-06
+  project_slug: this-startup-is-issuing-ai-generated-acne-prescriptions
+  level: initial
+  reviewed_at: '2026-10-06T02:19:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决痤疮患者快速拿到对症处方的需求，痛点是线下问诊等待长、非处方药效果有限，旧替代行为明确。
+    evidence_ids:
+    - ev-fcbfed87f7fff9ac
+  - gate: consensus
+    status: insufficient
+    reason: 材料只说明在犹他州上线，未提供用户量、评价或医生端反馈，共识环节证据不足。
+    evidence_ids:
+    - ev-fcbfed87f7fff9ac
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费方式；推断可能按次开方或订阅收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-fcbfed87f7fff9ac
+  - gate: truth
+    status: challenged
+    reason: 处方由 AI 自主开出，材料未说明医生复核与责任归属，交付确定性与安全边界存疑。
+    evidence_ids:
+    - ev-fcbfed87f7fff9ac
+  next_validation: Nolla Health 官方页面或犹他州监管材料，确认处方是否经执业医师复核、定价方式与适用症状范围。
+  market: ''
+  job: 犹他州有轻中度痤疮、想尽快拿到治疗药物的人，在不想预约线下皮肤科、排队等待的情况下，用手机拍面部照片，让系统判级并开出可取的处方。
+  job_en: People in Utah with mild to moderate acne who want treatment fast, without booking and waiting
+    for an in-person dermatologist, photograph their face so the system can grade severity and issue a
+    fillable prescription.
+  pain: 痤疮是高频、外观焦虑强的问题，线下皮肤科预约周期长、费用高，非处方药效果有限，用户真正想要的是尽快拿到对症处方。
+  pain_en: Acne is frequent and appearance-anxiety heavy; in-person dermatology waits are long and costly,
+    over-the-counter options are limited, and what users want is a suitable prescription quickly.
+  current_alternative: 线下皮肤科门诊、远程问诊平台排队等医生、自行购买非处方药或护肤品。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 相较排队等医生，它把“描述症状—等医生判断—开方”压缩为一次面部扫描后直接出方，省掉等待与问诊环节；推断对时间敏感、症状轻的年轻用户更有吸引力，但材料未提供留存或复购证据。
+  usage_reason_en: 'The task is: People in Utah can now use AI to get a prescription for acne treatment.
+    On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces
+    using its app, allowing its AI system to analyze acne severity and autonomously write a prescription,
+    as reported earlier by Bloomberg. The service is launching […] Public materials do not yet explain
+    why users choose this product over their existing approach.'
+- id: req-full-this-startup-is-issuing-ai-generated-acne-prescriptions-2026-10-06
+  project_slug: this-startup-is-issuing-ai-generated-acne-prescriptions
+  level: full
+  reviewed_at: '2026-10-06T02:54:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决痤疮患者快速拿到对症处方的需求，痛点是线下问诊等待长、费用高、非处方药效果有限，旧替代行为明确；处方由AI自主开出，材料未说明医生复核环节，交付确定性仍待核验。
+    evidence_ids:
+    - ev-a948350186503ae2
+    - ev-8237829c31d3d65a
+  - gate: consensus
+    status: insufficient
+    reason: 材料只说明在犹他州上线及公司定位，未提供用户量、评价或医生端反馈，无法判断是否形成持续采用共识。
+    evidence_ids:
+    - ev-a948350186503ae2
+    - ev-8237829c31d3d65a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费方式；推断可能按次开方或订阅收费，属判断而非已验证事实，买方是患者自付还是保险支付尚不明确。
+    evidence_ids:
+    - ev-a948350186503ae2
+  - gate: truth
+    status: challenged
+    reason: 处方由AI自主开出，材料未说明执业医师复核与责任归属，交付确定性与安全边界存疑，需监管材料进一步确认。
+    evidence_ids:
+    - ev-a948350186503ae2
+  next_validation: 追踪 Nolla Health 官网定价页与犹他州医疗监管公开材料，确认处方是否经执业医师复核、收费方式与适用症状范围。
+  market: ''
+  job: 犹他州有痤疮困扰、想尽快开始治疗的人，在不愿预约线下皮肤科、等待周期长的情况下，用手机拍摄面部照片，让系统判级并开出可直接取药的处方。
+  job_en: People in Utah with acne who want to start treatment quickly, without booking and waiting for
+    an in-person dermatologist, photograph their face so the system can grade severity and issue a fillable
+    prescription.
+  pain: 痤疮是高频且带外观焦虑的问题，线下皮肤科预约周期长、费用高，非处方药与护肤品效果有限；用户真正想要的是尽快拿到对症处方，而不是一份泛泛建议。
+  pain_en: Acne is frequent and appearance-anxiety heavy; in-person dermatology waits are long and costly,
+    and over-the-counter options are limited. What users want is a suitable prescription quickly, not
+    generic advice.
+  current_alternative: 线下皮肤科门诊排队、远程问诊平台等待医生接诊、自行购买非处方药或护肤品。
+  current_alternative_en: Waiting for in-person dermatology appointments, queuing on telehealth platforms
+    for a clinician, or self-treating with over-the-counter drugs and skincare products.
+  usage_reason: 相较排队等医生，它把“描述症状—等医生判断—开方”压缩为一次面部扫描后直接出方，省掉预约与等待环节；这是基于产品能力与任务结构作出的推断，材料未提供留存或复购证据。
+  usage_reason_en: Compared with queuing for a clinician, it compresses 'describe symptoms—wait for judgment—get
+    prescription' into one facial scan that directly yields a prescription, removing booking and waiting;
+    this is an inference from product capability and task structure, as no retention or repeat-use evidence
+    is provided.

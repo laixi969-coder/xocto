@@ -164,3 +164,47 @@
   usage_reason_en: Without user feedback or cases, there is no basis to say which step it removes or which
     checkable result it improves versus the old approach; evidence is insufficient to explain why users
     would choose it.
+- id: req-full-recollect-2026-10-06
+  project_slug: recollect
+  level: full
+  reviewed_at: '2026-10-06T02:54:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“开发者在多个代码仓库和多次编码代理会话之间切换时，需要反复把项目背景、约定和先前结论重新交代给Codex或Claude Code”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Recollect 官方仓库的 README、部署文档与 issue/discussion，确认其 MCP 接入方式、检索召回表现与自托管数据边界。
+  market: ''
+  job: 使用 Codex 或 Claude Code 的软件工程师在多个代码仓库、多次代理会话之间切换时，需要把项目背景、编码约定和先前结论重新输入给代理，并让代理在新会话中继续沿用这些上下文。
+  job_en: Software engineers using Codex or Claude Code who switch across multiple repositories and agent
+    sessions need to re-supply project background, coding conventions, and prior conclusions to the agent
+    so it can continue with that context in a new session.
+  pain: 编码代理的上下文窗口和会话是隔离的，换仓库或重开会话后先前结论与约定丢失，开发者必须手工重述，重复劳动且容易遗漏关键约定；不解决的后果是代理产出偏离项目约定、需要人工反复纠正。
+  pain_en: Coding-agent context is scoped to a session and repository, so prior conclusions and conventions
+    are lost when switching repos or restarting a session; the developer must restate them by hand, duplicating
+    work and risking missed conventions, which leads to agent output drifting from project conventions
+    and repeated manual correction.
+  current_alternative: 当前替代方式是每次会话手工粘贴背景与约定、维护 CLAUDE.md/AGENTS.md 之类的仓库内说明文件，或依赖代理自身的会话记忆，跨仓库时这些做法无法自动复用。
+  current_alternative_en: Today developers paste background and conventions by hand each session, maintain
+    in-repo instruction files such as CLAUDE.md/AGENTS.md, or rely on the agent's own session memory,
+    none of which carries across repositories automatically.
+  usage_reason: 推断：相较手工重述或仓库内说明文件，Recollect 以自托管方式接收仓库与会话内容，建立知识图谱并做混合检索，把相关上下文自动回填给代理，省去每次会话重新交代背景这一步，并让跨仓库约定可被检索复用；因此频繁在多个仓库间切换、且在意代码不出本地的开发者会倾向选择它。
+  usage_reason_en: 'Inference: versus manual restatement or in-repo instruction files, Recollect ingests
+    repository and session content in a self-hosted deployment, builds a knowledge graph with hybrid search,
+    and feeds relevant context back to the agent automatically, removing the per-session restatement step
+    and making cross-repo conventions retrievable; developers who frequently switch repositories and care
+    about code staying local are therefore the likely adopters.'

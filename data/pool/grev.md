@@ -21,7 +21,7 @@ canonical_url: https://github.com/aurorainfra/grev
 summary: Thinking Grep with Jev
 first_seen: '2026-09-24T21:46:21Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

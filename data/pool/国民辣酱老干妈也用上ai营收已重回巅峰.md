@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSmExa2UySnRx
 summary: “国民辣酱”老干妈也用上AI，营收已重回巅峰 新浪财经
 first_seen: '2026-10-05T01:52:01Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

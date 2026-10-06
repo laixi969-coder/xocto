@@ -1,6 +1,6 @@
 ---
 slug: loréal-cuts-customer-service-time-64-with-ai
-name: L’Oréal Cuts Customer Service Time 64% With AI
+name: L’Oréal
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNZnJsMzFwOHBu
 summary: L’Oréal Cuts Customer Service Time 64% With AI PYMNTS.com
 first_seen: '2026-10-05T20:19:25Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# L’Oréal Cuts Customer Service Time 64% With AI
+# L’Oréal
 
 L’Oréal Cuts Customer Service Time 64% With AI PYMNTS.com
 

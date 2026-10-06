@@ -1,0 +1,86 @@
+- id: req-initial-ostra-2026-10-06
+  project_slug: ostra
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是无硬件条件下练习合成器编程的需求，痛点方向成立，但公开材料只有一句定位，无法确认练习方式与学习结果。
+    evidence_ids:
+    - ev-1f828638bfe4c085
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区讨论仅约 5 分、4 条评论，没有学习者反馈说明它是否被纳入学习路径。
+    evidence_ids:
+    - ev-1f828638bfe4c085
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是免费教学页、订阅课程还是硬件导流均不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1f828638bfe4c085
+  - gate: truth
+    status: insufficient
+    reason: 浏览器内合成器练习能否达到可迁移到真实硬件的学习效果，公开材料未提供任何验证。
+    evidence_ids:
+    - ev-1f828638bfe4c085
+  next_validation: 查看 ostra 官方学习页，确认课程结构、是否使用 AI 以及是否收费。
+  market: ''
+  job: 想入门模块化合成器的音乐制作学习者在没有硬件设备的情况下，需要练习信号路由与合成器编程。
+  job_en: Music production learners who want to start with modular synthesizers need to practice signal
+    routing and synthesizer programming without owning hardware.
+  pain: 模块化合成器硬件昂贵且上手门槛高，新手难以在购买前判断自己是否学得下去。
+  pain_en: Modular synthesizer hardware is expensive and hard to start with, so beginners struggle to
+    judge before buying whether they will stick with it.
+  current_alternative: 目前多靠观看视频教程、使用桌面合成器软件，或直接购买入门硬件。
+  current_alternative_en: Today learners mostly watch video tutorials, use desktop synthesizer software,
+    or buy entry-level hardware directly.
+  usage_reason: 推断：浏览器内练习省去了购买硬件和安装软件这一步，学习者可以立刻听到自己搭出的声音，因此适合在决定投入硬件前先试；但公开材料未说明是否使用 AI 及其教学方式，无法确认它比现有教程更有效。
+  usage_reason_en: 'Inference: practicing in the browser removes the steps of buying hardware and installing
+    software, letting learners immediately hear what they patch, which suits trying before committing
+    to hardware; however public material does not say whether AI is used or how teaching works, so superiority
+    over existing tutorials cannot be confirmed.'
+- id: req-full-ostra-2026-10-06
+  project_slug: ostra
+  level: full
+  reviewed_at: '2026-10-06T02:53:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决无硬件条件下练习合成器编程的需求，但公开材料只有一句定位，接收输入、练习方式与学习结果均未说明，连需求与痛点都写不实，无法形成结构判断。
+    evidence_ids:
+    - ev-0aaedf521d19b946
+    - ev-bf2cd985b8e7f878
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 playostra.com 官方页面是否补充课程结构、输入输出说明、是否使用 AI 及定价信息，以确认其实际交付内容。
+  market: ''
+  job: 想入门模块化合成器的音乐制作学习者在没有硬件设备的情况下，需要在浏览器里练习信号路由与合成器编程，以判断自己是否适合继续投入这一方向。
+  job_en: Music production learners who want to start with modular synthesizers need to practice signal
+    routing and synthesizer programming in the browser without owning hardware, to judge whether to keep
+    investing in this direction.
+  pain: 公开材料只有一句定位，无法确认它接收什么输入、产出什么学习结果，也无法说明练习方式与真实合成器工作流的对应关系，因此连痛点是否刚性都无从判断。
+  pain_en: Public material offers only a one-line positioning, with no confirmation of inputs, learning
+    outputs, or how practice maps to real synthesizer workflows, so even whether the pain is rigid cannot
+    be judged.
+  current_alternative: 公开证据中没有任何关于现有替代方式的信息，无法确认学习者目前是靠视频教程、桌面合成器软件还是直接购买入门硬件。
+  current_alternative_en: Public evidence contains no information about current alternatives, so it cannot
+    be confirmed whether learners today rely on video tutorials, desktop synthesizer software, or buying
+    entry-level hardware directly.
+  usage_reason: 公开材料未说明是否使用 AI、教学方式或交付结果，无法解释相较旧做法减少了哪一步负担，因此无法给出用户选择它的因果理由。
+  usage_reason_en: Public material does not state whether AI is used, how teaching works, or what is delivered,
+    so it cannot explain which step of the old workflow is reduced, and no causal reason for choosing
+    it can be given.

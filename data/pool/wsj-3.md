@@ -1,11 +1,15 @@
 ---
 slug: wsj-3
-name: wsj
+name: AI token spending
 builder: swolpers
 category: ''
-summary_zh: ''
+summary_zh: 有报道指出企业用于 AI 的支出正变得几乎无法预算。按 token 计费的推理成本随使用量波动，使企业难以做年度预算与成本控制，可能促使企业转向更小模型、缓存、配额管理与自建推理，并改变
+  AI 应用的单位经济性与采购方式。
 inspiration: ''
-summary_en: ''
+summary_en: Reports indicate that business spending on AI is becoming almost impossible to budget. Token-based
+  inference costs fluctuate with usage, making annual budgeting and cost control difficult, which may
+  push firms toward smaller models, caching, quota management and self-hosted inference, and change the
+  unit economics and procurement of AI applications.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://wsj.com/tech/personal-tech/ai-token-spending-businesses-4
 summary: Spending on AI is becoming almost impossible for businesses to budget
 first_seen: '2026-10-05T13:22:31Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -34,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# wsj
+# AI token spending
 
 Spending on AI is becoming almost impossible for businesses to budget
 

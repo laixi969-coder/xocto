@@ -21,7 +21,7 @@ canonical_url: https://github.com/project-minigraf/minigraf
 summary: An embedded, bi-temporal graph database in Rust
 first_seen: '2026-10-05T11:18:18Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

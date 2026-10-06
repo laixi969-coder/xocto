@@ -219,3 +219,46 @@
   usage_reason_en: 'Inference: key-triggered standalone dictation might cut misfires and input-method
     switching, but the material states no concrete difference from OS dictation and no user feedback supports
     the choice motive, so which users would pick it and when remains undetermined.'
+- id: req-full-blurt-2026-10-06
+  project_slug: blurt
+  level: full
+  reviewed_at: '2026-10-06T02:51:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决口述转文本的录入需求，但全部证据是词典释义与同名影视条目，没有任何用户任务、痛点或替代行为的公开事实，无法还原旧流程与不采用的后果。
+    evidence_ids:
+    - ev-d7f1a3d6737ea7ab
+    - ev-e42d77d6b328ac4a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Blurt 官方产品页或仓库 README，确认其与系统听写的具体差异、支持场景及是否披露定价或计费方式。
+  market: ''
+  job: 文字工作者、客服或销售支持人员在写邮件、记录会议或整理工单时，按住按键说话，把口述内容交给 AssemblyAI 听写接口转成可粘贴文本，再自行校对。
+  job_en: Writers, support agents or sales staff hold a key to speak while drafting emails, taking meeting
+    notes or logging tickets, sending speech to the AssemblyAI dictation API to get pasteable text they
+    still proofread themselves.
+  pain: 候选材料未提供任何用户抱怨、替代行为或使用反馈，无法确认打字慢于说话、长文本录入耗时这一痛点是否真实存在及其刚性。
+  pain_en: The candidate material contains no user complaints, workarounds or usage feedback, so it cannot
+    confirm whether slow typing versus speaking and time-consuming long-form entry is a real or rigid
+    pain.
+  current_alternative: 系统自带听写、手机语音输入法或人工打字；材料未说明用户为何要离开这些既有方式。
+  current_alternative_en: Built-in OS dictation, mobile voice keyboards, or typing by hand; the material
+    does not explain why users would leave these existing options.
+  usage_reason: 推断：若它把听写做成按键触发的独立动作，可能减少误触发与切换输入法的步骤，但现有证据只有词典释义与同名影视条目，无法说明与系统听写的具体差异，因此哪类用户会在什么情况下选择它仍不清楚。
+  usage_reason_en: 'Inference: if it makes dictation a key-triggered standalone action it might cut misfires
+    and input-method switching, but the evidence is only dictionary definitions and a same-named TV movie,
+    so no concrete difference from OS dictation is shown and it remains unclear which users would choose
+    it.'

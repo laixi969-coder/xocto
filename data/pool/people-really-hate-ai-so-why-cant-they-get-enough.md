@@ -23,7 +23,7 @@ summary: 'Over the summer I talked to the CEO of Springboards, a startup buildin
   he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI…'
 first_seen: '2026-10-05T08:00:00Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

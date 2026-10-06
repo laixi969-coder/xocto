@@ -225,3 +225,50 @@
     the system prompt at session start, removing the step of restating background each time; inference
     is that developers who open many new sessions and already keep written conventions would choose it,
     though public material shows no retention or repeat-use evidence.
+- id: req-full-dsh-auto-memory-2026-10-06
+  project_slug: dsh-auto-memory
+  level: full
+  reviewed_at: '2026-10-06T02:52:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新会话重复交代项目背景、约定易丢失的问题，痛点来自多会话开发的真实摩擦，旧做法是手动粘贴或维护说明文件；这是从产品输入—动作—交付闭环作出的工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-abef4b286dfee441
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 44 增至 91 只说明早期关注度上升，没有用户评价、issue 或采用数据证明开发者已把它放进日常工作流。
+    evidence_ids:
+    - ev-abef4b286dfee441
+    - ev-9200313f053074b0
+  - gate: model
+    status: insufficient
+    reason: 纯文件、无外部服务，开源项目本身未披露定价或付费路径，钱从哪来仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-abef4b286dfee441
+  - gate: truth
+    status: insufficient
+    reason: 记忆自动注入可能把过期或错误约定带进每次会话，公开材料未说明人工确认、清理与安全边界机制。
+    evidence_ids:
+    - ev-abef4b286dfee441
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者是否反馈记忆注入后的实际使用、清理行为与误注入问题。
+  market: ''
+  job: 使用 DeepSeek Harness 维护长期项目的开发者在开启新会话时，需要把上一轮留下的项目约定、决策记录和类型化记忆文件带进当前会话，让模型在正确背景下继续写代码。
+  job_en: Developers maintaining long-lived projects on DeepSeek Harness need to carry prior project conventions,
+    decisions, and typed memory files into a new session so the model continues coding with the right
+    context.
+  pain: 每次新会话都要重新粘贴或复述项目背景，遗漏约定会让模型重复犯错；手工维护的上下文笔记容易过期，且没有索引时难以判断哪些记录该被带入。
+  pain_en: Every new session requires re-pasting or restating project background; missed conventions make
+    the model repeat mistakes, and hand-kept context notes go stale with no index to decide which records
+    should be carried in.
+  current_alternative: 开发者目前靠手动粘贴项目说明、维护 CLAUDE.md 类文件或依赖会话历史来延续上下文。
+  current_alternative_en: Developers currently paste project notes by hand, maintain CLAUDE.md-style files,
+    or rely on session history to carry context.
+  usage_reason: 相较手动粘贴，它在会话启动时把带类型的记忆文件与 MEMORY.md 索引自动注入系统提示词，省去每次重新交代背景这一步，并让模型按索引定位既有约定；推断经常开新会话、且已有成文约定的开发者会因此选择它，但公开材料未显示留存或重复使用证据。
+  usage_reason_en: Compared with manual pasting, it injects typed memory files and a MEMORY.md index into
+    the system prompt at session start, removing the step of restating background each time and letting
+    the model locate existing conventions via the index; inference is that developers who open many new
+    sessions and already keep written conventions would choose it, though public material shows no retention
+    or repeat-use evidence.

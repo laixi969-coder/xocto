@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xdjNzc0FsV1Ff
 summary: AI大模型聚合站谁家强？选错服务商算力直接打水漂 CSDN
 first_seen: '2026-10-05T17:22:22Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

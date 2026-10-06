@@ -178,3 +178,55 @@
     per file or uploading to the cloud and get chunk-ready Markdown; knowledge workers who care about
     document privacy and need batch handling of scans and Office files would choose it when preparing
     AI corpora, though public materials contain no user feedback confirming this motive.'
+- id: req-full-inkdoc-2026-10-06
+  project_slug: inkdoc
+  level: full
+  reviewed_at: '2026-10-06T02:52:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把 PDF、扫描件和 Office 文档在本机转成可投喂 AI 的干净 Markdown 这一具体任务，痛点是多格式批处理与敏感文档外发的摩擦；公开仓库说明已还原输入、动作与交付闭环，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-187135c6c9a09c92
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 增至 51，说明有开发者关注，但这是关注度而非持续采用；公开材料没有用户评价、issue 讨论或客户案例说明谁在什么场景长期使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-187135c6c9a09c92
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与产品页，没有定价页、付费记录或采购信息，to C 桌面工具买断、to B 团队授权还是纯开源赞助均无法确认；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺本地转换且不依赖云端，方向与数据安全目标一致，但公开材料未给出转换准确率、OCR 质量或人工校对边界的可复现证据，交付确定性仍待核验。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-187135c6c9a09c92
+  next_validation: 追踪 InkDoc 仓库的 issue 与 discussion，确认是否有用户报告具体文档类型下的转换质量、失败场景或与旧流程的对比使用记录。
+  market: ''
+  job: 法务、合规或研究助理在需要把一批 PDF、扫描件和 Office 文档喂给 AI 或检索系统时，先要在本机把这些文件转成结构干净、可直接投喂模型的 Markdown 文本。
+  job_en: Legal, compliance, or research assistants who need to feed a batch of PDFs, scans, and Office
+    documents into an AI or retrieval system must first convert those files locally into clean, model-ready
+    Markdown text.
+  pain: 公开材料显示用户面对的是多格式混杂的文档批处理：扫描件需要 OCR、版面需要还原、Office 格式需要统一，而把原始文件直接交给模型或检索系统会带入噪声；把敏感文档上传到云端转换又带来数据外流顾虑。这是从产品定位与工作流结构推出的痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: 'Public materials indicate a mixed-format batch problem: scans need OCR, layout must be reconstructed,
+    Office formats must be normalized, and raw files fed to a model or retrieval system carry noise; uploading
+    sensitive documents to a cloud converter raises data-egress concerns. This pain is inferred from the
+    product positioning and workflow structure, not yet corroborated by user complaints or cases.'
+  current_alternative: 旧做法是手工复制粘贴、用在线 PDF 转 Markdown 服务、或自己拼装 MarkItDown、Docling、OCR 等开源工具链；前者费时且丢版面，后者需要自己处理依赖与参数。
+  current_alternative_en: The old approach is manual copy-paste, online PDF-to-Markdown services, or hand-assembling
+    open-source tools such as MarkItDown, Docling, and OCR engines; the first is slow and loses layout,
+    the latter requires managing dependencies and parameters.
+  usage_reason: 推断：相较在线转换或自建脚本，InkDoc 把 MarkItDown、Docling、GLM-OCR 等封装成一个本地桌面应用，用户不必逐一定装依赖或上传文件，只需在本机选文件即可拿到
+    Markdown，从而省掉环境搭建与数据外发这两步负担；因此处理敏感或批量文档、又不想自建流水线的知识工作者会倾向选择它。
+  usage_reason_en: 'Inference: versus online converters or self-built scripts, InkDoc wraps MarkItDown,
+    Docling, GLM-OCR, and similar tools into one local desktop app, so users skip installing dependencies
+    one by one or uploading files and simply pick files locally to get Markdown, removing the setup and
+    data-egress steps; knowledge workers handling sensitive or batch documents who do not want to build
+    their own pipeline would therefore lean toward it.'

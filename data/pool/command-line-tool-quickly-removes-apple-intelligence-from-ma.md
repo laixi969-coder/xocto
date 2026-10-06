@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/apple/2026/10/command-line-tool-quickly-r
 summary: The tool can free up over 12GB of storage.
 first_seen: '2026-10-05T19:14:44Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

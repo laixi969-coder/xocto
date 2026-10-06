@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/501705.html
 summary: AI已经开始真正进入「造下一代AI」的流水线
 first_seen: '2026-10-05T04:42:52Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

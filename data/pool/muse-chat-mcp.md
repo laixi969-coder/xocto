@@ -22,7 +22,7 @@ summary: MCP server + OpenAI-compatible shim to use Meta Muse (muse.ai, Hatch) b
   Chrome.
 first_seen: '2026-09-30T06:50:57Z'
 last_seen: '2026-10-06T02:18:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

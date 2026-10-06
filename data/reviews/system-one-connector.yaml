@@ -281,3 +281,44 @@
   usage_reason_en: 'There is no basis to explain why users would choose it: the evidence offers neither
     a concrete evaluation definition nor delivery format, nor any user feedback or adoption record, only
     the functional description that it exposes several models to an agent.'
+- id: req-full-system-one-connector-2026-10-06
+  project_slug: system-one-connector
+  level: full
+  reviewed_at: '2026-10-06T02:54:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决代理流程中调用外部模型做快速评估的任务，但公开证据里没有任何用户痛点、旧替代行为或不解决的后果，连需求本身都还原不出来。
+    evidence_ids:
+    - ev-4d88fb6551eb1031
+    - ev-166d69eb4245cc3b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该连接器的官方仓库或 MCP 目录页，确认其 README、issue 与 discussion 中是否出现真实调用场景、用户反馈或部署记录。
+  market: ''
+  job: 开发者在其代理流程中，需要对外部内容或模型输出做一次快速评估时，接入该 MCP 连接器，把 Typesafe AI 的 Jev、Laya 等模型暴露给代理，由代理发起调用并取回评估结果。
+  job_en: Developers, inside their agent flows, need a quick evaluation of external content or model outputs;
+    they attach this MCP connector to expose Typesafe AI's Jev and Laya models to the agent, which issues
+    the call and receives the evaluation result.
+  pain: 公开材料没有记录任何用户痛点：没有开发者抱怨现有评估方式慢、贵或不可靠，也没有说明不解决会付出什么代价。
+  pain_en: 'Public materials record no user pain: no developer complaints that current evaluation methods
+    are slow, costly, or unreliable, and no stated consequence of leaving the job unsolved.'
+  current_alternative: 公开材料未说明开发者目前如何完成这类评估，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers currently perform this evaluation
+    or what prior approach it replaces.
+  usage_reason: 无法给出因果解释：现有证据只有产品自述和与 System 一词无关的词典、维基条目，没有任何用户反馈或案例说明为何选择它。
+  usage_reason_en: 'No causal explanation can be given: the only evidence is the product''s own description
+    plus dictionary and Wikipedia entries unrelated to the product, with no user feedback or case showing
+    why anyone would choose it.'

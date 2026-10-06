@@ -76,3 +76,94 @@
   usage_reason: 已有大规模访问量（2318 万次/月），环比增长 7.22%，表明开发者广泛采用。
   usage_reason_en: Large-scale traffic (23.18M visits/month), 7.22% MoM growth, indicating widespread
     developer adoption.
+- id: req-initial-cursor-2026-10-06
+  project_slug: cursor
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是跨文件改代码时人工搜集上下文、逐文件修改的负担，旧行为明确且不采用的代价是可核对的时间与一致性损失。
+    evidence_ids:
+    - ev-d8b0a03cfa845622
+  - gate: consensus
+    status: supported
+    reason: 公开增长榜显示月访问量约2318万、环比增长7.22%，说明已有相当规模的持续使用；但榜单指标只证明规模，不解释选择原因。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或付费结构，买方是个人开发者还是企业采购无法确认；这是判断缺口，不是需求不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 生成代码的正确性、安全边界与人工复核比例在公开材料中没有可核对结果，交付确定性尚未被验证。
+    evidence_ids: []
+  next_validation: 收集 Cursor 官方定价页与企业部署文档，确认按席位还是按用量计费以及企业采购路径。
+  market: ''
+  job: 软件工程师在写新功能、修 bug 或重构模块时，面对一个几十到上千文件的代码仓库，需要让 AI 读懂相关文件并直接产出可提交的代码改动。
+  job_en: Software engineers writing features, fixing bugs or refactoring modules in a repository of dozens
+    to thousands of files need the AI to read the relevant files and produce committable code changes.
+  pain: 跨文件改动要人工在多个文件间来回查找、复制上下文，改一处漏一处；旧做法下上下文切换和重复劳动占掉大量时间，且容易引入不一致。
+  pain_en: Cross-file changes force engineers to hunt through many files and copy context by hand, missing
+    spots as they go; under the old approach context switching and repetition consume much of the time
+    and easily introduce inconsistency.
+  current_alternative: 此前主要靠 IDE 自带的片段补全、在聊天窗口里粘贴代码片段，或自己手动搜索并逐个文件修改。
+  current_alternative_en: Previously this relied on built-in snippet completion in the IDE, pasting code
+    fragments into a chat window, or manually searching and editing file by file.
+  usage_reason: 相较片段补全和手动跨文件修改，它把整个仓库作为上下文读取后直接给出跨文件改动，省掉工程师逐文件搜集上下文这一步，因此处理大型既有代码库的工程师会在重构或迁移时选择它；这是基于产品能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with snippet completion and manual cross-file editing, it reads the whole
+    repository as context and proposes cross-file changes directly, removing the step of gathering context
+    file by file, so engineers working on large existing codebases would choose it during refactors or
+    migrations; this is an inference from product capability, with no retention or repeat-purchase evidence
+    yet.
+- id: req-full-cursor-2026-10-06
+  project_slug: cursor
+  level: full
+  reviewed_at: '2026-10-06T02:51:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨文件改代码时人工搜集上下文、逐文件修改的负担，旧替代是片段补全与手动搜索，不采用的代价是时间与一致性损失；这是工作流结构推理，公开材料未含用户抱怨或采用数据。
+    evidence_ids:
+    - ev-3ef8af2613ff7ce3
+    - ev-7a4ce3a0ffd11419
+  - gate: consensus
+    status: insufficient
+    reason: 现有证据只有官网自述与下载页，另有 custom-cursor.com 等同名无关页面混入，未提供可归因到本产品的访问量、留存或采用规模，无法判断共识是否形成。
+    evidence_ids:
+    - ev-3ef8af2613ff7ce3
+    - ev-2b4274040d5a5633
+  - gate: model
+    status: insufficient
+    reason: 下载页未披露价格、席位或用量计费结构，买方是个人开发者还是企业采购无法确认；这是判断缺口，不是需求不成立。
+    evidence_ids:
+    - ev-7a4ce3a0ffd11419
+  - gate: truth
+    status: insufficient
+    reason: 生成代码的正确性、安全边界与人工复核比例在公开材料中没有可核对结果，交付确定性尚未被验证。
+    evidence_ids:
+    - ev-3ef8af2613ff7ce3
+  next_validation: 追踪 Cursor 官网定价页与官方企业部署文档，确认按席位还是按用量计费以及企业采购路径。
+  market: ''
+  job: 软件工程师在写新功能、修 bug 或重构模块时，面对几十到上千文件的既有代码仓库，需要让编辑器内的 AI 读取相关文件并直接产出可提交的跨文件代码改动，再逐处人工确认落地。
+  job_en: Software engineers writing features, fixing bugs or refactoring modules in an existing repository
+    of dozens to thousands of files need the in-editor AI to read the relevant files and produce committable
+    cross-file code changes, which they then confirm and land one by one.
+  pain: 跨文件改动要人工在多个文件间来回查找、复制上下文，改一处漏一处；上下文切换与重复劳动占掉大量时间，且容易引入不一致。公开材料只给出产品能力描述，没有用户抱怨或工单数据，因此痛点强度属于工作流结构推理。
+  pain_en: Cross-file changes force engineers to hunt through many files and copy context by hand, missing
+    spots as they go; context switching and repetition consume much of the time and easily introduce inconsistency.
+    Public material only describes product capability, with no user complaints or ticket data, so pain
+    intensity is a workflow-structure inference.
+  current_alternative: 此前主要靠 IDE 自带片段补全、把代码片段粘贴进聊天窗口，或自己手动搜索并逐个文件修改。
+  current_alternative_en: Previously this relied on built-in IDE snippet completion, pasting code fragments
+    into a chat window, or manually searching and editing file by file.
+  usage_reason: 相较片段补全和手动跨文件修改，它把整个仓库作为上下文读取后直接给出跨文件改动，省掉工程师逐文件搜集上下文这一步，因此处理大型既有代码库的工程师会在重构或迁移时选择它；这是基于产品能力的推断，公开材料尚无留存或复购证据。
+  usage_reason_en: Compared with snippet completion and manual cross-file editing, it reads the whole
+    repository as context and proposes cross-file changes directly, removing the step of gathering context
+    file by file, so engineers working on large existing codebases would choose it during refactors or
+    migrations; this is an inference from product capability, with no retention or repeat-purchase evidence
+    in public material.

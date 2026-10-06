@@ -315,3 +315,47 @@
     deployment directly, cutting the cross-platform search-and-compare step. Stars rising from 415 to
     584 show attention, but no user feedback or case shows it is retained in the workflow, so the choice
     motive is inference, not fact.'
+- id: req-full-offensive-security-ai-models-2026-10-06
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-06T02:53:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决授权测试中挑选可本地部署未审查模型的需求，但公开材料只有一句仓库简介与星标数，没有用户痛点、使用频率或不采用代价；清单本身可被模型库检索替代，属于看着方便但没有也行的拼凑型资源，价值关不成立。
+    evidence_ids:
+    - ev-92698e39f13570bc
+    - ev-1591d1a1a8581083
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否列出具体模型、部署步骤与授权使用边界，以及是否有安全研究者描述实际替代的旧流程。
+  market: ''
+  job: 安全研究员在获得书面授权的渗透测试或红队评估中，需要挑选可本地部署、不受云端内容审查拦截的模型，用来生成攻击面假设、辅助漏洞验证与报告草稿。
+  job_en: During authorized penetration tests or red-team engagements, a security researcher needs to
+    pick a locally deployable model that will not be blocked by cloud content moderation, in order to
+    draft attack-surface hypotheses, assist vulnerability validation, and prepare report drafts.
+  pain: 公开材料只给出仓库一句话简介与星标数，没有任何用户反馈、issue 或案例说明云端模型拒答、数据不能出内网或筛选耗时带来的具体代价；痛点强度无法从公开事实确认。
+  pain_en: Public materials provide only a one-line repository description and star counts; no user feedback,
+    issues, or cases show the concrete cost of cloud-model refusals, data-egress restrictions, or selection
+    time, so pain intensity cannot be confirmed from public facts.
+  current_alternative: 公开材料未说明用户现在如何完成这项工作；可观察到的替代是直接使用 公开模型社区 等模型库自行检索、或使用云端通用模型并接受拒答，但仓库是否真正替代了这些流程没有证据。
+  current_alternative_en: Public materials do not show how users do this job today; observable alternatives
+    are searching model hubs such as public model community directly, or using cloud general models and
+    accepting refusals, but there is no evidence the repository actually replaces these workflows.
+  usage_reason: 推断：清单把分散的未审查/安全微调模型集中到一处，可能省去逐个模型库检索的步骤，因此做本地授权测试的研究者可能收藏参考；但公开材料没有用户陈述或案例支持这一动机，星标增长只反映关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: by aggregating scattered uncensored or security-tuned models in one place,
+    the list may save users the step of searching model hubs one by one, so researchers doing local authorized
+    testing may bookmark it; however, no user statements or cases support this motive, and star growth
+    reflects attention only, not sustained use.'

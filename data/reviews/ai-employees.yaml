@@ -338,3 +338,92 @@
   usage_reason_en: 'Inference: versus manual clicking or hard-coded scripts, it hands login, scraping,
     and form-filling to reusable scheduled routines, cutting the need to redo each step, so small teams
     with fixed daily back-office flows would try it first; no retention or repeat-use evidence yet.'
+- id: req-initial-ai-employees-2026-10-06
+  project_slug: ai-employees
+  level: initial
+  reviewed_at: '2026-10-06T02:19:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决浏览器内重复事务的逐步操作问题，痛点在于步骤固定却必须人工点击、脚本又难维护，旧替代行为明确存在，故价值结构成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 开源关注度与社区讨论只说明有人围观，没有客户案例或团队采用记录，无法判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方是自建团队还是采购方不明，钱从哪来属于判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 浏览器操作类任务的完成率、错误处理与人工边界没有公开材料，承诺能否确定性交付尚未核验。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue／discussion 与 README 中关于真实业务流程运行结果、失败处理和人工确认环节的公开记录。
+  market: ''
+  job: 小团队运营或行政人员在每天固定时点需要处理浏览器里的重复事务（如线索整理、订单跟进、例行报表抓取），要把这些材料走完并留下可复用的流程文件。
+  job_en: An operations or admin person in a small team handles recurring browser chores at fixed times
+    each day, such as lead cleanup, order follow-up and routine report collection, and needs the work
+    done while keeping reusable workflow files.
+  pain: 这类事务步骤固定但必须在浏览器里逐步点击，人工做耗时且容易漏步；换成脚本又要有人维护选择器，业务人员自己改不动。
+  pain_en: These chores have fixed steps but must be clicked through in a browser, which is slow and error-prone
+    by hand; scripting them instead requires someone to maintain selectors that business staff cannot
+    edit.
+  current_alternative: 目前多靠人工按清单在浏览器里逐项操作，或用 RPA／自写脚本，前者占人力，后者维护成本高、业务人员无法自行调整。
+  current_alternative_en: Today it is mostly manual checklist clicking in the browser, or RPA and hand-written
+    scripts, which either consumes staff time or is costly to maintain and out of reach for business staff.
+  usage_reason: 相较人工逐项点击或维护脚本，它把例行步骤写成用户自己持有的流程文件，由 AI 按排程驱动浏览器执行并在每轮改进，减少的是“每次重新点一遍”和“改选择器”这两步负担；推断，缺少公开的完成率与留存证据。
+  usage_reason_en: Compared with manual clicking or maintaining scripts, it turns routines into user-owned
+    workflow files that AI runs on a schedule and improves each run, removing the steps of re-clicking
+    every time and fixing selectors; this is inference, as public completion and retention evidence is
+    missing.
+- id: req-full-ai-employees-2026-10-06
+  project_slug: ai-employees
+  level: full
+  reviewed_at: '2026-10-06T02:50:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决浏览器内重复事务的逐步操作问题：步骤固定却必须人工点击，脚本又难维护，旧替代行为明确存在，价值结构成立；但公开证据仅来自通用 AI 介绍与搜索页，属工作流结构推理，非用户采用事实。
+    evidence_ids:
+    - ev-83a0a1ef046099d1
+    - ev-71764f2400173844
+  - gate: consensus
+    status: insufficient
+    reason: 现有证据只有通用 AI 定义与搜索引擎结果页，没有该项目的客户案例、团队采用记录或开发者讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-b4907a856e3513f9
+    - ev-a7f3d2743a5841eb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或付费路径，买方是自建团队还是采购方不明；按产品形态推断可能来自 to B 团队自建或 to VC 开源叙事，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9d15798d593a8bc1
+    - ev-d3fe4586dbc912bc
+  - gate: truth
+    status: insufficient
+    reason: 浏览器操作类任务的完成率、错误处理与人工确认边界没有公开材料，承诺能否确定性交付尚未核验；通用 AI 介绍不能替代该产品的交付证据。
+    evidence_ids:
+    - ev-a7ecb45b2bf997ab
+    - ev-4fe315c07053e0cc
+  next_validation: 追踪该仓库 README、issue 与 discussion 中关于真实业务流程运行结果、失败处理与人工确认环节的公开记录。
+  market: ''
+  job: 小团队运营或行政人员在每天固定时点处理浏览器内的重复事务（线索整理、订单跟进、例行报表抓取），需要把材料走完并留下可复用的流程文件。
+  job_en: An ops or admin person in a small team handles recurring in-browser chores at fixed times (lead
+    cleanup, order follow-up, routine report collection), needing the work completed while keeping reusable
+    workflow files.
+  pain: 步骤固定却必须在浏览器里逐步点击，人工做耗时且易漏步；改用脚本又要有人维护选择器，业务人员自己改不动。
+  pain_en: Steps are fixed but must be clicked through in a browser, which is slow and error-prone by
+    hand; scripting instead requires someone to maintain selectors that business staff cannot edit.
+  current_alternative: 目前多靠人工按清单逐项点击，或用 RPA／自写脚本，前者占人力，后者维护成本高、业务人员无法自行调整。
+  current_alternative_en: Today it is mostly manual checklist clicking, or RPA and hand-written scripts,
+    which either consumes staff time or is costly to maintain and out of reach for business staff.
+  usage_reason: 相较人工逐项点击或维护脚本，它把例行步骤写成用户自己持有的流程文件，由 AI 按排程驱动浏览器执行并在每轮改进，减少“每次重新点一遍”和“改选择器”两步负担；这是基于产品能力与任务结构的推断，公开材料未见完成率或留存证据。
+  usage_reason_en: Compared with manual clicking or maintaining scripts, it turns routines into user-owned
+    workflow files that AI runs on a schedule and improves each run, removing the steps of re-clicking
+    every time and fixing selectors; this is inference from product capability and task structure, as
+    public completion or retention evidence is absent.

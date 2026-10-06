@@ -185,3 +185,55 @@
     inside DeepSeek Harness, removing the per-round step of picking models and hand-carrying the plan
     to the code-writing model, so developers who care about per-task token cost yet need frontier-grade
     planning and review would choose it for long coding tasks; public materials contain no user '
+- id: req-full-dsh-model-fusion-2026-10-06
+  project_slug: dsh-model-fusion
+  level: full
+  reviewed_at: '2026-10-06T02:52:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码任务中前沿模型成本高、便宜模型质量不稳的两难：用户要在单次任务里既保住规划与审查质量又压低开销。旧做法是整条任务用同一模型或手工切换模型搬运上下文。仓库定位句与星标增长（40→52）说明有开发者关注，但成本对比与产出质量为结构推理，尚无用户自述。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+    - ev-a4ff5b0470c81f25
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 40 增至 52，说明有开发者注意到该方案，属于关注度而非持续采用证据；公开材料没有 issue、discussion、使用反馈或复刻记录，无法判断它是否被留在日常编码工作流里。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+    - ev-3ffb0844fbcf3629
+    - ev-a4ff5b0470c81f25
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费路径或买方信息；钱可能来自开发者自付 API 账单（to C）或团队采购（to B），但均属判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句定位，没有接入文档、成本对比、产出质量评测或人工与安全边界说明，无法核验“前沿结果、折扣成本”这一承诺能否确定性交付。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+    - ev-3ffb0844fbcf3629
+  next_validation: 追踪该 公开代码仓库 仓库的 README/部署文档与 issue、discussion，确认接入方式、成本对比数据以及是否有开发者报告实际使用结果。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者，在需要完成一次编码任务时，把任务拆成两段：由前沿模型（Lead）负责规划与审查，由更便宜的模型（Sidekick）负责写代码，从而在单次任务内控制模型调用开销。
+  job_en: 'A developer using DeepSeek Harness splits one coding task into two roles: a frontier model
+    (Lead) plans and reviews, while a cheaper model (Sidekick) writes the code, so per-task model spend
+    stays controlled.'
+  pain: 公开材料只给出定位句，未提供用户抱怨、成本对比或质量对比数据；可确认的痛点结构是：前沿模型单次编码任务成本高，而全用便宜模型又难以保证规划与审查质量，用户被迫在成本与产出质量之间二选一。
+  pain_en: Public materials give only a positioning line, with no user complaints, cost comparisons, or
+    quality comparisons. The verifiable pain structure is that frontier-model coding runs are expensive,
+    while using only cheap models risks planning and review quality, forcing a cost-versus-quality tradeoff.
+  current_alternative: 旧做法是整条编码任务都交给同一个前沿模型（成本高），或整条都交给便宜模型（质量风险），或由开发者手工在多个模型/会话之间切换、复制粘贴上下文来分工。
+  current_alternative_en: The old approach is to run the whole coding task on one frontier model (expensive),
+    or entirely on a cheap model (quality risk), or to manually switch between models/sessions and copy
+    context by hand to split the work.
+  usage_reason: 推断：相较手工在两个模型间切换并搬运上下文，该方案把 Lead 规划/审查与 Sidekick 写码的角色分工固化进 DeepSeek Harness 的配置里，减少手工切换与上下文搬运这一步，并让单次任务的模型开销可预期地下降；因此在意
+    API 账单、又不想牺牲规划与审查质量的 Harness 用户会在长编码任务中选择它。公开材料未提供用户自述动机或留存数据。
+  usage_reason_en: 'Inference: compared with manually switching between two models and shuttling context,
+    this fixes the Lead-plan/review and Sidekick-write role split into DeepSeek Harness configuration,
+    removing the manual switching and context-shuttling step and making per-task model spend predictably
+    lower. Harness users who care about API bills but not at the cost of planning/review quality would
+    choose it for long coding tasks. Public materials provide no user-stated motivation or retentio'

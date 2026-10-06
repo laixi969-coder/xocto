@@ -1,0 +1,92 @@
+- id: req-initial-copenhagens-pandektes-raises-135-million-to-build-the-data-i-2026-10-06
+  project_slug: copenhagens-pandektes-raises-135-million-to-build-the-data-i
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法律检索中找可引用依据、并回原文核对的需求，痛点是漏判例与人工翻阅耗时，旧行为明确存在。
+    evidence_ids:
+    - ev-67fee1eaaba3d03a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见律所或法务的公开采用、评价或案例，共识卡在场景验证这一环。
+    evidence_ids:
+    - ev-67fee1eaaba3d03a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构；按数据基础设施向律所或数据库方收费是判断，不是已验证事实。
+    evidence_ids:
+    - ev-67fee1eaaba3d03a
+  - gate: truth
+    status: insufficient
+    reason: 法律引用对准确性要求高，人工核对边界是否被明确、错误引用如何拦截，公开材料未说明。
+    evidence_ids:
+    - ev-67fee1eaaba3d03a
+  next_validation: 收集 Pandektes 官方产品页或定价页，确认其交付形态、计价方式与是否披露律所客户案例。
+  market: ''
+  job: 律师与法务研究员在准备意见或诉讼材料时，需要从判决书、法规和法律文献中找到可引用的依据，并确认其现行有效性。
+  job_en: When preparing opinions or litigation materials, lawyers and legal researchers must find citable
+    authority in judgments, statutes and legal literature and confirm it is still in force.
+  pain: 法律语料分散在多个数据库与原文文件中，检索靠关键词和人工翻阅，容易漏掉相关判例，且引用前必须逐条回原文核对，耗时且不可省略。
+  pain_en: Legal corpora are scattered across databases and source documents; searching relies on keywords
+    and manual reading, relevant cases are easily missed, and every citation must be checked against the
+    original text, which is slow and cannot be skipped.
+  current_alternative: 现有做法是订阅传统法律数据库、用关键词检索，再人工下载判决书原文逐条阅读和摘录。
+  current_alternative_en: The current practice is subscribing to traditional legal databases, running
+    keyword searches, then manually downloading and reading judgment texts to extract citations.
+  usage_reason: 推断：相较关键词检索加人工翻阅，它把判决与法规先做成结构化、可引用的数据层，让检索结果直接带出处，减少的是回原文找依据这一步的重复劳动；因此处理跨法域或大量判例检索的律所与法务团队会在需要快速定位可引用依据时选择它。公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with keyword search plus manual reading, it first turns judgments
+    and regulations into a structured, citable data layer so results carry their source, cutting the repeated
+    work of hunting for authority in the original text; law firms and legal teams handling cross-jurisdiction
+    or high-volume case research would choose it when they need to locate citable authority quickly. Public
+    materials provide no retention or repeat-purchase evidence.'
+- id: req-full-copenhagens-pandektes-raises-135-million-to-build-the-data-i-2026-10-06
+  project_slug: copenhagens-pandektes-raises-135-million-to-build-the-data-i
+  level: full
+  reviewed_at: '2026-10-06T02:51:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法律检索中定位可引用依据并核对出处的需求，痛点是语料分散、关键词检索易漏判例、引用前必须逐条回原文核对；旧替代行为明确存在。此为工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-67fee1eaaba3d03a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有融资报道，未见律所或法务的采用、评价或客户案例，共识卡在场景验证这一环；融资规模只说明关注度，不能证明持续使用。
+    evidence_ids:
+    - ev-67fee1eaaba3d03a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构；按数据基础设施向律所、法律数据库方或平台方收费属判断而非已验证事实，尚无公开付费或采购记录。
+    evidence_ids:
+    - ev-67fee1eaaba3d03a
+  - gate: truth
+    status: insufficient
+    reason: 法律引用对准确性要求高，公开材料未说明人工核对边界如何设定、错误或过时引用如何拦截，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-67fee1eaaba3d03a
+  next_validation: 追踪 Pandektes 官网产品页与定价页，确认其交付形态、计价方式，以及是否公开律所客户案例或部署文档。
+  market: ''
+  job: 律师与法务研究员在准备法律意见、诉讼材料或合规判断时，需要从判决书、法规与法律文献中定位可引用的依据，并确认其现行有效性与出处。
+  job_en: When preparing legal opinions, litigation materials or compliance assessments, lawyers and legal
+    researchers must locate citable authority in judgments, statutes and legal literature and confirm
+    its current validity and provenance.
+  pain: 法律语料分散在多个数据库与判决原文中，检索依赖关键词加人工翻阅，容易漏掉相关判例；引用前又必须逐条回原文核对，这一步耗时且不可省略，跨法域检索时负担更重。
+  pain_en: Legal corpora are scattered across multiple databases and full judgment texts; retrieval relies
+    on keywords plus manual reading, relevant cases are easily missed, and every citation must still be
+    checked against the original text — slow work that cannot be skipped, and heavier in cross-jurisdiction
+    research.
+  current_alternative: 订阅传统法律数据库做关键词检索，再人工下载判决书与法规原文逐条阅读、摘录并核对引用。
+  current_alternative_en: Subscribing to traditional legal databases for keyword search, then manually
+    downloading judgments and statutes to read, excerpt and verify each citation.
+  usage_reason: 推断：相较关键词检索加人工翻阅，Pandektes 把判决与法规先整理成结构化、可引用的数据层，使检索结果直接携带出处，减少的是“回原文找依据并确认出处”这一步的重复劳动；因此处理大量判例或跨法域检索的律所与法务团队，会在需要快速定位可引用依据时选择它。公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with keyword search plus manual reading, Pandektes first organizes
+    judgments and statutes into a structured, citable data layer so results carry their source, cutting
+    the repeated work of hunting for authority in the original text and confirming provenance; law firms
+    and legal teams handling high-volume or cross-jurisdiction research would choose it when they need
+    to locate citable authority quickly. Public materials provide no retention or repeat-purchase'

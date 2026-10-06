@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/chain-exchange
 summary: Trade, bridge and move stablecoins across Arc
 first_seen: '2026-10-04T13:38:40Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

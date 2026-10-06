@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPSzQ2Z2MwcGxt
 summary: The risks of AI overreliance in software engineering TechTarget
 first_seen: '2026-10-05T18:31:16Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

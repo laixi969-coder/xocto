@@ -24,7 +24,7 @@ summary: Breast cancer is the most commonly diagnosed cancer among American wome
   can take weeks to return results.  […]
 first_seen: '2026-10-05T13:00:57Z'
 last_seen: '2026-10-06T02:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

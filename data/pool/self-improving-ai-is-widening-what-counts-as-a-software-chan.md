@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVRxRXF1aE1D
 summary: Self-improving AI is widening what counts as a software change TechTarget
 first_seen: '2026-10-05T16:07:30Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: openai-launches-visual-ads-that-appear-alongside-image-gener
-name: OpenAI launches visual ads that appear alongside image generation results
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: The new ads will begin to appear later this month in the U.S. only for 
   products and services from an initial test group of advertisers.
 first_seen: '2026-10-05T15:14:24Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI launches visual ads that appear alongside image generation results
+# OpenAI
 
 The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.
 

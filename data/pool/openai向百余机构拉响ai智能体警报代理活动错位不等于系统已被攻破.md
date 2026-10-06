@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QWHFWeWUyTlNr
 summary: OpenAI向百余机构拉响AI智能体警报：代理活动错位，不等于系统已被攻破 blog.csdn.net
 first_seen: '2026-10-05T09:44:03Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

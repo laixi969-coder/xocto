@@ -22,7 +22,7 @@ summary: 'TechTalk: When AI becomes the front door to insurance, who decides wha
   Times'
 first_seen: '2026-10-05T07:31:31Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

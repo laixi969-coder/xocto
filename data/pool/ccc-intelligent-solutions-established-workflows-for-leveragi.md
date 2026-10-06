@@ -22,7 +22,7 @@ summary: 'CCC Intelligent Solutions: Established Workflows For Leveraging AI’s
   Alpha'
 first_seen: '2026-10-05T11:36:08Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

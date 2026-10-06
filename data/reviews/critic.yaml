@@ -81,3 +81,84 @@
   usage_reason_en: 'The task is: Developers handling code changes just produced by themselves or an agent
     before a merge request, needing a traceable review and a go/no-go decision Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-initial-critic-2026-10-06
+  project_slug: critic
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决智能体生成代码后的审查与放行问题，痛点结构成立，但材料只有一句产品描述，无法确认审查范围与交付结果。
+    evidence_ids:
+    - ev-93806bea756156ad
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该产品的采用或持续使用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-93806bea756156ad
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；是面向个人开发者还是工程团队付费，公开材料无法判断。
+    evidence_ids:
+    - ev-93806bea756156ad
+  - gate: truth
+    status: insufficient
+    reason: 让生成方自审是否贴近审查的第一性目标、结论能否确定性交付，均缺少可核验材料。
+    evidence_ids:
+    - ev-93806bea756156ad
+  next_validation: 收集 Critic 官方页面上的审查规则说明与输出样例（或公开仓库的 issue/discussion），确认它交付的是可留痕的审查结论还是仅一段模型意见。
+  market: ''
+  job: 开发者在提交合并请求前，处理自己或智能体刚生成的代码改动，需要完成一次可追溯的审查并决定是否放行。
+  job_en: Before opening a merge request, a developer handles code changes just produced by themselves
+    or an agent and must complete a traceable review and decide whether to let them through.
+  pain: 智能体生成的改动量大且来源不清，人工逐行读 diff 成本高，且难以说明这次放行依据是什么。
+  pain_en: Agent-generated changes are large and of unclear provenance, reading the diff line by line
+    is costly, and it is hard to state what the release decision was based on.
+  current_alternative: 人工代码审查、静态检查工具，或让另一个模型对 diff 做一次通用评审。
+  current_alternative_en: Human code review, static analysis tools, or having another model do a generic
+    pass over the diff.
+  usage_reason: 推断：相较人工逐行读 diff，它把审查交给掌握改动上下文的生成方，可能减少重新建立上下文这一步；但材料只有一句描述，无法确认它是否真的减少负担或改善可核对结果，因此缺少采用理由这一环。
+  usage_reason_en: 'Inference: compared with reading the diff line by line, it hands review to the generator
+    that holds the change context, potentially removing the step of rebuilding context; but the material
+    is one sentence, so it cannot be confirmed that this reduces effort or improves a checkable result,
+    leaving the adoption reason unverified.'
+- id: req-full-critic-2026-10-06
+  project_slug: critic
+  level: full
+  reviewed_at: '2026-10-06T02:51:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决智能体生成代码后的审查与放行问题，但材料只有一句产品描述，无法确认审查范围、交付结果与痛点刚性，需求和痛点均写不实。
+    evidence_ids:
+    - ev-93806bea756156ad
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Critic 官方页面上的审查规则说明与输出样例（或公开仓库的 issue/discussion），确认它交付的是可留痕的审查结论还是仅一段模型意见。
+  market: ''
+  job: 开发者在提交合并请求前，面对自己或智能体刚生成的代码改动，需要完成一次可追溯的审查并决定是否放行。
+  job_en: Before opening a merge request, a developer facing code changes just produced by themselves
+    or an agent must complete a traceable review and decide whether to let the change through.
+  pain: 公开材料只有一句产品描述，无法确认智能体生成改动的审查成本、放行依据缺失等痛点是否真实存在。
+  pain_en: The public material is a single product sentence; it cannot confirm whether the pain of reviewing
+    agent-generated changes or the missing release rationale actually exists.
+  current_alternative: 公开材料未说明当前替代方式，无法确认是人工审查、静态检查还是另一个模型评审。
+  current_alternative_en: The public material does not state the current alternative, so it is unclear
+    whether it is human review, static analysis, or another model pass.
+  usage_reason: 公开材料只有一句描述，无法解释相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此缺少采用理由。
+  usage_reason_en: The public material is one sentence and cannot explain which step of burden is reduced
+    or which checkable result is improved versus the old way, so the adoption reason is missing.

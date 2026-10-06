@@ -1,0 +1,89 @@
+- id: req-initial-brewery-ai-2026-10-06
+  project_slug: brewery-ai
+  level: initial
+  reviewed_at: '2026-10-06T02:18:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是非专业团队做不了微调这一具体任务，痛点存在；但公开材料只有一句仓库简介，说不清输入、动作与交付，价值结构无法确认。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 186 星与 23 次 fork，属于关注度而非采用证据，没有用户反馈或案例说明谁在用、用来做什么。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费路径或客户采购信息，买方是自建团队还是外包服务方无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近微调工作的第一性目标，也看不到训练结果是否可复现，安全与人工确认边界未披露。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+  next_validation: 收集该仓库的 README、文档与 issue/discussion，确认支持的模型、数据格式、训练产出与是否有真实用户报告结果。
+  market: ''
+  job: 缺少算法人手的团队开发者，在已有私有数据集、需要得到可部署模型时，把数据和基础模型交给终端里的代理，完成微调并拿到模型权重。
+  job_en: A team developer without ML staff, holding a private dataset and needing a deployable model,
+    hands data and a base model to a terminal agent to complete fine-tuning and obtain model weights.
+  pain: 微调通常要写训练脚本、配环境和调参，非专业团队做不动，只能放弃自有数据或外包。
+  pain_en: Fine-tuning usually requires writing training scripts, configuring environments and tuning
+    parameters, which non-specialist teams cannot do, so they abandon their own data or outsource.
+  current_alternative: 照抄开源微调脚本、用云厂商托管训练服务，或直接调用通用大模型 API 而不做微调。
+  current_alternative_en: Copying open-source fine-tuning scripts, using cloud vendors' managed training
+    services, or calling general LLM APIs without fine-tuning.
+  usage_reason: 推断：若它真能把数据准备、训练配置和运行收敛成终端里的几步交互，用户就省掉写脚本和调环境这一步，从而让没有算法背景的团队自己完成微调；但公开材料未说明支持范围与交付结果，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if it truly collapses data preparation, training configuration and execution
+    into a few terminal interactions, users skip writing scripts and setting up environments, letting
+    teams without ML backgrounds fine-tune themselves; however, the public material does not state supported
+    scope or delivered output, so this causal link is unproven.'
+- id: req-full-brewery-ai-2026-10-06
+  project_slug: brewery-ai
+  level: full
+  reviewed_at: '2026-10-06T02:51:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非专业团队做不了微调这一需求：痛点是要写脚本、配环境、调参，不采用就只能放弃自有数据或外包；仓库自述面向“几乎没有经验”的用户，与终端代理这一交付形态一致，属工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 186 星等关注度指标，没有用户反馈、案例或讨论说明谁在用、用来做什么，无法判断是否形成持续采用；关注度不能替代采用证据。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费路径或采购信息，买方是自建团队、外包服务方还是个人开发者无法判断；这是判断而非已验证事实，但不影响价值关成立。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近微调工作的第一性目标，训练结果能否复现、人工确认边界与安全约束均未披露，交付确定性尚不可验证。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+  next_validation: 追踪该仓库 README、文档与 issue/discussion，确认支持的模型、数据格式、训练产出与是否有外部用户报告实际微调结果。
+  market: ''
+  job: 缺少算法人手的团队开发者，在已有私有数据集、需要得到可部署模型时，把数据和基础模型交给终端里的控制台代理，完成微调并拿到模型权重。
+  job_en: A team developer without ML staff, holding a private dataset and needing a deployable model,
+    hands data and a base model to a terminal console agent to complete fine-tuning and obtain model weights.
+  pain: 微调通常要写训练脚本、配环境和调参，非专业团队做不动，只能放弃自有数据或外包；仓库自述面向“几乎没有经验”的用户，说明这一门槛被其视为核心痛点。
+  pain_en: Fine-tuning usually requires writing training scripts, configuring environments and tuning
+    parameters, which non-specialist teams cannot do, so they abandon their own data or outsource; the
+    repo's own framing toward users with little to no experience indicates this barrier is treated as
+    the core pain.
+  current_alternative: 照抄开源微调脚本、用云厂商托管训练服务，或直接调用通用大模型 API 而不做微调。
+  current_alternative_en: Copying open-source fine-tuning scripts, using cloud vendors' managed training
+    services, or calling general LLM APIs without fine-tuning.
+  usage_reason: 推断：相较照抄脚本或走云托管训练，它把数据准备、训练配置与运行收敛为终端里的交互式代理，用户省掉写脚本和调环境这一步，因此没有算法背景、又必须用自有数据出模型的小团队会在这种情况下选择它；公开材料未说明支持范围与产出，该因果仍属结构推理。
+  usage_reason_en: 'Inference: compared with copying scripts or using managed cloud training, it collapses
+    data preparation, training configuration and execution into an interactive terminal agent, removing
+    the step of writing scripts and setting up environments, so small teams without ML backgrounds that
+    must ship a model from their own data would choose it in that situation; the public material does
+    not state supported scope or output, so this causal link remains structural inference.'

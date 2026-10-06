@@ -22,7 +22,7 @@ summary: RAK Ceramics accelerates AI Integration across group to drive efficienc
   Daily
 first_seen: '2026-10-05T20:45:33Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

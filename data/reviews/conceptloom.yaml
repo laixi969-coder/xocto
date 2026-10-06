@@ -87,3 +87,52 @@
     map and cross-session progress maintained by the coding agent, removing the manual cross-check step,
     so learners already using coding agents and losing progress would try it; 56 stars show developer
     attention only, with no retention evidence.'
+- id: req-full-conceptloom-2026-10-06
+  project_slug: conceptloom
+  level: full
+  reviewed_at: '2026-10-06T02:51:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自学时薄弱点不明、进度跨会话丢失的问题，旧替代是自己列清单、看视频、手动记笔记，痛点具体且不采用就要反复重学；但掌握判定与进度存储方式公开材料未说明，属工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-99af013994a59633
+    - ev-697ce546b50d83c6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 56 增至 85，仅说明开发者关注度上升，没有学习者持续使用、完成率或跨会话复用的公开记录，无法判断是否真留在学习流程里。
+    evidence_ids:
+    - ev-99af013994a59633
+    - ev-697ce546b50d83c6
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料没有定价页、付费或机构采购路径，买方是个人自学者还是培训机构无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-99af013994a59633
+  - gate: truth
+    status: insufficient
+    reason: 理解检查如何判定掌握程度、是否会给出虚假的掌握结论、进度存在哪里，公开材料均未说明，学习结果的确定性无法核对。
+    evidence_ids:
+    - ev-99af013994a59633
+  next_validation: 追踪 ConceptLoom 仓库的 README、issue 与 discussion，确认理解检查的判定方式、进度存储位置，以及是否有学习者报告跨会话持续使用的记录。
+  market: ''
+  job: 自学者在 Codex、Claude Code 或 OpenCode 里学一门新技术时，需要先摸清自己已掌握什么，再得到下一步该学什么，并在多次会话之间保留进度，避免每次从零开始。
+  job_en: A self-directed learner studying a new technology inside Codex, Claude Code, or OpenCode needs
+    to establish what they already know, get told what to learn next, and keep progress across sessions
+    instead of restarting from zero.
+  pain: 自学时薄弱点不明，学过的内容下次会话就丢，容易反复看已会的东西，也说不清自己是否真的掌握；公开材料只给出产品自述，没有学习者抱怨或使用记录佐证。
+  pain_en: Self-study leaves weak spots unclear; what was covered is lost by the next session, so learners
+    re-read what they already know and cannot tell whether they have actually mastered it; public material
+    offers only the product's own description, no learner complaints or usage records.
+  current_alternative: 旧做法是自己列学习清单、看教程视频，或把笔记存在另一个文档里手动对照，进度与知识状态全靠人自己维护。
+  current_alternative_en: The old behaviour is keeping a self-made study list, watching tutorial videos,
+    or storing notes in a separate document and cross-checking manually, with progress and knowledge state
+    maintained entirely by hand.
+  usage_reason: 推断：它把“自己列清单、自己记进度”换成由编码代理维护的知识地图与跨会话进度，减少手动对照这一步，因此已在用编码代理学习、又苦于进度丢失的人会尝试；仓库星标从 56 增至
+    85 只说明开发者关注，不构成留存或持续使用证据。
+  usage_reason_en: 'Inference: it replaces ''keep your own list and track your own progress'' with a knowledge
+    map and cross-session progress maintained by the coding agent, removing the manual cross-checking
+    step, so people already learning through coding agents and losing progress would try it; stars rising
+    from 56 to 85 indicate developer attention only, not retention or sustained use.'

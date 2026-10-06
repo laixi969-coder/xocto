@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XWjhDb1YyaG5m
 summary: AI Coding Agents Are Breaking Big Codebases — Dan Adler, Sourcegraph｜AI Engineer finance.biggo.com
 first_seen: '2026-10-04T23:11:37Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

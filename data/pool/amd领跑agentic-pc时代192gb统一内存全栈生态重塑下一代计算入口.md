@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UV2NVYkM4UWZI
 summary: AMD领跑Agentic PC时代：192GB统一内存+全栈生态重塑下一代计算入口 SmartHey
 first_seen: '2026-10-05T14:12:00Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

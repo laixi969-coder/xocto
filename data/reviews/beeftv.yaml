@@ -380,3 +380,53 @@
     footage, per-use fees, and platform limits, which appeals to editors concerned about privacy, cost,
     or usage caps; this is structural reasoning from positioning and the author''s stated pain, not confirmed
     by user feedback.'
+- id: req-full-beeftv-2026-10-06
+  project_slug: beeftv
+  level: full
+  reviewed_at: '2026-10-06T02:51:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频剪辑者整理与剪辑素材的任务，痛点在于素材整理与剪辑是高频重复劳动、且素材隐私与上传成本敏感；本地优先加 AI 原生在结构上对应这一痛点。但公开材料只有一句定位，未记录用户抱怨、频率或不解决的后果，故为工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-18b8d9df4c13ccdb
+    - ev-24618c18a1dc849f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 635 增至 835，说明开发者社区持续关注；但收藏与复刻只属关注度证据，不能证明目标剪辑用户已把它留在工作流里，也未见使用评价或案例。
+    evidence_ids:
+    - ev-18b8d9df4c13ccdb
+    - ev-24618c18a1dc849f
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济，谁付钱无法核验；开源仓库可能靠捐赠、托管或企业版变现，这是判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-18b8d9df4c13ccdb
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 具体执行哪一步剪辑动作、交付何种成片形态，也未给出人工复核与安全边界，交付能否确定发生无法核验。
+    evidence_ids:
+    - ev-18b8d9df4c13ccdb
+  next_validation: 追踪 BeefTV 仓库的 README、issue 与 discussion，确认它实际接收的素材类型、AI 执行的具体剪辑动作与交付成片形态。
+  market: ''
+  job: 视频剪辑者在本地整理和剪辑素材时，打开这个本地优先工作台，让 AI 处理视频素材并产出剪辑结果；具体输入素材类型、执行哪一步剪辑动作、交付何种成片形态，公开材料未给出细节。
+  job_en: Video editors open this local-first workspace while organizing and cutting footage, letting
+    AI process video material and produce an edit; the specific input types, edit step, and delivered
+    output form are not detailed in public materials.
+  pain: 公开材料只给出“本地优先、轻量、AI 原生视频工作台”这一句定位，未记录用户抱怨、不解决的代价或发生频率；痛点只能从工作流结构推断：素材整理与剪辑本身是高频、耗时的重复劳动，本地优先意味着用户在意素材隐私与上传成本。
+  pain_en: 'Public materials give only the positioning line ''local-first, lightweight, AI-native video
+    workspace'' with no recorded user complaints, cost of inaction, or frequency; the pain is inferred
+    from workflow structure: footage organization and editing are high-frequency, time-consuming repetitive
+    work, and local-first implies users care about footage privacy and upload cost.'
+  current_alternative: 公开材料未说明用户目前用什么完成这项工作；按工作流结构推断，替代方式是 Premiere、Final Cut、DaVinci 等本地剪辑软件，或把素材上传到云端
+    AI 剪辑服务。
+  current_alternative_en: Public materials do not state what users currently use; by workflow inference,
+    alternatives are local editors such as Premiere, Final Cut, or DaVinci, or uploading footage to cloud
+    AI editing services.
+  usage_reason: 推断：相较把素材上传云端 AI 服务，本地优先意味着素材不出本机、省去上传等待与隐私顾虑；相较传统本地剪辑软件，AI 原生意味着由模型承担部分整理或剪辑动作。但公开材料未给出具体动作与可核对结果，因此这只是结构推理，不是用户已表达的采用理由。
+  usage_reason_en: 'Inference: versus uploading footage to cloud AI services, local-first keeps material
+    on-device, removing upload wait and privacy concerns; versus traditional local editors, AI-native
+    means the model takes over part of the organizing or cutting. Public materials give no concrete action
+    or checkable result, so this is structural inference, not a stated adoption reason.'

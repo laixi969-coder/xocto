@@ -1,0 +1,78 @@
+- id: req-initial-can-safeworld-convince-people-that-genai-robots-wont-hurt-th-2026-10-06
+  project_slug: can-safeworld-convince-people-that-genai-robots-wont-hurt-th
+  level: initial
+  reviewed_at: '2026-10-06T02:19:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 未进入：材料只有一句定位，未说明任务、痛点与旧做法。
+    evidence_ids:
+    - ev-73bdb58fdef4b342
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：无客户采用或测试规模证据。
+    evidence_ids:
+    - ev-73bdb58fdef4b342
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价或付费路径。
+    evidence_ids:
+    - ev-73bdb58fdef4b342
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无验证结果或第三方核验材料。
+    evidence_ids:
+    - ev-73bdb58fdef4b342
+  next_validation: Safeworld 官方产品页或公开技术文档中的测试流程与交付物说明。
+  market: ''
+  job: 机器人厂商或工业客户在部署前需要验证机器人行为安全，材料未说明具体操作者与流程。
+  job_en: Robot makers or industrial customers need to validate robot behaviour safety before deployment;
+    the material does not describe the specific operators or workflow.
+  pain: 材料未说明现有安全验证方式在哪个环节失效或成本过高。
+  pain_en: The material does not state which step of existing safety validation fails or is too costly.
+  current_alternative: 未提供与现有仿真或实机测试方案的对比。
+  current_alternative_en: No comparison with existing simulation or physical testing approaches is provided.
+  usage_reason: 缺少测试流程、交付物与客户证据，无法解释买方为何选择它。
+  usage_reason_en: Testing workflow, deliverables and customer evidence are missing, so why buyers would
+    choose it cannot be explained.
+- id: req-full-can-safeworld-convince-people-that-genai-robots-wont-hurt-th-2026-10-06
+  project_slug: can-safeworld-convince-people-that-genai-robots-wont-hurt-th
+  level: full
+  reviewed_at: '2026-10-06T02:51:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅一句定位，未说明用户任务、痛点环节、旧替代方式与不解决的后果，连需求与痛点都无法还原，故无法形成价值判断。
+    evidence_ids:
+    - ev-73bdb58fdef4b342
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Safeworld 官方产品页或公开技术文档，确认其数字人测试的输入、流程与交付物说明。
+  market: ''
+  job: 机器人厂商或工业客户在生成式 AI 机器人投入真实人机共处环境前，需要验证其行为是否安全；材料未说明具体操作者、输入材料与测试流程。
+  job_en: Robot makers or industrial customers need to verify that generative-AI robots behave safely
+    before they enter real human-robot shared environments; the material does not specify the operators,
+    input materials or testing workflow.
+  pain: 材料只有一句定位，未说明现有安全验证在哪个环节失效、代价多高，也未给出任何用户抱怨或旧做法证据。
+  pain_en: The material offers only a one-line positioning and does not state which step of existing safety
+    validation fails or how costly it is, nor any user complaint or workaround evidence.
+  current_alternative: 未提供与现有仿真测试、实机测试或安全认证流程的对比，无法还原当前替代方式。
+  current_alternative_en: No comparison with existing simulation testing, physical testing or safety certification
+    processes is provided, so the current alternative cannot be reconstructed.
+  usage_reason: 缺少测试流程、交付物与客户证据，无法解释哪类用户会在什么情况下选择它；仅凭定位句无法形成因果推断。
+  usage_reason_en: Testing workflow, deliverables and customer evidence are missing, so which users would
+    choose it and when cannot be explained; a positioning sentence alone cannot support a causal inference.

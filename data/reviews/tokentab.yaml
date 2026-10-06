@@ -88,3 +88,52 @@
     and conversion step, so developers running several projects who must justify spend to clients or budgets
     would pick it at settlement time; this is workflow inference from product capability, with no retention
     or payment evidence yet.
+- id: req-full-tokentab-2026-10-06
+  project_slug: tokentab
+  level: full
+  reviewed_at: '2026-10-06T02:54:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编程开销无法按项目归因的需求，痛点是超支与结算说不清；旧做法是逐个翻厂商用量页手工汇总，不核算则成本失控。产品只读本机会话日志即可产出按模型、项目、日期的费用明细，交付路径确定，属工作流结构推理。
+    evidence_ids:
+    - ev-deecb6092d87992d
+    - ev-4caae88461f5565c
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标从 97 增至 157，属关注度而非持续采用；没有用户评价、issue 或团队案例说明它已进入日常结算流程，强场景存在但采用证据未核验。
+    evidence_ids:
+    - ev-deecb6092d87992d
+    - ev-4caae88461f5565c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是个人开发者或团队，属判断而非已验证事实；本地优先、数据不出本机也意味着难以靠数据变现，付费路径尚未在公开材料中出现。
+    evidence_ids:
+    - ev-deecb6092d87992d
+  - gate: truth
+    status: supported
+    reason: 只读本机会话日志、不登录不传数据，承诺的按模型项目日期费用明细与实现路径一致，无账号与 API key 也降低了越权风险；人工仍需自行判断哪些消耗值得，边界清晰。
+    evidence_ids:
+    - ev-deecb6092d87992d
+    - ev-4caae88461f5565c
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有团队把它接入项目结算或预算告警的实际使用记录。
+  market: ''
+  job: 使用 Claude Code、Codex 或 Gemini CLI 的开发者或团队负责人，在月底结算或项目复盘时，需要把散落在本机会话日志里的 token 消耗整理成按模型、项目、日期和活动可查的费用明细。
+  job_en: Developers or team leads using Claude Code, Codex or Gemini CLI who, at month-end settlement
+    or project review, need to turn token consumption scattered across local session logs into a cost
+    breakdown searchable by model, project, date and activity.
+  pain: AI 编程开销混在订阅或 API 账单里，无法按项目归因，超支或向客户结算时说不清钱花在哪，只能靠估算；公开材料未给出用户抱怨原文，痛点强度属工作流结构推理。
+  pain_en: AI coding spend is buried in subscription or API bills and cannot be attributed per project,
+    so overspend or client settlement cannot be explained and must be estimated; public materials give
+    no verbatim user complaint, so pain intensity is workflow inference.
+  current_alternative: 逐个打开各家工具的用量页面、把账单导出到表格手工汇总，或干脆不核算、凭感觉控制用量。
+  current_alternative_en: Opening each tool's usage page one by one, exporting bills into spreadsheets
+    and aggregating by hand, or skipping accounting entirely and controlling usage by feel.
+  usage_reason: 相较逐个打开厂商用量页再手工抄数换算，它直接读取本机已有的会话日志并按模型、项目、日期聚合，省掉跨工具抄数与换算这一步，因此多项目并行、需要向客户或预算交代的开发者会在结算节点选择它；这是基于产品能力的工作流推断，尚无留存或付费证据。
+  usage_reason_en: Compared with opening each vendor's usage page and copying numbers by hand, it reads
+    existing on-machine session logs and aggregates by model, project and date, removing the cross-tool
+    copying and conversion step, so developers running several projects who must justify spend to clients
+    or budgets would pick it at settlement time; this is workflow inference from product capability, with
+    no retention or payment evidence yet.

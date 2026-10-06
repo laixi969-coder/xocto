@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPQzVrU1lPZDM4
 summary: AI智能体点燃云计算第二增长曲线! 华尔街大行拆解IaaS扩容潮与PaaS价值重估 谁赚走Token狂潮的真金白银? 新浪财经
 first_seen: '2026-10-03T18:22:30Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

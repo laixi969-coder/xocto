@@ -284,3 +284,56 @@
     the parse-then-branch step into the library''s type contract and running offline by default, so developers
     embedding model judgments in Node services who do not want to maintain a parsing layer would pick
     it when integrating DeepSeek or MCP; public materials do not yet include user-stated motivation.'
+- id: req-full-jevcore-2026-10-06
+  project_slug: jevcore
+  level: full
+  reviewed_at: '2026-10-06T02:53:06Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型输出无法被程序直接判断的需求：开发者接入 DeepSeek、MCP 或普通 Node 时，自由文本需自写解析与重试，措辞变化即失败，不解决则集成层脆弱；类型化判断与默认离线可确定交付，属工作流结构推理。
+    evidence_ids:
+    - ev-7009d64a9498ad01
+    - ev-82abaafaeb2e1af5
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 65 增至 103，说明有开发者持续关注并把它纳入工具链视野；但尚无 issue、讨论或客户案例说明具体部署场景，因此共识只到关注层，未到持续采用。
+    evidence_ids:
+    - ev-7009d64a9498ad01
+    - ev-63b6289adc259d04
+    - ev-82abaafaeb2e1af5
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有仓库说明与收藏数，没有定价页、付费主体或采购记录，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-7009d64a9498ad01
+    - ev-321ca433ff9a99da
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺类型化判断与默认离线，但缺少部署文档、可复现实测或 issue 记录来核验交付是否稳定发生，以及模型判断错误时的人工与安全边界如何界定。
+    evidence_ids:
+    - ev-7009d64a9498ad01
+    - ev-d54044c90ac00279
+  next_validation: 追踪 jevcore 仓库的 README、部署文档与 issue / discussion，确认是否有开发者公开描述在何种 Node 或 MCP 场景部署、替代了哪套自写解析流程。
+  market: ''
+  job: 后端与工具链开发者、AI 应用集成工程师在把 DeepSeek 或 MCP 工具链接入自有 Node 服务时，处理模型返回的自然语言文本，要把它变成代码可直接判断的类型化结果，以便下游逻辑分支、校验与自动化流程继续执行。
+  job_en: Backend and tooling developers and AI application integration engineers wiring DeepSeek or MCP
+    toolchains into their own Node services take model output as prose and must turn it into typed values
+    their code can branch on, validate, and feed into downstream automation.
+  pain: 模型默认输出自由文本，程序无法直接消费，开发者必须自己写解析、正则或 JSON 校验，模型措辞一变就解析失败，且调用外部服务带来延迟与数据外泄顾虑；不解决的后果是集成层脆弱、需要反复修补。
+  pain_en: Model output is free-form prose that code cannot consume directly, so developers hand-roll
+    parsers, regexes, or JSON validation that break whenever wording shifts, while external calls add
+    latency and data-exposure concerns; leaving it unsolved keeps the integration layer brittle and repeatedly
+    patched.
+  current_alternative: 常见旧做法是自行编写提示词约束加 JSON 解析与重试逻辑，或依赖各家 SDK 的 function calling / structured output
+    参数，再自行做类型校验与错误兜底。
+  current_alternative_en: The common workaround is hand-written prompt constraints plus JSON parsing and
+    retry logic, or relying on each SDK's function-calling / structured-output parameters and then adding
+    custom type validation and error fallbacks.
+  usage_reason: 相较自写解析与重试，jevcore 以类型化判断替代散文输出，让模型结果直接成为可被代码判断的值，并默认离线运行，从而省去解析失败后的重试与兜底代码，并减少对外部服务的依赖；推断这类开发者会在需要确定性分支、又希望本地或离线运行的集成场景中选择它。
+  usage_reason_en: Compared with hand-rolled parsing and retries, jevcore replaces prose with typed judgments
+    so model results become values code can branch on directly, and it runs offline by default, removing
+    retry and fallback code after parse failures and reducing dependence on external services; the inference
+    is that such developers pick it when they need deterministic branching and local or offline execution.

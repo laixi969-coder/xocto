@@ -24,7 +24,7 @@ summary: Norbert Wiener, godfather of cybernetics, once said, "The thought of ev
   machine." Elon Musk puts it more bluntly, […]
 first_seen: '2026-10-05T10:00:00Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

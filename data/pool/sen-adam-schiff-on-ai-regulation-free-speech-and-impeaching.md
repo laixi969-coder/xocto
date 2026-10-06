@@ -24,7 +24,7 @@ summary: 'Today, I’m talking with Sen. Adam Schiff, a Democrat from California
   industry at this moment in […]'
 first_seen: '2026-10-05T14:30:00Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

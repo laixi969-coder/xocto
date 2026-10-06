@@ -284,3 +284,53 @@
   usage_reason_en: 'Why users would choose it cannot be explained: rule content, delivery form, feedback,
     and cases are absent; one can only infer it might cut manual formatting steps, which is inference,
     not fact.'
+- id: req-full-seiso-2026-10-06
+  project_slug: seiso
+  level: full
+  reviewed_at: '2026-10-06T02:54:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成仓库文档结构不一致、人和智能体读取偏差的问题，痛点是文档入库前必须统一格式；公开仓库说明其定位为面向 AI 写、人机共读的 Markdown 约定与 linter，结构推理成立，但尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-8d163d4e3d36c584
+    - ev-6077c967971ba7e1
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示收藏从 179 增至 181，说明有开发者关注，但收藏与星标只属关注度，未见 issue、discussion 或评价证明目标用户已把它纳入日常文档流程。
+    evidence_ids:
+    - ev-8d163d4e3d36c584
+    - ev-6077c967971ba7e1
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，开源仓库也未说明商业化路径；谁付钱、按什么单位收费均属未知，这是模式缺口而非需求不存在。
+    evidence_ids:
+    - ev-8d163d4e3d36c584
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出项目定位与星标数，未见检查规则清单、部署文档或可复现的 lint 输出，无法核对交付是否确定发生及人工介入边界。
+    evidence_ids:
+    - ev-8d163d4e3d36c584
+    - ev-6077c967971ba7e1
+  next_validation: 追踪 seiso 仓库的 README、规则文档与 issue/discussion，确认实际检查规则、部署方式及是否有团队公开描述替代旧流程的使用记录。
+  market: ''
+  job: 软件工程师或技术文档维护者在用 AI 生成仓库文档（README、设计说明、AGENTS.md 等）后，需要让这些 Markdown 既被人读懂、又能被智能体稳定解析，于是要在提交前按统一约定整理并检查文档结构。
+  job_en: A software engineer or docs maintainer, after generating repository docs (README, design notes,
+    AGENTS.md) with AI, must make that Markdown both human-readable and reliably parseable by agents,
+    so they normalize and lint the doc structure before committing.
+  pain: AI 批量产出的 Markdown 标题层级、链接和结构往往不一致，人和智能体读同一份文档时理解偏差大；人工逐篇校对既费时又容易漏，且没有统一约定可依。
+  pain_en: AI-generated Markdown tends to have inconsistent heading levels, links and structure, so humans
+    and agents read the same doc differently; manual per-file review is slow, error-prone and lacks a
+    shared convention.
+  current_alternative: 目前多靠人工审阅、团队口口相传的写作习惯，或通用 Markdown linter（如 markdownlint）与 CI 检查；这些工具面向人类排版，不针对“供智能体阅读”的文档约定。
+  current_alternative_en: Today teams rely on manual review, informal team writing habits, or generic
+    Markdown linters (e.g. markdownlint) in CI; those target human formatting, not agent-readable doc
+    conventions.
+  usage_reason: 推断：相较人工逐篇校对或通用 linter，seiso 把“AI 生成文档的约定”固化成可执行的检查规则，在提交前一步自动标出不符合约定的结构，减少人工通读和返工；因此维护
+    AI 生成文档、且需要智能体读取的团队会在文档入库环节选用它。
+  usage_reason_en: 'Inference: versus manual per-file review or generic linters, seiso encodes an AI-doc
+    convention into executable lint rules that flag non-conforming structure before commit, cutting manual
+    reading and rework; teams maintaining AI-generated docs that agents must read would adopt it at the
+    doc-commit step.'

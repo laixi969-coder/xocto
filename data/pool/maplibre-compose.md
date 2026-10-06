@@ -21,7 +21,7 @@ canonical_url: https://github.com/maplibre/maplibre-compose
 summary: Interactive Vector Maps for Compose Multiplatform
 first_seen: '2026-10-04T20:55:40Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

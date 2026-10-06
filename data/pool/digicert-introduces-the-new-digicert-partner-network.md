@@ -1,6 +1,6 @@
 ---
 slug: digicert-introduces-the-new-digicert-partner-network
-name: DigiCert introduces the new DigiCert Partner Network
+name: DigiCert Partner Network
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxPdXczYm9KbXVQ
 summary: DigiCert introduces the new DigiCert Partner Network varindia
 first_seen: '2026-10-05T22:16:25Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# DigiCert introduces the new DigiCert Partner Network
+# DigiCert Partner Network
 
 DigiCert introduces the new DigiCert Partner Network varindia
 

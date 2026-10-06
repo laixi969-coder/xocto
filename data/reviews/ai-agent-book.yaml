@@ -724,3 +724,46 @@
   usage_reason: 公开材料未提供用户反馈或采用证据，无法说明读者为什么会选择它而非其他教材或文档。
   usage_reason_en: Public materials provide no user feedback or adoption evidence to explain why readers
     would choose it over other textbooks or documentation.
+- id: req-full-ai-agent-book-2026-10-06
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-10-06T02:50:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 release/commit 记录，确认实验是否随框架版本持续可运行、是否有读者反馈实际用于项目。
+  market: ''
+  job: AI 应用开发者或技术团队在准备把 LLM 助手从 demo 推进到可上线系统时，处理设计原理与工程实践材料，要完成的任务是照着可运行的实验把 Agent 的规划、工具调用、记忆与评测环节搭起来。
+  job_en: AI application developers or technical teams, when moving an LLM assistant from demo to shippable
+    system, work through design-principle and engineering-practice material to build an agent's planning,
+    tool-calling, memory and evaluation loops from runnable experiments.
+  pain: 公开材料只表明它是一本开源教材加实验，未提供用户抱怨或访谈；从工作流结构推断，痛点是 Agent 工程知识散落在博客、论文与零散示例中，读者难以把原理对应到可运行代码，试错成本高。
+  pain_en: Public material only shows an open textbook plus experiments, with no user complaints or interviews;
+    inferred from workflow structure, the pain is that agent engineering knowledge is scattered across
+    blogs, papers and snippets, so readers struggle to map principles onto runnable code and pay high
+    trial-and-error cost.
+  current_alternative: 当前替代方式是自行拼凑官方文档、论文、博客与零散 公开代码仓库 示例，或直接照抄某个开源 Agent 框架的 README 上手。
+  current_alternative_en: The current alternative is stitching together official docs, papers, blogs and
+    scattered public code repository examples, or copying an open-source agent framework's README to get
+    started.
+  usage_reason: 推断：相较自行拼凑资料，它把原理讲解与配套实验放在同一份可复刻仓库里，读者可少走“先读论文再找示例”的中间步骤，直接按章节跑通实验；因此正在选型或自建 Agent 的开发者会在需要系统化上手时选择它。
+  usage_reason_en: 'Inference: versus stitching material together, it puts the explanation and companion
+    experiments in one forkable repository, cutting the ''read the paper then hunt for an example'' step
+    so readers can run experiments chapter by chapter; developers evaluating or building agents would
+    pick it when they need a systematic on-ramp.'

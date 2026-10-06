@@ -1,0 +1,83 @@
+- id: req-initial-oogwai-beacon-2026-10-06
+  project_slug: oogwai-beacon
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是内容在 AI 答案引擎中是否可见的问题，痛点方向成立，但公开材料只有一句定位，未说明输入、检查项与交付，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-37614de7227ef75a
+  - gate: consensus
+    status: insufficient
+    reason: 除上线信息外没有用户评价、采用或讨论证据，无法判断内容团队是否真的把这类审计纳入流程。
+    evidence_ids:
+    - ev-37614de7227ef75a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断是内容团队自购、代理公司采购还是按报告收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-37614de7227ef75a
+  - gate: truth
+    status: insufficient
+    reason: 答案引擎可见性本身波动大且机制不透明，审计结论能否稳定复现、是否会被平台规则变化推翻，公开材料未涉及。
+    evidence_ids:
+    - ev-37614de7227ef75a
+  next_validation: 收集 Oogwai Beacon 官方页面或定价页，确认审计的输入、检查项、交付形态与收费方式。
+  market: ''
+  job: 内容营销或 SEO 人员在内容发布前后，需要确认自家内容是否被 AI 答案引擎引用或呈现，以便调整内容策略。
+  job_en: Before or after publishing, content marketers or SEO specialists need to confirm whether their
+    content is cited or surfaced by AI answer engines so they can adjust content strategy.
+  pain: AI 答案引擎不公开排名机制，团队无法像看搜索排名那样判断内容是否被引用，只能靠人工反复提问猜测。
+  pain_en: AI answer engines do not expose ranking mechanics, so teams cannot judge citation the way they
+    read search rankings and can only guess by repeatedly asking questions manually.
+  current_alternative: 目前多靠人工在多个 AI 助手里手动提问、截图记录，或沿用传统 SEO 排名工具，但这些工具不覆盖答案引擎。
+  current_alternative_en: Today teams mostly ask several AI assistants manually and screenshot results,
+    or keep using traditional SEO rank trackers that do not cover answer engines.
+  usage_reason: 推断：若该工具能自动批量检查内容在多个答案引擎中的呈现并给出可核对的审计结果，内容团队就不必逐条手动提问记录，从而在发布前多一道可复查的检查；但公开材料未说明检查方式与交付形态，无法确认这一步是否真的被替代。
+  usage_reason_en: 'Inference: if the tool automatically checks content across several answer engines
+    and returns a verifiable audit, content teams would skip manual question-by-question logging and gain
+    a reviewable pre-publish check; however public material does not describe the checking method or deliverable,
+    so whether that step is truly replaced cannot be confirmed.'
+- id: req-full-oogwai-beacon-2026-10-06
+  project_slug: oogwai-beacon
+  level: full
+  reviewed_at: '2026-10-06T02:53:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决内容在 AI 答案引擎中是否被引用的问题，痛点方向成立，但公开材料只有一句定位，未说明输入、检查项与交付，无法确认替代了哪一步旧工作，也说不清不解决的后果。
+    evidence_ids:
+    - ev-37614de7227ef75a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Oogwai Beacon 官方产品页或定价页，确认审计的输入格式、检查项、交付形态与收费方式。
+  market: ''
+  job: 内容营销或 SEO 人员在内容发布前后，需要确认自家页面是否被 AI 答案引擎引用或呈现，以便调整内容策略。
+  job_en: Before or after publishing, content marketers or SEO specialists need to confirm whether their
+    pages are cited or surfaced by AI answer engines so they can adjust content strategy.
+  pain: AI 答案引擎不公开引用与排序机制，团队无法像看搜索排名那样判断内容是否被引用，只能靠人工反复提问猜测。
+  pain_en: AI answer engines do not expose citation or ranking mechanics, so teams cannot judge citation
+    the way they read search rankings and can only guess by repeatedly asking questions manually.
+  current_alternative: 目前多靠人工在多个 AI 助手里手动提问、截图记录，或沿用传统 SEO 排名工具，但这些工具不覆盖答案引擎。
+  current_alternative_en: Today teams mostly ask several AI assistants manually and screenshot results,
+    or keep using traditional SEO rank trackers that do not cover answer engines.
+  usage_reason: 推断：若该工具能自动批量检查内容在多个答案引擎中的呈现并给出可核对的审计结果，内容团队就不必逐条手动提问记录；但公开材料只有一句定位，未说明输入、检查项与交付形态，无法确认这一步是否真的被替代。
+  usage_reason_en: 'Inference: if the tool automatically checks content across several answer engines
+    and returns a verifiable audit, content teams would skip manual question-by-question logging; however
+    public material offers only a one-line positioning and does not describe inputs, checks, or deliverable,
+    so whether that step is truly replaced cannot be confirmed.'

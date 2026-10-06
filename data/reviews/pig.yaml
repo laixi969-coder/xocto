@@ -384,3 +384,46 @@
   usage_reason_en: 'Inference: if PiG truly delivers a Go build of the coding agent under the upstream
     behavior contract, developers needing single-binary Go distribution might choose it; however, no evidence
     supports this motive or shows which step it removes versus the old approach.'
+- id: req-full-pig-2026-10-06
+  project_slug: pig
+  level: full
+  reviewed_at: '2026-10-06T02:53:57Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称把上游 Pi 的 TypeScript 编码代理翻译为 Go 以保持行为一致，但全部证据均为动物“猪”的百科条目，未出现任何编码代理、用户任务、痛点或旧替代行为，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-d9ada06320fba88c
+    - ev-7c300fa943d4befa
+    - ev-e8a351b135b9983a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 PiG 对应的公开代码仓库（README、release、issue/discussion）与上游 Pi 项目页面，确认是否存在真实的 Go 移植实现、行为对齐说明及使用者反馈。
+  market: ''
+  job: 开发者（或运维）在自建、受限或需离线分发的运行环境中部署编码代理时，需要把上游 Pi 的 TypeScript 实现换成可编译、易分发的 Go 版本，并保持与上游一致的行为契约。
+  job_en: Developers (or operators) deploying a coding agent in self-hosted, constrained, or offline-distribution
+    environments need to replace upstream Pi's TypeScript implementation with a compilable, easily distributed
+    Go build while preserving upstream behavior as the contract.
+  pain: 公开证据里没有任何一条能说明这项任务带来什么具体痛苦：没有用户抱怨、没有旧流程描述、没有不采用 Go 版本的后果。现有证据全部是关于动物“猪”的百科条目，与编码代理无关。
+  pain_en: 'No public evidence describes any concrete pain from this job: no user complaints, no description
+    of the old workflow, no consequence of not having a Go build. All available evidence is encyclopedia
+    content about the animal pig, unrelated to coding agents.'
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了什么旧做法（例如直接运行上游 TypeScript 版本、用 Node 打包分发，或改用其他语言的代理）。
+  current_alternative_en: Public materials do not show how users currently do this job or what it replaces
+    (e.g., running upstream TypeScript directly, packaging with Node, or using agents in other languages).
+  usage_reason: 无法从公开证据推断用户为何选择它：证据中没有产品仓库、文档、issue、评价或采用记录，只有与动物猪相关的百科页面，无法建立“相较旧做法减少哪一步负担”的因果链。
+  usage_reason_en: 'No usage reason can be inferred from public evidence: there is no product repository,
+    documentation, issue, review, or adoption record, only encyclopedia pages about the animal pig, so
+    no causal link to reduced burden versus the old approach can be established.'

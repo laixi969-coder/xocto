@@ -1,6 +1,6 @@
 ---
 slug: ai-cloud-startup-verda-raises-189m-in-series-b-funding-round
-name: AI cloud startup Verda raises $189m in Series B funding round
+name: Verda
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxNdmhMVXZJSXFm
 summary: AI cloud startup Verda raises $189m in Series B funding round Data Center Dynamics
 first_seen: '2026-10-05T17:59:05Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI cloud startup Verda raises $189m in Series B funding round
+# Verda
 
 AI cloud startup Verda raises $189m in Series B funding round Data Center Dynamics
 

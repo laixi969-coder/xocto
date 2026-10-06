@@ -23,7 +23,7 @@ summary: Businesses are using AI to predict what individual customers will pay -
   being paid Startup Daily
 first_seen: '2026-10-04T23:06:43Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

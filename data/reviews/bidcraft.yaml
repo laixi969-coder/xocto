@@ -254,3 +254,54 @@
     selecting the lot, generating the technical proposal from a knowledge base, and dialogue-based revision
     into one bidding-specific flow, removing the manual step of shuttling between generic tools and aligning
     scoring points; a bid specialist rushing a deadline and needing a fast technical-proposal '
+- id: req-full-bidcraft-2026-10-06
+  project_slug: bidcraft
+  level: full
+  reviewed_at: '2026-10-06T02:51:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决建筑投标中技术标编制这一具体任务：招标文件条款多、标段要求各异，需逐条响应并反复改稿，投标窗口短，响应不全可能废标。公开材料仅描述解析、选段、编写、知识库改稿的输入—动作—交付闭环，痛点强度与不采用代价属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-d01b3f028b04205d
+    - ev-9558faa86d472184
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 62 缓慢升至 67，说明有开发者关注，但收藏与排名只属关注度证据，不能证明投标人员持续使用或形成强场景；公开材料未见用户评价、部署案例或行业讨论，共识卡在场景与采用证据这一环。
+    evidence_ids:
+    - ev-d01b3f028b04205d
+    - ev-0f2e26414784dc42
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断收入来自投标企业、代写服务商还是开源社区赞助；这是判断而非已验证事实，买方缺口不反推需求不存在。
+    evidence_ids:
+    - ev-9558faa86d472184
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺产出可提交的技术标草稿，但公开材料未说明生成内容与招标条款的对应校验、废标风险边界及人工定稿责任划分，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-1df396adb736c6a5
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有真实投标人员报告部署场景、替换的旧流程及生成标书的实际使用结果。
+  market: ''
+  job: 建筑投标人员拿到招标文件后，需要解析招标要求、选定标段、撰写技术标，并基于企业知识库反复改稿，最终产出可提交的技术标草稿。
+  job_en: Construction bidding staff receive a tender document and must parse its requirements, select
+    the lot, draft the technical proposal, and revise it against the firm's knowledge base to produce
+    a submittable technical bid draft.
+  pain: 技术标编制是投标流程中耗时且重复的环节：招标文件条款多、标段要求各异，技术标需逐条响应并反复改稿，投标窗口期短，人工遗漏或响应不全可能直接导致废标。公开材料只给出产品能力，未提供用户抱怨或废标代价的直接证据，痛点强度属工作流结构推理。
+  pain_en: 'Technical bid drafting is a slow, repetitive step: tender documents carry many clauses, lot
+    requirements differ, and the proposal must respond point by point and be revised repeatedly under
+    a short submission window; omissions can invalidate the bid. Public materials only describe product
+    capability, not user complaints or disqualification costs, so pain intensity is a workflow-structure
+    inference.'
+  current_alternative: 当前替代方式为人工通读招标文件、套用历史标书模板、在 Word 中逐段撰写与改稿，或外包给标书代写服务；公开材料未说明本产品实际替换了其中哪一环。
+  current_alternative_en: Today the work is done by manually reading the tender document, reusing past
+    bid templates, drafting and revising section by section in Word, or outsourcing to bid-writing services;
+    public materials do not state which of these steps the product actually replaces.
+  usage_reason: 推断：相较人工通读加模板套写，产品把招标文件解析、标段选择、技术标生成与知识库改稿串成一条对话式流程，减少的是逐条比对招标要求与手工拼接历史素材这两步负担；因此投标窗口紧、标书任务频繁的投标人员可能选择它先出草稿再人工定稿。该动机为基于产品能力的推断，尚无用户反馈或案例佐证。
+  usage_reason_en: 'Inference: versus manual reading plus template reuse, the product chains tender parsing,
+    lot selection, technical-proposal generation and knowledge-base revision into one conversational flow,
+    removing the burden of clause-by-clause requirement matching and manual stitching of past material;
+    bidders facing tight windows and frequent bids may therefore use it to produce a draft before human
+    finalization. This motive is inferred from product capability, not supported by user fee'

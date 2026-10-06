@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVTgxZE1TbW90
 summary: AI Speed, Real Accuracy Key to Customer Satisfaction 조선일보
 first_seen: '2026-10-05T15:39:46Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

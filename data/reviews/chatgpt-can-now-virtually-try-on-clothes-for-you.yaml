@@ -169,3 +169,94 @@
     to ChatGPT and get a try-on image directly, skipping the step of comparing across apps and imagining
     the fit; this is an inference from product capability and task structure, since no retention or repeat-use
     evidence is public.
+- id: req-initial-chatgpt-can-now-virtually-try-on-clothes-for-you-2026-10-06
+  project_slug: chatgpt-can-now-virtually-try-on-clothes-for-you
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决线上买衣服看不到上身效果、尺码靠猜的问题，痛点具体且高频，旧替代行为（买家秀、尺码表、多买再退）真实存在。
+    evidence_ids:
+    - ev-4baf86e9a3190faf
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条媒体报道和社区讨论热度，没有试穿功能的采用率、使用频次或用户反馈，无法判断是否形成使用习惯。
+    evidence_ids:
+    - ev-568def6a2da10edb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明该功能是否单独收费、面向消费者还是向商家收费；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-4baf86e9a3190faf
+  - gate: truth
+    status: insufficient
+    reason: 试穿预览与实际合身度是否一致、出错时责任如何界定，公开材料没有说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-4baf86e9a3190faf
+  next_validation: 收集 OpenAI 官方关于该购物功能的说明页或帮助文档，核对支持的品类、地区、是否收费以及试穿结果的准确性说明。
+  market: ''
+  job: 线上买衣服的人在浏览商品、拿不准上身效果时，处理商品图和自己的照片，要判断这件衣服值不值得下单。
+  job_en: Online apparel shoppers who are unsure how an item looks on them handle product images and their
+    own photos to decide whether to order.
+  pain: 线上购物只能看模特图，尺码和版型判断靠猜，买错要退货，来回运费和时间都是成本。
+  pain_en: Online shopping only offers model photos, so size and cut are guesswork; wrong buys mean returns,
+    with shipping and time costs both ways.
+  current_alternative: 旧做法是看模特图与买家秀、量自己的尺寸对照尺码表，或去实体店试穿、一次买多件再退掉不合适的。
+  current_alternative_en: The old way is reading model shots and buyer photos, measuring yourself against
+    size charts, or trying items in a physical store and ordering several sizes to return the wrong ones.
+  usage_reason: 相较翻买家秀和尺码表，它把用户自己的照片直接代入商品图生成试穿预览，省掉在脑中换算版型这一步；推断对高退货率品类、习惯先看效果再下单的消费者更有吸引力，但公开材料未给出留存或复购证据。
+  usage_reason_en: Compared with scrolling buyer photos and size charts, it puts the user's own photo
+    into the product image to produce a try-on preview, removing the mental step of translating cut and
+    fit; by inference this appeals to shoppers in high-return categories who want to see the effect before
+    ordering, though no retention or repeat-use evidence is public.
+- id: req-full-chatgpt-can-now-virtually-try-on-clothes-for-you-2026-10-06
+  project_slug: chatgpt-can-now-virtually-try-on-clothes-for-you
+  level: full
+  reviewed_at: '2026-10-06T02:51:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决线上买衣服看不到上身效果、尺码靠猜的问题，痛点具体且高频，旧替代行为（买家秀、尺码表、多买再退）真实存在；试穿预览与收藏库构成输入—动作—交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-7db90610ed025d17
+    - ev-209e667501e56b83
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 ChatGPT 通用功能说明与一条英文生态早期信号，没有试穿功能的采用率、使用频次或用户反馈，无法判断是否形成使用习惯。
+    evidence_ids:
+    - ev-21cea734103aaa31
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明试穿功能是否单独收费、面向消费者还是向商家收费；ChatGPT 免费或订阅入口不等于该功能已验证付费路径，这是判断而非事实。
+    evidence_ids:
+    - ev-dbe98a86696540ad
+    - ev-76e6e83c182cd4f0
+  - gate: truth
+    status: insufficient
+    reason: 试穿预览与实际合身度是否一致、出错时责任如何界定、是否有人工复核边界，公开材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-04f83ec1b25ab168
+    - ev-5aa24f5b3151b70b
+  next_validation: 追踪 OpenAI 官方关于该购物/试穿功能的说明页或帮助文档，核对支持的品类、地区、是否收费以及试穿结果准确性说明。
+  market: ''
+  job: 线上买衣服的人在浏览商品、拿不准上身效果时，把商品图和自己的照片交给 ChatGPT，要判断这件衣服值不值得下单，并把中意商品存进收藏库回看。
+  job_en: Online apparel shoppers who are unsure how an item looks on them give product images and their
+    own photos to ChatGPT to decide whether to order and to save liked items into a favorites library
+    for later review.
+  pain: 线上购物只能看模特图，尺码和版型判断靠猜，买错要退货，来回运费和时间都是成本；这是公开材料可还原的旧流程缺口，属于工作流结构推理。
+  pain_en: Online shopping offers only model photos, so size and cut are guesswork; wrong buys mean returns
+    with shipping and time costs both ways — a gap reconstructed from the old workflow by structural inference.
+  current_alternative: 旧做法是看模特图与买家秀、量自己的尺寸对照尺码表，或去实体店试穿、一次买多件再退掉不合适的。
+  current_alternative_en: The old way is reading model shots and buyer photos, measuring yourself against
+    size charts, or trying items in a physical store and ordering several sizes to return the wrong ones.
+  usage_reason: 相较翻买家秀和尺码表，它把用户自己的照片直接代入商品图生成试穿预览，省掉在脑中换算版型这一步，并把中意商品集中存进收藏库；推断对高退货率品类、习惯先看效果再下单的消费者更有吸引力，但公开材料未给出留存或复购证据。
+  usage_reason_en: Compared with scrolling buyer photos and size charts, it inserts the user's own photo
+    into the product image to generate a try-on preview, removing the mental step of translating cut and
+    fit and pooling liked items into a favorites library; by inference this appeals to shoppers in high-return
+    categories who want to see the effect before ordering, though no retention or repeat-use evidence
+    is public.

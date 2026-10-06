@@ -400,3 +400,55 @@
     whole draft in short, plain, de-AI-tone Chinese, removing the need to restate style rules each time
     and the first editing pass; inference: writers producing Chinese docs at volume who do not want to
     re-tune prompts will pick it during drafting and polishing.'
+- id: req-full-zh-tech-writing-2026-10-06
+  project_slug: zh-tech-writing
+  level: full
+  reviewed_at: '2026-10-06T02:55:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文技术文档被模型写成翻译腔、长句堆叠、AI 腔明显的问题，用户是中文技术写作者，任务是把草稿改成短句平实的中文文档；旧做法是逐句手改或反复调提示词，不解决则每篇文档都要人工返工。痛点刚性属工作流结构推理，公开材料未量化返工代价。
+    evidence_ids:
+    - ev-00fe03cffe9500dc
+    - ev-9b2fe5dd5571874c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 312 增至 332，说明社区持续关注，但收藏属关注度证据，不能证明目标写作者已把它留在日常文档流程里；公开材料无 issue、discussion 或使用反馈说明谁在何种场景调用。
+    evidence_ids:
+    - ev-00fe03cffe9500dc
+    - ev-695aaf6f0bd8f1c1
+  - gate: model
+    status: insufficient
+    reason: 这是开源 Agent Skill，公开材料未见定价页、付费路径或买方说明；钱可能来自 to C 开发者自愿使用或 to B 团队采购，但均属判断而非已验证事实，也无单位经济信息。
+    evidence_ids:
+    - ev-00fe03cffe9500dc
+  - gate: truth
+    status: supported
+    reason: 交付边界清楚：Skill 只做按规范改写，产出仍是草稿，事实与术语由作者本人核对，不承诺自动发布或替代审校；规范来源为公开的阮一峰写作规范，改写目标可核对。但无实测复现记录，把握有限。
+    evidence_ids:
+    - ev-00fe03cffe9500dc
+    - ev-9b2fe5dd5571874c
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有使用者描述在何种文档流程中调用该 Skill、替代了哪种旧改写方式。
+  market: ''
+  job: 中文技术写作者、开发者关系或文档维护者在起草或润色说明、教程、API 文档时，把中文草稿交给 AI agent，调用该 Skill 按阮一峰《中文技术文档的写作规范》约束改写，拿到短句、平实、去
+    AI 腔的中文文档草稿，再由作者核对事实与术语。
+  job_en: Chinese technical writers, DevRel, or docs maintainers drafting or polishing guides, tutorials,
+    and API docs hand a Chinese draft to an AI agent, invoke this Skill to rewrite it under Ruan Yifeng's
+    Chinese Technical Writing Style Guide, and get back a plain, short-sentence, AI-tone-free Chinese
+    draft that the author still fact-checks.
+  pain: 中文技术文档常被模型写成翻译腔、长句堆叠、AI 腔明显，作者要逐句删改；公开材料未给出不解决的具体代价与频率，痛点强度属工作流结构推理。
+  pain_en: Chinese technical docs written by models tend to carry translationese, stacked long sentences,
+    and obvious AI tone, forcing authors to edit line by line; public materials do not quantify the cost
+    or frequency, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是作者凭个人语感逐句改写，或反复给模型写提示词、贴风格样例，或直接套用阮一峰规范原文自行对照；公开材料未说明用户此前具体用哪种方式。
+  current_alternative_en: The old way is authors rewriting line by line by feel, repeatedly prompting
+    the model with style samples, or manually checking against Ruan Yifeng's guide text; public materials
+    do not state which of these users actually used.
+  usage_reason: 推断：相较逐句手改或每次重写提示词，该 Skill 把写作规范固化成 agent 可直接调用的约束，一次调用即产出符合短句、平实、去 AI 腔要求的草稿，省去反复调提示词和逐句删改这一步，因此中文技术写作者在起草或润色中文文档时会选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus line-by-line manual editing or re-writing prompts each time, the
+    Skill hard-codes the style guide into a constraint the agent can call directly, producing a short-sentence,
+    plain, AI-tone-free draft in one invocation and removing the prompt-tuning and line-editing step,
+    so Chinese technical writers drafting or polishing Chinese docs would pick it; no user feedback or
+    case yet confirms this motive.'

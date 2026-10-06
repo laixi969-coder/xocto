@@ -1,0 +1,92 @@
+- id: req-initial-fleuret-ai-raises-4m-to-advance-ai-powered-offensive-cyberse-2026-10-06
+  project_slug: fleuret-ai-raises-4m-to-advance-ai-powered-offensive-cyberse
+  level: initial
+  reviewed_at: '2026-10-06T02:19:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合规渗透测试人力密集、周期长的问题，旧做法是外包或扫描器加人工复核，痛点刚性且交付可核对。
+    evidence_ids:
+    - ev-02362bb62d7f85e7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户采用、公开评价或持续使用证据，场景是否被认可尚不明确。
+    evidence_ids:
+    - ev-02362bb62d7f85e7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，to B 按项目收费只是推断，尚无已验证付费路径。
+    evidence_ids:
+    - ev-02362bb62d7f85e7
+  - gate: truth
+    status: insufficient
+    reason: 自动化渗透测试涉及授权边界与误报风险，材料未说明人工复核与安全边界如何设定。
+    evidence_ids:
+    - ev-02362bb62d7f85e7
+  next_validation: 收集 Fleuret AI 官方定价页或客户案例，确认其渗透测试交付范围与收费方式。
+  market: ''
+  job: 企业安全团队在合规审计或上线前需要完成渗透测试时，处理目标系统与测试范围清单，要产出可交付的漏洞报告与修复建议。
+  job_en: When an enterprise security team must complete penetration testing before a compliance audit
+    or launch, it works from target systems and scope lists to produce a deliverable vulnerability report
+    and remediation advice.
+  pain: 渗透测试高度依赖资深工程师手工探测与撰写报告，周期长、成本高，中小机构常因预算与人力不足而拖延或简化测试。
+  pain_en: Penetration testing depends heavily on senior engineers probing manually and writing reports,
+    making it slow and costly; smaller organizations often delay or simplify testing for lack of budget
+    and staff.
+  current_alternative: 目前多依赖外部安全咨询公司按项目外包，或使用扫描器加人工复核，报告质量与覆盖度取决于顾问个人经验。
+  current_alternative_en: Today it is mostly outsourced per project to security consultancies, or done
+    with scanners plus manual review, where report quality and coverage depend on individual consultant
+    experience.
+  usage_reason: 推断：相较外包或纯扫描器，智能体可自动完成侦察、探测与报告初稿，减少工程师在重复测试与文档整理上的投入，因此预算有限、需要定期合规测试的安全团队会考虑采用；尚无公开客户案例或留存数据支持。
+  usage_reason_en: 'Inference: compared with outsourcing or scanners alone, agents can automate reconnaissance,
+    probing and first-draft reporting, cutting engineer effort on repetitive testing and documentation,
+    so security teams with limited budget and recurring compliance tests may adopt it; no public customer
+    cases or retention data yet.'
+- id: req-full-fleuret-ai-raises-4m-to-advance-ai-powered-offensive-cyberse-2026-10-06
+  project_slug: fleuret-ai-raises-4m-to-advance-ai-powered-offensive-cyberse
+  level: full
+  reviewed_at: '2026-10-06T02:52:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合规渗透测试人力密集、周期长的问题：旧做法是外包或扫描器加人工复核，痛点刚性且报告交付可核对；但覆盖范围与交付形态仅来自融资报道，属工作流结构推理。
+    evidence_ids:
+    - ev-02362bb62d7f85e7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户采用、公开评价或持续使用证据，安全团队是否认可智能体承接渗透测试尚不明确。
+    evidence_ids:
+    - ev-02362bb62d7f85e7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，to B 按项目或订阅收费只是推断，尚无已验证付费路径；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-02362bb62d7f85e7
+  - gate: truth
+    status: insufficient
+    reason: 自动化渗透测试涉及授权边界与误报风险，材料未说明人工复核、授权范围与安全边界如何设定，承诺能否确定性交付待核。
+    evidence_ids:
+    - ev-02362bb62d7f85e7
+  next_validation: 追踪 Fleuret AI 官网定价页或公开客户案例，确认其渗透测试交付范围、收费方式与人工复核边界。
+  market: ''
+  job: 企业安全团队在合规审计或产品上线前需要完成渗透测试时，处理目标系统清单与测试范围，要产出可交付的漏洞报告与修复建议。
+  job_en: When an enterprise security team must complete penetration testing before a compliance audit
+    or product launch, it works from target-system and scope lists to produce a deliverable vulnerability
+    report and remediation advice.
+  pain: 渗透测试依赖资深工程师手工侦察、探测与撰写报告，周期长、成本高；预算与人力有限的安全团队常被迫推迟或简化测试，而合规与上线节点不会因此顺延。
+  pain_en: Penetration testing depends on senior engineers doing manual reconnaissance, probing and report
+    writing, which is slow and costly; teams with limited budget and staff often postpone or simplify
+    testing, while compliance and launch deadlines do not move.
+  current_alternative: 目前多按项目外包给安全咨询公司，或用扫描器加人工复核；覆盖度与报告质量取决于顾问个人经验，且外包排期与费用不可控。
+  current_alternative_en: Today it is mostly outsourced per project to security consultancies, or done
+    with scanners plus manual review; coverage and report quality depend on individual consultant experience,
+    and outsourcing schedules and costs are hard to control.
+  usage_reason: 推断：相较外包或纯扫描器，智能体可自动完成侦察、漏洞探测与报告初稿，把工程师从重复探测和文档整理中释放出来，因此有周期性合规测试需求、预算有限的企业安全团队会在常规测试场景选择它；尚无公开客户案例或留存数据支持。
+  usage_reason_en: 'Inference: compared with outsourcing or scanners alone, agents can automate reconnaissance,
+    vulnerability probing and first-draft reporting, freeing engineers from repetitive probing and documentation,
+    so budget-constrained enterprise security teams with recurring compliance testing needs may choose
+    it for routine tests; no public customer cases or retention data yet.'

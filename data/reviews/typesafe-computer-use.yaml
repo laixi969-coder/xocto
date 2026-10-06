@@ -492,3 +492,50 @@
     packages OCR and TypeSafe action classification into a click at about $0.0002 per step, cutting setup
     and per-step cost, so macOS UI-automation developers sensitive to per-step cost would pick it for
     prototyping or bulk clicking; public material offers no user feedback or retention evidence.'
+- id: req-full-typesafe-computer-use-2026-10-06
+  project_slug: typesafe-computer-use
+  level: full
+  reviewed_at: '2026-10-06T02:54:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 macOS 界面自动化中逐步调用大模型推理成本高、动作不受约束的痛点，把每步压缩为 OCR 加轻量分类并约束动作空间，单步约 0.0002 美元；这是从产品说明与工作流结构作出的推理，公开材料未给出用户抱怨或采用数据。
+    evidence_ids:
+    - ev-03aba9a448dd88e3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 1099 增至 1171，说明开发者社区持续关注，但收藏属关注度证据，不能证明目标用户已把它留在工作流或形成稳定使用场景。
+    evidence_ids:
+    - ev-03aba9a448dd88e3
+    - ev-891e41962dd8dfc6
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出约 0.0002 美元的单步成本，未披露定价页、付费主体或收入路径；谁付钱、按什么单位收费仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-03aba9a448dd88e3
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持哪些应用、失败后如何回退，以及点击动作的人工与安全边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-03aba9a448dd88e3
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的应用范围、失败回退机制及是否有开发者报告实际部署场景。
+  market: ''
+  job: 开发者在 macOS 上构建界面自动化或 computer-use 代理时，把屏幕截图交给它：先 OCR 识别界面文字，再用 TypeSafe 分类出下一步动作，然后执行点击，交付一串可执行的点击动作序列。
+  job_en: 'Developers building macOS UI automation or computer-use agents hand it a screenshot: it OCRs
+    on-screen text, classifies the next action with TypeSafe, then clicks, delivering an executable click-action
+    sequence.'
+  pain: 现有 computer-use 方案多依赖大模型逐步推理，单步成本高、延迟大，且动作空间不受约束，容易产生无效或危险点击；开发者需要低成本、动作可约束的替代路径。
+  pain_en: Existing computer-use approaches rely on LLM step-by-step reasoning, which is costly per step,
+    slow, and leaves the action space unconstrained, producing invalid or risky clicks; developers need
+    a cheaper, constrained alternative.
+  current_alternative: 直接用大模型驱动的 computer-use 代理（如基于视觉语言模型的逐步推理点击），或为每个应用手写脚本/宏。
+  current_alternative_en: Directly using LLM-driven computer-use agents (vision-language models reasoning
+    step by step to click), or hand-writing per-app scripts and macros.
+  usage_reason: 推断：相较逐步调用大模型推理，它把每步动作压缩为 OCR 加轻量分类，单步成本降到约 0.0002 美元，并借 TypeSafe 约束动作空间，因此对成本或动作可控性敏感的
+    macOS 自动化开发者会在批量、重复的界面操作场景中选择它。
+  usage_reason_en: 'Inference: versus calling an LLM for each step, it compresses each action into OCR
+    plus lightweight classification, cutting per-step cost to about $0.0002 and constraining the action
+    space via TypeSafe, so macOS automation developers sensitive to cost or action controllability would
+    pick it for bulk, repetitive UI operations.'

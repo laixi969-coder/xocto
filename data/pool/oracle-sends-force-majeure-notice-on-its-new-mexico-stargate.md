@@ -3,13 +3,12 @@ slug: oracle-sends-force-majeure-notice-on-its-new-mexico-stargate
 name: Oracle
 builder: ''
 category: ''
-summary_zh: Oracle 就其新墨西哥州 Stargate 数据中心发出不可抗力通知，若该设施未能在 2028 年按期上线，Oracle 可据此延迟付款。该安排把算力供给的进度风险部分转移给合作方，意味着依赖该数据中心容量的
-  AI 训练与推理项目面临上线时间不确定，进而影响其算力成本与交付节奏。
+summary_zh: Oracle 就新墨西哥州 Stargate 数据中心发出不可抗力通知，若该设施未能在 2028 年目标时间上线，Oracle 可推迟付款。该事实指向 AI 算力基础设施的交付时间与合同履约风险，而非面向终端用户的独立
+  AI 产品。
 inspiration: ''
-summary_en: Oracle sent a force majeure notice on its New Mexico Stargate data center, which would let
-  it delay payments if the facility misses its 2028 target to come online. The arrangement shifts part
-  of the capacity schedule risk to partners, implying that AI training and inference projects depending
-  on that capacity face uncertain timelines, affecting their compute costs and delivery schedules.
+summary_en: Oracle issued a force majeure notice on its New Mexico Stargate data center, allowing it to
+  delay payments if the facility misses its 2028 target to come online. The fact points to delivery-timing
+  and contract-performance risk in AI compute infrastructure rather than a standalone end-user AI product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +25,7 @@ summary: The notice would allow Oracle to delay payments should the facility mis
   online.
 first_seen: '2026-09-24T18:11:44Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

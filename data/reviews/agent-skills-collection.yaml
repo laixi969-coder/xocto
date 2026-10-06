@@ -739,3 +739,45 @@
   usage_reason_en: 'The task is: Claims to add skills to an AI assistant, but install asks you to turn
     off antivirus and run a setup file as administrator. Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-agent-skills-collection-2026-10-06
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-10-06T02:50:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的公开 issue 与 discussion，确认是否有用户报告安装后技能实际可用、是否仍需关闭杀毒或提权，以及是否出现重复使用或复购类反馈。
+  market: ''
+  job: 开发者或 AI 助手使用者想给基于 LLM 的 agent 加装模块化技能，在本地或自建环境里把技能包接入自己的助手，完成扩展能力这件事。
+  job_en: Developers or LLM-agent users want to add modular skills to an LLM-based agent, wiring skill
+    packages into their own assistant in a local or self-hosted environment.
+  pain: 公开材料只给出产品自述，没有用户抱怨、issue 或案例说明不装技能会损失什么；反而安装要求关闭杀毒并以管理员权限运行安装包，这本身制造了安全与信任负担，而非消除既有痛点。
+  pain_en: Public materials offer only the product's own description; no user complaints, issues, or cases
+    show what is lost without these skills. Instead, installation asks users to disable antivirus and
+    run a setup file as administrator, creating a security and trust burden rather than removing an existing
+    pain.
+  current_alternative: 开发者可直接用官方插件机制、MCP 服务器、函数调用或自己写脚本接入技能，无需关闭杀毒或提权安装；公开材料未说明本集合相较这些做法省掉了哪一步。
+  current_alternative_en: Developers can already use official plugin mechanisms, MCP servers, function
+    calling, or their own scripts to wire in skills without disabling antivirus or elevating privileges;
+    public materials do not show which step this collection removes versus those routes.
+  usage_reason: 推断：209 个收藏、4 次复刻只反映开发者关注度，不能解释选择动机；在缺少用户反馈、案例或留存证据的情况下，无法说明哪类用户会因何具体动作而持续选用它，且安装需关杀毒、提权这一公开事实反而构成采用阻力。
+  usage_reason_en: 'Inference: 209 stars and 4 forks reflect developer attention only and do not explain
+    choice motivation; with no user feedback, cases, or retention evidence, it is unclear which users
+    would keep choosing it and why, while the public fact that installation requires disabling antivirus
+    and elevating privileges is itself an adoption barrier.'

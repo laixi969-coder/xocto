@@ -165,3 +165,53 @@
     ChatGPT, Gemini or Grok and returns text, removing the step of replacing the device. But the only
     public evidence is a repository blurb and 326 stars, with no user feedback or case showing who would
     keep using it, so the choice motive cannot be treated as fact.'
+- id: req-full-aikon-2026-10-06
+  project_slug: aikon
+  level: full
+  reviewed_at: '2026-10-06T02:50:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决功能机搜索入口失效后无法获取信息的问题，公开事实显示 2007 年诺基亚已不能搜 Google，旧做法是换机或借设备，痛点由设备生命周期决定且具体；这是工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-649cc551a9fb9ba5
+    - ev-bb34b4beeb3d3545
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 326 增至 334，说明有围观与兴趣，但公开材料没有用户反馈或案例表明功能机用户已把它长期留在日常查询流程里。
+    evidence_ids:
+    - ev-649cc551a9fb9ba5
+    - ev-bb34b4beeb3d3545
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露任何收费方式或买方，to C 自用、to B 行业手持终端部署还是纯开源项目均无法确认，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-649cc551a9fb9ba5
+  - gate: truth
+    status: insufficient
+    reason: 依赖自建 Go 服务器与多个模型接口，公开材料未给出功能机网络条件下的响应、稳定性或安全边界实测，交付确定性尚未核验。
+    evidence_ids:
+    - ev-649cc551a9fb9ba5
+    - ev-bb34b4beeb3d3545
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认功能机端在真实网络下的响应、可用性与部署方式。
+  market: ''
+  job: 仍在使用诺基亚 S40/S60 功能机的用户，在设备自带搜索入口失效、无法联网查资料的情况下，用 J2ME 应用输入问题，经自建 Go 服务器转发给 Claude、ChatGPT、Gemini
+    或 Grok，在功能机屏幕上取回文字答复。
+  job_en: Users still on Nokia S40/S60 feature phones, whose built-in search no longer works, type a question
+    into a J2ME app that relays it through a self-hosted Go server to Claude, ChatGPT, Gemini or Grok
+    and returns a text answer on the feature-phone screen.
+  pain: 公开事实显示 2007 年前后的诺基亚已无法再访问 Google 搜索，这类设备上的信息获取入口直接失效；用户要么放弃仍在用的设备，要么只能靠记忆或他人转述，痛点具体且由设备生命周期决定。
+  pain_en: Public evidence states a 2007 Nokia can no longer search Google, so the information-retrieval
+    entry point on such devices is simply gone; users must either abandon a device they still use or rely
+    on memory and second-hand answers, a concrete pain driven by device lifecycle.
+  current_alternative: 换智能机、借他人设备查询，或干脆不查；对仍依赖老手机或行业手持终端的人，这些替代都要额外付出换机或借设备的代价。
+  current_alternative_en: Switching to a smartphone, borrowing another device to look things up, or simply
+    not looking it up; for people still tied to old phones or industry handhelds, each alternative costs
+    a device swap or a borrowed device.
+  usage_reason: 推断：相较换机或借设备，它把问题经自建 Go 服务器转给多个模型并回传文字，省去更换设备这一步，因此仍在使用 S40/S60 功能机、又需要即时文字答案的用户会在手边只有这台设备时选择它。
+  usage_reason_en: 'Inference: versus swapping or borrowing a device, it relays the question through a
+    self-hosted Go server to several models and returns text, removing the device-replacement step, so
+    users still on S40/S60 feature phones who need an immediate text answer would pick it when that phone
+    is all they have.'

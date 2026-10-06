@@ -26,7 +26,7 @@ summary: Designed artifacts are ontological, shaping, and at times limiting, wha
   a Wizard of Oz technique to enable the experience of training a personalized machine learning…
 first_seen: '2026-10-05T00:00:00Z'
 last_seen: '2026-10-06T02:19:00Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

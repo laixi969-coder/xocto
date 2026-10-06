@@ -336,3 +336,57 @@
     karaoke captions, SFX and music into one agent invocation generated on the beat, removing cross-tool
     exports and per-clip alignment; short-video operators who must ship in batches without dedicated motion
     staff are therefore the likely adopters, with pacing and captions still human-checked.'
+- id: req-full-motion-video-skill-2026-10-06
+  project_slug: motion-video-skill
+  level: full
+  reviewed_at: '2026-10-06T02:53:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是批量产出卡点动效短视频的需求：旧流程要在动效、配音、字幕、音效、配乐多个工具间搬运并手工对拍，重复且易错。公开说明显示该技能以脚本素材为输入，一次交付带配音、逐字字幕、音效与音乐的
+      1080p 成片，交付物可确定；痛点强度与频率属工作流结构推理，尚无用户抱怨或返工数据。
+    evidence_ids:
+    - ev-fa3cad5dfa1772a7
+    - ev-9ddf3b9862a984fd
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的采用信号只有仓库收藏数从 103 缓慢升至 111，属关注度而非持续使用；没有 issue、discussion、客户案例或评价说明谁在何种场景反复调用它，因此无法判断是否已进入真实工作流。
+    evidence_ids:
+    - ev-fa3cad5dfa1772a7
+    - ev-fff91cd38962c0a9
+  - gate: model
+    status: insufficient
+    reason: 项目为 MIT 开源技能，公开材料没有定价页、付费客户或采购记录，谁付钱尚不可知；这是判断而非已验证事实，开源技能可能靠生态或服务变现，但当前无公开付费路径可核。
+    evidence_ids:
+    - ev-fa3cad5dfa1772a7
+  - gate: truth
+    status: supported
+    reason: 交付物明确为 1080p 成片，含配音、逐字字幕、音效与生成音乐，且摘要指出成片仍需人工确认节奏与字幕，人工边界被公开承认；但渲染稳定性、生成音乐版权与可复现性尚无公开实测或文档证据，确定性交付只部分成立。
+    evidence_ids:
+    - ev-fa3cad5dfa1772a7
+    - ev-9ddf3b9862a984fd
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户公开描述实际调用场景、产出成片与人工复核环节，以核验持续使用与交付稳定性。
+  market: ''
+  job: 短视频运营或动效设计师在需要按周批量产出卡点动效短视频时，把脚本、文案与素材交给该 agent 技能，由它按节拍渲染 1080p 动效画面并合成 AI 配音、逐字字幕、音效与生成音乐，产出可直接发布的成片，再由人工确认节奏与字幕。
+  job_en: Short-video operators or motion designers who must batch-produce beat-synced motion-graphic
+    shorts hand scripts, copy and assets to this agent skill, which renders 1080p motion frames on the
+    beat and assembles AI voice-over, karaoke captions, SFX and generated music into a publishable cut,
+    with humans confirming rhythm and captions.
+  pain: 公开材料只说明它能一次产出画面、配音、字幕、音效与音乐，未给出用户抱怨、返工率或制作时长数据；从工作流结构推理，卡点动效视频原本要在动效工具、配音、字幕、音效与配乐之间反复切换并手工对齐节拍，这是可识别的重复性负担，但痛点强度属推断而非用户口述。
+  pain_en: Public materials only describe one-pass output of visuals, voice-over, captions, SFX and music,
+    with no user complaints, rework rates or production-time data; by workflow inference, beat-synced
+    motion videos normally require switching among motion tools, dubbing, captioning, SFX and music and
+    aligning beats by hand, a recognizable repetitive burden, though pain intensity is inferred rather
+    than user-stated.
+  current_alternative: 旧做法是动效设计师在 After Effects 或同类工具里手工做关键帧与卡点，再分别用配音工具、字幕工具和音效库拼装；也可用模板化剪辑工具套版，但节拍对齐与逐字字幕仍需人工调整。
+  current_alternative_en: The old path is a motion designer hand-keyframing and beat-matching in After
+    Effects or similar tools, then assembling dubbing, captions and SFX from separate tools; template-based
+    editors are an alternative, but beat alignment and karaoke captions still need manual adjustment.
+  usage_reason: 推断：相较手工在多个工具间切换并对齐节拍，该技能把脚本与素材作为单一输入，在 HyperFrames（HTML+GSAP）中按节拍生成画面并同步合成配音、逐字字幕、音效与音乐，减少的是跨工具搬运与手工对拍这一步；因此需要批量出片的短视频运营或动效设计师会在成片节奏可接受、只需人工复核字幕与节奏的情况下选择它。
+  usage_reason_en: 'Inference: versus hand-switching tools and aligning beats, the skill takes script
+    and assets as one input, generates beat-synced frames in HyperFrames (HTML+GSAP) and co-assembles
+    voice-over, karaoke captions, SFX and music, removing the cross-tool transfer and manual beat-matching
+    step; so operators or motion designers needing batch output would choose it when the generated rhythm
+    is acceptable and only captions and pacing need human review.'

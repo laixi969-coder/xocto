@@ -1,0 +1,91 @@
+- id: req-initial-jurl-2026-10-06
+  project_slug: jurl
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决从网页取回可读正文的需求，但公开材料未说明旧流程的耗时、失败代价或维护负担，痛点刚性无法判断。
+    evidence_ids:
+    - ev-7d71324b9e8d95c7
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 6 分、2 条评论，属于关注度信号而非持续采用证据，无法据此判断它是否进入真实工作流。
+    evidence_ids:
+    - ev-7d71324b9e8d95c7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，开源项目如何转化为收入尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7d71324b9e8d95c7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它在动态页面、登录态与反爬场景下的实际抽取结果，也无法确认输出是否稳定可复现。
+    evidence_ids:
+    - ev-7d71324b9e8d95c7
+  next_validation: 查看 Jurl 官方页面或代码仓库的说明与 issue，确认它实际抽取的内容范围、对动态页面和登录态的处理方式以及是否有付费或托管版本。
+  market: ''
+  job: 后端或数据工程师在编写抓取脚本、需要从目标网页取得可读正文时，用 Jurl 发起请求并接收处理后的文本，再交给下游解析或入库。
+  job_en: A backend or data engineer writing a scraping script needs readable body text from a target
+    page, calls Jurl to fetch it and receives processed text to pass downstream for parsing or storage.
+  pain: 候选材料只有一句功能描述，没有说明此前解析网页正文耗时多久、失败率多高或维护成本多大，痛点强度无法从公开事实判断。
+  pain_en: The candidate material offers only one feature sentence; it does not say how long body-text
+    parsing previously took, how often it failed or what maintenance cost it carried, so pain intensity
+    cannot be judged from public facts.
+  current_alternative: 工程师目前通常用 curl 取回原始 HTML，再自己写解析规则，或依赖现成的抓取库与无头浏览器处理动态页面。
+  current_alternative_en: Engineers currently use curl to fetch raw HTML and write their own parsing rules,
+    or rely on existing scraping libraries and headless browsers for dynamic pages.
+  usage_reason: 推断：相较 curl 加自写解析，Jurl 若在取回阶段就返回干净正文，可省去每个站点单独维护解析规则这一步；但公开材料未说明抽取质量、动态页面支持与失败处理，因此哪类团队会因此替换现有脚本仍缺少证据。
+  usage_reason_en: 'Inference: compared with curl plus hand-written parsing, Jurl could remove the step
+    of maintaining per-site parsing rules if it returns clean body text at fetch time; but public material
+    does not describe extraction quality, dynamic-page support or failure handling, so which teams would
+    replace existing scripts lacks evidence.'
+- id: req-full-jurl-2026-10-06
+  project_slug: jurl
+  level: full
+  reviewed_at: '2026-10-06T02:53:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决从网页取回可读正文的需求：curl 只给原始 HTML，正文抽取与逐站解析规则需自写并随改版失效。公开材料仅一句功能描述，痛点刚性由工作流结构推理得出，非用户口述或量化数据。
+    evidence_ids:
+    - ev-7d71324b9e8d95c7
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有开发者讨论、采用反馈或重复使用记录，无法判断共识卡在感知、场景还是利益环节，关注度也不等于持续采用。
+    evidence_ids:
+    - ev-7d71324b9e8d95c7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱可能来自开发者订阅、API 调用计费或企业托管，这是判断而非已验证事实；中文生态检索亦未发现对应供给。
+    evidence_ids:
+    - ev-7d71324b9e8d95c7
+    - ev-b1c6b39dc4f2ad2d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它在动态页面、登录态与反爬场景下的实际抽取结果，也无法确认输出是否稳定可复现，交付确定性缺少可验证材料。
+    evidence_ids:
+    - ev-7d71324b9e8d95c7
+  next_validation: 追踪 Jurl 官网或代码仓库的 README、issue 与 discussion，确认其实际抽取范围、对动态页面与登录态的处理方式，以及是否出现付费或托管版本。
+  market: ''
+  job: 后端或数据工程师在编写抓取脚本、需要从目标网页取得可读正文时，用 Jurl 代替 curl 发起请求，接收处理后的文本并交给下游解析或入库。
+  job_en: A backend or data engineer writing a scraping script needs readable body text from a target
+    page, calls Jurl instead of curl, receives processed text and passes it downstream for parsing or
+    storage.
+  pain: 用 curl 只能拿到原始 HTML，正文抽取、去导航广告、处理动态渲染与登录态都要自己写并逐站维护解析规则，站点改版即失效；公开材料只给出“替你读页面”一句，未量化耗时与失败率，痛点强度属工作流结构推理。
+  pain_en: curl returns raw HTML, so body extraction, stripping nav/ads, and handling dynamic rendering
+    or login state must be hand-written and maintained per site, breaking on redesigns; public material
+    gives only 'reads the page for you' with no quantified time or failure rate, so pain intensity is
+    a workflow-structure inference.
+  current_alternative: 工程师目前用 curl 取回原始 HTML 后自写解析规则，或依赖抓取库、无头浏览器与 Readability 类正文抽取组件自行拼装。
+  current_alternative_en: Engineers currently fetch raw HTML with curl and write their own parsing rules,
+    or assemble scraping libraries, headless browsers and Readability-style extractors themselves.
+  usage_reason: 推断：相较 curl 加自写解析，Jurl 在取回阶段直接返回干净正文，省去为每个站点单独维护解析规则这一步，因此频繁改抓取目标、不想维护抽取代码的脚本开发者会在新脚本里改用它；但抽取质量、动态页面与登录态支持未公开，替换动机仍属推断。
+  usage_reason_en: 'Inference: versus curl plus hand-written parsing, Jurl returns clean body text at
+    fetch time, removing the step of maintaining per-site parsing rules, so script developers who change
+    targets often and dislike maintaining extraction code would adopt it in new scripts; extraction quality
+    and dynamic-page/login support are undisclosed, so the replacement motive remains inference.'

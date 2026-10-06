@@ -21,7 +21,7 @@ canonical_url: https://console.era.eon.io
 summary: Complete Simulated Companies for Your Agents
 first_seen: '2026-10-05T16:19:08Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

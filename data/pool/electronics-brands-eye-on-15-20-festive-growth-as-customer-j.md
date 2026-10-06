@@ -22,7 +22,7 @@ summary: Electronics brands eye on 15-20% festive growth as customer journeys sh
   StoryBoard 18
 first_seen: '2026-10-05T03:23:43Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

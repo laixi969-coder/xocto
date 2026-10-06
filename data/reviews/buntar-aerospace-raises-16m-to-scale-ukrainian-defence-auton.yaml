@@ -1,0 +1,79 @@
+- id: req-initial-buntar-aerospace-raises-16m-to-scale-ukrainian-defence-auton-2026-10-06
+  project_slug: buntar-aerospace-raises-16m-to-scale-ukrainian-defence-auton
+  level: initial
+  reviewed_at: '2026-10-06T02:19:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 未进入：材料只给融资事实，未说明解决什么任务与痛点。
+    evidence_ids:
+    - ev-f01e0b3d7f4ca4b2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：无客户采用或部署规模证据。
+    evidence_ids:
+    - ev-f01e0b3d7f4ca4b2
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价或采购付费路径。
+    evidence_ids:
+    - ev-f01e0b3d7f4ca4b2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无交付结果或第三方核验材料。
+    evidence_ids:
+    - ev-f01e0b3d7f4ca4b2
+  next_validation: Buntar Aerospace 官方产品页或公开合同公告中的系统交付与客户信息。
+  market: ''
+  job: 国防用户在实战或演训场景中需要无人机自主执行任务，材料未说明具体操作者与流程。
+  job_en: Defence users need drones to execute tasks autonomously in combat or training; the material
+    does not describe the specific operators or workflow.
+  pain: 材料未说明现有手段在哪个环节失效或代价过高。
+  pain_en: The material does not state which step of existing methods fails or is too costly.
+  current_alternative: 未提供与现有人工操控或既有自主方案的对比。
+  current_alternative_en: No comparison with existing manual control or autonomy solutions is provided.
+  usage_reason: 缺少技术细节、客户与交付证据，无法解释采购方为何选择它。
+  usage_reason_en: Technical details, customers and delivery evidence are missing, so why buyers would
+    choose it cannot be explained.
+- id: req-full-buntar-aerospace-raises-16m-to-scale-ukrainian-defence-auton-2026-10-06
+  project_slug: buntar-aerospace-raises-16m-to-scale-ukrainian-defence-auton
+  level: full
+  reviewed_at: '2026-10-06T02:51:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅披露1600万美元融资与投资方，未说明自主系统的输入、动作、交付物及所替代的旧流程，无法还原用户任务与痛点，价值结构无从判断。
+    evidence_ids:
+    - ev-f01e0b3d7f4ca4b2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Buntar Aerospace 官网产品页或乌克兰国防采购平台（如 Prozorro）上的公开合同公告，确认其自主系统的交付物与客户单位。
+  market: ''
+  job: 乌克兰国防用户在实战或演训中需要无人机在通信受限、电子战干扰条件下自主完成侦察或打击任务；材料未说明具体操作单位、输入材料与任务流程。
+  job_en: Ukrainian defence users need drones to autonomously perform reconnaissance or strike tasks under
+    degraded communications and electronic warfare; the material does not specify the operating unit,
+    input materials, or task workflow.
+  pain: 公开材料只给出融资事实，未说明现有人工操控或既有自主方案在哪个环节失效、代价过高或造成何种后果，痛点无法从证据中还原。
+  pain_en: The public material only states the funding fact and does not describe which step of manual
+    control or existing autonomy fails, is too costly, or what consequences follow, so the pain cannot
+    be reconstructed from evidence.
+  current_alternative: 材料未提供与现有人工操控、既有自主飞控或外购方案的对比，替代方式未知。
+  current_alternative_en: The material provides no comparison with existing manual control, incumbent
+    autopilot, or off-the-shelf alternatives; the current alternative is unknown.
+  usage_reason: 缺少产品输入、动作、交付物与客户信息，无法解释哪类用户在什么情况下会因哪一步负担减轻而选择它；此处为事实缺口，不是推断。
+  usage_reason_en: Product inputs, actions, deliverables, and customers are missing, so it cannot be explained
+    which users would choose it and which step of burden it reduces; this is an evidence gap, not an inference.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE44djFrV2RnN2J0
 summary: 以太坊上的 AI 集群实验：IMD 的销毁机制是如何运转起来的？ ForesightNews
 first_seen: '2026-10-04T15:50:00Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

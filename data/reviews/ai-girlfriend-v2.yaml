@@ -386,3 +386,53 @@
     the persona every turn nor upload intimate voice to the cloud; Windows users who care about privacy
     yet want a continuous persona and a familiar voice would therefore choose it in a self-hosted companion
     scenario (inference from the repository description, not yet backed by user feedback).
+- id: req-full-ai-girlfriend-v2-2026-10-06
+  project_slug: ai-girlfriend-v2
+  level: full
+  reviewed_at: '2026-10-06T02:50:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是陪伴对话中记忆丢失与声音不固定的需求，痛点是每次重述设定、亲密感无法累积；本地记忆与声音克隆回应隐私顾虑，不采用则只能退回通用聊天机器人。这是基于产品说明与任务结构的工作流推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-8d6b8650fef27c01
+    - ev-a4b3f9f5f7210bdb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 49 缓慢升至 58，说明有开发者关注，但无 issue、discussion 或评价显示目标用户持续使用或把它留在日常流程里，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-8d6b8650fef27c01
+    - ev-a9efe7f1e3406911
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未见定价页、订阅或授权说明，谁付钱、按什么单位收费无法核验；这是商业证据缺口，不推翻已成立的需求结构。
+    evidence_ids:
+    - ev-8d6b8650fef27c01
+    - ev-9ab57c01a9d166e3
+  - gate: truth
+    status: insufficient
+    reason: 长期记忆效果、本地声音克隆质量与 WSL2 数字人部署能否稳定交付，公开材料只有一句功能描述，缺文档、实测或复现记录；安全与人工边界也未说明。
+    evidence_ids:
+    - ev-8d6b8650fef27c01
+    - ev-32a183a6a2318ae3
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认长期记忆与本地声音克隆的实际部署步骤、可复现效果及用户反馈。
+  market: ''
+  job: 个人用户在 Windows 桌面上想要一个能记住过往对话、用自己的声音回应的陪伴对象时，安装该项目，把长期记忆、本地声音克隆与可选 WSL2 数字人组合起来，获得可反复对话的桌面伴侣。
+  job_en: A personal user on Windows who wants a companion that remembers past conversations and replies
+    in a cloned voice installs this project to combine long-term memory, local voice cloning and an optional
+    WSL2 digital human into a repeatable desktop companion.
+  pain: 通用聊天机器人每次会话后遗忘上下文、声音与人格不固定，用户要反复重述设定、重建亲密感；把记忆与声音放在本地也回应了私密对话不愿上传第三方服务的顾虑。
+  pain_en: Generic chatbots forget context between sessions and keep an unstable voice and persona, forcing
+    users to restate settings and rebuild intimacy; keeping memory and voice local also addresses reluctance
+    to upload private conversations to third-party services.
+  current_alternative: 旧做法是使用通用云端聊天机器人或角色扮演应用，靠手动粘贴人设、每次重新介绍背景来维持连续性，声音只能用平台预设音色。
+  current_alternative_en: The old approach is a general cloud chatbot or roleplay app, maintaining continuity
+    by manually pasting persona prompts and re-introducing context each time, with only platform-preset
+    voices.
+  usage_reason: 推断：相较手动重述设定的旧做法，它把长期记忆与本地声音克隆内置为默认动作，用户不必每轮重建人设，且对话与声纹留在本机；因此在意隐私、希望声音与人格稳定的 Windows 个人用户会在长期陪伴场景选择它。
+  usage_reason_en: 'Inference: versus manually restating settings, it bakes long-term memory and local
+    voice cloning into the default flow, so users need not rebuild the persona each turn and keep conversations
+    and voiceprints on-device; Windows personal users who value privacy and a stable voice and persona
+    would choose it for long-term companionship.'

@@ -1,0 +1,87 @@
+- id: req-initial-leica-microsystems-launches-ai-software-module-for-consisten-2026-10-06
+  project_slug: leica-microsystems-launches-ai-software-module-for-consisten
+  level: initial
+  reviewed_at: '2026-10-06T02:19:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决检测判定不一致的问题，痛点方向成立，但公开材料未说明现有流程的具体负担与不采用的后果，价值强度无法确认。
+    evidence_ids:
+    - ev-be878fefad4ecead
+  - gate: consensus
+    status: insufficient
+    reason: 除发布消息外，未见客户采用、行业讨论或重复使用信号，共识环节缺少可核对材料。
+    evidence_ids:
+    - ev-be878fefad4ecead
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式或买方，无法判断收入来自设备捆绑、软件订阅还是按检测量收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-be878fefad4ecead
+  - gate: truth
+    status: insufficient
+    reason: 无法确认判定建议的准确率、人工复核边界与误判责任归属，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-be878fefad4ecead
+  next_validation: 收集 Leica Microsystems 官方产品页或发布文档，确认该 AI 模块的输入数据、判定输出、是否单独定价及是否支持第三方设备。
+  market: ''
+  job: 质检工程师或实验室分析人员在完成显微成像或计量测量后，需要判断样本是否合格并出具检测结论。
+  job_en: A quality engineer or lab analyst, after microscopy imaging or metrology measurement, must decide
+    whether a sample passes and issue an inspection conclusion.
+  pain: 同一批样本由不同人或不同时间判定时结论可能不一致，返工与复判成本高；但公开材料未说明现有判定流程的具体痛点程度。
+  pain_en: Different people or times can yield inconsistent verdicts on the same batch, raising rework
+    and re-review cost; the public material does not show how severe this pain is in current practice.
+  current_alternative: 目前多依赖人工目检、经验阈值或设备自带的基础判定规则，具体替代方式公开材料未说明。
+  current_alternative_en: Today this is largely manual visual inspection, experience-based thresholds
+    or basic rules built into the instrument; the public material does not specify the actual alternative.
+  usage_reason: 推断：若该模块能在同一设备内直接给出判定建议，可减少人工逐张比对与复判这一步；但缺少定价、客户案例与重复使用证据，无法确认用户是否会长期采用。
+  usage_reason_en: 'Inference: if the module returns a decision suggestion inside the same instrument,
+    it could remove the step of manually comparing and re-reviewing each image; without pricing, customer
+    cases or repeat-use evidence, long-term adoption cannot be confirmed.'
+- id: req-full-leica-microsystems-launches-ai-software-module-for-consisten-2026-10-06
+  project_slug: leica-microsystems-launches-ai-software-module-for-consisten
+  level: full
+  reviewed_at: '2026-10-06T02:53:11Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决检测判定不一致的问题，但公开材料只有品牌介绍与泛化 AI 释义，未说明现有流程负担、不采用后果与具体交付形式，连需求与痛点都无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-531c443d208541cf
+    - ev-4b699f5e60d75d9d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Leica Microsystems 官网产品页或发布文档，确认该 AI 模块的输入数据、判定输出、是否单独定价及是否支持第三方设备。
+  market: ''
+  job: 显微与计量检测场景中的质检工程师或实验室分析人员，在完成成像或测量后处理检测图像与测量结果，需要判断样本是否合格并出具一致的检测结论。
+  job_en: A quality engineer or lab analyst in microscopy and metrology settings, after imaging or measurement,
+    handles inspection images and measurement results to decide whether a sample passes and issue a consistent
+    inspection conclusion.
+  pain: 公开材料只说明该模块用于让检测判定趋于一致，未说明现有判定流程的具体负担、判定不一致造成的返工或复判代价，也未给出任何用户抱怨或案例，痛点强度无法从公开事实还原。
+  pain_en: The public material only states the module aims at consistent inspection decisions; it does
+    not describe the concrete burden of the current decision process, the rework or re-review cost of
+    inconsistent verdicts, nor any user complaint or case, so pain intensity cannot be reconstructed from
+    public facts.
+  current_alternative: 公开材料未说明当前替代方式；按行业常识推断可能是人工目检、经验阈值或设备自带基础判定规则，但无引用证据支持。
+  current_alternative_en: The public material does not specify the current alternative; by industry convention
+    it may be manual visual inspection, experience-based thresholds or basic instrument rules, but no
+    cited evidence supports this.
+  usage_reason: 推断：若该模块能在同一设备内直接给出判定建议，可减少人工逐张比对与复判这一步，质检或实验室人员可能在批量检测时选择它；但缺少产品页、定价、客户案例与重复使用证据，无法确认用户是否会采用。
+  usage_reason_en: 'Inference: if the module returns a decision suggestion inside the same instrument,
+    it could remove the step of manually comparing and re-reviewing each image, and quality or lab staff
+    might choose it for batch inspection; however, without a product page, pricing, customer cases or
+    repeat-use evidence, adoption cannot be confirmed.'

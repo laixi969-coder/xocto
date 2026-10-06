@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/bentomux
 summary: A bento box for your terminal workspace.
 first_seen: '2026-10-02T09:41:58Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

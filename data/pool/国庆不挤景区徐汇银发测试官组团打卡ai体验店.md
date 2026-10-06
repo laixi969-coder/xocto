@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi5AJBVV95cUxNbGkxUDNMbGsx
 summary: 国庆不挤景区！徐汇“银发测试官”组团打卡AI体验店 新浪财经
 first_seen: '2026-10-04T13:19:10Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

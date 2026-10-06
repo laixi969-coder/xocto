@@ -34,7 +34,7 @@ summary: Food industry software startup Backbone hasraised €4 million in pre-s
   its AI-powered qualityand compliance platform and support its commercial expansion. The round was le...
 first_seen: '2026-09-03T05:32:53Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

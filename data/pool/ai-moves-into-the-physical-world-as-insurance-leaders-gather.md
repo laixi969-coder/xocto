@@ -22,7 +22,7 @@ summary: AI moves into the physical world as insurance leaders gather to tackle 
   Insurer
 first_seen: '2026-10-05T21:33:45Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

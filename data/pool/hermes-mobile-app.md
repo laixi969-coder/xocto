@@ -22,7 +22,7 @@ summary: Your agent, on your phone. A native Android app for Hermes Agent, runni
   (Termux).
 first_seen: '2026-10-04T22:51:20Z'
 last_seen: '2026-10-06T02:18:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

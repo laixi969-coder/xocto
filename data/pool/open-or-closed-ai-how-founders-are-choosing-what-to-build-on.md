@@ -22,7 +22,7 @@ summary: Learn how founders are choosing between building on open or closed AI a
   Register now to save up to $100 and get a second pass at 50% off.
 first_seen: '2026-10-05T15:00:00Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

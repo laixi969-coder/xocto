@@ -493,3 +493,56 @@
     it merges path-setting, explanation, and project tasks into one continuous output, cutting the steps
     of switching platforms and self-sequencing; this suits students starting self-study without path judgment,
     though exercise completion still depends on the learner and no retention or repeat-use data is public.'
+- id: req-full-study-mate-2026-10-06
+  project_slug: study-mate
+  level: full
+  reviewed_at: '2026-10-06T02:54:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自学一门科目时路线零散、讲解与练习脱节、卡点无人即时解释的需求，痛点刚性来自学不完或学而不练的后果；公开仓库说明其交付为路线、讲解与项目任务，属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-c0a8f7c25bd1d733
+    - ev-9cf0e6be9da26bd6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 由 476 升至 624，说明开发者社区持续关注，但 star 与收藏只属关注度证据，不能证明目标自学者已把它留在学习流程里；缺少 issue、discussion
+      或评价说明真实使用场景。
+    evidence_ids:
+    - ev-c0a8f7c25bd1d733
+    - ev-fb900a71ae62e737
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，开源仓库本身不显示收入路径；谁付钱（学生自付、机构采购或纯开源）仍是判断而非已验证事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-9cf0e6be9da26bd6
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺输出路线与讲解文本，但练习是否真正完成仍需学习者自行确认，交付的确定性、人工介入边界与学习效果均无公开可复现证据，无法核验承诺是否稳定兑现。
+    evidence_ids:
+    - ev-c0a8f7c25bd1d733
+  next_validation: 追踪 Study-Mate 仓库的 issue 与 discussion，确认是否有自学者描述具体使用场景、替代了哪种旧学习流程以及练习完成情况。
+  market: ''
+  job: 自学一门科目的学生（如备考或转行者）在选定科目后，需要把零散教材、网课与练习材料组织成一条可执行的学习路线，并在每个知识点上获得讲解、在动手项目上获得任务拆解，最终学完并练完这门科目。
+  job_en: A student self-studying a subject (e.g., exam prep or career switch) must turn scattered textbooks,
+    online courses and exercises into an executable learning path, get explanations per knowledge point
+    and project tasks broken down, and finish both the study and the practice of that subject.
+  pain: 公开材料只给出产品定位（定路线、讲知识、做项目），未提供用户抱怨或案例；从工作流结构推理，自学者的痛点是路线规划与知识点讲解高度依赖自己检索拼凑，遇到卡点无人即时解释，练习项目缺少拆解，导致中途放弃或学而不练。这是结构推理，不是用户口述证据。
+  pain_en: Public materials only give the product positioning (plan routes, explain knowledge, do projects)
+    with no user complaints or cases; by workflow inference, self-learners must assemble their own path
+    and explanations, hit blockers with no immediate help, and get no project breakdown, leading to dropout
+    or theory without practice. This is structural inference, not user testimony.
+  current_alternative: 现有替代是自行搜索网课与教材、在通用聊天机器人里逐条提问、看 B 站/YouTube 教程或加入学习社群；这些方式路线不成体系、讲解与练习脱节，需要用户自己串联。
+  current_alternative_en: Current alternatives are self-searching courses and textbooks, asking a general
+    chatbot question by question, watching Bilibili/YouTube tutorials, or joining study communities; these
+    give no coherent path and separate explanation from practice, leaving the user to stitch everything
+    together.
+  usage_reason: 推断：相较自己在多个平台拼路线、逐条向通用助手提问，Study-Mate 把“定路线—讲知识—给项目任务”收进同一入口，用户输入科目与进度即可拿到成体系的路线和对应讲解，省去跨平台检索与自行编排这一步；因此会在开始一门新科目或卡在某个知识点时选择它。仓库
+    star 从 476 增至 624 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus stitching a path across platforms and asking a general assistant
+    question by question, Study-Mate puts route planning, explanation and project tasks in one entry point,
+    so entering a subject and progress yields a coherent path plus matching explanations, removing cross-platform
+    search and self-sequencing; users would pick it when starting a new subject or stuck on a topic. Stars
+    rising from 476 to 624 shows attention, not sustained use.'

@@ -23,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE43X1NhM2xrVVB5
 summary: 从PC之王到AI主力：联想AI营收93亿美元，x86服务器出货量全球第一 t.cj.sina.cn
 first_seen: '2026-09-20T07:29:44Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

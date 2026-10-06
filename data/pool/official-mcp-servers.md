@@ -22,7 +22,7 @@ summary: A curated directory of 280+ official MCP servers from the companies beh
   forks, no abandoned projects.
 first_seen: '2026-10-01T07:30:34Z'
 last_seen: '2026-10-06T02:18:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

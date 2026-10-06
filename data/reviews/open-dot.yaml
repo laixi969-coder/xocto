@@ -217,3 +217,57 @@
   usage_reason_en: With no verifiable usage scenario or delivery description, there is no way to explain
     why a user would choose it over existing practice; repository stars alone cannot serve as a usage
     reason.
+- id: req-full-open-dot-2026-10-06
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-06T02:53:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它要解决的是 Mac 上跨应用重复操作需手动逐步完成、且云端代理需交出凭据的问题；本地自主运行、OpenAI 加 Composio 的输入—动作—交付闭环在结构上成立，属工作流推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+    - ev-b5e7f9c82dd3dae5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 162 升至 578 只说明关注度增长，属规模证据；没有 issue、discussion、用户评价或案例说明谁在什么场景持续使用，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+    - ev-b5e7f9c82dd3dae5
+    - ev-bd78c60be90f1550
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费或采购路径，买方是个人开发者自付 API 费用还是企业采购均无公开依据；这是判断而非已验证事实，不能据此取消真需求判定。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理执行哪些具体操作、哪些步骤需人工确认、失败如何回滚，交付确定性与安全边界无法核对，贴近第一性目标的程度仍待公开文档佐证。
+    evidence_ids:
+    - ev-e71d2d946aac12f8
+    - ev-b5e7f9c82dd3dae5
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认代理实际执行的任务类型、输入材料、人工确认环节与交付结果，以核对交付确定性。
+  market: ''
+  job: 愿意自己动手的 Mac 用户，在需要让电脑上的重复操作（跨应用取数、整理、提交）自动跑完时，打开这个本地应用，把任务交给一个在自有机器上自主运行的代理，由它调用 OpenAI 模型与 Composio
+    连接的外部服务执行，最后拿到完成结果或待确认的操作。
+  job_en: A hands-on Mac user who wants repetitive on-computer work (pulling data across apps, organizing,
+    submitting) to run itself opens this local app, hands the task to an agent running autonomously on
+    their own machine, which uses OpenAI models plus Composio-connected external services to execute and
+    returns a finished result or an action awaiting confirmation.
+  pain: 公开材料只给出产品定位，没有用户抱怨或旧流程记录；从结构推理看，痛点是跨应用操作要在本机反复手动切换、复制粘贴，且把账号权限交给云端代理会带来数据外流顾虑，本地运行正是为缓解这一顾虑而设计。
+  pain_en: Public material gives only positioning, no user complaints or legacy-workflow records; structurally,
+    the pain is repeated manual app-switching and copy-paste on the local machine, plus the data-exposure
+    concern of handing account permissions to a cloud agent, which local execution is designed to mitigate.
+  current_alternative: 旧做法是用户自己在 Mac 上手动完成跨应用操作，或使用云端托管的代理/自动化工具（如 Zapier 类连接器、浏览器插件），后者需要把凭据交给第三方服务。
+  current_alternative_en: The old way is doing the cross-app work manually on the Mac, or using cloud-hosted
+    agents/automation tools (Zapier-style connectors, browser extensions) that require handing credentials
+    to a third-party service.
+  usage_reason: 推断：相较手动逐应用操作，它把多步点击与复制粘贴合并为一次任务下发，由代理在本机调用 Composio 连接的服务执行；相较云端代理，凭据与执行留在本地，减少把账号权限交给第三方的顾虑。因此在意数据留在本机、又愿意自己配置
+    Mac 应用的动手型用户会在重复性跨应用任务上选择它。
+  usage_reason_en: 'Inference: versus manual app-by-app work, it collapses multi-step clicking and copy-paste
+    into one task dispatch executed locally via Composio-connected services; versus cloud agents, credentials
+    and execution stay on the machine, reducing the concern of handing account permissions to a third
+    party. Hands-on users who care about local data and will configure a Mac app would therefore pick
+    it for repetitive cross-app tasks.'

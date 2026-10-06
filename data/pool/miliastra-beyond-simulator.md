@@ -21,7 +21,7 @@ canonical_url: https://bilibili.com/video/BV1rxhf6EEHb
 summary: 千星沙箱模拟器：Lua 驱动的 2D 奇域外置沙箱 ，支持 DeepSeek Harness、Web 和 MCP
 first_seen: '2026-09-23T15:18:38Z'
 last_seen: '2026-10-06T02:18:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

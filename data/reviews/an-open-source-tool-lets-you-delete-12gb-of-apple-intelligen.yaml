@@ -1,0 +1,98 @@
+- id: req-initial-an-open-source-tool-lets-you-delete-12gb-of-apple-intelligen-2026-10-06
+  project_slug: an-open-source-tool-lets-you-delete-12gb-of-apple-intelligen
+  level: initial
+  reviewed_at: '2026-10-06T02:19:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是系统 AI 默认占盘且无法一键关闭的问题，痛点在磁盘紧张和合规清理场景下具体可感，旧做法是设置开关或手动删文件，结构上成立。
+    evidence_ids:
+    - ev-07e6fa2ca94520c3
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有一篇报道描述该工具，没有下载量、仓库活跃度或用户反馈，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-07e6fa2ca94520c3
+  - gate: model
+    status: insufficient
+    reason: 开源命令行工具，公开材料未披露任何收费方式或买方，钱可能来自捐赠、企业支持或根本不存在，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-07e6fa2ca94520c3
+  - gate: truth
+    status: insufficient
+    reason: 删除范围、是否影响系统更新与可恢复性均未说明，承诺能否确定性交付仍缺公开材料支持。
+    evidence_ids:
+    - ev-07e6fa2ca94520c3
+  next_validation: 收集 RemoveMacAI 仓库的 README、issue 与 release 记录，核对它实际删除哪些路径、是否提供恢复方式以及是否有用户报告删除后系统异常。
+  market: ''
+  job: 个人 Mac 用户或企业设备管理员在磁盘空间告急、或需要按合规要求清理终端上预装的系统 AI 组件时，面对 macOS 27 已移除关闭开关、本地模型仍留在磁盘上的情况，要完成把 Apple
+    Intelligence 数据从机器上删除并释放空间的任务。
+  job_en: An individual Mac user or enterprise device administrator, facing low disk space or a compliance
+    requirement to clean preinstalled system AI components off endpoints, must delete Apple Intelligence
+    data from the machine and free up space after macOS 27 removed the disable toggle.
+  pain: macOS 27 取消了单一关闭开关，模型文件继续占用磁盘，用户既无法一键停用，也无法直观看到这些文件占了多少、放在哪里，只能被动接受系统 AI 常驻。
+  pain_en: macOS 27 removed the single disable toggle while model files keep occupying disk, so users
+    can neither switch it off in one step nor easily see how much space these files take or where they
+    live, leaving them to accept a resident system AI.
+  current_alternative: 此前是在系统设置里拨一个开关停用 Apple Intelligence；开关被移除后，用户只能手动翻找系统目录、凭经验删除文件，或干脆忍受磁盘被占用。
+  current_alternative_en: Previously users flipped a single Settings toggle to disable Apple Intelligence;
+    after the toggle was removed, they must hunt through system directories and delete files by hand,
+    or simply tolerate the occupied disk.
+  usage_reason: 相较手动翻目录删文件，这个工具把“找到 Apple Intelligence 占用的模型数据并删除”收敛成一条命令，省掉定位路径和判断哪些文件可删的步骤，因此磁盘紧张或需按合规清理终端的管理员会在装机、排障或审计前选择它；删除后系统
+    AI 功能不可用，属于用户需自行确认的取舍（推断）。
+  usage_reason_en: Compared with manually hunting through directories, this tool collapses 'find the model
+    data Apple Intelligence occupies and delete it' into one command, removing the steps of locating paths
+    and judging which files are safe to remove, so users short on disk or administrators cleaning endpoints
+    for compliance would pick it before imaging, troubleshooting or audits; the system AI features stop
+    working afterwards, a trade-off users must confirm themselves (inference).
+- id: req-full-an-open-source-tool-lets-you-delete-12gb-of-apple-intelligen-2026-10-06
+  project_slug: an-open-source-tool-lets-you-delete-12gb-of-apple-intelligen
+  level: full
+  reviewed_at: '2026-10-06T02:50:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是系统 AI 默认占盘且 macOS 27 移除关闭开关后无法一键停用的问题，痛点在磁盘紧张和合规清理场景下具体可感，旧做法是设置开关或手动删文件，结构上成立。
+    evidence_ids:
+    - ev-92bc5f4dab5d2fa5
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有一篇报道描述该工具，没有下载量、仓库活跃度或用户反馈，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-92bc5f4dab5d2fa5
+  - gate: model
+    status: insufficient
+    reason: 开源命令行工具，公开材料未披露任何收费方式或买方，钱可能来自捐赠、企业支持或根本不存在，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-92bc5f4dab5d2fa5
+  - gate: truth
+    status: insufficient
+    reason: 删除范围、是否影响系统更新与可恢复性均未说明，承诺能否确定性交付仍缺公开材料支持。
+    evidence_ids:
+    - ev-92bc5f4dab5d2fa5
+  next_validation: 收集 RemoveMacAI 仓库的 README、issue 与 release 记录，核对它实际删除哪些路径、是否提供恢复方式以及是否有用户报告删除后系统异常。
+  market: ''
+  job: 个人 Mac 用户或企业设备管理员在磁盘空间告急、或需按合规要求清理终端预装系统 AI 组件时，面对 macOS 27 已移除关闭开关、本地模型仍留在磁盘上的情况，要完成把 Apple Intelligence
+    数据从机器上删除并释放约 12GB 空间的任务。
+  job_en: An individual Mac user or enterprise device administrator, facing low disk space or a compliance
+    requirement to clean preinstalled system AI components off endpoints, must delete Apple Intelligence
+    data from the machine and free roughly 12GB after macOS 27 removed the disable toggle.
+  pain: macOS 27 取消了单一关闭开关，模型文件继续占用磁盘，用户既无法一键停用，也无法直观看到这些文件占了多少、放在哪里，只能被动接受系统 AI 常驻。
+  pain_en: macOS 27 removed the single disable toggle while model files keep occupying disk, so users
+    can neither switch it off in one step nor easily see how much space these files take or where they
+    live, leaving them to accept a resident system AI.
+  current_alternative: 此前是在系统设置里拨一个开关停用 Apple Intelligence；开关被移除后，用户只能手动翻找系统目录、凭经验删除文件，或干脆忍受磁盘被占用。
+  current_alternative_en: Previously users flipped a single Settings toggle to disable Apple Intelligence;
+    after the toggle was removed, they must hunt through system directories and delete files by hand,
+    or simply tolerate the occupied disk.
+  usage_reason: 相较手动翻目录删文件，这个工具把“找到 Apple Intelligence 占用的模型数据并删除”收敛成一条命令，省掉定位路径和判断哪些文件可删的步骤，因此磁盘紧张或需按合规清理终端的管理员会在装机、排障或审计前选择它；删除后系统
+    AI 功能不可用，属于用户需自行确认的取舍（推断）。
+  usage_reason_en: Compared with manually hunting through directories, this tool collapses 'find the model
+    data Apple Intelligence occupies and delete it' into one command, removing the steps of locating paths
+    and judging which files are safe to remove, so users short on disk or administrators cleaning endpoints
+    for compliance would pick it before imaging, troubleshooting or audits; the system AI features stop
+    working afterwards, a trade-off users must confirm themselves (inference).

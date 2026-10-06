@@ -166,3 +166,46 @@
     double-click installation saves the manual config edit and post-upgrade re-setup step; but public
     material gives no preset content, effect or user feedback, so it cannot be confirmed which users choose
     it for which checkable result — installation convenience alone is not rigid demand.'
+- id: req-full-dsh-pojia-mode-2026-10-06
+  project_slug: dsh-pojia-mode
+  level: full
+  reviewed_at: '2026-10-06T02:52:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只给出安装方式（双击、零侵入、升级不丢）与仓库星标，未说明「破甲模式」预设改变什么行为、解决哪项具体任务失败，也说不清不用会失去什么；安装便利本身不构成刚性痛点，属自嗨式包装。
+    evidence_ids:
+    - ev-b27607dec34ab0dd
+    - ev-ab51de6fa325959b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 说明与 issue/discussion，确认「破甲模式」预设具体改变哪些 Agent 行为、是否有用户反馈其实际效果。
+  market: ''
+  job: DeepSeek Harness 的使用者在不想改动主程序源码的前提下，双击一个文件为工具加载名为「破甲模式」的自定义 Agent 预设，以便在升级后仍保留该预设。
+  job_en: A DeepSeek Harness user, unwilling to modify the host program's source, double-clicks a file
+    to load a custom agent preset called 'Pojia Mode' so the preset survives upgrades.
+  pain: 公开材料只说明「零侵入、零依赖、双击无黑框、升级不丢」这一安装摩擦，未说明「破甲模式」预设本身改变什么行为、解决什么具体任务失败或输出质量问题；用户为何需要这个预设、不用会失去什么，均无公开证据。
+  pain_en: Public materials only describe installation friction (non-invasive, no dependencies, no console
+    window, survives upgrades); they never state what the 'Pojia Mode' preset actually changes, what task
+    failure or output-quality problem it solves, or what a user loses without it.
+  current_alternative: 公开材料未说明用户当前如何加载自定义 Agent 预设，也未说明 DSH 是否已内置预设机制、手动改配置或社区其他预设方案，因此无法确认它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently load custom agent presets,
+    nor whether DSH already ships a preset mechanism, manual config editing, or other community presets,
+    so what it replaces is unknown.
+  usage_reason: 推断：若 DSH 本身缺少免改源码的预设加载入口，双击安装确实省去手动改配置与升级后重配的步骤，偏好零侵入的 DSH 用户可能因此试用；但预设内容与效果未公开，无法确认它相较旧做法改善了哪项可核对结果，故不构成采用理由。
+  usage_reason_en: 'Inference: if DSH lacks a source-free preset loading path, double-click install would
+    save manual config edits and post-upgrade re-setup, so non-invasive-minded DSH users might try it;
+    but the preset''s content and effect are undisclosed, so no checkable improvement over the old approach
+    can be confirmed.'

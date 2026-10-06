@@ -348,3 +348,53 @@
     bring their story, and the agent generates the film from the existing prompt and demo structure, removing
     style setup and code scaffolding, so creators lacking a video model or wanting fast stylized shorts
     would choose it.'
+- id: req-full-lemo-opuscar-2026-10-06
+  project_slug: lemo-opuscar
+  level: full
+  reviewed_at: '2026-10-06T02:53:15Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是无视频模型下风格化短片的可复现生成：用户带故事、选风格，代理按提示词与纯代码样片产出成片。痛点在于风格与镜头流程需从零搭建，43 种风格提示词与样片正是为消除这一负担；这是工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-7accfac32cd5112d
+    - ev-6290389f59a20c4e
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 683 增至 1,194，说明开发者社区持续关注并把它纳入收藏；但收藏属关注度证据，不能证明目标用户已长期留在工作流中，也未见使用评价或案例。
+    evidence_ids:
+    - ev-645b39c15094c2c1
+    - ev-6290389f59a20c4e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，也无 to C、to B、to G 的采购记录；这是商业证据缺口，不反推问题不存在，谁付钱仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-7accfac32cd5112d
+  - gate: truth
+    status: insufficient
+    reason: 仓库称纯代码样片由 Claude Opus 5.5 生成，但公开材料未给出可复现的部署文档、成片质量核验或人工确认与安全边界说明，交付能否稳定发生尚不可核对。
+    evidence_ids:
+    - ev-7accfac32cd5112d
+    - ev-6290389f59a20c4e
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户贴出用其风格提示词产出的成片、复现步骤或使用反馈，以核验交付是否稳定发生。
+  market: ''
+  job: 短片创作者或品牌内容团队在需要产出风格化短片时，先选定一种影片风格，把自己的故事素材交给 Claude Code 代理，由它按该风格的提示词与纯代码样片生成一段可播放的短片。
+  job_en: A short-film creator or brand content team, needing a stylized short film, picks one of the
+    film styles, hands their own story material to a Claude Code agent, and has it generate a playable
+    short film following that style's prompt and code-only demo.
+  pain: 公开材料显示的核心痛点是：没有视频模型时，风格化短片的视觉语言难以稳定复现，创作者要自己从零搭建分镜、镜头与代码渲染流程；43 种风格提示词与纯代码样片正是为消除这一从零起步的负担而存在（工作流结构推理）。
+  pain_en: 'The public material points to a core pain: without a video model, a stylized short film''s
+    visual language is hard to reproduce consistently, and creators must build storyboard, shot and code-rendering
+    pipelines from scratch; the 43 style prompts plus code-only demo films exist to remove that from-scratch
+    burden (workflow-structure inference).'
+  current_alternative: 旧做法是创作者自行编写分镜与提示词、逐个镜头调试生成或渲染，或直接使用通用视频生成模型；公开材料未说明用户此前具体使用哪套工具链。
+  current_alternative_en: The prior approach is for creators to write storyboards and prompts themselves,
+    debug generation or rendering shot by shot, or use general video-generation models; public materials
+    do not state which toolchain users previously used.
+  usage_reason: 相较自行从零搭建风格与镜头流程，该仓库把风格固化为可复用提示词并附纯代码样片，用户只需带入自己的故事即可让代理按既定风格执行，省去逐镜头摸索视觉语言这一步；推断，尚无用户反馈或案例证实这一选择动机。
+  usage_reason_en: Compared with building style and shot pipelines from scratch, the repo fixes each style
+    as a reusable prompt with a code-only demo film, so users only bring their own story and let the agent
+    execute in that style, skipping the shot-by-shot search for a visual language; this is inference,
+    not yet confirmed by user feedback or cases.

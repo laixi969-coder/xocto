@@ -1,0 +1,85 @@
+- id: req-initial-vulnhunter-2026-10-06
+  project_slug: vulnhunter
+  level: initial
+  reviewed_at: '2026-10-06T02:18:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决扫描告警需逐条人工验证可利用性的负担，不验证会让误报进入修复流程，旧做法是静态扫描加人工复现。
+    evidence_ids:
+    - ev-9df242c2b4c17de7
+  - gate: consensus
+    status: insufficient
+    reason: 181 星、34 个 fork 显示关注度，但无客户案例或持续采用证据，共识未成立。
+    evidence_ids:
+    - ev-9df242c2b4c17de7
+  - gate: model
+    status: insufficient
+    reason: 开源分支无定价与买方信息，企业采购或托管收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-9df242c2b4c17de7
+  - gate: truth
+    status: insufficient
+    reason: 未说明 PoC 生成的安全边界与人工复核流程，修复能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-9df242c2b4c17de7
+  next_validation: 查看 VulnHunter 仓库的 issue 与 discussion，确认是否有团队在真实代码库中重复使用并反馈误报或修复结果。
+  market: ''
+  job: 安全工程师在代码库上线前排查漏洞时，需要判断哪些告警真的可被利用，并给出可复核的修复改动。
+  job_en: Security engineers screening a codebase before release need to judge which alerts are truly
+    exploitable and produce reviewable fix changes.
+  pain: 传统扫描器输出大量告警，安全团队要逐条人工验证是否可利用，误报消耗大量时间，修复也常缺少可复现证据。
+  pain_en: Traditional scanners emit large volumes of alerts, forcing security teams to manually verify
+    exploitability one by one; false positives consume heavy time and fixes often lack reproducible evidence.
+  current_alternative: 使用传统静态扫描器加人工验证，或外包渗透测试并等待报告。
+  current_alternative_en: Using traditional static scanners plus manual verification, or outsourcing penetration
+    tests and waiting for reports.
+  usage_reason: 推断：相比传统扫描器只给告警清单，它用可执行 PoC 先证明漏洞真实可利用，再按测试先行提交修复，省掉安全工程师逐条复现告警的步骤，因此需要快速确认可利用性的团队会在上线前选择它。
+  usage_reason_en: 'Inference: unlike traditional scanners that only list alerts, it first proves exploitability
+    with executable PoCs and then submits test-first fixes, removing the step where engineers reproduce
+    each alert, so teams needing fast exploitability confirmation would choose it before release.'
+- id: req-full-vulnhunter-2026-10-06
+  project_slug: vulnhunter
+  level: full
+  reviewed_at: '2026-10-06T02:55:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决扫描告警需逐条人工验证可利用性的负担，不验证会让误报进入修复流程，旧做法是静态扫描加人工复现。
+    evidence_ids:
+    - ev-864082edaa490ebb
+    - ev-c5eed0f0e1e6c4fd
+  - gate: consensus
+    status: insufficient
+    reason: 181 星、34 个 fork 显示关注度，但无客户案例或持续采用证据，共识未成立。
+    evidence_ids:
+    - ev-9a8a57eb59127f68
+  - gate: model
+    status: insufficient
+    reason: 开源分支无定价与买方信息，企业采购或托管收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-6f62802419f790de
+  - gate: truth
+    status: insufficient
+    reason: 未说明 PoC 生成的安全边界与人工复核流程，修复能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-337856ea806a7871
+  next_validation: 查看 VulnHunter 仓库的 issue 与 discussion，确认是否有团队在真实代码库中重复使用并反馈误报或修复结果。
+  market: ''
+  job: 安全工程师在代码库上线前排查漏洞时，需要判断哪些告警真的可被利用，并给出可复核的修复改动。
+  job_en: Security engineers screening a codebase before release need to judge which alerts are truly
+    exploitable and produce reviewable fix changes.
+  pain: 传统扫描器输出大量告警，安全团队要逐条人工验证是否可利用，误报消耗大量时间，修复也常缺少可复现证据。
+  pain_en: Traditional scanners emit large volumes of alerts, forcing security teams to manually verify
+    exploitability one by one; false positives consume heavy time and fixes often lack reproducible evidence.
+  current_alternative: 使用传统静态扫描器加人工验证，或外包渗透测试并等待报告。
+  current_alternative_en: Using traditional static scanners plus manual verification, or outsourcing penetration
+    tests and waiting for reports.
+  usage_reason: 推断：相比传统扫描器只给告警清单，它用可执行 PoC 先证明漏洞真实可利用，再按测试先行提交修复，省掉安全工程师逐条复现告警的步骤，因此需要快速确认可利用性的团队会在上线前选择它。
+  usage_reason_en: 'Inference: unlike traditional scanners that only list alerts, it first proves exploitability
+    with executable PoCs and then submits test-first fixes, removing the step where engineers reproduce
+    each alert, so teams needing fast exploitability confirmation would choose it before release.'

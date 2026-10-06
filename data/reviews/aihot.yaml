@@ -319,3 +319,52 @@
     and independent-source ranking, freeing the editor from the find-and-filter step and leaving only
     source and criteria substitution; thus editors or operators wanting a low-cost industry hotspot site
     would choose it when they need stable daily briefing output. Public material provi'
+- id: req-full-aihot-2026-10-06
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-06T02:50:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是行业资讯编辑每天从大量信源中筛选、聚类并产出可发布日报的需求；公开材料显示单日收录 561 条摘要、每日 08:00 发布，说明信源量与筛选负担真实存在，手动翻源排版是旧替代，不做的后果是日报产出延迟或遗漏。这是基于工作流结构的推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-024f4fb6fbf836ef
+    - ev-86c2a81090373098
+    - ev-a4eaf7dff29b07ed
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 仓库有 6,007 个收藏，说明开发者社区注意到该框架；但收藏只反映关注度，公开材料没有目标编辑持续使用、复刻后实际部署或替换旧流程的证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-8922e8ba2674ee4f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济；可能来自 to C 自建站点者、to B 内容团队或 to VC 开源叙事，但均属判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-3017c0e79ee51ab9
+  - gate: truth
+    status: insufficient
+    reason: 公开材料描述了抓取、两次打分、聚类与排序的交付链路，但未见可复现的部署文档、筛选规则细节或人工审核边界，交付能否稳定确定发生仍缺公开证据。
+    evidence_ids:
+    - ev-024f4fb6fbf836ef
+  next_validation: 追踪 AIHOT 官方 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开报告实际部署、替换旧日报流程或提出筛选规则问题。
+  market: ''
+  job: 行业资讯编辑或运营者需要在每天固定时间前，从大量 AI 相关信源中挑出当天值得看的条目，整理成一份可直接发布的中文日报站点。
+  job_en: An industry news editor or operator needs to select the day's worthwhile items from many AI-related
+    sources before a fixed daily deadline and turn them into a publishable Chinese daily briefing site.
+  pain: 公开材料显示 AIHOT 每日 08:00 发布精编日报，单日收录 561 条摘要，说明信源量与筛选工作量很大；手动翻多个信源、逐条判断价值并排版是重复且耗时的负担，但公开材料未给出不解决的具体代价或频率数据。
+  pain_en: Public materials show AIHOT publishes a curated daily briefing at 08:00 Beijing time and one
+    day collected 561 summaries, indicating large source volume and filtering workload; manually scanning
+    many sources, judging each item and laying out a briefing is repetitive and time-consuming, though
+    public materials give no concrete cost or frequency data.
+  current_alternative: 编辑通常手动浏览多个信源、凭经验挑选条目并用排版工具或 CMS 拼成日报；公开材料未说明用户此前具体使用哪些工具或流程。
+  current_alternative_en: Editors typically scan multiple sources manually, pick items by experience and
+    assemble a briefing with layout tools or a CMS; public materials do not specify which tools or workflows
+    users previously used.
+  usage_reason: 推断：相较手动逐条筛选，AIHOT 按配置信源抓取、用语言模型两次打分筛选、生成中文标题摘要、把同一事件的多篇报道聚成一条并按独立信源数排序，用户只需替换信源与精选标准即可得到可发布的日报页面，因此想自建行业热点站的编辑或运营者会在需要持续产出日报时选择它。
+  usage_reason_en: 'Inference: compared with manual item-by-item filtering, AIHOT fetches from configured
+    sources, scores each item twice with a language model, writes Chinese headlines and summaries, clusters
+    reports of the same story into one event and ranks by independent source count, so users only need
+    to swap sources and selection criteria to get a publishable briefing page; editors or operators wanting
+    their own industry hotspot site would choose it when they must keep producing a daily b'

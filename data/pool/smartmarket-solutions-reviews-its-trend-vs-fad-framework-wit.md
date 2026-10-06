@@ -23,7 +23,7 @@ summary: SmartMarket Solutions Reviews Its Trend-vs-Fad Framework with Business 
   Take Off accessnewswire.com
 first_seen: '2026-10-05T18:02:29Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

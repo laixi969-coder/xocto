@@ -21,7 +21,7 @@ canonical_url: https://islandthree.world
 summary: A Walkable O'Neill Cylinder in the Browser
 first_seen: '2026-10-05T11:32:58Z'
 last_seen: '2026-10-06T02:18:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

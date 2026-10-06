@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kZUtXNVZNZEtD
 summary: 从孤独到陪伴：ber365下载官方如何用AI点亮老年棋友的智慧晚年 体坛
 first_seen: '2026-10-04T20:12:35Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

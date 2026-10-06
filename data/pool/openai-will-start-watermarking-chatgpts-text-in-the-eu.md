@@ -1,11 +1,12 @@
 ---
 slug: openai-will-start-watermarking-chatgpts-text-in-the-eu
-name: OpenAI will start watermarking ChatGPT’s text in the EU
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 面向欧盟市场对 ChatGPT 与 Codex 输出文本加不可见水印，属于监管驱动的平台政策调整，不构成独立产品机会。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI applies invisible watermarks to ChatGPT and Codex text output for the EU market, a
+  regulation-driven platform policy change rather than a standalone product opportunity.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: OpenAI will watermark ChatGPT and Codex text in the EU to comply with t
   make the invisible marks harder to detect, it says.
 first_seen: '2026-10-05T20:36:48Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI will start watermarking ChatGPT’s text in the EU
+# OpenAI
 
 OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.
 

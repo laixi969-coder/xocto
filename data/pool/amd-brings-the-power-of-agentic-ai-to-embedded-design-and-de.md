@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYklWOEtiNDZx
 summary: AMD Brings the Power of Agentic AI to Embedded Design and Development Cycle with AMD Ross varindia
 first_seen: '2026-10-05T16:46:24Z'
 last_seen: '2026-10-06T02:19:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

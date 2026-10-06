@@ -1,0 +1,85 @@
+- id: req-initial-devpit-2026-10-06
+  project_slug: devpit
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多代理并行时状态分散、难以确认的问题，痛点结构成立，但公开材料只有一句产品描述，无法确认具体控制动作与交付结果。
+    evidence_ids:
+    - ev-478147efb639844e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品发布页，没有用户评价、采用或社区讨论证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-478147efb639844e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-478147efb639844e
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其是否贴近代理运维的第一性目标、承诺能否确定性交付，也未见安全与人工边界说明。
+    evidence_ids:
+    - ev-478147efb639844e
+  next_validation: 收集 devpit 官方产品页或文档，确认其支持哪些代理控制动作、是否有定价页与用户使用反馈。
+  market: ''
+  job: 开发者在同时运行多个 Claude Code 代理时，需要集中查看各代理的执行状态并做调度。
+  job_en: Developers running several Claude Code agents at once need to view each agent's execution state
+    and coordinate them in one place.
+  pain: 多代理并行时状态分散，难以判断哪个代理在做什么、是否卡住。
+  pain_en: With parallel agents, state is scattered, making it hard to tell what each agent is doing or
+    whether it is stuck.
+  current_alternative: 开发者目前多依赖终端窗口、日志输出或各自代理自带的界面分别查看。
+  current_alternative_en: Developers currently rely on terminal windows, log output, or each agent's own
+    interface to check them separately.
+  usage_reason: 推断：相较在多个终端间来回切换，devpit 把代理运行信息收进一个原生控制台，减少逐个窗口确认状态这一步，因此同时跑多个代理的开发者可能选择它；公开材料未给出用户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with switching among terminals, devpit collects agent runtime
+    information into one native console, removing the step of checking each window, so developers running
+    several agents may choose it; public materials give no user feedback or retention evidence.'
+- id: req-full-devpit-2026-10-06
+  project_slug: devpit
+  level: full
+  reviewed_at: '2026-10-06T02:52:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时状态分散、难以确认哪个代理在做什么或是否卡住的问题，痛点刚性来自并行任务本身；公开材料仅一句产品描述，具体控制动作与交付结果未披露，价值判断属工作流结构推理。
+    evidence_ids:
+    - ev-478147efb639844e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品发布页一句描述，没有用户评价、采用或社区讨论证据，无法判断是否形成共识或强场景。
+    evidence_ids:
+    - ev-478147efb639844e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱可能来自 to C 开发者订阅或 to B 团队采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-478147efb639844e
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其是否贴近代理运维第一性目标、承诺能否确定性交付，也未见安全与人工边界说明。
+    evidence_ids:
+    - ev-478147efb639844e
+  next_validation: 收集 devpit 官方产品页或文档，确认其支持哪些代理控制动作、是否有定价页与用户使用反馈。
+  market: ''
+  job: 开发者在同时运行多个 Claude Code 代理时，打开 devpit 集中查看各代理的执行状态并做统一调度，最终拿到一个可集中监控代理的控制台界面。
+  job_en: Developers running several Claude Code agents at once open devpit to view each agent's execution
+    state in one place and coordinate them, ending with a single console for monitoring agents.
+  pain: 多代理并行时状态分散在多个终端与日志里，难以判断哪个代理在做什么、是否卡住，切换窗口确认状态本身成为负担。
+  pain_en: With parallel agents, state is scattered across terminals and logs, making it hard to tell
+    what each agent is doing or whether it is stuck; switching windows to check becomes its own burden.
+  current_alternative: 开发者目前多依赖终端窗口、日志输出或各代理自带的界面分别查看，没有统一控制台。
+  current_alternative_en: Developers currently rely on terminal windows, log output, or each agent's own
+    interface to check them separately, with no unified console.
+  usage_reason: 推断：相较在多个终端间来回切换、逐个窗口确认状态，devpit 把代理运行信息收进一个原生控制台，减少逐个窗口核对这一步，因此同时跑多个 Claude Code 代理的开发者会在并行任务时选择它；公开材料未给出用户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with switching among terminals and checking each window, devpit
+    collects agent runtime information into one native console, removing the step of per-window status
+    checks, so developers running several Claude Code agents may choose it for parallel tasks; public
+    materials give no user feedback or retention evidence.'

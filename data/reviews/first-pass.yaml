@@ -355,3 +355,54 @@
     fixes ''ask blast radius first, have a non-author reviewer check, produce completion evidence'' as
     a pre-commit routine, cutting the burden of organizing review steps and missing same-class bugs, so
     Claude Code users who care about change quality would adopt it before committing.'
+- id: req-full-first-pass-2026-10-06
+  project_slug: first-pass
+  level: full
+  reviewed_at: '2026-10-06T02:52:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 写码后改动影响范围无人复核、完成与否缺少证据的问题，痛点来自 AI 生成代码只看被写行的结构性缺口；旧做法是人工逐行读 diff 与作者自审，不解决则未验证改动被当作完成。这是工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-b624734bf0221235
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 140 降至 80 后回升至 109，说明有开发者关注并试用，但收藏与环比只属关注度证据，不能证明目标用户已把它留在提交前流程里持续使用。
+    evidence_ids:
+    - ev-b624734bf0221235
+    - ev-468890cd20bc8490
+    - ev-fa336c5605612f26
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断钱来自个人开发者、团队预算还是开源赞助；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-b624734bf0221235
+  - gate: truth
+    status: insufficient
+    reason: 规则集能否稳定产出可核对的审查记录、人工确认边界如何设定，公开材料只有一句功能描述，缺少部署文档或可复现实测来确认交付确定性。
+    evidence_ids:
+    - ev-b624734bf0221235
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否出现具体团队在提交前流程中部署该规则集、替代了哪种旧审查步骤的公开记录。
+  market: ''
+  job: 使用 Claude Code 的软件工程师在提交改动前，把这次 diff 交给一套规则集处理：先回答十个关于改动影响范围的问题，再由未参与编写的审查角色复核，并附上完成证据后才算结束，最终是否合并仍由人确认。
+  job_en: 'A software engineer using Claude Code, before committing a change, runs the diff through a
+    rule set: ten questions about the change''s blast radius, review by a role that did not write the
+    code, and proof of completion before the task is called done, with the human still deciding whether
+    to merge.'
+  pain: 公开说明指向的痛点是 AI 生成的改动只看被写的行、不看周边影响，缺少独立复核与完成证据，容易把未验证的改动当成已完成；这是从产品说明与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: The stated pain is that AI-written changes are reviewed only at the lines written, without
+    surrounding context, independent review, or proof of completion, so unverified changes get treated
+    as done; this is inferred from the product description and workflow structure, not from user complaints
+    or cases.
+  current_alternative: 当前替代是人工逐行读 diff、依赖作者自审或同事顺手看一眼，以及把测试通过当作完成信号；公开材料未说明这些旧做法在具体团队中的失败频率。
+  current_alternative_en: The current alternative is reading the diff line by line, relying on the author's
+    self-review or a colleague's glance, and treating passing tests as the completion signal; public materials
+    do not show how often these fail in specific teams.
+  usage_reason: 推断：相较人工逐行读 diff 或作者自审，它把审查拆成固定动作——先问影响范围、再由非作者角色复核、最后要求完成证据，从而减少“改动看起来对就合并”这一步的漏检；会在意
+    AI 改动影响面、又不想每次手工补审查流程的工程师可能因此选用它。
+  usage_reason_en: 'Inference: versus reading the diff line by line or self-review, it splits review into
+    fixed steps—blast-radius questions, review by a non-author role, and required proof of completion—reducing
+    the missed-check step of merging a change because it looks right; engineers who care about AI-change
+    blast radius but do not want to hand-build a review process each time may adopt it.'

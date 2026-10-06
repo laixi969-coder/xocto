@@ -1,0 +1,87 @@
+- id: req-initial-qiaomu-codex-imagegen-2026-10-06
+  project_slug: qiaomu-codex-imagegen
+  level: initial
+  reviewed_at: '2026-10-06T02:18:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容运营按平台版式快速出图的需求，痛点是生图与排版工具来回切换、手工套版式，旧做法明确，结构上成立。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  - gate: consensus
+    status: insufficient
+    reason: 95 星说明有开发者关注，但没有用户反馈或案例证明运营已把它放进日常出图流程。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  - gate: model
+    status: insufficient
+    reason: 开源项目无公开定价，付费路径可能是定制配方或代出图服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  - gate: truth
+    status: insufficient
+    reason: 无法核对出图是否真的符合平台版式与审核偏好，缺少可复现的成品对比。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  next_validation: 收集该仓库的示例输出与 issue/discussion，核对生成图是否满足小红书与视频封面的版式要求。
+  market: ''
+  job: 内容运营在准备小红书笔记或视频封面时，需要按平台版式快速产出多张配图，交给 Agent 调用生图能力完成出图。
+  job_en: A content operator preparing a Xiaohongshu post or video cover needs several platform-formatted
+    images quickly, and has an agent call image generation to produce them.
+  pain: 平台封面有固定尺寸与版式要求，运营常要在生图工具与排版工具之间来回切换并手工调整。
+  pain_en: Platform covers have fixed sizes and layout rules, so operators often switch between image
+    tools and layout tools and adjust by hand.
+  current_alternative: 在独立生图工具里出图，再导入设计工具手工裁切、加标题。
+  current_alternative_en: Generating images in a standalone image tool, then importing them into a design
+    tool to crop and add titles by hand.
+  usage_reason: 推断：它把平台版式技巧直接内置进 Agent 可调用的生图动作，运营可在同一对话里出图，省去在生图与排版工具间切换并手工套版式的一步；因此常做小红书或视频封面的运营会尝试它。
+  usage_reason_en: 'Inference: it bakes platform layout recipes into an agent-callable image action, so
+    operators can generate images inside the same conversation, skipping the step of switching between
+    image and layout tools and applying templates by hand; operators who regularly make Xiaohongshu or
+    video covers would try it.'
+- id: req-full-qiaomu-codex-imagegen-2026-10-06
+  project_slug: qiaomu-codex-imagegen
+  level: full
+  reviewed_at: '2026-10-06T02:54:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容运营按平台版式快速出图的需求，痛点是生图与排版工具来回切换、手工套版式，旧做法明确，结构上成立。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  - gate: consensus
+    status: insufficient
+    reason: 95 星说明有开发者关注，但没有用户反馈或案例证明运营已把它放进日常出图流程。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  - gate: model
+    status: insufficient
+    reason: 开源项目无公开定价，付费路径可能是定制配方或代出图服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  - gate: truth
+    status: insufficient
+    reason: 无法核对出图是否真的符合平台版式与审核偏好，缺少可复现的成品对比。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  next_validation: 收集该仓库的示例输出与 issue/discussion，核对生成图是否满足小红书与视频封面的版式要求。
+  market: ''
+  job: 内容运营在准备小红书笔记或视频封面时，需要按平台版式快速产出多张配图，交给 Agent 调用生图能力完成出图。
+  job_en: A content operator preparing a Xiaohongshu post or video cover needs several platform-formatted
+    images quickly, and has an agent call image generation to produce them.
+  pain: 平台封面有固定尺寸与版式要求，运营常要在生图工具与排版工具之间来回切换并手工调整；公开材料以“内置小红书、视频封面、Mondo 海报技巧”间接支持这一版式适配负担。
+  pain_en: Platform covers have fixed sizes and layout rules, so operators often switch between image
+    tools and layout tools and adjust by hand; the public material indirectly supports this layout burden
+    by advertising built-in Xiaohongshu, video-cover and Mondo poster recipes.
+  current_alternative: 在独立生图工具里出图，再导入设计工具手工裁切、加标题。
+  current_alternative_en: Generating images in a standalone image tool, then importing them into a design
+    tool to crop and add titles by hand.
+  usage_reason: 推断：它把平台版式技巧直接内置进 Agent 可调用的生图动作，运营可在同一对话里出图，省去在生图与排版工具间切换并手工套版式的一步；因此常做小红书或视频封面的运营会尝试它。
+  usage_reason_en: 'Inference: it bakes platform layout recipes into an agent-callable image action, so
+    operators can generate images inside the same conversation, skipping the step of switching between
+    image and layout tools and applying templates by hand; operators who regularly make Xiaohongshu or
+    video covers would try it.'

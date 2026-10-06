@@ -22,7 +22,7 @@ summary: Meet the final five Startup Battlefield judges who'll decide who wins t
   TechCrunch Disrupt 2026. Get your pass now to save up to $100, and get a second at 50% off.
 first_seen: '2026-10-05T14:30:00Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

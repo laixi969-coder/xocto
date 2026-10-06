@@ -24,7 +24,7 @@ summary: 'For all the data that AI systems continually amass and analyze, enterp
   about situations, make decisions, and ultimately…'
 first_seen: '2026-10-05T15:47:52Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

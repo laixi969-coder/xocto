@@ -396,3 +396,54 @@
     leads, and verbatim excerpts with line numbers in one stdout response, collapsing the 'guess a file
     then open it to confirm' step into one lookup; this is an inference about why engineers choose it
     when taking over an unfamiliar repository or having an agent edit behavior-related code.
+- id: req-full-jevgrep-2026-10-06
+  project_slug: jevgrep
+  level: full
+  reviewed_at: '2026-10-06T02:53:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在不熟悉仓库中按行为而非命名定位代码的需求，痛点是关键词检索漏检、智能体上下文不准导致改错位置；公开材料显示其以行为描述检索并返回带行号源码片段，旧替代为 grep 与整仓投喂，属工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-d5a488ad3355a6d6
+    - ev-31ea4dc0e049bb36
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库描述与单次查询成本，未见收藏、复刻、下载或开发者讨论等采用信号，无法判断目标用户是否已把它留在工作流里，共识卡在感知与场景验证环节。
+    evidence_ids:
+    - ev-c119e6d239bb18e1
+    - ev-d5a488ad3355a6d6
+  - gate: model
+    status: insufficient
+    reason: 公开材料只披露按 AI Gateway 列表价折算的单次查询模型成本约 0.000427 美元，未见定价页、付费主体或 to C/to B 收费路径；谁付钱仍是判断而非已验证事实，但这是模式缺口，不影响需求成立。
+    evidence_ids:
+    - ev-c119e6d239bb18e1
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺返回候选文件与精确代码位置、由人工决定是否采纳，边界表述清楚；但未见可复现的检索准确率、误报率或部署文档，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-d5a488ad3355a6d6
+    - ev-31ea4dc0e049bb36
+  next_validation: 追踪 jevgrep 官方仓库的 issue 与 discussion，确认是否有用户报告在真实仓库中替代 grep 或整仓投喂的具体使用记录与检索准确率反馈。
+  market: ''
+  job: 软件工程师或编码智能体使用者在接手不熟悉的代码库、需要修改某个具体行为时，用自然语言描述“这段代码做什么”来检索相关文件与源码上下文，拿到带行号的候选代码位置后再决定是否让智能体动手改。
+  job_en: A software engineer or coding-agent user taking over an unfamiliar repository, needing to change
+    a specific behavior, describes in natural language what the code does to retrieve relevant files and
+    source context, gets candidate locations with line numbers, then decides whether to let the agent
+    edit.
+  pain: 在不熟悉的仓库里定位某个行为对应的文件，传统上依赖关键词 grep、记忆中的命名约定或逐层翻目录，命名与行为不一致时容易漏掉相关实现；把这种模糊检索交给智能体时，智能体也常因拿不到正确上下文而改错位置。
+  pain_en: Locating the file behind a behavior in an unfamiliar repo traditionally relies on keyword grep,
+    remembered naming conventions, or directory browsing; when names do not match behavior, relevant implementations
+    are missed, and agents handed the same vague task often edit the wrong place for lack of correct context.
+  current_alternative: 关键词 grep、IDE 全局搜索、按目录逐层浏览，或直接把整个仓库/若干文件塞给编码智能体让它自己找。
+  current_alternative_en: Keyword grep, IDE global search, browsing directories layer by layer, or dumping
+    the whole repo or several files into a coding agent and letting it search itself.
+  usage_reason: 推断：相较关键词 grep 依赖命名匹配，jevgrep 让用户用行为描述直接检索并返回带行号的源码片段，省去反复换关键词、逐个打开文件确认的那一步；相较把整仓库丢给智能体，它先缩小候选文件范围，因此命名与行为不一致的仓库维护者、以及需要给智能体喂准确上下文的用户会在这种情况下选择它。公开材料只给出单次查询成本约
+    0.000427 美元，未提供留存或复购证据。
+  usage_reason_en: 'Inference: unlike keyword grep, which depends on naming matches, jevgrep lets users
+    query by behavior description and returns source excerpts with line numbers, removing the step of
+    cycling keywords and opening files one by one; unlike dumping the whole repo into an agent, it narrows
+    candidate files first, so maintainers of repos where names diverge from behavior, and users who must
+    feed agents accurate context, would choose it in that situation. Public material only gives a '

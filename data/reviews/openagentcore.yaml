@@ -190,3 +190,51 @@
     Agents API and point existing call code at a self-hosted instance, so teams with data-residency or
     vendor-lock-in concerns would choose it for private deployment; stars rising from 116 to 171 only
     shows growing attention, not production adoption.'
+- id: req-full-openagentcore-2026-10-06
+  project_slug: openagentcore
+  level: full
+  reviewed_at: '2026-10-06T02:53:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发团队在私有环境运行 agent 编排的需求，痛点是数据不出域与供应商锁定；旧做法是直连托管 API 或自行重写运行时，不解决则要么数据出域要么重复造轮子。此为工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+    - ev-e32c51a5637c56c9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 116 增至 191，属关注度信号，可说明有人关注该方向，但无 issue、discussion 或客户案例证明团队已把它放进生产工作流。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+    - ev-e32c51a5637c56c9
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，公开材料未见定价页、商业授权或支持服务路径，钱可能来自 to B 私有化交付或 to VC，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出支持的 Agents API 范围、部署文档或实测结果，承诺能否确定性交付无法核对，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-b6a0fcdfa1645996
+    - ev-e18375e71abf3694
+  next_validation: 追踪该仓库的 README 与 issue/discussion，确认其实际支持的 OpenAI Agents API 范围、部署文档与已知限制。
+  market: ''
+  job: 开发团队在需要把 agent 服务部署进自有服务器或客户内网时，处理原本绑定 OpenAI Agents API 的调用代码，要完成在本地跑通同一套 agent 编排并返回结果的任务。
+  job_en: A development team deploying agent services onto its own servers or a client's private network
+    handles code bound to the OpenAI Agents API, aiming to run the same agent orchestration locally and
+    return results.
+  pain: 公开材料只说明它是 OpenAI Agents API 的自托管实现，未给出用户抱怨、迁移成本或替换旧做法的记录；痛点强度只能从数据不出域、供应商锁定这类结构性约束推断，缺少用户口述证据。
+  pain_en: Public material only states it is a self-hosted implementation of the OpenAI Agents API, with
+    no user complaints, migration costs or records of replacing an old practice; pain intensity can only
+    be inferred from structural constraints such as data residency and vendor lock-in, lacking user testimony.
+  current_alternative: 团队目前多直接调用 OpenAI 托管 API，或自行基于开源框架重写一套运行时，把 Agents API 的调用语义手工复刻到自有环境。
+  current_alternative_en: Teams currently call the hosted OpenAI API directly, or rewrite a runtime themselves
+    on top of open-source frameworks, manually replicating Agents API call semantics in their own environment.
+  usage_reason: 推断：若接口兼容成立，团队可省去按 Agents API 语义重写运行时这一步，直接以原有调用代码在自有服务器上执行编排，因此有数据不出域或避免供应商锁定要求的团队会在私有部署场景中选择它；目前仅有仓库星数增长，缺少采用与留存证据。
+  usage_reason_en: 'Inference: if API compatibility holds, teams could skip rewriting a runtime for Agents
+    API semantics and run orchestration on their own servers with existing call code, so teams with data-residency
+    or anti-lock-in requirements would choose it for private deployment; only repository star growth is
+    available, with no adoption or retention evidence.'

@@ -1,0 +1,85 @@
+- id: req-initial-marv-2026-10-06
+  project_slug: marv
+  level: initial
+  reviewed_at: '2026-10-06T02:18:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决新手在软件界面卡住、不知点哪里的问题，痛点真实存在，但公开材料只有一句描述，无法确认它替代了哪一步旧流程、交付是否可核对。
+    evidence_ids:
+    - ev-03db18217cac7e47
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页一句描述外，没有用户评价、采用或讨论证据，无法判断是否有人真的在用它替代教程和求助同事。
+    evidence_ids:
+    - ev-03db18217cac7e47
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；光标伴侣可能面向个人订阅，也可能卖给企业培训方，这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-03db18217cac7e47
+  - gate: truth
+    status: insufficient
+    reason: 无法确认它能否稳定识别具体软件界面并给出正确点击位置，若指引出错反而增加试错，承诺的确定性交付尚未核验。
+    evidence_ids:
+    - ev-03db18217cac7e47
+  next_validation: 收集 Marv 官方产品页或文档，确认其支持的软件范围、指引生成方式与是否公布定价。
+  market: ''
+  job: 不熟悉某款软件的新手用户，在操作界面卡住、不知道下一步点哪里时，需要照着屏幕提示完成当前操作任务。
+  job_en: A novice user unfamiliar with a piece of software, stuck on the interface and unsure where to
+    click next, needs to follow on-screen hints to finish the current task.
+  pain: 卡在界面上时只能去搜教程、看视频或问同事，步骤与当前屏幕对不上，反复试错。
+  pain_en: When stuck on an interface, users must search tutorials, watch videos, or ask colleagues; the
+    steps do not match their current screen, causing repeated trial and error.
+  current_alternative: 搜索图文教程、看视频、问同事，或软件自带的帮助文档与客服。
+  current_alternative_en: Searching written tutorials, watching videos, asking colleagues, or using built-in
+    help docs and support.
+  usage_reason: 推断：若它能在用户当前屏幕上直接标出下一步点击位置，就省去把教程步骤与自己的界面对应这一步；但公开材料未说明支持哪些软件、指引是否准确，因此哪类用户会在什么情况下选择它仍无法确认。
+  usage_reason_en: 'Inference: if it can mark the next click directly on the user''s current screen, it
+    removes the step of mapping tutorial instructions onto one''s own interface; however, the public material
+    does not say which software is supported or whether the guidance is accurate, so which users would
+    choose it and when remains unconfirmed.'
+- id: req-full-marv-2026-10-06
+  project_slug: marv
+  level: full
+  reviewed_at: '2026-10-06T02:53:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决新手在软件界面卡住、不知点哪里的问题，但公开材料只有一句产品描述，无法还原具体旧流程、输入、动作与交付结果，连需求和痛点都难以具体写出。
+    evidence_ids:
+    - ev-e954b3edbb4b37ee
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Marv 官方产品页或文档，确认其支持的软件范围、指引生成方式与是否公布定价。
+  market: ''
+  job: 不熟悉某款软件的新手用户，在操作界面卡住、不知道下一步点哪里时，需要照着屏幕上的提示完成当前操作任务。
+  job_en: A novice user unfamiliar with a piece of software, stuck on the interface and unsure where to
+    click next, needs to follow on-screen hints to finish the current task.
+  pain: 公开材料只有一句产品描述，无法确认卡住时的具体痛点强度、发生频率与不解决的后果；现有替代方式（搜教程、看视频、问同事）是否真的对不上当前屏幕，也没有任何用户反馈或案例支持。
+  pain_en: The public material contains only a one-line product description, so the intensity, frequency,
+    and consequences of getting stuck cannot be confirmed; there is no user feedback or case showing that
+    existing alternatives (searching tutorials, watching videos, asking colleagues) actually fail to match
+    the current screen.
+  current_alternative: 搜索图文教程、看视频、问同事，或使用软件自带帮助文档与客服；这些替代方式是否低效，公开材料未提供任何证据。
+  current_alternative_en: Searching written tutorials, watching videos, asking colleagues, or using built-in
+    help docs and support; no public evidence shows whether these alternatives are actually inefficient.
+  usage_reason: 推断：若它能在用户当前屏幕上直接标出下一步点击位置，可省去把教程步骤与自身界面对应这一步；但公开材料未说明支持哪些软件、指引是否可核对，因此哪类用户会在什么情况下选择它无法确认。
+  usage_reason_en: 'Inference: if it can mark the next click directly on the user''s current screen, it
+    removes the step of mapping tutorial instructions onto one''s own interface; however, the public material
+    does not say which software is supported or whether the guidance is verifiable, so which users would
+    choose it and when cannot be confirmed.'
