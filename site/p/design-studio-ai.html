@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>design-studio-ai · x-octo</title>
-<meta name="description" content="设计师或前端工程师在需要产出界面、3D 或动效素材时，把设计任务交给 AI 代理或自己在云端工作区里编辑；工具接收设计意图与素材，执行编辑、生成与动效处理，最终交付可用的设计文件或代码，人工仍需确认结果。具体输入格式与交付形态仍待核验。">
+<meta name="description" content="面向 AI 智能体与人类协作的开源设计工作区，提供云端编辑、3D、动效、MCP/WebMCP、CLI 与自带密钥（BYOK）能力，采用 MIT 许可。谁在什么节点打开它、AI 具体接收什么材料并产出什么交付，候选资料未给出具体流程，具体流程或交付仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/design-studio-ai.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/design-studio-ai.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/design-studio-ai.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/design-studio-ai.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="design-studio-ai · x-octo">
-<meta property="og:description" content="设计师或前端工程师在需要产出界面、3D 或动效素材时，把设计任务交给 AI 代理或自己在云端工作区里编辑；工具接收设计意图与素材，执行编辑、生成与动效处理，最终交付可用的设计文件或代码，人工仍需确认结果。具体输入格式与交付形态仍待核验。">
+<meta property="og:description" content="面向 AI 智能体与人类协作的开源设计工作区，提供云端编辑、3D、动效、MCP/WebMCP、CLI 与自带密钥（BYOK）能力，采用 MIT 许可。谁在什么节点打开它、AI 具体接收什么材料并产出什么交付，候选资料未给出具体流程，具体流程或交付仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/design-studio-ai.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/design-studio-ai.html#webpage", "@type": "WebPage", "description": "\u8bbe\u8ba1\u5e08\u6216\u524d\u7aef\u5de5\u7a0b\u5e08\u5728\u9700\u8981\u4ea7\u51fa\u754c\u9762\u30013D \u6216\u52a8\u6548\u7d20\u6750\u65f6\uff0c\u628a\u8bbe\u8ba1\u4efb\u52a1\u4ea4\u7ed9 AI \u4ee3\u7406\u6216\u81ea\u5df1\u5728\u4e91\u7aef\u5de5\u4f5c\u533a\u91cc\u7f16\u8f91\uff1b\u5de5\u5177\u63a5\u6536\u8bbe\u8ba1\u610f\u56fe\u4e0e\u7d20\u6750\uff0c\u6267\u884c\u7f16\u8f91\u3001\u751f\u6210\u4e0e\u52a8\u6548\u5904\u7406\uff0c\u6700\u7ec8\u4ea4\u4ed8\u53ef\u7528\u7684\u8bbe\u8ba1\u6587\u4ef6\u6216\u4ee3\u7801\uff0c\u4eba\u5de5\u4ecd\u9700\u786e\u8ba4\u7ed3\u679c\u3002\u5177\u4f53\u8f93\u5165\u683c\u5f0f\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "design-studio-ai", "url": "https://xocto.vercel.app/p/design-studio-ai.html"}, {"@id": "https://xocto.vercel.app/p/design-studio-ai.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u521b\u4f5c", "dateModified": "2026-09-30", "datePublished": "2026-09-07", "description": "\u8bbe\u8ba1\u5e08\u6216\u524d\u7aef\u5de5\u7a0b\u5e08\u5728\u9700\u8981\u4ea7\u51fa\u754c\u9762\u30013D \u6216\u52a8\u6548\u7d20\u6750\u65f6\uff0c\u628a\u8bbe\u8ba1\u4efb\u52a1\u4ea4\u7ed9 AI \u4ee3\u7406\u6216\u81ea\u5df1\u5728\u4e91\u7aef\u5de5\u4f5c\u533a\u91cc\u7f16\u8f91\uff1b\u5de5\u5177\u63a5\u6536\u8bbe\u8ba1\u610f\u56fe\u4e0e\u7d20\u6750\uff0c\u6267\u884c\u7f16\u8f91\u3001\u751f\u6210\u4e0e\u52a8\u6548\u5904\u7406\uff0c\u6700\u7ec8\u4ea4\u4ed8\u53ef\u7528\u7684\u8bbe\u8ba1\u6587\u4ef6\u6216\u4ee3\u7801\uff0c\u4eba\u5de5\u4ecd\u9700\u786e\u8ba4\u7ed3\u679c\u3002\u5177\u4f53\u8f93\u5165\u683c\u5f0f\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/design-studio-ai.html#webpage"}, "name": "design-studio-ai", "sameAs": "https://studio.agentkit.best", "url": "https://xocto.vercel.app/p/design-studio-ai.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/design-studio-ai.html", "name": "design-studio-ai", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/design-studio-ai.html#webpage", "@type": "WebPage", "description": "\u9762\u5411 AI \u667a\u80fd\u4f53\u4e0e\u4eba\u7c7b\u534f\u4f5c\u7684\u5f00\u6e90\u8bbe\u8ba1\u5de5\u4f5c\u533a\uff0c\u63d0\u4f9b\u4e91\u7aef\u7f16\u8f91\u30013D\u3001\u52a8\u6548\u3001MCP/WebMCP\u3001CLI \u4e0e\u81ea\u5e26\u5bc6\u94a5\uff08BYOK\uff09\u80fd\u529b\uff0c\u91c7\u7528 MIT \u8bb8\u53ef\u3002\u8c01\u5728\u4ec0\u4e48\u8282\u70b9\u6253\u5f00\u5b83\u3001AI \u5177\u4f53\u63a5\u6536\u4ec0\u4e48\u6750\u6599\u5e76\u4ea7\u51fa\u4ec0\u4e48\u4ea4\u4ed8\uff0c\u5019\u9009\u8d44\u6599\u672a\u7ed9\u51fa\u5177\u4f53\u6d41\u7a0b\uff0c\u5177\u4f53\u6d41\u7a0b\u6216\u4ea4\u4ed8\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "design-studio-ai", "url": "https://xocto.vercel.app/p/design-studio-ai.html"}, {"@id": "https://xocto.vercel.app/p/design-studio-ai.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u521b\u4f5c", "dateModified": "2026-10-06", "datePublished": "2026-09-07", "description": "\u9762\u5411 AI \u667a\u80fd\u4f53\u4e0e\u4eba\u7c7b\u534f\u4f5c\u7684\u5f00\u6e90\u8bbe\u8ba1\u5de5\u4f5c\u533a\uff0c\u63d0\u4f9b\u4e91\u7aef\u7f16\u8f91\u30013D\u3001\u52a8\u6548\u3001MCP/WebMCP\u3001CLI \u4e0e\u81ea\u5e26\u5bc6\u94a5\uff08BYOK\uff09\u80fd\u529b\uff0c\u91c7\u7528 MIT \u8bb8\u53ef\u3002\u8c01\u5728\u4ec0\u4e48\u8282\u70b9\u6253\u5f00\u5b83\u3001AI \u5177\u4f53\u63a5\u6536\u4ec0\u4e48\u6750\u6599\u5e76\u4ea7\u51fa\u4ec0\u4e48\u4ea4\u4ed8\uff0c\u5019\u9009\u8d44\u6599\u672a\u7ed9\u51fa\u5177\u4f53\u6d41\u7a0b\uff0c\u5177\u4f53\u6d41\u7a0b\u6216\u4ea4\u4ed8\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/design-studio-ai.html#webpage"}, "name": "design-studio-ai", "sameAs": "https://studio.agentkit.best", "url": "https://xocto.vercel.app/p/design-studio-ai.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/design-studio-ai.html", "name": "design-studio-ai", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>design-studio-ai</h1>
       </div>
-      <p class="product-lede">设计师或前端工程师在需要产出界面、3D 或动效素材时，把设计任务交给 AI 代理或自己在云端工作区里编辑；工具接收设计意图与素材，执行编辑、生成与动效处理，最终交付可用的设计文件或代码，人工仍需确认结果。具体输入格式与交付形态仍待核验。</p>
+      <p class="product-lede">面向 AI 智能体与人类协作的开源设计工作区，提供云端编辑、3D、动效、MCP/WebMCP、CLI 与自带密钥（BYOK）能力，采用 MIT 许可。谁在什么节点打开它、AI 具体接收什么材料并产出什么交付，候选资料未给出具体流程，具体流程或交付仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">AI + 创作</span><span class="tag">软件与互联网</span><span class="tag">设计服务</span><span class="tag">设计师与前端工程师</span><span class="tag sig">社区热度 217</span><span class="tag sig">开源关注 215</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 创作</span><span class="tag">设计服务</span><span class="tag">软件与互联网服务</span><span class="tag">设计工具开发者</span><span class="tag">AI 智能体开发者</span><span class="tag sig">社区热度 217</span><span class="tag sig">开源关注 215</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>bestagentkits</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-09-07</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-30</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-10-06</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://studio.agentkit.best" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,79 +82,82 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-23</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-06</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">设计师或前端工程师在需要产出可编辑的界面、3D 或动效素材时，把设计意图交给 AI 代理在云端画布上生成并修改，最终拿到可继续编辑的设计文件或代码产物，再经人工确认后交付。</p>
-        <p>公开材料未写明用户此前用什么工具或流程完成同类设计产出，替代关系不明；按工作流结构推断，旧做法可能是本地设计工具加人工在 AI 生成结果与可编辑文件之间来回搬运。</p>
-        <p>公开材料只列出云端编辑、3D、动效、MCP、WebMCP、CLI 与 BYOK 等能力，未说明替代了哪一步手工流程，也没有用户抱怨或旧流程描述，痛点强度只能从工作流结构推断，缺少用户侧证据。</p>
+        <p class="product-lead">设计工具开发者或 AI 智能体开发者在需要让智能体直接产出可编辑设计文件时，打开该工作区处理设计素材并完成编辑与导出。</p>
+        <p>现有替代方式在候选资料中未说明，无法确认此前由谁、用什么工具、花多久完成同类设计编辑。</p>
+        <p>候选资料未说明具体痛点，只能确认它试图让智能体参与设计编辑；谁在什么环节难受、不解决会失去什么，公开材料没有交代。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>需求有依据</h3>
-        <p>趋势是设计工具开始把 AI 代理当作一等使用者，而不只是给人加一个生成按钮。切入可考虑面向独立设计工作室或电商视觉团队，把代理产出的设计稿直接接到交付环节，按项目或按产出收费；目前公开材料未披露定价，这是判断而非事实。</p>
+        <h3>问题已识别，需求强度未明</h3>
+        <p>趋势：设计工具开始把 AI 智能体当作一等使用者，而不只是给人加一个生成按钮。切入：可从设计外包与营销物料生产环节进入，把「人给智能体派活、智能体产出可编辑设计文件」做成按件交付的服务，而非卖席位；价格未披露，不做假设。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：相较旧做法，它把 AI 代理直接放进云端画布，通过 MCP/WebMCP/CLI 让代理读写同一份可编辑产物，减少人工在生成结果与设计文件之间复制、重建图层这一步负担，因此需要可继续编辑产物的设计师或前端工程师会在该情况下选择它；尚无用户反馈或客户案例证实这一动机。</p>
+        <p>推断：相较人工在传统设计软件里逐步操作，它让智能体通过 MCP/CLI 直接调用编辑能力，可能减少人工搬运素材与重复操作这一步；但缺少用户反馈或客户案例，无法确认哪类用户会因此选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>追踪该开源仓库的 README、issue 与 discussion，确认它实际替代的设计工作流、输入输出格式，以及是否有用户报告重复使用或付费部署。</p>
+        <p>收集该开源仓库的 README、部署文档与 issue/discussion，确认它实际接收的设计材料、产出的交付物以及是否有人重复使用。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。推断：相较旧做法，它把 AI 代理直接放进云端画布，通过 MCP/WebMCP/CLI 让代理读写同一份可编辑产物，减少人工在生成结果与设计文件之间复制、重建图层这一步负担，因此需要可继续编辑产物的设计师或前端工程师会在该情况下选择它；尚无用户反馈或客户案例证实这一动机。</p>
+        <p><strong>值得拆解</strong>。推断：相较人工在传统设计软件里逐步操作，它让智能体通过 MCP/CLI 直接调用编辑能力，可能减少人工搬运素材与重复操作这一步；但缺少用户反馈或客户案例，无法确认哪类用户会因此选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是设计工具开始把 AI 代理当作一等使用者，而不只是给人加一个生成按钮。切入可考虑面向独立设计工作室或电商视觉团队，把代理产出的设计稿直接接到交付环节，按项目或按产出收费；目前公开材料未披露定价，这是判断而非事实。</p>
+        <p>趋势：设计工具开始把 AI 智能体当作一等使用者，而不只是给人加一个生成按钮。切入：可从设计外包与营销物料生产环节进入，把「人给智能体派活、智能体产出可编辑设计文件」做成按件交付的服务，而非卖席位；价格未披露，不做假设。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>它解决设计产出中 AI 代理与人类在同一可编辑画布上协作的需求，痛点在于生成结果与可编辑文件之间需人工搬运重建；公开材料给出云端编辑、3D、动效、MCP、CLI 与 BYOK 的输入—动作—交付闭环，属工作流结构推理，用户侧痛点证据仍缺。</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：相较旧做法，它把 AI 代理直接放进云端画布，通过 MCP/WebMCP/CLI 让代理读写同一份可编辑产物，减少人工在生成结果与设计文件之间复制、重建图层这一步负担，因此需要可继续编辑产物的设计师或前端工程师会在该情况下选择它；尚无用户反馈或客户案例证实这一动机。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该开源仓库的 README、issue 与 discussion，确认它实际替代的设计工作流、输入输出格式，以及是否有用户报告重复使用或付费部署。</p></div>
+        <div><span class="field-k">公开事实</span><p>面向 AI 智能体与人类协作的开源设计工作区，提供云端编辑、3D、动效、MCP/WebMCP、CLI 与自带密钥（BYOK）能力，采用 MIT 许可。谁在什么节点打开它、AI 具体接收什么材料并产出什么交付，候选资料未给出具体流程，具体流程或交付仍待核验。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较人工在传统设计软件里逐步操作，它让智能体通过 MCP/CLI 直接调用编辑能力，可能减少人工搬运素材与重复操作这一步；但缺少用户反馈或客户案例，无法确认哪类用户会因此选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集该开源仓库的 README、部署文档与 issue/discussion，确认它实际接收的设计材料、产出的交付物以及是否有人重复使用。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>已有支持</strong>
+            <strong>证据不足</strong>
           </div>
-          <p>它解决设计产出中 AI 代理与人类在同一可编辑画布上协作的需求，痛点在于生成结果与可编辑文件之间需人工搬运重建；公开材料给出云端编辑、3D、动效、MCP、CLI 与 BYOK 的输入—动作—交付闭环，属工作流结构推理，用户侧痛点证据仍缺。</p>
+          <p>产品主张帮助用户完成：“面向 AI 智能体与人类协作的开源设计工作区，提供云端编辑、3D、动效、MCP/WebMCP、CLI 与自带密钥（BYOK）能力，采用 MIT 许可”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1iT2t1NU9xSDhRYXFydmlsQTZnSXpFTkhTSTMtNGFiWVFpTDZ0NDJnQV9YUFBmOUNsYTF2T2owSWI4cmVJQWFaakhCWGxGUm1KS1ZTUzVtUTVlemJwaDVvcHBobnJ3SlFaejZqaXd2SnNRZw?oc=5" target="_blank" rel="noopener">news.google.com · 2026-10-05 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>仓库星标从 189 增至 207 属关注度证据，不能证明持续采用；公开材料没有用户评价、客户案例或重复使用信号，无法判断共识卡在感知、想象、场景还是利益哪一环。</p>
+          <p>价值闸门未通过，共识闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>MIT 开源项目，公开材料未披露定价、付费路径或买方，钱可能来自 to C 或 to B 均属推断，尚无已验证的付费事实，这是判断而非已验证事实。</p>
+          <p>价值闸门未通过，模式闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>无法从公开材料核对它是否贴近设计工作的第一性目标、承诺能否确定性交付，也未说明人工确认与安全边界；仅有功能清单与星标，交付确定性未获证据支持。</p>
+          <p>价值闸门未通过，求真闸门未进入。</p>
         </article>
       </div>
     </details>
@@ -172,12 +175,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-30。未发现仅限该覆盖范围。 · 2026-09-30</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-06。未发现仅限该覆盖范围。 · 2026-10-06</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-30。未发现仅限该覆盖范围。 · 2026-09-30</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-06。未发现仅限该覆盖范围。 · 2026-10-06</p>
       </div>
     </div>
   </section>
@@ -209,6 +212,11 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
+      <li><a href="https://www.ibm.com/think/topics/artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ibm.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
       <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">chatgpt.com</span>
         <span class="row-desc">市场对照</span>
@@ -219,8 +227,13 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">cloud.google.com</span>
+      <li><a href="https://www.perplexity.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">perplexity.ai</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">aistudio.google.com</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -229,6 +242,11 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE1iT2t1NU9xSDhRYXFydmlsQTZnSXpFTkhTSTMtNGFiWVFpTDZ0NDJnQV9YUFBmOUNsYTF2T2owSWI4cmVJQWFaakhCWGxGUm1KS1ZTUzVtUTVlemJwaDVvcHBobnJ3SlFaejZqaXd2SnNRZw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">客户案例</span>
+        <span class="row-tail">2026-10-05</span>
+      </div></a></li>
       <li><a href="https://tech.eu/2026/09/29/romanias-kyndred-raises-eur500k-from-early-game-ventures-to-build-ai-companions/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name"></span>
         <span class="row-desc">market_signal</span>
@@ -236,7 +254,7 @@
       </div></a></li>
       <li><a href="https://studio.agentkit.best" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">design-studio-ai</span>
-        <span class="row-desc">开源信息 · 设计师或前端工程师在需要产出界面、3D 或动效素材时，把设计任务交给 AI 代理或自己在云端工作区里编辑；工具接收设计意图与素材，执行编辑、生成与动效处理，最终交付可用的设计文件或代码，人工仍需确认结果。具体输入格式与交付形态仍待核验。</span>
+        <span class="row-desc">开源信息 · 面向 AI 智能体与人类协作的开源设计工作区，提供云端编辑、3D、动效、MCP/WebMCP、CLI 与自带密钥（BYOK）能力，采用 MIT 许可。谁在什么节点打开它、AI 具体接收什么材料并产出什么交付，候选资料未给出具体流程，具体流程或交付仍待核验。</span>
         <span class="row-tail">2026-09-07</span>
       </div></a></li>
       <li><a href="https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/" target="_blank" rel="noopener"><div class="row-head desk-row">
@@ -293,7 +311,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%88%9B%E4%BD%9C">
-        AI + 创作 共 271 个 →
+        AI + 创作 共 278 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -385,8 +403,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2422 个案例 · 175 份生意判断</span>
-    <span class="gen">数据截至 2026-10-05</span>
+    <span>2465 个案例 · 176 份生意判断</span>
+    <span class="gen">数据截至 2026-10-06</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
