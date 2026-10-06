@@ -28,18 +28,18 @@ canonical_url: https://nautilo.ai
 summary: AI goes multiplayer. A self-hosted workspace for people and machine people. Create, code, and
   work together across desktop, mobile, and web. Open source. MIT licensed.
 first_seen: '2026-09-16T09:58:00Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://nautilo.ai
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 170
+    stars: 171
     forks: 6
-    open_issues: 2
+    open_issues: 4
   kind: product
 ---
 

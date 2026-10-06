@@ -33,8 +33,8 @@ url: https://1mil.app/
 canonical_url: https://1mil.app
 summary: My startup-idea scanner scored 500 ideas; the best got 6.3/10
 first_seen: '2026-08-30T11:35:01Z'
-last_seen: '2026-09-23T00:34:37Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -70,6 +70,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/22/spott-secures-21m-series-a-to-expand-its-ai-platform-for-recruitment-agencies/
   seen_at: '2026-09-23T00:34:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibkFVX3lxTE42NEUyWXNWaGkyeHFoMGxubDU1M1J4NTVLYU8wWVh3bFhDWFpCbWtJUmhBRHJzc2JyZFI2RXJtcW53THJWVW91SVA3MzFwa0x3S1RfOGVSd2tGb2tHc3NmS1ZGTDEyTjQ1eTM5OGFB?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

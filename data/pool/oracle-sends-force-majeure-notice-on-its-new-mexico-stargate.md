@@ -25,8 +25,8 @@ canonical_url: https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-noti
 summary: The notice would allow Oracle to delay payments should the facility miss its 2028 target to come
   online.
 first_seen: '2026-09-24T18:11:44Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -44,6 +44,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRVFIb3k4WnE3SWtEZTgwRzBHX0Fqb21LM0JnMHUyQmwzbWdkSTZybTBXLTJxZW1MdEMwM1pON1RhNVpRWEdxQWltTFE1TWhfRDhJSlFDT1hZdVVMeFZyT3UxSGVFZF9LcmM2cG8waWhSWnUxYVdabzZKVTYybW0xb3Q5V2szcWw2?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSkNZQ1RmTFVqWjRjd3BzeXkyTVZ3QUdpUkhXXzdwNUxVbFlZY2gzeExaRzRBRHN2dlZWXzVNclJwRi1xT0FrcGwxWUZ3N3d5NGhCV1U1NUk1NUxuM251ZlVqOWtpWmw4OXZHWXNfVkpKZ2lHS3E0VWVKSFlVaHBzNDM0Nk92SDZVN3QxZGd3V3RINGUyUVZTN05GTlY3aDZzSjRpSEhxeVMwamh4dHkwU3lFX1Uxa2JsMVBGaFJvenBhLTZPT2UwUzAteXdOTGQyM2NneVgwWVFjUGNGOThJVWx6UFNKbGliZjlzU1NOOWZnQQ?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

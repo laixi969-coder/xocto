@@ -35,11 +35,12 @@ canonical_url: https://aicpb.com/product/cursor/webid1D6F37649
 summary: Latest updates and insights from the Cursor team. Learn about AI-powered coding, product updates,
   and development tips.
 first_seen: '2026-08-17T22:41:21Z'
-last_seen: '2026-08-29T03:43:28Z'
-status: queued
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - aicpb
 - officialfeeds
+- newssearch
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/cursor/webid1D6F37649
@@ -62,6 +63,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/cursor-ai-sdk-harness-adapter
   seen_at: '2026-08-29T03:43:28Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFBUVlF4UEhVV1ZlZWk1d2pjdkRpT2pSQU4tdk1ETmhob2tGd0lvS3AtS3pmaUw3Nll6V3NtSk9ZVm5PUFc5SzVuc05tbFRBUQ?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

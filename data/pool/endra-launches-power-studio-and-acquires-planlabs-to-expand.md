@@ -22,14 +22,20 @@ summary: Endra, a platform developing AI tools for mechanical,electrical and plu
   has launched Endra Power Studio, anagentic platform designed specifically for electrical engineering.
   Th...
 first_seen: '2026-09-15T12:35:00Z'
-last_seen: '2026-09-16T00:21:06Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/15/endra-launches-power-studio-and-acquires-planlabs-to-expand-into-mechanical-engineering/
   seen_at: '2026-09-16T00:21:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE92TTJRMU1ydFFCY2U1eHQxQXVOX0c1eEdCNGNhLVJBUUlPT09YRUM2YjRTQ3BjcEt0dTRYcllfRnhoVk9veWNOQUNhREY3VTBkS3pVd082UHdZSzYtRVlGVFgxY0o?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

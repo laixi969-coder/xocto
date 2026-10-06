@@ -37,8 +37,8 @@ canonical_url: https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-rob
 summary: Brussels-basedrobotics company Motion has raised $2 million in pre-seed funding to expand itsHumanoids-as-a-Service
   (HaaS) platform and move its existing industrial pilotsinto commercial deployment. T...
 first_seen: '2026-08-27T06:45:42Z'
-last_seen: '2026-09-18T00:20:29Z'
-status: rejected
+last_seen: '2026-10-06T02:19:01Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -61,6 +61,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMie0FVX3lxTFB3bVpkZ2JPRmdvd1pqZWJ5bnhGYUU0blUweXkxMEgzRDNFZkFER1ZoTHdmRm5rTFBGZGRlZlFDU3FBdndUY0Q3WWNZRGFiTUFZM0JXNEltamkzemNjSUktM3JsMThteDdlSzV6TjU4ZkJMQnF6T2p0Z1hxRQ?oc=5
   seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/
+  seen_at: '2026-10-06T02:19:01Z'
   metrics: {}
   kind: news
 ---

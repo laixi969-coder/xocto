@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMib0FVX3lxTE44MEpMdmlRQktibHdMZ18wYT
 canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE44MEpMdmlRQktibHdMZ18wYTEyME15U1VUMUJxUjZfNXhqeWV6MkJQNjFHbFU2X1BiVGNqU2NDeWZHVTZicGEtSGZaNVpDcDhuSzh5QWRCWkZxNW5HZHBTa1hMdjJrYXF6Q0U0eGVRMA?oc=5
 summary: 【科创之声】7亿用户成为AI产业巨大底盘 中国经济网
 first_seen: '2026-10-04T21:50:00Z'
-last_seen: '2026-10-05T00:56:35Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMib0FVX3lxTE44MEpMdmlRQktibHdMZ18wYTEyME15U1VUMUJxUjZfNXhqeWV6MkJQNjFHbFU2X1BiVGNqU2NDeWZHVTZicGEtSGZaNVpDcDhuSzh5QWRCWkZxNW5HZHBTa1hMdjJrYXF6Q0U0eGVRMA?oc=5
   seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE56UnVDUTNmam1oWUZfVEk5OUNDazZPWmRpV19HTzgxQU9SVFp1eHFMX0tJcFRyM1MxUDYzV2RoMVRkY09rcldWc0ZJQXcycXBYQ2Q0TDcwNnIxRW10Q0x2SjA4NERISXgxOC1zbTUtV0tWaGdjVFE?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

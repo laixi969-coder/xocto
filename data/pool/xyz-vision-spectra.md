@@ -26,18 +26,18 @@ url: https://github.com/gogogaga-png/XYZ-Vision-Spectra
 canonical_url: https://github.com/gogogaga-png/XYZ-Vision-Spectra
 summary: Real-Time AI Vision Detection Toolkit for Image Video Webcam Screen 2026
 first_seen: '2026-09-21T22:53:59Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/gogogaga-png/XYZ-Vision-Spectra
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
     stars: 53
     forks: 0
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

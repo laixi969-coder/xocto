@@ -29,10 +29,11 @@ url: https://www.critic.run/
 canonical_url: https://critic.run
 summary: Review code with the agent that wrote it
 first_seen: '2026-09-24T17:35:28Z'
-last_seen: '2026-09-26T00:37:52Z'
-status: watching
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://www.critic.run/
@@ -41,6 +42,11 @@ sightings:
     points: 8
     comments: 4
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxOb1R6UmVISnB4N0JVdmFxejJiaDdjTFloU0hIQnd5QW45Ty1VbzIxVFdKNmRzSjlFVnQ0NTNmbHhJbTBTQkRXbUpuWlFrX2EzVlh1QW1yOElqbU5EbndvOXRzbE1pZ3dNVVVEYlZRWGFCb0ZrTlJJOTBKbmlGNGotMFpQSXJIZWk3dWZ3SUZVeTZyUFQzUVM5M2FTVXFRejFPeTBWc0JLcnBVVXMzQWd1YkxKRnJ5eWhnLUwybkNkTjh4a3k2anI4QldYcWZaU045ejJOX21CNnhjZXJ1SS13MlVtanN6NDA0?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
 ---
 
 # Critic

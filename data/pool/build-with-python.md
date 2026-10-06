@@ -20,17 +20,17 @@ url: https://scimigo.com/en/learn/build-with-python/01-draw-with-python
 canonical_url: https://scimigo.com/en/learn/build-with-python/01-draw-with-python
 summary: a beginner course where your code draws
 first_seen: '2026-10-04T18:59:25Z'
-last_seen: '2026-10-05T00:55:58Z'
+last_seen: '2026-10-06T02:18:31Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://scimigo.com/en/learn/build-with-python/01-draw-with-python
-  seen_at: '2026-10-05T00:55:58Z'
+  seen_at: '2026-10-06T02:18:31Z'
   metrics:
-    points: 24
-    comments: 9
+    points: 45
+    comments: 16
   kind: product
 ---
 

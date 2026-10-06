@@ -21,14 +21,19 @@ canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMUtIdDE5ZVlq
 summary: Physical AI startup SiMa.ai raises $150 million in Series C funding at $1.45 billion valuation
   Indian Startup News
 first_seen: '2026-09-29T09:39:00Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMUtIdDE5ZVlqSkhOZ0JCNXFTTHNHSUNld3FYc01RdGRpTkJ2U1ZIM2xBMVlGRU10eDFLeHpQMmRLLU90U2FLUGM3UURYSDF6azB5M0RqbXZ4SXROSFR6N1NTUUxTemlGZVo2LVBhbVR4YXVnYmFHa1VMdWx5bzJmdXAwa0ZkaEVGRUlCV3hDQkw3RWVHenJlN2JDY2s0QVNiRV9DT0lkNWl6U1FQeVdNZFktc1hmSElMVDhxNXdsS3lscjVLQ1RhZUJkRW41RXFpSXNZ0gHTAUFVX3lxTFAxS0h0MTllWWpKSE5nQkI1cVNMc0dJQ2V3cVhzTVF0ZGlOQnZTVkgzbEExWUZFTXR4MUt4elAyZEstT3RTYUtQYzdRRFhIMXprMHkzRGptdnhJdE5IVHo3U1NRTFN6aUZlWjYtUGFtVHhhdWdiYUdrVUx1bHlvMmZ1cDBrRmRoRUZFSUJXeENCTDdFZUd6cmU3YkNjazRBU2JFX0NPSWQ1aXpTUVB5V01kWS1zWGZISUxUOHE1d2xLeWxyNUtDVGFlQmRFbjVFcWlJc1k?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQb05EbFpJVUdKZ2hKOE1WTjFJU2RabGZZdDc4cndPbjRETlJMYmMyMnprbXBIdEVMcXRMX3RLZjNrRXBQTEFjeW96T2FkcG5meFhaR1BxY3BMeHh2VDA0bWtRWk5iWldBRXZkSUZHMk9IblRHMWR6eW9rcDA0ZnVXaGI5RGM5RV9ZMmVTTzVyT2lMZw?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

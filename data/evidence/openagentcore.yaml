@@ -74,3 +74,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-e32c51a5637c56c9
+  project_slug: openagentcore
+  url: https://minimax-ai.github.io/OpenAgentCore/
+  title: OpenAgentCore
+  published_at: '2026-09-21T03:18:15Z'
+  collected_at: '2026-10-06T02:18:35Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.
+    | repository stars: 191'

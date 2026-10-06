@@ -31,17 +31,17 @@ url: https://github.com/z91772524-ai/dsh-pojia-mode
 canonical_url: https://github.com/z91772524-ai/dsh-pojia-mode
 summary: 双击一个文件，给 DeepSeek Harness 加一个「破甲模式」Agent Preset —— 零侵入、零依赖、双击无黑框，不改 DSH 一字节代码，升级不丢。
 first_seen: '2026-09-18T13:17:19Z'
-last_seen: '2026-10-05T00:56:02Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/z91772524-ai/dsh-pojia-mode
-  seen_at: '2026-10-05T00:56:02Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 49
-    forks: 8
+    stars: 50
+    forks: 9
     open_issues: 5
   kind: product
 ---

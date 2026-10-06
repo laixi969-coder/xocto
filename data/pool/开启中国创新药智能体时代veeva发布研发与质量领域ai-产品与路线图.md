@@ -35,8 +35,8 @@ url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VY0tMWVRmS3JJWkxyVUJDbD
 canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VY0tMWVRmS3JJWkxyVUJDbDNaZ0lsNGcwdF9UNHRfY1hrOGdiZFlpRm83cDZmQ3NPTGRXV3VMRkRUc1RSbEtNU2k5enl0R3hGczdoUHFsMA?oc=5
 summary: 开启中国创新药智能体时代，Veeva发布研发与质量领域AI 产品与路线图 美通社
 first_seen: '2026-09-16T14:18:00Z'
-last_seen: '2026-09-18T00:20:29Z'
-status: watching
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -48,6 +48,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMia0FVX3lxTFAzUW5rUXprTXREeE5hN01adVV4a1UwUzFaVmx1WWxFUVRuWW9zdTZMNFdJQjNwSWhXa1lQd0dFZTM0Q0cxYV9Md3A4ZG1vdVJQbnNlM1BNSTR0dmpDR1pJQTRtUUVWeGRKd2Nj?oc=5
   seen_at: '2026-09-18T00:20:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPZm95bXlvNjFiOFRTbmM0dzd3U2hzbFExbi1HR3hMWW1EV1JfMFo4QXpQWjdsM2o2N01UcFh4dlZNa2g3cjB6Z2gtQlZkQ2Z3WXd4eHV4Mnp1XzlWZGZqRWpkeW1tWUFVTWRUUTdSNFRUYmtSZWVRbHl1OEtCQlRLZi1keDRHaldad1JTSkt1QXU4X2tHX25nV0g5YU9fR0RvT2NwOUtnU1VuSkdfSWVtNjVVWmRiVUNERXNyeWZCUQ?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

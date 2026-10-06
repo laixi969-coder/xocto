@@ -20,7 +20,7 @@ url: https://www.producthunt.com/products/coisland
 canonical_url: https://producthunt.com/products/coisland
 summary: Your whole engineering stack, in a notch
 first_seen: '2026-09-30T02:50:52Z'
-last_seen: '2026-10-04T00:37:53Z'
+last_seen: '2026-10-06T02:18:31Z'
 status: rejected
 sources:
 - producthunt
@@ -33,10 +33,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://coisland.app/
-  seen_at: '2026-10-04T00:37:53Z'
+  seen_at: '2026-10-06T02:18:31Z'
   metrics:
-    points: 5
-    comments: 5
+    points: 8
+    comments: 2
   kind: product
 ---
 

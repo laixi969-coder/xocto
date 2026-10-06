@@ -1642,3 +1642,14 @@
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 开发者在自建或受限运行环境中部署编码代理时，需要把原 TypeScript 代理换成可编译、易分发的
     Go 版本并保持行为一致'
+- id: ev-823508f53757f7a7
+  project_slug: pig
+  url: https://pi-in-go.dev
+  title: PiG
+  published_at: '2026-09-17T15:52:38Z'
+  collected_at: '2026-10-06T02:18:35Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'PiG (Pi in Go) is a faithful Go port of upstream Pi, the TypeScript codebase behind the Pi coding
+    agent. It is a parity-bound translation, not a rewrite: upstream behavior is the contract, and Go
+    is the implementation language. | repository stars: 506'

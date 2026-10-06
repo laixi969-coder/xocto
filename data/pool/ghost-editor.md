@@ -41,17 +41,17 @@ canonical_url: https://github.com/kurbaitaev/ghost-editor
 summary: 'AI video editor for talking-head reels: 7 styles, face-safe captions, motion scenes, reverse-engineer
   any reference edit. A Claude Code / agent skill on HyperFrames.'
 first_seen: '2026-09-24T02:02:11Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kurbaitaev/ghost-editor
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 64
-    forks: 4
+    stars: 65
+    forks: 5
     open_issues: 0
   kind: product
 ---

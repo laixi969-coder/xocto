@@ -23,8 +23,8 @@ url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5LR0Q0Y1pIcXNPTnJNdGNzZ1
 canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5LR0Q0Y1pIcXNPTnJNdGNzZ1VlVDhrQjRaNU5HNlJuX2w4WTd1US1kVnl6ZE5COTVDdi1ma3hkSXlhZVdoajhoZ3pPNEJhby1OdEtzYUlZcndFZm00VV9JbHcxa2NYWHFvV3RBdTNURkdIS0ZibmcwZDF6cy0?oc=5
 summary: 聚力智能体AI 英特尔携手生态探索算力新范式 新华网
 first_seen: '2026-09-23T08:29:45Z'
-last_seen: '2026-10-05T00:56:35Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -56,6 +56,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LRWJrekdBcnZpT1pFWlEtR1hXb1pGVUROaVdwLWhVTVBQNHR6QWlvTTMzV0dzNFZ2T1k3N0dBejAyRGlad1YyYjBhRlBzdVlOM2pxVHhB?oc=5
   seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNZW5NV2ZKQjFyd09nV29fRlRndlZjNGVsRGNpUzEyYjI2OWNRQzlKMjRDdk9yMTc3TEZrcUEyRzB6UW9GUGJ0TGszU0lTNzlLeXlmeldGTS1vdmpMQmdfVFRadUpXUWVNX19tdmtuQURzNmNIUGFkZlM3R2xaeXFadklLaEhTcVRUWlh5d1hneHdUVzltbDZDWXhYVDVhcXRreVpEU1g0NzJKNzJYN0JTRDZPbl9OZ1lsS2JSRTZQQW13MVI5?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi_wJBVV95cUxNRy1TNml5VFp1SmIzTVVESWhRQXFqeHRXRUpVQy1xVTBjRUt0YWlqdE5vdjNneTlzdzZ0SHloWEF1eTVDSDRvTVFUTjVGR21NbXl0WVNxMHZzamIyM1BiRU03cVFIVEd5T0plOEJuWjM4cTdZOGdiOFNxb1NoeENjaS1VU1VZTzFNWjZEc0FpZ1VxcWxmeU41RnhidGdlZlBmZmRHMVZEQ0U5TUc5MjNEdzh2LVdIYzgzeVR2bE1kdGpJOHF1NjN3ZjA2V2xJUmVuOWpmRWUzR0VJbE9BV1JUMlJ4TnYwb0VsNi1mZWw5Slk3OV9kOFh3Z1ZkZ25TUkM1SkFNZUtOeXB0aElyMW9jdS1CMmh0SjZ3VHdsdWl5WHVMRDJQMnBzSm9LN1FFcWFvZ0JLc0lIWFlnQVlpcFZReUltS0tXQ28zUEkyOVRWWXdxVTBPYlh5emJtbXZaTmtIc1QxR0lYT3lvN2dXTlpyQ1oxeDZWWm95RnJGSkNuNA?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

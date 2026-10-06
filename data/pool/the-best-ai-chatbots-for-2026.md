@@ -20,8 +20,8 @@ url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDemRmcjN4ZTJlb0xjeU5HTX
 canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDemRmcjN4ZTJlb0xjeU5HTXYzc0tTWFFYYi1uaENRN1NsQjhTU1pNZEZQa05FUEdNczdCREJWOThtRGdSR0JGOUZFbHpBcUd1RkhFclV2UzliTnNFNEd3TQ?oc=5
 summary: The Best AI Chatbots for 2026 PCMag UK
 first_seen: '2026-08-26T15:59:31Z'
-last_seen: '2026-09-22T00:50:21Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 - hackernews
@@ -62,6 +62,11 @@ sightings:
   metrics:
     points: 150
     comments: 85
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiggFBVV95cUxNbXFhR19nUXdYaGdBeFBYemxDa3VHSzFidnBsVEhfQldUSzJEMG9SM0c2RWRzTUdiMG9PZ2lITGpHcDduU2hSNTFJNkNyRXExbDN6U3E5VkdWQjlacTlOS3RKY1AwVWNqUmtjdVJHOUJfVXFGNGk0UXQ0RS1OWFhqRElR?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
   kind: news
 ---
 

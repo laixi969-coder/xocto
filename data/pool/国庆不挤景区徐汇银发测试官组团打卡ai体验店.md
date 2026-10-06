@@ -1,0 +1,41 @@
+---
+slug: 国庆不挤景区徐汇银发测试官组团打卡ai体验店
+name: 国庆不挤景区！徐汇“银发测试官”组团打卡AI体验店
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5AJBVV95cUxNbGkxUDNMbGsxTjA1WTQwR0FSV3RwVFdRc1F0akxYUFN1VUhGRkh4NHdwUmk4ZTZQMHplRDdCd0NvQ1FydDM3c2thYXFFLXJSVzRRVF9OQnlFVHR4MWJlVWdhSUJrckNqbGZpdkllY2o4OE4yLWRodGR3UGFna19JYTFmT21Ub2ZFNlNyU2t4OHZiS1JWaFRZU05zRWhjNmZrM0d2T3hrVll0c3VJQ09OU2hmZ2dXR2xJRk1jdVNkc3RRUTJla0h6VWFFMVpYODFGalJ5WHpPOEtMYmNwQi1VWnlKdTdiVDJkbGk4WXRhZGdQTHNUbWh5Q1FuSGJyUVM4R3ktd0JqclZBM1ZZc3pneEtoTU5hWFRqWHpBOVBhS2lva3hSdFlENk1WSHpSVmpIek1fTmJ6ZW5zLXRuam1zQ2xJcDJuc0Rhd1ppMFRLVFE3U0E2WklhSUl1OGs0Sk92TWQwYQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5AJBVV95cUxNbGkxUDNMbGsxTjA1WTQwR0FSV3RwVFdRc1F0akxYUFN1VUhGRkh4NHdwUmk4ZTZQMHplRDdCd0NvQ1FydDM3c2thYXFFLXJSVzRRVF9OQnlFVHR4MWJlVWdhSUJrckNqbGZpdkllY2o4OE4yLWRodGR3UGFna19JYTFmT21Ub2ZFNlNyU2t4OHZiS1JWaFRZU05zRWhjNmZrM0d2T3hrVll0c3VJQ09OU2hmZ2dXR2xJRk1jdVNkc3RRUTJla0h6VWFFMVpYODFGalJ5WHpPOEtMYmNwQi1VWnlKdTdiVDJkbGk4WXRhZGdQTHNUbWh5Q1FuSGJyUVM4R3ktd0JqclZBM1ZZc3pneEtoTU5hWFRqWHpBOVBhS2lva3hSdFlENk1WSHpSVmpIek1fTmJ6ZW5zLXRuam1zQ2xJcDJuc0Rhd1ppMFRLVFE3U0E2WklhSUl1OGs0Sk92TWQwYQ?oc=5
+summary: 国庆不挤景区！徐汇“银发测试官”组团打卡AI体验店 新浪财经
+first_seen: '2026-10-04T13:19:10Z'
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5AJBVV95cUxNbGkxUDNMbGsxTjA1WTQwR0FSV3RwVFdRc1F0akxYUFN1VUhGRkh4NHdwUmk4ZTZQMHplRDdCd0NvQ1FydDM3c2thYXFFLXJSVzRRVF9OQnlFVHR4MWJlVWdhSUJrckNqbGZpdkllY2o4OE4yLWRodGR3UGFna19JYTFmT21Ub2ZFNlNyU2t4OHZiS1JWaFRZU05zRWhjNmZrM0d2T3hrVll0c3VJQ09OU2hmZ2dXR2xJRk1jdVNkc3RRUTJla0h6VWFFMVpYODFGalJ5WHpPOEtMYmNwQi1VWnlKdTdiVDJkbGk4WXRhZGdQTHNUbWh5Q1FuSGJyUVM4R3ktd0JqclZBM1ZZc3pneEtoTU5hWFRqWHpBOVBhS2lva3hSdFlENk1WSHpSVmpIek1fTmJ6ZW5zLXRuam1zQ2xJcDJuc0Rhd1ppMFRLVFE3U0E2WklhSUl1OGs0Sk92TWQwYQ?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+---
+
+# 国庆不挤景区！徐汇“银发测试官”组团打卡AI体验店
+
+国庆不挤景区！徐汇“银发测试官”组团打卡AI体验店 新浪财经
+
+## 笔记
+
+

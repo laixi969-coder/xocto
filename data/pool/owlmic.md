@@ -32,18 +32,18 @@ summary: Turn your Android phone into a high-quality PC webcam & studio micropho
   & DirectShow virtual camera. Fast, privacy-first, zero cloud, no accounts, 100% open source. Faster
   alternative of DroidCam, Iriun & WO Mic.
 first_seen: '2026-09-25T20:28:23Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/diveshpatil9104/owlmic
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
     stars: 40
     forks: 4
-    open_issues: 7
+    open_issues: 9
   kind: product
 ---
 

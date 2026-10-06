@@ -29,17 +29,17 @@ url: https://lcu.amontlabs.com
 canonical_url: https://lcu.amontlabs.com
 summary: Codex computer use, decoupled from the app, for usage inside any harness.
 first_seen: '2026-09-22T15:08:18Z'
-last_seen: '2026-10-05T00:56:02Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://lcu.amontlabs.com
-  seen_at: '2026-10-05T00:56:02Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 173
-    forks: 6
+    stars: 472
+    forks: 19
     open_issues: 1
   kind: product
 ---

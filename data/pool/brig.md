@@ -32,10 +32,11 @@ url: https://news.ycombinator.com/item?id=49802729
 canonical_url: https://news.ycombinator.com/item?id=49802729
 summary: A MicroVM sandbox for AI coding agents on Mac and Linux
 first_seen: '2026-09-22T15:16:18Z'
-last_seen: '2026-09-24T00:30:46Z'
-status: watching
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49802729
@@ -44,6 +45,16 @@ sightings:
     points: 9
     comments: 1
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOTFpVU05md1Q1d1N0MjhlMFhtamY2VERoVmIxSzNkemJpMk9jbG81bDZidkt5YXVsMVRGT2k1ZnhHZjNqSjU0OWJtcURTYlRQMXZEa2ZaNzh5X3JHUzEwQ3diVFBNdzZZazNHS2NOMWxDTjRNaHIxSk9qSVBaUUVLOGJiTFJxVWJHSmxHR1Iyc0JBSFRRU3FreXFmM3VJY2ExQW5CMTdKMWVxV282a1M1alE3Yw?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVTM2RkltNHZiYlRidTVZVWlwM3BTYVI1N1M1cnljcGhhMzdOVmU5ZE5UMDBVUUVnRWRJX0FrN1BtbW96OW5pVkZjMGdCbkdWUThFbGVDaS1XWHhxaHpaVDFYY3BMdFAxbGh6Yk1yV2xFZzdSbnJMUkVONTJZdjRZa2NFUHd1NVpKU21ZNWJTdExScS1FOEM3RjBYa2hHNGZmQjFKLTF0MHpGUnd4aGZNTmFicjZWbndVUG5MdjYtRjZ0aEFXUW9WNGlXYnhmVXRj?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
 ---
 
 # Brig

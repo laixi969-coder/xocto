@@ -36,18 +36,18 @@ canonical_url: https://mrtinkz.github.io/ai-charter
 summary: 'Universal AI Charter: plain-language governance principles and a public certification registry
   for AI models, built on disclosure instead of a development slowdown.'
 first_seen: '2026-09-22T03:47:52Z'
-last_seen: '2026-10-05T00:56:02Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://mrtinkz.github.io/ai-charter/
-  seen_at: '2026-10-05T00:56:02Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
     stars: 108
     forks: 15
-    open_issues: 1
+    open_issues: 2
   kind: product
 ---
 

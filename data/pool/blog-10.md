@@ -20,8 +20,8 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-10-03T01:12:27Z'
-status: rejected
+last_seen: '2026-10-06T02:18:31Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -66,6 +66,20 @@ sightings:
   metrics:
     points: 43
     comments: 48
+  kind: news
+- source: hackernews
+  url: https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes/
+  seen_at: '2026-10-06T02:18:31Z'
+  metrics:
+    points: 40
+    comments: 12
+  kind: news
+- source: hackernews
+  url: https://blogs.gnome.org/mcatanzaro/2026/10/02/the-era-of-software-quality-or-the-era-of-ostriches/
+  seen_at: '2026-10-06T02:18:31Z'
+  metrics:
+    points: 67
+    comments: 1
   kind: news
 ---
 

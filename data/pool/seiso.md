@@ -31,7 +31,7 @@ url: https://github.com/scarletkc/seiso
 canonical_url: https://github.com/scarletkc/seiso
 summary: A Markdown convention and linter for project docs written by AI and read by humans and agents
 first_seen: '2026-09-27T13:27:28Z'
-last_seen: '2026-10-05T00:56:02Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
@@ -46,11 +46,11 @@ sightings:
   kind: product
 - source: github
   url: https://seiso.fog.moe
-  seen_at: '2026-10-05T00:56:02Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 179
+    stars: 181
     forks: 11
-    open_issues: 21
+    open_issues: 17
   kind: product
 ---
 

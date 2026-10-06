@@ -32,16 +32,16 @@ canonical_url: https://github.com/kishormorol/cli-faq-shortcuts
 summary: An Agent Skill that turns the asks you keep typing into short commands, mined from your own Claude
   Code and Codex history. Works in Claude Code, Codex and Cursor.
 first_seen: '2026-09-18T22:23:41Z'
-last_seen: '2026-10-03T01:12:31Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kishormorol/cli-faq-shortcuts
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 124
+    stars: 127
     forks: 4
     open_issues: 1
   kind: product

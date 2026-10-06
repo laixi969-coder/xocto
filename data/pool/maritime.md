@@ -32,11 +32,12 @@ url: https://maritime.sh
 canonical_url: https://maritime.sh
 summary: a platform for running AI agents for $1 a month
 first_seen: '2026-08-18T23:02:32Z'
-last_seen: '2026-08-30T14:53:16Z'
-status: watching
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - hackernews
 - producthunt
+- newssearch
 sightings:
 - source: hackernews
   url: https://maritime.sh
@@ -50,6 +51,11 @@ sightings:
   seen_at: '2026-08-30T14:53:16Z'
   metrics: {}
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihAFBVV95cUxOeHhSUjJaWkMwRndsUHM4bXNJdElwTEhtUkVVX1l3OWJYRnFEdUhUVjR1VjhmenoxemM5OVZJTXpPQ3lVeGtEeERZWkxWN1lJQnJQdHZaVFpSXzdaVkJCN0xlODBTeU0yMTV3YWk5OU9pOUp2b1JiMmFUbFpsYXlMaDI2dFE?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
 ---
 
 # Maritime

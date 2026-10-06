@@ -41,18 +41,18 @@ canonical_url: https://abdoslamb.github.io/InkDoc
 summary: Turn any document into clean, AI-ready Markdown — locally on your machine. Desktop app for Windows,
   macOS & Linux powered by MarkItDown, Docling, GLM-OCR and Markit.
 first_seen: '2026-09-27T01:28:04Z'
-last_seen: '2026-10-05T00:56:02Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://abdoslamb.github.io/InkDoc
-  seen_at: '2026-10-05T00:56:02Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 49
+    stars: 51
     forks: 7
-    open_issues: 4
+    open_issues: 5
   kind: product
 ---
 

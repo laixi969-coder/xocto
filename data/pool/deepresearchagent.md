@@ -36,18 +36,18 @@ summary: Recoverable and auditable deep-research agent built with LangGraph. It 
   the web, manages evidence and context, resumes interrupted runs, and generates cited reports—also designed
   as a learning reference for AI Agent enthusiasts.
 first_seen: '2026-09-22T01:34:20Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/1612535983/deepresearchagent
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
     stars: 63
     forks: 5
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

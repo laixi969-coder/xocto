@@ -1,0 +1,19 @@
+- id: ev-8744311961e8b083
+  project_slug: qwen38-27b-addition-in-words
+  url: https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/
+  title: Qwen3.8 27B addition in words
+  published_at: '2026-10-04T23:34:00Z'
+  collected_at: '2026-10-06T02:19:01Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Research:   Qwen3.8 27B addition in words  \n         Colin Frasier  posted on Bluesky  about\
+    \ an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum\
+    \ but return the answer in words\" across increasingly large numbers. Here's the chart he shared of\
+    \ those results: \n   \n I'm confident GPT-4o didn't cheat and use a calculator, especially since\
+    \ it got so many of the calculations wrong, but I was inspired to run the experiment again on local\
+    \ hardware (a DGX Spark) to explore the effect in a fully controlled environment. \n I pasted his\
+    \ image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using  Qwen3.8-27B-Q4_K_M.gguf\
+    \ . Here's the result for a run of 30 attempts per combination with reasoning disabled: \n   \n Then\
+    \ I ran it again with reasoning enabled. This took a  lot longer  per pair, so instead of running\
+    \ 30 samples per square I ran just one - which results in a much less visually appealing heatmap since\
+    \ each square is eithe"

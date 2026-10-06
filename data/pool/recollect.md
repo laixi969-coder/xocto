@@ -34,7 +34,7 @@ summary: Self-hosted AI memory and MCP coordination for coding agents. Persisten
   and sessions, with knowledge graphs, hybrid search, and a desktop web UI. Built in Rust for Codex and
   Claude Code.
 first_seen: '2026-09-16T14:37:40Z'
-last_seen: '2026-10-02T01:41:55Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
@@ -42,9 +42,9 @@ sources:
 sightings:
 - source: github
   url: https://github.com/MikeK184/Recollect
-  seen_at: '2026-10-02T01:41:55Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 41
+    stars: 40
     forks: 1
     open_issues: 0
   kind: product

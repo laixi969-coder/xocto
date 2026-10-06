@@ -1,0 +1,41 @@
+---
+slug: human-or-ai-study-spots-machine-written-and-rephrased-text-w
+name: Human or AI? Study Spots Machine-Written and Rephrased Text With 96.46% Accuracy
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNTUExa29oN09pdkluTGVZX0JRR0NWUWM2dnhoRS1VQXBHQWM2MjU0TkF2Z2pwdEJQOHMzWnVCMFdFT0V5eEFSMGh5ajFXdlZlaXZNeG5CRWg2QzFUSGs0VFlMbGVwTUhTcURUdFllaGdwQ05lVnV6czd4Uk5KNWpfV2NPMnhQZjN5MGZtdWVEVzVmQzFzT1ZGUFBxZmFONW02bzA3MzZieUFWM0ZBdFFXaUhuamFFMXRhWXhsdy1JRnBZREdwNHJOZDgxS3NOQdIB0wFBVV95cUxNN2IteWZPSllkcTdSQ0lNZHhUekJFU0pZRWNPTk81ZXJxbERPQ0RzTF9qWWxNb0hqczBPNTNSeGJSRE9XRUo4TVVkWktiR3VMa1Npa2pMR2VpejNVbjBsVzh2dzFFZ0o1cWs1UTdBTjhWendBUUJ2dk05RFByZmE1SEo4bHpscTJSVXhWd1FpN0ZvbUE3RFpPQ1hDVGVFeDFOUHVOUUVxQWVmd0toQjRjX3loNkdienJabGtYeEl5UUxuUVJvOXJnT3F1amQxMHU3a1M4?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNTUExa29oN09pdkluTGVZX0JRR0NWUWM2dnhoRS1VQXBHQWM2MjU0TkF2Z2pwdEJQOHMzWnVCMFdFT0V5eEFSMGh5ajFXdlZlaXZNeG5CRWg2QzFUSGs0VFlMbGVwTUhTcURUdFllaGdwQ05lVnV6czd4Uk5KNWpfV2NPMnhQZjN5MGZtdWVEVzVmQzFzT1ZGUFBxZmFONW02bzA3MzZieUFWM0ZBdFFXaUhuamFFMXRhWXhsdy1JRnBZREdwNHJOZDgxS3NOQdIB0wFBVV95cUxNN2IteWZPSllkcTdSQ0lNZHhUekJFU0pZRWNPTk81ZXJxbERPQ0RzTF9qWWxNb0hqczBPNTNSeGJSRE9XRUo4TVVkWktiR3VMa1Npa2pMR2VpejNVbjBsVzh2dzFFZ0o1cWs1UTdBTjhWendBUUJ2dk05RFByZmE1SEo4bHpscTJSVXhWd1FpN0ZvbUE3RFpPQ1hDVGVFeDFOUHVOUUVxQWVmd0toQjRjX3loNkdienJabGtYeEl5UUxuUVJvOXJnT3F1amQxMHU3a1M4?oc=5
+summary: Human or AI? Study Spots Machine-Written and Rephrased Text With 96.46% Accuracy Devdiscourse
+first_seen: '2026-10-05T13:24:35Z'
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNTUExa29oN09pdkluTGVZX0JRR0NWUWM2dnhoRS1VQXBHQWM2MjU0TkF2Z2pwdEJQOHMzWnVCMFdFT0V5eEFSMGh5ajFXdlZlaXZNeG5CRWg2QzFUSGs0VFlMbGVwTUhTcURUdFllaGdwQ05lVnV6czd4Uk5KNWpfV2NPMnhQZjN5MGZtdWVEVzVmQzFzT1ZGUFBxZmFONW02bzA3MzZieUFWM0ZBdFFXaUhuamFFMXRhWXhsdy1JRnBZREdwNHJOZDgxS3NOQdIB0wFBVV95cUxNN2IteWZPSllkcTdSQ0lNZHhUekJFU0pZRWNPTk81ZXJxbERPQ0RzTF9qWWxNb0hqczBPNTNSeGJSRE9XRUo4TVVkWktiR3VMa1Npa2pMR2VpejNVbjBsVzh2dzFFZ0o1cWs1UTdBTjhWendBUUJ2dk05RFByZmE1SEo4bHpscTJSVXhWd1FpN0ZvbUE3RFpPQ1hDVGVFeDFOUHVOUUVxQWVmd0toQjRjX3loNkdienJabGtYeEl5UUxuUVJvOXJnT3F1amQxMHU3a1M4?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+---
+
+# Human or AI? Study Spots Machine-Written and Rephrased Text With 96.46% Accuracy
+
+Human or AI? Study Spots Machine-Written and Rephrased Text With 96.46% Accuracy Devdiscourse
+
+## 笔记
+
+

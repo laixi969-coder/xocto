@@ -26,8 +26,8 @@ summary: Part of the job of a content creator is to figure out how to get their 
   YouTube is increasingly simply telling creators what they should do. At the annual creator-focused Made
   on YouTube […]
 first_seen: '2026-09-23T14:30:00Z'
-last_seen: '2026-09-28T00:47:18Z'
-status: market_context
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -40,6 +40,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQdUUyZWJ3UEQ5RWRZazZmREhoeUJkcm5KUkh2Q3ZlMUZBVDhtakJrNlFFX1VlckNsUmIzX05lcUIwa0Y2NEhmd0wtelh5bWdMSVR2ZW14aWNUSlp1MlBtX1diWHUxekoxZFB1TTVUSnQyMjFuMXZud0JQblZPUHZYQWhnbEFEQm9IaHBtZU94SmFkLUh0?oc=5
   seen_at: '2026-09-28T00:47:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQX2s0ZnNjcEtGUTNWTVhIcmJuSGVWSm5TOVFWT21vVlltNE9xUjhRYlF2emFrckpMcEFTblUySjdnN25oZWw1R1UzY1JZZk01UVFsVDV0eDdnbllOQ2RXak05RDV0NFhVWnkyck9LNkhmemhqelVybm9CODVlQlphRUhXc3VmRzdYeW0wbkJqTDc5bGRXNnpubFhqMnNQQTFhc2VB?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

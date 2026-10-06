@@ -34,10 +34,11 @@ summary: "![social-preview|690x345]( https://image.dooo.ng/c/2026/10/04/6ac275d0
   \ 一键安装提示词\r\n\r\n最后求个 :star: **Star**，每一颗 Star 都是开发者继续维护迭代的动力！\r\n作为个人项目，测试场景以及 BUG 很难发掘\r\n这也是开源项目的意义，如果你遇到了\
   \ BUG 或者可优化项，请一定要提 Issue 或 PR :folded_hands:"
 first_seen: '2026-10-04T15:52:27Z'
-last_seen: '2026-10-05T00:55:56Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - v2ex
+- newssearch
 sightings:
 - source: v2ex
   url: https://image.dooo.ng/c/2026/10/04/6ac275d062acf.png
@@ -45,6 +46,11 @@ sightings:
   metrics:
     comments: 1
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPWmNTQk0zdkxDNWhwd1dxSlI3Y3k2dWNPdzFwcDBKUEw2OGdaOGZJSlRaNFBTTEJhV0FqOG55MVJXS1A4ajBteEhNckx4ejFXeGtwaGgzRzJTNjYtd2puYzNyS0VOOWFQcGdZUEdpcmRZSHpKY1hjV3NZSWhhMy10WGoxYkxxMkk?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
 ---
 
 # Image

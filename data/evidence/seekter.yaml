@@ -61,3 +61,15 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 招聘与求职服务 求职者每日筛选职位并批量填写申请表单'
+- id: ev-5ecca461280c4b47
+  project_slug: seekter
+  url: https://github.com/selfishprimate/seekter
+  title: seekter
+  published_at: '2026-09-22T09:30:26Z'
+  collected_at: '2026-10-06T02:18:35Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A job-search agent for Claude Code. It searches job sources every day, filters postings against
+    your rules (location, visa, salary, sectors, seniority, language), fills application forms in your
+    own Chrome, and keeps every application and skip as a markdown file you can read, grep and diff. |
+    repository stars: 52'

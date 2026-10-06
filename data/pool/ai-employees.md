@@ -39,8 +39,8 @@ canonical_url: https://github.com/markfulton/ai-employees
 summary: Open source AI Employees. 8 scheduled business roles, 60 routines, on Claude Code and 10 other
   harnesses. They drive your browser the way you do and improve every run. You own the files.
 first_seen: '2026-09-02T18:47:36Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: watching
+last_seen: '2026-10-06T02:19:01Z'
+status: pending_filter
 sources:
 - github
 - marketfeeds
@@ -75,6 +75,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEZiaVoxaHJQUmVnVk10WUNrdGNlUHVaRHgya3l5Y2E0M0RWY3JBZFhZUmdlTDdMN3IyVGtmRE9hZE9VMjFMbnVPREEwc0JrUGFjY2ZKamJFRmtoVWFpdTJfM1h1bmQ2RUNSejB6VXRCTmN2Zm9sczhRZVdIY0hTaHk5bms0VEtyN3o3d0NVYVZ1YkFf?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/robco-hits-unicorn-valuation-in-employee-share-sale/
+  seen_at: '2026-10-06T02:19:01Z'
   metrics: {}
   kind: news
 ---

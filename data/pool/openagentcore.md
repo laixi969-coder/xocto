@@ -27,18 +27,18 @@ url: https://minimax-ai.github.io/OpenAgentCore/
 canonical_url: https://minimax-ai.github.io/OpenAgentCore
 summary: Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.
 first_seen: '2026-09-21T03:18:15Z'
-last_seen: '2026-10-05T00:56:02Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://minimax-ai.github.io/OpenAgentCore/
-  seen_at: '2026-10-05T00:56:02Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 171
-    forks: 17
-    open_issues: 9
+    stars: 191
+    forks: 18
+    open_issues: 10
   kind: product
 ---
 

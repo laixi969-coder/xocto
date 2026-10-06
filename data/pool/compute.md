@@ -21,7 +21,7 @@ url: https://compute.cx
 canonical_url: https://compute.cx
 summary: Compute.cx is simple (modal.com like) interface for on-demand GPUs
 first_seen: '2026-08-20T15:47:24Z'
-last_seen: '2026-09-24T00:31:16Z'
+last_seen: '2026-10-06T02:19:08Z'
 status: pending_filter
 sources:
 - hackernews
@@ -101,6 +101,11 @@ sightings:
 - source: officialfeeds
   url: https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/
   seen_at: '2026-09-24T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNc1dBY1k4YnRoN0dvRE50eGhRUEUxODVWd0RYdGhpejRYWi1OMWhTUERxV3NydjhLZ3h0czZiRlMwX3JNUzJfN2k0ck5zNjNxcFpFaXZMU1VMd3o2TTVDTU9jcVZ3ckpucExQeWxhNVE5UWtNSVpJSXBtZHU4a2l5c1J3QnBNUVlmbTlTam1OUnZLVmRKQUdiakl4THhUOTJpSGpNMDVIQlRIVFlGaE9YcmNTdGhmV1dzLXc?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

@@ -1,0 +1,12 @@
+- id: ev-f3d715ea77721a8e
+  project_slug: vercel-ai-ai-sdk-workflow2060
+  url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.60
+  title: 'vercel/ai: @ai-sdk/workflow@2.0.60'
+  published_at: '2026-10-05T23:04:03Z'
+  collected_at: '2026-10-06T02:18:35Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '### Patch Changes
+
+
+    - d9e04cb: fix(workflow): reuse persisted tool denial results during approval resumption'

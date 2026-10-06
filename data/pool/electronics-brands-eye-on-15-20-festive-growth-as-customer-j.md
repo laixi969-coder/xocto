@@ -1,0 +1,42 @@
+---
+slug: electronics-brands-eye-on-15-20-festive-growth-as-customer-j
+name: Electronics brands eye on 15-20% festive growth as customer journeys shrinks from weeks to days
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQajhEVDBXc184ZzNjQXdpUWIxNUx3NHQzeWlSd1h6V0JoQTRXeG1SN056ZlBBXzJENmpwZ0tCTExpbG9kMTUzY3p1NFV3VUJTWHNQc3VPVU1xRFprNzBxSUdYbUtjVjBBaW00N0FxMTVFazZ6NG92ck55RkE4NERRVVJDek9nZF96bjltM3dRUkhmSHdPRXAwNzdhbUZmSVh5ZDRwX0RXYno1MGdEcjBhZ3h5RVptdEtyYUxTSUxVN0dyaFk4M3d0cEVRXzREQdIBzgFBVV95cUxQajhEVDBXc184ZzNjQXdpUWIxNUx3NHQzeWlSd1h6V0JoQTRXeG1SN056ZlBBXzJENmpwZ0tCTExpbG9kMTUzY3p1NFV3VUJTWHNQc3VPVU1xRFprNzBxSUdYbUtjVjBBaW00N0FxMTVFazZ6NG92ck55RkE4NERRVVJDek9nZF96bjltM3dRUkhmSHdPRXAwNzdhbUZmSVh5ZDRwX0RXYno1MGdEcjBhZ3h5RVptdEtyYUxTSUxVN0dyaFk4M3d0cEVRXzREQQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQajhEVDBXc184ZzNjQXdpUWIxNUx3NHQzeWlSd1h6V0JoQTRXeG1SN056ZlBBXzJENmpwZ0tCTExpbG9kMTUzY3p1NFV3VUJTWHNQc3VPVU1xRFprNzBxSUdYbUtjVjBBaW00N0FxMTVFazZ6NG92ck55RkE4NERRVVJDek9nZF96bjltM3dRUkhmSHdPRXAwNzdhbUZmSVh5ZDRwX0RXYno1MGdEcjBhZ3h5RVptdEtyYUxTSUxVN0dyaFk4M3d0cEVRXzREQdIBzgFBVV95cUxQajhEVDBXc184ZzNjQXdpUWIxNUx3NHQzeWlSd1h6V0JoQTRXeG1SN056ZlBBXzJENmpwZ0tCTExpbG9kMTUzY3p1NFV3VUJTWHNQc3VPVU1xRFprNzBxSUdYbUtjVjBBaW00N0FxMTVFazZ6NG92ck55RkE4NERRVVJDek9nZF96bjltM3dRUkhmSHdPRXAwNzdhbUZmSVh5ZDRwX0RXYno1MGdEcjBhZ3h5RVptdEtyYUxTSUxVN0dyaFk4M3d0cEVRXzREQQ?oc=5
+summary: Electronics brands eye on 15-20% festive growth as customer journeys shrinks from weeks to days
+  StoryBoard 18
+first_seen: '2026-10-05T03:23:43Z'
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQajhEVDBXc184ZzNjQXdpUWIxNUx3NHQzeWlSd1h6V0JoQTRXeG1SN056ZlBBXzJENmpwZ0tCTExpbG9kMTUzY3p1NFV3VUJTWHNQc3VPVU1xRFprNzBxSUdYbUtjVjBBaW00N0FxMTVFazZ6NG92ck55RkE4NERRVVJDek9nZF96bjltM3dRUkhmSHdPRXAwNzdhbUZmSVh5ZDRwX0RXYno1MGdEcjBhZ3h5RVptdEtyYUxTSUxVN0dyaFk4M3d0cEVRXzREQdIBzgFBVV95cUxQajhEVDBXc184ZzNjQXdpUWIxNUx3NHQzeWlSd1h6V0JoQTRXeG1SN056ZlBBXzJENmpwZ0tCTExpbG9kMTUzY3p1NFV3VUJTWHNQc3VPVU1xRFprNzBxSUdYbUtjVjBBaW00N0FxMTVFazZ6NG92ck55RkE4NERRVVJDek9nZF96bjltM3dRUkhmSHdPRXAwNzdhbUZmSVh5ZDRwX0RXYno1MGdEcjBhZ3h5RVptdEtyYUxTSUxVN0dyaFk4M3d0cEVRXzREQQ?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+---
+
+# Electronics brands eye on 15-20% festive growth as customer journeys shrinks from weeks to days
+
+Electronics brands eye on 15-20% festive growth as customer journeys shrinks from weeks to days StoryBoard 18
+
+## 笔记
+
+

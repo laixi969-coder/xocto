@@ -29,18 +29,18 @@ canonical_url: https://github.com/petershifi123-wq/solve-lite
 summary: CoreML-native local decision runtime for AI agents · 18 install profiles · 20-scenario protocol
   · offline · ~50.93 MB · by Soulite Magic
 first_seen: '2026-09-25T03:51:33Z'
-last_seen: '2026-10-05T00:56:02Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/petershifi123-wq/solve-lite
-  seen_at: '2026-10-05T00:56:02Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 150
+    stars: 168
     forks: 0
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

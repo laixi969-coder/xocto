@@ -42,8 +42,8 @@ url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPMUpHQV8zVUtYVHJLZzBjc1
 canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPMUpHQV8zVUtYVHJLZzBjc1JhOXREOUpyVWJiam82MHZfU2VxRUtJMjc4X2tlS0hzQ1VwMzl5MjIwR3N6RFlFTGQzOHNyem05NU9aUC1NYkdSX2tSUG5SeXRIQ0lpV0lSa1E2NGxqR2w2ZHg3SUdNajI3TFdRMTR4SnBGWkEzd1FhblpOaTZjOHpvNFhCQWNzVGVJTUo3NG9Oc3c3WlhPeUFsY2N5OE1GZVJn?oc=5
 summary: AI Firm Cohere in Talks for Up to $3 Billion Raise, Report Says Bloomberg.com
 first_seen: '2026-09-11T18:03:31Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - newssearch
 - hackernews
@@ -73,6 +73,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NR0lYak9MN1RmdWtnMmRVSThIR19rYkRUc2RXM2FoUWR3MjNiR09LOVd2VktpaFpkMHRIQ0s4WVNTMnhOTHJvU0dVNzlVM2k2R2hITFhzVWo?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNWXlCNHFvR3lYRG5HV0NuMXI4M1FDRHR2WGNiYXgxNkhYM2FRVHNNQzVDSzYwX24tUGRHSm02Tm5sUElwYXhlLS1jUTZncHdRazNhTHNXWXhLUVFOTmdBbm9FZ2lyTUdzc0F3RWRrSHEwNWQ2ZHRkdm55ekJJanNBU0xlaWlIeWluU1JOQVZEWkQtMlNlZTVR?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

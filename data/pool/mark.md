@@ -31,8 +31,8 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-10-05T00:56:35Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -382,6 +382,38 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPOWo5Z2dUbHdCaGtabHR0WmZPd1RKMmhtSlRjQ3pXQ1NJdUtuT0lCbzNYWUQ2dDV5R3RmOVkyWUVyZF9VMWVaV05aUU1yX293REx1ZE1GMVBtd2JDaHVfNUM1cU45cldlMWFsUXpDcnVUQ1M3U0E1SzdRdnh1bnktUC1nZ0Fick9XQ0pweGJiNnpsSlM1N1VDMGRiQQ?oc=5
   seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger
+  seen_at: '2026-10-06T02:18:31Z'
+  metrics:
+    points: 466
+    comments: 328
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/veremark-pisces/
+  seen_at: '2026-10-06T02:19:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibEFVX3lxTFBhSWZIc1E3Ni10VmFQRTVfRkVyYmphZDgxNklLTVB3MmxtbU1TMFVIbzNLQVVkSWdzQzlxSFRNQ0Jkc1hzTk1PRndWb2ZQLTdjMnh5cGxNSHpkeUxuZzYyNXJuS2dRV1NCX0d1bA?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNYUU4bGx0aWZhdjB3VG5GUnJjd3NPdnp4MEJIRGxramRhY2JKNFFkVW1vQ3dXMVVOVUdHSEFwekR3UnFVemR5LWJmRWN3UkhuYjNtREpFS0JaM0p5RFExMXNNNVRsTVhVZWNydno4eG12Vmp0MzB4M0dVbjJheVItaVFJSUFQVEtDRFFJeERDd3hDclc4eWdqSkdlYWxDSUtUaEE?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU2Q1Ml8wZ2c4YjdKM3ktcFJhNnltQ3B4cENfcWoyLXFHUFA0TVhzemZRTDVpSlA4V1ZyNWRtbDZYa2xYUmFUMFc4bjNwUUNnR2gxU1dxU3FJWTVTQWh3RUlERzdDY2lnY2ZibGhOSHpibUwwWHRKWEFUeXgxcW1sQTVHZ01qNDRNWjBJ?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxOQklrVW5YZ0FmS3p5VFdNWFFXS0gtdTBHc3pEcGVNZk9ST0VDdGtsdjB5TTFHRGJGTmpqR2xPdGpkSmxVTElFSFN4Sk0xSi00aFpkalRYTjZXNWNUQkdwSGpSZ0lDSGxIaURNSnR1LU12bEE4MkQwb1pKU2FTaEM0MEpZT1NiSUN2bGJjZ0pYQlNIVFRGNUNiWERrcnRUS2xnWlJqWDNJQ1dxTG5saEE5X0hkR2pOWXhhTzlYTVJ6c9IBvwFBVV95cUxOQklrVW5YZ0FmS3p5VFdNWFFXS0gtdTBHc3pEcGVNZk9ST0VDdGtsdjB5TTFHRGJGTmpqR2xPdGpkSmxVTElFSFN4Sk0xSi00aFpkalRYTjZXNWNUQkdwSGpSZ0lDSGxIaURNSnR1LU12bEE4MkQwb1pKU2FTaEM0MEpZT1NiSUN2bGJjZ0pYQlNIVFRGNUNiWERrcnRUS2xnWlJqWDNJQ1dxTG5saEE5X0hkR2pOWXhhTzlYTVJ6cw?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

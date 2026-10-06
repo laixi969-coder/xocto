@@ -28,8 +28,8 @@ url: https://www.latent.space/p/ainews-openai-shuts-off-cursor
 canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
-last_seen: '2026-10-05T00:56:35Z'
-status: market_context
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -288,6 +288,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipARBVV95cUxQRjJxdVc5dWN6ZkFiZ3N4eVVuYl95LWdIM1l1dVZWOVY3NXZIaDFJUkZoRVM0N0FNTzRXNlAyYlVlWjFNMURZeTV0SmhzSTlfdTZoYTRCNlcyRVZBUHBpSzlGWklBMnQyRXZGMlNsZFdsVTA1cFN0Z2pVaXJiZk8yekRfYm0zMkNlVEZSMkFLRXMwZGdYWHdneWJqZHNNLWdVRjRFRGdEUmpmS25ndXJEQ0xtLW5aOEJzd3A5QVdReW54V2pqUnlTOEU1bFJzYVhYTW1ESV9KeTF6MlVvTlhha3JNYTg5dUVKVmxuZTRwQzJoNFhzRjVCNU5rSWdxWHhCT2o4dHEzTmx3cDI3S1R5TmtNdm9RZ29FT3JrUmRNNGd1VUtHRWRFSThsU0d1Z0ZWRzhXSEQ5OG9qNHc0VWtJV1ZUU3QtMHdqbUwtZTUyTTRfY213NkZjQ3RuVHJTUkQ4U1p0Q21hclNreWFxdkduTjh4ZWpVZm1BQTEzQnhjb3M2Z3JON2N2SWttLUdiS0kzcHhOejRyOUlRU29HbUotd3p2cUdacTJ1QkZtMkhzSjJNMVAycldqeGswSnRtaHFLLWVKS1lXdDFiOFgxOFRyQmhsMG45V1ZlYVBjQ3ZSVWFMSjFFTmhISHJHbTZCUk5iYm1KbGZGVjdKeWpqVklBN2VFbTV3NXNBWllBSDFwdEJ1akZCOFlxY29NbHJaY0ZpWVR5Tg?oc=5
   seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/10/501700.html
+  seen_at: '2026-10-06T02:19:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE02SmlibDNOeG9xYVZrdTFEbHVrc2g0bm1nNmRuUEs3elJaX0FNenExaHEzUU9Vc2VuVG9CS2ZveXg5ZzBJQ3VINWQ2N19ndEZsNW5pOWFUejFGMHlUVklISE5WekIzb1FfdXFvbExYUzdrbUF5MjU1My1JRi1lVEk?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TNk05YnB4cHlQc2VENl9IdkIzNDU5b3lWN0ZDUG9HU3psZ2x4V3Q1Y1F2dGFuUnV1MkZNUGZheTZmZ0pBeHc1bldIT1p1dmZOU0dJ?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

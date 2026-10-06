@@ -22,8 +22,8 @@ summary: TechCrunch Founder Summit is a full-day gathering in Boston on November
   all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building
   and scaling their companies.
 first_seen: '2026-09-23T07:06:39Z'
-last_seen: '2026-10-03T01:13:03Z'
-status: rejected
+last_seen: '2026-10-06T02:19:01Z'
+status: pending_filter
 sources:
 - huggingface
 - marketfeeds
@@ -48,6 +48,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMixAFBVV95cUxOSU9kUXFaM2NBOHR1OUx5SUczcXVxeGhjTmNMTG11VEV5YmVSSXlHczhiSmItWjV5b3ZBMU5EMzZzcnk1TjlzdFB5TVRFMHdJQTBKWFJSbUoyczZyMmstcnRyeF9hNDROQUN4Q29MNGJqeEFmU1NZQ1o3eXZFVFRDTnM3TXJINEdlWk12dm9ZQnE0UXFWMFZsUWNYQUlsTnFyTzMtamloYU1RN29halV2RUJHQUhlUVlRZVNGLWZiNWp6VXox?oc=5
   seen_at: '2026-10-03T01:13:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/five-key-takeaways-from-sifted-summit-2026/
+  seen_at: '2026-10-06T02:19:01Z'
   metrics: {}
   kind: news
 ---

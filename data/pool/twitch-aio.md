@@ -21,18 +21,18 @@ canonical_url: https://github.com/RishabhEvans/Twitch-AIO
 summary: All-in-one Twitch automation toolkit - account creation, follows, chat, and token handling in
   one fast, reliable Python project.
 first_seen: '2026-09-28T19:11:37Z'
-last_seen: '2026-10-05T00:56:02Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/RishabhEvans/Twitch-AIO
-  seen_at: '2026-10-05T00:56:02Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
     stars: 83
     forks: 7
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

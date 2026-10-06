@@ -22,17 +22,17 @@ summary: AI Engineering Course - A free and complete AI Engineering Course to le
   by step - from Machine Learning, Neural Networks, and Transformers to LLMs, Fine-Tuning, RAG, AI Agents,
   LLM Inference, Evaluation, AI Safety, and AI System Design.
 first_seen: '2026-09-23T08:04:42Z'
-last_seen: '2026-10-05T00:56:02Z'
+last_seen: '2026-10-06T02:18:35Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://outcomeschool.com/program/ai-and-machine-learning
-  seen_at: '2026-10-05T00:56:02Z'
+  seen_at: '2026-10-06T02:18:35Z'
   metrics:
-    stars: 500
-    forks: 93
+    stars: 504
+    forks: 95
     open_issues: 0
   kind: product
 ---

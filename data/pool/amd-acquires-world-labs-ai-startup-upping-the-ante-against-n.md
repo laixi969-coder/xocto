@@ -23,8 +23,8 @@ url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-f
 canonical_url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup
 summary: The deal, which is expected to close by year's end, is worth $8.2 billion.
 first_seen: '2026-09-29T21:14:49Z'
-last_seen: '2026-10-03T01:13:03Z'
-status: rejected
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -85,6 +85,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPczhJX1Vvak1mOHZ4anltYVEzZ21FazBTOGpONTJKd2lDV1ZxY3dONHA4dlpLVGhlZlZkaVp3dGtlX0dPTXhPM2VIRl8wbXM0V2VhSkl1Tkh3Vmh6WnUta3RUWDIxTDlFWDBTNjJvMVlQVkNlV3poZElqR014U0hoSkhaUXZhRnJGR2p6X0tmb1o1MUU2QXM4eEs5VTB3eUdjZ0Vxek14ak00QVUy?oc=5
   seen_at: '2026-10-03T01:13:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMingFBVV95cUxPdnZISU9rcmNPVnYzWHdzcTBDTW5Zb2h6YktHdl83eVBsOGpaeDdXbzBkejhDWmJINDZSQ283UFlfbGstdmpydjZqbG9lVXBYRlNOeWdwMUNZYnFhWnJ4Y0JBZXZQQTdXRWJ6QWZ2eThva3dlbHlXaTRfYWE1YUppREhKdFhGbDNWSnF5RWZraVl1REY2ZnVsNktkbndwUQ?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNa3haR1pMZVdLeFZvaXBKSHprZ3lvV3AzWUJ0d1FRX2duVWMyUWw3VzFSTmFpaS1XdmJnVE5zNDQ2aGFkVDBzN0NhTVRxX3hyTlJWOHhDSW9ZLVdHUFduTDVsZVgtYVdsZFRZSFlQNTNDY3JRYTBwT19Tc3R3OU9FRDMycDdULUNSb0lzeTZKb3A1T1lvel80WXl5R2JjVWplc0xZZTBVelR1bEtEX3lZbGdOTXZST0YtbWg1N0VPNkx5Yk1W?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---

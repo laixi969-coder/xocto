@@ -33,14 +33,20 @@ canonical_url: https://tech.eu/2026/09/03/backbone-raises-eur4m-for-automated-fo
 summary: Food industry software startup Backbone hasraised €4 million in pre-seed funding to further develop
   its AI-powered qualityand compliance platform and support its commercial expansion. The round was le...
 first_seen: '2026-09-03T05:32:53Z'
-last_seen: '2026-09-03T14:36:52Z'
-status: queued
+last_seen: '2026-10-06T02:19:08Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/03/backbone-raises-eur4m-for-automated-food-quality-and-compliance/
   seen_at: '2026-09-03T14:36:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTFB0TUg2VTBjSFhiWXVfMVZybDY2bFZYTmJLSDJLU29lSlNIdk50NGhSMW9hU1Z5NWlERkpkWjhJZm16SkF5SFg2aUctbmE4dVJpeUwtU2szSzlBV3k1TmNsaDRfdUw4Zk1TWFlDT1V4dFEwcTRNOE8wZnlhUEVteDQ?oc=5
+  seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
   kind: news
 ---
