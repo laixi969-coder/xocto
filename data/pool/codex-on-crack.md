@@ -31,17 +31,17 @@ canonical_url: https://github.com/ethanplusai/codex-on-crack
 summary: Coordinate your models from Codex. Plan, delegate, use host tools, and review work across workspaces.
   Formerly Astra Flash Orchestrator.
 first_seen: '2026-09-17T05:42:31Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ethanplusai/codex-on-crack
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 738
-    forks: 67
+    stars: 741
+    forks: 68
     open_issues: 5
   kind: product
 ---

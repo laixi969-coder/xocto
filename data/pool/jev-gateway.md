@@ -31,18 +31,18 @@ url: https://github.com/vinilana/jev-gateway
 canonical_url: https://github.com/vinilana/jev-gateway
 summary: An easy way to use jev with your coding agent for tool calling reasoning
 first_seen: '2026-09-18T18:30:56Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/vinilana/jev-gateway
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 298
+    stars: 299
     forks: 41
-    open_issues: 16
+    open_issues: 15
   kind: product
 ---
 

@@ -20,10 +20,11 @@ url: https://manualdousuario.net/en/libreoffice-download-record-no-ai/
 canonical_url: https://manualdousuario.net/en/libreoffice-download-record-no-ai
 summary: LibreOffice breaks download records after declaring it has no AI features
 first_seen: '2026-09-08T14:05:57Z'
-last_seen: '2026-09-08T14:34:23Z'
-status: market_context
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://manualdousuario.net/en/libreoffice-download-record-no-ai/
@@ -31,6 +32,11 @@ sightings:
   metrics:
     points: 82
     comments: 16
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPRUFtcXltNlhTM0R0b0l1OW5BVXowVVN6S2drRmllU1Z6M2UzTC1uYTRwU3JQZnBoVlZzYl92dUpsLUtwT2hqRUdKMndrWlFadDBhTUFjbDZScHI5clBDYjlMTGlIaHZWSlZPMFFUTTNEVDB6ODV4SFN1WkVscUIxby1tX1BORGVyczdkWnNFX3NUcEpRUmhtZjAzWExKSms?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
   kind: news
 ---
 

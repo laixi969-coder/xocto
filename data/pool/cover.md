@@ -26,8 +26,8 @@ url: https://github.com/DavidCarliez/cover
 canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
-last_seen: '2026-09-27T00:36:53Z'
-status: watching
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - github
 - officialfeeds
@@ -163,6 +163,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSW1OcmFXS3NsMWhCOFZUaHdfNHlveGJNV1BKVnVkbGV1MW9UeGZLbTg2andsSlNOSEFUNlE5Q0RYTG1qdkxhQzBGQnBpOENQV3dsR2hST09YTE1EZkJMYUNnYmF3X0cyX2V4ODZBMEhzQ1lkZy1pSHhyeE9GN0RMb2czTWNBbHE4d0g0SVppbmhNa0thQ3B1dEJ0bUIwUHJkaExmVF9jel9RTXl1UVZtTE40VUtIaE8wUFBwTmtxMjI?oc=5
   seen_at: '2026-09-27T00:36:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQRTVGUFdyTWs0S2dzSjVJWDFrdmJDazNQeVN0WVp4RXZCNVlwRlg1cVZRdm5WdXkyZUw5Rkc1Qm53Q2R6ZWtKdTg5QzBiSDV1X21VTkhmME5jUVhuNGZ0d0QxZmx0bW1MdGZ5Vk9YZ2NtdDlxTjFFaWI0SUVxUW95aXFIa0VOWGVmWGR2aWJvb1FRUVdBQ3BPOEs5QzZ5bnF5ZUhkdUU1MlJlREt4eXhR?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

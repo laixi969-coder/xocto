@@ -33,16 +33,16 @@ url: https://www.cloudroom.dev
 canonical_url: https://cloudroom.dev
 summary: Open-source, self-hostable Rust runtime that runs Claude Code, Codex, and Pi in the cloud.
 first_seen: '2026-09-17T18:56:56Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.cloudroom.dev
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 256
+    stars: 259
     forks: 40
     open_issues: 0
   kind: product

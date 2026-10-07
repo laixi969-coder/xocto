@@ -37,8 +37,8 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGJ4Rm1xU3l0
 summary: Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking
   TechCrunch
 first_seen: '2026-09-19T13:00:00Z'
-last_seen: '2026-10-06T02:18:31Z'
-status: watching
+last_seen: '2026-10-07T01:32:26Z'
+status: pending_filter
 sources:
 - newssearch
 - hackernews
@@ -50,10 +50,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors
-  seen_at: '2026-10-06T02:18:31Z'
+  seen_at: '2026-10-07T01:32:26Z'
   metrics:
-    points: 219
-    comments: 163
+    points: 482
+    comments: 325
   kind: news
 ---
 

@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNRXdxYnpXd3ZNcU4yZGhqMH
 canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNRXdxYnpXd3ZNcU4yZGhqMHN0eG9zYlVrUHREU3AxQzNiS2VVdWRaTHItdEZVaHNPNFFTbTdlMURXbWUtWGI4OTJQXy0wXzNaYmFVN0RFeXR3cDlJeTdOVzdwRUFBSnBFb2xkd2R0U1A1Mnc1WXQ2YTBIZm1EUVJ0WFVOZTJVLXFxOEt3b3FhV25pVGY4LS1B?oc=5
 summary: Etched fields funding offers at $40B+ valuation, sources say TechCrunch
 first_seen: '2026-10-05T20:24:09Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNRXdxYnpXd3ZNcU4yZGhqMHN0eG9zYlVrUHREU3AxQzNiS2VVdWRaTHItdEZVaHNPNFFTbTdlMURXbWUtWGI4OTJQXy0wXzNaYmFVN0RFeXR3cDlJeTdOVzdwRUFBSnBFb2xkd2R0U1A1Mnc1WXQ2YTBIZm1EUVJ0WFVOZTJVLXFxOEt3b3FhV25pVGY4LS1B?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQNHJxQ2t2cGtyOXJQaGZOT2luZmpGT3B4VHN6cElBODQyaUE4eVNvdEEzWWpYZFV2NzROWkJMYzY1T3pkQjhOZEdjNU5FOUg0X3VraFh1YmV6TU1rTUYtWHRicno4cWpmYmloSnlKS2V3bTBwZFFiT19zbUJKeTlzTEZxcWlDdW1tU1p4MWE1cUFQMjNlbmZVTUZ5dkdwSGkyUm4xN2doVE5xazZf?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

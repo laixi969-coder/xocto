@@ -21,17 +21,17 @@ canonical_url: https://ayautomate.com/jev-builds
 summary: 'Awesome list of TypeSafe AI Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, limits,
   cost and API examples. CC0, sponsored by AY Automate.'
 first_seen: '2026-09-19T18:01:10Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://ayautomate.com/jev-builds
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 392
-    forks: 61
+    stars: 396
+    forks: 64
     open_issues: 12
   kind: product
 ---

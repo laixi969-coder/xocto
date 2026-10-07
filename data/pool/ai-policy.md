@@ -20,8 +20,8 @@ url: https://dbushell.com/ai/
 canonical_url: https://dbushell.com/ai
 summary: How AI is accelerating policy migration InsuranceNewsNet
 first_seen: '2026-09-02T15:36:24Z'
-last_seen: '2026-09-17T00:33:01Z'
-status: rejected
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -47,6 +47,16 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/16/from-oatly-to-agritech-inside-swedens-evolving-foodtech-ecosystem/
   seen_at: '2026-09-17T00:33:01Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/
+  seen_at: '2026-10-07T01:32:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxOb19vTVktb1dvbGFVVVVPNjE3YWpGVkNpd3BNWFVicEhnOWN6bE9fTG1LT3RocTB0U3BiZVNabU14Q2RwdnU0Z2Ftc0dpY2RvREVJOVJrUUM2akd5d3lrZXdpSFBIYTY4LVhTUmk5YWhsZ3ZIUFJMdlhvV3RRZGJ0MEdPejV0WlJrcnlXVHV3UXFYVzk4ZHNnRHhHenNnMTZYVUhIVVN1WTI0dnVzZHJ6SUg3QVRkV25CeGVnVzh5bjhaTVFtZ09OcnJXYUNub1lfRVJRQVppQTM?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

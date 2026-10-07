@@ -22,14 +22,19 @@ canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNZkc2VG13ZUI4
 summary: ADATA expands enterprise memory and storage portfolio for AI servers and edge systems Express
   Computer
 first_seen: '2026-09-04T09:24:39Z'
-last_seen: '2026-09-04T14:24:01Z'
-status: market_context
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNZkc2VG13ZUI4VWFqMF94MmRmdl9XbGUzeXAxNU1sOFZncm5qMWl4UU9tYnNOY3NBQmN4WmVHQ1VTUXhvb2hhOUludlJwT2t0UlRWR1lEeTlhVWVlT1h1S2VVck1SZEFzcy1GalBTNEl4SGNwLUpTa2lLeHNQYlVTaG5vbXNQbFR3dS1Dd3NPMFMwRFhLWkxfZ1RaMGlMbm1RT2RydWh6UFZtbjBnWHlieUJ2QzQzTU1meG10MmExYmVuVnJoa2NMVkE4T1huZw?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisAFBVV95cUxObGNKSlNTZmN4RTYxc3h5QUxvcmNZZHR0VkxIdHVGUjBfTVk3OURHMmxVSXg1NzY0OXVKNXV2dVMwZ2tZb1AyU3JSakhDMndNUEUxTVltSnBsMV80NWx1N3dHaGViR3dKWDV5UFEya2V1cjQ2T1NyTnM1S0R6R1lRT3Z1eE9RTktTYW9yLS1lZjlaLWVPQjl3cEpHbzh0a3lLTHdtd3Nuek4tNmJ6U3c1Rw?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

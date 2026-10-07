@@ -20,17 +20,17 @@ url: https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consc
 canonical_url: https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness
 summary: Questions for believers in AI consciousness
 first_seen: '2026-10-05T18:59:28Z'
-last_seen: '2026-10-06T02:18:31Z'
-status: rejected
+last_seen: '2026-10-07T01:32:26Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness
-  seen_at: '2026-10-06T02:18:31Z'
+  seen_at: '2026-10-07T01:32:26Z'
   metrics:
-    points: 40
-    comments: 190
+    points: 47
+    comments: 230
   kind: news
 ---
 

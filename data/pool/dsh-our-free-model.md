@@ -22,7 +22,7 @@ summary: '在 dsh 里装上这个插件即可，无需登录、注册或填 API 
   do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there,
   Muse Spark 1.3 and MiMo V2.6 among them. Completely free, with no usage cap.'
 first_seen: '2026-09-24T16:17:19Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: rejected
 sources:
 - github
@@ -37,11 +37,11 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/Ebony-Vinyl/dsh-our-free-model
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 1698
-    forks: 46
-    open_issues: 21
+    stars: 2278
+    forks: 53
+    open_issues: 35
   kind: product
 ---
 

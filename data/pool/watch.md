@@ -32,11 +32,12 @@ url: https://www.youtube.com/watch?v=vjItC11jF0o
 canonical_url: https://youtube.com/watch?v=vjItC11jF0o
 summary: I made a 3D rock climbing analysis tool using iPhone LiDAR [video]
 first_seen: '2026-09-25T19:48:59Z'
-last_seen: '2026-10-05T00:55:58Z'
-status: rejected
+last_seen: '2026-10-07T01:32:55Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://www.youtube.com/watch?v=vjItC11jF0o
@@ -61,6 +62,18 @@ sightings:
   metrics:
     points: 47
     comments: 13
+  kind: news
+- source: hackernews
+  url: https://www.youtube.com/watch?v=zIVXu6g8qdY
+  seen_at: '2026-10-07T01:32:26Z'
+  metrics:
+    points: 11
+    comments: 4
+  kind: product
+- source: marketfeeds
+  url: https://sifted.eu/articles/nordic-fintech-startups/
+  seen_at: '2026-10-07T01:32:55Z'
+  metrics: {}
   kind: news
 ---
 

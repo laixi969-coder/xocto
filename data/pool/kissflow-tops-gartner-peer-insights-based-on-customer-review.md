@@ -1,0 +1,41 @@
+---
+slug: kissflow-tops-gartner-peer-insights-based-on-customer-review
+name: Kissflow tops Gartner Peer Insights based on customer reviews
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzJxdkNldzBMTllVY3JmQkxzd0lRbFZobnZwYlBUdTVpck1ESXp2YmNJTC00UzFraVNWeTdJVW9DZGlfX09qdTJPU2FlOVN2UzI1bHNMZkZCZEl1SFpXOUZEVWxwc0RlT1Q2WHRzME9vUS1OMnYtYkdUZGhESXRFTjRQdjRXQmNZb2dXUnVwc01qR0owV2swUEY1SWZ2TGJsSGwxU1BybFAxbGluMklMb1N6UEU5RjhJVElZVG1YYTBUR1hFSUk40gHOAUFVX3lxTE5wcnBDaFFPMmF5c0dMNnhtZ2NBcG1xbEhXeVJuc3Q1Q0tYRWw2YXNJSmxTUnlhbldMSGFnV1VTeUNlRlhTZFQ3X05WMjdEaF9FQ2Uzak9kRWNrLXAzRVY2UWhJUmd4VnduVko2Q0tBZTVtajduOGg3eVdPdE1mWmZncjlYWTdWZWRlYTlzcTlpNkhYVUZ6T3NIQ3BYcWE3ckdjcFhTM0FJTEFvb2VGbmVhcHRjRTU3cTc0b0pLczlYeGZqc3B5Nk10MlFxVVNR?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzJxdkNldzBMTllVY3JmQkxzd0lRbFZobnZwYlBUdTVpck1ESXp2YmNJTC00UzFraVNWeTdJVW9DZGlfX09qdTJPU2FlOVN2UzI1bHNMZkZCZEl1SFpXOUZEVWxwc0RlT1Q2WHRzME9vUS1OMnYtYkdUZGhESXRFTjRQdjRXQmNZb2dXUnVwc01qR0owV2swUEY1SWZ2TGJsSGwxU1BybFAxbGluMklMb1N6UEU5RjhJVElZVG1YYTBUR1hFSUk40gHOAUFVX3lxTE5wcnBDaFFPMmF5c0dMNnhtZ2NBcG1xbEhXeVJuc3Q1Q0tYRWw2YXNJSmxTUnlhbldMSGFnV1VTeUNlRlhTZFQ3X05WMjdEaF9FQ2Uzak9kRWNrLXAzRVY2UWhJUmd4VnduVko2Q0tBZTVtajduOGg3eVdPdE1mWmZncjlYWTdWZWRlYTlzcTlpNkhYVUZ6T3NIQ3BYcWE3ckdjcFhTM0FJTEFvb2VGbmVhcHRjRTU3cTc0b0pLczlYeGZqc3B5Nk10MlFxVVNR?oc=5
+summary: Kissflow tops Gartner Peer Insights based on customer reviews BusinessLine
+first_seen: '2026-10-06T08:42:49Z'
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzJxdkNldzBMTllVY3JmQkxzd0lRbFZobnZwYlBUdTVpck1ESXp2YmNJTC00UzFraVNWeTdJVW9DZGlfX09qdTJPU2FlOVN2UzI1bHNMZkZCZEl1SFpXOUZEVWxwc0RlT1Q2WHRzME9vUS1OMnYtYkdUZGhESXRFTjRQdjRXQmNZb2dXUnVwc01qR0owV2swUEY1SWZ2TGJsSGwxU1BybFAxbGluMklMb1N6UEU5RjhJVElZVG1YYTBUR1hFSUk40gHOAUFVX3lxTE5wcnBDaFFPMmF5c0dMNnhtZ2NBcG1xbEhXeVJuc3Q1Q0tYRWw2YXNJSmxTUnlhbldMSGFnV1VTeUNlRlhTZFQ3X05WMjdEaF9FQ2Uzak9kRWNrLXAzRVY2UWhJUmd4VnduVko2Q0tBZTVtajduOGg3eVdPdE1mWmZncjlYWTdWZWRlYTlzcTlpNkhYVUZ6T3NIQ3BYcWE3ckdjcFhTM0FJTEFvb2VGbmVhcHRjRTU3cTc0b0pLczlYeGZqc3B5Nk10MlFxVVNR?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+---
+
+# Kissflow tops Gartner Peer Insights based on customer reviews
+
+Kissflow tops Gartner Peer Insights based on customer reviews BusinessLine
+
+## 笔记
+
+

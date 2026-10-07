@@ -22,17 +22,17 @@ summary: '👋 Hello Agent System — learn enterprise AI agent system design by
   layer from scratch. 17 bilingual lessons (EN/中文) with tested exercises: tools, architectures, reliability,
   security, evals, distributed execution, cost, RAG, release ops. 企业级 Agent 系统设计训练营'
 first_seen: '2026-09-27T01:18:37Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/heaven999b/hello-agent-system
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 72
-    forks: 1
+    stars: 90
+    forks: 2
     open_issues: 0
   kind: product
 ---

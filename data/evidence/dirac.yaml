@@ -181,3 +181,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 命令行操作'
+- id: ev-a22083ae923eb62c
+  project_slug: dirac
+  url: https://dirac.run/posts/easycommand
+  title: dirac
+  published_at: '2026-10-05T15:35:29Z'
+  collected_at: '2026-10-07T01:32:26Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf

@@ -36,14 +36,19 @@ summary: "Datasette 1.0a39 and 0.65.4 security releases   \nToday we're releasin
   \ coding agents running different models. \n \n\n\n     Tags:  releases ,  security ,  ai ,  datasette\
   \ ,  generative-ai ,  llms ,  agentic-engineering ,  ai-security-research"
 first_seen: '2026-09-11T03:27:16Z'
-last_seen: '2026-09-12T00:19:09Z'
-status: market_context
+last_seen: '2026-10-07T01:32:55Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Sep/11/datasette-security/
   seen_at: '2026-09-12T00:19:09Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Oct/6/datasette-atom/
+  seen_at: '2026-10-07T01:32:55Z'
   metrics: {}
   kind: news
 ---

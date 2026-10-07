@@ -32,17 +32,17 @@ canonical_url: https://github.com/chipfighter/codex-attachment-manager
 summary: 'Codex plugin: choose which past images go to the model with your next message. Unchecked images
   become placeholders, the task goes on, and requests stay small.'
 first_seen: '2026-09-24T05:00:09Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/chipfighter/codex-attachment-manager
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 126
-    forks: 3
+    stars: 161
+    forks: 6
     open_issues: 0
   kind: product
 ---

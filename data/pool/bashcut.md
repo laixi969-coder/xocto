@@ -36,18 +36,18 @@ canonical_url: https://github.com/dongnguyenvie/BashCut/releases/latest
 summary: 'Native macOS video editor that coding agents can drive: everything the UI does, Claude Code
   and Codex can do through the bashcut CLI or MCP server. Layered timeline, captions, voiceover, plugins.'
 first_seen: '2026-10-02T18:46:34Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dongnguyenvie/BashCut/releases/latest
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 46
-    forks: 16
-    open_issues: 202
+    stars: 50
+    forks: 17
+    open_issues: 194
   kind: product
 ---
 

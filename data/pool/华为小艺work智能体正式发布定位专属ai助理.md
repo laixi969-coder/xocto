@@ -28,14 +28,19 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNkEwNmVHcU9maU1HNDVNTE
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNkEwNmVHcU9maU1HNDVNTE5fcVBsXzVPdUhIRDBqVVlIQXBfS3lTQ1RRdGVzYWpjaWZ3T0hmUzlqanJiS2NRbXp6OWhramlmYy1JalN0X2ZIc0taVGdzNzBicElxNGhzVkZwc0tUWmVZNjZSYWhER244V3Zya2dYd2FhbjVQM1lY?oc=5
 summary: 华为小艺Work智能体正式发布，定位专属AI助理 搜狐网
 first_seen: '2026-10-02T12:58:16Z'
-last_seen: '2026-10-03T01:13:03Z'
-status: watching
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNkEwNmVHcU9maU1HNDVNTE5fcVBsXzVPdUhIRDBqVVlIQXBfS3lTQ1RRdGVzYWpjaWZ3T0hmUzlqanJiS2NRbXp6OWhramlmYy1JalN0X2ZIc0taVGdzNzBicElxNGhzVkZwc0tUWmVZNjZSYWhER244V3Zya2dYd2FhbjVQM1lY?oc=5
   seen_at: '2026-10-03T01:13:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE43VUEwUDQwRDh2RmpuYUJpMFN6TlpfTjFEVFZILVk5a2hSeUlYeUI4VDg5M254d3k2b19Ma09lQmV0X2RRTlE?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

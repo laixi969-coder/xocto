@@ -1,7 +1,7 @@
 ---
 slug: paper
 name: Paper
-builder: ''
+builder: bryan0
 category: AI + 创作
 summary_zh: 设计团队在把界面稿推进到可交付阶段时打开它，处理的是原本要在传统设计工具里手工搭建的界面与组件材料；候选资料只说明它被归入设计类 AI 应用，AI 具体接收什么输入、执行哪一步动作、最终交付什么，均未提供，具体流程或交付仍待核验。
 inspiration: 趋势是投资机构开始按“具体工作任务 + 自有领域”而不是按模型能力给 AI 应用分类，设计被单列成一格。切入可看设计交付链里最靠后的那一段——设计稿到可运行界面之间的返工，面向有固定组件规范的中小产品团队，按产出而非席位计价；但该产品实际替代了哪一步旧工作尚无公开材料，先观察。
@@ -42,11 +42,12 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Early stage). Near
   with Cognition, CodeRabbit, and Zed, CRM with Clarify, quote-to-cash with Roadrunner, and design with
   Paper.
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-10-02T01:42:23Z'
-status: rejected
+last_seen: '2026-10-07T01:32:26Z'
+status: pending_filter
 sources:
 - ia40
 - newssearch
+- hackernews
 sightings:
 - source: ia40
   url: https://paper.design/
@@ -109,6 +110,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLUUQ2c2NuSE1IQzljVWtiOUstRGlBQjI2SGF3S2VvRC15eDVzZkhqRXBTQXpUYVFHaFBBYjRNYTNYT0pJNFRDRnpwVFJqY2N5blNfSFJwXzhTY2RPTVE?oc=5
   seen_at: '2026-10-02T01:42:23Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://edworkingpapers.com/ai26-1551
+  seen_at: '2026-10-07T01:32:26Z'
+  metrics:
+    points: 71
+    comments: 67
   kind: news
 ---
 

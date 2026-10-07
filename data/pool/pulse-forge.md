@@ -26,18 +26,18 @@ url: https://github.com/huanbnnn/pulse-forge
 canonical_url: https://github.com/huanbnnn/pulse-forge
 summary: Open Source AI Model Trainer Library for Custom Workflows 2026
 first_seen: '2026-09-21T22:53:33Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huanbnnn/pulse-forge
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
     stars: 53
     forks: 0
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

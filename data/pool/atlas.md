@@ -42,11 +42,12 @@ url: https://www.worldlabs.ai/blog/atlas
 canonical_url: https://worldlabs.ai/blog/atlas
 summary: A World Model for Spatial Intelligence
 first_seen: '2026-09-01T17:36:02Z'
-last_seen: '2026-09-04T14:23:54Z'
-status: queued
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://www.worldlabs.ai/blog/atlas
@@ -58,6 +59,11 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/484163.html
   seen_at: '2026-09-04T14:23:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1wRBVV95cUxQR0dCM3ZXNG1GY2ZaMmhDbDhmSFRfQ1FMWEJuZjZFak9CR21qQnBHWFU3a21QbXdiWmZKTjYxSG5oQzJIakI4M29SNWpvblA3WTJ5enlDeXkwcHY2ZjF6TGpscTBFdHFIRDBUZGxTMWZCTlJ5eVZ3dHhIUUtnakdiZm42UUNWTU1lSEJCaU5lTHhweTVvOG1tek1GZE9hR1ZtMktlaXV0a2Fjc3lfYWFMTVZIajdjeWJ5UUVCVmRaYV9mbW9pTXpvWEZCWmdhQ0RRNi1KbXhZdk1tZ2l6THlHd25HWWVxOEVQNV82WnFGWlQ1RUdaM240dmstalN1cTV0b3diZkNUZEtZQzVPakNjNTVkOGtwOWVxcHV2YVpoZDNqVGhvbUVya1dBYU5DWEVYRGhtMzNPTUNjMkJWa0c2ZktnZVV2UEc4MGlzQmtPOTZlZU9PWUhnR0FKU3NYYkhyMFk3ZUpCZkQtLV9PSnByQXlmY1VrQ1NOY2hwNV96d1RtM08tZkdsM1FsYU1sbk1MM0ZjNE5fNEdOMTJKT3BIRDJEWm9qaWRMLXZ2TmpaZEExc2tMdmR3bmYwOHJGbmtWTk1iNzVCZzNvMmcyQmM1aVhCTHc1TExQd2JkanVxc19tQnpkaXRIN0xoSjRpRE9mUnRRR0NsQTNtQWJDZzZHOGJjcFV6X2swdElnZTN0VFMybUtlSHFEVzFxbklLenZPR18zUE9wX2RtRTRLWVppVHdpOTJEdk1BYUNrbk1CNUh6dUt2UVFzelVGM1RLdkdMUHBJSzc3WQ?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

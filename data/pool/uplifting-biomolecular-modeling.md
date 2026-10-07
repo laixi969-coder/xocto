@@ -35,17 +35,17 @@ url: https://github.com/anthropics/uplifting-biomolecular-modeling
 canonical_url: https://github.com/anthropics/uplifting-biomolecular-modeling
 summary: ''
 first_seen: '2026-09-17T06:37:30Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/uplifting-biomolecular-modeling
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
     stars: 329
-    forks: 49
+    forks: 51
     open_issues: 7
   kind: product
 ---

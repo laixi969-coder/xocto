@@ -20,11 +20,12 @@ url: https://pandax1.com
 canonical_url: https://pandax1.com
 summary: the world's first personal AI computer
 first_seen: '2026-09-28T01:35:14Z'
-last_seen: '2026-10-05T00:56:35Z'
-status: rejected
+last_seen: '2026-10-07T01:32:55Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://pandax1.com
@@ -41,6 +42,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUERqMl9Wc3VsMkR4LWZwLTVDa2xNRmNQNlA4R241Yy11TV93QWxEZ0RyNWdxWnNtOUNyRVlIWklVOUM2ZWNRNkJQWHRYMXd3TFRSanNRaXEyV0ZVMFgwOUpibU9rT1haVF9BSkUxa0RESjM0aVM0RlBxb1dzM3RQR2txRTFxa1hvbWg5ZW9tQVVZNVpCTHZMSTZaVENVdl9NNldzUmtwZV84WkpkcVlyTHZkRE1vSU9yZDh2aU5yYnMycDFhdk93bVZCYjBfRjhmVm5UUllkTml0SHlCWEHSAd4BQVVfeXFMTVBEajJfVnN1bDJEeC1mcC01Q2tsTUZjUDZQOEduNWMtdU1fd0FsRGdEcjVncVpzbTlDckVZSFpJVTlDNmVjUTZCUFh0WDF3d0xUUmpzUWlxMldGVTBYMDlKYm1Pa09YWlRfQUpFMWtEREozNGlTNEZQcW9XczN0UEdrcUUxcWtYb21oOWVvbUFVWTVaQkx2TEk2WlRDVXZfTTZXc1JrcGVfOFpKZHFZckx2ZERNb0lPcmQ4dmlOcmJzMnAxYXZPd21WQmIwX0Y4ZlZuVFJZZE5pdEh5QlhB?oc=5
   seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/10/06/nea-leads-spikos-90m-series-b-to-expand-access-to-cash-yield/
+  seen_at: '2026-10-07T01:32:55Z'
   metrics: {}
   kind: news
 ---

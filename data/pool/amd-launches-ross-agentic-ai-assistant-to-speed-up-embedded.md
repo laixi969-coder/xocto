@@ -1,0 +1,41 @@
+---
+slug: amd-launches-ross-agentic-ai-assistant-to-speed-up-embedded
+name: AMD launches 'Ross' agentic AI assistant to speed up embedded design, development
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeHV6ZUhDbFdnaWQxX1FERE54VUNlMWZOWkVsWGlMR0RkdU9sLTVkVklHYVR4TXAtMGtJMXhJckJyWi1rTFZOd1c1bng3VnJMS0o0MTF5LU96ZXVVV2phd3BlYjhwNDViZmtZRzBBXy1VMkJXS3ExUFVpQWp0dDZPQmlCbDFUR1JtMTZjcWNPd0l5MlV2dmFRcE9raThOTDFZS2l5WDN1OS0tSzhWNk9fcGttZDJuelhObTU2Uml3V2hOY2VadWNOQlhmdDBiTHJ2WnM2RkVJZlktTTBQQXluYnRQRDlWYm44bjJR0gHwAUFVX3lxTE1NMXFJOG14SE5ZZTZkUTB6WWtKamVQZ3NqbWtNN1VJTkdfZjExVzRGWHJVeEZXWWljWl9zSDAzcW9hN2kwakNPSnZXRXk1bHVhdnMwNmdXanRQQTNZcUIyYnFkSnFCYTBJa3kzSkNaT1dBZzhGVWxaU05kQzViRy11UHpNWVVkYTl3UEczWkpSSVlocFhxYjFGTURsRFg4WXhFaGM2aGxySjJVUm1OckQyZXhJMEg1amp5ajA0Y1dWdW03NU1yUXh1VTF3TGw4eVgwZjBEVkE1cFhiRnViNzlKZDNIMWZlNVh4ZklwV0dpZw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeHV6ZUhDbFdnaWQxX1FERE54VUNlMWZOWkVsWGlMR0RkdU9sLTVkVklHYVR4TXAtMGtJMXhJckJyWi1rTFZOd1c1bng3VnJMS0o0MTF5LU96ZXVVV2phd3BlYjhwNDViZmtZRzBBXy1VMkJXS3ExUFVpQWp0dDZPQmlCbDFUR1JtMTZjcWNPd0l5MlV2dmFRcE9raThOTDFZS2l5WDN1OS0tSzhWNk9fcGttZDJuelhObTU2Uml3V2hOY2VadWNOQlhmdDBiTHJ2WnM2RkVJZlktTTBQQXluYnRQRDlWYm44bjJR0gHwAUFVX3lxTE1NMXFJOG14SE5ZZTZkUTB6WWtKamVQZ3NqbWtNN1VJTkdfZjExVzRGWHJVeEZXWWljWl9zSDAzcW9hN2kwakNPSnZXRXk1bHVhdnMwNmdXanRQQTNZcUIyYnFkSnFCYTBJa3kzSkNaT1dBZzhGVWxaU05kQzViRy11UHpNWVVkYTl3UEczWkpSSVlocFhxYjFGTURsRFg4WXhFaGM2aGxySjJVUm1OckQyZXhJMEg1amp5ajA0Y1dWdW03NU1yUXh1VTF3TGw4eVgwZjBEVkE1cFhiRnViNzlKZDNIMWZlNVh4ZklwV0dpZw?oc=5
+summary: AMD launches 'Ross' agentic AI assistant to speed up embedded design, development electronics.economictimes.indiatimes.com
+first_seen: '2026-10-06T05:53:23Z'
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeHV6ZUhDbFdnaWQxX1FERE54VUNlMWZOWkVsWGlMR0RkdU9sLTVkVklHYVR4TXAtMGtJMXhJckJyWi1rTFZOd1c1bng3VnJMS0o0MTF5LU96ZXVVV2phd3BlYjhwNDViZmtZRzBBXy1VMkJXS3ExUFVpQWp0dDZPQmlCbDFUR1JtMTZjcWNPd0l5MlV2dmFRcE9raThOTDFZS2l5WDN1OS0tSzhWNk9fcGttZDJuelhObTU2Uml3V2hOY2VadWNOQlhmdDBiTHJ2WnM2RkVJZlktTTBQQXluYnRQRDlWYm44bjJR0gHwAUFVX3lxTE1NMXFJOG14SE5ZZTZkUTB6WWtKamVQZ3NqbWtNN1VJTkdfZjExVzRGWHJVeEZXWWljWl9zSDAzcW9hN2kwakNPSnZXRXk1bHVhdnMwNmdXanRQQTNZcUIyYnFkSnFCYTBJa3kzSkNaT1dBZzhGVWxaU05kQzViRy11UHpNWVVkYTl3UEczWkpSSVlocFhxYjFGTURsRFg4WXhFaGM2aGxySjJVUm1OckQyZXhJMEg1amp5ajA0Y1dWdW03NU1yUXh1VTF3TGw4eVgwZjBEVkE1cFhiRnViNzlKZDNIMWZlNVh4ZklwV0dpZw?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+---
+
+# AMD launches 'Ross' agentic AI assistant to speed up embedded design, development
+
+AMD launches 'Ross' agentic AI assistant to speed up embedded design, development electronics.economictimes.indiatimes.com
+
+## 笔记
+
+

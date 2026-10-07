@@ -24,14 +24,20 @@ url: https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-googl
 canonical_url: https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp
 summary: Trust gaps in the new protocol spread malicious prompts from one agent to another.
 first_seen: '2026-10-05T22:26:35Z'
-last_seen: '2026-10-06T02:19:01Z'
-status: market_context
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/
   seen_at: '2026-10-06T02:19:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifEFVX3lxTE44WjlMcGRmRUstejJtVDZSa3JFRm82bFVmS01JQ2hkUk1UdTJEQ3ZsZURIT2p3YnlhR0g3cUZVX3JjMURMdEhaS0ViT3NRWmx0NTFmdnQzbUxNOFVQZmNRb0xseV8yUjB1TXdqVFZXUHA0ODJzOE96THozTEY?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

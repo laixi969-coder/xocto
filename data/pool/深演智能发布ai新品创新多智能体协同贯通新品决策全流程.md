@@ -39,8 +39,8 @@ url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlZU1NZkRKc1gwZHRhS0U0TD
 canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlZU1NZkRKc1gwZHRhS0U0TDJqSVE4cFo3cHJKSFpJRG5VQUdMb0l2Tnhya0F0WnFXUlp3WE5tcUxxWkpvY2FXUllxSXctRWdZalBxTWI0R0Y?oc=5
 summary: 深演智能发布“AI新品创新”：多智能体协同贯通新品决策全流程 界面新闻
 first_seen: '2026-09-03T04:23:02Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -72,6 +72,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijgJBVV95cUxQMElYa1lvLXh5T29ZYlM3S3Zha0lxVEN2ZjQ2cjlDNkFuejliZ2NJZ0JQaDVHVlBveENyZ3NvZDFtckc2MTBpRnM3Q1lKMlFBYmxVMVFlV1N1dmx2S3RQUGJZQXJLREhpTXVMS0s5OGFFeE1uT001Tzh4cmFlYkQyTy1JOEVidDdQbE1VN1g0WE5ZZW4wcXNXQ3NETm56Y0paVW5qSzNFamQzaHZWUDJiLVdpeGFSU2JPRVJpeFJGcDNMREUtRVJNZ25pdWlVSU9OUEhlZGdUSlNPR3lKVzkxLUJvemhBbGdsYmlsMG9rZmYxWkNvWDZ3V1B1X2hkeWdDVUhnNmVTRGt0bW5HSEE?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5qaFhvdUV1Mnc3SUM0b0JRb3ZsTlBXRU5zY2hLeEJmdHBoUmFBc194UlMwS1Z1YXMwbjNELTVQYkJweGVMYy04enI5WmRpcUtZQnl5WDBtTmRUOVRl?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

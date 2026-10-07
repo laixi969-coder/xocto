@@ -21,7 +21,7 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CcWtfNlQ1T0FCdFFqcS0wZn
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CcWtfNlQ1T0FCdFFqcS0wZnFweG9MeHJHbzFpeVh3UGtJNGhFUGNIY0E4eGhiMWYtZW9yQUN4cXZDYWI3UmNLS0JocjIxTGV3Ympn?oc=5
 summary: AI智能体频频“越狱”：网络安全迎来范式重构时刻！ FX168财经
 first_seen: '2026-08-29T08:52:10Z'
-last_seen: '2026-10-06T02:19:08Z'
+last_seen: '2026-10-07T01:33:02Z'
 status: pending_filter
 sources:
 - newssearch
@@ -49,6 +49,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxObFJ3ZjR0S05YejVYY1BPNGc2OTZIRU9BNFFEV0VtN2FFVzZ6X2g4aE4xUFZGT2pfaXRDZVdxODd6NkVWeGJIV3BIa0hlYy1HM0cxVTRjSUtQN0t5aG9jSkY2akE0Ty1NS25MMzdUOVJ5U1FyTnc3ZUtObG5kUS1rSWx3OVEteXR3RzM0aml5TFo?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMXNLNFNRTFlpMWNjbDFtakxHd1hlWFcwdzBrS2htY1h5d3l6MFUtWVpzaEQ0aDZYR2VwN211Rlp3RHRUdzgxS1V1WnRUSThhQzVTRFZhN3RRcWFBSXdDT3ZRNEpWSFRtT01JelZpT1dBLXNsY19ZOUY3NDZyY3JxNUFVU0R6QXhZ?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

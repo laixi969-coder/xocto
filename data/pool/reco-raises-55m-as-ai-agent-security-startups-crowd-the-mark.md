@@ -34,8 +34,8 @@ canonical_url: https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-sec
 summary: The round builds on a $30 million fundraise in February, taking the company's total funding to
   $140 million.
 first_seen: '2026-09-29T12:30:00Z'
-last_seen: '2026-10-06T02:19:01Z'
-status: watching
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -68,6 +68,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/10/05/european-defencetech-hits-record-7-4b-as-investment-nearly-triples-in-2026/
   seen_at: '2026-10-06T02:19:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikwFBVV95cUxQckRiVDZKVlFhLWl2bXNSeEE3cjhtSWEzQkRXUjdZbWM0cmJxVjJIdWRNeFdqTzd3ZjVjUmprSkhoTXlTUkRVRzk2MDJhMmVmV2RmYWE4VHFzcHpDa0l5QmVHT05yZzBRVFM3S01RU011WmVkZlJSOWx1WVVJM1hkcHhNQlhHeEFsYWVXLXRTVlc3WHc?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

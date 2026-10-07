@@ -112,3 +112,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 AI 应用开发者'
+- id: ev-581127f598ef43ac
+  project_slug: dsh-auto-memory
+  url: https://github.com/AskTheWay/dsh-auto-memory
+  title: dsh-auto-memory
+  published_at: '2026-09-22T12:05:34Z'
+  collected_at: '2026-10-07T01:32:31Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Claude Code-style auto-memory plugin for DeepSeek Harness (dsh): typed memory files + MEMORY.md
+    index auto-injected into the system prompt. File-only, no external services. | repository stars: 103'

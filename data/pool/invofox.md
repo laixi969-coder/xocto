@@ -36,17 +36,17 @@ url: https://www.invofox.com/en/
 canonical_url: https://invofox.com/en
 summary: Turn any document into structured, validated JSON
 first_seen: '2026-10-05T17:09:34Z'
-last_seen: '2026-10-06T02:18:31Z'
+last_seen: '2026-10-07T01:32:26Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.invofox.com/en/
-  seen_at: '2026-10-06T02:18:31Z'
+  seen_at: '2026-10-07T01:32:26Z'
   metrics:
     points: 6
-    comments: 2
+    comments: 3
   kind: product
 ---
 

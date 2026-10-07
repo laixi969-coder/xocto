@@ -30,16 +30,16 @@ url: https://dirac.run/posts/easycommand
 canonical_url: https://dirac.run/posts/easycommand
 summary: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf
 first_seen: '2026-10-05T15:35:29Z'
-last_seen: '2026-10-06T02:18:31Z'
+last_seen: '2026-10-07T01:32:26Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://dirac.run/posts/easycommand
-  seen_at: '2026-10-06T02:18:31Z'
+  seen_at: '2026-10-07T01:32:26Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

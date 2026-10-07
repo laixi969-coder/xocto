@@ -22,8 +22,8 @@ url: https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-p
 canonical_url: https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions
 summary: AI slop seems to be overwhelming bug bounty programs.
 first_seen: '2026-10-04T20:31:07Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: market_context
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -36,6 +36,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxOeVYzUUE4ZFBwaHdDUUhBSVBmRmtuTFZjaE5nZjFscHBua2tqSFJ0VUMzRE51MzJLcHdOa0xVTndkUWd6ZHRrdnVrSkV0Yk1uNm1DbE15d01mQlI3RVB5RFRHV05KdkdEWjZmUGppckpSTWwxSHBRM1FmQjJuZGExeGttVmw2X2pockRwQnFhaHVUNnpiM3p4NQ?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRXU5RmptTFJVQ2RULTd6RVJKOHZVVlhNTmZlVEdHLS1mRk5nYlBaN0t6SkdpMEJnYmlLZ3lSamFpTHJMRHVPVFZNTEdBT3JZYzJmZXhNb21aSzNiN2p2SFJfWFBoNkhrcGZJQ0hpWjRycHdnTXZpaU9EMVRUbmhtTGIyVW9wWmZrWjZ3?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

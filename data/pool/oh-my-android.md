@@ -41,16 +41,16 @@ canonical_url: https://royan.se/work/oh-my-android
 summary: 'Android emulator & ADB GUI for Mac: dark mode, font size, RTL, TalkBack, network, GPS, Layout
   Inspector in dp. Built-in MCP server lets Claude Code, Codex and Cursor drive the emulator.'
 first_seen: '2026-09-24T08:31:01Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://royan.se/work/oh-my-android/
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 46
+    stars: 47
     forks: 0
     open_issues: 2
   kind: product

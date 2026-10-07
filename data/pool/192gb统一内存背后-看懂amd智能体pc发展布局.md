@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE40UDhiVHpHb1VPcFhac21rVm
 canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE40UDhiVHpHb1VPcFhac21rVmdaZTJSdVRQeHIxLVprcTZIQ0JDV1MySUxtU0JKeFRUbktWNk5kQlpEa3RPdzhTOHduTDl2eTVGXzhqZVc0TmVMUFRS?oc=5
 summary: 192GB统一内存背后 看懂AMD智能体PC发展布局 热点科技
 first_seen: '2026-10-04T22:04:08Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE40UDhiVHpHb1VPcFhac21rVmdaZTJSdVRQeHIxLVprcTZIQ0JDV1MySUxtU0JKeFRUbktWNk5kQlpEa3RPdzhTOHduTDl2eTVGXzhqZVc0TmVMUFRS?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wbFVvcmJNbzZwalpNeEZLeGltcklOWlduZ05JYnhhTkFaakFteTNjbUd5emVMT1dURFhVZXExTUk5eGFQWTJWeG9GUnhUeGs?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

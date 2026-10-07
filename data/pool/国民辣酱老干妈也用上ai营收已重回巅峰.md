@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSmExa2UySnRxSDlfVnB4Tj
 canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSmExa2UySnRxSDlfVnB4TjQ0OE0wbER5a0lCaTdIbzdvWnFsZEg2TTBlRWdObEFHRWtKdGRsY085RVBmaGVfN1RNWXl0Xy1lN0JUSHZTWVJLOWg5MS1IN1hiVkhXUl8xSE5NVzV6TTkxck5Fcnpnd05KZ1JDTXVSMmxEOTNTZG5Wcjkw?oc=5
 summary: “国民辣酱”老干妈也用上AI，营收已重回巅峰 新浪财经
 first_seen: '2026-10-05T01:52:01Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSmExa2UySnRxSDlfVnB4TjQ0OE0wbER5a0lCaTdIbzdvWnFsZEg2TTBlRWdObEFHRWtKdGRsY085RVBmaGVfN1RNWXl0Xy1lN0JUSHZTWVJLOWg5MS1IN1hiVkhXUl8xSE5NVzV6TTkxck5Fcnpnd05KZ1JDTXVSMmxEOTNTZG5Wcjkw?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sUjFSaTVBNE9xanBaelVzbmR6LTBMYVctWmpWSUxvLXlOcDEzN2tCRWdxOEZJOGZ6a1lIY0FWeXNyNnBid2FPczRYOE5ZTnJFQWhhbjVMbk1LODRxTmc?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

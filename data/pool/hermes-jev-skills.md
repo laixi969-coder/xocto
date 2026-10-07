@@ -31,17 +31,17 @@ canonical_url: https://github.com/kerpopule/hermes-jev-skills
 summary: Jev-powered model routing, memory, compaction, skill selection, computer and browser use for
   Hermes agents (also Claude Code and Codex)
 first_seen: '2026-09-18T20:01:29Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kerpopule/hermes-jev-skills
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 1030
-    forks: 103
+    stars: 1043
+    forks: 105
     open_issues: 2
   kind: product
 ---

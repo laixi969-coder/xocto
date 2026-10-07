@@ -21,14 +21,19 @@ canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQajhEVDBXc184
 summary: Electronics brands eye on 15-20% festive growth as customer journeys shrinks from weeks to days
   StoryBoard 18
 first_seen: '2026-10-05T03:23:43Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQajhEVDBXc184ZzNjQXdpUWIxNUx3NHQzeWlSd1h6V0JoQTRXeG1SN056ZlBBXzJENmpwZ0tCTExpbG9kMTUzY3p1NFV3VUJTWHNQc3VPVU1xRFprNzBxSUdYbUtjVjBBaW00N0FxMTVFazZ6NG92ck55RkE4NERRVVJDek9nZF96bjltM3dRUkhmSHdPRXAwNzdhbUZmSVh5ZDRwX0RXYno1MGdEcjBhZ3h5RVptdEtyYUxTSUxVN0dyaFk4M3d0cEVRXzREQdIBzgFBVV95cUxQajhEVDBXc184ZzNjQXdpUWIxNUx3NHQzeWlSd1h6V0JoQTRXeG1SN056ZlBBXzJENmpwZ0tCTExpbG9kMTUzY3p1NFV3VUJTWHNQc3VPVU1xRFprNzBxSUdYbUtjVjBBaW00N0FxMTVFazZ6NG92ck55RkE4NERRVVJDek9nZF96bjltM3dRUkhmSHdPRXAwNzdhbUZmSVh5ZDRwX0RXYno1MGdEcjBhZ3h5RVptdEtyYUxTSUxVN0dyaFk4M3d0cEVRXzREQQ?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZmdUWDVnd3NfNmMzaVB4aWpYZ1lhODJGYzJ0Y2FLb2lLWUo3NEM4SzNaVTRGQzZtNlcyMTBXMVMzWWhRTnBFVXY5Szg4ZGtyTmdrOEc1WHVVWE5QZVpWekpYX1BTRV8zTDM2bzhOYUlBbXFvemc2NENzZy1ZdFl3ZEZPS1QzV0VmT1JxU092QXBmX2kwR212NGpKWVNrbFBGMTdnSWx0VXZrWHY5emFCd3NteVhmUTNmLUdwcEVsaU9EMG9peGNMQ9IBzgFBVV95cUxQajhEVDBXc184ZzNjQXdpUWIxNUx3NHQzeWlSd1h6V0JoQTRXeG1SN056ZlBBXzJENmpwZ0tCTExpbG9kMTUzY3p1NFV3VUJTWHNQc3VPVU1xRFprNzBxSUdYbUtjVjBBaW00N0FxMTVFazZ6NG92ck55RkE4NERRVVJDek9nZF96bjltM3dRUkhmSHdPRXAwNzdhbUZmSVh5ZDRwX0RXYno1MGdEcjBhZ3h5RVptdEtyYUxTSUxVN0dyaFk4M3d0cEVRXzREQQ?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

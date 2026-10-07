@@ -28,8 +28,8 @@ url: https://www.latent.space/p/ainews-openai-shuts-off-cursor
 canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -303,6 +303,38 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TNk05YnB4cHlQc2VENl9IdkIzNDU5b3lWN0ZDUG9HU3psZ2x4V3Q1Y1F2dGFuUnV1MkZNUGZheTZmZ0pBeHc1bldIT1p1dmZOU0dJ?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://openai.com/index/sharing-ai-progress-in-mathematics/
+  seen_at: '2026-10-07T01:32:26Z'
+  metrics:
+    points: 397
+    comments: 323
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/10/501726.html
+  seen_at: '2026-10-07T01:32:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SR2JoWDhzR0F2bU9ockFYQzRuQ0I1cl90X295S3k2cl9iaVg0LU5aSFVaSG9uZFY2dFNkLXVVQS1zanJUMnhzeWlUd2lZUDhjOV9ndE5PTlJic0FoRGc?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMieEFVX3lxTFBRNDZZX3dHaXdlNVdueV9teTE0cHhSSnBIQ1p0Zzl6N2d6aUs2M25fU1RUZ2NYcU5ta2lEMEJiWEFrMG5OZUs5RVNtTm5nMXBhZFpENGhQbV9xbFhBZjRCZkpFVllvNW1CZEU0a1UtVUU5SGhteThORA?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQd2ZMTnFTdWVOd2VVV2NKRWVwU2lMa2VobVlkWlBlOVZGS0ItdFdsVHcwcGFpeGFrVGFMNktGdkY2OW9HczBIRmxyQjRzSGJVSmstYk55aHpkczM1cTJOWXItYm1ENUtaTjN4V0lGY0NKeGJqVXB6VGtpWHY4U3V1YUFRbFFXYUs1X3c?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMicEFVX3lxTFAtemJoUHM0ZjhNR0VSSEVteXVOc0gxcFBrR05ZT2tHQWtROWxPWXFLRFVmc1BpQWlhRDhGeVc3dUNybEt6Wm40bENXb1dWZy00Mi10MGpXcTd4Nzh5QVZCXzJWV24tOUVXUjk5Q0x3Mlo?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

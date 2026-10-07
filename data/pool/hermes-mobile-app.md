@@ -21,17 +21,17 @@ canonical_url: https://github.com/omarqaterge/hermes-mobile-app
 summary: Your agent, on your phone. A native Android app for Hermes Agent, running entirely on-device
   (Termux).
 first_seen: '2026-10-04T22:51:20Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/omarqaterge/hermes-mobile-app
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 46
-    forks: 7
+    stars: 51
+    forks: 8
     open_issues: 0
   kind: product
 ---

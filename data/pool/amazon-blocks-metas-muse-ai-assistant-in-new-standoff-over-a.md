@@ -25,8 +25,8 @@ url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN1NIM3JxN1RPdlktMDMwTm
 canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN1NIM3JxN1RPdlktMDMwTmlZcnk5MFV4b1loLVBvc3pfUElYT3ZhQ3VLZmVod3ZxeDBVTXNkWkhybWJTZE05YzdkSWpOMHpwOVlYbWJYNndSSWRkRlFQSmNsM0F2WWgzZTFLNjFuMHNhY2d3akstanhNRTlOSEZvQVV2alFiTUE4MnBHRlJjdy12RXhwclJXVTFTZWV2R1ZrUHhUdlZuZmVtdw?oc=5
 summary: Amazon blocks Meta’s Muse AI assistant in new standoff over agentic shopping GeekWire
 first_seen: '2026-09-21T07:03:34Z'
-last_seen: '2026-10-03T01:12:56Z'
-status: market_context
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -49,6 +49,11 @@ sightings:
 - source: marketfeeds
   url: https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/
   seen_at: '2026-10-03T01:12:56Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE03b2FuQzVyT0JIbzZrdC1KaTZYdkNQekg2OXZuamdReVVTSTAzelV6N1lrT0kyRG1NY21pSW9sYUYxYTM5d2JMMnhWcTJFRGMzRE1BS3N5alNtMGpJS2lrbUpydjRUNzBEdEdNRXhmSXhoTG94azNVemdUamRLelk?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

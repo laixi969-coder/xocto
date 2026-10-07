@@ -29,16 +29,16 @@ url: https://github.com/kitze/skillbox
 canonical_url: https://github.com/kitze/skillbox
 summary: Self-hosted, versioned skills library for AI agents. MCP, scoped clients, and optional Jev recommendations.
 first_seen: '2026-09-17T17:23:37Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kitze/skillbox
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 262
+    stars: 263
     forks: 24
     open_issues: 9
   kind: product

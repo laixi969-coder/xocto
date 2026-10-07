@@ -21,16 +21,16 @@ canonical_url: https://github.com/yannicksong0106/dsh-550c-boot
 summary: 550C 开机动画 for DeepSeek Harness — 首帧由宿主半边注入，DSH 的 Loading 卡片不露脸；桌面原生标题栏按钮收编成终端配色 | 550C boot splash
   plugin for DSH
 first_seen: '2026-09-28T15:47:54Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yannicksong0106/dsh-550c-boot
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 90
+    stars: 94
     forks: 9
     open_issues: 2
   kind: product

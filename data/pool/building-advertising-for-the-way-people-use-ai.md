@@ -1,7 +1,7 @@
 ---
 slug: building-advertising-for-the-way-people-use-ai
 name: ChatGPT
-builder: ''
+builder: geox
 category: ''
 summary_zh: OpenAI 于 2026 年 10 月 5 日宣布在 ChatGPT 中上线新的视觉广告格式，同时扩展衡量工具、归因合作与品牌适配能力。这是对话式入口的广告位与衡量体系变化，面向广告主；具体定价、投放门槛与效果数据未在材料中给出。
 inspiration: ''
@@ -24,14 +24,28 @@ canonical_url: https://openai.com/index/new-chatgpt-ads-format-and-measurement
 summary: OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution
   partnerships, and brand suitability for advertisers.
 first_seen: '2026-10-05T10:00:00Z'
-last_seen: '2026-10-06T02:19:00Z'
-status: market_context
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - officialfeeds
+- hackernews
+- newssearch
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/new-chatgpt-ads-format-and-measurement
   seen_at: '2026-10-06T02:19:00Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election
+  seen_at: '2026-10-07T01:32:26Z'
+  metrics:
+    points: 54
+    comments: 84
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yclVKQmZUTGtJcktXRjV6dHFoNlk1VTMwVHh2OC1VbVYwQzFUdUtydGs0RnV4S2JQeUN0OG1ncjdGMVp0STNKbkVsR09xN0xxdlUwTA?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

@@ -23,8 +23,8 @@ url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-f
 canonical_url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup
 summary: The deal, which is expected to close by year's end, is worth $8.2 billion.
 first_seen: '2026-09-29T21:14:49Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-07T01:32:26Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -96,6 +96,20 @@ sightings:
   url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNa3haR1pMZVdLeFZvaXBKSHprZ3lvV3AzWUJ0d1FRX2duVWMyUWw3VzFSTmFpaS1XdmJnVE5zNDQ2aGFkVDBzN0NhTVRxX3hyTlJWOHhDSW9ZLVdHUFduTDVsZVgtYVdsZFRZSFlQNTNDY3JRYTBwT19Tc3R3OU9FRDMycDdULUNSb0lzeTZKb3A1T1lvel80WXl5R2JjVWplc0xZZTBVelR1bEtEX3lZbGdOTXZST0YtbWg1N0VPNkx5Yk1W?oc=5
   seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://restofworld.org/2026/ai-data-center-memory-chip-shortage-cheap-smartphones-digital-divide/
+  seen_at: '2026-10-07T01:32:26Z'
+  metrics:
+    points: 46
+    comments: 20
+  kind: news
+- source: hackernews
+  url: https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217
+  seen_at: '2026-10-07T01:32:26Z'
+  metrics:
+    points: 41
+    comments: 43
   kind: news
 ---
 

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/libingzheren/Jev-Mem
 summary: jevmem saves the decisions, rules and failed approaches from your Claude Code chats to JEVMEM.md
   in your repo, and brings the relevant ones back next session.
 first_seen: '2026-09-21T18:16:22Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: rejected
 sources:
 - huggingface
@@ -35,9 +35,9 @@ sightings:
   kind: product
 - source: github
   url: https://avinash-jetwani.github.io/jevmem/
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 121
+    stars: 122
     forks: 7
     open_issues: 3
   kind: product

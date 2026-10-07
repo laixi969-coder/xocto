@@ -20,17 +20,17 @@ url: https://pumpkins.sh/
 canonical_url: https://pumpkins.sh
 summary: claim, carve, and display a pumpkin to the world
 first_seen: '2026-10-05T14:18:09Z'
-last_seen: '2026-10-06T02:18:31Z'
+last_seen: '2026-10-07T01:32:26Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pumpkins.sh/
-  seen_at: '2026-10-06T02:18:31Z'
+  seen_at: '2026-10-07T01:32:26Z'
   metrics:
-    points: 17
-    comments: 6
+    points: 32
+    comments: 9
   kind: product
 ---
 

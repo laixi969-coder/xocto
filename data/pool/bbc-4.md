@@ -24,8 +24,8 @@ url: https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo
 canonical_url: https://bbc.co.uk/news/articles/c6n07ypqz8kzo
 summary: Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity
 first_seen: '2026-09-16T14:32:15Z'
-last_seen: '2026-10-04T00:38:23Z'
-status: rejected
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -63,6 +63,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNUlJnSFJfNU1ob2ZyaUo4S0taeEFDdFY2ZzhzQXBKVXdTc0xNNV83R1ZKcWFwLTlUVUVTWjdkbDZGZlZhQnFremtOUG45Vk9ocXRESGJNNmRkZUlidUhseHlWRjRVMlZuTU85SUxDTTdRUkYxTTdnUGJncW0tYmtpYUlnM2wwTmRMdXhSQi1ZOHhWMzNDa2hfWmtRWQ?oc=5
   seen_at: '2026-10-04T00:38:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQTVU5MDV2Z0lxS0V4YktXTVRvSFZ0T2luRmFVOC1XbkZnc2ZpZXZhWTV2NnZsLVpBTmdVaklfOHhVNjdmbURMTGJIQmM0anNmUXV0YkZTdTFGZEg3MHp2SU5FbGNMeUw4b19KNzhGT2NnT2ljRlhYTDRXNTF2NVVVd2gwVGpfbzVKZTBidkpDc1ZMa2VkdmpzZTNhdTJwaG1GYXpRQ0ZtdTlRV0lscDlKeTBKNA?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

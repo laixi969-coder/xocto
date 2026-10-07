@@ -22,17 +22,23 @@ url: https://reflection.ai/blog/introducing-beam
 canonical_url: https://reflection.ai/blog/introducing-beam
 summary: Reflection's 501B open-weight model
 first_seen: '2026-10-05T19:16:35Z'
-last_seen: '2026-10-06T02:18:31Z'
-status: market_context
+last_seen: '2026-10-07T01:32:55Z'
+status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://reflection.ai/blog/introducing-beam
-  seen_at: '2026-10-06T02:18:31Z'
+  seen_at: '2026-10-07T01:32:26Z'
   metrics:
-    points: 320
-    comments: 91
+    points: 541
+    comments: 168
+  kind: news
+- source: marketfeeds
+  url: https://www.latent.space/p/ainews-reflection-beam-501b-a23b
+  seen_at: '2026-10-07T01:32:55Z'
+  metrics: {}
   kind: news
 ---
 

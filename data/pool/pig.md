@@ -36,17 +36,17 @@ summary: 'PiG (Pi in Go) is a faithful Go port of upstream Pi, the TypeScript co
   agent. It is a parity-bound translation, not a rewrite: upstream behavior is the contract, and Go is
   the implementation language.'
 first_seen: '2026-09-17T15:52:38Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://pi-in-go.dev
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 506
-    forks: 33
+    stars: 526
+    forks: 34
     open_issues: 10
   kind: product
 ---

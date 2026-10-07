@@ -28,18 +28,18 @@ url: https://agenttincan.com
 canonical_url: https://agenttincan.com
 summary: Let your AI agents ask each other for help, over Tailscale. Wherever they run.
 first_seen: '2026-09-22T22:50:16Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://agenttincan.com
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 223
-    forks: 19
-    open_issues: 1
+    stars: 228
+    forks: 21
+    open_issues: 2
   kind: product
 ---
 

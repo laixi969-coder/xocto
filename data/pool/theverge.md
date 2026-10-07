@@ -20,17 +20,17 @@ url: https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-a
 canonical_url: https://theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat
 summary: Florida woman arrested for allegedly making threats in an AI chat
 first_seen: '2026-10-05T15:11:36Z'
-last_seen: '2026-10-06T02:18:31Z'
-status: rejected
+last_seen: '2026-10-07T01:32:26Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat
-  seen_at: '2026-10-06T02:18:31Z'
+  seen_at: '2026-10-07T01:32:26Z'
   metrics:
-    points: 49
-    comments: 74
+    points: 50
+    comments: 84
   kind: news
 ---
 

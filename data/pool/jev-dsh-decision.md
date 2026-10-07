@@ -32,16 +32,16 @@ canonical_url: https://github.com/Devin-AXIS/jev-dsh-decision
 summary: Jev DSH 决策引擎｜面向 Agent Harness 的结构化决策插件。原生支持 DeepSeek Harness，通过 iPolloWork 支持 OpenCode、Codex
   Harness。
 first_seen: '2026-09-20T04:39:05Z'
-last_seen: '2026-10-04T00:37:57Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Devin-AXIS/jev-dsh-decision
-  seen_at: '2026-10-04T00:37:57Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 253
+    stars: 254
     forks: 83
     open_issues: 1
   kind: product

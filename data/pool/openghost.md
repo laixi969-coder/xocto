@@ -27,18 +27,18 @@ canonical_url: https://github.com/ANDRETRIPOL/OpenGhost
 summary: 'Open desktop AI agent for Windows, macOS and Linux, written from scratch: its own agent engine,
   its own browser tooling and its own drawing engine that shows what it explains.'
 first_seen: '2026-09-25T12:32:32Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ANDRETRIPOL/OpenGhost
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 229
+    stars: 237
     forks: 18
-    open_issues: 14
+    open_issues: 5
   kind: product
 ---
 

@@ -1,7 +1,7 @@
 ---
 slug: oracle-sends-force-majeure-notice-on-its-new-mexico-stargate
 name: Oracle
-builder: ''
+builder: mpweiher
 category: ''
 summary_zh: Oracle 就新墨西哥州 Stargate 数据中心发出不可抗力通知，若该设施未能在 2028 年目标时间上线，Oracle 可推迟付款。该事实指向 AI 算力基础设施的交付时间与合同履约风险，而非面向终端用户的独立
   AI 产品。
@@ -24,11 +24,12 @@ canonical_url: https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-noti
 summary: The notice would allow Oracle to delay payments should the facility miss its 2028 target to come
   online.
 first_seen: '2026-09-24T18:11:44Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: market_context
+last_seen: '2026-10-07T01:32:26Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/
@@ -49,6 +50,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSkNZQ1RmTFVqWjRjd3BzeXkyTVZ3QUdpUkhXXzdwNUxVbFlZY2gzeExaRzRBRHN2dlZWXzVNclJwRi1xT0FrcGwxWUZ3N3d5NGhCV1U1NUk1NUxuM251ZlVqOWtpWmw4OXZHWXNfVkpKZ2lHS3E0VWVKSFlVaHBzNDM0Nk92SDZVN3QxZGd3V3RINGUyUVZTN05GTlY3aDZzSjRpSEhxeVMwamh4dHkwU3lFX1Uxa2JsMVBGaFJvenBhLTZPT2UwUzAteXdOTGQyM2NneVgwWVFjUGNGOThJVWx6UFNKbGliZjlzU1NOOWZnQQ?oc=5
   seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://medium.com/predict/what-everyone-had-been-waiting-for-and-fearing-oracle-just-triggered-the-implosion-of-the-ai-121e0c8d368e
+  seen_at: '2026-10-07T01:32:26Z'
+  metrics:
+    points: 30
+    comments: 25
   kind: news
 ---
 

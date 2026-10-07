@@ -20,8 +20,8 @@ url: https://news.ycombinator.com/item?id=49781032
 canonical_url: https://news.ycombinator.com/item?id=49781032
 summary: build real time apps the Laravel way (with asteroids demo)
 first_seen: '2026-09-20T23:02:28Z'
-last_seen: '2026-09-23T00:34:44Z'
-status: rejected
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -36,6 +36,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSW9YRVdZS3hnbEdRZ3pCVjAtbW9jOXFhaUNMeVRTelV4OU9DZ0Q5VXFRRG1LVGg4Q3BDaDhUX1FTSF9iWWx1ZW40bGF3SkRHNlNSa1hlV2ZfTDNMTXFfM19XaWl0elBoOWxaaVYwYnZkM29MTmFkNVk5dTF0SjJnQ3Y3WVNWdzJNZUJpOGRHNHE5OWF4eWNqSDZJbjl3LUU0cXNDdkM3VkZlc01reHJ5ZmZWLWFYX00zeTZkU2RyeXI5azg?oc=5
   seen_at: '2026-09-23T00:34:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijgFBVV95cUxPSVAzZWotNWp2aHE0Sm1OTl8tN1Q2T3BrMmVXZ3EyS3ZpR0tyNklhS1dFUEtxWjBVX2I5QWM0dEcxTUREekU5eUs0b3JoQWt6djZmVF84ZDFyOTJnMjhRLWEtQWFnNFd4c3BNLUxNcVNkSW1xM3dfUnZPNERuUU0xNFJpM2pOS01IM0xJanpR?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---

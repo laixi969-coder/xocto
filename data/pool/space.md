@@ -20,7 +20,7 @@ url: https://space.bl2.net/
 canonical_url: https://space.bl2.net
 summary: Real-time Solar System with 526k asteroids and all tracked satellites
 first_seen: '2026-09-29T19:08:01Z'
-last_seen: '2026-10-06T02:19:01Z'
+last_seen: '2026-10-07T01:32:55Z'
 status: pending_filter
 sources:
 - hackernews
@@ -36,6 +36,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/10/05/namespace-raises-42m-ssries-b-seven-months-after-series-a/
   seen_at: '2026-10-06T02:19:01Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/10/06/nettle-raises-48m-to-expand-its-ai-workspace-for-insurers/
+  seen_at: '2026-10-07T01:32:55Z'
   metrics: {}
   kind: news
 ---

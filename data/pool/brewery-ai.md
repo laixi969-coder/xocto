@@ -31,17 +31,17 @@ url: https://github.com/empero-org/brewery-ai
 canonical_url: https://github.com/empero-org/brewery-ai
 summary: An intuitive console agent to fine-tune AI models with little to no experience required!
 first_seen: '2026-10-04T22:16:28Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/empero-org/brewery-ai
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 186
-    forks: 23
+    stars: 194
+    forks: 24
     open_issues: 0
   kind: product
 ---

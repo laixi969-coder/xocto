@@ -27,18 +27,18 @@ canonical_url: https://github.com/itsmostafa/system-one-connector
 summary: 'System One MCP connector to evaluate anything fast and cheap. Give your AI agent direct access
   to models like: Typesafe AI''s Jev model and Laya'
 first_seen: '2026-09-17T05:23:34Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-07T01:32:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/itsmostafa/system-one-connector
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-07T01:32:31Z'
   metrics:
-    stars: 341
-    forks: 39
-    open_issues: 2
+    stars: 343
+    forks: 40
+    open_issues: 1
   kind: product
 ---
 

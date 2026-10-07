@@ -23,8 +23,8 @@ url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5LR0Q0Y1pIcXNPTnJNdGNzZ1
 canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5LR0Q0Y1pIcXNPTnJNdGNzZ1VlVDhrQjRaNU5HNlJuX2w4WTd1US1kVnl6ZE5COTVDdi1ma3hkSXlhZVdoajhoZ3pPNEJhby1OdEtzYUlZcndFZm00VV9JbHcxa2NYWHFvV3RBdTNURkdIS0ZibmcwZDF6cy0?oc=5
 summary: 聚力智能体AI 英特尔携手生态探索算力新范式 新华网
 first_seen: '2026-09-23T08:29:45Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-07T01:33:02Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -66,6 +66,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi_wJBVV95cUxNRy1TNml5VFp1SmIzTVVESWhRQXFqeHRXRUpVQy1xVTBjRUt0YWlqdE5vdjNneTlzdzZ0SHloWEF1eTVDSDRvTVFUTjVGR21NbXl0WVNxMHZzamIyM1BiRU03cVFIVEd5T0plOEJuWjM4cTdZOGdiOFNxb1NoeENjaS1VU1VZTzFNWjZEc0FpZ1VxcWxmeU41RnhidGdlZlBmZmRHMVZEQ0U5TUc5MjNEdzh2LVdIYzgzeVR2bE1kdGpJOHF1NjN3ZjA2V2xJUmVuOWpmRWUzR0VJbE9BV1JUMlJ4TnYwb0VsNi1mZWw5Slk3OV9kOFh3Z1ZkZ25TUkM1SkFNZUtOeXB0aElyMW9jdS1CMmh0SjZ3VHdsdWl5WHVMRDJQMnBzSm9LN1FFcWFvZ0JLc0lIWFlnQVlpcFZReUltS0tXQ28zUEkyOVRWWXdxVTBPYlh5emJtbXZaTmtIc1QxR0lYT3lvN2dXTlpyQ1oxeDZWWm95RnJGSkNuNA?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IT0VNTXdBMm5oM2lweXJOS3RveDRqMW5lbUlPWUtmX2wyRjJKMFNLUU4xMGVYc0szdDVxcXc5aGZpaVFNSmVWSnZaS2JDTlVsZGpGX3hQRllhcWtHTWZyag?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqwJBVV95cUxQSGVxc1ZHY0FwSmtGM09ibkZ1dFM5Ym9wRDFKZG00MFgwaU5UVk43U0ZpR0hTQVFNVWF5MmhJalNpazQ1ZU9XUGUyNnBqNDJ1SVVtbk5aWXhULXE2dmp1MHdfWW5sM2NRbU9CZWZHUUx2TVJsV3pUZXA5UGQ1SVNtWmkxUXZYZFRRZ2ZMRDdFNmg0VE00ZnFuMEJnZkJRUjAyOWRISWlkTXpnNjI5ZE1OSHpkSG9NU29QbXN4UzYtSS1Rb2VoUUx2cEUyN0syZnhjQzI1dU5sRm1oQnBTZkc2aFBZLU5ZLTktUG9Yb3otUjRGSWxjdHhVODRrbUFkSTBuRXFtNDRHcW4tZU9CeXliaEVnOTZ4bXBnc2lVY3FPZlYxZldPVHl0SW12OA?oc=5
+  seen_at: '2026-10-07T01:33:02Z'
   metrics: {}
   kind: news
 ---
