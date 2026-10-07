@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>Slate · x-octo</title>
-<meta name="description" content="做 AI 影视的人，在开拍前规划分镜、安排镜头覆盖、维持角色与场景连续性时打开它，把镜头意图整理成可直接投喂图像、视频、音乐或配音生成器的提示词，最终拿到一份可执行的分镜提示词清单，是否开拍仍由人确认。具体流程与交付形态仍待核验。">
+<meta name="description" content="做 AI 影片的人在开拍前要规划镜头、保持角色与场景连续性，并把想法整理成能喂给图像、视频、音乐或配音生成器的提示词。Slate 是一个本地提示词工作台，把这些镜头与连续性信息编译成可直接投喂各生成器的提示词，不需要 API key；用户最终拿到的是成组的生成提示词，具体交付形态与人工确认环节仍待核…">
 <link rel="canonical" href="https://xocto.vercel.app/p/slate.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/slate.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/slate.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/slate.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Slate · x-octo">
-<meta property="og:description" content="做 AI 影视的人，在开拍前规划分镜、安排镜头覆盖、维持角色与场景连续性时打开它，把镜头意图整理成可直接投喂图像、视频、音乐或配音生成器的提示词，最终拿到一份可执行的分镜提示词清单，是否开拍仍由人确认。具体流程与交付形态仍待核验。">
+<meta property="og:description" content="做 AI 影片的人在开拍前要规划镜头、保持角色与场景连续性，并把想法整理成能喂给图像、视频、音乐或配音生成器的提示词。Slate 是一个本地提示词工作台，把这些镜头与连续性信息编译成可直接投喂各生成器的提示词，不需要 API key；用户最终拿到的是成组的生成提示词，具体交付形态与人工确认环节仍待核…">
 <meta property="og:url" content="https://xocto.vercel.app/p/slate.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/slate.html#webpage", "@type": "WebPage", "description": "\u505a AI \u5f71\u89c6\u7684\u4eba\uff0c\u5728\u5f00\u62cd\u524d\u89c4\u5212\u5206\u955c\u3001\u5b89\u6392\u955c\u5934\u8986\u76d6\u3001\u7ef4\u6301\u89d2\u8272\u4e0e\u573a\u666f\u8fde\u7eed\u6027\u65f6\u6253\u5f00\u5b83\uff0c\u628a\u955c\u5934\u610f\u56fe\u6574\u7406\u6210\u53ef\u76f4\u63a5\u6295\u5582\u56fe\u50cf\u3001\u89c6\u9891\u3001\u97f3\u4e50\u6216\u914d\u97f3\u751f\u6210\u5668\u7684\u63d0\u793a\u8bcd\uff0c\u6700\u7ec8\u62ff\u5230\u4e00\u4efd\u53ef\u6267\u884c\u7684\u5206\u955c\u63d0\u793a\u8bcd\u6e05\u5355\uff0c\u662f\u5426\u5f00\u62cd\u4ecd\u7531\u4eba\u786e\u8ba4\u3002\u5177\u4f53\u6d41\u7a0b\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Slate", "url": "https://xocto.vercel.app/p/slate.html"}, {"@id": "https://xocto.vercel.app/p/slate.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u521b\u4f5c", "dateModified": "2026-09-30", "datePublished": "2026-08-04", "description": "\u505a AI \u5f71\u89c6\u7684\u4eba\uff0c\u5728\u5f00\u62cd\u524d\u89c4\u5212\u5206\u955c\u3001\u5b89\u6392\u955c\u5934\u8986\u76d6\u3001\u7ef4\u6301\u89d2\u8272\u4e0e\u573a\u666f\u8fde\u7eed\u6027\u65f6\u6253\u5f00\u5b83\uff0c\u628a\u955c\u5934\u610f\u56fe\u6574\u7406\u6210\u53ef\u76f4\u63a5\u6295\u5582\u56fe\u50cf\u3001\u89c6\u9891\u3001\u97f3\u4e50\u6216\u914d\u97f3\u751f\u6210\u5668\u7684\u63d0\u793a\u8bcd\uff0c\u6700\u7ec8\u62ff\u5230\u4e00\u4efd\u53ef\u6267\u884c\u7684\u5206\u955c\u63d0\u793a\u8bcd\u6e05\u5355\uff0c\u662f\u5426\u5f00\u62cd\u4ecd\u7531\u4eba\u786e\u8ba4\u3002\u5177\u4f53\u6d41\u7a0b\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/slate.html#webpage"}, "name": "Slate", "sameAs": "https://github.com/wassermanproductions/slate", "url": "https://xocto.vercel.app/p/slate.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/slate.html", "name": "Slate", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/slate.html#webpage", "@type": "WebPage", "description": "\u505a AI \u5f71\u7247\u7684\u4eba\u5728\u5f00\u62cd\u524d\u8981\u89c4\u5212\u955c\u5934\u3001\u4fdd\u6301\u89d2\u8272\u4e0e\u573a\u666f\u8fde\u7eed\u6027\uff0c\u5e76\u628a\u60f3\u6cd5\u6574\u7406\u6210\u80fd\u5582\u7ed9\u56fe\u50cf\u3001\u89c6\u9891\u3001\u97f3\u4e50\u6216\u914d\u97f3\u751f\u6210\u5668\u7684\u63d0\u793a\u8bcd\u3002Slate \u662f\u4e00\u4e2a\u672c\u5730\u63d0\u793a\u8bcd\u5de5\u4f5c\u53f0\uff0c\u628a\u8fd9\u4e9b\u955c\u5934\u4e0e\u8fde\u7eed\u6027\u4fe1\u606f\u7f16\u8bd1\u6210\u53ef\u76f4\u63a5\u6295\u5582\u5404\u751f\u6210\u5668\u7684\u63d0\u793a\u8bcd\uff0c\u4e0d\u9700\u8981 API key\uff1b\u7528\u6237\u6700\u7ec8\u62ff\u5230\u7684\u662f\u6210\u7ec4\u7684\u751f\u6210\u63d0\u793a\u8bcd\uff0c\u5177\u4f53\u4ea4\u4ed8\u5f62\u6001\u4e0e\u4eba\u5de5\u786e\u8ba4\u73af\u8282\u4ecd\u5f85\u6838\u2026", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Slate", "url": "https://xocto.vercel.app/p/slate.html"}, {"@id": "https://xocto.vercel.app/p/slate.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u521b\u4f5c", "dateModified": "2026-10-07", "datePublished": "2026-08-04", "description": "\u505a AI \u5f71\u7247\u7684\u4eba\u5728\u5f00\u62cd\u524d\u8981\u89c4\u5212\u955c\u5934\u3001\u4fdd\u6301\u89d2\u8272\u4e0e\u573a\u666f\u8fde\u7eed\u6027\uff0c\u5e76\u628a\u60f3\u6cd5\u6574\u7406\u6210\u80fd\u5582\u7ed9\u56fe\u50cf\u3001\u89c6\u9891\u3001\u97f3\u4e50\u6216\u914d\u97f3\u751f\u6210\u5668\u7684\u63d0\u793a\u8bcd\u3002Slate \u662f\u4e00\u4e2a\u672c\u5730\u63d0\u793a\u8bcd\u5de5\u4f5c\u53f0\uff0c\u628a\u8fd9\u4e9b\u955c\u5934\u4e0e\u8fde\u7eed\u6027\u4fe1\u606f\u7f16\u8bd1\u6210\u53ef\u76f4\u63a5\u6295\u5582\u5404\u751f\u6210\u5668\u7684\u63d0\u793a\u8bcd\uff0c\u4e0d\u9700\u8981 API key\uff1b\u7528\u6237\u6700\u7ec8\u62ff\u5230\u7684\u662f\u6210\u7ec4\u7684\u751f\u6210\u63d0\u793a\u8bcd\uff0c\u5177\u4f53\u4ea4\u4ed8\u5f62\u6001\u4e0e\u4eba\u5de5\u786e\u8ba4\u73af\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/slate.html#webpage"}, "name": "Slate", "sameAs": "https://github.com/wassermanproductions/slate", "url": "https://xocto.vercel.app/p/slate.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/slate.html", "name": "Slate", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>Slate</h1>
       </div>
-      <p class="product-lede">做 AI 影视的人，在开拍前规划分镜、安排镜头覆盖、维持角色与场景连续性时打开它，把镜头意图整理成可直接投喂图像、视频、音乐或配音生成器的提示词，最终拿到一份可执行的分镜提示词清单，是否开拍仍由人确认。具体流程与交付形态仍待核验。</p>
+      <p class="product-lede">做 AI 影片的人在开拍前要规划镜头、保持角色与场景连续性，并把想法整理成能喂给图像、视频、音乐或配音生成器的提示词。Slate 是一个本地提示词工作台，把这些镜头与连续性信息编译成可直接投喂各生成器的提示词，不需要 API key；用户最终拿到的是成组的生成提示词，具体交付形态与人工确认环节仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">新应用 / 服务</span><span class="tag">AI + 创作</span><span class="tag">影视制作</span><span class="tag">广告与营销</span><span class="tag">分镜与镜头规划</span><span class="tag">AI 生成提示词编写</span><span class="tag sig">社区热度 49</span><span class="tag sig">开源关注 61</span>      </div>
+<span class="tag">新应用 / 服务</span><span class="tag">AI + 创作</span><span class="tag">影视制作</span><span class="tag">广告与营销内容</span><span class="tag">分镜与镜头规划</span><span class="tag">AI 生成提示词编写</span><span class="tag sig">社区热度 49</span><span class="tag sig">开源关注 61</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>wassermanproductions</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-08-04</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-30</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-10-07</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://github.com/wassermanproductions/slate" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,79 +82,79 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-14</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 商业验证 · 2026-10-07</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">独立制片或广告短片的分镜师、导演在开拍前的筹备阶段，处理剧本与镜头清单，要产出图像、视频、音乐、语音各生成器都能直接使用的分镜提示词，并保持角色与场景连贯。</p>
-        <p>现在多用散落的文档、表格和聊天记录手工拼提示词，或直接在单个生成器里反复试，跨工具时靠复制粘贴；通用助手如 ChatGPT、Gemini 只能逐条生成文本，不维护镜头级连贯性。</p>
-        <p>不同生成器的提示词格式与参数各不相同，连贯性靠人脑记忆和反复试错，改一个镜头往往要重写一批提示词；公开材料未给出用户抱怨或案例，此痛点由工作流结构推理得出。</p>
+        <p class="product-lead">AI 影片创作者在开拍前处理剧本与镜头设想，要产出分镜、镜头覆盖方案和可投喂图像/视频/音乐/配音生成器的提示词组。</p>
+        <p>公开材料未记录任何现有替代方式，无法说明创作者目前如何完成分镜与提示词编写。</p>
+        <p>公开材料未提供任何用户痛点、抱怨或替代行为的证据，无法确认提示词散落、连续性靠人记是否构成真实痛点。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>需求有依据</h3>
-        <p>趋势是 AI 影视的制作瓶颈正从“生成一段画面”前移到“开拍前的镜头规划与连续性管理”，提示词成为需要被工程化管理的中间产物。切入可从广告片、短剧、电商视频这类有明确交付节点的小团队进，卖的是分镜到成片的可复用流程，而非单次生成额度。</p>
+        <h3>解决问题，但需求刚性不足</h3>
+        <p>趋势：AI 影片制作正从单条提示词试运气，转向需要分镜、连续性和可复用提示词资产的准工业化流程。切入：从短片、广告与独立创作者的分镜前置环节进入，卖的是可复用的镜头与角色连续性资产，而不是又一个生成器；可考虑按项目或按成片交付收费，价格未披露。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：它把镜头规划、覆盖与连贯性要求集中成一份结构化提示词包，省掉跨生成器逐条改写和凭记忆维持连贯的步骤，因此同时使用多个生成器、镜头数量多的短片与广告团队会在筹备阶段先选它；公开材料尚无用户反馈证实这一动机。</p>
+        <p>推断：若产品真能把镜头与连续性信息编译成整组提示词，可省去逐条改写；但缺少任何用户反馈或采用证据，无法确认哪类用户会因此选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>追踪 Slate 官网或仓库的公开文档、issue/discussion 与客户案例，核验跨生成器提示词包的实际产出效果与是否出现付费或捐赠以外的采购记录。</p>
+        <p>追踪 Slate 官方产品页或仓库 README/issue，确认其实际输入输出、支持的生成器清单与是否有用户反馈的交付结果。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。推断：它把镜头规划、覆盖与连贯性要求集中成一份结构化提示词包，省掉跨生成器逐条改写和凭记忆维持连贯的步骤，因此同时使用多个生成器、镜头数量多的短片与广告团队会在筹备阶段先选它；公开材料尚无用户反馈证实这一动机。</p>
+        <p><strong>仅作线索</strong>。推断：若产品真能把镜头与连续性信息编译成整组提示词，可省去逐条改写；但缺少任何用户反馈或采用证据，无法确认哪类用户会因此选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是 AI 影视的制作瓶颈正从“生成一段画面”前移到“开拍前的镜头规划与连续性管理”，提示词成为需要被工程化管理的中间产物。切入可从广告片、短剧、电商视频这类有明确交付节点的小团队进，卖的是分镜到成片的可复用流程，而非单次生成额度。</p>
+        <p>趋势：AI 影片制作正从单条提示词试运气，转向需要分镜、连续性和可复用提示词资产的准工业化流程。切入：从短片、广告与独立创作者的分镜前置环节进入，卖的是可复用的镜头与角色连续性资产，而不是又一个生成器；可考虑按项目或按成片交付收费，价格未披露。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>它解决跨生成器提示词格式不一、连贯性靠记忆的痛点，旧做法是手工拼提示词，不采用则改一个镜头要重写一批，结构上成立；但公开材料无用户抱怨或案例，属工作流推理。</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：它把镜头规划、覆盖与连贯性要求集中成一份结构化提示词包，省掉跨生成器逐条改写和凭记忆维持连贯的步骤，因此同时使用多个生成器、镜头数量多的短片与广告团队会在筹备阶段先选它；公开材料尚无用户反馈证实这一动机。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪 Slate 官网或仓库的公开文档、issue/discussion 与客户案例，核验跨生成器提示词包的实际产出效果与是否出现付费或捐赠以外的采购记录。</p></div>
+        <div><span class="field-k">公开事实</span><p>做 AI 影片的人在开拍前要规划镜头、保持角色与场景连续性，并把想法整理成能喂给图像、视频、音乐或配音生成器的提示词。Slate 是一个本地提示词工作台，把这些镜头与连续性信息编译成可直接投喂各生成器的提示词，不需要 API key；用户最终拿到的是成组的生成提示词，具体交付形态与人工确认环节仍待核验。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若产品真能把镜头与连续性信息编译成整组提示词，可省去逐条改写；但缺少任何用户反馈或采用证据，无法确认哪类用户会因此选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪 Slate 官方产品页或仓库 README/issue，确认其实际输入输出、支持的生成器清单与是否有用户反馈的交付结果。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>已有支持</strong>
+            <strong>存在反证</strong>
           </div>
-          <p>它解决跨生成器提示词格式不一、连贯性靠记忆的痛点，旧做法是手工拼提示词，不采用则改一个镜头要重写一批，结构上成立；但公开材料无用户抱怨或案例，属工作流推理。</p>
+          <p>产品主张帮助用户完成：“做 AI 影片的人在开拍前要规划镜头、保持角色与场景连续性，并把想法整理成能喂给图像、视频、音乐或配音生成器的提示词”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>公开材料只有市场检索与通用助手页面，没有用户评价、客户案例或持续使用记录说明谁在用，卡在场景感知一环。</p>
+          <p>价值闸门未通过，共识闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>摘要只提到自愿捐赠 30 美元，没有定价页或付费路径，买方是个人创作者还是制作公司属推断，这是判断不是已验证事实。</p>
+          <p>价值闸门未通过，模式闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>提示词包能否稳定产出可用画面、连贯性是否真被保住，公开材料没有可复现结果或人工边界说明。</p>
+          <p>价值闸门未通过，求真闸门未进入。</p>
         </article>
       </div>
     </details>
@@ -172,12 +172,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-30。未发现仅限该覆盖范围。 · 2026-09-30</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-07。未发现仅限该覆盖范围。 · 2026-10-07</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-30。未发现仅限该覆盖范围。 · 2026-09-30</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-07。未发现仅限该覆盖范围。 · 2026-10-07</p>
       </div>
     </div>
   </section>
@@ -219,30 +219,25 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">aistudio.google.com</span>
+      <li><a href="https://gemini.google.com/?hl=es" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google.com</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://www.ibm.com/think/topics/artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">ibm.com</span>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ai.google</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">cloud.google.com</span>
+      <li><a href="https://deepai.org/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">deepai.org</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://www.mtu.edu/data-science/undergraduate/ai/what-is/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">mtu.edu</span>
+      <li><a href="https://www.perplexity.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">perplexity.ai</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ3pzNHVGckNNaDI0NU90SHVyZExxYVYwLUlZRmhCcWQ4VlNaODNENDdPb3Z6bmtqNURtR0ttUG9zT055Q3EwcDRBbTdsRG83Vk5TT21EUmVLWkhxaUtlVXhJUHZrYk9yLVJLa2VLZ0J6UUE1VW5rNXBtbmpEWWdwT2hZeDVrZXloV2s2eVFDU3VzYmdH?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">news.google.com</span>
-        <span class="row-desc">market_signal</span>
-        <span class="row-tail">2026-09-29</span>
       </div></a></li>
       <li><a href="https://slate.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">slate.com</span>
@@ -258,6 +253,16 @@
         <span class="row-name">slate.com</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-10-06</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ3pzNHVGckNNaDI0NU90SHVyZExxYVYwLUlZRmhCcWQ4VlNaODNENDdPb3Z6bmtqNURtR0ttUG9zT055Q3EwcDRBbTdsRG83Vk5TT21EUmVLWkhxaUtlVXhJUHZrYk9yLVJLa2VLZ0J6UUE1VW5rNXBtbmpEWWdwT2hZeDVrZXloV2s2eVFDU3VzYmdH?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-29</span>
       </div></a></li>
       <li><a href="https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">technologyreview.com</span>
@@ -306,7 +311,7 @@
       </div></a></li>
       <li><a href="https://github.com/wassermanproductions/slate" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">Slate</span>
-        <span class="row-desc">开源信息 · 做 AI 影视的人，在开拍前规划分镜、安排镜头覆盖、维持角色与场景连续性时打开它，把镜头意图整理成可直接投喂图像、视频、音乐或配音生成器的提示词，最终拿到一份可执行的分镜提示词清单，是否开拍仍由人确认。具体流程与交付形态仍待核验。</span>
+        <span class="row-desc">开源信息 · 做 AI 影片的人在开拍前要规划镜头、保持角色与场景连续性，并把想法整理成能喂给图像、视频、音乐或配音生成器的提示词。Slate 是一个本地提示词工作台，把这些镜头与连续性信息编译成可直接投喂各生成器的提示词，不需要 API key；用户最终拿到的是成组的生成提示词，具体交付形态与人工确认环节仍待核验。</span>
         <span class="row-tail">2026-08-04</span>
       </div></a></li>
     </ul>
@@ -348,7 +353,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%88%9B%E4%BD%9C">
-        AI + 创作 共 278 个 →
+        AI + 创作 共 284 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -440,8 +445,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2465 个案例 · 176 份生意判断</span>
-    <span class="gen">数据截至 2026-10-06</span>
+    <span>2525 个案例 · 176 份生意判断</span>
+    <span class="gen">数据截至 2026-10-07</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
