@@ -1,0 +1,96 @@
+- id: req-initial-orgcomputers-2026-10-07
+  project_slug: orgcomputers
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连解决什么需求、什么痛点都写不出来，只有一句工作空间定位，价值关不成立。
+    evidence_ids:
+    - ev-1437e572309ae170
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注数据可判断共识。
+    evidence_ids:
+    - ev-1437e572309ae170
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-1437e572309ae170
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核验交付确定性与人工边界。
+    evidence_ids:
+    - ev-1437e572309ae170
+  next_validation: 收集其官方产品页或文档，确认它面向哪类用户、管理哪些 agent 任务以及交付形式。
+  market: ''
+  job: 公开材料未说明具体使用者与任务，无法还原谁在什么情况下处理什么材料、要完成什么。
+  job_en: Public materials do not identify the specific user or task, so it is impossible to reconstruct
+    who handles what material in what situation to finish what.
+  pain: 无法从现有材料判断它解决什么痛点，只能推测与多 agent 协作或运行管理有关。
+  pain_en: Existing materials do not reveal what pain it solves; one can only speculate it relates to
+    multi-agent collaboration or runtime management.
+  current_alternative: 未披露；可能对应自建脚本、通用 agent 平台或人工协调，均属推测。
+  current_alternative_en: Not disclosed; possible alternatives include self-built scripts, general agent
+    platforms or manual coordination, all speculative.
+  usage_reason: 推断：若它能把多个 agent 的任务与产出集中在一处管理，可减少在多个工具间切换的负担，但公开材料未给出任何具体动作或结果，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if it centralizes multiple agents'' tasks and outputs in one place, it
+    could reduce switching between tools, but public materials give no concrete action or result, so why
+    users would choose it cannot be confirmed.'
+- id: req-full-orgcomputers-2026-10-07
+  project_slug: orgcomputers
+  level: full
+  reviewed_at: '2026-10-07T02:03:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队编码 agent 各自为政、项目上下文与工具散落、团队已有知识无法被 agent 继承的痛点，导致重复交代背景与上下文丢失；旧做法是在各工具内各自维护提示词与配置。这是基于官网公开说明的工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-6b406b216873088e
+    - ev-3a2235af5fd30375
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网与 公开资料 定位描述，没有可归因到该产品的访问量、下载、收藏或用户评价，无法判断开发者是否已形成采用共识。
+    evidence_ids:
+    - ev-1437e572309ae170
+    - ev-6b406b216873088e
+  - gate: model
+    status: insufficient
+    reason: 证据中标注为 pricing 的条目实际只是官网同一句定位文案，未披露任何价格、套餐或买方；谁付钱只能推断为使用多 agent 的团队或企业，属判断而非已验证事实。
+    evidence_ids:
+    - ev-06ca5d4e18cfcff4
+    - ev-e7e314597b323ed7
+  - gate: truth
+    status: insufficient
+    reason: 官网只承诺让 agent 从团队已知信息出发，未说明上下文如何注入、工具如何授权、权限与人工边界如何设定，交付确定性无法核验。
+    evidence_ids:
+    - ev-6b406b216873088e
+    - ev-3a2235af5fd30375
+  next_validation: 追踪 OrgComputers 官网定价页与文档，确认是否披露套餐价格、上下文注入与工具授权机制，以及是否出现具名客户案例或公开使用数据。
+  market: ''
+  job: 使用 Claude Code、Cursor、Codex 等编码 agent 的团队开发者，在启动新项目或让 agent 接手既有代码库时，需要把团队已有的项目背景、上下文与工具配置一次性交给
+    agent，让 agent 从团队已知的信息出发开始工作，而不是每次从零解释。
+  job_en: Team developers using coding agents such as Claude Code, Cursor and Codex need to hand their
+    team's existing project background, context and tool configuration to the agent when starting a new
+    project or letting an agent take over an existing codebase, so the agent starts from what the team
+    already knows instead of re-explaining from scratch each time.
+  pain: 公开材料明确指向的痛点是：每个 agent 各自为政，项目上下文与工具散落各处，团队已有的知识无法被 agent 直接继承，导致重复交代背景、上下文丢失。
+  pain_en: 'The pain explicitly indicated by public materials: each agent works in isolation, project
+    context and tools are scattered, and the team''s existing knowledge cannot be inherited directly by
+    agents, causing repeated re-briefing and context loss.'
+  current_alternative: 旧做法是各人在 Claude Code、Cursor、Codex 等工具里各自维护提示词、项目说明与工具配置，靠人工复制粘贴或口头同步把上下文传给 agent。
+  current_alternative_en: The old way is for each person to maintain prompts, project notes and tool configuration
+    separately inside Claude Code, Cursor, Codex, passing context to agents by manual copy-paste or verbal
+    sync.
+  usage_reason: 推断：相较在各 agent 工具里各自维护上下文，OrgComputers 把项目、上下文与工具集中到一个共享工作空间，使 Claude Code、Cursor、Codex
+    启动时直接读取团队已有知识，减少每次重新交代项目背景这一步负担；因此多 agent 并行、多人协作的团队会在新项目启动或 agent 接手既有代码库时选择它。
+  usage_reason_en: 'Inference: compared with maintaining context separately inside each agent tool, OrgComputers
+    centralizes projects, context and tools in one shared workspace so Claude Code, Cursor and Codex read
+    the team''s existing knowledge at startup, removing the step of re-briefing project background each
+    time; teams running multiple agents with multiple collaborators would therefore choose it when starting
+    a new project or handing an existing codebase to an agent.'

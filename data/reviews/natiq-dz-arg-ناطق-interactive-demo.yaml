@@ -1,0 +1,90 @@
+- id: req-initial-natiq-dz-arg-ناطق-interactive-demo-2026-10-07
+  project_slug: natiq-dz-arg-ناطق-interactive-demo
+  level: initial
+  reviewed_at: '2026-10-07T01:32:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决达里贾语配音难找、成本高的问题，痛点具体；但公开材料只有一句描述，说不清输入格式、克隆样本量与可用交付。
+    evidence_ids:
+    - ev-5a7cd221453c6571
+  - gate: consensus
+    status: insufficient
+    reason: 3 个点赞只说明有人看过演示，没有本地创作者反馈或采用记录，无法判断方言配音需求是否被真实满足。
+    evidence_ids:
+    - ev-5a7cd221453c6571
+  - gate: model
+    status: insufficient
+    reason: 演示页未披露定价、商用授权或 API 计划，to C 创作者付费还是 to B 本地化公司采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5a7cd221453c6571
+  - gate: truth
+    status: insufficient
+    reason: 语音克隆涉及声音授权与滥用风险，材料未说明同意机制与使用边界，交付的安全与合规确定性无法核对。
+    evidence_ids:
+    - ev-5a7cd221453c6571
+  next_validation: 查看该演示页的模型卡与许可说明，确认支持的输入格式、克隆样本要求与是否允许商用。
+  market: ''
+  job: 制作阿尔及利亚达里贾语短视频、课件或本地广告的人，需要为内容配上母语方言的旁白或克隆特定声音。
+  job_en: People making Algerian Darija short videos, courseware or local ads need native-dialect narration
+    or a cloned specific voice for their content.
+  pain: 主流语音合成对达里贾语支持差，找人配音成本高、周期长，方言口音也难以稳定复现。
+  pain_en: Mainstream speech synthesis supports Darija poorly, hiring voice actors is costly and slow,
+    and the dialect accent is hard to reproduce consistently.
+  current_alternative: 找本地配音员录制，或使用对达里贾语支持有限的主流语音合成工具。
+  current_alternative_en: Hiring local voice actors to record, or using mainstream speech synthesis tools
+    with limited Darija support.
+  usage_reason: 推断：相较找配音员，它把录制环节换成输入文本或声音样本直接生成，省去约人和排期；因此预算有限、需要快速出片的本地内容制作者会尝试它。但演示页只有 3 个点赞，没有使用量、付费或商用授权信息，无法确认它被持续使用。
+  usage_reason_en: 'Inference: compared with hiring voice actors, it replaces recording with feeding text
+    or a voice sample and generating directly, removing scheduling and booking; local creators with tight
+    budgets and fast turnaround would try it. But the demo page has only 3 likes, with no usage, payment
+    or commercial-license information, so sustained use cannot be confirmed.'
+- id: req-full-natiq-dz-arg-ناطق-interactive-demo-2026-10-07
+  project_slug: natiq-dz-arg-ناطق-interactive-demo
+  level: full
+  reviewed_at: '2026-10-07T02:02:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决达里贾语配音难找、成本高、口音难复现的需求，痛点具体且刚性；从输入文本或声音样本到可试听语音的闭环可还原，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-5a7cd221453c6571
+  - gate: consensus
+    status: insufficient
+    reason: 演示页仅标注定位与 3 个点赞，没有本地创作者反馈、采用记录或社区讨论，无法判断方言配音需求是否被真实满足。
+    evidence_ids:
+    - ev-5a7cd221453c6571
+  - gate: model
+    status: insufficient
+    reason: 演示页未披露定价、商用授权或 API 计划，to C 创作者付费还是 to B 本地化公司采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5a7cd221453c6571
+  - gate: truth
+    status: insufficient
+    reason: 语音克隆涉及声音授权与滥用风险，材料未说明同意机制与使用边界，交付的安全与合规确定性无法核对。
+    evidence_ids:
+    - ev-5a7cd221453c6571
+  next_validation: 追踪 Natiq-dz-ARG (ناطق) 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 制作阿尔及利亚达里贾语短视频、课件或本地广告的创作者，在需要母语方言旁白或特定声音时，输入文本或声音样本，得到可试听的达里贾语合成语音。
+  job_en: Creators making Algerian Darija short videos, courseware or local ads input text or a voice
+    sample to obtain listenable Darija synthesized speech when they need native-dialect narration or a
+    specific voice.
+  pain: 主流语音合成对达里贾语支持差，找本地配音员成本高、排期长，方言口音难以稳定复现；公开材料只给出产品定位，未披露输入格式、克隆样本量与商用授权。
+  pain_en: Mainstream speech synthesis supports Darija poorly; hiring local voice actors is costly with
+    long scheduling, and the dialect accent is hard to reproduce consistently. Public material only states
+    the product positioning, without input formats, cloning sample requirements or commercial licensing.
+  current_alternative: 找本地配音员录制，或使用对达里贾语支持有限的主流语音合成工具。
+  current_alternative_en: Hiring local voice actors to record, or using mainstream speech synthesis tools
+    with limited Darija support.
+  usage_reason: 推断：相较找配音员，它把约人、排期、录制环节换成输入文本或声音样本直接生成，省去线下录制与协调成本；因此预算有限、需要快速出片的达里贾语内容制作者会在赶稿或试音阶段选择它。演示页仅
+    3 个点赞，无使用量、付费或商用授权信息，持续采用无法确认。
+  usage_reason_en: 'Inference: compared with hiring voice actors, it replaces booking, scheduling and
+    recording with feeding text or a voice sample and generating directly, removing offline recording
+    and coordination costs; Darija content creators with tight budgets and fast turnaround would choose
+    it when rushing a deadline or testing a voice. The demo page has only 3 likes, with no usage, payment
+    or commercial-license information, so sustained adoption cannot be confirmed.'

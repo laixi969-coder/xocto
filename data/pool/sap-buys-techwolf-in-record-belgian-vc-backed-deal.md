@@ -1,6 +1,6 @@
 ---
 slug: sap-buys-techwolf-in-record-belgian-vc-backed-deal
-name: SAP buys TechWolf in record Belgian VC-backed deal
+name: TechWolf
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: German software giant SAP is buying a Belgian startup that leverages AI
   the skills and work of their employees, it said today.The deal is reported to be the largest acquis...
 first_seen: '2026-10-06T13:29:00Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# SAP buys TechWolf in record Belgian VC-backed deal
+# TechWolf
 
 German software giant SAP is buying a Belgian startup that leverages AI to help companies understand the skills and work of their employees, it said today.The deal is reported to be the largest acquis...
 

@@ -1,0 +1,87 @@
+- id: req-initial-ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapp-2026-10-07
+  project_slug: ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapp
+  level: initial
+  reviewed_at: '2026-10-07T01:32:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决投放素材与活动制作依赖多角色协作的问题，痛点方向成立，但公开材料未说明具体旧流程耗时、返工代价与交付确定性，价值强度无法确认。
+    evidence_ids:
+    - ev-c25a79cae82dec91
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与转型报道，没有客户采用、评价或重复使用证据，无法判断营销人员是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-c25a79cae82dec91
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式与买方是品牌方还是代理公司，钱从哪一方来只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-c25a79cae82dec91
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成素材是否达到可投放标准、投放效果是否可归因，也未见人工审核边界说明。
+    evidence_ids:
+    - ev-c25a79cae82dec91
+  next_validation: 收集 Melius 官方定价页或公开客户案例，确认计价方式与素材交付结果。
+  market: ''
+  job: 营销团队在准备新一轮投放时，需要把产品卖点和活动目标变成可用的创意素材与广告活动配置，交给投放渠道使用。
+  job_en: When preparing a new ad flight, a marketing team needs to turn product selling points and campaign
+    goals into usable creative assets and campaign setups for ad channels.
+  pain: 素材与活动制作依赖文案、设计和投放运营多角色协作，周期长、产能受限；但公开材料未给出具体耗时、返工或成本数据。
+  pain_en: Asset and campaign production depends on coordination across copy, design and campaign operations,
+    which is slow and capacity-limited; however, no concrete time, rework or cost data is public.
+  current_alternative: 现有做法是团队内部用设计工具和广告平台后台手工制作素材、搭建活动，或外包给代理与自由职业者。
+  current_alternative_en: The current approach is in-house manual asset creation and campaign setup in
+    design tools and ad platform backends, or outsourcing to agencies and freelancers.
+  usage_reason: 推断：相较手工逐条制作素材与活动，它把生成动作前置到同一处，可能减少从需求到可用素材之间的交接环节，因此产能受限的中小投放团队会尝试；但缺少用户反馈或客户案例支持这一动机。
+  usage_reason_en: 'Inference: compared with manually producing each asset and campaign, it moves generation
+    into one place and may cut handoffs between brief and usable assets, so capacity-constrained small
+    ad teams may try it; user feedback or customer cases supporting this motive are missing.'
+- id: req-full-ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapp-2026-10-07
+  project_slug: ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapp
+  level: full
+  reviewed_at: '2026-10-07T02:01:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投放素材与活动制作依赖多角色串行协作、产能受限的问题，痛点方向明确；公开报道显示公司放弃投放管理转向创意与活动生成，说明其判断该环节更值得做。但具体旧流程耗时与返工代价未公开，属工作流结构推理而非量化验证。
+    evidence_ids:
+    - ev-c25a79cae82dec91
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与产品转型报道，没有客户采用、评价或重复使用证据，无法判断营销人员是否已把它放进日常投放流程；检索到的通用 AI 工具页面也不能归因到该产品。
+    evidence_ids:
+    - ev-c25a79cae82dec91
+    - ev-cb2fefd42ef4ac34
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式与买方是品牌方、代理公司还是投放团队，钱从哪一方来只能推测，属判断而非已验证事实；20M 融资只说明资本支持，不构成付费路径。
+    evidence_ids:
+    - ev-c25a79cae82dec91
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成素材是否达到可投放标准、活动配置能否直接落地，也未见人工审核边界与效果归因说明；承诺能否确定性交付仍缺公开材料。
+    evidence_ids:
+    - ev-c25a79cae82dec91
+  next_validation: 追踪 Melius 官网是否上线定价页或公开客户案例，确认计价方式、买方类型与素材交付结果。
+  market: ''
+  job: 营销团队在准备新一轮投放时，把产品卖点与活动目标整理成可直接投放的创意素材和广告活动配置，交给广告渠道使用。
+  job_en: When preparing a new ad flight, a marketing team turns product selling points and campaign goals
+    into ad-ready creative assets and campaign setups for ad channels.
+  pain: 素材与活动制作依赖文案、设计、投放运营多角色串行协作，产能受限、周期长；公开材料只说明公司从投放管理转向创意生成，未给出耗时、返工或成本数据。
+  pain_en: Asset and campaign production depends on serial coordination across copy, design and campaign
+    operations, limiting capacity and lengthening cycles; public material only states the pivot from spend
+    management to creative generation, with no time, rework or cost data.
+  current_alternative: 团队内部用设计工具与广告平台后台手工制作素材、搭建活动，或外包给代理与自由职业者。
+  current_alternative_en: In-house manual asset creation and campaign setup in design tools and ad platform
+    backends, or outsourcing to agencies and freelancers.
+  usage_reason: 推断：相较手工逐条产出素材与活动，它把生成动作收进同一处，减少从 brief 到可用素材之间的交接与等待环节，因此产能受限、投放节奏快的营销团队会在需要批量出素材时选择它；该动机尚无用户反馈或客户案例支持。
+  usage_reason_en: 'Inference: compared with manually producing each asset and campaign, it consolidates
+    generation in one place, cutting handoffs and waiting between brief and usable assets, so capacity-constrained
+    teams on fast ad cadences would choose it when they need assets at volume; this motive lacks user
+    feedback or customer cases.'

@@ -1,6 +1,6 @@
 ---
 slug: n26-founder-backed-finmid-raises-17m-series-a-extension-stri
-name: N26 founder-backed Finmid raises €17M Series A extension, strikes Bolt deal
+name: Finmid
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: A Berlin-based fintech backed by one of the founders of German challeng
   which ...
 first_seen: '2026-10-06T06:00:00Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# N26 founder-backed Finmid raises €17M Series A extension, strikes Bolt deal
+# Finmid
 
 A Berlin-based fintech backed by one of the founders of German challenger bank N26 has raised a €17m Series A extension round and says it has sealed a deal with Estonian ride-hailing firm Bolt, which ...
 

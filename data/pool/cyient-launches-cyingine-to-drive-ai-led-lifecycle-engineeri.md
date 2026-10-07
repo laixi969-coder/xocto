@@ -1,6 +1,6 @@
 ---
 slug: cyient-launches-cyingine-to-drive-ai-led-lifecycle-engineeri
-name: Cyient launches CYiNGINE to drive AI-led lifecycle engineering
+name: Cyient
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ3dIUzNKWUFt
 summary: Cyient launches CYiNGINE to drive AI-led lifecycle engineering Manufacturing Today India
 first_seen: '2026-10-06T11:03:21Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Cyient launches CYiNGINE to drive AI-led lifecycle engineering
+# Cyient
 
 Cyient launches CYiNGINE to drive AI-led lifecycle engineering Manufacturing Today India
 

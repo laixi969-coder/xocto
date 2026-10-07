@@ -1,6 +1,6 @@
 ---
 slug: llm-mistral-016
-name: llm-mistral 0.16
+name: llm-mistral
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: "Release:   llm-mistral 0.16  \n         Adds support for reasoning mod
   \ released  Mistral Large 4 . \n    \n    \n         Tags:  llm ,  mistral ,  llm-reasoning"
 first_seen: '2026-10-06T21:32:34Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# llm-mistral 0.16
+# llm-mistral
 
 Release:   llm-mistral 0.16  
          Adds support for reasoning models, such as the newly released  Mistral Large 4 . 

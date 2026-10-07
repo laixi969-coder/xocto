@@ -1,0 +1,88 @@
+- id: req-initial-ai-game-modding-guides-2026-10-07
+  project_slug: ai-game-modding-guides
+  level: initial
+  reviewed_at: '2026-10-07T01:32:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决模组作者找资料与试错的问题，痛点真实存在，但公开材料只有仓库说明与星标，无法确认交付是否可确定发生。
+    evidence_ids:
+    - ev-9acf982733ac935e
+  - gate: consensus
+    status: insufficient
+    reason: 216 星与 24 次 fork 只说明关注度，不能证明模组作者已把它纳入日常工作流。
+    evidence_ids:
+    - ev-9acf982733ac935e
+  - gate: model
+    status: insufficient
+    reason: 仓库为公开文档，未见定价、赞助或商业交付路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9acf982733ac935e
+  - gate: truth
+    status: insufficient
+    reason: 指南贴近模组开发的第一性目标，但缺少可复现实测与排错效果证据，承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-9acf982733ac935e
+  next_validation: 收集该仓库的 issue 与 discussion，查看是否有模组作者报告按指南成功产出可运行模组或排错结果。
+  market: ''
+  job: 游戏模组作者在为某款游戏制作模组时，需要处理游戏文件、加载器与代码改写材料，完成一个能加载并运行的模组。
+  job_en: A game mod author building a mod for a specific game handles game files, loaders and code rewrite
+    material to produce a mod that loads and runs.
+  pain: 模组开发长期依赖个人逆向、论坛零散帖子和反复试错，加载器适配与版本更新后的重写尤其耗时，出错后缺少系统排错路径。
+  pain_en: Mod development has long relied on individual reverse engineering, scattered forum posts and
+    repeated trial and error; loader adaptation and rewrites after version updates are especially costly,
+    and there is no systematic debugging path when things break.
+  current_alternative: 旧做法是翻论坛帖、看视频教程、在 Discord 里问人，或自己反复试错改代码。
+  current_alternative_en: The old approach is reading forum threads, watching video tutorials, asking
+    on Discord, or repeatedly trial-and-error editing code alone.
+  usage_reason: 推断：相较零散帖子，这份指南把 AI 编码代理的提示写法、加载器与重写步骤集中成一条可照做的路径，可能减少找资料和试错的步骤；但公开材料只显示仓库存在与星标数，没有用户反馈或重复使用证据，无法确认它是否被留在实际工作流里。
+  usage_reason_en: 'Inference: compared with scattered posts, this guide consolidates prompting for AI
+    coding agents, loaders and rewrite steps into one followable path, potentially cutting the search-and-trial
+    steps; however public material only shows the repository exists with a star count, with no user feedback
+    or repeat-use evidence, so it cannot be confirmed as part of a real workflow.'
+- id: req-full-ai-game-modding-guides-2026-10-07
+  project_slug: ai-game-modding-guides
+  level: full
+  reviewed_at: '2026-10-07T02:00:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模组作者找资料与试错的问题：加载器适配、版本更新后重写、出错无排错路径是具体且反复发生的痛点，旧做法是翻论坛帖与 Discord 问人；仓库说明已给出提示词、加载器与排错的具体步骤，属工作流结构推理。
+    evidence_ids:
+    - ev-9acf982733ac935e
+  - gate: consensus
+    status: insufficient
+    reason: 216 星只说明关注度，没有用户评价、issue 或 discussion 显示模组作者已按指南产出可运行模组，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-9acf982733ac935e
+  - gate: model
+    status: insufficient
+    reason: 仓库为公开文档，未见定价、赞助或商业交付路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9acf982733ac935e
+  - gate: truth
+    status: insufficient
+    reason: 指南贴近模组开发的第一性目标，但缺少可复现实测与排错效果证据，承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-9acf982733ac935e
+  next_validation: 收集该仓库的 issue 与 discussion，查看是否有模组作者报告按指南成功产出可运行模组或排错结果。
+  market: ''
+  job: 游戏模组作者在为某款游戏制作模组时，处理游戏文件、加载器与代码改写材料，完成一个能加载并运行的模组。
+  job_en: A game mod author building a mod for a specific game handles game files, loaders and code-rewrite
+    material to produce a mod that loads and runs.
+  pain: 模组开发长期依赖个人逆向、论坛零散帖子和反复试错，加载器适配与版本更新后的重写尤其耗时，出错后缺少系统排错路径。
+  pain_en: Mod development has long relied on individual reverse engineering, scattered forum posts and
+    repeated trial and error; loader adaptation and rewrites after version updates are especially costly,
+    with no systematic debugging path when things break.
+  current_alternative: 翻论坛帖、看视频教程、在 Discord 里问人，或自己反复试错改代码。
+  current_alternative_en: Reading forum threads, watching video tutorials, asking on Discord, or repeatedly
+    trial-and-error editing code alone.
+  usage_reason: 推断：相较零散帖子与视频，它把 AI 编码代理的提示写法、直通式模组、Rust 重写与加载器步骤集中成一条可照做的路径，减少找资料与试错步骤，因此正在做模组、卡在加载器或版本重写的作者可能选择它；但公开材料只有仓库说明与星标，无用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: versus scattered posts and videos, it consolidates prompting for AI coding
+    agents, passthrough mods, Rust rewrites and loader steps into one followable path, cutting search-and-trial
+    steps, so authors stuck on loaders or version rewrites may pick it; yet public material shows only
+    the repo and a star count, with no user feedback or repeat-use evidence.'

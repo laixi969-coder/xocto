@@ -1,6 +1,6 @@
 ---
 slug: manage-amazon-sagemaker-hyperpod-spaces-directly-from-sagema
-name: Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio
+name: Amazon SageMaker HyperPod Spaces
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Data scientists and ML engineers can now create, configure, start, stop
   Editor environments in a few clicks, without using command-line tools.
 first_seen: '2026-10-06T15:47:02Z'
 last_seen: '2026-10-07T01:32:54Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Manage Amazon SageMaker HyperPod Spaces directly from SageMaker Studio
+# Amazon SageMaker HyperPod Spaces
 
 Data scientists and ML engineers can now create, configure, start, stop, and open Amazon SageMaker Spaces on SageMaker HyperPod EKS clusters directly from SageMaker Studio. Launch JupyterLab and Code Editor environments in a few clicks, without using command-line tools.
 

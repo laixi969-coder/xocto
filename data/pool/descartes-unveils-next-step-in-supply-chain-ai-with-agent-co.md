@@ -1,6 +1,6 @@
 ---
 slug: descartes-unveils-next-step-in-supply-chain-ai-with-agent-co
-name: Descartes Unveils Next Step in Supply Chain AI with Agent Control Plane
+name: Descartes
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPckNHVTViSVBX
 summary: Descartes Unveils Next Step in Supply Chain AI with Agent Control Plane Macau Business
 first_seen: '2026-10-06T12:30:27Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Descartes Unveils Next Step in Supply Chain AI with Agent Control Plane
+# Descartes
 
 Descartes Unveils Next Step in Supply Chain AI with Agent Control Plane Macau Business
 

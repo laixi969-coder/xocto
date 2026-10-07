@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/sap-techwolf-acquisition-deal
 summary: ''
 first_seen: '2026-10-06T15:23:05Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

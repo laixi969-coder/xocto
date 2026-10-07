@@ -1,0 +1,81 @@
+- id: req-initial-curvetai-raises-6-crore-to-build-multi-model-ai-workspace-an-2026-10-07
+  project_slug: curvetai-raises-6-crore-to-build-multi-model-ai-workspace-an
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只写多模型工作区与 agentic 工作流，未说明解决什么具体任务与痛点，旧流程与不采用后果均无法还原。
+    evidence_ids:
+    - ev-fc223bd26c92eee7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关不成立，且无用户采用或评价证据可判断共识。
+    evidence_ids:
+    - ev-fc223bd26c92eee7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关不成立，报道未披露定价与买方，无法判断付费路径。
+    evidence_ids:
+    - ev-fc223bd26c92eee7
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-fc223bd26c92eee7
+  next_validation: 收集 CurvetAI 官方产品页或文档，确认它面向的具体工作流、输入材料与交付结果。
+  market: ''
+  job: 企业知识工作者在处理跨模型、多步骤的日常任务材料时，希望在一个工作区里完成调用与编排。
+  job_en: Enterprise knowledge workers handling multi-step, multi-model daily task material want to call
+    and orchestrate models inside one workspace.
+  pain: 公开材料未说明具体痛点，只能推断多模型切换与流程拼接存在操作负担，但缺少用户抱怨或替代行为证据。
+  pain_en: Public material names no concrete pain; one can only infer friction in switching models and
+    stitching steps, with no user complaint or workaround evidence.
+  current_alternative: 现有做法可能是分别使用各家模型界面，或自行用脚本与自动化工具串联。
+  current_alternative_en: The current alternative is likely using each model's own interface separately,
+    or wiring them together with scripts and automation tools.
+  usage_reason: 推断：若它把多模型调用与流程编排收进同一界面，可减少用户在多个工具间复制粘贴的步骤，因此需要跨模型处理任务的知识工作者会试用；但公开材料未给出场景与采用证据。
+  usage_reason_en: 'Inference: if it folds multi-model calls and orchestration into one interface, it
+    cuts the copy-paste steps between tools, so knowledge workers handling cross-model tasks would try
+    it; public material gives no scenario or adoption evidence.'
+- id: req-full-curvetai-raises-6-crore-to-build-multi-model-ai-workspace-an-2026-10-07
+  project_slug: curvetai-raises-6-crore-to-build-multi-model-ai-workspace-an
+  level: full
+  reviewed_at: '2026-10-07T02:01:23Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只写多模型工作区与 agentic 工作流，未说明解决什么具体任务与痛点，旧流程与不采用后果均无法还原。
+    evidence_ids:
+    - ev-fc223bd26c92eee7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 CurvetAI 官方产品页或文档，确认它面向的具体工作流、输入材料与交付结果。
+  market: ''
+  job: 企业知识工作者在处理跨模型、多步骤的日常任务材料时，希望在一个工作区里完成调用与编排。
+  job_en: Enterprise knowledge workers handling multi-step, multi-model daily task material want to call
+    and orchestrate models inside one workspace.
+  pain: 公开材料未说明具体痛点，只能推断多模型切换与流程拼接存在操作负担，但缺少用户抱怨或替代行为证据。
+  pain_en: Public material names no concrete pain; one can only infer friction in switching models and
+    stitching steps, with no user complaint or workaround evidence.
+  current_alternative: 现有做法可能是分别使用各家模型界面，或自行用脚本与自动化工具串联。
+  current_alternative_en: The current alternative is likely using each model's own interface separately,
+    or wiring them together with scripts and automation tools.
+  usage_reason: 推断：若它把多模型调用与流程编排收进同一界面，可减少用户在多个工具间复制粘贴的步骤，因此需要跨模型处理任务的知识工作者会试用；但公开材料未给出场景与采用证据。
+  usage_reason_en: 'Inference: if it folds multi-model calls and orchestration into one interface, it
+    cuts the copy-paste steps between tools, so knowledge workers handling cross-model tasks would try
+    it; public material gives no scenario or adoption evidence.'

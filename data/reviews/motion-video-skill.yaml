@@ -390,3 +390,55 @@
     voice-over, karaoke captions, SFX and music, removing the cross-tool transfer and manual beat-matching
     step; so operators or motion designers needing batch output would choose it when the generated rhythm
     is acceptable and only captions and pacing need human review.'
+- id: req-full-motion-video-skill-2026-10-07
+  project_slug: motion-video-skill
+  level: full
+  reviewed_at: '2026-10-07T02:02:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是批量产出卡点动效视频的需求：旧流程需在剪辑软件逐段对拍、单独配音、手工敲字幕并另找音效配乐，批量出片时重复返工且节奏字幕易错位；该技能以脚本素材一次渲染出成片，痛点刚性、交付可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-9ddf3b9862a984fd
+    - ev-157c2688fdb4c136
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 106 缓慢升至 113，说明有开发者关注并收藏，但收藏与排名只属关注度证据，未见 issue、discussion 或用户评价说明谁在何种场景持续使用，无法据此判断共识是否形成。
+    evidence_ids:
+    - ev-9ddf3b9862a984fd
+    - ev-ee68c0eea1f8cc92
+  - gate: model
+    status: insufficient
+    reason: 项目以 MIT 协议开源，公开材料未见定价页、付费客户或采购记录，钱可能来自 to C 开发者自用或 to B 团队集成，但均属判断而非已验证事实；开源免费不等于没有需求，只是付费路径尚未核验。
+    evidence_ids:
+    - ev-9ddf3b9862a984fd
+  - gate: truth
+    status: insufficient
+    reason: 产品说明称可输出 1080p 卡点成片并附配音字幕，但公开材料未提供可复现的渲染样例、失败率或人工校对边界，成片仍需人工确认节奏与字幕，交付确定性尚缺公开验证。
+    evidence_ids:
+    - ev-9ddf3b9862a984fd
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有用户公开描述实际部署场景、替代的旧剪辑流程及渲染成片样例。
+  market: ''
+  job: 短视频运营或动效设计师在需要批量产出卡点动效视频时，把脚本、文案和素材交给这个 agent 技能，由它按节拍渲染 1080p 动效画面并配上 AI 配音、逐字字幕、音效与生成音乐，最终拿到可直接发布的视频文件。
+  job_en: A short-video operator or motion designer who must batch-produce beat-synced motion-graphic
+    videos hands the script, copy and assets to this agent skill, which renders 1080p motion graphics
+    on the beat with AI voice-over, karaoke captions, SFX and generated music, delivering a publish-ready
+    video file.
+  pain: 卡点动效视频的旧流程要在剪辑软件里逐段对齐节拍、单独录配音、手工敲字幕时间轴、再找音效和配乐，一条成片往往要反复返工；批量出片时这些重复步骤成为主要时间成本，且节奏与字幕错位会直接影响成片可用性。
+  pain_en: The old workflow for beat-synced motion videos means aligning cuts to the beat clip by clip
+    in an editor, recording voice-over separately, hand-timing captions, then sourcing SFX and music;
+    each finished video needs repeated rework, and at batch volume these repetitive steps dominate the
+    time cost while misaligned beats or captions directly hurt publishability.
+  current_alternative: 当前替代方式是人工在 Premiere、After Effects 或剪映等剪辑工具里手动完成节拍对齐、配音、字幕和音效，或使用模板化的在线视频工具逐条套用；公开材料未显示用户已把该技能长期留在工作流中。
+  current_alternative_en: Today users do this manually in editors such as Premiere, After Effects or CapCut,
+    aligning beats, voice-over, captions and SFX by hand, or they apply template-based online video tools
+    one video at a time; public materials do not show users keeping this skill in their workflow long
+    term.
+  usage_reason: 推断：相较手动剪辑，该技能把节拍对齐、配音、逐字字幕、音效与配乐合并为一次由脚本和素材驱动的渲染动作，减少了逐段对拍和手工敲字幕这两步负担，因此需要批量出卡点视频、又缺少专职动效人力的短视频运营更可能在赶量时选择它；这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus manual editing, the skill merges beat alignment, voice-over, karaoke
+    captions, SFX and music into one render driven by script and assets, removing the clip-by-clip beat
+    matching and hand-timed caption steps, so short-video operators who must ship beat-synced videos at
+    volume without dedicated motion-design staff are the likeliest to choose it under deadline; this is
+    inferred from product capability and task structure, not confirmed by user feedback.'

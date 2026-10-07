@@ -272,3 +272,50 @@
     generation and in-game testing into continuous model-executable actions, cutting tool-switching and
     repeated trial and error, so individual modders lacking a full toolchain may try it; this is an inference
     from capability, not user feedback.
+- id: req-full-universal-modder-2026-10-07
+  project_slug: universal-modder
+  level: full
+  reviewed_at: '2026-10-07T02:04:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模组制作中逆向与素材生成分散、依赖个人经验的问题，痛点具体且不采用就要反复试错；买方是谁尚不清楚。
+    evidence_ids:
+    - ev-c52ed7b5e4a5f927
+  - gate: consensus
+    status: insufficient
+    reason: 仅有代码托管平台的星标数，属于关注度证据，不能说明模组作者已把它留在日常工作流中。
+    evidence_ids:
+    - ev-c52ed7b5e4a5f927
+    - ev-67ec12eecbdf77ef
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，钱可能来自个人自用或工作室定制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c52ed7b5e4a5f927
+  - gate: truth
+    status: insufficient
+    reason: 逆向与素材生成涉及版权与游戏厂商条款，公开材料未说明合规边界与人工确认环节，交付确定性待核验。
+    evidence_ids:
+    - ev-c52ed7b5e4a5f927
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有模组作者报告实际完成并安装模组的使用记录。
+  market: ''
+  job: 个人模组作者或小型游戏团队在准备为某款 PC 游戏制作改动时，处理游戏资源与代码文件，要完成结构侦察、逆向分析、图像/3D/音频素材制作、游戏内测试，并产出可安装模组与展示视频。
+  job_en: An individual modder or small game team preparing to modify a PC game works with game assets
+    and code files to complete structural recon, reverse engineering, image/3D/audio asset creation, in-game
+    testing, and produce an installable mod plus showcase video.
+  pain: 逆向与素材制作分散在反编译、资源解包、图像音频等多个工具和手工步骤中，依赖个人经验，缺少可复用流程，改动能否跑通常要反复试错；公开材料未给出用户抱怨原文，此痛点由工作流结构推理得出。
+  pain_en: Reverse engineering and asset creation are scattered across decompilers, asset unpackers and
+    image/audio tools and manual steps, driven by personal experience without a reusable process, so whether
+    a change works often requires repeated trial and error; no verbatim user complaint is public, so this
+    pain is inferred from workflow structure.
+  current_alternative: 作者手工使用反编译、资源解包工具与图像音频软件逐环节拼接，流程与经验高度个人化，或直接放弃改动。
+  current_alternative_en: Authors hand-stitch decompilers, asset unpackers and image/audio software step
+    by step, with a highly personal process, or simply abandon the change.
+  usage_reason: 相较手工逐环节拼接，它把侦察、逆向、素材生成与游戏内测试串成模型可执行的连续动作，减少在工具间搬运和重复试错的步骤，因此缺少完整工具链的个人模组作者会尝试它；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with hand-stitching each step, it chains recon, reverse engineering, asset
+    generation and in-game testing into continuous model-executable actions, cutting tool-switching and
+    repeated trial and error, so individual modders lacking a full toolchain may try it; this is an inference
+    from capability, not user feedback.

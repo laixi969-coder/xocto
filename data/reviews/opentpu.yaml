@@ -1,0 +1,87 @@
+- id: req-initial-opentpu-2026-10-07
+  project_slug: opentpu
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决自研加速器设计昂贵的问题，痛点真实，但公开材料未说明具体交付物与可用性，价值结构无法确认。
+    evidence_ids:
+    - ev-26b680c1f0322723
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量高，但讨论热度不等于硬件团队已采用，缺少使用者反馈或复现记录。
+    evidence_ids:
+    - ev-26b680c1f0322723
+  - gate: model
+    status: insufficient
+    reason: 开源项目，买方与付费路径均未披露，无法判断钱从哪来，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-26b680c1f0322723
+  - gate: truth
+    status: insufficient
+    reason: “由 AI 开发”的表述无法核对，设计能否综合、验证是否通过均无公开证据。
+    evidence_ids:
+    - ev-26b680c1f0322723
+  next_validation: 收集该仓库的 README、设计文档与 issue/discussion，确认其加速器设计是否可综合、是否有第三方复现或验证结果。
+  market: ''
+  job: 芯片或硬件团队在需要自研推理加速器、又缺乏完整设计资源时，打开该仓库查看加速器设计与其生成方式，以判断能否复用或作为起点。
+  job_en: When a chip or hardware team needs a self-built inference accelerator but lacks full design
+    resources, it opens this repository to inspect the accelerator design and how it was generated, to
+    judge whether it can be reused or used as a starting point.
+  pain: 自研加速器设计周期长、人力贵，小团队难以承担从架构到验证的完整流程。
+  pain_en: Building an accelerator in-house takes a long cycle and expensive headcount, and small teams
+    struggle to cover the full path from architecture to verification.
+  current_alternative: 目前多依赖商用 IP、大厂加速卡或从零手写 RTL 与验证流程。
+  current_alternative_en: Today teams mostly rely on commercial IP, big-vendor accelerator cards, or hand-writing
+    RTL and verification flows from scratch.
+  usage_reason: 推断：若该仓库确实提供可复现的加速器设计与生成流程，团队可省去从零搭建架构的第一步，因此缺设计资源的小型硬件团队可能试用；但公开材料未给出设计规模、可综合性或验证结果，选择理由尚不成立。
+  usage_reason_en: 'Inference: if the repository truly offers a reproducible accelerator design and generation
+    flow, teams could skip the first step of building an architecture from scratch, so small hardware
+    teams short on design resources might try it; however, public material gives no design scale, synthesizability,
+    or verification results, so the reason to choose it is not yet established.'
+- id: req-full-opentpu-2026-10-07
+  project_slug: opentpu
+  level: full
+  reviewed_at: '2026-10-07T02:03:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅一句“由 AI 开发的开源 AI 加速器”，既未说明用户任务与痛点，也未给出输入、交付物或旧替代行为，连需求与痛点都写不出来，价值结构无法成立。
+    evidence_ids:
+    - ev-26b680c1f0322723
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、设计文档与 issue/discussion，确认其加速器设计是否可综合、是否有第三方复现或验证结果。
+  market: ''
+  job: 芯片或硬件团队在需要自研推理加速器、又缺乏完整设计资源时，打开该开源仓库，查看其加速器设计与生成方式，判断能否复用或作为起点。
+  job_en: When a chip or hardware team needs a self-built inference accelerator but lacks full design
+    resources, it opens this open-source repository to inspect the accelerator design and how it was generated,
+    to judge whether it can be reused or used as a starting point.
+  pain: 公开材料只写“由 AI 开发的开源 AI 加速器”，没有说明自研加速器设计周期长、人力贵这一痛点，也没有任何使用者抱怨或工作流描述可引用。
+  pain_en: Public material only states it is an 'open-source AI accelerator, developed by AI'; it does
+    not describe the pain of long design cycles or expensive headcount, and no user complaint or workflow
+    description is available to cite.
+  current_alternative: 公开材料未提及团队现在用什么替代，商用 IP、大厂加速卡或手写 RTL 都只是外部常识，不是该项目证据支持的替代行为。
+  current_alternative_en: Public material does not mention what teams use today; commercial IP, big-vendor
+    accelerator cards, or hand-written RTL are outside common knowledge, not alternative behavior supported
+    by this project's evidence.
+  usage_reason: 推断：若仓库确实提供可复现的加速器设计与生成流程，缺设计资源的小团队可能省去从零搭建架构的第一步；但公开材料未给出输入、交付物、可综合性或验证结果，选择理由无法成立。
+  usage_reason_en: 'Inference: if the repository truly offers a reproducible accelerator design and generation
+    flow, small teams short on design resources might skip the first step of building an architecture
+    from scratch; but public material gives no inputs, deliverables, synthesizability, or verification
+    results, so the reason to choose it cannot be established.'

@@ -1,0 +1,85 @@
+- id: req-initial-patchcord-2026-10-07
+  project_slug: patchcord
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决会议麦克风音质问题，但公开材料未说明旧流程痛点与不采用的后果，价值判断缺依据。
+    evidence_ids:
+    - ev-09cc183777c33927
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供任何采用、评价或使用规模数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-09cc183777c33927
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自个人订阅还是企业采购。
+    evidence_ids:
+    - ev-09cc183777c33927
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否使用 AI 模型、处理延迟与隐私边界，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-09cc183777c33927
+  next_validation: 收集 Patchcord 官方定价页或可复现的音频前后对比实测，确认其处理方式与目标用户。
+  market: ''
+  job: 远程办公者在 Mac 上参加客户或团队会议时，处理麦克风输入音频以获得更清晰的人声。
+  job_en: Remote workers on Mac meetings with clients or teams process microphone input audio to get clearer
+    voice.
+  pain: 公开材料只描述音质目标，未给出用户对现有会议音频不满的具体证据，也未说明不处理会造成什么可核对后果。
+  pain_en: Public material only describes the audio-quality goal; it gives no concrete evidence of user
+    dissatisfaction with current meeting audio, nor what verifiable consequence follows from not processing
+    it.
+  current_alternative: 常见替代是会议软件自带降噪、系统音频设置或外接麦克风，但候选未提供用户实际使用哪种方式的证据。
+  current_alternative_en: Common alternatives are built-in meeting-app noise reduction, system audio settings
+    or an external microphone, but the candidate gives no evidence of which users actually use.
+  usage_reason: 推断：若其均衡处理确实改善人声，常被听出音质问题的远程工作者可能选择它，但缺少用户反馈与实测对比，无法确认替换旧做法的动机。
+  usage_reason_en: 'Inference: if its EQ processing genuinely improves voice, remote workers whose audio
+    is often noticed as poor might choose it, but with no user feedback or reproducible comparison, the
+    motive to replace the old approach cannot be confirmed.'
+- id: req-full-patchcord-2026-10-07
+  project_slug: patchcord
+  level: full
+  reviewed_at: '2026-10-07T02:03:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Mac 会议麦克风人声不清的需求，痛点是环境噪音与设备差异导致对面听不清；旧做法是会议软件降噪或换麦克风，不解决则沟通可信度受损。公开材料仅一句功能描述，交付链路属工作流结构推理。
+    evidence_ids:
+    - ev-09cc183777c33927
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 公开资料 发布页一句功能描述，无用户评价、采用规模或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-09cc183777c33927
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅还是企业采购不明；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-09cc183777c33927
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否使用 AI 模型、处理延迟与音频是否离开本机，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-09cc183777c33927
+  next_validation: 追踪 Patchcord 官方定价页或产品页，确认收费方式、处理链路与是否本地处理音频。
+  market: ''
+  job: 远程办公者在 Mac 上参加客户或团队会议时，处理麦克风输入音频，让对面听到更清晰的人声。
+  job_en: A remote worker on a Mac processes microphone input during client or team meetings so the other
+    side hears clearer voice.
+  pain: Mac 内置麦克风与不同房间环境导致人声发闷、底噪明显，会议对面容易听不清或反复要求重复，影响沟通可信度。
+  pain_en: Built-in Mac mics and varying room acoustics make voice sound muffled or noisy, so the other
+    side struggles to hear or asks for repeats, hurting communication credibility.
+  current_alternative: 会议软件自带降噪、系统声音设置、外接麦克风或事后音频处理，但多数只做降噪不做人声均衡。
+  current_alternative_en: Built-in meeting-app noise reduction, system audio settings, an external microphone,
+    or post-hoc audio processing, most of which reduce noise but do not EQ the voice.
+  usage_reason: 推断：相较只做降噪的会议软件，它在麦克风输入链路上直接做均衡，用户无需换硬件或事后修音即可让对面听到更接近录音棚的人声，因此常被听出音质问题的 Mac 远程工作者会尝试。
+  usage_reason_en: 'Inference: unlike meeting apps that only suppress noise, it applies EQ directly on
+    the mic input chain, so users get studio-like voice without new hardware or post-editing, which is
+    why Mac remote workers whose audio is often noticed as poor would try it.'

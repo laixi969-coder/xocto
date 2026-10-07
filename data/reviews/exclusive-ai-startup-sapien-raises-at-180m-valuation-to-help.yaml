@@ -128,3 +128,98 @@
     operating data and outputs profit-attribution conclusions, removing cross-system extraction and table-building
     steps so analysts focus on reviewing conclusions; however, public materials provide no user feedback
     or cases confirming this choice motive.'
+- id: req-initial-exclusive-ai-startup-sapien-raises-at-180m-valuation-to-help-2026-10-07
+  project_slug: exclusive-ai-startup-sapien-raises-at-180m-valuation-to-help
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决利润归因这一具体任务，痛点是跨系统手工取数与口径对齐耗时且易错，旧做法明确存在，价值结构成立。
+    evidence_ids:
+    - ev-f62dfbd1096c8fd9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道与官网自述，未见客户案例、用户评价或采用规模，共识环节缺少可核对证据。
+    evidence_ids:
+    - ev-f62dfbd1096c8fd9
+  - gate: model
+    status: insufficient
+    reason: 买方被描述为财务与运营团队，但定价、计费方式与付费路径均未公开，收入模式只能推断。
+    evidence_ids:
+    - ev-f62dfbd1096c8fd9
+  - gate: truth
+    status: insufficient
+    reason: 利润归因结果需要人工复核，产品是否提供可追溯的计算口径与人工确认边界，公开材料未说明。
+    evidence_ids:
+    - ev-f62dfbd1096c8fd9
+  next_validation: 收集 Sapien 官方定价页或公开客户案例，确认其计费方式与是否有企业实际采用。
+  market: ''
+  job: 财务分析师或经营分析人员在月度或季度经营复盘时，处理收入、成本与业务动因数据，要完成利润归因并说明哪些因素真正驱动了利润变化。
+  job_en: A financial or business operations analyst, during monthly or quarterly business reviews, works
+    with revenue, cost and business-driver data to complete profit attribution and explain which factors
+    really drove profit changes.
+  pain: 利润归因通常要跨多个系统手工取数、对齐口径并反复核对，耗时长且容易在口径不一致时得出错误结论。
+  pain_en: Profit attribution usually requires manually pulling data across systems, aligning definitions
+    and re-checking, which is slow and can produce wrong conclusions when definitions disagree.
+  current_alternative: 旧做法是分析师用 Excel 或 BI 工具手工拉数、拼表并逐项核对，或依赖外部咨询做一次性分析。
+  current_alternative_en: The old way is analysts pulling data and stitching spreadsheets in Excel or
+    BI tools and checking item by item, or paying consultants for a one-off analysis.
+  usage_reason: 推断：若产品能直接接入财务与业务数据源并自动完成归因计算，可省去手工取数与拼表这一步，让分析师把时间放在解释结论上；因此跨系统数据多、复盘频率高的中大型企业财务团队更可能选择它。这一判断基于产品能力与任务结构，尚无公开客户案例或留存数据支持。
+  usage_reason_en: 'Inference: if the product can connect directly to finance and business data sources
+    and automate attribution, it removes the manual data-pulling and spreadsheet-stitching step so analysts
+    spend time interpreting results; finance teams at larger firms with many systems and frequent reviews
+    are therefore more likely to choose it. This is based on product capability and task structure, with
+    no public customer case or retention data yet.'
+- id: req-full-exclusive-ai-startup-sapien-raises-at-180m-valuation-to-help-2026-10-07
+  project_slug: exclusive-ai-startup-sapien-raises-at-180m-valuation-to-help
+  level: full
+  reviewed_at: '2026-10-07T02:01:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决利润归因与经营复盘这一具体任务，痛点是跨系统手工取数、口径对齐耗时且易错，旧替代（Excel/BI 手工拼表、外部咨询）明确存在；官网称产品学习数据中的关系与业务规则并允许团队修正，交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-f89ad629c3fc9faa
+    - ev-2fe18ab88e445b88
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有官网自述与融资报道，未见客户案例、用户评价或采用规模，无法判断财务与运营人员是否已把它纳入常规复盘流程，共识环节缺少可核对证据。
+    evidence_ids:
+    - ev-f89ad629c3fc9faa
+    - ev-2fe18ab88e445b88
+  - gate: model
+    status: insufficient
+    reason: 买方被描述为财务与运营团队，但定价、计费方式与采购路径均未公开，收入来自 to B 订阅还是项目制只能推断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f89ad629c3fc9faa
+  - gate: truth
+    status: insufficient
+    reason: 利润归因结果需人工复核，产品是否提供可追溯的计算口径、人工确认边界与数据安全说明，公开材料未交代，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-f89ad629c3fc9faa
+    - ev-2fe18ab88e445b88
+  next_validation: 追踪 Sapien 官网是否上线定价页或公开客户案例（含企业名称、部署方式与计费口径），以核验其 to B 付费路径与实际采用。
+  market: ''
+  job: 财务分析师或经营分析人员在月度/季度经营复盘时，处理来自 ERP、财务系统与业务系统的收入、成本与业务动因数据，要完成利润归因，说明哪些因素真正驱动了利润变化。
+  job_en: A financial or business-operations analyst, during monthly or quarterly business reviews, works
+    with revenue, cost and business-driver data from ERP, finance and operational systems to complete
+    profit attribution and explain which factors really drove profit changes.
+  pain: 利润归因要跨多个系统手工取数、对齐口径并反复核对，耗时长且口径不一致时容易得出错误结论；同一套业务规则还要反复向不同人解释。
+  pain_en: Profit attribution requires manually pulling data across systems, aligning definitions and
+    re-checking, which is slow and can produce wrong conclusions when definitions disagree; the same business
+    rules must also be re-explained repeatedly.
+  current_alternative: 旧做法是分析师用 Excel 或 BI 工具手工拉数、拼表并逐项核对，或请外部咨询做一次性分析，业务规则靠文档和口头传递。
+  current_alternative_en: The old way is analysts pulling data and stitching spreadsheets in Excel or
+    BI tools and checking item by item, or paying consultants for a one-off analysis, with business rules
+    passed along through documents and word of mouth.
+  usage_reason: 推断：官网称产品会学习数据中的关系、定义与业务规则，并允许团队修正所学内容，从而省去每次复盘重复解释口径这一步；因此跨系统数据多、复盘频率高的中大型企业财务与运营团队更可能选择它。该因果基于产品能力与任务结构，尚无公开客户案例或留存数据支持。
+  usage_reason_en: 'Inference: the site says the product studies relationships, definitions and business
+    rules in the data and lets teams refine what it learns, removing the step of re-explaining definitions
+    at every review; finance and operations teams at larger firms with many systems and frequent reviews
+    are therefore more likely to choose it. This causal claim rests on product capability and task structure,
+    with no public customer case or retention data yet.'

@@ -349,3 +349,53 @@
     and ad-law checks into one command, so users only supply a brief and footage; inferred that budget-constrained
     merchants needing frequent vertical assets would choose it, though no user feedback yet confirms this
     motive.
+- id: req-full-brewreel-2026-10-07
+  project_slug: brewreel
+  level: full
+  reviewed_at: '2026-10-07T02:00:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是小商家无剪辑与文案能力却要产出竖版宣传片的需求，痛点是人工挑镜头写文案成本高、便宜模型出片难看，不解决就只能放弃投放或外包付费；公开说明已能还原输入简报、AI 选镜写文案、一条命令出片的闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-92f921e62ecdcf3e
+    - ev-b61c58d11d845929
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 113 升至 129，说明开发者社区持续关注，但公开材料没有目标商家采用、复购或把成片投入投放的证据，关注度不能等同于持续使用。
+    evidence_ids:
+    - ev-92f921e62ecdcf3e
+    - ev-b61c58d11d845929
+  - gate: model
+    status: insufficient
+    reason: 项目标注开源可商用，公开材料未给出定价页、付费主体或收入路径，to B 商家订阅还是 to VC 尚无公开事实支撑，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-92f921e62ecdcf3e
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称广告法校验仍需人工确认，但成片质量是否稳定、镜头来源与版权边界、人工复核环节如何界定，均缺可复现的部署文档或实测证据。
+    evidence_ids:
+    - ev-92f921e62ecdcf3e
+    - ev-b61c58d11d845929
+  next_validation: 追踪 BrewReel 官方仓库的 README、issue 与 discussion，确认是否有商家公开描述部署后替代了哪条旧剪辑流程及成片实际投放结果。
+  market: ''
+  job: 小商家或营销人员手里只有一份产品简报和零散素材时，打开它把简报交给 AI，由 AI 挑选镜头、写文案并合成竖版宣传片，最终拿到一条可直接投放的成片；广告法校验结果仍需人工确认。
+  job_en: A small merchant or marketer with only a product brief and scattered footage opens the tool,
+    hands the brief to the AI, which selects shots, writes copy and assembles a vertical promo video,
+    ending with a publishable cut; ad-law checks still need human confirmation.
+  pain: 公开材料显示它针对的是预算有限、请不起剪辑与文案的商家：竖版宣传片制作需要挑镜头、写文案、套模板多步人工，而便宜模型直接出片往往不好看；不解决的后果是只能放弃短视频投放或外包付费。
+  pain_en: 'Public materials indicate it targets merchants who cannot afford editors and copywriters:
+    vertical promo production requires manual shot selection, copywriting and templating, and cheap models
+    alone produce poor output; leaving it unsolved means giving up short-video distribution or paying
+    for outsourcing.'
+  current_alternative: 公开材料未直接描述旧流程，按工作流结构推理，替代方式是人工剪辑软件逐条剪、外包给剪辑或代运营，或直接用通用 AI 视频工具生成但成片质量与合规性不可控。
+  current_alternative_en: Public materials do not directly describe the old workflow; by workflow-structure
+    inference, alternatives are manual editing per clip, outsourcing to editors or agencies, or generic
+    AI video tools whose output quality and compliance are uncontrolled.
+  usage_reason: 推断：相较人工逐条剪辑或外包，它把“挑镜头—写文案—合成”压缩为提交一份简报后一条命令出片，并内置 3 种配方、6 个行业模板与广告法校验，减少的是分镜筛选与文案撰写这两步人工负担；预算有限、需要批量产出竖版素材的小商家或营销人员会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus manual per-clip editing or outsourcing, it compresses shot selection,
+    copywriting and assembly into one command after submitting a brief, with 3 recipes, 6 industry templates
+    and ad-law checks, removing the manual burden of shot filtering and copy drafting; budget-limited
+    merchants or marketers needing batch vertical assets would choose it in that situation.'

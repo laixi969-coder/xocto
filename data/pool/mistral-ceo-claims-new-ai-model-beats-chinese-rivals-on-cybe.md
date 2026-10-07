@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxOakhBQmJuQXY1
 summary: Mistral CEO claims new AI model beats Chinese rivals on cybersecurity Startup Fortune
 first_seen: '2026-10-06T10:45:32Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

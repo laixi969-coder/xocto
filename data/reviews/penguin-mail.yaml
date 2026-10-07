@@ -1,0 +1,84 @@
+- id: req-initial-penguin-mail-2026-10-07
+  project_slug: penguin-mail
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 Linux 桌面邮件客户端薄弱、AI 需另开工具的问题，痛点存在，但公开材料未说明 AI 具体做什么、交付什么。
+    evidence_ids:
+    - ev-62589839a22daca4
+  - gate: consensus
+    status: insufficient
+    reason: 社区有一定讨论，但没有用户反馈或采用证据表明它已进入日常邮件工作流。
+    evidence_ids:
+    - ev-62589839a22daca4
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露定价或买方，付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-62589839a22daca4
+  - gate: truth
+    status: insufficient
+    reason: AI 功能的具体范围、所用模型与本地化程度均无公开细节，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-62589839a22daca4
+  next_validation: 收集该项目的官方文档或仓库说明，确认内置 AI 的具体功能、所用模型以及邮件数据是否在本地处理。
+  market: ''
+  job: Linux 桌面用户在本地收件箱里处理日常邮件时，使用该客户端并借助内置 AI 完成撰写、整理或分类等任务。
+  job_en: A Linux desktop user working through a local inbox uses this client and relies on built-in AI
+    to draft, organize, or classify mail.
+  pain: Linux 桌面长期缺少体验完整的邮件客户端，把邮件交给网页版又担心数据离开本地。
+  pain_en: Linux desktops have long lacked a polished mail client, while handing mail to web services
+    raises concerns about data leaving the machine.
+  current_alternative: 目前多用 Thunderbird 等传统客户端，或直接用网页邮箱，AI 能力需另开工具。
+  current_alternative_en: Today users mostly rely on traditional clients such as Thunderbird or webmail
+    directly, with AI handled in a separate tool.
+  usage_reason: 推断：若 AI 能在本地客户端内直接处理邮件，用户可少一步把内容复制到外部助手的操作，因此重视本地数据的 Linux 用户可能试用；但公开材料未说明 AI 的具体动作与效果，选择理由尚不成立。
+  usage_reason_en: 'Inference: if AI can handle mail directly inside a local client, users save the step
+    of copying content into an external assistant, so Linux users who value local data might try it; however,
+    public material does not describe the AI''s concrete actions or results, so the reason to choose it
+    is not yet established.'
+- id: req-full-penguin-mail-2026-10-07
+  project_slug: penguin-mail
+  level: full
+  reviewed_at: '2026-10-07T02:03:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全是企鹅百科与出版社页面，与邮件客户端无关，无法还原用户任务、痛点与旧替代，价值关不成立。
+    evidence_ids:
+    - ev-7e8edb31ef58ad42
+    - ev-deb34d3626cdb138
+    - ev-6d543d354906b18c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Penguin Mail 官方仓库或产品页，确认其邮件客户端功能、内置 AI 的具体动作与数据是否本地处理。
+  market: ''
+  job: Linux 桌面用户在本地收件箱里处理日常邮件时，使用该客户端并借助内置 AI 完成撰写、整理或分类等任务。
+  job_en: A Linux desktop user working through a local inbox uses this client and relies on built-in AI
+    to draft, organize, or classify mail.
+  pain: 公开材料未提供任何用户痛点证据，无法说明 Linux 邮件处理中哪一步难受、不解决会失去什么。
+  pain_en: Public material provides no user-pain evidence, so it cannot show which step of Linux mail
+    handling hurts or what is lost by not solving it.
+  current_alternative: 公开材料未说明用户当前用什么替代，无法确认旧做法是 Thunderbird、网页邮箱还是其他工具。
+  current_alternative_en: Public material does not state what users currently use instead, so the old
+    approach cannot be confirmed as Thunderbird, webmail, or another tool.
+  usage_reason: 推断：若 AI 能在本地客户端内直接处理邮件，用户可少一步复制到外部助手，但公开材料未说明 AI 的具体动作与效果，选择理由不成立。
+  usage_reason_en: 'Inference: if AI could handle mail inside a local client, users would save a copy-to-external-assistant
+    step, but public material does not describe the AI''s concrete actions or results, so the reason to
+    choose it is not established.'

@@ -1,0 +1,94 @@
+- id: req-initial-machinaraxs在韩国海军浦项号部署装备运用ai参谋并启动实证验证-2026-10-07
+  project_slug: machinaraxs在韩国海军浦项号部署装备运用ai参谋并启动实证验证
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决舰艇装备运用判断这一需求，但公开材料未说明旧流程、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-ae825e0fea96935b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇报道提及部署与实证验证，未见使用方评价、场景细节或采用范围，共识环节缺少可核对材料。
+    evidence_ids:
+    - ev-ae825e0fea96935b
+  - gate: model
+    status: insufficient
+    reason: 未披露买方、合同金额或收费方式，to B 或 to G 的付费路径无法判断，属未知而非已验证。
+    evidence_ids:
+    - ev-ae825e0fea96935b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对建议准确率、人工复核边界与安全责任划分，交付确定性缺少公开依据。
+    evidence_ids:
+    - ev-ae825e0fea96935b
+  next_validation: 收集MachinaRAXS官方或韩国海军公开的该实证验证说明文档，确认系统输入数据、输出形式与人工确认流程。
+  market: ''
+  job: 韩国海军舰艇上的装备运用参谋军官，在值班与装备运用决策时，处理装备状态与运用条件材料，要形成可执行的装备运用建议。
+  job_en: Equipment operations staff officers on South Korean Navy vessels handle equipment status and
+    employment-condition material during watch and employment decisions to produce executable equipment
+    employment recommendations.
+  pain: 公开材料未说明原有做法耗时在哪、出错代价如何，也未给出任何用户抱怨或旧流程描述，痛点无法从现有事实还原。
+  pain_en: Public material does not describe where the previous process was costly or what errors cost,
+    and gives no user complaints or old-workflow description, so the pain cannot be reconstructed from
+    available facts.
+  current_alternative: 公开材料未说明此前由谁、用什么方式完成装备运用判断，无法确认替代的旧做法。
+  current_alternative_en: Public material does not state who or what previously produced equipment employment
+    judgments, so the replaced practice cannot be confirmed.
+  usage_reason: 仅知已部署并启动实证验证，缺少输入、输出与人工确认环节的公开说明，无法解释舰上人员为何选择它而非原有流程；这是判断，不是已验证事实。
+  usage_reason_en: Only deployment and the start of field validation are known; without public detail
+    on inputs, outputs and human confirmation, there is no basis to explain why shipboard staff would
+    choose it over the existing process; this is a judgment, not a verified fact.
+- id: req-full-machinaraxs在韩国海军浦项号部署装备运用ai参谋并启动实证验证-2026-10-07
+  project_slug: machinaraxs在韩国海军浦项号部署装备运用ai参谋并启动实证验证
+  level: full
+  reviewed_at: '2026-10-07T02:02:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决舰艇装备运用参谋在值班中综合装备状态与运用条件、形成可执行建议的需求，痛点是判断链条长且责任重；公开材料已说明在“浦项”号部署并启动实证验证，交付闭环可还原为系统给建议、参谋确认后执行，属工作流结构推理，痛点强度与旧流程细节尚未公开。
+    evidence_ids:
+    - ev-ae825e0fea96935b
+  - gate: consensus
+    status: insufficient
+    reason: 仅一篇报道提及部署与实证验证，未见使用方评价、采用范围或场景细节，无法判断参谋军官是否形成持续使用共识；公开关注度不能替代采用证据。
+    evidence_ids:
+    - ev-ae825e0fea96935b
+  - gate: model
+    status: insufficient
+    reason: 未披露买方、合同金额或收费方式，to G 的付费路径无法核验；可判断钱可能来自韩国海军采购或国防预算，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-ae825e0fea96935b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对建议准确率、人工复核边界与安全责任划分，装备运用建议的确定性交付缺少公开依据；实证验证本身说明交付尚未定型。
+    evidence_ids:
+    - ev-ae825e0fea96935b
+  next_validation: 追踪MachinaRAXS官方或韩国海军公开的该实证验证说明文档，确认系统输入数据、输出形式与人工确认流程。
+  market: ''
+  job: 韩国海军“浦项”号上的装备运用参谋军官，在舰艇值班与装备运用决策时，处理舰艇装备状态与运用条件材料，要形成可执行的装备运用建议并交舰上人员确认后执行。
+  job_en: Equipment operations staff officers aboard the South Korean Navy vessel Pohang, during watch
+    and equipment employment decisions, handle shipboard equipment status and employment-condition material
+    to produce executable equipment employment recommendations that shipboard staff confirm before execution.
+  pain: 舰艇装备运用判断依赖参谋军官在有限值班时间内综合装备状态与运用条件，判断链条长、责任重；公开材料只说明已部署并启动实证验证，未给出耗时、出错代价或用户抱怨，因此痛点强度属工作流结构推理而非已验证事实。
+  pain_en: Equipment employment judgments rely on staff officers synthesizing equipment status and employment
+    conditions within limited watch time, a long judgment chain with heavy accountability; public material
+    only states deployment and the start of field validation, giving no time cost, error cost or user
+    complaints, so pain intensity is a workflow-structure inference, not a verified fact.
+  current_alternative: 公开材料未说明此前由谁、用什么方式完成装备运用判断，可确认的旧做法是参谋军官依据装备状态与运用条件材料人工形成建议；是否另有纸质手册、既有决策支持系统或岸基支援，公开材料未披露。
+  current_alternative_en: Public material does not state who or what previously produced equipment employment
+    judgments; the confirmable old practice is staff officers manually forming recommendations from equipment
+    status and employment-condition material, while whether paper manuals, existing decision-support systems
+    or shore-based support were also used is not disclosed.
+  usage_reason: 推断：相较参谋军官完全人工综合装备状态与运用条件材料，该AI参谋把这一步交给系统先给出装备运用建议、再由舰上参谋确认执行，减少的是参谋自行汇总与推演这一环节的负担；因此会在舰艇值班与装备运用决策场景下被这类参谋军官选用。公开材料未提供用户反馈或留存证据，动机属推断。
+  usage_reason_en: 'Inference: compared with staff officers fully manually synthesizing equipment status
+    and employment-condition material, the AI staff hands that step to the system to first produce an
+    equipment employment recommendation, which shipboard staff then confirm and execute, reducing the
+    burden of the officer''s own aggregation and reasoning step; hence it would be chosen by such staff
+    officers in shipboard watch and equipment employment decision situations. Public material provides
+    n'

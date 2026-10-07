@@ -1,0 +1,82 @@
+- id: req-initial-easycut-2026-10-07
+  project_slug: easycut
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决模型生成视频的剪辑任务，但材料未说明具体痛点、旧流程负担和不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-336a9d2adbb6bcd9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有用户评价、采用或社区讨论证据。
+    evidence_ids:
+    - ev-336a9d2adbb6bcd9
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-336a9d2adbb6bcd9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，交付是否确定、人工边界如何均无材料支持。
+    evidence_ids:
+    - ev-336a9d2adbb6bcd9
+  next_validation: 收集EasyCut官方产品页或文档，确认它接收的输入格式、执行的剪辑动作与最终交付形式。
+  market: ''
+  job: 短视频剪辑师或社交媒体运营在用Claude生成动态视频片段后，需要把这些片段整理并剪成一条可发布的成片。
+  job_en: A short-video editor or social media operator, after generating motion clips with Claude, needs
+    to organise those clips and cut them into one publishable video.
+  pain: 公开材料没有说明模型生成素材在剪辑时具体卡在哪一步，是格式不兼容、节奏难对齐还是导出麻烦，因此痛点无法确认。
+  pain_en: Public material does not say which step actually breaks when editing model-generated material,
+    whether format mismatch, pacing alignment or export friction, so the pain cannot be confirmed.
+  current_alternative: 现有做法是用通用剪辑软件手工处理这些片段，但候选材料没有描述这一旧流程的具体负担。
+  current_alternative_en: The existing approach is handling these clips manually in general editing software,
+    but the candidate material does not describe the burden of that old workflow.
+  usage_reason: 无法判断：材料只给出一句定位，没有说明它相较通用剪辑软件减少了哪一步操作或改善了哪项可核对结果，因此不能推断用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material gives only a one-line positioning and does not say
+    which step it removes versus general editing software or which checkable result it improves, so why
+    users would choose it cannot be inferred.'
+- id: req-full-easycut-2026-10-07
+  project_slug: easycut
+  level: full
+  reviewed_at: '2026-10-07T02:01:47Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决Claude生成动态视频后的剪辑任务，但公开材料未说明具体痛点、旧流程负担和不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-f0d8352852a56242
+    - ev-9a624545232905b9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集EasyCut官方产品页或文档，确认它接收的输入格式、执行的剪辑动作与最终交付形式。
+  market: ''
+  job: 短视频剪辑师或社交媒体运营在用Claude生成动态视频片段后，需要把这些片段整理并剪成一条可发布到TikTok、Reels或YouTube的成片。
+  job_en: A short-video editor or social media operator, after generating motion clips with Claude, needs
+    to organise those clips and cut them into one publishable video for TikTok, Reels or YouTube.
+  pain: 公开材料没有说明模型生成素材在剪辑环节具体卡在哪一步，是格式不兼容、节奏难对齐还是导出麻烦，因此痛点无法确认。
+  pain_en: Public material does not say which step actually breaks when editing model-generated material,
+    whether format mismatch, pacing alignment or export friction, so the pain cannot be confirmed.
+  current_alternative: 现有做法是用通用剪辑软件手工处理这些片段，但候选材料没有描述这一旧流程的具体负担。
+  current_alternative_en: The existing approach is handling these clips manually in general editing software,
+    but the candidate material does not describe the burden of that old workflow.
+  usage_reason: 无法判断：材料只给出一句定位，没有说明它相较通用剪辑软件减少了哪一步操作或改善了哪项可核对结果，因此不能推断用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material gives only a one-line positioning and does not say
+    which step it removes versus general editing software or which checkable result it improves, so why
+    users would choose it cannot be inferred.'

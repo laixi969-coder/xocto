@@ -1,0 +1,83 @@
+- id: req-initial-cxai-launches-beat-new-agentic-ai-product-that-turns-work-qu-2026-10-07
+  project_slug: cxai-launches-beat-new-agentic-ai-product-that-turns-work-qu
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公告只有把工作队列转为行动的方向性描述，未说明解决什么具体任务与痛点，旧流程与不采用后果无法还原。
+    evidence_ids:
+    - ev-8f09b5508e29952a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关不成立，且无客户采用或评价证据。
+    evidence_ids:
+    - ev-8f09b5508e29952a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关不成立，公告未披露定价与买方，付费路径无法判断。
+    evidence_ids:
+    - ev-8f09b5508e29952a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关不成立，无法核对 agent 执行动作的确定性与人工边界。
+    evidence_ids:
+    - ev-8f09b5508e29952a
+  next_validation: 收集 CXAI 官方产品页或发布文档，确认 Beat 接入的工单系统、执行动作与人工确认机制。
+  market: ''
+  job: 客服或后台运营人员在面对积压工单队列时，需要逐条判断并推进处理，希望由系统代为执行部分动作。
+  job_en: Customer service or back-office staff facing a backlog of tickets must judge and advance each
+    item, and would like a system to carry out part of the actions.
+  pain: 公开材料未说明具体痛点，只能推断工单积压与逐条处理存在负担，缺少用户抱怨或替代行为证据。
+  pain_en: Public material names no concrete pain; one can only infer burden from ticket backlogs and
+    item-by-item handling, with no user complaint or workaround evidence.
+  current_alternative: 现有做法可能是人工在工单系统内逐条分派与回复，或使用规则型自动化与简单机器人。
+  current_alternative_en: The current alternative is likely manual triage and replies inside a ticketing
+    system, or rule-based automation and simple bots.
+  usage_reason: 推断：若它直接读取队列并代为执行动作，可减少运营人员逐条打开与分派的步骤，因此工单量大的团队会试用；但公告未提供客户案例或采用证据。
+  usage_reason_en: 'Inference: if it reads the queue directly and executes actions, it cuts the steps
+    staff spend opening and assigning each item, so high-volume teams would try it; the announcement offers
+    no customer case or adoption evidence.'
+- id: req-full-cxai-launches-beat-new-agentic-ai-product-that-turns-work-qu-2026-10-07
+  project_slug: cxai-launches-beat-new-agentic-ai-product-that-turns-work-qu
+  level: full
+  reviewed_at: '2026-10-07T02:01:23Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公告仅称把工作队列转为行动，未说明解决什么具体任务、痛点强度与不采用后果，旧流程与交付结果无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-8f09b5508e29952a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 CXAI 官方产品页或发布文档，确认 Beat 接入的工单系统、执行动作与人工确认机制。
+  market: ''
+  job: 客服与后台运营人员在工单或任务队列积压时，需要逐条判断优先级、分派并推进处理，希望系统读取队列后代为完成部分动作。
+  job_en: Customer service and back-office staff facing a backlog of tickets or task queues must judge
+    priority, assign and advance each item, and want a system to read the queue and carry out part of
+    the actions.
+  pain: 公开材料只有“把工作队列转为行动”的方向性表述，未说明具体痛点，也无用户抱怨、旧流程细节或替代行为证据，只能推断逐条处理存在负担。
+  pain_en: Public material only says it 'turns work queues into action'; no concrete pain, user complaint,
+    legacy process detail or workaround evidence is given, so the burden of item-by-item handling is only
+    inferred.
+  current_alternative: 推断现有做法是人工在工单系统内逐条分派与回复，或使用规则型自动化与简单机器人。
+  current_alternative_en: The inferred current alternative is manual triage and replies inside a ticketing
+    system, or rule-based automation and simple bots.
+  usage_reason: 推断：若它直接读取队列并代为执行动作，可减少运营人员逐条打开与分派的步骤，因此工单量大的团队可能试用；但公告未提供客户案例或采用证据，选择动机无法核实。
+  usage_reason_en: 'Inference: if it reads the queue directly and executes actions, it cuts the steps
+    staff spend opening and assigning each item, so high-volume teams might try it; the announcement offers
+    no customer case or adoption evidence, so the choice motive cannot be verified.'

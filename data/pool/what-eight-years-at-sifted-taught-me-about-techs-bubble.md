@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/what-eight-years-at-sifted-taught-me-a
 summary: ''
 first_seen: '2026-10-06T05:00:55Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

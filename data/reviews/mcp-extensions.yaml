@@ -353,3 +353,46 @@
     app switching, re-login and copy-pasting context. Developers and users already working inside ChatGPT
     would therefore pick it when they need external capability in the same conversation. This is an inference
     from product capability and task structure, not confirmed by user feedback or cust'
+- id: req-full-mcp-extensions-2026-10-07
+  project_slug: mcp-extensions
+  level: full
+  reviewed_at: '2026-10-07T02:02:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一句仓库描述与 star 数，无法还原开发者当前分发插件的旧流程、输入动作与不解决的后果；仅凭“做成原生插件”看不出刚性痛点，更像分发渠道的补充，属于自嗨拼凑，价值关不成立。
+    evidence_ids:
+    - ev-d3596fabb0143df8
+    - ev-973cbffd20be2e9f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 openai/mcp-extensions 仓库的 README、提交指南与 issue/discussion，确认插件审核流程、计费方式与是否有开发者公开的接入案例。
+  market: ''
+  job: 第三方开发者要把自己的功能做成 ChatGPT 内原生形态的插件，按 OpenAI 的扩展机制提交，让用户在对话中直接调用，从而获得 ChatGPT 内的分发与呈现位置。
+  job_en: Third-party developers want to ship their features as native-feeling ChatGPT plugins via OpenAI's
+    extension mechanism, so users can invoke them inside the conversation and gain distribution and presentation
+    inside ChatGPT.
+  pain: 公开材料只有一句仓库描述和 star 数，没有说明开发者当前如何分发插件、遇到什么审核或接入障碍、不解决会失去什么；痛点强度与不采用代价无法从公开事实还原。
+  pain_en: Public material is only a one-line repo description plus star counts; it does not show how
+    developers distribute plugins today, what review or integration obstacles they face, or what they
+    lose by not solving it, so pain intensity cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明开发者目前用什么方式接入 ChatGPT 或分发插件，也未说明它实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers currently integrate with ChatGPT
+    or distribute plugins, nor what prior approach this replaces.
+  usage_reason: 推断：开发者可能因为想获得 ChatGPT 内的原生呈现位置而提交插件，但公开证据只有仓库描述与 star 数增长（622→787），没有定价、审核流程、客户案例或重复使用证据，无法说明相较旧分发方式减少了哪一步负担，因此不能确认用户会持续选择它。
+  usage_reason_en: 'Inference: developers may submit plugins to gain a native presentation slot inside
+    ChatGPT, but public evidence is only a repo description and rising stars (622→787), with no pricing,
+    review process, customer cases or repeat-use evidence, so it cannot be shown which step it removes
+    versus prior distribution, and continued adoption cannot be confirmed.'

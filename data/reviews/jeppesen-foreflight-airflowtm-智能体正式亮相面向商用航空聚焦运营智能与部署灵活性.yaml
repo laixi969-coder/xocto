@@ -1,0 +1,81 @@
+- id: req-initial-jeppesen-foreflight-airflowtm-智能体正式亮相面向商用航空聚焦运营智能与部署灵活性-2026-10-07
+  project_slug: jeppesen-foreflight-airflowtm-智能体正式亮相面向商用航空聚焦运营智能与部署灵活性
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决什么需求、什么痛点，公开材料只给出运营智能与部署灵活性，无法还原旧流程与不采用后果。
+    evidence_ids:
+    - ev-a1bf85ac9415a2a0
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有客户、部署或使用反馈可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-a1bf85ac9415a2a0
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均未披露，无法判断收入来自航司采购还是其他方。
+    evidence_ids:
+    - ev-a1bf85ac9415a2a0
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对承诺能否确定性交付以及人工边界如何设置。
+    evidence_ids:
+    - ev-a1bf85ac9415a2a0
+  next_validation: 收集 Jeppesen 或 ForeFlight 官方发布的 Airflow 产品页或部署文档，确认其具体输入、执行动作、交付物与人工确认环节。
+  market: ''
+  job: 航空公司的运行控制与签派人员在航班运行期间处理运行数据与调度信息，需要完成运行判断与调度安排。
+  job_en: Airline operations-control and dispatch staff handle operational and scheduling data during
+    flight operations and need to produce operational judgements and dispatch arrangements.
+  pain: 公开材料未说明具体痛点，只能推断运行环节存在信息分散与人工判断负担，缺少可核验的用户抱怨或案例。
+  pain_en: The public material does not state a specific pain point; one can only infer fragmented information
+    and manual judgement load in operations, with no verifiable user complaint or case.
+  current_alternative: 公开材料未说明此前由谁、用什么工具完成同类运行判断，旧流程无法还原。
+  current_alternative_en: The public material does not say who or what tool previously performed comparable
+    operational judgements, so the prior workflow cannot be reconstructed.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，缺少用户反馈与采用证据，因此不能给出使用理由。
+  usage_reason_en: It is not possible to say which step of burden is reduced or which verifiable result
+    improves versus the old approach; with no user feedback or adoption evidence, no usage reason can
+    be given.
+- id: req-full-jeppesen-foreflight-airflowtm-智能体正式亮相面向商用航空聚焦运营智能与部署灵活性-2026-10-07
+  project_slug: jeppesen-foreflight-airflowtm-智能体正式亮相面向商用航空聚焦运营智能与部署灵活性
+  level: full
+  reviewed_at: '2026-10-07T02:02:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它要解决什么需求、什么痛点，公开材料只给出运营智能与部署灵活性，无法还原旧流程、输入动作与不采用后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-a790dc63e100aa05
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Jeppesen 或 ForeFlight 官方发布的 Airflow 产品页或部署文档，确认其具体输入、执行动作、交付物与人工确认环节。
+  market: ''
+  job: 航空公司的运行控制与签派人员在航班运行期间处理运行数据与调度信息，需要完成运行判断与调度安排。
+  job_en: Airline operations-control and dispatch staff handle operational and scheduling data during
+    flight operations and need to produce operational judgements and dispatch arrangements.
+  pain: 公开材料未说明具体痛点，只能推断运行环节存在信息分散与人工判断负担，缺少可核验的用户抱怨或案例。
+  pain_en: The public material does not state a specific pain point; one can only infer fragmented information
+    and manual judgement load in operations, with no verifiable user complaint or case.
+  current_alternative: 公开材料未说明此前由谁、用什么工具完成同类运行判断，旧流程无法还原。
+  current_alternative_en: The public material does not say who or what tool previously performed comparable
+    operational judgements, so the prior workflow cannot be reconstructed.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，缺少用户反馈与采用证据，因此不能给出使用理由。
+  usage_reason_en: It is not possible to say which step of burden is reduced or which verifiable result
+    improves versus the old approach; with no user feedback or adoption evidence, no usage reason can
+    be given.

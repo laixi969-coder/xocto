@@ -1,6 +1,6 @@
 ---
 slug: sas-launches-ai-navigator-for-enterprise-governance-2
-name: SAS launches AI Navigator for enterprise governance
+name: SAS AI Navigator
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxOYlZVVXhvTENE
 summary: SAS launches AI Navigator for enterprise governance IT Brief Asia
 first_seen: '2026-10-05T16:25:00Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# SAS launches AI Navigator for enterprise governance
+# SAS AI Navigator
 
 SAS launches AI Navigator for enterprise governance IT Brief Asia
 

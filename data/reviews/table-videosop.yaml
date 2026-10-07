@@ -357,3 +357,51 @@
     rules, templates and prompts into one reusable table that users fill in to get an executable flow,
     cutting the step of re-organizing storyboard and prompt structure each time; small teams or solo directors
     lacking a fixed production spec are therefore more likely to pick it when starting a new project.'
+- id: req-full-table-videosop-2026-10-07
+  project_slug: table-videosop
+  level: full
+  reviewed_at: '2026-10-07T02:04:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开拍前分镜、节奏与提示词缺乏统一规范、难以复用的痛点，旧做法是个人经验与零散文档，不解决则每次重做且团队难对齐；仓库说明已给出可复用表格这一交付形态，属工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-79dbf83ee2fc36c6
+    - ev-1f5adb7bd7c83d90
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 93 增至 136，说明持续有人关注，但收藏与关注只属规模信号，不能证明目标编导或内容运营已把它留在日常制作流程中；缺少 issue、discussion 或使用反馈说明谁在什么场景采用。
+    evidence_ids:
+    - ev-79dbf83ee2fc36c6
+    - ev-1f5adb7bd7c83d90
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库说明，没有定价页、赞助、付费模板或企业采购记录，谁付钱、按什么单位收费均未披露；这是判断而非已验证事实，不因此否定需求本身。
+    evidence_ids:
+    - ev-79dbf83ee2fc36c6
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明称提供 SOP、规则、模板与提示词，但未公开具体模板内容、更新维护记录或可复现的交付结果，无法核验照着填是否真能得到可执行流程，人工与安全边界也未说明。
+    evidence_ids:
+    - ev-79dbf83ee2fc36c6
+    - ev-8c15118328b28af0
+  next_validation: 追踪该 公开代码仓库 仓库的 README 与 releases/issue，确认是否公开具体模板内容、更新维护记录及使用者反馈，以核验交付形态与采用情况。
+  market: ''
+  job: 短视频或广告片的编导、剪辑与内容运营，在开拍前需要把分镜、节奏、镜头提示词和制作规则整理成一份可执行的制作流程，供自己或团队按步骤执行。
+  job_en: Short-video or ad directors, editors and content operators need to turn storyboards, pacing,
+    shot prompts and production rules into an executable production workflow before shooting, for themselves
+    or a team to follow step by step.
+  pain: 过去分镜与提示词靠个人经验和零散文档，格式不统一、难以复用，换人或换项目就要重新摸索，AI 视频生成工具的提示词写法又缺少稳定规范，导致返工和沟通成本高。
+  pain_en: Storyboards and prompts previously relied on personal experience and scattered documents, with
+    inconsistent formats and poor reuse; switching people or projects meant starting over, and AI video
+    generation lacked stable prompt conventions, causing rework and communication overhead.
+  current_alternative: 个人笔记、零散 Word/Excel 模板、群聊里互相转发的提示词，或直接凭经验边做边改。
+  current_alternative_en: Personal notes, scattered Word/Excel templates, prompts forwarded in group chats,
+    or improvising from experience while producing.
+  usage_reason: 推断：相较零散文档，它把 SOP、规则、模板和提示词收敛成可复用的表格，用户照着填就能得到一份结构化制作流程，减少从零整理分镜与提示词这一步；适合需要批量产出短视频、且团队内要统一制作规范的编导与内容运营。
+  usage_reason_en: 'Inference: versus scattered documents, it consolidates SOPs, rules, templates and
+    prompts into reusable tables, so users fill them in to get a structured production workflow, removing
+    the step of organizing storyboards and prompts from scratch; suited to directors and content operators
+    producing short videos at volume who need a shared production standard.'

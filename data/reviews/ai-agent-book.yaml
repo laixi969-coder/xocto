@@ -767,3 +767,48 @@
     experiments in one forkable repository, cutting the ''read the paper then hunt for an example'' step
     so readers can run experiments chapter by chapter; developers evaluating or building agents would
     pick it when they need a systematic on-ramp.'
+- id: req-full-ai-agent-book-2026-10-07
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-10-07T02:00:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 与 issue/discussion，确认实验的环境依赖、版本维护节奏与读者反馈，以核对交付是否可稳定复现。
+  market: ''
+  job: 想上手做 AI Agent 的开发者或技术学习者，在缺少系统教材的情况下，需要把「Agent 怎么设计、怎么落地」的原理与可跟做的实验材料串成一条学习路径，完成从概念到能自己搭一个可运行 Agent
+    的任务。
+  job_en: Developers and technical learners who want to build AI agents, lacking a systematic textbook,
+    need to turn 'how agents are designed and shipped' into a learning path of principles plus runnable
+    experiments, so they can go from concept to building a working agent themselves.
+  pain: 公开材料只给出「开源教材 + 可跟做实验」的定位，没有用户抱怨、学习失败经历或替代成本的一手证据；从工作流结构推理，Agent 工程知识散落在论文、博客与零散仓库里，学习者要自己拼装概念与代码，这是真实的组织成本，但强度未被公开证据量化。
+  pain_en: Public material only gives the positioning of an open textbook with follow-along experiments;
+    there is no first-hand evidence of user complaints, failed learning attempts, or switching costs.
+    By workflow inference, agent-engineering knowledge is scattered across papers, blogs and loose repos,
+    so learners must assemble concepts and code themselves — a real organising cost, though its intensity
+    is not quantified by public evidence.
+  current_alternative: 当前替代是自行搜集论文与博客、跟着零散的开源仓库和视频教程拼凑，或直接照抄某个 Agent 框架的示例代码。
+  current_alternative_en: The current alternative is self-assembling papers and blog posts, following
+    scattered open-source repos and video tutorials, or copying example code from an agent framework.
+  usage_reason: 推断：相较零散搜集，它把原理讲解与可跟做的实验放在同一份开源材料里，学习者省去在多个来源之间对齐概念与代码这一步，因此刚接触 Agent 工程、需要一条连贯路径的人会选它；仓库
+    221 个收藏、21 次复刻只说明开发者关注，不能证明持续使用。
+  usage_reason_en: 'Inference: versus scattered collection, it puts explanations and follow-along experiments
+    in one open-source material, saving learners the step of reconciling concepts and code across sources,
+    so newcomers needing a coherent path would pick it; the repo''s 221 stars and 21 forks show attention,
+    not sustained use.'

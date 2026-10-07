@@ -1,0 +1,83 @@
+- id: req-initial-appto-2026-10-07
+  project_slug: appto
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决快速做出 iOS 应用的需求，但公开材料只有一句产品定位，说不清替代了哪一步旧工作，痛点刚性不足。
+    evidence_ids:
+    - ev-e38f4a697529e701
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页定位外无用户评价、采用或留存信号，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-e38f4a697529e701
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，用户自带 AI 订阅意味着付费路径可能落在模型方而非本产品，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e38f4a697529e701
+  - gate: truth
+    status: insufficient
+    reason: 生成结果能否确定性交付、代码归属与人工确认边界均未公开。
+    evidence_ids:
+    - ev-e38f4a697529e701
+  next_validation: 收集 Appto 官方定价页或公开使用数据，核对它是否按成品应用收费以及生成应用的实际上架情况。
+  market: ''
+  job: 独立开发者或小团队，在需要快速做出一个 iOS 应用时，处理需求描述与界面逻辑，要交付一个可上架的应用。
+  job_en: An independent developer or small team needs to ship an iOS app quickly, working from requirement
+    descriptions and UI logic to deliver a publishable app.
+  pain: 从零写 iOS 应用门槛高、耗时长，非专业开发者难以独立完成。
+  pain_en: Building an iOS app from scratch has a high barrier and takes long, making it hard for non-professional
+    developers to do alone.
+  current_alternative: 使用现成低代码/无代码工具，或外包给开发者，或自己学 Swift 开发。
+  current_alternative_en: Using existing low-code/no-code tools, outsourcing to a developer, or learning
+    Swift to build it themselves.
+  usage_reason: 相较低代码工具或外包，Appto 让用户用自有 AI 订阅直接生成应用，省去按量付费与外包沟通；但生成质量、可维护性与是否真能上架缺少公开证据，属推断。
+  usage_reason_en: Compared with low-code tools or outsourcing, Appto lets users generate apps directly
+    with their own AI subscription, avoiding metered fees and outsourcing coordination; however, generation
+    quality, maintainability and real publishability lack public evidence, so this is inference.
+- id: req-full-appto-2026-10-07
+  project_slug: appto
+  level: full
+  reviewed_at: '2026-10-07T02:00:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决快速做出 iOS 应用的需求，但公开材料只有一句产品定位，说不清替代了哪一步旧工作、用户当前卡在哪里，痛点刚性不足，属自嗨拼凑风险。
+    evidence_ids:
+    - ev-e38f4a697529e701
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Appto 官方定价页或公开使用数据，核对它是否按成品应用收费以及生成应用的实际上架情况。
+  market: ''
+  job: 独立开发者或小团队，在需要快速做出一个 iOS 应用时，处理需求描述与界面逻辑，要交付一个可上架的应用。
+  job_en: An independent developer or small team needs to ship an iOS app quickly, working from requirement
+    descriptions and UI logic to deliver a publishable app.
+  pain: 从零写 iOS 应用门槛高、耗时长，非专业开发者难以独立完成；但公开材料只有一句产品定位，未说明用户当前在哪一步卡住、返工代价多大。
+  pain_en: Building an iOS app from scratch has a high barrier and takes long, making it hard for non-professional
+    developers to do alone; but public material is only a one-line positioning and does not show where
+    users get stuck or how costly rework is.
+  current_alternative: 使用现成低代码/无代码工具，或外包给开发者，或自己学 Swift 开发。
+  current_alternative_en: Using existing low-code/no-code tools, outsourcing to a developer, or learning
+    Swift to build it themselves.
+  usage_reason: 推断：相较低代码工具或外包，Appto 让用户用自有 AI 订阅直接生成应用，省去按量付费与外包沟通；但生成质量、代码归属与是否真能上架均无公开证据，用户为何会持续选择它无法从现有材料确认。
+  usage_reason_en: 'Inference: versus low-code tools or outsourcing, Appto lets users generate apps with
+    their own AI subscription, avoiding metered fees and outsourcing coordination; however generation
+    quality, code ownership and real publishability lack public evidence, so why users would keep choosing
+    it cannot be confirmed from available material.'

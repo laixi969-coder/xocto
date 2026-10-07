@@ -278,3 +278,56 @@
     interrupted job need not restart from scratch and the report carries checkable citations; analysts
     or consultants who repeatedly produce cited drafts would choose it for long research chains. No user
     feedback or case yet confirms this motive.'
+- id: req-full-deepresearchagent-2026-10-07
+  project_slug: deepresearchagent
+  level: full
+  reviewed_at: '2026-10-07T02:01:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把散落公开网页材料整理成带引用调研初稿的需求，痛点在长任务中断重跑与手工维护引用；仓库说明已给出规划检索、归集证据、续跑与生成引用报告的输入—动作—交付闭环，属工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-a155c28ba447035a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数在 60 至 64 之间小幅波动，说明有开发者关注，但公开材料未显示目标分析师或咨询顾问的持续使用、复购或工作流留存，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-e18b3f589238f9fc
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、付费客户或采购记录，谁付钱尚不清楚；按判断而非已验证事实，钱可能来自 to C 开发者订阅或 to B 团队定制，但均无公开证据。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺可续跑与带引用报告，但公开材料未提供可复现的交付结果、引用准确率或人工核对边界，交付能否稳定发生仍缺公开验证。
+    evidence_ids:
+    - ev-cab49adc7e79e5c8
+    - ev-91984fd2bb08379b
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有分析师或咨询顾问报告实际部署、替代的旧流程与引用核对结果。
+  market: ''
+  job: 行业分析师或咨询顾问在接到一份需要公开来源支撑的行业调研任务时，把散落在网页上的公司、政策、财报与新闻材料交给该 agent，由它规划检索步骤、抓取并归集证据、中断后续跑，最终产出一份带引用、可逐条核对的调研初稿。
+  job_en: An industry analyst or consultant with a research brief that must be backed by public sources
+    hands scattered web material (company pages, policy, filings, news) to the agent, which plans search
+    steps, collects and organizes evidence, resumes interrupted runs, and produces a cited, line-by-line
+    checkable first draft.
+  pain: 公开材料只说明该 agent 具备检索、证据归集、上下文管理与引用生成能力，未提供用户抱怨或案例；从工作流结构推理，人工逐页检索、复制粘贴来源、维护引用与上下文，在长任务中断后需重跑，是这类调研初稿的主要摩擦，但痛点强度与不采用代价尚无公开用户证据。
+  pain_en: Public material only shows the agent can plan searches, manage evidence and context, resume
+    runs and generate citations; no user complaints or cases are given. Structural inference suggests
+    the friction is manual page-by-page searching, copy-pasting sources, maintaining citations and context,
+    and re-running after an interruption — but pain intensity and cost of not solving it lack public user
+    evidence.
+  current_alternative: 公开材料未描述用户当前做法；结构上可对应的旧替代是人工用搜索引擎逐条检索、用文档或表格手工整理来源与引用，或使用不具备中断续跑与证据归集能力的通用聊天式检索工具。
+  current_alternative_en: Public material does not describe current practice; structurally the old alternative
+    is manual search-engine retrieval with sources and citations assembled by hand in documents or spreadsheets,
+    or generic chat-style search tools lacking evidence management and resumable runs.
+  usage_reason: 推断：相较手工检索与整理，该 agent 把检索规划、证据归集、上下文保持和引用生成串成一次可续跑的执行，减少中断后重跑与手工维护引用这两步负担，因此需要产出可核对初稿、且任务可能被中断的分析师或咨询顾问会在这种情况下选择它；尚无用户反馈或案例证实该动机。
+  usage_reason_en: 'Inference: versus manual searching and organizing, the agent chains search planning,
+    evidence collection, context retention and citation generation into one resumable run, cutting the
+    re-run-after-interruption and manual-citation-maintenance steps, so analysts or consultants needing
+    a checkable draft on an interruptible task would choose it in that situation; no user feedback or
+    case yet confirms this motive.'

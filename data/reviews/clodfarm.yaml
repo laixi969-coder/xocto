@@ -390,3 +390,59 @@
     — so users need not compute remaining quota or hand-split tasks, and can watch and steer from the
     Claude app. Developers running large Claude Code tasks who repeatedly hit quota limits would try it.
     This is structural reasoning from product capability and workflow, not yet backed by user'
+- id: req-full-clodfarm-2026-10-07
+  project_slug: clodfarm
+  level: full
+  reviewed_at: '2026-10-07T02:01:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Claude Code 重度用户跑大任务时被账号 5 小时与每周额度卡住、需手动拆任务并盯用量的痛点，不解决的后果是长任务被拉长或中途停摆；公开说明已能还原输入（mission）、动作（拆子智能体、按真实额度排节奏）与交付（拆分执行后的产出），属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-d30e7c039b7ba7fc
+    - ev-9b3aabc972b112d4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 121 增至 148，说明英文开发者社区持续注意到它，但收藏与关注只属规模信号，不能证明目标用户已把它留在日常编码工作流里；缺少 issue、discussion 或用户评价说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-d30e7c039b7ba7fc
+    - ev-76d49032d25ded2e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，钱可能来自个人开发者订阅、小团队席位或按额度转售，属 to C 与 to B 混合路径；这是判断而非已验证事实，且需注意其价值依附于 Anthropic
+      的额度政策，存在被平台规则变化挤压的风险。
+    evidence_ids:
+    - ev-d30e7c039b7ba7fc
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺按账号真实额度排节奏并自动拆分子智能体，但公开材料未说明多账号额度使用是否合规、子智能体产出如何确定性合并、以及人工确认与安全边界；交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-9b3aabc972b112d4
+    - ev-efa28a0c83ee3d01
+  next_validation: 追踪 clod.farm 官网与代码仓库的 README、issue 和 discussion，确认是否披露定价、多账号额度合规说明、子智能体产出合并流程及真实用户部署案例。
+  market: ''
+  job: 使用 Claude Code 的开发者（含个人订阅者与小团队）在接到一个较大的编码或重构任务时，把任务作为 mission 交给 clodfarm，由它拆成多个子智能体并行推进，并按各账号真实的
+    5 小时与每周额度安排节奏，开发者从 Claude 应用里查看进度并干预，最终拿到拆分执行后的代码或任务产出，再人工确认合并。
+  job_en: Developers using Claude Code (individual subscribers and small teams) hand a larger coding or
+    refactoring mission to clodfarm, which splits it into sub-agents running in parallel and paces them
+    against each account's real 5-hour and weekly limits; the developer steers from the Claude app and
+    receives the split-executed code or task output for manual merge confirmation.
+  pain: Claude Code 的额度是按账号的 5 小时窗口与每周上限计量的，单个会话串行推进大任务时，额度会在中途耗尽或被迫空转等待，开发者要么手动把任务切碎、要么盯着用量反复重试，长任务因此被拉长且难以预测何时能跑完。
+  pain_en: Claude Code quota is metered per account in 5-hour windows and weekly caps; running a large
+    task serially in one session burns or stalls the quota mid-way, so developers must manually chop the
+    task up or babysit usage and retry, making long tasks slow and hard to predict.
+  current_alternative: 现状替代是手动开多个 Claude Code 会话或终端窗口、自己把任务拆成小块、凭经验估算额度窗口并错峰重试，或干脆升级到更高档订阅、换用其他编码智能体；这些做法都要人工盯守，且没有按账号真实额度自动排程的机制。
+  current_alternative_en: Today's alternatives are manually opening multiple Claude Code sessions or terminal
+    windows, hand-splitting the task, guessing quota windows and retrying off-peak, or upgrading to a
+    higher subscription tier or switching coding agents; all require human babysitting and none schedule
+    against real per-account quota.
+  usage_reason: 相较手动多开窗口并盯额度，clodfarm 把「拆任务、并行开子智能体、按账号真实 5 小时与每周用量排节奏」这三步自动化，开发者不必再自己切分任务和反复试探额度窗口，只需在
+    Claude 应用里查看与干预；因此经常跑长任务、且被额度窗口卡住的 Claude Code 重度用户会在处理大重构或批量任务时选择它。这是基于产品能力与任务结构作出的推断，尚无用户反馈或案例佐证。
+  usage_reason_en: Compared with manually opening windows and watching quota, clodfarm automates three
+    steps — splitting the mission, opening parallel sub-agents, and pacing against each account's real
+    5-hour and weekly usage — so the developer no longer hand-splits tasks or probes quota windows and
+    only steers from the Claude app; heavy Claude Code users running long refactors or batch jobs who
+    are blocked by quota windows would pick it. This is an inference from product capability and task
+    st

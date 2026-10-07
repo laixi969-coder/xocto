@@ -398,3 +398,55 @@
     as a reusable prompt with a code-only demo film, so users only bring their own story and let the agent
     execute in that style, skipping the shot-by-shot search for a visual language; this is inference,
     not yet confirmed by user feedback or cases.
+- id: req-full-lemo-opuscar-2026-10-07
+  project_slug: lemo-opuscar
+  level: full
+  reviewed_at: '2026-10-07T02:02:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是无视频模型条件下产出风格化短片的需求：用户自带故事，选一种风格提示词，由代理生成代码短片。痛点在于风格与实现路径每次都要重来，43 种风格提示词加样片把这一步固化下来，不采用就得自己从零写分镜与渲染代码。这是基于仓库说明的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-7ccbc89dbf6f4d7b
+    - ev-7accfac32cd5112d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 768 增至 1,290，说明开发者社区持续关注，但公开材料没有用户评价、复刻后的实际使用或案例，无法判断创作者是否把它留在短片工作流里；关注度不等于持续采用。
+    evidence_ids:
+    - ev-7ccbc89dbf6f4d7b
+    - ev-69ad23ee8e613c18
+  - gate: model
+    status: insufficient
+    reason: 仓库为开源技能，公开材料没有定价页、付费主体或采购记录，钱可能来自创作者自用、品牌内容团队或后续商业化，均属判断而非已验证事实；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-7accfac32cd5112d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明样片由 Claude Opus 5.5 纯代码生成，未给出成片质量、可复现性、人工确认环节与安全边界；交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-7accfac32cd5112d
+    - ev-6290389f59a20c4e
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有创作者报告用某风格提示词实际产出成片、替代了原有视频模型或手工分镜流程。
+  market: ''
+  job: 短片创作者或品牌内容团队在需要产出风格化短片时，先选定一种影片风格，把自己的故事素材交给 Claude Code 代理，由代理按该风格的提示词与纯代码样片生成一段可播放的短片。
+  job_en: A short-film creator or brand content team, needing a stylized short film, picks one of the
+    film styles, hands their own story material to a Claude Code agent, and has the agent produce a playable
+    short film from that style's prompt and code-only demo film.
+  pain: 公开材料显示该技能面向“没有视频模型”的短片制作：用户此前要么依赖视频生成模型，要么自己从零写分镜、镜头与渲染代码，风格一致性难以复用；仓库把 43 种风格固化为可复用提示词与样片，减少每次重新摸索风格与实现路径的负担。
+  pain_en: 'Public materials frame this skill as short-film making with no video model: users previously
+    either depended on video-generation models or wrote storyboard, shot and render code from scratch,
+    with style consistency hard to reuse; the repo freezes 43 styles into reusable prompts and demo films,
+    cutting the burden of re-deriving style and implementation each time.'
+  current_alternative: 旧做法是使用视频生成模型出片，或由创作者手工编写分镜与渲染代码；公开材料未说明用户此前具体使用哪些工具，也未给出替代前后的对比数据。
+  current_alternative_en: The prior approach is using video-generation models, or hand-writing storyboards
+    and render code; public materials do not name the specific tools users previously used, nor give before/after
+    comparison data.
+  usage_reason: 推断：相较从零写分镜与渲染代码，该技能让用户先选一个已带样片的风格提示词，再由代理按该风格生成代码短片，省去自行确定视觉风格与实现路径这一步；因此需要快速产出风格化短片、又不想依赖视频模型的创作者会在有明确风格需求时选择它。仓库收藏数从
+    768 增至 1,290 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus writing storyboards and render code from scratch, the skill lets
+    a user pick a style prompt that already ships with a demo film, then has the agent generate a code-based
+    short in that style, removing the step of deciding visual style and implementation path; creators
+    who need a stylized short quickly without a video model would choose it when a specific style is required.
+    The star count rising from 768 to 1,290 shows attention, not sustained use.'

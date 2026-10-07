@@ -1,6 +1,6 @@
 ---
 slug: microsoft-semantic-kernel-dotnet-1810
-name: 'microsoft/semantic-kernel: dotnet-1.81.0'
+name: Microsoft Semantic Kernel
 builder: microsoft
 category: ''
 summary_zh: ''
@@ -27,7 +27,7 @@ summary: "## Changes:\r\n\r\n* bd3150d9a215684e68a8598abda515d16edc89cb .Net: Bu
   \ bug fix (#14374)\r\n\r\nThis list of changes was [auto generated](https://msdata.visualstudio.com/Vienna/_build/results?buildId=239282953&view=logs).</details>"
 first_seen: '2026-10-06T16:34:47Z'
 last_seen: '2026-10-07T01:32:31Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -39,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# microsoft/semantic-kernel: dotnet-1.81.0
+# Microsoft Semantic Kernel
 
 ## Changes:
 

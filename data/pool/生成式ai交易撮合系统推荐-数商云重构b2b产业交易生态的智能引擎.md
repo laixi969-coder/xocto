@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE5CeEJRUml3NzFf
 summary: 生成式AI交易撮合系统推荐 | 数商云：重构B2B产业交易生态的智能引擎 财富号
 first_seen: '2026-10-05T00:21:00Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

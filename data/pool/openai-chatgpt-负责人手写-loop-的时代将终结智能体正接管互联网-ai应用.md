@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE5yaVpwdE8xUGwy
 summary: OpenAI ChatGPT 负责人：手写 Loop 的时代将终结，智能体正接管互联网-AI应用 至顶网
 first_seen: '2026-10-05T03:04:25Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

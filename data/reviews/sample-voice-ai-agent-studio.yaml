@@ -284,3 +284,50 @@
     skeleton, letting developers skip the initial component-integration and basic-orchestration step and
     focus on adapting the business dialogue flow; developers needing to quickly validate a voice agent
     on AWS would choose it at the starting stage.'
+- id: req-full-sample-voice-ai-agent-studio-2026-10-07
+  project_slug: sample-voice-ai-agent-studio
+  level: full
+  reviewed_at: '2026-10-07T02:03:43Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在 AWS 上搭建语音客服时需自行拼接语音识别、对话编排与语音合成的重复搭建需求，痛点是脚手架缺失；官方示例仓库直接交付可运行骨架，属工作流结构推理。
+    evidence_ids:
+    - ev-62e2acdb13592c64
+    - ev-4130ceb13be3d1fd
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏数从 119 逐步升至 124，说明开发者持续关注并收藏该示例，属关注度证据，尚不能证明已长期留在工作流中。
+    evidence_ids:
+    - ev-62e2acdb13592c64
+    - ev-4130ceb13be3d1fd
+  - gate: model
+    status: insufficient
+    reason: 作为 aws-samples 官方示例仓库，公开材料未见定价或付费路径，其价值可能通过带动 AWS 云服务消费间接变现，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-62e2acdb13592c64
+  - gate: truth
+    status: insufficient
+    reason: 公开材料仅有仓库收藏数，未见部署文档、issue 或 discussion 说明交付能否稳定发生及人工与安全边界，交付确定性尚未核验。
+    evidence_ids:
+    - ev-4130ceb13be3d1fd
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，确认实际部署方式、支持的语音场景与人工接管边界。
+  market: ''
+  job: 在 AWS 上搭建语音客服或语音助手的开发者与云解决方案架构师，在需要快速交付一套可运行的语音智能体原型时，处理语音识别、对话编排与语音合成等组件，要完成从零到可改造工程骨架的搭建任务。
+  job_en: Developers and cloud solution architects building voice customer-service or voice-assistant
+    systems on AWS, when they need a runnable voice-agent prototype quickly, work with speech recognition,
+    dialogue orchestration and speech synthesis components to get from zero to a modifiable engineering
+    skeleton.
+  pain: 公开材料显示这是官方示例仓库，其存在本身指向开发者需自行拼接语音识别、对话编排与语音合成等组件的重复搭建负担；但仓库未提供用户抱怨或案例，痛点强度属工作流结构推理。
+  pain_en: Public materials show this is an official sample repository, whose existence points to the
+    repetitive burden of stitching together speech recognition, dialogue orchestration and speech synthesis;
+    the repository provides no user complaints or cases, so pain intensity is a workflow-structure inference.
+  current_alternative: 开发者通常自行从零拼接 AWS 语音组件或参考零散文档与博客，缺少可直接运行、可改造的官方工程骨架。
+  current_alternative_en: Developers typically stitch AWS speech components together from scratch or rely
+    on scattered docs and blog posts, lacking a runnable, modifiable official engineering skeleton.
+  usage_reason: 推断：相较从零拼接组件，该仓库直接给出可运行的语音智能体工程骨架，减少搭建脚手架这一步，因此需要在 AWS 上快速起步语音客服原型的开发者会选用它。
+  usage_reason_en: 'Inference: versus stitching components from scratch, the repository hands over a runnable
+    voice-agent engineering skeleton, removing the scaffolding step, so developers needing a fast AWS
+    voice-service prototype would choose it.'

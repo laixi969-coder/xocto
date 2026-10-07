@@ -1,0 +1,97 @@
+- id: req-initial-dallas-startup-upsmith-raises-10m-series-a-to-put-ai-to-work-2026-10-07
+  project_slug: dallas-startup-upsmith-raises-10m-series-a-to-put-ai-to-work
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决上门服务的调度与沟通问题，但公开材料未说明具体痛点、旧流程和交付结果，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-6fa536a5ce11a44a
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资报道，没有客户采用、用户评价或场景验证材料，共识环节缺少证据。
+    evidence_ids:
+    - ev-6fa536a5ce11a44a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-6fa536a5ce11a44a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该工作的第一性目标、承诺能否确定性交付，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-6fa536a5ce11a44a
+  next_validation: 收集 UpSmith 官方产品页或定价页，确认其面向家政服务商的具体功能、交付物与收费方式。
+  market: ''
+  job: 家政与上门服务公司的经营者或调度人员，在接到客户报修或预约时，需要安排上门人员、确认时间和报价，并跟进后续沟通。
+  job_en: An owner or dispatcher at a home-services company who, when a customer reports a repair or books
+    a visit, must assign a technician, confirm timing and pricing, and follow up on communication.
+  pain: 公开材料未说明具体痛点，只能推断上门服务依赖电话与人工排期，容易出现漏单、排期冲突和沟通反复；这一推断缺少材料支持。
+  pain_en: Public material does not state the specific pain; it can only be inferred that home services
+    rely on phone calls and manual scheduling, which risks missed jobs, scheduling conflicts and repeated
+    back-and-forth. This inference lacks supporting material.
+  current_alternative: 公开材料未说明现有替代方式，按行业常识推断为电话、短信或通用排期软件，属于推断而非已核实事实。
+  current_alternative_en: Public material does not describe the current alternative; by industry common
+    sense it is inferred to be phone calls, text messages or generic scheduling software, which is an
+    inference rather than a verified fact.
+  usage_reason: 材料只给出融资额，未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它；缺少产品交付与使用反馈这一环。
+  usage_reason_en: The material only gives the funding amount and does not say which step it removes versus
+    the old approach or which checkable result it improves, so it cannot explain why users would choose
+    it; the product delivery and usage feedback link is missing.
+- id: req-full-dallas-startup-upsmith-raises-10m-series-a-to-put-ai-to-work-2026-10-07
+  project_slug: dallas-startup-upsmith-raises-10m-series-a-to-put-ai-to-work
+  level: full
+  reviewed_at: '2026-10-07T02:01:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上门服务商家线索与报价跟进靠人工、老客户数据库沉睡的问题，痛点直接对应可成交收入的流失，且产品以短信 AI 代理自动完成预约、报价跟进与客户激活，交付动作明确；这是基于产品说明与工作流结构的推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-8d35d70140ea53ee
+    - ev-a126d21dc69bfbef
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品页与融资报道，没有客户案例、用户评价或采用规模，无法判断上门服务经营者是否真的把它放进日常跟进流程；关注度不等于持续采用。
+    evidence_ids:
+    - ev-3671dd59cf6d7c77
+    - ev-927995ab7de04378
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、收费方式或买方类型，只能推断钱来自 HVAC、管道、电气等上门服务商家按订阅付费；这是判断，不是已验证事实，也未排除靠融资续命的可能。
+    evidence_ids:
+    - ev-3671dd59cf6d7c77
+    - ev-f4f4b0d6309f2a7a
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近把询价转成工单这一第一性目标，但公开材料未说明 AI 短信代理在报价、改期、客户拒绝时的人工接管边界与交付确定性，安全与人工兜底规则缺失。
+    evidence_ids:
+    - ev-8d35d70140ea53ee
+    - ev-a126d21dc69bfbef
+  next_validation: 追踪 UpSmith 官网是否上线定价页或公开客户案例，确认其面向 HVAC、管道、电气商家的收费方式与已交付结果。
+  market: ''
+  job: HVAC、管道、电气等上门服务商家的经营者或调度人员，在客户来电或线上询价、报价单发出后未成交、以及老客户数据库长期沉睡时，需要把询价转成已排期的工单、把未回复的报价追回来、把旧客户重新激活成订单。
+  job_en: An owner or dispatcher at an HVAC, plumbing or electrical home-services business who, when customers
+    call or inquire online, when sent estimates go unanswered, and when the old customer database goes
+    dormant, must convert inquiries into scheduled jobs, chase unanswered estimates, and reactivate past
+    customers into new jobs.
+  pain: 上门服务商家的线索大量停留在短信与电话里，报价发出后客户不回就流失，老客户数据库沉睡着不再产生订单；这些环节靠人工逐个跟进，忙起来就漏掉，直接损失本可成交的收入。
+  pain_en: For home-services operators, leads sit in texts and phone calls, estimates go unanswered and
+    are lost, and the dormant customer database stops producing jobs; these steps depend on manual one-by-one
+    follow-up, which gets dropped when busy, directly losing revenue that could have closed.
+  current_alternative: 旧做法是经营者或前台人工打电话、发短信逐个跟进报价与老客户，或使用 ServiceTitan 等排期系统但跟进仍靠人；公开材料未给出这些替代方式的使用数据。
+  current_alternative_en: The old approach is for the owner or front desk to manually call and text each
+    estimate and past customer, or to use scheduling systems like ServiceTitan while follow-up still stays
+    manual; public material gives no usage data for these alternatives.
+  usage_reason: 推断：相较人工逐个打电话发短信，UpSmith 的 AI 代理直接以短信自动完成预约、报价跟进和沉睡客户激活，并原生接入 ServiceTitan，省掉人工逐条跟进这一步，因此订单量本就受跟进人力限制的
+    HVAC、管道、电气经营者会在报价流失和老客户沉睡时选择它；公开材料未提供用户反馈或留存数据来证实这一动机。
+  usage_reason_en: 'Inference: versus manual one-by-one calling and texting, UpSmith''s AI agents text
+    customers to book jobs, follow up on estimates and reactivate dormant contacts, with native ServiceTitan
+    integration, removing the manual per-lead follow-up step; therefore HVAC, plumbing and electrical
+    operators whose job volume is capped by follow-up labor would choose it when estimates leak and past
+    customers go dormant. Public material provides no user feedback or retention data to confirm t'

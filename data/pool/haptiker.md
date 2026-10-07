@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/haptiker
 summary: Volume, brightness and keyboard light on your trackpad edges
 first_seen: '2026-10-03T12:18:49Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

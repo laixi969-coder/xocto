@@ -1,0 +1,93 @@
+- id: req-initial-mailaccess-2026-10-07
+  project_slug: mailaccess
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是拿到邮箱后要判断其公开痕迹与风险的需求，痛点是逐站手工检索耗时且易漏，旧替代行为明确存在。
+    evidence_ids:
+    - ev-f038885f9ae06f03
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有用户评价、客户案例或持续使用证据，无法判断谁在什么场景下反复使用。
+    evidence_ids:
+    - ev-f038885f9ae06f03
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方类型或收费方式，to B 合规采购是推断，不是已验证事实。
+    evidence_ids:
+    - ev-f038885f9ae06f03
+  - gate: truth
+    status: insufficient
+    reason: 数据来源合法性、结果准确率与人工复核边界均未说明，交付能否确定性发生无法核对。
+    evidence_ids:
+    - ev-f038885f9ae06f03
+  next_validation: 收集该产品官方页面或文档中关于数据来源清单、结果字段与定价/授权方式的公开说明。
+  market: ''
+  job: 安全调查人员或尽职调查分析师在收到一个待核查的邮箱地址时，需要判断该邮箱关联的公开账号、注册痕迹与泄露记录，以决定是否继续合作或升级风控。
+  job_en: Security investigators or due-diligence analysts who receive an email address to check must
+    determine its linked public accounts, registration traces and breach records before deciding whether
+    to proceed or escalate risk control.
+  pain: 这类核查过去要在多个公开站点之间反复搜索、手工拼接线索，耗时且容易漏掉关键痕迹，核查结论难以复核。
+  pain_en: Such checks previously required repeated searching across many public sites and manually stitching
+    clues together, which is slow, easy to miss key traces, and hard to review afterwards.
+  current_alternative: 人工在搜索引擎、社交平台和泄露查询站点之间逐站检索，或使用零散的单点查询工具。
+  current_alternative_en: Manual lookups across search engines, social platforms and breach-check sites
+    one by one, or scattered single-purpose lookup tools.
+  usage_reason: 推断：相较逐站手工检索，它把多个公开来源的查询收敛为一次邮箱提交并汇总成一份结果，减少了重复检索和线索拼接这一步，因此需要出具可复核核查结论的尽调或风控人员会在批量核查时选择它。
+  usage_reason_en: 'Inference: compared with manual site-by-site searching, it collapses queries across
+    multiple public sources into one email submission and one aggregated result, removing the repeated-search
+    and clue-stitching step, so due-diligence or risk staff who must produce reviewable conclusions would
+    choose it for batch checks.'
+- id: req-full-mailaccess-2026-10-07
+  project_slug: mailaccess
+  level: full
+  reviewed_at: '2026-10-07T02:02:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决拿到邮箱后判断其公开账号、注册痕迹与泄露记录的需求，痛点是逐站手工检索耗时、线索分散易漏且结论难复核；旧替代行为明确存在，交付闭环为一次提交汇总多源结果，属工作流结构推理。
+    evidence_ids:
+    - ev-fe0e8b3de8b1a917
+    - ev-41a15ca399a853ba
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明它打包了哪些引擎与覆盖平台数，没有用户评价、客户案例或持续使用证据，无法判断谁在什么场景下反复使用，关注度不能替代采用。
+    evidence_ids:
+    - ev-fe0e8b3de8b1a917
+  - gate: model
+    status: insufficient
+    reason: 材料提到 Pro key 可解锁商业联系人富集，暗示存在付费档，但未披露价格、买方类型或采购方式，to B 合规采购属推断而非已验证事实。
+    evidence_ids:
+    - ev-5e75ddefb1266699
+    - ev-814aa7a849ea525f
+  - gate: truth
+    status: insufficient
+    reason: 数据来源合法性、结果准确率与人工复核边界均未说明，多引擎聚合的误报与合规风险无法核对，交付能否确定性发生仍缺公开依据。
+    evidence_ids:
+    - ev-fe0e8b3de8b1a917
+  next_validation: 追踪 MailAccess 官方 公开代码仓库 仓库与 PyPI 页面中关于数据来源清单、结果字段、Pro 授权定价及合规声明的公开说明。
+  market: ''
+  job: 安全调查人员或尽职调查分析师在收到一个待核查的邮箱地址或用户名时，需要判断该邮箱在公开渠道关联的账号、注册痕迹与泄露记录，以决定是否继续合作或升级风控。
+  job_en: Security investigators or due-diligence analysts who receive an email address or username to
+    check must determine its linked public accounts, registration traces and breach records before deciding
+    whether to proceed or escalate risk control.
+  pain: 公开材料显示该工具把 WhatsMyName、Holehe、Maigret 等引擎打包，覆盖 2,500+ 平台并叠加泄露数据，说明旧做法是逐站手工检索；痛点是跨站重复查询耗时、线索分散易漏、结论难以复核。
+  pain_en: Public materials show the tool bundles engines such as WhatsMyName, Holehe and Maigret across
+    2,500+ platforms and layers breach data, implying the old practice was manual site-by-site lookups;
+    the pain is slow repeated queries, scattered and easily missed traces, and hard-to-review conclusions.
+  current_alternative: 人工在搜索引擎、社交平台和泄露查询站点之间逐站检索，或分别调用 Holehe、Maigret、WhatsMyName 等单点开源工具再手工拼接结果。
+  current_alternative_en: Manual lookups across search engines, social platforms and breach-check sites
+    one by one, or calling single-purpose open-source tools such as Holehe, Maigret and WhatsMyName separately
+    and stitching results by hand.
+  usage_reason: 推断：相较逐站手工检索或分别跑多个单点工具，它把多引擎查询收敛为一次邮箱/用户名提交并汇总成一份结果，省去重复检索与线索拼接这一步，因此需要出具可复核核查结论的尽调或风控人员会在批量核查时选择它；公开材料未提供用户反馈，此因果为结构推断。
+  usage_reason_en: 'Inference: compared with manual site-by-site searching or running several single-purpose
+    tools separately, it collapses multi-engine queries into one email/username submission and one aggregated
+    result, removing the repeated-search and clue-stitching step, so due-diligence or risk staff who must
+    produce reviewable conclusions would choose it for batch checks; public materials provide no user
+    feedback, so this causal link is a structural inference.'

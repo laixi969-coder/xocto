@@ -3,9 +3,11 @@ slug: manualdousuario
 name: LibreOffice
 builder: rpgbr
 category: ''
-summary_zh: LibreOffice 下载量突破记录，原因是宣布不含 AI 功能
+summary_zh: LibreOffice 是开源办公套件，本次变化不是新产品，而是其官方表态短期内默认版本不内置 AI 功能、用户需通过扩展自行接入本地模型，随后出现下载量创纪录的公开报道。
 inspiration: ''
-summary_en: LibreOffice download records broken after announcing no AI features
+summary_en: LibreOffice is an open-source office suite; this change is not a new product but its official
+  position that the default build will not include AI features in the near term, with users adding local
+  models via extensions, followed by public reports of record downloads.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://manualdousuario.net/en/libreoffice-download-record-no-ai
 summary: LibreOffice breaks download records after declaring it has no AI features
 first_seen: '2026-09-08T14:05:57Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - newssearch

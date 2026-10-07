@@ -284,3 +284,54 @@
     so Ascend-cluster teams can reuse it instead of adapting from scratch, removing the step of building
     and debugging the communication layer; whether it truly reduces effort depends on documentation and
     benchmarks not yet verified.'
+- id: req-full-deepep-ascend-2026-10-07
+  project_slug: deepep-ascend
+  level: full
+  reviewed_at: '2026-10-07T02:01:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决昇腾集群多卡通信这一具体任务，痛点是通信层自研成本高、不解决则训练与推理吞吐受限；公开仓库描述已能还原输入—动作—交付闭环，属工作流结构推理，买方与付费路径尚不明确。
+    evidence_ids:
+    - ev-c811d96d25d4f349
+    - ev-01b4dee8fc3666ed
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库描述与星标数（200 增至 226），没有昇腾集群用户的采用、反馈或客户案例，无法判断共识是否形成。
+    evidence_ids:
+    - ev-c811d96d25d4f349
+    - ev-a90feef4f7686db1
+  - gate: model
+    status: insufficient
+    reason: 开源库本身无定价页，钱可能来自模型厂商生态投入或配套服务，这是判断而非已验证事实，未出现融资叙事。
+    evidence_ids:
+    - ev-c811d96d25d4f349
+  - gate: truth
+    status: insufficient
+    reason: 仓库未提供性能对比、支持硬件型号与稳定性说明，交付确定性无法核对，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-01b4dee8fc3666ed
+    - ev-94fdfa050b4f18e9
+  next_validation: 收集该仓库的 README、发布说明与 issue/discussion，确认支持的昇腾型号、通信原语范围与任何公开性能对比数据。
+  market: ''
+  job: 在昇腾 NPU 集群上部署分布式训练或推理的 AI 基础设施工程师，在跑通多卡训练/推理任务时，需要处理框架发出的通信请求，让卡间数据交换在昇腾硬件上正确且高性能地完成，才能交付一次可用的训练或推理流程。
+  job_en: AI infrastructure engineers deploying distributed training or inference on Ascend NPU clusters
+    must handle framework-issued communication requests so inter-card data exchange runs correctly and
+    at high performance on Ascend hardware, in order to deliver a working training or inference run.
+  pain: 昇腾生态的卡间通信此前主要依赖硬件厂商自带库，模型侧团队遇到通信瓶颈时缺少与自身训练/推理框架贴合的通信实现，往往要自己写或改底层代码并人工压测调参，通信层自研成本高、不解决则训练与推理吞吐受限。
+  pain_en: Inter-card communication in the Ascend ecosystem has mainly relied on the vendor's bundled
+    library; model-side teams hitting communication bottlenecks lacked implementations aligned with their
+    own training/inference frameworks and often had to write or modify low-level code and tune by manual
+    benchmarking, making the communication layer costly to build and leaving throughput constrained if
+    unsolved.
+  current_alternative: 使用硬件厂商自带的集合通信库，或自行编写/修改通信实现，并靠人工压测调参。
+  current_alternative_en: Using the hardware vendor's bundled collective communication library, or writing
+    and modifying communication implementations by hand with manual benchmarking and tuning.
+  usage_reason: 推断：相较自行改底层通信代码或仅用厂商通用库，该库把通信实现与 DeepSeek 自身训练/推理框架对齐后开源，昇腾集群团队可直接复用而非从零适配，减少的是通信层自研与调试这一步；是否真正减少工作量取决于其文档与实测数据，目前尚未核验。
+  usage_reason_en: 'Inference: compared with modifying low-level communication code or relying only on
+    the vendor''s generic library, this library open-sources a communication implementation aligned with
+    DeepSeek''s own training/inference frameworks, so Ascend-cluster teams can reuse it instead of adapting
+    from scratch, removing the step of building and debugging the communication layer; whether it truly
+    reduces effort depends on documentation and benchmarks that are not yet verified.'

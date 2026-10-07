@@ -21,7 +21,7 @@ canonical_url: https://playmashy.com
 summary: Nine short holes of pixel golf
 first_seen: '2026-10-06T10:02:28Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

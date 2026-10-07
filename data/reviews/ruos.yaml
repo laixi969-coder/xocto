@@ -1,0 +1,80 @@
+- id: req-initial-ruos-2026-10-07
+  project_slug: ruos
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从材料中还原，只知代理在云端桌面代做工作，价值关证据不足。
+    evidence_ids:
+    - ev-600d5a7dd8c085f2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值未成立，且无采用、评价或场景证据。
+    evidence_ids:
+    - ev-600d5a7dd8c085f2
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值未成立，买方与付费路径均无公开材料。
+    evidence_ids:
+    - ev-600d5a7dd8c085f2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值未成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-600d5a7dd8c085f2
+  next_validation: 收集该产品的官方说明或文档页，确认可委托的任务范围、代理可操作的软件与人工接管方式。
+  market: ''
+  job: 用户在云端桌面环境中，把原本自己在电脑上逐步完成的日常操作交给 AI 代理执行。
+  job_en: A user, in a cloud desktop environment, delegates routine operations they would otherwise perform
+    step by step on their own computer to AI agents.
+  pain: 材料只说明代理在云端桌面代做工作，未说明它替代了哪一步旧做法或避免了什么具体损失，痛点无法确认。
+  pain_en: The material only says agents do the work on a cloud desktop; it does not say which prior step
+    this replaces or what concrete loss it avoids, so the pain cannot be confirmed.
+  current_alternative: 公开材料未说明现有替代方式，常见做法可能是用户自己在本地电脑上手动操作或使用脚本，但候选资料未提供。
+  current_alternative_en: The material does not describe existing alternatives; common practice may be
+    users operating their own local computer manually or with scripts, but the candidate does not provide
+    this.
+  usage_reason: 无法判断：材料未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step of burden it removes versus
+    the old way or which checkable result it improves, so it cannot explain why a user would choose it.'
+- id: req-full-ruos-2026-10-07
+  project_slug: ruos
+  level: full
+  reviewed_at: '2026-10-07T02:03:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅有一句产品定位，无法还原用户任务、痛点、旧替代与不解决的后果，连需求结构都写不出来，价值关证据不足。
+    evidence_ids:
+    - ev-600d5a7dd8c085f2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ruOS 官方产品页或文档，确认可委托的任务范围、代理可操作的软件清单与人工接管方式。
+  market: ''
+  job: 用户在云端桌面环境中，把原本要在自己电脑上逐步完成的日常操作交给 AI 代理执行，并取回代理完成的操作结果。
+  job_en: A user, in a cloud desktop environment, delegates routine operations they would otherwise perform
+    step by step on their own computer to AI agents and retrieves the results.
+  pain: 公开材料只有一句产品定位，未说明代理替代了哪一步旧做法、避免了什么具体损失或错误，痛点无法还原。
+  pain_en: The only public material is a one-line positioning statement; it does not say which prior step
+    the agent replaces or what concrete loss or error it avoids, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式；常见做法可能是用户自己在本地电脑上手动操作或写脚本，但候选资料未提供。
+  current_alternative_en: Public materials do not describe existing alternatives; common practice may
+    be manual operation on a local computer or scripts, but the candidate does not provide this.
+  usage_reason: 无法判断：材料未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step of burden it removes versus
+    the old way or which checkable result it improves, so it cannot explain why a user would choose it.'

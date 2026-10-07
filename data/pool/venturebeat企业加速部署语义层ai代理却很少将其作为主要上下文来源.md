@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxPSU51S2NVMGxK
 summary: VentureBeat：企业加速部署语义层，AI代理却很少将其作为主要上下文来源 디지털투데이
 first_seen: '2026-10-06T22:22:15Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

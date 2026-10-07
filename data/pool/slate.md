@@ -3,29 +3,31 @@ slug: slate
 name: Slate
 builder: wassermanproductions
 category: AI + 创作
-summary_zh: 做 AI 影视的人，在开拍前规划分镜、安排镜头覆盖、维持角色与场景连续性时打开它，把镜头意图整理成可直接投喂图像、视频、音乐或配音生成器的提示词，最终拿到一份可执行的分镜提示词清单，是否开拍仍由人确认。具体流程与交付形态仍待核验。
-inspiration: 趋势是 AI 影视的制作瓶颈正从“生成一段画面”前移到“开拍前的镜头规划与连续性管理”，提示词成为需要被工程化管理的中间产物。切入可从广告片、短剧、电商视频这类有明确交付节点的小团队进，卖的是分镜到成片的可复用流程，而非单次生成额度。
-summary_en: People making AI films open it before shooting to plan storyboards, arrange shot coverage
-  and keep continuity, turning shot intent into prompts that can be fed directly to image, video, music
-  or voice generators, and end up with an executable shot-prompt list that a human still approves. The
-  exact workflow and deliverable remain unverified.
-inspiration_en: The trend is that the bottleneck in AI filmmaking is moving upstream from generating a
-  clip to planning shots and managing continuity, making prompts an artifact that needs engineering discipline.
-  The entry point is small teams with fixed delivery dates in ads, short dramas and e-commerce video,
-  selling a reusable storyboard-to-final-cut process rather than generation credits.
+summary_zh: 做 AI 影片的人在开拍前要规划镜头、保持角色与场景连续性，并把想法整理成能喂给图像、视频、音乐或配音生成器的提示词。Slate 是一个本地提示词工作台，把这些镜头与连续性信息编译成可直接投喂各生成器的提示词，不需要
+  API key；用户最终拿到的是成组的生成提示词，具体交付形态与人工确认环节仍待核验。
+inspiration: 趋势：AI 影片制作正从单条提示词试运气，转向需要分镜、连续性和可复用提示词资产的准工业化流程。切入：从短片、广告与独立创作者的分镜前置环节进入，卖的是可复用的镜头与角色连续性资产，而不是又一个生成器；可考虑按项目或按成片交付收费，价格未披露。
+summary_en: People making AI films must plan shots, keep characters and scenes continuous, and turn ideas
+  into prompts that image, video, music or voice generators can consume. Slate is a local prompt workspace
+  that compiles shot and continuity information into prompts ready for those generators, with no API keys;
+  the user ends up with grouped generation prompts, while the exact deliverable and human review step
+  still need verification.
+inspiration_en: 'Trend: AI filmmaking is moving from one-off prompt luck toward a semi-industrial workflow
+  that needs storyboards, continuity and reusable prompt assets. Entry: start from the pre-shoot storyboard
+  step for short films, ads and independent creators, selling reusable shot and character-continuity assets
+  rather than another generator; per-project or per-finished-film pricing is conceivable but undisclosed.'
 priority_review: false
 project_type: new_application
 industries:
 - 影视制作
-- 广告与营销
+- 广告与营销内容
 industries_en:
-- Film & TV Production
-- Advertising & Marketing
+- film and video production
+- advertising and marketing content
 jobs:
 - 分镜与镜头规划
 - AI 生成提示词编写
 jobs_en:
-- Storyboard and shot planning
+- storyboard and shot planning
 - AI generation prompt writing
 regions: []
 regions_en: []
@@ -37,7 +39,7 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

@@ -131,3 +131,46 @@
     developers could skip hand-assembling a local decision pipeline; however, the public material provides
     no verifiable deliverable, adoption feedback, or usage record to explain which users would choose
     it and when.'
+- id: req-full-solve-lite-2026-10-07
+  project_slug: solve-lite
+  level: full
+  reviewed_at: '2026-10-07T02:04:05Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决离线设备上 agent 无法决策的问题，但公开材料只有仓库自述的定位、体积与星标，没有输入输出、交付结果或不采用后果，无法还原旧流程，价值结构不成立。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+    - ev-13aa17541c4220bb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、部署文档与 issue/discussion，核对离线 CoreML 决策的实际输入输出与可复现运行结果。
+  market: ''
+  job: 开发者在离线或数据不能出本地的设备上部署 AI agent 时，需要让 agent 在设备端完成一次决策并拿到结果，而不是把请求发往云端模型。
+  job_en: When deploying an AI agent on an offline or data-residency-constrained device, a developer needs
+    the agent to complete a decision on-device and get a result, instead of sending the request to a cloud
+    model.
+  pain: 公开材料只给出仓库自述的定位与体积，没有说明输入输出格式、决策延迟、失败处理或人工确认环节，因此无法确认云端推理在离线场景下究竟卡在哪一步、不采用会失去什么。
+  pain_en: The public material only gives the repository's self-description and size, with no input/output
+    format, decision latency, failure handling or human-confirmation step, so it is impossible to confirm
+    where cloud inference actually breaks down offline or what is lost by not adopting it.
+  current_alternative: 开发者通常自行用本地推理框架拼接 agent 决策逻辑，或直接调用云端模型 API；公开材料未提供与这些做法的任何对比。
+  current_alternative_en: Developers typically hand-assemble agent decision logic on local inference frameworks,
+    or call cloud model APIs directly; the public material offers no comparison with these approaches.
+  usage_reason: 推断：若其宣称的离线 CoreML 执行与 20 场景协议成立，开发者可省去自行搭建本地决策链路的一步，因此对数据不能出本地的团队有吸引力；但公开材料未给出可核对的交付结果、采用证据或与现有本地推理方案的差异，选择理由目前只停留在功能复述。
+  usage_reason_en: 'Inference: if the claimed offline CoreML execution and 20-scenario protocol hold,
+    developers could skip hand-building a local decision pipeline, appealing to teams with data-residency
+    constraints; however, the public material gives no verifiable deliverable, adoption evidence or differentiation
+    from existing local inference stacks, so the reason to choose it remains a restatement of features.'

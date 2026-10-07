@@ -781,3 +781,43 @@
     choice motivation; with no user feedback, cases, or retention evidence, it is unclear which users
     would keep choosing it and why, while the public fact that installation requires disabling antivirus
     and elevating privileges is itself an adoption barrier.'
+- id: req-full-agent-skills-collection-2026-10-07
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-10-07T02:00:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让开发者为 LLM agent 加装模块化技能，但公开材料只描述安装需关杀毒、用管理员权限，未说明用户任务、痛点强度、现有替代与不采用后果，无法还原价值结构。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认安装流程、安全边界及是否有用户报告实际使用场景与重复使用。
+  market: ''
+  job: 开发者或 AI 助手使用者想给基于 LLM 的 agent 加装模块化技能，需要从公开仓库取回技能包并在本地或自托管环境完成安装、配置与调用。
+  job_en: A developer or LLM-agent user wants to add modular skills to an LLM-based agent, pulling skill
+    packages from a public repository and installing, configuring, and invoking them locally or in a self-hosted
+    environment.
+  pain: 公开材料只给出“安装需关闭杀毒、以管理员权限运行安装包”这一条描述，未说明用户实际遇到的失败、频率或不采用后果，因此痛点强度无法从公开事实确认。
+  pain_en: Public material only states that installation requires disabling antivirus and running a setup
+    file as administrator; it does not show actual user failures, frequency, or consequences of not adopting,
+    so pain intensity cannot be confirmed from public facts.
+  current_alternative: 公开材料未说明用户当前如何完成该任务，也未说明它替代了哪些既有做法（如手写工具函数、复制提示词片段或使用其他 agent 框架）。
+  current_alternative_en: Public materials do not show how users complete this job today, nor which existing
+    practices it replaces (e.g., hand-written tool functions, copied prompt snippets, or other agent frameworks).
+  usage_reason: 仓库有 209 个收藏、4 次复刻，说明部分开发者关注或试用；但缺少用户反馈、案例或重复使用证据，无法推断他们为何选择它而非旧做法。
+  usage_reason_en: The repository has 209 stars and 4 forks, showing some developer attention or trial;
+    without user feedback, cases, or repeat-use evidence, it cannot be inferred why they would choose
+    it over existing practices.

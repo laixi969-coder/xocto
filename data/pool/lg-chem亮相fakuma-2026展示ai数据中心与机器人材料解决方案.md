@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQTlNYXZRc2xL
 summary: LG Chem亮相Fakuma 2026，展示AI数据中心与机器人材料解决方案 디지털투데이
 first_seen: '2026-10-06T01:35:09Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

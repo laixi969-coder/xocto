@@ -87,3 +87,54 @@
     the step of writing scripts and setting up environments, so small teams without ML backgrounds that
     must ship a model from their own data would choose it in that situation; the public material does
     not state supported scope or output, so this causal link remains structural inference.'
+- id: req-full-brewery-ai-2026-10-07
+  project_slug: brewery-ai
+  level: full
+  reviewed_at: '2026-10-07T02:00:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是非专业团队做不了微调这一具体任务：用户有私有数据和基础模型，却因要写训练脚本、配环境、调参而放弃或外包，不解决的后果是自有数据无法转成可用模型。仓库简介明确以“little
+      to no experience required”为定位，输入—动作—交付闭环在结构上可还原，属工作流结构推理；但支持模型与产出形式未披露，把握有限。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+    - ev-915840718a09c8e9
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库简介与星标数（186→194），属关注度而非采用证据；没有用户反馈、issue 讨论或客户案例说明谁在用、用来做什么，也没有留存或重复使用迹象，因此无法判断共识卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+    - ev-915840718a09c8e9
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费路径或采购记录，买方是自建团队、外包服务方还是个人开发者无法判断；按开源仓库形态，钱可能来自 to C 开发者捐赠或 to B 支持服务，但这是判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近微调工作的第一性目标：训练结果能否复现、显存与数据格式边界、失败时的人工确认与安全边界均未披露；仅凭一句简介不能确认交付是确定性的，也不能确认它没有把昂贵训练成本转嫁给用户。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+    - ev-915840718a09c8e9
+  next_validation: 追踪该仓库 README、文档与 issue/discussion，确认支持的模型、数据格式、训练产出形式，以及是否有真实用户报告微调结果。
+  market: ''
+  job: 缺少算法人手的团队开发者，在已有私有数据集、需要得到可部署模型时，把数据和基础模型交给终端里的控制台代理，完成微调并拿到模型权重。
+  job_en: A team developer without ML staff, holding a private dataset and needing a deployable model,
+    hands data and a base model to a terminal console agent to complete fine-tuning and obtain model weights.
+  pain: 微调通常要写训练脚本、配环境、调参并处理显存与数据格式，非专业团队做不动，只能放弃自有数据或外包；公开材料只给出“little to no experience required”这一句，痛点强度来自工作流结构推理，而非用户口述。
+  pain_en: Fine-tuning usually requires writing training scripts, configuring environments, tuning parameters
+    and handling VRAM and data formats; non-specialist teams cannot do it, so they abandon their own data
+    or outsource. The public material only offers the phrase 'little to no experience required', so pain
+    intensity is a workflow-structure inference, not user testimony.
+  current_alternative: 照抄开源微调脚本（如 LLaMA-Factory、Axolotl）、用云厂商托管训练服务，或直接调用通用大模型 API 而不做微调。
+  current_alternative_en: Copying open-source fine-tuning scripts (e.g. LLaMA-Factory, Axolotl), using
+    cloud vendors' managed training services, or calling general LLM APIs without fine-tuning.
+  usage_reason: 推断：相较照抄脚本要自己写训练配置、装依赖、调参，它把数据准备、训练配置与运行收敛成终端里的几步交互，省掉写脚本和配环境这一步，因此没有算法背景的小团队在已有私有数据、又不想外包时会选择它；但公开材料未说明支持的模型、数据格式与产出形式，这一因果尚未被证实。
+  usage_reason_en: 'Inference: compared with copying scripts and writing training configs, installing
+    dependencies and tuning parameters yourself, it collapses data preparation, training configuration
+    and execution into a few terminal interactions, removing the script-writing and environment-setup
+    step; small teams without ML backgrounds holding private data and unwilling to outsource would choose
+    it. However, the public material does not state supported models, data formats or output form, so
+    t'

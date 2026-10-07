@@ -3,16 +3,17 @@ slug: ai-employees
 name: ai-employees
 builder: markfulton
 category: AI + 效率
-summary_zh: 面向需要重复处理浏览器内业务事务的小团队：它把 8 类排程业务角色和 60 条例行流程交给 AI，由 AI 像人一样操作浏览器完成这些例行任务，用户拿到的是自己持有的流程文件与每轮改进后的执行结果，具体交付形态与人工确认环节仍待核验。
-inspiration: 趋势是“AI 员工”从对话助手转向按排程驱动浏览器、可被用户自己持有的流程资产。切入可考虑从某个高频、材料固定的后台环节（如对账、线索清洗、订单跟进）做起，卖按流程产出而非席位，但需先确认这些例行流程在真实业务里的完成率。
-summary_en: 'For small teams that repeatedly handle browser-based business chores: it assigns 8 scheduled
-  business roles and 60 routines to AI, which drives the browser the way a person does, and the user keeps
-  the resulting files and each improved run; the exact deliverable and human sign-off step still need
-  verification.'
-inspiration_en: The trend is a shift from chat assistants to scheduled AI roles that drive a browser and
-  leave the user owning the workflow files. A wedge could be one high-frequency back-office step with
-  fixed inputs, such as reconciliation or lead cleanup, sold per output rather than per seat, once real
-  completion rates are confirmed.
+summary_zh: 开源项目，宣称提供 8 个按日程运行的企业职能角色、60 条例程，可运行在 Claude Code 等 10 余种执行框架上，并像人一样操作浏览器，每次运行后自我改进，文件归用户所有。具体覆盖哪些职能、输入什么材料、产出什么交付物，候选资料未给出细节，仍待核验。
+inspiration: 趋势是把“一个助手”拆成按日程值班的多个职能角色，并让它们直接操作浏览器而非只输出文本。切入可考虑从某个高频、材料格式固定的后台环节入手，例如对账、比价或线索清洗，按完成的任务量而非席位收费；但该项目的实际交付物与可靠性尚未公开，先观察其例程清单与真实使用反馈。
+summary_en: An open-source project claiming 8 scheduled business roles and 60 routines, runnable on Claude
+  Code and about ten other harnesses, driving the browser the way a person does and improving each run,
+  with files owned by the user. Which functions it covers, what inputs it takes and what deliverables
+  it produces are not detailed in the candidate material and remain unverified.
+inspiration_en: The trend is splitting one assistant into multiple scheduled role-based workers that operate
+  a browser instead of only emitting text. A possible entry point is a high-frequency back-office step
+  with fixed input formats, such as reconciliation, price comparison or lead cleanup, charged per completed
+  task rather than per seat; the actual deliverables and reliability are not public, so watch its routine
+  list and real usage feedback first.
 priority_review: false
 project_type: open_source
 industries: []
@@ -28,7 +29,7 @@ summary: Open source AI Employees. 8 scheduled business roles, 60 routines, on C
   harnesses. They drive your browser the way you do and improve every run. You own the files.
 first_seen: '2026-09-02T18:47:36Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

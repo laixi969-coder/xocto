@@ -534,3 +534,52 @@
     and re-checks drift on demand, compressing detect-configure-verify into one reviewable pass; chosen
     by solo developers whose agent already produced code but who won''t hand accounts to a third-party
     backend.'
+- id: req-full-golive-skill-2026-10-07
+  project_slug: golive-skill
+  level: full
+  reviewed_at: '2026-10-07T02:02:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 写完代码后域名、托管、数据库、邮件与支付的上线配置需求，痛点是多后台手工串联易漏配、产品卡在最后一步无法交付；仓库说明给出检测—计划—批准—执行—验证的闭环，属工作流结构推理，公开用户证言仍缺。
+    evidence_ids:
+    - ev-03f8519c3ecac7bd
+    - ev-5c1bc1715192529b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 1,231 个 star，说明社区已注意到该开源 Skill，但 star 只属关注度，公开材料未给出目标开发者持续使用、复刻后实际部署或替代旧流程的证据，强场景是否成立仍待观察。
+    evidence_ids:
+    - ev-5c1bc1715192529b
+  - gate: model
+    status: insufficient
+    reason: 项目自述无 GoLive 账号、后端与遥测，属开源免费形态，公开材料未见定价页或付费路径；钱可能来自赞助、增值托管或后续商业版，这是判断而非已验证事实，需防只靠关注度续命。
+    evidence_ids:
+    - ev-5c1bc1715192529b
+    - ev-6ce93299dbd6a80d
+  - gate: truth
+    status: insufficient
+    reason: 检测—计划—批准—执行—验证的流程与用户自有账号、可回滚删除的边界在说明中写明，但公开材料未提供可复现的部署结果、失败处理或安全边界实测，交付确定性尚缺外部核验。
+    evidence_ids:
+    - ev-03f8519c3ecac7bd
+    - ev-1d6c9a9d13e304c6
+  next_validation: 追踪 golive-skill 仓库的 README、issue 与 discussion，确认是否有开发者公开报告用它在自有账号上完成上线、替代了哪些手工步骤及失败处理情况。
+  market: ''
+  job: 独立开发者或小团队用 agent 写完应用代码后，要处理域名、托管、数据库、邮件与支付这些上线材料，把代码变成可访问、可收款的产品。
+  job_en: Solo developers or small teams, after an agent writes the app code, must handle domain, hosting,
+    database, email and payment materials to turn code into an accessible, payable product.
+  pain: 上线环节分散在多个服务商后台，需要手工注册、配置、串联并逐项验证；漏配或配错会导致站点不可访问、邮件发不出、收款不通，产品卡在最后一步无法交付。
+  pain_en: The go-live steps are scattered across multiple provider dashboards, requiring manual signup,
+    configuration, wiring and verification; a missed or wrong setting leaves the site unreachable, email
+    undeliverable or payments broken, so the product stalls at the last step.
+  current_alternative: 开发者按各服务商文档手工在后台逐项配置，或依赖 Vercel、Railway、Supabase 等一体化平台的默认集成；也有人干脆把上线环节一直拖着。
+  current_alternative_en: Developers configure each provider dashboard by hand following its docs, or
+    rely on the default integrations of all-in-one platforms like Vercel, Railway and Supabase; some simply
+    keep postponing the go-live step.
+  usage_reason: 推断：相较逐个后台手工配置，它先检测项目缺哪些上线资源并给出计划，经用户批准后用自己的账号执行配置并验证结果，把“查文档—找入口—逐项填—回头核对”压缩为一次可审阅的执行，因此卡在上线环节、又希望保留自有账号的独立开发者会选它。
+  usage_reason_en: 'Inference: versus configuring each dashboard by hand, it first detects which go-live
+    resources the project lacks and produces a plan, then after user approval applies the configuration
+    with the user''s own accounts and verifies the result, compressing ''read docs—find the setting—fill
+    it in—re-check'' into one reviewable run; that is why solo developers stuck at go-live who want to
+    keep their own accounts would choose it.'

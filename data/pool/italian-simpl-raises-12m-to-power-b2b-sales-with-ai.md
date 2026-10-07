@@ -1,6 +1,6 @@
 ---
 slug: italian-simpl-raises-12m-to-power-b2b-sales-with-ai
-name: Italian SimpL raises €1.2M to power B2B sales with AI
+name: SimpL
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Italianstartup SimpL has raised €1.2 million in a pre-seed funding ro
   pa...
 first_seen: '2026-10-06T08:45:00Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Italian SimpL raises €1.2M to power B2B sales with AI
+# SimpL
 
 Italianstartup SimpL has raised €1.2 million in a pre-seed funding round to developits AI-powered operating system for generating B2B sales opportunities. Theround was led by Techshop Capital, with pa...
 

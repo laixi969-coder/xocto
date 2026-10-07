@@ -322,3 +322,45 @@
   usage_reason_en: 'No causal explanation can be given: the only evidence is the product''s own description
     plus dictionary and Wikipedia entries unrelated to the product, with no user feedback or case showing
     why anyone would choose it.'
+- id: req-full-system-one-connector-2026-10-07
+  project_slug: system-one-connector
+  level: full
+  reviewed_at: '2026-10-07T02:04:09Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图让代理在流程中调用 Jev、Laya 等模型做快速评估，但公开证据里没有用户任务描述、痛点、频率或不采用代价，连需求与痛点都写不出来，无法形成价值结构判断。
+    evidence_ids:
+    - ev-89180ed104a1fdc0
+    - ev-9c531775d2614051
+    - ev-e513c18d9e56cad2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 System One Connector 官方仓库或文档页，确认其 MCP 连接器的实际调用示例、支持的模型清单与部署说明，以判断是否存在可复现的评估交付闭环。
+  market: ''
+  job: 开发者在其代理流程中，需要对外部内容或模型输出做一次快速评估时，通过 MCP 连接器调用 Typesafe AI 的 Jev、Laya 等模型，拿回评估结果以继续后续流程。
+  job_en: Developers, inside an agent flow, need a quick evaluation of external content or model output,
+    and call Typesafe AI's Jev, Laya and similar models through an MCP connector to get an evaluation
+    result and continue the flow.
+  pain: 公开材料未记录任何用户痛点：既没有开发者描述现有评估步骤的摩擦，也没有说明不解决会造成什么后果或发生频率。
+  pain_en: 'Public materials record no user pain: no developer describes friction in the current evaluation
+    step, nor the consequence or frequency of leaving it unsolved.'
+  current_alternative: 公开材料未说明开发者目前如何完成这类评估，也未说明该连接器替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers currently perform this evaluation,
+    nor what prior practice the connector replaces.
+  usage_reason: 无法给出因果解释：现有证据只有产品自述与词典、百科、Windows 帮助页等无关条目，缺少用户反馈、案例或可核对结果，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the evidence consists only of the product''s own
+    description plus unrelated dictionary, encyclopedia and Windows help entries, with no user feedback,
+    cases or checkable outcomes to show which users would choose it and when.'

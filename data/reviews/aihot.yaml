@@ -368,3 +368,54 @@
     reports of the same story into one event and ranks by independent source count, so users only need
     to swap sources and selection criteria to get a publishable briefing page; editors or operators wanting
     their own industry hotspot site would choose it when they must keep producing a daily b'
+- id: req-full-aihot-2026-10-07
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-07T02:00:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编辑每日从多信源挑条目并排版成日报的重复劳动，痛点高频且有 08:00 出刊的截止约束；旧做法是人工逐源翻找加手工排版，产品用可替换信源与阈值配置自动抓取筛选并生成日报页，交付形态明确。此为工作流结构推理，尚无编辑本人抱怨或采用数据。
+    evidence_ids:
+    - ev-e13dd30219213917
+    - ev-a6cf825c28c91d32
+    - ev-02b1495620201a45
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示日报每天 08:00 定时发布，说明运营方在持续出刊，但这只证明项目自身在跑，未见外部编辑部署、复刻或持续使用的公开记录，无法确认目标用户已形成共识。
+    evidence_ids:
+    - ev-02b1495620201a45
+    - ev-31617f10cba742ad
+  - gate: model
+    status: insufficient
+    reason: 仓库以框架形式公开全部提示词与阈值，未见定价页、付费主体或单位经济；钱可能来自自建者自行部署或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a6cf825c28c91d32
+    - ev-e0baddbe071af103
+  - gate: truth
+    status: insufficient
+    reason: 公开材料说明信源与精选标准需用户自行替换，但未给出筛选准确率、误报漏报处理或人工复核边界的可复现证据，交付能否稳定达到可发布质量仍待核验。
+    evidence_ids:
+    - ev-a6cf825c28c91d32
+    - ev-13defec50a848f74
+  next_validation: 追踪 AIHOT 仓库的 issue 与 discussion，确认是否有外部编辑实际部署并持续出刊，以及筛选准确率与人工复核边界的公开反馈。
+  market: ''
+  job: 行业资讯编辑或运营者在每天固定出刊前，需要从多个信源翻找当天值得看的条目，按自己的精选标准筛出内容并排版成一份可发布的日报站点。
+  job_en: An industry news editor or operator, before a fixed daily publish deadline, must scan multiple
+    sources for the day's worthwhile items, filter them by their own curation standard, and lay them out
+    as a publishable daily site.
+  pain: 公开材料显示日报需每天 08:00 定时发布，说明这是高频、有截止时间的重复劳动；手动翻信源、逐条筛选与排版是固定负担，但公开材料未记录编辑本人的抱怨原话。
+  pain_en: Public materials show the daily digest publishes at 08:00 Beijing time, indicating a high-frequency,
+    deadline-bound repetitive task; manually scanning sources, filtering, and laying out is a fixed burden,
+    though no editor's own complaint is quoted.
+  current_alternative: 旧做法是编辑自己逐个打开信源、人工挑选条目再手工排版；AIHOT 把信源与精选标准做成可替换配置，用仓库里的提示词与阈值自动抓取筛选并生成日报页面。
+  current_alternative_en: The old way is an editor opening sources one by one, hand-picking items, and
+    manually laying out; AIHOT makes sources and curation standards replaceable config, using the repo's
+    prompts and thresholds to auto-fetch, filter, and generate the daily page.
+  usage_reason: 推断：相较人工逐源翻找再排版，用户把信源和精选标准写进配置后由框架自动抓取筛选并生成日报页，省掉逐条浏览与手工排版这两步，因此想自建垂直行业热点站的编辑或运营者会在需要每日稳定出刊时选择它。
+  usage_reason_en: 'Inference: versus manually scanning each source and laying out by hand, users put
+    sources and curation standards into config and the framework auto-fetches, filters, and generates
+    the daily page, removing the per-item browsing and manual layout steps, so editors or operators wanting
+    a vertical news site choose it when they need a stable daily publish.'

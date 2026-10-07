@@ -1,0 +1,88 @@
+- id: req-initial-staycharted-2026-10-07
+  project_slug: staycharted
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是自有分类体系与通用模型标签不匹配的问题，痛点真实但公开材料未说明训练方式、准确率与人工复核，价值强度无法确认。
+    evidence_ids:
+    - ev-82add649f6b5a5dd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、客户案例或采用数据，无法判断是否有人真的把它放进工作流。
+    evidence_ids:
+    - ev-82add649f6b5a5dd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按量收费还是订阅制不明，钱从哪来只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-82add649f6b5a5dd
+  - gate: truth
+    status: insufficient
+    reason: 分类任务本身可核对，但缺少准确率、误分类处理与人工确认边界的说明，交付确定性无法评估。
+    evidence_ids:
+    - ev-82add649f6b5a5dd
+  next_validation: 收集该产品官方定价页或客户案例，确认按什么计价以及是否有真实团队用它替代人工归类。
+  market: ''
+  job: 电商运营、二手卖家或档案整理者在收到一批新图片和文字素材时，需要按自己已有的分类表把它们归到对应类别，以便上架、归档或检索。
+  job_en: An e-commerce operator, reseller or archivist receiving a batch of new images and text needs
+    to sort them into their existing category sheet for listing, filing or retrieval.
+  pain: 通用识别模型只认固定标签，与自有分类体系对不上，只能人工逐条归类，量大时耗时且容易前后不一致。
+  pain_en: Generic recognition models only know fixed labels that do not match the user's own taxonomy,
+    so items must be sorted by hand, which is slow and inconsistent at volume.
+  current_alternative: 人工按表格逐条归类，或把素材丢给通用模型再手工改标签，也有人自己写脚本调接口。
+  current_alternative_en: Sorting by hand against a spreadsheet, or feeding material to a generic model
+    and fixing labels manually, or writing custom scripts against an API.
+  usage_reason: 推断：如果用户上传自有分类样本后模型能直接输出对应类别，就省掉了逐条改标签这一步，因此已有自建分类表且素材量大的团队会先试用；但公开材料未给出准确率、训练成本或复核方式，无法确认它比人工更可靠。
+  usage_reason_en: 'Inference: if uploading one''s own labeled samples lets the model output the matching
+    category directly, the manual relabeling step disappears, so teams that already keep a taxonomy and
+    handle large volumes would try it; public material gives no accuracy, training cost or review method,
+    so it is unproven against manual work.'
+- id: req-full-staycharted-2026-10-07
+  project_slug: staycharted
+  level: full
+  reviewed_at: '2026-10-07T02:04:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自有分类体系与通用模型固定标签错配的问题，痛点是人工逐条归类耗时且不一致；产品页明确以自有分类训练、图文、免代码为交付方式，旧流程与不采用后果可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-82add649f6b5a5dd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、客户案例或采用数据，无法判断是否有人真的把它放进工作流。
+    evidence_ids:
+    - ev-82add649f6b5a5dd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按量收费还是订阅制不明，钱从哪来只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-82add649f6b5a5dd
+  - gate: truth
+    status: insufficient
+    reason: 分类任务本身可核对，但缺少准确率、误分类处理与人工确认边界的说明，交付确定性无法评估。
+    evidence_ids:
+    - ev-82add649f6b5a5dd
+  next_validation: 追踪该产品官方定价页或客户案例，确认按什么计价以及是否有真实团队用它替代人工归类。
+  market: ''
+  job: 电商运营、二手卖家或档案整理者在收到一批新图片和文字素材时，需要按自己已有的分类表把它们归到对应类别，以便上架、归档或检索。
+  job_en: An e-commerce operator, reseller or archivist receiving a batch of new images and text needs
+    to sort them into their existing category sheet for listing, filing or retrieval.
+  pain: 通用识别模型只认固定标签，与自有分类体系对不上，只能人工逐条归类，量大时耗时且前后不一致；产品页明确以“用自己的分类训练”为卖点，说明这一错配是它针对的痛点。
+  pain_en: Generic recognition models only know fixed labels that do not match the user's own taxonomy,
+    so items must be sorted by hand, which is slow and inconsistent at volume; the product page explicitly
+    sells 'train AI on your own categories', indicating this mismatch is the pain it targets.
+  current_alternative: 人工按表格逐条归类，或把素材丢给通用模型再手工改标签，也有人自己写脚本调接口。
+  current_alternative_en: Sorting by hand against a spreadsheet, or feeding material to a generic model
+    and fixing labels manually, or writing custom scripts against an API.
+  usage_reason: 推断：相较人工逐条改标签，用户上传自有分类样本后模型直接输出对应类别，省掉的是“通用模型输出后再逐条纠正标签”这一步，因此已有自建分类表、素材量大的运营或整理者会在批量归类时选择它；公开材料未给出准确率与复核方式，可靠性仍待核验。
+  usage_reason_en: 'Inference: compared with manually relabeling each item, uploading one''s own labeled
+    samples and having the model output the matching category removes the step of correcting a generic
+    model''s labels one by one, so operators or archivists who already keep a taxonomy and handle large
+    batches would choose it for bulk sorting; public material gives no accuracy or review method, so reliability
+    remains unverified.'

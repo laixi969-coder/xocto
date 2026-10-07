@@ -21,7 +21,7 @@ canonical_url: https://endsdontjustifythemeans.com/p/6-questions-for-believers-i
 summary: Questions for believers in AI consciousness
 first_seen: '2026-10-05T18:59:28Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

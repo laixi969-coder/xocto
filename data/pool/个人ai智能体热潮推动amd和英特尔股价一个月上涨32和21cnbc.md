@@ -1,11 +1,14 @@
 ---
 slug: 个人ai智能体热潮推动amd和英特尔股价一个月上涨32和21cnbc
-name: 个人AI智能体热潮推动AMD和英特尔股价一个月上涨32%和21%——CNBC
+name: AMD
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年10月，有报道称个人AI智能体热潮推动AMD和英特尔股价在一个月内分别上涨32%和21%。该变化反映市场对个人AI智能体相关算力需求的预期升温，可能影响芯片厂商在AI应用端的竞争与资本关注度；但仅凭股价表现不足以判断行业整体已转向。
 inspiration: ''
-summary_en: ''
+summary_en: In October 2026, reports said enthusiasm for personal AI agents drove AMD and Intel shares
+  up 32% and 21% respectively over one month. This reflects rising market expectations for compute demand
+  tied to personal AI agents, potentially affecting chipmakers' competition and capital attention in AI
+  applications; however, share-price moves alone are insufficient to conclude the whole industry has shifted.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPY29YZUEzMVhI
 summary: 个人AI智能体热潮推动AMD和英特尔股价一个月上涨32%和21%——CNBC UA.NEWS
 first_seen: '2026-10-06T06:08:00Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# 个人AI智能体热潮推动AMD和英特尔股价一个月上涨32%和21%——CNBC
+# AMD
 
 个人AI智能体热潮推动AMD和英特尔股价一个月上涨32%和21%——CNBC UA.NEWS
 

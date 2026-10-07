@@ -334,3 +334,46 @@
     convention into executable lint rules that flag non-conforming structure before commit, cutting manual
     reading and rework; teams maintaining AI-generated docs that agents must read would adopt it at the
     doc-commit step.'
+- id: req-full-seiso-2026-10-07
+  project_slug: seiso
+  level: full
+  reviewed_at: '2026-10-07T02:03:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 项目声称约束 AI 生成、供人和智能体共读的 Markdown 文档，但全部证据指向 VTuber 俚语与一家网络安全公司，未出现任何用户任务、痛点、旧替代或不解决的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-7a9fa2f8947d332d
+    - ev-3bee06f9b66d8597
+    - ev-642218ec68ee3576
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README、规则文档与 issue/discussion，确认其 Markdown 约定具体约束哪些文档结构、由谁在何种仓库场景使用。
+  market: ''
+  job: 软件工程师或技术文档维护者在仓库中处理由 AI 生成、需同时供人和智能体阅读的 Markdown 项目文档，要完成的任务是让这些文档保持统一结构、可被工具稳定解析。
+  job_en: A software engineer or technical documentation maintainer works on AI-generated Markdown project
+    docs in a repository that must be read by both humans and agents, aiming to keep them structurally
+    consistent and reliably parseable by tooling.
+  pain: 公开证据中没有任何一条描述该任务的具体痛点：没有用户抱怨 AI 生成文档格式混乱、没有说明不统一会带来什么后果，也没有频率或代价记录。现有证据全部指向 VTuber 俚语和一家网络安全公司，与项目描述无关。
+  pain_en: 'No public evidence describes a concrete pain for this job: no user complaint about messy AI-generated
+    docs, no stated consequence of inconsistency, no frequency or cost. All available evidence points
+    to a VTuber slang term and a cybersecurity firm, unrelated to the project description.'
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了什么旧做法（如手写规范、Prettier/Markdownlint、人工评审或不做约束）。
+  current_alternative_en: Public materials do not show how users currently do this work or what it replaces
+    (e.g., hand-written conventions, Prettier/Markdownlint, manual review, or no constraint at all).
+  usage_reason: 无法给出使用理由：证据中没有产品文档、规则说明、用户反馈或案例，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'No usage reason can be given: there is no product documentation, rule description,
+    user feedback, or case study in the evidence to explain which step it removes or which checkable result
+    it improves versus the old approach.'

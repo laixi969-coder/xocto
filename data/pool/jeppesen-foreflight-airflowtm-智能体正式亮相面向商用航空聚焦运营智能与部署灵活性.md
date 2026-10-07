@@ -1,27 +1,43 @@
 ---
 slug: jeppesen-foreflight-airflowtm-智能体正式亮相面向商用航空聚焦运营智能与部署灵活性
-name: Jeppesen ForeFlight Airflow™ 智能体正式亮相，面向商用航空，聚焦运营智能与部署灵活性
+name: Jeppesen ForeFlight Airflow
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: 面向商用航空的运营人员，在航班运行与签派环节处理运行数据与调度信息时，由 Airflow 智能体接收这些材料并执行运营分析类动作，最终交付运营判断或调度建议，人工仍需确认；具体输入、动作与交付流程仍待核验。
+inspiration: 趋势是航空这类高合规、强流程行业开始把智能体放进运行环节，而不是只做客服问答。切入可考虑从签派、机组排班或运行异常处置等单一环节进入，卖法可绑定运行结果或按航司部署收费，但公开材料未披露价格，不可编造。
+summary_en: For commercial aviation operations staff, Airflow ingests operational and scheduling material
+  during flight operations and dispatch work, performs operational-analysis actions, and returns operational
+  judgements or dispatch recommendations that a human still confirms; the exact inputs, actions and deliverables
+  remain unverified.
+inspiration_en: The trend is that highly regulated, process-heavy industries such as aviation are putting
+  agents into operational loops rather than only customer-facing Q&A. An entry point could be a single
+  link such as dispatch, crew scheduling or irregular-operations handling, with pricing tied to operational
+  outcomes or airline deployment, though no public price is disclosed and none should be invented.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 航空运输
+- 航空运营与签派
+industries_en:
+- air transportation
+- airline operations and dispatch
+jobs:
+- 航空运营与签派人员
+- 航班运行控制人员
+jobs_en:
+- airline operations and dispatch staff
+- flight operations control staff
+regions:
+- 全球
+regions_en:
+- global
 open_source: false
 url: https://news.google.com/rss/articles/CBMi1wNBVV95cUxQLVoydmtLQVpOZFYzUEQ4bkJSb3gtN0JGbl9naFdxSHVLdk1FVzJzWU5oMkRoVkZ5SkRjMjRKSTd5V3dDWXl3V2hZd0pVVjliaTh1SzBhdDducklKOEtORTE2eENmMzZrM29UXzE2V2ZZU2V4VXpOUUtZR3RrSVBTQWdvX25CaG00SDlsUEk0ajQ4amhrUVFLUFRxYmVUcjFwQ3I4T2FoYUJhUXN0MjlQU1J4SS0yMzBCS280VGNST1U5QTlSOWwxR2tDYkhwcGdvcHJ2UU5BQko1enVvb3BIcWlDNG10bV9TTGFBRHlsR2FDMEZCTk9lN3ZlOGROSVJiT0JJdFNiQnQxbkllUVpQbU93RVhLeVdhRHFFTDlFVTV0SjZtWDJhOGNoeFhabmdwRTF6N211TVhGTWhBSVpfSlktY3RMazA3cjN1QkdNQWNxVll3U1pIMnBmZUNYa1EwSnNPSzZ6bmJmaXoxUHRRYy1iaVpFeFk1YmpMVDJDR2FvTFFhUkJfTGFhTmt2RHJqS0dEdElKRVV5X0tXS3BFNHR2NnVRUUhKZWxndGNUcWZPZUZURElhcU0wR1RSRFU1ckhOdHc2clN2Y0xBMzYwcUpjLTFHWTQ?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMi1wNBVV95cUxQLVoydmtLQVpOZFYzUEQ4bkJSb3gtN0JGbl9naFdxSHVLdk1FVzJzWU5oMkRoVkZ5SkRjMjRKSTd5V3dDWXl3V2hZd0pVVjliaTh1SzBhdDducklKOEtORTE2eENmMzZrM29UXzE2V2ZZU2V4VXpOUUtZR3RrSVBTQWdvX25CaG00SDlsUEk0ajQ4amhrUVFLUFRxYmVUcjFwQ3I4T2FoYUJhUXN0MjlQU1J4SS0yMzBCS280VGNST1U5QTlSOWwxR2tDYkhwcGdvcHJ2UU5BQko1enVvb3BIcWlDNG10bV9TTGFBRHlsR2FDMEZCTk9lN3ZlOGROSVJiT0JJdFNiQnQxbkllUVpQbU93RVhLeVdhRHFFTDlFVTV0SjZtWDJhOGNoeFhabmdwRTF6N211TVhGTWhBSVpfSlktY3RMazA3cjN1QkdNQWNxVll3U1pIMnBmZUNYa1EwSnNPSzZ6bmJmaXoxUHRRYy1iaVpFeFk1YmpMVDJDR2FvTFFhUkJfTGFhTmt2RHJqS0dEdElKRVV5X0tXS3BFNHR2NnVRUUhKZWxndGNUcWZPZUZURElhcU0wR1RSRFU1ckhOdHc2clN2Y0xBMzYwcUpjLTFHWTQ?oc=5
 summary: Jeppesen ForeFlight Airflow™ 智能体正式亮相，面向商用航空，聚焦运营智能与部署灵活性 GlobeNewswire
 first_seen: '2026-10-06T12:00:27Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:
@@ -32,7 +48,7 @@ sightings:
   kind: news
 ---
 
-# Jeppesen ForeFlight Airflow™ 智能体正式亮相，面向商用航空，聚焦运营智能与部署灵活性
+# Jeppesen ForeFlight Airflow
 
 Jeppesen ForeFlight Airflow™ 智能体正式亮相，面向商用航空，聚焦运营智能与部署灵活性 GlobeNewswire
 

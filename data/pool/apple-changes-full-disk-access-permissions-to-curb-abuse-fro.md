@@ -3,13 +3,12 @@ slug: apple-changes-full-disk-access-permissions-to-curb-abuse-fro
 name: Apple
 builder: ''
 category: ''
-summary_zh: Apple 于 2026 年 10 月调整 macOS 的 Full Disk Access 权限机制，收紧并警告 AI 智能体对全盘数据的访问，以遏制滥用。这一平台政策变化意味着在
-  macOS 上运行的 AI 智能体将面临更严格的权限约束与用户提示，可能增加智能体类应用的适配成本并改变其数据访问与交付方式。
+summary_zh: Apple 调整 macOS 的完全磁盘访问权限机制，以限制 AI 智能体滥用该权限，并会在智能体行为激进时向用户发出警告。这一平台政策变化意味着在 macOS 上运行的 AI 智能体将面临更严格的权限约束，开发者需要重新设计其文件访问与授权流程，终端侧智能体的交付与采用节奏可能因此放缓。
 inspiration: ''
-summary_en: In October 2026 Apple changed macOS Full Disk Access permissions, tightening and adding warnings
-  around AI agents' access to disk data to curb abuse. This platform policy shift means AI agents running
-  on macOS face stricter permission constraints and user warnings, which may raise adaptation costs for
-  agent-based applications and change how they access data and are delivered.
+summary_en: Apple changed macOS Full Disk Access permissions to curb abuse by AI agents and will warn
+  users about aggressive agent behavior. This platform policy shift means AI agents running on macOS face
+  tighter permission constraints, forcing developers to redesign file-access and authorization flows,
+  which may slow delivery and adoption of on-device agents.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +24,7 @@ canonical_url: https://arstechnica.com/security/2026/10/apple-changes-full-disk-
 summary: Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.
 first_seen: '2026-10-02T23:03:16Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

@@ -29,7 +29,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNkEwNmVHcU9m
 summary: 华为小艺Work智能体正式发布，定位专属AI助理 搜狐网
 first_seen: '2026-10-02T12:58:16Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

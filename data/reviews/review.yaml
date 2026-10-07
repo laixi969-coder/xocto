@@ -1,0 +1,83 @@
+- id: req-initial-review-2026-10-07
+  project_slug: review
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从材料中还原，只知审查在本地、模型自备，价值关证据不足。
+    evidence_ids:
+    - ev-c5a8b5c01566d2bf
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值未成立，且无任何采用、评价或场景证据。
+    evidence_ids:
+    - ev-c5a8b5c01566d2bf
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值未成立，买方与付费路径均无公开材料。
+    evidence_ids:
+    - ev-c5a8b5c01566d2bf
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值未成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-c5a8b5c01566d2bf
+  next_validation: 收集该产品的官方说明或文档页，确认它支持的模型、审查范围与交付形式。
+  market: ''
+  job: 开发者在本地完成代码改动、准备提交前，把待审查的代码交给自备的 AI 模型做一次审查。
+  job_en: A developer, before committing local code changes, hands the pending code to a self-supplied
+    AI model for a review pass.
+  pain: 公开材料只说明审查发生在本地、模型自备，未说明它替代了哪一步旧做法或带来什么具体损失，痛点无法确认。
+  pain_en: The public material only states that review happens locally with a self-supplied model; it
+    does not say which prior step it replaces or what concrete loss it avoids, so the pain cannot be confirmed.
+  current_alternative: 公开材料未说明现有替代方式，常见做法可能是托管平台的代码审查或人工自查，但候选资料未提供。
+  current_alternative_en: The material does not describe existing alternatives; common practice may be
+    hosted-platform review or manual self-checking, but the candidate does not provide this.
+  usage_reason: 无法判断：材料未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step of burden it removes versus
+    the old way or which checkable result it improves, so it cannot explain why a user would choose it.'
+- id: req-full-review-2026-10-07
+  project_slug: review
+  level: full
+  reviewed_at: '2026-10-07T02:03:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选证据全部是词典与百科对“review”一词的释义，以及一条无内容的检索查询，未出现该产品自身的功能、输入、交付或用户任务描述，连它解决什么需求、什么痛点都无法还原，价值关无法成立。
+    evidence_ids:
+    - ev-33424b13fc3ec5a1
+    - ev-9e3bd9057d6a2b7b
+    - ev-26051a6f95da9182
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或仓库 README，确认其支持的模型、审查范围与交付形式，并查找公开 issue/discussion 中的实际使用反馈。
+  market: ''
+  job: 开发者在本地写完或改完代码、准备提交前，把待审查的代码交给自备的 AI 模型，在本地机器上完成一次代码审查，再自行决定是否采纳意见。
+  job_en: Before committing local code changes, a developer hands the pending code to a self-supplied
+    AI model to run a review pass on their own machine, then decides whether to adopt the suggestions.
+  pain: 公开材料只说明审查在本地、模型由用户自备，未说明它替代了哪一步旧做法、带来什么具体损失或风险，痛点无法从证据中还原。
+  pain_en: The public material only states that review happens locally with a self-supplied model; it
+    does not say which prior step it replaces or what concrete loss or risk it avoids, so the pain cannot
+    be reconstructed from evidence.
+  current_alternative: 公开材料未说明现有替代方式；常见做法可能是托管平台的代码审查或人工自查，但候选资料未提供任何相关事实。
+  current_alternative_en: The material does not describe existing alternatives; common practice may be
+    hosted-platform review or manual self-checking, but the candidate provides no supporting facts.
+  usage_reason: 无法判断：材料未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step of burden it removes versus
+    the old way or which checkable result it improves, so it cannot explain which users would choose it
+    and when.'

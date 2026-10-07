@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/europe-secondaries-boom-early-stage
 summary: ''
 first_seen: '2026-10-06T11:00:27Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,88 @@
+- id: req-initial-openchart-2026-10-07
+  project_slug: openchart
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决自托管行情图表加自有 agent 分析的需求，痛点与旧替代可还原，但 agent 具体交付与是否刚性仍缺公开事实。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有36点、14条评论的社区讨论，属关注度信号，不能证明持续采用或强场景共识。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露定价或买方；钱可能来自自托管用户或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 agent 输出是否贴近交易决策的第一性目标，也未说明人工确认与安全边界。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认 AI agent 的输入、输出与人工确认边界。
+  market: ''
+  job: 个人投资者或量化爱好者在自建环境里查看行情图表，并让 AI agent 基于这些数据给出分析或操作建议。
+  job_en: Individual investors or quant enthusiasts view market charts in a self-hosted environment and
+    have an AI agent produce analysis or suggested actions from that data.
+  pain: 商业行情平台按席位收费、数据与自定义分析受限于平台，用户难以把自有模型或策略接进同一界面。
+  pain_en: Commercial charting platforms charge per seat and constrain data and custom analysis, making
+    it hard to plug one's own model or strategy into the same interface.
+  current_alternative: 使用 TradingView 等商业平台，或自行拼装开源图表库加脚本，AI 分析则另开对话工具。
+  current_alternative_en: Using commercial platforms such as TradingView, or assembling open-source charting
+    libraries with scripts, with AI analysis done in a separate chat tool.
+  usage_reason: 推断：相较商业平台，它把图表与自有 agent 放在同一自托管环境，减少把数据导出再喂给外部模型的步骤，因此在意数据不出本地、想接自有策略的散户或小团队会尝试；但公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: versus commercial platforms, it puts charts and a personal agent in one
+    self-hosted environment, removing the step of exporting data to an external model, so retail traders
+    or small teams that care about data locality and custom strategies may try it; public materials show
+    no retention or payment evidence.'
+- id: req-full-openchart-2026-10-07
+  project_slug: openchart
+  level: full
+  reviewed_at: '2026-10-07T02:03:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自托管行情图表加自有 agent 分析的需求，痛点是商业平台按席位收费且数据与自定义分析受限，用户被迫在平台外另开对话工具；这是工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论的关注度信号，没有用户评价或案例说明投资者是否真的把 agent 分析纳入日常决策，强场景共识尚未形成。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或买方，钱可能来自自托管用户或后续托管服务，这是判断而非已验证事实，付费路径未核验。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 agent 输出是否贴近交易决策的第一性目标，也未说明人工确认与安全边界，交付确定性尚未核验。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  next_validation: 追踪该仓库 README、issue 与 discussion 的更新，确认 AI agent 的输入、输出与人工确认边界。
+  market: ''
+  job: 个人投资者或量化爱好者在自建环境里查看行情图表，并把自有 AI agent 接入同一工作区，让 agent 基于这些行情数据给出分析或操作建议，最终由用户自行确认是否执行。
+  job_en: Individual investors or quant enthusiasts view market charts in a self-hosted environment and
+    connect their own AI agent into the same workspace, having the agent produce analysis or suggested
+    actions from that market data, with the user confirming execution.
+  pain: 商业行情平台按席位收费、数据与自定义分析受限于平台，用户难以把自有模型或策略接进同一界面，只能把数据导出再喂给外部对话工具，步骤割裂。
+  pain_en: Commercial charting platforms charge per seat and constrain data and custom analysis, making
+    it hard to plug one's own model or strategy into the same interface; users must export data and feed
+    it to a separate chat tool, splitting the workflow.
+  current_alternative: 使用 TradingView 等商业平台，或自行拼装开源图表库加脚本，AI 分析则另开对话工具完成。
+  current_alternative_en: Using commercial platforms such as TradingView, or assembling open-source charting
+    libraries with scripts, with AI analysis done in a separate chat tool.
+  usage_reason: 推断：相较商业平台，它把图表与自有 agent 放在同一自托管环境，减少把数据导出再喂给外部模型这一步，因此在意数据不出本地、想接自有策略的散户或小团队会尝试；但公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: versus commercial platforms, it puts charts and a personal agent in one
+    self-hosted environment, removing the step of exporting data to an external model, so retail traders
+    or small teams that care about data locality and custom strategies may try it; public materials show
+    no retention or payment evidence.'

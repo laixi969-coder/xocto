@@ -23,7 +23,7 @@ summary: ADATA expands enterprise memory and storage portfolio for AI servers an
   Computer
 first_seen: '2026-09-04T09:24:39Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -376,3 +376,46 @@
     it could reduce line-by-line post-hoc checking; however, all current evidence points to a same-named
     Christian meditation app and dictionary definitions, with no evidence of this coding-agent product''s
     features, integration, or use, so which users would choose it cannot be explained.'
+- id: req-full-abide-2026-10-07
+  project_slug: abide
+  level: full
+  reviewed_at: '2026-10-07T02:00:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其约束编码代理遵守项目规则，但所引证据全部是基督教冥想 App、词典释义与圣经词义页面，与编码代理规则约束无关，连用户任务与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-3a05dba5e309b1c8
+    - ev-7e15f577a7049138
+    - ev-04c045f3c5fe58fb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该编码代理规则约束项目的官方仓库 README、接入文档与 issue/discussion，核对它如何约束代理、规则是否确定性生效。
+  market: ''
+  job: 软件开发工程师在让编码代理修改已有代码库时，需要把项目既有的规则文件与代码约定交给代理，让代理产出的改动符合这些约定。
+  job_en: A software developer, while having a coding agent modify an existing codebase, needs to hand
+    the project's existing rule files and conventions to the agent so its changes comply with them.
+  pain: 公开材料只有一句产品描述，没有任何用户反馈、issue 或案例说明代理偏离规则的具体表现、发生频率与返工代价，痛点无法还原。
+  pain_en: The public material contains only a one-line product description; no user feedback, issues,
+    or cases describe how agents deviate from rules, how often, or at what rework cost, so the pain cannot
+    be reconstructed.
+  current_alternative: 公开材料未说明开发者此前如何约束代理，无法确认是靠人工审查、提示词重复粘贴规则，还是依赖代理自带的规则文件支持。
+  current_alternative_en: The public material does not describe how developers previously constrained
+    agents, so it is unclear whether they relied on manual review, repeated rule pasting in prompts, or
+    the agent's built-in rule-file support.
+  usage_reason: 推断：若 abide 能把项目规则作为约束直接施加在生成环节，开发者可少做一轮事后逐条核对；但缺少接入方式、用户反馈与采用证据，无法确认哪类开发者会在什么情况下选择它。
+  usage_reason_en: 'Inference: if abide applies project rules as a constraint during generation, developers
+    could skip one round of line-by-line post-hoc checking; however, without integration details, user
+    feedback, or adoption evidence, it is unclear which developers would choose it and when.'

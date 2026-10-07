@@ -21,7 +21,7 @@ canonical_url: https://interconnects.ai/p/the-cyber-risk-discourse-is-broken
 summary: Open-weights, ideology, and acknowledging trade-offs.
 first_seen: '2026-10-06T14:22:41Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

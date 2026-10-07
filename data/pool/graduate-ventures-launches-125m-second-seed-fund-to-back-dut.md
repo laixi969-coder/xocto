@@ -1,6 +1,6 @@
 ---
 slug: graduate-ventures-launches-125m-second-seed-fund-to-back-dut
-name: Graduate Ventures launches €125M second seed fund to back Dutch tech startups
+name: Graduate Ventures
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Graduate Ventures has launched its second seed fund of €125 million, 
   committed.   Since its founding in 2021 by alumni of Delft University of Technology and Erasmus Universit...
 first_seen: '2026-10-06T12:46:15Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Graduate Ventures launches €125M second seed fund to back Dutch tech startups
+# Graduate Ventures
 
 Graduate Ventures has launched its second seed fund of €125 million, with €100 million already committed.   Since its founding in 2021 by alumni of Delft University of Technology and Erasmus Universit...
 

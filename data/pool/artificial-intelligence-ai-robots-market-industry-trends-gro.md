@@ -23,7 +23,7 @@ summary: 'Artificial Intelligence (AI) Robots Market : Industry Trends, Growth D
   Outlook to 2035 FinancialContent'
 first_seen: '2026-10-06T10:45:00Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

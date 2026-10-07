@@ -583,3 +583,41 @@
     repeatable bootstrap flow, removing the step of locating and editing each file, so developers restoring
     a consistent AI environment after a new machine or reinstall would choose it; 88 stars and 5 forks
     show attention only, not sustained use.'
+- id: req-full-bootagent-2026-10-07
+  project_slug: bootagent
+  level: full
+  reviewed_at: '2026-10-07T02:00:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户在新电脑上一次配好常用 AI 助手，但产品说明不能代替用户证据，痛点强度、不采用代价与当前替代方式均未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找 BootAgent 官方定价页、部署文档或仓库 issue/discussion，确认谁付钱、不使用的代价及可确定交付的结果。
+  market: ''
+  job: 开发者在新电脑到手时，把常用的 AI 助手一次配好，不用逐个手工编辑各工具专属配置文件。
+  job_en: Developers, on a fresh machine, set up their usual AI assistants in one pass without hand-editing
+    each tool-specific config file.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果，痛点强度无法从现有证据判断。
+  pain_en: Public materials do not show the specific cost, frequency, or consequence of leaving it unsolved,
+    so pain intensity cannot be judged from available evidence.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what it
+    replaces.
+  usage_reason: 公开代码仓库有 88 个收藏、5 次复刻，说明开发者正在关注或试用；但缺少用户反馈或案例支持，持续使用与付费仍未核验，无法解释用户为何选择它。
+  usage_reason_en: Its public repository has 88 stars and 5 forks, showing developer attention; but without
+    user feedback or cases, repeat use and payment remain unverified, so why users choose it cannot be
+    explained.

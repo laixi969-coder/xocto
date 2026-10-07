@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRWRjb3JHX1dN
 summary: Stryve co-founder Gunter Bayer sees AI as an opportunity for more human-to-human business TechCentral.ie
 first_seen: '2026-10-06T12:51:25Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

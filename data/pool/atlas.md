@@ -43,7 +43,7 @@ canonical_url: https://worldlabs.ai/blog/atlas
 summary: A World Model for Spatial Intelligence
 first_seen: '2026-09-01T17:36:02Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - marketfeeds

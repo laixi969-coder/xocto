@@ -1,6 +1,6 @@
 ---
 slug: robotics-startup-robco-valued-at-1b-in-40m-funding-round
-name: Robotics startup RobCo valued at $1B+ in $40M funding round
+name: RobCo
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxOaXdEQXAyQTlR
 summary: Robotics startup RobCo valued at $1B+ in $40M funding round SiliconANGLE
 first_seen: '2026-10-05T20:30:00Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Robotics startup RobCo valued at $1B+ in $40M funding round
+# RobCo
 
 Robotics startup RobCo valued at $1B+ in $40M funding round SiliconANGLE
 

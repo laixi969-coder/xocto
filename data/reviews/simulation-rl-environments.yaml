@@ -1,0 +1,82 @@
+- id: req-initial-simulation-rl-environments-2026-10-07
+  project_slug: simulation-rl-environments
+  level: initial
+  reviewed_at: '2026-10-07T01:32:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只说明把真实工作转成 RL 环境，未写清谁在什么环节遇到什么困难、不解决会失去什么，需求与痛点无法还原。
+    evidence_ids:
+    - ev-9dd4610275104093
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 3 个点赞，无社区讨论、采用或复现记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-9dd4610275104093
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、买方或付费路径，钱从哪来无法判断。
+    evidence_ids:
+    - ev-9dd4610275104093
+  - gate: truth
+    status: insufficient
+    reason: 未说明仿真与真实作业的差距、人工确认边界和交付确定性，无法核对承诺能否兑现。
+    evidence_ids:
+    - ev-9dd4610275104093
+  next_validation: 收集该开源项目的仓库 issue、discussion 或文档，确认它面向的具体行业流程、输入输出与是否有人实际用于训练。
+  market: ''
+  job: 强化学习研究者或仿真工程师在训练行业智能体时，需要把港口调度等真实作业流程转成可交互的仿真任务，让智能体在其中反复试错。
+  job_en: Reinforcement learning researchers or simulation engineers need to convert real work processes
+    such as port scheduling into interactive simulation tasks so agents can repeatedly trial and error
+    during training.
+  pain: 公开材料只说明把真实工作转成 RL 环境，未说明谁在什么环节遇到什么具体困难，痛点无法确认。
+  pain_en: The public material only states that real work is turned into RL environments; it does not
+    say who faces what specific difficulty at which step, so the pain point cannot be confirmed.
+  current_alternative: 公开材料未提供现有替代方式，无法确认此前是自建仿真、使用通用环境还是人工排班。
+  current_alternative_en: The public material provides no current alternative, so it is unclear whether
+    teams previously built simulations themselves, used generic environments, or scheduled manually.
+  usage_reason: 公开材料未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，无法判断用户为何选择它。
+  usage_reason_en: The public material does not explain which step's burden is reduced or which verifiable
+    result improves versus the old approach, so why users would choose it cannot be judged.
+- id: req-full-simulation-rl-environments-2026-10-07
+  project_slug: simulation-rl-environments
+  level: full
+  reviewed_at: '2026-10-07T02:03:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决把港口调度等真实作业转成可交互 RL 训练环境的需求，但公开材料只有一句概述，未写清谁在哪个环节遇到什么困难、不解决会失去什么，痛点与交付均无法还原。
+    evidence_ids:
+    - ev-921cac2663fde979
+    - ev-fc4a2026b4711484
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的公开仓库或文档，确认 PortSimEnv v1 的具体输入输出、面向的港口调度流程，以及是否有 issue、discussion 或复现记录显示有人实际用于训练。
+  market: ''
+  job: 强化学习研究者或仿真环境构建者在训练港口调度等作业智能体时，需要把真实作业流程转成可交互的仿真任务，让智能体在其中反复试错并产出可复用的训练环境。
+  job_en: RL researchers or simulation-environment builders training agents for tasks such as port scheduling
+    need to convert real work processes into interactive simulation tasks so agents can repeatedly trial
+    and error and produce a reusable training environment.
+  pain: 公开材料只给出“把真实工作转成 RL 环境”这一句，未说明谁在哪个环节卡住、不解决会失去什么，痛点无法还原。
+  pain_en: The public material only states 'turning real-world work into RL environments' and does not
+    say who is stuck at which step or what is lost if unsolved, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未提供任何现有替代方式，无法确认此前是自建仿真、使用通用环境还是人工排班。
+  current_alternative_en: The public material provides no current alternative, so it is unclear whether
+    teams previously built simulations themselves, used generic environments, or scheduled manually.
+  usage_reason: 公开材料未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: The public material does not explain which step's burden is reduced or which verifiable
+    result improves versus the old approach, so which users would choose it and when cannot be judged.

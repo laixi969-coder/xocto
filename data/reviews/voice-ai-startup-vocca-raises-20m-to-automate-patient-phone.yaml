@@ -1,0 +1,92 @@
+- id: req-initial-voice-ai-startup-vocca-raises-20m-to-automate-patient-phone-2026-10-07
+  project_slug: voice-ai-startup-vocca-raises-20m-to-automate-patient-phone
+  level: initial
+  reviewed_at: '2026-10-07T01:32:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决诊所前台电话占线、漏接与重复登记的问题，旧流程和患者等待代价清晰。
+    evidence_ids:
+    - ev-35c7225faed0e911
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，缺少诊所客户案例或前台人员反馈，采用共识未建立。
+    evidence_ids:
+    - ev-35c7225faed0e911
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方预算，按通话量还是按诊所订阅收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-35c7225faed0e911
+  - gate: truth
+    status: insufficient
+    reason: 通话类型覆盖、与排班系统对接及人工转接规则未公开，医疗合规边界待核验。
+    evidence_ids:
+    - ev-35c7225faed0e911
+  next_validation: 收集 Vocca 官方产品页或客户案例，确认其可处理的通话类型、与诊所排班系统的对接方式及定价。
+  market: ''
+  job: 诊所前台与患者服务人员，在就诊高峰或非工作时段接到患者来电时，处理预约、改约和咨询请求，要完成登记并同步到诊所排班。
+  job_en: Clinic front-desk and patient service staff, when patient calls arrive at peak hours or outside
+    working time, handle appointment, rescheduling and enquiry requests and must log them into the clinic
+    schedule.
+  pain: 电话占线、漏接和重复登记消耗前台时间，患者等待久且预约信息容易出错。
+  pain_en: Busy lines, missed calls and duplicate logging consume front-desk time, patients wait longer
+    and appointment details are error-prone.
+  current_alternative: 人工接听并手工录入排班表，或使用语音菜单和留言回拨。
+  current_alternative_en: Staff answering manually and typing into the schedule, or using phone menus
+    and voicemail callbacks.
+  usage_reason: 相较人工接听和语音菜单，Vocca 直接以语音对话完成预约类通话并记录结果，减少前台逐通接听与回拨的环节；推断诊所会在来电高峰或非工作时段启用它分流常规预约。
+  usage_reason_en: Compared with manual answering and phone menus, Vocca completes appointment-type calls
+    through voice dialogue and records the outcome, cutting the step of staff answering and calling back
+    each caller; inference is that clinics enable it to absorb routine scheduling during call peaks or
+    off-hours.
+- id: req-full-voice-ai-startup-vocca-raises-20m-to-automate-patient-phone-2026-10-07
+  project_slug: voice-ai-startup-vocca-raises-20m-to-automate-patient-phone
+  level: full
+  reviewed_at: '2026-10-07T02:04:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决诊所前台电话占线、漏接与重复登记的问题，患者等待和预约出错是刚性痛点；旧流程为人工接听加手工录入，不解决的后果明确。这是基于公开产品说明与工作流的结构推理，尚无客户反馈佐证。
+    evidence_ids:
+    - ev-1a563cfac7a677c0
+    - ev-f12d959371c40eb4
+  - gate: consensus
+    status: insufficient
+    reason: 官网称“Trusted by thousands”，但无具名诊所客户案例或前台人员反馈，采用共识尚未建立，公开关注度不能替代持续使用证据。
+    evidence_ids:
+    - ev-f12d959371c40eb4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页与买方预算，按通话量还是按诊所订阅收费属推断；谁付钱尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1a563cfac7a677c0
+  - gate: truth
+    status: insufficient
+    reason: 可处理的通话类型、与排班系统的对接方式及人工转接规则未公开，医疗场景的合规与安全边界待核验，承诺能否确定性交付尚不明确。
+    evidence_ids:
+    - ev-1a563cfac7a677c0
+    - ev-f12d959371c40eb4
+  next_validation: 追踪 Vocca 官网定价页与具名诊所客户案例，确认其可处理的通话类型、与排班系统的对接方式及收费口径。
+  market: ''
+  job: 诊所前台与患者服务人员在就诊高峰或非工作时段接到患者来电时，处理预约、改约和咨询请求，并把结果登记同步到诊所排班系统。
+  job_en: Clinic front-desk and patient service staff, when patient calls arrive at peak hours or outside
+    working time, handle appointment, rescheduling and enquiry requests and must log the outcome into
+    the clinic scheduling system.
+  pain: 公开材料显示前台需人工接听并逐条记录来电，电话占线、漏接和重复登记消耗人力，患者等待变长且预约信息易出错；这是从产品说明与旧流程推出的结构判断。
+  pain_en: Public material shows staff answer calls and log each request manually; busy lines, missed
+    calls and duplicate logging consume front-desk time, lengthen patient waits and make appointment details
+    error-prone; this is a structural inference from the product description and the old workflow.
+  current_alternative: 人工接听并手工录入排班表，或使用语音菜单、留言回拨等旧方式。
+  current_alternative_en: Staff answering manually and typing into the schedule, or using phone menus
+    and voicemail callbacks.
+  usage_reason: 相较人工接听和语音菜单，Vocca 以医疗词汇训练的语音代理直接完成预约、提醒和咨询通话并自主记录结果，减少前台逐通接听与回拨这一环节，因此来电高峰或非工作时段需要分流常规预约的诊所会选用它；这是基于产品能力的推断，尚无客户反馈证实。
+  usage_reason_en: Compared with manual answering and phone menus, Vocca's medical-vocabulary voice agents
+    complete booking, reminder and enquiry calls and record outcomes autonomously, removing the step of
+    staff answering and calling back each caller, so clinics needing to absorb routine scheduling at call
+    peaks or off-hours would choose it; this is an inference from product capability, not confirmed by
+    customer feedback.

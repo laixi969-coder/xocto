@@ -197,3 +197,58 @@
   usage_reason_en: 'Inference: packing an assistant and vault into iMessage saves only one app switch,
     with no public explanation of which step it removes versus Keychain autofill or Siri, so the reason
     to switch is unclear.'
+- id: req-full-openinstinct-2026-10-07
+  project_slug: openinstinct
+  level: full
+  reviewed_at: '2026-10-07T02:03:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 iOS 用户在 iMessage 内完成个人事务并调用密码的需求，痛点是密码管理器与助手分属两个入口、需切换与手动搬运凭据，通用助手无法在对话内完成需凭据的跨工具动作；不采用则继续多
+      App 切换。此为工作流结构推理，公开材料未含用户抱怨。
+    evidence_ids:
+    - ev-897fe7bc60e5226a
+    - ev-5103b87f6a3598ab
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 296 缓升至 313，另有 213 星的仓库条目，说明开发者关注度存在；但无用户评价、issue 讨论或采用案例，无法判断是否形成强场景共识，关注度不等于持续使用。
+    evidence_ids:
+    - ev-5103b87f6a3598ab
+    - ev-a8bd8ec2ebbd087a
+    - ev-897fe7bc60e5226a
+  - gate: model
+    status: insufficient
+    reason: 公开材料仅显示开源仓库与项目站点，未见定价页、付费路径或企业采购信息，买方是个人订阅、开源赞助还是 to VC 无法确认；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-5103b87f6a3598ab
+    - ev-897fe7bc60e5226a
+  - gate: truth
+    status: insufficient
+    reason: 定位为 iMessage 助手加密码保险库，但公开材料未说明凭据存储与加密方式、代理执行动作的授权边界及人工确认环节，交付确定性与安全边界无法核验。
+    evidence_ids:
+    - ev-897fe7bc60e5226a
+    - ev-5103b87f6a3598ab
+  next_validation: 追踪 https://公开代码仓库.com/mariagorskikh/open-instinct 的 README、issue 与 discussion，确认密码存储加密方式、代理执行授权边界，以及是否出现用户使用反馈或付费入口。
+  market: ''
+  job: iOS 用户在日常使用 iMessage 时，把待办、查询、日程等个人事务和密码调用交给一个可短信对话的个人代理，由代理在其自有计算机上执行操作并返回结果，用户不必切换到独立 App。
+  job_en: An iOS user, while already inside iMessage, hands personal tasks (todos, lookups, scheduling)
+    and password retrieval to a textable personal agent that executes on its own computer and returns
+    results, without switching to a separate app.
+  pain: 公开材料只给出定位（iMessage 个人助手 + 密码保险库），未披露用户抱怨或使用反馈；可确认的结构性摩擦是：密码管理器与聊天/助手分属两个入口，用户要在 App 间切换并手动复制凭据，而通用助手（Siri）无法在对话内完成需要凭据或跨工具执行的任务。此为工作流结构推理，非用户口述。
+  pain_en: Public material only states the positioning (iMessage personal assistant + password vault)
+    and discloses no user complaints or feedback. The confirmable structural friction is that password
+    managers and chat/assistant live in two separate entry points, forcing app switching and manual credential
+    copying, while general assistants (Siri) cannot complete credential-dependent or cross-tool tasks
+    inside the conversation. This is workflow-structural inference, not user testimony.
+  current_alternative: iCloud 钥匙串或 1Password 等独立密码管理器，配合 Siri 或 ChatGPT 等通用助手；用户自行在两者之间切换、复制粘贴。
+  current_alternative_en: Standalone password managers such as iCloud Keychain or 1Password, paired with
+    general assistants like Siri or ChatGPT; the user switches between them and copies credentials manually.
+  usage_reason: 推断：相较在密码管理器与助手之间来回切换，该产品把入口收敛到用户本就在用的 iMessage 会话，代理自带一台计算机并接入 Composio 等工具链，可在同一对话内完成取用凭据与执行动作，省去切换
+    App 与手动搬运凭据这一步；因此已在 iMessage 中高频沟通、又需要助手代为执行操作的 iOS 用户会优先尝试它。仓库星标从 296 增至 313 只说明关注度，不作为选择理由。
+  usage_reason_en: 'Inference: instead of switching between a password manager and an assistant, the product
+    collapses the entry point into the iMessage thread the user already uses, and the agent ships with
+    its own computer plus tool integrations such as Composio, so credential retrieval and action execution
+    happen in one conversation, removing the app-switch and manual credential-carry step. iOS users who
+    already live in iMessage and want an agent to act on their behalf are therefore the ones '

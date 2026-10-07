@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzJxdkNldzBM
 summary: Kissflow tops Gartner Peer Insights based on customer reviews BusinessLine
 first_seen: '2026-10-06T08:42:49Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

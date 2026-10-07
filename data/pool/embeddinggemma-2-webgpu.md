@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/webml-community/embeddinggemma-2-we
 summary: ''
 first_seen: '2026-10-06T16:08:12Z'
 last_seen: '2026-10-07T01:32:53Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

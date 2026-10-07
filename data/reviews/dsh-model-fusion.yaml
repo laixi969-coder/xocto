@@ -237,3 +237,59 @@
     removing the manual switching and context-shuttling step and making per-task model spend predictably
     lower. Harness users who care about API bills but not at the cost of planning/review quality would
     choose it for long coding tasks. Public materials provide no user-stated motivation or retentio'
+- id: req-full-dsh-model-fusion-2026-10-07
+  project_slug: dsh-model-fusion
+  level: full
+  reviewed_at: '2026-10-07T02:01:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码任务中前沿模型全流程开销高、便宜模型质量不足的取舍痛点，痛点刚性来自 token 成本与产出质量不可兼得；公开定位已给出 Lead 规划审查、Sidekick 写码的输入—动作—交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+    - ev-87a9e039a0b72f04
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 40 增至 53，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或使用反馈说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+    - ev-a4ff5b0470c81f25
+    - ev-87a9e039a0b72f04
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未给出定价页、付费路径或买方身份；可能路径是开发者自付 API 费用或企业采购 harness 配套，但均属判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句定位，缺少接入文档、成本对比与产出质量实测，无法核对“接近前沿结果”的承诺能否确定性交付，也无法确认人工审查与安全边界如何设定。
+    evidence_ids:
+    - ev-2b4d9bbbb6abb3b6
+    - ev-3ffb0844fbcf3629
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认 Lead/Sidekick 的具体接入方式、是否有成本对比或产出质量实测，以及是否有使用者报告实际采用场景。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者，在编写一个具体编码任务时，把任务拆成两段：由前沿模型（Lead）负责规划与代码审查，由更便宜的模型（Sidekick）负责实际写代码，从而在同一个
+    harness 工作流内完成从规划到产出的闭环。
+  job_en: 'A developer using DeepSeek Harness splits a concrete coding task into two stages: a frontier
+    model (Lead) plans and reviews, while a cheaper model (Sidekick) writes the code, completing the plan-to-output
+    loop inside the same harness workflow.'
+  pain: 公开材料支持的痛点是单次编码任务的模型开销：全用前沿模型跑完整任务，token 成本高；全用便宜模型，规划与审查质量下降。项目定位明确指向“frontier results at a discount”这一取舍，即在不放弃前沿级规划/审查的前提下压低写码环节的支出。
+  pain_en: 'The publicly stated pain is per-task model spend: running the whole task on a frontier model
+    is expensive, while running it entirely on a cheap model degrades planning and review quality. The
+    positioning explicitly targets ''frontier results at a discount'' — cutting the cost of the code-writing
+    stage without giving up frontier-grade planning and review.'
+  current_alternative: 当前替代方式包括：全程使用单一前沿模型（成本高）、全程使用单一便宜模型（质量不稳）、或手动在多个模型/工具间复制粘贴上下文来分工。项目把这种分工固化为 harness
+    内的 Lead/Sidekick 配置，替代手工切换与上下文搬运。
+  current_alternative_en: 'Current alternatives are: running everything on one frontier model (expensive),
+    running everything on one cheap model (unstable quality), or manually copying context between models/tools
+    to split the work. The project hardens that split into a Lead/Sidekick configuration inside the harness,
+    replacing manual switching and context shuttling.'
+  usage_reason: 推断：相较手动在两个模型间搬运上下文，该方案通过把规划、审查与写码的角色分工写进 harness 配置，减少一次手工切换模型与重述任务的步骤，并把成本控制点固定在写码环节。因此对已经在用
+    DeepSeek Harness、且对单次任务 token 支出敏感的个人开发者或小团队，会在中长编码任务中选择它。公开材料未提供用户反馈或成本对比数据，此因果为基于产品定位与工作流结构的推断。
+  usage_reason_en: 'Inference: compared with manually shuttling context between two models, this approach
+    encodes the plan/review/write role split into harness configuration, removing a manual model-switch
+    and task-restatement step and pinning cost control to the code-writing stage. Developers or small
+    teams already on DeepSeek Harness who are sensitive to per-task token spend would therefore pick it
+    for longer coding tasks. Public materials provide no user feedback or cost-comparison data; this'

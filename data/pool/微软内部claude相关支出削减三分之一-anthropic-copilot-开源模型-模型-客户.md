@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNSEktTXlPQmZJ
 summary: 微软内部Claude相关支出削减三分之一|Anthropic|Copilot|开源模型|模型|客户 新浪财经
 first_seen: '2026-10-06T09:53:06Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

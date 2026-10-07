@@ -1,0 +1,79 @@
+- id: req-initial-sideloop-2026-10-07
+  project_slug: sideloop
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点，候选材料未说明，无法判断是否替代了某一步旧工作。
+    evidence_ids:
+    - ev-f5ed0cb5c2c37147
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区点赞与评论数，属于关注度信号，不能说明用户已把它放进日常工作流。
+    evidence_ids:
+    - ev-f5ed0cb5c2c37147
+  - gate: model
+    status: insufficient
+    reason: 材料未说明买方、定价或收费方式，钱从哪来无法判断。
+    evidence_ids:
+    - ev-f5ed0cb5c2c37147
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 在流程中具体做什么，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-f5ed0cb5c2c37147
+  next_validation: 收集该仓库的 README 或 issue 讨论，确认它是否包含 AI 环节、支持哪些签名方式，以及用户实际反馈。
+  market: ''
+  job: iOS 侧载应用的使用者在签名即将过期时，需要重新为应用签名以继续使用，处理的是本机应用与签名证书。
+  job_en: Users of sideloaded iOS apps re-signing apps before the signing certificate expires, working
+    with local apps and signing certificates.
+  pain: 候选资料只说明签名会过期这一事实，未提供用户抱怨、替代做法或采用数据，痛点强度无法从材料确认。
+  pain_en: The candidate material only states that certificates expire; it provides no user complaints,
+    workarounds or adoption data, so the intensity of the pain cannot be confirmed from the material.
+  current_alternative: 公开材料未说明旧做法，无法确认此前是手动用电脑重新签名、使用其他续签工具，还是放弃使用。
+  current_alternative_en: The public material does not describe the previous approach, so it is unclear
+    whether users re-signed manually on a computer, used another renewal tool, or gave up.
+  usage_reason: 材料未提供用户反馈或采用证据，无法解释用户为何选择它而非旧做法；社区点赞数只反映关注度。
+  usage_reason_en: The material provides no user feedback or adoption evidence, so it cannot explain why
+    users would choose it over the old approach; community points only reflect attention.
+- id: req-full-sideloop-2026-10-07
+  project_slug: sideloop
+  level: full
+  reviewed_at: '2026-10-07T02:03:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决侧载应用签名过期后无法继续使用的问题，但候选材料只有一句功能描述，未说明旧流程、用户抱怨或不续签的后果，无法还原具体任务与痛点强度。
+    evidence_ids:
+    - ev-f5ed0cb5c2c37147
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue 讨论，确认它是否包含 AI 环节、支持哪些签名方式，以及是否有用户反馈重复使用。
+  market: ''
+  job: iOS 侧载应用的使用者在签名即将过期、应用无法继续打开时，需要重新为应用签名以继续使用，处理的是本机应用与签名证书。
+  job_en: Users of sideloaded iOS apps re-signing apps before the signing certificate expires, working
+    with local apps and signing certificates.
+  pain: 候选资料只说明签名会过期这一事实，未提供用户抱怨、替代做法或采用数据，痛点强度无法从材料确认。
+  pain_en: The candidate material only states that certificates expire; it provides no user complaints,
+    workarounds or adoption data, so the intensity of the pain cannot be confirmed from the material.
+  current_alternative: 公开材料未说明旧做法，无法确认此前是手动用电脑重新签名、使用其他续签工具，还是放弃使用。
+  current_alternative_en: The public material does not describe the previous approach, so it is unclear
+    whether users re-signed manually on a computer, used another renewal tool, or gave up.
+  usage_reason: 材料未提供用户反馈或采用证据，无法解释用户为何选择它而非旧做法；社区点赞数只反映关注度。
+  usage_reason_en: The material provides no user feedback or adoption evidence, so it cannot explain why
+    users would choose it over the old approach; community points only reflect attention.

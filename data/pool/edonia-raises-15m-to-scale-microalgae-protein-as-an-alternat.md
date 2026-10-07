@@ -23,7 +23,7 @@ summary: Foodtech Edonia has raised €15 million in funding.  In recent years, 
   h...
 first_seen: '2026-10-06T13:51:00Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

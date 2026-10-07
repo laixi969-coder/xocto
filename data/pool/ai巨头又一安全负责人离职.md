@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE03aGE2ekFKenVl
 summary: AI巨头，又一安全负责人离职 凤凰网财经
 first_seen: '2026-10-04T07:18:36Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

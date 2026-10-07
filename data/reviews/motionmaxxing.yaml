@@ -1,0 +1,90 @@
+- id: req-initial-motionmaxxing-2026-10-07
+  project_slug: motionmaxxing
+  level: initial
+  reviewed_at: '2026-10-07T01:32:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 素材观感不达标、无法直接交付的问题，痛点具体；但公开材料只有一句描述，说不清输入、处理步骤与交付结果。
+    evidence_ids:
+    - ev-6987496b7b045093
+  - gate: consensus
+    status: insufficient
+    reason: 47 星与 5 次 fork 只说明有开发者关注，没有用户反馈或客户案例说明后期人员真的采用它。
+    evidence_ids:
+    - ev-6987496b7b045093
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费路径，是个人接单工具、团队内部流程还是未来商业化，公开材料无法判断。
+    evidence_ids:
+    - ev-6987496b7b045093
+  - gate: truth
+    status: insufficient
+    reason: 动态设计的第一性目标是成片观感与规范一致，材料未说明它如何校验输出质量、人工需在哪一步介入，交付确定性无法核对。
+    evidence_ids:
+    - ev-6987496b7b045093
+  next_validation: 查看该仓库的 README 与 issue/discussion，确认它实际接收的输入、处理步骤与是否有真实交付案例。
+  market: ''
+  job: 接单的短视频与广告后期人员，在拿到 AI 生成的粗糙视频素材后，需要把它修到能交给客户的成片水准。
+  job_en: Short-video and ad post-production freelancers taking client work need to polish rough AI-generated
+    footage into a client-ready cut.
+  pain: AI 生成的视频观感廉价，节奏、转场和图形规范不达标，直接交付会被客户退回；人工重做一遍后期等于把生成省下的时间又还回去。
+  pain_en: AI-generated video looks cheap, with pacing, transitions and graphic conventions below standard,
+    so delivering it directly gets rejected; redoing the post-production by hand gives back the time generation
+    saved.
+  current_alternative: 人工在剪辑与动效软件里逐段调整，或直接放弃 AI 素材、从头制作。
+  current_alternative_en: Adjusting clip by clip in editing and motion software by hand, or discarding
+    the AI footage and building from scratch.
+  usage_reason: 推断：相较人工逐段调整，它把“按动态设计规范修一遍”打包成一次可复用的处理动作，减少重复的手工调参；因此接单团队在客户对成片观感有要求时会尝试它。但仓库只有 47 星、无
+    issue 与使用反馈，无法确认它是否被反复用于真实交付。
+  usage_reason_en: 'Inference: compared with manual clip-by-clip adjustment, it packages polishing to
+    motion-design conventions into one reusable pass, cutting repeated manual tweaking; teams with client-facing
+    quality demands would try it. But the repository has only 47 stars and no issues or usage feedback,
+    so it cannot be confirmed as repeatedly used in real delivery.'
+- id: req-full-motionmaxxing-2026-10-07
+  project_slug: motionmaxxing
+  level: full
+  reviewed_at: '2026-10-07T02:02:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成视频观感廉价、无法直接交付客户的问题，痛点具体且刚性；仓库自述已说明输入是 AI 粗糙视频、交付是接近动态设计师水准的成片，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-6987496b7b045093
+  - gate: consensus
+    status: insufficient
+    reason: 47 星只说明有开发者关注，没有用户反馈、客户案例或讨论说明后期人员真的把它留在工作流里，采用共识尚未形成。
+    evidence_ids:
+    - ev-6987496b7b045093
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何收费路径，是个人接单工具、团队内部流程还是未来商业化，公开材料无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-6987496b7b045093
+  - gate: truth
+    status: insufficient
+    reason: 动态设计的第一性目标是成片观感与规范一致，材料未说明它如何校验输出质量、人工需在哪一步介入，交付确定性无法核对。
+    evidence_ids:
+    - ev-6987496b7b045093
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认它实际接收的输入、处理步骤以及是否有真实交付案例或用户反馈。
+  market: ''
+  job: 接单的短视频与广告后期人员，在拿到 AI 生成的粗糙视频素材后，需要把它修到能直接交给客户的成片水准。
+  job_en: Short-video and ad post-production freelancers taking client work need to polish rough AI-generated
+    footage into a client-ready cut.
+  pain: AI 生成视频观感廉价，节奏、转场与图形规范不达标，直接交付会被客户退回；人工重做后期等于把生成省下的时间又还回去。
+  pain_en: AI-generated video looks cheap, with pacing, transitions and graphic conventions below standard,
+    so delivering it directly gets rejected; redoing the post-production by hand gives back the time generation
+    saved.
+  current_alternative: 人工在剪辑与动效软件里逐段调整，或放弃 AI 素材从头制作。
+  current_alternative_en: Adjusting clip by clip in editing and motion software by hand, or discarding
+    the AI footage and building from scratch.
+  usage_reason: 推断：相较人工逐段调参，它把“按动态设计规范修一遍”打包成一次可复用的 agent 处理动作，减少重复手工调整；因此对成片观感有要求的接单后期人员会尝试它。但仓库仅 47
+    星、无 issue 与使用反馈，无法确认已被反复用于真实交付。
+  usage_reason_en: 'Inference: compared with manual clip-by-clip tweaking, it packages polishing to motion-design
+    conventions into one reusable agent pass, cutting repeated manual adjustment; freelancers with client-facing
+    quality demands would try it. But with only 47 stars and no issues or usage feedback, repeated use
+    in real delivery cannot be confirmed.'

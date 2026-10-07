@@ -83,3 +83,54 @@
   usage_reason_en: 'Inference: unlike traditional scanners that only list alerts, it first proves exploitability
     with executable PoCs and then submits test-first fixes, removing the step where engineers reproduce
     each alert, so teams needing fast exploitability confirmation would choose it before release.'
+- id: req-full-vulnhunter-2026-10-07
+  project_slug: vulnhunter
+  level: full
+  reviewed_at: '2026-10-07T02:04:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线前判断哪些缺陷真可利用、并给出可复核修复的需求；痛点是传统 SAST 误报多、需逐条人工复现，不解决则误报进入修复流程、真实漏洞可能漏掉，旧做法是静态扫描加人工验证或外包渗透测试。
+    evidence_ids:
+    - ev-6122ddba66fb0efe
+    - ev-5c8ab1d8e5127704
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明它是 Capital One 内部开发并开源的 agentic 工具，未提供客户案例、持续采用或团队重复使用证据，关注度不能替代共识。
+    evidence_ids:
+    - ev-43d94c684cd8f795
+    - ev-e017a3b2b3d6587d
+  - gate: model
+    status: insufficient
+    reason: 它是开源项目，公开材料未披露定价页或买方采购路径；企业托管收费或支持合同属推断，不是已验证事实，谁付钱仍不清。
+    evidence_ids:
+    - ev-635d81d7452fd3bc
+    - ev-86817a702cc73da8
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 PoC 生成的安全边界、人工复核流程与修复能否确定性交付，攻击者视角推理在真实代码库中的误报与安全风险仍待核验。
+    evidence_ids:
+    - ev-ecd1a32935734fad
+    - ev-30544f3597b8850d
+  next_validation: 追踪 nealbridges/VulnHunter 与 capitalone/vulnhunter 仓库的 issue 与 discussion，确认是否有团队在真实代码库中重复使用并反馈
+    PoC 误报或修复合并结果。
+  market: ''
+  job: 安全工程师或应用安全负责人在代码库上线前，把仓库源码交给 VulnHunter，要完成的任务是判断哪些缺陷真的可被攻击者利用、拿到可执行 PoC 证据，并得到按测试先行方式提交的修复改动，再人工确认后合并。
+  job_en: Before a codebase ships, security engineers or AppSec leads hand the repository to VulnHunter
+    to determine which defects are truly exploitable, obtain executable PoC evidence, and receive test-first
+    fix changes for human review before merge.
+  pain: 公开材料指出传统被动 SAST 扫描器只标记可疑模式、误报多，安全团队必须逐条人工验证是否可利用，修复也缺少可复现证据；不解决则误报进入修复流程，浪费工程时间并可能漏掉真实可利用缺陷。
+  pain_en: Public materials state that traditional passive SAST scanners only flag suspicious patterns
+    and often cause false positives, forcing security teams to manually verify exploitability one by one,
+    while fixes lack reproducible evidence; unresolved, false positives enter the fix pipeline, wasting
+    engineering time and risking missed exploitable defects.
+  current_alternative: 传统静态扫描器（SAST）输出告警清单，再由安全工程师人工复现验证，或外包渗透测试并等待报告。
+  current_alternative_en: Traditional static scanners (SAST) produce alert lists that security engineers
+    manually reproduce and verify, or teams outsource penetration tests and wait for reports.
+  usage_reason: 推断：相较旧做法只给告警清单，VulnHunter 以攻击者视角推理并生成可执行 PoC 先证明漏洞真实可利用，再按测试先行提交针对性修复，省掉安全工程师逐条复现告警这一步；因此需要在上线前快速确认可利用性并拿到可复核修复的团队会在该场景选择它。
+  usage_reason_en: 'Inference: unlike the old approach that only lists alerts, VulnHunter reasons like
+    an adversary, generates executable PoCs to first prove exploitability, then submits targeted test-first
+    fixes, removing the step of reproducing each alert; teams needing fast exploitability confirmation
+    and reviewable fixes before release would choose it in that situation.'

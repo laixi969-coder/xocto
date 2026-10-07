@@ -271,3 +271,54 @@
     and execution stay on the machine, reducing the concern of handing account permissions to a third
     party. Hands-on users who care about local data and will configure a Mac app would therefore pick
     it for repetitive cross-app tasks.'
+- id: req-full-open-dot-2026-10-07
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-07T02:03:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让 Mac 用户在本地把跨应用电脑操作交给自主代理完成的需求，痛点在于手动逐步点击与串联外部服务；公开材料已给出本地运行、OpenAI 与 Composio 连接的动作闭环，属工作流结构推理，痛点刚性与交付边界仍缺用户反馈佐证。
+    evidence_ids:
+    - ev-b5e7f9c82dd3dae5
+    - ev-43197b4d3be77ce9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 389 增至 585 只反映关注度，不是持续采用或讨论证据；公开材料没有用户评价、issue 或案例说明谁在什么场景下反复使用它。
+    evidence_ids:
+    - ev-b5e7f9c82dd3dae5
+    - ev-43197b4d3be77ce9
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未给出定价页、付费路径或买方身份；谁付钱只能推测为愿意自托管的个人开发者或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b5e7f9c82dd3dae5
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理执行哪些具体操作、交付边界与人工确认环节，无法核对承诺能否确定性交付，也无法判断安全与人工介入边界。
+    evidence_ids:
+    - ev-b5e7f9c82dd3dae5
+    - ev-43197b4d3be77ce9
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际执行的任务类型、输入材料、交付结果与人工确认边界。
+  market: ''
+  job: 愿意自己动手的 Mac 用户在自己的电脑上打开 open-dot，把需要在本地电脑上完成的日常操作任务交给一个自主运行的代理，由它调用 OpenAI 模型与 Composio 连接的外部服务去执行，最后拿到完成结果或待确认的操作。
+  job_en: A hands-on Mac user opens open-dot on their own computer and hands off everyday on-device tasks
+    to an autonomous agent that calls OpenAI models and Composio-connected external services, then receives
+    finished results or operations awaiting confirmation.
+  pain: 公开材料只说明代理在本地自主运行并连接外部服务，未给出用户抱怨、旧流程耗时或出错记录，因此痛点强度属于工作流结构推理：把跨应用、跨服务的电脑操作串起来仍需人工逐步点击与切换。
+  pain_en: 'Public material only states the agent runs autonomously on the local machine and connects
+    external services; no user complaints, time cost or error records are given, so pain intensity is
+    a workflow-structure inference: chaining cross-app, cross-service computer operations still requires
+    manual clicking and switching.'
+  current_alternative: 公开材料未描述用户此前用什么方式完成同类任务，可推断的旧做法是用户自己在 Mac 上手动操作各应用，或分别使用单点自动化脚本与云端代理服务。
+  current_alternative_en: Public material does not describe how users previously did comparable tasks;
+    the inferable legacy practice is the user manually operating each Mac app, or using separate single-purpose
+    automation scripts and cloud agent services.
+  usage_reason: 推断：相较手动逐步操作或零散脚本，open-dot 把模型调用与 Composio 的外部服务连接收进一个本地 Mac 应用，用户只需给出任务而无需自己编排每一步；对在意数据留在本机、又愿意自己动手配置的
+    Mac 用户，这减少了跨应用切换与串联的负担。
+  usage_reason_en: 'Inference: versus manual step-by-step operation or scattered scripts, open-dot folds
+    model calls and Composio''s external service connections into one local Mac app, so the user states
+    a task instead of orchestrating each step; for Mac users who want data to stay on-device and are willing
+    to self-configure, this cuts the burden of cross-app switching and chaining.'

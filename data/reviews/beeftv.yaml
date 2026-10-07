@@ -430,3 +430,44 @@
     on-device, removing upload wait and privacy concerns; versus traditional local editors, AI-native
     means the model takes over part of the organizing or cutting. Public materials give no concrete action
     or checkable result, so this is structural inference, not a stated adoption reason.'
+- id: req-full-beeftv-2026-10-07
+  project_slug: beeftv
+  level: full
+  reviewed_at: '2026-10-07T02:00:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅一句“本地优先、轻量、AI 原生视频工作台”，未说明用户任务、痛点、旧替代与不解决的后果，无法还原需求结构，价值关不成立。
+    evidence_ids:
+    - ev-ab33da08002f2bd7
+    - ev-722575210f03e413
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 BeefTV 仓库 README、release 说明与 issue/discussion，确认它接收的素材类型、自动执行的剪辑步骤与交付成片形态。
+  market: ''
+  job: 视频剪辑者在本地整理和剪辑素材时打开 BeefTV，由 AI 处理视频素材并产出剪辑结果；但公开材料未说明接收哪些素材、执行哪一步剪辑动作、交付什么成片形态。
+  job_en: Video editors open BeefTV locally to organize and cut footage, with AI processing video material
+    into an editing result; public materials do not specify inputs, which editing step is automated, or
+    the delivered output form.
+  pain: 公开材料只有一句产品定位，未记录任何用户抱怨、旧流程摩擦或不解决的后果，无法确认痛点是否存在及其刚性。
+  pain_en: Public materials contain only a one-line positioning statement, with no user complaints, legacy-workflow
+    friction, or consequence of not solving it, so the pain point cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前用什么工具完成剪辑与素材整理，也未说明 BeefTV 替代了哪一步旧做法。
+  current_alternative_en: Public materials do not state which tools users currently use for editing and
+    footage organization, nor which legacy step BeefTV replaces.
+  usage_reason: 无法从公开事实说明用户为何选择它：仓库仅有定位描述与收藏数增长，缺少功能细节、使用反馈或案例，无法建立相较旧做法的因果解释。
+  usage_reason_en: 'No public fact explains why users would choose it: the repository offers only a positioning
+    line and rising star counts, with no feature detail, user feedback, or cases to establish a causal
+    advantage over the legacy approach.'

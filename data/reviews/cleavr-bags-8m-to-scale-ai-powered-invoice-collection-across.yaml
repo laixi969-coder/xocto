@@ -1,0 +1,86 @@
+- id: req-initial-cleavr-bags-8m-to-scale-ai-powered-invoice-collection-across-2026-10-07
+  project_slug: cleavr-bags-8m-to-scale-ai-powered-invoice-collection-across
+  level: initial
+  reviewed_at: '2026-10-07T01:32:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逾期发票催收这一具体任务，痛点是人工逐笔跟进易漏且拖长回款周期，旧行为明确。
+    evidence_ids:
+    - ev-f97ea4abae0dd34a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与扩张意向，未见客户数量、采用或持续使用数据。
+    evidence_ids:
+    - ev-f97ea4abae0dd34a
+  - gate: model
+    status: insufficient
+    reason: 买方应为中小企业财务部门，但候选未披露定价或收费方式，此为判断而非已验证事实。
+    evidence_ids:
+    - ev-f97ea4abae0dd34a
+  - gate: truth
+    status: insufficient
+    reason: 未见催收成功率、回款周期改善等可核对交付结果。
+    evidence_ids:
+    - ev-f97ea4abae0dd34a
+  next_validation: 检索 Cleavr 官方定价页或客户案例，确认其收费方式与可核对的回款改善结果。
+  market: ''
+  job: 中小企业财务或应收账款专员在客户逾期未付款时，处理未结发票与催收记录，要完成的任务是把欠款催回并掌握每笔回款状态。
+  job_en: SME finance or accounts receivable staff handle open invoices and collection records when customers
+    are overdue, with the task of recovering the money owed and tracking each payment's status.
+  pain: 逾期催收靠人工逐笔发邮件、打电话和记账，重复且容易漏跟，回款周期被拉长，现金流承压。
+  pain_en: Overdue collection relies on staff manually emailing, calling and logging each case; it is
+    repetitive, easy to drop, lengthens the cash cycle and strains cash flow.
+  current_alternative: 旧做法是财务人员用表格加邮件手工催收，或使用不带自动跟进的传统记账与开票软件。
+  current_alternative_en: The old way is finance staff chasing payments manually with spreadsheets and
+    email, or using traditional bookkeeping and invoicing software without automated follow-up.
+  usage_reason: 推断：相较人工逐笔催收，Cleavr 自动跟进未结发票并汇总回款状态，减少的是逐笔发送与记录这一步负担，因此逾期笔数多、财务人手有限的中小企业会在催收环节选择它；公开材料尚未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with manual case-by-case chasing, Cleavr automatically follows
+    up on open invoices and consolidates payment status, removing the burden of sending and logging each
+    reminder, so SMEs with many overdue invoices and thin finance teams would choose it for collections;
+    public materials do not yet show retention or repeat-use evidence.'
+- id: req-full-cleavr-bags-8m-to-scale-ai-powered-invoice-collection-across-2026-10-07
+  project_slug: cleavr-bags-8m-to-scale-ai-powered-invoice-collection-across
+  level: full
+  reviewed_at: '2026-10-07T02:01:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逾期发票催收这一具体任务，痛点是人工逐笔跟进易漏且拖长回款周期，旧替代行为明确；此为工作流结构推理，尚无客户案例佐证。
+    evidence_ids:
+    - ev-f97ea4abae0dd34a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与欧洲扩张意向，未见客户数量、采用规模或持续使用数据，无法判断财务人员是否已把它留在催收流程里。
+    evidence_ids:
+    - ev-f97ea4abae0dd34a
+  - gate: model
+    status: insufficient
+    reason: 买方应为中小企业财务部门，但公开材料未披露定价或收费方式，此为判断而非已验证事实。
+    evidence_ids:
+    - ev-f97ea4abae0dd34a
+  - gate: truth
+    status: insufficient
+    reason: 未见催收成功率、回款周期改善等可核对交付结果，也未说明自动跟进与人工确认的边界。
+    evidence_ids:
+    - ev-f97ea4abae0dd34a
+  next_validation: 检索 Cleavr 官网定价页或公开客户案例，确认其收费方式与可核对的回款周期改善结果。
+  market: ''
+  job: 中小企业财务或应收账款专员在客户逾期未付款时，打开 Cleavr 处理未结发票与催收记录，要完成的任务是逐笔推动欠款回款并掌握每笔回款状态。
+  job_en: SME finance or accounts receivable staff open Cleavr when customers are overdue, working through
+    open invoices and collection records to push each debt toward payment and track each payment's status.
+  pain: 逾期催收依赖人工逐笔发邮件、打电话并手工记账，重复且容易漏跟，回款周期被拉长，直接挤压中小企业现金流。
+  pain_en: Overdue collection depends on staff manually emailing, calling and logging each case; it is
+    repetitive, easy to drop, lengthens the cash cycle and directly squeezes SME cash flow.
+  current_alternative: 旧做法是财务人员用表格加邮件手工催收，或使用不带自动跟进能力的传统记账与开票软件。
+  current_alternative_en: The old way is finance staff chasing payments manually with spreadsheets and
+    email, or using traditional bookkeeping and invoicing tools without automated follow-up.
+  usage_reason: 推断：相较人工逐笔催收，Cleavr 自动跟进未结发票并汇总回款状态，减少的是逐笔发送提醒与手工记录这一步负担，因此逾期笔数多、财务人手有限的中小企业会在催收环节选择它；公开材料尚未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with manual case-by-case chasing, Cleavr automatically follows
+    up on open invoices and consolidates payment status, removing the burden of sending each reminder
+    and logging it by hand, so SMEs with many overdue invoices and thin finance teams would choose it
+    for collections; public materials do not yet show retention or repeat-use evidence.'

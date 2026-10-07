@@ -3,14 +3,15 @@ slug: workflo
 name: Workflo
 builder: Chirag Chopra
 category: AI + 效率
-summary_zh: 面向 Mac 用户的本地工作流自动化工具，宣称在不读取屏幕内容的前提下自动执行重复操作。具体接收哪些输入、执行哪些动作、最终交付什么结果，公开材料未提供细节，流程与交付仍待核验。
-inspiration: 趋势是自动化从云端截图式代理转向本地、不读屏的隐私优先执行。切入可考虑把这类能力绑定到某个具体岗位的固定重复流程（如财务对账、素材归档），按完成的流程条数收费，而不是卖通用自动化工具。
-summary_en: A Mac workspace automation tool that claims to run repetitive tasks without reading the user's
-  screen. Which inputs it takes, what actions it performs and what it delivers are not detailed in the
-  public material, so the workflow and output remain unverified.
-inspiration_en: The trend is a shift from cloud screenshot-based agents toward local, privacy-first execution.
-  A wedge is to bind this capability to one concrete role's fixed repetitive process (e.g. reconciliation,
-  asset filing) and charge per completed process rather than selling a generic automation tool.
+summary_zh: 面向 Mac 用户的本地工作区自动化工具，宣称在不读取屏幕内容的前提下自动执行工作区操作；具体接收什么输入、执行哪些动作、最终交付什么结果，公开材料未提供细节，流程与交付仍待核验。
+inspiration: 趋势是桌面端自动化开始把“不采集屏幕内容”当作卖点，隐私边界本身成为产品差异。切入可考虑对屏幕内容敏感、又存在重复桌面操作的行业，例如财务对账、律所文档整理、诊所排班录入，先从单一高频动作做起，而不是做通用自动化平台。
+summary_en: A Mac workspace automation tool that claims to run workspace actions without reading the screen;
+  what inputs it takes, which actions it performs and what it delivers are not detailed in the public
+  material, so the workflow and output remain unverified.
+inspiration_en: The trend is that desktop automation now markets privacy boundaries—not capturing screen
+  content—as the differentiator. An entry point is screen-sensitive industries with repetitive desktop
+  steps, such as finance reconciliation, law-firm document handling or clinic scheduling entry, starting
+  from one high-frequency action rather than a general automation platform.
 priority_review: false
 project_type: new_application
 industries: []
@@ -25,7 +26,7 @@ canonical_url: https://producthunt.com/products/workflo-2
 summary: Mac workspace automation that never sees your screen
 first_seen: '2026-08-08T22:35:22Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - hackernews

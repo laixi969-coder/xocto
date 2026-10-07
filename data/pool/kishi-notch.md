@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/kishi-notch
 summary: Your MacBook notch, brought to life
 first_seen: '2026-10-05T14:10:32Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

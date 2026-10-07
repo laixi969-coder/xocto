@@ -1,6 +1,6 @@
 ---
 slug: vection-signs-five-year-reciprocal-reseller-deal-with-xerox
-name: Vection signs five-year reciprocal reseller deal with Xerox
+name: Vection
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxPQi02NnBYN2E2
 summary: Vection signs five-year reciprocal reseller deal with Xerox IT Brief New Zealand
 first_seen: '2026-10-06T22:29:00Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Vection signs five-year reciprocal reseller deal with Xerox
+# Vection
 
 Vection signs five-year reciprocal reseller deal with Xerox IT Brief New Zealand
 

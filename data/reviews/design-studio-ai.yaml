@@ -578,3 +578,89 @@
     it lets agents call editing capabilities through MCP/CLI, potentially removing the step of manually
     moving assets and repeating operations; without user feedback or customer cases, which users would
     choose it cannot be confirmed.'
+- id: req-initial-design-studio-ai-2026-10-07
+  project_slug: design-studio-ai
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计改版与动效调整的重复手工劳动，旧流程明确、不做的代价是可编辑性丢失与时间消耗，属工作流推理。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论与星标只说明关注度，尚无用户反馈或客户案例证明它被持续采用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源且自带密钥，付费路径未披露；谁付钱、按什么计价目前无法核验，这是判断不是事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 尚无实测或部署文档说明 agent 操作设计对象的确定性，交付能否稳定发生仍缺一环。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 issue/discussion 与官方文档，核验 agent 操作设计对象的实际交付结果与是否有付费或企业采用记录。
+  market: ''
+  job: 设计师或前端开发者在需要产出可编辑的视觉与动效素材时，把设计意图或已有素材交给工作空间内的 AI agent，完成编辑、3D 与动效处理后拿到可继续修改的设计文件。
+  job_en: Designers or front-end developers, when they need editable visual and motion assets, hand design
+    intent or existing assets to the AI agent inside the workspace, which performs editing, 3D and motion
+    work, and receive design files that can still be modified.
+  pain: 重复的改版、多尺寸适配和动效调整占用大量手工时间，且工具之间来回导出导入容易丢失可编辑性。
+  pain_en: Repetitive revisions, multi-size adaptation and motion tweaks consume large amounts of manual
+    time, and moving between tools often loses editability.
+  current_alternative: 现有做法是在传统设计软件里手工改版，或把素材导出后交给通用对话模型生成，再人工贴回设计文件。
+  current_alternative_en: The current approach is manual revision in traditional design software, or exporting
+    assets to a general chat model and pasting results back into design files by hand.
+  usage_reason: 推断：相较手工改版或通用模型出图，它把编辑动作放在同一个可继续修改的工作空间内，并通过 MCP/CLI 让 agent 直接操作设计对象，减少导出再导入这一步；因此需要批量出图又要求保留可编辑性的设计团队会尝试它。
+  usage_reason_en: 'Inference: compared with manual revision or general model image output, it keeps editing
+    actions inside one still-editable workspace and lets agents operate on design objects via MCP/CLI,
+    removing the export-and-reimport step; design teams needing batch output while keeping editability
+    would try it.'
+- id: req-full-design-studio-ai-2026-10-07
+  project_slug: design-studio-ai
+  level: full
+  reviewed_at: '2026-10-07T02:01:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决可编辑视觉与动效素材的批量产出需求，痛点是重复改版、多尺寸适配与跨工具导出丢失可编辑性，旧流程与不做的代价清晰，属工作流结构推理。
+    evidence_ids:
+    - ev-a29b61f3fa362bf9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有行业侧 agentic AI 设计软件的报道，未见该产品自身的用户反馈、客户案例或持续采用证据，关注度不能替代采用。
+    evidence_ids:
+    - ev-a29b61f3fa362bf9
+  - gate: model
+    status: insufficient
+    reason: 项目为 MIT 开源且支持 BYOK，公开材料未披露定价、企业版或采购路径，谁付钱与按什么计价无法核验，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-0ca53aea3d9d192e
+  - gate: truth
+    status: insufficient
+    reason: 尚无部署文档、实测或 issue 说明 agent 操作设计对象的确定性，交付能否稳定发生、人工边界如何划定仍缺一环。
+    evidence_ids:
+    - ev-660f168f29cbab9f
+  next_validation: 追踪该开源仓库的 issue/discussion 与官方文档，核验 agent 操作设计对象的实际交付结果，以及是否出现付费或企业采用记录。
+  market: ''
+  job: 设计师或前端开发者在需要产出可编辑的视觉与动效素材时，把设计意图或已有素材交给云端工作空间内的 AI agent，由它执行编辑、3D 与动效处理，最终拿到可继续修改的设计文件，人类在交付前确认结果。
+  job_en: Designers or front-end developers, when they need editable visual and motion assets, hand design
+    intent or existing assets to the AI agent inside the cloud workspace, which performs editing, 3D and
+    motion work, and receive design files that remain editable, with a human confirming before delivery.
+  pain: 重复改版、多尺寸适配与动效调整占用大量手工时间；在传统设计软件与通用生成模型之间来回导出导入，容易丢失图层与可编辑性，返工成本高。
+  pain_en: Repetitive revisions, multi-size adaptation and motion tweaks consume large amounts of manual
+    time; moving between traditional design software and general generative models often loses layers
+    and editability, raising rework cost.
+  current_alternative: 在传统设计软件里手工改版，或把素材导出后交给通用对话模型生成图片/动效，再人工贴回设计文件；也有用脚本或插件做局部自动化。
+  current_alternative_en: Manual revision in traditional design software, or exporting assets to a general
+    chat model to generate images/motion and pasting results back by hand; some use scripts or plugins
+    for partial automation.
+  usage_reason: 推断：相较手工改版或通用模型出图，它把编辑动作留在同一个可继续修改的云端工作空间内，并通过 MCP/WebMCP/CLI 让 agent 直接操作设计对象，省去导出再导入这一步；因此需要批量产出又必须保留可编辑性的设计或前端团队会在改版与动效任务中尝试它。
+  usage_reason_en: 'Inference: compared with manual revision or general model output, it keeps editing
+    inside one still-editable cloud workspace and lets agents operate on design objects via MCP/WebMCP/CLI,
+    removing the export-and-reimport step; design or front-end teams needing batch output while preserving
+    editability would try it for revision and motion tasks.'

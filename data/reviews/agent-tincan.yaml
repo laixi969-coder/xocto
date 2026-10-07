@@ -400,3 +400,52 @@
     routing to an existing Tailscale network, so developers no longer open ports or maintain forwarding
     scripts per agent pair; developers already running multi-agent setups on Tailscale would pick it when
     cross-host collaboration is needed.'
+- id: req-full-agent-tincan-2026-10-07
+  project_slug: agent-tincan
+  level: full
+  reviewed_at: '2026-10-07T02:00:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多机部署下 agent 无法互相求助的连通问题：此前需自建转发或手工搬上下文，不解决则跨主机协作只能靠人工；复用 Tailscale 使交付路径明确，属工作流结构推理，缺用户反馈佐证。
+    evidence_ids:
+    - ev-c45746fc3600ba5c
+    - ev-43e7250ca80810f7
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 185 缓慢升至 228，只反映持续关注，没有 issue、discussion 或部署案例证明开发者已把它用于实际多 agent 协作，共识未成形。
+    evidence_ids:
+    - ev-c45746fc3600ba5c
+    - ev-43e7250ca80810f7
+  - gate: model
+    status: insufficient
+    reason: 公开材料无定价、付费或采购信息，开源项目如何变现、买方是团队还是个人均不明；这是判断而非已验证事实，不据此否定需求。
+    evidence_ids:
+    - ev-43e7250ca80810f7
+  - gate: truth
+    status: insufficient
+    reason: 未披露请求转发的鉴权、失败重试与人工确认边界，Tailscale 依赖下的安全边界也不清楚，交付能否稳定发生缺可复现证据。
+    evidence_ids:
+    - ev-c45746fc3600ba5c
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有开发者公开描述多机 agent 部署场景、替代的旧做法及运行中的失败或鉴权问题。
+  market: ''
+  job: 自建或混合部署多个 AI agent 的开发者，在 agent 分散于不同机器、需要互相求助时，打开 agent-tincan 把 agent 间的求助请求经 Tailscale 网络转发，让跨主机的
+    agent 互相调用，最终拿到一条可自托管的 agent 间通信通道。
+  job_en: A developer running multiple AI agents across self-hosted or hybrid machines opens agent-tincan
+    to forward help requests between agents over a Tailscale network, so agents on different hosts can
+    call each other, ending up with a self-hostable agent-to-agent channel.
+  pain: 公开事实是标语强调“无论它们跑在哪里”，指向多机部署下 agent 无法直接互相求助的连通性缺口；但公开材料未说明此前失败的具体表现、频率或代价。
+  pain_en: The public fact is that the slogan stresses 'wherever they run', pointing to a connectivity
+    gap where agents on separate hosts cannot ask each other for help; public material does not show the
+    concrete failure, frequency, or cost.
+  current_alternative: 结构推理：开发者此前要么把 agent 挤在同一台机器、要么自建消息队列或 HTTP 转发、要么手工复制上下文；公开材料未确认实际替代方式。
+  current_alternative_en: 'Structural inference: developers previously either crammed agents onto one
+    machine, built their own message queue or HTTP relay, or copied context by hand; public material does
+    not confirm the actual alternative.'
+  usage_reason: 推断：相较自建转发或手工搬上下文，它复用 Tailscale 既有网络把跨主机求助变成一次调用，省去搭通道这一步，因此已用 Tailscale 且 agent 分散部署的开发者会在多机协作场景选择它；是否有用户长期留在工作流中尚无证据。
+  usage_reason_en: 'Inference: versus building a relay or moving context by hand, it reuses the existing
+    Tailscale network to turn cross-host help into a single call, removing the channel-building step,
+    so developers already on Tailscale with agents spread across hosts would pick it for multi-machine
+    work; there is no evidence users keep it in their workflow long term.'

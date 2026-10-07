@@ -233,3 +233,54 @@
     key, configuring scraping services, and manually confirming the post went out; therefore personal-brand
     or small-team operators who want low-cost continuous posting without API/scraper setup would choose
     it when they need to keep posting. This is inferred from product capability and the old workf
+- id: req-full-tweetytweets-2026-10-07
+  project_slug: tweetytweets
+  level: full
+  reviewed_at: '2026-10-07T02:04:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是持续发帖这一刚性日常任务：找选题、保持语气、确认发布成功。公开说明已能还原输入（领域话题）、动作（调研、成稿、浏览器发布、自检）与交付（已发布并核验的帖子），不解决则更新中断或发布失败无人知。属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+    - ev-6d10d5af2e1e8bcd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 42 升至 60，说明有开发者关注并收藏，但收藏与关注只属规模或关注度证据，不能证明目标运营者已持续使用或把它留在工作流里；缺少 issue、discussion 或使用反馈说明谁在何种场景实际部署。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+    - ev-41ce734c6b5ba8eb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to C 个人订阅、to B 团队采购还是仅靠开源与融资；这是商业证据缺口，属判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-6d10d5af2e1e8bcd
+  - gate: truth
+    status: insufficient
+    reason: 通过真实浏览器发布并自检的承诺能否稳定交付、账号授权方式、内容审核环节与失败处理均无公开文档或可复现记录；贴近第一性目标（帖子确实发出）但确定性交付与人工安全边界尚未核验。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认账号授权方式、发布失败处理与是否有真实部署者反馈。
+  market: ''
+  job: 个人品牌或小团队运营者在需要维持 X/Twitter 账号持续更新时，运行该代理先调研所在领域话题、按设定语气写成帖子、通过真实浏览器发布并回查发布结果，最终得到已发布并自检过的帖子。
+  job_en: A personal-brand or small-team operator who must keep an X/Twitter account posting continuously
+    runs this agent to research niche topics, draft posts in their voice, publish via a real browser,
+    and verify the published result, ending with posted and self-checked tweets.
+  pain: 公开说明显示其针对的是持续发帖的日常负担：需要不断找选题、保持个人语气、还要确认帖子真的发出去了；不解决的后果是账号更新中断、内容风格漂移或发布失败无人察觉。这是从产品能力与任务结构推出的判断，尚无用户抱怨或案例直接佐证强度。
+  pain_en: 'The public description targets the daily burden of continuous posting: finding topics, keeping
+    a consistent voice, and confirming posts actually went out; leaving it unsolved risks gaps in cadence,
+    voice drift, or unnoticed failed posts. This is inferred from product capability and task structure,
+    not from user complaints or cases.'
+  current_alternative: 旧做法是运营者自己手动刷时间线找选题、手写或借助通用写作工具起草，再手动登录 X 发布并回头核对；另一类是依赖 X API 或付费抓取服务的自动化脚本，需要申请密钥并承担费用。
+  current_alternative_en: The old way is for the operator to manually scan the timeline for topics, hand-write
+    or use generic writing tools to draft, then log into X to post and check back; another route is automation
+    scripts relying on the X API or paid scrapers, requiring keys and fees.
+  usage_reason: 相较手动发帖或需密钥的脚本，它把调研、按语气成稿、浏览器发布与发布后自检串成一条自动链路，免去申请 API key 和付费抓取这一步，并让运营者不必逐条手动确认是否发出；因此需要维持更新频率又不想维护
+    API 接入的个人或小团队运营者会在这种情况下选择它。这是基于产品能力的推断。
+  usage_reason_en: Compared with manual posting or key-based scripts, it chains research, voice-matched
+    drafting, browser publishing, and post-publish self-verification into one automated flow, removing
+    the API-key application and paid-scraper step and sparing the operator from manually confirming each
+    post; operators who must keep cadence without maintaining API access would choose it in that situation.
+    This is an inference from product capability.

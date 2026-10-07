@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ITlNrbk8tcWFf
 summary: Gary Marcus Likens AI Agents to Cars With Cardboard Brakes as FTC Probe Opens BeInCrypto
 first_seen: '2026-10-05T02:44:00Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/aster-by-asterwise
 summary: Intelligent model routing for code, agents and workflows
 first_seen: '2026-10-02T04:53:42Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

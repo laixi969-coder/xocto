@@ -1,0 +1,90 @@
+- id: req-initial-agent-smith-2026-10-07
+  project_slug: agent-smith
+  level: initial
+  reviewed_at: '2026-10-07T01:32:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能看出它做模型路由与用量监控，无法说清谁在什么节点处理什么材料、替代了哪一步旧工作，需求与痛点均写不出。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: consensus
+    status: insufficient
+    reason: 347 星与 6 次 fork 只说明开源关注度，没有用户反馈或采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料没有定价、付费或采购信息，买方与收费方式均不明。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: truth
+    status: insufficient
+    reason: 未进入：基准测试的复现条件、路由策略效果与人工确认边界均未披露，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  next_validation: 收集该仓库 README 与基准测试说明，确认路由策略的对比口径、可复现步骤与实际用量数据。
+  market: ''
+  job: AI 应用开发者或工程效能负责人在团队使用编码助手、担心 token 超支时，接入该工具做模型路由与用量监控，最终得到路由策略和用量面板。
+  job_en: An AI application developer or engineering productivity lead whose team uses coding assistants
+    and worries about token overspend plugs in this tool for model routing and usage monitoring, ending
+    up with routing policy and a usage panel.
+  pain: 候选材料只有一句宣传语和功能罗列，没有说明超支发生在哪个环节、此前如何发现和控制，痛点无法还原。
+  pain_en: The candidate gives only a slogan and a feature list; it does not say where overspend occurs
+    or how it was previously detected and controlled, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式，无法确认此前是靠人工看账单、平台自带额度限制还是自建脚本控制成本。
+  current_alternative_en: The public material does not describe existing alternatives, so it is unclear
+    whether teams previously watched bills manually, relied on platform quotas, or wrote their own scripts.
+  usage_reason: 推断：若路由能在不同任务间自动换用更便宜的模型，团队可省去逐次手动选模型的一步；但缺少账单对比数据，无法判断节省是否真实发生。
+  usage_reason_en: 'Inference: if routing automatically switches to cheaper models per task, teams may
+    skip manually choosing a model each time; however, without bill comparison data, it is unclear whether
+    savings actually occur.'
+- id: req-full-agent-smith-2026-10-07
+  project_slug: agent-smith
+  level: full
+  reviewed_at: '2026-10-07T02:00:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码助手批量调用中的 token 超支问题：团队此前靠手动选模型或事后看账单控制成本，痛点刚性且不解决会持续多付；路由与用量面板构成可确定的输入—动作—交付闭环，属工作流结构推理，尚无账单量化佐证。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: consensus
+    status: insufficient
+    reason: 347 星只说明开源关注度，没有用户反馈、issue 讨论或采用记录证明开发者已把它放进日常调用链，共识是否形成无法判断。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费或采购信息，谁付钱、按席位还是按用量收费均不明；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: truth
+    status: insufficient
+    reason: 仓库宣称带凭据的可复现基准，但对比口径、路由策略效果与人工确认边界未披露，无法核对节省是否确定发生，也未见安全边界说明。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  next_validation: 追踪该仓库 README 与 benchmarks 目录，核对路由策略的对比口径、可复现步骤及是否附真实用量或账单数据。
+  market: ''
+  job: AI 应用开发者或工程效能负责人在团队用编码助手跑批量任务、账单随 token 消耗上涨时，把 agent-smith 接入调用链，由它按任务自适应选择模型并展示 Codex 用量面板，最终拿到一份可复现、带凭据的基准对比与路由策略。
+  job_en: An AI application developer or engineering productivity lead whose team runs coding-assistant
+    workloads and watches token bills climb plugs agent-smith into the call chain so it adaptively picks
+    a model per task and shows a Codex usage panel, ending up with reproducible, receipt-backed benchmarks
+    and a routing policy.
+  pain: 公开事实是仓库标语直接以“Token 超支”为痛点，说明团队在编码助手批量调用中会遭遇成本失控；缺口在于没有账单对比或用量数据说明超支发生在哪个环节、幅度多大。
+  pain_en: The public fact is that the repo slogan names token overspend as the pain, indicating teams
+    lose cost control in bulk coding-assistant calls; the gap is that no bill comparison or usage data
+    shows where or how large the overspend is.
+  current_alternative: 结构推理：团队此前要么在平台后台手动设额度上限、要么逐次人工挑模型、要么事后看账单才发现超支；公开材料未确认具体替代方式。
+  current_alternative_en: 'Structural inference: teams previously either set platform quota caps manually,
+    hand-picked a model each call, or only noticed overspend when reading the bill afterwards; public
+    material does not confirm the exact alternative.'
+  usage_reason: 推断：相较逐次手动选模型或事后看账单，它把“选哪个模型”这一步交给按任务的自适应路由，并把用量集中到一个面板，因此担心超支的编码助手团队会在批量调用场景选择它；节省是否真实发生尚无账单数据佐证。
+  usage_reason_en: 'Inference: versus hand-picking a model per call or reading the bill afterwards, it
+    moves the model-choice step into per-task adaptive routing and consolidates usage into one panel,
+    so cost-wary coding-assistant teams would pick it for bulk calls; whether savings actually occur is
+    not yet backed by bill data.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE15VV9RYThtSGVo
 summary: Meta Muse 助力 AMD，AI 发展势头转向个人智能体｜长桥证券 Longbridge
 first_seen: '2026-10-06T11:00:01Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

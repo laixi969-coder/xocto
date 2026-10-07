@@ -899,3 +899,94 @@
     and restores them locally on the response, removing the manual mapping and line-by-line checking step,
     so teams handling materials that cannot leave the premises would pick it when wiring up an external
     model; this is an inference from the product's capability.
+- id: req-initial-cover-2026-10-07
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把真实敏感数据交给外部 AI 代理时的外泄与合规问题，痛点刚性，旧做法是人工替换占位符再还原，结构上成立；属工作流推理。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有开源仓库与社区讨论热度，没有客户案例、部署记录或团队采用证据，无法判断共识是否形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 仓库为开源项目，未见定价页或商业条款，买方与付费路径不清；这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 还原是否确定发生、支持哪些字段类型、误还原如何核对均未说明，交付确定性缺少公开材料支持。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认支持的字段类型、还原机制与是否有企业部署案例。
+  market: ''
+  job: 开发者或数据合规负责人在把含真实姓名、证件号、客户信息的材料交给外部 AI 代理处理时，需要模型完成分析或生成，同时不让原始敏感值离开本地环境。
+  job_en: A developer or data-compliance owner hands material containing real names, ID numbers or customer
+    data to an external AI agent for analysis or generation, while keeping the original sensitive values
+    out of the external environment.
+  pain: 直接用真实数据调用外部模型意味着敏感字段进入第三方，合规上难以交代；手工替换成假值再改回来，字段一多就容易漏改、错改，且无法核对。
+  pain_en: Calling an external model with real data puts sensitive fields into a third party, which is
+    hard to justify for compliance; manually swapping in fakes and back is error-prone and unverifiable
+    once many fields are involved.
+  current_alternative: 目前常见做法是人工把敏感字段替换成占位符再手工还原，或干脆不用外部模型、改用本地模型，或依赖平台侧的数据处理条款。
+  current_alternative_en: Common practice today is manually replacing sensitive fields with placeholders
+    and restoring them by hand, avoiding external models and using local ones instead, or relying on the
+    platform's data-processing terms.
+  usage_reason: 相较人工替换再还原，它把脱敏和还原放在调用链上自动完成，减少逐字段手工替换与回改这一步，并降低漏改导致真实数据外泄的风险；推断，面向需要把外部模型接入真实业务数据、又受合规约束的团队。
+  usage_reason_en: Compared with manual substitution and restoration, it automates masking and restoration
+    inside the call chain, removing the step of hand-editing each field and reducing the risk that a missed
+    field leaks real data; this is inference, aimed at teams that must connect external models to real
+    business data under compliance constraints.
+- id: req-full-cover-2026-10-07
+  project_slug: cover
+  level: full
+  reviewed_at: '2026-10-07T02:01:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把真实敏感数据交给外部 AI 代理时的外泄与合规问题，痛点刚性，旧做法是人工替换占位符再还原，结构上成立；属工作流推理。
+    evidence_ids:
+    - ev-5544f33e9fe995b3
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有检索覆盖查询与通用 AI 助手页面，没有客户案例、部署记录或团队采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-5544f33e9fe995b3
+    - ev-0c1f3cc4c4ab3794
+    - ev-8fed4164b366c127
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或商业条款，买方与付费路径不清；可推断面向受合规约束的开发团队，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-1d31d706ae0f8f1e
+    - ev-e90ac391f8497337
+  - gate: truth
+    status: insufficient
+    reason: 还原是否确定发生、支持哪些字段类型、误还原如何核对均未说明，交付确定性缺少公开材料支持。
+    evidence_ids:
+    - ev-5544f33e9fe995b3
+  next_validation: 追踪该开源仓库的 README、issue 与 discussion，确认支持的字段类型、还原机制与是否有企业部署案例。
+  market: ''
+  job: 开发者或数据合规负责人在把含真实姓名、证件号、客户信息的材料交给外部 AI 代理做分析或生成时，需要模型产出可用结果，同时让原始敏感值不离开本地环境。
+  job_en: A developer or data-compliance owner hands material containing real names, ID numbers or customer
+    data to an external AI agent for analysis or generation, needing usable output while keeping the original
+    sensitive values out of the external environment.
+  pain: 直接用真实数据调用外部模型会把敏感字段交给第三方，合规上难以交代；手工替换成假值再改回来，字段一多容易漏改错改，且无法核对。
+  pain_en: Calling an external model with real data hands sensitive fields to a third party, which is
+    hard to justify for compliance; manually swapping in fakes and back is error-prone and unverifiable
+    once many fields are involved.
+  current_alternative: 常见做法是人工把敏感字段替换成占位符再手工还原，或干脆不用外部模型改用本地模型，或依赖平台侧的数据处理条款。
+  current_alternative_en: Common practice today is manually replacing sensitive fields with placeholders
+    and restoring them by hand, avoiding external models and using local ones instead, or relying on the
+    platform's data-processing terms.
+  usage_reason: 相较人工替换再还原，它把脱敏与还原放进调用链自动完成，省掉逐字段手工替换与回改这一步，并降低漏改导致真实数据外泄的风险；这是基于产品能力与任务结构的推断，面向需把外部模型接入真实业务数据又受合规约束的团队。
+  usage_reason_en: Compared with manual substitution and restoration, it automates masking and restoration
+    inside the call chain, removing the step of hand-editing each field and reducing the risk that a missed
+    field leaks real data; this is inference from product capability and task structure, aimed at teams
+    that must connect external models to real business data under compliance constraints.

@@ -1117,3 +1117,53 @@
     removing the step of tracing the conversation line by line to confirm a key fact survived; DeepSeek
     Harness users worried about context loss in long sessions would therefore pick it when debugging or
     tuning prompts. Public materials do not yet confirm this motive via user feedback.'
+- id: req-full-dsh-context-2026-10-07
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-07T02:01:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩剪枝后不可见、关键约束静默丢失的问题，用户任务与旧替代（翻日志、重开会话）可还原，不解决的后果是错误结果持续产出；此为工作流结构推理，公开材料尚无用户抱怨或频率数据。
+    evidence_ids:
+    - ev-72377b0b1bb4aea8
+    - ev-5151b4da072ee614
+  - gate: consensus
+    status: insufficient
+    reason: 同生态插件已有公开关注度：dsh-claude-style 收藏从 89 增至 98、dsh-knit 46、awwwards-mcp 96 至 98，说明 DeepSeek Harness
+      插件生态有人试用；但这些都是相邻项目数据，dsh-context 自身无收藏、下载或持续使用证据。
+    evidence_ids:
+    - ev-2fb3fddd969cc8c0
+    - ev-72377b0b1bb4aea8
+    - ev-3adea3306036e948
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，开源插件可能走免费引流或赞助；谁付钱是判断而非已验证事实，但需求本身不因此取消。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 上下文可视化贴近调试第一性目标，但压缩与剪枝事件的展示是否与实际上下文一致、有无误报或安全边界，缺可复现的公开文档或 issue 证据。
+    evidence_ids:
+    - ev-72377b0b1bb4aea8
+  next_validation: 追踪 dsh-context 在 npm 与代码仓库的官方 README、issue 与 discussion，确认是否公开上下文压缩/剪枝事件的展示样例、安装量与用户反馈。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或 Agent 操作者在长对话、多轮工具调用后，处理不断膨胀的上下文材料，需要看清当前上下文由哪些片段组成、哪些被压缩或剪枝丢弃，以判断关键信息是否还在、要不要补回。
+  job_en: Developers or agent operators using DeepSeek Harness, after long multi-turn tool-calling sessions,
+    handle an ever-growing context and need to see which fragments compose it and which were dropped by
+    compression or pruning, to judge whether key facts survive and must be restored.
+  pain: 长会话中上下文被自动压缩、剪枝后，用户看不到丢了什么，只能靠模型行为异常反推，容易在关键约束被静默丢弃后继续跑出错误结果；这是工作流结构推理，公开材料未给出用户抱怨或频率数据。
+  pain_en: After automatic compression and pruning in long sessions, users cannot see what was dropped
+    and can only infer from odd model behavior, so a silently lost constraint can keep producing wrong
+    results; this is workflow-structural inference, not documented user complaints or frequency data.
+  current_alternative: 旧做法是直接读原始会话日志或 token 计数，凭经验猜测上下文构成，或干脆重开会话、重贴关键约束；同生态的 dsh-knit 只做任务相关上下文检索，不展示压缩与剪枝事件。
+  current_alternative_en: The old way is reading raw session logs or token counts and guessing the composition,
+    or restarting the session and re-pasting key constraints; the sibling dsh-knit only retrieves task-relevant
+    context and does not show compression or pruning events.
+  usage_reason: 推断：相较翻日志猜测，它用 Context 面板与 Context 命令把上下文组成、演进、压缩和剪枝事件直接摊开，省掉人工比对 token 与重贴约束这一步，因此长会话调试或排查模型遗忘的
+    DeepSeek Harness 用户会在怀疑上下文被截断时打开它。
+  usage_reason_en: 'Inference: versus guessing from logs, its Context panel and Context command lay out
+    composition, evolution, compression and pruning events directly, removing the manual token-diffing
+    and constraint re-pasting step, so DeepSeek Harness users debugging long sessions open it when they
+    suspect context truncation.'

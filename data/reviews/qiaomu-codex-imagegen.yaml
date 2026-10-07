@@ -85,3 +85,49 @@
     operators can generate images inside the same conversation, skipping the step of switching between
     image and layout tools and applying templates by hand; operators who regularly make Xiaohongshu or
     video covers would try it.'
+- id: req-full-qiaomu-codex-imagegen-2026-10-07
+  project_slug: qiaomu-codex-imagegen
+  level: full
+  reviewed_at: '2026-10-07T02:03:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容运营按平台版式快速出图的需求，痛点是生图与排版工具来回切换、手工套版式，旧做法与不做的后果清晰，属工作流结构推理。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 95 增至 104，说明有开发者关注，但无用户反馈或案例证明运营已把它放进日常出图流程。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+    - ev-0293d1847b87a657
+  - gate: model
+    status: insufficient
+    reason: 开源项目无公开定价，付费路径可能是定制配方或代出图服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  - gate: truth
+    status: insufficient
+    reason: 无法核对出图是否真的符合平台版式与审核偏好，缺少可复现的成品对比与人工边界说明。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  next_validation: 收集该仓库的示例输出与 issue/discussion，核对生成图是否满足小红书与视频封面的版式要求。
+  market: ''
+  job: 内容运营在准备小红书笔记或视频封面时，需要按平台尺寸与版式快速产出多张配图，于是让手边的 Agent 通过 MCP、CLI 或 Skill 调用 Codex 内置生图能力出图，再人工挑选确认。
+  job_en: A content operator preparing a Xiaohongshu post or video cover needs several platform-sized,
+    platform-styled images quickly, so they let their agent call Codex's built-in image generation via
+    MCP, CLI or Skill, then pick and confirm the output by hand.
+  pain: 平台封面有固定尺寸与版式偏好，运营通常要在生图工具与排版工具之间来回切换，手工裁切、加标题、套模板，重复劳动且容易返工。
+  pain_en: Platform covers have fixed sizes and layout preferences, so operators typically switch back
+    and forth between an image generator and a layout tool, cropping, adding titles and applying templates
+    by hand, which is repetitive and error-prone.
+  current_alternative: 在独立生图工具里出图，再导入设计工具手工裁切、加标题；或直接用平台自带模板拼图。
+  current_alternative_en: Generating images in a standalone image tool, then importing them into a design
+    tool to crop and add titles by hand; or assembling them with the platform's built-in templates.
+  usage_reason: 推断：它把小红书、视频封面、Mondo 海报的版式技巧直接内置成 Agent 可调用的生图动作，运营可在同一对话里完成出图，省去在生图与排版工具间切换并手工套版式的一步；因此经常做小红书或视频封面的运营会尝试它。
+  usage_reason_en: 'Inference: it bakes Xiaohongshu, video-cover and Mondo poster layout recipes into
+    an agent-callable image action, so operators can generate images inside the same conversation, skipping
+    the step of switching between image and layout tools and applying templates by hand; operators who
+    regularly produce Xiaohongshu or video covers would try it.'

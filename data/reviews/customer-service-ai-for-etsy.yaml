@@ -1,0 +1,90 @@
+- id: req-initial-customer-service-ai-for-etsy-2026-10-07
+  project_slug: customer-service-ai-for-etsy
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Etsy 卖家逐条手写买家回复的重复劳动，回复慢会直接影响评分与成交，旧做法是手动打字或套模板。
+    evidence_ids:
+    - ev-f1ac03f1bd3c534a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有卖家评价、采用数据或社区讨论，无法判断是否已形成使用共识。
+    evidence_ids:
+    - ev-f1ac03f1bd3c534a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按店铺订阅还是按回复量收费只能推测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-f1ac03f1bd3c534a
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明回复是否自动发送、卖家能否审核，以及出错回复对店铺评分的影响如何兜底。
+    evidence_ids:
+    - ev-f1ac03f1bd3c534a
+  next_validation: 查找该产品的官方定价页或 Etsy 卖家客户案例，确认收费方式与人工审核环节。
+  market: ''
+  job: Etsy 独立卖家在买家就订单、物流或商品细节发来咨询时，需要逐条撰写语气得体、符合店铺风格的回复，以维持响应速度和店铺评分。
+  job_en: Independent Etsy sellers must write well-toned, shop-consistent replies one by one when buyers
+    ask about orders, shipping or product details, in order to keep response speed and shop ratings.
+  pain: 个人卖家往往一人兼顾发货与客服，消息积压会拖慢响应、影响评分，而每条回复都要重新组织语气和措辞，重复且耗时。
+  pain_en: Solo sellers often handle shipping and support alone; a message backlog slows responses and
+    hurts ratings, and each reply requires re-composing tone and wording, which is repetitive and time-consuming.
+  current_alternative: 卖家目前靠手动逐条打字回复，或使用平台自带的快捷回复模板和通用聊天工具改写。
+  current_alternative_en: Sellers currently type replies manually one by one, or reuse the platform's
+    canned responses and general chat tools to rewrite text.
+  usage_reason: 相较手动逐条撰写或套用固定模板，它直接读取买家消息并生成贴合语境的专业回复草稿，省掉从零组织措辞这一步，卖家只需确认或微调即可发送；因此消息量大、又在意回复语气的个人卖家会尝试它（基于产品能力的推断，尚无留存或付费证据）。
+  usage_reason_en: Compared with writing each reply manually or pasting fixed templates, it reads the
+    buyer message and drafts a context-fitting professional reply, removing the step of composing wording
+    from scratch so the seller only confirms or tweaks before sending; solo sellers with high message
+    volume who care about tone would try it (inference from product capability, no retention or payment
+    evidence yet).
+- id: req-full-customer-service-ai-for-etsy-2026-10-07
+  project_slug: customer-service-ai-for-etsy
+  level: full
+  reviewed_at: '2026-10-07T02:01:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Etsy 个人卖家逐条手写买家回复的重复劳动，消息积压会拖慢响应并影响评分与成交，旧做法是手动打字或套模板；交付物是可发送的回复草稿，闭环可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-89667a31620874c8
+    - ev-3bf07f2ebee9879e
+  - gate: consensus
+    status: insufficient
+    reason: 现有证据只有词典对 customer 的释义与一条泛化的市场覆盖检索，没有 Etsy 卖家评价、社区讨论或采用数据，无法判断是否已形成使用共识。
+    evidence_ids:
+    - ev-89667a31620874c8
+    - ev-ef8a53d3f2659b70
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按店铺订阅还是按回复量收费只能推测；可判断钱可能来自 Etsy 卖家订阅，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8869012d21036f75
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明回复是否自动发送、卖家能否审核，以及错误回复对店铺评分如何兜底，安全与人工边界尚未核验。
+    evidence_ids:
+    - ev-90c7b170113da790
+  next_validation: 追踪该产品的官方定价页或 Etsy 卖家客户案例，确认收费方式与人工审核环节。
+  market: ''
+  job: 经营 Etsy 店铺的个人卖家在买家就订单、物流或商品细节发来咨询消息时，需要逐条撰写语气得体、符合店铺风格的回复，以维持响应速度与店铺评分。
+  job_en: Solo Etsy shop owners must write well-toned, shop-consistent replies one by one when buyers
+    message about orders, shipping or product details, in order to keep response speed and shop ratings.
+  pain: 一人兼顾发货与客服时消息容易积压，回复慢会拖累评分与成交；每条回复都要重新组织语气和措辞，重复且耗时。
+  pain_en: When one person handles both shipping and support, messages pile up; slow replies hurt ratings
+    and sales, and each reply requires re-composing tone and wording, which is repetitive and time-consuming.
+  current_alternative: 卖家目前靠手动逐条打字回复，或套用平台自带快捷回复模板、再用通用聊天工具改写。
+  current_alternative_en: Sellers currently type replies manually one by one, or reuse the platform's
+    canned responses and rewrite them in general chat tools.
+  usage_reason: 相较手动逐条撰写或套用固定模板，它直接读取买家消息并生成贴合语境的专业回复草稿，省掉从零组织措辞这一步，卖家只需确认或微调即可发送；因此消息量大、又在意回复语气的个人卖家会尝试它（基于产品能力的推断，尚无留存或付费证据）。
+  usage_reason_en: Compared with writing each reply manually or pasting fixed templates, it reads the
+    buyer message and drafts a context-fitting professional reply, removing the step of composing wording
+    from scratch so the seller only confirms or tweaks before sending; solo sellers with high message
+    volume who care about tone would try it (inference from product capability, no retention or payment
+    evidence yet).

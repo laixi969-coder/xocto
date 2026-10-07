@@ -24,7 +24,7 @@ summary: With AI hardware, tech companies are pushing the definition of what doe
   capture sound. Cameras […]
 first_seen: '2026-10-06T16:29:44Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

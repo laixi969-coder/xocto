@@ -122,3 +122,42 @@
     their own capture and inference glue, so teams doing live frame detection might try it; but the material
     states no tasks, accuracy or deployment and shows no user feedback, so the reason to choose it has
     no checkable basis.'
+- id: req-full-xyz-vision-spectra-2026-10-07
+  project_slug: xyz-vision-spectra
+  level: full
+  reviewed_at: '2026-10-07T02:04:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决实时视觉检测管线搭建的需求，但公开材料只有一句定位，说不清替代了取流、推理、输出中的哪一步旧工作，也看不出不采用会失去什么，无法还原具体任务闭环。
+    evidence_ids:
+    - ev-72fcc0723b06ed68
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 XYZ-Vision-Spectra 仓库 README 或文档，确认支持的检测任务、精度指标与部署方式。
+  market: ''
+  job: 开发者或小团队在需要让程序实时看懂摄像头、屏幕或视频画面时，把检测能力接进自己的应用并拿到可用识别结果。
+  job_en: A developer or small team that needs a program to understand webcam, screen or video frames
+    in real time wires detection into their own application and needs usable recognition output.
+  pain: 公开材料只有一句定位，未说明支持哪些检测任务、精度与部署方式，无法确认它替代了取流、推理、结果输出中的哪一步具体旧工作。
+  pain_en: The public material is a single positioning line with no supported tasks, accuracy or deployment
+    detail, so it is impossible to confirm which concrete step of capture, inference or output it replaces.
+  current_alternative: 直接调用通用视觉模型接口，或使用已有开源检测框架自行拼装。
+  current_alternative_en: Calling general vision model APIs directly, or assembling existing open-source
+    detection frameworks by hand.
+  usage_reason: 推断：若工具包封装取流到结果输出，开发者可省去自写采集与推理胶水代码；但公开材料未说明任务、精度或部署，也无使用反馈，选择理由无法核实。
+  usage_reason_en: 'Inference: if the toolkit wraps capture-to-output, developers could skip writing their
+    own capture and inference glue; but tasks, accuracy and deployment are unstated and there is no usage
+    feedback, so the reason to choose it cannot be verified.'

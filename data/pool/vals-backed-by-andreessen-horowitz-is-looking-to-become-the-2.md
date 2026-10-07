@@ -1,32 +1,34 @@
 ---
 slug: vals-backed-by-andreessen-horowitz-is-looking-to-become-the-2
-name: Vals
+name: Vals AI
 builder: outlier99
 category: 基础层
-summary_zh: 做模型选型的团队在采购或上线前需要判断哪个模型更可靠，Vals 用一套基准测试把候选模型放到同一批任务上跑分并给出对比结果；其官方博客还称用智能体跑材料筛选，输出室温磁性半导体候选清单，仍需人工复核。具体评测口径与交付形式仍待核验。
-inspiration: 趋势是模型能力趋同后，选型依据从跑分榜单转向贴近真实任务的评测与领域发现流程。切入可考虑为受监管行业做可复现的私有评测，或把评测能力直接绑到材料、药物等具体筛选任务上按结果收费，而不是再做一个公开榜单。
-summary_en: Teams choosing a model before procurement or launch need to judge which one is more reliable;
-  Vals runs candidate models through a shared benchmark suite and returns comparative scores. Its official
-  blog also says agents were used for materials screening, outputting room-temperature magnetic semiconductor
-  candidates that still need human review. The exact evaluation criteria and delivery format remain unverified.
-inspiration_en: The trend is that as model capabilities converge, selection shifts from leaderboard scores
-  toward evaluations tied to real tasks and domain discovery workflows. An entry point is reproducible
-  private evaluation for regulated industries, or attaching evaluation to concrete screening tasks in
-  materials and drug discovery and charging per result rather than building another public leaderboard.
+summary_zh: 面向需要比较不同模型能力的团队，Vals AI 在选型或验收环节接收模型在具体任务上的运行结果，输出可横向对比的评测结论；其官网博客还展示了用智能体在材料筛选任务中产出候选材料的结果。具体评测口径、交付形式与人工复核环节仍待核验。
+inspiration: 趋势是模型能力比较正从跑分榜转向按行业任务定制的评测，材料、半导体这类高门槛领域开始出现用智能体做候选筛选的公开案例。切入可考虑为特定实验室或材料团队提供按任务定制的评测与候选筛选服务，卖结果而非卖工具；该方向目前公开细节有限，属推断。
+summary_en: For teams that need to compare model capabilities, Vals AI takes model outputs on specific
+  tasks at selection or acceptance time and returns comparable evaluation conclusions; its blog also shows
+  agents producing candidate materials in a screening task. The exact evaluation criteria, deliverable
+  format and human review step still need verification.
+inspiration_en: The trend is that model comparison is moving from leaderboards toward task-specific evaluation,
+  with public examples of agents screening candidates in high-barrier fields such as materials and semiconductors.
+  A possible entry is task-specific evaluation and candidate screening for specific labs or materials
+  teams, selling outcomes rather than tools; public detail is limited, so this is inference.
 priority_review: false
 project_type: new_application
 industries:
 - 半导体
+- 材料科学
 - 科研服务
 industries_en:
 - Semiconductors
-- Research services
+- Materials Science
+- Research Services
 jobs:
 - 模型评测工程师
 - 材料研究团队
 jobs_en:
-- Model evaluation engineers
-- Materials research teams
+- Model Evaluation Engineer
+- Materials Research Team
 regions:
 - 美国
 regions_en:
@@ -38,7 +40,7 @@ summary: Vals, backed by Andreessen Horowitz, is looking to become the gold stan
   TechCrunch
 first_seen: '2026-09-19T13:00:00Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 - hackernews
@@ -57,7 +59,7 @@ sightings:
   kind: news
 ---
 
-# Vals
+# Vals AI
 
 Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking TechCrunch
 

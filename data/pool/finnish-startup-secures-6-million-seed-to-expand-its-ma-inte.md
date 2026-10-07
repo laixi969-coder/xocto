@@ -23,7 +23,7 @@ summary: Finnish startup secures $6 million seed to expand its M&A intelligence 
   markets - ArcticStartup
 first_seen: '2026-10-06T15:52:55Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

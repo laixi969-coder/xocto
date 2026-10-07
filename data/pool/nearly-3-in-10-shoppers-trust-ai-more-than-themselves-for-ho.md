@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYV94NkswMFFJ
 summary: Nearly 3 in 10 shoppers trust AI more than themselves for holiday shopping ConsumerAffairs
 first_seen: '2026-10-06T18:03:22Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

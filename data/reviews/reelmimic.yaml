@@ -284,3 +284,56 @@
     and a one-line brief and skip rebuilding prompts and re-aligning rhythm each time; teams shipping
     video by the unit at high frequency are the likely first adopters. Public material shows no retention
     or repeat-use evidence, so it cannot yet be said to be embedded in workflows long term.'
+- id: req-full-reelmimic-2026-10-07
+  project_slug: reelmimic
+  level: full
+  reviewed_at: '2026-10-07T02:03:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是按参考片复刻视频风格这一具体任务，痛点是风格漂移与人工返工，旧做法是逐段生成再手工剪辑或外包，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-a4b5193725eb3234
+    - ev-5a46b30cf8d43023
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 1,580 星标，属关注度而非持续采用；缺少用户评价或客户案例说明谁在什么场景反复使用，也未出现可归因到该产品的使用量或环比数据。
+    evidence_ids:
+    - ev-4ee2372ae147542e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，仓库为开源框架；按成片条数向投放团队收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-12b7f70c5f8e5a0e
+    - ev-cc90fd383a75cec6
+  - gate: truth
+    status: insufficient
+    reason: 风格一致性、成片可用性和人工确认边界均未在公开材料中给出可核对结果，交付确定性尚不清楚。
+    evidence_ids:
+    - ev-6041b23284a423d5
+    - ev-ee0c68875e8b444f
+  next_validation: 追踪该仓库的 issue、discussion 或 README 示例，核对是否有用户贴出成片与参考片的风格一致性对比及人工修改量。
+  market: ''
+  job: 短视频创作者或营销人员拿到一条喜欢的参考视频后，把文件、手机录像或 YouTube 链接交给 ReelMimic，附一句 brief，由 Claude Code 或 Codex 组成的 AI
+    流程拆解节奏、镜头与构图，产出风格一致的新视频用于投放或发布。
+  job_en: Short-video creators or marketers who, after picking a reference video they like, hand ReelMimic
+    a file, phone recording or YouTube link plus a one-line brief, and let a Claude Code or Codex AI crew
+    break down rhythm, shots and composition to produce a new video in the same style for publishing or
+    ad delivery.
+  pain: 公开材料显示风格复刻要拆解剪辑节奏、镜头与构图，旧做法靠人反复调提示词、逐段生成再手工拼接，风格容易漂移、返工多、单条成本高；这是从产品说明还原的工作流推理，尚无用户抱怨或返工量的量化数据。
+  pain_en: Public material shows style replication requires breaking down editing rhythm, shots and composition;
+    the old way relies on repeated prompt tweaking, piecewise generation and manual stitching, so style
+    drifts, rework is heavy and per-video cost stays high. This is workflow inference from product descriptions,
+    with no quantified user complaint or rework data yet.
+  current_alternative: 现在多是用通用视频生成工具逐段生成再人工剪辑拼接，或直接外包给剪辑师按参考片模仿；公开材料未给出这些替代方式的具体成本对比。
+  current_alternative_en: Today people either generate clips piecewise with general video tools and edit
+    them together by hand, or outsource to an editor who imitates the reference video; public material
+    gives no concrete cost comparison for these alternatives.
+  usage_reason: 推断：相较逐段生成再手工拼接的旧做法，它把“看参考片—拆风格—生成—评审”串成一条可重复流程，用户不必每次从零调提示词和逐段对齐节奏，因此高频按条出片的投放或内容团队会先试用它；公开材料没有留存或复购证据，尚不能说明它已被长期留在工作流里。
+  usage_reason_en: 'Inference: compared with piecewise generation and manual stitching, it chains reference-watching,
+    style breakdown, generation and review into one repeatable pipeline, so users no longer rebuild prompts
+    and align rhythm clip by clip each time; teams shipping video by the unit at high frequency are the
+    likely first adopters. Public material shows no retention or repeat-use evidence, so it cannot yet
+    be said to be embedded in workflows long term.'

@@ -35,7 +35,7 @@ summary: The round builds on a $30 million fundraise in February, taking the com
   $140 million.
 first_seen: '2026-09-29T12:30:00Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

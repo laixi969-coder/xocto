@@ -1,0 +1,86 @@
+- id: req-initial-vodafone-采用-cujo-ai-的-qoo-指标进行多市场宽带部署-2026-10-07
+  project_slug: vodafone-采用-cujo-ai-的-qoo-指标进行多市场宽带部署
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭宽带体验无法逐户量化、只能等投诉后上门排查的痛点，旧流程与不采用代价明确。
+    evidence_ids:
+    - ev-196398fc45b65c8d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一家运营商的多市场部署报道，缺少其他运营商采用或运维团队反馈，共识强度有限。
+    evidence_ids:
+    - ev-196398fc45b65c8d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露计价方式与买方预算，按线路还是按市场收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-196398fc45b65c8d
+  - gate: truth
+    status: insufficient
+    reason: QoO 指标口径、数据采集边界与是否需人工复核均未公开，交付确定性待核验。
+    evidence_ids:
+    - ev-196398fc45b65c8d
+  next_validation: 收集 CUJO AI 官方产品页或部署文档，确认 QoO 指标的计费方式、数据采集范围与人工复核环节。
+  market: ''
+  job: 宽带运营商的网络运维与客服人员，在用户投诉网速慢或掉线时，处理家庭网关采集的连接数据，要定位是线路、设备还是 Wi-Fi 环节的问题并给出处理结论。
+  job_en: Network operations and support staff at broadband carriers, when users complain about slow or
+    dropped connections, work with connection data collected from home gateways to localise whether the
+    fault is the line, the device or Wi-Fi, and produce a handling conclusion.
+  pain: 家庭宽带故障往往只能等用户投诉后上门排查，运营商缺少逐户可比的体验量化口径，排障成本高且责任难界定。
+  pain_en: Home broadband faults are often only investigated after user complaints and on-site visits,
+    and carriers lack a comparable per-household experience metric, making troubleshooting costly and
+    fault attribution hard.
+  current_alternative: 依赖设备告警、测速工具和用户电话描述，由人工经验判断问题环节。
+  current_alternative_en: Relying on device alarms, speed-test tools and users' phone descriptions, with
+    human experience deciding which segment is at fault.
+  usage_reason: 相较人工凭告警和投诉描述排查，CUJO AI 从网关侧统一计算 QoO 指标，把“用户说慢”转成可核对的逐户评分，减少上门前的猜测环节；推断运营商会在投诉集中或线路质量波动时用它做前置筛查。
+  usage_reason_en: Compared with manual triage from alarms and complaint descriptions, CUJO AI computes
+    QoO metrics uniformly from the gateway side, turning 'the user says it is slow' into a checkable per-household
+    score and cutting guesswork before a site visit; inference is that carriers use it for pre-screening
+    when complaints cluster or line quality fluctuates.
+- id: req-full-vodafone-采用-cujo-ai-的-qoo-指标进行多市场宽带部署-2026-10-07
+  project_slug: vodafone-采用-cujo-ai-的-qoo-指标进行多市场宽带部署
+  level: full
+  reviewed_at: '2026-10-07T02:04:28Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 全部证据均为同名恐怖片《Cujo》的 IMDb 与维基条目及通用 AI 站点，无一条涉及 CUJO AI 或宽带 QoO，需求与痛点无法从公开事实还原。
+    evidence_ids:
+    - ev-130ab0d0b6202dc3
+    - ev-ad5df4b31f4d28a9
+    - ev-140f860463649399
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 CUJO AI 官网产品页与 Vodafone 官方新闻稿，确认 QoO 指标定义、部署市场范围与计费方式。
+  market: ''
+  job: 电信运营商网络运维与客服团队在用户投诉家庭宽带变慢或掉线时，处理家庭网关侧连接数据，要定位是线路、设备还是 Wi-Fi 环节的问题并给出处理结论。
+  job_en: Network operations and support teams at telecom carriers, when subscribers complain about slow
+    or dropped home broadband, work with home-gateway connection data to localise whether the fault lies
+    in the line, the device or Wi-Fi and produce a handling conclusion.
+  pain: 公开证据中没有任何可引用的材料说明该团队当前的排障痛点、投诉处理成本或体验量化缺口，无法确认痛点真实存在及其刚性。
+  pain_en: No citable public evidence describes this team's current troubleshooting pain, complaint-handling
+    cost or experience-measurement gap, so the pain's existence and rigidity cannot be confirmed.
+  current_alternative: 公开证据未提供任何关于现有替代方式（设备告警、测速工具、人工经验判断等）的可引用事实。
+  current_alternative_en: The public evidence provides no citable fact about current alternatives such
+    as device alarms, speed-test tools or manual judgement.
+  usage_reason: 缺少可引用的产品说明、客户案例或用户反馈，无法说明相较旧做法减少了哪一步负担，因此无法给出使用理由。
+  usage_reason_en: With no citable product description, customer case or user feedback, there is no basis
+    to explain which step of the old workflow it reduces, so no usage reason can be given.

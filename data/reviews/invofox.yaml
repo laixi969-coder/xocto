@@ -95,3 +95,52 @@
     templates, so finance and operations teams with varied layouts and downstream systems would choose
     it for batch processing; the public material gives no validation rules, accuracy figures or retention
     evidence.'
+- id: req-full-invofox-2026-10-07
+  project_slug: invofox
+  level: full
+  reviewed_at: '2026-10-07T02:02:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决单据字段录入这一具体旧工作流：痛点是人工敲字段慢且易错、版式变化要重配模板，不采用就要继续承担积压与返工；产品把文档转成带校验的结构化 JSON，交付闭环可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-daca73eae548f275
+    - ev-06b62e9d47d5c384
+  - gate: consensus
+    status: insufficient
+    reason: 官网只给出产品定位，HN 提交仅 6 分 4 评论，无客户案例、用户评价或行业采用证据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-daca73eae548f275
+    - ev-06b62e9d47d5c384
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、按份数还是按席位收费，也未说明买方是财务团队还是系统集成方；to B 付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-daca73eae548f275
+  - gate: truth
+    status: insufficient
+    reason: 校验规则、人工复核边界与抽取准确率均未公开，承诺的 validated JSON 能否确定性交付无法核对，安全与人工边界待补。
+    evidence_ids:
+    - ev-daca73eae548f275
+    - ev-06b62e9d47d5c384
+  next_validation: 追踪 Invofox 官网定价页与客户案例/部署文档，确认计价方式、目标买方以及是否披露抽取准确率或人工复核流程。
+  market: ''
+  job: 财务、运营或合规人员在收到供应商发票、保单、提单等 PDF 或扫描件时，需要把这些材料里的字段抽取出来并写入台账、理赔或业务系统，以完成记账、对账或登记。
+  job_en: Finance, operations or compliance staff receiving supplier invoices, policy documents or bills
+    of lading as PDFs or scans need to extract the fields and write them into ledgers, claims or business
+    systems to complete bookkeeping, reconciliation or registration.
+  pain: 人工逐份阅读并敲字段慢且易错，字段错一位就要回头核对原件；版式一多，固定模板 OCR 又要重配，单据量大时形成积压与返工。
+  pain_en: Reading each document and typing fields by hand is slow and error-prone; one wrong field forces
+    a return to the original, and fixed-template OCR needs reconfiguration as layouts multiply, creating
+    backlogs and rework at volume.
+  current_alternative: 旧做法是人工录入，或用固定模板的 OCR 工具；遇到版式变化要重新配置模板，抽取结果仍需人工逐字段核对。
+  current_alternative_en: The old approach is manual data entry or fixed-template OCR tools; layout changes
+    require template reconfiguration, and extracted results are still checked field by field by a person.
+  usage_reason: 推断：相较人工录入或固定模板 OCR，它把文档直接转成带校验的结构化 JSON，省去逐字段敲入和模板重配这两步，因此单据版式杂、字段要进下游系统的财务与运营团队会在批量处理时选择它；公开材料未披露校验规则、人工复核边界与留存复购证据。
+  usage_reason_en: 'Inference: compared with manual entry or fixed-template OCR, it converts documents
+    directly into validated structured JSON, removing the steps of typing each field and reconfiguring
+    templates, so finance and operations teams with varied layouts and downstream systems would choose
+    it for batch processing; the public material does not disclose validation rules, human review boundaries,
+    or retention and repeat-use evidence.'

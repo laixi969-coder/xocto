@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/willow-voice
 summary: Your AI already knows you. Now Willow can too.
 first_seen: '2026-10-05T16:56:56Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

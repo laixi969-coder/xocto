@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pSm5qMEROODMy
 summary: 智能体越狱频发：OpenAI踩刹车取消GPT-6.1 Astra发布，Meta猛踩油门边开边修 虎嗅网
 first_seen: '2026-10-06T04:32:06Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

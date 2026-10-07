@@ -230,3 +230,54 @@
     one by one or uploading files and simply pick files locally to get Markdown, removing the setup and
     data-egress steps; knowledge workers handling sensitive or batch documents who do not want to build
     their own pipeline would therefore lean toward it.'
+- id: req-full-inkdoc-2026-10-07
+  project_slug: inkdoc
+  level: full
+  reviewed_at: '2026-10-07T02:02:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把 PDF、扫描件和 Office 文档转成可投喂 AI 的干净 Markdown 这一需求，痛点是格式落差与敏感文件外流顾虑，旧做法是手工复制或在线转换。公开说明已能还原输入、动作与交付，属工作流结构推理；痛点刚性与交付质量仍待核验。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-06734f7f4a536b61
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 增至 53，说明有开发者关注，但这是关注度而非目标用户持续采用；公开材料没有用户评价、案例或重复使用证据，无法判断法务、研究助理是否真把它留在工作流里。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-06734f7f4a536b61
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断钱来自 to C 个人订阅、to B 团队授权还是开源赞助；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+  - gate: truth
+    status: insufficient
+    reason: 产品称本地运行并集成 MarkItDown、Docling、GLM-OCR 等，但公开材料未展示转换质量、人工校对边界与安全承诺的可复现结果，交付确定性尚缺证据。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-ecc0e65f9444a964
+  next_validation: 追踪 InkDoc 仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际转换场景、替代的旧流程及转换质量反馈。
+  market: ''
+  job: 知识工作者、法务与合规人员、研究助理在需要把一批 PDF、扫描件和 Office 文档喂给 AI 模型或检索系统时，先用 InkDoc 在本地把这些文件转成结构干净的 Markdown，再交给下游模型或索引使用。
+  job_en: Knowledge workers, legal/compliance staff, and research assistants who need to feed a batch
+    of PDFs, scans, and Office files into an AI model or retrieval system first convert them locally into
+    clean, structured Markdown with InkDoc before passing them downstream.
+  pain: 公开材料显示痛点是文档格式与模型输入之间的落差：PDF、扫描件和 Office 文件不能直接作为干净文本投喂模型，用户需要先做版面还原与文字提取；对法务、合规这类材料，把文件上传到第三方云转换还带来数据外流顾虑，本地处理正是针对这一点。
+  pain_en: 'The public description points to a gap between document formats and model input: PDFs, scans,
+    and Office files are not directly usable as clean text, so layout recovery and text extraction are
+    needed first; for legal and compliance material, uploading files to a third-party cloud converter
+    also raises data-egress concerns, which local processing targets.'
+  current_alternative: 旧做法是手工复制粘贴、用通用 PDF 转文本工具或在线转换服务，再自行清理格式；这些方式要么丢失版面结构，要么需要把敏感文件上传到外部服务。
+  current_alternative_en: The old approach is manual copy-paste, generic PDF-to-text tools, or online
+    conversion services followed by manual cleanup; these either lose layout structure or require uploading
+    sensitive files to an external service.
+  usage_reason: 推断：相较手工复制或在线转换，InkDoc 在本地一次完成读取、版面还原与 Markdown 输出，省去逐份复制粘贴和事后清理格式的步骤，并避免把文件上传到外部服务；因此处理敏感或批量文档、又需要干净文本投喂模型的法务、合规与研究助理会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus manual copy-paste or online conversion, InkDoc performs reading,
+    layout recovery, and Markdown output locally in one pass, removing the per-file copy-paste and post-hoc
+    format cleanup step and avoiding uploading files to an external service; legal, compliance, and research
+    users handling sensitive or batch documents who need clean text for models would choose it in that
+    situation.'

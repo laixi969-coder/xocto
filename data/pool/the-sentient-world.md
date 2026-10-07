@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/the-sentient-world
 summary: A living world of AI characters. You can only watch.
 first_seen: '2026-10-04T15:01:46Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

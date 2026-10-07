@@ -453,3 +453,83 @@
     into prompts usable by each generator, it removes the manual step of shuttling between tools and re-aligning
     character settings, so multi-shot teams with delivery deadlines would try it; without user feedback
     or cases, this choice cannot be confirmed.'
+- id: req-initial-slate-2026-10-07
+  project_slug: slate
+  level: initial
+  reviewed_at: '2026-10-07T01:32:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 影片制作中分镜规划与提示词复用的问题，痛点是不复用就要逐条重写、连续性靠人记；旧做法是聊天工具加表格手工维护，结构上成立，属工作流推理。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论集中在少量社区帖，尚无客户案例或行业采用证据，无法判断创作者是否已把它放进常规流程。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 采用自愿捐赠模式，未披露定价或企业采购路径；买方可能是个人创作者或小工作室，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 提示词编译能否稳定交付、跨生成器效果是否一致，缺少可复现实测与用户反馈，人工确认边界也未说明。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue、discussion 与 README 更新，确认提示词编译的实际输入输出、支持的生成器清单以及是否有用户反馈的交付结果。
+  market: ''
+  job: 独立创作者或小制作团队在开拍 AI 影片前，处理剧本与镜头设想，要产出分镜、镜头覆盖方案和能直接投喂图像/视频/音乐/配音生成器的提示词组。
+  job_en: Before shooting an AI film, an independent creator or small production team works from a script
+    and shot ideas to produce storyboards, coverage plans and prompt sets that image, video, music or
+    voice generators can consume directly.
+  pain: 提示词散落在聊天记录和文档里，镜头与角色连续性靠人脑记，换生成器就要重写一遍，返工成本高。
+  pain_en: Prompts are scattered across chats and documents, shot and character continuity lives in someone's
+    head, and switching generators means rewriting everything, so rework is costly.
+  current_alternative: 用通用聊天工具或生成器自带界面逐条写提示词，用表格和文档手工维护镜头与角色设定。
+  current_alternative_en: Writing prompts one by one in general chat tools or generator interfaces, and
+    maintaining shots and character settings by hand in spreadsheets and documents.
+  usage_reason: 推断：它把镜头、覆盖与连续性信息集中成一份可编译的提示词源，改一次设定即可重新生成整组提示词，省掉逐条改写和跨生成器重写这一步，因此需要多镜头、多生成器协作的短片与广告创作者会选它。
+  usage_reason_en: 'Inference: it keeps shots, coverage and continuity in one compilable prompt source,
+    so changing a setting regenerates the whole prompt set and removes the step of rewriting prompts one
+    by one or across generators, which is why short-film and ad creators juggling many shots and generators
+    would pick it.'
+- id: req-full-slate-2026-10-07
+  project_slug: slate
+  level: full
+  reviewed_at: '2026-10-07T02:03:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据中没有任何用户痛点、现有替代或采用行为，仅凭产品功能描述无法还原真实任务与不解决的后果，需求与痛点均写不出来。
+    evidence_ids:
+    - ev-906c819402ed0caf
+    - ev-75b6092d6be3fc51
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Slate 官方产品页或仓库 README/issue，确认其实际输入输出、支持的生成器清单与是否有用户反馈的交付结果。
+  market: ''
+  job: AI 影片创作者在开拍前处理剧本与镜头设想，要产出分镜、镜头覆盖方案和可投喂图像/视频/音乐/配音生成器的提示词组。
+  job_en: Before shooting, an AI filmmaker works from a script and shot ideas to produce storyboards,
+    coverage plans and prompt sets consumable by image, video, music or voice generators.
+  pain: 公开材料未提供任何用户痛点、抱怨或替代行为的证据，无法确认提示词散落、连续性靠人记是否构成真实痛点。
+  pain_en: Public material offers no user pain, complaint or workaround evidence, so it cannot be confirmed
+    that scattered prompts or manual continuity tracking is a real pain.
+  current_alternative: 公开材料未记录任何现有替代方式，无法说明创作者目前如何完成分镜与提示词编写。
+  current_alternative_en: No current alternative is documented in public material, so how creators presently
+    handle storyboarding and prompt writing is unknown.
+  usage_reason: 推断：若产品真能把镜头与连续性信息编译成整组提示词，可省去逐条改写；但缺少任何用户反馈或采用证据，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if it truly compiles shots and continuity into a full prompt set it could
+    remove per-prompt rewriting, but with no user feedback or adoption evidence it is unconfirmed which
+    users would choose it.'

@@ -1,6 +1,6 @@
 ---
 slug: davinci-commerce-unveils-ai-brand-agent-with-product-memory
-name: DaVinci Commerce Unveils AI Brand Agent With Product Memory
+name: DaVinci Commerce
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNkxKUVZYTGow
 summary: DaVinci Commerce Unveils AI Brand Agent With Product Memory MarTech Cube
 first_seen: '2026-10-06T12:31:43Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# DaVinci Commerce Unveils AI Brand Agent With Product Memory
+# DaVinci Commerce
 
 DaVinci Commerce Unveils AI Brand Agent With Product Memory MarTech Cube
 

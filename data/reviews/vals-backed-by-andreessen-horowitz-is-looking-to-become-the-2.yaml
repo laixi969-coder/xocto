@@ -83,3 +83,94 @@
   usage_reason: 待补充：证据未提供任何可归因到该产品的采用、评价或使用动机，无法解释用户为何选择它。
   usage_reason_en: 'To be determined: the evidence offers no adoption, review, or usage motivation attributable
     to this product, so why users would choose it cannot be explained.'
+- id: req-initial-vals-backed-by-andreessen-horowitz-is-looking-to-become-the-2-2026-10-07
+  project_slug: vals-backed-by-andreessen-horowitz-is-looking-to-become-the-2
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决模型横向比较的需求，但公开材料未说明谁在什么流程里因缺少评测受损，痛点强度无法确认。
+    evidence_ids:
+    - ev-06b333900405c783
+    - ev-9f4cec14a981c7ff
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资背景与社区讨论热度，未见客户采用或持续使用的公开证据。
+    evidence_ids:
+    - ev-07c2f9300949555b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方类型，钱可能来自企业评测采购或投资，属判断而非已验证事实。
+    evidence_ids:
+    - ev-06b333900405c783
+  - gate: truth
+    status: insufficient
+    reason: 评测口径与材料发现案例的复核方式未公开，交付确定性无法核对。
+    evidence_ids:
+    - ev-9f4cec14a981c7ff
+  next_validation: 收集 Vals AI 官方定价页或公开客户案例，确认评测服务的买方与交付形式。
+  market: ''
+  job: 模型选型或验收团队在需要判断某个模型能否胜任特定任务时，处理模型在具体任务上的输出结果，要完成的任务是得到可横向对比的评测结论。
+  job_en: A model selection or acceptance team, when judging whether a model can handle a specific task,
+    works with the model's outputs on that task to produce comparable evaluation conclusions.
+  pain: 公开材料只说明其定位是评测标准与一次材料发现案例，未说明谁在什么流程里因缺少评测而受损，痛点强度无法确认。
+  pain_en: Public material only states its positioning as an evaluation standard and one materials discovery
+    case; it does not show who is harmed by the lack of evaluation in which workflow, so pain intensity
+    cannot be confirmed.
+  current_alternative: 团队自行搭建评测脚本、参考公开榜单，或直接凭试用感受选型。
+  current_alternative_en: Teams build their own evaluation scripts, consult public leaderboards, or choose
+    based on trial impressions.
+  usage_reason: 相较自建评测，它可能通过提供现成任务集与统一口径减少搭建评测的步骤，但公开材料未给出可核对的交付结果或用户反馈，因此为何选择它仍属推断。
+  usage_reason_en: Compared with building evaluations in-house, it may reduce setup steps by offering
+    ready task sets and a unified standard, but public material gives no verifiable deliverable or user
+    feedback, so why users choose it remains inference.
+- id: req-full-vals-backed-by-andreessen-horowitz-is-looking-to-become-the-2-2026-10-07
+  project_slug: vals-backed-by-andreessen-horowitz-is-looking-to-become-the-2
+  level: full
+  reviewed_at: '2026-10-07T02:04:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨模型、跨任务类型横向比较的需求，痛点是 token 价格无法代理能耗、基础设施披露有限导致测量受限；这是从公开材料做的工作流结构推理，痛点刚性成立但缺用户采用证据。
+    evidence_ids:
+    - ev-2bcf21fde8f6b95e
+    - ev-5ba3cb223f8e0835
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 Andreessen Horowitz 融资背景与官网博客，未见客户采用、复购或持续使用的公开证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-2bcf21fde8f6b95e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与买方类型，钱可能来自企业评测采购或投资，属判断而非已验证事实；但需求成立不因买方不清而取消。
+    evidence_ids:
+    - ev-a00d94811873e61b
+  - gate: truth
+    status: insufficient
+    reason: 评测口径、人工复核环节与材料筛选案例的交付形式未公开，承诺能否确定性交付无法核对，安全与人工边界亦未说明。
+    evidence_ids:
+    - ev-5ba3cb223f8e0835
+  next_validation: 追踪 Vals AI 官网定价页或公开客户案例，确认评测服务的买方类型与交付形式。
+  market: ''
+  job: 模型评测工程师或材料研究团队在需要判断某个模型能否胜任特定任务（如材料筛选）时，处理模型在具体任务上的运行结果，要完成的任务是得到可横向对比、可对外引用的评测结论。
+  job_en: A model evaluation engineer or materials research team, when judging whether a model can handle
+    a specific task such as materials screening, works with the model's outputs on that task to produce
+    comparable, citable evaluation conclusions.
+  pain: 公开材料显示团队需要跨模型、跨任务类型比较 token 用量与环境成本，而 token 价格并非能耗的可靠代理，基础设施披露有限又制约测量；这说明缺少统一口径时，选型与验收结论难以横向对齐。
+  pain_en: Public material shows teams need to compare token usage and environmental cost across models
+    and task types, yet token price is an imperfect proxy for energy use and limited infrastructure disclosure
+    constrains measurement; without a unified standard, selection and acceptance conclusions are hard
+    to align.
+  current_alternative: 团队自行搭建评测脚本、参考公开榜单，或凭试用感受选型；环境成本则用 token 价格粗略估算。
+  current_alternative_en: Teams build their own evaluation scripts, consult public leaderboards, or choose
+    based on trial impressions; environmental cost is roughly estimated from token price.
+  usage_reason: 推断：相较自建脚本与榜单，Vals 用统一口径测量模型在具体任务上的 token 用量并结合 EcoLogits 输出跨模型、跨任务类型的对比结论，减少团队自行搭建评测与换算能耗的步骤，因此需要对外给出可引用评测结论的选型或验收团队会在该环节选择它。
+  usage_reason_en: 'Inference: compared with in-house scripts and leaderboards, Vals measures token usage
+    on specific tasks under a unified standard and combines EcoLogits to output cross-model, cross-task
+    comparisons, cutting the steps of building evaluations and converting energy cost, so selection or
+    acceptance teams needing citable conclusions would choose it here.'

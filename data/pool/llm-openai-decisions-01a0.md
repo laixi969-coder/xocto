@@ -1,6 +1,6 @@
 ---
 slug: llm-openai-decisions-01a0
-name: llm-openai-decisions 0.1a0
+name: llm-openai-decisions
 builder: ''
 category: ''
 summary_zh: ''
@@ -33,7 +33,7 @@ summary: "Release:   llm-openai-decisions 0.1a0  \n         OpenAI released thei
   \ types of questions. \n    \n    \n         Tags:  openai ,  llm ,  coding-agents ,  jev"
 first_seen: '2026-10-06T23:04:13Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -44,7 +44,7 @@ sightings:
   kind: news
 ---
 
-# llm-openai-decisions 0.1a0
+# llm-openai-decisions
 
 Release:   llm-openai-decisions 0.1a0  
          OpenAI released their new Jev-style  Decisions API , as previously announced at last week's DevDay. 

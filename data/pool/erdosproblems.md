@@ -21,7 +21,7 @@ canonical_url: https://erdosproblems.com/forum/thread/blog:9
 summary: Erdosproblems.com Succumbs to the AI Onslaught
 first_seen: '2026-10-06T12:53:58Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,81 @@
+- id: req-initial-ranktune-2026-10-07
+  project_slug: ranktune
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 回答中品牌可见性监测的需求，但公开材料未说明旧流程痛点与不采用的后果，价值判断缺依据。
+    evidence_ids:
+    - ev-b7851a4e53c4e55d
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供采用、评价或使用规模数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-b7851a4e53c4e55d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自品牌方订阅还是代理服务。
+    evidence_ids:
+    - ev-b7851a4e53c4e55d
+  - gate: truth
+    status: insufficient
+    reason: 未说明引用数据如何采集与归因，监测结果能否确定性交付无法核对。
+    evidence_ids:
+    - ev-b7851a4e53c4e55d
+  next_validation: 收集 Ranktune 官方定价页或客户案例，确认其引用数据来源、计价方式与目标买方。
+  market: ''
+  job: 品牌或增长负责人在 AI 搜索回答影响获客时，处理品牌在 AI 回答中的出现与引用材料，以判断投放与内容是否被引用。
+  job_en: Brand or growth leads, when AI search answers affect acquisition, process brand appearances
+    and citations in AI answers to judge whether campaigns and content get cited.
+  pain: 公开材料只列出追踪对象，未给出用户因 AI 回答未被引用而受损的具体证据，也未说明现有监测方式哪里不够。
+  pain_en: Public material only lists what is tracked; it gives no concrete evidence of harm from not
+    being cited in AI answers, nor where existing monitoring falls short.
+  current_alternative: 常见替代是传统 SEO 排名工具与人工在 AI 助手里试问，但候选未提供用户实际做法的证据。
+  current_alternative_en: Common alternatives are traditional SEO rank tools and manually asking AI assistants,
+    but the candidate gives no evidence of what users actually do.
+  usage_reason: 推断：若其引用归因可核对，依赖 AI 搜索获客的品牌可能用它替代人工试问，但缺少定价、客户案例与数据来源说明，无法确认替换动机。
+  usage_reason_en: 'Inference: if its citation attribution is verifiable, brands relying on AI search
+    for acquisition might use it instead of manual probing, but with no pricing, customer cases or data-source
+    description, the switching motive cannot be confirmed.'
+- id: req-full-ranktune-2026-10-07
+  project_slug: ranktune
+  level: full
+  reviewed_at: '2026-10-07T02:03:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 回答中品牌可见性监测的需求，但公开材料未说明旧流程痛点与不采用的后果，价值判断缺依据。
+    evidence_ids:
+    - ev-b7851a4e53c4e55d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Ranktune 官方定价页或客户案例，确认其引用数据来源、计价方式与目标买方。
+  market: ''
+  job: 品牌或增长负责人在 AI 搜索回答影响获客时，处理品牌在 AI 回答中的出现与引用材料，以判断投放与内容是否被引用。
+  job_en: Brand or growth leads, when AI search answers affect acquisition, process brand appearances
+    and citations in AI answers to judge whether campaigns and content get cited.
+  pain: 公开材料只列出追踪对象，未给出用户因 AI 回答未被引用而受损的具体证据，也未说明现有监测方式哪里不够。
+  pain_en: Public material only lists what is tracked; it gives no concrete evidence of harm from not
+    being cited in AI answers, nor where existing monitoring falls short.
+  current_alternative: 常见替代是传统 SEO 排名工具与人工在 AI 助手里试问，但候选未提供用户实际做法的证据。
+  current_alternative_en: Common alternatives are traditional SEO rank tools and manually asking AI assistants,
+    but the candidate gives no evidence of what users actually do.
+  usage_reason: 推断：若其引用归因可核对，依赖 AI 搜索获客的品牌可能用它替代人工试问，但缺少定价、客户案例与数据来源说明，无法确认替换动机。
+  usage_reason_en: 'Inference: if its citation attribution is verifiable, brands relying on AI search
+    for acquisition might use it instead of manual probing, but with no pricing, customer cases or data-source
+    description, the switching motive cannot be confirmed.'

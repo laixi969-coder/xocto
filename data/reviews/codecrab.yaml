@@ -1,0 +1,81 @@
+- id: req-initial-codecrab-2026-10-07
+  project_slug: codecrab
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代码审查耗时与代码外泄顾虑，痛点具体；但材料只有一句产品描述，无法确认旧流程与交付结果。
+    evidence_ids:
+    - ev-ee786e76b83c067d
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页自述外，没有用户评价、社区讨论或采用信号，无法判断是否形成共识。
+    evidence_ids:
+    - ev-ee786e76b83c067d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自个人开发者、团队订阅还是企业采购。
+    evidence_ids:
+    - ev-ee786e76b83c067d
+  - gate: truth
+    status: insufficient
+    reason: 本地运行可降低外泄风险，但审查准确率、误报率与人工确认边界均无公开材料支撑。
+    evidence_ids:
+    - ev-ee786e76b83c067d
+  next_validation: 收集CodeCrab官方定价页或公开仓库文档，确认其支持的代码托管平台、审查规则与收费方式。
+  market: ''
+  job: 开发者在提交拉取请求、需要人工或云端AI审查代码时，用CodeCrab在本地审查代码变更并拿到审查意见。
+  job_en: Developers use CodeCrab to review code changes locally and get review comments when submitting
+    a pull request and needing human or cloud AI review.
+  pain: 代码审查耗时，且把代码送到云端AI审查存在数据外泄顾虑；候选材料未给出用户抱怨或采用证据。
+  pain_en: Code review is time-consuming, and sending code to cloud AI raises data-leakage concerns; the
+    candidate material provides no user complaints or adoption evidence.
+  current_alternative: 人工同事互审、云端AI代码审查工具或IDE内置审查插件。
+  current_alternative_en: Peer human review, cloud-based AI code review tools, or built-in IDE review
+    plugins.
+  usage_reason: 推断：相较把代码上传云端审查，CodeCrab在本地完成审查，减少代码外发这一步，对代码不能出内网的团队有吸引力；但缺少定价、客户案例或重复使用证据，无法确认用户是否长期采用。
+  usage_reason_en: 'Inference: compared with uploading code for cloud review, CodeCrab reviews locally,
+    removing the code-egress step, which appeals to teams whose code cannot leave the intranet; however,
+    pricing, customer cases or repeat-use evidence are missing, so sustained adoption cannot be confirmed.'
+- id: req-full-codecrab-2026-10-07
+  project_slug: codecrab
+  level: full
+  reviewed_at: '2026-10-07T02:01:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代码审查耗时与代码外泄顾虑，痛点具体；但材料只有一句产品描述，无法确认旧流程、输入材料与交付结果，价值结构尚不完整。
+    evidence_ids:
+    - ev-ee786e76b83c067d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 CodeCrab 官方定价页或公开仓库文档，确认其支持的代码托管平台、审查规则与收费方式。
+  market: ''
+  job: 开发者在提交拉取请求、需要人工或云端 AI 审查代码时，用 CodeCrab 在本地审查代码变更并拿到审查意见。
+  job_en: Developers use CodeCrab to review code changes locally and get review comments when submitting
+    a pull request and needing human or cloud AI review.
+  pain: 代码审查耗时，且把代码送到云端 AI 审查存在数据外泄顾虑；候选材料未给出用户抱怨或采用证据。
+  pain_en: Code review is time-consuming, and sending code to cloud AI raises data-leakage concerns; the
+    candidate material provides no user complaints or adoption evidence.
+  current_alternative: 人工同事互审、云端 AI 代码审查工具或 IDE 内置审查插件。
+  current_alternative_en: Peer human review, cloud-based AI code review tools, or built-in IDE review
+    plugins.
+  usage_reason: 推断：相较把代码上传云端审查，CodeCrab 在本地完成审查，减少代码外发这一步，对代码不能出内网的团队有吸引力；但缺少定价、客户案例或重复使用证据，无法确认用户是否长期采用。
+  usage_reason_en: 'Inference: compared with uploading code for cloud review, CodeCrab reviews locally,
+    removing the code-egress step, which appeals to teams whose code cannot leave the intranet; however,
+    pricing, customer cases or repeat-use evidence are missing, so sustained adoption cannot be confirmed.'

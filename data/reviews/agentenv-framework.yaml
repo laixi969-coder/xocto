@@ -1,0 +1,85 @@
+- id: req-initial-agentenv-framework-2026-10-07
+  project_slug: agentenv-framework
+  level: initial
+  reviewed_at: '2026-10-07T01:32:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决环境搭建缺框架的问题，但公开材料未说明具体用户任务、卡点与不解决的后果，需求强度无法判断。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+  - gate: consensus
+    status: insufficient
+    reason: 99 个星标与 15 个未关闭 issue 只反映早期关注，不能说明团队已把它纳入日常训练流程。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露任何付费方、商业服务或支持合同，收入路径未知。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+  - gate: truth
+    status: insufficient
+    reason: 无法核验环境是否真能复现、评测结果是否可对齐，承诺的确定性交付缺少证据。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有团队报告用其搭建并复现了具体训练环境。
+  market: ''
+  job: 强化学习研究与工程团队在需要为智能体搭建可复现训练环境时，处理环境工件、工具调用与动态场景配置，要产出一套别人能重复运行的环境。
+  job_en: RL research and engineering teams, when they need reproducible training environments for agents,
+    work with environment artifacts, tool calls and dynamic scenario configuration to produce a setup
+    others can re-run.
+  pain: 公开材料只说明环境构建需要多方协作且缺少开源框架，没有说明谁在什么流程里被卡住、不解决会付出什么代价。
+  pain_en: The public material only says environment building needs multi-party collaboration and lacks
+    an open-source framework; it does not say who is blocked in which workflow or what it costs to leave
+    unsolved.
+  current_alternative: 团队各自写脚本、拼内部工具来搭环境，缺少共享框架。
+  current_alternative_en: Teams write their own scripts and stitch together internal tooling, with no
+    shared framework.
+  usage_reason: 推断：如果框架能减少环境搭建中重复的工件与复现配置工作，做智能体评测的团队会在需要横向比较多个环境时选择它；目前缺少使用反馈与采用证据，无法确认这一动机。
+  usage_reason_en: 'Inference: if the framework cuts repeated artifact and reproducibility setup, teams
+    evaluating agents would pick it when comparing multiple environments; there is no usage feedback or
+    adoption evidence to confirm this motive yet.'
+- id: req-full-agentenv-framework-2026-10-07
+  project_slug: agentenv-framework
+  level: full
+  reviewed_at: '2026-10-07T02:00:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决环境搭建缺框架的问题，但公开材料未说明具体用户任务、卡点与不解决的后果，需求强度无法判断。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有团队报告用其搭建并复现了具体训练环境。
+  market: ''
+  job: 强化学习研究与工程团队在需要为智能体搭建可复现训练环境时，处理环境工件、工具调用与动态场景配置，要产出一套别人能重复运行的环境。
+  job_en: RL research and engineering teams, when they need reproducible training environments for agents,
+    work with environment artifacts, tool calls and dynamic scenario configuration to produce a setup
+    others can re-run.
+  pain: 公开材料只说明环境构建需要多方协作且缺少开源框架，没有说明谁在什么流程里被卡住、不解决会付出什么代价，痛点强度无法判断。
+  pain_en: The public material only says environment building needs multi-party collaboration and lacks
+    an open-source framework; it does not say who is blocked in which workflow or what it costs to leave
+    unsolved, so pain intensity cannot be judged.
+  current_alternative: 团队各自写脚本、拼内部工具来搭环境，缺少共享框架。
+  current_alternative_en: Teams write their own scripts and stitch together internal tooling, with no
+    shared framework.
+  usage_reason: 推断：如果框架能减少环境搭建中重复的工件与复现配置工作，做智能体评测的团队会在需要横向比较多个环境时选择它；目前缺少使用反馈与采用证据，无法确认这一动机。
+  usage_reason_en: 'Inference: if the framework cuts repeated artifact and reproducibility setup, teams
+    evaluating agents would pick it when comparing multiple environments; there is no usage feedback or
+    adoption evidence to confirm this motive yet.'

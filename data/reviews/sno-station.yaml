@@ -485,3 +485,47 @@
     context shuttling and handoff steps, developers running two agents might choose it; but all current
     evidence points to Snohomish-area public agencies unrelated to the product, so this reduction cannot
     be confirmed.'
+- id: req-full-sno-station-2026-10-07
+  project_slug: sno-station
+  level: full
+  reviewed_at: '2026-10-07T02:04:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决多编码代理共享记忆与交接协作，但公开证据全部是神经肿瘤学会与在线小游戏网站，与编码代理无关，既无用户痛点也无现有替代行为，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-55fc1d4d3eaa572a
+    - ev-efd8662480eb4b67
+    - ev-32bf1acb3084805c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Sno Station 官方仓库的 README、issue 与 discussion，确认是否存在真实开发者描述多代理上下文丢失或手工交接的具体痛点与使用记录。
+  market: ''
+  job: 开发者在本机同时运行 Claude Code 与 Codex 等多个编码代理时，需要让它们共享上下文、互相传递任务并完成交接与跨厂商代码评审，最终拿到一份可用的多代理协作编码会话。
+  job_en: A developer running Claude Code and Codex side by side on one machine needs the agents to share
+    context, pass tasks to each other, and complete handoff and cross-vendor code review, ending with
+    a usable multi-agent coding session.
+  pain: 公开材料未提供任何用户痛点证据：没有用户抱怨、issue、讨论或案例说明多代理并行时上下文丢失、交接靠手工复制粘贴或评审割裂带来的具体代价与频率。
+  pain_en: 'Public materials contain no user pain evidence: no complaints, issues, discussions, or cases
+    showing the concrete cost or frequency of lost context, manual copy-paste handoff, or fragmented review
+    when running multiple agents.'
+  current_alternative: 公开材料未说明开发者目前如何完成多代理协作，也未说明它替代了什么旧做法（如手工复制上下文、分别运行两个 CLI、或干脆不用多代理）。
+  current_alternative_en: Public materials do not describe how developers currently do multi-agent collaboration,
+    nor what old practice it replaces (manual context copying, running two CLIs separately, or not using
+    multiple agents at all).
+  usage_reason: 无法给出因果解释：现有证据全部指向神经肿瘤学会和在线小游戏网站，与编码代理协作无关，无法说明哪类开发者会因哪一步负担减轻而选择它。
+  usage_reason_en: 'No causal explanation is possible: all available evidence points to a neuro-oncology
+    society and an online games site, unrelated to coding-agent collaboration, so it cannot show which
+    developers would choose it or which step''s burden it reduces.'

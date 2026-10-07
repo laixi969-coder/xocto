@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQMDlYa01md1pi
 summary: 喝点VC｜a16z最新AI应用榜单解读：95.5%用户不付费，AI下一步要怎么赚钱？ 搜狐网
 first_seen: '2026-10-07T01:00:00Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

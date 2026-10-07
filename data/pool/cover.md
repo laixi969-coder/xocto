@@ -3,16 +3,16 @@ slug: cover
 name: cover
 builder: DavidCarliez
 category: 基础层
-summary_zh: 开发者在把真实客户数据交给外部大模型处理时，可先经它把姓名、账号等敏感字段替换成逼真假数据再发出，模型返回后在本机把原值还原，最终拿到可用的模型输出而原始数据不出本地；还原环节仍需人工确认。具体流程与交付细节仍待核验。
-inspiration: 趋势是 AI 应用开始把敏感数据外发当成必须处理的合规环节，而不是事后补救。切入可从处理病历、保单、财税凭证这类不能外流材料的行业入手，把脱敏与还原做成随调用发生的默认步骤，而不是让团队自己写脚本。
-summary_en: When developers send real customer data to an external model, this proxy swaps names, accounts
-  and other sensitive fields for realistic fakes before the request leaves, then restores the originals
-  locally on the response, so usable model output comes back while raw data stays on the machine; the
-  restore step still needs human confirmation. The exact workflow and deliverables remain unverified.
-inspiration_en: The trend is that AI applications now treat sensitive-data egress as a step to be handled
-  by default rather than patched afterwards. A wedge is to enter industries whose materials cannot leave
-  the premises, such as medical records, insurance policies or tax documents, and make masking and restoration
-  happen with each call instead of leaving teams to write their own scripts.
+summary_zh: 开发者或数据合规人员在把真实数据交给外部 AI 代理处理时打开它：它先向模型发送结构逼真的假数据，模型返回结果后在本地把假值还原成真实值，用户拿到的是可用的真实输出，而原始敏感字段没有离开本地。具体支持哪些字段类型、还原是否需人工确认，公开材料未说明，仍待核验。
+inspiration: 趋势是 AI 代理开始接触企业真实数据，隐私边界从“要不要用”变成“怎么用而不外泄”。切入可以从处理个人身份信息、医疗记录、客户名单的团队入手，把脱敏与还原做成调用链上的一层，而不是让每个团队自己写规则；卖法未披露，不做推测。
+summary_en: 'A developer or data-compliance owner opens it when sending real data to an external AI agent:
+  it first sends realistic fake values to the model, then restores the originals locally, so the user
+  gets usable real output while sensitive fields never leave the machine. Which field types are supported
+  and whether restoration needs human confirmation are not stated in the public material and remain unverified.'
+inspiration_en: The trend is that AI agents increasingly touch real enterprise data, so the privacy question
+  shifts from whether to use them to how to use them without leaking. A wedge is teams handling personal
+  IDs, medical records or customer lists, packaging masking and restoration as one layer in the call chain
+  instead of each team writing its own rules; pricing is undisclosed and not guessed.
 priority_review: false
 project_type: open_source
 industries: []
@@ -27,7 +27,7 @@ canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - officialfeeds

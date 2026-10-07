@@ -436,3 +436,55 @@
     voice cloning into the default flow, so users need not rebuild the persona each turn and keep conversations
     and voiceprints on-device; Windows personal users who value privacy and a stable voice and persona
     would choose it for long-term companionship.'
+- id: req-full-ai-girlfriend-v2-2026-10-07
+  project_slug: ai-girlfriend-v2
+  level: full
+  reviewed_at: '2026-10-07T02:00:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Windows 用户想要一个记得住历史、用自己音色回应的桌面陪伴对象这一需求，痛点是通用助手会话重置、音色不可定制；公开仓库说明已把长期记忆、本地声音克隆与可选数字人组合交付，属工作流结构推理，用户抱怨与频率数据仍缺。
+    evidence_ids:
+    - ev-9ab57c01a9d166e3
+    - ev-c44023eee3b3bf52
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 50 增至 59，说明有开发者关注，但公开材料没有用户评价、issue 讨论或持续使用记录，无法判断目标用户是否把它留在日常陪伴流程里，关注度不等于采用。
+    evidence_ids:
+    - ev-9ab57c01a9d166e3
+    - ev-c44023eee3b3bf52
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料没有定价页、付费主体或采购记录，钱可能来自捐赠、后续增值或纯自用，属判断而非已验证事实；买方不清不否定需求本身。
+    evidence_ids:
+    - ev-9ab57c01a9d166e3
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句功能描述，没有部署文档、可复现安装步骤或记忆与克隆效果实测，交付能否稳定发生、本地克隆的安全与授权边界均未核验。
+    evidence_ids:
+    - ev-9ab57c01a9d166e3
+    - ev-a4b3f9f5f7210bdb
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认是否公开可复现的安装部署步骤、长期记忆与本地声音克隆的实际效果说明及用户使用反馈。
+  market: ''
+  job: 个人用户在 Windows 桌面上想要一个能记住过往对话、用自己克隆的声音回应的陪伴对象时，安装并配置这个开源项目，把长期记忆、本地声音克隆和可选 WSL2 数字人串起来，获得可持续对话的桌面伴侣。
+  job_en: A Windows user who wants a companion that remembers past conversations and replies in a cloned
+    voice installs and configures this open-source project, wiring long-term memory, local voice cloning
+    and an optional WSL2 digital human into a persistent desktop companion.
+  pain: 通用聊天助手每次会话重置、记不住用户历史，声音也不是用户想要的音色，用户要么反复重述背景，要么接受一个没有连续性的对话对象；公开材料只说明产品具备长期记忆与本地克隆能力，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Generic chat assistants reset each session and forget the user's history, and their voice is
+    not the timbre the user wants, so the user either repeats context or accepts a companion with no continuity;
+    public materials only show the product has long-term memory and local cloning, with no user complaints
+    or frequency data, so pain intensity is a workflow-structure inference.
+  current_alternative: 现有替代是通用大模型聊天客户端、云端 AI 陪伴类应用，或用户自己拼装记忆插件与 TTS 脚本；这些方案要么记忆不持久、要么声音克隆需上传云端，公开材料未说明用户具体如何绕过。
+  current_alternative_en: Current alternatives are general LLM chat clients, cloud AI-companion apps,
+    or self-assembled memory plugins plus TTS scripts; these either lose memory or require uploading voice
+    to the cloud, and public materials do not show exactly how users work around it.
+  usage_reason: 推断：相较通用聊天客户端每次重述背景、云端陪伴应用把声音上传，这个项目把长期记忆与本地声音克隆放在同一 Windows 安装流程里，用户少一步自行拼接记忆与 TTS 的配置负担，并让音色与历史留在本机，因此在意隐私且想要连续对话音色的
+    Windows 用户会在自建陪伴场景下选择它。
+  usage_reason_en: 'Inference: versus re-explaining context in a general chat client or uploading voice
+    to a cloud companion app, this project puts long-term memory and local voice cloning into one Windows
+    install flow, removing the step of stitching memory and TTS together and keeping timbre and history
+    on-device, so privacy-minded Windows users wanting a continuous voiced companion would pick it for
+    a self-hosted setup.'

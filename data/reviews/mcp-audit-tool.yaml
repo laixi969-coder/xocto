@@ -403,3 +403,57 @@
     with SARIF output that plugs into CI, turning a manual pre-adoption check into a fixed pipeline step;
     teams that care about agent privilege boundaries and need repeatable audit records are therefore more
     likely to pick it. This is an inference from product capability and task structure, not confi
+- id: req-full-mcp-audit-tool-2026-10-07
+  project_slug: mcp-audit-tool
+  level: full
+  reviewed_at: '2026-10-07T02:02:48Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是第三方 MCP 服务器接入 AI 代理前缺少自动化安全检查的问题：工具投毒、rug pull、硬编码密钥、命令注入与供应链风险一旦放行即随代理权限生效，不检查的后果是权限被滥用。当前替代是人工读配置与仓库，交付物为
+      SARIF 报告，输入—动作—交付闭环清晰，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-a55ea1266c997bad
+    - ev-437d0fbd835a84e6
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏数在 2026-09-26 至 10-07 的多次采集间从 53 升至 126，说明有持续的关注与使用意愿信号；但公开材料没有 issue、discussion 或客户案例说明谁在何种场景长期使用，因此只能判断关注度成立，不能判断已进入稳定工作流。
+    evidence_ids:
+    - ev-5022dff96b66287a
+    - ev-437d0fbd835a84e6
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与收藏数，没有定价页、付费客户、采购记录或赞助信息，无法判断收入来自 to B 安全预算、to C 开发者订阅还是纯开源维护；这是判断而非已验证事实，不因此否定需求本身。
+    evidence_ids:
+    - ev-a55ea1266c997bad
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺扫描工具投毒、rug pull、命令注入等风险并输出 SARIF，但公开材料没有规则覆盖范围、误报率、可复现测试或人工复核边界的说明，无法确认检测结果能否稳定交付、以及放行决策是否仍完全依赖人工。
+    evidence_ids:
+    - ev-a55ea1266c997bad
+    - ev-19efcb6b40a43b94
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认其检测规则覆盖范围、误报反馈与是否有团队在 CI 中实际部署使用。
+  market: ''
+  job: 安全工程师或平台工程师在把第三方 MCP 服务器接入自家 AI 代理之前，打开这个 CLI，让它读取代理的 MCP 配置文件，扫描工具投毒、rug pull、硬编码密钥、命令注入与依赖供应链风险，产出可接入
+    CI 的 SARIF 报告，再由人工决定是否放行。
+  job_en: A security or platform engineer, before wiring a third-party MCP server into their AI agent,
+    runs this CLI to read the agent's MCP config, scan for tool poisoning, rug pulls, hardcoded secrets,
+    command injection and supply-chain risk, and produce a CI-ready SARIF report, then decides manually
+    whether to approve.
+  pain: MCP 服务器以配置文件形式直接进入代理的工具调用链，工具描述可被投毒、依赖可被替换、密钥可能硬编码，一旦放行即获得代理权限；公开材料未给出事故频率或损失金额，但接入前缺少可自动化的检查环节是结构上可识别的缺口。
+  pain_en: MCP servers enter the agent's tool-calling chain through config files; tool descriptions can
+    be poisoned, dependencies swapped, secrets hardcoded, and once approved the server gains agent privileges.
+    Public material gives no incident frequency or loss figure, but the absence of an automatable pre-adoption
+    check is a structurally identifiable gap.
+  current_alternative: 公开材料未说明现有替代做法；按工作流推断，团队目前依赖人工阅读 MCP 配置与第三方仓库、凭经验判断，或干脆不做接入前审查，把风险留到运行期。
+  current_alternative_en: Public material does not state the current alternative; by workflow inference
+    teams today read MCP configs and third-party repos manually, judge by experience, or skip pre-adoption
+    review and absorb the risk at runtime.
+  usage_reason: 推断：相较人工逐份阅读配置与仓库，该工具用一条命令完成配置解析与规则匹配，并直接输出 SARIF 接入 CI，把“每次接入前手工检查”压缩为流水线中的一次自动扫描，因此会在需要批量接入或持续集成
+    MCP 服务器的安全与平台团队中被选用；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manually reading each config and repo, the tool parses configs and
+    matches rules in one command and emits SARIF for CI, turning per-adoption manual review into one automated
+    scan in the pipeline; that is why security and platform teams onboarding MCP servers at scale or in
+    CI would pick it. Public material has no user feedback confirming this motive.'

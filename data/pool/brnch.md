@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/brnch
 summary: Modern code hosting for the agent era
 first_seen: '2026-10-05T15:30:20Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

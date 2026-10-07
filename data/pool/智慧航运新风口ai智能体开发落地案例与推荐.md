@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTFBRTmFwcVU2U2p2
 summary: 智慧航运新风口：AI智能体开发落地案例与推荐 财富号
 first_seen: '2026-10-06T23:03:00Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

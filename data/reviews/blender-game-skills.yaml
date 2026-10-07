@@ -218,3 +218,48 @@
   usage_reason_en: 'Inference: it converts concept art directly into rigged assets and checks them against
     references, skipping the from-scratch modeling and rigging start, so indie teams or outsourcing artists
     may pick it when rushing assets; no retention or repeat-use evidence yet.'
+- id: req-full-blender-game-skills-2026-10-07
+  project_slug: blender-game-skills
+  level: full
+  reviewed_at: '2026-10-07T02:00:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决概念图到可用绑定资产的手工建模与绑定痛点，旧流程、输入与交付可还原，属工作流结构推理；谁付钱未披露。
+    evidence_ids:
+    - ev-a2dfc8bd420b94f1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 120 缓慢升至 130，仅说明早期关注度，无 issue、评价或采用案例证明持续使用。
+    evidence_ids:
+    - ev-a2dfc8bd420b94f1
+    - ev-afb17249aedb0936
+  - gate: model
+    status: insufficient
+    reason: 开源仓库，公开材料未披露定价、付费路径或买方，to C 或 to B 均属判断而非已验证事实。
+    evidence_ids:
+    - ev-a2dfc8bd420b94f1
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成资产是否需人工修整、骨骼与拓扑能否直接进引擎，交付确定性无法核对。
+    evidence_ids:
+    - ev-a2dfc8bd420b94f1
+  next_validation: 追踪该仓库的 issue 与 discussion，确认生成资产在实际项目中是否需要大量人工修整、能否直接进引擎。
+  market: ''
+  job: 游戏美术或独立开发者在 Blender 中拿到概念图后，需要产出带骨骼、可直接导入引擎的 3D 资产，并让成品与参考图保持一致。
+  job_en: A game artist or indie developer with concept art in Blender needs to produce rigged 3D assets
+    that can be imported straight into an engine while keeping the result consistent with the reference
+    art.
+  pain: 从概念图到可用的绑定资产通常要手工建模、拓扑与绑定，步骤重复且耗时；小团队与外包美术在赶资产时最容易被这一步卡住。
+  pain_en: Going from concept art to a usable rigged asset usually requires manual modeling, retopology
+    and rigging, which is repetitive and slow; small teams and outsourcing artists are most easily bottlenecked
+    at this step when rushing assets.
+  current_alternative: 旧做法是美术在 Blender 里手工建模与绑定，或先用通用生成工具出模型再人工修整拓扑与骨骼。
+  current_alternative_en: The old way is manual modeling and rigging in Blender, or using generic generation
+    tools to get a model and then manually fixing topology and rigging.
+  usage_reason: 推断：它把概念图直接转成带骨骼的资产并按参考图比对，省去从零建模与绑定的起步步骤，因此独立游戏团队或外包美术在赶资产时可能选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it converts concept art directly into rigged assets and checks them against
+    references, skipping the from-scratch modeling and rigging start, so indie teams or outsourcing artists
+    may pick it when rushing assets; no retention or repeat-use evidence yet.'

@@ -447,3 +447,57 @@
     cycling keywords and opening files one by one; unlike dumping the whole repo into an agent, it narrows
     candidate files first, so maintainers of repos where names diverge from behavior, and users who must
     feed agents accurate context, would choose it in that situation. Public material only gives a '
+- id: req-full-jevgrep-2026-10-07
+  project_slug: jevgrep
+  level: full
+  reviewed_at: '2026-10-07T02:02:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是“只记得行为、不记得命名时如何在陌生代码库定位相关源码”这一需求，痛点是关键词检索在命名与行为不一致时漏检、需反复试词并逐文件阅读；公开材料给出按行为检索、返回带行号源码片段及约
+      $0.000427/次的查询成本，交付物明确，属工作流结构推理。
+    evidence_ids:
+    - ev-31ea4dc0e049bb36
+    - ev-f8a4cec79408a359
+    - ev-c654a866f30dfc99
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示 2,351 个收藏，说明开发者已注意到该工具，但收藏属关注度证据，不能证明目标用户持续使用或已把它留在日常工作流中；缺少 issue、discussion 或使用反馈佐证。
+    evidence_ids:
+    - ev-ec3370ebd904fd10
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出模型调用成本约 $0.000427/次，未见产品自身定价页、付费主体或采购记录；谁付钱、按什么计费仍是判断而非已验证事实，属模式缺口而非需求不存在。
+    evidence_ids:
+    - ev-f8a4cec79408a359
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺返回候选文件与精确代码位置，是否采纳仍由人工判断，边界表述清楚；但缺少可复现的检索准确率、失败案例或部署文档，交付确定性尚未被公开证据核验。
+    evidence_ids:
+    - ev-c654a866f30dfc99
+  next_validation: 追踪 jevgrep 官方仓库的 issue 与 discussion，确认是否有用户报告在真实仓库中按行为检索的命中与漏检情况，以及是否出现付费或团队部署记录。
+  market: ''
+  job: 软件工程师或编码智能体使用者在接手不熟悉的代码库、需要修改某个具体行为时，用自然语言描述“这段代码做什么”，让 jevgrep 通过 CLI 或 MCP 返回相关文件、带行号的源码片段，再据此决定改哪里或把上下文交给编码智能体。
+  job_en: A software engineer or coding-agent user working in an unfamiliar codebase who needs to change
+    a specific behavior describes in natural language what the code does, and jevgrep returns relevant
+    files and line-numbered source excerpts via CLI or MCP, so they can decide where to edit or hand context
+    to a coding agent.
+  pain: 公开材料显示其定位是“按行为找代码”，替代的是关键词 grep 与人工翻文件：当工程师只记得行为、不记得函数名或文件名时，关键词检索会漏掉命名无关的实现，需要反复试词、逐文件阅读，才能定位到真正相关的源码位置。
+  pain_en: 'Public materials position it as finding code by behavior, replacing keyword grep and manual
+    file reading: when an engineer remembers the behavior but not the function or file name, keyword search
+    misses implementations whose naming is unrelated, forcing repeated query rewording and file-by-file
+    reading to locate the relevant source.'
+  current_alternative: 当前替代方式是关键词 grep、IDE 全局搜索、依赖记忆或同事指路，以及把整个仓库或大段文件塞给编码智能体让其自行摸索；这些做法在命名与行为不一致时命中率低，且上下文成本高。
+  current_alternative_en: The current alternative is keyword grep, IDE global search, relying on memory
+    or a colleague's pointer, or dumping the whole repo or large files into a coding agent and letting
+    it explore; these approaches miss matches when naming diverges from behavior and carry high context
+    cost.
+  usage_reason: 推断：相较关键词检索，jevgrep 让用户直接以行为描述作为查询，返回带行号的精确源码片段，从而省去反复换关键词和逐文件通读这一步；公开材料还给出 40 次查询、平均每次约
+    $0.000427 的模型成本，说明单次查找的调用成本可核对。因此当工程师在陌生仓库里只记得行为、不记得命名时，会倾向选择它而不是继续试关键词。
+  usage_reason_en: 'Inference: versus keyword search, jevgrep lets users query directly with a behavior
+    description and returns exact line-numbered source excerpts, removing the step of repeatedly rewording
+    keywords and reading files one by one; public materials also report a mean model cost of about $0.000427
+    per lookup over a 40-query run, making per-lookup cost checkable. So an engineer in an unfamiliar
+    repo who remembers the behavior but not the naming is likely to choose it over continued k'

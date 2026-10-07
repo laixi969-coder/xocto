@@ -401,3 +401,52 @@
     the manual editing steps between raw footage and a publishable cut; talking-head/avatar creators producing
     at volume are more likely to choose it. This is an inference from product capability and workflow
     structure, not yet confirmed by user feedback.
+- id: req-full-seecut-2026-10-07
+  project_slug: seecut
+  level: full
+  reviewed_at: '2026-10-07T02:03:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播/数字人素材从原始录制到可发布短视频的粗剪、节奏切分与网感动效需求，痛点是重复机械的剪辑工时刚性消耗；公开仓库说明已还原输入—动作—交付闭环（原始口播→AI 精剪→成片或剪映分层草稿），属工作流结构推理，尚无用户评价佐证强度。
+    evidence_ids:
+    - ev-40e5fd991adc7e08
+    - ev-550031d6ad9b550c
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有 公开代码仓库 仓库收藏数从 191 增至 223，属关注度而非目标用户持续采用；没有 issue、discussion 或客户案例说明谁在何种场景实际使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-40e5fd991adc7e08
+    - ev-550031d6ad9b550c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费方式或买方类型，无法判断钱来自 to C 创作者、to B MCN 还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-40e5fd991adc7e08
+  - gate: truth
+    status: insufficient
+    reason: 仓库仅给出功能描述，未见识别精度、成片质量、失败率或人工介入边界的可复现证据，交付能否稳定发生尚不可核验。
+    evidence_ids:
+    - ev-40e5fd991adc7e08
+    - ev-550031d6ad9b550c
+  next_validation: 追踪 SeeCut 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有真实用户报告输入素材类型、成片质量与剪映草稿导出结果。
+  market: ''
+  job: 口播或数字人视频创作者、MCN 后期运营在拿到一段未经剪辑的口播/数字人原始素材后，需要把它变成可直接发布的网感短视频，或导出剪映分层草稿继续人工调整。
+  job_en: Talking-head or AI-avatar video creators and MCN post-production operators take a raw unedited
+    talking-head/avatar recording and must turn it into a publish-ready short video, or export a layered
+    CapCut draft for further manual editing.
+  pain: 口播素材的粗剪、节奏切分、停顿与口误剔除、字幕与网感动效是重复且耗时的机械环节；不解决则每条视频都要人工逐帧过一遍，产出速度受限于剪辑工时。
+  pain_en: Rough-cutting talking-head footage, pacing, removing pauses and slips, subtitling and adding
+    short-video motion effects are repetitive manual steps; leaving them unsolved forces frame-by-frame
+    human editing and caps output at editing labor hours.
+  current_alternative: 目前主要靠人工在剪映/Premiere 里逐条粗剪、手动加字幕与动效，或使用通用剪辑模板与字幕工具拼装。
+  current_alternative_en: Today this is done by hand in CapCut/Premiere with manual rough cuts, subtitles
+    and motion effects, or by assembling generic editing templates and caption tools.
+  usage_reason: 推断：相较人工逐条粗剪，SeeCut 把原始口播素材直接作为输入，由 AI 完成粗剪、节奏切分与网感动效，并可选导出剪映分层草稿，减少的是“从原始素材到可发布成片”这一段人工过片与手动加动效的负担；因此批量产出短口播的创作者和
+    MCN 后期会在素材量大、需要快速出片时选择它。
+  usage_reason_en: 'Inference: versus manual per-clip rough cutting, SeeCut takes the raw talking-head
+    footage as input and has AI perform the rough cut, pacing and motion effects, with an optional layered
+    CapCut draft export, removing the manual pass from raw footage to publishable cut; creators and MCN
+    post teams producing short talking-head videos at volume would choose it when they need fast turnaround.'

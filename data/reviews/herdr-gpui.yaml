@@ -564,3 +564,57 @@
     workspaces, Git worktrees and agent activity into one native view, removing the step of hunting window
     by window for status, so macOS developers running several agents would pick it when they need centralized
     monitoring; stars rising from 404 to 901 only shows attention, not sustained use.'
+- id: req-full-herdr-gpui-2026-10-07
+  project_slug: herdr-gpui
+  level: full
+  reviewed_at: '2026-10-07T02:02:12Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多编码 agent 并行时会话、worktree 与 agent 状态分散、需反复切换确认的需求，痛点在并行工作流中刚性；旧替代是终端复用器加手动 worktree 管理。公开材料仅产品说明与仓库，无用户口述，故为工作流结构推理，非量化验证。
+    evidence_ids:
+    - ev-3aa54ac2bd563d5b
+    - ev-adde55d9c0ed452c
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 417 增至 959，且客户端从仅 macOS 扩展到 macOS/Linux/Windows，说明有开发者持续关注并推动跨平台；但收藏与 star 只属关注度，不能证明持续使用或付费，公开材料无
+      issue、评价或采用案例。
+    evidence_ids:
+    - ev-3aa54ac2bd563d5b
+    - ev-adde55d9c0ed452c
+    - ev-ed3a1bf587f93239
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或商业模式，开源仓库本身不显示收入路径；谁付钱（个人开发者、团队还是 Herdr 商业方）无法从现有证据判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3aa54ac2bd563d5b
+  - gate: truth
+    status: insufficient
+    reason: 产品依赖本地 Herdr 守护进程，公开材料未说明守护进程的部署要求、agent 活动读取的权限边界与安全处理，也无部署文档或可复现实测，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-adde55d9c0ed452c
+  next_validation: 追踪 herdr-gpui 仓库的 README/部署文档与 issue、discussion，确认本地 Herdr 守护进程的安装要求、agent 活动读取权限边界，以及是否有用户报告实际部署与持续使用。
+  market: ''
+  job: 开发者在本地同时运行多个编码 agent（终端会话、workspace、Git worktree）时，打开这个 Rust/GPUI 原生客户端，通过本地 Herdr 守护进程集中查看与切换这些会话和
+    agent 活动，完成对多路并行编码任务的监控与调度。
+  job_en: While running multiple coding agents locally (terminal sessions, workspaces, Git worktrees),
+    a developer opens this Rust/GPUI native client to view and switch among those sessions and agent activity
+    through the local Herdr daemon, monitoring and coordinating parallel coding tasks.
+  pain: 多 agent 并行时，会话、worktree 与 agent 状态分散在多个终端窗口和目录里，开发者需要反复切换、逐个确认哪个 agent 在跑、卡在哪一步，上下文容易丢失；公开材料未给出频率与不采用代价的量化数据，此判断为工作流结构推理。
+  pain_en: With parallel agents, sessions, worktrees and agent states scatter across terminal windows
+    and directories, forcing repeated switching and manual checking of which agent is running and where
+    it stalled, with context easily lost; public materials give no quantified frequency or cost, so this
+    is workflow-structural inference.
+  current_alternative: 旧做法是直接开多个终端标签/分屏，或用 tmux、iTerm 等终端复用器加 git worktree 命令手动管理，靠记忆和窗口标题区分各 agent 会话。
+  current_alternative_en: The old way is opening multiple terminal tabs/panes, or using tmux/iTerm-style
+    multiplexers plus manual git worktree commands, distinguishing agent sessions by memory and window
+    titles.
+  usage_reason: 相较终端复用器只能给原始 shell 输出，该客户端把 Herdr 守护进程里的会话、workspace、worktree 与 agent 活动汇总成一个可切换的原生界面，减少在多个窗口间来回查找、确认
+    agent 状态这一步负担；推断经常并行跑多个编码 agent 的 macOS 开发者会因此选择它，但公开材料尚无用户反馈或留存证据支持这一动机。
+  usage_reason_en: Unlike multiplexers that only surface raw shell output, this client aggregates sessions,
+    workspaces, worktrees and agent activity from the Herdr daemon into one switchable native UI, cutting
+    the step of hunting across windows to confirm agent state; inferred that macOS developers running
+    several coding agents in parallel would choose it, though no public user feedback or retention evidence
+    yet supports the motive.

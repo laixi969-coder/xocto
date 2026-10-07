@@ -436,3 +436,53 @@
     cutting the burden of switching tools and assembling evidence afterwards, so verification users who
     must justify conclusions may choose it when handling photos of unknown origin; this is an inference
     from product capability, not yet supported by user feedback.
+- id: req-full-geo-sleuth-2026-10-07
+  project_slug: geo-sleuth
+  level: full
+  reviewed_at: '2026-10-07T02:02:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决来源不明照片的定位任务，痛点是人工多工具比对耗时且推理难交代，旧替代行为明确存在，交付物为带推理依据的地点结论，结构上成立；谁付钱未在公开材料中说明。
+    evidence_ids:
+    - ev-c2e9012a585cef13
+    - ev-36b70168372a63d4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 574 增至 800 只反映开源关注度，未见媒体、保险或情报机构的采用、口碑或案例，无法判断行业共识是否形成。
+    evidence_ids:
+    - ev-c2e9012a585cef13
+    - ev-bb50878e6cf3c87f
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是媒体机构、保险公司或情报部门，属推断而非已验证事实；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2f9170f3dad38bff
+    - ev-7006c4fe53e2d91d
+  - gate: truth
+    status: insufficient
+    reason: 定位准确率、误判边界与人工复核要求均未公开，承诺能否确定性交付尚不可核对，安全与人工边界也未见说明。
+    evidence_ids:
+    - ev-5706a0fcf92121cb
+    - ev-36b70168372a63d4
+  next_validation: 追踪该仓库的 issue、discussion 或 README 使用文档，确认是否有媒体、保险等机构用户报告实际定位案例、准确率或人工复核要求。
+  market: ''
+  job: 调查记者、开源情报分析人员或保险理赔调查员拿到一张来源不明的照片时，需要把照片中的地标、天际线、地形与卫星/街景材料交叉比对，得出一个可复核、可向编辑或客户交代的拍摄地点。
+  job_en: An investigative journalist, OSINT analyst or insurance claims investigator holding a photo
+    of unknown origin needs to cross-check its landmarks, skyline and terrain against satellite and street-view
+    material to reach a reviewable shooting location they can defend to an editor or client.
+  pain: 旧做法要在谷歌地图、OpenStreetMap、街景和地形图之间反复切换，凭经验判断天际线与地标，耗时长且推理过程难以复述给编辑或客户；不解决的后果是核查结论无法被采信或延误发布。
+  pain_en: The old way means switching repeatedly among Google Maps, OpenStreetMap, street view and terrain
+    maps and judging skylines and landmarks by experience, which is slow and hard to restate to an editor
+    or client; the cost of not solving it is an unverifiable conclusion or a delayed publication.
+  current_alternative: 人工在多个地图与街景工具间逐项比对，或在论坛、社群里请人帮忙辨认拍摄地点。
+  current_alternative_en: Manually comparing across multiple map and street-view tools, or asking people
+    on forums and communities to help identify the location.
+  usage_reason: 相较人工逐项比对，它把 OpenStreetMap 几何、海拔天际线、卫星影像与街景检索串成一条可复现的 agent 流程，并输出每一步推理依据，减少的是反复切换工具与事后整理证据这一步负担，因此需要向他人交代结论来源的核查类用户会在核实来源不明照片时选择它；这是基于产品能力的推断，尚无用户反馈或案例佐证。
+  usage_reason_en: Compared with manual item-by-item comparison, it chains OpenStreetMap geometry, elevation
+    skylines, satellite imagery and street-view lookups into a reproducible agent flow and outputs each
+    reasoning step, cutting the burden of switching tools and assembling evidence afterwards, so verification
+    users who must justify conclusions may choose it when checking a photo of unknown origin; this is
+    an inference from product capability, not yet supported by user feedback or cases.

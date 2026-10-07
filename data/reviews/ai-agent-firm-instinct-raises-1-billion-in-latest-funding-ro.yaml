@@ -1,0 +1,97 @@
+- id: req-initial-ai-agent-firm-instinct-raises-1-billion-in-latest-funding-ro-2026-10-07
+  project_slug: ai-agent-firm-instinct-raises-1-billion-in-latest-funding-ro
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决群聊信息零散、需要人工汇总的问题，但材料未给出具体使用者、输入材料与交付结果，痛点刚性无法判断。
+    evidence_ids:
+    - ev-49a57a2f569642b0
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资与产品方向报道，没有客户案例、用户评价或采用数据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-1b89439d6f3b182f
+    - ev-49a57a2f569642b0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，10 亿美元融资只说明资本关注，不能证明存在付费路径。
+    evidence_ids:
+    - ev-1b89439d6f3b182f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 agent 在群聊中的交付是否确定发生、人工边界如何设定，材料未涉及。
+    evidence_ids:
+    - ev-49a57a2f569642b0
+  next_validation: 收集 Instinct 官方产品页或定价页，确认其面向的具体用户、输入材料与交付形式。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，只能推断为群聊参与者希望把群内零散对话整理成可执行事项，但谁在什么情况下处理什么材料、要完成什么任务均未披露。
+  job_en: Public material does not identify the specific user or work step; it can only be inferred that
+    group-chat participants want scattered conversation turned into actionable items, but who handles
+    what material in which situation, and to what end, is undisclosed.
+  pain: 群聊信息分散、上下文易丢失，需要人工翻记录汇总；但材料未给出任何用户抱怨、替代行为或采用证据，痛点强度无法确认。
+  pain_en: Group-chat information is scattered and context is easily lost, requiring manual scrolling
+    and summarising; however, no user complaint, workaround or adoption evidence is given, so pain intensity
+    cannot be confirmed.
+  current_alternative: 公开材料未说明现有替代方式，按常识推断仍是人工翻聊天记录、手动记待办或另开文档，但这是推断，不是材料事实。
+  current_alternative_en: Public material does not state the current alternative; by common sense it is
+    likely manual scrolling, hand-written to-dos or a separate document, but this is inference, not a
+    stated fact.
+  usage_reason: 材料只给出融资与“把 agent 放进群聊”的方向，没有说明它相较人工翻记录减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何会选择它。
+  usage_reason_en: The material only gives funding and a direction of putting agents into group chats;
+    it does not say which manual step is reduced or which checkable result improves versus scrolling records,
+    so why users would choose it cannot be explained.
+- id: req-full-ai-agent-firm-instinct-raises-1-billion-in-latest-funding-ro-2026-10-07
+  project_slug: ai-agent-firm-instinct-raises-1-billion-in-latest-funding-ro
+  level: full
+  reviewed_at: '2026-10-07T02:00:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是个人任务分散在邮件、消息、屏幕、音频、位置等多个应用、需要人工搬运上下文的问题；不解决的后果是用户持续手动切换与复制，且跨应用代操作带来隐私与安全暴露。这是基于官网连接范围与
+      公开资料 报道的结构推理，尚无用户抱怨或采用数据。
+    evidence_ids:
+    - ev-9a033b8cd6d51b6d
+    - ev-1c1465b33aac9a67
+  - gate: consensus
+    status: insufficient
+    reason: 公开资料 报道称外界对 Instinct 议论集中在能力与隐私担忧，产品仍处私密访问；这属于关注度与风险讨论，没有客户案例、用户评价或采用数据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-1c1465b33aac9a67
+    - ev-42587d83b1a2d65b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方类型或收费方式，10 亿美元融资只说明资本关注；个人助手可能走 to C 订阅，但这是判断而非已验证事实，且存在依赖融资叙事的每日优鲜风险。
+    evidence_ids:
+    - ev-9a033b8cd6d51b6d
+  - gate: truth
+    status: challenged
+    reason: 它要读取邮件、消息、屏幕、音频与位置并代为操作，公开资料 已公开报道隐私与安全担忧；材料未说明权限边界、敏感数据如何处理、误操作由谁兜底，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-1c1465b33aac9a67
+    - ev-42587d83b1a2d65b
+  next_validation: 追踪 Instinct 官网的定价页与安全/隐私说明文档，确认其收费方式、数据权限边界与人工兜底机制。
+  market: ''
+  job: 使用手机与电脑处理日常事务的个人用户，在需要跨邮件、消息、屏幕、音频与位置等分散应用完成一件事时，通过短信或电话把任务交给一个已连接这些应用的助手，要它代为读取上下文并执行操作。
+  job_en: Individual users working across phone and computer, when a task spans email, messaging, screen,
+    audio and location, hand the task by text or call to an assistant already connected to those apps,
+    so it reads context and acts on their behalf.
+  pain: 公开材料指出它连接邮件、消息、屏幕、音频、位置等应用，说明用户当前要在多个应用间手动切换、复制上下文；公开资料 报道还提到隐私与安全担忧，说明这类跨应用代操作本身带敏感数据风险。但材料未给出用户抱怨、频率或损失的一手证据，痛点强度属结构推理。
+  pain_en: Public material says it connects to email, messaging, screen, audio and location, implying
+    users currently switch apps and copy context by hand; public reporting also reports privacy and security
+    concerns, showing cross-app acting carries sensitive-data risk. But no first-hand complaint, frequency
+    or loss evidence is given, so intensity is inferred.
+  current_alternative: 当前替代是用户自己在各应用间切换、手动复制粘贴上下文，或分别使用 ChatGPT、Gemini、Perplexity 等通用助手逐条提问。
+  current_alternative_en: The current alternative is switching apps and copy-pasting context manually,
+    or using general assistants such as ChatGPT, Gemini or Perplexity one query at a time.
+  usage_reason: 推断：相较通用助手需要用户自己搬运上下文，它已连接邮件、消息、屏幕、音频与位置，并沿用短信或电话这类既有界面，用户省去把材料整理进对话框这一步，因此不愿学新界面、又想让助手直接接触自己应用数据的个人用户会选它；目前仍为私密访问，无用户反馈证实动机。
+  usage_reason_en: 'Inference: versus general assistants that require users to carry context over, it
+    is already connected to email, messaging, screen, audio and location and reuses texting or calling,
+    saving the step of packaging material into a chat box, so individuals who want no new interface and
+    want the assistant to touch their app data would pick it; it is still in private access, so no user
+    feedback confirms the motive.'

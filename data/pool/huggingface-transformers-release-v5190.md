@@ -1,11 +1,16 @@
 ---
 slug: huggingface-transformers-release-v5190
-name: 'huggingface/transformers: Release v5.19.0'
+name: Hugging Face Transformers
 builder: huggingface
 category: ''
-summary_zh: ''
+summary_zh: 这是模型库的一次版本更新，不是独立产品：开发者升级到 v5.19.0 后，可直接在既有 Transformers 流程里加载 EmbeddingGemma 2，把文本、图像、音频、视频编码为同一向量空间，用于跨模态检索与分类；向量可截断到
+  512、256 维以降低存储与检索成本。具体下游应用与交付仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a version update to a model library, not a standalone product: after upgrading to
+  v5.19.0, developers can load EmbeddingGemma 2 inside existing Transformers pipelines and encode text,
+  images, audio and video into one shared vector space for cross-modal retrieval and classification; embeddings
+  can be truncated to 512 or 256 dimensions to cut storage and retrieval cost. Downstream applications
+  and delivery remain unverified.'
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -112,7 +117,7 @@ summary: "# Release v5.19.0\r\n\r\n\r\n## New Model additions\r\n\r\n### Embeddi
   \ [CB] \U0001F6A8 Little fixes before removing \"paged\" (#49069)"
 first_seen: '2026-10-06T16:39:23Z'
 last_seen: '2026-10-07T01:32:31Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -124,7 +129,7 @@ sightings:
   kind: news
 ---
 
-# huggingface/transformers: Release v5.19.0
+# Hugging Face Transformers
 
 # Release v5.19.0
 

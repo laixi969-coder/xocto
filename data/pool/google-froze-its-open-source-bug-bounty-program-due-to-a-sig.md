@@ -3,11 +3,12 @@ slug: google-froze-its-open-source-bug-bounty-program-due-to-a-sig
 name: Google
 builder: ''
 category: ''
-summary_zh: Google 因 AI 生成提交量显著上升而冻结其开源漏洞赏金计划，表明生成式 AI 正在改变安全研究提交的成本结构，可能迫使平台重新设计审核与激励机制。
+summary_zh: Google 于 2026 年 10 月因 AI 生成提交量显著上升而冻结其开源漏洞赏金计划，表明 AI 生成内容正在冲击依赖人工审核的安全协作流程，推高审核成本并可能改变漏洞赏金与开源安全生态的运作方式（推断）。
 inspiration: ''
-summary_en: Google froze its open-source bug bounty program due to a significant rise in AI-generated
-  submissions, indicating that generative AI is changing the cost structure of security research submissions
-  and may force platforms to redesign review and incentive mechanisms.
+summary_en: In October 2026, Google froze its open source bug bounty program due to a significant rise
+  in AI-generated submissions, indicating that AI-generated content is straining human-reviewed security
+  workflows, raising review costs and potentially reshaping bug bounty and open source security practices
+  (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +24,7 @@ canonical_url: https://techcrunch.com/2026/10/04/google-froze-its-open-source-bu
 summary: AI slop seems to be overwhelming bug bounty programs.
 first_seen: '2026-10-04T20:31:07Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

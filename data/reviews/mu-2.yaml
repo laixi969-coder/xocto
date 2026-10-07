@@ -86,3 +86,48 @@
     to classify routine calls and reserves large-model compute for reasoning steps, cutting token spend
     and wait time per task; teams that self-host and pay per use are more likely to choose it. Public
     material gives no cost or retention data.'
+- id: req-full-mu-2-2026-10-07
+  project_slug: mu-2
+  level: full
+  reviewed_at: '2026-10-07T02:02:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理调用成本与延迟随任务量上升的问题，痛点具体，旧做法是全部交给大模型或手工分流，结构上成立。
+    evidence_ids:
+    - ev-3cd3dbde586db1be
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从376增至404，属关注度而非持续采用证据，无法判断团队是否长期留在工作流里。
+    evidence_ids:
+    - ev-3cd3dbde586db1be
+    - ev-0f40cc6c2d9378c2
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、买方或收费方式，钱可能来自 to C 开发者或 to B 团队，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-3cd3dbde586db1be
+  - gate: truth
+    status: insufficient
+    reason: 分层调度能否稳定交付、小模型误判时如何回退，公开材料未说明，安全与人工边界仍待核验。
+    evidence_ids:
+    - ev-3cd3dbde586db1be
+  next_validation: 收集该仓库 README 或官方文档中关于分层调度失败回退与成本对比的说明，以及是否出现定价或付费入口。
+  market: ''
+  job: 软件工程师在本地或自托管环境里让编码代理修改代码库时，需要代理先判断哪些调用是常规操作、哪些需要大模型推理，再执行代码改动并返回结果，由开发者确认。
+  job_en: Software engineers running a coding agent locally or self-hosted need the agent to first classify
+    which calls are routine and which need large-model reasoning, then apply code changes and return results
+    for the developer to confirm.
+  pain: 编码代理若把每次调用都交给大模型，token 成本与延迟随任务量上升；开发者要么忍受慢和贵，要么手工拆分任务。
+  pain_en: If a coding agent sends every call to a large model, token cost and latency rise with task
+    volume; developers either tolerate slow, expensive runs or split tasks by hand.
+  current_alternative: 开发者目前多直接使用单一大型编码代理，或自己写脚本按规则分流调用，缺少现成的分层调度。
+  current_alternative_en: Developers currently use a single large coding agent directly, or write their
+    own scripts to route calls by rule, with no ready-made tiered scheduler.
+  usage_reason: 推断：相较全部交给大模型的旧做法，它先用小模型判定常规调用，把大模型算力留给需要推理的步骤，减少每次任务的 token 消耗与等待；自托管、按量付费的团队更可能选择它。公开材料未给出成本或留存数据。
+  usage_reason_en: 'Inference: compared with routing everything to a large model, it uses a small model
+    to classify routine calls and reserves large-model compute for reasoning steps, cutting token spend
+    and wait time per task; teams that self-host and pay per use are more likely to choose it. Public
+    material gives no cost or retention data.'

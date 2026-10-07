@@ -23,7 +23,7 @@ summary: Get all of your scaling and tech questions answered at TechCrunch Disru
   to $100, and get a second pass at 50% off.
 first_seen: '2026-10-06T14:00:00Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

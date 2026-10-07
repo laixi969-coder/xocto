@@ -226,3 +226,54 @@
     isolation and stitching logs, so developers who need to audit agent execution or reuse sessions across
     machines would pick it in that situation; the star count rising from 70 to 91 only shows attention,
     not sustained use.'
+- id: req-full-agentbox-2026-10-07
+  project_slug: agentbox
+  level: full
+  reviewed_at: '2026-10-07T02:00:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决命令行编码代理会话、容器、Git 改动与用量分散的问题，旧做法是手工终端加自写 Docker 脚本，痛点具体且不解决的后果可核对；这是工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-095a335215c1bdd2
+    - ev-261cebb81fbf9173
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 70 增至 108，属早期关注度，缺少 issue、discussion 或客户案例说明团队已把它放进日常工作流。
+    evidence_ids:
+    - ev-095a335215c1bdd2
+    - ev-4d1e243bfe17f91d
+    - ev-261cebb81fbf9173
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是自建环境的研发团队，这是判断而非已验证事实；公开材料也未说明是否提供托管或支持合同。
+    evidence_ids:
+    - ev-095a335215c1bdd2
+  - gate: truth
+    status: insufficient
+    reason: 自托管与容器隔离方向合理，但缺少部署文档、issue 讨论或可复现实测来确认会话隔离与用量记录能否稳定交付。
+    evidence_ids:
+    - ev-095a335215c1bdd2
+    - ev-bc4470794da20f00
+  next_validation: 追踪该仓库的 README/部署文档与 issue、discussion，确认容器会话隔离和用量记录是否可复现、是否有团队报告实际使用。
+  market: ''
+  job: 开发者在本地或服务器上运行 Claude Code、Codex CLI 等命令行编码代理时，需要同时管理多个容器会话、终端、文件改动、Git 状态和用量记录，并让环境可复用。
+  job_en: Developers running command-line coding agents such as Claude Code and Codex CLI locally or on
+    a server need to manage multiple container sessions, terminals, file changes, Git state and usage
+    records while keeping the environment reusable.
+  pain: 代理在裸终端里跑，会话、容器、Git 改动和用量分散，出问题难以回溯，换机器或换项目时环境要重搭；公开材料只给出功能清单，未提供用户抱怨或案例，痛点强度属工作流结构推理。
+  pain_en: Agents run in a bare terminal, so sessions, containers, Git changes and usage are scattered,
+    hard to trace when something breaks, and the environment must be rebuilt when switching machines or
+    projects; the public material only lists features, with no user complaints or cases, so pain intensity
+    is a workflow-structure inference.
+  current_alternative: 手工开终端、自己写 Docker 脚本、靠 shell 历史或零散日志记录，没有统一工作区。
+  current_alternative_en: Opening terminals by hand, writing ad-hoc Docker scripts, and relying on shell
+    history or scattered logs, with no unified workspace.
+  usage_reason: 推断：它把容器会话、终端、文件和 Git 收进同一个浏览器界面并附带用量记录，省去开发者自己搭隔离环境、拼日志这一步，因此需要审计代理执行过程或跨机器复用环境的小团队会在多会话场景下选择它；仓库星标从
+    70 增至 108 只说明关注度上升，不能证明持续使用。
+  usage_reason_en: 'Inference: it puts container sessions, terminal, files and Git into one browser interface
+    with usage records, removing the step of hand-building isolation and stitching logs, so small teams
+    that need to audit agent execution or reuse environments across machines would pick it for multi-session
+    work; stars rising from 70 to 108 only shows attention, not sustained use.'

@@ -3,30 +3,30 @@ slug: design-studio-ai
 name: design-studio-ai
 builder: bestagentkits
 category: AI + 创作
-summary_zh: 面向 AI 智能体与人类协作的开源设计工作区，提供云端编辑、3D、动效、MCP/WebMCP、CLI 与自带密钥（BYOK）能力，采用 MIT 许可。谁在什么节点打开它、AI 具体接收什么材料并产出什么交付，候选资料未给出具体流程，具体流程或交付仍待核验。
-inspiration: 趋势：设计工具开始把 AI 智能体当作一等使用者，而不只是给人加一个生成按钮。切入：可从设计外包与营销物料生产环节进入，把「人给智能体派活、智能体产出可编辑设计文件」做成按件交付的服务，而非卖席位；价格未披露，不做假设。
-summary_en: An open-source design workspace for collaboration between AI agents and humans, offering cloud
-  editing, 3D, motion, MCP/WebMCP, a CLI and bring-your-own-key, under an MIT license. The candidate material
-  does not specify who opens it at which step, what material the AI receives, or what deliverable it returns;
-  the concrete workflow and deliverable remain unverified.
-inspiration_en: 'Trend: design tools are starting to treat AI agents as first-class users rather than
-  adding a generate button for people. Entry: start from design outsourcing and marketing asset production,
-  selling per-deliverable output where a person assigns work to an agent that returns editable design
-  files, instead of selling seats; pricing is undisclosed and not assumed.'
+summary_zh: 设计师或前端开发者在需要产出可编辑的视觉与动效素材时，打开这个云端工作空间，把设计意图或素材交给内置的 AI agent，由它执行编辑、3D 与动效处理，最终交付可继续修改的设计文件；人类仍需在交付前确认结果。具体输入格式与交付物形态仍待核验。
+inspiration: 趋势：设计工具开始把 AI agent 当作一等使用者，接口层（MCP、CLI、自带密钥）成为新的竞争面。切入：可从独立设计工作室或电商视觉团队进入，替他们承接批量改版、多尺寸适配这类重复出图环节；卖法未披露，不宜假设。
+summary_en: When designers or front-end developers need editable visual and motion assets, they open this
+  cloud workspace, hand design intent or assets to the built-in AI agent, which performs editing, 3D and
+  motion work, and receive design files that can still be modified; humans still confirm before delivery.
+  The exact input formats and deliverable forms remain to be verified.
+inspiration_en: 'Trend: design tools are starting to treat AI agents as first-class users, making the
+  interface layer (MCP, CLI, bring-your-own-key) a new competitive surface. Entry: independent design
+  studios or e-commerce visual teams, taking over repetitive output steps such as batch revisions and
+  multi-size adaptation; pricing is undisclosed and should not be assumed.'
 priority_review: false
 project_type: open_source
 industries:
 - 设计服务
-- 软件与互联网服务
+- 软件与互联网
 industries_en:
-- Design Services
-- Software & Internet Services
+- Design services
+- Software and internet
 jobs:
-- 设计工具开发者
-- AI 智能体开发者
+- 设计师
+- 前端开发者
 jobs_en:
-- Design tool developers
-- AI agent developers
+- Designer
+- Front-end developer
 regions: []
 regions_en: []
 open_source: true
@@ -36,7 +36,7 @@ summary: Open-source design workspace for AI agents and humans. Cloud editing, 3
   CLI and BYOK. MIT.
 first_seen: '2026-09-07T15:51:21Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

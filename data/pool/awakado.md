@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/awakado
 summary: Keep your Mac awake while your AI agents work
 first_seen: '2026-10-03T07:11:38Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

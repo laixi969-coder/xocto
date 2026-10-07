@@ -1,0 +1,86 @@
+- id: req-initial-extrovert-2026-10-07
+  project_slug: extrovert
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决批量 LinkedIn 外联的任务，但公开材料只有一句定位，说不清旧流程耗时与不采用的后果，痛点强度无法判断。
+    evidence_ids:
+    - ev-87e65eb90e176e63
+  - gate: consensus
+    status: insufficient
+    reason: 除发布本身外没有关注、采用或社区讨论证据，无法判断是否有人真的把它放进外联流程。
+    evidence_ids:
+    - ev-87e65eb90e176e63
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-87e65eb90e176e63
+  - gate: truth
+    status: insufficient
+    reason: 未说明 agent 发送的账号权限、频控与人工确认边界，交付能否确定发生无法核验。
+    evidence_ids:
+    - ev-87e65eb90e176e63
+  next_validation: 收集 Extrovert 官方定价页或客户案例，确认其外联交付方式与付费路径。
+  market: ''
+  job: 销售开发代表或招聘顾问在需要批量触达 LinkedIn 潜在客户时，处理候选人名单或目标客户名单，要完成发出外联并拿到回复线索的任务。
+  job_en: A sales development rep or recruiting consultant reaching LinkedIn prospects at volume works
+    from a candidate or target-account list to send outreach and obtain reply leads.
+  pain: 公开材料只给出定位描述，未说明手动逐个搜索、撰写、发送私信具体耗时多少，也未说明不采用会失去什么，痛点强度无法从现有事实判断。
+  pain_en: The public material only gives a positioning statement; it does not say how long manual searching,
+    writing and messaging takes, nor what is lost without it, so pain intensity cannot be judged from
+    available facts.
+  current_alternative: 旧做法是人工在 LinkedIn 上逐个搜索、撰写并发送私信，或使用已有的外联自动化工具；候选未说明与这些做法的差异。
+  current_alternative_en: The old way is manually searching, writing and messaging on LinkedIn one by
+    one, or using existing outreach automation tools; the candidate does not explain the difference from
+    these.
+  usage_reason: 推断：若 agent 能直接接管搜索与发送动作，可省去逐条手动操作这一步，销售或招聘人员可能因此在需要批量外联时选择它；但缺少用户反馈、客户案例或重复使用证据，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if the agent directly takes over searching and sending, it removes the
+    step of manual item-by-item operation, so sales or recruiting staff might choose it for bulk outreach;
+    however, without user feedback, customer cases or repeat-use evidence, this motive cannot be confirmed.'
+- id: req-full-extrovert-2026-10-07
+  project_slug: extrovert
+  level: full
+  reviewed_at: '2026-10-07T02:01:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决批量 LinkedIn 外联的任务，但公开材料只有一句定位，且所引证据全部是词典与健康网站对“外向者”人格的解释，与产品无关，无法还原旧流程、痛点强度与不采用的后果。
+    evidence_ids:
+    - ev-7a2719d525051fa9
+    - ev-46790f1c61c3b51f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Extrovert 官网产品页与定价页，确认其 LinkedIn 外联的具体交付方式、人工确认环节与付费路径。
+  market: ''
+  job: 销售开发代表或招聘顾问在需要批量触达 LinkedIn 潜在客户时，处理目标客户名单或候选人名单，要完成发出外联并拿到回复线索的任务。
+  job_en: A sales development rep or recruiting consultant reaching LinkedIn prospects at volume works
+    from a target-account or candidate list to send outreach and obtain reply leads.
+  pain: 公开材料只有一句定位描述，没有任何关于手动逐个搜索、撰写、发送私信耗时或错失线索的公开事实，痛点强度无法判断。
+  pain_en: The public material contains only a one-line positioning statement, with no public facts about
+    the time cost of manual searching, writing and messaging, or about lost leads, so pain intensity cannot
+    be judged.
+  current_alternative: 旧做法是人工在 LinkedIn 上逐个搜索、撰写并发送私信，或使用已有的外联自动化工具；候选未说明与这些做法的差异。
+  current_alternative_en: The old way is manually searching, writing and messaging on LinkedIn one by
+    one, or using existing outreach automation tools; the candidate does not explain any difference from
+    these.
+  usage_reason: 推断：若 agent 能直接接管搜索与发送动作，可省去逐条手动操作这一步，销售或招聘人员可能因此在批量外联时选择它；但缺少用户反馈、客户案例或重复使用证据，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if the agent directly takes over searching and sending, it removes the
+    step of manual item-by-item operation, so sales or recruiting staff might choose it for bulk outreach;
+    however, without user feedback, customer cases or repeat-use evidence, this motive cannot be confirmed.'

@@ -1,0 +1,86 @@
+- id: req-initial-lecta-2026-10-07
+  project_slug: lecta
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复习材料枯燥、难以持续投入的问题，痛点具体；不解决的后果是复习拖延与浅层浏览，买方是学生本人或家长，公开材料未说明。
+    evidence_ids:
+    - ev-2a5f1c860de3e367
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，没有采用、留存或学校采购证据，无法判断共识。
+    evidence_ids:
+    - ev-2a5f1c860de3e367
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，钱可能来自学生订阅或学校采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2a5f1c860de3e367
+  - gate: truth
+    status: insufficient
+    reason: AI 生成内容与课程材料是否一致、是否需人工确认均未公开，交付确定性无法核对。
+    evidence_ids:
+    - ev-2a5f1c860de3e367
+  next_validation: 收集 Lecta 官方定价页或课程合作案例，确认计费方式与内容生成是否经人工确认。
+  market: ''
+  job: 备考或修课的学生，在复习课程材料时，处理讲义、笔记等学习资料，要完成把材料过一遍并记住要点。
+  job_en: A student preparing for exams or taking a course handles lecture notes and study material during
+    review, aiming to go through the material and retain the key points.
+  pain: 复习材料枯燥、篇幅长，学生难以持续投入，容易拖延或只做浅层浏览。
+  pain_en: Review material is dry and long, so students struggle to stay engaged and tend to procrastinate
+    or skim only superficially.
+  current_alternative: 自己看讲义和笔记、看录播课，或用通用聊天助手做摘要和问答。
+  current_alternative_en: Reading lecture notes and slides themselves, watching recorded lectures, or
+    using a general chat assistant for summaries and questions.
+  usage_reason: 相较逐页读讲义，它把材料切成短视频和游戏式片段，减少学生自己组织复习节奏这一步，因此自制力弱、需要外部节奏的学生会在复习时选择它；这是基于产品形态的推断，尚无用户反馈支持。
+  usage_reason_en: Compared with reading slides page by page, it cuts material into short videos and game-like
+    segments, removing the step where students organise their own review rhythm, so students with weak
+    self-discipline who need external pacing would pick it for review; this is an inference from product
+    form, not supported by user feedback yet.
+- id: req-full-lecta-2026-10-07
+  project_slug: lecta
+  level: full
+  reviewed_at: '2026-10-07T02:02:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复习材料枯燥、难以持续投入的问题，痛点具体；不解决的后果是复习拖延与浅层浏览，买方是学生本人或家长，公开材料未说明。
+    evidence_ids:
+    - ev-2a5f1c860de3e367
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，没有采用、留存或学校采购证据，无法判断共识。
+    evidence_ids:
+    - ev-2a5f1c860de3e367
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，钱可能来自学生订阅或学校采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2a5f1c860de3e367
+  - gate: truth
+    status: insufficient
+    reason: AI 生成内容与课程材料是否一致、是否需人工确认均未公开，交付确定性无法核对。
+    evidence_ids:
+    - ev-2a5f1c860de3e367
+  next_validation: 收集 Lecta 官方定价页或课程合作案例，确认计费方式与内容生成是否经人工确认。
+  market: ''
+  job: 备考或修课的学生，在复习课程材料时，处理讲义、笔记等学习资料，要完成把材料过一遍并记住要点。
+  job_en: A student preparing for exams or taking a course handles lecture notes and study material during
+    review, aiming to go through the material and retain the key points.
+  pain: 复习材料枯燥、篇幅长，学生难以持续投入，容易拖延或只做浅层浏览。
+  pain_en: Review material is dry and long, so students struggle to stay engaged and tend to procrastinate
+    or skim only superficially.
+  current_alternative: 自己看讲义和笔记、看录播课，或用通用聊天助手做摘要和问答。
+  current_alternative_en: Reading lecture notes and slides themselves, watching recorded lectures, or
+    using a general chat assistant for summaries and questions.
+  usage_reason: 相较逐页读讲义，它把材料切成短视频和游戏式片段，减少学生自己组织复习节奏这一步，因此自制力弱、需要外部节奏的学生会在复习时选择它；这是基于产品形态的推断，尚无用户反馈支持。
+  usage_reason_en: Compared with reading slides page by page, it cuts material into short videos and game-like
+    segments, removing the step where students organise their own review rhythm, so students with weak
+    self-discipline who need external pacing would pick it for review; this is an inference from product
+    form, not supported by user feedback yet.

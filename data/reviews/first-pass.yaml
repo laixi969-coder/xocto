@@ -406,3 +406,52 @@
     fixed steps—blast-radius questions, review by a non-author role, and required proof of completion—reducing
     the missed-check step of merging a change because it looks right; engineers who care about AI-change
     blast radius but do not want to hand-build a review process each time may adopt it.'
+- id: req-full-first-pass-2026-10-07
+  project_slug: first-pass
+  level: full
+  reviewed_at: '2026-10-07T02:01:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 AI 写码后审查只覆盖改动行、缺影响面追问与独立复核的问题，痛点落在提交前这一步，不采用则漏检风险由人承担；公开仓库说明已给出输入、动作与交付闭环，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-468890cd20bc8490
+    - ev-401cd16baae82b38
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 80 增至 111，说明开发者社区持续关注，但收藏与增长只属关注度证据，不能证明目标用户已把它留在提交前工作流里；缺少 issue、discussion 或使用反馈。
+    evidence_ids:
+    - ev-468890cd20bc8490
+    - ev-401cd16baae82b38
+  - gate: model
+    status: insufficient
+    reason: 这是开源规则集，公开材料未见定价页、付费主体或 to B/to C 采购路径；谁付钱只能推断为个人开发者或团队自建，属判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-468890cd20bc8490
+  - gate: truth
+    status: insufficient
+    reason: 规则集承诺“证据后才算完成”，但公开材料未展示可复现的交付结果、误报率或人工与安全边界，能否确定性交付仍缺公开验证。
+    evidence_ids:
+    - ev-468890cd20bc8490
+    - ev-401cd16baae82b38
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有团队在提交前流程中实际部署这套规则并给出使用反馈。
+  market: ''
+  job: 使用 Claude Code 的软件工程师在提交改动前，把这次 diff 交给这套规则集：先回答十个关于改动影响范围的问题，再由未参与编写的审查角色复核，并给出完成证据后才算结束，最终是否合并仍由人确认。
+  job_en: 'A software engineer using Claude Code, before committing a change, hands the diff to this rule
+    set: it answers ten questions about the change''s blast radius, a reviewer that did not write the
+    code re-checks it, and completion requires proof; the human still decides whether to merge.'
+  pain: 公开说明指向的痛点是 AI 生成的改动只被看它写的那几行、缺少对影响范围的追问、缺少独立复核、缺少完成证据，导致审查者要自己补做这些检查，漏检风险落在提交前这一步。
+  pain_en: The stated pain is that AI-written changes get reviewed only at the lines written, without
+    blast-radius questioning, independent review, or proof of completion, so the human must reconstruct
+    those checks before commit and missed issues land there.
+  current_alternative: 当前替代是人工逐行读 diff、口头约定审查规范、或依赖 Claude Code 自身默认行为，没有把“先问影响范围、由非作者复核、给出证据”固化成可重复的流程。
+  current_alternative_en: Today the alternative is reading the diff line by line, relying on informal
+    review conventions, or trusting Claude Code's default behavior, with no repeatable process that forces
+    blast-radius questions, non-author review, and proof.
+  usage_reason: 推断：相较逐行人工读 diff，这套规则把检查动作前置到写码之前并强制非作者复核与证据输出，减少审查者事后补做影响面排查这一步；关注该仓库的工程师在提交前需要可核对审查记录时会选择它，但公开材料未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: versus line-by-line manual diff reading, the rules move checks before coding
+    and force non-author review plus proof output, removing the reviewer''s after-the-fact blast-radius
+    reconstruction; engineers watching this repo would pick it when they need a checkable review record
+    before commit, though no public user feedback or retention evidence exists.'

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/chunk-2
 summary: The time-blocking app for macOS
 first_seen: '2026-10-05T22:42:56Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -1,0 +1,89 @@
+- id: req-initial-comparablesai-secures-6m-seed-to-scale-its-ai-platform-for-d-2026-10-07
+  project_slug: comparablesai-secures-6m-seed-to-scale-its-ai-platform-for-d
+  level: initial
+  reviewed_at: '2026-10-07T01:32:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决估值与尽调中可比公司检索耗时、易漏的问题，旧行为是人工翻查数据库，痛点刚性且交付可核对；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-cd8378df6f7adf3b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户采用、评价或行业共识证据，无法判断交易人员是否已把它纳入日常流程。
+    evidence_ids:
+    - ev-cd8378df6f7adf3b
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价、计费方式或付费客户，收入来自 to B 订阅还是按项目收费属推断，尚无已验证事实。
+    evidence_ids:
+    - ev-cd8378df6f7adf3b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对可比公司口径是否贴近估值第一性目标，也未见人工复核边界与数据来源说明。
+    evidence_ids:
+    - ev-cd8378df6f7adf3b
+  next_validation: 收集 Comparables.ai 官方定价页或公开客户案例，确认计费方式与实际使用方。
+  market: ''
+  job: 投行或私募分析师在准备估值与尽调材料时，需要从财报、公告和交易记录中找出可比公司并整理成对照表，供交易决策使用。
+  job_en: An investment banking or private equity analyst preparing valuation and diligence materials
+    must find comparable companies in filings, announcements and deal records and turn them into a comparison
+    table for deal decisions.
+  pain: 可比公司检索依赖人工翻查多个数据源，耗时且容易漏掉近期交易，直接影响估值结论的可信度。
+  pain_en: Comparable-company research relies on manual searching across several data sources, which is
+    slow and easily misses recent deals, directly weakening the credibility of the valuation conclusion.
+  current_alternative: 目前多由分析师手工检索公开数据库与财报，或购买传统金融数据终端后自行整理。
+  current_alternative_en: Today analysts mostly search public databases and filings by hand, or buy traditional
+    financial data terminals and compile the output themselves.
+  usage_reason: 推断：相较手工翻查，它把检索与初步比对合并为一次输出，减少分析师在数据源之间来回切换的步骤，因此时间紧、可比公司口径要求一致的交易团队会优先试用；但公开材料未提供客户案例或留存证据。
+  usage_reason_en: 'Inference: versus manual searching, it merges retrieval and first-pass comparison
+    into one output, cutting the steps analysts spend switching between data sources, so deal teams under
+    time pressure and needing consistent comparable sets would try it first; public material offers no
+    customer case or retention evidence.'
+- id: req-full-comparablesai-secures-6m-seed-to-scale-its-ai-platform-for-d-2026-10-07
+  project_slug: comparablesai-secures-6m-seed-to-scale-its-ai-platform-for-d
+  level: full
+  reviewed_at: '2026-10-07T02:01:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决估值与尽调中可比公司检索耗时、易漏近期交易的问题，旧行为是人工翻查财报与交易数据库，痛点刚性且交付可核对；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-cd8378df6f7adf3b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户采用、评价或行业共识证据，无法判断交易人员是否已把它纳入日常估值流程。
+    evidence_ids:
+    - ev-cd8378df6f7adf3b
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价、计费方式或付费客户，收入来自 to B 订阅还是按项目收费属推断，尚无已验证事实。
+    evidence_ids:
+    - ev-cd8378df6f7adf3b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对可比公司口径是否贴近估值第一性目标，也未见数据来源说明与人工复核边界。
+    evidence_ids:
+    - ev-cd8378df6f7adf3b
+  next_validation: 追踪 Comparables.ai 官网定价页或公开客户案例，确认计费方式与实际使用方。
+  market: ''
+  job: 投行、私募或企业并购团队的分析师在做估值与尽调时，需要从财报、公告和交易数据库中找出可比公司，整理成可核对的对照表，供交易决策使用。
+  job_en: Analysts at investment banking, private equity or corporate M&A teams preparing valuation and
+    diligence must find comparable companies in filings, announcements and deal databases and turn them
+    into a checkable comparison table for deal decisions.
+  pain: 可比公司检索依赖人工翻查多个数据源，耗时且容易漏掉近期交易，直接影响估值结论的可信度与交付节奏。
+  pain_en: Comparable-company research relies on manual searching across several data sources, which is
+    slow and easily misses recent deals, directly weakening the credibility and delivery pace of the valuation
+    conclusion.
+  current_alternative: 目前多由分析师手工检索公开数据库与财报，或购买传统金融数据终端后自行整理成表。
+  current_alternative_en: Today analysts mostly search public databases and filings by hand, or buy traditional
+    financial data terminals and compile the tables themselves.
+  usage_reason: 推断：相较手工翻查，它把检索与初步比对合并为一次输出，减少分析师在多个数据源之间来回切换与重复摘录的步骤，因此时间紧、要求可比公司口径一致的交易团队会在估值与尽调阶段优先试用；公开材料未提供客户案例或留存证据。
+  usage_reason_en: 'Inference: versus manual searching, it merges retrieval and first-pass comparison
+    into one output, cutting the steps analysts spend switching between data sources and re-transcribing
+    figures, so deal teams under time pressure and needing a consistent comparable set would try it first
+    during valuation and diligence; public material offers no customer case or retention evidence.'

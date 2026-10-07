@@ -761,3 +761,42 @@
   usage_reason: 公开仓库有 43 个收藏，说明开发者注意到它，但缺少用户反馈或案例支持动机，无法判断是否会持续使用。
   usage_reason_en: The public repository has 43 stars, showing developer attention, but there is no user
     feedback or case evidence for motivation, so continued use cannot be judged.
+- id: req-full-adversarial-testing-skill-2026-10-07
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-10-07T02:00:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让两个 AI 对打完成产品对抗性测试，但公开材料只有一句定位，既无用户痛点陈述，也无旧流程与不采用后果，连需求和痛点都还原不出，无法形成结构判断。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有真实用户描述旧测试流程、使用场景与结果反馈。
+  market: ''
+  job: 产品开发者或安全测试者在发布前，需要对自己的产品做对抗性安全测试，用一个读源码的 AI 与一个盲测攻击的 AI 对打，找出可被利用的漏洞。
+  job_en: Product developers or security testers, before release, need adversarial security testing of
+    their product by pitting a source-reading AI against a blind attacker AI to surface exploitable flaws.
+  pain: 公开材料只有一句产品定位，没有用户抱怨、旧流程描述或不采用后果，无法确认这项测试任务当前有多痛、多久发生一次。
+  pain_en: Public material offers only a one-line positioning statement, with no user complaints, legacy
+    workflow description, or consequence of not solving it, so the intensity and frequency of this testing
+    pain cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前如何做对抗性测试，是人工渗透测试、自动化扫描器还是直接调用大模型，替代路径不明。
+  current_alternative_en: Public material does not show how users currently run adversarial testing, whether
+    manual pen-testing, automated scanners, or direct LLM calls, so the substitute path is unclear.
+  usage_reason: 公开仓库有 43 个收藏，说明开发者注意到它；但没有任何用户反馈或案例说明它相较旧做法省掉了哪一步，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: The public repository has 43 stars, showing developer attention; but no user feedback
+    or case shows which step it removes versus the old approach, so which users would choose it and when
+    cannot be judged.

@@ -1,6 +1,6 @@
 ---
 slug: godaddy-simplifies-web-app-deployment-with-new-nodejs-hostin
-name: GoDaddy simplifies web app deployment with new Node.js hosting offering
+name: GoDaddy
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxORWRES0cxRVdJ
 summary: GoDaddy simplifies web app deployment with new Node.js hosting offering varindia
 first_seen: '2026-10-06T06:46:25Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# GoDaddy simplifies web app deployment with new Node.js hosting offering
+# GoDaddy
 
 GoDaddy simplifies web app deployment with new Node.js hosting offering varindia
 

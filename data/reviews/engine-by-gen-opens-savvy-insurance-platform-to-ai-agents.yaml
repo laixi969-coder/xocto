@@ -1,0 +1,88 @@
+- id: req-initial-engine-by-gen-opens-savvy-insurance-platform-to-ai-agents-2026-10-07
+  project_slug: engine-by-gen-opens-savvy-insurance-platform-to-ai-agents
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决保险比价与投保流程的自动化，但材料未说明原先哪一步最痛、不采用会失去什么，价值结构无法还原。
+    evidence_ids:
+    - ev-e4e519792ebafea5
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条开放平台的报道，没有经纪、代理或投保人层面的采用与场景证据。
+    evidence_ids:
+    - ev-e4e519792ebafea5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从经纪机构、平台还是保险公司来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e4e519792ebafea5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理可执行动作的边界、合规要求与人工确认环节，交付确定性未知。
+    evidence_ids:
+    - ev-e4e519792ebafea5
+  next_validation: 收集 Engine by Gen 官方关于 Savvy 面向 AI 代理开放的开发者文档或公告，确认可调用动作范围、接入条件与是否有人工确认环节。
+  market: ''
+  job: 保险经纪或代理在为客户比价、选品并完成投保时，需要跨多个保险平台查询条款与报价并填写投保材料，最终产出可提交的投保方案。
+  job_en: When comparing products and completing cover for clients, insurance brokers or agents must query
+    terms and quotes across several insurance platforms and fill in application materials, ending with
+    a submittable policy proposal.
+  pain: 候选只说明平台向 AI 代理开放，未说明原先哪一步最耗时、出错或成本高，痛点无法从材料中还原。
+  pain_en: The candidate only says the platform opened to AI agents; it does not say which step was slowest,
+    most error-prone or most costly, so the pain cannot be reconstructed from the material.
+  current_alternative: 按候选可推断的旧做法是人工在保险平台网页上查询、比价并手工填写投保信息；这一替代方式本身未在材料中直接描述。
+  current_alternative_en: The old practice inferable from the candidate is staff querying insurance platform
+    pages, comparing and filling in application data by hand; this alternative is not directly described
+    in the material.
+  usage_reason: 推断：若代理程序能直接接入平台执行查询与投保动作，可省去人工逐页查询和重复录入这一步，因此保险经纪或代理机构在批量处理投保时可能选择它；但候选未给出任何接入细节或使用反馈，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if agent programs can directly access the platform to query and execute
+    cover actions, the manual page-by-page lookup and re-entry step could be removed, so brokers or agencies
+    handling cover in volume might choose it; however the candidate gives no integration detail or user
+    feedback, so this causal link cannot be confirmed.'
+- id: req-full-engine-by-gen-opens-savvy-insurance-platform-to-ai-agents-2026-10-07
+  project_slug: engine-by-gen-opens-savvy-insurance-platform-to-ai-agents
+  level: full
+  reviewed_at: '2026-10-07T02:01:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决保险比价与投保流程的自动化，但公开材料未说明原先哪一步最痛、不采用会失去什么，需求与痛点无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-413f83635b82c089
+    - ev-9a16ee50ac3816d4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Engine by Gen 官方关于 Savvy 面向 AI 代理开放的开发者文档或公告，确认可调用动作范围、接入条件与是否有人工确认环节。
+  market: ''
+  job: 保险经纪或代理在为客户比价、选品并完成投保时，需要跨多个保险平台查询条款与报价、填写投保材料，最终产出可提交的投保方案。
+  job_en: When comparing products and completing cover for clients, insurance brokers or agents must query
+    terms and quotes across several insurance platforms and fill in application materials, ending with
+    a submittable policy proposal.
+  pain: 候选只说明 Savvy 平台向 AI 代理开放，未说明原先哪一步最耗时、最易出错或成本最高，痛点无法从公开材料还原。
+  pain_en: The candidate only says the Savvy platform opened to AI agents; it does not say which step
+    was slowest, most error-prone or most costly, so the pain cannot be reconstructed from public material.
+  current_alternative: 按候选可推断的旧做法是人工在保险平台网页上查询、比价并手工填写投保信息；这一替代方式本身未在材料中直接描述。
+  current_alternative_en: The old practice inferable from the candidate is staff querying insurance platform
+    pages, comparing and filling in application data by hand; this alternative is not directly described
+    in the material.
+  usage_reason: 推断：若代理程序能直接接入平台执行查询与投保动作，可省去人工逐页查询和重复录入这一步，因此保险经纪或代理机构在批量处理投保时可能选择它；但候选未给出任何接入细节或使用反馈，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if agent programs can directly access the platform to query and execute
+    cover actions, the manual page-by-page lookup and re-entry step could be removed, so brokers or agencies
+    handling cover in volume might choose it; however the candidate gives no integration detail or user
+    feedback, so this causal link cannot be confirmed.'

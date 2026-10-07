@@ -209,3 +209,45 @@
     save manual config edits and post-upgrade re-setup, so non-invasive-minded DSH users might try it;
     but the preset''s content and effect are undisclosed, so no checkable improvement over the old approach
     can be confirmed.'
+- id: req-full-dsh-pojia-mode-2026-10-07
+  project_slug: dsh-pojia-mode
+  level: full
+  reviewed_at: '2026-10-07T02:01:48Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是给 DSH 加载自定义 Agent 预设的便利性，但公开材料只有一句功能描述与星标数，未说明预设改变什么行为、用户当前配置卡在哪一步、不解决会损失什么；属于没有也行的小工具，价值关不成立。
+    evidence_ids:
+    - ev-b27607dec34ab0dd
+    - ev-cae32e8b500df2c4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认「破甲模式」预设具体改变 DSH 的哪些行为、是否有用户报告实际使用与升级后保留情况。
+  market: ''
+  job: DeepSeek Harness 的使用者在不想改动主程序源码的情况下，双击一个文件为工具加载名为「破甲模式」的 Agent 预设，以便在升级后仍保留该预设。
+  job_en: DeepSeek Harness users double-click a file to load an agent preset called 'Pojia Mode' into
+    the tool without modifying the host program's source, so the preset survives upgrades.
+  pain: 公开材料只说明「零侵入、零依赖、双击无黑框、升级不丢」，未说明用户当前在 DSH 中配置 Agent 预设时具体卡在哪一步、失败频率多高、不解决会损失什么；痛点强度无法从公开事实还原。
+  pain_en: Public materials only claim zero-intrusion, zero-dependency, no console window, and upgrade
+    persistence; they do not show which step of configuring an agent preset in DSH actually fails, how
+    often, or what is lost if unsolved.
+  current_alternative: 公开材料未说明用户目前如何加载自定义 Agent 预设（例如手动编辑配置文件、使用 DSH 自带预设机制或第三方插件），因此无法确认它替代了哪条旧流程。
+  current_alternative_en: Public materials do not show how users currently load custom agent presets (e.g.,
+    manual config edits, DSH's built-in preset mechanism, or third-party plugins), so the replaced workflow
+    is unknown.
+  usage_reason: 推断：若 DSH 本身缺少一键加载预设的入口，双击脚本可省去手动改配置的步骤；但公开材料未给出预设具体改变什么行为、效果如何，也没有用户反馈或案例说明为何选择它，因此无法确认这是真实选择理由。
+  usage_reason_en: 'Inference: if DSH lacks a one-click preset loader, double-clicking a script could
+    remove manual config edits; but public materials do not state what the preset changes or how well
+    it works, and no user feedback or case shows why it is chosen, so the choice rationale is unconfirmed.'

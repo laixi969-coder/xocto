@@ -427,3 +427,79 @@
     workflow files that AI runs on a schedule and improves each run, removing the steps of re-clicking
     every time and fixing selectors; this is inference from product capability and task structure, as
     public completion or retention evidence is absent.
+- id: req-initial-ai-employees-2026-10-07
+  project_slug: ai-employees
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决什么需求、什么痛点都写不出来，只有角色与例程数量的宣称，价值关不成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无用户采用或评价证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无法核对。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README 与 issue/discussion，确认其 8 个角色与 60 条例程具体处理什么输入、产出什么交付物。
+  market: ''
+  job: 候选资料未说明具体使用者、触发情境与处理材料，无法还原谁在什么工作节点用它完成什么任务。
+  job_en: The candidate material does not state the specific user, trigger situation or input material,
+    so it is impossible to reconstruct who uses it at which work step to complete which task.
+  pain: 未提供任何用户痛点、抱怨或旧流程描述，无法判断哪一步手工工作被替代。
+  pain_en: No user pain point, complaint or legacy process is provided, so it is impossible to tell which
+    manual step is replaced.
+  current_alternative: 未说明现有替代方式，无法与旧做法比较。
+  current_alternative_en: No current alternative is described, so no comparison with the old way is possible.
+  usage_reason: 仅有功能宣称与仓库关注度，缺少具体任务、交付物与使用反馈，无法解释用户为何选择它。
+  usage_reason_en: Only feature claims and repository attention are available; without concrete tasks,
+    deliverables or usage feedback, there is no explanation of why a user would choose it.
+- id: req-full-ai-employees-2026-10-07
+  project_slug: ai-employees
+  level: full
+  reviewed_at: '2026-10-07T02:00:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“开源项目，宣称提供 8 个按日程运行的企业职能角色、60 条例程，可运行在 Claude Code 等 10 余种执行框架上，并像人一样操作浏览器，每次运行后自我改进，文件归用户所”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 README、issue 与 discussion，确认 8 个角色与 60 条例程各自处理什么输入、产出什么交付物，以及是否有真实用户报告使用结果。
+  market: ''
+  job: 候选材料只给出「8 个按日程运行的企业职能角色、60 条例程、可跑在 Claude Code 等 10 余种执行框架上、像人一样操作浏览器」这类能力宣称，未说明具体是谁（哪个岗位）、在什么触发情境下、处理什么输入材料、要产出什么交付物，因此无法还原一个可核对的使用场景。
+  job_en: The candidate material only offers capability claims — 8 scheduled business roles, 60 routines,
+    runnable on Claude Code and about ten other harnesses, driving the browser like a person — without
+    stating who (which role), under what trigger, processing what input material, to produce what deliverable.
+    No verifiable job can be reconstructed.
+  pain: 没有任何用户痛点、抱怨、旧流程或 workaround 的公开描述，无法判断哪一步手工工作被替代、不采用会失去什么。
+  pain_en: There is no public description of user pain, complaint, legacy process or workaround, so it
+    is impossible to tell which manual step is replaced or what is lost by not adopting it.
+  current_alternative: 材料未说明现有替代方式（人工排班执行、脚本、RPA、通用 AI 助手等均未被提及），无法与旧做法比较。
+  current_alternative_en: No current alternative is described (manual execution, scripts, RPA, general
+    AI assistants are all unmentioned), so no comparison with the old way is possible.
+  usage_reason: 仅有功能宣称与检索到的通用 AI 产品对比页，缺少具体任务、交付物与使用反馈，无法解释哪类用户会在什么情况下选择它；现有证据不足以形成推断。
+  usage_reason_en: Only feature claims and generic AI product comparison pages were retrieved; without
+    concrete tasks, deliverables or usage feedback, there is no basis to explain which user would choose
+    it under what circumstances. The available evidence is insufficient even for an inference.

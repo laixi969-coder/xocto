@@ -30,7 +30,7 @@ summary: "Tool:   Scrimshaw Jukebox  \n         I wanted to see if Claude Opus 5
   \ ,  llms ,  claude ,  vibe-coding"
 first_seen: '2026-10-06T15:17:39Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

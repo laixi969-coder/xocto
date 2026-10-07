@@ -546,3 +546,53 @@
     so entering a subject and progress yields a coherent path plus matching explanations, removing cross-platform
     search and self-sequencing; users would pick it when starting a new subject or stuck on a topic. Stars
     rising from 476 to 624 shows attention, not sustained use.'
+- id: req-full-study-mate-2026-10-07
+  project_slug: study-mate
+  level: full
+  reviewed_at: '2026-10-07T02:04:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自学者把零散教材组织成路线、卡住时获得讲解、并拿到可执行练习任务的需求；痛点在于路线拼装与即时答疑的缺口，不解决会导致中途放弃。公开材料仅有产品定位与仓库收藏，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-9cf0e6be9da26bd6
+    - ev-019936cf43bcb329
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 502 增至 637，说明开发者社区持续关注，但收藏属关注度证据，不能证明目标自学者持续使用或形成强场景；公开材料未见用户评价、案例或使用讨论。
+    evidence_ids:
+    - ev-9cf0e6be9da26bd6
+    - ev-cf558dc967a1edd5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断钱来自 to C 自学用户、to B 学校机构还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-9cf0e6be9da26bd6
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺输出路线与讲解文本，但练习是否真正完成仍需学习者自行确认，交付的确定性边界未在公开文档中说明；也未见人工介入或安全边界的公开材料。
+    evidence_ids:
+    - ev-9cf0e6be9da26bd6
+  next_validation: 追踪 Study-Mate 仓库的 README、issue 与 discussion，确认是否有用户描述具体自学场景、替代了哪一步旧流程，以及是否出现定价或付费入口。
+  market: ''
+  job: 自学一门科目的学生（如备考或转行者）在选定科目后，需要把零散教材、网课和习题组织成一条可执行的学习路线，并逐点理解知识点、动手做练习项目，直到学透该科目。
+  job_en: A student self-studying a subject (e.g. exam prep or career switch) must turn scattered textbooks,
+    online courses and exercises into an executable learning path, understand each knowledge point, and
+    complete hands-on projects until the subject is mastered.
+  pain: 公开材料只给出产品定位（定路线、讲知识、做项目），未提供用户抱怨或案例；从工作流结构推理，自学者的痛点是路线靠自己在论坛和书单里拼、卡住时无人即时讲解、练习项目缺乏可执行任务，导致中途放弃或反复重来。这是结构推理，不是用户口述。
+  pain_en: Public materials only give the product positioning (plan a path, explain knowledge, do projects)
+    with no user complaints or cases; by workflow inference, self-learners must assemble a path from forums
+    and book lists, have no instant explanation when stuck, and lack executable project tasks, leading
+    to dropout or restarting. This is structural inference, not user testimony.
+  current_alternative: 旧做法是自行搜索书单与网课、在论坛或问答社区提问、用通用聊天机器人零散提问，再自己拼装练习项目；公开材料未说明它具体替代了其中哪一步。
+  current_alternative_en: The old approach is searching for book lists and courses, asking forums or Q&A
+    communities, using general chatbots for scattered questions, and assembling practice projects by hand;
+    public materials do not show which step it replaces.
+  usage_reason: 推断：相较自行拼书单和零散提问，它把“定路线—讲知识—给项目任务”串成一次连续输出，减少用户在多个来源之间搬运和重新组织材料的步骤，因此会在选定科目、需要一条可执行路线时被自学者尝试；但练习是否真正完成仍需学习者自己确认，公开材料没有留存或复购证据。
+  usage_reason_en: 'Inference: versus hand-assembling book lists and scattered questions, it chains path-planning,
+    explanation and project tasks into one continuous output, cutting the step of moving and reorganizing
+    material across sources, so self-learners may try it when starting a subject and needing an executable
+    path; whether practice is actually completed still rests on the learner, and no retention or repeat-use
+    evidence is public.'

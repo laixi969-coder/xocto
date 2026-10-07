@@ -28,7 +28,7 @@ summary: "TIL:   Using Parseable with Datasette for OpenTelemetry traces  \n    
   \ ,  observability ,  alex-garcia ,  opentelemetry"
 first_seen: '2026-10-06T19:07:31Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

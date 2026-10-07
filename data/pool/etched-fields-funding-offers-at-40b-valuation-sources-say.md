@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNRXdxYnpXd3ZN
 summary: Etched fields funding offers at $40B+ valuation, sources say TechCrunch
 first_seen: '2026-10-05T20:24:09Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

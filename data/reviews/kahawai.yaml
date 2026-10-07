@@ -1,0 +1,79 @@
+- id: req-initial-kahawai-2026-10-07
+  project_slug: kahawai
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，只知是模块化媒体系统，价值关不成立。
+    evidence_ids:
+    - ev-dd300008aa5e3912
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区讨论量极小也不构成采用证据。
+    evidence_ids:
+    - ev-dd300008aa5e3912
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，开源项目付费路径未披露。
+    evidence_ids:
+    - ev-dd300008aa5e3912
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，AI 是否参与及交付确定性均无法核对。
+    evidence_ids:
+    - ev-dd300008aa5e3912
+  next_validation: 收集 Kahawai 官方仓库 README 与文档，确认 AI 在素材整理中的具体动作与交付结果。
+  market: ''
+  job: 自建媒体库的个人或小团队，在整理和播放本地音视频素材时，要完成把素材组织成可检索、可播放的库。
+  job_en: An individual or small team running a self-hosted media library organises and plays local audio
+    and video assets, aiming to turn them into a searchable, playable library.
+  pain: 候选资料只说明它是模块化媒体系统，未说明用户具体卡在哪一步、不解决会失去什么，痛点无法确认。
+  pain_en: The candidate material only says it is a modular media system; it does not say which step users
+    are stuck on or what is lost without it, so the pain cannot be confirmed.
+  current_alternative: 现有自托管媒体服务器或手工整理文件夹，具体替代对象未在材料中说明。
+  current_alternative_en: Existing self-hosted media servers or manually organised folders; the material
+    does not specify the alternative.
+  usage_reason: 材料未提供 AI 动作、交付结果或与旧做法的差异，无法解释用户为何选择它；缺少可核对的一环。
+  usage_reason_en: The material provides no AI action, delivery result or difference from the old way,
+    so it cannot explain why users would choose it; one verifiable link is missing.
+- id: req-full-kahawai-2026-10-07
+  project_slug: kahawai
+  level: full
+  reviewed_at: '2026-10-07T02:02:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，只知是模块化媒体系统，价值关不成立。
+    evidence_ids:
+    - ev-dd300008aa5e3912
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Kahawai 官方仓库 README 与文档，确认 AI 在素材整理中的具体动作与交付结果。
+  market: ''
+  job: 自建媒体库的个人或小团队，在整理和播放本地音视频素材时，要完成把素材组织成可检索、可播放的库。
+  job_en: An individual or small team running a self-hosted media library organises and plays local audio
+    and video assets, aiming to turn them into a searchable, playable library.
+  pain: 候选资料只说明它是模块化媒体系统，未说明用户具体卡在哪一步、不解决会失去什么，痛点无法确认。
+  pain_en: The candidate material only says it is a modular media system; it does not say which step users
+    are stuck on or what is lost without it, so the pain cannot be confirmed.
+  current_alternative: 现有自托管媒体服务器或手工整理文件夹，具体替代对象未在材料中说明。
+  current_alternative_en: Existing self-hosted media servers or manually organised folders; the material
+    does not specify the alternative.
+  usage_reason: 材料未提供 AI 动作、交付结果或与旧做法的差异，无法解释用户为何选择它；缺少可核对的一环。
+  usage_reason_en: The material provides no AI action, delivery result or difference from the old way,
+    so it cannot explain why users would choose it; one verifiable link is missing.

@@ -221,3 +221,47 @@
   usage_reason_en: 'Evidence mixes same-named entries: one repo is a desktop AI agent, another is a Raspberry
     Pi Pepper''s Ghost display, and a site is a cloud coding-agent runner, so which product users actually
     choose and why cannot be determined.'
+- id: req-full-openghost-2026-10-07
+  project_slug: openghost
+  level: full
+  reviewed_at: '2026-10-07T02:03:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料把两个同名项目混在一起：桌面 AI 代理与树莓派 Pepper's Ghost 展示装置，无法确认要解决谁的什么任务、痛点强度与不采用代价，连需求与痛点都写不出来，故价值关不成立。
+    evidence_ids:
+    - ev-26bc777b4a2aa1d0
+    - ev-63751b403428f844
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OpenGhost 官方仓库 README 与 releases，确认其唯一产品定位、目标用户与可复现的输入—动作—交付流程，排除同名 Pepper's Ghost
+    项目的混淆。
+  market: ''
+  job: 公开材料指向两个互不相同的项目：一个是在 Windows、macOS、Linux 上运行的桌面 AI 代理，自带代理引擎、浏览器工具与绘图引擎；另一个是用树莓派 5、摄像头、方屏和分光立方体搭建的
+    Pepper's Ghost 展示装置。谁在什么工作节点打开它、处理什么材料、交付什么，公开材料未说明。
+  job_en: 'Public material points to two different projects: a desktop AI agent for Windows, macOS and
+    Linux with its own agent engine, browser tooling and drawing engine, and a Raspberry Pi 5 Pepper''s
+    Ghost display using a camera, square screen and beam-splitter cube. Who opens it at which work step,
+    with what material, and what it delivers is not stated.'
+  pain: 公开材料只描述产品构成，没有说明用户当前在哪一步受阻、不解决会付出什么代价、发生频率如何；产品功能说明不能当作痛点证据。
+  pain_en: Public material describes product composition only; it does not show which step users are blocked
+    at, what it costs to leave unsolved, or how often it occurs. Feature descriptions are not pain evidence.
+  current_alternative: 公开材料未说明用户目前用什么方式完成这项工作，也未说明它替代了哪一步旧流程。
+  current_alternative_en: Public material does not show how users currently complete this job or which
+    prior step it replaces.
+  usage_reason: 无法给出因果解释：现有证据既未确认目标用户与使用情境，也未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能推断用户为何选择它。
+  usage_reason_en: 'No causal explanation is possible: the evidence neither identifies target users and
+    situations nor shows which step burden is reduced or which checkable outcome improves versus the old
+    approach, so why users would choose it cannot be inferred.'

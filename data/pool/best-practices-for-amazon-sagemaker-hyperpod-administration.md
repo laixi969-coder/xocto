@@ -24,7 +24,7 @@ summary: Learn how to administer Amazon SageMaker HyperPod through Amazon SageMa
   project, cluster, and workload control layers.
 first_seen: '2026-10-06T15:50:23Z'
 last_seen: '2026-10-07T01:32:54Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

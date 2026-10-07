@@ -1,0 +1,85 @@
+- id: req-initial-hark-pro-ai-app-launches-ahead-of-2027-hardware-release-2026-10-07
+  project_slug: hark-pro-ai-app-launches-ahead-of-2027-hardware-release
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，只知是先行上线的 AI 应用，价值关未过。
+    evidence_ids:
+    - ev-eb06a15f8c90c93b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料也没有采用或关注度数据可判断共识。
+    evidence_ids:
+    - ev-eb06a15f8c90c93b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-eb06a15f8c90c93b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付确定性与人工边界。
+    evidence_ids:
+    - ev-eb06a15f8c90c93b
+  next_validation: 收集 Hark Pro 官方产品页或应用商店说明，确认它接收什么输入、执行什么动作、交付什么结果。
+  market: ''
+  job: 个人用户或知识工作者在移动或桌面场景下，处理日常输入与记录，希望由一个应用代为整理或响应；具体材料与任务未在公开材料中说明。
+  job_en: Individual users or knowledge workers handling everyday input and notes on mobile or desktop,
+    expecting an app to organise or respond on their behalf; the specific materials and tasks are not
+    stated in public materials.
+  pain: 公开材料未说明它替代哪一步旧工作或解决什么具体痛点，只能看出是个人助理类入口。
+  pain_en: Public materials do not say which prior step it replaces or what specific pain it solves; it
+    only reads as a personal-assistant entry point.
+  current_alternative: 通用对话助手或手机自带语音助手，已能覆盖多数随手记录与问答需求。
+  current_alternative_en: General chat assistants or built-in phone voice assistants already cover most
+    quick-capture and Q&A needs.
+  usage_reason: 无法从公开材料判断用户为何选择它而非既有助手，缺少场景、输入与交付说明；硬件要到 2027 年才发布，软件当前的价值主张无法核验。
+  usage_reason_en: Public materials give no basis for why a user would pick it over existing assistants,
+    lacking scenario, input and deliverable detail; with hardware not due until 2027, the software's current
+    value proposition cannot be verified.
+- id: req-full-hark-pro-ai-app-launches-ahead-of-2027-hardware-release-2026-10-07
+  project_slug: hark-pro-ai-app-launches-ahead-of-2027-hardware-release
+  level: full
+  reviewed_at: '2026-10-07T02:02:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有“打造最先进个人智能”一句主张，未说明接收什么材料、执行什么动作、交付什么结果，也说不清替代哪一步旧工作与不采用的后果，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-b9a25579ee8b43fa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Hark 官网产品页或应用商店说明，确认 Hark Pro 接收什么输入、执行什么动作、交付什么结果，以及是否公布定价或客户案例。
+  market: ''
+  job: 个人用户或知识工作者在手机或电脑上打开 Hark Pro，把日常输入交给它处理，期望应用代为整理或响应；公开材料未说明具体接收什么材料、执行什么动作、交付什么结果。
+  job_en: Individual users or knowledge workers open Hark Pro on phone or computer and hand everyday input
+    to it, expecting the app to organise or respond; public materials do not state what materials it takes,
+    what actions it performs, or what it delivers.
+  pain: 公开材料只称要打造“最先进的个人智能”，未说明它替代哪一步旧工作、哪类输入让人难受、不采用会失去什么，痛点无法还原。
+  pain_en: Public materials only claim it is building 'the most advanced personal intelligence in the
+    world', without saying which prior step it replaces, which input is painful, or what is lost without
+    it; the pain cannot be reconstructed.
+  current_alternative: 通用对话助手（ChatGPT、Gemini、Perplexity）与手机自带语音助手已覆盖随手记录、问答与整理需求，公开材料未说明 Hark Pro 与之的差异。
+  current_alternative_en: General chat assistants (ChatGPT, Gemini, Perplexity) and built-in phone voice
+    assistants already cover quick capture, Q&A and organising; public materials do not state how Hark
+    Pro differs.
+  usage_reason: 无法判断用户为何选择它：公开材料没有输入、动作、交付或场景说明，硬件要到 2027 年才发布，软件当前价值主张无法核验，因此缺少用户选择它的因果链。
+  usage_reason_en: 'There is no basis to say why a user would choose it: public materials give no input,
+    action, deliverable or scenario, and with hardware not due until 2027 the software''s current value
+    proposition cannot be verified, so the causal chain for adoption is missing.'

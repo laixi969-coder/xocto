@@ -84,3 +84,44 @@
     could remove the search-and-copy step versus checking docs or calling a general LLM, so frequent command-line
     users might choose it; however, public materials contain no user feedback, adoption, or continued-use
     evidence, so this causal chain is not backed by any fact.'
+- id: req-full-dirac-2026-10-07
+  project_slug: dirac
+  level: full
+  reviewed_at: '2026-10-07T02:01:38Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅一句作者自述微调 1.5B Qwen 做 bash 生成，未说明目标用户、使用情境、具体痛点或不解决的后果，连需求与痛点都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-a22083ae923eb62c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 dirac.run 上 EasyCommand 的官方发布页或公开仓库，核验其是否给出目标用户场景、准确率评测数据与部署方式。
+  market: ''
+  job: 开发者或运维人员在终端里把自然语言意图（如“找出占用 8080 端口的进程并杀掉”）转成一条可执行的 bash 命令，需要快速拿到正确参数与语法的指令。
+  job_en: Developers or operators turn a natural-language intent (e.g. 'find the process on port 8080
+    and kill it') into an executable bash command in the terminal, needing correct syntax and arguments
+    quickly.
+  pain: 公开材料只有作者一句“微调 1.5B Qwen 达到接近 GPT-4o 的 bash 生成水平”，没有说明目标用户遇到的具体困难、频率或不解决的后果，无法确认痛点是否真实存在。
+  pain_en: The only public material is the author's one-line claim of fine-tuning 1.5B Qwen to near GPT-4o
+    bash generation; it does not describe any concrete user difficulty, frequency, or consequence of not
+    solving it, so the pain cannot be confirmed.
+  current_alternative: 公开材料未提及用户当前用什么替代（搜索引擎、man 手册、历史命令或通用大模型均属推测），无证据支持。
+  current_alternative_en: Public materials do not mention any current alternative (search engines, man
+    pages, command history, or general LLMs are speculation), with no supporting evidence.
+  usage_reason: 无法给出使用理由：公开材料未说明产品形态、输入输出流程、部署方式或任何用户反馈，无法解释相较旧做法减少了哪一步负担，因此不能推断用户为何选择它。
+  usage_reason_en: 'No usage reason can be given: public materials do not describe the product form, input/output
+    flow, deployment, or any user feedback, so it is impossible to explain which step it removes versus
+    the old approach or why a user would choose it.'

@@ -291,3 +291,56 @@
     and reuse across DeepSeek Harness, OpenCode and Codex Harness, cutting repeated maintenance and per-harness
     debugging; developers maintaining multiple harnesses would choose it when they need a unified decision
     standard. Stars only reflect attention and do not prove sustained use.'
+- id: req-full-jev-dsh-decision-2026-10-07
+  project_slug: jev-dsh-decision
+  level: full
+  reviewed_at: '2026-10-07T02:02:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码 agent 在多 harness 下工具选择逻辑分散、难以统一解释的需求；痛点是逐 harness 重写提示与路由、决策不可解释，不解决的后果是维护成本随 harness
+      数量线性增长。公开材料仅给插件定位与仓库数据，未给旧流程代价，故为工作流结构推理。
+    evidence_ids:
+    - ev-c2304a4db21abc84
+    - ev-14033242f9d12c41
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 328 到 251 再到 254，只反映关注度与波动，没有用户反馈、issue 或案例说明谁在什么场景下依赖它，无法判断是否形成持续采用共识。
+    evidence_ids:
+    - ev-c2304a4db21abc84
+    - ev-14033242f9d12c41
+    - ev-b310baa82ff6ae31
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露任何定价或商业路径，买方与付费方式均未知；这是判断而非已验证事实，但价值关已成立，不因此取消真需求判定。
+    evidence_ids:
+    - ev-c2304a4db21abc84
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明决策结果如何被 harness 消费、是否需要人工复核，承诺能否确定性交付无法核对，安全与人工边界不明。
+    evidence_ids:
+    - ev-c2304a4db21abc84
+    - ev-14033242f9d12c41
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者实际用它替换了哪一步工具选择逻辑、是否长期保留，以及是否出现定价或商业支持说明。
+  market: ''
+  job: 开发者在给编码 agent 接入工具调用时，需要在 DeepSeek Harness、OpenCode、Codex Harness 等不同 harness 上，让 agent 面对多个候选动作时输出结构化、可解释的决策结果，再交给
+    harness 执行。
+  job_en: Developers wiring tool calling into coding agents need the agent to emit structured, explainable
+    decisions among candidate actions across DeepSeek Harness, OpenCode and Codex Harness, then hand execution
+    back to the harness.
+  pain: 公开材料只给出插件定位与仓库数据，未描述旧做法中工具选择出错的具体代价；可确认的痛点是多 harness 并存时，工具选择逻辑散落在各 harness 自带逻辑与自写提示词中，难以统一、复用和解释。
+  pain_en: Public material only gives the plugin positioning and repository data, not the concrete cost
+    of wrong tool selection; the confirmable pain is that with multiple harnesses, tool-selection logic
+    is scattered across each harness's built-in logic and hand-written prompts, hard to unify, reuse or
+    explain.
+  current_alternative: 开发者依赖各 harness 自带的工具选择逻辑，或自行编写提示词与路由规则，为每个 harness 重复实现一遍决策逻辑。
+  current_alternative_en: Developers rely on each harness's built-in tool-selection logic or write their
+    own prompts and routing rules, reimplementing decision logic per harness.
+  usage_reason: 推断：相较逐 harness 自写提示与路由，该插件把工具选择收敛为一个可替换的决策组件，开发者接入一次即可在多个 harness 上复用同一套结构化决策输出，减少为每个
+    harness 重写选择逻辑这一步；维护多 harness 的开发者会在需要统一、可解释的工具选择时选择它。
+  usage_reason_en: 'Inference: versus hand-writing prompts and routing per harness, the plugin consolidates
+    tool selection into a replaceable decision component, so one integration yields the same structured
+    decision output across harnesses, removing the step of rewriting selection logic per harness; developers
+    maintaining multiple harnesses would choose it when they need unified, explainable tool selection.'

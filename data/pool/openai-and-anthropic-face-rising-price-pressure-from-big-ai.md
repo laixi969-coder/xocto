@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRHhUUnpNdE5C
 summary: OpenAI and Anthropic Face Rising Price Pressure From Big AI Users Bloomberg.com
 first_seen: '2026-10-06T23:03:40Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

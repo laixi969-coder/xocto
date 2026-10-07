@@ -192,3 +192,52 @@
     one call, it removes the steps of carrying context between model interfaces and checking output piece
     by piece, so developers running coding tasks across several models would try it; stars moving 730
     to 738 show attention only, with no retention or payment evidence.'
+- id: req-full-codex-on-crack-2026-10-07
+  project_slug: codex-on-crack
+  level: full
+  reviewed_at: '2026-10-07T02:01:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型编码协作中的编排需求：开发者要规划、分派、调用宿主工具并跨工作区审查产出，痛点是手动切换模型、搬运上下文与逐处核对带来的协调负担，不采用就要承担这些手工步骤。公开描述已能还原输入、动作与交付闭环，属工作流结构推理；但缺少用户抱怨与量化损失，痛点强度仅由结构推出。
+    evidence_ids:
+    - ev-fa2a5a48e4ce8551
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 730 增至 741，属关注度而非持续采用；没有 issue、discussion 或用户反馈说明开发者是否把它留在日常编码流程里，强场景存在但采用共识未核验。
+    evidence_ids:
+    - ev-fa2a5a48e4ce8551
+    - ev-53c609980c7733c4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、收费方式或买方，无法判断钱来自个人开发者、团队还是企业采购；这是判断而非已验证事实，开源仓库本身也可能不形成付费路径。
+    evidence_ids:
+    - ev-fa2a5a48e4ce8551
+  - gate: truth
+    status: insufficient
+    reason: 描述称可调用宿主工具并跨工作区审查，但未说明权限边界、人工确认环节与交付是否确定发生，无法核对承诺能否确定性兑现，也未涉及安全与人工边界。
+    evidence_ids:
+    - ev-fa2a5a48e4ce8551
+  next_validation: 追踪该仓库 README、issue 与 discussion 的公开更新，确认它实际替代的手动步骤、交付形态，以及是否出现重复使用或付费线索。
+  market: ''
+  job: 使用多个模型的软件开发者，在本地或远程工作区推进编码任务时，需要把任务规划、分派给不同模型、调用宿主工具并跨工作区审查产出串成一条流程，最终拿到可复核的代码改动或审查结论。
+  job_en: Software developers using multiple models need to chain planning, delegating to different models,
+    invoking host tools and reviewing output across workspaces into one flow, ending with reviewable code
+    changes or review conclusions.
+  pain: 公开描述显示痛点在多模型协作的编排环节：开发者要自己决定哪个模型做哪一步、手动搬运上下文、再逐处核对产出，跨工作区时还要重复确认结果；不采用就要承担这些手工协调与核对成本，但公开材料未给出用户抱怨或量化损失。
+  pain_en: 'The public description locates the pain in multi-model orchestration: developers must decide
+    which model does which step, move context by hand, then check output piece by piece, repeating confirmation
+    across workspaces; without it they bear this manual coordination and review cost, though no user complaints
+    or quantified loss are public.'
+  current_alternative: 旧做法是开发者在多个模型界面之间手动切换、自行复制粘贴上下文、人工汇总与审查各模型产出，并在不同工作区分别核对；候选材料未提供这一旧流程的细节描述。
+  current_alternative_en: The old way is for developers to switch manually between model interfaces, copy
+    and paste context themselves, manually aggregate and review each model's output, and verify separately
+    in each workspace; the candidate material gives no detailed description of this workflow.
+  usage_reason: 推断：相较手动切换模型与逐处核对，它把规划、分派、宿主工具调用和跨工作区审查收进一次编排动作，减少开发者搬运上下文和重复确认的步骤，因此同时使用多个模型、且任务跨工作区的开发者会在这种情况下选择它；该因果尚无用户反馈或采用证据支撑。
+  usage_reason_en: 'Inference: compared with switching models manually and checking each spot, it folds
+    planning, delegation, host-tool invocation and cross-workspace review into one orchestration action,
+    cutting the steps of moving context and re-confirming, so developers who use several models on tasks
+    spanning workspaces would choose it in that situation; this causal link has no user-feedback or adoption
+    evidence yet.'

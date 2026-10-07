@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE9NOE4ybHVQZFRh
 summary: 明星AI换脸被❌裸体胸乳喷-明星AI换脸被❌裸体胸乳喷2026最新版vv0.6.1 iphone版-2265安卓网 钛媒体
 first_seen: '2026-10-05T05:11:43Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

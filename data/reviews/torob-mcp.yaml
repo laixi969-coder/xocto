@@ -212,3 +212,53 @@
     cross-shop quotes, removing the per-site lookup and manual recording step, so users already shopping
     via an AI assistant who need instant price comparison would pick it when asking for quotes; this is
     workflow inference from product capability, with no retention or payment evidence yet.
+- id: req-full-torob-mcp-2026-10-07
+  project_slug: torob-mcp
+  level: full
+  reviewed_at: '2026-10-07T02:04:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决选购商品时跨店铺比价的需求：同款价格分散、型号难对齐，用户要逐个店铺查价，不解决就多花时间且可能买贵。只读、免 API key 的 14 个工具把搜索与比价封装为可调用动作，交付边界清楚；这是工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+    - ev-458209716a8d414a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 增至 56，说明开发者社区持续关注，但收藏与排名只属关注度，不能证明目标用户已把它留在比价工作流里；缺少 issue、discussion 或使用反馈说明谁在何种场景调用。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+    - ev-458209716a8d414a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径，只读免 key 的形态更像开发者工具；钱可能来自 to C 订阅、to B 集成或 to VC，这是判断而非已验证事实，需后续公开定价或采购记录确认。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+  - gate: truth
+    status: insufficient
+    reason: 产品说明称只读、无 API key、托管于 Cloudflare Workers，但未公开 Torob 数据授权、更新频率与覆盖品类，交付能否稳定发生、数据是否合规仍缺可核验材料。
+    evidence_ids:
+    - ev-e40ef314aba1e32f
+    - ev-13ddd76573bdf919
+  next_validation: 追踪 torob-mcp 仓库的 README、issue 与 discussion，确认是否有公开的部署说明、Torob 数据授权或更新频率披露，以及是否出现真实调用场景记录。
+  market: ''
+  job: 消费者或接入 AI 助手的用户在选购某件商品时，把商品关键词交给 torob-mcp，由它调用 Torob 的跨店铺数据返回可比较的报价清单，完成比价与价格核对。
+  job_en: A consumer or an AI assistant acting for them, while shopping for a specific item, passes the
+    product keyword to torob-mcp, which queries Torob's cross-shop data and returns a comparable quote
+    list for price checking.
+  pain: 同一商品在不同店铺价格分散，用户要逐个打开店铺页面抄价、对齐型号与规格，才能判断哪家更便宜；不解决就要多花时间，且容易因信息不全买贵。
+  pain_en: The same item is priced differently across shops, so users must open each shop page, copy prices
+    and align model/spec details before knowing which is cheaper; leaving it unsolved costs time and risks
+    overpaying on incomplete information.
+  current_alternative: 旧做法是手动在 Torob 网页或各店铺站点逐个搜索、截图或记价，再自行对齐型号；AI 助手此前没有可直接调用的比价工具，只能靠模型记忆或让用户自己查。
+  current_alternative_en: The old way is manually searching Torob or individual shop sites, screenshotting
+    or noting prices, then aligning models by hand; AI assistants previously had no callable price-comparison
+    tool and had to rely on model memory or send the user to look it up.
+  usage_reason: 相较手动逐店查询，它把搜索、比价和价格核对封装成 14 个只读工具，AI 助手可在一次对话中直接调用并拿到跨店铺报价，省去用户切换页面和手工对齐型号的步骤；推断，面向已在用
+    MCP 的 AI 助手用户，在需要即时比价时选择它。
+  usage_reason_en: Compared with manual per-shop lookups, it wraps search, comparison and price checking
+    into 14 read-only tools that an AI assistant can call in one conversation and get cross-shop quotes,
+    removing page switching and manual model alignment; this is an inference, for users already running
+    MCP-capable assistants who need on-the-spot price comparison.

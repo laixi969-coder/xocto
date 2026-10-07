@@ -1,6 +1,6 @@
 ---
 slug: chinese-ai-startups-deepseek-and-moonshot-ai-boost-valuation
-name: Chinese AI Startups DeepSeek and Moonshot AI Boost Valuations Ahead of IPOs
+name: DeepSeek
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNbE9uaTJnMGhS
 summary: Chinese AI Startups DeepSeek and Moonshot AI Boost Valuations Ahead of IPOs ForkLog
 first_seen: '2026-10-06T12:59:57Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Chinese AI Startups DeepSeek and Moonshot AI Boost Valuations Ahead of IPOs
+# DeepSeek
 
 Chinese AI Startups DeepSeek and Moonshot AI Boost Valuations Ahead of IPOs ForkLog
 

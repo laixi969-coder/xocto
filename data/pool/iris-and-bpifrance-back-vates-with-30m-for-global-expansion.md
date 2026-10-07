@@ -1,6 +1,6 @@
 ---
 slug: iris-and-bpifrance-back-vates-with-30m-for-global-expansion
-name: IRIS and Bpifrance back Vates with €30M for global expansion
+name: Vates
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: French virtualization company Vateshas raised €30 million from IRIS�
   mode...
 first_seen: '2026-10-06T12:10:00Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# IRIS and Bpifrance back Vates with €30M for global expansion
+# Vates
 
 French virtualization company Vateshas raised €30 million from IRIS’ Growth fund and Bpifrance, through its LargeVenture fund, amid shifts in the global virtualization market.Changes to licensing mode...
 

@@ -1,6 +1,6 @@
 ---
 slug: how-jump-trading-is-scaling-quant-research-with-chatgpt
-name: How Jump Trading is scaling quant research with ChatGPT
+name: Jump Trading
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Jump Trading uses OpenAI to expand quantitative research. See how longe
   combine multiple data sources with human review.
 first_seen: '2026-10-06T12:00:00Z'
 last_seen: '2026-10-07T01:32:54Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# How Jump Trading is scaling quant research with ChatGPT
+# Jump Trading
 
 Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.
 

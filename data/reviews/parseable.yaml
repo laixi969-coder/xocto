@@ -1,0 +1,93 @@
+- id: req-initial-parseable-2026-10-07
+  project_slug: parseable
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决日志与指标写入查询的需求，但公开材料只有吞吐数字，未说明旧流程痛点与不采用的后果，价值判断缺依据。
+    evidence_ids:
+    - ev-7547a78776e40c07
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论的 81 点与 18 条评论，属于关注度信号，不能说明运维团队已持续采用。
+    evidence_ids:
+    - ev-7547a78776e40c07
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、托管方案或买方类型，无法判断收入来自自建团队、云厂商还是企业采购。
+    evidence_ids:
+    - ev-7547a78776e40c07
+  - gate: truth
+    status: insufficient
+    reason: 吞吐宣称缺少可复现测试与部署文档，安全边界与人工运维责任也未说明。
+    evidence_ids:
+    - ev-7547a78776e40c07
+  next_validation: 收集 Parseable 官方定价页或部署文档，确认其托管方案、计价方式与目标买方。
+  market: ''
+  job: 站点可靠性工程师在线上故障排查时，把日志与指标写入可观测性存储并查询异常。
+  job_en: Site reliability engineers ingest logs and metrics into observability storage and query anomalies
+    during incident triage.
+  pain: 公开材料只给出吞吐数字，未说明现有方案在成本、查询延迟或运维负担上的具体痛点，也未给出用户抱怨或替代行为的证据。
+  pain_en: Public material only gives a throughput figure; it does not state concrete pain in cost, query
+    latency or operational burden of existing options, nor evidence of user complaints or workarounds.
+  current_alternative: 公开材料未说明用户此前用什么方案，常见替代可能是自建 Elasticsearch 或采用商业可观测性平台，但候选未提供相关事实。
+  current_alternative_en: Public material does not say what users used before; common alternatives might
+    be self-hosted Elasticsearch or commercial observability platforms, but the candidate provides no
+    such facts.
+  usage_reason: 推断：若其宣称的吞吐成立，团队可能因单位数据成本或写入瓶颈而选择它，但缺少定价、部署文档或客户案例，无法确认哪类用户会因此替换旧方案。
+  usage_reason_en: 'Inference: if the claimed throughput holds, teams might choose it for unit data cost
+    or ingestion bottlenecks, but with no pricing, deployment docs or customer cases, it is unclear which
+    users would switch from their old setup.'
+- id: req-full-parseable-2026-10-07
+  project_slug: parseable
+  level: full
+  reviewed_at: '2026-10-07T02:03:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决故障排查时全量遥测写入与可查询留存的需求，痛点是旧方案存储成本高或采样丢数据、格式被锁定；公开材料明确其面向可观测性、保留全保真数据并落在开放格式对象存储，交付闭环可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-b4ddb09b48650907
+    - ev-068018fdff20e1d3
+    - ev-24d0805fe7618d11
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品定位与文档说明，未见客户案例、用户评价或持续采用数据，无法判断运维团队是否已把它留在日常工作流中。
+    evidence_ids:
+    - ev-24d0805fe7618d11
+    - ev-068018fdff20e1d3
+  - gate: model
+    status: insufficient
+    reason: 开源项目存在自建免费路径，但公开材料未披露定价页、托管方案或采购记录，收入来自自建团队、云托管还是企业采购属判断而非已验证事实。
+    evidence_ids:
+    - ev-2db5e57a8c0d98de
+    - ev-5bc24b14d6a8e122
+  - gate: truth
+    status: insufficient
+    reason: 每分钟 1 亿条时间序列的吞吐宣称缺少可复现测试与部署文档佐证，安全边界与人工运维责任也未在公开材料中说明。
+    evidence_ids:
+    - ev-24d0805fe7618d11
+    - ev-068018fdff20e1d3
+  next_validation: 追踪 Parseable 官方定价页与客户案例页面，确认其托管方案计价方式、目标买方及是否有公开采用记录。
+  market: ''
+  job: 站点可靠性工程师或平台工程师在线上故障排查时，把日志、指标等遥测数据写入可查询存储，并在对象存储上按需检索异常、还原故障时间线。
+  job_en: Site reliability or platform engineers ingest logs and metrics into queryable storage during
+    incident triage, then query anomalies and reconstruct failure timelines from data held on object storage.
+  pain: 公开材料称其面向可观测性、保留全保真数据并让数据留在开放格式的对象存储中，指向的痛点是旧方案要么为全量留存付出高存储成本、要么因采样丢失排查所需的原始数据，且数据被锁在厂商专有格式里难以自主掌控。
+  pain_en: Public material states it is purpose-built for observability, keeps full-fidelity data queryable
+    and leaves data in open formats on object storage, pointing to pain where legacy stacks either pay
+    heavily to retain everything or lose raw data to sampling, with data locked in proprietary formats.
+  current_alternative: 常见替代是自建 Elasticsearch/OpenSearch 集群，或采用商业可观测性 SaaS；公开材料未直接描述用户此前具体用什么方案。
+  current_alternative_en: Common alternatives are self-hosted Elasticsearch/OpenSearch clusters or commercial
+    observability SaaS; public material does not directly describe what users used before.
+  usage_reason: 推断：相较自建 Elasticsearch 需自行运维索引与存储、或商业 SaaS 按量计费且数据托管在厂商侧，Parseable 把数据以开放格式落在用户自己的对象存储上并直接提供查询，减少了存储成本与数据主权这两步负担，因此对需要长期保留全量遥测又受成本约束的平台团队更有吸引力；此为基于产品能力的结构推理，尚无客户案例或留存证据支持。
+  usage_reason_en: 'Inference: versus self-hosted Elasticsearch, which requires operating indexes and
+    storage, or commercial SaaS, which bills by volume and holds data vendor-side, Parseable lands data
+    in open formats on the user''s own object storage and queries it directly, removing the storage-cost
+    and data-sovereignty burdens; this suits platform teams that must retain full telemetry under cost
+    pressure. This is structural reasoning from product capability, not supported by customer cases or '

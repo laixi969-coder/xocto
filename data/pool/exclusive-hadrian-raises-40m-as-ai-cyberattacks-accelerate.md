@@ -1,6 +1,6 @@
 ---
 slug: exclusive-hadrian-raises-40m-as-ai-cyberattacks-accelerate
-name: 'Exclusive: Hadrian raises $40m as AI cyberattacks accelerate'
+name: Hadrian
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/hadrian-ai-funding-round-cyber-securit
 summary: ''
 first_seen: '2026-10-06T05:00:14Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Exclusive: Hadrian raises $40m as AI cyberattacks accelerate
+# Hadrian
 
 _（源没给简介）_
 

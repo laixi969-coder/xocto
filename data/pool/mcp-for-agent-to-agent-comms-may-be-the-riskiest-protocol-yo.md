@@ -3,13 +3,14 @@ slug: mcp-for-agent-to-agent-comms-may-be-the-riskiest-protocol-yo
 name: Model Context Protocol
 builder: ''
 category: ''
-summary_zh: 2026 年 10 月披露的 MCP 漏洞显示，Google 等厂商的 agent 之间存在信任缺口，恶意提示可在 agent 之间传播。这表明 agent 间通信协议在安全与信任机制上尚不成熟，企业在采用多
-  agent 协作时需额外投入隔离与审计，可能延缓相关部署。
+summary_zh: 2026年10月，有报道指出 Model Context Protocol 在智能体间通信中存在信任缺口，恶意提示可在智能体之间传播，并波及来自 Google 等厂商的智能体。该结构性安全缺陷意味着基于
+  MCP 构建的多智能体应用在采用与交付时需要额外的信任隔离与提示注入防护，可能抬高企业部署的安全成本与合规门槛。
 inspiration: ''
-summary_en: A vulnerability disclosed in October 2026 exposes trust gaps in MCP-based agents from Google
-  and others, allowing malicious prompts to spread between agents. This indicates that agent-to-agent
-  communication protocols still lack mature security and trust mechanisms, forcing enterprises to add
-  isolation and auditing overhead when adopting multi-agent collaboration and potentially slowing deployments.
+summary_en: In October 2026, reports described trust gaps in the Model Context Protocol for agent-to-agent
+  communication, where malicious prompts can spread from one agent to another and affect agents from Google
+  and others. This structural security flaw means multi-agent applications built on MCP need additional
+  trust isolation and prompt-injection defenses, potentially raising security costs and compliance barriers
+  for enterprise deployment.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +26,7 @@ canonical_url: https://arstechnica.com/security/2026/10/vulnerability-in-agents-
 summary: Trust gaps in the new protocol spread malicious prompts from one agent to another.
 first_seen: '2026-10-05T22:26:35Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

@@ -1,0 +1,87 @@
+- id: req-initial-tulpa-2026-10-07
+  project_slug: tulpa
+  level: initial
+  reviewed_at: '2026-10-07T01:32:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决聊天记录分散、跟进靠记忆的问题，痛点具体且高频，旧做法是手动翻找与表格登记，结构上成立。
+    evidence_ids:
+    - ev-309539d548aa0d25
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度而非持续采用，没有用户反馈说明它被留在日常工作流里。
+    evidence_ids:
+    - ev-309539d548aa0d25
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费方式，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-309539d548aa0d25
+  - gate: truth
+    status: insufficient
+    reason: 接入本地聊天客户端涉及账号权限与消息合规，公开材料未说明安全边界与人工确认环节。
+    evidence_ids:
+    - ev-309539d548aa0d25
+  next_validation: 查看该仓库的 issue 与 discussion，确认是否有真实用户报告日常跟进场景中的使用与权限处理方式。
+  market: ''
+  job: 销售、招聘或社群运营者在 Windows 上用 QQ 和微信跟进大量联系人时，需要从历史聊天里找出谁该回、哪条线索没跟进，并把这些记录整理成可查的工作区。
+  job_en: A salesperson, recruiter or community operator following many contacts over QQ and WeChat on
+    Windows needs to find who is owed a reply and which lead went cold, and to keep those records in a
+    searchable workspace.
+  pain: 聊天记录散落在两个客户端里，只能靠手动翻找和记忆，跟进容易漏，历史信息无法复用。
+  pain_en: Chat history is scattered across two clients and depends on manual scrolling and memory, so
+    follow-ups get missed and past context cannot be reused.
+  current_alternative: 手动搜索聊天记录、自己建表格记跟进、或用备忘录和标签功能勉强管理。
+  current_alternative_en: Searching chat logs by hand, keeping a spreadsheet of follow-ups, or limping
+    along with notes and tag features.
+  usage_reason: 推断：它把本地聊天记录直接变成可检索、可提醒的记忆层，省掉逐条翻找和手工登记这一步，因此高频用微信/QQ 跟进线索的人会尝试；但公开材料没有留存或复购证据，不能断言已被长期留在工作流里。
+  usage_reason_en: 'Inference: it turns local chat logs into a searchable, reminder-capable memory layer,
+    removing the manual scrolling and logging step, so people who chase leads over WeChat/QQ daily would
+    try it; public material has no retention or repeat-use evidence, so long-term workflow adoption cannot
+    be claimed.'
+- id: req-full-tulpa-2026-10-07
+  project_slug: tulpa
+  level: full
+  reviewed_at: '2026-10-07T02:04:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 全部证据指向神秘学概念 tulpa 的定义与社区，未出现任何关于聊天记录检索、跟进提醒或工作区的用户任务与痛点描述，连需求本身都无法还原。
+    evidence_ids:
+    - ev-8b6a29e80f039914
+    - ev-65dd197351ca68b1
+    - ev-2c6b96b9c6dcea2b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品在 公开代码仓库 或官方渠道的仓库 README、issue 与 discussion，确认其是否真实存在、是否描述 QQ/微信接入方式与用户使用反馈。
+  market: ''
+  job: 在 Windows 上同时使用 QQ 和微信处理大量往来消息的人（如销售、招聘、社群运营），需要从本地聊天记录中检索历史信息、识别待跟进对象并整理成可查的工作区。
+  job_en: People handling heavy QQ and WeChat message volume on Windows (sales, recruiting, community
+    ops) need to search local chat history, identify pending follow-ups, and organize them into a queryable
+    workspace.
+  pain: 公开证据中没有任何一条描述该产品用户的真实痛点；现有证据全部在解释“tulpa”这一神秘学概念，与聊天记录分散、跟进遗漏等任务痛点无关。
+  pain_en: None of the public evidence describes any real user pain for this product; all evidence explains
+    the mystical concept of 'tulpa' and is unrelated to scattered chat logs or missed follow-ups.
+  current_alternative: 公开材料未提供任何关于用户当前如何替代的信息，无法确认旧做法是手动翻找、表格登记还是其他方式。
+  current_alternative_en: Public material provides no information on how users currently substitute this,
+    so it is impossible to confirm whether the old approach is manual scrolling, spreadsheets, or something
+    else.
+  usage_reason: 无法判断：现有证据未包含任何产品能力、用户反馈或使用场景描述，无法解释用户为何会选择它而非旧做法。
+  usage_reason_en: 'Cannot determine: the available evidence contains no product capability, user feedback,
+    or usage scenario description, so it is impossible to explain why a user would choose it over the
+    old approach.'

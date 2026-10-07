@@ -528,3 +528,50 @@
   usage_reason_en: 'Inference: versus manual diff reading or ad-hoc prompts, it splits review into fixed
     stages and aggregates them into a local dashboard, reducing the burden of organizing checks; developers
     needing structured pre-commit review would choose it, though no user feedback confirms this.'
+- id: req-full-jev-review-2026-10-07
+  project_slug: jev-review
+  level: full
+  reviewed_at: '2026-10-07T02:02:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决提交前代码评审这一高频刚性任务：人工读 diff 慢且易漏，通用 AI 对话结论散乱不可复核。公开仓库说明其以本地优先 MCP 插件形式，由 AI 代理分阶段检查并把结果汇总到本地看板，输入、动作与交付闭环可还原，属工作流结构推理；但尚无用户反馈证明痛点强度。
+    evidence_ids:
+    - ev-13289869dc65617b
+    - ev-fd5c76b90184fca0
+  - gate: consensus
+    status: insufficient
+    reason: 两个同名仓库分别有 231 与 658 星并缓慢增长，说明开发者社区已注意到该工作流，但星标只反映关注度，公开材料没有 issue、discussion 或评价说明谁在何种场景持续使用，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-13289869dc65617b
+    - ev-fd5c76b90184fca0
+    - ev-6c95597acbbe4619
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断钱来自 to C 开发者订阅、to B 团队采购还是 to VC；这是商业证据缺口，不反推需求不存在，但模式关只能判证据不足。
+    evidence_ids:
+    - ev-13289869dc65617b
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述为本地优先 MCP 插件，但公开材料未说明具体检查项、结果格式、误报处理与人工确认边界，交付能否稳定复现缺少可核对证据，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-fd5c76b90184fca0
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认具体检查阶段、结果格式及是否有开发者报告在真实提交流程中重复使用。
+  market: ''
+  job: 开发者在本地改完一批代码、准备提交或开 PR 前，把待评审的 diff 交给 AI 编码代理，由代理按阶段做质量检查，结果汇总到本地看板供人工确认后再提交。
+  job_en: Before committing or opening a PR, a developer hands the pending diff to an AI coding agent,
+    which runs staged quality checks and aggregates results into a local dashboard for human confirmation.
+  pain: 提交前评审是高频且不可跳过的环节：人工逐行读 diff 耗时，纯靠人眼容易漏掉边界与回归问题；把改动直接丢给通用 AI 助手又缺少分阶段、可复核的检查结构，评审结论散落在对话里无法沉淀。
+  pain_en: 'Pre-commit review is a high-frequency, hard-to-skip step: reading diffs line by line is slow
+    and error-prone, while dumping changes into a general AI assistant lacks staged, reviewable structure
+    and leaves findings scattered in chat.'
+  current_alternative: 当前替代是人工逐行读 diff、依赖 CI 静态检查与 linter、或在 PR 里等同事评审；也有人直接把 diff 贴进通用 AI 对话让模型泛泛点评。
+  current_alternative_en: Today developers read diffs manually, rely on CI static checks and linters,
+    wait for colleague review in the PR, or paste the diff into a general AI chat for loose commentary.
+  usage_reason: 推断：相较人工逐行读 diff 或把 diff 贴进通用对话，它把评审拆成固定阶段并由代理执行，结果落到本地看板，开发者不必自己组织检查顺序、也不必在对话记录里翻找结论，因此会在提交前需要一次结构化自检时选择它；但公开材料尚无用户反馈证明这一动机。
+  usage_reason_en: 'Inference: versus reading diffs manually or pasting them into a general chat, it fixes
+    the review into staged agent-run checks and lands results in a local dashboard, so the developer no
+    longer has to sequence the checks or hunt through chat history; public materials do not yet show user
+    feedback confirming this motive.'

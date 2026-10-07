@@ -1,6 +1,6 @@
 ---
 slug: amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes
-name: Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end
+name: Amazon Alexa Plus
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: An unsettling Alexa Plus bug has seen some Amazon Echo smart home speak
   what it's been doing. The […]
 first_seen: '2026-10-06T10:53:11Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end
+# Amazon Alexa Plus
 
 An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but "lalala" on repeat for minutes at a time, often in the middle of conversations with users. When quizzed about the behavior, Alexa is apparently entirely unaware of what it's been doing. The […]
 

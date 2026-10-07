@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/confidence-based-decision-fallbacks
 summary: ''
 first_seen: '2026-10-06T17:19:00Z'
 last_seen: '2026-10-07T01:32:54Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

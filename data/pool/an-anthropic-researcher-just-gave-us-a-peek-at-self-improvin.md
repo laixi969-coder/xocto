@@ -39,7 +39,7 @@ summary: Given 10 benchmarks for specific misaligned behaviors, the automated sy
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

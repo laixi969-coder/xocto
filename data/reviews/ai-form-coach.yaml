@@ -1,0 +1,90 @@
+- id: req-initial-ai-form-coach-2026-10-07
+  project_slug: ai-form-coach
+  level: initial
+  reviewed_at: '2026-10-07T01:32:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无人盯动作时数不清次数、节奏走样的问题，旧做法是默数或回看录像，痛点具体且反复发生，属工作流推理。
+    evidence_ids:
+    - ev-798bf44073e61f14
+  - gate: consensus
+    status: insufficient
+    reason: 仅约 53 星、无 fork，没有用户评价或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-798bf44073e61f14
+    - ev-1fea4869a4c3a087
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，开源项目可能靠捐赠或后续服务，买方是谁尚无公开材料。
+    evidence_ids:
+    - ev-798bf44073e61f14
+  - gate: truth
+    status: insufficient
+    reason: 姿态识别在真实居家光线与遮挡下的准确率、误计数后果由谁承担，均无公开验证材料。
+    evidence_ids:
+    - ev-798bf44073e61f14
+  next_validation: 收集该仓库的 issue、discussion 与 README 更新，确认是否披露识别准确率、部署方式或任何付费与商业使用信息。
+  market: ''
+  job: 居家训练者或小型健身工作室的教练，在没有私教现场盯动作的情况下，用摄像头拍下训练过程，需要知道做了多少次、节奏对不对，以便完成当天的训练计划。
+  job_en: A home trainee or a coach at a small studio, with no trainer watching live, films the session
+    and needs to know how many reps were done and whether the pacing is right in order to finish the day's
+    plan.
+  pain: 没人盯动作时容易数错次数、节奏走样，事后回看视频逐帧数很费时间；请私教按课时付费，长期成本高。
+  pain_en: Without someone watching, reps get miscounted and pacing drifts, and reviewing video frame
+    by frame afterwards is slow; hiring a trainer is billed per session and gets expensive over time.
+  current_alternative: 自己心里默数、用手机秒表计时、事后回看录像，或花钱请私教现场纠正。
+  current_alternative_en: Counting silently, using a phone stopwatch, reviewing recordings afterwards,
+    or paying a trainer to correct form in person.
+  usage_reason: 相较默数或回看录像，它把摄像头画面直接转成次数和语音提示，省掉事后逐帧核对这一步；推断居家训练者和预算有限的小工作室会因此选择它，但识别准确度与长期留存尚无公开证据。
+  usage_reason_en: Compared with counting silently or reviewing footage, it turns the camera feed directly
+    into rep counts and spoken cues, removing the step of checking frames afterwards; the inference is
+    that home trainees and budget-limited small studios would pick it, though accuracy and retention have
+    no public evidence yet.
+- id: req-full-ai-form-coach-2026-10-07
+  project_slug: ai-form-coach
+  level: full
+  reviewed_at: '2026-10-07T02:00:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无人盯动作时数不清次数、节奏走样的问题，旧做法是默数或回看录像，痛点具体且随每次训练反复发生；仓库说明已给出摄像头输入、关键点识别、次数与语音输出的闭环，属工作流结构推理，非用户采用事实。
+    evidence_ids:
+    - ev-798bf44073e61f14
+    - ev-1fea4869a4c3a087
+  - gate: consensus
+    status: insufficient
+    reason: 仅约 53 星、无 fork，也没有用户评价或社区讨论，只能说明有人关注，无法证明居家训练者或教练已把它纳入日常训练流程。
+    evidence_ids:
+    - ev-798bf44073e61f14
+    - ev-1fea4869a4c3a087
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、赞助或商业交付路径，开源项目可能靠捐赠或后续服务变现，谁付钱、按什么计费均无公开材料，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-798bf44073e61f14
+  - gate: truth
+    status: insufficient
+    reason: 真实居家光线与遮挡下的姿态识别准确率、误计数由谁承担后果、以及是否需人工复核，均无公开验证材料，承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-798bf44073e61f14
+  next_validation: 追踪该仓库的 README、issue 与 discussion 更新，确认是否披露识别准确率、部署方式或任何付费与商业使用信息。
+  market: ''
+  job: 居家训练者或小型健身工作室教练，在没有私教现场盯动作的情况下，用摄像头拍下训练过程，需要知道做了多少次、节奏对不对，以便完成当天训练计划。
+  job_en: A home trainee or small-studio coach, with no trainer watching live, films the session and needs
+    to know how many reps were done and whether pacing is right in order to finish the day's plan.
+  pain: 无人盯动作时容易数错次数、节奏走样，事后回看视频逐帧核对很费时间；请私教按课时付费，长期成本高。
+  pain_en: Without someone watching, reps get miscounted and pacing drifts; reviewing footage frame by
+    frame afterwards is slow, and per-session trainer fees add up over time.
+  current_alternative: 自己默数、用手机秒表计时、事后回看录像，或花钱请私教现场纠正。
+  current_alternative_en: Counting silently, using a phone stopwatch, reviewing recordings afterwards,
+    or paying a trainer to correct form in person.
+  usage_reason: 推断：相较默数或回看录像，它把摄像头画面直接转成次数与语音节奏提示，省掉事后逐帧核对这一步，因此预算有限的居家训练者和小工作室可能选择它；但识别准确度与长期留存尚无公开证据。
+  usage_reason_en: 'Inference: versus counting silently or reviewing footage, it turns the camera feed
+    directly into rep counts and spoken pacing cues, removing the frame-by-frame check; home trainees
+    and budget-limited small studios may therefore pick it, though accuracy and retention lack public
+    evidence.'

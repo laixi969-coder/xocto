@@ -1,6 +1,6 @@
 ---
 slug: sap-begins-joule-work-customer-rollout-and-debuts-sap-pay
-name: SAP Begins Joule Work Customer Rollout and Debuts SAP Pay
+name: SAP Joule Work
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNUkhFTXI2MTRu
 summary: SAP Begins Joule Work Customer Rollout and Debuts SAP Pay Unite.AI
 first_seen: '2026-10-06T11:49:05Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# SAP Begins Joule Work Customer Rollout and Debuts SAP Pay
+# SAP Joule Work
 
 SAP Begins Joule Work Customer Rollout and Debuts SAP Pay Unite.AI
 

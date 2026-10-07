@@ -247,3 +247,51 @@
   usage_reason_en: 'Inference: if always-on status at the screen edge does remove the terminal-switching
     step, developers running several sessions may choose it; however, no adoption, retention, or repeat-use
     evidence is provided, so the choice motive cannot be confirmed.'
+- id: req-full-coucou-2026-10-07
+  project_slug: coucou
+  level: full
+  reviewed_at: '2026-10-07T02:01:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多代理会话状态可见性与权限批准被阻塞的问题：会话长时间无人值守，权限请求或中断会卡住任务，开发者只能反复切回终端查看。公开仓库说明把状态与批准动作固定在刘海或屏幕顶部常驻区域，能还原旧流程与不采用后果，属工作流结构推理。
+    evidence_ids:
+    - ev-44f8c63705afeb89
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库自述与产品描述，未提供开发者实际采用、留存或重复使用的证据；仓库星标与关注度不能证明它已进入日常工作流。
+    evidence_ids:
+    - ev-44f8c63705afeb89
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未说明任何付费路径或买方，无法判断收入来自个人捐赠、企业支持还是托管服务；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-44f8c63705afeb89
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明它读取会话状态的机制是否可靠、是否会误报卡住或漏报等待批准，也未说明人工确认边界与安全处理方式。
+    evidence_ids:
+    - ev-44f8c63705afeb89
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，核对开发者反馈的状态误报、卡住识别、权限批准可靠性以及是否长期留在工作流中。
+  market: ''
+  job: 开发者在同时运行多个 Claude Code 等 AI 编码代理会话时，需要在不离开当前编辑器或工作窗口的情况下，确认每个会话是否仍在运行、是否卡住、是否在等待权限批准，并在需要时直接批准权限、投放文件或继续对话。
+  job_en: Developers running several AI coding agent sessions (e.g. Claude Code) need to confirm, without
+    leaving their current editor or work window, whether each session is still running, stuck, or waiting
+    for permission approval, and to approve permissions, drop files, or continue the conversation on the
+    spot.
+  pain: 代理会话运行时间长且无人值守，权限请求和中断会阻塞整个任务；开发者只能反复切回终端查看，容易漏掉等待批准的提示或长时间无输出，导致任务空转。
+  pain_en: Agent sessions run long and unattended, and permission requests or interruptions block the
+    whole task; developers must repeatedly switch back to the terminal and can miss approval prompts or
+    long silences, leaving work stalled.
+  current_alternative: 目前主要靠手动切换终端窗口查看日志输出，或依赖代理自身在终端里的提示与系统通知；部分人用多窗口平铺或 tmux 分屏来同时盯多个会话。
+  current_alternative_en: Today this is mostly done by manually switching terminal windows to read log
+    output, or relying on the agent's own terminal prompts and system notifications; some use tiled windows
+    or tmux panes to watch several sessions at once.
+  usage_reason: 推断：相较反复切换终端或平铺窗口，它把会话状态与权限批准动作固定在 macOS 刘海或屏幕顶部常驻区域，省去“切窗口—找会话—再切回”这一步，并让等待批准的会话在屏幕边缘直接可见可操作；因此同时跑多个代理会话、又不想离开当前编辑窗口的开发者会在这种情况下选择它。公开材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with repeatedly switching terminals or tiling windows, it pins
+    session status and permission-approval actions to a persistent area in the macOS notch or at the top
+    of the screen, removing the switch-window/find-session/switch-back step and making approval-waiting
+    sessions visible and actionable at the screen edge; developers running several agent sessions who
+    do not want to leave their current editor window would choose it in that situation. No retention o'

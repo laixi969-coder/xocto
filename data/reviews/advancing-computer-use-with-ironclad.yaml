@@ -1,0 +1,96 @@
+- id: req-initial-advancing-computer-use-with-ironclad-2026-10-07
+  project_slug: advancing-computer-use-with-ironclad
+  level: initial
+  reviewed_at: '2026-10-07T01:32:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同条款比对与审批流转的重复人工问题，痛点是漏改条款带来的法律风险，旧行为明确；买方与付费路径公开材料未披露。
+    evidence_ids:
+    - ev-542d391b0db25c1a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有双方合作公告，未见客户案例、使用规模或行业采购信号，共识卡在场景能否被法务团队实际接受这一环。
+    evidence_ids:
+    - ev-542d391b0db25c1a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按什么计价或买方是法务部门还是合同系统采购方，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-542d391b0db25c1a
+  - gate: truth
+    status: insufficient
+    reason: 合同工作对准确性和责任边界要求高，公开材料未说明人工复核与错误责任如何划分，交付确定性无法核对。
+    evidence_ids:
+    - ev-542d391b0db25c1a
+  next_validation: 收集 Ironclad 官方发布的该合作部署文档或客户案例页面，确认参与客户、人工复核环节与可核验的交付结果。
+  market: ''
+  job: 企业法务或合同运营人员在处理采购、销售合同时，需要在合同系统里逐条比对条款、走审批流转并归档，最终形成可签署、可追溯的合同文件。
+  job_en: Legal or contract-operations staff handling procurement and sales contracts must compare clauses
+    one by one inside a contract system, route approvals and archive them, ending with a signable, traceable
+    contract file.
+  pain: 合同条款比对和审批流转高度重复且依赖人工逐条核对，漏看或错改条款会带来法律与商业风险，而现有合同系统仍需人手动操作每一步。
+  pain_en: Clause comparison and approval routing are repetitive and depend on manual line-by-line checking;
+    a missed or wrongly edited clause creates legal and commercial risk, yet today's contract systems
+    still require a person to perform each step by hand.
+  current_alternative: 旧做法是法务人员在合同系统或文档里人工比对条款、邮件催审批、手工归档，部分团队用规则模板或关键词检索辅助。
+  current_alternative_en: The old way is for legal staff to compare clauses manually in a contract system
+    or documents, chase approvals by email and archive by hand, with some teams using rule templates or
+    keyword search as aids.
+  usage_reason: 推断：相较人工逐条比对，智能体若能在合同软件界面中直接执行条款比对与流转动作，可减少法务人员重复点击和跨系统搬运这一步负担，因此处理大量标准合同的法务运营团队会在批量审阅场景下选择它；但公开材料未给出客户案例或留存数据，实际采用动机仍待核验。
+  usage_reason_en: 'Inference: compared with manual line-by-line comparison, an agent that directly performs
+    clause comparison and routing inside contract software could remove the repetitive clicking and cross-system
+    copying step, so legal-operations teams handling many standard contracts would choose it for bulk
+    review; however, no customer case or retention data is public, so the actual adoption motive still
+    needs verification.'
+- id: req-full-advancing-computer-use-with-ironclad-2026-10-07
+  project_slug: advancing-computer-use-with-ironclad
+  level: full
+  reviewed_at: '2026-10-07T02:00:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同条款比对与审批流转的重复人工问题，痛点是漏改条款带来的法律与商业风险，旧替代行为明确；买方与付费路径公开材料未披露，属结构推理而非采用证据。
+    evidence_ids:
+    - ev-4a24e68469ff5589
+    - ev-c7cf15dd52cb1d5b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 Ironclad 自述服务超 2000 家客户及行业分析认可，未见该智能体合作被客户案例、使用规模或采购信号支持，共识卡在场景能否被法务团队实际接受。
+    evidence_ids:
+    - ev-4a24e68469ff5589
+    - ev-c7cf15dd52cb1d5b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式或买方是法务部门还是合同系统采购方，钱从哪来属判断而非已验证事实，存在只有合作叙事而无付费路径的风险。
+    evidence_ids:
+    - ev-4a24e68469ff5589
+  - gate: truth
+    status: insufficient
+    reason: 合同工作对准确性与责任边界要求高，公开材料未说明人工复核介入点与错误责任如何划分，交付确定性无法核对。
+    evidence_ids:
+    - ev-c7cf15dd52cb1d5b
+  next_validation: 追踪 Ironclad 官方发布的该合作部署文档或客户案例页面，确认参与客户、人工复核环节与可核验的交付结果。
+  market: ''
+  job: 企业法务或合同运营人员在处理采购、销售等合同时，需要在合同系统界面内逐条比对条款、走审批流转并归档，最终形成可签署、可追溯的合同文件。
+  job_en: Legal or contract-operations staff handling procurement and sales contracts must compare clauses
+    one by one inside a contract system, route approvals and archive them, ending with a signable, traceable
+    contract file.
+  pain: 条款比对与审批流转高度重复、依赖人工逐条核对，漏看或错改条款会带来法律与商业风险；现有合同系统仍需人手动完成每一步操作。
+  pain_en: Clause comparison and approval routing are repetitive and depend on manual line-by-line checking;
+    a missed or wrongly edited clause creates legal and commercial risk, yet today's contract systems
+    still require a person to perform each step by hand.
+  current_alternative: 旧做法是法务人员在合同系统或文档中人工比对条款、邮件催审批、手工归档，部分团队用规则模板或关键词检索辅助。
+  current_alternative_en: The old way is for legal staff to compare clauses manually in a contract system
+    or documents, chase approvals by email and archive by hand, with some teams using rule templates or
+    keyword search as aids.
+  usage_reason: 推断：相较人工逐条比对，智能体若能在合同软件界面中直接执行条款比对与流转动作，可减少法务人员重复点击和跨系统搬运这一步负担，因此处理大量标准合同的法务运营团队会在批量审阅场景下选择它；但公开材料未给出客户案例或留存数据，实际采用动机仍待核验。
+  usage_reason_en: 'Inference: compared with manual line-by-line comparison, an agent that directly performs
+    clause comparison and routing inside contract software could remove the repetitive clicking and cross-system
+    copying step, so legal-operations teams handling many standard contracts would choose it for bulk
+    review; however, no customer case or retention data is public, so the actual adoption motive still
+    needs verification.'

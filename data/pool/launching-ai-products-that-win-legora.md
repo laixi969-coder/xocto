@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9hNWI2bVJ4YWEt
 summary: 'Launching AI products that win: Legora Bessemer Venture Partners'
 first_seen: '2026-10-06T18:01:45Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

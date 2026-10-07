@@ -1,0 +1,91 @@
+- id: req-initial-applied-intuition-2026-10-07
+  project_slug: applied-intuition
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决车厂把 AI 功能落到量产车软件栈的需求，痛点是自研周期长、集成复杂，旧做法是内部自研或多家拼装。
+    evidence_ids:
+    - ev-cb2e5decdaab3836
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有入选名单与一则部署报道，缺少车厂侧公开评价或采用规模数据。
+    evidence_ids:
+    - ev-7e9b86b5613dca10
+    - ev-cb2e5decdaab3836
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与合同结构，买方应为车厂，但付费路径与计价方式在公开材料中不可见，属判断而非已验证事实。
+    evidence_ids:
+    - ev-cb2e5decdaab3836
+  - gate: truth
+    status: insufficient
+    reason: 部署范围、量产节点与人工介入边界未公开，交付确定性无法从现有材料核对。
+    evidence_ids:
+    - ev-cb2e5decdaab3836
+  next_validation: 收集日产与 Applied Intuition 官方发布的部署文档或客户案例页，核对 Vehicle OS 的具体交付范围与量产时间。
+  market: ''
+  job: 整车厂的车辆软件与电子电气架构工程师，在开发 AI 定义车辆时，需要把感知、控制与整车软件整合进量产车，交付可上路的软件栈。
+  job_en: Vehicle software and E/E architecture engineers at OEMs need to integrate perception, control
+    and vehicle software into production cars when building AI-defined vehicles, delivering a road-ready
+    software stack.
+  pain: 整车软件栈复杂且迭代快，车厂自研周期长、成本高，且难以跟上 AI 功能更新节奏。
+  pain_en: The vehicle software stack is complex and fast-moving; in-house development is slow and costly,
+    and hard to keep pace with AI feature updates.
+  current_alternative: 车厂内部自研整车软件平台，或分别采购多家供应商的模块再自行集成。
+  current_alternative_en: OEMs build their own vehicle software platform internally, or buy modules from
+    several suppliers and integrate them themselves.
+  usage_reason: 相较自研或多家拼装，Vehicle OS 把整车软件层作为可复用底座交付，减少车厂从零搭建与跨供应商集成的工作量；推断，车厂在需要快速推出 AI 定义车型时会选择它。
+  usage_reason_en: Compared with in-house builds or multi-vendor assembly, Vehicle OS delivers the vehicle
+    software layer as a reusable base, cutting the work of building from scratch and integrating across
+    suppliers; this is inference, and OEMs would choose it when they need to ship AI-defined models quickly.
+- id: req-full-applied-intuition-2026-10-07
+  project_slug: applied-intuition
+  level: full
+  reviewed_at: '2026-10-07T02:00:30Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 所给证据全部指向美国工业分销商 Applied 的门店定位与词典释义，未出现 Applied Intuition 产品说明、车企任务或痛点事实，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-da02ac74e0290b86
+    - ev-8173dc5bf2455c1e
+    - ev-f779d9e7c54f56d0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Applied Intuition 官网（appliedintuition.com）的 Vehicle OS 产品页与客户案例页，核对是否有车企部署范围与量产节点的公开披露。
+  market: ''
+  job: 候选摘要称车企车辆软件团队在开发 AI 定义车辆时，需把感知、控制与整车软件栈整合进量产车，由 Applied Intuition 的 Vehicle OS 承接；但所给证据全部指向美国工业分销商
+    Applied 与词典释义，无法还原谁在什么情况下处理什么材料、完成什么任务。
+  job_en: The candidate summary claims OEM vehicle software teams must integrate perception, control and
+    the full vehicle software stack into production cars when building AI-defined vehicles, with Applied
+    Intuition's Vehicle OS taking that layer; but all supplied evidence points to the US industrial distributor
+    Applied and a dictionary entry, so who does what, with which materials, to complete which task cannot
+    be reconstructed.
+  pain: 公开证据中没有出现任何车企软件团队的痛点陈述、抱怨或替代行为记录；摘要所述“自研周期长、集成复杂”在证据链中无对应事实，无法确认痛点存在及其刚性。
+  pain_en: No OEM software team pain statement, complaint or workaround record appears in the public evidence;
+    the summary's claim of long in-house cycles and complex integration has no corresponding fact in the
+    evidence chain, so the pain and its rigidity cannot be confirmed.
+  current_alternative: 证据中未出现任何车企现有做法，如内部自研、多家供应商拼装或采购第三方整车软件平台；无法说明用户今天如何绕过该问题。
+  current_alternative_en: No current OEM practice appears in the evidence, such as in-house development,
+    multi-vendor assembly or buying a third-party vehicle software platform; how users work around the
+    problem today cannot be described.
+  usage_reason: 由于证据未包含 Applied Intuition 的产品说明、部署文档或客户案例，无法解释相较旧做法它减少哪一步负担或改善哪项可核对结果，因此不能给出用户选择它的因果理由。
+  usage_reason_en: Because the evidence contains no Applied Intuition product description, deployment
+    documentation or customer case, which step it removes or which checkable result it improves versus
+    the old approach cannot be explained, so no causal reason for user choice can be given.

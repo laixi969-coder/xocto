@@ -1,0 +1,85 @@
+- id: req-initial-openai推出个人ai智能体dot挑战meta旗下muse-2026-10-07
+  project_slug: openai推出个人ai智能体dot挑战meta旗下muse
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决日常事务分散、需手动跟进的痛点，但候选只有一句标题，无法确认输入、动作与交付，价值结构尚不能成立。
+    evidence_ids:
+    - ev-11b2fd257c2ab351
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条转述报道，没有用户评价、使用数据或场景描述，无法判断卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-11b2fd257c2ab351
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，若为通用助手可能走订阅或捆绑分发，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-11b2fd257c2ab351
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其承诺能否确定性交付，也看不到人工确认与安全边界的设计。
+    evidence_ids:
+    - ev-11b2fd257c2ab351
+  next_validation: 收集 Dot 的官方产品页或发布说明，核验其可接入的数据源、可执行动作与定价方式。
+  market: ''
+  job: 普通用户在日常生活中把待办、日程、消息与信息整理交给一个个人智能体，希望它代为执行或汇总，而不是自己逐条处理。
+  job_en: Ordinary users hand to-dos, schedules, messages and information triage to a personal agent in
+    daily life, expecting it to act or summarize instead of handling each item themselves.
+  pain: 日常事务分散在多个应用与消息渠道，用户需要反复切换、手动记录和跟进，容易遗漏；候选材料未提供任何用户抱怨或采用证据，此痛点来自通用助手品类的结构推理。
+  pain_en: Daily tasks are scattered across apps and message channels, forcing repeated switching, manual
+    logging and follow-up that is easy to drop; the candidate provides no user complaints or adoption
+    evidence, so this pain is inferred from the general-assistant category.
+  current_alternative: 用户目前用手机自带助手、通用聊天机器人或手动待办清单处理同类事务；候选材料未说明 Dot 与这些做法的具体差异。
+  current_alternative_en: Users currently rely on built-in phone assistants, general chatbots or manual
+    to-do lists for similar tasks; the candidate does not explain how Dot differs from these.
+  usage_reason: 推断：若 Dot 能直接读取用户已有的消息与日程并在同一处完成记录、提醒与执行，用户可省去在多个应用间手动搬运信息这一步，因此会在事务密集、跨应用切换频繁时选择它；候选材料未给出功能细节，此因果链尚未被公开事实支持。
+  usage_reason_en: 'Inference: if Dot can read a user''s existing messages and calendar and complete logging,
+    reminders and execution in one place, users could skip manually moving information between apps, and
+    would choose it when tasks are dense and app-switching is frequent; the candidate gives no feature
+    detail, so this causal chain is not yet supported by public facts.'
+- id: req-full-openai推出个人ai智能体dot挑战meta旗下muse-2026-10-07
+  project_slug: openai推出个人ai智能体dot挑战meta旗下muse
+  level: full
+  reviewed_at: '2026-10-07T02:03:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选仅一句转述标题，未说明 Dot 的输入、动作与交付，也无可引用的用户痛点或替代行为，连解决什么需求、什么痛点都无法写出，价值结构不成立。
+    evidence_ids:
+    - ev-587ee7cacf2140d1
+    - ev-e871d9b922b1aaa8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OpenAI 官方渠道（openai.com 产品页或发布说明）是否出现 Dot 的正式条目，核验其可接入数据源、可执行动作与定价方式。
+  market: ''
+  job: 普通用户在日常生活中把待办、日程与信息整理交给一个个人智能体，希望它代为执行或汇总，而不是自己逐条处理。
+  job_en: Ordinary users hand to-dos, schedules and information triage to a personal agent in daily life,
+    expecting it to act or summarize instead of handling each item themselves.
+  pain: 候选材料只有一句转述标题，未说明 Dot 接收什么输入、执行哪些动作、交付什么结果，也没有任何用户抱怨、替代行为或采用证据，因此无法确认它究竟缓解哪一项具体痛点。
+  pain_en: The candidate offers only a single paraphrased headline; it does not state what inputs Dot
+    takes, what actions it performs, or what it delivers, and there are no user complaints, workaround
+    behavior or adoption evidence, so the specific pain it relieves cannot be identified.
+  current_alternative: 公开材料未描述用户当前用什么方式处理同类事务，也未说明 Dot 与手机自带助手、通用聊天机器人或手动待办清单的差异。
+  current_alternative_en: Public material does not describe how users currently handle such tasks, nor
+    how Dot differs from built-in phone assistants, general chatbots or manual to-do lists.
+  usage_reason: 无法给出使用理由：候选材料没有可核对的功能动作、交付结果或用户反馈，无法解释相较旧做法减少了哪一步负担，因此不构成可判断的选择因果。
+  usage_reason_en: 'No usage reason can be given: the candidate has no verifiable product action, delivery
+    outcome or user feedback, so it cannot explain which step of the old workflow is reduced, and no judgeable
+    choice causality exists.'

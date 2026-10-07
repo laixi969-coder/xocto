@@ -385,3 +385,46 @@
   usage_reason_en: No evidence explains why users would choose it; all attached evidence points to bicycles,
     birds, or travel-agency software, unrelated to media search, and feature descriptions alone are not
     adoption reasons.
+- id: req-full-tern-2026-10-07
+  project_slug: tern
+  level: full
+  reviewed_at: '2026-10-07T02:04:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称解决本地音视频多模态检索与 FCPXML 导出痛点，但全部证据指向自行车品牌、鸟类词条与旅行社软件，无一条来自该产品，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-f9db1016ed1b9970
+    - ev-3997313b24c89a06
+    - ev-e95904f885fe0e6c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品自身的官方仓库或发布页（README、release、issue/discussion），确认其真实名称、功能范围与是否存在用户使用记录。
+  market: ''
+  job: 视频剪辑师或播客制作人在整理本地历史音视频素材时，希望用自然语言定位特定台词、画面文字或视觉场景，裁切后导出 FCPXML 进入非编软件。
+  job_en: Video editors or podcasters working through local archives want to locate specific spoken lines,
+    on-screen text, or visual scenes by natural language, trim them, and export FCPXML into an NLE.
+  pain: 公开证据中没有任何一条来自该产品本身：现有证据全部指向 Tern 自行车、燕鸥鸟类词条和 Tern 旅行社软件，无法确认素材检索耗时、人工回放或云端上传隐私等痛点是否真实存在。
+  pain_en: 'No evidence comes from this product itself: all collected items point to Tern bicycles, the
+    bird genus, and Tern travel-agency software, so the claimed pain of slow manual scrubbing or cloud-upload
+    privacy cannot be confirmed.'
+  current_alternative: 无法从公开证据确认现有替代方式；候选摘要所述的人工回放与 Excel 记录时间戳属于产品自述，未获任何独立来源支持。
+  current_alternative_en: The current alternative cannot be confirmed from public evidence; the manual
+    scrubbing and spreadsheet timestamp logs described in the summary are product self-description with
+    no independent support.
+  usage_reason: 无法判断用户为何选择它：证据链中没有该产品的用户反馈、案例或采用记录，仅凭摘要无法建立与旧做法的因果对比。
+  usage_reason_en: 'Why users would choose it cannot be judged: the evidence chain contains no user feedback,
+    case, or adoption record for this product, so no causal comparison against the old workflow can be
+    built.'

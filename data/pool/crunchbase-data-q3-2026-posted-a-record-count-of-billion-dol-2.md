@@ -4,9 +4,12 @@ name: 'Crunchbase Data: Q3 2026 Posted A Record Count Of Billion-Dollar Rounds A
   Up'
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年第三季度，全球AI竞赛升温，十亿美元级融资轮次数量创下纪录。这意味着资本正以前所未有的规模涌入AI领域，推高算力、人才与模型研发的竞争强度，并可能抬高初创公司的估值与获客成本。
 inspiration: ''
-summary_en: ''
+summary_en: In Q3 2026, the global AI race intensified as the number of billion-dollar funding rounds
+  hit a record. This means capital is flowing into AI at an unprecedented scale, raising the intensity
+  of competition for compute, talent and model development, and potentially lifting startup valuations
+  and customer-acquisition costs.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +26,7 @@ summary: 'Crunchbase Data: Q3 2026 Posted A Record Count Of Billion-Dollar Round
   Heats Up Crunchbase News'
 first_seen: '2026-10-05T11:00:13Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

@@ -247,3 +247,56 @@
     or skip to a markdown file so the seeker can grep and diff their own filtering and submission history,
     removing the repeated comparison and repeated form-filling steps; hence seekers in an intensive application
     period who are sensitive to hard constraints like visa and location would '
+- id: req-full-seekter-2026-10-07
+  project_slug: seekter
+  level: full
+  reviewed_at: '2026-10-07T02:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者每日跨来源筛选职位与重复填写申请表单的需求，痛点是筛选与录入两段机械劳动且投递记录不可检索；旧替代是手工浏览、表格记录与逐份填表。公开说明已能还原输入、动作与交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 44 增至 53，说明开发者社区有关注，但收藏与排名只属关注度证据，不能证明目标求职者持续使用或把它留在工作流里；缺少 issue、discussion 或用户评价说明真实使用场景。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+    - ev-e844765578e9bcc5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；作为开源 Claude Code 代理，钱可能来自个人订阅、企业招聘方或纯开源维护，这是判断而非已验证事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  - gate: truth
+    status: insufficient
+    reason: 在本人 Chrome 中自动填写并提交申请涉及平台条款与账号安全边界，公开材料未说明提交前是否需人工确认、失败重试与反自动化限制；交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  next_validation: 追踪 seekter 仓库的 issue 与 discussion，确认是否有用户报告实际投递量、跳过规则命中情况或表单填写失败案例，以核验交付稳定性与持续使用。
+  market: ''
+  job: 求职者在集中投递期（如换工作、毕业求职、跨国求职）每天处理多个招聘来源的职位列表，按地点、签证、薪资、行业、资历、语言等自定规则筛选出可投职位，并在本人 Chrome 中逐份填写申请表单，同时保留每份申请或跳过的记录。
+  job_en: During an intensive search period (job change, graduation, cross-border search), a job seeker
+    processes postings from multiple sources daily, filters them against self-defined rules (location,
+    visa, salary, sector, seniority, language), fills application forms one by one in their own Chrome,
+    and keeps a record of every application or skip.
+  pain: 公开材料显示的核心痛点是筛选与重复填表两段机械劳动：职位分散在多个来源、规则维度多（签证、薪资、地点等），且每份申请表单都要重复录入相同信息；跳过或申请缺乏可检索记录，难以复盘投递策略。公开材料未给出不采用的具体代价或频率量化。
+  pain_en: 'The stated pain is the mechanical labor of two stages: filtering and repetitive form filling.
+    Postings are scattered across sources, the rule dimensions are many (visa, salary, location), and
+    each application form re-enters the same information; skips and applications lack a searchable record,
+    making it hard to review strategy. Public materials give no quantified cost or frequency.'
+  current_alternative: 旧做法是求职者自己在各招聘网站逐条浏览、用表格或笔记手工记录已投与跳过，再逐份手动填写表单；也可能使用招聘平台的站内提醒或通用自动填表插件，但这些不覆盖跨来源规则过滤与可
+    diff 的投递记录。
+  current_alternative_en: 'The old approach is manual: browsing each job board, tracking applications
+    and skips in a spreadsheet or notes, and filling each form by hand; possibly using site-native alerts
+    or generic autofill extensions, which do not cover cross-source rule filtering or a diffable application
+    log.'
+  usage_reason: 相较手工逐条浏览与重复填表，该代理每天自动抓取并按用户自定规则过滤，把不符合条件的职位直接跳过，再在用户本人 Chrome 会话中填写表单，并把每次申请或跳过写成可 grep、可
+    diff 的 markdown 文件。这样减少的是“逐条筛选”和“重复录入”两步负担，并让投递记录可核对；推断在集中投递期、规则维度多（如签证、薪资）的求职者会因此选择它。公开材料未提供用户反馈或留存证据，此为工作流结构推理。
+  usage_reason_en: 'Compared with manual browsing and repeated form entry, the agent fetches and filters
+    daily against the user''s own rules, skips non-matching postings, fills forms inside the user''s own
+    Chrome session, and writes each application or skip as a grep-able, diffable markdown file. This removes
+    the ''filter one by one'' and ''re-enter the same data'' steps and makes the application log checkable;
+    the inference is that seekers with many rule dimensions (visa, salary) during an intensive '

@@ -427,3 +427,44 @@
   usage_reason_en: 'No usage reason can be inferred from public evidence: there is no product repository,
     documentation, issue, review, or adoption record, only encyclopedia pages about the animal pig, so
     no causal link to reduced burden versus the old approach can be established.'
+- id: req-full-pig-2026-10-07
+  project_slug: pig
+  level: full
+  reviewed_at: '2026-10-07T02:03:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称把上游 Pi 的 TypeScript 编码代理按行为对齐翻译成 Go，但全部公开证据均为家猪的动物学百科条目，与编码代理部署无关，无法还原用户任务、痛点、旧替代或不解决的后果。
+    evidence_ids:
+    - ev-c6b4fc5cece160b3
+    - ev-70980844836522b4
+    - ev-6587afc85e5b83b7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 PiG 的官方代码仓库 README、release 与 issue/discussion，确认其是否真实存在、上游 Pi 的对应关系及可复现的部署方式。
+  market: ''
+  job: 开发者在自建或受限运行环境中部署编码代理时，需要把原 TypeScript 代理换成可编译、易分发的 Go 版本并保持行为一致。
+  job_en: Developers deploying a coding agent in self-hosted or constrained runtime environments need
+    a compilable, easily distributed Go build of the original TypeScript agent while keeping behavior
+    identical.
+  pain: 公开材料未提供任何用户痛点证据：现有证据全部是关于家猪的动物学百科内容，与编码代理的部署、分发或行为对齐无关。
+  pain_en: 'Public materials provide no user pain evidence: all available evidence is zoological encyclopedia
+    content about domestic pigs, unrelated to coding-agent deployment, distribution, or behavioral parity.'
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users complete this job today or what existing
+    approach it replaces.
+  usage_reason: 无法从公开证据说明用户为何选择它：现有证据与产品任务无关，缺少可归因到该产品的用户反馈、案例或使用记录。
+  usage_reason_en: 'No public evidence explains why users would choose it: available evidence is unrelated
+    to the product''s task, with no attributable user feedback, cases, or usage records.'

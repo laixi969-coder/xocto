@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOdG8tQTdPdl9u
 summary: 高通CEO定调“智能体之年”，新品牌Dragonfly亮相，股价却重挫近9% TradingKey
 first_seen: '2026-10-06T04:27:19Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

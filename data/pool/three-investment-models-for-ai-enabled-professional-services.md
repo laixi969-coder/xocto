@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUkJtZzR0RHlf
 summary: Three Investment Models for AI-Enabled Professional Services HackerNoon
 first_seen: '2026-10-06T20:31:05Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,90 @@
+- id: req-initial-hadrian-raises-40m-to-tackle-ai-driven-cyber-threats-2026-10-07
+  project_slug: hadrian-raises-40m-to-tackle-ai-driven-cyber-threats
+  level: initial
+  reviewed_at: '2026-10-07T01:32:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决渗透测试排期长、覆盖不全、漏洞验证滞后的痛点，交付是可复核的风险清单，旧行为明确存在。
+    evidence_ids:
+    - ev-7f55a45743195ae8
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资信息，没有客户采用、续约或安全团队实际使用的证据。
+    evidence_ids:
+    - ev-7f55a45743195ae8
+  - gate: model
+    status: insufficient
+    reason: 买方应是企业安全预算，但公开材料未披露定价、计价方式或付费客户，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7f55a45743195ae8
+  - gate: truth
+    status: insufficient
+    reason: 自动化攻击性测试涉及授权边界与误报风险，公开材料未说明人工复核与合规约束如何落地。
+    evidence_ids:
+    - ev-7f55a45743195ae8
+  next_validation: 收集 Hadrian 官方定价页或公开客户案例，确认计价方式与是否有企业安全团队实际部署。
+  market: ''
+  job: 企业安全工程师或外部渗透测试团队在季度或合规要求的测试窗口内，处理目标系统与网络资产，要完成攻击面探测、漏洞验证并交付可复核的风险清单。
+  job_en: Enterprise security engineers or external penetration-testing teams, within quarterly or compliance-driven
+    test windows, work on target systems and network assets to complete attack-surface probing, vulnerability
+    validation and a reviewable risk list.
+  pain: 人工渗透测试排期长、成本高、覆盖不全，漏洞从出现到被验证之间往往有较长空窗，合规审计又要求持续可追溯的测试记录。
+  pain_en: Manual penetration testing is slow to schedule, expensive and incomplete in coverage; vulnerabilities
+    often sit unverified for long windows, while compliance audits demand continuous, traceable testing
+    records.
+  current_alternative: 雇佣渗透测试公司做周期性人工测试，或采购传统漏洞扫描器，再由安全工程师人工复核扫描结果。
+  current_alternative_en: Hiring penetration-testing firms for periodic manual engagements, or buying
+    traditional vulnerability scanners and having security engineers manually review the scan output.
+  usage_reason: 相较排期数周的人工测试，它把探测与漏洞验证这一步交给自动化执行，安全团队拿到的是已验证的问题清单而非原始扫描噪声，因此需要高频合规测试或人手不足的安全团队会在测试窗口内选择它；这是基于产品能力与任务结构的推断，尚无客户案例或留存证据。
+  usage_reason_en: Compared with manual engagements that take weeks to schedule, it automates the probing
+    and vulnerability-validation step so teams receive a validated issue list rather than raw scanner
+    noise; teams facing frequent compliance tests or thin staffing would choose it in a test window. This
+    is an inference from product capability and task structure, with no customer case or retention evidence
+    yet.
+- id: req-full-hadrian-raises-40m-to-tackle-ai-driven-cyber-threats-2026-10-07
+  project_slug: hadrian-raises-40m-to-tackle-ai-driven-cyber-threats
+  level: full
+  reviewed_at: '2026-10-07T02:02:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据中 hadrian.co 官网与关于页均描述“重建美国工业实力、扩大制造业产出”，与安全工程师渗透测试任务无关；另有古罗马皇帝百科页和通用 AI 助手页，均不能还原用户任务、痛点、旧替代或不采用的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-dfdf85f5c2257aa5
+    - ev-bca93a6361c8b848
+    - ev-8e7f0c6bc9cc2692
+    - ev-e34c4327c56782d7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Hadrian 官方产品页与安全业务子站（如 hadrian.io 或官方文档）是否公开渗透测试/攻击面管理功能说明、定价页或客户案例，以确认其安全产品线与制造业叙事是否为同一实体。
+  market: ''
+  job: 待核验：现有证据中的 hadrian.co 页面描述的是美国制造业产能重建，与安全工程师执行渗透测试的任务无关；无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: 'Unverified: the hadrian.co pages in evidence describe rebuilding American manufacturing output,
+    unrelated to security engineers running penetration tests; it cannot be confirmed who handles what
+    material in what situation to complete what task.'
+  pain: 待核验：证据中没有安全团队渗透测试排期、覆盖或漏洞验证相关的痛点陈述，只有制造业产能叙事与无关的百科、AI 助手页面。
+  pain_en: 'Unverified: the evidence contains no pain statement about penetration-test scheduling, coverage
+    or vulnerability validation, only manufacturing-output narratives and unrelated encyclopedia/AI-assistant
+    pages.'
+  current_alternative: 待核验：没有公开材料说明安全团队当前用人工渗透测试、漏洞扫描器还是其他方式替代该产品。
+  current_alternative_en: 'Unverified: no public material states whether security teams currently substitute
+    with manual penetration testing, vulnerability scanners or anything else.'
+  usage_reason: 待核验：现有证据无法说明该产品通过什么具体动作减少哪一步负担，也无法说明哪类用户会在什么情况下选择它；融资信息只属关注度，不能解释使用动机。
+  usage_reason_en: 'Unverified: the evidence cannot explain what concrete action reduces which step''s
+    burden, nor which users would choose it in what situation; funding news is attention evidence only
+    and cannot explain usage motivation.'

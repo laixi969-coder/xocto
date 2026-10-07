@@ -1,0 +1,87 @@
+- id: req-initial-boltnew-acquires-ai-startup-dokai-to-strengthen-enterprise-a-2026-10-07
+  project_slug: boltnew-acquires-ai-startup-dokai-to-strengthen-enterprise-a
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业内从需求到可运行代码这一段，痛点是通用生成器不懂私有代码库导致产出无法直接评审，旧做法是手工搭建加人工改写。
+    evidence_ids:
+    - ev-00f97f37ef7533cc
+  - gate: consensus
+    status: insufficient
+    reason: 材料只有收购标题，没有企业客户采用、留存或付费证据，无法判断企业侧是否已形成使用共识。
+    evidence_ids:
+    - ev-00f97f37ef7533cc
+  - gate: model
+    status: insufficient
+    reason: 推断：买方应为有内部系统的企业软件团队，但收购金额、定价与收费方式均未披露，付费路径无法核验。
+    evidence_ids:
+    - ev-00f97f37ef7533cc
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 Dokai 的技术如何接入私有代码库与权限体系，交付能否确定性发生无法核对。
+    evidence_ids:
+    - ev-00f97f37ef7533cc
+  next_validation: 收集 Bolt.new 官方关于 Dokai 收购的公告或企业版产品文档，确认其是否支持接入私有代码库与权限审批。
+  market: ''
+  job: 企业应用开发工程师在需要把内部系统改动快速做成可运行版本时，处理既有代码库与需求描述，要产出可部署、可评审的变更。
+  job_en: Enterprise application developers, when they need to turn internal system changes into a runnable
+    version quickly, work from existing repositories and requirement descriptions to produce deployable,
+    reviewable changes.
+  pain: 企业内改动往往卡在从需求到可运行代码这一段，人工手写慢，而通用生成工具不了解私有代码库与内部规范，产出无法直接进入评审。
+  pain_en: 'Inside enterprises, changes often stall between requirement and runnable code: hand-writing
+    is slow, while general generators do not know private repositories or internal conventions, so output
+    cannot go straight into review.'
+  current_alternative: 旧做法是工程师手工搭建脚手架与页面，或使用不了解私有代码库的通用生成工具，再人工改写以符合内部规范。
+  current_alternative_en: The old way is engineers hand-building scaffolding and pages, or using general
+    generators that do not know the private codebase, then manually rewriting to fit internal conventions.
+  usage_reason: 推断：若收购带来的 agent 能力能让工具接入企业私有仓库与审批流程，用户就省去把生成结果手工搬进内部规范这一步，因此有内部系统、又需要快速出可评审变更的团队会考虑它；目前缺少整合后的公开产品说明，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if the acquired agent capability lets the tool connect to enterprise private
+    repositories and approval flows, users skip the step of manually moving generated output into internal
+    conventions, so teams with internal systems that need reviewable changes quickly would consider it;
+    public documentation of the integrated product is missing, so this causal link is unproven.'
+- id: req-full-boltnew-acquires-ai-startup-dokai-to-strengthen-enterprise-a-2026-10-07
+  project_slug: boltnew-acquires-ai-startup-dokai-to-strengthen-enterprise-a
+  level: full
+  reviewed_at: '2026-10-07T02:00:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决从需求描述到可运行前端项目这一段，痛点是手工搭建慢、生成结果错误多需反复修；官网称自动测试、重构和迭代减少错误，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-a96d86f5627b1094
+  - gate: consensus
+    status: insufficient
+    reason: 材料只有收购标题与官网功能说明，没有企业客户采用、留存或付费证据，无法判断企业侧是否已形成使用共识。
+    evidence_ids:
+    - ev-a96d86f5627b1094
+  - gate: model
+    status: insufficient
+    reason: 推断：买方应为有内部系统的企业软件团队，但收购金额、Dokai 产品形态、定价与收费方式均未披露，付费路径无法核验。
+    evidence_ids:
+    - ev-a96d86f5627b1094
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 Dokai 技术如何接入私有代码库与权限体系，企业级 agent 的交付能否确定性发生无法核对。
+    evidence_ids:
+    - ev-a96d86f5627b1094
+  next_validation: 收集 Bolt.new 官方关于 Dokai 收购的公告或企业版产品文档，确认其是否支持接入私有代码库与权限审批。
+  market: ''
+  job: 开发者或产品人员在需要快速搭出可运行原型时，用自然语言描述需求，得到可预览、可部署的前端项目。
+  job_en: Developers or product staff, when they need a runnable prototype quickly, describe requirements
+    in natural language and get a previewable, deployable front-end project.
+  pain: 从想法到可运行代码这一段手工搭建慢，且生成结果常带错误需要反复修，拖慢验证节奏。
+  pain_en: The stretch from idea to runnable code is slow to hand-build, and generated output often carries
+    errors that need repeated fixing, slowing validation.
+  current_alternative: 手工搭建脚手架与页面，或使用通用生成工具后再人工改写。
+  current_alternative_en: Hand-building scaffolding and pages, or using general generators and then manually
+    rewriting.
+  usage_reason: 推断：Bolt 自动测试、重构和迭代以减少错误，用户省去把生成结果逐处手工修错这一步，因此需要快速验证想法的开发者或产品人员会在原型阶段选择它；公开材料未提供企业侧采用或留存证据。
+  usage_reason_en: 'Inference: Bolt automatically tests, refactors, and iterates to reduce errors, sparing
+    users the step of manually fixing generated output, so developers or product staff needing fast validation
+    would choose it at the prototype stage; public materials lack enterprise adoption or retention evidence.'

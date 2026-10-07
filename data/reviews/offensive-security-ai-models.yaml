@@ -359,3 +359,54 @@
     the list may save users the step of searching model hubs one by one, so researchers doing local authorized
     testing may bookmark it; however, no user statements or cases support this motive, and star growth
     reflects attention only, not sustained use.'
+- id: req-full-offensive-security-ai-models-2026-10-07
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-07T02:03:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权渗透测试中挑选可本地部署未审查模型的需求，痛点是云端模型拒答导致攻击面验证中断、逐个试装成本高；仓库简介与星标增长为公开事实，任务闭环为工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-8afa7ea88090cc6b
+    - ev-fe60d1cf4ee2c5ef
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 524 升至 611，说明开发者社区持续关注，但星标只属关注度证据，缺少 issue、discussion 或客户案例说明谁在何种场景实际采用并替代了旧流程。
+    evidence_ids:
+    - ev-8afa7ea88090cc6b
+    - ev-45bf914e2498c134
+    - ev-fe60d1cf4ee2c5ef
+  - gate: model
+    status: insufficient
+    reason: 这是开源清单仓库，公开材料未见定价、赞助、商业授权或企业采购路径；谁付钱、以何种方式付费均未核验，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-8afa7ea88090cc6b
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明清单收录哪些模型、如何部署、产出什么结果，也未给出授权使用与安全边界说明，交付能否稳定发生缺乏可复现证据。
+    evidence_ids:
+    - ev-8afa7ea88090cc6b
+    - ev-c9696259a60bd46b
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认是否列出具体模型、部署方式与授权使用边界说明，作为交付可确定性的公开证据。
+  market: ''
+  job: 安全研究员或红队在获得客户书面授权的渗透测试中，需要挑选可本地部署、不受云端审查限制的模型，用来自动生成攻击面梳理、payload 变体或漏洞验证脚本，最终交付可复现的测试结论。
+  job_en: Security researchers or red teams, holding written client authorization for a penetration test,
+    need to pick locally deployable models without cloud-side refusal so they can generate attack-surface
+    mapping, payload variants, or exploit-validation scripts and deliver reproducible findings.
+  pain: 公开事实显示该仓库定位为集中列出未审查或安全微调模型；结构推理：云端商用模型对攻击性提示频繁拒答，研究员只能逐个模型试装、比对许可与本地推理可行性，筛选成本高且结果不可预期，授权测试窗口内无法稳定拿到可用模型。
+  pain_en: 'Public fact: the repo positions itself as a curated list of uncensored or security-fine-tuned
+    models. Structural inference: hosted commercial models frequently refuse offensive prompts, so researchers
+    must trial-install models one by one and compare licenses and local-inference feasibility, making
+    selection costly and unpredictable within an authorized test window.'
+  current_alternative: 旧做法是研究员凭个人经验在 公开模型社区 等平台逐个搜索、试装模型，或直接使用会拒答的云端商用模型并手工改写提示绕过限制。
+  current_alternative_en: The old approach is ad-hoc searching and trial-installing models on public model
+    community by personal experience, or using hosted commercial models that refuse and manually rewriting
+    prompts to work around refusals.
+  usage_reason: 推断：相较逐个试装，该清单把候选模型集中到一处，减少的是“先知道有哪些可选项”这一步检索负担，使研究员在授权测试开始时能更快锁定可本地部署的候选；仓库星标从 524 增至
+    611 只说明关注度上升，不能证明持续使用。
+  usage_reason_en: 'Inference: versus trial-installing one by one, the list centralizes candidates, cutting
+    the ''first learn what options exist'' search step so researchers can lock onto locally deployable
+    candidates faster at test kickoff; stars rising from 524 to 611 shows attention, not sustained use.'

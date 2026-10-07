@@ -138,3 +138,58 @@
     actions, removing the step of staying at the device and clicking through; individuals who need cross-device
     repetition yet fear mistakes would choose it in that situation. Public materials show no user feedback,
     retention or customer cases, so long-term workflow retention is unconfirmed.'
+- id: req-full-nanomuse-2026-10-07
+  project_slug: nanomuse
+  level: full
+  reviewed_at: '2026-10-07T02:03:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无 API 应用只能手动逐步操作、任务在应用关闭后中断、自动化动作难撤回这三类痛点；公开材料说明它在手机本地跑 Linux 根文件系统、shell、浏览器与 MCP，无 API
+      时通过屏幕操作应用，并在不可撤销操作前确认，交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-3726de0b535c3be3
+    - ev-afbb748f6e69a338
+    - ev-b0cd287646b9d0dd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有开源仓库与官网的功能自述，未见用户评价、issue 讨论或客户案例说明谁在什么场景持续使用；关注度不等于场景共识，强场景目前只能靠结构推理。
+    evidence_ids:
+    - ev-3726de0b535c3be3
+    - ev-b0cd287646b9d0dd
+  - gate: model
+    status: insufficient
+    reason: 官网称内置免费模型额度，也可接入任意 OpenAI 兼容模型，但未披露定价、订阅或企业采购路径；钱可能来自个人订阅、模型额度转售或 to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b0cd287646b9d0dd
+    - ev-a6a8be8ae7563384
+  - gate: truth
+    status: insufficient
+    reason: 常驻执行与不可撤销前确认的设计贴近安全边界，但缺少部署文档、可复现实测或用户反馈来核对它在真实设备上能否确定性完成动作、误操作率如何。
+    evidence_ids:
+    - ev-afbb748f6e69a338
+    - ev-1fff6c443935f374
+  next_validation: 追踪 nanoMuse 官方 公开代码仓库 仓库的 issue 与 discussion，核对用户实际提交的任务类型、执行失败与误操作反馈，以验证常驻执行与确认边界的确定性交付。
+  market: ''
+  job: 个人用户在自己的手机、电脑或浏览器上，把跨应用的日常操作（如无 API 的应用界面操作、跨设备搬运信息、重复性点击）交给一个常驻智能体，由它调用本机 shell、浏览器、MCP 与技能执行动作，应用关闭后仍继续跑，遇到不可撤销操作先确认，最终交付已执行的动作或待确认提示。
+  job_en: An individual hands cross-app routine operations on their own phone, computer or browser (e.g.
+    driving apps through their screens when no API exists, moving information across devices, repeating
+    clicks) to a resident agent that uses a local shell, browser, MCP and skills, keeps running after
+    the app closes, asks before irreversible actions, and delivers executed actions or a confirmation
+    prompt.
+  pain: 公开材料支持的痛点：许多应用没有 API，用户只能手动在界面上一遍遍点；任务在应用关闭后中断，需要人守着；自动化动作一旦出错难以撤回，用户不敢放手。
+  pain_en: 'Pain supported by public materials: many apps have no API, so users click through screens
+    by hand; tasks stop when the app closes and need someone watching; automated actions are hard to undo
+    once wrong, so users dare not let go.'
+  current_alternative: 当前替代方式：用户手动逐步操作，或用系统快捷指令、脚本、通用对话助手；这些要么需要 API 与编程，要么只在对话里给答案而不在设备上执行，也缺少常驻执行与不可撤销前的确认边界。
+  current_alternative_en: 'Current alternatives: manual step-by-step operation, or system shortcuts, scripts
+    and general chat assistants; these either need APIs and coding, or only answer in chat without acting
+    on the device, and lack resident execution plus a confirmation boundary before irreversible actions.'
+  usage_reason: 推断：相较手动逐步点击或只能对话的助手，nanoMuse 把执行放进手机上的 Linux 根文件系统、shell 与浏览器，并在无 API 时通过屏幕操作应用，从而省掉用户守在设备前逐步点击这一步；不可撤销操作前先确认，让不敢放手自动化的用户愿意在无人值守场景下使用。公开材料尚无用户反馈、留存或客户案例，采用动机属结构推断。
+  usage_reason_en: 'Inference: versus manual clicking or chat-only assistants, nanoMuse puts execution
+    inside a Linux root filesystem, shell and browser on the phone and drives apps through their screens
+    when no API exists, removing the step of staying at the device clicking through; asking before irreversible
+    actions lets users who dare not hand over automation use it unattended. Public materials contain no
+    user feedback, retention or customer cases, so the adoption motive is a structural infer'

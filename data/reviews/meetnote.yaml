@@ -1,0 +1,88 @@
+- id: req-initial-meetnote-2026-10-07
+  project_slug: meetnote
+  level: initial
+  reviewed_at: '2026-10-07T01:32:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决会议记录与待办遗漏的问题，痛点真实；但公开材料只有一句描述，说不清输入、动作与交付闭环，也未说明人工确认环节。
+    evidence_ids:
+    - ev-8d461c7e99a8ed61
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页外没有采用、评价或客户案例，无法判断参会者是否愿意为“无机器人”这一点改变原有记录习惯。
+    evidence_ids:
+    - ev-8d461c7e99a8ed61
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 个人订阅还是 to B 团队采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8d461c7e99a8ed61
+  - gate: truth
+    status: insufficient
+    reason: 会议记录的第一性目标是准确还原决定与待办，材料未说明转写准确度、说话人区分与人工校对边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-8d461c7e99a8ed61
+  next_validation: 收集 MeetNote 官方定价页或客户案例，确认其计费方式与是否有团队采购记录。
+  market: ''
+  job: Google Meet 参会者在会议进行时，需要把口头讨论转成可回看的会议记录与待办，用于会后跟进。
+  job_en: Google Meet participants need to turn spoken discussion into reviewable meeting notes and action
+    items during the call, for post-meeting follow-up.
+  pain: 会议内容靠人边听边记，容易漏掉决定和待办；派录音机器人进会议又会让对方感到被记录，产生合规与观感顾虑。
+  pain_en: People take notes while listening, so decisions and action items get missed; sending a recording
+    bot into the call makes the other side feel recorded, raising compliance and perception concerns.
+  current_alternative: 人工速记、会后凭记忆补写纪要，或使用会派机器人入会的会议记录工具。
+  current_alternative_en: Manual shorthand, reconstructing notes from memory after the call, or meeting-note
+    tools that send a bot into the call.
+  usage_reason: 推断：相较派机器人入会，它不引入可见的第三方参会者，减少了会前解释和对方同意这一步；相较人工记录，它把边听边写变成会后直接拿到纪要。但公开材料只有一句产品描述，没有定价、客户案例或重复使用证据，无法确认用户是否真的把它留在工作流里。
+  usage_reason_en: 'Inference: compared with sending a bot, it adds no visible third participant, removing
+    the step of explaining and getting consent; compared with manual notes, it replaces writing while
+    listening with receiving notes afterwards. But the public material is a single product line with no
+    pricing, customer cases or repeat-use evidence, so it cannot be confirmed that users keep it in their
+    workflow.'
+- id: req-full-meetnote-2026-10-07
+  project_slug: meetnote
+  level: full
+  reviewed_at: '2026-10-07T02:02:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Google Meet 参会者边听边记易漏决定与待办、且不愿派机器人入会引发合规与观感顾虑的问题；旧做法是人工速记或机器人入会，不解决的后果是纪要缺失与对方被记录的不适，痛点刚性、交付可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-8d461c7e99a8ed61
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页一句描述外，没有采用、评价或客户案例，无法判断参会者是否愿意为“无机器人”这一点改变原有记录习惯；公开关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-8d461c7e99a8ed61
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 个人订阅还是 to B 团队采购无法判断，这是判断而非已验证事实；但买方不清不取消需求成立。
+    evidence_ids:
+    - ev-8d461c7e99a8ed61
+  - gate: truth
+    status: insufficient
+    reason: 会议记录的第一性目标是准确还原决定与待办，材料未说明转写准确度、说话人区分与人工校对边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-8d461c7e99a8ed61
+  next_validation: 收集 MeetNote 官方定价页或客户案例，确认其计费方式与是否有团队采购记录。
+  market: ''
+  job: Google Meet 参会者在会议进行时，需要把口头讨论转成可回看的会议记录与待办，用于会后跟进，同时不希望有可见的录音机器人进入会议。
+  job_en: Google Meet participants need to turn spoken discussion into reviewable meeting notes and action
+    items during the call for post-meeting follow-up, without a visible recording bot joining the meeting.
+  pain: 会议内容靠人边听边记，容易漏掉决定和待办；派录音机器人入会又会让对方感到被记录，产生合规与观感顾虑。
+  pain_en: People take notes while listening, so decisions and action items get missed; sending a recording
+    bot into the call makes the other side feel recorded, raising compliance and perception concerns.
+  current_alternative: 人工速记、会后凭记忆补写纪要，或使用会派机器人入会的会议记录工具。
+  current_alternative_en: Manual shorthand, reconstructing notes from memory after the call, or meeting-note
+    tools that send a bot into the call.
+  usage_reason: 推断：相较派机器人入会，它不引入可见的第三方参会者，减少了会前解释和取得对方同意这一步；相较人工记录，它把边听边写变成会后直接拿到纪要。但公开材料只有一句产品描述，没有定价、客户案例或重复使用证据，无法确认用户是否真的把它留在工作流里。
+  usage_reason_en: 'Inference: compared with sending a bot, it adds no visible third participant, removing
+    the step of explaining and getting consent; compared with manual notes, it replaces writing while
+    listening with receiving notes afterwards. But the public material is a single product line with no
+    pricing, customer cases or repeat-use evidence, so it cannot be confirmed that users keep it in their
+    workflow.'

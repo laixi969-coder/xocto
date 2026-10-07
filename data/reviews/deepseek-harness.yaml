@@ -613,3 +613,55 @@
     plugin boundaries that make tools, memory, and interface replaceable units, so swapping one capability
     does not require touching the rest; developers who need to compose assistant capabilities per task
     would choose it for local deployment.'
+- id: req-full-deepseek-harness-2026-10-07
+  project_slug: deepseek-harness
+  level: full
+  reviewed_at: '2026-10-07T02:01:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地助手工具、记忆、界面被绑死、换模型或换任务需整体重搭的问题；公开材料仅说明这些是 Harness 内部组件，痛点强度属工作流结构推理，尚无用户抱怨或案例佐证，但任务、旧替代与不解决的后果可还原。
+    evidence_ids:
+    - ev-5840b25641c4aac7
+    - ev-5db71f42cf38b388
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有 dsh-libreoffice-kit 与 dsh-node-addon-require-builtin 两个内部组件的仓库收藏数，从 87 增至 142、9 增至
+      11，说明开发者有关注，但无 issue、discussion 或用户评价证明目标用户持续采用。
+    evidence_ids:
+    - ev-5840b25641c4aac7
+    - ev-55ca550f46f8fe4a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断收入来自 to C、to B 还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-5840b25641c4aac7
+  - gate: truth
+    status: insufficient
+    reason: 公开证据只表明组件被 Harness 内部使用，未见部署文档、可复现实测或安全与人工边界说明，交付能否稳定发生尚缺公开材料。
+    evidence_ids:
+    - ev-5db71f42cf38b388
+    - ev-0a3467a7f9e36c41
+  next_validation: 追踪 DeepSeek Harness 官方文档与仓库 issue/discussion，确认插件化工具、记忆、界面在真实部署中替代了哪种旧流程及是否被持续使用。
+  market: ''
+  job: 开发者或技术用户在本地电脑上运行 DeepSeek 助手，需要把助手的工具调用、记忆存储和交互界面按自己的任务替换成不同插件，从而组装出可控的本地助手工作流。
+  job_en: Developers or technical users run a DeepSeek assistant on their own machine and need to swap
+    the assistant's tool-calling, memory storage, and interface as pluggable add-ons to assemble a controllable
+    local assistant workflow.
+  pain: 公开材料只说明这些组件是 Harness 的内部组件，未给出用户抱怨、频率或不采用代价；从工作流结构推理，本地助手若工具、记忆、界面被绑死，用户换模型或换任务时只能整体重搭，这是可识别的摩擦，但强度尚未被用户材料证实。
+  pain_en: Public materials only describe these as internal components of Harness, with no user complaints,
+    frequency, or cost of not adopting; by workflow inference, a local assistant with hard-wired tools,
+    memory, and UI forces users to rebuild the whole stack when switching models or tasks, a recognizable
+    friction whose intensity is not yet confirmed by user evidence.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的旧做法是直接使用单体式本地助手或云端助手，工具、记忆与界面无法单独替换。
+  current_alternative_en: Public materials do not show how users do this today; the structurally inferable
+    alternative is a monolithic local or cloud assistant whose tools, memory, and interface cannot be
+    swapped independently.
+  usage_reason: 推断：相较整体重搭单体助手，插件化让用户只替换需要变动的工具、记忆或界面组件，减少重写整条助手链路的负担；因此会在需要频繁切换模型或任务的技术用户中出现选择动机，但公开证据仅显示仓库收藏数增长，尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus rebuilding a monolithic assistant, pluggability lets users replace
+    only the tool, memory, or UI component that needs to change, cutting the burden of rewriting the whole
+    assistant chain; this creates a selection motive for technical users who switch models or tasks often,
+    but public evidence only shows rising repository stars, with no user feedback or case confirming the
+    motive.'

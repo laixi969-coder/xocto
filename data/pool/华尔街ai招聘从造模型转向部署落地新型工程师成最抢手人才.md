@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2NVNWUXZKU2g2
 summary: 华尔街AI招聘从“造模型”转向“部署落地”，新型工程师成最抢手人才 华尔街见闻
 first_seen: '2026-10-05T12:24:12Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

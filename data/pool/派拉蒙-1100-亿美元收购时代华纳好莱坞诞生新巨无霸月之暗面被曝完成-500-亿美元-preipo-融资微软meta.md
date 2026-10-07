@@ -1,6 +1,6 @@
 ---
 slug: 派拉蒙-1100-亿美元收购时代华纳好莱坞诞生新巨无霸月之暗面被曝完成-500-亿美元-preipo-融资微软meta
-name: 派拉蒙 1100 亿美元收购时代华纳，好莱坞诞生新巨无霸；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude
+name: Skydance
 builder: ''
 category: ''
 summary_zh: ''
@@ -79,7 +79,7 @@ summary: "2026 诺贝尔物理学奖揭晓：把一立方公里南极冰变成�
   \ \n 从 666 美元到最高估价 80 万美元，50 年间身价翻了约 1200 倍，堪称理财神器。拍卖前该电脑曾在洛杉矶、波士顿、旧金山和纽约进行公开展示。（来源：快科技）"
 first_seen: '2026-10-07T00:39:21Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -90,7 +90,7 @@ sightings:
   kind: news
 ---
 
-# 派拉蒙 1100 亿美元收购时代华纳，好莱坞诞生新巨无霸；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude
+# Skydance
 
 2026 诺贝尔物理学奖揭晓：把一立方公里南极冰变成望远镜，打开「中微子天文学」 
  10 月 6 日，2026 年诺贝尔物理学奖授予比利时裔美国物理学家 Francis Halzen，以表彰其「对 IceCube 中微子天文台的决定性贡献，以及发现来自天体的高能中微子」。 

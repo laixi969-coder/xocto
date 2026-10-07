@@ -1,6 +1,6 @@
 ---
 slug: langchain-ai-langchain-langchain-core167
-name: 'langchain-ai/langchain: langchain-core==1.6.7'
+name: langchain-core
 builder: langchain-ai
 category: ''
 summary_zh: ''
@@ -36,7 +36,7 @@ summary: 'Changes since langchain-core==1.6.6
   chore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/core (#40970)'
 first_seen: '2026-10-06T15:47:08Z'
 last_seen: '2026-10-07T01:32:31Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -48,7 +48,7 @@ sightings:
   kind: news
 ---
 
-# langchain-ai/langchain: langchain-core==1.6.7
+# langchain-core
 
 Changes since langchain-core==1.6.6
 

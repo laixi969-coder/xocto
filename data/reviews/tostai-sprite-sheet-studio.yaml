@@ -268,3 +268,54 @@
     and atlas layout into one video-in, sheet-out action, removing the per-frame handling and manual packing
     steps, so indie developers or artists who only have a clip and do not want frame-by-frame retouching
     would pick it for character actions; public materials do not yet confirm this motive via user feedback.'
+- id: req-full-tostai-sprite-sheet-studio-2026-10-07
+  project_slug: tostai-sprite-sheet-studio
+  level: full
+  reviewed_at: '2026-10-07T02:04:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把原始视频转成引擎可用精灵图集这一具体任务，痛点在于逐帧切分、去背景与对齐排图是重复机械劳动且易错；公开仓库说明输入输出闭环，属工作流结构推理，痛点刚性与交付确定性可判，但无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+    - ev-17573bda2246596b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 增至 72 并出现复刻，说明社区注意到它，但收藏与排名只属关注度证据，不能证明目标美术或开发者已把它留在日常动画流程里持续使用。
+    evidence_ids:
+    - ev-0e74b4c5f2ed2011
+    - ev-6e49541db8d2a4a9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费记录或买方说明，无法判断钱来自独立开发者自付、工作室采购还是开源赞助；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-8fb532530e47cf29
+  - gate: truth
+    status: insufficient
+    reason: 仓库仅给出视频到精灵图集的一句话说明，帧率、去背景与对齐规则、成品是否需人工修正均未公开，交付能否稳定发生缺少可复现证据。
+    evidence_ids:
+    - ev-17573bda2246596b
+    - ev-ceb59a19cd92bca7
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开帧率、去背景与对齐规则，以及是否有开发者贴出实际导入引擎的成品或使用反馈。
+  market: ''
+  job: 独立游戏开发者或游戏美术在制作角色动画时，手上只有一段实拍或渲染好的原始视频，需要把它切成逐帧序列并排成游戏引擎可用的精灵图集，再导入引擎做动画。
+  job_en: An indie game developer or game artist who has only a raw captured or rendered video of a character
+    animation needs to slice it into frame sequences and lay them out as an engine-ready sprite sheet
+    for import into the game engine.
+  pain: 公开材料只说明输入是原始视频、输出是游戏可用精灵图集，未披露用户抱怨；从工作流结构推理，手工逐帧导出、去背景、对齐并排图集是重复且易错的机械步骤，帧数越多返工成本越高，这是推断而非用户口述。
+  pain_en: Public materials only state the input is raw video and the output is a game-ready sprite sheet,
+    with no user complaints disclosed; by workflow inference, manual frame export, background removal,
+    alignment and atlas packing are repetitive, error-prone mechanical steps whose rework cost grows with
+    frame count. This is inference, not user testimony.
+  current_alternative: 公开材料未说明现有替代方式；按同类工作流推断，开发者通常用 ffmpeg 或视频软件切帧，再在 Photoshop 或 TexturePacker 一类工具里手动去背景、对齐并排图集，或直接手绘逐帧动画。
+  current_alternative_en: Public materials do not describe current alternatives; by analogy with the same
+    workflow, developers typically slice frames with ffmpeg or video software, then manually remove backgrounds,
+    align and pack atlases in tools like Photoshop or TexturePacker, or hand-draw frame-by-frame animation.
+  usage_reason: 推断：相较 ffmpeg 加手工排图的多步流程，该工具把切帧与图集排布合并为一次视频输入到图集输出的动作，减少中间导出与手动排布环节，因此手上已有视频素材、又不想逐帧手工处理的独立开发者或美术会在做角色动画时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with the multi-step ffmpeg-plus-manual-packing flow, the tool
+    merges frame slicing and atlas layout into a single video-in, sheet-out action, cutting intermediate
+    exports and manual packing, so indie developers or artists who already have video footage and want
+    to avoid frame-by-frame manual work would choose it for character animation; no public user feedback
+    yet confirms this motive.'

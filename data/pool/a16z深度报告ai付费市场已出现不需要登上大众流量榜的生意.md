@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4UEtfeHN2VjlX
 summary: a16z深度报告：AI付费市场，已出现不需要登上大众流量榜的生意 华尔街见闻
 first_seen: '2026-10-06T05:44:23Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

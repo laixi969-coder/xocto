@@ -1,0 +1,86 @@
+- id: req-initial-hark-releases-an-ai-personal-assistant-with-a-focus-on-priva-2026-10-07
+  project_slug: hark-releases-an-ai-personal-assistant-with-a-focus-on-priva
+  level: initial
+  reviewed_at: '2026-10-07T01:32:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有隐私定位和竞品名单，价值关无法成立。
+    evidence_ids:
+    - ev-e9f1b23017c4f602
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有公开采用、评价或场景共识材料。
+    evidence_ids:
+    - ev-e9f1b23017c4f602
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-e9f1b23017c4f602
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-e9f1b23017c4f602
+  next_validation: 收集 Hark 官方产品页或发布说明，确认其具体使用场景、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境、处理对象与要完成的任务，无法还原一个可核对的使用场景。
+  job_en: Public material does not identify the user, situation, material handled or task to be completed,
+    so no verifiable use scenario can be reconstructed.
+  pain: 唯一被点出的痛点是隐私顾虑，但没有说明这种顾虑在哪个具体任务上造成损失或额外步骤。
+  pain_en: The only pain named is privacy concern, without saying which concrete task it costs time or
+    causes extra steps in.
+  current_alternative: 报道称其与 Muse、Dots、Instinct 竞争，说明用户可能已在用其他个人助理，但现有资料未描述旧做法具体是什么。
+  current_alternative_en: Coverage says it competes with Muse, Dots and Instinct, implying users may already
+    use other assistants, but the old practice is not described.
+  usage_reason: 现有材料只给出隐私定位与竞品名单，没有说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法判断用户为何选择它；这是判断，不是已验证事实。
+  usage_reason_en: The material gives only a privacy positioning and a competitor list, not which step
+    it removes or which checkable result it improves versus the old practice, so why users would choose
+    it cannot be judged; this is a judgement, not verified fact.
+- id: req-full-hark-releases-an-ai-personal-assistant-with-a-focus-on-priva-2026-10-07
+  project_slug: hark-releases-an-ai-personal-assistant-with-a-focus-on-priva
+  level: full
+  reviewed_at: '2026-10-07T02:02:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来：官网只有“最先进的个人智能”与“让 Hark 处理”这类口号，登录页也无输入材料、动作与交付结果，隐私定位未落到任何具体任务上，价值关无法成立。
+    evidence_ids:
+    - ev-a93ce7013454936b
+    - ev-10a1992a3dbfa7a6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Hark 官网产品页与发布说明（含定价页、功能文档或客户案例），确认其具体输入材料、执行动作与交付结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开 Hark、处理什么材料、要完成什么任务；官网仅有“building the most advanced personal intelligence”与登录页“let
+    Hark handle it”这类口号，无法还原一个可核对的使用场景。
+  job_en: Public material does not say who opens Hark, in what situation, handling what material, to complete
+    what task; the site offers only slogans like 'building the most advanced personal intelligence' and
+    'let Hark handle it', so no verifiable use scenario can be reconstructed.
+  pain: 唯一被点出的痛点是隐私顾虑，但没有说明这种顾虑出现在哪个具体任务上、造成哪一步额外负担或哪项结果损失；产品能力描述不能当作痛点证据。
+  pain_en: The only pain named is privacy concern, without saying which concrete task it appears in, which
+    extra step it adds, or which outcome it costs; product capability copy is not pain evidence.
+  current_alternative: 公开材料把它与 Muse、Dots、Instinct 并列，并检索到 ChatGPT、Gemini、Perplexity 等通用助手，说明用户可能已在用其他个人助理，但旧做法具体是什么、Hark
+    替换哪一步均未描述。
+  current_alternative_en: Public material lists it alongside Muse, Dots and Instinct, and search surfaces
+    general assistants such as ChatGPT, Gemini and Perplexity, implying users may already use other assistants,
+    but the old practice and which step Hark replaces are not described.
+  usage_reason: 现有材料只给出隐私定位与竞品名单，没有说明它相较旧做法减少哪一步负担或改善哪项可核对结果，因此无法判断哪类用户会在什么情况下选择它；这是判断，不是已验证事实。
+  usage_reason_en: The material gives only a privacy positioning and a competitor list, not which step
+    it removes or which checkable result it improves versus the old practice, so which users would choose
+    it and when cannot be judged; this is a judgement, not verified fact.

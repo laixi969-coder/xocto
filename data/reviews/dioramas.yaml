@@ -254,3 +254,47 @@
     sources are guides for making physical miniature dioramas and museum display cases, with nothing on
     this framework''s asset generation, orchestration, or deployment flow, and no user feedback or adoption
     records.'
+- id: req-full-dioramas-2026-10-07
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-07T02:01:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决三维发布页素材生成与站点编排分散、周期长的问题，旧做法是分段外包建模与前端；不采用则小团队难在发布节点前上线。属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-5a538a53e255aa56
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库231星标与20个示例站点，属关注度与供给证据，不能证明持续采用或强场景；公开材料未见用户评价或客户案例。
+    evidence_ids:
+    - ev-5a538a53e255aa56
+  - gate: model
+    status: insufficient
+    reason: 项目为免费开源框架，公开材料未披露定价、买方或付费路径；谁付钱只能推断为使用该框架的团队或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5a538a53e255aa56
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明AI生成素材的版权归属、人工确认环节与上线后维护边界，交付确定性无法核验；仓库描述仅列技术栈与示例数量。
+    evidence_ids:
+    - ev-5a538a53e255aa56
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有团队用它交付真实商业站点，以及素材版权与部署环节的公开记录。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理AI生成的三维素材与网页代码，要完成一个可交互、可上线的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store, when building a product launch page,
+    work with AI-generated 3D assets and web code to produce an interactive, deployable 3D showcase site.
+  pain: 公开材料未直接记录用户抱怨；从工作流结构看，三维发布页过去需分别完成建模、贴图与前端编排，环节多、周期长，小团队难以在发布节点前交付。
+  pain_en: Public material records no direct user complaint; structurally, a 3D launch page used to require
+    separate modeling, texturing and front-end orchestration steps, making it slow and hard for small
+    teams to deliver before a launch date.
+  current_alternative: 外包三维建模与前端开发，或使用通用网页模板再手工嵌入模型。
+  current_alternative_en: Outsourcing 3D modeling and front-end development, or using generic web templates
+    with manually embedded models.
+  usage_reason: 推断：相较分别外包建模与前端，它把AI素材生成与三维站点编排放进同一开源框架并提供20个示例站点，可能减少对接与拼装环节；但公开材料未说明实际节省步骤与产出质量，属基于能力的判断。
+  usage_reason_en: 'Inference: compared with separately outsourcing modeling and front-end, it puts AI
+    asset generation and 3D site orchestration into one open-source framework with 20 example sites, potentially
+    cutting coordination and assembly steps; but the public material does not state steps actually saved
+    or output quality, so this is a capability-based judgment.'

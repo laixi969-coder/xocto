@@ -1,6 +1,6 @@
 ---
 slug: tech-mahindra-将-build-with-gemini-推出至-12500-多名员工
-name: Tech Mahindra 将 Build with Gemini 推出至 12,500 多名员工
+name: Tech Mahindra
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxQOHJCSnVCbmNU
 summary: Tech Mahindra 将 Build with Gemini 推出至 12,500 多名员工 Unite.AI
 first_seen: '2026-10-06T13:57:57Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Tech Mahindra 将 Build with Gemini 推出至 12,500 多名员工
+# Tech Mahindra
 
 Tech Mahindra 将 Build with Gemini 推出至 12,500 多名员工 Unite.AI
 

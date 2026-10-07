@@ -362,3 +362,53 @@
     fork with monitoring and telemetry already removed and upstream commits reviewed one by one, turning
     'prove the tool is clean' from self-verification into a ready-to-inspect artifact. This is inference
     from product capability and task structure, not confirmed user feedback.
+- id: req-full-zcodium-2026-10-07
+  project_slug: zcodium
+  level: full
+  reviewed_at: '2026-10-07T02:04:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把 AI 编码工具接入内部代码库前的合规审查需求：工具若含监控遥测，代码与使用数据可能外流，团队无法签字放行，逐提交自审又极耗时。ZCodium 移除遥测并逐条审阅上游提交，交付可自行核对的版本，属工作流结构推理，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-e611d651adc4def9
+    - ev-03a47624e2431f44
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 202 增至 218，说明社区持续关注该分支，但收藏与关注只属规模信号，公开材料没有用户评价、issue 或案例说明团队已把它留在合规工作流里，持续采用尚未核验。
+    evidence_ids:
+    - ev-e611d651adc4def9
+    - ev-c7e48a4faae060ff
+  - gate: model
+    status: insufficient
+    reason: 这是开源审计分支，公开材料未见定价页、付费主体或采购记录，钱可能来自企业自建支持、赞助或纯社区维护，属判断而非已验证事实；买方路径不清降低商业证据档，但不推翻需求成立。
+    evidence_ids:
+    - ev-e611d651adc4def9
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺“已移除监控与遥测、逐提交审阅”，但公开材料未给出可复现的审计方法、版本对应关系或安全边界说明，交付能否稳定发生尚缺可核对证据。
+    evidence_ids:
+    - ev-e611d651adc4def9
+    - ev-3193590c7aa300d5
+  next_validation: 追踪 ZCodium 仓库的 issue、discussion 与 release 说明，确认是否有团队公开报告将其用于代码库合规审查及审计方法可复现。
+  market: ''
+  job: 开发团队在把 AI 编码工具接入内部代码库前，由安全/合规工程师或技术负责人处理上游 ZCode 的源码与提交历史，要完成一次可自行核对的工具链合规审查，确认没有监控与遥测回传代码与使用数据。
+  job_en: Before wiring an AI coding tool into an internal codebase, a security/compliance engineer or
+    tech lead works through upstream ZCode source and commit history to complete a self-verifiable toolchain
+    compliance review confirming no monitoring or telemetry exfiltrates code and usage data.
+  pain: AI 编码工具会接触私有代码库，若工具内含监控或遥测，代码与使用数据可能外流，团队在合规与安全评审上无法签字放行；逐提交自行审计上游又极其耗时，这是接入前的硬性阻塞点。
+  pain_en: AI coding tools touch private repositories; if the tool ships monitoring or telemetry, code
+    and usage data can leak and the team cannot sign off on compliance and security review, while auditing
+    every upstream commit by hand is extremely costly — a hard blocker before adoption.
+  current_alternative: 当前替代方式是团队自行逐提交审计上游 ZCode 源码、依赖厂商的隐私声明与信任，或干脆禁止接入该工具；这些做法要么成本高，要么无法自行核对。
+  current_alternative_en: Today teams either audit upstream ZCode commit by commit themselves, rely on
+    the vendor's privacy claims and trust, or simply ban the tool; these are costly or not independently
+    verifiable.
+  usage_reason: 相较自行逐提交审计或依赖厂商声明，ZCodium 直接移除监控与遥测并逐条审阅上游提交，把“先证明工具干净”这一步变成可自行核对的现成分支，因此需要把 AI 编码工具接入受控代码库、又必须留下可审计依据的安全与合规团队会在评审阶段选择它（推断，基于产品能力与任务结构）。
+  usage_reason_en: Compared with auditing every commit themselves or trusting vendor claims, ZCodium removes
+    monitoring and telemetry and reviews upstream commits one by one, turning 'first prove the tool is
+    clean' into a ready-made, self-verifiable fork; security and compliance teams that must wire an AI
+    coding tool into a controlled codebase and leave an auditable trail would therefore pick it at review
+    time (inference from product capability and task structure).

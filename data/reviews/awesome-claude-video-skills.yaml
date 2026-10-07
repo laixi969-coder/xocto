@@ -348,3 +348,47 @@
     anything, so users still pick, install, and bear the agent''s actual tool-calling results. Versus
     using editing software or an existing skill package directly, it removes no verifiable step, so it
     is hard to explain which users would choose it and when.'
+- id: req-full-awesome-claude-video-skills-2026-10-07
+  project_slug: awesome-claude-video-skills
+  level: full
+  reviewed_at: '2026-10-07T02:00:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是“编码代理用户找视频技能包”的检索需求，而非剪辑师拼接素材的痛点；公开材料只有分类与安全评级，没有说明谁在什么情况下非用它不可、不用的代价，属于可看可不看的清单，价值刚性不足。
+    evidence_ids:
+    - ev-b68fc3bc70d9a5f0
+    - ev-45c30d8c5865983b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该清单仓库的 issue 与 discussion，确认是否有剪辑师或短视频运营报告实际用某个技能包完成成片、替代了哪一步旧流程。
+  market: ''
+  job: 视频剪辑师或短视频运营在需要批量产出成片时，打开这份清单，从 180 个仓库中按类型挑选一个视频技能包，装进 Claude Code、Codex 等编码代理，由代理读取素材并调用工具渲染出视频。
+  job_en: A video editor or short-video operator who needs to produce finished clips at volume opens this
+    list, picks one video skill package by type from 180 repos, installs it into Claude Code, Codex or
+    another coding agent, and lets the agent read the footage and call tools to render the video.
+  pain: 公开材料只说明清单做分类和安全评级，没有说明剪辑师在拼接素材、套模板或导出成片时具体卡在哪一步、多久发生一次、不解决会损失什么；仓库星标增长只反映开发者关注，不是剪辑工作流的痛点证据。
+  pain_en: Public materials only say the list categorizes and security-grades repos; they do not show
+    which step of cutting, templating or exporting actually blocks editors, how often it happens, or what
+    is lost if unsolved. Star growth reflects developer attention, not editing-workflow pain.
+  current_alternative: 剪辑师当前用 Premiere、剪映、DaVinci 等剪辑软件手工拼接，或直接用 Runway、Pika 等生成式视频工具；清单本身不替代这些工具，只是把可选的代理技能包汇总起来。
+  current_alternative_en: Editors today cut manually in Premiere, CapCut or DaVinci, or use generative
+    tools such as Runway and Pika. The list does not replace those tools; it only aggregates optional
+    agent skill packages.
+  usage_reason: 推断：编码代理用户可能因为不想逐个搜索和审查视频技能包，而用这份带安全评级的分类清单省去筛选步骤；但对剪辑师而言，清单不产出成片，也不减少剪辑软件里的任何一步操作，因此没有证据表明他们会把它留在日常工作流里。
+  usage_reason_en: 'Inference: coding-agent users may use this security-graded categorized list to skip
+    searching and vetting video skill packages one by one. But for editors the list produces no finished
+    video and removes no step inside editing software, so there is no evidence they would keep it in a
+    daily workflow.'

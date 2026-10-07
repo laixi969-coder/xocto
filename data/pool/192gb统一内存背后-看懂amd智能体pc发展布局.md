@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE40UDhiVHpHb1VP
 summary: 192GB统一内存背后 看懂AMD智能体PC发展布局 热点科技
 first_seen: '2026-10-04T22:04:08Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

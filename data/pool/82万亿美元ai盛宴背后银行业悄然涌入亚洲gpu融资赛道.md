@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE83R1YzY2c1MFpj
 summary: 8.2万亿美元AI盛宴背后，银行业悄然涌入亚洲GPU融资赛道 华尔街见闻
 first_seen: '2026-10-06T03:17:57Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

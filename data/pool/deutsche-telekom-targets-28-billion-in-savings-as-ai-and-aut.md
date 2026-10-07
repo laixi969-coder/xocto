@@ -1,6 +1,6 @@
 ---
 slug: deutsche-telekom-targets-28-billion-in-savings-as-ai-and-aut
-name: Deutsche Telekom Targets $2.8 Billion in Savings as AI and Automation Reshape Telecom Operations
+name: Deutsche Telekom
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Deutsche Telekom Targets $2.8 Billion in Savings as AI and Automation R
   Spherical Insights
 first_seen: '2026-10-06T13:25:42Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Deutsche Telekom Targets $2.8 Billion in Savings as AI and Automation Reshape Telecom Operations
+# Deutsche Telekom
 
 Deutsche Telekom Targets $2.8 Billion in Savings as AI and Automation Reshape Telecom Operations Spherical Insights
 

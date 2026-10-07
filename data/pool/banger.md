@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/banger-mail
 summary: Win and keep customers with email automation your AI runs
 first_seen: '2026-10-02T17:59:37Z'
 last_seen: '2026-10-07T01:32:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

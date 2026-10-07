@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9YTWRDbXVjdWRO
 summary: 全球债市风暴暂缓 美股再创新高 AI芯片与融资热潮延续 美国中文网
 first_seen: '2026-10-06T23:00:44Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

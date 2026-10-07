@@ -452,3 +452,46 @@
     researchers might adopt it to reduce the burden of building scripts themselves; however, no input,
     action, or deliverable is disclosed, so it cannot be confirmed which step it removes versus existing
     practice.'
+- id: req-full-uplifting-biomolecular-modeling-2026-10-07
+  project_slug: uplifting-biomolecular-modeling
+  level: full
+  reviewed_at: '2026-10-07T02:04:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅显示这是 Anthropic 发布的生物分子建模相关仓库，未说明谁在什么工作节点打开、AI 接收什么输入、执行什么动作、产出什么交付，无法还原用户任务、痛点与不解决的后果。
+    evidence_ids:
+    - ev-99fb8373c3f611c2
+    - ev-386b43e44ca9bedc
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它接收什么输入、执行什么动作、产出什么交付，以及是否有用户描述替代了哪一步旧流程。
+  market: ''
+  job: 生物医药研究者或计算药物发现工程师在需要构建、评估或改进生物分子模型时，打开该仓库获取代码与示例，完成建模或药物发现相关的计算任务。
+  job_en: Biomedical researchers or computational drug-discovery engineers open this repository to obtain
+    code and examples when building, evaluating, or improving biomolecular models, completing modeling
+    or drug-discovery computation tasks.
+  pain: 公开材料只显示这是 Anthropic 发布的一个生物分子建模相关仓库，未说明具体由谁在什么工作节点打开、AI 接收什么输入、执行什么动作、产出什么交付，因此无法确认用户痛点、发生频率或不解决的后果。
+  pain_en: Public materials only show that this is an Anthropic-published repository related to biomolecular
+    modeling; they do not state who opens it at which workflow step, what input the AI receives, what
+    action it performs, or what deliverable it produces, so user pain, frequency, and consequences remain
+    unconfirmed.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明该仓库替代了什么旧流程或工具。
+  current_alternative_en: Public materials do not state how users currently complete this job, nor what
+    prior workflow or tool this repository replaces.
+  usage_reason: 现有证据仅有仓库收藏数从 319 增至 329 的规模信号，属于关注度而非使用理由；缺少用户反馈或案例说明相较旧做法减少了哪一步负担，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: The only evidence is a star count rising from 319 to 329, which is an attention signal
+    rather than a usage reason; without user feedback or cases showing which step burden is reduced versus
+    the old approach, it is impossible to explain which users would choose it and when.

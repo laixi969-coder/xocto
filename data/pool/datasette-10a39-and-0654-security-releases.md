@@ -3,12 +3,11 @@ slug: datasette-10a39-and-0654-security-releases
 name: Datasette
 builder: ''
 category: ''
-summary_zh: Datasette 是一个开源的数据发布与探索工具，本次是安全补丁版本发布，不是新产品。值得注意的变化是维护者把前沿模型引入代码安全审计，并称模型帮助发现了非常隐蔽的缺陷，随后由两名人类开发者分别写测试与实现修复。
+summary_zh: Datasette 是开源的数据发布与查询工具，本次变化是发布安全补丁版本，并把前沿模型引入安全审计流程；这属于开源项目的维护与安全实践变化，不是新的独立产品。
 inspiration: ''
-summary_en: Datasette is an open-source tool for publishing and exploring data; this is a security patch
-  release rather than a new product. The notable change is that the maintainer brought frontier models
-  into code security auditing, saying they surfaced very subtle bugs, with two human developers splitting
-  test-writing and fix implementation.
+summary_en: Datasette is an open-source data publishing and query tool; this change is a security patch
+  release plus the adoption of frontier models in its security audit process. It is a maintenance and
+  security-practice change in an open-source project, not a new standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -37,7 +36,7 @@ summary: "Datasette 1.0a39 and 0.65.4 security releases   \nToday we're releasin
   \ ,  generative-ai ,  llms ,  agentic-engineering ,  ai-security-research"
 first_seen: '2026-09-11T03:27:16Z'
 last_seen: '2026-10-07T01:32:55Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
