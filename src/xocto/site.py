@@ -54,6 +54,7 @@ from .models import (
     today,
 )
 from .dedupe import mention_key, title_key, url_host
+from .official_links import official_site_url
 from .i18n import LOCALES, Locale, other
 from .report import ReportDoc, parse_report, split_stat
 from .editorial import has_context_copy
@@ -810,7 +811,7 @@ def _external_url(product: Product) -> str:
     只在它是产品自己的域名时才给 —— 指向聚合站页面的链接既暴露了采集来源，
     对用户也没价值（那不是产品官网）。
     """
-    return _public_page_url(product.url)
+    return _public_page_url(official_site_url(product))
 
 
 def _stage(product: Product) -> str:
