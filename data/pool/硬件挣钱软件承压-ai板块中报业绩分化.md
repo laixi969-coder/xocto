@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxPNEFQNmRHQU1B
 summary: 硬件挣钱软件承压 AI板块中报业绩分化 经济参考报
 first_seen: '2026-08-28T01:01:31Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

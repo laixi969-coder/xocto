@@ -503,3 +503,88 @@
   usage_reason_en: Only feature claims and generic AI product comparison pages were retrieved; without
     concrete tasks, deliverables or usage feedback, there is no basis to explain which user would choose
     it under what circumstances. The available evidence is insufficient even for an inference.
+- id: req-initial-ai-employees-2026-10-08
+  project_slug: ai-employees
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决固定时点重复浏览器操作的需求，痛点是人工执行易漏易错且难交接，旧做法是人工点击或自建脚本，结构上成立。
+    evidence_ids:
+    - ev-5f7c6d5963eb4047
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论与星标只说明关注度，尚无用户反馈或客户案例说明它被持续采用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方与收费方式只能推测，属于判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 自述可驱动浏览器并支持多种运行框架，但缺少可复现实测与人工确认边界说明，交付确定性未核验。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告在真实业务中重复运行例程并给出交付结果。
+  market: ''
+  job: 小团队运营或行政人员，在每天或每周固定时点需要重复完成同一批浏览器操作（如更新名单、抓取报表）时，用预设角色例程代替手工点击，产出可复用的任务文件。
+  job_en: A small-team operations or admin person who must repeat the same batch of browser actions at
+    fixed daily or weekly times uses preset role routines instead of manual clicking, producing reusable
+    task files.
+  pain: 这类事务步骤固定但必须按点执行，人工做既占时间又容易漏做或做错，且难以交接给他人。
+  pain_en: These chores have fixed steps but must run on schedule; doing them by hand costs time, is easy
+    to skip or botch, and is hard to hand off.
+  current_alternative: 目前多靠人工按提醒逐条操作，或用零散的脚本、RPA 工具自行拼装，维护成本高。
+  current_alternative_en: Today people either click through with reminders, or assemble scattered scripts
+    and RPA tools themselves, which is costly to maintain.
+  usage_reason: 相较人工逐条点击或自建脚本，它把定时触发、浏览器操作和例程复用打包成可直接运行的角色文件，用户只需配置一次即可按点执行，因此适合步骤固定、需要按时交付的小团队；这是基于项目能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with manual clicking or self-built scripts, it packages scheduled triggers,
+    browser actions and reusable routines into runnable role files, so users configure once and it runs
+    on schedule; suited to small teams with fixed, time-bound steps. This is inference from capability,
+    with no retention or repeat-use evidence yet.
+- id: req-full-ai-employees-2026-10-08
+  project_slug: ai-employees
+  level: full
+  reviewed_at: '2026-10-08T02:41:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决固定时点重复浏览器操作的需求，痛点是人工执行易漏易错且难交接，旧做法是人工点击或自建脚本；公开材料仅有 AI 起草投诉风险的报道，未直接描述该痛点，故属工作流结构推理。
+    evidence_ids:
+    - ev-5f7c6d5963eb4047
+  - gate: consensus
+    status: insufficient
+    reason: 公开检索未发现该覆盖范围内的用户反馈、客户案例或社区讨论，无法判断是否被持续采用；现有证据多为通用 AI 助手页面，不能归因到该产品。
+    evidence_ids:
+    - ev-7714f11af145fefc
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方与收费方式只能推测为 to C 或 to B 自托管，属于判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 自述可驱动浏览器并支持多种运行框架，但缺少可复现实测与人工确认边界说明，交付确定性未核验。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告在真实业务中重复运行例程并给出交付结果。
+  market: ''
+  job: 小团队运营或行政人员，在每天或每周固定时点需要重复完成同一批浏览器操作（如更新名单、抓取报表、提交表单）时，打开这个开源项目，让预设的定时角色按例程驱动浏览器完成操作，产出可复用的任务文件。
+  job_en: A small-team operations or admin person who must repeat the same batch of browser actions at
+    fixed daily or weekly times opens this open-source project so preset scheduled roles drive a browser
+    through routines, producing reusable task files.
+  pain: 这类事务步骤固定但必须按点执行，人工做既占时间又容易漏做或做错，交接给他人时步骤难以完整传递；公开材料中仅有员工用 AI 起草投诉引发风险的报道，说明自动化产出仍需人工把关，但未直接描述定时浏览器事务的痛点。
+  pain_en: These chores have fixed steps but must run on schedule; doing them by hand costs time, is easy
+    to skip or botch, and is hard to hand off completely. Public material only covers risks of AI-drafted
+    employee complaints, implying human review is still needed, not the scheduling pain itself.
+  current_alternative: 目前多靠人工按提醒逐条操作，或用零散的脚本、RPA 工具自行拼装，维护成本高；公开检索未发现该覆盖范围内有同类开源定时角色方案。
+  current_alternative_en: Today people either click through with reminders, or assemble scattered scripts
+    and RPA tools themselves, which is costly to maintain; public coverage found no comparable open-source
+    scheduled-role offering in the covered sources.
+  usage_reason: 相较人工逐条点击或自建脚本，它把定时触发、浏览器操作和例程复用打包成可直接运行的角色文件，用户只需配置一次即可按点执行，因此适合步骤固定、需要按时交付的小团队；这是基于项目自述能力的推断，尚无留存或复购证据。
+  usage_reason_en: Compared with manual clicking or self-built scripts, it packages scheduled triggers,
+    browser actions and reusable routines into runnable role files, so users configure once and it runs
+    on schedule; suited to small teams with fixed, time-bound steps. This is inference from stated capability,
+    with no retention or repeat-use evidence yet.

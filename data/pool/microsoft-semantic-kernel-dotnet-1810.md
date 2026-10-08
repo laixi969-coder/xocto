@@ -27,7 +27,7 @@ summary: "## Changes:\r\n\r\n* bd3150d9a215684e68a8598abda515d16edc89cb .Net: Bu
   \ bug fix (#14374)\r\n\r\nThis list of changes was [auto generated](https://msdata.visualstudio.com/Vienna/_build/results?buildId=239282953&view=logs).</details>"
 first_seen: '2026-10-06T16:34:47Z'
 last_seen: '2026-10-08T01:55:55Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

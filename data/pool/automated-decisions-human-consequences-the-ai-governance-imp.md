@@ -23,7 +23,7 @@ summary: 'Automated decisions, human consequences: the AI governance imperative 
   and what it means for your business TLT LLP'
 first_seen: '2026-10-07T08:49:47Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

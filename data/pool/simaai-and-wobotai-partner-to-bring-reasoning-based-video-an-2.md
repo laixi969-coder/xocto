@@ -1,6 +1,6 @@
 ---
 slug: simaai-and-wobotai-partner-to-bring-reasoning-based-video-an-2
-name: SiMa.ai And Wobot.ai Partner To Bring Reasoning-Based Video Analytics To Physical AI Platform
+name: SiMa.ai
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: SiMa.ai And Wobot.ai Partner To Bring Reasoning-Based Video Analytics T
   Pulse 2.0
 first_seen: '2026-10-07T15:58:03Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# SiMa.ai And Wobot.ai Partner To Bring Reasoning-Based Video Analytics To Physical AI Platform
+# SiMa.ai
 
 SiMa.ai And Wobot.ai Partner To Bring Reasoning-Based Video Analytics To Physical AI Platform Pulse 2.0
 

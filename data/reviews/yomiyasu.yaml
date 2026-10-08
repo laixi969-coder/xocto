@@ -322,3 +322,48 @@
     the rewritten Japanese, cutting out the step of hunting errors line by line. Editors or localization
     staff who lack a native reviewer yet produce Japanese content at volume would therefore pick it before
     publishing. No rewrite-quality evaluation or user feedback is public, so whether human final'
+- id: req-full-yomiyasu-2026-10-08
+  project_slug: yomiyasu
+  level: full
+  reviewed_at: '2026-10-08T02:45:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成日文不自然、发布前需人工逐句改写的问题，旧做法是人工校对或请母语者审稿，不做的后果是内容不可直接发布；这是工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-b7dee72c2706073e
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 1183 增至 1713 只说明开源关注度上升，没有用户评价、案例或重复使用证据证明它被持续放进内容工作流。
+    evidence_ids:
+    - ev-b7dee72c2706073e
+    - ev-3f3c757ee0f141e0
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是内容团队或本地化公司，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-b7dee72c2706073e
+  - gate: truth
+    status: insufficient
+    reason: 缺少改写质量评测与人工终审边界的说明，能否确定性交付可发布文本无法核对。
+    evidence_ids:
+    - ev-b7dee72c2706073e
+  next_validation: 收集该仓库 README、示例对比或 issue 讨论，查找改写前后样例与是否仍需人工终审的说明。
+  market: ''
+  job: 日文内容编辑、本地化人员或市场内容运营在拿到 AI 生成的日文草稿（营销文案、产品说明、博客）后，需要把这些草稿处理成可直接发布的自然日语。
+  job_en: Japanese content editors, localization staff, or marketing content operators who receive AI-generated
+    Japanese drafts (marketing copy, product descriptions, blog posts) need to turn those drafts into
+    publishable natural Japanese.
+  pain: AI 生成的日文常带有不自然的措辞和生硬表达，非母语者难以判断哪里不自然，逐句人工改写又耗时，成为发布前的真实卡点。
+  pain_en: AI-generated Japanese often carries unnatural phrasing and stiff expressions; non-native speakers
+    struggle to identify what is unnatural, and sentence-by-sentence manual rewriting is time-consuming,
+    a real bottleneck before publishing.
+  current_alternative: 现有做法是人工逐句校对、请母语者审稿，或反复让通用大模型重写。
+  current_alternative_en: Current practice is manual sentence-by-sentence proofreading, hiring native
+    reviewers, or repeatedly asking a general LLM to rewrite.
+  usage_reason: 推断：它把“找出不自然表达并改写”这一步从人工逐句校对换成一次针对性改写，面向需要批量产出日文内容、又缺少母语审稿人的团队；但公开材料没有改写质量或使用反馈，是否真能减少人工终审尚未核验。
+  usage_reason_en: 'Inference: it replaces sentence-by-sentence manual proofreading with a targeted rewrite,
+    aimed at teams producing Japanese content at volume without native reviewers; but no rewrite quality
+    or usage feedback is public, so whether it truly reduces human final review remains unverified.'

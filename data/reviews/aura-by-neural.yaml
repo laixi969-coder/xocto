@@ -1,0 +1,82 @@
+- id: req-initial-aura-by-neural-2026-10-08
+  project_slug: aura-by-neural
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未写出，无法还原旧流程与不采用的后果。
+    evidence_ids:
+    - ev-2a51a506f4059ce2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且无任何采用或关注度数据可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-2a51a506f4059ce2
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关证据不足，买方与付费路径均无公开材料。
+    evidence_ids:
+    - ev-2a51a506f4059ce2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关证据不足，无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-2a51a506f4059ce2
+  next_validation: 该产品官方页面或文档中是否出现具体使用场景、输入材料与交付产物的说明。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the user or scenario, so it is impossible to confirm who handles
+    what material under what circumstances to complete which task.
+  pain: 未披露任何痛点描述，无法判断用户当前在哪一步受阻或付出额外成本。
+  pain_en: No pain point is disclosed, so it is impossible to judge where users are currently blocked
+    or pay extra cost.
+  current_alternative: 未披露现有替代做法，无法与旧流程对比。
+  current_alternative_en: No existing alternative is disclosed, so no comparison with the old workflow
+    is possible.
+  usage_reason: 缺少输入、动作与交付的任何说明，无法解释用户为何会选择它而非现有做法；这是事实不足，不是需求不成立。
+  usage_reason_en: With no description of input, action or delivery, there is no way to explain why a
+    user would choose it over current practice; this is a lack of facts, not proof the need is absent.
+- id: req-full-aura-by-neural-2026-10-08
+  project_slug: aura-by-neural
+  level: full
+  reviewed_at: '2026-10-08T02:41:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未写出，无法还原旧流程、不采用的后果与交付闭环；现有证据全部指向同名身份保护服务 Aura，与所述能力无关。
+    evidence_ids:
+    - ev-e337e10025a31853
+    - ev-9cbebf672c6896e0
+    - ev-e213b523226216f6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Aura by Neural 官方产品页或文档，确认是否出现具体使用场景、输入材料与交付产物的说明，以区分其与同名身份保护服务 Aura。
+  market: ''
+  job: 公开材料只有一句“把请求变成屏幕上的交互界面”，没有说明谁在什么情况下、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public material offers only the line 'turn requests into interactive interfaces on your screen'
+    and never states who, under what circumstances, handling what material, completes which task, so no
+    concrete job can be reconstructed.
+  pain: 未披露任何痛点描述，无法判断用户当前在哪一步受阻、付出何种额外成本或承担什么后果。
+  pain_en: No pain point is disclosed, so it is impossible to judge where users are blocked, what extra
+    cost they bear, or what consequence they face.
+  current_alternative: 未披露现有替代做法，无法与旧流程对比；现有证据全部指向同名身份保护服务 Aura，与所述产品能力无关。
+  current_alternative_en: No existing alternative is disclosed for comparison; all available evidence
+    points to the unrelated identity-protection service Aura, not to this product's stated capability.
+  usage_reason: 缺少输入、动作与交付的任何说明，无法解释用户为何会选择它而非现有做法；这是事实不足，不是需求不成立。
+  usage_reason_en: With no description of input, action or delivery, there is no way to explain why a
+    user would choose it over current practice; this is a lack of facts, not proof the need is absent.

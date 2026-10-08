@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/kova-tts-1
 summary: 48 kHz English TTS with voices & zero-shot cloning
 first_seen: '2026-10-07T07:48:37Z'
 last_seen: '2026-10-08T01:56:15Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

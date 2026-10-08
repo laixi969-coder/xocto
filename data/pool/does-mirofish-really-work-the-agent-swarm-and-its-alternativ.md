@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQNWF3VFRqcmM5
 summary: Does MiroFish Really Work? The Agent Swarm and Its Alternatives Pasquale Pillitteri
 first_seen: '2026-10-07T16:34:53Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

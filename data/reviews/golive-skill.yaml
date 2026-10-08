@@ -583,3 +583,53 @@
     with the user''s own accounts and verifies the result, compressing ''read docs—find the setting—fill
     it in—re-check'' into one reviewable run; that is why solo developers stuck at go-live who want to
     keep their own accounts would choose it.'
+- id: req-full-golive-skill-2026-10-08
+  project_slug: golive-skill
+  level: full
+  reviewed_at: '2026-10-08T02:43:07Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 写完代码后上线配置分散在多服务商后台、易漏易错的需求，不解决的后果是产品无法访问或收款；公开说明已还原输入（项目现状）、动作（检测-计划-批准-执行-验证）与交付（可访问可收款环境），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-6ce93299dbd6a80d
+    - ev-c4b30bb6bde2e10e
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 1,147 增至 1,236，说明开发者社区持续关注并把它纳入上线工作流讨论；但收藏属关注度证据，不能证明持续使用或付费，故共识仅初步成立。
+    evidence_ids:
+    - ev-5c1bc1715192529b
+    - ev-e0bba96552195e05
+  - gate: model
+    status: insufficient
+    reason: 项目明确无 GoLive 账号、后端与遥测，公开材料未见定价页或付费路径，谁付钱、按什么单位收费尚不可知；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-5c1bc1715192529b
+    - ev-d51cd3d715cd2761
+  - gate: truth
+    status: supported
+    reason: 公开说明承诺关键步骤需用户批准、用用户自己的登录执行、并记录创建物、按需复查漂移、可移除，交付边界与人工确认点明确；但尚无独立复现或 issue 证据验证各服务商覆盖度，故为结构支持。
+    evidence_ids:
+    - ev-6ce93299dbd6a80d
+    - ev-ff0e7b8480b99fa7
+  next_validation: 追踪 golive-skill 仓库的 issue 与 discussion，确认哪些服务商被实际配置成功、失败或回滚，以及是否有用户报告重复使用。
+  market: ''
+  job: 独立开发者或小团队用 agent 写完代码后，在自己的云账号上处理域名、托管、数据库、邮件与支付等上线材料，把产品真正发布成可访问、可收款的环境。
+  job_en: Solo developers or small teams, after an agent writes the code, configure domain, hosting, database,
+    email and payments on their own provider accounts to actually ship the product as a reachable, payable
+    environment.
+  pain: 上线环节分散在多个服务商后台，配置项多、易漏、易错，且 agent 写完代码后无法自动接管这些外部资源；不解决的后果是产品停在本地、无法访问或无法收款。
+  pain_en: Go-live work is scattered across multiple provider dashboards with many error-prone settings,
+    and an agent that wrote the code cannot take over these external resources; the consequence is a product
+    stuck locally, unreachable or unable to take payment.
+  current_alternative: 开发者按各服务商文档手工在后台点选配置，或依赖 Vercel、Railway、Supabase 等平台的一体化托管，把域名、数据库、邮件、支付分别接入。
+  current_alternative_en: Developers follow each provider's docs and click through dashboards manually,
+    or rely on all-in-one platforms such as Vercel, Railway or Supabase and wire domain, database, email
+    and payments separately.
+  usage_reason: 推断：相较逐后台手工配置，它用 detect→plan→approve→apply→verify 的闭环，在用户自己的账号上自动完成可被服务商 API 暴露的配置步骤，并记录创建物、按需复查漂移、可回滚，从而减少逐项查找文档与手工核对这一步负担；在意账号自主权和可回滚的独立开发者会因此选择它。
+  usage_reason_en: 'Inference: versus manual per-dashboard setup, its detect→plan→approve→apply→verify
+    loop automates the provider-exposed configuration steps on the user''s own accounts, records what
+    it created, re-checks drift on demand and can roll back, removing the step of hunting docs and hand-verifying
+    each item; developers who value account ownership and reversibility would choose it.'

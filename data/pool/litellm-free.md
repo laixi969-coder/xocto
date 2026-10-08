@@ -22,7 +22,7 @@ summary: F24 SALES free AI model directory, verified LiteLLM routes, import tool
   research.
 first_seen: '2026-09-29T14:55:03Z'
 last_seen: '2026-10-08T01:55:55Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

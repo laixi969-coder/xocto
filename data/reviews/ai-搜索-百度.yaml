@@ -838,3 +838,45 @@
   usage_reason: 公开材料未提供用户反馈或客户案例，无法说明相较旧做法减少了哪一步负担；仅凭功能描述不能推断选择动机。
   usage_reason_en: No user feedback or customer cases are public, so it is impossible to say which step
     of the old workflow is reduced; feature descriptions alone cannot establish choice motivation.
+- id: req-full-ai-搜索-百度-2026-10-08
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-10-08T02:41:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度AI搜索官方页面是否上线独立定价或会员说明，以及是否公开客户/用户案例或使用数据，用于核验付费路径与持续采用。
+  market: ''
+  job: 普通中文用户在PC端遇到需要多步查证的问题（如选型、学习、写材料）时，把问题交给百度AI搜索，在同一页完成追问、阅读来源、生成文字或图片，产出可直接使用的答案或初稿。
+  job_en: A mainstream Chinese-language user on desktop brings a multi-step question (research, study,
+    drafting) to Baidu AI Search and, on one page, follows up, reads sources, and generates text or images
+    to produce a usable answer or draft.
+  pain: 传统搜索只给链接列表，用户要自己开多个标签页、逐条筛选、再拼凑答案；追问要重新组织关键词，写作和做图还要切换到别的工具，多步操作把一次查询拖成一段长流程。
+  pain_en: 'Classic search returns a list of links: users open many tabs, filter results, and assemble
+    the answer themselves; follow-ups require re-typing keywords, and writing or image work means switching
+    to other tools, turning one query into a long multi-step process.'
+  current_alternative: 旧做法是百度网页搜索加多标签页人工筛选，再配合独立写作工具、图片工具和复制粘贴；部分用户也会转向其他对话式AI产品。
+  current_alternative_en: The old way is Baidu web search plus manual tab-by-tab filtering, combined with
+    separate writing and image tools and copy-paste; some users also switch to other conversational AI
+    products.
+  usage_reason: 推断：相较旧搜索，它把“提问—追问—读来源—生成文字/图片”收进同一对话页，省掉重新组织关键词、切换工具和跨页复制这几步，因此需要连续深挖并顺手产出内容的中文PC用户会在复杂问题上选它；公开材料未提供留存或付费证据，不能断言已长期留在工作流。
+  usage_reason_en: 'Inference: versus classic search it folds ask, follow-up, source reading, and text/image
+    generation into one chat page, removing keyword re-typing, tool switching, and cross-page copying,
+    so Chinese desktop users who need to dig continuously and produce output pick it for complex questions;
+    public materials show no retention or payment evidence, so long-term workflow lock-in cannot be claimed.'

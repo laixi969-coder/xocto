@@ -1,7 +1,6 @@
 ---
 slug: from-ballet-to-breach-prevention-how-a-magicians-son-raised
-name: 'From Ballet To Breach Prevention: How A Magician’s Son Raised $4.2M In Seed Funding For His Cybersecurity
-  Startup'
+name: Hilt
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +23,7 @@ summary: The latest in our series of articles on venture funding to non-tech fou
   funding.
 first_seen: '2026-10-07T13:00:37Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch
@@ -41,7 +40,7 @@ sightings:
   kind: news
 ---
 
-# From Ballet To Breach Prevention: How A Magician’s Son Raised $4.2M In Seed Funding For His Cybersecurity Startup
+# Hilt
 
 The latest in our series of articles on venture funding to non-tech founders features a former magician's assistant and ballet dancer who's building cybersecurity software with $4.2 million in seed funding.
 

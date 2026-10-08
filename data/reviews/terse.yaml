@@ -1,0 +1,85 @@
+- id: req-initial-terse-2026-10-08
+  project_slug: terse
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决回复冗长、需手动删减的问题，痛点真实但强度有限，删减是否会破坏语义未说明，价值判断证据不足。
+    evidence_ids:
+    - ev-c13088d8681d07a5
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 13 点、0 条评论，没有用户反馈或采用迹象，无法判断是否形成共识。
+    evidence_ids:
+    - ev-c13088d8681d07a5
+  - gate: model
+    status: insufficient
+    reason: 开源插件，未见定价页或付费路径，买方与收费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c13088d8681d07a5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对删减规则与输出质量，也未说明人工确认边界，承诺能否确定性交付尚不清楚。
+    evidence_ids:
+    - ev-c13088d8681d07a5
+  next_validation: 收集该仓库的 issue 与 discussion，查看用户是否报告删减后语义丢失或持续使用。
+  market: ''
+  job: 使用 Claude Code 的开发者，在模型回复过长、需要快速扫读或把回复贴进工单与评审时，处理模型生成的整段文本，要拿到一份更短且语义完整的版本。
+  job_en: A developer using Claude Code, when a model reply is too long to scan or must be pasted into
+    a ticket or review, works on the full generated text and needs a shorter version that keeps its meaning.
+  pain: 模型回复冗长，阅读和二次粘贴都要额外删减，但公开材料没有说明删减后是否会丢失关键约束或代码细节。
+  pain_en: Model replies are verbose, so reading and re-pasting require extra trimming, but the public
+    material does not say whether trimming drops key constraints or code details.
+  current_alternative: 开发者目前靠手动删减、自定义提示词或直接忽略冗长段落来应对。
+  current_alternative_en: Developers currently trim manually, write custom prompts, or simply skip the
+    verbose passages.
+  usage_reason: 推断：相较手动删减，它把删填充语这一步自动化，减少粘贴前的编辑动作，因此嫌回复啰嗦的开发者会尝试；但删减是否安全、是否可核对，公开材料未给出，缺少留存或重复使用证据。
+  usage_reason_en: 'Inference: versus manual trimming it automates the filler-removal step and cuts editing
+    before pasting, so developers annoyed by verbose replies may try it; whether trimming is safe or verifiable
+    is not shown publicly, and there is no retention or repeat-use evidence.'
+- id: req-full-terse-2026-10-08
+  project_slug: terse
+  level: full
+  reviewed_at: '2026-10-08T02:45:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 Claude Code 回复冗长、需手动删减的问题，但公开证据只有 terse 一词的词典释义，没有任何用户抱怨、issue 或案例证明该痛点真实存在且刚性，也说不清删减后语义是否保全，价值结构无法成立。
+    evidence_ids:
+    - ev-2fbc888683136d5b
+    - ev-294e7f006481dde0
+    - ev-4242711c193823e4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 Claude Code 插件官方仓库的 README、issue 与 discussion，确认其删减规则、语义保全说明及是否有用户报告持续使用。
+  market: ''
+  job: 使用 Claude Code 的开发者，在模型回复过长、需要快速扫读或把回复贴进工单与评审时，处理模型生成的整段文本，要拿到一份更短且语义完整的版本。
+  job_en: A developer using Claude Code, when a model reply is too long to scan or must be pasted into
+    a ticket or review, works on the full generated text and needs a shorter version that keeps its meaning.
+  pain: 公开材料只有词典对 terse 一词的释义，没有任何用户抱怨、issue 或案例说明 Claude Code 回复冗长造成实际负担，痛点强度与发生频率均无公开事实支撑。
+  pain_en: The public material only contains dictionary definitions of the word 'terse'; no user complaint,
+    issue, or case shows that verbose Claude Code replies cause real burden, so pain intensity and frequency
+    lack public factual support.
+  current_alternative: 公开材料未记录开发者当前如何应对冗长回复，只能从工作流结构推断为手动删减、自定义提示词或直接跳过冗长段落。
+  current_alternative_en: Public material does not record how developers currently handle verbose replies;
+    only workflow-structural inference suggests manual trimming, custom prompts, or skipping verbose passages.
+  usage_reason: 推断：若插件能自动删去填充语，可省去粘贴前的手动编辑动作，嫌回复啰嗦的开发者可能尝试；但删减规则、语义保全与人工确认边界均无公开说明，也无留存或重复使用证据，无法确认用户会持续选择它。
+  usage_reason_en: 'Inference: if the plugin automatically strips filler, it could remove manual editing
+    before pasting, so developers annoyed by verbose replies might try it; however trimming rules, meaning
+    preservation, and human-confirmation boundaries are undocumented, and there is no retention or repeat-use
+    evidence, so continued adoption cannot be confirmed.'

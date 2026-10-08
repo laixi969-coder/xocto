@@ -1,0 +1,92 @@
+- id: req-initial-mintneuro-raises-5m-to-scale-chips-purpose-built-for-neural-2026-10-08
+  project_slug: mintneuro-raises-5m-to-scale-chips-purpose-built-for-neural
+  level: initial
+  reviewed_at: '2026-10-08T01:56:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决神经设备电路小型化与功耗问题，但材料未说明现有做法卡在哪一步、不解决的后果，痛点强度无法判断。
+    evidence_ids:
+    - ev-dff1f6d597b3830f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，没有客户采用、设计中标或开发者讨论等共识证据。
+    evidence_ids:
+    - ev-dff1f6d597b3830f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、授权方式或买方类型，钱从哪来无法判断，属未知而非失败。
+    evidence_ids:
+    - ev-dff1f6d597b3830f
+  - gate: truth
+    status: insufficient
+    reason: 芯片是否流片、能否确定性交付给设备厂商，公开材料未提供可核对结果。
+    evidence_ids:
+    - ev-dff1f6d597b3830f
+  next_validation: 收集 MintNeuro 官方产品页或客户公告，确认其芯片是否已有设备厂商采用或流片交付记录。
+  market: ''
+  job: 神经设备或脑机接口公司的硬件工程师，在开发植入式或可穿戴神经器件时，处理神经信号采集与处理电路，要完成把电路做小、做省电并集成进设备。
+  job_en: A hardware engineer at a neural device or BCI company working on implantable or wearable devices
+    handles neural signal acquisition and processing circuits, aiming to make them small, low-power and
+    integrable into the device.
+  pain: 公开材料只说明芯片面向神经设备，未说明现有团队自研电路具体卡在哪一步、耗时多久或成本多高，痛点强度无法从材料确认。
+  pain_en: Public material only says the chips target neural devices; it does not say which step of in-house
+    circuit design is blocked, how long it takes or what it costs, so pain intensity cannot be confirmed
+    from the material.
+  current_alternative: 神经设备团队通常自研采集电路或采购通用模拟前端芯片，具体替代对象在材料中未说明。
+  current_alternative_en: Neural device teams typically design acquisition circuits in-house or buy general-purpose
+    analog front-end chips; the material does not specify which alternative is being replaced.
+  usage_reason: 推断：若专用芯片能省去自研采集电路这一环，硬件团队会在流片前选择它；但材料未给出客户案例、定价或实测对比，无法确认用户为何选择。
+  usage_reason_en: 'Inference: if a specialised chip removes the in-house acquisition circuit step, hardware
+    teams would adopt it before tape-out; however the material gives no customer case, pricing or benchmark,
+    so why users choose it cannot be confirmed.'
+- id: req-full-mintneuro-raises-5m-to-scale-chips-purpose-built-for-neural-2026-10-08
+  project_slug: mintneuro-raises-5m-to-scale-chips-purpose-built-for-neural
+  level: full
+  reviewed_at: '2026-10-08T02:44:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决神经设备硬件团队自研采集与处理电路周期长、体积功耗难压的问题，植入式与可穿戴场景对小型化和低功耗是刚性约束，不解决则器件难以集成；替代是自研电路或通用模拟前端。属工作流结构推理，公开材料未量化痛点强度。
+    evidence_ids:
+    - ev-dff1f6d597b3830f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，没有客户采用、设计中标或开发者讨论等共识证据，无法判断硬件团队是否已在设计流程中选用。
+    evidence_ids:
+    - ev-dff1f6d597b3830f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、授权方式或买方类型，钱可能来自设备厂商采购或按芯片授权，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-dff1f6d597b3830f
+  - gate: truth
+    status: insufficient
+    reason: 芯片是否流片、能否确定性交付给设备厂商，公开材料未提供可核对结果，交付确定性无法确认。
+    evidence_ids:
+    - ev-dff1f6d597b3830f
+  next_validation: 收集 MintNeuro 官方产品页或客户公告，确认其芯片是否已有设备厂商采用或流片交付记录。
+  market: ''
+  job: 神经设备或脑机接口公司的硬件工程师，在开发植入式或可穿戴神经器件时，处理神经信号采集与处理电路，要完成把电路做小、做省电并集成进设备这一任务。
+  job_en: A hardware engineer at a neural device or BCI company developing implantable or wearable devices
+    handles neural signal acquisition and processing circuits, aiming to shrink them, cut power and integrate
+    them into the device.
+  pain: 植入式与可穿戴神经器件对体积和功耗有硬约束，自研采集与处理电路需要模拟、低功耗与流片能力，周期长且失败代价高；公开材料只说明芯片面向神经设备，未量化自研耗时或成本。
+  pain_en: Implantable and wearable neural devices impose hard size and power constraints; building acquisition
+    and processing circuits in-house demands analog, low-power and tape-out capability, with long cycles
+    and costly failure; public material only says the chips target neural devices and does not quantify
+    in-house time or cost.
+  current_alternative: 神经设备团队通常自研采集电路或采购通用模拟前端芯片，再自行做小型化与功耗优化；材料未指明具体替代对象。
+  current_alternative_en: Neural device teams typically design acquisition circuits in-house or buy general-purpose
+    analog front-end chips and then optimise size and power themselves; the material does not name the
+    specific alternative.
+  usage_reason: 推断：若专用芯片把采集与处理电路做成可集成的现成方案，硬件团队可在流片前省去自研模拟前端这一环，降低小型化与功耗优化的负担，因此受体积功耗约束的植入式或可穿戴团队会在设计早期选用它；材料未给出客户案例或实测对比，动机属推断。
+  usage_reason_en: 'Inference: if a purpose-built chip turns acquisition and processing into an integrable
+    off-the-shelf block, hardware teams can skip the in-house analog front-end step before tape-out and
+    reduce size and power optimisation effort, so implantable or wearable teams under size and power constraints
+    would adopt it early in design; the material gives no customer case or benchmark, so the motive is
+    inferred.'

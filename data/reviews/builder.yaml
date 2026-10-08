@@ -263,3 +263,55 @@
   usage_reason_en: 'Inference: if it truly turns one sentence into a runnable project, it would skip local
     setup and hand-written scaffolding; but evidence is only a login page and generic feature list, so
     which users would choose it and when remains unexplained.'
+- id: req-full-builder-2026-10-08
+  project_slug: builder
+  level: full
+  reviewed_at: '2026-10-08T02:42:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非专业开发者快速产出可运行站点或应用原型的任务，痛点是从零写前后端或依赖闭源平台；Puter.js 的 keyless 后端与浏览器内运行指向减少配置这一步。公开材料未记录用户抱怨原文与频率，故为工作流结构推理，非量化验证。
+    evidence_ids:
+    - ev-e562356509355c73
+    - ev-435330c861d9c000
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品定位与 SDK 说明，未见目标用户持续使用、复刻或社区讨论的采用证据；定位为开源替代不等于用户已把它留在工作流里。
+    evidence_ids:
+    - ev-e562356509355c73
+  - gate: model
+    status: insufficient
+    reason: Puter 官网提到 Prices in USD, billed monthly，说明存在按月计费路径，但未见具体价格、付费主体或单位经济；谁付钱是判断而非已验证事实。
+    evidence_ids:
+    - ev-f3e87f79ef441526
+  - gate: truth
+    status: insufficient
+    reason: Puter.js 宣称 serverless、keyless、production-ready，但公开材料未给出部署文档、可复现实测或安全边界说明，交付能否确定发生尚缺证据。
+    evidence_ids:
+    - ev-e562356509355c73
+  next_validation: 追踪 Puter 官方定价页与 developer.puter.com 部署文档，确认具体价格、付费主体及 Puter.js 在真实项目中的部署与安全边界。
+  market: ''
+  job: 非专业开发者或小团队在需要快速验证一个网站或小应用想法时，用自然语言描述需求，由 AI 生成可运行的站点或应用代码，拿到可运行的项目而非仅设计稿。
+  job_en: Non-professional developers or small teams who need to quickly validate a website or small app
+    idea describe requirements in natural language and have AI generate runnable site or app code, obtaining
+    a runnable project rather than just a mockup.
+  pain: 公开材料显示 Puter 定位为 Lovable、Replit、v0 的开源替代，说明用户此前要么依赖这些闭源平台，要么自己从零写前后端；Puter.js 强调 serverless、keyless
+    后端，指向 AI 生成应用缺少可安全调用的后端这一具体摩擦。但公开证据未记录用户抱怨原文、发生频率或不采用的具体代价，痛点是结构推理。
+  pain_en: Public materials position Puter as an open-source alternative to Lovable, Replit, and v0, implying
+    users previously relied on those closed platforms or wrote front and back end from scratch; Puter.js
+    emphasizes a serverless, keyless backend, pointing to the concrete friction that AI-generated apps
+    lack a safely callable backend. However, no verbatim user complaints, frequency, or cost of not adopting
+    are recorded, so the pain is structural inference.
+  current_alternative: 闭源 AI 建站平台（Lovable、Replit、v0）或自行手写前后端代码；Puter.js 提供 serverless、keyless 的 JavaScript
+    SDK，让 AI 生成的前端直接调用云与 AI 能力，替代自建后端这一步。
+  current_alternative_en: Closed AI site-building platforms (Lovable, Replit, v0) or hand-writing front
+    and back end code; Puter.js offers a serverless, keyless JavaScript SDK so AI-generated frontends
+    can call cloud and AI capabilities directly, replacing the step of building a backend.
+  usage_reason: 推断：相较闭源平台或自建后端，Puter 通过浏览器内运行、无需安装、以及 Puter.js 的 keyless 后端，减少配置服务器与密钥管理这一步负担，因此在意开源可控、不想自建后端的非专业开发者或小团队会在做原型时选择它。公开材料未提供用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: compared with closed platforms or self-built backends, Puter reduces the
+    burden of server setup and key management through in-browser operation, no installation, and Puter.js''s
+    keyless backend, so non-professional developers or small teams who value open-source control and do
+    not want to build a backend would choose it for prototyping. Public materials provide no user feedback
+    or retention evidence for this motive.'

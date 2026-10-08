@@ -1,6 +1,6 @@
 ---
 slug: hubspot-cuts-660-jobs-as-ai-strategy-reshapes-business
-name: HubSpot Cuts 660 Jobs as AI Strategy Reshapes Business
+name: HubSpot
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxNaXJfdE9oUERh
 summary: HubSpot Cuts 660 Jobs as AI Strategy Reshapes Business CX Today
 first_seen: '2026-10-07T10:46:41Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# HubSpot Cuts 660 Jobs as AI Strategy Reshapes Business
+# HubSpot
 
 HubSpot Cuts 660 Jobs as AI Strategy Reshapes Business CX Today
 

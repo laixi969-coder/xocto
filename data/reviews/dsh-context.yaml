@@ -1167,3 +1167,52 @@
     composition, evolution, compression and pruning events directly, removing the manual token-diffing
     and constraint re-pasting step, so DeepSeek Harness users debugging long sessions open it when they
     suspect context truncation.'
+- id: req-full-dsh-context-2026-10-08
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-08T02:42:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长对话中上下文被压缩剪枝后用户看不见组成与丢失内容的问题，痛点在于关键约束可能悄悄消失导致回答偏离，且排查只能靠翻日志或重问；交付物是上下文面板与命令的结构化视图，属工作流结构推理，公开材料未给出使用频率与代价量化。
+    evidence_ids:
+    - ev-72377b0b1bb4aea8
+  - gate: consensus
+    status: insufficient
+    reason: 同生态的 dsh-knit、dsh-claude-style 等插件有 46 至 106 个收藏，说明 DeepSeek Harness 插件生态有开发者关注，但这些数字属于同生态其他项目，不能归因到
+      dsh-context 本身的采用或持续使用。
+    evidence_ids:
+    - ev-72377b0b1bb4aea8
+    - ev-5e392a19a668dc31
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，钱可能来自插件作者的免费开源分发或后续增值，这是判断而非已验证事实；买方不清不否定需求本身。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 上下文可视化贴近调试长对话的第一性目标，但公开材料未提供可复现的部署文档、issue 或实测结果，无法确认压缩剪枝事件展示是否准确、是否需人工核对边界。
+    evidence_ids:
+    - ev-72377b0b1bb4aea8
+  next_validation: 追踪 dsh-context 在 npm 或代码仓库的官方 README、issue 与 discussion，确认其上下文压缩/剪枝事件展示的实际行为与用户反馈。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或 Agent 操作者在长对话/多轮任务中，面对不断被压缩、剪枝的上下文材料，需要看清当前上下文由哪些内容组成、哪些被丢弃、压缩与剪枝在何时发生，以便判断关键信息是否还在、要不要补回。
+  job_en: Developers or agent operators using DeepSeek Harness, working through long multi-turn tasks
+    with repeatedly compressed and pruned context, need to see what the current context is composed of,
+    what was dropped, and when compression or pruning happened, so they can judge whether key information
+    still survives and needs re-adding.
+  pain: 长对话中上下文会被自动压缩和剪枝，用户看不到哪些内容被丢弃，容易在不知情的情况下丢失关键约束或事实，导致后续回答偏离；排查这类问题目前只能靠翻原始日志或反复重问。
+  pain_en: In long conversations the context is automatically compressed and pruned; users cannot see
+    what was dropped, so key constraints or facts can vanish unnoticed and later answers drift. Diagnosing
+    this today means digging through raw logs or re-asking repeatedly.
+  current_alternative: 当前替代方式是直接阅读原始对话记录或日志、凭记忆推断上下文里还剩什么，或重新提问让模型复述；这些做法无法给出上下文组成与演进的结构化视图。
+  current_alternative_en: Today users read raw transcripts or logs, infer from memory what remains in
+    context, or re-prompt the model to restate it; none of these gives a structured view of context composition
+    and evolution.
+  usage_reason: 推断：相较翻日志或凭记忆推断，该插件通过 Context 面板/浏览器与 Context 命令直接呈现上下文组成、演进、压缩与剪枝事件，把“猜还剩什么”这一步变成可查看的结构化视图，因此正在调试长对话或排查信息丢失的
+    DeepSeek Harness 用户会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus reading logs or guessing from memory, the plugin''s Context panel/browser
+    and Context command directly surface context composition, evolution, compression and pruning events,
+    turning ''guess what remains'' into a viewable structured picture, so DeepSeek Harness users debugging
+    long conversations or chasing lost information would pick it in that situation.'

@@ -3,14 +3,12 @@ slug: bending-spoons-to-buy-amsterdam-based-miro-in-136bn-deal
 name: Miro
 builder: ''
 category: ''
-summary_zh: 2026年9月10日报道：应用公司 Bending Spoons 宣布以 13.6 亿美元收购协作白板产品 Miro（总部位于阿姆斯特丹）。这是协作画布类 SaaS 被并购整合的结构性交易；对
-  AI 协作工具创业者的含义（推断）：独立协作产品正通过并购定价，材料未披露交易结构与收购后的产品或 AI 计划。
+summary_zh: Miro 是面向团队协作的在线白板产品，用户在同一画布上摆放便签、流程图与文档并共同编辑；本次新增事实是它被报道将被 Bending Spoons 以 13.6 亿美元收购，以及其
+  MCP 能力被报道用于画布上的 AI 协作。
 inspiration: ''
-summary_en: 'Reported Sep 10, 2026: app company Bending Spoons announced the acquisition of Amsterdam-based
-  collaboration whiteboard Miro for $1.36bn. It is a structural deal consolidating a collaboration-canvas
-  SaaS into an acquirer''s portfolio; for AI collaboration-tool builders, the implication (inference)
-  is that standalone collaboration products are being priced through M&A, while the material does not
-  disclose deal structure or post-acquisition product or AI plans.'
+summary_en: Miro is an online whiteboard for team collaboration, where users place sticky notes, diagrams
+  and documents on one canvas and edit them together; the new facts here are a reported $1.36bn acquisition
+  by Bending Spoons and reported use of its MCP capability for AI collaboration on the canvas.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +24,7 @@ canonical_url: https://sifted.eu/articles/bending-spoons-to-buy-miro
 summary: Miro MCP 发展势头强劲，用户借助画布开展 AI 协作 businesswire.com
 first_seen: '2026-09-10T16:32:51Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

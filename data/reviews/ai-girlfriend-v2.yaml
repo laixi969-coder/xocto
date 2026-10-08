@@ -488,3 +488,46 @@
     install flow, removing the step of stitching memory and TTS together and keeping timbre and history
     on-device, so privacy-minded Windows users wanting a continuous voiced companion would pick it for
     a self-hosted setup.'
+- id: req-full-ai-girlfriend-v2-2026-10-08
+  project_slug: ai-girlfriend-v2
+  level: full
+  reviewed_at: '2026-10-08T02:41:28Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 Windows 用户想要记得住、用自己声音回应的陪伴对象这一需求，但公开材料只有功能清单与 52→60 星，无用户抱怨、替代行为或不采用代价，属于功能拼装而非刚性痛点，价值关不成立。
+    evidence_ids:
+    - ev-a4b3f9f5f7210bdb
+    - ev-974e10b0c57622d6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现真实用户描述的记忆效果、声音克隆质量与部署反馈，以判断交付是否可复现。
+  market: ''
+  job: 个人用户在 Windows 桌面上，用自己克隆的声音与一个能记住过往对话的 AI 伴侣持续聊天，并可选择叠加 WSL2 数字人形象，完成日常陪伴式对话。
+  job_en: An individual user on Windows chats with an AI companion that remembers past conversations and
+    replies in a cloned voice, optionally with a WSL2 digital-human avatar, as everyday companionship.
+  pain: 公开材料只给出功能清单（DSH 长期记忆、本地声音克隆、可选数字人），没有任何用户抱怨、使用记录或客户案例说明不解决会失去什么；陪伴需求本身存在，但该项目的痛点强度与不采用代价在公开证据中完全空白。
+  pain_en: Public materials only list features (DSH long-term memory, local voice cloning, optional digital
+    human); no user complaints, usage records, or cases show what is lost by not solving it, so pain intensity
+    and cost of non-adoption are unverified.
+  current_alternative: 公开材料未说明用户现在用什么替代：可能是通用聊天机器人、其他 AI 伴侣应用或线下社交，项目未交代它替代了哪一步旧流程。
+  current_alternative_en: 'Public materials do not state what users use today: possibly general chatbots,
+    other AI companion apps, or offline social contact; the project does not say which prior step it replaces.'
+  usage_reason: 推断：相较通用聊天机器人每次重开都丢失上下文、声音固定，它把长期记忆与本地声音克隆打包进 Windows 本地运行，可能让在意隐私和声音个性化的用户少一步重新自我介绍；但仓库仅
+    52→60 星、无评价与留存证据，无法确认用户因此持续选择它。
+  usage_reason_en: 'Inference: versus general chatbots that lose context each session and use a fixed
+    voice, it bundles long-term memory and local voice cloning into a Windows-local run, potentially saving
+    privacy- and voice-conscious users a re-introduction step; but with only 52→60 stars and no reviews
+    or retention evidence, sustained choice is unconfirmed.'

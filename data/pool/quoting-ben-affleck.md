@@ -32,7 +32,7 @@ summary: "I've always been kind of into computers since I was young. And then wh
   \ ,  python"
 first_seen: '2026-10-07T23:14:58Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

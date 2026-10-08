@@ -428,3 +428,46 @@
   usage_reason_en: 'Why users would choose it cannot be judged: the evidence chain contains no user feedback,
     case, or adoption record for this product, so no causal comparison against the old workflow can be
     built.'
+- id: req-full-tern-2026-10-08
+  project_slug: tern
+  level: full
+  reviewed_at: '2026-10-08T02:45:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决音视频剪辑中素材回放查找耗时、云端检索有隐私与带宽顾虑的痛点，本地多模态检索加 FCPXML 导出形成完整闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-d3a14a27d6398781
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源社区初步关注信号，尚无专业剪辑团队规模化采用与留存公开数据。
+    evidence_ids:
+    - ev-d3a14a27d6398781
+  - gate: model
+    status: insufficient
+    reason: 代码可见但保留权利，未披露独立商业订阅或专业许可证收费定价路径。
+    evidence_ids:
+    - ev-bf045639a8ee571b
+  - gate: truth
+    status: supported
+    reason: 端侧运行 Whisper 与 SigLIP-2 模型，输出标准化剪辑工程文件，交付确定性高。
+    evidence_ids:
+    - ev-7f48c4ecfaf3199d
+  next_validation: 官方发布独立桌面端打包版本、商业许可定价或非编软件插件生态的公开案例。
+  market: ''
+  job: 播客制作者与视频剪辑师在整理海量历史音视频原始素材时，需要快速定位特定台词、画面文字或视觉场景并导入剪辑时间线。
+  job_en: Video editors and podcasters need to locate specific spoken lines, on-screen text, or visual
+    scenes across massive local archives and bring clips into edit timelines.
+  pain: 传统检索只能依赖文件名或人工打标签，逐个回放素材查找特定镜头或语音耗时极长，且云端多模态检索上传大文件带宽成本与隐私顾虑高。
+  pain_en: Traditional search relies on filenames or manual tagging; scrubbing through raw footage is
+    tedious, while cloud indexing suffers from upload bandwidth and privacy concerns.
+  current_alternative: 依赖人工记忆逐个打开视频拉时间轴回放，或手动整理 Excel 记录时间戳与素材描述。
+  current_alternative_en: Manually scrubbing through video timelines from memory or keeping spreadsheet
+    logs of timestamps and footage descriptions.
+  usage_reason: 推断：相较人工回放或表格记录，它在本地融合语音、OCR 与视觉多模态索引并直接导出 FCPXML，省去上传大文件与逐条打标签这一步，因此素材量大、隐私敏感或带宽受限的剪辑师会在整理历史素材时选择它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: versus manual scrubbing or spreadsheet logs, it fuses local speech, OCR
+    and visual indexing and exports FCPXML directly, removing the upload and manual-tagging steps, so
+    editors with large archives or privacy/bandwidth constraints may choose it when organizing historical
+    footage; no retention or payment evidence yet.'

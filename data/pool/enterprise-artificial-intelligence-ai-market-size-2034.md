@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxPNl9KV0hnaTlD
 summary: Enterprise Artificial Intelligence (AI) Market Size, 2034 Market Data Forecast
 first_seen: '2026-10-05T07:00:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

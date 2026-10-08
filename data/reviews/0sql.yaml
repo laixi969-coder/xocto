@@ -1,0 +1,88 @@
+- id: req-initial-0sql-2026-10-08
+  project_slug: 0sql
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决指标口径不统一、业务方反复对数的问题，痛点真实；但公开材料只有一句定位，说不清输入、动作与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-5da419926e7eec33
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 7 分、4 条评论，没有客户案例或采用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-5da419926e7eec33
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 订阅或按查询量收费都只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-5da419926e7eec33
+  - gate: truth
+    status: insufficient
+    reason: 无法核对语义层是否真能确定性交付一致口径，也看不到人工边界与安全说明。
+    evidence_ids:
+    - ev-5da419926e7eec33
+  next_validation: 收集 0Sql 官方定价页或部署文档，确认其计价方式、输入数据源与交付形态。
+  market: ''
+  job: 数据分析师或 BI 工程师在业务方要求统一指标口径、自助取数时，处理散落的指标定义与查询逻辑，要产出一致可信的指标结果。
+  job_en: A data analyst or BI engineer, when business teams demand unified metrics and self-serve access,
+    handles scattered metric definitions and query logic to produce consistent, trustworthy metric results.
+  pain: 同一指标在不同团队口径不一，业务方反复找分析师对数，口径争议消耗大量沟通时间。
+  pain_en: The same metric means different things across teams, business users repeatedly chase analysts
+    to reconcile numbers, and definition disputes consume heavy communication time.
+  current_alternative: 各团队自己写 SQL、维护内部指标文档，或采购传统 BI 平台并人工治理指标。
+  current_alternative_en: Teams write their own SQL, maintain internal metric docs, or buy a traditional
+    BI platform and govern metrics manually.
+  usage_reason: 推断：若它把指标定义集中托管并对外提供一致的语义查询，业务方可直接取数，分析师可少做一轮对数与口径解释；但公开材料只有一句定位，未说明输入、交付与人工确认环节，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it hosts metric definitions centrally and serves consistent semantic
+    queries, business users could query directly and analysts could skip one round of reconciliation;
+    but the public material is a single positioning line with no input, delivery or human-confirmation
+    detail, so user choice cannot yet be confirmed.'
+- id: req-full-0sql-2026-10-08
+  project_slug: 0sql
+  level: full
+  reviewed_at: '2026-10-08T02:41:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决指标口径不统一、业务方反复对数的问题，痛点刚性且旧替代（自写 SQL、人工治理 BI）明确；从集中托管定义到对外语义查询的闭环可还原，属工作流结构推理，但缺用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-5da419926e7eec33
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有客户案例、用户评价或采用数据，无法判断数据分析师群体是否已形成共识或强场景。
+    evidence_ids:
+    - ev-5da419926e7eec33
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 订阅或按查询量收费都只是推断；这是判断，不是已验证事实，但不足以取消真需求判定。
+    evidence_ids:
+    - ev-5da419926e7eec33
+  - gate: truth
+    status: insufficient
+    reason: 无法核对语义层是否真能确定性交付一致口径，也看不到数据源接入、人工边界与安全说明，交付确定性尚未验证。
+    evidence_ids:
+    - ev-5da419926e7eec33
+  next_validation: 收集 0Sql 官方定价页或部署文档，确认其计价方式、输入数据源与交付形态。
+  market: ''
+  job: 数据分析师或 BI 工程师在业务方要求统一指标口径、自助取数时，处理散落在各团队 SQL 与文档中的指标定义，要对外产出口径一致、可被业务方直接查询的指标结果。
+  job_en: A data analyst or BI engineer, when business teams demand unified metrics and self-serve access,
+    handles metric definitions scattered across team SQL and docs to produce consistent, directly queryable
+    metric results.
+  pain: 同一指标在不同团队口径不一，业务方反复找分析师对数，口径争议消耗大量沟通时间；这是公开定位可还原的旧流程痛点，但缺少用户抱怨或案例佐证。
+  pain_en: The same metric means different things across teams, business users repeatedly chase analysts
+    to reconcile numbers, and definition disputes consume heavy communication time; this pain is reconstructed
+    from the positioning, not from user complaints or cases.
+  current_alternative: 各团队自己写 SQL、维护内部指标文档，或采购传统 BI 平台并人工治理指标。
+  current_alternative_en: Teams write their own SQL, maintain internal metric docs, or buy a traditional
+    BI platform and govern metrics manually.
+  usage_reason: 推断：相较各团队自写 SQL 与人工维护文档，它把指标定义集中托管并对外提供一致的语义查询，业务方可直接取数，分析师可少做一轮对数与口径解释；但公开材料只有一句定位，未说明输入、交付与人工确认环节，因此选择动机属结构推断。
+  usage_reason_en: 'Inference: versus teams writing their own SQL and maintaining docs manually, it hosts
+    metric definitions centrally and serves consistent semantic queries, letting business users query
+    directly and analysts skip one reconciliation round; but the public material is a single positioning
+    line with no input, delivery or human-confirmation detail, so the choice motive is structural inference.'

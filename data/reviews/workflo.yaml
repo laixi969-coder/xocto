@@ -542,3 +542,81 @@
   usage_reason_en: 'Inference: if it truly automates specified workspace actions without reading the screen,
     users could skip manual step-by-step clicking; however the public material does not describe the actions
     or outputs, so it is unclear which burden it removes versus existing scripting tools.'
+- id: req-initial-workflo-2026-10-08
+  project_slug: workflo
+  level: initial
+  reviewed_at: '2026-10-08T01:56:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决重复桌面操作与屏幕权限之间的矛盾，但公开材料未说明具体输入、动作与交付，无法确认替代了哪一步旧工作。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有可归因到该产品的采用、付费或持续使用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，钱从哪来无法判断。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: “不读取屏幕”的承诺是否可核验、自动化失败时如何人工接管，均无公开材料支持。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或文档，确认它接收的输入、执行的具体动作与交付结果，以及是否披露定价。
+  market: ''
+  job: Mac 用户在处理重复性桌面操作（如文件整理、应用间搬运数据）时，希望把这类操作交给自动化执行，而不让工具读取屏幕内容。
+  job_en: A Mac user handling repetitive desktop operations, such as file organization or moving data
+    between apps, wants those operations automated without letting the tool read the screen.
+  pain: 重复的桌面操作耗时且易错，而现有自动化方案往往需要屏幕录制或较高配置门槛，隐私敏感用户不愿接受。
+  pain_en: Repetitive desktop operations are slow and error-prone, while existing automation options often
+    require screen recording or heavy setup, which privacy-sensitive users reject.
+  current_alternative: 用户目前靠手动重复操作，或使用需要屏幕权限的自动化脚本与工具。
+  current_alternative_en: Users currently repeat the operations by hand or rely on automation scripts
+    and tools that require screen permissions.
+  usage_reason: 推断：若它确实能在不读取屏幕的前提下完成同一批桌面操作，用户会因避免授予屏幕权限而选择它；但公开材料未说明它接收什么输入、执行哪些动作，因此无法确认它减少了哪一步负担。
+  usage_reason_en: 'Inference: if it truly completes the same desktop operations without reading the screen,
+    users would choose it to avoid granting screen permissions; however, the public material does not
+    state its inputs or actions, so which step it removes cannot be confirmed.'
+- id: req-full-workflo-2026-10-08
+  project_slug: workflo
+  level: full
+  reviewed_at: '2026-10-08T02:45:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决重复桌面操作与屏幕权限之间的矛盾，但公开材料未说明具体输入、动作与交付，无法确认替代了哪一步旧工作，也写不出可核对的痛点。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Workflo 官方产品页或文档，确认它接收的输入、执行的具体动作与交付结果，以及是否披露定价或客户案例。
+  market: ''
+  job: Mac 用户在处理重复性桌面操作（如文件整理、应用间搬运数据）时，希望把这类操作交给自动化执行，同时不让工具读取屏幕内容。
+  job_en: A Mac user handling repetitive desktop operations, such as file organization or moving data
+    between apps, wants those operations automated without letting the tool read the screen.
+  pain: 公开材料只给出“不读取屏幕”的隐私承诺，未说明接收什么输入、执行哪些动作、交付什么结果，因此无法确认它替代了哪一步旧流程，也无法确认痛点是否刚性。
+  pain_en: The public material only states a privacy promise of not reading the screen; it does not specify
+    inputs, actions, or delivered results, so which old step it replaces and whether the pain is rigid
+    cannot be confirmed.
+  current_alternative: 公开材料未披露当前替代方式；按工作流结构只能推测为手动重复操作或需要屏幕权限的自动化脚本，但无证据支持。
+  current_alternative_en: The public material does not disclose the current alternative; by workflow structure
+    it can only be inferred as manual repetition or screen-permission automation scripts, with no supporting
+    evidence.
+  usage_reason: 无法写出可核对的采用理由：公开材料未说明产品通过什么具体动作减少哪一步负担或改善哪项结果，因此不能判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No verifiable adoption reason can be written: the public material does not state which
+    concrete action reduces which step''s burden or improves which result, so which users would choose
+    it and when cannot be judged.'

@@ -1,0 +1,94 @@
+- id: req-initial-irisgo-for-solopreneurs-2026-10-08
+  project_slug: irisgo-for-solopreneurs
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无技术背景的个体经营者重复事务耗时的需求，痛点是规则工具学习成本高，旧做法是手工或雇助理，结构上成立。
+    evidence_ids:
+    - ev-38a35f45e37fc399
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有用户评价、案例或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-38a35f45e37fc399
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个体经营者付费还是团队付费不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-38a35f45e37fc399
+  - gate: truth
+    status: insufficient
+    reason: 演示一次即可稳定复现的承诺缺少可核对证据，流程在真实系统上的确定性交付仍待验证。
+    evidence_ids:
+    - ev-38a35f45e37fc399
+  next_validation: 收集该产品官方定价页或公开客户案例，确认按什么计价以及是否有可复现的自动化任务记录。
+  market: ''
+  job: 独立经营者或小电商运营者在每天处理订单跟进、客户回复等重复事务时，把操作演示给产品一次，让它按同一流程自动完成后续同类任务。
+  job_en: A solopreneur or small e-commerce operator, handling repetitive tasks such as order follow-ups
+    and customer replies daily, demonstrates the operation once so the product completes later similar
+    tasks the same way.
+  pain: 这类人没有工程能力，重复事务占掉大量时间，用传统自动化工具要先学会配置规则和连接器。
+  pain_en: These users lack engineering skills, repetitive tasks consume much of their time, and traditional
+    automation tools require learning rule configuration and connectors first.
+  current_alternative: 手工重复操作，或用 Zapier、Make 一类工具自行搭建规则流程，或雇兼职助理。
+  current_alternative_en: Doing it manually, or building rule-based flows in tools like Zapier or Make,
+    or hiring a part-time assistant.
+  usage_reason: 相较在规则工具里逐条配置触发条件与字段映射，它让用户直接演示一遍流程即可复用，减少搭建与调试规则这一步；推断没有技术背景、任务重复度高的个体经营者会因此选择它。
+  usage_reason_en: Compared with configuring triggers and field mappings rule by rule in automation tools,
+    it lets users demonstrate the flow once and reuse it, removing the step of building and debugging
+    rules; inference is that non-technical operators with highly repetitive tasks would choose it for
+    this.
+- id: req-full-irisgo-for-solopreneurs-2026-10-08
+  project_slug: irisgo-for-solopreneurs
+  level: full
+  reviewed_at: '2026-10-08T02:43:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无技术背景的个体经营者重复事务耗时的需求，痛点是规则工具学习成本高、手工操作占用时间，旧做法是手工或雇助理，演示一次即复用的交付闭环结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-b99b2f4a8e11e04b
+    - ev-0ba1b669f941ede8
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有用户评价、客户案例或采用数据，无法判断是否形成使用共识；且证据中混入同名旅行杯页面，产品身份本身需先厘清。
+    evidence_ids:
+    - ev-0ba1b669f941ede8
+    - ev-201c33850aff14e1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个体经营者自付还是团队付费不明；这是判断而非已验证事实，但不足以否定需求成立。
+    evidence_ids:
+    - ev-a5212935fc6e0620
+    - ev-c243f87d77c26156
+  - gate: truth
+    status: insufficient
+    reason: “演示一次即可稳定复现”的承诺缺少可核对证据，跨应用执行与人工确认边界未公开，确定性交付仍无法验证。
+    evidence_ids:
+    - ev-3a1b26b90fadf34f
+    - ev-fba933fec3c282e6
+  next_validation: 追踪 IrisGo 官网定价页与公开客户案例，确认按什么计价、买方是谁，以及是否有可复现的跨应用自动化任务记录。
+  market: ''
+  job: 独立经营者或小电商运营者在日常处理订单跟进、客户回复等重复事务时，把一次操作流程演示给 IrisGo，让它按同一流程自动完成后续同类任务并交付跑完的结果。
+  job_en: A solopreneur or small e-commerce operator, handling repetitive tasks such as order follow-ups
+    and customer replies, demonstrates a workflow once to IrisGo so it runs later similar tasks the same
+    way and delivers the finished result.
+  pain: 公开材料只说明它把 AI 变成会学习工作流的“同事”，未披露具体用户抱怨；可确认的痛点是这类用户没有工程能力，重复事务占用时间，而规则型自动化要先配置触发器和连接器。
+  pain_en: Public material only states it turns AI into a coworker that learns workflows, with no disclosed
+    user complaints; the identifiable pain is that such users lack engineering skills, repetitive tasks
+    consume time, and rule-based automation requires configuring triggers and connectors first.
+  current_alternative: 手工重复操作，或用 Zapier、Make 一类工具自行搭建规则流程，或雇兼职助理；这些替代方式在公开材料中未被直接提及，属工作流结构推理。
+  current_alternative_en: Doing it manually, building rule-based flows in tools like Zapier or Make, or
+    hiring a part-time assistant; these alternatives are not directly stated in the public material and
+    are inferred from workflow structure.
+  usage_reason: 推断：相较在规则工具里逐条配置触发条件与字段映射，它让用户演示一遍流程即可复用，减少搭建与调试规则这一步，因此没有技术背景、任务重复度高的个体经营者会在重复事务场景下选择它；公开材料未提供用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with configuring triggers and field mappings rule by rule in automation
+    tools, it lets users demonstrate the flow once and reuse it, removing the step of building and debugging
+    rules, so non-technical operators with highly repetitive tasks would choose it in repetitive-task
+    scenarios; public material provides no user feedback confirming this motive.'

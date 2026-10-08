@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FVFZZRnJwb1d0
 summary: NanoMuse 开源发布：同时运行于手机与电脑的 AI 智能体 https://www.80aj.com/
 first_seen: '2026-10-07T07:15:38Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

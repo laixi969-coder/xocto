@@ -1,6 +1,6 @@
 ---
 slug: line-plus推出面向亚马逊卖家的ai营销方案wonnable-ai
-name: LINE Plus推出面向亚马逊卖家的AI营销方案“Wonnable AI”
+name: Wonnable AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPZldVb3N5ZHN1
 summary: LINE Plus推出面向亚马逊卖家的AI营销方案“Wonnable AI” 디지털투데이
 first_seen: '2026-10-07T01:16:47Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# LINE Plus推出面向亚马逊卖家的AI营销方案“Wonnable AI”
+# Wonnable AI
 
 LINE Plus推出面向亚马逊卖家的AI营销方案“Wonnable AI” 디지털투데이
 

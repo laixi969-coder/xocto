@@ -88,3 +88,54 @@
     moves the model-choice step into per-task adaptive routing and consolidates usage into one panel,
     so cost-wary coding-assistant teams would pick it for bulk calls; whether savings actually occur is
     not yet backed by bill data.'
+- id: req-full-agent-smith-2026-10-08
+  project_slug: agent-smith
+  level: full
+  reviewed_at: '2026-10-08T02:41:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是按量计费团队在调用编码助手时的 token 超支问题：痛点写在标题里，旧做法是手动选模型或事后看账单，不解决则账单不可预测；自适应路由加用量面板构成可确定的交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+    - ev-752672a26f62b7af
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 347 增至 440，说明开发者关注度在上升，但公开材料没有用户反馈、issue 讨论或采用案例，无法判断共识是否形成，关注度不等于持续使用。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+    - ev-752672a26f62b7af
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费或采购记录，买方与收费方式均未披露；按产品形态推断可能面向使用编码助手的开发团队按席位或用量收费，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: truth
+    status: insufficient
+    reason: 它贴近控制模型调用成本这一第一性目标，但基准测试的复现条件、路由策略的实际节省效果与人工确认边界均未披露，交付能否确定性发生尚无法核对。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+    - ev-752672a26f62b7af
+  next_validation: 追踪该仓库 README 与基准测试文档，核对路由策略的对比口径、可复现步骤以及是否披露实际用量或账单节省数据。
+  market: ''
+  job: AI 应用开发者或工程效能负责人在团队把编码助手接入日常开发、按 token 计费且担心月度超支时，处理的是多任务多模型的调用请求，要完成的任务是在不牺牲任务质量的前提下把每次调用路由到合适价位的模型，并随时看到
+    Codex 用量。
+  job_en: An AI application developer or engineering productivity lead whose team runs coding assistants
+    on token-based billing and fears monthly overspend handles multi-task, multi-model call requests,
+    and must route each call to an appropriately priced model without hurting task quality while keeping
+    Codex usage visible.
+  pain: 公开材料把痛点直接写在标题上——token 超支；对按量计费的团队，超支意味着账单不可预测，而此前往往只能在月底看账单才发现，缺少调用前的成本控制点。这是公开事实加工作流推理。
+  pain_en: 'The public material states the pain in its own headline: token overspend. For teams on metered
+    billing this means unpredictable invoices, usually discovered only when the monthly bill arrives,
+    with no cost control point before the call. This is public fact plus workflow inference.'
+  current_alternative: 旧做法是人工在多个模型间手动切换、依赖平台自带额度上限，或事后核对账单；这些替代要么增加每次调用的操作负担，要么只能在超支发生后补救。
+  current_alternative_en: The old approach is manually switching between models, relying on platform quota
+    caps, or reconciling bills after the fact; these either add per-call manual burden or only remediate
+    after overspend has occurred.
+  usage_reason: 推断：相较手动选模型或事后看账单，它把选模型这一步交给按任务的自适应路由，并在同一处展示 Codex 用量，使团队在调用发生前就有成本可见性，因此按量计费、模型选择频繁的团队会在意超支时选择它；但缺少账单对比数据，节省幅度尚未被量化验证。
+  usage_reason_en: 'Inference: versus manually picking models or reviewing bills afterward, it moves model
+    selection into task-adaptive routing and shows Codex usage in one place, giving cost visibility before
+    calls happen, so metered teams with frequent model choices would pick it when overspend matters; however,
+    without bill-comparison data the size of the saving is not quantitatively verified.'

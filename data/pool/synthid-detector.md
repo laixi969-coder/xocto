@@ -21,7 +21,7 @@ canonical_url: https://synthid.com
 summary: https:&#x2F;&#x2F;blog.google&#x2F;innovation-and-ai&#x2F;models-and-research&#x2F;go...
 first_seen: '2026-10-07T14:16:44Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

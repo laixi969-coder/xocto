@@ -86,3 +86,50 @@
     self-hosted environment, removing the step of exporting data to an external model, so retail traders
     or small teams that care about data locality and custom strategies may try it; public materials show
     no retention or payment evidence.'
+- id: req-full-openchart-2026-10-08
+  project_slug: openchart
+  level: full
+  reviewed_at: '2026-10-08T02:44:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自托管行情图表加自有 agent 分析的需求，痛点在于商业平台按席位收费且限制数据与自定义策略，用户被迫把数据导出到外部工具；这是从产品定位与旧替代作出的结构推理，agent
+      具体交付仍缺公开事实。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论的关注度信号，没有用户评价或案例说明投资者是否真的把图表与 agent 长期并用，不能证明持续采用或强场景共识。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或买方，钱可能来自自托管用户或后续托管服务，这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 agent 输出是否贴近交易决策的第一性目标，也未说明人工确认与安全边界，承诺能否确定性交付仍缺公开材料。
+    evidence_ids:
+    - ev-6eec4adbb6344cb6
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认 AI agent 的输入、输出与人工确认边界。
+  market: ''
+  job: 个人投资者或量化爱好者在自建环境里查看行情图表，并把自有 AI agent 接入同一工作区，让 agent 读取行情数据后给出分析或操作建议，最终由用户自行确认。
+  job_en: Individual investors or quant enthusiasts view market charts in a self-hosted environment and
+    connect their own AI agent into the same workspace, letting the agent read market data and produce
+    analysis or suggested actions that the user confirms.
+  pain: 商业行情平台按席位收费，数据与自定义分析受限于平台，用户难以把自有模型或策略接进同一界面，只能把数据导出再喂给外部对话工具。
+  pain_en: Commercial charting platforms charge per seat and constrain data and custom analysis, making
+    it hard to plug one's own model or strategy into the same interface, forcing users to export data
+    and feed it to a separate chat tool.
+  current_alternative: 使用 TradingView 等商业平台，或自行拼装开源图表库加脚本，AI 分析则另开对话工具，数据与 agent 分处两地。
+  current_alternative_en: Using commercial platforms such as TradingView, or assembling open-source charting
+    libraries with scripts, with AI analysis done in a separate chat tool, leaving data and agent in two
+    places.
+  usage_reason: 推断：相较商业平台，它把图表与自有 agent 放在同一自托管环境，省掉把数据导出再喂给外部模型这一步，因此在意数据不出本地、想接自有策略的散户或小团队会尝试；公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: versus commercial platforms, it puts charts and a personal agent in one
+    self-hosted environment, removing the step of exporting data to an external model, so retail traders
+    or small teams that care about data locality and custom strategies may try it; public materials show
+    no retention or payment evidence.'

@@ -303,3 +303,52 @@
     developers would skip rebuilding validation scripts each time; however the public material does not
     describe the concrete action or a checkable result, so which users would choose it and when cannot
     be confirmed.'
+- id: req-full-clearai-dsh-2026-10-08
+  project_slug: clearai-dsh
+  level: full
+  reviewed_at: '2026-10-08T02:42:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 DSH 开发者希望模型输出先经 Epistemic Loop 校验再使用这一需求，痛点是原始输出缺少可复用校验环节；公开材料只给出插件定位与星标增长，未说明替代哪一步旧操作，故价值结构成立属工作流推理。
+    evidence_ids:
+    - ev-d46b269f8d199565
+    - ev-68b0ff2096904d74
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 612 增至 1001，属关注度信号，可解释有人关注，但无 issue、discussion 或用户反馈说明开发者已把它留在工作流中，共识尚未形成。
+    evidence_ids:
+    - ev-d46b269f8d199565
+    - ev-68b0ff2096904d74
+  - gate: model
+    status: insufficient
+    reason: 开源插件，公开材料未披露定价、买方或商业条款，钱可能来自 to C 开发者或 to B 团队，但这是判断而非已验证事实，付费路径无法核验。
+    evidence_ids:
+    - ev-d46b269f8d199565
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 Epistemic Loop 是否贴近该工作的第一性目标，也未说明人工确认边界与交付确定性，承诺能否确定性交付仍缺公开依据。
+    evidence_ids:
+    - ev-d46b269f8d199565
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认插件具体接收什么输入、执行什么动作、输出什么结果，以及是否有开发者报告在实际工作流中重复使用。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者，在调用模型生成结果时，希望输出先经过一套名为 Epistemic Loop 的推理/校验流程再使用，从而在现有工作流内拿到经过该流程处理的模型结果。
+  job_en: A developer using the DeepSeek Harness who, when calling the model to produce output, wants
+    that output to pass through a reasoning/verification process called the Epistemic Loop before use,
+    so the result returned inside the existing workflow has been processed by that loop.
+  pain: 公开材料只说明插件把 Epistemic Loop 接入 DSH，未说明它替代了哪一步人工或旧工具操作，也没有用户抱怨、案例或采用行为可引用，因此痛点强度只能按工作流结构推断：模型原始输出缺少可复用的校验环节。
+  pain_en: 'The public material only says the plugin wires the Epistemic Loop into DSH; it does not say
+    which manual or legacy step it replaces, and no user complaints, cases or adoption behaviour are available,
+    so pain intensity can only be inferred structurally: raw model output lacks a reusable verification
+    step.'
+  current_alternative: 开发者目前可能直接在 Harness 中调用模型，或自行编写提示与校验脚本；公开材料未说明旧做法具体是什么。
+  current_alternative_en: Developers currently likely call the model directly in the Harness or write
+    their own prompts and validation scripts; the public material does not describe the prior practice.
+  usage_reason: 推断：相较每次自行搭建校验脚本，该插件把 Epistemic Loop 固化为 DSH 原生插件，开发者只需安装即可在模型调用环节复用同一套流程，省去重复搭建校验步骤；但公开材料未说明具体动作与可核对结果，因此这是结构推理而非用户反馈支持的事实。
+  usage_reason_en: 'Inference: compared with rebuilding validation scripts each time, the plugin packages
+    the Epistemic Loop as a native DSH plugin, so a developer installs it once and reuses the same process
+    at the model-call step, skipping the repeated setup; however the public material does not describe
+    the concrete action or a checkable result, so this is structural reasoning, not a fact supported by
+    user feedback.'

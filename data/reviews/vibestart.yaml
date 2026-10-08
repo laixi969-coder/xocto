@@ -130,3 +130,55 @@
     item, it writes type safety, lint, and tests into the generated result in one pass, removing the setup
     and verification steps before a new project starts, so full-stack developers who frequently open new
     repositories would choose it at kickoff.'
+- id: req-full-vibestart-2026-10-08
+  project_slug: vibestart
+  level: full
+  reviewed_at: '2026-10-08T02:45:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新项目开工前反复配置类型、lint 与测试的需求，不配置会让 AI 智能体产出难验证、返工成本高；旧做法是复制模板手工补配置。这是基于产品说明与工作流的结构推理，尚无用户抱怨或采用数据佐证。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+    - ev-a2779b48e8e9cc6e
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库星标从 42 增至 68，无用户评价、issue 讨论或重复使用记录，无法判断开发者是否把它留在日常开工流程里，采用共识尚未形成。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+    - ev-f31fc3ab239260bd
+    - ev-a2779b48e8e9cc6e
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价页或付费路径，是否靠托管、企业模板或赞助收费属推断而非已验证事实；中文生态检索也未发现本地供给与采购记录。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+    - ev-f51742723ba7f456
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称项目经过验证，但未披露验证方式、生成骨架的可复现结果与人工确认边界，交付确定性无法核对，安全与人工介入环节亦未说明。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  next_validation: 追踪 vibestart 仓库的 issue 与 discussion，确认开发者是否在真实项目中重复使用该脚手架、报告配置缺口或提出新栈组合需求。
+  market: ''
+  job: 全栈开发者在启动新 TypeScript 项目时，需要选定前后端技术栈组合，并拿到一个已配好类型检查、lint 与测试、便于 AI 编码智能体接手的代码仓库，从而直接进入业务开发。
+  job_en: Full-stack developers starting a new TypeScript project need to pick a front-end/back-end stack
+    combination and obtain a repository already configured with type checking, lint, and tests that AI
+    coding agents can work in, so they can move straight into business code.
+  pain: 公开说明只承诺生成内置类型安全、lint 与测试的项目，未披露用户抱怨或返工数据；从工作流结构看，手工搭脚手架要逐项配置类型、lint 与测试，配置不一致会让智能体产出的代码难以验证，这是推断而非用户口述。
+  pain_en: The public description only promises a generated project with built-in type safety, lint, and
+    tests; no user complaints or rework data are disclosed. Structurally, hand-building scaffolding requires
+    configuring types, lint, and tests item by item, and inconsistent setups make agent-generated code
+    hard to verify — this is inference, not user testimony.
+  current_alternative: 手动初始化仓库、复制旧项目模板，或使用通用脚手架（如 create-next-app 一类）再自行补齐类型、lint 与测试配置。
+  current_alternative_en: Manually initializing a repository, copying an old project template, or using
+    generic scaffolding (such as create-next-app) and then adding type, lint, and test configuration by
+    hand.
+  usage_reason: 推断：相较复制旧模板再逐项补配置，它把类型安全、lint 与测试一次性写进生成结果，省掉新项目开工前的配置与校验步骤，因此频繁开新仓库的全栈开发者会在启动阶段选择它；仓库星标从
+    42 增至 68 只说明关注度上升，不能证明持续使用。
+  usage_reason_en: 'Inference: compared with copying an old template and patching configuration item by
+    item, it writes type safety, lint, and tests into the generated result at once, removing setup and
+    verification steps before a new project starts, so full-stack developers who frequently open new repositories
+    would choose it at kickoff; stars rising from 42 to 68 only shows attention, not sustained use.'

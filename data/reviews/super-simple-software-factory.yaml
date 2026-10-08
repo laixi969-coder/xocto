@@ -495,3 +495,49 @@
     Python own the orchestration and bounds coding agents as constrained nodes, cutting the burden of
     re-sequencing calls and debugging drift; developers who need reproducible flows would pick it inside
     an existing repo.'
+- id: req-full-super-simple-software-factory-2026-10-08
+  project_slug: super-simple-software-factory
+  level: full
+  reviewed_at: '2026-10-08T02:45:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理运行路径不稳定、同一任务难复现的痛点，用确定性 Python 掌管编排、代理作受约束节点回应；公开材料未量化返工代价，此为工作流结构推理。
+    evidence_ids:
+    - ev-fc243b2eb8811649
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 178 增至 206，说明社区持续关注，但收藏属关注度证据，不能证明目标开发者已把它留在工作流中。
+    evidence_ids:
+    - ev-7ca76a2c7e993371
+    - ev-fc243b2eb8811649
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，开源仓库形态下是个人开发者自用、团队采购还是托管订阅不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e19abd976d04f70c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出人工确认环节与安全边界，交付能否稳定发生尚缺可复现证据，但确定性编排方向与第一性目标一致。
+    evidence_ids:
+    - ev-fc243b2eb8811649
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者是否在真实仓库中部署该编排并替代了原有手工串接流程。
+  market: ''
+  job: 开发者在已有代码仓库中，需要把编码代理的调用顺序固定成可重复流程时，用确定性 Python 掌管编排、把编码代理作为受约束节点执行具体步骤，产出可重复运行的代理加代码工作流。
+  job_en: A developer working inside an existing repository needs to fix the call order of coding agents
+    into a repeatable workflow, using deterministic Python to own the graph and coding agents as bounded
+    nodes, producing a repeatable agents-plus-code workflow.
+  pain: 编码代理每次运行路径不稳定，同一任务难以复现，开发者要反复手工重排调用顺序；公开材料以确定性 Python 掌管图、代理作为受约束节点回应这一摩擦，但未给出返工频率或代价的量化数据。
+  pain_en: Coding agents take unstable paths on each run, the same task is hard to reproduce, and developers
+    must repeatedly re-order calls by hand; public material answers this friction with deterministic Python
+    owning the graph and agents as bounded nodes, though it gives no quantified frequency or cost of rework.
+  current_alternative: 开发者自行用脚本或提示词手工串接编码代理，或依赖代理自身的自主规划，缺少把调用顺序固化进仓库的现成做法。
+  current_alternative_en: Developers hand-wire coding agents with scripts or prompts, or rely on the agent's
+    own autonomous planning, with no ready way to fix the call order into the repository.
+  usage_reason: 推断：相较手工串接或放任代理自主规划，它把编排权交给确定性 Python、把代理限制为受约束节点，减少每次运行重新调整调用顺序这一步，因此需要在已有仓库中稳定复现同一代理流程的开发者会在该情况下选择它；公开材料未给出用户反馈，此为结构推理。
+  usage_reason_en: 'Inference: versus hand-wiring or letting agents plan autonomously, it gives orchestration
+    to deterministic Python and bounds agents as nodes, removing the step of re-adjusting call order each
+    run, so developers who need to reproduce the same agent workflow inside an existing repository would
+    choose it in that situation; public material gives no user feedback, so this is structural reasoning.'

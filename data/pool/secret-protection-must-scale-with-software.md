@@ -23,7 +23,7 @@ summary: "Developers aren’t becoming more careless; they’re being outpaced. 
   \ must scale with software  appeared first on  The GitHub Blog ."
 first_seen: '2026-10-07T17:45:34Z'
 last_seen: '2026-10-08T01:56:15Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

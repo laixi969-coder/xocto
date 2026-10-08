@@ -1,0 +1,88 @@
+- id: req-initial-brow-2026-10-08
+  project_slug: brow
+  level: initial
+  reviewed_at: '2026-10-08T01:55:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号额度不可见、编码被限额打断的问题，旧做法是手动逐页查看，痛点具体且可核对；但公开材料未说明数据来源与刷新方式。
+    evidence_ids:
+    - ev-4d19637ba6412a58
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 52 星、0 fork、0 issue，社区讨论与采用信号都很弱，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-4d19637ba6412a58
+  - gate: model
+    status: insufficient
+    reason: 开源免费项目，公开材料未给出任何付费路径或买方，是否有人愿意为此付费属于判断而非已验证事实。
+    evidence_ids:
+    - ev-4d19637ba6412a58
+  - gate: truth
+    status: insufficient
+    reason: 用量数据依赖平台接口，若官方直接提供额度面板或限制读取，该工具能否确定性交付存疑；安全与账号登录边界也未说明。
+    evidence_ids:
+    - ev-4d19637ba6412a58
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户是否反馈额度数据来源、刷新频率及多账号登录是否稳定可用。
+  market: ''
+  job: 同时使用多个 Claude 账号的开发者，在长时间写代码、接近额度上限时，需要查看各账号剩余用量与重置时间，以决定继续用哪个账号或何时暂停。
+  job_en: A developer running several Claude accounts needs to check each account's remaining quota and
+    reset time while coding for long stretches near the limit, in order to decide which account to keep
+    using or when to pause.
+  pain: 额度耗尽会在编码中途打断工作，而逐个账号登录网页查看用量既费时又容易漏看，多账号切换还会互相挤掉登录状态。
+  pain_en: Running out of quota interrupts coding mid-task, while checking usage account by account in
+    the browser is slow and easy to miss, and switching accounts can log each other out.
+  current_alternative: 开发者目前靠手动打开各账号的用量页面、凭记忆估算剩余额度，或用多个浏览器配置分别登录来规避冲突。
+  current_alternative_en: Developers currently open each account's usage page manually, estimate remaining
+    quota from memory, or keep separate browser profiles to avoid login conflicts.
+  usage_reason: 相较手动逐个查页面，它把多个账号的剩余额度与重置时间常驻在刘海区域，省掉反复切换标签页和重新登录这一步，因此同时持有多个订阅、长时间连续编码的人会在接近限额时选择它；这是基于产品能力的推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with checking pages one by one, it keeps several accounts' remaining quota
+    and reset times in the notch, removing repeated tab switching and re-login, so people holding multiple
+    subscriptions and coding for long sessions would pick it near the limit; this is inference from product
+    capability, with no user feedback or retention evidence yet.
+- id: req-full-brow-2026-10-08
+  project_slug: brow
+  level: full
+  reviewed_at: '2026-10-08T02:42:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号额度不可见、编码被限额打断的问题，旧做法是手动逐页查看并靠记忆估算，痛点具体且不解决的后果明确；但公开材料未说明数据来源与刷新机制，属工作流结构推理。
+    evidence_ids:
+    - ev-82d7c6535173eddc
+  - gate: consensus
+    status: insufficient
+    reason: 现有证据只有一条中文市场覆盖检索记录，未见开发者讨论、评价或采用数据，无法判断是否形成使用共识或强场景。
+    evidence_ids:
+    - ev-82d7c6535173eddc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费路径或买方，钱可能来自 to C 订阅或一次性买断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-20c10adbd57e97d5
+  - gate: truth
+    status: insufficient
+    reason: 用量数据依赖平台接口，若官方直接提供额度面板或限制读取，能否确定性交付存疑；多账号登录与安全边界也未说明。
+    evidence_ids:
+    - ev-0968fffc43267a13
+  next_validation: 追踪该产品官网或发布页是否出现定价与客户案例，并收集其仓库 issue/discussion 中关于额度数据来源、刷新频率与多账号登录稳定性的公开反馈。
+  market: ''
+  job: 同时持有多个 Claude 账号的开发者，在长时间连续用 Claude Code 写代码、接近 5 小时或每周额度上限时，需要查看各账号剩余用量与重置时间，以决定继续用哪个账号或何时暂停。
+  job_en: A developer holding several Claude accounts needs to see each account's remaining 5-hour and
+    weekly quota and reset time while coding for long stretches near the limit, in order to decide which
+    account to keep using or when to pause.
+  pain: 额度耗尽会在编码中途打断任务，而逐个账号打开网页查用量既费时又容易漏看，多账号在同一浏览器切换还会互相挤掉登录状态。
+  pain_en: Hitting the quota interrupts coding mid-task, while checking usage account by account in the
+    browser is slow and easy to miss, and switching accounts in one browser can log each other out.
+  current_alternative: 开发者目前手动打开各账号的用量页面、凭记忆估算剩余额度，或用多个浏览器配置分别登录来规避冲突。
+  current_alternative_en: Developers currently open each account's usage page manually, estimate remaining
+    quota from memory, or keep separate browser profiles to avoid login conflicts.
+  usage_reason: 相较手动逐个查页面，它把多个账号的额度与重置时间常驻在刘海区域，省掉反复切换标签页和重新登录这一步，因此同时持有多个订阅、长时间连续编码的人会在接近限额时选择它；这是基于产品能力的推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with checking pages one by one, it keeps several accounts' quota and reset
+    times in the notch, removing repeated tab switching and re-login, so people holding multiple subscriptions
+    and coding for long sessions would pick it near the limit; this is inference from product capability,
+    with no user feedback or retention evidence yet.

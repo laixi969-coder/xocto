@@ -1,0 +1,79 @@
+- id: req-initial-silicon-valleys-ai-wunderkind-launches-underdog-the-most-pri-2026-10-08
+  project_slug: silicon-valleys-ai-wunderkind-launches-underdog-the-most-pri
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 未进入：报道未说明它解决什么需求与痛点，无法还原使用者任务。
+    evidence_ids:
+    - ev-c5830ab3f8b92d93
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有发布报道，没有可归因到该产品的采用或使用证据。
+    evidence_ids:
+    - ev-c5830ab3f8b92d93
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料未披露定价、买方或付费路径。
+    evidence_ids:
+    - ev-c5830ab3f8b92d93
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法判断其隐私承诺能否确定性交付及人工边界。
+    evidence_ids:
+    - ev-c5830ab3f8b92d93
+  next_validation: 收集 Underdog 官方产品页或文档，确认其功能范围、隐私机制说明与定价信息。
+  market: ''
+  job: 未进入判定：报道只给出产品名与竞品定位，未说明谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: 'Not assessed: the report gives only a product name and competitor positioning, without stating
+    who handles what material in what situation to complete what task.'
+  pain: 未进入判定：报道未说明用户遇到的具体困难，隐私诉求只是标题层面的描述。
+  pain_en: 'Not assessed: the report does not state the specific difficulty users face; the privacy claim
+    is only a headline-level description.'
+  current_alternative: 未进入判定：报道未说明用户此前用什么方式处理同类任务。
+  current_alternative_en: 'Not assessed: the report does not state what users previously used to handle
+    comparable tasks.'
+  usage_reason: 未进入判定：缺少功能、流程与定价信息，无法解释用户为何选择它而非旧做法。
+  usage_reason_en: 'Not assessed: with no function, workflow or pricing information, there is no way to
+    explain why users would choose it over the old approach.'
+- id: req-full-silicon-valleys-ai-wunderkind-launches-underdog-the-most-pri-2026-10-08
+  project_slug: silicon-valleys-ai-wunderkind-launches-underdog-the-most-pri
+  level: full
+  reviewed_at: '2026-10-08T02:44:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅给出产品名与“更私密的 Instinct/Muse 竞品”定位，未说明使用者任务、输入材料、交付物与痛点，无法还原需求结构，故价值关不成立。
+    evidence_ids:
+    - ev-5d03254f53aee5b8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 公开资料 原文及 Underdog 官方产品页或文档，确认其功能范围、隐私机制说明与定价信息。
+  market: ''
+  job: 未进入判定：报道只给出产品名与“更私密的 Instinct/Muse 竞品”定位，未说明谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: 'Not assessed: the report gives only a product name and a ''more private Instinct/Muse competitor''
+    positioning, without stating who handles what material in what situation to complete what task.'
+  pain: 未进入判定：报道未说明用户遇到的具体困难，隐私诉求只是标题层面的描述，无法确认痛点刚性。
+  pain_en: 'Not assessed: the report does not state the specific difficulty users face; the privacy claim
+    is only a headline-level description and its rigidity cannot be confirmed.'
+  current_alternative: 未进入判定：报道未说明用户此前用什么方式处理同类任务，也未说明 Instinct/Muse 的具体旧做法。
+  current_alternative_en: 'Not assessed: the report does not state what users previously used for comparable
+    tasks, nor the concrete old approach of Instinct/Muse.'
+  usage_reason: 未进入判定：缺少功能、流程与定价信息，无法解释用户为何选择它而非旧做法。
+  usage_reason_en: 'Not assessed: with no function, workflow or pricing information, there is no way to
+    explain why users would choose it over the old approach.'

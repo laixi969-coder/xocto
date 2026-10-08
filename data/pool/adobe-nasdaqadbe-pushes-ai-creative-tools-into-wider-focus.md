@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPdUI1Z1JsQ3hO
 summary: Adobe (NASDAQ:ADBE) Pushes AI Creative Tools Into Wider Focus Kalkine Media
 first_seen: '2026-10-07T14:48:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

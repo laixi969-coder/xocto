@@ -1,0 +1,89 @@
+- id: req-initial-smart-blur-2026-10-08
+  project_slug: smart-blur
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是外发材料前逐处打码这一具体任务，痛点真实；但公开材料只有一句功能描述，说不清识别范围、漏检后果与人工复核，价值强度无法确认。
+    evidence_ids:
+    - ev-f971a3d57d6ce68a
+  - gate: consensus
+    status: insufficient
+    reason: 社区帖仅 6 个点赞、4 条评论，属于关注度而非采用；没有客户案例、评价或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-f971a3d57d6ce68a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，本地模型是否带来成本优势也无材料；钱可能来自个人订阅或企业合规采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f971a3d57d6ce68a
+  - gate: truth
+    status: insufficient
+    reason: 本地运行降低泄露风险这一点与合规目标一致，但识别准确率、漏检责任归属和人工确认边界均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-f971a3d57d6ce68a
+  next_validation: 收集 Smart Blur 官方页面上的定价、支持的文件格式与识别类别说明，以及是否提供客户案例或准确率数据。
+  market: ''
+  job: 合规或法务人员在需要把截图、录屏、案件材料发给外部合作方时，要先找出画面里的身份证号、人脸等个人信息并逐处打码，再交付一份可外发的文件。
+  job_en: A compliance or legal staffer preparing to send screenshots, recordings or case material to
+    an outside party must first locate ID numbers, faces and other personal data in the image and blur
+    each one before delivering a shareable file.
+  pain: 手工逐帧逐处打码耗时且容易漏，漏掉一处就可能构成个人信息泄露；把材料上传到云端脱敏工具又常常不被合规允许。
+  pain_en: Manual frame-by-frame blurring is slow and easy to miss, and a single missed spot can count
+    as a personal-data leak; uploading the material to a cloud redaction tool is often not permitted by
+    compliance.
+  current_alternative: 目前多由人工用图片或视频编辑软件逐处涂抹打码，或使用云端脱敏服务，也有团队干脆放弃外发、改为线下传阅。
+  current_alternative_en: Today people blur spots by hand in image or video editors, use cloud redaction
+    services, or simply give up on external sharing and circulate material offline.
+  usage_reason: 推断：相较手工逐处打码，它把识别与打码合并成一次自动动作，省掉逐帧查找这一步，且模型在本地运行、材料不出本机，因此对材料不能上传云端、又要频繁外发的合规与法务人员更有吸引力；但公开材料未给出识别准确率、漏检处理和留存证据。
+  usage_reason_en: 'Inference: versus manual spot-by-spot blurring it merges detection and redaction into
+    one automatic action, removing the frame-by-frame search step, and because the model runs locally
+    the material never leaves the machine, which appeals to compliance and legal staff who cannot upload
+    material to the cloud yet must share it often; public material gives no accuracy rate, missed-detection
+    handling or retention evidence.'
+- id: req-full-smart-blur-2026-10-08
+  project_slug: smart-blur
+  level: full
+  reviewed_at: '2026-10-08T02:44:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决外发材料前逐处打码这一任务，但公开材料只有一句功能描述，说不清识别范围、漏检后果与人工复核，连需求和痛点都还原不出，无法判断价值强度。
+    evidence_ids:
+    - ev-96ade421ebb3176d
+    - ev-0f8f04dc699631a4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Smart Blur 官方页面上的定价、支持的文件格式与识别类别说明，以及是否提供客户案例或准确率数据。
+  market: ''
+  job: 合规或法务人员在需要把截图、录屏或案件材料发给外部合作方时，要先找出画面里的身份证号、人脸等个人信息并逐处打码，再交付一份可外发的文件。
+  job_en: A compliance or legal staffer preparing to send screenshots, recordings or case material to
+    an outside party must first locate ID numbers, faces and other personal data in the image and blur
+    each one before delivering a shareable file.
+  pain: 公开材料只有一句功能描述，未说明识别范围、漏检后果与人工复核环节，无法确认手工打码耗时漏检或云端脱敏不被允许这一痛点是否真实存在。
+  pain_en: Public material offers only a one-line feature description, with no stated detection scope,
+    missed-detection consequences or human review step, so it cannot be confirmed that the pain of slow,
+    error-prone manual blurring or disallowed cloud redaction actually exists.
+  current_alternative: 公开材料未披露用户当前用什么方式替代，无法确认是人工涂抹、云端脱敏服务还是放弃外发。
+  current_alternative_en: Public material does not disclose what users currently use instead, so it cannot
+    be confirmed whether they blur by hand, use cloud redaction services, or give up on external sharing.
+  usage_reason: 推断：若产品确实在本地完成识别与打码，可省掉逐帧查找这一步且材料不出本机；但公开材料未给出识别准确率、漏检处理或留存证据，无法说明哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the product truly performs detection and blurring locally, it removes
+    the frame-by-frame search step and keeps material on-device; but public material gives no accuracy
+    rate, missed-detection handling or retention evidence, so it cannot be said which users would choose
+    it for this reason.'

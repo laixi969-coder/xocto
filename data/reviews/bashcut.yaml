@@ -139,3 +139,56 @@
     the CLI or MCP server, replacing repeated clicking with editing instructions and removing the clip-by-clip
     manual step; editors doing batch output who already work with coding agents would therefore choose
     it when they need a fast first cut that can still be adjusted by hand.'
+- id: req-full-bashcut-2026-10-08
+  project_slug: bashcut
+  level: full
+  reviewed_at: '2026-10-08T02:41:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决剪辑中重复手工操作的需求：对齐、打字幕、录配音逐条完成，批量出片时人力成瓶颈，旧做法是手工用 Premiere/Final Cut 或自写 ffmpeg 脚本。BashCut
+      把界面能力暴露为 CLI 与 MCP，代理可整段执行剪辑指令，交付路径结构上可确定；这是工作流结构推理，尚无成片或用户反馈佐证。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+    - ev-a2a1982ca7374a72
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 46 增至 55，属早期关注度而非持续采用；公开材料没有用户评价、案例或重复使用证据，无法判断剪辑师是否真把它留在工作流里。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+    - ev-f3181d17fad368c5
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价、付费路径或买方；钱可能来自团队自用、后续托管服务或企业授权，这是判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+  - gate: truth
+    status: insufficient
+    reason: 代理直接操作时间线涉及成片质量与误操作风险，公开材料未说明人工确认边界、失败回退方式，也未说明代理动作与界面能力是否完全等价。
+    evidence_ids:
+    - ev-0f5dd36534c669e1
+    - ev-a2a1982ca7374a72
+  next_validation: 追踪 BashCut 仓库的 issue 与 discussion，确认是否有用户跑通完整剪辑链路并说明代理驱动相比手工剪辑省掉了哪一步。
+  market: ''
+  job: 视频剪辑师或代运营团队在 macOS 上处理原始素材，需要完成分层时间线剪辑、字幕与配音，产出可交付成片；BashCut 让 Claude Code、Codex 等编码代理通过 bashcut
+    CLI 或 MCP 服务器调用与界面等价的时间线、字幕、配音和插件动作。
+  job_en: A video editor or agency team on macOS takes raw footage and must complete layered-timeline
+    editing, captions and voiceover to produce a deliverable cut; BashCut lets coding agents such as Claude
+    Code and Codex invoke timeline, caption, voiceover and plugin actions equivalent to the UI through
+    the bashcut CLI or MCP server.
+  pain: 剪辑中的对齐、打字幕、录配音等重复操作要逐条手工完成，批量出片时人力成为瓶颈；公开材料只说明代理可驱动同一套界面能力，未说明它具体替代了旧流程的哪一步，也未给出成片或用户反馈。
+  pain_en: Repetitive editing steps such as aligning, typing captions and recording voiceover are done
+    clip by clip by hand, and human effort becomes the bottleneck for batch output; the public material
+    only states that agents can drive the same UI capabilities, without saying which step of the old workflow
+    it replaces, nor offering finished-video or user feedback.
+  current_alternative: 剪辑师手工使用 Premiere、Final Cut 等桌面软件，或自行写脚本调用 ffmpeg 等命令行工具。
+  current_alternative_en: Editors work by hand in desktop software such as Premiere or Final Cut, or write
+    their own scripts against command-line tools such as ffmpeg.
+  usage_reason: 推断：相较手工逐条操作或自写 ffmpeg 脚本，BashCut 把时间线、字幕、配音、插件动作暴露为 CLI 与 MCP 接口，代理可一次性执行整段剪辑指令，减少逐条点击与脚本拼接这一步；因此需要批量出片、且已在用编码代理的剪辑师或代运营团队，会在重复性剪辑任务上选择它。公开材料尚无用户反馈或成片案例，该动机为结构推断而非事实。
+  usage_reason_en: 'Inference: compared with clip-by-clip manual operation or self-written ffmpeg scripts,
+    BashCut exposes timeline, caption, voiceover and plugin actions as CLI and MCP interfaces, so an agent
+    can execute a whole editing instruction at once, removing the step of repeated clicking and script
+    stitching; editors or agency teams that need batch output and already use coding agents would therefore
+    choose it for repetitive editing tasks. The public material has no user feedback or fin'

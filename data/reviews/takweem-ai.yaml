@@ -1,0 +1,86 @@
+- id: req-initial-takweem-ai-2026-10-08
+  project_slug: takweem-ai
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决重要工作被会议挤掉、手动重排费时的问题，痛点真实但刚性一般，且公开材料未说明重排后如何被采纳。
+    evidence_ids:
+    - ev-6660c57cf8c8ed62
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句产品定位描述，没有用户评价、采用或重复使用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-6660c57cf8c8ed62
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅或 to B 团队席位均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-6660c57cf8c8ed62
+  - gate: truth
+    status: insufficient
+    reason: 无法核对日历同步范围、冲突处理规则与人工确认边界，交付确定性未知。
+    evidence_ids:
+    - ev-6660c57cf8c8ed62
+  next_validation: 收集 Takweem AI 官方定价页或日历同步与冲突处理说明文档，确认其交付方式与收费口径。
+  market: ''
+  job: 个人用户或小团队负责人在每周排期时，处理已有的会议邀请、任务清单和待办，把重要工作排进日历并避免被会议挤掉。
+  job_en: An individual or small-team lead planning the week takes existing meeting invites, task lists
+    and to-dos and fits important work into the calendar without it being crowded out by meetings.
+  pain: 重要工作常被会议和临时事项挤掉，手动重排日历费时且容易反复调整。
+  pain_en: Important work gets crowded out by meetings and ad-hoc items, and manually re-blocking a calendar
+    is slow and needs repeated adjustment.
+  current_alternative: 手动拖拽日历、用固定时间块或专注时段约定，或干脆不排、靠临时找空档。
+  current_alternative_en: Dragging calendar events by hand, using fixed blocks or focus-time conventions,
+    or not planning at all and hunting for gaps ad hoc.
+  usage_reason: 推断：相较手动拖拽，它直接读取已有日程与任务并自动重排时间块，省去逐条挪动和反复权衡这一步，因此会议密集、深度工作时间被切碎的人会尝试它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: versus dragging events by hand, it reads existing schedules and tasks and
+    re-blocks time automatically, removing the step of moving items one by one and re-weighing trade-offs,
+    so people whose deep-work hours are fragmented by meetings may try it; no retention or payment evidence
+    yet.'
+- id: req-full-takweem-ai-2026-10-08
+  project_slug: takweem-ai
+  level: full
+  reviewed_at: '2026-10-08T02:45:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决重要工作被会议挤掉、手动重排日历费时的问题，痛点真实且刚性中等；公开材料仅一句定位，未说明重排后如何被采纳，但输入—动作—交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-6660c57cf8c8ed62
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句产品定位描述，没有用户评价、采用或重复使用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-6660c57cf8c8ed62
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅或 to B 团队席位均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-6660c57cf8c8ed62
+  - gate: truth
+    status: insufficient
+    reason: 无法核对日历同步范围、冲突处理规则与人工确认边界，交付确定性未知。
+    evidence_ids:
+    - ev-6660c57cf8c8ed62
+  next_validation: 收集 Takweem AI 官方定价页或日历同步与冲突处理说明文档，确认其交付方式与收费口径。
+  market: ''
+  job: 个人用户或小团队负责人在每周排期时，处理已有的会议邀请、任务清单和待办，把重要工作排进日历并避免被会议挤掉。
+  job_en: An individual or small-team lead planning the week takes existing meeting invites, task lists
+    and to-dos and fits important work into the calendar without it being crowded out by meetings.
+  pain: 重要工作常被会议和临时事项挤掉，手动重排日历费时且容易反复调整。
+  pain_en: Important work gets crowded out by meetings and ad-hoc items, and manually re-blocking a calendar
+    is slow and needs repeated adjustment.
+  current_alternative: 手动拖拽日历、用固定时间块或专注时段约定，或干脆不排、靠临时找空档。
+  current_alternative_en: Dragging calendar events by hand, using fixed blocks or focus-time conventions,
+    or not planning at all and hunting for gaps ad hoc.
+  usage_reason: 推断：相较手动拖拽，它直接读取已有日程与任务并自动重排时间块，省去逐条挪动和反复权衡这一步，因此会议密集、深度工作时间被切碎的人会尝试它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: versus dragging events by hand, it reads existing schedules and tasks and
+    re-blocks time automatically, removing the step of moving items one by one and re-weighing trade-offs,
+    so people whose deep-work hours are fragmented by meetings may try it; no retention or payment evidence
+    yet.'

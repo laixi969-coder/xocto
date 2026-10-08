@@ -1,11 +1,13 @@
 ---
 slug: ai算力订单暴增至500亿美元英伟达支持的lambda拟融资40亿美元冲刺ipo
-name: AI算力订单暴增至500亿美元！英伟达支持的Lambda拟融资40亿美元冲刺IPO
+name: Lambda
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Lambda是英伟达支持的AI算力供应商，本次公开信息指向其订单规模与融资、上市计划的变化，属于算力供给与资本层面的行业事件，而非独立AI应用产品。
 inspiration: ''
-summary_en: ''
+summary_en: Lambda is an Nvidia-backed AI compute provider; the new public information concerns its order
+  book, financing and IPO plans, making this an industry event in compute supply and capital rather than
+  a standalone AI application.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTE1Salk4ZjRfc056
 summary: AI算力订单暴增至500亿美元！英伟达支持的Lambda拟融资40亿美元冲刺IPO 新浪网
 first_seen: '2026-10-06T22:09:38Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# AI算力订单暴增至500亿美元！英伟达支持的Lambda拟融资40亿美元冲刺IPO
+# Lambda
 
 AI算力订单暴增至500亿美元！英伟达支持的Lambda拟融资40亿美元冲刺IPO 新浪网
 

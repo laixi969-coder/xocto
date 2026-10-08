@@ -392,3 +392,47 @@
     searching and vetting video skill packages one by one. But for editors the list produces no finished
     video and removes no step inside editing software, so there is no evidence they would keep it in a
     daily workflow.'
+- id: req-full-awesome-claude-video-skills-2026-10-08
+  project_slug: awesome-claude-video-skills
+  level: full
+  reviewed_at: '2026-10-08T02:41:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决的是剪辑师手工拼接素材的负担，但公开材料只给出 180 个仓库的分类与安全分级，没有说明具体卡点、频率或不采用代价；清单只是把已有仓库重新归类，用户不装它也能直接搜到同一批技能包，属于看着有用但没有也行。
+    evidence_ids:
+    - ev-45c30d8c5865983b
+    - ev-66684c7b0430d112
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该清单仓库的 issue / discussion 与 README 更新，确认是否有用户报告把某个视频技能包接入实际渲染流程并产出成片。
+  market: ''
+  job: 视频剪辑师或短视频运营在需要批量产出成片时，先在该清单里按类型挑一个视频技能包，装进 Claude Code / Codex 等编码代理，再由代理读取素材并调用工具渲染出视频。
+  job_en: A video editor or short-video operator who needs to produce clips at volume picks a video skill
+    from this list by type, installs it into a coding agent such as Claude Code or Codex, and lets the
+    agent read assets and call tools to render the video.
+  pain: 公开材料只说明清单按类型收录 180 个仓库并做安全分级，没有说明剪辑师在逐条拼接素材时具体卡在哪一步、频率多高、不解决会损失什么；痛点强度未被任何用户材料支撑。
+  pain_en: Public materials only say the list catalogs 180 repos by type with security grading; they do
+    not show which step of manual timeline assembly actually hurts, how often, or what is lost if unsolved,
+    so pain intensity is unsupported by any user material.
+  current_alternative: 剪辑师目前用 Premiere、剪映等剪辑软件手工拼接素材，或直接调用单个视频生成模型；清单本身不替代这些工具，只是把已有仓库重新分类。
+  current_alternative_en: Editors today assemble footage manually in Premiere, CapCut and similar editors,
+    or call a single video-generation model directly; the list does not replace those tools, it only re-categorizes
+    existing repos.
+  usage_reason: 推断：相较自己在 公开代码仓库 上逐个搜索视频技能包，清单省去了筛选与安全初筛这一步，因此偏好编码代理工作流、又不想自己调研的开发者可能收藏它；但公开材料没有用户反馈或案例说明谁真的把它装进日常流程，收藏增长只反映关注度。
+  usage_reason_en: 'Inference: versus searching public code repository repo by repo, the list saves the
+    filtering and first-pass security screening step, so developers already committed to a coding-agent
+    workflow may bookmark it; however no public feedback or case shows anyone actually installing it into
+    a daily pipeline, and star growth only reflects attention.'

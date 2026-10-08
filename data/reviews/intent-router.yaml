@@ -528,3 +528,57 @@
     probe, ask, and halt into a single pre-routing step and emits a typed IntentSpec, so downstream routers
     or decision models no longer each handle ambiguous input; this is an inference from the product positioning
     and workflow structure, not yet confirmed by user feedback or cases.
+- id: req-full-intent-router-2026-10-08
+  project_slug: intent-router
+  level: full
+  reviewed_at: '2026-10-08T02:43:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把模糊自然语言请求在进入路由或决策模型前收敛为带类型的 IntentSpec，痛点是模糊请求缺少可判定输入边界、下游无法在路由前探测追问或中止；不解决的后果是错误意图直接流入下游。公开说明已能还原输入—编译—交付闭环，属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-9a21a6c0a14bfcfa
+    - ev-b1a74413df15b9ec
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 619 增至 966，说明开发者社区持续关注，但收藏与增长只属关注度证据，不能证明目标用户已把它留在路由工作流中；公开材料未见 issue、discussion 或部署案例说明实际采用场景。
+    evidence_ids:
+    - ev-9a21a6c0a14bfcfa
+    - ev-b1a74413df15b9ec
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或采购路径，无法判断收入来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推问题不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9a21a6c0a14bfcfa
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺在路由前探测、追问或中止，但未提供可复现的部署文档、失败处理说明或人工与安全边界证据，交付能否稳定发生尚不可核验。
+    evidence_ids:
+    - ev-9a21a6c0a14bfcfa
+  next_validation: 追踪 Intent-Router 仓库的 README、issue 与 discussion，确认是否有开发者公开描述实际接入的路由或决策模型、替代的旧校验流程及失败处理方式。
+  market: ''
+  job: 构建 agent 路由或类型化决策模型的开发者，在接入用户自然语言请求时，把模糊输入交给 Intent-Router，由它收敛成带类型的 IntentSpec 契约，并在路由前执行探测、追问或中止，最终拿到可直接喂给路由器的结构化意图输入。
+  job_en: Developers building agent routers or typed decision models, when ingesting natural-language
+    user requests, hand vague input to Intent-Router, which converges it into typed IntentSpec contracts
+    and probes, asks, or halts before routing, yielding structured intent input that can be fed directly
+    to a router.
+  pain: 公开说明指出输入是“vague requests”，即模糊请求在进入路由或决策模型前缺少类型化契约，导致下游路由与决策缺少可判定的输入边界；不解决的后果是路由前无法探测、追问或中止，错误意图会直接流入下游。这是从产品说明与工作流结构推出的痛点，尚无用户抱怨或案例佐证。
+  pain_en: 'The public description states the input is ''vague requests'': fuzzy requests lack a typed
+    contract before entering a router or decision model, so downstream routing has no decidable input
+    boundary; without it, there is no probe, ask, or halt before routing and wrong intents flow downstream.
+    This pain is inferred from the product description and workflow structure, not from user complaints
+    or cases.'
+  current_alternative: 开发者目前通常在应用层自行写 prompt 约束、正则或手写校验，把原始自然语言直接交给路由器或决策模型，缺少独立的意图编译层。这是结构推理，公开材料未记录具体替代流程。
+  current_alternative_en: Developers today typically hand raw natural language straight to routers or
+    decision models, adding ad-hoc prompt constraints, regex, or hand-written validation in the application
+    layer, with no separate intent-compilation layer. This is structural inference; public materials do
+    not document the concrete replaced workflow.
+  usage_reason: 推断：相较在应用层手写 prompt 约束与校验，Intent-Router 把“探测、追问或中止”前置为编译步骤并输出带类型的 IntentSpec，减少下游路由器处理非法或歧义输入的分支负担；构建
+    agent 路由或类型化决策模型的开发者，在请求歧义会破坏路由判定的场景下会选用它。公开材料未提供用户反馈或案例，故为推断。
+  usage_reason_en: 'Inference: compared with hand-written prompt constraints and validation in the application
+    layer, Intent-Router moves probe/ask/halt into a compilation step and emits a typed IntentSpec, reducing
+    the branches a downstream router needs to handle for invalid or ambiguous input; developers building
+    agent routers or typed decision models would choose it when request ambiguity would break routing
+    decisions. No user feedback or cases are public, so this is inference.'

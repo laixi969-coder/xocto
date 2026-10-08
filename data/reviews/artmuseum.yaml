@@ -1,0 +1,86 @@
+- id: req-initial-artmuseum-2026-10-08
+  project_slug: artmuseum
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决艺术史内容的浏览与讲解准备，但公开材料未说明旧流程卡在哪一步、不解决会失去什么，痛点无法还原。
+    evidence_ids:
+    - ev-c457e0ca4bddc2b0
+  - gate: consensus
+    status: insufficient
+    reason: 只有一次社区讨论的 144 点与 60 条评论，属于关注度信号，不能说明持续采用或场景共识。
+    evidence_ids:
+    - ev-c457e0ca4bddc2b0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c457e0ca4bddc2b0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对内容由 AI 生成还是人工整理，也无法确认浏览结果是否准确、可交付。
+    evidence_ids:
+    - ev-c457e0ca4bddc2b0
+  next_validation: 收集 artmuseum 官方页面或仓库中关于内容生成方式、使用数据与是否收费的公开说明。
+  market: ''
+  job: 艺术史学习者或博物馆内容策划在自学或备课时，处理维基百科条目与零散图片，要完成一次对艺术史脉络的浏览或讲解准备。
+  job_en: An art history learner or museum content curator, while self-studying or preparing a lesson,
+    works with Wikipedia entries and scattered images to complete a walkthrough or a teaching preparation
+    of art history.
+  pain: 公开材料只说明它是可步行的 3D 博物馆，没有说明用户原来卡在哪一步、不解决会失去什么，痛点无法从现有事实还原。
+  pain_en: The public material only says it is a walkable 3D museum; it does not say which step users
+    were stuck on or what they lose by not solving it, so the pain cannot be reconstructed from available
+    facts.
+  current_alternative: 现有替代是直接阅读维基百科条目、看线上馆藏图片，或使用 Google Arts & Culture 一类线上展览。
+  current_alternative_en: The current alternative is reading Wikipedia entries directly, viewing online
+    collection images, or using online exhibitions such as Google Arts & Culture.
+  usage_reason: 推断：把条目放进可走动空间，可能让浏览比逐条翻页更连贯，但公开材料没有用户反馈或采用数据说明这一点，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: placing entries in a walkable space may make browsing more continuous than
+    paging through entries one by one, but the public material has no user feedback or adoption data showing
+    this, so it cannot be confirmed that users would choose it for that reason.'
+- id: req-full-artmuseum-2026-10-08
+  project_slug: artmuseum
+  level: full
+  reviewed_at: '2026-10-08T02:41:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决艺术史内容的浏览与讲解准备，但公开材料未说明旧流程卡在哪一步、不解决会失去什么；维基百科已可读可检索，浏览不连贯只是轻微不便，属于没有也行。
+    evidence_ids:
+    - ev-c457e0ca4bddc2b0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 artmuseum 官方页面或仓库中关于内容生成方式、使用数据与是否收费的公开说明。
+  market: ''
+  job: 艺术史学习者或博物馆内容策划在自学或备课时，处理维基百科条目与零散图片，要完成一次对艺术史脉络的浏览或讲解准备。
+  job_en: An art history learner or museum content curator, while self-studying or preparing a lesson,
+    works with Wikipedia entries and scattered images to complete a walkthrough or teaching preparation
+    of art history.
+  pain: 公开材料只说明它是可步行的 3D 博物馆，没有说明用户原来卡在哪一步、不解决会失去什么；维基百科条目本身可读、可检索，浏览不连贯只是轻微不便，不构成刚性痛点。
+  pain_en: The public material only says it is a walkable 3D museum; it does not say which step users
+    were stuck on or what they lose by not solving it. Wikipedia entries are already readable and searchable,
+    so discontinuous browsing is only a mild inconvenience, not a rigid pain.
+  current_alternative: 现有替代是直接阅读维基百科条目、看线上馆藏图片，或使用 Google Arts & Culture 一类线上展览，这些方式已能完成浏览与备课任务。
+  current_alternative_en: The current alternative is reading Wikipedia entries directly, viewing online
+    collection images, or using online exhibitions such as Google Arts & Culture; these already complete
+    the browsing and lesson-prep task.
+  usage_reason: 推断：把条目放进可走动空间，可能让浏览比逐条翻页更连贯，但公开材料没有用户反馈或采用数据说明这一点；对多数学习者而言，翻维基百科已够用，缺少必须换用它的理由。
+  usage_reason_en: 'Inference: placing entries in a walkable space may make browsing more continuous than
+    paging through entries one by one, but the public material has no user feedback or adoption data showing
+    this; for most learners, paging Wikipedia is already sufficient, so there is no reason they must switch.'

@@ -1,0 +1,83 @@
+- id: req-initial-sapiens-launches-sapiens-brain-the-insurance-native-ai-found-2026-10-08
+  project_slug: sapiens-launches-sapiens-brain-the-insurance-native-ai-found
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决保险核心系统内的资料处理与判断需求，但公开材料未说明具体痛点与旧流程，价值结构无法还原。
+    evidence_ids:
+    - ev-8723471ec17dd614
+  - gate: consensus
+    status: insufficient
+    reason: 仅有厂商发布消息，未见保险公司的采用、试点或评价证据。
+    evidence_ids:
+    - ev-8723471ec17dd614
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式或买方，无法判断收入来自保险公司采购还是随现有授权打包。
+    evidence_ids:
+    - ev-8723471ec17dd614
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也未说明人工复核与合规边界。
+    evidence_ids:
+    - ev-8723471ec17dd614
+  next_validation: 检索Sapiens官方产品页或投资者材料，确认Sapiens Brain与SapiensAIP的功能范围、部署方式与是否披露定价或客户案例。
+  market: ''
+  job: 保险公司的核保、理赔与保单人员在现有Sapiens系统内处理保单、理赔与承保材料，需要完成资料整理与判断支持。
+  job_en: Underwriting, claims and policy staff at insurers work inside existing Sapiens systems on policy,
+    claims and underwriting materials, needing document triage and judgement support.
+  pain: 公开材料未说明具体痛点，只能推断保险核心系统内的资料处理与判断环节仍依赖人工。
+  pain_en: Public materials do not state the specific pain; it can only be inferred that document handling
+    and judgement inside insurance core systems still rely on manual work.
+  current_alternative: 公开材料未披露原有做法，无法确认替代了哪一步旧流程。
+  current_alternative_en: Public materials do not disclose the prior practice, so which old step is replaced
+    cannot be confirmed.
+  usage_reason: 推断：若Sapiens Brain能直接读取核心系统内的保单与理赔数据并驱动处理，可省去在系统外重新整理材料的步骤，因此已在用Sapiens的保险公司可能选择它；但缺少流程与交付细节，无法确认。
+  usage_reason_en: 'Inference: if Sapiens Brain can read policy and claims data directly from the core
+    system and drive processing, it removes the step of re-organising materials outside the system, so
+    insurers already on Sapiens may choose it; without workflow and delivery detail this cannot be confirmed.'
+- id: req-full-sapiens-launches-sapiens-brain-the-insurance-native-ai-found-2026-10-08
+  project_slug: sapiens-launches-sapiens-brain-the-insurance-native-ai-found
+  level: full
+  reviewed_at: '2026-10-08T02:44:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决保险核心系统内的资料处理与判断需求，但公开材料未说明具体痛点与旧流程，价值结构无法还原。
+    evidence_ids:
+    - ev-7ca3fe6b12cdd7b8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索Sapiens官方产品页或投资者材料，确认Sapiens Brain与SapiensAIP的功能范围、部署方式与是否披露定价或客户案例。
+  market: ''
+  job: 保险公司的核保、理赔与保单人员在现有Sapiens核心系统内处理保单、理赔与承保材料，需要完成资料整理、判断支持与流程推进。
+  job_en: Underwriting, claims and policy staff at insurers work inside existing Sapiens core systems
+    on policy, claims and underwriting materials, needing document triage, judgement support and process
+    progression.
+  pain: 公开材料只给出厂商发布口径，未说明核保、理赔环节具体卡在哪一步、人工处理量多大、错误或时效代价如何，痛点无法还原。
+  pain_en: Public materials only give a vendor launch statement; they do not state which underwriting
+    or claims step stalls, how much manual work exists, or the cost of errors and delays, so the pain
+    cannot be reconstructed.
+  current_alternative: 公开材料未披露原有做法，无法确认它替代的是人工核保、规则引擎还是系统外工具。
+  current_alternative_en: Public materials do not disclose the prior practice, so whether it replaces
+    manual underwriting, rules engines or out-of-system tools cannot be confirmed.
+  usage_reason: 推断：若Sapiens Brain能直接读取核心系统内的保单与理赔数据并驱动处理，可省去在系统外重新整理材料的步骤，已在用Sapiens的保险公司可能因此选择它；但缺少流程与交付细节，无法确认。
+  usage_reason_en: 'Inference: if Sapiens Brain can read policy and claims data directly from the core
+    system and drive processing, it removes the step of re-organising materials outside the system, so
+    insurers already on Sapiens may choose it; without workflow and delivery detail this cannot be confirmed.'

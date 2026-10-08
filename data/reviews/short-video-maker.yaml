@@ -1,0 +1,87 @@
+- id: req-initial-short-video-maker-2026-10-08
+  project_slug: short-video-maker
+  level: initial
+  reviewed_at: '2026-10-08T01:55:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频转竖屏短片时逐条对时间轴、打字幕的痛点，旧做法是手工剪辑或按额度订阅 SaaS，属于具体旧工作流。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标与 fork 数，没有创作者评价或成片案例说明高光挑选是否达到可发布水准。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  - gate: model
+    status: insufficient
+    reason: 开源免费，未披露任何付费路径，买方与收费方式属于判断而非已验证事实。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  - gate: truth
+    status: insufficient
+    reason: 高光判断与翻译配音的准确度、成片是否需要人工复核，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  next_validation: 收集该仓库的 issue、discussion 与用户发布的成片案例，核对高光挑选与字幕翻译的实际成片质量及人工复核比例。
+  market: ''
+  job: 做短视频的创作者拿到长视频或 YouTube 素材后，需要挑出高光片段、配上字幕和翻译、加上配音，产出可直接发布的竖屏短片。
+  job_en: Short-video creators with long footage or YouTube material need to pick highlight clips, add
+    subtitles and translation, add voiceover, and produce publish-ready vertical shorts.
+  pain: 手工剪辑一条短片要反复看素材、对时间轴、打字幕，外包或订阅剪辑 SaaS 又按额度收费并带水印。
+  pain_en: Cutting one short by hand means rewatching footage, aligning timelines and typing subtitles,
+    while outsourcing or subscribing to clipping SaaS charges by credits and adds watermarks.
+  current_alternative: 手工用剪辑软件剪，或订阅 OpusClip、Vidyo.ai 这类按额度计费的剪辑 SaaS。
+  current_alternative_en: Editing manually in video software, or subscribing to credit-based clipping
+    SaaS such as OpusClip or Vidyo.ai.
+  usage_reason: 推断：它把高光检测、字幕、翻译和配音串成一条本地流程，省掉逐条对时间轴和打字幕的步骤，也不消耗剪辑额度，因此日更且预算有限的创作者会在素材量大、订阅成本变高时选择它。
+  usage_reason_en: 'Inference: it chains highlight detection, subtitles, translation and voiceover into
+    one local pipeline, removing the step of aligning timelines and typing subtitles clip by clip and
+    consuming no clipping credits, so daily-posting creators on tight budgets pick it when footage volume
+    grows and subscription cost bites.'
+- id: req-full-short-video-maker-2026-10-08
+  project_slug: short-video-maker
+  level: full
+  reviewed_at: '2026-10-08T02:44:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频转竖屏短片时反复看素材、对时间轴、逐句打字幕的痛点，旧做法是手工剪辑或按额度订阅带水印 SaaS，属具体旧工作流；痛点刚性来自日更产能与订阅成本，交付闭环为高光检测到成片，属工作流结构推理。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 149 星标这一关注度指标，没有创作者评价、成片案例或重复使用记录，无法说明高光挑选是否达到可发布水准，也无法证明已被留在工作流里。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  - gate: model
+    status: insufficient
+    reason: 项目开源免费，未披露任何付费路径或买方，钱可能来自捐赠、托管服务或纯社区维护，这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  - gate: truth
+    status: insufficient
+    reason: 高光判断与翻译配音的准确度、成片是否需人工复核、安全与版权边界，公开材料均未给出可核对结果，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  next_validation: 追踪该仓库的 issue、discussion 与用户发布的成片案例，核对高光挑选、字幕翻译与配音的实际成片质量及人工复核比例。
+  market: ''
+  job: 做短视频的创作者手里有长视频或 YouTube 素材时，需要挑出高光片段、配上字幕与翻译、加上配音，产出可直接发布的竖屏短片。
+  job_en: Short-video creators holding long footage or YouTube material need to pick highlight clips,
+    add subtitles and translation, add voiceover, and produce publish-ready vertical shorts.
+  pain: 手工剪一条短片要反复看素材、对时间轴、逐句打字幕；外包或订阅剪辑 SaaS 又按额度计费并带水印，日更时成本与重复劳动叠加。
+  pain_en: Cutting one short by hand means rewatching footage, aligning timelines and typing subtitles
+    line by line; outsourcing or subscribing to clipping SaaS charges by credits and adds watermarks,
+    so daily posting compounds cost and repetitive labor.
+  current_alternative: 手工用剪辑软件逐条剪，或订阅 OpusClip、Vidyo.ai 这类按额度计费、带水印的剪辑 SaaS。
+  current_alternative_en: Editing clip by clip in video software, or subscribing to credit-based, watermark-bearing
+    clipping SaaS such as OpusClip and Vidyo.ai.
+  usage_reason: 推断：相较手工逐条对时间轴和订阅额度制 SaaS，它把高光检测、字幕、翻译、配音串成一条本地流程，省掉逐条对轴与打字幕的步骤，也不消耗剪辑额度、不加水印，因此素材量大、日更且预算有限的创作者会在订阅成本变高时选择它。
+  usage_reason_en: 'Inference: versus manual timeline alignment and credit-based SaaS, it chains highlight
+    detection, subtitles, translation and voiceover into one local pipeline, removing clip-by-clip timeline
+    and subtitle work and consuming no credits or watermarks, so high-volume, daily-posting creators on
+    tight budgets pick it when subscription cost bites.'

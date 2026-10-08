@@ -183,3 +183,53 @@
     sessions and workspace snapshots are uploaded (the vendor states secrets and personal identifiers
     are redacted), which appeals to developers wanting low-cost trials of frontier models who accept that
     da'
+- id: req-full-omnirush-gui-2026-10-08
+  project_slug: omnirush-gui
+  level: full
+  reviewed_at: '2026-10-08T02:44:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者接入前沿模型编码的成本与配置负担，痛点刚性来自模型调用费用与密钥额度管理；免费换取上传脱敏会话与工作区快照构成明确取舍，交付为桌面端可运行代码改动，属工作流结构推理。
+    evidence_ids:
+    - ev-36b12d5fd3221a00
+    - ev-bed3e5e67c2d0ae5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 1,765 增至 2,608 说明关注度上升，但星标属规模信号，不能证明持续采用或场景共识；缺少用户评价与重复使用证据。
+    evidence_ids:
+    - ev-bed3e5e67c2d0ae5
+    - ev-96e42c8749d79bde
+  - gate: model
+    status: insufficient
+    reason: 公开材料称 GPT 6 Astra 与 GPT-5.6 Sol 免费，代价是上传脱敏会话与工作区快照，但未披露额度、成本承担方与付费路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9d3eea7e1cee7856
+    - ev-36b12d5fd3221a00
+  - gate: truth
+    status: insufficient
+    reason: 免费前沿模型与上传脱敏快照的交换机制公开可查，但缺少可复现实测与交付结果核对，承诺能否确定性交付、脱敏是否充分仍不明。
+    evidence_ids:
+    - ev-36b12d5fd3221a00
+    - ev-9d3eea7e1cee7856
+  next_validation: 追踪 omnirush-gui 官方 公开代码仓库 仓库的 issue、release notes 与 README 更新，核对免费前沿模型的实际额度、限制、脱敏范围与代码交付质量。
+  market: ''
+  job: 软件开发者在自己电脑上打开桌面编码智能体，把本地代码库或开发任务交给它，让它读取项目、生成或修改代码，最终拿到可运行的代码改动。
+  job_en: A software developer opens a desktop coding agent on their own machine, hands it a local codebase
+    or development task, and expects it to read the project, generate or modify code, and return runnable
+    changes.
+  pain: 公开材料显示前沿模型编码调用成本高、需自行配置密钥与额度；该产品以免费前沿模型换取上传聊天会话与工作区快照，说明开发者面临的核心取舍是模型访问成本与代码隐私之间的张力。
+  pain_en: Public materials show frontier coding model calls are costly and require self-managed keys
+    and quotas; the product trades free frontier models for uploading chat sessions and workspace snapshots,
+    indicating the core tension developers face is between model access cost and code privacy.
+  current_alternative: 开发者目前使用现有编码助手、编辑器插件或自行接入模型 API，按用量付费并自行管理密钥与额度。
+  current_alternative_en: Developers currently use existing coding assistants, editor plugins, or self-wired
+    model APIs, paying by usage and managing keys and quotas themselves.
+  usage_reason: 推断：相较自行接入模型 API 并承担调用费用，它把前沿模型访问打包进桌面客户端，减少配置与付费这一步，代价是上传脱敏后的会话与工作区快照；因此对想低成本试用前沿模型、且能接受该数据交换的开发者有吸引力。公开材料没有用户反馈或留存证据，无法确认长期使用。
+  usage_reason_en: 'Inference: versus self-wiring model APIs and bearing call costs, it bundles frontier
+    model access into a desktop client, removing the configuration and payment step at the cost of uploading
+    redacted sessions and workspace snapshots; this attracts developers wanting low-cost trials of frontier
+    models who accept that data exchange. Public materials show no user feedback or retention evidence,
+    so long-term use is unconfirmed.'

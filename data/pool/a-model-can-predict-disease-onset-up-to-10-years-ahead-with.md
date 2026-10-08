@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaEFDVUZCQ2hP
 summary: A model can predict disease onset up to 10 years ahead with 70% accuracy. Stock Titan
 first_seen: '2026-10-07T13:08:09Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

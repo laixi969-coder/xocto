@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLRnlXNlpJUzVT
 summary: Mac用户必看！AI权限别乱开 严防隐私泄露风险 36Kr
 first_seen: '2026-10-07T09:16:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

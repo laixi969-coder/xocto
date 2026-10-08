@@ -1,0 +1,91 @@
+- id: req-initial-pi-roblox-bridge-2026-10-08
+  project_slug: pi-roblox-bridge
+  level: initial
+  reviewed_at: '2026-10-08T01:55:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是让 AI 直接读写封闭编辑器对象这一具体任务，痛点真实存在；但公开材料只有仓库自述，说不清替代了哪一步旧流程的哪一环，价值判断证据不足。
+    evidence_ids:
+    - ev-7787f5127738805c
+  - gate: consensus
+    status: insufficient
+    reason: 68 个星标只说明有人关注，没有用户评价、讨论或采用记录，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-7787f5127738805c
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费路径或买方，开源项目本身也没有可见的收入模式，钱从哪来无法判断。
+    evidence_ids:
+    - ev-7787f5127738805c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能稳定读写 Studio 对象，也没有安全边界或人工确认机制的说明，交付确定性未知。
+    evidence_ids:
+    - ev-7787f5127738805c
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它实际支持的 Studio 操作范围、安装步骤与是否有用户报告成功使用。
+  market: ''
+  job: Roblox 游戏开发者或学习者在 Roblox Studio 中搭建场景与脚本时，需要让外部 AI 助手读取并修改 Studio 内的对象，以完成一次具体的关卡或脚本改动。
+  job_en: A Roblox game developer or learner building scenes and scripts in Roblox Studio needs an external
+    AI assistant to read and modify objects inside Studio to complete a specific level or script change.
+  pain: Studio 是封闭编辑器，外部 AI 无法直接接触项目内容；开发者要么手工复制粘贴代码，要么自己架设并维护本地服务，这一步既费时又容易出错。
+  pain_en: Studio is a closed editor, so an external AI cannot touch project content directly; developers
+    either copy and paste code by hand or stand up and maintain a local server, a step that is slow and
+    error-prone.
+  current_alternative: 手工在 Studio 与聊天窗口之间复制粘贴脚本，或自行搭建本地 MCP 服务并维护其运行。
+  current_alternative_en: Manually copying scripts between Studio and a chat window, or building and maintaining
+    a local MCP server themselves.
+  usage_reason: 推断：它把“先架服务器再连编辑器”这一步省掉，让助手直接对 Studio 对象动手，因此不想维护本地服务的独立开发者或教学场景可能选择它；但仓库只有自述，没有用户反馈或重复使用证据，无法确认它是否真的进入日常工作流。
+  usage_reason_en: 'Inference: it removes the step of standing up a server before connecting the editor,
+    letting the assistant act on Studio objects directly, so indie developers or teaching settings that
+    do not want to maintain a local service may choose it; the repository offers only a self-description,
+    with no user feedback or repeat-use evidence, so whether it enters daily workflows is unconfirmed.'
+- id: req-full-pi-roblox-bridge-2026-10-08
+  project_slug: pi-roblox-bridge
+  level: full
+  reviewed_at: '2026-10-08T02:44:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决让外部 AI 直接读写封闭编辑器内对象这一具体任务，痛点来自 Studio 封闭性导致的手工复制或自建服务负担，不采用就要反复搬运代码，结构推理上成立。
+    evidence_ids:
+    - ev-7787f5127738805c
+  - gate: consensus
+    status: insufficient
+    reason: 68 个星标只说明有人关注，没有用户评价、讨论或采用记录，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-7787f5127738805c
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费路径或买方，开源项目本身也没有可见收入模式，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-7787f5127738805c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能稳定读写 Studio 对象，也没有安全边界或人工确认机制说明，交付确定性未知。
+    evidence_ids:
+    - ev-7787f5127738805c
+  next_validation: 收集该仓库 README 与 issue/discussion，确认实际支持的 Studio 操作范围、安装步骤及是否有用户报告成功使用。
+  market: ''
+  job: Roblox 游戏开发者或青少年编程学习者在 Roblox Studio 中搭建场景与脚本时，需要让外部 AI 助手读取 Studio 内的对象并写回改动，以完成一次具体的关卡或脚本修改。
+  job_en: A Roblox game developer or young programming learner building scenes and scripts in Roblox Studio
+    needs an external AI assistant to read objects inside Studio and write changes back, to complete a
+    specific level or script edit.
+  pain: Studio 是封闭编辑器，外部 AI 无法直接接触项目内容；开发者要么手工在聊天窗口与 Studio 之间复制粘贴代码，要么自己架设并维护本地 MCP 服务，这一步既费时又容易出错。
+  pain_en: Studio is a closed editor, so an external AI cannot touch project content directly; developers
+    either copy code by hand between a chat window and Studio, or stand up and maintain a local MCP server,
+    a step that is slow and error-prone.
+  current_alternative: 手工在 Studio 与聊天窗口之间复制粘贴脚本，或自行搭建并维护本地 MCP 服务。
+  current_alternative_en: Manually copying scripts between Studio and a chat window, or building and maintaining
+    a local MCP server themselves.
+  usage_reason: 推断：相较自行架设本地服务，它把“先起服务器再连编辑器”这一步省掉，让助手直接对 Studio 对象动手，因此不想维护本地服务的独立开发者或教学场景会在做具体关卡改动时选择它；但仓库只有自述与
+    68 个星标，没有用户反馈或重复使用证据，是否进入日常工作流无法确认。
+  usage_reason_en: 'Inference: compared with standing up a local server, it removes the step of starting
+    a server before connecting the editor and lets the assistant act on Studio objects directly, so indie
+    developers or teaching settings that do not want to maintain a local service may choose it for a specific
+    level edit; the repository offers only a self-description and 68 stars, with no user feedback or repeat-use
+    evidence, so whether it enters daily workflows is unconfirmed.'

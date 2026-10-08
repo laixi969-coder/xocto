@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPczVITVFxQ0Rx
 summary: OpenAI在其智能体擅访澳数据后采取新防范措施|澳大利亚|悉尼|美国|医保|致歉_手机新浪网 finance.sina.com.cn
 first_seen: '2026-10-06T17:04:17Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -298,3 +298,46 @@
     asset generation and 3D site orchestration into one open-source framework with 20 example sites, potentially
     cutting coordination and assembly steps; but the public material does not state steps actually saved
     or output quality, so this is a capability-based judgment.'
+- id: req-full-dioramas-2026-10-08
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-08T02:42:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决三维发布页素材与编排成本高的问题，但全部公开证据指向实体微缩景观模型，未提供任何三维网页用户的痛点、旧流程或替代行为，需求与痛点无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-cd3f4ccf75d5f414
+    - ev-72a660edc3ca141d
+    - ev-e7d1709b652b6be4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该框架官方仓库的 README、issue 与 discussion，确认是否有团队用它交付真实商业三维站点，以及素材生成到上线的实际步骤与部署方式。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 公开证据中没有任何一条描述该产品用户的具体痛点：现有证据全部指向实体微缩景观模型（wikiHow 手工制作、博物馆巨型立体模型），与三维网页制作无关，无法还原旧流程哪里难受。
+  pain_en: 'None of the public evidence describes a concrete pain point for this product''s users: all
+    evidence refers to physical diorama models (wikiHow craft instructions, museum giant dioramas), unrelated
+    to 3D web production, so the old workflow''s friction cannot be reconstructed.'
+  current_alternative: 公开材料未提供三维网页制作者当前的替代做法；证据中的替代行为是手工制作实体微缩景观，与网页交付任务不属同一工作流。
+  current_alternative_en: The public material provides no current alternative for 3D web builders; the
+    alternatives in evidence are handcrafting physical dioramas, which belongs to a different workflow
+    than web delivery.
+  usage_reason: 无法给出使用理由：证据未包含任何用户反馈、客户案例或采用行为，无法说明相较旧做法减少了哪一步负担，因此不构成可判断的选择动机。
+  usage_reason_en: 'No usage reason can be given: the evidence contains no user feedback, customer case
+    or adoption behavior, so it cannot explain which step burden is reduced versus the old approach, and
+    no judgeable choice motive exists.'

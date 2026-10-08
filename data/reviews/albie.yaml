@@ -1,0 +1,85 @@
+- id: req-initial-albie-2026-10-08
+  project_slug: albie
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决学生看不懂推导过程的需求，痛点具体；但公开材料只有一句定位，无法确认学科范围与讲解是否可靠。
+    evidence_ids:
+    - ev-973b61fbb641e31a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布信息，没有用户评价、采用或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-973b61fbb641e31a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，学生自付还是家长付费不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-973b61fbb641e31a
+  - gate: truth
+    status: insufficient
+    reason: 白板讲解能否确定性交付、错误推导由谁纠正，公开材料均未说明。
+    evidence_ids:
+    - ev-973b61fbb641e31a
+  next_validation: 收集 Albie 官方页面上的学科覆盖说明与定价页，确认它按什么计价、面向哪类学生。
+  market: ''
+  job: 学生在做作业或复习时遇到不会的题目或概念，把题目交给工具，希望得到一步步的讲解过程。
+  job_en: A student stuck on a problem or concept during homework or revision hands the material to the
+    tool and wants a step-by-step explanation.
+  pain: 聊天式 AI 常直接给答案，学生看不懂推导过程，仍不知道错在哪一步。
+  pain_en: Chat-style AI often just gives the answer, so students cannot follow the derivation and still
+    do not know which step went wrong.
+  current_alternative: 学生目前用通用聊天助手提问、看录播课或请家教。
+  current_alternative_en: Students currently ask general chat assistants, watch recorded lessons, or hire
+    a human tutor.
+  usage_reason: 推断：白板逐步书写把推导过程显性化，相比聊天回复更接近学生抄写和跟读的习惯，因此需要看懂过程而非只要答案的学生可能选择它；但公开材料未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: writing step by step on a whiteboard makes the derivation explicit and
+    fits how students copy and follow along better than a chat reply, so students who need to understand
+    the process rather than just the answer may choose it; however, no user feedback or retention evidence
+    is public.'
+- id: req-full-albie-2026-10-08
+  project_slug: albie
+  level: full
+  reviewed_at: '2026-10-08T02:41:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决学生看不懂推导过程的问题，但公开证据只有一句定位，且现有证据全部指向同名婴儿名与英国动画片，与 AI 家教产品无关，无法还原用户任务、旧替代与不解决的后果。
+    evidence_ids:
+    - ev-25ae9f9aaaad063c
+    - ev-7a32b7960b0120ff
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Albie 官方产品页或应用商店页面，确认其学科覆盖、定价与真实用户评价，以替代当前指向同名婴儿名与动画片的无关证据。
+  market: ''
+  job: 学生在做作业或复习遇到卡壳的题目或概念时，把题目交给工具，希望得到可跟着抄写的分步推导讲解，而不是一段聊天回复。
+  job_en: A student stuck on a problem or concept during homework or revision hands the material to a
+    tool and wants a step-by-step derivation they can follow and copy, not a chat reply.
+  pain: 公开材料只有一句产品定位，未说明学生具体卡在哪一步、聊天式 AI 给答案后学生仍不懂推导这一痛点是否被真实用户表达过。
+  pain_en: Public material offers only a one-line positioning; it does not show which step students get
+    stuck on, nor whether real users have voiced the pain that chat-style AI gives answers without explaining
+    the derivation.
+  current_alternative: 公开材料未记录任何现有替代行为；通用聊天助手、录播课或家教只是从产品定位反推的可能替代，不是已观察到的用户行为。
+  current_alternative_en: No current alternative behavior is documented in the public material; general
+    chat assistants, recorded lessons, or human tutors are only inferred from the positioning, not observed
+    user behavior.
+  usage_reason: 推断：白板逐步书写可能比聊天回复更贴近学生抄写跟读的习惯，但公开材料没有用户反馈、采用或留存证据，无法确认哪类学生会在什么情况下选择它。
+  usage_reason_en: 'Inference: step-by-step whiteboard writing may fit how students copy and follow along
+    better than a chat reply, but no user feedback, adoption, or retention evidence is public, so it cannot
+    be confirmed which students would choose it and when.'

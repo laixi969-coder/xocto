@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE95OVh6RU5GV09D
 summary: 亚盈国际注册发布AI智能体平台，体育资讯从被动推送到主动决策 体坛
 first_seen: '2026-10-06T11:42:35Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

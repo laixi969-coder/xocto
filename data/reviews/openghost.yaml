@@ -265,3 +265,44 @@
   usage_reason_en: 'No causal explanation is possible: the evidence neither identifies target users and
     situations nor shows which step burden is reduced or which checkable outcome improves versus the old
     approach, so why users would choose it cannot be inferred.'
+- id: req-full-openghost-2026-10-08
+  project_slug: openghost
+  level: full
+  reviewed_at: '2026-10-08T02:44:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只描述桌面代理、浏览器工具与绘图引擎等功能，未给出任何用户任务、痛点、旧替代或不解决的后果，连需求和痛点都写不出来，无法形成价值结构判断。
+    evidence_ids:
+    - ev-26bc777b4a2aa1d0
+    - ev-ebc7f7b76b99362e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OpenGhost 官方仓库的 README、issue 与 discussion，确认是否存在具体用户描述的任务、旧替代流程与交付结果，以补足价值关所需的使用场景证据。
+  market: ''
+  job: 公开材料只说明 OpenGhost 是面向 Windows、macOS 和 Linux 的桌面 AI 代理，自带代理引擎、浏览器工具和绘图引擎；具体是谁、在什么工作节点、处理什么材料、交付什么，均未说明，无法还原一个可判断的使用场景。
+  job_en: Public material only states that OpenGhost is a desktop AI agent for Windows, macOS and Linux
+    with its own agent engine, browser tooling and drawing engine; who uses it, at which work step, on
+    what material, and with what deliverable is not stated, so no judgeable job can be reconstructed.
+  pain: 公开材料没有给出任何用户痛点、抱怨、workaround 或客户案例；产品功能说明本身不构成痛点证据，因此无法说明不解决会有什么代价。
+  pain_en: Public material contains no user pain, complaint, workaround or customer case; product feature
+    descriptions are not pain evidence, so the cost of leaving the problem unsolved cannot be stated.
+  current_alternative: 公开材料未说明用户目前用什么方式完成同类任务，也未说明 OpenGhost 替代了什么旧流程。
+  current_alternative_en: Public material does not state how users currently complete comparable tasks,
+    nor what prior workflow OpenGhost replaces.
+  usage_reason: 由于使用场景、痛点与旧替代均无法从公开事实还原，无法解释哪类用户会在什么情况下选择它；仓库 237→247 星只反映关注度，不能作为选择理由。
+  usage_reason_en: Because the job, pain and prior alternative cannot be reconstructed from public facts,
+    it is impossible to explain which users would choose it and when; the repository's 237→247 stars reflect
+    attention only and cannot serve as a reason for choice.

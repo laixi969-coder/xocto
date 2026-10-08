@@ -90,3 +90,51 @@
     and aggregating multi-platform quota into one panel; developers holding several coding-tool accounts
     who care about credit and quota loss would choose it (inference from product capability, no retention
     or payment evidence yet).
+- id: req-full-creditdaddy-2026-10-08
+  project_slug: creditdaddy
+  level: full
+  reviewed_at: '2026-10-08T02:42:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号每日签到与额度分散查询的重复手工问题，漏签会损失积分，旧做法是逐个登录后台，痛点具体且高频；但痛点强度目前来自工作流结构推理，尚无用户抱怨或评价佐证。
+    evidence_ids:
+    - ev-e54576da2e9fffaa
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 42 增至 46，属早期关注度，只能说明有人注意到该项目，不能证明开发者已把它放进日常工作流或持续使用。
+    evidence_ids:
+    - ev-e54576da2e9fffaa
+    - ev-abe1d6e9b46a566b
+  - gate: model
+    status: insufficient
+    reason: 开源免费项目，公开材料未说明任何收费方式或买方，钱从哪来只能推测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e54576da2e9fffaa
+  - gate: truth
+    status: insufficient
+    reason: 自动签到依赖各平台账号与接口，平台规则变化或封禁会直接影响交付确定性，公开材料未说明合规边界与失效处理。
+    evidence_ids:
+    - ev-e54576da2e9fffaa
+  next_validation: 收集该仓库的 issue 与 discussion，确认自动签到在各平台规则变化后的失效反馈与维护响应。
+  market: ''
+  job: 同时使用 Qoder、WorkBuddy(CodeBuddy)、ZCode 等多个 AI 编程工具的独立开发者，每天开工前要逐个登录这些账号手动签到领积分，并分别查看剩余额度，才能决定当天用哪个工具写代码。
+  job_en: Independent developers who use several AI coding tools such as Qoder, WorkBuddy (CodeBuddy)
+    and ZCode must log into each account daily to check in for credits and check remaining quota before
+    deciding which tool to code with that day.
+  pain: 多账号签到与额度查询是每天重复的手工动作，漏签直接损失积分，额度分散在多个后台难以横向比较，影响当天可用的 AI 编程额度；这是从产品说明还原出的工作流痛点，尚无用户抱怨或评价直接佐证。
+  pain_en: Multi-account check-ins and quota lookups are daily repetitive manual steps; a missed check-in
+    loses credits outright, and quota scattered across separate consoles is hard to compare, affecting
+    how much AI coding capacity is available that day; this pain is reconstructed from the product description,
+    not yet corroborated by user complaints or reviews.
+  current_alternative: 开发者目前靠浏览器书签逐个打开各平台后台手动签到，用表格或记忆记录额度，或干脆放弃部分账号的每日积分。
+  current_alternative_en: Developers currently open each platform's console via bookmarks to check in
+    manually, track quota in spreadsheets or memory, or simply give up the daily credits on some accounts.
+  usage_reason: 相较逐个打开后台手动签到，它把签到与额度抓取合并为一次本地自动执行，省掉每天重复登录和逐页查看这一步，并把多平台额度汇总到同一托盘面板；因此同时持有多个编程工具账号、又在意积分与额度损耗的开发者会选它（基于产品能力的推断，尚无留存或付费证据）。
+  usage_reason_en: Compared with opening each console to check in manually, it merges check-ins and quota
+    fetching into one local automated run, removing the daily repeated logins and page-by-page checks
+    and aggregating multi-platform quota into one tray panel; developers holding several coding-tool accounts
+    who care about credit and quota loss would choose it (inference from product capability, no retention
+    or payment evidence yet).

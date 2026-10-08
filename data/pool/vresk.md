@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/vresk
 summary: One AI workspace that offers the best open source models
 first_seen: '2026-10-05T22:47:06Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

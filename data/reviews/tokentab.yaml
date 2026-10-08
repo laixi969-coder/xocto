@@ -186,3 +186,50 @@
     copying and unit-conversion step, and it requires no account, no API key and keeps data local, so
     developers running several projects who must justify spend to clients or budgets and care about log
     privacy would pick it at settlement time; this is workflow inference from product capability vers
+- id: req-full-tokentab-2026-10-08
+  project_slug: tokentab
+  level: full
+  reviewed_at: '2026-10-08T02:45:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编程开销无法按项目归因的需求，痛点是超支与结算说不清、只能估算；旧做法是逐个翻厂商用量页手工汇总，不核算就失去成本控制。这是从输入日志到费用明细的工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-deecb6092d87992d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标从 97 增至 289，属关注度而非持续采用；没有用户评价、issue 或团队案例说明它已进入日常结算流程，场景强度可判但采用证据缺失。
+    evidence_ids:
+    - ev-deecb6092d87992d
+    - ev-ccdb058a249aaee0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是个人开发者或团队，属判断而非已验证事实；本地优先、数据不出本机也意味着难以靠数据或订阅变现，付费路径尚未核验。
+    evidence_ids:
+    - ev-deecb6092d87992d
+  - gate: truth
+    status: supported
+    reason: 只读本机会话日志、不登录不传 API key，承诺的按模型项目日期费用明细与实现路径一致，交付可确定；人工仍需自行判断哪些消耗值得，边界清楚。
+    evidence_ids:
+    - ev-deecb6092d87992d
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有团队把它接入项目结算或预算告警的实际使用记录。
+  market: ''
+  job: 使用 Claude Code、Codex 或 Gemini CLI 的开发者或团队负责人，在月底结算或项目复盘时，处理散落在本机各工具会话日志里的 token 消耗记录，要完成一份按模型、项目、日期和活动可查的费用明细。
+  job_en: Developers or team leads using Claude Code, Codex or Gemini CLI who, at month-end settlement
+    or project review, work with token consumption records scattered across local session logs of several
+    tools and need a cost breakdown searchable by model, project, date and activity.
+  pain: AI 编程开销混在订阅或 API 账单里，无法按项目归因，超支或向客户结算时说不清钱花在哪，只能凭感觉估算；多工具并用时还要跨平台抄数换算。
+  pain_en: AI coding spend is buried in subscription or API bills and cannot be attributed per project,
+    so overspend or client settlement cannot be explained and must be estimated; running several tools
+    also forces cross-platform copying and conversion.
+  current_alternative: 逐个打开各家工具的用量页面、导出账单到表格手工汇总，或干脆不核算、凭感觉控制用量。
+  current_alternative_en: Opening each vendor's usage page one by one, exporting bills into spreadsheets
+    and aggregating by hand, or skipping accounting entirely and controlling usage by feel.
+  usage_reason: 相较逐个打开厂商用量页再手工汇总，它直接读取本机已有的会话日志并按模型、项目、日期聚合，省掉跨工具抄数与单位换算这一步，因此多项目并行、需要向客户或预算交代的开发者会在结算节点选择它；这是基于产品能力的工作流推断，尚无留存或付费证据。
+  usage_reason_en: Compared with opening each vendor's usage page and aggregating by hand, it reads existing
+    on-machine session logs and aggregates by model, project and date, removing the cross-tool copying
+    and unit-conversion step, so developers running several projects who must justify spend to clients
+    or budgets would pick it at settlement time; this is workflow inference from product capability, with
+    no retention or payment evidence yet.

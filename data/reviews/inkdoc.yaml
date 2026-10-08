@@ -281,3 +281,54 @@
     format cleanup step and avoiding uploading files to an external service; legal, compliance, and research
     users handling sensitive or batch documents who need clean text for models would choose it in that
     situation.'
+- id: req-full-inkdoc-2026-10-08
+  project_slug: inkdoc
+  level: full
+  reviewed_at: '2026-10-08T02:43:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把 PDF、扫描件和 Office 文档转成可投喂 AI 的干净 Markdown 这一具体任务，痛点在于版式错乱与逐份手工清理；本地运行还回应了敏感文件不出本机的顾虑。这是基于产品说明与工作流结构的推理，尚无用户抱怨或采用数据佐证痛点强度。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-8b225bc9324ac614
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 增至 53 后持平，说明有开发者关注，但收藏与排名只属关注度证据，不能证明目标用户持续使用或形成强场景；公开材料未见 issue、discussion 或客户案例说明谁在何种流程中采用。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-1f86d6760beb7bcd
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或采购路径，无法判断收入来自个人开发者、企业法务还是开源赞助；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称本地转换，但公开材料未给出转换质量基准、OCR 准确率或人工校对边界，交付能否稳定发生尚缺可复现证据；本地运行本身在隐私方向上与承诺一致。
+    evidence_ids:
+    - ev-fdcb503ef92da132
+    - ev-8b225bc9324ac614
+  next_validation: 追踪 InkDoc 官方仓库的 README、release 说明与 issue/discussion，确认是否公开转换质量基准、支持格式清单或真实用户部署案例。
+  market: ''
+  job: 知识工作者、法务或研究助理在需要把一批 PDF、扫描件和 Office 文档投喂给 AI 或检索系统时，用本地桌面应用把这些文件转成干净、结构化的 Markdown，再交给下游模型或索引流程。
+  job_en: Knowledge workers, legal staff, or research assistants who need to feed a batch of PDFs, scans,
+    and Office documents into an AI or retrieval system use a local desktop app to convert them into clean,
+    structured Markdown for downstream models or indexing.
+  pain: 公开材料只说明产品做本地文档转 Markdown，未提供用户抱怨、频率或不采用代价；从工作流结构推理，扫描件与复杂版式直接投喂模型会带来版面错乱、OCR 噪声和逐份手工清理，这是可识别的摩擦，但强度尚未被公开用户证据核验。
+  pain_en: Public materials only describe local document-to-Markdown conversion and provide no user complaints,
+    frequency, or cost of inaction; by workflow inference, feeding scans and complex layouts directly
+    into models causes layout corruption, OCR noise, and manual cleanup per file, but the intensity is
+    not yet verified by public user evidence.
+  current_alternative: 公开材料未说明现有替代方式；结构上可推断的旧做法是手动复制粘贴、用通用 PDF 转文本工具、或把原始文件直接上传给云端模型，这些做法在版式和隐私上各有代价。
+  current_alternative_en: Public materials do not state the current alternative; structurally inferable
+    old approaches are manual copy-paste, generic PDF-to-text tools, or uploading raw files directly to
+    cloud models, each with layout or privacy trade-offs.
+  usage_reason: 推断：相较手动复制或通用转换工具，InkDoc 在本地一次调用 MarkItDown、Docling、GLM-OCR 等完成版面与文字转换，减少逐份手工清理和把敏感文件上传云端这一步，因此处理批量扫描件且在意数据不出本机的法务或研究助理会在该情况下选择它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual copy-paste or generic converters, InkDoc runs MarkItDown,
+    Docling, GLM-OCR and similar locally in one pass to handle layout and text, removing per-file manual
+    cleanup and the step of uploading sensitive files to the cloud, so legal or research assistants handling
+    batches of scans who care about keeping data on-device would choose it in that situation; no user
+    feedback yet confirms this motive.'

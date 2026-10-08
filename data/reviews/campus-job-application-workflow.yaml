@@ -331,3 +331,53 @@
     submission, removing the manual item-by-item comparison and missed-check step; students whose posting
     volume exceeds manual tracking would try it. This is inference from product capability, lacking user
     feedback and continued-use evidence.
+- id: req-full-campus-job-application-workflow-2026-10-08
+  project_slug: campus-job-application-workflow
+  level: full
+  reviewed_at: '2026-10-08T02:42:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决秋招投递中漏截止、重复填表和提交前无统一检查的问题，旧做法是表格加手工复制，不采用有明确代价；但仓库只描述工作流结构，痛点强度属结构推理而非用户反馈。
+    evidence_ids:
+    - ev-8f7ff19ae983953c
+    - ev-4a1ee1435fc07d82
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 66 增至 115 只说明关注度上升，仓库未披露 fork、issue 或使用者反馈，无法证明求职者已把它放进日常投递流程。
+    evidence_ids:
+    - ev-8f7ff19ae983953c
+    - ev-904921252a09a2a8
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是学生个人、高校就业服务或辅导机构，这是判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-8f7ff19ae983953c
+  - gate: truth
+    status: insufficient
+    reason: 提交前六查与人机协作协议的具体规则未在材料中展开，交付是否确定发生、人工确认边界在哪仍不清楚，需看 README 或 issue。
+    evidence_ids:
+    - ev-8f7ff19ae983953c
+    - ev-4a1ee1435fc07d82
+  next_validation: 追踪该 公开代码仓库 仓库的 README 与 issue/discussion，确认提交前六查的具体规则、模板交付形态以及是否有使用者反馈或复现记录。
+  market: ''
+  job: 应届毕业生在秋招集中投递期，面对大量岗位、不同截止时间和各异的申请材料要求，需要按优先级完成投递、避免漏投错投，并留下可追踪的投递记录与公司攻略笔记。
+  job_en: During the concentrated autumn recruitment season, a graduating student faces many postings
+    with different deadlines and application requirements, and needs to submit in priority order without
+    missing or misdirecting any, while keeping a trackable application log and company notes.
+  pain: 投递窗口短、岗位多，用表格和备忘录跟踪容易漏截止、重复填相同信息，提交前缺少统一检查，出错后无法补救；公开材料只给出工作流结构，未提供用户抱怨或反馈，痛点强度属结构推理。
+  pain_en: The window is short and postings numerous; spreadsheet-and-notes tracking easily misses deadlines,
+    repeats the same data entry, and lacks a consistent pre-submission check, so errors cannot be corrected.
+    Public material only shows the workflow structure, not user complaints, so pain intensity is structural
+    inference.
+  current_alternative: 多数人用 Excel 表格、备忘录、浏览器书签和手工复制粘贴管理投递，部分人付费请求职辅导机构代改简历；仓库未披露与这些旧做法的对比数据。
+  current_alternative_en: Most people manage applications with spreadsheets, notes apps, browser bookmarks
+    and manual copy-paste, while some pay job-coaching services to revise resumes; the repository discloses
+    no comparison data against these practices.
+  usage_reason: 相较表格加手工复制，它把岗位、截止时间和投递预算写成状态机队列，由 AI 按规则生成材料并在提交前跑六项核对，减少逐条人工比对与漏检这一步；这是根据产品能力作出的推断，缺少用户反馈与持续使用证据。
+  usage_reason_en: Compared with spreadsheets plus manual copy-paste, it encodes postings, deadlines and
+    budget as a state-machine queue, has AI generate materials by rule and run a six-item check before
+    submission, removing the manual item-by-item comparison and missed-check step; this is inference from
+    product capability, as user feedback and continued-use evidence are absent.

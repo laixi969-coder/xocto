@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxQSWRIZUlzQnhN
 summary: 好产品也会丢单，Palantir 旧访谈翻红：企业级AI 订单，拼的不只是模型|Scale AI|钛媒体|客户|工程师|数据 新浪财经
 first_seen: '2026-10-07T03:16:39Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

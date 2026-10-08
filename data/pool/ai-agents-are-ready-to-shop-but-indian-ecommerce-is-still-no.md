@@ -1,11 +1,15 @@
 ---
 slug: ai-agents-are-ready-to-shop-but-indian-ecommerce-is-still-no
-name: AI agents are ready to shop but Indian ecommerce is still not ready to let them in
+name: Indian ecommerce AI agent readiness
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI 购物代理已具备能力，但印度电商平台尚未开放接入，代理无法完成下单与支付流程。这一接入缺口意味着在印度市场，代理式购物的采用受制于平台政策与接口开放程度，而非模型能力，短期内相关
+  AI 应用的商业闭环难以落地。
 inspiration: ''
-summary_en: ''
+summary_en: AI shopping agents are technically ready, but Indian ecommerce platforms have not opened access,
+  so agents cannot complete ordering and payment flows. This access gap means agentic shopping adoption
+  in India is constrained by platform policy and interface openness rather than model capability, limiting
+  near-term commercial closure for related AI applications.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +26,7 @@ summary: AI agents are ready to shop but Indian ecommerce is still not ready to 
   18
 first_seen: '2026-10-07T03:35:36Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# AI agents are ready to shop but Indian ecommerce is still not ready to let them in
+# Indian ecommerce AI agent readiness
 
 AI agents are ready to shop but Indian ecommerce is still not ready to let them in StoryBoard 18
 

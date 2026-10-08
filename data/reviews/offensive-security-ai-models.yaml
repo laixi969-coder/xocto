@@ -410,3 +410,49 @@
   usage_reason_en: 'Inference: versus trial-installing one by one, the list centralizes candidates, cutting
     the ''first learn what options exist'' search step so researchers can lock onto locally deployable
     candidates faster at test kickoff; stars rising from 524 to 611 shows attention, not sustained use.'
+- id: req-full-offensive-security-ai-models-2026-10-08
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-08T02:44:18Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决授权测试中筛选可本地部署未审查模型的需求，但公开证据只有一句仓库简介与星标数，既无用户痛点陈述，也无旧替代行为与不采用后果；清单本身可被任何同类聚合页替代，属于看着方便但没有也行的拼凑型价值。
+    evidence_ids:
+    - ev-d458c1cda724c05f
+    - ev-c9696259a60bd46b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README 更新、issue 与 discussion，确认是否出现具体模型清单、部署说明或使用者反馈，以判断清单是否被真正用于授权测试工作流。
+  market: ''
+  job: 安全研究员在获得书面授权的渗透测试或红队评估中，需要挑选可本地部署、未做安全对齐限制的模型，用来生成攻击面假设、验证漏洞利用思路并整理测试结论。
+  job_en: In an authorized penetration test or red-team engagement, a security researcher needs to pick
+    a locally deployable, safety-unaligned model to generate attack-surface hypotheses, validate exploit
+    ideas, and write up findings.
+  pain: 公开材料只给出仓库一句话简介与星标数，没有任何用户陈述说明现有做法（自行在 公开模型社区 逐个检索、社区口口相传、用通用商用模型被拒答）到底卡在哪一步、代价多大、多久发生一次；痛点强度无法从公开事实确认。
+  pain_en: Public materials offer only a one-line repo description and star counts; no user statement
+    shows which step of the current practice (manual public model community search, word of mouth, refusals
+    from general commercial models) actually hurts, how much, or how often, so pain intensity cannot be
+    confirmed from public facts.
+  current_alternative: 结构推理：研究者目前多半在 公开模型社区 或模型聚合站按关键词自行检索、靠同行推荐或社区帖子找候选，再逐个下载试跑；仓库只是把这一步换成一份清单，未说明是否附带部署脚本、评测结果或维护承诺。
+  current_alternative_en: 'Structural inference: researchers today mostly search public model community
+    or model hubs by keyword, rely on peer recommendations or community posts, then download and try candidates
+    one by one; the repo only swaps that step for a list, with no stated deployment scripts, benchmark
+    results, or maintenance commitment.'
+  usage_reason: 推断：清单把分散的检索收敛到一处，可能省去逐个平台翻找的步骤，因此会在需要快速凑齐候选模型时被打开；但公开材料没有用户反馈或案例说明它真的替代了旧流程，星标增长只反映关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: the list consolidates scattered searching into one place, potentially saving
+    the step of browsing multiple hubs, so it may be opened when candidates are needed quickly; but no
+    public user feedback or case shows it actually replaced the old workflow, and star growth reflects
+    attention, not sustained use.'

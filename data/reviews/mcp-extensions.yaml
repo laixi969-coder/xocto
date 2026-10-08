@@ -396,3 +396,60 @@
     ChatGPT, but public evidence is only a repo description and rising stars (622→787), with no pricing,
     review process, customer cases or repeat-use evidence, so it cannot be shown which step it removes
     versus prior distribution, and continued adoption cannot be confirmed.'
+- id: req-full-mcp-extensions-2026-10-08
+  project_slug: mcp-extensions
+  level: full
+  reviewed_at: '2026-10-08T02:43:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是第三方把功能送进 ChatGPT 会话流、避免用户跳出对话的需求，痛点是分发链路被切断与自建界面适配成本；不采用的后果是功能触达依赖外链跳转。公开材料仅有机制定位与仓库关注度，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-3f8bf38cee534f6c
+    - ev-c6d7bb441750852d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏由 699 升至 796，说明开发者社区持续关注该机制，但收藏与排名只属关注度证据，不能证明目标开发者已把它留在发布流程里；公开材料未见 issue、discussion
+      或客户案例说明实际接入与复用。
+    evidence_ids:
+    - ev-3f8bf38cee534f6c
+    - ev-01bcc78c6e331646
+    - ev-c6d7bb441750852d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露该扩展机制的审核、计费与分成规则，也未见开发者付费或平台抽成记录，买方是 OpenAI 平台侧还是插件开发者侧无法从现有证据判定；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-3f8bf38cee534f6c
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明只承诺插件“像原生功能”，但审核标准、可用范围、调用失败与安全边界均无公开文档佐证，交付能否确定性发生尚缺可复现证据；中文生态检索亦未发现对应落地材料。
+    evidence_ids:
+    - ev-3f8bf38cee534f6c
+    - ev-48ad7611f74daa6e
+  next_validation: 追踪 openai/mcp-extensions 仓库的 README、提交规范与 issue/discussion，确认审核流程、可用范围与是否有开发者公开的接入或计费记录。
+  market: ''
+  job: 第三方开发者（独立开发者或 SaaS 团队）在已有 ChatGPT 会话式交互的前提下，按 OpenAI 的扩展机制编写并提交插件，让自家功能以原生形态出现在 ChatGPT 内，由终端用户在对话中直接调用，从而把服务触达从自有网站/App
+    前移到用户已有的对话工作流里。
+  job_en: Third-party developers (indie builders or SaaS teams) write and submit plugins under OpenAI's
+    extension mechanism so their features appear as native-feeling capabilities inside ChatGPT, invoked
+    by end users directly in the conversation, moving distribution from their own site/app into the user's
+    existing chat workflow.
+  pain: 旧路径下第三方要把功能送到 ChatGPT 用户面前，只能引导用户跳出对话去访问独立网站或安装独立应用，转化链路被切断；开发者还要自行承担界面、鉴权和会话上下文的适配成本。公开材料只给出机制定位与仓库关注度，未提供开发者抱怨或流失数据，痛点强度属工作流结构推理。
+  pain_en: Under the old path, a third party could only reach ChatGPT users by pushing them out of the
+    conversation to a separate site or app, breaking the conversion chain, while the developer absorbed
+    UI, auth and context-adaptation costs. Public material gives only the mechanism's positioning and
+    repo attention, not developer complaints or drop-off data, so pain intensity is a workflow inference.
+  current_alternative: 旧替代是自建网站或独立 App、通过链接和文档引导用户离开对话使用，以及此前 ChatGPT 插件/自定义 GPT 等更早的接入形态；开发者也可选择不做 ChatGPT
+    内集成，仅把 API 能力留给自有前端。
+  current_alternative_en: The prior alternatives are a self-built site or standalone app that pulls users
+    out of the conversation via links and docs, earlier ChatGPT plugin or custom-GPT style integrations,
+    or simply not integrating with ChatGPT at all and keeping API capability inside one's own frontend.
+  usage_reason: 推断：相较让用户跳出对话访问独立站点，该机制让开发者把功能直接注册进 ChatGPT 的调用面，用户无需切换应用即可触发，减少的是“离开对话—重新登录—手动搬运上下文”这几步；因此面向已在
+    ChatGPT 内完成日常任务的开发者与团队，会在需要把自家能力嵌入该会话流时选择它。仓库收藏从 699 增至 796 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus sending users out of the conversation to a standalone site, this
+    mechanism lets a developer register functionality directly into ChatGPT''s invocation surface so users
+    trigger it without switching apps, removing the leave-the-chat, re-authenticate and manually re-paste-context
+    steps. Developers and teams already doing daily work inside ChatGPT would therefore pick it when they
+    need their capability embedded in that conversation flow. Repo stars rising from 69'

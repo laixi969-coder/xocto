@@ -278,3 +278,57 @@
     into one pipeline so a script yields a finished cut, removing manual voiceover and line-by-line alignment;
     since an agent cannot watch a video, the project saves scene stills and a thumbnail sheet for self-checking,
     so developers who want assets to stay local and do not want to learn editing are the likely choosers.'
+- id: req-full-explainroo-2026-10-08
+  project_slug: explainroo
+  level: full
+  reviewed_at: '2026-10-08T02:42:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把文字脚本变成带旁白讲解视频的需求，痛点是手工配音与逐句对轴耗时且质量不稳，旧做法可还原，属工作流推理；谁付钱未在公开材料说明。
+    evidence_ids:
+    - ev-71bcac2d28ab2ef8
+    - ev-b3810a563d02ebcd
+    - ev-8017b3fb83ad62c6
+  - gate: consensus
+    status: insufficient
+    reason: 官网展示 26 条 AI agent 生成的讲解视频，仓库星标从 470 增至 485，属关注度与产出展示，没有用户评价、客户案例或重复使用证据，无法判断是否形成稳定共识。
+    evidence_ids:
+    - ev-71bcac2d28ab2ef8
+    - ev-eb2a80ff00955dbe
+    - ev-5cda8c1d2a797b78
+  - gate: model
+    status: insufficient
+    reason: 公开材料写明免费开源、本地运行、无需 API key，未说明任何付费路径或买方，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-b3810a563d02ebcd
+    - ev-53ec940c2088a2aa
+  - gate: truth
+    status: insufficient
+    reason: 它给 agent 保存场景静帧和整片缩略帧表以便自查，但本地语音与渲染能否稳定产出可直接发布的成片、人工还需多少确认，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-8017b3fb83ad62c6
+    - ev-420b92054610b4fb
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，核对是否有用户报告把脚本到成片的流程接入真实发布工作流并重复使用。
+  market: ''
+  job: 开源项目维护者或产品营销人员在发布新版本、新功能或做产品演示时，把一段文字脚本交给本地流程，产出带旁白的讲解 MP4，用于发布说明、落地页或项目介绍。
+  job_en: Open-source maintainers or product marketers who, when shipping a new version, feature or product
+    demo, hand a written script to a local pipeline to produce a narrated explainer MP4 for release notes,
+    landing pages or project intros.
+  pain: 公开材料显示它面向需要讲解视频的人，但未直接记录用户抱怨；从工作流看，旧做法要在剪辑软件里手工配音、逐句对轴、反复导出，一条视频耗数小时且配音质量不稳，这是结构推理而非用户口述。
+  pain_en: Public material shows it targets people who need explainer videos but records no direct user
+    complaint; structurally, the old path means manual voiceover, line-by-line alignment and repeated
+    exports in editing software, hours per video with unstable voice quality — this is inference, not
+    user testimony.
+  current_alternative: 用剪辑软件手工配音与对轴，或购买云端 AI 配音与视频生成服务；前者费时，后者按量付费且素材需上传。
+  current_alternative_en: Manual voiceover and timeline alignment in editing software, or paid cloud AI
+    voiceover and video generation services; the former is slow, the latter is metered and requires uploading
+    assets.
+  usage_reason: 推断：它把本地语音（Kokoro）、词级时间对齐（Whisper）和画布渲染串成一条流水线，脚本直接产出成片，省掉手工配音与逐句对轴两步；官网展示 26 条由 AI agent
+    生成的讲解视频，说明该流程能产出可展示成片，因此在意素材不出本地、又不想学剪辑的开发者会先试它。
+  usage_reason_en: 'Inference: it chains local voice (Kokoro), word-level timing (Whisper) and a canvas
+    renderer into one pipeline so a script yields a finished cut, removing manual voiceover and line-by-line
+    alignment; the site shows 26 agent-made explainer videos, indicating the flow can produce presentable
+    output, so developers who want assets to stay local and avoid learning editing are likely first users.'

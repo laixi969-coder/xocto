@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/what-is-left-to-do
 summary: The future of science may be provable, profitable and incomprehensible
 first_seen: '2026-10-07T13:50:46Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

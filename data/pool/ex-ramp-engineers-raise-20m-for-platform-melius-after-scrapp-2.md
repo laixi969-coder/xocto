@@ -1,6 +1,6 @@
 ---
 slug: ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapp-2
-name: Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product
+name: Melius
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNQmo0STBBRXR6
 summary: Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product TechCrunch
 first_seen: '2026-10-06T22:34:03Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product
+# Melius
 
 Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product TechCrunch
 

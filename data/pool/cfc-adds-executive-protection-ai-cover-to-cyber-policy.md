@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVnZyeG43QW15
 summary: CFC adds executive protection, AI cover to cyber policy Insurance Business
 first_seen: '2026-10-07T03:48:45Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

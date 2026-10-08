@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/dailyhub-a-quiet-workspace-for-y
 summary: A personal command center for projects, tasks, and habits.
 first_seen: '2026-10-06T20:45:05Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

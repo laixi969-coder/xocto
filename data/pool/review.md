@@ -31,7 +31,7 @@ canonical_url: https://producthunt.com/products/review-2
 summary: Code review on your own machine, with your own AI
 first_seen: '2026-10-05T21:01:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

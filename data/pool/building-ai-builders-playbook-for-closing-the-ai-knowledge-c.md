@@ -23,7 +23,7 @@ summary: The biggest barrier to AI adoption isn't awareness. It's the gap betwee
   confident AI builders in six weeks, and how your organization can replicate it.
 first_seen: '2026-10-07T15:44:27Z'
 last_seen: '2026-10-08T01:56:15Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

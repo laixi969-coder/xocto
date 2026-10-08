@@ -22,7 +22,7 @@ summary: Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent h
   cloud.
 first_seen: '2026-10-07T14:10:45Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

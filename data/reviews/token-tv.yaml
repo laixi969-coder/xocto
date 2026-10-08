@@ -1,0 +1,88 @@
+- id: req-initial-token-tv-2026-10-08
+  project_slug: token-tv
+  level: initial
+  reviewed_at: '2026-10-08T01:55:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多账号额度分散、超限才发现的问题，痛点方向成立，但数据来源与合规性未说明，价值证据不足。
+    evidence_ids:
+    - ev-4883106c347313a8
+  - gate: consensus
+    status: insufficient
+    reason: 54 星与 6 次 fork 只说明关注度，没有用户反馈或持续使用证据，无法判断共识。
+    evidence_ids:
+    - ev-4883106c347313a8
+  - gate: model
+    status: insufficient
+    reason: 开源硬件项目，未见定价或付费路径，买方与收费方式不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4883106c347313a8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对用量数据是否准确、刷新是否及时，交付确定性不清楚。
+    evidence_ids:
+    - ev-4883106c347313a8
+  next_validation: 查看该仓库的 issue 与 README，确认用量数据来源、刷新频率与账号授权方式。
+  market: ''
+  job: 同时使用 Claude、Codex 等多个账号的开发者，在需要随时掌握用量与额度时，处理账号用量数据，要完成把额度状态显示在桌面设备上的任务。
+  job_en: A developer using several Claude and Codex accounts, when needing to track usage and quota at
+    any moment, works on account usage data and needs to display quota status on a desk device.
+  pain: 多账号额度分散在各平台后台，需要反复登录查看，超限后才发现，但公开材料未说明数据获取是否稳定合规。
+  pain_en: Quota across accounts is scattered in separate dashboards and requires repeated logins, with
+    overruns discovered late, but the public material does not say whether data access is stable or compliant.
+  current_alternative: 开发者目前靠逐个登录各平台后台查看用量，或干脆不监控。
+  current_alternative_en: Developers currently log into each platform dashboard to check usage, or simply
+    do not monitor it.
+  usage_reason: 推断：相较逐个登录后台，它把多账号用量集中到一块常亮屏幕上，减少反复查询的动作，因此同时开多个账号的开发者会尝试；但缺少留存与付费证据，硬件形态也限制扩散。
+  usage_reason_en: 'Inference: versus logging into each dashboard, it puts multi-account usage on one
+    always-on screen and cuts repeated lookups, so developers running several accounts may try it; retention
+    and payment evidence are missing, and the hardware form limits spread.'
+- id: req-full-token-tv-2026-10-08
+  project_slug: token-tv
+  level: full
+  reviewed_at: '2026-10-08T02:45:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号额度分散、超限才发现的问题：开发者需随时掌握 Claude、Codex 各账号剩余额度，旧做法是逐个登录后台或干脆不监控，被限流后才发现。仓库说明已给出输入（账号用量数据）与交付（时钟屏显示看板），属工作流结构推理；数据来源与刷新方式未公开，故把握有限。
+    evidence_ids:
+    - ev-4883106c347313a8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 54 星只反映关注度，没有用户评价、issue 讨论或持续使用证据，无法判断多账号开发者是否真把它留在工作流里；强场景可判断，共识强度不可判断。
+    evidence_ids:
+    - ev-4883106c347313a8
+  - gate: model
+    status: insufficient
+    reason: 开源硬件项目，未见定价页或付费路径，买方可能是自费开发者或后续硬件套件销售，属判断而非已验证事实；无融资叙事，不构成每日优鲜风险。
+    evidence_ids:
+    - ev-4883106c347313a8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对用量数据是否准确、刷新是否及时、账号授权是否合规，交付确定性不清楚；产品贴近“随时看额度”这一第一性目标，但安全与人工边界未公开。
+    evidence_ids:
+    - ev-4883106c347313a8
+  next_validation: 追踪该仓库 README 与 issue，确认用量数据来源、刷新频率与账号授权方式，并观察是否出现用户反馈或复刻案例。
+  market: ''
+  job: 同时使用 Claude、Codex 等多个 AI 编码账号的开发者，在写代码或跑任务时，处理各账号的 token 用量与额度数据，要完成随时掌握还剩多少额度、避免任务中途被限额打断的任务。
+  job_en: A developer running several Claude and Codex accounts, while coding or running tasks, works
+    with per-account token usage and quota data to know at any moment how much quota remains and avoid
+    being cut off mid-task.
+  pain: 多账号额度分散在各平台后台，需反复登录切换查看，往往在任务跑到一半被限流才发现；公开材料未说明数据来源与刷新方式，痛点方向成立但强度未被用户反馈证实。
+  pain_en: Quota is scattered across separate platform dashboards requiring repeated logins, and overruns
+    are usually discovered only when a task is throttled mid-run; the public material does not state the
+    data source or refresh method, so the pain direction holds but its intensity is not confirmed by user
+    feedback.
+  current_alternative: 开发者目前逐个登录各平台后台查看用量，或干脆不监控、被限流后再处理。
+  current_alternative_en: Developers currently log into each platform dashboard to check usage, or do
+    not monitor at all and react after being throttled.
+  usage_reason: 推断：相较逐个登录后台，它把多账号用量集中到一块常亮时钟屏上，省去反复查询这一步，因此同时开多个账号、又不想切窗口的开发者会在桌面场景选择它；但仓库仅有 54 星，无留存或付费证据，硬件形态也限制扩散。
+  usage_reason_en: 'Inference: versus logging into each dashboard, it consolidates multi-account usage
+    onto one always-on clock screen, removing the repeated-lookup step, so developers running several
+    accounts who do not want to switch windows may choose it at their desk; however the repo has only
+    54 stars, with no retention or payment evidence, and the hardware form limits spread.'

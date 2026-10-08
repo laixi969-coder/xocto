@@ -1,0 +1,98 @@
+- id: req-initial-meshy-跻身-a16z-消费级ai-应用月收入top-50为榜单唯一ai-3d-公司-higgsfield-anth-2026-10-08
+  project_slug: meshy-跻身-a16z-消费级ai-应用月收入top-50为榜单唯一ai-3d-公司-higgsfield-anth
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量 3D 资产从零建模慢、外包贵的问题，痛点刚性且交付物明确；买方是美术或开发者，谁付钱公开材料未说明。
+    evidence_ids:
+    - ev-becc2adce1ffb2a0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条榜单名次报道，没有用户评价、客户案例或社区讨论，无法判断使用者是否真的把它留在工作流里。
+    evidence_ids:
+    - ev-becc2adce1ffb2a0
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价、收入金额或付费方式，只能推断可能来自个人创作者订阅或团队采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-becc2adce1ffb2a0
+  - gate: truth
+    status: insufficient
+    reason: 生成模型能否直接进生产管线、人工修整比例多大均未披露，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-becc2adce1ffb2a0
+  next_validation: 收集 Meshy 官方定价页与公开客户案例，确认按什么计价以及生成资产进入生产管线的实际交付结果。
+  market: ''
+  job: 游戏、动画或电商团队的美术人员在需要批量 3D 模型、但手工建模或外包周期太长时，把文字描述或参考图交给 Meshy，生成可下载的模型与贴图，再导入建模软件修整后用于项目。
+  job_en: Artists in game, animation or e-commerce teams who need 3D models in volume but face slow manual
+    modeling or outsourcing hand text prompts or reference images to Meshy, get downloadable models and
+    textures, then import them into modeling software for cleanup before project use.
+  pain: 手工建模单个资产耗时长、外包沟通与返工成本高，早期原型阶段常因缺少可用模型而拖延；不解决的后果是原型验证和商品上架被美术产能卡住。
+  pain_en: Manual modeling of a single asset is slow and outsourcing brings communication and rework costs,
+    so early prototyping often stalls for lack of usable models; the consequence is that prototype validation
+    and product listing are bottlenecked by art capacity.
+  current_alternative: 购买现成模型库、外包给建模工作室，或用 Blender、Maya 等软件从零手工建模。
+  current_alternative_en: Buying stock model libraries, outsourcing to modeling studios, or building from
+    scratch by hand in Blender, Maya and similar tools.
+  usage_reason: 相较买模型库或外包，Meshy 让用户用一段描述或一张参考图直接得到初版模型与贴图，省掉从零起形和第一轮贴图这一步，因此需要大量低精度资产、且能自行修整的独立开发者与电商团队会在原型或上架准备阶段选择它；这是基于产品能力的推断，公开材料未提供用户留存或复购证据。
+  usage_reason_en: Compared with stock libraries or outsourcing, Meshy lets users turn a prompt or reference
+    image directly into a first-pass model and textures, removing the from-scratch shaping and first texturing
+    step, so indie developers and e-commerce teams that need many low-fidelity assets and can clean them
+    up themselves would pick it during prototyping or listing preparation; this is an inference from product
+    capability, as public material offers no retention or repeat-purchase evidenc
+- id: req-full-meshy-跻身-a16z-消费级ai-应用月收入top-50为榜单唯一ai-3d-公司-higgsfield-anth-2026-10-08
+  project_slug: meshy-跻身-a16z-消费级ai-应用月收入top-50为榜单唯一ai-3d-公司-higgsfield-anth
+  level: full
+  reviewed_at: '2026-10-08T02:44:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量 3D 资产从零建模慢、外包贵的问题，痛点刚性且交付物明确（20-30 秒生成可导出模型与贴图）；买方是美术或开发者，谁付钱公开材料未说明。
+    evidence_ids:
+    - ev-dbfd38fb605bb2e8
+    - ev-8c1e949d6f032604
+    - ev-15c26b992bedbbdf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页与版本发布说明，没有用户评价、客户案例或社区讨论，无法判断使用者是否真的把它留在工作流里。
+    evidence_ids:
+    - ev-dbfd38fb605bb2e8
+    - ev-8c1e949d6f032604
+  - gate: model
+    status: insufficient
+    reason: 公开材料只写 Try Meshy free，未披露订阅价格、收入金额或付费方式，只能推断可能来自个人创作者订阅或团队采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dbfd38fb605bb2e8
+    - ev-15c26b992bedbbdf
+  - gate: truth
+    status: insufficient
+    reason: 生成模型能否直接进生产管线、人工修整比例多大均未披露，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-8c1e949d6f032604
+    - ev-15c26b992bedbbdf
+  next_validation: 追踪 Meshy 官网定价页与公开客户案例，确认按什么计价以及生成资产进入生产管线的实际交付结果。
+  market: ''
+  job: 游戏、动画或电商团队的美术人员与独立开发者在需要批量 3D 模型、但手工建模或外包排期太慢时，把文字描述或参考图交给 Meshy，生成可导出的模型与贴图，再导入建模软件修整后用于原型或商品页。
+  job_en: Artists and indie developers in game, animation or e-commerce teams who need 3D models in volume
+    but face slow manual modeling or outsourcing hand text prompts or reference images to Meshy, get exportable
+    models and textures, then import them into modeling software for cleanup before prototyping or product
+    pages.
+  pain: 手工建模单个资产耗时长、外包沟通与返工成本高，早期原型与商品上架常因缺少可用模型而拖延；不解决的后果是验证与上架节奏被美术产能卡住。
+  pain_en: Manual modeling of a single asset is slow and outsourcing brings communication and rework costs,
+    so early prototyping and product listing stall for lack of usable models; the consequence is that
+    validation and listing cadence are bottlenecked by art capacity.
+  current_alternative: 购买现成模型库、外包给建模工作室，或用 Blender、Maya 等软件从零手工建模。
+  current_alternative_en: Buying stock model libraries, outsourcing to modeling studios, or building from
+    scratch by hand in Blender, Maya and similar tools.
+  usage_reason: 相较买模型库或外包，Meshy 让用户用一段描述或一张参考图直接得到初版带贴图模型并导出 FBX/OBJ/GLB/STL，省掉从零起形与第一轮贴图这一步，因此需要大量低精度资产、且能自行修整的独立开发者与电商团队会在原型或上架准备阶段选择它；这是基于产品能力的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with stock libraries or outsourcing, Meshy turns a prompt or reference image
+    directly into a first-pass textured model exportable as FBX/OBJ/GLB/STL, removing the from-scratch
+    shaping and first texturing step, so indie developers and e-commerce teams needing many low-fidelity
+    assets they can clean up themselves would pick it during prototyping or listing preparation; this
+    is an inference from product capability, as public material offers no retention or repeat-purcha

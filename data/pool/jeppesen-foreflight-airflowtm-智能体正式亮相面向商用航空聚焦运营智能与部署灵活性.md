@@ -37,7 +37,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1wNBVV95cUxQLVoydmtLQVpO
 summary: Jeppesen ForeFlight Airflow™ 智能体正式亮相，面向商用航空，聚焦运营智能与部署灵活性 GlobeNewswire
 first_seen: '2026-10-06T12:00:27Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

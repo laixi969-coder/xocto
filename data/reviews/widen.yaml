@@ -80,3 +80,89 @@
     a query executed against the local database, removing the step of recalling the schema and composing
     the statement, which may appeal to developers unfamiliar with the schema who require data to stay
     on-device; however the candidate material offers no adoption or retention evidence.'
+- id: req-initial-widen-2026-10-08
+  project_slug: widen
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是本地 Postgres 开发中手写 SQL 的记忆与试错负担，旧行为明确，不采用就要继续手写或外传表结构。
+    evidence_ids:
+    - ev-2b28f69a2be4a5d9
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论量很小，没有用户评价或采用数据，无法判断开发者是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-23736c49bc50a3f2
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或收费方式，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-23736c49bc50a3f2
+  - gate: truth
+    status: insufficient
+    reason: 端侧模型生成的查询是否可靠、出错时如何回退、是否需人工确认，公开材料未说明。
+    evidence_ids:
+    - ev-2b28f69a2be4a5d9
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认端侧模型生成查询的准确率说明、错误处理方式与是否已有开发者反馈实际使用。
+  market: ''
+  job: 使用 macOS 的后端工程师在本地开发或调试 Postgres 时，面对表结构和已有数据，需要快速取出一份查询结果，而不是先回忆字段名再手写 SQL。
+  job_en: A backend engineer on macOS developing or debugging against Postgres needs to pull a query result
+    from existing tables and data, instead of recalling column names and hand-writing SQL first.
+  pain: 手写 SQL 需要记住表名、字段和连接关系，反复试错；把数据库内容贴到云端聊天工具又涉及数据外泄顾虑。
+  pain_en: Hand-writing SQL requires remembering table names, columns and joins and iterating on errors,
+    while pasting database content into cloud chat tools raises data-leak concerns.
+  current_alternative: 在数据库客户端里手写 SQL，或把表结构复制到通用聊天工具里生成语句再粘回来执行。
+  current_alternative_en: Hand-writing SQL in a database client, or copying schema into a general chat
+    tool to generate a statement and pasting it back to run.
+  usage_reason: 推断：相较手写 SQL 或云端生成，它把自然语言直接转成查询并在本地库上执行，省掉复制表结构到外部工具再粘回客户端的两步，且查询不离开本机，因此在意数据不出本地、又不想记字段的开发者会选它。
+  usage_reason_en: 'Inference: versus hand-writing SQL or generating it in the cloud, it turns natural
+    language into a query and runs it locally, removing the two steps of copying schema out and pasting
+    results back, and the query never leaves the machine, so developers who care about local data and
+    dislike recalling columns would pick it.'
+- id: req-full-widen-2026-10-08
+  project_slug: widen
+  level: full
+  reviewed_at: '2026-10-08T02:45:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向同名数字资产管理产品 Acquia DAM (Widen)、词典释义与通用 AI 介绍，没有一条描述该 Postgres GUI 的功能、用户任务或痛点，连需求和痛点都无法从公开材料还原，价值关不成立。
+    evidence_ids:
+    - ev-0cba467d9a4a440c
+    - ev-260b7c9c0e5507eb
+    - ev-665bcbbd654d7cfc
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品自身的公开仓库或官网：README、release 说明、issue 与 discussion，确认其是否真实存在、支持哪些 Postgres 查询范围、端侧模型出错时的处理方式，以及是否有开发者反馈实际使用。
+  market: ''
+  job: 按候选摘要，macOS 上的后端工程师在本地开发或调试 Postgres 时，面对已有表结构与数据，想用自然语言让端侧模型生成查询并在本地库执行，省去手写 SQL。但现有证据中没有任何一条来自该产品本身，无法确认这一任务描述成立。
+  job_en: Per the candidate summary, a backend engineer on macOS developing or debugging Postgres would
+    use natural language with an on-device model to generate and run queries locally, skipping hand-written
+    SQL. However, no evidence comes from the product itself, so this task description cannot be confirmed.
+  pain: 候选摘要暗示的痛点是记字段名、手写 SQL 反复试错，以及把库内容贴到云端工具的泄露顾虑；但所有证据条目均与 Postgres GUI 无关，公开材料未提供任何该产品的痛点陈述或用户抱怨。
+  pain_en: The implied pain is recalling column names, iterating on hand-written SQL, and leak concerns
+    from pasting database content into cloud tools; yet every evidence item is unrelated to a Postgres
+    GUI, and no public material states this product's pain or user complaints.
+  current_alternative: 无法从证据确认。可类比的旧做法是数据库客户端手写 SQL 或把表结构贴进通用聊天工具生成语句，但这些只是行业常识，不是该产品的公开替代行为记录。
+  current_alternative_en: Unconfirmable from evidence. Analogous old practice would be hand-writing SQL
+    in a client or pasting schema into a general chat tool, but that is industry common sense, not a documented
+    substitute for this product.
+  usage_reason: 无法给出。证据中没有任何该产品的功能说明、用户反馈或采用记录，无法解释哪类用户因什么具体动作选择它；此处不作推断性补造。
+  usage_reason_en: Cannot be given. No evidence describes this product's capabilities, user feedback,
+    or adoption, so no causal reason for choosing it can be stated; no inference will be fabricated here.

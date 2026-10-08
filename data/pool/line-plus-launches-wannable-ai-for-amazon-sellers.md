@@ -1,6 +1,6 @@
 ---
 slug: line-plus-launches-wannable-ai-for-amazon-sellers
-name: Line Plus launches 'Wannable AI' for Amazon sellers
+name: Wannable AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmRKc1RqMDNZ
 summary: Line Plus launches 'Wannable AI' for Amazon sellers 디지털투데이
 first_seen: '2026-10-07T01:16:47Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Line Plus launches 'Wannable AI' for Amazon sellers
+# Wannable AI
 
 Line Plus launches 'Wannable AI' for Amazon sellers 디지털투데이
 

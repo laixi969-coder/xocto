@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-devel
 summary: Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.
 first_seen: '2026-10-07T21:56:42Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

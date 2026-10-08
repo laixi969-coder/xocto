@@ -1,6 +1,6 @@
 ---
 slug: everything-announced-at-microsoft8217s-surface-laptop-ultra
-name: Everything announced at Microsoft&#8217;s Surface Laptop Ultra event
+name: Microsoft Surface Laptop Ultra
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: Microsoft just wrapped up a big Windows and Surface-focused keynote in 
   an 8-core CPU, 24GB of RAM, and 512GB […]
 first_seen: '2026-10-07T18:42:22Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Everything announced at Microsoft&#8217;s Surface Laptop Ultra event
+# Microsoft Surface Laptop Ultra
 
 Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that’s powered by Nvidia’s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB […]
 

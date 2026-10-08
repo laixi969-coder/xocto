@@ -21,7 +21,7 @@ canonical_url: https://github.com/preferencemodel/karotte
 summary: a framework for building robust RL envs
 first_seen: '2026-10-07T18:05:38Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

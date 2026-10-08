@@ -21,7 +21,7 @@ canonical_url: https://github.com/alan890104/claude-code-paste-preview
 summary: see and mark up images you paste into Claude Code
 first_seen: '2026-10-07T16:12:23Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

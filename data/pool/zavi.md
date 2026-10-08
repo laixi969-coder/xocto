@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/zavi
 summary: Lovable for growth
 first_seen: '2026-10-01T09:31:03Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

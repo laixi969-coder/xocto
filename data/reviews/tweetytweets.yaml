@@ -284,3 +284,53 @@
     the API-key application and paid-scraper step and sparing the operator from manually confirming each
     post; operators who must keep cadence without maintaining API access would choose it in that situation.
     This is an inference from product capability.
+- id: req-full-tweetytweets-2026-10-08
+  project_slug: tweetytweets
+  level: full
+  reviewed_at: '2026-10-08T02:45:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是维持社交账号持续更新的任务：公开说明称无需 API key 与付费抓取器即可调研领域、按语气写作、经真实浏览器发布并自检，可还原旧流程中抓取、写作、发布、核对分步拼装的负担；痛点刚性与交付确定性属工作流结构推理，尚无用户材料佐证。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+    - ev-6d10d5af2e1e8bcd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 升至 62，说明有开发者关注，但收藏与排名只属关注度证据，不能证明目标运营者持续使用或形成强场景；公开材料未见 issue、discussion 或用户评价说明谁在何种情况下实际采用。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+    - ev-97f221a65ed269d3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断钱来自 to C 订阅、to B 团队还是仅靠开源关注；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-6d10d5af2e1e8bcd
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺通过真实浏览器发布并自检，但账号授权方式、内容审核环节、发布失败与平台风控下的处理边界均未见文档或可复现证据，交付能否稳定发生尚不可核验。
+    evidence_ids:
+    - ev-b9011496130a0d6d
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认账号授权方式、发布失败处理与是否有用户报告实际部署使用。
+  market: ''
+  job: 个人品牌或小团队运营者在需要维持 X/Twitter 账号持续更新时，运行该代理先调研所在领域话题、按设定语气写成帖子、通过真实浏览器发布并回查发布结果，最终得到已发布并自检过的帖子。
+  job_en: A personal-brand or small-team operator who must keep an X/Twitter account posting continuously
+    runs this agent to research niche topics, draft posts in a set voice, publish through a real browser,
+    and verify the published result, ending with posted and self-checked tweets.
+  pain: 公开材料显示该工具主打无需 API key、无需付费抓取器即可完成调研、写作、发布与自检，说明用户此前要维持账号更新需自行拼装抓取、写作与发布环节，并承担账号授权与发布失败的风险；具体痛点强度与不采用代价仍缺用户材料。
+  pain_en: Public materials show the tool is pitched as needing no API key and no paid scrapers to research,
+    write, publish, and self-verify, implying users previously had to stitch together scraping, writing,
+    and publishing steps while bearing account-authorization and posting-failure risk; the intensity of
+    this pain and the cost of not solving it still lack user evidence.
+  current_alternative: 旧做法是人工选题写作并手动发布，或自行组合付费抓取器、X API 与脚本；公开材料未说明用户实际替代了哪一种流程。
+  current_alternative_en: The old approach is manual topic selection, writing, and posting, or self-assembled
+    paid scrapers, the X API, and scripts; public materials do not show which workflow users actually
+    replace.
+  usage_reason: 推断：相较手动发布或自行拼装抓取与 API 脚本，它把调研、按语气写作、浏览器发布和发布结果回查串成一次运行，减少用户逐步操作与核对发布是否成功的负担，因此需要维持账号更新又不想维护发布链路的小团队运营者可能选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with manual posting or self-assembled scraping and API scripts,
+    it chains research, voice-matched writing, browser publishing, and post verification into one run,
+    reducing step-by-step operation and the burden of checking whether a post succeeded, so small-team
+    operators who must keep an account active without maintaining a publishing pipeline may choose it;
+    no user feedback or case yet confirms this motive.'

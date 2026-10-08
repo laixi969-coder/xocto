@@ -21,7 +21,7 @@ canonical_url: https://labs.daydream.live/studio
 summary: A virtual recording studio where you direct session players
 first_seen: '2026-10-07T17:08:29Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,87 @@
+- id: req-initial-shipyard-2026-10-08
+  project_slug: shipyard
+  level: initial
+  reviewed_at: '2026-10-08T01:55:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时工作区互相覆盖、改动来源不清的痛点，旧做法是手工切分支和终端，属于具体旧工作流。
+    evidence_ids:
+    - ev-acbb7807d4d1ac71
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与 fork 数，属于关注度信号，没有用户评价或团队采用案例说明谁在持续使用。
+    evidence_ids:
+    - ev-acbb7807d4d1ac71
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能来自开发者自付或团队采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-acbb7807d4d1ac71
+  - gate: truth
+    status: insufficient
+    reason: 编排与自动化能否确定性交付、代理出错时的人工边界如何划定，公开材料未说明。
+    evidence_ids:
+    - ev-acbb7807d4d1ac71
+  next_validation: 收集该仓库的 issue、discussion 与官方文档，确认多代理编排的实际交付流程、失败处理与是否已有团队付费使用。
+  market: ''
+  job: 开发者在本地开发机上并行运行多个编码代理，需要把每个代理的代码改动、分支和终端会话分开管理，最后合并成可提交的改动。
+  job_en: Developers running multiple coding agents in parallel on local dev boxes need to keep each agent's
+    code changes, branches and terminal sessions separate, then merge them into committable changes.
+  pain: 多个代理同时改同一份工作区会互相覆盖、上下文串味，开发者只能手工切分支、复制粘贴，难以判断哪个改动来自哪个任务。
+  pain_en: Several agents editing the same workspace overwrite each other and mix context, forcing developers
+    to hand-switch branches and paste text, with no clear link between a change and the task that produced
+    it.
+  current_alternative: 手工开多个终端和 git worktree，或一次只跑一个代理、串行等待。
+  current_alternative_en: Manually opening several terminals and git worktrees, or running one agent at
+    a time and waiting serially.
+  usage_reason: 推断：它把每个代理放进独立 worktree 和终端并统一编排，省掉手工建分支、切目录、搬运上下文这几步，因此同时跑多个代理的开发者会在并行任务变多、手工切换开始出错时选择它。
+  usage_reason_en: 'Inference: by placing each agent in its own worktree and terminal under one orchestration
+    layer, it removes the manual steps of creating branches, switching directories and moving context,
+    so developers running several agents pick it once parallel tasks multiply and hand-switching starts
+    causing mistakes.'
+- id: req-full-shipyard-2026-10-08
+  project_slug: shipyard
+  level: full
+  reviewed_at: '2026-10-08T02:44:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决多代理并行时工作区互相覆盖、改动来源不清的问题，但全部公开证据指向体育中心、船厂词条和品牌营销公司，与编码代理编排无关，连用户任务和痛点都无法从可引用事实还原。
+    evidence_ids:
+    - ev-2c79cf40b6f91fc0
+    - ev-d09c53dc0d4f2882
+    - ev-df1f584f35073abe
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 定位该编码代理编排项目的官方仓库或官网，收集其 README、部署文档与 issue/discussion，确认 worktree 隔离与多代理编排的实际交付流程。
+  market: ''
+  job: 开发者在自己开发机上并行运行多个编码代理，需要把每个代理的代码改动、分支与终端会话分开管理，最后合并成可提交的改动。
+  job_en: Developers running multiple coding agents in parallel on their own dev boxes need to keep each
+    agent's code changes, branches and terminal sessions separate, then merge them into committable changes.
+  pain: 公开证据里没有任何一条来自该产品本身：全部证据指向俄亥俄州体育中心、维基百科船厂词条和一家品牌营销公司，无法还原多代理并行时工作区互相覆盖、改动来源不清的具体痛点。
+  pain_en: 'None of the public evidence comes from the product itself: every item points to an Ohio sports
+    center, the Wikipedia shipyard article, and a brand marketing agency, so no concrete pain about workspace
+    collisions or unclear change provenance can be reconstructed.'
+  current_alternative: 公开材料未提供该产品用户当前的替代做法；候选摘要所述的手工切分支、多终端方式没有可引用的产品级证据支撑。
+  current_alternative_en: The public material offers no evidence of what users currently do instead; the
+    manual branch-switching and multi-terminal workaround in the candidate summary has no citable product-level
+    support.
+  usage_reason: 无法给出使用理由：现有证据与编码代理编排无关，既没有产品文档、issue 或用户反馈说明它通过什么动作减少哪一步负担，也没有任何采用迹象。
+  usage_reason_en: 'No usage reason can be given: the available evidence is unrelated to coding-agent
+    orchestration, with no product docs, issues or user feedback showing which step it removes, and no
+    adoption signal at all.'

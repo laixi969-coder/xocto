@@ -255,3 +255,44 @@
   usage_reason_en: 'Inference: it lets a feature phone relay questions to several models through a self-hosted
     Go server and return text, removing the step of replacing the device, so people still tied to old
     phones or industry handhelds would try it.'
+- id: req-full-aikon-2026-10-08
+  project_slug: aikon
+  level: full
+  reviewed_at: '2026-10-08T02:41:34Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决功能机搜索入口失效后的问答需求，但公开证据只有产品自述，没有任何用户抱怨、求助或绕过行为；对绝大多数持有者，换机即可解决，属于没有也行的自嗨拼凑，痛点刚性不足。
+    evidence_ids:
+    - ev-ade390f7b2d88117
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 J2ME 应用与 Go 服务器仓库的公开 issue、release 与部署文档，确认是否有人在真实功能机网络下跑通并留下使用记录。
+  market: ''
+  job: 仍在使用诺基亚 S40/S60 功能机的用户，在设备自带搜索入口失效、手边只有这台老手机的情况下，需要就日常问题获得一段可读的文字答案。
+  job_en: Users still on Nokia S40/S60 feature phones, when the built-in search entry no longer works
+    and only that old handset is at hand, need a readable text answer to everyday questions.
+  pain: 公开材料只说明这些设备已无法访问 Google 搜索，未提供任何用户抱怨、求助帖或绕过行为的证据；搜索失效对绝大多数持有者而言只是换机或改用其他设备的触发点，而非必须留在功能机上解决的刚性痛点。
+  pain_en: Public material only states these devices can no longer reach Google search; there is no user
+    complaint, help thread or workaround evidence. For most owners, a dead search entry is a trigger to
+    switch devices, not a rigid pain that must be solved on the feature phone itself.
+  current_alternative: 换用智能手机、借用他人设备查询，或干脆不查；公开材料未显示有人为在功能机上恢复问答而付费或持续投入。
+  current_alternative_en: Switching to a smartphone, borrowing another device, or simply not looking it
+    up; public material shows no one paying or persisting to restore Q&A on the feature phone.
+  usage_reason: 推断：它通过自建 Go 服务器把功能机上的问题转发给 Claude、ChatGPT、Gemini 或 Grok 并回传文字，省去换设备这一步；但该动作只对极少数刻意保留老机型的人成立，缺少任何采用、留存或付费证据，无法说明用户会持续选择它。
+  usage_reason_en: 'Inference: it relays questions from the feature phone to Claude, ChatGPT, Gemini or
+    Grok via a self-hosted Go server and returns text, removing the device-switch step. That only holds
+    for a tiny group deliberately keeping old handsets, and with no adoption, retention or payment evidence
+    there is no basis to say users would keep choosing it.'

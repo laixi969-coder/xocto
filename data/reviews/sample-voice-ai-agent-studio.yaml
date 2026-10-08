@@ -331,3 +331,51 @@
   usage_reason_en: 'Inference: versus stitching components from scratch, the repository hands over a runnable
     voice-agent engineering skeleton, removing the scaffolding step, so developers needing a fast AWS
     voice-service prototype would choose it.'
+- id: req-full-sample-voice-ai-agent-studio-2026-10-08
+  project_slug: sample-voice-ai-agent-studio
+  level: full
+  reviewed_at: '2026-10-08T02:44:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在 AWS 上把语音识别、对话编排与语音合成拼成可运行语音客服链路的工程需求，痛点在于从零接线才能开始写业务对话；仓库被持续收藏说明有人关注，但公开材料未给出用户对返工代价的直接陈述，价值判断属工作流结构推理。
+    evidence_ids:
+    - ev-0b88b5c8db9935fd
+    - ev-422ab9ffa343bd68
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 119 缓慢升至 125，说明有开发者注意到它，但公开材料没有 issue、discussion 或客户案例显示谁在何种强场景部署，关注度不能等同于持续采用。
+    evidence_ids:
+    - ev-0b88b5c8db9935fd
+    - ev-422ab9ffa343bd68
+  - gate: model
+    status: insufficient
+    reason: 这是 AWS 官方示例仓库，公开材料未见定价页、付费路径或采购记录；谁付钱、按什么单位收费均无公开事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-0b88b5c8db9935fd
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供部署文档、可复现实测或人工与安全边界说明，无法核验交付能否稳定发生；仓库存在本身不等于交付确定性已被验证。
+    evidence_ids:
+    - ev-422ab9ffa343bd68
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，确认是否有开发者公开描述在何种业务场景部署、替代了哪条旧语音链路。
+  market: ''
+  job: 语音客服系统开发者或云解决方案架构师在 AWS 上搭建语音客服/语音助手时，需要把语音识别、对话编排、语音合成等组件串成一条可运行的通话链路，并改造成自家业务对话流程。
+  job_en: A voice customer-service developer or cloud solution architect building a voice agent on AWS
+    must wire speech recognition, dialogue orchestration and speech synthesis into one runnable call flow
+    and adapt it to their own business dialogue.
+  pain: 从零拼接 ASR、对话编排与 TTS 需要先解决组件选型、会话状态与音频流衔接等工程问题，才能开始写业务对话逻辑；公开材料只显示仓库被收藏，未提供用户对返工成本或上线延期的直接陈述。
+  pain_en: Wiring ASR, dialogue orchestration and TTS from scratch forces engineers to solve component
+    selection, session state and audio-stream plumbing before writing any business dialogue; public material
+    shows only stars, not users' own statements about rework or delay.
+  current_alternative: 开发者通常自行从零搭建语音链路，或参考其他开源语音智能体示例与云厂商文档拼装；公开材料未说明该仓库实际替代了哪一种具体旧流程。
+  current_alternative_en: Developers typically build the voice pipeline from scratch or assemble it from
+    other open-source voice-agent samples and cloud vendor docs; public material does not say which specific
+    prior workflow this repo replaces.
+  usage_reason: 推断：相较从零拼接，该仓库直接给出可运行的工程骨架，开发者可跳过组件接线与音频流衔接环节，把精力放在业务对话流程改造上，因此正在 AWS 上做语音客服原型的开发者会优先试用它；这一动机来自产品能力与任务结构，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus building from scratch, the repo hands over a runnable engineering
+    skeleton, letting developers skip component wiring and audio-stream plumbing and spend effort on business
+    dialogue; developers prototyping voice service on AWS would therefore try it first. This motive is
+    derived from product capability and task structure, not user feedback.'

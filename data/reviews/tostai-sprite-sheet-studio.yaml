@@ -319,3 +319,53 @@
     exports and manual packing, so indie developers or artists who already have video footage and want
     to avoid frame-by-frame manual work would choose it for character animation; no public user feedback
     yet confirms this motive.'
+- id: req-full-tostai-sprite-sheet-studio-2026-10-08
+  project_slug: tostai-sprite-sheet-studio
+  level: full
+  reviewed_at: '2026-10-08T02:45:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把原始视频转成引擎可用精灵图集这一具体任务，痛点是逐帧切图与排图的重复机械劳动及错帧返工；不采用则需手工多工具串联。仓库说明与持续增长的收藏表明该任务被真实关注，但痛点强度属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-8fb532530e47cf29
+    - ev-4c445addd9e879a5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 59 增至 73，说明社区持续注意到该项目，但收藏与关注只属规模信号，不能证明目标用户已把它留在日常动画制作流程中；缺少 issue、discussion 或使用反馈说明谁在何种场景重复使用。
+    evidence_ids:
+    - ev-8fb532530e47cf29
+    - ev-17573bda2246596b
+    - ev-4c445addd9e879a5
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费记录或采购信息，无法判断钱来自 to C 开发者、to B 工作室还是仅靠赞助；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-8fb532530e47cf29
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺视频输入到图集输出，但帧率、去背景与对齐规则等交付细节未公开，成品是否仍需人工检查、能否稳定复现均缺可核对证据，确定性交付尚未验证。
+    evidence_ids:
+    - ev-8fb532530e47cf29
+    - ev-6e49541db8d2a4a9
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认实际输入输出格式、去背景与对齐规则，以及是否有使用者报告在真实动画流程中重复使用。
+  market: ''
+  job: 独立游戏开发者或游戏美术在拿到一段实拍或渲染好的角色动作视频后，需要把它切成逐帧序列并排成游戏引擎可直接导入的精灵图集，用于角色动画资产制作。
+  job_en: An indie game developer or game artist who has a raw captured or rendered character-motion video
+    needs to slice it into frame sequences and lay them out as an engine-ready sprite sheet for character
+    animation assets.
+  pain: 手工逐帧切图、去背景、对齐并排图集是重复且易错的机械劳动，帧数一多就耗时；若切帧错位或对齐不一致，导入引擎后动画会抖动或错帧，返工成本高。
+  pain_en: Manually slicing frames, removing backgrounds, aligning and packing sheets is repetitive, error-prone
+    labor that scales badly with frame count; misaligned or inconsistent frames cause jitter or wrong
+    frames in-engine and costly rework.
+  current_alternative: 现有做法多为在 Photoshop、Aseprite 或 FFmpeg 脚本里手动导出帧序列，再用 TexturePacker 一类工具排图集，流程分散且需人工逐环节检查。
+  current_alternative_en: The common workaround is exporting frame sequences manually in Photoshop, Aseprite
+    or FFmpeg scripts, then packing sheets with tools like TexturePacker — a fragmented pipeline with
+    manual checks at each step.
+  usage_reason: 推断：相较手工导出加排图的旧流程，该工具把切帧与图集排布合并为一次视频输入到图集输出的动作，省去中间逐帧导出与手动排布环节；因此手上只有原始视频、又不想写脚本的独立开发者会在快速产出角色动画资产时选择它。
+  usage_reason_en: 'Inference: versus the manual export-and-pack workflow, the tool merges slicing and
+    sheet layout into one video-in/sheet-out action, removing the intermediate frame-export and manual
+    packing steps; so indie developers holding only raw video and unwilling to script would pick it when
+    producing character animation assets quickly.'

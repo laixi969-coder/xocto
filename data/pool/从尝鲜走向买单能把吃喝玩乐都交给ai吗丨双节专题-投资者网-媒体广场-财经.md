@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjc1FkZElaalVr
 summary: 从尝鲜走向买单，能把吃喝玩乐都交给AI吗？丨双节专题_投资者网_媒体广场_财经 证券之星
 first_seen: '2026-10-07T02:01:19Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

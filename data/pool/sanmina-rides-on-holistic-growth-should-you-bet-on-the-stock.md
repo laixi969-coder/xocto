@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNWXZEU3RGTkFG
 summary: 'Sanmina Rides on Holistic Growth: Should You Bet on the Stock? TradingView'
 first_seen: '2026-10-07T12:45:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

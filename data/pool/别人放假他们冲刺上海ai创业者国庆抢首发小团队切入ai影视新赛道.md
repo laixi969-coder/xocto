@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOWkktaG9fVVZ5
 summary: 别人放假他们冲刺，上海AI创业者国庆抢首发，小团队切入AI影视新赛道 搜狐网
 first_seen: '2026-10-05T23:00:03Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

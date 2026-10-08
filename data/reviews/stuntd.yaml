@@ -240,3 +240,43 @@
   usage_reason_en: Integration method and the replaced step are missing, so which burden it removes versus
     direct calls, and which developers would choose it under what conditions, cannot be explained; this
     is an inference gap, not an established fact.
+- id: req-full-stuntd-2026-10-08
+  project_slug: stuntd
+  level: full
+  reviewed_at: '2026-10-08T02:45:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只有仓库自述，无法还原具体用户任务、痛点与不采用后果；本地代理学习带类型决策这一能力，未说明替代掉哪一步调用或带来何种可核对结果，价值结构不成立。
+    evidence_ids:
+    - ev-d329e6d687afb4f5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 stuntd 仓库 README 或 issue/discussion 中关于接入方式、替代调用环节与实测结果的说明。
+  market: ''
+  job: 未识别到具体开发者、接入环节与处理材料；公开材料只说明它是本地代理，学习应用里带类型的 LLM 决策并用 Laya 头回答，兼容 Jev 与 OpenAI 接口。
+  job_en: No specific developer, integration step, or material is identified; public material only says
+    it is a local proxy that learns an app's typed LLM decisions and answers them with a Laya head, compatible
+    with Jev and OpenAI.
+  pain: 未说明重复调用模型带来的具体成本、延迟或一致性问题，也未说明开发者当前如何复用或缓存模型决策。
+  pain_en: It does not state the concrete cost, latency, or consistency problem of repeated model calls,
+    nor how developers currently reuse or cache model decisions.
+  current_alternative: 未说明此前开发者如何复用或缓存模型决策，也未说明直接调用 OpenAI 等接口时的替代做法。
+  current_alternative_en: It does not state how developers previously reused or cached model decisions,
+    nor the alternative of calling OpenAI-style APIs directly.
+  usage_reason: 缺少接入方式与替代环节，无法解释相较直接调用减少了哪一步负担，属推断空白；仓库星数只反映关注度，不能作为使用理由。
+  usage_reason_en: Integration method and replaced step are missing, so which burden it removes versus
+    direct calls cannot be explained; this is an inference gap, and repository stars only reflect attention,
+    not usage reason.

@@ -79,3 +79,43 @@
   usage_reason_en: 'Inference: if the agent runs repetitive web actions and leaves a reviewable trace,
     users may skip step-by-step manual clicking; however, without success rates or failure handling, it
     is unclear whether that burden is actually reduced.'
+- id: req-full-agentability-2026-10-08
+  project_slug: agentability
+  level: full
+  reviewed_at: '2026-10-08T02:41:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有一句“每天跑十项网页任务并公开记录”，无法说清谁在什么节点处理什么材料、替代了哪一步旧工作，需求与痛点均写不出。
+    evidence_ids:
+    - ev-076fb351e76e8289
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 agentability.org 公开的任务清单与执行记录页面，确认任务类型、成功率与失败后的处理方式。
+  market: ''
+  job: 个人用户或运营助理在需要处理订票、填表、查信息这类网页杂务时，把任务交给该 AI agent 代跑，最终拿到任务结果与可回看的执行轨迹。
+  job_en: An individual user or operations assistant with web chores such as booking, form filling or
+    lookups hands the task to this AI agent, ending up with the result and a reviewable execution transcript.
+  pain: 公开材料只有一句“每天跑十项网页任务并公开记录”，没有说明这些杂务此前由谁完成、耗时多久、失败会造成什么后果，痛点无法还原。
+  pain_en: The public material offers only one line about running ten web errands a day with published
+    transcripts; it does not say who previously did these chores, how long they took, or what failure
+    costs, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式，无法确认此前是用户手动操作、雇助理还是用浏览器插件完成。
+  current_alternative_en: The public material does not describe existing alternatives, so it is unclear
+    whether users previously did the chores manually, hired assistants, or used browser extensions.
+  usage_reason: 推断：若 agent 能代跑重复网页操作并留下可回看轨迹，用户可省去逐步手动点击；但缺少任务成功率与失败处理信息，无法判断这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if the agent runs repetitive web actions and leaves a reviewable trace,
+    users may skip step-by-step manual clicking; however, without success rates or failure handling, it
+    is unclear whether that burden is actually reduced.'

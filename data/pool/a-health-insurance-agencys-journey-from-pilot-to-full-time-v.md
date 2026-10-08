@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb0JKT2xpTFEx
 summary: A health insurance agency’s journey from pilot to full-time voice AI agent CX Dive
 first_seen: '2026-10-07T13:08:25Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

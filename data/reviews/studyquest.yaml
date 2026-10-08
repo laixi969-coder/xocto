@@ -1,0 +1,88 @@
+- id: req-initial-studyquest-2026-10-08
+  project_slug: studyquest
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是笔记难自测、制卡耗时的问题，痛点真实但公开材料只有一句“把笔记变成游戏”，无法确认题型、科目与交付是否确定。
+    evidence_ids:
+    - ev-2dd2d59995a549d3
+  - gate: consensus
+    status: insufficient
+    reason: 除发布页外无用户评价、使用量或社区讨论，无法判断学生是否真的把它放进复习流程。
+    evidence_ids:
+    - ev-2dd2d59995a549d3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，学生个人订阅还是学校采购均不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2dd2d59995a549d3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成题目是否贴合考纲、是否需人工校对，交付确定性未明。
+    evidence_ids:
+    - ev-2dd2d59995a549d3
+  next_validation: 收集 StudyQuest 官方定价页或公开使用数据，确认其题型范围与是否按科目收费。
+  market: ''
+  job: 学生在复习备考时，把课堂笔记或教材摘录交给产品，希望得到可用于自测的练习题和游戏化复习材料。
+  job_en: While revising, a student hands class notes or textbook excerpts to the product and expects
+    self-test exercises and gamified revision material.
+  pain: 笔记多为线性文字，重读耗时且难以判断是否真正记住，自测题往往要自己手抄或另找题库。
+  pain_en: Notes are mostly linear text, slow to reread and hard to test recall against, and self-test
+    questions usually have to be hand-copied or sourced from a separate question bank.
+  current_alternative: 用 Anki 等卡片工具手工制卡，或在题库 App 里刷现成题目，再配合纸质笔记重读。
+  current_alternative_en: Manually building cards in tools like Anki, drilling ready-made questions in
+    quiz apps, and rereading paper notes.
+  usage_reason: 推断：若它能把已有笔记直接转成可玩的练习，就省掉手工制卡或另找题库这一步，学生会在临考复习、笔记已成型的阶段选择它；但公开材料未说明题型质量与是否需人工校对，动机尚无用户反馈支持。
+  usage_reason_en: 'Inference: if it converts existing notes directly into playable practice, it removes
+    the step of hand-building cards or hunting for a question bank, so students would pick it near exams
+    once notes are settled; however public material does not describe question quality or any human review,
+    and no user feedback supports the motive.'
+- id: req-full-studyquest-2026-10-08
+  project_slug: studyquest
+  level: full
+  reviewed_at: '2026-10-08T02:45:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决笔记难自测、制卡找题耗时的问题，痛点刚性来自备考自测的刚需；公开说明“把笔记变成游戏”已能还原输入笔记、生成练习、交付自测材料的闭环，属工作流结构推理，题型与校对仍未知。
+    evidence_ids:
+    - ev-2dd2d59995a549d3
+  - gate: consensus
+    status: insufficient
+    reason: 除发布页自述外，无用户评价、使用量或社区讨论，无法判断学生是否真的把它放进复习流程，关注度不等于持续采用。
+    evidence_ids:
+    - ev-2dd2d59995a549d3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，学生个人订阅还是学校采购均不明；这是判断而非已验证事实，但买方不清不取消价值判定。
+    evidence_ids:
+    - ev-2dd2d59995a549d3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成题目是否贴合考纲、是否需人工校对，交付确定性未明，安全与人工边界也无公开说明。
+    evidence_ids:
+    - ev-2dd2d59995a549d3
+  next_validation: 追踪 StudyQuest 官方定价页或公开使用数据，确认其题型范围、是否按科目收费以及是否有人工校对环节。
+  market: ''
+  job: 学生在复习备考阶段，把已有的课堂笔记或教材摘录交给 StudyQuest，希望得到可直接自测的练习题与游戏化复习材料，用来检验自己是否记住。
+  job_en: During exam revision, a student hands existing class notes or textbook excerpts to StudyQuest
+    and expects directly usable self-test exercises and gamified revision material to check whether the
+    material has been retained.
+  pain: 笔记多为线性文字，重读耗时且难以判断是否真正记住；自测题通常要自己手抄或另找题库，制卡与找题本身成为额外负担。
+  pain_en: Notes are mostly linear text, slow to reread and hard to test recall against; self-test questions
+    usually have to be hand-copied or sourced from a separate question bank, so card-making and question-hunting
+    become extra burdens.
+  current_alternative: 用 Anki 等卡片工具手工制卡，或在题库 App 里刷现成题目，再配合纸质笔记重读。
+  current_alternative_en: Manually building cards in tools like Anki, drilling ready-made questions in
+    quiz apps, and rereading paper notes.
+  usage_reason: 推断：相较手工制卡或另找题库，它把“已有笔记”直接作为输入生成可玩练习，省掉制卡与找题这一步，因此笔记已成型、临近考试的学生会在自测环节选择它；但公开材料未说明题型质量与是否需人工校对，动机尚无用户反馈支持。
+  usage_reason_en: 'Inference: versus hand-building cards or hunting a question bank, it takes existing
+    notes directly as input and generates playable practice, removing the card-making and question-sourcing
+    step, so students with settled notes near an exam would pick it for self-testing; however public material
+    does not describe question quality or human review, and no user feedback supports the motive.'

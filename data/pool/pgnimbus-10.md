@@ -21,7 +21,7 @@ canonical_url: https://github.com/Shman4ik/pgNimbus
 summary: an open-source PostgreSQL client that sends no telemetry
 first_seen: '2026-10-07T09:48:30Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

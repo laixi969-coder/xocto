@@ -26,7 +26,7 @@ summary: Training a single LLM agent jointly across diverse interactive environm
   within a batch, leaving those data without group-relative reward signals. Both…
 first_seen: '2026-10-06T00:00:00Z'
 last_seen: '2026-10-08T01:56:15Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

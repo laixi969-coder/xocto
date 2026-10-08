@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0JScjF3eGZY
 summary: OpenAI、Meta、Manus同时下注，智能体 2.0 来了 搜狐网
 first_seen: '2026-10-06T01:24:56Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

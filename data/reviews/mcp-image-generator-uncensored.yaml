@@ -1,0 +1,93 @@
+- id: req-initial-mcp-image-generator-uncensored-2026-10-08
+  project_slug: mcp-image-generator-uncensored
+  level: initial
+  reviewed_at: '2026-10-08T01:55:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，公开材料只描述无审核出图能力，未说明旧流程与不采用的后果。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  - gate: consensus
+    status: insufficient
+    reason: 53 星与 8 次复刻只反映关注度，没有用户评价或使用场景说明，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价与买方信息，钱可能来自自托管用户或后续托管服务，属推断而非已验证事实。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也未说明安全与人工审核边界，无审核定位本身带来合规不确定性。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  next_validation: 收集该仓库的 issue 与 discussion，确认使用者实际用它替代了哪一步出图或修图工作。
+  market: ''
+  job: 需要生成或修改图片的创作者，在本地部署该服务后提交提示词，取回生成或编辑后的图片文件。
+  job_en: Creators who need to generate or edit images deploy the service locally, submit prompts, and
+    retrieve generated or edited image files.
+  pain: 公开材料只说明它提供无审核的图像生成与编辑，未说明使用者此前被哪一步卡住、为此付出什么代价。
+  pain_en: The public material only states that it offers uncensored image generation and editing; it
+    does not say which step previously blocked users or what that cost them.
+  current_alternative: 公开材料未给出替代做法，无法确认使用者此前是用云端出图服务、其他开源模型还是手工修图。
+  current_alternative_en: The public material gives no alternative, so it is unclear whether users previously
+    used cloud image services, other open models, or manual editing.
+  usage_reason: 缺少用户反馈与采用证据，无法说明相较旧做法它减少了哪一步负担；仅能推断自托管可能吸引对内容审核或数据外流敏感的使用者。
+  usage_reason_en: Without user feedback or adoption evidence, it is impossible to say which step it removes
+    versus the old approach; it can only be inferred that self-hosting may attract users sensitive to
+    content review or data leaving their machines.
+- id: req-full-mcp-image-generator-uncensored-2026-10-08
+  project_slug: mcp-image-generator-uncensored
+  level: full
+  reviewed_at: '2026-10-08T02:43:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是云端出图受审核拦截、提示词与素材需上传第三方的需求，痛点在“uncensored + self-hosted”定位下刚性明确；不采用则要么被审核挡回、要么素材外流。旧替代为云端服务或自搭开源模型栈，交付为本地出图文件，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 53 星只反映关注度，公开材料没有用户评价、issue 或案例说明使用者卡在感知、想象、场景还是利益哪一环，无法判断共识是否形成。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页与买方信息，钱可能来自自托管使用者自行承担算力，或后续托管/API 服务，属判断而非已验证事实；中文生态检索亦未发现对应供给。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-d5be62888540e066
+  - gate: truth
+    status: insufficient
+    reason: 贴近出图这一第一性目标，但公开材料未说明交付是否确定发生、模型权重与算力门槛，且“无审核”定位本身带来合规与安全边界不确定性，人工审核边界缺失。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  next_validation: 追踪该仓库的 issue 与 discussion，确认使用者实际用它替代了云端出图还是自搭模型栈的哪一步，以及是否出现重复使用与部署反馈。
+  market: ''
+  job: 插画与视觉素材创作者、需要出图的开发者，在本地或自有服务器上部署该 MCP 服务后，把提示词交给 Qwen-Image-2.1 模型，取回生成或编辑后的图片文件，用于插画、视觉素材或内容创作。
+  job_en: Illustrators, visual-asset creators and developers who need images deploy this MCP server on
+    their own machine or server, submit prompts to the Qwen-Image-2.1 model, and retrieve generated or
+    edited image files for illustration, visual assets or content work.
+  pain: 公开材料显示其定位是“uncensored”出图，指向的是云端出图服务对提示词的内容审核拦截，以及提示词与素材需上传第三方带来的数据外流顾虑；这两点在公开事实中只以“uncensored
+    + self-hosted”的产品定位出现，具体被卡住的是哪一步属工作流结构推理。
+  pain_en: The public material positions it as 'uncensored' and self-hosted, pointing to prompt-level
+    content moderation blocks on cloud image services and to data-egress concerns from uploading prompts
+    and assets to third parties; the public facts only show this positioning, so which exact step was
+    blocked is a workflow-structure inference.
+  current_alternative: 旧做法是使用云端出图服务（受审核策略约束、提示词与素材需上传），或自行搭建开源扩散模型推理环境并手工串联模型、接口与文件管理；公开材料未给出用户实际替代路径的说明。
+  current_alternative_en: The old approach is either a cloud image service (subject to moderation policy,
+    with prompts and assets uploaded) or hand-assembling an open diffusion model stack with its own inference,
+    API and file management; the public material does not document which path users actually replaced.
+  usage_reason: 推断：相较云端出图，它把模型推理放在使用者自己的机器上，省去提示词与素材上传第三方这一步，并绕开云端审核对提示词的拦截；相较自行拼装开源模型，它以 MCP server 形式把模型调用与图片返回封装成可被
+    MCP 客户端直接调用的接口，减少手工串联模型与文件管理的一步。因此对提示词受审核限制、或不愿把素材外传的创作者与开发者，在需要出图时会选择它；该因果为基于产品能力与任务结构的推断，尚无用户反馈或案例佐证。
+  usage_reason_en: 'Inference: versus cloud image services it runs inference on the user''s own machine,
+    removing the step of uploading prompts and assets to a third party and bypassing cloud moderation
+    of prompts; versus hand-assembling an open model stack it packages model invocation and image return
+    as an MCP server callable directly from MCP clients, removing a step of manual model and file plumbing.
+    Creators and developers whose prompts face moderation limits, or who do not want assets to le'

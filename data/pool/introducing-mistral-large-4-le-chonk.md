@@ -3,13 +3,9 @@ slug: introducing-mistral-large-4-le-chonk
 name: Mistral Large 4
 builder: KP
 category: ''
-summary_zh: 这是模型厂商的一次模型发布，不是独立应用产品。对应用方而言，可核对的直接变化是：Mistral 通过 API 提供一个 1 万亿参数、490 亿激活参数的预览模型，并承诺月底开放权重；评测得分从上一代的
-  9 分升至 38 分，但仍落后于前沿模型约半年。
+summary_zh: 这是模型厂商的一次模型发布，不是独立应用产品。
 inspiration: ''
-summary_en: 'This is a model-vendor release, not a standalone application product. The verifiable change
-  for application builders: Mistral offers an API preview of a 1-trillion-parameter, 49-billion-active-parameter
-  model and promises open weights by month-end; its benchmark score rose from 9 to 38 versus the previous
-  generation, still roughly six months behind the frontier.'
+summary_en: This is a model release by a model vendor, not a standalone application product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -35,7 +31,7 @@ summary: "Introducing Mistral Large 4: Le chonk   \nMistral are back in the game
   \ News   \n\n\n     Tags:  ai ,  generative-ai ,  llms ,  mistral ,  pelican-riding-a-bicycle ,  llm-release"
 first_seen: '2026-10-06T20:18:19Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - producthunt

@@ -377,3 +377,50 @@
     without token-by-token generation, it removes the step of waiting for large-model output and parsing
     it, so developers of latency-sensitive multi-step agent flows would choose it at each decision point;
     however how probabilities become actions and who sets thresholds is not stated publicly.'
+- id: req-full-agent-jev-2026-10-08
+  project_slug: agent-jev
+  level: full
+  reviewed_at: '2026-10-08T02:41:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 流程中每步快速判断继续、重试或升级的需求，痛点是逐 token 生成带来的延迟与成本，而流程只需一次打分；旧做法是规则脚本或大模型对话接口，不解决的后果是流程变慢变贵。这是基于公开能力描述的工作流结构推理。
+    evidence_ids:
+    - ev-e892ef4123499479
+    - ev-67cc35a0c0a888a7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 334 升至 374，说明开发者持续关注；但没有用户反馈、案例或接入记录，无法证明它已被放进真实流程，关注度不等于持续采用。
+    evidence_ids:
+    - ev-e892ef4123499479
+    - ev-67cc35a0c0a888a7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、托管方式或买方，钱可能来自开源社区支持、托管 API 或企业授权，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e892ef4123499479
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明概率是否真校准、阈值由谁设定、误判如何回退，也没有人工边界说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-e892ef4123499479
+    - ev-67cc35a0c0a888a7
+  next_validation: 追踪该仓库的模型卡与 issue/discussion，核对概率校准方式、阈值设定与是否有真实接入案例。
+  market: ''
+  job: agent 开发者在多步自动化流程运行中，拿到当前的 diff、trace 或日志，需要判断下一步是继续、重试还是升级处理。
+  job_en: Agent developers, while a multi-step automation flow runs, take the current diff, trace or log
+    and must decide whether the next step continues, retries or escalates.
+  pain: 用大模型做这类判断要等逐 token 生成，延迟与成本都高，而流程里往往只需要一个快速的是否判断；公开材料未说明误判后果与阈值由谁设定。
+  pain_en: Using a large model for such judgements means waiting for token-by-token generation at high
+    latency and cost, while the flow often needs only a fast yes-or-no call; public material does not
+    state misjudgement consequences or who sets thresholds.
+  current_alternative: 开发者现在多写规则或阈值脚本，或直接调用大模型对话接口再自行解析输出。
+  current_alternative_en: Developers today mostly write rule or threshold scripts, or call a large-model
+    chat endpoint and parse the output themselves.
+  usage_reason: 推断：若它真能在约 50 毫秒内一次前向返回概率分布且不逐 token 生成，就省掉等待大模型输出并解析的那一步，对延迟敏感的多步 agent 流程有吸引力；但概率如何转成动作、阈值谁定未公开，持续使用无法确认。
+  usage_reason_en: 'Inference: if it truly returns a probability distribution in one ~50 ms forward pass
+    without token-by-token decoding, it removes the wait-and-parse step, appealing to latency-sensitive
+    multi-step agent flows; but how probabilities become actions and who sets thresholds is undisclosed,
+    so continued use is unconfirmed.'

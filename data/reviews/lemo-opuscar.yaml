@@ -450,3 +450,55 @@
     short in that style, removing the step of deciding visual style and implementation path; creators
     who need a stylized short quickly without a video model would choose it when a specific style is required.
     The star count rising from 768 to 1,290 shows attention, not sustained use.'
+- id: req-full-lemo-opuscar-2026-10-08
+  project_slug: lemo-opuscar
+  level: full
+  reviewed_at: '2026-10-08T02:43:43Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是风格化短片产出路径长、风格难复用的问题：43 条风格提示词各配纯代码样片，用户带故事即可由代理按风格成片。痛点刚性来自替代路径需实拍人力或反复试提示词，不解决的后果是风格不可复现；此为工作流结构推理，尚无用户抱怨佐证。
+    evidence_ids:
+    - ev-eea4a0ca2131e4aa
+    - ev-7accfac32cd5112d
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 842 增至 1,351、并出现复刻，说明开发者社区持续关注并有人动手复用；但收藏与复刻属关注度证据，不能证明目标创作者已把它留在日常出片流程里，持续采用仍缺公开证据。
+    evidence_ids:
+    - ev-eea4a0ca2131e4aa
+    - ev-4b6c4658fc477607
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与风格提示词，没有定价页、付费记录或采购信息，谁付钱、按什么单位收费均未披露；这是商业证据缺口，不反推需求不存在，判断上更接近个人开发者自用或引流型开源。
+    evidence_ids:
+    - ev-7accfac32cd5112d
+  - gate: truth
+    status: insufficient
+    reason: 仓库称样片全部由代码生成、不使用视频模型，但公开材料未给出可复现的生成流程、成片质量边界与人工确认环节，交付能否稳定发生尚缺可核验证据。
+    evidence_ids:
+    - ev-eea4a0ca2131e4aa
+  next_validation: 追踪 lemo-opuscar 仓库的 README、issue 与 discussion，确认是否有使用者公开贴出用该技能产出的成片、所用风格与生成流程，以核验交付是否可稳定复现。
+  market: ''
+  job: 独立短片创作者或品牌内容团队在需要产出风格化短片、但不想搭建视频生成模型或实拍流程时，挑选一种影片风格，把自己的故事交给 Claude Code 代理，由代理按该风格的提示词与纯代码样片生成一段可播放短片。
+  job_en: An indie short-film creator or brand content team that needs a stylized short film but does
+    not want to set up a video-generation model or shoot live action picks one of the film styles, hands
+    their own story to a Claude Code agent, and has the agent produce a playable short film from that
+    style's prompt and code-only demo film.
+  pain: 公开材料显示该技能刻意不使用视频模型，全部样片由代码生成；这意味着创作者此前要么依赖实拍与剪辑人力，要么依赖视频生成模型，前者成本与周期高，后者在风格一致性和可复现性上难以控制。痛点在于风格化短片的产出路径长且风格难以稳定复用，这是从产品定位与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: 'Public materials show the skill deliberately uses no video model and generates every demo
+    film in code; creators previously either relied on live-action shooting and editing labor, or on video-generation
+    models, the former costly and slow, the latter hard to control for style consistency and reproducibility.
+    The pain is that the path to a stylized short film is long and the style is hard to reuse reliably;
+    this is inferred from the product positioning and workflow structure, '
+  current_alternative: 旧做法是实拍加剪辑，或直接用通用视频生成模型逐条试提示词；前者需要摄制与后期人力，后者每次都要重新摸索风格，缺少可复用的风格资产。
+  current_alternative_en: The old approach is live-action shooting plus editing, or prompting a general
+    video-generation model clip by clip; the former needs crew and post-production labor, the latter requires
+    re-discovering the style each time with no reusable style asset.
+  usage_reason: 相较逐条试提示词或组织实拍，它把风格固化成 43 条可复用提示词并各配一段纯代码样片，用户只需选定风格并带入自己的故事，由代理按既有风格执行，省去从零调风格这一步；推断偏好可复现风格资产、又不想自建视频模型的创作者会在需要快速产出风格化短片时选择它。
+  usage_reason_en: Compared with prompting clip by clip or organizing a shoot, it freezes style into 43
+    reusable prompts each paired with a code-only demo film, so the user only picks a style and brings
+    their story while the agent executes within that style, removing the step of tuning style from scratch;
+    by inference, creators who want reproducible style assets without building their own video model would
+    choose it when they need a stylized short film quickly.

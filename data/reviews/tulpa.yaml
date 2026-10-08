@@ -85,3 +85,49 @@
   usage_reason_en: 'Cannot determine: the available evidence contains no product capability, user feedback,
     or usage scenario description, so it is impossible to explain why a user would choose it over the
     old approach.'
+- id: req-full-tulpa-2026-10-08
+  project_slug: tulpa
+  level: full
+  reviewed_at: '2026-10-08T02:45:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 QQ 与微信聊天记录分散、跟进靠记忆的问题，痛点具体且高频，旧做法是手动翻找与表格登记；这是从产品输入—动作—交付闭环作出的工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-906aa55345dc9240
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 212 星标，属于关注度而非持续采用；没有用户反馈、issue 或案例说明它被留在日常跟进工作流里，也未发现中文生态的采用证据。
+    evidence_ids:
+    - ev-906aa55345dc9240
+    - ev-55d6558831dbf02a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何收费方式，买方与付费路径不明；可能来自 to C 个人订阅或 to B 团队授权，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-906aa55345dc9240
+  - gate: truth
+    status: insufficient
+    reason: 接入本地 QQ 与微信涉及账号权限与消息合规，公开材料未说明权限边界、数据是否外传及人工确认环节，交付确定性无法核对。
+    evidence_ids:
+    - ev-906aa55345dc9240
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有真实用户报告日常跟进场景中的使用、权限处理与重复使用情况。
+  market: ''
+  job: 在 Windows 上同时用 QQ 和微信跟进大量联系人的销售、招聘或社群运营者，需要从两个客户端的本地聊天记录里找出谁该回、哪条线索断了，并把会话上下文整理成可检索、可提醒的工作区。
+  job_en: A salesperson, recruiter or community operator who follows many contacts over QQ and WeChat
+    on Windows needs to find who is owed a reply and which lead went cold from local chat logs in both
+    clients, and to keep that context in a searchable, reminder-capable workspace.
+  pain: 聊天记录分散在两个客户端，只能靠手动翻找和记忆，跟进容易漏，历史上下文无法复用；公开材料未给出用户抱怨或量化损失，痛点强度来自工作流结构推理。
+  pain_en: Chat history is split across two clients and depends on manual scrolling and memory, so follow-ups
+    get missed and past context cannot be reused; public material offers no user complaints or quantified
+    loss, so pain intensity is a workflow-structure inference.
+  current_alternative: 手动在两个客户端里搜索聊天记录、自建表格登记跟进、用备忘录或标签功能勉强管理，或干脆依赖记忆。
+  current_alternative_en: Searching chat logs by hand in both clients, keeping a spreadsheet of follow-ups,
+    limping along with notes and tag features, or simply relying on memory.
+  usage_reason: 推断：相较手动翻找与表格登记，它把本地 QQ/微信记录直接变成可检索、可提醒的记忆层，省掉逐条翻找和手工登记这一步，因此高频跟进线索的人会尝试；公开材料只有仓库星标，没有留存或复购证据，不能断言已被长期留在工作流里。
+  usage_reason_en: 'Inference: versus manual scrolling and spreadsheet logging, it turns local QQ/WeChat
+    logs into a searchable, reminder-capable memory layer, removing the per-message scrolling and manual
+    logging step, so people chasing leads daily would try it; public material shows only repo stars, with
+    no retention or repeat-use evidence, so long-term workflow adoption cannot be claimed.'

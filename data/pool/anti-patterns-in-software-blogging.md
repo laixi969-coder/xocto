@@ -32,7 +32,7 @@ summary: "Anti-Patterns in Software Blogging   \nSome excellent writing advice f
   \ ,  michael-lynch"
 first_seen: '2026-10-07T14:53:51Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

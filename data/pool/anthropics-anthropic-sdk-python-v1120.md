@@ -97,7 +97,7 @@ summary: '## 1.12.0 (2026-10-07)
   * **api:** state the agent tools limit as 256 ([e4eff6b](https://github.com/anthropics/anthropic-sdk-python/commit/e4eff6b3aa651febf5413894a2e220a05aa32c00))'
 first_seen: '2026-10-07T17:57:07Z'
 last_seen: '2026-10-08T01:55:55Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

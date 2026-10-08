@@ -252,3 +252,55 @@
     its own computer plus tool integrations such as Composio, so credential retrieval and action execution
     happen in one conversation, removing the app-switch and manual credential-carry step. iOS users who
     already live in iMessage and want an agent to act on their behalf are therefore the ones '
+- id: req-full-openinstinct-2026-10-08
+  project_slug: openinstinct
+  level: full
+  reviewed_at: '2026-10-08T02:44:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 iOS 用户在 iMessage 内完成查密码、记待办与代办小任务的需求，痛点是密码库与聊天入口分离、云端助手凭据归属不明；旧替代为钥匙串、独立密码管理器与 Siri。公开材料只给出一句产品定位与仓库星标，未给用户抱怨原文，故交付闭环属工作流结构推理而非已验证事实。
+    evidence_ids:
+    - ev-e357a40eeedbe9e7
+    - ev-897fe7bc60e5226a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 308 缓升至 313，另有 213 升至 240 的记录，说明存在开发者关注；但无用户评价、issue 讨论或采用案例，无法判断是否形成强场景共识，关注度不能等同于持续使用。
+    evidence_ids:
+    - ev-681840a12bb164da
+    - ev-b1acea7c82c3805e
+  - gate: model
+    status: insufficient
+    reason: 公开材料仅显示开源仓库，未见定价页、付费路径或企业采购信息，钱可能来自自托管用户捐赠、托管订阅或 to VC，属判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-897fe7bc60e5226a
+    - ev-e357a40eeedbe9e7
+  - gate: truth
+    status: insufficient
+    reason: 产品定位为带自有计算机与可信 agent 网络的 iMessage 个人 agent，但公开材料未说明密码存储方式、加密与人工边界，交付确定性无法核对；把密码与自主 agent 放在同一入口，安全边界是首要待证事项。
+    evidence_ids:
+    - ev-897fe7bc60e5226a
+    - ev-e357a40eeedbe9e7
+  next_validation: 追踪 公开代码仓库.com/mariagorskikh/open-instinct 的 README、issue 与 discussion，核对密码存储与加密方式、agent
+    权限边界及是否有用户实际使用反馈。
+  market: ''
+  job: iOS 用户在手机上需要查密码、记待办或让助手代办小事时，不打开独立 App，而是直接在 iMessage 里给一个自托管 agent 发消息，让它调用自己的计算机和 Composio 等工具完成操作并回消息。
+  job_en: An iOS user who needs to look up a password, jot a task, or have small chores done texts a self-hosted
+    agent inside iMessage instead of opening a separate app, letting it use its own computer and tools
+    like Composio to act and reply.
+  pain: 密码管理器与聊天、待办分散在不同 App，切换成本高；把密码和日常指令交给云端闭源助手又担心凭据与数据被第三方掌握，公开材料未给出用户抱怨原文，此痛点为工作流结构推理。
+  pain_en: Password managers, chat, and to-dos live in separate apps, so switching costs add up; handing
+    credentials and daily commands to a closed cloud assistant raises third-party data concerns. Public
+    material gives no verbatim user complaints, so this pain is a workflow inference.
+  current_alternative: iCloud 钥匙串或 1Password 等密码管理器，加上 Siri、ChatGPT App 或自建脚本；这些方案要么与聊天入口分离，要么需要自己搭工具链。
+  current_alternative_en: iCloud Keychain or 1Password plus Siri, the ChatGPT app, or self-built scripts;
+    these either sit apart from the chat entry point or require assembling one's own toolchain.
+  usage_reason: 推断：相较在多个 App 间切换或自建脚本，它把入口收敛到用户本就在用的 iMessage，并给出自带计算机与工具调用的 agent，省去单独打开密码库和配置工具链的步骤；偏好自托管、在意凭据归属的
+    iOS 用户会因此选择它。仓库星标从 308 升至 313 只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus switching among apps or building scripts, it collapses the entry
+    point into iMessage the user already uses and ships an agent with its own computer and tool calls,
+    removing the step of opening a separate vault and wiring a toolchain; privacy-minded iOS users who
+    want self-hosting would pick it for that reason. Stars rising from 308 to 313 show attention only,
+    not sustained use.'

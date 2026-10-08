@@ -1,6 +1,6 @@
 ---
 slug: 微软meta-muse智能体将登陆windows平台
-name: 微软：Meta Muse智能体将登陆Windows平台
+name: Meta Muse
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9memFXS1RCS2l1
 summary: 微软：Meta Muse智能体将登陆Windows平台 凤凰网科技
 first_seen: '2026-10-07T17:52:51Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 微软：Meta Muse智能体将登陆Windows平台
+# Meta Muse
 
 微软：Meta Muse智能体将登陆Windows平台 凤凰网科技
 

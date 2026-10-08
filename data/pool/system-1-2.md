@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/shreyask/system-one-two
 summary: A small decision model decides when Gemma 4 is needed
 first_seen: '2026-10-07T02:35:49Z'
 last_seen: '2026-10-08T01:56:15Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

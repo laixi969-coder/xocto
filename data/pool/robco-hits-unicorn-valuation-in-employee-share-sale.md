@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/robco-hits-unicorn-valuation-in-employ
 summary: ''
 first_seen: '2026-10-05T14:14:27Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

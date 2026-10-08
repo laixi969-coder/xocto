@@ -1,6 +1,6 @@
 ---
 slug: ai-startup-siena-raises-17m-series-a-led-by-york-ie
-name: AI Startup Siena Raises $17M Series A led by York IE
+name: Siena
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNYV9CQUdMNGZq
 summary: AI Startup Siena Raises $17M Series A led by York IE The Romania Journal
 first_seen: '2026-10-07T06:08:04Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# AI Startup Siena Raises $17M Series A led by York IE
+# Siena
 
 AI Startup Siena Raises $17M Series A led by York IE The Romania Journal
 

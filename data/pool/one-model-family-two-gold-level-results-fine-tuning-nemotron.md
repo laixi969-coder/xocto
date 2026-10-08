@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026
 summary: ''
 first_seen: '2026-10-07T12:45:31Z'
 last_seen: '2026-10-08T01:56:15Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

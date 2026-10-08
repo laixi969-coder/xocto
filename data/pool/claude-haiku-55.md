@@ -3,9 +3,13 @@ slug: claude-haiku-55
 name: Claude Haiku 5.5
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是 Anthropic 的一次模型与定价发布，不是独立产品：开发者通过 API 调用 Haiku 5.5 处理文本生成任务，按 token 计费，10 万 token 以内与 GPT-6
+  Luna 同价，超出后单价上涨 5 倍，且新分词器使同样提示词消耗约 1.25 倍 token。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a model and pricing release from Anthropic, not a standalone product: developers
+  call Haiku 5.5 through the API for text generation and pay per token, at parity with GPT-6 Luna up to
+  100,000 tokens and 5x the unit price beyond that, while a new tokenizer consumes roughly 1.25x more
+  tokens for the same prompt.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -57,7 +61,7 @@ summary: "As previously  promised , here's Anthropic's new fast, low cost model:
   \ generative-ai ,  llms ,  anthropic ,  claude ,  llm-pricing ,  pelican-riding-a-bicycle ,  llm-release"
 first_seen: '2026-10-07T20:56:21Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:

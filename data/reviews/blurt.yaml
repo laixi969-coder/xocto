@@ -262,3 +262,45 @@
     and input-method switching, but the evidence is only dictionary definitions and a same-named TV movie,
     so no concrete difference from OS dictation is shown and it remains unclear which users would choose
     it.'
+- id: req-full-blurt-2026-10-08
+  project_slug: blurt
+  level: full
+  reviewed_at: '2026-10-08T02:41:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决语音转文本的录入需求，但公开证据全是同名电影、词典释义与检索页，没有任何用户任务、痛点或替代行为材料，需求与痛点均无法写出。
+    evidence_ids:
+    - ev-0cff7fc8232492a7
+    - ev-2e6d2818cb73d7fe
+    - ev-dd9d1301645bbb1c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Blurt 官方产品页或 AssemblyAI Dictation API 文档，确认其实际功能、计费方式与是否面向特定文字工作流。
+  market: ''
+  job: 文字工作者或客服、销售支持人员在写邮件、记录会议或整理工单时，按住按键说话，把语音交给 AssemblyAI 听写接口转成可直接粘贴的文本，再自行校对。
+  job_en: Writers, support agents or sales staff hold a key to speak while drafting emails, taking notes
+    or logging tickets, sending audio to the AssemblyAI dictation API to get paste-ready text they still
+    proofread.
+  pain: 候选材料未提供任何用户抱怨、替代行为或使用反馈，无法确认打字慢于说话、长文本录入耗时这一痛点是否真实存在及其强度。
+  pain_en: The candidate material offers no user complaints, workarounds or usage feedback, so it cannot
+    confirm whether the pain of typing being slower than speaking actually exists or how strong it is.
+  current_alternative: 系统自带听写、手机语音输入法或人工打字；候选材料未说明 Blurt 相较这些旧做法替代了哪一步。
+  current_alternative_en: Built-in OS dictation, mobile voice keyboards, or typing by hand; the material
+    does not state which step Blurt replaces relative to these.
+  usage_reason: 推断：若它把听写做成按键触发的独立动作，可能减少切换输入法与误触发的步骤，但材料未给出与系统听写的具体差异，哪类用户会因此选择它无法判断。
+  usage_reason_en: 'Inference: if it makes dictation a key-triggered standalone action it may cut input-method
+    switching and misfires, but no concrete difference from OS dictation is given, so which users would
+    choose it cannot be judged.'

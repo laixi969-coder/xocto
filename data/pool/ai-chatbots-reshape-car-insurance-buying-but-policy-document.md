@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNalNVMkZjN2Ra
 summary: AI Chatbots Reshape Car Insurance Buying, But Policy Documents Remain Key Deccan Chronicle
 first_seen: '2026-10-07T06:25:39Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

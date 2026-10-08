@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTFBjNUVSSnBYZzkw
 summary: femtoAI 开放开发者社区，助力打造全新 AI 产品 美通社
 first_seen: '2026-10-07T11:40:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

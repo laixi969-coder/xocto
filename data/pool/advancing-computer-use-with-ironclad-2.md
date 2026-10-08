@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9RXzZqWjI3M3Fj
 summary: Advancing computer use with Ironclad OpenAI
 first_seen: '2026-10-06T17:44:31Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

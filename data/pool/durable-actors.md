@@ -21,7 +21,7 @@ canonical_url: https://github.com/TerseAI/durable-actors
 summary: OSS Durable Objects with configurable compute
 first_seen: '2026-10-06T15:58:19Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

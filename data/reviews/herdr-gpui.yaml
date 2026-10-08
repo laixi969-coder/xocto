@@ -618,3 +618,60 @@
     the step of hunting across windows to confirm agent state; inferred that macOS developers running
     several coding agents in parallel would choose it, though no public user feedback or retention evidence
     yet supports the motive.
+- id: req-full-herdr-gpui-2026-10-08
+  project_slug: herdr-gpui
+  level: full
+  reviewed_at: '2026-10-08T02:43:13Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 并行时会话、工作区与 worktree 分散、难以总览与切换的需求，痛点是反复辨认与切换的摩擦；公开说明已能还原输入（本地 Herdr 守护进程）、动作（集中查看会话与
+      agent 活动）与交付（一个原生客户端界面），属工作流结构推理，尚无用户抱怨或耗时数据。
+    evidence_ids:
+    - ev-6b91e1b091bc2b49
+    - ev-adde55d9c0ed452c
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 444 增至 992，且描述从仅 macOS 扩展为 macOS、Linux、Windows 原生客户端，说明有持续关注与跨平台投入；但收藏与增长只属关注度证据，公开材料没有
+      issue、评价或案例证明开发者已把它长期留在工作流里。
+    evidence_ids:
+    - ev-6b91e1b091bc2b49
+    - ev-adde55d9c0ed452c
+    - ev-90a7312edc3cb380
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或收入路径，无法判断钱来自 to C 开发者、Herdr 上游还是其他方；这是判断而非已验证事实，且不反推需求不存在。
+    evidence_ids:
+    - ev-6b91e1b091bc2b49
+  - gate: truth
+    status: insufficient
+    reason: 客户端依赖本地 Herdr 守护进程，公开材料未说明守护进程不可用时的降级行为、agent 活动的安全边界与人工接管方式，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-adde55d9c0ed452c
+  next_validation: 追踪 herdr-gpui 仓库的 README、release 说明与 issue/discussion，确认是否出现真实用户描述的多 agent 工作流、替代的旧做法及守护进程依赖下的交付边界。
+  market: ''
+  job: 开发者在本地同时运行多个编码 agent（各自占用终端会话、工作区与 Git worktree）时，需要在一个原生桌面客户端里通过本地 Herdr 守护进程集中查看、切换这些会话与 agent
+    活动，以便判断哪个 agent 在做什么、该切到哪一个继续推进。
+  job_en: When running several coding agents locally, each occupying terminal sessions, workspaces and
+    Git worktrees, a developer needs a native desktop client that talks to the local Herdr daemon to view
+    and switch among those sessions and agent activities, so they can tell which agent is doing what and
+    which one to resume.
+  pain: 多 agent 并行时，会话、工作区与 worktree 分散在多个终端窗口或标签里，开发者需要反复切换、凭记忆辨认哪个 agent 在哪个目录、跑到哪一步；公开材料只说明客户端提供集中查看，未提供用户抱怨或耗时数据，因此痛点强度属于工作流结构推理。
+  pain_en: With several agents running in parallel, sessions, workspaces and worktrees are scattered across
+    terminal windows or tabs, forcing the developer to switch repeatedly and recall which agent sits in
+    which directory and how far it has progressed; public materials only state that the client offers
+    a consolidated view, with no user complaints or time data, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 当前替代方式是直接用终端多标签/多窗口、tmux 之类的会话复用工具，或 Herdr 自带的命令行界面来分别查看各 agent 会话；公开材料未说明这些旧做法具体缺什么。
+  current_alternative_en: Today developers use multiple terminal tabs or windows, session multiplexers
+    such as tmux, or Herdr's own command-line interface to inspect each agent session separately; public
+    materials do not state what specifically these older approaches lack.
+  usage_reason: 推断：相较在多个终端窗口间手动切换，该客户端把终端会话、工作区、Git worktree 与 agent 活动聚合进一个原生 macOS 界面，减少的是“逐个窗口寻找并辨认当前
+    agent 状态”这一步负担，因此同时跑多个本地 agent、又偏好图形界面的开发者会在需要总览与快速切换时选择它；公开材料尚无用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: compared with manually switching among terminal windows, the client aggregates
+    terminal sessions, workspaces, Git worktrees and agent activity into one native macOS interface, removing
+    the step of hunting window by window to identify each agent''s state, so developers running several
+    local agents who prefer a GUI would pick it when they need an overview and fast switching; public
+    materials contain no user feedback or retention evidence for this motive.'

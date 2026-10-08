@@ -1,0 +1,88 @@
+- id: req-initial-kaletacms-2026-10-08
+  project_slug: kaletacms
+  level: initial
+  reviewed_at: '2026-10-08T01:55:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多站点建站时版式与内容反复同步的需求，痛点是手工改模板易破坏一致性，旧做法是逐页调整，结构上成立。
+    evidence_ids:
+    - ev-de6b52c7822c8e6f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标与 issue 数，没有代理商采用或客户案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-de6b52c7822c8e6f
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，可能靠托管或服务收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-de6b52c7822c8e6f
+  - gate: truth
+    status: insufficient
+    reason: AI 通过 MCP 改动页面的可控性与人工确认边界未在公开材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-de6b52c7822c8e6f
+  next_validation: 收集该仓库 issue 与官方文档中关于 MCP 改动页面、权限与人工确认流程的具体说明。
+  market: ''
+  job: 建站服务商或中小企业网站运营者在搭建与维护企业站页面时，用可视化搭建器和设计 token 调整版式，并通过 MCP 让 Claude 参与页面或内容改动，产出可上线的页面。
+  job_en: A web agency or SMB site operator, building and maintaining business site pages, adjusts layouts
+    with the visual builder and design tokens and lets Claude take part in page or content edits over
+    MCP, producing publishable pages.
+  pain: 多站点改版要在模板、样式与内容之间反复同步，人工改一处容易破坏其他页面的版式一致性。
+  pain_en: Multi-site redesigns require repeated syncing between templates, styles and content, and a
+    manual change in one place easily breaks layout consistency elsewhere.
+  current_alternative: 用 WordPress 等 CMS 加插件手工改模板，或让前端逐个页面调整样式。
+  current_alternative_en: Using WordPress-style CMS with plugins to edit templates by hand, or having
+    front-end developers adjust styles page by page.
+  usage_reason: 相较在传统 CMS 里逐页改模板和样式，它用设计 token 统一约束版式并让 Claude 通过 MCP 直接改页面，减少跨页面同步样式这一步；推断同时维护多个企业站的代理商更可能因此选择它。
+  usage_reason_en: Compared with editing templates and styles page by page in a traditional CMS, it constrains
+    layouts with design tokens and lets Claude edit pages over MCP, removing the step of syncing styles
+    across pages; inference is that agencies maintaining several business sites would choose it for this.
+- id: req-full-kaletacms-2026-10-08
+  project_slug: kaletacms
+  level: full
+  reviewed_at: '2026-10-08T02:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多站点建站时版式与内容反复同步的需求，痛点是手工改模板易破坏一致性，旧做法是逐页调整；公开材料仅含产品说明与仓库星标，属工作流结构推理。
+    evidence_ids:
+    - ev-de6b52c7822c8e6f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标 93 与产品自述，没有代理商采用、客户案例或用户评价，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-de6b52c7822c8e6f
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，可能靠托管或服务收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-de6b52c7822c8e6f
+  - gate: truth
+    status: insufficient
+    reason: AI 通过 MCP 改动页面的可控性与人工确认边界未在公开材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-de6b52c7822c8e6f
+  next_validation: 收集该仓库 issue 与官方文档中关于 MCP 改动页面、权限与人工确认流程的具体说明。
+  market: ''
+  job: 建站服务商或中小企业网站运营者在搭建与维护企业站页面时，用可视化搭建器和设计 token 调整版式，并通过 MCP 让 Claude 参与页面或内容改动，产出可上线的页面。
+  job_en: A web agency or SMB site operator, building and maintaining business site pages, adjusts layouts
+    with the visual builder and design tokens and lets Claude take part in page or content edits over
+    MCP, producing publishable pages.
+  pain: 多站点改版要在模板、样式与内容之间反复同步，人工改一处容易破坏其他页面的版式一致性；公开材料只给出产品能力，未提供用户抱怨或工单证据。
+  pain_en: Multi-site redesigns require repeated syncing between templates, styles and content, and a
+    manual change in one place easily breaks layout consistency elsewhere; public material only states
+    product capability, with no user complaint or ticket evidence.
+  current_alternative: 用 WordPress 等 CMS 加插件手工改模板，或让前端逐个页面调整样式。
+  current_alternative_en: Using a WordPress-style CMS with plugins to edit templates by hand, or having
+    front-end developers adjust styles page by page.
+  usage_reason: 推断：相较在传统 CMS 里逐页改模板和样式，它用设计 token 统一约束版式并让 Claude 通过 MCP 直接改页面，减少跨页面同步样式这一步，因此同时维护多个企业站的代理商更可能选择它；尚无用户反馈证实该动机。
+  usage_reason_en: 'Inference: compared with editing templates and styles page by page in a traditional
+    CMS, it constrains layouts with design tokens and lets Claude edit pages over MCP, removing the step
+    of syncing styles across pages, so agencies maintaining several business sites would more likely choose
+    it; no user feedback yet confirms this motive.'

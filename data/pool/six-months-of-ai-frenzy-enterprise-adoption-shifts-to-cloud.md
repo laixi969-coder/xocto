@@ -23,7 +23,7 @@ summary: 'Six Months of AI Frenzy: Enterprise Adoption Shifts to Cloud-Based Dep
   for Development and Security Concerns BigGo Finance'
 first_seen: '2026-10-07T23:05:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

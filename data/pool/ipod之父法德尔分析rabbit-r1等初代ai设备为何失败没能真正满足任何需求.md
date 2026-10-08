@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPX0xnRGp0VlFL
 summary: “iPod之父”法德尔分析Rabbit R1等初代AI设备为何失败：没能真正满足任何需求 新浪财经
 first_seen: '2026-10-07T17:06:44Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

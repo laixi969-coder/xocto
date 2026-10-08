@@ -88,3 +88,47 @@
     conventions into one reusable agent pass, cutting repeated manual adjustment; freelancers with client-facing
     quality demands would try it. But with only 47 stars and no issues or usage feedback, repeated use
     in real delivery cannot be confirmed.'
+- id: req-full-motionmaxxing-2026-10-08
+  project_slug: motionmaxxing
+  level: full
+  reviewed_at: '2026-10-08T02:44:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 AI 素材观感不达标、无法直接交付的问题，但公开材料只有一句描述，说不清输入、处理步骤与交付结果，连需求和痛点都无法还原。
+    evidence_ids:
+    - ev-f3b64792946fb6ef
+    - ev-64a806c8ca80d638
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查看该 agent skill 的官方仓库或发布页 README，确认其实际接收的输入格式、处理步骤与是否有真实交付案例。
+  market: ''
+  job: 做动态图形或短视频后期的人，在拿到 AI 生成的粗糙视频素材后，用这个 agent skill 处理这些素材，让它看起来像出自动态设计师之手，最终交付观感更接近专业动态设计的成片。
+  job_en: Motion-graphics or short-video post-production people, after receiving rough AI-generated footage,
+    use this agent skill to process that footage so it looks like it came from a motion designer, delivering
+    a cut closer to professional motion-design quality.
+  pain: 公开材料只有一句产品描述，未说明输入格式、处理步骤、人工介入点或交付结果，无法确认 AI 素材观感不达标这一痛点是否真实存在及其强度。
+  pain_en: Public material contains only a one-line product description, with no input format, processing
+    steps, human intervention points, or delivery results, so it cannot be confirmed whether the pain
+    of substandard AI footage look actually exists or how strong it is.
+  current_alternative: 公开材料未说明用户当前如何绕过该问题，无法确认旧替代方式（如人工在剪辑与动效软件中逐段调整，或放弃 AI 素材从头制作）。
+  current_alternative_en: Public material does not describe how users currently work around this problem,
+    so the old alternative (such as manual clip-by-clip adjustment in editing and motion software, or
+    discarding AI footage and building from scratch) cannot be confirmed.
+  usage_reason: 公开材料未提供任何用户反馈、客户案例或采用证据，无法解释用户为何会选择它；现有证据仅指向一个同名 Skool 社区和 Instagram 账号，与所述 agent skill
+    无明确关联。
+  usage_reason_en: Public material provides no user feedback, customer cases, or adoption evidence to
+    explain why users would choose it; existing evidence only points to a same-named Skool community and
+    Instagram account with no clear link to the described agent skill.

@@ -356,3 +356,44 @@
   usage_reason_en: With no product description, docs, issues, or user feedback, there is no way to explain
     why users would choose it over their current approach; star growth reflects attention only and cannot
     serve as a usage reason.
+- id: req-full-claude-code-playground-2026-10-08
+  project_slug: claude-code-playground
+  level: full
+  reviewed_at: '2026-10-08T02:42:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅显示这是 Anthropic 名下的代码仓库及收藏数变化，未说明用户任务、输入材料、执行动作、交付结果与痛点，连需求与痛点都无法写出，故价值关不成立。
+    evidence_ids:
+    - ev-778556e3e3bd9a13
+    - ev-8b353ff0592f583f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它实际接收什么输入、执行什么动作、交付什么结果，以及是否有开发者描述替代了原有工作流。
+  market: ''
+  job: 公开材料只表明这是 Anthropic 名下的一个代码仓库，未说明谁在什么情况下打开它、输入什么材料、执行什么动作、交付什么结果，因此无法还原具体使用场景。
+  job_en: Public materials only show this is a code repository under Anthropic; they do not state who
+    opens it, in what situation, with what input, performing what action, or delivering what result, so
+    no concrete job can be reconstructed.
+  pain: 候选证据只有仓库收藏数变化，没有任何用户痛点、抱怨或替代行为的公开描述，无法说明它缓解什么摩擦。
+  pain_en: The candidate evidence contains only repository star counts, with no public description of
+    user pain, complaints, or workaround behavior, so the friction it relieves cannot be stated.
+  current_alternative: 公开材料未说明开发者目前用什么方式完成相关工作，也未说明该仓库替代了什么旧做法。
+  current_alternative_en: Public materials do not state how developers currently accomplish the related
+    work, nor what prior approach this repository replaces.
+  usage_reason: 缺少产品说明、文档、issue 或用户反馈，无法解释用户相较现有做法为什么会选择它；收藏数只反映关注度，不能作为使用理由。
+  usage_reason_en: Without product descriptions, docs, issues, or user feedback, there is no basis to
+    explain why users would choose it over existing approaches; star counts reflect attention only and
+    cannot serve as a usage reason.

@@ -277,3 +277,46 @@
     with usage records, removing the step of hand-building isolation and stitching logs, so small teams
     that need to audit agent execution or reuse environments across machines would pick it for multi-session
     work; stars rising from 70 to 108 only shows attention, not sustained use.'
+- id: req-full-agentbox-2026-10-08
+  project_slug: agentbox
+  level: full
+  reviewed_at: '2026-10-08T02:41:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据只有同名房地产 CRM 与登录页，未出现该产品自身的用户任务、痛点或旧替代事实，连解决什么需求都无法从可引用材料还原。
+    evidence_ids:
+    - ev-44d7748634258606
+    - ev-8745d53179c3a488
+    - ev-474537452afd0853
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品自身官网或仓库的 README、部署文档与 issue/discussion，确认其是否真实存在并说明容器会话与用量记录如何交付。
+  market: ''
+  job: 开发者本应在本地或服务器上运行 Claude Code、Codex CLI 等命令行编码代理，并管理多个容器会话、终端、文件改动、Git 与用量记录。
+  job_en: Developers are supposed to run command-line coding agents such as Claude Code and Codex CLI
+    locally or on a server, managing multiple container sessions, terminals, file changes, Git and usage
+    records.
+  pain: 公开材料未提供任何关于该产品用户任务、痛点或旧做法的可引用事实，无法确认会话分散、环境复用或用量回溯是否构成真实困扰。
+  pain_en: The public material provides no citable fact about this product's user task, pain points or
+    prior workarounds, so it cannot be confirmed whether scattered sessions, environment reuse or usage
+    tracing are real burdens.
+  current_alternative: 公开证据未显示开发者当前用什么方式替代它，无法还原旧流程。
+  current_alternative_en: The public evidence does not show what developers currently use instead, so
+    the prior workflow cannot be reconstructed.
+  usage_reason: 公开材料未给出任何用户选择它的理由；现有证据指向的是同名房地产 CRM 与登录页，与命令行编码代理工作区无关，无法形成采用动机判断。
+  usage_reason_en: The public material gives no reason any user would choose it; the available evidence
+    points to a same-named real-estate CRM and login pages unrelated to a command-line coding agent workspace,
+    so no adoption rationale can be formed.

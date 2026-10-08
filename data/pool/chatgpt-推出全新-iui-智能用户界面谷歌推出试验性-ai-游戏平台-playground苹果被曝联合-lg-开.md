@@ -1,6 +1,6 @@
 ---
 slug: chatgpt-推出全新-iui-智能用户界面谷歌推出试验性-ai-游戏平台-playground苹果被曝联合-lg-开
-name: ChatGPT 推出全新 IUI 智能用户界面；谷歌推出试验性 AI 游戏平台 Playground；苹果被曝联合 LG 开发门锁、摄像头等智能家居配件｜极客早知道
+name: ChatGPT
 builder: ''
 category: ''
 summary_zh: ''
@@ -75,7 +75,7 @@ summary: "2026 年诺贝尔化学奖公布：二人因解开不对称有机合�
   \ \n 截止到昨日，《欢迎来龙餐馆》上映 58 天票房达 23.56 亿元，豆瓣评分 8.7，IMDb 评分 8.3。 \n 第 99 届奥斯卡金像奖定于 2027 年 3 月 14 日在美国洛杉矶杜比剧院举行，目前华语电影中，中国香港地区选送《风林火山》、中国台湾地区选送《大濛》。"
 first_seen: '2026-10-08T00:49:27Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -86,7 +86,7 @@ sightings:
   kind: news
 ---
 
-# ChatGPT 推出全新 IUI 智能用户界面；谷歌推出试验性 AI 游戏平台 Playground；苹果被曝联合 LG 开发门锁、摄像头等智能家居配件｜极客早知道
+# ChatGPT
 
 2026 年诺贝尔化学奖公布：二人因解开不对称有机合成难题获奖，其中一位 96 岁高龄 
  10 月 7 日，2026 年诺贝尔化学奖正式公布，瑞典皇家科学院决定将 2026 年诺贝尔化学奖授予亨利 ·B· 卡甘（Henri B. Kagan）和硖合宪三（Kenso Soai），「表彰他们在不对称有机合成中发现非线性效应和自催化现象。」 

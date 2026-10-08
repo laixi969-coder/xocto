@@ -1,0 +1,87 @@
+- id: req-initial-terrainsr-2026-10-08
+  project_slug: terrainsr
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决低分辨率高度图放大后细节模糊、手工雕刻耗时的问题，旧流程明确，属于工作流推理。
+    evidence_ids:
+    - ev-7f5423a640993a26
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有采用规模或重复使用证据，是否形成共识未知。
+    evidence_ids:
+    - ev-7f5423a640993a26
+  - gate: model
+    status: insufficient
+    reason: 开源模型未披露任何收费或商业路径，买方与付费方式均属推断。
+    evidence_ids:
+    - ev-7f5423a640993a26
+  - gate: truth
+    status: insufficient
+    reason: 未说明输出分辨率上限、是否需人工修图，交付确定性无法核对。
+    evidence_ids:
+    - ev-7f5423a640993a26
+  next_validation: 查看该模型仓库的说明文档与 issue/discussion，确认支持的输入格式、输出分辨率与是否需要人工修图。
+  market: ''
+  job: 游戏或影视场景美术在制作地形时，处理低分辨率高度图，把它变成可用于地形生成的高精度高度图。
+  job_en: A game or film environment artist making terrain takes a low-resolution heightmap and turns
+    it into a high-resolution heightmap usable for terrain generation.
+  pain: 手工雕刻或重绘高精度地形耗时，低分辨率高度图直接放大后细节模糊、不真实。
+  pain_en: Sculpting or repainting high-resolution terrain by hand is time-consuming, and simply enlarging
+    a low-resolution heightmap yields blurry, unrealistic detail.
+  current_alternative: 在三维软件里手工雕刻地形，或使用传统插值放大后再手动补细节。
+  current_alternative_en: Sculpting terrain by hand in 3D software, or using traditional interpolation
+    upscaling and then adding detail manually.
+  usage_reason: 推断：相较手工雕刻和传统插值放大，它直接对高度图做超分并输出更真实的地形细节，省去逐块补细节这一步，因此独立游戏团队和虚拟制片美术会在需要快速铺大量地形时选择它；尚无付费或留存证据。
+  usage_reason_en: 'Inference: versus hand sculpting and traditional interpolation, it upscales the heightmap
+    directly and outputs more realistic terrain detail, removing the step of patching detail piece by
+    piece, so indie game teams and virtual-production artists may choose it when laying out large amounts
+    of terrain quickly; no payment or retention evidence yet.'
+- id: req-full-terrainsr-2026-10-08
+  project_slug: terrainsr
+  level: full
+  reviewed_at: '2026-10-08T02:45:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决低分辨率高度图放大后细节模糊、手工雕刻耗时的问题，旧流程与输入—动作—交付闭环明确，属工作流结构推理；谁付钱未披露，留待模式关。
+    evidence_ids:
+    - ev-7f5423a640993a26
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有模型页一句功能描述，没有采用规模、重复使用或社区讨论证据，是否形成共识无法判断。
+    evidence_ids:
+    - ev-7f5423a640993a26
+  - gate: model
+    status: insufficient
+    reason: 开源模型未披露定价、收费或商业路径，买方与付费方式均属推断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7f5423a640993a26
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持的输入格式、输出分辨率上限与是否需人工修图，交付确定性无法核对。
+    evidence_ids:
+    - ev-7f5423a640993a26
+  next_validation: 查看该 公开模型社区 模型仓库的说明文档与 issue/discussion，确认支持的输入格式、输出分辨率上限与是否需要人工修图。
+  market: ''
+  job: 游戏或影视场景美术在搭建地形时，把低分辨率高度图输入模型做超分，得到更精细、更真实的高精度高度图，用于后续地形生成与场景搭建。
+  job_en: A game or film environment artist building terrain feeds a low-resolution heightmap into the
+    model for super-resolution, obtaining a finer, more realistic high-resolution heightmap for downstream
+    terrain generation and scene assembly.
+  pain: 手工雕刻或重绘高精度地形耗时，低分辨率高度图直接放大后细节模糊、不真实，需要逐块补细节。
+  pain_en: Sculpting or repainting high-resolution terrain by hand is time-consuming, and directly enlarging
+    a low-resolution heightmap yields blurry, unrealistic detail that must be patched piece by piece.
+  current_alternative: 在三维软件里手工雕刻地形，或使用传统插值放大后再手动补细节。
+  current_alternative_en: Sculpting terrain by hand in 3D software, or using traditional interpolation
+    upscaling and then manually adding detail.
+  usage_reason: 推断：相较手工雕刻和传统插值放大，它直接对高度图做超分并输出更真实的地形细节，省去逐块补细节这一步，因此独立游戏团队和虚拟制片美术在需要快速铺大量地形时会选择它；尚无付费或留存证据。
+  usage_reason_en: 'Inference: versus hand sculpting and traditional interpolation, it upscales the heightmap
+    directly and outputs more realistic terrain detail, removing the step of patching detail piece by
+    piece, so indie game teams and virtual-production artists may choose it when laying out large amounts
+    of terrain quickly; no payment or retention evidence yet.'

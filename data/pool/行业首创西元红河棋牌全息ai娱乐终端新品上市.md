@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yWlppX1VWNEhu
 summary: 行业首创！西元·红河棋牌全息AI娱乐终端新品上市 体坛
 first_seen: '2026-10-07T04:26:12Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

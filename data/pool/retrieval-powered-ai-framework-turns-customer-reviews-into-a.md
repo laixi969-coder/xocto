@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOcXVJd3J4TGhU
 summary: Retrieval-Powered AI Framework Turns Customer Reviews Into Actionable Market Insight Bioengineer.org
 first_seen: '2026-10-07T08:50:30Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

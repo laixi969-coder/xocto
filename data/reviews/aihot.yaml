@@ -419,3 +419,54 @@
     sources and curation standards into config and the framework auto-fetches, filters, and generates
     the daily page, removing the per-item browsing and manual layout steps, so editors or operators wanting
     a vertical news site choose it when they need a stable daily publish.'
+- id: req-full-aihot-2026-10-08
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-08T02:41:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是行业资讯编辑每天从多信源筛选并按时产出日报的需求，痛点是高频重复的搜集与排版劳动且有固定发布时点；仓库说明信源与精选标准可替换，输入—筛选—生成页面的交付闭环可还原，属工作流结构推理，公开用户采用证据仍有限。
+    evidence_ids:
+    - ev-c4c75c42973078fd
+    - ev-02b1495620201a45
+    - ev-13defec50a848f74
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 6,425 个收藏，说明开发者社区已注意到该框架；但收藏属关注度证据，未见目标编辑持续使用、复刻后长期运营或公开评价，无法据此判定共识已形成。
+    evidence_ids:
+    - ev-cd67c5d3a96072b4
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，钱可能来自自建站点的编辑自付、企业内容团队或开源赞助，均属判断而非已验证事实；这是模式缺口，不否定需求成立。
+    evidence_ids:
+    - ev-167ab3a7b3ea9783
+  - gate: truth
+    status: insufficient
+    reason: 仓库称提示词与阈值随框架开源，但未见部署文档、可复现实测或人工审核边界说明，筛选质量与日报能否确定性交付仍缺公开证据。
+    evidence_ids:
+    - ev-c4c75c42973078fd
+  next_validation: 追踪 AIHOT 仓库的 docs/customize.md、AGENTS.md 与 issue/discussion，确认是否有用户公开记录替换信源后实际部署并持续发布日报。
+  market: ''
+  job: 行业资讯编辑或运营者需要每天维护一个垂直行业热点站：在固定发布时间前，从多个信源抓取当天内容，按自己的精选标准挑出值得看的条目，再排版成可发布的日报页面。
+  job_en: An industry news editor or operator maintaining a vertical news site must, before a fixed daily
+    deadline, pull the day's items from multiple sources, filter them against their own selection criteria,
+    and lay them out as a publishable daily digest page.
+  pain: 公开材料显示 AIHOT 每天 08:00 北京时间发布精编日报，说明这是高频、有固定交付时点的重复劳动；手动翻多个信源、逐条筛选再排版，是编辑每天必须重复承担的工作量，漏掉或延迟会直接影响日报按时发布。
+  pain_en: Public materials show AIHOT publishes a curated digest daily at 08:00 Beijing time, indicating
+    a high-frequency task with a fixed delivery deadline; manually scanning multiple sources, filtering
+    item by item and laying out the page is repeated daily labor, and missing or delaying it directly
+    affects on-time publication.
+  current_alternative: 当前替代方式是编辑人工逐个打开信源、凭经验挑条目、再手工排版成日报页面；仓库说明把信源与精选标准替换后即可变成自己的行业热点站，说明旧做法是把这套流程完全手工化或零散脚本化。
+  current_alternative_en: The current alternative is an editor manually opening each source, picking items
+    by judgment, and hand-laying-out the digest page; the repository states that swapping sources and
+    selection criteria turns it into your own vertical news site, implying the old approach is fully manual
+    or ad-hoc scripted.
+  usage_reason: 推断：相较人工逐源翻找再排版，AIHOT 把抓取、按阈值筛选和生成日报页面串成一条自动流水线，编辑只需替换信源与精选标准即可得到可直接发布的站点，省掉每天重复的搜集与排版步骤，因此需要长期维护垂直日报的编辑或运营者会在固定发布节奏下选择它。
+  usage_reason_en: 'Inference: versus manually scanning each source and laying out pages, AIHOT chains
+    fetching, threshold-based filtering and digest-page generation into one automated pipeline, so an
+    editor only swaps sources and criteria to get a publishable site, removing the daily collection and
+    layout steps; editors or operators maintaining a recurring vertical digest would therefore choose
+    it under a fixed publishing cadence.'

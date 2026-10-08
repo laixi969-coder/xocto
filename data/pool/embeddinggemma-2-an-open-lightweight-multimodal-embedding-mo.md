@@ -21,7 +21,7 @@ canonical_url: https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight
 summary: ''
 first_seen: '2026-10-06T19:57:04Z'
 last_seen: '2026-10-08T01:56:15Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

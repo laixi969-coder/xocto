@@ -1,0 +1,82 @@
+- id: req-initial-ai-could-upend-food-delivery-2026-10-08
+  project_slug: ai-could-upend-food-delivery
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决代理式点餐下单，但材料未说明具体痛点、频率与不采用代价，价值结构无法还原。
+    evidence_ids:
+    - ev-8e504e8e5dc92f3c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有约300家餐厅签约这一规模数字，未见顾客或餐厅的持续采用证据。
+    evidence_ids:
+    - ev-8e504e8e5dc92f3c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方是餐厅还是平台无法判断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8e504e8e5dc92f3c
+  - gate: truth
+    status: insufficient
+    reason: 代理下单能否确定性交付、出错时人工如何兜底，材料均未说明。
+    evidence_ids:
+    - ev-8e504e8e5dc92f3c
+  next_validation: 收集 Bites 官方定价页或餐厅侧客户案例，确认下单确认与履约由谁负责。
+  market: ''
+  job: 湾区餐厅在顾客通过 AI 代理表达点餐需求时，需要把菜单、库存和可下单信息交给代理，并最终确认并履约一笔订单。
+  job_en: A Bay Area restaurant, when a customer expresses an ordering need through an AI agent, must
+    expose menu, availability and orderable data to the agent and finally confirm and fulfill an order.
+  pain: 候选材料只说明 Bites 在做代理式订餐并签约约300家餐厅，未说明顾客或餐厅具体卡在哪一步、不采用会失去什么。
+  pain_en: The candidate only says Bites does agentic ordering with about 300 restaurants signed up; it
+    does not say which step blocks customers or restaurants, or what is lost by not adopting it.
+  current_alternative: 顾客在 DoorDash 等平台菜单里自行挑选下单，餐厅通过平台后台人工接单。
+  current_alternative_en: Customers pick and order themselves in DoorDash-style menus, and restaurants
+    take orders manually through platform backends.
+  usage_reason: 推断：若 AI 代理能直接完成下单，餐厅可省去顾客逐项挑选与人工确认的环节，因此可能吸引希望被代理渠道带单的餐厅；但材料未给出留存、复购或客户反馈，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if an AI agent can complete ordering directly, restaurants could skip item-by-item
+    selection and manual confirmation, which may attract restaurants wanting agent-channel orders; however
+    no retention, repeat-use or customer feedback is given, so this motive is unconfirmed.'
+- id: req-full-ai-could-upend-food-delivery-2026-10-08
+  project_slug: ai-could-upend-food-delivery
+  level: full
+  reviewed_at: '2026-10-08T02:41:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决代理式点餐下单，但材料未说明具体痛点、频率与不采用代价，价值结构无法还原。
+    evidence_ids:
+    - ev-9138c852252fd3ec
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Bites 官方定价页或餐厅侧客户案例，确认下单确认与履约由谁负责。
+  market: ''
+  job: 湾区餐厅在顾客通过 AI 代理表达点餐意图时，需要把菜单、库存与可下单信息暴露给代理，并最终确认、履约一笔订单。
+  job_en: A Bay Area restaurant, when a customer expresses an ordering intent through an AI agent, must
+    expose menu, availability and orderable data to the agent and finally confirm and fulfill an order.
+  pain: 现有证据只提到 Bites 做代理式订餐、签约约300家餐厅，未说明顾客或餐厅具体卡在哪一步、频率多高、不采用会失去什么。
+  pain_en: The available evidence only says Bites does agentic ordering with about 300 restaurants signed
+    up; it does not say which step blocks customers or restaurants, how often, or what is lost without
+    it.
+  current_alternative: 顾客在 DoorDash 等平台菜单里逐项挑选下单，餐厅通过平台后台人工接单确认。
+  current_alternative_en: Customers pick items one by one in DoorDash-style menus, and restaurants confirm
+    orders manually through platform backends.
+  usage_reason: 推断：若 AI 代理能直接完成下单，餐厅可省去顾客逐项挑选与人工确认环节，因此可能吸引希望被代理渠道带单的餐厅；但材料未给出留存、复购或客户反馈，无法确认该动机成立。
+  usage_reason_en: 'Inference: if an AI agent can complete ordering directly, restaurants could skip item-by-item
+    selection and manual confirmation, which may attract restaurants wanting agent-channel orders; however
+    no retention, repeat-use or customer feedback is given, so this motive is unconfirmed.'

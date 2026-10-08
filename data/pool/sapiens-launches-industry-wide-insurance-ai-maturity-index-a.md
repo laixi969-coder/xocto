@@ -1,7 +1,6 @@
 ---
 slug: sapiens-launches-industry-wide-insurance-ai-maturity-index-a
-name: Sapiens Launches Industry-Wide Insurance AI Maturity Index as 67% Predict Full Autonomy Within 2
-  to 3 Years
+name: Sapiens
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: Sapiens Launches Industry-Wide Insurance AI Maturity Index as 67% Predi
   2 to 3 Years PR Newswire
 first_seen: '2026-10-07T13:00:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Sapiens Launches Industry-Wide Insurance AI Maturity Index as 67% Predict Full Autonomy Within 2 to 3 Years
+# Sapiens
 
 Sapiens Launches Industry-Wide Insurance AI Maturity Index as 67% Predict Full Autonomy Within 2 to 3 Years PR Newswire
 

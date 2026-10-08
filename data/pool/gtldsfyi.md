@@ -21,7 +21,7 @@ canonical_url: https://gtlds.fyi
 summary: All the proposed new gTLDs
 first_seen: '2026-10-07T19:53:17Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

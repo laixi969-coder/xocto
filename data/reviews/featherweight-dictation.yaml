@@ -1,0 +1,81 @@
+- id: req-initial-featherweight-dictation-2026-10-08
+  project_slug: featherweight-dictation
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决口述转文字这一任务，但材料未写出具体痛点与不采用的后果，需求刚性无法确认。
+    evidence_ids:
+    - ev-85cb9abe0410e1b0
+  - gate: consensus
+    status: insufficient
+    reason: 无投票、评论或采用数据，无法判断是否卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-85cb9abe0410e1b0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断是个人订阅还是机构采购，属未知而非失败。
+    evidence_ids:
+    - ev-85cb9abe0410e1b0
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否离线、如何处理敏感语音，交付确定性与安全边界无法核对。
+    evidence_ids:
+    - ev-85cb9abe0410e1b0
+  next_validation: 收集该产品的官方定价页或功能说明，确认支持语言、是否离线处理及计价方式。
+  market: ''
+  job: 需要大量口述录入的律师、医生或写作者在 Mac 或 Windows 上边说边把内容转成文字，替代手打或系统自带听写。
+  job_en: Lawyers, clinicians or writers who dictate heavily on Mac or Windows speak and have it turned
+    into text, replacing typing or the built-in dictation.
+  pain: 候选材料只有一句定位描述，没有说明现有听写哪里不够用、错在何处、用户为此付出什么代价。
+  pain_en: The candidate offers only a one-line positioning statement; it does not say where existing
+    dictation falls short, how it fails, or what it costs users.
+  current_alternative: 公开材料未提供替代方式信息，无法确认用户此前用的是系统听写、付费听写软件还是人工转录。
+  current_alternative_en: The public material gives no information on alternatives, so it is unclear whether
+    users previously used OS dictation, paid dictation software or human transcription.
+  usage_reason: 无法判断：材料未说明相较系统听写减少了哪一步负担或改善了哪项可核对结果，仅凭“轻”这一描述不足以解释用户为何切换。
+  usage_reason_en: 'Cannot be judged: the material does not say which step is reduced versus OS dictation
+    or which checkable result improves; ''lightweight'' alone does not explain a switch.'
+- id: req-full-featherweight-dictation-2026-10-08
+  project_slug: featherweight-dictation
+  level: full
+  reviewed_at: '2026-10-08T02:42:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决口述转文字这一任务，但材料未写出具体痛点与不采用的后果，需求刚性无法确认。
+    evidence_ids:
+    - ev-14ee90df4c6a60b9
+    - ev-b205e61b01c373ca
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或功能说明，确认支持语言、是否离线处理及计价方式。
+  market: ''
+  job: 律师、医生或写作者在 Mac 或 Windows 上口述内容并转成文字，替代手打或系统自带听写。
+  job_en: Lawyers, clinicians or writers dictate on Mac or Windows and have speech turned into text, replacing
+    typing or built-in OS dictation.
+  pain: 公开材料只有一句“轻量口述”定位，未说明系统听写或付费听写软件在准确率、延迟、资源占用或隐私上哪里不够用，也未说明不解决的后果。
+  pain_en: The public material offers only a one-line 'lightweight dictation' positioning; it does not
+    say where OS dictation or paid dictation software falls short on accuracy, latency, resource use or
+    privacy, nor the cost of not solving it.
+  current_alternative: 公开材料未提供替代方式信息，无法确认用户此前用的是系统听写、付费听写软件还是人工转录。
+  current_alternative_en: The public material gives no information on alternatives, so it is unclear whether
+    users previously used OS dictation, paid dictation software or human transcription.
+  usage_reason: 无法判断：材料未说明相较系统听写减少了哪一步负担或改善了哪项可核对结果，仅凭“轻”这一描述不足以解释用户为何切换。
+  usage_reason_en: 'Cannot be judged: the material does not say which step is reduced versus OS dictation
+    or which checkable result improves; ''lightweight'' alone does not explain a switch.'

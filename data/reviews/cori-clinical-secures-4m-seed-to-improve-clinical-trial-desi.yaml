@@ -1,0 +1,86 @@
+- id: req-initial-cori-clinical-secures-4m-seed-to-improve-clinical-trial-desi-2026-10-08
+  project_slug: cori-clinical-secures-4m-seed-to-improve-clinical-trial-desi
+  level: initial
+  reviewed_at: '2026-10-08T01:56:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决临床试验设计与延误问题，但公开材料未说明具体痛点、旧流程与交付物，价值结构无法还原。
+    evidence_ids:
+    - ev-01fd1c4e5c837487
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资信息，没有客户采用、试点或行业共识证据，无法判断谁已认可这一做法。
+    evidence_ids:
+    - ev-01fd1c4e5c837487
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪一方来无法判断，仅知有机构投资。
+    evidence_ids:
+    - ev-01fd1c4e5c837487
+  - gate: truth
+    status: insufficient
+    reason: 无法核对产品是否贴近方案设计的第一性目标，也未说明人工复核与合规边界。
+    evidence_ids:
+    - ev-01fd1c4e5c837487
+  next_validation: 收集 Cori Clinical 官方产品页或部署文档，确认其输入材料、输出交付物与是否披露定价或客户案例。
+  market: ''
+  job: 生物技术公司或 CRO 的临床方案设计人员在启动一项试验前，需要汇总既往试验数据、入排标准与中心可行性材料，产出一份可提交的方案与可行性评估。
+  job_en: Clinical protocol designers at biotechs or CROs must, before starting a trial, consolidate prior
+    trial data, eligibility criteria and site feasibility material into a submittable protocol and feasibility
+    assessment.
+  pain: 公开材料只说明目标是缩短延误，未说明具体痛点来源，例如返工、数据分散或审评周期，因此痛点强度无法从现有事实判断。
+  pain_en: Public material only states the goal of cutting delays and does not identify the specific pain
+    source, such as rework, scattered data or review cycles, so pain intensity cannot be judged from available
+    facts.
+  current_alternative: 公开材料未说明当前替代方式，按行业常识推断可能仍是人工整理与内部模板，但这是推断，不是已核验事实。
+  current_alternative_en: Public material does not describe the current alternative; by industry inference
+    it may still be manual consolidation and internal templates, but this is inference, not verified fact.
+  usage_reason: 缺少产品实际输入、动作与交付物的描述，无法说明它相较旧做法减少了哪一步负担，因此不能给出使用理由；需要先看到方案生成或可行性评估的具体产出。
+  usage_reason_en: With no description of actual inputs, actions or deliverables, there is no basis to
+    explain which step it removes versus the old approach; a concrete protocol or feasibility output must
+    be seen first.
+- id: req-full-cori-clinical-secures-4m-seed-to-improve-clinical-trial-desi-2026-10-08
+  project_slug: cori-clinical-secures-4m-seed-to-improve-clinical-trial-desi
+  level: full
+  reviewed_at: '2026-10-08T02:42:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决临床试验设计与延误问题，但公开材料未说明具体痛点、旧流程与交付物，价值结构无法还原。
+    evidence_ids:
+    - ev-b64224e07560fe51
+    - ev-1faf74f69f17543b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Cori Clinical 官方产品页或部署文档，确认其输入材料、输出交付物与是否披露定价或客户案例。
+  market: ''
+  job: 生物技术公司或 CRO 的临床方案设计人员在启动一项试验前，需要汇总既往试验数据、入排标准与中心可行性材料，产出一份可提交的方案与可行性评估。
+  job_en: Clinical protocol designers at biotechs or CROs must, before starting a trial, consolidate prior
+    trial data, eligibility criteria and site feasibility material into a submittable protocol and feasibility
+    assessment.
+  pain: 公开材料只提到目标是减少试验延误，未说明具体痛点来源（返工、数据分散还是审评周期），痛点强度无法从现有事实判断。
+  pain_en: Public material only states the goal of reducing trial delays and does not identify the specific
+    pain source (rework, scattered data or review cycles), so pain intensity cannot be judged from available
+    facts.
+  current_alternative: 公开材料未说明当前替代方式；按行业常识推断可能仍是人工整理与内部模板，但这是推断，不是已核验事实。
+  current_alternative_en: Public material does not describe the current alternative; by industry inference
+    it may still be manual consolidation and internal templates, but this is inference, not verified fact.
+  usage_reason: 缺少产品实际输入、动作与交付物的描述，无法说明它相较旧做法减少了哪一步负担，因此不能给出使用理由；需要先看到方案生成或可行性评估的具体产出。
+  usage_reason_en: With no description of actual inputs, actions or deliverables, there is no basis to
+    explain which step it removes versus the old approach; a concrete protocol or feasibility output must
+    be seen first.

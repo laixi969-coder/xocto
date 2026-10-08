@@ -22,7 +22,7 @@ canonical_url: https://latent.space/p/ainews-quasi-riemann-hypothesis-openai
 summary: Our head hurts.
 first_seen: '2026-10-07T04:55:44Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

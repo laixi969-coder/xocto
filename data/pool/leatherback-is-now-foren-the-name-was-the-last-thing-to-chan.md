@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/leatherback-is-now-foren-brnd
 summary: ''
 first_seen: '2026-10-07T11:02:10Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

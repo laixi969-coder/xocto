@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQNU9VcVRXTUVr
 summary: 'Federated Query at Petabyte Scale: A Deployment Pattern for a Governed AI-Agent Data Layer DevOps.com'
 first_seen: '2026-10-07T10:00:10Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

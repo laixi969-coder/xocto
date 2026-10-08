@@ -369,3 +369,47 @@
   usage_reason_en: 'Inference: it chains repository reading, editing and validation into one continuous
     action, removing the step of shuttling context between chat and editor and re-running validation by
     hand, so developers who care about code staying local would try it first.'
+- id: req-full-coding-agent-2026-10-08
+  project_slug: coding-agent
+  level: full
+  reviewed_at: '2026-10-08T02:42:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让代理读懂整个仓库并完成改动与验证的需求，痛点在于上下文搬运和手动验证，旧做法确实存在。
+    evidence_ids:
+    - ev-95d9f1ad97049f01
+    - ev-210357b0dcaa3239
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有212星，但未见用户评价、issue讨论或采用数据，无法说明开发者已把它放进日常工作流。
+    evidence_ids:
+    - ev-95d9f1ad97049f01
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或商业路径，买方与收费方式均无公开材料，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-95d9f1ad97049f01
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与仓库级验证的承诺能否稳定交付，缺少文档、实测或issue讨论佐证，安全边界也未说明。
+    evidence_ids:
+    - ev-95d9f1ad97049f01
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，核验其支持的语言、验证流程与本地数据边界。
+  market: ''
+  job: 软件开发工程师在本地仓库中处理已有代码库，需要让代理读懂整个项目上下文，完成规划、改代码、跑验证，最终产出可提交的改动。
+  job_en: A software developer working in a local repository needs an agent to read the whole project
+    context, then plan, edit, validate and produce committable changes.
+  pain: 通用聊天式助手看不到完整仓库上下文，改动需人工在编辑器与聊天窗口间来回搬运并逐条核对，验证仍要自己手动跑，上下文丢失和重复验证是主要负担。
+  pain_en: General chat assistants lack full repository context, so changes must be shuttled between editor
+    and chat window by hand and validation still falls on the developer; lost context and repeated validation
+    are the main burden.
+  current_alternative: 目前多靠编辑器内补全、把代码片段贴进聊天窗口，或人工按 issue 逐条修改并手动跑测试。
+  current_alternative_en: Today most rely on in-editor completion, pasting snippets into a chat window,
+    or manually working through issues and running tests by hand.
+  usage_reason: 推断：它把读仓库、改代码、跑验证串成一次连续动作，省掉在聊天窗口与编辑器之间搬运上下文和手动复跑验证的步骤，因此在意代码不出本地的开发者会先试它。
+  usage_reason_en: 'Inference: it chains repository reading, editing and validation into one continuous
+    action, removing the step of shuttling context between chat and editor and re-running validation by
+    hand, so developers who care about code staying local would try it first.'

@@ -1,0 +1,84 @@
+- id: req-initial-muse-launches-on-the-ipad-2026-10-08
+  project_slug: muse-launches-on-the-ipad
+  level: initial
+  reviewed_at: '2026-10-08T01:56:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要替用户完成日常任务，但材料未说明具体任务、旧做法与不解决的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-914371cc10dd47c4
+  - gate: consensus
+    status: insufficient
+    reason: 免费榜第一属关注度证据，不能证明持续采用；无用户评价或留存材料。
+    evidence_ids:
+    - ev-914371cc10dd47c4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费路径，买方是个人还是企业无法判断，属未知。
+    evidence_ids:
+    - ev-914371cc10dd47c4
+  - gate: truth
+    status: insufficient
+    reason: 智能体承诺的任务能否确定性交付、人工边界如何，公开材料未提供可核对结果。
+    evidence_ids:
+    - ev-914371cc10dd47c4
+  next_validation: 收集 Meta Muse 官方产品页或更新说明，确认其可执行的具体任务类型与交付结果。
+  market: ''
+  job: 普通用户在手机或平板上处理日常事务时，把任务交给 Meta Muse 这个智能体应用，希望它代为完成并返回结果；具体任务类型材料未说明。
+  job_en: An ordinary user handling daily errands on phone or tablet hands tasks to the Meta Muse agentic
+    app, expecting it to complete them and return results; the material does not specify which tasks.
+  pain: 材料只给出榜单排名与平台扩展，未说明用户原来卡在哪一步、不解决会失去什么，痛点无法从公开事实确认。
+  pain_en: The material only gives chart ranking and platform expansion; it does not say which step users
+    were stuck on or what they lose without it, so the pain cannot be confirmed from public facts.
+  current_alternative: 用户此前使用其他通用对话助手或手机自带助手完成同类任务，材料未给出具体对比。
+  current_alternative_en: Users previously used other general chat assistants or built-in phone assistants
+    for similar tasks; the material gives no specific comparison.
+  usage_reason: 推断：iPad 与 Mac 原生支持让用户在大屏上继续同一智能体，减少换设备的摩擦；但材料未提供用户反馈或留存证据，无法确认选择动机。
+  usage_reason_en: 'Inference: native iPad and Mac support lets users continue with the same agent on
+    a larger screen, reducing device-switching friction; however the material offers no user feedback
+    or retention evidence, so the reason for choosing it cannot be confirmed.'
+- id: req-full-muse-launches-on-the-ipad-2026-10-08
+  project_slug: muse-launches-on-the-ipad
+  level: full
+  reviewed_at: '2026-10-08T02:44:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要替用户完成日常任务，但材料未说明具体任务、旧做法与不解决的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-83b3421300b495d6
+    - ev-c6596cc0aa01a3ec
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Meta Muse 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 普通用户在手机或平板上处理日常事务时，把任务交给 Meta Muse 这个智能体应用，希望它代为完成并返回结果；公开材料未说明具体任务类型、输入材料与交付物。
+  job_en: An ordinary user handling daily errands on phone or tablet hands tasks to the Meta Muse agentic
+    app, expecting it to complete them and return results; public material does not specify task types,
+    input material, or deliverables.
+  pain: 公开材料只给出榜单排名与 iPad/Mac 平台扩展，未说明用户原来卡在哪一步、不解决会失去什么，痛点无法从公开事实确认。
+  pain_en: Public material only gives chart ranking and iPad/Mac platform expansion; it does not say which
+    step users were stuck on or what they lose without it, so the pain cannot be confirmed from public
+    facts.
+  current_alternative: 用户此前使用其他通用对话助手或手机自带助手完成同类任务，材料未给出具体对比。
+  current_alternative_en: Users previously used other general chat assistants or built-in phone assistants
+    for similar tasks; the material gives no specific comparison.
+  usage_reason: 推断：iPad 与 Mac 原生支持让用户在大屏上继续同一智能体，减少换设备的摩擦；但材料未提供用户反馈或留存证据，无法确认选择动机。
+  usage_reason_en: 'Inference: native iPad and Mac support lets users continue with the same agent on
+    a larger screen, reducing device-switching friction; however the material offers no user feedback
+    or retention evidence, so the reason for choosing it cannot be confirmed.'

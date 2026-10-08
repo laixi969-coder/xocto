@@ -23,7 +23,7 @@ summary: From Nvidia and Chime to Obvious Ventures and Anthropic, explore the en
   off.
 first_seen: '2026-10-07T14:15:00Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

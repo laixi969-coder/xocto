@@ -27,7 +27,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSng0ZWE1OGdr
 summary: AI agent firm Instinct raises $1 billion in latest funding round Reuters
 first_seen: '2026-09-28T13:42:05Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

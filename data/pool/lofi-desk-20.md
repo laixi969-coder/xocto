@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/lofi-desk-focus-relax-beats
 summary: A pixel-art focus companion and a room you decorate
 first_seen: '2026-10-06T21:50:59Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

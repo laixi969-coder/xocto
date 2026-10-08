@@ -131,3 +131,50 @@
     an agent-callable image action, so operators can generate images inside the same conversation, skipping
     the step of switching between image and layout tools and applying templates by hand; operators who
     regularly produce Xiaohongshu or video covers would try it.'
+- id: req-full-qiaomu-codex-imagegen-2026-10-08
+  project_slug: qiaomu-codex-imagegen
+  level: full
+  reviewed_at: '2026-10-08T02:44:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容运营按平台版式快速出图的需求，痛点是生图与排版工具来回切换、手工套版式，旧做法与不做的后果清晰，属工作流结构推理。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 95 增至 110，说明有开发者关注，但没有用户反馈或案例证明运营已把它放进日常出图流程。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+    - ev-ce88984befe9ee0e
+  - gate: model
+    status: insufficient
+    reason: 开源项目无公开定价，付费路径可能是定制版式配方或代出图服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成图是否真的符合平台版式与审核偏好，缺少可复现的成品对比与人工确认边界说明。
+    evidence_ids:
+    - ev-05a31d507ecab7cf
+  next_validation: 收集该仓库 README 示例输出与 issue/discussion，核对生成图是否满足小红书与视频封面的版式要求。
+  market: ''
+  job: 内容运营或社交媒体运营在准备小红书笔记配图或视频封面时，需要按平台尺寸与版式产出多张候选图，于是让手边的 Agent 通过 MCP、CLI 或 Skill 调用 Codex 内置生图，把出图动作放进同一条工作流。
+  job_en: A content or social-media operator preparing Xiaohongshu post images or video covers needs several
+    platform-sized candidates, so they let their agent call Codex's built-in image generation via MCP,
+    CLI or Skill, keeping image production inside the same workflow.
+  pain: 平台封面与笔记配图有固定尺寸、标题位和版式偏好，运营通常先在生图工具出图，再导入设计工具手工裁切、加字、套模板，多平台多张图时这一步反复发生。
+  pain_en: Platform covers and post images have fixed sizes, title zones and layout conventions; operators
+    generate in one tool, then re-import into a design tool to crop, add text and apply templates, repeating
+    this for every platform and every image.
+  current_alternative: 独立生图工具（如 Midjourney、即梦等）出图后导入 Canva、Figma 或 Photoshop 手工裁切加标题；或直接用平台自带模板套图。
+  current_alternative_en: Generating in standalone image tools (Midjourney, Jimeng, etc.) then importing
+    into Canva, Figma or Photoshop to crop and add titles by hand; or applying platform-native templates
+    directly.
+  usage_reason: 推断：相较先出图再进设计工具手工套版式，它把小红书、视频封面、Mondo 海报的版式技巧内置为 Agent 可直接调用的生图动作，运营在同一个对话里就能拿到接近成品的图，省去工具切换与手工套模板这一步；因此经常批量做小红书或视频封面的运营会尝试它。
+  usage_reason_en: 'Inference: instead of generating then hand-applying templates in a design tool, it
+    bakes Xiaohongshu, video-cover and Mondo poster recipes into an agent-callable image action, so operators
+    get near-final images inside one conversation, skipping tool switching and manual templating; operators
+    who batch-produce Xiaohongshu or video covers would try it.'

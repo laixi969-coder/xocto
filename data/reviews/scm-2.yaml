@@ -131,3 +131,45 @@
     files to check content into matching a visual description directly, removing the hunting step; however
     the candidate material does not describe indexing scope, accuracy or human review, so which users
     would keep choosing it remains unclear.'
+- id: req-full-scm-2-2026-10-08
+  project_slug: scm-2
+  level: full
+  reviewed_at: '2026-10-08T02:44:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选材料只有一句功能描述，且证据全部指向危机管理培训、供应链管理与木工机械三个同名实体，与本地影像检索无关，连用户任务、痛点与替代方式都无法还原。
+    evidence_ids:
+    - ev-a98eeb72ac774377
+    - ev-b049bed7303b8d8d
+    - ev-92c13e9c4a689ad9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官网或仓库 README 与 issue/discussion，确认其真实产品身份、支持的媒体格式、索引方式与用户实际使用反馈。
+  market: ''
+  job: 影视后期剪辑师或素材量大的个人用户，在剪辑或整理前面对本地文件夹里成百上千的照片与视频，需要按画面内容而非文件名定位某个镜头或某张照片。
+  job_en: A post-production editor or a user with a large personal library, facing hundreds or thousands
+    of local photos and videos before editing or organizing, needs to locate a specific shot or photo
+    by visual content rather than filename.
+  pain: 候选材料只有一句产品功能描述，没有任何用户抱怨、替代行为或案例，无法确认文件名与文件夹层级检索是否构成真实痛点。
+  pain_en: The candidate material contains only a one-line product description, with no user complaints,
+    workaround behavior or cases, so it cannot confirm whether filename and folder-hierarchy retrieval
+    is a real pain point.
+  current_alternative: 材料未提供任何现有替代方式的证据，无法说明用户目前靠什么完成同一检索任务。
+  current_alternative_en: The material provides no evidence of any current alternative, so it cannot describe
+    how users complete the same retrieval task today.
+  usage_reason: 材料未给出用户选择理由的任何依据，无法解释相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: The material gives no basis for why users would choose it, so it cannot explain which
+    step of burden is reduced or which checkable result improves versus the old approach.

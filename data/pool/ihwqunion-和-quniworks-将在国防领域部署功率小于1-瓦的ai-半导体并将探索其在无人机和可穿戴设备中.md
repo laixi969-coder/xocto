@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JX0dRT3lDR2I5
 summary: iHW、Qunion 和 Quniworks 将在国防领域部署功率小于1 瓦的AI 半导体……并将探索其在无人机和可穿戴设备中的应用。 벤처스퀘어
 first_seen: '2026-10-07T10:05:45Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

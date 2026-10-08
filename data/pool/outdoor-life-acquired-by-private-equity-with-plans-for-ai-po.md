@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQZmMtSW9uMXQ2
 summary: Outdoor Life Acquired by Private Equity with Plans for AI-Powered Product Sales GearJunkie
 first_seen: '2026-10-07T19:29:16Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

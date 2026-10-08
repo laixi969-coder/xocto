@@ -1,0 +1,88 @@
+- id: req-initial-metas-muse-launches-on-ipad-just-a-month-after-its-mobile-de-2026-10-08
+  project_slug: metas-muse-launches-on-ipad-just-a-month-after-its-mobile-de
+  level: initial
+  reviewed_at: '2026-10-08T01:56:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手机端跨应用问答与操作繁琐的问题，痛点真实且用户已有搜索与手动操作等旧行为；买方与付费方式公开材料未说明。
+    evidence_ids:
+    - ev-7af201e20972782f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有上线 iPad 版本的报道，没有用户评价或采用数据，无法判断是否形成持续使用。
+    evidence_ids:
+    - ev-7af201e20972782f
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价或商业模式，通用助手可能靠生态与广告变现，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7af201e20972782f
+  - gate: truth
+    status: insufficient
+    reason: 助手能处理哪些材料、动作边界与人工确认环节均未披露，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-7af201e20972782f
+  next_validation: 收集 Meta 官方关于 Muse 的功能说明与可用地区清单，确认其实际能执行的动作范围与交付结果。
+  market: ''
+  job: 普通消费者或移动办公用户在手机上需要快速问答、整理信息或跨应用操作时，向 Meta Muse 提出请求，由它给出回答或代为执行，再自行判断结果是否可用。
+  job_en: General consumers or mobile productivity users who need quick answers, information organization
+    or cross-app actions on their phone ask Meta Muse, which replies or performs the action, after which
+    they judge whether the result is usable.
+  pain: 在手机上切换多个应用完成问答与操作步骤繁琐，用户希望一句话得到结果；不解决的后果是零散任务被反复切换打断。
+  pain_en: Switching among multiple apps on a phone to answer questions and complete steps is cumbersome,
+    and users want a result from one request; the consequence of not solving it is that scattered tasks
+    keep getting interrupted by app switching.
+  current_alternative: 使用系统自带搜索、浏览器搜索，或逐个打开应用手动完成操作。
+  current_alternative_en: Using built-in system search, browser search, or opening apps one by one to
+    complete tasks manually.
+  usage_reason: 相较逐个打开应用，Muse 让用户用一句话触发回答或跨应用动作，省掉切换与重复输入这一步，因此习惯在手机上处理零散任务的用户会在 iPad 等新入口上尝试它；这是基于产品形态的推断，公开材料未提供留存或使用深度证据。
+  usage_reason_en: Compared with opening apps one by one, Muse lets users trigger an answer or cross-app
+    action with one request, removing the switching and repeated typing step, so users who handle scattered
+    tasks on phones would try it on new entry points such as iPad; this is an inference from product form,
+    as public material offers no retention or usage-depth evidence.
+- id: req-full-metas-muse-launches-on-ipad-just-a-month-after-its-mobile-de-2026-10-08
+  project_slug: metas-muse-launches-on-ipad-just-a-month-after-its-mobile-de
+  level: full
+  reviewed_at: '2026-10-08T02:44:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只确认 Muse 新增 iPad 版本，未说明它处理什么材料、交付什么结果、替代哪一步旧流程，连用户任务与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-1586e2a0433a69fc
+    - ev-376b05e8301510dd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Meta 官方 Muse 产品页或帮助文档，确认其可处理的输入材料、可执行动作范围与交付结果。
+  market: ''
+  job: 普通消费者或移动办公用户在手机或 iPad 上需要问答、整理信息或跨应用操作时，打开 Meta 的助手 Muse 提出请求，由它给出回答或代为执行动作，再自行判断结果是否可用。
+  job_en: General consumers or mobile productivity users who need answers, information organization or
+    cross-app actions on a phone or iPad open Meta's assistant Muse, which replies or performs the action,
+    after which they judge whether the result is usable.
+  pain: 公开材料只说明 Muse 已上线 iPad，未给出它具体处理哪些材料、交付什么结果、替代了哪一步旧流程，因此无法确认用户实际痛点与不解决的后果。
+  pain_en: Public material only states that Muse launched on iPad; it does not specify which materials
+    it handles, what it delivers, or which old step it replaces, so the actual user pain and the cost
+    of not solving it cannot be confirmed.
+  current_alternative: 公开材料未披露 Muse 的替代对象；同批证据仅显示 ChatGPT、Gemini、Perplexity 等通用助手存在，无法据此确认用户原本用什么方式完成同一任务。
+  current_alternative_en: Public material does not disclose what Muse replaces; the same evidence set
+    only shows that general assistants such as ChatGPT, Gemini and Perplexity exist, which is not enough
+    to confirm how users previously completed the same task.
+  usage_reason: 缺少 Muse 功能范围、输入材料与交付结果的公开说明，无法解释它相较旧做法减少哪一步负担，因此不能给出用户选择它的因果理由；这是事实缺口，不是推断。
+  usage_reason_en: With no public description of Muse's capability scope, input materials or delivered
+    results, there is no way to explain which step of the old workflow it removes, so no causal reason
+    for user choice can be given; this is a factual gap, not an inference.

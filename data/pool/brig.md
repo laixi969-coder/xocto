@@ -3,37 +3,34 @@ slug: brig
 name: Brig
 builder: spirosoik
 category: AI + 开发
-summary_zh: 开发者在本地让 AI 编码代理执行命令或改代码时，代理会直接接触本机文件与网络。Brig 在 Mac 与 Linux 上为这类代理提供 MicroVM 沙箱，把代理的运行限制在隔离环境内；具体隔离粒度、配置方式与交付形态仍待核验。
-inspiration: 趋势是编码代理从补全走向自主执行，执行边界因此成为新的采购点。切入可放在需要合规或多人共用机器的开发团队，把隔离运行做成可审计的默认环境；目前只有一条社区讨论，尚无定价与采用证据。
-summary_en: When developers let AI coding agents run commands or edit code locally, the agent touches
-  the machine's files and network directly. Brig provides a MicroVM sandbox for such agents on Mac and
-  Linux, confining their execution to an isolated environment; the isolation granularity, configuration
-  and delivery format still need verification.
-inspiration_en: The trend is that coding agents move from completion to autonomous execution, which makes
-  the execution boundary a new buying point. An entry point is development teams that need compliance
-  or share machines, selling an auditable default sandbox for agent runs; today there is only one community
-  discussion, with no pricing or adoption evidence.
+summary_zh: 开发者在本地 Mac 或 Linux 上运行 AI 编码代理时打开它，把代理要执行的命令放进 MicroVM 沙箱里跑，而不是直接落在自己的开发机上；用户拿到的是被隔离的执行环境，具体交付形态与人工确认环节仍待核验。
+inspiration: 趋势是编码代理开始被当作需要隔离的不可信执行者，而不是编辑器插件。切入可以从需要合规留痕的团队入手：把沙箱日志、命令白名单和回滚做成可审计的交付物，卖给金融、医疗等不能容忍代理直接改生产代码的工程团队。
+summary_en: Developers running AI coding agents locally on Mac or Linux open it to execute the agent's
+  commands inside a MicroVM sandbox instead of directly on their own machine; the deliverable is an isolated
+  execution environment, while the exact delivery form and human confirmation step still need verification.
+inspiration_en: 'The trend is that coding agents are being treated as untrusted executors that need isolation,
+  not as editor plugins. A wedge is teams needing compliance trails: package sandbox logs, command allowlists
+  and rollback as an auditable deliverable for engineering teams in finance or healthcare that cannot
+  let agents touch production code.'
 priority_review: false
-project_type: new_application
+project_type: open_source
 industries:
 - 软件开发
 industries_en:
 - Software development
 jobs:
-- 编码代理运行隔离
-- 本地开发环境安全管控
+- 开发工程师
 jobs_en:
-- Isolating coding-agent execution
-- Securing local development environments
+- Software engineers
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://news.ycombinator.com/item?id=49802729
 canonical_url: https://news.ycombinator.com/item?id=49802729
 summary: A MicroVM sandbox for AI coding agents on Mac and Linux
 first_seen: '2026-09-22T15:16:18Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch

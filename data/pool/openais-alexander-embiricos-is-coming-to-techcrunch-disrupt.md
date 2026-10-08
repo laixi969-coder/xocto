@@ -23,7 +23,7 @@ summary: OpenAI’s Alexander Embiricos is coming to the AI Stage at TechCrunch 
   up to $100 and get a second at 50% off.
 first_seen: '2026-10-07T14:30:00Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

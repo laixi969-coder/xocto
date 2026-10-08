@@ -1,0 +1,87 @@
+- id: req-initial-knuff-app-2026-10-08
+  project_slug: knuff-app
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是家人之间确认平安的需求，但公开材料只有一句产品描述，说不清不采用会失去什么，也看不出痛点是刚性还是可有可无。
+    evidence_ids:
+    - ev-97d1b1fa51b31aaa
+  - gate: consensus
+    status: insufficient
+    reason: 没有公开关注、采用或口碑证据，无法判断家人之间是否已经形成“需要这样一个签到”的共识。
+    evidence_ids:
+    - ev-97d1b1fa51b31aaa
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费路径或买方信息；按家庭订阅是推断，不是已验证事实。
+    evidence_ids:
+    - ev-97d1b1fa51b31aaa
+  - gate: truth
+    status: insufficient
+    reason: 无法核对签到失败后的处理链路与人工边界，交付是否确定发生仍不清楚。
+    evidence_ids:
+    - ev-97d1b1fa51b31aaa
+  next_validation: 收集 Knuff App 官方定价页或产品说明，确认签到失败后的通知升级机制与收费方式。
+  market: ''
+  job: 成年子女在异地工作时，需要确认独居父母当天是否平安，处理的是每天一次的安全确认，要完成的是知道对方没事并让父母知道自己在被关注。
+  job_en: An adult child working in another city needs to confirm that a parent living alone is okay that
+    day, handling a once-a-day safety confirmation, to know the parent is fine and let the parent feel
+    watched over.
+  pain: 公开材料只给出“家人签到”这一句，没有说明不签到会怎样、谁来跟进、痛苦强度如何，因此无法确认这是刚性需求还是可有可无的问候。
+  pain_en: The public material gives only the phrase "family check-in" and does not say what happens when
+    a check-in is missed, who follows up, or how strong the pain is, so it cannot be confirmed as a rigid
+    need rather than an optional greeting.
+  current_alternative: 现有替代是打电话、发微信、家庭群报平安，或使用带跌倒检测的穿戴设备与紧急呼叫服务。
+  current_alternative_en: The current alternatives are phone calls, WeChat messages, a family group chat
+    saying "I'm fine", or wearable fall-detection devices and emergency-call services.
+  usage_reason: 推断：如果签到失败能自动升级通知到指定家人，它比每天打电话少一步主动发起，也比穿戴设备少一步充电和佩戴；但公开材料没有说明升级机制，因此尚不能确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if a missed check-in automatically escalates to a designated family member,
+    it removes the step of initiating a daily call and the step of charging and wearing a device; but
+    the public material does not describe escalation, so it cannot yet be confirmed which users would
+    choose it for that reason.'
+- id: req-full-knuff-app-2026-10-08
+  project_slug: knuff-app
+  level: full
+  reviewed_at: '2026-10-08T02:43:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决异地子女确认独居父母平安的需求，但公开材料只有一句产品描述，说不清漏签后果、跟进方与痛苦强度，无法判断是刚性安全需求还是可有可无的问候。
+    evidence_ids:
+    - ev-97d1b1fa51b31aaa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Knuff App 官方产品页或定价页，确认漏签后的通知升级机制、收费方式与目标用户描述。
+  market: ''
+  job: 成年子女在异地工作、无法每天上门时，需要确认独居父母当天是否平安，处理的是每天一次的安全确认，要完成的是知道对方没事、并让父母感到被关注。
+  job_en: An adult child working away from home needs to confirm that a parent living alone is safe that
+    day, handling a once-a-day safety confirmation, to know the parent is fine and to let the parent feel
+    cared for.
+  pain: 公开材料只有一句“家人签到”描述，没有说明漏签后会发生什么、由谁跟进、痛苦强度如何，因此无法确认这是刚性安全需求还是可有可无的问候。
+  pain_en: The public material offers only the phrase "family check-in" and does not say what happens
+    after a missed check-in, who follows up, or how strong the pain is, so it cannot be confirmed as a
+    rigid safety need rather than an optional greeting.
+  current_alternative: 现有替代是打电话、发微信、家庭群报平安，或使用带跌倒检测的穿戴设备与紧急呼叫服务。
+  current_alternative_en: Current alternatives are phone calls, WeChat messages, a family group chat saying
+    "I'm fine", or wearable fall-detection devices and emergency-call services.
+  usage_reason: 推断：若漏签能自动升级通知到指定家人，它比每天打电话少一步主动发起，也比穿戴设备少一步充电佩戴；但公开材料未披露升级机制，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if a missed check-in automatically escalates to a designated family member,
+    it removes the step of initiating a daily call and the step of charging and wearing a device; but
+    the public material does not disclose escalation, so it cannot be confirmed which users would choose
+    it for that reason.'

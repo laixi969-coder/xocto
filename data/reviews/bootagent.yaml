@@ -621,3 +621,41 @@
   usage_reason_en: Its public repository has 88 stars and 5 forks, showing developer attention; but without
     user feedback or cases, repeat use and payment remain unverified, so why users choose it cannot be
     explained.
+- id: req-full-bootagent-2026-10-08
+  project_slug: bootagent
+  level: full
+  reviewed_at: '2026-10-08T02:41:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决新机配置多个 AI 助手需逐个改设置的需求，但公开证据为空，没有用户任务、痛点或替代行为材料，需求与痛点均无法写出。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 BootAgent 公开代码仓库的 README、issue 与 release 记录，确认其实际配置流程、支持的工具范围与是否有用户反馈。
+  market: ''
+  job: 开发者在新电脑到手时，把常用的 AI 助手一次配好，避免逐个手工编辑各工具专属的配置文件。
+  job_en: A developer on a fresh machine sets up their usual AI assistants in one pass, avoiding hand-editing
+    each tool-specific config file.
+  pain: 候选材料未提供任何用户抱怨、配置耗时记录或替代行为，无法确认手工编辑多份配置文件的痛点是否真实及其强度。
+  pain_en: The candidate material provides no user complaints, setup-time records or workarounds, so the
+    pain of hand-editing multiple config files cannot be confirmed or sized.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明 BootAgent 实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users complete this job today or what BootAgent
+    actually replaces.
+  usage_reason: 推断：若它把多份工具配置收敛为一次可重复的初始化动作，可能减少逐文件编辑的步骤，但材料未给出与手工配置的具体差异，哪类用户会因此选择它无法判断。
+  usage_reason_en: 'Inference: if it collapses multiple tool configs into one repeatable bootstrap action
+    it may cut per-file editing, but no concrete difference from manual setup is given, so which users
+    would choose it cannot be judged.'

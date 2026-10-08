@@ -1,0 +1,88 @@
+- id: req-initial-reika-2026-10-08
+  project_slug: reika
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决本地编码代理的接入与成本问题，痛点方向成立，但公开材料只有一句定位，无法确认具体替代了哪一步旧流程。
+    evidence_ids:
+    - ev-b118c47d1827bd9f
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品定位外无任何采用、评价或社区讨论证据，无法判断开发者是否真的需要它。
+    evidence_ids:
+    - ev-b118c47d1827bd9f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、开源许可或付费路径，买方与收费方式均不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b118c47d1827bd9f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能在本地小模型上稳定完成编码任务，也未见人工确认与安全边界说明。
+    evidence_ids:
+    - ev-b118c47d1827bd9f
+  next_validation: 收集 Reika 的官方仓库或文档，确认其支持的本地模型、安装方式与是否开源。
+  market: ''
+  job: 开发者在本地机器上处理代码库时，把编写或修改代码的任务交给命令行里的编码代理执行。
+  job_en: Developers working on a local codebase hand coding or editing tasks to a coding agent inside
+    the command line.
+  pain: 云端编码代理按 token 计费且需要把代码上传，成本与代码外泄顾虑同时存在；本地小模型能力有限，配置与调优本身也费时。
+  pain_en: Cloud coding agents charge per token and require uploading code, creating both cost and code-leakage
+    concerns, while local small models are limited and configuring them takes time.
+  current_alternative: 开发者目前多使用云端编码代理、IDE 内置补全，或自行拼装本地模型与脚本。
+  current_alternative_en: Developers currently use cloud coding agents, IDE built-in completion, or self-assembled
+    local models and scripts.
+  usage_reason: 推断：若它把本地小模型的接入、上下文裁剪与命令执行封装成一条命令，开发者就不必自己搭推理环境和写胶水脚本，对代码不能外传的团队更有吸引力；但公开材料未说明它具体省掉哪一步，也未提供使用或留存证据。
+  usage_reason_en: 'Inference: if it wraps local small-model setup, context trimming and command execution
+    into one command, developers no longer need to build the inference environment and glue scripts themselves,
+    which appeals to teams that cannot send code out; however, public material does not state which step
+    it removes and offers no usage or retention evidence.'
+- id: req-full-reika-2026-10-08
+  project_slug: reika
+  level: full
+  reviewed_at: '2026-10-08T02:44:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在私有代码库上使用编码代理的需求：云端代理按 token 计费且需上传代码，成本与泄露顾虑并存，本地小模型又难配置。公开定位已能还原输入、动作与交付，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-b118c47d1827bd9f
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品定位外，无采用、评价或社区讨论证据，无法判断开发者是否真的把它纳入日常编码流程，关注度不等于持续采用。
+    evidence_ids:
+    - ev-b118c47d1827bd9f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、开源许可或付费路径，买方与收费方式均不明；按能力推断可能面向个人开发者或对代码外传敏感的团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b118c47d1827bd9f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能在本地小模型上稳定完成编码任务，也未见人工确认与安全边界说明，交付确定性尚未公开。
+    evidence_ids:
+    - ev-b118c47d1827bd9f
+  next_validation: 收集 Reika 的官方仓库或文档，确认其支持的本地模型、安装方式与是否开源。
+  market: ''
+  job: 开发者在本地机器上处理私有代码库时，打开命令行工具，把编写或修改代码的任务交给本地小模型执行，并拿到可用的代码改动。
+  job_en: Developers working on a private local codebase open a command-line tool, hand coding or editing
+    tasks to a local small model, and get usable code changes back.
+  pain: 云端编码代理按 token 计费且要求把代码上传，成本与代码外泄顾虑同时存在；本地小模型能力有限，自行搭建推理环境、裁剪上下文和写胶水脚本本身也费时。
+  pain_en: Cloud coding agents charge per token and require uploading code, creating both cost and code-leakage
+    concerns; local small models are limited, and building the inference environment, trimming context
+    and writing glue scripts takes time.
+  current_alternative: 开发者目前多使用云端编码代理、IDE 内置补全，或自行拼装本地模型与脚本。
+  current_alternative_en: Developers currently use cloud coding agents, IDE built-in completion, or self-assembled
+    local models and scripts.
+  usage_reason: 推断：相较自行拼装本地模型与脚本，若它把本地小模型的接入、上下文裁剪与命令执行封装成一条命令，开发者就不必自己搭推理环境和写胶水脚本，代码不能外传的团队会在处理私有仓库时选择它；公开材料未说明具体省掉哪一步，也无使用或留存证据。
+  usage_reason_en: 'Inference: compared with self-assembled local models and scripts, if it wraps local
+    small-model setup, context trimming and command execution into one command, developers no longer need
+    to build the inference environment and glue scripts, so teams that cannot send code out would pick
+    it when working on private repositories; public material does not state which step it removes and
+    offers no usage or retention evidence.'

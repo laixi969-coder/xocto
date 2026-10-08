@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/how-to-raise-your-series-a
 summary: ''
 first_seen: '2026-10-07T10:45:00Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/the-top-10-investors-backing-europes-f
 summary: ''
 first_seen: '2026-10-07T05:00:46Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,89 @@
+- id: req-initial-faceswap-headswap-2026-10-08
+  project_slug: faceswap-headswap
+  level: initial
+  reviewed_at: '2026-10-08T01:56:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决换脸出图这一任务，但材料未写出具体痛点、频率与不采用的后果，无法确认需求刚性。
+    evidence_ids:
+    - ev-f2b264a7d969118a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 3 个点赞，无用户评价或采用记录，无法判断是否卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-f2b264a7d969118a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱来自个人修图师、工作室还是平台，属未知而非失败。
+    evidence_ids:
+    - ev-f2b264a7d969118a
+  - gate: truth
+    status: insufficient
+    reason: 未说明输出是否需人工确认、是否涉及肖像授权与安全边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-f2b264a7d969118a
+  next_validation: 收集该空间的使用说明或讨论区内容，确认输入输出格式、是否需人工确认及是否有实际使用反馈。
+  market: ''
+  job: 电商或广告修图师在拿到模特照片后，需要把指定人脸替换到保留原姿势、光线和服装的成片上，用于出图或提案。
+  job_en: An e-commerce or ad retoucher receives model photos and needs to swap a specified face onto
+    an image while keeping the original pose, lighting and outfit, for delivery or a pitch.
+  pain: 候选材料只给出一句功能描述，没有说明谁在什么情况下遇到什么困难、不换脸会损失什么，也没有用户抱怨或旧做法记录。
+  pain_en: The candidate gives only a one-line feature description; it does not say who struggles in what
+    situation, what is lost without swapping, and there are no user complaints or records of the old practice.
+  current_alternative: 公开材料未提供任何关于现有替代方式的信息，无法确认此前是人工修图、其他换脸工具还是干脆不做。
+  current_alternative_en: The public material provides no information on existing alternatives, so it
+    is impossible to confirm whether this was previously done by manual retouching, other swap tools,
+    or not at all.
+  usage_reason: 无法判断：材料未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，仅凭保留姿势光线服装这一功能描述不足以解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step is reduced versus the old practice
+    or which checkable result improves; the feature description alone does not explain why a user would
+    choose it.'
+- id: req-full-faceswap-headswap-2026-10-08
+  project_slug: faceswap-headswap
+  level: full
+  reviewed_at: '2026-10-08T02:42:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把指定人脸换到保留姿势光线服装的成片上这一任务，但公开材料只有功能描述，没有用户抱怨、频率或不换脸的损失；同类免费工具已提供相同动作，属于没有也行，价值关不成立。
+    evidence_ids:
+    - ev-f80d113c7af5960a
+    - ev-cd394c511e2e0a1a
+    - ev-537a8c0ad71f3af0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Akool、EasyFaceSwap、aifaceswap.io 等同类工具的官方定价页与客户案例页，确认是否存在付费档、企业授权或修图工作流集成，以判断该任务是否有可核验的付费与持续使用证据。
+  market: ''
+  job: 电商或广告修图师拿到模特照片后，需要把指定人脸替换到保留原姿势、光线和服装的成片上，用于出图或提案；普通用户也会上传两张照片做娱乐性换脸。
+  job_en: An e-commerce or ad retoucher receives model photos and needs to swap a specified face onto
+    an image while keeping the original pose, lighting and outfit for delivery or a pitch; casual users
+    also upload two photos for entertainment swaps.
+  pain: 公开材料只给出功能描述，没有用户抱怨、旧流程记录或不换脸的损失；从工作流看，修图师若不用换脸工具，需在 Photoshop 里手工合成头部并逐层匹配光线与肤色，耗时且难对齐，但这一痛点强度未被任何公开证据确认。
+  pain_en: Public material only describes the feature; there are no user complaints, old-workflow records,
+    or stated loss from not swapping. Structurally, a retoucher without a swap tool must composite the
+    head manually in Photoshop and match lighting and skin tone layer by layer, which is slow and hard
+    to align, but no public evidence confirms the intensity of this pain.
+  current_alternative: 公开材料显示已有多个免费在线换脸工具（Akool、EasyFaceSwap、aifaceswap.io）提供上传两张图即出结果、免登录、无水印的服务，说明旧做法已被同类免费工具覆盖。
+  current_alternative_en: Public material shows multiple free online swap tools (Akool, EasyFaceSwap,
+    aifaceswap.io) already offer upload-two-images results with no login and no watermark, meaning the
+    old practice is already covered by similar free tools.
+  usage_reason: 推断：相较手工在 Photoshop 中合成头部，它通过自动对齐人脸并保留原姿势、光线和服装减少逐层匹配这一步；但同类免费工具已提供相同动作，且无用户反馈或案例说明为何选它而非这些免费替代，因此选择动机不成立。
+  usage_reason_en: 'Inference: versus manual head compositing in Photoshop, it reduces the layer-by-layer
+    matching step by auto-aligning the face while keeping pose, lighting and outfit; but similar free
+    tools already perform the same action, and no user feedback or case explains why anyone would pick
+    it over those free alternatives, so the choice motive does not hold.'

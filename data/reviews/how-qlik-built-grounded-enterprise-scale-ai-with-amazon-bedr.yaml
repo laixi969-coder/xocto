@@ -1,0 +1,88 @@
+- id: req-initial-how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedr-2026-10-08
+  project_slug: how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedr
+  level: initial
+  reviewed_at: '2026-10-08T01:56:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业数据分散、口径不一、答案不可追溯的问题，旧做法是分析师手工检索与排队取数，痛点具体。
+    evidence_ids:
+    - ev-6a66acaac4e46d79
+  - gate: consensus
+    status: insufficient
+    reason: 材料称覆盖 40000 多家客户，但未说明其中多少实际使用 Qlik Answers，也未见用户评价或采用数据。
+    evidence_ids:
+    - ev-6a66acaac4e46d79
+  - gate: model
+    status: insufficient
+    reason: 未披露 Qlik Answers 的单独定价与计价方式，买方是数据团队还是业务部门无法确认，属判断。
+    evidence_ids:
+    - ev-6a66acaac4e46d79
+  - gate: truth
+    status: insufficient
+    reason: 未说明引用能否回溯到原始记录、错误答案如何拦截，交付确定性缺少可核对材料。
+    evidence_ids:
+    - ev-6a66acaac4e46d79
+  next_validation: 收集 Qlik 官方关于 Qlik Answers 的定价页或产品文档，核对引用溯源机制与独立客户案例。
+  market: ''
+  job: 企业内业务分析师与数据团队在回答经营问题时，需要从报表、文档和数据库中检索并核对数据来源。
+  job_en: Business analysts and data teams retrieving and verifying data sources from reports, documents
+    and databases when answering operational questions.
+  pain: 数据分散在报表、文档和数据库，口径不一致，分析师要花大量时间找数并确认来源，答案缺乏可追溯性会影响决策信任。
+  pain_en: Data is scattered across reports, documents and databases with inconsistent definitions; analysts
+    spend much time finding and verifying sources, and untraceable answers undermine trust in decisions.
+  current_alternative: 分析师手工在 BI 报表、数据仓库查询和文档中检索，或向数据团队提需求排队取数。
+  current_alternative_en: Analysts manually searching BI reports, warehouse queries and documents, or
+    filing requests and queuing for the data team.
+  usage_reason: 相较手工翻报表与文档，它把检索与来源标注合并成一次带引用的回答，减少分析师核对口径这一步，因此已有数据仓库但口径混乱的企业分析团队可能采用；这是基于产品能力的推断，尚无公开的持续使用或付费证据。
+  usage_reason_en: Compared with manually searching reports and documents, it merges retrieval and source
+    labeling into one cited answer, cutting the step of verifying definitions, so analytics teams with
+    a warehouse but messy definitions may adopt it. This is inference from capability, with no public
+    retention or payment evidence.
+- id: req-full-how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedr-2026-10-08
+  project_slug: how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedr
+  level: full
+  reviewed_at: '2026-10-08T02:43:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业数据分散、口径不一、答案不可追溯的问题，旧做法是分析师手工检索或排队取数，痛点具体且不解决会拖慢决策；属工作流结构推理。
+    evidence_ids:
+    - ev-0f6c1809650b52ac
+    - ev-a78bdd5919cd4a3a
+  - gate: consensus
+    status: insufficient
+    reason: 材料称覆盖 40000 多家客户，但未说明其中多少实际使用 Qlik Answers，也未见用户评价或采用数据。
+    evidence_ids:
+    - ev-31b29ba917da55de
+    - ev-2ba8731611010090
+  - gate: model
+    status: insufficient
+    reason: 未披露 Qlik Answers 的单独定价与计价方式，买方是数据团队还是业务部门无法确认，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0f6c1809650b52ac
+  - gate: truth
+    status: insufficient
+    reason: 未说明引用能否回溯到原始记录、错误答案如何拦截，交付确定性缺少可核对材料。
+    evidence_ids:
+    - ev-a78bdd5919cd4a3a
+  next_validation: 收集 Qlik 官方关于 Qlik Answers 的定价页或产品文档，核对引用溯源机制与独立客户案例。
+  market: ''
+  job: 企业内业务分析师与数据团队在回答经营问题时，需要从报表、文档和数据库中检索并核对数据来源，给出可被管理层复核的带来源答案。
+  job_en: Business analysts and data teams answering operational questions must retrieve and verify data
+    sources across reports, documents and databases, producing cited answers management can review.
+  pain: 数据分散在报表、文档和数据库，口径不一致，分析师要花大量时间找数并确认来源；答案缺乏可追溯性会削弱决策信任。
+  pain_en: Data is scattered across reports, documents and databases with inconsistent definitions; analysts
+    spend much time locating and verifying sources, and untraceable answers weaken decision trust.
+  current_alternative: 分析师手工在 BI 报表、数据仓库查询和文档中检索，或向数据团队提需求排队取数。
+  current_alternative_en: Analysts manually search BI reports, warehouse queries and documents, or file
+    requests and queue for the data team.
+  usage_reason: 相较手工翻报表与文档，Qlik Answers 把检索与来源标注合并成一次带引用的回答，减少分析师逐处核对口径这一步，因此已有数据仓库但口径混乱的企业分析团队可能采用；这是基于产品能力的推断，尚无公开的持续使用或付费证据。
+  usage_reason_en: Compared with manually searching reports and documents, Qlik Answers merges retrieval
+    and source labeling into one cited answer, cutting the step of verifying definitions one by one, so
+    analytics teams with a warehouse but messy definitions may adopt it. This is inference from capability,
+    with no public retention or payment evidence.

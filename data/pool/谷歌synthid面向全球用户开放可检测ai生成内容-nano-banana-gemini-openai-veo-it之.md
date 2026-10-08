@@ -1,11 +1,13 @@
 ---
 slug: 谷歌synthid面向全球用户开放可检测ai生成内容-nano-banana-gemini-openai-veo-it之
-name: 谷歌SynthID面向全球用户开放，可检测AI生成内容|Nano Banana|Gemini|OpenAI|Veo|IT之家_手机新浪网
+name: Google SynthID
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: SynthID 是谷歌的 AI 生成内容水印与检测能力，本次变化是面向全球用户开放。它属于平台级能力开放，不是独立产品，因此只作市场背景。
 inspiration: ''
-summary_en: ''
+summary_en: SynthID is Google's watermarking and detection capability for AI-generated content; this change
+  opens it to global users. It is a platform-level capability opening, not a standalone product, so it
+  is treated as market context only.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOb3F5bDFZUUk3
 summary: 谷歌SynthID面向全球用户开放，可检测AI生成内容|Nano Banana|Gemini|OpenAI|Veo|IT之家_手机新浪网 新浪财经
 first_seen: '2026-10-07T15:40:17Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# 谷歌SynthID面向全球用户开放，可检测AI生成内容|Nano Banana|Gemini|OpenAI|Veo|IT之家_手机新浪网
+# Google SynthID
 
 谷歌SynthID面向全球用户开放，可检测AI生成内容|Nano Banana|Gemini|OpenAI|Veo|IT之家_手机新浪网 新浪财经
 

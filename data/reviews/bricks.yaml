@@ -173,3 +173,46 @@
   usage_reason_en: 'Inference: if it truly feeds project implementation contracts in upfront, it might
     remove the step of aligning each piece to conventions; but the public material offers no user feedback
     or adoption evidence, so it cannot be stated which users would choose it under what circumstances.'
+- id: req-full-bricks-2026-10-08
+  project_slug: bricks
+  level: full
+  reviewed_at: '2026-10-08T02:42:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 AI 生成组件不符合项目约定的问题，但公开证据只有一句产品自述，既无用户抱怨也无旧流程事实，连用户要完成的任务与不解决的后果都无法从公开材料还原，痛点刚性无从判断。
+    evidence_ids:
+    - ev-5a416b8555727b6e
+    - ev-113ee7c01f008cff
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README、issue 与 discussion，确认是否有外部团队在真实代码库中接入契约并反馈生成结果是否符合项目约定。
+  market: ''
+  job: 前端工程师在已有代码库中让 AI 生成界面组件时，需要把项目自身的实现约定与既有组件风格作为输入，产出能直接并入项目的组件代码。
+  job_en: A frontend engineer letting AI generate interface components inside an existing codebase needs
+    to feed the project's own implementation contracts and existing component style as input to produce
+    component code that can be merged directly.
+  pain: 公开材料只有一句产品自述，没有任何用户抱怨、issue 或案例说明 AI 生成组件与项目约定之间的落差究竟造成多大返工，痛点强度无法从公开事实还原。
+  pain_en: Public material contains only a one-line product description; no user complaints, issues, or
+    cases show how much rework the gap between AI-generated components and project conventions actually
+    causes, so pain intensity cannot be reconstructed from public facts.
+  current_alternative: 公开材料未记录工程师当前用什么方式绕过该问题，通用代码助手、设计系统文档或既有组件改写都只是推测，没有可引用的旧流程事实。
+  current_alternative_en: Public material does not record how engineers currently work around this problem;
+    general code assistants, design-system docs, or copying existing components are only speculation without
+    citable prior-workflow facts.
+  usage_reason: 推断：若契约真能前置约束生成结果，工程师可省去逐处对齐规范这一步；但缺少任何用户反馈或采用证据，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if contracts truly constrain generation upfront, engineers could skip aligning
+    each piece to conventions; but with no user feedback or adoption evidence, it is impossible to say
+    which users would choose it and when.'

@@ -1,0 +1,86 @@
+- id: req-initial-unprompt-2026-10-08
+  project_slug: unprompt
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 AI 支出与资源消耗的可见性问题，但公开材料只有一句换算描述，说不清谁在什么节点必须用它、不用的后果是什么。
+    evidence_ids:
+    - ev-334eeb766696a96f
+  - gate: consensus
+    status: insufficient
+    reason: 除发布本身外，没有采用、评价或重复使用的公开证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-334eeb766696a96f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱来自个人、团队还是其他方；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-334eeb766696a96f
+  - gate: truth
+    status: insufficient
+    reason: 数据来源、接入方式与换算口径均未公开，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-334eeb766696a96f
+  next_validation: 收集 Unprompt 官方产品页或文档，确认它接入哪些 AI 服务、数据来源与换算口径，以及是否公布定价。
+  market: ''
+  job: 使用多个 AI 服务的个人或团队，在需要说明 AI 调用花了多少钱、消耗多少资源时，处理自己的调用记录，要得到一份金额与耗水的换算结果。
+  job_en: Individuals or teams using multiple AI services who, when they need to explain how much their
+    AI calls cost and what resources they consumed, process their own call records to obtain a conversion
+    into money and water.
+  pain: 公开材料只给出“把 AI 使用换算成美元与耗水”这一句，未说明谁在什么情况下必须做这件事、不做会有什么后果。
+  pain_en: The public material only states 'your AI usage in dollars and liters of water' and does not
+    say who must do this, in what situation, or what happens if they do not.
+  current_alternative: 旧做法可能是直接看各家服务商的账单页，或自己用表格估算用量与费用。
+  current_alternative_en: The prior approach may be checking each provider's billing page directly, or
+    estimating usage and cost in a spreadsheet.
+  usage_reason: 推断：若它能把分散在各家服务商的用量自动汇总成一份金额与耗水换算，用户就不必逐家查账单再手工折算，因此关心 AI 支出与资源消耗的团队可能试用。但公开材料未说明接入方式与数据来源，这一因果仍缺一环。
+  usage_reason_en: 'Inference: if it can automatically aggregate usage scattered across providers into
+    one money-and-water conversion, users would not have to check each bill and convert by hand, so teams
+    concerned about AI spend and resource use might try it. However, the public material does not describe
+    the integration or data source, so this causal chain is still missing a link.'
+- id: req-full-unprompt-2026-10-08
+  project_slug: unprompt
+  level: full
+  reviewed_at: '2026-10-08T02:45:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 AI 支出与资源消耗的可见性问题，但公开材料只有一句换算描述，说不清谁在什么节点必须用它、不用的后果是什么，连需求与痛点都难以还原。
+    evidence_ids:
+    - ev-334eeb766696a96f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Unprompt 官方产品页或文档，确认它接入哪些 AI 服务、数据来源与换算口径，以及是否公布定价。
+  market: ''
+  job: 使用多个 AI 服务的个人或团队，在需要说明自己 AI 调用花了多少钱、消耗多少水时，处理自己的调用记录，要得到一份金额与耗水的换算结果。
+  job_en: Individuals or teams using multiple AI services who, when they need to explain how much their
+    AI calls cost and how much water they consumed, process their own call records to obtain a conversion
+    into money and water.
+  pain: 公开材料只有一句“把 AI 使用换算成美元与耗水”，未说明谁在什么情况下必须做这件事、不做会有什么后果，也看不出这是刚性痛点还是展示性数字。
+  pain_en: The public material is a single line, 'your AI usage in dollars and liters of water,' and does
+    not say who must do this, in what situation, or what happens if they do not; it is unclear whether
+    this is a rigid pain or a display metric.
+  current_alternative: 旧做法可能是直接看各家服务商的账单页，或自己用表格估算用量与费用。
+  current_alternative_en: The prior approach may be checking each provider's billing page directly, or
+    estimating usage and cost in a spreadsheet.
+  usage_reason: 推断：若它能把分散在各家服务商的用量自动汇总成一份金额与耗水换算，用户就不必逐家查账单再手工折算，因此关心 AI 支出与资源消耗的团队可能试用；但公开材料未说明接入方式与数据来源，这一因果仍缺一环。
+  usage_reason_en: 'Inference: if it can automatically aggregate usage scattered across providers into
+    one money-and-water conversion, users would not have to check each bill and convert by hand, so teams
+    concerned about AI spend and resource use might try it; however, the public material does not describe
+    the integration or data source, so this causal chain is still missing a link.'

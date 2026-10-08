@@ -618,3 +618,48 @@
   usage_reason_en: Public materials contain only a positioning statement, with no user feedback or customer
     cases explaining the choice; there is no basis to explain which step of burden it removes versus the
     old approach, so no usage reason can be given.
+- id: req-full-cindy-2026-10-08
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-10-08T02:42:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 cindy 官方仓库的 README、release 与 issue/discussion，确认是否披露部署方式、支持模型清单与真实使用反馈。
+  market: ''
+  job: 开发者在同一工作区里处理跨厂商编码助手任务：把不同家的写代码助手接入同一会话，中途切换模型，同时保留上下文记忆与未完成任务，继续完成代码编写与修改。
+  job_en: 'Developers run cross-vendor coding-assistant tasks in one workspace: wiring assistants from
+    different vendors into a single session, switching models mid-task while keeping context memory and
+    unfinished work, and continuing to write and modify code.'
+  pain: 公开材料只给出产品定位（开源、开箱即用的 AI Agent、多助手同工作区、可中途换模型），未提供用户抱怨、频率或不采用代价；痛点强度属于工作流结构推理：多模型切换通常意味着复制上下文、重建会话、丢失任务状态。
+  pain_en: 'Public materials only give the product positioning (open-source, out-of-the-box AI agent,
+    multiple assistants in one workspace, mid-task model switching); no user complaints, frequency, or
+    cost of not adopting are provided. Pain intensity is a workflow-structure inference: switching models
+    typically means copying context, rebuilding sessions, and losing task state.'
+  current_alternative: 公开材料未说明现有替代方式；结构推理上，开发者目前多以单厂商助手配合手工复制上下文、分别开多个会话或自建脚本串联来完成同类任务。
+  current_alternative_en: Public materials do not state the current alternative; by structural inference,
+    developers today mostly use a single-vendor assistant with manual context copying, separate sessions,
+    or self-built scripts to chain tools for the same job.
+  usage_reason: 推断：相较手工复制上下文、多会话并行的旧做法，它把多家助手收进同一工作区并支持中途换模型而保留记忆与任务，省去重建会话与搬运上下文这一步，因此需要跨模型比较或按任务切换模型的开发者会在长任务中选用它；公开仓库
+    1,995 收藏、253 复刻只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manually copying context and juggling multiple sessions, it puts
+    multiple assistants in one workspace and allows mid-task model switching while retaining memory and
+    tasks, removing the step of rebuilding sessions and moving context; developers who compare models
+    or switch per task would choose it for long tasks. The public repo''s 1,995 stars and 253 forks show
+    attention only, not sustained use.'

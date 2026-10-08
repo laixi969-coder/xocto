@@ -23,7 +23,7 @@ summary: As AI IPOs bring greater scrutiny, argues guest author Maor Farid, foun
   efficiency over rapid revenue growth alone.
 first_seen: '2026-10-07T11:00:58Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

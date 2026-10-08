@@ -452,3 +452,51 @@
     plain, AI-tone-free draft in one invocation and removing the prompt-tuning and line-editing step,
     so Chinese technical writers drafting or polishing Chinese docs would pick it; no user feedback or
     case yet confirms this motive.'
+- id: req-full-zh-tech-writing-2026-10-08
+  project_slug: zh-tech-writing
+  level: full
+  reviewed_at: '2026-10-08T02:45:47Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文技术文档写作缺少可执行风格约束、模型输出带 AI 腔需逐句删改的痛点；旧做法是人工对照规范或事后清理。规范可固化为 agent 约束、交付为改写草稿，属工作流结构推理，公开材料未量化痛点频率与代价。
+    evidence_ids:
+    - ev-9b2fe5dd5571874c
+    - ev-70cde00f1dc58df0
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 314 增至 333，说明中文技术写作群体持续关注并把它纳入 agent 工作流；但收藏属关注度证据，公开材料未见使用评价或留存，不能据此断言长期采用。
+    evidence_ids:
+    - ev-9b2fe5dd5571874c
+    - ev-8c6cae381bbe5b21
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，无定价页、无付费或采购记录，谁付钱（个人写作者、团队还是企业文档部门）尚不清楚；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-9b2fe5dd5571874c
+  - gate: truth
+    status: supported
+    reason: 交付边界清晰：Skill 只做风格改写，事实与术语仍需作者核对，不承诺替代事实核查；规范来源公开可查，改写动作可复现，未发现安全或人工边界被夸大的迹象。
+    evidence_ids:
+    - ev-9b2fe5dd5571874c
+    - ev-09b22c0835799729
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现具体使用场景描述、用户反馈或团队采用记录，以核验持续使用与付费路径。
+  market: ''
+  job: 中文技术写作者、开发者关系或文档维护者在起草或润色说明、教程、API 文档时，把已有中文草稿交给 AI agent，调用该 Skill 按短句、平实、去 AI 腔的规范改写，产出可继续核对的中文文档草稿。
+  job_en: Chinese technical writers, DevRel, or docs maintainers drafting or polishing guides, tutorials,
+    and API docs hand an existing Chinese draft to an AI agent, invoke this Skill to rewrite it under
+    short-sentence, plain, no-AI-tone rules, and get back a Chinese doc draft still needing human fact-checking.
+  pain: 中文技术文档写作长期缺少可执行的统一风格约束，模型默认输出容易带翻译腔、排比和空话，作者要逐句删改；公开材料未给出不解决的具体代价与频率，属结构推理。
+  pain_en: Chinese technical writing lacks an executable, unified style constraint; model default output
+    tends toward translationese, parallelism, and filler that authors must edit sentence by sentence.
+    Public materials do not quantify the cost or frequency; this is structural inference.
+  current_alternative: 旧做法是作者凭个人语感逐句改写，或把阮一峰规范当参考文档人工对照，或直接接受模型默认输出后再人工清理 AI 腔。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 相较人工对照规范逐句改，该 Skill 把规范固化成 agent 可调用的约束，在改写这一步直接施加短句、平实、去 AI 腔的规则，减少作者事后逐句清理 AI 腔的负担；推断：在意中文技术文档语感的写作者会在起草或润色时选择它。
+  usage_reason_en: 'Versus manually checking a spec sentence by sentence, the Skill hard-codes the spec
+    into agent-callable constraints, applying short-sentence, plain, no-AI-tone rules directly at the
+    rewrite step and cutting the author''s later cleanup of AI tone. Inference: writers who care about
+    Chinese technical prose tone would pick it while drafting or polishing.'

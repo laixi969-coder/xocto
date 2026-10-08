@@ -85,3 +85,88 @@
     flow, small teams short on design resources might skip the first step of building an architecture
     from scratch; but public material gives no inputs, deliverables, synthesizability, or verification
     results, so the reason to choose it cannot be established.'
+- id: req-initial-opentpu-2026-10-08
+  project_slug: opentpu
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决自研加速器缺少开放起点的问题，但公开材料未说明替代了哪一步旧工作，也未见用户痛点或采用行为，需求强度无法判断。
+    evidence_ids:
+    - ev-26b680c1f0322723
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论帖有 337 点与 393 条评论，属于关注度信号，不能证明持续采用；未进入：缺少使用者反馈。
+    evidence_ids:
+    - ev-26b680c1f0322723
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、商业主体或付费路径，钱从哪来无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-26b680c1f0322723
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持哪些模型、以何种工艺或 FPGA 落地，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-26b680c1f0322723
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认其支持的目标硬件、可复现的构建步骤与是否有外部团队实际使用。
+  market: ''
+  job: 硬件或 AI 基础设施团队在需要自研或评估加速器方案时，打开该开源仓库，阅读并尝试编译其加速器设计与代码，以判断能否用于自己的推理或训练场景。
+  job_en: Hardware or AI infrastructure teams needing to build or evaluate an accelerator open this open-source
+    repository, read and try to compile its accelerator design and code, to judge whether it fits their
+    inference or training scenario.
+  pain: 商用加速器 IP 与流片成本高，小团队缺少可自行验证的开放设计起点；但公开材料没有说明它替代了哪一步具体旧工作，也没有用户抱怨或采用记录。
+  pain_en: Commercial accelerator IP and tape-out are expensive, and small teams lack an open design starting
+    point they can verify themselves; however, public material does not say which concrete old step it
+    replaces, and there are no user complaints or adoption records.
+  current_alternative: 使用商用加速器 IP、FPGA 厂商参考设计，或直接采购云上 GPU 算力。
+  current_alternative_en: Using commercial accelerator IP, FPGA vendor reference designs, or simply buying
+    cloud GPU compute.
+  usage_reason: 推断：若其设计可复现，团队可省去从零搭建加速器原型的一步，直接在开放代码上做修改与仿真；但目前没有公开证据说明它比参考设计更省哪一步，也没有用户反馈支持这一判断。
+  usage_reason_en: 'Inference: if the design is reproducible, teams could skip building an accelerator
+    prototype from scratch and modify and simulate on open code; but no public evidence shows which step
+    it saves versus reference designs, and no user feedback supports this judgment.'
+- id: req-full-opentpu-2026-10-08
+  project_slug: opentpu
+  level: full
+  reviewed_at: '2026-10-08T02:44:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决自研加速器缺少开放起点的问题，但公开材料只有一句仓库简介，未说明替代了哪一步旧工作，也未见用户痛点或采用行为，需求强度无法判断。
+    evidence_ids:
+    - ev-26b680c1f0322723
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认其目标硬件、可复现的构建步骤以及是否有外部团队实际使用。
+  market: ''
+  job: 硬件或 AI 基础设施团队在评估自研加速器方案时，打开该开源仓库，阅读并尝试编译其加速器设计与代码，以判断能否用于自己的推理或训练场景。
+  job_en: Hardware or AI infrastructure teams evaluating a self-built accelerator open this repository,
+    read and try to compile its accelerator design and code, to judge whether it fits their inference
+    or training scenario.
+  pain: 公开材料只有一句“由 AI 开发的开源 AI 加速器”，没有说明谁在什么情况下遇到什么具体困难，也没有用户抱怨、workaround 或采用记录，痛点无法确认。
+  pain_en: Public material offers only one line, 'an open-source AI accelerator, developed by AI'; it
+    does not say who faces what concrete difficulty in which situation, and there are no complaints, workarounds
+    or adoption records, so the pain cannot be confirmed.
+  current_alternative: 商用加速器 IP、FPGA 厂商参考设计，或直接采购云上 GPU 算力。
+  current_alternative_en: Commercial accelerator IP, FPGA vendor reference designs, or simply buying cloud
+    GPU compute.
+  usage_reason: 推断：若设计可复现，团队可省去从零搭建加速器原型的一步；但公开材料未说明支持哪些模型、以何种工艺或 FPGA 落地，也没有任何用户反馈支持这一选择理由。
+  usage_reason_en: 'Inference: if the design is reproducible, teams could skip building an accelerator
+    prototype from scratch; but public material does not state which models are supported or which process
+    or FPGA it targets, and no user feedback supports this reason for choosing it.'

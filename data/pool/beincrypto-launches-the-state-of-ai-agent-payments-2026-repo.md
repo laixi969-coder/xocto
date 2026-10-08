@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxObHpscXJGVDBP
 summary: BeInCrypto Launches The State of AI Agent Payments 2026 Report at TOKEN2049 Singapore BeInCrypto
 first_seen: '2026-10-07T14:21:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

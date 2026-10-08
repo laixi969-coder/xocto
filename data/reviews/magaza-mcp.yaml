@@ -181,3 +181,52 @@
     and login switching; versus Fastlane-style scripts it does not require users to write their own release
     configuration. Turkish-speaking indie developers or small teams updating both stores without maintaining
     release scripts are therefore more likely to pick it.'
+- id: req-full-magaza-mcp-2026-10-08
+  project_slug: magaza-mcp
+  level: full
+  reviewed_at: '2026-10-08T02:43:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决双商店发布中元数据与版本需在两个后台重复核对提交的需求，痛点来自双后台独立操作的结构性摩擦，交付是同一入口读取与提交，属工作流结构推理，公开材料未给用户抱怨原文。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+    - ev-9a809a1d047d23b3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 84 升至 90，说明社区注意到它，但收藏属关注度证据，不能证明目标用户持续使用或形成强场景。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+    - ev-9a809a1d047d23b3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径；开源仓库可能靠赞助或后续托管收费，这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+  - gate: truth
+    status: insufficient
+    reason: 未说明覆盖哪些商店字段、提交是否需人工复核、以及误提交的安全边界，交付确定性尚缺可复现公开证据。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 release 说明，确认其覆盖的商店字段、人工复核边界与是否有真实部署反馈。
+  market: ''
+  job: 土耳其语移动应用开发者或小型发行团队在准备上架或更新应用时，需要同时处理 App Store Connect 与 Google Play 两边的版本、文案与状态，原本要分别登录两个后台手工核对与提交。
+  job_en: A Turkish-speaking mobile app developer or small release team preparing to publish or update
+    an app must handle version, copy, and status on both App Store Connect and Google Play, originally
+    logging into each console separately to check and submit.
+  pain: 两个商店后台彼此独立，元数据与版本状态需人工在两边重复核对与提交，容易遗漏或不同步；公开材料未给出用户抱怨原文，但双后台重复操作的结构性摩擦可从产品说明推断。
+  pain_en: The two store consoles are independent, so metadata and version status must be manually checked
+    and submitted twice, risking omissions or drift; the public material gives no verbatim user complaint,
+    but the structural friction of duplicated dual-console work can be inferred from the product description.
+  current_alternative: 公开材料未直接说明现有替代方式；结构上可推断用户目前分别登录 App Store Connect 与 Google Play 后台手工操作，或使用 Fastlane
+    等脚本工具。
+  current_alternative_en: The public material does not directly describe existing alternatives; structurally
+    one can infer users currently log into App Store Connect and Google Play separately and work manually,
+    or use script tools such as Fastlane.
+  usage_reason: 推断：该 MCP 服务器把两个商店接口接到同一入口，由 AI 助手代为读取和提交，减少在两个后台之间切换与重复录入这一步负担，因此土耳其语开发者或小团队在需要同时更新两边元数据与版本时会选择它；尚无用户反馈证实。
+  usage_reason_en: 'Inference: the MCP server exposes both store APIs through one entry point so an AI
+    assistant can read and submit on the user''s behalf, reducing the step of switching between two consoles
+    and re-entering data, so Turkish-speaking developers or small teams updating both sides'' metadata
+    and versions would choose it; no user feedback yet confirms this.'

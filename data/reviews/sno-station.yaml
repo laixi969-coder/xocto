@@ -529,3 +529,46 @@
   usage_reason_en: 'No causal explanation is possible: all available evidence points to a neuro-oncology
     society and an online games site, unrelated to coding-agent collaboration, so it cannot show which
     developers would choose it or which step''s burden it reduces.'
+- id: req-full-sno-station-2026-10-08
+  project_slug: sno-station
+  level: full
+  reviewed_at: '2026-10-08T02:45:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决多代理编码协作与交接，但全部证据指向神经肿瘤学会及其网站服务，与产品功能完全错配，既无用户任务描述也无痛点、替代方式或后果，连需求和痛点都写不出来。
+    evidence_ids:
+    - ev-60d600cbe0f15798
+    - ev-5c378d1cbff05b37
+    - ev-609a54ca2285ccb7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Sno Station 官方仓库的 README、release 与 issue/discussion，确认其真实产品定位、安装方式与是否有开发者实际部署记录。
+  market: ''
+  job: 开发者在本机同时运行 Claude Code 与 Codex 等多个编码代理时，需要让它们共享上下文、互相传递任务并完成交接与跨厂商代码评审，最终拿到一份可用的多代理协同编码结果。
+  job_en: A developer running Claude Code and Codex side by side on a local machine needs the agents to
+    share context, pass tasks to each other, and complete handoff and cross-vendor code review, ending
+    with a usable multi-agent coding result.
+  pain: 公开材料未提供任何用户痛点、抱怨或既有绕行行为的记录；现有证据全部指向神经肿瘤学会（SNO）及其网站服务，与多代理编码协作无关，无法说明不解决会付出什么代价。
+  pain_en: No public evidence records any user pain, complaint, or workaround; all collected evidence
+    points to the Society for Neuro-Oncology and its website services, unrelated to multi-agent coding,
+    so the cost of leaving the problem unsolved cannot be stated.
+  current_alternative: 公开材料未说明开发者目前如何完成多代理协作，也未记录任何被替代的旧做法。
+  current_alternative_en: Public materials do not show how developers currently handle multi-agent collaboration,
+    nor any prior practice being replaced.
+  usage_reason: 无法判断：现有证据与产品功能完全错配，既无用户反馈也无客户案例，缺少能说明用户为何选择它而非旧做法的任何一环。
+  usage_reason_en: 'Cannot be judged: the collected evidence is entirely mismatched with the product,
+    and with no user feedback or customer cases there is no link explaining why a user would choose it
+    over the old approach.'

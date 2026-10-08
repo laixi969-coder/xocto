@@ -22,7 +22,7 @@ summary: Duke Health and Queen’s Health Systems will be first to use GE Health
   Titan
 first_seen: '2026-09-15T12:00:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

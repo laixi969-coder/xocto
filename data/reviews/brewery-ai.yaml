@@ -138,3 +138,53 @@
     step; small teams without ML backgrounds holding private data and unwilling to outsource would choose
     it. However, the public material does not state supported models, data formats or output form, so
     t'
+- id: req-full-brewery-ai-2026-10-08
+  project_slug: brewery-ai
+  level: full
+  reviewed_at: '2026-10-08T02:42:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非专业团队做不了微调这一任务：用户有私有数据和基础模型却缺算法人手，照抄脚本或外包成本高，不解决就只能放弃自有数据。仓库简介明确以“几乎没有经验”者为目标，输入—动作—交付闭环在结构上可还原，属工作流推理，非采用数据。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+    - ev-915840718a09c8e9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 186 增至 196，属关注度而非采用证据；没有用户反馈、案例或讨论说明谁在用、用来做什么，强场景只能从简介推断，无法确认共识已形成。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+    - ev-915840718a09c8e9
+    - ev-af76528570159628
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费路径或采购记录，买方是自建小团队、外包服务方还是个人开发者无法判断；按开源仓库形态，钱可能来自后续托管或支持服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近微调工作的第一性目标，训练结果是否可复现、支持哪些模型与数据格式均未披露，安全与人工确认边界也不清楚，交付确定性尚不能确认。
+    evidence_ids:
+    - ev-ddd7cbce09c50043
+    - ev-915840718a09c8e9
+  next_validation: 追踪该仓库 README、文档与 issue/discussion，确认支持的模型、数据格式、训练产出与是否有真实用户报告微调结果。
+  market: ''
+  job: 缺少算法人手的团队开发者，在已有私有数据集、需要得到可部署模型时，把数据和基础模型交给终端里的控制台代理，完成微调并拿到模型权重。
+  job_en: A team developer without ML staff, holding a private dataset and needing a deployable model,
+    hands data and a base model to a terminal console agent to complete fine-tuning and obtain model weights.
+  pain: 微调通常要写训练脚本、配环境和调参，非专业团队做不动，只能放弃自有数据或外包；仓库简介明确把目标用户定为“几乎没有经验”的人，说明这一门槛是它要解决的核心痛点。
+  pain_en: Fine-tuning usually requires writing training scripts, configuring environments and tuning
+    parameters, which non-specialist teams cannot do, so they abandon their own data or outsource; the
+    repo tagline explicitly targets users with little to no experience, indicating this barrier is the
+    core pain it addresses.
+  current_alternative: 照抄开源微调脚本、用云厂商托管训练服务，或直接调用通用大模型 API 而不做微调。
+  current_alternative_en: Copying open-source fine-tuning scripts, using cloud vendors' managed training
+    services, or calling general LLM APIs without fine-tuning.
+  usage_reason: 推断：相较照抄脚本或上托管训练服务，它把数据准备、训练配置与运行收敛为终端里的交互式代理，用户省掉写脚本和调环境这一步，因此没有算法背景的小团队会在需要用自己的私有数据得到模型时选择它；但公开材料未说明支持的模型、数据格式与产出，这一因果尚未被用户反馈证实。
+  usage_reason_en: 'Inference: compared with copying scripts or using managed training services, it collapses
+    data preparation, training configuration and execution into an interactive terminal agent, sparing
+    users the script-writing and environment-setup step, so small teams without ML backgrounds would pick
+    it when they need a model from their own private data; however, the public material does not state
+    supported models, data formats or outputs, so this causal link is not yet confirmed by use'

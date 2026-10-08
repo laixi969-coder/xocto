@@ -21,7 +21,7 @@ canonical_url: https://personal.secretgate.site
 summary: self-hosted anonymous inbox, E2E encrypted in the browser
 first_seen: '2026-10-06T20:24:17Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,86 @@
+- id: req-initial-parakeetai-20-2026-10-08
+  project_slug: parakeetai-20
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者面试前缺少可反复、针对性练习对象的问题，痛点刚性且旧替代行为明确。
+    evidence_ids:
+    - ev-17f385c175324d85
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供用户量、评价或采用数据，是否形成共识无法判断。
+    evidence_ids:
+    - ev-17f385c175324d85
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，付费路径只能推断为求职者自付或培训机构采购。
+    evidence_ids:
+    - ev-17f385c175324d85
+  - gate: truth
+    status: insufficient
+    reason: 未说明反馈质量与是否含实时提示，交付确定性无法核对。
+    evidence_ids:
+    - ev-17f385c175324d85
+  next_validation: 收集该产品的官方定价页与用户评价，确认收费方式与练习反馈的实际效果。
+  market: ''
+  job: 求职者在收到面试通知后，把目标岗位描述和自己的简历经历输入，进行模拟问答并拿到改进反馈，以便在正式面试中表现更好。
+  job_en: After receiving an interview invitation, a job seeker inputs the target job description and
+    their own resume history, runs mock Q&A and gets improvement feedback to perform better in the real
+    interview.
+  pain: 面试准备通常缺少可反复练习且针对本人经历的对象，找真人模拟成本高、时间难约，临场表达容易失手。
+  pain_en: Interview prep usually lacks a repeatable partner tailored to one's own history; human mock
+    interviews are costly and hard to schedule, and live delivery is easy to fumble.
+  current_alternative: 旧做法是背通用题库、找朋友或付费教练模拟，或自己对着镜子练习。
+  current_alternative_en: The old approach is memorizing generic question banks, asking friends or paying
+    a coach for mock sessions, or practicing alone in front of a mirror.
+  usage_reason: 推断：相较通用题库，它按岗位与个人经历生成针对性问题并即时给出反馈，省去找人和约时间这一步，因此时间紧、预算有限的求职者会在面试前一周选择它。
+  usage_reason_en: 'Inference: compared with generic question banks, it generates questions tied to the
+    role and personal history and gives immediate feedback, removing the step of finding a person and
+    scheduling, so time- and budget-constrained candidates would pick it in the week before an interview.'
+- id: req-full-parakeetai-20-2026-10-08
+  project_slug: parakeetai-20
+  level: full
+  reviewed_at: '2026-10-08T02:44:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者面试前缺少可反复、针对本人经历的练习对象这一需求，痛点刚性且旧替代行为明确；这是基于产品定位与旧流程的结构推理。
+    evidence_ids:
+    - ev-17f385c175324d85
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供用户量、评价或采用数据，是否形成共识无法判断；公开关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-17f385c175324d85
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，付费路径只能推断为求职者自付或培训机构采购；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-17f385c175324d85
+  - gate: truth
+    status: insufficient
+    reason: 未说明反馈质量与是否含实时提示，交付确定性无法核对；产品能力描述本身不构成交付证据。
+    evidence_ids:
+    - ev-17f385c175324d85
+  next_validation: 追踪该产品 公开资料 页面的官方定价与用户评价，确认收费方式与练习反馈的实际效果。
+  market: ''
+  job: 求职者在收到面试通知后，把目标岗位描述和自己的简历经历输入，进行模拟问答并拿到改进反馈，以便在正式面试中表现更好。
+  job_en: After receiving an interview invitation, a job seeker inputs the target job description and
+    their own resume history, runs mock Q&A and gets improvement feedback to perform better in the real
+    interview.
+  pain: 面试准备通常缺少可反复练习且针对本人经历的对象，找真人模拟成本高、时间难约，临场表达容易失手。
+  pain_en: Interview prep usually lacks a repeatable partner tailored to one's own history; human mock
+    interviews are costly and hard to schedule, and live delivery is easy to fumble.
+  current_alternative: 背通用题库、找朋友或付费教练模拟，或自己对着镜子练习。
+  current_alternative_en: Memorizing generic question banks, asking friends or paying a coach for mock
+    sessions, or practicing alone in front of a mirror.
+  usage_reason: 推断：相较通用题库，它按岗位与个人经历生成针对性问题并即时给出反馈，省去找人和约时间这一步，因此时间紧、预算有限的求职者会在面试前一周选择它。
+  usage_reason_en: 'Inference: compared with generic question banks, it generates questions tied to the
+    role and personal history and gives immediate feedback, removing the step of finding a person and
+    scheduling, so time- and budget-constrained candidates would pick it in the week before an interview.'

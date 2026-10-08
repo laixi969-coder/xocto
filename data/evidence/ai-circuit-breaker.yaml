@@ -25,3 +25,12 @@
   source_kind: adoption
   tier: behavioural
   fact: Reverse proxy to stop agent infinite loops
+- id: ev-77c7b879f11c5cf7
+  project_slug: ai-circuit-breaker
+  url: https://www.bing.com/search?format=rss&q=AI
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-10-08T02:37:49Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI'

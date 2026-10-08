@@ -251,3 +251,49 @@
   usage_reason_en: 'Inference: if DSH lacks a one-click preset loader, double-clicking a script could
     remove manual config edits; but public materials do not state what the preset changes or how well
     it works, and no user feedback or case shows why it is chosen, so the choice rationale is unconfirmed.'
+- id: req-full-dsh-pojia-mode-2026-10-08
+  project_slug: dsh-pojia-mode
+  level: full
+  reviewed_at: '2026-10-08T02:42:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是「不改 DSH 源码即可加载自定义 Agent 预设」，但公开材料只有一句功能自述，未说明预设改变什么行为、DSH 是否已有官方预设入口、不改源码的代价多大；属于锦上添花式便利，缺少刚性痛点与不采用后果，价值关不成立。
+    evidence_ids:
+    - ev-b27607dec34ab0dd
+    - ev-59de0575cecd5848
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认「破甲模式」预设具体改变哪些 Agent 行为、是否与 DSH
+    官方预设机制重复，以及是否有用户报告实际使用场景。
+  market: ''
+  job: DeepSeek Harness 使用者在不想改动主程序源码的前提下，双击一个文件为工具加载名为「破甲模式」的自定义 Agent 预设，以便在不重装、不丢配置的情况下切换 Agent 行为。
+  job_en: A DeepSeek Harness user, unwilling to modify the host program's source, double-clicks a file
+    to load a custom 'Pojia Mode' agent preset, switching agent behavior without reinstalling or losing
+    configuration.
+  pain: 公开材料只说明「零侵入、零依赖、双击无黑框、升级不丢」，未给出任何用户抱怨、issue 或案例说明不改源码加载预设究竟带来多大代价；DSH 本身是否已提供预设配置入口也无公开证据，因此痛点强度无法确认。
+  pain_en: Public materials only state 'zero-intrusion, zero-dependency, no console window, survives upgrades';
+    no user complaints, issues, or cases show how costly it is to load a preset without touching source,
+    and whether DSH already offers a preset entry point is unverified, so pain intensity cannot be confirmed.
+  current_alternative: 公开材料未说明用户当前如何加载自定义 Agent 预设，可能是直接改 DSH 配置或源码、手动复制文件，也可能是 DSH 自带预设机制；替代路径完全缺失。
+  current_alternative_en: Public materials do not describe how users currently load custom agent presets
+    — possibly editing DSH config or source, copying files manually, or using a built-in preset mechanism;
+    the alternative path is entirely missing.
+  usage_reason: 推断：若 DSH 缺少官方预设入口，双击脚本可省去手动改配置或源码这一步，对频繁切换 Agent 行为的 DSH 用户有吸引力；但「破甲模式」具体改变什么行为、是否比 DSH
+    自带方式更省事均无公开证据，且 45→56 的星标增长只反映关注度，不能证明用户已将其留在工作流中。
+  usage_reason_en: 'Inference: if DSH lacks an official preset entry, a double-click script could remove
+    the step of manually editing config or source, appealing to users who switch agent behavior often;
+    but what ''Pojia Mode'' actually changes and whether it beats DSH''s own mechanism are unverified,
+    and star growth from 45 to 56 reflects attention, not retention in a workflow.'

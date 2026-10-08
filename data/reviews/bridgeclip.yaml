@@ -570,3 +570,53 @@
     on the desktop, so editors or operators handling long interviews or livestream replays would choose
     it when they need batch short-clip output; public materials contain no user feedback confirming this
     motive.'
+- id: req-full-bridgeclip-2026-10-08
+  project_slug: bridgeclip
+  level: full
+  reviewed_at: '2026-10-08T02:42:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是从长视频中定位并切出可发布短片这一具体任务，痛点是逐帧回看与手动打点的重复劳动，旧替代是通用剪辑器手动打点。公开仓库仅给出产品定位与 357→367 的收藏增长，未提供用户抱怨或耗时数据，故痛点刚性属工作流结构推理；但任务、旧替代与不解决的后果可还原，价值结构成立。
+    evidence_ids:
+    - ev-9c46a6fbe6cb142a
+    - ev-55c367714a4cc378
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 357 缓慢增至 367，说明有开发者关注，但收藏与排名属关注度证据，不能证明目标剪辑用户持续使用或形成强场景共识；未见 issue、discussion 或用户评价说明谁在何种场景反复使用。
+    evidence_ids:
+    - ev-9c46a6fbe6cb142a
+    - ev-55c367714a4cc378
+  - gate: model
+    status: insufficient
+    reason: 开源桌面应用，公开材料未见定价页、付费主体或单位经济；钱可能来自 to C 订阅或 to B 授权，但这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-9c46a6fbe6cb142a
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输入格式、切分规则、导出流程与人工确认边界，无法核对 AI 切出的片段是否达到可发布质量、交付能否确定性发生；缺少部署文档与可复现实测。
+    evidence_ids:
+    - ev-9c46a6fbe6cb142a
+  next_validation: 追踪 bridgeclip 仓库的 README、issue 与 discussion，确认其输入格式、切分规则、导出流程及是否有用户报告实际用于发布工作流。
+  market: ''
+  job: 短视频剪辑师或自媒体运营在拿到一段长视频（访谈、直播回放、播客录像）后，需要从中挑出可独立发布的短片片段并导出成待确认的剪辑结果，用于后续发布到短视频平台。
+  job_en: A short-form video editor or social media operator takes a long video (interview, livestream
+    replay, podcast recording) and needs to extract publishable short clips and export them as a reviewable
+    set of edits for later posting.
+  pain: 长素材逐帧回看、手动标记入出点是重复且耗时的机械劳动；公开材料只给出产品定位（AI 从长素材切出短片），未提供用户抱怨、耗时数据或频率，因此痛点强度属于工作流结构推理而非已证事实。
+  pain_en: Reviewing long footage frame by frame and manually marking in/out points is repetitive mechanical
+    labor; public materials only give the product positioning (AI clipping from long footage) and provide
+    no user complaints, time data, or frequency, so pain intensity is a workflow inference rather than
+    a verified fact.
+  current_alternative: 旧做法是人工在通用非线性编辑器（如 Premiere、剪映）里回看长素材、手动打点切分并逐条导出；公开材料未说明它具体替代了哪一款工具或哪一步流程。
+  current_alternative_en: The old approach is manually reviewing long footage in a general NLE (e.g.,
+    Premiere, CapCut), marking cuts by hand, and exporting each clip; public materials do not say which
+    specific tool or step it replaces.
+  usage_reason: 推断：相较在通用编辑器里逐段手动打点，该桌面应用把“从长素材定位可发布片段”这一步交给 AI 自动完成，用户只需在产出的候选片段上做人工确认，从而省去逐帧回看与手动标记入出点的负担；因此处理长访谈、直播回放等素材的剪辑师或运营会在需要批量产出短片时选择它。公开材料未提供用户反馈或案例，此因果为基于产品能力的推断。
+  usage_reason_en: 'Inference: compared with manually marking cuts segment by segment in a general NLE,
+    this desktop app delegates the step of locating publishable segments in long footage to AI, leaving
+    the user to confirm the produced candidates, thereby removing the burden of frame-by-frame review
+    and manual in/out marking; editors or operators handling long interviews or livestream replays would
+    therefore choose it when they need to produce clips in batches. Public materials provide no user '

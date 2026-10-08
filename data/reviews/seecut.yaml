@@ -450,3 +450,51 @@
     footage as input and has AI perform the rough cut, pacing and motion effects, with an optional layered
     CapCut draft export, removing the manual pass from raw footage to publishable cut; creators and MCN
     post teams producing short talking-head videos at volume would choose it when they need fast turnaround.'
+- id: req-full-seecut-2026-10-08
+  project_slug: seecut
+  level: full
+  reviewed_at: '2026-10-08T02:44:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播/数字人素材粗剪、节奏切分与网感动效的重复劳动，痛点刚性来自批量出片的时间成本；公开仓库说明已实现自动精剪与剪映分层草稿导出，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-536758d50417369e
+    - ev-2d55460d910f53d2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 201 增至 232，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明口播创作者已把它留在日常剪辑流程中；缺少 issue、discussion 或使用反馈。
+    evidence_ids:
+    - ev-536758d50417369e
+    - ev-b59169625e759be4
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费记录或采购信息，无法判断收入来自 to C 订阅、to B 授权还是 to VC；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-536758d50417369e
+  - gate: truth
+    status: insufficient
+    reason: 自动精剪的识别精度、口播节奏切分质量与剪映分层草稿能否稳定导出，均无公开实测或部署文档佐证，交付确定性尚未核验。
+    evidence_ids:
+    - ev-2d55460d910f53d2
+  next_validation: 追踪 SeeCut 仓库的 README、issue 与 discussion，确认自动精剪的实际输入输出流程、剪映分层草稿导出是否可用，以及是否有创作者公开反馈使用效果。
+  market: ''
+  job: 口播或数字人视频创作者、MCN 后期运营在拿到一段未经剪辑的口播/数字人原始素材后，需要把它变成可直接发布的网感短视频，或导出剪映分层草稿继续人工调整。
+  job_en: Talking-head or AI-avatar creators and MCN post-production operators take a raw talking-head/avatar
+    recording and need to turn it into a publish-ready short video, or export a layered CapCut draft for
+    further manual editing.
+  pain: 口播素材的粗剪、节奏切分、字幕与网感动效高度重复且耗时，创作者往往要逐条手动对齐口型与停顿；不解决则单条产出周期长、批量更新难以维持。
+  pain_en: Rough-cutting talking-head footage, pacing, subtitles and trend-style effects are repetitive
+    and slow; creators must manually align speech and pauses clip by clip, so leaving it unsolved lengthens
+    per-video turnaround and makes batch publishing hard to sustain.
+  current_alternative: 当前替代是人工在剪映/Premiere 等时间线工具里逐段粗剪、加字幕和动效，或使用通用 AI 剪辑工具但需自行处理口播节奏与分层导出。
+  current_alternative_en: Today users rough-cut manually in timeline tools such as CapCut or Premiere,
+    adding subtitles and effects by hand, or use generic AI editors that still require manual handling
+    of talking-head pacing and layered export.
+  usage_reason: 推断：相较纯手工时间线剪辑，它把粗剪、节奏切分和网感动效合并为一次自动处理，并可选输出剪映分层草稿，使创作者少做逐段对齐与套动效的步骤；对口播/数字人批量出片、又希望保留人工微调余地的用户更有吸引力。
+  usage_reason_en: 'Inference: versus purely manual timeline editing, it merges rough-cut, pacing and
+    trend-style effects into one automated pass and can export a layered CapCut draft, removing per-clip
+    alignment and effect-application steps; this appeals to talking-head/avatar creators who publish in
+    batches yet still want room for manual fine-tuning.'

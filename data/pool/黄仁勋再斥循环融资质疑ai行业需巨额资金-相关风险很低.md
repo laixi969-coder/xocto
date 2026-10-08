@@ -23,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSM3lWTE5tV09M
 summary: 黄仁勋再斥“循环融资”质疑：AI行业需巨额资金 相关风险很低！ 东方财富
 first_seen: '2026-08-27T05:31:15Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

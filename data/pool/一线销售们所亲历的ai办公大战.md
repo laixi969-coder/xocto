@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mSWFaeG1OSVRo
 summary: 一线销售们所亲历的AI办公大战 53AI
 first_seen: '2026-10-07T09:50:31Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

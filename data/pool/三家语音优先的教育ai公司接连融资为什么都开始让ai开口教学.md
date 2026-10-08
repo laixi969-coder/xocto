@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiakFVX3lxTE5TcHdYdTVFUkZP
 summary: 三家“语音优先”的教育AI公司接连融资，为什么都开始让AI“开口教学”？ 多知网
 first_seen: '2026-10-08T00:47:56Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

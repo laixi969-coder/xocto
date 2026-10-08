@@ -22,7 +22,7 @@ summary: The “father of the iPod” says the first generation of AI gadgets fa
   — and the next wave will need to earn consumers’ trust.
 first_seen: '2026-10-07T14:41:38Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

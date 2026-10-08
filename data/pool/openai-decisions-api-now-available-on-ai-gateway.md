@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/openai-decisions-api-now-available-o
 summary: ''
 first_seen: '2026-10-07T00:00:00Z'
 last_seen: '2026-10-08T01:56:15Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

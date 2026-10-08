@@ -86,3 +86,47 @@
     a reverse proxy and automatically detects and cuts repeated loops, saving the step of restarting after
     spotting an anomaly, so teams billed by token usage and previously burned by a loop would consider
     it after an incident; without user feedback the motive is unconfirmed.'
+- id: req-full-ai-circuit-breaker-2026-10-08
+  project_slug: ai-circuit-breaker
+  level: full
+  reviewed_at: '2026-10-08T02:41:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体失控循环持续消耗额度的问题，痛点在于按用量计费下循环会直接产生账单损失；旧做法是人工盯监控、手动重启或设简单调用上限，代理在调用链上自动切断可省去人工止损这一步，属工作流结构推理。
+    evidence_ids:
+    - ev-867ccf8eb92b46ef
+    - ev-2e516a5a3099c942
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅一条产品定位，未见开发者讨论、采用记录或场景反馈，无法判断共识卡在感知、想象、场景还是利益环节。
+    evidence_ids:
+    - ev-867ccf8eb92b46ef
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方与收费方式均未披露；按用量付费的团队是可能买方，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-867ccf8eb92b46ef
+  - gate: truth
+    status: insufficient
+    reason: 无法核验它如何区分正常长任务与失控循环，误杀风险与人工兜底边界缺少公开材料，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-867ccf8eb92b46ef
+  next_validation: 追踪 AI Circuit Breaker 官网或仓库是否公开循环判定规则、误杀处理方式与定价页。
+  market: ''
+  job: 运行智能体服务的开发者，在智能体可能反复调用工具、持续消耗额度的生产环境里，处理失控的请求链，要让它停下来。
+  job_en: Developers running agent services, in production where agents may repeatedly call tools and
+    keep consuming quota, deal with a runaway request chain and need it to stop.
+  pain: 公开材料只有一句产品定位，没有说明循环造成的实际损失、发生频率或用户已经采取的绕行做法，痛点刚性只能从工作流结构推断。
+  pain_en: The public material is a one-line positioning with no evidence of actual loss from loops, how
+    often they occur, or workarounds users already adopt; pain rigidity can only be inferred from workflow
+    structure.
+  current_alternative: 靠人工盯监控、手动重启服务或设置简单的调用上限。
+  current_alternative_en: Watching dashboards by hand, manually restarting services, or setting crude
+    call limits.
+  usage_reason: 推断：若代理能在调用链上自动识别并切断重复循环，团队可省去人工盯盘与手动止损这一步，因此已按用量付费的团队会在循环造成账单损失后考虑接入；缺少用户反馈，动机未被证实。
+  usage_reason_en: 'Inference: if the proxy automatically detects and cuts repeated loops in the call
+    chain, teams skip manual monitoring and hand-stopping, so usage-billed teams would consider it after
+    a loop hits their bill; without user feedback the motive is unconfirmed.'

@@ -1,0 +1,89 @@
+- id: req-initial-trigora-2026-10-08
+  project_slug: trigora
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决恢复时重放历史导致副作用重复的问题，痛点方向成立，但实现方式未说明，价值证据不足。
+    evidence_ids:
+    - ev-8189d655de341034
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 9 点、2 条评论，没有采用或反馈证据，无法判断共识。
+    evidence_ids:
+    - ev-8189d655de341034
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或商业路径，买方与收费方式不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8189d655de341034
+  - gate: truth
+    status: insufficient
+    reason: 无法核对不重放恢复是否真的保证一致性，交付确定性不清楚。
+    evidence_ids:
+    - ev-8189d655de341034
+  next_validation: 查看该仓库的文档与 issue，确认不重放恢复的一致性保证与副作用处理方式。
+  market: ''
+  job: 构建长时运行工作流的后端开发者，在任务中断或进程重启后，处理工作流状态，要完成不重放历史的恢复执行。
+  job_en: A backend developer building long-running workflows, after a task is interrupted or a process
+    restarts, works on workflow state and needs to resume execution without replaying history.
+  pain: 传统持久化执行依赖历史重放，副作用会重复触发，恢复成本高，但公开材料未说明 Trigora 如何避免重复副作用。
+  pain_en: Conventional durable execution relies on history replay, which re-triggers side effects and
+    makes recovery costly, but the public material does not say how Trigora avoids duplicate side effects.
+  current_alternative: 开发者目前靠重放式工作流引擎、自建状态表或人工补偿脚本处理恢复。
+  current_alternative_en: Developers currently handle recovery with replay-based workflow engines, self-built
+    state tables or manual compensation scripts.
+  usage_reason: 推断：相较重放式引擎，它把恢复动作改为不重放历史，减少处理重复副作用的代码，因此受困于重复触发的后端团队会尝试；但缺少采用与付费证据。
+  usage_reason_en: 'Inference: versus replay-based engines, it changes recovery to avoid replaying history
+    and cuts code for handling duplicate side effects, so backend teams hurt by re-triggering may try
+    it; adoption and payment evidence are missing.'
+- id: req-full-trigora-2026-10-08
+  project_slug: trigora
+  level: full
+  reviewed_at: '2026-10-08T02:45:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长时工作流中断后恢复时重放历史、副作用重复触发的问题，痛点刚性来自重复写库或重复扣款这类不可逆后果；公开材料只给出“durable execution without history
+      replay”一句，未说明恢复语义与一致性保证，故价值判断基于工作流结构推理而非采用数据。
+    evidence_ids:
+    - ev-8189d655de341034
+  - gate: consensus
+    status: insufficient
+    reason: 唯一可归因证据是仓库自述，未提供 star、issue、discussion 或用户反馈等采用与讨论数据，无法判断开发者社区是否已形成“不重放恢复”这一共识；公开关注度缺失不等于需求不存在，只降低把握。
+    evidence_ids:
+    - ev-8189d655de341034
+  - gate: model
+    status: insufficient
+    reason: 项目以开源仓库形式出现，未见定价页、商业版本、托管服务或采购记录，钱可能来自 to B 自托管支持或 to VC 融资，但均属判断而非已验证事实；买方与收费路径公开材料未披露。
+    evidence_ids:
+    - ev-8189d655de341034
+  - gate: truth
+    status: insufficient
+    reason: “不重放历史”是否真能保证恢复后状态一致、副作用不重复，取决于其状态持久化与提交语义，公开材料未给出文档或可复现说明，交付确定性无法核对；这是缺口而非否定。
+    evidence_ids:
+    - ev-8189d655de341034
+  next_validation: 追踪该仓库的 README 与 docs 目录及 issue/discussion，核对不重放恢复的状态持久化与副作用提交语义是否给出可复现的一致性保证。
+  market: ''
+  job: 构建长时运行工作流的后端开发者，在任务中断或进程重启后，拿到已持久化的工作流状态，要完成不重放历史的恢复执行，让流程从中断点继续跑完。
+  job_en: A backend developer building long-running workflows, after an interruption or process restart,
+    takes persisted workflow state and must resume execution without replaying history so the flow continues
+    from the breakpoint.
+  pain: 重放式持久执行在恢复时会重新执行已走过的步骤，导致支付、发信、写库等副作用重复触发，开发者要额外写幂等与补偿代码；不解决的后果是恢复成本高、数据可能被重复写入。
+  pain_en: Replay-based durable execution re-runs already-executed steps on recovery, re-triggering side
+    effects such as payments, emails and writes, forcing developers to add idempotency and compensation
+    code; the cost is expensive recovery and possible duplicate writes.
+  current_alternative: 开发者目前用重放式工作流引擎（如基于事件历史的持久执行框架）、自建状态表加人工补偿脚本，或干脆不做恢复、失败后重跑整条流程。
+  current_alternative_en: Developers currently use replay-based workflow engines (event-history durable
+    execution frameworks), self-built state tables plus manual compensation scripts, or simply skip recovery
+    and re-run the whole flow after failure.
+  usage_reason: 推断：相较重放式引擎，它把恢复动作改为直接基于持久化状态继续执行、不重放历史，从而省掉为重复副作用编写幂等与补偿代码这一步，因此被重复触发问题困扰的后端团队会在长时任务恢复场景下选择它；公开材料尚无采用或付费证据。
+  usage_reason_en: 'Inference: versus replay-based engines, it resumes directly from persisted state without
+    replaying history, removing the step of writing idempotency and compensation code for duplicate side
+    effects, so backend teams hurt by re-triggering would pick it for long-running task recovery; public
+    material has no adoption or payment evidence yet.'

@@ -1,6 +1,6 @@
 ---
 slug: lenovo联手nvidia推出lenovo-ai-express加快企业ai部署落地
-name: Lenovo联手NVIDIA推出“Lenovo AI Express”，加快企业AI部署落地
+name: Lenovo AI Express
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNNlZEMExNRUZp
 summary: Lenovo联手NVIDIA推出“Lenovo AI Express”，加快企业AI部署落地 디지털투데이
 first_seen: '2026-10-08T00:35:24Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Lenovo联手NVIDIA推出“Lenovo AI Express”，加快企业AI部署落地
+# Lenovo AI Express
 
 Lenovo联手NVIDIA推出“Lenovo AI Express”，加快企业AI部署落地 디지털투데이
 

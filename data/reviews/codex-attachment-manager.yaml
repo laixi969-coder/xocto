@@ -181,3 +181,52 @@
     with a pre-send checkbox, turning unchecked images into placeholders so the task is not interrupted;
     developers who debug with screenshots and care about request size would pick it in long sessions.
     Stars rising from 90 to 161 show attention only, with no retention or repeat-use evidence.'
+- id: req-full-codex-attachment-manager-2026-10-08
+  project_slug: codex-attachment-manager
+  level: full
+  reviewed_at: '2026-10-08T02:42:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中历史图片持续占用上下文、推高请求体积与成本的问题，旧替代是重开会话或手动整理附件，痛点具体且可核对；这是基于产品输入—动作—交付闭环的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+    - ev-6c9019e30b57ac24
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 90 增至 187 只反映关注度上升，没有用户评价、issue 或案例说明它是否被长期留在工作流里，采用强度无法核对。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+    - ev-a1900760832dc41e
+    - ev-dbffccc2432489f2
+    - ev-6c9019e30b57ac24
+  - gate: model
+    status: insufficient
+    reason: 开源插件，公开材料没有定价页、赞助或商业支持路径，钱可能来自捐赠或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+  - gate: truth
+    status: insufficient
+    reason: 把未勾选图片替换成占位符是否会让模型丢失关键视觉信息、进而给出错误修改，公开材料未说明，交付质量边界无法核对。
+    evidence_ids:
+    - ev-3cad5d60b9a8b0ed
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认占位符替换对回答质量的影响，以及是否有用户报告实际节省的请求体积或 token 成本。
+  market: ''
+  job: 开发者在 Codex 长会话中反复贴截图排查问题时，需要在发送下一条消息前决定哪些历史图片继续随请求发给模型，让任务接着跑而不必重开会话。
+  job_en: A developer running a long Codex session and repeatedly pasting screenshots to debug needs to
+    decide, before sending the next message, which past images still go to the model so the task can continue
+    without restarting the session.
+  pain: 历史图片持续留在上下文里，请求体积和成本随会话增长；用户要么忍受越来越重的请求，要么重开会话丢掉之前的排查线索。
+  pain_en: Past images stay in context, so request size and cost grow with the session; the user either
+    absorbs ever-heavier requests or restarts the session and loses earlier debugging threads.
+  current_alternative: 旧做法是手动重开会话、把图片另存到本地再重新贴，或干脆不管成本继续发。
+  current_alternative_en: The old behaviour is manually restarting the session, saving images locally
+    and re-pasting them, or simply ignoring the cost and continuing.
+  usage_reason: 推断：插件把“重开会话或手动整理附件”换成发送前勾选，未勾选图片变占位符，任务不中断而请求保持较小，因此常用截图排查且对 token 成本敏感的开发者会在长会话中选用它；仓库星数从
+    90 增至 187 只说明关注度上升，尚无使用频率或留存证据。
+  usage_reason_en: 'Inference: the plugin replaces ''restart the session or manually tidy attachments''
+    with a pre-send checkbox, turning unchecked images into placeholders so the task continues while requests
+    stay small; developers who debug with screenshots and are sensitive to token cost would choose it
+    in long sessions. Star growth from 90 to 187 shows attention, not usage frequency or retention.'

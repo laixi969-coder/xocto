@@ -500,3 +500,62 @@
     can describe brand needs in the same session and get spec-compliant vector logo options, removing
     tool-switching and blank-page drafting; designers or startup leads already using these agents and
     needing a fast first-pass logo would choose it at the early exploration stage.'
+- id: req-full-logo-design-skill-2026-10-08
+  project_slug: logo-design-skill
+  level: full
+  reviewed_at: '2026-10-08T02:43:45Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌启动时产出可用标志的需求：传统路径依赖设计师排期与反复改稿，通用文生图产出位图无法直接用，矢量规范与参考比对需人工补做。该 skill 把设计原则、流程与 SVG 规范嵌入代理执行，直接交付
+      SVG 标志，痛点刚性且交付环节可确定；此为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-9df7168f1325c0fe
+    - ev-74c8310b24dccdbe
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 1,534 连续升至 2,296，说明英文开发者生态持续关注并把它纳入代理技能库；但收藏属关注度证据，不能证明目标设计师已长期留在工作流，也未见使用评价或案例。
+    evidence_ids:
+    - ev-9df7168f1325c0fe
+    - ev-74c8310b24dccdbe
+    - ev-9c52297be1fb5f9f
+    - ev-f2bf9719c5dd6bc7
+    - ev-b18099ff8af6fb44
+  - gate: model
+    status: insufficient
+    reason: 这是开源 skill，公开材料未见定价页、付费路径或买方归属，钱可能来自 to C 设计师个人或 to B 团队采购，但均属判断而非已验证事实；中文生态检索未发现对应供给。
+    evidence_ids:
+    - ev-9df7168f1325c0fe
+    - ev-9eb6fdeda9de157b
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺交付符合 SVG 规范的标志，方向贴近标志设计的第一性目标，但公开材料未展示生成结果的可复现测试、人工确认环节与安全边界，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-9df7168f1325c0fe
+    - ev-74c8310b24dccdbe
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否出现真实标志产出示例、使用反馈或部署说明，以核验交付确定性与实际采用场景。
+  market: ''
+  job: 品牌设计师或初创公司品牌负责人在需要产出可用的标志方案时，把品牌定位与风格要求交给 Claude、Gemini CLI、Codex 等 AI 代理，由该 skill 按内置设计原则、流程与
+    SVG 规范生成标志，并借助测试工具与 1400+ 标志参考库比对，最终拿到可继续使用的 SVG 标志文件。
+  job_en: A brand designer or startup brand lead who needs a usable logo hands brand positioning and style
+    requirements to an AI agent (Claude, Gemini CLI, Codex) running this skill, which generates marks
+    following built-in design principles, process and SVG craft, cross-checks against a 1,400+ logo reference
+    library and testing tools, and returns a usable SVG logo file.
+  pain: 标志设计是品牌启动的必经环节，但传统流程要么依赖设计师排期与反复改稿，要么用通用文生图工具产出无法直接使用的位图，矢量规范、可缩放性和参考比对都要人工补做；公开材料未给出不采用的具体代价与频率，此判断为工作流结构推理。
+  pain_en: Logo design is an unavoidable step in brand launch, yet the traditional route depends on designer
+    scheduling and repeated revisions, while generic text-to-image tools output bitmaps that cannot be
+    used directly, leaving vector craft, scalability and reference comparison to manual work; public materials
+    do not quantify the cost or frequency, so this is workflow-structural inference.
+  current_alternative: 设计师手工绘制并反复改稿、外包给设计工作室、使用通用文生图工具生成位图后再人工转矢量，或直接套用模板站素材。
+  current_alternative_en: Designers drawing and revising by hand, outsourcing to a design studio, using
+    generic text-to-image tools and manually vectorizing the bitmap, or pulling templates from stock logo
+    sites.
+  usage_reason: 相较手工绘制或通用文生图，该 skill 把设计原则、流程与 SVG 规范直接嵌入 AI 代理的执行步骤，使代理一次产出符合矢量规范的标志而非位图，并用 1400+ 参考库与测试工具做比对，减少“生成后再人工转矢量、再补规范”这一步；因此已在用
+    Claude、Codex 等代理做设计工作的设计师或初创品牌负责人会在需要快速拿到可用 SVG 标志时选择它。此为基于产品能力与任务结构的推断，非用户反馈证实。
+  usage_reason_en: 'Compared with hand drawing or generic text-to-image tools, this skill embeds design
+    principles, process and SVG craft directly into the agent''s execution steps, so the agent produces
+    a vector-compliant mark rather than a bitmap and cross-checks it against a 1,400+ reference library
+    and testing tools, removing the manual ''vectorize and fix specs afterwards'' step; designers or startup
+    brand leads already using Claude or Codex for design work would therefore choose it when they '

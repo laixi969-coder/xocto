@@ -300,3 +300,57 @@
     Chrome session, and writes each application or skip as a grep-able, diffable markdown file. This removes
     the ''filter one by one'' and ''re-enter the same data'' steps and makes the application log checkable;
     the inference is that seekers with many rule dimensions (visa, salary) during an intensive '
+- id: req-full-seekter-2026-10-08
+  project_slug: seekter
+  level: full
+  reviewed_at: '2026-10-08T02:44:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者每日按自定规则筛选职位并批量填写申请表单的需求，痛点是重复录入、硬性条件漏判与投递记录不可检索，不解决的后果是错过合规岗位且无法复盘；公开说明已能还原输入、过滤、填表与
+      markdown 留档的闭环，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+    - ev-5ecca461280c4b47
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 44 增至 56，说明开发者社区持续关注，但收藏与复刻只反映关注度，不能证明目标求职者已把它留在日常投递流程中；缺少 issue、discussion 或使用反馈说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+    - ev-d07ee4f947d8ce2a
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费记录或采购信息，无法判断收入来自 to C 订阅、to B 招聘方还是仅靠开源维护；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  - gate: truth
+    status: insufficient
+    reason: 在用户本人 Chrome 中自动填写申请表单，涉及账号登录态与招聘站条款，公开材料未说明失败重试、验证码或误投的边界处理，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-354ecf08bf169e12
+  next_validation: 追踪 seekter 仓库的 issue 与 discussion，确认是否有用户报告实际投递场景、失败模式或持续使用记录。
+  market: ''
+  job: 求职者在集中投递期（如换工作、毕业求职、需要签证担保的跨国求职）每天处理大量招聘来源的职位信息，按地点、签证、薪资、行业、资历、语言等自定规则筛选出值得投的岗位，并在本人 Chrome 中逐份填写申请表单，同时保留每次申请或跳过的记录以便复盘。
+  job_en: During an intensive job hunt (career change, new-grad search, or visa-sponsored cross-border
+    search), a job seeker processes postings from many sources daily, filters them against self-defined
+    rules (location, visa, salary, sector, seniority, language), fills application forms one by one in
+    their own Chrome, and keeps a record of each application or skip for later review.
+  pain: 求职投递是高频重复劳动：同一份简历信息要在不同招聘站反复录入，筛选规则（签证、薪资、地点）靠人脑逐条比对容易漏判，投过哪些、跳过哪些散落在邮箱和浏览器历史里无法检索对比；不解决的后果是错过符合硬性条件的岗位、把时间耗在重复填表上，且无法复盘投递策略。
+  pain_en: 'Applying is high-frequency repetitive work: the same resume data is re-entered across many
+    job sites, rule checks (visa, salary, location) are done mentally and easily missed, and which postings
+    were applied to or skipped is scattered across inboxes and browser history with no way to grep or
+    diff. Left unsolved, users miss postings that meet hard constraints, burn time on duplicate form-filling,
+    and cannot review their application strategy.'
+  current_alternative: 当前替代方式是人工逐站浏览招聘网站、用表格或笔记手工记录投递状态，或使用招聘平台的站内提醒与关键词订阅；部分用户会写脚本或借助浏览器自动填充，但通常不覆盖按自定规则过滤与可检索的申请记录。
+  current_alternative_en: Today users browse job boards manually site by site, track applications in spreadsheets
+    or notes, or rely on platform alerts and keyword subscriptions; some write scripts or use browser
+    autofill, but these rarely combine rule-based filtering with a greppable application record.
+  usage_reason: 相较人工逐站筛选和手工记录，该代理每天自动抓取职位并按用户预设的地点、签证、薪资等规则过滤，把不符合硬条件的岗位直接跳过，再在用户自己的 Chrome 会话中填写表单，并把每次申请或跳过落成可
+    grep、可 diff 的 markdown 文件。因此处于密集投递期、有明确硬性筛选条件（如需要签证担保或特定薪资门槛）且愿意在 Claude Code 中配置规则的求职者，会在需要批量处理职位时选择它，减少逐条比对和重复录入的步骤。这是基于产品能力与任务结构的推断，尚无用户反馈或案例佐证。
+  usage_reason_en: Compared with manual site-by-site screening and hand-kept records, the agent fetches
+    postings daily, filters them against user-defined rules (location, visa, salary), skips postings that
+    fail hard constraints, fills forms inside the user's own Chrome session, and writes each application
+    or skip to a greppable, diffable markdown file. Job seekers in an intensive search with hard constraints
+    (e.g., visa sponsorship or a salary floor) who are willing to configure rules in Claude

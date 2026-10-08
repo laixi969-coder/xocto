@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CcDM3cmQ0RFRC
 summary: 教人摆姿势的相机App，融资千万 创业邦
 first_seen: '2026-10-07T10:42:20Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

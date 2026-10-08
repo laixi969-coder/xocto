@@ -21,7 +21,7 @@ canonical_url: https://dvelton.github.io/binge-ready
 summary: See when TV shows are ready to binge
 first_seen: '2026-10-07T16:25:45Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

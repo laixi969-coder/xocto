@@ -24,7 +24,7 @@ summary: In 6 days, 10,000+ people from across the global startup and tech ecosy
   of the same type.
 first_seen: '2026-10-07T14:00:00Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

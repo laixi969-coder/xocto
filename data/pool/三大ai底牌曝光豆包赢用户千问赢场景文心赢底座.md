@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rZ1NTNUlHNXJj
 summary: 三大AI底牌曝光：豆包赢用户，千问赢场景，文心赢底座 潮起网
 first_seen: '2026-10-07T12:11:46Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

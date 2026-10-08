@@ -40,7 +40,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlZU1NZkRKc1gw
 summary: 深演智能发布“AI新品创新”：多智能体协同贯通新品决策全流程 界面新闻
 first_seen: '2026-09-03T04:23:02Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

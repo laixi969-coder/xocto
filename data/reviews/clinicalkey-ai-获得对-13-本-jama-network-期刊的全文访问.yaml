@@ -1,0 +1,90 @@
+- id: req-initial-clinicalkey-ai-获得对-13-本-jama-network-期刊的全文访问-2026-10-08
+  project_slug: clinicalkey-ai-获得对-13-本-jama-network-期刊的全文访问
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决临床医生查证诊疗依据的需求，痛点是文献分散、核对出处耗时，旧行为明确。
+    evidence_ids:
+    - ev-4b80c24c723aac3d
+  - gate: consensus
+    status: insufficient
+    reason: 仅见期刊授权消息，无医生采用或使用反馈证据。
+    evidence_ids:
+    - ev-4b80c24c723aac3d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，推断为机构订阅采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-4b80c24c723aac3d
+  - gate: truth
+    status: insufficient
+    reason: 未说明答案是否需人工复核及错误边界，交付确定性待核验。
+    evidence_ids:
+    - ev-4b80c24c723aac3d
+  next_validation: ClinicalKey AI 官方产品页或定价页，确认其检索范围与订阅方式。
+  market: ''
+  job: 临床医生在诊疗决策前，需要从权威期刊中查找并核对具体证据。
+  job_en: Before making care decisions, clinicians need to find and verify specific evidence in authoritative
+    journals.
+  pain: 医学文献分散在多个订阅库，逐篇检索和阅读耗时，且需要确认出处可信。
+  pain_en: Medical literature is scattered across subscription databases, so searching and reading article
+    by article is slow and provenance must be verified.
+  current_alternative: 医生此前通过 PubMed 检索、机构订阅数据库或手动翻阅期刊获取证据。
+  current_alternative_en: Clinicians previously used PubMed search, institutional subscription databases,
+    or manually paging through journals to obtain evidence.
+  usage_reason: 相较逐库检索，该产品直接读取已授权期刊全文并给出带出处的答案，减少跨库查找与核对出处这一步；推断经常需要循证的临床医生会在诊疗决策前选择它。
+  usage_reason_en: Compared with searching each database, the product reads licensed journal full texts
+    directly and returns sourced answers, removing the cross-database lookup and provenance-checking step;
+    by inference, evidence-oriented clinicians would choose it before care decisions.
+- id: req-full-clinicalkey-ai-获得对-13-本-jama-network-期刊的全文访问-2026-10-08
+  project_slug: clinicalkey-ai-获得对-13-本-jama-network-期刊的全文访问
+  level: full
+  reviewed_at: '2026-10-08T02:42:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决临床医生查证诊疗依据的需求，痛点是文献分散、逐库检索与核对出处耗时，且临床决策对证据可信度要求高；旧替代为 PubMed 与机构订阅库，属工作流结构推理。
+    evidence_ids:
+    - ev-e5c76aa8c1ac225f
+    - ev-9d7200dd1321df69
+  - gate: consensus
+    status: insufficient
+    reason: 仅见产品定位与机构登录入口，无医生采用、使用反馈或持续使用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-e5c76aa8c1ac225f
+    - ev-9d7200dd1321df69
+  - gate: model
+    status: insufficient
+    reason: 公开材料仅显示机构登录方式，推断为机构订阅采购，但未披露定价与具体买方，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9d7200dd1321df69
+    - ev-e5c76aa8c1ac225f
+  - gate: truth
+    status: insufficient
+    reason: 未说明答案是否需人工复核、错误边界与安全责任划分，交付确定性尚缺公开依据。
+    evidence_ids:
+    - ev-e5c76aa8c1ac225f
+  next_validation: 追踪 Elsevier ClinicalKey AI 官方产品页或订阅说明，确认其检索范围、定价方式与机构采购路径。
+  market: ''
+  job: 临床医生在查房前或写病历时，需要针对具体诊疗问题从权威医学期刊中检索并核对证据出处，医学图书馆员则负责为机构配置可访问的全文资源。
+  job_en: Before rounds or while writing notes, clinicians need to search authoritative medical journals
+    for evidence on a specific clinical question and verify its provenance; medical librarians configure
+    institution-wide full-text access.
+  pain: 医学证据分散在多个订阅数据库与期刊平台，逐库检索、逐篇阅读并确认出处耗时，且临床决策对证据可信度要求高，错误或过时依据代价大。
+  pain_en: Medical evidence is scattered across subscription databases and journal platforms; searching
+    each, reading each article, and confirming provenance is slow, while clinical decisions demand high
+    evidence reliability and errors are costly.
+  current_alternative: 医生此前通过 PubMed 检索、机构订阅数据库或手动翻阅期刊获取证据，图书馆员则逐库谈判与配置访问权限。
+  current_alternative_en: Clinicians previously used PubMed search, institutional subscription databases,
+    or manually paging through journals; librarians negotiated and configured access database by database.
+  usage_reason: 相较逐库检索，ClinicalKey AI 直接读取已授权期刊全文并返回带出处的答案，减少跨库查找与出处核对这一步；推断经常需要循证的临床医生会在诊疗决策前选择它，但公开材料未提供医生使用反馈或留存证据。
+  usage_reason_en: Compared with searching each database, ClinicalKey AI reads licensed journal full texts
+    directly and returns sourced answers, removing the cross-database lookup and provenance-checking step;
+    by inference, evidence-oriented clinicians would choose it before care decisions, though no clinician
+    usage or retention evidence is public.

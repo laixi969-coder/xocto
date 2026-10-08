@@ -1,0 +1,92 @@
+- id: req-initial-konkani-speech-lab-stt-tts-2026-10-08
+  project_slug: konkani-speech-lab-stt-tts
+  level: initial
+  reviewed_at: '2026-10-08T01:56:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决低资源语言缺少语音工具的问题，痛点是通用工具不覆盖、人工转写昂贵，不处理的后果是没有可用的本地语言材料。
+    evidence_ids:
+    - ev-1d82ac38bbd24c29
+  - gate: consensus
+    status: insufficient
+    reason: 公开演示只有少量点赞，没有使用者反馈或社区讨论，尚看不出语言社区是否已形成采用共识。
+    evidence_ids:
+    - ev-1d82ac38bbd24c29
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费路径；按转写时长或档案项目收费是推断，不是已验证事实。
+    evidence_ids:
+    - ev-1d82ac38bbd24c29
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出识别准确率与合成质量，能否确定性交付可用稿件无法核对。
+    evidence_ids:
+    - ev-1d82ac38bbd24c29
+  next_validation: 收集该演示的模型卡或仓库文档，核对孔卡尼语识别准确率与可用的输出格式。
+  market: ''
+  job: 做孔卡尼语内容本地化或语言档案的人，在需要把孔卡尼语录音转成文字、或把罗马字文本转成语音时，处理的是本地语言音视频与文本材料，要完成的是可用的转写稿或配音。
+  job_en: People doing Konkani localization or language archiving, when they need to turn Konkani recordings
+    into text or Roman-script text into speech, handle local-language audio, video and text material to
+    produce a usable transcript or voice track.
+  pain: 孔卡尼语属于低资源语言，通用语音工具通常不覆盖，人工转写和录音成本高，不处理就没有可检索、可播出的本地语言材料。
+  pain_en: Konkani is a low-resource language that general speech tools usually do not cover, manual transcription
+    and recording are costly, and without handling there is no searchable or broadcastable local-language
+    material.
+  current_alternative: 现有替代是人工听写、找本地播音员录音，或使用不支持该语言的通用语音服务。
+  current_alternative_en: The current alternatives are manual dictation, hiring local voice talent for
+    recording, or general speech services that do not support the language.
+  usage_reason: 推断：相较人工听写和找播音员，它把录音直接转成文字、把文本直接合成语音，省掉逐句听打和预约录音这一步；做地方语言内容或档案的团队在需要快速产出初稿时会选择它，但准确率是否够用尚未核验。
+  usage_reason_en: 'Inference: compared with manual dictation and hiring voice talent, it turns recordings
+    directly into text and text directly into speech, removing the step of typing out every sentence and
+    booking a recording session; teams producing regional-language content or archives would choose it
+    when they need a fast first draft, though whether accuracy is sufficient is not yet verified.'
+- id: req-full-konkani-speech-lab-stt-tts-2026-10-08
+  project_slug: konkani-speech-lab-stt-tts
+  level: full
+  reviewed_at: '2026-10-08T02:43:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决低资源语言缺少语音工具的需求：孔卡尼语是果阿官方语言、印度宪法附表语言，通用语音服务不覆盖，人工听写与录音成本高，不处理就没有可检索可播出的本地语言材料；这是从语言地位与工具缺口作出的工作流结构推理。
+    evidence_ids:
+    - ev-f917ae9c85739543
+    - ev-2a784deb3b2b2d03
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示孔卡尼语有歌曲播放列表等活跃内容生态，未见使用者对识别或合成质量的反馈、社区讨论或采用记录，无法判断语言社区是否已形成使用共识。
+    evidence_ids:
+    - ev-6a93176252b9ff41
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费路径；按转写时长、档案项目或语言机构采购收费只是推断，公开材料未给出买方与计费方式，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-17d5555772ef780f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出识别准确率、合成自然度与输出格式，能否确定性交付可用稿件或配音无法核对，安全与人工校对边界也未说明。
+    evidence_ids:
+    - ev-c5a385c803250001
+  next_validation: 追踪该项目的模型卡或代码仓库文档，核对孔卡尼语识别准确率、支持方言与可用的输出格式。
+  market: ''
+  job: 做孔卡尼语内容本地化或语言档案的人，在需要把孔卡尼语音视频转成文字、或把罗马字文本转成语音时，处理本地语言录音与文本材料，要产出可检索的转写稿或可播出的配音。
+  job_en: People doing Konkani localization or language archiving, when they need to turn Konkani audio/video
+    into text or Roman-script text into speech, handle local-language recordings and text to produce a
+    searchable transcript or a broadcastable voice track.
+  pain: 孔卡尼语是低资源语言，通用语音工具通常不覆盖，人工听写与找本地播音员录音成本高；不处理就没有可检索、可播出的本地语言材料，语言档案与地方内容生产因此受限。
+  pain_en: Konkani is a low-resource language that general speech tools usually do not cover, and manual
+    dictation or hiring local voice talent is costly; without handling there is no searchable or broadcastable
+    local-language material, limiting language archiving and regional content production.
+  current_alternative: 现有替代是人工逐句听写、找本地播音员录音，或使用不支持孔卡尼语的通用语音服务。
+  current_alternative_en: The current alternatives are sentence-by-sentence manual dictation, hiring local
+    voice talent for recording, or general speech services that do not support Konkani.
+  usage_reason: 推断：相较人工听写和预约播音员，它把录音直接转成文字、把罗马字文本直接合成语音，省掉逐句听打与排期录音这两步；做地方语言内容或档案的团队在需要快速拿到初稿时会选择它，但准确率与输出格式是否够用尚未核验。
+  usage_reason_en: 'Inference: compared with manual dictation and booking voice talent, it turns recordings
+    directly into text and Roman-script text directly into speech, removing the steps of typing out every
+    sentence and scheduling a recording session; teams producing regional-language content or archives
+    would choose it when they need a fast first draft, though whether accuracy and output formats are
+    sufficient is not yet verified.'

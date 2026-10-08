@@ -322,3 +322,57 @@
     model calls and Composio''s external service connections into one local Mac app, so the user states
     a task instead of orchestrating each step; for Mac users who want data to stay on-device and are willing
     to self-configure, this cuts the burden of cross-app switching and chaining.'
+- id: req-full-open-dot-2026-10-08
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-08T02:44:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把电脑上的跨服务操作交给本地自主代理执行，痛点在于现有做法需人逐步手动切换与触发；公开材料未给用户抱怨或案例，痛点与替代方式由工作流结构推理得出，交付闭环（本地运行、OpenAI
+      模型、Composio 连接外部服务）可确定，故价值关成立。
+    evidence_ids:
+    - ev-00b6c151db566158
+    - ev-49cfc4a7ce3f8085
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 427 增至 595，说明关注度上升，但星标只属规模与关注度证据，不能证明持续采用；公开材料没有用户评价、issue 讨论或客户案例，无法判断共识卡在感知、想象还是场景哪一环。
+    evidence_ids:
+    - ev-00b6c151db566158
+    - ev-78eca3e23312e31f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方与付费路径，作为开源 Mac 应用，钱可能来自 to C 个人订阅或 to B 团队支持，但这是判断而非已验证事实；缺少定价页与采购记录，无法确认收入来源。
+    evidence_ids:
+    - ev-00b6c151db566158
+  - gate: truth
+    status: insufficient
+    reason: 产品定位贴近本地自主执行这一第一性目标，但公开材料未说明交付边界、人工确认环节与安全边界，无法核验承诺能否确定性交付，也未提供可复现实测或部署文档。
+    evidence_ids:
+    - ev-00b6c151db566158
+    - ev-49cfc4a7ce3f8085
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际执行的任务类型、输入材料、交付结果与人工确认边界。
+  market: ''
+  job: 愿意自己动手的 Mac 用户在自己的电脑上打开 open-dot，把需要在本地机器上完成的电脑操作（如调用外部服务执行任务）交给一个本地自主运行的代理，由它调用 OpenAI 模型与 Composio
+    连接的外部服务执行，最后拿到完成的任务结果或待确认的操作。
+  job_en: A hands-on Mac user opens open-dot on their own computer and hands off computer-side tasks to
+    a locally running autonomous agent, which uses OpenAI models and Composio-connected external services
+    to execute them and returns finished results or operations awaiting confirmation.
+  pain: 公开材料只给出产品定位，没有用户抱怨、旧流程描述或客户案例，因此痛点只能从工作流结构推断：用户需要在本地机器上跨多个外部服务执行操作，而现有做法要求人逐步手动切换与操作，缺少一个在本地自主完成并回传结果的执行者。
+  pain_en: 'Public material only states the product positioning, with no user complaints, legacy workflow
+    description or customer cases, so the pain can only be inferred from workflow structure: users need
+    to execute operations across multiple external services on their own machine, while current practice
+    requires manual step-by-step switching, with no local autonomous executor returning results.'
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类任务；从产品形态推断，替代方式是用户自己在 Mac 上手动操作各外部服务，或使用不具备本地自主执行能力的通用聊天式助手。
+  current_alternative_en: Public material does not state how users previously did comparable tasks; inferred
+    from the product form, the alternative is the user manually operating each external service on the
+    Mac, or using general chat-style assistants without local autonomous execution.
+  usage_reason: 推断：相较手动逐个操作外部服务，open-dot 把执行动作放在用户自己的 Mac 上自主完成，并通过 Composio 连接外部服务，减少用户逐步切换与手动触发的那一步负担；愿意自己动手、在意数据留在本机的
+    Mac 用户会在需要跨服务执行电脑任务时选择它。公开材料未提供用户反馈或留存证据，此判断为结构推理。
+  usage_reason_en: 'Inference: compared with manually operating each external service, open-dot performs
+    the execution autonomously on the user''s own Mac and connects external services via Composio, removing
+    the step of switching and manually triggering each one; hands-on Mac users who care about keeping
+    data local would choose it when they need cross-service computer tasks executed. Public material provides
+    no user feedback or retention evidence, so this is structural reasoning.'

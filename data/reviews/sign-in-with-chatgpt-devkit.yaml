@@ -347,3 +347,56 @@
     callbacks and maintaining sessions, and the identity matches the ChatGPT account; developers of AI-related
     desktop or web tools who want users to enter as ChatGPT accounts would pick it at integration time.
     Stars rising from 9 to 30 shows attention, not sustained use.'
+- id: req-full-sign-in-with-chatgpt-devkit-2026-10-08
+  project_slug: sign-in-with-chatgpt-devkit
+  level: full
+  reviewed_at: '2026-10-08T02:45:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决第三方应用接入 ChatGPT 账号登录的需求：开发者需在自家产品里加登录入口，旧做法是自建 OAuth 或接第三方身份提供方，套件以本地 SDK、React 组件与示例降低从零实现认证的负担。痛点刚性属工作流结构推理，公开材料未给用户抱怨或采用数据。
+    evidence_ids:
+    - ev-d2f1d4fef160b2b4
+    - ev-eb7068337456b40a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 13 增至 34，说明开发者注意到该项目，但收藏与关注只是关注度证据，不能证明目标用户已把它留在工作流或持续使用；缺少 issue、discussion 或部署案例佐证强场景。
+    evidence_ids:
+    - ev-d2f1d4fef160b2b4
+    - ev-eb7068337456b40a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、商用条款或付费主体，钱可能来自 OpenAI 生态的开发者采用而非直接付费，这是判断而非已验证事实；缺定价页不取消真需求判定，但商业路径尚未核验。
+    evidence_ids:
+    - ev-d2f1d4fef160b2b4
+  - gate: truth
+    status: insufficient
+    reason: 套件承诺提供 SDK、组件与示例，但公开材料未说明权限范围、令牌安全边界与人工审核环节，交付能否稳定发生缺少可复现证据；示例存在不等于生产可用。
+    evidence_ids:
+    - ev-2e21115fb5f7aab1
+    - ev-eb7068337456b40a
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认权限范围、商用条款及是否有开发者公开报告已将其登录流程部署到生产应用。
+  market: ''
+  job: 第三方应用开发者（尤其做 AI 桌面或 Web 工具的小团队）在已有产品里需要让用户用 ChatGPT 账号完成登录与身份识别时，处理的是自家应用的账号体系与登录入口，要完成的任务是接入一套可复用的
+    SDK 与 React 组件，把 ChatGPT 账号登录嵌进自己的应用并跑通示例。
+  job_en: Developers of third-party apps (especially small teams building AI desktop or web tools) who
+    need users to sign in with a ChatGPT account handle their own app's account system and login entry;
+    the job is to integrate a reusable SDK and React components so ChatGPT account sign-in works inside
+    their product, using the Paste Perfect desktop example as a reference.
+  pain: 公开材料只说明该套件提供本地 SDK、可复用 React 组件、设计资源与示例，未披露开发者此前自建 OAuth/账号体系的具体耗时、出错率或不采用代价；痛点强度属于工作流结构推理，尚无用户抱怨或案例佐证。
+  pain_en: Public materials only state that the kit ships a local SDK, reusable React components, design
+    assets and an example; they do not disclose the time, error rate, or cost of building OAuth/account
+    systems by hand. Pain intensity is a workflow-structure inference, not yet backed by user complaints
+    or cases.
+  current_alternative: 开发者当前通常自行实现 OAuth 或账号体系，或接入 Google、公开代码仓库 等既有身份提供方；公开材料未说明该套件实际替代了哪一种做法，也未给出迁移或对比证据。
+  current_alternative_en: Developers today typically hand-roll OAuth or an account system, or integrate
+    existing identity providers such as Google or public code repository; public materials do not say
+    which practice this kit replaces, nor provide migration or comparison evidence.
+  usage_reason: 推断：相较自行实现登录流程，该套件以现成 React 组件与本地 SDK 减少从零编写认证与界面这一步，并附带可运行的桌面示例，因此做 ChatGPT 相关应用、希望复用官方身份入口的开发者会在需要快速接入登录时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with hand-rolling a login flow, the kit reduces the step of writing
+    auth and UI from scratch via ready-made React components and a local SDK, plus a runnable desktop
+    example, so developers building ChatGPT-related apps who want to reuse the official identity entry
+    would pick it when they need fast sign-in integration; public materials do not yet confirm this motive
+    via user feedback.'

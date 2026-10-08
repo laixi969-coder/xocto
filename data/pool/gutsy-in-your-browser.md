@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/kouhxp/gutsy-sheet
 summary: ''
 first_seen: '2026-10-07T14:56:19Z'
 last_seen: '2026-10-08T01:56:15Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

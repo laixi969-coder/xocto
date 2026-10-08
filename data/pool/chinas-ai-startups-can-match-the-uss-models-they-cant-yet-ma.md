@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTE5DTk5PNjcyV2hB
 summary: China’s AI startups can match the U.S.’s models. They can’t yet match the U.S.’s money Fortune
 first_seen: '2026-10-07T17:31:12Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

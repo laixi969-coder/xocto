@@ -449,3 +449,54 @@
     Tailscale network to turn cross-host help into a single call, removing the channel-building step,
     so developers already on Tailscale with agents spread across hosts would pick it for multi-machine
     work; there is no evidence users keep it in their workflow long term.'
+- id: req-full-agent-tincan-2026-10-08
+  project_slug: agent-tincan
+  level: full
+  reviewed_at: '2026-10-08T02:41:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是跨主机 agent 互相求助时的网络打通问题：旧做法是自建消息队列或 VPN，不解决则 agent 只能挤在一台机器上；复用 Tailscale 转发请求构成可确定的交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-e5ea33d5ba59ff79
+    - ev-da89e98d57378617
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 200 缓慢增至 236，说明有开发者持续关注，但公开材料没有 issue、discussion 或部署案例，无法判断是否形成使用共识，关注度不等于持续采用。
+    evidence_ids:
+    - ev-e5ea33d5ba59ff79
+    - ev-da89e98d57378617
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费或采购信息，买方与收费方式均未披露；按开源形态推断可能靠托管服务或企业支持变现，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e5ea33d5ba59ff79
+  - gate: truth
+    status: insufficient
+    reason: 它贴近让 agent 跨主机协作这一目标，但公开材料未披露鉴权边界、失败重试与人工确认环节，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-e5ea33d5ba59ff79
+    - ev-da89e98d57378617
+  next_validation: 追踪该项目的部署文档与仓库 issue/discussion，核对跨主机 agent 通信的鉴权边界、失败处理与真实部署案例。
+  market: ''
+  job: 开发者在自建或混合部署多个 AI agent、agent 分散在不同机器或网络时，处理的是 agent 之间互相求助的调用请求，要完成的任务是让这些跨主机 agent 能安全地互相调用，而不必为每个
+    agent 单独打通网络。
+  job_en: A developer running multiple AI agents across self-hosted or hybrid machines, with agents spread
+    over different hosts or networks, handles inter-agent help requests and must let those cross-host
+    agents call each other safely without punching network holes for each one.
+  pain: 公开材料点明场景是 agent 分散运行、需要互相求助；跨主机 agent 通信通常要处理网络可达与鉴权，逐个打通成本高。这是公开事实加工作流推理，具体痛点强度尚无用户材料佐证。
+  pain_en: 'The public material names the scenario: agents run in different places and need to ask each
+    other for help; cross-host agent communication normally requires solving reachability and auth, which
+    is costly to wire up per agent. This is public fact plus workflow inference, with pain intensity not
+    yet backed by user material.'
+  current_alternative: 旧做法是自建消息队列、HTTP 端点或 VPN 把 agent 连起来，或干脆让 agent 在同一台机器上运行以回避跨主机通信。
+  current_alternative_en: The old approach is wiring agents together with a self-built message queue,
+    HTTP endpoints, or a VPN, or simply keeping agents on one machine to avoid cross-host communication.
+  usage_reason: 推断：相较自建消息队列或 VPN，它复用 Tailscale 已有的网络与身份层，把 agent 间求助请求直接转发，省去为每个 agent 单独配置网络可达与鉴权这一步，因此已在用
+    Tailscale、又需要跨主机 agent 协作的开发者会在扩展 agent 数量时选择它；实际采用动机尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus a self-built queue or VPN, it reuses Tailscale''s existing network
+    and identity layer to forward inter-agent help requests, removing the step of configuring reachability
+    and auth per agent, so developers already on Tailscale who need cross-host agent collaboration would
+    pick it as agent count grows; actual adoption motive is not yet backed by user feedback.'

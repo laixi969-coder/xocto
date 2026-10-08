@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/slush-names-europes-20-tech-talents-un
 summary: ''
 first_seen: '2026-10-07T05:00:44Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

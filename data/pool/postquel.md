@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/postquel
 summary: Free native Postgres app for Mac with your own AI agents
 first_seen: '2026-10-05T16:36:31Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -399,3 +399,52 @@
     copywriting and assembly into one command after submitting a brief, with 3 recipes, 6 industry templates
     and ad-law checks, removing the manual burden of shot filtering and copy drafting; budget-limited
     merchants or marketers needing batch vertical assets would choose it in that situation.'
+- id: req-full-brewreel-2026-10-08
+  project_slug: brewreel
+  level: full
+  reviewed_at: '2026-10-08T02:42:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小商家只有简报和零散素材却要产出竖版宣传片的需求，痛点是剪辑与文案门槛；公开说明显示 AI 挑镜头、写文案、一条命令出片并含广告法校验，旧替代为人工剪辑或外包，不解决则投放素材产出慢。此为工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-f20cc8ea70fd5f52
+    - ev-b5240a680ff85c83
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 113 增至 138，说明开发者社区持续关注，但收藏与复刻只属关注度，不能证明目标商家已把它留在工作流或形成强场景共识。
+    evidence_ids:
+    - ev-f20cc8ea70fd5f52
+    - ev-b5240a680ff85c83
+  - gate: model
+    status: insufficient
+    reason: 项目开源可商用，公开材料未给出定价页、付费客户或采购记录，钱可能来自 to B 商家订阅或 to VC，属判断而非已验证事实，存在每日优鲜风险。
+    evidence_ids:
+    - ev-f20cc8ea70fd5f52
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称一条命令出片且含广告法校验，但未提供可复现的成片样例、镜头来源与人工复核边界，交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-f20cc8ea70fd5f52
+    - ev-b5240a680ff85c83
+  next_validation: 追踪 BrewReel 官方仓库的 README、issue 与 discussion，确认是否有商家实际部署、成片样例与广告法校验的人工边界。
+  market: ''
+  job: 小商家或营销人员手里只有一份产品简报和零散素材时，把简报交给 BrewReel，由 AI 挑选镜头、写文案并合成竖版宣传片，最终拿到一条可直接投放的成片；广告法校验结果仍需人工确认。
+  job_en: A small merchant or marketer with only a product brief and scattered footage hands the brief
+    to BrewReel, which selects shots, writes copy and assembles a vertical promo video, producing a ready-to-run
+    cut; ad-law checks still need human confirmation.
+  pain: 公开材料只说明它用便宜模型出片、内置广告法校验，未展示商家在剪辑、文案、合规上的具体耗时与不采用代价，痛点强度属工作流结构推理而非用户证据。
+  pain_en: Public materials only state that it produces videos with cheap models and includes ad-law checks;
+    they do not show the merchant's concrete time cost or consequence of not adopting, so pain intensity
+    is workflow inference, not user evidence.
+  current_alternative: 公开材料未说明用户当前如何完成竖版宣传片，常见旧做法是人工剪辑或外包，但这一替代路径未被项目证据直接证实。
+  current_alternative_en: Public materials do not state how users currently produce vertical promo videos;
+    the common old path is manual editing or outsourcing, but this is not directly confirmed by project
+    evidence.
+  usage_reason: 推断：相较人工剪辑或外包，它把挑镜头、写文案、合成三步压缩为提交一份简报后一条命令出片，并内置广告法校验，因此只有简报和零散素材、缺少剪辑能力的小商家或营销人员会在需要快速产出竖版宣传片时选择它。
+  usage_reason_en: 'Inference: versus manual editing or outsourcing, it compresses shot selection, copywriting
+    and assembly into one command after submitting a brief, with built-in ad-law checks, so small merchants
+    or marketers with only a brief and scattered footage and no editing capacity would choose it when
+    they need a vertical promo video quickly.'

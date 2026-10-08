@@ -781,3 +781,46 @@
     Codex can call directly, removing the step of rewriting cleaning and table code for every specification
     change and hand-checking numbers; applied micro researchers writing papers and needing a reproducible
     package for referees would pick it when changing specifications or preparing repli'
+- id: req-full-applied-micro-skills-2026-10-08
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-10-08T02:41:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，看是否有研究者报告复现审计或表格生成的实际使用结果与失败案例。
+  market: ''
+  job: 应用微观经济学研究者（博士生、青年教师、RA）在拿到 WRDS/行政数据后，用 Stata 或 Python 跑事件研究、LLM 流水线等实证分析，并整理成可投稿的论文表格，同时要让合作者或审稿人能复现出同样的数字。
+  job_en: Applied micro researchers (PhD students, junior faculty, RAs) take WRDS or administrative data,
+    run event studies and LLM-pipeline analyses in Stata or Python, produce publication-grade tables,
+    and must let coauthors or referees reproduce the same numbers.
+  pain: 公开材料显示该技能集针对的是复现审计与出版级表格这两类反复出现的环节；这类工作手工做时容易在数据版本、样本筛选和表格格式上出错，返工成本高，但公开证据里没有用户自述的具体代价或频率，痛点强度属工作流结构推理。
+  pain_en: The public description targets reproducibility auditing and publication-grade tables, recurring
+    steps where manual work easily breaks on data versions, sample filters, and table formatting; public
+    evidence contains no user-stated cost or frequency, so pain intensity is a workflow-structure inference.
+  current_alternative: 研究者目前通常靠自己的 Stata do-file、Python 脚本、实验室内部模板和口口相传的复现习惯来完成，没有统一的审计或表格生成流程；这是从产品定位反推的常见做法，公开材料未直接描述用户现状。
+  current_alternative_en: Researchers today rely on their own Stata do-files, Python scripts, lab-internal
+    templates, and word-of-mouth reproducibility habits, with no unified audit or table-generation flow;
+    this is inferred from the product positioning, not directly documented.
+  usage_reason: 推断：相较自己维护脚本和模板，它把复现审计、LLM 流水线方法和出版级表格封装成可调用的 skill，研究者不必从零重写检查逻辑或表格代码，因此正在做实证论文、需要向合作者交付可复现结果的经济学研究者会在写作与投稿阶段选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus maintaining one''s own scripts and templates, it packages reproducibility
+    auditing, LLM-pipeline methods, and publication-grade tables into callable skills, so researchers
+    need not rewrite check logic or table code from scratch; applied economists writing papers and delivering
+    reproducible results to coauthors would pick it up at the writing and submission stage. No public
+    user feedback yet confirms this motive.'

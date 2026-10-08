@@ -1,0 +1,89 @@
+- id: req-initial-figma-agent-2026-10-08
+  project_slug: figma-agent
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计稿生成与修改分散在两个工具、需手动重建图层这一痛点，任务具体且不采用就要多花搬运时间。
+    evidence_ids:
+    - ev-380314f70f7e1741
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，无投票、评论或采用数据，无法判断设计师是否真的把它纳入日常改稿。
+    evidence_ids:
+    - ev-380314f70f7e1741
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断是随 Figma 订阅打包还是单独计费，属未知而非失败。
+    evidence_ids:
+    - ev-380314f70f7e1741
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成结果是否需人工确认、是否与设计系统一致，交付确定性无法核对。
+    evidence_ids:
+    - ev-380314f70f7e1741
+  next_validation: 收集该功能的官方说明或定价页，确认可用编辑动作、是否随订阅提供及输出是否可直接交付。
+  market: ''
+  job: 产品设计师在画布里改稿或做原型时，用文字指令让它在同一画布上生成和修改设计稿，替代在工具间来回切换。
+  job_en: Product designers editing or prototyping on the canvas use text prompts to have it generate
+    and modify designs in the same canvas, replacing switching between tools.
+  pain: 设计稿的生成与修改此前分散在对话工具和设计工具之间，设计师需要反复复制粘贴并手动重建图层结构，这是工作流推理，材料未给出用户抱怨。
+  pain_en: Generating and revising designs was split between chat tools and design tools, forcing designers
+    to copy-paste and rebuild layer structure by hand; this is workflow inference, as the material gives
+    no user complaints.
+  current_alternative: 旧做法是在外部生成工具里出图，再手动导入设计工具重建图层与组件，或直接由设计师手绘。
+  current_alternative_en: The old practice was generating images in an external tool, then manually importing
+    them and rebuilding layers and components, or drawing by hand.
+  usage_reason: 推断：它把生成与修改放在同一画布内完成，省去导出再导入并重建图层这一步，因此已在用设计系统、需要反复迭代原型的设计师会在改稿阶段选择它；材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: it performs generation and editing inside the same canvas, removing the
+    export-import-and-rebuild step, so designers already using a design system and iterating on prototypes
+    would choose it during revision; the material offers no retention or repeat-use evidence.'
+- id: req-full-figma-agent-2026-10-08
+  project_slug: figma-agent
+  level: full
+  reviewed_at: '2026-10-08T02:42:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计稿生成与修改分散在两个工具、需手动重建图层这一痛点，任务具体且不采用就要多花搬运时间；这是工作流结构推理，材料未给出用户抱怨。
+    evidence_ids:
+    - ev-eec81822c06c5cef
+    - ev-ff41855dcf35751e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 Figma 官方画布定位与登录页描述，无投票、评论或采用数据，无法判断设计师是否真的把它纳入日常改稿。
+    evidence_ids:
+    - ev-eec81822c06c5cef
+    - ev-2d3f74b416a84b7d
+  - gate: model
+    status: insufficient
+    reason: 未披露该功能的定价与买方，无法判断是随 Figma 订阅打包还是单独计费，属未知而非失败。
+    evidence_ids:
+    - ev-fe58de5a56095758
+    - ev-370f2533f83dff61
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成结果是否需人工确认、是否与设计系统一致，交付确定性无法核对。
+    evidence_ids:
+    - ev-eec81822c06c5cef
+  next_validation: 收集 Figma 官方关于该 AI 功能的说明或定价页，确认可用编辑动作、是否随订阅提供及输出是否可直接交付。
+  market: ''
+  job: 产品设计师在 Figma 画布上改稿或做原型时，用文字指令让它在同一画布内生成和修改设计稿，替代在对话工具与设计工具之间来回搬运素材。
+  job_en: Product designers editing or prototyping on the Figma canvas use text prompts to have it generate
+    and modify designs in the same canvas, replacing shuttling assets between chat tools and design tools.
+  pain: 公开材料只说明 Figma 是设计、代码与 AI 汇合的画布，未给出设计师抱怨；从工作流结构推理，生成与修改分散在外部工具时，设计师需导出再导入并手动重建图层与组件，这是重复劳动。
+  pain_en: Public material only states Figma is a canvas where design, code and AI come together, with
+    no designer complaints; by workflow inference, when generation and editing sit in external tools,
+    designers must export, re-import and manually rebuild layers and components, which is repetitive labor.
+  current_alternative: 旧做法是在外部生成工具里出图，再手动导入 Figma 重建图层与组件，或由设计师直接手绘。
+  current_alternative_en: The old practice is generating images in an external tool, then manually importing
+    them into Figma to rebuild layers and components, or drawing by hand.
+  usage_reason: 推断：它把生成与修改放在同一画布内完成，省去导出再导入并重建图层这一步，因此已在用 Figma 设计系统、需要反复迭代原型的设计师会在改稿阶段选择它；材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: it performs generation and editing inside the same canvas, removing the
+    export-import-and-rebuild step, so designers already using a Figma design system and iterating on
+    prototypes would choose it during revision; the material offers no retention or repeat-use evidence.'

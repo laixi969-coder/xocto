@@ -81,3 +81,82 @@
   usage_reason: 现有证据全部指向同名帆船与刚性充气艇品牌，与 AI 编码代理沙箱无关，无法说明任何用户为何会选择它。
   usage_reason_en: All available evidence points to a sailing vessel type and a rigid inflatable boat
     brand, unrelated to an AI coding agent sandbox, so no reason any user would choose it can be stated.
+- id: req-initial-brig-2026-10-08
+  project_slug: brig
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理命令在本机执行带来的环境污染与恢复成本，旧做法是手工容器或逐条审查，痛点具体且不采用有代价。
+    evidence_ids:
+    - ev-94e36338290ddb8b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有技术社区少量讨论，没有用户评价、客户案例或重复使用证据，无法判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方是个人开发者还是工程团队尚不清楚，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句定位，无法核验沙箱的隔离强度、命令边界与人工确认机制是否可靠。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认沙箱隔离机制、支持的命令范围以及是否有团队级使用反馈。
+  market: ''
+  job: 开发工程师在本地 Mac 或 Linux 上让 AI 编码代理执行安装依赖、跑测试或改文件等命令时，需要在不污染本机环境的前提下完成这些操作。
+  job_en: Software engineers running AI coding agents locally on Mac or Linux need commands such as dependency
+    installs, test runs or file edits to execute without polluting their own machine.
+  pain: 代理直接在本机执行命令会改动全局依赖、写入敏感目录或留下难以清理的残留，出错后排查和恢复成本高。
+  pain_en: Agents executing commands directly on the host can alter global dependencies, write into sensitive
+    directories or leave hard-to-clean residue, making failure diagnosis and recovery costly.
+  current_alternative: 常见做法是手动 review 每条命令、用容器或虚拟机自行搭建隔离环境，或干脆不让代理执行命令。
+  current_alternative_en: Common workarounds are manually reviewing each command, hand-building isolation
+    with containers or VMs, or simply not letting agents execute commands.
+  usage_reason: 相较手工搭容器或逐条审查命令，它把隔离环境的创建和代理命令的执行收进一个本地沙箱动作，减少搭建与清理这一步负担；推断需要频繁让代理跑命令又担心本机被改动的开发者会因此选择它。
+  usage_reason_en: Compared with hand-building containers or reviewing every command, it folds sandbox
+    creation and agent command execution into one local action, removing the setup and cleanup step; by
+    inference, developers who frequently let agents run commands but worry about host changes would choose
+    it.
+- id: req-full-brig-2026-10-08
+  project_slug: brig
+  level: full
+  reviewed_at: '2026-10-08T02:42:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向同名帆船与刚性充气艇品牌，与 MicroVM 沙箱无关，无法还原用户任务、痛点与替代方式，价值结构无从判断。
+    evidence_ids:
+    - ev-b820160108be6a52
+    - ev-b0d6f30328e236e3
+    - ev-7a4e47885be84c75
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目官方仓库或官网的 README 与 issue/discussion，确认 MicroVM 沙箱的隔离机制、支持的命令范围与是否有用户使用反馈。
+  market: ''
+  job: 开发者在本地 Mac 或 Linux 上运行 AI 编码代理时，把代理要执行的命令放进 MicroVM 沙箱里跑，而不是直接落在自己的开发机上。
+  job_en: Developers running AI coding agents locally on Mac or Linux execute the agent's commands inside
+    a MicroVM sandbox instead of directly on their own machine.
+  pain: 公开材料中没有可引用的用户痛点、抱怨或 workaround 记录，无法确认代理直接在本机执行命令带来的具体损失。
+  pain_en: The public material contains no citable user pain, complaint or workaround record, so the concrete
+    cost of agents executing commands directly on the host cannot be confirmed.
+  current_alternative: 公开材料未提供任何关于现有替代方式的信息。
+  current_alternative_en: The public material provides no information about current alternatives.
+  usage_reason: 缺少可引用的产品说明、用户反馈或采用证据，无法解释用户为何会选择它。
+  usage_reason_en: With no citable product description, user feedback or adoption evidence, there is no
+    basis to explain why users would choose it.

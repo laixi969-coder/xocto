@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/LiquidAI/system-one-arcade
 summary: Ten camera, drawing and text demos of d1-3B
 first_seen: '2026-10-07T09:32:04Z'
 last_seen: '2026-10-08T01:56:15Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

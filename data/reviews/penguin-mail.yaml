@@ -82,3 +82,88 @@
   usage_reason_en: 'Inference: if AI could handle mail inside a local client, users would save a copy-to-external-assistant
     step, but public material does not describe the AI''s concrete actions or results, so the reason to
     choose it is not established.'
+- id: req-initial-penguin-mail-2026-10-08
+  project_slug: penguin-mail
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 Linux 桌面处理邮件耗时的问题，痛点方向成立，但材料未说明 AI 具体替代哪一步手工操作，价值结构无法确认。
+    evidence_ids:
+    - ev-e1165eb1f5f717e5
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论帖有约 230 点与 176 条评论，属关注度信号，不能证明持续采用；且讨论内容未在材料中给出。
+    evidence_ids:
+    - ev-e1165eb1f5f717e5
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径，买方与收费方式均未披露，无法判断钱从哪来。
+    evidence_ids:
+    - ev-e1165eb1f5f717e5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 输出是否准确、是否需人工确认，也未说明本地处理与隐私边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-e1165eb1f5f717e5
+  next_validation: 收集 Penguin Mail 官方仓库的 README 与 issue/discussion，确认 AI 具体处理哪些邮件内容、输出什么结果以及是否需人工确认。
+  market: ''
+  job: Linux 桌面用户在日常处理收件箱时，需要阅读、分类并回复邮件，希望减少逐封手动处理的时间。
+  job_en: Linux desktop users handling their inbox daily need to read, sort and reply to email, hoping
+    to cut the time spent on each message by hand.
+  pain: 收件箱邮件量大、逐封阅读与分类耗时，Linux 桌面又缺少与主流客户端体验相当的本地选择；但本次材料未说明 AI 究竟缓解哪一步痛苦。
+  pain_en: Inboxes are large and reading and sorting each message takes time, and Linux desktops lack
+    a local option comparable to mainstream clients; the material does not say which step of that pain
+    the AI relieves.
+  current_alternative: 使用 Thunderbird、Evolution 等 Linux 邮件客户端，或直接用网页邮箱，手动阅读、打标签和回复。
+  current_alternative_en: Using Linux mail clients such as Thunderbird or Evolution, or webmail directly,
+    reading, labeling and replying by hand.
+  usage_reason: 推断：若 AI 能在本地对邮件做分类或起草回复，用户可省去逐封打开和手动打标签的一步，因此隐私敏感、长期用 Linux 桌面的用户可能选择它；但材料未给出 AI 的具体动作，也未提供留存或重复使用证据，无法确认用户已把它留在工作流里。
+  usage_reason_en: 'Inference: if the AI can locally classify mail or draft replies, users could skip
+    opening and labeling each message by hand, so privacy-sensitive long-term Linux desktop users might
+    choose it. However, the material gives no concrete AI action and no retention or repeat-use evidence,
+    so it cannot be claimed that users keep it in their workflow.'
+- id: req-full-penguin-mail-2026-10-08
+  project_slug: penguin-mail
+  level: full
+  reviewed_at: '2026-10-08T02:44:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 Linux 桌面处理邮件耗时的问题，痛点方向成立，但材料未说明 AI 具体替代哪一步手工操作，价值结构无法确认。
+    evidence_ids:
+    - ev-e1165eb1f5f717e5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Penguin Mail 官方仓库的 README 与 issue/discussion，确认 AI 具体处理哪些邮件内容、输出什么结果以及是否需人工确认。
+  market: ''
+  job: Linux 桌面用户在日常处理收件箱时，需要阅读、分类并回复邮件，希望减少逐封手动处理的时间。
+  job_en: Linux desktop users handling their inbox daily need to read, sort and reply to email, hoping
+    to cut the time spent on each message by hand.
+  pain: 收件箱邮件量大、逐封阅读与分类耗时，Linux 桌面又缺少与主流客户端体验相当的本地选择；但本次材料未说明 AI 究竟缓解哪一步痛苦。
+  pain_en: Inboxes are large and reading and sorting each message takes time, and Linux desktops lack
+    a local option comparable to mainstream clients; the material does not say which step of that pain
+    the AI relieves.
+  current_alternative: 使用 Thunderbird、Evolution 等 Linux 邮件客户端，或直接用网页邮箱，手动阅读、打标签和回复。
+  current_alternative_en: Using Linux mail clients such as Thunderbird or Evolution, or webmail directly,
+    reading, labeling and replying by hand.
+  usage_reason: 推断：若 AI 能在本地对邮件做分类或起草回复，用户可省去逐封打开和手动打标签的一步，因此隐私敏感、长期用 Linux 桌面的用户可能选择它；但材料未给出 AI 的具体动作，也未提供留存或重复使用证据，无法确认用户已把它留在工作流里。
+  usage_reason_en: 'Inference: if the AI can locally classify mail or draft replies, users could skip
+    opening and labeling each message by hand, so privacy-sensitive long-term Linux desktop users might
+    choose it. However, the material gives no concrete AI action and no retention or repeat-use evidence,
+    so it cannot be claimed that users keep it in their workflow.'

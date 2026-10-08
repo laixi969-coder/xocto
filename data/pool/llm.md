@@ -21,7 +21,7 @@ canonical_url: https://llm.manogya.dev
 summary: Every number in a tiny GPT, from one forward pass to one step of RLHF
 first_seen: '2026-10-07T11:44:37Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

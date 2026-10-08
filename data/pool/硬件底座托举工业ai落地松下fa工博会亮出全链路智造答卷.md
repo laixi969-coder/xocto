@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTFBuVFIzVkZTQ0JK
 summary: 硬件底座托举工业AI落地，松下FA工博会亮出全链路智造答卷 中华网
 first_seen: '2026-10-08T01:45:37Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

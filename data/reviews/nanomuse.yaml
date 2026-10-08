@@ -193,3 +193,54 @@
     when no API exists, removing the step of staying at the device clicking through; asking before irreversible
     actions lets users who dare not hand over automation use it unattended. Public materials contain no
     user feedback, retention or customer cases, so the adoption motive is a structural infer'
+- id: req-full-nanomuse-2026-10-08
+  project_slug: nanomuse
+  level: full
+  reviewed_at: '2026-10-08T02:44:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨设备重复操作与应用关闭后任务中断的需求，痛点在于手动切换、任务中断和不可撤销动作难撤回；常驻执行加确认边界构成可确定的交付闭环，属工作流结构推理，公开材料未给具体任务清单与实测。
+    evidence_ids:
+    - ev-75131233d947affc
+    - ev-0e60cff95ec33211
+    - ev-cff75c5cfedd5c3e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 224 星标与开源发布只说明开发者关注度，未见用户评价、复刻采用或场景讨论，无法确认跨设备常驻代理这一场景已形成共识。
+    evidence_ids:
+    - ev-22bd5c522a86a3f2
+    - ev-60bae50ce3a09021
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，官网称含免费模型额度或可接任意 OpenAI 兼容模型，钱可能来自模型额度或托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a6a8be8ae7563384
+    - ev-cc09255b88bfe829
+  - gate: truth
+    status: insufficient
+    reason: 不可撤销操作前确认的设计贴近安全边界，但缺少部署文档、issue 或实测来核对常驻执行与跨设备动作能否确定性交付，承诺兑现程度未知。
+    evidence_ids:
+    - ev-1fff6c443935f374
+    - ev-8a09acbbf967361e
+  next_validation: 追踪 nanoMuse 官方 公开代码仓库 仓库的 issue、discussion 与部署文档，核对它实际支持的任务类型、常驻执行可靠性与不可撤销操作确认机制。
+  market: ''
+  job: 个人用户在自己的手机、电脑或浏览器上，把跨设备的日常操作（如在本机应用与浏览器之间搬运信息、执行重复动作）交给一个常驻智能体，由它调用本机与浏览器完成动作，并在不可撤销操作前先确认。
+  job_en: An individual hands cross-device routine operations (moving information between local apps and
+    the browser, repeating actions) to a resident agent on their phone, computer or browser, which executes
+    via local and browser actions and asks before irreversible steps.
+  pain: 跨设备操作要在多个应用间来回切换并手动重复；应用一关任务就中断；自动化动作一旦出错难以撤回，用户不敢放手。
+  pain_en: Cross-device work means switching among apps and repeating steps manually; tasks stop when
+    the app closes; automated actions are hard to undo once wrong, so users dare not let go.
+  current_alternative: 用户目前靠手动逐步操作、系统快捷指令或自写脚本，以及通用对话助手；这些要么不常驻、要么没有不可撤销操作的确认边界。
+  current_alternative_en: Users currently rely on manual step-by-step operation, OS shortcuts or self-written
+    scripts, and general chat assistants; these are either not resident or lack a confirmation boundary
+    for irreversible actions.
+  usage_reason: 推断：相较手动逐步操作，它把执行放进常驻进程（应用关闭后仍继续），并在不可撤销动作前停下确认，减少用户守在设备前逐步点击这一步；对需要在手机上跑长任务又担心误操作的个人用户，这种常驻加确认的组合是选择理由。公开材料尚无用户反馈或留存证据，故为结构推断。
+  usage_reason_en: 'Inference: versus manual step-by-step operation, it moves execution into a resident
+    process (keeps running after the app closes) and pauses for confirmation before irreversible actions,
+    removing the step of staying at the device clicking through; for individuals running long tasks on
+    a phone while wary of mistakes, this resident-plus-confirmation combination is the reason to choose
+    it. Public materials show no user feedback or retention, so this is structural inference.'

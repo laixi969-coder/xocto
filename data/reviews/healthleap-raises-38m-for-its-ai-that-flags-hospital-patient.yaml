@@ -1,0 +1,92 @@
+- id: req-initial-healthleap-raises-38m-for-its-ai-that-flags-hospital-patient-2026-10-08
+  project_slug: healthleap-raises-38m-for-its-ai-that-flags-hospital-patient
+  level: initial
+  reviewed_at: '2026-10-08T01:56:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决住院病人恶化信号被淹没、人工无法持续盯盘的问题，漏判后果严重，旧做法是巡房加人工翻查病历，痛点刚性。
+    evidence_ids:
+    - ev-330f6b8a0b99ff2d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资信息，未见医院客户名单、部署案例或临床团队的实际使用反馈，共识环节缺证据。
+    evidence_ids:
+    - ev-330f6b8a0b99ff2d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按床位还是按病区收费、买方是医院还是科室，钱从哪来只能推断为 to B 或 to G，属判断而非已验证事实。
+    evidence_ids:
+    - ev-330f6b8a0b99ff2d
+  - gate: truth
+    status: insufficient
+    reason: 未见告警准确率、误报处理流程、临床责任归属与人工复核边界的公开说明，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-330f6b8a0b99ff2d
+  next_validation: 收集 Healthleap 官方定价或部署文档，以及医院客户案例中关于告警准确率与人工复核流程的公开说明。
+  market: ''
+  job: 临床医生与住院护理团队在查房或值班时，面对住院患者的病历、检验与监护数据，需要判断哪些病人病情可能恶化并优先复核。
+  job_en: Clinicians and inpatient care teams reviewing charts, lab and monitoring data during rounds
+    or shifts to decide which hospitalized patients may be deteriorating and need closer review.
+  pain: 住院病人数量多、数据分散，恶化信号常被淹没在常规工作中，漏判的后果严重，而人力无法持续盯住每一位病人。
+  pain_en: With many inpatients and scattered data, deterioration signals get buried in routine work;
+    a missed case is costly, and staff cannot continuously watch every patient.
+  current_alternative: 依靠护士定时巡房、生命体征记录和医生经验判断，或使用院内既有规则型早期预警评分，人工翻查病历与检验结果。
+  current_alternative_en: Periodic nurse rounds, vital-sign charting and clinician judgment, or existing
+    rule-based early-warning scores, with manual chart and lab review.
+  usage_reason: 相较人工翻查病历和固定阈值评分，它把分散的患者数据集中筛查并直接标出需要优先复核的对象，减少“先找谁看”这一步的检索负担，因此病区护理与值班医生在病人多、盯不过来时会考虑使用；这是基于产品能力的推断，尚无公开的临床采用或留存证据。
+  usage_reason_en: Compared with manual chart review and fixed-threshold scores, it screens scattered
+    patient data and directly flags who to review first, cutting the search step of deciding whom to look
+    at; ward nurses and on-call physicians facing too many patients may therefore consider it. This is
+    inference from product capability, with no public clinical adoption or retention evidence yet.
+- id: req-full-healthleap-raises-38m-for-its-ai-that-flags-hospital-patient-2026-10-08
+  project_slug: healthleap-raises-38m-for-its-ai-that-flags-hospital-patient
+  level: full
+  reviewed_at: '2026-10-08T02:43:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决住院病人恶化或未确诊信号被淹没、人工无法持续盯盘的问题，漏判后果严重，旧做法是巡房加人工翻查病历与规则型筛查，痛点刚性、交付对象明确。
+    evidence_ids:
+    - ev-224f0b006f7708fa
+    - ev-7c59d787511a317f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与官网自述，未见医院客户名单、部署案例或临床团队实际使用反馈，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-8ec82c22f8ea15fe
+    - ev-224f0b006f7708fa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按床位还是按病区收费，买方是医院、科室还是医保方只能推断为 to B 或 to G，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8ec82c22f8ea15fe
+  - gate: truth
+    status: insufficient
+    reason: 未见告警准确率、误报处理流程、临床责任归属与人工复核边界的公开说明，承诺能否确定性交付尚无法核对。
+    evidence_ids:
+    - ev-224f0b006f7708fa
+    - ev-7c59d787511a317f
+  next_validation: 追踪 Healthleap 官网定价或部署文档，以及医院客户案例中关于告警准确率与人工复核流程的公开说明。
+  market: ''
+  job: 临床医生与住院护理团队在查房或值班时，面对住院患者的病历、检验与监护数据，需要判断哪些病人病情可能恶化或存在未确诊状况并优先复核。
+  job_en: Clinicians and inpatient care teams reviewing charts, labs and monitoring data during rounds
+    or shifts to decide which hospitalized patients may be deteriorating or have undiagnosed conditions
+    and need closer review.
+  pain: 住院病人多、数据分散在病历与检验系统中，恶化或未确诊信号容易被常规工作淹没；漏判会延误干预并影响报销与住院时长，而人力无法持续盯住每位病人。
+  pain_en: With many inpatients and data scattered across charts and lab systems, deterioration or undiagnosed
+    signals get buried in routine work; a missed case delays intervention and affects reimbursement and
+    length of stay, while staff cannot continuously watch every patient.
+  current_alternative: 依靠护士定时巡房、生命体征记录和医生经验判断，或使用院内既有规则型筛查工具，人工翻查病历与检验结果。
+  current_alternative_en: Periodic nurse rounds, vital-sign charting and clinician judgment, or existing
+    rule-based screening tools, with manual chart and lab review.
+  usage_reason: 相较人工翻查病历和固定阈值筛查，它把分散的患者数据集中读取并直接标出需要优先复核的对象，减少“先找谁看”这一步检索负担，并声称在营养筛查等场景更早发现、影响报销与住院时长；因此病区护理与值班医生在病人多、盯不过来时可能选择它。这是基于产品说明与工作流结构的推断，尚无公开临床采用或留存证据。
+  usage_reason_en: Compared with manual chart review and fixed-threshold screening, it reads scattered
+    patient data and directly flags who to review first, cutting the search step of deciding whom to look
+    at, and claims earlier detection in areas like malnutrition screening with impact on reimbursement
+    and length of stay; ward nurses and on-call physicians facing too many patients may therefore choose
+    it. This is inference from product description and workflow structure, with no public clinical

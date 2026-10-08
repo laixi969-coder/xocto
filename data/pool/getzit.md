@@ -21,7 +21,7 @@ canonical_url: https://getzit.org
 summary: Git extension for controlling Git worktree mess
 first_seen: '2026-10-07T04:01:55Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

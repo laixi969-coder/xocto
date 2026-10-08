@@ -1,0 +1,86 @@
+- id: req-initial-moyai-2026-10-08
+  project_slug: moyai
+  level: initial
+  reviewed_at: '2026-10-08T01:55:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是长耗时编码任务占用开发者时间、且难以自托管的问题，痛点具体、旧做法明确，属于工作流推理。
+    evidence_ids:
+    - ev-e76858eb9e25bd26
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 142 星、17 次分叉，规模有限，尚无用户评价或团队采用案例，无法判断是否形成共识。
+    evidence_ids:
+    - ev-e76858eb9e25bd26
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是自建团队或企业，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e76858eb9e25bd26
+  - gate: truth
+    status: insufficient
+    reason: 未提供任务成功率、人工复核边界或安全隔离说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-e76858eb9e25bd26
+  next_validation: 收集该仓库的 issue 与 discussion，核对是否有团队报告实际任务完成率、自托管部署方式与人工复核流程。
+  market: ''
+  job: 软件工程师在维护既有代码库时，需要处理批量重构、依赖升级、测试补齐等耗时且重复的编码任务，把改动交给后台代理执行后取回代码变更。
+  job_en: Software engineers maintaining an existing codebase need to handle time-consuming, repetitive
+    coding work such as bulk refactors, dependency upgrades and test coverage, handing the changes to
+    a background agent and retrieving the resulting code changes.
+  pain: 这类任务单次耗时长、打断主线开发，且必须在本地环境反复运行；现有做法要么人工排队执行，要么依赖单一厂商的云端代理，难以自托管或更换模型。
+  pain_en: Such tasks are long-running, interrupt main development and must be run repeatedly in a local
+    environment; current practice is either manual queuing or relying on a single vendor's cloud agent,
+    with little self-hosting or model choice.
+  current_alternative: 工程师手动在终端或编辑器里逐个执行任务，或使用单一厂商的云端编码代理，任务排队与模型选择受平台限制。
+  current_alternative_en: Engineers run tasks one by one in a terminal or editor, or use a single vendor's
+    cloud coding agent, with queuing and model choice constrained by that platform.
+  usage_reason: 推断：相较手动逐个执行或绑定单一厂商，它把任务放到自托管后台并允许切换 100 多个模型提供方，减少等待与厂商锁定这一步负担，因此在意数据留在自有环境、又想控制模型成本的团队会优先试用。
+  usage_reason_en: 'Inference: compared with running tasks manually or being tied to one vendor, it moves
+    work to a self-hosted background and allows switching among 100+ providers, removing the waiting and
+    lock-in step, so teams that want data kept in-house and model cost control are likely to try it first.'
+- id: req-full-moyai-2026-10-08
+  project_slug: moyai
+  level: full
+  reviewed_at: '2026-10-08T02:44:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向 Moai 表情符号与日本 Moyai 石像，未出现任何关于该编码代理的用户任务、痛点或替代行为，连需求与痛点都无法写出，价值关不成立。
+    evidence_ids:
+    - ev-12b63d7f2121f42d
+    - ev-5c2b83cf9fc8ac5c
+    - ev-7f7bebee55dae470
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 moyai 项目自身的官方仓库或官网（README、issue、discussion、部署文档），确认其是否真实存在、提供何种编码代理能力及是否有用户使用记录。
+  market: ''
+  job: 开发者（软件工程师）在维护既有代码库时，希望把批量重构、依赖升级、补测试等长耗时编码任务交给后台代理执行，最终取回代码变更并自行复核合并。
+  job_en: Developers (software engineers) maintaining an existing codebase want to hand long-running coding
+    tasks such as bulk refactors, dependency upgrades and test coverage to a background agent, then retrieve
+    the code changes and review/merge them themselves.
+  pain: 公开证据中没有任何关于该产品用户痛点的材料：现有证据全部指向 Moai 表情符号与日本 Moyai 石像，未出现开发者抱怨、workaround 或采用行为，无法确认痛点真实存在。
+  pain_en: 'No public evidence describes user pain for this product: all available evidence concerns the
+    Moai emoji and the Japanese Moyai statue, with no developer complaints, workarounds or adoption behavior,
+    so the pain cannot be confirmed as real.'
+  current_alternative: 公开材料未提供任何关于当前替代方式的信息，无法说明开发者现在如何完成这类后台编码任务。
+  current_alternative_en: Public material provides no information on current alternatives, so it is impossible
+    to say how developers currently handle such background coding tasks.
+  usage_reason: 无法给出使用理由：证据中不存在产品能力、用户反馈或采用记录，任何关于为何选择它的说法都只能是无依据的推断。
+  usage_reason_en: 'No usage reason can be given: the evidence contains no product capability, user feedback
+    or adoption record, so any claim about why users would choose it would be unsupported speculation.'

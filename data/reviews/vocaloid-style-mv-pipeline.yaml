@@ -1,0 +1,92 @@
+- id: req-initial-vocaloid-style-mv-pipeline-2026-10-08
+  project_slug: vocaloid-style-mv-pipeline
+  level: initial
+  reviewed_at: '2026-10-08T01:55:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手绘歌词 MV 逐帧制作与歌词运动的手工负担，痛点在于风格一致性与多比例输出，旧做法是手工绘制或整支外包。
+    evidence_ids:
+    - ev-eca67de915b0ec18
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 58 星与 6 次复刻，说明有开发者关注，但没有用户评价或重复使用证据，无法判断是否形成稳定共识。
+    evidence_ids:
+    - ev-eca67de915b0ec18
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是个人创作者或工作室；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-eca67de915b0ec18
+  - gate: truth
+    status: insufficient
+    reason: 管线依赖 AI 插画与 Blender 渲染，成片效果仍需人工确认，公开材料未给出可核对的交付结果。
+    evidence_ids:
+    - ev-eca67de915b0ec18
+  next_validation: 收集该仓库的 issue、discussion 或示例成片，确认管线实际产出的 MV 效果与人工确认环节。
+  market: ''
+  job: 制作 Vocaloid 风格手绘歌词 MV 的创作者，在拿到歌词与插画素材后，需要把它们合成为带歌词运动与卡通渲染的成片，并输出 16:9 或 9:16 版本。
+  job_en: Creators making Vocaloid-style hand-drawn lyric music videos who, after obtaining lyrics and
+    illustration assets, need to combine them into a finished cut with lyric motion and toon rendering,
+    output in 16:9 or 9:16.
+  pain: 手绘歌词 MV 的逐帧动画与歌词运动原本要手工完成，风格一致性难保证，且需要分别导出横竖版。
+  pain_en: Frame-by-frame animation and lyric motion for hand-drawn lyric music videos were originally
+    done by hand, style consistency was hard to guarantee, and horizontal and vertical versions had to
+    be exported separately.
+  current_alternative: 旧做法是手工逐帧绘制与合成，或把整支 MV 外包给动画团队。
+  current_alternative_en: The prior approach was hand-drawing and compositing frame by frame, or outsourcing
+    the whole music video to an animation team.
+  usage_reason: 推断：它用确定性动画引擎与歌词运动模板替代逐帧手工绘制，并一次渲染出横竖两版，创作者因此不必重复处理同一段歌词动画，所以制作同人 MV 的个人或小工作室会在需要稳定风格与多比例输出时选择它。
+  usage_reason_en: 'Inference: it replaces frame-by-frame hand drawing with a deterministic animation
+    engine and lyric-motion templates, and renders both horizontal and vertical versions in one pass,
+    so creators do not have to redo the same lyric animation; individuals or small studios making fan
+    music videos would therefore choose it when they need consistent style and multi-ratio output.'
+- id: req-full-vocaloid-style-mv-pipeline-2026-10-08
+  project_slug: vocaloid-style-mv-pipeline
+  level: full
+  reviewed_at: '2026-10-08T02:45:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手绘歌词 MV 的逐帧动画与歌词运动手工负担，痛点是风格一致性难保证、横竖版需分别重做，旧做法是手工绘制或整支外包；仓库公开说明已能还原输入—动作—交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-eca67de915b0ec18
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 58 星，说明有开发者关注，但公开材料没有用户评价、复刻使用或重复采用证据，无法判断是否形成稳定共识；关注度不等于持续采用。
+    evidence_ids:
+    - ev-eca67de915b0ec18
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，买方可能是个人创作者、同人社团或小型工作室；这是基于交付形态的判断，不是已验证的付费事实。
+    evidence_ids:
+    - ev-eca67de915b0ec18
+  - gate: truth
+    status: insufficient
+    reason: 管线依赖 AI 插画与 Blender 卡通渲染，歌词运动与画面效果仍需人工确认，公开材料未给出可核对的成片交付结果或安全边界说明。
+    evidence_ids:
+    - ev-eca67de915b0ec18
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 示例成片链接，确认管线实际产出的 MV 效果、人工确认环节与是否出现重复使用者反馈。
+  market: ''
+  job: 制作 Vocaloid 风格手绘歌词 MV 的独立创作者或小工作室，在已有歌词文本与插画素材的情况下，需要把它们合成为带歌词运动与卡通渲染的成片，并同时交付 16:9 与 9:16 两个版本。
+  job_en: Independent creators or small studios making Vocaloid-style hand-drawn lyric music videos who,
+    holding lyric text and illustration assets, need to combine them into a finished cut with lyric motion
+    and toon rendering, delivering both 16:9 and 9:16 versions.
+  pain: 手绘歌词 MV 的逐帧动画与歌词运动原本靠手工完成，风格一致性难保证，横竖两版还要分别重做一遍；不解决就只能压缩产量或放弃多平台分发。
+  pain_en: Frame-by-frame animation and lyric motion in hand-drawn lyric videos were done manually, style
+    consistency was hard to hold, and horizontal and vertical cuts each had to be redone; leaving it unsolved
+    means cutting output or giving up multi-platform distribution.
+  current_alternative: 旧做法是手工逐帧绘制与合成，或把整支 MV 外包给动画团队，成本与周期都高。
+  current_alternative_en: The prior approach was hand-drawing and compositing frame by frame, or outsourcing
+    the whole music video to an animation team, both costly and slow.
+  usage_reason: 推断：相较逐帧手绘，它用确定性 Canvas2D/WebGL2 动画引擎与 JIZURA 歌词运动模板生成歌词动画，并用无头渲染一次导出 16:9 与 9:16，省掉重复处理同一段歌词动画和二次排版这一步；因此需要稳定风格与多比例输出的同人
+    MV 作者会在赶稿时选它。
+  usage_reason_en: 'Inference: versus frame-by-frame hand drawing, it generates lyric animation via a
+    deterministic Canvas2D/WebGL2 engine and JIZURA lyric-motion templates, and headless-renders 16:9
+    and 9:16 in one pass, removing the step of redoing the same lyric animation and re-laying out for
+    a second ratio; fan-MV creators needing consistent style and multi-ratio output would pick it under
+    deadline.'

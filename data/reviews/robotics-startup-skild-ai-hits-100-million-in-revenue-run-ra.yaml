@@ -87,3 +87,95 @@
     and motion capability across stations, on-site teams no longer rewrite control logic for each new
     task, removing the per-station re-tuning step; that leads warehouse and line users with frequently
     changing tasks to evaluate it first when adding stations.'
+- id: req-initial-robotics-startup-skild-ai-hits-100-million-in-revenue-run-ra-2026-10-08
+  project_slug: robotics-startup-skild-ai-hits-100-million-in-revenue-run-ra
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人部署中每个任务、每个机型都要重写控制与感知程序的问题，痛点是部署周期与成本刚性，不采用就要持续投入定制开发；买方与付费路径在公开材料中尚不清晰。
+    evidence_ids:
+    - ev-71770ed2f28e4ad8
+  - gate: consensus
+    status: insufficient
+    reason: 候选材料只给出收入运行率与估值报道，没有客户名称、部署数量或行业内的公开采用讨论，无法判断共识是否形成。
+    evidence_ids:
+    - ev-71770ed2f28e4ad8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、收费方式或合同结构，无法判断是模型授权、按机器人台数还是按项目收费；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-71770ed2f28e4ad8
+  - gate: truth
+    status: insufficient
+    reason: 通用模型能否在真实产线确定性交付、安全边界与人工介入方式均未在材料中说明，收入运行率本身不证明交付可靠性。
+    evidence_ids:
+    - ev-71770ed2f28e4ad8
+  next_validation: 收集 Skild AI 官方定价或部署文档，以及公开客户案例中披露的具体机型、任务与交付结果。
+  market: ''
+  job: 机器人集成商与制造、仓储企业的自动化负责人在部署新机型或新工位时，需要让机器人完成抓取、搬运、分拣等具体动作，并处理现场传感器数据与任务指令。
+  job_en: Automation leads at robot integrators and manufacturing or warehousing firms must make robots
+    perform specific actions such as grasping, moving and sorting when deploying a new model or workstation,
+    handling on-site sensor data and task instructions.
+  pain: 传统做法要为每个任务和机型单独开发控制与感知程序，周期长、复用差，换线或换机型就要重做，导致部署成本高、上线慢。
+  pain_en: The traditional approach requires separate control and perception programs for each task and
+    robot model, which is slow and poorly reusable; changing a line or model means redoing the work, raising
+    deployment cost and delaying go-live.
+  current_alternative: 由集成商或内部工程团队逐项目定制开发，或采购厂商自带的专用控制软件，通常绑定单一硬件品牌。
+  current_alternative_en: Custom development per project by integrators or in-house engineering teams,
+    or vendor-supplied dedicated control software usually tied to a single hardware brand.
+  usage_reason: 推断：相较逐项目定制，通用模型把感知与控制策略做成可跨机型复用的资产，减少为新任务从零写程序这一步，因此多机型、多工位并行部署的集成商和自动化团队更可能选择它；候选材料未提供客户留存或复购证据。
+  usage_reason_en: 'Inference: compared with per-project customization, a general model turns perception
+    and control policies into assets reusable across robot models, removing the step of writing programs
+    from scratch for each new task, so integrators and automation teams deploying many models and workstations
+    are more likely to choose it; the candidate material provides no retention or repeat-purchase evidence.'
+- id: req-full-robotics-startup-skild-ai-hits-100-million-in-revenue-run-ra-2026-10-08
+  project_slug: robotics-startup-skild-ai-hits-100-million-in-revenue-run-ra
+  level: full
+  reviewed_at: '2026-10-08T02:44:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人部署中每个任务、每个机型都要重写控制与感知程序的问题，痛点是部署周期与成本刚性，不采用就要持续投入定制开发；买方与付费路径在公开材料中尚不清晰。
+    evidence_ids:
+    - ev-71770ed2f28e4ad8
+  - gate: consensus
+    status: insufficient
+    reason: 候选材料只给出收入运行率与估值报道，没有客户名称、部署数量或行业内的公开采用讨论，无法判断共识是否形成。
+    evidence_ids:
+    - ev-71770ed2f28e4ad8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、收费方式或合同结构，无法判断是模型授权、按机器人台数还是按项目收费；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-71770ed2f28e4ad8
+  - gate: truth
+    status: insufficient
+    reason: 通用模型能否在真实产线确定性交付、安全边界与人工介入方式均未在材料中说明，收入运行率本身不证明交付可靠性。
+    evidence_ids:
+    - ev-71770ed2f28e4ad8
+  next_validation: 收集 Skild AI 官方定价或部署文档，以及公开客户案例中披露的具体机型、任务与交付结果。
+  market: ''
+  job: 机器人集成商与制造、仓储企业的自动化负责人在部署新机型或新工位时，需要让机械臂或移动机器人完成抓取、搬运、分拣等具体动作，并处理现场传感器数据与任务指令，最终交付可运行的机器人行为。
+  job_en: Automation leads at robot integrators and manufacturing or warehousing firms must make arms
+    or mobile robots perform grasping, moving and sorting when deploying a new model or workstation, handling
+    on-site sensor data and task instructions, and deliver working robot behavior.
+  pain: 公开材料支持：传统做法要为每个任务和机型单独编写控制与感知程序，周期长、复用差，换线或换机型就要重做，导致部署成本高、上线慢；这是工作流结构推理，候选材料未提供客户口述的痛点证据。
+  pain_en: Public material supports that the traditional approach requires separate control and perception
+    programs for each task and robot model, which is slow and poorly reusable; changing a line or model
+    means redoing the work, raising deployment cost and delaying go-live. This is workflow-structure inference;
+    the candidate material offers no customer-stated pain evidence.
+  current_alternative: 由集成商或企业内部工程团队逐项目定制开发，或采购厂商自带的专用控制软件，通常绑定单一硬件品牌。
+  current_alternative_en: Custom development per project by integrators or in-house engineering teams,
+    or vendor-supplied dedicated control software usually tied to a single hardware brand.
+  usage_reason: 推断：相较逐项目定制，通用机器人基础模型把感知与控制策略做成可跨机型复用的资产，减少为新任务从零写程序这一步，因此多机型、多工位并行部署的集成商和自动化团队更可能选择它；候选材料未提供客户留存或复购证据。
+  usage_reason_en: 'Inference: compared with per-project customization, a general-purpose robot foundation
+    model turns perception and control policies into assets reusable across robot models, removing the
+    step of writing programs from scratch for each new task, so integrators and automation teams deploying
+    many models and workstations are more likely to choose it; the candidate material provides no retention
+    or repeat-purchase evidence.'

@@ -319,3 +319,52 @@
     approval in one decision layer, cutting the step of releasing each action by hand; inference is that
     teams needing audit trails would choose it, though public material offers no customer cases or continued-use
     evidence.
+- id: req-full-dsh-jev-plugin-2026-10-08
+  project_slug: dsh-jev-plugin
+  level: full
+  reviewed_at: '2026-10-08T02:42:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理执行中选择与审批缺乏统一判断的问题，痛点来自人工盯守和事后难追溯，旧做法是自写规则或人工审批；这是工作流结构推理，公开材料未给出用户抱怨或事故记录。
+    evidence_ids:
+    - ev-71ffd03fe5758c27
+    - ev-ac53d6e8b124ec01
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 82 增至 180 属关注度增长，只能说明有人关注；没有用户反馈、issue 讨论或采用数据说明它已进入实际代理流程。
+    evidence_ids:
+    - ev-71ffd03fe5758c27
+    - ev-ac53d6e8b124ec01
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价、买方或付费路径，钱可能来自 to C 开发者或 to B 团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-71ffd03fe5758c27
+  - gate: truth
+    status: insufficient
+    reason: 把审批交给决策层后，判断依据是否可复核、出错时人工如何接管、安全边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-71ffd03fe5758c27
+    - ev-ac53d6e8b124ec01
+  next_validation: 追踪该插件的仓库 README、部署文档与 issue/discussion，确认决策层是否输出可复核的审批依据及人工接管方式。
+  market: ''
+  job: 在 DeepSeek Harness 上编排多个代理的开发者，在代理执行任务前后需要处理代理选择、执行监督、纠错与审批，确保每一步动作按预期放行并留下可追溯的判断记录。
+  job_en: Developers orchestrating multiple agents on DeepSeek Harness must handle agent selection, supervision,
+    correction and approval before and after each action, so that steps are released as intended with
+    a traceable judgment record.
+  pain: 多代理流程里由谁执行、要不要放行往往靠人工盯守，出错后难以定位是哪一步判断失准；公开材料只说明插件承担选择与审批判断，未提供用户抱怨或事故记录，痛点强度属工作流结构推理。
+  pain_en: In multi-agent flows, who executes and whether to release often depends on human watching,
+    and after an error it is hard to locate which judgment failed; public material only states the plugin
+    carries selection and approval judgment, with no user complaints or incident records, so pain intensity
+    is a workflow-structure inference.
+  current_alternative: 开发者目前多自己写路由规则、逐次人工审批，或依赖代理框架自带的简单路由与人工复核。
+  current_alternative_en: Developers today mostly write their own routing rules, approve each step manually,
+    or rely on the simple routing and manual review built into agent frameworks.
+  usage_reason: 相较自写规则与人工盯守，该插件把选择与审批集中到一个决策层，减少逐次人工放行这一步；推断需要审计留痕的多代理团队会在编排复杂流程时选择它，但公开材料未提供客户案例或持续使用证据。
+  usage_reason_en: Compared with self-written rules and manual watching, the plugin centralizes selection
+    and approval in one decision layer, cutting the step of releasing each action by hand; the inference
+    is that multi-agent teams needing audit trails would choose it when orchestrating complex flows, though
+    public material offers no customer cases or continued-use evidence.

@@ -1,0 +1,91 @@
+- id: req-initial-stuut-获得-525m-b-轮融资以扩展-ai-代理在订单到收款全流程中的应用-2026-10-08
+  project_slug: stuut-获得-525m-b-轮融资以扩展-ai-代理在订单到收款全流程中的应用
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订单到收款中逐单人工核对、开票与催收的负担，痛点刚性且旧流程明确；买方与付费方式公开材料未披露。
+    evidence_ids:
+    - ev-0a43a5f9cb93c690
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户案例或使用规模，无法判断财务团队是否已把它放进日常流程。
+    evidence_ids:
+    - ev-0a43a5f9cb93c690
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，to B 付费路径只能推断为按流程或单据量收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0a43a5f9cb93c690
+  - gate: truth
+    status: insufficient
+    reason: 订单到收款涉及资金与合规，代理的确定性交付与人工复核边界未见公开说明。
+    evidence_ids:
+    - ev-0a43a5f9cb93c690
+  next_validation: 收集 Stuut 官方定价页或公开客户案例，核验其订单到收款的收费方式与交付边界。
+  market: ''
+  job: 企业财务与收入运营人员在收到订单后，处理订单、开票、对账与催收等单据，要完成从订单确认到回款的闭环。
+  job_en: Corporate finance and revenue operations staff process orders, invoices, reconciliation and
+    collections documents after an order arrives, aiming to close the loop from order confirmation to
+    cash receipt.
+  pain: 订单到收款横跨多个系统与角色，逐单人工核对、开票和催收耗时且容易漏项，回款周期被拉长。
+  pain_en: Order-to-cash spans multiple systems and roles; manual per-order checking, invoicing and chasing
+    is slow and error-prone, stretching the collection cycle.
+  current_alternative: 旧做法是财务人员用 ERP 加表格和邮件逐单跟进，或把部分环节外包给共享服务中心。
+  current_alternative_en: The old way is finance staff tracking each order through ERP plus spreadsheets
+    and email, or outsourcing parts of it to a shared service center.
+  usage_reason: 推断：相较人工逐单跟进，代理可直接读取订单与发票数据并自动推进开票、对账和催收动作，减少的是逐单手工核对与催收提醒这一步负担，因此账龄长、单据量大的财务团队会在回款压力下选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus manual per-order follow-up, agents can read order and invoice data
+    and drive invoicing, reconciliation and collection actions automatically, removing the manual per-order
+    checking and reminder step, so finance teams with long receivables and high document volume would
+    choose it under collection pressure; no retention or repeat-use evidence is public.'
+- id: req-full-stuut-获得-525m-b-轮融资以扩展-ai-代理在订单到收款全流程中的应用-2026-10-08
+  project_slug: stuut-获得-525m-b-轮融资以扩展-ai-代理在订单到收款全流程中的应用
+  level: full
+  reviewed_at: '2026-10-08T02:45:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订单到收款中逐单人工核对、开票与催收的负担，痛点刚性且旧流程明确；买方与付费方式公开材料未披露。
+    evidence_ids:
+    - ev-e2b1b493eb38e122
+    - ev-fd6f39f4c3f827e1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道与官网自述，未见客户案例或使用规模，无法判断财务团队是否已把它放进日常流程。
+    evidence_ids:
+    - ev-d4bc0fa1974ec4f3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，to B 付费路径只能推断为按流程或单据量收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d4bc0fa1974ec4f3
+    - ev-fd6f39f4c3f827e1
+  - gate: truth
+    status: insufficient
+    reason: 订单到收款涉及资金与合规，代理的确定性交付与人工复核边界未见公开说明。
+    evidence_ids:
+    - ev-e2b1b493eb38e122
+  next_validation: 收集 Stuut 官方定价页或公开客户案例，核验其订单到收款的收费方式与交付边界。
+  market: ''
+  job: 企业财务与收入运营人员在收到客户订单后，处理订单确认、开票、对账与催收等单据，要完成从订单确认到回款的闭环。
+  job_en: Corporate finance and revenue operations staff, after receiving a customer order, handle order
+    confirmation, invoicing, reconciliation and collections documents to close the loop from order confirmation
+    to cash receipt.
+  pain: 订单到收款横跨订单、开票、对账、催收多个系统与角色，逐单人工核对与催收耗时且易漏项，回款周期被拉长、账龄变差。
+  pain_en: Order-to-cash spans order, invoicing, reconciliation and collections across multiple systems
+    and roles; manual per-order checking and chasing is slow and error-prone, stretching the collection
+    cycle and worsening aging.
+  current_alternative: 旧做法是财务人员用 ERP 加表格和邮件逐单跟进，或把部分环节交给共享服务中心处理。
+  current_alternative_en: The old way is finance staff tracking each order through ERP plus spreadsheets
+    and email, or handing parts of the process to a shared service center.
+  usage_reason: 推断：相较人工逐单跟进，Stuut 的代理直接读取订单与发票数据并自动推进开票、对账与催收动作，减少的是逐单手工核对与催收提醒这一步负担，因此单据量大、账龄长的财务团队会在回款压力下选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus manual per-order follow-up, Stuut''s agents read order and invoice
+    data and drive invoicing, reconciliation and collection actions automatically, removing the manual
+    per-order checking and reminder step, so finance teams with high document volume and long aging would
+    choose it under collection pressure; no retention or repeat-use evidence is public.'

@@ -22,7 +22,7 @@ summary: Europe has no shortage of promising technology companies, but turning t
   remains a persistent challenge. For Cecilia Bonefeld-Dahl, Director-General of DIGITALEUROPE, the problem...
 first_seen: '2026-10-07T10:50:09Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

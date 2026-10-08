@@ -800,3 +800,41 @@
   usage_reason_en: The public repository has 43 stars, showing developer attention; but no user feedback
     or case shows which step it removes versus the old approach, so which users would choose it and when
     cannot be judged.
+- id: req-full-adversarial-testing-skill-2026-10-08
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-10-08T02:41:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让两个 AI 对打来测产品，但公开材料只有一句定位，说不清开发者当前做对抗测试的具体旧流程、卡在哪一步、不做的代价，连需求与痛点都无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认它替代的具体测试流程、输入输出与是否有真实使用案例。
+  market: ''
+  job: 开发者在上线前需要对自己的产品做对抗性安全测试，用一个读源码的 AI 与一个盲测攻击的 AI 互相对打，找出漏洞。
+  job_en: Developers need adversarial security testing before launch, pitting a source-reading AI against
+    a blind-attacking AI to surface vulnerabilities.
+  pain: 公开材料只有一句产品定位，没有说明开发者当前做对抗测试时具体卡在哪一步、不做的代价或发生频率。
+  pain_en: Public material offers only a one-line positioning; it does not show which step developers
+    struggle with today, the cost of not doing it, or how often it occurs.
+  current_alternative: 公开材料未说明开发者目前如何完成对抗性测试，也未说明它替代了什么既有做法。
+  current_alternative_en: Public material does not show how developers currently run adversarial testing
+    or what existing practice it replaces.
+  usage_reason: 公开代码仓库有 43 个收藏，说明开发者注意到它；但没有任何用户反馈或案例说明为何选择它而非现有测试流程，因此无法判断采用动机。
+  usage_reason_en: The public repository has 43 stars, showing developer attention; but no user feedback
+    or case explains why anyone would choose it over existing test workflows, so adoption motive cannot
+    be judged.

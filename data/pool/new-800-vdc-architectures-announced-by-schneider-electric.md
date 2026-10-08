@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1pYjhWdnVZMnZv
 summary: New 800 VDC architectures announced by Schneider Electric Irish Tech News
 first_seen: '2026-10-05T09:43:39Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxQa2EzRWdNN0s4
 summary: North American startup funding falls in Q3 as AI giants eye public markets news.lavx.hu
 first_seen: '2026-10-07T17:34:33Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

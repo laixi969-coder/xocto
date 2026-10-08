@@ -7,3 +7,45 @@
   source_kind: adoption
   tier: behavioural
   fact: Turn any screen into a sign. The URL is the app
+- id: ev-cf54f21282615124
+  project_slug: bigwordspage
+  url: https://support.google.com/youtube/answer/174084?hl=en&co=genie.platform=desktop
+  title: Turn Restricted Mode on or off on YouTube
+  published_at: ''
+  collected_at: '2026-10-08T02:35:28Z'
+  source_kind: pain
+  tier: independent
+  fact: Check the YouTube content restrictions page to see if you have any network or account level restrictions.
+    A check mark will display beside the relevant restriction, and the text below will indicate the restriction
+    level. If your DNS restrictions are on, and the level is set to “moderate” or “strict," you have content
+    filtering turned on.
+- id: ev-4c33d0231850383a
+  project_slug: bigwordspage
+  url: https://support.google.com/websearch/thread/422739119/google-scholar-linked-my-paper-to-a-wrong-person?hl=en
+  title: Google scholar linked my paper to a wrong person
+  published_at: ''
+  collected_at: '2026-10-08T02:35:28Z'
+  source_kind: workaround
+  tier: independent
+  fact: Google scholar has linked my paper to a wrong person who has the same name as me. I have claimed
+    the paper in my profile page, however, when I searched for the specific paper and clicked my name,
+    it still goes to the wrong person' s page. Can someone share a concert way to correct this problem?
+    I have searched for potential solutions, and someone says using the question mark to report the ...
+- id: ev-561ccf2b76633b00
+  project_slug: bigwordspage
+  url: https://elearn.tnstate.edu/d2l/lp/resetPassword/ResetPasswordConfirm.d2l
+  title: Password successfully reset - Tennessee State University
+  published_at: ''
+  collected_at: '2026-10-08T02:35:28Z'
+  source_kind: pricing
+  tier: independent
+  fact: You successfully reset your password. You can now login using your new password. Go to login page
+- id: ev-e988dea8d9d4a96a
+  project_slug: bigwordspage
+  url: https://www.bing.com/search?format=rss&q=AI
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-10-08T02:37:53Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI'

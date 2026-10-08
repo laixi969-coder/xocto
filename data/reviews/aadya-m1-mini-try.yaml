@@ -1,0 +1,79 @@
+- id: req-initial-aadya-m1-mini-try-2026-10-08
+  project_slug: aadya-m1-mini-try
+  level: initial
+  reviewed_at: '2026-10-08T01:56:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连它预测什么、给谁用都写不出来，无法还原用户任务与痛点，价值结构不成立。
+    evidence_ids:
+    - ev-e7e87732b2226169
+  - gate: consensus
+    status: insufficient
+    reason: 仅 2 次点赞，没有使用、评价或案例，谈不上共识。
+    evidence_ids:
+    - ev-e7e87732b2226169
+  - gate: model
+    status: insufficient
+    reason: 开源演示未披露任何付费路径或买方，商业模式无从判断。
+    evidence_ids:
+    - ev-e7e87732b2226169
+  - gate: truth
+    status: insufficient
+    reason: 没有准确率、数据来源或人工边界说明，无法核对预测结果是否可信。
+    evidence_ids:
+    - ev-e7e87732b2226169
+  next_validation: 收集该模型仓库的说明文档或 issue 讨论，确认其输入数据、预测目标与实测准确率。
+  market: ''
+  job: 目前无法确认谁在什么情况下使用它、处理什么材料、要完成什么任务；公开材料只说明模型体积与“实时预测”一句。
+  job_en: It is not possible to confirm who uses it, in what situation, with what material, or to complete
+    what task; the public material only states model size and "live forecasts".
+  pain: 无法从公开材料识别出具体痛点，只能推测端侧离线预测可能对应某些现场场景。
+  pain_en: No concrete pain point can be identified from the public material; on-device offline forecasting
+    only suggests possible field scenarios.
+  current_alternative: 未知；没有说明此前这类预测由谁、用什么方式完成。
+  current_alternative_en: Unknown; nothing states who previously did this kind of forecasting or how.
+  usage_reason: 推断：若某类现场作业必须在无网络、数据不出设备的条件下得到预测，本地小模型可省去上传与等待；但材料未给出场景、准确率或用户反馈，无法确认有人会因此选择它。
+  usage_reason_en: 'Inference: if some field work must forecast without network and without data leaving
+    the device, a local small model could skip upload and waiting; but no scenario, accuracy or user feedback
+    is given, so adoption cannot be confirmed.'
+- id: req-full-aadya-m1-mini-try-2026-10-08
+  project_slug: aadya-m1-mini-try
+  level: full
+  reviewed_at: '2026-10-08T02:41:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它预测什么、给谁用都写不出来，无法还原用户任务与痛点，价值结构不成立。
+    evidence_ids:
+    - ev-e7e87732b2226169
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该模型仓库的说明文档或 issue 讨论，确认其输入数据、预测目标与实测准确率。
+  market: ''
+  job: 目前无法确认谁在什么情况下使用它、处理什么材料、要完成什么任务；公开材料只说明模型体积与“实时预测”一句。
+  job_en: It is not possible to confirm who uses it, in what situation, with what material, or to complete
+    what task; the public material only states model size and "live forecasts".
+  pain: 无法从公开材料识别出具体痛点，只能推测端侧离线预测可能对应某些现场场景，但预测对象与用户均未说明。
+  pain_en: No concrete pain point can be identified from the public material; on-device offline forecasting
+    only suggests possible field scenarios, but neither the forecast target nor the user is stated.
+  current_alternative: 未知；没有说明此前这类预测由谁、用什么方式完成。
+  current_alternative_en: Unknown; nothing states who previously did this kind of forecasting or how.
+  usage_reason: 推断：若某类现场作业必须在无网络、数据不出设备的条件下得到预测，本地小模型可省去上传与等待；但材料未给出场景、准确率或用户反馈，无法确认有人会因此选择它。
+  usage_reason_en: 'Inference: if some field work must forecast without network and without data leaving
+    the device, a local small model could skip upload and waiting; but no scenario, accuracy or user feedback
+    is given, so adoption cannot be confirmed.'

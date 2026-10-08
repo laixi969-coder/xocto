@@ -3,13 +3,14 @@ slug: sharing-ai-progress-in-mathematics
 name: OpenAI
 builder: OfficialTurkey
 category: ''
-summary_zh: OpenAI 于 2026 年 10 月 6 日公布其内部前沿模型在数学开放问题上的新结果，并公开共享了 Lean 证明形式化与研究细节。这表明前沿模型正被用于可验证的数学推理任务，若该能力可复现，将降低形式化验证与数学研究的工具成本，并加剧模型厂商在推理能力上的竞争；但单次结果不足以推断整个行业已转向。
+summary_zh: 这是模型厂商公布的能力进展，不是独立产品：OpenAI 让内部前沿模型处理数学开放问题，并把 Lean 形式化证明与研究细节放到 公开代码仓库 供核验。对 AI 应用而言，可核验的机器证明产出意味着在需要严格推导的环节（如形式化验证、数学与工程计算）多了一种可被检查的交付形态，但公开材料未给出成本、可用接口或采用数据，具体影响仍待核验。
 inspiration: ''
-summary_en: On October 6, 2026, OpenAI published new results from an internal frontier model on open problems
-  in mathematics and publicly shared Lean proof formalizations and research details. This indicates frontier
-  models are being applied to verifiable mathematical reasoning; if reproducible, it could lower the cost
-  of formal verification and mathematical research tooling and intensify competition among model providers
-  on reasoning capability. A single result does not justify concluding the whole industry has shifted.
+summary_en: 'This is a capability disclosure from a model vendor, not a standalone product: OpenAI had
+  an internal frontier model work on open mathematics problems and published Lean formalizations plus
+  research details on public code repository for verification. For AI applications, verifiable machine-checked
+  proofs add a checkable delivery form in steps that demand rigorous derivation, such as formal verification
+  and mathematical or engineering computation; however, the public material gives no cost, available interface
+  or adoption data, so the concrete impact remains unverified.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +27,7 @@ summary: OpenAI publishes new results on open problems in mathematics from an in
   and shares Lean proof formalizations and research details on GitHub.
 first_seen: '2026-10-06T12:00:00Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 - hackernews

@@ -1,0 +1,81 @@
+- id: req-initial-paradee-2026-10-08
+  project_slug: paradee
+  level: initial
+  reviewed_at: '2026-10-08T01:56:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只给出模型参数与蒸馏来源，未说明解决谁的什么任务与痛点，价值关证据不足。
+    evidence_ids:
+    - ev-dbfb5fd2ee135a31
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 11 个点赞，无使用、部署或评价证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-dbfb5fd2ee135a31
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、许可或付费路径，买方与收入方式均不明。
+    evidence_ids:
+    - ev-dbfb5fd2ee135a31
+  - gate: truth
+    status: insufficient
+    reason: 缺少音质、延迟与商用许可信息，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-dbfb5fd2ee135a31
+  next_validation: 收集该开源项目的模型卡与许可说明，确认音质指标、推理延迟与是否允许商用。
+  market: ''
+  job: 语音应用开发者或内容团队在需要离线生成英文配音时，把英文文本交给本地小模型，得到一段可播放的英文语音。
+  job_en: A voice-app developer or content team needing offline English voiceover feeds English text to
+    a small local model and gets a playable English clip.
+  pain: 公开材料只说明模型体积与来源，没有说明谁在什么场景下遇到什么具体困难，痛点无法确认。
+  pain_en: The public material only states model size and origin; it does not say who faces what specific
+    difficulty in which scenario, so the pain point cannot be confirmed.
+  current_alternative: 现有替代可能是调用云端 TTS 接口或使用更大的开源语音模型，但候选未提供对比信息。
+  current_alternative_en: The existing alternative may be calling cloud TTS APIs or using larger open-source
+    speech models, but the candidate provides no comparison.
+  usage_reason: 推断：8M 参数意味着可在本地或低配设备运行，可能省去调用云端接口的步骤；但缺少音质、延迟与许可证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: 8M parameters suggests it can run locally or on low-end devices, possibly
+    removing a cloud API call; but without quality, latency or licensing evidence, it is unclear users
+    would choose it for that reason.'
+- id: req-full-paradee-2026-10-08
+  project_slug: paradee
+  level: full
+  reviewed_at: '2026-10-08T02:44:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只给出模型参数与蒸馏来源，未说明解决谁的什么任务与痛点，也未见旧替代行为，价值关证据不足。
+    evidence_ids:
+    - ev-dbfb5fd2ee135a31
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Paradee 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 语音应用开发者或内容团队在需要离线生成英文配音时，把英文文本交给本地小模型，得到一段可播放的英文语音。
+  job_en: A voice-app developer or content team needing offline English voiceover feeds English text to
+    a small local model and gets a playable English clip.
+  pain: 公开材料只说明模型为 8M 参数、蒸馏自 Kokoro-82M，没有说明谁在什么场景下遇到什么具体困难，也没有用户抱怨或采用记录，痛点无法确认。
+  pain_en: Public material only states the model is 8M parameters distilled from Kokoro-82M; it does not
+    say who faces what specific difficulty in which scenario, and there are no complaints or adoption
+    records, so the pain cannot be confirmed.
+  current_alternative: 调用云端 TTS 接口，或使用更大的开源语音模型。
+  current_alternative_en: Calling cloud TTS APIs, or using larger open-source speech models.
+  usage_reason: 推断：8M 参数意味着可在本地或低配设备运行，可能省去调用云端接口这一步；但缺少音质、延迟与商用许可证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: 8M parameters suggests it can run locally or on low-end devices, possibly
+    removing a cloud API call; but without quality, latency or licensing evidence, it is unclear users
+    would choose it for that reason.'

@@ -486,3 +486,55 @@
     reasoning step, cutting the burden of switching tools and assembling evidence afterwards, so verification
     users who must justify conclusions may choose it when checking a photo of unknown origin; this is
     an inference from product capability, not yet supported by user feedback or cases.
+- id: req-full-geo-sleuth-2026-10-08
+  project_slug: geo-sleuth
+  level: full
+  reviewed_at: '2026-10-08T02:43:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决来源不明照片的定位核查需求，痛点是人工多工具比对耗时且推理难交代，不采用会导致结论无法采信；旧替代行为明确存在，产品以地图几何、海拔天际线、卫星与街景交叉比对并输出推理链完成交付，属工作流结构推理。
+    evidence_ids:
+    - ev-2f9170f3dad38bff
+    - ev-724922a8f03d1104
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 598 升至 1,232，说明开发者关注度在增长，但仅有星标与 fork 类关注度，没有媒体、保险或情报机构的采用、口碑或重复使用证据，无法判断行业共识是否形成。
+    evidence_ids:
+    - ev-2f9170f3dad38bff
+    - ev-724922a8f03d1104
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是媒体机构、保险公司或情报部门，属推断而非已验证事实；这是判断，不是已验证的收费模式。
+    evidence_ids:
+    - ev-2f9170f3dad38bff
+  - gate: truth
+    status: insufficient
+    reason: 定位准确率、误判边界与人工复核要求均未公开，承诺能否确定性交付尚不可核对；作为 agent skill 依赖外部地图与街景数据源，其可用性边界也未说明。
+    evidence_ids:
+    - ev-2f9170f3dad38bff
+    - ev-724922a8f03d1104
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有媒体、保险或情报机构用户报告实际定位案例、准确率或误判边界。
+  market: ''
+  job: 调查记者、开源情报分析人员或保险理赔调查员拿到一张来源不明或声称拍摄于某地的照片时，需要把照片中的地标、天际线、地形与道路几何同 OpenStreetMap、海拔数据、卫星影像和街景交叉比对，得出可复核的可能拍摄地点并保留推理链。
+  job_en: An investigative journalist, OSINT analyst or insurance claims investigator holding a photo
+    of unknown or disputed origin needs to cross-check its landmarks, skyline, terrain and road geometry
+    against OpenStreetMap, elevation data, satellite imagery and street view to reach a reviewable probable
+    shooting location with a preserved reasoning chain.
+  pain: 旧做法要在多个地图、街景和地形工具之间反复切换、凭经验辨认天际线与地标，单张照片可能耗掉数小时，且结论难以向编辑、客户或法庭交代每一步依据；不解决的后果是核查结论无法采信或错过时效。
+  pain_en: The old way means repeatedly switching among map, street-view and terrain tools and judging
+    skylines and landmarks by experience, which can take hours per photo and is hard to justify step by
+    step to an editor, client or court; the consequence is an unusable verification result or a missed
+    deadline.
+  current_alternative: 人工在谷歌地图、OpenStreetMap、街景、地形图和卫星影像之间逐项比对，或在 OSINT 论坛与社群里请人帮忙辨认，再手工整理证据。
+  current_alternative_en: Manually comparing Google Maps, OpenStreetMap, street view, terrain maps and
+    satellite imagery item by item, or asking others on OSINT forums and communities to identify the spot,
+    then assembling evidence by hand.
+  usage_reason: 相较人工逐项比对，它把地图几何、海拔天际线、卫星与街景检索串成一条可复现的 agent 流程并输出每一步推理依据，减少的是反复切换工具与事后整理证据这一步负担，因此需要向编辑、客户或法庭交代结论来源的核查类用户会在处理来源不明照片时选择它；这是基于产品能力与工作流结构的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with manual item-by-item comparison, it chains map geometry, elevation skylines,
+    satellite and street-view lookups into a reproducible agent flow and outputs each reasoning step,
+    cutting the burden of switching tools and assembling evidence afterwards, so verification users who
+    must justify conclusions to an editor, client or court would choose it when handling photos of unknown
+    origin; this is an inference from product capability and workflow structure, not yet supp

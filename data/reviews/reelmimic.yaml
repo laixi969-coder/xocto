@@ -337,3 +337,59 @@
     and align rhythm clip by clip each time; teams shipping video by the unit at high frequency are the
     likely first adopters. Public material shows no retention or repeat-use evidence, so it cannot yet
     be said to be embedded in workflows long term.'
+- id: req-full-reelmimic-2026-10-08
+  project_slug: reelmimic
+  level: full
+  reviewed_at: '2026-10-08T02:44:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决按参考片复刻视频风格这一具体任务，痛点是风格漂移与逐段返工，旧做法是通用工具逐段生成再手工剪辑或外包；输入、动作、交付闭环可还原，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-12b7f70c5f8e5a0e
+    - ev-cc90fd383a75cec6
+    - ev-6041b23284a423d5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 1580 升至 1695 只说明关注度增长，教程与评测页也只描述安装与能力，缺少用户评价或客户案例说明谁在什么场景反复使用。
+    evidence_ids:
+    - ev-4ee2372ae147542e
+    - ev-81a517ce800f8930
+    - ev-6041b23284a423d5
+  - gate: model
+    status: insufficient
+    reason: 公开材料把它标为开源框架，未见定价页、收费方式或买方记录；若存在按成片条数或 API 调用收费，属推断而非已验证事实，谁付钱尚不清楚。
+    evidence_ids:
+    - ev-cc90fd383a75cec6
+    - ev-12b7f70c5f8e5a0e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料称可复刻剪辑节奏与镜头构成，但未给出成片与参考片的风格一致性对比、可用率或人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-cc90fd383a75cec6
+    - ev-6041b23284a423d5
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 示例更新，核对是否有用户贴出成片与参考片的风格一致性对比及人工修改量。
+  market: ''
+  job: 短视频创作者或营销人员拿到一条喜欢的参考视频后，把该视频（文件、手机录制或 YouTube 链接）连同一条一句话需求交给 ReelMimic，由 Claude Code 或 Codex 组成的
+    AI 流程拆解节奏与镜头、生成并评审，最终产出一条同风格的新视频用于投放或发布。
+  job_en: A short-video creator or marketer who has a reference video they like hands that video (file,
+    phone recording or YouTube link) plus a one-line brief to ReelMimic, whose Claude Code / Codex agent
+    crew breaks down editing rhythm and shots, generates and reviews, and delivers a new video in the
+    same style for publishing or ad delivery.
+  pain: 公开材料显示旧做法是逐段生成再手工剪辑，风格复刻依赖反复调提示词和人工拼接，成片风格容易漂移、返工多；这是从产品输入—动作—交付闭环推出的工作流推理，不是用户口述的抱怨。
+  pain_en: Public material shows the old path is piecewise generation plus manual editing, with style
+    replication depending on repeated prompt tweaking and hand stitching, so output drifts and rework
+    is heavy; this is workflow inference from the product's input-action-delivery loop, not a user-stated
+    complaint.
+  current_alternative: 用通用视频生成工具逐段生成后人工剪辑拼接，或外包给剪辑师按参考片模仿；公开教程也把 ReelMimic 定位为需要自行安装的开源替代路径。
+  current_alternative_en: Generating clips piecewise with general video tools and editing them together
+    by hand, or outsourcing to an editor who imitates the reference video; the public tutorial positions
+    ReelMimic as a self-installed open-source alternative path.
+  usage_reason: 推断：相较逐段生成再手工拼接，它把参考视频直接作为输入，先自动拆解剪辑节奏与镜头构成，再按一句话需求生成并自评审，用户省去每次从零写提示词和逐段对齐风格这两步；因此高频按条出片、需要批量复刻同一风格的投放或内容团队会在有参考片时选择它。公开材料无留存或复购证据，不能称其已长期留在工作流中。
+  usage_reason_en: 'Inference: versus piecewise generation and manual stitching, it takes the reference
+    video as direct input, first auto-decomposes editing rhythm and shot composition, then generates and
+    self-reviews against a one-line brief, removing the steps of writing prompts from scratch and aligning
+    style clip by clip; teams shipping videos by the unit that need to replicate one style at volume would
+    pick it when they have a reference. Public material has no retention or repeat-use eviden'

@@ -23,7 +23,7 @@ summary: The internet is having a field day with Amazon's 'About You' customer d
   see yours. Business Insider
 first_seen: '2026-10-06T17:51:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

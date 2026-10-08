@@ -78,3 +78,55 @@
   usage_reason_en: 'The task is: Daily developer interaction with AI assistants, Managing multiple sessions
     and prompts, Invoking assistants in the local dev environment Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-claudepanel-2026-10-08
+  project_slug: claudepanel
+  level: full
+  reviewed_at: '2026-10-08T02:42:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者日常与 Claude 等助手交互时提示与会话分散、需跨窗口切换的问题，痛点属工作流摩擦而非可选项；但公开材料仅有仓库一句话定位与 221→222 星，无用户抱怨或案例，痛点强度与不采用代价属结构推理，非已验证事实。
+    evidence_ids:
+    - ev-044dfe62d42fa357
+    - ev-dee98b92ae2f57af
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 221 增至 222，说明有开发者注意到该项目，但公开材料没有 issue、discussion 或评价说明谁在什么场景持续使用，关注度不能替代采用证据，也无法判断卡在感知还是场景环节。
+    evidence_ids:
+    - ev-044dfe62d42fa357
+    - ev-dee98b92ae2f57af
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未给出定价页、付费主体或任何 to C、to B、to G 收入路径；谁付钱、按什么单位收费均属未知，这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-044dfe62d42fa357
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句功能描述，没有部署文档、可复现实测或安全与人工边界说明，无法确认助手调用与产出交付能否稳定发生，也无法核对它是否贴近该工作的第一性目标。
+    evidence_ids:
+    - ev-044dfe62d42fa357
+    - ev-dee98b92ae2f57af
+  next_validation: 追踪 ClaudePanel 仓库的 README、issue 与 discussion，确认它支持哪些助手、会话与提示如何组织，以及是否有用户描述替代了原有终端或浏览器工作流。
+  market: ''
+  job: 日常使用 Claude 等 AI 助手的开发者在本地开发过程中，处理多轮提示、多个会话与助手调用记录，需要把这些材料集中到一个桌面工作区里完成提问、切换会话与取回产出。
+  job_en: Developers who use Claude and other AI assistants daily, while working in a local dev environment,
+    handle multi-turn prompts, multiple sessions and assistant invocations, and need one desktop workspace
+    to ask, switch sessions and retrieve outputs.
+  pain: 公开材料只给出“Desktop panel and toolkit for Claude and AI assistants”这一句功能定位，未提供用户抱怨、issue 或案例，因此痛点强度属于工作流结构推理：终端、浏览器标签与编辑器之间来回切换会打断上下文，提示与会话散落各处难以复用；不解决的后果是重复粘贴与上下文丢失，但这一后果的公开证据尚缺。
+  pain_en: 'Public material offers only the one-line positioning ''Desktop panel and toolkit for Claude
+    and AI assistants'', with no user complaints, issues or cases; pain intensity is therefore a workflow
+    inference: switching among terminal, browser tabs and editor breaks context, and scattered prompts/sessions
+    are hard to reuse. The consequence of leaving it unsolved (re-pasting, lost context) lacks public
+    evidence.'
+  current_alternative: 结构推理下的旧做法是：在终端或编辑器里直接调用 Claude 等助手，用浏览器标签页、剪贴板或本地笔记分别保存提示与会话，靠人工在多个窗口间切换。公开材料未描述它具体替代了哪一套工具链。
+  current_alternative_en: 'The inferred old approach: call Claude and other assistants directly from the
+    terminal or editor, keep prompts and sessions in browser tabs, clipboard or local notes, and switch
+    windows manually. Public material does not say which toolchain it replaces.'
+  usage_reason: 推断：相较在终端、浏览器与笔记之间手工搬运提示和会话，桌面面板把提示、会话与助手调用收进同一界面，减少一次跨窗口复制粘贴和一次上下文重建，因此日常高频使用 Claude 的本地开发者会在需要连续多轮对话时选择它。仓库
+    221→222 星只说明关注度，不构成选择理由。
+  usage_reason_en: 'Inference: versus manually shuttling prompts and sessions between terminal, browser
+    and notes, the desktop panel keeps prompts, sessions and assistant calls in one surface, removing
+    one cross-window copy-paste and one context rebuild, so local developers using Claude heavily would
+    pick it for continuous multi-turn work. The 221→222 stars show attention only, not a reason to choose.'

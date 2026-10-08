@@ -21,7 +21,7 @@ canonical_url: https://sicpers.info/2026/10/reasons-to-dislike-ai-coding
 summary: Reasons to Dislike AI Coding
 first_seen: '2026-10-07T09:15:00Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

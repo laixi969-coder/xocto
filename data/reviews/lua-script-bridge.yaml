@@ -1,0 +1,86 @@
+- id: req-initial-lua-script-bridge-2026-10-08
+  project_slug: lua-script-bridge
+  level: initial
+  reviewed_at: '2026-10-08T01:55:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决脚本改完要手动跑测试的问题，但公开材料没有说明输入、执行动作与交付结果，痛点强度与旧流程都无法还原。
+    evidence_ids:
+    - ev-4b198d13524d27f6
+  - gate: consensus
+    status: insufficient
+    reason: 只有 68 个星标，没有用户评价、讨论或采用记录，无法判断开发者是否真的把它放进测试流程。
+    evidence_ids:
+    - ev-4b198d13524d27f6
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费方或交付方式，买方与收费路径均无公开依据。
+    evidence_ids:
+    - ev-4b198d13524d27f6
+  - gate: truth
+    status: insufficient
+    reason: 无法确认执行环境是否贴近真实 Roblox 运行时，也无法确认结果是否可核对，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-4b198d13524d27f6
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认 AI 接收的输入、执行环境、返回结果以及是否已有开发者报告实际使用。
+  market: ''
+  job: Roblox 游戏开发者在写完或改动一段 Luau 脚本后，需要把代码放进 Studio 或测试服务器运行，确认这段逻辑在真实游戏里是否按预期执行。
+  job_en: A Roblox game developer who has just written or changed a Luau script needs to run it in Studio
+    or a test server to confirm the logic behaves as expected in the real game.
+  pain: 公开材料没有说明开发者现在卡在哪一步、手动测试有多慢，也没有用户抱怨或替代做法的记录，因此痛点强度无法从现有事实判断。
+  pain_en: The public material does not say which step developers are stuck on or how slow manual testing
+    is, and there is no record of user complaints or workarounds, so the intensity of the pain cannot
+    be judged from the available facts.
+  current_alternative: 按常理推断，开发者会手动在 Roblox Studio 里运行脚本、看输出或报错；这是工作流推理，不是材料中记录的用户行为。
+  current_alternative_en: By inference, developers would manually run scripts in Roblox Studio and read
+    the output or errors; this is workflow reasoning, not user behaviour recorded in the material.
+  usage_reason: 如果它真能把脚本执行和结果回传接成一步，开发者就不必在编辑器与 Studio 之间来回切换；但仓库没有说明输入、执行边界和返回内容，无法确认它减少了哪一步负担，因此目前只能作为待观察信号。
+  usage_reason_en: If it really connects script execution and result return in one step, developers would
+    not have to switch back and forth between editor and Studio; but the repository does not describe
+    inputs, execution boundaries or returned output, so which step it removes cannot be confirmed, and
+    it remains a signal to watch.
+- id: req-full-lua-script-bridge-2026-10-08
+  project_slug: lua-script-bridge
+  level: full
+  reviewed_at: '2026-10-08T02:43:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决脚本改完要手动跑测试的问题，但公开材料只有仓库标题与 68 星，未说明 AI 接收什么输入、执行哪一步、交付什么结果，需求与痛点都无法还原。
+    evidence_ids:
+    - ev-4b198d13524d27f6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该仓库 README 与 issue/discussion 原文，确认 AI 接收的输入、执行环境、返回结果，以及是否有开发者报告实际接入测试流程。
+  market: ''
+  job: Roblox 开发者在改完一段 Luau 脚本后，需要把代码放进 Studio 或测试服务器运行，确认逻辑在真实游戏里按预期执行；测试工程师则要复现同一段脚本的行为。
+  job_en: A Roblox developer who has just changed a Luau script needs to run it in Studio or a test server
+    to confirm the logic behaves as expected in the real game; a test engineer needs to reproduce the
+    same script's behaviour.
+  pain: 公开材料只有一句仓库标题，没有说明开发者卡在哪一步、手动测试多慢，也没有用户抱怨或替代做法记录，痛点强度无法从现有事实判断。
+  pain_en: The public material is only a repository title; it does not say which step developers are stuck
+    on or how slow manual testing is, and there is no record of complaints or workarounds, so pain intensity
+    cannot be judged from available facts.
+  current_alternative: 按工作流推理，开发者会手动在 Roblox Studio 里运行脚本、看输出或报错；这是结构推理，不是材料中记录的用户行为。
+  current_alternative_en: By workflow reasoning, developers would manually run scripts in Roblox Studio
+    and read output or errors; this is structural inference, not user behaviour recorded in the material.
+  usage_reason: 推断：若它真能把脚本执行与结果回传接成一步，开发者就不必在编辑器与 Studio 之间来回切换；但仓库未说明 AI 接收什么输入、在哪个执行环境运行、返回什么结果，减少哪一步负担无法确认，因此只能作为待观察信号。
+  usage_reason_en: 'Inference: if it truly connects script execution and result return in one step, developers
+    would not have to switch between editor and Studio; but the repository does not state what input the
+    AI receives, which runtime executes it, or what is returned, so which step it removes cannot be confirmed
+    and it remains a signal to watch.'

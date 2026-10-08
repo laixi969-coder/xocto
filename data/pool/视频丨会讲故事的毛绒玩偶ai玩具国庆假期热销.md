@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4gNBVV95cUxNdUd2aTZMSHhI
 summary: 视频丨会讲故事的毛绒玩偶！AI玩具国庆假期热销 新浪财经
 first_seen: '2026-10-05T13:45:58Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

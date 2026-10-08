@@ -1,0 +1,82 @@
+- id: req-initial-bigwordspage-2026-10-08
+  project_slug: bigwordspage
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未写出，无法还原旧流程与不采用的后果。
+    evidence_ids:
+    - ev-c57859598bb4b5a2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，社区讨论量只反映关注度，不能说明共识卡在哪一环。
+    evidence_ids:
+    - ev-c57859598bb4b5a2
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关证据不足，买方与付费路径均无公开材料。
+    evidence_ids:
+    - ev-c57859598bb4b5a2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关证据不足，无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-c57859598bb4b5a2
+  next_validation: 该产品官方页面是否公开具体使用场景、输入材料与产出示例。
+  market: ''
+  job: 公开材料未说明具体使用者与场合，无法确认谁在什么情况下处理什么材料、要完成什么展示任务。
+  job_en: Public material does not identify the user or occasion, so it is impossible to confirm who handles
+    what material under what circumstances to complete which display task.
+  pain: 未披露任何痛点描述，无法判断用户当前在制作临时标牌时受阻于哪一步。
+  pain_en: No pain point is disclosed, so it is impossible to judge which step blocks users when making
+    temporary signs today.
+  current_alternative: 未披露现有替代做法，无法与旧流程对比。
+  current_alternative_en: No existing alternative is disclosed, so no comparison with the old workflow
+    is possible.
+  usage_reason: 缺少输入、动作与交付说明，无法解释用户为何选择它而非现有做法；社区讨论热度只说明关注度，不能证明持续使用。
+  usage_reason_en: With no description of input, action or delivery, there is no way to explain why a
+    user would choose it over current practice; community attention only shows interest and does not prove
+    sustained use.
+- id: req-full-bigwordspage-2026-10-08
+  project_slug: bigwordspage
+  level: full
+  reviewed_at: '2026-10-08T02:42:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一句“把任何屏幕变成标牌，URL 就是应用”，既未说明谁在什么场合使用、输入什么文字或材料，也未说明产出什么可核对的交付，连需求与痛点都无法还原，无法判断痛点刚性。
+    evidence_ids:
+    - ev-c57859598bb4b5a2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bigwords.page 官网是否公开具体使用场景、输入材料与产出示例，以及是否出现定价或客户案例页面。
+  market: ''
+  job: 公开材料未说明具体使用者与场合，无法确认谁在什么情况下把哪块屏幕、什么文字或材料变成标牌，也无法确认要完成什么展示任务。
+  job_en: Public material does not identify the user or occasion, so it is impossible to confirm who turns
+    which screen and what text or material into a sign under what circumstances, or which display task
+    is being completed.
+  pain: 未披露任何痛点描述，无法判断用户当前在制作临时标牌时受阻于哪一步，也无法判断不解决的后果。
+  pain_en: No pain point is disclosed, so it is impossible to judge which step blocks users when making
+    temporary signs today, or what happens if it is left unsolved.
+  current_alternative: 未披露现有替代做法，无法与旧流程对比；公开材料只有一句“把任何屏幕变成标牌，URL 就是应用”。
+  current_alternative_en: No existing alternative is disclosed, so no comparison with the old workflow
+    is possible; public material contains only the line 'Turn any screen into a sign. The URL is the app.'
+  usage_reason: 缺少输入、动作与交付说明，无法解释用户为何选择它而非现有做法；公开材料未提供任何用户反馈或采用证据。
+  usage_reason_en: With no description of input, action or delivery, there is no way to explain why a
+    user would choose it over current practice; public material provides no user feedback or adoption
+    evidence.

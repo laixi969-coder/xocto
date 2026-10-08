@@ -3,12 +3,11 @@ slug: ggerganov-llamacpp-v060
 name: llama.cpp
 builder: ggerganov
 category: ''
-summary_zh: llama.cpp 是本地推理引擎，v0.6.0 面向在其上部署模型的开发者：新增扩展批处理 API 与决策模型服务端接口，并接入 GLM-5.3-Flash、Clef 等新模型与投机解码。它交付的是可调用的推理接口与内核优化，不是面向终端用户的独立应用。
+summary_zh: 这是本地推理引擎 llama.cpp 的一次版本发布，不是独立产品。它面向自行部署模型的开发者，本次新增扩展批处理接口、若干模型与决策模型支持、服务端接口和 Web UI 下载管线，属于底层能力更新。
 inspiration: ''
-summary_en: llama.cpp is a local inference engine; v0.6.0 targets developers deploying models on it, adding
-  an extended batch API and a decision-model server endpoint, and wiring in new models such as GLM-5.3-Flash
-  and Clef plus speculative decoding. It delivers callable inference interfaces and kernel optimizations,
-  not an end-user standalone application.
+summary_en: This is a version release of the local inference engine llama.cpp, not a standalone product.
+  It targets developers who self-host models, adding an extended batch API, support for several models
+  and decision models, a server API and a Web UI download pipeline; it is a low-level capability update.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -321,7 +320,7 @@ summary: "## Overview\r\n\r\nllama.cpp v0.6.0 introduces the new `llama_batch_ex
   \ in server sanitize workflow (#29297)\r\nfee39dd92 opencl: add A8 Q6_K non-MoE dp4a binary kernel (#29057)"
 first_seen: '2026-10-05T16:56:22Z'
 last_seen: '2026-10-08T01:55:55Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:

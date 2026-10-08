@@ -1,0 +1,87 @@
+- id: req-initial-how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-a-2026-10-08
+  project_slug: how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-a
+  level: initial
+  reviewed_at: '2026-10-08T01:56:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决告警后人工排查耗时长、影响恢复速度的问题，旧做法是工程师手工翻日志与指标，痛点与后果明确。
+    evidence_ids:
+    - ev-03179000f9753347
+  - gate: consensus
+    status: insufficient
+    reason: 材料来自云厂商案例，只有单一企业内部结果，未见其他企业采用或运维人员的独立评价。
+    evidence_ids:
+    - ev-03179000f9753347
+  - gate: model
+    status: insufficient
+    reason: 这是企业内部自建系统，未见对外定价或售卖方式，能否成为可购买的产品尚无公开证据，属判断。
+    evidence_ids:
+    - ev-03179000f9753347
+  - gate: truth
+    status: insufficient
+    reason: 未说明误判率、人工复核边界与回滚机制，78% 的降幅口径也缺少独立核对。
+    evidence_ids:
+    - ev-03179000f9753347
+  next_validation: 收集该案例的完整技术文档或后续公开材料，核对诊断准确率、人工复核边界与是否对外提供产品化版本。
+  market: ''
+  job: 企业内部的数据库运维工程师在告警触发后，需要排查性能问题、定位根因并恢复服务。
+  job_en: In-house database operations engineers investigating performance issues, locating root causes
+    and restoring service after alerts fire.
+  pain: 告警后排查依赖人工翻日志与指标，耗时长且多在夜间或值班时段发生，恢复慢直接影响业务可用性。
+  pain_en: Post-alert triage relies on manually reading logs and metrics, is slow, often happens at night
+    or on call, and slow recovery directly hurts availability.
+  current_alternative: 工程师按经验手工查询日志、监控面板和数据库指标，或依赖既有规则告警与值班手册逐步排查。
+  current_alternative_en: Engineers manually querying logs, dashboards and database metrics by experience,
+    or following rule-based alerts and on-call runbooks step by step.
+  usage_reason: 相较人工逐项翻查日志与指标，它把初步诊断动作自动化，把单次诊断从 45 分钟压到 10 分钟，减少值班工程师在告警后的第一轮排查负担，因此缺少专职平台团队的企业运维可能采用；这是基于公开案例的推断，尚无第三方复现或持续使用证据。
+  usage_reason_en: Compared with manually reading logs and metrics item by item, it automates first-pass
+    diagnosis and cuts a single diagnosis from 45 to 10 minutes, reducing the on-call engineer's first
+    triage burden, so operations teams without a dedicated platform group may adopt it. This is inference
+    from a published case, with no third-party replication or retention evidence.
+- id: req-full-how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-a-2026-10-08
+  project_slug: how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-a
+  level: full
+  reviewed_at: '2026-10-08T02:43:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称其把数据库诊断从 45 分钟压到 10 分钟，但全部证据是同名教会网站、通用 AI 科普页与聊天工具首页，没有一条描述运维任务、痛点或旧做法，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-27dadf3090fd5e3d
+    - ev-129356b43ba6902d
+    - ev-17c7a05bf721e3f6
+    - ev-426f4acaf20ba88f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Cornerstone OnDemand 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 企业内部数据库运维工程师在告警触发后，需要翻查日志与指标定位根因并恢复服务；候选摘要称 Cornerstone OnDemand 用 Orion AI 承接部分诊断动作。
+  job_en: In-house database operations engineers must dig through logs and metrics to locate root causes
+    and restore service after alerts fire; the candidate summary claims Cornerstone OnDemand's Orion AI
+    takes over part of the diagnosis.
+  pain: 公开证据中没有可引用的运维痛点材料：现有条目分别是同名教会的网站与视频页、通用 AI 科普页和消费级聊天工具首页，均未描述告警排查耗时或恢复压力。
+  pain_en: 'No citable operations pain evidence exists: the items are a same-named church''s website and
+    video page, generic AI explainer pages, and consumer chatbot homepages, none describing alert triage
+    time or recovery pressure.'
+  current_alternative: 公开证据未记录工程师当前的替代做法，无法确认是手工翻日志、值班手册还是既有规则告警。
+  current_alternative_en: The public evidence does not record engineers' current workaround, so it cannot
+    be confirmed whether they read logs manually, follow runbooks, or rely on rule-based alerts.
+  usage_reason: 无法写出使用理由：45 分钟压到 10 分钟这一说法只出现在候选摘要中，没有任何可引用的产品页、案例或用户反馈支撑，因此不能推断哪类用户会因何选择它。
+  usage_reason_en: 'No usage reason can be written: the 45-to-10-minute claim appears only in the candidate
+    summary, with no citable product page, case study, or user feedback, so it cannot be inferred which
+    users would choose it and why.'

@@ -1,0 +1,88 @@
+- id: req-initial-pinrail-2026-10-08
+  project_slug: pinrail
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多智能体并行时改动分散、人工审阅易漏这一具体任务，痛点来自并行工作流本身，不采用就要反复切换工具，结构上成立。
+    evidence_ids:
+    - ev-824740f8f5d701dc
+  - gate: consensus
+    status: insufficient
+    reason: 19 个点赞和 3 条评论只说明有人注意到，没有团队采用或持续使用的公开记录，共识强度无法判断。
+    evidence_ids:
+    - ev-824740f8f5d701dc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，开源项目也没有可见的收费路径，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-824740f8f5d701dc
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它能否稳定对接主流代码托管与分支模型，也没有人工确认边界与安全说明，交付确定性未知。
+    evidence_ids:
+    - ev-824740f8f5d701dc
+  next_validation: 收集该仓库的 README、issue 与 release 说明，确认它支持的代码托管平台、审阅流程与是否有团队实际使用的公开记录。
+  market: ''
+  job: 软件工程师或技术负责人在同时运行多个编码智能体时，需要逐个查看它们产生的代码改动，决定哪些合并、哪些退回。
+  job_en: A software engineer or engineering lead running several coding agents at once needs to inspect
+    the code changes each one produced and decide which to merge and which to reject.
+  pain: 多个智能体并行工作时，改动散落在不同终端和分支，人工要反复切换才能看清全貌，容易漏审或误合。
+  pain_en: With several agents working in parallel, changes scatter across terminals and branches, forcing
+    repeated context switching that makes missed or wrong merges likely.
+  current_alternative: 在终端、编辑器与代码托管平台的合并请求页面之间来回切换，逐个查看 diff。
+  current_alternative_en: Switching between terminals, the editor and pull-request pages on a code host
+    to read each diff one by one.
+  usage_reason: 推断：它把分散的待审改动集中成一个队列，工程师在一个界面里逐条处理，省掉在多个工具间来回找改动这一步，因此同时跑多个智能体的个人或小团队会在审阅环节选择它；但公开材料没有用户反馈或重复使用证据，长期留存无法确认。
+  usage_reason_en: 'Inference: it gathers scattered pending changes into one queue so the engineer handles
+    them in a single view, removing the step of hunting for changes across tools, so individuals or small
+    teams running several agents may adopt it at the review step; public material has no user feedback
+    or repeat-use evidence, so long-term retention is unconfirmed.'
+- id: req-full-pinrail-2026-10-08
+  project_slug: pinrail
+  level: full
+  reviewed_at: '2026-10-08T02:44:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多智能体并行时改动分散、人工审阅易漏这一具体任务，痛点来自并行工作流本身，不采用就要反复切换工具，结构推理上成立。
+    evidence_ids:
+    - ev-a2e94a80eb73b5e0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库自述与词典、同名 Windows 启动器页面混杂，没有团队采用或持续使用的公开记录，共识强度无法判断。
+    evidence_ids:
+    - ev-a2e94a80eb73b5e0
+    - ev-3e756fbc9a9d9e22
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，开源项目也没有可见收费路径，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-04dcbf13594f604f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它能否稳定对接主流代码托管与分支模型，也没有人工确认边界与安全说明，交付确定性未知。
+    evidence_ids:
+    - ev-48acbcb2de173fea
+  next_validation: 收集该仓库 README、issue 与 release 说明，确认支持的代码托管平台、审阅流程及是否有团队实际使用的公开记录。
+  market: ''
+  job: 软件工程师或技术负责人在同时运行多个编码智能体时，需要逐个查看它们产生的代码改动，决定哪些合并、哪些退回。
+  job_en: A software engineer or engineering lead running several coding agents at once needs to inspect
+    the code changes each one produced and decide which to merge and which to reject.
+  pain: 多个智能体并行工作时，改动散落在不同终端和分支，人工要反复切换才能看清全貌，容易漏审或误合。
+  pain_en: With several agents working in parallel, changes scatter across terminals and branches, forcing
+    repeated context switching that makes missed or wrong merges likely.
+  current_alternative: 在终端、编辑器与代码托管平台的合并请求页面之间来回切换，逐个查看 diff。
+  current_alternative_en: Switching between terminals, the editor and pull-request pages on a code host
+    to read each diff one by one.
+  usage_reason: 推断：相较在多个工具间逐个找 diff，它把分散的待审改动集中成一个队列，工程师在一个界面里逐条处理，省掉来回切换定位改动这一步，因此同时跑多个智能体的个人或小团队会在审阅环节选择它；但公开材料没有用户反馈或重复使用证据，长期留存无法确认。
+  usage_reason_en: 'Inference: compared with hunting for each diff across tools, it gathers scattered
+    pending changes into one queue so the engineer handles them in a single view, removing the step of
+    switching tools to locate changes, so individuals or small teams running several agents may adopt
+    it at the review step; public material has no user feedback or repeat-use evidence, so long-term retention
+    is unconfirmed.'

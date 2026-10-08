@@ -142,3 +142,54 @@
     researchers maintaining large reference libraries may choose it for daily shortlisting. However, public
     materials give no selection criteria, update frequency or retention evidence, so long-term workflow
     adoption cannot be confirmed.'
+- id: req-full-aisafetyhot-hub-2026-10-08
+  project_slug: aisafetyhot-hub
+  level: full
+  reviewed_at: '2026-10-08T02:41:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 安全研究员每日从海量新论文中筛出可读清单并导入文献库的需求，痛点是人工筛选耗时且易漏、格式不统一；公开材料显示其输出 md/bib/json 并附 Agent 接入说明，交付形态确定，属工作流结构推理。
+    evidence_ids:
+    - ev-f292230d01818960
+    - ev-cc56bea6511e29ab
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 146 增至 197 只反映关注度上升，属规模信号；公开材料没有研究者反馈、引用或重复使用记录，无法证明研究社群已形成持续采用。
+    evidence_ids:
+    - ev-f292230d01818960
+    - ev-cc56bea6511e29ab
+    - ev-3a8fe3e4c35af83a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、赞助或机构支持路径，开源项目可能靠捐赠或学术资助维持；谁付钱是判断而非已验证事实，但需求本身不因此取消。
+    evidence_ids:
+    - ev-f292230d01818960
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明筛选标准、覆盖范围与更新频率，无法核验是否漏掉关键工作或清单是否每日稳定产出，交付确定性缺少可核对证据。
+    evidence_ids:
+    - ev-f292230d01818960
+    - ev-cc56bea6511e29ab
+  next_validation: 追踪该仓库的 README、commit 记录与 issue/discussion，核验每日清单的筛选标准、更新频率及是否有研究者反馈实际导入使用。
+  market: ''
+  job: AI 安全研究员在每天开始工作时，面对 arXiv、会议和社区持续新增的论文，需要快速筛出当天值得精读的少数几篇，并把条目导入自己的文献管理工具。
+  job_en: An AI safety researcher starting the day faces a continuous stream of new papers from arXiv,
+    conferences and community feeds, and needs to shortlist the few worth reading closely and import the
+    entries into a reference manager.
+  pain: 论文产出速度远超个人阅读能力，人工逐条浏览 arXiv 分类列表耗时且容易漏掉重要工作；依赖社交媒体转发或邮件列表则覆盖不稳定、格式不统一，导入文献库还要重复复制标题与链接。
+  pain_en: Paper output far outpaces individual reading capacity; manually scanning arXiv category listings
+    is slow and misses important work, while relying on social shares or mailing lists gives inconsistent
+    coverage and non-uniform formats, forcing repeated copying of titles and links into a reference library.
+  current_alternative: 手动浏览 arXiv 分类列表、订阅邮件列表、在社交平台等待他人转发推荐，再逐条手工整理成参考文献条目。
+  current_alternative_en: Manually browsing arXiv category listings, subscribing to mailing lists, waiting
+    for recommendations on social platforms, then hand-assembling reference entries one by one.
+  usage_reason: 推断：相较手动刷 arXiv 再逐条复制，它把每日论文直接输出为 md/bib/json 并附 Agent 接入说明，省去逐条摘录标题与链接、再手工转成 bib 的步骤，因此需要批量维护
+    AI 安全参考文献的研究者会在每日选题时选择它；但公开材料未给出筛选标准、更新频率或留存证据，长期留在工作流中尚不能确认。
+  usage_reason_en: 'Inference: compared with manually scanning arXiv and copying entries one by one, it
+    outputs daily papers directly as md/bib/json with Agent integration notes, removing the step of transcribing
+    titles and links and hand-converting them into bib, so researchers maintaining large AI safety reference
+    libraries may choose it for daily triage. However, public materials give no selection criteria, update
+    frequency or retention evidence, so long-term workflow adoption cannot be confi'

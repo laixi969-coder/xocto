@@ -24,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPNGVIUHdDcl90
 summary: PicoJool Raises $27.5M Series A to Scale AI Optical Connectivity citybiz
 first_seen: '2026-09-24T15:05:16Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

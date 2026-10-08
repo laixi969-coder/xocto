@@ -1,0 +1,85 @@
+- id: req-initial-falcon-ai-raises-15m-for-ai-native-law-firm-2026-10-08
+  project_slug: falcon-ai-raises-15m-for-ai-native-law-firm
+  level: initial
+  reviewed_at: '2026-10-08T01:56:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决法律事项的交付问题，但材料未说明替代哪一步旧工作、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-8ba17831fdf7e0b7
+  - gate: consensus
+    status: insufficient
+    reason: 除融资报道外，没有客户、律师或使用者的公开反馈，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-8ba17831fdf7e0b7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、收费方式与买方，无法判断钱来自企业客户、个人还是投资方，只能标注融资叙事风险。
+    evidence_ids:
+    - ev-8ba17831fdf7e0b7
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明执业资质、人工复核边界与交付确定性，无法核对承诺能否稳定兑现。
+    evidence_ids:
+    - ev-8ba17831fdf7e0b7
+  next_validation: 收集 Konsulteer 官方页面或公开执业信息，确认其服务范围、收费方式与人工律师复核环节。
+  market: ''
+  job: 中小企业或个人的法务需求方，在遇到合同审查、合规咨询等具体法律事项时，需要拿到可用的法律意见或文书。
+  job_en: A legal-services buyer such as an SME or individual who, facing a concrete matter like contract
+    review or a compliance question, needs usable legal advice or documents.
+  pain: 公开材料未说明 Konsulteer 具体替代哪一步旧工作、旧做法耗时多久或成本多高，痛点只能从法律服务普遍按工时计费推断，缺少材料支持。
+  pain_en: Public material does not say which old step Konsulteer replaces, how long or how costly the
+    old practice was; the pain can only be inferred from hourly legal billing and lacks supporting material.
+  current_alternative: 传统律所按小时或按项目收费，由律师人工阅读材料并出具意见；这是行业通例推断，不是本次材料披露的事实。
+  current_alternative_en: Traditional law firms billing hourly or per matter, with lawyers reading materials
+    and issuing opinions by hand; this is an industry-general inference, not a fact disclosed in this
+    material.
+  usage_reason: 材料只给出融资事实，未说明 AI 具体减少哪一步人工负担或改善哪项可核对结果，因此无法解释用户为何选择它；这是信息缺口，不是已成立的使用理由。
+  usage_reason_en: The material gives only the funding fact and does not say which manual step the AI
+    removes or which checkable result it improves, so it cannot explain why users would choose it; this
+    is a gap, not an established usage reason.
+- id: req-full-falcon-ai-raises-15m-for-ai-native-law-firm-2026-10-08
+  project_slug: falcon-ai-raises-15m-for-ai-native-law-firm
+  level: full
+  reviewed_at: '2026-10-08T02:42:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决法律事项的交付问题，但材料未说明替代哪一步旧工作、痛点强度与不采用的后果，价值结构无法还原，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-6366046d10643446
+    - ev-53d527257d24d31e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Konsulteer 官方站点或公开执业信息，确认其服务范围、收费方式与人工律师复核环节。
+  market: ''
+  job: 公开材料只显示 Falcon AI 为 AI 原生律所 Konsulteer 融资 150 万欧元，未说明谁在哪个工作节点打开它、AI 接收什么材料、执行什么动作、交付什么结果，因此无法写出具体使用场景。
+  job_en: Public material only shows Falcon AI raised EUR 1.5 million for the AI-native law firm Konsulteer;
+    it does not say who opens it at which work step, what materials the AI receives, what action it performs,
+    or what it delivers, so no concrete job can be stated.
+  pain: 材料未披露 Konsulteer 替代哪一步旧工作、旧做法耗时或成本多少、不采用会有什么后果，痛点无法从公开事实还原。
+  pain_en: The material does not disclose which old step Konsulteer replaces, how long or costly the old
+    practice was, or the consequence of not adopting it, so the pain cannot be reconstructed from public
+    facts.
+  current_alternative: 材料未说明用户当前用什么方式完成同类法律工作，无法确认替代对象是传统律所、通用 AI 助手还是内部法务流程。
+  current_alternative_en: The material does not state how users currently complete comparable legal work,
+    so the substitute cannot be confirmed as traditional firms, general AI assistants, or in-house legal
+    workflows.
+  usage_reason: 材料只给出融资事实，未说明产品通过什么具体动作减少哪一步负担或改善哪项可核对结果，无法解释用户为何选择它。
+  usage_reason_en: The material gives only the funding fact and does not say which manual step the product
+    removes or which checkable result it improves, so it cannot explain why users would choose it.

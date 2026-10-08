@@ -420,3 +420,53 @@
     to check quality after generation, removing the step of restating standards and manually comparing
     each iteration; it would therefore be chosen by marketing teams that need launch-grade promo videos
     quickly without a dedicated motion designer.'
+- id: req-full-motion-video-kit-2026-10-08
+  project_slug: motion-video-kit
+  level: full
+  reviewed_at: '2026-10-08T02:44:11Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决商业宣传片制作中动效与音效质量不稳、需反复人工返工的需求；痛点来自 AI 视频缺统一质量基线，旧做法是模板加手工调帧。公开仓库说明已把 28 部发布片原则与评审循环固化为技能，交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-d9ff5dc9caba0c03
+    - ev-fa4cda2f0eb429b1
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 961 增至 1,060，说明 Claude Code 生态的创作者持续关注并把它纳入试用清单；但收藏属关注度证据，公开材料未显示留存、复购或团队级部署，故共识仅初步成立。
+    evidence_ids:
+    - ev-d9ff5dc9caba0c03
+    - ev-6578f71a6ea017e8
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：仓库未公开定价页、付费客户或采购记录，钱可能来自 to C 创作者订阅或 to B 营销团队定制，也可能仅靠开源声誉引流；公开材料尚不能确认任何一条付费路径。
+    evidence_ids:
+    - ev-d9ff5dc9caba0c03
+  - gate: truth
+    status: insufficient
+    reason: 公开仓库未提供可复现的成品对比、渲染失败率或人工修改量数据，独立评审循环能否稳定替代人工质检、以及 Three.js 输出在真实商业交付中的安全与版权边界，均缺公开证据。
+    evidence_ids:
+    - ev-fa4cda2f0eb429b1
+    - ev-9aabbe7f955848b3
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认是否出现成品对比样例、使用反馈或商业授权与定价说明。
+  market: ''
+  job: 做商业宣传片的创作者或营销团队在 Claude Code 里加载这套技能包，把品牌信息与产品素材转成动效脚本、音效规范与 Three.js 画面，最终交付可发布的商业视频素材。
+  job_en: Creators or marketing teams producing business promo videos load this skill kit in Claude Code,
+    turning brand messaging and product assets into motion scripts, sound specs and Three.js scenes, delivering
+    publishable business video assets.
+  pain: AI 生成视频常缺动效节奏、音效层次与统一质量基线，创作者要反复人工返工；公开材料未给出返工时长或成本数据，痛点强度属工作流结构推理。
+  pain_en: AI-generated video often lacks motion rhythm, sound layering and a consistent quality bar,
+    forcing repeated manual rework; public materials give no rework hours or cost, so pain intensity is
+    a workflow-structure inference.
+  current_alternative: 旧做法是套用通用视频模板、逐帧手工调动画，或直接让通用大模型生成后人工剪辑补音效；公开材料未说明这些替代方式的具体使用比例。
+  current_alternative_en: The old path is generic video templates, frame-by-frame manual animation, or
+    raw LLM output followed by manual editing and sound patching; public materials do not state how widely
+    these alternatives are used.
+  usage_reason: 推断：相较通用模板或裸模型输出，它把 28 部发布片的动效原则、音效规范与 Three.js 模式固化为可加载技能，并用独立评审循环在生成阶段自查，减少创作者逐条口述风格与事后返工的那一步，因此做商业宣传片且已在用
+    Claude Code 的团队会优先试用它。
+  usage_reason_en: 'Inference: versus generic templates or raw model output, it packages motion principles
+    from 28 launch films, sound specs and Three.js patterns into a loadable skill and self-checks via
+    an independent critic loop during generation, removing the step of dictating style each time and post-hoc
+    rework, so teams already using Claude Code for business promos would try it first.'

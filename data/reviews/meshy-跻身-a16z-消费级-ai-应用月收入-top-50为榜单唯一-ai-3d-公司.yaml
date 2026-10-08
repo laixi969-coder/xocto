@@ -1,0 +1,96 @@
+- id: req-initial-meshy-跻身-a16z-消费级-ai-应用月收入-top-50为榜单唯一-ai-3d-公司-2026-10-08
+  project_slug: meshy-跻身-a16z-消费级-ai-应用月收入-top-50为榜单唯一-ai-3d-公司
+  level: initial
+  reviewed_at: '2026-10-08T01:56:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 3D 资产从零建模耗时的问题，痛点刚性且旧替代行为明确（手工建模或按件外包），交付物是可导入的模型与贴图。
+    evidence_ids:
+    - ev-b17eb1175de6f660
+  - gate: consensus
+    status: insufficient
+    reason: 仅有月收入榜单排名这一关注度与规模信号，缺少用户评价、客户案例或重复使用证据，无法判断是否已进入稳定工作流。
+    evidence_ids:
+    - ev-b17eb1175de6f660
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、按什么计价以及买方是个人创作者还是企业团队，收入来源结构属于推断而非已验证事实。
+    evidence_ids:
+    - ev-b17eb1175de6f660
+  - gate: truth
+    status: insufficient
+    reason: 生成结果能否确定性交付、拓扑与贴图是否需大量人工返修，公开材料未说明，安全与人工边界也未核验。
+    evidence_ids:
+    - ev-b17eb1175de6f660
+  next_validation: 收集 Meshy 官方定价页与公开客户案例，确认计价方式、买方类型以及生成资产是否需要大量人工返修。
+  market: ''
+  job: 游戏或电商团队的美术与建模人员，在需要为角色、道具或商品准备 3D 资产时，处理文字描述或参考图，要产出可导入引擎或商品页的 3D 模型与贴图。
+  job_en: Artists and modelers on game or e-commerce teams who, when preparing 3D assets for characters,
+    props or products, work from text prompts or reference images to produce 3D models and textures importable
+    into an engine or product page.
+  pain: 手工建模与贴图耗时长、外包沟通成本高，小团队常常因为一个道具或商品模型卡住整个上线节奏。
+  pain_en: Manual modeling and texturing are slow and outsourcing requires heavy back-and-forth, so small
+    teams often have a whole launch blocked by a single prop or product model.
+  current_alternative: 过去由内部美术手工建模，或外包给 3D 工作室按件计价，周期以天到周计。
+  current_alternative_en: Previously done by in-house artists modeling by hand, or outsourced to 3D studios
+    priced per asset, with turnaround measured in days to weeks.
+  usage_reason: 相较手工建模或外包，Meshy 让用户用文字或参考图直接得到初版模型与贴图，省掉从零起稿这一步，把美术的精力集中到拓扑修复与风格统一上；推断需要快速铺量道具或商品模型的独立游戏团队与电商卖家会因此选择它。
+  usage_reason_en: Compared with manual modeling or outsourcing, Meshy lets users get a first-pass model
+    and texture directly from text or reference images, removing the blank-canvas step and letting artists
+    focus on topology repair and style consistency; by inference, indie game teams and e-commerce sellers
+    needing to mass-produce prop or product models would choose it for this reason.
+- id: req-full-meshy-跻身-a16z-消费级-ai-应用月收入-top-50为榜单唯一-ai-3d-公司-2026-10-08
+  project_slug: meshy-跻身-a16z-消费级-ai-应用月收入-top-50为榜单唯一-ai-3d-公司
+  level: full
+  reviewed_at: '2026-10-08T02:44:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 3D 资产从零建模与贴图耗时的问题，痛点刚性：小团队常被单个道具或商品模型卡住上线；旧替代是手工建模或按件外包，交付物为可导出 FBX/OBJ/GLB/STL 的模型与贴图。此为工作流结构推理，公开材料未给返修工时。
+    evidence_ids:
+    - ev-e4598f21cb498610
+    - ev-6be467abde0c4d41
+    - ev-d36633aeececf4ef
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 a16z 月收入榜单排名这一规模与关注度信号，公开材料未见用户评价、客户案例或重复使用证据，无法确认它已稳定进入美术工作流；榜单排名不能解释用户为何选择它。
+    evidence_ids:
+    - ev-e4598f21cb498610
+    - ev-6be467abde0c4d41
+  - gate: model
+    status: insufficient
+    reason: 官网称可免费试用，但公开材料未披露定价页、计价单位与买方是个人创作者还是企业团队；收入来自 to C 订阅还是 to B 席位属于推断，不是已验证事实，也未出现仅靠融资续命的迹象。
+    evidence_ids:
+    - ev-e4598f21cb498610
+    - ev-d36633aeececf4ef
+  - gate: truth
+    status: insufficient
+    reason: Meshy-6 宣称几何质量与结构一致性提升，但公开材料未说明生成资产能否确定性交付、拓扑与贴图需多少人工返修，也未交代安全与人工审核边界，交付确定性仍待核验。
+    evidence_ids:
+    - ev-6be467abde0c4d41
+    - ev-e4598f21cb498610
+  next_validation: 追踪 Meshy 官网定价页与公开客户案例（含计价单位、买方类型与生成资产返修说明），确认付费路径与交付确定性。
+  market: ''
+  job: 游戏或电商团队的美术与建模人员，在需要为角色、道具或商品准备 3D 资产时，把文字描述或参考图交给 Meshy，产出可导出 FBX/OBJ/GLB/STL 的模型与贴图，再导入引擎或商品页做修整与确认。
+  job_en: Artists and modelers on game or e-commerce teams who, when preparing 3D assets for characters,
+    props or products, hand text prompts or reference images to Meshy to produce models and textures exportable
+    as FBX/OBJ/GLB/STL, then import them into an engine or product page for cleanup and sign-off.
+  pain: 从零手工建模与贴图耗时长，外包按件沟通周期以天到周计，小团队常因单个道具或商品模型卡住上线节奏；公开材料只说明生成耗时 20-30 秒到约一分钟，未给出返修工时数据。
+  pain_en: Modeling and texturing from scratch is slow, and per-asset outsourcing runs on a days-to-weeks
+    cycle, so a single prop or product model can block a small team's launch; public material only states
+    generation takes 20-30 seconds to about a minute and gives no rework-hour data.
+  current_alternative: 内部美术手工建模与贴图，或外包给 3D 工作室按件计价；也可用通用图像生成工具出概念图后再人工转 3D。
+  current_alternative_en: In-house artists modeling and texturing by hand, or outsourcing to 3D studios
+    priced per asset; alternatively using general image generators for concept art and converting to 3D
+    manually.
+  usage_reason: 相较手工起稿或外包排期，Meshy 用文字或参考图直接产出带贴图、可导出的初版资产，省掉从空白场景建模这一步，把美术精力移到拓扑修复与风格统一；推断需要快速铺量道具或商品模型的独立游戏团队与电商卖家会因此在初稿阶段选择它。
+  usage_reason_en: Compared with blank-canvas modeling or outsourcing queues, Meshy produces a textured,
+    export-ready first-pass asset directly from text or reference images, removing the from-scratch modeling
+    step and shifting artist effort to topology repair and style consistency; by inference, indie game
+    teams and e-commerce sellers needing to mass-produce prop or product models would choose it at the
+    draft stage for this reason.

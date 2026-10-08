@@ -21,7 +21,7 @@ canonical_url: https://bloomberg.com/news/newsletters/2026-10-07/study-claude-ch
 summary: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth
 first_seen: '2026-10-07T16:07:08Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/walrus-console
 summary: Store, Protect and Connect Your Data
 first_seen: '2026-10-06T16:33:14Z'
 last_seen: '2026-10-08T01:55:51Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -1,0 +1,82 @@
+- id: req-initial-sunsed-2026-10-08
+  project_slug: sunsed
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它针对的是自然语言生成应用返工多的问题，痛点可辨，但“为 AI 设计的语言”具体指什么、产出是否可用均未说明。
+    evidence_ids:
+    - ev-bf96697fea4d6ff7
+  - gate: consensus
+    status: insufficient
+    reason: 除发布页外无开发者评价、仓库讨论或采用数据，无法判断是否有人真正用它交付。
+    evidence_ids:
+    - ev-bf96697fea4d6ff7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人开发者订阅还是团队采购不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bf96697fea4d6ff7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成应用的可维护性与安全边界，交付确定性未明。
+    evidence_ids:
+    - ev-bf96697fea4d6ff7
+  next_validation: 收集 SunSed 官方文档或定价页，确认该语言的语法说明与生成产物的可维护性。
+  market: ''
+  job: 非专业开发者或小团队在需要快速做出内部工具或原型时，用一套面向 AI 的语言描述需求，希望直接得到可运行的应用。
+  job_en: A non-professional developer or small team needing a quick internal tool or prototype describes
+    requirements in an AI-oriented language and expects a runnable application.
+  pain: 自然语言提示生成的应用常需反复返工，非专业开发者难以判断和修复生成结果。
+  pain_en: Apps generated from natural-language prompts often need repeated rework, and non-professional
+    developers struggle to judge and fix the output.
+  current_alternative: 用自然语言提示的 AI 生成工具，或直接请开发者、用低代码平台搭建。
+  current_alternative_en: Natural-language AI generation tools, or hiring a developer or using a low-code
+    platform.
+  usage_reason: 推断：若受约束的语言能减少生成结果的返工，非专业开发者会在做内部工具时选择它，省掉反复调提示这一步；但公开材料未给出语法、产出质量或用户反馈，动机尚无事实支持。
+  usage_reason_en: 'Inference: if the constrained language reduces rework in generated output, non-professional
+    developers would choose it for internal tools, saving the step of repeatedly tuning prompts; but public
+    material gives no syntax, output quality or user feedback, so the motive lacks factual support.'
+- id: req-full-sunsed-2026-10-08
+  project_slug: sunsed
+  level: full
+  reviewed_at: '2026-10-08T02:45:11Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决自然语言生成应用返工多的问题，但公开材料只有一句定位，未说明该语言语法、生成产物可用性，连需求与痛点都无法还原，故不成立。
+    evidence_ids:
+    - ev-bf96697fea4d6ff7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 SunSed 官方文档或定价页，确认该语言的语法说明与生成产物的可维护性。
+  market: ''
+  job: 非专业开发者或小团队在需要快速做出内部工具或原型时，用一套据称面向 AI 设计的语言描述需求，期望直接得到可运行的应用雏形。
+  job_en: A non-professional developer or small team needing a quick internal tool or prototype describes
+    requirements in an AI-oriented language and expects a runnable application skeleton.
+  pain: 公开材料只给出发布页一句定位，未说明自然语言提示生成应用时具体哪一步返工、返工频率或不解决的后果，痛点无法从公开事实还原。
+  pain_en: Public material offers only a one-line launch positioning; it does not show which step of natural-language
+    app generation causes rework, how often, or the consequence of leaving it unsolved, so the pain cannot
+    be reconstructed from public facts.
+  current_alternative: 公开材料未说明用户当前用什么方式完成同一任务，也未说明它实际替代了自然语言提示工具、低代码平台还是请开发者。
+  current_alternative_en: Public material does not state how users currently complete the same task, nor
+    whether it replaces natural-language prompt tools, low-code platforms, or hiring a developer.
+  usage_reason: 公开材料未给出该语言的语法、生成产物的可维护性或任何用户反馈，无法解释用户相较旧做法为什么会选择它；此处不构成使用理由。
+  usage_reason_en: Public material gives no syntax for the language, no maintainability of generated output,
+    and no user feedback, so there is no basis to explain why users would choose it over their existing
+    approach; no usage reason can be stated.

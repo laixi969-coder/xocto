@@ -284,3 +284,53 @@
     cross-tool copy-paste and segment-stitching step, so story-video creators lacking editing resources
     who want a text idea turned into an uploadable cut would choose it in that situation; no user feedback
     yet confirms this motive.'
+- id: req-full-bang-story-2026-10-08
+  project_slug: bang-story
+  level: full
+  reviewed_at: '2026-10-08T02:41:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是故事类视频从创意到成片的多工具手工拼装痛点，任务、输入与交付闭环在公开说明中可还原，属工作流结构推理；但公开材料未说明人工修改环节与成片质量，痛点强度与不采用代价仍缺用户侧证据。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-266074db31c78708
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 42 增至 71，说明社区持续关注，但收藏与关注只属规模信号，不能证明目标创作者已把它留在日常出片流程；公开材料无用户评价、案例或重复使用记录。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-216a2e5b94ed0ab8
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径，无法判断钱来自个人创作者订阅、团队授权还是其他；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只描述自动生成脚本、图片、视频，未说明成片是否需逐段确认、质量是否稳定、以及版权与平台合规边界，交付确定性尚无可复现证据。
+    evidence_ids:
+    - ev-3a4a129bbb3be9a7
+    - ev-cc668c736dda3199
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认是否披露成片示例、人工修改环节、定价或付费方式等公开证据。
+  market: ''
+  job: 做 YouTube 故事类视频的个人创作者在只有一个故事创意时，打开桌面应用输入创意，让 AI 依次产出脚本、配图和视频片段，最终拿到可上传的成片文件。
+  job_en: A solo YouTube story-video creator with only a story idea opens the desktop app, enters the
+    idea, and has AI produce script, images and video in sequence to obtain an uploadable video file.
+  pain: 故事类视频的脚本、配图、剪辑素材分散在多个工具里，从创意到成片要反复切换和手工拼装，单条视频制作周期长；公开材料只说明自动化流程，未给出创作者实际耗时或放弃代价的量化数据。
+  pain_en: Script, images and editing assets for story videos are scattered across tools, so going from
+    idea to finished video requires repeated switching and manual assembly, lengthening per-video production;
+    public materials describe the automation flow but give no quantified creator time cost or abandonment
+    cost.
+  current_alternative: 公开材料未直接说明替代方式；按工作流结构推断，创作者目前用通用 LLM 写脚本、用图像生成工具出图、再用剪辑软件手工合成，或外包给剪辑师。
+  current_alternative_en: Public materials do not state the alternative directly; by workflow inference,
+    creators currently use a general LLM for scripts, image generators for visuals, then manual editing
+    software to assemble, or outsource to an editor.
+  usage_reason: 推断：相较在多个工具间手工搬运素材，该应用把脚本、图片、视频串成一次输入即依次生成的流水线，减少的是跨工具复制粘贴与逐段拼接这一步负担，因此只有故事创意、缺少剪辑产能的个人创作者会在批量出片时选择它；公开材料未说明人工修改与逐段确认环节，成片质量与留存仍无证据。
+  usage_reason_en: 'Inference: versus manually shuttling assets between tools, the app chains script,
+    images and video into one input-to-output pipeline, removing the cross-tool copy-paste and segment-by-segment
+    assembly step, so solo creators with only a story idea and no editing capacity would pick it for batch
+    output; public materials do not describe manual revision or per-segment confirmation, and no evidence
+    exists on output quality or retention.'

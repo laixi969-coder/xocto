@@ -1,0 +1,87 @@
+- id: req-initial-introducing-video-editor-in-manus-20-2026-10-08
+  project_slug: introducing-video-editor-in-manus-20
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决创作者产出可发布视频的需求，但材料未说明具体痛点与旧流程哪一步被替代，价值关证据不足。
+    evidence_ids:
+    - ev-467da21df3200f6d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官方一句宣传语，无用户反馈或采用信号，无法判断卡在感知还是场景。
+    evidence_ids:
+    - ev-467da21df3200f6d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断 to C 订阅还是其他付费路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-467da21df3200f6d
+  - gate: truth
+    status: insufficient
+    reason: 无法核验成片是否可直接发布、人工确认边界在哪，交付确定性未知。
+    evidence_ids:
+    - ev-467da21df3200f6d
+  next_validation: 收集 Manus 官方视频编辑器功能文档或定价页，确认其输入素材类型、输出成片规格与收费方式。
+  market: ''
+  job: 短视频创作者或社媒运营在需要为账号产出可发布视频时，处理拍摄素材或已有片段，要完成剪辑并得到成片。
+  job_en: A short-video creator or social media operator producing a postable video for an account handles
+    footage or existing clips and needs to finish editing into a final cut.
+  pain: 候选材料只给出“任何人都能做出值得发布的视频”这一句，未说明旧流程中哪一步最耗时、失败代价是什么。
+  pain_en: The material offers only the line 'anyone can make a video worth posting' and does not say
+    which step of the old workflow is most costly or what failure costs.
+  current_alternative: 创作者通常使用剪映、Premiere 等剪辑软件手动剪辑，或外包给剪辑师。
+  current_alternative_en: Creators typically edit manually in tools such as CapCut or Premiere, or outsource
+    to an editor.
+  usage_reason: 推断：若编辑器能直接接收素材并输出可发布成片，可省去在剪辑软件中逐段拼接与调色的步骤，因此时间紧、剪辑技能弱的创作者可能选择它；但材料未披露具体动作与交付，无法确认这一因果。
+  usage_reason_en: 'Inference: if the editor can take footage and output a postable cut, it could remove
+    the step of assembling and color-grading clip by clip in editing software, so time-pressed creators
+    with weak editing skills might choose it; however the material discloses neither the actions nor the
+    deliverable, so this causal link is unconfirmed.'
+- id: req-full-introducing-video-editor-in-manus-20-2026-10-08
+  project_slug: introducing-video-editor-in-manus-20
+  level: full
+  reviewed_at: '2026-10-08T02:43:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决创作者产出可发布视频的需求，但材料只有一句宣传语，未说明具体痛点、旧流程哪一步被替代、不解决的后果，价值关证据不足。
+    evidence_ids:
+    - ev-383adf0ecbe61b87
+    - ev-f66b7c4fb8db653e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Manus 官方视频编辑器功能文档或定价页，确认其输入素材类型、AI 执行的剪辑动作、输出成片规格与收费方式。
+  market: ''
+  job: 短视频创作者或社媒运营在需要为账号持续产出可发布视频时，处理拍摄素材或已有片段，要完成剪辑并得到可直接发布的成片。
+  job_en: A short-video creator or social media operator producing postable videos for an account handles
+    footage or existing clips and needs to finish editing into a publishable final cut.
+  pain: 公开材料只有一句“任何人都能做出值得发布的视频”，未说明旧流程中哪一步最耗时、失败代价是什么，也未给出任何用户抱怨或替代行为证据，痛点无法还原。
+  pain_en: The public material offers only the line 'anyone can make a video worth posting' and does not
+    identify which step of the old workflow is most costly or what failure costs, with no user complaints
+    or workaround evidence, so the pain cannot be reconstructed.
+  current_alternative: 创作者通常使用剪映、Premiere 等剪辑软件手动剪辑，或外包给剪辑师；材料未说明 Manus 视频编辑器相较这些旧做法的具体差异。
+  current_alternative_en: Creators typically edit manually in tools such as CapCut or Premiere, or outsource
+    to an editor; the material does not describe how Manus's video editor differs from these existing
+    practices.
+  usage_reason: 推断：若编辑器能直接接收素材并输出可发布成片，可省去在剪辑软件中逐段拼接与调色的步骤，时间紧、剪辑技能弱的创作者可能选择它；但材料未披露 AI 接收什么、执行哪些剪辑动作、交付形态与人工确认环节，因果无法确认。
+  usage_reason_en: 'Inference: if the editor can take footage and output a postable cut, it could remove
+    the step of assembling and color-grading clip by clip in editing software, so time-pressed creators
+    with weak editing skills might choose it; however the material discloses neither what the AI ingests,
+    which editing actions it performs, the deliverable form, nor the human confirmation step, so the causal
+    link is unconfirmed.'

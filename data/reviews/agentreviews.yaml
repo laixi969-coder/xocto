@@ -1,0 +1,83 @@
+- id: req-initial-agentreviews-2026-10-08
+  project_slug: agentreviews
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决开发者选型时读评测费时的问题，但公开材料未说明 agent 评价替代了哪一步旧工作，也无可核验的用户痛点或替代行为，价值结构尚不成立。
+    evidence_ids:
+    - ev-75c06d41ee6bfba5
+  - gate: consensus
+    status: insufficient
+    reason: 只有一次社区讨论的 47 点与 39 条评论，属于关注度而非持续采用，无法判断是否卡在感知、场景或利益环节。
+    evidence_ids:
+    - ev-75c06d41ee6bfba5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方、定价或收费方式，无法判断钱来自 to C、to B 还是其他一方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-75c06d41ee6bfba5
+  - gate: truth
+    status: insufficient
+    reason: 评价由 agent 撰写，其真实性、可追溯性和人工审核边界均未披露，交付是否确定发生无法核对。
+    evidence_ids:
+    - ev-75c06d41ee6bfba5
+  next_validation: 收集该站点公开的评价来源说明、审核或署名规则页面，以及是否有可复现的 agent 读写接口文档。
+  market: ''
+  job: 开发者在为项目挑选开发工具时，需要处理大量评测文章和文档，要判断某个工具是否适合当前技术栈。
+  job_en: When choosing tools for a project, a developer has to work through many review articles and
+    docs to judge whether a tool fits the current stack.
+  pain: 人工读评测耗时且口径不一，但公开材料没有说明 agent 写评价解决了哪一步具体负担，也没有用户抱怨或替代行为的记录。
+  pain_en: Reading reviews by hand is slow and inconsistent, but the public material does not say which
+    specific step agent-written reviews remove, and there is no record of user complaints or workaround
+    behaviour.
+  current_alternative: 开发者目前靠人工读评测、看文档、问同事或在社区提问来选型。
+  current_alternative_en: Developers currently select tools by reading reviews, checking docs, asking
+    colleagues or posting in communities.
+  usage_reason: 推断：如果 agent 能直接产出可核验的工具对比，开发者可能省去逐篇阅读这一步；但公开材料未给出评价来源、审核方式或使用反馈，因此选择它的理由尚不成立。
+  usage_reason_en: 'Inference: if agents could produce verifiable tool comparisons, developers might skip
+    reading each review; but the public material gives no review sources, moderation method or usage feedback,
+    so the reason to choose it is not yet established.'
+- id: req-full-agentreviews-2026-10-08
+  project_slug: agentreviews
+  level: full
+  reviewed_at: '2026-10-08T02:41:23Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决开发者选型读评测费时的问题，但公开材料只有一句站点定位，未说明 agent 评价替代了选型流程中的哪一步，也无可核验的痛点或旧做法，价值结构不成立。
+    evidence_ids:
+    - ev-75c06d41ee6bfba5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 agent.reviews 官网是否公开评价来源说明、审核或署名规则页面，以及是否存在可复现的 agent 读写接口文档。
+  market: ''
+  job: 开发者在为项目挑选开发工具时，需要处理大量评测文章和文档，要判断某个工具是否适合当前技术栈。
+  job_en: When choosing tools for a project, a developer has to work through many review articles and
+    docs to judge whether a tool fits the current stack.
+  pain: 公开材料只有一句站点定位，没有说明 agent 写评价替代了选型流程中的哪一步，也没有用户抱怨、绕行做法或采用记录，痛点刚性无法确认。
+  pain_en: The public material is a single positioning line; it does not say which step of tool selection
+    agent-written reviews replace, and there are no user complaints, workarounds or adoption records,
+    so pain rigidity cannot be confirmed.
+  current_alternative: 开发者目前靠人工读评测、看官方文档、问同事或在社区提问来选型。
+  current_alternative_en: Developers currently select tools by reading reviews, checking official docs,
+    asking colleagues or posting in communities.
+  usage_reason: 推断：若 agent 能产出可核验的工具对比，开发者可省去逐篇阅读这一步；但公开材料未给出评价来源、审核方式或任何使用反馈，选择它的理由尚不成立。
+  usage_reason_en: 'Inference: if agents produced verifiable tool comparisons, developers could skip reading
+    each review; but the public material gives no review sources, moderation method or usage feedback,
+    so the reason to choose it is not established.'

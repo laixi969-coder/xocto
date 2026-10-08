@@ -763,3 +763,46 @@
     what the agent did from logs and rolling back by hand; developers who let agents touch real repositories
     but must keep human release points would adopt it in automated delivery flows. The 77 stars and 3
     forks reflect attention, not sustained workflow retention.'
+- id: req-full-approving-2026-10-08
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-10-08T02:41:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与部署文档，看是否有团队报告沙箱隔离、人工 Approve 卡点与结构化产物交接在真实项目中的运行结果。
+  market: ''
+  job: 使用编码代理的开发者或小团队在让 AI 修改真实代码库时，需要代理在 Docker 沙箱中运行、以结构化产物交接，并在关键节点暂停等待人工批准后才继续，以便在交付前保留可审查、可回滚的流程。
+  job_en: Developers or small teams using coding agents need the agent to run in a Docker sandbox, hand
+    off structured artifacts, and pause at critical nodes for human approval before continuing, so the
+    delivery stays reviewable and recoverable.
+  pain: 公开材料指向编码代理直接改动代码库时缺乏隔离与人工卡点，出错后难以审查和回滚；这是从产品能力反推的工作流结构推理，公开证据中没有用户自述的故障代价或发生频率。
+  pain_en: The public description points to coding agents editing real repositories without isolation
+    or human checkpoints, making errors hard to review and roll back; this is a workflow-structure inference
+    from product capability, with no user-stated failure cost or frequency in public evidence.
+  current_alternative: 开发者目前通常直接让编码代理在本地或 CI 中改代码，靠 git 分支、代码评审和人工盯守来兜底；公开材料未直接描述用户现状，这是从产品定位反推的常见做法。
+  current_alternative_en: Developers today typically let coding agents edit code locally or in CI, relying
+    on git branches, code review, and manual watching as safeguards; public materials do not directly
+    describe this, it is inferred from the product positioning.
+  usage_reason: 推断：相较直接让代理改代码再靠 git 和评审兜底，它把代理放进真实 Docker 沙箱、用结构化产物交接并在关键节点强制人工 Approve，减少了事后排查不可回滚改动的负担，因此在意交付可审查性的开发者或小团队会在让代理动生产相关代码时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus letting agents edit code and relying on git and review afterward,
+    it runs agents in real Docker sandboxes, exchanges structured artifacts, and forces human Approve
+    at critical nodes, cutting the burden of tracing non-rollbackable changes; developers or small teams
+    who care about reviewable delivery would choose it when agents touch production-adjacent code. No
+    public user feedback yet confirms this motive.'

@@ -1,6 +1,6 @@
 ---
 slug: software-startup-vinci-raises-250-million-at-a-15-billion-va
-name: Software startup Vinci raises $250 million at a $1.5 billion valuation
+name: Vinci
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXlBT2t6Yl9M
 summary: Software startup Vinci raises $250 million at a $1.5 billion valuation Reuters
 first_seen: '2026-10-06T08:18:47Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Software startup Vinci raises $250 million at a $1.5 billion valuation
+# Vinci
 
 Software startup Vinci raises $250 million at a $1.5 billion valuation Reuters
 

@@ -187,3 +187,55 @@
     the same prompt, and cross-reading scattered output, so engineers who already run two or more coding
     agents and need to compare results would pick it during evaluation or debugging; public materials
     show no retention or payment evidence yet.'
+- id: req-full-bettercode-2026-10-08
+  project_slug: bettercode
+  level: full
+  reviewed_at: '2026-10-08T02:42:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多编码代理并行时的窗口切换与上下文分散问题：用户要在一个工作区同时跑 Claude Code、Codex、Cursor Agent 和 Grok 并对照输出。公开说明已能还原输入（自带
+      CLI）、动作（并排运行）与交付（同窗口多代理输出），属工作流结构推理；痛点刚性与不采用的代价尚无用户材料量化。
+    evidence_ids:
+    - ev-343f76030b7b7f2f
+    - ev-a966b0e7f4b96ba1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 129 增至 275 后回落至 274，说明开发者社区注意到该项目，但收藏与关注只属规模信号，公开材料没有 issue、discussion 或评价说明用户卡在感知、场景还是利益环节，无法证明持续采用。
+    evidence_ids:
+    - ev-343f76030b7b7f2f
+    - ev-e9073ab9694dd0d8
+    - ev-49225c80f2a3b060
+  - gate: model
+    status: insufficient
+    reason: 公开材料只写 beta 期免费、MIT 开源，没有定价页、付费主体或单位经济；谁付钱（个人开发者、团队还是靠开源赞助）是判断而非已验证事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-343f76030b7b7f2f
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺把多个第三方代理并排运行，但公开材料未说明各代理 CLI 的凭据、配额与安全边界如何隔离，也未给出可复现的交付结果；能否确定性交付尚缺部署文档或实测证据。
+    evidence_ids:
+    - ev-a966b0e7f4b96ba1
+    - ev-868b8b63dd1e4129
+  next_validation: 追踪 bettercode 官方仓库的 README、issue 与 discussion，确认是否公开多代理并行的部署方式、凭据隔离说明及用户实际使用反馈。
+  market: ''
+  job: 软件工程师在本地开发机上同时使用 Claude Code、OpenAI Codex、Cursor Agent、Grok 等多个编码代理处理同一仓库任务时，需要在一个桌面窗口里并行启动并观察各代理的输出，再自行判断与合并结果。
+  job_en: Software engineers running Claude Code, OpenAI Codex, Cursor Agent and Grok on the same repository
+    task need one desktop window to launch and watch multiple coding agents in parallel, then judge and
+    merge their outputs themselves.
+  pain: 多代理并行时用户要在多个终端或 IDE 之间来回切换、分别配置各自 CLI 与凭据，上下文和输出分散，难以对照比较；公开材料只说明产品把代理并排运行，未披露切换成本或出错后果的具体量化数据。
+  pain_en: Running agents in parallel forces users to switch between terminals or IDEs and configure each
+    CLI and credential separately, scattering context and output; public material only states the product
+    runs agents side by side and gives no quantified data on switching cost or error consequences.
+  current_alternative: 当前替代方式是分别打开多个终端窗口或 IDE 面板，各自运行一个代理 CLI，并手动复制粘贴上下文与结果；这是从产品说明与常见工作流推出的结构判断，不是用户口述。
+  current_alternative_en: The current alternative is opening several terminal windows or IDE panes, running
+    one agent CLI in each, and manually copying context and results between them; this is a structural
+    inference from the product description and common workflow, not user testimony.
+  usage_reason: 推断：相较逐个终端启动代理，它把多个代理收进同一桌面工作区并允许自带 CLI，减少的是“为每个代理单独开窗、切换、对齐上下文”这一步负担，因此同时使用两个以上编码代理的工程师会在需要对照多代理输出时选择它；公开材料尚无用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: compared with launching agents one terminal at a time, it puts multiple
+    agents into one desktop workspace and lets users bring their own CLI, removing the step of opening,
+    switching and re-aligning context per agent, so engineers already running two or more coding agents
+    would choose it when comparing outputs; public material has no user feedback or retention evidence
+    for this motive.'

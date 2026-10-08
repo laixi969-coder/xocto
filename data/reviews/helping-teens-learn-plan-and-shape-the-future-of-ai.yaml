@@ -1,0 +1,88 @@
+- id: req-initial-helping-teens-learn-plan-and-shape-the-future-of-ai-2026-10-08
+  project_slug: helping-teens-learn-plan-and-shape-the-future-of-ai
+  level: initial
+  reviewed_at: '2026-10-08T01:56:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决申请季截止日期密集、材料分散、漏交代价高的问题，旧做法是表格加日历手工管理，痛点具体且时间刚性。
+    evidence_ids:
+    - ev-131f824f9067986b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明功能上线，未见学生或家长的实际使用反馈、学校采用或留存数据。
+    evidence_ids:
+    - ev-131f824f9067986b
+  - gate: model
+    status: insufficient
+    reason: 未披露该模块是否单独收费或包含在订阅内，买方是家庭还是学校无法确认，属判断而非已验证事实。
+    evidence_ids:
+    - ev-131f824f9067986b
+  - gate: truth
+    status: insufficient
+    reason: 未见截止日期数据来源、材料核对准确性以及未成年人使用边界的公开说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-131f824f9067986b
+  next_validation: 收集 OpenAI 官方关于 College Planner 的功能说明或帮助文档，确认其数据来源、提醒机制与是否单独计费。
+  market: ''
+  job: 高中生与家长在申请季整理选校清单、截止日期与申请材料时，需要跟踪进度并准备考试复习内容。
+  job_en: High school students and parents organizing school lists, deadlines and application materials
+    during admissions season, tracking progress and preparing exam review.
+  pain: 申请季时间节点密集、材料分散在多个系统，错过截止日期或漏交材料的代价高，家长往往靠表格和提醒手工管理。
+  pain_en: Admissions season has dense deadlines and materials scattered across systems; missing a deadline
+    or document is costly, and parents often manage it manually with spreadsheets and reminders.
+  current_alternative: 用电子表格、日历提醒、学校升学顾问和第三方申请管理工具手工整理清单与进度。
+  current_alternative_en: Spreadsheets, calendar reminders, school counselors and third-party application
+    trackers used to manually organize lists and progress.
+  usage_reason: 相较自建表格加日历提醒，它把申请进度管理直接放进学生已经在用的对话入口，减少在多个工具间同步清单这一步，因此申请季的学生和家长可能直接在里面记录与复习；这是基于产品能力的推断，尚无公开的持续使用或付费证据。
+  usage_reason_en: Compared with self-built spreadsheets plus calendar reminders, it puts application
+    progress management inside the conversational entry students already use, cutting the step of syncing
+    lists across tools, so students and parents in admissions season may record and review there. This
+    is inference from capability, with no public retention or payment evidence.
+- id: req-full-helping-teens-learn-plan-and-shape-the-future-of-ai-2026-10-08
+  project_slug: helping-teens-learn-plan-and-shape-the-future-of-ai
+  level: full
+  reviewed_at: '2026-10-08T02:43:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决申请季截止日期密集、材料分散、漏交代价高的问题，旧做法是表格加日历手工管理，痛点具体且时间刚性；但现有证据仅覆盖 ChatGPT 通用能力，College Planner 本身的功能细节属结构推理。
+    evidence_ids:
+    - ev-b7ac2e4579d21f44
+    - ev-64bbc665f5f971df
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明 ChatGPT 的通用对话能力，未见学生或家长对 College Planner 的实际使用反馈、学校采用或留存数据，无法判断是否形成持续使用。
+    evidence_ids:
+    - ev-b7ac2e4579d21f44
+    - ev-c8557c344c8a1dfe
+  - gate: model
+    status: insufficient
+    reason: 未披露该模块是否单独收费或包含在订阅内，买方是家庭还是学校无法确认，属判断而非已验证事实。
+    evidence_ids:
+    - ev-64bbc665f5f971df
+  - gate: truth
+    status: insufficient
+    reason: 未见截止日期数据来源、材料核对准确性以及未成年人使用边界的公开说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-64bbc665f5f971df
+  next_validation: 收集 OpenAI 官方关于 College Planner 的功能说明或帮助文档，确认其数据来源、提醒机制与是否单独计费。
+  market: ''
+  job: 高中生与家长在申请季整理选校清单、截止日期与申请材料时，需要跟踪申请进度，并同步准备考试复习内容。
+  job_en: High school students and parents organizing school lists, deadlines and application materials
+    during admissions season, tracking application progress while preparing exam review.
+  pain: 申请季时间节点密集、材料分散在多个系统，错过截止日期或漏交材料的代价高，家长往往靠表格和提醒手工管理。
+  pain_en: Admissions season has dense deadlines and materials scattered across systems; missing a deadline
+    or document is costly, and parents often manage it manually with spreadsheets and reminders.
+  current_alternative: 用电子表格、日历提醒、学校升学顾问和第三方申请管理工具手工整理清单与进度。
+  current_alternative_en: Spreadsheets, calendar reminders, school counselors and third-party application
+    trackers used to manually organize lists and progress.
+  usage_reason: 相较自建表格加日历提醒，它把申请进度管理放进学生已在使用的对话入口，减少在多个工具间同步清单这一步，因此申请季的学生和家长可能直接在其中记录与复习；这是基于产品能力的推断，尚无公开的持续使用或付费证据。
+  usage_reason_en: Compared with self-built spreadsheets plus calendar reminders, it puts application
+    progress management inside the conversational entry students already use, cutting the step of syncing
+    lists across tools, so students and parents in admissions season may record and review there. This
+    is inference from capability, with no public retention or payment evidence.

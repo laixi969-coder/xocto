@@ -337,3 +337,55 @@
     so model results become values code can branch on directly, and it runs offline by default, removing
     retry and fallback code after parse failures and reducing dependence on external services; the inference
     is that such developers pick it when they need deterministic branching and local or offline execution.
+- id: req-full-jevcore-2026-10-08
+  project_slug: jevcore
+  level: full
+  reviewed_at: '2026-10-08T02:43:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是模型输出无法被程序直接判断的问题：开发者接入 DeepSeek/MCP 时要把自然语言变成类型化结果，否则需自写解析与校验，模型改措辞即断链，属刚性摩擦。仓库说明给出输入—动作—交付闭环，此为工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-76f518fead0426ff
+    - ev-321ca433ff9a99da
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 76 增至 104，说明开发者社区持续关注，但收藏与增长只属关注度证据，不能证明目标用户已把它留在工作流或形成强场景共识；缺少 issue、discussion 或使用反馈佐证。
+    evidence_ids:
+    - ev-76f518fead0426ff
+    - ev-a13aa4104ff9b41b
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，无定价页、无付费或采购记录，买方是个人开发者还是团队无法核验；按开源工具推断可能走 to C 免费加后续 to B 支持，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-321ca433ff9a99da
+    - ev-82abaafaeb2e1af5
+  - gate: truth
+    status: insufficient
+    reason: 类型化判断能否在 DeepSeek、MCP 与普通 Node 三种环境下确定性交付，以及离线默认下模型能力边界与失败回退，公开材料未给出可复现的部署文档或实测结果。
+    evidence_ids:
+    - ev-76f518fead0426ff
+    - ev-63b6289adc259d04
+  next_validation: 追踪 jevcore 仓库的 README/部署文档与 issue、discussion，确认类型化判断在 DeepSeek、MCP、Node 三种环境下的实际接入方式与失败回退说明。
+  market: ''
+  job: 后端与工具链开发者、AI 应用集成工程师在把 DeepSeek 或 MCP 工具接入自有 Node 服务时，处理模型返回的自然语言文本，要把它变成代码可直接判断的类型化结果，而不是再写一层解析与校验。
+  job_en: Backend/tooling developers and AI integration engineers wiring DeepSeek or MCP tools into their
+    own Node services take model prose output and must turn it into typed values their code can branch
+    on, instead of writing another parsing and validation layer.
+  pain: 模型输出是散文式自然语言，程序无法直接消费；开发者必须自己写正则、JSON 解析、schema 校验和异常兜底，模型一改措辞整条链路就可能崩，这是接入环节反复出现的刚性摩擦。
+  pain_en: Model output is prose that programs cannot consume directly; developers must hand-roll regex,
+    JSON parsing, schema validation and fallbacks, and any wording change can break the chain — recurring,
+    rigid friction at integration time.
+  current_alternative: 公开材料未直接描述旧做法，按工作流结构推理，现状是开发者自行拼装 prompt 约束加 JSON 解析与校验代码，或依赖各家 SDK 的 function calling
+    / structured output 能力。
+  current_alternative_en: Public materials do not describe the old workflow directly; by workflow inference,
+    developers currently hand-assemble prompt constraints plus JSON parsing/validation code, or rely on
+    each vendor SDK's function calling / structured output.
+  usage_reason: 推断：相较自己写解析与校验层，它把“约束模型输出—解析—类型校验”合并为一次类型化判断调用，并默认离线运行，减少模型措辞变化导致的解析失败与重试；因此需要把模型结果直接喂给业务代码、又不想维护解析层的
+    Node 开发者会在接入阶段选择它。
+  usage_reason_en: 'Inference: versus hand-writing a parse-and-validate layer, it folds constrain-parse-typecheck
+    into one typed-judgment call and runs offline by default, cutting parse failures and retries when
+    wording shifts; Node developers who need model results consumed directly by business code without
+    maintaining a parser would pick it at integration time.'

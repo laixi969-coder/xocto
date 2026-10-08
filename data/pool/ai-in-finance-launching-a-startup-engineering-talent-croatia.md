@@ -22,7 +22,7 @@ summary: Croatian founders and finance executives recently discussed a range of 
   startups at a conference attended by the country's startup and tech community.The issues discussed incl...
 first_seen: '2026-10-07T07:30:00Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

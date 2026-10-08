@@ -1,7 +1,6 @@
 ---
 slug: endeavor-catalyst-doubles-down-on-europe-with-320m-fund-v-as
-name: Endeavor Catalyst doubles down on Europe with $320M Fund V as region becomes its fastest-growing
-  market
+name: Endeavor Catalyst
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +23,7 @@ summary: Europe has become Endeavor Catalyst’s fastest-growing market as the g
   v...
 first_seen: '2026-10-07T14:08:56Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Endeavor Catalyst doubles down on Europe with $320M Fund V as region becomes its fastest-growing market
+# Endeavor Catalyst
 
 Europe has become Endeavor Catalyst’s fastest-growing market as the global venture fund begins deploying Fund V, an oversubscribed $320 million fund announced today.  Endeavor Catalyst is Endeavor’s v...
 

@@ -91,3 +91,52 @@
     users skip the ''dub separately and align the timeline'' step, which appeals more to ad and e-commerce
     short-video teams producing clips in batches where sync matters; no user feedback or adoption evidence
     is public, so this is workflow-structure reasoning.'
+- id: req-full-minimax-h3-turbo-lora-2026-10-08
+  project_slug: minimax-h3-turbo-lora
+  level: full
+  reviewed_at: '2026-10-08T02:44:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是音画分两步制作、需手动对齐时间轴的痛点，公开材料说明 H3 可一次生成带原生立体声、最高 2K、15 秒的视频，交付闭环可还原；但输入格式与成片质量未披露，属工作流结构推理。
+    evidence_ids:
+    - ev-492436cbfa03530c
+    - ev-bcfa3521c3d72966
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官方发布说明与演示空间介绍，没有创作者讨论、使用反馈或场景案例，无法判断是否卡在感知、想象或场景环节；关注度不等于持续采用。
+    evidence_ids:
+    - ev-ecc068e8c7e2cd66
+    - ev-233ac77db7da3e36
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方式或买方，无法判断钱来自个人创作者、广告主还是制作公司；这是判断，不是已验证事实，但不足以取消真需求判定。
+    evidence_ids:
+    - ev-258c6e9ca2d8a41c
+    - ev-f33c6ceba151da64
+  - gate: truth
+    status: insufficient
+    reason: 无法核验生成结果是否真的音画同步、是否可复现，也未说明人工确认边界与安全限制，交付确定性未知。
+    evidence_ids:
+    - ev-492436cbfa03530c
+    - ev-cc597c4bdfe2c142
+  next_validation: 追踪 MiniMax 官方 H3 模型卡或演示空间文档，确认输入格式、输出时长与音画同步的可复现实测结果。
+  market: ''
+  job: 短视频或广告素材创作者在需要一段带同步音轨的成片片段时，把文字脚本或已有画面输入基于 MiniMax H3 Turbo 的 LoRA 演示空间，由模型直接输出画面与音轨同步的视频片段，再人工挑选可用镜头。
+  job_en: Short-video or ad-creative producers who need a sound-bearing clip feed a text script or existing
+    footage into the MiniMax H3 Turbo LoRA demo space, which outputs video with synchronized audio, then
+    manually pick usable shots.
+  pain: 公开材料显示 H3 可生成带原生立体声、最高 2K、15 秒的视频，说明它针对的是音画分两步制作、需手动对齐时间轴的痛点；但公开材料未给出创作者抱怨或使用反馈，痛点强度属工作流结构推理。
+  pain_en: Public material shows H3 generates video with native stereo audio at up to 2K and 15 seconds,
+    indicating it targets the two-step picture-then-audio workflow that requires manual timeline alignment;
+    however, no creator complaints or usage feedback are public, so pain intensity is workflow inference.
+  current_alternative: 现有做法是先用视频生成工具或实拍得到画面，再用剪辑软件或配音工具单独加音轨并手动对齐时间轴。
+  current_alternative_en: The current practice is to obtain footage via video generation or shooting,
+    then add an audio track separately in an editing or dubbing tool and align it by hand.
+  usage_reason: 推断：若该模型确实在一次生成中输出音画同步片段，用户省掉的是“单独配音并对齐时间轴”这一步，因此对批量出片、对同步敏感的广告和电商短视频团队更有吸引力；但公开材料未给出任何用户反馈或采用证据，这一判断仅为工作流推理。
+  usage_reason_en: 'Inference: if the model truly outputs audio-synced segments in one generation, users
+    skip the ''dub separately and align the timeline'' step, which appeals more to ad and e-commerce short-video
+    teams producing clips in batches where sync matters; however, no user feedback or adoption evidence
+    is public, so this is workflow reasoning only.'

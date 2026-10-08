@@ -3,9 +3,13 @@ slug: schneider-electric-unveils-worlds-first-software-defined-med
 name: Schneider Electric
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 施耐德电气在2026年9月底至10月初连续公布面向AI数据中心的中压开关设备与800VDC供电架构，并有226亿美元收购PTC的报道。对AI应用的含义是：数据中心供电与工业软件供给正在被重新组织，可能影响算力部署成本与工业侧软件整合节奏；具体影响程度为推断，公开材料未给出量化结果。
 inspiration: ''
-summary_en: ''
+summary_en: Schneider Electric announced medium-voltage switchgear and 800 VDC power architectures for
+  AI data centres in late September and early October 2026, with reports of a $22.6bn PTC acquisition.
+  For AI applications this means data-centre power and industrial software supply are being reorganised,
+  potentially affecting compute deployment costs and industrial software consolidation; the extent is
+  inference, as no quantified outcome is given.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +26,7 @@ summary: Schneider Electric Unveils World's First Software-Defined Medium Voltag
   AI-Ready Data Center Power Portfolio TradingView
 first_seen: '2026-09-28T14:00:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

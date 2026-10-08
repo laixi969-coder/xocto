@@ -501,3 +501,54 @@
     keywords and reading files one by one; public materials also report a mean model cost of about $0.000427
     per lookup over a 40-query run, making per-lookup cost checkable. So an engineer in an unfamiliar
     repo who remembers the behavior but not the naming is likely to choose it over continued k'
+- id: req-full-jevgrep-2026-10-08
+  project_slug: jevgrep
+  level: full
+  reviewed_at: '2026-10-08T02:43:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在不熟悉代码库中按行为而非符号名定位代码的需求，痛点在于旧方式必须先猜对标识符、猜错就反复试错；公开材料显示产品以自然语言检索返回带行号源码片段，并可通过 MCP 接入编码智能体，交付物明确。这是工作流结构推理，尚无用户抱怨或频率数据。
+    evidence_ids:
+    - ev-7d3edb89894c8feb
+    - ev-2d7811ff4b844f73
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示 2,351 至 2,412 个收藏、另有同名项目 101 个收藏，说明开发者已注意到它；但收藏与关注度只属规模信号，未见持续使用、复购或工作流留存的公开证据，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-ec3370ebd904fd10
+    - ev-7433ed7da140c410
+    - ev-ea795a165f6a7527
+  - gate: model
+    status: insufficient
+    reason: 公开材料给出单次查询平均模型成本约 0.000427 美元，说明有可核算的推理开销；但未见定价页、付费主体或采购记录，谁付钱、按什么计费仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-b43448884525e199
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺返回候选文件与精确代码位置，是否采纳仍由人工判断，边界表述清楚；但缺少可复现的检索准确率、失败案例或部署文档，交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-2d7811ff4b844f73
+  next_validation: 追踪 jevgrep 官方仓库的 README、issue 与 discussion，确认是否有可复现的检索准确率数据、真实使用场景描述或付费/部署说明。
+  market: ''
+  job: 软件工程师或编码智能体使用者在接手不熟悉的代码库、准备让智能体修改某段行为时，用自然语言描述“这段代码做什么”，通过 CLI 或 MCP 检索出相关文件、带行号的源码片段，再据此决定改哪里。
+  job_en: A software engineer or coding-agent user, working in an unfamiliar repository and about to have
+    an agent modify some behavior, describes in natural language what the code does, then via CLI or MCP
+    retrieves the relevant files and line-numbered source excerpts to decide where to change.
+  pain: 公开材料只说明产品用语义检索替代按名字找文件，未提供用户抱怨、频率或不解决的后果；从工作流看，旧方式要求先猜对标识符或文件名，猜错就反复试错，这是结构推理而非用户口述。
+  pain_en: Public materials only show the product replacing name-based file lookup with semantic search;
+    they give no user complaints, frequency, or consequence of not solving it. Structurally, the old way
+    requires guessing the right identifier or filename first, and a wrong guess means repeated trial and
+    error — this is workflow inference, not user testimony.
+  current_alternative: 工程师目前用 grep、ripgrep、IDE 全局搜索或直接把整个仓库塞给编码智能体，靠记得函数名、变量名或路径来定位代码。
+  current_alternative_en: Engineers today use grep, ripgrep, IDE global search, or simply feed the whole
+    repository to a coding agent, relying on remembering function names, variable names, or paths to locate
+    code.
+  usage_reason: 推断：相较 grep 类旧做法必须先猜对标识符，jevgrep 允许直接描述行为并返回带行号的候选源码片段，省去“先想名字再试错”这一步；因此不熟悉该仓库、只记得行为描述而非符号名的工程师，或需要给编码智能体喂精确上下文的用户，会在这种情况下选择它。公开材料未提供用户反馈或留存证据，此因果为推断。
+  usage_reason_en: 'Inference: whereas grep-style tools require guessing the right identifier first, jevgrep
+    lets users describe behavior directly and returns line-numbered candidate source excerpts, removing
+    the ''think of a name, then trial-and-error'' step. So engineers unfamiliar with a repository who
+    remember a behavior rather than a symbol name, or users who need to feed precise context to a coding
+    agent, would choose it in that situation. Public materials provide no user feedback or retenti'

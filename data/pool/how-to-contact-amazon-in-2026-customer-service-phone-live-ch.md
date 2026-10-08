@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxPU3psX1FHdkNm
 summary: 'How to contact Amazon in 2026: Customer service, phone, live chat Business Insider'
 first_seen: '2026-10-05T17:05:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

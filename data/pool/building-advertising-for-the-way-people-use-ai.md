@@ -3,12 +3,11 @@ slug: building-advertising-for-the-way-people-use-ai
 name: ChatGPT
 builder: geox
 category: ''
-summary_zh: OpenAI 在 ChatGPT 内上线视觉广告位并扩充衡量与归因工具，把对话式助手变成可投放的广告载体。对广告主而言，这意味着对话界面成为新的媒介库存；对 AI 应用而言，免费或低价入口的变现路径被进一步指向广告，而非订阅。
+summary_zh: OpenAI 于 2026 年 10 月 5 日在 ChatGPT 内上线新的视觉广告格式，并同步扩展衡量工具、归因合作与品牌适配能力，面向广告主开放。这是平台政策与商业化结构变化，不是独立产品，因此只作市场背景。
 inspiration: ''
-summary_en: OpenAI has launched visual ad placements inside ChatGPT and expanded measurement and attribution
-  tooling, turning a conversational assistant into an advertisable medium. For advertisers this adds conversational
-  inventory; for AI apps it points monetization of free or low-cost entry points further toward advertising
-  rather than subscriptions.
+summary_en: On October 5, 2026 OpenAI launched a new visual ad format inside ChatGPT and expanded measurement
+  tools, attribution partnerships and brand suitability for advertisers. This is a platform policy and
+  monetization shift rather than a standalone product, so it is treated as market context only.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +24,7 @@ summary: OpenAI introduces a new visual ad format in ChatGPT and expands measure
   partnerships, and brand suitability for advertisers.
 first_seen: '2026-10-05T10:00:00Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 - hackernews

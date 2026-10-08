@@ -1,0 +1,84 @@
+- id: req-initial-linda-2026-10-08
+  project_slug: linda
+  level: initial
+  reviewed_at: '2026-10-08T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是本机处理事务、材料不外传的需求，痛点方向成立，但公开材料只有一句定位，说不清替代了哪一步旧工作，价值判断证据不足。
+    evidence_ids:
+    - ev-951b5ae379a2c613
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品定位外没有用户评价、采用或讨论证据，无法判断是否有人真的把它放进日常流程。
+    evidence_ids:
+    - ev-951b5ae379a2c613
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，免费定位下钱可能来自后续订阅或增值服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-951b5ae379a2c613
+  - gate: truth
+    status: insufficient
+    reason: 无法核对本地执行是否真的不联网、人工确认边界在哪，承诺能否确定性交付缺少材料。
+    evidence_ids:
+    - ev-951b5ae379a2c613
+  next_validation: 收集 Linda 官方页面或文档，确认它在本机执行哪些具体任务、是否需要联网以及是否有定价说明。
+  market: ''
+  job: Mac 用户在本机处理日常事务时，把待办交给本地助手执行，希望结果留在自己电脑上。
+  job_en: A Mac user hands everyday chores to a local assistant while working on their own machine, expecting
+    results to stay on that computer.
+  pain: 云端助手需要把材料上传到外部服务，对在意隐私或不想订阅的人构成顾虑；但公开材料没有说明具体哪一步工作因此变轻松。
+  pain_en: Cloud assistants require uploading material to an outside service, which worries privacy-minded
+    users or those avoiding subscriptions; public material does not say which specific step becomes easier.
+  current_alternative: 使用云端 AI 助手或系统自带功能，手动复制粘贴材料并自行整理结果。
+  current_alternative_en: Using a cloud AI assistant or built-in system features, manually copying material
+    and organizing the output.
+  usage_reason: 推断：若它确实在本机完成读取与执行，用户可省去上传材料和订阅付费这两步，因此在意隐私的 Mac 用户可能选择它；但缺少任何用户反馈或使用证据，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if it truly reads and acts locally, users skip uploading material and paying
+    a subscription, so privacy-minded Mac users might choose it; no user feedback or usage evidence exists
+    to confirm this motive.'
+- id: req-full-linda-2026-10-08
+  project_slug: linda
+  level: full
+  reviewed_at: '2026-10-08T02:43:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本机处理事务、材料不外传的需求，但公开材料只有一句定位，说不清处理什么材料、替代哪一步旧流程、不采用会失去什么，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-ec26195afed5fce2
+    - ev-cc61c3125341260b
+    - ev-e4302df5f37f71f4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Linda 官方产品页或仓库 README，确认它在本机执行哪些具体任务、是否需要联网、是否有定价与客户案例说明。
+  market: ''
+  job: Mac 用户在本机处理日常事务时，把待办交给本地运行的 AI 助手执行，希望材料与结果都留在自己电脑上。
+  job_en: A Mac user hands everyday chores to a locally running AI assistant while working on their own
+    machine, expecting both material and results to stay on that computer.
+  pain: 公开材料只有一句“本地 AI 同事、类似 Dots 但免费”，没有说明具体处理哪些材料、替代哪一步旧流程，也没有用户抱怨或 workaround 证据，痛点无法还原。
+  pain_en: Public material offers only one line — a local AI coworker, like Dots but free — with no account
+    of which material it handles, which old step it replaces, and no user complaint or workaround evidence,
+    so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类任务，只能推测为云端 AI 助手或系统自带功能，缺少可核对的旧替代行为。
+  current_alternative_en: Public material does not say what users previously used for the same task; only
+    a cloud AI assistant or built-in system features can be inferred, with no verifiable prior behavior.
+  usage_reason: 推断：若它确实在本机读取并执行任务，用户可省去上传材料与订阅付费两步，但没有任何用户反馈、案例或使用证据支持这一动机，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it truly reads and acts locally, users skip uploading material and paying
+    a subscription, but no user feedback, case or usage evidence supports this motive, so it cannot be
+    confirmed that users would choose it for this reason.'

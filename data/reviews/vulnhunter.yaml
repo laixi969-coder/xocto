@@ -134,3 +134,52 @@
     an adversary, generates executable PoCs to first prove exploitability, then submits targeted test-first
     fixes, removing the step of reproducing each alert; teams needing fast exploitability confirmation
     and reviewable fixes before release would choose it in that situation.'
+- id: req-full-vulnhunter-2026-10-08
+  project_slug: vulnhunter
+  level: full
+  reviewed_at: '2026-10-08T02:45:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线前判断哪些缺陷真可利用、并给出可复核修复的需求；痛点是传统 SAST 误报多、需逐条人工复现，不解决会让误报进入修复流程。公开材料已还原旧流程与交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-545db60d43746fe2
+    - ev-ba086a8820525add
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅说明其为 Capital One 内部开发并开源、以攻击者视角分析，未见客户案例、持续采用或用户反馈，共识尚未成立。
+    evidence_ids:
+    - ev-cbe0bc2f1fc95207
+    - ev-5bfe1a73a152f960
+  - gate: model
+    status: insufficient
+    reason: 它是开源工具，公开材料无定价页与买方信息；企业采购、托管收费或支持订阅均属推断，不是已验证事实，钱可能来自 to B 采购或 to VC。
+    evidence_ids:
+    - ev-72ff03b64619a944
+    - ev-4816da237f8f3bdb
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 PoC 生成的安全边界、人工复核流程与修复能否确定性交付，承诺的确定性交付仍缺证据。
+    evidence_ids:
+    - ev-0344af0093fc2e46
+    - ev-81da9871367a3ed6
+  next_validation: 追踪 Capital One VulnHunter 仓库的 issue 与 discussion，确认是否有团队在真实代码库中重复使用并反馈误报率或修复结果。
+  market: ''
+  job: 安全工程师或应用安全负责人在代码库上线前，把仓库源码交给扫描器，需要判断哪些缺陷真的可被利用，并拿到可复核的修复改动后再人工确认合并。
+  job_en: A security engineer or AppSec lead hands a repository to the scanner before release, needing
+    to judge which defects are truly exploitable and obtain reviewable fix changes before human confirmation
+    and merge.
+  pain: 公开材料指出传统被动 SAST 只标记可疑模式、误报多，安全团队必须逐条人工验证可利用性，修复也缺少可复现证据，验证负担落在人身上。
+  pain_en: Public material states traditional passive SAST only flags suspicious patterns with many false
+    positives, forcing security teams to manually verify exploitability one by one, and fixes often lack
+    reproducible evidence, leaving the verification burden on humans.
+  current_alternative: 使用传统静态扫描器（SAST）加人工复现验证，或外包渗透测试并等待报告。
+  current_alternative_en: Using traditional static scanners (SAST) plus manual reproduction, or outsourcing
+    penetration tests and waiting for reports.
+  usage_reason: 推断：相较传统扫描器只给告警清单，它先以攻击者视角推理并生成可执行 PoC 证明漏洞真实可利用，再按测试先行提交针对性修复，省掉安全工程师逐条复现告警这一步，因此需要在上线前快速确认可利用性的团队会选它。
+  usage_reason_en: 'Inference: unlike scanners that only list alerts, it reasons like an adversary, produces
+    executable PoCs proving exploitability, then submits targeted test-first fixes, removing the step
+    where engineers reproduce each alert, so teams needing fast pre-release exploitability confirmation
+    would choose it.'

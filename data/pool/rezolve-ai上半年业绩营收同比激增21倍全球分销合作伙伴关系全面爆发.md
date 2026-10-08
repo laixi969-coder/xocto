@@ -33,7 +33,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0lyenRFQTRM
 summary: Rezolve AI上半年业绩：营收同比激增21倍，全球分销合作伙伴关系全面爆发 Moomoo
 first_seen: '2026-09-01T16:15:52Z'
 last_seen: '2026-10-08T01:56:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -29,7 +29,7 @@ summary: "I was a graph theory junkie long ago and even moved to Budapest for aw
   \ ,  deep-blue ,  llms ,  ai ,  generative-ai"
 first_seen: '2026-10-07T04:47:55Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
