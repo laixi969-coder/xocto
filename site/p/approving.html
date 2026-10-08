@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-07</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-08</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">使用编码 agent 的开发者或小团队，在让 agent 修改真实代码库时，需要把 agent 放进隔离的 Docker 沙箱执行，并在关键节点暂停等待人工 Approve 后才继续，最终交付可审查、可回滚的变更。</p>
-        <p>在本地或容器里手动跑 agent，靠 git 分支、人工 review diff 和口头约定控制风险；或干脆只在只读副本上试跑。</p>
-        <p>编码 agent 直接在主工作区执行命令，可能误删文件、越权访问或产生无法追溯的改动；出问题后缺少结构化产物与回滚点，只能靠人工翻日志重建过程。</p>
+        <p class="product-lead">使用编码代理的开发者或小团队在让 AI 修改真实代码库时，需要代理在 Docker 沙箱中运行、以结构化产物交接，并在关键节点暂停等待人工批准后才继续，以便在交付前保留可审查、可回滚的流程。</p>
+        <p>开发者目前通常直接让编码代理在本地或 CI 中改代码，靠 git 分支、代码评审和人工盯守来兜底；公开材料未直接描述用户现状，这是从产品定位反推的常见做法。</p>
+        <p>公开材料指向编码代理直接改动代码库时缺乏隔离与人工卡点，出错后难以审查和回滚；这是从产品能力反推的工作流结构推理，公开证据中没有用户自述的故障代价或发生频率。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：相较手动跑 agent 加 git 分支，Approving 在真实 Docker 沙箱中执行并在关键节点强制人工 Approve，减少的是“事后翻日志判断 agent 做了什么、再手工回滚”这一步；因此需要让 agent 接触真实代码库、又必须保留人工放行点的开发者会在自动化交付流程中选用它。77 个收藏与 3 次复刻只反映关注度，不能证明已长期留在工作流。</p>
+        <p>推断：相较直接让代理改代码再靠 git 和评审兜底，它把代理放进真实 Docker 沙箱、用结构化产物交接并在关键节点强制人工 Approve，减少了事后排查不可回滚改动的负担，因此在意交付可审查性的开发者或小团队会在让代理动生产相关代码时选择它；公开材料尚无用户反馈证实这一动机。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：相较手动跑 agent 加 git 分支，Approving 在真实 Docker 沙箱中执行并在关键节点强制人工 Approve，减少的是“事后翻日志判断 agent 做了什么、再手工回滚”这一步；因此需要让 agent 接触真实代码库、又必须保留人工放行点的开发者会在自动化交付流程中选用它。77 个收藏与 3 次复刻只反映关注度，不能证明已长期留在工作流。</p>
+        <p><strong>值得拆解</strong>。推断：相较直接让代理改代码再靠 git 和评审兜底，它把代理放进真实 Docker 沙箱、用结构化产物交接并在关键节点强制人工 Approve，减少了事后排查不可回滚改动的负担，因此在意交付可审查性的开发者或小团队会在让代理动生产相关代码时选择它；公开材料尚无用户反馈证实这一动机。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -129,8 +129,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：相较手动跑 agent 加 git 分支，Approving 在真实 Docker 沙箱中执行并在关键节点强制人工 Approve，减少的是“事后翻日志判断 agent 做了什么、再手工回滚”这一步；因此需要让 agent 接触真实代码库、又必须保留人工放行点的开发者会在自动化交付流程中选用它。77 个收藏与 3 次复刻只反映关注度，不能证明已长期留在工作流。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 README、部署文档与 issue/discussion，核对 Docker 沙箱隔离边界、Approve 节点配置方式及异常恢复的实测说明。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较直接让代理改代码再靠 git 和评审兜底，它把代理放进真实 Docker 沙箱、用结构化产物交接并在关键节点强制人工 Approve，减少了事后排查不可回滚改动的负担，因此在意交付可审查性的开发者或小团队会在让代理动生产相关代码时选择它；公开材料尚无用户反馈证实这一动机。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 issue、discussion 与部署文档，看是否有团队报告沙箱隔离、人工 Approve 卡点与结构化产物交接在真实项目中的运行结果。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -319,7 +319,7 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 713 个 →
+        AI + 开发 共 732 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -411,8 +411,8 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2525 个案例 · 176 份生意判断</span>
-    <span class="gen">数据截至 2026-10-07</span>
+    <span>2584 个案例 · 176 份生意判断</span>
+    <span class="gen">数据截至 2026-10-08</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

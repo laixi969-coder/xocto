@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-07</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-08</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">应用微观经济学研究者（博士生、青年教师、RA）在拿到 WRDS/行政数据后，用 Stata 或 Python 跑事件研究、面板回归，并把结果整理成可投稿的论文表格，同时要保证从原始数据到表内数字的整条链路可复现。</p>
-        <p>自己维护一套 Stata do-file 或 Python 脚本加 esttab/outreg2 等制表宏，靠 README 和邮件记录复现步骤；或雇 RA 手工核对数字。</p>
-        <p>从原始数据到论文表之间的清洗、回归、制表、复现说明全靠手工脚本拼接，改一次样本或规格就要重跑并手工对齐表格；审稿人或合作者要求复现时，往往找不到当时的确切代码与版本，返工成本高。</p>
+        <p class="product-lead">应用微观经济学研究者（博士生、青年教师、RA）在拿到 WRDS/行政数据后，用 Stata 或 Python 跑事件研究、LLM 流水线等实证分析，并整理成可投稿的论文表格，同时要让合作者或审稿人能复现出同样的数字。</p>
+        <p>研究者目前通常靠自己的 Stata do-file、Python 脚本、实验室内部模板和口口相传的复现习惯来完成，没有统一的审计或表格生成流程；这是从产品定位反推的常见做法，公开材料未直接描述用户现状。</p>
+        <p>公开材料显示该技能集针对的是复现审计与出版级表格这两类反复出现的环节；这类工作手工做时容易在数据版本、样本筛选和表格格式上出错，返工成本高，但公开证据里没有用户自述的具体代价或频率，痛点强度属工作流结构推理。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：相较自建脚本加制表宏，这些 skill 把复现审计、LLM 流水线方法、事件研究与 WRDS/Stata 操作封装成可被 Claude Code、Codex 直接调用的步骤，减少的是“每次换规格都要重写清洗与制表代码、并手工核对数字”这一步；因此正在写论文、需要向审稿人交付可复现结果的应用微观研究者会在改规格或准备复现包时选择它。公开仓库 48 个收藏只说明开发者注意到它，尚不能证明已长期留在工作流里。</p>
+        <p>推断：相较自己维护脚本和模板，它把复现审计、LLM 流水线方法和出版级表格封装成可调用的 skill，研究者不必从零重写检查逻辑或表格代码，因此正在做实证论文、需要向合作者交付可复现结果的经济学研究者会在写作与投稿阶段选择它；公开材料尚无用户反馈证实这一动机。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：相较自建脚本加制表宏，这些 skill 把复现审计、LLM 流水线方法、事件研究与 WRDS/Stata 操作封装成可被 Claude Code、Codex 直接调用的步骤，减少的是“每次换规格都要重写清洗与制表代码、并手工核对数字”这一步；因此正在写论文、需要向审稿人交付可复现结果的应用微观研究者会在改规格或准备复现包时选择它。公开仓库 48 个收藏只说明开发者注意到它，尚不能证明已长期留在工作流里。</p>
+        <p><strong>值得拆解</strong>。推断：相较自己维护脚本和模板，它把复现审计、LLM 流水线方法和出版级表格封装成可调用的 skill，研究者不必从零重写检查逻辑或表格代码，因此正在做实证论文、需要向合作者交付可复现结果的经济学研究者会在写作与投稿阶段选择它；公开材料尚无用户反馈证实这一动机。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -129,8 +129,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：相较自建脚本加制表宏，这些 skill 把复现审计、LLM 流水线方法、事件研究与 WRDS/Stata 操作封装成可被 Claude Code、Codex 直接调用的步骤，减少的是“每次换规格都要重写清洗与制表代码、并手工核对数字”这一步；因此正在写论文、需要向审稿人交付可复现结果的应用微观研究者会在改规格或准备复现包时选择它。公开仓库 48 个收藏只说明开发者注意到它，尚不能证明已长期留在工作流里。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 README、release 与 issue/discussion，核对是否公开 WRDS/Stata 版本要求、复现审计的实测输出示例及使用者反馈。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较自己维护脚本和模板，它把复现审计、LLM 流水线方法和出版级表格封装成可调用的 skill，研究者不必从零重写检查逻辑或表格代码，因此正在做实证论文、需要向合作者交付可复现结果的经济学研究者会在写作与投稿阶段选择它；公开材料尚无用户反馈证实这一动机。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 issue、discussion 与 README 更新，看是否有研究者报告复现审计或表格生成的实际使用结果与失败案例。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -317,7 +317,7 @@ eventstudy2 验证到浮点精度）、<code>wrds</code>（WRDS 查询模式：C
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 713 个 →
+        AI + 开发 共 732 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -409,8 +409,8 @@ eventstudy2 验证到浮点精度）、<code>wrds</code>（WRDS 查询模式：C
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2525 个案例 · 176 份生意判断</span>
-    <span class="gen">数据截至 2026-10-07</span>
+    <span>2584 个案例 · 176 份生意判断</span>
+    <span class="gen">数据截至 2026-10-08</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
