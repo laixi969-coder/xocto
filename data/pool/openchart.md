@@ -34,17 +34,17 @@ url: https://github.com/longsurf-ai/openchart
 canonical_url: https://github.com/longsurf-ai/openchart
 summary: OSS TradingView alternative with your own AI agent
 first_seen: '2026-10-06T15:16:45Z'
-last_seen: '2026-10-07T01:32:26Z'
+last_seen: '2026-10-08T01:55:51Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/longsurf-ai/openchart
-  seen_at: '2026-10-07T01:32:26Z'
+  seen_at: '2026-10-08T01:55:51Z'
   metrics:
-    points: 36
-    comments: 14
+    points: 43
+    comments: 19
   kind: product
 ---
 

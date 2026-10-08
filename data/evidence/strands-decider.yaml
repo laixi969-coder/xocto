@@ -64,3 +64,26 @@
   fact: 'A small, fast decision model, or system one model, for agentic workflows. Pick between options
     or rate on a scale faster than an LLM, with a calibrated confidence on every decision. | repository
     stars: 430'
+- id: ev-d92bd033a573c269
+  project_slug: strands-decider
+  url: https://strandsagents.com/docs/labs/
+  title: strands-decider
+  published_at: '2026-09-29T16:36:38Z'
+  collected_at: '2026-10-08T01:55:55Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A small, fast decision model, or system one model, for agentic workflows. Pick between options
+    or rate on a scale faster than an LLM, with a calibrated confidence on every decision. | repository
+    stars: 504'
+- id: ev-7b107939dcfa959b
+  project_slug: strands-decider
+  url: https://strandsagents.com
+  title: box
+  published_at: '2026-10-02T20:34:08Z'
+  collected_at: '2026-10-08T01:55:55Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the
+    network. Box combines OS isolation with default-deny Dogwood policies and credential injection that
+    keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon, with Linux support
+    planned. | repository stars: 90'

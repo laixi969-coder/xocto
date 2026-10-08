@@ -31,17 +31,17 @@ canonical_url: https://mu-overseas-valypucj.edgeone.dev
 summary: 'mu (μ): a coding agent that thinks before it acts. A small, fast judge makes the routine calls,
   the big model does the work. Built on pi and AionUi.'
 first_seen: '2026-09-22T11:56:05Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://mu-overseas-valypucj.edgeone.dev
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 404
-    forks: 42
+    stars: 435
+    forks: 44
     open_issues: 1
   kind: product
 ---

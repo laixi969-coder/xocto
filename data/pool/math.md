@@ -29,17 +29,17 @@ url: https://github.com/openai/math
 canonical_url: https://github.com/openai/math
 summary: ''
 first_seen: '2026-10-06T21:47:02Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/math
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 2118
-    forks: 181
+    stars: 9685
+    forks: 955
     open_issues: 0
   kind: product
 ---

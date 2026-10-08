@@ -20,8 +20,8 @@ url: https://news.ycombinator.com/item?id=49468252
 canonical_url: https://news.ycombinator.com/item?id=49468252
 summary: Man, AI is killing my brain
 first_seen: '2026-08-27T17:28:27Z'
-last_seen: '2026-10-07T01:32:26Z'
-status: rejected
+last_seen: '2026-10-08T01:55:51Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -41,10 +41,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49982498
-  seen_at: '2026-10-07T01:32:26Z'
+  seen_at: '2026-10-08T01:55:51Z'
   metrics:
-    points: 53
-    comments: 50
+    points: 516
+    comments: 304
   kind: news
 ---
 

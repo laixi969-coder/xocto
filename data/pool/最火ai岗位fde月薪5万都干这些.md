@@ -20,8 +20,8 @@ url: https://www.qbitai.com/2026/10/501506.html
 canonical_url: https://qbitai.com/2026/10/501506.html
 summary: 什么是FDE？它会一直存在吗？
 first_seen: '2026-10-04T06:05:35Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -34,6 +34,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFBaSk9yWmlfZmpEeWlfeEtOUnduOTBHdVZSenlQeTlZM0FaaWhYX2l4UVA4TmE0ZE54UW10ZXc2cWR1bkxVTjItT3JFdjQ3UQ?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1HUnhzU1p1Yzhnazl3M0p2ZTYxclJsamZlS3QwbzdYMGdCaUI3Nm1ZV00yek1jVk9hdll1WjNjUjhid2cwQmltSW9nQzR0MmNXT0dSRjR3?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

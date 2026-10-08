@@ -21,16 +21,16 @@ canonical_url: https://github.com/aaddrick/building-with-typesafe-jev
 summary: 'Unofficial skill that teaches coding agents to build with TypeSafe AI''s Jev: typed decisions,
   calibrated confidence, and prior art from 150+ community projects.'
 first_seen: '2026-09-26T00:01:19Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/aaddrick/building-with-typesafe-jev#readme
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 135
+    stars: 136
     forks: 10
     open_issues: 0
   kind: product

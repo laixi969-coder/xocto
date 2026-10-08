@@ -171,3 +171,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-e1165eb1f5f717e5
+  project_slug: penguin-mail
+  url: https://penguin-mail.com/
+  title: Penguin Mail
+  published_at: '2026-10-06T21:59:43Z'
+  collected_at: '2026-10-08T01:55:51Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: open-source Rust email client for Linux with AI

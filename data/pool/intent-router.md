@@ -27,17 +27,17 @@ canonical_url: https://github.com/angel291592/Intent-Router
 summary: Intent compiler for AI agents — converges vague requests into typed IntentSpec contracts (probe,
   ask, or halt before routing), the input layer for routers and typed-decision models like Jev & Laya
 first_seen: '2026-09-22T06:00:27Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/angel291592/Intent-Router
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 923
-    forks: 101
+    stars: 966
+    forks: 109
     open_issues: 2
   kind: product
 ---

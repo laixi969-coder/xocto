@@ -32,16 +32,16 @@ canonical_url: https://betterc0de.com
 summary: Every coding agent in one desktop workspace. Run Claude Code, OpenAI Codex, Cursor Agent and
   Grok side by side. Bring your own CLI. Free during beta. Open source as of 21 September 2026 (MIT).
 first_seen: '2026-09-20T22:48:35Z'
-last_seen: '2026-10-05T00:56:02Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://betterc0de.com
-  seen_at: '2026-10-05T00:56:02Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 275
+    stars: 274
     forks: 4
     open_issues: 7
   kind: product

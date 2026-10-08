@@ -35,17 +35,17 @@ url: https://render.qmuse.pub/p/muse/2413870555736078/index.html
 canonical_url: https://render.qmuse.pub/p/muse/2413870555736078/index.html
 summary: 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具
 first_seen: '2026-09-21T02:54:51Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://render.qmuse.pub/p/muse/2413870555736078/index.html
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 1172
-    forks: 379
+    stars: 1205
+    forks: 382
     open_issues: 7
   kind: product
 ---

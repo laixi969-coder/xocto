@@ -1,0 +1,19 @@
+- id: ev-de3b7f7fdbfb3357
+  project_slug: claude-haiku-55
+  url: https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/
+  title: Claude Haiku 5.5
+  published_at: '2026-10-07T20:56:21Z'
+  collected_at: '2026-10-08T01:56:16Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "As previously  promised , here's Anthropic's new fast, low cost model:  Introducing Claude Haiku\
+    \ 5.5 . \n The previous Haiku, 4.5, was very much showing its age. It came out  almost a year ago\
+    \ , and was priced at $1/million input and $5/million output - relatively expensive even back then,\
+    \ and a full 10x the price of OpenAI's  GPT-6 Luna , released last month. \n\n The new Haiku exactly\
+    \ matches the price of GPT-6 Luna - $0.10/$0.50 - up to 100,000 tokens. Beyond 100,000 tokens the\
+    \ price increases 5x to $0.50/$2.50. Luna itself has a price increase at 272,000 tokens but only to\
+    \ $0.20/$0.75. \n Haiku 5.5 also uses a new, less generous tokenizer. My  Claude Token Counter  tool\
+    \ shows that the same long prompt uses around 1.25x as many tokens with Haiku 5.5 compared to Haiku\
+    \ 4.5, so there's a hidden price increase there. \n If your workloads fit in 100,000 tokens, Haiku\
+    \ is the same price as Luna and reports higher benchmark scores. Above 100,000 tokens, Luna looks\
+    \ like a much better deal. \n The"

@@ -23,8 +23,8 @@ url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-f
 canonical_url: https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup
 summary: The deal, which is expected to close by year's end, is worth $8.2 billion.
 first_seen: '2026-09-29T21:14:49Z'
-last_seen: '2026-10-07T01:32:26Z'
-status: rejected
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -110,6 +110,16 @@ sightings:
   metrics:
     points: 41
     comments: 43
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/rivercell-world-model-drug-discovery-seed-round/
+  seen_at: '2026-10-08T01:56:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQME1WMEpWVWJOaGd3QlI1d3d0VUFYbldOMWNTUXA4am5qcXRQWC1fcmtKaVJDNGJjQlhDSlVwaEhsX2o5RVZBU3dLazRJMF8tdE1jS0Vsb21nQmVhcVhzYUNKVFdMY2VGZFBiaWRXb0V0a3l2eXRvbHZheTNtTE8zeU9lRXRqdXpRMy12czlqLUotV1BKTzViMy1SQTRxbU5pWG5fYTZTSjJ4MTJCd1c4Q2lwS0NwT0Q3Wm5tS2JLTFRqQjIwX2lsTEF4TkNDQQ?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
   kind: news
 ---
 

@@ -37,14 +37,19 @@ url: https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDRnMVBkQzlWX2d4UGlyT3
 canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDRnMVBkQzlWX2d4UGlyT3VHYXdkVDdfM0xRdC1IbEh5WllNVzBRSmtPSXRRVlBpMFZzT2dmclB0LU9sYjVhcERLV2dXclRCWXp5bUsxcjlRNTQxMkYyMGNMN082MUdXdkVJQ0Y2cWZ0RVlWRW1BMW41VTBOLWV5bTNZMkxyUlZTenQtQ1BoTGdzblZHNmRJOGpaS2k5THBRTkRiR2tsdGpzSDdHWmI2azZwaw?oc=5
 summary: Robotics Startup Skild AI Hits $100 Million in Revenue Run Rate As Customer List Grows Bloomberg.com
 first_seen: '2026-09-10T15:30:02Z'
-last_seen: '2026-09-12T00:19:17Z'
-status: watching
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDRnMVBkQzlWX2d4UGlyT3VHYXdkVDdfM0xRdC1IbEh5WllNVzBRSmtPSXRRVlBpMFZzT2dmclB0LU9sYjVhcERLV2dXclRCWXp5bUsxcjlRNTQxMkYyMGNMN082MUdXdkVJQ0Y2cWZ0RVlWRW1BMW41VTBOLWV5bTNZMkxyUlZTenQtQ1BoTGdzblZHNmRJOGpaS2k5THBRTkRiR2tsdGpzSDdHWmI2azZwaw?oc=5
   seen_at: '2026-09-12T00:19:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGJlMTdjVEFGUHluWWZaa2JsRm52VFJlc01ZQnluVWg4Tm8tTzFDRlBPUDJ5bU9nLWRKTHZfaktfb2dZLVFLVEt4dXUzb3VIYUlfbTJhRGxScXY1ZmtVWFNkY2tMLW83SFZpc0JEblNPSXRONlBMNC1EVE5GdlRYYk1MclA4Znhz?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

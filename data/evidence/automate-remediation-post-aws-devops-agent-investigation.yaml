@@ -1,0 +1,12 @@
+- id: ev-ecaaf5f15f0f9cda
+  project_slug: automate-remediation-post-aws-devops-agent-investigation
+  url: https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/
+  title: Automate remediation post AWS DevOps Agent investigation
+  published_at: '2026-10-07T15:46:49Z'
+  collected_at: '2026-10-08T01:56:15Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: AWS DevOps Agent can diagnose production incidents but is kept in observe-and-report mode so it
+    does not change resources directly. This post shows how to use AWS Lambda Durable Functions, Amazon
+    EventBridge, and Amazon Bedrock to turn its investigation summaries into pre-validated fixes an on-call
+    engineer can approve with a single action.

@@ -32,14 +32,19 @@ url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0lyenRFQTRMS2toZW9ZUE
 canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0lyenRFQTRMS2toZW9ZUENMSVJnSXFrUUpKcVdXT3pfencyMnJ5VUhmMXk1b216VDhFNVFDTEJQQ25sV0ZsOUZMeDN1VmpMU2Z4Yi05MERpNlBabzAtb1IxU2NsTGpCbmJzWDdNVWQ3RnVnUDI4UGJIektYNGlQYXN0ZDBiR2l6NmlFVmhJeGdQLWJGSEFadUJBWEtsUTVaSFo5NVdZbmdPZU5GTHFkemM2VQ?oc=5
 summary: Rezolve AI上半年业绩：营收同比激增21倍，全球分销合作伙伴关系全面爆发 Moomoo
 first_seen: '2026-09-01T16:15:52Z'
-last_seen: '2026-09-02T00:14:57Z'
-status: watching
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0lyenRFQTRMS2toZW9ZUENMSVJnSXFrUUpKcVdXT3pfencyMnJ5VUhmMXk1b216VDhFNVFDTEJQQ25sV0ZsOUZMeDN1VmpMU2Z4Yi05MERpNlBabzAtb1IxU2NsTGpCbmJzWDdNVWQ3RnVnUDI4UGJIektYNGlQYXN0ZDBiR2l6NmlFVmhJeGdQLWJGSEFadUJBWEtsUTVaSFo5NVdZbmdPZU5GTHFkemM2VQ?oc=5
   seen_at: '2026-09-02T00:14:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxObXFfc1huN1ZXdjI2TWFIVzRCbFh3R0prZDhrNzdnWUVNMWp6R0J2ME9xZXFxWUVPdmVvcUlOXzEza1diSlZjZmh1WWQ2QThKdnNXUEtiMWhHQkt3d0tMaV9nc2xPcU1Td3dQUmR1NDgya1VmYTVCMTVhNjMwQm1zanFzNnBpazVwWUVLMXdvM3J0YW93eDhtTDlOekVBZ3JEcEdLN1ZIRldrVERzaDRGUXc5alJndTNIU3FRSEExcHhkQQ?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

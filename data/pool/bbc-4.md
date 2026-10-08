@@ -24,8 +24,8 @@ url: https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo
 canonical_url: https://bbc.co.uk/news/articles/c6n07ypqz8kzo
 summary: Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity
 first_seen: '2026-09-16T14:32:15Z'
-last_seen: '2026-10-07T01:33:02Z'
-status: rejected
+last_seen: '2026-10-08T01:56:16Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -68,6 +68,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQTVU5MDV2Z0lxS0V4YktXTVRvSFZ0T2luRmFVOC1XbkZnc2ZpZXZhWTV2NnZsLVpBTmdVaklfOHhVNjdmbURMTGJIQmM0anNmUXV0YkZTdTFGZEg3MHp2SU5FbGNMeUw4b19KNzhGT2NnT2ljRlhYTDRXNTF2NVVVd2gwVGpfbzVKZTBidkpDc1ZMa2VkdmpzZTNhdTJwaG1GYXpRQ0ZtdTlRV0lscDlKeTBKNA?oc=5
   seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/
+  seen_at: '2026-10-08T01:56:16Z'
   metrics: {}
   kind: news
 ---

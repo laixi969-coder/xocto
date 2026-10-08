@@ -1,7 +1,7 @@
 ---
 slug: embeddinggemma-2
 name: EmbeddingGemma 2
-builder: ''
+builder: ilreb
 category: ''
 summary_zh: EmbeddingGemma 2 是一个以 Apache 2.0 许可发布的嵌入模型，公开讨论集中在许可与托管方式：嵌入向量通常要预先计算成千上万条并长期存储，若模型只由厂商托管，一旦停服就需要重新计算全部存量向量。因此有开发者表示愿意付费使用托管版本，同时要求保留自行运行开放权重或更换供应商的退路。
 inspiration: ''
@@ -35,15 +35,23 @@ summary: "My comment  on  EmbeddingGemma 2  — Hacker News.  I really appreciat
   \ they ever stop hosting it I can run the open weights version myself - or find another vendor who can\
   \ do that for me. \n    \n    \n         Tags:  google ,  ai ,  generative-ai ,  embeddings ,  gemma"
 first_seen: '2026-10-06T20:37:53Z'
-last_seen: '2026-10-07T01:32:55Z'
-status: market_context
+last_seen: '2026-10-08T01:55:51Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Oct/6/hn-49983751/
   seen_at: '2026-10-07T01:32:55Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/
+  seen_at: '2026-10-08T01:55:51Z'
+  metrics:
+    points: 416
+    comments: 46
   kind: news
 ---
 

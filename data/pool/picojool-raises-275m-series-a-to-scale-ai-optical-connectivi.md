@@ -23,14 +23,19 @@ url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPNGVIUHdDcl90enJQN1pKNn
 canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPNGVIUHdDcl90enJQN1pKNnZReDZXU1RSNDVrNV9UT3JpM0VubzV1cDNrUWNlTThkT0t4YjRQTFVkTzI5RDJCRDlMM1AwV3BiZTlZUHdMaUh3RmxmYk1Nb00yZzI3MGZLQ2hOUzdOUTRxUzBjNVFHNnc4VHVFak04MkduU1JOTGFQbU1zX1hnN1FoTnhTMkNub1hnMlJzV1l4SjQ3aA?oc=5
 summary: PicoJool Raises $27.5M Series A to Scale AI Optical Connectivity citybiz
 first_seen: '2026-09-24T15:05:16Z'
-last_seen: '2026-09-25T00:34:18Z'
-status: market_context
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPNGVIUHdDcl90enJQN1pKNnZReDZXU1RSNDVrNV9UT3JpM0VubzV1cDNrUWNlTThkT0t4YjRQTFVkTzI5RDJCRDlMM1AwV3BiZTlZUHdMaUh3RmxmYk1Nb00yZzI3MGZLQ2hOUzdOUTRxUzBjNVFHNnc4VHVFak04MkduU1JOTGFQbU1zX1hnN1FoTnhTMkNub1hnMlJzV1l4SjQ3aA?oc=5
   seen_at: '2026-09-25T00:34:18Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3UlNqb0VMSWZLVU1aZFN4N2w0UlVRNFFUOHlGODY0djdWODU2ZFhXODZqaU9OeG5GZmp6Q0ZmejJkT2hhbV9qWUtYN25uYXphQ3dZ?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

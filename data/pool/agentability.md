@@ -32,17 +32,17 @@ url: https://agentability.org/
 canonical_url: https://agentability.org
 summary: An AI agent runs ten web errands a day, every transcript published
 first_seen: '2026-10-06T22:00:58Z'
-last_seen: '2026-10-07T01:32:26Z'
+last_seen: '2026-10-08T01:55:51Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://agentability.org/
-  seen_at: '2026-10-07T01:32:26Z'
+  seen_at: '2026-10-08T01:55:51Z'
   metrics:
-    points: 5
-    comments: 0
+    points: 14
+    comments: 2
   kind: product
 ---
 

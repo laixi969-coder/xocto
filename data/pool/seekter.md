@@ -33,18 +33,18 @@ summary: A job-search agent for Claude Code. It searches job sources every day, 
   your rules (location, visa, salary, sectors, seniority, language), fills application forms in your own
   Chrome, and keeps every application and skip as a markdown file you can read, grep and diff.
 first_seen: '2026-09-22T09:30:26Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/selfishprimate/seekter
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 53
+    stars: 56
     forks: 10
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

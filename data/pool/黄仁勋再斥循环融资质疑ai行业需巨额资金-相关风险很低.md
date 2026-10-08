@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSM3lWTE5tV09MODFmZzU4WV
 canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSM3lWTE5tV09MODFmZzU4WVNucFVjbXRjT2dobm13WWZZdTBuRDdid0NPOHZ5X3RTLWw1OTBGZWhGanA2dWs3Yl9uVDFqOGRxQU54d05YTXJmRmdSNlVkMQ?oc=5
 summary: 黄仁勋再斥“循环融资”质疑：AI行业需巨额资金 相关风险很低！ 东方财富
 first_seen: '2026-08-27T05:31:15Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -41,6 +41,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQSVo3QS1RT2FmZmthQ2pCbFYyVl9TOGVNUjJYbmo0X2pKX2NSWThac0U1dW1WZGc5NFJmODV2X1pKNzlFQ1ZvVFpwTzJIQkhxbjNOQlRzdlVMN2s0M1ozZDUzMnF2SlBWemcxQ25EV0ZGbHpoVUtBMFBlNC15T0VqUHpRY1lBbFppWkp4dGpXTV82d09ISjRoRFFBSnNkN0RwNVFxeA?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4LUZqdXQzbXpITFZDN0JKZUtLTHN0ajhwOXR0MjdwSTFycm1mTGI3OThCcGJXUUZJZ3FNMTNHLV85c0x0aDNvT0RIdHRyWi1BQVZnU0VaMXFMVm9lMjhqWmdaSXNvZw?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

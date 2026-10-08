@@ -30,16 +30,27 @@ url: https://www.producthunt.com/products/review-2
 canonical_url: https://producthunt.com/products/review-2
 summary: Code review on your own machine, with your own AI
 first_seen: '2026-10-05T21:01:00Z'
-last_seen: '2026-10-07T01:32:26Z'
-status: watching
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - producthunt
+- newssearch
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/review-2
   seen_at: '2026-10-07T01:32:26Z'
   metrics: {}
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiakFVX3lxTE1mUlRuZmhWTWNSLUVWdDZXeUUxWW9TOFZiZEZOSndHYnBjNnpST2hkeld6U0YtV0RfaVUteEJqRDJiYU1YYWRKellac01hYUxGaXJCOXVmSENoU3hoV2JoaUtTdjZMbTdITWc?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNWFdIRmVXUEh3VGJPTXlUQnRrTm1DQVdTWER1bHVtM2RHUmdDaDlISXd0V2diR2pISzNnTHpZQUJqQVUzeXBLSlFXQldNckRMMmpjRDVRMU1KX1JWTWhiNWVFTlZmT0s5RFJ3eE9mNjN6bjctSnZMZUJXWHgzREp5SjFLeXE3b1Q1VGpaa3ZVLXlIQjZrTy1VbF9Rd3ZKdmEtSG0w?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
 ---
 
 # Review

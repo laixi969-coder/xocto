@@ -21,8 +21,8 @@ canonical_url: https://news.google.com/rss/articles/CBMimwJBVV95cUxPNVFqNUtFREk3
 summary: Schneider Electric Unveils World's First Software-Defined Medium Voltage Switchgear to Expand
   AI-Ready Data Center Power Portfolio TradingView
 first_seen: '2026-09-28T14:00:00Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -34,6 +34,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1pYjhWdnVZMnZvbGY5dlZ1NW5fQkM4OUZjYlZEdGpDV0lSeVF6Y2xLYjJ4Yy1qV3hydTFOYmVXb2dXSHloYjNwZHByVS1wMC1PZUNpUHdYcXdxWGMxbGM5b1IwNDJmeGQtYWxWWHFWN09WeXdUd0NZeEJ4amVuY1XSAX9BVV95cUxNaWI4VnZ1WTJ2b2xmOXZWdTVuX0JDODlGY2JWRHRqQ1dJUnlRemNsS2IyeGMtald4cnUxTmJlV29nV0h5aGIzcGRwclUtcDAtT2VDaVB3WHF3cVhjMWxjOW9SMDQyZnhkLWFsVlhxVjdPVnl3VHdDWXhCeGplbmNV?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQNk51aFhaZDJDcDZYTkIxYlpTbXFSQzZKVHFYZ0hSUy1zVUZod1B6MHJKMXdhZms2ZlVaVjJYVldYUVlPeHh6VEV2NEV0UVlNX1R4Q3JyV2xiQUN1dHd5NTFuOWlldG9RbER3WmtkWHVQTE96QVNSY0xPU3ozZmNvcXg2aGFqSzVYbndhLTVtUjVteTFXMmlJWTlSRnVGejl4YWxuNUlPUXUtWXJ3dXBKaWFNMVVzWDIyOUhvdTdzRXJ1b3JGYmxQcDJB?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

@@ -37,16 +37,16 @@ canonical_url: https://github.com/joeseesun/qiaomu-codex-imagegen
 summary: 让任何 Agent 调用 Codex 内置生图（MCP + CLI + Skill），内置小红书、视频封面、Mondo 海报技巧 · Codex image generation for
   any agent
 first_seen: '2026-10-04T08:47:02Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/joeseesun/qiaomu-codex-imagegen
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 104
+    stars: 110
     forks: 7
     open_issues: 0
   kind: product

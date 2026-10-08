@@ -20,8 +20,8 @@ url: https://drop.space
 canonical_url: https://drop.space
 summary: They chose your competitor. Find out why
 first_seen: '2026-09-10T02:20:02Z'
-last_seen: '2026-10-05T00:56:35Z'
-status: rejected
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -67,6 +67,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiygFBVV95cUxNRXZZUzBLTFk4ZV9HZmZ2NmFfUFl4Y1U1amYwQl90OHo5VFQwc296S1BvNlVvM1M0dE5wY3FraTFraFpOVFFfVDRSMGgtT1dXaDBveDRhVkVJM0xFYWFNVEdNZW11blE2cnlMNHhkQm02N1hyQmFhc0dJUFpUaU84X3NJX3VLM2cydlZ0WHVZM1BtMkprcTVDX1U1VTZuX2M5Rml3d0NDZUJKcTFfM1dVN0RabjdkcUYwOTQ3a0Z3bEV5QUZKcGtqZXRR?oc=5
   seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPbkhfQXBhLVQ1eGZCaWM5YzBQa1A3N2lzdk81ZklxX0JOQ3E0VV9KUThRUjFTRWF4Y3NCbHc2OXR6blpXRnlXQkZmZkJQc2JjdF9ZallOUUtpSkltaEI0NUdWbk9pU2c2REVqd1oxbHExcGpfWG1iNW1mSjQ1R01lYnFkRF9aOUtPWE5va0pnb01lQ1ZfNEMxb3ZFTmRNM0tkWEI0TG5VbTdHVHVzREE?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

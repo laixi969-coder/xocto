@@ -31,8 +31,8 @@ canonical_url: https://github.com/coleam00/skills
 summary: The agent skills I actually use to build software with coding agents. The PIV loop, planning,
   worktrees, and the meta-skills for building your own AI Layer.
 first_seen: '2026-08-04T22:14:35Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: rejected
+last_seen: '2026-10-08T01:55:51Z'
+status: pending_filter
 sources:
 - github
 - hackernews
@@ -88,6 +88,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMib0FVX3lxTFAxMzNnRnc0blE5LU1tUkp3bFJkZjVxMEdpNUhvWTBXZlhrRmtodlFzM09RQ1R5UnpVYkZ2U1JvOEJjVzZlUlJMbkJIaFN2XzFDeDZiUFBneHB3Q2I5Q2NramJyMEUzSnRQSUx2TFlUTQ?oc=5
   seen_at: '2026-10-06T02:19:08Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers/
+  seen_at: '2026-10-08T01:55:51Z'
+  metrics:
+    points: 68
+    comments: 56
   kind: news
 ---
 

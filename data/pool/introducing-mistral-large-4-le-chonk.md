@@ -1,7 +1,7 @@
 ---
 slug: introducing-mistral-large-4-le-chonk
 name: Mistral Large 4
-builder: ''
+builder: KP
 category: ''
 summary_zh: 这是模型厂商的一次模型发布，不是独立应用产品。对应用方而言，可核对的直接变化是：Mistral 通过 API 提供一个 1 万亿参数、490 亿激活参数的预览模型，并承诺月底开放权重；评测得分从上一代的
   9 分升至 38 分，但仍落后于前沿模型约半年。
@@ -34,14 +34,25 @@ summary: "Introducing Mistral Large 4: Le chonk   \nMistral are back in the game
   \ put out a model that's back to being maybe about 6 months behind the frontier.\n\n       Via  Hacker\
   \ News   \n\n\n     Tags:  ai ,  generative-ai ,  llms ,  mistral ,  pelican-riding-a-bicycle ,  llm-release"
 first_seen: '2026-10-06T20:18:19Z'
-last_seen: '2026-10-07T01:32:55Z'
-status: market_context
+last_seen: '2026-10-08T01:56:16Z'
+status: pending_filter
 sources:
 - marketfeeds
+- producthunt
 sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Oct/6/le-chonk/
   seen_at: '2026-10-07T01:32:55Z'
+  metrics: {}
+  kind: news
+- source: producthunt
+  url: https://www.producthunt.com/products/mistral-7b
+  seen_at: '2026-10-08T01:55:51Z'
+  metrics: {}
+  kind: product
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Oct/6/hn-49982139/
+  seen_at: '2026-10-08T01:56:16Z'
   metrics: {}
   kind: news
 ---

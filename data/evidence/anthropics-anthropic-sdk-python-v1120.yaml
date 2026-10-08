@@ -1,0 +1,26 @@
+- id: ev-dd7618f1576a91aa
+  project_slug: anthropics-anthropic-sdk-python-v1120
+  url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.12.0
+  title: 'anthropics/anthropic-sdk-python: v1.12.0'
+  published_at: '2026-10-07T17:57:07Z'
+  collected_at: '2026-10-08T01:55:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## 1.12.0 (2026-10-07)
+
+
+    Full Changelog: [v1.11.0...v1.12.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.11.0...v1.12.0)
+
+
+    ### Features
+
+
+    * **api:** add claude-haiku-5-5 and typed computer and browser toolset tool calls ([f6346e6](https://github.com/anthropics/anthropic-sdk-python/commit/f6346e63b7507a596e6e8acc9425cae2dfc7bf24))
+
+    * **api:** add disabled to thinking types in model capabilities ([78d815d](https://github.com/anthropics/anthropic-sdk-python/commit/78d815d78b33cfea5f4aa78c57a30b341fa8ff42))
+
+    * **api:** add display_name to RBAC roles and deprecate name ([f63f99c](https://github.com/anthropics/anthropic-sdk-python/commit/f63f99c17583fbdc7e0ba7b92f8f259724403146))
+
+    * **api:** add include_default parameter to list workspaces ([5d4b37b](https://github.com/anthropics/anthropic-sdk-python/commit/5d4b37b36b96e24fb605993216c39db378b14d4c))
+
+    * **api:** add lifecycle stage fields and filter to /v1/models ([0c96c02](https://github.com/anthropics/anthropic-sdk-python/commit/'

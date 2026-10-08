@@ -28,8 +28,8 @@ canonical_url: https://github.com/markfulton/ai-employees
 summary: Open source AI Employees. 8 scheduled business roles, 60 routines, on Claude Code and 10 other
   harnesses. They drive your browser the way you do and improve every run. You own the files.
 first_seen: '2026-09-02T18:47:36Z'
-last_seen: '2026-10-07T01:33:02Z'
-status: watching
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - github
 - marketfeeds
@@ -74,6 +74,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU2JTREtCcFVmX0hHMVc4cDFMS2hnaEt4NTNGQTd1VFhVU0loLUdHTzlUZWlMNUFtWkNzVUswRC1jZ05rNWt5RVl5b0VMMlh2V1lWMTYxUWpCQnhGeHE3WFdLTG5ZUWhXTGFSOEZQTVJuVlF0aUFnU0wxalY3VU1mZUVxRFFKcERaWWVvSmY1TGdxZE9YR1RNTm0zVHdsVHpMczZGRHlIbmnSAVZBVV95cUxOWkxkcGR6UmcyLTYzLWJDS3QtRFNtVVFVbm1LclFpWmJUNzdWa3ZUYXJNQ0dRY2N3WUJia3JJdXJhbFpPeEtUWFV4cGhTUUZ4WVVyUHN6dw?oc=5
   seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOMW9jaVNFOFNYZmgzVGtVMTcwSnNnMGVCc3E4ZzY1YTlidTFpaDBEcndWMGJHZmtCY1gwWTJWVTRZQ1VRWjhIbEV6SXl2VXJxWlBoZnlxWnFUUHBvYmxNVVJGYWxzREtiTTJrZlE1eEd5Q21ReDVZcERKMTBTSFp2bFNPelczSzQtZ1FhTHE5aHFYTk81QnZISXZORFB2QzBtOG9idUJva9IBVkFVX3lxTE5aTGRwZHpSZzItNjMtYkNLdC1EU21VUVVubUtyUWlaYlQ3N1ZrdlRhck1DR1FjY3dZQmJrckl1cmFsWk94S1RYVXhwaFNRRnhZVXJQc3p3?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

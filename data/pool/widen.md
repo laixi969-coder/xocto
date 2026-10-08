@@ -36,8 +36,8 @@ url: https://github.com/betocmn/widen
 canonical_url: https://github.com/betocmn/widen
 summary: a native Postgres GUI using Apple's on-device LLM
 first_seen: '2026-08-16T02:35:51Z'
-last_seen: '2026-09-17T00:33:07Z'
-status: watching
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -52,6 +52,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNEhGWUIxdGFnWUZiaUd1Z3NPaG96dVktUERCaGtLRU53Njc2ZFQwVGpYX2tqclNWemtNQi11UXA0akQ4TVk2by0yMGRRczY0Rko4dU5Tb0pYdzV2SWl0clhGVlZWcFBtMnNpNl8tZnVoVEpIT284SmxpU3cyNnFxY3MtYnZMVW5mZnFhYjRpUHV0N2RDdTdzZ25SRzEyZGVSMml4YjctSXd2dk9odkREMi1XRWRxbEVoU00xejNHMC1KY0owaHFfdnJWV1hsVmVRUkYzQ1BQaWpmdlQyOWN5a1hrVmJ6TWRQU2xNRks5QkNfQVFGUUHSAfsBQVVfeXFMTV9sTGlNcks4UTVWaEIwX2E5RUZkMkNOTWl2dUxSZ095YjJ5b2VSb1gzem9jTlpaZ3p1UktHUEE5OVBQc1lMZWJTODFsREtaR1kwODZaRndRcjJJWk9nd1J4Tm9ZZG9WNDBJV05HWW45Y3FqUl9tZUVENTJSbHdoTURUVHZmLTNmRF9namR6UWxQR0U4UEZPakh6emphZ2lacUg0cTI3SjJORDRLYkQtem9TZ24tMmJ5TjdxVURzUTBSZ2wybllWUFJQLWJHWEtPeEJ3VWtkU0JTcDAycGpycDJtUnRrTHFKcy1Rc3p5NGtSZE5JV1VqVUFQc2M?oc=5
   seen_at: '2026-09-17T00:33:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE15VTFra2wzbEpqbDBYd1ZRVjlrbUp0bTF2TVlSTFk1UjBQRk41bGVFcWxVVWEwUFB0V051U2FGaVVrYzFmaHlaWHpvSmRteVQ2V1kwNU1iMlFPbGM?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

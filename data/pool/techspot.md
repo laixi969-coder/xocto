@@ -24,17 +24,17 @@ url: https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-pat
 canonical_url: https://techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html
 summary: Utah to let AI examine patients and prescribe medication without human oversight
 first_seen: '2026-10-06T17:01:52Z'
-last_seen: '2026-10-07T01:32:26Z'
-status: market_context
+last_seen: '2026-10-08T01:55:51Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html
-  seen_at: '2026-10-07T01:32:26Z'
+  seen_at: '2026-10-08T01:55:51Z'
   metrics:
-    points: 64
-    comments: 90
+    points: 138
+    comments: 128
   kind: news
 ---
 

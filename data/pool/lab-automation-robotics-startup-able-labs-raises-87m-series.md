@@ -31,8 +31,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-10-03T01:13:03Z'
-status: watching
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -296,6 +296,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNc2JqMDcxTXhYa2FxaVZyTVE4Q2hJdnNpZm1PeWxENHJkUF9aMFV0d2E3cy0tQmtBbG5nNlBCYi1YREllMWZtYTh1cXU1ZVlJV3RZVnkydDZoajd1LWNxbWJzYjRxMHdPVXJhVEx5ekoxbXZDSVA4ZUU2ZVE5RjZrLWdoVnZuQlQzeEU4SVpPNDIzdWVOaEc1c0kzWW9zZHFsY0xtdFV4Qk5QUnRvRmYtUnhMSVUyNXM?oc=5
   seen_at: '2026-10-03T01:13:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/10/07/uk-stablecoin-infrastructure-startup-noah-closes-38m-seed-round/
+  seen_at: '2026-10-08T01:56:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigwFBVV95cUxQYjgtYmZlUWdnSEpDeGJ1V2w3NVZVSGRVbm14ZHg2RmVQRG1lM1FMSnJ1YkpVaU9SMGtHTWlkTUZRTnd3LUpqLTliTUg0UE9wRFZGYUNkaWhWRE5PN1NEdjVfNFctSm9wUTlyZWRpNjQwVV9DcXhUSXJJTjFxUHNsQzFDNA?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNQkNRR013ZUU0eHZiR1Job052a250N0NCMDhrLV9hYXJqU1hfX3RzZV9ydnZ5UFpjQmZYNktmcWFWRklTbTFXVHdHd1kwSjRXeFB1NTQwSld1cUl3cmRVSHJ4ekZRSk15dFJmOTJnU2tGZkE5VHhjUFpZQ2E3VjVDVkVoVVdhQnEzd2xhMk8tcnFGNXdLNmI4NDdod05hbGsxeEpfQW1R?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

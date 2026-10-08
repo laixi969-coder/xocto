@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxONlZ2VzRBLXFt
 summary: Duke Health and Queen’s Health Systems will be first to use GE HealthCare’s hospital AI Stock
   Titan
 first_seen: '2026-09-15T12:00:00Z'
-last_seen: '2026-10-03T01:13:03Z'
+last_seen: '2026-10-08T01:56:23Z'
 status: pending_filter
 sources:
 - newssearch
@@ -34,6 +34,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMioAFBVV95cUxPNGI4V2xQSjFYWDdPNlJCTk5RWVFzdUZXNVhMcDdGOTJZd284Qnc3WlF3LVBUbWhpV1l2TlJzU3VqM1FVVXdMR2lkMDdBVWNZSEgtRUN5MDBscVZGUWM3Zk9vT0h5eGJxWWNNOEFBdnhyYkVIa0I0QlhWQ2E0VERlbXlsSEl2Zzc0WnNEd2dBcWd4d0RqaVQ2MnFWZkstLXZB?oc=5
   seen_at: '2026-10-03T01:13:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNNHdkX21qY2RzcDNjeXo5NVZwUFFLTmM5R08xRTJEX2RwSk9hb0FmdmVJVnJQRGNwUm5XVWJHRGtnU2dEQjB0YnJvZGthN2xVOVp0cGFOU3RCMFYxOTVLQkpRTVZ1WHBIWXZXaWdPT2NqODJNUEZydkNQTFA3QlJKa2Rxa2RYWjVDMENheGZ5MFpUeVVJVWMzdHpXMWxlMFJEMGhZc0FvY3N2LWFpVkNELWN3Ulp1U3Fla3c?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

@@ -26,17 +26,17 @@ url: https://github.com/FeSens/openTPU
 canonical_url: https://github.com/FeSens/openTPU
 summary: An open-source AI accelerator, developed by AI
 first_seen: '2026-10-06T16:23:25Z'
-last_seen: '2026-10-07T01:32:26Z'
-status: watching
+last_seen: '2026-10-08T01:55:51Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/FeSens/openTPU
-  seen_at: '2026-10-07T01:32:26Z'
+  seen_at: '2026-10-08T01:55:51Z'
   metrics:
-    points: 230
-    comments: 294
+    points: 337
+    comments: 393
   kind: news
 ---
 

@@ -21,8 +21,8 @@ canonical_url: https://techcrunch.com/2026/09/28/source-inference-provider-modal
 summary: The new financing is expected to more than triples the AI infrastructure startup's valuation
   from just four months ago.
 first_seen: '2026-09-28T21:29:18Z'
-last_seen: '2026-10-07T01:32:54Z'
-status: rejected
+last_seen: '2026-10-08T01:56:15Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -49,6 +49,11 @@ sightings:
 - source: officialfeeds
   url: https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/
   seen_at: '2026-10-07T01:32:54Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://huggingface.co/blog/LiquidAI/open-d1
+  seen_at: '2026-10-08T01:56:15Z'
   metrics: {}
   kind: news
 ---

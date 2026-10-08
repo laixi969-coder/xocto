@@ -116,16 +116,16 @@ summary: "# Release v5.19.0\r\n\r\n\r\n## New Model additions\r\n\r\n### Embeddi
   \ (#49088)\r\n    * [Refactor] Make some flash-attention utils more readable (#49071)\r\n    * \U0001F6A8\
   \ [CB] \U0001F6A8 Little fixes before removing \"paged\" (#49069)"
 first_seen: '2026-10-06T16:39:23Z'
-last_seen: '2026-10-07T01:32:31Z'
-status: market_context
+last_seen: '2026-10-08T01:55:55Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huggingface/transformers/releases/tag/v5.19.0
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    reactions: 0
+    reactions: 2
   kind: news
 ---
 

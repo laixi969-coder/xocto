@@ -1,0 +1,14 @@
+- id: ev-dcf09f576dda8436
+  project_slug: rised-rubrics-for-agentic-multi-environment-selection-and-se
+  url: https://machinelearning.apple.com/research/rised-multi-environment-selection
+  title: 'RISED: Rubrics for Agentic Multi-Environment Selection and Self-Distillation'
+  published_at: '2026-10-06T00:00:00Z'
+  collected_at: '2026-10-08T01:56:15Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Training a single LLM agent jointly across diverse interactive environments has attracted increasing
+    attention as a route to generalist agents. Existing curriculum and data-selection strategies often
+    allocate training at the environment level or prioritize local reward-based signals, without explicitly
+    considering relationships between current rollouts across environments for prompt-group selection.
+    Meanwhile, as environments are learned at different rates, all-failure and all-success rollout groups
+    can coexist within a batch, leaving those data without group-relative reward signals. Both…

@@ -320,16 +320,16 @@ summary: "## Overview\r\n\r\nllama.cpp v0.6.0 introduces the new `llama_batch_ex
   \ to test-llama-archs for testing a specific backend (#27372)\r\n6e60f3560 ci : use hf-jobs-cpu-xl runner\
   \ in server sanitize workflow (#29297)\r\nfee39dd92 opencl: add A8 Q6_K non-MoE dp4a binary kernel (#29057)"
 first_seen: '2026-10-05T16:56:22Z'
-last_seen: '2026-10-07T01:32:31Z'
-status: market_context
+last_seen: '2026-10-08T01:55:55Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ggml-org/llama.cpp/releases/tag/v0.6.0
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    reactions: 25
+    reactions: 28
   kind: news
 ---
 

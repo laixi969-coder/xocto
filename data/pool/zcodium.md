@@ -35,18 +35,18 @@ canonical_url: https://zcodium-project.github.io
 summary: ZCodium，Independent audit fork of ZCode (ZCode → ZCodium). All monitoring and telemetry removed;
   upstream commits reviewed one by one. ZCode 的独立审计分支（ZCode → ZCodium）：已移除监控与遥测，上游改动逐提交审阅。
 first_seen: '2026-09-23T21:53:06Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://zcodium-project.github.io/
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 218
+    stars: 220
     forks: 11
-    open_issues: 11
+    open_issues: 5
   kind: product
 ---
 

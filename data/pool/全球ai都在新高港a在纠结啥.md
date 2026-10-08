@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMickFVX3lxTFB4NG00V0ZnYTJVNVlNWGtWTU
 canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTFB4NG00V0ZnYTJVNVlNWGtWTU5hSFpMSXhSZXdialp5U3RBczRMUElfcTZUQ3lkZ3RuUDE2dGpDMXNYc1BjeXljMUJNUlNBNHRvcnZiQXdQZVNIU1JUWlpoMHFXV29tYUNUR05pTVQ3WmFFQQ?oc=5
 summary: 全球AI都在新高，港A在纠结啥？ 金融界
 first_seen: '2026-10-06T07:42:02Z'
-last_seen: '2026-10-07T01:33:02Z'
-status: rejected
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMickFVX3lxTFB4NG00V0ZnYTJVNVlNWGtWTU5hSFpMSXhSZXdialp5U3RBczRMUElfcTZUQ3lkZ3RuUDE2dGpDMXNYc1BjeXljMUJNUlNBNHRvcnZiQXdQZVNIU1JUWlpoMHFXV29tYUNUR05pTVQ3WmFFQQ?oc=5
   seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiggFBVV95cUxNMWsweG0xcDNIQUFOc2tqWGxHdEtSWW13a0gyYTVEUGFPamI2WFNkQTZTVzJSeXV1LXUwcmdyR2p1YlU4OV9vMzVoVnlWZko3bW9qclBiQXVBOTRfS0RyOWEtYUlxM2VUbW5Na2ptVXBnRjRjV1BhWmtGMHJ3Wlktc2h3?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

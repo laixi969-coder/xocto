@@ -40,8 +40,8 @@ summary: The founders of European AI startups Lovable and Langdock are among the
   startup which is challenging CRM (customer relationship management) giants Salesforce and HubSpot.Zero
   has ...
 first_seen: '2026-09-15T07:00:00Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: watching
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -62,6 +62,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNV1BVclNvZHYyTVVDUFZoc1gxaTBwR0pFdHJaWVlJamdVYlBpeWRUZ1RhSG5vSkxJSk9OWTBEa0FxYnJxVDQyb0VaODlJN21jSlZUYjJ4emZjU083MUJiTV9qN3YtcDRiTmlrNkJXLURVVWl6b0lWVHQyVi1zd3RKZUxDNFhwSHhoOWl2aFZPbFF0QQ?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMie0FVX3lxTE1MSkM0WUNvb09ySDFHR2x0cl9td1lkZF94V1JkV0lzMnE1Z29iQm5IcVYzZVZsR2JsSWVWTHBtT3lSMWdlMkt1aDlDdktJOWRUcWc4NVJtOUE0SUt4eXJKT01va0lBbGdoNERQR3E2RFhqc2R4RVZwOUE1WQ?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

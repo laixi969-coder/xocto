@@ -20,7 +20,7 @@ url: https://devtools.fit
 canonical_url: https://devtools.fit
 summary: Dev tools in one static site, no framework, no server
 first_seen: '2026-08-24T17:20:40Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: rejected
 sources:
 - hackernews
@@ -35,11 +35,11 @@ sightings:
   kind: product
 - source: github
   url: https://pangular-inspector.dev/
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
     stars: 54
     forks: 8
-    open_issues: 12
+    open_issues: 3
   kind: product
 ---
 

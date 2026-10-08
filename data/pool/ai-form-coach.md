@@ -36,18 +36,18 @@ url: https://github.com/aundreynovalliano-png/AI-Form-Coach
 canonical_url: https://github.com/aundreynovalliano-png/AI-Form-Coach
 summary: 'AI Virtual Personal Trainer Python App 2026: Motion Rep Counting and Voice Workout Coach'
 first_seen: '2026-09-21T22:47:24Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/aundreynovalliano-png/AI-Form-Coach
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
     stars: 53
     forks: 0
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

@@ -34,17 +34,17 @@ canonical_url: https://faviovazquez.github.io/showtime
 summary: 'A local video studio for your coding agent. Describe a video in one sentence: your agent directs,
   your machine renders. Claude Code, Codex, Cursor, Devin and more. No API keys, no uploads.'
 first_seen: '2026-09-28T15:16:41Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://faviovazquez.github.io/showtime/
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 155
-    forks: 15
+    stars: 176
+    forks: 17
     open_issues: 1
   kind: product
 ---

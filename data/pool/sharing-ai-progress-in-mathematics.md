@@ -1,7 +1,7 @@
 ---
 slug: sharing-ai-progress-in-mathematics
 name: OpenAI
-builder: ''
+builder: OfficialTurkey
 category: ''
 summary_zh: OpenAI 于 2026 年 10 月 6 日公布其内部前沿模型在数学开放问题上的新结果，并公开共享了 Lean 证明形式化与研究细节。这表明前沿模型正被用于可验证的数学推理任务，若该能力可复现，将降低形式化验证与数学研究的工具成本，并加剧模型厂商在推理能力上的竞争；但单次结果不足以推断整个行业已转向。
 inspiration: ''
@@ -25,15 +25,23 @@ canonical_url: https://openai.com/index/sharing-ai-progress-in-mathematics
 summary: OpenAI publishes new results on open problems in mathematics from an internal frontier model
   and shares Lean proof formalizations and research details on GitHub.
 first_seen: '2026-10-06T12:00:00Z'
-last_seen: '2026-10-07T01:32:54Z'
-status: market_context
+last_seen: '2026-10-08T01:55:51Z'
+status: pending_filter
 sources:
 - officialfeeds
+- hackernews
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/sharing-ai-progress-in-mathematics
   seen_at: '2026-10-07T01:32:54Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://openai.com/index/sharing-ai-progress-in-mathematics/
+  seen_at: '2026-10-08T01:55:51Z'
+  metrics:
+    points: 1230
+    comments: 1407
   kind: news
 ---
 

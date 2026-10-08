@@ -26,17 +26,17 @@ url: https://penguin-mail.com/
 canonical_url: https://penguin-mail.com
 summary: open-source Rust email client for Linux with AI
 first_seen: '2026-10-06T21:59:43Z'
-last_seen: '2026-10-07T01:32:26Z'
-status: watching
+last_seen: '2026-10-08T01:55:51Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://penguin-mail.com/
-  seen_at: '2026-10-07T01:32:26Z'
+  seen_at: '2026-10-08T01:55:51Z'
   metrics:
-    points: 61
-    comments: 18
+    points: 230
+    comments: 176
   kind: news
 ---
 

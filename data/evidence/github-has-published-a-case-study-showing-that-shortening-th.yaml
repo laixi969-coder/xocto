@@ -342,3 +342,21 @@
     延迟是三次采样取中位数；测速响应不足 1MB 直接判 error ，不把错误页算成速率。查不到的就标 unknown ，我不编\"风控分\"这种自创指标。\r\n\r\n所有检测都在你本机 / 你的\
     \ VPS 上跑，IP 数据不经过第三方网页服务。\r\n\r\nGitHub： https://github.com/Genuifx/NetPulse\r\n官网： https://genuifx.github.io/NetPulse/\r\
     \n\r\n手里有机器的欢迎跑一下，原生 IP / AI 可达跟实际对不上的，提 issue 我去调数据源。"
+- id: ev-611859fbf58fc874
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1246841
+  title: Cordis 的坑与账-DeepSeek Harness 运行时拿它当底座
+  published_at: '2026-10-07T14:27:42Z'
+  collected_at: '2026-10-08T01:55:49Z'
+  source_kind: product
+  tier: independent
+  fact: "> 坑是陷人的地方，账是未来要承担的后果。\r\n>\r\n> 读不完的话（估计很少有人会读完的）：第 2 节讲它真正做了什么（其实只有一个栈），第 4 节讲它哪里长错了，第 8 节讲你该不该用。\r\
+    \n\r\n## 0. 两个主角\r\n\r\n### 被评估的：Cordis\r\n\r\nKoishi 聊天机器人框架的内核，后来 DeepSeek 的 DSH （ DeepSeek Harness\
+    \ ，Agent 运行时）拿它当底座。\r\n\r\n类型上是**插件元框架**：本身不含任何业务能力，只管插件怎么装进一个长期运行的进程、怎么互相依赖、怎么卸载。Koishi 社区插件 4000+，DSH\
+    \ 第三方索引收录 6000+。\r\n\r\n- 仓库：<https://github.com/cordiverse/cordis>\r\n- 官方文档：<https://deepseek-harness.github.io/deepseek-harness/en/reference/cordis-primer>\r\
+    \n- 上手教程：<https://deepseek-harness.github.io/deepseek-harness/en/develop/cordis-tutorial>\r\n\r\n\
+    ### 用来做参照的：tool-func 系列\r\n\r\nisdk 的一组小库，从下往上是一条链：\r\n\r\n- [`tool-func`]( https://github.com/isdk/tool-func.js)：函数注册表，让函数能自描述、被别人发现\r\
+    \n- [`tool-rpc`]( https://github.com/isdk/tool-rpc.js)：把注册的函数暴露到网络上，本地/远程对调用方透明\r\n- [`tool-event`](\
+    \ https://github.com/isdk/tool-event.js)：把实时事件也当作\"一个工具\"，复用 RPC 的生态\r\n\r\n第 4 节会拿它当尺子：**同一个需求，另一种长法是什么样子。**\r\
+    \n\r\n## 1. 它解决什么问题\r\n\r\n**一个 bot 进程要 7×24 运行，插件要能不重启进程地装卸和升级。**\r\n\r\n这句话听起来平平无奇，把它变成画面：\r\n\r\
+    \n> 你的机器人已经连续跑了半年，群里几千人在用。现在你要给\"天气查询\"插件修一个 bug 。\r\n> 重启意味着全体下线半分钟"

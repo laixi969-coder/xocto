@@ -20,8 +20,8 @@ url: https://news.ycombinator.com/item?id=49802005
 canonical_url: https://news.ycombinator.com/item?id=49802005
 summary: my Hacker News mobile client now lets you block AI posts
 first_seen: '2026-09-22T14:33:50Z'
-last_seen: '2026-10-05T00:56:35Z'
-status: rejected
+last_seen: '2026-10-08T01:55:51Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -51,6 +51,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNWVdaVjdFZXliTHkyTTJEZGtDLTJTMVNUY29wUWpFenJoY0VONDRfbWRVUDc2a3k3eE1uV2o2WDlYWUtKWGgyTWxMYVd5dGhINVFQT3ZjV194a2JITC1yb1RFS2NIVFVuRU80cE5JN1c1MGxjNmYtNTNqellmMDE3Y19LRUwtV0hEbEgzQUs2MHlqM1Q4cVdSQg?oc=5
   seen_at: '2026-10-05T00:56:35Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/
+  seen_at: '2026-10-08T01:55:51Z'
+  metrics:
+    points: 97
+    comments: 31
   kind: news
 ---
 

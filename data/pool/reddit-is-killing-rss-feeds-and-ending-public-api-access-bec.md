@@ -26,8 +26,8 @@ canonical_url: https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-end
 summary: Reddit is ending support for RSS feeds, as the company continues tightening access to its trove
   of user-generated content.
 first_seen: '2026-09-30T17:45:00Z'
-last_seen: '2026-10-04T00:38:23Z'
-status: market_context
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -48,6 +48,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxQaVJqZXhzVENJLUg1bmJnVmhwbDRkVDdfZ1VBVldQWXczNzQ2ZTBvQ1RXVUNsWVZ6NXRMaEhGWEJ4VDdZZ1VUSjdUY2VNelFJWU1EMHl2WTdCTFVTR3pzdUszclNSTG9iTzZNSTQ2QktRZ1ZnWVlNb0dQLWtkbEZxU1JiUm9kRElFOHNLVE1VQmk?oc=5
   seen_at: '2026-10-04T00:38:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMicEFVX3lxTE51Y3prbVhrN1BPek5tNkVQdU5GTlJCYm9adERxek9iR2NRTkhJTmF4ei1JSDlHWGx0MlYtVGJTSWU3dk1LQUlGbmlqZ1QyMnpqUFV4d0NOTkFFSUhTaDEyYUFnbExvMnlJVnlFYmU2TGM?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

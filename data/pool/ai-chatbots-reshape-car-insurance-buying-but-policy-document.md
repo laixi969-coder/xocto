@@ -1,0 +1,41 @@
+---
+slug: ai-chatbots-reshape-car-insurance-buying-but-policy-document
+name: AI Chatbots Reshape Car Insurance Buying, But Policy Documents Remain Key
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNalNVMkZjN2RaRnphbVBIUE50eVZyOW80M1haQ1VMdlY5WERvNmdFZnBPVmRHSzFWbVdJM0NmZ2ZEMklReDJBYXd5V2FHNTJ0Mzd0SWpNYTFQM2pDSEltcGhvS1V2dGRpX2o4RVIxUFBIMWYyUm1KUFBFVE50ZkdSWWltUUtSLWVJS3BwbGZnRjZxRUFCdmNNRmROSGN5Qno3SFpLWk1PaXpZZGFKdlVJM0gweDJFbUQyRjI0VVlNVmVqbi1NN1dDU2JBZnA1dGFsU3fSAdcBQVVfeXFMTjdWTzBaSElpa0x2bGRaYmM4UkVsY1FERjVGNngzTUVTWXlOcmk1Z0JoSzlYMTlsV1hRN0FwNTQ5YVVSMUVidS01S2NjdEpxV2dpWmtLcm9vSzlDbmdqQjROeENzY2ctcUlrU0JKNUt6U29hUlVSVllhelRfODM1T3NUMGxQdXBRQlNKLV9TMUctdnlPcW15ZURkcE5zeDl6a2tKeTRkUG1iaVdkQVFMc0VRRzRlRWpmdzJuR2tEMm9PMnRGR2pzZGNkbndRNXhBc0JZV3dNbnM?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNalNVMkZjN2RaRnphbVBIUE50eVZyOW80M1haQ1VMdlY5WERvNmdFZnBPVmRHSzFWbVdJM0NmZ2ZEMklReDJBYXd5V2FHNTJ0Mzd0SWpNYTFQM2pDSEltcGhvS1V2dGRpX2o4RVIxUFBIMWYyUm1KUFBFVE50ZkdSWWltUUtSLWVJS3BwbGZnRjZxRUFCdmNNRmROSGN5Qno3SFpLWk1PaXpZZGFKdlVJM0gweDJFbUQyRjI0VVlNVmVqbi1NN1dDU2JBZnA1dGFsU3fSAdcBQVVfeXFMTjdWTzBaSElpa0x2bGRaYmM4UkVsY1FERjVGNngzTUVTWXlOcmk1Z0JoSzlYMTlsV1hRN0FwNTQ5YVVSMUVidS01S2NjdEpxV2dpWmtLcm9vSzlDbmdqQjROeENzY2ctcUlrU0JKNUt6U29hUlVSVllhelRfODM1T3NUMGxQdXBRQlNKLV9TMUctdnlPcW15ZURkcE5zeDl6a2tKeTRkUG1iaVdkQVFMc0VRRzRlRWpmdzJuR2tEMm9PMnRGR2pzZGNkbndRNXhBc0JZV3dNbnM?oc=5
+summary: AI Chatbots Reshape Car Insurance Buying, But Policy Documents Remain Key Deccan Chronicle
+first_seen: '2026-10-07T06:25:39Z'
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNalNVMkZjN2RaRnphbVBIUE50eVZyOW80M1haQ1VMdlY5WERvNmdFZnBPVmRHSzFWbVdJM0NmZ2ZEMklReDJBYXd5V2FHNTJ0Mzd0SWpNYTFQM2pDSEltcGhvS1V2dGRpX2o4RVIxUFBIMWYyUm1KUFBFVE50ZkdSWWltUUtSLWVJS3BwbGZnRjZxRUFCdmNNRmROSGN5Qno3SFpLWk1PaXpZZGFKdlVJM0gweDJFbUQyRjI0VVlNVmVqbi1NN1dDU2JBZnA1dGFsU3fSAdcBQVVfeXFMTjdWTzBaSElpa0x2bGRaYmM4UkVsY1FERjVGNngzTUVTWXlOcmk1Z0JoSzlYMTlsV1hRN0FwNTQ5YVVSMUVidS01S2NjdEpxV2dpWmtLcm9vSzlDbmdqQjROeENzY2ctcUlrU0JKNUt6U29hUlVSVllhelRfODM1T3NUMGxQdXBRQlNKLV9TMUctdnlPcW15ZURkcE5zeDl6a2tKeTRkUG1iaVdkQVFMc0VRRzRlRWpmdzJuR2tEMm9PMnRGR2pzZGNkbndRNXhBc0JZV3dNbnM?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
+---
+
+# AI Chatbots Reshape Car Insurance Buying, But Policy Documents Remain Key
+
+AI Chatbots Reshape Car Insurance Buying, But Policy Documents Remain Key Deccan Chronicle
+
+## 笔记
+
+

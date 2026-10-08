@@ -36,18 +36,18 @@ summary: Agentic AI security scanner that hunts exploitable vulnerabilities like
   them with executable PoCs, and fixes them test-first. A maintained fork of Capital One's VulnHunter,
   rebuilt for any agent harness.
 first_seen: '2026-09-22T23:22:00Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nealbridges/VulnHunter
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 541
-    forks: 96
-    open_issues: 0
+    stars: 642
+    forks: 103
+    open_issues: 1
   kind: product
 ---
 

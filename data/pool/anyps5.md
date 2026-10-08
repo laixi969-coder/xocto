@@ -20,17 +20,17 @@ url: https://github.com/boykopovar/AnyPS5
 canonical_url: https://github.com/boykopovar/AnyPS5
 summary: Port PS5 binaries to PC without emulation (87% system libraries mapped)
 first_seen: '2026-10-06T23:28:08Z'
-last_seen: '2026-10-07T01:32:26Z'
+last_seen: '2026-10-08T01:55:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/boykopovar/AnyPS5
-  seen_at: '2026-10-07T01:32:26Z'
+  seen_at: '2026-10-08T01:55:51Z'
   metrics:
-    points: 74
-    comments: 47
+    points: 344
+    comments: 295
   kind: news
 ---
 

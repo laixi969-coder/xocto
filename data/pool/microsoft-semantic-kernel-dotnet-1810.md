@@ -26,16 +26,16 @@ summary: "## Changes:\r\n\r\n* bd3150d9a215684e68a8598abda515d16edc89cb .Net: Bu
   \ .NET: Upgrade Git build dependency (#14477)\r\n* 872d29ea75c6d65c88630c0298c7c8b8396a25e9 SessionsPythonPlugin\
   \ bug fix (#14374)\r\n\r\nThis list of changes was [auto generated](https://msdata.visualstudio.com/Vienna/_build/results?buildId=239282953&view=logs).</details>"
 first_seen: '2026-10-06T16:34:47Z'
-last_seen: '2026-10-07T01:32:31Z'
-status: rejected
+last_seen: '2026-10-08T01:55:55Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.81.0
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    reactions: 0
+    reactions: 1
   kind: news
 ---
 

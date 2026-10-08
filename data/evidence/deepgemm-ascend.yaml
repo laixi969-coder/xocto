@@ -131,3 +131,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 云计算与数据中心 半导体 AI 基础设施工程师 算子开发工程师'
+- id: ev-f80081f3e4c365f5
+  project_slug: deepgemm-ascend
+  url: https://github.com/deepseek-ai/DeepGEMM-Ascend
+  title: DeepGEMM-Ascend
+  published_at: '2026-09-29T15:49:55Z'
+  collected_at: '2026-10-08T01:55:55Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs
+    | repository stars: 528'

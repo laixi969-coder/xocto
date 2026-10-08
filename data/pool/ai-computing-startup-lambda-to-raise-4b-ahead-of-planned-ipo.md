@@ -24,14 +24,25 @@ canonical_url: https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-
 summary: Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead
   of a planned 2027 IPO, led by Coatue and Blackstone.
 first_seen: '2026-10-06T20:00:30Z'
-last_seen: '2026-10-07T01:32:55Z'
-status: market_context
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/
   seen_at: '2026-10-07T01:32:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQVFNPcU92cHZuUkpRX3VkcGpra2MwTnFZbXY0VjhjSXNfYU5Ya3FidG9YTnM5MXVNb2F5NkZJNGpCU1psbGhJM1loeTlFWnU5bDEyUEFMQi1VbjZ5RWdJU24zR29tZ0ZnWTQwUXdtUXBYUnhvNWFxQ0R6LWVJVG1LdWZHQW9iZWNLMXJKUkNVdUFMN0RUZzRUb09oel8wQWhXMWpLOEQzbnRlQ2trZDhv?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPal9fRWtFbk5PV1FVeXVVY09EanJ6T29EaS04OVpiREZSX3I0NmVMRFNxR1VuN25OM1hOeXBDaVVXekNzU1RTRl95VDdjTUJaLUpBU191QmR0MEl0bm4tRHdFeTFKLWRJb2t6UWdUd1QxMVh4aVpYM1NSTGRrWTc1R1k3R21jMWRkbEU4T0VYSlRXazZLc0Z2NDkydw?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

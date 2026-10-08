@@ -25,8 +25,8 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWtmNW1rZnVJ
 summary: TRAI Finalises New Spam Rules Covering AI Detection, Robocalls and Consumer Appeals The Policy
   Edge
 first_seen: '2026-09-18T17:40:17Z'
-last_seen: '2026-10-07T01:32:55Z'
-status: market_context
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -70,6 +70,16 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/is-it-illegal-to-train-frontier-ai-in-the-uk/
   seen_at: '2026-10-07T01:32:55Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/
+  seen_at: '2026-10-08T01:56:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNUV93akU3eGJkcGFveTMzNExlZXRWaFN0YVlRRWlzT1g4eTdwdDRIcV9oWW05emlRNVpGX3BMZXFWLU1GUHpra1Y5dU5NdmZMamlPa0RyTEZKV0s2bnFHYk1xV2d6V2RRMHBaVXhLZVBvYmljV1ZXQkJKbXFpREJtX0tYS1ZNUWRjQXpYWlNVRVdRdUdNdldiVXQzcEU0bzA5b2E4Zw?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

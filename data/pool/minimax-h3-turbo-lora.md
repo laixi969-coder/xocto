@@ -35,7 +35,7 @@ url: https://huggingface.co/spaces/KSYJA/Minimax-H3-turbo
 canonical_url: https://huggingface.co/spaces/KSYJA/Minimax-H3-turbo
 summary: Video generation with a synchronized soundtrack
 first_seen: '2026-09-13T14:04:17Z'
-last_seen: '2026-09-14T00:12:54Z'
+last_seen: '2026-10-08T01:56:15Z'
 status: watching
 sources:
 - huggingface
@@ -45,6 +45,12 @@ sightings:
   seen_at: '2026-09-14T00:12:54Z'
   metrics:
     likes: 18
+  kind: product
+- source: huggingface
+  url: https://huggingface.co/spaces/baka999/MiniMax-H3-Turbo-Lora-UNCENSORED
+  seen_at: '2026-10-08T01:56:15Z'
+  metrics:
+    likes: 2
   kind: product
 ---
 

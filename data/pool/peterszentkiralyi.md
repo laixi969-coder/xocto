@@ -20,17 +20,17 @@ url: https://peterszentkiralyi.eu/darkplug/
 canonical_url: https://peterszentkiralyi.eu/darkplug
 summary: I turned my iPhone and a $20 smart plug into an f-stop timer
 first_seen: '2026-10-06T13:58:07Z'
-last_seen: '2026-10-07T01:32:26Z'
+last_seen: '2026-10-08T01:55:51Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://peterszentkiralyi.eu/darkplug/
-  seen_at: '2026-10-07T01:32:26Z'
+  seen_at: '2026-10-08T01:55:51Z'
   metrics:
-    points: 69
-    comments: 21
+    points: 83
+    comments: 38
   kind: product
 ---
 

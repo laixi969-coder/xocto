@@ -30,7 +30,7 @@ canonical_url: https://github.com/Guo-Yixin/coding-agent
 summary: CODING — a local-first AI coding agent for repository-aware planning, execution, validation,
   and delivery.
 first_seen: '2026-09-19T12:20:32Z'
-last_seen: '2026-10-04T00:38:23Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: watching
 sources:
 - github
@@ -38,10 +38,10 @@ sources:
 sightings:
 - source: github
   url: https://github.com/Guo-Yixin/coding-agent
-  seen_at: '2026-10-03T01:12:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 180
-    forks: 5
+    stars: 212
+    forks: 7
     open_issues: 0
   kind: product
 - source: newssearch

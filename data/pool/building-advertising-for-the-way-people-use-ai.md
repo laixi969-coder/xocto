@@ -24,8 +24,8 @@ canonical_url: https://openai.com/index/new-chatgpt-ads-format-and-measurement
 summary: OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution
   partnerships, and brand suitability for advertisers.
 first_seen: '2026-10-05T10:00:00Z'
-last_seen: '2026-10-07T01:33:02Z'
-status: market_context
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - officialfeeds
 - hackernews
@@ -46,6 +46,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yclVKQmZUTGtJcktXRjV6dHFoNlk1VTMwVHh2OC1VbVYwQzFUdUtydGs0RnV4S2JQeUN0OG1ncjdGMVp0STNKbkVsR09xN0xxdlUwTA?oc=5
   seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrSmFjY1ZOdGl0WWxJX1VqSnFFeGNYeDd1NWIwekE5LXFzZEJlOG1lNzZZRGxwWlYySDdtaU1fS1A5Z3ZpSTlQckFTN292Zw?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

@@ -37,16 +37,16 @@ canonical_url: https://github.com/kkw114514-lang/campus-job-application-workflow
 summary: AI 驱动的秋招投递工作流：状态机队列 / 预算规则 / 提交前六查 / 公司攻略库 / 人机协作协议，附通用模板包。An AI-driven campus recruitment application
   workflow with a generic, privacy-safe template.
 first_seen: '2026-09-22T12:30:33Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kkw114514-lang/campus-job-application-workflow
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 106
+    stars: 115
     forks: 0
     open_issues: 0
   kind: product

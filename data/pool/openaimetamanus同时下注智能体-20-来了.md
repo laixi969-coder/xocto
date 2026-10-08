@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0JScjF3eGZYVnl5ek1xY1
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0JScjF3eGZYVnl5ek1xY1lwWmRfNkFZc2ZGR3dEeEpydU5mWFRwbktVQ2QwcVNtTkVrTVl0SkVEWGo5eU5yUi1kcWhDckptM2cyUnUwZEZNZUV2bjViNWNkZjBsdmNQQVJKcTFGZThQOWRMX2JwY0pyQmMtblMxWmhmcVZUbThq?oc=5
 summary: OpenAI、Meta、Manus同时下注，智能体 2.0 来了 搜狐网
 first_seen: '2026-10-06T01:24:56Z'
-last_seen: '2026-10-07T01:33:02Z'
-status: rejected
+last_seen: '2026-10-08T01:56:23Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0JScjF3eGZYVnl5ek1xY1lwWmRfNkFZc2ZGR3dEeEpydU5mWFRwbktVQ2QwcVNtTkVrTVl0SkVEWGo5eU5yUi1kcWhDckptM2cyUnUwZEZNZUV2bjViNWNkZjBsdmNQQVJKcTFGZThQOWRMX2JwY0pyQmMtblMxWmhmcVZUbThq?oc=5
   seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE94X2lQTmJsU2VLLXdPMEg1NFl3OGtSQ1Z5NkdDM3h0dW1ZVEhLbHY1OWZ4ZHowNGpTZm52NGk1Z29heEh3Z3VDUDhRZEZfWGtR?oc=5
+  seen_at: '2026-10-08T01:56:23Z'
   metrics: {}
   kind: news
 ---

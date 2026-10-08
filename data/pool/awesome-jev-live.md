@@ -21,16 +21,16 @@ canonical_url: https://wh000wh000.github.io/awesome-jev-live
 summary: 'Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and
   open models. 20 languages, rebuilt every 2 hours.'
 first_seen: '2026-09-18T13:37:03Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-08T01:55:55Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://wh000wh000.github.io/awesome-jev-live/
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-08T01:55:55Z'
   metrics:
-    stars: 234
+    stars: 243
     forks: 14
     open_issues: 3
   kind: product
