@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>Brig · x-octo</title>
-<meta name="description" content="开发者在本地 Mac 或 Linux 上运行 AI 编码代理时打开它，把代理要执行的命令放进 MicroVM 沙箱里跑，而不是直接落在自己的开发机上；用户拿到的是被隔离的执行环境，具体交付形态与人工确认环节仍待核验。">
+<meta name="description" content="开发者在 Mac 或 Linux 上运行 AI 编码代理时，需要给代理一个隔离的执行环境，Brig 提供基于 MicroVM 的沙箱来承载代理的代码执行。具体隔离边界、支持哪些代理以及交付形态仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/brig.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/brig.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/brig.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/brig.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Brig · x-octo">
-<meta property="og:description" content="开发者在本地 Mac 或 Linux 上运行 AI 编码代理时打开它，把代理要执行的命令放进 MicroVM 沙箱里跑，而不是直接落在自己的开发机上；用户拿到的是被隔离的执行环境，具体交付形态与人工确认环节仍待核验。">
+<meta property="og:description" content="开发者在 Mac 或 Linux 上运行 AI 编码代理时，需要给代理一个隔离的执行环境，Brig 提供基于 MicroVM 的沙箱来承载代理的代码执行。具体隔离边界、支持哪些代理以及交付形态仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/brig.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/brig.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u672c\u5730 Mac \u6216 Linux \u4e0a\u8fd0\u884c AI \u7f16\u7801\u4ee3\u7406\u65f6\u6253\u5f00\u5b83\uff0c\u628a\u4ee3\u7406\u8981\u6267\u884c\u7684\u547d\u4ee4\u653e\u8fdb MicroVM \u6c99\u7bb1\u91cc\u8dd1\uff0c\u800c\u4e0d\u662f\u76f4\u63a5\u843d\u5728\u81ea\u5df1\u7684\u5f00\u53d1\u673a\u4e0a\uff1b\u7528\u6237\u62ff\u5230\u7684\u662f\u88ab\u9694\u79bb\u7684\u6267\u884c\u73af\u5883\uff0c\u5177\u4f53\u4ea4\u4ed8\u5f62\u6001\u4e0e\u4eba\u5de5\u786e\u8ba4\u73af\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Brig", "url": "https://xocto.vercel.app/p/brig.html"}, {"@id": "https://xocto.vercel.app/p/brig.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-10-08", "datePublished": "2026-09-22", "description": "\u5f00\u53d1\u8005\u5728\u672c\u5730 Mac \u6216 Linux \u4e0a\u8fd0\u884c AI \u7f16\u7801\u4ee3\u7406\u65f6\u6253\u5f00\u5b83\uff0c\u628a\u4ee3\u7406\u8981\u6267\u884c\u7684\u547d\u4ee4\u653e\u8fdb MicroVM \u6c99\u7bb1\u91cc\u8dd1\uff0c\u800c\u4e0d\u662f\u76f4\u63a5\u843d\u5728\u81ea\u5df1\u7684\u5f00\u53d1\u673a\u4e0a\uff1b\u7528\u6237\u62ff\u5230\u7684\u662f\u88ab\u9694\u79bb\u7684\u6267\u884c\u73af\u5883\uff0c\u5177\u4f53\u4ea4\u4ed8\u5f62\u6001\u4e0e\u4eba\u5de5\u786e\u8ba4\u73af\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/brig.html#webpage"}, "name": "Brig", "url": "https://xocto.vercel.app/p/brig.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/brig.html", "name": "Brig", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/brig.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728 Mac \u6216 Linux \u4e0a\u8fd0\u884c AI \u7f16\u7801\u4ee3\u7406\u65f6\uff0c\u9700\u8981\u7ed9\u4ee3\u7406\u4e00\u4e2a\u9694\u79bb\u7684\u6267\u884c\u73af\u5883\uff0cBrig \u63d0\u4f9b\u57fa\u4e8e MicroVM \u7684\u6c99\u7bb1\u6765\u627f\u8f7d\u4ee3\u7406\u7684\u4ee3\u7801\u6267\u884c\u3002\u5177\u4f53\u9694\u79bb\u8fb9\u754c\u3001\u652f\u6301\u54ea\u4e9b\u4ee3\u7406\u4ee5\u53ca\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Brig", "url": "https://xocto.vercel.app/p/brig.html"}, {"@id": "https://xocto.vercel.app/p/brig.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-10-09", "datePublished": "2026-09-22", "description": "\u5f00\u53d1\u8005\u5728 Mac \u6216 Linux \u4e0a\u8fd0\u884c AI \u7f16\u7801\u4ee3\u7406\u65f6\uff0c\u9700\u8981\u7ed9\u4ee3\u7406\u4e00\u4e2a\u9694\u79bb\u7684\u6267\u884c\u73af\u5883\uff0cBrig \u63d0\u4f9b\u57fa\u4e8e MicroVM \u7684\u6c99\u7bb1\u6765\u627f\u8f7d\u4ee3\u7406\u7684\u4ee3\u7801\u6267\u884c\u3002\u5177\u4f53\u9694\u79bb\u8fb9\u754c\u3001\u652f\u6301\u54ea\u4e9b\u4ee3\u7406\u4ee5\u53ca\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/brig.html#webpage"}, "name": "Brig", "url": "https://xocto.vercel.app/p/brig.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/brig.html", "name": "Brig", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>Brig</h1>
       </div>
-      <p class="product-lede">开发者在本地 Mac 或 Linux 上运行 AI 编码代理时打开它，把代理要执行的命令放进 MicroVM 沙箱里跑，而不是直接落在自己的开发机上；用户拿到的是被隔离的执行环境，具体交付形态与人工确认环节仍待核验。</p>
+      <p class="product-lede">开发者在 Mac 或 Linux 上运行 AI 编码代理时，需要给代理一个隔离的执行环境，Brig 提供基于 MicroVM 的沙箱来承载代理的代码执行。具体隔离边界、支持哪些代理以及交付形态仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">开发工程师</span><span class="tag sig">社区热度 9</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">AI 编码代理的隔离运行环境搭建</span><span class="tag sig">社区热度 9</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>spirosoik</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-09-22</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-10-08</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-10-09</dd></div>
     </dl>
   </header>
 
@@ -94,7 +94,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>解决问题，但需求刚性不足</h3>
-        <p>趋势是编码代理开始被当作需要隔离的不可信执行者，而不是编辑器插件。切入可以从需要合规留痕的团队入手：把沙箱日志、命令白名单和回滚做成可审计的交付物，卖给金融、医疗等不能容忍代理直接改生产代码的工程团队。</p>
+        <p>趋势是编码代理开始被当作需要隔离权限的常驻执行者，而不是聊天窗口；切入点是给企业内已有代码仓库和 CI 流程提供可审计的代理执行沙箱，按运行时长或并发数收费，而不是再做一个编码助手。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
@@ -115,14 +115,14 @@
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是编码代理开始被当作需要隔离的不可信执行者，而不是编辑器插件。切入可以从需要合规留痕的团队入手：把沙箱日志、命令白名单和回滚做成可审计的交付物，卖给金融、医疗等不能容忍代理直接改生产代码的工程团队。</p>
+        <p>趋势是编码代理开始被当作需要隔离权限的常驻执行者，而不是聊天窗口；切入点是给企业内已有代码仓库和 CI 流程提供可审计的代理执行沙箱，按运行时长或并发数收费，而不是再做一个编码助手。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>开发者在本地 Mac 或 Linux 上运行 AI 编码代理时打开它，把代理要执行的命令放进 MicroVM 沙箱里跑，而不是直接落在自己的开发机上；用户拿到的是被隔离的执行环境，具体交付形态与人工确认环节仍待核验。</p></div>
+        <div><span class="field-k">公开事实</span><p>开发者在 Mac 或 Linux 上运行 AI 编码代理时，需要给代理一个隔离的执行环境，Brig 提供基于 MicroVM 的沙箱来承载代理的代码执行。具体隔离边界、支持哪些代理以及交付形态仍待核验。</p></div>
         <div><span class="field-k">工作流推理</span><p>缺少可引用的产品说明、用户反馈或采用证据，无法解释用户为何会选择它。</p></div>
         <div><span class="field-k">会改变判断的未知</span><p>追踪该项目官方仓库或官网的 README 与 issue/discussion，确认 MicroVM 沙箱的隔离机制、支持的命令范围与是否有用户使用反馈。</p></div>
       </div>
@@ -132,7 +132,7 @@
             <span class="field-k">01 · 价值</span>
             <strong>存在反证</strong>
           </div>
-          <p>产品主张帮助用户完成：“开发者在本地 Mac 或 Linux 上运行 AI 编码代理时打开它，把代理要执行的命令放进 MicroVM 沙箱里跑，而不是直接落在自己的开发机上；用户拿到的是被隔离的执行环境，具体交付形态与人工确”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>产品主张帮助用户完成：“开发者在 Mac 或 Linux 上运行 AI 编码代理时，需要给代理一个隔离的执行环境，Brig 提供基于 MicroVM 的沙箱来承载代理的代码执行”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -171,12 +171,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-08。未发现仅限该覆盖范围。 · 2026-10-08</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-09。未发现仅限该覆盖范围。 · 2026-10-09</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-08。未发现仅限该覆盖范围。 · 2026-10-08</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-10-09。未发现仅限该覆盖范围。 · 2026-10-09</p>
       </div>
     </div>
   </section>
@@ -203,11 +203,6 @@
       </div>
     </div>
     <ul class="rows desk-list">
-      <li><a href="https://openai.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">openai.com</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
       <li><a href="https://www.ibm.com/think/topics/artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">ibm.com</span>
         <span class="row-desc">市场对照</span>
@@ -218,13 +213,18 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
+      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">chatgpt.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
       <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">aistudio.google.com</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">chatgpt.com</span>
+      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">cloud.google.com</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -233,20 +233,30 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ai.google</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
       <li><a href="https://en.m.wikipedia.org/wiki/Brig" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">en.m.wikipedia.org</span>
-        <span class="row-desc">用户痛点</span>
+        <span class="row-desc">现有替代方式</span>
         <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://brigboats.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">brigboats.com</span>
-        <span class="row-desc">用户痛点</span>
+        <span class="row-desc">现有替代方式</span>
         <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://brigusa.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">brigusa.com</span>
-        <span class="row-desc">用户痛点</span>
+        <span class="row-desc">现有替代方式</span>
         <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOOUIwUHhFMHo2RzZTNEdvMlo3SHJSTURtOTM3bmtvVnA0V1lZZEVOSEd3ZnNKV0YtMEgwUjdJMmpnWHhXRFczTXJuOFFybkFnZ2ttTmtzanZVeG1IWi05LVJQaFVzZFZUWVQxNTRCay1mSkVlY1k3V2k5NVRfTmFqWGxtaVZ3OFRCTUV1cnNXVQ?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-10-07</span>
       </div></a></li>
       <li><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE1aNnk3U0s2bGt1ZGhVVC1mdG1aMlJLQ2NFM0I5NkxaSXpxT2JuekJRaExMUktpM3FUR2lzQ1lIRGVpb3pSdDlVUjk4R0JIT3VURjY1REU2eUk?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">泰瑞达投资Bright Machines推进AI基础设施自动化制造</span>
@@ -312,7 +322,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 732 个 →
+        AI + 开发 共 757 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -404,8 +414,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2584 个案例 · 176 份生意判断</span>
-    <span class="gen">数据截至 2026-10-08</span>
+    <span>2670 个案例 · 175 份生意判断</span>
+    <span class="gen">数据截至 2026-10-09</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
