@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/FlameF0X/Pretty-Speed-Index
 summary: ''
 first_seen: '2026-10-08T15:53:06Z'
 last_seen: '2026-10-09T02:10:46Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

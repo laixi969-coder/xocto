@@ -1,0 +1,43 @@
+- id: req-initial-aegis-2026-10-09
+  project_slug: aegis
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决个人安全求助这一真实任务，但公开材料未说明求助后由谁响应、交付什么结果，痛点强度与不采用代价无法判断。
+    evidence_ids:
+    - ev-33870b0ec8623a04
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品简介外，没有用户评价、采用或场景描述，无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-33870b0ec8623a04
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅或 to B 安保合作均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-33870b0ec8623a04
+  - gate: truth
+    status: insufficient
+    reason: 无法核对调度是否真有人值守、响应时限与人工边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-33870b0ec8623a04
+  next_validation: 收集该产品的官方定价页或服务条款，确认调度响应机制、响应时限与收费方式。
+  market: ''
+  job: 个人在夜间出行、独行或感到威胁时，需要把求助信息交给一个能实际响应的人或机构，以尽快获得帮助。
+  job_en: A person travelling at night, alone or feeling threatened needs to hand a help request to someone
+    who can actually respond, so that help arrives quickly.
+  pain: 公开材料只写了连接 7×24 调度，没有说明求助后谁接、多久响应、是否收费，痛点强度无法从现有事实判断。
+  pain_en: Public material only states a 24/7 dispatch connection, without saying who answers, how fast,
+    or whether it is paid, so pain intensity cannot be judged from available facts.
+  current_alternative: 现有做法是拨打紧急电话、给亲友发定位，或使用手机自带的紧急求助功能。
+  current_alternative_en: Current practice is calling emergency numbers, sending location to friends and
+    family, or using built-in phone emergency features.
+  usage_reason: 推断：若调度中心真能人工接单并联动线下响应，用户会在独自出行等场景选择它，因为省去了自己找人、自己描述位置的步骤；但公开材料未给出响应机制与交付证据，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if the dispatch centre really takes requests with humans and triggers offline
+    response, users would choose it when travelling alone, saving the step of finding someone and describing
+    their location; but public material gives no evidence of the response mechanism or delivery, so this
+    causal link is unproven.'

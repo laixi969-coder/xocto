@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE9wcEtkS2NQU1p0
 summary: 跳出 AI 试点陷阱：SUSE 企业级私有AI 战略，用开源基础设施打通生产级落地- OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA
 first_seen: '2026-10-09T01:57:50Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

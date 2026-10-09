@@ -21,7 +21,7 @@ canonical_url: https://github.com/moritzwilksch/diffle
 summary: a keyboard-centric diff viewer with LSP support
 first_seen: '2026-10-08T15:23:19Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

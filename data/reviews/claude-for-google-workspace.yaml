@@ -1,0 +1,42 @@
+- id: req-initial-claude-for-google-workspace-2026-10-09
+  project_slug: claude-for-google-workspace
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决文档与聊天窗口之间来回搬运内容的问题，痛点具体，且旧替代行为清晰。
+    evidence_ids:
+    - ev-2c42264f47226858
+  - gate: consensus
+    status: insufficient
+    reason: 除发布信息外没有采用或评价数据，无法判断办公用户是否真的改变原有习惯。
+    evidence_ids:
+    - ev-2c42264f47226858
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是个人订阅还是企业席位授权无法判断，属推断。
+    evidence_ids:
+    - ev-2c42264f47226858
+  - gate: truth
+    status: insufficient
+    reason: 就地编辑贴近办公第一性目标，但权限范围与人工确认边界未公开。
+    evidence_ids:
+    - ev-2c42264f47226858
+  next_validation: 收集该产品官方页面上的权限说明、支持的功能范围与定价或订阅方式。
+  market: ''
+  job: 办公用户在 Google Docs、Sheets、Slides 里处理合同、报表或汇报材料时，需要就地完成改写、生成和分析。
+  job_en: Office users handling contracts, reports or decks in Google Docs, Sheets and Slides need rewriting,
+    generation and analysis done in place.
+  pain: 在文档和聊天窗口之间来回复制粘贴，格式和上下文容易丢失，多一步操作。
+  pain_en: Copying text back and forth between the document and a chat window loses formatting and context
+    and adds a step.
+  current_alternative: 现在多靠复制内容到通用聊天助手再粘回文档，或使用办公套件自带的基础建议。
+  current_alternative_en: Today people copy content into a general chat assistant and paste it back, or
+    use the suite's basic built-in suggestions.
+  usage_reason: 推断：相较复制到外部聊天窗口，它直接在文档内读取上下文并就地改写，省去搬运和重新排版这一步，因此重度使用办公套件的团队会优先尝试；公开材料未提供留存或付费数据。
+  usage_reason_en: 'Inference: instead of copying into an external chat window, it reads context inside
+    the document and edits in place, removing the transfer and reformatting step, so heavy office-suite
+    teams would try it first; no retention or payment data is provided.'

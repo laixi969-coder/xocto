@@ -1,0 +1,44 @@
+- id: req-initial-clippo-2026-10-09
+  project_slug: clippo
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多智能体流程编排问题，但材料只有一句定位，说不清谁在什么节点用它、替代哪一步旧工作，痛点与交付均无法确认。
+    evidence_ids:
+    - ev-8ea255c5557e9b59
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有一条发布描述，没有用户评价、采用或场景共识证据。
+    evidence_ids:
+    - ev-8ea255c5557e9b59
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-8ea255c5557e9b59
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对承诺的编排结果能否确定性交付，也看不到人工边界。
+    evidence_ids:
+    - ev-8ea255c5557e9b59
+  next_validation: 收集 Clippo 官方文档或定价页，确认其输入材料、交付形态与是否按流程或席位收费。
+  market: ''
+  job: 开发者或小团队在需要把多个 AI 智能体串成一条可重复执行的流程时，在可视化画布上摆放并连接智能体，编排执行顺序与协作，得到一条可运行的智能体工作流。
+  job_en: Developers or small teams that need to chain multiple AI agents into a repeatable process place
+    and connect agents on a visual canvas, orchestrating execution order and collaboration to obtain a
+    runnable agent workflow.
+  pain: 多智能体协作目前多靠手写脚本或代码拼接，改一次流程要改代码，非工程成员无法参与调整；但候选材料未给出任何用户抱怨或旧流程细节，痛点强度无法确认。
+  pain_en: Multi-agent collaboration today is mostly hand-written scripts or glued code, so changing a
+    flow means changing code and non-engineers cannot adjust it; however, the candidate material provides
+    no user complaints or old-process detail, so pain intensity cannot be confirmed.
+  current_alternative: 手写编排脚本、用通用工作流工具自行搭建，或直接在一个对话式助手里顺序提问。
+  current_alternative_en: Hand-written orchestration scripts, self-built flows in generic workflow tools,
+    or simply asking a conversational assistant in sequence.
+  usage_reason: 推断：相较手写脚本，画布把流程改动从改代码变成改连线，可能减少工程介入这一步；但材料未说明输入、交付与确认环节，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: versus hand-written scripts, a canvas turns flow changes from code edits
+    into re-wiring, potentially removing an engineering step; but the material does not describe inputs,
+    deliverables or confirmation, so which users would choose it cannot be confirmed.'

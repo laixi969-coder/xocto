@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mVzVFdUZFc1Fj
 summary: 当智能体驱动金融变革，昇腾超节点筑牢AI规模化应用底座 凤凰网科技
 first_seen: '2026-10-08T10:55:35Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

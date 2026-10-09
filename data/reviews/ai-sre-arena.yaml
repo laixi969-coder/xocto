@@ -1,0 +1,43 @@
+- id: req-initial-ai-sre-arena-2026-10-09
+  project_slug: ai-sre-arena
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是运维代理选型缺少可比依据的问题，痛点真实，但公开材料只有一句基准描述，连评测任务和交付形式都未说明，价值结构尚不完整。
+    evidence_ids:
+    - ev-3280bb7326c4500d
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量很小，且讨论热度不等于运维团队已把它纳入选型流程，共识卡在场景与感知环节。
+    evidence_ids:
+    - ev-3280bb7326c4500d
+  - gate: model
+    status: insufficient
+    reason: 开源基准本身没有披露付费路径，买方可能是采用代理的企业运维团队或代理厂商，属推断而非已验证事实。
+    evidence_ids:
+    - ev-3280bb7326c4500d
+  - gate: truth
+    status: insufficient
+    reason: 无法从现有材料判断评测是否贴近真实故障处置的第一性目标，也无法确认评分能否确定性交付。
+    evidence_ids:
+    - ev-3280bb7326c4500d
+  next_validation: 收集该仓库的评测任务说明、评分文档与 issue/discussion，确认基准覆盖哪些故障类型及是否被外部团队引用。
+  market: ''
+  job: SRE 或平台运维工程师在评估是否让 AI 代理接管 Kubernetes 故障处置时，需要把候选代理放进统一故障场景里跑，得到可比较的评测结论。
+  job_en: An SRE or platform operations engineer evaluating whether an AI agent can take over Kubernetes
+    incident handling needs to run candidate agents through shared failure scenarios and obtain comparable
+    evaluation results.
+  pain: 运维代理的可靠性无法靠演示判断，各家口径不一，选型时缺少可复现的对照依据。
+  pain_en: The reliability of operations agents cannot be judged from demos, vendors use different criteria,
+    and there is no reproducible basis for comparison during selection.
+  current_alternative: 靠厂商演示、内部小范围试跑或人工经验判断，缺少公开统一的对照基准。
+  current_alternative_en: Vendor demos, small internal trials, or human experience, with no shared public
+    benchmark for comparison.
+  usage_reason: 推断：它把故障场景和评分口径固定下来，使选型方不必自己搭建对照环境就能比较不同代理，因此正在做运维代理选型的团队会关注它；但目前没有证据表明有人已把它长期用于采购或验收流程。
+  usage_reason_en: 'Inference: by fixing failure scenarios and scoring criteria, it lets evaluators compare
+    agents without building their own test environment, so teams selecting operations agents may follow
+    it; there is no evidence yet that anyone uses it routinely in procurement or acceptance.'

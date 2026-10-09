@@ -1,0 +1,43 @@
+- id: req-initial-typeling-2026-10-09
+  project_slug: typeling
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨语言输入时切换应用与语气丢失的问题，痛点具体；但候选只有一句描述，无法确认译文质量与语气保留是否真的成立。
+    evidence_ids:
+    - ev-6350db273fb49fb2
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、采用或社区讨论证据，无法判断它是否被放进日常输入流程。
+    evidence_ids:
+    - ev-6350db273fb49fb2
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，买方可能是个人订阅或企业客服采购，属推断而非已验证事实。
+    evidence_ids:
+    - ev-6350db273fb49fb2
+  - gate: truth
+    status: insufficient
+    reason: 无法核对翻译准确度、隐私处理与是否离线，承诺能否确定性交付缺材料。
+    evidence_ids:
+    - ev-6350db273fb49fb2
+  next_validation: 收集 Typeling 官方页面或应用商店说明，确认支持语言对、是否离线处理以及定价方式。
+  market: ''
+  job: 在 iPhone 上跨语言沟通的人，在聊天或邮件输入框里写完一句话后，需要把它翻成对方语言并保持原本的语气再发送。
+  job_en: People communicating across languages on iPhone need to translate a sentence they have written
+    in a chat or email field into the other party's language while keeping their original tone before
+    sending.
+  pain: 跨语言沟通时切换翻译应用再复制粘贴会打断输入，机器直译又常丢掉语气，导致表达生硬或需要人工改写。
+  pain_en: Switching to a translation app and copy-pasting interrupts typing, while literal machine translation
+    often loses tone, producing stiff wording that needs manual rewriting.
+  current_alternative: 常见做法是复制到系统翻译或第三方翻译应用、再粘回输入框，或直接依赖对方能看懂的不地道表达。
+  current_alternative_en: Common alternatives are copying into the system or a third-party translation
+    app and pasting back, or simply sending awkward phrasing the other side has to interpret.
+  usage_reason: 推断：若键盘能在输入位置直接给出保留语气的译文，用户就省掉切换应用与复制粘贴这一步，因此高频跨语言沟通者会尝试；但候选未提供语言对、准确度或留存证据。
+  usage_reason_en: 'Inference: if the keyboard returns a tone-preserving translation right at the input
+    position, users skip app switching and copy-pasting, so frequent cross-language communicators would
+    try it; however the candidate offers no language pairs, accuracy or retention evidence.'

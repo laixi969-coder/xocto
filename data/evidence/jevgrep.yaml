@@ -1001,3 +1001,177 @@
   tier: behavioural
   fact: 'Jev-powered semantic code search for coding agents — find behavior across repositories via CLI
     or MCP, with exact source excerpts and line numbers. | repository stars: 102'
+- id: ev-d438aaac9288c664
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: pain
+  tier: independent
+  fact: Jevgrep explores the repository hierarchy and follows qualifying branches. It selects files using
+    content previews, then identifies useful source units and surrounding context.
+- id: ev-f5e3842ceccf08e3
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: pain
+  tier: independent
+  fact: Jevgrep results are from one uncached development run on September 20, 2026, using Jev for both
+    scope selection and comparison of complete function source. This prototype uses no generative query
+    expansion.
+- id: ev-257495cfad67f68b
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: 'GitHub - nassim-arifette/jevgrep: Jev-powered semantic code search for ...'
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: pain
+  tier: independent
+  fact: 'JevGrep is useful when a coding agent needs to: retrieve exact source excerpts instead of a generated
+    summary. It complements exact tools such as rg. If you already know the symbol or literal, ordinary
+    text search is usually faster. JevGrep searches every valid UTF-8 text file, regardless of repository
+    language or extension.'
+- id: ev-809f6c4210635257
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: workaround
+  tier: independent
+  fact: Jevgrep explores the repository hierarchy and follows qualifying branches. It selects files using
+    content previews, then identifies useful source units and surrounding context.
+- id: ev-2e3937d9abb355eb
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: workaround
+  tier: independent
+  fact: Jevgrep results are from one uncached development run on September 20, 2026, using Jev for both
+    scope selection and comparison of complete function source. This prototype uses no generative query
+    expansion.
+- id: ev-451ee08f0b579d90
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: 'GitHub - nassim-arifette/jevgrep: Jev-powered semantic code search for ...'
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'JevGrep is useful when a coding agent needs to: retrieve exact source excerpts instead of a generated
+    summary. It complements exact tools such as rg. If you already know the symbol or literal, ordinary
+    text search is usually faster. JevGrep searches every valid UTF-8 text file, regardless of repository
+    language or extension.'
+- id: ev-6c2953fd9d34e205
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Jevgrep explores the repository hierarchy and follows qualifying branches. It selects files using
+    content previews, then identifies useful source units and surrounding context.
+- id: ev-ef8623b29cd522fa
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Jevgrep results are from one uncached development run on September 20, 2026, using Jev for both
+    scope selection and comparison of complete function source. This prototype uses no generative query
+    expansion.
+- id: ev-5ec359e5f2a4f084
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: 'GitHub - nassim-arifette/jevgrep: Jev-powered semantic code search for ...'
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'JevGrep is useful when a coding agent needs to: retrieve exact source excerpts instead of a generated
+    summary. It complements exact tools such as rg. If you already know the symbol or literal, ordinary
+    text search is usually faster. JevGrep searches every valid UTF-8 text file, regardless of repository
+    language or extension.'
+- id: ev-4933dab875445784
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: pricing
+  tier: independent
+  fact: Jevgrep explores the repository hierarchy and follows qualifying branches. It selects files using
+    content previews, then identifies useful source units and surrounding context.
+- id: ev-b031f0e5f4341e14
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: pricing
+  tier: independent
+  fact: Jevgrep results are from one uncached development run on September 20, 2026, using Jev for both
+    scope selection and comparison of complete function source. This prototype uses no generative query
+    expansion.
+- id: ev-85b82eb9f92be694
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: 'GitHub - nassim-arifette/jevgrep: Jev-powered semantic code search for ...'
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'JevGrep is useful when a coding agent needs to: retrieve exact source excerpts instead of a generated
+    summary. It complements exact tools such as rg. If you already know the symbol or literal, ordinary
+    text search is usually faster. JevGrep searches every valid UTF-8 text file, regardless of repository
+    language or extension.'
+- id: ev-c11fdbe18e0f883b
+  project_slug: jevgrep
+  url: https://github.com/dzhng/jevgrep
+  title: 'GitHub - dzhng/jevgrep: Find code by asking what it does. A CLI for ...'
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: retention
+  tier: independent
+  fact: Jevgrep explores the repository hierarchy and follows qualifying branches. It selects files using
+    content previews, then identifies useful source units and surrounding context.
+- id: ev-f9f75d98fe474649
+  project_slug: jevgrep
+  url: https://jevgrep.com/
+  title: Jevgrep — let your coding agents find code by what it does
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: retention
+  tier: independent
+  fact: Jevgrep results are from one uncached development run on September 20, 2026, using Jev for both
+    scope selection and comparison of complete function source. This prototype uses no generative query
+    expansion.
+- id: ev-191d898cd7a38eb2
+  project_slug: jevgrep
+  url: https://github.com/nassim-arifette/jevgrep
+  title: 'GitHub - nassim-arifette/jevgrep: Jev-powered semantic code search for ...'
+  published_at: ''
+  collected_at: '2026-10-09T02:40:45Z'
+  source_kind: retention
+  tier: independent
+  fact: 'JevGrep is useful when a coding agent needs to: retrieve exact source excerpts instead of a generated
+    summary. It complements exact tools such as rg. If you already know the symbol or literal, ordinary
+    text search is usually faster. JevGrep searches every valid UTF-8 text file, regardless of repository
+    language or extension.'
+- id: ev-676f3085c96d7de5
+  project_slug: jevgrep
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%BD%AF%E4%BB%B6%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%8D%E5%8A%A1+%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88+%E7%BC%96%E7%A0%81%E6%99%BA%E8%83%BD%E4%BD%93%E4%BD%BF%E7%94%A8%E8%80%85
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-10-09T02:43:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 软件工程师 编码智能体使用者'

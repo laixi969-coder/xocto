@@ -1,0 +1,43 @@
+- id: req-initial-strac-comply-2026-10-09
+  project_slug: strac-comply
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决初创公司准备 SOC 2 时人工收集证据、对照控制项的痛点，旧做法是顾问加表格，不做的后果是拖慢企业客户成交；买方是否付费未披露
+    evidence_ids:
+    - ev-0af3141775a68563
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句宣传语，没有客户案例、用户评价或采用数据，无法判断是否形成共识
+    evidence_ids:
+    - ev-0af3141775a68563
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 订阅或按报告收费都只是推断，不是已验证事实
+    evidence_ids:
+    - ev-0af3141775a68563
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其自动整理的控制项是否与真实系统一致，人工确认边界与交付确定性未说明
+    evidence_ids:
+    - ev-0af3141775a68563
+  next_validation: 收集 Strac Comply 官方定价页或公开客户案例，确认其收费方式与交付形态
+  market: ''
+  job: 初创公司或中小 SaaS 的运营/财务负责人在准备企业客户安全审查时，整理访问日志、权限清单与安全政策材料，以取得 SOC 2 报告
+  job_en: An operations or finance lead at a startup or small SaaS preparing for enterprise security reviews
+    gathers access logs, permission lists, and security policies to obtain a SOC 2 report
+  pain: SOC 2 准备需要人工从多个系统收集证据、对照控制项，周期长且容易遗漏，拖慢企业客户的成交
+  pain_en: SOC 2 preparation requires manually collecting evidence from multiple systems and mapping it
+    to controls, which is slow and error-prone and delays enterprise deals
+  current_alternative: 聘请合规顾问或使用传统合规平台，通常需要销售沟通、人工整理证据表格
+  current_alternative_en: Hiring a compliance consultant or using legacy compliance platforms, usually
+    involving sales calls and manual evidence spreadsheets
+  usage_reason: 推断：相较顾问式流程，它把证据收集与控制项对照的整理动作前置到产品内完成，减少反复沟通和手工填表这一步，因此需要快速通过企业安全审查的初创团队会在审计准备期选择它；公开材料未提供客户或留存证据
+  usage_reason_en: 'Inference: versus consultant-led processes, it moves evidence collection and control
+    mapping into the product, cutting the back-and-forth and manual form-filling step, so startup teams
+    facing enterprise security reviews would choose it during audit preparation; no customer or retention
+    evidence is public'

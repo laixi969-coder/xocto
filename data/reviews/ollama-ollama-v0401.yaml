@@ -1,0 +1,43 @@
+- id: req-initial-ollama-ollama-v0401-2026-10-09
+  project_slug: ollama-ollama-v0401
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地部署大模型时环境配置与用量查看的痛点，旧做法是自行搭脚本或容器，结构上成立。
+    evidence_ids:
+    - ev-71495c912f8ea86e
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有社区关注，但本次发布未提供采用规模或留存证据。
+    evidence_ids:
+    - ev-71495c912f8ea86e
+  - gate: model
+    status: insufficient
+    reason: 开源免费，云端用量代理暗示可能的付费路径，但未披露定价，属判断非事实。
+    evidence_ids:
+    - ev-71495c912f8ea86e
+  - gate: truth
+    status: supported
+    reason: 本地推理结果可复现，模型与数据留在本地，人工可核对输出。
+    evidence_ids:
+    - ev-71495c912f8ea86e
+  next_validation: Ollama 官方文档或定价页中关于云端用量与余额代理的计费与配额说明。
+  market: ''
+  job: 开发者在本地或内网机器上部署开源大模型，需要把模型跑起来并对外提供可调用的推理接口。
+  job_en: Developers deploying open models on local or on-premise machines need to get models running
+    and expose callable inference endpoints.
+  pain: 手工配置推理环境、模型下载与显存管理繁琐，且本地与云端用量难以统一查看。
+  pain_en: Manually configuring inference environments, model downloads and memory management is tedious,
+    and local versus cloud usage is hard to view in one place.
+  current_alternative: 开发者自行用脚本或容器搭建推理服务，或直接调用云端模型 API。
+  current_alternative_en: Developers hand-roll inference services with scripts or containers, or call
+    cloud model APIs directly.
+  usage_reason: 相较自行搭建，Ollama 用一条命令完成模型拉取与本地服务启动，本次还代理云端用量与余额查询，减少跨本地与云端核对配额这一步；推断需要私有化部署且在意成本可见性的团队会因此选择它。
+  usage_reason_en: Compared with hand-rolled setups, Ollama pulls models and starts a local service in
+    one command, and this release proxies cloud usage and balance queries, removing a step of reconciling
+    quotas across local and cloud; teams needing private deployment with cost visibility would choose
+    it, by inference.

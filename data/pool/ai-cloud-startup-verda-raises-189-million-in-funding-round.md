@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPVFdiaVpkcmdR
 summary: AI Cloud Startup Verda Raises $189 Million in Funding Round Bloomberg.com
 first_seen: '2026-09-22T06:23:00Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

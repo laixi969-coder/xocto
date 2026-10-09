@@ -1,0 +1,46 @@
+- id: req-initial-x-3-2026-10-09
+  project_slug: x-3
+  level: initial
+  reviewed_at: '2026-10-09T02:10:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者把系统结构讲清楚的需求，痛点是手工绘图与重画成本高，旧替代行为明确，交付为可交互 HTML。
+    evidence_ids:
+    - ev-dcb92439ac2efb88
+  - gate: consensus
+    status: insufficient
+    reason: 作者称约 8 万 Star，但这是关注度而非持续采用证据，缺少留存或复购材料。
+    evidence_ids:
+    - ev-dcb92439ac2efb88
+  - gate: model
+    status: insufficient
+    reason: 原项目开源免费，第三方站点标价 $19/月，但谁付费、付费规模均无公开材料，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dcb92439ac2efb88
+  - gate: truth
+    status: supported
+    reason: 生成物为可查看、可追踪、可转发的独立 HTML，交付确定，人工仍可核对图形内容。
+    evidence_ids:
+    - ev-dcb92439ac2efb88
+  next_validation: 收集 archifyi.com 的官方定价页与用户评价，核对 $19/月 Pro 套餐的实际付费与使用情况。
+  market: ''
+  job: 使用 AI Agent 的开发者或技术文档撰写者在需要向同事解释系统结构、调用流程或时序时，把要讲清楚的内容交给 Agent，由 Archify 生成可交互的架构图、流程图或时序图，并交付一份可查看、可转发的独立
+    HTML。
+  job_en: Developers or technical writers using AI agents, when they need to explain system structure,
+    call flows or sequences to colleagues, hand the content to the agent so Archify generates interactive
+    architecture, flow or sequence diagrams and delivers a standalone, shareable HTML file.
+  pain: 过去画这类图要在绘图工具里手工摆放节点和连线，改一次结构就要重画，图与代码脱节，讲清楚一件事的成本很高。
+  pain_en: Drawing such diagrams used to mean manually placing nodes and edges in a drawing tool; any
+    structural change required redrawing, diagrams drifted from code, and explaining one thing was costly.
+  current_alternative: 用 Visio、draw.io、Mermaid 或手绘白板，由人手工整理节点与连线，再导出图片或链接分享。
+  current_alternative_en: Using Visio, draw.io, Mermaid or a whiteboard, with a person manually arranging
+    nodes and edges and then exporting an image or link to share.
+  usage_reason: 相较手工绘图，Archify 让 Agent 直接根据描述生成可交互 HTML，省去在绘图工具里逐个摆放和重画的那一步，结构变化时重新生成即可；推断需要频繁出架构图、又已在用
+    AI Agent 的研发团队会因此选择它。
+  usage_reason_en: Compared with manual drawing, Archify lets the agent generate interactive HTML directly
+    from a description, removing the step of placing and redrawing elements in a drawing tool and allowing
+    regeneration when structure changes; by inference, engineering teams that frequently produce architecture
+    diagrams and already use AI agents would choose it for this reason.

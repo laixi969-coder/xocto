@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnVFpkdUpCY1Jk
 summary: 成果ai人工智能造梦资源-成果ai人工智能造梦资源2026最新版vv1.9.0 iphone版-2265安卓网 胡润百富
 first_seen: '2026-10-07T13:41:55Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

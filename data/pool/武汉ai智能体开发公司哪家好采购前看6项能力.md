@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sbEl3SlBLV2tu
 summary: ​武汉AI智能体开发公司哪家好？采购前看6项能力 CSDN
 first_seen: '2026-10-08T07:00:10Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

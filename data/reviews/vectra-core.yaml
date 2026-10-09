@@ -1,0 +1,43 @@
+- id: req-initial-vectra-core-2026-10-09
+  project_slug: vectra-core
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 JVM 服务为向量检索额外引入外部数据库的问题，痛点具体；但仓库自述的性能数字无法独立核对，实际可用性未知。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+  - gate: consensus
+    status: insufficient
+    reason: 40 星与零 fork、零 issue 只能说明关注度有限，无法证明有团队把它用于生产检索。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+  - gate: model
+    status: insufficient
+    reason: 开源库本身无定价，可能的收入来自托管或支持服务，属推断而非已验证事实。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+  - gate: truth
+    status: insufficient
+    reason: 无法核对召回率、内存占用与并发表现是否如自述，承诺能否确定性交付缺材料。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+  next_validation: 收集 vectra-core 仓库的 issue、release 与基准测试记录，确认是否有外部团队在生产中使用。
+  market: ''
+  job: 在 JVM 技术栈上做检索或推荐的后端工程师，需要在服务进程内完成向量近邻查询，而不想为此再部署一套外部向量数据库。
+  job_en: Backend engineers building search or recommendation on the JVM need in-process vector nearest-neighbor
+    queries without deploying another external vector database.
+  pain: 引入外部向量数据库意味着额外的部署、运维与网络延迟，对已有 Java 服务是明显负担。
+  pain_en: Adding an external vector database means extra deployment, operations and network latency,
+    a clear burden for existing Java services.
+  current_alternative: 常见做法是接入独立向量数据库、用 Lucene 系检索库，或自己实现近邻算法。
+  current_alternative_en: Common alternatives are integrating a standalone vector database, using Lucene-family
+    search libraries, or implementing nearest-neighbor algorithms in-house.
+  usage_reason: 推断：若该库能在进程内提供可用的近邻检索，Java 团队就省掉部署与维护外部向量库这一步，因此已有 JVM 服务且检索量不大的团队会试用；但仓库只有 40 星，缺少生产使用与维护活跃度证据。
+  usage_reason_en: 'Inference: if the library offers usable in-process nearest-neighbor retrieval, Java
+    teams skip deploying and maintaining an external vector store, so teams with existing JVM services
+    and modest retrieval volume would try it; however the repository has only 40 stars and lacks production-use
+    and maintenance-activity evidence.'

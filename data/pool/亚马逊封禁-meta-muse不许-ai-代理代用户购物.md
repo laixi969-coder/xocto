@@ -3,13 +3,15 @@ slug: 亚马逊封禁-meta-muse不许-ai-代理代用户购物
 name: 亚马逊
 builder: ''
 category: ''
-summary_zh: 亚马逊封禁 Meta Muse，禁止 AI 代理代替用户在其平台购物。这一平台政策变化表明电商平台开始对第三方 AI 代理的自动化购物行为设限，AI 代理在消费场景的落地将受平台规则约束，相关应用的交付路径和商业可行性面临不确定性（推断）。
+summary_zh: 亚马逊封禁 Meta Muse，不允许 AI 代理代替用户购物。这发生在 AI 代理开始介入电商交易环节的背景下，意味着平台方开始以政策手段限制第三方 AI 代理直接代用户完成购物行为；对
+  AI 应用而言，代理式购物在平台规则层面出现明确阻力，依赖代下单、代支付的代理产品面临合规与接入不确定性，平台与代理开发者之间的接口与授权边界成为采用与交付的关键变量（推断）。
 inspiration: ''
-summary_en: Amazon has banned Meta Muse, prohibiting AI agents from shopping on its platform on behalf
-  of users. This platform policy change shows that e-commerce platforms are beginning to restrict third-party
-  AI agents' automated shopping behavior, meaning AI agent deployment in consumer scenarios will be constrained
-  by platform rules, and the delivery path and commercial viability of related applications face uncertainty
-  (inference).
+summary_en: Amazon banned Meta Muse, prohibiting AI agents from shopping on behalf of users. This comes
+  as AI agents begin entering e-commerce transaction flows, meaning platforms are starting to use policy
+  measures to restrict third-party AI agents from directly completing purchases for users; for AI applications,
+  agentic shopping now faces explicit friction at the platform-policy level, and agent products relying
+  on proxy ordering and payment face compliance and access uncertainty, making interface and authorization
+  boundaries between platforms and agent developers a key variable for adoption and delivery (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +27,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWR2Zmw2ZDJi
 summary: 亚马逊封禁 Meta Muse：不许 AI 代理代用户购物 搜狐网
 first_seen: '2026-09-21T15:46:14Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

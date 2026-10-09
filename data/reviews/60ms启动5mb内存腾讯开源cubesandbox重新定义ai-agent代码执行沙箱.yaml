@@ -1,0 +1,48 @@
+- id: req-initial-60ms启动5mb内存腾讯开源cubesandbox重新定义ai-agent代码执行沙箱-2026-10-09
+  project_slug: 60ms启动5mb内存腾讯开源cubesandbox重新定义ai-agent代码执行沙箱
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 Agent 执行不可信代码的隔离需求，痛点真实，但候选只有一句标题式描述，无法确认替代了哪一步旧流程。
+    evidence_ids:
+    - ev-140b5f79fa11fcdc
+  - gate: consensus
+    status: insufficient
+    reason: 除一篇报道外没有社区讨论、仓库活跃度或采用信号，无法判断是否形成共识。
+    evidence_ids:
+    - ev-140b5f79fa11fcdc
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露任何收费方式或商业主体，钱从哪来完全未知。
+    evidence_ids:
+    - ev-140b5f79fa11fcdc
+  - gate: truth
+    status: insufficient
+    reason: 60ms 与 5MB 为报道转述，缺少可复现实测与隔离机制说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-140b5f79fa11fcdc
+  next_validation: 检索 CubeSandbox 的官方开源仓库页面，核对许可证、隔离机制说明与 issue/discussion 中的实际使用反馈。
+  market: ''
+  job: AI 应用后端工程师在让 Agent 自动生成并运行代码时，需要把这段不可信代码放进隔离环境执行，再把运行结果交回主流程，避免影响生产系统。
+  job_en: An AI application backend engineer who lets an agent generate and run code needs to execute
+    that untrusted code in an isolated environment and return the result to the main flow without touching
+    production systems.
+  pain: 模型生成的代码不可信，直接在本机或生产容器里跑有安全和资源风险；自建隔离环境要处理启动速度、内存开销和逃逸防护，是重复且容易做错的一步。
+  pain_en: Model-generated code is untrusted, so running it on the host or in production containers carries
+    security and resource risk; building isolation yourself means handling startup speed, memory overhead
+    and escape protection, a repetitive and error-prone step.
+  current_alternative: 常见做法是用容器、微虚拟机或现成沙箱服务自行拼装执行环境，或干脆限制 Agent 只能调用白名单工具、不执行任意代码。
+  current_alternative_en: The common approach is to assemble an execution environment from containers,
+    microVMs or existing sandbox services, or to restrict the agent to whitelisted tools and forbid arbitrary
+    code execution.
+  usage_reason: 推断：若 60ms 启动与 5MB 内存属实，它把隔离环境从需要运维的常驻服务变成可随调用拉起的一次性执行单元，省掉预热和容量规划这一步，因此对高频、短时执行代码的 Agent
+    团队有吸引力；但候选未给出仓库、许可证或任何采用证据，无法确认这一优势可复现。
+  usage_reason_en: 'Inference: if the 60ms startup and 5MB memory figures hold, it turns isolation from
+    an always-on service needing operations into a per-call disposable execution unit, removing warm-up
+    and capacity planning, which appeals to teams running frequent short code executions; however the
+    candidate gives no repository, license or adoption evidence, so the advantage cannot be confirmed
+    as reproducible.'

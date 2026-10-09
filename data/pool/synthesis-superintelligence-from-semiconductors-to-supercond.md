@@ -22,7 +22,7 @@ canonical_url: https://latent.space/p/periodic
 summary: A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!
 first_seen: '2026-10-08T16:27:54Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

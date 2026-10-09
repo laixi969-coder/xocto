@@ -21,7 +21,7 @@ canonical_url: https://wuwei.us/pages/page-json
 summary: An open standard for representing UI
 first_seen: '2026-10-08T23:12:58Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

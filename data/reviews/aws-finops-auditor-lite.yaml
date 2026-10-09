@@ -1,0 +1,43 @@
+- id: req-initial-aws-finops-auditor-lite-2026-10-09
+  project_slug: aws-finops-auditor-lite
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决月度云账单里找浪费项的需求，痛点是手工比对耗时且易漏，不做的后果是浪费延续到下一账期；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-6e6eb1e31a45aaa0
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 分、0 评论，没有可归因到该工具的采用或口碑证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-6e6eb1e31a45aaa0
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、付费路径或服务收费方式，钱从哪来只能推测，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-6e6eb1e31a45aaa0
+  - gate: truth
+    status: insufficient
+    reason: 仓库未说明检查项覆盖范围与输出格式，交付是否确定、人工边界在哪都缺少公开材料。
+    evidence_ids:
+    - ev-6e6eb1e31a45aaa0
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它实际执行的检查项、输出报告格式以及是否有人报告在真实账单上使用。
+  market: ''
+  job: 云成本分析师或财务运营工程师在月度对账时，拿到从 AWS 导出的用量与费用明细，要找出可削减的浪费项并形成可审计的结论。
+  job_en: A cloud cost analyst or finance-ops engineer, during monthly reconciliation, takes exported
+    AWS usage and cost detail and must find cuttable waste and produce an auditable conclusion.
+  pain: 账单条目多、维度杂，手工在表格里筛选和交叉比对耗时，且容易漏掉闲置资源；不做的后果是浪费持续累积到下一账期。
+  pain_en: Bills have many line items and messy dimensions; manual spreadsheet filtering and cross-checking
+    is slow and easily misses idle resources, and skipping it lets waste accumulate into the next billing
+    cycle.
+  current_alternative: 用电子表格手工透视、依赖云厂商自带成本控制台，或购买商业 FinOps 平台。
+  current_alternative_en: Manual spreadsheet pivots, the cloud vendor's own cost console, or a paid commercial
+    FinOps platform.
+  usage_reason: 相较手工透视，它把账单读入后自动跑一组检查并直接给出浪费点清单，省掉逐项筛选这一步；推断，缺少留存与重复使用证据，尚不能确认用户已长期留在工作流里。
+  usage_reason_en: Compared with manual pivots, it reads the bill and runs a set of checks to output a
+    waste list directly, removing the item-by-item filtering step; this is inference, and without retention
+    or repeat-use evidence it cannot be claimed users keep it in their workflow.

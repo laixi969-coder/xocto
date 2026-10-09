@@ -1,21 +1,32 @@
 ---
 slug: xuxueli
-name: Xuxueli
+name: XXL-AI
 builder: xuxueli
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 基础层
+summary_zh: 开发者在自己机器或内网部署模型调用入口时，打开 XXL-AI 的云版或新上线的桌面客户端，把 OpenAI 兼容协议的供应商与模型（预置 Ollama、Deepseek、智谱 GLM
+  等）配置进去，由它统一转发请求并返回模型输出；本次新增的是桌面端与单 Jar 部署方式，具体业务流程与交付形态仍待核验。
+inspiration: 趋势是模型调用入口正从云端 SaaS 往本地优先、多供应商可切换的形态下沉，企业不愿把请求全部交给单一厂商。切入可考虑为有数据不出内网要求的行业（如律所、财税、医疗信息化团队）做私有化模型网关加审计与配额，卖部署与运维而非
+  token 差价；但该方向已有大量开源同类，需先确认差异化。
+summary_en: When developers deploy a model-calling entry point on their own machines or intranet, they
+  open XXL-AI's cloud edition or the newly released desktop client, configure OpenAI-compatible providers
+  and models (with Ollama, Deepseek, Zhipu GLM preset), and it forwards requests and returns model output;
+  this release adds the desktop client and single-Jar deployment, while the concrete workflow and delivery
+  remain unverified.
+inspiration_en: The trend is that model-calling entry points are sinking from cloud SaaS toward local-first,
+  multi-provider switchable forms, as enterprises resist routing all requests through a single vendor.
+  A possible entry is a private model gateway with audit and quota for industries that require data to
+  stay on-premise (law firms, tax and accounting, healthcare IT), selling deployment and operations rather
+  than token margin; this space already has many open-source peers, so differentiation must be confirmed
+  first.
 priority_review: false
-project_type: new_application
+project_type: open_source
 industries: []
 industries_en: []
 jobs: []
 jobs_en: []
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://www.xuxueli.com/xxl-ai/
 canonical_url: https://xuxueli.com/xxl-ai
 summary: "### Release Notes\r\n\r\n**[云版（ Web 服务端）]**\r\n\r\n*   1 、 [优化] 项目合并部署：研发环节前后端分离，部署期前端产物内嵌进后端\
@@ -79,7 +90,7 @@ summary: "### Release Notes\r\n\r\n**[云版（ Web 服务端）]**\r\n\r\n*   1
   \n\r\n*   使用示例：Agent 调用 MCP 工具（网页抓取）汇总「今日热点社会新闻」\r\n\r\n![image.png]( https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/7f8ae3e756794eb6a7051f0440a50588~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6K646Zuq6YeM:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjU0NzQyNDI2ODE1NDA1In0%3D&rk3s=f64ab15b&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792082151&x-orig-sign=aSuYXPGF2ZpknuTzSwDpbnpeP9Q%3D)"
 first_seen: '2026-10-08T16:38:57Z'
 last_seen: '2026-10-09T02:10:12Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 sightings:
@@ -91,7 +102,7 @@ sightings:
   kind: product
 ---
 
-# Xuxueli
+# XXL-AI
 
 ### Release Notes
 

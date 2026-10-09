@@ -1,11 +1,14 @@
 ---
 slug: cnbc-3
-name: cnbc
+name: McDonald's
 builder: Betelbuddy
 category: ''
-summary_zh: ''
+summary_zh: 麦当劳推进用 AI 为巨无霸定价，反映大型连锁餐饮企业将 AI 引入动态定价与运营决策；若落地，将推动 AI 定价类应用在零售餐饮场景的采用，并引发消费者与监管对算法定价的关注（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: McDonald's is pushing to use AI to price its Big Mac, showing a large restaurant chain bringing
+  AI into dynamic pricing and operational decisions; if deployed, it would drive adoption of AI pricing
+  applications in retail and food service and draw consumer and regulatory attention to algorithmic pricing
+  (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://cnbc.com/2026/09/29/inside-mcdonalds-push-ai-price-big-ma
 summary: McDonald's push to have AI price your Big Mac
 first_seen: '2026-09-29T19:58:50Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -62,7 +65,7 @@ sightings:
   kind: news
 ---
 
-# cnbc
+# McDonald's
 
 McDonald's push to have AI price your Big Mac
 

@@ -1,0 +1,43 @@
+- id: req-initial-sapiens-unveils-sapiens-brain-to-tackle-insurance-ai-halluci-2026-10-09
+  project_slug: sapiens-unveils-sapiens-brain-to-tackle-insurance-ai-halluci
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是保险条款场景下模型编造内容带来的合规与赔付风险，痛点刚性存在；但公开材料只有一句发布描述，说不清输入、动作与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-65be2601c8b43ed0
+  - gate: consensus
+    status: insufficient
+    reason: 除一篇报道外没有客户、部署或行业采用信息，无法判断保险买方是否已形成共识。
+    evidence_ids:
+    - ev-65be2601c8b43ed0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方类型，无法判断收入来自保险公司采购还是按案件收费，属未知而非失败。
+    evidence_ids:
+    - ev-65be2601c8b43ed0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近核保与理赔的第一性目标、承诺能否确定性交付，以及人工复核边界如何设定。
+    evidence_ids:
+    - ev-65be2601c8b43ed0
+  next_validation: 收集 Sapiens 官方产品页或发布文档，确认 Sapiens Brain 的输入材料、输出交付物、人工复核环节与定价方式。
+  market: ''
+  job: 保险公司的核保、理赔或客服人员在处理保单条款与理赔材料时，需要判断 AI 给出的结论是否与条款一致，并留下可追溯依据。
+  job_en: Underwriting, claims or service staff at insurers need to judge whether an AI conclusion matches
+    policy wording while handling policy terms and claims files, and to keep a traceable basis.
+  pain: 保险条款和理赔材料措辞严格，模型编造条款内容会直接带来合规与赔付风险，人工逐条回查成本高。
+  pain_en: Insurance wording and claims files are strict, so fabricated policy content creates direct
+    compliance and payout risk, while manual line-by-line rechecking is costly.
+  current_alternative: 目前多由核保或理赔人员人工比对条款原文，或在使用通用模型后自行复核，缺少产品化的条款级校验环节。
+  current_alternative_en: Today underwriters or claims staff compare against the original wording by hand,
+    or self-review after using general models, with no productised clause-level check.
+  usage_reason: 推断：若它能把输出限定在保单与理赔材料范围内并给出可核对出处，核保或理赔人员可省去逐条回查原文的一步，因此强合规岗位会在处理高风险案件时选择它；公开材料未提供客户案例或使用数据，无法确认这一动机。
+  usage_reason_en: 'Inference: if it constrains output to policy and claims material and cites checkable
+    sources, underwriters or claims staff could skip the step of re-checking every clause, so compliance-heavy
+    roles would pick it for high-risk cases; the public material offers no customer case or usage data
+    to confirm this motive.'

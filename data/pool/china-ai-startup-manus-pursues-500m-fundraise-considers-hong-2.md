@@ -3,29 +3,31 @@ slug: china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2
 name: Manus
 builder: ''
 category: 通用助手
-summary_zh: 通用 Agent 产品，用户把需要跨多个工具完成的多步骤任务交给它执行；据候选材料，2.0 版本给 Agent 配上手机号与钱包，并支持拉群协作，但具体输入材料、执行动作与最终交付物仍待核验。
-inspiration: 趋势是通用 Agent 从“回答问题”走向“持有账号、代为操作并结算”，身份与支付能力成为新的竞争面。切入应避开通用入口正面竞争，转向有明确旧流程的垂直场景，例如代运营、跨境采购或本地生活履约中原本由助理手工完成的账号操作与对账环节。
-summary_en: A general-purpose agent product that takes on multi-step tasks spanning several tools. According
-  to the candidate material, version 2.0 gives agents phone numbers and wallets and supports group collaboration,
-  but the specific inputs, actions and final deliverables still need verification.
-inspiration_en: The trend is general agents moving from answering questions to holding accounts, acting
-  on a user's behalf and settling payments, making identity and payment capability a new competitive surface.
-  Entry should avoid head-on competition with general assistants and target vertical workflows with clear
-  legacy steps, such as account operations and reconciliation that assistants previously did by hand in
-  agency operations, cross-border sourcing or local services fulfillment.
+summary_zh: 面向需要把跨应用杂事交出去的个人用户：用户提出一个目标，Manus 的智能体自行拆解步骤、调用浏览器与各类工具执行，最后交回一份完成的任务结果或文件，关键动作仍需用户确认。具体流程与交付边界仍待核验。
+inspiration: 趋势：通用智能体从演示走向大额资本与独立运营，说明“替人跑完多步任务”被当作可下注的品类。切入：不要做又一个通用助手，而是把同一套执行能力钉进一个旧流程——例如跨境卖家上架前的多平台比价与素材整理、律所尽调的资料归集，按交付件收费而非按席位。
+summary_en: 'For individuals who want to hand off cross-application chores: the user states a goal, Manus''s
+  agent breaks it into steps, drives a browser and other tools to execute them, and returns a finished
+  result or file, with key actions still confirmed by the user. The exact workflow and delivery boundary
+  remain to be verified.'
+inspiration_en: 'Trend: general-purpose agents are moving from demos to large funding and independent
+  operations, meaning ''finish the multi-step task for me'' is being treated as a bettable category. Entry:
+  don''t build another general assistant; pin the same execution ability onto one old workflow, such as
+  pre-listing price comparison and asset collation for cross-border sellers, or document gathering for
+  legal due diligence, and charge per deliverable rather than per seat.'
 priority_review: false
 project_type: new_application
 industries:
-- 软件与互联网服务
-- 专业服务
+- 企业通用职能
+- 软件与信息服务
 industries_en:
-- Software and internet services
-- Professional services
+- General corporate functions
+- Software and IT services
 jobs:
-- 个人用户与小型团队把多步骤调研、资料整理和跨工具操作交给通用 Agent 执行
+- 个人事务与工作任务代办
+- 跨应用信息整理与操作执行
 jobs_en:
-- Individual users and small teams delegating multi-step research, document organization and cross-tool
-  operations to a general-purpose agent
+- Personal and work task delegation
+- Cross-application information gathering and action execution
 regions:
 - 中国
 - 全球
@@ -39,7 +41,7 @@ summary: 'China AI startup Manus pursues $500M fundraise; considers Hong Kong IP
   TradingView'
 first_seen: '2026-09-18T13:37:36Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 - marketfeeds

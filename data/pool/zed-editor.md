@@ -21,7 +21,7 @@ canonical_url: https://k33g.org/p/20261004-acp-sbx-docker-agent
 summary: 'Docker Agent, ACP, but in a sandbox: running the agent with sbx'
 first_seen: '2026-10-07T17:36:25Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

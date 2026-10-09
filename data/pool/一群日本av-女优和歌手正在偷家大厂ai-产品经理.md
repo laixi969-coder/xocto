@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JaElWcVdyQnhi
 summary: 一群日本AV 女优和歌手，正在偷家大厂AI 产品经理 虎嗅网
 first_seen: '2026-10-08T02:31:12Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

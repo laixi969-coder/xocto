@@ -1,0 +1,43 @@
+- id: req-initial-mcpdelta-2026-10-09
+  project_slug: mcpdelta
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 MCP 调用下 token 成本高、调用链难追踪与无法回退的问题，痛点在开发与运维环节真实存在，旧做法是手写编排加日志排查。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 79 星、11 fork，无用户评价或采用案例，无法判断开发者是否已把它放进工作流。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+  - gate: model
+    status: insufficient
+    reason: 介绍页称免费且尚未发布，买方与收费路径未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+  - gate: truth
+    status: insufficient
+    reason: 24.1 倍 token 节省来自官方自测基准，无第三方复现，撤销机制的实际边界也未说明。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+  next_validation: 收集其官方文档或仓库中可复现的基准测试与撤销机制说明，核验 token 节省与回退能力是否可独立复现。
+  market: ''
+  job: AI 应用开发者在把产品接入多个 MCP 服务器时，需要处理工具调用序列与上下文，让任务在可控成本下完成并可回退。
+  job_en: AI application developers connecting a product to several MCP servers must handle tool-call
+    sequences and context so tasks finish at controllable cost and can be rolled back.
+  pain: 逐步调用导致 token 消耗高、调用链难追踪，出错后难以还原到改动前的状态。
+  pain_en: Step-by-step calls burn tokens, the call chain is hard to trace, and recovering the pre-change
+    state after an error is difficult.
+  current_alternative: 开发者自己在应用里手写编排逻辑，或依赖各 MCP 客户端自带的调用方式，成本与回退靠日志排查。
+  current_alternative_en: Developers hand-write orchestration inside their app or rely on whatever call
+    pattern each MCP client offers, tracing cost and rollback through logs.
+  usage_reason: 推断：相较手写编排，它把每个任务的多次工具调用合并成一个程序并记录可撤销的改动，减少开发者自己写编排与事后翻日志定位的那一步，因此高频调用 MCP、对 token 成本敏感的团队会尝试它。
+  usage_reason_en: 'Inference: compared with hand-written orchestration, it merges a task''s multiple
+    tool calls into one program and records undoable changes, removing the step of writing orchestration
+    and digging through logs afterwards, which is why teams calling MCP heavily and sensitive to token
+    cost would try it.'

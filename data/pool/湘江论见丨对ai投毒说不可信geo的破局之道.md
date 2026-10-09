@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pUUhwcFhlNFF4
 summary: 湘江论见丨对AI投毒说不！可信GEO的破局之道 华声在线
 first_seen: '2026-10-09T01:42:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

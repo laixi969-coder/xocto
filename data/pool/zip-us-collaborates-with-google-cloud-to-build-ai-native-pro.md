@@ -1,6 +1,6 @@
 ---
 slug: zip-us-collaborates-with-google-cloud-to-build-ai-native-pro
-name: Zip US Collaborates with Google Cloud to Build AI-Native Product Factory with Gemini Enterprise
+name: Zip US
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Zip US Collaborates with Google Cloud to Build AI-Native Product Factor
   Google Cloud Press Corner
 first_seen: '2026-10-08T09:21:47Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Zip US Collaborates with Google Cloud to Build AI-Native Product Factory with Gemini Enterprise
+# Zip US
 
 Zip US Collaborates with Google Cloud to Build AI-Native Product Factory with Gemini Enterprise Google Cloud Press Corner
 

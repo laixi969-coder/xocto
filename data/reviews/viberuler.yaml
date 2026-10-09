@@ -1,0 +1,44 @@
+- id: req-initial-viberuler-2026-10-09
+  project_slug: viberuler
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决上下文占用不可见的问题，痛点真实但强度未明；公开材料只有一句功能描述，无法确认度量口径与不采用的实际代价。
+    evidence_ids:
+    - ev-cfdc1f6264789c04
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 点、0 评论，没有用户反馈或采用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-cfdc1f6264789c04
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；买方可能是重度使用编码助手的团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cfdc1f6264789c04
+  - gate: truth
+    status: insufficient
+    reason: 无法确认度量结果是否贴近真实上下文成本，也未见人工确认边界或交付确定性说明。
+    evidence_ids:
+    - ev-cfdc1f6264789c04
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认其上下文度量口径、可复现的实测结果与是否有团队实际使用反馈。
+  market: ''
+  job: 使用 AI 编码助手的开发者，在长会话中上下文被占满、补全或生成质量下降时，需要弄清上下文里各部分占用了多少，以便决定删减什么。
+  job_en: Developers using AI coding assistants, when a long session fills the context and completion
+    or generation quality drops, need to know how much each part of the context occupies in order to decide
+    what to cut.
+  pain: 上下文窗口有限，塞入过多文件或历史会让模型输出变差，但开发者看不到占用分布，只能凭感觉删减。
+  pain_en: Context windows are limited; stuffing in too many files or history degrades model output, yet
+    developers cannot see the occupancy breakdown and can only cut by feel.
+  current_alternative: 目前多靠手动精简提示、凭经验删文件，或直接开新会话重来。
+  current_alternative_en: Today most people manually trim prompts, delete files by experience, or simply
+    start a new session.
+  usage_reason: 推断：相比凭感觉删减，它把上下文占用拆成可查看的度量，让开发者在删减前先看到哪一部分占得多，从而减少反复试错；但公开材料未给出度量口径与实测效果，是否真能改善输出仍缺证据。
+  usage_reason_en: 'Inference: compared with cutting by feel, it breaks context occupancy into a viewable
+    measurement so developers can see which part dominates before trimming, reducing trial and error;
+    however, public materials give no measurement method or tested effect, so whether output actually
+    improves lacks evidence.'

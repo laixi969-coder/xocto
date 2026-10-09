@@ -1,6 +1,6 @@
 ---
 slug: openai-openai-python-v3261
-name: 'openai/openai-python: v3.26.1'
+name: openai-python
 builder: openai
 category: ''
 summary_zh: ''
@@ -29,7 +29,7 @@ summary: '## [3.26.1](https://github.com/openai/openai-python/compare/v3.26.0...
   ([b9bc5c1](https://github.com/openai/openai-python/commit/b9bc5c141d395165939eccfcfe42d1ed8219ec6a))'
 first_seen: '2026-10-08T08:53:32Z'
 last_seen: '2026-10-09T02:10:18Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -41,7 +41,7 @@ sightings:
   kind: news
 ---
 
-# openai/openai-python: v3.26.1
+# openai-python
 
 ## [3.26.1](https://github.com/openai/openai-python/compare/v3.26.0...v3.26.1) (2026-10-08)
 

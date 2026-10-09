@@ -1,6 +1,6 @@
 ---
 slug: 财中etf风向标-谷歌云发布通用工作智能体gemini-agentopenai营收不及预期拖累ai概念股-人工智能早参
-name: 财中ETF风向标｜谷歌云发布通用工作智能体Gemini Agent，OpenAI营收不及预期拖累AI概念股｜人工智能早参
+name: Gemini Agent
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxQdEdhOEJXRmo0
 summary: 财中ETF风向标｜谷歌云发布通用工作智能体Gemini Agent，OpenAI营收不及预期拖累AI概念股｜人工智能早参 新浪财经
 first_seen: '2026-10-09T01:30:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 财中ETF风向标｜谷歌云发布通用工作智能体Gemini Agent，OpenAI营收不及预期拖累AI概念股｜人工智能早参
+# Gemini Agent
 
 财中ETF风向标｜谷歌云发布通用工作智能体Gemini Agent，OpenAI营收不及预期拖累AI概念股｜人工智能早参 新浪财经
 

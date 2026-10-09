@@ -1,0 +1,42 @@
+- id: req-initial-udon-2026-10-09
+  project_slug: udon
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决自托管用户看不懂日志、不敢改配置的问题，痛点具体；但候选只有一句描述，无法确认 AI 实际能完成哪些运维动作。
+    evidence_ids:
+    - ev-b6e382e41c8f0a0e
+  - gate: consensus
+    status: insufficient
+    reason: 没有采用、评价或社区讨论证据，无法判断家庭服务器用户是否真的需要对话式运维。
+    evidence_ids:
+    - ev-b6e382e41c8f0a0e
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，买方可能是个人或小团队，属推断而非已验证事实。
+    evidence_ids:
+    - ev-b6e382e41c8f0a0e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 执行运维操作时的权限控制、误操作回滚与数据安全，承诺能否确定性交付缺材料。
+    evidence_ids:
+    - ev-b6e382e41c8f0a0e
+  next_validation: 收集 Udon 官方文档或定价页，确认 AI 管理员可执行的操作范围、权限与回滚机制。
+  market: ''
+  job: 把 Mac 当家庭服务器用的个人或小团队，在服务异常或需要调整配置时，需要查看运行状态并完成一次运维操作。
+  job_en: Individuals or small teams running a Mac as a home server need to check service status and complete
+    an operations task when a service fails or configuration must change.
+  pain: 自托管服务出问题时，非专业用户看不懂日志、不敢改配置，往往要花很长时间搜索或干脆放弃恢复。
+  pain_en: When self-hosted services fail, non-expert users cannot read logs and are afraid to edit configs,
+    often spending hours searching or simply giving up on recovery.
+  current_alternative: 常见做法是搜索论坛与文档、手动敲命令行，或请懂技术的朋友远程帮忙。
+  current_alternative_en: Common alternatives are searching forums and docs, typing commands manually,
+    or asking a technical friend to help remotely.
+  usage_reason: 推断：若 AI 管理员能直接读取状态并代为执行常见修复，用户就省掉查文档和手敲命令这一步，因此自托管但不懂运维的人会尝试；但候选未说明可执行动作与安全边界。
+  usage_reason_en: 'Inference: if the AI sysadmin can read status and perform common fixes directly, users
+    skip looking up docs and typing commands, so self-hosters without ops skills would try it; however
+    the candidate does not state executable actions or safety boundaries.'

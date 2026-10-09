@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/liquid-inference
 summary: LLM router where providers compete for every prompt
 first_seen: '2026-10-07T08:14:41Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

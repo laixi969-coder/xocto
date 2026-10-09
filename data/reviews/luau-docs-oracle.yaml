@@ -1,0 +1,47 @@
+- id: req-initial-luau-docs-oracle-2026-10-09
+  project_slug: luau-docs-oracle
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Luau 开发者核对 API 用法这一具体任务，痛点是误用只在运行时暴露、排查要反复翻文档，旧行为明确存在。
+    evidence_ids:
+    - ev-1e9b551e166fcce0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标与议题数，没有开发者评价、论坛讨论或采用案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-1e9b551e166fcce0
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费路径或商业主体，钱从哪来尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1e9b551e166fcce0
+  - gate: truth
+    status: insufficient
+    reason: 未说明校验结果是否可复现、误报率如何、是否需人工复核，交付确定性缺少公开依据。
+    evidence_ids:
+    - ev-1e9b551e166fcce0
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际支持的 Luau 版本、校验输出形式以及是否已有开发者反馈误报或漏报。
+  market: ''
+  job: Roblox 脚本开发者在写完一段 Luau 代码、准备提交或遇到运行报错时，处理自己写的脚本文件，要确认调用的 API 名称、参数和用法与官方文档一致，避免上线后才发现误用。
+  job_en: A Roblox script developer who has just written a piece of Luau code and is about to commit or
+    has hit a runtime error works on their own script files to confirm that API names, arguments and usage
+    match the official documentation before the mistake ships.
+  pain: Luau 的 API 版本和参数经常变动，误用往往只在运行时暴露，开发者要反复翻文档、在论坛搜旧帖，排查一步就要来回切换多个页面。
+  pain_en: Luau APIs and their arguments change often, misuse usually surfaces only at runtime, and developers
+    must repeatedly read docs and search old forum posts, switching between several pages for a single
+    check.
+  current_alternative: 现在主要靠人工翻官方文档、在开发者论坛搜报错、或直接运行脚本看是否报错，没有专门针对 Luau 的静态校验环节。
+  current_alternative_en: Today the main alternatives are manually reading official docs, searching the
+    developer forum for the error, or simply running the script to see whether it fails; there is no dedicated
+    static check step for Luau.
+  usage_reason: 推断：相较翻文档和跑一遍才知道错，它把代码与 Luau API 文档直接比对，在提交前就指出对不上的调用，省掉的是“运行—报错—再查文档”这一轮往返，因此常写 Roblox
+    脚本、又不想每次靠试错的人会先试它。
+  usage_reason_en: 'Inference: instead of reading docs and running the code to discover errors, it compares
+    code against the Luau API documentation and flags mismatched calls before commit, removing the run-error-look-up
+    round trip, so people who write Roblox scripts often and dislike trial and error are the ones likely
+    to try it first.'

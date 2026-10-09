@@ -1,0 +1,43 @@
+- id: req-initial-pacer-2026-10-09
+  project_slug: pacer
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决额度制 AI 编码订阅下开发者无法预知额度何时耗尽、被限流后中断工作的问题，痛点具体且反复出现，旧做法只能凭感觉估算。
+    evidence_ids:
+    - ev-b55043ae1422c810
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 10 个点赞与 8 条评论，说明有少量关注，但没有采用或持续使用证据，无法判断是否形成稳定需求共识。
+    evidence_ids:
+    - ev-b55043ae1422c810
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，开源工具可能的收入方式属推断；且其数据依赖平台接口，商业模式受平台政策影响。
+    evidence_ids:
+    - ev-b55043ae1422c810
+  - gate: truth
+    status: insufficient
+    reason: 额度计算依赖平台用量数据，公开材料未说明数据获取方式与准确性边界，能否确定性交付提示尚未核验。
+    evidence_ids:
+    - ev-b55043ae1422c810
+  next_validation: 收集 Pacer 仓库 README 与 issue 讨论，确认其读取的用量数据来源与提示机制。
+  market: ''
+  job: 使用按额度计费 AI 编码订阅的开发者，在周期末需要判断剩余额度还能支撑多少编码任务，并决定是否放慢或改用其他工具。
+  job_en: Developers on quota-based AI coding subscriptions need to judge near the end of a cycle how
+    many coding tasks the remaining quota can support and decide whether to slow down or switch tools.
+  pain: 额度用尽会被限流或中断工作，开发者只能凭感觉估算，容易在关键任务上突然卡住。
+  pain_en: Running out of quota causes rate limiting or interrupted work, and developers can only estimate
+    by feel, easily getting stuck on a critical task.
+  current_alternative: 凭经验估算用量、手动记录，或等被限流后再切换工具。
+  current_alternative_en: Estimating usage by experience, keeping manual notes, or waiting to be rate-limited
+    before switching tools.
+  usage_reason: 推断：若 Pacer 能读取订阅用量并提前提示剩余额度可支撑的任务量，开发者可在周期末提前调整任务安排，省去被限流后临时切换工具这一步；但公开材料未说明其数据来源与提示形式，实际减少的负担仍待核验。
+  usage_reason_en: 'Inference: if Pacer can read subscription usage and warn in advance how much task
+    volume the remaining quota supports, developers could adjust task scheduling before the cycle ends,
+    skipping the step of switching tools after being rate-limited; but public material does not describe
+    its data source or alert format, so the burden actually removed remains unverified.'

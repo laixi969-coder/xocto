@@ -1,0 +1,43 @@
+- id: req-initial-openswarm-2026-10-09
+  project_slug: openswarm
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多步骤任务跨工具切换与手工拆解的问题，痛点存在，但公开材料只有一句定位，说不清输入、动作与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-6f20c5a93c8d4850
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、采用或社区讨论证据，无法判断是否有人真的把它放进日常工作流。
+    evidence_ids:
+    - ev-6f20c5a93c8d4850
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方或分发方式，收入来自个人订阅还是团队采购均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-6f20c5a93c8d4850
+  - gate: truth
+    status: insufficient
+    reason: 多 agent 执行多步任务时如何保证结果可核对、出错如何回退，公开材料未提及，交付确定性无法判断。
+    evidence_ids:
+    - ev-6f20c5a93c8d4850
+  next_validation: 收集 OpenSwarm 官方文档或定价页，确认其接入的协作平台、可执行任务类型与交付形式。
+  market: ''
+  job: 知识工作者在团队协作工具中处理会议跟进、任务分派等多步骤工作时，需要把任务拆解并跟踪执行结果。
+  job_en: Knowledge workers handling multi-step work such as meeting follow-up and task assignment inside
+    collaboration tools need to break tasks down and track execution results.
+  pain: 多步骤任务要在多个工具间切换、手工拆解和汇总，容易遗漏跟进项。
+  pain_en: Multi-step tasks require switching between tools, manual breakdown and consolidation, and follow-ups
+    are easily missed.
+  current_alternative: 在协作工具里手工建任务、用通用聊天助手逐条处理，或使用单一 agent 工具。
+  current_alternative_en: Manually creating tasks in collaboration tools, handling items one by one with
+    a general chat assistant, or using a single-agent tool.
+  usage_reason: 推断：若 agent 群组能直接在用户已有的协作工具里读取上下文并执行多步任务，用户可省去跨工具复制粘贴和手工拆解这一步；但公开材料未说明接入平台与交付形式，无法确认它实际减少了哪一步负担。
+  usage_reason_en: 'Inference: if the agent swarm can read context and execute multi-step tasks directly
+    inside the user''s existing collaboration tool, users could skip cross-tool copy-paste and manual
+    breakdown; but public material does not describe the platform or deliverable, so it is unclear which
+    step it actually removes.'

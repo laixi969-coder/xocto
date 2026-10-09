@@ -3,13 +3,11 @@ slug: openai-launches-astra-its-powerful-and-controversial-new-mod
 name: Astra
 builder: ''
 category: ''
-summary_zh: OpenAI 发布新模型 Astra，宣称在计算机与浏览器操作任务上开启新前沿，并强调速度、准确性与安全性；发布同时引发争议，已有第三方围绕该模型建立 AEO（答案引擎优化）追踪与分析，显示前沿模型发布正在重塑代理式浏览器使用与
-  AI 可见性相关市场。
+summary_zh: OpenAI 于 2026 年 9 月 3 日发布新模型 Astra，官方称其在电脑与浏览器操作上达到新水平，强调速度、准确率与安全性。这是模型层发布，不是独立产品，具体定价、成本与客户采用情况未在材料中披露。
 inspiration: ''
-summary_en: OpenAI released its new model Astra, claiming a new frontier in computer and browser use with
-  unmatched speed, accuracy, and safety; the launch drew controversy, and third parties have already started
-  building AEO trackers and analysis around it, showing that frontier model releases are reshaping the
-  agentic browser-use and AI visibility market.
+summary_en: OpenAI released Astra on September 3, 2026, describing it as a new frontier in computer and
+  browser use with emphasis on speed, accuracy and safety. It is a model-layer release rather than a standalone
+  product; pricing, cost and customer adoption are not disclosed in the material.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +24,7 @@ summary: OpenAI claims that Astra represents "a new frontier on computer and bro
   handles tasks with unmatched "speed, accuracy, and safety."
 first_seen: '2026-09-03T18:01:45Z'
 last_seen: '2026-10-09T02:10:46Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - officialfeeds

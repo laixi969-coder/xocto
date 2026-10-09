@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/nova-18
 summary: AI developer in your terminal
 first_seen: '2026-10-07T15:00:40Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

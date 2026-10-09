@@ -21,7 +21,7 @@ canonical_url: https://wordminos.com/play-en.html
 summary: Crosswords Meet Dominos
 first_seen: '2026-10-08T12:56:46Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

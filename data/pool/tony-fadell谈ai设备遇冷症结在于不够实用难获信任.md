@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxQQnpaT01kNjNs
 summary: Tony Fadell谈AI设备遇冷：症结在于不够实用、难获信任 디지털투데이
 first_seen: '2026-10-08T02:03:37Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

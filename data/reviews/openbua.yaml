@@ -1,0 +1,47 @@
+- id: req-initial-openbua-2026-10-09
+  project_slug: openbua
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨站检索与填表的重复劳动，但公开材料只有功能描述，旧流程与不采用后果说不清，需求强度未明。
+    evidence_ids:
+    - ev-7ebf5c35c03b293a
+    - ev-e47728673139c422
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仓库星标仅46且无 issue 讨论，缺少用户评价或采用证据，无法判断卡在哪一环。
+    evidence_ids:
+    - ev-7ebf5c35c03b293a
+    - ev-e47728673139c422
+  - gate: model
+    status: insufficient
+    reason: 未进入：开源项目无定价页或买方信息，无法判断钱来自个人还是企业，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7ebf5c35c03b293a
+    - ev-e47728673139c422
+  - gate: truth
+    status: insufficient
+    reason: 未进入：任务成功率、登录态安全边界与人工确认机制均未披露，无法确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-7ebf5c35c03b293a
+    - ev-e47728673139c422
+  next_validation: 收集 OpenBUA 仓库的 README、issue 与 discussion，确认其任务成功率、登录态处理方式与是否有付费或托管版本。
+  market: ''
+  job: 运营或研究人员需要跨多个网站查资料、填表单时，要在已登录的浏览器里完成检索、抓取与提交，并拿到整理好的结果。
+  job_en: When operations or research staff need to look up data and fill forms across multiple sites,
+    they must search, capture and submit inside a logged-in browser and end up with organized results.
+  pain: 跨站重复检索与填表耗时且易错，公开材料未说明现有替代做法与不采用的具体代价。
+  pain_en: Repeated cross-site searching and form filling is slow and error-prone; public material does
+    not describe current alternatives or the concrete cost of not acting.
+  current_alternative: 公开材料未说明用户目前如何完成这类操作，可能包括手工复制粘贴或使用脚本，均未获证实。
+  current_alternative_en: Public material does not say how users currently do this work; manual copy-paste
+    or scripts are unverified possibilities.
+  usage_reason: 推断：若它能在已登录浏览器里直接完成检索与填表，用户就不必逐站手工复制粘贴或维护脚本，需要批量网页操作的运营人员可能因此选择它；任务成功率与人工确认环节尚无公开证据。
+  usage_reason_en: 'Inference: if it completes searching and form filling directly in the logged-in browser,
+    users would not have to copy-paste site by site or maintain scripts, which may lead operations staff
+    with bulk web tasks to choose it; task success rates and human confirmation steps have no public evidence
+    yet.'

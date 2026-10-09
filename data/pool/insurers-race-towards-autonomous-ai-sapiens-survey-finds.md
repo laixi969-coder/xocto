@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbFo2YzdKSVFI
 summary: Insurers race towards autonomous AI, Sapiens survey finds CFOtech Asia
 first_seen: '2026-10-08T07:15:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBOdEtoOGl2VVF0
 summary: 从拼流量到新需求挖掘：玩美数据借助AI工具打造爆款_科技 中金在线
 first_seen: '2026-10-08T08:11:10Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

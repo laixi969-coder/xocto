@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxQcHR2YUZUckVW
 summary: 英伟达、甲骨文、CoreWeave及其他AI股票因OpenAI营收报告下跌 新浪财经
 first_seen: '2026-10-08T19:01:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

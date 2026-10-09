@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/tide-simple-self-hostable-video-
 summary: A Jitsi alternative that does a few things really well
 first_seen: '2026-10-07T10:31:31Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - hackernews

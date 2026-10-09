@@ -1,6 +1,6 @@
 ---
 slug: 复旦微电公司fpai产品适用于边缘端人工智能应用-公司新闻-财经
-name: 复旦微电：公司FPAI产品适用于边缘端人工智能应用_公司新闻_财经
+name: 复旦微电
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5pVWNuQktkOVh3
 summary: 复旦微电：公司FPAI产品适用于边缘端人工智能应用_公司新闻_财经 证券之星
 first_seen: '2026-10-08T08:50:48Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 复旦微电：公司FPAI产品适用于边缘端人工智能应用_公司新闻_财经
+# 复旦微电
 
 复旦微电：公司FPAI产品适用于边缘端人工智能应用_公司新闻_财经 证券之星
 

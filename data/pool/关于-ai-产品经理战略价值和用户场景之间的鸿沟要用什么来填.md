@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ucmZPVmlVVGY1
 summary: 【关于 AI 产品经理】战略价值和用户场景之间的鸿沟，要用什么来填？ 虎嗅网
 first_seen: '2026-10-08T06:34:11Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

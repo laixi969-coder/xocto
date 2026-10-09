@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tX254OS1iYUNY
 summary: AI rewrites rules of Customer Experience gadget.co.za
 first_seen: '2026-08-31T04:17:45Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

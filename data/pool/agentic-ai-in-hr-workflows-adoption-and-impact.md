@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE85Z1YtOWRXTld5
 summary: 'Agentic AI in HR: Workflows, Adoption, and Impact Kings Research'
 first_seen: '2026-10-06T11:26:17Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

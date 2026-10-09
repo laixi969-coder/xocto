@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/paw-paw
 summary: A tiny desktop pet for your Mac that types along with you
 first_seen: '2026-10-05T10:12:26Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

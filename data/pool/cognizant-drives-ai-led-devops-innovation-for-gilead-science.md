@@ -1,6 +1,6 @@
 ---
 slug: cognizant-drives-ai-led-devops-innovation-for-gilead-science
-name: Cognizant Drives AI-Led DevOps Innovation for Gilead Sciences
+name: Cognizant
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxQeDBKeHdrQnJ6
 summary: Cognizant Drives AI-Led DevOps Innovation for Gilead Sciences varindia
 first_seen: '2026-10-07T12:17:32Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Cognizant Drives AI-Led DevOps Innovation for Gilead Sciences
+# Cognizant
 
 Cognizant Drives AI-Led DevOps Innovation for Gilead Sciences varindia
 

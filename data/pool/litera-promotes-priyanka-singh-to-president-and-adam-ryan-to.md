@@ -22,7 +22,7 @@ summary: Litera Promotes Priyanka Singh to President and Adam Ryan to Chief Prod
   Business Wire
 first_seen: '2026-10-08T12:01:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-ga
 summary: ''
 first_seen: '2026-10-08T00:00:00Z'
 last_seen: '2026-10-09T02:10:46Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

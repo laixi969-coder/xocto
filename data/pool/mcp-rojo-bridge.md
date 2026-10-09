@@ -21,7 +21,7 @@ canonical_url: https://github.com/Emmanuel448/mcp-rojo-bridge
 summary: Best AI Agent MCP Server for Roblox Studio Sync and Automated Rojo Workflows 2026
 first_seen: '2026-09-22T21:09:26Z'
 last_seen: '2026-10-09T02:10:18Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

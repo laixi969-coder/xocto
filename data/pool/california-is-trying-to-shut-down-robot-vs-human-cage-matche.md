@@ -24,7 +24,7 @@ summary: The California State Athletic Commission sent a cease-and-desist letter
   startup, Rek, that […]
 first_seen: '2026-10-08T20:06:56Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

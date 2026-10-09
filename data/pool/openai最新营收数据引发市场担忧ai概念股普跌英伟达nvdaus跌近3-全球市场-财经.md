@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUa0VuZHBMX0sx
 summary: OpenAI最新营收数据引发市场担忧AI概念股普跌英伟达(NVDA.US)跌近3%_全球市场_财经 证券之星
 first_seen: '2026-10-08T22:00:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

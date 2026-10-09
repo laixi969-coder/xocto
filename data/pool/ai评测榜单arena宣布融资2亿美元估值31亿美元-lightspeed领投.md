@@ -1,11 +1,12 @@
 ---
 slug: ai评测榜单arena宣布融资2亿美元估值31亿美元-lightspeed领投
-name: AI评测榜单Arena宣布融资2亿美元：估值31亿美元 Lightspeed领投
+name: Arena
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 大模型众包盲测评估基准Arena宣布获得由Lightspeed领投的2亿美元融资，投后估值达31亿美元，标志着模型评测与对齐排名称号在产业内已具备极高的资本溢价与裁判权价值。
 inspiration: ''
-summary_en: ''
+summary_en: Model benchmarking benchmark Arena raised $200M led by Lightspeed at a $3.1B valuation, showing
+  that community-driven model evaluation platforms command premium benchmark authority in the AI stack.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE45MFRKSnB2VWNS
 summary: AI评测榜单Arena宣布融资2亿美元：估值31亿美元 Lightspeed领投 新浪网
 first_seen: '2026-10-09T01:39:32Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI评测榜单Arena宣布融资2亿美元：估值31亿美元 Lightspeed领投
+# Arena
 
 AI评测榜单Arena宣布融资2亿美元：估值31亿美元 Lightspeed领投 新浪网
 

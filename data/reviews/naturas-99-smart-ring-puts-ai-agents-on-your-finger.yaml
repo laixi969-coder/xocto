@@ -1,0 +1,42 @@
+- id: req-initial-naturas-99-smart-ring-puts-ai-agents-on-your-finger-2026-10-09
+  project_slug: naturas-99-smart-ring-puts-ai-agents-on-your-finger
+  level: initial
+  reviewed_at: '2026-10-09T02:10:47Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 戒指形态能解决无感穿戴与轻量输入痛点，任务场景明确，但作为独立 AI 硬件其高频刚需强度仍依赖具体软件生态支撑。
+    evidence_ids:
+    - ev-d4cc3a9521059c61
+  - gate: consensus
+    status: insufficient
+    reason: 产品处于媒体报道初期，公开资料中尚无实际出货量、日常佩戴活跃率或二次复购留存数据。
+    evidence_ids:
+    - ev-d4cc3a9521059c61
+  - gate: model
+    status: supported
+    reason: 99 美元一次性硬件销售定价清晰，买方为个人消费者，但后续是否捆绑订阅服务在材料中尚未完全披露。
+    evidence_ids:
+    - ev-d4cc3a9521059c61
+  - gate: truth
+    status: insufficient
+    reason: 戒指形态缺乏屏幕反馈，按压触发 AI 代理后的网络延迟与复杂任务执行确定性尚未经第三方评测核实。
+    evidence_ids:
+    - ev-d4cc3a9521059c61
+  next_validation: 核查官方发货进度、首批真实消费者实测评价及配套手机端软件的订阅收费规则。
+  market: ''
+  job: 日常通勤或移动办公用户，在双手被占用或不便看屏幕时，需要随手记录瞬时灵感、触发家庭或办公设备控制指令，并持续记录生理健康数据。
+  job_en: Daily mobile professionals and commuters who need to capture fleeting thoughts, control devices,
+    and track health without looking at a screen when their hands are occupied.
+  pain: 手机语音助手在公开场合交互尴尬且需要解锁掏兜，智能手表屏幕交互依然侵占视觉注意力，容易打断当前现实生活节奏。
+  pain_en: Smartphone voice assistants are socially awkward in public and require reaching into pockets,
+    while smartwatch screens still demand visual attention and interrupt real-world flow.
+  current_alternative: 使用智能手表语音输入、手机便签应用随时打字记录，或依赖传统健康手环进行体征监测。
+  current_alternative_en: Using voice input on smartwatches, typing into phone note apps, or relying on
+    traditional fitness bands for vitals tracking.
+  usage_reason: 相较于掏出手机打字或对着手表说话，戒指形态通过隐蔽的手指微动作直接调用后台 AI 代理，推断能在极低社交摩擦下完成碎片化记录与控制任务，同时 99 美元降低了尝试门槛。
+  usage_reason_en: Compared to pulling out a phone or speaking aloud, the ring form factor uses subtle
+    finger presses to trigger AI agents, inferred to minimize social friction and screen distraction at
+    an accessible $99 price point.

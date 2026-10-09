@@ -1,0 +1,41 @@
+- id: req-initial-clawcall-2026-10-09
+  project_slug: clawcall
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决打电话排队等待占用时间的问题，痛点具体，旧替代行为明确。
+    evidence_ids:
+    - ev-28ce9fae9925428d
+  - gate: consensus
+    status: insufficient
+    reason: 除发布信息外没有采用或评价数据，无法判断用户是否愿意让 agent 代打电话。
+    evidence_ids:
+    - ev-28ce9fae9925428d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是个人订阅还是企业按次付费无法判断，属推断。
+    evidence_ids:
+    - ev-28ce9fae9925428d
+  - gate: truth
+    status: insufficient
+    reason: 代打电话贴近用户目标，但通话类型限制、录音与合规边界未公开。
+    evidence_ids:
+    - ev-28ce9fae9925428d
+  next_validation: 收集该产品官方页面上的可处理通话类型、合规说明与定价或计费方式。
+  market: ''
+  job: 需要打电话预约或跟进的个人与小团队，在客服排队或反复拨号时，需要有人代为完成拨号、等待和结果回报。
+  job_en: Individuals and small teams needing to book or follow up by phone need someone to handle dialing,
+    waiting on hold and reporting the outcome.
+  pain: 排队等待和反复拨号占用大量时间，且常常打不通或需要重拨。
+  pain_en: Waiting on hold and redialing consume a lot of time and often fail or require retries.
+  current_alternative: 现在只能自己守着电话等待，或雇人代打，或干脆放弃这通电话。
+  current_alternative_en: Today people wait on the line themselves, hire someone to call, or simply give
+    up on the call.
+  usage_reason: 推断：相较自己排队等待，它把拨号和等待交给 agent 并回报结果，省去用户守在电话旁这一步，因此预约密集的小团队会先试用；公开材料未提供留存或付费数据。
+  usage_reason_en: 'Inference: instead of waiting on hold personally, it hands dialing and holding to
+    an agent and reports back, removing the need to stay by the phone, so booking-heavy small teams would
+    try it first; no retention or payment data is provided.'

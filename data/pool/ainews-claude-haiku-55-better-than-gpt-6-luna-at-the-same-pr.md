@@ -21,7 +21,7 @@ canonical_url: https://latent.space/p/ainews-claude-haiku-55-better-than
 summary: yay small models
 first_seen: '2026-10-08T07:27:51Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

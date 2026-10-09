@@ -1,0 +1,45 @@
+- id: req-initial-rembrandt-2026-10-09
+  project_slug: rembrandt
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决摄影师处理 RAW 与蒙版调整的需求，痛点是订阅成本与素材外传顾虑，旧做法是订阅软件或功能受限的免费编辑器，结构上成立。
+    evidence_ids:
+    - ev-4f5e2d9fd26d74bf
+    - ev-27dedb50a24d9f4f
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论帖有 42 点、49 条评论，说明有人关注，但缺少持续采用或口碑证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-4f5e2d9fd26d74bf
+  - gate: model
+    status: insufficient
+    reason: 项目免费开源，未披露任何付费路径或买方，钱可能来自捐赠或后续商业版，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-27dedb50a24d9f4f
+  - gate: truth
+    status: insufficient
+    reason: 仓库仅 53 星、10 个未关闭 issue，缺少可复现的编辑质量评测与人工确认边界说明，交付确定性未核验。
+    evidence_ids:
+    - ev-4f5e2d9fd26d74bf
+    - ev-27dedb50a24d9f4f
+  next_validation: 收集该仓库的 README、发布说明与 issue 讨论，核验其设备端 AI 编辑能力、支持格式与已知缺陷。
+  market: ''
+  job: 独立摄影师或小型工作室在交付客户成片前，处理 RAW 素材并做蒙版局部调整。
+  job_en: Independent photographers or small studios processing RAW files and making masked local adjustments
+    before delivering client images.
+  pain: 订阅制修图软件按月收费，且素材需上传或依赖云端处理，对预算有限或对客户素材外泄敏感的从业者构成持续成本与顾虑。
+  pain_en: Subscription retouching software charges monthly, and materials often need uploading or cloud
+    processing, creating ongoing cost and concern for practitioners with limited budgets or sensitivity
+    to client material leakage.
+  current_alternative: Adobe Lightroom 等订阅制软件，或免费但功能受限的本地编辑器。
+  current_alternative_en: Subscription software such as Adobe Lightroom, or free but limited local editors.
+  usage_reason: 推断：相较订阅软件，Rembrandt 把编辑与 AI 处理放在本地完成，免去订阅费用和素材上传环节，对预算敏感或不愿外传客户素材的摄影师有吸引力；但公开材料未显示留存或复购证据，实际编辑质量与稳定性仍待核验。
+  usage_reason_en: 'Inference: compared with subscription software, Rembrandt performs editing and AI
+    processing locally, removing subscription fees and the material-upload step, which appeals to budget-sensitive
+    photographers or those unwilling to send client material out; however, public materials show no retention
+    or repeat-use evidence, and actual editing quality and stability still need verification.'

@@ -1,0 +1,42 @@
+- id: req-initial-cekura-bench-2026-10-09
+  project_slug: cekura-bench
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决语音模型选型缺少真实通话评测的问题，痛点具体，但公开材料只有一句话，无法确认评测指标与交付结果。
+    evidence_ids:
+    - ev-5097601268f20a8e
+  - gate: consensus
+    status: insufficient
+    reason: 除发布信息外没有采用、讨论或客户案例，无法判断是否有团队真的把它放进选型流程。
+    evidence_ids:
+    - ev-5097601268f20a8e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是评测工具订阅还是按次服务无法判断，属推断而非已验证事实。
+    evidence_ids:
+    - ev-5097601268f20a8e
+  - gate: truth
+    status: insufficient
+    reason: 真实通话评测贴近第一性目标，但样本量、指标口径与人工复核边界均未公开。
+    evidence_ids:
+    - ev-5097601268f20a8e
+  next_validation: 收集该产品官方页面上的评测指标说明、样本规模与定价或服务方式。
+  market: ''
+  job: 语音机器人团队在把客服或外呼 agent 上线前，需要处理真实通话录音，判断哪个语音模型在真实线路条件下可用。
+  job_en: Before launching a customer-service or outbound agent, a voice-bot team needs to process real
+    call recordings to judge which speech model works under live line conditions.
+  pain: 实验室转写分数无法反映真实电话中的延迟、打断和噪声，团队只能靠上线后出问题再回滚。
+  pain_en: Lab transcription scores do not reflect latency, interruptions and noise on real calls, so
+    teams only find problems after launch and roll back.
+  current_alternative: 目前多靠内部脚本自测、人工试听通话录音，或直接上线后看投诉。
+  current_alternative_en: Today teams mostly rely on in-house scripts, manual listening to call recordings,
+    or simply launching and watching complaints.
+  usage_reason: 推断：它把真实通话作为评测输入，可能省去团队自建电话测试环境这一步，因此正在选型的语音 agent 团队会先试用；但公开材料未说明评测指标与交付形式，无法确认是否被持续使用。
+  usage_reason_en: 'Inference: by using live calls as benchmark input it may remove the step of building
+    an in-house phone test rig, so teams selecting a voice agent would try it first; public material does
+    not describe metrics or deliverables, so sustained use cannot be confirmed.'

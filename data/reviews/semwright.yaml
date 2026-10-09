@@ -1,0 +1,41 @@
+- id: req-initial-semwright-2026-10-09
+  project_slug: semwright
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点，公开材料只给出一句功能说明，无法还原旧流程与后果。
+    evidence_ids:
+    - ev-62de52ecd9c1efa3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页收录，无采用、评价或重复使用证据，不能说明有人持续使用。
+    evidence_ids:
+    - ev-62de52ecd9c1efa3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方与计价方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-62de52ecd9c1efa3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该工作的第一性目标，也未说明操作失败与人工接管边界。
+    evidence_ids:
+    - ev-62de52ecd9c1efa3
+  next_validation: 收集 Semwright 官方页面或文档，确认它支持哪些软件、接入方式与是否按调用量或系统数计价。
+  market: ''
+  job: 开发者在让 AI agent 操作某个真实软件时接入 Semwright，把该软件的界面转成结构化接口供 agent 调用。
+  job_en: A developer letting an AI agent operate a real piece of software connects Semwright to turn
+    that software's interface into structured access the agent can call.
+  pain: 公开材料只有一句说明，没有说明开发者原来在让 agent 操作软件时卡在哪一步、不解决会失去什么。
+  pain_en: The public material is one line and does not say which step developers were stuck on when making
+    agents operate software, or what they lose without it.
+  current_alternative: 公开材料未说明此前开发者用什么方式让 agent 操作真实软件。
+  current_alternative_en: The public material does not say how developers previously made agents operate
+    real software.
+  usage_reason: 推断：若结构化接口能省去为每个软件单独写适配代码，做 agent 集成的开发者会尝试；但无用户反馈，动机无法确认。
+  usage_reason_en: 'Inference: if structured access removes writing a separate adapter per software, developers
+    doing agent integration would try it; with no user feedback the motive cannot be confirmed.'

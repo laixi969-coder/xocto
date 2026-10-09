@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iYTJTY1JNV3FK
 summary: “亚洲股王”释放AI产业链利好 台积电三季度营收增逾5成 东方财富
 first_seen: '2026-10-08T08:05:37Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

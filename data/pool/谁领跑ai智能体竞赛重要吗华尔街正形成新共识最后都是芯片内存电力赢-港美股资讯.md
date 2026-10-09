@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zZ0lBSzNyODJw
 summary: 谁领跑AI智能体竞赛重要吗？华尔街正形成新共识：最后都是“芯片、内存、电力”赢！ 港美股资讯 华盛通
 first_seen: '2026-10-08T13:15:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

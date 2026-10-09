@@ -1,6 +1,6 @@
 ---
 slug: skip-sending-request-bodies-to-routing-middleware
-name: Skip sending request bodies to Routing Middleware
+name: Vercel Routing Middleware
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/skip-sending-request-bodies-to-routi
 summary: ''
 first_seen: '2026-10-08T16:05:00Z'
 last_seen: '2026-10-09T02:10:46Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Skip sending request bodies to Routing Middleware
+# Vercel Routing Middleware
 
 _（源没给简介）_
 

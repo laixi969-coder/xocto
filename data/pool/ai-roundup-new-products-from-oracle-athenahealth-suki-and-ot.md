@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxNTmZyX05UV0lI
 summary: 'AI roundup: New products from Oracle, athenahealth, Suki and others Healthcare IT News'
 first_seen: '2026-10-08T20:19:33Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

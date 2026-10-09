@@ -23,7 +23,7 @@ summary: 'AI Sales Agent: Best AI Answering Services Publishes Speed-to-Lead Res
   Check for Sales Teams USA Today'
 first_seen: '2026-10-07T12:19:04Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

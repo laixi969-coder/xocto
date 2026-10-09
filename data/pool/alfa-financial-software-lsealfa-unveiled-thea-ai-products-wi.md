@@ -1,7 +1,6 @@
 ---
 slug: alfa-financial-software-lsealfa-unveiled-thea-ai-products-wi
-name: Alfa Financial Software (LSE:ALFA) unveiled Thea AI products; will they change the subscription
-  story?
+name: Alfa Financial Software
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: Alfa Financial Software (LSE:ALFA) unveiled Thea AI products; will they
   story? Kalkine Media
 first_seen: '2026-10-07T12:26:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Alfa Financial Software (LSE:ALFA) unveiled Thea AI products; will they change the subscription story?
+# Alfa Financial Software
 
 Alfa Financial Software (LSE:ALFA) unveiled Thea AI products; will they change the subscription story? Kalkine Media
 

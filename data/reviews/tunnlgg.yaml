@@ -1,0 +1,44 @@
+- id: req-initial-tunnlgg-2026-10-09
+  project_slug: tunnlgg
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决本地端口对外不可达、隧道地址易变的问题，痛点具体；但候选只有一句功能描述，无法确认交付是否稳定、是否含 AI 环节。
+    evidence_ids:
+    - ev-256adf26ceee7c15
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页自述外没有采用、评价或社区讨论证据，无法判断开发者是否真的把它放进日常联调流程。
+    evidence_ids:
+    - ev-256adf26ceee7c15
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是个人开发者或团队，属推断，不是已验证事实。
+    evidence_ids:
+    - ev-256adf26ceee7c15
+  - gate: truth
+    status: insufficient
+    reason: 无法核对地址是否长期稳定、断线重连与安全边界如何处理，承诺能否确定性交付仍缺材料。
+    evidence_ids:
+    - ev-256adf26ceee7c15
+  next_validation: 收集 tunnl.gg 官方定价页或文档，确认是否提供固定地址、是否含 AI 环节以及按什么计价。
+  market: ''
+  job: 后端或全栈开发者在联调第三方回调、Webhook 或机器人时，需要把本机端口暴露成一个外部可访问且地址稳定的入口，以便对方反复回调。
+  job_en: Backend or full-stack developers integrating third-party callbacks, webhooks or bots need to
+    expose a local port as an externally reachable, stable entry point so the other side can call back
+    repeatedly.
+  pain: 本地端口默认不可被外部访问，临时隧道每次重启都会换地址，开发者要反复改配置、重发回调地址，联调被中断。
+  pain_en: Local ports are not externally reachable by default, and temporary tunnels change address on
+    every restart, forcing developers to edit configs and resend callback URLs, which interrupts integration
+    work.
+  current_alternative: 常见做法是使用 ngrok 一类隧道工具、自建反向代理或部署到测试服务器，代价是地址不稳定或需要额外运维。
+  current_alternative_en: Common alternatives are tunneling tools such as ngrok, self-hosted reverse proxies,
+    or deploying to a test server, at the cost of unstable addresses or extra operations work.
+  usage_reason: 推断：若它确实能免安装地给出固定地址，开发者就省掉了每次重启后重新登记回调地址这一步，因此频繁联调外部回调的团队会优先试用；但候选未说明是否含 AI 环节，也未给出留存或付费证据。
+  usage_reason_en: 'Inference: if it truly provides a fixed address without installation, developers skip
+    re-registering the callback URL after each restart, so teams that frequently integrate external callbacks
+    would try it first; however the candidate shows no AI step and no retention or payment evidence.'

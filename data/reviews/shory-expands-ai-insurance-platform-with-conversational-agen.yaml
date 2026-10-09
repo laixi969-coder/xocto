@@ -1,0 +1,45 @@
+- id: req-initial-shory-expands-ai-insurance-platform-with-conversational-agen-2026-10-09
+  project_slug: shory-expands-ai-insurance-platform-with-conversational-agen
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投保人比价时条款分散、反复沟通的痛点，旧行为是打电话和填表，结构上成立；但公开材料未给出使用规模。
+    evidence_ids:
+    - ev-afa1a8d0291fc8ff
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇发布报道，没有客户案例、用户评价或采用数据，无法判断投保人是否真的把对话入口当作首选。
+    evidence_ids:
+    - ev-afa1a8d0291fc8ff
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、佣金或按线索收费方式，买方可能是保险公司或投保人，属推断而非已验证事实。
+    evidence_ids:
+    - ev-afa1a8d0291fc8ff
+  - gate: truth
+    status: insufficient
+    reason: 对话代理能否确定性给出可承保的报价、出错时人工如何介入，公开材料均未说明。
+    evidence_ids:
+    - ev-afa1a8d0291fc8ff
+  next_validation: 收集 Shory 官方定价或佣金说明页面，以及公开的客户案例或投保流程文档。
+  market: ''
+  job: 阿联酋的个人或企业投保人在比较车险、健康险保单时，向平台描述自己的车辆、健康状况或保障需求，希望拿到可比较的方案与报价指引，再决定是否投保。
+  job_en: Individual or business policy buyers in the UAE describe their vehicle, health or coverage needs
+    to the platform while comparing motor and health policies, aiming to get comparable options and quote
+    guidance before deciding to buy.
+  pain: 保险条款与报价分散、术语难懂，用户往往要打多通电话或逐个填表才能比价，不解决就要花大量时间反复沟通，且容易买错保障。
+  pain_en: Policy terms and quotes are scattered and jargon-heavy, so buyers often make several calls
+    or fill in multiple forms to compare, costing hours of back-and-forth and raising the risk of buying
+    the wrong cover.
+  current_alternative: 此前用户主要靠电话、线下经纪人或保险公司官网表单逐个询价，再自行整理对比。
+  current_alternative_en: Previously buyers mainly called agents, visited brokers offline, or filled in
+    insurer website forms one by one, then compared the results themselves.
+  usage_reason: 推断：相较逐个填表和打电话，对话式代理把需求收集与初步方案匹配合并到一次对话里，减少了重复描述需求这一步，因此怕麻烦、想快速拿到报价区间的投保人会在初次比价时选择它；但公开材料未显示留存或复购证据。
+  usage_reason_en: 'Inference: compared with filling in forms and calling around, the conversational agent
+    merges requirement gathering and initial option matching into one dialogue, removing the step of restating
+    needs repeatedly, so buyers who want a quick quote range may choose it for first comparison; public
+    materials show no retention or repeat-use evidence.'

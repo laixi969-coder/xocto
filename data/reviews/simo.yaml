@@ -1,0 +1,43 @@
+- id: req-initial-simo-2026-10-09
+  project_slug: simo
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决代理自动执行时的合规与越权风险，但公开材料只有一句定位，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-4bd0e04cde7dd916
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、客户案例或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-4bd0e04cde7dd916
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或买方信息，收费方式未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4bd0e04cde7dd916
+  - gate: truth
+    status: insufficient
+    reason: 无法核验判断依据、误判率与人工复核边界，交付确定性不明。
+    evidence_ids:
+    - ev-4bd0e04cde7dd916
+  next_validation: 收集该产品官方文档或定价页，确认判断依据、接入方式与是否按拦截或审计收费。
+  market: ''
+  job: 企业在让软件代理自动执行操作时，需要在动作发生前判断该动作是否合规、是否越权，希望有一个环节对代理的决策做把关。
+  job_en: An enterprise letting software agents act automatically needs to judge whether an action is
+    compliant or over-privileged before it happens, and wants a step that vets the agent's decisions.
+  pain: 代理误操作或越权会带来合规与资金风险，企业目前缺少统一的把关环节；但公开材料未给出具体事故或损失数据。
+  pain_en: An agent's mistaken or over-privileged action creates compliance and financial risk, and enterprises
+    lack a unified vetting step; the public material gives no concrete incident or loss data.
+  current_alternative: 依靠人工审批、权限配置或代理平台自带的限制规则。
+  current_alternative_en: Relying on manual approval, permission configuration, or the restriction rules
+    built into the agent platform.
+  usage_reason: 推断：把判断放在动作执行前，可减少事后人工回滚与审计的步骤，因此让代理直接操作系统、又受合规约束的企业可能选择它；但公开材料只有一句定位描述，没有客户案例或付费证据。
+  usage_reason_en: 'Inference: placing judgment before the action executes reduces the steps of post-hoc
+    manual rollback and audit, so enterprises that let agents operate systems directly under compliance
+    constraints may choose it; however the public material is a single positioning line with no customer
+    case or payment evidence.'

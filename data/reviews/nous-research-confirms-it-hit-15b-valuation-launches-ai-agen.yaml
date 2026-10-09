@@ -1,0 +1,44 @@
+- id: req-initial-nous-research-confirms-it-hit-15b-valuation-launches-ai-agen-2026-10-09
+  project_slug: nous-research-confirms-it-hit-15b-valuation-launches-ai-agen
+  level: initial
+  reviewed_at: '2026-10-09T02:10:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业重复性流程任务占用人力、难以规模化的问题，痛点刚性且旧做法明确；但具体交付内容公开材料未说明。
+    evidence_ids:
+    - ev-49b3c3c6ffcbdf35
+    - ev-79b99fdb038c69ec
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资与发布报道，没有企业采用、留存或复购证据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-79b99fdb038c69ec
+  - gate: model
+    status: insufficient
+    reason: 买方为企业用户，但未披露定价与采购方式，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-79b99fdb038c69ec
+  - gate: truth
+    status: insufficient
+    reason: 缺少部署文档与交付结果材料，无法核对 agent 在企业流程中能否确定性完成承诺。
+    evidence_ids:
+    - ev-79b99fdb038c69ec
+  next_validation: 收集 Nous Research 企业 agent 的官方产品页或定价页，核对它具体承接哪些流程、按什么计价。
+  market: ''
+  job: 企业内部的运营或职能团队在处理重复性流程任务时，需要把一部分执行工作交给可调用的 agent 完成，而不是逐条人工操作。
+  job_en: Internal operations or functional teams at enterprises need to hand part of their repetitive
+    process work to a callable agent instead of doing each step manually.
+  pain: 重复性流程任务占用人力，人工逐条处理速度慢且难以规模化，这是企业长期存在的负担。
+  pain_en: Repetitive process tasks consume headcount, and handling them one by one manually is slow and
+    hard to scale, a long-standing burden for enterprises.
+  current_alternative: 由员工手工执行这些流程步骤，或使用通用聊天助手逐段粘贴处理，再人工拼接结果。
+  current_alternative_en: Employees execute these process steps by hand, or use a general chat assistant
+    piece by piece and stitch the results together manually.
+  usage_reason: 推断：相较手工逐条处理或通用聊天助手分段粘贴，agent 可直接承接一段流程并返回结果，减少人工搬运与拼接这一步；但公开材料未给出定价、客户案例或使用数据，哪类企业会真正选择它尚缺证据。
+  usage_reason_en: 'Inference: compared with handling steps by hand or pasting segments into a general
+    chat assistant, an agent can take on a stretch of the process and return a result, removing the manual
+    shuttling and stitching step; however, no pricing, customer case or usage data is public, so which
+    enterprises would actually choose it lacks evidence.'

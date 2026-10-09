@@ -21,7 +21,7 @@ canonical_url: https://biohub.org/news/virtual-biology-initiative-expansion
 summary: $1.8B global commitment
 first_seen: '2026-10-08T20:46:25Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

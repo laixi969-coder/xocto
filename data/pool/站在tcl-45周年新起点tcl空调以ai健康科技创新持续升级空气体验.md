@@ -1,6 +1,6 @@
 ---
 slug: 站在tcl-45周年新起点tcl空调以ai健康科技创新持续升级空气体验
-name: 站在TCL 45周年新起点，TCL空调以AI健康科技创新持续升级空气体验
+name: TCL空调
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zbFZHYnFPQXZY
 summary: 站在TCL 45周年新起点，TCL空调以AI健康科技创新持续升级空气体验 人民政协网
 first_seen: '2026-10-08T09:04:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 站在TCL 45周年新起点，TCL空调以AI健康科技创新持续升级空气体验
+# TCL空调
 
 站在TCL 45周年新起点，TCL空调以AI健康科技创新持续升级空气体验 人民政协网
 

@@ -1,0 +1,42 @@
+- id: req-initial-today-lands-28m-to-scale-its-ai-platform-for-financial-advis-2026-10-09
+  project_slug: today-lands-28m-to-scale-its-ai-platform-for-financial-advis
+  level: initial
+  reviewed_at: '2026-10-09T02:10:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决顾问文书与流程工作，但公开材料未写清具体任务、痛点与旧做法，无法还原用户任务闭环。
+    evidence_ids:
+    - ev-3579f7326e7333a4
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资事实，没有顾问采用、客户案例或使用反馈，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-3579f7326e7333a4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，只能推断可能向保险与理财机构按席位收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3579f7326e7333a4
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也未见安全与人工复核边界，仅有一轮种子融资叙事。
+    evidence_ids:
+    - ev-3579f7326e7333a4
+  next_validation: 收集 TODAY 官方产品页或定价页，确认其面向顾问的具体交付物、计价方式与是否披露客户案例。
+  market: ''
+  job: 财务与保险顾问在为客户准备建议书、保单方案或合规文书时，需要把客户资料整理成可提交的文件。
+  job_en: Financial and insurance advisors preparing proposals, policy options or compliance documents
+    need to turn client materials into submittable files.
+  pain: 公开材料未说明顾问具体卡在哪一步，只能推断文书与流程工作耗时；缺少用户抱怨或案例支撑。
+  pain_en: Public material does not say which step blocks advisors; the time cost of paperwork and process
+    work is only inferred, with no user complaints or cases.
+  current_alternative: 公开材料未披露顾问此前用什么工具或人工方式完成这些工作。
+  current_alternative_en: Public material does not disclose what tools or manual process advisors used
+    before.
+  usage_reason: 无法判断：材料只称其自动化顾问工作，未说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释顾问为何选择它。
+  usage_reason_en: 'Cannot be judged: the material only says it automates advisors'' work, without showing
+    which step it removes versus the old process or which checkable result it improves, so it cannot explain
+    why advisors would choose it.'

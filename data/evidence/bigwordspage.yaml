@@ -58,3 +58,55 @@
   source_kind: adoption
   tier: behavioural
   fact: Turn any screen into a sign. The URL is the app
+- id: ev-dba4574fc8bf4312
+  project_slug: bigwordspage
+  url: https://www.microsoft.com/en-us/
+  title: Microsoft - Official Home Page
+  published_at: ''
+  collected_at: '2026-10-09T02:39:46Z'
+  source_kind: pain
+  tier: independent
+  fact: At Microsoft our mission and values are to help people and businesses throughout the world realize
+    their full potential.
+- id: ev-921f4d709113276b
+  project_slug: bigwordspage
+  url: https://www.microsoft.com/en-us/
+  title: Microsoft - Official Home Page
+  published_at: ''
+  collected_at: '2026-10-09T02:39:46Z'
+  source_kind: workaround
+  tier: independent
+  fact: At Microsoft our mission and values are to help people and businesses throughout the world realize
+    their full potential.
+- id: ev-2d0b7880e53a60a3
+  project_slug: bigwordspage
+  url: https://support.google.com/youtube/answer/174084?hl=en&co=genie.platform=desktop
+  title: Turn Restricted Mode on or off on YouTube
+  published_at: ''
+  collected_at: '2026-10-09T02:39:46Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Check the YouTube content restrictions page to see if you have any network or account level restrictions.
+    A check mark will display beside the relevant restriction, and the text below will indicate the restriction
+    level. If your DNS restrictions are on, and the level is set to “moderate” or “strict," you have content
+    filtering turned on.
+- id: ev-2b5aa28dd1a4fd82
+  project_slug: bigwordspage
+  url: https://stackoverflow.com/questions/13030153/translate-website-to-any-specific-language-on-page-load
+  title: Translate website to any specific language, on page load
+  published_at: ''
+  collected_at: '2026-10-09T02:39:46Z'
+  source_kind: retention
+  tier: independent
+  fact: Anybody have any idea how to translate a web page into any language using Google translate when
+    it loads? I don't want a drop down menu, I just want to convert the website into a specific language
+    when it loads.
+- id: ev-6f56ae125726913b
+  project_slug: bigwordspage
+  url: https://www.bing.com/search?format=rss&q=AI
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-10-09T02:43:01Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI'

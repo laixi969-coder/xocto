@@ -1,6 +1,6 @@
 ---
 slug: cstmai-launched-by-custom-software-development-company-devco
-name: cstm.AI Launched by Custom Software Development Company DEV.co
+name: cstm.AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxOYlRscHA0Q0NH
 summary: cstm.AI Launched by Custom Software Development Company DEV.co FinancialContent
 first_seen: '2026-10-08T13:51:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# cstm.AI Launched by Custom Software Development Company DEV.co
+# cstm.AI
 
 cstm.AI Launched by Custom Software Development Company DEV.co FinancialContent
 

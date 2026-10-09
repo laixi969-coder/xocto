@@ -28,7 +28,7 @@ summary: '### Chores
   * **internal:** match the package version in uv.lock'
 first_seen: '2026-10-08T03:41:38Z'
 last_seen: '2026-10-09T02:10:18Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

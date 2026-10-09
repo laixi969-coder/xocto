@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOdTZfV2Q0WnlQ
 summary: Amazon’s New AI Shopping Tool Is Making Wild Assumptions About Customers Inc.com
 first_seen: '2026-10-08T19:27:19Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

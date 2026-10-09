@@ -1,0 +1,43 @@
+- id: req-initial-roqer-2026-10-09
+  project_slug: roqer
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Roblox 开发者从搭建到试玩验证的需求，痛点是工具切换频繁、验证耗时，旧做法是手动搭建与试玩，结构上成立。
+    evidence_ids:
+    - ev-ed17f03aa7fa8a7c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 107 星、11 个 fork，说明有开发者关注，但缺少持续采用或口碑证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-ed17f03aa7fa8a7c
+  - gate: model
+    status: insufficient
+    reason: 项目开源且依赖用户自带模型订阅，未披露自身收费或买方，钱可能来自赞助或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ed17f03aa7fa8a7c
+  - gate: truth
+    status: insufficient
+    reason: 有 7 个未关闭 issue，缺少可复现的构建与试玩结果评测，交付确定性与人工确认边界未核验。
+    evidence_ids:
+    - ev-ed17f03aa7fa8a7c
+  next_validation: 收集该仓库的 README、发布说明与 issue 讨论，核验其构建、写脚本与试玩动作的实际效果与已知缺陷。
+  market: ''
+  job: Roblox 独立开发者或小型工作室在 Roblox Studio 中搭建场景、编写脚本并试玩验证时，完成从构建到试玩的开发任务。
+  job_en: Roblox independent developers or small studios completing build-to-playtest development tasks
+    while constructing scenes, writing scripts and playtesting in Roblox Studio.
+  pain: 从搭建场景到写脚本再到试玩验证需要反复切换工具与手动操作，独立开发者人手有限，验证环节尤其耗时。
+  pain_en: Going from scene construction to scripting to playtest verification requires repeated tool
+    switching and manual work, and independent developers are short-handed, making verification especially
+    time-consuming.
+  current_alternative: 在 Roblox Studio 中手动搭建与编码，再自行启动试玩检查。
+  current_alternative_en: Manually building and coding in Roblox Studio, then launching playtests to check.
+  usage_reason: 推断：相较手动搭建与试玩，Roqer 让代理在项目内连续执行构建、写脚本与试玩，减少工具切换与重复验证步骤，对独立开发者有吸引力；但公开材料未显示实际使用或留存证据。
+  usage_reason_en: 'Inference: compared with manual building and playtesting, Roqer lets the agent continuously
+    perform building, scripting and playtesting inside the project, reducing tool switching and repeated
+    verification steps, which appeals to independent developers; however, public materials show no actual
+    usage or retention evidence.'

@@ -21,7 +21,7 @@ canonical_url: https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-m
 summary: Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances
 first_seen: '2026-10-08T19:17:51Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -23,7 +23,7 @@ summary: Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join 
   at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%.
 first_seen: '2026-10-08T15:00:00Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

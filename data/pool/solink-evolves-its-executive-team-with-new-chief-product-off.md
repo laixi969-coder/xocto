@@ -1,7 +1,6 @@
 ---
 slug: solink-evolves-its-executive-team-with-new-chief-product-off
-name: Solink Evolves Its Executive Team With New Chief Product Officer and Chief Corporate & Legal Officer
-  Roles as It Grows the AI Vision Intelligence Category
+name: Solink
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: Solink Evolves Its Executive Team With New Chief Product Officer and Ch
   Officer Roles as It Grows the AI Vision Intelligence Category Business Wire
 first_seen: '2026-10-08T13:00:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Solink Evolves Its Executive Team With New Chief Product Officer and Chief Corporate & Legal Officer Roles as It Grows the AI Vision Intelligence Category
+# Solink
 
 Solink Evolves Its Executive Team With New Chief Product Officer and Chief Corporate & Legal Officer Roles as It Grows the AI Vision Intelligence Category Business Wire
 

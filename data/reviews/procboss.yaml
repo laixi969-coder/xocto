@@ -1,0 +1,42 @@
+- id: req-initial-procboss-2026-10-09
+  project_slug: procboss
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多台服务器上进程与部署分散、逐台处理的痛点，但公开材料只有一句描述，说不清 AI 具体接管哪一步。
+    evidence_ids:
+    - ev-d8c5f332e71c1247
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品描述外无采用、评价或社区讨论证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-d8c5f332e71c1247
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方信息，钱可能来自个人订阅或团队席位，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d8c5f332e71c1247
+  - gate: truth
+    status: insufficient
+    reason: 无法核对跨服务器管理是否贴近该工作的第一性目标，也未见安全与人工边界说明。
+    evidence_ids:
+    - ev-d8c5f332e71c1247
+  next_validation: 收集 ProcBoss 官方页面或文档，确认它支持哪些服务器环境、AI 具体执行哪些运维动作以及是否公布定价。
+  market: ''
+  job: 运维或后端开发者需要在多台服务器上运行、部署和监控自己的应用，处理分散在各机器上的进程状态。
+  job_en: An operations or backend developer needs to run, deploy and monitor their apps across multiple
+    servers, handling process state scattered per machine.
+  pain: 应用分散在多台机器上，进程状态和部署动作要逐台处理，出问题时排查路径长。
+  pain_en: Apps are spread across machines, so process state and deployment actions must be handled one
+    by one, and troubleshooting takes a long path when something breaks.
+  current_alternative: 目前多靠逐台 SSH 加脚本、systemd 或通用监控面板自行拼装。
+  current_alternative_en: Today people mostly cobble together per-machine SSH with scripts, systemd, or
+    general monitoring dashboards.
+  usage_reason: 推断：它把多台服务器上的运行、部署与监控收拢到一处，省掉逐台登录查看和手动执行这一步，因此自建多台服务器的小团队会在日常运维中选择它；公开材料未给出用户反馈或留存证据。
+  usage_reason_en: 'Inference: it gathers running, deploying and monitoring across servers into one place,
+    removing the step of logging into each machine and acting manually, so small teams with several self-hosted
+    servers would choose it for daily operations; no user feedback or retention evidence is public.'

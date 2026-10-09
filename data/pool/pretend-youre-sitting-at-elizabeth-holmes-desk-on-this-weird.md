@@ -23,7 +23,7 @@ summary: With over a thousand emails, slides, texts, and documents from the Unit
   rifle through the Theranos founder's desk.
 first_seen: '2026-10-08T21:00:00Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

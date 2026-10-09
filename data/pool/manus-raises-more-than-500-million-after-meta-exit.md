@@ -1,6 +1,6 @@
 ---
 slug: manus-raises-more-than-500-million-after-meta-exit
-name: Manus raises more than $500 million after Meta exit
+name: Manus
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxQM19QMGxMbHEy
 summary: Manus raises more than $500 million after Meta exit Reuters
 first_seen: '2026-10-08T13:55:34Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Manus raises more than $500 million after Meta exit
+# Manus
 
 Manus raises more than $500 million after Meta exit Reuters
 

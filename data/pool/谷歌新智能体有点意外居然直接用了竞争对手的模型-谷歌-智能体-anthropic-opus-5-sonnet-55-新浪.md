@@ -1,6 +1,6 @@
 ---
 slug: 谷歌新智能体有点意外居然直接用了竞争对手的模型-谷歌-智能体-anthropic-opus-5-sonnet-55-新浪
-name: 谷歌新智能体有点意外，居然直接用了竞争对手的模型|谷歌|智能体|anthropic|opus 5|sonnet 5.5_新浪新闻
+name: Gemini Agent
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BME9wbGJPS2Fk
 summary: 谷歌新智能体有点意外，居然直接用了竞争对手的模型|谷歌|智能体|anthropic|opus 5|sonnet 5.5_新浪新闻 手机新浪网
 first_seen: '2026-10-09T01:12:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 谷歌新智能体有点意外，居然直接用了竞争对手的模型|谷歌|智能体|anthropic|opus 5|sonnet 5.5_新浪新闻
+# Gemini Agent
 
 谷歌新智能体有点意外，居然直接用了竞争对手的模型|谷歌|智能体|anthropic|opus 5|sonnet 5.5_新浪新闻 手机新浪网
 

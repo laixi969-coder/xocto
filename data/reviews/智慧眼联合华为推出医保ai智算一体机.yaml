@@ -1,0 +1,43 @@
+- id: req-initial-智慧眼联合华为推出医保ai智算一体机-2026-10-09
+  project_slug: 智慧眼联合华为推出医保ai智算一体机
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决医保审核中单据识别与规则校验的人工负担，痛点方向成立，但公开材料未说明具体流程与交付结果，价值判断证据不足。
+    evidence_ids:
+    - ev-e692b7bded133afe
+  - gate: consensus
+    status: insufficient
+    reason: 仅有联合发布事实，未见客户采用、试点或行业反馈，共识环节无法判断。
+    evidence_ids:
+    - ev-e692b7bded133afe
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、采购方式或付费方，钱从哪来无法核验，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e692b7bded133afe
+  - gate: truth
+    status: insufficient
+    reason: 无法确认模型输出能否确定性交付、人工复核边界如何设定，求真环节缺少材料。
+    evidence_ids:
+    - ev-e692b7bded133afe
+  next_validation: 收集该一体机的官方产品页或部署文档，确认其具体审核环节、交付形态与是否披露客户案例。
+  market: ''
+  job: 医保经办与审核人员在处理报销单据和合规材料时，需要完成单据识别与规则校验并给出审核结论。
+  job_en: Medical insurance staff process reimbursement documents and compliance materials, needing to
+    recognize documents, check rules and produce review conclusions.
+  pain: 医保审核材料量大、规则复杂，人工逐单核对耗时且易出错；公开材料未说明该产品具体缓解了哪一步。
+  pain_en: Insurance review involves large volumes of documents and complex rules; manual checking is
+    slow and error-prone, though public materials do not specify which step the product eases.
+  current_alternative: 目前多依赖人工审核与既有信息系统，公开材料未给出可对照的旧流程细节。
+  current_alternative_en: Today this largely relies on manual review and existing information systems;
+    public materials give no comparable detail on the prior workflow.
+  usage_reason: 推断：本地部署可满足数据不出域要求，若其能自动完成单据识别与规则校验，可减少人工逐单核对的工作量，因此对合规要求高的医保机构有吸引力；但缺少客户案例与实测结果，尚不能确认。
+  usage_reason_en: 'Inference: local deployment can meet data-residency requirements, and if it automates
+    document recognition and rule checking it could cut manual per-document verification, appealing to
+    compliance-heavy insurance institutions; however, without customer cases or test results this cannot
+    be confirmed.'

@@ -23,7 +23,7 @@ summary: Ben Affleck is going viral for his deep knowledge of AI, from neural ne
   he's more than just a Hollywood star.
 first_seen: '2026-10-08T18:20:32Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

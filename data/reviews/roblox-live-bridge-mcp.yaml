@@ -1,0 +1,43 @@
+- id: req-initial-roblox-live-bridge-mcp-2026-10-09
+  project_slug: roblox-live-bridge-mcp
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Roblox 开发者检查与控制运行中客户端的需求，痛点是线上状态难复现、排查慢，旧做法是手动操作加日志，结构上成立。
+    evidence_ids:
+    - ev-b52b2ab83938defe
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 70 星但无评论或采用数据，无法判断是否形成开发者共识。
+    evidence_ids:
+    - ev-b52b2ab83938defe
+  - gate: model
+    status: insufficient
+    reason: 项目开源且未披露任何收费或买方，钱可能来自赞助或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b52b2ab83938defe
+  - gate: truth
+    status: insufficient
+    reason: 仅有仓库描述，缺少文档、实测与安全边界说明，无法核验其控制客户端时的确定性与风险。
+    evidence_ids:
+    - ev-b52b2ab83938defe
+  next_validation: 收集该仓库的 README、示例脚本与 issue 讨论，核验其客户端检查与控制能力及安全限制。
+  market: ''
+  job: Roblox 开发者或小型工作室在调试线上体验时，检查并控制运行中的客户端状态。
+  job_en: Roblox developers or small studios inspecting and controlling a running client state while debugging
+    a live experience.
+  pain: 线上客户端状态难以复现和检查，开发者通常靠手动操作与日志排查，定位问题耗时长。
+  pain_en: Live client state is hard to reproduce and inspect, and developers usually rely on manual operation
+    and logs, making issue localization slow.
+  current_alternative: 手动在 Roblox Studio 或客户端内操作，配合日志与截图排查。
+  current_alternative_en: Manual operation inside Roblox Studio or the client, combined with logs and
+    screenshots.
+  usage_reason: 推断：相较手动排查，该项目让 AI 代理直接读取并控制运行中的客户端，减少人工复现步骤，对需要频繁调试线上问题的 Roblox 团队有吸引力；但公开材料未显示实际使用或留存证据。
+  usage_reason_en: 'Inference: compared with manual troubleshooting, this project lets an AI agent read
+    and control a running client directly, reducing manual reproduction steps, which appeals to Roblox
+    teams that frequently debug live issues; however, public materials show no actual usage or retention
+    evidence.'

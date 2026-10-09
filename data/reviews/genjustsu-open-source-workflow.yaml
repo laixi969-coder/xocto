@@ -1,0 +1,45 @@
+- id: req-initial-genjustsu-open-source-workflow-2026-10-09
+  project_slug: genjustsu-open-source-workflow
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决已拍素材换角换场景的需求，痛点是逐帧抠像与重拍成本高，旧做法明确，结构上成立。
+    evidence_ids:
+    - ev-34dc14630227cc10
+  - gate: consensus
+    status: insufficient
+    reason: 仅 84 星、20 次 fork，无用户评价或客户案例，尚不能判断是否形成稳定使用。
+    evidence_ids:
+    - ev-34dc14630227cc10
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方可能是后期团队或广告主，属判断而非已验证事实。
+    evidence_ids:
+    - ev-34dc14630227cc10
+  - gate: truth
+    status: insufficient
+    reason: 依赖 Seedance 等外部生成模型，遮罩准确度与原声对齐的确定性交付尚无实测材料。
+    evidence_ids:
+    - ev-34dc14630227cc10
+  next_validation: 收集该仓库的 issue、discussion 或可复现实测，确认遮罩准确度与带原声导出的实际交付效果。
+  market: ''
+  job: 广告或短剧后期人员在拿到已拍摄素材后，需要把画面里指定的人物或物体换成另一形象，同时保留原始对白与音轨，最终交付可直接剪辑的替换片段。
+  job_en: An ad or short-drama post-production operator, holding already-shot footage, needs to swap a
+    specified character or object for another look while keeping the original dialogue and audio, delivering
+    a replacement clip ready for editing.
+  pain: 传统做法要逐帧抠像、手工跟踪遮罩并重新合成，换角或换场景往往意味着重拍或长时间返工，成本高且难以保留原声。
+  pain_en: The traditional route requires frame-by-frame rotoscoping, manual mask tracking and recompositing;
+    recasting or swapping scenes often means reshoots or long rework, with high cost and difficulty keeping
+    original audio.
+  current_alternative: 后期人员通常用 After Effects、Nuke 等工具手工抠像与跟踪，或直接重拍相关镜头，再单独处理音频。
+  current_alternative_en: Post-production staff typically rotoscope and track manually in After Effects
+    or Nuke, or reshoot the relevant shots and handle audio separately.
+  usage_reason: 推断：相比手工抠像，它把分割、深度与人脸网格组合成自动遮罩，并在同一界面里预览生成和带原声导出，减少逐帧描边与音频重新对齐这两步负担，因此承接换角、换场景类订单的后期团队会在素材已拍、不想重拍时选择它。
+  usage_reason_en: 'Inference: versus manual rotoscoping, it combines segmentation, depth and face meshes
+    into automatic masks and previews generations with audio-preserving export in one interface, cutting
+    the frame-by-frame outlining and audio realignment steps, so post teams taking recast or scene-swap
+    jobs choose it when footage is already shot and reshoots are unwanted.'

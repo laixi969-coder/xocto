@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQNnBrNzRFcnFZ
 summary: AI is wreaking havoc on math and coding. Where could it have the biggest impact next? R&D World
 first_seen: '2026-10-09T01:04:22Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

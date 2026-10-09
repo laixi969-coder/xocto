@@ -1,0 +1,42 @@
+- id: req-initial-studio-bridge-mcp-2026-10-09
+  project_slug: studio-bridge-mcp
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Roblox 开发者调试运行时错误时反复切换编辑器与日志、手动复现的痛点，旧做法是人工看日志或复制到通用对话
+    evidence_ids:
+    - ev-9550219577e7ded3
+  - gate: consensus
+    status: insufficient
+    reason: 70 个星标、0 个 fork、1 个 issue，规模有限，无法判断是否形成稳定采用
+    evidence_ids:
+    - ev-9550219577e7ded3
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或商业路径，买方与付费方式不明
+    evidence_ids:
+    - ev-9550219577e7ded3
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其调试能力是否覆盖真实运行时场景，也未说明 AI 修改代码后的人工确认边界
+    evidence_ids:
+    - ev-9550219577e7ded3
+  next_validation: 查看该仓库的 issue 与 discussion，确认开发者实际使用场景与调试覆盖范围
+  market: ''
+  job: Roblox 游戏开发者在调试运行时错误时，把 Studio 的运行状态与报错信息交给 AI 助手，以定位并修复脚本问题
+  job_en: Roblox game developers debugging runtime errors pass Studio runtime state and error messages
+    to an AI assistant to locate and fix script problems
+  pain: 运行时错误往往需要反复在编辑器与日志之间切换、手动复现，定位脚本问题耗时
+  pain_en: Runtime errors often require switching between the editor and logs and manually reproducing
+    them, making script problems slow to locate
+  current_alternative: 开发者手动查看 Studio 输出窗口与日志，或把代码片段复制到通用 AI 对话中询问
+  current_alternative_en: Developers manually read the Studio output window and logs, or paste code snippets
+    into a general AI chat
+  usage_reason: 推断：相较手动复制日志到通用对话，它把 Studio 运行时状态直接接入 AI，减少复现与搬运信息这一步，因此常做运行时调试的 Roblox 开发者会尝试它；公开材料未提供留存或重复使用证据
+  usage_reason_en: 'Inference: versus manually copying logs into a general chat, it feeds Studio runtime
+    state directly to the AI, removing the reproduction and copy-paste step, so Roblox developers who
+    debug runtime often would try it; no retention or repeat-use evidence is public'

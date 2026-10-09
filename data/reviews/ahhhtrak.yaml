@@ -1,0 +1,42 @@
+- id: req-initial-ahhhtrak-2026-10-09
+  project_slug: ahhhtrak
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决无车人群跨城公共交通规划的问题，但公开材料未说明旧流程耗时与出错代价，痛点强度无法判断。
+    evidence_ids:
+    - ev-f1561b0701867bbe
+  - gate: consensus
+    status: insufficient
+    reason: 5 个点赞与 2 条评论只说明有少量关注，没有采用或持续使用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-f1561b0701867bbe
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅或与出行平台合作均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-f1561b0701867bbe
+  - gate: truth
+    status: insufficient
+    reason: 无法核对路线是否真能执行、换乘时间是否留足，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-f1561b0701867bbe
+  next_validation: 收集该产品的官方说明或用户实测记录，确认跨城路线是否可执行以及换乘时间如何计算。
+  market: ''
+  job: 没有车的人在美国规划跨城出行时，需要把多个城市的本地公交、地铁和区域铁路拼成一条能实际执行的路线。
+  job_en: A car-free person planning an intercity trip in the U.S. needs to stitch local buses, subways
+    and regional rail across several cities into one route that can actually be executed.
+  pain: 公开材料只说明规划范围，没有用户反馈说明逐个城市查询究竟耗时多少、错在哪一步。
+  pain_en: Public material only states the planning scope, with no user feedback on how long per-city
+    lookups take or where they go wrong.
+  current_alternative: 现有做法是逐个城市公交网站查询，再靠地图应用和论坛帖子人工拼接路线。
+  current_alternative_en: Current practice is checking each city's transit site and manually stitching
+    routes together with map apps and forum posts.
+  usage_reason: 推断：若它能把分散的地方公交数据拼成一条带换乘时间的路线，无车出行者会在跨城规划时用它，省掉逐个城市查班次的一步；但缺少采用与留存证据，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if it can stitch scattered local transit data into one route with transfer
+    times, car-free travellers would use it for intercity planning, saving the step of checking each city''s
+    schedule; but with no adoption or retention evidence this causal link is unproven.'

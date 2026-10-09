@@ -21,7 +21,7 @@ canonical_url: https://pivotlake.io
 summary: fast analytics on Iceberg, 2x+ faster than ClickHouse / DuckDB
 first_seen: '2026-10-08T15:08:42Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-judgedsystems-2026-10-09
+  project_slug: judgedsystems
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决工单判断这一需求，但公开材料未写出痛点、频率与不采用的后果，无法确认需求刚性。
+    evidence_ids:
+    - ev-f8ad7cd0308d3068
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且没有客户案例或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-f8ad7cd0308d3068
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方是客服团队还是平台方，也未披露定价或收费方式。
+    evidence_ids:
+    - ev-f8ad7cd0308d3068
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对判定口径、人工复核边界与交付确定性。
+    evidence_ids:
+    - ev-f8ad7cd0308d3068
+  next_validation: 收集该产品官方文档或定价页，确认判断接口的输入字段、判定口径与收费方式。
+  market: ''
+  job: 客服运营负责人在处理待判定工单时，把工单内容与内部规则交给该接口，得到一条可执行的判定结论，用于决定升级、退款或回复口径。
+  job_en: A customer support operations lead handling a pending ticket sends the ticket content and internal
+    rules to the API to get an actionable judgment for deciding escalation, refund or reply wording.
+  pain: 公开材料只说明它是面向支持系统的判断接口，未描述具体痛点、旧流程耗时或错误代价，无法确认用户因此损失什么。
+  pain_en: The public material only describes a judgment API for support systems and does not state the
+    specific pain, time cost of the old process or cost of errors, so what users lose is unconfirmed.
+  current_alternative: 公开材料未说明现有替代方式，按结构推断可能是资深客服主管人工判断或工单系统内的固定规则。
+  current_alternative_en: The public material does not state the current alternative; structurally it
+    may be manual judgment by a senior support lead or fixed rules inside a ticketing system.
+  usage_reason: 无法判断：材料未说明接口相较人工判断或固定规则减少了哪一步负担，也未给出可核对的结果改善，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step the API removes versus manual
+    judgment or fixed rules, nor any checkable outcome improvement, so it cannot explain why users would
+    choose it.'

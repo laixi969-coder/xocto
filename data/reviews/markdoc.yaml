@@ -1,0 +1,44 @@
+- id: req-initial-markdoc-2026-10-09
+  project_slug: markdoc
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决人与代理共编同一份 Markdown 这一任务，但痛点强度、频率与不采用的后果在公开材料中未体现，尚不能判定价值成立。
+    evidence_ids:
+    - ev-0babee0dc0d662c4
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品描述，没有用户评价、采用规模或社区讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-0babee0dc0d662c4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0babee0dc0d662c4
+  - gate: truth
+    status: insufficient
+    reason: 编辑权分配、冲突处理与最终交付形态均未说明，交付确定性缺少依据。
+    evidence_ids:
+    - ev-0babee0dc0d662c4
+  next_validation: 收集该产品的官方说明或仓库文档，确认人与代理如何分配编辑权、冲突如何解决以及是否按席位收费。
+  market: ''
+  job: 技术写作者或开发者在维护产品文档或开源 README 时，一边自己改 Markdown，一边让 AI 代理生成或修改同一份文件，要保证两边改动不互相覆盖。
+  job_en: A technical writer or developer maintaining product docs or an open-source README edits Markdown
+    themselves while an AI agent generates or edits the same file, and needs the two sets of changes not
+    to overwrite each other.
+  pain: 人和代理同时改一份文件时，改动容易互相覆盖，谁改了什么、以哪版为准往往要事后人工比对。
+  pain_en: When a person and an agent edit one file at the same time, changes easily overwrite each other,
+    and who changed what and which version wins often has to be reconciled by hand afterwards.
+  current_alternative: 现在多是把代理输出复制进编辑器、用 Git 分支或版本历史人工比对，也有人干脆让代理单独生成文件再手动合并。
+  current_alternative_en: Today people mostly paste agent output into the editor, compare manually through
+    Git branches or version history, or let the agent produce a separate file and merge it by hand.
+  usage_reason: 推断：相较复制粘贴加人工比对，它让代理直接在同一份 Markdown 上工作，省掉的是把代理产出搬回编辑器再核对差异这一步，因此经常让代理写文档的开发者可能先试它；但公开材料未说明冲突处理机制，也无留存或付费证据。
+  usage_reason_en: 'Inference: instead of copy-paste plus manual diffing, it lets the agent work on the
+    same Markdown file, removing the step of moving agent output back into the editor and re-checking
+    differences, so developers who often have agents write docs may try it first; however the public material
+    does not describe conflict handling and gives no retention or payment evidence.'

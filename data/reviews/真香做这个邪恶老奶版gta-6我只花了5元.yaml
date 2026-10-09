@@ -1,0 +1,42 @@
+- id: req-initial-真香做这个邪恶老奶版gta-6我只花了5元-2026-10-09
+  project_slug: 真香做这个邪恶老奶版gta-6我只花了5元
+  level: initial
+  reviewed_at: '2026-10-09T02:10:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短视频与广告素材制作中实拍外包成本高、测试方向少的问题，痛点具体，交付为可用的视频片段。
+    evidence_ids:
+    - ev-573b0a5861f8e04b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有预览版发布与单条成本示例，未见创作者持续使用、成片可用率或复购数据。
+    evidence_ids:
+    - ev-573b0a5861f8e04b
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出单条约5元的示例成本，未披露正式定价、商用授权与按量计费方式，付费路径为推断。
+    evidence_ids:
+    - ev-573b0a5861f8e04b
+  - gate: truth
+    status: insufficient
+    reason: 生成内容的版权、素材来源与商用合规边界未说明，交付确定性缺少可核对材料。
+    evidence_ids:
+    - ev-573b0a5861f8e04b
+  next_validation: 收集Vidu官方定价页与商用授权条款，确认按次或按量计费方式及生成内容的商用范围。
+  market: ''
+  job: 短视频创作者或买量素材制作者在需要快速产出游戏风格、剧情类片段时，用文字或参考素材生成视频并挑选可用成片。
+  job_en: Short-video creators or performance-ad asset producers need to quickly produce game-style or
+    narrative clips, generating video from text or reference material and selecting usable output.
+  pain: 这类片段过去依赖实拍或外包，单条成本高、周期长，测试多个创意方向时预算很快耗尽。
+  pain_en: Such clips previously relied on live shooting or outsourcing, with high per-clip cost and long
+    cycles, quickly exhausting budgets when testing multiple creative directions.
+  current_alternative: 旧做法是找外包团队或自行拍摄剪辑，或使用上一代视频生成工具，成本与返工率都更高。
+  current_alternative_en: The old approach was hiring outsourcing teams or shooting and editing in-house,
+    or using earlier-generation video generation tools, both with higher cost and rework rates.
+  usage_reason: 推断：公开材料称一段成片成本约5元，若成片可用率可接受，创作者可在同一预算下测试更多创意方向，从而在需要批量试素材时选择它；但可用率与返工成本尚未披露。
+  usage_reason_en: 'Inference: public materials cite about 5 yuan per finished clip, so if the usable-output
+    rate is acceptable, creators can test more creative directions on the same budget and would choose
+    it when batch-testing assets; usable rate and rework cost are not yet disclosed.'

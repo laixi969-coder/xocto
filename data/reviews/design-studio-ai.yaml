@@ -664,3 +664,42 @@
     inside one still-editable cloud workspace and lets agents operate on design objects via MCP/WebMCP/CLI,
     removing the export-and-reimport step; design or front-end teams needing batch output while preserving
     editability would try it for revision and motion tasks.'
+- id: req-initial-design-studio-ai-2026-10-09
+  project_slug: design-studio-ai
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决设计资产由智能体编辑的问题，但公开材料未还原旧流程、痛点与不解决的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-2b64736c4500e9d9
+  - gate: consensus
+    status: insufficient
+    reason: 社区星标与讨论点只反映关注度，不能说明设计团队已把它放进日常工作流。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 采用 MIT 开源且支持自带密钥，未披露任何付费方或收费方式，买方与收入路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成结果由谁确认、出错如何回退，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue、discussion 与官方文档，确认是否有真实设计团队描述其替换掉的旧编辑流程。
+  market: ''
+  job: 设计师或前端工程师在接到视觉、3D 或动效需求时，处理素材与设计意图，要产出一份可继续编辑的设计文件。
+  job_en: Designers or front-end engineers receiving visual, 3D or motion requests handle assets and design
+    intent to produce a still-editable design file.
+  pain: 公开材料只说明它能被 AI 智能体调用，没有说明谁在什么旧流程里卡住、不解决会损失什么，痛点无法还原。
+  pain_en: Public material only says AI agents can call it; it does not show who is stuck in which old
+    process or what is lost if unsolved, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明用户此前用什么工具或人工步骤完成同类工作。
+  current_alternative_en: Public material does not state which tools or manual steps users previously
+    used for the same work.
+  usage_reason: 推断：若团队已在用智能体生成设计资产，把编辑动作接到统一接口可省去在多个工具间搬运文件；但缺少旧流程与采用证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if a team already generates design assets with agents, routing edits through
+    one interface could save moving files between tools; without old-process or adoption evidence, it
+    is unclear users would choose it for that reason.'

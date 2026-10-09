@@ -1,0 +1,42 @@
+- id: req-initial-artex-2026-10-09
+  project_slug: artex
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决授权渗透测试中重复探测耗时、过程难复现的问题，痛点具体，但公开材料未说明输入、人工边界与交付物，价值闭环不完整。
+    evidence_ids:
+    - ev-40ac219b5156d72d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库关注度较高，但关注与赛事获奖不等于安全团队已把它用于实际测试交付，共识卡在场景与利益环节。
+    evidence_ids:
+    - ev-40ac219b5156d72d
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业主体，买方可能是安全服务商或企业安全部门，属推断而非已验证事实。
+    evidence_ids:
+    - ev-40ac219b5156d72d
+  - gate: truth
+    status: insufficient
+    reason: 自主攻击行为的安全边界与人工复核机制未在材料中说明，无法判断承诺能否确定性交付。
+    evidence_ids:
+    - ev-40ac219b5156d72d
+  next_validation: 收集该仓库的部署文档、使用说明与 issue/discussion，确认代理执行范围、人工复核机制及是否有外部团队的实际测试记录。
+  market: ''
+  job: 渗透测试工程师在获得客户授权后，需要针对目标系统完成探测与攻击链验证，并形成可交付的测试结论。
+  job_en: After obtaining client authorization, a penetration tester needs to probe the target system,
+    validate attack chains, and produce a deliverable test conclusion.
+  pain: 渗透测试高度依赖人工经验，重复探测耗时，且过程记录与合规边界难以稳定复现。
+  pain_en: Penetration testing relies heavily on human expertise, repeated probing is time-consuming,
+    and process records and compliance boundaries are hard to reproduce consistently.
+  current_alternative: 人工使用扫描器与手工利用工具逐步测试，过程与报告由工程师自行整理。
+  current_alternative_en: Engineers manually use scanners and exploitation tools step by step, compiling
+    process and reports themselves.
+  usage_reason: 推断：它把探测与攻击链尝试交给代理自动执行，减少工程师逐步手工操作的那一步，因此做授权测试的安全团队会关注它；但公开材料没有客户案例或重复使用证据，无法确认已进入实际交付流程。
+  usage_reason_en: 'Inference: it delegates probing and attack-chain attempts to agents, removing the
+    step of manual execution by engineers, so security teams doing authorized testing may follow it; there
+    are no public customer cases or repeat-use evidence confirming it is in real delivery workflows.'

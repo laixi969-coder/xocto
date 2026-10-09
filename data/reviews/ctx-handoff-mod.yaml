@@ -1,0 +1,45 @@
+- id: req-initial-ctx-handoff-mod-2026-10-09
+  project_slug: ctx-handoff-mod
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上下文写满后无法继续、需手动重述项目背景的痛点，旧做法是重开会话并重新粘贴说明，属于真实且反复出现的工作流摩擦。
+    evidence_ids:
+    - ev-b427177e2490ebae
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库说明与 67 星、6 次复刻，没有用户评价、讨论或采用数据，无法判断开发者是否普遍认为这一步值得单独装一个模块。
+    evidence_ids:
+    - ev-b427177e2490ebae
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，钱可能来自赞助、托管版或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b427177e2490ebae
+  - gate: truth
+    status: insufficient
+    reason: 交接是否真的不丢关键上下文、缓存保持是否稳定、笔记是否准确，公开材料没有可复现的实测或用户反馈，交付确定性未核验。
+    evidence_ids:
+    - ev-b427177e2490ebae
+  next_validation: 收集该仓库的 issue 与 discussion，核对开发者对上下文交接丢失、缓存保持和项目笔记准确性的实际反馈。
+  market: ''
+  job: 使用 Claude Code 的开发者在一个任务持续到上下文写满时，需要处理已有的对话记录和项目背景材料，把工作交接给新会话并保留项目约定，以便继续编码而不丢失上下文。
+  job_en: A developer using Claude Code, when a task runs until the context window fills, needs to handle
+    the existing conversation and project background material, hand the work off to a new session and
+    keep project conventions, so coding can continue without losing context.
+  pain: 上下文写满后旧会话无法继续，开发者要手动重开对话、重新粘贴项目说明和约定，重复交代背景既费时又容易漏掉关键约束。
+  pain_en: Once the context window fills, the old session cannot continue; the developer must manually
+    reopen a conversation and re-paste project instructions and conventions, which is slow and easily
+    drops key constraints.
+  current_alternative: 手动新建会话并重新粘贴项目说明、维护一份提示词或说明文件，或干脆缩短任务、把工作拆成多个小会话。
+  current_alternative_en: Manually starting a new session and re-pasting project instructions, maintaining
+    a prompt or instruction file, or shortening tasks and splitting work into many small sessions.
+  usage_reason: 相较手动重开会话，它在上下文耗尽时自动完成交接并保留缓存，还把用户教过的内容沉淀成项目笔记，省掉重新交代背景这一步；推断长期在同一代码库上使用 Claude Code 的开发者会在长任务被打断时选择它。
+  usage_reason_en: Compared with manually reopening a session, it performs the handoff automatically when
+    context runs out, keeps the cache warm, and turns what the user taught Claude into project notes,
+    removing the step of re-explaining background; by inference, developers who use Claude Code on one
+    codebase over long tasks would pick it when a long task is interrupted.

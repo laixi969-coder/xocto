@@ -21,7 +21,7 @@ canonical_url: https://github.com/shdwfruit/convkit
 summary: A command line tool for converting images/video/docs offline
 first_seen: '2026-10-07T17:59:50Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

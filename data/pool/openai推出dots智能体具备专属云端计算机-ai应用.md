@@ -1,6 +1,6 @@
 ---
 slug: openai推出dots智能体具备专属云端计算机-ai应用
-name: OpenAI推出Dots智能体，具备专属云端计算机-AI应用
+name: OpenAI Dots
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE9iOXNhTk9RQThz
 summary: OpenAI推出Dots智能体，具备专属云端计算机-AI应用 至顶网
 first_seen: '2026-10-08T10:16:52Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI推出Dots智能体，具备专属云端计算机-AI应用
+# OpenAI Dots
 
 OpenAI推出Dots智能体，具备专属云端计算机-AI应用 至顶网
 

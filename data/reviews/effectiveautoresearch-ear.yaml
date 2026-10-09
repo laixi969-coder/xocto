@@ -1,0 +1,41 @@
+- id: req-initial-effectiveautoresearch-ear-2026-10-09
+  project_slug: effectiveautoresearch-ear
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向研究选题与论证这一真实环节，但公开材料未还原旧流程、输入材料和不解决的后果，价值结构不完整。
+    evidence_ids:
+    - ev-a29ccf0bcfac1fe4
+  - gate: consensus
+    status: insufficient
+    reason: 有一定开源关注度，但没有研究者采用或场景共识的公开证据。
+    evidence_ids:
+    - ev-a29ccf0bcfac1fe4
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露买方或付费路径，钱从哪来无法判断。
+    evidence_ids:
+    - ev-a29ccf0bcfac1fe4
+  - gate: truth
+    status: insufficient
+    reason: 自主数学推演与带证据反驳的可靠性无法从公开材料核对，人工边界不明。
+    evidence_ids:
+    - ev-a29ccf0bcfac1fe4
+  next_validation: 收集该仓库文档与 issue/discussion，确认它实际接收的研究材料、产出形态，以及是否有研究者报告在真实课题中使用。
+  market: ''
+  job: 研究者或课题组在选题和论证阶段，把研究想法与待论证命题交给工具，完成选题筛选与反驳材料整理。
+  job_en: A researcher or lab hands research ideas and claims to the tool during topic selection and argumentation
+    to screen topics and prepare rebuttal material.
+  pain: 公开材料只列出选题发现、自主数学、带证据反驳三项定位，没有说明研究者原来卡在哪一步、不解决会失去什么。
+  pain_en: Public material lists only idea discovery, autonomous mathematics, and evidence-grounded rebuttals;
+    it does not say which step researchers were stuck on or what they lose without it.
+  current_alternative: 公开材料未说明现有替代方式，可能是导师指导、文献检索与同行评议，此为推断。
+  current_alternative_en: Public material does not state the current alternative; possibly advisor guidance,
+    literature search, and peer review, which is inference.
+  usage_reason: 没有用户反馈或采用证据，无法说明相较导师指导或文献检索减少了哪一步负担，缺少这一环。
+  usage_reason_en: With no user feedback or adoption evidence, which step it removes versus advisor guidance
+    or literature search cannot be stated; this link is missing.

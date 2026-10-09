@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQeGVFT0FfM2pU
 summary: 'Realization Rate: The Metric Reshaping Enterprise AI Bain'
 first_seen: '2026-10-08T14:06:09Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

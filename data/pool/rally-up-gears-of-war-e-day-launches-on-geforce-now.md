@@ -1,6 +1,6 @@
 ---
 slug: rally-up-gears-of-war-e-day-launches-on-geforce-now
-name: 'Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW'
+name: GeForce NOW
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: 'Gears of War: E-Day leads the charge on GeForce NOW this week, bringin
   directly through […]'
 first_seen: '2026-10-08T13:00:46Z'
 last_seen: '2026-10-09T02:10:46Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW
+# GeForce NOW
 
 Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through […]
 

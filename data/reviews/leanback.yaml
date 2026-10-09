@@ -1,0 +1,43 @@
+- id: req-initial-leanback-2026-10-09
+  project_slug: leanback
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决团队进度掌握这一需求，但公开材料未写出痛点、频率与不采用的后果，无法确认需求刚性。
+    evidence_ids:
+    - ev-6721ecf905d7f4b0
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且没有用户反馈或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-6721ecf905d7f4b0
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方是工程团队还是个人经理，也未披露定价或收费方式。
+    evidence_ids:
+    - ev-6721ecf905d7f4b0
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对数据接入范围、汇总准确性与人工复核边界。
+    evidence_ids:
+    - ev-6721ecf905d7f4b0
+  next_validation: 收集该产品官方页面或文档，确认接入的数据源、汇总口径与收费方式。
+  market: ''
+  job: 工程经理在需要了解团队进度与阻塞事项时，把团队的工作信息交给助手，得到一份可跟进的团队状态与行动项，用于日常管理与沟通。
+  job_en: An engineering manager needing visibility into team progress and blockers gives team work information
+    to the assistant and gets a followable team status and action list for daily management and communication.
+  pain: 公开材料只说明它是管理工程团队的私人助手，未描述具体痛点、旧流程耗时或管理失误的代价，无法确认用户因此损失什么。
+  pain_en: The public material only describes a personal assistant for managing engineering teams and
+    does not state the specific pain, time cost of the old process or cost of management mistakes, so
+    what users lose is unconfirmed.
+  current_alternative: 公开材料未说明现有替代方式，按结构推断可能是工程经理人工查看项目管理工具与聊天记录后自行汇总。
+  current_alternative_en: The public material does not state the current alternative; structurally it
+    may be an engineering manager manually reviewing project tools and chat logs and summarizing by hand.
+  usage_reason: 无法判断：材料未说明助手相较人工查看工具与聊天记录减少了哪一步负担，也未给出可核对的结果改善，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step the assistant removes versus
+    manually reviewing tools and chat logs, nor any checkable outcome improvement, so it cannot explain
+    why users would choose it.'

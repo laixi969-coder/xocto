@@ -1,0 +1,44 @@
+- id: req-initial-mailwell-2026-10-09
+  project_slug: mailwell
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多协议邮箱统一收发这一任务，但痛点强度与不采用的代价在公开材料中未体现，尚不能判定价值成立。
+    evidence_ids:
+    - ev-be1cc87b0e4fda00
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品描述，没有用户评价、下载量或社区讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-be1cc87b0e4fda00
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-be1cc87b0e4fda00
+  - gate: truth
+    status: insufficient
+    reason: 邮件同步、搜索与归档是否可靠、是否本地存储均未说明，交付确定性缺少依据。
+    evidence_ids:
+    - ev-be1cc87b0e4fda00
+  next_validation: 收集该产品的官方定价页或发布说明，确认是否包含 AI 功能、支持的账号类型与收费方式。
+  market: ''
+  job: Mac 办公用户在同时处理公司 Microsoft 365 邮箱和自建 IMAP 邮箱时，要在一个客户端里收发、归档和查找邮件，避免在多个应用间来回切换。
+  job_en: A Mac office user handling both a corporate Microsoft 365 mailbox and a self-hosted IMAP mailbox
+    needs to send, archive and search mail in one client instead of switching between several apps.
+  pain: 不同邮箱协议分散在不同客户端，账号一多就要来回切换，归档和搜索口径也不统一。
+  pain_en: Different mail protocols live in different clients, so more accounts mean more switching, and
+    archiving and search behave inconsistently.
+  current_alternative: 现在多用 Apple Mail 配合网页版 Outlook，或 Spark、Thunderbird 等第三方客户端分别管理不同账号。
+  current_alternative_en: Today people mostly use Apple Mail alongside web Outlook, or third-party clients
+    such as Spark and Thunderbird, managing accounts separately.
+  usage_reason: 推断：相较在多个客户端之间切换，它把 IMAP、JMAP 和 Microsoft 365 收进同一个原生 Mac 客户端，省掉的是按账号换应用这一步，因此同时挂着企业邮箱和自建邮箱的
+    Mac 用户可能选择它；但公开材料未说明是否含 AI 能力，也无留存或付费证据。
+  usage_reason_en: 'Inference: instead of switching among several clients, it pulls IMAP, JMAP and Microsoft
+    365 into one native Mac client, removing the step of changing apps per account, so Mac users juggling
+    corporate and self-hosted mailboxes may choose it; however the public material does not say whether
+    AI features exist and gives no retention or payment evidence.'

@@ -1,0 +1,44 @@
+- id: req-initial-off-the-record-2026-10-09
+  project_slug: off-the-record
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决会议内容被 AI 转写留存的问题，但公开材料只有一句功能描述，说不清旧做法与不采用后果，需求强度未明。
+    evidence_ids:
+    - ev-4b2828b351b31f37
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：公开材料没有用户评价、采用或场景证据，无法判断卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-4b2828b351b31f37
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或买方信息，无法判断钱来自个人、企业还是合规预算，属判断而非已验证事实。
+    evidence_ids:
+    - ev-4b2828b351b31f37
+  - gate: truth
+    status: insufficient
+    reason: 未进入：拦截 AI 转写的技术路径与可核对结果均未披露，无法确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-4b2828b351b31f37
+  next_validation: 收集 Off the Record 官方产品页或文档，确认其拦截 AI 转写的具体机制、支持的会议平台与是否披露定价。
+  market: ''
+  job: 会议参与者或合规负责人在参加可能被 AI 记录、转写的线上会议时，需要处理会议音频，让会议内容不被第三方 AI 转写工具留存。
+  job_en: Meeting participants or compliance leads joining online meetings that may be recorded or transcribed
+    by AI need to handle the meeting audio so that content is not retained by third-party AI transcription
+    tools.
+  pain: 会议 AI 转写工具默认抓取音频，参会者难以阻止敏感内容被转写和留存，公开材料未说明现有替代做法与不采用的具体后果。
+  pain_en: AI transcription tools capture meeting audio by default, and participants struggle to stop
+    sensitive content from being transcribed and retained; public material does not describe current alternatives
+    or the concrete cost of not acting.
+  current_alternative: 公开材料未说明用户目前如何规避 AI 转写，可能包括要求关闭转写、改用线下会议或自行删除记录，均未获证实。
+  current_alternative_en: Public material does not say how users currently avoid AI transcription; asking
+    to disable transcription, moving offline, or deleting records afterwards are unverified possibilities.
+  usage_reason: 推断：若它能在会议音频层直接阻断转写，用户就不必依赖会议主持人手动关闭转写或事后删除记录，对保密要求高的参会者可能因此选择它；但拦截机制与有效性尚无公开证据。
+  usage_reason_en: 'Inference: if it blocks transcription at the audio layer, users would not have to
+    rely on the host disabling transcription or deleting records afterwards, which may lead confidentiality-sensitive
+    participants to choose it; the blocking mechanism and effectiveness have no public evidence yet.'

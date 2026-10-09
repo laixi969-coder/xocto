@@ -1,0 +1,47 @@
+- id: req-initial-openqodex-2026-10-09
+  project_slug: openqodex
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决推送前改动行的安全与依赖检查需求，痛点是漏检密钥与依赖风险，旧做法是人工评审加独立扫描器逐条判断，结构上成立。
+    evidence_ids:
+    - ev-42c3fdbe8046787e
+    - ev-ee2f639327db5aad
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从274升至426说明关注度上升，但没有用户评价或团队采用证据，无法判断是否进入日常工作流。
+    evidence_ids:
+    - ev-42c3fdbe8046787e
+    - ev-ee2f639327db5aad
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页，买方可能是工程团队的安全或研发预算，这是判断而非已验证事实；也无融资叙事。
+    evidence_ids:
+    - ev-42c3fdbe8046787e
+    - ev-ee2f639327db5aad
+  - gate: truth
+    status: insufficient
+    reason: 扫描与复核流程描述具体，但误报率、漏报率与人工确认比例未披露，交付确定性尚不能核对。
+    evidence_ids:
+    - ev-42c3fdbe8046787e
+    - ev-ee2f639327db5aad
+  next_validation: 收集 openqodex 仓库的 issue、discussion 与文档，确认误报率、与现有 CI 流程的集成方式及是否有付费或托管版本。
+  market: ''
+  job: 开发者在把改动推送到仓库前，需要对自己改动的代码行做安全、密钥、依赖与规范检查，并拿到可复核的审查结论。
+  job_en: Before pushing changes to a repository, developers need security, secret, dependency and lint
+    checks on the lines they changed, plus review conclusions they can verify.
+  pain: 人工评审容易漏掉密钥泄露与依赖风险，上线后才发现问题的修复成本更高；公开材料未给出误报与漏报数据。
+  pain_en: Manual review easily misses leaked secrets and dependency risks, and problems found after release
+    cost more to fix; public material gives no false-positive or miss-rate data.
+  current_alternative: 现有做法是人工代码评审，或使用独立的 SAST、密钥与依赖扫描工具，再靠人逐条判断扫描结果。
+  current_alternative_en: The current approach is manual code review, or separate SAST, secret and dependency
+    scanners whose findings a person judges one by one.
+  usage_reason: 推断：它把扫描限定在改动行并让独立审查进程复核每条发现，开发者不必在整库扫描结果里逐条筛选，推送前就能拿到与本次改动相关的结论，因此中小团队中负责合并代码的人可能选择它；实际误报率尚无公开证据。
+  usage_reason_en: 'Inference: by scoping scans to changed lines and having a separate reviewer process
+    recheck each finding, it spares developers from filtering whole-repository scan output and gives push-time
+    conclusions tied to the change, which may lead merge owners in small teams to choose it; actual false-positive
+    rates have no public evidence yet.'

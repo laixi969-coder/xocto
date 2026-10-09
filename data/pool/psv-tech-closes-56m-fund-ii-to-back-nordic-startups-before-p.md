@@ -1,6 +1,6 @@
 ---
 slug: psv-tech-closes-56m-fund-ii-to-back-nordic-startups-before-p
-name: PSV Tech closes €56M Fund II to back Nordic startups before product-market fit
+name: PSV Tech
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: Today, PSV Tech announced the final close of Fund II at €56 million. 
   simpl...
 first_seen: '2026-10-08T07:25:22Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# PSV Tech closes €56M Fund II to back Nordic startups before product-market fit
+# PSV Tech
 
 Today, PSV Tech announced the final close of Fund II at €56 million. Twenty-five years ago, an investment organisation took shape in the halls of the Technical University of Denmark (DTU) with a simpl...
 

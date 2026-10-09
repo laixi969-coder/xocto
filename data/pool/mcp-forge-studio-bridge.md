@@ -21,7 +21,7 @@ canonical_url: https://github.com/yarik-contr/mcp-forge-studio-bridge
 summary: 'AI-Powered Roblox Studio MCP Server 2026: Script, Terrain, Asset, Lighting & Two-Way Sync Assistant'
 first_seen: '2026-09-22T21:41:05Z'
 last_seen: '2026-10-09T02:10:18Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

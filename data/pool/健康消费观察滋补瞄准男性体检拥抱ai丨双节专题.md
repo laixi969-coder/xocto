@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQak83dU5OZnpO
 summary: 健康消费观察：滋补瞄准男性、体检拥抱AI丨双节专题 搜狐网
 first_seen: '2026-10-07T02:03:06Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

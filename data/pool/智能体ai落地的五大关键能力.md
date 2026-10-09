@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkaUowWW03VU9k
 summary: 智能体AI落地的五大关键能力 千家网
 first_seen: '2026-10-08T02:19:51Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

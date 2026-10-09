@@ -1,0 +1,41 @@
+- id: req-initial-edi-life-os-2026-10-09
+  project_slug: edi-life-os
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决个人生活数据集中与 AI 读取的问题，但公开材料未说明具体痛点、旧流程和不解决的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-8602fc7ee59bb7a1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论的少量热度，没有场景共识或持续采用证据。
+    evidence_ids:
+    - ev-8602fc7ee59bb7a1
+  - gate: model
+    status: insufficient
+    reason: 自托管开源项目，公开材料未披露任何付费路径或买方，钱从哪来无法判断。
+    evidence_ids:
+    - ev-8602fc7ee59bb7a1
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近生活管理的第一性目标，也看不到交付是否确定发生。
+    evidence_ids:
+    - ev-8602fc7ee59bb7a1
+  next_validation: 收集该仓库 README 与 issue/discussion，确认它实际接入哪些个人数据源、产出什么交付，以及是否有用户报告持续使用。
+  market: ''
+  job: 个人用户在自己的服务器上汇总日程、任务等生活材料，并让 AI 读取这些数据完成整理或提醒。
+  job_en: An individual aggregates schedules and tasks on their own server and lets an AI read that data
+    to organize or remind.
+  pain: 公开材料只说明它是自托管仪表盘加 MCP 服务端，没有说明用户原来卡在哪一步、不解决会失去什么。
+  pain_en: Public material only describes a self-hosted dashboard with an MCP server; it does not say
+    which step users were stuck on or what they lose without it.
+  current_alternative: 公开材料未说明现有替代方式，可能是不做集中管理或使用商业生活管理 App，此为推断。
+  current_alternative_en: Public material does not state the current alternative; possibly no central
+    management or a commercial life-management app, which is inference.
+  usage_reason: 公开材料未给出用户反馈或采用证据，无法说明相较旧做法减少了哪一步负担，缺少这一环。
+  usage_reason_en: Public material gives no user feedback or adoption evidence, so which step it removes
+    versus the old way cannot be stated; this link is missing.

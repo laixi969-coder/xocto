@@ -22,7 +22,7 @@ summary: Autumn-Recruit Algo Notes(秋招算法学习仓库)，面向大模型�
   → 运行 → 验证 → 复盘构建可持续迭代的知识体系。
 first_seen: '2026-09-29T08:00:33Z'
 last_seen: '2026-10-09T02:10:18Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

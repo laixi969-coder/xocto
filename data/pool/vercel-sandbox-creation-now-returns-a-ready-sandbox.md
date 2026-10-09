@@ -1,6 +1,6 @@
 ---
 slug: vercel-sandbox-creation-now-returns-a-ready-sandbox
-name: Vercel Sandbox creation now returns a ready sandbox
+name: Vercel Sandbox
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/sandbox-create-waits-until-ready
 summary: ''
 first_seen: '2026-10-08T06:00:00Z'
 last_seen: '2026-10-09T02:10:46Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Vercel Sandbox creation now returns a ready sandbox
+# Vercel Sandbox
 
 _（源没给简介）_
 

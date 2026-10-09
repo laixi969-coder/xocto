@@ -1,0 +1,43 @@
+- id: req-initial-sequoia-backed-catalyst-raises-30-million-to-build-ai-tradin-2026-10-09
+  project_slug: sequoia-backed-catalyst-raises-30-million-to-build-ai-tradin
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是个人投资者从研究到下单之间的执行落差，痛点存在；但公开材料只有融资与定位，说不清输入、动作与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-31d442c93ca87ff5
+  - gate: consensus
+    status: insufficient
+    reason: 除融资报道外没有用户规模或采用信息，无法判断个人投资者是否已形成使用共识。
+    evidence_ids:
+    - ev-31d442c93ca87ff5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，无法判断收入来自订阅、管理规模还是交易分成，属未知而非失败。
+    evidence_ids:
+    - ev-31d442c93ca87ff5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对自动交易的风控边界、人工确认环节与合规资质，交付确定性未知。
+    evidence_ids:
+    - ev-31d442c93ca87ff5
+  next_validation: 收集 Catalyst 官方定价页或产品文档，确认其收费方式、风控与人工确认机制及合规资质。
+  market: ''
+  job: 普通投资者在自主选股与下单时，需要把研究、判断和交易执行串起来，并控制下单时机与风险。
+  job_en: Everyday investors need to link research, judgement and order execution while picking stocks
+    and placing trades on their own, and to control timing and risk.
+  pain: 个人投资者缺少专业研究支持，从看信息到下单之间存在时间差与执行偏差，容易错过或误操作。
+  pain_en: Individual investors lack professional research support, and the gap between reading information
+    and placing an order creates timing lags and execution errors.
+  current_alternative: 目前多靠券商 App 手动下单、自行看研报或使用只给建议的选股工具，执行仍由本人完成。
+  current_alternative_en: Today they mostly place orders manually in brokerage apps, read research themselves,
+    or use stock-picking tools that only give advice, with execution still done by the person.
+  usage_reason: 推断：若代理能按预设目标自动完成从研究到下单的动作并留下可核对记录，个人投资者可省去盯盘与手动下单的一步，因此会在无暇盯盘时选择它；公开材料未提供用户反馈或交易结果，无法确认这一动机。
+  usage_reason_en: 'Inference: if the agent can carry out the research-to-order steps automatically against
+    preset goals and leave checkable records, individual investors could skip monitoring and manual ordering,
+    so they would pick it when unable to watch the market; the public material offers no user feedback
+    or trading results to confirm this motive.'

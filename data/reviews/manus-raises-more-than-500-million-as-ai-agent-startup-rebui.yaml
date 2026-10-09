@@ -1,0 +1,41 @@
+- id: req-initial-manus-raises-more-than-500-million-as-ai-agent-startup-rebui-2026-10-09
+  project_slug: manus-raises-more-than-500-million-as-ai-agent-startup-rebui
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只有融资标题，未说明解决什么需求、什么痛点，也未给出旧流程与交付结果，无法判断价值。
+    evidence_ids:
+    - ev-dfb48297c85b30db
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值未成立，且材料没有用户采用、客户案例或社区讨论等共识证据。
+    evidence_ids:
+    - ev-dfb48297c85b30db
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值未成立，材料未披露定价、买方或付费路径，融资额不能替代付费证据。
+    evidence_ids:
+    - ev-dfb48297c85b30db
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值未成立，材料未说明交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-dfb48297c85b30db
+  next_validation: 收集 Manus 官方产品页或官方发布说明，核验其具体任务范围、交付形态与是否披露定价或客户案例。
+  market: ''
+  job: 候选材料未说明具体使用者与任务场景，无法确认谁在什么情况下、处理什么材料、要完成什么任务。
+  job_en: The candidate material does not identify the specific user or task scenario, so it is not possible
+    to confirm who, in what situation, handling what material, completes what task.
+  pain: 材料只给出融资标题，未描述用户痛点或旧流程中的具体卡点。
+  pain_en: The material gives only a funding headline and does not describe user pain or a specific bottleneck
+    in the old workflow.
+  current_alternative: 材料未提供现有替代方式，无法判断用户此前如何完成同类任务。
+  current_alternative_en: The material provides no current alternative, so it is not possible to judge
+    how users previously completed comparable tasks.
+  usage_reason: 缺少产品能力、交付结果与使用反馈的公开事实，无法解释用户为何选择它，也无法与旧做法比较。
+  usage_reason_en: Public facts on product capability, delivered results and usage feedback are missing,
+    so it is not possible to explain why users would choose it or compare it with the old approach.

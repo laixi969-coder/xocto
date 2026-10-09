@@ -22,7 +22,7 @@ summary: 'Hermes Agent model-provider plugin: Claude Pro/Max subscription throug
   Code CLI (experimental)'
 first_seen: '2026-09-20T19:26:20Z'
 last_seen: '2026-10-09T02:10:18Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -3,17 +3,14 @@ slug: native-is-now-the-future-of-mobile-at-shopify
 name: Shopify
 builder: ''
 category: ''
-summary_zh: 2026 年 9 月 10 日，Shopify 宣布移动应用从 React Native 迁回 Swift 与 Kotlin 双原生代码库：2020 年选跨平台是为了避免同一功能做两遍，如今其判断是
-  AI 编程代理已能完成足够多的双端实现、翻译、测试与评审，双代码库的维护成本不再一票否决。这直接冲击跨端框架「省一遍人力」的核心卖点（推断；仅一家公司的决策，不代表行业已全面转向）；同时 react-native-skia、flash-list
-  将移交新维护方，restyle 定于 2026 年底归档，React Native 生态维护格局出现具体变动。
+summary_zh: Shopify 宣布将其移动端应用架构从使用六年的 React Native 迁回 Swift 与 Kotlin 双原生代码库。官方指出，代码智能体（Coding Agents）已能承担足够的双端实现、跨语言转译、测试与审查工作，维护两套原生代码的成本不再是决定性阻碍。这表明
+  AI 编程代理的成熟正在直接颠覆企业在跨平台效率与原生体验之间的技术选型权衡。
 inspiration: ''
-summary_en: On September 10, 2026, Shopify announced it is moving its mobile apps from React Native back
-  to separate Swift and Kotlin codebases. It adopted React Native in 2020 to avoid building the same features
-  twice; it now judges that AI coding agents can handle enough of the implementation, translation, testing,
-  and review work that maintaining two codebases is no longer the deciding factor. This attacks the core
-  pitch of cross-platform frameworks—saving one copy of the labor (inference; one company's decision does
-  not mean the industry has flipped). Its react-native-skia and flash-list libraries move to new maintainers,
-  and restyle will be archived by end of 2026.
+summary_en: Shopify announced it is moving its mobile app architecture from React Native back to native
+  Swift and Kotlin codebases. The company stated that coding agents can now handle enough cross-platform
+  implementation, translation, testing, and review work that the cost of maintaining separate native platforms
+  is no longer the decisive factor. This demonstrates that coding agents are actively reshaping architectural
+  trade-offs between cross-platform efficiency and native performance.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -41,7 +38,7 @@ summary: "Native is now the future of mobile at Shopify   \nShopify are moving f
   \  ios ,  ai ,  react ,  generative-ai ,  llms ,  ai-assisted-search ,  coding-agents ,  swift ,  shopify"
 first_seen: '2026-09-10T21:11:15Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

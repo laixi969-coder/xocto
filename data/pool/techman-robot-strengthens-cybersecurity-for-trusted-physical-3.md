@@ -1,6 +1,6 @@
 ---
 slug: techman-robot-strengthens-cybersecurity-for-trusted-physical-3
-name: Techman Robot strengthens cybersecurity for trusted Physical AI deployment
+name: Techman Robot
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxOV19xSl9uYjFu
 summary: Techman Robot strengthens cybersecurity for trusted Physical AI deployment PA Media
 first_seen: '2026-10-06T08:42:21Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Techman Robot strengthens cybersecurity for trusted Physical AI deployment
+# Techman Robot
 
 Techman Robot strengthens cybersecurity for trusted Physical AI deployment PA Media
 

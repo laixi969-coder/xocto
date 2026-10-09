@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxORzlKVjFVV0lY
 summary: Scaling AI puts enterprise architecture to the test TechTarget
 first_seen: '2026-10-07T11:54:05Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

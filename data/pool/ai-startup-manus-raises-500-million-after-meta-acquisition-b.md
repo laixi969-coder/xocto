@@ -1,6 +1,6 @@
 ---
 slug: ai-startup-manus-raises-500-million-after-meta-acquisition-b
-name: AI startup Manus raises $500 million after Meta acquisition blocked by China
+name: Manus
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTE40RGpEVDZZR0wz
 summary: AI startup Manus raises $500 million after Meta acquisition blocked by China Tech Xplore
 first_seen: '2026-10-08T09:20:08Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI startup Manus raises $500 million after Meta acquisition blocked by China
+# Manus
 
 AI startup Manus raises $500 million after Meta acquisition blocked by China Tech Xplore
 

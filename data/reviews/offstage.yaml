@@ -1,0 +1,42 @@
+- id: req-initial-offstage-2026-10-09
+  project_slug: offstage
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决代理占用用户桌面与登录状态的问题，但公开材料只有一句定位，旧流程与不采用后果说不清，需求强度未明。
+    evidence_ids:
+    - ev-69d230d84eb7912a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有用户评价或采用证据，无法判断卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-69d230d84eb7912a
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或买方信息，无法判断钱来自个人开发者还是团队采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-69d230d84eb7912a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：隔离机制、权限控制与可核对结果均未披露，无法确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-69d230d84eb7912a
+  next_validation: 收集 offstage 官方文档或定价页，确认独立 Mac 账户的隔离方式、权限边界与是否披露收费。
+  market: ''
+  job: 开发者在运行电脑操作型 AI 代理时，需要让代理在 Mac 上完成点击、输入等操作，同时不占用自己的桌面和登录状态。
+  job_en: Developers running computer-use AI agents need the agent to perform clicks and typing on a Mac
+    without occupying their own desktop and login state.
+  pain: 代理直接操作用户桌面会打断本人工作并暴露登录状态，公开材料未说明现有替代做法与不隔离的具体代价。
+  pain_en: An agent operating the user's own desktop interrupts their work and exposes login state; public
+    material does not describe current alternatives or the concrete cost of not isolating.
+  current_alternative: 公开材料未说明用户目前如何隔离代理，可能包括虚拟机、独立设备或远程机器，均未获证实。
+  current_alternative_en: Public material does not say how users currently isolate agents; virtual machines,
+    separate devices or remote machines are unverified possibilities.
+  usage_reason: 推断：若它把代理放进独立 Mac 账户，用户就不必为代理单独准备一台机器或手工切换桌面，需要长时间跑代理的开发者可能因此选择它；隔离强度与权限边界尚无公开证据。
+  usage_reason_en: 'Inference: if it places the agent in a separate Mac account, users would not need
+    a dedicated machine or manual desktop switching, which may lead developers running long agent sessions
+    to choose it; isolation strength and permission boundaries have no public evidence yet.'

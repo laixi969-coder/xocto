@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/spitfire4794/surjo-image-preview
 summary: 105M looped flow-matching text-to-image demo
 first_seen: '2026-10-08T07:58:23Z'
 last_seen: '2026-10-09T02:10:46Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

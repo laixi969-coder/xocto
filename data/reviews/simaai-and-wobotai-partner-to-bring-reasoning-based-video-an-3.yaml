@@ -1,0 +1,44 @@
+- id: req-initial-simaai-and-wobotai-partner-to-bring-reasoning-based-video-an-3-2026-10-09
+  project_slug: simaai-and-wobotai-partner-to-bring-reasoning-based-video-an-3
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多路监控人工盯屏易漏看、事后翻录像慢的痛点，旧行为是保安轮班值守，结构上成立。
+    evidence_ids:
+    - ev-81f8c40fbbc2cb7b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有合作发布报道，没有客户名单、部署数量或用户反馈，无法判断现场团队是否真的采用。
+    evidence_ids:
+    - ev-81f8c40fbbc2cb7b
+  - gate: model
+    status: insufficient
+    reason: 未披露芯片、平台或分析的计价方式，买方是集成商还是终端工厂属推断。
+    evidence_ids:
+    - ev-81f8c40fbbc2cb7b
+  - gate: truth
+    status: insufficient
+    reason: 推理准确率、误报处理与人工复核边界均未公开，交付确定性无法核对。
+    evidence_ids:
+    - ev-81f8c40fbbc2cb7b
+  next_validation: 收集 SiMa.ai 或 Wobot.ai 官方发布的部署案例或技术文档，确认实际客户与场景。
+  market: ''
+  job: 工厂、门店或园区的安防与运营人员在日常值守时，需要从多路摄像头画面中发现未戴安全帽、越界、滞留等异常，并留下可追溯记录。
+  job_en: Security and operations staff at factories, stores or campuses need to spot anomalies such as
+    missing helmets, boundary breaches or loitering across multiple camera feeds during daily watch, and
+    keep a traceable record.
+  pain: 人工长时间盯屏容易漏看，事后翻录像耗时，异常发现不及时会带来安全与合规风险。
+  pain_en: Humans watching screens for long hours miss events, reviewing recordings afterwards is slow,
+    and late detection creates safety and compliance risk.
+  current_alternative: 此前主要靠保安轮班盯屏、事后调取录像，或使用只能做简单移动侦测的传统监控系统。
+  current_alternative_en: Previously this relied on guards watching screens in shifts, pulling recordings
+    afterwards, or legacy surveillance systems limited to simple motion detection.
+  usage_reason: 推断：相较人工盯屏和事后翻录像，把推理放在边缘设备上直接对视频流做判断，减少了把整段视频回传云端再分析的等待，因此对带宽受限、要求实时告警的工厂和门店更有吸引力；公开材料未提供客户采用或留存证据。
+  usage_reason_en: 'Inference: compared with human screen-watching and after-the-fact review, running
+    inference on edge devices against the video stream removes the wait of sending full footage to the
+    cloud, which appeals to factories and stores with limited bandwidth that need real-time alerts; no
+    customer adoption or retention evidence is provided.'

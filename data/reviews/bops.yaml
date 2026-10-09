@@ -1,0 +1,43 @@
+- id: req-initial-bops-2026-10-09
+  project_slug: bops
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小团队跨系统琐碎事务无人处理的需求，痛点是重复、打断主线且漏做会断档，不做的后果是客户与供应商沟通中断；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-8ca8a5f4de43d95c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 220 星、64 次 fork 只反映开源关注度，没有可归因到实际使用的客户案例或评价，不能当作持续采用。
+    evidence_ids:
+    - ev-8ca8a5f4de43d95c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费路径，是自建部署还是按事务收费无法确认，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-8ca8a5f4de43d95c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明机器人接入哪些系统、权限边界与人工复核机制，交付能否确定发生缺少依据。
+    evidence_ids:
+    - ev-8ca8a5f4de43d95c
+  next_validation: 收集 bops.bot 官方文档或定价页，确认机器人可接入的系统范围、权限与人工复核机制，以及是否按事务或席位收费。
+  market: ''
+  job: 小团队的运营或行政人员在日常事务堆积时，处理需要发邮件、打电话、登录网页系统操作的杂事，要把这些事务办完并留下记录。
+  job_en: Operations or admin staff at a small team, when chores pile up, handle tasks that need email,
+    phone calls and web-system operations, and must get them done with a record left behind.
+  pain: 这类事务跨多个系统、重复且打断主线工作，人手不足时只能延后或漏做，不做的后果是客户跟进和供应商沟通断档。
+  pain_en: Such tasks span multiple systems, repeat, and interrupt main work; with too few hands they
+    get delayed or dropped, and skipping them breaks customer follow-up and supplier communication.
+  current_alternative: 由运营或行政人员手工处理，或外包给虚拟助理、BPO 团队。
+  current_alternative_en: Handled manually by operations or admin staff, or outsourced to virtual assistants
+    or BPO teams.
+  usage_reason: 相较人工逐条处理或外包排期，它让机器人以自有邮箱和电话直接执行动作，省掉把任务转述给他人并等待的环节；推断，缺少客户案例与留存证据，尚不能确认已被长期采用。
+  usage_reason_en: Compared with handling each item manually or scheduling an outsourced assistant, it
+    lets bots act directly from their own email and phone, removing the step of briefing someone else
+    and waiting; this is inference, and without customer cases or retention evidence long-term adoption
+    cannot be claimed.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE01QzAwWFNhU1k2
 summary: 标题：克罗格数字负责人：AI战略核心是“灵活性与控制力”-AI应用 至顶网
 first_seen: '2026-10-08T06:39:52Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

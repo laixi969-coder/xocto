@@ -160,3 +160,43 @@
   usage_reason: 缺少可引用的产品说明、用户反馈或采用证据，无法解释用户为何会选择它。
   usage_reason_en: With no citable product description, user feedback or adoption evidence, there is no
     basis to explain why users would choose it.
+- id: req-initial-brig-2026-10-09
+  project_slug: brig
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代理执行需要隔离这一具体问题，痛点真实，但材料未说明隔离边界、启动开销与集成方式，无法确认交付是否确定发生。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该产品的采用或重复使用证据，也未说明卡在感知还是场景。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露定价或买方；可能来自企业开发工具预算，但这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对沙箱是否真正限制代理权限、是否可复现，也未说明人工复核边界。
+    evidence_ids: []
+  next_validation: 收集 Brig 仓库的 README、部署文档与 issue/discussion，确认其隔离机制、支持的代理与运行方式。
+  market: ''
+  job: 开发者在本地 Mac 或 Linux 上让 AI 编码代理执行代码时，需要把代理的读写和运行限制在一个隔离环境里，避免它直接改动本机文件或环境。
+  job_en: When a developer lets an AI coding agent execute code locally on Mac or Linux, they need the
+    agent's reads, writes and execution confined to an isolated environment so it cannot touch the host
+    machine directly.
+  pain: 代理直接在本机执行命令会带来误删、污染依赖和越权访问的风险，而手工搭容器或虚拟机又慢又难复现。
+  pain_en: Letting an agent run commands on the host risks accidental deletion, dependency pollution and
+    over-privileged access, while hand-rolling containers or VMs is slow and hard to reproduce.
+  current_alternative: 开发者目前多用 Docker 容器、本地虚拟机或干脆直接在本机跑代理，并靠人工检查命令。
+  current_alternative_en: Developers currently use Docker containers, local virtual machines, or simply
+    run agents on the host and review commands manually.
+  usage_reason: 推断：若 Brig 能一键起 MicroVM 并复用同一镜像，用户可省去手工配置容器与虚拟机的步骤，并让每次代理执行可复现；但候选材料未给出隔离强度、启动开销或与现有代理的集成方式，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if Brig can spin up a MicroVM in one step and reuse the same image, users
+    could skip manual container and VM setup and make each agent run reproducible; however the candidate
+    material gives no isolation strength, startup cost or integration with existing agents, so it is not
+    yet confirmed that users would choose it for this reason.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE5xYTZsUEpnQXdw
 summary: 智慧眼联合华为推出医保AI智算一体机，打造合规自查随身审核引擎|AI模型|监督检查|医保基金|病历|数据 新浪新闻_手机新浪网
 first_seen: '2026-10-08T11:34:05Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnNMQUJNaFA5
 summary: I audited an award-winning AI project. The case study left out the cloud bill CIO
 first_seen: '2026-10-08T12:04:59Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

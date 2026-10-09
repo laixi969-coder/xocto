@@ -3,16 +3,17 @@ slug: design-studio-ai
 name: design-studio-ai
 builder: bestagentkits
 category: AI + 创作
-summary_zh: 设计师或前端开发者在需要产出可编辑的视觉与动效素材时，打开这个云端工作空间，把设计意图或素材交给内置的 AI agent，由它执行编辑、3D 与动效处理，最终交付可继续修改的设计文件；人类仍需在交付前确认结果。具体输入格式与交付物形态仍待核验。
-inspiration: 趋势：设计工具开始把 AI agent 当作一等使用者，接口层（MCP、CLI、自带密钥）成为新的竞争面。切入：可从独立设计工作室或电商视觉团队进入，替他们承接批量改版、多尺寸适配这类重复出图环节；卖法未披露，不宜假设。
-summary_en: When designers or front-end developers need editable visual and motion assets, they open this
-  cloud workspace, hand design intent or assets to the built-in AI agent, which performs editing, 3D and
-  motion work, and receive design files that can still be modified; humans still confirm before delivery.
-  The exact input formats and deliverable forms remain to be verified.
-inspiration_en: 'Trend: design tools are starting to treat AI agents as first-class users, making the
-  interface layer (MCP, CLI, bring-your-own-key) a new competitive surface. Entry: independent design
-  studios or e-commerce visual teams, taking over repetitive output steps such as batch revisions and
-  multi-size adaptation; pricing is undisclosed and should not be assumed.'
+summary_zh: 设计师或前端工程师在需要产出可编辑的视觉稿、3D 场景或动效时，把素材与设计意图交给这个工作区，由 AI 智能体通过 MCP/WebMCP 或命令行接口执行编辑动作，人在云端画布上继续调整，最终拿到可继续修改的设计文件；具体交付格式与人工确认环节仍待核验。
+inspiration: 趋势是设计工具开始把 AI 智能体当作一等协作者，接口层（MCP、CLI）而非界面成为竞争点。切入可考虑为品牌设计工作室或电商视觉团队做“素材进、可交付稿出”的托管流程，按项目或按产出计费；但该方向尚无付费与留存证据，先观察其接口是否被真实工作流采用。
+summary_en: When designers or front-end engineers need editable visuals, 3D scenes or motion, they hand
+  assets and design intent to this workspace; AI agents act through MCP/WebMCP or a CLI, humans keep adjusting
+  on the cloud canvas, and the output is a still-editable design file. The exact deliverable format and
+  human sign-off step remain unverified.
+inspiration_en: The trend is that design tools now treat AI agents as first-class collaborators, making
+  the interface layer (MCP, CLI) the battleground rather than the canvas. A wedge could be a hosted 'assets
+  in, deliverable out' pipeline for brand studios or e-commerce visual teams, billed per project or per
+  output; there is no payment or retention evidence yet, so watch whether the interface is actually adopted
+  in real workflows.
 priority_review: false
 project_type: open_source
 industries:
@@ -22,11 +23,11 @@ industries_en:
 - Design services
 - Software and internet
 jobs:
-- 设计师
-- 前端开发者
+- 平面与动效设计师
+- 前端与产品工程师
 jobs_en:
-- Designer
-- Front-end developer
+- Graphic and motion designers
+- Front-end and product engineers
 regions: []
 regions_en: []
 open_source: true
@@ -36,7 +37,7 @@ summary: Open-source design workspace for AI agents and humans. Cloud editing, 3
   CLI and BYOK. MIT.
 first_seen: '2026-09-07T15:51:21Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

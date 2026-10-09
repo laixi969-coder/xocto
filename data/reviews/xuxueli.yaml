@@ -1,0 +1,45 @@
+- id: req-initial-xuxueli-2026-10-09
+  project_slug: xuxueli
+  level: initial
+  reviewed_at: '2026-10-09T02:10:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多供应商模型统一配置与转发的问题，痛点真实但替代方案众多，且本次材料未说明具体业务交付，价值强度只能算结构上成立。
+    evidence_ids:
+    - ev-f1071f4fe8dbc3f6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布帖且评论数为零，没有采用规模、社区讨论或用户反馈可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-f1071f4fe8dbc3f6
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露定价、付费用户或商业主体，钱可能来自企业私有化部署服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f1071f4fe8dbc3f6
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与多供应商切换贴近数据不出内网的第一性目标，但承诺能否确定性交付、安全与人工边界均无公开材料支持。
+    evidence_ids:
+    - ev-f1071f4fe8dbc3f6
+  next_validation: 收集 XXL-AI 官方文档或仓库中关于企业私有化部署、鉴权与审计能力的说明，以及是否有公开的付费或客户采用记录。
+  market: ''
+  job: 开发者在自有服务器或内网部署模型调用入口时，需要把多家供应商的模型统一配置并转发请求，拿到可用的模型输出。
+  job_en: When deploying a model-calling entry point on their own servers or intranet, developers need
+    to configure and route requests across multiple providers' models and obtain usable model output.
+  pain: 多供应商密钥、协议与参数分散管理，切换模型要改代码或改配置；数据出内网的合规顾虑也让部分团队不愿直接用公有云接口。
+  pain_en: Keys, protocols and parameters across providers are managed in scattered places, and switching
+    models means changing code or config; compliance concerns about data leaving the intranet also deter
+    some teams from using public cloud APIs directly.
+  current_alternative: 直接用各家厂商官方 SDK 或控制台，或自建一层简单转发脚本；也有 One API 等开源网关方案。
+  current_alternative_en: Using each vendor's official SDK or console directly, or writing a simple self-built
+    forwarding script; open-source gateways such as One API also exist.
+  usage_reason: 推断：相较逐个对接厂商 SDK，它把供应商与模型配置集中到一处并预置常见本地模型，省去为每个新模型重写接入代码这一步，因此有内网部署或多模型对比需求的开发者会考虑它；但公开材料未提供留存、复购或客户案例，长期采用尚无证据。
+  usage_reason_en: 'Inference: compared with integrating each vendor''s SDK one by one, it centralizes
+    provider and model configuration and presets common local models, removing the step of rewriting integration
+    code for each new model, so developers needing on-premise deployment or multi-model comparison may
+    consider it; however, public materials provide no retention, repeat-purchase or customer-case evidence,
+    so long-term adoption is unproven.'

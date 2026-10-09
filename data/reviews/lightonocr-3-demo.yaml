@@ -1,0 +1,44 @@
+- id: req-initial-lightonocr-3-demo-2026-10-09
+  project_slug: lightonocr-3-demo
+  level: initial
+  reviewed_at: '2026-10-09T02:10:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是扫描件转可编辑结构化文本的需求，痛点真实，但公开材料只有一句功能描述，无法确认交付是否确定、错误率如何，价值判断只能停在结构推理。
+    evidence_ids:
+    - ev-66bdee244808c6df
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区点赞，没有用户评价、采用规模或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-66bdee244808c6df
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；按页、按份还是开源免费均未知，付费路径无法判断。
+    evidence_ids:
+    - ev-66bdee244808c6df
+  - gate: truth
+    status: insufficient
+    reason: OCR 结果需人工校对，安全与人工边界未说明，也没有可复现的准确率或交付结果材料。
+    evidence_ids:
+    - ev-66bdee244808c6df
+  next_validation: 收集该演示或对应模型的官方文档与公开使用数据，确认是否提供批量处理、准确率指标或按页计费方式。
+  market: ''
+  job: 档案与合同数字化专员、财务票据录入人员或科研文献整理人员，在需要把扫描件或 PDF 转成可编辑、可入库文本时，上传文档图像，希望得到保留版面结构的 Markdown。
+  job_en: An archive and contract digitisation specialist, finance invoice data-entry staff member or
+    research literature organiser uploads a scanned image or PDF when it must become editable, loadable
+    text, expecting Markdown that preserves layout structure.
+  pain: 旧做法是人工逐页敲字或使用只输出纯文本的 OCR，版面、表格和阅读顺序丢失后仍需人工重排，耗时且易错。
+  pain_en: The old way is typing page by page or using OCR that returns flat text, so layout, tables and
+    reading order are lost and still need manual rebuilding, which is slow and error-prone.
+  current_alternative: 人工录入、通用 OCR 加人工排版，或把文档外包给数据录入服务商。
+  current_alternative_en: Manual typing, generic OCR plus manual re-layout, or outsourcing documents to
+    a data-entry vendor.
+  usage_reason: 推断：相较纯文本 OCR，它直接输出带版面定位的 Markdown，可能省掉重排表格与阅读顺序这一步，因此处理合同、票据、文献的团队会先试用；但公开材料未给出准确率、批量能力或客户案例，无法确认它是否真被留在工作流里。
+  usage_reason_en: 'Inference: compared with flat-text OCR it outputs Markdown with layout grounding,
+    potentially removing the step of rebuilding tables and reading order, so teams handling contracts,
+    invoices or papers may trial it; however public material gives no accuracy, batch capability or customer
+    case, so it cannot be confirmed as staying in a workflow.'

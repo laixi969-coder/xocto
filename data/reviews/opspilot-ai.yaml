@@ -1,0 +1,43 @@
+- id: req-initial-opspilot-ai-2026-10-09
+  project_slug: opspilot-ai
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决会议与决策记录散落、跟进项丢失的问题，痛点存在，但公开材料只有一句功能罗列，说不清输入、动作与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-67645a720b40eecb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 44 个星标、3 个 fork、0 个未关闭 issue 只说明有少量关注，没有用户评价或采用证据，无法判断是否有人真的在用。
+    evidence_ids:
+    - ev-67645a720b40eecb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方或托管方式，开源项目可能的收入路径均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-67645a720b40eecb
+  - gate: truth
+    status: insufficient
+    reason: 组织记忆与决策抽取涉及权限与准确性，公开材料未说明人工确认边界与数据隔离方式，交付确定性无法判断。
+    evidence_ids:
+    - ev-67645a720b40eecb
+  next_validation: 收集 OpsPilot-AI 仓库文档与 issue 讨论，确认其输入来源、抽取流程与部署要求。
+  market: ''
+  job: 运营或项目负责人在会议结束后，需要把纪要、决策、任务和风险整理成可追踪的条目并持续更新。
+  job_en: After meetings, operations or project owners need to turn notes, decisions, tasks and risks
+    into trackable items and keep them updated.
+  pain: 会议与决策记录散落在文档、聊天和任务工具中，跟进项容易丢失，组织记忆难以复用。
+  pain_en: Meeting and decision records are scattered across documents, chat and task tools, follow-ups
+    are easily lost, and organizational memory is hard to reuse.
+  current_alternative: 用会议纪要文档加任务看板手工维护，或使用通用笔记与项目管理工具。
+  current_alternative_en: Maintaining meeting-note documents plus a task board manually, or using general
+    note-taking and project management tools.
+  usage_reason: 推断：若工作台能自动从会议材料中抽取决策、任务与风险并形成可追踪条目，用户可省去会后手工整理与跨工具录入这一步；但公开材料未说明输入来源与交付形式，无法确认它实际减少了哪一步负担。
+  usage_reason_en: 'Inference: if the workspace can automatically extract decisions, tasks and risks from
+    meeting material into trackable items, users could skip manual post-meeting cleanup and cross-tool
+    entry; but public material does not describe the input source or deliverable, so it is unclear which
+    step it actually removes.'

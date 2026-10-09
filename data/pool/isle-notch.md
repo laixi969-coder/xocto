@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/isle-notch
 summary: Lowweight minimal dynamic island for Windows
 first_seen: '2026-10-05T14:06:57Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

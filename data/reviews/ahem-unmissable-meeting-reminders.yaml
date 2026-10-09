@@ -1,0 +1,42 @@
+- id: req-initial-ahem-unmissable-meeting-reminders-2026-10-09
+  project_slug: ahem-unmissable-meeting-reminders
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决专注状态下错过会议的问题，但公开材料未说明普通提醒为何失效、不采用会付出什么代价，痛点强度无法判断。
+    evidence_ids:
+    - ev-706b0987f36bd7ed
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品简介外没有用户评价或采用数据，无法判断共识卡在感知还是场景环节。
+    evidence_ids:
+    - ev-706b0987f36bd7ed
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅或团队采购均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-706b0987f36bd7ed
+  - gate: truth
+    status: insufficient
+    reason: 无法核对提醒是否真能拦住用户、是否支持人工调整，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-706b0987f36bd7ed
+  next_validation: 收集该产品的官方定价页或用户评价，确认全屏提醒的实际触发方式与用户是否持续启用。
+  market: ''
+  job: 在深度专注或时间感知较弱的工作状态下，用户需要在会议开始前被强制打断，以免错过日程。
+  job_en: While deeply focused or with weak time perception, a user needs to be forcibly interrupted before
+    a meeting starts so as not to miss it.
+  pain: 公开材料只说明提醒是全屏形式，没有用户反馈说明普通日历通知究竟在什么情况下失效。
+  pain_en: Public material only says the reminder is full-screen, with no user feedback on when ordinary
+    calendar notifications actually fail.
+  current_alternative: 现有做法是使用日历自带的弹窗通知、手机闹钟，或让同事口头提醒。
+  current_alternative_en: Current practice is built-in calendar pop-ups, phone alarms, or asking a colleague
+    to remind you verbally.
+  usage_reason: 推断：若全屏提醒确实比角落弹窗更难被忽略，容易错过会议的人会在关键日程上启用它，省掉事后道歉和重排的一步；但缺少采用与留存证据，这一因果尚未被证实。
+  usage_reason_en: 'Inference: if a full-screen reminder is genuinely harder to ignore than a corner pop-up,
+    people who miss meetings would enable it for key events, saving the step of apologising and rescheduling
+    afterwards; but with no adoption or retention evidence this causal link is unproven.'

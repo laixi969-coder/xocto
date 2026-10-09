@@ -24,7 +24,7 @@ summary: The story is a collaboration between MIT Technology Review and Aventine
   Perhaps you’ve seen it dance or…
 first_seen: '2026-10-08T09:00:00Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

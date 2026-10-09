@@ -1,0 +1,42 @@
+- id: req-initial-nace-2026-10-09
+  project_slug: nace
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决文档字段抽取这一具体任务，痛点真实，但公开材料未说明文档类型、输入与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-d1d043649ec1fdca
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布信息，无用户评价、客户案例或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-d1d043649ec1fdca
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 按量或按结果收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-d1d043649ec1fdca
+  - gate: truth
+    status: insufficient
+    reason: 无法核对准确率、人工复核边界与交付确定性，第一性目标是否贴近尚不可判断。
+    evidence_ids:
+    - ev-d1d043649ec1fdca
+  next_validation: 收集 Nace.ai 官方文档或定价页，确认其支持的文档类型、输出字段格式与计费方式。
+  market: ''
+  job: 开发者或业务团队在需要把合同、报表等文档批量转成结构化字段时，接入 Nace.ai 处理这些材料并拿到可用结果。
+  job_en: Developers or business teams use Nace.ai to process contracts, reports and similar documents
+    in bulk and obtain usable structured fields.
+  pain: 文档字段靠人工逐份抄录或写规则脚本，慢且易错；但公开材料没有说明具体是哪类文档、错在哪一步。
+  pain_en: Document fields are copied by hand or handled with brittle rule scripts, which is slow and
+    error-prone; however, the public material does not say which document types or which step fails.
+  current_alternative: 通用 OCR 加人工校对，或自建正则与模板抽取脚本。
+  current_alternative_en: Generic OCR plus manual proofreading, or self-built regex and template extraction
+    scripts.
+  usage_reason: 推断：若它能把固定字段的抽取从写规则脚本改为直接调用模型并返回字段，用户可省去维护模板这一步；但公开材料未给出准确率、客户案例或定价，无法确认这一优势是否成立。
+  usage_reason_en: 'Inference: if it replaces writing extraction rules with a model call that returns
+    fields directly, users could skip maintaining templates; but the public material gives no accuracy,
+    customer case or pricing, so this advantage cannot be confirmed.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ21ROXpMaW92
 summary: 营收数据大幅缩水！AI巨头降温，美股产业链集体大跌 搜狐网
 first_seen: '2026-10-09T01:52:30Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

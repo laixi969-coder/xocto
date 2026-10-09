@@ -1,11 +1,16 @@
 ---
 slug: nmc-bars-self-promotion-misleading-reviews-regulates-ai-soci
-name: NMC bars self-promotion, misleading reviews; regulates AI, social media use by doctors, hospitals
+name: National Medical Commission
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 印度国家医学委员会（NMC）出台规定，禁止医生和医院自我宣传与误导性评价，并对医生、医院使用 AI 和社交媒体作出规范。这是针对医疗行业 AI 与社媒使用的监管收紧，意味着面向医疗机构的
+  AI 营销、内容生成与评价管理工具将面临合规约束，采用与交付需纳入监管审查。
 inspiration: ''
-summary_en: ''
+summary_en: India's National Medical Commission (NMC) issued rules barring self-promotion and misleading
+  reviews by doctors and hospitals, and regulating their use of AI and social media. This is a tightening
+  of regulation over AI and social media use in healthcare, meaning AI marketing, content generation,
+  and reputation-management tools aimed at medical institutions will face compliance constraints, and
+  adoption and delivery must incorporate regulatory review.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +27,7 @@ summary: NMC bars self-promotion, misleading reviews; regulates AI, social media
   ET BrandEquity
 first_seen: '2026-10-08T07:30:08Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# NMC bars self-promotion, misleading reviews; regulates AI, social media use by doctors, hospitals
+# National Medical Commission
 
 NMC bars self-promotion, misleading reviews; regulates AI, social media use by doctors, hospitals ET BrandEquity
 

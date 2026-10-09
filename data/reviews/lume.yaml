@@ -1,0 +1,44 @@
+- id: req-initial-lume-2026-10-09
+  project_slug: lume
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决随手记事这一任务，但系统便笺与聊天窗口已能覆盖，不用的代价低，是否刚性不足尚不清楚。
+    evidence_ids:
+    - ev-53e2b63d6e11f539
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品描述，没有用户评价、采用规模或社区讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-53e2b63d6e11f539
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-53e2b63d6e11f539
+  - gate: truth
+    status: insufficient
+    reason: 便签如何保存、是否跨设备同步、数据存在哪里均未说明，交付确定性缺少依据。
+    evidence_ids:
+    - ev-53e2b63d6e11f539
+  next_validation: 收集该产品的官方定价页或应用商店页面，确认它是否包含 AI 处理、便签存储与同步方式以及是否按订阅收费。
+  market: ''
+  job: Windows 办公用户在写文档、看资料或开会时，处理临时冒出的想法和待办，要快速记下来又不打断当前窗口的操作。
+  job_en: A Windows office user writing documents, reading material or sitting in a meeting handles fleeting
+    thoughts and to-dos and needs to capture them quickly without interrupting work in the current window.
+  pain: 切到笔记应用再切回来会打断当前任务，系统便笺又常被其他窗口盖住，导致记一笔的成本偏高。
+  pain_en: Switching to a note app and back interrupts the current task, and built-in sticky notes are
+    often buried under other windows, making a single jot costly.
+  current_alternative: 现在多用系统自带便笺、Notepad 临时文件、或直接在聊天窗口给自己发消息，也有人用 Notion 等笔记应用。
+  current_alternative_en: Today people mostly use built-in sticky notes, temporary Notepad files, or messages
+    to themselves in a chat window, and some use note apps such as Notion.
+  usage_reason: 推断：相较切窗口打开笔记应用，摇动鼠标唤出浮层把“记一笔”压缩成一个手势，省掉的是切换应用这一步，因此频繁在多个窗口间跳转、又常被打断的人可能选择它；但公开材料未说明它是否涉及
+    AI，也未给出留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with switching windows to open a note app, shaking the mouse to
+    summon a floating layer compresses jotting into one gesture and removes the app-switching step, so
+    people who jump between windows and get interrupted often may choose it; however the public material
+    does not say whether AI is involved and gives no retention or repeat-use evidence.'

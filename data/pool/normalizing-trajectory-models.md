@@ -3,9 +3,13 @@ slug: normalizing-trajectory-models
 name: Normalizing Trajectory Models
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一项模型方法研究：把扩散生成的反向过程拆成带精确似然的归一化流步骤，目标是让少步采样不再牺牲似然框架。它面向的是训练和推理生成模型的研究与工程环节，不是终端用户打开使用的产品；对应用层的成本与交付影响目前没有材料支持，属于推断。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a model-method research release: it recasts the reverse diffusion process as normalizing-flow
+  steps with exact likelihood training, aiming to keep the likelihood framework while sampling in few
+  steps. It targets research and engineering of generative model training and inference, not an end-user
+  product; any effect on application-layer cost or delivery is not supported by the material and remains
+  an inference.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +30,7 @@ summary: Diffusion-based models decompose sampling into many small Gaussian deno
   NTM combines shallow invertible blocks within each step with a deep parallel…
 first_seen: '2026-10-08T00:00:00Z'
 last_seen: '2026-10-09T02:10:46Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:

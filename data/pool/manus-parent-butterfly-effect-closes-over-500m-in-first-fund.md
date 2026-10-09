@@ -1,6 +1,6 @@
 ---
 slug: manus-parent-butterfly-effect-closes-over-500m-in-first-fund
-name: Manus Parent Butterfly Effect Closes Over $500M in First Funding Since Collapsed $2B Meta Deal
+name: Butterfly Effect
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Manus Parent Butterfly Effect Closes Over $500M in First Funding Since 
   AI Insider
 first_seen: '2026-10-08T17:22:27Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Manus Parent Butterfly Effect Closes Over $500M in First Funding Since Collapsed $2B Meta Deal
+# Butterfly Effect
 
 Manus Parent Butterfly Effect Closes Over $500M in First Funding Since Collapsed $2B Meta Deal AI Insider
 

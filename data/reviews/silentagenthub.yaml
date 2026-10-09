@@ -1,0 +1,43 @@
+- id: req-initial-silentagenthub-2026-10-09
+  project_slug: silentagenthub
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决编码代理跳过需求与测试、产出不可控的问题，但公开材料只有仓库自述，无法确认替代了哪一步具体旧工作。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 104 个星标，属于关注度信号，不能说明开发者已把它留在工作流里。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+  - gate: model
+    status: insufficient
+    reason: 开源项目没有定价或付费路径信息，是否存在商业买方未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+  - gate: truth
+    status: insufficient
+    reason: 无法核验规则与钩子是否真能约束代理行为、产出是否可验收，交付确定性不明。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+  next_validation: 查看该仓库的 issue 与 discussion，确认是否有开发者报告实际使用中的失败案例或成功交付。
+  market: ''
+  job: 独立开发者或小团队在把一个 0-1 想法落地时，需要按需求、研究、设计、原型、开发、测试、发布的顺序推进，希望用一套规则和钩子约束编码代理的行为。
+  job_en: A solo developer or small team taking a 0-to-1 idea to delivery needs to move through requirements,
+    research, design, prototype, development, testing and release, and wants rules and hooks to constrain
+    a coding agent's behavior.
+  pain: 编码代理容易跳过需求与测试环节、产出不可控，团队需要反复人工纠正；但公开材料未给出用户抱怨或返工数据。
+  pain_en: Coding agents tend to skip requirements and testing and produce unpredictable output, forcing
+    repeated manual correction; the public material gives no user complaints or rework data.
+  current_alternative: 开发者自己写提示词、维护项目规范文档，或使用现成的编码代理默认流程。
+  current_alternative_en: Developers writing their own prompts, maintaining project standard documents,
+    or using a coding agent's default workflow.
+  usage_reason: 推断：把各阶段规则和钩子预置进代理，可减少每次重新交代流程的步骤，因此希望代理产出可验收的独立开发者可能选择它；但仓库只有星标数，没有用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: pre-loading stage rules and hooks into the agent reduces the step of re-explaining
+    the process each time, so solo developers who want verifiable agent output may choose it; however
+    the repository only shows star counts, with no user feedback or repeat-use evidence.'

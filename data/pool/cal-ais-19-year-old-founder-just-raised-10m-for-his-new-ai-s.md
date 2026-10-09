@@ -1,6 +1,6 @@
 ---
 slug: cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-s
-name: Cal AI’s 19-year-old founder just raised $10M for his new AI startup
+name: Cal AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking a
   personal AI agent startup that competes with Instinct, Muse, and Bee.
 first_seen: '2026-10-08T14:00:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch
@@ -39,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# Cal AI’s 19-year-old founder just raised $10M for his new AI startup
+# Cal AI
 
 Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.
 

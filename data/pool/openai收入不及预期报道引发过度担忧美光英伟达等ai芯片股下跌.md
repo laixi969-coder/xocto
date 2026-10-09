@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcW9fYjE3aUpN
 summary: OpenAI收入不及预期报道引发“过度担忧”，美光、英伟达等AI芯片股下跌 华尔街日报中文版
 first_seen: '2026-10-09T00:00:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

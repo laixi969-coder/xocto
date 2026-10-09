@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aQ05Jb0x0Mi1W
 summary: The Best 3D Printers We've Tested for 2026 PCMag
 first_seen: '2026-10-06T07:00:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

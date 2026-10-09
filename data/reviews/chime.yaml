@@ -1,0 +1,42 @@
+- id: req-initial-chime-2026-10-09
+  project_slug: chime
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短信混杂导致重要通知被漏看的问题，痛点具体，且本地处理回应了隐私顾虑。
+    evidence_ids:
+    - ev-973ad21e62a07b71
+  - gate: consensus
+    status: insufficient
+    reason: 除发布信息外没有用户评价或采用数据，无法判断分类结果是否被认可。
+    evidence_ids:
+    - ev-973ad21e62a07b71
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是面向个人订阅还是预装授权无法判断，属推断。
+    evidence_ids:
+    - ev-973ad21e62a07b71
+  - gate: truth
+    status: insufficient
+    reason: 端侧处理符合隐私第一性目标，但分类准确率与误判纠正方式未公开。
+    evidence_ids:
+    - ev-973ad21e62a07b71
+  next_validation: 收集该产品官方页面上的分类类别说明、端侧模型信息与定价或授权方式。
+  market: ''
+  job: 普通手机用户在短信混杂验证码、快递、营销和银行通知时，需要把收件箱整理成可快速查找的分类。
+  job_en: Ordinary phone users whose inbox mixes verification codes, deliveries, marketing and bank notices
+    need it sorted into quickly searchable categories.
+  pain: 短信列表被营销和验证码淹没，重要通知容易被漏看，手动归档又太琐碎。
+  pain_en: The SMS list is flooded by marketing and codes, important notices get missed, and manual filing
+    is too tedious.
+  current_alternative: 现在多靠手机自带的关键词过滤、手动置顶或干脆不整理。
+  current_alternative_en: Today people rely on built-in keyword filters, manual pinning, or simply not
+    organizing at all.
+  usage_reason: 推断：相较系统关键词过滤，它用模型理解整条短信语义再归类，减少用户逐条翻找这一步，因此对短信量大且在意隐私的用户有吸引力；公开材料未提供留存或使用数据。
+  usage_reason_en: 'Inference: unlike keyword filters, it uses a model to understand full message semantics
+    before sorting, removing the step of scanning messages one by one, which appeals to high-volume, privacy-conscious
+    users; no retention or usage data is provided.'

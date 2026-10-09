@@ -1,0 +1,42 @@
+- id: req-initial-pocketty-2026-10-09
+  project_slug: pocketty
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代理阻塞时人不在电脑前、任务停摆的痛点，但公开材料只说明会提醒，未说明提醒后能做什么、交付是否确定。
+    evidence_ids:
+    - ev-a63b0a9fc07a119d
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量很小，仅能说明有人关注，不足以证明形成持续使用共识。
+    evidence_ids:
+    - ev-a63b0a9fc07a119d
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方信息，钱可能来自个人订阅或团队席位，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a63b0a9fc07a119d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对手机端提醒与放行是否贴近该工作的第一性目标，也未见安全与人工边界说明。
+    evidence_ids:
+    - ev-a63b0a9fc07a119d
+  next_validation: 收集 Pocketty 官方页面或文档，确认提醒渠道、可在手机上执行的操作以及是否公布定价。
+  market: ''
+  job: 把 AI 代理跑在自有服务器上的开发者，在离开电脑时需要用手机查看代理状态，并在代理被阻塞时及时处理。
+  job_en: A developer running AI agents on their own servers needs to check agent status from a phone
+    while away from the computer and act when an agent is blocked.
+  pain: 代理卡住时人不在电脑前，任务停在原地，等回到工位才发现，浪费等待时间。
+  pain_en: When an agent blocks while the person is away, the task stalls until they return to the desk,
+    wasting waiting time.
+  current_alternative: 目前多靠手机上的通用 SSH 客户端连服务器手动查看，或干脆等回到电脑前再处理。
+  current_alternative_en: Today people mostly use a general SSH client on the phone to check manually,
+    or simply wait until they are back at the computer.
+  usage_reason: 推断：它把“代理被阻塞”这一状态主动推到手机上，省掉用户反复手动连服务器查看这一步，因此把代理跑在远端服务器、又常离开工位的开发者会在外出时选择它；公开材料未给出用户反馈或留存证据。
+  usage_reason_en: 'Inference: it pushes the blocked-agent state to the phone, removing the step of repeatedly
+    connecting to the server to check, so developers running agents on remote servers who often leave
+    their desk would choose it while out; no user feedback or retention evidence is public.'

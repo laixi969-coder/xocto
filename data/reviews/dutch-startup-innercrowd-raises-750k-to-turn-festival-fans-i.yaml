@@ -1,0 +1,43 @@
+- id: req-initial-dutch-startup-innercrowd-raises-750k-to-turn-festival-fans-i-2026-10-09
+  project_slug: dutch-startup-innercrowd-raises-750k-to-turn-festival-fans-i
+  level: initial
+  reviewed_at: '2026-10-09T02:10:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决主办方卖票难、粉丝传播无路径的问题，痛点是缺人手与归因；不采用则继续靠广告和人工转发。
+    evidence_ids:
+    - ev-198717d11ab10d9e
+  - gate: consensus
+    status: insufficient
+    reason: 报道称已合作一百多个音乐节，但未给出使用频率、留存或复购，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-198717d11ab10d9e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与收费方式，买方可能是主办方按活动付费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-198717d11ab10d9e
+  - gate: truth
+    status: insufficient
+    reason: 候选未说明 AI 在素材生成或归因中的具体角色，也未说明人工审核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-198717d11ab10d9e
+  next_validation: 收集 Innercrowd 官方定价页或客户案例，核实其收费方式与售票归因的实际交付结果。
+  market: ''
+  job: 音乐节营销人员在开票前后，需要把已有粉丝和购票者变成推广渠道，处理粉丝名单与活动信息，最终完成更多门票销售。
+  job_en: Festival marketing staff, before and after tickets go on sale, need to turn existing fans and
+    ticket buyers into promotion channels, working from fan lists and event information to sell more tickets.
+  pain: 主办方缺少专职增长团队，买广告位成本高且转化难归因；粉丝愿意传播但缺少现成素材和可追踪的分享路径。
+  pain_en: Organisers lack a dedicated growth team, ad placements are costly and hard to attribute, and
+    willing fans have no ready-made material or trackable sharing path.
+  current_alternative: 此前主要靠主办方自己发社交媒体帖、买广告位，或让粉丝手动转发海报，售票归因基本靠人工统计。
+  current_alternative_en: Previously organisers posted on social media themselves, bought ad placements,
+    or asked fans to forward posters manually, with ticket attribution counted by hand.
+  usage_reason: 推断：相较人工发帖和买广告，它把粉丝关系直接转成可分享素材并追踪售票来源，省去主办方自己制作素材和统计归因的步骤，因此缺少增长人手的音乐节主办方会在开票期选择它；候选未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with manual posting and ad buying, it converts fan relationships
+    into shareable material and tracks where ticket sales come from, removing the steps of producing assets
+    and counting attribution, so festivals without growth staff pick it during on-sale periods; the candidate
+    offers no retention or repeat-use evidence.'

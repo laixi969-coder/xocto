@@ -1,18 +1,28 @@
 ---
 slug: ollama-ollama-v0401
-name: 'ollama/ollama: v0.40.1'
+name: Ollama
 builder: ollama
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 基础层
+summary_zh: 开发者在本地或内网部署大模型时打开 Ollama，它接收模型文件与运行请求，完成下载、加载与推理服务，并输出可调用的本地接口；本次版本还代理云端用量与余额查询，并简化命令行首次配置。具体交付与计费方式仍待核验。
+inspiration: Local inference tooling is absorbing cloud usage and balance into its own interface, suggesting
+  metering and quota management for hybrid local-cloud deployment is becoming a distinct layer; the opening
+  is resource accounting for private-deployment teams.
+summary_en: Developers running models locally or on-premise open Ollama, which takes model files and run
+  requests, handles download, loading and inference serving, and exposes a callable local endpoint; this
+  release also proxies cloud usage and balance queries and simplifies first-run CLI setup. Delivery and
+  billing details remain unverified.
+inspiration_en: Validate sustained use in a real workflow before deciding whether the opportunity merits
+  investment.
 priority_review: false
 project_type: open_source
 industries: []
 industries_en: []
-jobs: []
-jobs_en: []
+jobs:
+- 本地模型部署与运维
+- 开发者工具集成
+jobs_en:
+- Local model deployment and operations
+- Developer tooling integration
 regions: []
 regions_en: []
 open_source: true
@@ -31,7 +41,7 @@ summary: "## What's Changed\r\n* server: proxy cloud usage and balance APIs by @
   \ https://github.com/ollama/ollama/compare/v0.40.0...v0.40.1-rc0"
 first_seen: '2026-10-07T23:22:59Z'
 last_seen: '2026-10-09T02:10:18Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:
@@ -43,7 +53,7 @@ sightings:
   kind: news
 ---
 
-# ollama/ollama: v0.40.1
+# Ollama
 
 ## What's Changed
 * server: proxy cloud usage and balance APIs by @drifkin in https://github.com/ollama/ollama/pull/18829

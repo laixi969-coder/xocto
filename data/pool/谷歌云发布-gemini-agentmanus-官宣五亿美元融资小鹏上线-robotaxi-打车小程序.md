@@ -1,11 +1,15 @@
 ---
 slug: 谷歌云发布-gemini-agentmanus-官宣五亿美元融资小鹏上线-robotaxi-打车小程序
-name: 谷歌云发布 Gemini Agent；Manus 官宣五亿美元融资；小鹏上线 Robotaxi 打车小程序
+name: Gemini Agent
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 谷歌云面向企业客户发布的通用工作智能体，用户给出目标后由它完成问答、知识型工作、媒体内容创作与编程，并可作为团队成员承担 PM、财务分析师等角色，接入 Gemini Enterprise、Workspace
+  与第三方服务。这是平台级能力发布，不是独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: 'A general-purpose work agent released by Google Cloud for enterprise customers: users give
+  a goal and it handles Q&A, knowledge work, media creation and coding, and can act as a team member in
+  roles such as PM or financial analyst, connecting to Gemini Enterprise, Workspace and third-party services.
+  This is a platform-level capability release, not a standalone product.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -62,7 +66,7 @@ summary: "谷歌云发布 Gemini Agent，支持多种 AI 模型  \n 10 月 8 日
   \ \n FWO 最后提醒，想玩《GTA6》这条理由不一定能让无薪休假获批，员工需要和雇主协商一致，才能获得无薪假期。（来源：IT之家）"
 first_seen: '2026-10-09T00:35:13Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -73,7 +77,7 @@ sightings:
   kind: news
 ---
 
-# 谷歌云发布 Gemini Agent；Manus 官宣五亿美元融资；小鹏上线 Robotaxi 打车小程序
+# Gemini Agent
 
 谷歌云发布 Gemini Agent，支持多种 AI 模型  
  10 月 8 日，谷歌云在 Gemini at Work 2026 发布会上宣布，面向企业客户推出 Gemini 智能体（Gemini Agent）。这款产品定位「通用工作智能体」，支持 Gemini Enterprise 、Workspace 以及第三方服务。 

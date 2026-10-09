@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFRHJyNXliVlE3
 summary: 从实验室到产业一线：王拓为谈端侧AI 人工智能
 first_seen: '2026-10-08T02:16:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

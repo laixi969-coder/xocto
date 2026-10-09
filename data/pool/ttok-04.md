@@ -1,6 +1,6 @@
 ---
 slug: ttok-04
-name: ttok 0.4
+name: ttok
 builder: ''
 category: ''
 summary_zh: ''
@@ -25,7 +25,7 @@ summary: "Release:   ttok 0.4  \n          ttok  is my CLI tool for counting tok
   \    \n         Tags:  projects ,  ai ,  openai ,  generative-ai ,  llms ,  tokenization"
 first_seen: '2026-10-08T23:34:28Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -36,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# ttok 0.4
+# ttok
 
 Release:   ttok 0.4  
           ttok  is my CLI tool for counting tokens, using OpenAI's open source  tiktoken  library. 

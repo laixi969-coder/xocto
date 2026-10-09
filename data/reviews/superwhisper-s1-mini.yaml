@@ -1,0 +1,42 @@
+- id: req-initial-superwhisper-s1-mini-2026-10-09
+  project_slug: superwhisper-s1-mini
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决语音转写结果口语化、缺标点、需人工逐句改写的痛点，旧做法是手动修改或粘贴到通用对话
+    evidence_ids:
+    - ev-628434e37e16c87f
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论仅 6 个积分、0 条评论，没有采用或评价证据，无法判断共识
+    evidence_ids:
+    - ev-628434e37e16c87f
+  - gate: model
+    status: insufficient
+    reason: 模型以 GGUF 形式发布，未披露定价或商业路径，买方与付费方式不明
+    evidence_ids:
+    - ev-628434e37e16c87f
+  - gate: truth
+    status: insufficient
+    reason: 无法核验规范化后的文本是否保持原意，人工确认边界未说明
+    evidence_ids:
+    - ev-628434e37e16c87f
+  next_validation: 收集该模型在公开仓库或社区的下载与使用数据，确认是否有持续采用
+  market: ''
+  job: 经常用语音输入写邮件或文档的知识工作者，在语音转文字后整理口语化、断句混乱的文本，以得到可直接发送的书面内容
+  job_en: Knowledge workers who dictate emails or documents clean up colloquial, poorly punctuated speech-to-text
+    output to get sendable written content
+  pain: 语音转写结果口语化、缺标点、语气随意，直接发送需要人工逐句改写
+  pain_en: Speech transcripts are colloquial, lack punctuation, and carry casual tone, so sending them
+    requires sentence-by-sentence manual rewriting
+  current_alternative: 用户手动修改转写文本，或把文本粘贴到通用 AI 对话中要求改写
+  current_alternative_en: Users manually edit the transcript, or paste it into a general AI chat and ask
+    for a rewrite
+  usage_reason: 推断：相较手动改写或粘贴到通用对话，它把规范化动作放在转写之后直接完成，减少一次复制与提示这一步，因此高频语音输入者会在写邮件、写文档时选择它；公开材料未提供留存或付费证据
+  usage_reason_en: 'Inference: versus manual rewriting or pasting into a general chat, it performs normalization
+    right after transcription, removing a copy-and-prompt step, so heavy dictation users would choose
+    it when writing emails or documents; no retention or payment evidence is public'

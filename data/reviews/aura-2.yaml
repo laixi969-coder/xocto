@@ -1,0 +1,43 @@
+- id: req-initial-aura-2-2026-10-09
+  project_slug: aura-2
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多人共用助手时上下文互相污染、数据需自持的问题，但候选只有一句仓库描述，说不清谁在什么节点用、交付什么，价值结构无法还原。
+    evidence_ids:
+    - ev-bdcc13780cf94a1a
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 6 分 1 评论，属于关注度信号，不能说明有人持续采用，也看不出卡在感知还是场景。
+    evidence_ids:
+    - ev-bdcc13780cf94a1a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、部署方式与买方，钱可能来自自托管团队或开源赞助，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bdcc13780cf94a1a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对记忆隔离是否真的按人生效、多用户并发下是否可靠，也看不到人工确认边界。
+    evidence_ids:
+    - ev-bdcc13780cf94a1a
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认多用户记忆隔离的实际实现方式与部署要求。
+  market: ''
+  job: 资料未说明具体使用者与工作节点，只能确认它面向需要多人各自保留上下文的场景，处理什么材料、要完成什么任务均未给出。
+  job_en: The material does not state the specific user or work step; it only indicates a multi-user setting
+    where each person keeps separate context, with no material or task described.
+  pain: 可推断的痛点是共用会话会让不同人的上下文互相污染，或数据必须留在自有服务器上；但候选材料没有用户抱怨或案例支持，属于推断。
+  pain_en: The inferable pain is that a shared session mixes different people's context, or that data
+    must stay on one's own server; the candidate material has no user complaint or case to support this,
+    so it is an inference.
+  current_alternative: 旧做法可能是各自开一个云端助手账号、手动粘贴背景，或干脆不用助手；候选材料未描述任何现有替代行为。
+  current_alternative_en: The old way may be separate cloud assistant accounts, manually pasting background,
+    or not using an assistant at all; the candidate material describes no existing alternative behavior.
+  usage_reason: 若按描述成立，它把记忆按人隔离并放在自托管环境，省去每次重新交代背景和担心数据外流这两步；但这是根据仓库描述作出的推断，缺少用户反馈或使用证据。
+  usage_reason_en: If the description holds, it isolates memory per person in a self-hosted environment,
+    removing the need to restate background each time and the worry about data leaving; this is an inference
+    from the repository description, lacking user feedback or usage evidence.

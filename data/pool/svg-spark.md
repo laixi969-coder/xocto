@@ -21,7 +21,7 @@ canonical_url: https://svg-spark.vercel.app
 summary: 10 client-side SVG design and dev tools
 first_seen: '2026-10-08T23:32:49Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

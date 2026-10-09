@@ -1,0 +1,41 @@
+- id: req-initial-ai-写小说最大的问题不是文笔是写到50-万字还记不记得前文糖糖写作用-四本台账-把长篇一致性变成工程问题-2026-10-09
+  project_slug: ai-写小说最大的问题不是文笔是写到50-万字还记不记得前文糖糖写作用-四本台账-把长篇一致性变成工程问题
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 长篇网文连载中维持数十万字前后设定一致是刚性需求，用结构化台账接管状态在工作流结构上成立。
+    evidence_ids:
+    - ev-64938260c79b208f
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅有媒体报道，缺乏公开的作者留存、活跃度与实际连载完本案例。
+    evidence_ids:
+    - ev-64938260c79b208f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露商业化定价方案或订阅付费路径。
+    evidence_ids:
+    - ev-64938260c79b208f
+  - gate: truth
+    status: supported
+    reason: 针对长文本遗忘问题采用模块化台账作为外挂状态机，交付路径工程定义明确。
+    evidence_ids:
+    - ev-64938260c79b208f
+  next_validation: 糖糖写作官方产品定价页面及网文创作者端到端长篇创作的使用案例
+  market: ''
+  job: 网络小说创作者在长篇小说连载（如达到50万字以上）时，处理庞杂的角色关系、世界观设定与支线伏笔，保持后文与前文设定一致。
+  job_en: Web novelists serialize chapters across 500k+ words while managing character relations, worldbuilding,
+    and plot foreshadowing to keep narratives consistent.
+  pain: 通用模型因上下文窗口和注意力漂移容易遗忘前期伏笔与设定细节，导致长篇写作中频繁出现人设崩坏或情节冲突，作者手工校对负担沉重。
+  pain_en: Generic LLMs suffer from context drift and lose early plot threads, causing character inconsistencies
+    and forcing heavy manual editing on novelists.
+  current_alternative: 人工维护本地大纲文档、表格台账，或反复在多轮提示词中手动拼接前文关键设定摘要。
+  current_alternative_en: Manually updating local outline spreadsheets or repeatedly pasting manual summaries
+    into prompt context windows.
+  usage_reason: 推断该产品通过将长篇设定解构为“四本台账”工程化检索与更新机制，降低作者在长篇连载中跨章节记忆与校验设定的手工检索负担。
+  usage_reason_en: Presumably, the tool reduces manual lookup burdens during serialization by structuring
+    universe rules and plot points into four dedicated tracking ledgers.

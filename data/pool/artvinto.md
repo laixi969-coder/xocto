@@ -21,7 +21,7 @@ canonical_url: https://artvinto.com
 summary: Vintage posters and fine art prints
 first_seen: '2026-10-08T18:08:31Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

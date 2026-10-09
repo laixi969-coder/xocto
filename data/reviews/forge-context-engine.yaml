@@ -1,0 +1,41 @@
+- id: req-initial-forge-context-engine-2026-10-09
+  project_slug: forge-context-engine
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向 Roblox 脚本编写这一具体环节，但公开材料未还原旧流程、输入材料和不解决的后果，价值结构不完整。
+    evidence_ids:
+    - ev-fee2ed2da9d0299d
+  - gate: consensus
+    status: insufficient
+    reason: 有一定开源关注度，但没有 Roblox 开发者采用或场景共识的公开证据。
+    evidence_ids:
+    - ev-fee2ed2da9d0299d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露买方或付费路径，钱从哪来无法判断。
+    evidence_ids:
+    - ev-fee2ed2da9d0299d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近 Roblox 开发的第一性目标，交付是否确定发生也不明。
+    evidence_ids:
+    - ev-fee2ed2da9d0299d
+  next_validation: 收集该仓库 README 与 issue/discussion，确认它实际接入 Roblox Studio 的方式、产出交付，以及是否有开发者报告在真实项目中使用。
+  market: ''
+  job: Roblox 开发者在自己的 Studio 项目里，让编码助手读取项目上下文，完成游戏脚本的编写或修改。
+  job_en: A Roblox developer lets a coding assistant read project context inside their Studio project
+    to write or modify game scripts.
+  pain: 公开材料只有一句定位，没有说明开发者原来卡在哪一步、不解决会失去什么。
+  pain_en: Public material is a single positioning line and does not say which step developers were stuck
+    on or what they lose without it.
+  current_alternative: 公开材料未说明现有替代方式，可能是手写脚本或直接用通用编码助手，此为推断。
+  current_alternative_en: Public material does not state the current alternative; possibly hand-writing
+    scripts or using a general coding assistant directly, which is inference.
+  usage_reason: 没有用户反馈或采用证据，无法说明相较手写脚本减少了哪一步负担，缺少这一环。
+  usage_reason_en: With no user feedback or adoption evidence, which step it removes versus hand-writing
+    scripts cannot be stated; this link is missing.

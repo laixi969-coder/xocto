@@ -1,6 +1,6 @@
 ---
 slug: eformed-ventures-acquires-outdoor-life-to-build-ai-powered-o
-name: eFormed Ventures Acquires Outdoor Life To Build AI-Powered Outdoor Marketplace
+name: eFormed Ventures
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiakFVX3lxTE1jeWZpdzctVkdY
 summary: eFormed Ventures Acquires Outdoor Life To Build AI-Powered Outdoor Marketplace Pulse 2.0
 first_seen: '2026-10-08T18:05:23Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# eFormed Ventures Acquires Outdoor Life To Build AI-Powered Outdoor Marketplace
+# eFormed Ventures
 
 eFormed Ventures Acquires Outdoor Life To Build AI-Powered Outdoor Marketplace Pulse 2.0
 

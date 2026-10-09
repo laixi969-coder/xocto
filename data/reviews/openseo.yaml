@@ -1,0 +1,43 @@
+- id: req-initial-openseo-2026-10-09
+  project_slug: openseo
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决付费 SEO 工具贵、数据整理手工的问题，痛点真实，但公开材料只有一句定位，说不清具体输入、动作与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-a1310bce1d0817fc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句定位，没有用户评价、采用或社区讨论证据，无法判断是否有人真的在用它替代旧工具。
+    evidence_ids:
+    - ev-a1310bce1d0817fc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费路径或数据来源，开源项目可能的收入方式（托管、数据服务）均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-a1310bce1d0817fc
+  - gate: truth
+    status: insufficient
+    reason: SEO 数据依赖持续抓取与更新，开源项目能否确定性交付稳定数据尚未说明，也未提及人工核对边界。
+    evidence_ids:
+    - ev-a1310bce1d0817fc
+  next_validation: 收集 OpenSEO 官方仓库或文档，确认其数据来源、部署方式与输出交付物。
+  market: ''
+  job: SEO 或内容营销人员在制定关键词策略、分析竞品排名时，需要收集搜索量与排名数据并整理成可执行的优化清单。
+  job_en: SEO or content marketers setting keyword strategy and analyzing competitor rankings need to
+    collect search volume and ranking data and turn it into an actionable optimization list.
+  pain: 付费 SEO 工具按席位订阅、成本高，小团队和独立站卖家难以长期负担，数据导出和整理仍要手工完成。
+  pain_en: Paid SEO tools charge per seat and are expensive, hard for small teams and independent store
+    sellers to sustain, and data export and cleanup still require manual work.
+  current_alternative: 使用 Semrush、Ahrefs 等付费工具，或手工在搜索引擎与免费关键词工具之间来回核对。
+  current_alternative_en: Using paid tools such as Semrush or Ahrefs, or manually cross-checking between
+    search engines and free keyword tools.
+  usage_reason: 推断：若其开源版本能自建部署并直接产出关键词与竞品数据，用户可省去按席位付费和逐项导出这两步；但公开材料未说明数据来源与交付形式，无法确认它比现有免费工具减少了哪一步负担。
+  usage_reason_en: 'Inference: if the open-source version can be self-hosted and directly produce keyword
+    and competitor data, users could skip per-seat fees and item-by-item export; but public material does
+    not describe the data source or deliverable, so it is unclear which step it removes compared with
+    existing free tools.'

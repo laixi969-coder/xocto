@@ -1,0 +1,44 @@
+- id: req-initial-deepseek-considers-doubling-latest-funding-round-to-up-to-15-2026-10-09
+  project_slug: deepseek-considers-doubling-latest-funding-round-to-up-to-15
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文用户获取通用模型能力的需求，痛点是语言适配与访问门槛；不采用的代价是继续依赖搜索或海外产品。
+    evidence_ids:
+    - ev-31e72015b149d56b
+  - gate: consensus
+    status: insufficient
+    reason: 候选只有融资传闻，没有用户规模、留存或社区采用数据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-31e72015b149d56b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与付费路径；通用助手可能来自 to C 订阅或 to B 接口，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-31e72015b149d56b
+  - gate: truth
+    status: insufficient
+    reason: 候选未说明模型能力边界、安全策略与人工确认环节，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-31e72015b149d56b
+  next_validation: 收集 DeepSeek 官方定价页或官方公告，核实其收费方式与产品能力边界。
+  market: ''
+  job: 普通用户、学生和开发者遇到写作、编程、资料理解等任务时，把问题或材料交给对话助手，换取一段可直接使用的文字、代码或解释。
+  job_en: Ordinary users, students and developers facing writing, coding or document-comprehension tasks
+    hand a question or material to a chat assistant in exchange for usable text, code or an explanation.
+  pain: 通用模型入口此前多由海外产品占据，中文语境下的使用门槛、访问稳定性和成本是主要摩擦；用户需要能直接对话、无需自建模型的替代方式。
+  pain_en: General model access was previously dominated by overseas products, with language fit, access
+    stability and cost as the main friction; users need a way to converse directly without building their
+    own model.
+  current_alternative: 此前用户主要使用海外通用助手，或自行调用 API 搭建简单界面；部分人仍靠搜索引擎逐条翻找答案。
+  current_alternative_en: Previously users mainly relied on overseas general assistants, or wired up APIs
+    themselves into a simple interface; some still searched page by page for answers.
+  usage_reason: 推断：相较搜索或自建 API，它把提问到获得成段答案压缩为一次对话，中文表达和推理结果可直接使用，因此中文用户在处理写作、编程和资料理解任务时会优先选择它；本次候选未提供留存或复购证据，长期留在工作流中尚无法核实。
+  usage_reason_en: 'Inference: compared with searching or self-hosting an API, it compresses asking a
+    question into a single conversation that returns usable Chinese text and reasoning, so Chinese-speaking
+    users pick it for writing, coding and document tasks; this candidate offers no retention or repeat-use
+    evidence, so long-term workflow lock-in cannot be verified.'

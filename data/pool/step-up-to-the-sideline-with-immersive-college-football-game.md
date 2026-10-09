@@ -21,7 +21,7 @@ canonical_url: https://meta.com/blog/watch-immersive-college-football-games-from
 summary: ''
 first_seen: '2026-10-08T15:56:36Z'
 last_seen: '2026-10-09T02:10:46Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

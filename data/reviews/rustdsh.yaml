@@ -1,0 +1,42 @@
+- id: req-initial-rustdsh-2026-10-09
+  project_slug: rustdsh
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点，公开材料只给出功能描述，未说明旧流程与不采用的后果。
+    evidence_ids:
+    - ev-a5712c307125e07d
+  - gate: consensus
+    status: insufficient
+    reason: 61 星与 77 个未关闭 issue 只说明关注度和维护压力，不能证明持续采用。
+    evidence_ids:
+    - ev-a5712c307125e07d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明任何付费路径或买方，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a5712c307125e07d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该工作的第一性目标，也未说明安全与人工边界如何落地。
+    evidence_ids:
+    - ev-a5712c307125e07d
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它替代的具体旧流程、权限边界与是否有团队实际部署使用。
+  market: ''
+  job: 开发者在本地项目里需要跑 DSH 相关命令并调用 agent 工具时，打开这个启动器执行指令并查看项目面板结果。
+  job_en: A developer running DSH-related commands and invoking agent tools on a local project opens this
+    launcher to execute instructions and view results on a project dashboard.
+  pain: 公开材料只说明它是带受约束 agent 工具和本地面板的启动器，没有说明开发者原来卡在哪一步、不解决会失去什么。
+  pain_en: The public material only says it is a launcher with guarded agent tools and a local dashboard;
+    it does not say which step developers were stuck on or what they lose without it.
+  current_alternative: 公开材料未说明此前开发者用什么方式运行 DSH 或管理 agent 工具权限。
+  current_alternative_en: The public material does not say how developers previously ran DSH or managed
+    agent tool permissions.
+  usage_reason: 推断：若受约束工具调用与本地面板能省去手工配置权限和翻日志的步骤，重视可审计性的开发者会选它；但缺少用户反馈，无法确认这一动机。
+  usage_reason_en: 'Inference: if guarded tool calls and a local dashboard remove manual permission setup
+    and log digging, developers who value auditability would pick it; without user feedback this motive
+    is unconfirmed.'

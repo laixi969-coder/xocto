@@ -21,7 +21,7 @@ canonical_url: https://understandingai.org/p/understanding-jev-the-new-model-eve
 summary: OpenAI, CloudFlare, and Amazon have all copied this tiny startup.
 first_seen: '2026-10-08T13:14:53Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

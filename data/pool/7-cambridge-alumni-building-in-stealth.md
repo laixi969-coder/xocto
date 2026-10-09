@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/7-cambridge-alumni-building-in-stealth
 summary: ''
 first_seen: '2026-10-08T05:00:48Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

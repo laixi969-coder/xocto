@@ -1,6 +1,6 @@
 ---
 slug: university-of-sussex-spinout-universal-quantum-raises-record
-name: University of Sussex spinout Universal Quantum raises “record” $100M Series A
+name: Universal Quantum
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: A UK university spinout building large scale quantum computing systems 
   firm.F...
 first_seen: '2026-10-08T09:00:00Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# University of Sussex spinout Universal Quantum raises “record” $100M Series A
+# Universal Quantum
 
 A UK university spinout building large scale quantum computing systems for real-world use has raised $100m in funding, which it says it the largest Series A raised by a UK-headquartered quantum firm.F...
 

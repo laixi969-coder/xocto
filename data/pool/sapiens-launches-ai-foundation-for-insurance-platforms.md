@@ -1,6 +1,6 @@
 ---
 slug: sapiens-launches-ai-foundation-for-insurance-platforms
-name: Sapiens launches AI foundation for insurance platforms
+name: Sapiens
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS19pLU94Mnp3
 summary: Sapiens launches AI foundation for insurance platforms CFOtech Australia
 first_seen: '2026-10-08T07:00:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Sapiens launches AI foundation for insurance platforms
+# Sapiens
 
 Sapiens launches AI foundation for insurance platforms CFOtech Australia
 

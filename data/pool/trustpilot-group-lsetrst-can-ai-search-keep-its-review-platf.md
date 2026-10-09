@@ -23,7 +23,7 @@ summary: 'Trustpilot Group (LSE:TRST): Can AI Search Keep Its Review Platform Gr
   Numbers? Kalkine Media'
 first_seen: '2026-10-08T11:12:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

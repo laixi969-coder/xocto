@@ -1,6 +1,6 @@
 ---
 slug: ai-tracker-teladoc-launches-new-ai-features
-name: 'AI Tracker: Teladoc launches new AI features'
+name: Teladoc
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0Zsbm5XcmxT
 summary: 'AI Tracker: Teladoc launches new AI features Modern Healthcare'
 first_seen: '2026-10-08T15:52:52Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI Tracker: Teladoc launches new AI features
+# Teladoc
 
 AI Tracker: Teladoc launches new AI features Modern Healthcare
 

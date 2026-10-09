@@ -22,7 +22,7 @@ summary: It had previously been reported that the AI lab's annualized revenue wa
   a new report claims it's a whole lot less than that.
 first_seen: '2026-10-08T18:19:42Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/simple-workout-log
 summary: The best minimalist workout tracker available
 first_seen: '2026-10-07T14:44:21Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

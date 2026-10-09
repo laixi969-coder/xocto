@@ -1,0 +1,43 @@
+- id: req-initial-oss-scanner-2026-10-09
+  project_slug: oss-scanner
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决代码仓库检查这一需求，但材料未给出任何痛点、旧流程或不采用的后果，无法确认需求是否刚性。
+    evidence_ids:
+    - ev-f4df8b7fc0ab4f37
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 65 星、43 次 fork 与 29 个未关闭 issue，属于关注度与活跃度信号，不能说明维护者已把它纳入日常流程。
+    evidence_ids:
+    - ev-f4df8b7fc0ab4f37
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或任何付费路径，钱可能来自哪一方无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f4df8b7fc0ab4f37
+  - gate: truth
+    status: insufficient
+    reason: 无法确认它是否贴近该工作的第一性目标、承诺能否确定性交付，以及是否涉及安全与人工边界。
+    evidence_ids:
+    - ev-f4df8b7fc0ab4f37
+  next_validation: 收集该仓库的 README 与 release 说明，确认它实际扫描什么材料、输出什么结果以及是否已有外部使用者。
+  market: ''
+  job: 开源维护者在收到外部代码贡献或准备发布版本时，需要处理仓库中的代码与依赖材料，完成一次可复核的检查并得到问题清单。
+  job_en: An open-source maintainer, when receiving external code contributions or preparing a release,
+    needs to process the repository's code and dependency material, complete a reviewable check and obtain
+    a list of issues.
+  pain: 候选材料没有说明任何具体痛点，既没有维护者手工检查耗时的描述，也没有漏检后果的说明。
+  pain_en: The candidate material describes no specific pain point, neither the time cost of manual maintainer
+    review nor the consequences of missed issues.
+  current_alternative: 候选材料未提供现有替代方式的信息，无法确认此前由谁、用什么工具完成同类检查。
+  current_alternative_en: The candidate material provides no information on existing alternatives, so
+    it cannot be confirmed who or what tool previously performed comparable checks.
+  usage_reason: 材料只给出仓库名与星标、fork、issue 数量，无法说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: The material only gives the repository name and star, fork and issue counts, and cannot
+    explain which step of effort it removes versus the old approach or which verifiable result it improves,
+    so it is impossible to judge which users would choose it and when.

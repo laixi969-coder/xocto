@@ -1,0 +1,42 @@
+- id: req-initial-side-2026-10-09
+  project_slug: side
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是不切换窗口就能提问的需求，痛点偏便利性而非刚性；公开材料只有一句描述，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-6bb9540c4f5e0fc5
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页一句话外没有用户评价、采用或讨论证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-6bb9540c4f5e0fc5
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费路径信息，买方与收费方式均未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6bb9540c4f5e0fc5
+  - gate: truth
+    status: insufficient
+    reason: 无法核验是否读取屏幕内容、支持哪些模型、结果是否可靠，交付确定性不明。
+    evidence_ids:
+    - ev-6bb9540c4f5e0fc5
+  next_validation: 收集该产品官方页面上的定价与功能说明，确认是否按订阅收费以及是否读取屏幕内容。
+  market: ''
+  job: Mac 用户在处理文档或其他窗口时，需要随手向 AI 提问或改写一段文字，希望不切换应用就拿到回答。
+  job_en: A Mac user working in a document or another window wants to ask an AI or rewrite a snippet without
+    switching apps to get an answer.
+  pain: 切换窗口或打开浏览器会打断当前操作，复制粘贴来回搬运也增加步骤；但公开材料未说明这一打断对用户造成的具体代价。
+  pain_en: Switching windows or opening a browser interrupts the current task, and copy-pasting back and
+    forth adds steps; the public material does not state the concrete cost of that interruption.
+  current_alternative: 使用浏览器里的通用聊天助手，或系统自带的快捷唤起工具，再手动复制结果。
+  current_alternative_en: Using a general chat assistant in the browser or a built-in quick-launch tool,
+    then copying the result manually.
+  usage_reason: 推断：常驻 Dock 旁的面板省去了切换应用和重新粘贴这一步，因此频繁在文档与 AI 之间来回的用户可能选择它；但公开材料只有一句产品描述，没有用户反馈或使用数据支持这一判断。
+  usage_reason_en: 'Inference: a panel living beside the Dock removes the step of switching apps and re-pasting,
+    so users who frequently shuttle between documents and an AI may choose it; however the public material
+    is a single product line with no user feedback or usage data supporting this.'

@@ -1,6 +1,6 @@
 ---
 slug: ai-trading-startup-catalyst-raises-30-million-seed-led-by-se
-name: 'AI trading startup Catalyst raises $30 million seed led by Sequoia: Fortune'
+name: Catalyst
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTFBSWkFMZkpwTEtZ
 summary: 'AI trading startup Catalyst raises $30 million seed led by Sequoia: Fortune CryptoRank'
 first_seen: '2026-10-08T19:19:15Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI trading startup Catalyst raises $30 million seed led by Sequoia: Fortune
+# Catalyst
 
 AI trading startup Catalyst raises $30 million seed led by Sequoia: Fortune CryptoRank
 

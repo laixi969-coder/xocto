@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE13M2xrTWpmV2tS
 summary: OpenAI营收数据“吓坏”美股，AI、半导体集体重挫！苹果逆势飘红，能源板块走强 新浪网
 first_seen: '2026-10-09T00:26:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

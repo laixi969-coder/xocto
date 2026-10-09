@@ -1,0 +1,43 @@
+- id: req-initial-hallmonitor-2026-10-09
+  project_slug: hallmonitor
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它汇总并回复编码 agent，未说明具体替代哪一步旧操作，痛点与交付尚不足以判断。
+    evidence_ids:
+    - ev-4b749088d6c35f05
+  - gate: consensus
+    status: insufficient
+    reason: 除一句产品描述外无采用、评价或留存材料，无法判断是否形成共识。
+    evidence_ids:
+    - ev-4b749088d6c35f05
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，付费路径完全未知，属判断而非已验证事实。
+    evidence_ids:
+    - ev-4b749088d6c35f05
+  - gate: truth
+    status: insufficient
+    reason: 支持哪些 agent、回复如何回传、是否保留上下文均未公开，确定性交付无法核对。
+    evidence_ids:
+    - ev-4b749088d6c35f05
+  next_validation: 收集该产品的官方定价页或使用文档，确认支持的 agent 范围与回复回传机制。
+  market: ''
+  job: 同时运行多个编码 agent 的开发者，需要在任务进行中随时看到各 agent 的进展并给出回复或确认，以免某个 agent 卡住或等待输入。
+  job_en: A developer running several coding agents at once needs to see each agent's progress and give
+    replies or confirmations while tasks run, so no agent stalls or waits for input.
+  pain: 多个 agent 分散在不同终端或窗口，来回切换容易漏掉等待输入的 agent，导致任务停摆或重复检查。
+  pain_en: Multiple agents are scattered across terminals or windows, and switching back and forth makes
+    it easy to miss one waiting for input, stalling tasks or forcing repeated checks.
+  current_alternative: 开发者通常靠多个终端标签、编辑器面板或系统通知自行盯守各 agent 状态。
+  current_alternative_en: Developers usually watch agent status themselves through multiple terminal tabs,
+    editor panels or system notifications.
+  usage_reason: 推断：它把各 agent 的状态与回复入口收进常驻的刘海区域，减少在窗口间切换和漏看等待输入这一步，因此同时跑多个 agent 的开发者会在长时间任务期间选择它；但公开材料未说明支持范围与回复回传方式，动机仍属推断。
+  usage_reason_en: 'Inference: it gathers agent status and reply entry into an always-visible notch area,
+    cutting window switching and missed input prompts, so developers running several agents may choose
+    it during long tasks; however public material does not explain supported agents or how replies route
+    back, so the motive remains inferred.'

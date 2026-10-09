@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/moonwalkers-dusk
 summary: Strap-on motorized wheels that let you walk twice as fast
 first_seen: '2026-10-03T10:34:34Z'
 last_seen: '2026-10-09T02:10:14Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -1,11 +1,13 @@
 ---
 slug: nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-huma
-name: Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots
+name: Nvidia
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Nvidia 推出的物理 AI 全栈安全方案，面向自动驾驶出租车与人形机器人厂商，用于满足安全验证需求；报道称已有机器人公司采用，但具体客户、交付形态与计价方式未披露。
 inspiration: ''
-summary_en: ''
+summary_en: Nvidia's full-stack safety solution for physical AI targets robotaxi and humanoid robot makers
+  that need safety validation; the report says robotics companies are already using it, but customers,
+  delivery form and pricing are not disclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai
 summary: Full-stack safety solution for physical AI is being used by robotics companies.
 first_seen: '2026-10-08T11:15:33Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots
+# Nvidia
 
 Full-stack safety solution for physical AI is being used by robotics companies.
 

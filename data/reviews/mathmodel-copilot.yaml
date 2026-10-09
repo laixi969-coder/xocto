@@ -1,0 +1,43 @@
+- id: req-initial-mathmodel-copilot-2026-10-09
+  project_slug: mathmodel-copilot
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决竞赛队伍在极短周期内完成选题、建模、求解与成文的需求，痛点是返工与结论不一致，旧做法是通用助手加手工流程。
+    evidence_ids:
+    - ev-c18692209936235e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 40 星、0 fork、0 issue，没有用户评价或队伍采用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-c18692209936235e
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是院系、培训机构或学生个人，属判断而非已验证事实。
+    evidence_ids:
+    - ev-c18692209936235e
+  - gate: truth
+    status: insufficient
+    reason: 仓库无 issue 与讨论，无法核验模型选择与结果核验是否真的可靠，人工确认边界也未说明。
+    evidence_ids:
+    - ev-c18692209936235e
+  next_validation: 收集该仓库的 issue、discussion 或 README 中的使用示例，核验其审题与结果核验流程是否被参赛者实际复现。
+  market: ''
+  job: 数学建模参赛队在拿到赛题后的几天内，需要处理题目文本、自采数据和代码，完成选题、建模、求解与论文初稿。
+  job_en: Within days of receiving a problem statement, a modeling contest team must work through the
+    prompt, its own data and code to choose a topic, build a model, solve it and draft a paper.
+  pain: 时间极紧、模型选择靠经验、代码与论文结论容易对不上，队伍常在最后阶段返工。
+  pain_en: Time is extremely tight, model choice relies on experience, and code often disagrees with the
+    paper's conclusions, forcing late rework.
+  current_alternative: 通用聊天助手加手工搜论文、自己写 Python、队友互相校对。
+  current_alternative_en: Generic chat assistants plus manual paper search, self-written Python and peer
+    proofreading.
+  usage_reason: 推断：相较通用助手只给建议，它把审题、模型比较、代码运行与结果核验放进同一条可复现流程，减少参赛者在工具间搬运题目与数据、以及事后核对代码与结论是否一致的那一步，因此赶时间的参赛队会尝试它。
+  usage_reason_en: 'Inference: unlike a generic assistant that only advises, it keeps problem reading,
+    model comparison, code execution and result checking in one reproducible flow, removing the step of
+    moving prompts and data between tools and later reconciling code with conclusions, which is why time-pressed
+    teams would try it.'

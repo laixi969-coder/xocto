@@ -22,7 +22,7 @@ summary: OpenAI's flood of proofs deviated from the guidelines set by a group of
   consulted by the frontier lab.
 first_seen: '2026-10-08T18:10:55Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

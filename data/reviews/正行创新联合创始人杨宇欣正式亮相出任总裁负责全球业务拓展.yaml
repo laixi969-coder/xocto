@@ -1,0 +1,44 @@
+- id: req-initial-正行创新联合创始人杨宇欣正式亮相出任总裁负责全球业务拓展-2026-10-09
+  project_slug: 正行创新联合创始人杨宇欣正式亮相出任总裁负责全球业务拓展
+  level: initial
+  reviewed_at: '2026-10-09T02:10:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决便利店夜间与高峰值守的人力问题，痛点真实，但公开材料未说明机器人具体替代哪一步、交付如何核验。
+    evidence_ids:
+    - ev-94a869cc1ca69ab3
+    - ev-1462bd33058ba580
+  - gate: consensus
+    status: insufficient
+    reason: 仅有高管任命与展会发布，未见门店采用、客户案例或现场运行数据，共识环节缺少可核对信号。
+    evidence_ids:
+    - ev-1462bd33058ba580
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按门店还是按服务收费，也未说明买方是连锁总部还是加盟商，付费路径不明。
+    evidence_ids:
+    - ev-1462bd33058ba580
+  - gate: truth
+    status: insufficient
+    reason: 零售现场作业对安全与人工边界要求高，公开材料未给出故障处理、人工接管或交付确定性说明。
+    evidence_ids:
+    - ev-94a869cc1ca69ab3
+  next_validation: 收集正行创新官方发布的零售物理智能方案部署文档或客户案例，确认实际落地门店、机器人承担的具体动作与运行时长。
+  market: ''
+  job: 连锁便利店或零售门店的运营负责人在夜间和高峰时段需要维持门店值守、补货与顾客服务，希望用机器人承担部分现场物理作业。
+  job_en: Operations managers at convenience store or retail chains need to keep stores staffed, restocked
+    and serving customers at night and during peaks, and want robots to take on part of the on-site physical
+    work.
+  pain: 夜间与高峰人力成本高、招工难，门店难以维持24小时稳定服务；但公开材料未说明机器人具体替代哪一步、失败时如何兜底。
+  pain_en: Night and peak staffing is costly and hard to recruit for, making 24/7 service hard to sustain;
+    however, public materials do not say which step robots replace or how failures are handled.
+  current_alternative: 目前主要靠增加夜班人手、排班优化或自助收银设备，公开材料未给出可对比的旧流程细节。
+  current_alternative_en: Today this is mainly handled by more night-shift staff, scheduling optimization
+    or self-checkout equipment; public materials give no comparable detail on the old workflow.
+  usage_reason: 推断：若机器人能在门店内完成补货、巡检或夜间值守等具体动作，门店可减少对夜班人力的依赖；但公开材料未披露实际部署门店、运行时长或替代效果，选择理由尚无法核实。
+  usage_reason_en: 'Inference: if robots can complete specific in-store actions such as restocking, inspection
+    or night watch, stores could reduce reliance on night-shift labor; but no deployed stores, runtime
+    or substitution results are disclosed, so the reason to choose it cannot be verified.'

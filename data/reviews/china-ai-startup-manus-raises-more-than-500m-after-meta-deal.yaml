@@ -1,0 +1,40 @@
+- id: req-initial-china-ai-startup-manus-raises-more-than-500m-after-meta-deal-2026-10-09
+  project_slug: china-ai-startup-manus-raises-more-than-500m-after-meta-deal
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从材料中写出，价值关无法成立。
+    evidence_ids:
+    - ev-e5b3862f90a1fbcd
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且材料没有用户采用或场景共识证据。
+    evidence_ids:
+    - ev-e5b3862f90a1fbcd
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，材料未披露买方、定价或付费路径。
+    evidence_ids:
+    - ev-e5b3862f90a1fbcd
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付确定性与人工边界。
+    evidence_ids:
+    - ev-e5b3862f90a1fbcd
+  next_validation: 收集 Manus 官方产品页或文档，确认其接收的输入、执行的动作与交付物。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境、处理材料与要完成的任务，无法还原一个可核对的工作场景。
+  job_en: The public material does not identify the user, situation, input material or task, so no checkable
+    work scenario can be reconstructed.
+  pain: 材料未描述任何用户痛点或旧流程中的具体负担，只给出融资事实。
+  pain_en: The material describes no user pain or specific burden in an old process, only a funding fact.
+  current_alternative: 材料未说明用户此前用什么方式完成同类任务，因此无法对比替代方案。
+  current_alternative_en: The material does not say how users previously did comparable work, so no alternative
+    can be compared.
+  usage_reason: 缺少产品能力、交付物与使用场景的公开描述，无法解释用户为何选择它；融资规模不能作为使用理由。
+  usage_reason_en: With no public description of capability, deliverable or scenario, there is no explanation
+    of why a user would choose it; funding size is not a usage reason.

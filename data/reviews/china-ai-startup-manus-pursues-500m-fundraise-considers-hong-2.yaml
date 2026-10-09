@@ -183,3 +183,50 @@
     and wallets and join group collaboration, taking the log-in, operate and settle steps off human hands,
     so users who need account-level execution may choose it when a task spans several tools; this is an
     inference from product capability, with no retention or repeat-use evidence yet.
+- id: req-initial-china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2-2026-10-09
+  project_slug: china-ai-startup-manus-pursues-500m-fundraise-considers-hong-2
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用杂事步骤碎、重复操作的问题，痛点真实且不做的代价是持续的人力耗时；买方与付费路径公开材料未说明。
+    evidence_ids:
+    - ev-aad2792759ed9136
+    - ev-69f1f6535ec5b776
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道集中在融资与招聘，未见客户案例或持续采用数据，无法判断用户是否已把它留在工作流里。
+    evidence_ids:
+    - ev-65408b8d2ecfd16f
+    - ev-eb1b4906a7a9fb25
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费结构，钱来自 to C 订阅还是 to B 交付无法核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-86baaf7ef3cace14
+  - gate: truth
+    status: insufficient
+    reason: 智能体执行多步任务时的错误率、人工确认边界与安全限制均无公开材料，交付确定性待核验。
+    evidence_ids:
+    - ev-c5dff635ea4b2d71
+  next_validation: 收集 Manus 官方定价页或客户案例页面，核验其按什么计价、面向个人还是企业，以及是否有可核对的交付结果说明。
+  market: ''
+  job: 个人用户或小团队在需要跨多个网页与应用完成一件杂事时，把目标交给智能体，由它拆解步骤、打开页面、填写与抓取信息，最终拿回一份可用的结果文件。
+  job_en: An individual or small team hands a goal to an agent when a chore spans several websites and
+    apps; the agent decomposes the steps, opens pages, fills forms and extracts information, and returns
+    a usable result file.
+  pain: 这类任务本身不难但步骤碎、重复度高，人工要在多个界面之间来回切换、复制粘贴并核对，耗时且容易漏项。
+  pain_en: 'Such tasks are not hard but are fragmented and repetitive: people switch between many interfaces,
+    copy-paste and cross-check, which is slow and error-prone.'
+  current_alternative: 现在多由本人或助理手工在浏览器里逐步操作，或用脚本、RPA 与多个单点工具拼接，维护成本高且换一个网站就要重做。
+  current_alternative_en: Today it is usually done manually step by step in a browser by the person or
+    an assistant, or stitched together with scripts, RPA and several point tools, which is costly to maintain
+    and breaks whenever a site changes.
+  usage_reason: 相较手工逐步操作，它把“打开哪个页面、点哪里、抓什么字段”这一串动作交给智能体一次跑完，用户只需给出目标并确认结果，省掉的是逐步骤操作与切换界面的负担；推断，缺少公开的留存与复购证据。
+  usage_reason_en: Compared with manual step-by-step operation, it hands the chain of 'which page to open,
+    where to click, which field to extract' to the agent in one run, so the user only states a goal and
+    confirms the result, removing per-step operation and interface switching; this is inference, as public
+    retention and repeat-use evidence is lacking.

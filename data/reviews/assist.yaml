@@ -82,3 +82,40 @@
   usage_reason_en: If voice annotation removes the step of typing an explanation after screenshotting,
     users in remote collaboration or review might choose it, but the delivery form and usage evidence
     are missing; this is an inference.
+- id: req-initial-assist-2026-10-09
+  project_slug: assist
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决边操作边记录的需求，但材料未说明痛点强度、旧流程与交付结果，价值判断缺依据。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 117 点与 54 条评论，属关注度信号，不能证明持续采用或强场景。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、买方或付费路径，无法判断钱从哪来，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对语音标注与截图管理的实际交付是否确定发生，也未见人工确认边界。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或发布说明，确认其输入、输出交付与是否公布定价。
+  market: ''
+  job: Mac 用户在需要边操作屏幕边记录想法时，处理语音口述、截图和剪贴板内容，要形成可回看的记录。
+  job_en: A Mac user capturing ideas while working on screen handles voice dictation, screenshots and
+    clipboard content to form a reviewable record.
+  pain: 候选材料未说明具体痛点，只能推断零散输入分散在不同工具里难以归拢。
+  pain_en: The material states no specific pain; it can only be inferred that scattered inputs across
+    tools are hard to consolidate.
+  current_alternative: 公开材料未给出旧做法，常见替代是系统自带截图、备忘录与剪贴板工具，此为推断。
+  current_alternative_en: No prior practice is given; a common alternative is built-in screenshots, notes
+    and clipboard tools, which is an inference.
+  usage_reason: 候选未提供用户反馈或案例，无法说明相较旧做法减少了哪一步负担，因此缺少选择理由这一环。
+  usage_reason_en: No user feedback or case is provided, so it cannot be shown which step it removes versus
+    the old way; the reason-for-choice link is missing.

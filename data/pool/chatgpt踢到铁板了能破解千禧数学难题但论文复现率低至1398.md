@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/501995.html
 summary: PaperBenchX为代表的基准或许能更好地衡量AI的科研实力
 first_seen: '2026-10-08T09:28:44Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

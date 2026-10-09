@@ -1,0 +1,44 @@
+- id: req-initial-termaxa-2026-10-09
+  project_slug: termaxa
+  level: initial
+  reviewed_at: '2026-10-09T02:10:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理执行终端命令前无法预知破坏范围的问题，痛点不可逆且代价高，旧做法是人工审阅或测试环境预演，结构上成立。
+    evidence_ids:
+    - ev-d5649d40947e9850
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、社区讨论或采用数据，无法判断运维人员是否已在真实流程中使用。
+    evidence_ids:
+    - ev-d5649d40947e9850
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位还是按调用量收费不明；可判断买方是给代理开放权限的工程团队，但这是推断而非已验证事实。
+    evidence_ids:
+    - ev-d5649d40947e9850
+  - gate: truth
+    status: insufficient
+    reason: 命令覆盖范围、误判率与是否需人工复核均未说明，交付确定性无法核对，安全边界也缺少材料支持。
+    evidence_ids:
+    - ev-d5649d40947e9850
+  next_validation: 收集 Termaxa 官方文档或定价页，确认其支持的命令范围、判定方式与是否按席位或调用量收费。
+  market: ''
+  job: 运维或开发人员在把 AI 代理接入服务器、准备放行一条终端命令时，需要先判断这条命令会改动或删除哪些文件与系统状态，再决定是否执行。
+  job_en: A DevOps engineer or developer wiring an AI agent into a server, about to approve a terminal
+    command, needs to know which files and system state it would modify or delete before letting it run.
+  pain: 代理生成的命令一旦带删除或覆盖语义，执行后不可逆，而人工逐条读命令、查参数含义既慢又容易漏看，生产环境出错代价高。
+  pain_en: Once an agent-generated command carries delete or overwrite semantics, execution is irreversible,
+    while reading each command and checking flag meanings by hand is slow and easy to miss, and mistakes
+    in production are costly.
+  current_alternative: 目前多靠人工逐条审阅命令、在测试环境先跑一遍、依赖 shell 历史与备份，或干脆不给代理写权限。
+  current_alternative_en: Today teams mostly review commands by hand, rehearse them in a staging environment,
+    rely on shell history and backups, or simply deny the agent write access.
+  usage_reason: 相较人工读命令或先跑测试环境，它在放行前直接给出该命令的破坏范围提示，把“猜这条命令会动什么”这一步变成可核对的清单，因此给代理开放写权限的运维与平台团队会在高风险命令上选择它；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with reading commands by hand or rehearsing in staging, it surfaces the blast
+    radius before approval, turning guesswork about what a command touches into a checkable list, so ops
+    and platform teams granting agents write access would pick it for high-risk commands; this is inference
+    from product capability, not user feedback.

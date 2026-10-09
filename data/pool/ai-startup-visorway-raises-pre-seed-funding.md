@@ -1,6 +1,6 @@
 ---
 slug: ai-startup-visorway-raises-pre-seed-funding
-name: AI startup Visorway raises pre-seed funding
+name: Visorway
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWsxOXh6VElQ
 summary: AI startup Visorway raises pre-seed funding Startupticker
 first_seen: '2026-10-08T15:59:22Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI startup Visorway raises pre-seed funding
+# Visorway
 
 AI startup Visorway raises pre-seed funding Startupticker
 

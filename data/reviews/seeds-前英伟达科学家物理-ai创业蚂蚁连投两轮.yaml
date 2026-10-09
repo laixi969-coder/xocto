@@ -1,0 +1,41 @@
+- id: req-initial-seeds-前英伟达科学家物理-ai创业蚂蚁连投两轮-2026-10-09
+  project_slug: seeds-前英伟达科学家物理-ai创业蚂蚁连投两轮
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，只有融资与创始人背景，价值关无法成立。
+    evidence_ids:
+    - ev-f35e1283b1eb8981
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无客户或采用信息可判断共识。
+    evidence_ids:
+    - ev-f35e1283b1eb8981
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立；仅有连续两轮融资，没有用户付费路径信息。
+    evidence_ids:
+    - ev-f35e1283b1eb8981
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-f35e1283b1eb8981
+  next_validation: 收集 Seeds 官方产品页或技术文档，确认其物理 AI 的具体应用环节、输入数据与交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法写出谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: The public material does not identify the user or work step, so it is impossible to state who
+    handles what material in what situation to complete what task.
+  pain: 材料未描述任何具体痛点，只能看到融资事实，无法判断它替代了哪一步旧工作。
+  pain_en: The material describes no concrete pain point, only the financing fact, so it is impossible
+    to tell which old step it replaces.
+  current_alternative: 未提供，无法判断此前该环节由谁、用什么方式完成。
+  current_alternative_en: Not provided; it is impossible to tell who or what previously performed this
+    step.
+  usage_reason: 无法判断：公开材料只有创始人背景与融资信息，没有产品能力、使用场景或客户反馈，不能推断用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the public material only has founder background and financing, with
+    no product capability, use case or customer feedback, so no reason for users to choose it can be inferred.'

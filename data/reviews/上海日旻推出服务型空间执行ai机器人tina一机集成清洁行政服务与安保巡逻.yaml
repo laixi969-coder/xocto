@@ -1,0 +1,42 @@
+- id: req-initial-上海日旻推出服务型空间执行ai机器人tina一机集成清洁行政服务与安保巡逻-2026-10-09
+  project_slug: 上海日旻推出服务型空间执行ai机器人tina一机集成清洁行政服务与安保巡逻
+  level: initial
+  reviewed_at: '2026-10-09T02:10:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决空间服务多岗位割裂的问题，但公开材料只有一句集成三类任务的描述，说不清具体任务、频率与不采用的后果，痛点刚性无法判断。
+    evidence_ids:
+    - ev-ff852f27b82943cd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布报道，没有客户采用、部署案例或现场反馈，无法判断物业方是否认可这一形态。
+    evidence_ids:
+    - ev-ff852f27b82943cd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按机还是按服务收费、买方是物业还是保洁公司，付费路径无法判断。
+    evidence_ids:
+    - ev-ff852f27b82943cd
+  - gate: truth
+    status: insufficient
+    reason: 清洁、行政与安保对可靠性和安全边界要求不同，公开材料未说明人工兜底与责任划分，确定性交付无法核对。
+    evidence_ids:
+    - ev-ff852f27b82943cd
+  next_validation: 收集上海日旻官方产品页或部署文档，核对 Tina 的具体任务清单、单机覆盖面积、人工介入环节与计价方式。
+  market: ''
+  job: 物业与设施管理人员在写字楼、商场等空间内，需要安排清洁、前台行政服务与安保巡逻，原本由保洁、行政、保安三拨人分别完成。
+  job_en: Property and facility staff in offices and malls need to arrange cleaning, front-desk service
+    and security patrol, tasks previously split among cleaners, administrators and guards.
+  pain: 三类岗位分属不同班组，排班、交接与现场响应彼此割裂，管理方要同时协调多套人力与流程。
+  pain_en: The three roles sit in different teams, so scheduling, handover and on-site response are fragmented,
+    forcing managers to coordinate multiple workforces and processes.
+  current_alternative: 由保洁公司、行政人员和保安公司分别承担，或采购单一功能的清洁机器人、巡逻机器人。
+  current_alternative_en: Separate cleaning contractors, administrative staff and security firms, or single-function
+    cleaning or patrol robots.
+  usage_reason: 推断：若一台设备能同时执行清洁、接待与巡逻，管理方可能减少跨班组交接环节；但公开材料未说明任务清单、覆盖面积与人工介入边界，无法核对它是否真的减少某一步负担，因此需求强度未明。
+  usage_reason_en: 'Inference: if one device can perform cleaning, reception and patrol, managers might
+    cut cross-team handovers; however public materials do not specify the task list, coverage or manual
+    boundaries, so whether a step is actually removed cannot be checked and demand strength remains unclear.'

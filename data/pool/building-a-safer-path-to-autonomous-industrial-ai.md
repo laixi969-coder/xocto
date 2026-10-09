@@ -24,7 +24,7 @@ summary: Industrial AI is entering a new phase. After decades of predictive anal
   world, industrial AI can interact directly with physical systems,…
 first_seen: '2026-10-08T08:17:32Z'
 last_seen: '2026-10-09T02:10:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

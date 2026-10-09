@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNWUYwZ1BuTld3
 summary: 14 best cordless vacuum cleaners to buy now, tried and tested Good Housekeeping
 first_seen: '2026-10-06T07:00:00Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

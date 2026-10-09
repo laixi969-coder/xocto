@@ -1,0 +1,42 @@
+- id: req-initial-roblox-studio-agent-bridge-2026-10-09
+  project_slug: roblox-studio-agent-bridge
+  level: initial
+  reviewed_at: '2026-10-09T02:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Roblox 开发者批量修改脚本与场景的需求，痛点是人工逐项改动耗时且易出错，旧做法是手动编辑或一次性脚本，结构上成立。
+    evidence_ids:
+    - ev-2148d73d6d764b6c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 70 星但无评论或采用数据，无法判断是否形成开发者共识。
+    evidence_ids:
+    - ev-2148d73d6d764b6c
+  - gate: model
+    status: insufficient
+    reason: 项目开源且未披露任何收费或买方，钱可能来自赞助或后续服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2148d73d6d764b6c
+  - gate: truth
+    status: insufficient
+    reason: 仅有仓库描述，缺少文档、实测与安全边界说明，无法核验其编辑动作的确定性与风险。
+    evidence_ids:
+    - ev-2148d73d6d764b6c
+  next_validation: 收集该仓库的 README、脚本清单与 issue 讨论，核验其 35 个 MCP 脚本的实际编辑能力与安全限制。
+  market: ''
+  job: Roblox 开发者或小型工作室在 Roblox Studio 中批量修改脚本与场景时，执行受控的编辑操作。
+  job_en: Roblox developers or small studios performing controlled edit operations while batch-modifying
+    scripts and scenes in Roblox Studio.
+  pain: 批量改动脚本与场景容易出错，人工逐项修改耗时且难以保证一致性。
+  pain_en: Batch-modifying scripts and scenes is error-prone, and manual item-by-item edits are time-consuming
+    and hard to keep consistent.
+  current_alternative: 在 Roblox Studio 中手动逐项编辑，或自行编写一次性脚本。
+  current_alternative_en: Manually editing item by item in Roblox Studio, or writing one-off scripts.
+  usage_reason: 推断：相较手动逐项编辑，该项目让 AI 代理通过预设脚本执行受控改动，减少重复操作与出错概率，对需要批量调整项目的 Roblox 开发者有吸引力；但公开材料未显示实际使用或留存证据。
+  usage_reason_en: 'Inference: compared with manual item-by-item editing, this project lets an AI agent
+    execute controlled changes through preset scripts, reducing repetitive operations and error rates,
+    which appeals to Roblox developers who need batch project adjustments; however, public materials show
+    no actual usage or retention evidence.'
