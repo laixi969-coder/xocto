@@ -20,8 +20,8 @@ url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOQk02QlFwQmU5UnVGdi1iYn
 canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBOQk02QlFwQmU5UnVGdi1iYnVRT1R2TG1KSjEwd1VLMVBzVUJYT3ZtUm9UaUxXdEZ4MlRPWjc5cmhWaDRaZDhPdndEZC0?oc=5
 summary: 2026专业测评：快速提升！口语AI对练APP首推可栗口语 凤凰网科技
 first_seen: '2026-09-14T10:38:16Z'
-last_seen: '2026-09-19T00:21:52Z'
-status: rejected
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -33,6 +33,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1Zckc0dEIxSU9FeDBwdWllNHhIcXpNX0JpeUktM2s3UkJid191dll2Z3pCd0ZTYkRzMFZGUmxCVEltRmozMEdPX1BqWnI?oc=5
   seen_at: '2026-09-19T00:21:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE5XVkFxbmVIb2c3cWhsOHFzZTRXd3M2RktvU3JPcnQ0dGNSMFhVQmczRU9ZMXR1elBuVElPX0JZMUNvc2tMZFBBM3Vya1I?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

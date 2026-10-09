@@ -36,7 +36,7 @@ canonical_url: https://github.com/emir/aikon
 summary: A 2007 Nokia can't search Google anymore, so I gave it Claude, ChatGPT, Gemini and Grok. J2ME
   app for Nokia S40/S60 + tiny Go server.
 first_seen: '2026-09-26T03:40:08Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
@@ -51,10 +51,10 @@ sightings:
   kind: product
 - source: github
   url: https://aikonchat.com/
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 340
-    forks: 34
+    stars: 344
+    forks: 35
     open_issues: 1
   kind: product
 ---

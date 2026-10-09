@@ -21,17 +21,17 @@ canonical_url: https://youtube.com/@AIsuperdomain
 summary: 'muse.ai (Muse AI) skills and runtime snapshot: 68 skills, workflow guides, connector manifests.
   muse.ai 技能与运行环境文件；非官方存档 / Unofficial archive.'
 first_seen: '2026-09-25T07:45:43Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://www.youtube.com/@AIsuperdomain
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 332
-    forks: 107
+    stars: 334
+    forks: 108
     open_issues: 1
   kind: product
 ---

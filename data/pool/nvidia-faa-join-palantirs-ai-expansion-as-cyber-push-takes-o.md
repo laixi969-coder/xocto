@@ -20,8 +20,8 @@ url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oMmxfaWI3WVc1VGVRSDRsTn
 canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oMmxfaWI3WVc1VGVRSDRsTngxNWpVa0pVc3BtMHJ6a09pTTBhWmxXV3JJVGlWV1kxN1JDYTJLajZiSlAycXJjcm95QWhJTjVqX1g2YVBQdzFtUElkZElSd00zeVg5UXFt?oc=5
 summary: Nvidia, FAA Join Palantir’s AI Expansion as Cyber Push Takes Off TradingView
 first_seen: '2026-09-10T10:06:22Z'
-last_seen: '2026-09-23T00:34:37Z'
-status: rejected
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -39,6 +39,11 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/exclusive-benford-5m/
   seen_at: '2026-09-23T00:34:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT1ljdWFLaFJsUlZkemV3ckJwWFlVN1o0WjR6OURmOUZ1dFZ1Z0gyMm1VNTBfQmtGNjZ3UG4temRZRXV1NUg2V1RwUlQ1dHNaRkYtbTBTbWJrQW9UOHpWd3N3SUxEM2ZpQ3E2SjJVYmZ6Snp4MWlTdjVNLTVQUXFXQmRteFE5Nm5J?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

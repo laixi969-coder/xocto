@@ -131,3 +131,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-226d2f74468db59d
+  project_slug: openagentcore
+  url: https://openagentcore.dev/
+  title: OpenAgentCore
+  published_at: '2026-09-21T03:18:15Z'
+  collected_at: '2026-10-09T02:10:18Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.
+    | repository stars: 202'

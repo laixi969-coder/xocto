@@ -26,8 +26,8 @@ url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN1NIM3JxN1RPdlktMDMwTm
 canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN1NIM3JxN1RPdlktMDMwTmlZcnk5MFV4b1loLVBvc3pfUElYT3ZhQ3VLZmVod3ZxeDBVTXNkWkhybWJTZE05YzdkSWpOMHpwOVlYbWJYNndSSWRkRlFQSmNsM0F2WWgzZTFLNjFuMHNhY2d3akstanhNRTlOSEZvQVV2alFiTUE4MnBHRlJjdy12RXhwclJXVTFTZWV2R1ZrUHhUdlZuZmVtdw?oc=5
 summary: Amazon blocks Meta’s Muse AI assistant in new standoff over agentic shopping GeekWire
 first_seen: '2026-09-21T07:03:34Z'
-last_seen: '2026-10-08T01:56:23Z'
-status: market_context
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -60,6 +60,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYmZPemJvTm5pbGJLSlFLbmVoanBtWW9fSzJWN0h5NzJCb1dpekx4T0wyeWpUcUZCTUpUZUFGQWhQZzNIUlEyR1dKX3B5U3R1MWhNbGdaUE5vUEV3NjBjeWx0U0xITXNVZlZUSUROOGhQRVFvbTc5MXFqYTdnMTY0UGpfcnBiTU1VQ1p2S0pLN0ZKbkEwa0pNaFdFY1EyaExMLWJ3QVBicVNBdEhTRVRyc3B0eWt3ZEROaksyaUtmNTRuZUN2dkFqMXhQcFFxSlp3MnRyZkdfVWlzdk0?oc=5
   seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQjZQdXk0cFI0Mzh0Qi1xMmRGZXJmeGlqbkxKTGJhQUZRUFY3OGxUUlJDcVhCNlZXZzNQLWhCNFRoMFNGb2ptWEFXaFExWlhIT1dmUGNYRmtjQ1I5bUoxVmYwRFNPdkZGbFRlUmxzUGphbnA5cS1fekhyRG9uV19DWTZ2clJIbVBSNjl0OVlZSEtiUDJQcVRfeXQyQXY5MFRsNHduOXU0RmpZNUY2azl6a0tCbnJlcWNqX1VCY21MUGl3S2VfOWRYV28waUxpSDZTUXFtM1Z4SjFSbEU?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

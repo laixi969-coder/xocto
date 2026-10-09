@@ -29,17 +29,17 @@ canonical_url: https://github.com/composio-community/open-dot
 summary: Open-source personal AI agents that work on their own, on their own computers. Mac app, OpenAI
   + Composio.
 first_seen: '2026-09-29T16:34:16Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/composio-community/open-dot
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 595
-    forks: 94
+    stars: 609
+    forks: 95
     open_issues: 8
   kind: product
 ---

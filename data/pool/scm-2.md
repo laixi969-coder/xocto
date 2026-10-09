@@ -36,16 +36,16 @@ url: https://scm.allenlee.site
 canonical_url: https://scm.allenlee.site
 summary: Deep AI search for every photo and every frame of video in any folder on macOS
 first_seen: '2026-10-03T16:11:55Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://scm.allenlee.site
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 427
+    stars: 446
     forks: 30
     open_issues: 3
   kind: product

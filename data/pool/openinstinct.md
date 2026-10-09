@@ -34,7 +34,7 @@ url: https://github.com/Merit-Systems/OpenInstinct
 canonical_url: https://github.com/Merit-Systems/OpenInstinct
 summary: iMessage personal assistant + password vault
 first_seen: '2026-08-25T14:42:47Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
@@ -57,10 +57,10 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/mariagorskikh/open-instinct
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 240
-    forks: 61
+    stars: 260
+    forks: 63
     open_issues: 3
   kind: product
 ---

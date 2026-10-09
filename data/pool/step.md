@@ -20,10 +20,11 @@ url: https://huggingface.co/spaces/TahirKamran/Step
 canonical_url: https://huggingface.co/spaces/TahirKamran/Step
 summary: step assistaant
 first_seen: '2026-09-28T17:25:40Z'
-last_seen: '2026-09-29T01:58:04Z'
-status: rejected
+last_seen: '2026-10-09T02:10:47Z'
+status: pending_filter
 sources:
 - huggingface
+- marketfeeds
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/TahirKamran/Step
@@ -31,6 +32,11 @@ sightings:
   metrics:
     likes: 2
   kind: product
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/10/501915.html
+  seen_at: '2026-10-09T02:10:47Z'
+  metrics: {}
+  kind: news
 ---
 
 # Step

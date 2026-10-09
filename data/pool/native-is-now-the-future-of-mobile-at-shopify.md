@@ -40,14 +40,20 @@ summary: "Native is now the future of mobile at Shopify   \nShopify are moving f
   \ the end of 2026.\n\n       Via  Hacker News   \n\n\n     Tags:  android ,  mobile ,  open-source ,\
   \  ios ,  ai ,  react ,  generative-ai ,  llms ,  ai-assisted-search ,  coding-agents ,  swift ,  shopify"
 first_seen: '2026-09-10T21:11:15Z'
-last_seen: '2026-09-11T00:10:53Z'
-status: market_context
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Sep/10/shopify-react-native/
   seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FMi1rSktqSEt5T2doRWxSM0g1cHBxeWp3THdjT2F0VC1KRG1idkJzczFqQ1dvVnF4eXpKcENvOTRWRkRMUlVjcVNCakFXS2tLM3dWV01R?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

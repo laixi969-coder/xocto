@@ -1,0 +1,14 @@
+- id: ev-b83e969ba9f8b275
+  project_slug: normalizing-trajectory-models
+  url: https://machinelearning.apple.com/research/normalizing-trajectory-models
+  title: Normalizing Trajectory Models
+  published_at: '2026-10-08T00:00:00Z'
+  collected_at: '2026-10-09T02:10:46Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption
+    that breaks down when generation is compressed to a few coarse transitions. Existing few-step methods
+    address this through distillation, consistency training, or adversarial objectives, but sacrifice
+    the likelihood framework in the process. We introduce Normalizing Trajectory Models (NTM), which models
+    each reverse step as an expressive conditional normalizing flow with exact likelihood training. Architecturally,
+    NTM combines shallow invertible blocks within each step with a deep parallel…

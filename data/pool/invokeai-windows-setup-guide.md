@@ -20,18 +20,18 @@ url: https://github.com/ArrozDotachi/InvokeAI-Windows-Setup-Guide
 canonical_url: https://github.com/ArrozDotachi/InvokeAI-Windows-Setup-Guide
 summary: 'InvokeAI 2026 Windows Setup Guide: Run Stable Diffusion Locally on Win 11 & 10'
 first_seen: '2026-09-22T20:00:29Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ArrozDotachi/InvokeAI-Windows-Setup-Guide
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
     stars: 68
     forks: 0
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

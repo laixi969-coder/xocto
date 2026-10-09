@@ -20,17 +20,17 @@ url: https://gtlds.fyi/
 canonical_url: https://gtlds.fyi
 summary: All the proposed new gTLDs
 first_seen: '2026-10-07T19:53:17Z'
-last_seen: '2026-10-08T01:55:51Z'
+last_seen: '2026-10-09T02:10:14Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://gtlds.fyi/
-  seen_at: '2026-10-08T01:55:51Z'
+  seen_at: '2026-10-09T02:10:14Z'
   metrics:
-    points: 38
-    comments: 54
+    points: 40
+    comments: 59
   kind: product
 ---
 

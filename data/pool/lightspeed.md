@@ -20,11 +20,12 @@ url: https://news.ycombinator.com/item?id=49781032
 canonical_url: https://news.ycombinator.com/item?id=49781032
 summary: build real time apps the Laravel way (with asteroids demo)
 first_seen: '2026-09-20T23:02:28Z'
-last_seen: '2026-10-07T01:33:02Z'
-status: rejected
+last_seen: '2026-10-09T02:10:47Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49781032
@@ -41,6 +42,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijgFBVV95cUxPSVAzZWotNWp2aHE0Sm1OTl8tN1Q2T3BrMmVXZ3EyS3ZpR0tyNklhS1dFUEtxWjBVX2I5QWM0dEcxTUREekU5eUs0b3JoQWt6djZmVF84ZDFyOTJnMjhRLWEtQWFnNFd4c3BNLUxNcVNkSW1xM3dfUnZPNERuUU0xNFJpM2pOS01IM0xJanpR?oc=5
   seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/
+  seen_at: '2026-10-09T02:10:47Z'
   metrics: {}
   kind: news
 ---

@@ -31,8 +31,8 @@ url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzNnduZDdta1F4NWRnNGxZNz
 canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzNnduZDdta1F4NWRnNGxZNzdiQXp1LVFHT2d5LTR6N1Q5MjllelVEM1VyM3BTNVJmb1VvR3lUeGhmT3hPeVctOGFPdENNdTJDRnJOTEUxRk0yNmUtV3c?oc=5
 summary: openJiuwen 首发双维度 RSI 框架，AI 自修改，落地办公智能体，算力亲和助力又快又省 InfoQ-CN
 first_seen: '2026-09-14T05:44:16Z'
-last_seen: '2026-10-03T01:12:56Z'
-status: market_context
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -45,6 +45,11 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/10/500098.html
   seen_at: '2026-10-03T01:12:56Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM08yOW9QRmZrNDliekp1TElWU2Zsd1hVUmdsOE5wMG12eDFqWGxrOXlvU0JaWG5XVWdaYnYxM29UaG1Na253NjJVMlRobU1Ma0FyZzI5T3NPczBDOUV3V0d4VHpCTVhNazYzcW5vTF8yUjBvUklHaUtzcFhNTG16SXRTVkxUeGVX?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

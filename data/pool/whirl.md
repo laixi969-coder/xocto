@@ -28,16 +28,16 @@ canonical_url: https://whirl.chat
 summary: The AI chat app that sweats the details. Every top model, real memory, living documents, and
   your own tools.
 first_seen: '2026-10-02T13:50:42Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://whirl.chat
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 494
+    stars: 502
     forks: 45
     open_issues: 0
   kind: product

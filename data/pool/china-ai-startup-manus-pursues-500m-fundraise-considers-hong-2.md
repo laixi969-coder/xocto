@@ -38,8 +38,8 @@ canonical_url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUEQyTVNUcVVh
 summary: 'China AI startup Manus pursues $500M fundraise; considers Hong Kong IPO after Meta split: report
   TradingView'
 first_seen: '2026-09-18T13:37:36Z'
-last_seen: '2026-10-01T01:19:01Z'
-status: watching
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -52,6 +52,36 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/499592.html
   seen_at: '2026-10-01T01:19:01Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/10/502009.html
+  seen_at: '2026-10-09T02:10:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNZzBqdkdkSGFzYWRkeXZxWTJtWjRZWUFYeWtubGNaclhzUTlBallwM2J1VHNyWHR2NlJfNF9WNzJjUlQ2V0Q3UFBwdlpBVVIyQUFXZzJMaXdXNU95ZDBGWFBKUEZLdFM5N1VxYUxLV1JxeXdEd194ckZ0a2dKc0JMOVlNdkNEX080N1JIUnhoemtQbGxpSzNYOXREdlEtZExGVC1lRkIxa0JZam1vcHZ4MEhRVkZqZ0ZsLXUxeFpSZGtWVHphRjJJ?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWVNpT3oxSUxBMFA3alNrUGZySEZDcFFTa09vVkRmbGlEelNHcXdka0hQUG1FZ2hGUno5d050Sjk1NmRITjQxRndseC1mdGh1dTEzMVd3T0xpd3VJeUVjZkl3LXQtVGtQZlBwMFYwYy1XaU40UGFFZTAzUVlmNXpzd1VjdENkdVBpV2ZCMFp1RENDY1lLb2hnUkFfYl9md01vVmJiMUtiUHc?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiowJBVV95cUxNVHI4YWQtbWpvSXRZYkRTSFltRUthNHVpb0c4WDdLa1Y3M1RNN0JUMXJrVThMaVRFSjBSbjRzeDM4aWVUWUMtb0xCZkdPMlltQUtvOFFCdlNEazJsVi1YZklIb2FoYmRaTlUwMUY2RVJHVTBiRUU2YklmcnpocmV2TVZCOGtTX0o1cWxHZ1hOelYwNVpTN1FJcXVxSUdGVTBTSlFYbjlSR3gyT0YtY2ZKNzUzbGU4aEFxRnBuNVhXS1JJelV2OHFOX0FXNG9FUUZzYWZLanlBUkZ3TWduSWp5a0NFVGg2R3FBUUZWNzc2VG5mY1BGRmVJU1E2dm94bG9WUDhwaW9FUnYwSFNwV2g0d2g0TnhBdFJrSktJQ1c2dUJJSHfSAe8BQVVfeXFMTk8yQ3A3QnllSy1mR0lwOTdJY2VSLVRmdEZaNUdsUzV0d2paNGNqQnBOaVUtRVFCeU1mbV90TWx2dXpCT3ZBaVJzc1BOSVUtQ3p4UF9FYURmc0pWQ3RmdkYxZkxsRG44YXVvcnN0X2ZyZUx2bWVYVmNQUXZaS2NHeVZJWWVrTGNXUEVHZ283Z1ZOcjFwX1V1clB6LTREVnhpYjNMVHpmd0c4QVdUQ2RZZy13Tl9WYmZZMjJrMlRhY0M3WWFfN3RSRXpZQU1hcG04OWk4RFJIUnRjQzBWM0pzMHY1WFpPd0QzUHJkekFVWXM?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYk9HTk9xRUV4SXpscm1iSFQtWFRfWXVEbTJlZjgtNUY2Q3N0YkFLQ3NxelJlSDRWejBhazIxcEpmLUZRNXFoVTdfbFE0OHFMZnJyUlVvZjlXaDk3SWxQYjhBcUEtUktLR0ZpOWxxZ3RnSkpFOTc2QVV5QWd2VjhuQXVWZFA4VVV4?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBmVklaTXYyYmJtYUlncFotaTk0NG1CaTU2NkVGYzMyOW5KT1Y5RUFNUnoyWFAxTm9MQUhMY2J6OUwyWjBKLU9URw?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

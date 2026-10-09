@@ -1,0 +1,12 @@
+- id: ev-3f4567c1e060cabc
+  project_slug: share-gpu-clusters-across-teams-with-isolation-and-fairness
+  url: https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/
+  title: Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod
+  published_at: '2026-10-08T16:20:04Z'
+  collected_at: '2026-10-09T02:10:46Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across
+    multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes
+    namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation
+    for chargeback.

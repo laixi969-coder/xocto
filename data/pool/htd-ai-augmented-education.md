@@ -20,17 +20,17 @@ url: https://github.com/HytidelLegend/htd-ai-augmented-education
 canonical_url: https://github.com/HytidelLegend/htd-ai-augmented-education
 summary: ''
 first_seen: '2026-09-23T04:07:09Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/HytidelLegend/htd-ai-augmented-education
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 420
-    forks: 52
+    stars: 431
+    forks: 53
     open_issues: 0
   kind: product
 ---

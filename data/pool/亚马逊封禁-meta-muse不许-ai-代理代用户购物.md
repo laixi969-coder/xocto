@@ -24,14 +24,19 @@ url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWR2Zmw2ZDJiM3dIOFZITj
 canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWR2Zmw2ZDJiM3dIOFZITjdkeWNPMXBKVmtXaVI4bk01ZF8xWVk0bGNtM29UVHdPT3dMbkJIZUJNRXRCTVZUZHE5RDdTVlZyd0dQWkQ2b2RfNkRjbkF0RWtlMTVETXN6aTh3eDVqNWRtYjBEaTE0X3ZlNU9RWFR3eW0wQ3RwU0ZUSm04Tw?oc=5
 summary: 亚马逊封禁 Meta Muse：不许 AI 代理代用户购物 搜狐网
 first_seen: '2026-09-21T15:46:14Z'
-last_seen: '2026-09-22T00:50:58Z'
-status: market_context
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWR2Zmw2ZDJiM3dIOFZITjdkeWNPMXBKVmtXaVI4bk01ZF8xWVk0bGNtM29UVHdPT3dMbkJIZUJNRXRCTVZUZHE5RDdTVlZyd0dQWkQ2b2RfNkRjbkF0RWtlMTVETXN6aTh3eDVqNWRtYjBEaTE0X3ZlNU9RWFR3eW0wQ3RwU0ZUSm04Tw?oc=5
   seen_at: '2026-09-22T00:50:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5vUXdIVTdNakQwTzRQZmY5d3BKR1M1ZG1VRjJsMk1LRG44bVYwT3VBNEFidnpIUmJhNTItN00ydXN0T2c0SzV4S093dHlfekxoWHlicQ?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

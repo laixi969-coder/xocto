@@ -24,8 +24,8 @@ url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWT
 canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE92YWNCTjZIb2gyaXZsdW1zWTlCZGdIRjZSeFVqV1Q3MWs3TzFuMENONGJJVFdNMGhscEVET1llOWphZ3dSY3NicGxTU1lnaUhlZDIwaS0xcFg1VUo2elBaLWhTNHFBTFpaZkdzc0ZjUmY?oc=5
 summary: AI算力短缺蔓延：Intel、AMD寻求中国客户长期锁定服务器CPU采购 新浪网
 first_seen: '2026-09-13T15:30:58Z'
-last_seen: '2026-10-06T02:19:08Z'
-status: market_context
+last_seen: '2026-10-09T02:10:47Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -116,6 +116,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQOEp3NldQUHZDT245THVRSzAyM1BpWWllRDBfdUpNTGcydzE4SVRJV0VrUUtsSGtJRHZ1cHZiaEFYa1FZZFAtbnJnb0NxZzA0ZmdYVF9CcWhYMllmQlljUnhlelNBQ1B5NnI3V1Y0b1YtcTZxcTRWTFhOZGF2TjFvNlk5VDZsZUd1cXFJdXZR?oc=5
   seen_at: '2026-10-06T02:19:08Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/10/08/verso-raises-6m-to-bring-consumer-intelligence-into-business-decision-making/
+  seen_at: '2026-10-09T02:10:47Z'
   metrics: {}
   kind: news
 ---

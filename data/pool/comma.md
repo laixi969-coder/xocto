@@ -27,16 +27,16 @@ summary: Best free & open source personal agent. Always-on, proactive, sessionle
   use, files, remote control. Competiable with ChatGPT/codex and claude code. Selfhost your open source
   alternative to Muse, Dots, Instinct and Town. Built with Go/Elixir/Lean.
 first_seen: '2026-09-30T08:39:30Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://comma.surf
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 213
+    stars: 218
     forks: 15
     open_issues: 2
   kind: product

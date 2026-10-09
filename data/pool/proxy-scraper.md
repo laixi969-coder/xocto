@@ -20,7 +20,7 @@ url: https://github.com/maximilianfeix/proxy-scraper
 canonical_url: https://github.com/maximilianfeix/proxy-scraper
 summary: I checked 1M free proxies – 1 in 5 working ones injected scripts
 first_seen: '2026-09-26T14:06:12Z'
-last_seen: '2026-10-07T01:32:31Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: rejected
 sources:
 - hackernews
@@ -35,11 +35,11 @@ sightings:
   kind: product
 - source: github
   url: https://maximilianfeix.github.io/proxy-scraper/
-  seen_at: '2026-10-07T01:32:31Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
     stars: 41
     forks: 9
-    open_issues: 10
+    open_issues: 9
   kind: product
 ---
 

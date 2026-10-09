@@ -20,17 +20,17 @@ url: https://vangong1999.github.io/FDE/
 canonical_url: https://vangong1999.github.io/FDE
 summary: 更新中｜收集FDE AI前线部署工程师相关全部内容｜从0到1｜ AI Agent，Workflows，工作流 ,RAG,知识库，推理优化与部署，vllm与sglang，workflow,graph/loop/conext/prompt工程
 first_seen: '2026-09-22T07:23:58Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://vangong1999.github.io/FDE/
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 152
-    forks: 24
+    stars: 161
+    forks: 25
     open_issues: 0
   kind: product
 ---

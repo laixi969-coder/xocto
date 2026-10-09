@@ -10,14 +10,23 @@ inspiration_en: 'The trend is AI touching files and systems, so a mistake can er
   sentence. The entry is finance, support, and ops, where one wrong step hurts. Judgment: sell blocked
   incidents, not a generic security suite.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/vandith1/agent-guard
 canonical_url: https://github.com/vandith1/agent-guard
 summary: A pre-execution guard that stops AI agents running destructive commands
 first_seen: '2026-08-16T12:53:51Z'
-last_seen: '2026-08-16T22:37:03Z'
+last_seen: '2026-10-09T02:10:14Z'
 status: queued
 sources:
 - hackernews
+- producthunt
 sightings:
 - source: hackernews
   url: https://github.com/vandith1/agent-guard
@@ -25,6 +34,12 @@ sightings:
   metrics:
     points: 5
     comments: 2
+  kind: product
+- source: producthunt
+  url: https://www.producthunt.com/products/agentguard-5
+  seen_at: '2026-10-09T02:10:14Z'
+  metrics: {}
+  kind: product
 ---
 
 # agent-guard

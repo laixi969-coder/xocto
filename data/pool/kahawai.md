@@ -30,16 +30,16 @@ url: https://kahawai.net/
 canonical_url: https://kahawai.net
 summary: An open source, modular media system
 first_seen: '2026-10-06T13:36:33Z'
-last_seen: '2026-10-07T01:32:26Z'
+last_seen: '2026-10-09T02:10:14Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://kahawai.net/
-  seen_at: '2026-10-07T01:32:26Z'
+  seen_at: '2026-10-09T02:10:14Z'
   metrics:
-    points: 7
+    points: 6
     comments: 1
   kind: product
 ---

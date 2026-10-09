@@ -36,18 +36,18 @@ summary: 'A free open-source project designed to turn youtube-videos into viral 
   watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or
   Vidyo.ai for free.'
 first_seen: '2026-10-05T18:35:21Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mushigaite/short-video-maker
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 149
-    forks: 45
-    open_issues: 0
+    stars: 255
+    forks: 75
+    open_issues: 1
   kind: product
 ---
 

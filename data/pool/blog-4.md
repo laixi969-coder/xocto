@@ -26,7 +26,7 @@ url: https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from
 canonical_url: https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from
 summary: I'm sorry, you're not going to die from an AI-engineered supervirus
 first_seen: '2026-09-10T01:02:44Z'
-last_seen: '2026-10-05T00:56:35Z'
+last_seen: '2026-10-09T02:10:55Z'
 status: pending_filter
 sources:
 - hackernews
@@ -75,6 +75,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMicEFVX3lxTE8taEpPeXgzVmZvdDhsOF9aY2V1MWtCMkZqbXdraDZJYUVlcGZ1ekxYMGpzYndlSTY0d2dBSXVGbFdMSUpESlRZXzNucXJ5RnlhZ19tN2prUVRualFVX2tUTnZUM0xhZXhvOUlDRHhRdnk?oc=5
   seen_at: '2026-10-05T00:56:35Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMickFVX3lxTE1sY2ZxQ1djMWl4aXZVWWk0OHo3cmJmc0xya1huR09nZ09Xck5hVTc0aUxDLXY2eU1tUW8zTGZVbU9xODdINERLdE1IMkpqaXpjSzZXVHVkVm9WZXlELW9KbjZ1VUZDRDh4ejFqakozcDZDUQ?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE1GamF4R01QRUNqUWg0UWdPVGRTWXFabFlwV3ZmUWI5UTNSd2FkYV92RHlwZ3I1Y2lqcFAtV095N0NrSWxmYndSM2NTZkVBMHJ1Q2o3ZWQ4ckU3aWU3YTRMZVpVMA?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UTHNNNElnQzcza1UwMGlONHl6VFBabkwxZ2NUZzljeTd5MGZBSnp5cGNYWG0tRC1YZ1R0V0Fya2JmejJuSGhuMnFkU2xqNlJZUHhfajJ2d0E?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XMVNFcDBCOTVOMTVJNHhGeEswLTU2WDRGQTFLMTUwVHEyMUN0d1BobE5SLTZ0UjJpT3BmTjhWaWdhVzIydG9Yd2JFYVQ0RGlPSUpkSXBzSnBFeUpVcHZUV0ktVQ?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifEFVX3lxTE9HMm0xTFRsSjVvSXhsYlhVeklEVHd4QXpfMDdFc256X19yZTF2OE51UjNveXZvZm5yTnMxWEhJemRaQWlQelFLSW5WUm9rczlhZDgyelZ5MnBaZzBkUkRJUEt5NkI2QzBxenVuQVdRWEszZEZobEpuZy1pT2k?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

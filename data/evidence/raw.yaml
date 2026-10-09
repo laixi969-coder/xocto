@@ -25,3 +25,19 @@
     \n\r\n入口引一次皮肤，组件按名字 import ，不用 `app.use()`。所有包都声明了 `sideEffects: false`，没用到的组件会被摇掉：\r\n\r\n```vue\r\
     \n<XhDialogRoot v-slot=\"{ setOpen }\">\r\n  <XhDialogTrigger>打开对话框</XhDialogTrigger>\r\n  <XhDialogContent>\r\
     \n    <X"
+- id: ev-b94ee1b9b0c05ee6
+  project_slug: raw
+  url: https://www.v2ex.com/t/1247196
+  title: 前 AI 时代挖的坑， AI 时代填上了：一个算法可视化网站
+  published_at: '2026-10-08T14:54:28Z'
+  collected_at: '2026-10-09T02:10:12Z'
+  source_kind: product
+  tier: independent
+  fact: "这个项目其实是前 AI 时代就开始做的。起因是我自己学算法，总是学完就忘，就想着做一个算法可视化项目，既能顺便学习，又能刷一点开源项目。那一阵子新拟物风格比较火，正好拿来练练手。\r\n\
+    \r\n结果做完第一个算法（冒泡）就搁置了，工作太忙，一放就是好几年。后来有了 AI 才重新捡起来，今年补到了 92 个条目，也算是圆梦了吧。\r\n\r\n现在大概是这样：\r\n\r\n- 9\
+    \ 大类：数据结构、排序、图、DP 、回溯、字符串、数论、计算几何、查找\r\n- 每一步都能前进、后退、拖进度条，倍速可调\r\n- TS / Python / Go / Rust 四种代码跟着动画逐行高亮，还有变量面板\r\
+    \n- 排序可以输入自己的数组，二分和快排会在关键步停下来出题\r\n- 中英双语，手机也能看\r\n\r\n![快排逐步回放]( https://raw.githubusercontent.com/IllegalCreed/algorithms-visualization/main/docs/assets/quick-sort-step-through.gif)\r\
+    \n\r\n![Dijkstra]( https://raw.githubusercontent.com/IllegalCreed/algorithms-visualization/main/docs/assets/04-dijkstra-1440-player.png)\r\
+    \n\r\n地址： https://algo.illegalscreed.cn/\r\n\r\n源码： https://github.com/IllegalCreed/algorithms-visualization\r\
+    \n\r\n说实话，目前的效果还远远没达到我想要的样子，后面有机会再慢慢优化。\r\n\r\n最讽刺的是，都用 AI 做了，反而背离了我的初衷：做完这个网站，我还是没学会算法。不过转念一想，大 AI\
+    \ 时代，学算法还有个屁用呀……这么一想，这个网站好像也没啥用了 \U0001F602\r\n\r\n还是那句话，大 AI 时代，学算法还有个屁用呀。欢迎来反驳。"

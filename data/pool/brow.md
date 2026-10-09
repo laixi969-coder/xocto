@@ -33,18 +33,18 @@ summary: Claude Code usage and rate limits in the MacBook notch. Track the 5-hou
   multiple Claude accounts at once, see when each resets, and sign in to each account in its own browser
   profile. macOS app for AI coding.
 first_seen: '2026-10-04T21:14:52Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/efim0v/grove
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 52
-    forks: 0
-    open_issues: 0
+    stars: 51
+    forks: 1
+    open_issues: 1
   kind: product
 ---
 

@@ -35,8 +35,8 @@ canonical_url: https://studio.agentkit.best
 summary: Open-source design workspace for AI agents and humans. Cloud editing, 3D, motion, MCP, WebMCP,
   CLI and BYOK. MIT.
 first_seen: '2026-09-07T15:51:21Z'
-last_seen: '2026-10-07T01:33:02Z'
-status: watching
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
 sources:
 - github
 - marketfeeds
@@ -81,6 +81,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirwFBVV95cUxOcWN0OVV4RkdhbDBqU3JFT0hBQ1BZN2wyaUJaZF9ra3BUaFpkRUFEUDdDWmJXcGJpcE5uRG8teWhyMVU2ZTRTeUJjOUNMTTNRSmlXRVEwbDNrWFpvWkcxZDRmRjdsZi1MY2J2cjhyNjZEY2tmTXM0N1hwbnVIVUp2clpwWkwwRFhqZ2RGVGhqV3RuZTF3aHk1d3lfU3Y4Szh6eWNDckFlZXVWNFVwN0xF?oc=5
   seen_at: '2026-10-07T01:33:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rbWFyVFVfQlpqUVo2dDFYTmN5YTFQc0pLc1lGUkNPY0Z6MjdXc0liXy1VSXBxY044T2J4SUFoNXR5RkVueTlBSWNoWDlxdWNVWkYybElMNGRTUQ?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

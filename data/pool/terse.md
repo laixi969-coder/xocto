@@ -29,17 +29,17 @@ url: https://github.com/lowenbjer/claude-terse
 canonical_url: https://github.com/lowenbjer/claude-terse
 summary: a Claude Code plugin that halves reply length by cutting filler
 first_seen: '2026-10-07T17:16:48Z'
-last_seen: '2026-10-08T01:55:51Z'
+last_seen: '2026-10-09T02:10:14Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/lowenbjer/claude-terse
-  seen_at: '2026-10-08T01:55:51Z'
+  seen_at: '2026-10-09T02:10:14Z'
   metrics:
-    points: 13
-    comments: 0
+    points: 24
+    comments: 16
   kind: product
 ---
 

@@ -20,8 +20,8 @@ url: https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-a
 canonical_url: https://theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat
 summary: Florida woman arrested for allegedly making threats in an AI chat
 first_seen: '2026-10-05T15:11:36Z'
-last_seen: '2026-10-07T01:32:26Z'
-status: rejected
+last_seen: '2026-10-09T02:10:14Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 50
     comments: 84
+  kind: news
+- source: hackernews
+  url: https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude
+  seen_at: '2026-10-09T02:10:14Z'
+  metrics:
+    points: 65
+    comments: 148
   kind: news
 ---
 

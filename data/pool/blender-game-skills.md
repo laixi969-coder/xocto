@@ -31,17 +31,17 @@ canonical_url: https://github.com/majidmanzarpour/blender-game-skills
 summary: Claude Code agent skills for game dev in Blender. Turn concept art into rigged, game-ready 3D
   assets, measured against your references.
 first_seen: '2026-09-24T00:08:40Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/majidmanzarpour/blender-game-skills
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 132
-    forks: 15
+    stars: 134
+    forks: 17
     open_issues: 1
   kind: product
 ---

@@ -33,17 +33,17 @@ url: https://github.com/forgeplane/pinrail
 canonical_url: https://github.com/forgeplane/pinrail
 summary: A desktop inbox where coding agents wait for your review
 first_seen: '2026-10-07T17:15:03Z'
-last_seen: '2026-10-08T01:55:51Z'
+last_seen: '2026-10-09T02:10:14Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/forgeplane/pinrail
-  seen_at: '2026-10-08T01:55:51Z'
+  seen_at: '2026-10-09T02:10:14Z'
   metrics:
-    points: 19
-    comments: 3
+    points: 25
+    comments: 9
   kind: product
 ---
 

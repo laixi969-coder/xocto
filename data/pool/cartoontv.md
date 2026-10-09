@@ -20,17 +20,17 @@ url: https://cartoontv.xyz/
 canonical_url: https://cartoontv.xyz
 summary: I made a TV for old cartoons
 first_seen: '2026-10-07T14:20:42Z'
-last_seen: '2026-10-08T01:55:51Z'
+last_seen: '2026-10-09T02:10:14Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://cartoontv.xyz/
-  seen_at: '2026-10-08T01:55:51Z'
+  seen_at: '2026-10-09T02:10:14Z'
   metrics:
-    points: 5
-    comments: 3
+    points: 6
+    comments: 4
   kind: product
 ---
 

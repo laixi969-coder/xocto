@@ -36,18 +36,18 @@ canonical_url: https://github.com/trevaintdead/ai-game-modding-guides
 summary: 'Guides for building game mods with AI coding agents: passthrough mods, Rust rewrites, mod loaders,
   prompting, and troubleshooting.'
 first_seen: '2026-10-03T11:48:59Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/trevaintdead/ai-game-modding-guides
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 304
-    forks: 28
-    open_issues: 0
+    stars: 362
+    forks: 32
+    open_issues: 1
   kind: product
 ---
 

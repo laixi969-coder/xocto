@@ -25,17 +25,17 @@ url: https://bigwords.page/
 canonical_url: https://bigwords.page
 summary: Turn any screen into a sign. The URL is the app
 first_seen: '2026-10-07T15:44:21Z'
-last_seen: '2026-10-08T01:55:51Z'
+last_seen: '2026-10-09T02:10:14Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://bigwords.page/
-  seen_at: '2026-10-08T01:55:51Z'
+  seen_at: '2026-10-09T02:10:14Z'
   metrics:
-    points: 363
-    comments: 111
+    points: 691
+    comments: 160
   kind: product
 ---
 

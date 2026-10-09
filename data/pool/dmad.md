@@ -20,16 +20,16 @@ url: https://github.com/Yzmblog/DMAD
 canonical_url: https://github.com/Yzmblog/DMAD
 summary: 'DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation'
 first_seen: '2026-09-29T04:47:19Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Yzmblog/DMAD
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 109
+    stars: 126
     forks: 11
     open_issues: 1
   kind: product

@@ -23,8 +23,8 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6
 summary: Target Expands AI Shopping Features With Photo Search, Review Insights And Personalized Reordering
   Pulse 2.0
 first_seen: '2026-09-10T20:26:17Z'
-last_seen: '2026-10-08T01:56:23Z'
-status: rejected
+last_seen: '2026-10-09T02:10:47Z'
+status: pending_filter
 sources:
 - newssearch
 - hackernews
@@ -102,6 +102,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxORzlKVjFVV0lYTHpjOVBKSzFUSjRjdjd6SVM2VjhiWFlkdERlV1loaXVlWkJWUDVvdmczT3pHWU5yNDNfWDIyMmEyUVgtVUphVi1na3lJVXpNSGJxeUlGb01MNWdMYnZRcEtQbTdSb2xqU3RFMlRvUXRMOURoZU5qbVhESzItcjhDbV9BMGoyRHl5YlJsRndsZkFhQjVwcWw2b3p5QXdMcGs?oc=5
   seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/10/08/truelayer-captures-27m-investment-as-targets-italy-expansion/
+  seen_at: '2026-10-09T02:10:47Z'
   metrics: {}
   kind: news
 ---

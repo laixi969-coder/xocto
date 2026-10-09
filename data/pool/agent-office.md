@@ -20,7 +20,7 @@ url: https://github.com/baturyilmaz/agent-office
 canonical_url: https://github.com/baturyilmaz/agent-office
 summary: Agent Office (Slack for AI Agents) – Similar to Grok Bot but older
 first_seen: '2026-08-21T13:04:59Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: rejected
 sources:
 - hackernews
@@ -35,11 +35,11 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/AgentSystemLabs/agent-office
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 653
-    forks: 171
-    open_issues: 39
+    stars: 683
+    forks: 180
+    open_issues: 41
   kind: product
 ---
 

@@ -1,0 +1,41 @@
+---
+slug: 关于-ai-产品经理战略价值和用户场景之间的鸿沟要用什么来填
+name: 【关于 AI 产品经理】战略价值和用户场景之间的鸿沟，要用什么来填？
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ucmZPVmlVVGY1NmpfR3JadC1Db1R0NnVDQnVHRUh2NWdiVHp6a0FvMGo0TFJtX3hsQ3ZONzhGbGF4eXlfcjBpTzNTQklxRTl0RE1sSQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ucmZPVmlVVGY1NmpfR3JadC1Db1R0NnVDQnVHRUh2NWdiVHp6a0FvMGo0TFJtX3hsQ3ZONzhGbGF4eXlfcjBpTzNTQklxRTl0RE1sSQ?oc=5
+summary: 【关于 AI 产品经理】战略价值和用户场景之间的鸿沟，要用什么来填？ 虎嗅网
+first_seen: '2026-10-08T06:34:11Z'
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ucmZPVmlVVGY1NmpfR3JadC1Db1R0NnVDQnVHRUh2NWdiVHp6a0FvMGo0TFJtX3hsQ3ZONzhGbGF4eXlfcjBpTzNTQklxRTl0RE1sSQ?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+---
+
+# 【关于 AI 产品经理】战略价值和用户场景之间的鸿沟，要用什么来填？
+
+【关于 AI 产品经理】战略价值和用户场景之间的鸿沟，要用什么来填？ 虎嗅网
+
+## 笔记
+
+

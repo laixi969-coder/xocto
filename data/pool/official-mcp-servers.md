@@ -21,18 +21,18 @@ canonical_url: https://github.com/VoltAgent/official-mcp-servers
 summary: A curated directory of 280+ official MCP servers from the companies behind the products. No unofficial
   forks, no abandoned projects.
 first_seen: '2026-10-01T07:30:34Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/VoltAgent/official-mcp-servers
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 219
-    forks: 30
-    open_issues: 1
+    stars: 247
+    forks: 37
+    open_issues: 3
   kind: product
 ---
 

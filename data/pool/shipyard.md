@@ -34,18 +34,18 @@ canonical_url: https://berth-black.vercel.app
 summary: 'Run coding agents on your dev boxes: worktrees, terminals, orchestration, kits and automations,
   with a desktop app.'
 first_seen: '2026-10-02T19:49:23Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://berth-black.vercel.app
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 270
-    forks: 25
-    open_issues: 7
+    stars: 282
+    forks: 28
+    open_issues: 9
   kind: product
 ---
 

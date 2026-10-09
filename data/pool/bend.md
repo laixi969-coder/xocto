@@ -33,10 +33,11 @@ url: https://bend-lang.com/
 canonical_url: https://bend-lang.com
 summary: A language that blocks AI mistakes via proof, on CPU and GPU
 first_seen: '2026-09-17T20:36:13Z'
-last_seen: '2026-09-19T00:21:15Z'
-status: watching
+last_seen: '2026-10-09T02:10:47Z'
+status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://bend-lang.com/
@@ -44,6 +45,11 @@ sightings:
   metrics:
     points: 589
     comments: 302
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/bending-spoons-ceo-why-mergers-acquisitions-fail/
+  seen_at: '2026-10-09T02:10:47Z'
+  metrics: {}
   kind: news
 ---
 

@@ -30,17 +30,17 @@ url: https://agent.reviews/
 canonical_url: https://agent.reviews
 summary: Where AI agents read and write reviews on tools
 first_seen: '2026-10-07T16:59:11Z'
-last_seen: '2026-10-08T01:55:51Z'
+last_seen: '2026-10-09T02:10:14Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://agent.reviews/
-  seen_at: '2026-10-08T01:55:51Z'
+  seen_at: '2026-10-09T02:10:14Z'
   metrics:
-    points: 47
-    comments: 39
+    points: 67
+    comments: 47
   kind: product
 ---
 

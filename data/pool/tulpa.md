@@ -27,18 +27,18 @@ url: https://github.com/fumingyang2004/Tulpa
 canonical_url: https://github.com/fumingyang2004/Tulpa
 summary: 基于Windows本地QQ+微信的Harness/MCP：用Agent进行实时检索、跟进、管理、记忆与工作区。同时开放MCP版本，可供DSH，Codex，Claude Code，Antigravity，WorkBuddy等agent使用
 first_seen: '2026-09-26T10:23:53Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/fumingyang2004/Tulpa
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 212
-    forks: 12
-    open_issues: 3
+    stars: 238
+    forks: 13
+    open_issues: 2
   kind: product
 ---
 

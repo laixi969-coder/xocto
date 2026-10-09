@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMibkFVX3lxTFBuVFIzVkZTQ0JKMFpMd01IUT
 canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTFBuVFIzVkZTQ0JKMFpMd01IUTVSYlVMU3prT1NEQlRaQ2FYbXBtd3BsSndsM2RKcC1wZG1WVklRM1hXQkswdEtST24xUm0wbFBBUDZXMmFrV1lWa1F4WkZUcUZsRU5CMW9kVHNuY3RR?oc=5
 summary: 硬件底座托举工业AI落地，松下FA工博会亮出全链路智造答卷 中华网
 first_seen: '2026-10-08T01:45:37Z'
-last_seen: '2026-10-08T01:56:23Z'
-status: rejected
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMibkFVX3lxTFBuVFIzVkZTQ0JKMFpMd01IUTVSYlVMU3prT1NEQlRaQ2FYbXBtd3BsSndsM2RKcC1wZG1WVklRM1hXQkswdEtST24xUm0wbFBBUDZXMmFrV1lWa1F4WkZUcUZsRU5CMW9kVHNuY3RR?oc=5
   seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TQ2s5QkhCd1NUdVFucFNxbDVSU3hOTFBlNUlDdVRMQ1ZtX0gyLVU0S1pmalN1NVZzRHVaTzdqU1lHenQ2eHVEdThIaUl1dFk?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

@@ -34,18 +34,18 @@ canonical_url: https://github.com/techysy/CreditDaddy
 summary: AI 编程工具多账号本地管理 + 每日积分自动签到：Qoder / WorkBuddy(CodeBuddy) / ZCode，接入 10Router 看额度、同步用量。Windows 托盘桌面版
   + 飞牛 fnOS fpk，数据只留本机，零依赖。
 first_seen: '2026-09-23T08:50:53Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/techysy/CreditDaddy
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 46
+    stars: 50
     forks: 3
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

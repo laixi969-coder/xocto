@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSM3lWTE5tV09MODFmZzU4WV
 canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSM3lWTE5tV09MODFmZzU4WVNucFVjbXRjT2dobm13WWZZdTBuRDdid0NPOHZ5X3RTLWw1OTBGZWhGanA2dWs3Yl9uVDFqOGRxQU54d05YTXJmRmdSNlVkMQ?oc=5
 summary: 黄仁勋再斥“循环融资”质疑：AI行业需巨额资金 相关风险很低！ 东方财富
 first_seen: '2026-08-27T05:31:15Z'
-last_seen: '2026-10-08T01:56:23Z'
-status: rejected
+last_seen: '2026-10-09T02:10:55Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -46,6 +46,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4LUZqdXQzbXpITFZDN0JKZUtLTHN0ajhwOXR0MjdwSTFycm1mTGI3OThCcGJXUUZJZ3FNMTNHLV85c0x0aDNvT0RIdHRyWi1BQVZnU0VaMXFMVm9lMjhqWmdaSXNvZw?oc=5
   seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BNjNRSldwZWdRVU5wS29MUDJjQlNJMi1rM1c3MVFNdlNtOWdCeV9uV1VUaDVzM0lWMzRKa2tjX2d6SnpEY1NHbWJ2N09TM0l4aXU0?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TcjQtLS1laXFsUXFYNk02WDZCWVlJc0g2anlZUnZQbXVFX2ZqekRQYVRtdVgyZDBMVkoteTczX05XaVpialRMWHRUNHZtMDN5elVETmtJTDdCbk1QdjltZQ?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPM000R3pzN3hfUFI1eklNQVhrc1N2aDZsSlBhd1NPWjl2aTZMand3LWNGeFZtaElDa3Z3ZnVLZzg3dU0yU01nT2xQeHJ5STdUbHgxX0xSbEMtMFFsOTZDWUN6eFpEaDcwNTVYdWw2VTNzaUFxU0hLanJqRm1vaktGNi1sXzJJajVDQlpFY2NSaw?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XblYxQktHSTN1c3dzbklYckgwUkp0SWdXVXdBNzVvNFNmd3VJSGZac1J2eEpEbFNWQ0UwM0J5dFUzbGs3cUFUTDBRZVF5RW04VmZ4NnIyekZIdzVGZktJSA?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9BLWphWTF1U2t0Sy1oTUp3dWVURHBodVNPa0gxMmt2TTBLSk4yLU9VNWdzbTdmTGlPbkNWSEoyd084WU13MjZSTF8xOHpRT3UtMHNScktBUGpNX1E?oc=5
+  seen_at: '2026-10-09T02:10:55Z'
   metrics: {}
   kind: news
 ---

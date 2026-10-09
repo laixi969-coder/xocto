@@ -32,14 +32,20 @@ url: https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEhyd0tBSkNwaHV2SUFmZE
 canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEhyd0tBSkNwaHV2SUFmZEI3b3ZzcVFnaEh0cElIRF9scEl5NTJxd1Z4UVNyODctWXVaZUZ0SFVZUUtmei1VTU04cFRCdFRwQWZqdzI0N2RCeGIyYnVnaGZyVURzLXJRT2s1YkhEemlRejNkZnRhS1l3dThJQXpobHZWWVNFT2M4RkppbTl4ZDU0MFRLdWZ6dUQ5VnY?oc=5
 summary: Falcon AI Raises €1.5M for AI-Native Law Firm Konsulteer
 first_seen: '2026-10-07T08:12:58Z'
-last_seen: '2026-10-08T01:56:23Z'
-status: watching
+last_seen: '2026-10-09T02:10:46Z'
+status: pending_filter
 sources:
 - newssearch
+- officialfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEhyd0tBSkNwaHV2SUFmZEI3b3ZzcVFnaEh0cElIRF9scEl5NTJxd1Z4UVNyODctWXVaZUZ0SFVZUUtmei1VTU04cFRCdFRwQWZqdzI0N2RCeGIyYnVnaGZyVURzLXJRT2s1YkhEemlRejNkZnRhS1l3dThJQXpobHZWWVNFT2M4RkppbTl4ZDU0MFRLdWZ6dUQ5VnY?oc=5
   seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://huggingface.co/blog/tiiuae/falcon-asr
+  seen_at: '2026-10-09T02:10:46Z'
   metrics: {}
   kind: news
 ---

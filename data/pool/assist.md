@@ -25,8 +25,8 @@ url: https://www.producthunt.com/products/assist-4
 canonical_url: https://producthunt.com/products/assist-4
 summary: Voice annotate your Mac, get screenshots + clipboard manager
 first_seen: '2026-09-06T10:08:53Z'
-last_seen: '2026-10-08T01:55:51Z'
-status: rejected
+last_seen: '2026-10-09T02:10:14Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -64,10 +64,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://github.com/Queuingtheorydotcom/11SquaresFormalized
-  seen_at: '2026-10-08T01:55:51Z'
+  seen_at: '2026-10-09T02:10:14Z'
   metrics:
-    points: 109
-    comments: 52
+    points: 117
+    comments: 54
   kind: news
 ---
 

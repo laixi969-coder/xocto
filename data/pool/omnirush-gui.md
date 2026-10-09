@@ -30,17 +30,17 @@ url: https://omnirush.ai
 canonical_url: https://omnirush.ai
 summary: A desktop coding agent with free access to frontier models.
 first_seen: '2026-09-21T05:26:26Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://omnirush.ai
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 2608
-    forks: 49
+    stars: 2843
+    forks: 55
     open_issues: 20
   kind: product
 ---

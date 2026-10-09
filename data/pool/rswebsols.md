@@ -20,17 +20,17 @@ url: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-empl
 canonical_url: https://rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai
 summary: Meta and Microsoft take steps to reduce employee usage of Claude AI
 first_seen: '2026-10-07T18:49:40Z'
-last_seen: '2026-10-08T01:55:51Z'
-status: rejected
+last_seen: '2026-10-09T02:10:14Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/
-  seen_at: '2026-10-08T01:55:51Z'
+  seen_at: '2026-10-09T02:10:14Z'
   metrics:
-    points: 277
-    comments: 274
+    points: 367
+    comments: 381
   kind: news
 ---
 

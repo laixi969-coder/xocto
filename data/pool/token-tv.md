@@ -33,18 +33,18 @@ canonical_url: https://token-tv.vercel.app
 summary: Turn a ~$5 AliExpress clock into a physical AI usage dashboard (Claude, Codex, multi-account).
   Zero-flash where possible.
 first_seen: '2026-10-02T12:54:10Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://token-tv.vercel.app
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 54
-    forks: 6
-    open_issues: 7
+    stars: 61
+    forks: 7
+    open_issues: 8
   kind: product
 ---
 

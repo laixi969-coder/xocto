@@ -30,7 +30,7 @@ summary: 'nanoMuse: an open-source personal agent for every device you own — o
   you cannot undo. In the browser, on Android, on Windows / macOS / Linux; your phone''s screen and your
   PC as its hands.'
 first_seen: '2026-09-23T06:13:06Z'
-last_seen: '2026-10-08T01:55:55Z'
+last_seen: '2026-10-09T02:10:18Z'
 status: watching
 sources:
 - github
@@ -38,10 +38,10 @@ sources:
 sightings:
 - source: github
   url: https://nanomuse.cn/
-  seen_at: '2026-10-08T01:55:55Z'
+  seen_at: '2026-10-09T02:10:18Z'
   metrics:
-    stars: 224
-    forks: 26
+    stars: 360
+    forks: 36
     open_issues: 7
   kind: product
 - source: hackernews

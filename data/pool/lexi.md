@@ -30,13 +30,14 @@ url: https://www.producthunt.com/products/lexi-5
 canonical_url: https://producthunt.com/products/lexi-5
 summary: The operating system for legal work
 first_seen: '2026-08-10T18:11:41Z'
-last_seen: '2026-09-19T00:21:44Z'
-status: rejected
+last_seen: '2026-10-09T02:10:14Z'
+status: pending_filter
 sources:
 - producthunt
 - officialfeeds
 - newssearch
 - marketfeeds
+- hackernews
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/lexi-5
@@ -62,6 +63,13 @@ sightings:
   url: https://vercel.com/changelog/spend-management-enterprise-flex
   seen_at: '2026-09-19T00:21:44Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html
+  seen_at: '2026-10-09T02:10:14Z'
+  metrics:
+    points: 111
+    comments: 20
   kind: news
 ---
 

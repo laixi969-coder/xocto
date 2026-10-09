@@ -218,3 +218,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 信息安全 安全工程师 平台工程师'
+- id: ev-8374297141a1d3d7
+  project_slug: mcp-audit-tool
+  url: https://github.com/graygnatconsole/mcp-audit-tool
+  title: mcp-audit-tool
+  published_at: '2026-09-26T02:42:57Z'
+  collected_at: '2026-10-09T02:10:18Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: '🛡️ Security audit CLI for Model Context Protocol (MCP) servers — scan AI agent configs for tool
+    poisoning, rug pulls, hardcoded secrets, command injection & supply-chain risks. Pure Python, SARIF
+    + CI ready. | repository stars: 154'

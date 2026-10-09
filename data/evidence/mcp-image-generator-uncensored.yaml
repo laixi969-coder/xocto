@@ -17,3 +17,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 设计 内容创作 插画与视觉素材创作者在需要生成或修改图片时，把提示词交给本地部署的生成服务，取回图片文件'
+- id: ev-1563d977717ba26d
+  project_slug: mcp-image-generator-uncensored
+  url: https://github.com/hypersniper05/MCP-Image-Generator-Uncensored
+  title: MCP-Image-Generator-Uncensored
+  published_at: '2026-10-06T14:54:31Z'
+  collected_at: '2026-10-09T02:10:18Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Self-hosted MCP server for image generation and editing with the uncensored Qwen-Image-2.1 model
+    | repository stars: 63'
