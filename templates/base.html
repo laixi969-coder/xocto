@@ -4,6 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{% block redirect_meta %}{% endblock %}
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>{% block title %}{{ locale.site_name }} · {{ locale.site_tagline }}{% endblock %}</title>
@@ -30,6 +31,7 @@
 <link rel="icon" type="image/png" href="{{ root }}logo/mark-on-light.png">
 {% if schema %}<script type="application/ld+json">{{ schema | tojson }}</script>{% endif %}
 <link rel="stylesheet" href="{{ root }}style.css?v={{ asset_version }}">
+<link rel="stylesheet" href="{{ root }}funding.css?v={{ asset_version }}">
 {# 字体由样式表按实际使用加载。静态 file:// 预览与线上 CORS 预加载的凭据模式不同，
    强行预加载只会重复请求并在其中一端产生控制台警告。 #}
 <script>
@@ -46,14 +48,15 @@
 <div class="top">
   <div class="top-inner">
     <div class="brand-block">
-      <a class="brand" href="{{ root }}index.html" aria-label="{{ t.home_aria }}"><span>{{ t.home_aria }}</span></a>
+      <a class="brand" href="{{ root }}{{ locale.prefix }}index.html" aria-label="{{ t.home_aria }}"><span>{{ t.home_aria }}</span></a>
       {# 说明不放进链接里：它是描述，不是可点的目标 #}
       <span class="brand-tag">{{ locale.site_tagline }}</span>
     </div>
     <nav class="nav">
-      <a href="{{ root }}index.html" class="{{ 'on' if page == 'home' }}">{{ ico('home') }}<span>{{ t.nav.home }}</span></a>
-      <a href="{{ root }}products.html" class="{{ 'on' if page == 'products' }}">{{ ico('grid') }}<span>{{ t.nav.products }}</span></a>
-      <a href="{{ root }}takeaways.html" class="{{ 'on' if page == 'takeaways' }}">{{ ico('bookmark') }}<span>{{ t.nav.takeaways }}</span></a>
+      <a href="{{ root }}{{ locale.prefix }}index.html" class="{{ 'on' if page == 'home' }}">{{ ico('home') }}<span>{{ t.nav.home }}</span></a>
+      <a href="{{ root }}{{ locale.prefix }}products.html" class="{{ 'on' if page == 'products' }}">{{ ico('grid') }}<span>{{ t.nav.products }}</span></a>
+      <a href="{{ root }}{{ locale.prefix }}funding.html" class="{{ 'on' if page == 'funding' }}"{% if page == 'funding' %} aria-current="page"{% endif %}>{{ ico('trend') }}<span>{{ t.nav.funding }}</span></a>
+      <a href="{{ root }}{{ locale.prefix }}takeaways.html" class="{{ 'on' if page == 'takeaways' }}">{{ ico('bookmark') }}<span>{{ t.nav.takeaways }}</span></a>
     </nav>
     <div class="top-tools">
       {# lang 属性要标对：读屏遇到「中文」两个字才会切到中文发音 #}
@@ -91,11 +94,11 @@
     <span>{{ t.footer.counts.format(total=stats.total, analysed=stats.analysed) }}</span>
     <span class="gen">{{ t.footer.asof.format(day=latest_day) }}</span>
     <span>·</span>
-    <a href="{{ root }}reports.html">{{ t.nav.reports }}</a>
+    <a href="{{ root }}{{ locale.prefix }}reports.html">{{ t.nav.reports }}</a>
     <span>·</span>
-    <a href="{{ root }}methodology.html">{{ t.footer.methodology }}</a>
+    <a href="{{ root }}{{ locale.prefix }}methodology.html">{{ t.footer.methodology }}</a>
     <span>·</span>
-    <a href="{{ root }}privacy.html">{{ t.footer.privacy }}</a>
+    <a href="{{ root }}{{ locale.prefix }}privacy.html">{{ t.footer.privacy }}</a>
   </footer>
 </div>
 

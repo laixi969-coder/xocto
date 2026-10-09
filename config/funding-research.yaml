@@ -1,0 +1,33 @@
+# Explicitly reviewed first-party sites and linked documentation. Never use a
+# third-party funding profile as a company's official site.
+companies:
+  10e839b3-e3de-5096-9f47-22fb1ab14729:
+    website: https://supabase.com/
+    pages:
+      - {url: 'https://supabase.com/pricing', role: pricing}
+      - {url: 'https://supabase.com/docs/guides/ai', role: documentation}
+  73d88a62-aef0-5ff4-948d-69d77fdeb21e:
+    website: https://sima.ai/
+    pages:
+      - {url: 'https://sima.ai/palette-sdk/', role: product}
+      - {url: 'https://sima.ai/mlsoc-family/', role: product}
+  5b80b354-b908-5ea8-831b-deb60fe640c7:
+    website: https://www.gmicloud.ai/en
+  ee6fb513-d5a6-5ea0-a0d0-89c5211fed8f:
+    website: https://www.cscale.ai/
+  be8404a1-00e3-5014-beae-dd97cbadc817:
+    website: https://www.generalintuition.com/
+  2a830155-abf2-54f0-ac98-a7c4f2217d90:
+    website: https://www.armadin.com/
+    pages:
+      - {url: 'https://www.armadin.com/platform', role: product}
+  5a5046f0-45c1-5e60-a075-47c38a916b0a:
+    website: https://eliseai.com/
+  DCCAAAB3-57E3-48C6-ABA7-278D135978BC:
+    website: https://elergi.com/
+  41BD65BF-4B68-49EC-95E4-CFEF650CAF66:
+    pages:
+      - {url: 'https://klang.ai/pricing/', role: pricing}
+  13BB0820-40CA-4293-9A77-23D8C1D1C833:
+    pages:
+      - {url: 'https://heydiga.com/es/precios', role: pricing}

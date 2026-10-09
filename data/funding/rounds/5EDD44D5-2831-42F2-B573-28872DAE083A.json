@@ -1,0 +1,100 @@
+{
+  "company": {
+    "city": "Berlin",
+    "country": "Germany",
+    "description": "F13 is developing AI models for precise vector graphics, targeting professional use cases where accuracy, editability and adherence to design specifications matter.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "BB015FA0-7E0C-46C2-A3E7-792CE01AAB89",
+    "investors": [
+      "Angel Investors",
+      "Carles Reina",
+      "Credo Ventures",
+      "Jack Richardson",
+      "Point Nine Capital"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "F13",
+    "rounds": [
+      {
+        "amountEur": 4381737,
+        "date": "2026-09-23T00:00:00.000Z",
+        "id": "5EDD44D5-2831-42F2-B573-28872DAE083A",
+        "investors": [
+          "Angel Investors",
+          "Carles Reina",
+          "Credo Ventures",
+          "Jack Richardson",
+          "Point Nine Capital"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/5EDD44D5-2831-42F2-B573-28872DAE083A"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 65,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 9
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 4381737,
+    "url": "https://funding.tech.eu/companies/BB015FA0-7E0C-46C2-A3E7-792CE01AAB89",
+    "website": "http://www.f13.com/"
+  },
+  "round": {
+    "amountEur": 4381737,
+    "amountEurStored": null,
+    "amountNative": 5000000,
+    "company": {
+      "city": "Berlin",
+      "country": "Germany",
+      "founded": null,
+      "id": "BB015FA0-7E0C-46C2-A3E7-792CE01AAB89",
+      "name": "F13",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-09-23",
+    "fx": {
+      "asOf": "2026-09-23",
+      "rate": 1.1411,
+      "source": "ECB"
+    },
+    "id": "5EDD44D5-2831-42F2-B573-28872DAE083A",
+    "investors": [
+      "Point Nine Capital",
+      "Credo Ventures",
+      "Carles Reina",
+      "Jack Richardson"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/5EDD44D5-2831-42F2-B573-28872DAE083A"
+  }
+}

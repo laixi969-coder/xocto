@@ -39,7 +39,7 @@ summary: Meta's Muse is apparently an effective AI assistant, but one that's a l
   Magazine, posted on Threads […]
 first_seen: '2026-09-19T20:44:40Z'
 last_seen: '2026-09-21T00:17:16Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 sightings:

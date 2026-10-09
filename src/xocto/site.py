@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import html
 import hashlib
+import json
 import re
 import shutil
 from dataclasses import dataclass
@@ -59,6 +60,7 @@ from .i18n import LOCALES, Locale, other
 from .report import ReportDoc, parse_report, split_stat
 from .editorial import has_context_copy
 from .store import Store
+from .funding import funding_context
 
 # 网站上不出现任何数据源名称。用户不关心东西从哪抓来的，
 # 那是实现细节 —— 泄漏到界面上既没用，也把采集策略白送出去了。
@@ -888,9 +890,8 @@ _GENERIC_ASSISTANT_HINTS = (
 def _is_settled_general_assistant(product: Product) -> bool:
     """识别已是默认入口的通用助手，避免历史数据继续污染机会库。
 
-    新数据应在编辑阶段得到 market_context 状态；这条规则是给已写入档案的
-    历史产品的安全网。它要求同时具备「千万级公开使用量」和通用入口特征，
-    因此不会把已有规模的垂直产品一并藏掉。
+    这只描述生意形态，不决定是否公开。独立通用助手仍进入产品与研究库，
+    不得因为规模大或发布方是平台公司被降成市场背景。
     """
     if _usage_value(product) < SETTLED_USAGE:
         return False
@@ -1794,12 +1795,35 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         case_views, latest_day or today().isoformat(), limit=3,
     )
 
+    # Reviewed product research has a stable entry point beyond its launch day.
+    # This is editorial selection, not a positive investment recommendation.
+    source_config_path = store.config_dir / "sources.yaml"
+    source_config = yaml.safe_load(source_config_path.read_text()) if source_config_path.exists() else {}
+    tracked = (((source_config or {}).get("sources") or {}).get("trackedproducts") or {}).get("products") or []
+    priority_products = []
+    for spec in tracked:
+        view = view_by_slug.get(spec.get("slug"))
+        analysis = by_slug.get(spec.get("slug"))
+        if view and analysis:
+            priority_products.append({**view,
+                "priority_replaces": _strip_md(analysis.replaces, 180),
+                "priority_takeaway": _strip_md(analysis.takeaway, 180),
+                "priority_checked_on": analysis.analyzed_at,
+            })
+    alias_path = store.data_dir / "identity-aliases.json"
+    identity_aliases = json.loads(alias_path.read_text()) if alias_path.exists() else {}
+    identity_aliases = {old: view_by_slug[target] for old, target in identity_aliases.items()
+                        if target in view_by_slug and "/" not in old and "\\" not in old}
+
     return {
         # 页脚要回答的是"数据什么时候更新的"，不是"HTML 什么时候渲染的"。
         # 原来填 datetime.now()，于是不采集只重建也会让"更新于"往前走 —— 那是假消息。
         # 顺带修掉一个更烦的后果：时间戳进了 163 个页面，每次构建全部文件都变，
         # git diff 里看不出当天真正改了什么，也违反 CLAUDE.md 的幂等要求。
         "latest_day": latest_day,
+        "funding": funding_context(store, locale),
+        "priority_products": priority_products,
+        "identity_aliases": identity_aliases,
         "stats": {
             "total": len(views),
             "early": len(early),
@@ -2097,7 +2121,9 @@ def _page_paths(ctx: dict[str, Any]) -> set[str]:
     语言切换按钮要靠它决定跳去哪：产品页两个语种都有，但每日观察不一定 ——
     中文有 2026-08-11 而英文还没写的时候，直接跳过去就是一条死链。
     """
-    paths = {"index.html", "products.html", "methodology.html", "privacy.html", "takeaways.html", "reports.html"}
+    paths = {"index.html", "products.html", "methodology.html", "privacy.html", "takeaways.html", "reports.html", "funding.html"}
+    paths.update(f"f/{v['slug']}.html" for v in ctx["funding"]["companies"])
+    paths.update(f"p/{slug}.html" for slug in ctx.get("identity_aliases", {}))
     paths.update(f"p/{v['slug']}.html" for v in ctx["products"])
     paths.update(f"r/{r.day}.html" for r in ctx["reports"])
     paths.update(f"c/{c['slug']}.html" for c in ctx.get("case_studies", []))
@@ -2111,7 +2137,7 @@ def _remove_stale_pages(out_dir: Path, expected: set[str]) -> int:
     watching 变成 rejected 后，旧 URL 不会因为文件残留而继续在线。
     """
     removed = 0
-    for rel_dir in ("p", "r", "c", "en/p", "en/r", "en/c"):
+    for rel_dir in ("p", "r", "c", "f", "en/p", "en/r", "en/c", "en/f"):
         directory = out_dir / rel_dir
         if not directory.exists() or directory.is_symlink():
             continue
@@ -2142,6 +2168,7 @@ def _build_locale(
     (base / "p").mkdir(exist_ok=True)
     (base / "r").mkdir(exist_ok=True)
     (base / "c").mkdir(exist_ok=True)
+    (base / "f").mkdir(exist_ok=True)
 
     def write(rel: str, template: str, page: str, description: str, **extra: Any) -> None:
         # root 是页面到站点根的相对路径。顶层页面为空，子目录页面要回退一级 ——
@@ -2155,7 +2182,7 @@ def _build_locale(
         alt_exact = rel in alt_paths
         alt_rel = rel if alt_exact else "index.html"
         schema_title = extra.pop("schema_title", locale.site_name)
-        canonical = _canonical(locale.path(rel))
+        canonical = extra.pop("canonical_override", _canonical(locale.path(rel)))
         html = env.get_template(template).render(
             **ctx,
             page=page,
@@ -2188,6 +2215,16 @@ def _build_locale(
         schema_title=locale.t["products"]["title"],
     )
     sitemap.append((locale.path("products.html"), ctx["latest_day"]))
+
+    funding = ctx["funding"]
+    write("funding.html", "funding.html", "funding", locale.t["funding"]["note"],
+          schema_title=locale.t["funding"]["title"])
+    sitemap.append((locale.path("funding.html"), funding["latest_day"] or ctx["latest_day"]))
+    for company in funding["companies"]:
+        rel = f"f/{company['slug']}.html"
+        write(rel, "funding_product.html", "funding", company["edition"].get("summary") or locale.t["funding"]["pending_note"],
+              funded_product=company, schema_title=company["name"])
+        sitemap.append((locale.path(rel), max(company["day"], company["analysis_day"])))
 
     write(
         "methodology.html", "methodology.html", "methodology",
@@ -2235,13 +2272,20 @@ def _build_locale(
               report=report, schema_title=f"{report.day} {locale.t['report']['kicker']}")
         sitemap.append((locale.path(rel), report.day))
 
+    for alias, target in ctx.get("identity_aliases", {}).items():
+        rel = f"p/{alias}.html"
+        write(rel, "identity_redirect.html", "products", locale.t["product"]["profile_moved"],
+              redirect_product=target, schema_title=target["name"],
+              canonical_override=_canonical(locale.path(f"p/{target['slug']}.html")))
+        sitemap.append((locale.path(rel), target["last_seen"]))
+
     for case in ctx.get("case_studies", []):
         rel = f"c/{case['slug']}.html"
         write(rel, "case.html", "cases", _describe(case["summary"], locale.site_desc),
               case=case, schema_title=f"{case['name']} · {locale.t['cases']['title']}")
         sitemap.append((locale.path(rel), case["first_seen"][:10] or ctx["latest_day"]))
 
-    return 4 + len(ctx["products"]) + len(ctx["reports"]) + len(ctx.get("case_studies", []))
+    return 7 + len(funding["companies"]) + len(ctx["products"]) + len(ctx["reports"]) + len(ctx.get("case_studies", [])) + len(ctx.get("identity_aliases", {}))
 
 
 
@@ -2323,9 +2367,10 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
 
     out_dir.mkdir(parents=True, exist_ok=True)
     css_src = templates_dir / "style.css"
+    funding_css_src = templates_dir / "funding.css"
     tokens_src = store.root / "tokens.css"
     asset_bytes = b""
-    for asset in (css_src, tokens_src):
+    for asset in (css_src, funding_css_src, tokens_src):
         if asset.exists():
             asset_bytes += asset.read_bytes()
     asset_version = hashlib.sha256(asset_bytes).hexdigest()[:12] if asset_bytes else "0"
@@ -2356,6 +2401,8 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
 
     if css_src.exists():
         shutil.copy2(css_src, out_dir / "style.css")
+    if funding_css_src.exists():
+        shutil.copy2(funding_css_src, out_dir / "funding.css")
     if tokens_src.exists():
         shutil.copy2(tokens_src, out_dir / "tokens.css")
 

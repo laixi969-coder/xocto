@@ -1,0 +1,95 @@
+{
+  "company": {
+    "city": "Tallinn",
+    "country": "Estonia",
+    "description": "bilt.me is developing an AI-powered platform that enables users to turn ideas into native mobile apps, with the new funding supporting global expansion and further product development.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "C638821D-2ED4-4A9E-96D2-AD2871A0599E",
+    "investors": [
+      "Markus Villig",
+      "Martin Sokk",
+      "Superhero Capital"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "bilt.me",
+    "rounds": [
+      {
+        "amountEur": 615222,
+        "date": "2026-09-28T00:00:00.000Z",
+        "id": "7CBA8C0D-F858-409E-AA6D-25A5F2AE5F2A",
+        "investors": [
+          "Markus Villig",
+          "Martin Sokk",
+          "Superhero Capital"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/7CBA8C0D-F858-409E-AA6D-25A5F2AE5F2A"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 615222,
+    "url": "https://funding.tech.eu/companies/C638821D-2ED4-4A9E-96D2-AD2871A0599E",
+    "website": "https://bilt.me/"
+  },
+  "round": {
+    "amountEur": 615222,
+    "amountEurStored": null,
+    "amountNative": 700000,
+    "company": {
+      "city": "Tallinn",
+      "country": "Estonia",
+      "founded": null,
+      "id": "C638821D-2ED4-4A9E-96D2-AD2871A0599E",
+      "name": "bilt.me",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-09-28",
+    "fx": {
+      "asOf": "2026-09-28",
+      "rate": 1.1378,
+      "source": "ECB"
+    },
+    "id": "7CBA8C0D-F858-409E-AA6D-25A5F2AE5F2A",
+    "investors": [
+      "Superhero Capital",
+      "Markus Villig",
+      "Martin Sokk"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/7CBA8C0D-F858-409E-AA6D-25A5F2AE5F2A"
+  }
+}

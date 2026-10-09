@@ -24,7 +24,7 @@ summary: Meta has launched its new Muse assistant, marking the company's first r
   how well it performed - […]
 first_seen: '2026-09-10T15:00:00Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

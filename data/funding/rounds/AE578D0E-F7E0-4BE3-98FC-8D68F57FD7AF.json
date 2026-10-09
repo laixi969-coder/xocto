@@ -1,0 +1,89 @@
+{
+  "company": {
+    "city": "Bristol",
+    "country": "UK",
+    "description": "Nearhuman is a provider of an AI-powered physical safety and computer vision platform for micromobility vehicles.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "436355F1-3270-4670-A740-BAE1B762F45D",
+    "investors": [
+      "SFC Capital"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Nearhuman",
+    "rounds": [
+      {
+        "amountEur": 413492,
+        "date": "2026-10-07T00:00:00.000Z",
+        "id": "AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF",
+        "investors": [
+          "SFC Capital"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 413492,
+    "url": "https://funding.tech.eu/companies/436355F1-3270-4670-A740-BAE1B762F45D",
+    "website": "https://nearhuman.co/"
+  },
+  "round": {
+    "amountEur": 413492,
+    "amountEurStored": null,
+    "amountNative": 350000,
+    "company": {
+      "city": "Bristol",
+      "country": "UK",
+      "founded": null,
+      "id": "436355F1-3270-4670-A740-BAE1B762F45D",
+      "name": "Nearhuman",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "GBP",
+    "date": "2026-10-07",
+    "fx": {
+      "asOf": "2026-10-07",
+      "rate": 0.84645,
+      "source": "ECB"
+    },
+    "id": "AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF",
+    "investors": [
+      "SFC Capital"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "finsmes.com",
+      "tier": "established"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF"
+  }
+}

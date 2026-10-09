@@ -1,0 +1,41 @@
+- id: req-reviewed-muse-by-meta-2026-10-08
+  project_slug: muse-by-meta
+  level: full
+  reviewed_at: '2026-10-09T03:40:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 官网给出明确事务与旧行为；根据工作流推断存在执行负担，痛点强度仍需用户样本核验。
+    evidence_ids:
+    - ev-reviewed-49f2e9c4f89cba0a
+  - gate: consensus
+    status: insufficient
+    reason: 未见可比任务的独立完成率和四周持续使用证据，融资与关注不等于需求共识。
+    evidence_ids:
+    - ev-reviewed-49f2e9c4f89cba0a
+  - gate: model
+    status: insufficient
+    reason: 尚缺付费转化、单次任务成本与人工兜底数据，不能判断单位经济已成立。
+    evidence_ids:
+    - ev-reviewed-49f2e9c4f89cba0a
+  - gate: truth
+    status: insufficient
+    reason: 尚未登录执行对照任务；权限、确认与失败恢复需逐项核验。
+    evidence_ids:
+    - ev-reviewed-49f2e9c4f89cba0a
+  next_validation: 核验同一任务的完成率、人工介入、四周重复使用、付费与单次交付成本。
+  market: United States
+  job: 个人用户需要处理邮件、预约和日程事务时，把目标与获准访问的服务交给代理执行。
+  job_en: People delegate email, appointments and scheduling with authorised access when recurring administration
+    needs doing.
+  pain: 用户要在多个服务间反复切换和录入，仍需自己推进执行与追踪结果（工作流推断）。
+  pain_en: Users repeatedly switch services and enter information while advancing work and tracking results;
+    this is a workflow inference.
+  current_alternative: 手动使用邮箱、日历、购物与预约网站，或让聊天助手给建议后自己执行。
+  current_alternative_en: Use email, calendars and booking sites manually, or ask a chat assistant for
+    advice and execute it oneself.
+  usage_reason: 推断：熟悉的聊天入口和连续的任务执行可减少切换与协调；可靠完成与长期采用仍需实测。
+  usage_reason_en: 'Inference: familiar conversation and continuous execution may reduce switching and
+    coordination; reliable completion and sustained use still need measurement.'

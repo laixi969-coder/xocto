@@ -22,7 +22,7 @@ summary: Meta's newest app Muse is off to a slower start than the company's othe
   Threads.
 first_seen: '2026-09-10T19:50:04Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

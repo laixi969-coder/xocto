@@ -1,0 +1,137 @@
+{
+  "company": {
+    "city": "Ghent",
+    "country": "Belgium",
+    "description": "Spotable, based in Ghent's Winter Circus, uses satellite imagery, Lidar technology and historical data to accurately measure construction projects and quickly produce a detailed quote.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "E09C53A7-1868-46CC-A9B8-37EE8FBDA4C0",
+    "investors": [
+      " Cloostermans-Huwaert",
+      "Arne Vandendriessche",
+      "Christophe Morbee",
+      "Guy Serraes",
+      "Jonas Dhaenens",
+      "NewSchool investment fund",
+      "the family office of Hilde Cloostermans and Philip Corens",
+      "The Harbour",
+      "Vandermarliere and Tillon families",
+      "various entrepreneurs"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Spotable",
+    "rounds": [
+      {
+        "amountEur": 4000000,
+        "date": "2026-09-29T00:00:00.000Z",
+        "id": "3BA68135-D6A7-4EBD-A37B-DCA09F98B96D",
+        "investors": [
+          "Arne Vandendriessche",
+          "Christophe Morbee",
+          "Jonas Dhaenens",
+          "the family office of Hilde Cloostermans and Philip Corens",
+          "The Harbour"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/3BA68135-D6A7-4EBD-A37B-DCA09F98B96D"
+      },
+      {
+        "amountEur": 1200000,
+        "date": "2025-04-29T00:00:00.000Z",
+        "id": "5CFAB4A7-3F2B-4B66-9B17-98A1394D9989",
+        "investors": [
+          " Cloostermans-Huwaert",
+          "Guy Serraes",
+          "NewSchool investment fund",
+          "Vandermarliere and Tillon families",
+          "various entrepreneurs"
+        ],
+        "stage": "Growth/Late",
+        "url": "https://funding.tech.eu/deals/5CFAB4A7-3F2B-4B66-9B17-98A1394D9989"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 12
+      },
+      "heat": 71,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 17
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 5200000,
+    "url": "https://funding.tech.eu/companies/E09C53A7-1868-46CC-A9B8-37EE8FBDA4C0",
+    "website": "https://spotable.be/"
+  },
+  "round": {
+    "amountEur": 4000000,
+    "amountEurStored": null,
+    "amountNative": 4000000,
+    "company": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "founded": null,
+      "id": "E09C53A7-1868-46CC-A9B8-37EE8FBDA4C0",
+      "name": "Spotable",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-09-29",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "3BA68135-D6A7-4EBD-A37B-DCA09F98B96D",
+    "investors": [
+      "The Harbour",
+      "Arne Vandendriessche",
+      "Jonas Dhaenens",
+      "Christophe Morbee",
+      "the family office of Hilde Cloostermans and Philip Corens"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Seed",
+    "url": "/deals/3BA68135-D6A7-4EBD-A37B-DCA09F98B96D"
+  }
+}

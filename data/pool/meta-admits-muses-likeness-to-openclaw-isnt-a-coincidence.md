@@ -25,7 +25,7 @@ summary: Meta says Muse was built from scratch, but acknowledges the AI assistan
   by OpenClaw — down to some of its workspace filenames and content.
 first_seen: '2026-09-22T19:09:11Z'
 last_seen: '2026-09-23T00:34:37Z'
-status: market_context
+status: rejected
 sources:
 - marketfeeds
 sightings:

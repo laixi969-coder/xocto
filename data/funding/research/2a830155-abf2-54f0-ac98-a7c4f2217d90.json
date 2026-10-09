@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "company_id": "2a830155-abf2-54f0-ac98-a7c4f2217d90",
+  "round_fingerprint": "ce8589fcef53b0c11ded5669974651a011cf2b518309da7abdb1501fe8459142",
+  "last_attempt": "2026-10-09",
+  "status": "ready",
+  "gaps": [
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "raised $255.5 million in Series B funding",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://www.armadin.com/",
+      "kind": "retrieval_gap",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "unavailable",
+      "text": "",
+      "error": "HttpError: https://www.armadin.com/ 返回 403（请求有问题，不重试）"
+    },
+    {
+      "url": "https://www.armadin.com/platform",
+      "kind": "retrieval_gap",
+      "role": "product",
+      "checked_on": "2026-10-09",
+      "status": "unavailable",
+      "text": "",
+      "error": "HttpError: https://www.armadin.com/platform 返回 403（请求有问题，不重试）"
+    },
+    {
+      "url": "https://www.armadin.com/platform",
+      "kind": "company_claim",
+      "role": "product",
+      "status": "retrieved",
+      "checked_on": "2026-10-09",
+      "retrieval_method": "web",
+      "text": "            # Know all paths in, all the time.\n ## Attackers decide when it starts.\nYou decide how it ends.\n Armadin by the numbers\n443K\nAgents launched against real targets\n0\nfalse positive findings\n119s\nfastest path to domain compromise\n### Built to breach your defenses\nHow Armadin identifies actual paths to compromise\nPHASE 01\nReconnaissance\nChart the attack surface. Enumerate hosts, profile people, analyze defenses. Quietly reduce uncertainty before the first move.\nPHASE 02\nAdaptive Scouting\nPersistent and adaptive, the attacker probes in parallel, swarming weak points and learning from each attempt to craft increasingly effective attacks.\nPHASE 03\nPrecision Strike\nValidated paths become real kill chains. With defenses mapped and gaps confirmed, the attacker moves with intent—executing toward the objective with speed, accuracy, and purpose.\nSECURITY STACK /\nDEFENSIVE CONTROLS\nOBJECTIVE\nSENSITIVE DATA | DOMAIN COMPROMISE | RANSOM | HYPERVISOR | BACKUP SERVERS | WEB APP COMPROMISE\n## Human ingenuity.\nMachine speed.\n  Proven Tradecraft\nSeasoned red team methodology reinforced into autonomous agents—modeling real attacker behavior, not checklists.\n Adaptive by Design\nEvery probe, response, and pathway refines the system—learning in real time as your environment changes.\n  Execution at Scale\nTests relentlessly, learns continuously, and executes in parallel—surfacing real attack paths and validating defenses before adversaries can.\n   ### Engineered for the world’s largest and\nmost complex organizations\nArchitected, not adapted\nSecurity Expertise\n Work with the elite of the elite. Armadin red team consultants deliver unmatched offensive security and incident response for the most complex and targeted environments anywhere.\nThreat Intelligence\n Work with the elite of the elite. Armadin red team consultants deliver unmatched offensive security and incident response for the most complex and targeted environments anywhere.\nAI experience\n Work with the elite of the elite. Armadin red team consultants deliver unmatched offensive security and incident response for the most complex and targeted environments anywhere.\nSystems Engineering\n Work with the elite of the elite. Armadin red team consultants deliver unmatched offensive security and incident response for the most complex and targeted environments anywhere.\n  01\nPrecision, Not Noise\nFindings are validated, contextualized, and tied to real kill chains—eliminating false positives that waste time.\n02\nSafe by Design\nPurpose-built guardrails ensure controlled execution, scoped impact, and zero disruption to critical systems. Offensive rigor without operational risk.\n03\nEnterprise-Grade Scale\nArchitected to operate across sprawling global environments without degradation or blind spots.\n04\nActionable Remediation\nEvery validated kill chain comes with clear, prioritized guidance—enabling teams to close gaps decisively,\nnot just detect them.\n ## Autonomy and scale are quietly redefining the balance between attack and defense.\nA perspective on the forces shaping modern cybersecurity\n  EXPLORE\n     Contact\n  FOLLOW US\n   © Copyright 2026  -  Armadin\n  \n"
+    }
+  ],
+  "fingerprint": "5e48f7097cd4c219e612e6e966734554ff2894543734e9668639b5d544b95eeb"
+}

@@ -1,0 +1,106 @@
+{
+  "zh": {
+    "summary": "把金融顾问的会前准备、会中记录和会后文件接到现有客户系统的 AI 工作流。",
+    "judgment": "机会在让既有系统真正连起来；能否降低复核与集成成本，比生成一份漂亮报告更关键。",
+    "replaces": "顾问从多个系统整理会前资料，再手工整理会谈、撰写文件与回填 CRM。",
+    "segment": "财富管理工作流",
+    "product": "浏览器核验的工作流连接客户准备资料、会谈记录、机构模板文档与 CRM 回写。官网说明 Xplan、intelliflo 等连接；支持范围与安全效果为公司声明，本次未登录实际执行业务。",
+    "customer": "使用者包括顾问、辅助规划人员与运营团队；公司级采购可能由经营或合规负责人推动，此为场景推断。旧工作耗时有明确预算归属，但机构仍要确认节省的是总服务成本，而不是把劳动从顾问转移给复核人员。",
+    "workflow": "会前聚合客户信息，会中捕获对话，会后形成文件并同步系统，是官网展示的主链路。分析上应抽查事实从原始会谈到最终文件是否一致，以及系统同步错误能否恢复；只展示成功案例不足以覆盖这些异常。",
+    "business_model": "本次公开资料未确认统一价格、客户收入或毛利。机构合同与席位收费是可能形态；单位经济最敏感的部分可能是系统集成、模板适配和持续支持，必须看每家机构投入多少人工才进入常态使用。",
+    "traction": "本次浏览器核验到 Navigate IFA 等顾问评价及明确的会前—会中—会后流程，均为公司页面资料。节省工时、资产覆盖和安全宣传未独立核验；不能把客户管理资产当作 PlannerPal 收入。",
+    "moat": "替代品包括通用会议工具、机构自建自动化与原有系统内置 AI。潜在壁垒是嵌入既有服务流程的深度和机构知识的积累；接口覆盖越广并不必然越好，稳定同步与可解释的权限边界更重要。",
+    "funding_read": "数据库把本轮归入未明确轮次，应保留原币与参与投资方，不猜成 A 轮或自动标注领投。商业里程碑可设为更多机构通过采购并持续扩席；融资金额本身没有证明增长效率、估值或跑道。",
+    "risks": "一是输入陈旧或缺失会让文档看似完整却事实不一致。二是连接客户系统的权限与集成负担可能压低利润。三是机构原有平台补齐同类功能后，独立工具需要证明额外价值。",
+    "takeaway": "可借鉴的是从客户服务周期设计产品，而不是从模型能力清单出发。先打通一个有明确交付责任的流程，再衡量总工时、出错率与组织续费，能避免只把局部自动化当作完整业务改善。",
+    "watch_next": "看机构上线时间、每份报告复核时长、错误回填次数、付费席位扩展和净续费。还应核对不同系统组合的实施成本，确认规模增长没有同时放大不可复制的定制工作。",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/A935A125-0EDE-4111-9534-310BACD8C07D"
+      },
+      {
+        "label": "PlannerPal 核验资料 1",
+        "url": "https://www.plannerpal.co.uk/"
+      },
+      {
+        "label": "PlannerPal 核验资料 2",
+        "url": "https://www.plannerpal.co.uk/workflow"
+      }
+    ]
+  },
+  "en": {
+    "summary": "An AI workflow connecting adviser preparation, conversations and follow-up documents to existing client systems.",
+    "judgment": "The opportunity is connected execution; review and integration costs matter more than polished document generation.",
+    "replaces": "Collecting preparation data across systems, then manually writing records and updating the CRM.",
+    "segment": "Wealth-management workflows",
+    "product": "The browser-reviewed workflow joins client preparation, meeting capture, firm templates and CRM updates. Xplan and intelliflo integrations are described by the company; support scope and security were not independently tested.",
+    "customer": "Advisers, paraplanners and operations staff use the workflow; operating or compliance leaders are plausible buyers. This is a workflow inference. Savings should be measured across the organisation rather than transferred from advisers to reviewers.",
+    "workflow": "The stated sequence gathers client context, captures the conversation, creates outputs and updates records. Evaluation should trace facts through the final document and test recovery from incorrect synchronisation, including exceptional cases.",
+    "business_model": "A standard price, revenue and gross margin were not confirmed here. Firm contracts or seats are possible models. Implementation, templates and ongoing support may dominate delivery economics, so manual effort per institution matters.",
+    "traction": "Browser review confirmed adviser testimonials including Navigate IFA and a clear before/during/after workflow. Time savings, asset coverage and security claims were not independently verified; customer assets are not PlannerPal revenue.",
+    "moat": "Alternatives include meeting tools, internal automation and incumbent platform AI. Deep workflow connections and institutional knowledge could help defend the product. Stable synchronisation and permissions matter more than the number of integrations.",
+    "funding_read": "The database leaves the round unspecified. Preserve the original currency and investor list without guessing a Series A or lead investor. Procurement wins and sustained seat expansion would be useful commercial milestones.",
+    "risks": "Outdated inputs may create complete-looking but inconsistent records. System permissions and integrations may reduce margins. Incumbent platforms could absorb enough functionality to weaken the case for a separate vendor.",
+    "takeaway": "Design around a customer-service cycle rather than a model capability list. Start with an accountable deliverable and measure total labour, errors and renewals before claiming that local automation improves the whole business.",
+    "watch_next": "Watch deployment time, review minutes, erroneous updates, paid-seat expansion and renewals. Compare implementation cost across system combinations to check that growth is not multiplying bespoke work.",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/A935A125-0EDE-4111-9534-310BACD8C07D"
+      },
+      {
+        "label": "PlannerPal primary material 1",
+        "url": "https://www.plannerpal.co.uk/"
+      },
+      {
+        "label": "PlannerPal primary material 2",
+        "url": "https://www.plannerpal.co.uk/workflow"
+      }
+    ]
+  },
+  "company_id": "54DD8259-B0BF-4760-B87D-889BE65F1D9D",
+  "round_id": "A935A125-0EDE-4111-9534-310BACD8C07D",
+  "fingerprint": "7da5bd075185ccfc2638697a64690315998f268b4885372404375b0d35453a34",
+  "analyzed_at": "2026-10-09T04:59:38Z",
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/A935A125-0EDE-4111-9534-310BACD8C07D",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "PlannerPal is a provider of an AI workflow platform for financial advice and wealth management firms.",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://www.plannerpal.co.uk/",
+      "kind": "retrieval_gap",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "unavailable",
+      "text": "",
+      "error": "ValueError: Page has no usable product text or is a parked/challenge page"
+    },
+    {
+      "url": "https://www.plannerpal.co.uk/",
+      "kind": "company_claim",
+      "role": "overview",
+      "status": "retrieved",
+      "checked_on": "2026-10-09",
+      "retrieval_method": "browser",
+      "text": "Workflow\nFirms & Leaders\nSecurity\nNews & Insights\nAbout Us\nStart your 14 day trial\nSign In\nLess time on admin.\nMore time with clients\n\nPlannerPal is the connected AI workflow for UK advice and wealth firms — cutting admin time by up to 80%. Trusted by UK advice and wealth firms managing over £150bn in client assets.\n\nBook a demo\nStart your 14 day trial\n\nWith PlannerPal, every client leaves feeling heard — and your follow-up is ready before you are.\n\nBook a demo\nStart your 14 day trial\n\nHOW IT WORKS\n\nYour workday, finally connected\nBefore the meeting – prepare instantly\n\nClient facts, goals and valuations pulled into one branded prep pack — tailored to your firm's format and preferences.\n\nDuring the meeting – focus on the client\n\nPlannerPal captures and enriches the conversation automatically, bringing in real-time context and CRM data so you can focus fully on the client.\n\nAfter the meeting – everything created your way\n\nNotes, emails, reports and CRM updates — all generated in your firm's style, in minutes not hours.\n\n\"If PlannerPal disappeared tomorrow, it'd be a disaster — we'd have to drop clients or hire another adviser.\"\n\nMatt Greer, CFP, Navigate IFA\n\nWHAT ADVISERS KEEP TELLING US\n\nYou're not imagining it — admin really does eat the week\n\n<30%\n\nof an adviser's week is spent with clients. The rest disappears into notes, reports, compliance, and CRM updates.\n\n60%\n\nof firms say disconnected systems waste the most time. CRMs, emails and Teams don't share data — leaving advisers to re-key it all.\n\n68%\n\nsee AI's potential — but only 17% use it. Most are still held back by compliance worries and lack of trust.\n\n10-15\n\nhours\n\na week go to documentation and oversight. Often duplicated. Often preventable.\n\nALL OF THIS IS AVOIDABLE\n\nThat's why we built PlannerPal — smart, compliant automation designed around the realities of advice\n\nNo more disjointed systems. No more admin grind. One connected workflow — built for regulated advice.\n\nBuilt for the realities of advice\n\nWe understand the day-to-day realities that advisers face — too many systems, too little time, and growing pressure to stay compliant.\n\nPlannerPal changes that.\n\nIt doesn't add another tool to your stack — it connects the ones you already rely on, quietly taking care of the admin so you can get back so you can give clients your full attention.\n\nSpend more time where it counts — with your clients\n\nYou became an adviser to help people make confident financial decisions and build better futures — not to chase paperwork.\n\nYet every week, hours disappear re-keying data, formatting documents, and rewriting notes for compliance.\n\nWhat took me two or three days in client admin is done in half a day. It's incredible. This has allowed me to focus on where the value is for us as a business. It's going to allow me to accelerate at a pace I didn't think was going to be possible.\"\n\nIan Dempsey DipPFS, The Wealth Strategist\n\nPlannerPal gives that time back — so you can focus on clients, not admin\nWhat changes for you:\n\nEvery meeting captured and summarised the way you want it — automatically.\n\nNotes, reports and CRM updates done in minutes.\n\nConsistent, compliant outputs for every client.\n\nLess back-and-forth with paraplanners and compliance.\n\nWhat changes for your firm:\n\nAccurate, complete client data across the firm.\n\nFaster turnaround from meeting to final report.\n\nStronger oversight with full audit trails.\n\nConsistency at scale — one high standard, delivered firm-wide.\n\nEND-TO-END INTEGRATION\n\nFrom first meeting to final report — seamlessly\n\nPlannerPal fits naturally into how advisers already work, connecting prep, meetings, and follow-ups into one smooth process.\n\nBefore the meeting – prepare instantly\n\nPlannerPal gathers your client facts, goals, valuations and notes into one branded prep pack — standardised to a consistently high bar, so every client receives the same quality of preparation and service.\n\nOutcome: Walk in calm, prepared, and ready to advise — with every detail tailored to your firm.\n\nDuring the meeting – focus on the client\nAfter the meeting – everything, captured and searchable\nContinuous sync – always accurate\n\n PlannerPal doesn't replace advisers — it helps them spend more time where they add the most value: with clients.\" \n\nMark Whitcroft, CEO, PlannerPal\n\nWhy firms choose PlannerPal\n\nLess admin, more client time\n\nPlannerPal saves 30–90 minutes per client meeting by preparing data, capturing conversations, drafting documents, and syncing updates into supported CRMs.\n\nStronger compliance and consistent documentation\n\nEvery meeting becomes an FCA-aligned, fully auditable record — built with firm-approved templates, tone, and wording.\n\nCleaner data across the firm\n\nDeep Xplan and intelliflo integrations keep records accurate without re-keying, strengthening oversight and firm-wide governance. With new integrations added regularly, book a demo to see what's already connected — and what's coming next.\n\nOne connected workflow\n\nMeetings → Notes → Documents → CRM updates\n\nEverything in one place. Nothing falling between systems.\n\nHOW PLANNERPAL IS DIFFERENT\n\nNot just another AI tool — a connected workflow built for financial advice and wealth management firms\n\nWhile most AI tools handle one task in isolation, PlannerPal connects everything: meetings, documents, and CRM data in one compliant workflow.\n\nBroadest AI capability in the market\n\nNotes, reports, fact finds, onboarding forms, LOA extraction, data updates, and search — all in one platform.\n\nDeep CRM and platform integrations\n\nPrivileged access into Xplan, two-way sync with intelliflo, Plannr, and Curo, plus native connections with Teams, Outlook, Calendar and SharePoint.\n\nBuilt for the UK advice profession\n\nFCA-aligned outputs, ISO 27001 certification, and UK data residency give firms confidence to use AI safely.\n\nCustomised to your firm\n\nNotes, reports, and documents follow your templates, tone, and compliance rules — consistent across advisers.\n\nDesigned for real-world scalability\n\nEnterprise-grade capability at a price accessible to firms of all sizes — built to scale across teams and networks.\n\nTHE RESULT\n\nReal Results for Real Firms\n\nPlannerPal fits naturally into how advisers already work, connecting prep, meetings, and follow-ups into one smooth process.\n\nLess admin. More advice\n\nPlannerPal typically saves 30–90 minutes of admin time per client meeting — from prep to paperwork — giving advisers more time to spend with clients.\n\nCleaner data. Happier teams\nQuick to adopt. Simple to use\nPlannerPal gives us a complete, compliant picture of every client — without extra admin.\n\nCOO, National Wealth Manager\n\nPREFERRED BY PROFESSIONALS\n\nTrusted by leading firms\n\nTrusted by hundreds of advice and wealth management firms across the UK, together managing over £150bn in client assets, including:\n\nMore growth stories from across the UK\n\nAWARD-WINNING\n\nAdviser approved\n\nWe love a win, but the real victory is when advisers and firms vote for us. PlannerPal's AI, built for advice professionals, is now recognised by leading industry bodies across the UK:\n\nTop 3 AI Tool for Advisers 2025\n\n5-Star Service Award 2025\n\nWealthTech AI TechSprint Winner 2025\n\nAI Lab Spotlight Participant 2025\n\nAI Hub Member 2025\n\nEEAT 2024 Best in Show Winner\n\nPRIVACY BY DESIGN\n\nSecurity & compliance you can trust\n\nPlannerPal protects client data with the same — and often higher — standards as your CRM and document systems. Everything is designed for the realities of regulated UK advice, so you can use AI with confidence.\n\nBuilt for advice. Certified for security.\n\nISO 27001 certified — the international gold standard for information security\n\nGDPR compliant — with UK-only data residency\n\nBank-grade encryption — protecting data in transit and at rest\n\nClient-data masking — ensuring sensitive details are hidden and protected at every stage\n\nPrivacy-by-design architecture — backed by independent audits and oversight\n\nYour client information stays secure, your compliance team stays confident, and your firm stays ahead of regulation.\n\nLearn more\n\nTRUE SYSTEM SYNC\n\nIntegrations that actually work\n\nMost advice firms already have the tools they need — they just don't talk to each other. PlannerPal fixes that. It connects your CRM, meeting tools, reports, and document systems into one smooth, compliant workflow — so data stays consistent and nothing falls through the cracks. Fewer manual updates, fewer errors, and more time spent where it matters — with clients.\n\nIRESS Xplan\nintelliflo office\nPlannr\nCuro\nZoom\nTeams\nSharePoint\n\nComing soon\n\nOutlook\nCalendar\nReady to get time back?\n\nPlannerPal's connected AI takes care of the admin — so every hour goes further, and every client gets more of you. Less time on admin. More time with clients.\n\nBook a demo\nStart your 14 day trial\n\nQuestions about company or product? We would love to hear from you. Email us or call us on 01225 941 135\n\nBook a demo\nStart your 14 day trial\nPrivacy Policy\nCookie Policy\nSubscription Terms\nSecurity and Data Compliance\n\n© 2026 PlannerPal, a trading name of Morrow Choice Ltd (Company Number 14382025). All rights reserved."
+    },
+    {
+      "url": "https://www.plannerpal.co.uk/workflow",
+      "kind": "company_claim",
+      "role": "product",
+      "status": "retrieved",
+      "checked_on": "2026-10-09",
+      "retrieval_method": "browser",
+      "text": "Workflow\nFirms & Leaders\nSecurity\nNews & Insights\nAbout Us\nStart your 14 day trial\nSign In\nBuilt for advisers and wealth managers\n\nDesigned to handle the work that slows you down, so your focus stays where it belongs: with clients.\n\nPlannerPal is a connected AI workflow that links meetings, notes, documents, CRM updates and oversight into one seamless, compliant flow. Everything is tailored to your firm - from templates and tone to structure and standards.\n\nThe result: advisers spend more time with clients, firms grow without adding headcount, cleaner data, less admin, and a consistent client experience at scale.\n\nPurpose-built for regulated advice workflows\n\nAI only helps if it understands your world. PlannerPal speaks the language of financial advice and wealth management - precise, aligned to compliance requirements, and client-ready from the start. It listens and turns every client meeting into clear, compliant, auditable work - so advisers focus on clients, not admin.\n\nYour brand, your structure, your standards\n\nPlannerPal produces notes, follow-ups, and reports that look and sound like they came from you and your firm — not from an algorithm.\n\nCustomise it to your firm:\n\nAdd your logo, branding, and preferred structure.\n\nDefine section headings and level of detail for each output.\n\nApply firm-wide rules for language, compliance, and formatting.\n\nPull data from meetings, CRM, and connected systems.\n\nConnected client intelligence across your workflow\n\nPlannerPal joins up your end-to-end advice process\n\nBefore the meeting\nDynamic client summary\nPrep Packs built instantly\nDuring the meeting\nAfter the meeting\nHuman-first, AI-powered\n\nPlannerPal doesn't replace the adviser. It amplifies them. PlannerPal handles the admin behind every meeting, so advisers can focus on the conversations that build real client relationships. It's precision AI, designed for human connection.\n\nSecure, compliant, and trusted\n\nPlannerPal is built to the highest UK data protection standards.\n\nUK-based encrypted storage\nISO 27001 certified\nGDPR compliant\nAligned with FCA expectations\nClient-data masking\nTransparent audit trails\nPrivacy-by-design architecture\n\nSecurity and compliance aren't features - they're the foundation.\n\nBuilt for the future of advice\n\nPlannerPal evolves with your firm. Every update is driven by adviser feedback, released quickly, and communicated transparently.\n\nThe roadmap isn't just talk — new features land every week, and every one improves efficiency.\n\nMatt Greer, Chartered Financial Planner, Navigate IFA\n\nFirms choose PlannerPal because our roadmap actually happens - and every improvement strengthens theirs.\n\nPlannerPal.\n\nWhen advisers spend more time with clients, firms don’t just grow - they grow stronger.\n\nBook a demo\nStart your 14 day trial\n\nQuestions about company or product? We would love to hear from you. Email us or call us on 01225 941 135\n\nBook a demo\nStart your 14 day trial\nPrivacy Policy\nCookie Policy\nSubscription Terms\nSecurity and Data Compliance\n\n© 2026 PlannerPal, a trading name of Morrow Choice Ltd (Company Number 14382025). All rights reserved."
+    }
+  ],
+  "checked_on": "2026-10-09",
+  "research_version": 2,
+  "research_fingerprint": "2ca2ea3921ef1b13becbcc4393b7a054554bacdea4f5508359ba0cda75b5718f"
+}

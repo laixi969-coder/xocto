@@ -1,0 +1,85 @@
+{
+  "company": {
+    "city": "London",
+    "country": "UK",
+    "description": "Skwky is a provider of an AI conflict resolution platform.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "959ED37E-B069-4DC4-A55B-D1766F67C311",
+    "investors": [
+      "Seed Enterprise Investment Scheme (SEIS)"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Skwky",
+    "rounds": [
+      {
+        "amountEur": null,
+        "date": "2026-09-23T00:00:00.000Z",
+        "id": "34601711-E27C-4E77-BAA2-93DBE0D432BC",
+        "investors": [
+          "Seed Enterprise Investment Scheme (SEIS)"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/34601711-E27C-4E77-BAA2-93DBE0D432BC"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "medium",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 9
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 0,
+    "url": "https://funding.tech.eu/companies/959ED37E-B069-4DC4-A55B-D1766F67C311",
+    "website": "https://skwky.com/"
+  },
+  "round": {
+    "amountEur": null,
+    "amountEurStored": null,
+    "amountNative": null,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "959ED37E-B069-4DC4-A55B-D1766F67C311",
+      "name": "Skwky",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "none",
+    "currency": "",
+    "date": "2026-09-23",
+    "fx": null,
+    "id": "34601711-E27C-4E77-BAA2-93DBE0D432BC",
+    "investors": [
+      "Seed Enterprise Investment Scheme (SEIS)"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "finsmes.com",
+      "tier": "established"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/34601711-E27C-4E77-BAA2-93DBE0D432BC"
+  }
+}

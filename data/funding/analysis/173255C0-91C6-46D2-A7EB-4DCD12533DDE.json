@@ -1,0 +1,80 @@
+{
+  "company_id": "173255C0-91C6-46D2-A7EB-4DCD12533DDE",
+  "round_id": "0CE2BAFE-45FB-4B87-B95D-C5AA8A051CB9",
+  "fingerprint": "85d81a50bae56c2608c0569ee0b72cdfbe06f216bf0c1f896d239d7aae694d06",
+  "analyzed_at": "2026-10-09T04:53:21Z",
+  "checked_on": "2026-10-09",
+  "research_version": 2,
+  "research_fingerprint": "e9518bfc43c3fff33241d103beb206fe43f8d8e093cb72a1cae9dd34a9be0671",
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/0CE2BAFE-45FB-4B87-B95D-C5AA8A051CB9",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "EUCLYD is building AI infrastructure that aims to solve the compute and memory hurdle.",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://www.euclyd.ai/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "Euclyd — AI Infrastructure for Abundant Intelligence AI Infrastructure for Abundant Intelligence. Building a future in which advanced AI isn’t constrained by infrastructure cost, power availability, or geography. At the center of Euclyd's roadmap are craftwerk , the world's first agentic AI silicon, and CWS 32 , the world's lowest-power exascale AI factory. The platform combines programmable ASIC compute, processor-memory co-design, and system-level optimization to overcome the memory and efficiency walls limiting AI performance and scalability. Latest News EUCLYD and FMC announce strategic collaboration to develop secure, sovereign AI infrastructure September 15, 2026 EUCLYD and Ferroelectric Memory Company (FMC) today announced a strategic technology and business collaboration to advance European AI sovereignty. Early integration work is underway now, with the companies targeting commercial products from 2029. Read the press release → EUCLYD Raises Over €200 Million to Break the AI Efficiency Wall September 15, 2026 EUCLYD has signed a Series A financing round of more than €200 million, co-led by Samsung, Somerset Capital Partners, Scaleup Europe Fund, which is managed by EQT, and Innovation Industries, with participation from EIFO, imec.xpand, Brabant Development Agency (BOM), and Quadri. Peter Wennink, former President & CEO of ASML, joins Euclyd as Chairman of the Board. Read the press release → As Euclyd enters its next phase of growth, we’re expanding the team across the full compute stack. From silicon architecture, design and verification through physical implementation, systems, firmware, compilers and runtime software. We’re looking for exceptional engineers and first-principles thinkers who want to rethink AI infrastructure from the logic gate up, and help make advanced AI compute radically more efficient, scalable and sustainable. If that sounds like the kind of challenge you want to work on, we’d love to hear from you. Get in touch at careers@euclyd.ai . Bringing inference everywhere. For everyone. For more information, email us at info@euclyd.ai . Euclyd  ©2026 All rights reserved. Privacy Statement"
+    }
+  ],
+  "editorial_method": "Primary-source review; no account or live workflow tested.",
+  "zh": {
+    "summary": "从可编程芯片、存储协同到系统级平台重设计 AI 计算基础设施。",
+    "judgment": "它是有明确远期路线的研发项目，商业产品与近期融资不能混为成熟交付。",
+    "replaces": "AI 系统依赖现有加速器与内存组合，在性能、能耗和容量之间调优。",
+    "segment": "AI 芯片与系统研发",
+    "product": "官网提出 craftwerk 芯片与 CWS 32 系统路线，强调处理器和存储共同设计。与 FMC 的公告明确目标商业产品从 2029 年开始；本次不能声称已有可购买完整平台。",
+    "customer": "大规模计算运营商和系统集成方是合理买方推断。应用开发者目前更适合关注路线与未来接口，不能根据融资直接迁移生产系统。",
+    "workflow": "可研究路径包括架构、芯片实现、软件工具链与系统验证。实际公开 SDK、兼容模型和客户部署手册未取得，工作流仍是研发与设计导入。",
+    "business_model": "公开价目和商业合同未确认。芯片、系统或许可路径是商业假设，制造、验证和长期工具链支持会影响经济与资金周期。",
+    "traction": "已核验合作与路线公告，没有取得独立硬件测试或付费出货。路线承诺与公司性能描述是研发证据，不能当作商用采用。",
+    "moat": "计算与存储协同设计、编译工具及系统集成可能形成优势。成熟加速器与现有软件生态是强替代，兼容性和迁移成本决定导入窗口。",
+    "funding_read": "融资可支持长研发周期，不能证明技术与商业目标已完成。验收应按设计、流片、系统测试和客户导入逐阶段推进。",
+    "risks": "芯片进度、良率与供应链可能延迟路线，软件生态不兼容也可能限制采用。研发期内竞争性能和客户负载可能变化。",
+    "takeaway": "公开区分技术路线、原型和可销售产品。将硬件指标与客户工作负载和迁移路径一起验证，避免把资本规模当作产品能力。",
+    "watch_next": "看里程碑、独立工作负载测试、工具链及客户设计导入。对 2029 年目标持续记录实际进展，不提前写成已交付。",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/0CE2BAFE-45FB-4B87-B95D-C5AA8A051CB9"
+      },
+      {
+        "label": "EUCLYD 核验资料 1",
+        "url": "https://www.euclyd.ai/"
+      }
+    ]
+  },
+  "en": {
+    "summary": "AI infrastructure research co-designing programmable silicon, memory and full systems.",
+    "judgment": "A stated long-term roadmap is distinct from a mature product available after financing.",
+    "replaces": "Tuning existing accelerators and memory systems across power, performance and capacity.",
+    "segment": "AI silicon and systems research",
+    "product": "The site proposes craftwerk silicon and CWS 32 with processor-memory co-design. Its FMC announcement targets commercial products from 2029; a purchasable complete platform was not established.",
+    "customer": "Large compute operators and integrators are plausible buyers. Application builders should assess future interfaces rather than infer a production migration path from fundraising.",
+    "workflow": "The research path includes architecture, implementation, tools and system validation. Public SDKs, compatible model coverage and deployment manuals were not retrieved; this remains design-development work.",
+    "business_model": "Public prices and contracts were unavailable. Silicon, systems or licensing are hypotheses, affected by manufacturing, validation and long-term tooling costs.",
+    "traction": "Partnership and roadmap announcements were reviewed without independent hardware benchmarks or paid shipments. Commitments and performance propositions are not commercial adoption.",
+    "moat": "Co-design, compilers and integration may differentiate it. Established accelerators and software ecosystems are strong alternatives; compatibility and migration effort affect design wins.",
+    "funding_read": "Financing supports a long cycle without completing technical or business goals. Evaluate design, silicon, system tests and customer acceptance as separate stages.",
+    "risks": "Schedules, yield and suppliers can delay delivery, while incompatible software limits use. Competitive performance and workloads may change during development.",
+    "takeaway": "Distinguish roadmap, prototype and available products. Validate hardware with customer workloads and migration rather than treating capital as capability.",
+    "watch_next": "Watch milestones, independent tests, tooling and design wins. Track actual progress toward 2029 instead of describing that target as delivered.",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/0CE2BAFE-45FB-4B87-B95D-C5AA8A051CB9"
+      },
+      {
+        "label": "EUCLYD primary material 1",
+        "url": "https://www.euclyd.ai/"
+      }
+    ]
+  }
+}

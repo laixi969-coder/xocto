@@ -1,0 +1,149 @@
+{
+  "company": {
+    "city": "Paris",
+    "country": "France",
+    "description": "French startup specialising in AI applied to data operations",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "74B06302-C229-4423-B5C8-A6ABE08C0C81",
+    "investors": [
+      "10x Founders",
+      "Arthur Dénouveaux",
+      "Better Angle",
+      "Bpifrance’s Defence Innovation Fund",
+      "Business Angels",
+      "David Meneret",
+      "Éric Le Maire",
+      "Julien Codorniou",
+      "Julien Lesaicherre",
+      "Kima Ventures",
+      "OTB Ventures",
+      "Redalpine",
+      "Vsquared Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Arlequin AI",
+    "rounds": [
+      {
+        "amountEur": 28000000,
+        "date": "2026-09-10T00:00:00.000Z",
+        "id": "791C6A4A-AEAB-4BDB-A5E2-A11F55A3E226",
+        "investors": [
+          "10x Founders",
+          "Bpifrance’s Defence Innovation Fund",
+          "OTB Ventures",
+          "Redalpine",
+          "Vsquared Ventures"
+        ],
+        "stage": "Series A",
+        "url": "https://funding.tech.eu/deals/791C6A4A-AEAB-4BDB-A5E2-A11F55A3E226"
+      },
+      {
+        "amountEur": 4400000,
+        "date": "2025-06-11T00:00:00.000Z",
+        "id": "FE5A7DFD-0E4F-4211-BBDE-5E89CF4E4D20",
+        "investors": [
+          "10x Founders",
+          "Arthur Dénouveaux",
+          "Better Angle",
+          "Business Angels",
+          "David Meneret",
+          "Éric Le Maire",
+          "Julien Codorniou",
+          "Julien Lesaicherre",
+          "Kima Ventures",
+          "Vsquared Ventures"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/FE5A7DFD-0E4F-4211-BBDE-5E89CF4E4D20"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "up",
+            "label": "€30M+ raised"
+          },
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 17
+      },
+      "heat": 85,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 18
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 32400000,
+    "url": "https://funding.tech.eu/companies/74B06302-C229-4423-B5C8-A6ABE08C0C81",
+    "website": "https://www.arlq.ai/"
+  },
+  "round": {
+    "amountEur": 28000000,
+    "amountEurStored": null,
+    "amountNative": 28000000,
+    "company": {
+      "city": "Paris",
+      "country": "France",
+      "founded": null,
+      "id": "74B06302-C229-4423-B5C8-A6ABE08C0C81",
+      "name": "Arlequin AI",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-09-10",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "791C6A4A-AEAB-4BDB-A5E2-A11F55A3E226",
+    "investors": [
+      "Bpifrance’s Defence Innovation Fund",
+      "Redalpine",
+      "Vsquared Ventures",
+      "OTB Ventures",
+      "10x Founders"
+    ],
+    "rawRoundType": "series a",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Series A",
+    "url": "/deals/791C6A4A-AEAB-4BDB-A5E2-A11F55A3E226"
+  }
+}

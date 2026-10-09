@@ -1,0 +1,80 @@
+{
+  "company_id": "DCCAAAB3-57E3-48C6-ABA7-278D135978BC",
+  "round_id": "AA015797-F61E-4973-AC7B-549AE682B781",
+  "fingerprint": "1f338cbbc369fe114d4ae90c86d837567908e01d63b8a6e9ba48e918b011d2c3",
+  "analyzed_at": "2026-10-09T04:53:21Z",
+  "checked_on": "2026-10-09",
+  "research_version": 2,
+  "research_fingerprint": "7efaee47916f0648367f1f17661d154885ed498b7bac2bd1324e80ba08d1b3ff",
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/AA015797-F61E-4973-AC7B-549AE682B781",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Elergi is an early-stage technology company operating at the intersection of AI and energy.",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://elergi.com/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "elergi · Agentic AI for grid planning elergi contact Agentic AI for grid planning. Agentic AI\nfor grid planning. Request a demo Join the team $2 trillion of assets are stuck in the grid planning queue We partner with utilities and industry leaders to change that. Data centres Generation Industrials Built for the people who decide how the grid grows. Connection teams Clear the queue of connection requests Grid planners Decide where to invest and reinforce Data centres and large projects Choose where to build what comes next Operators Developers Power systems engineering just got agentic. We orchestrate and automate the full workflow and analysis. Request intake Network context Study composition Physics checks Evidence for review Explore thousands of scenarios in parallel. Elergi’s agents surface where each plan breaks and give engineers the evidence to choose what gets built. [email protected] elergi Request a demo Join the team Careers Contact Terms © 2026 MADE IN"
+    }
+  ],
+  "editorial_method": "Primary-source review; no account or live workflow tested.",
+  "zh": {
+    "summary": "面向电网接入与规划团队，把方案分析接到物理校核和工程复核。",
+    "judgment": "需求来自工程队列和重复分析，价值必须建立在可验证计算而非自动生成报告上。",
+    "replaces": "工程师整理接入申请、准备网络上下文，反复计算方案并写审批依据。",
+    "segment": "电网规划与接入分析",
+    "product": "已核验官网描述申请接入、网络上下文、研究组合、物理检查及复核证据。具体软件接口、部署文档和公开价目尚未取得，不能声称已经替代完整电力仿真工具。",
+    "customer": "电网连接与规划团队、数据中心和大型项目开发者是明确对象。使用者与最终工程批准人可能不同，采购需要看队列处理和复核成本。",
+    "workflow": "公司描述将多方案分析并行化，指出计划失效位置并交给工程师选择。需要核验输入网络版本、计算约束和证据追溯，保留最终工程责任。",
+    "business_model": "本次未确认商业价格和合同，项目或机构采购是商业假设。电网数据整理、模型适配和客户验证可能构成重交付，不能直接套用轻量 SaaS 经济。",
+    "traction": "官网说明面向的流程与角色，但没有取得独立现场验证、具名付费项目或周期改善对照。并行方案数量也不等于可批准接入数量。",
+    "moat": "领域模型、历史约束与工程工作流可能积累优势。传统规划软件、咨询和内部自动化都是替代，可靠计算与可复核接口比代理标签更重要。",
+    "funding_read": "融资给予早期验证资源。下一里程碑应是同一工程团队接受计算结果并重复使用；提供方的融资口径不作为产品质量评分。",
+    "risks": "错误网络数据或约束可能产生不可用方案，模型版本不同也可能影响结果。缺乏明确责任与复核证据会拖延机构采购。",
+    "takeaway": "让自动分析输出可复核的物理检查与方案差异。把工程师审批路径嵌入产品，先缩短一种分析流程再扩大范围。",
+    "watch_next": "看与参考计算的一致性、复核时间、被接受方案比例及实施工时。区分仿真运行速度和完整接入审批周期。",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/AA015797-F61E-4973-AC7B-549AE682B781"
+      },
+      {
+        "label": "Elergi Labs 核验资料 1",
+        "url": "https://elergi.com/"
+      }
+    ]
+  },
+  "en": {
+    "summary": "Agentic grid planning connecting scenario analysis to physics checks and engineering review.",
+    "judgment": "Queue pressure creates demand, but value rests on verifiable computation rather than generated reports.",
+    "replaces": "Preparing applications and network context, repeatedly evaluating scenarios and writing review evidence.",
+    "segment": "Grid planning and connections",
+    "product": "The reviewed site describes intake, network context, study composition, physics checks and evidence. Interfaces, deployment documentation and prices were not obtained; replacement of full simulation tooling is unproven.",
+    "customer": "Connection and planning teams, data centers and major developers are stated audiences. Users and approving engineers may differ; procurement should assess queue handling and review cost.",
+    "workflow": "The company describes parallel scenarios and surfacing broken plans for engineers to choose. Network versions, constraints and provenance need verification while engineering responsibility remains explicit.",
+    "business_model": "Commercial prices and contracts were not established. Project or institutional procurement is a hypothesis; data preparation, adaptation and validation may make delivery intensive.",
+    "traction": "Roles and workflow are public, without independent field validation, named paid projects or cycle comparisons. Analyzed scenarios are not approved connections.",
+    "moat": "Domain models, historical constraints and workflow integration could accumulate advantages. Planning software, consultants and internal automation compete on dependable computation and review.",
+    "funding_read": "Early financing provides validation resources. Accepted calculations and repeated use within an engineering team are useful milestones; funding-data confidence is not product quality.",
+    "risks": "Wrong network data or constraints can produce unusable plans. Version differences and unclear review responsibility may slow procurement.",
+    "takeaway": "Output inspectable physics checks and scenario differences. Embed approval paths, shorten one analysis workflow, then broaden coverage.",
+    "watch_next": "Watch agreement with reference calculations, review time, accepted scenarios and implementation effort. Simulation speed differs from the whole approval cycle.",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/AA015797-F61E-4973-AC7B-549AE682B781"
+      },
+      {
+        "label": "Elergi Labs primary material 1",
+        "url": "https://elergi.com/"
+      }
+    ]
+  }
+}

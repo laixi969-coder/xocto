@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% set p = funded_product %}
+{% block title %}{{ p.name }} · {{ t.funding.detail }} · {{ locale.site_name }}{% endblock %}
+{% block body %}
+<div class="wrap funding-desk funding-detail">
+  <a class="funding-link" href="{{ root }}{{ locale.prefix }}funding.html">← {{ t.funding.back }}</a>
+  <header class="lede-bar desk-command">
+    <div class="lede-main">
+      <p class="eyebrow">{{ t.funding.kicker }} · {{ p.country }}{% if p.edition.segment %} · {{ p.edition.segment }}{% endif %}</p>
+      <h1>{{ p.name }}</h1>
+      <p class="funding-lede">{{ p.summary or t.funding.pending_note }}</p>
+      {% if not p.analyzed and p.summary %}<p class="note">{{ t.funding.pending_note }}</p>{% endif %}
+      {% if p.website %}<a class="funding-link" href="{{ p.website }}">{{ t.funding.website }} ↗</a>{% endif %}
+    </div>
+    <aside class="funding-fact" aria-label="{{ t.funding.fact }}">
+      <p class="field-k">{{ t.funding.fact }}</p><p class="funding-amount num">{{ p.amount }}</p>
+      {% if p.native %}<p class="num">{{ t.funding.native }}：{{ p.native }}</p>{% endif %}
+      <p>{{ p.stage }} · {{ p.type }} · <span class="num">{{ p.day }}</span> · {{ p.date_basis }}</p>
+      <p>{{ t.funding.investors }}：{{ p.investors | join(', ') or t.funding.no_investors }}</p>
+      <p class="note">{{ t.funding.confidence }}：{{ p.confidence }}</p>
+      <a class="citation-source funding-link" href="{{ p.url }}">{{ p.publisher }} ↗</a>
+    </aside>
+  </header>
+  {% if p.history | length > 1 %}
+  <section class="band desk-band">
+    <h2>{{ t.funding.fact }}</h2>
+    <div class="scroll-x"><table class="funding-table"><thead><tr><th scope="col">{{ t.funding.amount }}</th><th scope="col">{{ t.funding.stage }}</th><th scope="col">{{ t.funding.date }}</th><th scope="col">{{ t.funding.source }}</th></tr></thead><tbody>
+      {% for round in p.history %}<tr><td class="num">{{ round.amount }}{% if round.native %}<span class="funding-meta">{{ round.native }}</span>{% endif %}</td><td>{{ round.stage }} · {{ round.type }}</td><td>{{ round.day }} · {{ round.date_basis }}</td><td><a class="citation-source" href="{{ round.url }}">{{ round.publisher }} ↗</a></td></tr>{% endfor %}
+    </tbody></table></div>
+  </section>
+  {% endif %}
+  {% if p.research_attempt %}
+  <section class="band desk-band">
+    <h2>{{ t.funding.retrieved_pages }}</h2>
+    <p class="note">{{ t.funding.research_checked }}：{{ p.research_attempt }}</p>
+    {% if p.evidence_pages %}<ul>{% for evidence in p.evidence_pages %}<li><a href="{{ evidence.url }}">{{ evidence.role }} ↗</a></li>{% endfor %}</ul>{% endif %}
+    {% if p.research_gaps %}<p>{{ t.funding.research_missing }}：{{ p.research_gaps | join(' · ') }}</p>{% endif %}
+    {% if p.research_blocked %}<p>{{ t.funding.research_blocked }}</p>{% endif %}
+  </section>
+  {% endif %}
+  {% if p.analyzed %}
+  {% if p.stale %}<p class="funding-scope">{{ t.funding.stale }}</p>{% endif %}
+  <section class="funding-call">
+    <div class="field"><span class="field-k">{{ t.funding.replaces }}</span><p>{{ p.edition.replaces }}</p></div>
+    <div class="field"><span class="field-k">{{ t.funding.judgment }}</span><p>{{ p.edition.judgment }}</p></div>
+  </section>
+  <p class="funding-scope">{{ t.funding.editorial }}<br>{{ t.funding.analysis_asof }} <span class="num">{{ p.analysis_day }}</span></p>
+  <div class="funding-reading">
+    <nav class="funding-toc" aria-label="{{ t.funding.detail }}">
+      {% for key,label in t.funding.sections.items() %}<a href="#{{ key }}"><span class="num">{{ '%02d' | format(loop.index) }}</span> {{ label }}</a>{% endfor %}
+    </nav>
+    <div class="funding-prose">
+      {% for key,label in t.funding.sections.items() %}
+      <section id="{{ key }}"><p class="section-index num">{{ '%02d' | format(loop.index) }}</p><h2>{{ label }}</h2><p>{{ p.edition[key] }}</p></section>
+      {% endfor %}
+      <section id="citations"><h2>{{ t.funding.citations }}</h2><ul>
+        {% for citation in p.edition.citations %}<li><a class="citation-source" href="{{ citation.url }}">{{ citation.label }} ↗</a></li>{% endfor %}
+      </ul></section>
+    </div>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

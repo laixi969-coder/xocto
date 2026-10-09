@@ -367,14 +367,14 @@ class BriefTests(unittest.TestCase):
             self.assertIn("过滤或采集故障", str(ctx.exception))
             self.assertFalse(store.report_path(DAY).exists())
 
-    def test_only_today_pending_products_are_candidates(self) -> None:
+    def test_today_and_unfinished_older_products_are_candidates(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))
             store.save_product(product("today"))
             store.save_product(product("old", last_seen="2026-08-12T01:00:00Z"))
             store.save_product(replace(product("rejected"), status="rejected"))
 
-            self.assertEqual([item.slug for item in candidates_for_day(store, DAY)], ["today"])
+            self.assertEqual([item.slug for item in candidates_for_day(store, DAY)], ["old", "today"])
 
     def test_official_news_is_available_to_the_report_but_not_the_product_pool(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

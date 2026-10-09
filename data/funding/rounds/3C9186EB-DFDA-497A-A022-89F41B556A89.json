@@ -1,0 +1,100 @@
+{
+  "company": {
+    "city": "Berlin",
+    "country": "Germany",
+    "description": "Palma.ai provides enterprises with a central governance layer for AI agents, helping teams control permissions, enforce policies and audit how agents interact with company systems.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "D0B20050-5014-4768-9911-963C69087401",
+    "investors": [
+      "Angel Investors",
+      "D11Z Ventures",
+      "Deel Ventures",
+      "Plug and Play Ventures",
+      "Scale Now Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Palma.ai",
+    "rounds": [
+      {
+        "amountEur": 1577425,
+        "date": "2026-09-23T00:00:00.000Z",
+        "id": "3C9186EB-DFDA-497A-A022-89F41B556A89",
+        "investors": [
+          "Angel Investors",
+          "D11Z Ventures",
+          "Deel Ventures",
+          "Plug and Play Ventures",
+          "Scale Now Ventures"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/3C9186EB-DFDA-497A-A022-89F41B556A89"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 9
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 1577425,
+    "url": "https://funding.tech.eu/companies/D0B20050-5014-4768-9911-963C69087401",
+    "website": "http://palma.ai/"
+  },
+  "round": {
+    "amountEur": 1577425,
+    "amountEurStored": null,
+    "amountNative": 1800000,
+    "company": {
+      "city": "Berlin",
+      "country": "Germany",
+      "founded": null,
+      "id": "D0B20050-5014-4768-9911-963C69087401",
+      "name": "Palma.ai",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-09-23",
+    "fx": {
+      "asOf": "2026-09-23",
+      "rate": 1.1411,
+      "source": "ECB"
+    },
+    "id": "3C9186EB-DFDA-497A-A022-89F41B556A89",
+    "investors": [
+      "Scale Now Ventures",
+      "D11Z Ventures",
+      "Deel Ventures",
+      "Plug and Play Ventures"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/3C9186EB-DFDA-497A-A022-89F41B556A89"
+  }
+}

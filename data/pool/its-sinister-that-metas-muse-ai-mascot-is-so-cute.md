@@ -31,7 +31,7 @@ summary: This is Optimizer, a weekly newsletter sent from Verge senior reviewer 
   […]
 first_seen: '2026-09-24T17:00:00Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 sightings:

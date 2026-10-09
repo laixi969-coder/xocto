@@ -151,12 +151,15 @@ class ProductIndex:
     构造一次，之后每条新记录 O(1) 查匹配。
     """
 
-    def __init__(self, products: list[Product] | None = None) -> None:
+    def __init__(self, products: list[Product] | None = None, *, aliases: dict[str, str] | None = None) -> None:
+        self._aliases = aliases or {}
         self._by_slug: dict[str, Product] = {}
         self._by_url: dict[str, str] = {}  # canonical_url -> slug
         self._by_host: dict[str, str] = {}  # host -> slug
         self._by_title: dict[str, str] = {}  # title_key -> slug
         self._mention_names: dict[str, str] = {}  # stable entity key -> slug
+        self._ambiguous_names: set[str] = set()
+        self._entity_names: dict[str, str] = {}
         for product in products or []:
             self.add(product)
 
@@ -166,7 +169,11 @@ class ProductIndex:
 
         for url in {product.canonical_url, canonical_url(product.url)}:
             if url:
-                self._by_url.setdefault(url, product.slug)
+                self._by_url.setdefault(url, self._aliases.get(product.slug, product.slug))
+        if product.slug in self._aliases:
+            # Reviewed article migrations keep URL provenance without becoming
+            # rival entities that disable the actual product's name identity.
+            return
 
         host = url_host(product.canonical_url or product.url)
         observation_only = bool(product.sightings) and all(
@@ -177,10 +184,14 @@ class ProductIndex:
 
         key = title_key(product.name)
         if key:
+            previous_slug = self._by_title.get(key)
+            if previous_slug and previous_slug != product.slug:
+                self._ambiguous_names.add(key)
             self._by_title.setdefault(key, product.slug)
         entity = mention_key(product.name)
-        if entity:
+        if entity and host and not is_aggregator(host) and not observation_only:
             self._mention_names.setdefault(entity, product.slug)
+            self._entity_names.setdefault(entity, product.name)
 
     def get(self, slug: str) -> Product | None:
         return self._by_slug.get(slug)
@@ -191,6 +202,14 @@ class ProductIndex:
     def match(self, item: RawItem) -> Product | None:
         """给一条原始记录找池子里已有的产品。找不到返回 None。"""
         canon = canonical_url(item.url)
+
+        verified = canonical_url(str(item.extra.get("verified_entity_url") or "")) if item.extra.get("verified_entity_url") else ""
+        if verified and verified in self._by_url:
+            return self._by_slug.get(self._by_url[verified])
+        if item.source == "trackedproducts":
+            declared = str(item.extra.get("verified_entity_slug") or item.external_id.split(":", 1)[0])
+            if declared in self._by_slug:
+                return self._by_slug[declared]
 
         if canon and canon in self._by_url:
             return self._by_slug.get(self._by_url[canon])
@@ -205,16 +224,26 @@ class ProductIndex:
             return self._by_slug.get(self._by_host[host])
 
         key = title_key(item.title)
-        if key and key in self._by_title:
-            return self._by_slug.get(self._by_title[key])
+        if key and key in self._by_title and key not in self._ambiguous_names:
+            candidate = self._by_slug.get(self._by_title[key])
+            candidate_host = url_host(candidate.url) if candidate else ""
+            # Two independently owned sites with the same name are not an identity.
+            if candidate and host == candidate_host and not is_aggregator(host):
+                return candidate
 
         # 报道标题通常不是实体名，但会明确提到已有公司/产品。只在唯一稳定
         # 名称命中时关联；多实体报道保守地留作新候选，交给编辑层判断。
         if item.extra.get("kind") == "news":
-            haystack = title_key(f"{item.title} {item.summary}")
+            # Headlines identify the subject. Incidental mentions in long summaries
+            # must not attach an unrelated company's report to a short product name.
+            haystack = item.title
+            excluded_urls = {canonical_url(url) for url in item.extra.get("excluded_entity_urls") or []}
             mentioned = {
                 slug for entity, slug in self._mention_names.items()
-                if entity and entity in haystack
+                if entity and entity not in self._ambiguous_names
+                and canonical_url(self._by_slug[slug].url) not in excluded_urls
+                and re.search((re.escape(self._entity_names[entity]) if re.search(r"[一-鿿]", self._entity_names[entity])
+                               else r"(?<!\w)" + re.escape(self._entity_names[entity]) + r"(?!\w)"), haystack, re.I)
             }
             if len(mentioned) == 1:
                 return self._by_slug.get(next(iter(mentioned)))

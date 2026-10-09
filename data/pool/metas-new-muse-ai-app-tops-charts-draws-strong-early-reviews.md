@@ -32,7 +32,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNc0pWbDJJdHB2
 summary: Meta’s New Muse AI App Tops Charts, Draws Strong Early Reviews Bloomberg.com
 first_seen: '2026-09-21T17:44:30Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: watching
+status: rejected
 sources:
 - newssearch
 sightings:

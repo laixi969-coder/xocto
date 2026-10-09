@@ -72,7 +72,7 @@ summary: 送别「济公」！表演艺术家游本昌去世，享年 93 岁  9 
   开始替人购物和谈判，模型能力的差距可能直接变成钱——拿着弱一点的 AI，不但更容易买贵卖贱，甚至可能不知道自己吃了亏。（来源：Anthropic）
 first_seen: '2026-09-25T01:14:48Z'
 last_seen: '2026-09-26T00:38:20Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

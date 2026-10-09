@@ -27,7 +27,7 @@ summary: 'CEO Mark Zuckerberg kicked off the company’s annual Connect event in
   AI glasses.'
 first_seen: '2026-09-24T01:13:32Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: market_context
+status: rejected
 sources:
 - marketfeeds
 sightings:

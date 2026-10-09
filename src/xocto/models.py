@@ -663,7 +663,9 @@ class Product:
             url=item.url,
             canonical_url=canonical_url,
             summary=item.summary,
-            first_seen=item.published_at or item.collected_at,
+            # "First tracked here" is observation time, not a backdated source
+            # publication date. Publication remains in raw and evidence.
+            first_seen=item.collected_at,
             last_seen=item.collected_at,
             status=STATUS_PENDING_FILTER,
             sightings=(sighting,),

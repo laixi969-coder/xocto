@@ -26,7 +26,7 @@ summary: Meta now lets you make your own Muse gadgets that feature the company's
   to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or […]
 first_seen: '2026-10-02T21:08:37Z'
 last_seen: '2026-10-03T01:12:56Z'
-status: market_context
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -28,7 +28,7 @@ summary: Meta's Muse AI agent has been blocked from shopping Amazon on behalf of
   Meta didn't notify Amazon that […]
 first_seen: '2026-09-21T09:21:47Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: market_context
+status: rejected
 sources:
 - marketfeeds
 sightings:

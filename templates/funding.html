@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% block title %}{{ t.funding.title }} · {{ locale.site_name }}{% endblock %}
+{% block body %}
+<div class="wrap funding-desk">
+  <header class="lede-bar desk-command">
+    <div class="lede-main">
+      <p class="eyebrow">{{ t.funding.kicker }}{% if funding.latest_day %} · {{ funding.latest_day }}{% endif %}</p>
+      <h1>{{ t.funding.title }}</h1>
+      <p class="funding-lede">{{ t.funding.lede }}</p>
+      <p>{{ t.funding.note }}</p>
+    </div>
+    <dl class="desk-stats funding-stats">
+      <div><dt class="num">{{ funding.count }}</dt><dd>{{ t.funding.records }}</dd></div>
+      <div><dt class="num">{{ funding.analyzed_count }}</dt><dd>{{ t.funding.analyses }}</dd></div>
+      <div><dt class="num">{{ funding.undisclosed_count }}</dt><dd>{{ t.funding.undisclosed_count }}</dd></div>
+    </dl>
+  </header>
+  <p class="funding-scope">{{ t.funding.scope }}<br>{{ t.funding.source }}：
+    <a class="citation-source" href="https://funding.tech.eu/">Tech.eu Funding Explorer</a> ·
+    <a class="citation-source" href="https://news.crunchbase.com/feed/">Crunchbase News</a> ·
+    <a class="citation-source" href="https://techcrunch.com/category/venture/feed/">TechCrunch</a>
+    {% if funding.from_day %} · <span class="num">{{ funding.from_day }} — {{ funding.latest_day }}</span>{% endif %}
+  </p>
+  {% if funding.picks %}
+  <section class="band desk-band">
+    <div class="sec-head desk-sec"><div><p class="section-index">01</p><h2>{{ t.funding.research }}</h2></div><span class="note">{{ t.funding.research_note }}</span></div>
+    {% include 'funding_picks.html' %}
+  </section>
+  {% endif %}
+  <section class="band desk-band" id="rounds">
+    <div class="sec-head desk-sec"><div><p class="section-index">{{ '02' if funding.picks else '01' }}</p><h2>{{ t.funding.latest }}</h2></div><span class="note num">{{ funding.count }} {{ t.funding.records }}</span></div>
+    {% if funding.rounds %}
+    <form class="funding-controls" onsubmit="return false">
+      <label>{{ t.funding.search }}<input id="funding-search" type="search" autocomplete="off"></label>
+      <label>{{ t.funding.market }}<select id="funding-market"><option value="">{{ t.funding.market_all }}</option><option value="US">{{ t.funding.market_us }} ({{ funding.us_count }})</option><option value="Europe">{{ t.funding.market_europe }} ({{ funding.count - funding.us_count }})</option></select></label>
+      <label>{{ t.funding.country }}<select id="funding-country"><option value="">{{ t.funding.any }}</option>{% for key,label in funding.countries %}<option value="{{ key }}">{{ label }}</option>{% endfor %}</select></label>
+      <label>{{ t.funding.stage }}<select id="funding-stage"><option value="">{{ t.funding.any }}</option>{% for key,label in funding.stages %}<option value="{{ key }}">{{ label }}</option>{% endfor %}</select></label>
+      <label>{{ t.funding.sort }}<select id="funding-sort"><option value="date">{{ t.funding.newest }}</option><option value="amount">{{ t.funding.largest }}</option></select></label>
+      <label>{{ t.funding.currency }}<select id="funding-currency"><option value="">{{ t.funding.any }}</option>{% for value in funding.currencies %}<option value="{{ value }}">{{ value }}</option>{% endfor %}</select></label>
+    </form>
+    <p class="note" role="status" aria-live="polite"><span id="funding-count" class="num">{{ funding.count }}</span> {{ t.funding.matches }}</p>
+    <p class="note">{{ t.funding.sort_note }}</p>
+    <div class="scroll-x funding-table-wrap" tabindex="0" role="region" aria-label="{{ t.funding.latest }}">
+      <table class="funding-table">
+        <thead><tr><th scope="col">{{ t.funding.company }}</th><th scope="col">{{ t.funding.amount }}</th><th scope="col">{{ t.funding.stage }} / {{ t.funding.date }}</th><th scope="col">{{ t.funding.investors }}</th></tr></thead>
+        <tbody id="funding-rows">
+        {% for p in funding.rounds %}
+          <tr data-search="{{ (p.name ~ ' ' ~ (p.investors | join(' ')) ~ ' ' ~ p.edition.get('segment','')) | lower }}" data-market="{{ p.market }}" data-currency="{{ p.amount_currency }}" data-country="{{ p.country_key }}" data-stage="{{ p.stage_key }}" data-date="{{ p.day }}" data-amount="{{ p.amount_value if p.amount_value is not none else -1 }}">
+            <td><a class="funding-name" href="{{ root }}{{ locale.prefix }}f/{{ p.slug }}.html">{{ p.name }}</a><span class="funding-meta">{{ p.country }}{% if p.edition.segment %} · {{ p.edition.segment }}{% endif %}</span><span class="funding-row-summary">{{ p.summary or t.funding.pending }}</span></td>
+            <td><strong class="num">{{ p.amount }}</strong>{% if p.native %}<span class="funding-meta num">{{ p.native }}</span>{% endif %}<a class="citation-source funding-citation" href="{{ p.url }}">{{ p.publisher }} ↗</a></td>
+            <td>{{ p.stage }}{% if p.stage != p.type %}<span class="funding-meta">{{ p.type }}</span>{% endif %}<span class="funding-meta num">{{ p.day }}</span><span class="funding-meta">{{ p.date_basis }}</span></td>
+            <td>{{ p.investors | join(', ') or t.funding.no_investors }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <p id="funding-empty" hidden>{{ t.funding.empty }}</p>
+    {% else %}<p>{{ t.funding.no_data }}</p>{% endif %}
+  </section>
+</div>
+{% if funding.rounds %}
+<script>
+(function () {
+  var body = document.getElementById('funding-rows');
+  var rows = Array.from(body.querySelectorAll('tr'));
+  var search = document.getElementById('funding-search');
+  var country = document.getElementById('funding-country');
+  var stage = document.getElementById('funding-stage');
+  var sort = document.getElementById('funding-sort');
+  var market = document.getElementById('funding-market');
+  var currency = document.getElementById('funding-currency');
+  function update() {
+    var query = search.value.trim().toLowerCase();
+    var count = 0;
+    rows.sort(function (a, b) {
+      return sort.value === 'amount' ? (a.dataset.currency.localeCompare(b.dataset.currency) || Number(b.dataset.amount) - Number(a.dataset.amount)) : b.dataset.date.localeCompare(a.dataset.date);
+    }).forEach(function (row) {
+      row.hidden = !(row.dataset.search.includes(query) && (!country.value || row.dataset.country === country.value) && (!stage.value || row.dataset.stage === stage.value) && (!market.value || row.dataset.market === market.value) && (!currency.value || row.dataset.currency === currency.value));
+      if (!row.hidden) count++;
+      body.appendChild(row);
+    });
+    document.getElementById('funding-count').textContent = count;
+    document.getElementById('funding-empty').hidden = count !== 0;
+  }
+  [search, country, stage, sort, market, currency].forEach(function (el) { el.addEventListener('input', update); });
+})();
+</script>
+{% endif %}
+{% endblock %}

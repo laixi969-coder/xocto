@@ -26,7 +26,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOTmk3QVB0NWVC
 summary: Everyday personal AI assistant startup Instinct raises $1B at $10B valuation SiliconANGLE
 first_seen: '2026-09-28T15:25:00Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: watching
+status: rejected
 sources:
 - newssearch
 sightings:

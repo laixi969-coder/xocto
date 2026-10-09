@@ -39,7 +39,7 @@ summary: Meta’s new AI agent Muse has racked up more downloads and daily activ
   Appfigures.
 first_seen: '2026-09-21T19:19:21Z'
 last_seen: '2026-09-22T00:50:51Z'
-status: queued
+status: rejected
 sources:
 - marketfeeds
 sightings:

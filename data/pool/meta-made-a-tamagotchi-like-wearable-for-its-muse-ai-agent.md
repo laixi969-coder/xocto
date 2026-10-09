@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wea
 summary: The tiny hardware device creates  another mobile home for its AI agent Muse.
 first_seen: '2026-09-24T00:46:17Z'
 last_seen: '2026-09-25T00:34:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

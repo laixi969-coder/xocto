@@ -25,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQSU9OZXd3YTFp
 summary: Personal AI App Instinct Faces Compute Crunch That Could Lead to New Funding The Information
 first_seen: '2026-09-10T22:29:00Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: watching
+status: rejected
 sources:
 - newssearch
 sightings:

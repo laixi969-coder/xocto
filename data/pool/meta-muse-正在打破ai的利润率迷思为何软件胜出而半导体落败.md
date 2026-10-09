@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOODlSaDJzV1Ru
 summary: Meta Muse 正在打破AI的利润率迷思：为何软件胜出而半导体落败 Moomoo
 first_seen: '2026-09-25T11:48:33Z'
 last_seen: '2026-09-26T00:38:27Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

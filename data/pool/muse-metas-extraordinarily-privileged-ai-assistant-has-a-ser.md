@@ -34,7 +34,7 @@ canonical_url: https://arstechnica.com/security/2026/09/muse-metas-extraordinari
 summary: A simple ClickFix attack is only one way to completely hijack the new agent.
 first_seen: '2026-09-21T22:24:38Z'
 last_seen: '2026-09-24T00:30:46Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - hackernews

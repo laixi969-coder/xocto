@@ -1,0 +1,100 @@
+{
+  "company": {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "description": "Humanos is building a network that continuously monitors AI agents and assigns each one a live risk score from 0 to 100.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "79C82EAA-E088-4DB2-A214-7D497819B0B1",
+    "investors": [
+      "Angel Investors",
+      "Anthemis",
+      "Critical Ventures",
+      "Springbank",
+      "Start Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Humanos",
+    "rounds": [
+      {
+        "amountEur": 2812445,
+        "date": "2026-09-28T00:00:00.000Z",
+        "id": "3E964C41-8496-4324-8927-CA7CEB94A91E",
+        "investors": [
+          "Angel Investors",
+          "Anthemis",
+          "Critical Ventures",
+          "Springbank",
+          "Start Ventures"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/3E964C41-8496-4324-8927-CA7CEB94A91E"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 51,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 15
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 2812445,
+    "url": "https://funding.tech.eu/companies/79C82EAA-E088-4DB2-A214-7D497819B0B1",
+    "website": "https://www.humanos.tech/"
+  },
+  "round": {
+    "amountEur": 2812445,
+    "amountEurStored": null,
+    "amountNative": 3200000,
+    "company": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "founded": null,
+      "id": "79C82EAA-E088-4DB2-A214-7D497819B0B1",
+      "name": "Humanos",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "low",
+    "currency": "USD",
+    "date": "2026-09-28",
+    "fx": {
+      "asOf": "2026-09-28",
+      "rate": 1.1378,
+      "source": "ECB"
+    },
+    "id": "3E964C41-8496-4324-8927-CA7CEB94A91E",
+    "investors": [
+      "Anthemis",
+      "Critical Ventures",
+      "Start Ventures",
+      "Springbank"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "portugalstartupnews.com",
+      "tier": "unknown"
+    },
+    "stage": "Seed",
+    "url": "/deals/3E964C41-8496-4324-8927-CA7CEB94A91E"
+  }
+}

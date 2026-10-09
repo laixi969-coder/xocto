@@ -1,0 +1,96 @@
+{
+  "company_id": "D0B20050-5014-4768-9911-963C69087401",
+  "round_id": "3C9186EB-DFDA-497A-A022-89F41B556A89",
+  "fingerprint": "a84f166cd33eed07c855926452597ccd9a69ad1d3f02421132af0c7f036c6a18",
+  "analyzed_at": "2026-10-09T04:53:21Z",
+  "checked_on": "2026-10-09",
+  "research_version": 2,
+  "research_fingerprint": "9bf93dbd69c60130d3364d5708168542840f937c4a24a6b3b7b08a98a3e82e35",
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/3C9186EB-DFDA-497A-A022-89F41B556A89",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Palma.ai provides enterprises with a central governance layer for AI agents, helping teams control permissions, enforce policies and audit how agents interact with company systems.",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "http://palma.ai/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "Enterprise MCP and Skill Governance | Palma.ai Platform FAQ Company Careers Platform FAQ Company Careers Talk to us about MCP Talk to us about MCP Blog Contact Us Give everyone agents that are actually allowed to work. Every Skill. Every MCP. Governed via one single connector. Book a demo See the platform map Works with what your enterprise already uses Claude VS Code ChatGPT JetBrains Gemini Windsurf Copilot Studio Zed Langdock Cline Cursor Continue All MCPs Roo Code Codex Visual Studio Amazon Q LM Studio Claude VS Code ChatGPT JetBrains Gemini Windsurf Copilot Studio Zed Langdock Cline Cursor Continue All MCPs Roo Code Codex Visual Studio Amazon Q LM Studio Works with Claude, VS Code, ChatGPT, JetBrains, Gemini, Windsurf, Copilot Studio, Zed, Langdock, Cline, Cursor, Continue, All MCPs, Roo Code, Codex, Visual Studio, Amazon Q, LM Studio. How it works One policy layer between every agent and every tool. Whatever assistant a person uses, every tool and every Skill takes the same route:\n\t\t\tidentity, entitlement, policy on the actual arguments, a human where it matters, and a\n\t\t\trecord of what was decided and what it cost. What MCP governance means, defined Your agent platforms Claude ChatGPT Copilot Cursor Codex Gemini / One connector Sales Update a Salesforce deal Tool call Identity Sales-EMEA ✓ Access Sales CRM Pack ✓ Scan Arguments clear ✓ Policy Held · Sales manager … Audit m.keller via Copilot ✓ Cost €0.03 · Sales ✓ Credential brokered from your vault Salesforce CRM Slack Messaging GitHub Code Snowflake Data MCP servers — the tools month-end-close Scanned incident-triage Scanned Skills — the playbooks The platform Make the governed path the best path. Every MCP server and every Skill your people are entitled to — governed, secured and\n\t\t\tdelivered through a single connector. For ten users or a hundred thousand. Claude Code assigned by IdP group Salesforce CRM Pack Incident Response Pack Data Warehouse Tools Server month-end-close-checklist Skill One connector Every MCP and Skill, through one connection. Assigned by IdP group, so it follows the person into whichever assistant they open. Nothing to install, nothing to learn. Sales Pipeline Automation Marcus Chen Healthy 98.2% Success 1.4K Calls Customer Support Triage Lisa Park Healthy 96.7% Success 842 Calls 5 policies active 1 enforcing · 4 observing across 10 Spaces Governance You decide what every agent can do. Approve a tool or Skill once and the rules travel with it. Every team that should have it gets it — under the same policy. SM Sarah Martinez called get_pipeline on Salesforce CRM API via Claude Code 2m DK David Kim called create_incident on PagerDuty Alerting via Cursor · Confirm required Approved · Marcus Chen 6m MC Marcus Chen approved update_deal on CRM MCP Server via approval page · human-approved 11m Security Nothing risky gets through unchecked. Sensitive data never leaves. High-risk actions stop for a named approver. Everything else is recorded and attributed. Tool Calls 12,481 +18% Total Tokens 4.2M −9% Tool Calls / Day Cost Know exactly what your agents cost. Usage, success and spend per agent, per team, per business unit — so you fund what works and stop what does not. No lock-in Your governance shouldn't expire when the tools change. This market moves every quarter. Palma sits on the open MCP standard, in your own\n\t\t\tinfrastructure — so the rules you write today survive whatever your teams adopt next. Swap assistants, keep the rules Your teams move to whatever is best that quarter. The same access, policies and audit follow them across every client. Built on the open standard MCP is backed by Anthropic, OpenAI, Google, Microsoft and AWS, and now sits with the Linux Foundation. You are betting on the ecosystem, not on us. Plugs into the identity you already run Entra, Okta or any OIDC provider. Access follows the groups your directory already maintains — no second system to keep in sync. Your infrastructure, your keys Runs on-prem, in your VPC or air-gapped, with per-tenant encryption. Your data and your audit trail never have to leave. See the full platform map “ Palma gave our agents governed superpowers. We are an investor and a customer because Palma solves one of the hardest problems in AI right now. Agent governance at scale. Patrick D11Z The control plane Everything IT needs to say yes to agents doing real work. Runs where your data already lives On-prem, in your VPC, or fully air-gapped. Nothing sensitive has to leave the environment you already trust. Policies that read the request, not just the badge Allow, deny or flag on the actual arguments — which channel, which amount, which fields. Test a rule before you ship it. A human in the loop, mid-flight High-risk calls pause until a named person approves. Quorum, SLA reminders, escalation and break-glass. Nothing sensitive leaves by accident PII and secrets detected and redacted on the wire, before the request reaches the tool. Evidence you can verify without us Tamper-evident audit your auditor checks offline, with your key. Streams to the SIEM you already run. Human in the loop Parameter-level policy Quorum approvals PII redaction Tamper-evident audit SIEM-native Deploys in weeks, not quarters. Nothing to rip out — it sits in front of what you already run. Skills Agents that know how your company actually works. A tool is a verb. A Skill is the playbook that tells an agent when and how to use it — your\n\t\t\tbest people's way of working, running on everyone's agent. One connector, every agent Skills reach every assistant through the same governed connector. Nothing to wire up per tool, per team or per person. Scanned before they ship Secrets are stripped before a version is ever stored, and only scanner-passed versions are served to an agent. Built together, not in isolation Anyone can capture what works and flag what does not, backed by evidence from the run. Maintainers triage from one inbox. Versioned, never overwritten Every publish is an immutable snapshot. Nothing changes under an agent mid-flight, and you can always go back. Scoped like everything else you own Keep a skill private, share it with named partners, or roll it out org-wide. Personal skills only ever serve their owner. Packaged once, handed to everyone Bundle a Skill with the tools it needs into a Pack — a reusable, governed capability you can hand to one team or ten thousand people, without it ever landing somewhere without the access it assumes. Supported by top investors and angels D11Z Plug and Play Deel “ We see almost every company building in this space. Most are building MCP gateways for engineering teams of five or ten. Palma is a governance layer designed for enterprise scale and enterprise processes … which is why we did not just invest, we run it ourselves. Caro Plug and Play Book a demo See what governed AI agents look like. A 20-minute demo on your stack. We'll show Palma working with the agents, tools and\n\t\t\t\t\tidentity provider you already run. 20 minute Demo Enterprise security Role-based access Instant integration Latest Blog Posts Stay up-to-date with the latest in enterprise AI, MCP servers, and secure integration strategies. Common Questions Quick answers about Palma.ai's enterprise MCP platform What is Palma.ai in one sentence? Palma.ai is the enterprise governance layer for MCP — it gives every person and agent a single governed connector carrying the tools and Skills they're entitled to, enforces policies on the actual arguments of a call, pauses high-risk actions for approval, and records everything in a tamper-evident audit trail. What does MCP governance mean? Deciding which person may use which tool, with which arguments, with whose approval — and being able to prove it afterwards. MCP itself covers how a client authenticates to a server and how a tool is described and called; it does not decide which person may use which tool, hold a risky call for a human, or keep the record an auditor asks for. Palma adds that layer: one governed connector per person, assigned by identity-provider group, carrying the tools and Skills they are entitled to into whichever assistant they already use. Does my team have to set up MCP servers themselves? No. Connectors are assigned by IdP group through Entra or Okta, so a joiner gets theirs on day one and a leaver loses it the moment the group changes. Every MCP server your team approves arrives through that same connector — no per-user install, no config files, no credentials sitting on a laptop. What's a Skill, and why does it matter? A tool is a verb — \"send an email\". A Skill is the playbook that tells an agent when and how to use the verbs it already has: how your team actually closes the books, runs an incident review, or qualifies a lead. Skills are versioned, scanned before they're served, and scoped like any other piece of enterprise software — so your best operator's process reaches everyone else's agent. Does it work with the AI clients we already use? Yes — everything is served over MCP, so the same connector, Skills and policies follow the person into whichever assistant they open, whether that's Claude, ChatGPT, Copilot, Cursor or something else. Switching tools doesn't mean re-approving, re-installing or re-auditing anything. How do we prove what an agent actually did? Every tool call is attributed to the person it was done for, the agent that did it, and the application it ran in — with the arguments, result, duration and cost. The audit trail is tamper-evident and verifiable offline with your own key, so your auditor doesn't have to take our word for it, and it streams to the SIEM you already run. How is Palma.ai deployed — SaaS, on-prem, VPC? Palma.ai is designed for enterprise environments: typically VPC or on-prem, including fully air-gapped, depending on your regulatory and security needs. The MCP layer and governance plane run on your infrastructure, so sensitive business data doesn't have to move into multi-tenant SaaS. We can also host it for you if you prefer. View all questions → Enterprise-grade AI mission control platform for secure, scalable deployment of AI agents. 2261 Market Street STE 10099, San Francisco, CA 94114 Platform MCP & Skill Gateway Skills MCP Policies Security FinOps for AI Agents Sovereign AI Platform Map Use Cases Scaling Agents Cost of Agents Company About Us Careers Blog FAQ What is MCP governance What is Skill governance Watch the trailer Ask your own AI Auf Deutsch Legal Privacy Policy Terms of Service Imprint Cookie Settings LLMs.txt Member of Agentic AI Foundation Linux Foundation Palma is a member of the Linux Foundation and a Silver member of the Agentic AI Foundation,\n        its home for open agent standards including MCP. Read the announcement Get an AI summary of this page LinkedIn © 2026 palma.ai™.  All Rights Reserved. AI Get an AI summary ChatGPT Claude Copilot Gemini Perplexity Grok AI"
+    },
+    {
+      "url": "http://palma.ai/platform-map",
+      "kind": "company_claim",
+      "role": "product",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "Palma — Platform Map Palma platform map Back to website Get the Palma Platform Map Enter your business email to see the full platform map — every capability and how the pieces fit together. First Name Last Name Business Email Address Please use your business email. Personal and disposable emails are not accepted. We'll never share your details. This form is just to grant access. Loading..."
+    }
+  ],
+  "editorial_method": "Primary-source review; no account or live workflow tested.",
+  "zh": {
+    "summary": "在企业代理与工具之间统一管理 MCP、Skills、权限和审批。",
+    "judgment": "价值在让已授权工作可靠通过，并使受限操作可追溯；不能只增加一道管理面板。",
+    "replaces": "企业给不同助手分别配连接器、密钥和权限，审计时再拼各处日志。",
+    "segment": "企业代理工具治理",
+    "product": "官网说明一条连接路径覆盖工具和 Skills，核验身份、授权、参数策略和审批，并记录决策与成本。完整平台图需额外访问，本次没有取得后台或实测。",
+    "customer": "企业 IT、安全和代理平台团队是明确使用者。买方需求来自多助手与多工具并存，员工仍希望工作顺畅，治理不能让每次任务变成重复申请。",
+    "workflow": "用户的工具调用经过身份映射、工具包授权、参数检查和必要人工确认，再由受控凭据执行并记录。应核验拒绝理由、撤权时效与代理切换后的策略一致性。",
+    "business_model": "本次未取得公开价格，企业合同与实施收费需确认。工具数量、组织结构和身份连接可能带来配置成本，订阅假设应扣除持续策略维护。",
+    "traction": "官网有具体架构与操作示例，没有取得独立部署效果或续约数据。界面中的员工、成本和审批记录是示例，不能当作生产交易规模。",
+    "moat": "跨代理一致策略、凭据代理与审计可能形成集成优势。身份平台、API 网关和助手原生治理都能覆盖部分需求，差异应在真正的参数与工作流约束。",
+    "funding_read": "资金支持企业交付，但采购价值需要落在已批准任务完成和可查责任。下一里程碑是多工具实际部署，而不是宣传兼容的助手名单。",
+    "risks": "策略错误可能阻断正常工作或放行越权，凭据映射失误可能扩大影响。新工具与 Skill 更新也会增加规则维护负担。",
+    "takeaway": "把治理放在实际工具调用和工作参数上。给被拒任务可理解的理由与申请路径，同时让正常任务保持短流程。",
+    "watch_next": "看错误拒绝、越权拦截、审批等待和撤权生效时间。记录新增工具的配置工时及组织范围扩张后的支持成本。",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/3C9186EB-DFDA-497A-A022-89F41B556A89"
+      },
+      {
+        "label": "Palma.ai 核验资料 1",
+        "url": "http://palma.ai/"
+      },
+      {
+        "label": "Palma.ai 核验资料 2",
+        "url": "http://palma.ai/platform-map"
+      }
+    ]
+  },
+  "en": {
+    "summary": "Enterprise governance of MCP tools, Skills, permissions and approvals across assistants.",
+    "judgment": "Authorized work should flow reliably while restricted actions remain traceable.",
+    "replaces": "Configuring connectors, credentials and permissions separately, then reconstructing audit trails.",
+    "segment": "Enterprise tool governance",
+    "product": "The site describes a shared connector checking identity, access, arguments and approvals, with decision and cost records. The full platform map is gated; no backend or live execution was tested.",
+    "customer": "IT, security and agent-platform teams are stated users. Multiple tools create demand, while employees need usable work paths rather than repeated access requests.",
+    "workflow": "Tool calls pass identity mapping, entitlement, argument checks and approval, then use brokered credentials and logs. Denials, revocation and consistency across assistants require verification.",
+    "business_model": "Public prices were unavailable. Enterprise and implementation terms need confirmation; tools and identity structures create configuration and policy-upkeep costs.",
+    "traction": "Architecture and examples were reviewed without independent deployment or renewal evidence. Illustrated employees, costs and approvals are not production scale.",
+    "moat": "Consistent policy, credential brokerage and audit integration may differentiate it. Identity platforms, gateways and native assistant controls compete on real workflow constraints.",
+    "funding_read": "Capital supports enterprise delivery, measured through completed authorized tasks and clear accountability. Actual multi-tool deployment matters more than a compatibility list.",
+    "risks": "Wrong policies can block work or allow excess access, while mapping errors widen impact. Tool and Skill updates create ongoing rule maintenance.",
+    "takeaway": "Govern actual tool arguments and actions. Give denied tasks understandable reasons and a request path while keeping routine work short.",
+    "watch_next": "Watch false denials, excess-access prevention, approval time and revocation latency, plus configuration and support effort as scope grows.",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/3C9186EB-DFDA-497A-A022-89F41B556A89"
+      },
+      {
+        "label": "Palma.ai primary material 1",
+        "url": "http://palma.ai/"
+      },
+      {
+        "label": "Palma.ai primary material 2",
+        "url": "http://palma.ai/platform-map"
+      }
+    ]
+  }
+}

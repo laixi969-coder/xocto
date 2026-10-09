@@ -23,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVjBOX2tiblNK
 summary: Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints Reuters
 first_seen: '2026-10-02T22:43:45Z'
 last_seen: '2026-10-05T00:56:35Z'
-status: market_context
+status: rejected
 sources:
 - newssearch
 sightings:

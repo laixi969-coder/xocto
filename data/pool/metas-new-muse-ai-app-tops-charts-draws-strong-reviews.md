@@ -32,7 +32,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOMkotUzYwWWQ1
 summary: Meta’s new Muse AI app tops charts, draws strong reviews The Business Times
 first_seen: '2026-09-22T00:36:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: watching
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,97 @@
+{
+  "company": {
+    "city": "Madrid",
+    "country": "Spain",
+    "description": "Reply Next is developing an AI platform that allows brands with hundreds of locations to manage their digital presence and customer interactions from a single place.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "ADC498ED-8BB8-4A49-8A84-7DBA44524795",
+    "investors": [
+      "4Founders Capital",
+      "Business Angels",
+      "David Alcobero",
+      "Juanjo Mostazo"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Reply Next",
+    "rounds": [
+      {
+        "amountEur": 400000,
+        "date": "2026-09-24T00:00:00.000Z",
+        "id": "4CD2750F-4131-44CE-850E-8A87080F0EAE",
+        "investors": [
+          "4Founders Capital",
+          "Business Angels",
+          "David Alcobero",
+          "Juanjo Mostazo"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/4CD2750F-4131-44CE-850E-8A87080F0EAE"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 9
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 400000,
+    "url": "https://funding.tech.eu/companies/ADC498ED-8BB8-4A49-8A84-7DBA44524795",
+    "website": "https://replynext.com/"
+  },
+  "round": {
+    "amountEur": 400000,
+    "amountEurStored": null,
+    "amountNative": 400000,
+    "company": {
+      "city": "Madrid",
+      "country": "Spain",
+      "founded": null,
+      "id": "ADC498ED-8BB8-4A49-8A84-7DBA44524795",
+      "name": "Reply Next",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-09-24",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "4CD2750F-4131-44CE-850E-8A87080F0EAE",
+    "investors": [
+      "Juanjo Mostazo",
+      "David Alcobero",
+      "4Founders Capital"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/4CD2750F-4131-44CE-850E-8A87080F0EAE"
+  }
+}

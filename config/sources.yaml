@@ -16,6 +16,58 @@ health:
 
 sources:
 
+  # Reviewed product identities: distinguish same-name products and collect
+  # first-party evidence before judging a headline-only candidate.
+  trackedproducts:
+    enabled: true
+    products:
+      - slug: muse-by-meta
+        name: Meta Muse
+        url: "https://muse.ai/"
+        priority_review: true
+        issuer_hosts: ["about.fb.com", "ai.meta.com"]
+        aliases: ["Muse"]
+        patterns:
+          - '\bMeta(?:[’\x27]s)?\b[^\n]{0,80}\bMuse\b'
+          - '\bMuse by Meta\b'
+          - '\bMuse\b[^\n]{0,80}\bMeta\b'
+          - '\bmuse\.ai\b'
+        exclude:
+          - '\bMuse[ -]+Spark\b'
+          - 'Visual Bookmark'
+          - '\b(?:taking on|competing with) Meta[’\x27]s Muse\b'
+          - '极客早知道'
+      - slug: instinct
+        name: Instinct
+        url: "https://instinct.com/"
+        priority_review: true
+        patterns:
+          - '\bInstinct\b[^\n]{0,100}\b(?:assistant|agent|Shinn|Spear Street)\b'
+          - '\b(?:assistant|agent|Shinn|Spear Street)\b[^\n]{0,100}\bInstinct\b'
+          - '\binstinct\.com\b'
+        exclude:
+          - '\bDeep Instinct\b'
+          - '\b(?:veterinary|veterinarian|veterinarians|vets)\b'
+
+  # Public US funding coverage: full-text RSS and venture feeds, rather than
+  # treating a European dataset or US search locale as US company coverage.
+  usfunding:
+    enabled: true
+    lookback_days: 30
+    feeds:
+      - name: "Crunchbase News"
+        url: "https://news.crunchbase.com/feed/"
+      - name: "TechCrunch"
+        url: "https://techcrunch.com/category/venture/feed/"
+
+  # Open, CC BY 4.0 funding records. Preserve native currency and cited deal URL.
+  # The dedicated funding desk covers the provider's AI taxonomy in Europe.
+  techfunding:
+    enabled: true
+    lookback_days: 30
+    max_rounds: 100
+    max_pages: 3
+
   # V2EX 的 AI SaaS 与开发者发布帖：补上中文生态中尚未进入榜单、
   # 但已有公开产品链接和早期讨论的项目。帖子只作独立证据，产品官网用于去重。
   v2ex:
@@ -196,13 +248,15 @@ sources:
       min_likes: 5
       min_downloads: 50
 
-  # 公司一手博客和 changelog。全部只补充日报背景，不进产品池。
+  # 公司一手博客和 changelog。先进入候选池，产品与纯市场变化按对象分流。
   # 与市场观察分开统计：公司更新源全挂不应掩盖独立研究源的故障，反之亦然。
   officialfeeds:
     enabled: true
     lookback_hours: 72
     max_parallel_feeds: 6
     feeds:
+      - name: "Meta Newsroom"
+        url: "https://about.fb.com/feed/"
       - name: "OpenAI"
         url: "https://openai.com/news/rss.xml"
       - name: "Hugging Face"
@@ -288,6 +342,13 @@ sources:
     lookback_hours: 72
     max_results_per_query: 30
     queries:
+      - name: "US early AI product signals"
+        query: '("AI assistant" OR "personal agent" OR "AI startup") (launch OR beta OR waitlist OR "pre-seed" OR "seed round") when:7d'
+        hl: "en-US"
+        gl: "US"
+        ceid: "US:en"
+        ecosystem: "en"
+        market: "US"
       - name: "US AI commercial signals"
         query: 'AI startup (revenue OR ARR OR customers OR users OR funding) when:3d'
         hl: "en-US"

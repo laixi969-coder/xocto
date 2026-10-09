@@ -32,6 +32,9 @@ from .models import (
 )
 from .sources import Http, get_fetcher, registered_names
 from .store import Store
+from .funding import save_rounds
+from .entity_watch import annotate
+from .funding_news import save_candidates
 
 
 @dataclass(frozen=True)
@@ -117,7 +120,8 @@ def run_sources(config: dict, http: Http) -> tuple[list[RawItem], list[SourceRes
             print(f"  ✗ {name} 失败：{exc}")
             continue
 
-        items.extend(fetched)
+        entity_specs = ((sources_cfg.get("trackedproducts") or {}).get("products") or [])
+        items.extend(annotate(item, entity_specs) for item in fetched)
         results.append(SourceResult(name, True, len(fetched)))
         print(f"  ✓ {name}：{len(fetched)} 条")
 
@@ -216,7 +220,7 @@ def _event_from_raw(product: Product, item: RawItem, *, event_type: str, evidenc
         id=event_id,
         project_slug=product.slug,
         event_type=event_type,
-        occurred_at=item.published_at or item.collected_at,
+        occurred_at=item.collected_at if event_type == EVENT_FIRST_DISCOVERED else item.published_at or item.collected_at,
         discovered_at=item.collected_at,
         signals=tuple(signals),
         # “发现新的公开信号”只是在说采集器做了什么，并不是读者需要的
@@ -269,11 +273,21 @@ def merge_into_pool(
     独立管线，落到 data/casestudies/。在这里跳过是最后防线 —— 就算
     rebuild 从历史存档整池重建，BrüMate 这类非 AI 公司也不会混进产品池。
     """
+    # Rounds have their own identity; never treat a deal page as a product or
+    # let capital raised become a proxy for adoption in the opportunity pool.
+    save_rounds(store, items, dry_run=dry_run)
+    save_candidates(store, items, dry_run=dry_run)
+    items = [item for item in items if item.extra.get("kind") not in {"funding", "funding_news"}]
     case_items = [item for item in items if item.extra.get("kind") == "casestudy"]
     if case_items:
         items = [item for item in items if item.extra.get("kind") != "casestudy"]
     case_count = len(case_items)
-    index = ProductIndex(list(store.iter_products()))
+    alias_path = store.data_dir / "identity-aliases.json"
+    aliases = json.loads(alias_path.read_text()) if alias_path.exists() else {}
+    products = list(store.iter_products())
+    valid_slugs = {product.slug for product in products}
+    aliases = {old: target for old, target in aliases.items() if old in valid_slugs and target in valid_slugs and old != target}
+    index = ProductIndex(products, aliases=aliases)
     new_count = 0
     updated_count = 0
     unchanged_count = 0
@@ -310,6 +324,12 @@ def merge_into_pool(
                 priority_review = bool(item.extra.get("priority_review"))
                 if updated.priority_review != priority_review:
                     updated = replace(updated, priority_review=priority_review)
+            elif item.extra.get("priority_review") and not updated.priority_review:
+                updated = replace(updated, priority_review=True)
+
+            if item.source == "trackedproducts" and _has_material_change(existing, updated):
+                updated = replace(updated, status="pending_filter", name=item.title,
+                                  url=item.url, canonical_url=canonical_url(item.url))
 
             if _has_material_change(existing, updated):
                 index.add(updated)
@@ -322,7 +342,9 @@ def merge_into_pool(
             continue
 
         product = Product.from_raw(item, canonical_url(item.url))
-        product = replace(product, slug=index.next_free_slug(slugify(item.title)))
+        declared = str(item.extra.get("verified_entity_slug") or item.external_id.split(":", 1)[0]) if item.source == "trackedproducts" else ""
+        preferred_slug = slugify(declared) if declared else slugify(item.title)
+        product = replace(product, slug=index.next_free_slug(preferred_slug))
         index.add(product)
         if not dry_run:
             store.save_product(product)

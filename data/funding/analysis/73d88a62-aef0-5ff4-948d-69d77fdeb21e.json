@@ -1,0 +1,120 @@
+{
+  "company_id": "73d88a62-aef0-5ff4-948d-69d77fdeb21e",
+  "round_id": "c66e1428-ecfb-5d45-845f-566e9675a3f9",
+  "fingerprint": "bff12601ad2fe8a8d5dfde21cf910917367423ce338056035aba39c6c767961b",
+  "analyzed_at": "2026-10-09T04:53:21Z",
+  "checked_on": "2026-10-09",
+  "research_version": 2,
+  "research_fingerprint": "c6fb75ec76ec4ecae37eb5abdf3ac7b383b56ca663a9ec84f0ab07e7616c440a",
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "picked up $150 million in Series C financing",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://sima.ai/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "Home – SiMa.ai: Scaling Physical AI SiMa.ai and Wobot.ai Partner on Reasoning-Based Video Analytics for Physical AI Press release Webinar on demand Markets Markets Drones Robotics Automotive Smart Vision Industrial Government Healthcare Featured Capability Conversational AI Natural, Multimodal interaction running fully on-device Learn more Products Software Palette Hardware Modalix MLSoC Family Boards and Devkits About About Us Our Story Careers Media Newsroom Blogs Events Partners Resources Resources Developer Center Model Browser Contact Us Buy Ask Palette Neat to build any physical AI app Scaling Physical AI. Co-optimized platform, purpose built for complex physical AI applications. Any input.10X the performance per watt. Pushbutton experience. Palette Neat — Agentic Environment for Physical AI. Accelerate application development and deployment. Hardware and software that accelerates physical AI application development and deployment. hardware Modalix MLSoC Purpose-built Machine Learning System on Chip for physical AI applications. 50 TOPS. <10W. Multiple form factors available. Software Palette Neat Agentic environment that simplifies applications development from months to days/hours. Palette Neat: Agentic development in days, not months. Palette Neat was developed from the ground up to meet dynamic physical AI requirements rather than retrofitting legacy frameworks. SiMa.ai Palette Neat 1 EXPLORER Ask Palette Neat anything. @ to mention files or models ↑ + Full access ▾ Palette Neat ✦ IDE context → Container ghcr.io/sima-neat/elxr:latest ··· ⊘ 0 △ 0 ◉ 0 Industries The industries running on SiMa.ai. From factory floors to vehicular platforms, SiMa.ai powers physical AI where cloud latency is not an option. Drones Industrial + Robotics Automotive Government Smart Vision Healthcare What customers and partners are saying. ‹ › Trusted by industry leaders Get Started Ready to build the next generation of physical AI? Join the teams building the next generation of physical AI applications on SiMa.ai. Contact our team HARDWARE Modalix DevKit Full ML pipeline on one SoM. Evaluate 50 TOPS at sub-10W in real hardware before you commit to production. Get the DevKit Product Brief Exterior Inside BF16 INT8 CNN ViT LLM SOFTWARE Palette Software Suite Join our community now at the Developer Center and start building your application today! Product Brief Webinar On Demand Developer Center Heterogeneous Compute Agentic Development Environment Seamless Transition TECHNICAL PAPER The New Software Standard for Physical AI Learn about Palette Neat, the agentic software environment that abstracts heterogeneous compute complexity — so you go from model assets to working applications in days, not months. Get the Tech Brief Palette Neat Agentic Environment 1 of 3 © 2026 SiMa Technologies, Inc. All rights reserved. Privacy Policy Quality Policy Terms & Conditions × Your browser does not support the video tag."
+    },
+    {
+      "url": "https://sima.ai/palette-sdk/",
+      "kind": "company_claim",
+      "role": "product",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "Palette - SiMa AI SiMa.ai and Wobot.ai Partner on Reasoning-Based Video Analytics for Physical AI Press release Webinar on demand Markets Markets Drones Robotics Automotive Smart Vision Industrial Government Healthcare Featured Capability Conversational AI Natural, Multimodal interaction running fully on-device Learn more Products Software Palette Hardware Modalix MLSoC Family Boards and Devkits About About Us Our Story Careers Media Newsroom Blogs Events Partners Resources Resources Developer Center Model Browser Contact Us Buy Scaling Physical AI. Pushbutton experience. Palette is the integrated AI application environment enabling development in days/hours, not months. Purpose built physical AI libraries, any model, and best in class performance. Developer Center GitHub SiMa.ai Palette Neat 1 EXPLORER Ask Palette Neat anything. @ to mention files or models ↑ + Full access ▾ Palette Neat ✦ IDE context → Container ghcr.io/sima-neat/elxr:latest ··· ⊘ 0 △ 0 ◉ 0 Palette Neat Months of work. Collapsed to days/hours. Our software platform features Palette Neat, an agentic environment that collapses complex application timelines from months to days. The open source, purpose-built environment combines an execution library and agent workflow layer for fast development. 01 Seamless Migration Seamless migration in a single prompt 02 Agentic Development Build a conversational AI pipeline in minutes 03 Autonomous Deployment Low latency, on device object detection built and deployed in minutes WORKFLOW How it all works. From ONNX model to production binary on SiMa.ai's Modalix MLSoC — four steps, no surprises. 01 · DEVELOP Coding Agent and Dev Tools Developers (human + agentic) write, debug, and orchestrate projects. Codex / Claude VS Code Insight UI sima-cli 02 · COMPILE Palette Neat Agentic Environment Containerized environment that builds, optimizes, and packages models for the Modalix MLSoC. Model Compiler Toolchain Skills Workspace 03 · RUN Palette Neat Library Runtime that orchestrates inference on both host PC and the MLSoC. Runtime APIs DevKit deploy RTSP / NFS Observability 04 ·DEVICE Modalix MLSoC Gen AI TPS/W CNN FPS/W Llama3.2 · 3B Performance The best performance across the AI model spectrum. From classic CNNs to the latest GenAI models, SiMa.ai is built for what's next. Model Browser → Ready to build on SiMa.ai silicon? Talk to our hardware team about your deployment requirements. Volume pricing, custom configurations, and evaluation kits available. Contact our team HARDWARE Modalix DevKit Full ML pipeline on one SoM. Evaluate 50 TOPS at sub-10W in real hardware before you commit to production. Get the DevKit Product Brief Exterior Inside BF16 INT8 CNN ViT LLM SOFTWARE Palette Software Suite Join our community now at the Developer Center and start building your application today! Product Brief Webinar On Demand Developer Center Heterogeneous Compute Agentic Development Environment Seamless Transition TECHNICAL PAPER The New Software Standard for Physical AI Learn about Palette Neat, the agentic software environment that abstracts heterogeneous compute complexity — so you go from model assets to working applications in days, not months. Get the Tech Brief Palette Neat Agentic Environment 1 of 3 © 2026 SiMa Technologies, Inc. All rights reserved. Privacy Policy Quality Policy Terms & Conditions × Your browser does not support the video tag."
+    },
+    {
+      "url": "https://sima.ai/mlsoc-family/",
+      "kind": "company_claim",
+      "role": "product",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "MLSoC Family - SiMa AI Markets Markets Drones Robotics Automotive Smart Vision Industrial Government Healthcare Featured Capability Conversational AI Natural, Multimodal interaction running fully on-device Learn more Products Software Palette Hardware Modalix MLSoC Family Boards and Devkits About About Us Our Story Careers Media Newsroom Blogs Events Partners Resources Resources Developer Center Model Browser Contact Us Buy The Silicon Behind Physical AI Purpose-built MLSoC delivers best performance per power efficiency for robotics, drones, automotive, and beyond. Buy Devkit/PCIe Documentation The performance per watt leader Addresses any complex workload without compromise from legacy CNN's to the latest VLMs. Heterogeneous compute, one chip Run an entire application on a single piece of silicon. No glue chips, no external accelerators. Swap in, no redesign needed Pin-compatible with leading GPU SoMs — upgrade existing boards in place. Any I/O you want Native MIPI, USB, PCIe, UART, and more — every interface your physical AI application demands, no bridge chips required. Built for the real world Industrial grade, extended temperature range, and assured supply for 10+ years. See It In Action Proven silicon. Real deployments. Deterministic inference running in real-world deployments. Robotics: Real time decision making In-Vehicle Infotainment: Conversational AI Intelligent Video Systems: 16 and 80 channels MLSoC Family Modalix MLSoC. One architecture, endless scale. 50 TOPS of multimodal AI at sub-10W. Inside the Modalix MLSoC Precision BF16 / INT8 / INT16 Interfaces MIPI, USB, PCIe Gen5 RC, SPI Workloads CNN, ViT, LLM, LMM Security TrustZone, Encryption, eKeys Product Brief The Modalix Advantage Accelerating ENTIRE LMM Applications on ONE Chip Modalix Sensor Capture Multi-Modal Preprocessing Image + Audio Vision Encoder LMM App Logic Business Output Text-to-Speech SiMa.ai Modalix MLSoC accelerates the entire pipeline 50 TOPS Performance Sub-10W Power BF16/INT8 Precision VS Competitors Sensor Capture Multi-Modal Preprocessing Image + Audio Vision Encoder LMM App Logic Business Output Text-to-Speech Competing solutions only support these stages — requiring additional silicon for the rest. Boards and Development Kits Every form factor covered. From SoMs that drop into existing designs, to PCIe cards for server deployments, to complete DevKits for rapid prototyping. Modalix SoM System-on-Module Production-ready SoM with Modalix 50 TOPS MLSoC. Pin-compatible with NVIDIA Jetson Orin NX and Nano — enabling drop-in AI upgrades on existing carrier boards. TOPS 50 TOPS Form Factor GPU Compatible Product Brief → Product Inquiry → Watch Video → Modalix HHHL PCIe Card Half-Height Half-Length Add-in Card The compact, low-power PCIe card is a ready to deploy and specifically designed for standard commercial and industrial PCs and edge servers. Interface PCIe Gen5 x8 Cooling Passive (fanless) Connectivity 10 Gigabit Ethernet' Product Brief → Product Inquiry → Modalix MLSoC Chip-Down Design Integrate the Modalix MLSoC directly onto your custom PCB for the tightest possible SWaP profile. Ideal for ODMs and system integrators who need maximum design freedom with minimum overhead. TOPS 50 TOPS Package BGA Availability Contact Sales Product Brief → Product Inquiry → Modalix DevKit Full Development Platform Complete hardware development platform with SiMa.ai Palette software pre-installed. Includes carrier board, SoM, cables, and documentation — ready to deploy your first model on day one. Price $1,499 Includes SoM · PSU · 500GB NVMe M.2 SDK SiMa.ai Palette Product Brief → Buy → Watch Video → Ready to build on SiMa.ai silicon? Talk to our hardware team about your deployment requirements. Volume pricing, custom configurations, and evaluation kits available. Contact our team HARDWARE Modalix DevKit Full ML pipeline on one SoM. Evaluate 50 TOPS at sub-10W in real hardware before you commit to production. Get the DevKit Product Brief Exterior Inside BF16 INT8 CNN ViT LLM SOFTWARE Palette Software Suite Join our community now at the Developer Center and start building your application today! Product Brief Webinar On Demand Developer Center Heterogeneous Compute Agentic Development Environment Seamless Transition TECHNICAL PAPER The New Software Standard for Physical AI Learn about Palette Neat, the agentic software environment that abstracts heterogeneous compute complexity — so you go from model assets to working applications in days, not months. Get the Tech Brief Palette Neat Agentic Environment 1 of 3 © 2026 SiMa Technologies, Inc. All rights reserved. Privacy Policy Quality Policy Terms & Conditions × Your browser does not support the video tag."
+    },
+    {
+      "url": "https://sima.ai/technical-paper/the-new-software-standardfor-physical-ai/",
+      "kind": "company_claim",
+      "role": "documentation",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "The New Software Standardfor Physical AI - SiMa AI Introducing Palette Neat The New Software Standard for Physical AI Learn about Palette Neat , the agentic software environment that abstracts the complexity of heterogeneous compute — so you go from model assets to working applications in days, not months . Get the Tech Brief © 2026 SiMa Technologies, Inc. Terms of Service Privacy Policy Get the Tech Brief Fill out the form to access the full brief. You're all set Thanks — your tech brief download link is ready. Download Now"
+    }
+  ],
+  "editorial_method": "Primary-source review; no account or live workflow tested.",
+  "zh": {
+    "summary": "用 Palette 软件和 Modalix 硬件把物理 AI 应用部署到边缘设备。",
+    "judgment": "软硬件共同减少部署摩擦是切口；客户模型在真实设备上的效果比宣传倍率更关键。",
+    "replaces": "工程师为不同边缘芯片手工适配模型、优化算子并拼完整应用流水线。",
+    "segment": "物理 AI 与边缘部署",
+    "product": "官网把 Palette Neat 的代理开发环境与 Modalix 系列放在同一平台，面向机器人、汽车、工业等。性能和功耗是公司披露，本次未下载软件或测试硬件。",
+    "customer": "边缘 AI 工程师、设备厂商和系统集成团队是目标。付费者更关心产品量产、稳定支持与能耗约束，开发演示变快不一定等于整机研发周期缩短。",
+    "workflow": "公司描述从模型资产到可运行物理 AI 应用的开发路径。应核验编译、传感器管线、现场调试和升级能否共同工作，不能只验证模型推理一环。",
+    "business_model": "网站有购买与开发资源入口，本次未取得可比软硬件完整价目。芯片、模组与软件支持的具体合同需确认；原型成本和量产单位成本应分开。",
+    "traction": "已取得技术介绍页面，但全文需要额外获取，不能声称已复核技术报告。市场与合作展示为公司资料，缺少同负载的独立测试和客户续单数据。",
+    "moat": "平台工具链与硬件共同优化可能增加替换成本。其他芯片平台、模型优化工具与云端推理都是替代，只有受约束的真实应用才适合比较。",
+    "funding_read": "融资可以支持工具链与生态，不证明量产订单已经兑现。开发者采用、设计导入到实际出货之间需要分别跟踪。",
+    "risks": "模型或算子不兼容会增加适配成本，实际传感器与时延约束可能让演示失效。长期硬件支持和供货也影响设备厂商采购。",
+    "takeaway": "将模型开发、编译和整机约束放入同一交付链。对硬件产品，展示客户原有模型迁移后的完整应用，比抽象算力指标更有说服力。",
+    "watch_next": "看模型迁移成功率、应用部署时间、同负载能耗与实际设计导入。区分测试板采用、产品定型和批量出货。",
+    "citations": [
+      {
+        "label": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/"
+      },
+      {
+        "label": "SiMa.ai 核验资料 1",
+        "url": "https://sima.ai/"
+      },
+      {
+        "label": "SiMa.ai 核验资料 2",
+        "url": "https://sima.ai/palette-sdk/"
+      },
+      {
+        "label": "SiMa.ai 核验资料 3",
+        "url": "https://sima.ai/technical-paper/the-new-software-standardfor-physical-ai/"
+      }
+    ]
+  },
+  "en": {
+    "summary": "Palette software and Modalix hardware for deploying physical AI on edge devices.",
+    "judgment": "Reducing deployment friction across hardware and software is the wedge; real customer workloads matter more than advertised multipliers.",
+    "replaces": "Manually adapting models, operators and application pipelines for different edge chips.",
+    "segment": "Physical AI and edge deployment",
+    "product": "The site combines the Palette Neat agentic development environment with Modalix hardware across robotics, automotive and industrial markets. Performance and power figures are company claims; no hardware or software was tested.",
+    "customer": "Edge engineers, equipment makers and integrators are target users. Production support and constrained power matter to buyers; a faster demo does not necessarily shorten the whole device development cycle.",
+    "workflow": "The stated path moves model assets into running physical-AI applications. Compilation, sensor pipelines, field debugging and upgrades need joint validation rather than testing inference alone.",
+    "business_model": "Buy and developer resources exist, but comparable full hardware/software pricing was not retrieved. Chip, module and support contracts require confirmation; prototype and volume costs differ.",
+    "traction": "A technical-introduction page was reviewed; the full brief needs separate access and was not verified. Partnership material does not establish independent same-workload benchmarks or repeat orders.",
+    "moat": "Co-optimized tooling and silicon could increase switching costs. Other chip platforms, optimization tools and cloud serving are alternatives, evaluated against actual device constraints.",
+    "funding_read": "Capital can support tooling and ecosystems without proving production orders. Developer adoption, design wins and shipped devices are separate stages.",
+    "risks": "Unsupported models or operators add adaptation work. Sensor conditions and latency may invalidate demos. Supply and long-term support affect equipment procurement.",
+    "takeaway": "Connect model development, compilation and device constraints in one delivery chain. Demonstrate migration of the customer’s own complete application rather than abstract compute capacity.",
+    "watch_next": "Watch migration success, deployment time, power under comparable loads and design wins. Separate evaluation boards, product qualification and volume shipments.",
+    "citations": [
+      {
+        "label": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/"
+      },
+      {
+        "label": "SiMa.ai primary material 1",
+        "url": "https://sima.ai/"
+      },
+      {
+        "label": "SiMa.ai primary material 2",
+        "url": "https://sima.ai/palette-sdk/"
+      },
+      {
+        "label": "SiMa.ai primary material 3",
+        "url": "https://sima.ai/technical-paper/the-new-software-standardfor-physical-ai/"
+      }
+    ]
+  }
+}

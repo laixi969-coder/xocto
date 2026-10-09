@@ -1,0 +1,79 @@
+{
+  "zh": {
+    "summary": "用 Scootrr 把边缘 AI 与微出行车辆的安全运营连接起来。",
+    "judgment": "需求有明确成本承担者，但必须用实地安全效果和单车经济证明硬件与 AI 值得部署。",
+    "replaces": "车队依赖事故发生后的人工调查、运营巡检和粗粒度安全规则。",
+    "segment": "微出行安全",
+    "product": "官网将 Scootrr 定位为电动滑板车、电动自行车等车辆的安全智能，公司团队页描述感知模型、嵌入式固件与运营的全栈工作。具体识别任务、干预能力和可用接口在本次资料中仍不充分，应先做技术核验再谈场景扩张。",
+    "customer": "潜在付费者是车队运营商与车辆厂商，此为商业推断，而非已披露合同。购买动机应落在事故成本、维护、保险和运营许可中的某个可衡量环节；骑手觉得提醒有用，并不自动等于运营商能获得经济收益。",
+    "workflow": "合理的验证链是车辆场景感知、风险事件识别、运营动作和安全结果对照，这是一套尽调标准，不是对已上线功能的完整描述。需要实地确认数据采集方式、边缘设备的离线能力，以及提醒或控制对骑行体验的影响。",
+    "business_model": "本次未找到单车售价、软件收费或合同收入披露。按车辆硬件加持续服务收费是一种可能形态，但分析应同时计算装配、耗电、维修、设备更换和数据运营成本，不能只用模型推理费用估毛利。",
+    "traction": "官网列有合作与支持机构标识，但标识不足以确认部署规模、付费车队或安全改善。尚缺事故率的前后对照、实际装车数和长周期稳定性；融资只是早期资金信号。",
+    "moat": "与云端通用视觉相比，可能的优势是真实道路数据、嵌入式部署经验和车辆系统接入。壁垒成立的条件是数据可合法持续积累并转化为更好的现场效果；硬件集成也可能只是成本负担，需要结果证明。",
+    "funding_read": "种子前轮更适合被理解为技术与客户试点的起点。下一里程碑应是可复制的付费部署和可归因安全收益，而非从融资额推算研发成熟度；本次资料未确认估值或具体资金配置。",
+    "risks": "雨天、夜间和遮挡可能造成视觉识别失效；误报或误干预会影响骑手信任。车队采购周期与设备维护还可能拉长回款时间，这些风险与软件订阅产品不同，必须用现场数据检验。",
+    "takeaway": "值得借鉴的是把 AI 指标翻译成运营账：少多少事故、减少什么费用、每辆车要付多少成本。做物理世界 AI 时，训练集准确率之外还需要可回滚的现场试验与完整设备生命周期经济。",
+    "watch_next": "优先看试点装车数、每千次骑行的事故或危险事件变化、误报率、设备故障率与付费续约。只有在类似路况的对照下仍有收益，才有理由讨论更大规模的部署。",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF"
+      },
+      {
+        "label": "Nearhuman 核验资料 1",
+        "url": "https://nearhuman.co/"
+      }
+    ]
+  },
+  "en": {
+    "summary": "Scootrr connects edge AI with safety operations for micromobility vehicles.",
+    "judgment": "A clear cost owner exists, but field safety outcomes and economics per vehicle must justify deployment.",
+    "replaces": "Reactive accident investigation, manual fleet checks and coarse safety rules.",
+    "segment": "Micromobility safety",
+    "product": "The company positions Scootrr around scooter and bicycle safety; its team describes perception and embedded development. Specific detection tasks, interventions and interfaces remain insufficiently documented in the reviewed material.",
+    "customer": "Fleet operators and vehicle makers are plausible buyers, a commercial inference. The value must connect to an identifiable operating expense or risk. Rider appreciation alone would not demonstrate financial benefit for a fleet.",
+    "workflow": "A diligence sequence would examine sensing, event recognition, operational response and controlled safety outcomes. This is an evaluation framework, not a claim that every capability is live. Offline operation and effects on rider behaviour need field inspection.",
+    "business_model": "Hardware prices, service charges and contract revenue were not established. Hardware plus recurring service is one possible model. Installation, power, repair, replacement and data operations should all enter the cost calculation.",
+    "traction": "Partner and supporter logos appear on the website. They do not establish paid fleets, vehicle counts or improved safety. Comparative incident data and long-term reliability remain missing.",
+    "moat": "Potential advantages include road data, embedded implementation and vehicle connections. Defensibility requires lawful data accumulation to improve field outcomes. Integration complexity can also be a cost rather than an advantage.",
+    "funding_read": "Pre-seed funding is best read as support for technical and customer pilots. Repeatable paid deployments would be a better milestone than inferring maturity from the cheque. Valuation and allocation were not confirmed.",
+    "risks": "Rain, darkness and occlusion may weaken perception. False alerts or interventions could damage rider trust. Procurement and equipment maintenance may also extend cash collection, unlike a simple software subscription.",
+    "takeaway": "Translate AI metrics into fleet economics: incidents avoided, costs removed and total cost per vehicle. Physical AI needs reversible field trials and lifecycle accounting alongside laboratory accuracy.",
+    "watch_next": "Watch installed pilot vehicles, comparable incident rates per ride, false alerts, device failure and paid renewals. Expansion should follow measurable benefits under comparable conditions.",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF"
+      },
+      {
+        "label": "Nearhuman primary material 1",
+        "url": "https://nearhuman.co/"
+      }
+    ]
+  },
+  "company_id": "436355F1-3270-4670-A740-BAE1B762F45D",
+  "round_id": "AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF",
+  "fingerprint": "e0fe22bb98c3dc8b03b42419a77b55c9ee670d0a79890ef70732e28ab92e43b4",
+  "analyzed_at": "2026-10-09T04:59:38Z",
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Nearhuman is a provider of an AI-powered physical safety and computer vision platform for micromobility vehicles.",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://nearhuman.co/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "Near Human — Edge AI Safety for Micromobility Home About Discover Learn CONTACT Home About Discover Learn CONTACT Scroll Down N e a r h u m a n s t a r t e d w i t h m i c r o m o b i l i t y . s o l v i n g r e a l - w o r l d c h a l l e n g e s w i t h S c o o t r r . S c o o t r r i s t h e s a f e t y i n t e l l i g e n c e f o r e - s c o o t e r s , e - b i k e s a n d o t h e r m i c r o m o b i l i t y v e h i c l e s . The Problem Safety incidents increase operator costs and put lives at risk S a f e t y i n c i d e n t s i n c r e a s e o p e r a t o r c o s t s a n d p u t l i v e s a t r i s k 01 30,000+ injuries across the UK and EU alone 02 1,300 casualties in the UK, costing the NHS and insurers roughly GBP 7M 03 9,425 reported e-scooter accidents in Germany, up 14.1% year over year 04 This means high operational and insurance cost for operators Partners & Supporters Pause Unmute"
+    }
+  ],
+  "checked_on": "2026-10-09",
+  "research_version": 2,
+  "research_fingerprint": "bf9f52637c9c661135ec71b4510d2e0cf81292a886d36a69dc4a1acd8d50b8a3"
+}

@@ -1,0 +1,91 @@
+{
+  "company": {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "description": "The company is building what it calls an “agentic cloud”, infrastructure designed specifically for AI agents rather than adapted for them.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "A088C54C-D8DA-4C8F-9E6E-2E9E6CFD7EFC",
+    "investors": [
+      " Bifrost Studios",
+      "Private Investors"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Granite",
+    "rounds": [
+      {
+        "amountEur": 4000000,
+        "date": "2026-09-28T00:00:00.000Z",
+        "id": "AA6F00E9-0BD0-499B-BBAA-A52CD00A586C",
+        "investors": [
+          " Bifrost Studios",
+          "Private Investors"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/AA6F00E9-0BD0-499B-BBAA-A52CD00A586C"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 51,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 4000000,
+    "url": "https://funding.tech.eu/companies/A088C54C-D8DA-4C8F-9E6E-2E9E6CFD7EFC",
+    "website": "https://www.graniteinfra.ai/"
+  },
+  "round": {
+    "amountEur": 4000000,
+    "amountEurStored": null,
+    "amountNative": 4000000,
+    "company": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "founded": null,
+      "id": "A088C54C-D8DA-4C8F-9E6E-2E9E6CFD7EFC",
+      "name": "Granite",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-09-28",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "AA6F00E9-0BD0-499B-BBAA-A52CD00A586C",
+    "investors": [
+      "Bifrost Studios"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Other",
+    "url": "/deals/AA6F00E9-0BD0-499B-BBAA-A52CD00A586C"
+  }
+}

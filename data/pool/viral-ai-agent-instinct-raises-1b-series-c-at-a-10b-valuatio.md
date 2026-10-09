@@ -23,7 +23,7 @@ summary: '"This funding helps us bring Instinct to more people and continue buil
   statement.'
 first_seen: '2026-09-28T13:38:48Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

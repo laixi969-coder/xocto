@@ -1,0 +1,97 @@
+{
+  "company": {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "description": "Bird is a communications technology platform providing APIs and tools for businesses and developers to communicate with customers across email, SMS, WhatsApp, Apple Messages and voice.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "5389659B-7D69-4F3A-AE28-C1959B7E5A69",
+    "investors": [
+      "Capital One Ventures",
+      "Citi",
+      "JP Morgan",
+      "other investors"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Bird",
+    "rounds": [
+      {
+        "amountEur": 394356323,
+        "date": "2026-09-23T00:00:00.000Z",
+        "id": "56073A00-5417-449A-B1D7-CD08F9824851",
+        "investors": [
+          "Capital One Ventures",
+          "Citi",
+          "JP Morgan",
+          "other investors"
+        ],
+        "stage": "Debt",
+        "url": "https://funding.tech.eu/deals/56073A00-5417-449A-B1D7-CD08F9824851"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 62,
+      "raiseNext": {
+        "base": 45,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 18
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 394356323,
+    "url": "https://funding.tech.eu/companies/5389659B-7D69-4F3A-AE28-C1959B7E5A69",
+    "website": "https://bird.com/"
+  },
+  "round": {
+    "amountEur": 394356323,
+    "amountEurStored": null,
+    "amountNative": 450000000,
+    "company": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "founded": null,
+      "id": "5389659B-7D69-4F3A-AE28-C1959B7E5A69",
+      "name": "Bird",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-09-23",
+    "fx": {
+      "asOf": "2026-09-23",
+      "rate": 1.1411,
+      "source": "ECB"
+    },
+    "id": "56073A00-5417-449A-B1D7-CD08F9824851",
+    "investors": [
+      "Capital One Ventures",
+      "Citi",
+      "JP Morgan"
+    ],
+    "rawRoundType": "debt",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Debt",
+    "url": "/deals/56073A00-5417-449A-B1D7-CD08F9824851"
+  }
+}

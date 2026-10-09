@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/25/meta-opens-early-access-program
 summary: Anyone interested in joining has to ask Muse to put them on the list.
 first_seen: '2026-09-25T20:34:53Z'
 last_seen: '2026-09-26T00:38:20Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

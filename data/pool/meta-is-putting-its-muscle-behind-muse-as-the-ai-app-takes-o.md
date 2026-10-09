@@ -22,7 +22,7 @@ summary: Muse is topping the app store charts and adding users at a rapid clip, 
   personal AI agent's promotion across its own apps and beyond.
 first_seen: '2026-09-25T16:16:52Z'
 last_seen: '2026-09-26T00:38:20Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

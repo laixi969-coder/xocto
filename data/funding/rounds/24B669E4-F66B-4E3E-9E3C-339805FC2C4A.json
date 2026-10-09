@@ -1,0 +1,94 @@
+{
+  "company": {
+    "city": "Milan",
+    "country": "Italy",
+    "description": "SimpL uses public data, a proprietary knowledge graph and deep learning to help B2B sales teams identify who to contact, when to reach out and how to turn interactions into qualified meetings.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "4AC4A279-24B2-4829-A254-C85B148A2614",
+    "investors": [
+      "Business Angels",
+      "Techshop Capital",
+      "Vento Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "SimpL",
+    "rounds": [
+      {
+        "amountEur": 1200000,
+        "date": "2026-10-06T00:00:00.000Z",
+        "id": "24B669E4-F66B-4E3E-9E3C-339805FC2C4A",
+        "investors": [
+          "Business Angels",
+          "Techshop Capital",
+          "Vento Ventures"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/24B669E4-F66B-4E3E-9E3C-339805FC2C4A"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 1200000,
+    "url": "https://funding.tech.eu/companies/4AC4A279-24B2-4829-A254-C85B148A2614",
+    "website": "https://www.simplsales.ai/"
+  },
+  "round": {
+    "amountEur": 1200000,
+    "amountEurStored": null,
+    "amountNative": 1200000,
+    "company": {
+      "city": "Milano",
+      "country": "Italy",
+      "founded": null,
+      "id": "4AC4A279-24B2-4829-A254-C85B148A2614",
+      "name": "SimpL",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-10-06",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "24B669E4-F66B-4E3E-9E3C-339805FC2C4A",
+    "investors": [
+      "Techshop Capital",
+      "Vento Ventures"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/24B669E4-F66B-4E3E-9E3C-339805FC2C4A"
+  }
+}

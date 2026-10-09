@@ -1,0 +1,123 @@
+{
+  "company": {
+    "city": "London",
+    "country": "UK",
+    "description": "Magentic uses AI agents to cut hidden costs in supply chains, helping companies boost efficiency while keeping human oversight at the centre.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "0DFCC2BF-2FB1-4F5E-BFE9-77735BA60A10",
+    "investors": [
+      "Angel Investors",
+      "Felicis Ventures",
+      "First Momentum Ventures",
+      "Sequoia Capital",
+      "The Westly Group"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Magentic",
+    "rounds": [
+      {
+        "amountEur": 15678077,
+        "date": "2026-09-17T00:00:00.000Z",
+        "id": "4892915D-05C5-491B-A4E4-804AF31F51E5",
+        "investors": [
+          "Felicis Ventures",
+          "Sequoia Capital",
+          "The Westly Group"
+        ],
+        "stage": "Series A",
+        "url": "https://funding.tech.eu/deals/4892915D-05C5-491B-A4E4-804AF31F51E5"
+      },
+      {
+        "amountEur": 4690432,
+        "date": "2025-07-23T00:00:00.000Z",
+        "id": "DB96C7F3-207E-4908-B5C6-49B9BC054094",
+        "investors": [
+          "Angel Investors",
+          "First Momentum Ventures",
+          "Sequoia Capital",
+          "The Westly Group"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/DB96C7F3-207E-4908-B5C6-49B9BC054094"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 17
+      },
+      "heat": 75,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          }
+        ],
+        "score": 19
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 20368509,
+    "url": "https://funding.tech.eu/companies/0DFCC2BF-2FB1-4F5E-BFE9-77735BA60A10",
+    "website": "https://www.magentic.com/"
+  },
+  "round": {
+    "amountEur": 15678077,
+    "amountEurStored": null,
+    "amountNative": 18000000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "0DFCC2BF-2FB1-4F5E-BFE9-77735BA60A10",
+      "name": "Magentic",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-09-17",
+    "fx": {
+      "asOf": "2026-09-17",
+      "rate": 1.1481,
+      "source": "ECB"
+    },
+    "id": "4892915D-05C5-491B-A4E4-804AF31F51E5",
+    "investors": [
+      "Sequoia Capital",
+      "Felicis Ventures",
+      "The Westly Group"
+    ],
+    "rawRoundType": "series a",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Series A",
+    "url": "/deals/4892915D-05C5-491B-A4E4-804AF31F51E5"
+  }
+}

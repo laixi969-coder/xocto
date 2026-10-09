@@ -25,7 +25,7 @@ summary: 'When AI leaders at OpenAI and Anthropic started talking about “pacin
   and is headed for smart glasses and […]'
 first_seen: '2026-09-25T18:22:47Z'
 last_seen: '2026-09-26T00:38:20Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

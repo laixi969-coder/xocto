@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "company_id": "ee6fb513-d5a6-5ea0-a0d0-89c5211fed8f",
+  "round_fingerprint": "2ec751f7866e61446e2f4cd9a5c8a44174b2b52881742babb50da8f320b071df",
+  "last_attempt": "2026-10-09",
+  "status": "ready",
+  "gaps": [
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "secured $145 million in Series C funding",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://www.cscale.ai/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "CScale — AI Interconnect you can take for granted Company News and insights Careers Contact Talk to us CScale makes AI infrastructure scale reliably. AI Interconnect you can take for granted. AI factories are getting bigger. And when you have thousands of accelerators working\n\t\t\t\t\ttogether, something is always going to fail. CScale is building optical interconnect that\n\t\t\t\t\tcontains those failures, so compute keeps running. View press release AI Interconnect you can take for granted. Company Careers Contact News and insights Investors © 2026 CScale. Palo Alto, California."
+    }
+  ],
+  "fingerprint": "0a0dc79e149ddee4389f8287c7d7e8b068ee0ee900f790615a678cf15e165f72"
+}

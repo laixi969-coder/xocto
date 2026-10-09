@@ -24,7 +24,7 @@ summary: Yesterday, with a little prodding, it was discovered that Meta's Muse w
   it wasn't supposed to reveal […]
 first_seen: '2026-09-25T16:49:53Z'
 last_seen: '2026-09-26T00:38:20Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

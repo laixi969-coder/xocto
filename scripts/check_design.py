@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import hashlib
 import html as html_lib
+import json
 import re
 import sys
 import urllib.parse
@@ -156,7 +157,7 @@ def check_contrast() -> list[str]:
 def _without_citation_labels(text: str) -> str:
     # Explicit publisher attribution is requested public content. Keep all
     # surrounding prose under the existing source/language checks.
-    return re.sub(r'<a class="citation-source"[^>]*>[^<]*</a>', ' ', text)
+    return re.sub(r'<a\b[^>]*\bclass="(?:[^"]*\s)?citation-source(?:\s[^"]*)?"[^>]*>[^<]*</a>', ' ', text)
 
 
 def check_leaks() -> list[str]:
@@ -288,8 +289,11 @@ def check_stylesheet_version() -> list[str]:
     """样式文件没指纹时，HTML 更新后浏览器仍可能拿到旧 CSS。"""
     if not SITE.is_dir():
         return ["site/ 不存在，先跑 uv run xocto build"]
-    expected = hashlib.sha256(CSS.read_bytes() + TOKENS.read_bytes()).hexdigest()[:12]
+    funding_css = ROOT / "templates" / "funding.css"
+    assets = CSS.read_bytes() + (funding_css.read_bytes() if funding_css.exists() else b"") + TOKENS.read_bytes()
+    expected = hashlib.sha256(assets).hexdigest()[:12]
     pattern = re.compile(r'<link rel="stylesheet" href="[^"]*style\.css\?v=([0-9a-f]{12})">')
+    funding_pattern = re.compile(r'<link rel="stylesheet" href="[^"]*funding\.css\?v=([0-9a-f]{12})">')
     problems: list[str] = []
     for path in sorted(SITE.rglob("*.html")):
         raw = path.read_text(encoding="utf-8", errors="ignore")
@@ -301,6 +305,10 @@ def check_stylesheet_version() -> list[str]:
             problems.append(f"{path.relative_to(SITE)} 没有带版本的样式链接")
         elif match.group(1) != expected:
             problems.append(f"{path.relative_to(SITE)} 的样式版本不是当前版本")
+        if funding_css.exists():
+            funding_match = funding_pattern.search(raw)
+            if not funding_match or funding_match.group(1) != expected:
+                problems.append(f"{path.relative_to(SITE)} 的融资样式缺失或版本不是当前版本")
     return problems[:20]
 
 
@@ -363,6 +371,28 @@ def check_sitemap() -> list[str]:
     return problems
 
 
+def _verified_identity_redirect(path: Path, raw: str) -> bool:
+    """Only explicit, noindex identity migrations may keep retired URLs alive."""
+    alias_path = ROOT / "data" / "identity-aliases.json"
+    aliases = json.loads(alias_path.read_text()) if alias_path.exists() else {}
+    target = aliases.get(path.stem)
+    if not target or "/" in target or target == path.stem:
+        return False
+    target_path = path.parent / f"{target}.html"
+    if not target_path.exists():
+        return False
+    destination = "../../en/p/" if "en" in path.relative_to(SITE).parts else "../p/"
+    # Templates use a root-relative traversal from each edition's product page.
+    expected = destination + target + ".html"
+    refresh = re.search(r'<meta http-equiv="refresh" content="0;url=([^\"]+)">', raw)
+    canonical = re.search(r'<link rel="canonical" href="([^\"]+)">', raw)
+    return bool(refresh and refresh.group(1) == expected
+                and canonical and canonical.group(1).endswith(("/en/p/" if "en" in path.relative_to(SITE).parts else "/p/") + target + ".html")
+                and '<meta name="robots" content="noindex,follow">' in raw
+                and 'class="gate-row"' not in raw
+                and 'class="gate-row"' in target_path.read_text(encoding="utf-8"))
+
+
 def check_publishability() -> list[str]:
     """内部工作队列不能直接等同于公开站点。"""
     problems: list[str] = []
@@ -380,6 +410,8 @@ def check_publishability() -> list[str]:
             continue
         for published in (SITE / "p" / f"{slug}.html", SITE / "en" / "p" / f"{slug}.html"):
             if published.exists():
+                if _verified_identity_redirect(published, published.read_text(encoding="utf-8")):
+                    continue
                 reason = "已淘汰" if rejected else "内容未补齐"
                 problems.append(f"{published.relative_to(SITE)} 仍在发布（{reason}）")
     return problems
@@ -432,6 +464,8 @@ def check_experience_contract() -> list[str]:
     for directory in (SITE / "p", SITE / "en" / "p"):
         for path in sorted(directory.glob("*.html")):
             raw = path.read_text(encoding="utf-8", errors="ignore")
+            if _verified_identity_redirect(path, raw):
+                continue
             gates = raw.count('class="gate-row"')
             if gates != 4:
                 problems.append(

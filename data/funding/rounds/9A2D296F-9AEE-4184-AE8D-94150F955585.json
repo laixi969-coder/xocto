@@ -1,0 +1,101 @@
+{
+  "company": {
+    "city": "London",
+    "country": "UK",
+    "description": "The company has developed an AI workspace that brings together an organisation’s knowledge from previous clinical trials with external intelligence from trial registries, regulatory guidance and public sources.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "06755854-E94F-4688-8C05-F9CFEAE22FD6",
+    "investors": [
+      "Breega",
+      "Bynd VC",
+      "Enzo Ventures",
+      "Heartfelt",
+      "Together Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Cori Clinical",
+    "rounds": [
+      {
+        "amountEur": 3578778,
+        "date": "2026-10-07T00:00:00.000Z",
+        "id": "9A2D296F-9AEE-4184-AE8D-94150F955585",
+        "investors": [
+          "Breega",
+          "Bynd VC",
+          "Enzo Ventures",
+          "Heartfelt",
+          "Together Ventures"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/9A2D296F-9AEE-4184-AE8D-94150F955585"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 51,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 14
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 3578778,
+    "url": "https://funding.tech.eu/companies/06755854-E94F-4688-8C05-F9CFEAE22FD6",
+    "website": "http://www.cori-clinical.com/"
+  },
+  "round": {
+    "amountEur": 3578778,
+    "amountEurStored": null,
+    "amountNative": 4000000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "06755854-E94F-4688-8C05-F9CFEAE22FD6",
+      "name": "Cori Clinical",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-10-07",
+    "fx": {
+      "asOf": "2026-10-07",
+      "rate": 1.1177,
+      "source": "ECB"
+    },
+    "id": "9A2D296F-9AEE-4184-AE8D-94150F955585",
+    "investors": [
+      "Together Ventures",
+      "Enzo Ventures",
+      "Heartfelt",
+      "Bynd VC",
+      "Breega"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Seed",
+    "url": "/deals/9A2D296F-9AEE-4184-AE8D-94150F955585"
+  }
+}

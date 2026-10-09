@@ -1,0 +1,96 @@
+{
+  "company_id": "1F365C52-7137-4EAB-9508-22FB7BAD12B2",
+  "round_id": "3E6A6313-F136-45A5-B8EA-06233ED49ADB",
+  "fingerprint": "24106421113b3e26af226f0a755dd6f41edb83f02db8b5528257b1073f1dc207",
+  "analyzed_at": "2026-10-09T04:53:21Z",
+  "checked_on": "2026-10-09",
+  "research_version": 2,
+  "research_fingerprint": "5f4822de4360a7dc49c024ba7ddc6f4c14d4d37cad256c69c4694de3a8a629d5",
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/3E6A6313-F136-45A5-B8EA-06233ED49ADB",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Kyndred is developing AI companions with voice, memory and real-time interaction, aiming to provide users with a more consistent way to navigate AI and receive support with everyday tasks.",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://getkyndred.com/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "kyndred — AI characters that feel real kyndred vision Lila Maya technology community investors blog Discord Meet Maya AI characters that feel real Your next companion Powered by real-time generative animation and voice. Meet Maya → Join Discord Free to start. Creator, company, or builder? Join the waitlist. scroll our vision AI characters with real presence. Not a chatbot with an avatar glued on. A character who sees you, reacts in real time, and speaks with a voice that carries emotion. Put her on your stream. Make her your brand's face. Let her teach, perform, or just hang out. One character, infinite use cases. Co-stream She reacts live on your Twitch or YouTube Brand mascot A face for your product that actually talks back Character A friend who remembers you and shows up Creator tool Music, art, tutoring - characters that perform meet our first character Lila Our first character. A YouTuber who makes her own music and co-streams with one of our founders. The one we push hardest, so she keeps becoming more her own person. Voice Animation Memory Music Personality what we prove on Lila, you build into your own kyndred. the technology from text to presence. The engine behind every character. Real-time voice, live animation, and memory that makes every interaction build on the last - whether she's on your stream, your site, or your phone. rendering Generative Animation Live2D characters driven by AI - facial expressions, lip sync, and body language generated in real time, not pre-canned. audio Emotion-Aware Voice Text-to-speech that carries tone, pace, and feeling. She doesn't just read words - she means them. cognition Living Memory Tiered memory that works like a real relationship. Important things stick. Small details naturally fade. where to start available now Maya A character you talk to one on one. Real-time voice, real expressions, and a memory that holds on to what you told her last time. Free to start. voice expressions memory on your phone Meet Maya → Discord Live demos, dev updates, creator showcases, and early access. Streamers, brands, and builders - this is where it happens. # dev-updates # creator-showcase # voice-demos # partnerships Join Discord server Creators, companies, builders A character on your channel, working a shift at your company, or the engine inside your product. Tell us what you'd make. Detail gets you picked first. Join waitlist Business & investors Custom characters, API access, partnerships, or investment - let's talk. Get in touch Backed by kyndred · AI characters that feel real. Updates Blog Discord Twitter Contact Careers Safety Terms Copyright & takedowns Privacy Billing Privacy Choices Consumer Health Data (Washington) © 2026 Kyndred."
+    },
+    {
+      "url": "https://getkyndred.com/waitlist",
+      "kind": "company_claim",
+      "role": "product",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "Join the waitlist · kyndred kyndred ← home ◇ waitlist Tell us what you want to make. We take on a handful of creators, companies, and builders at a time, and we pick the ones we can actually help. What's it for? One tap, then a few questions you already know the answers to. For myself Game buddy, coach, companion, close friend. Continue → For my content I stream or make videos. Continue → For my company Support, sales, reception, tutoring, a brand face. Continue → For my product API, SDK, or the engine inside something I'm building. Continue → Backed by kyndred · AI characters that feel real. Updates Blog Discord Twitter Contact Careers Safety Terms Copyright & takedowns Privacy Billing Privacy Choices Consumer Health Data (Washington) © 2026 Kyndred."
+    }
+  ],
+  "editorial_method": "Primary-source review; no account or live workflow tested.",
+  "zh": {
+    "summary": "把实时语音、动画与记忆组合成可持续互动的 AI 角色。",
+    "judgment": "关注点是用户会否回来，以及角色交付能否在不同场景稳定运行。",
+    "replaces": "创作者或品牌分别制作角色动画、语音和对话，再手工维持人物连续性。",
+    "segment": "AI 角色与实时互动",
+    "product": "官网展示 Lila 与个人互动入口 Maya，并面向内容、企业与产品集成开放候补。角色引擎涵盖语音、Live2D 动画和分层记忆，范围比简单文字陪伴更具体。",
+    "customer": "个人用户、主播、品牌及应用开发者对应不同需求。娱乐互动、商业客服与 SDK 集成应分开评估，不能将角色好感直接当作企业采购证据。",
+    "workflow": "文字或语音输入驱动带表情的实时响应，并用记忆维持关系连续性。可验证交付包括响应时延、记忆正确性与跨场景表现，本次没有使用角色或申请候补。",
+    "business_model": "Maya 标注可免费开始，企业和引擎接入的完整价格未取得。个人付费、品牌角色与平台集成是不同经济路径；语音和动画的运行成本需逐类计算。",
+    "traction": "官网有角色展示与候补流程，未取得独立活跃用户、留存或付费数据。演示角色具有辨识度，不证明用户持续使用或商业场景已经规模化。",
+    "moat": "角色一致性、互动体验和创作者分发可能积累优势。通用模型、虚拟主播工具及其他陪伴产品都是替代，单一漂亮头像容易被复制。",
+    "funding_read": "资本提供早期体验与引擎验证时间。下一里程碑应是反复使用及一个清晰客户群的付费，而不是同时承诺所有角色场景。",
+    "risks": "错误记忆或人格漂移可能破坏连续体验；低时延语音动画可能增加成本。针对未成年人与企业用户的边界也需分别设计。",
+    "takeaway": "让角色能力在真实演示对象上持续打磨，再开放给创作者和客户。把人格、记忆与交付可靠性作为一体，而不只堆对话功能。",
+    "watch_next": "看角色周留存、记忆纠正率、语音时延及每小时互动成本。区分个人互动、内容传播和企业任务是否形成各自付费理由。",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/3E6A6313-F136-45A5-B8EA-06233ED49ADB"
+      },
+      {
+        "label": "Kyndred 核验资料 1",
+        "url": "https://getkyndred.com/"
+      },
+      {
+        "label": "Kyndred 核验资料 2",
+        "url": "https://getkyndred.com/waitlist"
+      }
+    ]
+  },
+  "en": {
+    "summary": "AI characters combining realtime voice, animation and continuing memory.",
+    "judgment": "Repeat use and reliable delivery across settings matter more than initial character appeal.",
+    "replaces": "Separately producing animation, voice and dialogue while manually maintaining character continuity.",
+    "segment": "Realtime AI characters",
+    "product": "The site shows Lila and the Maya personal interaction entry, with waitlists for creators, companies and product builders. Voice, Live2D animation and tiered memory make the scope more specific than text companionship.",
+    "customer": "Individuals, streamers, brands and developers have distinct needs. Entertainment, business support and SDK integration should be assessed separately; character affinity does not establish enterprise procurement.",
+    "workflow": "Text or voice drives animated responses with memory supporting continuity. Latency, memory accuracy and cross-setting behavior need verification; no character session or waitlist signup was performed.",
+    "business_model": "Maya offers a free start; full enterprise and engine prices were not retrieved. Personal payment, branded characters and integrations have different economics, including voice and rendering costs.",
+    "traction": "Demos and waitlists do not establish independent active use, retention or revenue. A distinctive character does not prove continuing engagement or scaled business deployment.",
+    "moat": "Consistency, interaction design and creator distribution could accumulate advantages. General models, virtual-presenter tools and companion apps compete; an attractive avatar alone is easy to replicate.",
+    "funding_read": "Capital supports early experience and engine validation. Repeat use and payment within one clear segment are better milestones than promising every character use case.",
+    "risks": "Wrong memories or personality drift can break continuity; realtime voice and animation add cost. Minors and business users also require distinct boundaries.",
+    "takeaway": "Improve the engine through a concrete demonstration character before opening it to builders. Treat personality, memory and delivery as one experience.",
+    "watch_next": "Watch weekly retention, memory corrections, voice latency and cost per interaction hour. Separate personal engagement, content distribution and business-task payment motives.",
+    "citations": [
+      {
+        "label": "Tech.eu Funding Explorer",
+        "url": "https://funding.tech.eu/deals/3E6A6313-F136-45A5-B8EA-06233ED49ADB"
+      },
+      {
+        "label": "Kyndred primary material 1",
+        "url": "https://getkyndred.com/"
+      },
+      {
+        "label": "Kyndred primary material 2",
+        "url": "https://getkyndred.com/waitlist"
+      }
+    ]
+  }
+}

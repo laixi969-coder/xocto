@@ -1,0 +1,134 @@
+{
+  "company": {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "description": "TODAY develops AI tools tailored specifically for financial advisors.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "8D9F69D6-2C6C-443C-B6EA-402F3655C220",
+    "investors": [
+      "Angel Investors",
+      "Herbert Rogenhofer",
+      "High-Tech Gründerfonds (HTGF)",
+      "Insurtech Gateway",
+      "Lucid Capital",
+      "Pierre Dubosq",
+      "Seed X"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "TODAY",
+    "rounds": [
+      {
+        "amountEur": 2800000,
+        "date": "2026-10-08T00:00:00.000Z",
+        "id": "294D8F04-8C8F-42CF-8E79-BBE1232D0B78",
+        "investors": [
+          "Angel Investors",
+          "Herbert Rogenhofer",
+          "High-Tech Gründerfonds (HTGF)",
+          "Insurtech Gateway",
+          "Lucid Capital",
+          "Pierre Dubosq",
+          "Seed X"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/294D8F04-8C8F-42CF-8E79-BBE1232D0B78"
+      },
+      {
+        "amountEur": 1000000,
+        "date": "2025-05-30T00:00:00.000Z",
+        "id": "1A709E45-F78D-438D-B2E7-62210569A2DB",
+        "investors": [
+          "Angel Investors",
+          "Lucid Capital"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/1A709E45-F78D-438D-B2E7-62210569A2DB"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 13
+      },
+      "heat": 71,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 16
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 3800000,
+    "url": "https://funding.tech.eu/companies/8D9F69D6-2C6C-443C-B6EA-402F3655C220",
+    "website": "https://www.usetoday.io/"
+  },
+  "round": {
+    "amountEur": 2800000,
+    "amountEurStored": null,
+    "amountNative": 2800000,
+    "company": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "founded": null,
+      "id": "8D9F69D6-2C6C-443C-B6EA-402F3655C220",
+      "name": "TODAY",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-10-08",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "294D8F04-8C8F-42CF-8E79-BBE1232D0B78",
+    "investors": [
+      "Insurtech Gateway",
+      "Seed X",
+      "Herbert Rogenhofer",
+      "Lucid Capital",
+      "High-Tech Gründerfonds (HTGF)",
+      "Pierre Dubosq"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Seed",
+    "url": "/deals/294D8F04-8C8F-42CF-8E79-BBE1232D0B78"
+  }
+}

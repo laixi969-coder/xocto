@@ -35,7 +35,7 @@ summary: Meta’s AI agent Muse is now available on iPad, just a month after its
   rapidly expands the assistant’s reach and integrations.
 first_seen: '2026-10-07T18:30:57Z'
 last_seen: '2026-10-08T01:56:16Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 sightings:

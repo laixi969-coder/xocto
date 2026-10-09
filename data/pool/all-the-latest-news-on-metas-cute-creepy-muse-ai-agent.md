@@ -41,7 +41,7 @@ summary: Meta launched a new Muse AI agent it claims can help you with everythin
   plans […]
 first_seen: '2026-09-30T15:18:49Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 sightings:

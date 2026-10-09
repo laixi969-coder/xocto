@@ -1,0 +1,19 @@
+<div class="funding-picks">
+{% for p in funding.picks %}
+  <article class="funding-pick">
+    <div class="funding-pick-id">
+      <p class="eyebrow num">{{ p.day }} · {{ p.country }} · {{ p.stage }}</p>
+      <h3><a href="{{ root }}{{ locale.prefix }}f/{{ p.slug }}.html">{{ p.name }}</a></h3>
+      <p class="funding-amount num">{{ p.amount }}</p>
+      <a class="citation-source funding-citation" href="{{ p.url }}">{{ p.publisher }} ↗</a>
+      <span class="tag">{{ p.edition.segment }}</span>
+    </div>
+    <div class="funding-pick-body">
+      <p>{{ p.edition.summary }}</p>
+      <div class="field"><span class="field-k">{{ t.funding.replaces }}</span><p>{{ p.edition.replaces }}</p></div>
+      <div class="field field-take"><span class="field-k">{{ t.funding.judgment }}</span><p>{{ p.edition.judgment }}</p></div>
+      <a class="funding-link" href="{{ root }}{{ locale.prefix }}f/{{ p.slug }}.html">{{ t.funding.detail }} →</a>
+    </div>
+  </article>
+{% endfor %}
+</div>

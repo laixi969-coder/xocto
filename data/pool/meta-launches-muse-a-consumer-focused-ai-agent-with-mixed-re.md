@@ -39,7 +39,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNdnkxbm1lYVhN
 summary: Meta launches Muse, a consumer-focused AI agent with mixed reviews on usefulness and trust. Pluang
 first_seen: '2026-09-27T20:13:35Z'
 last_seen: '2026-09-28T00:47:18Z'
-status: watching
+status: rejected
 sources:
 - newssearch
 sightings:

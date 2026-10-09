@@ -1,0 +1,91 @@
+{
+  "company": {
+    "city": "Warsaw",
+    "country": "Poland",
+    "description": "autoMEE develops flowMEE, an AI-powered accounting platform that automates document processing, bookkeeping, bank reconciliation and financial workflows for businesses and accounting firms.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "F763380E-507D-45D7-A4ED-EFDF7A193F61",
+    "investors": [
+      "Business Angels",
+      "Level2 Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "autoMEE",
+    "rounds": [
+      {
+        "amountEur": 2288853,
+        "date": "2026-09-30T00:00:00.000Z",
+        "id": "3D43239B-E428-4C94-A3CF-D8044DC803EA",
+        "investors": [
+          "Business Angels",
+          "Level2 Ventures"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/3D43239B-E428-4C94-A3CF-D8044DC803EA"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 51,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 15
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 2288853,
+    "url": "https://funding.tech.eu/companies/F763380E-507D-45D7-A4ED-EFDF7A193F61",
+    "website": "https://automee.pl"
+  },
+  "round": {
+    "amountEur": 2288853,
+    "amountEurStored": null,
+    "amountNative": 10000000,
+    "company": {
+      "city": "Warsaw",
+      "country": "Poland",
+      "founded": null,
+      "id": "F763380E-507D-45D7-A4ED-EFDF7A193F61",
+      "name": "autoMEE",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "PLN",
+    "date": "2026-09-30",
+    "fx": {
+      "asOf": "2026-09-30",
+      "rate": 4.369,
+      "source": "ECB"
+    },
+    "id": "3D43239B-E428-4C94-A3CF-D8044DC803EA",
+    "investors": [
+      "Level2 Ventures"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "mamstartup.pl",
+      "tier": "established"
+    },
+    "stage": "Seed",
+    "url": "/deals/3D43239B-E428-4C94-A3CF-D8044DC803EA"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "company_id": "be8404a1-00e3-5014-beae-dd97cbadc817",
+  "round_id": "4356ba36-71fa-59ac-8644-e5a399c824b5",
+  "fingerprint": "7959896deb961ca6a6748b7bdb72895f44415d1340c20b92d783fc6dc1d398d8",
+  "analyzed_at": "2026-10-09T04:53:21Z",
+  "checked_on": "2026-10-09",
+  "research_version": 2,
+  "research_fingerprint": "4f0f79a30ce75b4854dd60d2c9c7bd58c7d1e0049858b0ccc86a8112aca45299",
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "secured $220 million in fresh funding",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://www.generalintuition.com/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "General Intuition | The frontier lab for acting in space and time. Enter the waitlist Close Learning and play Machine intelligence, trained primarily on the archive of human language, inherits both its brilliance and limitations: p lana r abstraction without embodiment, prediction without participation. This compromise was initially pragmatic. Rather than parse the messiness of reality, models learned from its readily available, albeit reductive effigies: descriptions, depictions, and recordings. But truly intelligent machines must acquire the capacity to perceive, anticipate, and improvise within the unfolding dynamics of reality. From the relationships of intent, action, and consequence, to the irreversibility of time and spatial awareness. Building general artificial intelligence isn’t exclusively about scaling data and compute; it’s about teaching machines to play. Play , but a trivial or hedonistic pursuit, has been the cradle of human learning: it comprises rule‑bound yet voluntary activities that let people rehearse identities, negotiate norms, or imagine futures without the full expense of failure. (Johan Huizinga’s Homo Ludens, 1938) One might argue that play has been evolution’s way of lowering the expected cost of error while maximizing informational return. This open‑ended experimentation (where we invent or revise rules) stands in stark contrast to work , or generally, constrained contests (where we master existing rules, and failure has severe consequences). Modern artificial intelligence already echoes this dialectic in algorithmic form. For example, reinforcement‑learning agents oscillate between exploration (playful forays into untested actions) and exploitation (disciplined use of proven strategies), mathematically recapitulating the play-work continuum as they iteratively simulate, critique, and refine environmental understanding. World and action models extend the dichotomy: agents first “dream” within compressed simulacra of reality to test possibilities at low cost, to derive hypotheses that accelerate real‑world learning. Capable of evaluating effectively infinite actions over short horizons—an exploration rate and diversity impossible in physical environments. Like how play shaped human evolution, video games have a long history of profoundly influencing consumer behavior and catalyzing significant innovation—often pushing the boundaries of what is technologically possible: from complex 3D calculations & representations to game theory and the birth of modern artificial intelligence. It is, perhaps, no coincidence that many research labs, including DeepMind and OpenAI, have deep roots in gaming. Or that Nvidia, the world’s most valuable company in 2025, started as a gaming company in 1993. Return to main page We are the frontier lab for acting in space and time. We raised over $650M in the past year to build a new class of models that can perceive, predict, and act in virtual and physical environments. ASCII Settings Cell size 12 Text opacity 100 Tile opacity 50 Music MUTED Explore the Research Introducing MIRA™ – a multiplayer world model MIRA™ is a playable multiplayer world model. Trained on 10k hours of data collected with publicly available bots, the model learns the dynamics of four-player games in Rocket League. It runs in real time at 20 fps, based on the keys you and the other players press. Created by General Intuition and Kyutai, in collaboration with Epic Games. LEARN MORE Play the Live Demo ⁠Technical Report Code on Github Read the Blog Unlocking machine intelligence for the real world. The most powerful foundation models are trained on written words. But human intelligence far exceeds language. It emerged over millennia of interaction and exploration, through the endless cycle of intent, action, and consequences across diverse environments. Truly intelligent machines must move from words to worlds, and acquire the capacity to perceive, anticipate, and improvise. They need to obtain a general intuition of reality . Learning and play On intent, action, and exploration “ Today’s AIs are book smart. Everything they know they learned from available language, images, and videos. To evolve further, they have to get street smart. [...] To develop knowledge beyond text and videos, AIs must have realistic virtual playgrounds where they can make mistakes and learn. ” Christopher Mims - WSJ What Are ‘World Models’? The Key to the Next Big AI Leap Pushing the frontier, on unique training grounds. Our models learn from unique, action-labeled video datasets across countless environments. This diversity leads to uniquely capable agentic systems. General Intuition builds on the strength of Medal , the world's largest and fastest-growing platform for gamer moments. Every year, our players upload billions of gameplay clips—each representing a unique, action-packed highlight. For the past year, we’ve been pushing the frontier across: Action models that decide what actions to take World models that predict the outcomes of actions As a company of gamers, we build technology that collaborates with, not competes with, creatives and the gaming industry. Work with us. Work with our models We have onboarded a small number of partners across games, simulation, and robotics to our commercial API. As we prepare to make our models more broadly available to the world, enter the waitlist to be among the first to build with them. Enter the waitlist Careers We are assembling a world-class team with the expertise needed to build groundbreaking, scalable systems. Our team includes leading researchers, infrastructure experts, and engineers. If you have an aligned background and are excited by our mission, please get in touch. Join the team Prior research GAIA-2 Pushing the boundaries of video generative models (2025) DIAMOND Diffusion for world modeling (NeurIPS spotlight, 2024) Δ -IRIS Efficient world models with context-aware tokenization (ICML, 2024) IRIS Transformers are sample-efficient world models (ICLR oral, 2023) The frontier lab for acting in space and time. We’re hiring ambitious researchers & engineers with experience in video, computer vision, policy learning, world models, robotics, infrastructure, large-scale model training and data processing. Join the team Explore General Intuition Medal Socials X LinkedIn Careers Join the team Enter the waitlist Email the team Legal Terms of Use Privacy Notice Security © 2026 General Intuition™. All rights reserved."
+    }
+  ],
+  "editorial_method": "Primary-source review; no account or live workflow tested.",
+  "zh": {
+    "summary": "用动作标注的视频与虚拟环境训练能预测、行动的世界模型。",
+    "judgment": "研究演示已有具体对象，但从可玩模型到可采购能力仍需验证。",
+    "replaces": "研究团队分别准备动作数据、模拟环境和预测模型，再测试交互一致性。",
+    "segment": "世界模型与行动智能",
+    "product": "官网介绍多玩家世界模型 MIRA，并提供演示、报告与代码入口。目标是学习环境和动作关系，不应写成已经部署的通用机器人或成熟个人助手。",
+    "customer": "研究者、游戏开发者与物理环境 AI 团队是潜在使用者。哪些群体真正采购、购买怎样的接口尚未确认，科研关注不能直接视为付费需求。",
+    "workflow": "演示以游戏状态和玩家操作驱动下一状态生成，允许持续交互。可验证重点是多主体一致性、长时稳定性和新环境迁移；本次未运行演示或复现报告。",
+    "business_model": "未确认公开产品价目。模型许可、托管接口或合作研发是可能路径，而非已披露收入模式；训练数据、推理速度和支持成本会影响各路径经济。",
+    "traction": "具体模型及公开技术入口使定位比“研发 AI”更可核验，但仍缺独立复现与商业部署数据。官网累计募资说法不等于列表这一笔新轮次。",
+    "moat": "动作标签与环境反馈可能比单纯视频量更有价值。能否迁移到有付费需求的真实任务、以及数据权利是否稳固，决定研究资产能否形成商业优势。",
+    "funding_read": "资本提供研究资源，但研究演示到产品化之间仍有距离。应看可交付接口、外部复现和特定合作项目，而不是从轮次金额推断通用智能已实现。",
+    "risks": "短时逼真输出可能在长时交互中失去一致性；虚拟训练效果可能无法迁移到现实。数据授权与训练成本也可能限制规模和经济。",
+    "takeaway": "以动作、状态和后果定义可评测任务。先证明一类交互环境的闭环，再解释这些能力如何转成客户可使用的工具。",
+    "watch_next": "看长时一致性、外部复现、推理成本及具体合作的交付结果。区分论文、演示、开放代码与正式收费接口的成熟度。",
+    "citations": [
+      {
+        "label": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/"
+      },
+      {
+        "label": "General Intuition 核验资料 1",
+        "url": "https://www.generalintuition.com/"
+      }
+    ]
+  },
+  "en": {
+    "summary": "A world-model lab learning prediction and action from action-labeled video and virtual environments.",
+    "judgment": "A concrete research demo exists; procurement-ready capability still needs verification.",
+    "replaces": "Separately preparing action data, simulators and prediction models, then evaluating interactive consistency.",
+    "segment": "World models and action intelligence",
+    "product": "The official site introduces MIRA, a multiplayer world model, with demo, report and code links. Learning action-environment relationships does not establish deployed general robotics or a mature personal assistant.",
+    "customer": "Researchers, game developers and physical-AI teams are plausible users. Paying segments and purchased interfaces were not established. Research interest is distinct from commercial demand.",
+    "workflow": "The demo uses game state and player actions to generate subsequent state during interaction. Multi-agent consistency, long-horizon stability and transfer require evaluation; no demo or report reproduction was performed here.",
+    "business_model": "No public product pricing was established. Licensing, hosted interfaces and collaborative research are possible paths, not disclosed revenue models. Training data, serving speed and support affect economics.",
+    "traction": "A named model and technical entry points provide concrete research evidence, without independent reproduction or commercial deployment data. Cumulative fundraising on the site is separate from this individual financing record.",
+    "moat": "Action labels and environmental feedback may matter more than raw video volume. Transfer to a paying task and sustainable data rights determine whether the research asset becomes defensible commercially.",
+    "funding_read": "Capital supplies research resources while leaving a productization gap. Deliverable interfaces, reproduction and specific partnerships are useful milestones; round size does not prove general intelligence.",
+    "risks": "Convincing short sequences may fail over long interactions, and simulation results may not transfer to physical tasks. Rights and training costs can constrain scale and economics.",
+    "takeaway": "Define tasks through actions, states and consequences. Validate a bounded interactive environment before explaining how customers will use the capability.",
+    "watch_next": "Watch long-horizon consistency, independent reproduction, serving cost and partnership delivery. Distinguish papers, demos, open code and paid interfaces.",
+    "citations": [
+      {
+        "label": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/"
+      },
+      {
+        "label": "General Intuition primary material 1",
+        "url": "https://www.generalintuition.com/"
+      }
+    ]
+  }
+}

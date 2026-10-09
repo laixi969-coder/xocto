@@ -24,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOSmwtS3BWNHRv
 summary: Amazon Blocks Meta's Muse AI Agent From Shopping Platform The Tech Buzz
 first_seen: '2026-09-21T18:06:00Z'
 last_seen: '2026-09-22T00:50:58Z'
-status: market_context
+status: rejected
 sources:
 - newssearch
 sightings:

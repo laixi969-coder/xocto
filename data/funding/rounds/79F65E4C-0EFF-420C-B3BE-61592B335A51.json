@@ -1,0 +1,106 @@
+{
+  "company": {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "description": "Namespace is aiming to be the infrastructure layer for AI coding agents, so developers and AI agents can build, test and run code faster.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "73580A42-3DE9-4ED4-8B5A-564649ACFFC3",
+    "investors": [
+      "20VC",
+      "Angel Investors",
+      "Burst Capital",
+      "Essence VC",
+      "NEA",
+      "Olivier Pomel",
+      "Scale Venture Partners"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Namespace",
+    "rounds": [
+      {
+        "amountEur": 37486612,
+        "date": "2026-10-05T00:00:00.000Z",
+        "id": "79F65E4C-0EFF-420C-B3BE-61592B335A51",
+        "investors": [
+          "20VC",
+          "Angel Investors",
+          "Burst Capital",
+          "Essence VC",
+          "NEA",
+          "Olivier Pomel",
+          "Scale Venture Partners"
+        ],
+        "stage": "Series B",
+        "url": "https://funding.tech.eu/deals/79F65E4C-0EFF-420C-B3BE-61592B335A51"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 53,
+      "raiseNext": {
+        "base": 48,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 16
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 37486612,
+    "url": "https://funding.tech.eu/companies/73580A42-3DE9-4ED4-8B5A-564649ACFFC3",
+    "website": "https://namespace.so/"
+  },
+  "round": {
+    "amountEur": 37486612,
+    "amountEurStored": null,
+    "amountNative": 42000000,
+    "company": {
+      "city": "Zurich",
+      "country": "Switzerland",
+      "founded": null,
+      "id": "73580A42-3DE9-4ED4-8B5A-564649ACFFC3",
+      "name": "Namespace",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-10-05",
+    "fx": {
+      "asOf": "2026-10-05",
+      "rate": 1.1204,
+      "source": "ECB"
+    },
+    "id": "79F65E4C-0EFF-420C-B3BE-61592B335A51",
+    "investors": [
+      "Olivier Pomel",
+      "Burst Capital",
+      "NEA",
+      "Essence VC",
+      "Scale Venture Partners",
+      "20VC"
+    ],
+    "rawRoundType": "series b",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Series B",
+    "url": "/deals/79F65E4C-0EFF-420C-B3BE-61592B335A51"
+  }
+}

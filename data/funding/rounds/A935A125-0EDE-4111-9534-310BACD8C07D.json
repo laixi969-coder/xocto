@@ -1,0 +1,97 @@
+{
+  "company": {
+    "city": "London",
+    "country": "UK",
+    "description": "PlannerPal is a provider of an AI workflow platform for financial advice and wealth management firms.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "54DD8259-B0BF-4760-B87D-889BE65F1D9D",
+    "investors": [
+      "Ada Ventures",
+      "Angel Investors",
+      "Mercia Ventures",
+      "strategic fintech investors"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "PlannerPal",
+    "rounds": [
+      {
+        "amountEur": 5080040,
+        "date": "2026-10-07T00:00:00.000Z",
+        "id": "A935A125-0EDE-4111-9534-310BACD8C07D",
+        "investors": [
+          "Ada Ventures",
+          "Angel Investors",
+          "Mercia Ventures",
+          "strategic fintech investors"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/A935A125-0EDE-4111-9534-310BACD8C07D"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 52,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 5080040,
+    "url": "https://funding.tech.eu/companies/54DD8259-B0BF-4760-B87D-889BE65F1D9D",
+    "website": "https://www.plannerpal.co.uk/"
+  },
+  "round": {
+    "amountEur": 5080040,
+    "amountEurStored": null,
+    "amountNative": 4300000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "54DD8259-B0BF-4760-B87D-889BE65F1D9D",
+      "name": "PlannerPal",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "GBP",
+    "date": "2026-10-07",
+    "fx": {
+      "asOf": "2026-10-07",
+      "rate": 0.84645,
+      "source": "ECB"
+    },
+    "id": "A935A125-0EDE-4111-9534-310BACD8C07D",
+    "investors": [
+      "strategic fintech investors",
+      "Ada Ventures",
+      "Mercia Ventures"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "finsmes.com",
+      "tier": "established"
+    },
+    "stage": "Other",
+    "url": "/deals/A935A125-0EDE-4111-9534-310BACD8C07D"
+  }
+}

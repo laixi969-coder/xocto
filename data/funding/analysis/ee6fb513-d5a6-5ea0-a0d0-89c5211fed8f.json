@@ -1,0 +1,80 @@
+{
+  "company_id": "ee6fb513-d5a6-5ea0-a0d0-89c5211fed8f",
+  "round_id": "85b15d29-7cb4-505f-895d-6b4e013dbb40",
+  "fingerprint": "2ec751f7866e61446e2f4cd9a5c8a44174b2b52881742babb50da8f320b071df",
+  "analyzed_at": "2026-10-09T04:53:21Z",
+  "checked_on": "2026-10-09",
+  "research_version": 2,
+  "research_fingerprint": "0a0dc79e149ddee4389f8287c7d7e8b068ee0ee900f790615a678cf15e165f72",
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "secured $145 million in Series C funding",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://www.cscale.ai/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "CScale — AI Interconnect you can take for granted Company News and insights Careers Contact Talk to us CScale makes AI infrastructure scale reliably. AI Interconnect you can take for granted. AI factories are getting bigger. And when you have thousands of accelerators working\n\t\t\t\t\ttogether, something is always going to fail. CScale is building optical interconnect that\n\t\t\t\t\tcontains those failures, so compute keeps running. View press release AI Interconnect you can take for granted. Company Careers Contact News and insights Investors © 2026 CScale. Palo Alto, California."
+    }
+  ],
+  "editorial_method": "Primary-source review; no account or live workflow tested.",
+  "zh": {
+    "summary": "为大规模 AI 计算集群开发强调故障隔离的光互连。",
+    "judgment": "这是基础设施技术路线，采购价值取决于集群级可靠性与兼容性，公开规格仍有限。",
+    "replaces": "数据中心依赖现有互连方案处理加速器间通信，并应对节点故障拖累任务。",
+    "segment": "AI 光互连",
+    "product": "官网说明用光互连限制故障影响，让计算持续运行。没有取得完整产品规格、实测带宽或公开部署手册，不能把产品主张写成已达成性能。",
+    "customer": "大规模 AI 集群运营商及硬件集成商是合理买方推断。它服务系统采购而非普通应用用户，成本与风险通常需要放到整个计算集群中评估。",
+    "workflow": "可研究的流程是集群通信需求建模、硬件与软件集成、故障测试和运维验收。具体接口与兼容范围尚不明，本次不能给出已验证部署步骤。",
+    "business_model": "未披露公开价格和合同模式。硬件销售、系统集成或许可属于商业假设，制造良率、供应链和长期支持成本可能影响毛利。",
+    "traction": "一手页面支持技术定位，但未取得独立集群测试或具名客户验收。融资与出隐身状态不能代替商用部署、收入或故障恢复证明。",
+    "moat": "潜在壁垒在系统设计、集成知识与可靠性验证，而非“光”这个标签。既有互连供应链和成熟采购标准是重要竞争条件。",
+    "funding_read": "融资为研发和验证提供资源，下一里程碑应是可比较的系统测试及设计导入。资金用途细目和量产计划未确认，不推测已完成生产。",
+    "risks": "实验指标可能不能反映真实集群负载，兼容性和供应周期也可能延迟导入。新硬件若增加运维复杂度，可能抵消可靠性收益。",
+    "takeaway": "用客户的故障影响和恢复时间定义技术价值。将芯片或器件指标连接到整个任务完成率，避免只展示孤立峰值。",
+    "watch_next": "看端到端吞吐、故障隔离、能耗、设计导入和客户验收。公开规格与独立负载测试将比新增融资更能减少产品不确定性。",
+    "citations": [
+      {
+        "label": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/"
+      },
+      {
+        "label": "CScale 核验资料 1",
+        "url": "https://www.cscale.ai/"
+      }
+    ]
+  },
+  "en": {
+    "summary": "Optical interconnect for large AI clusters, emphasizing containment of hardware failures.",
+    "judgment": "Procurement value depends on system reliability and compatibility; public specifications remain limited.",
+    "replaces": "Operating existing accelerator interconnects while managing node failures that interrupt workloads.",
+    "segment": "AI optical interconnect",
+    "product": "The site describes optical interconnect that contains failures so computation continues. Complete specifications, measured bandwidth and deployment manuals were not retrieved; the proposition is not verified performance.",
+    "customer": "Large cluster operators and hardware integrators are plausible buyers. This is a system-procurement product, with costs and risks assessed across a cluster rather than by an ordinary app user.",
+    "workflow": "A workflow to investigate is communication requirements, integration, fault testing and operational acceptance. Specific interfaces and compatibility remain unclear; no validated installation procedure can be given.",
+    "business_model": "Public prices and contract terms were unavailable. Hardware sales, integration or licensing are hypotheses. Yield, supply chains and ongoing support could affect margin.",
+    "traction": "Primary material establishes positioning without independent cluster testing or named customer acceptance. Financing and leaving stealth do not prove deployment, revenue or recovery quality.",
+    "moat": "System design, integration knowledge and reliability validation could be defensible. Existing interconnect ecosystems and procurement standards are important competitive conditions.",
+    "funding_read": "Capital supports development and testing. Comparable system benchmarks and design wins are useful next milestones; detailed allocation and production schedules were not established.",
+    "risks": "Lab results may not represent real workloads, while compatibility and supply cycles can delay adoption. Added operational complexity could offset reliability benefits.",
+    "takeaway": "Define technical value through failure impact and recovery. Connect component metrics to completed workloads rather than displaying isolated peaks.",
+    "watch_next": "Watch end-to-end throughput, failure containment, energy, design wins and customer acceptance. Specifications and independent workload tests would reduce uncertainty more than another round.",
+    "citations": [
+      {
+        "label": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/"
+      },
+      {
+        "label": "CScale primary material 1",
+        "url": "https://www.cscale.ai/"
+      }
+    ]
+  }
+}

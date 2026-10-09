@@ -1,0 +1,95 @@
+{
+  "company": {
+    "city": "Paris",
+    "country": "France",
+    "description": "Opio develops an AI platform for transaction services, providing pre-built workflows and tools that help deal teams automate financial due diligence processes while retaining professional oversight.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "92033CDF-7E84-4413-99CD-0F139A384369",
+    "investors": [
+      "Frst",
+      "Global Founders Capital",
+      "Seedcamp"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Opio",
+    "rounds": [
+      {
+        "amountEur": 4000000,
+        "date": "2026-09-16T00:00:00.000Z",
+        "id": "0A2A6CAB-26DE-44AC-8A93-0FA4E9848927",
+        "investors": [
+          "Frst",
+          "Global Founders Capital",
+          "Seedcamp"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/0A2A6CAB-26DE-44AC-8A93-0FA4E9848927"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 51,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 11
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 4000000,
+    "url": "https://funding.tech.eu/companies/92033CDF-7E84-4413-99CD-0F139A384369",
+    "website": "https://www.opio.fi/"
+  },
+  "round": {
+    "amountEur": 4000000,
+    "amountEurStored": null,
+    "amountNative": 4000000,
+    "company": {
+      "city": "Paris",
+      "country": "France",
+      "founded": null,
+      "id": "92033CDF-7E84-4413-99CD-0F139A384369",
+      "name": "Opio",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-09-16",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "0A2A6CAB-26DE-44AC-8A93-0FA4E9848927",
+    "investors": [
+      "Frst",
+      "Seedcamp",
+      "Global Founders Capital"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Other",
+    "url": "/deals/0A2A6CAB-26DE-44AC-8A93-0FA4E9848927"
+  }
+}

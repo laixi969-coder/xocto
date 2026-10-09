@@ -1,0 +1,95 @@
+{
+  "company": {
+    "city": "Paris",
+    "country": "France",
+    "description": "Delos develops autonomous AI workers that integrate with business tools to handle end-to-end tasks across functions including marketing, development, design, HR, finance and customer support.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "BCA25A44-508E-447C-8B1C-E2CDD2CE841B",
+    "investors": [
+      "Bpifrance",
+      "C4 Ventures",
+      "Founders Future"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Delos",
+    "rounds": [
+      {
+        "amountEur": 10000000,
+        "date": "2026-09-16T00:00:00.000Z",
+        "id": "62EC2914-8FF4-482E-826E-99398C6676C8",
+        "investors": [
+          "Bpifrance",
+          "C4 Ventures",
+          "Founders Future"
+        ],
+        "stage": "Series A",
+        "url": "https://funding.tech.eu/deals/62EC2914-8FF4-482E-826E-99398C6676C8"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 52,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 16
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 10000000,
+    "url": "https://funding.tech.eu/companies/BCA25A44-508E-447C-8B1C-E2CDD2CE841B",
+    "website": "https://www.delos.so/"
+  },
+  "round": {
+    "amountEur": 10000000,
+    "amountEurStored": null,
+    "amountNative": 10000000,
+    "company": {
+      "city": "Paris",
+      "country": "France",
+      "founded": null,
+      "id": "BCA25A44-508E-447C-8B1C-E2CDD2CE841B",
+      "name": "Delos",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-09-16",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "62EC2914-8FF4-482E-826E-99398C6676C8",
+    "investors": [
+      "Founders Future",
+      "Bpifrance",
+      "C4 Ventures"
+    ],
+    "rawRoundType": "series a",
+    "source": {
+      "domain": "maddyness.com",
+      "tier": "established"
+    },
+    "stage": "Series A",
+    "url": "/deals/62EC2914-8FF4-482E-826E-99398C6676C8"
+  }
+}

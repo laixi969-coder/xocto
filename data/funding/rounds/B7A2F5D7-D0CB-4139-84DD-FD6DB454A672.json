@@ -1,0 +1,115 @@
+{
+  "company": {
+    "city": "Sheffield",
+    "country": "UK",
+    "description": "Productive Machines enables machining companies to reach to the best part, faster and first time.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "72D9CDA7-F383-4EF5-A944-71D36FF4A447",
+    "investors": [
+      "ACT Venture partners",
+      "Finance Yorkshire",
+      "Fuel Ventures",
+      "Innovate UK",
+      "NPIF – Mercia Equity Finance",
+      "UK Innovation & Science Seed Fund (UKI2S)"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Productive Machines",
+    "rounds": [
+      {
+        "amountEur": null,
+        "date": "2026-09-21T00:00:00.000Z",
+        "id": "B7A2F5D7-D0CB-4139-84DD-FD6DB454A672",
+        "investors": [
+          "Finance Yorkshire",
+          "Innovate UK"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/B7A2F5D7-D0CB-4139-84DD-FD6DB454A672"
+      },
+      {
+        "amountEur": 2486915,
+        "date": "2023-04-24T00:00:00.000Z",
+        "id": "1A17442A-4574-4F54-B719-4B5862FC1F91",
+        "investors": [
+          "ACT Venture partners",
+          "Fuel Ventures",
+          "Innovate UK",
+          "NPIF – Mercia Equity Finance",
+          "UK Innovation & Science Seed Fund (UKI2S)"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/1A17442A-4574-4F54-B719-4B5862FC1F91"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "medium",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 12
+      },
+      "heat": 50,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 11
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 2486915,
+    "url": "https://funding.tech.eu/companies/72D9CDA7-F383-4EF5-A944-71D36FF4A447",
+    "website": "https://productivemachines.co.uk/"
+  },
+  "round": {
+    "amountEur": null,
+    "amountEurStored": null,
+    "amountNative": null,
+    "company": {
+      "city": "Sheffield",
+      "country": "UK",
+      "founded": null,
+      "id": "72D9CDA7-F383-4EF5-A944-71D36FF4A447",
+      "name": "Productive Machines",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "none",
+    "currency": "",
+    "date": "2026-09-21",
+    "fx": null,
+    "id": "B7A2F5D7-D0CB-4139-84DD-FD6DB454A672",
+    "investors": [
+      "Innovate UK",
+      "Finance Yorkshire"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "bdaily.co.uk",
+      "tier": "established"
+    },
+    "stage": "Other",
+    "url": "/deals/B7A2F5D7-D0CB-4139-84DD-FD6DB454A672"
+  }
+}

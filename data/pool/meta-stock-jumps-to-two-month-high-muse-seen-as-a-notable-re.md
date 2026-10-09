@@ -23,7 +23,7 @@ summary: META Stock Jumps To Two-Month High — Muse Seen As A 'Notable' Revenue
   Meta Reportedly Buys A Swedish AI Startup Stocktwits
 first_seen: '2026-09-09T18:15:00Z'
 last_seen: '2026-09-10T05:14:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

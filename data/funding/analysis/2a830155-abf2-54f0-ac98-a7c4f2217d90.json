@@ -1,0 +1,99 @@
+{
+  "company_id": "2a830155-abf2-54f0-ac98-a7c4f2217d90",
+  "round_id": "326bd5cf-20d4-5c2b-a245-ea6c258acdc8",
+  "fingerprint": "ce8589fcef53b0c11ded5669974651a011cf2b518309da7abdb1501fe8459142",
+  "analyzed_at": "2026-10-09T04:53:21Z",
+  "checked_on": "2026-10-09",
+  "research_version": 2,
+  "research_fingerprint": "5e48f7097cd4c219e612e6e966734554ff2894543734e9668639b5d544b95eeb",
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "raised $255.5 million in Series B funding",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://www.armadin.com/",
+      "kind": "retrieval_gap",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "unavailable",
+      "text": "",
+      "error": "HttpError: https://www.armadin.com/ 返回 403（请求有问题，不重试）"
+    },
+    {
+      "url": "https://www.armadin.com/platform",
+      "kind": "retrieval_gap",
+      "role": "product",
+      "checked_on": "2026-10-09",
+      "status": "unavailable",
+      "text": "",
+      "error": "HttpError: https://www.armadin.com/platform 返回 403（请求有问题，不重试）"
+    },
+    {
+      "url": "https://www.armadin.com/platform",
+      "kind": "company_claim",
+      "role": "product",
+      "status": "retrieved",
+      "checked_on": "2026-10-09",
+      "retrieval_method": "web",
+      "text": "            # Know all paths in, all the time.\n ## Attackers decide when it starts.\nYou decide how it ends.\n Armadin by the numbers\n443K\nAgents launched against real targets\n0\nfalse positive findings\n119s\nfastest path to domain compromise\n### Built to breach your defenses\nHow Armadin identifies actual paths to compromise\nPHASE 01\nReconnaissance\nChart the attack surface. Enumerate hosts, profile people, analyze defenses. Quietly reduce uncertainty before the first move.\nPHASE 02\nAdaptive Scouting\nPersistent and adaptive, the attacker probes in parallel, swarming weak points and learning from each attempt to craft increasingly effective attacks.\nPHASE 03\nPrecision Strike\nValidated paths become real kill chains. With defenses mapped and gaps confirmed, the attacker moves with intent—executing toward the objective with speed, accuracy, and purpose.\nSECURITY STACK /\nDEFENSIVE CONTROLS\nOBJECTIVE\nSENSITIVE DATA | DOMAIN COMPROMISE | RANSOM | HYPERVISOR | BACKUP SERVERS | WEB APP COMPROMISE\n## Human ingenuity.\nMachine speed.\n  Proven Tradecraft\nSeasoned red team methodology reinforced into autonomous agents—modeling real attacker behavior, not checklists.\n Adaptive by Design\nEvery probe, response, and pathway refines the system—learning in real time as your environment changes.\n  Execution at Scale\nTests relentlessly, learns continuously, and executes in parallel—surfacing real attack paths and validating defenses before adversaries can.\n   ### Engineered for the world’s largest and\nmost complex organizations\nArchitected, not adapted\nSecurity Expertise\n Work with the elite of the elite. Armadin red team consultants deliver unmatched offensive security and incident response for the most complex and targeted environments anywhere.\nThreat Intelligence\n Work with the elite of the elite. Armadin red team consultants deliver unmatched offensive security and incident response for the most complex and targeted environments anywhere.\nAI experience\n Work with the elite of the elite. Armadin red team consultants deliver unmatched offensive security and incident response for the most complex and targeted environments anywhere.\nSystems Engineering\n Work with the elite of the elite. Armadin red team consultants deliver unmatched offensive security and incident response for the most complex and targeted environments anywhere.\n  01\nPrecision, Not Noise\nFindings are validated, contextualized, and tied to real kill chains—eliminating false positives that waste time.\n02\nSafe by Design\nPurpose-built guardrails ensure controlled execution, scoped impact, and zero disruption to critical systems. Offensive rigor without operational risk.\n03\nEnterprise-Grade Scale\nArchitected to operate across sprawling global environments without degradation or blind spots.\n04\nActionable Remediation\nEvery validated kill chain comes with clear, prioritized guidance—enabling teams to close gaps decisively,\nnot just detect them.\n ## Autonomy and scale are quietly redefining the balance between attack and defense.\nA perspective on the forces shaping modern cybersecurity\n  EXPLORE\n     Contact\n  FOLLOW US\n   © Copyright 2026  -  Armadin\n  \n"
+    }
+  ],
+  "editorial_method": "Primary-source review; no account or live workflow tested.",
+  "zh": {
+    "summary": "用自主代理验证企业环境中真实攻击路径的安全平台。",
+    "judgment": "价值在可复现的风险和可执行修复；零误报与零干扰宣传仍需客户环境验证。",
+    "replaces": "安全团队定期做人工红队测试，再手工汇总可利用路径和修复建议。",
+    "segment": "自主安全验证",
+    "product": "官网平台描述侦察、并行探索与验证攻击链，目标是发现真实入侵路径。HTTP 抓取被拒，本次通过公开网页核验；没有运行任何安全测试。",
+    "customer": "大型企业安全团队是目标，买方可能是安全负责人及风险管理部门。需要持续验证防御的组织更可能有反复需求，但实际客户合同与部署数未确认。",
+    "workflow": "公司描述从暴露面识别到路径验证，再给出优先修复指引。可评估交付是范围内、可复核的发现及修复后复测，使用必须有客户授权和明确环境边界。",
+    "business_model": "未检索到公开价格。企业合同或服务结合软件是商业假设；专家参与、复核时间与环境复杂度可能影响每次测试成本。",
+    "traction": "平台展示代理数量和低误报主张，均为公司披露。缺少独立测试集、客户事故对照与重复采购，不能把运行代理数当作已付费客户。",
+    "moat": "红队方法、环境反馈和可复现攻击链可能积累优势。竞争来自人工安全服务和其他自动验证工具；能否优先找到真实高价值风险比自动化规模更重要。",
+    "funding_read": "融资可支持研究和企业交付，无法替代可靠风险发现的证明。下一步看同一客户持续复测和修复闭环，避免用演示速度替代实际采购价值。",
+    "risks": "范围配置失误或过强执行可能影响生产系统；错误的低风险结论也可能造成安全盲区。应核验授权控制、复核、撤销与故障停止机制。",
+    "takeaway": "让自动发现带有可复核证据，并连接修复责任与复测。将专家知识用于缩短高价值验证流程，而不是只增加扫描量。",
+    "watch_next": "看客户环境中的发现精度、人工复核量、修复周期和重复合同。按环境与授权范围分组，不把一套测试结果推广到全部企业。",
+    "citations": [
+      {
+        "label": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/"
+      },
+      {
+        "label": "Armadin 核验资料 1",
+        "url": "https://www.armadin.com/platform"
+      }
+    ]
+  },
+  "en": {
+    "summary": "An autonomous security platform for validating real enterprise attack paths.",
+    "judgment": "Reproducible risk and actionable remediation are the value; zero-noise and zero-disruption claims require environment-specific verification.",
+    "replaces": "Periodic manual red-team engagements and manual aggregation of exploit paths and remediation.",
+    "segment": "Autonomous security validation",
+    "product": "The official platform describes reconnaissance, parallel exploration and attack-chain validation. HTTP retrieval was refused; public web material was reviewed. No security test was executed.",
+    "customer": "Large security teams are the stated audience, with security leaders plausible buyers. Recurring defense validation can create repeated demand, but customer contracts and deployment counts were not established.",
+    "workflow": "The described flow moves from attack-surface discovery to validation and prioritized remediation. A useful output is an authorized, reviewable finding plus retesting after a fix, within explicit customer scope.",
+    "business_model": "Public prices were not found. Enterprise contracts or software combined with services are hypotheses. Expert involvement, review time and environment complexity affect engagement cost.",
+    "traction": "Agent counts and low-false-positive claims are company-reported. Independent benchmarks, incident comparisons and repeat procurement were unavailable. Executed agents are not paying customers.",
+    "moat": "Tradecraft, environmental feedback and reproducible paths could accumulate advantages. Human security services and other validation tools compete; finding valuable real risks matters more than scan volume.",
+    "funding_read": "Financing supports research and delivery without validating detection quality. Repeat tests and remediation closure within the same customer are stronger milestones than demonstration speed.",
+    "risks": "Wrong scope or excessive execution can affect production; incorrect low-risk conclusions can create blind spots. Authorization, review, revocation and stopping behavior require verification.",
+    "takeaway": "Attach reviewable evidence to automated findings and connect them to remediation ownership and retesting. Use expertise to shorten valuable validation rather than merely increasing scans.",
+    "watch_next": "Watch precision, human review, repair cycles and repeat contracts by environment and authorized scope. A single engagement cannot establish performance across all enterprises.",
+    "citations": [
+      {
+        "label": "Crunchbase News",
+        "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/"
+      },
+      {
+        "label": "Armadin primary material 1",
+        "url": "https://www.armadin.com/platform"
+      }
+    ]
+  }
+}

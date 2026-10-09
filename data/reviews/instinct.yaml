@@ -1,0 +1,40 @@
+- id: req-reviewed-instinct-2026-10-08
+  project_slug: instinct
+  level: full
+  reviewed_at: '2026-10-09T03:40:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 官网给出明确事务与旧行为；根据工作流推断存在执行负担，痛点强度仍需用户样本核验。
+    evidence_ids:
+    - ev-reviewed-55c08872d3435db5
+  - gate: consensus
+    status: insufficient
+    reason: 未见可比任务的独立完成率和四周持续使用证据，融资与关注不等于需求共识。
+    evidence_ids:
+    - ev-reviewed-55c08872d3435db5
+  - gate: model
+    status: insufficient
+    reason: 尚缺付费转化、单次任务成本与人工兜底数据，不能判断单位经济已成立。
+    evidence_ids:
+    - ev-reviewed-55c08872d3435db5
+  - gate: truth
+    status: insufficient
+    reason: 尚未登录执行对照任务；权限、确认与失败恢复需逐项核验。
+    evidence_ids:
+    - ev-reviewed-55c08872d3435db5
+  next_validation: 核验同一任务的完成率、人工介入、四周重复使用、付费与单次交付成本。
+  market: United States
+  job: 个人用户在需要处理账单、买菜、预约或旅行安排时，用短信或电话把事务目标交给代理。
+  job_en: People send a goal by text or phone when bills, groceries, appointments or travel arrangements
+    need handling.
+  pain: 用户原来自己找入口、填表、打电话和跟进，执行步骤分散且耗时（工作流推断）。
+  pain_en: People find services, fill forms, call businesses and follow progress themselves; fragmented
+    execution is a workflow inference.
+  current_alternative: 自己操作各类网站、拨打服务电话，或购买人工代办服务。
+  current_alternative_en: Operate websites, call services personally, or pay for a human concierge.
+  usage_reason: 推断：熟悉的入口加明确的任务交付可减少执行负担；热度与融资尚不能证明可靠性或持续付费。
+  usage_reason_en: 'Inference: familiar access and concrete delivery may reduce execution work; attention
+    and funding do not establish reliability or lasting payment.'

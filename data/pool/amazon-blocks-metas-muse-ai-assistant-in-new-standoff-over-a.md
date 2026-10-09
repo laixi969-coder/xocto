@@ -3,13 +3,15 @@ slug: amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-a
 name: Amazon
 builder: ''
 category: ''
-summary_zh: 亚马逊封禁Meta的Muse AI助手，围绕代理式购物形成新的平台对峙；同期亚马逊面向卖家推出AI代理并在Unboxed 2026发布Branded Conversations。平台对第三方AI代理的准入限制，意味着代理式购物应用的流量入口与分发渠道受制于平台政策，AI购物代理的采用与竞争格局将更多由平台规则而非模型能力决定（推断）。
+summary_zh: 2026 年 9 月，Amazon 阻止 Meta 的 Muse AI 助手接入其平台，围绕代理式购物形成对峙；同期 Amazon 面向卖家推出 AI 代理并在 Unboxed 2026
+  上线 Branded Conversations。这意味着电商平台开始以准入控制争夺 AI 购物代理的分发入口，第三方 AI 助手在商品数据与交易链路上的可用性受平台政策约束，代理式购物的竞争从模型能力转向平台规则。
 inspiration: ''
-summary_en: Amazon blocked Meta's Muse AI assistant, creating a new platform standoff over agentic shopping,
-  while Amazon also launched an AI agent for sellers and Branded Conversations at Unboxed 2026. Platform
-  restrictions on third-party AI agents mean the traffic and distribution channels for agentic shopping
-  applications are gated by platform policy, so adoption and competition in AI shopping agents will be
-  shaped more by platform rules than by model capability (inference).
+summary_en: In September 2026, Amazon blocked Meta's Muse AI assistant from its platform, creating a standoff
+  over agentic shopping; in the same period Amazon launched an AI agent for sellers and Branded Conversations
+  at Unboxed 2026. This means e-commerce platforms are using access control to compete for the distribution
+  entry point of AI shopping agents, so third-party assistants' availability on product data and transaction
+  flows is constrained by platform policy, and competition in agentic shopping shifts from model capability
+  to platform rules.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +27,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN1NIM3JxN1RP
 summary: Amazon blocks Meta’s Muse AI assistant in new standoff over agentic shopping GeekWire
 first_seen: '2026-09-21T07:03:34Z'
 last_seen: '2026-10-09T02:10:55Z'
-status: market_context
+status: rejected
 sources:
 - newssearch
 - marketfeeds

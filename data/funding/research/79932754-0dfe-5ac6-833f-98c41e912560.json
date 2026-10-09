@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "company_id": "79932754-0dfe-5ac6-833f-98c41e912560",
+  "round_fingerprint": "6a0b98e9de3cab941e9f1869f6272d931885c37938e1a21b3aab8875fb8b44a6",
+  "last_attempt": "2026-10-09",
+  "status": "ready",
+  "gaps": [
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "secured $1 billion in a Series C round",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "url": "https://instinct.com/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-09",
+      "status": "retrieved",
+      "text": "Instinct Instinct is a personal assistant that understands what you're working on and what's important to you. The interface is simple: there are no new interfaces. You can text or call it. It can use a phone and computer in the same way that humans do. It can help you dispute an unwarranted bill , send birthday gifts to friends , order groceries , schedule doctor's appointments , or plan a weekend getaway . Text Instinct Copyright © 2026 Instinct Privacy policy Terms of service comms[at]instinct[dot]com"
+    }
+  ],
+  "fingerprint": "6c2d2bc94259726f33700f3443af39d662ab64ea82df9f83efc75d8e9cdb1b50"
+}

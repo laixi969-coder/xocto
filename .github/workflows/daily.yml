@@ -217,6 +217,26 @@ jobs:
           GLM_MODEL: ${{ secrets.GLM_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
+      # Funding facts survive an API/model failure; incomplete research retries
+      # next run without losing the latest round list or the previous analysis.
+      - name: AI 融资产品双语分析
+        id: funding
+        continue-on-error: true
+        run: |
+          if [ -n "${{ inputs.retry_date }}" ]; then
+            uv run xocto funding-brief --date "${{ inputs.retry_date }}"
+          else
+            uv run xocto funding-brief
+          fi
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          GLM_MODEL: ${{ secrets.GLM_MODEL }}
+          MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
+
       - name: 生成网站（日报结果）
         run: uv run xocto build
 
@@ -294,6 +314,7 @@ jobs:
           if [ "${{ steps.brief.outcome }}" = "failure" ]; then failed="$failed brief"; fi
           if [ "${{ steps.market.outcome }}" = "failure" ]; then failed="$failed market"; fi
           if [ "${{ steps.full_req.outcome }}" = "failure" ]; then failed="$failed full_req"; fi
+          if [ "${{ steps.funding.outcome }}" = "failure" ]; then failed="$failed funding"; fi
           if [ "${{ steps.freshness.outcome }}" = "failure" ]; then failed="$failed freshness"; fi
           if [ "${{ steps.design.outcome }}" = "failure" ]; then failed="$failed design"; fi
           if [ "${{ steps.deployment.outcome }}" = "failure" ]; then failed="$failed deployment"; fi

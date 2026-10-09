@@ -1,0 +1,134 @@
+{
+  "company": {
+    "city": "Barcelona",
+    "country": "Spain",
+    "description": "At heydiga we are building the AI-powered conversation layer for local businesses. Always on.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "13BB0820-40CA-4293-9A77-23D8C1D1C833",
+    "investors": [
+      " 6DC",
+      "Angel Investors",
+      "Decelera Ventures",
+      "Felipe Navio ",
+      "Italian Founders Fund",
+      "Juan Urdiales",
+      "KFund",
+      "previous investors"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "HeyDiga",
+    "rounds": [
+      {
+        "amountEur": 5500000,
+        "date": "2026-09-10T00:00:00.000Z",
+        "id": "6F3C56F9-2FE0-418E-BD78-729EE0EF27D1",
+        "investors": [
+          " 6DC",
+          "Angel Investors",
+          "Decelera Ventures",
+          "Italian Founders Fund",
+          "KFund",
+          "previous investors"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/6F3C56F9-2FE0-418E-BD78-729EE0EF27D1"
+      },
+      {
+        "amountEur": 1000000,
+        "date": "2025-12-04T00:00:00.000Z",
+        "id": "22891748-F270-4902-8874-BBA0AA573B14",
+        "investors": [
+          "Felipe Navio ",
+          "Juan Urdiales",
+          "KFund"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/22891748-F270-4902-8874-BBA0AA573B14"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 13
+      },
+      "heat": 76,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 19
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 6500000,
+    "url": "https://funding.tech.eu/companies/13BB0820-40CA-4293-9A77-23D8C1D1C833",
+    "website": "https://heydiga.com/"
+  },
+  "round": {
+    "amountEur": 5500000,
+    "amountEurStored": null,
+    "amountNative": 5500000,
+    "company": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "founded": null,
+      "id": "13BB0820-40CA-4293-9A77-23D8C1D1C833",
+      "name": "HeyDiga",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-09-10",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "6F3C56F9-2FE0-418E-BD78-729EE0EF27D1",
+    "investors": [
+      "KFund",
+      "Decelera Ventures",
+      "previous investors",
+      "Italian Founders Fund",
+      "6DC"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "elreferente.es",
+      "tier": "established"
+    },
+    "stage": "Seed",
+    "url": "/deals/6F3C56F9-2FE0-418E-BD78-729EE0EF27D1"
+  }
+}

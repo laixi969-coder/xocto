@@ -1,0 +1,95 @@
+{
+  "company": {
+    "city": "Helsingborg",
+    "country": "Sweden",
+    "description": "Klang is a Swedish AI platform that makes conversations searchable and usable through transcription, summaries and automated insights.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "41BD65BF-4B68-49EC-95E4-CFEF650CAF66",
+    "investors": [
+      "Daniel Gadd",
+      "Emil Sjödin",
+      "Johan Lenander"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Klang.ai",
+    "rounds": [
+      {
+        "amountEur": 1300000,
+        "date": "2026-09-28T00:00:00.000Z",
+        "id": "A783BD78-A3E0-427F-9B13-91C1331DCA62",
+        "investors": [
+          "Daniel Gadd",
+          "Emil Sjödin",
+          "Johan Lenander"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/A783BD78-A3E0-427F-9B13-91C1331DCA62"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 1300000,
+    "url": "https://funding.tech.eu/companies/41BD65BF-4B68-49EC-95E4-CFEF650CAF66",
+    "website": "https://klang.ai/"
+  },
+  "round": {
+    "amountEur": 1300000,
+    "amountEurStored": null,
+    "amountNative": 1300000,
+    "company": {
+      "city": "Helsingborg",
+      "country": "Sweden",
+      "founded": null,
+      "id": "41BD65BF-4B68-49EC-95E4-CFEF650CAF66",
+      "name": "Klang.ai",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "low",
+    "currency": "EUR",
+    "date": "2026-09-28",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "A783BD78-A3E0-427F-9B13-91C1331DCA62",
+    "investors": [
+      "Daniel Gadd",
+      "Emil Sjödin",
+      "Johan Lenander"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "oresundstartups.com",
+      "tier": "unknown"
+    },
+    "stage": "Other",
+    "url": "/deals/A783BD78-A3E0-427F-9B13-91C1331DCA62"
+  }
+}

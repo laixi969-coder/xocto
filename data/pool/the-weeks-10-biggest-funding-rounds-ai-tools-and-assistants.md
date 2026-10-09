@@ -31,7 +31,7 @@ summary: Most of this week’s largest funding recipients were AI-focused startu
   of AI assistants, pulling in the biggest round.
 first_seen: '2026-08-28T17:21:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 - newssearch

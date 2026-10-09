@@ -32,7 +32,7 @@ summary: The startup is only a year old but it has already generated a massive a
   while also spurring privacy concerns.
 first_seen: '2026-08-27T00:24:57Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 - newssearch

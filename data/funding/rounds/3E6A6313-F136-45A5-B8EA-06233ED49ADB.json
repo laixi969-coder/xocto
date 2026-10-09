@@ -1,0 +1,89 @@
+{
+  "company": {
+    "city": "Bucharest",
+    "country": "Romania",
+    "description": "Kyndred is developing AI companions with voice, memory and real-time interaction, aiming to provide users with a more consistent way to navigate AI and receive support with everyday tasks.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "1F365C52-7137-4EAB-9508-22FB7BAD12B2",
+    "investors": [
+      "Early Game Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Kyndred",
+    "rounds": [
+      {
+        "amountEur": 500000,
+        "date": "2026-09-29T00:00:00.000Z",
+        "id": "3E6A6313-F136-45A5-B8EA-06233ED49ADB",
+        "investors": [
+          "Early Game Ventures"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/3E6A6313-F136-45A5-B8EA-06233ED49ADB"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 500000,
+    "url": "https://funding.tech.eu/companies/1F365C52-7137-4EAB-9508-22FB7BAD12B2",
+    "website": "https://getkyndred.com/"
+  },
+  "round": {
+    "amountEur": 500000,
+    "amountEurStored": null,
+    "amountNative": 500000,
+    "company": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "founded": null,
+      "id": "1F365C52-7137-4EAB-9508-22FB7BAD12B2",
+      "name": "Kyndred",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-09-29",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "3E6A6313-F136-45A5-B8EA-06233ED49ADB",
+    "investors": [
+      "Early Game Ventures"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/3E6A6313-F136-45A5-B8EA-06233ED49ADB"
+  }
+}

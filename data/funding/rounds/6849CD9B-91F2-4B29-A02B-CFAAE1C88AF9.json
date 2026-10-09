@@ -1,0 +1,111 @@
+{
+  "company": {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "description": "Zurich-based aviation technology company",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "31855D3B-5984-4577-8113-7A39D79473A5",
+    "investors": [
+      " United Airlines Ventures",
+      "Armira Growth",
+      "Existing investors"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Assaia",
+    "rounds": [
+      {
+        "amountEur": null,
+        "date": "2026-09-11T00:00:00.000Z",
+        "id": "6849CD9B-91F2-4B29-A02B-CFAAE1C88AF9",
+        "investors": [
+          " United Airlines Ventures"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/6849CD9B-91F2-4B29-A02B-CFAAE1C88AF9"
+      },
+      {
+        "amountEur": 22858125,
+        "date": "2025-12-09T00:00:00.000Z",
+        "id": "8387D6ED-1E6C-4894-B485-768BF0F48927",
+        "investors": [
+          "Armira Growth",
+          "Existing investors"
+        ],
+        "stage": "Series B",
+        "url": "https://funding.tech.eu/deals/8387D6ED-1E6C-4894-B485-768BF0F48927"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "medium",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 15
+      },
+      "heat": 50,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 11
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 22858125,
+    "url": "https://funding.tech.eu/companies/31855D3B-5984-4577-8113-7A39D79473A5",
+    "website": "https://www.assaia.com/"
+  },
+  "round": {
+    "amountEur": null,
+    "amountEurStored": null,
+    "amountNative": null,
+    "company": {
+      "city": "Zurich",
+      "country": "Switzerland",
+      "founded": null,
+      "id": "31855D3B-5984-4577-8113-7A39D79473A5",
+      "name": "Assaia",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "none",
+    "currency": "",
+    "date": "2026-09-11",
+    "fx": null,
+    "id": "6849CD9B-91F2-4B29-A02B-CFAAE1C88AF9",
+    "investors": [
+      "United Airlines Ventures"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "startupticker.ch",
+      "tier": "established"
+    },
+    "stage": "Other",
+    "url": "/deals/6849CD9B-91F2-4B29-A02B-CFAAE1C88AF9"
+  }
+}

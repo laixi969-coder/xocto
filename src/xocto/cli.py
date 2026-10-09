@@ -122,6 +122,18 @@ def cmd_build(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_funding_brief(args: argparse.Namespace) -> int:
+    from .brief import BriefError, run_funding
+
+    try:
+        completed = run_funding(Store(), day=_parse_day(args.date), limit=args.limit, force=args.force)
+    except (BriefError, ValueError, FileNotFoundError) as exc:
+        print(f"融资分析未完成：{exc}", file=sys.stderr)
+        return 2
+    print(f"已完成 {completed} 个产品的双语融资分析")
+    return 0
+
+
 def cmd_brief(args: argparse.Namespace) -> int:
     from .brief import BriefError, run
 
@@ -257,6 +269,9 @@ def cmd_status(args: argparse.Namespace) -> int:
     days = store.raw_days()
     products = list(store.iter_products())
     counts = Counter(p.status for p in products)
+    overdue = [p for p in products if p.status == STATUS_PENDING_FILTER and p.last_seen[:10] < today().isoformat()]
+    if overdue:
+        print(f"  未完成的历史候选 {len(overdue)} 个（每天补回重点项目与最多 32 个普通候选）")
 
     print()
     print("─" * 46)
@@ -377,6 +392,12 @@ def build_parser() -> argparse.ArgumentParser:
     p_brief.add_argument("--date", help="指定日报日期 YYYY-MM-DD，默认今天")
     p_brief.add_argument("--force", action="store_true", help="当天日报已存在时仍重新生成")
     p_brief.set_defaults(func=cmd_brief)
+
+    p_funding = sub.add_parser("funding-brief", help="分析最新 AI 融资产品，中英文一起更新")
+    p_funding.add_argument("--date", help="仅分析截至该日的融资 YYYY-MM-DD")
+    p_funding.add_argument("--limit", type=int, default=8, help="每次最多研究的公司数，默认 8")
+    p_funding.add_argument("--force", action="store_true", help="重写已有分析")
+    p_funding.set_defaults(func=cmd_funding_brief)
 
     p_market = sub.add_parser("market", help="核验当天保留项目的中英文市场供给")
     p_market.add_argument("--date", help="指定日期 YYYY-MM-DD，默认今天")

@@ -35,7 +35,7 @@ summary: Instinct is rolling out human-curated product and travel recommendation
   happy about getting suggestions they never asked for.
 first_seen: '2026-09-30T15:56:28Z'
 last_seen: '2026-10-01T01:19:01Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 sightings:

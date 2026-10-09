@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-
 summary: The tech giant says the agent can help owners run their business and find new customers.
 first_seen: '2026-09-29T13:47:30Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

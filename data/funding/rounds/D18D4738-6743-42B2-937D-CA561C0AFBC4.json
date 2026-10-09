@@ -1,0 +1,138 @@
+{
+  "company": {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "description": "Complir’s platform consolidates product data across systems and uses AI to automate key compliance workflows, including labelling, testing requirements, risk scoring, documentation, and regulatory monitoring.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "19FADC5A-E101-48EC-ABDD-36816F809AEC",
+    "investors": [
+      "Angel Investors",
+      "Business Angels",
+      "General Catalyst",
+      "JHJ Seed Capital",
+      "Kraen Østergaard Nielsen",
+      "Likeminded ",
+      "Neil S. W. Murray",
+      "Per Thau",
+      "Plug and Play",
+      "specialist industry funds",
+      "Vendep Capital",
+      "Xpress Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Complir",
+    "rounds": [
+      {
+        "amountEur": 9534539,
+        "date": "2026-09-16T00:00:00.000Z",
+        "id": "D18D4738-6743-42B2-937D-CA561C0AFBC4",
+        "investors": [
+          "Angel Investors",
+          "General Catalyst",
+          "specialist industry funds"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/D18D4738-6743-42B2-937D-CA561C0AFBC4"
+      },
+      {
+        "amountEur": 1700000,
+        "date": "2025-12-03T00:00:00.000Z",
+        "id": "02B2427C-D582-4ECF-ACFA-3FB8B3C8D92D",
+        "investors": [
+          "Business Angels",
+          "JHJ Seed Capital",
+          "Kraen Østergaard Nielsen",
+          "Likeminded ",
+          "Neil S. W. Murray",
+          "Per Thau",
+          "Plug and Play",
+          "Vendep Capital",
+          "Xpress Ventures"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/02B2427C-D582-4ECF-ACFA-3FB8B3C8D92D"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 14
+      },
+      "heat": 84,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 18
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 11234539,
+    "url": "https://funding.tech.eu/companies/19FADC5A-E101-48EC-ABDD-36816F809AEC",
+    "website": "http://www.complir.io/"
+  },
+  "round": {
+    "amountEur": 9534539,
+    "amountEurStored": null,
+    "amountNative": 10999998,
+    "company": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "founded": null,
+      "id": "19FADC5A-E101-48EC-ABDD-36816F809AEC",
+      "name": "Complir",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-09-16",
+    "fx": {
+      "asOf": "2026-09-16",
+      "rate": 1.1537,
+      "source": "ECB"
+    },
+    "id": "D18D4738-6743-42B2-937D-CA561C0AFBC4",
+    "investors": [
+      "General Catalyst",
+      "specialist industry funds"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Seed",
+    "url": "/deals/D18D4738-6743-42B2-937D-CA561C0AFBC4"
+  }
+}

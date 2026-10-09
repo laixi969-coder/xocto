@@ -1,0 +1,110 @@
+{
+  "company": {
+    "city": "Eindhoven",
+    "country": "Netherlands",
+    "description": "EUCLYD is building AI infrastructure that aims to solve the compute and memory hurdle.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "173255C0-91C6-46D2-A7EB-4DCD12533DDE",
+    "investors": [
+      "Brabant Development Agency (BOM)",
+      "EIFO",
+      "imec.xpand",
+      "Innovation Industries",
+      "Quadri Ventures",
+      "Samsung",
+      "Somerset Capital Partners",
+      "The Scaleup Europe Fund"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "EUCLYD",
+    "rounds": [
+      {
+        "amountEur": 200000000,
+        "date": "2026-09-15T00:00:00.000Z",
+        "id": "0CE2BAFE-45FB-4B87-B95D-C5AA8A051CB9",
+        "investors": [
+          "Brabant Development Agency (BOM)",
+          "EIFO",
+          "imec.xpand",
+          "Innovation Industries",
+          "Quadri Ventures",
+          "Samsung",
+          "Somerset Capital Partners",
+          "The Scaleup Europe Fund"
+        ],
+        "stage": "Series A",
+        "url": "https://funding.tech.eu/deals/0CE2BAFE-45FB-4B87-B95D-C5AA8A051CB9"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 75,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 16
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 200000000,
+    "url": "https://funding.tech.eu/companies/173255C0-91C6-46D2-A7EB-4DCD12533DDE",
+    "website": "https://www.euclyd.ai/"
+  },
+  "round": {
+    "amountEur": 200000000,
+    "amountEurStored": null,
+    "amountNative": 200000000,
+    "company": {
+      "city": "Eindhoven",
+      "country": "Netherlands",
+      "founded": null,
+      "id": "173255C0-91C6-46D2-A7EB-4DCD12533DDE",
+      "name": "EUCLYD",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-09-15",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "0CE2BAFE-45FB-4B87-B95D-C5AA8A051CB9",
+    "investors": [
+      "Brabant Development Agency (BOM)",
+      "imec.xpand",
+      "EIFO",
+      "Somerset Capital Partners",
+      "The Scaleup Europe Fund",
+      "Samsung",
+      "Innovation Industries",
+      "Quadri Ventures"
+    ],
+    "rawRoundType": "series a",
+    "source": {
+      "domain": "eu-startups.com",
+      "tier": "established"
+    },
+    "stage": "Series A",
+    "url": "/deals/0CE2BAFE-45FB-4B87-B95D-C5AA8A051CB9"
+  }
+}

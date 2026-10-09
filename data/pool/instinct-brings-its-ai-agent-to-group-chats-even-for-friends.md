@@ -38,7 +38,7 @@ summary: Instinct is launching group chats that let friends use its AI agent tog
   with permission required before personal agents share information or take action.
 first_seen: '2026-10-05T18:54:30Z'
 last_seen: '2026-10-06T02:19:01Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 sightings:

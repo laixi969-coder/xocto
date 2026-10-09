@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}{{ redirect_product.name }} · {{ locale.site_name }}{% endblock %}
+{% block redirect_meta %}
+<meta http-equiv="refresh" content="0;url={{ root }}{{ locale.prefix }}p/{{ redirect_product.slug }}.html">
+<meta name="robots" content="noindex,follow">
+{% endblock %}
+{% block body %}
+<div class="wrap funding-desk">
+  <h1>{{ redirect_product.name }}</h1>
+  <p>{{ t.product.profile_moved }}</p>
+  <a class="funding-link" href="{{ root }}{{ locale.prefix }}p/{{ redirect_product.slug }}.html">{{ locale.cta_default }} →</a>
+</div>
+{% endblock %}

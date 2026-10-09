@@ -1,0 +1,89 @@
+{
+  "company": {
+    "city": "Rome",
+    "country": "Italy",
+    "description": "Ardeevo is the AI-native regulatory service that offers support in drafting technical and quality management system documentation, expert-reviewed, for MedTech companies.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "CF4D45AA-204D-4841-BEC8-CE4B9478D157",
+    "investors": [
+      "ZNEXT"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Ardeevo",
+    "rounds": [
+      {
+        "amountEur": 150000,
+        "date": "2026-10-05T00:00:00.000Z",
+        "id": "3C1DD2E7-6332-49AF-9824-DBF031D1A2BE",
+        "investors": [
+          "ZNEXT"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/3C1DD2E7-6332-49AF-9824-DBF031D1A2BE"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 150000,
+    "url": "https://funding.tech.eu/companies/CF4D45AA-204D-4841-BEC8-CE4B9478D157",
+    "website": "https://www.ardeevo.eu/"
+  },
+  "round": {
+    "amountEur": 150000,
+    "amountEurStored": null,
+    "amountNative": 150000,
+    "company": {
+      "city": "Rome",
+      "country": "Italy",
+      "founded": null,
+      "id": "CF4D45AA-204D-4841-BEC8-CE4B9478D157",
+      "name": "Ardeevo",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "low",
+    "currency": "EUR",
+    "date": "2026-10-05",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "3C1DD2E7-6332-49AF-9824-DBF031D1A2BE",
+    "investors": [
+      "ZNEXT"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "startupbusiness.it",
+      "tier": "unknown"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/3C1DD2E7-6332-49AF-9824-DBF031D1A2BE"
+  }
+}

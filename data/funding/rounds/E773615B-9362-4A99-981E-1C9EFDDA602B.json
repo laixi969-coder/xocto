@@ -1,0 +1,95 @@
+{
+  "company": {
+    "city": "Molndal",
+    "country": "Sweden",
+    "description": "We work with labs in pharmaceutical, chemical, agricultural, and cosmetic R&D that need reliable measurements and a clearer view of their data.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "126CA1BC-3D21-47B7-9659-4C88644A73B2",
+    "investors": [
+      "Bodil Sidén",
+      "Kost Capital",
+      "Voima Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Aventix",
+    "rounds": [
+      {
+        "amountEur": 1200000,
+        "date": "2026-09-30T00:00:00.000Z",
+        "id": "E773615B-9362-4A99-981E-1C9EFDDA602B",
+        "investors": [
+          "Bodil Sidén",
+          "Kost Capital",
+          "Voima Ventures"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/E773615B-9362-4A99-981E-1C9EFDDA602B"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 1200000,
+    "url": "https://funding.tech.eu/companies/126CA1BC-3D21-47B7-9659-4C88644A73B2",
+    "website": "http://www.aventix.io"
+  },
+  "round": {
+    "amountEur": 1200000,
+    "amountEurStored": null,
+    "amountNative": 1200000,
+    "company": {
+      "city": "Molndal",
+      "country": "Sweden",
+      "founded": null,
+      "id": "126CA1BC-3D21-47B7-9659-4C88644A73B2",
+      "name": "Aventix",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-09-30",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "E773615B-9362-4A99-981E-1C9EFDDA602B",
+    "investors": [
+      "Kost Capital",
+      "Voima Ventures",
+      "Bodil Sidén"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "breakit.se",
+      "tier": "established"
+    },
+    "stage": "Other",
+    "url": "/deals/E773615B-9362-4A99-981E-1C9EFDDA602B"
+  }
+}

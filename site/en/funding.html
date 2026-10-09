@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>AI funding radar · x-octo</title>
+<meta name="description" content="Recent US and European AI funding, with verifiable deal facts and detailed product analysis.">
+<link rel="canonical" href="https://xocto.vercel.app/en/funding.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/funding.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/funding.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/funding.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="x-octo · Business judgment on AI products">
+<meta property="og:description" content="Recent US and European AI funding, with verifiable deal facts and detailed product analysis.">
+<meta property="og:url" content="https://xocto.vercel.app/en/funding.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · Business judgment on AI products">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/funding.html#webpage", "@type": "WebPage", "description": "Recent US and European AI funding, with verifiable deal facts and detailed product analysis.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "AI funding radar", "url": "https://xocto.vercel.app/en/funding.html"}]}</script><link rel="stylesheet" href="../style.css?v=09d24ad54337">
+<link rel="stylesheet" href="../funding.css?v=09d24ad54337">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../en/index.html" aria-label="x-octo home"><span>x-octo home</span></a>
+      <span class="brand-tag">Business judgment on AI products</span>
+    </div>
+    <nav class="nav">
+      <a href="../en/index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>Today</span></a>
+      <a href="../en/products.html" class=""><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>Opportunity map</span></a>
+      <a href="../en/funding.html" class="on" aria-current="page"><svg class="ico" data-ico="trend" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 17 L9 11 L13 15 L21 5"/><path d="M15 5 L21 5 L21 11"/></svg><span>AI funding</span></a>
+      <a href="../en/takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>Playbook</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../funding.html" lang="zh-CN"
+         hreflang="zh-Hans" aria-label="切换到中文版"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>中文</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Dark mode">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>Theme</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap funding-desk">
+  <header class="lede-bar desk-command">
+    <div class="lede-main">
+      <p class="eyebrow">FUNDING DESK · 2026-10-08</p>
+      <h1>AI funding radar</h1>
+      <p class="funding-lede">Follow the capital. Understand the business.</p>
+      <p>Recent US and European AI funding, with verifiable deal facts and detailed product analysis.</p>
+    </div>
+    <dl class="desk-stats funding-stats">
+      <div><dt class="num">48</dt><dd>Funding records</dd></div>
+      <div><dt class="num">47</dt><dd>Product analyses</dd></div>
+      <div><dt class="num">7</dt><dd>Amounts undisclosed</dd></div>
+    </dl>
+  </header>
+  <p class="funding-scope">European funding data and public US funding reports; this is not a global census. European figures use historical EUR conversion, with native amounts retained. US records retain native currency without guessed FX. Publication dates are explicitly labeled when an announcement date is not established.<br>Funding data attribution：
+    <a class="citation-source" href="https://funding.tech.eu/">Tech.eu Funding Explorer</a> ·
+    <a class="citation-source" href="https://news.crunchbase.com/feed/">Crunchbase News</a> ·
+    <a class="citation-source" href="https://techcrunch.com/category/venture/feed/">TechCrunch</a>
+ · <span class="num">2026-09-10 — 2026-10-08</span>  </p>
+  <section class="band desk-band">
+    <div class="sec-head desk-sec"><div><p class="section-index">01</p><h2>Products in focus</h2></div><span class="note">Start with the work replaced, then assess the business.</span></div>
+<div class="funding-picks">
+  <article class="funding-pick">
+    <div class="funding-pick-id">
+      <p class="eyebrow num">2026-10-08 · United States · Seed</p>
+      <h3><a href="../en/f/gudea-d4a359b3.html">Gudea</a></h3>
+      <p class="funding-amount num">$7.00M</p>
+      <a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/gudea-lands-funding-predict-viral-online-narratives/">Crunchbase News ↗</a>
+      <span class="tag">Narrative intelligence</span>
+    </div>
+    <div class="funding-pick-body">
+      <p>Narrative intelligence for detecting emerging stories and tracing amplification.</p>
+      <div class="field"><span class="field-k">Work it replaces</span><p>Manual keyword checks, reconstruction of amplification chains and analyst briefs.</p></div>
+      <div class="field field-take"><span class="field-k">Business judgment</span><p>Value depends on action after an alert; false alarms, lead time and response outcomes determine procurement value.</p></div>
+      <a class="funding-link" href="../en/f/gudea-d4a359b3.html">Product and funding analysis →</a>
+    </div>
+  </article>
+  <article class="funding-pick">
+    <div class="funding-pick-id">
+      <p class="eyebrow num">2026-10-08 · Denmark · Seed</p>
+      <h3><a href="../en/f/today-8d9f69d6.html">TODAY</a></h3>
+      <p class="funding-amount num">€2.80M</p>
+      <a class="citation-source funding-citation" href="https://funding.tech.eu/deals/294D8F04-8C8F-42CF-8E79-BBE1232D0B78">Tech.eu Funding Explorer ↗</a>
+      <span class="tag">Financial and insurance advice</span>
+    </div>
+    <div class="funding-pick-body">
+      <p>An AI workspace connecting financial and insurance conversations with documentation, CRM updates and coaching.</p>
+      <div class="field"><span class="field-k">Work it replaces</span><p>Post-meeting notes, repeated client-data entry, and manager-led reviews and role-play.</p></div>
+      <div class="field field-take"><span class="field-k">Business judgment</span><p>The research question is whether industry coaching and records reduce review work and earn renewals beyond a meeting-notes tool.</p></div>
+      <a class="funding-link" href="../en/f/today-8d9f69d6.html">Product and funding analysis →</a>
+    </div>
+  </article>
+  <article class="funding-pick">
+    <div class="funding-pick-id">
+      <p class="eyebrow num">2026-10-07 · UK · Pre-seed</p>
+      <h3><a href="../en/f/nearhuman-436355f1.html">Nearhuman</a></h3>
+      <p class="funding-amount num">€413,492</p>
+      <a class="citation-source funding-citation" href="https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF">Tech.eu Funding Explorer ↗</a>
+      <span class="tag">Micromobility safety</span>
+    </div>
+    <div class="funding-pick-body">
+      <p>Scootrr connects edge AI with safety operations for micromobility vehicles.</p>
+      <div class="field"><span class="field-k">Work it replaces</span><p>Reactive accident investigation, manual fleet checks and coarse safety rules.</p></div>
+      <div class="field field-take"><span class="field-k">Business judgment</span><p>A clear cost owner exists, but field safety outcomes and economics per vehicle must justify deployment.</p></div>
+      <a class="funding-link" href="../en/f/nearhuman-436355f1.html">Product and funding analysis →</a>
+    </div>
+  </article>
+</div>  </section>
+  <section class="band desk-band" id="rounds">
+    <div class="sec-head desk-sec"><div><p class="section-index">02</p><h2>Recent funding</h2></div><span class="note num">48 Funding records</span></div>
+    <form class="funding-controls" onsubmit="return false">
+      <label>Search products or investors<input id="funding-search" type="search" autocomplete="off"></label>
+      <label>Coverage<select id="funding-market"><option value="">All markets</option><option value="US">United States (10)</option><option value="Europe">Europe (38)</option></select></label>
+      <label>Region<select id="funding-country"><option value="">All</option><option value="Belgium">Belgium</option><option value="Denmark">Denmark</option><option value="Estonia">Estonia</option><option value="France">France</option><option value="Germany">Germany</option><option value="Italy">Italy</option><option value="Malta">Malta</option><option value="Netherlands">Netherlands</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Romania">Romania</option><option value="Spain">Spain</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="UK">UK</option><option value="United States">United States</option></select></label>
+      <label>Round<select id="funding-stage"><option value="">All</option><option value="Debt">Debt</option><option value="Growth/Late">Growth / late</option><option value="Other">Round unspecified</option><option value="Pre-Seed">Pre-seed</option><option value="Seed">Seed</option><option value="Series A">Series A</option><option value="Series B">Series B</option><option value="Series C">Series C</option></select></label>
+      <label>Sort by<select id="funding-sort"><option value="date">Latest round</option><option value="amount">Largest amount</option></select></label>
+      <label>Display currency<select id="funding-currency"><option value="">All</option><option value="EUR">EUR</option><option value="USD">USD</option></select></label>
+    </form>
+    <p class="note" role="status" aria-live="polite"><span id="funding-count" class="num">48</span> matching records</p>
+    <p class="note">Amount sorting groups records by display currency; it does not compare currencies. Debt and equity remain separate.</p>
+    <div class="scroll-x funding-table-wrap" tabindex="0" role="region" aria-label="Recent funding">
+      <table class="funding-table">
+        <thead><tr><th scope="col">Product / company</th><th scope="col">This round</th><th scope="col">Round / Date</th><th scope="col">Participating investors</th></tr></thead>
+        <tbody id="funding-rows">
+          <tr data-search="gudea mudita venture partners silicon road ventures narrative intelligence" data-market="US" data-currency="USD" data-country="United States" data-stage="Seed" data-date="2026-10-08" data-amount="7000000.0">
+            <td><a class="funding-name" href="../en/f/gudea-d4a359b3.html">Gudea</a><span class="funding-meta">United States · Narrative intelligence</span><span class="funding-row-summary">Narrative intelligence for detecting emerging stories and tracing amplification.</span></td>
+            <td><strong class="num">$7.00M</strong><a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/gudea-lands-funding-predict-viral-online-narratives/">Crunchbase News ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-08</span><span class="funding-meta">Report published</span></td>
+            <td>Mudita Venture Partners, Silicon Road Ventures</td>
+          </tr>
+          <tr data-search="today insurtech gateway seed x herbert rogenhofer lucid capital high-tech gründerfonds (htgf) pierre dubosq financial and insurance advice" data-market="Europe" data-currency="EUR" data-country="Denmark" data-stage="Seed" data-date="2026-10-08" data-amount="2800000.0">
+            <td><a class="funding-name" href="../en/f/today-8d9f69d6.html">TODAY</a><span class="funding-meta">Denmark · Financial and insurance advice</span><span class="funding-row-summary">An AI workspace connecting financial and insurance conversations with documentation, CRM updates and coaching.</span></td>
+            <td><strong class="num">€2.80M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/294D8F04-8C8F-42CF-8E79-BBE1232D0B78">Tech.eu Funding Explorer ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-08</span><span class="funding-meta">Funding record date</span></td>
+            <td>Insurtech Gateway, Seed X, Herbert Rogenhofer, Lucid Capital, High-Tech Gründerfonds (HTGF), Pierre Dubosq</td>
+          </tr>
+          <tr data-search="nearhuman sfc capital micromobility safety" data-market="Europe" data-currency="EUR" data-country="UK" data-stage="Pre-Seed" data-date="2026-10-07" data-amount="413492.0">
+            <td><a class="funding-name" href="../en/f/nearhuman-436355f1.html">Nearhuman</a><span class="funding-meta">UK · Micromobility safety</span><span class="funding-row-summary">Scootrr connects edge AI with safety operations for micromobility vehicles.</span></td>
+            <td><strong class="num">€413,492</strong><span class="funding-meta num">£350,000</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-07</span><span class="funding-meta">Funding record date</span></td>
+            <td>SFC Capital</td>
+          </tr>
+          <tr data-search="plannerpal strategic fintech investors ada ventures mercia ventures wealth-management workflows" data-market="Europe" data-currency="EUR" data-country="UK" data-stage="Other" data-date="2026-10-07" data-amount="5080040.0">
+            <td><a class="funding-name" href="../en/f/plannerpal-54dd8259.html">PlannerPal</a><span class="funding-meta">UK · Wealth-management workflows</span><span class="funding-row-summary">An AI workflow connecting adviser preparation, conversations and follow-up documents to existing client systems.</span></td>
+            <td><strong class="num">€5.08M</strong><span class="funding-meta num">£4.30M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/A935A125-0EDE-4111-9534-310BACD8C07D">Tech.eu Funding Explorer ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-10-07</span><span class="funding-meta">Funding record date</span></td>
+            <td>strategic fintech investors, Ada Ventures, Mercia Ventures</td>
+          </tr>
+          <tr data-search="cori clinical together ventures enzo ventures heartfelt bynd vc breega clinical-trial collaboration" data-market="Europe" data-currency="EUR" data-country="UK" data-stage="Seed" data-date="2026-10-07" data-amount="3578778.0">
+            <td><a class="funding-name" href="../en/f/cori-clinical-06755854.html">Cori Clinical</a><span class="funding-meta">UK · Clinical-trial collaboration</span><span class="funding-row-summary">A versioned shared trial record connecting design, budgets and operational documents.</span></td>
+            <td><strong class="num">€3.58M</strong><span class="funding-meta num">$4.00M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/9A2D296F-9AEE-4184-AE8D-94150F955585">Tech.eu Funding Explorer ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-07</span><span class="funding-meta">Funding record date</span></td>
+            <td>Together Ventures, Enzo Ventures, Heartfelt, Bynd VC, Breega</td>
+          </tr>
+          <tr data-search="simpl techshop capital vento ventures b2b sales development" data-market="Europe" data-currency="EUR" data-country="Italy" data-stage="Pre-Seed" data-date="2026-10-06" data-amount="1200000.0">
+            <td><a class="funding-name" href="../en/f/simpl-4ac4a279.html">SimpL</a><span class="funding-meta">Italy · B2B sales development</span><span class="funding-row-summary">A sales AI connecting prospect research, contextual outreach and follow-up around qualified B2B meetings.</span></td>
+            <td><strong class="num">€1.20M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/24B669E4-F66B-4E3E-9E3C-339805FC2C4A">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-06</span><span class="funding-meta">Funding record date</span></td>
+            <td>Techshop Capital, Vento Ventures</td>
+          </tr>
+          <tr data-search="aurachain evolution equity partners compliance and risk execution" data-market="Europe" data-currency="" data-country="Switzerland" data-stage="Growth/Late" data-date="2026-10-05" data-amount="-1">
+            <td><a class="funding-name" href="../en/f/aurachain-c6e7d70f.html">Aurachain</a><span class="funding-meta">Switzerland · Compliance and risk execution</span><span class="funding-row-summary">A governed execution platform connecting people, systems and AI across compliance, risk and fraud work.</span></td>
+            <td><strong class="num">Undisclosed</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/98DF057D-1114-42F4-B5A3-B54071C52E20">Tech.eu Funding Explorer ↗</a></td>
+            <td>Growth / late<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-05</span><span class="funding-meta">Funding record date</span></td>
+            <td>Evolution Equity Partners</td>
+          </tr>
+          <tr data-search="namespace olivier pomel burst capital nea essence vc scale venture partners 20vc developer and agent infrastructure" data-market="Europe" data-currency="EUR" data-country="Switzerland" data-stage="Series B" data-date="2026-10-05" data-amount="37486612.0">
+            <td><a class="funding-name" href="../en/f/namespace-73580a42.html">Namespace</a><span class="funding-meta">Switzerland · Developer and agent infrastructure</span><span class="funding-row-summary">Build, test and execution infrastructure for developers and AI coding agents.</span></td>
+            <td><strong class="num">€37.49M</strong><span class="funding-meta num">$42.00M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/79F65E4C-0EFF-420C-B3BE-61592B335A51">Tech.eu Funding Explorer ↗</a></td>
+            <td>Series B<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-05</span><span class="funding-meta">Funding record date</span></td>
+            <td>Olivier Pomel, Burst Capital, NEA, Essence VC, Scale Venture Partners, 20VC</td>
+          </tr>
+          <tr data-search="ebo olea venture partners healthcare administration" data-market="Europe" data-currency="" data-country="Malta" data-stage="Other" data-date="2026-10-05" data-amount="-1">
+            <td><a class="funding-name" href="../en/f/ebo-a5c71ec9.html">Ebo</a><span class="funding-meta">Malta · Healthcare administration</span><span class="funding-row-summary">AI services connecting patient communication, appointments and administration with existing healthcare systems.</span></td>
+            <td><strong class="num">Undisclosed</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/75B163EA-98D0-4ABA-89F8-CD10DF6207F2">Tech.eu Funding Explorer ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-10-05</span><span class="funding-meta">Funding record date</span></td>
+            <td>Olea Venture Partners</td>
+          </tr>
+          <tr data-search="ardeevo znext medical-device documentation" data-market="Europe" data-currency="EUR" data-country="Italy" data-stage="Pre-Seed" data-date="2026-10-05" data-amount="150000.0">
+            <td><a class="funding-name" href="../en/f/ardeevo-cf4d45aa.html">Ardeevo</a><span class="funding-meta">Italy · Medical-device documentation</span><span class="funding-row-summary">An AI-assisted, expert-reviewed documentation service for medical-device companies.</span></td>
+            <td><strong class="num">€150,000</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/3C1DD2E7-6332-49AF-9824-DBF031D1A2BE">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-05</span><span class="funding-meta">Funding record date</span></td>
+            <td>ZNEXT</td>
+          </tr>
+          <tr data-search="supabase gic ai application backends" data-market="US" data-currency="USD" data-country="United States" data-stage="Other" data-date="2026-10-02" data-amount="150000000.0">
+            <td><a class="funding-name" href="../en/f/supabase-10e839b3.html">Supabase</a><span class="funding-meta">United States · AI application backends</span><span class="funding-row-summary">A Postgres development platform joining database, authentication and backend services for AI-built applications.</span></td>
+            <td><strong class="num">$150.00M</strong><a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/">Crunchbase News ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-10-02</span><span class="funding-meta">Report published</span></td>
+            <td>GIC</td>
+          </tr>
+          <tr data-search="sima.ai fidelity amplify physical ai and edge deployment" data-market="US" data-currency="USD" data-country="United States" data-stage="Series C" data-date="2026-10-02" data-amount="150000000.0">
+            <td><a class="funding-name" href="../en/f/simaai-73d88a62.html">SiMa.ai</a><span class="funding-meta">United States · Physical AI and edge deployment</span><span class="funding-row-summary">Palette software and Modalix hardware for deploying physical AI on edge devices.</span></td>
+            <td><strong class="num">$150.00M</strong><a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/">Crunchbase News ↗</a></td>
+            <td>Series C<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-02</span><span class="funding-meta">Report published</span></td>
+            <td>Fidelity, Amplify</td>
+          </tr>
+          <tr data-search="gmi cloud archiv nvidia inference and gpu cloud" data-market="US" data-currency="USD" data-country="United States" data-stage="Series B" data-date="2026-10-02" data-amount="223000000.0">
+            <td><a class="funding-name" href="../en/f/gmi-cloud-5b80b354.html">GMI Cloud</a><span class="funding-meta">United States · Inference and GPU cloud</span><span class="funding-row-summary">A cloud combining GPU clusters, inference APIs and managed agent environments.</span></td>
+            <td><strong class="num">$223.00M</strong><a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/">Crunchbase News ↗</a></td>
+            <td>Series B<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-02</span><span class="funding-meta">Report published</span></td>
+            <td>Archiv, Nvidia</td>
+          </tr>
+          <tr data-search="cscale atreides management valor equity partners premji invest ai optical interconnect" data-market="US" data-currency="USD" data-country="United States" data-stage="Series C" data-date="2026-10-02" data-amount="145000000.0">
+            <td><a class="funding-name" href="../en/f/cscale-ee6fb513.html">CScale</a><span class="funding-meta">United States · AI optical interconnect</span><span class="funding-row-summary">Optical interconnect for large AI clusters, emphasizing containment of hardware failures.</span></td>
+            <td><strong class="num">$145.00M</strong><a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/">Crunchbase News ↗</a></td>
+            <td>Series C<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-02</span><span class="funding-meta">Report published</span></td>
+            <td>Atreides Management, Valor Equity Partners, Premji Invest</td>
+          </tr>
+          <tr data-search="general intuition valor equity partners atreides management world models and action intelligence" data-market="US" data-currency="USD" data-country="United States" data-stage="Other" data-date="2026-10-02" data-amount="220000000.0">
+            <td><a class="funding-name" href="../en/f/general-intuition-be8404a1.html">General Intuition</a><span class="funding-meta">United States · World models and action intelligence</span><span class="funding-row-summary">A world-model lab learning prediction and action from action-labeled video and virtual environments.</span></td>
+            <td><strong class="num">$220.00M</strong><a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/">Crunchbase News ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-10-02</span><span class="funding-meta">Report published</span></td>
+            <td>Valor Equity Partners, Atreides Management</td>
+          </tr>
+          <tr data-search="armadin andreessen horowitz accel autonomous security validation" data-market="US" data-currency="USD" data-country="United States" data-stage="Series B" data-date="2026-10-02" data-amount="255500000.0">
+            <td><a class="funding-name" href="../en/f/armadin-2a830155.html">Armadin</a><span class="funding-meta">United States · Autonomous security validation</span><span class="funding-row-summary">An autonomous security platform for validating real enterprise attack paths.</span></td>
+            <td><strong class="num">$255.50M</strong><a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/">Crunchbase News ↗</a></td>
+            <td>Series B<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-02</span><span class="funding-meta">Report published</span></td>
+            <td>Andreessen Horowitz, Accel</td>
+          </tr>
+          <tr data-search="gmi cloud  inference and gpu cloud" data-market="US" data-currency="USD" data-country="United States" data-stage="Debt" data-date="2026-10-02" data-amount="445000000.0">
+            <td><a class="funding-name" href="../en/f/gmi-cloud-5b80b354.html">GMI Cloud</a><span class="funding-meta">United States · Inference and GPU cloud</span><span class="funding-row-summary">A cloud combining GPU clusters, inference APIs and managed agent environments.</span></td>
+            <td><strong class="num">$445.00M</strong><a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/">Crunchbase News ↗</a></td>
+            <td>Debt<span class="funding-meta">Debt financing</span><span class="funding-meta num">2026-10-02</span><span class="funding-meta">Report published</span></td>
+            <td>Investors undisclosed</td>
+          </tr>
+          <tr data-search="eliseai andreessen horowitz bessemer venture partners property operations" data-market="US" data-currency="USD" data-country="United States" data-stage="Other" data-date="2026-10-02" data-amount="350000000.0">
+            <td><a class="funding-name" href="../en/f/eliseai-5a5046f0.html">EliseAI</a><span class="funding-meta">United States · Property operations</span><span class="funding-row-summary">Industry AI connecting leasing, resident communication and maintenance to property operations.</span></td>
+            <td><strong class="num">$350.00M</strong><a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/">Crunchbase News ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-10-02</span><span class="funding-meta">Report published</span></td>
+            <td>Andreessen Horowitz, Bessemer Venture Partners</td>
+          </tr>
+          <tr data-search="instinct sequoia capital benchmark coatue personal-task agents" data-market="US" data-currency="USD" data-country="United States" data-stage="Series C" data-date="2026-10-02" data-amount="1000000000.0">
+            <td><a class="funding-name" href="../en/f/instinct-79932754.html">Instinct</a><span class="funding-meta">United States · Personal-task agents</span><span class="funding-row-summary">A personal AI assistant for delegating errands by text or phone.</span></td>
+            <td><strong class="num">$1.00B</strong><a class="citation-source funding-citation" href="https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/">Crunchbase News ↗</a></td>
+            <td>Series C<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-10-02</span><span class="funding-meta">Report published</span></td>
+            <td>Sequoia Capital, Benchmark, Coatue</td>
+          </tr>
+          <tr data-search="good tape nordic makers professional transcription" data-market="Europe" data-currency="" data-country="Denmark" data-stage="Other" data-date="2026-10-01" data-amount="-1">
+            <td><a class="funding-name" href="../en/f/good-tape-12aa3ed9.html">Good Tape</a><span class="funding-meta">Denmark · Professional transcription</span><span class="funding-row-summary">A professional transcription tool connecting interview recordings with searchable team material.</span></td>
+            <td><strong class="num">Undisclosed</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/86206A82-52C1-4243-B8BB-EB42B914F875">Tech.eu Funding Explorer ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-10-01</span><span class="funding-meta">Funding record date</span></td>
+            <td>Nordic Makers</td>
+          </tr>
+          <tr data-search="joe ai plug and play ventures benjamin chemla xplore marc menasé property communication" data-market="Europe" data-currency="EUR" data-country="France" data-stage="Other" data-date="2026-10-01" data-amount="2000000.0">
+            <td><a class="funding-name" href="../en/f/joe-ai-7b1a48a6.html">Joe AI</a><span class="funding-meta">France · Property communication</span><span class="funding-row-summary">Industry communication agents qualifying property inquiries and recording bookings in business systems.</span></td>
+            <td><strong class="num">€2.00M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/20833559-0097-4340-B3EC-CDB8F09A576C">Tech.eu Funding Explorer ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-10-01</span><span class="funding-meta">Funding record date</span></td>
+            <td>Plug and Play Ventures, Benjamin Chemla, Xplore, Marc Menasé</td>
+          </tr>
+          <tr data-search="aventix kost capital voima ventures bodil sidén laboratory quality and instrumentation" data-market="Europe" data-currency="EUR" data-country="Sweden" data-stage="Other" data-date="2026-09-30" data-amount="1200000.0">
+            <td><a class="funding-name" href="../en/f/aventix-126ca1bc.html">Aventix</a><span class="funding-meta">Sweden · Laboratory quality and instrumentation</span><span class="funding-row-summary">Scarlett measures microplate liquid volume to produce reviewable laboratory data.</span></td>
+            <td><strong class="num">€1.20M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/E773615B-9362-4A99-981E-1C9EFDDA602B">Tech.eu Funding Explorer ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-09-30</span><span class="funding-meta">Funding record date</span></td>
+            <td>Kost Capital, Voima Ventures, Bodil Sidén</td>
+          </tr>
+          <tr data-search="automee level2 ventures ai accounting and reconciliation" data-market="Europe" data-currency="EUR" data-country="Poland" data-stage="Seed" data-date="2026-09-30" data-amount="2288853.0">
+            <td><a class="funding-name" href="../en/f/automee-f763380e.html">autoMEE</a><span class="funding-meta">Poland · AI accounting and reconciliation</span><span class="funding-row-summary">flowMEE joins document intake, bookkeeping and bank reconciliation in finance workflows.</span></td>
+            <td><strong class="num">€2.29M</strong><span class="funding-meta num">PLN 10.00M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/3D43239B-E428-4C94-A3CF-D8044DC803EA">Tech.eu Funding Explorer ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-30</span><span class="funding-meta">Funding record date</span></td>
+            <td>Level2 Ventures</td>
+          </tr>
+          <tr data-search="kyndred early game ventures realtime ai characters" data-market="Europe" data-currency="EUR" data-country="Romania" data-stage="Pre-Seed" data-date="2026-09-29" data-amount="500000.0">
+            <td><a class="funding-name" href="../en/f/kyndred-1f365c52.html">Kyndred</a><span class="funding-meta">Romania · Realtime AI characters</span><span class="funding-row-summary">AI characters combining realtime voice, animation and continuing memory.</span></td>
+            <td><strong class="num">€500,000</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/3E6A6313-F136-45A5-B8EA-06233ED49ADB">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-29</span><span class="funding-meta">Funding record date</span></td>
+            <td>Early Game Ventures</td>
+          </tr>
+          <tr data-search="spotable the harbour arne vandendriessche jonas dhaenens christophe morbee the family office of hilde cloostermans and philip corens construction measurement and quotes" data-market="Europe" data-currency="EUR" data-country="Belgium" data-stage="Seed" data-date="2026-09-29" data-amount="4000000.0">
+            <td><a class="funding-name" href="../en/f/spotable-e09c53a7.html">Spotable</a><span class="funding-meta">Belgium · Construction measurement and quotes</span><span class="funding-row-summary">Roof and facade measurements connected to materials and contractor quotations.</span></td>
+            <td><strong class="num">€4.00M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/3BA68135-D6A7-4EBD-A37B-DCA09F98B96D">Tech.eu Funding Explorer ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-29</span><span class="funding-meta">Funding record date</span></td>
+            <td>The Harbour, Arne Vandendriessche, Jonas Dhaenens, Christophe Morbee, the family office of Hilde Cloostermans and Philip Corens</td>
+          </tr>
+          <tr data-search="granite bifrost studios controlled agent infrastructure" data-market="Europe" data-currency="EUR" data-country="Portugal" data-stage="Other" data-date="2026-09-28" data-amount="4000000.0">
+            <td><a class="funding-name" href="../en/f/granite-a088c54c.html">Granite</a><span class="funding-meta">Portugal · Controlled agent infrastructure</span><span class="funding-row-summary">A stack from modular energy-adjacent data centers to agent orchestration, emphasizing customer control.</span></td>
+            <td><strong class="num">€4.00M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/AA6F00E9-0BD0-499B-BBAA-A52CD00A586C">Tech.eu Funding Explorer ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-09-28</span><span class="funding-meta">Funding record date</span></td>
+            <td>Bifrost Studios</td>
+          </tr>
+          <tr data-search="klang.ai daniel gadd emil sjödin johan lenander conversation knowledge" data-market="Europe" data-currency="EUR" data-country="Sweden" data-stage="Other" data-date="2026-09-28" data-amount="1300000.0">
+            <td><a class="funding-name" href="../en/f/klangai-41bd65bf.html">Klang.ai</a><span class="funding-meta">Sweden · Conversation knowledge</span><span class="funding-row-summary">Organizational conversation memory with search and scheduled cross-meeting analysis.</span></td>
+            <td><strong class="num">€1.30M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/A783BD78-A3E0-427F-9B13-91C1331DCA62">Tech.eu Funding Explorer ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-09-28</span><span class="funding-meta">Funding record date</span></td>
+            <td>Daniel Gadd, Emil Sjödin, Johan Lenander</td>
+          </tr>
+          <tr data-search="bilt.me superhero capital markus villig martin sokk ai mobile app building" data-market="Europe" data-currency="EUR" data-country="Estonia" data-stage="Pre-Seed" data-date="2026-09-28" data-amount="615222.0">
+            <td><a class="funding-name" href="../en/f/biltme-c638821d.html">bilt.me</a><span class="funding-meta">Estonia · AI mobile app building</span><span class="funding-row-summary">Natural-language creation of native mobile apps with backend and payment integrations.</span></td>
+            <td><strong class="num">€615,222</strong><span class="funding-meta num">$700,000</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/7CBA8C0D-F858-409E-AA6D-25A5F2AE5F2A">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-28</span><span class="funding-meta">Funding record date</span></td>
+            <td>Superhero Capital, Markus Villig, Martin Sokk</td>
+          </tr>
+          <tr data-search="humanos anthemis critical ventures start ventures springbank agent risk and authorization" data-market="Europe" data-currency="EUR" data-country="Portugal" data-stage="Seed" data-date="2026-09-28" data-amount="2812445.0">
+            <td><a class="funding-name" href="../en/f/humanos-79c82eaa.html">Humanos</a><span class="funding-meta">Portugal · Agent risk and authorization</span><span class="funding-row-summary">A risk network joining agent identity, authorization and runtime evidence.</span></td>
+            <td><strong class="num">€2.81M</strong><span class="funding-meta num">$3.20M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/3E964C41-8496-4324-8927-CA7CEB94A91E">Tech.eu Funding Explorer ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-28</span><span class="funding-meta">Funding record date</span></td>
+            <td>Anthemis, Critical Ventures, Start Ventures, Springbank</td>
+          </tr>
+          <tr data-search="reply next juanjo mostazo david alcobero 4founders capital multi-location operations" data-market="Europe" data-currency="EUR" data-country="Spain" data-stage="Pre-Seed" data-date="2026-09-24" data-amount="400000.0">
+            <td><a class="funding-name" href="../en/f/reply-next-adc498ed.html">Reply Next</a><span class="funding-meta">Spain · Multi-location operations</span><span class="funding-row-summary">A unified platform for location visibility, review replies and customer-feedback intelligence.</span></td>
+            <td><strong class="num">€400,000</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/4CD2750F-4131-44CE-850E-8A87080F0EAE">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-24</span><span class="funding-meta">Funding record date</span></td>
+            <td>Juanjo Mostazo, David Alcobero, 4Founders Capital</td>
+          </tr>
+          <tr data-search="spiich labs ugly duckling ventures alliance vc cherry ventures ampli ventures sales workflows and crm" data-market="Europe" data-currency="EUR" data-country="Sweden" data-stage="Seed" data-date="2026-09-23" data-amount="3000000.0">
+            <td><a class="funding-name" href="../en/f/spiich-labs-82a099d8.html">Spiich Labs</a><span class="funding-meta">Sweden · Sales workflows and CRM</span><span class="funding-row-summary">Sales agents joining pipeline discovery, follow-up and CRM records.</span></td>
+            <td><strong class="num">€3.00M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/DECC0D8F-C429-4434-BCE3-CE21A8B55EDF">Tech.eu Funding Explorer ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-23</span><span class="funding-meta">Funding record date</span></td>
+            <td>Ugly Duckling Ventures, Alliance VC, Cherry Ventures, Ampli Ventures</td>
+          </tr>
+          <tr data-search="f13 point nine capital credo ventures carles reina jack richardson professional vector generation" data-market="Europe" data-currency="EUR" data-country="Germany" data-stage="Pre-Seed" data-date="2026-09-23" data-amount="4381737.0">
+            <td><a class="funding-name" href="../en/f/f13-bb015fa0.html">F13</a><span class="funding-meta">Germany · Professional vector generation</span><span class="funding-row-summary">Editable SVG generation from natural language and specifications.</span></td>
+            <td><strong class="num">€4.38M</strong><span class="funding-meta num">$5.00M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/5EDD44D5-2831-42F2-B573-28872DAE083A">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-23</span><span class="funding-meta">Funding record date</span></td>
+            <td>Point Nine Capital, Credo Ventures, Carles Reina, Jack Richardson</td>
+          </tr>
+          <tr data-search="bird capital one ventures citi jp morgan communication infrastructure" data-market="Europe" data-currency="EUR" data-country="Netherlands" data-stage="Debt" data-date="2026-09-23" data-amount="394356323.0">
+            <td><a class="funding-name" href="../en/f/bird-5389659b.html">Bird</a><span class="funding-meta">Netherlands · Communication infrastructure</span><span class="funding-row-summary">Communication APIs connecting email, messaging and voice to applications and agents.</span></td>
+            <td><strong class="num">€394.36M</strong><span class="funding-meta num">$450.00M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/56073A00-5417-449A-B1D7-CD08F9824851">Tech.eu Funding Explorer ↗</a></td>
+            <td>Debt<span class="funding-meta">Debt financing</span><span class="funding-meta num">2026-09-23</span><span class="funding-meta">Funding record date</span></td>
+            <td>Capital One Ventures, Citi, JP Morgan</td>
+          </tr>
+          <tr data-search="palma.ai scale now ventures d11z ventures deel ventures plug and play ventures enterprise tool governance" data-market="Europe" data-currency="EUR" data-country="Germany" data-stage="Pre-Seed" data-date="2026-09-23" data-amount="1577425.0">
+            <td><a class="funding-name" href="../en/f/palmaai-d0b20050.html">Palma.ai</a><span class="funding-meta">Germany · Enterprise tool governance</span><span class="funding-row-summary">Enterprise governance of MCP tools, Skills, permissions and approvals across assistants.</span></td>
+            <td><strong class="num">€1.58M</strong><span class="funding-meta num">$1.80M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/3C9186EB-DFDA-497A-A022-89F41B556A89">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-23</span><span class="funding-meta">Funding record date</span></td>
+            <td>Scale Now Ventures, D11Z Ventures, Deel Ventures, Plug and Play Ventures</td>
+          </tr>
+          <tr data-search="skwky seed enterprise investment scheme (seis) ai mediation" data-market="Europe" data-currency="" data-country="UK" data-stage="Pre-Seed" data-date="2026-09-23" data-amount="-1">
+            <td><a class="funding-name" href="../en/f/skwky-959ed37e.html">Skwky</a><span class="funding-meta">UK · AI mediation</span><span class="funding-row-summary">Structured two-person mediation with session reports for school teams.</span></td>
+            <td><strong class="num">Undisclosed</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/34601711-E27C-4E77-BAA2-93DBE0D432BC">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-23</span><span class="funding-meta">Funding record date</span></td>
+            <td>Seed Enterprise Investment Scheme (SEIS)</td>
+          </tr>
+          <tr data-search="elergi labs  grid planning and connections" data-market="Europe" data-currency="EUR" data-country="Sweden" data-stage="Seed" data-date="2026-09-22" data-amount="2878828.0">
+            <td><a class="funding-name" href="../en/f/elergi-labs-dccaaab3.html">Elergi Labs</a><span class="funding-meta">Sweden · Grid planning and connections</span><span class="funding-row-summary">Agentic grid planning connecting scenario analysis to physics checks and engineering review.</span></td>
+            <td><strong class="num">€2.88M</strong><span class="funding-meta num">$3.30M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/AA015797-F61E-4973-AC7B-549AE682B781">Tech.eu Funding Explorer ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-22</span><span class="funding-meta">Funding record date</span></td>
+            <td>Investors undisclosed</td>
+          </tr>
+          <tr data-search="productive machines innovate uk finance yorkshire cnc optimization" data-market="Europe" data-currency="" data-country="UK" data-stage="Other" data-date="2026-09-21" data-amount="-1">
+            <td><a class="funding-name" href="../en/f/productive-machines-72d9cda7.html">Productive Machines</a><span class="funding-meta">UK · CNC optimization</span><span class="funding-row-summary">CNC feeds and speeds optimized through machining dynamics and toolpath models.</span></td>
+            <td><strong class="num">Undisclosed</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/B7A2F5D7-D0CB-4139-84DD-FD6DB454A672">Tech.eu Funding Explorer ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-09-21</span><span class="funding-meta">Funding record date</span></td>
+            <td>Innovate UK, Finance Yorkshire</td>
+          </tr>
+          <tr data-search="magentic sequoia capital felicis ventures the westly group manufacturing procurement" data-market="Europe" data-currency="EUR" data-country="UK" data-stage="Series A" data-date="2026-09-17" data-amount="15678077.0">
+            <td><a class="funding-name" href="../en/f/magentic-0dfcc2bf.html">Magentic</a><span class="funding-meta">UK · Manufacturing procurement</span><span class="funding-row-summary">Procurement agents finding, protecting and recovering supply-chain value for manufacturers.</span></td>
+            <td><strong class="num">€15.68M</strong><span class="funding-meta num">$18.00M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/4892915D-05C5-491B-A4E4-804AF31F51E5">Tech.eu Funding Explorer ↗</a></td>
+            <td>Series A<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-17</span><span class="funding-meta">Funding record date</span></td>
+            <td>Sequoia Capital, Felicis Ventures, The Westly Group</td>
+          </tr>
+          <tr data-search="complir general catalyst specialist industry funds physical-product compliance" data-market="Europe" data-currency="EUR" data-country="Denmark" data-stage="Seed" data-date="2026-09-16" data-amount="9534539.0">
+            <td><a class="funding-name" href="../en/f/complir-19fadc5a.html">Complir</a><span class="funding-meta">Denmark · Physical-product compliance</span><span class="funding-row-summary">SKU-level compliance connecting product data, regulatory requirements and launch documents.</span></td>
+            <td><strong class="num">€9.53M</strong><span class="funding-meta num">$11.00M</span><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/D18D4738-6743-42B2-937D-CA561C0AFBC4">Tech.eu Funding Explorer ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-16</span><span class="funding-meta">Funding record date</span></td>
+            <td>General Catalyst, specialist industry funds</td>
+          </tr>
+          <tr data-search="delos founders future bpifrance c4 ventures enterprise ai workers" data-market="Europe" data-currency="EUR" data-country="France" data-stage="Series A" data-date="2026-09-16" data-amount="10000000.0">
+            <td><a class="funding-name" href="../en/f/delos-bca25a44.html">Delos</a><span class="funding-meta">France · Enterprise AI Workers</span><span class="funding-row-summary">Specialized AI Workers with memory connected to existing team tools and tasks.</span></td>
+            <td><strong class="num">€10.00M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/62EC2914-8FF4-482E-826E-99398C6676C8">Tech.eu Funding Explorer ↗</a></td>
+            <td>Series A<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-16</span><span class="funding-meta">Funding record date</span></td>
+            <td>Founders Future, Bpifrance, C4 Ventures</td>
+          </tr>
+          <tr data-search="justsolve carlo alberto gaetaniello gianluca cocco paolo fois matteo frigerio nicola pivaro entourage joe zadeh base10 partners marco ogliengo tim collins silvia wang vento ventures ithaca investments daniele francescon 2100 ventures credit management" data-market="Europe" data-currency="EUR" data-country="Italy" data-stage="Pre-Seed" data-date="2026-09-16" data-amount="3700000.0">
+            <td><a class="funding-name" href="../en/f/justsolve-81f7cbcd.html">JustSolve</a><span class="funding-meta">Italy · Credit management</span><span class="funding-row-summary">Agentic credit-management and collection communication delivered as an organizational service.</span></td>
+            <td><strong class="num">€3.70M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/62606081-DD71-42F2-A10C-0EA34261EFD3">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-16</span><span class="funding-meta">Funding record date</span></td>
+            <td>Carlo Alberto Gaetaniello, Gianluca Cocco, Paolo Fois, Matteo Frigerio, Nicola Pivaro, Entourage, Joe Zadeh, Base10 Partners, Marco Ogliengo, Tim Collins, Silvia Wang, Vento Ventures, Ithaca Investments, Daniele Francescon, 2100 Ventures</td>
+          </tr>
+          <tr data-search="opio frst seedcamp global founders capital financial due diligence" data-market="Europe" data-currency="EUR" data-country="France" data-stage="Other" data-date="2026-09-16" data-amount="4000000.0">
+            <td><a class="funding-name" href="../en/f/opio-92033cdf.html">Opio</a><span class="funding-meta">France · Financial due diligence</span><span class="funding-row-summary">Financial due-diligence workflows organized around datarooms, trial balances, databooks and reports.</span></td>
+            <td><strong class="num">€4.00M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/0A2A6CAB-26DE-44AC-8A93-0FA4E9848927">Tech.eu Funding Explorer ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-09-16</span><span class="funding-meta">Funding record date</span></td>
+            <td>Frst, Seedcamp, Global Founders Capital</td>
+          </tr>
+          <tr data-search="euclyd brabant development agency (bom) imec.xpand eifo somerset capital partners the scaleup europe fund samsung innovation industries quadri ventures ai silicon and systems research" data-market="Europe" data-currency="EUR" data-country="Netherlands" data-stage="Series A" data-date="2026-09-15" data-amount="200000000.0">
+            <td><a class="funding-name" href="../en/f/euclyd-173255c0.html">EUCLYD</a><span class="funding-meta">Netherlands · AI silicon and systems research</span><span class="funding-row-summary">AI infrastructure research co-designing programmable silicon, memory and full systems.</span></td>
+            <td><strong class="num">€200.00M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/0CE2BAFE-45FB-4B87-B95D-C5AA8A051CB9">Tech.eu Funding Explorer ↗</a></td>
+            <td>Series A<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-15</span><span class="funding-meta">Funding record date</span></td>
+            <td>Brabant Development Agency (BOM), imec.xpand, EIFO, Somerset Capital Partners, The Scaleup Europe Fund, Samsung, Innovation Industries, Quadri Ventures</td>
+          </tr>
+          <tr data-search="flottando hfga investment holding fongit enterprise fleet operations" data-market="Europe" data-currency="" data-country="Switzerland" data-stage="Pre-Seed" data-date="2026-09-14" data-amount="-1">
+            <td><a class="funding-name" href="../en/f/flottando-92e008c8.html">Flottando</a><span class="funding-meta">Switzerland · Enterprise fleet operations</span><span class="funding-row-summary">A shared fleet system joining vehicles, employees, expenses and deadlines across departments.</span></td>
+            <td><strong class="num">Undisclosed</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/AB83F738-AA8F-40E3-83D2-8ABA2D9B07F6">Tech.eu Funding Explorer ↗</a></td>
+            <td>Pre-seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-14</span><span class="funding-meta">Funding record date</span></td>
+            <td>HFGA Investment Holding, Fongit</td>
+          </tr>
+          <tr data-search="custodea custodea’s network business data integration" data-market="Europe" data-currency="EUR" data-country="Netherlands" data-stage="Seed" data-date="2026-09-14" data-amount="350000.0">
+            <td><a class="funding-name" href="../en/f/custodea-2990d2bf.html">Custodea</a><span class="funding-meta">Netherlands · Business data integration</span><span class="funding-row-summary">A data lake copying European SMEs’ business records for existing BI tools and AI.</span></td>
+            <td><strong class="num">€350,000</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/3557F023-D54E-4ABA-9D4A-E319989E6C72">Tech.eu Funding Explorer ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-14</span><span class="funding-meta">Funding record date</span></td>
+            <td>Custodea’s network</td>
+          </tr>
+          <tr data-search="assaia united airlines ventures airport ground operations" data-market="Europe" data-currency="" data-country="Switzerland" data-stage="Other" data-date="2026-09-11" data-amount="-1">
+            <td><a class="funding-name" href="../en/f/assaia-31855d3b.html">Assaia</a><span class="funding-meta">Switzerland · Airport ground operations</span><span class="funding-row-summary">Apron cameras and prediction helping teams manage aircraft turnarounds and exceptions.</span></td>
+            <td><strong class="num">Undisclosed</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/6849CD9B-91F2-4B29-A02B-CFAAE1C88AF9">Tech.eu Funding Explorer ↗</a></td>
+            <td>Round unspecified<span class="funding-meta">Type unspecified</span><span class="funding-meta num">2026-09-11</span><span class="funding-meta">Funding record date</span></td>
+            <td>United Airlines Ventures</td>
+          </tr>
+          <tr data-search="arlequin ai bpifrance’s defence innovation fund redalpine vsquared ventures otb ventures 10x founders investigation data analysis" data-market="Europe" data-currency="EUR" data-country="France" data-stage="Series A" data-date="2026-09-10" data-amount="28000000.0">
+            <td><a class="funding-name" href="../en/f/arlequin-ai-74b06302.html">Arlequin AI</a><span class="funding-meta">France · Investigation data analysis</span><span class="funding-row-summary">HuDex traces relationships, patterns and original evidence across investigation data.</span></td>
+            <td><strong class="num">€28.00M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/791C6A4A-AEAB-4BDB-A5E2-A11F55A3E226">Tech.eu Funding Explorer ↗</a></td>
+            <td>Series A<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-10</span><span class="funding-meta">Funding record date</span></td>
+            <td>Bpifrance’s Defence Innovation Fund, Redalpine, Vsquared Ventures, OTB Ventures, 10x Founders</td>
+          </tr>
+          <tr data-search="heydiga kfund decelera ventures previous investors italian founders fund 6dc local-business voice reception" data-market="Europe" data-currency="EUR" data-country="Spain" data-stage="Seed" data-date="2026-09-10" data-amount="5500000.0">
+            <td><a class="funding-name" href="../en/f/heydiga-13bb0820.html">HeyDiga</a><span class="funding-meta">Spain · Local-business voice reception</span><span class="funding-row-summary">Industry voice reception connecting calls, WhatsApp and real bookings.</span></td>
+            <td><strong class="num">€5.50M</strong><a class="citation-source funding-citation" href="https://funding.tech.eu/deals/6F3C56F9-2FE0-418E-BD78-729EE0EF27D1">Tech.eu Funding Explorer ↗</a></td>
+            <td>Seed<span class="funding-meta">Equity-stage round</span><span class="funding-meta num">2026-09-10</span><span class="funding-meta">Funding record date</span></td>
+            <td>KFund, Decelera Ventures, previous investors, Italian Founders Fund, 6DC</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p id="funding-empty" hidden>No matching funding records. Adjust the filters.</p>
+  </section>
+</div>
+<script>
+(function () {
+  var body = document.getElementById('funding-rows');
+  var rows = Array.from(body.querySelectorAll('tr'));
+  var search = document.getElementById('funding-search');
+  var country = document.getElementById('funding-country');
+  var stage = document.getElementById('funding-stage');
+  var sort = document.getElementById('funding-sort');
+  var market = document.getElementById('funding-market');
+  var currency = document.getElementById('funding-currency');
+  function update() {
+    var query = search.value.trim().toLowerCase();
+    var count = 0;
+    rows.sort(function (a, b) {
+      return sort.value === 'amount' ? (a.dataset.currency.localeCompare(b.dataset.currency) || Number(b.dataset.amount) - Number(a.dataset.amount)) : b.dataset.date.localeCompare(a.dataset.date);
+    }).forEach(function (row) {
+      row.hidden = !(row.dataset.search.includes(query) && (!country.value || row.dataset.country === country.value) && (!stage.value || row.dataset.stage === stage.value) && (!market.value || row.dataset.market === market.value) && (!currency.value || row.dataset.currency === currency.value));
+      if (!row.hidden) count++;
+      body.appendChild(row);
+    });
+    document.getElementById('funding-count').textContent = count;
+    document.getElementById('funding-empty').hidden = count !== 0;
+  }
+  [search, country, stage, sort, market, currency].forEach(function (el) { el.addEventListener('input', update); });
+})();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="Help improve x-octo">
+  <p><strong>Help improve x-octo</strong> If you allow it, we use aggregated analytics to understand which pages help, where readers come from, and how they engage.</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">Decline</button>
+    <button class="consent-allow" id="analytics-allow" type="button">Allow analytics</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="Back to top">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · Business judgment on AI products</span>
+    <span>·</span>
+    <span>2653 cases · 177 business reads</span>
+    <span class="gen">Data through 2026-10-09</span>
+    <span>·</span>
+    <a href="../en/reports.html">Calls archive</a>
+    <span>·</span>
+    <a href="../en/methodology.html">Methodology</a>
+    <span>·</span>
+    <a href="../en/privacy.html">Privacy &amp; analytics</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>

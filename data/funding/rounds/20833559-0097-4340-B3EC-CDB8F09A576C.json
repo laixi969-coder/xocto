@@ -1,0 +1,100 @@
+{
+  "company": {
+    "city": "Paris",
+    "country": "France",
+    "description": "Founded in 2024, the startup deploys AI agents that integrate with the software of agencies and property managers.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "7B1A48A6-F3FD-42D8-ABC6-B146BBCE19F1",
+    "investors": [
+      "Benjamin Chemla",
+      "Business Angels",
+      "Marc Menasé",
+      "Plug and Play Ventures",
+      "Xplore"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Joe AI",
+    "rounds": [
+      {
+        "amountEur": 2000000,
+        "date": "2026-10-01T00:00:00.000Z",
+        "id": "20833559-0097-4340-B3EC-CDB8F09A576C",
+        "investors": [
+          "Benjamin Chemla",
+          "Business Angels",
+          "Marc Menasé",
+          "Plug and Play Ventures",
+          "Xplore"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/20833559-0097-4340-B3EC-CDB8F09A576C"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 2000000,
+    "url": "https://funding.tech.eu/companies/7B1A48A6-F3FD-42D8-ABC6-B146BBCE19F1",
+    "website": "https://www.getjoe-ai.com/"
+  },
+  "round": {
+    "amountEur": 2000000,
+    "amountEurStored": null,
+    "amountNative": 2000000,
+    "company": {
+      "city": "Paris",
+      "country": "France",
+      "founded": null,
+      "id": "7B1A48A6-F3FD-42D8-ABC6-B146BBCE19F1",
+      "name": "Joe AI",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-10-01",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "20833559-0097-4340-B3EC-CDB8F09A576C",
+    "investors": [
+      "Plug and Play Ventures",
+      "Benjamin Chemla",
+      "Xplore",
+      "Marc Menasé"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "maddyness.com",
+      "tier": "established"
+    },
+    "stage": "Other",
+    "url": "/deals/20833559-0097-4340-B3EC-CDB8F09A576C"
+  }
+}

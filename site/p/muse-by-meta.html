@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>Meta Muse · x-octo</title>
+<meta name="description" content="个人用户把邮件、预约、购物和日程任务交给 Meta Muse；它在获准连接的服务与独立云端环境中执行，回到用户确认关键动作并交付任务结果。">
+<link rel="canonical" href="https://xocto.vercel.app/p/muse-by-meta.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/muse-by-meta.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/muse-by-meta.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/muse-by-meta.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="Meta Muse · x-octo">
+<meta property="og:description" content="个人用户把邮件、预约、购物和日程任务交给 Meta Muse；它在获准连接的服务与独立云端环境中执行，回到用户确认关键动作并交付任务结果。">
+<meta property="og:url" content="https://xocto.vercel.app/p/muse-by-meta.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/muse-by-meta.html#webpage", "@type": "WebPage", "description": "\u4e2a\u4eba\u7528\u6237\u628a\u90ae\u4ef6\u3001\u9884\u7ea6\u3001\u8d2d\u7269\u548c\u65e5\u7a0b\u4efb\u52a1\u4ea4\u7ed9 Meta Muse\uff1b\u5b83\u5728\u83b7\u51c6\u8fde\u63a5\u7684\u670d\u52a1\u4e0e\u72ec\u7acb\u4e91\u7aef\u73af\u5883\u4e2d\u6267\u884c\uff0c\u56de\u5230\u7528\u6237\u786e\u8ba4\u5173\u952e\u52a8\u4f5c\u5e76\u4ea4\u4ed8\u4efb\u52a1\u7ed3\u679c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Meta Muse", "url": "https://xocto.vercel.app/p/muse-by-meta.html"}, {"@id": "https://xocto.vercel.app/p/muse-by-meta.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u901a\u7528\u52a9\u624b", "dateModified": "2026-10-09", "datePublished": "2026-09-10", "description": "\u4e2a\u4eba\u7528\u6237\u628a\u90ae\u4ef6\u3001\u9884\u7ea6\u3001\u8d2d\u7269\u548c\u65e5\u7a0b\u4efb\u52a1\u4ea4\u7ed9 Meta Muse\uff1b\u5b83\u5728\u83b7\u51c6\u8fde\u63a5\u7684\u670d\u52a1\u4e0e\u72ec\u7acb\u4e91\u7aef\u73af\u5883\u4e2d\u6267\u884c\uff0c\u56de\u5230\u7528\u6237\u786e\u8ba4\u5173\u952e\u52a8\u4f5c\u5e76\u4ea4\u4ed8\u4efb\u52a1\u7ed3\u679c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/muse-by-meta.html#webpage"}, "name": "Meta Muse", "sameAs": "https://muse.ai/", "url": "https://xocto.vercel.app/p/muse-by-meta.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/muse-by-meta.html", "name": "Meta Muse", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=09d24ad54337">
+<link rel="stylesheet" href="../funding.css?v=09d24ad54337">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class="on"><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../funding.html" class=""><svg class="ico" data-ico="trend" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 17 L9 11 L13 15 L21 5"/><path d="M15 5 L21 5 L21 11"/></svg><span>AI 融资</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/muse-by-meta.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">AI 应用的生意判断</p>
+      <div class="product-title-row">
+        <h1>Meta Muse</h1>
+        <span class="verdict v-notable">持续观察</span>
+      </div>
+      <p class="product-lede">个人用户把邮件、预约、购物和日程任务交给 Meta Muse；它在获准连接的服务与独立云端环境中执行，回到用户确认关键动作并交付任务结果。</p>
+      <div class="meta product-meta">
+<span class="tag sig">开始收费</span>        <span class="tag">早期</span>
+<span class="tag">新应用 / 服务</span><span class="tag">通用助手</span><span class="tag">个人事务服务</span><span class="tag">个人用户</span><span class="tag">美国</span><span class="tag sig">社区热度 121</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>团队 / 作者</dt><dd>Meta</dd></div>
+      <div><dt>本站首次收录</dt><dd class="num">2026-09-10</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-10-09</dd></div>
+      <div><dt>产品官网</dt><dd><a href="https://muse.ai/" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>它为什么会被需要</h2>
+        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-10-08</p>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel">
+        <span class="field-k">使用场景</span>
+        <p class="product-lead">个人用户需要处理邮件、预约和日程事务时，把目标与获准访问的服务交给代理执行。</p>
+        <p>手动使用邮箱、日历、购物与预约网站，或让聊天助手给建议后自己执行。</p>
+        <p>用户要在多个服务间反复切换和录入，仍需自己推进执行与追踪结果（工作流推断）。</p>
+      </article>
+      <article class="product-panel product-panel-call">
+        <span class="field-k">xOcto 的判断</span>
+        <h3>值得完整研究，需求切口初步成立。 它不是纯模型公告，也不应因为是大厂通用助手被藏进市场背景。仍需验证任务可靠完成率、重复使用与付费；本次没有亲自登录产品执行任务，也没有独立验证安全性。Muse 是 Meta 的产品，本次未见可归属于 Muse 的独立创业融资轮次，不能把母公司资本开支当作产品融资。</h3>
+        <p>推断：个人助手的价值正在进入事务执行。可从一类高频任务切入，把权限、确认、异常恢复和结果核验做成完整交付，再验证留存与单位经济。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">使用理由</span>
+        <h3>为什么用户会选择它</h3>
+        <p>推断：熟悉的聊天入口和连续的任务执行可减少切换与协调；可靠完成与长期采用仍需实测。</p>
+      </article>
+      <article class="product-panel product-panel-question">
+        <span class="field-k">还不能轻易下结论的地方</span>
+        <h3>真正值得继续追问的矛盾</h3>
+        <p>比较同一任务的完成率、人工介入次数、总耗时与旧做法；观察四周重复使用、连接服务后的留存和付费转化。对发信、支付与取消等重要动作，单独记录确认、失败恢复与结果检查，不用普通聊天满意度替代执行质量。</p>
+      </article>
+    </div>
+
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">如果你正在做这项工作</span>
+        <p><strong>值得试用</strong>。推断：熟悉的聊天入口和连续的任务执行可减少切换与协调；可靠完成与长期采用仍需实测。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">怎样切入 / 可以借走什么</span>
+        <p>先选一个能确认结果的事务，把输入、批准、执行、恢复和交付接成完整链路。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">证据与风险</span>
+        <p>官方发布说明多数用途免费，并有订阅方案。本次没有核验有效套餐价格、用户付费比例或收入。商业分析应看每个可靠完成任务的计算与服务成本，而不是只看一次聊天的推理费用；复杂任务重试可能显著影响利润。 比较同一任务的完成率、人工介入次数、总耗时与旧做法；观察四周重复使用、连接服务后的留存和付费转化。对发信、支付与取消等重要动作，单独记录确认、失败恢复与结果检查，不用普通聊天满意度替代执行质量。</p>
+      </div>
+    </div>
+
+    <details class="product-evidence" open>
+      <summary>我们凭什么这样判断</summary>
+      <div class="product-evidence-grid">
+        <div><span class="field-k">公开事实</span><p>官网给出明确事务与旧行为；根据工作流推断存在执行负担，痛点强度仍需用户样本核验。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：熟悉的聊天入口和连续的任务执行可减少切换与协调；可靠完成与长期采用仍需实测。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>核验同一任务的完成率、人工介入、四周重复使用、付费与单次交付成本。</p></div>
+      </div>
+      <div class="gate-audit">
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">01 · 价值</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>官网给出明确事务与旧行为；根据工作流推断存在执行负担，痛点强度仍需用户样本核验。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">02 · 共识</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>未见可比任务的独立完成率和四周持续使用证据，融资与关注不等于需求共识。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">03 · 模式</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>尚缺付费转化、单次任务成本与人工兜底数据，不能判断单位经济已成立。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">04 · 求真</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>尚未登录执行对照任务；权限、确认与失败恢复需逐项核验。</p>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>中英文生态与跨国机会</h2>
+        <p class="note">市场对照</p>
+      </div>
+    </div>
+    <div class="product-markets">
+      <div class="field">
+        <span class="field-k">英文生态 · English-language market</span>
+        <p>本地供给：早期出现<br>需求证据：尚未核验</p>
+        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-10</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">03</p>
+        <h2>60 秒生意判断</h2>
+        <p class="note">先给出判断与下一步，再保留完整证据和反例。</p>
+      </div>
+    </div>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>一句话定位</h2>
+<p>面向个人事务的 AI 代理：用户给出目标并连接所需服务，它在独立云端环境中执行邮件、预约、购物等任务，在需要批准的节点回到用户。</p></article><article class="desk-prose-block"><h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>把目标变成动作</strong>：官网展示邮件整理、预约、购物与日程等任务，不止返回建议；这些是公司描述的能力，完成率尚无独立对照。</li>
+<li><strong>继续处理长任务</strong>：官方发布介绍后台执行与进度反馈，具体服务与地区的可用范围应按当前产品页面核验。</li>
+<li><strong>连接个人上下文</strong>：从获准连接的服务读取任务材料。对外发信、购买等动作的确认与权限控制属于公司声明，不能视为安全审计结论。</li>
+</ul></article><article class="desk-prose-block"><h2>它在替代什么旧行为</h2>
+<p>用户原来要在邮箱、日历、购物和预约网站间切换，把建议重新输入并执行。Muse 的切口是把这条事务链交给同一个受控执行者，用户保留目标、关键决定和结果检查。</p></article><article class="desk-prose-block"><h2>谁使用、谁付钱</h2>
+<p>有重复个人事务、愿意授予适当访问权限的人是潜在用户。需求推断是减少执行和协调负担，而不是多一个聊天入口；愿意尝试不等于愿意长期授权或付费，必须分开验证。</p></article><article class="desk-prose-block"><h2>为什么会受到关注</h2>
+<p>产品机制上的推断有三点：用已有的聊天习惯降低开始成本；从“得到答案”走到“事务完成”，结果更容易演示；个人上下文使不同应用间的工作能连续进行。Meta 的既有分发与品牌可能降低获客成本，但本次没有独立数据将热度归因给其中某一项，也不由榜单热度推导留存。</p></article><article class="desk-prose-block"><h2>商业模式</h2>
+<p>官方发布说明多数用途免费，并有订阅方案。本次没有核验有效套餐价格、用户付费比例或收入。商业分析应看每个可靠完成任务的计算与服务成本，而不是只看一次聊天的推理费用；复杂任务重试可能显著影响利润。</p></article><article class="desk-prose-block"><h2>竞争与壁垒</h2>
+<p>通用模型、系统助手与用户自行操作都提供替代。潜在壁垒在服务接入、执行状态、持续上下文与异常恢复；能连接很多应用不自动等于能稳定完成任务。垂直团队的可进入窗口，是一类任务中明确的交付责任、复核与结果保证。</p></article><article class="desk-prose-block"><h2>判断</h2>
+<p><strong>值得完整研究，需求切口初步成立。</strong> 它不是纯模型公告，也不应因为是大厂通用助手被藏进市场背景。仍需验证任务可靠完成率、重复使用与付费；本次没有亲自登录产品执行任务，也没有独立验证安全性。Muse 是 Meta 的产品，本次未见可归属于 Muse 的独立创业融资轮次，不能把母公司资本开支当作产品融资。</p></article><article class="desk-prose-block"><h2>下一步看什么</h2>
+<p>比较同一任务的完成率、人工介入次数、总耗时与旧做法；观察四周重复使用、连接服务后的留存和付费转化。对发信、支付与取消等重要动作，单独记录确认、失败恢复与结果检查，不用普通聊天满意度替代执行质量。</p></article><article class="desk-prose-block"><h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：先选一个能确认结果的事务，把输入、批准、执行、恢复和交付接成完整链路。</p>
+<p><strong>交付设计</strong>：让用户看到任务状态与证据，而不是只看到代理说“已经完成”。</p>
+<p><strong>切入窗口</strong>：在特定人群的高频事务中证明可靠性与经济性，比泛泛承诺代办所有事情更容易验证。</p></article><article class="desk-prose-block"><h2>资料与边界</h2>
+<p><a href="https://muse.ai/">产品官网</a> · <a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/">官方发布</a> · <a href="https://introducing.muse.ai/">产品设计说明</a></p>
+<p>官网能力为公司声明；采用动机、竞争壁垒和单位经济为编辑推断。核验截至 2026-10-08。</p></article></div>
+    </article>
+  </section>
+
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>可核验公开证据</h2>
+        <p class="note">证据链</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://muse.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Meta Muse</span>
+        <span class="row-desc">产品信息 · 个人用户把邮件、预约、购物和日程任务交给 Meta Muse；它在获准连接的服务与独立云端环境中执行，回到用户确认关键动作并交付任务结果。</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-10-08</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE15VV9RYThtSGVoYnItX2FoSDdsUUJZUXRlMTh3Tm9BbTRBR0J0VWFrOWNVUVlvbXFzS18tRFhXaGkxbkJaZVdBTXhPSllYc0hpTjJEODRB?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Meta Muse 助力 AMD，AI 发展势头转向个人智能体｜长桥证券</span>
+        <span class="row-desc">market_signal · Meta Muse 助力 AMD，AI 发展势头转向个人智能体｜长桥证券 Longbridge</span>
+        <span class="row-tail">2026-10-06</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFAzOTFqSDhqOFd0djBTSG9iWS1xdnE4OThjM3ZteE5TaVpfM2lLZjlfVzI0NEsyTlpfT3QtOGE3UURNbFA4bmh2eW5VYkptdkJlQ2h4RjR1WF9kV1FhcHM4S1VEWFEtUEw3YjNjTUQ3Q0IwdFU0MWRtLTJtYXpnMjQ?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Meta 的 AI 助手 Muse 被曝可深度分析用户社交关系，并为每位联系人建立个人档案</span>
+        <span class="row-desc">market_signal · Meta 的 AI 助手 Muse 被曝可深度分析用户社交关系，并为每位联系人建立个人档案 新浪财经</span>
+        <span class="row-tail">2026-10-05</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVjBOX2tiblNKM3pNUVJ2VzViQzZobDRCQk5pbk1Nai1vUlNDTG94a2JIRDNYSU96Mm1DTnZjWE5LbW9MbXh1RGtXUnEzRXJHOGx2Y1JmdlVBMGpuRGZkMUlZc0hGSUoxVTAyMWdpQmNPSndSTXFHVHhzMnRYaUdqdVY2NW5kY2l4V2IyN0pmNlgxR0JuUjdCRW5ZejBtU3NpdXhtdkJQNDE0c3k5b25wWXBHZE5tMjRnNU1leTJZZUJPWk0zOHZLdHhmNUl5OXBKLXlkNktR?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-10-03</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPM1pUOG9sTEQ5cEIyU0ZDdlpLcWtEZXY3Zk5FRlhtbUxIbm5aVWtJZlNXdkJBUEF3NVJoSUJtYWM5c0V6QXF2NTFtbXNaeDNmWkY5UWIxT2FNR21OdjJrYlpBdWxjZkM3dlhXVnAzc0c0RlRXdGhJQzdjTThZTWtGWURhUDFsNU92VmUtc1JsWQ?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Meta Muse AI 智能体确实能用，但信任才是真正的产品</span>
+        <span class="row-desc">market_signal · Meta Muse AI 智能体确实能用，但信任才是真正的产品 remio</span>
+        <span class="row-tail">2026-10-01</span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">theverge.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-10-03</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-10-03</span>
+      </div></a></li>
+      <li><a href="https://ai.meta.com/muse/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ai.meta.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qQl9CTWtZY2pmUjd1aTJQVGxVUy1WRTBBNF9MT1g0VVpzbm9WNXBTXzAzSjNrYkpTWkdMODk2OUZBVkJDQTNLZEFLUXdFVmlmZjBKbmlXaGFBMXNLem1R?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Meta Muse 智能体拓展线上购物，平台在开放客户入口与保留控制权间权衡| 乌克兰新闻</span>
+        <span class="row-desc">market_signal · Meta Muse 智能体拓展线上购物，平台在开放客户入口与保留控制权间权衡| 乌克兰新闻 Межа. Новини України.</span>
+        <span class="row-tail">2026-10-01</span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">theverge.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-30</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-10-01</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE4wbjVQWGtia1ZlQm5LRF9qWUJNU3V1NTFVVzc0SXdaNjlhSFJXZTRFUTM3b0FnVDFITEhveEtGZnc0Z21VZjVTd2VkTS1ad1hnX0tNV2pVYzJJRDNja0MySFhKTkVpR3BpUDF5b3h3?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-29</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-29</span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">theverge.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-29</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNN2x0bkEtaWZzb1RjSVhzNUs3ZEZLR1F1clZWU0tRZFZZTmtxWkxHZzgyVWozOFhSZFoxQmFwbVBJT1AyUDRYbW5aTWtsUlVpNzdLbU1idjNpbXBrN3JzOEpETkhuNmUzVjU4dFkwUUtxYk5kZlRYVE1EY0xVU25IaVZNWURtN3hsOEQ3VThNZVdfYjVIOUxWQjVsaTd3RGN4TVNCWENXWUdzWDdGQWVWYVpQd20wbkNkQi1F?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-28</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxNdnkxbm1lYVhNNy1MS3M4ZUZOeG1hcV9ycENXcGtWd2VmQjBwQUVhZ0pybFZZUV9Md2JXV0tmNnRIZ18wMTF2Q0RoOVBqZEIzX1JaUEVQUHNfQ3lvUWFFRk9Za1Y3cVR5b2E1bDRWU2xpbktkVzRrUEI1WHRUa0NCdjE5NFdzdw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-28</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-28</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ1plS3QyNW13OFNDSjU4c2RtbUUwazhWdlF5ZWdVOXJ0T2t3RVBmY3h5Y1U2SXdtSWltRkhyUXVOVzc3QTg3d1FfR004ZEFWMEJhRG5yWTN1c1Q1WGxXeWNmci1FeWtQdWtseExVSkxpb0I2Zm5NZkY4emlEbHpNNUZDeDAtVTBsRmxQd3VMYnJ0dmJkalAzbWwwdWlGc2pIWUFoRkZBNDZvM1Etdnc?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-23</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOODlSaDJzV1RucHV3blZYWWplNVZTNnpRSklMUzZLSl9lMzY3bFF4WkNUNE1fRV90d1ZnU3hNUU5WTmNnZzVlLW50UnBxWUlpLW1pRWxtU29Ja2piVHdVMDZYRkREanltcnllUHNXenctWlI0YlhFNEFaSzI3d2N4Qk9NUmNWZV8yc29NVy1rd3JTNTVnME5VeExoUDkycS1CVFJjS18xNkZIbXhPYnc?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Meta Muse 正在打破AI的利润率迷思：为何软件胜出而半导体落败</span>
+        <span class="row-desc">market_signal · Meta Muse 正在打破AI的利润率迷思：为何软件胜出而半导体落败 Moomoo</span>
+        <span class="row-tail">2026-09-25</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-26</span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">theverge.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-26</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-26</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-26</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPU2F1d2VfQWtCMGM2bFB0a2swNWwtWDc5Rjdwc1RaSngzdWVsczg3dTM2Y3JYVm1zZHU0RVUwb2dkWTRrMnNDOEdsYXZqMl9GQXQ2QnRldGdVUEhHZmhWUDVxdVJ6RFpsQ0NtVmxaY28zM3p1NmJXdGhOV05nazM5dWhDM0w0dlJUZWJYMGMtMWNsZVBxMGxub3VVNWtCRkV3S3JsVFNJV18wdHVQNzJlV05UTDVjWUNYUDd0Zw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-24</span>
+      </div></a></li>
+      <li><a href="https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">latent.space</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-24</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-24</span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">theverge.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-25</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-24</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-25</span>
+      </div></a></li>
+      <li><a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">about.fb.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNdS1wNzB2Ukl4SlladlNMTzJPMmRONVJNaXZEcUJDU1R5UGJnNXdjbUhqcS13T0o5aG1KblVnMU8xNGtyd1RfTzZrMzlRQW5FdlNSMXp4UkVhblhxZ3JzeFp3Z3dJS0FlR19FQ01iRnJwYUZYNU5zNFl1TGVZRVRfaWk5a1pVajdaYm9ETmM2cGs0T09aSGc?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-22</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vZ0h3V3BmeXg5VEtpT2d5bGI0dFhYT2szRVlUZ1Bpc3l2amlEVW02WF9kYlBmXzVmSW9KTUtMWldORXlpcHBmQzNXV2Q2NHpOREtLcQ?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-23</span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">theverge.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-24</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN1NIM3JxN1RPdlktMDMwTmlZcnk5MFV4b1loLVBvc3pfUElYT3ZhQ3VLZmVod3ZxeDBVTXNkWkhybWJTZE05YzdkSWpOMHpwOVlYbWJYNndSSWRkRlFQSmNsM0F2WWgzZTFLNjFuMHNhY2d3akstanhNRTlOSEZvQVV2alFiTUE4MnBHRlJjdy12RXhwclJXVTFTZWV2R1ZrUHhUdlZuZmVtdw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-21</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxOR0JveXdMU2tKeW5UeXhocHBZcDZWVTVxc1cwQmYyQzJ3SG1jSnFTMXE1T2FzUUUxRXhlME11N1dfcnAyTE5PRGlBdFhYRWZKZm9IWWlfQnJWem9nM2F5eWZmVXhjNUM2MWxGOTVWR0J1cmFNMURtUWRJMGd0WHZlZjl2S2s0Z0ZtbjZYV3hwV3VpVHE3Ukd2X0xaakpCUlFwc0l2OUQtOUtYSGd6SXo5SW5qcU9aeFRfeXhLNUhYYUcyN0xWLU9TY3NaWFZ3aUVqa19RNFdDNnZNeklOWjJNYQ?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-23</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMikwJBVV95cUxNeUQ2ZUJXODVVVTlyTEJXV013MnNyYTZac0dYckRTVHRYa0xIWGxaZnpVRWk4d25ZY0VJR2RfVmdsZW82VGVHX0hoZ2NnUUVuWHVSOTFXY2FxTU4wWUJnU3NFSlVNNFlsV2xlMFdIV3JGTUUwVGJMYWRySTJPX2FfbVZHNTNEajVLVGtzcngzYlF1ZGJFSjBjbWt2NU9SNEh3R2Iyd2EtYl9USHZ3UFAtWHM0dm9xSlR5bHN4R2pOb2JmRjRHd1RjV1VtTkd2aVBLc2lLdVRkWHY2UkthVVpidS14bGhWeUp3aTNqSTlyZFlwVTEyZFJyQzRyaHozYWRNOTZpMVJfWkxkTWFTZXU1M1h2SQ?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-22</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE00TVNmNGxGRmpkSnB6cl9GNTI4SjZOaUFQczBzWC0tYkFleVotTm04aU5HUE1wRklvY3RrTDV4VTE0RnQxeWtLRHMyeUdfMjBOUFZPZlJBMkRfbVhuLXk0NEFJUm82Y2VqbWc?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-22</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-23</span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">theverge.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-22</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxOSmwtS3BWNHRva085Z0FGSmNYTTlSYWJ5ODh1S2pJNUFBb296ZktDNko3N3doZ2UxV0otRnZTcGtEX2hqSHEzdmZoOEF5MHpXaml2VHhGWHBDQ3pRNElZYldnejktd2V3T3dFUk9VVDFxWFgtdW5wUXREVmExdnVIVVBrVy0wU0p5QmxzT1NGcDhzVUtf?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-22</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNc0pWbDJJdHB2NjY5UHRWOU1OVU1BaHBMT00yUzctMkJiWThOWmtXVk1SM09EQjJ6U1VZRFNudmJuOFd5aTl4N0U5QkdwcHhELUV4NEhud0l1T1RuWTlxZTViS09ybGo5UVh1NVQ4VHlNUml6SkZsc01GM0taQUNETmltLTVwVFVIYnlxUk1IVHVEMzAxdnBNT0ptMlIteUk5WkxBNmxBd3ctVmhRWDE5WDhn?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-22</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxOMkotUzYwWWQ1eTV3UFc2b054WGtmMnMtSFdUdUtaNmRWQW1VYVR4TC1pWVFZMlRIUk9VOGJDd1h3N3piQ0M5Qm5ReWpHT0pNRS1WalVuUTZGemNJWWh1bS1kalc3U1hjZkJEMkxGMXVKRlEzV2hmekpYdVZGSlpuNXZmMC1fT2RwQm1LMWRycFp2SW5BTi1LVmpzakJ5QWZTT2Y0T1NrTENDcldGODRLd3hn?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-22</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNeWR2Zmw2ZDJiM3dIOFZITjdkeWNPMXBKVmtXaVI4bk01ZF8xWVk0bGNtM29UVHdPT3dMbkJIZUJNRXRCTVZUZHE5RDdTVlZyd0dQWkQ2b2RfNkRjbkF0RWtlMTVETXN6aTh3eDVqNWRtYjBEaTE0X3ZlNU9RWFR3eW0wQ3RwU0ZUSm04Tw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">亚马逊封禁 Meta Muse：不许 AI 代理代用户购物</span>
+        <span class="row-desc">market_signal · 亚马逊封禁 Meta Muse：不许 AI 代理代用户购物 搜狐网</span>
+        <span class="row-tail">2026-09-21</span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">theverge.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-21</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-22</span>
+      </div></a></li>
+      <li><a href="https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">arstechnica.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-22</span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">theverge.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-20</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-18</span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-11</span>
+      </div></a></li>
+      <li><a href="https://www.theverge.com/tech/993391/meta-muse-ai-hands-on" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">theverge.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-10</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPQXBTNEhLS0dxTUI5X3h3SVV0NmUwU0wxdThIMVBjV0tFTjNleDlrbC1GQUtWUGJROE1xYkg3aWNVdHNoTFZlQ2lyOHQzT1VCMHBTT0oxMGcxTGI1dW5HRksyamh1RTdsM0tPbGd2a2JvdDMtX1NaUmRFRTdqaElFVmo1NUphNldIb2Z4MGx6bTBhZEdsMG9VME1ZYzQ1WVJlWTlV?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-10</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">05</p>
+        <h2>从产品名直接追到一手材料</h2>
+        <p class="note">产品官网缺失或当前链接只是线索时，从这些检索入口继续核验。</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.google.com/search?q=%22Meta+Muse%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">官网与文档</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22Meta+Muse%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">定价与套餐</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22Meta+Muse%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">用户评价与抱怨</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22Meta+Muse%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">客户案例与结果</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22Meta+Muse%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">替代品与对比</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward product-onward" aria-label="继续浏览">
+    <div class="sec-head desk-sec">
+      <div><h2>同类产品</h2></div>
+      <a class="note onward-all" href="../products.html#c=%E9%80%9A%E7%94%A8%E5%8A%A9%E6%89%8B">
+        通用助手 共 102 个 →
+      </a>
+    </div>
+    <ul class="rows desk-list">
+      <li>
+        <a href="../p/fyagent.html">
+          <div class="row-head desk-row">
+            <span class="row-name">fyagent</span>
+            <span class="row-desc">把模型、账号、技能和提示词收进本地行李，换一套 AI 工具也不用从头配置</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/why.html">
+          <div class="row-head desk-row">
+            <span class="row-name">why</span>
+            <span class="row-desc">每天抛出一个为什么，声称能把好奇心连成一张会自己往下问的图</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/ai-搜索-百度.html">
+          <div class="row-head desk-row">
+            <span class="row-name">AI 搜索｜百度</span>
+            <span class="row-desc">把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页</span>
+            <span class="row-tail">
+<span class="tag sig">格局已定</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/deepseek-ai-智能助手.html">
+          <div class="row-head desk-row">
+            <span class="row-name">DeepSeek - AI 智能助手</span>
+            <span class="row-desc">DeepSeek 的手机助手：同一套模型，用来搜索、写作、阅读、解题和翻译</span>
+            <span class="row-tail">
+<span class="tag sig">格局已定</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/campus-job-application-workflow.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">campus-job-application-workflow</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/qiaomu-codex-imagegen.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">qiaomu-codex-imagegen</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>2653 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-10-09</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>

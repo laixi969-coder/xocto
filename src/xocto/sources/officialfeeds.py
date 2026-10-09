@@ -116,7 +116,9 @@ def _parse_entry(
     if not title or not link:
         return None
     published = _date(_text(entry.find(f"{ATOM}published" if atom else "pubDate")) or _text(entry.find(f"{ATOM}updated" if atom else "date")))
-    summary = _clean(_text(entry.find(f"{ATOM}summary" if atom else "description")) or _text(entry.find(f"{ATOM}content")))
+    content = _text(entry.find(f"{ATOM}content" if atom else "{http://purl.org/rss/1.0/modules/content/}encoded"))
+    summary = _clean(content or _text(entry.find(f"{ATOM}summary" if atom else "description")))
+    summary = " ".join(summary.split()[:200])
     external_id = hashlib.sha1(link.encode("utf-8")).hexdigest()[:20]
     return RawItem(
         source=source,

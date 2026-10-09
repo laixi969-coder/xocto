@@ -1,0 +1,85 @@
+{
+  "company": {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "description": "Good Tape is a Copenhagen-based AI transcription platform that converts audio and video into accurate, secure text, with tools for summaries, speaker identification and team collaboration.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "12AA3ED9-C32B-4E09-AE47-B5F7F1FFAF97",
+    "investors": [
+      "Nordic Makers"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Good Tape",
+    "rounds": [
+      {
+        "amountEur": null,
+        "date": "2026-10-01T00:00:00.000Z",
+        "id": "86206A82-52C1-4243-B8BB-EB42B914F875",
+        "investors": [
+          "Nordic Makers"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/86206A82-52C1-4243-B8BB-EB42B914F875"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "medium",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 0,
+    "url": "https://funding.tech.eu/companies/12AA3ED9-C32B-4E09-AE47-B5F7F1FFAF97",
+    "website": "https://goodtape.io/"
+  },
+  "round": {
+    "amountEur": null,
+    "amountEurStored": null,
+    "amountNative": null,
+    "company": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "founded": null,
+      "id": "12AA3ED9-C32B-4E09-AE47-B5F7F1FFAF97",
+      "name": "Good Tape",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "none",
+    "currency": "",
+    "date": "2026-10-01",
+    "fx": null,
+    "id": "86206A82-52C1-4243-B8BB-EB42B914F875",
+    "investors": [
+      "Nordic Makers"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Other",
+    "url": "/deals/86206A82-52C1-4243-B8BB-EB42B914F875"
+  }
+}

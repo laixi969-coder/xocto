@@ -33,7 +33,7 @@ canonical_url: https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-me
 summary: People can use these assistants to make restaurant reservations and cancel subscriptions.
 first_seen: '2026-09-17T13:46:16Z'
 last_seen: '2026-09-18T00:20:10Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 sightings:

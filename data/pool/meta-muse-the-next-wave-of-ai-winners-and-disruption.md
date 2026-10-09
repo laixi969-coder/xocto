@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ1plS3QyNW13
 summary: 'Meta Muse: The next wave of AI winners and disruption Saxo'
 first_seen: '2026-09-23T03:36:47Z'
 last_seen: '2026-09-26T00:38:27Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

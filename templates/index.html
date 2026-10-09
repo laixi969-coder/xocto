@@ -78,6 +78,35 @@
   </header>
   {% endif %}
 
+  {% if priority_products %}
+  <section class="band desk-band" id="major-products">
+    <div class="sec-head desk-sec"><div>{% set ns.sec = ns.sec + 1 %}<p class="section-index">{{ '%02d' | format(ns.sec) }}</p><h2>{{ t.home.major_products }}</h2></div></div>
+    <div class="funding-picks">
+      {% for p in priority_products %}
+      <article class="funding-pick">
+        <div class="funding-pick-id"><h3><a href="{{ root }}{{ locale.prefix }}p/{{ p.slug }}.html">{{ p.name }}</a></h3><span class="tag">{{ p.category }}</span><p class="note num">{{ p.priority_checked_on }}</p></div>
+        <div class="funding-pick-body"><p>{{ p.summary }}</p>
+          {% if p.priority_replaces %}<div class="field"><span class="field-k">{{ t.funding.replaces }}</span><p>{{ p.priority_replaces }}</p></div>{% endif %}
+          {% if p.priority_takeaway %}<div class="field field-take"><span class="field-k">{{ t.funding.takeaway_short }}</span><p>{{ p.priority_takeaway }}</p></div>{% endif %}
+          <a class="funding-link" href="{{ root }}{{ locale.prefix }}p/{{ p.slug }}.html">{{ locale.cta_default }} →</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if funding.picks %}
+  <section class="band desk-band" id="ai-funding">
+    <div class="sec-head desk-sec">
+      <div>{% set ns.sec = ns.sec + 1 %}<p class="section-index">{{ '%02d' | format(ns.sec) }}</p><h2>{{ t.funding.home_title }}</h2></div>
+      <a class="funding-link" href="{{ root }}{{ locale.prefix }}funding.html">{{ t.funding.all }} →</a>
+    </div>
+    {% include 'funding_picks.html' %}
+    <p class="note">{{ t.funding.source }}：{% for source in funding.sources %}<a class="citation-source" href="{{ source.url }}">{{ source.name }}</a>{% if not loop.last %} · {% endif %}{% endfor %} · {{ t.funding.asof }} <span class="num">{{ funding.latest_day }}</span></p>
+  </section>
+  {% endif %}
+
   {% if first_discoveries %}
   <section class="band desk-band" id="today-cases">
     <div class="sec-head desk-sec">

@@ -31,7 +31,7 @@ summary: Meta is quickly iterating on its new Muse AI agent, announcing a bunch 
   Muse […]
 first_seen: '2026-09-23T23:19:42Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 sightings:

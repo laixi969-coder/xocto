@@ -31,7 +31,7 @@ summary: Instinct founder said the platform is growing 10% day by day, with tran
   at a similar rate.
 first_seen: '2026-09-29T15:12:07Z'
 last_seen: '2026-09-30T01:18:45Z'
-status: watching
+status: rejected
 sources:
 - marketfeeds
 sightings:

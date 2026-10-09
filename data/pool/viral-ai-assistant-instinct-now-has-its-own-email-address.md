@@ -22,7 +22,7 @@ summary: Instinct’s new email feature lets the AI agent create and manage acco
   handle support requests, and do more on users' behalf.
 first_seen: '2026-09-09T15:13:12Z'
 last_seen: '2026-09-10T05:13:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
