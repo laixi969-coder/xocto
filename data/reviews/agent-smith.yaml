@@ -139,3 +139,51 @@
     selection into task-adaptive routing and shows Codex usage in one place, giving cost visibility before
     calls happen, so metered teams with frequent model choices would pick it when overspend matters; however,
     without bill-comparison data the size of the saving is not quantitatively verified.'
+- id: req-full-agent-smith-2026-10-10
+  project_slug: agent-smith
+  level: full
+  reviewed_at: '2026-10-10T02:27:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队用编码助手时 token 成本失控的需求：公开标题直接点出“Token 超支”，产品以按任务自适应路由、用量面板和带凭据基准回应，旧做法是逐次手动选模型或事后看账单；痛点刚性属工作流结构推理，尚无用户账单对比。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 347 增至 510，说明开发者持续关注，但公开材料没有用户反馈、issue 或采用案例，无法确认共识已形成或已进入日常工作流。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+    - ev-752672a26f62b7af
+    - ev-670d9b617427cb57
+    - ev-c7dece0185ac79e6
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费或采购记录，买方可能是使用编码助手的开发团队或工程效能部门，但这是判断而非已验证事实，收费方式与单位经济均未披露。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: truth
+    status: insufficient
+    reason: 它承诺带凭据的可复现基准与用量视图，但公开材料未给出基准的对比口径、复现步骤、路由策略效果数据，也未说明人工确认与安全边界，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  next_validation: 追踪该仓库 README 与基准测试说明，核对路由策略的对比口径、可复现步骤及是否有公开的用量或账单对比数据。
+  market: ''
+  job: AI 应用开发者或工程效能负责人在团队用编码助手批量跑任务、账单随 token 消耗上升时，接入 agent-smith 做按任务自适应模型路由，并查看 Codex 用量面板与带凭据的基准结果。
+  job_en: An AI application developer or engineering productivity lead whose team runs coding-assistant
+    tasks at scale and watches token bills rise plugs in agent-smith to route models adaptively per task
+    and view a Codex usage panel plus benchmark results with receipts.
+  pain: 公开材料以“Token 超支”为标题点出成本失控这一痛点，但未说明超支发生在哪个环节、此前如何发现与控制，痛点强度只能由工作流结构推断。
+  pain_en: The public material names token overspend in its headline, pointing to cost overrun, but does
+    not say where overspend occurs or how it was previously detected and controlled, so pain intensity
+    rests on workflow inference.
+  current_alternative: 公开材料未说明现有替代方式，无法确认此前是靠人工看账单、平台自带额度限制还是自建脚本控制成本。
+  current_alternative_en: Public material does not describe existing alternatives, so it is unclear whether
+    teams previously watched bills manually, relied on platform quotas, or wrote their own scripts.
+  usage_reason: 推断：相较逐次手动挑选模型或事后看账单，它把选模型这一步交给按任务的路由策略，并给出用量面板与可复现基准，团队可在同一处核对成本与效果；缺少账单对比数据，节省是否真实发生仍未核验。
+  usage_reason_en: 'Inference: versus manually picking a model each time or reviewing bills after the
+    fact, it moves model choice into per-task routing and offers a usage panel with reproducible benchmarks,
+    letting teams check cost and effect in one place; without bill comparison data, actual savings remain
+    unverified.'

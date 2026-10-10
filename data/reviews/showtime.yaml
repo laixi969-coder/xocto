@@ -165,3 +165,46 @@
     cutting and exporting into a one-sentence prompt plus local rendering, removing the editing-software
     learning and operation steps, so developers needing quick demo videos may choose it; however, no user
     feedback or repeat-use evidence is provided.'
+- id: req-full-showtime-2026-10-10
+  project_slug: showtime
+  level: full
+  reviewed_at: '2026-10-10T02:32:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据全部指向派拉蒙旗下 Showtime 电视网及其流媒体内容，与“编码代理本机渲染视频”这一产品毫无关联，无法还原用户任务、痛点与旧替代，价值结构无从成立。
+    evidence_ids:
+    - ev-5d7c13195bb8fbf2
+    - ev-5706fc71cb2c4f0a
+    - ev-9e7cded84813b0d0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该产品官方仓库或官网的 README、issue 与 discussion，确认其真实功能、支持的编码代理与渲染输出，替换当前误配的 Showtime 电视网证据。
+  market: ''
+  job: 开发者或内容创作者在需要为项目演示或产品说明制作短视频时，用一句话描述视频，由编码代理编排、本机渲染出成片。
+  job_en: Developers or content creators who need a short demo or explainer video for a project describe
+    it in one sentence, and a coding agent directs while the local machine renders the video.
+  pain: 做演示视频通常要学剪辑软件或外包，耗时且与写代码节奏脱节；但候选材料未给出任何用户抱怨、旧流程细节或替代行为的直接证据。
+  pain_en: Making a demo video usually means learning editing software or outsourcing, which is slow and
+    out of step with coding; but the candidate material gives no direct evidence of user complaints, old
+    workflow details, or workarounds.
+  current_alternative: 手工用剪辑软件制作，或外包给视频制作者，或干脆不做视频。
+  current_alternative_en: Editing manually in video software, outsourcing to a video producer, or skipping
+    the video entirely.
+  usage_reason: 推断：相较手工剪辑，它把写脚本、找素材、剪辑、导出压缩成一句话描述加本机渲染，省掉剪辑软件的学习与操作步骤，因此需要快速产出演示视频的开发者可能选择它；但材料未提供用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: compared with manual editing, it compresses scriptwriting, asset gathering,
+    cutting and exporting into a one-sentence prompt plus local rendering, removing the editing-software
+    learning and operation steps, so developers needing quick demo videos may choose it; however, no user
+    feedback or repeat-use evidence is provided.'

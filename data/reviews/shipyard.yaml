@@ -85,3 +85,45 @@
   usage_reason_en: 'No usage reason can be given: the available evidence is unrelated to coding-agent
     orchestration, with no product docs, issues or user feedback showing which step it removes, and no
     adoption signal at all.'
+- id: req-full-shipyard-2026-10-10
+  project_slug: shipyard
+  level: full
+  reviewed_at: '2026-10-10T02:32:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述了多代理并行时工作区互相覆盖的痛点，但全部证据指向同名棒球场、品牌公司与维基百科造船厂词条，无一条来自该产品，连它解决什么需求都无法用公开事实还原。
+    evidence_ids:
+    - ev-e692626eb1a30a4b
+    - ev-0e1c0aef965db57a
+    - ev-80e969e3b52f3a42
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品自身的官方仓库或官网，收集其 README、issue、discussion 与定价页，确认多代理 worktree 编排的实际交付流程与失败处理方式。
+  market: ''
+  job: 开发者在本机同时运行多个编码代理，需要把每个代理的代码改动、分支与终端会话分开管理，最后合并成可提交的改动。
+  job_en: Developers running multiple coding agents locally need to keep each agent's code changes, branches
+    and terminal sessions separate, then merge them into committable changes.
+  pain: 公开证据中没有任何一条来自该产品本身：全部证据指向同名棒球场、品牌营销公司和维基百科的造船厂词条，无法据此确认多代理并行时工作区互相覆盖这一痛点是否真实存在。
+  pain_en: 'None of the public evidence comes from the product itself: every item points to a same-named
+    baseball park, a branding agency, or the Wikipedia shipyard article, so the claimed pain of overlapping
+    workspaces across parallel agents cannot be confirmed.'
+  current_alternative: 无法从现有证据确认旧做法；按任务描述推断可能是手工开多个终端与 git worktree，或串行运行单个代理。
+  current_alternative_en: The prior workflow cannot be confirmed from the available evidence; by task
+    description it may be manually opening several terminals and git worktrees, or running one agent at
+    a time.
+  usage_reason: 无法给出使用理由：现有证据没有一条描述该产品的输入、动作或交付结果，任何选择动机都只能凭空编造，因此不作推断。
+  usage_reason_en: 'No usage reason can be given: no evidence describes this product''s inputs, actions
+    or outputs, so any adoption motive would be fabricated and is therefore withheld.'

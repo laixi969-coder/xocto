@@ -77,3 +77,51 @@
   usage_reason: 用户要完成的任务是：SRE 工程师、平台运维工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Site Reliability Engineer, Platform Operations Engineer Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-ai-sre-arena-2026-10-10
+  project_slug: ai-sre-arena
+  level: full
+  reviewed_at: '2026-10-10T02:28:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI SRE 代理缺少统一评测口径的需求，痛点是运维团队难以横向比较代理在 Kubernetes 故障场景下的表现；开源基准提供统一场景与可比结果，交付形式确定，属工作流结构推理。
+    evidence_ids:
+    - ev-3280bb7326c4500d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅说明这是面向 Kubernetes 上 AI SRE 代理的开放基准，未见提交者、使用团队或持续跑分记录，无法确认已被纳入选型流程。
+    evidence_ids:
+    - ev-3280bb7326c4500d
+  - gate: model
+    status: insufficient
+    reason: 由 edgedelta 组织发布，但公开材料未给出定价、赞助或企业采购路径，谁付钱无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-3280bb7326c4500d
+  - gate: truth
+    status: insufficient
+    reason: 评测任务集、评分口径与结果可复现性未在公开材料中说明，基准能否稳定交付可比结论尚缺证据。
+    evidence_ids:
+    - ev-3280bb7326c4500d
+  next_validation: 追踪该仓库的 README、评测任务集与 issue/discussion，确认是否公开评分口径、参与团队及可复现的跑分结果。
+  market: ''
+  job: SRE 或平台运维工程师在 Kubernetes 集群出现故障、或需要选型 AI 运维代理时，把候选 AI SRE 代理放进统一故障场景运行，得到可横向比较的评测结果，用于判断哪个代理值得引入生产。
+  job_en: An SRE or platform operations engineer facing a Kubernetes incident, or selecting an AI SRE
+    agent, runs candidate agents through a unified fault scenario set to obtain comparable evaluation
+    results for deciding which agent to bring into production.
+  pain: AI SRE 代理缺少统一评测口径，运维团队只能各自搭环境试跑，难以横向比较不同代理在 Kubernetes 故障场景下的表现；公开材料只给出基准定位，未提供用户反馈，痛点强度属结构推理。
+  pain_en: AI SRE agents lack a common evaluation standard, so operations teams must each build their
+    own environment to trial them, making it hard to compare agents across Kubernetes fault scenarios;
+    the public material only states the benchmark positioning and gives no user feedback, so pain intensity
+    is a structural inference.
+  current_alternative: 推断团队此前依赖自建测试环境、厂商演示或零散内部评测来比较 AI 运维代理，这是基于基准定位的推断，公开材料未直接说明替代对象。
+  current_alternative_en: It is inferred that teams previously relied on self-built test environments,
+    vendor demos or scattered internal evaluations to compare AI operations agents; this is an inference
+    from the benchmark positioning, as the public material does not directly state the alternative.
+  usage_reason: 相较各自搭环境试跑，该基准把 AI SRE 代理放进统一的 Kubernetes 故障场景并输出可横向比较的结果，减少团队自建评测环境与对齐口径的一步负担；因此正在选型 AI
+    运维代理的 SRE 团队可能选择它，这是推断，尚无采用反馈佐证。
+  usage_reason_en: Compared with building separate trial environments, the benchmark runs AI SRE agents
+    through unified Kubernetes fault scenarios and outputs comparable results, reducing the step of building
+    an evaluation environment and aligning criteria; SRE teams selecting an AI operations agent may therefore
+    choose it — this is an inference without adoption feedback.

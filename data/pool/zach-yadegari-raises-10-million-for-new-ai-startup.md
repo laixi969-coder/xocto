@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQeVVidXpsZU9W
 summary: Zach Yadegari Raises $10 Million for New AI Startup Nacionale News
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTE9kZFJTSU5JNmJE
 summary: AI用户破7亿：别让“会用”变成“只会用” 潮新闻客户端
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

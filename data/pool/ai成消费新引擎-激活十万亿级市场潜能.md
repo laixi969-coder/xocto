@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN1R5U0FHTTdU
 summary: AI成消费新引擎 激活十万亿级市场潜能 搜狐网
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

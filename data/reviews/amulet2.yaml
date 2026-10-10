@@ -24,3 +24,44 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-amulet2-2026-10-10
+  project_slug: amulet2
+  level: initial
+  reviewed_at: '2026-08-28T06:07:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都读不出来，仓库无说明文档，价值关无法成立。
+    evidence_ids:
+    - ev-f49627c890d18742
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且 0 星 1 fork 不构成任何采用或关注证据。
+    evidence_ids:
+    - ev-f49627c890d18742
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，材料未披露任何买方、定价或收费路径。
+    evidence_ids:
+    - ev-f49627c890d18742
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断它是否贴近该工作的第一性目标或能否确定性交付。
+    evidence_ids:
+    - ev-f49627c890d18742
+  next_validation: 抓取该仓库的 README、release 说明与 issue/discussion 内容，确认它实际交付的功能与目标用户。
+  market: ''
+  job: 无法确认：现有材料未说明谁会在什么工作节点打开它、处理什么材料、要完成什么任务。
+  job_en: 'Unconfirmed: the available material does not state who opens it at which work step, what material
+    is handled, or what task is to be completed.'
+  pain: 无法确认：没有说明文档或用户反馈，读不出它要缓解的具体痛点。
+  pain_en: 'Unconfirmed: with no documentation or user feedback, the specific pain it aims to relieve
+    cannot be read.'
+  current_alternative: 无法确认：材料未提及任何现有替代做法或旧流程。
+  current_alternative_en: 'Unconfirmed: the material mentions no existing alternative or prior workflow.'
+  usage_reason: 无法判断：缺少说明文档、定价、使用数据与任何用户反馈，无法说明它相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: with no documentation, pricing, usage data, or user feedback, there
+    is no way to say which step of burden it removes versus the old approach, or which users would choose
+    it under what circumstances.'

@@ -453,3 +453,52 @@
     trigger it without switching apps, removing the leave-the-chat, re-authenticate and manually re-paste-context
     steps. Developers and teams already doing daily work inside ChatGPT would therefore pick it when they
     need their capability embedded in that conversation flow. Repo stars rising from 69'
+- id: req-full-mcp-extensions-2026-10-10
+  project_slug: mcp-extensions
+  level: full
+  reviewed_at: '2026-10-10T02:31:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决第三方开发者把服务做成 ChatGPT 内原生插件、用户在对话内直接调用的需求，痛点是旧插件入口与呈现不统一、需跳出对话；仓库说明与 750→954 的收藏增长显示开发者已实际关注并动手，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-b1196dd6f582677f
+    - ev-2b63104f390d1364
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 750 增至 954，说明开发者社区持续关注该机制，但收藏与排名只属关注度证据，不能证明目标用户已把它留在工作流或形成持续采用；缺少 issue、discussion
+      或客户案例佐证。
+    evidence_ids:
+    - ev-b1196dd6f582677f
+    - ev-2b63104f390d1364
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露该扩展机制的定价、分成或审核计费规则，谁付钱（开发者、企业还是 OpenAI 侧）无法核验；这是判断而非已验证事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-b1196dd6f582677f
+  - gate: truth
+    status: insufficient
+    reason: 仓库仅给出机制目标，未公开审核流程、可用范围、安全与人工边界，交付能否稳定发生缺少可复现证据；需以官方文档或部署说明核验承诺兑现程度。
+    evidence_ids:
+    - ev-b1196dd6f582677f
+    - ev-9ccfda53ff992970
+  next_validation: 追踪 openai/mcp-extensions 仓库的 README、官方文档与 issue/discussion，确认插件提交审核流程、可用范围与计费规则是否公开落地。
+  market: ''
+  job: 第三方开发者要把自己的服务做成 ChatGPT 内可直接调用的原生形态插件，按 OpenAI 的扩展机制提交，让终端用户在对话中无需跳出即可调用该功能。
+  job_en: Third-party developers want to ship their service as a native-feeling ChatGPT plugin via OpenAI's
+    extension mechanism, so end users can invoke it inside the conversation without leaving the chat.
+  pain: 此前 ChatGPT 插件生态的调用入口、呈现形态与分发方式不统一，开发者要把功能塞进对话流需要自行适配，用户也要在多个外部工具间切换；公开材料只给出机制目标，未量化这一摩擦的频率与代价。
+  pain_en: Previously the plugin ecosystem had inconsistent invocation entry points, presentation and
+    distribution; developers had to adapt their features to fit the chat flow and users switched between
+    external tools. Public materials state the mechanism's goal but do not quantify the frequency or cost
+    of this friction.
+  current_alternative: 开发者此前依赖 ChatGPT 既有插件/工具调用接口、自建 GPTs 或让用户跳转到外部网页与独立应用完成同一任务。
+  current_alternative_en: Developers previously relied on existing ChatGPT plugin/tool-calling interfaces,
+    custom GPTs, or sending users out to external web pages and standalone apps to complete the same task.
+  usage_reason: 推断：相较旧做法，该机制让开发者按统一规范提交一次，功能即以原生形态出现在对话内，用户不必离开对话或另开工具，减少一步跳转与适配负担；因此正在把服务接入 ChatGPT 的开发者会在需要对话内直接调用时选择它。
+  usage_reason_en: 'Inference: versus the old approach, this mechanism lets a developer submit once under
+    a unified spec and have the feature appear natively inside the conversation, so users need not leave
+    the chat or open another tool, removing a jump and adaptation step; developers integrating services
+    into ChatGPT would choose it when in-conversation invocation is required.'

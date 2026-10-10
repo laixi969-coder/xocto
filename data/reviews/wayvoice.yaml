@@ -125,3 +125,47 @@
   usage_reason_en: 'Inference: compared with typing by hand or cloud transcription plus pasting, it recognizes
     locally and injects text straight into the active application, removing the upload and copy-paste
     steps, so privacy-conscious or offline Linux users would pick it for long dictation.'
+- id: req-full-wayvoice-2026-10-10
+  project_slug: wayvoice
+  level: full
+  reviewed_at: '2026-10-10T02:33:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Linux/Wayland 用户口述转文字的需求，痛点是主流输入法不覆盖该平台、云端方案涉及隐私，旧行为是手动打字或上传音频；这是工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-1fcb520d26597b7e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 55 增至 62 属关注度信号，无用户评价或采用规模说明真实使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-1fcb520d26597b7e
+    - ev-1424aac02dddaec2
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，开源项目可能靠捐赠或自建部署，买方是谁尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1fcb520d26597b7e
+  - gate: truth
+    status: insufficient
+    reason: 本地 Whisper 与直接注入当前应用在技术上可核对，但识别准确率、延迟和是否需要人工校对均未提供，交付确定性待核验。
+    evidence_ids:
+    - ev-1fcb520d26597b7e
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于识别准确率、延迟与用户实际使用反馈的公开记录。
+  market: ''
+  job: Linux/Wayland 桌面用户在不便打字或需要快速记录时，对着麦克风口述，让文字直接落到当前正在编辑的应用里。
+  job_en: A Linux/Wayland desktop user, when typing is inconvenient or notes must be captured fast, speaks
+    into the microphone and gets the words inserted directly into the application currently being edited.
+  pain: 主流语音输入长期偏向 Windows 和 macOS，Linux 桌面用户要么手动打字，要么把音频上传云端转写再复制粘贴，既慢又涉及隐私。
+  pain_en: Mainstream voice input has long favored Windows and macOS, so Linux desktop users either type
+    by hand or upload audio to cloud services and copy-paste the result, which is slow and raises privacy
+    concerns.
+  current_alternative: 手动打字，或使用需要联网、把音频上传云端的语音转写服务，再复制粘贴回目标应用。
+  current_alternative_en: Typing by hand, or using cloud transcription services that upload audio and
+    then copy-pasting the result back into the target application.
+  usage_reason: 推断：相较手动打字或云端转写再粘贴，它在本地完成识别并把文字直接注入当前应用，省掉上传音频和复制粘贴两步，因此在意隐私或网络受限的 Linux 用户会在长文本口述时选择它。
+  usage_reason_en: 'Inference: compared with typing by hand or cloud transcription plus pasting, it recognizes
+    locally and injects text straight into the active application, removing the upload and copy-paste
+    steps, so privacy-conscious or offline Linux users would pick it for long dictation.'

@@ -1,0 +1,81 @@
+- id: req-initial-thravik-2026-10-10
+  project_slug: thravik
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决浏览信息找不回的问题，但公开材料未说明替代了哪一步旧操作，需求强度无法判断。
+    evidence_ids:
+    - ev-9f7636b6fc1d134c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有任何采用、评价或使用规模信号，共识无法判断。
+    evidence_ids:
+    - ev-9f7636b6fc1d134c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，商业模式完全未知。
+    evidence_ids:
+    - ev-9f7636b6fc1d134c
+  - gate: truth
+    status: insufficient
+    reason: 无法确认“记住”是本地存储还是云端处理，隐私边界与人工确认环节均未说明。
+    evidence_ids:
+    - ev-9f7636b6fc1d134c
+  next_validation: 收集该产品官网或产品页的定价与功能说明，确认它记住的内容范围、呈现形式与数据处理位置。
+  market: ''
+  job: Mac 用户在浏览网页时依赖浏览器记住看过的内容，以便之后找回信息或接着之前的任务继续。
+  job_en: Mac users rely on the browser to remember what they have read so they can later retrieve it
+    or resume an earlier task.
+  pain: 公开材料只有一句“会记住的浏览器”，没有说明用户原来在哪一步丢失信息、代价多大，痛点无法还原。
+  pain_en: Public material is a single line about a browser that remembers, with no account of where users
+    previously lost information or what it cost, so the pain cannot be reconstructed.
+  current_alternative: 用户目前靠书签、历史记录、标签页分组或笔记工具来保存浏览过的内容。
+  current_alternative_en: Users currently rely on bookmarks, history, tab groups or note tools to keep
+    browsed content.
+  usage_reason: 推断：若浏览器能自动保留浏览上下文并直接召回，用户可省去手动收藏和整理这一步，因此经常做资料检索的 Mac 用户可能试用；但缺少用户反馈与留存证据，无法确认其被长期使用。
+  usage_reason_en: 'Inference: if the browser automatically keeps browsing context and recalls it directly,
+    users skip manual bookmarking and organizing, so Mac users doing frequent research may try it; without
+    user feedback or retention evidence, long-term use cannot be confirmed.'
+- id: req-full-thravik-2026-10-10
+  project_slug: thravik
+  level: full
+  reviewed_at: '2026-10-10T02:33:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决浏览信息找不回的问题，但公开材料未说明替代了哪一步旧操作，需求强度无法判断。
+    evidence_ids:
+    - ev-9f7636b6fc1d134c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官网或产品页的定价与功能说明，确认它记住的内容范围、呈现形式与数据处理位置。
+  market: ''
+  job: Mac 用户在浏览网页时，让浏览器自动记住看过的内容，之后能找回信息或接着之前的任务继续。
+  job_en: Mac users browsing the web rely on the browser to automatically remember what they have read
+    so they can later retrieve it or resume an earlier task.
+  pain: 公开材料只有一句“会记住的浏览器”，没有说明用户原来在哪一步丢失信息、代价多大，痛点无法还原。
+  pain_en: Public material is a single line about a browser that remembers, with no account of where users
+    previously lost information or what it cost, so the pain cannot be reconstructed.
+  current_alternative: 用户目前靠书签、历史记录、标签页分组或笔记工具来保存浏览过的内容。
+  current_alternative_en: Users currently rely on bookmarks, history, tab groups or note tools to keep
+    browsed content.
+  usage_reason: 推断：若浏览器能自动保留浏览上下文并直接召回，用户可省去手动收藏和整理这一步，因此经常做资料检索的 Mac 用户可能试用；但缺少用户反馈与留存证据，无法确认其被长期使用。
+  usage_reason_en: 'Inference: if the browser automatically keeps browsing context and recalls it directly,
+    users skip manual bookmarking and organizing, so Mac users doing frequent research may try it; without
+    user feedback or retention evidence, long-term use cannot be confirmed.'

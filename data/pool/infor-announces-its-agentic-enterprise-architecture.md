@@ -1,6 +1,6 @@
 ---
 slug: infor-announces-its-agentic-enterprise-architecture
-name: Infor announces its agentic enterprise architecture
+name: Infor
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ0o5bnFvZ0JK
 summary: Infor announces its agentic enterprise architecture varindia
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Infor announces its agentic enterprise architecture
+# Infor
 
 Infor announces its agentic enterprise architecture varindia
 

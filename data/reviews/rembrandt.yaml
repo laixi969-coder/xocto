@@ -83,3 +83,45 @@
   usage_reason_en: 'The task is: Independent photographers or small studios processing RAW files and making
     masked local adjustments before delivering client images Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-rembrandt-2026-10-10
+  project_slug: rembrandt
+  level: full
+  reviewed_at: '2026-10-10T02:32:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向17世纪荷兰画家伦勃朗的传记与作品，与摄影后期产品无关，无法说明用户任务、痛点或旧替代，价值结构无从建立。
+    evidence_ids:
+    - ev-3c05cd20be50685d
+    - ev-dd48851f6ad2ec9f
+    - ev-9b7dd47751051b59
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目官方仓库或官网的产品说明、README、issue 与 discussion，确认其实际编辑能力、输入输出格式与用户使用反馈。
+  market: ''
+  job: 独立摄影师或小型工作室在交付客户成片前，处理 RAW 素材并做蒙版局部调整，最终输出可交付的图片文件。
+  job_en: Independent photographers or small studios process RAW files and make masked local adjustments
+    before delivering client images, then output deliverable image files.
+  pain: 公开证据未提供任何关于该产品用户痛点的材料：所引证据全部是17世纪荷兰画家伦勃朗的传记与作品介绍，与摄影后期工作流无关，无法说明用户在处理 RAW 或蒙版时遇到什么困难。
+  pain_en: 'Public evidence contains no material about this product''s user pain: all cited evidence concerns
+    the 17th-century Dutch painter Rembrandt, unrelated to photo post-processing workflows, so no user
+    difficulty with RAW or masking can be established.'
+  current_alternative: 公开材料未说明摄影师目前用什么工具完成 RAW 处理与蒙版调整，也未说明该产品替代了什么旧做法。
+  current_alternative_en: Public materials do not show what tools photographers currently use for RAW
+    processing and masking, nor what prior practice this product replaces.
+  usage_reason: 无法判断用户为何选择它：现有证据均为画家伦勃朗的历史资料，未包含任何产品功能、用户反馈或采用行为，无法建立产品动作与用户选择之间的因果。
+  usage_reason_en: 'Why users would choose it cannot be judged: all evidence is historical material about
+    the painter Rembrandt, with no product capability, user feedback, or adoption behavior to establish
+    a causal link.'

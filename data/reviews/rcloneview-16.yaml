@@ -1,0 +1,89 @@
+- id: req-initial-rcloneview-16-2026-10-10
+  project_slug: rcloneview-16
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨云盘搬运与同步的需求，痛点是命令行门槛高、易出错；旧做法是手写命令或逐个客户端同步，结构成立。
+    evidence_ids:
+    - ev-ab2b0d35ff932349
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有用户评价或客户案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-ab2b0d35ff932349
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，买方可能是个人或小团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ab2b0d35ff932349
+  - gate: truth
+    status: insufficient
+    reason: 跨云同步是确定性任务，但候选材料未说明 AI 具体作用，与 AI 应用的关联需进一步核验。
+    evidence_ids:
+    - ev-ab2b0d35ff932349
+  next_validation: 收集该产品的官方定价页或功能文档，确认是否收费以及是否包含 AI 相关能力。
+  market: ''
+  job: 中小企业 IT 运维或数据管理员，在需要把文件在多个云盘之间迁移或定期同步时，用图形界面配置存储与传输任务，完成搬运并拿到同步结果。
+  job_en: An IT operator or data administrator at a small business configuring storage and transfer tasks
+    through a GUI to migrate or regularly sync files across several cloud drives and end up with synced
+    results.
+  pain: rclone 命令行配置繁琐、参数易错，非工程人员难以独立完成跨云搬运，出错后排查成本高。
+  pain_en: rclone's command line is fiddly and error-prone, so non-engineers struggle to move data across
+    clouds alone and debugging failures is costly.
+  current_alternative: 直接使用 rclone 命令行，或依赖各家云盘自带客户端逐个手动同步。
+  current_alternative_en: Using the rclone command line directly, or syncing manually one by one with
+    each cloud provider's own client.
+  usage_reason: 推断：相较手写 rclone 命令，它把存储配置和传输任务变成可视化操作，省去记参数和查文档这一步，因此对没有专职工程师、又要跨多云搬运文件的小团队更有吸引力；但公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: versus hand-writing rclone commands, it turns storage setup and transfers
+    into visual operations, removing the step of memorising flags and reading docs, which appeals to small
+    teams without dedicated engineers that still move files across clouds; no retention or payment evidence
+    is public.'
+- id: req-full-rcloneview-16-2026-10-10
+  project_slug: rcloneview-16
+  level: full
+  reviewed_at: '2026-10-10T02:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨云盘搬运与定期同步的需求，痛点是 rclone 命令行门槛高、参数易错、失败排查贵；旧做法是手写命令或逐个云盘客户端同步，不解决的后果是迁移中断或数据不一致。这是基于产品说明与工作流的结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-ab2b0d35ff932349
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品自述的桌面 GUI 与 40 种云存储支持，没有用户评价、客户案例或社区讨论，无法判断是否形成使用共识；关注度不等于持续采用。
+    evidence_ids:
+    - ev-ab2b0d35ff932349
+  - gate: model
+    status: insufficient
+    reason: 未见官方定价页，买方可能是个人运维、小团队或企业采购，属判断而非已验证事实；也未发现融资叙事，暂无每日优鲜风险。
+    evidence_ids:
+    - ev-ab2b0d35ff932349
+  - gate: truth
+    status: insufficient
+    reason: 跨云同步本身是确定性任务，但候选材料未说明 AI 在其中的具体动作，是否含智能分类或异常处理仍待核验，与 AI 应用的关联尚未证实。
+    evidence_ids:
+    - ev-ab2b0d35ff932349
+  next_validation: 追踪 RcloneView 官网的定价页与功能文档，确认是否收费、买方类型，以及是否包含 AI 相关能力。
+  market: ''
+  job: IT 运维人员或数据管理员在需要把文件在多个云盘之间迁移或定期同步时，打开桌面 GUI 配置存储连接与传输任务，最终拿到已同步或已迁移的文件。
+  job_en: An IT operator or data administrator migrating or regularly syncing files across several cloud
+    drives opens the desktop GUI to configure storage connections and transfer tasks, ending up with synced
+    or migrated files.
+  pain: rclone 命令行参数繁琐、易写错，非工程背景的人难以独立完成跨云搬运，失败后排查成本高；这是从命令行门槛推导的结构性痛点，公开材料未提供用户抱怨原文。
+  pain_en: rclone's command line is fiddly and error-prone, so non-engineers struggle to move data across
+    clouds alone and debugging failures is costly; this is a structural inference from the CLI barrier,
+    not a quoted user complaint.
+  current_alternative: 直接手写 rclone 命令，或使用各家云盘自带客户端逐个手动同步。
+  current_alternative_en: Hand-writing rclone commands directly, or syncing manually one by one with each
+    cloud provider's own client.
+  usage_reason: 推断：相较手写 rclone 命令，它把存储配置与传输任务变成可视化操作，省去记参数、查文档这一步，因此没有专职工程师却要跨多云搬运文件的小团队会在需要迁移或定期同步时选择它；公开材料尚无留存或付费证据。
+  usage_reason_en: 'Inference: versus hand-writing rclone commands, it turns storage setup and transfers
+    into visual operations, removing the step of memorising flags and reading docs, so small teams without
+    dedicated engineers that still move files across clouds would pick it when migrating or scheduling
+    syncs; no retention or payment evidence is public yet.'

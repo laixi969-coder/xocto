@@ -1,0 +1,85 @@
+- id: req-initial-heypi-2026-10-10
+  project_slug: heypi
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决会议中需求口头对齐慢、交付后验的脱节痛点，通过会中即时构建建立快速验证闭环，工作流价值成立。
+    evidence_ids:
+    - ev-843b75d9f81d18b5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区单条发布描述，尚未披露用户规模、持续留存或实际团队采用数据，共识处于极早期。
+    evidence_ids:
+    - ev-843b75d9f81d18b5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露商业定价模式与付费路径，商业变现逻辑尚未经过公开验证。
+    evidence_ids:
+    - ev-843b75d9f81d18b5
+  - gate: truth
+    status: insufficient
+    reason: 实时在会议中交付完整可用软件对模型生成精度和低延迟要求极高，确定性交付与工程容错能力仍待验证。
+    evidence_ids:
+    - ev-843b75d9f81d18b5
+  next_validation: 获取官方产品页面或实测演示，核验其在会议中的具体交互形式、支持的技术栈及实际代码生成与部署链路。
+  market: ''
+  job: 产品经理与工程师在会议评审或沟通场景下，需要将口头讨论的交互与功能快速变为可运行的原型或功能交付。
+  job_en: Product managers and engineers in meetings needing to turn verbal requirement discussions into
+    running prototypes or features live.
+  pain: 会议沟通中口头对齐需求往往存在理解偏差，会后手写文档再排期开发周期长、反馈慢，容易出现反复修改。
+  pain_en: Verbal requirement alignment in meetings often leads to misunderstandings, while post-meeting
+    documentation and deferred development create long turnaround cycles.
+  current_alternative: 传统方式是通过会议记录整理文档、在设计工具中绘制低保真线框图，会后再排期由工程师写代码实现。
+  current_alternative_en: Taking meeting notes, drafting low-fidelity wireframes in design tools, and
+    scheduling engineering sprints later.
+  usage_reason: 推断该产品通过会议环境下的即时代码或界面生成，省去跨岗位的二次文档转译，让参会者能够当场确认运行效果。
+  usage_reason_en: 'Inferred: The tool reduces translation friction from notes to code by generating working
+    prototypes live, allowing immediate validation by all meeting participants.'
+- id: req-full-heypi-2026-10-10
+  project_slug: heypi
+  level: full
+  reviewed_at: '2026-10-10T02:30:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议中口头需求对齐慢、交付后验的脱节痛点，通过会中即时构建建立快速验证闭环；公开材料仅有产品定位描述，属工作流结构推理。
+    evidence_ids:
+    - ev-843b75d9f81d18b5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区单条发布描述，未披露用户规模、持续留存或团队采用数据，共识处于极早期。
+    evidence_ids:
+    - ev-843b75d9f81d18b5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价模式与付费路径，买方是团队订阅还是个人付费尚不明确，属判断而非已验证事实。
+    evidence_ids:
+    - ev-843b75d9f81d18b5
+  - gate: truth
+    status: insufficient
+    reason: 实时在会议中交付完整可用软件对模型生成精度和低延迟要求极高，确定性交付与工程容错边界仍待核验。
+    evidence_ids:
+    - ev-843b75d9f81d18b5
+  next_validation: 追踪 HeyPi 官方产品页或实测演示，核验其在会议中的具体交互形式、支持的技术栈及实际代码生成与部署链路。
+  market: ''
+  job: 产品经理与工程师在会议评审或需求沟通现场，处理口头讨论中的交互与功能描述，需要当场得到可运行的原型或代码，以便参会者立即确认理解是否一致。
+  job_en: Product managers and engineers in a live review or requirements meeting, working from verbal
+    descriptions of interactions and features, need a running prototype or code on the spot so participants
+    can immediately confirm shared understanding.
+  pain: 口头对齐需求容易产生理解偏差，会后整理文档再排期开发周期长、反馈慢，反复修改成本高。
+  pain_en: Verbal requirement alignment is prone to misunderstanding, and post-meeting documentation plus
+    deferred development creates long turnaround and costly rework.
+  current_alternative: 会议记录整理成文档、在设计工具中画低保真线框图，会后再排期由工程师写代码实现。
+  current_alternative_en: Taking meeting notes into documents, drawing low-fidelity wireframes in design
+    tools, then scheduling engineering work later.
+  usage_reason: 推断：相较会后写文档再排期，它把生成动作放进会议现场，省去跨岗位的二次文档转译，让参会者当场看到运行效果并即时纠偏，因此需求评审频繁、迭代节奏快的产品团队更可能选择它。
+  usage_reason_en: 'Inference: versus documenting after the meeting and scheduling later, it moves generation
+    into the meeting itself, removing the cross-role translation step and letting participants see and
+    correct a running result immediately, so product teams with frequent reviews and fast iteration are
+    more likely to choose it.'

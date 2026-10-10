@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/SlayerLab/fabryka-track
 summary: Fabryka AI leaderboard of small language models
 first_seen: '2026-10-10T01:46:27Z'
 last_seen: '2026-10-10T01:46:27Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

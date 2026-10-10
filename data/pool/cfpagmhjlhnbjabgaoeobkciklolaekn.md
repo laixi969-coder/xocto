@@ -21,7 +21,7 @@ canonical_url: https://chromewebstore.google.com/detail/si-→-ai/cfpagmhjlhnbja
 summary: Rename Super Intelligence Back to Artificial Intelligence
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

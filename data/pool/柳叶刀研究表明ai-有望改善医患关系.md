@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/502359.html
 summary: Google 研究成果首次登上《柳叶刀》主刊
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

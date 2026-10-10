@@ -182,3 +182,54 @@
     description and multi-round trial step, so creators who must reliably replicate a specific camera
     move or convert existing 3D animation into AI video would choose it when they have concrete reference
     material.'
+- id: req-full-blender-video-workflows-2026-10-10
+  project_slug: blender-video-workflows
+  level: full
+  reviewed_at: '2026-10-10T02:28:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把参考视频运镜或白模动画转成 AI 视频可用提示词的需求，痛点是运镜节奏难以文字描述、只能反复试错或手工拆帧，不解决则生成额度与时间被浪费；这是基于公开仓库说明与视频生成工作流的结构推理，非用户口述。
+    evidence_ids:
+    - ev-5464fc30abe86bef
+    - ev-b9a8db661c88132b
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 69 缓升至 76，说明有开发者持续关注，但无 issue、discussion 或用户评价说明谁在何种场景实际采用，关注度不能等同于持续使用。
+    evidence_ids:
+    - ev-5464fc30abe86bef
+    - ev-b9a8db661c88132b
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价、付费主体或商业交付路径；谁付钱尚不清，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-5464fc30abe86bef
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明只描述两套工作流的存在，未公开交付质量、人工修片环节与可复现结果，承诺能否确定性交付仍缺公开证据。
+    evidence_ids:
+    - ev-8cedee21cc0efac1
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开描述实际部署场景、替代的旧流程与出片结果。
+  market: ''
+  job: 视频创作者或动画师在需要复刻一段参考视频的运镜与节奏、或把已做好的原创白模动画转成 AI 视频时，用 Codex 配合 Blender 处理参考素材或白模动画，产出可交给 AI 视频生成工具的提示词，再出片。
+  job_en: A video creator or animator who needs to replicate a reference video's camera movement and pacing,
+    or turn an original white-model animation into an AI video, uses Codex with Blender to process the
+    reference material or white-model animation into prompts, then feeds them to an AI video generator
+    to produce the clip.
+  pain: AI 视频生成对提示词高度敏感，而运镜、节奏、构图这类信息很难用文字凭空描述；创作者要么反复试错烧生成额度，要么手工逐帧拆解参考视频，白模动画转 AI 视频也缺少稳定的提示词转换路径。
+  pain_en: AI video generation is highly prompt-sensitive, yet camera movement, pacing and composition
+    are hard to describe in words; creators either burn generation credits on trial and error or manually
+    break down reference footage frame by frame, and there is no stable prompt-conversion path from white-model
+    animation to AI video.
+  current_alternative: 当前替代方式是手工拆解参考视频、凭经验反复写提示词并多次重生成，或直接用现成 AI 视频工具的文生视频/图生视频功能，缺少把 Blender 场景与运镜信息结构化转成提示词的中间环节。
+  current_alternative_en: Today users manually break down reference footage, hand-write prompts by experience
+    and regenerate repeatedly, or use off-the-shelf text-to-video/image-to-video features, with no intermediate
+    step that structurally converts Blender scene and camera data into prompts.
+  usage_reason: 推断：相较手工拆解与反复试错，这套工作流把参考视频或白模动画经 Blender 与 Codex 转成结构化提示词，减少了“凭感觉描述运镜再反复重生成”这一步负担，因此需要精确复刻运镜或已有白模资产的视频创作者和动画师会在出片前选择它。
+  usage_reason_en: 'Inference: versus manual breakdown and repeated trial and error, this workflow converts
+    reference video or white-model animation into structured prompts via Blender and Codex, removing the
+    burden of describing camera movement by feel and regenerating repeatedly, so creators needing precise
+    camera replication or already holding white-model assets would choose it before generating the final
+    clip.'

@@ -23,7 +23,7 @@ summary: 'Spellbook: Interview With Co-Founder And CEO Scott Stevenson About Leg
   ARR Growth Pulse 2.0'
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

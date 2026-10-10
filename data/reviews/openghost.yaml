@@ -306,3 +306,43 @@
   usage_reason_en: Because the job, pain and prior alternative cannot be reconstructed from public facts,
     it is impossible to explain which users would choose it and when; the repository's 237→247 stars reflect
     attention only and cannot serve as a reason for choice.
+- id: req-full-openghost-2026-10-10
+  project_slug: openghost
+  level: full
+  reviewed_at: '2026-10-10T02:31:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有一句产品定位与仓库描述，未说明谁在什么工作节点处理什么材料、交付什么结果，也无可引用的用户痛点或旧替代行为，连需求与痛点都无法写出，故价值关不成立。
+    evidence_ids:
+    - ev-26bc777b4a2aa1d0
+    - ev-3d9e61ed2c08b00a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OpenGhost 官方仓库的 README、issue 与 discussion，确认它支持的具体桌面任务、输入材料、交付结果与权限边界，以判断能否还原真实工作流。
+  market: ''
+  job: 公开材料只说明它是 Windows、macOS、Linux 上的开源桌面 AI 代理，自带代理引擎、浏览器工具和绘图引擎；谁在什么工作节点打开它、处理什么材料、交付什么结果均未说明，无法还原具体任务。
+  job_en: Public material only says it is an open-source desktop AI agent for Windows, macOS and Linux
+    with its own agent engine, browser tooling and drawing engine; who opens it at which work step, what
+    material it handles and what it delivers are unstated, so no concrete job can be reconstructed.
+  pain: 公开材料没有用户抱怨、workaround 或客户案例，无法说明不解决这项任务的具体代价、发生频率或后果；产品功能清单不能当作痛点证据。
+  pain_en: Public material contains no user complaints, workarounds or customer cases, so the cost, frequency
+    or consequence of leaving the job unsolved cannot be stated; a feature list is not pain evidence.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了哪一步旧流程。
+  current_alternative_en: Public material does not show how users complete this job today or which prior
+    step it replaces.
+  usage_reason: 无法判断：材料未说明它减少哪一步负担或改善哪项可核对结果，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step''s burden it removes or which
+    checkable result it improves, so it cannot explain which users would choose it and when.'

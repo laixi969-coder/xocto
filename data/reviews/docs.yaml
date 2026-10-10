@@ -1,0 +1,88 @@
+- id: req-initial-docs-2026-10-10
+  project_slug: docs
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理运行中需要人确认时任务卡住的问题，痛点具体且旧做法是盯屏实时回复，工作流结构成立，属推理判断。
+    evidence_ids:
+    - ev-4f4f23641c116f49
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有采用规模或用户反馈，是否形成共识无法判断。
+    evidence_ids:
+    - ev-4f4f23641c116f49
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费与买方，to B 团队自建还是托管服务无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4f4f23641c116f49
+  - gate: truth
+    status: insufficient
+    reason: 代理提问若涉及权限或安全边界，异步回答可能绕过审批，公开材料未说明权限控制与人工边界。
+    evidence_ids:
+    - ev-4f4f23641c116f49
+  next_validation: 收集 PlanNotator 开源仓库的 issue 或 discussion，确认代理提问的权限控制与异步回答的实际使用情况。
+  market: ''
+  job: 运行 AI 代理的工程或运营人员在代理执行到需要人确认的步骤时，异步回答代理提出的问题，让任务继续完成。
+  job_en: An engineer or operator running an AI agent answers the agent's questions asynchronously when
+    execution reaches a step needing human confirmation, so the task can finish.
+  pain: 代理中途提问时人不在场，任务就卡住；把问题塞进聊天窗口又难以追踪哪些已答、哪些待答。
+  pain_en: When the agent asks mid-run and nobody is present, the task stalls; pushing questions into
+    a chat window makes it hard to track what is answered and what is pending.
+  current_alternative: 现在多靠盯着终端或聊天窗口实时回复，或让代理停下来等人，缺少异步收集与回答代理问题的固定界面。
+  current_alternative_en: Today people watch a terminal or chat window to reply live, or let the agent
+    stop and wait, with no fixed interface for collecting and answering agent questions asynchronously.
+  usage_reason: 推断：把代理提问集中到一个可异步填写的界面，用户不必守在运行现场，长任务可以跨时区或跨班次推进，因此常跑长流程代理的团队会采用；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: centralizing agent questions into an asynchronously fillable interface
+    means users need not stay at the run, so long tasks can progress across time zones or shifts, which
+    is why teams running long agent flows would adopt it; no retention or repeat-use evidence is public.'
+- id: req-full-docs-2026-10-10
+  project_slug: docs
+  level: full
+  reviewed_at: '2026-10-10T02:29:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理运行中需人确认时任务卡住的问题，痛点具体，旧做法是盯屏实时回复或让代理干等；产品以 hooks 接入并把问题汇入 inbox 异步作答，交付是任务继续推进，属工作流结构推理。
+    evidence_ids:
+    - ev-57c397b93f4e569c
+    - ev-8e1c32f48d1f059b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明产品接入多种编码代理并提供异步 inbox，未见采用规模、用户反馈或社区讨论，是否形成共识无法判断。
+    evidence_ids:
+    - ev-57c397b93f4e569c
+    - ev-8e1c32f48d1f059b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，是开发者自用、团队采购还是托管服务无法判断；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-57c397b93f4e569c
+  - gate: truth
+    status: insufficient
+    reason: 代理提问若涉及权限或安全边界，异步回答可能绕过审批；公开材料未说明权限控制与人工边界，交付确定性待核。
+    evidence_ids:
+    - ev-8e1c32f48d1f059b
+  next_validation: 追踪 Plannotator 官方仓库的 issue 或 discussion，确认代理提问的权限控制与异步回答的实际使用情况。
+  market: ''
+  job: 运行 Claude Code、Codex、Copilot CLI 等编码代理的开发者或团队，在代理执行长任务中途抛出待确认问题或阻塞项时，通过浏览器界面异步填写答案与批注，让代理继续跑完任务。
+  job_en: Developers or teams running coding agents such as Claude Code, Codex, or Copilot CLI answer
+    the agent's mid-run questions or blockers asynchronously through a browser surface, so the agent can
+    continue and finish the task.
+  pain: 代理中途提问时人不在现场，任务就停在那里；把问题混在终端或聊天窗口里，难以分辨哪些已答、哪些待答，长任务被迫中断等待。
+  pain_en: When the agent asks mid-run and nobody is present, the task halts; questions mixed into a terminal
+    or chat window make it hard to tell what is answered and what is pending, forcing long tasks to wait.
+  current_alternative: 目前多靠盯着终端或聊天窗口实时回复，或让代理停下来等人，缺少一个集中收集并异步回答代理问题的固定界面。
+  current_alternative_en: Today people watch a terminal or chat window to reply live, or let the agent
+    stop and wait, with no fixed surface for collecting and answering agent questions asynchronously.
+  usage_reason: 推断：Plannotator 通过 hooks 和命令直接接入代理，把各代理的问题、阻塞项和评审集中到一个 inbox，用户不必守在运行现场即可作答，因此常跑长流程编码代理的开发者会在离开终端时选择它；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: Plannotator plugs into agents via hooks and commands and funnels questions,
+    blockers, and reviews from every agent into one inbox, so users need not stay at the run to answer;
+    developers running long coding-agent flows would choose it when away from the terminal. No retention
+    or repeat-use evidence is public.'

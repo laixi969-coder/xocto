@@ -1,0 +1,93 @@
+- id: req-initial-hatoba-2026-10-10
+  project_slug: hatoba
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是 SSH 会话中查错与命令回忆的需求，痛点真实但强度中等；AI 具体读取什么上下文、交付是否可靠均未说明，价值结构只能算部分成立。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  - gate: consensus
+    status: insufficient
+    reason: 仅 45 星、3 个 fork，无用户评价或采用数据，尚看不出运维人群是否把它当作日常工具。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业路径；若走托管同步或团队版，买方可能是中小运维团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  - gate: truth
+    status: insufficient
+    reason: AI 助手与加密同步的承诺能否确定性交付缺少文档和实测，安全边界与人工确认环节也未公开。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  next_validation: 收集该仓库 README 或文档中关于 AI 助手可读取上下文范围、同步加密方式与人工确认环节的说明。
+  market: ''
+  job: 运维或后端工程师在线上故障或日常巡检时，通过 SSH 连接多台服务器，处理配置文件、日志和命令执行，需要快速定位问题。
+  job_en: SREs and backend engineers connect to multiple servers over SSH during incidents or routine
+    checks, working through config files, logs and command execution to locate problems quickly.
+  pain: SSH 会话里的报错、配置和命令历史分散在各台机器上，跨设备同步要么靠手动拷贝密钥和配置，要么依赖第三方云，安全与便利难以兼顾。
+  pain_en: Errors, configs and command history are scattered across machines; syncing across devices means
+    manually copying keys and configs or trusting a third-party cloud, trading security for convenience.
+  current_alternative: 直接用系统终端或 iTerm/Termius 等客户端，配合手动维护的 SSH config、密钥文件和自建同步盘。
+  current_alternative_en: Plain system terminals or clients like iTerm and Termius, plus hand-maintained
+    SSH configs, key files and self-managed sync drives.
+  usage_reason: 推断：相较手动翻文档和记忆命令，助手可在当前会话内直接解释报错或起草命令，省去切窗口查资料这一步；自带 Cloudflare 账号同步则让不愿把会话交给第三方云的用户多一个选择。但公开材料未说明
+    AI 读取的上下文范围与准确性，也无用户反馈，是否真被留在工作流中缺少证据。
+  usage_reason_en: 'Inference: versus manually searching docs and recalling commands, the assistant can
+    explain an error or draft a command inside the session, removing the window-switching step; syncing
+    via one''s own Cloudflare account gives an option to users unwilling to hand sessions to a third-party
+    cloud. Public material does not state the AI''s context scope or accuracy, and there is no user feedback,
+    so evidence that it stays in the workflow is missing.'
+- id: req-full-hatoba-2026-10-10
+  project_slug: hatoba
+  level: full
+  reviewed_at: '2026-10-10T02:30:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SSH 排查中报错与命令回忆分散、跨设备同步在安全与便利间二选一的需求，痛点真实且刚性中等；从输入会话、AI 解释或起草命令、自带 Cloudflare 账号同步的闭环看，交付路径可确定，属工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 45 星，无用户评价、issue 讨论或采用数据，看不出运维人群是否把它当作日常工具；关注度不等于持续使用，强场景是否成立仍缺公开行为证据。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页或商业路径；若走托管同步或团队版，买方可能是中小运维团队，但这是判断而非已验证事实，公开材料未披露任何付费或采购记录。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  - gate: truth
+    status: insufficient
+    reason: AI 助手可读取的上下文范围、生成命令是否需人工确认、端到端加密同步的实际实现与安全边界均未公开，承诺能否确定性交付缺少文档与实测支撑。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  next_validation: 追踪 Hatoba 仓库 README 与 issue/discussion，确认 AI 助手可读取的上下文范围、命令是否需人工确认，以及自带 Cloudflare
+    账号同步的加密实现说明。
+  market: ''
+  job: 运维或后端工程师在线上故障排查或日常巡检时，用桌面 SSH 客户端连接多台服务器，翻看配置文件与日志、执行命令，需要快速定位问题并让会话配置在多设备间保持一致。
+  job_en: SREs and backend engineers use a desktop SSH client to connect to multiple servers during incident
+    triage or routine checks, reading config files and logs and running commands to locate problems quickly
+    while keeping session config consistent across devices.
+  pain: SSH 会话中的报错、配置和命令历史分散在各台机器上，跨设备同步要么手动拷贝密钥与 config，要么把会话交给第三方云，安全与便利难以兼顾；排查时还要切窗口查文档、凭记忆拼命令。
+  pain_en: Errors, configs and command history are scattered across machines; syncing across devices means
+    manually copying keys and configs or handing sessions to a third-party cloud, trading security for
+    convenience, and during triage users must switch windows to search docs and recall commands from memory.
+  current_alternative: 系统自带终端或 iTerm、Termius 等客户端，配合手工维护的 SSH config、密钥文件和自建同步盘。
+  current_alternative_en: Built-in terminals or clients like iTerm and Termius, plus hand-maintained SSH
+    configs, key files and self-managed sync drives.
+  usage_reason: 推断：相较手动翻文档和记忆命令，助手可在当前会话内解释报错或起草命令，省去切窗口查资料这一步；同步走用户自己的 Cloudflare 账号，让不愿把会话交给第三方云的用户多一个选择。但公开材料未说明
+    AI 读取的上下文范围与准确性，也无用户反馈，是否被长期留在工作流中缺少证据。
+  usage_reason_en: 'Inference: versus manually searching docs and recalling commands, the assistant can
+    explain an error or draft a command inside the session, removing the window-switching step; syncing
+    through the user''s own Cloudflare account gives an option to those unwilling to hand sessions to
+    a third-party cloud. Public material does not state the AI''s context scope or accuracy, and there
+    is no user feedback, so evidence that it stays in the workflow is missing.'

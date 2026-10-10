@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/allenai/impactful-scheduling
 summary: ''
 first_seen: '2026-10-10T01:46:28Z'
 last_seen: '2026-10-10T01:46:28Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

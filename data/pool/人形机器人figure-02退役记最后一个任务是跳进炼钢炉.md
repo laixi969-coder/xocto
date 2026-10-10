@@ -1,6 +1,6 @@
 ---
 slug: 人形机器人figure-02退役记最后一个任务是跳进炼钢炉
-name: 人形机器人Figure 02退役记：最后一个任务，是跳进炼钢炉
+name: Figure 02
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzSnlteEJGLUZG
 summary: 人形机器人Figure 02退役记：最后一个任务，是跳进炼钢炉 华尔街见闻
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 人形机器人Figure 02退役记：最后一个任务，是跳进炼钢炉
+# Figure 02
 
 人形机器人Figure 02退役记：最后一个任务，是跳进炼钢炉 华尔街见闻
 

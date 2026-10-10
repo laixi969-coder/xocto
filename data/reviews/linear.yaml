@@ -1,0 +1,87 @@
+- id: req-initial-linear-2026-10-10
+  project_slug: linear
+  level: initial
+  reviewed_at: '2026-10-10T01:56:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从材料中还原，替代了哪一步旧工作也未说明，价值关证据不足。
+    evidence_ids:
+    - ev-0bdf15a500cd7853
+  - gate: consensus
+    status: insufficient
+    reason: 入选榜单只说明机构关注，未提供用户采用、留存或口碑证据，共识关未成立。
+    evidence_ids:
+    - ev-0bdf15a500cd7853
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或收费方式，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-0bdf15a500cd7853
+  - gate: truth
+    status: insufficient
+    reason: AI 具体接收什么、执行什么、交付什么均未说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-0bdf15a500cd7853
+  next_validation: 收集 Linear 官方定价页与 AI 功能说明文档，确认其 AI 具体输入、动作与交付物。
+  market: ''
+  job: 研发团队负责人在迭代规划、缺陷跟踪和跨团队协作时，处理 issue、项目与路线图，要完成排期与交付对齐。
+  job_en: Engineering leads plan sprints, track defects and coordinate across teams, handling issues,
+    projects and roadmaps to align schedules and delivery.
+  pain: 候选材料未提供任何用户痛点、抱怨或替代行为描述，无法确认它替代了哪一步旧工作。
+  pain_en: The candidate material provides no user pain, complaint or substitute-behaviour description,
+    so which old step it replaces cannot be confirmed.
+  current_alternative: 候选材料未说明用户此前用什么方式完成同类工作，旧替代行为未知。
+  current_alternative_en: The material does not state what users previously used for the same work; the
+    prior alternative is unknown.
+  usage_reason: 材料仅显示其入选一份中期公司榜单，属于关注度证据，不能解释用户为何选择它；具体动作与可核对结果缺失，无法给出因果判断。
+  usage_reason_en: The material only shows inclusion on a mid-stage list, which is an attention signal
+    and cannot explain why users choose it; the concrete action and checkable result are missing, so no
+    causal judgement is possible.
+- id: req-full-linear-2026-10-10
+  project_slug: linear
+  level: full
+  reviewed_at: '2026-10-10T02:30:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决研发团队在迭代规划、缺陷跟踪与跨团队协作中处理 issue、项目与路线图的需求，痛点在于多工具分散导致状态不同步与交付对齐成本高；下载页显示其覆盖 Mac、Windows、iOS、Android，交付形态可确定。这是工作流结构推理，候选材料未提供用户痛点或采用证据。
+    evidence_ids:
+    - ev-534b54630b09ee4b
+  - gate: consensus
+    status: insufficient
+    reason: 候选材料只给出 Linear 入选 Madrona 2026 中期公司榜单这一关注度事实，未提供用户采用、留存或口碑证据；榜单不能证明持续使用，共识关证据不足。
+    evidence_ids:
+    - ev-534b54630b09ee4b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露 Linear 的定价、买方或收费方式，无法判断钱来自 to C、to B 还是 to VC；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-534b54630b09ee4b
+  - gate: truth
+    status: insufficient
+    reason: 下载页仅说明客户端覆盖平台，未说明 AI 具体接收什么输入、执行什么动作、产出什么交付物，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-534b54630b09ee4b
+  next_validation: 追踪 Linear 官方定价页与产品文档，确认其收费方式、买方类型以及 AI 功能的输入、动作与交付物。
+  market: ''
+  job: 研发团队负责人和工程师在迭代规划、缺陷跟踪与跨团队协作时，处理 issue、项目与路线图这类工作项，要完成排期、状态同步与交付对齐。
+  job_en: Engineering leads and engineers plan sprints, track defects and coordinate across teams, handling
+    issues, projects and roadmaps to schedule work and align delivery.
+  pain: 公开材料只给出 Linear 的下载页与榜单入选事实，未提供用户抱怨或痛点陈述；从工作流结构推理，多团队并行时工作项分散在邮件、表格与聊天工具中，状态不同步会导致排期反复与交付对齐成本高，但这一痛点强度缺少用户侧证据。
+  pain_en: Public material only shows Linear's download page and a list inclusion, with no user complaints;
+    by workflow inference, parallel teams scattering work items across email, spreadsheets and chat causes
+    status drift and costly delivery alignment, though user-side evidence for pain intensity is absent.
+  current_alternative: 公开材料未说明旧替代方式；结构推理上，同类任务此前多由 Jira、Asana、Trello 或表格加聊天工具承担，但候选证据未直接描述这一替代行为。
+  current_alternative_en: The material does not state the prior alternative; by inference, such work was
+    previously handled by Jira, Asana, Trello or spreadsheets plus chat, but the candidate evidence does
+    not directly describe this substitution.
+  usage_reason: 推断：相较表格加聊天工具的旧做法，Linear 把 issue、项目与路线图收进同一工作项模型，并通过桌面与移动端（Mac、Windows、iOS、Android）让成员在离开键盘时也能更新状态，减少跨工具同步这一步负担；哪类用户会因此选择它，公开材料未给出用户侧因果证据。
+  usage_reason_en: 'Inference: versus spreadsheets plus chat, Linear keeps issues, projects and roadmaps
+    in one work-item model and offers desktop and mobile apps (Mac, Windows, iOS, Android) so members
+    can update status away from keyboard, cutting the cross-tool sync step; which users choose it for
+    this reason lacks public user-side causal evidence.'

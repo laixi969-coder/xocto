@@ -1,0 +1,95 @@
+- id: req-initial-spanish-autentic-ai-raises-15m-to-accelerate-ai-powered-mark-2026-10-10
+  project_slug: spanish-autentic-ai-raises-15m-to-accelerate-ai-powered-mark
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是企业想频繁听用户却因单次十万欧元、三个月周期而放弃调研的问题，痛点刚性且旧替代行为明确，交付为可解读的研究结论。
+    evidence_ids:
+    - ev-c9609b0fb0a2bdea
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有创始人对成本与周期的描述，没有客户名单、使用频次或复购证据，尚不能判断买方是否已把它纳入常规流程。
+    evidence_ids:
+    - ev-c9609b0fb0a2bdea
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计价方式，买方可能是品牌市场部或咨询公司，按项目还是按访谈量收费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-c9609b0fb0a2bdea
+  - gate: truth
+    status: insufficient
+    reason: AI 访谈能否在敏感定价与概念测试上得到与人工访谈可比的结果，公开材料未给出验证；人类研究员解读环节是缓解而非证明。
+    evidence_ids:
+    - ev-c9609b0fb0a2bdea
+  next_validation: 收集 Autentic AI 官方定价页或公开客户案例，确认计价方式与是否有品牌方重复采购。
+  market: ''
+  job: 品牌或咨询公司的研究负责人在需要快速验证定价、概念或用户反馈时，把访谈提纲和目标人群交给平台，由 AI 并行完成数百场访谈并输出可解读的结论。
+  job_en: A research lead at a brand or consultancy who needs to test pricing, concepts or user feedback
+    quickly hands interview guides and target groups to the platform, which runs hundreds of interviews
+    in parallel and returns interpretable findings.
+  pain: 传统研究单次报价可达十万欧元、耗时三个月，企业因此不敢频繁调研，等结论出来市场已经变化，很多决策是在没听过用户声音的情况下做出的。
+  pain_en: A single traditional study can cost around €100,000 and take three months, so companies rarely
+    repeat it; by the time findings arrive the market has moved, and many decisions are made without hearing
+    customers.
+  current_alternative: 外包给传统市场研究公司做问卷和焦点小组，或内部用问卷工具加人工电话访谈，周期长、单次成本高，因此调研频率被压得很低。
+  current_alternative_en: Outsourcing surveys and focus groups to traditional research firms, or running
+    in-house survey tools plus manual phone interviews — long cycles and high per-study cost keep research
+    frequency low.
+  usage_reason: 相较外包研究要等数周排期和人工逐场访谈，它让 AI 同时跑数百场访谈并即时汇总，把“等排期、等访谈、等编码”这几步压缩掉，研究负责人因此能在决策窗口内拿到结论；人类研究员保留解读环节，降低了对结论可靠性的顾虑。这是基于产品能力与旧流程的推断。
+  usage_reason_en: Compared with outsourced studies that wait weeks for scheduling and run interviews
+    one by one, it lets AI run hundreds of interviews at once and aggregate immediately, removing the
+    wait-for-scheduling, wait-for-interviews and wait-for-coding steps so a research lead can get answers
+    inside the decision window; keeping human interpretation reduces doubt about reliability. This is
+    inference from product capability and the old workflow.
+- id: req-full-spanish-autentic-ai-raises-15m-to-accelerate-ai-powered-mark-2026-10-10
+  project_slug: spanish-autentic-ai-raises-15m-to-accelerate-ai-powered-mark
+  level: full
+  reviewed_at: '2026-10-10T02:32:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业想频繁听用户却因单次约十万欧元、三个月周期而放弃调研的问题，痛点刚性、旧替代行为明确，交付为可解读的研究结论；谁付钱未披露，属模式关。
+    evidence_ids:
+    - ev-c9609b0fb0a2bdea
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有创始人对成本与周期的描述，没有客户名单、使用频次或复购证据，无法判断品牌方或咨询公司是否已把它纳入常规研究流程。
+    evidence_ids:
+    - ev-c9609b0fb0a2bdea
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计价方式，买方可能是品牌市场部或咨询公司，按项目还是按访谈量收费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-c9609b0fb0a2bdea
+  - gate: truth
+    status: insufficient
+    reason: AI 访谈能否在敏感定价与概念测试上得到与人工访谈可比的结果，公开材料未给出验证；人类研究员解读环节是缓解而非证明。
+    evidence_ids:
+    - ev-c9609b0fb0a2bdea
+  next_validation: 追踪 Autentic AI 官网定价页或公开客户案例，确认计价方式与是否有品牌方或咨询公司重复采购。
+  market: ''
+  job: 品牌或咨询公司的研究负责人在需要快速验证定价、概念或用户反馈时，把访谈提纲和目标人群交给平台，由 AI 并行完成数百场消费者与专家访谈并做初步分析，人类研究员再解读含义、补充背景，最终交付可支撑决策的研究结论。
+  job_en: A research lead at a brand or consultancy who must quickly test pricing, concepts or user feedback
+    hands interview guides and target groups to the platform; AI runs hundreds of consumer and expert
+    interviews in parallel with preliminary analysis, and human researchers interpret the meaning and
+    context to deliver decision-ready findings.
+  pain: 公开材料中创始人自述：单次传统研究约需十万欧元、三个月，企业因此无法在每次需要答案时都做调研，等结论出来市场已经变化，真正的代价是在没听过客户声音的情况下做重要决策。
+  pain_en: Per the founder's public statement, a single traditional study costs around €100,000 and takes
+    three months, so companies cannot run one every time they need an answer; by the time findings arrive
+    the market has moved, and the real cost is making important decisions without hearing from customers.
+  current_alternative: 外包给传统市场研究公司做问卷与焦点小组，或内部用问卷工具加人工电话访谈；周期长、单次成本高，导致调研频率被压得很低，很多决策靠经验或零散反馈。
+  current_alternative_en: Outsourcing surveys and focus groups to traditional research firms, or running
+    in-house survey tools plus manual phone interviews; long cycles and high per-study cost keep research
+    frequency low, with many decisions made on experience or scattered feedback.
+  usage_reason: 相较外包研究要等排期、逐场人工访谈再人工编码，它让 AI 同时跑数百场访谈并即时汇总，压缩掉“等排期、等访谈、等编码”几步，研究负责人因此能在决策窗口内拿到结论；保留人类研究员解读环节，缓解了对结论可靠性的顾虑。这是基于产品能力与旧流程的推断，尚无客户使用反馈佐证。
+  usage_reason_en: 'Compared with outsourced studies that wait for scheduling and run interviews one by
+    one before manual coding, it lets AI run hundreds of interviews at once and aggregate immediately,
+    removing the wait-for-scheduling, wait-for-interviews and wait-for-coding steps so a research lead
+    can get answers inside the decision window; keeping human interpretation eases doubt about reliability.
+    This is inference from product capability and the old workflow, not yet supported by customer '

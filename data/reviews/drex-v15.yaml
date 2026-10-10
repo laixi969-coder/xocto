@@ -1,0 +1,87 @@
+- id: req-initial-drex-v15-2026-10-10
+  project_slug: drex-v15
+  level: initial
+  reviewed_at: '2026-10-10T01:46:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多选项取舍缺少结构化方法的问题，但公开材料只有一句描述，说不清输入、概率来源与使用场景，需求与痛点尚不具体。
+    evidence_ids:
+    - ev-5f51ec5d4e525d10
+  - gate: consensus
+    status: insufficient
+    reason: 仅有极少关注度，没有用户评价或采用证据，是否形成共识无法判断。
+    evidence_ids:
+    - ev-5f51ec5d4e525d10
+  - gate: model
+    status: insufficient
+    reason: 开源演示未披露收费与买方，个人使用还是企业采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5f51ec5d4e525d10
+  - gate: truth
+    status: insufficient
+    reason: 概率化决策若被当作确定结论使用，可能误导高风险取舍，公开材料未说明适用边界与人工复核要求。
+    evidence_ids:
+    - ev-5f51ec5d4e525d10
+  next_validation: 收集 Drex 官方说明或演示页，确认其输入格式、概率生成方式与适用决策场景。
+  market: ''
+  job: 面对多个选项需要取舍的人，把候选项交给 Drex，得到每个选项带概率的决策结果，用于比较和选择。
+  job_en: A person choosing among options submits the candidates to Drex and gets a decision result with
+    a probability per option, used to compare and choose.
+  pain: 多选项取舍时人容易凭直觉拍板，缺少把每个选项可能性摆出来的固定方法。
+  pain_en: With several options people tend to decide by gut feel, lacking a fixed way to lay out each
+    option's likelihood.
+  current_alternative: 现在多靠表格打分、列利弊清单或直接凭经验决定，概率化输出并不常见。
+  current_alternative_en: Today people use scoring spreadsheets, pros-and-cons lists, or experience-based
+    calls; probabilistic output is uncommon.
+  usage_reason: 推断：如果概率输出能让人一眼比较选项，做采购或排期取舍的人可能试用；但公开材料只有一句功能描述，未说明概率如何得出、是否可核对，无法确认它比打分表更可信。
+  usage_reason_en: 'Inference: if probabilistic output lets people compare options at a glance, those
+    making procurement or scheduling trade-offs might try it; but public material is one line and does
+    not say how probabilities are derived or checked, so being more trustworthy than a scoring sheet is
+    unconfirmed.'
+- id: req-full-drex-v15-2026-10-10
+  project_slug: drex-v15
+  level: full
+  reviewed_at: '2026-10-10T02:29:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决多选项取舍缺少结构化方法的问题，但公开证据全是同名影视角色、玩具与视频，与决策产品无关，连输入、概率来源和具体使用场景都写不出来，需求与痛点无法成立。
+    evidence_ids:
+    - ev-f9dc2d543b5e7881
+    - ev-bc74888a09cdf523
+    - ev-ed45f87805b43aaa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Drex v1.5 官方产品页或仓库 README，确认其输入格式、概率生成方式与适用决策场景。
+  market: ''
+  job: 需要做取舍判断的人（如采购、排期或方案选择者）在同时面对多个候选项时，把选项交给 Drex，得到每个选项带类型标注和概率的清单，用于比较并做出选择。
+  job_en: A person making a trade-off decision (e.g. procurement, scheduling, or option selection) submits
+    multiple candidates to Drex and receives a typed list with a probability per option, used to compare
+    and choose.
+  pain: 公开材料只有一句功能描述，未说明输入格式、概率如何得出、适用什么决策场景，因此无法确认用户具体在哪个环节难受、痛点是否刚性。
+  pain_en: Public material is a single feature line and does not state the input format, how probabilities
+    are derived, or which decision scenarios apply, so the specific user pain point and its rigidity cannot
+    be confirmed.
+  current_alternative: 公开材料未披露用户现在用什么替代 Drex；常见做法（打分表、利弊清单、凭经验拍板）属于一般性推断，不是该项目证据。
+  current_alternative_en: Public material does not disclose what users currently use instead of Drex;
+    common practices (scoring sheets, pros-and-cons lists, gut calls) are general inference, not project
+    evidence.
+  usage_reason: 推断：若概率化选项清单能让人一眼比较，做取舍的人可能试用；但材料未说明概率来源与可核对性，无法解释它相较旧做法减少了哪一步负担，因此选择理由不成立。
+  usage_reason_en: 'Inference: if a probabilistic option list enables at-a-glance comparison, decision-makers
+    might try it; but the material does not explain how probabilities are derived or checked, so which
+    step of the old workflow it removes cannot be stated and the choice rationale does not hold.'

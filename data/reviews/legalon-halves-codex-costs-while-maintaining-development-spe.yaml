@@ -1,0 +1,87 @@
+- id: req-initial-legalon-halves-codex-costs-while-maintaining-development-spe-2026-10-10
+  project_slug: legalon-halves-codex-costs-while-maintaining-development-spe
+  level: initial
+  reviewed_at: '2026-10-10T01:46:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理成本失控这一具体痛点，不控制的后果是预算超支或被迫降速；买方为使用编码代理的研发团队，公开材料未披露定价。
+    evidence_ids:
+    - ev-cf68e6d244798662
+  - gate: consensus
+    status: insufficient
+    reason: 仅有单一第一方成本削减陈述，缺少其他团队复现、持续采用或社区讨论证据，无法判断这是可复制方法还是个案调优。
+    evidence_ids:
+    - ev-cf68e6d244798662
+  - gate: model
+    status: insufficient
+    reason: 材料未说明该成本管理是内部实践还是对外产品，也没有付费路径信息，商业模式属判断而非已验证事实。
+    evidence_ids:
+    - ev-cf68e6d244798662
+  - gate: truth
+    status: insufficient
+    reason: 65% 为估算值，缺少口径说明与人工复核边界，无法确认成本下降是否以质量或交付确定性为代价。
+    evidence_ids:
+    - ev-cf68e6d244798662
+  next_validation: 收集 LegalOn 官方工程博客或文档，确认其模型分层与预算管理是否有可复现的配置说明或对外产品形态。
+  market: ''
+  job: 法律科技公司的研发负责人在日常用 AI 编码代理开发时，需要按任务分配模型并控制每日调用预算。
+  job_en: Engineering leads at legal tech companies using AI coding agents daily must assign models by
+    task and control daily call budgets.
+  pain: 编码代理的调用成本随使用量快速累积，团队既怕超支又怕为省钱牺牲开发速度，缺少按任务分层的成本控制手段。
+  pain_en: Coding agent spend accumulates quickly with usage; teams fear overspending yet also fear slowing
+    development to save money, and lack task-level cost controls.
+  current_alternative: 常见做法是统一使用单一模型或人工限制用量，缺少按任务类型分配模型与预算的机制。
+  current_alternative_en: The common approach is to standardise on one model or manually cap usage, without
+    a mechanism to assign models and budgets by task type.
+  usage_reason: 推断：相较统一用单一模型或人工限流，LegalOn 按任务把不同模型与预算绑定，直接减少高成本模型被用在低价值任务上的那部分开销，因此会被同时承担合规与成本压力的法律、金融软件研发团队采用。
+  usage_reason_en: 'Inference: compared with standardising on one model or manual throttling, LegalOn
+    binds different models and budgets to tasks, directly removing spend where expensive models are used
+    on low-value tasks, which is why legal and financial software engineering teams facing both compliance
+    and cost pressure would adopt it.'
+- id: req-full-legalon-halves-codex-costs-while-maintaining-development-spe-2026-10-10
+  project_slug: legalon-halves-codex-costs-while-maintaining-development-spe
+  level: full
+  reviewed_at: '2026-10-10T02:30:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 AI 编码代理成本失控，但公开证据只有 LegalOn 法律 AI 合同审查的营销页与无关的药品、AI 科普页面，没有研发团队的成本抱怨、旧做法或采用行为；痛点与交付闭环无法从可引用事实还原，属自嗨拼凑。
+    evidence_ids:
+    - ev-86928e85ee56ebd7
+    - ev-5aa7007e7d90b4d6
+    - ev-238bb62435e1a57a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 LegalOn 官方工程博客或技术文档，确认其模型分层与预算管理是否有可复现的配置说明或对外产品形态。
+  market: ''
+  job: 法律科技公司 LegalOn 的研发负责人在日常用 AI 编码代理开发时，需要按任务类型分配不同模型并管理每日调用预算，以在维持开发速度的前提下控制开销。
+  job_en: Engineering leads at legal tech company LegalOn, while using AI coding agents in daily development,
+    must assign different models by task type and manage daily call budgets to control spend without losing
+    development speed.
+  pain: 公开材料只给出 LegalOn 法律 AI 合同审查产品（85% 更快审查、9000+ 团队）的营销事实，没有任何用户抱怨、成本失控记录或研发团队口述；编码代理成本痛点只能从摘要推断，缺少可引用的痛点证据。
+  pain_en: Public material only offers LegalOn's legal AI contract-review marketing facts (85% faster
+    review, 9,000+ teams); there is no user complaint, cost-overrun record, or engineering-team account,
+    so the coding-agent cost pain is only inferred from the summary with no citable pain evidence.
+  current_alternative: 公开材料未描述 LegalOn 此前如何控制模型开销，只能推测为统一使用单一模型或人工限额；没有 workaround、issue 或讨论可引用。
+  current_alternative_en: Public material does not describe how LegalOn previously controlled model spend;
+    one can only guess at standardising on one model or manual caps, with no workaround, issue, or discussion
+    to cite.
+  usage_reason: 推断：若按任务把模型与预算绑定，可减少高成本模型用于低价值任务的开销；但该做法是内部成本调优还是可交付产品、由谁付费均无公开证据，因此无法确认哪类用户会持续选择它。
+  usage_reason_en: 'Inference: binding models and budgets to tasks could cut spend where expensive models
+    serve low-value tasks; but whether this is internal cost tuning or a deliverable product, and who
+    pays, has no public evidence, so it is unclear which users would keep choosing it.'

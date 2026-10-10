@@ -216,3 +216,44 @@
   usage_reason_en: 'Inference: if contracts truly constrain generation upfront, engineers could skip aligning
     each piece to conventions; but with no user feedback or adoption evidence, it is impossible to say
     which users would choose it and when.'
+- id: req-full-bricks-2026-10-10
+  project_slug: bricks
+  level: full
+  reviewed_at: '2026-10-10T02:28:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 AI 生成组件不符合项目约定、工程师仍需逐处改写的问题，但公开证据只有一句产品自述，既无旧流程记录也无用户抱怨，痛点强度与不采用后果均无法还原，连需求本身都难以确认。
+    evidence_ids:
+    - ev-980feff78c815e8b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或官网，收集 README、issue、discussion 与部署文档，确认是否有外部团队在真实代码库中接入并反馈生成组件是否符合项目约定。
+  market: ''
+  job: 前端工程师在已有代码库中让 AI 生成界面组件时，需要把项目自身的实现约定与既有组件风格作为输入，产出能直接并入项目的组件代码。
+  job_en: A frontend engineer letting AI generate interface components inside an existing codebase needs
+    the project's own implementation contracts and existing component style as input, to produce component
+    code that can be merged directly.
+  pain: 公开材料只有一句产品自述，没有任何用户抱怨、旧流程记录或采用行为，无法确认 AI 生成组件与项目约定不符这一痛点是否真实存在及其强度。
+  pain_en: Public material contains only a one-line product self-description, with no user complaints,
+    legacy-workflow records, or adoption behavior, so it cannot be confirmed that the pain of AI-generated
+    components violating project conventions actually exists or how intense it is.
+  current_alternative: 公开证据未提供任何关于工程师当前如何生成并对齐组件的替代做法记录，无法还原旧流程。
+  current_alternative_en: Public evidence provides no record of how engineers currently generate and align
+    components, so the legacy workflow cannot be reconstructed.
+  usage_reason: 推断：若契约真能前置约束生成结果，可减少逐处对齐规范这一步；但缺少用户反馈、采用与交付证据，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if contracts really constrain generation upfront, they could remove the
+    step of aligning each piece to conventions; but without user feedback, adoption, or delivery evidence,
+    it cannot be said which users would choose it and when.'

@@ -1,6 +1,6 @@
 ---
 slug: 亚洲股王释放ai产业链利好-台积电三季度营收增逾5成
-name: “亚洲股王”释放AI产业链利好 台积电三季度营收增逾5成
+name: 台积电
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iYTJTY1JNV3FK
 summary: “亚洲股王”释放AI产业链利好 台积电三季度营收增逾5成 东方财富
 first_seen: '2026-10-08T08:05:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# “亚洲股王”释放AI产业链利好 台积电三季度营收增逾5成
+# 台积电
 
 “亚洲股王”释放AI产业链利好 台积电三季度营收增逾5成 东方财富
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE82eEVfcVBLZjJn
 summary: 江淮汽车深化AI与造车全链融合，智能制造实践获人民日报肯定 新浪新闻
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZOFRWUTdRSDhv
 summary: AI要钱、欧美政府也要钱！全球“资本争夺战”打响，债券风暴才“刚刚开始” 华尔街见闻
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

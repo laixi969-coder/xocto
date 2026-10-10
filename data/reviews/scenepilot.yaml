@@ -1,0 +1,38 @@
+- id: req-initial-scenepilot-2026-10-10
+  project_slug: scenepilot
+  level: initial
+  reviewed_at: '2026-08-22T22:38:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把脚本或素材推进成完整视频的需求，痛点是多工具切换与重复搬运，旧行为是手工在剪辑与素材工具间拼片，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库简介与星标，缺少用户评价、案例或采用数据，无法判断是否形成持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径，钱可能来自服务或托管，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未核验流水线实际产出质量与人工确认边界，交付确定性尚不明确。
+    evidence_ids: []
+  next_validation: 收集该项目的 README、示例产出或 issue，确认流水线实际生成的视频质量与人工介入环节。
+  market: ''
+  job: 视频创作者在拿到脚本或素材后，需要把它们推进成一条完整视频，涉及剪辑、素材与制作环节的衔接。
+  job_en: After getting a script or footage, a video creator needs to push it into a complete video, involving
+    editing, assets and production handoffs.
+  pain: 视频制作要在多个剪辑、素材与生成工具之间来回切换，环节多、重复搬运耗时。
+  pain_en: Video production requires switching among many editing, asset and generation tools, with many
+    steps and repetitive transfers.
+  current_alternative: 手工在剪辑软件与各类素材、生成工具之间切换，逐步拼出成片。
+  current_alternative_en: Manually switching among editing software and various asset and generation tools
+    to assemble the final cut step by step.
+  usage_reason: 推断：相较手工在多个工具间切换，它把制作环节组织成可由编码助手调用的流水线，省去跨工具搬运与重复配置的一步，因此习惯用编码助手、需要批量出片的视频团队会在制作时选择它。
+  usage_reason_en: 'Inference: versus manually switching tools, it organizes production into pipelines
+    callable by a coding assistant, removing cross-tool transfer and repeated setup, so video teams used
+    to coding assistants and producing in bulk would pick it for production.'

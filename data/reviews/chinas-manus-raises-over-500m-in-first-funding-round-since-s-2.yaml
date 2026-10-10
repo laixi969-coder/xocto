@@ -1,0 +1,88 @@
+- id: req-initial-chinas-manus-raises-over-500m-in-first-funding-round-since-s-2-2026-10-10
+  project_slug: chinas-manus-raises-over-500m-in-first-funding-round-since-s-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多步骤任务需要在多个工具间手动串联的需求，痛点是切换与搬运耗时，结构上成立。
+    evidence_ids:
+    - ev-94098b34dd5be838
+  - gate: consensus
+    status: insufficient
+    reason: 本次材料只给出融资事实，没有采用规模、留存或客户案例，共识无法判断。
+    evidence_ids:
+    - ev-94098b34dd5be838
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费方结构，融资额只说明资本路径，不构成已验证的收入模式。
+    evidence_ids:
+    - ev-94098b34dd5be838
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明任务交付的确定性、失败率与人工边界，结果可核对性无法判断。
+    evidence_ids:
+    - ev-94098b34dd5be838
+  next_validation: 收集 Manus 官方定价页或公开客户案例，确认其按什么计价以及交付结果的核对方式。
+  market: ''
+  job: 知识工作者在需要完成跨步骤任务时，把调研、资料整理与执行交给通用代理，由它分步调用工具并产出结果。
+  job_en: Knowledge workers hand multi-step research, material organization and execution to a general
+    agent that calls tools step by step and produces results.
+  pain: 多步骤任务需要在多个工具间来回切换、重复搬运信息，人工串联耗时且容易中断。
+  pain_en: Multi-step tasks require switching between tools and re-copying information, which is slow
+    and easily interrupted when done by hand.
+  current_alternative: 目前多由用户自己在浏览器、文档与脚本之间手动串联，或使用单一功能的助手分步完成。
+  current_alternative_en: Today users manually chain browsers, documents and scripts themselves, or use
+    single-purpose assistants step by step.
+  usage_reason: 推断：相较手动串联多个工具，它把分步调用与执行收进一次委托，减少中间搬运环节，因此任务链条长、工具切换频繁的用户会尝试；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually chaining tools, it folds step-by-step tool calls
+    and execution into one delegation, cutting intermediate copying, so users with long task chains and
+    frequent tool switching may try it; no retention or repeat-use evidence is public.'
+- id: req-full-chinas-manus-raises-over-500m-in-first-funding-round-since-s-2-2026-10-10
+  project_slug: chinas-manus-raises-over-500m-in-first-funding-round-since-s-2
+  level: full
+  reviewed_at: '2026-10-10T02:29:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多步骤任务需在多个工具间手动串联的需求，痛点是切换与信息搬运耗时、链条易断；官方称其超越回答去执行任务与自动化工作流，结构推理成立，但无用户抱怨或耗时量化数据。
+    evidence_ids:
+    - ev-e86af55386c75d0b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 Meta 收购传闻与本次超 5 亿美元融资，属资本关注度；没有采用规模、留存、复购或客户案例，无法判断用户是否已把它留在工作流里。
+    evidence_ids:
+    - ev-8abb78b310023de2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与付费方结构，融资额只说明 to VC 路径；to C 订阅还是 to B 席位收费无法核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e86af55386c75d0b
+    - ev-8abb78b310023de2
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明任务交付的确定性、失败率与人工核对边界；通用代理分步调用工具的结果可核对性无法判断，安全与人工介入规则也未公开。
+    evidence_ids:
+    - ev-e86af55386c75d0b
+  next_validation: 追踪 Manus 官网定价页与公开客户案例，确认其计价方式、付费方以及任务交付结果的核对与失败处理说明。
+  market: ''
+  job: 知识工作者在需要完成跨步骤任务（如调研、资料整理与执行）时，打开 Manus 把整条任务链委托给通用代理，由它分步调用工具并产出可交付结果，用户再自行核对关键结论。
+  job_en: Knowledge workers with cross-step tasks (research, material organization, execution) open Manus,
+    delegate the whole task chain to a general agent that calls tools step by step and produces a deliverable,
+    then verify key conclusions themselves.
+  pain: 多步骤任务需要在浏览器、文档、脚本等多个工具间来回切换并重复搬运信息，人工串联耗时且中途容易断链；公开材料未提供用户抱怨或量化耗时数据，此痛点由任务结构推理得出。
+  pain_en: Multi-step tasks require switching among browsers, documents and scripts and re-copying information;
+    manual chaining is slow and easily breaks mid-way. No public user complaints or quantified time data
+    exist; this pain is inferred from task structure.
+  current_alternative: 用户自己在浏览器、文档与脚本之间手动串联，或使用 ChatGPT、Gemini 等单轮对话助手分步完成，每一步都要人工重新组织上下文。
+  current_alternative_en: Users manually chain browsers, documents and scripts themselves, or use single-turn
+    assistants like ChatGPT and Gemini step by step, re-organizing context at every step.
+  usage_reason: 推断：相较手动串联多个工具或逐轮对话，Manus 把分步工具调用与执行收进一次委托，减少中间搬运与重新描述上下文的步骤，因此任务链条长、工具切换频繁的知识工作者会在处理整段调研或整理任务时选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus manually chaining tools or turn-by-turn chat, Manus folds step-by-step
+    tool calls and execution into one delegation, cutting intermediate copying and context re-description,
+    so knowledge workers with long task chains and frequent tool switching would choose it for an end-to-end
+    research or organization task; no retention or repeat-use evidence is public.'

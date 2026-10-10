@@ -77,3 +77,53 @@
   usage_reason: 用户要完成的任务是：本地开发环境搭建、本地模型运行环境配置；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Local development environment setup, Local model runtime configuration
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-aero-linux-2026-10-10
+  project_slug: aero-linux
+  level: full
+  reviewed_at: '2026-10-10T02:27:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是低内存设备上装完系统仍需手动精简、装图形应用、配本地模型环境的问题，痛点在于旧机器可用性与搭建时间被环境配置消耗；产品以低内存占用、预装图形应用和一键本地模型作为交付闭环。这是基于公开产品说明的工作流结构推理，尚无用户抱怨或案例佐证，故为初步成立。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+    - ev-d6c0c09b821b3ecf
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库仅有 44 至 45 个收藏，说明有开发者注意到该项目，但收藏属于关注度而非持续采用；没有 issue、discussion 或用户评价显示谁在何种场景长期使用，也未说明卡在感知、想象还是场景环节。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+    - ev-d6c0c09b821b3ecf
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、赞助、捐赠或商业授权信息，无法判断钱来自 to C 捐赠、to B 支持还是 to VC；这是判断而非已验证事实，开源发行版常见靠赞助或服务变现，但本项目未见任何付费路径证据。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺 sub-350MB 空闲内存、45 个 GTK3 应用与一键本地模型，但公开材料未提供可复现的实测数据、镜像校验或部署文档，交付能否稳定发生以及本地模型运行的安全与人工边界尚不可核验。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+    - ev-d6c0c09b821b3ecf
+  next_validation: 追踪 aero-linux 官方仓库的 README、release 说明与 issue/discussion，核验镜像是否可下载、内存占用与一键本地模型是否有可复现实测记录。
+  market: ''
+  job: 开发者在旧笔记本或低内存机器上安装 Linux 时，需要一套开箱可用的桌面环境：系统本身占用低内存，预装免终端的图形应用，并能一键拉起本地大模型，从而在不折腾命令行配置的前提下完成日常开发与本地模型运行。
+  job_en: 'A developer installing Linux on an old laptop or low-RAM machine needs an out-of-the-box desktop:
+    low idle memory, preinstalled GUI apps that avoid the terminal, and one-click local LLM startup, so
+    daily development and local model runs work without command-line setup work.'
+  pain: 公开材料给出的痛点是资源受限设备上常规发行版内存占用高、图形应用需自行安装、本地模型环境需手动配置；不解决的后果是旧机器可用性差、搭建时间被消耗在环境配置而非开发本身。这是从产品说明与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: The stated pain is that on resource-constrained machines mainstream distros consume too much
+    memory, GUI apps must be installed manually, and local model runtimes need hand configuration; leaving
+    it unsolved wastes setup time and makes old hardware less usable. This is inferred from product claims
+    and workflow structure, not from user complaints or cases.
+  current_alternative: 当前替代方式是安装常规 Linux 发行版后自行精简、手动安装图形应用、用脚本或容器单独配置本地模型运行环境；也可选择轻量发行版但通常仍需终端操作。
+  current_alternative_en: The current alternative is installing a mainstream distro, slimming it manually,
+    installing GUI apps by hand, and separately configuring a local model runtime via scripts or containers;
+    lightweight distros exist but usually still require terminal work.
+  usage_reason: 推断：相较自行精简与手动配置，它把低内存占用、免终端图形应用和本地模型启动打包进同一安装镜像，减少的是装完系统后逐项安装与调参的步骤，因此资源受限设备用户或不想碰终端的开发者会在装系统时选择它。公开材料未提供用户反馈或留存证据，动机为结构推断。
+  usage_reason_en: 'Inference: versus manual slimming and configuration, it bundles low memory use, terminal-free
+    GUI apps, and local model startup into one image, removing the step-by-step install and tuning after
+    OS setup, so users on constrained hardware or avoiding the terminal would pick it at install time.
+    No user feedback or retention evidence is public; the motive is structural inference.'

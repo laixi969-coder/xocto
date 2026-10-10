@@ -1,0 +1,87 @@
+- id: req-initial-cakie-2026-10-10
+  project_slug: cakie
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决把屏幕操作转成代理指令的需求，痛点真实但公开材料只有一句功能描述，说不清转换粒度、失败情形与人工确认环节，价值结构尚不完整。
+    evidence_ids:
+    - ev-f4dabf79f7147ac0
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页一句介绍外，没有用户评价、采用或重复使用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-f4dabf79f7147ac0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 个人订阅还是 to B 团队采购无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f4dabf79f7147ac0
+  - gate: truth
+    status: insufficient
+    reason: 录屏转指令若丢失关键判断条件，代理执行会出错，公开材料未说明校验或人工边界，交付确定性待核验。
+    evidence_ids:
+    - ev-f4dabf79f7147ac0
+  next_validation: 收集 Cakie 官方产品页或文档中关于录屏转提示词的输入输出示例与人工校对说明。
+  market: ''
+  job: 产品、运营或工程人员在需要让 AI 代理复现一段软件操作时，先录下自己的屏幕操作视频，再把它变成代理可执行的提示词。
+  job_en: A product, ops or engineering person who needs an AI agent to reproduce a software operation
+    records their own screen session and turns it into an executable prompt for the agent.
+  pain: 把一段操作过程写成代理能执行的指令，需要逐步骤回忆和描述，容易漏掉隐含的点击顺序与判断条件。
+  pain_en: Writing an operation into agent-executable instructions requires recalling and describing each
+    step, and implicit click order and decision conditions are easily missed.
+  current_alternative: 目前多靠人工手写提示词、录屏后配文字说明，或直接口述给代理，缺少从录制到指令的固定转换环节。
+  current_alternative_en: Today people mostly hand-write prompts, pair a recording with written notes,
+    or dictate to the agent, with no fixed conversion step from recording to instructions.
+  usage_reason: 推断：如果转换能保留操作顺序和界面上下文，用户可省去逐步手写指令这一步，因此常做重复软件操作演示的团队会先试用；但公开材料未给出转换准确度或人工校对要求，无法确认它是否真的减少返工。
+  usage_reason_en: 'Inference: if the conversion preserves step order and interface context, users skip
+    writing instructions step by step, so teams that often demo repetitive software operations would try
+    it; public material gives no accuracy or review requirement, so reduced rework is unconfirmed.'
+- id: req-full-cakie-2026-10-10
+  project_slug: cakie
+  level: full
+  reviewed_at: '2026-10-10T02:28:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把屏幕操作转成代理可执行指令的需求：手写提示词需逐步回忆点击顺序与隐含判断条件，漏步即导致代理执行失败返工，痛点刚性；录屏是用户已有的自然输入，转换交付可确定。这是基于产品说明与工作流结构的推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-f4dabf79f7147ac0
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页一句功能描述外，没有用户评价、采用或重复使用证据，无法判断是否形成使用共识；公开关注度不等于持续采用。
+    evidence_ids:
+    - ev-f4dabf79f7147ac0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 个人订阅还是 to B 团队采购无法判断，这是判断而非已验证事实；但买方不清不取消价值关判定。
+    evidence_ids:
+    - ev-f4dabf79f7147ac0
+  - gate: truth
+    status: insufficient
+    reason: 录屏转指令若丢失关键判断条件，代理执行会出错，公开材料未说明校验或人工边界，交付确定性待核验。
+    evidence_ids:
+    - ev-f4dabf79f7147ac0
+  next_validation: 收集 Cakie 官方产品页或文档中关于录屏转提示词的输入输出示例与人工校对说明。
+  market: ''
+  job: 产品、运营或工程人员在需要让 AI 代理复现一段软件操作时，先录下自己的屏幕操作视频，再把它转成代理可执行的提示词，交给代理去重放该流程。
+  job_en: A product, ops or engineering person who needs an AI agent to reproduce a software operation
+    records their own screen session and converts it into an agent-executable prompt for the agent to
+    replay.
+  pain: 把一段操作过程写成代理能执行的指令，需要逐步回忆并描述点击顺序、界面位置和隐含判断条件，人工转写容易漏步、顺序错乱，代理执行时反复失败返工。
+  pain_en: Turning an operation into agent-executable instructions requires recalling and describing click
+    order, UI locations and implicit decision conditions; manual transcription easily drops steps or misorders
+    them, causing repeated agent failures and rework.
+  current_alternative: 目前多靠人工手写提示词、录屏后另配文字说明，或直接口述给代理，缺少从录制到指令的固定转换环节。
+  current_alternative_en: Today people mostly hand-write prompts, pair a recording with separate written
+    notes, or dictate to the agent, with no fixed conversion step from recording to instructions.
+  usage_reason: 推断：相较手写提示词或录屏配文字，Cakie 把录屏直接转成指令文本，省去用户逐步骤回忆并打字描述这一步，因此经常需要把重复软件操作交给代理的团队会先试用；但公开材料未给出转换准确度、失败情形与人工校对要求，减少返工这一点尚未被证实。
+  usage_reason_en: 'Inference: versus hand-writing prompts or pairing a recording with notes, Cakie converts
+    the recording directly into instruction text, removing the step of recalling and typing each step,
+    so teams that often hand repetitive software operations to agents would try it; public material gives
+    no accuracy, failure modes or review requirement, so reduced rework is unconfirmed.'

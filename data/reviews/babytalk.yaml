@@ -1,0 +1,88 @@
+- id: req-initial-babytalk-2026-10-10
+  project_slug: babytalk
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无网络或低功耗设备上做语音交互的需求，痛点是云端 API 依赖联网与按次计费，旧做法是自行拼装离线模型，结构上成立。
+    evidence_ids:
+    - ev-4c3257fc93b298d9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论与仓库存在，没有采用规模、下载或复购数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-4c3257fc93b298d9
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业交付路径，钱可能来自硬件厂商定制或支持服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4c3257fc93b298d9
+  - gate: truth
+    status: insufficient
+    reason: 识别语种、延迟、资源占用与部署流程均未核验，承诺能否确定性交付尚不清楚。
+    evidence_ids:
+    - ev-4c3257fc93b298d9
+  next_validation: 收集该仓库的 README 与 issue/discussion，核验支持的语种、延迟指标与在 ESP32 上的实际部署步骤。
+  market: ''
+  job: 嵌入式开发者在为 ESP32 等无网络或低功耗设备添加语音交互时，需要把语音转文字和文字转语音跑在设备本地，完成可离线运行的语音输入输出。
+  job_en: Embedded developers adding voice interaction to no-network or low-power devices such as ESP32
+    need speech-to-text and text-to-speech running locally on the device to deliver offline voice input
+    and output.
+  pain: 云端语音 API 依赖联网、按次计费，且在隐私敏感或断网场景不可用，开发者要自己拼装离线模型与音频链路。
+  pain_en: Cloud speech APIs require connectivity, charge per call, and fail in privacy-sensitive or offline
+    scenarios, forcing developers to assemble offline models and audio pipelines themselves.
+  current_alternative: 调用云端语音 API，或自行拼装开源语音模型与音频编解码，工作量大且依赖网络。
+  current_alternative_en: Calling cloud speech APIs, or hand-assembling open-source speech models with
+    audio codecs, which is laborious and network-dependent.
+  usage_reason: 推断：相较云端 API 方案，它把识别与合成直接放到设备端运行，省去联网调用与按次计费这一步，因此对断网、低功耗或隐私敏感的硬件开发者更有吸引力；但尚无用户反馈或客户案例支持持续使用。
+  usage_reason_en: 'Inference: compared with cloud API approaches, it runs recognition and synthesis directly
+    on-device, removing the connectivity call and per-call billing step, which appeals to hardware developers
+    with offline, low-power or privacy-sensitive needs; no user feedback or customer cases yet support
+    sustained use.'
+- id: req-full-babytalk-2026-10-10
+  project_slug: babytalk
+  level: full
+  reviewed_at: '2026-10-10T02:28:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无网络或低功耗设备上做语音交互的需求，痛点是云端 API 依赖联网与按次计费，旧做法是自行拼装离线模型，结构上成立。
+    evidence_ids:
+    - ev-4c3257fc93b298d9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库存在与少量社区讨论，没有采用规模、下载或复购数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-4c3257fc93b298d9
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业交付路径，钱可能来自硬件厂商定制或支持服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4c3257fc93b298d9
+  - gate: truth
+    status: insufficient
+    reason: 识别语种、延迟、资源占用与部署流程均未核验，承诺能否确定性交付尚不清楚。
+    evidence_ids:
+    - ev-4c3257fc93b298d9
+  next_validation: 收集该仓库的 README 与 issue/discussion，核验支持的语种、延迟指标与在 ESP32 上的实际部署步骤。
+  market: ''
+  job: 嵌入式开发者在为 ESP32 等无网络或低功耗设备添加语音交互时，需要把语音转文字与文字转语音跑在设备本地，完成可离线运行的语音输入输出。
+  job_en: Embedded developers adding voice interaction to no-network or low-power devices such as ESP32
+    need speech-to-text and text-to-speech running locally on the device to deliver offline voice input
+    and output.
+  pain: 云端语音 API 依赖联网、按次计费，在断网或隐私敏感场景不可用，开发者要自行拼装离线模型与音频链路，工作量大。
+  pain_en: Cloud speech APIs require connectivity, charge per call, and fail in offline or privacy-sensitive
+    scenarios, forcing developers to assemble offline models and audio pipelines themselves.
+  current_alternative: 调用云端语音 API，或自行拼装开源语音模型与音频编解码，依赖网络且集成工作量大。
+  current_alternative_en: Calling cloud speech APIs, or hand-assembling open-source speech models with
+    audio codecs, which is network-dependent and laborious to integrate.
+  usage_reason: 推断：相较云端 API 方案，它把识别与合成直接放到 ESP32 设备端运行，省去联网调用与按次计费这一步，因此断网、低功耗或隐私敏感的硬件开发者会在选型时优先试用；但尚无用户反馈或客户案例支持持续使用。
+  usage_reason_en: 'Inference: compared with cloud API approaches, it runs recognition and synthesis directly
+    on the ESP32, removing the connectivity call and per-call billing step, so hardware developers with
+    offline, low-power or privacy-sensitive needs would try it first when selecting a stack; no user feedback
+    or customer cases yet support sustained use.'

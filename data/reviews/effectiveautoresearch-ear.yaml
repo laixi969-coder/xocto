@@ -75,3 +75,47 @@
   usage_reason: 用户要完成的任务是：研究选题发现与论证材料整理；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Research topic discovery and argument material preparation Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-effectiveautoresearch-ear-2026-10-10
+  project_slug: effectiveautoresearch-ear
+  level: full
+  reviewed_at: '2026-10-10T02:29:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决研究选题发现与论证材料整理，但公开材料只有三项功能定位，未说明研究者当前旧流程、痛点强度与不解决的后果，连需求与痛点都难以具体写出，故价值关不成立。
+    evidence_ids:
+    - ev-a29ccf0bcfac1fe4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认输入格式、产出样例、人工确认环节及是否有研究者公开描述其替代的旧流程。
+  market: ''
+  job: 研究者（博士生、独立研究者或实验室成员）在已有文献与初步想法的基础上，把研究想法或待论证命题交给该开源工作台，希望得到可继续推进的选题方向、数学推演结果和带证据的反驳材料，用于形成可提交的论证草稿。
+  job_en: A researcher (PhD student, independent researcher, or lab member) with existing literature and
+    a rough idea hands a research idea or a claim to be argued into this open workbench, expecting candidate
+    directions, mathematical derivations, and evidence-grounded rebuttals that can be turned into a submittable
+    argument draft.
+  pain: 公开材料只给出“选题发现、自主数学推演、带证据的反驳整理”三项定位，没有说明研究者当前在哪一步最耗时、不解决会造成什么后果，也没有用户抱怨、workaround 或案例支撑痛点强度。
+  pain_en: Public materials only state three positioning claims (idea discovery, autonomous mathematics,
+    evidence-grounded rebuttals); they do not show which step is most costly today, what happens if it
+    is left unsolved, and there is no user complaint, workaround, or case supporting pain intensity.
+  current_alternative: 公开材料未说明研究者目前如何完成选题与论证整理，常见旧做法（文献检索、与导师讨论、手工推导、写作时自行整理反驳）均属外部推断，项目证据未记录其替代对象。
+  current_alternative_en: Public materials do not state how researchers currently do topic selection and
+    argument preparation; common old practices (literature search, advisor discussion, manual derivation,
+    self-assembled rebuttals) are external inference, and the project evidence records no replaced workflow.
+  usage_reason: 推断：若产品真能把想法直接转成带证据的推演与反驳草稿，可能省去研究者手工检索与整理论证的步骤；但公开材料未给出输入格式、产出形态、人工确认环节，也没有用户反馈说明为何选择它，因此无法确认这一因果。
+  usage_reason_en: 'Inference: if the product truly turns an idea into evidence-grounded derivations and
+    rebuttal drafts, it could remove manual search-and-assembly steps; however, public materials give
+    no input format, output form, or human-confirmation step, and no user feedback explains the choice,
+    so the causal link is unconfirmed.'

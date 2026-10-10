@@ -1,0 +1,75 @@
+- id: req-initial-book-to-skill-2026-10-10
+  project_slug: book-to-skill
+  level: initial
+  reviewed_at: '2026-08-22T22:38:00Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决技术书内容难以在工作中随时调用的问题，但公开材料未说明替代了哪一步旧工作，需求强度无法判断。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标数，属于关注度而非持续采用，缺少用户评价或客户案例。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源且未披露定价与买方，付费路径尚不明确，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对转换后的技能是否在真实编码中稳定可用，也未见人工确认边界。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README 或 issue，确认转换流程、实际使用场景与产出质量。
+  market: ''
+  job: 工程师在学习技术书时，把 PDF 转成可在编码工作中随时调用的 Claude Code 技能，用于查阅与参考。
+  job_en: Engineers convert a technical book PDF into a Claude Code skill they can call while coding,
+    for lookup and reference.
+  pain: 公开材料只说明可把 PDF 转成技能，没有说明原来查阅技术书时哪一步费时，痛点无法还原。
+  pain_en: Public material only says a PDF can be turned into a skill and does not say which step of consulting
+    a technical book was slow, so the pain cannot be reconstructed.
+  current_alternative: 工程师在 PDF 阅读器里搜索关键词，或把笔记手工整理进文档。
+  current_alternative_en: Engineers search keywords in a PDF reader, or manually organize notes into documents.
+  usage_reason: 推断：若书的内容能变成编码时可直接调用的技能，可省去在 PDF 中反复检索的步骤；但公开材料未给出使用场景与留存证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if book content becomes a skill callable while coding, it could remove
+    repeated searching inside a PDF; but public material gives no usage scenario or retention evidence,
+    so why users choose it cannot be confirmed.'
+- id: req-full-book-to-skill-2026-10-10
+  project_slug: book-to-skill
+  level: full
+  reviewed_at: '2026-10-10T02:28:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决技术书内容难以在工作中随时调用的问题，但公开材料未说明替代了哪一步旧工作、痛点强度与不采用代价，需求结构无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认转换流程、实际使用场景与产出质量。
+  market: ''
+  job: 工程师在学习技术书时，把技术书 PDF 转成可在编码工作中调用的 Claude Code 技能，用于查阅与参考。
+  job_en: Engineers convert a technical book PDF into a Claude Code skill they can call while coding,
+    for lookup and reference.
+  pain: 公开材料只说明可把 PDF 转成技能，没有说明原来查阅技术书时哪一步费时、频率多高、不解决会怎样，痛点无法还原。
+  pain_en: Public material only says a PDF can be turned into a skill and does not say which step of consulting
+    a technical book was slow, how often it recurs, or what happens if unsolved, so the pain cannot be
+    reconstructed.
+  current_alternative: 工程师在 PDF 阅读器里搜索关键词，或把笔记手工整理进文档。
+  current_alternative_en: Engineers search keywords in a PDF reader, or manually organize notes into documents.
+  usage_reason: 推断：若书的内容能变成编码时可直接调用的技能，可省去在 PDF 中反复检索的步骤；但公开材料未给出使用场景与留存证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if book content becomes a skill callable while coding, it could remove
+    repeated searching inside a PDF; but public material gives no usage scenario or retention evidence,
+    so why users choose it cannot be confirmed.'

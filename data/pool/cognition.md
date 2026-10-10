@@ -27,7 +27,7 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Late stage). Nearl
   coding is quietly pulling in some of the largest checks on the entire list.
 first_seen: '2026-10-10T01:56:49Z'
 last_seen: '2026-10-10T01:56:49Z'
-status: pending_filter
+status: rejected
 sources:
 - ia40
 sightings:

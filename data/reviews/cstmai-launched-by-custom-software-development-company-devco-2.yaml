@@ -1,0 +1,86 @@
+- id: req-initial-cstmai-launched-by-custom-software-development-company-devco-2-2026-10-10
+  project_slug: cstmai-launched-by-custom-software-development-company-devco-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只能确认是定制开发商的发布，价值关证据不足。
+    evidence_ids:
+    - ev-21b9f5d816bac024
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条发布报道，没有用户评价、社区讨论或采用信号，共识无从判断。
+    evidence_ids:
+    - ev-21b9f5d816bac024
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与收费方式，无法判断钱来自 to B 客户还是母公司内部，属判断而非已验证事实。
+    evidence_ids:
+    - ev-21b9f5d816bac024
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近定制开发第一性目标、承诺能否确定性交付，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-21b9f5d816bac024
+  next_validation: 收集 cstm.AI 官方产品页或 DEV.co 官方发布说明，确认其具体功能、交付物与是否公开定价。
+  market: ''
+  job: 定制软件开发公司的项目人员在承接客户需求时，处理需求文档与沟通记录，要完成需求澄清与方案确认；但该产品具体介入哪一步，公开材料未说明。
+  job_en: Project staff at a custom software firm handling client requirement documents and communication
+    records to clarify requirements and confirm a plan; which step the product enters is not stated publicly.
+  pain: 公开材料未描述任何具体痛点，只能推断定制开发中需求反复、交付周期长是常见负担，属于推断而非事实。
+  pain_en: Public material describes no specific pain; it can only be inferred that repeated requirement
+    changes and long delivery cycles are common burdens in custom development, which is inference, not
+    fact.
+  current_alternative: 旧做法可能是项目经理与开发人员手工整理需求、写方案与原型，但该产品是否替代其中某一步没有公开证据。
+  current_alternative_en: The old way may be project managers and developers manually organizing requirements
+    and writing plans and prototypes, but there is no public evidence that this product replaces any of
+    those steps.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果；缺少流程、定价与客户案例，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: It cannot be shown which step's burden is reduced or which checkable result improves
+    versus the old way; with no workflow, pricing or customer case, it is impossible to say which users
+    would choose it and when.
+- id: req-full-cstmai-launched-by-custom-software-development-company-devco-2-2026-10-10
+  project_slug: cstmai-launched-by-custom-software-development-company-devco-2
+  level: full
+  reviewed_at: '2026-10-10T02:29:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有一条 DEV.co 推出 cstm.AI 的发布报道，未说明它解决什么需求、什么痛点，也说不清用户任务与交付物，价值关无法成立。
+    evidence_ids:
+    - ev-21b9f5d816bac024
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 DEV.co 官网或 cstm.AI 官方产品页的发布说明与功能文档，确认其具体输入、动作、交付物及是否公开定价或客户案例。
+  market: ''
+  job: 定制软件开发公司 DEV.co 的项目人员在承接客户定制开发需求时，处理需求文档与沟通记录，要完成需求澄清与方案确认；但公开材料未说明 cstm.AI 由谁在哪个环节打开、接收什么材料、执行什么动作、交付什么。
+  job_en: Project staff at custom software firm DEV.co handling client requirement documents and communication
+    records to clarify requirements and confirm a plan; public material does not say who opens cstm.AI
+    at which step, what material it receives, what action it performs, or what it delivers.
+  pain: 公开材料只说明 DEV.co 面向其定制开发客户推出 cstm.AI，未描述任何具体痛点；定制开发中需求反复、交付周期长只能算行业常识推断，不能当作该产品的痛点证据。
+  pain_en: Public material only states that DEV.co launched cstm.AI for its custom development clients
+    and describes no specific pain; repeated requirement changes and long delivery cycles in custom development
+    are only industry-common inference, not pain evidence for this product.
+  current_alternative: 旧做法可能是项目经理与开发人员手工整理需求、撰写方案与原型，但公开材料未说明 cstm.AI 是否替代其中任何一步，也无从确认现有替代方式。
+  current_alternative_en: The old way may be project managers and developers manually organizing requirements
+    and writing plans and prototypes, but public material does not say whether cstm.AI replaces any of
+    those steps, so the current alternative cannot be confirmed.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果；缺少流程、输入输出、定价与客户案例，无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: It cannot be shown which step's burden is reduced or which checkable result improves
+    versus the old way; with no workflow, inputs/outputs, pricing or customer case, it is impossible to
+    say which users would choose it and when.

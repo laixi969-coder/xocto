@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTFB3bElCcXpSNG53
 summary: 上海优秀数商产品｜六更石安全科技：AI赋能特种设备全域安全治理-中新社上海 上海新闻
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

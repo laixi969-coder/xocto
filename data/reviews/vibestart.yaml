@@ -182,3 +182,50 @@
     item, it writes type safety, lint, and tests into the generated result at once, removing setup and
     verification steps before a new project starts, so full-stack developers who frequently open new repositories
     would choose it at kickoff; stars rising from 42 to 68 only shows attention, not sustained use.'
+- id: req-full-vibestart-2026-10-10
+  project_slug: vibestart
+  level: full
+  reviewed_at: '2026-10-10T02:33:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新项目开工前反复配置类型、lint 与测试的需求，不配置会让 AI 智能体产出难验证，旧做法是复制模板手工补；这是工作流结构推理，尚无用户抱怨或返工数据佐证。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 42 增至 86，仅反映关注度上升，缺少用户评价、issue 讨论或团队采用记录，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+    - ev-06724cb1e1e10313
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价页与买方，付费路径只能推断为托管或企业模板订阅，属判断而非已验证事实，存在每日优鲜式仅靠关注度续命的风险。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明生成骨架的验证方式与人工确认边界，交付确定性无法核对，也未提供可复现的生成结果或留存证据。
+    evidence_ids:
+    - ev-8a6aea01fb8afb69
+  next_validation: 追踪 vibestart 仓库的 issue 与 discussion，确认开发者是否在真实项目中重复使用该脚手架并提出配置或验证需求。
+  market: ''
+  job: 全栈开发者在启动新 TypeScript 项目时，选定技术栈组合，需要生成一个已配置类型检查、lint 与测试、便于 AI 编码智能体接手的项目骨架，拿到可直接开工的仓库。
+  job_en: Full-stack developers starting a new TypeScript project pick a stack combination and need a
+    generated skeleton with type checking, lint, and tests already configured so AI coding agents can
+    take over, ending with a repo ready to build on.
+  pain: 手工搭脚手架要逐项配置类型、lint 与测试，配置不一致时 AI 智能体产出的代码难以验证，返工成本高；公开材料只给出产品自述，未提供用户抱怨或返工数据。
+  pain_en: Hand-building scaffolding means configuring types, lint, and tests item by item; inconsistent
+    setups make agent-generated code hard to verify and drive rework. Public material only offers the
+    product's own claim, with no user complaints or rework data.
+  current_alternative: 手动初始化仓库、复制旧项目模板，或使用通用脚手架（如 create-* 系列）再自行补配置。
+  current_alternative_en: Manually initializing repositories, copying an old project template, or using
+    generic scaffolding such as create-* tools and adding configuration by hand.
+  usage_reason: 推断：相较复制旧模板再逐项补配置，它把类型安全、lint 与测试一次性写进生成结果，省掉新项目开工前的配置与校验步骤，因此频繁开新仓库的全栈开发者会在启动阶段选择它；仓库星标从
+    42 增至 86 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: compared with copying an old template and patching configuration item by
+    item, it writes type safety, lint, and tests into the generated result at once, removing the setup
+    and verification steps before kickoff, so full-stack developers who frequently open new repos would
+    choose it at start. Stars rising from 42 to 86 shows attention, not sustained use.'

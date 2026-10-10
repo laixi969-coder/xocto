@@ -78,3 +78,46 @@
   usage_reason: 用户要完成的任务是：文档处理、合规审查；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Document processing, Compliance review Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-nace-2026-10-10
+  project_slug: nace
+  level: full
+  reviewed_at: '2026-10-10T02:31:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据链中的 NACE 实为继续医学教育协会与高校就业协会，与候选所称文档智能产品无关，公开材料既写不出用户任务，也写不出痛点与旧替代，价值结构无法成立。
+    evidence_ids:
+    - ev-ed47eb12b8d9da81
+    - ev-82adc67b671b320a
+    - ev-9a0f607a67181665
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: xOcto 下一轮应检索 Nace.ai 官方站点或产品文档，确认是否存在文档智能产品页面、输入输出说明与客户案例，以排除与同名 NACE 协会的混淆。
+  market: ''
+  job: 候选摘要称开发者或业务团队在需要把合同、报表等文档批量转成结构化信息时接入 Nace.ai，由模型读取文档并输出字段或结果；但公开证据中没有任何一条来自该产品，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: The candidate summary claims developers or business teams plug into Nace.ai to batch-convert
+    contracts and reports into structured fields; however, no public evidence comes from that product,
+    so who processes what material, under what conditions, and to what end cannot be confirmed.
+  pain: 公开证据全部指向 NACE 继续医学教育协会与 NACE 高校就业协会，未出现任何关于文档批量结构化、人工复核负担或合规审查成本的用户痛点陈述，无法写出该产品对应的痛点。
+  pain_en: All public evidence points to the NACE continuing-medical-education association and the NACE
+    college-employment association; no user pain statement about batch document structuring, manual review
+    burden, or compliance-review cost appears, so the product's pain cannot be written.
+  current_alternative: 公开材料未说明用户目前如何完成文档结构化工作，也未说明它替代的是人工录入、模板抽取、OCR 工具还是其他方案。
+  current_alternative_en: Public materials do not show how users currently structure documents, nor whether
+    the product replaces manual entry, template extraction, OCR tools, or another approach.
+  usage_reason: 缺少任何来自 Nace.ai 的产品说明、文档、定价或用户反馈，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果，因此不能推断用户为何选择它。
+  usage_reason_en: With no product description, documentation, pricing, or user feedback from Nace.ai,
+    there is no basis to explain which step it removes or which verifiable result it improves versus the
+    old approach, so why users would choose it cannot be inferred.

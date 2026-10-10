@@ -21,7 +21,7 @@ canonical_url: https://loc.gov/pictures/resource/cph.3c25134
 summary: Receipt for sale of Jane, age 18, and her son, Henry, age 1
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

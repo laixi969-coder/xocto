@@ -22,7 +22,7 @@ summary: Professional video editing suite featuring multi-track timeline editing
   keyframe animation, and optimized 4K rendering tools.
 first_seen: '2026-10-10T01:46:04Z'
 last_seen: '2026-10-10T01:46:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

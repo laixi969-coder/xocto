@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeXdNTnB2aXA5
 summary: How Client Results At Alkami Technology (ALKT) Has Changed Its Investment Story Simply Wall Street
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

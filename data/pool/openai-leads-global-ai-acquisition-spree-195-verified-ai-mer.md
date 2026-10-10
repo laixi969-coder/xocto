@@ -23,7 +23,7 @@ summary: 'OpenAI Leads Global AI Acquisition Spree: 195 Verified AI Mergers & Ac
   Single Deal Hits $11 Billion Valuation 36Kr'
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

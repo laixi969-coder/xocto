@@ -1,0 +1,84 @@
+- id: req-initial-refs-2026-10-10
+  project_slug: refs
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是给模型提供视频参考这一步，但公开材料只有一句话，说不清原来谁花多久做、不做的后果是什么，痛点强度无法判断。
+    evidence_ids:
+    - ev-895f6606b110b15c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有产品页描述，没有用户评价、采用或讨论证据，无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-895f6606b110b15c
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或收费方式，无法判断钱来自 C 端创作者还是 B 端团队。
+    evidence_ids:
+    - ev-895f6606b110b15c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生，也看不到人工确认边界与安全约束。
+    evidence_ids:
+    - ev-895f6606b110b15c
+  next_validation: 收集 Refs 官方产品页或文档中关于输入格式、输出交付物与定价的公开说明。
+  market: ''
+  job: 视频创作者在剪辑或生成视频前，需要把参考片段和素材整理好交给 Claude，让产出贴合参考风格。
+  job_en: Before editing or generating video, creators need to organise reference clips and footage and
+    hand them to Claude so the output matches the reference style.
+  pain: 参考素材散落在各处，人工挑选和对齐风格耗时；但公开材料未说明这一步具体多痛、多久做一次。
+  pain_en: Reference material is scattered and manually selecting and aligning style takes time; public
+    material does not say how painful or how frequent this step actually is.
+  current_alternative: 创作者目前靠手动收藏链接、截图、本地文件夹，或在提示词里口述风格。
+  current_alternative_en: Creators currently rely on manually saved links, screenshots, local folders,
+    or describing the style in the prompt.
+  usage_reason: 推断：如果 Refs 能把参考素材直接喂给 Claude 并减少手动描述风格这一步，创作者在需要风格一致性时可能选择它；但缺少定价、案例和重复使用证据，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if Refs feeds reference material directly to Claude and removes the manual
+    style-description step, creators needing style consistency may choose it; without pricing, cases or
+    repeat-use evidence this motive cannot be confirmed.'
+- id: req-full-refs-2026-10-10
+  project_slug: refs
+  level: full
+  reviewed_at: '2026-10-10T02:32:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决给模型提供视频参考这一步，但公开材料只有一句话，说不清原来谁花多久做、多久一次、不做的后果，连需求与痛点都还原不出，价值关无法成立。
+    evidence_ids:
+    - ev-886d60f6885b7e94
+    - ev-6bcffcc811f42e4e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Refs 官方产品页或文档，确认其输入格式、输出交付物与是否披露定价；当前证据链中的 ReFS 文件系统与同名酒吧页面均非该产品。
+  market: ''
+  job: 视频创作者在动手剪辑或让模型生成视频前，需要把散落的参考片段、截图和素材整理成可交给 Claude 的输入，以获得风格贴合的成片或脚本。
+  job_en: Before editing or generating video, creators need to organise scattered reference clips, screenshots
+    and footage into an input they can hand to Claude, so the output matches the reference style.
+  pain: 公开材料只有一句产品描述，未说明参考素材整理这一步原来由谁花多久完成、多久发生一次、不做的后果是什么，痛点强度无法从公开事实判断。
+  pain_en: Public material contains only a one-line product description; it does not say who spends how
+    long on reference gathering, how often it recurs, or what happens if it is skipped, so pain intensity
+    cannot be judged from public facts.
+  current_alternative: 公开材料未披露现有替代方式；按工作流结构推理，创作者通常靠手动收藏链接、截图、本地文件夹，或在提示词里口述风格。
+  current_alternative_en: Public material does not disclose the current alternative; by workflow inference,
+    creators typically rely on manually saved links, screenshots, local folders, or describing style in
+    the prompt.
+  usage_reason: 推断：若 Refs 能把参考素材直接喂给 Claude 并省去手动描述风格这一步，需要风格一致性的创作者可能选择它；但缺少输入格式、交付物、定价与重复使用证据，该动机无法确认。
+  usage_reason_en: 'Inference: if Refs feeds reference material directly to Claude and removes the manual
+    style-description step, creators needing style consistency may choose it; without input format, deliverable,
+    pricing or repeat-use evidence, this motive cannot be confirmed.'

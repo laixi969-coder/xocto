@@ -1,0 +1,90 @@
+- id: req-initial-agent-office-2-2026-10-10
+  project_slug: agent-office-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时状态分散、进度不可见的问题，痛点来自真实并行工作流，交付是可视化协作面板。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与 fork 数，属关注度证据，未见团队持续使用或工作流留存的公开材料。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费路径或企业采购方式，钱从哪来仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  - gate: truth
+    status: insufficient
+    reason: 语音沟通与代理调度能否确定性交付、失败时如何回退，公开材料未给出可核验结果。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  next_validation: 收集该仓库的 issue/discussion 与 README 部署文档，确认多代理调度与语音协作的实际交付边界和失败处理方式。
+  market: ''
+  job: 开发团队负责人在同时运行多个编码代理时，需要把分散在终端里的代理状态、代码改动和 issue/PR 进度集中到一处，判断谁卡住了、下一步该合并什么。
+  job_en: An engineering team lead running several coding agents at once needs to gather scattered terminal
+    agent states, code changes and issue/PR progress in one place to judge who is stuck and what to merge
+    next.
+  pain: 多个代理并行时，终端窗口互相覆盖，进度和冲突只能靠人来回切换查看，容易漏掉失败任务或重复改动。
+  pain_en: With several agents in parallel, terminal windows overwrite each other and progress or conflicts
+    can only be checked by switching back and forth, so failed tasks or duplicate edits are easily missed.
+  current_alternative: 现在多代理协作多靠多个终端标签页、tmux 分屏加人工口头同步，或干脆串行执行以降低混乱。
+  current_alternative_en: Today multi-agent work mostly relies on multiple terminal tabs, tmux panes plus
+    manual verbal sync, or simply running agents serially to reduce chaos.
+  usage_reason: 相较终端分屏加人工同步，它把每个代理的状态、终端输出和对应 issue/PR 放进同一可视界面，减少来回切换和口头对齐这一步；推断经常并行跑多个编码代理的小团队会因此选择它。
+  usage_reason_en: Compared with split terminals plus manual sync, it puts each agent's state, terminal
+    output and matching issue/PR into one visual surface, removing the step of switching back and forth
+    and aligning verbally; teams that routinely run several coding agents in parallel would choose it,
+    as inference.
+- id: req-full-agent-office-2-2026-10-10
+  project_slug: agent-office-2
+  level: full
+  reviewed_at: '2026-10-10T02:27:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时状态分散、进度不可见的问题：终端窗口互相覆盖，失败任务与重复改动易被漏掉，旧做法是 tmux 分屏加人工口头同步。交付为可视化协作面板，属工作流结构推理，公开材料未给用户抱怨或采用数据。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 696 星标只属关注度证据，公开材料未见团队持续使用、工作流留存或重复使用的记录，无法判断是否已进入日常流程。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  - gate: model
+    status: insufficient
+    reason: 开源仓库，公开材料未说明付费路径或企业采购方式，钱可能来自 to C 开发者或 to B 团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  - gate: truth
+    status: insufficient
+    reason: 语音沟通与多代理调度能否确定性交付、失败时如何回退，公开材料未给出可核验结果，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  next_validation: 收集该仓库的 issue/discussion 与 README 部署文档，确认多代理调度与语音协作的实际交付边界和失败处理方式。
+  market: ''
+  job: 开发团队负责人在同时运行多个 Claude Code 编码代理时，需要把分散在各终端里的代理状态、代码改动和 公开代码仓库 issue/PR 进度集中到一处，判断哪个代理卡住、哪些改动冲突、下一步该合并什么。
+  job_en: An engineering team lead running several Claude Code coding agents at once needs to gather scattered
+    terminal agent states, code changes and public code repository issue/PR progress into one place to
+    judge which agent is stuck, which edits conflict, and what to merge next.
+  pain: 多个代理并行时终端窗口互相覆盖，进度、失败和冲突只能靠人来回切换查看，容易漏掉失败任务或产生重复改动；公开材料只给出产品说明，未提供用户抱怨或采用数据，痛点强度属工作流结构推理。
+  pain_en: With several agents in parallel, terminal windows overwrite each other and progress, failures
+    and conflicts can only be checked by switching back and forth, so failed tasks or duplicate edits
+    are easily missed; public material only offers product description, not user complaints or adoption
+    data, so pain intensity is workflow-structural inference.
+  current_alternative: 当前多代理协作多靠多个终端标签页、tmux 分屏加人工口头同步，或干脆串行执行以降低混乱。
+  current_alternative_en: Today multi-agent work mostly relies on multiple terminal tabs, tmux panes plus
+    manual verbal sync, or simply running agents serially to reduce chaos.
+  usage_reason: 相较终端分屏加人工同步，它把每个代理的状态、实时终端输出和对应 issue/PR 放进同一可视界面，减少来回切换与口头对齐这一步；推断经常并行跑多个编码代理的小团队会在需要同时盯住多个代理时选择它。
+  usage_reason_en: Compared with split terminals plus manual sync, it places each agent's state, live
+    terminal output and matching issue/PR into one visual surface, removing the step of switching back
+    and forth and aligning verbally; teams that routinely run several coding agents in parallel would
+    choose it when they must watch multiple agents at once, as inference.

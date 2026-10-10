@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DNlFDcWdmc0py
 summary: OpenAI全面上线GPT-6，AI大模型竞赛正式进入“赚钱能力”大考_投资者网_媒体广场_财经 证券之星
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

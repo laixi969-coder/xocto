@@ -456,3 +456,53 @@
     the step of browsing multiple hubs, so it may be opened when candidates are needed quickly; but no
     public user feedback or case shows it actually replaced the old workflow, and star growth reflects
     attention, not sustained use.'
+- id: req-full-offensive-security-ai-models-2026-10-10
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-10T02:31:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是授权渗透测试中挑选可本地部署未审查模型的需求，痛点是托管模型拒答与数据外发风险；仓库简介与星标为公开事实，旧流程与不采用后果属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-45bf914e2498c134
+    - ev-6c95a5897c54f26a
+  - gate: consensus
+    status: insufficient
+    reason: 公开事实仅有仓库简介与星标从 584 增至 660，说明关注度上升；但无 issue、discussion 或用户评价说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-45bf914e2498c134
+    - ev-6c95a5897c54f26a
+  - gate: model
+    status: insufficient
+    reason: 这是开源清单仓库，公开材料未见定价页、赞助、商业支持或采购记录，钱可能来自 to B 安全团队自建或 to VC 关注，属判断而非已验证事实，未构成每日优鲜式纯融资叙事。
+    evidence_ids:
+    - ev-45bf914e2498c134
+  - gate: truth
+    status: insufficient
+    reason: 公开事实只有仓库简介与星标，未见收录模型清单、部署文档或可复现交付结果，无法核对清单是否贴近授权测试的第一性目标，也无法确认安全与人工边界如何界定。
+    evidence_ids:
+    - ev-45bf914e2498c134
+    - ev-6c95a5897c54f26a
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认是否列出具体模型清单、部署方式及授权测试使用说明，以核验交付可复现性与使用场景。
+  market: ''
+  job: 安全研究员在获得客户书面授权的渗透测试或红队评估中，需要挑选可本地部署、未做安全对齐限制的模型，用自有硬件跑攻击面验证与载荷思路推演，产出可复现的测试结论。
+  job_en: A security researcher on an authorized penetration test or red-team engagement selects a locally
+    deployable, safety-unaligned model, runs it on own hardware for attack-surface validation and payload
+    reasoning, and produces reproducible findings.
+  pain: 公开事实只给出仓库简介与星标，未记录用户抱怨；从工作流结构推理，通用托管模型会拒绝攻击性安全提示，且把客户资产信息发往第三方 API 存在合规与保密风险，研究员只能逐个模型试跑、翻散落的模型卡，筛选成本高且结果不可复现。
+  pain_en: Public evidence gives only the repo description and star counts, with no recorded user complaints;
+    by workflow inference, hosted general models refuse offensive-security prompts and sending client
+    asset data to third-party APIs raises confidentiality and compliance risk, so researchers must trial
+    models one by one across scattered model cards, at high screening cost and with poor reproducibility.
+  current_alternative: 当前替代方式是逐个在 公开模型社区 等平台搜索模型卡、凭个人经验试跑未审查模型，或直接使用托管 API 并接受拒答与数据外发风险。
+  current_alternative_en: Today researchers search model cards on public model community and similar hubs,
+    trial uncensored models by personal experience, or use hosted APIs while accepting refusals and data-egress
+    risk.
+  usage_reason: 推断：相较逐个翻模型卡试跑，该清单把未审查或安全微调模型集中到一处，减少的是“找候选模型”这一步检索负担，使需要本地部署、在意数据不出内网的安全研究员在授权测试启动阶段优先查这份清单。
+  usage_reason_en: 'Inference: versus trialing models one by one from scattered model cards, the list
+    consolidates uncensored and security-tuned models in one place, removing the candidate-discovery step,
+    so researchers who need local deployment and data staying on-premises consult it first when an authorized
+    engagement starts.'

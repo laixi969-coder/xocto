@@ -23,7 +23,7 @@ summary: Amazon's 'About You' pages go viral as users share AI's surprising assu
   see yours WWLTV.com
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

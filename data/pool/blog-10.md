@@ -21,7 +21,7 @@ canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - marketfeeds

@@ -1,0 +1,42 @@
+- id: req-initial-antiburn-2026-10-10
+  project_slug: antiburn
+  level: initial
+  reviewed_at: '2026-09-01T14:56:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理 token 消耗失控的问题，痛点是费用在会话中快速累积且事后才可见，不解决就持续超支。
+    evidence_ids:
+    - ev-7c4f79a7c56d1761
+  - gate: consensus
+    status: insufficient
+    reason: 星标数很少且开放 issue 相对较多，没有用户评价或采用证据，无法判断是否被持续使用。
+    evidence_ids:
+    - ev-7c4f79a7c56d1761
+  - gate: model
+    status: insufficient
+    reason: 没有公开定价，是否有人为节省 token 付费尚未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7c4f79a7c56d1761
+  - gate: truth
+    status: insufficient
+    reason: 检查规则是否可靠、会不会误拦有效请求、实际节省幅度均无公开材料，交付确定性待核验。
+    evidence_ids:
+    - ev-7c4f79a7c56d1761
+  next_validation: 收集该仓库的 issue 与发布说明，确认实际节省的 token 比例以及是否存在误拦有效请求的报告。
+  market: ''
+  job: 使用 AI 编码代理的开发者在一个会话内反复调用模型时，用本地检查过滤掉不必要的请求，以控制 token 消耗。
+  job_en: Developers using AI coding agents run local checks inside a session to filter unnecessary requests
+    and control token spend.
+  pain: 编码代理在一个会话里会发出大量重复或无效调用，token 费用快速累积，开发者事后才发现账单超支。
+  pain_en: Coding agents fire many duplicate or useless calls within a session, token costs pile up fast,
+    and developers only notice the overspend afterwards.
+  current_alternative: 当前替代方式是事后看账单、手动精简提示词，或干脆限制代理的调用次数。
+  current_alternative_en: The current alternative is reviewing bills after the fact, manually trimming
+    prompts, or simply capping how often the agent may call.
+  usage_reason: 推断：它在会话内本地拦截无效请求，把成本控制从事后对账提前到调用发生前，因此对按量付费、代理调用频繁的团队更有吸引力。
+  usage_reason_en: 'Inference: it intercepts useless requests locally during the session, moving cost
+    control from after-the-fact reconciliation to before the call, which appeals to teams on usage-based
+    billing with heavy agent traffic.'

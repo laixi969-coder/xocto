@@ -1,0 +1,91 @@
+- id: req-initial-elevenlabs-2026-10-10
+  project_slug: elevenlabs
+  level: initial
+  reviewed_at: '2026-10-10T01:56:49Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决配音与语音应答的产出问题：旧做法要请配音演员、租棚、多语种重录，成本与周期高；文稿直接转音轨减少返工，痛点刚性。
+    evidence_ids:
+    - ev-23c589621e2e0e39
+  - gate: consensus
+    status: supported
+    reason: 被列入后期阶段榜单并称达到数十亿美元估值，说明企业客户与市场已认可语音合成与代理这一场景，不是自嗨。
+    evidence_ids:
+    - ev-23c589621e2e0e39
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、按分钟或按席位计费方式与付费客户结构，钱从哪来属推断，需核验官方定价。
+    evidence_ids:
+    - ev-23c589621e2e0e39
+  - gate: truth
+    status: insufficient
+    reason: 语音克隆涉及声音授权与合规边界，材料未说明授权流程与人工复核机制，交付确定性尚缺公开依据。
+    evidence_ids:
+    - ev-23c589621e2e0e39
+  next_validation: 收集 ElevenLabs 官方定价页与声音克隆授权政策页面，核验计费方式与合规边界。
+  market: ''
+  job: 内容与客服团队在制作配音、有声内容或语音应答时，处理写好的文稿与问答脚本，要产出可直接发布的音频或能接电话的语音代理。
+  job_en: Content and support teams working on dubbing, spoken content or voice responses handle finished
+    scripts and FAQ sets to produce publishable audio or a call-answering voice agent.
+  pain: 旧做法要请配音演员、租录音棚并反复返工，多语种版本成本高、周期长；客服语音菜单则要外包定制，改一句话都要重新排期。
+  pain_en: The old way needs voice actors, studio time and repeated retakes, making multilingual versions
+    costly and slow; support voice menus are custom-outsourced, and changing one line means rescheduling.
+  current_alternative: 请配音演员或外包录音棚，用传统 IVR 供应商定制语音菜单，或自己拼接零散的开源语音模型。
+  current_alternative_en: Hiring voice actors or outsourcing studios, customising voice menus with traditional
+    IVR vendors, or stitching together scattered open-source speech models.
+  usage_reason: 推断：相较请配音演员或外包录音，它把文稿直接转成可用音轨并支持克隆同一音色，省掉排期、录音棚与多语种重录这几步，因此需要频繁更新内容或多语种分发的团队会在量产配音时选它。
+  usage_reason_en: 'Inference: compared with hiring voice actors or outsourcing recording, it turns scripts
+    directly into usable tracks and can clone one voice, removing scheduling, studio time and re-recording
+    per language, so teams updating content often or distributing in many languages pick it for volume
+    dubbing.'
+- id: req-full-elevenlabs-2026-10-10
+  project_slug: elevenlabs
+  level: full
+  reviewed_at: '2026-10-10T02:29:53Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决配音与语音应答的产出问题：旧做法要请配音演员、租棚、多语种重录，成本与周期高；文稿直接转音轨减少返工，痛点刚性。
+    evidence_ids:
+    - ev-8ea7b1d8acb3e029
+    - ev-376e224b741353bf
+  - gate: consensus
+    status: supported
+    reason: 被列入后期阶段榜单并称达到数十亿美元估值，说明企业客户与市场已认可语音合成与代理这一场景，不是自嗨。
+    evidence_ids:
+    - ev-8ea7b1d8acb3e029
+    - ev-376e224b741353bf
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、按分钟或按席位计费方式与付费客户结构，钱从哪来属推断，需核验官方定价。
+    evidence_ids:
+    - ev-376e224b741353bf
+    - ev-942c93c6457c65b4
+  - gate: truth
+    status: insufficient
+    reason: 语音克隆涉及声音授权与合规边界，材料未说明授权流程与人工复核机制，交付确定性尚缺公开依据。
+    evidence_ids:
+    - ev-8ea7b1d8acb3e029
+    - ev-cee09d9b4d2c458b
+  next_validation: 收集 ElevenLabs 官方定价页与声音克隆授权政策页面，核验计费方式与合规边界。
+  market: ''
+  job: 内容团队在制作有声书、广告或多语种视频时，把写好的文稿交给系统生成配音并逐条校对；客服与运营团队在搭建电话或应用内语音应答时，把常见问答脚本交给系统生成语音代理并人工复核话术。
+  job_en: Content teams producing audiobooks, ads or multilingual video hand finished scripts to the system
+    to generate dubbing and proof each track; support and operations teams building phone or in-app voice
+    responses hand FAQ scripts to the system to generate a voice agent and manually review the wording.
+  pain: 旧做法要请配音演员、租录音棚并反复返工，多语种版本成本高、周期长；客服语音菜单则要外包定制，改一句话都要重新排期。
+  pain_en: The old way needs voice actors, studio time and repeated retakes, making multilingual versions
+    costly and slow; support voice menus are custom-outsourced, and changing one line means rescheduling.
+  current_alternative: 请配音演员或外包录音棚，用传统 IVR 供应商定制语音菜单，或自己拼接零散的开源语音模型。
+  current_alternative_en: Hiring voice actors or outsourcing studios, customising voice menus with traditional
+    IVR vendors, or stitching together scattered open-source speech models.
+  usage_reason: 推断：相较请配音演员或外包录音，它把文稿直接转成可用音轨并支持克隆同一音色，省掉排期、录音棚与多语种重录这几步，因此需要频繁更新内容或多语种分发的团队会在量产配音时选它。
+  usage_reason_en: 'Inference: compared with hiring voice actors or outsourcing recording, it turns scripts
+    directly into usable tracks and can clone one voice, removing scheduling, studio time and re-recording
+    per language, so teams updating content often or distributing in many languages pick it for volume
+    dubbing.'

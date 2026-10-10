@@ -1,0 +1,92 @@
+- id: req-initial-tinyluma-2026-10-10
+  project_slug: tinyluma
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量 AI 出图后的统一调色与元数据保留问题，旧做法是逐张在通用修图软件处理，痛点与替代步骤可还原。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+    - ev-ebfee04cbd5a96d4
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 40 增至 42，属关注度信号，不能说明创作者已把它纳入日常交付流程。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+    - ev-ebfee04cbd5a96d4
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业路径，买方与收费方式未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+  - gate: truth
+    status: insufficient
+    reason: 无法确认调色结果与元数据保留在各类生成工具下是否一致，也未说明人工复核边界。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+  next_validation: 收集该仓库的 README 与 release 说明，确认支持的生成工具格式、元数据保留范围与批量处理实测结果。
+  market: ''
+  job: 用 Midjourney、Flux 或 ComfyUI 出图的创作者在批量生成后，对成批图片做统一调色与批量后期，并保留原始工作流元数据以便回溯。
+  job_en: Creators generating images with Midjourney, Flux or ComfyUI batch post-process and uniformly
+    color grade the output while preserving original workflow metadata for traceability.
+  pain: AI 出图一次就是几十上百张，逐张在通用修图软件里调色既慢又容易丢失生成参数，导致返工和素材难以复用。
+  pain_en: AI generation produces dozens or hundreds of images at once; grading them one by one in general
+    retouching software is slow and tends to lose generation parameters, causing rework and hard-to-reuse
+    assets.
+  current_alternative: 创作者目前用 Photoshop 批处理、Lightroom 预设或脚本逐张处理，元数据往往在导出时丢失。
+  current_alternative_en: Creators currently use Photoshop batch actions, Lightroom presets or scripts
+    image by image, and metadata is often lost on export.
+  usage_reason: 推断：它把调色与批量处理放在本地小体积工具里并保留工作流元数据，省去在通用修图软件中逐张操作和事后手动补记参数这一步，因此批量出图的创作者在成片交付前会选它；尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: it keeps grading and batch processing in a small local tool while preserving
+    workflow metadata, removing the per-image work in general retouching software and the manual re-recording
+    of parameters, so batch generators may pick it before delivery; no user feedback or retention evidence
+    yet.'
+- id: req-full-tinyluma-2026-10-10
+  project_slug: tinyluma
+  level: full
+  reviewed_at: '2026-10-10T02:33:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量 AI 出图后的统一调色与元数据保留问题，旧做法是逐张在通用修图软件处理，痛点与替代步骤可还原。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+    - ev-ebfee04cbd5a96d4
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 40 增至 42，属关注度信号，不能说明创作者已把它纳入日常交付流程。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+    - ev-ebfee04cbd5a96d4
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业路径，买方与收费方式未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+  - gate: truth
+    status: insufficient
+    reason: 无法确认调色结果与元数据保留在各类生成工具下是否一致，也未说明人工复核边界。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+  next_validation: 收集该仓库的 README 与 release 说明，确认支持的生成工具格式、元数据保留范围与批量处理实测结果。
+  market: ''
+  job: 用 Midjourney、Flux 或 ComfyUI 出图的创作者在批量生成后，对成批图片做统一调色与批量后期，并保留原始工作流元数据以便回溯。
+  job_en: Creators generating images with Midjourney, Flux or ComfyUI batch post-process and uniformly
+    color grade the output while preserving original workflow metadata for traceability.
+  pain: AI 出图一次就是几十上百张，逐张在通用修图软件里调色既慢又容易丢失生成参数，导致返工和素材难以复用。
+  pain_en: AI generation produces dozens or hundreds of images at once; grading them one by one in general
+    retouching software is slow and tends to lose generation parameters, causing rework and hard-to-reuse
+    assets.
+  current_alternative: 创作者目前用 Photoshop 批处理、Lightroom 预设或脚本逐张处理，元数据往往在导出时丢失。
+  current_alternative_en: Creators currently use Photoshop batch actions, Lightroom presets or scripts
+    image by image, and metadata is often lost on export.
+  usage_reason: 推断：它把调色与批量处理放在本地小体积工具里并保留工作流元数据，省去在通用修图软件中逐张操作和事后手动补记参数这一步，因此批量出图的创作者在成片交付前会选它；尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: it keeps grading and batch processing in a small local tool while preserving
+    workflow metadata, removing the per-image work in general retouching software and the manual re-recording
+    of parameters, so batch generators may pick it before delivery; no user feedback or retention evidence
+    yet.'

@@ -1,0 +1,85 @@
+- id: req-initial-opposable-2026-10-10
+  project_slug: opposable
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它让 AI 操作手机，说不清谁在什么任务里用、替代哪一步旧工作、不解决会失去什么，需求与痛点均未成形。
+    evidence_ids:
+    - ev-2701803b9cdbc02f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且材料中没有用户评价、客户案例或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-2701803b9cdbc02f
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，材料未披露定价、买方类型或任何收费路径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-2701803b9cdbc02f
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，手机端自动操作的安全边界、人工确认环节与交付确定性均无材料可查。
+    evidence_ids:
+    - ev-2701803b9cdbc02f
+  next_validation: 收集该产品官方页面或文档，确认它实际支持哪些手机操作、面向哪类使用者，以及是否披露定价或客户案例。
+  market: ''
+  job: 公开材料未说明具体使用者与场景；从定位推断，可能是需要批量操作手机 App 的运营或客服人员，在无法用接口自动化的界面里完成点击、填写与提交，但这一推断缺少材料支持。
+  job_en: The public material does not name a user or scenario; inferring from the positioning, it may
+    be operations or support staff who need to operate mobile apps at volume, clicking, filling and submitting
+    in interfaces that offer no automation API, but this inference lacks material support.
+  pain: 手机端大量操作没有开放接口，只能人工一步步点，重复且耗时；但候选资料没有给出任何用户抱怨、替代做法或采用行为来证明这一痛点真实存在。
+  pain_en: Many mobile operations have no open API and must be done by hand, step by step, which is repetitive
+    and slow; yet the candidate material provides no user complaint, workaround or adoption behaviour
+    proving this pain is real.
+  current_alternative: 公开材料未提及现有替代方式；结构上可能的旧做法是人工操作手机、脚本工具或 App 自带的批量功能，均未被材料证实。
+  current_alternative_en: No current alternative is mentioned; structurally the old way could be manual
+    phone operation, scripting tools or built-in batch features, none of which the material confirms.
+  usage_reason: 无法给出因果解释：材料没有说明它相较人工点手机减少了哪一步负担，也没有可核对的结果或用户反馈，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    compared with manually operating a phone, nor offers any checkable result or user feedback, so it
+    is impossible to judge who would choose it and when.'
+- id: req-full-opposable-2026-10-10
+  project_slug: opposable
+  level: full
+  reviewed_at: '2026-10-10T02:31:48Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只知它让 AI 操作手机，说不清谁在什么任务里用、替代哪一步旧工作、不解决会失去什么，需求与痛点均未成形。
+    evidence_ids:
+    - ev-12b31cafd6fd7f27
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或文档，确认它实际支持哪些手机操作、面向哪类使用者，以及是否披露定价或客户案例。
+  market: ''
+  job: 公开材料未说明具体使用者与场景；从定位推断，可能是需要批量操作手机 App 的运营或客服人员，在无法用接口自动化的界面里完成点击、填写与提交，但这一推断缺少材料支持。
+  job_en: The public material does not name a user or scenario; inferring from the positioning, it may
+    be operations or support staff who need to operate mobile apps at volume, clicking, filling and submitting
+    in interfaces that offer no automation API, but this inference lacks material support.
+  pain: 手机端大量操作没有开放接口，只能人工一步步点，重复且耗时；但候选资料没有给出任何用户抱怨、替代做法或采用行为来证明这一痛点真实存在。
+  pain_en: Many mobile operations have no open API and must be done by hand, step by step, which is repetitive
+    and slow; yet the candidate material provides no user complaint, workaround or adoption behaviour
+    proving this pain is real.
+  current_alternative: 公开材料未提及现有替代方式；结构上可能的旧做法是人工操作手机、脚本工具或 App 自带的批量功能，均未被材料证实。
+  current_alternative_en: No current alternative is mentioned; structurally the old way could be manual
+    phone operation, scripting tools or built-in batch features, none of which the material confirms.
+  usage_reason: 无法给出因果解释：材料没有说明它相较人工点手机减少了哪一步负担，也没有可核对的结果或用户反馈，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    compared with manually operating a phone, nor offers any checkable result or user feedback, so it
+    is impossible to judge who would choose it and when.'

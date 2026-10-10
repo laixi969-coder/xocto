@@ -1,0 +1,80 @@
+- id: req-initial-pollo-ai-借助-openai-将创意转化为广告-2026-10-10
+  project_slug: pollo-ai-借助-openai-将创意转化为广告
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知把创意转成广告，未说明具体任务、痛点与不采用的后果，价值关无法成立。
+    evidence_ids:
+    - ev-bda8899fc399940e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无采用或使用规模证据。
+    evidence_ids:
+    - ev-bda8899fc399940e
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均未披露。
+    evidence_ids:
+    - ev-bda8899fc399940e
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付物形态与人工确认环节不明。
+    evidence_ids:
+    - ev-bda8899fc399940e
+  next_validation: 收集 Pollo AI 官方产品页或定价页，确认输入材料、产出形态与是否按条或按月收费。
+  market: ''
+  job: 材料指向营销人员把创意转成广告，但未说明在什么投放节点、处理什么材料、要完成什么具体任务。
+  job_en: The material points to marketers turning ideas into ads but does not say at which campaign step,
+    with what material, or to complete which specific task.
+  pain: 未说明旧流程中哪一步最耗时或最贵，也未给出用户抱怨或案例。
+  pain_en: Undisclosed; it is unclear whether it replaces human copywriters, outsourced production or
+    generic generation tools.
+  current_alternative: 未披露，无法判断它替代的是人工写手、外包制作还是通用生成工具。
+  current_alternative_en: Undisclosed; it is unclear whether it replaces human copywriters, outsourced
+    production or generic generation tools.
+  usage_reason: 缺少输入、产出与计价描述，无法解释营销人员为何选它而非现有生成工具；这是信息缺口。
+  usage_reason_en: With no description of input, output or pricing, there is no way to explain why a marketer
+    would choose it over existing generation tools; this is an information gap.
+- id: req-full-pollo-ai-借助-openai-将创意转化为广告-2026-10-10
+  project_slug: pollo-ai-借助-openai-将创意转化为广告
+  level: full
+  reviewed_at: '2026-10-10T02:32:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一句“把创意转化为广告”，既未说明具体任务、处理材料与交付形态，也未给出痛点、频率或不采用的后果，连需求与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-4b091c11ccd0ec2d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Pollo AI 官方产品页或定价页，确认输入材料、产出形态与是否按条或按月收费。
+  market: ''
+  job: 材料只指向营销人员把创意转成广告，但未说明在什么投放节点、处理的是简报还是素材、要完成文案还是成片，无法还原具体任务。
+  job_en: The material only points to marketers turning ideas into ads, without saying at which campaign
+    step, whether the input is a brief or raw assets, or whether the output is copy or finished video,
+    so no concrete task can be reconstructed.
+  pain: 未说明旧流程中哪一步最耗时或最贵，也没有用户抱怨或案例，痛点强度与不采用的后果均无公开依据。
+  pain_en: It does not say which step of the old workflow is slowest or costliest, and there are no user
+    complaints or cases, so pain intensity and the cost of not adopting have no public basis.
+  current_alternative: 未披露，无法判断它替代的是人工写手、外包制作还是通用生成工具。
+  current_alternative_en: Undisclosed; it is unclear whether it replaces human copywriters, outsourced
+    production or generic generation tools.
+  usage_reason: 缺少输入、产出与计价描述，无法解释营销人员为何选它而非现有生成工具；这是信息缺口，不是使用理由。
+  usage_reason_en: With no description of input, output or pricing, there is no way to explain why a marketer
+    would choose it over existing generation tools; this is an information gap, not a usage reason.

@@ -183,3 +183,51 @@
     executable PoCs proving exploitability, then submits targeted test-first fixes, removing the step
     where engineers reproduce each alert, so teams needing fast pre-release exploitability confirmation
     would choose it.'
+- id: req-full-vulnhunter-2026-10-10
+  project_slug: vulnhunter
+  level: full
+  reviewed_at: '2026-10-10T02:33:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线前判断哪些缺陷真可利用、并拿到可复核修复的需求；痛点是传统扫描误报多、需逐条人工复现，不解决则误报进入修复流程、真实漏洞被淹没。旧替代是静态扫描加人工验证或外包渗透测试。属工作流结构推理。
+    evidence_ids:
+    - ev-074b82b9c412c6ab
+    - ev-4816da237f8f3bdb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 665 增至 678，仅说明关注度上升，无客户案例、issue 反馈或持续采用证据，无法证明安全团队已把它留在工作流里。
+    evidence_ids:
+    - ev-f0e2767371017cb9
+    - ev-d314284632d4ad32
+  - gate: model
+    status: insufficient
+    reason: 公开材料只说明它是开源工具，无定价页、无企业采购或托管收费信息；谁付钱、按什么收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-72ff03b64619a944
+    - ev-4816da237f8f3bdb
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称会生成可执行 PoC 并提交修复，但未披露 PoC 执行的安全边界、沙箱约束与人工复核流程，修复能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-4816da237f8f3bdb
+    - ev-074b82b9c412c6ab
+  next_validation: 追踪 nealbridges/VulnHunter 仓库的 issue 与 discussion，确认是否有团队在真实代码库中重复使用并反馈误报率或修复合并结果。
+  market: ''
+  job: 安全工程师或应用安全负责人在代码库上线前，把仓库源码交给扫描器，需要判断哪些缺陷真的可被攻击者利用，并拿到可复核的修复改动后再合并。
+  job_en: Security engineers or AppSec leads hand a repository's source code to the scanner before release,
+    needing to judge which defects are truly exploitable and obtain reviewable fix changes before merging.
+  pain: 传统静态扫描器只按模式标记可疑点，输出大量误报，安全团队必须逐条人工复现才能确认可利用性，修复也常缺少可复现证据，验证负担压在少数安全工程师身上。
+  pain_en: Traditional SAST scanners flag suspicious patterns and produce many false positives, forcing
+    security teams to manually reproduce each alert to confirm exploitability, while fixes often lack
+    reproducible evidence, concentrating verification burden on few security engineers.
+  current_alternative: 使用传统静态扫描器加人工逐条验证，或外包渗透测试并等待报告，再手工编写修复。
+  current_alternative_en: Using traditional static scanners plus manual alert-by-alert verification, or
+    outsourcing penetration tests and waiting for reports, then hand-writing fixes.
+  usage_reason: 推断：相比旧做法只给告警清单，它先以攻击者视角推理并生成可执行 PoC 证明漏洞真实可利用，再按测试先行提交针对性修复，省掉安全工程师逐条复现告警这一步，因此需要在上线前快速确认可利用性并拿到修复改动的团队会选它。
+  usage_reason_en: 'Inference: unlike the old approach that only lists alerts, it reasons adversarially
+    and generates executable PoCs proving real exploitability, then submits targeted test-first fixes,
+    removing the step of reproducing each alert, so teams needing fast exploitability confirmation and
+    ready fixes before release would choose it.'

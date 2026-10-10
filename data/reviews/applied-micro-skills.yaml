@@ -824,3 +824,50 @@
     need not rewrite check logic or table code from scratch; applied economists writing papers and delivering
     reproducible results to coauthors would pick it up at the writing and submission stage. No public
     user feedback yet confirms this motive.'
+- id: req-full-applied-micro-skills-2026-10-10
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-10-10T02:28:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否公开了在真实 WRDS/Stata 数据上的复现示例、版本兼容说明与使用者反馈。
+  market: ''
+  job: 应用微观经济学研究者（博士生、青年教师、RA）在拿到 WRDS 等数据库的原始数据后，用 Stata 或 Python 跑事件研究、面板回归，并把结果整理成可投稿的论文表格，同时保证从原始数据到表内数字的整条链路可被复现。
+  job_en: Applied microeconomics researchers (PhD students, junior faculty, RAs) take raw data from sources
+    such as WRDS, run event studies and panel regressions in Stata or Python, produce publication-grade
+    tables, and keep the whole path from raw data to table numbers reproducible.
+  pain: 公开材料未给出用户抱怨原文，但从工作流结构看：复现审计要求逐行核对数据清洗、样本筛选与回归设定，手工重跑一次往往要数天；LLM 流水线方法（提示、模型版本、随机种子）缺乏记录规范，审稿人或合作者质疑数字时难以定位差异来源。这是结构推理，不是用户口述。
+  pain_en: 'Public materials contain no user complaints, but the workflow structure shows the pain: reproducibility
+    audits require line-by-line checks of cleaning, sample filters and regression specs, and a manual
+    rerun can take days; LLM-pipeline methods (prompts, model versions, seeds) lack logging conventions,
+    so when a referee or coauthor questions a number the source of divergence is hard to locate. This
+    is structural inference, not user testimony.'
+  current_alternative: 研究者目前靠手写 Stata do-file、散落的 README、个人脚本库和口头交接来复现；LLM 相关流程则靠临时 notebook 与聊天记录。这些做法没有统一的审计与表格生成约定，跨人跨时间复现成本高。
+  current_alternative_en: Researchers currently rely on hand-written Stata do-files, scattered READMEs,
+    personal script folders and verbal handover; LLM-related steps live in ad-hoc notebooks and chat logs.
+    These have no shared audit or table-generation convention, so reproduction across people and time
+    is costly.
+  usage_reason: 推断：相较手写 do-file 加零散 README，这套 skill 把复现审计、LLM 流水线方法记录、事件研究与出表串成可重复调用的动作，减少的是“重新对齐数据清洗与回归设定”这一步人工负担，并让表内数字可被逐项回溯。因此正在做复现审计或需要交付可复现论文表的应用微观研究者，会在投稿前或合作者交接时选择它。公开仓库
+    48 个收藏只说明开发者注意到它，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus hand-written do-files plus scattered READMEs, these skills chain
+    reproducibility auditing, LLM-pipeline method logging, event studies and table generation into repeatable
+    actions, removing the manual step of re-aligning cleaning and regression specs and making table numbers
+    traceable item by item. Applied-micro researchers facing a reproducibility audit or needing reproducible
+    paper tables would therefore pick it before submission or at coauthor handover. Th'

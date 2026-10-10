@@ -118,3 +118,41 @@
   usage_reason: 缺少功能说明、文档与使用数据，无法解释用户为何会选择它而非旧做法；仅凭星标与 fork 数不能作为使用理由。
   usage_reason_en: With no description, documentation, or usage data, there is no basis to explain why
     a user would choose it over the old approach; stars and forks alone cannot serve as a usage reason.
+- id: req-full-math-2026-10-10
+  project_slug: math
+  level: full
+  reviewed_at: '2026-10-10T02:30:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选只显示 OpenAI 名下一个名为 math 的公开代码仓库及星标、fork 数，没有说明谁在什么工作节点打开它、接收什么材料、执行什么动作、交付什么结果，连需求和痛点都写不出来。
+    evidence_ids:
+    - ev-c62293ec6384b004
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该仓库的说明文档、目录结构与最近提交记录，确认它是评测集、形式化证明工具还是训练代码。
+  market: ''
+  job: 公开材料未说明具体使用者与使用场景：无法确认是研究人员、工程师还是教育工作者，在什么情况下处理哪类数学材料、要完成什么任务。
+  job_en: 'The public material does not identify a specific user or scenario: it is unclear whether researchers,
+    engineers, or educators would use it, on what kind of math material, and to complete what task.'
+  pain: 候选材料没有描述任何用户痛点，也没有说明现有做法在哪里卡住。
+  pain_en: The candidate material describes no user pain point and does not say where current practice
+    breaks down.
+  current_alternative: 无法判断现有替代方式，因为材料未说明该仓库解决什么问题。
+  current_alternative_en: The current alternative cannot be identified because the material does not say
+    what problem the repository addresses.
+  usage_reason: 缺少功能说明、文档与使用数据，无法解释用户为何会选择它而非旧做法；仅凭星标与 fork 数不能作为使用理由。
+  usage_reason_en: With no description, documentation, or usage data, there is no basis to explain why
+    a user would choose it over the old approach; stars and forks alone cannot serve as a usage reason.

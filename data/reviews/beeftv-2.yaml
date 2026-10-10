@@ -1,0 +1,81 @@
+- id: req-initial-beeftv-2-2026-10-10
+  project_slug: beeftv-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决视频创作中创意、模型与素材分散的问题，但公开材料未说明替代了哪一步旧工作，需求强度无法判断。
+    evidence_ids:
+    - ev-569ee8502ccee239
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标数，属于关注度而非持续采用，缺少用户评价或客户案例。
+    evidence_ids:
+    - ev-569ee8502ccee239
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，开源项目可能的付费路径尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-569ee8502ccee239
+  - gate: truth
+    status: insufficient
+    reason: 无法核对画布与 Agent 的交付是否确定发生，也未见人工确认边界。
+    evidence_ids:
+    - ev-569ee8502ccee239
+  next_validation: 收集 BeefTV 官方文档或演示，确认画布加 Agent 的具体输入、动作与交付物。
+  market: ''
+  job: 视频创作者在分镜与素材整理阶段，把创意、模型与素材在画布上连接成可交付的成片方案。
+  job_en: Video creators connect ideas, models and assets on a canvas into a deliverable cut plan during
+    storyboarding and asset organization.
+  pain: 公开材料只给出画布加 Agent 的定位，没有说明原来哪一步手工工作被替代、耗时多久，痛点无法还原。
+  pain_en: Public material only states a canvas-plus-agent positioning and does not say which manual step
+    was replaced or how long it took, so the pain cannot be reconstructed.
+  current_alternative: 剪辑师在时间轴软件里手工拼接素材，或分别调用多个生成模型再人工汇总。
+  current_alternative_en: Editors assemble assets manually in timeline software, or call several generation
+    models separately and merge results by hand.
+  usage_reason: 推断：若画布能把素材、模型与创意放在同一处并由 Agent 连接，可减少在多个工具间搬运与汇总的步骤；但公开材料未说明具体动作与交付，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the canvas keeps assets, models and ideas in one place and an agent
+    connects them, it could cut the steps of moving and merging across tools; but public material does
+    not describe the concrete action or deliverable, so why users choose it cannot be confirmed.'
+- id: req-full-beeftv-2-2026-10-10
+  project_slug: beeftv-2
+  level: full
+  reviewed_at: '2026-10-10T02:28:37Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决视频创作中创意、模型与素材分散的问题，但公开材料只给出画布加 Agent 的定位，未说明替代了哪一步旧工作、耗时多久或造成什么后果，连需求与痛点都无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-569ee8502ccee239
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 BeefTV 官方文档或演示页，确认画布加 Agent 的具体输入、动作与交付物。
+  market: ''
+  job: 视频创作者在分镜与素材整理阶段，把创意、模型与素材放进同一块画布，由 Agent 连接这些元素，推进成可交付的成片方案。
+  job_en: Video creators place ideas, models and assets on one canvas during storyboarding and asset organization,
+    and an agent connects them into a deliverable cut plan.
+  pain: 公开材料只给出画布加 Agent 的定位，没有说明原来哪一步手工工作被替代、耗时多久或造成什么后果，痛点无法还原。
+  pain_en: Public material only states a canvas-plus-agent positioning and does not say which manual step
+    was replaced, how long it took, or what consequence followed, so the pain cannot be reconstructed.
+  current_alternative: 剪辑师在时间轴软件里手工拼接素材，或分别调用多个生成模型再人工汇总。
+  current_alternative_en: Editors assemble assets manually in timeline software, or call several generation
+    models separately and merge results by hand.
+  usage_reason: 推断：若画布能把素材、模型与创意放在同一处并由 Agent 连接，可减少在多个工具间搬运与汇总的步骤；但公开材料未说明具体动作、输入与交付物，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the canvas keeps assets, models and ideas in one place and an agent
+    connects them, it could cut the steps of moving and merging across tools; but public material does
+    not describe the concrete action, input or deliverable, so which users would choose it cannot be confirmed.'

@@ -1,0 +1,88 @@
+- id: req-initial-我使用国产个人-ai-助手的十天-ai-上新-2026-10-10
+  project_slug: 我使用国产个人-ai-助手的十天-ai-上新
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用待办与消息分散、容易漏事的需求，痛点来自国内办公套件无法被海外助手操作这一具体缺口，旧行为是人工切换与手工记录。
+    evidence_ids:
+    - ev-b03dabd1fe627cfe
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一篇体验报道，未给出用户规模、留存或团队采用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b03dabd1fe627cfe
+  - gate: model
+    status: insufficient
+    reason: 未见官方定价页或付费路径披露，买方是个人订阅还是团队采购尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b03dabd1fe627cfe
+  - gate: truth
+    status: insufficient
+    reason: 接入飞书、钉钉等应用说明交付链路存在，但主动跟进是否可靠、出错后如何人工确认，公开材料未说明。
+    evidence_ids:
+    - ev-b03dabd1fe627cfe
+  next_validation: 收集 Today AI 官方定价页或客户案例，确认其收费方式与是否有团队付费采用。
+  market: ''
+  job: 重度使用飞书、钉钉、腾讯文档和邮箱的国内办公用户，在一天工作开始时或任务堆积时，处理散落在多个应用里的待办、消息和文档，要完成的是把未完成事项汇总成可执行的下一步。
+  job_en: Domestic office users who live in Feishu, DingTalk, Tencent Docs and email, at the start of
+    a workday or when tasks pile up, handle to-dos, messages and documents scattered across apps, and
+    need to turn unfinished items into an executable next step.
+  pain: 待办和消息分散在多个应用，用户要反复切换窗口手工翻找，容易漏掉未完成事项；海外同类助手又无法操作国内办公软件。
+  pain_en: To-dos and messages are scattered across apps, forcing repeated window switching and manual
+    searching, and unfinished items get missed; overseas assistants cannot operate Chinese office software.
+  current_alternative: 用户目前靠人工在飞书、钉钉、邮箱之间来回切换，用备忘录或日历手工记录待办，或使用各应用自带的提醒功能。
+  current_alternative_en: Users currently switch manually among Feishu, DingTalk and email, note to-dos
+    by hand in memos or calendars, or rely on each app's built-in reminders.
+  usage_reason: 推断：相较人工跨应用翻找，它直接读取已接入的飞书、钉钉、腾讯文档和邮箱内容并记住未完成事项，省去用户逐条搬运和整理的那一步，因此重度依赖国内办公套件的用户会在任务堆积时选择它；但公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually searching across apps, it reads connected Feishu,
+    DingTalk, Tencent Docs and email content and remembers unfinished items, removing the step of moving
+    and organizing each item by hand, so heavy users of Chinese office suites would pick it when tasks
+    pile up; public material shows no retention or repeat-use evidence.'
+- id: req-full-我使用国产个人-ai-助手的十天-ai-上新-2026-10-10
+  project_slug: 我使用国产个人-ai-助手的十天-ai-上新
+  level: full
+  reviewed_at: '2026-10-10T02:33:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用待办与消息分散、容易漏事的需求，痛点来自国内办公套件无法被海外助手操作这一具体缺口，旧行为是人工切换与手工记录。
+    evidence_ids:
+    - ev-b03dabd1fe627cfe
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一篇体验报道，未给出用户规模、留存或团队采用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b03dabd1fe627cfe
+  - gate: model
+    status: insufficient
+    reason: 未见官方定价页或付费路径披露，买方是个人订阅还是团队采购尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b03dabd1fe627cfe
+  - gate: truth
+    status: insufficient
+    reason: 接入飞书、钉钉等应用说明交付链路存在，但主动跟进是否可靠、出错后如何人工确认，公开材料未说明。
+    evidence_ids:
+    - ev-b03dabd1fe627cfe
+  next_validation: 收集 Today AI 官方定价页或客户案例，确认其收费方式与是否有团队付费采用。
+  market: ''
+  job: 重度使用飞书、钉钉、腾讯文档和邮箱的国内办公用户，在一天工作开始或任务堆积时，处理散落在多个应用里的待办、消息和文档，要完成的是把未完成事项汇总成可执行的下一步。
+  job_en: Domestic office users who live in Feishu, DingTalk, Tencent Docs and email, at the start of
+    a workday or when tasks pile up, handle to-dos, messages and documents scattered across apps, and
+    need to turn unfinished items into an executable next step.
+  pain: 待办和消息分散在多个应用，用户要反复切换窗口手工翻找，容易漏掉未完成事项；海外同类助手又无法操作国内办公软件。
+  pain_en: To-dos and messages are scattered across apps, forcing repeated window switching and manual
+    searching, and unfinished items get missed; overseas assistants cannot operate Chinese office software.
+  current_alternative: 用户目前靠人工在飞书、钉钉、邮箱之间来回切换，用备忘录或日历手工记录待办，或使用各应用自带的提醒功能。
+  current_alternative_en: Users currently switch manually among Feishu, DingTalk and email, note to-dos
+    by hand in memos or calendars, or rely on each app's built-in reminders.
+  usage_reason: 推断：相较人工跨应用翻找，它直接读取已接入的飞书、钉钉、腾讯文档和邮箱内容并记住未完成事项，省去用户逐条搬运和整理的那一步，因此重度依赖国内办公套件的用户会在任务堆积时选择它；但公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually searching across apps, it reads connected Feishu,
+    DingTalk, Tencent Docs and email content and remembers unfinished items, removing the step of moving
+    and organizing each item by hand, so heavy users of Chinese office suites would pick it when tasks
+    pile up; public material shows no retention or repeat-use evidence.'

@@ -79,3 +79,52 @@
   usage_reason: 用户要完成的任务是：视频后期制作、视觉特效；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Video post-production, Visual effects Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-genjustsu-open-source-workflow-2026-10-10
+  project_slug: genjustsu-open-source-workflow
+  level: full
+  reviewed_at: '2026-10-10T02:30:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是成片素材中人物/物体替换这一具体后期任务，痛点在于手工 Roto/抠像或重拍成本高、周期长；公开说明已能还原输入—圈选—生成—带原声导出的闭环，属工作流结构推理，痛点刚性与交付可确定。
+    evidence_ids:
+    - ev-34dc14630227cc10
+    - ev-12bd0002a6cf56c1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 84 增至 173，说明开发者社区注意到该项目，但公开材料没有用户评价、案例或重复使用记录，无法证明后期人员已把它留在工作流里。
+    evidence_ids:
+    - ev-34dc14630227cc10
+    - ev-12bd0002a6cf56c1
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页，谁付钱、按什么单位收费均未公开；可能靠 TEIN 的商业服务或 Seedance 调用变现，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-34dc14630227cc10
+  - gate: truth
+    status: insufficient
+    reason: 遮罩与生成结果仍需人工逐帧确认，说明交付并非全自动；公开材料未给出可复现的替换质量、失败率或安全边界证据。
+    evidence_ids:
+    - ev-34dc14630227cc10
+    - ev-12bd0002a6cf56c1
+  next_validation: 追踪该仓库的 issue/discussion 与 TEIN 官网，确认是否有后期团队公开描述实际替换场景、替代的旧流程与生成质量反馈。
+  market: ''
+  job: 影视/广告后期人员拿到一段已拍摄的成片素材，需要把其中某个人物或物体替换成新形象，于是导入本地 Web UI，用深度图、SAM 分割和人脸网格圈出替换区域，交给 Seedance 生成新画面，再带原始音频导出成片。
+  job_en: A film/ad post-production artist takes already-shot footage, needs to replace a character or
+    object with a new one, imports it into the local web UI, uses depth maps, SAM segmentation and face
+    meshes to isolate the replacement region, sends it to Seedance to generate the new frames, and exports
+    with the original audio.
+  pain: 传统替换要么靠逐帧 Roto/抠像加合成，要么重拍或补拍，人工成本高、周期长；不解决就得在时间与预算上硬扛，或放弃替换创意。
+  pain_en: Traditional replacement means frame-by-frame roto/keying plus compositing, or reshoots; leaving
+    it unsolved forces teams to absorb the cost and schedule, or drop the replacement idea.
+  current_alternative: 公开材料未直接描述用户现有做法；从任务结构推断，替代方式是手工 Roto/抠像合成、绿幕重拍，或直接用通用视频生成模型但缺少遮罩与音频对齐环节。
+  current_alternative_en: Public materials do not directly describe current practice; structurally the
+    alternatives are manual roto/keying compositing, green-screen reshoots, or generic video-generation
+    models without mask and audio-alignment steps.
+  usage_reason: 推断：相较手工逐帧抠像，它把深度图、SAM 分割和人脸网格串成一次自动圈选，并在同一界面里预览遮罩与生成结果、保留原声导出，减少的是逐帧描边与多工具来回切换的步骤，因此需要快速做人物/物体替换的后期人员会在有现成素材、不想重拍时选择它。
+  usage_reason_en: 'Inference: versus manual frame-by-frame keying, it chains depth maps, SAM segmentation
+    and face meshes into one automatic selection pass and previews masks and generations in the same UI
+    with original-audio export, removing per-frame tracing and tool-switching, so post artists needing
+    fast character/object replacement on existing footage would pick it over reshoots.'

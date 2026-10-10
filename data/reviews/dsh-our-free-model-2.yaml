@@ -1,0 +1,85 @@
+- id: req-initial-dsh-our-free-model-2-2026-10-10
+  project_slug: dsh-our-free-model-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型接入时注册与密钥配置的重复劳动，痛点对个人开发者真实存在，旧做法是逐平台申请密钥；买方与付费方尚不清楚。
+    evidence_ids:
+    - ev-4bd960c40710b563
+  - gate: consensus
+    status: insufficient
+    reason: 5670 星说明关注度高，但星标不等于持续使用，也无法证明用户已把它留在日常工作流。
+    evidence_ids:
+    - ev-4bd960c40710b563
+  - gate: model
+    status: insufficient
+    reason: 宣称完全免费不限量却未说明额度来源与成本承担方，缺乏可核验的付费路径，存在供给随时中断的风险。
+    evidence_ids:
+    - ev-4bd960c40710b563
+  - gate: truth
+    status: challenged
+    reason: 免费通道的合规与稳定性未说明，若上游收紧或封禁，承诺的确定性交付无法保证；也未见安全与人工边界说明。
+    evidence_ids:
+    - ev-4bd960c40710b563
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认免费额度的实际来源、是否有速率限制或上游条款说明，以及使用者报告的可用性变化。
+  market: ''
+  job: 使用 dsh 的开发者需要调用前沿模型处理代码或文本任务，但不想为每个模型单独注册账号、申请并配置 API Key。
+  job_en: A developer using dsh needs frontier models for code or text tasks but does not want to register
+    accounts and obtain and configure API keys for each model.
+  pain: 多模型接入的注册、密钥管理与计费配置是重复劳动，个人开发者和小团队尤其嫌麻烦。
+  pain_en: Registering, managing keys and setting up billing across multiple models is repetitive work,
+    especially annoying for solo developers and small teams.
+  current_alternative: 逐个平台注册、申请密钥、配置环境变量，或使用付费的模型聚合服务。
+  current_alternative_en: Signing up per platform, requesting keys, setting environment variables, or
+    paying for a model aggregation service.
+  usage_reason: 推断：它把接入摩擦压到一次安装，开发者不必再管理密钥即可调用模型，因此想低成本试多个模型的 dsh 用户会先装它；但免费额度的来源与可持续性没有公开说明，也无留存证据。
+  usage_reason_en: 'Inference: it reduces onboarding friction to a single install, so developers can call
+    models without managing keys, which is why dsh users wanting to try several models cheaply would install
+    it first; the source and sustainability of the free quota are undisclosed and there is no retention
+    evidence.'
+- id: req-full-dsh-our-free-model-2-2026-10-10
+  project_slug: dsh-our-free-model-2
+  level: full
+  reviewed_at: '2026-10-10T02:29:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是多模型接入时注册与密钥配置的重复劳动，痛点对个人开发者存在但刚性不足：官方免费额度与聚合服务已能覆盖同一任务，省去注册并非不可替代，且免费不限量的成本承担方未说明，属于自嗨式便利而非刚性需求。
+    evidence_ids:
+    - ev-4bd960c40710b563
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认免费额度的实际来源、是否有速率限制或上游条款说明，以及使用者报告的可用性变化。
+  market: ''
+  job: 使用 dsh 的开发者，在需要调用前沿模型处理代码或文本时，安装插件后直接发起请求，省去逐平台注册与配置密钥。
+  job_en: A developer using dsh who needs frontier models for code or text tasks installs the plugin and
+    calls the models directly, skipping per-platform sign-up and key configuration.
+  pain: 多模型接入的注册、密钥管理与计费配置是重复劳动，个人开发者和小团队嫌麻烦；但这一摩擦本身并非刚性痛点，多数开发者已有可用的付费或免费通道。
+  pain_en: Registering, managing keys and setting up billing across multiple models is repetitive work
+    that solo developers and small teams find annoying; yet this friction is not a rigid pain, since most
+    developers already have working paid or free channels.
+  current_alternative: 逐个平台注册、申请密钥、配置环境变量，或使用付费的模型聚合服务与官方免费额度。
+  current_alternative_en: Signing up per platform, requesting keys, setting environment variables, or
+    using paid model aggregation services and official free tiers.
+  usage_reason: 推断：它把接入摩擦压到一次安装，开发者不必管理密钥即可调用模型，因此想低成本试多个模型的 dsh 用户会先装它；但免费额度来源、成本承担方与上游条款均未公开，一旦上游收紧或封禁，通道即失效，用户没有理由把它留在长期工作流里。
+  usage_reason_en: 'Inference: it reduces onboarding friction to a single install so developers can call
+    models without managing keys, which is why dsh users wanting to try several models cheaply would install
+    it first; however the source of the free quota, who bears the cost, and upstream terms are undisclosed,
+    so if the upstream tightens or blocks access the channel dies and users have no reason to keep it
+    in a long-term workflow.'

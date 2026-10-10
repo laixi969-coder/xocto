@@ -80,3 +80,54 @@
   usage_reason_en: 'The task is: Knowledge workers who dictate emails or documents clean up colloquial,
     poorly punctuated speech-to-text output to get sendable written content Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-superwhisper-s1-mini-2026-10-10
+  project_slug: superwhisper-s1-mini
+  level: full
+  reviewed_at: '2026-10-10T02:33:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决语音输入后转写文本口语化、断句混乱、无法直接发送的问题，痛点在于口述省下的时间被逐句润色吃掉；公开材料显示旧做法是 Whisper 类工具只做转写、整理靠人工，Superwhisper
+      以任意应用内语音转文字定位，说明转写与书面化分离是真实工作流缺口。此为工作流结构推理，尚无用户反馈或量化采用数据。
+    evidence_ids:
+    - ev-e7e2135d09a9b1c2
+    - ev-d9edba6cd5fbf4ad
+    - ev-64a26733311a499d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网“任意应用内语音转文字”与可驱动多智能体的宣传语，以及开源同类 macOS 转写应用的存在，能说明场景被感知；但没有下载量、评价、留存或复购等持续采用证据，无法判断用户是否已把它留在工作流里。
+    evidence_ids:
+    - ev-64a26733311a499d
+    - ev-d9edba6cd5fbf4ad
+  - gate: model
+    status: insufficient
+    reason: 证据中未见定价页、订阅档位或付费主体，钱可能来自 to C 个人订阅或 to B 团队采购，均属判断而非已验证事实；这是模式缺口，不推翻价值关。
+    evidence_ids:
+    - ev-272dac27e2cb679f
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺把转写文本规范为书面表达，但公开材料未说明规范化后用户是否仍需核对内容准确性、错误由谁承担，也未见可复现的交付结果或人工边界说明，确定性交付尚不可核验。
+    evidence_ids:
+    - ev-e7e2135d09a9b1c2
+  next_validation: 追踪 superwhisper.com 官方定价页与客户案例/公开评价页，确认是否存在订阅档位、付费主体与用户持续使用或复购的公开记录。
+  market: ''
+  job: 经常用语音输入写邮件或文档的知识工作者，在任意应用里口述后，拿到 Whisper 类模型产出的口语化、断句混乱的转写文本，需要把它整理成可直接发送的书面内容。
+  job_en: Knowledge workers who dictate emails or documents in any app take Whisper-style raw transcripts
+    and turn colloquial, poorly punctuated output into sendable written text.
+  pain: 语音转文字只解决听写，不解决书面化：口述稿带口语、重复和错误断句，直接粘贴进邮件或文档仍需逐句改写；不处理的后果是发出不专业文本或退回键盘重打，抵消语音输入省下的时间。
+  pain_en: 'Speech-to-text solves dictation, not written form: raw transcripts carry filler, repetition
+    and broken punctuation, so pasting them into an email or doc still requires sentence-by-sentence rewriting,
+    or the user falls back to typing.'
+  current_alternative: 公开材料显示用户当前用 Whisper 类本地转写工具（如 OpenSuperWhisper 这类 macOS 实时转写应用）或系统听写拿到原始文本，再手工润色；Superwhisper
+    自身也以“任意应用内语音转文字”定位，说明旧做法是转写与整理分离。
+  current_alternative_en: Public materials show users currently get raw text from Whisper-based local
+    tools (e.g. OpenSuperWhisper, a macOS real-time transcription app) or OS dictation, then polish by
+    hand; Superwhisper itself positions as voice-to-text in any app, implying transcription and cleanup
+    are split today.
+  usage_reason: 推断：相较“转写后手工改写”的旧流程，它在转写文本进入目标应用前由模型做语气与格式规范化，把逐句润色这一步合并进输入动作，因此频繁口述邮件、文档且不愿二次编辑的知识工作者会在意它；但公开材料未给出用户反馈或留存证据，动机属结构推断。
+  usage_reason_en: 'Inference: versus the old ''transcribe then hand-edit'' flow, it normalizes tone and
+    formatting before the text lands in the target app, folding the rewrite step into the input action,
+    which matters to knowledge workers who dictate often and dislike re-editing; no public user feedback
+    or retention evidence supports this motive yet.'

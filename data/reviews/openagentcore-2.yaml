@@ -1,0 +1,81 @@
+- id: req-initial-openagentcore-2-2026-10-10
+  project_slug: openagentcore-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是代理运行托管位置的问题，但公开材料未说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-cda2647995b624e0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度而非采用证据，无法判断是否有团队把它放进生产工作流。
+    evidence_ids:
+    - ev-cda2647995b624e0
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露任何付费、支持服务或企业部署的收费路径，买方与收入来源均不明。
+    evidence_ids:
+    - ev-cda2647995b624e0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对兼容范围、安全边界与人工介入方式，承诺能否确定性交付缺少材料支持。
+    evidence_ids:
+    - ev-cda2647995b624e0
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认兼容范围、部署方式与是否有团队报告在生产中使用。
+  market: ''
+  job: 自建代理服务的开发者需要在自有服务器上运行与 OpenAI Agents API 兼容的代理，并接入多种运行框架，避免把业务逻辑绑死在单一厂商接口上。
+  job_en: Developers running self-hosted agent services need to execute OpenAI Agents API-compatible agents
+    on their own servers with multiple harnesses, avoiding lock-in to a single vendor interface.
+  pain: 公开材料只说明它是自托管实现，没有说明谁在什么场景下遇到什么具体阻碍，也没有用户抱怨或迁移案例可引用。
+  pain_en: Public material only states it is a self-hosted implementation; it does not say who hits which
+    concrete obstacle, and no user complaints or migration cases are available.
+  current_alternative: 开发者目前直接调用厂商托管的 Agents API，或自行拼装开源框架与自建服务端。
+  current_alternative_en: Developers currently call the vendor-hosted Agents API directly, or assemble
+    open-source frameworks and their own backend.
+  usage_reason: 推断：对数据不能出境的团队，自托管可省去把代理运行托管给外部厂商这一环，但公开材料未给出部署成本、兼容程度或实际采用证据，因此无法确认这一理由成立。
+  usage_reason_en: 'Inference: for teams whose data cannot leave their premises, self-hosting removes
+    the step of running agents on an external vendor, but public material gives no deployment cost, compatibility
+    level or adoption evidence, so this reason cannot be confirmed.'
+- id: req-full-openagentcore-2-2026-10-10
+  project_slug: openagentcore-2
+  level: full
+  reviewed_at: '2026-10-10T02:31:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是代理运行托管位置的问题，但公开材料未说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-cda2647995b624e0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认兼容范围、部署方式与是否有团队报告在生产中使用。
+  market: ''
+  job: 自建代理服务的开发者需要在自有服务器上运行与 OpenAI Agents API 兼容的代理，并接入多种运行框架，避免业务逻辑绑死在单一厂商接口上。
+  job_en: Developers running self-hosted agent services need to run OpenAI Agents API-compatible agents
+    on their own servers with multiple harnesses, avoiding lock-in to a single vendor interface.
+  pain: 公开材料只说明它是自托管实现，没有说明谁在什么场景下遇到什么具体阻碍，也没有用户抱怨或迁移案例可引用。
+  pain_en: Public material only states it is a self-hosted implementation; it does not say who hits which
+    concrete obstacle, and no user complaints or migration cases are available.
+  current_alternative: 开发者目前直接调用厂商托管的 Agents API，或自行拼装开源框架与自建服务端。
+  current_alternative_en: Developers currently call the vendor-hosted Agents API directly, or assemble
+    open-source frameworks and their own backend.
+  usage_reason: 推断：对数据不能出境的团队，自托管可省去把代理运行托管给外部厂商这一环，但公开材料未给出部署成本、兼容程度或实际采用证据，因此无法确认这一理由成立。
+  usage_reason_en: 'Inference: for teams whose data cannot leave their premises, self-hosting removes
+    the step of running agents on an external vendor, but public material gives no deployment cost, compatibility
+    level or adoption evidence, so this reason cannot be confirmed.'

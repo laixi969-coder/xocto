@@ -1,0 +1,82 @@
+- id: req-initial-gimlet-labs-2026-10-10
+  project_slug: gimlet-labs
+  level: initial
+  reviewed_at: '2026-10-10T01:56:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连它解决什么需求、什么痛点都写不出来，只有榜单入选与融资节奏，价值关无法成立。
+    evidence_ids:
+    - ev-e4215d1901163527
+  - gate: consensus
+    status: insufficient
+    reason: 入选 Madrona 榜单属于机构关注，不是用户持续采用；没有场景或使用证据支撑共识。
+    evidence_ids:
+    - ev-e4215d1901163527
+  - gate: model
+    status: insufficient
+    reason: 材料只提到融资节奏，未说明买方、定价或收入路径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-e4215d1901163527
+  - gate: truth
+    status: insufficient
+    reason: 产品定义缺失，无法核对它是否贴近该工作的第一性目标或承诺能否确定性交付。
+    evidence_ids:
+    - ev-e4215d1901163527
+  next_validation: 收集 Gimlet Labs 官网的产品页或文档，确认它具体处理什么输入、交付什么结果以及面向哪类用户。
+  market: ''
+  job: 材料未说明谁在什么情况下打开它、处理什么材料、要完成什么任务，无法还原具体工作节点。
+  job_en: The material does not say who opens it, in what situation, with what material, to finish what
+    task, so the work step cannot be reconstructed.
+  pain: 材料未披露它解决什么痛点，只给出入选榜单与融资节奏，无法判断用户不采用会失去什么。
+  pain_en: The material discloses no pain point, only a list selection and funding cadence, so what a
+    user loses by not adopting it cannot be judged.
+  current_alternative: 材料未说明现有替代方式。
+  current_alternative_en: The material does not describe any current alternative.
+  usage_reason: 无法判断：缺少产品功能、输入输出与使用场景的任何描述，不能推断用户为何选择它；入选榜单与融资节奏只属于关注度证据。
+  usage_reason_en: 'Cannot be judged: with no description of features, inputs, outputs or usage scenarios,
+    there is no basis to infer why a user would choose it; list selection and funding cadence are attention
+    signals only.'
+- id: req-full-gimlet-labs-2026-10-10
+  project_slug: gimlet-labs
+  level: full
+  reviewed_at: '2026-10-10T02:30:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有 Madrona 榜单入选与融资节奏，未说明它解决什么需求、什么痛点，也还原不出输入、动作与交付，价值关无法成立。
+    evidence_ids:
+    - ev-4ac042664cab1769
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Gimlet Labs 官网产品页或技术文档，确认它具体处理什么输入、执行什么动作、交付什么结果以及面向哪类用户。
+  market: ''
+  job: 材料未说明谁在什么情况下打开 Gimlet Labs、处理什么材料、要完成什么任务；仅知它被列入 Madrona 2026 Intelligent Applications 40 的 Emerging
+    Enabler 阶段，无法还原任何具体工作节点。
+  job_en: The material does not say who opens Gimlet Labs, in what situation, with what material, to complete
+    what task; it is only known to be named to Madrona's 2026 Intelligent Applications 40 at the Emerging
+    Enabler stage, so no concrete work step can be reconstructed.
+  pain: 公开材料未披露它解决什么痛点，只给出榜单入选与融资节奏，无法判断用户不采用会失去什么，也无法判断痛点是否刚性。
+  pain_en: The public material discloses no pain point, only a list selection and funding cadence, so
+    it is impossible to judge what a user loses by not adopting it or whether the pain is rigid.
+  current_alternative: 材料未说明现有替代方式；检索到的证据多为 Gimlet 鸡尾酒配方与通用 AI 介绍，与该项目无产品级关联。
+  current_alternative_en: The material describes no current alternative; retrieved evidence is mostly
+    Gimlet cocktail recipes and generic AI explainers, with no product-level link to this project.
+  usage_reason: 无法判断：缺少产品功能、输入输出与使用场景的任何描述，不能推断用户为何选择它；榜单入选与融资节奏只属于关注度证据，不构成使用理由。
+  usage_reason_en: 'Cannot be judged: with no description of features, inputs, outputs or usage scenarios,
+    there is no basis to infer why a user would choose it; list selection and funding cadence are attention
+    signals only, not usage reasons.'

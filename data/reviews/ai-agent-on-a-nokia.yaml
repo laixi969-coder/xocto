@@ -1,0 +1,83 @@
+- id: req-initial-ai-agent-on-a-nokia-2026-10-10
+  project_slug: ai-agent-on-a-nokia
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是低算力设备上跑代理的可行性演示需求，痛点偏实验性而非刚性，材料未显示具体使用者任务与不采用代价。
+    evidence_ids:
+    - ev-60588951823e38d4
+    - ev-f35a9ca161b9d685
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，未见任何采用、复购或工作流嵌入证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-60588951823e38d4
+  - gate: model
+    status: insufficient
+    reason: 开源演示仓库，未见定价、买方或收费路径，钱从哪来完全未知，属判断而非已验证事实。
+    evidence_ids:
+    - ev-60588951823e38d4
+  - gate: truth
+    status: insufficient
+    reason: 材料只给出标题级描述，无法核对代理在功能机上是否确定性交付，也未说明安全与人工边界。
+    evidence_ids:
+    - ev-60588951823e38d4
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认代理在功能机上的实际任务、运行条件与是否有外部使用者复现。
+  market: ''
+  job: 嵌入式开发者或极客在功能机等低算力设备上，处理受限硬件与网络条件，完成一次可运行的 AI 代理调用演示。
+  job_en: Embedded developers or hobbyists run an AI agent on low-power feature phones, working within
+    constrained hardware and networking to produce a runnable agent demo.
+  pain: 低算力设备上跑代理缺少现成参考，硬件与网络限制让常规云端方案无法直接套用。
+  pain_en: There is little reference material for running agents on low-power devices, and hardware and
+    network limits block simply reusing cloud approaches.
+  current_alternative: 开发者通常只在手机或服务器上跑代理，功能机场景要么放弃，要么手工拼凑脚本。
+  current_alternative_en: Developers usually run agents on phones or servers; for feature phones they
+    either give up or hand-assemble scripts.
+  usage_reason: 推断：它把功能机上的代理调用整理成可复现仓库，省去从零摸索硬件与网络限制的步骤，因此做嵌入式实验或教学演示的人会先看它；但材料未显示任何持续使用或付费证据。
+  usage_reason_en: 'Inference: it packages a feature-phone agent call into a reproducible repo, removing
+    the step of figuring out hardware and network limits from scratch, so people doing embedded experiments
+    or teaching demos would look at it first; the material shows no evidence of sustained use or payment.'
+- id: req-full-ai-agent-on-a-nokia-2026-10-10
+  project_slug: ai-agent-on-a-nokia
+  level: full
+  reviewed_at: '2026-10-10T02:28:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是低算力设备上跑代理的可行性演示需求，痛点偏实验性而非刚性，材料未显示具体使用者任务与不采用代价。
+    evidence_ids:
+    - ev-60588951823e38d4
+    - ev-f35a9ca161b9d685
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认代理在功能机上的实际任务、运行条件与是否有外部使用者复现。
+  market: ''
+  job: 嵌入式开发者或极客在功能机等低算力设备上，处理受限硬件与网络条件，完成一次可运行的 AI 代理调用演示。
+  job_en: Embedded developers or hobbyists run an AI agent on low-power feature phones, working within
+    constrained hardware and networking to produce a runnable agent demo.
+  pain: 低算力设备上跑代理缺少现成参考，硬件与网络限制让常规云端方案无法直接套用。
+  pain_en: There is little reference material for running agents on low-power devices, and hardware and
+    network limits block simply reusing cloud approaches.
+  current_alternative: 开发者通常只在手机或服务器上跑代理，功能机场景要么放弃，要么手工拼凑脚本。
+  current_alternative_en: Developers usually run agents on phones or servers; for feature phones they
+    either give up or hand-assemble scripts.
+  usage_reason: 推断：它把功能机上的代理调用整理成可复现仓库，省去从零摸索硬件与网络限制的步骤，因此做嵌入式实验或教学演示的人会先看它；但材料未显示任何持续使用或付费证据。
+  usage_reason_en: 'Inference: it packages a feature-phone agent call into a reproducible repo, removing
+    the step of figuring out hardware and network limits from scratch, so people doing embedded experiments
+    or teaching demos would look at it first; the material shows no evidence of sustained use or payment.'

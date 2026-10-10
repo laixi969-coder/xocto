@@ -436,3 +436,47 @@
     filtering and first-pass security screening step, so developers already committed to a coding-agent
     workflow may bookmark it; however no public feedback or case shows anyone actually installing it into
     a daily pipeline, and star growth only reflects attention.'
+- id: req-full-awesome-claude-video-skills-2026-10-10
+  project_slug: awesome-claude-video-skills
+  level: full
+  reviewed_at: '2026-10-10T02:28:30Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决视频制作者挑选可用编码代理技能包的筛选负担，但公开材料只有清单自述与仓库收藏数，没有用户抱怨、旧流程耗时或不采用代价；清单只做分类与安全标注，不执行渲染，属于可看可不看的聚合页，价值刚性不足。
+    evidence_ids:
+    - ev-5ca87b33ed54e4b5
+    - ev-641973435fea2b12
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该清单站点是否出现具体技能包的实测输出样例、用户评价或付费/赞助入口，以核验其是否被真正用于成片交付。
+  market: ''
+  job: 视频剪辑师或短视频运营在需要批量产出成片时，打开这份清单挑选一个技能包装进 Claude Code、Codex 等编码代理，由代理读取素材并调用工具渲染视频。
+  job_en: A video editor or short-video operator producing clips at volume opens this list, picks a skill
+    package to install into Claude Code, Codex or another coding agent, and lets the agent read assets
+    and call tools to render video.
+  pain: 公开材料只说明清单按类型收录 180 个仓库并做安全分级，没有用户抱怨、旧流程耗时或返工代价的证据；剪辑软件逐条拼接的负担是行业常识，不是该项目被引用的公开事实。
+  pain_en: Public materials only state that the list catalogs 180 repos by type with security grading;
+    there is no cited user complaint, time cost, or rework cost. The burden of manual timeline assembly
+    is industry common sense, not a public fact tied to this project.
+  current_alternative: 公开材料未说明用户现在如何完成视频制作，也未说明这份清单替代了搜索 公开代码仓库、逐个试用技能包还是剪辑软件本身。
+  current_alternative_en: Public materials do not show how users currently produce video, nor whether
+    this list replaces searching public code repository, trialing skill packages one by one, or editing
+    software itself.
+  usage_reason: 推断：清单本身只做分类与安全标注，不执行渲染，用户仍需自行挑选、安装并调试技能包，相较直接搜索 公开代码仓库 只省去筛选这一步，缺少用户反馈或案例支持其被长期留在工作流中。
+  usage_reason_en: 'Inference: the list only categorizes and security-grades repos; it does not render
+    anything, so users still pick, install and debug skill packages themselves. Versus searching public
+    code repository directly it only removes the filtering step, and no user feedback or case supports
+    sustained use.'

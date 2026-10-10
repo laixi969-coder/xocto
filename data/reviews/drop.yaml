@@ -1,0 +1,81 @@
+- id: req-initial-drop-2026-10-10
+  project_slug: drop
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决运行不可信代码时的隔离需求，痛点刚性且旧替代行为明确，交付为隔离环境中的执行结果。
+    evidence_ids:
+    - ev-01bf6ed309628e63
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，缺少用户评价或客户案例说明谁在持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方与收费方式只能推断，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺少部署文档与安全边界说明，无法核验隔离承诺能否确定性交付。
+    evidence_ids:
+    - ev-01bf6ed309628e63
+  next_validation: 收集 Drop 官方仓库或文档中关于 gVisor 隔离边界与部署方式的说明，以核验其安全交付承诺。
+  market: ''
+  job: 开发者在需要运行来源不可信或由模型生成的代码时，把待执行程序放进隔离环境跑一遍，确认它不会影响本机或生产系统。
+  job_en: When developers need to run untrusted or model-generated code, they execute it inside an isolated
+    environment to confirm it cannot affect their machine or production systems.
+  pain: 直接在本地或生产环境运行不可信代码可能造成数据泄露、依赖污染或系统被破坏，而自建隔离环境需要额外的容器与权限配置成本。
+  pain_en: Running untrusted code directly on a local or production machine risks data leakage, dependency
+    contamination or system damage, while building isolation yourself carries extra container and permission
+    configuration cost.
+  current_alternative: 开发者目前多用本地容器、虚拟机或云厂商的沙箱服务来隔离执行，需要自行配置权限与网络策略。
+  current_alternative_en: Developers currently rely on local containers, virtual machines or cloud sandbox
+    services for isolated execution, configuring permissions and network policies themselves.
+  usage_reason: 推断：相较自行搭建容器或虚拟机，它把无 root 权限与 gVisor 隔离打包成可直接调用的执行环境，省去权限与内核隔离的配置步骤，因此需要频繁试跑外部代码的开发者会优先选用。
+  usage_reason_en: 'Inference: compared with self-built containers or VMs, it packages rootless execution
+    and gVisor isolation into a directly callable environment, removing permission and kernel-isolation
+    setup, so developers who frequently trial external code would prefer it.'
+- id: req-full-drop-2026-10-10
+  project_slug: drop
+  level: full
+  reviewed_at: '2026-10-10T02:29:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向 Dropbox 登录页、Corsair 旗下 Drop 键盘社区与通用 AI 介绍页，没有一条可归因到该沙箱产品，无法写出它解决什么需求与痛点。
+    evidence_ids:
+    - ev-ace92bf83268cb05
+    - ev-a23a9221b241c5bd
+    - ev-1996f299d051bf2c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索该沙箱产品的官方仓库或文档，确认其 gVisor 隔离边界、部署方式与可复现执行结果，以核验产品身份与交付承诺。
+  market: ''
+  job: 待核验：公开材料未给出可归因到该产品的说明，无法确认谁在什么情况下把哪类不可信代码交给它执行并取回结果。
+  job_en: 'To be verified: public materials contain no product-attributable description, so it is impossible
+    to confirm who hands which untrusted code to it and retrieves results.'
+  pain: 待核验：没有可归因到该产品的公开材料说明运行不可信代码时的具体痛点、频率或不采用代价。
+  pain_en: 'To be verified: no product-attributable public material describes the specific pain, frequency
+    or cost of not adopting when running untrusted code.'
+  current_alternative: 待核验：公开材料未显示该产品对应的旧替代做法，无法确认用户现在如何绕过。
+  current_alternative_en: 'To be verified: public materials show no legacy alternative for this product,
+    so it is unclear how users currently work around the problem.'
+  usage_reason: 待核验：现有证据全部指向 Dropbox、Corsair 旗下 Drop 键盘社区或通用 AI 介绍页，没有一条能说明用户为何选择该沙箱产品。
+  usage_reason_en: 'To be verified: all evidence points to Dropbox, Corsair''s Drop keyboard community,
+    or generic AI explainer pages; none explains why a user would choose this sandbox product.'

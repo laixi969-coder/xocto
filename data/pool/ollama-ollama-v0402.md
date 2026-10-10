@@ -1,11 +1,14 @@
 ---
 slug: ollama-ollama-v0402
-name: 'ollama/ollama: v0.40.2'
+name: Ollama
 builder: ollama
 category: ''
-summary_zh: ''
+summary_zh: Ollama 是本地运行开源大模型的工具，开发者在自己机器上拉取并运行模型。本次 v0.40.2 把旧版本下载的模型在首次运行时后台升级为 llama.cpp 运行格式，并保留原文件作为回退备份，同时修复列表重复与上下文长度问题。
 inspiration: ''
-summary_en: ''
+summary_en: Ollama is a tool for running open-source large models locally, letting developers pull and
+  run models on their own machines. Release v0.40.2 upgrades models downloaded by earlier versions to
+  the llama.cpp runner in the background on first run, keeps the original files as a rollback backup,
+  and fixes duplicate listing and context-length issues.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -35,7 +38,7 @@ summary: "## Model upgrades\r\n\r\nModels downloaded with earlier versions of Ol
   \n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.1...v0.40.2-rc0"
 first_seen: '2026-10-10T01:46:04Z'
 last_seen: '2026-10-10T01:46:04Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -47,7 +50,7 @@ sightings:
   kind: news
 ---
 
-# ollama/ollama: v0.40.2
+# Ollama
 
 ## Model upgrades
 

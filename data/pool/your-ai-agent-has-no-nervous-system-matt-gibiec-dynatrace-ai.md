@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVMDUxM3NUd2RQ
 summary: Your AI Agent Has No Nervous System — Matt Gibiec, Dynatrace｜AI Engineer finance.biggo.com
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

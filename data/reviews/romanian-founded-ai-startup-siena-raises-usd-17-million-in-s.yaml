@@ -1,0 +1,80 @@
+- id: req-initial-romanian-founded-ai-startup-siena-raises-usd-17-million-in-s-2026-10-10
+  project_slug: romanian-founded-ai-startup-siena-raises-usd-17-million-in-s
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有融资事实，未说明它解决什么用户任务与痛点，无法判断价值。
+    evidence_ids:
+    - ev-65ff78c18b876766
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺少场景与采用证据。
+    evidence_ids:
+    - ev-65ff78c18b876766
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-65ff78c18b876766
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与安全边界。
+    evidence_ids:
+    - ev-65ff78c18b876766
+  next_validation: 检索 Siena 官方产品页或客户案例，确认其目标用户与交付形态。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法还原谁在什么情况下处理什么材料。
+  job_en: Public material does not identify the specific user or workflow step, so it is impossible to
+    reconstruct who handles what material under what circumstances.
+  pain: 公开材料未披露具体痛点，无法判断问题是否刚性。
+  pain_en: No specific pain point is disclosed, so it is impossible to judge whether the problem is acute.
+  current_alternative: 公开材料未说明现有替代方式，旧流程仍待核验。
+  current_alternative_en: No current alternative is described; the prior workflow remains unverified.
+  usage_reason: 缺少产品功能与使用场景的公开信息，无法说明相较旧做法减少了哪一步负担。
+  usage_reason_en: With no public information on product features or usage scenario, it is impossible
+    to explain which step of the old workflow it reduces.
+- id: req-full-romanian-founded-ai-startup-siena-raises-usd-17-million-in-s-2026-10-10
+  project_slug: romanian-founded-ai-startup-siena-raises-usd-17-million-in-s
+  level: full
+  reviewed_at: '2026-10-10T02:32:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有 Siena 完成 1700 万美元 A 轮融资这一事实，未说明它解决什么用户任务、痛点是否刚性、交付什么结果，连需求与痛点都无法写出，故价值关无法成立。
+    evidence_ids:
+    - ev-f51db6c89711f858
+    - ev-603a56cd059985d0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Siena 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 公开材料只说明 Siena 是罗马尼亚创立的 AI 初创公司并完成 1700 万美元 A 轮融资，未披露谁在什么情况下处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public material only states that Siena is a Romanian-founded AI startup that closed a USD 17M
+    Series A; it does not disclose who handles what material under what circumstances or what task is
+    to be completed, so no concrete usage scenario can be reconstructed.
+  pain: 公开材料未披露任何用户痛点或旧流程中的具体摩擦，无法判断问题是否刚性。
+  pain_en: No user pain point or specific friction in the prior workflow is disclosed, so the rigidity
+    of the problem cannot be judged.
+  current_alternative: 公开材料未说明用户当前用什么方式替代，旧做法仍无法还原。
+  current_alternative_en: Public material does not describe what users currently use instead, so the prior
+    approach cannot be reconstructed.
+  usage_reason: 缺少产品功能、输入材料与交付结果的公开信息，无法解释相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: With no public information on product features, input material, or delivered output,
+    it is impossible to explain which step of the old workflow it reduces or which users would choose
+    it under what circumstances.

@@ -76,3 +76,54 @@
   usage_reason: 用户要完成的任务是：开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers Public materials do not yet explain why users choose this
     product over their existing approach.'
+- id: req-full-rustdsh-2026-10-10
+  project_slug: rustdsh
+  level: full
+  reviewed_at: '2026-10-10T02:32:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在本地运行 DSH 时启动慢、agent 工具调用缺少约束、从 Claude Code/Codex 迁移配置繁琐的需求；README 明确原生快速命令、受约束工具与迁移路径，痛点刚性来自本地
+      agent 工作流的启动与安全边界，交付形态为命令行加本地面板，属工作流结构推理。
+    evidence_ids:
+    - ev-a5712c307125e07d
+    - ev-360fba0cc93c16a3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 61 增至 67，说明有开发者关注并收藏，但公开材料没有 issue、discussion 或用户评价说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-a5712c307125e07d
+    - ev-360fba0cc93c16a3
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、赞助、付费支持或企业采购记录，钱可能来自 to C 开发者捐赠或 to B 支持服务，但均属判断而非已验证事实。
+    evidence_ids:
+    - ev-a5712c307125e07d
+    - ev-360fba0cc93c16a3
+  - gate: truth
+    status: insufficient
+    reason: README 承诺快速命令与受约束工具，但公开材料未给出可复现的启动耗时对比、工具约束的具体规则，以及人工确认与安全边界如何落地，交付确定性尚缺公开验证。
+    evidence_ids:
+    - ev-360fba0cc93c16a3
+  next_validation: 追踪 rustdsh 仓库的 issue 与 discussion，确认开发者实际部署场景、替代的旧流程，以及受约束 agent 工具与人工确认边界的具体反馈。
+  market: ''
+  job: 开发者在本地项目目录中运行 DeepSeek Harness（DSH）时，打开这个 Rust 启动器，用命令行下发指令，由受约束的 agent 工具执行，并在本地项目面板查看执行结果。
+  job_en: A developer working in a local project directory launches this Rust launcher for DeepSeek Harness
+    (DSH), issues commands from the CLI, has guarded agent tools execute them, and reviews results in
+    a local project dashboard.
+  pain: 公开 README 显示它主打原生快速命令、受约束的 agent 工具与从 Claude Code/Codex 迁移的清晰路径，说明痛点是现有 agent 启动器启动慢、工具调用缺少约束、迁移配置繁琐；但公开材料未给出频率与不采用的具体代价，属结构推理。
+  pain_en: The README highlights native fast commands, guarded agent tools, and a clear Claude Code/Codex
+    migration path, implying pain from slow launchers, unguarded tool calls, and tedious migration setup;
+    frequency and cost of not adopting are not publicly documented, so this is structural inference.
+  current_alternative: 公开材料指向 Claude Code、Codex 等既有 agent 命令行工具，以及直接运行 DSH 的默认方式；用户目前用这些工具完成同类本地 agent
+    任务。
+  current_alternative_en: Public materials point to existing agent CLIs such as Claude Code and Codex,
+    plus running DSH directly; users currently complete similar local agent tasks with those tools.
+  usage_reason: 推断：相较直接运行 DSH 或沿用 Claude Code/Codex，它用 Rust 实现的原生快速命令减少启动等待，用受约束的 agent 工具限制越权调用，并提供明确的迁移与模型配置步骤，因此在意启动速度与工具安全边界的本地开发者会在切换或首次配置
+    DSH 时选择它。
+  usage_reason_en: 'Inference: versus running DSH directly or staying on Claude Code/Codex, its Rust-native
+    fast commands cut startup waiting, guarded agent tools limit unguarded calls, and it offers explicit
+    migration and model setup steps, so local developers who care about startup speed and tool safety
+    boundaries would pick it when switching to or first configuring DSH.'

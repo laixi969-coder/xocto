@@ -21,7 +21,7 @@ canonical_url: https://hangul.ink/blog/hangul-day
 summary: Happy Hangul Day! An RNN for Generating Korean Handwriting Strokes
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

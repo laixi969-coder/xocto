@@ -1,0 +1,92 @@
+- id: req-initial-zcode-2-2026-10-10
+  project_slug: zcode-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨文件代码改动与验证耗时的问题，旧流程是编辑器补全加手动跑测试，痛点刚性且可核对交付结果。
+    evidence_ids:
+    - ev-9752dd62ddd782ef
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有较高关注度，但缺少用户反馈或团队采用案例说明它已进入日常开发流程。
+    evidence_ids:
+    - ev-9752dd62ddd782ef
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露商业定价，买方可能是企业团队或云服务方，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9752dd62ddd782ef
+  - gate: truth
+    status: insufficient
+    reason: 代理改动代码的权限边界、人工确认环节与出错回滚机制在公开材料中未说明。
+    evidence_ids:
+    - ev-9752dd62ddd782ef
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者实际使用中的权限边界、失败处理与人工确认流程。
+  market: ''
+  job: 开发者在本地或企业代码库中，把一项修改任务交给编码代理，需要它读取仓库、改动代码并运行测试，最终得到可提交的改动。
+  job_en: A developer hands a change task to a coding agent inside a local or enterprise repository, needing
+    it to read the repo, edit code and run tests, ending with committable changes.
+  pain: 跨文件改动、依赖梳理和回归验证占用大量时间，开发者需要在编辑器、终端和测试之间反复切换。
+  pain_en: Cross-file edits, dependency tracing and regression verification consume large amounts of time,
+    forcing developers to switch repeatedly between editor, terminal and tests.
+  current_alternative: 开发者目前用编辑器内置补全、命令行脚本或通用聊天助手复制粘贴代码，再手动运行测试。
+  current_alternative_en: Developers currently use in-editor completion, command-line scripts or a general
+    chat assistant to copy-paste code, then run tests manually.
+  usage_reason: 推断：它把读取仓库、改代码、跑验证串成一个可重复的代理流程，减少开发者在多个工具间搬运上下文和手动执行测试的步骤，因此需要批量跨文件改动的团队会优先试用；公开材料未显示留存或复购证据。
+  usage_reason_en: 'Inference: it chains repo reading, code editing and verification into one repeatable
+    agent flow, cutting the steps a developer spends moving context between tools and running tests by
+    hand, so teams facing bulk cross-file changes would try it first; the public material shows no retention
+    or repeat-purchase evidence.'
+- id: req-full-zcode-2-2026-10-10
+  project_slug: zcode-2
+  level: full
+  reviewed_at: '2026-10-10T02:33:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨文件代码改动与验证耗时的问题，旧流程是编辑器补全加手动跑测试，痛点刚性且交付结果可核对；这是基于产品说明与旧替代的工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-4924d13c2b3868b5
+    - ev-58c707b5caf52c00
+  - gate: consensus
+    status: insufficient
+    reason: 仓库与官网说明它提供桌面、浏览器与终端 Agent，但公开材料只有产品自述，缺少用户反馈或团队采用案例证明它已进入日常开发流程。
+    evidence_ids:
+    - ev-58c707b5caf52c00
+    - ev-22b1198e2580014a
+  - gate: model
+    status: insufficient
+    reason: 官网称价格与权益以 BigModel 订阅页为准，未披露具体定价；买方可能是订阅 GLM 的个人开发者或企业团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b0350c1f8ec8fb29
+    - ev-7df7ca8c8316385c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理改动代码的权限边界、人工确认环节与出错回滚机制，承诺能否确定性交付尚无法核对。
+    evidence_ids:
+    - ev-4924d13c2b3868b5
+    - ev-0c4a32be71c7ef03
+  next_validation: 追踪 zai-org/ZCode 仓库的 issue 与 discussion，确认开发者实际使用中的权限边界、失败处理与人工确认流程。
+  market: ''
+  job: 开发者在本地或企业代码库中，把一项跨文件修改任务交给编码代理，由代理读取仓库、改动代码并运行验证，最终产出可提交的代码改动。
+  job_en: A developer hands a cross-file change task to a coding agent inside a local or enterprise repository;
+    the agent reads the repo, edits code and runs verification, ending with committable changes.
+  pain: 跨文件改动、依赖梳理与回归验证占用大量时间，开发者需在编辑器、终端和测试之间反复切换；遗留系统理清与实时特性交付的上下文搬运成本高。
+  pain_en: Cross-file edits, dependency tracing and regression verification consume large amounts of time,
+    forcing repeated switching between editor, terminal and tests; context-shuttling between legacy-system
+    untangling and live feature delivery is costly.
+  current_alternative: 开发者目前用编辑器内置补全、命令行脚本或通用聊天助手复制粘贴代码，再手动运行测试与评审。
+  current_alternative_en: Developers currently use in-editor completion, command-line scripts or a general
+    chat assistant to copy-paste code, then run tests and reviews manually.
+  usage_reason: 推断：相较手动复制粘贴加逐条跑测试的旧做法，它把读取仓库、改代码、跑验证串成一条可重复的代理流程，并用 Goal 管理多步骤目标，减少开发者在工具间搬运上下文和手动执行验证的步骤，因此需要批量跨文件改动或理清遗留系统的团队会优先试用；公开材料未显示留存或复购证据。
+  usage_reason_en: 'Inference: versus manual copy-paste plus running tests one by one, it chains repo
+    reading, code editing and verification into one repeatable agent flow and manages multi-step goals
+    via Goal, cutting the steps spent shuttling context between tools and running verification by hand,
+    so teams facing bulk cross-file changes or legacy-system untangling would try it first; the public
+    material shows no retention or repeat-purchase evidence.'

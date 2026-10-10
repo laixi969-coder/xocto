@@ -1,0 +1,40 @@
+- id: req-initial-overclick-2026-10-10
+  project_slug: overclick
+  level: initial
+  reviewed_at: '2026-08-22T22:38:00Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知看板由代理执行任务，说不清代理替代哪一步旧工作、交付什么可核对产物，需求与痛点均未成形。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，仓库仅有少量关注度，没有用户评价或采用信号可判断共识卡在哪一环。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，开源自托管项目未披露任何收费路径或买方，无法判断钱从哪来。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，代理执行任务的验收标准、安全边界与人工确认环节均无材料可查。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认代理实际执行哪类任务、产出如何被验收，以及是否有团队公开使用记录。
+  market: ''
+  job: 研发团队在排期和跟踪任务时，把待办放进自托管看板，期望由 AI 代理接手执行；但材料未说明代理处理什么材料、产出什么、由谁验收。
+  job_en: Engineering teams schedule and track work by placing to-dos on a self-hosted board, expecting
+    AI agents to take over execution; the material does not say what the agent handles, what it produces
+    or who reviews it.
+  pain: 看板只能记录状态，任务仍要人来做，代理与看板之间的衔接通常靠手工搬运；候选资料没有给出用户抱怨或替代行为来证明这一痛点。
+  pain_en: A board only records status while humans still do the work, and connecting agents to the board
+    usually means manual shuttling; the candidate material offers no user complaint or workaround proving
+    this pain.
+  current_alternative: 公开材料未提及替代方式；结构上可能的旧做法是人工在看板上更新状态、用脚本或独立代理工具执行任务，均未被材料证实。
+  current_alternative_en: No alternative is mentioned; structurally the old way could be manually updating
+    board status or running tasks through scripts and standalone agent tools, none confirmed by the material.
+  usage_reason: 无法给出因果解释：材料没有说明它相较人工更新看板减少了哪一步负担，也没有可核对的结果或用户反馈，无法判断哪类团队会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    compared with manually updating a board, nor offers any checkable result or user feedback, so it is
+    unclear which teams would choose it and when.'

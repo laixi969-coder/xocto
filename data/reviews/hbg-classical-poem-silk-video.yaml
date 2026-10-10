@@ -1,0 +1,40 @@
+- id: req-initial-hbg-classical-poem-silk-video-2026-10-10
+  project_slug: hbg-classical-poem-silk-video
+  level: initial
+  reviewed_at: '2026-08-22T22:38:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决古诗词竖屏视频从诗句到成片的制作需求，痛点在于逐条手工找图配乐耗时且风格不统一，旧流程清晰，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 284 星、46 fork 说明有围观，但无用户评价或采用数据，尚不能判断创作者是否持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源 Skill，未见定价或收费方式；可能按成片条数向账号运营方收费，但这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 成片质检标准与人工确认环节未公开，画面与字幕是否匹配、能否稳定交付仍缺少可核对材料。
+    evidence_ids: []
+  next_validation: 收集该仓库 README 或 issue 中关于成片质检标准、失败案例与人工确认环节的说明。
+  market: ''
+  job: 短视频创作者或语文教师在制作古诗词竖屏视频时，需要把诗句转成画面、书法字幕、配乐并合成成片，用于账号更新或课堂播放。
+  job_en: Short-video creators or Chinese-literature teachers need to turn poem lines into imagery, calligraphy
+    captions and music, then assemble a finished vertical video for account updates or classroom playback.
+  pain: 这类视频有固定的审美与格式要求，逐条手工找图、配乐、加字幕耗时且风格难统一，通用生成工具又不懂诗词的分镜与书法排版。
+  pain_en: These videos have fixed aesthetic and format requirements; sourcing images, music and captions
+    by hand is slow and stylistically inconsistent, while general generators do not understand poem shot
+    structure or calligraphy layout.
+  current_alternative: 用剪映等剪辑软件手工拼素材，或分别使用图像生成、配音和字幕工具再人工合成。
+  current_alternative_en: Manually assembling assets in editors like CapCut, or using separate image-generation,
+    voice and caption tools and stitching the result by hand.
+  usage_reason: 推断：相较逐条手工找图配乐，这条流水线把画面生成、图生视频、书法字幕和配乐串成一次调用，减少的是素材搜集与合成这两步；面向需要稳定日更的国学类账号和语文教学场景，成片一致性比单张图质量更关键。公开材料未提供用户反馈或复购数据。
+  usage_reason_en: 'Inference: versus sourcing images and music per video, this pipeline chains still
+    generation, image-to-video, calligraphy captions and music into one call, cutting the asset-hunting
+    and assembly steps; for classics accounts needing steady daily output and literature teaching, cut-to-cut
+    consistency matters more than single-image quality. No user feedback or repeat-use data is provided.'

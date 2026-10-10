@@ -500,3 +500,59 @@
     and identity layer to forward inter-agent help requests, removing the step of configuring reachability
     and auth per agent, so developers already on Tailscale who need cross-host agent collaboration would
     pick it as agent count grows; actual adoption motive is not yet backed by user feedback.'
+- id: req-full-agent-tincan-2026-10-10
+  project_slug: agent-tincan
+  level: full
+  reviewed_at: '2026-10-10T02:27:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多 agent 跨机协作时无法互相调用的问题：agent 分散在不同机器和内网后没有稳定可达地址，逐个开端口或配反向代理既繁琐又扩大攻击面，不解决的后果是只能手工搬运上下文或放弃协作。公开说明已给出输入（agent
+      求助请求）、动作（经 Tailscale 转发）与交付（可自托管的 agent 间通道），据此可作工作流结构推理；但尚无用户反馈或案例佐证痛点强度，故为结构成立而非已验证。
+    evidence_ids:
+    - ev-070337c8c07d2c5f
+    - ev-da914a6afd6b2e32
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有仓库收藏数从 214 增至 275 的关注度变化，属于规模信号，不能证明目标用户已把它留在工作流里；缺少 issue、discussion 或部署案例说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-070337c8c07d2c5f
+    - ev-da914a6afd6b2e32
+  - gate: model
+    status: insufficient
+    reason: 项目为开源仓库，公开材料未见定价页、付费主体或采购路径，钱可能来自开发者自用、企业自托管支持或纯社区维护，这是判断而非已验证事实；开源不等于没有付费路径，但当前无法核验单位经济。
+    evidence_ids:
+    - ev-070337c8c07d2c5f
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只给出 Tailscale 转发这一层，未说明 agent 间请求的鉴权、人工确认环节与失败重试边界，交付能否稳定发生缺少可复现的部署文档或实测记录。
+    evidence_ids:
+    - ev-070337c8c07d2c5f
+    - ev-da914a6afd6b2e32
+  next_validation: 追踪 agent-tincan 仓库的 README、部署文档与 issue/discussion，确认是否有开发者公开描述实际部署拓扑、替代掉的旧做法以及鉴权与人工确认边界。
+  market: ''
+  job: 开发者在自建或混合部署多个 AI agent（部分跑在本地机器、部分跑在云主机或不同内网）时，需要让这些 agent 互相发起求助请求并拿到对方返回的结果，于是用 agent-tincan
+    把 agent 间的调用请求经由 Tailscale 网络转发到目标主机上的 agent。
+  job_en: Developers running multiple AI agents across self-hosted or hybrid machines (some local, some
+    on cloud hosts or separate private networks) need those agents to send help requests to each other
+    and receive results, so they use agent-tincan to forward agent-to-agent requests over a Tailscale
+    network to the agent on the target host.
+  pain: 多 agent 分散在不同机器和网络后，agent 之间无法直接互相调用：跨内网没有稳定可达地址，逐个开端口或配反向代理既繁琐又暴露攻击面，结果是开发者只能手工在机器之间搬运上下文，或干脆放弃让
+    agent 协作。
+  pain_en: 'Once agents are spread across machines and networks they cannot call each other directly:
+    there is no stable reachable address across private networks, and opening ports or configuring reverse
+    proxies per agent is tedious and expands the attack surface, so developers end up manually shuttling
+    context between machines or giving up on agent collaboration.'
+  current_alternative: 旧做法是手工在机器间复制粘贴上下文、用 SSH 隧道或自建反向代理暴露 agent 端口、把 agent 都塞进同一台机器或同一个内网，或直接放弃跨机协作。
+  current_alternative_en: The old approach is copying context between machines by hand, using SSH tunnels
+    or self-built reverse proxies to expose agent ports, cramming all agents onto one machine or one private
+    network, or simply abandoning cross-machine collaboration.
+  usage_reason: 推断：相较逐个配 SSH 隧道或反向代理，agent-tincan 复用 Tailscale 已有的设备身份与加密网络，让 agent 只需向同一网络内的目标 agent
+    发请求即可完成跨机调用，省掉为每个 agent 单独打通网络和暴露端口这一步；因此已经在用 Tailscale 管理多台机器、又想让 agent 互相调用的开发者，会在扩到第二台以上机器时选择它。
+  usage_reason_en: 'Inference: compared with configuring an SSH tunnel or reverse proxy per agent, agent-tincan
+    reuses Tailscale''s existing device identity and encrypted network so an agent only has to send a
+    request to a target agent on the same network, removing the step of punching a network path and exposing
+    a port for each agent; developers already managing several machines with Tailscale who want their
+    agents to call each other would therefore pick it once they scale past a second host.'

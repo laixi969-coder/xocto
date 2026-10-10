@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQXzQxY3hCZXFF
 summary: '苹果宣布10月13日举行“Welcome Home”发布会，聚焦智能家居AI中枢 ｜#AI资讯# #Apple# #智能家居# 搜狐网'
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

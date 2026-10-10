@@ -79,3 +79,52 @@
   usage_reason_en: 'The task is: Roblox developers or small studios inspecting and controlling a running
     client state while debugging a live experience Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-roblox-live-bridge-mcp-2026-10-10
+  project_slug: roblox-live-bridge-mcp
+  level: full
+  reviewed_at: '2026-10-10T02:32:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是线上 Roblox 客户端无法在 Studio 复现、只能靠日志猜测的问题；痛点在调试线上体验时刚性存在，不解决的后果是定位慢且不确定。公开仓库说明已能还原输入（运行中客户端）、动作（MCP
+      接入 AI 代理执行检查与控制）与交付（客户端状态与操作结果），属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-b52b2ab83938defe
+    - ev-a02c9b4f64390c59
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 70 个收藏，说明社区已注意到该项目，但收藏与关注属规模或关注度证据，不能证明目标开发者已把它留在日常调试工作流里；缺少 issue、discussion 或使用反馈说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-b52b2ab83938defe
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法判断钱来自 to C 开发者、to B 工作室还是 to VC；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-b52b2ab83938defe
+  - gate: truth
+    status: insufficient
+    reason: 把 AI 代理接到运行中客户端并执行控制动作，涉及权限、误操作与安全边界，公开材料尚未给出可复现的部署文档或边界说明，交付能否稳定发生仍缺证据。
+    evidence_ids:
+    - ev-b52b2ab83938defe
+    - ev-a02c9b4f64390c59
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认它实际接入的客户端方式、权限与安全边界，以及是否有开发者描述替代了原有调试流程。
+  market: ''
+  job: Roblox 开发者或小型工作室在调试线上体验时，需要查看运行中客户端的实时状态（对象、属性、脚本行为），并通过 AI 代理对客户端执行检查与控制动作，以定位线上才复现的问题。
+  job_en: Roblox developers or small studios debugging a live experience need to inspect a running client's
+    real-time state (objects, properties, script behavior) and drive inspection/control actions through
+    an AI agent to locate issues that only reproduce live.
+  pain: Roblox 线上客户端状态在 Studio 里无法完整复现，开发者通常只能靠日志、打印或反复重进服务器来猜问题；每次排查都要手动重连、重放操作，定位一次线上问题的成本高且结果不确定。
+  pain_en: A live Roblox client's state cannot be fully reproduced in Studio, so developers fall back
+    on logs, prints, or repeated server rejoins to guess at the problem; each investigation requires manual
+    reconnection and replay, making live-issue localization costly and uncertain.
+  current_alternative: 现有做法是 Roblox Studio 的本地调试、客户端日志/print 输出、开发者控制台，以及手动重进服务器复现；这些方式都拿不到线上运行客户端的实时可操作状态。
+  current_alternative_en: Today developers rely on local Roblox Studio debugging, client logs/prints,
+    the developer console, and manually rejoining servers to reproduce; none of these give an actionable
+    real-time view of a live running client.
+  usage_reason: 推断：相较日志与手动复现，该 MCP 把 AI 代理直接接到运行中的客户端，让开发者用自然语言发起检查与控制动作，省去手动重连、逐条加打印和重放操作的步骤，因此遇到只在线上复现的问题、又不想反复重进服务器的开发者会选它。
+  usage_reason_en: 'Inference: versus logs and manual reproduction, this MCP attaches an AI agent directly
+    to the running client so developers can issue inspection and control actions in natural language,
+    removing manual reconnection, ad-hoc print insertion, and action replay — so developers facing live-only
+    bugs who want to avoid repeated server rejoins would choose it.'

@@ -1,6 +1,6 @@
 ---
 slug: popular-ai-leaderboard-arena-nearly-doubles-valuation-to-31b-2
-name: Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months
+name: Arena
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcjh0eFByNTRI
 summary: Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months TechCrunch
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months
+# Arena
 
 Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months TechCrunch
 

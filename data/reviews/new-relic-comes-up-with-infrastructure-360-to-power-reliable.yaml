@@ -1,0 +1,86 @@
+- id: req-initial-new-relic-comes-up-with-infrastructure-360-to-power-reliable-2026-10-10
+  project_slug: new-relic-comes-up-with-infrastructure-360-to-power-reliable
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 推理上线后 GPU 与推理集群的排障和容量判断需求，痛点来自旧监控按主机切分、跨面板手工拼接；买方与定价未披露，属结构推理。
+    evidence_ids:
+    - ev-0bb25f618c347909
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，未见运维团队的评价、采用或替换旧监控的公开记录，强场景存在但共识证据缺失。
+    evidence_ids:
+    - ev-0bb25f618c347909
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费口径；按可观测性品类推断可能按主机、数据量或席位向 to B 收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0bb25f618c347909
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否覆盖推理链路的真实瓶颈、告警是否可确定性交付，也未见人工确认边界与安全说明。
+    evidence_ids:
+    - ev-0bb25f618c347909
+  next_validation: 收集 New Relic 官方 Infrastructure 360 产品页与定价页，确认其计费口径、覆盖的 AI 工作负载指标范围及是否公布客户案例。
+  market: ''
+  job: SRE 与平台工程师在 AI 推理服务上线后，面对 GPU 与推理集群的指标、日志和告警，需要定位性能与可靠性问题并完成容量与故障处置。
+  job_en: SREs and platform engineers, after AI inference services go live, work with GPU and inference-cluster
+    metrics, logs and alerts to diagnose reliability and performance issues and handle capacity and incidents.
+  pain: 推理服务的故障与成本波动同时出现在 GPU、网络和应用层，旧监控按主机和请求切分，排障要跨多个面板手工拼接，定位慢且容易漏掉容量拐点。
+  pain_en: Inference failures and cost swings appear across GPU, network and application layers at once,
+    while legacy monitoring is split by host and request, forcing manual cross-panel stitching that is
+    slow and misses capacity inflection points.
+  current_alternative: 现有替代是通用 APM 加自建 Prometheus/Grafana 面板，以及云厂商自带的 GPU 监控，团队靠值班手册和人工经验把几套数据拼起来。
+  current_alternative_en: The current alternative is general APM plus self-built Prometheus/Grafana dashboards
+    and cloud-vendor GPU monitoring, with teams stitching several data sets together through runbooks
+    and manual experience.
+  usage_reason: 推断：相较手工拼接多套面板，它把推理集群的指标、日志与告警放在同一处并围绕 AI 工作负载组织，减少排障时跨工具取数这一步，因此自建推理集群、值班压力大的平台团队会在故障与扩容决策时选择它。
+  usage_reason_en: 'Inference: versus manually stitching multiple dashboards, it places inference-cluster
+    metrics, logs and alerts in one place organised around AI workloads, removing the cross-tool data-gathering
+    step, so platform teams running their own clusters under on-call pressure would choose it for incident
+    and scaling decisions.'
+- id: req-full-new-relic-comes-up-with-infrastructure-360-to-power-reliable-2026-10-10
+  project_slug: new-relic-comes-up-with-infrastructure-360-to-power-reliable
+  level: full
+  reviewed_at: '2026-10-10T02:31:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据仅为新闻聚合页与通用 AI 介绍页，未包含该产品的功能说明、用户痛点或替代行为，无法还原它解决什么需求、痛点是否刚性，故价值关不成立。
+    evidence_ids:
+    - ev-732ed8a921df27a3
+    - ev-aa0867e7e898104e
+    - ev-29a3aae9f16c5a06
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 New Relic 官方 Infrastructure 360 产品页与定价页，确认其功能范围、计费口径及是否公布客户案例或部署文档。
+  market: ''
+  job: SRE 与平台工程师在 AI 推理服务上线后，面对 GPU 与推理集群的指标、日志和告警，需要定位性能与可靠性问题并完成容量与故障处置。
+  job_en: SREs and platform engineers, after AI inference services go live, work with GPU and inference-cluster
+    metrics, logs and alerts to diagnose reliability and performance issues and handle capacity and incidents.
+  pain: 公开材料未提供任何关于该产品用户痛点的可引用事实，无法确认推理排障中具体哪一步难受、频率多高、不解决会失去什么。
+  pain_en: The public material provides no citable fact about user pain for this product, so it is impossible
+    to confirm which step of inference troubleshooting hurts, how often, or what is lost if unsolved.
+  current_alternative: 公开材料未披露用户当前用什么替代方式完成 GPU 与推理集群的排障和容量判断。
+  current_alternative_en: The public material does not disclose what users currently use as an alternative
+    for GPU and inference-cluster troubleshooting and capacity decisions.
+  usage_reason: 公开材料未提供用户反馈或客户案例，无法说明用户为何选择它；现有证据均为新闻聚合页与通用 AI 介绍页，与产品使用无关。
+  usage_reason_en: The public material offers no user feedback or customer case, so it cannot explain
+    why users would choose it; existing evidence consists of news aggregator pages and generic AI explainers
+    unrelated to product usage.

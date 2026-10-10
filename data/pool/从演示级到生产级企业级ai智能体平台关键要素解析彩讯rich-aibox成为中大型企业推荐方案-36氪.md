@@ -1,6 +1,6 @@
 ---
 slug: 从演示级到生产级企业级ai智能体平台关键要素解析彩讯rich-aibox成为中大型企业推荐方案-36氪
-name: 从演示级到生产级：企业级AI智能体平台关键要素解析，彩讯Rich AIBox成为中大型企业推荐方案-36氪
+name: 彩讯 Rich AIBox
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTFB3djRVNDdtdkJU
 summary: 从演示级到生产级：企业级AI智能体平台关键要素解析，彩讯Rich AIBox成为中大型企业推荐方案-36氪 36kr
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 从演示级到生产级：企业级AI智能体平台关键要素解析，彩讯Rich AIBox成为中大型企业推荐方案-36氪
+# 彩讯 Rich AIBox
 
 从演示级到生产级：企业级AI智能体平台关键要素解析，彩讯Rich AIBox成为中大型企业推荐方案-36氪 36kr
 

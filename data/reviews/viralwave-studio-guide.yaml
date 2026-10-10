@@ -1,0 +1,83 @@
+- id: req-initial-viralwave-studio-guide-2026-10-10
+  project_slug: viralwave-studio-guide
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社媒批量出稿与语气一致的需求，痛点在于逐条手写和返工校对耗时，旧做法是通用助手加人工改写。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与一份使用指南，缺少真实用户评价或团队采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，付费路径只能推断为面向代运营团队或品牌的订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  - gate: truth
+    status: insufficient
+    reason: 审核工作流与人工边界在材料中只被提及，缺少可复现的交付结果或留存证据。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  next_validation: 收集 ViralWave Studio 官方定价页或公开客户案例，确认其审核流程与付费方式。
+  market: ''
+  job: 社媒运营者或代运营团队在每周排期前，处理品牌语气说明和选题素材，要产出成批符合调性的待发布帖子。
+  job_en: Social media operators or agencies, before weekly scheduling, work from brand-voice notes and
+    topic material to produce batches of on-brand posts ready to publish.
+  pain: 逐条手写帖子耗时且难以保持统一语气，外包写手又要反复返工校对。
+  pain_en: Writing each post by hand is slow and hard to keep tonally consistent, while freelance writers
+    require repeated rework and proofing.
+  current_alternative: 目前多用通用写作助手加人工改写，或直接雇写手，语气一致性靠人盯。
+  current_alternative_en: Today most use a general writing assistant plus manual rewriting, or hire writers,
+    keeping tone consistent by human supervision.
+  usage_reason: 推断：相较通用写作助手，它把品牌语气设定与审核流程固定下来，减少逐条重写和校对这一步，因此需要批量出稿又怕跑调的代运营团队会选它。
+  usage_reason_en: 'Inference: versus a general writing assistant, it fixes brand voice and a review step,
+    cutting per-post rewriting and proofing, so agencies needing batch output without tone drift would
+    choose it.'
+- id: req-full-viralwave-studio-guide-2026-10-10
+  project_slug: viralwave-studio-guide
+  level: full
+  reviewed_at: '2026-10-10T02:33:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决社媒批量出稿与语气一致的需求，但公开材料只有产品自述与一份指南，无用户抱怨、返工记录或采用行为，痛点刚性无法确认，属自嗨拼凑风险。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ViralWave Studio 官网是否公开定价页或客户案例，确认其审核流程与付费方式是否真实存在。
+  market: ''
+  job: 社媒运营者或代运营团队在每周排期前，处理品牌语气说明与选题素材，要产出成批符合调性的待发布帖子并进入审核流程。
+  job_en: Social media operators or agencies, before weekly scheduling, work from brand-voice notes and
+    topic material to produce batches of on-brand posts entering a review workflow.
+  pain: 逐条手写帖子耗时且难以保持统一语气，外包写手又要反复返工校对；但公开材料只有产品自述，没有用户抱怨、返工记录或采用反馈支撑这一痛点。
+  pain_en: Writing each post by hand is slow and hard to keep tonally consistent, and freelance writers
+    require repeated rework. Yet public material only offers the product's own description, with no user
+    complaints, rework records, or adoption feedback backing this pain.
+  current_alternative: 通用写作助手加人工改写，或直接雇写手，语气一致性靠人盯。
+  current_alternative_en: A general writing assistant plus manual rewriting, or hiring writers, keeping
+    tone consistent through human supervision.
+  usage_reason: 推断：相较通用写作助手，它把品牌语气设定与审核流程固定下来，减少逐条重写与校对这一步，因此需要批量出稿又怕跑调的代运营团队可能选择它；但现有证据只是一份产品指南与 43 个星标，无用户反馈或客户案例，无法确认有人真正采用。
+  usage_reason_en: 'Inference: versus a general writing assistant, it fixes brand voice and a review step,
+    cutting per-post rewriting and proofing, so agencies needing batch output without tone drift might
+    choose it. But evidence is only a product guide and 43 stars, with no user feedback or customer cases
+    confirming real adoption.'

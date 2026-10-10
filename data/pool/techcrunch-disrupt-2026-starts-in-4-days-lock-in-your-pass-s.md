@@ -24,7 +24,7 @@ summary: Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, i
   on a second pass of the same type.
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

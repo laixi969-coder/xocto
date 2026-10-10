@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/vcasagrande/viberace2026
 summary: Procedural 3D racing sim game vibe-coded with LLMs
 first_seen: '2026-10-10T01:46:27Z'
 last_seen: '2026-10-10T01:46:27Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

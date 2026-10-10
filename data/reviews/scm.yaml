@@ -90,3 +90,47 @@
     content directly, so a single description jumps to the matching file or timestamp and removes the
     watch-then-find step; this is inference from product capability and task structure, and public material
     shows no retention or repeat-use evidence yet.
+- id: req-full-scm-2026-10-10
+  project_slug: scm
+  level: full
+  reviewed_at: '2026-10-10T02:32:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向供应链管理概念与木工机械厂商 SCM Group，与 macOS 影像检索无关，无法写出该产品的用户任务、痛点与不解决后果，价值关不成立。
+    evidence_ids:
+    - ev-ca1f99b2778819de
+    - ev-55cff524e3ca9fd7
+    - ev-4ee106b3a87dc5c5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或仓库 README、issue 与 discussion，确认其支持的媒体格式、索引范围、准确率说明及是否有用户报告在实际剪辑流程中重复使用。
+  market: ''
+  job: 候选摘要称 macOS 用户把本地照片与视频文件夹交给 SCM 做 AI 索引，再用自然语言检索定位具体照片或视频帧；但证据链中没有任何一条来自该产品，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: The candidate summary says macOS users hand local photo and video folders to SCM for AI indexing
+    and then search by natural language to locate a specific photo or video frame; however, no evidence
+    item comes from this product, so who does what, with which material, and to what end cannot be confirmed.
+  pain: 公开证据只描述供应链管理概念与木工机械厂商 SCM Group，未出现任何关于影像素材检索痛点、检索耗时或漏检后果的事实，因此无法写出该产品对应的用户痛点。
+  pain_en: The public evidence only describes the supply-chain-management concept and the woodworking
+    machinery maker SCM Group; it contains no fact about media-search pain, search time, or missed-shot
+    consequences, so no user pain for this product can be stated.
+  current_alternative: 证据中没有该产品用户当前替代方式的信息；摘要提到的系统相册元数据搜索、手工打标或逐条回看均无引用支撑，不能作为事实写入。
+  current_alternative_en: The evidence contains no information on how this product's users currently work
+    around the problem; the metadata search, manual tagging, or clip scrubbing mentioned in the summary
+    has no citation and cannot be stated as fact.
+  usage_reason: 由于证据全部指向供应链管理与木工机械，无法说明该产品相较任何旧做法减少了哪一步负担或改善哪项可核对结果，因此无法给出用户选择它的因果解释。
+  usage_reason_en: Because all evidence points to supply chain management and woodworking machinery, there
+    is no way to explain which step this product removes or which checkable result it improves versus
+    any prior practice, so no causal reason for choosing it can be given.

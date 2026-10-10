@@ -1,0 +1,89 @@
+- id: req-initial-sorted-2026-10-10
+  project_slug: sorted
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地文件堆积后归类与找回的问题，痛点来自手动整理耗时且拖延后更难找，旧做法是 Finder 手动建文件夹，结构上成立。
+    evidence_ids:
+    - ev-30715d95dec3ecee
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品简介，没有用户评价、下载量或采用数据，无法判断是否有人真的用它替代手动整理。
+    evidence_ids:
+    - ev-30715d95dec3ecee
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是订阅还是买断不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-30715d95dec3ecee
+  - gate: truth
+    status: insufficient
+    reason: 自动归类是否可撤销、误分类如何处理、隐私承诺如何落实，公开材料均未说明。
+    evidence_ids:
+    - ev-30715d95dec3ecee
+  next_validation: 收集该产品的官方定价页与隐私说明，确认收费方式、支持的文件类型以及归类是否可撤销。
+  market: ''
+  job: Mac 用户在下载与拍摄文件堆积、桌面和下载目录混乱时，需要把文件归到可找的位置，于是让 Sorted 读取文件内容并自动分类，最终得到整理后的文件夹结构。
+  job_en: When downloads and captured files pile up and the desktop and download folders get messy, a
+    Mac user needs files placed where they can be found, so Sorted reads the content and auto-categorizes
+    it, yielding a tidied folder structure.
+  pain: 手动建文件夹、逐个改名归类耗时，拖着不整理则之后找文件更慢，重复下载和重复文件也随之增加。
+  pain_en: Building folders and renaming files by hand takes time; putting it off makes later retrieval
+    slower and breeds duplicate downloads and files.
+  current_alternative: 现在靠 Finder 手动建文件夹、按名称或日期排序，或用系统自带的智能文件夹和第三方清理工具。
+  current_alternative_en: Today people build folders in Finder by hand, sort by name or date, or use built-in
+    smart folders and third-party cleanup tools.
+  usage_reason: 推断：相较手动建文件夹和改名，它直接读文件内容决定归属，省掉逐个判断放哪一步，因此文件量大且命名混乱的 Mac 用户会选它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus building folders and renaming by hand, it reads file content to
+    decide placement, removing the per-file judgment step, so Mac users with large, badly named libraries
+    would pick it; no retention or repeat-use evidence yet.'
+- id: req-full-sorted-2026-10-10
+  project_slug: sorted
+  level: full
+  reviewed_at: '2026-10-10T02:32:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地文件堆积后归类与找回的需求，痛点是手动建文件夹改名耗时、拖延后更难找，旧做法是 Finder 手动整理，交付为整理后的文件夹结构，结构上成立；但仅一句简介，属工作流推理。
+    evidence_ids:
+    - ev-30715d95dec3ecee
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品简介，没有用户评价、下载量、收藏或采用数据，无法判断是否真有人用它替代手动整理，也无法判断强场景是否已被验证。
+    evidence_ids:
+    - ev-30715d95dec3ecee
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是订阅、买断还是免费增值不明；按产品形态推断可能面向 Mac 个人用户 to C 收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-30715d95dec3ecee
+  - gate: truth
+    status: insufficient
+    reason: 自动归类是否可撤销、误分类如何处理、隐私承诺如何落实、支持哪些文件类型，公开材料均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-30715d95dec3ecee
+  next_validation: 追踪 Sorted 的官方定价页与隐私/部署说明，确认收费方式、支持的文件类型以及归类是否可撤销。
+  market: ''
+  job: Mac 用户在下载、截图与拍摄文件持续堆积、桌面和下载目录混乱时，需要把本地文件归到日后能找回的位置，于是让 Sorted 读取文件内容并自动分类，最终得到整理后的文件夹结构。
+  job_en: When downloads, screenshots and captured files keep piling up and the desktop and Downloads
+    folder get messy, a Mac user needs local files placed where they can be found later, so Sorted reads
+    file content and auto-categorizes them, yielding a tidied folder structure.
+  pain: 手动建文件夹、逐个改名归类耗时，拖着不整理则之后找文件更慢，重复下载与重复文件随之增加；公开材料只有一句产品简介，未提供用户抱怨或采用数据，痛点强度属工作流结构推理。
+  pain_en: Building folders and renaming files by hand takes time; putting it off makes later retrieval
+    slower and breeds duplicate downloads and files. Public material is only a one-line product description
+    with no user complaints or adoption data, so pain intensity is a workflow-structure inference.
+  current_alternative: 现在靠 Finder 手动建文件夹、按名称或日期排序，或用系统智能文件夹与第三方清理工具；这些旧做法都需要用户自己判断每个文件放哪。
+  current_alternative_en: Today people build folders in Finder by hand, sort by name or date, or use built-in
+    smart folders and third-party cleanup tools; all of these still require the user to decide where each
+    file goes.
+  usage_reason: 推断：相较手动建文件夹和逐个改名，它直接读文件内容决定归属，省掉逐文件判断放哪这一步，因此文件量大、命名混乱的 Mac 用户会在整理积压时选择它；尚无留存或复购证据，不能声称已长期留在工作流里。
+  usage_reason_en: 'Inference: versus building folders and renaming files one by one, it reads file content
+    to decide placement, removing the per-file judgment step, so Mac users with large, badly named libraries
+    would pick it when clearing a backlog; there is no retention or repeat-use evidence, so it cannot
+    be claimed as a long-term part of the workflow.'

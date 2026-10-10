@@ -1,11 +1,12 @@
 ---
 slug: amazon-unveils-new-alexa-tablets-with-alexa-and-google-play
-name: Amazon unveils new Alexa tablets with Alexa+ and Google Play Store access
+name: Alexa+
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 亚马逊把 Alexa+ 预装进新款平板并开放 Google Play，属于既有助手在硬件与生态层面的分发变化，而非新的独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: Amazon is preloading Alexa+ onto new tablets and opening Google Play access, a distribution
+  and ecosystem change for an existing assistant rather than a new standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUnN1N2xvTVBr
 summary: Amazon unveils new Alexa tablets with Alexa+ and Google Play Store access TechCrunch
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Amazon unveils new Alexa tablets with Alexa+ and Google Play Store access
+# Alexa+
 
 Amazon unveils new Alexa tablets with Alexa+ and Google Play Store access TechCrunch
 

@@ -1,6 +1,6 @@
 ---
 slug: 从研发到运营曹操出行探索中国robotaxi头部企业商业化路径
-name: 从研发到运营，曹操出行探索中国Robotaxi头部企业商业化路径
+name: 曹操出行
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWS2wwZDJmOUhD
 summary: 从研发到运营，曹操出行探索中国Robotaxi头部企业商业化路径 汽车之家
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 从研发到运营，曹操出行探索中国Robotaxi头部企业商业化路径
+# 曹操出行
 
 从研发到运营，曹操出行探索中国Robotaxi头部企业商业化路径 汽车之家
 

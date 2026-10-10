@@ -1,0 +1,90 @@
+- id: req-initial-ai评测榜单arena宣布融资2亿美元估值31亿美元lightspeed领投-salesforce-人类-会话-乐天-投-2026-10-10
+  project_slug: ai评测榜单arena宣布融资2亿美元估值31亿美元lightspeed领投-salesforce-人类-会话-乐天-投
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型选型缺少中立可引用对比依据的问题，痛点在于厂商自评不可比、采购决策失据；买方与付费方式尚不清楚。
+    evidence_ids:
+    - ev-54ab2bfc8b44660c
+  - gate: consensus
+    status: insufficient
+    reason: 融资与估值说明资本关注，但未见企业采购或持续引用该榜单的公开证据，关注度不等于采用。
+    evidence_ids:
+    - ev-54ab2bfc8b44660c
+  - gate: model
+    status: insufficient
+    reason: 报道只给出融资与估值，未披露定价或收入方式，to B 订阅还是数据授权无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-54ab2bfc8b44660c
+  - gate: truth
+    status: insufficient
+    reason: 人类投票榜单易受刷票与样本偏差影响，公开材料未说明防刷与统计口径，交付可信度待核验。
+    evidence_ids:
+    - ev-54ab2bfc8b44660c
+  next_validation: 收集 Arena 官方评测方法说明或公开使用数据，核验其样本来源、防刷机制与统计口径。
+  market: ''
+  job: 模型团队与选型负责人在评估或采购模型时，处理多模型对比与人工偏好数据，完成可对外引用的模型能力排序与选型依据。
+  job_en: Model teams and selection owners handle multi-model comparisons and human preference data during
+    evaluation or procurement, producing citable model capability rankings and selection evidence.
+  pain: 模型迭代快、厂商自评不可比，选型方缺少中立可引用的对比依据，采购与上线决策容易失据。
+  pain_en: Models iterate fast and vendor self-reports are not comparable, so buyers lack neutral, citable
+    comparisons and procurement or launch decisions rest on weak ground.
+  current_alternative: 旧做法是自行跑内部测试、看厂商基准分数或依赖零散社区讨论，成本高且口径不一致。
+  current_alternative_en: The old way is running internal tests, reading vendor benchmark scores or relying
+    on scattered community discussion, which is costly and inconsistent in methodology.
+  usage_reason: 推断：若榜单以真实人类会话投票形成可引用的排序，选型方在写评估材料时可直接引用同一口径的对比结果，省去自建评测集与对齐口径的步骤；但公开材料未展示其样本与统计方法，这一因果仍待核验。
+  usage_reason_en: 'Inference: if the leaderboard forms citable rankings from real human conversation
+    votes, selection owners can cite comparisons on one consistent basis when writing evaluations, skipping
+    the step of building test sets and aligning methodology; the public material does not show its sampling
+    or statistics, so this causal link still needs verification.'
+- id: req-full-ai评测榜单arena宣布融资2亿美元估值31亿美元lightspeed领投-salesforce-人类-会话-乐天-投-2026-10-10
+  project_slug: ai评测榜单arena宣布融资2亿美元估值31亿美元lightspeed领投-salesforce-人类-会话-乐天-投
+  level: full
+  reviewed_at: '2026-10-10T02:28:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型选型缺少中立可引用对比依据的需求，痛点是厂商自评不可比、采购决策失据；Arena 以人类会话投票与真实 agent 会话形成公开榜单，交付可确定，但样本与统计口径未公开，属工作流结构推理。
+    evidence_ids:
+    - ev-b401162a985cca9c
+    - ev-09614cffa13454e2
+  - gate: consensus
+    status: insufficient
+    reason: 官网显示以社区投票形成公开榜单，并有 150 万+ 真实 agent 会话，说明存在参与行为；但未见企业采购或持续引用该榜单的公开证据，关注度不等于采用。
+    evidence_ids:
+    - ev-b401162a985cca9c
+    - ev-09614cffa13454e2
+  - gate: model
+    status: insufficient
+    reason: 公开材料只呈现榜单与投票机制，未披露定价或收入方式，to B 订阅、数据授权还是 to VC 无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b401162a985cca9c
+  - gate: truth
+    status: insufficient
+    reason: 人类投票榜单易受刷票与样本偏差影响，公开材料未说明防刷机制与统计口径，交付可信度与人工边界仍待核验。
+    evidence_ids:
+    - ev-b401162a985cca9c
+    - ev-09614cffa13454e2
+  next_validation: 追踪 Arena 官网的评测方法说明或公开使用数据，核验其样本来源、防刷机制与统计口径。
+  market: ''
+  job: 模型团队与选型负责人在评估或采购模型时，处理多模型对比与人工偏好数据，完成可对外引用的模型能力排序与选型依据。
+  job_en: Model teams and selection owners, when evaluating or procuring models, handle multi-model comparisons
+    and human preference data to produce citable model capability rankings and selection evidence.
+  pain: 模型迭代快、厂商自评口径不可比，选型方缺少中立可引用的对比依据，采购与上线决策容易失据；公开材料未展示样本来源与统计口径，痛点强度只能作结构推理。
+  pain_en: Models iterate fast and vendor self-reports are not comparable, so buyers lack neutral citable
+    comparisons and procurement or launch decisions rest on weak ground; public material does not show
+    sampling or statistical methodology, so pain intensity is structural inference.
+  current_alternative: 旧做法是自行跑内部测试、看厂商基准分数或依赖零散社区讨论，成本高且口径不一致。
+  current_alternative_en: The old way is running internal tests, reading vendor benchmark scores, or relying
+    on scattered community discussion, which is costly and inconsistent in methodology.
+  usage_reason: 推断：Arena 以真实人类会话投票与 150 万+ 真实 agent 会话形成公开榜单，选型方在写评估材料时可直接引用同一口径的对比结果，省去自建评测集与对齐口径的步骤；但公开材料未展示防刷与统计方法，该因果仍属结构推理。
+  usage_reason_en: 'Inference: Arena forms public rankings from real human conversation votes and 1.5M+
+    real-world agent sessions, so selection owners can cite comparisons on one consistent basis when writing
+    evaluations, skipping the step of building test sets and aligning methodology; public material does
+    not show anti-gaming or statistical methods, so this causal link remains structural inference.'

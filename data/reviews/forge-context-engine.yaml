@@ -75,3 +75,43 @@
   usage_reason: 用户要完成的任务是：Roblox 游戏脚本与场景代码编写；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Writing Roblox game scripts and scene code Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-forge-context-engine-2026-10-10
+  project_slug: forge-context-engine
+  level: full
+  reviewed_at: '2026-10-10T02:30:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅有一句“Roblox Studio 的 AI 工作流”定位，未说明开发者具体卡在哪一步、不解决的后果与当前替代方式，连需求与痛点都无法从公开事实还原，价值结构不成立。
+    evidence_ids:
+    - ev-fee2ed2da9d0299d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否披露具体接入方式、产出交付与人工确认环节，以还原它替代的旧流程。
+  market: ''
+  job: Roblox 开发者在自己的 Roblox Studio 项目里，让 Claude Code 读取项目上下文，用于编写或修改游戏脚本与场景代码。
+  job_en: Roblox developers working in their own Roblox Studio project let Claude Code read project context
+    to write or modify game scripts and scene code.
+  pain: 公开材料只有一句“Roblox Studio 的 AI 工作流”定位，未说明开发者当前在脚本编写中具体卡在哪一步、不解决会造成什么后果，因此痛点无法从公开事实还原。
+  pain_en: Public material offers only the one-line positioning 'Roblox Studio AI workflow' and does not
+    state which step of script authoring developers are stuck on or what happens if it is unsolved, so
+    the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未说明开发者目前如何完成 Roblox 脚本编写，也未说明它替代了手工写 Luau、Studio 内置助手还是其他 AI 工具。
+  current_alternative_en: Public material does not show how developers currently author Roblox scripts,
+    nor whether it replaces hand-written Luau, Studio's built-in assistant, or other AI tools.
+  usage_reason: 公开材料未给出接入方式、产出交付或人工确认环节，无法解释相较旧做法减少了哪一步负担，因此无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: Public material gives no integration method, deliverable, or human confirmation step,
+    so it cannot explain which step of the old workflow is reduced or which users would choose it under
+    what circumstances.

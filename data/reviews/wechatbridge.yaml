@@ -426,3 +426,49 @@
     delivery into one step, removing copy, paste and format-cleanup work, so content creators or researchers
     who turn conversations into material would choose it during organizing; public material shows no retention
     or repeat-use evidence yet.'
+- id: req-full-wechatbridge-2026-10-10
+  project_slug: wechatbridge
+  level: full
+  reviewed_at: '2026-10-10T02:33:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决微信聊天记录难以取出并进入笔记与 AI 工作流的问题，旧做法是手工复制粘贴或截图，痛点具体且可核对；这是基于产品说明与旧流程的结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-60f09fc5692e101d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 1041 增至 1236，说明有开发者关注，但公开材料没有用户评价、案例或场景描述，无法判断谁在什么情况下持续使用。
+    evidence_ids:
+    - ev-60f09fc5692e101d
+    - ev-500d5166989debca
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价页、付费方式或商业路径，买方是个人订阅还是团队采购无法确认，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-60f09fc5692e101d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明导出范围、格式、隐私处理与人工确认边界，交付是否确定发生仍缺少可核验依据。
+    evidence_ids:
+    - ev-60f09fc5692e101d
+  next_validation: 追踪该仓库的 issue 与 discussion，核验导出范围、隐私处理方式及用户实际使用反馈。
+  market: ''
+  job: 个人用户或内容创作者在 macOS 上整理微信对话素材时，把特定聊天记录导出并投递到 AI Agent 与 Obsidian，用于生成可继续编辑的笔记与长期归档。
+  job_en: Individual users or content creators on macOS, while organizing WeChat conversation material,
+    export selected chat records and deliver them into an AI Agent and Obsidian for editable notes and
+    long-term archiving.
+  pain: 微信聊天记录封闭在客户端内，没有原生批量导出通道；手工复制粘贴或截图会丢失时间、发送者与上下文，长对话整理成本高且难以持续归档。
+  pain_en: WeChat chat records are locked inside the client with no native bulk export; manual copy-paste
+    or screenshots lose timestamps, senders and context, making long-conversation organization costly
+    and archiving hard to sustain.
+  current_alternative: 此前用户靠手工逐条复制粘贴、截图，或自行编写第三方导出脚本，再把文本搬进 Obsidian 与 AI 工具。
+  current_alternative_en: Previously users relied on manual item-by-item copy-paste, screenshots, or self-written
+    third-party export scripts, then moved the text into Obsidian and AI tools.
+  usage_reason: 推断：相较手工复制粘贴，该工具把导出与投递合并为一步，省去逐条搬运与格式整理，因此需要长期归档对话的内容创作者或研究者会在整理素材时选择它；但缺少留存与重复使用证据。
+  usage_reason_en: 'Inference: compared with manual copy-paste, the tool merges export and delivery into
+    one step, removing item-by-item transfer and format cleanup, so content creators or researchers who
+    archive conversations long-term would choose it when organizing material; retention and repeat-use
+    evidence is missing.'

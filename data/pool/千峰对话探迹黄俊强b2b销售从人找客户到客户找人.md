@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwZWEwaFVPMlJw
 summary: 千峰对话探迹黄俊强：B2B销售从“人找客户”到“客户找人” 亿邦动力
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,89 @@
+- id: req-initial-answer-me-with-html-2-2026-10-10
+  project_slug: answer-me-with-html-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是复杂结论难以转成可读交付物的问题，痛点在于排版这一步反复手工发生，不解决的后果是结论无法直接发给他人。
+    evidence_ids:
+    - ev-13314c994be89e30
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有两千余星标，说明开发者关注度存在，但没有证据表明非开发者用户已把它放进日常工作流。
+    evidence_ids:
+    - ev-13314c994be89e30
+  - gate: model
+    status: insufficient
+    reason: 开源项目本身没有公开定价或付费路径，是否有人为版式模板或托管服务付费尚未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-13314c994be89e30
+  - gate: truth
+    status: insufficient
+    reason: 输出是否稳定、版式是否可控、人工确认环节如何安排均无公开材料，交付确定性仍待核验。
+    evidence_ids:
+    - ev-13314c994be89e30
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际用它产出哪类页面、是否出现版式失控或需要人工返工的反馈。
+  market: ''
+  job: 分析师、顾问或研究者在需要向同事或客户解释一个复杂问题时，把零散资料交给 AI，要求产出一页可直接阅读和分享的 HTML 说明页。
+  job_en: Analysts, consultants or researchers explaining a complex question to colleagues or clients
+    hand scattered material to an AI and ask for a single readable, shareable HTML explainer page.
+  pain: 旧做法是拿到大段聊天文本后自己复制、排版、截图，才能变成能发出去的文档，这一步纯手工且反复发生。
+  pain_en: The old way is to copy, lay out and screenshot a long chat transcript before it can be sent
+    to anyone, a purely manual step that repeats constantly.
+  current_alternative: 当前替代方式是把聊天输出粘进 Word、Notion 或 PPT 再手动排版，或直接转发一段难以阅读的对话记录。
+  current_alternative_en: The current alternative is pasting chat output into Word, Notion or slides and
+    formatting by hand, or forwarding an unreadable transcript.
+  usage_reason: 推断：它把排版这一步从用户手里移到模型输出环节，用户拿到的是已经成形的单页文件，省掉复制与排版，因此经常需要把复杂结论发给非技术同事的人会优先试用。
+  usage_reason_en: 'Inference: it moves the layout step from the user into the model''s output, so the
+    user receives a finished single page and skips copying and formatting, which is why people who often
+    send complex conclusions to non-technical colleagues would try it first.'
+- id: req-full-answer-me-with-html-2-2026-10-10
+  project_slug: answer-me-with-html-2
+  level: full
+  reviewed_at: '2026-10-10T02:28:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复杂结论难以转成可读交付物的问题，痛点是排版这一步反复手工发生，不解决则结论无法直接发给他人；这是基于产品输入—动作—交付闭环的工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-13314c994be89e30
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 2,523 星标，只说明开发者关注度，属于规模与关注度证据；没有公开评价或案例表明非开发者已把它放进日常工作流，也未发现中文生态覆盖。
+    evidence_ids:
+    - ev-13314c994be89e30
+    - ev-58e043691e012258
+  - gate: model
+    status: insufficient
+    reason: 开源项目无公开定价或付费路径，是否有人为版式模板或托管服务付费尚未核验；可能买方是个人开发者或团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-13314c994be89e30
+  - gate: truth
+    status: insufficient
+    reason: 输出是否稳定、版式是否可控、人工确认环节如何安排均无公开材料，交付确定性无法核对，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-13314c994be89e30
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际用它产出哪类页面、是否出现版式失控或需要人工返工的反馈。
+  market: ''
+  job: 分析师、顾问或研究者在需要向同事或客户解释一个复杂问题时，把零散资料交给 AI，要求产出一页可直接打开、阅读和分享的 HTML 说明页。
+  job_en: Analysts, consultants or researchers explaining a complex question to colleagues or clients
+    hand scattered material to an AI and ask for a single HTML explainer page they can open, read and
+    share directly.
+  pain: 公开材料只说明它把答案变成一页可读 HTML，未提供用户抱怨或案例；从工作流看，旧做法是拿到大段聊天文本后自己复制、排版、截图才能发出去，这一步纯手工且反复发生，不解决的后果是结论无法直接交付给他人。
+  pain_en: Public material only says it turns answers into a readable one-page HTML; no user complaints
+    or cases are given. Structurally, the old way is to copy, lay out and screenshot a long chat transcript
+    before it can be sent, a manual step that repeats, and without it the conclusion cannot be handed
+    over directly.
+  current_alternative: 当前替代方式是把聊天输出粘进 Word、Notion 或 PPT 再手动排版，或直接转发一段难以阅读的对话记录。
+  current_alternative_en: The current alternative is pasting chat output into Word, Notion or slides and
+    formatting by hand, or forwarding an unreadable transcript.
+  usage_reason: 推断：相较手动排版，它把版式生成放进模型输出环节，用户拿到的是已成形单页文件，省掉复制与排版这一步，因此经常要把复杂结论发给非技术同事的人会在这种场景下选择它；但版式可控性与人工确认环节无公开证据。
+  usage_reason_en: 'Inference: versus manual formatting, it moves layout generation into the model''s
+    output so the user receives a finished single page and skips the copy-and-format step, which is why
+    people who often send complex conclusions to non-technical colleagues would choose it in that situation;
+    layout control and human confirmation have no public evidence.'

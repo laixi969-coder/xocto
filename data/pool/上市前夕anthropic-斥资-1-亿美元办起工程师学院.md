@@ -1,6 +1,6 @@
 ---
 slug: 上市前夕anthropic-斥资-1-亿美元办起工程师学院
-name: 上市前夕，Anthropic 斥资 1 亿美元办起工程师学院
+name: Anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5QTUM5QS1KUC02
 summary: 上市前夕，Anthropic 斥资 1 亿美元办起工程师学院 36Kr
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 上市前夕，Anthropic 斥资 1 亿美元办起工程师学院
+# Anthropic
 
 上市前夕，Anthropic 斥资 1 亿美元办起工程师学院 36Kr
 

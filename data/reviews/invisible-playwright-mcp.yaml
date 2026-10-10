@@ -87,3 +87,46 @@
   usage_reason_en: 'There is no public evidence explaining why users would choose it: the available evidence
     is not attributable to this project, with no product docs, pricing, customer cases or user feedback,
     so adoption motivation cannot be inferred.'
+- id: req-full-invisible-playwright-mcp-2026-10-10
+  project_slug: invisible-playwright-mcp
+  level: full
+  reviewed_at: '2026-10-10T02:30:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决受保护站点上代理被反爬拦截、脚本反复修补的问题，但全部证据指向 Invisible Technologies 企业服务、词典释义与隐形字符生成器，无一条来自该 MCP 产品，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-c58db5593603f088
+    - ev-e6d5b654a0ddd788
+    - ev-e8102d7839a86f99
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 MCP 项目自身的公开仓库 README、issue 与 discussion，确认其反检测浏览器实现、被目标站点封禁的记录及使用条款说明。
+  market: ''
+  job: 做数据采集或自动化测试的工程师，在目标站点启用反爬与验证码、常规脚本被拦截时，把该 MCP 服务接入 AI 代理，让代理在反检测 Firefox 上打开页面、点击并抓取，产出可用的页面数据或操作结果。
+  job_en: A data-collection or automation-testing engineer, when a target site enables anti-bot and captcha
+    defenses that block ordinary scripts, plugs this MCP server into an AI agent so it browses, clicks
+    and scrapes on stealth Firefox and returns usable page data or action results.
+  pain: 公开证据里没有任何一条来自该产品本身：没有仓库说明、issue、用户抱怨或客户案例，无法确认脚本被拦后反复修补指纹与代理这一痛点是否真实存在。
+  pain_en: 'No evidence in the public record comes from the product itself: no repository description,
+    issue, user complaint or customer case, so it cannot be confirmed that the pain of repeatedly patching
+    fingerprints and proxies after blocks actually exists.'
+  current_alternative: 公开材料未提供任何关于现有替代方式（自建 Playwright/Selenium、代理池、商业采集接口或人工复制）的可引用事实。
+  current_alternative_en: The public material provides no citable fact about any current alternative (self-built
+    Playwright/Selenium, proxy pools, commercial scraping APIs, or manual copying).
+  usage_reason: 无法给出使用理由：现有证据全部指向 Invisible Technologies 企业服务、词典释义和隐形字符生成器，与该 MCP 产品无关，无法说明它相较旧做法减少哪一步负担。
+  usage_reason_en: 'No usage reason can be given: all available evidence points to Invisible Technologies
+    enterprise services, a dictionary entry and an invisible-character generator, none related to this
+    MCP product, so it cannot be shown which step it removes versus the old approach.'

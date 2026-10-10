@@ -1,0 +1,89 @@
+- id: req-initial-launchguard-ai-2026-10-10
+  project_slug: launchguard-ai
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决改价前政策依据难追溯的问题，痛点是人工翻文档易错且无法留痕，旧做法是人工查文档加表格复核，结构上成立。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标，没有运营者评价或店铺采用材料，无法判断是否已进入真实改价流程。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或买方，谁为它付费属于判断，不是已验证事实。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  - gate: truth
+    status: insufficient
+    reason: 政策引用是否准确、人工放行是否被真正执行、草稿写入是否可回滚，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  next_validation: 收集该仓库的部署文档与 issue，查看是否有真实店铺接入记录及政策引用准确性的反馈。
+  market: ''
+  job: 电商运营在依据平台或内部政策调整商品价格时，需要先找到对应条款、形成可追溯的定价建议，再交给负责人确认后落到店铺后台。
+  job_en: When adjusting product prices under platform or internal policy, e-commerce operators need to
+    locate the relevant clauses, form a traceable pricing proposal, and hand it to a manager for confirmation
+    before it reaches the store backend.
+  pain: 改价往往靠人工翻政策文档和表格，依据难以追溯，一旦出错或事后被追问，很难说清当时按哪条规则定的价。
+  pain_en: Price changes usually rely on manually digging through policy documents and spreadsheets, the
+    basis is hard to trace, and after an error or a challenge it is difficult to say which rule was applied.
+  current_alternative: 人工查政策文档、在表格里算价、再由同事复核后手动改后台。
+  current_alternative_en: Manually searching policy documents, calculating in spreadsheets, having a colleague
+    review, then editing the backend by hand.
+  usage_reason: 推断：相较人工翻文档再手改后台，它把政策引用和草稿生成合并成一步，并强制人工放行，减少“先找依据再动手”的往返，因此受平台规则约束、又需要留痕的电商运营会尝试它；尚无客户案例或付费证据。
+  usage_reason_en: 'Inference: compared with reading documents and then editing the backend by hand, it
+    merges policy citation and draft generation into one step and forces human release, cutting the back-and-forth
+    of finding the basis first, so operators bound by platform rules and needing an audit trail are likely
+    to try it; customer or payment evidence is absent.'
+- id: req-full-launchguard-ai-2026-10-10
+  project_slug: launchguard-ai
+  level: full
+  reviewed_at: '2026-10-10T02:30:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决改价前政策依据难追溯的问题，痛点是人工翻文档易错且无法留痕，旧做法是人工查文档加表格复核，不解决的后果是定价依据说不清；结构上成立。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 51 个星标，属关注度而非采用证据；没有运营者评价或店铺接入材料，无法判断是否已进入真实改价流程。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或买方，谁为它付费属于判断，不是已验证事实；也未说明是自托管收费还是托管服务。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  - gate: truth
+    status: insufficient
+    reason: 政策引用是否准确、人工放行是否被真正执行、草稿写入是否可回滚，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  next_validation: 收集该仓库的部署文档与 issue/discussion，查看是否有真实店铺接入记录及政策引用准确性与人工放行执行的反馈。
+  market: ''
+  job: 电商运营在依据平台或内部政策调整 Shopify 商品价格时，需要先定位对应政策条款、形成可追溯的定价建议，再交负责人确认后写入店铺草稿。
+  job_en: When adjusting Shopify product prices under platform or internal policy, e-commerce operators
+    must locate the relevant clauses, form a traceable pricing proposal, and hand it to a manager for
+    confirmation before it reaches a store draft.
+  pain: 改价往往靠人工翻政策文档和表格，依据难以追溯；一旦出错或事后被追问，很难说清当时按哪条规则定的价，也无法证明人工放行发生过。
+  pain_en: Price changes rely on manually digging through policy documents and spreadsheets, the basis
+    is hard to trace, and after an error or a challenge it is hard to say which rule was applied or prove
+    that human approval occurred.
+  current_alternative: 人工查政策文档、在表格里算价、再由同事复核后手动改 Shopify 后台。
+  current_alternative_en: Manually searching policy documents, calculating in spreadsheets, having a colleague
+    review, then editing the Shopify backend by hand.
+  usage_reason: 推断：相较人工翻文档再手改后台，它把政策引用与草稿生成合并成一步，并强制人工放行后才写入 Shopify 草稿，减少“先找依据再动手”的往返，因此受平台规则约束、又需要留痕的电商运营会尝试它；尚无客户案例或付费证据。
+  usage_reason_en: 'Inference: compared with reading documents and then editing the backend by hand, it
+    merges policy citation and draft generation into one step and forces human release before writing
+    a Shopify draft, cutting the back-and-forth of finding the basis first, so operators bound by platform
+    rules and needing an audit trail are likely to try it; customer or payment evidence is absent.'

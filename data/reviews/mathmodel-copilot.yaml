@@ -77,3 +77,52 @@
   usage_reason: 用户要完成的任务是：数学建模竞赛参赛学生、竞赛指导教师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Mathematical modeling contest participants, Contest coaches Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-mathmodel-copilot-2026-10-10
+  project_slug: mathmodel-copilot
+  level: full
+  reviewed_at: '2026-10-10T02:30:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决竞赛队伍在三四天内完成审题、选模型、跑代码、核验结果并产出论文素材的需求，痛点是时间紧、模型选错或代码跑不通会拖垮论文；公开仓库说明已还原输入、动作与交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-c18692209936235e
+    - ev-31faa6b0fd9484ff
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示约 40 至 42 个收藏，说明社区已注意到该项目，但没有用户评价、issue 讨论或持续使用记录，无法证明目标用户会把它留在竞赛工作流里。
+    evidence_ids:
+    - ev-c18692209936235e
+    - ev-31faa6b0fd9484ff
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费记录或采购信息，谁付钱尚不清楚；按判断，可能来自参赛学生自付或高校/培训机构采购，但均非已验证事实。
+    evidence_ids:
+    - ev-c18692209936235e
+  - gate: truth
+    status: insufficient
+    reason: 仓库描述承诺可复现工作流与本地工作台，但公开材料没有部署文档、可复现实测或结果核验记录，交付能否稳定发生、人工与安全边界仍缺公开证据。
+    evidence_ids:
+    - ev-c18692209936235e
+    - ev-31faa6b0fd9484ff
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认是否公开可复现的安装运行步骤、真实竞赛使用案例或结果核验记录。
+  market: ''
+  job: 参加国赛 CUMCM 或美赛 MCM/ICM 的学生在拿到赛题与数据后，把题目文本和已有数据交给它，完成审题拆解、候选模型比较、Python 运行与结果核验，并产出论文素材，模型选择与结论仍由参赛者自己确认。
+  job_en: Students in CUMCM or MCM/ICM take the problem statement and available data, and use it to decompose
+    the problem, compare candidate models, run Python, verify results, and produce paper material, while
+    the team still confirms model choice and conclusions.
+  pain: 数学建模竞赛通常只有三到四天，队伍要在有限时间内同时完成审题、选模型、写代码、跑结果和写论文；模型选错或代码跑不通会直接拖垮整篇论文，而队伍往往缺少可复用的流程与核验手段。
+  pain_en: Modeling contests give teams only three to four days to decompose the problem, choose models,
+    write and run code, verify results, and draft the paper; a wrong model or broken code can sink the
+    whole paper, and teams often lack a reusable workflow and verification step.
+  current_alternative: 当前替代方式是队伍自行分工，用搜索引擎、往届优秀论文、通用大模型对话、Jupyter/Matlab 手工写代码，再靠队友互相检查结果，流程分散且难以复现。
+  current_alternative_en: Teams currently split work manually, using search engines, past winning papers,
+    general LLM chat, hand-written Jupyter/Matlab code, and teammate cross-checks, which is fragmented
+    and hard to reproduce.
+  usage_reason: 推断：相较通用大模型对话加手工写代码，它把审题、模型比较、Python 运行与结果核验串成一条可复现的本地工作流，减少了在多个工具间搬运题目与代码、以及结果无法回溯的负担，因此时间紧、需要可复现流程的参赛队伍会在赛题到手后选择它。
+  usage_reason_en: 'Inference: compared with general LLM chat plus hand-written code, it chains problem
+    decomposition, model comparison, Python execution, and result verification into one reproducible local
+    workflow, cutting the burden of moving problems and code between tools and of untraceable results,
+    so time-pressed teams needing reproducibility would choose it once the problem is released.'

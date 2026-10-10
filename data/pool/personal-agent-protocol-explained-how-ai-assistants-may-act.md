@@ -1,11 +1,13 @@
 ---
 slug: personal-agent-protocol-explained-how-ai-assistants-may-act
-name: 'Personal Agent Protocol explained: How AI assistants may act for users'
+name: Personal Agent Protocol
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一篇解释 AI 助手如何代用户行动的协议类报道，属于代理授权与互操作层的行业变化，不是可核验的独立产品；材料未说明谁在何时发布了什么版本、有哪些采用方，因此只能作为背景线索。
 inspiration: ''
-summary_en: ''
+summary_en: This is an explainer about a protocol for AI assistants acting on a user's behalf, an industry
+  shift in agent authorization and interoperability rather than a verifiable standalone product; it names
+  no publisher, version or adopters, so it stays background.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbEI2eU9jOWE0
 summary: 'Personal Agent Protocol explained: How AI assistants may act for users News9live'
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Personal Agent Protocol explained: How AI assistants may act for users
+# Personal Agent Protocol
 
 Personal Agent Protocol explained: How AI assistants may act for users News9live
 

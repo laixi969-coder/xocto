@@ -83,3 +83,44 @@
   usage_reason_en: 'Inference: if it truly collapses multi-platform actions into one command set and JSON
     output, it could remove the step of adapting an interface per platform; but with no evidence of real
     usage, retention or customer cases, it is impossible to confirm which users would choose it and when.'
+- id: req-full-catbus-2026-10-10
+  project_slug: catbus
+  level: full
+  reviewed_at: '2026-10-10T02:29:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决多平台操作分散、Agent 难以调用的问题，但公开证据全部是吉卜力动画角色 Catbus 的百科与粉丝页，与产品功能无关，连需求和痛点都无法从证据中还原。
+    evidence_ids:
+    - ev-a14fad2903d9d190
+    - ev-2cb7d0131ad553cc
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 catbus 项目自身的官方仓库 README 与 issue/discussion，确认实际支持的动作清单、失败处理方式与是否有团队在生产环境使用。
+  market: ''
+  job: 运营人员或 AI Agent 需要在同一流程里跨小红书、抖音、TikTok、B 站、快手、微博、闲鱼、淘宝、京东、X 执行操作并拿到结构化结果。
+  job_en: Operations staff or AI agents need to run actions across Xiaohongshu, Douyin, TikTok, Bilibili,
+    Kuaishou, Weibo, Xianyu, Taobao, JD and X in one flow and get structured results.
+  pain: 公开材料只有一句功能描述，未说明具体替代了哪一步人工动作、失败如何处理、交付边界在哪，无法还原真实痛点。
+  pain_en: The public material only gives a one-line feature description, without saying which manual
+    step is replaced, how failures are handled, or where delivery boundaries lie, so the real pain cannot
+    be reconstructed.
+  current_alternative: 人工在各平台客户端逐个操作，或分别写各平台的脚本与爬虫。
+  current_alternative_en: Manual clicking in each platform's client, or writing separate scripts and scrapers
+    per platform.
+  usage_reason: 推断：相较逐个平台写脚本，它把多平台动作收敛成一套命令与 JSON 输出，省掉为每个平台单独适配接口这一步；但缺少实际调用、留存或客户案例证据，无法确认已被长期使用。
+  usage_reason_en: 'Inference: versus writing scripts per platform, it collapses multi-platform actions
+    into one command set and JSON output, removing the step of adapting an interface for each platform;
+    but no evidence of real usage, retention or customer cases, so long-term adoption cannot be confirmed.'

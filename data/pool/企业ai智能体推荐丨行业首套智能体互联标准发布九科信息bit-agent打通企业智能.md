@@ -1,6 +1,6 @@
 ---
 slug: 企业ai智能体推荐丨行业首套智能体互联标准发布九科信息bit-agent打通企业智能
-name: 企业AI智能体推荐丨行业首套智能体互联标准发布！九科信息bit-Agent打通企业智能
+name: 九科信息 bit-Agent
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQem10aF9Iak9x
 summary: 企业AI智能体推荐丨行业首套智能体互联标准发布！九科信息bit-Agent打通企业智能 搜狐网
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 企业AI智能体推荐丨行业首套智能体互联标准发布！九科信息bit-Agent打通企业智能
+# 九科信息 bit-Agent
 
 企业AI智能体推荐丨行业首套智能体互联标准发布！九科信息bit-Agent打通企业智能 搜狐网
 

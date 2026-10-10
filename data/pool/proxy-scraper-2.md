@@ -22,7 +22,7 @@ summary: 'Free proxies that actually work: 700+ sources, every hit verified (hon
   TLS), a live list every hour, a rotating proxy server and an MCP server for AI agents.'
 first_seen: '2026-10-10T01:46:04Z'
 last_seen: '2026-10-10T01:46:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: mastek-launches-ai-native-services-to-cut-software-costs
-name: Mastek launches AI-native services to cut software costs
+name: Mastek
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQV1hHVjdwVlQz
 summary: Mastek launches AI-native services to cut software costs IT Brief UK
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Mastek launches AI-native services to cut software costs
+# Mastek
 
 Mastek launches AI-native services to cut software costs IT Brief UK
 

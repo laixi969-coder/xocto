@@ -21,7 +21,7 @@ canonical_url: https://getedgy.app
 summary: Ambient edge lighting for macOS
 first_seen: '2026-09-02T14:14:36Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

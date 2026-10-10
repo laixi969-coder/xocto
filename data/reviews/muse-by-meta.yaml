@@ -39,3 +39,88 @@
   usage_reason: 推断：熟悉的聊天入口和连续的任务执行可减少切换与协调；可靠完成与长期采用仍需实测。
   usage_reason_en: 'Inference: familiar conversation and continuous execution may reduce switching and
     coordination; reliable completion and sustained use still need measurement.'
+- id: req-initial-muse-by-meta-2026-10-10
+  project_slug: muse-by-meta
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决平板用户查资料、写草稿时反复切换应用、上下文丢失的问题，旧行为是搜索加手动整理，痛点真实但非刚性；买方与付费方式未披露。
+    evidence_ids:
+    - ev-49e1218eac545f41
+    - ev-f8fb7f6363d63fc4
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布报道，没有使用量、留存或用户评价，无法判断用户是否已把它当作日常入口；大厂分发本身不等于采用。
+    evidence_ids:
+    - ev-0204be3c6a2fd4a0
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、订阅或企业采购路径，钱来自 to C 订阅还是生态导流只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-49e1218eac545f41
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它在具体任务上的交付确定性、错误率与人工确认边界，也未见安全或人工介入说明。
+    evidence_ids:
+    - ev-f8fb7f6363d63fc4
+  next_validation: 收集 Meta 官方 Muse 产品页或 App Store 页面，核对功能清单、是否标注定价与订阅方式。
+  market: ''
+  job: 普通用户在 iPad 上遇到需要查资料、写草稿或处理一段文字的任务时，把问题或材料交给助手，希望直接拿到可用的答复或成稿。
+  job_en: An ordinary user on iPad, facing a task that needs lookup, drafting or handling a piece of text,
+    hands the question or material to the assistant and expects a usable answer or draft.
+  pain: 在平板上切换浏览器、笔记和输入法逐条查、逐段写，步骤碎、上下文丢失；不解决就要多花时间重复搬运信息。
+  pain_en: On a tablet, switching among browser, notes and keyboard to look up and write piece by piece
+    is fragmented and loses context; not solving it means repeated manual copying.
+  current_alternative: 系统自带语音助手、浏览器搜索加手动整理，或手机端已有的通用聊天助手。
+  current_alternative_en: Built-in voice assistants, browser search plus manual organizing, or an existing
+    general chat assistant on the phone.
+  usage_reason: 推断：相较在浏览器与笔记间来回搬运，把请求直接交给常驻平板的助手可少一步切换与复制，因此习惯在 iPad 上处理文字任务的用户会先试用它；候选材料没有用户反馈或留存证据，无法确认它已被长期留在工作流里。
+  usage_reason_en: 'Inference: versus shuttling between browser and notes, handing the request to an assistant
+    resident on the tablet removes a switching and copying step, so users who already do text work on
+    iPad would try it first; the material has no user feedback or retention evidence, so long-term workflow
+    presence is unconfirmed.'
+- id: req-full-muse-by-meta-2026-10-10
+  project_slug: muse-by-meta
+  level: full
+  reviewed_at: '2026-10-10T02:31:18Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料只支持 Muse 从 iPhone 扩到 iPad 这一发布事实，未说明用户任务、痛点、旧替代与不解决的后果，连需求和痛点都写不出来，价值结构无法成立。
+    evidence_ids:
+    - ev-c700114c4cd9cc40
+    - ev-5a0a5a24f5873671
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Meta 官方 Muse 产品页或 App Store 页面，核对功能清单、输入材料类型、交付结果与是否标注定价。
+  market: ''
+  job: 候选材料只说明 Meta 把 Muse 助手从 iPhone 扩到 iPad，未说明谁在什么情况下、处理什么材料、要完成什么任务；无法还原具体使用场景。
+  job_en: The candidate material only states that Meta extended Muse from iPhone to iPad; it does not
+    say who, in what situation, handling what material, to complete what task, so no concrete job can
+    be reconstructed.
+  pain: 公开证据中没有用户痛点、抱怨或替代行为记录，只有 Meta 账号登录与商业工具页面，无法说明用户在哪个环节难受。
+  pain_en: The public evidence contains no user pain points, complaints or workaround records, only Meta
+    account login and business tool pages, so it cannot show where users struggle.
+  current_alternative: 证据未记录用户当前用什么方式完成同类任务，无法确认旧替代是系统助手、浏览器搜索还是其他聊天助手。
+  current_alternative_en: The evidence does not record what users currently use for comparable tasks,
+    so the prior alternative cannot be identified as a system assistant, browser search or another chat
+    assistant.
+  usage_reason: 缺少任何用户反馈、采用或留存证据，无法解释用户为何会选择它而非现有做法；仅凭“发布到 iPad”不能构成使用理由。
+  usage_reason_en: With no user feedback, adoption or retention evidence, there is no basis to explain
+    why a user would choose it over existing practice; an iPad release alone is not a usage reason.

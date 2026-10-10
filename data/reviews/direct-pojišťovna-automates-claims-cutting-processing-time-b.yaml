@@ -1,0 +1,85 @@
+- id: req-initial-direct-pojišťovna-automates-claims-cutting-processing-time-b-2026-10-10
+  project_slug: direct-pojišťovna-automates-claims-cutting-processing-time-b
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决理赔单据人工核对慢、积压的问题，痛点刚性且旧流程明确，处理时间缩短 87% 是本次新增的可核对结果。
+    evidence_ids:
+    - ev-149a4f46b2489461
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条报道，未见理赔团队或客户对该流程的公开评价，采用广度无法判断。
+    evidence_ids:
+    - ev-149a4f46b2489461
+  - gate: model
+    status: insufficient
+    reason: 未披露是自建还是采购 Azure AI、按什么计价，买方与付费路径均不明确，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-149a4f46b2489461
+  - gate: truth
+    status: insufficient
+    reason: 87% 的统计口径、人工复核边界与赔付准确性均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-149a4f46b2489461
+  next_validation: 收集 Direct Pojišťovna 或微软官方发布的理赔自动化案例文档，核对被自动化的具体环节、人工复核比例与统计口径。
+  market: ''
+  job: 保险公司的理赔专员在收到客户报案和单据后，需要核对事故信息、定损材料与赔付条件，完成一笔理赔的审核与结案。
+  job_en: A claims adjuster at an insurer receives a customer's report and documents, then verifies incident
+    details, damage assessments and payout conditions to review and close a claim.
+  pain: 理赔单据量大、格式杂，人工逐份核对耗时且容易积压，客户等待赔付的时间被拉长。
+  pain_en: Claims documents are numerous and inconsistently formatted; manual review is slow and prone
+    to backlogs, lengthening the customer's wait for payout.
+  current_alternative: 此前主要靠理赔专员人工阅读纸质或扫描单据、逐项录入系统并人工判断，部分公司用规则引擎做简单分流。
+  current_alternative_en: Previously adjusters read paper or scanned documents by hand, keyed data into
+    systems and judged each case manually, with some firms using rule engines for simple triage.
+  usage_reason: 推断：相较人工逐份阅读录入，AI 直接读取报案材料并抽取关键字段，省去录入与初筛这一步，因此单据量大的保险公司会在理赔高峰期选择它。公开材料未给出人工复核比例与赔付准确率。
+  usage_reason_en: 'Inference: versus manual reading and data entry, AI reads claim documents and extracts
+    key fields directly, removing the entry and first-pass screening step, so high-volume insurers would
+    adopt it during claims peaks. The public material gives no human-review ratio or payout accuracy.'
+- id: req-full-direct-pojišťovna-automates-claims-cutting-processing-time-b-2026-10-10
+  project_slug: direct-pojišťovna-automates-claims-cutting-processing-time-b
+  level: full
+  reviewed_at: '2026-10-10T02:29:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决理赔单据人工核对慢、积压的问题，痛点刚性且旧流程明确，处理时间缩短 87% 是本次新增的可核对结果。
+    evidence_ids:
+    - ev-149a4f46b2489461
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条报道，未见理赔团队或客户对该流程的公开评价，采用广度无法判断。
+    evidence_ids:
+    - ev-149a4f46b2489461
+  - gate: model
+    status: insufficient
+    reason: 未披露是自建还是采购 Azure AI、按什么计价，买方与付费路径均不明确，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-149a4f46b2489461
+  - gate: truth
+    status: insufficient
+    reason: 87% 的统计口径、人工复核边界与赔付准确性均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-149a4f46b2489461
+  next_validation: 收集 Direct Pojišťovna 或微软官方发布的理赔自动化案例文档，核对被自动化的具体环节、人工复核比例与统计口径。
+  market: ''
+  job: 保险公司的理赔专员在收到客户报案与事故单据后，需要核对事故信息、定损材料与赔付条件，完成一笔理赔的审核与结案。
+  job_en: A claims adjuster at an insurer receives a customer's report and incident documents, then verifies
+    incident details, damage assessments and payout conditions to review and close a claim.
+  pain: 理赔单据量大、格式杂，人工逐份阅读录入耗时且容易积压，客户等待赔付的时间被拉长；公开报道称该流程处理时间缩短 87%，说明旧流程的耗时是真实痛点。
+  pain_en: Claims documents are numerous and inconsistently formatted; manual reading and keying is slow
+    and backlog-prone, lengthening the customer's wait for payout. The reported 87% reduction in processing
+    time indicates the old process's duration was a real pain point.
+  current_alternative: 此前主要靠理赔专员人工阅读纸质或扫描单据、逐项录入系统并人工判断，部分公司用规则引擎做简单分流。
+  current_alternative_en: Previously adjusters read paper or scanned documents by hand, keyed data into
+    systems and judged each case manually, with some firms using rule engines for simple triage.
+  usage_reason: 推断：相较人工逐份阅读录入，AI 直接读取报案材料并抽取关键字段，省去录入与初筛这一步，因此单据量大的保险公司会在理赔高峰期选择它。公开材料未给出人工复核比例与赔付准确率。
+  usage_reason_en: 'Inference: versus manual reading and data entry, AI reads claim documents and extracts
+    key fields directly, removing the entry and first-pass screening step, so high-volume insurers would
+    adopt it during claims peaks. The public material gives no human-review ratio or payout accuracy.'

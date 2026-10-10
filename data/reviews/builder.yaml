@@ -315,3 +315,55 @@
     keyless backend, so non-professional developers or small teams who value open-source control and do
     not want to build a backend would choose it for prototyping. Public materials provide no user feedback
     or retention evidence for this motive.'
+- id: req-full-builder-2026-10-10
+  project_slug: builder
+  level: full
+  reviewed_at: '2026-10-10T02:28:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非专业开发者快速做出网站或应用原型的任务，痛点是启动摩擦高：需装环境、配模型 key、付额度。公开材料显示 Puter 生态浏览器内运行、免费调用主流模型且无 API key
+      限制，旧替代为 Lovable、Replit、v0 或自建环境。这是工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-fa613a80addea88b
+    - ev-f88712b979d04ddf
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品自述与免费 API 教程，未见目标用户对 Builder 的持续使用、复购或社区讨论证据；关注度不等于采用，无法确认共识已形成。
+    evidence_ids:
+    - ev-f88712b979d04ddf
+    - ev-3d98ee7ee7117c76
+  - gate: model
+    status: insufficient
+    reason: Puter 页面提到 Prices in USD, billed monthly，但未见 Builder 功能级定价、付费主体或单位经济；谁付钱仍是判断而非已验证事实，属模式缺口。
+    evidence_ids:
+    - ev-24b7ebac92ac0a26
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明生成代码的部署方式、人工修改环节与安全边界，交付能否确定性发生缺可复现证据；免费无限制调用模型的可信度也待核验。
+    evidence_ids:
+    - ev-fa613a80addea88b
+  next_validation: 追踪 Puter Builder 官方文档与 公开代码仓库 仓库的 issue/discussion，确认生成代码的部署路径、人工修改环节及真实用户使用记录。
+  market: ''
+  job: 非专业开发者或小团队在需要快速做出网站或应用原型时，打开浏览器中的 Puter Builder，用自然语言描述需求，由 AI 生成可运行的站点或应用代码，最终拿到可运行的项目。
+  job_en: Non-professional developers or small teams who need a quick website or app prototype open Puter
+    Builder in the browser, describe requirements in natural language, and have AI generate runnable site
+    or app code, ending with a runnable project.
+  pain: 公开材料显示 Puter 生态主打“一切在浏览器中运行、无需安装”，并免费开放 OpenAI、Claude、Gemini 等模型调用且无 API key 与用量限制；对没有本地开发环境、也不愿先配置模型密钥和付费额度的非专业开发者，从零搭原型的启动摩擦是真实痛点。
+  pain_en: Public materials show the Puter ecosystem emphasizes everything running in the browser with
+    nothing to install, and free access to OpenAI, Claude, Gemini and other models without API keys or
+    usage limits; for non-professional developers lacking a local dev environment or willingness to first
+    configure model keys and paid quotas, the startup friction of building a prototype from scratch is
+    a real pain point.
+  current_alternative: 旧做法是使用 Lovable、Replit、v0 等同类 AI 建站平台，或自行配置开发环境并申请模型 API key；Puter Builder 自述为这些平台的开源替代。
+  current_alternative_en: The old approach is using comparable AI site-building platforms such as Lovable,
+    Replit, or v0, or setting up a local dev environment and applying for model API keys; Puter Builder
+    describes itself as an open-source alternative to these platforms.
+  usage_reason: 推断：相较旧做法，它把“装环境、配 key、付额度”这几步前置负担去掉——浏览器内直接运行、免费调用主流模型且无需 API key，因此没有开发环境或预算受限的非专业开发者、小团队在需要快速验证原型时会选择它；但公开材料尚未给出用户实际采用与留存证据。
+  usage_reason_en: 'Inference: compared with the old approach, it removes the upfront burden of installing
+    an environment, configuring keys, and paying for quota — running in the browser and calling major
+    models free without API keys — so non-professional developers or small teams without a dev environment
+    or with limited budget would choose it when they need to validate a prototype quickly; however, public
+    materials do not yet provide evidence of actual adoption or retention.'

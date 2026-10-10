@@ -1,6 +1,6 @@
 ---
 slug: 三个月之内两度配售壁仞科技的ai芯片攻坚战与消耗战
-name: 三个月之内两度配售，壁仞科技的AI芯片攻坚战与消耗战
+name: 壁仞科技
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxY0hfU3o1Q09Q
 summary: 三个月之内两度配售，壁仞科技的AI芯片攻坚战与消耗战 北京商报
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 三个月之内两度配售，壁仞科技的AI芯片攻坚战与消耗战
+# 壁仞科技
 
 三个月之内两度配售，壁仞科技的AI芯片攻坚战与消耗战 北京商报
 

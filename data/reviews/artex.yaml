@@ -78,3 +78,50 @@
   usage_reason: 用户要完成的任务是：渗透测试工程师、安全服务交付人员；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Penetration Tester, Security Service Delivery Specialist Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-artex-2026-10-10
+  project_slug: artex
+  level: full
+  reviewed_at: '2026-10-10T02:28:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据无法写出它解决什么需求与痛点：检索到的页面分别是保险与 ILS 服务、天花板涂料商标和应急定位信标，均与 AI 渗透测试无关，也没有用户任务、替代方式或不解决的后果。
+    evidence_ids:
+    - ev-ace61417f7bc63cd
+    - ev-778467613a4080f4
+    - ev-9c0c8a32bf05bf3a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ARTEX 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 公开材料只给出“渗透测试工程师、安全服务交付人员”这类岗位标签，未说明谁在什么授权场景下、把什么目标环境与材料交给系统、要产出何种测试结果；具体输入格式、人工复核边界与交付物形态均未核验。
+  job_en: Public materials give only role labels such as penetration tester and security service delivery
+    specialist; they do not say who, under what authorization, hands which target environment and materials
+    to the system, or what test output it must produce. Input format, human review boundary and deliverable
+    form are unverified.
+  pain: 现有证据无法写出具体痛点：检索到的页面分别是 Artex Risk 保险与 ILS 服务、英国 Artex 天花板涂料商标、ACR Electronics 的 ARTEX ELT 应急定位信标，均与
+    AI 渗透测试无关，没有用户抱怨、替代行为或后果描述。
+  pain_en: 'The available evidence cannot support a concrete pain statement: the retrieved pages are Artex
+    Risk (insurance and ILS services), the UK Artex ceiling-coating trademark, and ACR Electronics'' ARTEX
+    ELT emergency beacon, none related to AI penetration testing. There are no user complaints, workaround
+    behaviors or consequence descriptions.'
+  current_alternative: 公开材料未说明安全团队目前如何完成授权渗透测试，也未说明该系统替代了人工测试、商业扫描器还是外部安全服务。
+  current_alternative_en: Public materials do not show how security teams currently run authorized penetration
+    tests, nor whether the system replaces manual testing, commercial scanners or outsourced security
+    services.
+  usage_reason: 无法给出使用理由：现有证据中没有任何与该项目匹配的产品说明、用户反馈或采用记录，仅有“百度 agent+ 攻防挑战赛冠军项目”这一摘要表述，不足以解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: the evidence contains no product description, user feedback
+    or adoption record matching this project, only the summary claim of a Baidu ''agent+'' attack-defense
+    challenge win, which cannot explain which users would choose it and when.'

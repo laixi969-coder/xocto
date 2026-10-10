@@ -8,6 +8,14 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/aiheem879-creator/AI-Voice-Mod-Pr
 canonical_url: https://github.com/aiheem879-creator/AI-Voice-Mod-Pr
 summary: VoiceMod Pro is a leading real-time voice changer, soundboard, and audio processing utility designed
@@ -16,7 +24,7 @@ summary: VoiceMod Pro is a leading real-time voice changer, soundboard, and audi
   Zoom, and in-game voice channels.
 first_seen: '2026-08-02T10:46:22Z'
 last_seen: '2026-08-22T22:38:00Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -27,6 +35,7 @@ sightings:
     stars: 53
     forks: 0
     open_issues: 0
+  kind: product
 ---
 
 # AI-Voice-Mod-Pr

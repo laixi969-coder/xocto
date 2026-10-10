@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNT3h6eHA3ZW1u
 summary: Pakistani Cofounded Startup Emerges From Stealth at $300M to Put an AI Agent in iMessage TechJuice
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

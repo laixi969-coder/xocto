@@ -1,0 +1,89 @@
+- id: req-initial-messagegears-expands-warehouse-native-ai-with-new-mcp-agent-2026-10-10
+  project_slug: messagegears-expands-warehouse-native-ai-with-new-mcp-agent
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是仓库内数据直接驱动营销动作的需求，但材料只有功能清单，未说明旧流程、频率与不采用的后果，痛点强度无法判断。
+    evidence_ids:
+    - ev-d2808fa6b0943091
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：材料未提供客户采用、评价或使用规模，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-d2808fa6b0943091
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露定价、买方或收费方式，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-d2808fa6b0943091
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对承诺能否确定性交付，也看不到安全与人工边界说明。
+    evidence_ids:
+    - ev-d2808fa6b0943091
+  next_validation: 收集 MessageGears 官方产品页或定价页，确认仓库原生 AI 的交付形态、计价方式与是否列出客户案例。
+  market: ''
+  job: 营销运营与 CRM 负责人在客户数据已存放在自有数据仓库时，要基于这些数据触发个性化触达与预测，而不必先把数据复制到外部营销平台。
+  job_en: Marketing operations and CRM owners whose customer data already lives in their own warehouse
+    want to trigger personalized outreach and predictions from that data without first copying it into
+    an external marketing platform.
+  pain: 候选材料只给出功能清单（MCP、Agent API、预测模型），没有说明此前由谁、用什么工具、花多久完成同一件事，因此痛点强度无法从公开事实判断。
+  pain_en: The candidate material only lists features (MCP, agent APIs, predictive models) and does not
+    say who previously did the same job, with what tool, or how long it took, so pain intensity cannot
+    be judged from public facts.
+  current_alternative: 推断：企业通常把仓库数据导出到独立营销云或 CDP，再在其中配置触达与预测，这一旧流程的具体形态未在材料中说明。
+  current_alternative_en: 'Inference: enterprises typically export warehouse data into a separate marketing
+    cloud or CDP and configure outreach and prediction there; the exact shape of this old workflow is
+    not described in the material.'
+  usage_reason: 推断：若 AI 能直接在仓库内读取数据并调用预测模型，可省去数据导出与同步这一步，从而让营销团队在数据更新后更快触发动作；但材料未给出客户案例或使用反馈，无法确认这一取舍是否被用户实际选择。
+  usage_reason_en: 'Inference: if AI can read data and call predictive models directly inside the warehouse,
+    the export-and-sync step could be removed, letting marketing teams act sooner after data updates;
+    however, the material provides no customer case or user feedback, so it is unconfirmed whether users
+    actually make this trade-off.'
+- id: req-full-messagegears-expands-warehouse-native-ai-with-new-mcp-agent-2026-10-10
+  project_slug: messagegears-expands-warehouse-native-ai-with-new-mcp-agent
+  level: full
+  reviewed_at: '2026-10-10T02:31:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决仓库内数据直接驱动营销触达与预测的需求，但公开材料只有功能清单，未说明旧流程、频率与不采用的后果，痛点强度无法判断。
+    evidence_ids:
+    - ev-d2808fa6b0943091
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 MessageGears 官方产品页或定价页，确认仓库原生 AI 的交付形态、计价方式与是否列出客户案例。
+  market: ''
+  job: 营销运营与 CRM 负责人在客户数据已存放在自有数据仓库时，要基于这些数据触发个性化触达与预测，而不必先把数据复制到外部营销平台。
+  job_en: Marketing operations and CRM owners whose customer data already lives in their own warehouse
+    want to trigger personalized outreach and predictions from that data without first copying it into
+    an external marketing platform.
+  pain: 公开材料只有一句功能清单（MCP、Agent API、内置预测模型），没有说明此前由谁、用什么工具、花多久完成同一件事，也没有用户抱怨或旧流程描述，痛点强度无法从公开事实判断。
+  pain_en: The public material is a single feature list (MCP, agent APIs, built-in predictive models)
+    and does not say who previously did the same job, with what tool, or how long it took, nor does it
+    quote user complaints or the old workflow, so pain intensity cannot be judged from public facts.
+  current_alternative: 推断：企业通常把仓库数据导出到独立营销云或 CDP，再在其中配置触达与预测；这一旧流程的具体形态未在材料中说明。
+  current_alternative_en: 'Inference: enterprises typically export warehouse data into a separate marketing
+    cloud or CDP and configure outreach and prediction there; the exact shape of this old workflow is
+    not described in the material.'
+  usage_reason: 推断：若 AI 能直接在仓库内读取数据并调用预测模型，可省去数据导出与同步这一步，让营销团队在数据更新后更快触发动作；但材料未给出客户案例或使用反馈，无法确认用户是否实际做出这一取舍。
+  usage_reason_en: 'Inference: if AI can read data and call predictive models directly inside the warehouse,
+    the export-and-sync step could be removed, letting marketing teams act sooner after data updates;
+    however, no customer case or user feedback is provided, so it is unconfirmed whether users actually
+    make this trade-off.'

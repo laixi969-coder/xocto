@@ -1,0 +1,83 @@
+- id: req-initial-porch-2026-10-10
+  project_slug: porch
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码成本不可见、项目状态分散的问题，痛点具体，旧做法是翻账单或手动记账，结构上成立。
+    evidence_ids:
+    - ev-ca3fcb44576be63f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、采用数据或讨论，无法判断开发者是否真的持续使用。
+    evidence_ids:
+    - ev-ca3fcb44576be63f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，是个人订阅还是团队采购属于判断，不是已验证事实。
+    evidence_ids:
+    - ev-ca3fcb44576be63f
+  - gate: truth
+    status: insufficient
+    reason: 成本数据如何采集、是否准确、本地隐私边界如何，均缺少文档或实测支持。
+    evidence_ids:
+    - ev-ca3fcb44576be63f
+  next_validation: 收集 Porch 官方产品页或定价页，核对成本数据的采集方式、计价单位与是否有公开用户案例。
+  market: ''
+  job: 开发者同时维护多个本地项目并使用 AI 编码工具时，需要知道每个项目的状态和已经产生的调用成本。
+  job_en: Developers maintaining several local projects while using AI coding tools need to know each
+    project's state and the API spend already incurred.
+  pain: AI 编码按量计费，成本分散在多次调用里，开发者事后才发现账单超预期，也难判断哪个项目值得继续投入。
+  pain_en: AI coding is metered per call, so cost is scattered across many invocations; developers discover
+    overruns only on the bill and cannot tell which project deserves more spend.
+  current_alternative: 目前多靠供应商后台账单、手动记账或干脆不看，缺少按项目归集的本地视图。
+  current_alternative_en: Today developers rely on vendor billing dashboards, manual notes or simply not
+    looking, with no local per-project view.
+  usage_reason: 推断：相比翻供应商账单或手动记账，Porch 在本地按项目归集摘要与成本，省去事后逐条对账这一步，因此对同时跑多个项目、按量付费的独立开发者更有用。
+  usage_reason_en: 'Inference: versus checking vendor bills or keeping manual notes, Porch aggregates
+    summaries and cost per project locally, removing the after-the-fact reconciliation step, which helps
+    indie developers running several projects on metered plans.'
+- id: req-full-porch-2026-10-10
+  project_slug: porch
+  level: full
+  reviewed_at: '2026-10-10T02:32:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部是建筑门廊的定义与区别，与 AI 编码成本跟踪无关，无法还原用户任务、痛点、旧替代或不解决的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-73b391bcb570f957
+    - ev-449af388fb8a32a0
+    - ev-37cf9805623c0db0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Porch 官方产品页或仓库 README，核对它如何采集 AI 编码成本、交付形态与是否有公开用户案例。
+  market: ''
+  job: 开发者同时维护多个本地项目并使用 AI 编码工具时，需要知道每个项目的状态和已经产生的调用成本。
+  job_en: Developers maintaining several local projects while using AI coding tools need to know each
+    project's state and the API spend already incurred.
+  pain: 公开材料中没有任何用户抱怨、workaround 或案例支持 AI 编码成本不可见这一痛点；现有证据全部是关于建筑门廊的定义与区别，与产品无关。
+  pain_en: No public material contains user complaints, workarounds or cases supporting the pain of invisible
+    AI coding cost; all evidence concerns architectural porches, unrelated to the product.
+  current_alternative: 无法从公开材料确认开发者当前如何绕过该问题，缺少账单、记账或本地视图等替代行为的证据。
+  current_alternative_en: Public material does not establish how developers currently work around this;
+    no evidence of billing, manual notes or local views as alternatives.
+  usage_reason: 无法判断用户为何选择它：证据中没有产品页、文档或用户反馈说明 Porch 如何采集成本、交付什么结果，因此无法解释相较旧做法的因果。
+  usage_reason_en: 'Cannot determine why users would choose it: no product page, docs or user feedback
+    in evidence explains how Porch collects cost or what it delivers, so no causal explanation versus
+    the old approach is possible.'

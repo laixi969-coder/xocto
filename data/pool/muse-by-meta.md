@@ -3,33 +3,32 @@ slug: muse-by-meta
 name: Meta Muse
 builder: Meta
 category: 通用助手
-summary_zh: 个人用户把邮件、预约、购物和日程任务交给 Meta Muse；它在获准连接的服务与独立云端环境中执行，回到用户确认关键动作并交付任务结果。
-inspiration: 推断：个人助手的价值正在进入事务执行。可从一类高频任务切入，把权限、确认、异常恢复和结果核验做成完整交付，再验证留存与单位经济。
-summary_en: Users delegate email, booking, shopping and calendar work to Meta Muse, which acts through
-  authorised services and asks for approval at important steps.
-inspiration_en: 'Inference: personal assistance is moving into delegated execution. Focus on one recurring
-  task, with approvals, recovery and verifiable delivery, then test retention and economics.'
+summary_zh: Meta 把 Muse 助手从 iPhone 扩到 iPad，用户在平板上打开它处理日常问答与任务类请求；候选材料只支持“发布到 iPad”这一事实，它具体接收什么材料、执行哪些动作、交付什么结果仍待核验。
+inspiration: 趋势：大厂把通用助手从手机铺到平板，说明入口之争正从单一设备转向多设备常驻。切入：通用问答已被大厂占据，创业方向不在复刻助手，而在把助手嵌进某个具体行业已有的材料流（如保单、图纸、报关单）并交付可核对结果；Meta
+  Muse 本身尚无公开定价与采用数据，窗口判断需等更多事实。
+summary_en: Meta extended its Muse assistant from iPhone to iPad, where users open it for everyday questions
+  and task requests; the candidate material only supports the iPad release, and what it ingests, does
+  and delivers still needs verification.
+inspiration_en: 'Trend: a big platform pushing a general assistant from phone to tablet shows the entry-point
+  race moving to multi-device presence. Angle: general Q&A is taken; the opening is embedding assistants
+  into a specific industry''s existing material flow (policies, drawings, customs forms) and delivering
+  checkable output. Meta Muse has no public pricing or adoption data yet, so window judgment waits on
+  more facts.'
 priority_review: true
 project_type: new_application
-industries:
-- 个人事务服务
-industries_en:
-- Personal administration
-jobs:
-- 个人用户
-jobs_en:
-- Individual users
-regions:
-- 美国
-regions_en:
-- United States
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
 open_source: false
 url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: queued
 sources:
 - producthunt
 - marketfeeds

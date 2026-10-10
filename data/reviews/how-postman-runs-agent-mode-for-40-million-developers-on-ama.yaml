@@ -1,0 +1,89 @@
+- id: req-initial-how-postman-runs-agent-mode-for-40-million-developers-on-ama-2026-10-10
+  project_slug: how-postman-runs-agent-mode-for-40-million-developers-on-ama
+  level: initial
+  reviewed_at: '2026-10-10T01:46:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在界面复杂的老工具里快速完成接口测试与文档更新的需求，痛点是找入口和搬运上下文耗时；候选材料未给出用户采用数据，属工作流推理。
+    evidence_ids:
+    - ev-84239091e6e35316
+  - gate: consensus
+    status: insufficient
+    reason: 文中提到约 4000 万开发者是 Postman 整体用户规模，不能归因到 Agent Mode 本身，缺少该功能的使用或留存证据。
+    evidence_ids:
+    - ev-84239091e6e35316
+  - gate: model
+    status: insufficient
+    reason: 未披露 Agent Mode 是否单独收费或包含在既有订阅中，买方与付费路径不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-84239091e6e35316
+  - gate: truth
+    status: insufficient
+    reason: 文章侧重架构与集成，未说明智能体执行出错时的回滚与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-84239091e6e35316
+  next_validation: 收集 Postman 官方关于 Agent Mode 的定价或套餐说明，确认该功能是否单独计费及其包含范围。
+  market: ''
+  job: 日常维护接口的开发者，在调试请求、补写接口文档或查找某个 API 用法时，面对散落在侧边栏、标签页和集合里的历史内容，需要快速定位并完成一次测试或文档更新。
+  job_en: A developer maintaining APIs who, while debugging a request, updating endpoint docs or looking
+    up how an API works, faces content scattered across sidebars, tabs and collections and needs to locate
+    it and finish a test or doc update quickly.
+  pain: 老产品的信息藏在多层界面里，找入口本身就要花时间，跨测试、文档、发现几个环节还要手工搬运上下文。
+  pain_en: In a mature product the information hides behind multiple interface layers, so finding the
+    entry point costs time and context must be carried by hand across testing, docs and discovery.
+  current_alternative: 开发者现在靠记忆和界面导航逐层点开，或把接口信息复制到聊天助手和编辑器里另行处理。
+  current_alternative_en: Developers today rely on memory and interface navigation, or copy API details
+    into a chat assistant and an editor to handle separately.
+  usage_reason: 推断：相较逐层点开界面再手工复制上下文，它把测试、文档与接口发现合并到一次自然语言请求里，省掉定位入口和搬运中间信息这一步，因此已在 Postman 里积累大量接口资产的团队在赶版本时更可能用它。
+  usage_reason_en: 'Inference: versus clicking through layers and copying context by hand, it folds testing,
+    docs and discovery into one natural-language request, removing the step of locating entry points and
+    moving intermediate information, so teams with large existing API assets in Postman are more likely
+    to use it near a release.'
+- id: req-full-how-postman-runs-agent-mode-for-40-million-developers-on-ama-2026-10-10
+  project_slug: how-postman-runs-agent-mode-for-40-million-developers-on-ama
+  level: full
+  reviewed_at: '2026-10-10T02:30:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在界面复杂的老工具里快速完成接口测试与文档更新的需求，痛点是找入口和搬运上下文耗时；候选材料未给出该功能的用户采用数据，属工作流结构推理。
+    evidence_ids:
+    - ev-795663a5951c9b41
+    - ev-fcf449aaab7a7bde
+  - gate: consensus
+    status: insufficient
+    reason: 文中提到约 4000 万开发者是 Postman 整体用户规模，不能归因到 Agent Mode 本身，缺少该功能的使用或留存证据。
+    evidence_ids:
+    - ev-ea41ef24cdfc76ed
+  - gate: model
+    status: insufficient
+    reason: 未披露 Agent Mode 是否单独收费或包含在既有订阅中，买方与付费路径不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-795663a5951c9b41
+  - gate: truth
+    status: insufficient
+    reason: 文章侧重架构与集成，未说明智能体执行出错时的回滚与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-f21a55a86f481efb
+  next_validation: 收集 Postman 官方关于 Agent Mode 的定价或套餐说明，确认该功能是否单独计费及其包含范围。
+  market: ''
+  job: 日常维护接口的开发者，在调试请求、补写接口文档或查找某个 API 用法时，面对散落在侧边栏、标签页和集合里的历史内容，需要快速定位并完成一次测试或文档更新。
+  job_en: A developer maintaining APIs who, while debugging a request, updating endpoint docs or looking
+    up how an API works, faces content scattered across sidebars, tabs and collections and needs to locate
+    it and finish a test or doc update quickly.
+  pain: 老产品的信息藏在多层界面里，找入口本身就要花时间，跨测试、文档、发现几个环节还要手工搬运上下文。
+  pain_en: In a mature product the information hides behind multiple interface layers, so finding the
+    entry point costs time and context must be carried by hand across testing, docs and discovery.
+  current_alternative: 开发者现在靠记忆和界面导航逐层点开，或把接口信息复制到聊天助手和编辑器里另行处理。
+  current_alternative_en: Developers today rely on memory and interface navigation, or copy API details
+    into a chat assistant and an editor to handle separately.
+  usage_reason: 推断：相较逐层点开界面再手工复制上下文，它把测试、文档与接口发现合并到一次自然语言请求里，省掉定位入口和搬运中间信息这一步，因此已在 Postman 里积累大量接口资产的团队在赶版本时更可能用它。
+  usage_reason_en: 'Inference: versus clicking through layers and copying context by hand, it folds testing,
+    docs and discovery into one natural-language request, removing the step of locating entry points and
+    moving intermediate information, so teams with large existing API assets in Postman are more likely
+    to use it near a release.'

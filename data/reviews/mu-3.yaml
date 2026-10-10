@@ -1,0 +1,84 @@
+- id: req-initial-mu-3-2026-10-10
+  project_slug: mu-3
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理对每个请求都调用大模型带来的成本与延迟问题，旧做法是单模型或手动切换，结构上成立。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，没有开发者采用、评测或讨论证据，共识尚未形成。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  - gate: model
+    status: insufficient
+    reason: 开源项目无可见定价，买方可能是自托管团队或企业，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  - gate: truth
+    status: insufficient
+    reason: 分层路由是否真的降低总成本、是否影响代码正确率，均无公开评测可核对。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  next_validation: 收集该仓库的 issue、discussion 或基准测试说明，确认分层路由在真实任务上的成本与通过率对比数据。
+  market: ''
+  job: 软件工程师在仓库中让编码代理处理日常改动时，处理代码与任务描述，要完成一次可用的代码修改，同时控制大模型调用成本。
+  job_en: Software engineers letting a coding agent handle routine repository changes process code and
+    task descriptions to complete a usable code change while controlling large-model call costs.
+  pain: 编码代理把每个请求都交给大模型，常规小改动也付出高延迟与高成本，团队难以按任务难度分配算力。
+  pain_en: Coding agents send every request to a large model, so even routine small edits carry high latency
+    and cost, and teams cannot allocate compute by task difficulty.
+  current_alternative: 直接使用单一模型的编码代理，或手动在便宜与昂贵模型之间切换。
+  current_alternative_en: Using a single-model coding agent, or manually switching between cheap and expensive
+    models.
+  usage_reason: 推断：相较单一模型代理，它先用小模型判断常规调用再交给大模型执行，减少每次请求都调用大模型这一步，因此对调用成本敏感的独立开发者或小团队会尝试；是否长期使用缺少留存证据。
+  usage_reason_en: 'Inference: versus a single-model agent, it uses a small model to judge routine calls
+    before handing work to a large model, removing the step of calling the large model on every request,
+    so cost-sensitive indie developers or small teams would try it; retention evidence is missing.'
+- id: req-full-mu-3-2026-10-10
+  project_slug: mu-3
+  level: full
+  reviewed_at: '2026-10-10T02:31:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理对每个请求都调用大模型带来的成本与延迟问题，旧做法是单模型或手动切换，结构上成立。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，没有开发者采用、评测或讨论证据，共识尚未形成。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  - gate: model
+    status: insufficient
+    reason: 开源项目无可见定价，买方可能是自托管团队或企业，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  - gate: truth
+    status: insufficient
+    reason: 分层路由是否真的降低总成本、是否影响代码正确率，均无公开评测可核对。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  next_validation: 收集该仓库的 issue、discussion 或基准测试说明，确认分层路由在真实任务上的成本与通过率对比数据。
+  market: ''
+  job: 软件工程师在本地仓库中让编码代理处理日常改动时，输入代码上下文与任务描述，要完成一次可用的代码修改，同时控制大模型调用成本。
+  job_en: Software engineers letting a coding agent handle routine repository changes input code context
+    and task descriptions to produce a usable code change while controlling large-model call costs.
+  pain: 编码代理把每个请求都交给大模型，常规小改动也付出高延迟与高成本，团队无法按任务难度分配算力。
+  pain_en: Coding agents route every request to a large model, so even routine small edits carry high
+    latency and cost, and teams cannot allocate compute by task difficulty.
+  current_alternative: 直接使用单一模型的编码代理，或手动在便宜与昂贵模型之间切换。
+  current_alternative_en: Using a single-model coding agent, or manually switching between cheap and expensive
+    models.
+  usage_reason: 推断：相较单一模型代理，它先用小模型判断常规调用再交给大模型执行，减少每次请求都调用大模型这一步，因此对调用成本敏感的独立开发者或小团队会尝试；是否长期使用缺少留存证据。
+  usage_reason_en: 'Inference: versus a single-model agent, it uses a small model to judge routine calls
+    before handing work to a large model, removing the step of calling the large model on every request,
+    so cost-sensitive indie developers or small teams would try it; retention evidence is missing.'

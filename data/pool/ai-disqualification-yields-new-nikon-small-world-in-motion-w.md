@@ -33,7 +33,7 @@ summary: 'Credit: Nguyen Nam Nhat. Last month we covered the winner of Nikon''s 
   and'
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

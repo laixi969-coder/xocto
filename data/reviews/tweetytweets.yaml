@@ -334,3 +334,56 @@
     reducing step-by-step operation and the burden of checking whether a post succeeded, so small-team
     operators who must keep an account active without maintaining a publishing pipeline may choose it;
     no user feedback or case yet confirms this motive.'
+- id: req-full-tweetytweets-2026-10-10
+  project_slug: tweetytweets
+  level: full
+  reviewed_at: '2026-10-10T02:33:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是无 API 密钥、无付费抓取预算下持续发帖的任务：调研领域话题、按本人语气成稿、浏览器发布并回查。痛点在于断更损失曝光、人工逐条操作耗时、API 与抓取工具存在成本门槛；旧做法是人工选题撰写发布或付费排程工具。以上为工作流结构推理，仓库自述为公开事实。
+    evidence_ids:
+    - ev-6d10d5af2e1e8bcd
+    - ev-97f221a65ed269d3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 48 升至 62，说明开发者社区注意到该项目，但收藏与关注只属规模信号，不能证明目标运营者已把它留在日常发帖流程中；缺少 issue、discussion 或用户反馈说明实际使用场景与持续采用。
+    evidence_ids:
+    - ev-6d10d5af2e1e8bcd
+    - ev-97f221a65ed269d3
+    - ev-3fc33dd10ae18244
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库自述，没有定价页、付费记录或采购信息，无法判断收入来自 to C 订阅、to B 部署还是仅靠开源与融资维持；这是判断而非已验证事实，不因此否定需求本身。
+    evidence_ids:
+    - ev-6d10d5af2e1e8bcd
+    - ev-91889427f49ae6b4
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺通过真实浏览器发布并自检，但公开材料未说明账号授权方式、内容审核环节、发布失败与平台风控的处理边界，交付能否稳定发生缺少可复现证据；贴近持续发帖这一第一性目标，但确定性交付尚未核验。
+    evidence_ids:
+    - ev-6d10d5af2e1e8bcd
+    - ev-41ce734c6b5ba8eb
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有用户公开描述实际部署场景、账号授权方式与发布失败处理，作为持续采用与确定性交付的公开证据。
+  market: ''
+  job: 个人品牌运营者或小团队社媒负责人，在没有 X API 密钥和付费抓取预算的情况下，需要围绕自己所在领域持续产出并发布帖子：先调研领域话题，再按本人语气写成推文，通过真实浏览器发布并回查是否发出。
+  job_en: 'A personal-brand operator or small-team social lead without an X API key or paid scraping budget
+    needs to keep posting in their niche: research niche topics, draft tweets in their own voice, publish
+    through a real browser, and verify the post actually went out.'
+  pain: 持续发帖是高频且不能断更的任务，断更会损失账号曝光与关注积累；而官方 API 门槛与付费抓取工具构成成本与权限障碍，人工逐条选题、撰写、发布、核对也占用大量时间。公开材料只给出产品自述，痛点强度属工作流结构推理。
+  pain_en: Continuous posting is a high-frequency, non-stoppable task; gaps cost reach and follower accumulation,
+    while official API barriers and paid scrapers add cost and permission friction, and manual topic-picking,
+    drafting, posting and checking consume time. Public material only offers the product's own description,
+    so pain intensity is a workflow inference.
+  current_alternative: 旧做法是人工刷领域信息选题、手写推文、手动登录发布并事后翻看时间线确认是否发出；或使用需要 API 密钥、付费抓取额度的第三方排程与自动化工具。
+  current_alternative_en: The old way is manually scanning the niche for topics, hand-writing tweets,
+    logging in to post, and later checking the timeline to confirm it went out; or using third-party schedulers
+    and automation that require API keys or paid scraping quotas.
+  usage_reason: 推断：相较人工逐条操作或依赖 API 的排程工具，它把调研、按语气成稿、浏览器发布与发布后自检串成一条自动流水线，免去申请 API 密钥和购买抓取额度这两步，因此没有开发资源、又必须维持账号更新的个人运营者或小团队会在需要持续发帖时选择它。
+  usage_reason_en: 'Inference: versus manual step-by-step work or API-dependent schedulers, it chains
+    research, voice-matched drafting, browser publishing and post-publish self-checking into one automated
+    pipeline, removing the steps of obtaining an API key and buying scraping quota, so solo operators
+    or small teams without dev resources who must keep an account active would pick it when continuous
+    posting is required.'

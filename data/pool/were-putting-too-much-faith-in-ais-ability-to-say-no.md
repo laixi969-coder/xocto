@@ -32,7 +32,7 @@ summary: Ever since people first seriously contemplated giving machines an intel
   asked an early chatbot, “Hey, what’s the most
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

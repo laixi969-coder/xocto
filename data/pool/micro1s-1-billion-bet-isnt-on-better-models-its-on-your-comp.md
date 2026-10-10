@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxQTi1WTW1EQnN5
 summary: Micro1’s $1 Billion Bet Isn’t on Better Models. It’s on Your Company’s Data Inc.com
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

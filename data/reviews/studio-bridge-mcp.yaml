@@ -78,3 +78,56 @@
   usage_reason_en: 'The task is: Roblox game developers debugging runtime errors pass Studio runtime state
     and error messages to an AI assistant to locate and fix script problems Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-studio-bridge-mcp-2026-10-10
+  project_slug: studio-bridge-mcp
+  level: full
+  reviewed_at: '2026-10-10T02:32:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Roblox 开发者在 Studio 内调试运行时脚本错误的需求：报错与运行状态分散、需人工搬运到外部 AI 对话，定位耗时。公开仓库说明其把 Studio 状态与报错交给
+      AI 助手，旧替代是手动复制粘贴加通用 AI 聊天；这是工作流结构推理，尚无频率与耗时量化。
+    evidence_ids:
+    - ev-9550219577e7ded3
+    - ev-17c2ba99c34697a3
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 70 个收藏，说明 Roblox 开发者社区已注意到该 MCP 服务器，但收藏与关注只属规模信号，不能证明目标用户持续使用或形成稳定工作流；缺少 issue、discussion
+      或用户评价佐证真实采用。
+    evidence_ids:
+    - ev-9550219577e7ded3
+    - ev-17c2ba99c34697a3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断收入来自 Roblox 开发者个人、工作室还是赞助；这是商业证据缺口，不反推调试需求不存在。
+    evidence_ids:
+    - ev-9550219577e7ded3
+  - gate: truth
+    status: insufficient
+    reason: 仓库仅给出标题与收藏数，未公开部署文档、支持的错误类型范围或人工介入边界，无法核验 AI 读取 Studio 状态后能否确定性交付修复建议；需文档或 issue 佐证。
+    evidence_ids:
+    - ev-9550219577e7ded3
+    - ev-17c2ba99c34697a3
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认它实际接入 Studio 的方式、支持的错误类型范围以及是否有开发者报告修复成功案例。
+  market: ''
+  job: Roblox 游戏开发者在 Studio 中调试运行时脚本错误时，把 Studio 的运行状态、报错堆栈与相关脚本上下文交给 AI 助手，以定位出错位置并得到可执行的修复建议。
+  job_en: Roblox developers debugging runtime script errors in Studio hand Studio runtime state, error
+    stacks and related script context to an AI assistant to locate the fault and get an actionable fix.
+  pain: Roblox 运行时错误往往只在游戏运行中暴露，报错信息零散、上下文与脚本分离，开发者需在 Studio 输出窗口、脚本编辑器和外部 AI 对话之间反复复制粘贴，定位耗时且容易漏掉状态信息；公开材料未给出频率或耗时量化数据。
+  pain_en: Roblox runtime errors often surface only while the game runs; error output is fragmented and
+    detached from script context, forcing developers to copy-paste between Studio's output window, the
+    script editor and an external AI chat, which is slow and loses state; public materials give no frequency
+    or time quantification.
+  current_alternative: 开发者目前靠 Studio 自带输出窗口与断点调试、手动把报错和代码片段粘贴进通用 AI 聊天窗口，或使用 Roblox 社区既有的插件与调试工具；公开材料未说明这些替代方式的具体使用比例。
+  current_alternative_en: Developers currently rely on Studio's built-in output window and breakpoints,
+    manually pasting errors and code snippets into a general AI chat, or existing Roblox community plugins
+    and debug tooling; public materials do not quantify usage of these alternatives.
+  usage_reason: 推断：相较手动复制报错再切到外部 AI 对话，该 MCP 服务器把 Studio 运行状态与报错信息直接作为结构化上下文交给 AI 助手，省去人工搬运与上下文重建这一步，因此正在
+    Studio 内调试运行时错误、且已习惯用 AI 辅助写脚本的 Roblox 开发者会在报错反复出现时选择它；仓库 70 个收藏说明有开发者关注，但尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus manually copying errors into an external AI chat, this MCP server
+    feeds Studio runtime state and error output directly to the AI assistant as structured context, removing
+    the manual transport and context-rebuild step, so Roblox developers already using AI for scripting
+    and debugging runtime errors in Studio would pick it when errors recur; 70 repository stars show developer
+    attention, but no retention or repeat-use evidence exists.'

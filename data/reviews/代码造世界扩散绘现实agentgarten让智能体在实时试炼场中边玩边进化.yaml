@@ -1,0 +1,82 @@
+- id: req-initial-代码造世界扩散绘现实agentgarten让智能体在实时试炼场中边玩边进化-2026-10-10
+  project_slug: 代码造世界扩散绘现实agentgarten让智能体在实时试炼场中边玩边进化
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决智能体缺乏可反复试错环境的问题，但公开材料未说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-132246869f1ed66e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有单一报道，缺少社区讨论、采用或复现记录，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-132246869f1ed66e
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料未说明买方、收费方式或交付边界，无法判断钱从哪来。
+    evidence_ids:
+    - ev-132246869f1ed66e
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验其环境是否贴近真实工作目标、承诺能否确定性交付，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-132246869f1ed66e
+  next_validation: 收集该项目的官方仓库或项目页，核验其环境接口、可复现实验说明与 issue/discussion 中的实际使用反馈。
+  market: ''
+  job: 研究团队或智能体开发者在需要验证智能体在动态环境中的决策能力时，用可交互的实时环境让智能体反复试错并观察其进化过程。
+  job_en: Research teams or agent developers who need to test an agent's decision-making in dynamic settings
+    use an interactive real-time environment to let agents trial-and-error and observe their evolution.
+  pain: 公开材料只说明存在一个试炼场，未说明谁在什么节点遇到什么具体困难，痛点无法还原。
+  pain_en: Public material only says a training ground exists; it does not say who hits which concrete
+    difficulty at what point, so the pain cannot be reconstructed.
+  current_alternative: 现有做法可能是自建仿真环境或使用通用基准测试，候选材料未提供对比。
+  current_alternative_en: The current alternative may be building in-house simulation environments or
+    using generic benchmarks; the candidate material offers no comparison.
+  usage_reason: 推断：若环境搭建成本低于自建仿真，需要频繁评测智能体的团队可能选择它；但缺少采用与留存证据，无法确认。
+  usage_reason_en: 'Inference: if setting up the environment costs less than building simulation in-house,
+    teams that evaluate agents frequently might choose it; adoption and retention evidence is missing,
+    so this cannot be confirmed.'
+- id: req-full-代码造世界扩散绘现实agentgarten让智能体在实时试炼场中边玩边进化-2026-10-10
+  project_slug: 代码造世界扩散绘现实agentgarten让智能体在实时试炼场中边玩边进化
+  level: full
+  reviewed_at: '2026-10-10T02:33:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决智能体缺乏可反复试错环境的问题，但公开材料未说明具体用户任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-132246869f1ed66e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或项目页，核验其环境接口、可复现实验说明与 issue/discussion 中的实际使用反馈。
+  market: ''
+  job: 智能体研究者或开发者需要在一个可交互的实时环境中反复运行智能体、观察其试错与进化过程，以完成训练或评测任务；但公开材料未说明输入材料、运行方式与交付结果。
+  job_en: Agent researchers or developers need to run agents repeatedly inside an interactive real-time
+    environment and observe trial-and-error and evolution to complete training or evaluation; public material
+    does not state the inputs, run method, or deliverables.
+  pain: 公开材料只有一句“让AI反复试错的练兵场来了”，没有说明谁在什么节点遇到什么具体困难，痛点无法还原。
+  pain_en: Public material offers only one line about a training ground for AI trial-and-error; it does
+    not say who hits which concrete difficulty at what point, so the pain cannot be reconstructed.
+  current_alternative: 候选材料未提供任何对比，无法确认现有替代方式是自建仿真环境、通用基准测试还是其他做法。
+  current_alternative_en: The candidate material offers no comparison, so it is impossible to confirm
+    whether the current alternative is in-house simulation, generic benchmarks, or something else.
+  usage_reason: 推断：若该环境能省去自建仿真的搭建步骤，频繁评测智能体的团队可能选择它；但缺少采用、留存或客户反馈证据，无法确认用户为何选择。
+  usage_reason_en: 'Inference: if the environment removes the step of building simulation in-house, teams
+    that evaluate agents frequently might choose it; adoption, retention, or customer-feedback evidence
+    is missing, so why users choose it cannot be confirmed.'

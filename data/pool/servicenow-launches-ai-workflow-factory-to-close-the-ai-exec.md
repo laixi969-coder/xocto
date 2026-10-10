@@ -1,6 +1,6 @@
 ---
 slug: servicenow-launches-ai-workflow-factory-to-close-the-ai-exec
-name: ServiceNow Launches AI Workflow Factory to Close the AI Execution Gap
+name: ServiceNow
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2ZfeVhGdXVv
 summary: ServiceNow Launches AI Workflow Factory to Close the AI Execution Gap The Futurum Group
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# ServiceNow Launches AI Workflow Factory to Close the AI Execution Gap
+# ServiceNow
 
 ServiceNow Launches AI Workflow Factory to Close the AI Execution Gap The Futurum Group
 

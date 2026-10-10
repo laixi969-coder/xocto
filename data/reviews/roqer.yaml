@@ -80,3 +80,56 @@
   usage_reason_en: 'The task is: Roblox independent developers or small studios completing build-to-playtest
     development tasks while constructing scenes, writing scripts and playtesting in Roblox Studio Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-roqer-2026-10-10
+  project_slug: roqer
+  level: full
+  reviewed_at: '2026-10-10T02:32:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Roblox 单人开发者在 Studio 内构建、写脚本、试玩三步来回切换的需求，痛点是手工写脚本与手动跑测试的重复负担；公开说明显示代理在项目内完成这三步并产出可运行改动，属工作流结构推理，用户抱怨与耗时数据仍缺。
+    evidence_ids:
+    - ev-339b17134fcc7a5a
+    - ev-18cea60d22092111
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网与 公开代码仓库 仓库的产品自述，没有开发者讨论、issue 或评价显示目标用户已把它纳入日常流程；公开代码仓库 收藏与复刻属关注度，不能证明持续采用。
+    evidence_ids:
+    - ev-18cea60d22092111
+    - ev-90980d8ca75a7bd9
+  - gate: model
+    status: insufficient
+    reason: 产品标注 free、open-source，并让用户自带 ChatGPT/Claude 订阅，公开材料未说明任何收费路径或买方；这是判断而非已验证事实，开源免费不等于没有需求，但商业证据尚未核验。
+    evidence_ids:
+    - ev-cc7d8de269a7d133
+    - ev-dd34edcf11a9117c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理在 Studio 内的权限边界、人工确认点、失败回滚方式，也未提供可复现的试玩验证记录；交付能否稳定发生仍缺公开证据。
+    evidence_ids:
+    - ev-339b17134fcc7a5a
+    - ev-7f22388d79a97dcb
+  next_validation: 追踪 Roqer 的 公开代码仓库 仓库 issue 与 discussion，确认是否有 Roblox 开发者报告实际在 Studio 中部署使用、替代了哪一步手工流程，以及代理的权限与确认边界。
+  market: ''
+  job: Roblox 独立开发者或小型工作室在 Roblox Studio 中搭建场景、编写 Luau 脚本并反复试玩验证时，需要把一句自然语言需求变成可运行的项目改动，并确认改动在游戏里真的能跑起来。
+  job_en: Roblox indie developers or small studios building scenes, writing Luau scripts and repeatedly
+    playtesting in Roblox Studio need to turn a natural-language request into runnable project changes
+    and confirm they actually work in-game.
+  pain: Roblox Studio 的构建、脚本与试玩是三个来回切换的环节，单人开发者要自己写脚本、手动跑测试、再回头改；公开材料只说明 Roqer 代做这三步，未给出用户抱怨、耗时或返工数据，因此痛点强度属工作流结构推理而非用户口述。
+  pain_en: Building, scripting and playtesting are three context switches in Roblox Studio that a solo
+    developer must perform by hand; public materials only show Roqer doing these three steps and provide
+    no user complaints, time cost or rework data, so pain intensity is a workflow-structure inference,
+    not user testimony.
+  current_alternative: 旧做法是开发者自己在 Studio 里手写脚本、手动运行试玩、再根据报错修改，或把 ChatGPT/Claude 的对话结果复制粘贴回 Studio；Roqer
+    的公开说明未描述这些替代流程的细节。
+  current_alternative_en: The old way is for the developer to hand-write scripts in Studio, manually run
+    playtests and fix errors, or copy ChatGPT/Claude chat output back into Studio; Roqer's public description
+    does not detail these alternatives.
+  usage_reason: 推断：相较手动写脚本再切窗口试玩，Roqer 把构建、写脚本、试玩三步收进 Studio 内的一个代理动作，并用用户已有的 ChatGPT/Claude 订阅驱动，省去在聊天窗口与
+    Studio 之间复制粘贴和手动跑测试的步骤；因此单人 Roblox 开发者会在需要快速把想法变成可运行改动时选择它。
+  usage_reason_en: 'Inference: versus hand-writing scripts and switching windows to playtest, Roqer folds
+    build, script and playtest into one in-Studio agent action driven by the user''s existing ChatGPT/Claude
+    subscription, removing copy-paste between chat and Studio and manual test runs; solo Roblox developers
+    would pick it when they need to turn an idea into runnable changes quickly.'

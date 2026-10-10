@@ -1,0 +1,86 @@
+- id: req-initial-hark-2026-10-10
+  project_slug: hark
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有一句定位，连它替用户处理哪类生活事务、痛点是什么都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-b74a89762911c1d5
+  - gate: consensus
+    status: insufficient
+    reason: 没有使用数据、评价或场景证据，无法判断是否卡在感知、想象还是场景环节。
+    evidence_ids:
+    - ev-b74a89762911c1d5
+  - gate: model
+    status: insufficient
+    reason: 未见定价或买方信息，钱从 to C 还是其他方向来无法判断。
+    evidence_ids:
+    - ev-b74a89762911c1d5
+  - gate: truth
+    status: insufficient
+    reason: 交付内容与人工边界均未披露，无法核对承诺能否确定性发生。
+    evidence_ids:
+    - ev-b74a89762911c1d5
+  next_validation: 收集 Hark 产品页或官方说明，确认它具体处理哪类生活事务、交付什么可核对结果以及是否收费。
+  market: ''
+  job: 材料未说明谁在什么情况下打开它、处理什么材料、要完成什么任务，无法还原具体生活节点。
+  job_en: The material does not say who opens it, in what situation, with what material, to finish what
+    task, so the specific life moment cannot be reconstructed.
+  pain: 只有一句定位，未说明用户现在为哪些生活事务感到麻烦、不采用会失去什么。
+  pain_en: Only a one-line positioning is given, with no account of which life chores trouble users today
+    or what they lose by not adopting it.
+  current_alternative: 材料未说明现有替代方式，可能仍是自己处理或使用通用助手。
+  current_alternative_en: The material describes no current alternative; it may still be handling things
+    personally or using a general assistant.
+  usage_reason: 无法判断：缺少场景、输入输出与交付描述，不能推断用户为何选择它；产品页定位只属于关注度信号。
+  usage_reason_en: 'Cannot be judged: with no scenario, input-output or delivery description, there is
+    no basis to infer why a user would choose it; the product-page positioning is an attention signal
+    only.'
+- id: req-full-hark-2026-10-10
+  project_slug: hark
+  level: full
+  reviewed_at: '2026-10-10T02:30:11Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 官网仅称 Handoff 可像用户一样上网建站、研究、下单、做幻灯片，但未说明谁在什么生活场景下处理什么材料、要完成什么任务，也写不出具体痛点与不采用后果，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-74b74c855f4b54b5
+    - ev-67673516f85e70cc
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Hark 官网产品页与文档，确认 Handoff 具体接收什么输入、在哪些生活场景执行动作、交付什么可核对结果，以及是否公布定价或客户案例。
+  market: ''
+  job: 材料未说明谁在什么情况下打开 Hark、处理什么材料、要完成什么任务；官网仅称其 computer use agent「Handoff」可像用户一样使用互联网，能建站、做研究、下单、做幻灯片，但未给出具体生活节点与输入材料。
+  job_en: The material does not say who opens Hark, in what situation, with what material, to finish what
+    task; the site only says its computer-use agent 'Handoff' can use the internet like the user, building
+    sites, doing research, placing orders and making slides, without naming a concrete life moment or
+    input material.
+  pain: 公开材料只给出「替用户提前处理生活事务」的定位，未说明用户当前为哪些事务感到麻烦、不采用会失去什么，也没有用户抱怨或 workaround 证据。
+  pain_en: The public material gives only the positioning of handling life before the user has to, with
+    no account of which chores trouble users today or what they lose by not adopting it, and no user complaints
+    or workaround evidence.
+  current_alternative: 材料未描述现有替代方式；按能力推断，用户可能仍自己操作浏览器完成建站、研究、下单、做幻灯片，或使用通用助手，但这是推断而非公开事实。
+  current_alternative_en: The material describes no current alternative; by capability inference users
+    may still operate the browser themselves for building sites, research, ordering and slides, or use
+    a general assistant, but this is inference, not public fact.
+  usage_reason: 无法判断：缺少场景、输入输出与交付描述，不能推断用户为何选择它；官网定位与登录页文案只属于关注度信号，不能解释采用动机。
+  usage_reason_en: 'Cannot be judged: with no scenario, input-output or delivery description, there is
+    no basis to infer why a user would choose it; the site positioning and login copy are attention signals
+    only and cannot explain adoption motive.'

@@ -1,0 +1,84 @@
+- id: req-initial-ai-startup-manus-raises-500m-in-funding-round-led-by-tencent-2026-10-10
+  project_slug: ai-startup-manus-raises-500m-in-funding-round-led-by-tencent
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨网站检索与资料整理的需求，痛点是人工逐页复制耗时易漏；旧替代是浏览器加文档工具，结构上成立。
+    evidence_ids:
+    - ev-264afa3c55257bc4
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资消息，没有公开采用规模、留存或客户案例，行业共识无法判断。
+    evidence_ids:
+    - ev-264afa3c55257bc4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费用户结构，5 亿美元融资说明资本侧资金充足，但收入路径仍是推断。
+    evidence_ids:
+    - ev-264afa3c55257bc4
+  - gate: truth
+    status: insufficient
+    reason: 没有公开的任务成功率、失败处理与人工确认机制，交付确定性无法核对。
+    evidence_ids:
+    - ev-264afa3c55257bc4
+  next_validation: 收集 Manus 官方定价页或公开客户案例，核对任务交付范围、失败处理与计费方式。
+  market: ''
+  job: 知识工作者在需要跨网站检索、汇总资料并产出报告或网页时，把整段任务交给代理执行并检查结果。
+  job_en: Knowledge workers hand an entire research-and-produce task to an agent when they need cross-site
+    retrieval, compiled material and a report or page, then check the result.
+  pain: 跨网站检索与整理耗时且琐碎，人工复制粘贴容易漏项，长任务中途还要反复切换工具。
+  pain_en: Cross-site research and compilation are time-consuming and fragmented; manual copy-paste misses
+    items and long tasks force constant tool switching.
+  current_alternative: 人工用浏览器加文档工具逐页整理，或使用只能对话、不能持续执行任务的聊天助手。
+  current_alternative_en: Manually compiling page by page with a browser and document tools, or using
+    chat assistants that converse but cannot carry a task through.
+  usage_reason: 相较聊天助手只给建议，它直接执行浏览与整理并交付文件，减少用户逐页复制和拼接这一步；推断在需要一次性产出完整资料包时，知识工作者会优先选择它。
+  usage_reason_en: 'Unlike chat assistants that only advise, it executes browsing and compilation and
+    delivers a file, removing the step of copying and stitching pages by hand; inference: knowledge workers
+    would pick it when a complete research pack must be produced in one pass.'
+- id: req-full-ai-startup-manus-raises-500m-in-funding-round-led-by-tencent-2026-10-10
+  project_slug: ai-startup-manus-raises-500m-in-funding-round-led-by-tencent
+  level: full
+  reviewed_at: '2026-10-10T02:28:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨网站检索与资料整理的需求，痛点是人工逐页复制耗时易漏；旧替代是浏览器加文档工具，结构推理成立。
+    evidence_ids:
+    - ev-90d3aff5e95ac252
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与收购报道，缺少公开采用规模、留存或客户案例，无法判断行业共识是否形成。
+    evidence_ids:
+    - ev-9e9d85d5784afded
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费用户结构，5 亿美元融资说明资本侧资金充足，但收入路径仍是推断。
+    evidence_ids:
+    - ev-9e9d85d5784afded
+  - gate: truth
+    status: insufficient
+    reason: 没有公开的任务成功率、失败处理与人工确认机制，交付确定性无法核对。
+    evidence_ids:
+    - ev-90d3aff5e95ac252
+  next_validation: 收集 Manus 官方定价页或公开客户案例，核对任务交付范围、失败处理与计费方式。
+  market: ''
+  job: 知识工作者在需要跨网站检索、汇总资料并产出报告或网页时，把整段任务交给通用代理执行，再核对修改成品。
+  job_en: Knowledge workers hand an end-to-end research-and-produce task to a general agent when they
+    need cross-site retrieval, compiled material and a report or page, then review and revise the deliverable.
+  pain: 跨网站检索与整理耗时琐碎，人工逐页复制粘贴容易漏项，长任务还要在浏览器、文档与聊天工具间反复切换。
+  pain_en: Cross-site research and compilation are time-consuming and fragmented; manual page-by-page
+    copying misses items, and long tasks force constant switching among browser, document and chat tools.
+  current_alternative: 人工用浏览器加文档工具逐页整理，或使用只能对话、不能持续执行任务的聊天助手。
+  current_alternative_en: Manually compiling page by page with a browser and document tools, or using
+    chat assistants that converse but cannot carry a task through.
+  usage_reason: 相较聊天助手只给建议，它直接执行浏览与整理并交付文件，减少用户逐页复制和拼接这一步；推断在需要一次性产出完整资料包时，知识工作者会优先选择它。
+  usage_reason_en: 'Unlike chat assistants that only advise, it executes browsing and compilation and
+    delivers a file, removing the step of copying and stitching pages by hand; inference: knowledge workers
+    would pick it when a complete research pack must be produced in one pass.'

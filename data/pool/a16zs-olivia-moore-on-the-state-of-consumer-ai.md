@@ -22,7 +22,7 @@ summary: Moore sees a huge opportunity in consumer AI, particularly if the indus
   streams beyond just subscriptions and API charges.
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: singapores-onebyzero-raises-20-million-to-take-enterprise-ai
-name: Singapore’s OneByZero Raises $20 Million to Take Enterprise AI Further Across Asia
+name: OneByZero
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMie0FVX3lxTE1MSkM0WUNvb09y
 summary: Singapore’s OneByZero Raises $20 Million to Take Enterprise AI Further Across Asia Kingy AI
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Singapore’s OneByZero Raises $20 Million to Take Enterprise AI Further Across Asia
+# OneByZero
 
 Singapore’s OneByZero Raises $20 Million to Take Enterprise AI Further Across Asia Kingy AI
 

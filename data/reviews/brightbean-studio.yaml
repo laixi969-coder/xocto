@@ -1,0 +1,89 @@
+- id: req-initial-brightbean-studio-2026-10-10
+  project_slug: brightbean-studio
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多平台内容分散排期的问题，但公开材料未说明替代了哪一步旧工作，需求强度无法判断。
+    evidence_ids:
+    - ev-f651e6345e7ed7b1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页定位描述，缺少用户评价、客户案例或持续使用证据。
+    evidence_ids:
+    - ev-f651e6345e7ed7b1
+  - gate: model
+    status: insufficient
+    reason: 开源且未披露定价与买方，付费路径尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f651e6345e7ed7b1
+  - gate: truth
+    status: insufficient
+    reason: 无法核对排期发布是否稳定执行，也未见人工确认边界。
+    evidence_ids:
+    - ev-f651e6345e7ed7b1
+  next_validation: 收集 BrightBean Studio 官方定价页或部署文档，确认收费方式与 AI 具体环节。
+  market: ''
+  job: 社交媒体团队在排期与发布内容时，把多个平台的内容集中管理并安排发布。
+  job_en: Social media teams manage content across multiple platforms and schedule posts during planning
+    and publishing.
+  pain: 公开材料只给出开源 Buffer 替代的定位，没有说明原来排期工作中哪一步费时或出错，痛点无法还原。
+  pain_en: Public material only states an open-source Buffer alternative positioning and does not say
+    which step of scheduling was slow or error-prone, so the pain cannot be reconstructed.
+  current_alternative: 团队使用 Buffer 等商业排期工具，或用表格加人工提醒安排发布。
+  current_alternative_en: Teams use commercial schedulers such as Buffer, or spreadsheets plus manual
+    reminders to plan publishing.
+  usage_reason: 推断：若团队能自托管并集中管理多平台内容，可省去在多个后台之间切换的步骤；但公开材料未说明 AI 具体动作与留存证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if teams can self-host and manage multi-platform content in one place,
+    it could remove switching between multiple backends; but public material does not describe the concrete
+    AI action or retention evidence, so why users choose it cannot be confirmed.'
+- id: req-full-brightbean-studio-2026-10-10
+  project_slug: brightbean-studio
+  level: full
+  reviewed_at: '2026-10-10T02:28:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多平台内容集中排期与发布的需求，痛点在于商业排期工具按席位订阅、数据托管第三方且需在多个后台切换；不采用则继续承担订阅成本与手工发布出错风险。公开材料仅一句定位，旧流程与交付闭环由工作流结构推理得出，非用户口述。
+    evidence_ids:
+    - ev-f651e6345e7ed7b1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句定位描述，缺少用户评价、客户案例、收藏或持续使用数据，无法判断团队是否已把它留在日常排期工作流中。
+    evidence_ids:
+    - ev-f651e6345e7ed7b1
+  - gate: model
+    status: insufficient
+    reason: 开源且未披露定价页与买方，付费路径尚不明确；可能来自自托管支持、托管版订阅或 to B 服务，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f651e6345e7ed7b1
+  - gate: truth
+    status: insufficient
+    reason: 无法核对排期发布是否稳定执行、失败重试与人工确认边界，也未说明 AI 具体环节；公开材料不足以验证交付确定性。
+    evidence_ids:
+    - ev-f651e6345e7ed7b1
+  next_validation: 追踪 BrightBean Studio 官方仓库或官网的定价页与部署文档，确认收费方式、自托管要求及排期发布的具体执行环节。
+  market: ''
+  job: 社交媒体团队（含营销代理与电商运营）在需要按周/按活动节奏向多个社交平台发布内容时，处理待排期的图文与视频素材，要完成把多平台内容集中管理并按时发布的任务。
+  job_en: Social media teams (including marketing agencies and e-commerce operators) handling pending
+    image and video assets need to publish across multiple social platforms on a weekly or campaign cadence,
+    and must centralize multi-platform content and ship it on schedule.
+  pain: 公开材料只给出“开源版 Buffer 替代”的定位，未描述具体痛点；从工作流结构推断，痛点是商业排期工具按席位/账号订阅、内容与数据托管在第三方，团队无法自托管或按需改造，且需在多个平台后台之间反复切换。
+  pain_en: Public material only states an 'open-source Buffer alternative' positioning and does not describe
+    the pain; inferred from workflow structure, the pain is that commercial schedulers charge per seat
+    or account and host content and data with a third party, so teams cannot self-host or modify them,
+    and must switch repeatedly between platform backends.
+  current_alternative: 使用 Buffer、Hootsuite 等商业排期工具，或用表格加人工提醒、逐个平台后台手动发布。
+  current_alternative_en: Commercial schedulers such as Buffer or Hootsuite, or spreadsheets plus manual
+    reminders and posting directly in each platform backend.
+  usage_reason: 推断：相较 Buffer 等按席位订阅且数据托管在第三方的旧做法，它把排期与发布集中到一个可自托管、可自行改造的开源系统，减少在多个平台后台之间切换以及为每个席位付费这两步负担；因此对数据主权敏感或想避免订阅成本的营销团队与电商运营会在自建排期场景下选择它。公开材料未提供用户反馈或留存证据，此因果为结构推断。
+  usage_reason_en: 'Inference: compared with per-seat commercial schedulers that host data with a third
+    party, it centralizes scheduling and publishing into a self-hostable, modifiable open-source system,
+    removing the step of switching between platform backends and the cost of paying per seat; marketing
+    teams and e-commerce operators sensitive to data sovereignty or subscription cost would choose it
+    for self-hosted scheduling. Public material offers no user feedback or retention evidence, so thi'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LbjN4QkZBZ0di
 summary: OpenAI叫停GPT-6.1 Astra 智能体频繁越界成隐患-人工智能 至顶网
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

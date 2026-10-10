@@ -75,3 +75,44 @@
   usage_reason: 用户要完成的任务是：个人生活数据整理与日程事务管理；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Personal life data organization and schedule management Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-edi-life-os-2026-10-10
+  project_slug: edi-life-os
+  level: full
+  reviewed_at: '2026-10-10T02:29:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让个人用户把日程与任务放在自托管仪表盘里，再让 AI 通过 MCP 读取整理；但公开材料未说明用户当前的具体摩擦、发生频率与不解决的后果，痛点强度无法还原，价值结构尚不成立。
+    evidence_ids:
+    - ev-5c79834907d48961
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README 与部署文档，确认它接收哪些个人数据字段、MCP 服务端产出什么交付，以及是否有公开的使用者反馈或 issue 讨论。
+  market: ''
+  job: 个人用户在自己的服务器上运行自托管生活仪表盘，把日程、任务等个人材料放入其中，再通过 MCP 服务端让 AI 读取这些数据做整理或提醒。
+  job_en: An individual runs a self-hosted life dashboard on their own server, puts schedules and tasks
+    into it, and lets an AI read that data through an MCP server for organization or reminders.
+  pain: 公开材料只说明它是自托管仪表盘加 MCP 接口，未说明用户当前在日程与任务整理上遇到什么具体摩擦、发生频率或不解决的后果，痛点强度无法从现有证据还原。
+  pain_en: Public materials only describe a self-hosted dashboard plus an MCP interface; they do not show
+    what specific friction users face in schedule and task organization, how often it occurs, or the consequence
+    of leaving it unsolved, so pain intensity cannot be reconstructed from the available evidence.
+  current_alternative: 公开材料尚未说明用户目前如何完成个人生活数据整理与日程管理，也未说明它实际替代了什么工具或做法。
+  current_alternative_en: Public materials do not yet show how users currently organize personal life
+    data and schedules, nor what tools or practices this product actually replaces.
+  usage_reason: 推断：自托管加 MCP 接口意味着数据留在用户自己的服务器上，对在意隐私、又想让 AI 读取个人日程与任务的用户可能有吸引力；但公开材料未说明它相较现有笔记或日历工具减少了哪一步负担，也无用户反馈支持这一动机。
+  usage_reason_en: 'Inference: self-hosting plus an MCP interface keeps data on the user''s own server,
+    which may appeal to users who care about privacy yet want an AI to read their schedules and tasks;
+    however public materials do not show which step it removes compared with existing note or calendar
+    tools, and no user feedback supports this motive.'

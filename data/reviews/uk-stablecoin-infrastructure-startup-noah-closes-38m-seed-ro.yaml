@@ -1,0 +1,91 @@
+- id: req-initial-uk-stablecoin-infrastructure-startup-noah-closes-38m-seed-ro-2026-10-10
+  project_slug: uk-stablecoin-infrastructure-startup-noah-closes-38m-seed-ro
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨境付款中多币种结算慢、对账难、合规分散的痛点，付款对象与旧流程明确，不采用会直接影响供货与结算关系，属工作流推理。
+    evidence_ids:
+    - ev-6860cde2a1c23786
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出融资与市场覆盖数字，未见客户案例或用户评价，无法判断企业是否已把它放进常规付款流程。
+    evidence_ids:
+    - ev-6860cde2a1c23786
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方可能是企业财务或平台方，收入来自手续费还是订阅属推断，尚无付费证据。
+    evidence_ids:
+    - ev-6860cde2a1c23786
+  - gate: truth
+    status: insufficient
+    reason: 合规与牌照是核心承诺，但公开材料未说明各市场持牌主体、资金托管方式与人工复核边界，交付确定性待核验。
+    evidence_ids:
+    - ev-6860cde2a1c23786
+  next_validation: 收集 Noah 官方定价页或开发者文档，确认其计费方式、结算时效与各市场持牌与合规安排。
+  market: ''
+  job: 跨境电商或跨境服务企业的财务人员，在向海外供应商、平台或自由职业者付款时，处理多币种结算与到账确认，要完成一笔合规、可对账的跨境付款。
+  job_en: Finance staff at cross-border e-commerce or service companies paying overseas suppliers, platforms
+    or freelancers handle multi-currency settlement and receipt confirmation to complete a compliant,
+    reconcilable cross-border payment.
+  pain: 传统电汇到账慢、中间行扣费不透明、多币种对账靠人工拼表，且不同市场的合规要求各自不同，付款失败或延迟会直接影响供货和结算关系。
+  pain_en: Traditional wires arrive slowly, intermediary fees are opaque, multi-currency reconciliation
+    is done by hand, and compliance rules differ by market; a failed or delayed payment directly disrupts
+    supply and settlement relationships.
+  current_alternative: 银行电汇、Payoneer/Wise 等跨境收款工具、或直接持有稳定币自行转账，再由财务人工核对流水与合规材料。
+  current_alternative_en: Bank wires, cross-border collection tools such as Payoneer or Wise, or holding
+    stablecoins and transferring directly, with finance staff manually checking statements and compliance
+    documents.
+  usage_reason: 推断：相较银行电汇或自行持币转账，Noah 把兑换与合规检查放进一次 API 调用，企业无需自建稳定币钱包、KYC 与多市场合规流程，付款方在自有系统内即可发起并拿到可对账结果，因此已有跨境付款量、又不想自建加密合规团队的企业财务会优先试用。
+  usage_reason_en: 'Inference: versus bank wires or self-custodied stablecoin transfers, Noah puts conversion
+    and compliance checks inside one API call, so companies need not build their own stablecoin wallet,
+    KYC and multi-market compliance stack; payers can initiate from their own systems and get a reconcilable
+    result, which is why finance teams with existing cross-border volume but no crypto compliance team
+    would try it first.'
+- id: req-full-uk-stablecoin-infrastructure-startup-noah-closes-38m-seed-ro-2026-10-10
+  project_slug: uk-stablecoin-infrastructure-startup-noah-closes-38m-seed-ro
+  level: full
+  reviewed_at: '2026-10-10T02:33:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“做跨境收付款的企业财务或运营人员，在需要向海外供应商、平台或自由职业者付款时，原本要对接银行电汇或多层中介完成多币种结算；Noah 提供 API，让企业把法币与稳定币之间的收付款嵌”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Noah 官方定价页或开发者文档，确认其计费方式、结算时效与各市场持牌与合规安排。
+  market: ''
+  job: 跨境电商或跨境服务企业的财务/运营人员，在需要向海外供应商、平台或自由职业者付款时，处理多币种结算与到账确认，要完成一笔合规、可对账的跨境付款。
+  job_en: Finance or operations staff at cross-border e-commerce or service companies paying overseas
+    suppliers, platforms or freelancers handle multi-currency settlement and receipt confirmation to complete
+    a compliant, reconcilable cross-border payment.
+  pain: 公开材料显示其定位为连接法币与稳定币的支付基础设施，覆盖150多个市场、60多种货币；结构推理：传统电汇到账慢、中间行扣费不透明、多币种对账靠人工，且不同市场合规要求各异，付款延迟会直接影响供货与结算关系。
+  pain_en: Public materials position it as payment infrastructure connecting fiat and stablecoins across
+    150+ markets and 60+ currencies; by structural inference, traditional wires are slow, intermediary
+    fees opaque, multi-currency reconciliation manual, and compliance rules differ by market, so delays
+    disrupt supply and settlement relationships.
+  current_alternative: 银行电汇、Payoneer/Wise 等跨境收付款工具，或企业自行持有稳定币转账，再由财务人工核对流水与合规材料。
+  current_alternative_en: Bank wires, cross-border payment tools such as Payoneer or Wise, or holding
+    stablecoins and transferring directly, with finance staff manually checking statements and compliance
+    documents.
+  usage_reason: 推断：相较银行电汇或自行持币转账，Noah 把兑换与合规检查收进一次 API 调用，企业无需自建稳定币钱包、KYC 与多市场合规流程，付款方在自有系统内即可发起并拿到可对账结果，因此已有跨境付款量、又不想自建加密合规团队的企业财务会优先试用。
+  usage_reason_en: 'Inference: versus bank wires or self-custodied stablecoin transfers, Noah puts conversion
+    and compliance checks inside one API call, so companies need not build their own stablecoin wallet,
+    KYC and multi-market compliance stack; payers can initiate from their own systems and get a reconcilable
+    result, which is why finance teams with existing cross-border volume but no crypto compliance team
+    would try it first.'

@@ -397,3 +397,44 @@
   usage_reason_en: Without product descriptions, docs, issues, or user feedback, there is no basis to
     explain why users would choose it over existing approaches; star counts reflect attention only and
     cannot serve as a usage reason.
+- id: req-full-claude-code-playground-2026-10-10
+  project_slug: claude-code-playground
+  level: full
+  reviewed_at: '2026-10-10T02:29:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅显示这是 Anthropic 名下的代码仓库与收藏数增长，未说明用户任务、输入材料、执行动作与交付物，连解决什么需求、什么痛点都写不出来，故无法成立价值判断。
+    evidence_ids:
+    - ev-660b6a72cf7c2e6e
+    - ev-30760140a86cf199
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该仓库 README、目录结构与 issue/discussion，确认它接收什么输入、执行什么动作、产出什么交付物，以及是否被用于真实工作流。
+  market: ''
+  job: 公开材料只显示这是 Anthropic 名下的一个代码仓库，未说明谁在什么工作节点打开它、AI 接收什么材料、执行什么动作、交付什么结果，因此无法写出具体使用场景。
+  job_en: Public materials only show this is a code repository under Anthropic; they do not state who
+    opens it at which workflow step, what material the AI receives, what action it performs, or what it
+    delivers, so no concrete job can be written.
+  pain: 候选资料未描述任何用户痛点、不解决的后果或发生频率，无法判断它缓解的是什么摩擦。
+  pain_en: The candidate materials describe no user pain, consequence of leaving it unsolved, or frequency,
+    so the friction it relieves cannot be identified.
+  current_alternative: 公开材料未说明用户目前如何完成相关工作，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently complete the related work or
+    what prior practice it replaces.
+  usage_reason: 无法写出使用理由：材料只有仓库名与收藏数增长，没有说明产品动作、交付物或相较旧做法的差异，收藏增长只属关注度证据。
+  usage_reason_en: 'No usage reason can be written: the material only has a repository name and rising
+    star counts, with no product action, deliverable, or contrast with prior practice; star growth is
+    attention evidence only.'

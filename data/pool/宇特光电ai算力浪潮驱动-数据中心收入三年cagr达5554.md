@@ -1,6 +1,6 @@
 ---
 slug: 宇特光电ai算力浪潮驱动-数据中心收入三年cagr达5554
-name: 宇特光电：AI算力浪潮驱动 数据中心收入三年CAGR达55.54%
+name: 宇特光电
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNMjgyb3dqQ25h
 summary: 宇特光电：AI算力浪潮驱动 数据中心收入三年CAGR达55.54% 新浪网
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 宇特光电：AI算力浪潮驱动 数据中心收入三年CAGR达55.54%
+# 宇特光电
 
 宇特光电：AI算力浪潮驱动 数据中心收入三年CAGR达55.54% 新浪网
 

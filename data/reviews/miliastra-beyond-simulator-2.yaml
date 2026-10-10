@@ -1,0 +1,82 @@
+- id: req-initial-miliastra-beyond-simulator-2-2026-10-10
+  project_slug: miliastra-beyond-simulator-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决沙箱规则脚本编写与场景调试这一具体任务，痛点是门槛高、迭代慢，旧行为是手写 Lua 与手动试错，结构上成立。
+    evidence_ids:
+    - ev-fec2a8ff58d1294b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度，没有用户反馈或案例说明创作者在持续使用。
+    evidence_ids:
+    - ev-fec2a8ff58d1294b
+  - gate: model
+    status: insufficient
+    reason: 推断：可能面向个人创作者或小团队收费，但公开材料没有定价或付费证据，买方与收费方式未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 生成内容是否需人工确认、沙箱运行结果是否可复现，交付确定性缺少依据。
+    evidence_ids:
+    - ev-fec2a8ff58d1294b
+  next_validation: 收集该仓库的 README 或文档中关于 DeepSeek Harness 与 MCP 接入方式、输入输出示例和可复现演示的说明。
+  market: ''
+  job: 独立游戏或 UGC 创作者在搭建奇域类 2D 沙箱玩法时，需要编写规则脚本并反复调试场景，直到能跑起来。
+  job_en: Indie or UGC creators building 2D sandbox gameplay in the Qiyu style need to write rule scripts
+    and repeatedly debug scenes until they run.
+  pain: 沙箱规则脚本编写与调试门槛高、迭代慢，创作者常卡在把想法变成可运行场景这一步。
+  pain_en: Writing and debugging sandbox rule scripts is high-threshold and slow to iterate, and creators
+    often stall at turning an idea into a runnable scene.
+  current_alternative: 手写 Lua 脚本、参考社区示例，或在引擎里手动搭建与试错。
+  current_alternative_en: Hand-writing Lua scripts, copying community examples, or manually building and
+    trial-and-error in an engine.
+  usage_reason: 推断：相比纯手写脚本，它把模型通过 MCP 接到沙箱状态上，让 AI 直接生成或驱动内容，减少从想法到可运行场景之间的手工编码与调试步骤，因此做沙箱玩法的个人创作者会尝试它。
+  usage_reason_en: 'Inference: versus hand-writing scripts, it wires models into sandbox state via MCP
+    so AI directly generates or drives content, cutting the manual coding and debugging between an idea
+    and a runnable scene, so individual sandbox creators would try it.'
+- id: req-full-miliastra-beyond-simulator-2-2026-10-10
+  project_slug: miliastra-beyond-simulator-2
+  level: full
+  reviewed_at: '2026-10-10T02:31:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决沙箱规则脚本编写与场景调试这一具体任务，痛点是门槛高、迭代慢，旧行为是手写 Lua 与手动试错，结构上成立。
+    evidence_ids:
+    - ev-fec2a8ff58d1294b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度，没有用户反馈或案例说明创作者在持续使用。
+    evidence_ids:
+    - ev-fec2a8ff58d1294b
+  - gate: model
+    status: insufficient
+    reason: 推断：可能面向个人创作者或小团队收费，但公开材料没有定价或付费证据，买方与收费方式未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 生成内容是否需人工确认、沙箱运行结果是否可复现，交付确定性缺少依据。
+    evidence_ids:
+    - ev-fec2a8ff58d1294b
+  next_validation: 收集该仓库的 README 或文档中关于 DeepSeek Harness 与 MCP 接入方式、输入输出示例和可复现演示的说明。
+  market: ''
+  job: 独立游戏或 UGC 创作者在搭建奇域类 2D 沙箱玩法时，需要编写规则脚本并反复调试场景，直到能跑起来。
+  job_en: Indie or UGC creators building 2D sandbox gameplay in the Qiyu style need to write rule scripts
+    and repeatedly debug scenes until they run.
+  pain: 沙箱规则脚本编写与调试门槛高、迭代慢，创作者常卡在把想法变成可运行场景这一步。
+  pain_en: Writing and debugging sandbox rule scripts is high-threshold and slow to iterate, and creators
+    often stall at turning an idea into a runnable scene.
+  current_alternative: 手写 Lua 脚本、参考社区示例，或在引擎里手动搭建与试错。
+  current_alternative_en: Hand-writing Lua scripts, copying community examples, or manually building and
+    trial-and-error in an engine.
+  usage_reason: 推断：相比纯手写脚本，它把模型通过 MCP 接到沙箱状态上，让 AI 直接生成或驱动内容，减少从想法到可运行场景之间的手工编码与调试步骤，因此做沙箱玩法的个人创作者会尝试它。
+  usage_reason_en: 'Inference: versus hand-writing scripts, it wires models into sandbox state via MCP
+    so AI directly generates or drives content, cutting the manual coding and debugging between an idea
+    and a runnable scene, so individual sandbox creators would try it.'

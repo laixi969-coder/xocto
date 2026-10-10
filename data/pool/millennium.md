@@ -21,7 +21,7 @@ canonical_url: https://steambrew.app
 summary: Steam Homebrew
 first_seen: '2026-08-14T01:47:05Z'
 last_seen: '2026-09-10T05:13:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - officialfeeds

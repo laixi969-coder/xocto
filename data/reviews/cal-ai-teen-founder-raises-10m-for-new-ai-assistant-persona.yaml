@@ -1,0 +1,85 @@
+- id: req-initial-cal-ai-teen-founder-raises-10m-for-new-ai-assistant-persona-2026-10-10
+  project_slug: cal-ai-teen-founder-raises-10m-for-new-ai-assistant-persona
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未写出，只能确认是一款 AI 助手；价值关证据不足。
+    evidence_ids:
+    - ev-5bed2557a4efc9b2
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资事实，没有用户采用、场景共识或重复使用证据，共识关证据不足。
+    evidence_ids:
+    - ev-5bed2557a4efc9b2
+  - gate: model
+    status: insufficient
+    reason: 未披露买方与收费方式，无法判断钱来自 to C 订阅还是其他路径；模式关证据不足。
+    evidence_ids:
+    - ev-5bed2557a4efc9b2
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工边界与安全说明；求真关证据不足。
+    evidence_ids:
+    - ev-5bed2557a4efc9b2
+  next_validation: 收集 Persona 官方产品页或定价页，确认其面向的具体人群、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用 Persona、处理什么材料、要完成什么任务；只能确认它被定位为 AI 助手，具体使用场景仍待核验。
+  job_en: Public material does not say who uses Persona, in what situation, with what material, to finish
+    what task; only its positioning as an AI assistant is confirmed, and the concrete use case still needs
+    verification.
+  pain: 材料未披露它替代的旧做法或用户抱怨，无法确认痛点是否刚性；融资规模只说明关注度，不说明用户难受在哪里。
+  pain_en: The material discloses neither the old practice it replaces nor user complaints, so whether
+    the pain is acute cannot be confirmed; funding size shows attention, not where users hurt.
+  current_alternative: 未披露。可推断的旧做法是用户直接用通用聊天助手或手机自带助手处理同类日常任务，但这是推断，不是材料事实。
+  current_alternative_en: Not disclosed. The inferable old practice is users handling similar daily tasks
+    with general chat assistants or built-in phone assistants, but this is inference, not a material fact.
+  usage_reason: 无法判断。缺少它相较通用助手减少哪一步负担、改善哪项可核对结果的说明；在场景与交付披露前，用户为何选择它只能存疑。
+  usage_reason_en: Cannot be judged. There is no statement of which step it removes versus general assistants
+    or which checkable result it improves; until scenario and deliverable are disclosed, why users would
+    choose it remains unclear.
+- id: req-full-cal-ai-teen-founder-raises-10m-for-new-ai-assistant-persona-2026-10-10
+  project_slug: cal-ai-teen-founder-raises-10m-for-new-ai-assistant-persona
+  level: full
+  reviewed_at: '2026-10-10T02:28:58Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决什么需求、什么痛点均未写出，只能确认是一款 AI 助手；连用户任务与旧替代都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-6ec1f79dce9e84cd
+    - ev-4fe198eda93723c9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Persona 官方产品页或定价页（含 withpersona 之外的独立域名与发布公告），确认其面向的具体人群、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开 Persona、处理什么材料、要完成什么任务；只能确认它被定位为 AI 助手，具体使用场景无法还原。
+  job_en: Public material does not say who opens Persona, in what situation, with what material, to complete
+    what task; only its positioning as an AI assistant is confirmed, and the concrete use case cannot
+    be reconstructed.
+  pain: 材料未披露它替代的旧做法，也没有任何用户抱怨或 workaround 记录，无法确认用户在哪里难受、痛点是否刚性；1000 万美元融资只说明关注度，不说明用户痛点。
+  pain_en: The material discloses neither the old practice it replaces nor any user complaint or workaround,
+    so where users hurt and whether the pain is acute cannot be confirmed; the $10M funding shows attention,
+    not user pain.
+  current_alternative: 未披露。可推断的旧做法是用户直接用 ChatGPT、Gemini 等通用助手处理同类日常任务，但这是推断，不是材料事实。
+  current_alternative_en: Not disclosed. The inferable old practice is users handling similar daily tasks
+    with general assistants such as ChatGPT or Gemini, but this is inference, not a material fact.
+  usage_reason: 无法判断。缺少它相较通用助手减少哪一步负担、改善哪项可核对结果的说明；在场景与交付披露前，用户为何选择它只能存疑。
+  usage_reason_en: Cannot be judged. There is no statement of which step it removes versus general assistants
+    or which checkable result it improves; until scenario and deliverable are disclosed, why users would
+    choose it remains unclear.

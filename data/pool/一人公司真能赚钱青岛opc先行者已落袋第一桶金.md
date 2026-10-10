@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CX1ZmX1JiTUdj
 summary: “一人公司”真能赚钱？青岛OPC先行者已落袋“第一桶金” 观海新闻
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

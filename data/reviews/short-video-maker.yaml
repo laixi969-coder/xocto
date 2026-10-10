@@ -85,3 +85,49 @@
     detection, subtitles, translation and voiceover into one local pipeline, removing clip-by-clip timeline
     and subtitle work and consuming no credits or watermarks, so high-volume, daily-posting creators on
     tight budgets pick it when subscription cost bites.'
+- id: req-full-short-video-maker-2026-10-10
+  project_slug: short-video-maker
+  level: full
+  reviewed_at: '2026-10-10T02:32:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频转竖屏短片时逐条对时间轴、打字幕的痛点，旧做法是手工剪辑或按额度订阅 SaaS，属于具体旧工作流；这是工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 149 增至 288 显示关注度上升，但无创作者评价或成片案例说明高光挑选是否达到可发布水准，关注度不等于持续采用。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+    - ev-ce844b60bbce0819
+    - ev-e605dad1a4a989ad
+  - gate: model
+    status: insufficient
+    reason: 开源免费，未披露任何付费路径，买方与收费方式属于判断而非已验证事实；若仅靠捐赠或后续融资维持，存在每日优鲜风险。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  - gate: truth
+    status: insufficient
+    reason: 高光判断与翻译配音的准确度、成片是否需要人工复核，公开材料未给出可核对结果，交付确定性尚待公开证据确认。
+    evidence_ids:
+    - ev-44f1c4b5a86cc882
+  next_validation: 收集该仓库的 issue、discussion 与用户发布的成片案例，核对高光挑选与字幕翻译的实际成片质量及人工复核比例。
+  market: ''
+  job: 做短视频的创作者手里有长视频或 YouTube 素材时，需要自动挑出高光片段、生成字幕、翻译并配音，产出可直接发布的竖屏短片。
+  job_en: Short-video creators with long footage or YouTube material need to automatically pick highlight
+    clips, generate subtitles, translate and add voiceover, producing publish-ready vertical shorts.
+  pain: 手工剪辑一条短片要反复看素材、对时间轴、打字幕，外包或订阅剪辑 SaaS 又按额度收费并带水印，日更创作者素材量大时成本与时间负担明显。
+  pain_en: Cutting one short by hand means rewatching footage, aligning timelines and typing subtitles,
+    while outsourcing or subscribing to clipping SaaS charges by credits and adds watermarks, a clear
+    burden for daily-posting creators with large footage volume.
+  current_alternative: 手工用剪辑软件剪，或订阅 OpusClip、Vidyo.ai 这类按额度计费的剪辑 SaaS。
+  current_alternative_en: Editing manually in video software, or subscribing to credit-based clipping
+    SaaS such as OpusClip or Vidyo.ai.
+  usage_reason: 推断：它把高光检测、字幕、翻译和配音串成一条本地流程，省掉逐条对时间轴和打字幕的步骤，也不消耗剪辑额度、不带水印，因此日更且预算有限的创作者会在素材量大、订阅成本变高时选择它。
+  usage_reason_en: 'Inference: it chains highlight detection, subtitles, translation and voiceover into
+    one local pipeline, removing the step of aligning timelines and typing subtitles clip by clip and
+    consuming no clipping credits or watermarks, so daily-posting creators on tight budgets pick it when
+    footage volume grows and subscription cost bites.'

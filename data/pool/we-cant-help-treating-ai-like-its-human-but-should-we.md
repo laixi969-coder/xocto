@@ -22,7 +22,7 @@ summary: '"When we are drawn into even the most primitive exchanges with a relat
   it cares for us," Dr. Sherry Turkle writes. "And we are wired to care for it in return."'
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

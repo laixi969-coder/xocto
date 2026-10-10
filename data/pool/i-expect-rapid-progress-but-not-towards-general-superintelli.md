@@ -31,7 +31,7 @@ summary: I’ve often been surprised when I hear from top researchers in industr
   if AI is more “research” or “engineering.” Before deep learning took off, AI was also
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

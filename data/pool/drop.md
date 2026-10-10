@@ -1,18 +1,29 @@
 ---
 slug: drop
-name: drop
+name: Drop
 builder: zhangchen0411
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 开发者在运行不可信代码或 AI 生成代码时打开它，把待执行的程序交给一个无 root 权限的 Linux 沙箱（支持 gVisor）隔离运行，最终拿到隔离环境中的执行结果；具体交付形态与人工确认环节仍待核验。
+inspiration: 趋势：AI 生成代码大量进入生产流程，隔离执行不可信代码正从安全团队的专项工作变成普通开发者的日常步骤。切入：可从需要跑第三方或模型生成代码的团队进入，把沙箱做成按执行次数计费的托管服务，但定价与客户案例尚未披露。
+summary_en: Developers open it when running untrusted or AI-generated code, handing the program to a rootless
+  Linux sandbox with gVisor support for isolated execution and getting back the result from that sandbox;
+  the exact delivery form and human confirmation step still need verification.
+inspiration_en: 'Trend: as AI-generated code floods into production workflows, isolating untrusted code
+  is shifting from a security-team specialty to a daily step for ordinary developers. Entry: start with
+  teams that must run third-party or model-generated code and offer the sandbox as a per-execution hosted
+  service, though pricing and customer cases are not yet disclosed.'
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: open_source
+industries:
+- 软件开发
+- 云计算
+industries_en:
+- Software Development
+- Cloud Computing
+jobs:
+- 开发者在运行不可信代码或 AI 生成代码时，需要隔离执行环境以完成安全测试
+jobs_en:
+- Developers running untrusted or AI-generated code need an isolated execution environment for safe testing
 regions: []
 regions_en: []
 open_source: false
@@ -21,7 +32,7 @@ canonical_url: https://drop.space
 summary: They chose your competitor. Find out why
 first_seen: '2026-09-10T02:20:02Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch
@@ -82,7 +93,7 @@ sightings:
   kind: news
 ---
 
-# drop
+# Drop
 
 They chose your competitor. Find out why
 

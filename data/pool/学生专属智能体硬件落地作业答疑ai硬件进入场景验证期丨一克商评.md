@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQS2dnS0ZRY2xP
 summary: 学生专属智能体硬件落地作业答疑，AI硬件进入场景验证期丨一克商评 新浪网
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

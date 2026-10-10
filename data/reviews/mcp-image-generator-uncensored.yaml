@@ -91,3 +91,53 @@
     of prompts; versus hand-assembling an open model stack it packages model invocation and image return
     as an MCP server callable directly from MCP clients, removing a step of manual model and file plumbing.
     Creators and developers whose prompts face moderation limits, or who do not want assets to le'
+- id: req-full-mcp-image-generator-uncensored-2026-10-10
+  project_slug: mcp-image-generator-uncensored
+  level: full
+  reviewed_at: '2026-10-10T02:31:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感或成人向题材出图被云端审核拦截、以及素材外流的问题，痛点刚性来自提示词被拒后创作无法完成；自托管 MCP 封装把出图动作落到本地并去掉审核环节，交付形态可确定。属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-8d94f450c18f35fb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 53 增至 71 只反映关注度，无 issue、discussion 或用户评价说明使用者实际替代了哪一步出图或修图工作，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-8d94f450c18f35fb
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页与买方信息，钱可能来自自托管个人用户或后续托管服务，属推断而非已验证事实；未发现融资叙事，暂无每日优鲜风险。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也未说明安全与人工审核边界；uncensored 定位本身带来合规与滥用不确定性，贴近出图第一性目标但边界未公开。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  next_validation: 追踪该仓库的 issue 与 discussion，确认使用者实际用它替代了哪一步出图或修图工作，以及是否出现部署或调用失败反馈。
+  market: ''
+  job: 插画与视觉素材创作者（含需要成人向或敏感题材的独立画师、同人作者）在本地机器上部署该 MCP 服务，把提示词交给 Qwen-Image-2.1 模型，取回生成或编辑后的图片文件，用于后续创作或交付。
+  job_en: Illustration and visual-asset creators (including independent artists and fan creators working
+    on adult or sensitive themes) deploy this MCP server locally, submit prompts to the Qwen-Image-2.1
+    model, and retrieve generated or edited image files for downstream creative use.
+  pain: 公开材料明确标注 uncensored，指向的是云端出图服务对提示词的内容审核拦截：敏感或成人向题材在托管平台上会被拒绝或降级，创作者被迫反复改写提示词、换词绕过，甚至无法完成既定画面；自托管还避免素材上传到第三方。
+  pain_en: 'The explicit ''uncensored'' label points to content-moderation blocking on hosted image services:
+    sensitive or adult-themed prompts get refused or degraded, forcing creators to repeatedly reword prompts
+    or abandon the intended image; self-hosting also keeps source material off third-party servers.'
+  current_alternative: 旧做法是使用带审核的云端出图服务（提示词被拒后反复改写），或本地跑 ComfyUI / Stable Diffusion 等开源模型并自行搭建 MCP 或脚本接口，需要自己处理模型下载、依赖与调用封装。
+  current_alternative_en: The prior approach is either a moderated cloud image service (repeatedly rewording
+    rejected prompts) or running open models like ComfyUI / Stable Diffusion locally and hand-wiring an
+    MCP or script interface, including model download, dependencies, and call wrapping.
+  usage_reason: 推断：相较云端审核服务，它把出图动作放到本地、去掉提示词审核环节，创作者不必再为敏感题材反复改写提示词；相较自行拼装本地模型，它已封装成 MCP server，可直接被支持
+    MCP 的客户端调用，省去自建接口这一步。因此对内容审核敏感、又已在用 MCP 客户端的创作者会在需要敏感题材出图时选择它。
+  usage_reason_en: 'Inference: versus moderated cloud services it moves generation on-device and removes
+    the prompt-review step, so creators no longer reword sensitive prompts; versus hand-assembling local
+    models it ships as an MCP server callable from MCP-capable clients, saving the interface-building
+    step. Creators sensitive to moderation who already use an MCP client would pick it for sensitive-theme
+    generation.'

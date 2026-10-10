@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/502364.html
 summary: 答不答得对，得看Token站位
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

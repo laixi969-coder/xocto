@@ -81,3 +81,51 @@
   usage_reason: 用户要完成的任务是：Roblox 脚本开发者、游戏客户端工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Roblox Script Developer, Game Client Engineer Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-luau-docs-oracle-2026-10-10
+  project_slug: luau-docs-oracle
+  level: full
+  reviewed_at: '2026-10-10T02:30:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Roblox 开发者在提交或调试前核对 Luau API 调用是否写错、参数是否对得上的需求，痛点是 API 频繁变动导致的运行时错误与反复查文档；公开仓库说明其定位为 Luau
+      文档校验工具，交付为问题清单，属工作流结构推理，尚无用户痛点量化数据。
+    evidence_ids:
+    - ev-1e9b551e166fcce0
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库显示 70 个星标，说明社区已注意到该工具，但星标只反映关注度，不能证明目标开发者已将其持续用于日常 Luau 开发流程，缺少 issue、discussion 或使用反馈佐证。
+    evidence_ids:
+    - ev-1e9b551e166fcce0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或分发方式，无法判断是面向个人开发者免费、Studio 团队采购还是 MCP 生态订阅；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-1e9b551e166fcce0
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明校验结果是否逐行标注、人工是否仍需复核，也未给出对 Luau 文档版本同步与误报率的可复现证据，交付确定性尚无法核验。
+    evidence_ids:
+    - ev-1e9b551e166fcce0
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认它实际接入的 Luau 文档版本、校验输出形式以及是否有开发者报告在提交前替代了手动查文档。
+  market: ''
+  job: Roblox 脚本开发者在写完 Luau 代码、准备提交或调试报错时，把代码交给这个工具，由它对照 Luau API 文档检查调用是否写错、参数是否对得上，最后给出问题清单。
+  job_en: Roblox script developers, after writing Luau code and before submitting or while debugging errors,
+    hand their code to this tool, which checks calls against Luau API documentation and returns a list
+    of issues.
+  pain: Roblox 的 Luau API 迭代频繁，开发者常因参数名、调用签名或废弃接口写错而在运行时才暴露错误，排查依赖反复查文档与试错；公开材料未给出错误发生频率或返工代价的量化数据。
+  pain_en: Roblox's Luau API changes frequently, so developers often hit runtime errors from wrong parameter
+    names, call signatures, or deprecated interfaces, forcing repeated doc lookups and trial-and-error;
+    public materials give no quantified frequency or rework cost.
+  current_alternative: 当前替代方式是开发者手动翻阅 Roblox 官方 Luau 文档、依赖 Studio 的静态分析与运行时报错，或在 DevForum 上搜索同类问题。
+  current_alternative_en: The current alternative is manually consulting Roblox's official Luau documentation,
+    relying on Studio's static analysis and runtime errors, or searching DevForum for similar issues.
+  usage_reason: 推断：相较手动查文档与等运行时报错，该工具以 MCP 形式把 Luau API 文档接入开发流程，在提交前直接对代码做一次文档比对并输出问题清单，省去逐条翻文档这一步；经常写
+    Luau 且频繁遇到 API 误用的 Roblox 开发者会在提交或调试前选择它。
+  usage_reason_en: 'Inference: compared with manually checking docs and waiting for runtime errors, this
+    tool exposes Luau API documentation via MCP inside the dev workflow, doing a doc-based comparison
+    and returning an issue list before submission, removing the step of looking up each API by hand; Roblox
+    developers who write Luau often and frequently hit API misuse would choose it before submitting or
+    debugging.'

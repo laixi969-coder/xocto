@@ -1,0 +1,85 @@
+- id: req-initial-apogee-2026-10-10
+  project_slug: apogee
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地整理网页与文档、避免材料外传的需求，痛点是不敢用云端助手与离线不可用；具体交付形态仍待核验。
+    evidence_ids:
+    - ev-e85515c74cecf79d
+  - gate: consensus
+    status: insufficient
+    reason: 仅见社区讨论与少量互动，没有可归因到该产品的采用或持续使用证据。
+    evidence_ids:
+    - ev-e85515c74cecf79d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径，钱可能来自捐赠、托管或企业定制，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e85515c74cecf79d
+  - gate: truth
+    status: insufficient
+    reason: 本地模型能否稳定交付、安全与人工确认边界如何，公开材料未说明。
+    evidence_ids:
+    - ev-e85515c74cecf79d
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认支持的输入格式、本地模型依赖与交付产物形态。
+  market: ''
+  job: 开发者或知识工作者在本地整理网页与文档资料时，用本地模型完成检索与摘要，产出可离线保存的整理结果。
+  job_en: Developers and knowledge workers organizing web and document material locally, using on-device
+    models for retrieval and summarization to produce offline-storable results.
+  pain: 把敏感或大量资料交给云端助手存在外传顾虑，且离线或断网时无法使用。
+  pain_en: Handing sensitive or bulk material to cloud assistants raises leakage concerns, and they are
+    unusable offline or without network.
+  current_alternative: 手动复制粘贴到云端聊天工具，或自建脚本与本地检索工具拼装流程。
+  current_alternative_en: Manually pasting into cloud chat tools, or assembling scripts and local retrieval
+    tools by hand.
+  usage_reason: 推断：相较把材料贴进云端助手，它在本地完成检索与摘要，省去上传与逐段复制的步骤，并让材料不出本机；因此对材料不能外传、又需要批量整理的人有吸引力。
+  usage_reason_en: 'Inference: versus pasting material into cloud assistants, it retrieves and summarizes
+    locally, removing upload and piecemeal copying steps and keeping material on-device; that appeals
+    to people who cannot send material out yet need bulk organization.'
+- id: req-full-apogee-2026-10-10
+  project_slug: apogee
+  level: full
+  reviewed_at: '2026-10-10T02:28:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据链中没有任何可归因到该产品的功能、用户任务或痛点材料，全部指向同名音频设备、模型火箭与词典释义，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-85e469cba5ce5d66
+    - ev-972fa779e8dc5c6d
+    - ev-90841ca3d623bf8c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 定位该产品的官方仓库或发布页（README、issue/discussion），确认其真实名称、输入格式与交付产物，以替换当前同名无关证据。
+  market: ''
+  job: 公开材料未提供可归因到该产品的使用场景；摘要称开发者或知识工作者在本地整理网页与文档资料时用本地模型完成检索与摘要，但证据链中没有任何该产品的官方说明、文档或仓库材料支撑这一任务描述。
+  job_en: Public material provides no attributable use scenario for this product; the summary claims developers
+    or knowledge workers organize web and document material locally with on-device models, but the evidence
+    chain contains no official description, documentation or repository material for this product supporting
+    that task.
+  pain: 无法从公开证据写出该产品对应的用户痛点；现有证据全部指向同名但无关的 Apogee Electronics、Apogee Components 与词典释义，未出现任何关于本地检索与摘要产品的用户抱怨或需求描述。
+  pain_en: No user pain for this product can be written from public evidence; all available evidence points
+    to unrelated same-name entities (Apogee Electronics, Apogee Components, a dictionary entry), with
+    no user complaint or need description for a local retrieval-and-summarization product.
+  current_alternative: 无法确认；公开证据未描述该产品用户当前用什么方式完成资料整理，也没有可引用的旧替代行为。
+  current_alternative_en: Cannot be determined; public evidence does not describe what current method
+    users of this product rely on, and no citable prior alternative behavior exists.
+  usage_reason: 无法写出使用理由；没有该产品的功能说明、用户反馈或采用证据，无法解释相较旧做法它减少了哪一步负担或改善了哪项结果。
+  usage_reason_en: No usage reason can be written; there is no product description, user feedback or adoption
+    evidence to explain which step it removes or which outcome it improves versus the old approach.

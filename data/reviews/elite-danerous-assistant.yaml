@@ -26,3 +26,45 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-elite-danerous-assistant-2026-10-10
+  project_slug: elite-danerous-assistant
+  level: initial
+  reviewed_at: '2026-08-28T06:07:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决玩家在长会话中查资料与记录的问题：旧做法要切出游戏查维基、手动记录，信息分散且打断操作，痛点具体。
+    evidence_ids:
+    - ev-d6c1869ca82b6d0e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属关注度而非持续采用；无玩家评价或社区讨论证明它被长期留在游戏流程里。
+    evidence_ids:
+    - ev-d6c1869ca82b6d0e
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价与付费路径，本地模型意味着用户自担算力成本，钱从哪来完全未披露。
+    evidence_ids:
+    - ev-d6c1869ca82b6d0e
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明日志解析准确度、语音识别在嘈杂环境下的表现与人工纠错方式，交付确定性缺公开依据。
+    evidence_ids:
+    - ev-d6c1869ca82b6d0e
+  next_validation: 收集该仓库的 issue 与 discussion，核验玩家实际使用反馈与日志解析准确度问题。
+  market: ''
+  job: 《精英：危险》玩家在长途飞行、战斗或探索时，处理游戏日志、语音指令与画面信息，要完成实时提示、语音应答与本次飞行记录。
+  job_en: Elite Dangerous players on long flights, in combat or exploring handle game journals, voice
+    commands and screen information to get live prompts, spoken replies and a record of the session.
+  pain: 游戏信息分散在多个面板与第三方网站，玩家要切出游戏查资料，长会话中容易忘记已做过什么，语音沟通也不便。
+  pain_en: Game information is scattered across panels and third-party sites, forcing players to alt-tab
+    to look things up, forget what they already did in long sessions, and struggle to talk while playing.
+  current_alternative: 切出游戏查维基与第三方工具站，用 Discord 语音或纸笔记录，或装通用语音助手。
+  current_alternative_en: Alt-tabbing to wikis and third-party tool sites, using Discord voice or pen
+    and paper, or installing a generic voice assistant.
+  usage_reason: 推断：相较切出游戏查资料，它直接读游戏日志与画面并在叠加层给出提示和语音应答，省掉切换窗口与手动记录这一步，因此长时间飞行或探索的玩家会在会话中打开它。
+  usage_reason_en: 'Inference: compared with alt-tabbing to look things up, it reads the game journal
+    and screen and answers via overlay and voice, removing window switching and manual note-taking, so
+    players on long flights or exploration runs open it during a session.'

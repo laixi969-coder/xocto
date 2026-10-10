@@ -1,0 +1,88 @@
+- id: req-initial-verso-raises-6m-to-bring-consumer-intelligence-into-business-2026-10-10
+  project_slug: verso-raises-6m-to-bring-consumer-intelligence-into-business
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决消费者研究贵、慢、结论锁在洞察团队的问题，痛点刚性且旧流程明确，交付物是可查询的洞察库。
+    evidence_ids:
+    - ev-201c22b9352a468e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与产品描述，未见客户案例、使用规模或复购证据，采用共识尚未核验。
+    evidence_ids:
+    - ev-201c22b9352a468e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，按项目还是按席位收费不明，钱来自品牌方预算属推断而非已验证事实。
+    evidence_ids:
+    - ev-201c22b9352a468e
+  - gate: truth
+    status: insufficient
+    reason: AI 主持访谈的结论可靠性与人工复核边界未公开，交付能否确定性发生仍缺材料。
+    evidence_ids:
+    - ev-201c22b9352a468e
+  next_validation: 收集 Verso 官方定价页或公开客户案例，确认其按研究项目还是按席位收费，以及是否有品牌方公开使用结果。
+  market: ''
+  job: 品牌方或洞察团队在准备新品概念测试、广告创意评估或产品改版时，需要处理访谈提纲、受访者招募和大量访谈记录，最终要产出一份能支撑决策的消费者洞察。
+  job_en: A brand or insights team preparing a concept test, ad evaluation or product change must handle
+    interview guides, participant recruitment and large volumes of interview transcripts, and end up with
+    consumer insight that can support a decision.
+  pain: 传统消费者研究昂贵且周期长，结论往往锁在洞察团队手里，其他部门要用时只能等下一份报告，态度变化也难以跨时间对比。
+  pain_en: Traditional consumer research is expensive and slow, findings stay locked inside the insights
+    team, other departments must wait for the next report, and attitude shifts are hard to compare over
+    time.
+  current_alternative: 外包给调研公司做问卷和焦点小组，或内部用问卷工具加人工访谈，再手工整理成 PPT 报告。
+  current_alternative_en: Outsourcing surveys and focus groups to research agencies, or running in-house
+    surveys and manual interviews and compiling a slide report by hand.
+  usage_reason: 推断：相较外包报告，AI 主持访谈可实时追问、自动归纳并沉淀为可反复查询的画像库，省掉逐场转录与整理这一步，因此反复做概念测试的品牌团队会在需要快速复用历史洞察时选择它。
+  usage_reason_en: 'Inference: versus outsourced reports, AI-moderated interviews follow up live, auto-synthesise
+    and persist into a queryable persona base, removing the per-session transcription and write-up step,
+    so brand teams running repeated concept tests would pick it when they need to reuse past insight quickly.'
+- id: req-full-verso-raises-6m-to-bring-consumer-intelligence-into-business-2026-10-10
+  project_slug: verso-raises-6m-to-bring-consumer-intelligence-into-business
+  level: full
+  reviewed_at: '2026-10-10T02:33:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决消费者研究贵、慢、结论锁在洞察团队的问题，痛点刚性且旧流程明确，交付物是可查询的洞察库。
+    evidence_ids:
+    - ev-3e97f4ae2df4feb6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与产品描述，未见客户案例、使用规模或复购证据，采用共识尚未核验。
+    evidence_ids:
+    - ev-f18d2d7a2dd90e1c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构，按项目还是按席位收费不明，钱来自品牌方预算属推断而非已验证事实。
+    evidence_ids:
+    - ev-3e97f4ae2df4feb6
+  - gate: truth
+    status: insufficient
+    reason: AI 主持访谈的结论可靠性与人工复核边界未公开，交付能否确定性发生仍缺材料。
+    evidence_ids:
+    - ev-f18d2d7a2dd90e1c
+  next_validation: 收集 Verso 官方定价页或公开客户案例，确认其按研究项目还是按席位收费，以及是否有品牌方公开使用结果。
+  market: ''
+  job: 品牌方或洞察团队在准备新品概念测试、广告创意评估或产品改版时，需要处理访谈提纲、受访者招募和大量访谈记录，最终产出能支撑决策的消费者洞察。
+  job_en: A brand or insights team preparing a concept test, ad evaluation or product change must handle
+    interview guides, participant recruitment and large volumes of interview transcripts, and end up with
+    consumer insight that can support a decision.
+  pain: 传统消费者研究昂贵且周期长，结论往往锁在洞察团队手里，其他部门要用时只能等下一份报告，态度变化也难以跨时间对比。
+  pain_en: Traditional consumer research is expensive and slow, findings stay locked inside the insights
+    team, other departments must wait for the next report, and attitude shifts are hard to compare over
+    time.
+  current_alternative: 外包给调研公司做问卷和焦点小组，或内部用问卷工具加人工访谈，再手工整理成 PPT 报告。
+  current_alternative_en: Outsourcing surveys and focus groups to research agencies, or running in-house
+    surveys and manual interviews and compiling a slide report by hand.
+  usage_reason: 推断：相较外包报告，AI 主持访谈可实时追问、自动归纳并沉淀为可反复查询的画像库，省掉逐场转录与整理这一步，因此反复做概念测试的品牌团队会在需要快速复用历史洞察时选择它。
+  usage_reason_en: 'Inference: versus outsourced reports, AI-moderated interviews follow up live, auto-synthesise
+    and persist into a queryable persona base, removing the per-session transcription and write-up step,
+    so brand teams running repeated concept tests would pick it when they need to reuse past insight quickly.'

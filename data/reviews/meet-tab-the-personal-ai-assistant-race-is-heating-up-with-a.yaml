@@ -1,0 +1,84 @@
+- id: req-initial-meet-tab-the-personal-ai-assistant-race-is-heating-up-with-a-2026-10-10
+  project_slug: meet-tab-the-personal-ai-assistant-race-is-heating-up-with-a
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决个人日常信息与待办的处理需求，但公开材料未说明具体任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-5fa6b767f025edf7
+  - gate: consensus
+    status: insufficient
+    reason: 只有一篇媒体报道，没有用户评价、社区讨论或采用迹象，卡在感知环节，无法判断是否形成共识。
+    evidence_ids:
+    - ev-5fa6b767f025edf7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径；面向个人订阅是推断，不是已验证事实。
+    evidence_ids:
+    - ev-5fa6b767f025edf7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近该任务的第一性目标与交付确定性，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-5fa6b767f025edf7
+  next_validation: 收集 Tab 的官方产品页或应用商店页面，确认其具体输入、执行动作、交付结果与定价。
+  market: ''
+  job: 个人用户在日常处理消息、待办和零散信息时，希望有一个助手替自己接收这些材料并给出整理或回应。
+  job_en: An individual handling messages, to-dos and scattered information day to day wants an assistant
+    to receive that material and return an organised response.
+  pain: 公开材料没有说明用户具体卡在哪一步、不解决会失去什么，只能推断通用助手面对的是信息分散、需要人工汇总的负担。
+  pain_en: Public material does not say which step users are stuck on or what they lose by not solving
+    it; one can only infer the burden of scattered information that must be summarised by hand.
+  current_alternative: 现有替代是已有的通用对话助手、手机自带助手，以及用户自己手动整理笔记和待办。
+  current_alternative_en: The current alternatives are existing general chat assistants, built-in phone
+    assistants, and users manually organising notes and to-dos themselves.
+  usage_reason: 推断：若 Tab 能把分散消息与待办直接变成可执行的整理结果，用户可能因为省掉手动汇总这一步而选择它；但公开材料未给出功能细节、定价或使用反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if Tab turns scattered messages and to-dos directly into an actionable
+    summary, users might choose it to skip the manual collation step; but no feature detail, pricing or
+    user feedback is public, so this causal link is unconfirmed.'
+- id: req-full-meet-tab-the-personal-ai-assistant-race-is-heating-up-with-a-2026-10-10
+  project_slug: meet-tab-the-personal-ai-assistant-race-is-heating-up-with-a
+  level: full
+  reviewed_at: '2026-10-10T02:31:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决个人消息、待办与零散信息的整理需求，但公开材料仅一篇媒体报道标题，未说明具体任务、痛点强度与不采用后果，价值结构无法还原，且通用助手赛道已有成熟替代。
+    evidence_ids:
+    - ev-ce65abaa6558a579
+    - ev-af28fefc9eae52c8
+    - ev-1de9da37d64f86c6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Tab 的官方产品页或应用商店页面，确认其具体输入、执行动作、交付结果与定价。
+  market: ''
+  job: 个人用户在日常处理消息、待办与零散信息时，把这些材料交给一个个人 AI 助手，期望它整理成可用结果或直接回应。
+  job_en: An individual handling messages, to-dos and scattered information day to day hands that material
+    to a personal AI assistant, expecting it to organise it into a usable result or reply directly.
+  pain: 公开材料只有一篇媒体报道标题，未说明用户具体卡在哪一步、不解决会失去什么；只能推断通用助手面对的是信息分散、需人工汇总的负担，痛点强度无证据。
+  pain_en: Public material is only a media headline; it does not say which step users are stuck on or
+    what they lose by not solving it. One can only infer the burden of scattered information needing manual
+    collation, with no evidence of pain intensity.
+  current_alternative: 现有替代是 ChatGPT、Google Gemini 等通用对话助手，以及手机自带助手和用户手动整理笔记待办。
+  current_alternative_en: Current alternatives are general chat assistants such as ChatGPT and Google
+    Gemini, built-in phone assistants, and users manually organising notes and to-dos.
+  usage_reason: 推断：若 Tab 能把分散消息与待办直接变成可执行整理结果，用户可能因省掉手动汇总而选择它；但公开材料未给出功能细节、定价或使用反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if Tab turns scattered messages and to-dos directly into an actionable
+    summary, users might choose it to skip manual collation; but no feature detail, pricing or user feedback
+    is public, so this causal link is unconfirmed.'

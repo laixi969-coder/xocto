@@ -1,0 +1,39 @@
+- id: req-initial-mcp-server-lighter-2026-10-10
+  project_slug: mcp-server-lighter
+  level: initial
+  reviewed_at: '2026-08-22T22:38:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决空投资格核对这一具体任务，痛点是数据分散、口径易错、错过窗口有实际损失，旧行为是手动翻仪表盘，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅见开源仓库的星标与分支数，属于关注度而非持续采用，没有用户反馈或客户案例说明谁在反复使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 推断：可能向交易社群或撸毛工作室收订阅费，但公开材料没有定价页或付费证据，买方与收费方式均未核验。
+    evidence_ids: []
+  - gate: truth
+    status: challenged
+    reason: 项目为非官方社区实现，只读公开端点，一旦 Lighter 调整接口或限制访问，交付可能中断，确定性交付存疑。
+    evidence_ids: []
+  next_validation: 收集 Lighter 官方是否公开承认或授权该 MCP 服务器，以及仓库 issue/discussion 中是否有用户报告实际查询结果与官方数据一致。
+  market: ''
+  job: 加密交易者在判断自己是否够格领取 Lighter 空投时，需要汇总自己的交易量、积分和排名，并对照资格规则得出结论。
+  job_en: Crypto traders deciding whether they qualify for the Lighter airdrop need to aggregate their
+    own volume, points and rank and check them against eligibility rules.
+  pain: 这些数据分散在链上记录和项目仪表盘里，手动核对费时且容易看错口径，错过窗口就失去收益。
+  pain_en: This data is scattered across on-chain records and project dashboards; manual checking is slow
+    and error-prone, and missing the window means losing the payout.
+  current_alternative: 自己打开 Lighter 官网或第三方仪表盘逐项比对，或在社群问答里向他人求证。
+  current_alternative_en: Opening Lighter's site or third-party dashboards and comparing item by item,
+    or asking others in community chats.
+  usage_reason: 推断：相比手动翻仪表盘，它把查询动作压缩成一句自然语言，由 AI 助手直接调只读接口返回交易量、积分、排名与资格判断，省掉切换页面和核对口径这一步，因此常查资格的交易者会在临近快照时选择它。
+  usage_reason_en: 'Inference: versus manually browsing dashboards, it compresses the query into one natural-language
+    sentence and has the AI assistant call read-only endpoints to return volume, points, rank and eligibility,
+    removing the page-switching and metric-matching step, so traders who check often would pick it near
+    a snapshot.'

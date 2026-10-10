@@ -1,0 +1,38 @@
+- id: req-initial-agentr-30-2026-10-10
+  project_slug: agentr-30
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决 AI 代答下招聘评估失真，但公开材料未说明具体评估动作与交付，痛点与解法之间缺少可核验连接。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无采用或用户反馈材料。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均无公开材料。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法判断评估结果能否确定性交付。
+    evidence_ids: []
+  next_validation: 收集 AgentR 3.0 官方产品页或文档，确认其评估环节的输入材料、执行动作与输出结果。
+  market: ''
+  job: 招聘负责人在候选人可能借助 AI 作答的面试中，需要判断对方真实能力，以决定是否进入下一轮。
+  job_en: A hiring manager interviewing candidates who may use AI needs to judge real ability in order
+    to decide on the next round.
+  pain: AI 代答让面试回答不再可靠，招聘方难以区分真实能力与工具辅助，误招成本上升。
+  pain_en: AI-assisted answers make interview responses unreliable, so employers struggle to separate
+    real ability from tool assistance and mis-hire costs rise.
+  current_alternative: 现在多靠现场白板题、限时编程测试或加面，配合人工追问来验证。
+  current_alternative_en: Today this is mostly handled with live whiteboard questions, timed coding tests
+    or extra interview rounds plus manual follow-up probing.
+  usage_reason: 公开材料只有一句定位，无法说明它相较限时测试或白板题具体减少了哪一步负担或改善了哪项可核对结果，因此无法判断哪类用户会因何选择它。
+  usage_reason_en: Public material offers only a one-line positioning and cannot show which step it removes
+    versus timed tests or whiteboards, or which checkable result it improves, so it is impossible to say
+    which users would choose it and why.

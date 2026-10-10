@@ -84,3 +84,46 @@
   usage_reason: 无法给出使用理由：证据中不存在产品能力、用户反馈或采用记录，任何关于为何选择它的说法都只能是无依据的推断。
   usage_reason_en: 'No usage reason can be given: the evidence contains no product capability, user feedback
     or adoption record, so any claim about why users would choose it would be unsupported speculation.'
+- id: req-full-moyai-2026-10-10
+  project_slug: moyai
+  level: full
+  reviewed_at: '2026-10-10T02:31:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据只有产品自述与摩艾石像、emoji 等无关词条，无法还原用户任务、痛点、现有替代与不解决的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-fbb529a16ef90783
+    - ev-e2f79f6553b3c68b
+    - ev-36837afb133abeea
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，核对是否有用户报告实际任务完成情况、自托管部署方式与人工复核流程。
+  market: ''
+  job: 软件工程师在维护既有代码库时，把批量重构、依赖升级、测试补齐等长耗时编码任务交给后台代理执行，再取回代码变更自行复核合并。
+  job_en: Software engineers maintaining an existing codebase hand long-running coding work such as bulk
+    refactors, dependency upgrades and test coverage to a background agent, then retrieve the changes
+    and review and merge them themselves.
+  pain: 公开材料中没有任何用户陈述、issue 或案例说明这类任务带来的具体痛点；现有证据只描述产品能力，无法还原用户实际遇到的困难。
+  pain_en: No public material contains user statements, issues or cases describing the concrete pain of
+    such tasks; the evidence only describes product capabilities and cannot reconstruct the difficulty
+    users actually face.
+  current_alternative: 公开材料未提供任何关于开发者当前如何完成这类任务的替代方式证据。
+  current_alternative_en: Public material provides no evidence of how developers currently accomplish
+    this kind of work.
+  usage_reason: 无法判断：现有证据仅包含产品自述与无关的摩艾石像、emoji 词条，缺少用户反馈或案例，无法说明用户为何选择它。
+  usage_reason_en: 'Cannot be determined: the evidence consists only of the product''s own description
+    and unrelated Moyai statue and emoji entries, with no user feedback or cases explaining why anyone
+    would choose it.'

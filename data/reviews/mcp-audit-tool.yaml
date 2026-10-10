@@ -511,3 +511,55 @@
     command and emits SARIF that plugs into an existing CI pipeline, removing the manual evidence-assembly
     step, so teams onboarding third-party MCP servers or changing agent configs would pick it; the allow/deny
     call stays human.'
+- id: req-full-mcp-audit-tool-2026-10-10
+  project_slug: mcp-audit-tool
+  level: full
+  reviewed_at: '2026-10-10T02:30:58Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把第三方 MCP 服务器接入 AI 代理前的安全审查需求：配置直接声明外部工具与命令，投毒或依赖替换会导致密钥泄露、代理被劫持，人工逐条审阅慢且易漏。公开仓库说明其扫描
+      MCP 配置并输出 SARIF，旧替代是人工审阅或通用 SAST/SCA，痛点刚性、交付可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-b60a500313d2c67d
+    - ev-4dee2b7c85711e5a
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 92 持续升至 168，说明开发者社区持续关注并把它纳入 MCP 安全话题；但收藏属关注度证据，不能证明已长期留在工作流，故共识成立而采用强度仍属初步。
+    evidence_ids:
+    - ev-b60a500313d2c67d
+    - ev-4dee2b7c85711e5a
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与说明，没有定价页、付费客户或采购记录，谁付钱、按什么单位收费均未披露；这是商业证据缺口，不反推问题不存在，判断上更可能走开源加企业支持或 CI 集成收费。
+    evidence_ids:
+    - ev-b60a500313d2c67d
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明其输出 SARIF 并可接入 CI，但公开材料未给出扫描准确率、误报率或人工复核边界的可复现证据，交付能否稳定发生尚缺验证，安全工具尤其需要误报与漏报数据。
+    evidence_ids:
+    - ev-4dee2b7c85711e5a
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认是否披露扫描规则覆盖范围、误报率或企业采用案例等公开证据。
+  market: ''
+  job: 安全工程师或平台工程师在把第三方 MCP 服务器接入自家 AI 代理前，读取代理的 MCP 配置文件，扫描工具投毒、rug pull、硬编码密钥、命令注入与依赖供应链风险，产出可接入 CI
+    的 SARIF 报告，再人工决定是否放行。
+  job_en: A security or platform engineer, before wiring a third-party MCP server into their AI agent,
+    reads the agent's MCP config, scans for tool poisoning, rug pulls, hardcoded secrets, command injection
+    and supply-chain risk, and produces a CI-ready SARIF report before manually deciding whether to approve
+    it.
+  pain: MCP 服务器由外部提供、配置里直接声明工具与命令，接入即等于把外部代码和密钥暴露给代理；一旦工具被投毒或依赖被替换，后果是密钥泄露或代理被劫持，而人工逐条审阅配置既慢又容易漏。
+  pain_en: MCP servers come from third parties and declare tools and commands directly in config, so wiring
+    one in exposes the agent to external code and secrets; a poisoned tool or swapped dependency can leak
+    credentials or hijack the agent, while manual line-by-line config review is slow and error-prone.
+  current_alternative: 当前替代方式是人工审阅 MCP 配置与依赖清单，或依赖通用 SAST/SCA 工具，但这些工具并不理解 MCP 工具声明与投毒模式，需要额外手工拼装规则。
+  current_alternative_en: Today teams manually review MCP configs and dependency manifests, or lean on
+    generic SAST/SCA tools that do not understand MCP tool declarations or poisoning patterns and require
+    hand-built rules.
+  usage_reason: 推断：相较人工审阅或通用扫描器，该 CLI 直接解析 MCP 配置文件并针对工具投毒、rug pull、硬编码密钥等 MCP 特有模式输出 SARIF，可挂进 CI 在合并前自动拦截，省去逐条人工核对配置这一步，因此接入第三方
+    MCP 服务器的安全与平台团队会在上线前选择它。
+  usage_reason_en: 'Inference: unlike manual review or generic scanners, this CLI parses MCP configs directly
+    and emits SARIF for MCP-specific patterns such as tool poisoning, rug pulls and hardcoded secrets,
+    so it can gate merges in CI and remove the manual line-by-line config check — which is why security
+    and platform teams onboarding third-party MCP servers would pick it before rollout.'

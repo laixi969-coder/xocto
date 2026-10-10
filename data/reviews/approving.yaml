@@ -806,3 +806,48 @@
     at critical nodes, cutting the burden of tracing non-rollbackable changes; developers or small teams
     who care about reviewable delivery would choose it when agents touch production-adjacent code. No
     public user feedback yet confirms this motive.'
+- id: req-full-approving-2026-10-10
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-10-10T02:28:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的部署文档、issue 与 discussion，确认是否公开了沙箱隔离配置、Approve 节点定义与真实团队使用反馈。
+  market: ''
+  job: 使用编码代理的工程团队在让 AI 修改真实代码库时，把代理放进 Docker 沙箱执行，并在关键节点（如合并、部署、改动敏感文件）暂停，等待人工批准后才继续，同时保留可回滚的交付记录。
+  job_en: Engineering teams using coding agents run the agent inside a Docker sandbox on a real repository,
+    pause at critical nodes (merge, deploy, sensitive-file edits) for human approval before continuing,
+    and keep a recoverable delivery record.
+  pain: 公开材料未给出用户抱怨原文，但从工作流结构看：编码代理直接在主分支或本地环境执行会带来不可逆改动与凭据暴露风险；代理之间传递中间产物缺少结构化约定，出错后难以定位与回滚。这是结构推理，不是用户口述。
+  pain_en: 'Public materials contain no user complaints, but the workflow structure shows the pain: a
+    coding agent running directly on the main branch or local environment risks irreversible changes and
+    credential exposure, and unstructured hand-off of intermediate artifacts between agents makes failures
+    hard to locate and roll back. This is structural inference, not user testimony.'
+  current_alternative: 团队目前靠人工盯着代理输出、在本地或 CI 里手动加确认步骤、用 git 分支和 PR 评审兜底；代理间协作则靠复制粘贴上下文。这些做法缺少统一的沙箱与结构化产物约定。
+  current_alternative_en: Teams currently watch agent output manually, add ad-hoc confirmation steps in
+    local or CI runs, and fall back on git branches and PR review; agent-to-agent hand-off relies on copy-pasted
+    context. These lack a shared sandbox and structured artifact convention.
+  usage_reason: 推断：相较人工盯屏加 PR 兜底，该平台把代理执行放进真实 Docker 沙箱，并在关键节点强制暂停等待 Approve，减少的是“事后发现不可逆改动再回滚”这一步负担，并让每次交付留下可审查、可恢复的记录。因此让编码代理接触生产代码库、又必须保留人工放行权的团队，会在代理改动敏感路径或准备合并时选择它。77
+    个收藏与 3 次复刻只说明开发者关注，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manual watching plus PR fallback, the platform runs agents in real
+    Docker sandboxes and forces a pause for Approve at critical nodes, removing the step of discovering
+    an irreversible change after the fact and rolling it back, and leaving an auditable, recoverable record
+    per delivery. Teams that let coding agents touch production repositories but must keep human sign-off
+    would therefore choose it when agents edit sensitive paths or approach a merge. The 77 st'

@@ -1,6 +1,6 @@
 ---
 slug: jev开发商typesafe-ai以75亿美元估值融资87亿美元a16z领投
-name: Jev开发商TypeSafe AI以75亿美元估值融资8.7亿美元，a16z领投
+name: TypeSafe AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NLXExNXdCS2Ez
 summary: Jev开发商TypeSafe AI以75亿美元估值融资8.7亿美元，a16z领投 TradingView
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Jev开发商TypeSafe AI以75亿美元估值融资8.7亿美元，a16z领投
+# TypeSafe AI
 
 Jev开发商TypeSafe AI以75亿美元估值融资8.7亿美元，a16z领投 TradingView
 

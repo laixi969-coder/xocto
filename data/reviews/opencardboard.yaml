@@ -182,3 +182,47 @@
     manual editing, chat instructions replace segment-by-segment timeline dragging and cut repetitive
     work. Public material offers no retention or repeat-use evidence, so long-term workflow adoption cannot
     be claimed.'
+- id: req-full-opencardboard-2026-10-10
+  project_slug: opencardboard
+  level: full
+  reviewed_at: '2026-10-10T02:31:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决素材不能上云时仍想用 AI 剪辑的需求，痛点是有保密或版权约束的团队被迫放弃 AI 或纯手工剪辑，本地处理直接对应这一约束。
+    evidence_ids:
+    - ev-7f88f847e2c0786a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 49 缓慢增至 59，属早期关注度，没有用户评价或案例说明剪辑师是否真的改用对话式剪辑。
+    evidence_ids:
+    - ev-7f88f847e2c0786a
+    - ev-7d84aacd95a61223
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费方式，钱可能来自托管服务、企业支持或纯社区维护，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7f88f847e2c0786a
+  - gate: truth
+    status: insufficient
+    reason: 对话式剪辑能否稳定产出可用的成片、本地算力是否够用、人工复核边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-7f88f847e2c0786a
+  next_validation: 查看该仓库的 README、issue 与 discussion，确认支持的素材格式、对话指令的实际产出与本地运行要求。
+  market: ''
+  job: 视频剪辑师或独立创作者在素材涉及客户保密或版权、不便上传云端的情况下，需要完成粗剪或按指令调整片段。
+  job_en: Video editors or independent creators need to do rough cuts or adjust clips on instruction when
+    footage involves client confidentiality or copyright and cannot be uploaded to the cloud.
+  pain: 云端 AI 剪辑要求上传原始素材，保密与版权风险让一部分团队直接放弃使用；纯手动剪辑又要逐帧拖拽，耗时且重复。
+  pain_en: Cloud AI editing requires uploading raw footage, and confidentiality or copyright risk makes
+    some teams drop it entirely, while purely manual editing means slow, repetitive frame-by-frame dragging.
+  current_alternative: 现在要么用云端 AI 剪辑工具上传素材，要么在本地剪辑软件里手动完成全部操作。
+  current_alternative_en: Today teams either upload footage to cloud AI editors or do everything manually
+    in local editing software.
+  usage_reason: 推断：本地优先意味着素材不出本机，有保密约束的团队因此第一次可以把 AI 剪辑纳入流程；对话式下达指令替代了逐段拖拽时间轴这一步，减少重复操作。但公开材料未提供留存或复购证据，无法确认它已被长期留在工作流中。
+  usage_reason_en: 'Inference: local-first means footage never leaves the machine, so teams with confidentiality
+    constraints can for the first time put AI editing into their pipeline; chat instructions replace segment-by-segment
+    timeline dragging and cut repetitive work. Public material offers no retention or repeat-use evidence,
+    so long-term workflow adoption cannot be claimed.'

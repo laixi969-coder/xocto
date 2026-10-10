@@ -1,0 +1,92 @@
+- id: req-initial-攻克超声穿颅读脑拿下-4-亿元新融资他们要做脑科学的英伟达-2026-10-10
+  project_slug: 攻克超声穿颅读脑拿下-4-亿元新融资他们要做脑科学的英伟达
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决颅骨穿透成像与实时脑功能数据获取的需求，痛点是急救判断依赖CT、脑研究依赖侵入式手段，不采用的代价是延误救治或无法采集数据。
+    evidence_ids:
+    - ev-a62dc2c5e3258dca
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有创始人演示与融资信息，未见医院采购、临床采用或研究者使用案例，共识卡在临床验证与监管认可环节。
+    evidence_ids:
+    - ev-a62dc2c5e3258dca
+  - gate: model
+    status: insufficient
+    reason: 买方可能是医院、急救体系或脑机接口研究机构，但公开材料未披露定价、销售方式或收入，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a62dc2c5e3258dca
+  - gate: truth
+    status: insufficient
+    reason: 演示对比由公司自行提供，缺少第三方复现、监管注册与临床结果数据，承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-a62dc2c5e3258dca
+  next_validation: 收集鲲为科技官方产品页或监管注册信息，核验其超声设备的适应症、临床验证数据与是否已进入医院采购。
+  market: ''
+  job: 急诊医生在救护车或卒中中心面对疑似脑梗或脑出血患者时，需要在无法立即做CT的情况下快速判断颅内出血还是缺血；脑机接口研究人员需要非侵入地实时获取全脑功能数据。
+  job_en: An emergency physician facing a suspected stroke patient in an ambulance or stroke center must
+    quickly judge hemorrhage versus ischemia when CT is not immediately available; brain-computer interface
+    researchers need non-invasive real-time whole-brain functional data.
+  pain: 颅骨会强烈衰减高频声波，传统超声穿颅后图像模糊，医生只能依赖CT或转诊，延误黄金救治时间；脑功能数据采集则受限于侵入式电极或大型设备。
+  pain_en: The skull strongly attenuates high-frequency sound, so conventional ultrasound images blur
+    after penetration, forcing clinicians to rely on CT or transfer and losing golden treatment time;
+    brain-function data collection is limited to invasive electrodes or large equipment.
+  current_alternative: 急诊依赖CT和转诊流程，脑研究依赖fMRI、侵入式电极或海外旗舰彩超设备。
+  current_alternative_en: Emergency care relies on CT and transfer workflows; brain research relies on
+    fMRI, invasive electrodes, or overseas flagship color ultrasound systems.
+  usage_reason: 推断：相较等待CT或转诊，鲲为把低频穿透与算法重建结合，在床旁几分钟内给出可判读的颅内图像，减少一次转运和等待环节，因此急救与卒中场景的医生会在设备可及且判读被认可时选择它；目前缺少临床验证与采购证据。
+  usage_reason_en: 'Inference: compared with waiting for CT or transfer, Kunwei combines low-frequency
+    penetration with algorithmic reconstruction to give a readable intracranial image at bedside within
+    minutes, removing one transport and waiting step, so emergency and stroke clinicians would choose
+    it where the device is available and readings are accepted; clinical validation and procurement evidence
+    are currently lacking.'
+- id: req-full-攻克超声穿颅读脑拿下-4-亿元新融资他们要做脑科学的英伟达-2026-10-10
+  project_slug: 攻克超声穿颅读脑拿下-4-亿元新融资他们要做脑科学的英伟达
+  level: full
+  reviewed_at: '2026-10-10T02:33:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决颅骨穿透成像与实时脑功能数据获取的需求，痛点是急救判断依赖CT、脑研究依赖侵入式手段，不采用的代价是延误救治或无法采集数据；这是基于公开产品说明的工作流结构推理。
+    evidence_ids:
+    - ev-e80d856f9a31f3f5
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有创始人演示与融资信息，未见医院采购、临床采用或研究者使用案例，共识卡在临床验证与监管认可环节。
+    evidence_ids:
+    - ev-e80d856f9a31f3f5
+  - gate: model
+    status: insufficient
+    reason: 买方可能是医院、急救体系或脑机接口研究机构，但公开材料未披露定价、销售方式或收入，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e80d856f9a31f3f5
+  - gate: truth
+    status: insufficient
+    reason: 演示对比由公司自行提供，缺少第三方复现、监管注册与临床结果数据，承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-e80d856f9a31f3f5
+  next_validation: 收集鲲为科技官方产品页或监管注册信息，核验其超声设备的适应症、临床验证数据与是否已进入医院采购。
+  market: ''
+  job: 急诊医生在救护车或卒中中心面对疑似脑梗或脑出血患者、无法立即做CT时，需要床旁快速判别出血或缺血；脑机接口与NeuroAI研究人员需要非侵入、实时获取全脑功能数据。
+  job_en: An emergency physician facing a suspected stroke patient in an ambulance or stroke center without
+    immediate CT access must judge hemorrhage versus ischemia at bedside; BCI and NeuroAI researchers
+    need non-invasive, real-time whole-brain functional data.
+  pain: 颅骨强烈衰减高频声波，传统超声穿颅后图像模糊，医生只能依赖CT或转诊，延误黄金救治时间；脑功能数据采集受限于侵入式电极或大型设备。
+  pain_en: The skull strongly attenuates high-frequency sound, so conventional transcranial ultrasound
+    blurs, forcing clinicians to rely on CT or transfer and losing golden treatment time; brain-function
+    data collection is limited to invasive electrodes or large equipment.
+  current_alternative: 急诊依赖CT和转诊流程，脑研究依赖fMRI、侵入式电极或海外旗舰彩超设备。
+  current_alternative_en: Emergency care relies on CT and transfer workflows; brain research relies on
+    fMRI, invasive electrodes, or overseas flagship color ultrasound systems.
+  usage_reason: 推断：相较等待CT或转诊，鲲为把低频穿透与算法重建结合，在床旁几分钟内给出可判读的颅内图像，减少一次转运和等待环节，因此急救与卒中场景的医生会在设备可及且判读被认可时选择它；目前缺少临床验证与采购证据。
+  usage_reason_en: 'Inference: compared with waiting for CT or transfer, Kunwei combines low-frequency
+    penetration with algorithmic reconstruction to give a readable intracranial image at bedside within
+    minutes, removing one transport and waiting step, so emergency and stroke clinicians would choose
+    it where the device is available and readings are accepted; clinical validation and procurement evidence
+    are currently lacking.'

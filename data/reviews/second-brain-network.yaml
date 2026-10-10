@@ -81,3 +81,45 @@
     by other agents and update their own knowledge; the public material is a single tagline, so the actual
     inputs, actions and deliverable still need verification. Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-second-brain-network-2026-10-10
+  project_slug: second-brain-network
+  level: full
+  reviewed_at: '2026-10-10T02:32:28Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称让 agent 接收其他 agent 内容并更新知识，但公开材料只有一句宣传语，既无用户任务细节、无痛点、无旧替代行为，也无交付结果；现有证据全是“second”一词的词典、维基与教会页面，与项目无关，连需求和痛点都写不出来。
+    evidence_ids:
+    - ev-1066646273ad4dfc
+    - ev-015994315512860b
+    - ev-8cb21a2e73c6f06e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目官网或仓库的 README、部署文档与 issue/discussion，确认 agent 接入方式、输入材料与交付结果是否被具体描述。
+  market: ''
+  job: 用户把自己的 agent 接入该网络，让它接收其他 agent 产出的内容并据此更新自身知识；但公开材料只有一句宣传语，具体输入材料、执行动作与最终交付均无法还原。
+  job_en: Users connect their agents to this network so they ingest content produced by other agents and
+    update their own knowledge; the public material is a single tagline, so the inputs, actions and deliverable
+    cannot be reconstructed.
+  pain: 公开材料未说明任何具体痛点：既没有用户抱怨、workaround 记录，也没有说明不解决会造成什么后果或发生频率。
+  pain_en: 'Public material shows no concrete pain: no user complaints, no workaround records, and no
+    stated consequence or frequency of leaving the problem unsolved.'
+  current_alternative: 公开材料未说明用户目前如何完成 agent 知识更新，也未说明它替代了什么既有做法。
+  current_alternative_en: Public material does not show how users currently update agent knowledge, nor
+    what existing practice it replaces.
+  usage_reason: 无法给出使用理由：现有证据全部是“second”一词的词典、维基与教会页面，与该项目无任何语义关联，无法据此推断用户为何选择它（推断）。
+  usage_reason_en: 'No usage reason can be given: all available evidence is dictionary, Wikipedia and
+    church pages about the word "second", semantically unrelated to this project, so no inference about
+    user choice is possible (inference).'

@@ -86,3 +86,49 @@
     times in the notch, removing repeated tab switching and re-login, so people holding multiple subscriptions
     and coding for long sessions would pick it near the limit; this is inference from product capability,
     with no user feedback or retention evidence yet.
+- id: req-full-brow-2026-10-10
+  project_slug: brow
+  level: full
+  reviewed_at: '2026-10-10T02:28:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决多账号额度不可见、编码被限额打断的问题，但公开证据全是 brow 一词的词典释义，没有任何产品页面、用户抱怨或替代行为记录，连需求与痛点都无法从公开材料还原，只能算自述。
+    evidence_ids:
+    - ev-4ac6fb60eba4b3f6
+    - ev-5ba6db6cdc8815bd
+    - ev-bdc63e10aab8a04e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或发布页（含定价与功能说明）以及其仓库的 issue/discussion，确认是否存在真实用户反馈额度数据来源、刷新频率与多账号登录可用性。
+  market: ''
+  job: 使用 Claude Code 的开发者（据称同时持有多个 Claude 账号）在长时间编码、接近 5 小时或每周额度上限时，需要查看各账号剩余用量与重置时间，以决定继续用哪个账号或何时暂停。
+  job_en: A developer using Claude Code (reportedly holding several Claude accounts) needs to see each
+    account's remaining 5-hour and weekly quota and reset time during long coding sessions near the limit,
+    in order to decide which account to keep using or when to pause.
+  pain: 公开证据中没有出现任何用户对额度不可见、被限额打断或账号切换冲突的抱怨、讨论或 workaround 记录；现有证据全部是词典对 brow 一词的释义，与产品任务无关，因此痛点无法从公开材料中还原。
+  pain_en: No public evidence shows any user complaint, discussion, or workaround about invisible quota,
+    limit interruptions, or account-switching conflicts; all available evidence is dictionary definitions
+    of the word 'brow', unrelated to the product task, so the pain cannot be reconstructed from public
+    material.
+  current_alternative: 公开材料未记录开发者当前如何查看额度；按产品描述推断的旧做法是手动打开各账号用量页面或用多个浏览器配置分别登录，但这一替代行为没有任何公开证据支持。
+  current_alternative_en: Public material records no current method developers use to check quota; the
+    inferred old practice is opening each account's usage page manually or using separate browser profiles,
+    but this alternative behavior has no public evidence behind it.
+  usage_reason: 无法从公开证据说明用户为何选择它：现有证据不含产品页面、用户反馈或采用记录，只能从产品描述推断它把多账号额度常驻刘海、省去切换标签页与重新登录，属于推断而非事实，且缺少任何用户实际选择它的证据。
+  usage_reason_en: 'There is no public evidence explaining why users would choose it: the evidence contains
+    no product page, user feedback, or adoption record, so the claim that it keeps multi-account quota
+    in the notch and removes tab switching and re-login is inference from the description, not fact, and
+    lacks any evidence of actual user choice.'

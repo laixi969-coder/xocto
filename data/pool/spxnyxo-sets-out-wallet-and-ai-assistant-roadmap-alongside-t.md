@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcFlDV2ZSbjVk
 summary: SpxNyxo Sets Out Wallet and AI Assistant Roadmap Alongside Token Rewards FinancialContent
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,82 @@
+- id: req-initial-opencharm-2026-10-10
+  project_slug: opencharm
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法还原具体用户任务、输入材料与交付结果，只知它是代理的界面外壳，痛点与不采用后果均未说明。
+    evidence_ids:
+    - ev-d11d9ae9f1368e16
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供任何采用、收藏或讨论数据，无法判断是否有人真正接入使用。
+    evidence_ids:
+    - ev-d11d9ae9f1368e16
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、托管服务或企业支持等任何付费路径的公开信息。
+    evidence_ids:
+    - ev-d11d9ae9f1368e16
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它如何保证代理操作的安全边界与人工确认环节，交付确定性缺少材料。
+    evidence_ids:
+    - ev-d11d9ae9f1368e16
+  next_validation: 收集该项目的代码仓库与文档，确认支持的代理类型、接入步骤以及是否有外部团队报告实际使用。
+  market: ''
+  job: 已经在运行自有 AI 代理的开发者需要给代理加一层可操作的界面，让非开发同事能查看和触发代理任务。
+  job_en: Developers already running their own AI agents need an operable interface layer so non-developer
+    colleagues can inspect and trigger agent tasks.
+  pain: 公开材料只有一句产品定位，没有说明现有做法哪里难受、谁在抱怨，也没有使用反馈可引用。
+  pain_en: Public material offers only a one-line positioning; it does not say where current practice
+    hurts, who complains, or any usage feedback.
+  current_alternative: 开发者目前自己写前端，或直接用命令行与通用聊天界面操作代理。
+  current_alternative_en: Developers currently write their own front end, or operate agents through a
+    command line and generic chat interfaces.
+  usage_reason: 推断：开源外壳可省去从零写界面的工作量，但公开材料未说明它比自建界面少做哪一步、支持哪些代理，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: an open-source shell could save building a UI from scratch, but public
+    material does not say which step it removes versus a self-built UI or which agents it supports, so
+    the choice reason cannot be confirmed.'
+- id: req-full-opencharm-2026-10-10
+  project_slug: opencharm
+  level: full
+  reviewed_at: '2026-10-10T02:31:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅有一句产品定位，无法还原具体用户任务、输入材料与交付结果，痛点与不采用后果均未说明，连需求与痛点都写不实。
+    evidence_ids:
+    - ev-d11d9ae9f1368e16
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OpenCharm 的官方代码仓库与部署文档，确认支持的代理类型、接入步骤，以及是否有外部团队在 issue 或 discussion 中报告实际接入使用。
+  market: ''
+  job: 已经在运行自有 AI 代理的开发者，在需要让非开发同事查看和触发代理任务时，处理代理的输入输出与任务状态，要完成给已有代理套上一层可交互界面的任务。
+  job_en: Developers already running their own AI agents, when non-developer colleagues need to inspect
+    and trigger agent tasks, handle the agent's inputs, outputs and task state to wrap the existing agent
+    in an interactive interface.
+  pain: 公开材料只有一句定位，没有说明自建界面或命令行操作代理时具体哪里难受、谁在抱怨，也没有任何使用反馈可引用。
+  pain_en: Public material offers only a one-line positioning; it does not say where building a UI or
+    operating agents via CLI actually hurts, who complains, or any usage feedback.
+  current_alternative: 开发者目前自己写前端界面，或直接用命令行与通用聊天界面操作代理。
+  current_alternative_en: Developers currently write their own front end, or operate agents through a
+    command line and generic chat interfaces.
+  usage_reason: 推断：开源外壳理论上可省去从零写界面的工作量，但公开材料未说明它比自建界面少做哪一步、支持哪些代理类型，因此无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: an open-source shell could in theory save building a UI from scratch, but
+    public material does not say which step it removes versus a self-built UI or which agent types it
+    supports, so which users would choose it and when cannot be confirmed.'

@@ -838,3 +838,46 @@
   usage_reason_en: The public repository has 43 stars, showing developer attention; but no user feedback
     or case explains why anyone would choose it over existing test workflows, so adoption motive cannot
     be judged.
+- id: req-full-adversarial-testing-skill-2026-10-10
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-10-10T02:27:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让两个 AI 对打来测你的产品：一个读源码，一个蒙着眼当黑客”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的公开 issue / discussion 与 README 更新，确认是否有用户报告实际发现的漏洞、误报情况或将其接入 CI 的用法。
+  market: ''
+  job: 开发者在发布前需要对自己的代码或产品做安全测试：让一个 AI 读取源码做白盒分析，另一个 AI 在不知道实现细节的情况下当黑盒攻击者，两者对打以暴露漏洞，最终产出可修复的缺陷清单。
+  job_en: 'Before shipping, a developer needs security testing of their code or product: one AI reads
+    the source for white-box analysis while another attacks it blind as a black-box adversary, so the
+    two collide to surface vulnerabilities and produce a fixable defect list.'
+  pain: 人工渗透测试昂贵且排期长，独立开发者和小团队通常没有专职安全人员；只靠单一 AI 或静态扫描容易漏掉需要跨视角才能触发的漏洞，而漏掉一个上线漏洞的代价是真实的数据泄露与修复成本。
+  pain_en: Manual penetration testing is expensive and slow to schedule, and solo developers or small
+    teams rarely have a dedicated security engineer; a single AI pass or static scanner tends to miss
+    flaws that only surface across perspectives, while shipping one missed vulnerability carries real
+    breach and remediation costs.
+  current_alternative: 当前替代方式包括人工渗透测试外包、静态分析工具（SAST/SCA）、单一 LLM 提示做代码审查，或干脆跳过安全测试直接上线。
+  current_alternative_en: Current alternatives include outsourced manual penetration testing, static analysis
+    tools (SAST/SCA), single-LLM prompt-based code review, or skipping security testing and shipping anyway.
+  usage_reason: 相较单一扫描或单次 LLM 审查，它把白盒读源码与黑盒盲测拆成两个对抗角色，使攻击方无法依赖实现细节、防守方必须解释真实代码路径，从而减少人工设计攻击场景这一步负担；推断在缺少专职安全人员、又需要上线前快速自查的独立开发者与小团队中会被选择。
+  usage_reason_en: Compared with a single scanner or one-shot LLM review, it splits white-box source reading
+    and black-box blind testing into two adversarial roles, so the attacker cannot lean on implementation
+    details and the defender must justify real code paths, removing the manual step of designing attack
+    scenarios; this is inferred to be chosen by solo developers and small teams lacking a dedicated security
+    engineer who need a fast pre-release self-check.

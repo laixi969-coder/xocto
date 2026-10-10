@@ -1,6 +1,6 @@
 ---
 slug: cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-s-2
-name: Cal AI’s 19-year-old founder just raised $10M for his new AI startup
+name: Persona
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxPRC1YdEozSHgz
 summary: Cal AI’s 19-year-old founder just raised $10M for his new AI startup TechCrunch
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Cal AI’s 19-year-old founder just raised $10M for his new AI startup
+# Persona
 
 Cal AI’s 19-year-old founder just raised $10M for his new AI startup TechCrunch
 

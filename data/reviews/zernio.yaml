@@ -1,0 +1,96 @@
+- id: req-initial-zernio-2026-10-10
+  project_slug: zernio
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决营销基础设施搭建与运行的问题，但公开材料只有一句定位，无法确认具体用户任务与痛点强度。
+    evidence_ids:
+    - ev-ac196bb247d46c53
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户反馈、案例或采用数据说明营销团队会把它纳入日常工作流。
+    evidence_ids:
+    - ev-ac196bb247d46c53
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能是营销团队订阅或按用量计费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ac196bb247d46c53
+  - gate: truth
+    status: insufficient
+    reason: 它接收什么数据、执行哪些动作、结果如何核对，公开材料均未说明，无法判断交付是否确定。
+    evidence_ids:
+    - ev-ac196bb247d46c53
+  next_validation: 收集该产品官方页面或文档，确认它接收的数据、执行的具体动作与最终交付物。
+  market: ''
+  job: 营销团队在产品或代理上线时，需要把营销基础设施搭起来并持续运行，以完成对外推广。
+  job_en: A marketing team launching a product or agent needs to stand up and continuously run marketing
+    infrastructure to carry out promotion.
+  pain: 营销基础设施搭建涉及多个工具与数据源，团队需要反复配置和串联，耗时且容易出错。
+  pain_en: Standing up marketing infrastructure involves multiple tools and data sources that teams must
+    configure and wire together repeatedly, which is slow and error-prone.
+  current_alternative: 团队目前用现成营销工具、自动化平台或自建脚本拼接流程。
+  current_alternative_en: Teams currently stitch the flow together with off-the-shelf marketing tools,
+    automation platforms or self-built scripts.
+  usage_reason: 推断：若它能把多个营销工具的配置与运行收敛到一处，营销团队会在新项目上线时用它减少拼接工作；但公开材料未说明具体动作与交付，无法确认它替代了哪一步人工操作。
+  usage_reason_en: 'Inference: if it consolidates configuration and operation of several marketing tools
+    in one place, a marketing team would use it at project launch to cut integration work; but the public
+    material does not describe concrete actions or deliverables, so which manual step it replaces cannot
+    be confirmed.'
+- id: req-full-zernio-2026-10-10
+  project_slug: zernio
+  level: full
+  reviewed_at: '2026-10-10T02:33:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者让产品与 agent 对外发布、发消息、投广告时需逐平台对接官方 API 的需求，痛点是 16–17 个平台与 8 个广告网络的审核、鉴权和维护重复且拖慢上线；文档给出
+      5 次调用排定帖子的可确定交付，属工作流结构推理。
+    evidence_ids:
+    - ev-5327e721f227e7eb
+    - ev-46a7c18c403b043f
+    - ev-cabbe9b8491c2ef9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官方定位与文档，没有用户评价、客户案例或采用数据说明开发者已把它纳入日常工作流；官网自述的“跳过数月审批”属产品承诺，不是采用证据。
+    evidence_ids:
+    - ev-cabbe9b8491c2ef9
+    - ev-46a7c18c403b043f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与计费方式，买方可能是开发者所在团队按 API 用量订阅，也可能是 agent 平台方采购，这属判断而非已验证事实；公开材料未见实际付费或采购记录。
+    evidence_ids:
+    - ev-806f94d4357d3a91
+    - ev-68a492e222c6f957
+  - gate: truth
+    status: insufficient
+    reason: 文档确认 5 次调用可排定一条帖子，交付动作可核对；但平台审核是否真由 Zernio 承担、多平台发布失败与账号安全边界如何，公开材料未给出可复现验证。
+    evidence_ids:
+    - ev-46a7c18c403b043f
+    - ev-995767dc4f246c23
+  next_validation: 追踪 Zernio 官方定价页与客户案例页，确认计费方式、买方类型及是否有公开客户部署记录。
+  market: ''
+  job: 开发者在产品内或自研 agent 需要对外发布内容、发消息、投广告时，接入 Zernio 的单一 API，把社交、博客、消息、语音与广告渠道的发布、分析、webhook 打通，让产品自己完成对外触达。
+  job_en: When a developer's product or agent needs to publish content, send messages and run paid ads,
+    they integrate Zernio's single API to wire publishing, messaging, analytics, webhooks and ads across
+    social, blog, messaging, voice and ad channels so the product itself can reach customers.
+  pain: 公开材料称接入各平台官方 API 需经历数月平台审批与逐平台对接，开发者要为 16–17 个平台和 8 个广告网络分别做审核、鉴权与维护，重复劳动且上线被拖慢。
+  pain_en: Public material states that going through each platform's official API requires months of platform
+    approvals and per-platform integration; developers must handle reviews, auth and maintenance separately
+    for 16–17 platforms and 8 ad networks, duplicating work and delaying launch.
+  current_alternative: 开发者自行逐个申请并对接各平台官方 API，或使用 Buffer、Hootsuite 等面向人的社媒管理工具，再自建脚本与 webhook 拼接。
+  current_alternative_en: Developers apply for and integrate each platform's official API one by one,
+    or use human-facing social tools like Buffer and Hootsuite plus self-built scripts and webhooks.
+  usage_reason: 推断：相较逐平台自建对接，Zernio 用一次集成覆盖多平台官方 API，并声称已代为完成平台审核，开发者只需创建 API key、连接账号、用 5 次调用即可排定一条帖子，省去逐平台申请与鉴权维护这一步；因此正在做产品内社媒发布或
+    agent 触达能力的开发者会在上线前选择它。
+  usage_reason_en: 'Inference: versus building per-platform integrations, Zernio covers multiple official
+    APIs with one integration and claims to have done the platform reviews, so a developer only creates
+    an API key, connects an account and schedules a post in 5 calls, removing the per-platform application
+    and auth-maintenance step; developers building in-product social publishing or agent outreach would
+    choose it before launch.'

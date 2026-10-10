@@ -1,0 +1,82 @@
+- id: req-initial-yeah-nah-2026-10-10
+  project_slug: yeah-nah
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决求职者筛选夸大招聘广告的需求，痛点真实但强度与频率未明，且公开材料未说明评分依据，无法确认交付是否可靠。
+    evidence_ids:
+    - ev-3513808c0e94c8a6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有用户反馈或案例说明求职者会把它纳入投递前的固定动作。
+    evidence_ids:
+    - ev-3513808c0e94c8a6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是求职者个人，也可能是招聘平台，属判断而非已验证事实。
+    evidence_ids:
+    - ev-3513808c0e94c8a6
+  - gate: truth
+    status: insufficient
+    reason: 评分是否可解释、是否贴近求职者真实判断标准、误判后果如何处理，公开材料均未说明。
+    evidence_ids:
+    - ev-3513808c0e94c8a6
+  next_validation: 收集该产品官方页面或说明文档，确认评分依据、输入方式与是否提供付费或使用数据。
+  market: ''
+  job: 澳洲求职者在投递前逐条阅读招聘广告，需要判断哪些描述是夸大或套话，以决定是否投入时间申请。
+  job_en: An Australian job seeker reads job ads one by one before applying and needs to judge which descriptions
+    are exaggerated or boilerplate in order to decide whether to spend time applying.
+  pain: 招聘广告普遍存在职责夸大、要求虚高和套话，求职者只能靠经验逐条判断，误投会浪费大量时间。
+  pain_en: Job ads commonly inflate responsibilities, requirements and boilerplate, and candidates can
+    only judge each one by experience; a bad application wastes substantial time.
+  current_alternative: 求职者目前靠个人经验、社群吐槽帖或招聘平台评价来判断广告真假，没有专门工具。
+  current_alternative_en: Candidates currently rely on personal experience, community complaint threads
+    or employer-review sites to judge an ad, with no dedicated tool.
+  usage_reason: 推断：它把逐条人工判断压缩成一次打分，若评分依据可解释，求职者会在批量浏览广告时用它先筛掉明显注水的岗位；但公开材料未说明评分逻辑，也未显示有人重复使用。
+  usage_reason_en: 'Inference: it compresses manual per-ad judgement into a single score, so a candidate
+    scanning many ads would use it to filter out obviously padded roles first, if the score is explainable;
+    the public material does not describe the scoring logic or show repeat use.'
+- id: req-full-yeah-nah-2026-10-10
+  project_slug: yeah-nah
+  level: full
+  reviewed_at: '2026-10-10T02:33:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决求职者筛选夸大招聘广告的需求，痛点方向真实，但公开证据全部是 Usher 歌曲视频与歌词，与产品无关，无法还原输入、评分口径与交付形态，价值结构无法成立。
+    evidence_ids:
+    - ev-d5322b6a58fde2d2
+    - ev-2320efc33f896ac0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Yeah Nah 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 澳洲求职者在投递前逐条阅读招聘广告，需要判断哪些描述是夸大或套话，以决定是否投入时间申请。
+  job_en: An Australian job seeker reads job ads one by one before applying and needs to judge which descriptions
+    are exaggerated or boilerplate in order to decide whether to spend time applying.
+  pain: 招聘广告普遍存在职责夸大、要求虚高和套话，求职者只能靠经验逐条判断，误投会浪费大量时间。
+  pain_en: Job ads commonly inflate responsibilities, requirements and boilerplate, and candidates can
+    only judge each one by experience; a bad application wastes substantial time.
+  current_alternative: 求职者目前靠个人经验、社群吐槽帖或招聘平台评价来判断广告真假，没有专门工具。
+  current_alternative_en: Candidates currently rely on personal experience, community complaint threads
+    or employer-review sites to judge an ad, with no dedicated tool.
+  usage_reason: 推断：它把逐条人工判断压缩成一次打分，若评分依据可解释，求职者会在批量浏览广告时用它先筛掉明显注水的岗位；但公开材料未说明评分逻辑，也未显示有人重复使用。
+  usage_reason_en: 'Inference: it compresses manual per-ad judgement into a single score, so a candidate
+    scanning many ads would use it to filter out obviously padded roles first, if the score is explainable;
+    the public material does not describe the scoring logic or show repeat use.'

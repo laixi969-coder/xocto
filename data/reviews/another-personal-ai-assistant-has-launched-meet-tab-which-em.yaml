@@ -1,0 +1,84 @@
+- id: req-initial-another-personal-ai-assistant-has-launched-meet-tab-which-em-2026-10-10
+  project_slug: another-personal-ai-assistant-has-launched-meet-tab-which-em
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决个人事务代办需求，但公开材料未说明处理什么材料、完成什么任务，痛点与旧流程无法还原。
+    evidence_ids:
+    - ev-fbbb4e99d51094cb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有隐身结束与估值报道，没有可归因到该产品的使用、采用或评价证据。
+    evidence_ids:
+    - ev-fbbb4e99d51094cb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fbbb4e99d51094cb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工边界与安全约束的公开说明。
+    evidence_ids:
+    - ev-fbbb4e99d51094cb
+  next_validation: 收集 Tab 官方产品页或定价页，确认其具体输入、执行动作与交付结果。
+  market: ''
+  job: 个人用户在日常事务中把待办、信息或请求交给助手，期望它代为完成或整理出结果，但公开材料未说明具体处理哪些材料、完成什么任务。
+  job_en: An individual hands tasks, information or requests to an assistant expecting it to complete
+    or organize them, but public materials do not specify which materials are processed or what task is
+    finished.
+  pain: 公开材料只给出估值与发布事实，未描述用户原本如何手动处理这些事务、卡在哪一步，因此痛点无法确认。
+  pain_en: Public materials only give valuation and launch facts, without describing how users previously
+    handled these tasks by hand or where they got stuck, so the pain point cannot be confirmed.
+  current_alternative: 现有替代是已成熟的通用助手与手机自带助手，公开材料未说明 Tab 相较它们改变了哪一步。
+  current_alternative_en: The current alternative is established general assistants and built-in phone
+    assistants; public materials do not say which step Tab changes relative to them.
+  usage_reason: 推断：若 Tab 能在具体事务上减少用户手动整理与切换应用的步骤，个人用户可能试用；但缺少功能细节与使用反馈，无法确认选择理由。
+  usage_reason_en: 'Inference: if Tab reduces manual organizing and app switching for specific tasks,
+    individuals may try it; but without feature detail or user feedback the reason for choosing it cannot
+    be confirmed.'
+- id: req-full-another-personal-ai-assistant-has-launched-meet-tab-which-em-2026-10-10
+  project_slug: another-personal-ai-assistant-has-launched-meet-tab-which-em
+  level: full
+  reviewed_at: '2026-10-10T02:28:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决个人事务代办需求，但公开材料未说明处理什么材料、完成什么任务，痛点与旧流程无法还原，连需求本身都写不具体。
+    evidence_ids:
+    - ev-22191a96ab4230cf
+    - ev-043cfbbf96d2999c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Tab 官方产品页或定价页，确认其具体输入、执行动作与交付结果。
+  market: ''
+  job: 个人用户在日常事务中把待办、信息或请求交给 AI 助手，期望它代为完成或整理出结果；但公开材料未说明具体处理哪些材料、完成什么任务。
+  job_en: An individual hands tasks, information or requests to an AI assistant expecting it to complete
+    or organize them; public materials do not specify which materials are processed or what task is finished.
+  pain: 公开材料只给出隐身结束与 3 亿美元估值，未描述用户原本如何手动处理这些事务、卡在哪一步，痛点无法确认。
+  pain_en: Public materials only give the stealth exit and a $300M valuation, without describing how users
+    previously handled these tasks by hand or where they got stuck, so the pain cannot be confirmed.
+  current_alternative: 现有替代是 ChatGPT、Google Gemini 等已成熟的通用助手与手机自带助手；公开材料未说明 Tab 相较它们改变了哪一步。
+  current_alternative_en: The current alternative is established general assistants such as ChatGPT and
+    Google Gemini plus built-in phone assistants; public materials do not say which step Tab changes relative
+    to them.
+  usage_reason: 推断：若 Tab 能在具体事务上减少用户手动整理与切换应用的步骤，个人用户可能试用；但缺少功能细节与使用反馈，无法确认选择理由。
+  usage_reason_en: 'Inference: if Tab reduces manual organizing and app switching for specific tasks,
+    individuals may try it; but without feature detail or user feedback the reason for choosing it cannot
+    be confirmed.'

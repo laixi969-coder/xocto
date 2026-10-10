@@ -1,0 +1,86 @@
+- id: req-initial-openvids-2026-10-10
+  project_slug: openvids
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想替代时间线剪辑，但公开材料未说明具体输入素材、可完成的剪辑动作与交付质量，痛点强度无法判断。
+    evidence_ids:
+    - ev-02a2c56b506a55bb
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供采用、收藏或讨论数据，无法判断创作者是否真的把它放进剪辑流程。
+    evidence_ids:
+    - ev-02a2c56b506a55bb
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、按成片收费或订阅等任何付费路径的公开信息。
+    evidence_ids:
+    - ev-02a2c56b506a55bb
+  - gate: truth
+    status: insufficient
+    reason: 视频成片质量与人工复核边界缺少材料，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-02a2c56b506a55bb
+  next_validation: 收集该项目的代码仓库与演示素材，确认可完成的剪辑动作范围、成片示例以及是否有创作者报告实际使用。
+  market: ''
+  job: 内容创作者需要把拍好的素材剪成可发布的成片，在时间线上逐段裁剪、加字幕和调整节奏。
+  job_en: Content creators need to turn shot footage into publishable cuts, trimming segments, adding
+    subtitles and adjusting pacing on a timeline.
+  pain: 公开材料只说明可以用对话操作剪辑，没有说明现有剪辑流程中哪一步最耗时、谁在抱怨，也没有用户反馈。
+  pain_en: Public material only says editing can be driven by chat; it does not say which step of current
+    editing is most time-consuming, who complains, or any user feedback.
+  current_alternative: 创作者目前使用传统非线性编辑软件手工剪辑，或把素材交给剪辑师。
+  current_alternative_en: Creators currently edit by hand in traditional non-linear editors, or hand footage
+    to an editor.
+  usage_reason: 推断：对话式操作可能省去在时间线上反复定位与拖拽这一步，但公开材料未说明它实际能完成哪些剪辑动作、成片是否可用，因此选择理由无法确认。
+  usage_reason_en: 'Inference: chat-driven operation may remove repeated locating and dragging on the
+    timeline, but public material does not say which edit actions it can actually complete or whether
+    the output is usable, so the choice reason cannot be confirmed.'
+- id: req-full-openvids-2026-10-10
+  project_slug: openvids
+  level: full
+  reviewed_at: '2026-10-10T02:31:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容创作者把素材剪成成片的需求，痛点在于时间线手工定位与拖拽的重复负担；对话式操作可减少这一步，但公开材料未说明具体剪辑动作与成片质量，痛点强度属结构推理。
+    evidence_ids:
+    - ev-02a2c56b506a55bb
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供采用、收藏或讨论数据，无法判断创作者是否真的把它放进剪辑流程，共识卡在感知与场景环节。
+    evidence_ids:
+    - ev-02a2c56b506a55bb
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、按成片收费或订阅等任何付费路径的公开信息，钱可能来自 to C 或 to VC，但均未核验。
+    evidence_ids:
+    - ev-02a2c56b506a55bb
+  - gate: truth
+    status: insufficient
+    reason: 视频成片质量与人工复核边界缺少材料，无法核对承诺能否确定性交付，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-02a2c56b506a55bb
+  next_validation: 收集该项目的代码仓库与演示素材，确认可完成的剪辑动作范围、成片示例以及是否有创作者报告实际使用。
+  market: ''
+  job: 内容创作者在拍完素材后，需要把零散片段剪成可发布的成片，包括裁剪、加字幕、调节奏等步骤，最终交付一条能上传平台的视频。
+  job_en: Content creators, after shooting footage, need to turn scattered clips into a publishable cut—trimming,
+    adding subtitles, adjusting pacing—and deliver a video ready to upload.
+  pain: 公开材料只说明可用对话驱动剪辑，未说明现有流程中哪一步最耗时、谁在抱怨，也没有用户反馈；痛点强度只能从时间线手工剪辑的重复定位与拖拽这一结构推断。
+  pain_en: Public material only says editing can be chat-driven; it does not say which step is most time-consuming,
+    who complains, or any user feedback. Pain intensity can only be inferred structurally from the repetitive
+    locating and dragging in manual timeline editing.
+  current_alternative: 创作者目前使用传统非线性编辑软件手工剪辑，或把素材交给剪辑师。
+  current_alternative_en: Creators currently edit by hand in traditional non-linear editors, or hand footage
+    to an editor.
+  usage_reason: 推断：相较在时间线上反复定位与拖拽，对话式操作可能把“找片段—下刀—调顺序”这几步合并为一句指令，减少手工定位负担；但公开材料未说明它实际能完成哪些剪辑动作、成片是否可用，因此选择理由仍属推断。
+  usage_reason_en: 'Inference: compared with repeatedly locating and dragging on a timeline, chat-driven
+    operation may merge ''find clip—cut—reorder'' into a single instruction, reducing manual locating
+    burden; but public material does not say which edit actions it can actually complete or whether output
+    is usable, so the choice reason remains an inference.'

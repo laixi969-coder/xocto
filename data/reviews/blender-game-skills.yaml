@@ -306,3 +306,47 @@
   usage_reason_en: 'Inference: it converts concept art directly into rigged assets and checks them against
     references, skipping the from-scratch modeling and rigging start, so indie teams or outsourcing artists
     may pick it when rushing assets; no retention or repeat-use evidence yet.'
+- id: req-full-blender-game-skills-2026-10-10
+  project_slug: blender-game-skills
+  level: full
+  reviewed_at: '2026-10-10T02:28:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决概念图到可用绑定资产的手工建模与绑定痛点，旧流程与交付可还原，属工作流推理。
+    evidence_ids:
+    - ev-83aa4b12bfc8227c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 128 缓慢升至 135，只说明早期关注度，不能证明持续采用。
+    evidence_ids:
+    - ev-83aa4b12bfc8227c
+    - ev-94206632e0e45a8a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露付费路径或买方，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-83aa4b12bfc8227c
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成资产是否需人工修整，交付确定性无法核对。
+    evidence_ids:
+    - ev-83aa4b12bfc8227c
+  next_validation: 查看该仓库的 issue 与 discussion，确认生成资产在实际项目中是否需要大量人工修整。
+  market: ''
+  job: 游戏美术或独立开发者在 Blender 中拿到概念图后，需要产出带骨骼、可直接进引擎的 3D 资产，用于角色或道具上线。
+  job_en: A game artist or indie developer with concept art in Blender needs to produce rigged 3D assets
+    that can go straight into an engine for characters or props.
+  pain: 从概念图到可用的绑定模型通常要手工建模、拓扑与绑定，重复且耗时；小团队缺少专职绑定人手时，资产管线容易卡在这一步。
+  pain_en: Going from concept art to a usable rigged model usually requires manual modeling, retopology
+    and rigging, which is repetitive and slow; small teams without a dedicated rigger often stall at this
+    step.
+  current_alternative: 旧做法是美术在 Blender 里手工建模与绑定，或使用通用生成工具后再人工修整。
+  current_alternative_en: The old way is manual modeling and rigging in Blender, or using generic generation
+    tools followed by manual cleanup.
+  usage_reason: 推断：它把概念图直接转成带骨骼的资产并按参考图比对，省去从零建模与绑定的起步步骤，因此独立游戏团队或外包美术在赶资产时可能选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it converts concept art directly into rigged assets and checks them against
+    references, skipping the from-scratch modeling and rigging start, so indie teams or outsourcing artists
+    may pick it when rushing assets; no retention or repeat-use evidence yet.'

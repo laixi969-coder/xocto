@@ -400,3 +400,56 @@
     example, so developers building ChatGPT-related apps who want to reuse the official identity entry
     would pick it when they need fast sign-in integration; public materials do not yet confirm this motive
     via user feedback.'
+- id: req-full-sign-in-with-chatgpt-devkit-2026-10-10
+  project_slug: sign-in-with-chatgpt-devkit
+  level: full
+  reviewed_at: '2026-10-10T02:32:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决第三方应用加入账号登录的需求：自建账号要处理注册、密码、会话与安全，自行对接 OAuth 要写协议与令牌刷新，这是上线前的固定负担。套件以本地 SDK、React 组件与示例把登录入口做成可复用交付，痛点刚性且交付可确定；此为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-1a13bf9de4d0f74f
+    - ev-eb7068337456b40a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 23 增至 37，说明开发者注意到该项目，但收藏与关注只属规模信号，不能证明目标用户已把它留在工作流或持续使用；缺少 issue、discussion 或集成案例说明谁在何种场景采用。
+    evidence_ids:
+    - ev-1a13bf9de4d0f74f
+    - ev-c46da8a3bd311a67
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、商用条款或权限范围，谁付钱（开发者自付、应用方采购还是 OpenAI 生态补贴）无法核验；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-1a13bf9de4d0f74f
+  - gate: truth
+    status: insufficient
+    reason: 登录涉及身份与令牌，权限范围、数据边界与安全责任划分未见公开文档；交付能否稳定发生、人工与安全边界如何设定，尚缺可复现证据。
+    evidence_ids:
+    - ev-1a13bf9de4d0f74f
+    - ev-889b1a059bc6f476
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认权限范围、商用条款及是否有开发者公开报告已把该登录组件部署进生产应用。
+  market: ''
+  job: 第三方应用开发者（尤其是已有 React 前端的小团队）在需要为自己的应用加入账号登录入口时，接入 OpenAI 提供的本地 SDK、可复用 React 组件与设计资源，把 ChatGPT
+    账号登录嵌进自己的产品，并参考 Paste Perfect 桌面示例完成端到端集成。
+  job_en: Third-party app developers, especially small teams already on React, need to add an account
+    sign-in entry to their own product; they integrate OpenAI's local SDK, reusable React components and
+    design assets to embed ChatGPT account sign-in, using the Paste Perfect desktop example as an end-to-end
+    reference.
+  pain: 自建账号体系要处理注册、密码、找回、会话与安全合规，接入第三方 OAuth 又要自行对接协议、维护回调与令牌刷新；对只想验证产品的小团队，这部分工作量与安全责任是上线前的固定负担。
+  pain_en: Building an account system means handling registration, passwords, recovery, sessions and security
+    compliance; wiring a third-party OAuth provider means implementing the protocol, callbacks and token
+    refresh yourself. For small teams that only want to validate a product, this is a fixed cost and security
+    burden before launch.
+  current_alternative: 开发者目前通常自建邮箱密码账号，或自行接入 Google、公开代码仓库 等 OAuth 提供方，并自己写登录 UI、会话管理与令牌刷新逻辑。
+  current_alternative_en: Developers today typically build email/password accounts themselves, or wire
+    up OAuth providers such as Google or public code repository, writing their own login UI, session handling
+    and token refresh logic.
+  usage_reason: 推断：相较自建账号或自行对接 OAuth，该套件把登录 UI、SDK 调用与设计资源打包成可直接复用的 React 组件，开发者少写登录界面与协议对接代码，并可用官方示例核对集成结果；因此正在做
+    ChatGPT 生态集成、且希望缩短登录环节工期的 React 团队会在此时选择它。
+  usage_reason_en: 'Inference: compared with building accounts or wiring OAuth by hand, the kit packages
+    login UI, SDK calls and design assets into reusable React components, so developers write less login-screen
+    and protocol code and can check integration against the official example. React teams integrating
+    with the ChatGPT ecosystem and wanting to shorten the sign-in step would choose it at that point.'

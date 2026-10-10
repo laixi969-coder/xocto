@@ -77,3 +77,45 @@
   usage_reason: 用户要完成的任务是：开源维护者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Open-source maintainer Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-oss-scanner-2026-10-10
+  project_slug: oss-scanner
+  level: full
+  reviewed_at: '2026-10-10T02:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选材料只给出仓库名与星标、fork、issue 数量，未说明 AI 接收什么材料、执行什么动作、交付什么结果，连用户任务与痛点都无法还原，价值关无法成立。
+    evidence_ids:
+    - ev-f4df8b7fc0ab4f37
+    - ev-e5b454b5e70a735a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/anthropics/oss-scanner 的 README、issue 与 discussion，确认它接收什么输入、执行什么扫描动作、输出什么交付物。
+  market: ''
+  job: 开源维护者在处理代码仓库时可能打开它，让工具扫描仓库中的代码或依赖材料并输出问题清单；但候选材料只给出仓库名与星标、fork、issue 数量，AI 具体接收什么、执行什么动作、最终交付什么，均未说明。
+  job_en: An open-source maintainer may open it while working on a code repository, letting the tool scan
+    code or dependency material and output a problem list; but the candidate material only gives the repository
+    name, stars, forks and issue counts, and does not state what the AI receives, what action it performs,
+    or what it finally delivers.
+  pain: 公开材料未说明维护者在哪一步难受、不解决的具体代价或发生频率，产品功能说明不能代替痛点证据。
+  pain_en: Public material does not state which step is painful for maintainers, the concrete cost of
+    leaving it unsolved, or its frequency; product capability descriptions cannot substitute for pain
+    evidence.
+  current_alternative: 公开材料尚未说明维护者目前如何完成这项工作、它实际替代了什么旧做法。
+  current_alternative_en: Public material does not yet show how maintainers complete this job today or
+    what old practice it actually replaces.
+  usage_reason: 缺少产品能力与场景描述，无法解释用户为何选择它而非现有做法；这是信息缺口，不是需求不存在的证据。
+  usage_reason_en: With no capability or scenario description, there is no way to explain why a user would
+    pick it over existing approaches; this is an information gap, not proof the need is absent.

@@ -1,11 +1,14 @@
 ---
 slug: razorpay-partners-openai-to-help-indian-brands-advertise-on
-name: Razorpay partners OpenAI to help Indian brands advertise on ChatGPT
+name: Razorpay
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Razorpay 与 OpenAI 合作，让印度品牌可以在 ChatGPT 内投放广告，Razorpay 承担支付与商户侧接入。对 AI 应用的含义是：对话式入口开始出现可购买的广告位，印度品牌多了一条投放渠道，但该变化本身不是可独立使用的产品。
 inspiration: ''
-summary_en: ''
+summary_en: Razorpay partnered with OpenAI so Indian brands can advertise inside ChatGPT, with Razorpay
+  handling payments and merchant-side access. For AI applications this means conversational entry points
+  now carry purchasable ad slots and Indian brands gain another channel, but the change itself is not
+  a standalone usable product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQRk9wMlN4R2pt
 summary: Razorpay partners OpenAI to help Indian brands advertise on ChatGPT ET Enterprise AI
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Razorpay partners OpenAI to help Indian brands advertise on ChatGPT
+# Razorpay
 
 Razorpay partners OpenAI to help Indian brands advertise on ChatGPT ET Enterprise AI
 

@@ -376,3 +376,52 @@
     the step of switching and manually triggering each one; hands-on Mac users who care about keeping
     data local would choose it when they need cross-service computer tasks executed. Public material provides
     no user feedback or retention evidence, so this is structural reasoning.'
+- id: req-full-open-dot-2026-10-10
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-10T02:31:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让电脑上的事务被自主办完的需求，痛点是手动逐步操作本机与外部服务、以及云端代理带来的数据与权限顾虑；这是从产品能力与本地运行方式作出的工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-35fe3a3544719def
+    - ev-9e0fc8c5f00d5693
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 556 升至 616，说明关注度在增长，但星标只属规模与关注度证据，没有 issue、discussion 或采用案例说明共识卡在感知、想象、场景还是利益哪一环。
+    evidence_ids:
+    - ev-35fe3a3544719def
+    - ev-9e0fc8c5f00d5693
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、买方或收费路径，可能来自 to C 个人订阅或 to VC 融资，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-35fe3a3544719def
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明代理自主执行时的人工确认边界、失败回滚与安全限制，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-35fe3a3544719def
+    - ev-9e0fc8c5f00d5693
+  next_validation: 追踪 open-dot 仓库的 README、issue 与 discussion，确认代理实际执行的任务类型、输入材料、交付结果与人工确认边界。
+  market: ''
+  job: 愿意自己动手的 Mac 用户在需要让电脑上的事务被自动办完时，打开这个应用，把要办的事交给一个在本地自主运行的代理，由它调用 OpenAI 模型与 Composio 连接的外部服务执行操作，最后拿到完成的任务结果或待确认的操作。
+  job_en: A hands-on Mac user who wants computer-side chores handled opens the app, hands the task to
+    an agent running autonomously on their own machine, which calls OpenAI models and Composio-connected
+    external services to act, and receives the finished result or an operation awaiting confirmation.
+  pain: 公开材料只说明代理在本地自主运行，未给出用户抱怨或旧流程描述；从结构上推断，痛点是此前需要自己逐步操作本机与外部服务，且把这类操作交给云端代理会带来数据与权限顾虑。
+  pain_en: The public material only states the agent runs autonomously on the local machine and gives
+    no user complaint or legacy workflow; structurally inferred, the pain is having to perform each local
+    and external-service step by hand, plus data and permission concerns when handing such operations
+    to a cloud agent.
+  current_alternative: 推断的旧做法是用户自己手动操作 Mac 应用与外部服务，或使用云端托管的代理服务；材料未直接描述这些替代方式。
+  current_alternative_en: The inferred prior practice is the user manually operating Mac apps and external
+    services, or using a cloud-hosted agent service; the material does not directly describe these alternatives.
+  usage_reason: 推断：相较手动逐步操作或把操作交给云端代理，它把执行放在用户自己的电脑上并由代理自主完成，省去逐步手动操作这一步，同时让对数据外流敏感的用户更愿意在本地跑；材料未提供用户反馈佐证这一动机。
+  usage_reason_en: 'Inference: versus step-by-step manual operation or handing actions to a cloud agent,
+    it keeps execution on the user''s own computer and lets the agent complete the work autonomously,
+    removing the manual step and making locally-run execution more acceptable to users wary of data leaving
+    the machine; the material provides no user feedback backing this motive.'

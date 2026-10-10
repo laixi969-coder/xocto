@@ -27,7 +27,7 @@ summary: OpenAI is standing firm on its decision to fire three safety researcher
   posts, the group said they believ … Read the full story at The Verge.
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

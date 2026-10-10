@@ -1,0 +1,42 @@
+- id: req-initial-qiaomu-seo-2026-10-10
+  project_slug: qiaomu-seo
+  level: initial
+  reviewed_at: '2026-08-23T14:11:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决站点 SEO 检查项分散、AI 搜索表现无工具可查的问题，痛点具体，旧做法是传统工具加手工表格，结构上成立。
+    evidence_ids:
+    - ev-b886351f13caf781
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有一定星标与 fork，但缺少用户评价、issue 讨论或采用案例，无法判断是否被持续使用。
+    evidence_ids:
+    - ev-b886351f13caf781
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明定价或商业路径，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-b886351f13caf781
+  - gate: truth
+    status: insufficient
+    reason: 审计结论与实施建议的准确性、对 AI 搜索的判断依据缺少文档或实测支持，人工确认边界不明。
+    evidence_ids:
+    - ev-b886351f13caf781
+  next_validation: 收集 qiaomu-seo 仓库的 README 与 issue 讨论，核对它覆盖的 SEO 检查项、AI 搜索判断依据与是否有公开使用反馈。
+  market: ''
+  job: 营销或增长人员在维护网站时，需要定期审计技术 SEO 并跟踪 Google、Bing 与 AI 搜索入口的收录和表现。
+  job_en: Marketing or growth staff maintaining a website need to periodically audit technical SEO and
+    track indexing and performance across Google, Bing and AI search surfaces.
+  pain: SEO 检查项分散在多个工具和引擎后台，AI 搜索表现又缺少现成工具，人工逐项排查耗时且容易漏。
+  pain_en: SEO checks are scattered across tools and engine dashboards, AI search performance lacks ready
+    tooling, and manual item-by-item review is slow and leaky.
+  current_alternative: 目前多靠传统 SEO 工具加人工整理表格，AI 搜索部分基本靠手动搜索验证。
+  current_alternative_en: Today teams use classic SEO tools plus manual spreadsheets, and verify AI search
+    results by hand.
+  usage_reason: 推断：相比在多个工具间切换并手工汇总，qiaomu-seo 把审计、诊断与实施建议串成一条流程，省去逐项搬运和整理这一步，因此对没有专职 SEO 的中小站点运营者更有吸引力。
+  usage_reason_en: 'Inference: versus switching between tools and compiling by hand, qiaomu-seo chains
+    audit, diagnosis and implementation advice into one flow, removing the item-by-item copy-and-organize
+    step, which appeals to small-site operators without dedicated SEO staff.'

@@ -1,0 +1,96 @@
+- id: req-initial-firefliesai-2026-10-10
+  project_slug: firefliesai
+  level: initial
+  reviewed_at: '2026-10-10T01:56:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议后人工回听、整理与信息无法复用的问题，痛点具体且高频；买方是谁在公开材料中尚不清楚。
+    evidence_ids:
+    - ev-0f83bcc071ccaca4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有入选名单这一关注度信号，没有客户案例或团队采用证据说明会议后流程已被改变。
+    evidence_ids:
+    - ev-0f83bcc071ccaca4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或付费路径，钱来自 to B 席位还是按用量计费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-0f83bcc071ccaca4
+  - gate: truth
+    status: insufficient
+    reason: 转写与摘要的确定性交付可核对，但企业知识层的实际交付边界与人工确认环节未见公开说明。
+    evidence_ids:
+    - ev-0f83bcc071ccaca4
+  next_validation: 收集 Fireflies.ai 官方定价页或公开客户案例，核验其企业知识层的计费方式与交付边界。
+  market: ''
+  job: 销售、咨询或项目团队在开完客户会议后，需要处理录音、转写稿和零散笔记，整理出可回查的会议记录与后续跟进事项。
+  job_en: After a client meeting, sales, consulting or project teams need to work through recordings,
+    transcripts and scattered notes to produce reviewable meeting records and follow-up items.
+  pain: 会议内容散落在录音、转写和各自笔记里，会后靠人工回听和整理，容易漏掉承诺事项，团队之间也无法复用同一场会议的信息。
+  pain_en: Meeting content is scattered across recordings, transcripts and individual notes; post-meeting
+    review and sorting are manual, commitments get missed, and teams cannot reuse the information from
+    the same meeting.
+  current_alternative: 人工回听录音、手动整理笔记，或使用只做转写、不做沉淀的单点会议工具。
+  current_alternative_en: Manually replaying recordings and writing up notes, or using single-point meeting
+    tools that transcribe but do not accumulate knowledge.
+  usage_reason: 推断：相较人工回听整理，它把会议音视频直接转成转写与摘要并存入可检索知识库，省掉会后逐条回听和誊写这一步，因此会议密集、需要跨人复用会议信息的销售与咨询团队会在会后整理环节选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually replaying and writing up meetings, it turns meeting
+    audio and video directly into transcripts and summaries stored in a searchable knowledge base, removing
+    the step of replaying and transcribing item by item, so sales and consulting teams with dense meeting
+    schedules that need to reuse meeting information across people would choose it at the post-meeting
+    stage; public material provides no retention or repeat-use evidence.'
+- id: req-full-firefliesai-2026-10-10
+  project_slug: firefliesai
+  level: full
+  reviewed_at: '2026-10-10T02:29:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会后人工回听、誊写与信息无法复用的问题，痛点具体且随会议频率反复出现；公开说明已能还原接入会议、生成转写摘要、汇入可检索知识库的闭环，属工作流结构推理，买方是谁尚未公开。
+    evidence_ids:
+    - ev-89d641c158702d7d
+    - ev-e4f4cd41e61724a9
+    - ev-5035a69e02d855b4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有入选 Madrona 名单这一关注度信号，以及官网自述的跨会议、邮件、聊天、CRM 工作流，未见客户案例或团队采用证据说明会后流程已被改变。
+    evidence_ids:
+    - ev-89d641c158702d7d
+    - ev-e4f4cd41e61724a9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或付费路径，钱来自 to B 席位订阅还是按用量计费属推断，不是已验证事实；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-89d641c158702d7d
+    - ev-5035a69e02d855b4
+  - gate: truth
+    status: insufficient
+    reason: 转写与摘要的确定性交付可核对，但企业知识层的实际交付边界、关键结论的人工确认环节与安全边界未见公开说明。
+    evidence_ids:
+    - ev-89d641c158702d7d
+    - ev-e4f4cd41e61724a9
+  next_validation: 收集 Fireflies.ai 官方定价页或公开客户案例，核验其企业知识层的计费方式、交付边界与人工确认环节。
+  market: ''
+  job: 销售、咨询或项目团队在开完线上客户会议后，需要处理会议录音、自动转写稿和各自零散笔记，整理出可回查的会议记录、待办事项与后续跟进材料。
+  job_en: After an online client meeting, sales, consulting or project teams need to work through recordings,
+    auto-transcripts and scattered individual notes to produce reviewable meeting records, action items
+    and follow-up material.
+  pain: 会议内容散落在录音、转写稿和各自笔记中，会后靠人工回听与誊写，容易漏掉承诺事项，同一场会议的信息也无法在团队间复用；会议高频发生使这一负担持续累积。
+  pain_en: Meeting content is scattered across recordings, transcripts and individual notes; post-meeting
+    review and write-up are manual, commitments get missed, and information from the same meeting cannot
+    be reused across the team; the burden compounds because meetings are frequent.
+  current_alternative: 人工回听录音并手写纪要，或使用只做转写、不做沉淀的单点会议工具，会后信息仍留在个人手里。
+  current_alternative_en: Manually replaying recordings and writing up notes, or using single-point meeting
+    tools that transcribe but do not accumulate knowledge, leaving post-meeting information with individuals.
+  usage_reason: 推断：相较人工回听誊写，它自动加入 Zoom、Google Meet、Teams、Webex 等会议，实时生成转写与摘要并汇入可检索知识库，省掉会后逐条回听和誊写这一步，因此会议密集、需跨人复用会议信息的销售与咨询团队会在会后整理环节选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually replaying and transcribing, it automatically joins
+    Zoom, Google Meet, Teams and Webex calls, generates real-time transcripts and summaries and feeds
+    them into a searchable knowledge base, removing the step of replaying and transcribing item by item,
+    so meeting-heavy sales and consulting teams that need to reuse meeting information across people would
+    choose it at the post-meeting stage; public material provides no retention or repeat-use evid'

@@ -166,3 +166,44 @@
   usage_reason_en: 'Inference: if it truly runs always-on and directly operates the browser and files,
     users could skip writing scripts or clicking step by step; but no usage feedback or repeat-use evidence
     is provided, so it is unconfirmed that users would choose it for this reason.'
+- id: req-full-comma-2026-10-10
+  project_slug: comma
+  level: full
+  reviewed_at: '2026-10-10T02:29:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决常驻代理代替手动浏览器与文件操作的需求，但候选材料只有功能罗列，没有用户任务、痛点或旧替代行为的具体描述，价值结构无法还原。
+    evidence_ids:
+    - ev-fdc47aa03a8a59b2
+    - ev-a9505713a8f11d9b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、部署文档与 issue/discussion，确认它实际能完成的操作、运行环境要求与已知失败场景。
+  market: ''
+  job: 个人用户在自己机器上自托管一个常驻代理，让它代替自己执行浏览器点击、电脑操作与文件处理，并在离开时通过远程控制接管这些任务。
+  job_en: An individual user self-hosts an always-on agent on their own machine to perform browser clicks,
+    computer actions and file handling, and takes over those tasks remotely while away.
+  pain: 反复手动操作浏览器与整理文件耗时且打断注意力，但候选材料未提供任何用户抱怨、替代行为或采用证据，痛点强度无法确认。
+  pain_en: Repeated manual browser actions and file tidying are time-consuming and interrupt attention,
+    but the candidate material provides no user complaints, workarounds or adoption evidence, so pain
+    intensity cannot be confirmed.
+  current_alternative: 用户目前可能用脚本、浏览器自动化插件或直接手动完成这些操作；候选材料未说明它替代了哪一步具体旧做法。
+  current_alternative_en: Users may currently rely on scripts, browser automation extensions or manual
+    work; the candidate material does not say which concrete old step it replaces.
+  usage_reason: 推断：若它真能常驻并直接操作浏览器与文件，用户可省去自己写脚本或逐步点击的环节；但材料未提供任何使用反馈或重复使用证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it truly runs always-on and directly operates the browser and files,
+    users could skip writing scripts or clicking step by step; but no usage feedback or repeat-use evidence
+    is provided, so it is unconfirmed that users would choose it for this reason.'

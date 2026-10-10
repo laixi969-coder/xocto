@@ -1,0 +1,81 @@
+- id: req-initial-factorial-completes-the-jump-to-ai-with-a-new-personal-agent-2026-10-10
+  project_slug: factorial-completes-the-jump-to-ai-with-a-new-personal-agent
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 HR 日常事务的跨模块操作，但材料未说明替代哪一步、交付什么结果，需求与痛点无法还原。
+    evidence_ids:
+    - ev-6e10607386628a47
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条发布报道，没有客户案例、用户评价或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-6e10607386628a47
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式或买方，无法判断收入来自现有 HR 订阅升级还是新增付费。
+    evidence_ids:
+    - ev-6e10607386628a47
+  - gate: truth
+    status: insufficient
+    reason: 无法核对智能体是否贴近 HR 事务的第一性目标、承诺能否确定性交付，以及人工确认边界。
+    evidence_ids:
+    - ev-6e10607386628a47
+  next_validation: 收集 Factorial 官方关于 Diari ARA 的产品页或发布说明，确认它接收的输入、执行的动作与交付结果。
+  market: ''
+  job: 中小企业 HR 负责人或员工在办理请假、报销、入职等日常人事事务时，需要跨多个 HR 模块查询和提交材料，并完成一次审批或记录。
+  job_en: An SMB HR lead or employee handling leave, expenses or onboarding must look up and submit material
+    across several HR modules and complete one approval or record.
+  pain: 材料只说明这是一个个人智能体，没有说明它替代了哪一步人工操作、减少了哪次查询或提交，因此痛点无法从公开事实中还原。
+  pain_en: The material only says this is a personal agent; it does not say which manual step it replaces
+    or which lookup or submission it removes, so the pain cannot be reconstructed from public facts.
+  current_alternative: 现有替代是 Factorial 自身的 HR 模块界面，员工和 HR 在多个页面之间手工切换、查询和填写。
+  current_alternative_en: The current alternative is Factorial's own HR module interface, where employees
+    and HR staff switch between pages, look things up and fill forms by hand.
+  usage_reason: 推断：如果该智能体能直接读取既有 HR 数据并一次完成查询或提交，用户可能因为省去跨模块切换而选择它；但材料未给出任何功能细节、用户反馈或使用数据，这一因果链目前无法核实。
+  usage_reason_en: 'Inference: if the agent can read existing HR data and complete a lookup or submission
+    in one step, users might choose it to avoid switching between modules; however the material gives
+    no feature detail, user feedback or usage data, so this causal chain cannot currently be verified.'
+- id: req-full-factorial-completes-the-jump-to-ai-with-a-new-personal-agent-2026-10-10
+  project_slug: factorial-completes-the-jump-to-ai-with-a-new-personal-agent
+  level: full
+  reviewed_at: '2026-10-10T02:29:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 HR 日常事务的跨模块操作，但材料未说明替代哪一步、交付什么结果，需求与痛点无法还原。
+    evidence_ids:
+    - ev-c919e8a90cf922d7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Factorial 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 中小企业 HR 负责人或员工在办理请假、报销、入职等日常人事事务时，需要跨多个 HR 模块查询和提交材料，并完成一次审批或记录。
+  job_en: An SMB HR lead or employee handling leave, expenses or onboarding must look up and submit material
+    across several HR modules and complete one approval or record.
+  pain: 材料只说明这是一个个人智能体，没有说明它替代了哪一步人工操作、减少了哪次查询或提交，因此痛点无法从公开事实中还原。
+  pain_en: The material only says this is a personal agent; it does not say which manual step it replaces
+    or which lookup or submission it removes, so the pain cannot be reconstructed from public facts.
+  current_alternative: 现有替代是 Factorial 自身的 HR 模块界面，员工和 HR 在多个页面之间手工切换、查询和填写。
+  current_alternative_en: The current alternative is Factorial's own HR module interface, where employees
+    and HR staff switch between pages, look things up and fill forms by hand.
+  usage_reason: 推断：如果该智能体能直接读取既有 HR 数据并一次完成查询或提交，用户可能因为省去跨模块切换而选择它；但材料未给出任何功能细节、用户反馈或使用数据，这一因果链目前无法核实。
+  usage_reason_en: 'Inference: if the agent can read existing HR data and complete a lookup or submission
+    in one step, users might choose it to avoid switching between modules; however the material gives
+    no feature detail, user feedback or usage data, so this causal chain cannot currently be verified.'

@@ -1,0 +1,83 @@
+- id: req-initial-clay-2026-10-10
+  project_slug: clay
+  level: initial
+  reviewed_at: '2026-10-10T01:56:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售找名单时来源分散、字段不齐、人工核对耗时的问题，痛点刚性且旧流程明确。
+    evidence_ids:
+    - ev-793701a98b96bbc0
+  - gate: consensus
+    status: insufficient
+    reason: 被行业榜单点名说明有市场关注，但材料未提供客户案例或使用反馈，共识强度有限。
+    evidence_ids:
+    - ev-793701a98b96bbc0
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价与采购方式，买方为销售团队属判断而非已验证事实。
+    evidence_ids:
+    - ev-793701a98b96bbc0
+  - gate: truth
+    status: insufficient
+    reason: 线索数据的合规来源与准确性边界未在材料中说明，交付确定性无法评估。
+    evidence_ids:
+    - ev-793701a98b96bbc0
+  next_validation: 抓取 Clay 官网定价页与客户案例页，确认其计费方式、数据来源说明以及公开的客户使用结果。
+  market: ''
+  job: B2B 销售与市场拓展人员在找客户名单时，把分散的公司与联系人信息整理成可外呼、可发信的线索清单。
+  job_en: B2B sales and business development staff building prospect lists, assembling scattered company
+    and contact information into callable, emailable lead lists.
+  pain: 线索来源分散、字段不齐，人工逐条核对与补全耗时，名单质量直接决定外呼与发信的产出。
+  pain_en: Lead sources are fragmented and fields incomplete; manual verification and enrichment are slow,
+    and list quality directly determines outbound results.
+  current_alternative: 用表格加人工搜索拼名单，或购买静态名录再逐条清洗。
+  current_alternative_en: Spreadsheets plus manual searching, or buying a static directory and cleaning
+    it row by row.
+  usage_reason: 推断：相较人工拼表，它把多来源信息聚合成统一字段的名单，减少逐条搜索与补全这一步，因此名单需求密集的销售团队会在扩客阶段选用；材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: versus manual spreadsheet assembly, it aggregates multi-source information
+    into one field schema, removing the per-row search and enrichment step, so list-heavy sales teams
+    would pick it during prospecting; the material gives no retention or repeat-use evidence.'
+- id: req-full-clay-2026-10-10
+  project_slug: clay
+  level: full
+  reviewed_at: '2026-10-10T02:29:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料只把 Clay 列为销售线索生成 AI 代理公司，未说明输入数据源、产出字段与人工环节；其余证据是黏土矿物、陶土商品和通用 AI 介绍，连用户任务与痛点都无法还原，属自嗨拼凑。
+    evidence_ids:
+    - ev-bd2f67762b991f51
+    - ev-df2f2fd8991249fd
+    - ev-69ec7431f9c8dfa7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 Clay 官网产品页与客户案例页，确认其实际输入数据源、产出字段、计费方式与公开客户使用结果。
+  market: ''
+  job: 候选材料只把 Clay 列为面向销售线索生成的 AI 代理公司，未说明谁在什么情况下、处理哪些输入材料、产出什么字段的名单，具体任务无法还原。
+  job_en: The candidate material only lists Clay as an AI agent company for sales lead generation; it
+    does not say who, in what situation, processing which input materials, produces which fields, so the
+    task cannot be reconstructed.
+  pain: 材料未提供任何用户痛点、抱怨或旧流程描述；现有证据是黏土矿物、陶土商品和通用 AI 介绍，与销售找名单无关。
+  pain_en: The material provides no user pain, complaint, or legacy-workflow description; the evidence
+    is about clay minerals, craft clay products, and generic AI explainers, unrelated to sales prospecting.
+  current_alternative: 材料未记录任何现有替代方式，无法说明销售此前用什么办法拼名单。
+  current_alternative_en: The material records no current alternative, so it cannot show how sales previously
+    assembled lists.
+  usage_reason: 材料未给出产品能力、输入输出或用户反馈，无法解释用户为何选择它；仅凭榜单点名不构成使用理由。
+  usage_reason_en: The material gives no product capability, input/output, or user feedback, so it cannot
+    explain why a user would choose it; a list mention alone is not a usage reason.

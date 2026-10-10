@@ -1,0 +1,87 @@
+- id: req-initial-seecode-2026-10-10
+  project_slug: seecode
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是代理改动难以被人读懂和讲清的问题，痛点来自 diff 与日志无法还原步骤顺序，旧做法是手绘流程图，结构上成立。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 123 星与 6 次 fork，没有用户评价、案例或采用数据，无法判断开发者是否真的把它放进审阅流程。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或商业路径，买方与收费方式不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  - gate: truth
+    status: insufficient
+    reason: 图解是否与真实代码变更一致、是否需人工校对，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认支持的代理、输入格式与图解是否需人工校对。
+  market: ''
+  job: 开发者在审阅编码代理（如 Claude）产出的代码或流程时，需要把改动过程讲清楚，于是把一段简短 JSON 规格交给 SeeCode，生成可播放、可展开的动画图解，用于自己核对或向他人说明。
+  job_en: When reviewing code or flows produced by coding agents such as Claude, a developer needs to
+    explain the changes, so they feed a short JSON spec into SeeCode to generate animated, explorable
+    diagrams for self-checking or explaining to others.
+  pain: 代理一次改动涉及多个文件和步骤，纯文字 diff 与日志难以还原先后顺序和依赖关系，人工在脑中重建结构耗时且容易漏看。
+  pain_en: A single agent change spans many files and steps; plain diffs and logs make order and dependencies
+    hard to reconstruct, so rebuilding the structure mentally is slow and error-prone.
+  current_alternative: 现在多靠阅读 diff、翻代理日志、手画流程图或截图标注，工具之间来回切换。
+  current_alternative_en: Today people read diffs, scroll agent logs, hand-draw flowcharts or annotate
+    screenshots, switching between tools.
+  usage_reason: 推断：相较逐行读 diff 再手绘，它把结构化规格直接渲染成可播放图解，省掉手工画图这一步，因此需要向他人解释代理改动的开发者会选它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus reading diffs line by line and drawing by hand, it renders a structured
+    spec straight into playable diagrams, removing the manual drawing step, so developers who must explain
+    agent changes would pick it; no retention or repeat-use evidence yet.'
+- id: req-full-seecode-2026-10-10
+  project_slug: seecode
+  level: full
+  reviewed_at: '2026-10-10T02:32:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理改动难以被人读懂和讲清的问题，痛点是 diff 与日志无法还原步骤顺序和依赖，旧做法是手绘流程图或截图标注，不解决则核对与讲解成本高；这是基于仓库说明的工作流结构推理。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 123 星等关注度信号，但无用户评价、客户案例或采用数据，无法判断开发者是否真把它放进审阅流程；关注度不等于持续采用。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或商业路径，买方与收费方式不明；这是判断而非已验证事实，但不足以否定需求本身。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  - gate: truth
+    status: insufficient
+    reason: 图解是否与真实代码变更一致、是否需人工校对，公开材料未说明，交付确定性待核验；这是对承诺能否确定性交付的缺口。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  next_validation: 收集该仓库 README 与 issue/discussion，确认支持的代理、输入格式以及图解是否需人工校对。
+  market: ''
+  job: 开发者在审阅 Claude 等编码代理产出的代码变更或流程时，需要把改动过程讲清楚，于是把一段简短 JSON 规格交给 SeeCode，生成可播放、可逐层展开的动画图解，用于自己核对逻辑或向他人说明步骤衔接。
+  job_en: When reviewing code changes or flows produced by coding agents such as Claude, a developer needs
+    to explain the changes, so they feed a short JSON spec into SeeCode to generate animated, explorable
+    diagrams for self-checking logic or explaining step order to others.
+  pain: 代理一次改动跨多个文件和步骤，纯文字 diff 与日志难以还原先后顺序与依赖关系，人工在脑中重建结构耗时且容易漏看关键衔接。
+  pain_en: A single agent change spans many files and steps; plain diffs and logs make order and dependencies
+    hard to reconstruct, so rebuilding the structure mentally is slow and easy to miss key links.
+  current_alternative: 现在多靠逐行读 diff、翻代理日志、手画流程图或截图标注，工具之间来回切换。
+  current_alternative_en: Today people read diffs line by line, scroll agent logs, hand-draw flowcharts
+    or annotate screenshots, switching between tools.
+  usage_reason: 推断：相较逐行读 diff 再手绘流程图，它把结构化 JSON 规格直接渲染成可播放、可展开的图解，省掉手工画图与对齐步骤这一步，因此需要向他人解释代理改动的开发者会在评审或讲解场景选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus reading diffs line by line and drawing flowcharts by hand, it renders
+    a structured JSON spec straight into playable, explorable diagrams, removing the manual drawing and
+    step-alignment work, so developers who must explain agent changes would pick it in review or walkthrough
+    settings; no retention or repeat-use evidence yet.'

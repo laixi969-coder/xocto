@@ -79,3 +79,54 @@
   usage_reason: 用户要完成的任务是：使用 AI 编码助手的长会话开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers running long AI coding sessions Public materials do not yet
     explain why users choose this product over their existing approach.'
+- id: req-full-ctx-handoff-mod-2026-10-10
+  project_slug: ctx-handoff-mod
+  level: full
+  reviewed_at: '2026-10-10T02:29:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Claude Code 长会话上下文写满后的交接需求：手动开新会话、重新交代背景与约定是刚性摩擦，不解决则长任务反复中断、缓存冷却需重新预热。产品以自动交接、保持缓存、沉淀项目笔记形成输入—动作—交付闭环，属工作流结构推理；仓库
+      67→75 星显示关注，但无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-b427177e2490ebae
+    - ev-68ce2c75c6322f2b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 67 增至 75，说明英文开发者社区已注意到该模块，但公开材料没有 issue、discussion 或用户评价说明谁在何种场景持续使用、替代了哪一步旧流程，关注度不能等同于采用共识。
+    evidence_ids:
+    - ev-b427177e2490ebae
+    - ev-68ce2c75c6322f2b
+  - gate: model
+    status: insufficient
+    reason: 这是开源 Claude Code 模块，公开材料未见定价页、赞助、付费插件或企业采购路径，谁付钱、按什么单位收费均未披露；判断其可能靠捐赠或生态引流变现，属推断而非已验证事实。
+    evidence_ids:
+    - ev-b427177e2490ebae
+  - gate: truth
+    status: insufficient
+    reason: 自动交接与缓存保持能否在 Claude Code 版本更新后稳定交付、项目笔记的人工确认边界如何界定，公开材料只有一句功能描述，缺少部署文档、issue 或可复现实测来核验承诺的确定性。
+    evidence_ids:
+    - ev-b427177e2490ebae
+    - ev-68ce2c75c6322f2b
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认自动交接与缓存保持的实际部署方式、用户反馈及是否出现付费或赞助入口。
+  market: ''
+  job: 使用 Claude Code 的开发者在一个任务聊到上下文写满时，需要把当前工作交接给新会话，并保留项目背景与已教给 Claude 的项目约定，使任务能继续推进。
+  job_en: A developer using Claude Code whose task conversation hits the context limit needs to hand the
+    work off to a fresh session while preserving project context and the conventions already taught to
+    Claude, so the task can continue.
+  pain: 上下文写满后，旧做法要手动开新会话、重新交代项目背景和约定，长任务被反复打断；离开期间缓存冷却，回来还要重新预热，重复交代本身就是负担。
+  pain_en: When context fills up, the old way means manually opening a new session and re-explaining project
+    background and conventions, repeatedly interrupting long tasks; the cache also cools while away, forcing
+    re-warming and repeated re-briefing.
+  current_alternative: 手动开新会话并重新粘贴项目背景、约定与进度；或把长任务拆短、频繁总结上下文，靠人工维护交接信息。
+  current_alternative_en: Manually opening a new session and re-pasting project background, conventions
+    and progress; or splitting long tasks and summarizing context by hand, maintaining handoff information
+    manually.
+  usage_reason: 推断：相较手动重开会话并重新交代，它在上下文耗尽时自动完成交接、在离开期间保持缓存、并把用户教给 Claude 的内容沉淀为项目笔记，减少重新交代和重新预热这两步负担，因此长会话开发者会在任务被上下文打断时选择它；笔记仍需人工确认，公开材料未显示持续使用证据。
+  usage_reason_en: 'Inference: versus manually reopening a session and re-briefing, it automates the handoff
+    at context exhaustion, keeps the cache warm while away, and turns what the user taught Claude into
+    project notes, removing the re-briefing and re-warming steps, so long-session developers would choose
+    it when a task is interrupted by the context limit; notes still need human confirmation and public
+    materials show no sustained-use evidence.'

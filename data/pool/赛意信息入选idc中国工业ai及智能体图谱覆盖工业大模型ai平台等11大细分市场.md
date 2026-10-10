@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBnLU84Znk2Z1FG
 summary: 赛意信息入选IDC中国工业AI及智能体图谱，覆盖工业大模型、AI平台等11大细分市场 砍柴网
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -453,3 +453,44 @@
     prompts into tables so directors fill in fields to get an executable workflow, cutting the step of
     assembling storyboards and prompts from scratch; directors or content operators producing AI videos
     at volume would choose it before shooting.'
+- id: req-full-table-videosop-2026-10-10
+  project_slug: table-videosop
+  level: full
+  reviewed_at: '2026-10-10T02:33:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图把AI视频制作的分镜、节奏与提示词整理成可复用表格，但公开材料只有仓库简介与星标，没有模板内容、用户抱怨或返工代价，痛点刚性与不采用后果无法确认，属于看着有用但缺之亦可的自嗨拼凑。
+    evidence_ids:
+    - ev-366f4103aaf80e6d
+    - ev-ca77ca692f1ab426
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该公开代码仓库仓库的README、模板文件与issue/discussion，确认是否公开可复用的表格样例及用户实际使用反馈。
+  market: ''
+  job: 短视频或广告片的编导、剪辑在开拍前，需要把分镜、节奏、镜头提示词整理成一份可执行的制作流程，交给拍摄或AI生成环节执行。
+  job_en: Short-video or ad directors and editors need to turn storyboards, pacing, and shot prompts into
+    an executable production flow before shooting or AI generation.
+  pain: 公开材料只说明仓库整理了AI视频制作的SOP、规则、模板与提示词，未提供任何用户抱怨、返工代价或频率证据；痛点强度只能靠结构推断，无法确认不采用会失去什么。
+  pain_en: Public materials only state that the repo collects AI video SOPs, rules, templates, and prompts;
+    no user complaints, rework costs, or frequency evidence is given, so pain intensity is only structural
+    inference.
+  current_alternative: 编导和剪辑目前靠个人经验、零散文档或团队内部模板完成分镜与提示词准备，仓库试图用表格化SOP替代这种散落做法。
+  current_alternative_en: Directors and editors currently rely on personal experience, scattered documents,
+    or in-house templates for storyboards and prompts; the repo tries to replace this with tabular SOPs.
+  usage_reason: 推断：若表格模板确实覆盖分镜到提示词的填写路径，用户可省去每次从零起草流程的步骤；但仓库未公开模板内容、交付形态或使用反馈，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the tabular templates truly cover the path from storyboard to prompt,
+    users could skip drafting the flow from scratch each time; but the repo discloses no template content,
+    delivery form, or usage feedback, so it is unclear which users would choose it.'

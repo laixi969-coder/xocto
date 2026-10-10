@@ -3,43 +3,48 @@ slug: deepseek
 name: DeepSeek
 builder: ''
 category: 通用助手
-summary_zh: 个人用户和开发者会在需要问答、写作或调用模型接口时打开DeepSeek，把问题、文本或代码交给它处理，直接拿到回答、改写结果或可接入的模型输出；具体流程与交付形态仍待核验。
-inspiration: 趋势是头部通用助手已进入以算力和工程团队规模拼交付稳定性的阶段，竞争点从模型能力转向推理成本与响应确定性。切入不在正面做通用聊天，而在把这类模型能力嵌进具体行业的旧流程，例如律所卷宗检索、货代单证核对，按产出而非席位收费。
-summary_en: Individuals and developers open DeepSeek when they need Q&A, writing help or model API calls,
-  handing over questions, text or code and getting back answers, rewrites or model output they can integrate;
-  the exact workflow and delivery form still need verification.
-inspiration_en: The trend is that leading general assistants now compete on compute and engineering-team
-  scale for delivery reliability, shifting the battleground from model capability to inference cost and
-  response certainty. The opening is not another general chat app but embedding such models into specific
-  industry workflows, such as law-firm case-file search or freight-forwarding document checks, charging
-  per output rather than per seat.
+summary_zh: 个人用户和开发者会在日常问答、写作、代码与资料整理时打开 DeepSeek 的对话入口，把问题或材料交给模型，直接拿到回答、代码或改写文本；企业侧则把它作为通用助手或接口候选评估。具体付费与留存流程仍待核验。
+inspiration: 趋势是通用助手已进入资本与算力密集阶段，单点对话能力不再是差异点。切入不在正面做另一个通用聊天入口，而在被它忽略的垂直环节：把行业材料、审批规则和交付格式固化进工作流，按产出而非席位收费，例如面向律所、财税或地产的文档处理与合规交付。
+summary_en: Individuals and developers open DeepSeek's chat entry point for everyday Q&A, writing, code
+  and document work, handing over a question or material and getting back an answer, code or rewritten
+  text; enterprises evaluate it as a general assistant or API candidate. Its paid and retention flows
+  remain unverified.
+inspiration_en: 'The trend is that general assistants have entered a capital- and compute-intensive phase
+  where raw chat ability is no longer the differentiator. The opening is not another general chat entry
+  point but the vertical steps it ignores: embedding industry materials, approval rules and delivery formats
+  into a workflow and charging per output rather than per seat, for example document handling and compliance
+  delivery for law, tax or real estate firms.'
 priority_review: false
 project_type: new_application
 industries:
-- 软件与互联网服务
-- 专业服务
+- 通用企业服务
+- 教育
+- 软件开发
 industries_en:
-- Software and internet services
-- Professional services
+- general enterprise services
+- education
+- software development
 jobs:
 - 个人用户日常问答与写作
 - 开发者调用模型接口
+- 企业评估通用助手采购
 jobs_en:
-- Individuals doing everyday Q&A and writing
-- Developers calling model APIs
+- individuals doing everyday Q&A and writing
+- developers calling model APIs
+- enterprises evaluating general assistant procurement
 regions:
 - 中国
 - 全球
 regions_en:
 - China
-- Global
-open_source: true
+- global
+open_source: false
 url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

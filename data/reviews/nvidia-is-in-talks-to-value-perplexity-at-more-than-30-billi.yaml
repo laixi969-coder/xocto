@@ -1,0 +1,90 @@
+- id: req-initial-nvidia-is-in-talks-to-value-perplexity-at-more-than-30-billi-2026-10-10
+  project_slug: nvidia-is-in-talks-to-value-perplexity-at-more-than-30-billi
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是查证事实时逐页比对来源的负担，旧行为明确、不采用代价可感，痛点刚性成立。
+    evidence_ids:
+    - ev-a6aa7686d8c3bd9c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资洽谈报道，没有公开的持续使用、留存或付费转化数据支撑共识。
+    evidence_ids:
+    - ev-a6aa7686d8c3bd9c
+  - gate: model
+    status: insufficient
+    reason: 报道未披露本轮金额、条款与收入结构，买方与付费路径无法从公开材料确认。
+    evidence_ids:
+    - ev-a6aa7686d8c3bd9c
+  - gate: truth
+    status: insufficient
+    reason: 引用可核验是核心承诺，但公开材料未说明错误引用率与人工复核边界。
+    evidence_ids:
+    - ev-a6aa7686d8c3bd9c
+  next_validation: 收集Perplexity官方定价页与公开客户案例，确认其按席位或按用量收费的实际结构与引用核验机制。
+  market: ''
+  job: 研究、分析或内容岗位在需要快速查证一个事实或汇总一个主题时，把问题交给对话式检索，拿到带引用的答案后再人工核对来源。
+  job_en: Research, analysis or content roles hand a question to conversational search when they need
+    to verify a fact or summarise a topic, then manually check the cited sources.
+  pain: 旧做法要在多个搜索结果页之间来回打开、比对和摘录，核对一条事实往往要花十几分钟，且容易漏掉相互矛盾的来源。
+  pain_en: The old way means opening, comparing and excerpting across many result pages; verifying one
+    fact can take ten-plus minutes and easily misses conflicting sources.
+  current_alternative: 搜索引擎加人工逐条打开网页、复制摘录，或直接问通用聊天助手但拿不到可核验来源。
+  current_alternative_en: A search engine plus manually opening and excerpting pages, or asking a general
+    chat assistant that gives no verifiable sources.
+  usage_reason: 相较逐条打开搜索结果，它把检索、阅读和引用整理合并成一次问答，用户只需核对给出的来源链接，省掉的是筛选与摘录这一步；推断，公开材料未提供留存或付费数据。
+  usage_reason_en: Compared with opening results one by one, it merges retrieval, reading and citation
+    assembly into a single answer, so the user only checks the cited links; this is inference, as no retention
+    or payment data is public.
+- id: req-full-nvidia-is-in-talks-to-value-perplexity-at-more-than-30-billi-2026-10-10
+  project_slug: nvidia-is-in-talks-to-value-perplexity-at-more-than-30-billi
+  level: full
+  reviewed_at: '2026-10-10T02:31:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决查证事实时逐页比对来源的负担：旧流程要在多个结果页间打开、比对、摘录，核对一条事实耗时且易漏矛盾来源，不采用就要承担返工与出错代价，痛点刚性成立；谁付钱公开材料未说明，留待模式关。
+    evidence_ids:
+    - ev-466d2b65817b25f6
+    - ev-4d44275974cdaaaa
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官方产品说明与融资洽谈报道，没有公开的持续使用、留存或付费转化数据，无法确认用户是否已把它留在日常工作流里。
+    evidence_ids:
+    - ev-466d2b65817b25f6
+    - ev-4d44275974cdaaaa
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、席位或用量收费结构，买方与付费路径无法核验；按产品形态推断可能来自 to C 订阅或 to B 席位，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-466d2b65817b25f6
+  - gate: truth
+    status: insufficient
+    reason: 带引用可核验是核心承诺，但公开材料未说明错误引用率、来源覆盖边界与人工复核责任划分，交付确定性尚缺可核对依据。
+    evidence_ids:
+    - ev-466d2b65817b25f6
+    - ev-4d44275974cdaaaa
+  next_validation: 追踪 Perplexity 官方定价页与公开客户案例，确认其按席位或按用量收费的实际结构及引用核验机制。
+  market: ''
+  job: 研究人员、分析师或内容作者在需要快速核实某个事实或汇总一个主题时，把问题交给对话式检索，拿到带引用来源的答案后再点开来源逐条核对，用于写材料或做判断。
+  job_en: Researchers, analysts or content writers hand a question to conversational search when they
+    must verify a fact or summarise a topic, then open the cited sources to check each one before writing
+    or deciding.
+  pain: 旧做法要在多个搜索结果页之间反复打开、比对和摘录，核对一条事实常需十几分钟，还容易漏掉相互矛盾的来源；通用聊天助手给出的答案又缺少可核验出处。
+  pain_en: The old way means repeatedly opening, comparing and excerpting across result pages; verifying
+    one fact can take ten-plus minutes and easily misses conflicting sources, while general chat assistants
+    give answers without verifiable citations.
+  current_alternative: 搜索引擎加人工逐条打开网页、复制摘录，或直接问通用聊天助手但拿不到可核验来源。
+  current_alternative_en: A search engine plus manually opening and excerpting pages, or asking a general
+    chat assistant that returns no verifiable sources.
+  usage_reason: 相较逐条打开搜索结果，它把检索、阅读与引用整理合并成一次问答，用户只需核对给出的来源链接，省掉筛选与摘录这一步；这是基于产品能力与任务结构的推断，公开材料未提供留存或付费数据。
+  usage_reason_en: Compared with opening results one by one, it merges retrieval, reading and citation
+    assembly into a single answer so the user only checks the cited links, removing the filtering and
+    excerpting step; this is inference from product capability and task structure, as no retention or
+    payment data is public.

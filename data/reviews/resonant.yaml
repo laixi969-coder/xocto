@@ -1,0 +1,38 @@
+- id: req-initial-resonant-2026-10-10
+  project_slug: resonant
+  level: initial
+  reviewed_at: '2026-08-22T22:38:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地写歌到导出成品的需求，痛点是云端订阅、版权顾虑与成品链路断裂，旧行为是云端生成后导入 DAW 重做，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标与简介，缺少用户评价、案例或采用数据，无法判断是否形成持续使用共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 免费开源，未见定价页或付费路径，钱可能来自捐赠或后续商业版，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未核验生成质量、版权归属与人工确认边界，交付确定性尚不明确。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue、discussion 或发布说明，确认本地生成质量、导出流程与用户实际使用反馈。
+  market: ''
+  job: 独立音乐人在本地 Windows 电脑上把零散的音乐动机整理成可导出的歌曲小样，需要写歌、编曲、混音并导出 WAV。
+  job_en: An independent musician turns scattered musical ideas into an exportable song demo on a local
+    Windows machine, needing to write, arrange, mix and export WAV.
+  pain: 云端音乐生成工具按订阅收费、上传素材有版权顾虑，且生成结果难以继续编曲和混音，成品导出链路断裂。
+  pain_en: Cloud music generators charge subscriptions, raise rights concerns over uploaded material,
+    and produce results that are hard to keep arranging and mixing, breaking the export path.
+  current_alternative: 用云端 AI 音乐生成服务出片段，再导入 DAW 手工重做编曲与混音。
+  current_alternative_en: Generate clips with cloud AI music services, then redo arrangement and mixing
+    by hand in a DAW.
+  usage_reason: 推断：相较云端生成后导入 DAW 重做，它在本地把生成、编曲、混音、导出串成一条链路，省去跨工具搬运和重复搭建工程的一步，因此在意版权与离线、又需要可导出成品的独立音乐人会在本地创作时选择它。
+  usage_reason_en: 'Inference: versus generating in the cloud and rebuilding in a DAW, it chains generation,
+    arrangement, mixing and export locally, removing the cross-tool transfer and project rebuild step,
+    so rights- and offline-conscious musicians needing exportable output would pick it for local work.'

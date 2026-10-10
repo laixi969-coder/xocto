@@ -1,0 +1,41 @@
+- id: req-initial-mod-earshot-2026-10-10
+  project_slug: mod-earshot
+  level: initial
+  reviewed_at: '2026-08-22T22:38:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把现有电话交换机接上语音代理时缺少双向音频通道的问题，痛点具体、旧做法是自写桥接，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，没有呼叫中心团队采用、部署或讨论证据，无法判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源模块本身没有可见收费路径，买方可能是自建呼叫中心的团队或集成商，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 双向音频在真实通话中的延迟、并发与稳定性均未核验，交付确定性尚不清楚。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue、discussion 或 README 中的部署说明，确认是否有真实呼叫中心在生产环境接入并记录延迟与并发表现。
+  market: ''
+  job: 呼叫中心运维工程师在部署或改造 FreeSWITCH 电话系统时，处理实时通话音频，要把它双向接入 AI 语音代理并回放代理语音，完成一次可用的语音通话。
+  job_en: Call-center operations engineers deploying or modifying a FreeSWITCH phone system handle live
+    call audio, wiring it bidirectionally into an AI voice agent and playing the agent's voice back to
+    complete a usable voice call.
+  pain: 现有电话交换机与语音 AI 之间缺少现成的双向音频通道，团队往往要自己写音频桥接与回放逻辑，接入成本高且容易在实时性上出问题。
+  pain_en: There is no ready-made full-duplex audio bridge between existing phone switches and voice AI,
+    so teams write their own audio bridging and playback logic, which is costly and prone to real-time
+    failures.
+  current_alternative: 自行开发音频桥接代码，或改用把语音代理与电话系统打包在一起的商业呼叫平台。
+  current_alternative_en: Writing custom audio-bridge code, or switching to commercial call platforms
+    that bundle the voice agent with the phone system.
+  usage_reason: 推断：相较自己写桥接，它把双向音频流与回放封装成可加载模块，省掉从零实现音频通道这一步，因此已在使用 FreeSWITCH 的呼叫中心团队在需要接入语音代理时会优先试它；是否长期留在工作流尚无留存证据。
+  usage_reason_en: 'Inference: versus writing a custom bridge, it packages the duplex audio stream and
+    playback as a loadable module, removing the step of building the audio channel from scratch, so call-center
+    teams already on FreeSWITCH would try it first when adding a voice agent; there is no retention evidence
+    that it stays in the workflow.'

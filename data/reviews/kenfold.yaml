@@ -175,3 +175,48 @@
     removing the step of re-pasting project background on every tool switch; for developers running several
     coding assistants who also want data to stay inside their own network, that step is a real burden,
     so they would pick it in multi-tool switching scenarios.'
+- id: req-full-kenfold-2026-10-10
+  project_slug: kenfold
+  level: full
+  reviewed_at: '2026-10-10T02:30:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多工具并用时上下文被切碎、每次切换都要重新交代项目背景的问题，痛点具体，不解决的后果是可核对的重复劳动与约定遗漏；这是从产品说明与工作流结构推出的判断，非用户口述。
+    evidence_ids:
+    - ev-9e31b8f3ea6f4797
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库说明与 64 个 star，属关注度而非采用证据；没有用户反馈、issue 讨论或团队部署案例，无法判断开发者是否真愿意自托管一套记忆服务。
+    evidence_ids:
+    - ev-9e31b8f3ea6f4797
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，未见定价页或商业路径；可能靠托管版、企业支持或纯社区维护，这属推断而非已验证事实，买方与付费方式均未公开。
+    evidence_ids:
+    - ev-9e31b8f3ea6f4797
+  - gate: truth
+    status: insufficient
+    reason: 记忆服务的交付确定性取决于存储格式、检索准确度与多工具并发写入的冲突处理，公开材料均未说明，承诺能否稳定兑现无法核对。
+    evidence_ids:
+    - ev-9e31b8f3ea6f4797
+  next_validation: 追踪该仓库 README 与部署文档，核对记忆的存储格式、检索方式以及多工具并发写入时的冲突处理说明。
+  market: ''
+  job: 同时使用 Claude Code、Codex、OpenCode、ChatGPT 的开发者，在切换工具继续同一个项目时，需要把项目背景、约定和历史决策带过去，让新工具直接接续工作而不是从零开始。
+  job_en: Developers running Claude Code, Codex, OpenCode and ChatGPT side by side need to carry project
+    background, conventions and past decisions into whichever tool they switch to, so the new tool continues
+    the work instead of starting cold.
+  pain: 上下文分散在各工具的账号与本地会话中，换工具就要重新粘贴背景、重述约定，重复劳动且容易遗漏既有决策；这是多工具并用后才出现的摩擦。
+  pain_en: Context is scattered across each tool's account and local sessions, so switching tools means
+    re-pasting background and restating conventions — duplicated work that risks dropping earlier decisions;
+    this friction only appears once several tools are used together.
+  current_alternative: 手工复制粘贴上下文、维护项目说明文档、把约定写进仓库说明文件，或干脆只用一个工具。
+  current_alternative_en: Manually copying and pasting context, maintaining project briefs, writing conventions
+    into repository docs, or simply sticking to a single tool.
+  usage_reason: 推断：它把记忆放在自托管服务里，各工具通过 MCP 读取同一份内容，省掉换工具时重新粘贴项目背景这一步；对同时用多个编码助手、又在意数据不出内网的开发者，这一步负担真实存在，因此会在切换工具的场景下选择它。
+  usage_reason_en: 'Inference: it keeps memory in a self-hosted service that each tool reads over MCP,
+    removing the step of re-pasting project background on every switch; for developers running several
+    coding assistants who also want data to stay inside their own network, that step is a real burden,
+    so they would pick it when switching tools.'

@@ -1,0 +1,92 @@
+- id: req-initial-灵巧操作头号玩家sharpa把指尖触觉进化到全面体感-2026-10-10
+  project_slug: 灵巧操作头号玩家sharpa把指尖触觉进化到全面体感
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机械手在易损与不规则零件抓取中无法判断接触力度、只能靠人工的问题，痛点具体，旧做法是视觉加固定夹爪。
+    evidence_ids:
+    - ev-4525fad654b97b57
+  - gate: consensus
+    status: insufficient
+    reason: 材料只有一篇报道，没有客户名单、出货量或集成商采用信息，共识环节缺少可核验事实。
+    evidence_ids:
+    - ev-4525fad654b97b57
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式与买方结构；按工位或按抓取成功率收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-4525fad654b97b57
+  - gate: truth
+    status: insufficient
+    reason: 缺少抓取成功率、耐久性与安全边界数据，无法核对感知能力能否在产线确定性交付。
+    evidence_ids:
+    - ev-4525fad654b97b57
+  next_validation: 收集 Sharpa 官方产品规格页或客户案例，核对传感器参数、抓取成功率与已落地的工位类型。
+  market: ''
+  job: 机器人集成工程师在装配、分拣等工位上，需要让机械手处理易损或形状不规则的零件，完成稳定抓取与力控操作。
+  job_en: Robotics integration engineers at assembly and sorting stations need robotic hands to handle
+    fragile or irregularly shaped parts with stable grasping and force control.
+  pain: 缺少手部触觉与体感反馈时，机械手无法判断接触力度，容易压坏零件或抓取失败，导致这类工位仍只能靠人工。
+  pain_en: Without hand touch and whole-hand feedback, a robotic hand cannot judge contact force, crushing
+    parts or failing grasps, so these stations still depend on manual labor.
+  current_alternative: 目前多依赖视觉引导加固定夹爪，或继续由人工完成易损件与不规则零件的抓取和装配。
+  current_alternative_en: Today this relies on vision-guided fixed grippers, or continues to be done manually
+    for fragile and irregular parts.
+  usage_reason: 推断：相较视觉加固定夹爪，增加手部体感让机械手在接触瞬间判断受力并调整动作，减少压坏零件与抓取失败带来的返工，因此对力控敏感的装配与分拣工位会优先尝试它。材料未给出客户案例与重复使用证据，尚不能确认已进入量产工作流。
+  usage_reason_en: 'Inference: versus vision plus fixed grippers, adding whole-hand perception lets the
+    hand judge force at the moment of contact and adjust motion, reducing rework from crushed parts and
+    failed grasps, so force-sensitive assembly and sorting stations would try it first. No customer cases
+    or repeated-use evidence are given, so entry into volume production cannot be confirmed.'
+- id: req-full-灵巧操作头号玩家sharpa把指尖触觉进化到全面体感-2026-10-10
+  project_slug: 灵巧操作头号玩家sharpa把指尖触觉进化到全面体感
+  level: full
+  reviewed_at: '2026-10-10T02:34:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机械手在易损与不规则零件抓取中无法判断接触力度、只能靠人工的问题，痛点具体，旧做法是视觉加固定夹爪；这是基于产品能力与工位任务的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-6bef93e22b2bac19
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅说明该手面向具身智能研究与机器人 OEM 集成，未给出客户名单、出货量或集成商采用信息，共识环节缺少可核验事实。
+    evidence_ids:
+    - ev-6bef93e22b2bac19
+    - ev-83d4aee1707cf7cd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式与买方结构；按整手销售还是按工位收费只是推断，不是已验证事实，也未发现公开采购记录。
+    evidence_ids:
+    - ev-6bef93e22b2bac19
+  - gate: truth
+    status: insufficient
+    reason: 缺少抓取成功率、耐久性与安全边界数据，无法核对触觉感知能否在产线确定性交付；公司背景不构成交付验证。
+    evidence_ids:
+    - ev-6bef93e22b2bac19
+    - ev-83d4aee1707cf7cd
+  next_validation: 追踪 Sharpa 官网产品规格页或客户案例，核对传感器参数、抓取成功率与已落地的工位类型。
+  market: ''
+  job: 机器人集成工程师与人形机器人 OEM 在装配、分拣工位，处理易损或形状不规则的零件，需要让 22 自由度灵巧手在抓取时判断接触与受力，完成稳定抓取与力控操作。
+  job_en: Robotics integration engineers and humanoid OEMs at assembly and sorting stations handle fragile
+    or irregularly shaped parts and need a 22-DoF dexterous hand to judge contact and force during grasping,
+    achieving stable grasps and force-controlled manipulation.
+  pain: 公开材料只说明该手具备触觉敏感度与 22 自由度，未给出用户抱怨、失败率或压损数据；从工作流结构推理，缺少手部体感反馈时机械手难以判断接触力度，易压坏零件或抓取失败，这类工位仍依赖人工。
+  pain_en: Public material only states the hand has tactile sensitivity and 22 DoF, with no user complaints,
+    failure rates or damage data; by workflow inference, without whole-hand feedback a robotic hand cannot
+    judge contact force, crushing parts or failing grasps, so these stations still rely on manual labor.
+  current_alternative: 当前替代是视觉引导加固定夹爪，或继续由人工完成易损件与不规则零件的抓取和装配；材料未提供与这些旧做法的对比数据。
+  current_alternative_en: The current alternative is vision-guided fixed grippers, or continuing manual
+    grasping and assembly of fragile and irregular parts; the material provides no comparison data against
+    these older methods.
+  usage_reason: 推断：相较视觉加固定夹爪，该手以 22 自由度与触觉敏感度在接触瞬间提供受力信息，使集成工程师可据此调整抓取动作，减少压坏零件与抓取失败带来的返工，因此对力控敏感的装配与分拣工位会优先试用。材料未给出客户案例、留存或重复使用证据，尚不能确认已进入量产工作流。
+  usage_reason_en: 'Inference: versus vision plus fixed grippers, the hand''s 22 DoF and tactile sensitivity
+    provide force information at the moment of contact, letting integration engineers adjust grasping
+    motion and reducing rework from crushed parts and failed grasps, so force-sensitive assembly and sorting
+    stations would try it first. No customer cases, retention or repeated-use evidence are given, so entry
+    into volume production cannot be confirmed.'

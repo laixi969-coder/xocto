@@ -1,0 +1,89 @@
+- id: req-initial-豆包接入水电费缴纳ai助手离替人办事还有多远-2026-10-10
+  project_slug: 豆包接入水电费缴纳ai助手离替人办事还有多远
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决按时缴纳水电费这一有截止时间、逾期有后果的需求，痛点刚性，但覆盖范围与人工确认环节未明。
+    evidence_ids:
+    - ev-e786c34c5ccaee2f
+  - gate: consensus
+    status: insufficient
+    reason: 接入缴费是新增能力，公开材料未给出使用规模或用户反馈，不能视为持续采用。
+    evidence_ids:
+    - ev-e786c34c5ccaee2f
+  - gate: model
+    status: insufficient
+    reason: 缴费是否收费、由谁分成未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e786c34c5ccaee2f
+  - gate: truth
+    status: insufficient
+    reason: 缴费涉及资金与授权，失败回滚与人工确认边界未公开，交付确定性无法核对。
+    evidence_ids:
+    - ev-e786c34c5ccaee2f
+  next_validation: 收集豆包官方关于水电费缴纳的支持城市、缴费机构清单与授权确认说明。
+  market: ''
+  job: 居民在需要按时缴纳水电费时，把缴费需求交给豆包，由它代为完成缴费并返回结果。
+  job_en: Residents who must pay utility bills on time hand the payment request to Doubao, which completes
+    the payment and returns the result.
+  pain: 水电费缴纳有明确截止时间，逾期会带来停供或滞纳金，用户需要在多个缴费渠道间寻找并重复填写信息。
+  pain_en: Utility bills have hard deadlines where late payment brings cut-off or penalties, and users
+    must find and repeatedly fill in information across multiple payment channels.
+  current_alternative: 目前用户通过各地缴费 App、公众号或线下网点手动完成缴费。
+  current_alternative_en: Today users pay manually through local utility apps, official accounts or offline
+    counters.
+  usage_reason: 推断：相较在多个缴费渠道间手动查找与填写，它在对话内一次下发即完成缴费并返回结果，减少找入口与重复录入，因此对不熟悉本地缴费渠道的居民更有吸引力；但缺少采用与留存证据。
+  usage_reason_en: 'Inference: compared with manually finding and filling in several payment channels,
+    it completes the payment from one in-chat request and returns the result, cutting the search for entry
+    points and repeated data entry, so residents unfamiliar with local payment channels would find it
+    more attractive; adoption and retention evidence is missing.'
+- id: req-full-豆包接入水电费缴纳ai助手离替人办事还有多远-2026-10-10
+  project_slug: 豆包接入水电费缴纳ai助手离替人办事还有多远
+  level: full
+  reviewed_at: '2026-10-10T02:34:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决按时缴纳水电费这一有截止时间、逾期有滞纳金或停供后果的需求，痛点刚性；公开材料未说明覆盖城市、缴费机构与人工确认环节，交付边界仍不完整。
+    evidence_ids:
+    - ev-504bed29b5362b25
+    - ev-beae45ab8e853945
+  - gate: consensus
+    status: insufficient
+    reason: 接入缴费是新增能力，公开材料只有产品介绍与检索覆盖，未给出使用规模、用户反馈或持续采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-504bed29b5362b25
+    - ev-c39e39d99027d840
+  - gate: model
+    status: insufficient
+    reason: 缴费是否向用户收费、是否与缴费机构分成、由谁承担通道成本均未披露，钱可能来自 to C 或 to B 缴费机构，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-beae45ab8e853945
+  - gate: truth
+    status: insufficient
+    reason: 缴费涉及资金与授权，公开材料未说明失败回滚、人工确认边界与安全责任划分，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-504bed29b5362b25
+  next_validation: 追踪 豆包 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 居民在收到水电费账单、临近缴费截止日时，把缴费需求交给豆包，由它代为完成缴费并返回结果。
+  job_en: When a utility bill arrives near its due date, residents hand the payment request to Doubao,
+    which completes the payment and returns the result.
+  pain: 水电费有硬性截止时间，逾期会带来滞纳金或停供风险；用户需在各地缴费 App、公众号或线下网点之间寻找入口并重复填写户号等信息。
+  pain_en: Utility bills have hard deadlines where late payment risks penalties or cut-off, and users
+    must locate entry points across local apps, official accounts or offline counters and repeatedly enter
+    account details.
+  current_alternative: 目前用户通过各地缴费 App、公众号、银行代扣或线下网点手动完成缴费。
+  current_alternative_en: Today users pay manually via local utility apps, official accounts, bank auto-debit
+    or offline counters.
+  usage_reason: 推断：相较在多个缴费渠道间手动查找入口并重复录入户号，它在对话内一次下发即完成缴费并返回结果，减少找入口与重复填写这两步负担，因此对不熟悉本地缴费渠道的居民更有吸引力；公开材料尚无采用与留存证据。
+  usage_reason_en: 'Inference: compared with manually locating entry points across several payment channels
+    and re-entering account numbers, it completes payment from one in-chat request and returns the result,
+    removing the search-for-entry and repeated-entry steps, so residents unfamiliar with local payment
+    channels would find it more attractive; public materials still lack adoption and retention evidence.'

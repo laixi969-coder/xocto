@@ -1,0 +1,89 @@
+- id: req-initial-konsileo-raises-5m-to-scale-technology-enabled-insurance-bro-2026-10-10
+  project_slug: konsileo-raises-5m-to-scale-technology-enabled-insurance-bro
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决商业险经纪投保前的信息采集与合规留痕需求，痛点刚性且不解决的后果是监管风险与时间损耗；买方为经纪行本身，公开材料未披露具体定价。
+    evidence_ids:
+    - ev-8012cc6a8c1c24d0
+  - gate: consensus
+    status: insufficient
+    reason: 已有 220 余名员工与逾 8500 万英镑年保费规模，说明业务在跑，但缺少经纪人日常使用频率与留存证据，无法判断是否已长期嵌入工作流。
+    evidence_ids:
+    - ev-8012cc6a8c1c24d0
+  - gate: model
+    status: insufficient
+    reason: 公司称平台把流程工作量减半，但未披露按席位、按保单还是按保费抽成的收费方式，收入结构属判断而非已验证事实。
+    evidence_ids:
+    - ev-8012cc6a8c1c24d0
+  - gate: truth
+    status: insufficient
+    reason: AI 接入工作流仍处开发中表述，缺少可核验的交付结果与人工复核边界，无法确认承诺能否确定性兑现。
+    evidence_ids:
+    - ev-8012cc6a8c1c24d0
+  next_validation: 收集 Konsileo 官方定价或产品页，确认其平台按什么计价、AI 具体承担哪一步经纪流程。
+  market: ''
+  job: 商业保险经纪人在为中小企业客户投保时，需要采集风险信息、完成合规检查并把保单与沟通记录交付给客户。
+  job_en: Commercial insurance brokers placing cover for SME clients must capture risk information, complete
+    compliance checks and deliver policies and communication records to clients.
+  pain: 这些行政环节手工重复、耗时且易出错，合规留痕一旦缺失会带来监管风险，经纪人因此被挤占客户沟通时间。
+  pain_en: These administrative steps are manual, repetitive and error-prone; missing compliance trails
+    create regulatory risk and crowd out client-facing time.
+  current_alternative: 多数经纪行依赖邮件、表格与通用经纪管理系统分头处理，风险信息与合规检查散落在不同工具中。
+  current_alternative_en: Most brokerages rely on email, spreadsheets and generic broker management systems,
+    leaving risk information and compliance checks scattered across tools.
+  usage_reason: 推断：相较分散的邮件与表格流程，Konsileo 把风险信息采集、合规检查与保单数据放进同一平台，减少重复录入与事后补留痕这一步，因此更可能被需要控制合规成本的中小商业险经纪团队采用。
+  usage_reason_en: 'Inference: compared with scattered email and spreadsheet workflows, Konsileo puts
+    risk capture, compliance checks and policy data on one platform, removing duplicate entry and after-the-fact
+    trail-building, which is why small and mid-size commercial broker teams managing compliance cost are
+    more likely to adopt it.'
+- id: req-full-konsileo-raises-5m-to-scale-technology-enabled-insurance-bro-2026-10-10
+  project_slug: konsileo-raises-5m-to-scale-technology-enabled-insurance-bro
+  level: full
+  reviewed_at: '2026-10-10T02:30:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决商业险经纪投保前的风险信息采集与合规留痕需求，痛点是手工重复、易错且缺留痕会带来监管风险；旧做法是邮件加表格分头处理，不解决的后果是时间损耗与合规暴露，结构上成立。
+    evidence_ids:
+    - ev-8012cc6a8c1c24d0
+  - gate: consensus
+    status: insufficient
+    reason: 已有 220 余名员工与逾 8500 万英镑年保费规模，说明经纪业务在跑，但缺少经纪人日常使用频率、留存或客户评价，无法判断平台是否已长期嵌入工作流。
+    evidence_ids:
+    - ev-8012cc6a8c1c24d0
+  - gate: model
+    status: insufficient
+    reason: 公司称平台把流程工作量减半，但未披露按席位、按保单还是按保费抽成收费；经纪佣金与平台收费如何切分属判断，不是已验证事实。
+    evidence_ids:
+    - ev-8012cc6a8c1c24d0
+  - gate: truth
+    status: insufficient
+    reason: AI 接入工作流仍处开发中表述，缺少可核验的交付结果与人工复核边界，无法确认承诺能否确定性兑现。
+    evidence_ids:
+    - ev-8012cc6a8c1c24d0
+  next_validation: 收集 Konsileo 官网产品与定价页（或 Riskube 产品页），确认平台按什么计价、AI 具体承担哪一步经纪流程及人工复核边界。
+  market: ''
+  job: 英国持牌商业保险经纪人在为中小企业客户投保时，需要采集风险信息、跑完合规检查、把保单与沟通记录交付给客户，并让客户能自助查看保单与更新信息。
+  job_en: UK-chartered commercial insurance brokers placing cover for SME clients must capture risk information,
+    run compliance checks, deliver policies and communication records, and let clients self-serve policy
+    access and detail updates.
+  pain: 这些行政环节手工重复、耗时且易出错；合规留痕一旦缺失会带来监管风险，经纪人被挤占客户沟通时间，客户侧也缺少统一的保单与沟通视图。
+  pain_en: These administrative steps are manual, repetitive and error-prone; missing compliance trails
+    create regulatory risk, crowd out client-facing time, and clients lack a single view of policies and
+    broker communications.
+  current_alternative: 多数经纪行依赖邮件、表格与通用经纪管理系统分头处理，风险信息与合规检查散落在不同工具中，客户查询靠电话或邮件往返。
+  current_alternative_en: Most brokerages rely on email, spreadsheets and generic broker management systems,
+    leaving risk information and compliance checks scattered, with client queries handled by phone or
+    email back-and-forth.
+  usage_reason: 推断：相较分散的邮件与表格流程，Konsileo 把风险信息采集、合规检查与保单数据放进同一平台，并让客户通过 Riskube 自助查看保单与更新信息，减少重复录入与事后补留痕这一步，因此受合规成本约束的中小商业险经纪团队更可能采用；尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with scattered email and spreadsheet workflows, Konsileo puts
+    risk capture, compliance checks and policy data on one platform and lets clients self-serve via Riskube,
+    removing duplicate entry and after-the-fact trail-building, so compliance-cost-constrained SME commercial
+    broker teams are more likely to adopt it; retention or repeat-use evidence is absent.'

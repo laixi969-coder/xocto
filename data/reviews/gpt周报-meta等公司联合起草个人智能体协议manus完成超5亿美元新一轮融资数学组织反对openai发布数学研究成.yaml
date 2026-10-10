@@ -1,0 +1,90 @@
+- id: req-initial-gpt周报-meta等公司联合起草个人智能体协议manus完成超5亿美元新一轮融资数学组织反对openai发布数学研究成-2026-10-10
+  project_slug: gpt周报-meta等公司联合起草个人智能体协议manus完成超5亿美元新一轮融资数学组织反对openai发布数学研究成
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把多步任务整体交出去、不必自己编排流程的需求，痛点在于跨工具切换与漏步返工；候选材料未给出具体交付样例，属工作流推理。
+    evidence_ids:
+    - ev-6835b8aa23e6dc58
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资标题，没有公开使用规模、留存或客户案例，无法判断用户是否已把它留在工作流里。
+    evidence_ids:
+    - ev-6835b8aa23e6dc58
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收入结构；超 5 亿美元融资说明资本侧有钱，但付费路径仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-6835b8aa23e6dc58
+  - gate: truth
+    status: insufficient
+    reason: 候选材料未说明它如何界定任务完成、出错时如何人工接管，交付确定性无法核对。
+    evidence_ids:
+    - ev-6835b8aa23e6dc58
+  next_validation: 收集 Manus 官方定价页或官方公布的客户案例，确认其收费方式与实际交付结果。
+  market: ''
+  job: 需要把一份多步骤任务（如资料搜集、整理成稿、跑通一段操作流程）整体交出去的个人用户或小团队，在时间紧、步骤琐碎的情况下，把原始材料交给智能体，要求它自己拆解并交付一份可直接使用的结果。
+  job_en: An individual or small team that wants to hand over a multi-step task (research, drafting, running
+    through an operational flow) end to end, giving raw material to an agent under time pressure and expecting
+    a directly usable result.
+  pain: 旧做法要在多个工具间来回切换、自己记住每一步顺序，任务一长就容易漏步、返工，且过程无法一次性交付。
+  pain_en: The old way means switching among many tools and remembering each step; long tasks invite missed
+    steps and rework, and the process cannot be delivered in one pass.
+  current_alternative: 目前多数人用通用聊天助手分步提问，再手工把结果拼起来，或自己写脚本串联工具。
+  current_alternative_en: Most people today ask a general chat assistant step by step, then stitch results
+    together by hand, or write their own scripts to chain tools.
+  usage_reason: 推断：相较逐步提问再手工拼接，它把拆解、调用工具和产出合并为一次委托，减少用户记住步骤顺序和搬运中间结果的负担，因此任务链较长、又不想自己编排流程的用户会在赶交付时选择它。
+  usage_reason_en: 'Inference: versus step-by-step prompting and manual stitching, it merges decomposition,
+    tool calls and output into one delegation, cutting the burden of tracking step order and moving intermediate
+    results, so users with long task chains who do not want to orchestrate flows themselves would pick
+    it when a deadline looms.'
+- id: req-full-gpt周报-meta等公司联合起草个人智能体协议manus完成超5亿美元新一轮融资数学组织反对openai发布数学研究成-2026-10-10
+  project_slug: gpt周报-meta等公司联合起草个人智能体协议manus完成超5亿美元新一轮融资数学组织反对openai发布数学研究成
+  level: full
+  reviewed_at: '2026-10-10T02:30:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把多步任务整体交出去、不必自己编排流程的需求，痛点在于跨工具切换与漏步返工；官网仅说明其执行任务与自动化工作流，具体交付样例缺失，属工作流结构推理。
+    evidence_ids:
+    - ev-491a79bc9daa9d3c
+    - ev-ab9dac99420b5ef7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与收购报道，没有公开使用规模、留存或客户案例，无法判断用户是否已把它留在工作流里；Meta 收购属资本侧关注度，不能替代采用证据。
+    evidence_ids:
+    - ev-dc841e75d1726f01
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收入结构；超 5 亿美元融资与收购估值说明资本侧有钱，但付费路径仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-dc841e75d1726f01
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明它如何界定任务完成、出错时如何人工接管，交付确定性与安全边界无法核对，只能确认其定位为执行任务的行动引擎。
+    evidence_ids:
+    - ev-491a79bc9daa9d3c
+  next_validation: 追踪 Manus 官网定价页与官方公布的客户案例或部署文档，确认其收费方式与实际交付结果。
+  market: ''
+  job: 需要把一份多步骤任务（如资料搜集、整理成稿、跑通一段操作流程）整体交出去的个人用户或小团队，在时间紧、步骤琐碎的情况下，把原始材料交给智能体，要求它自己拆解步骤、调用工具并交付一份可直接使用的结果。
+  job_en: An individual or small team that wants to hand over a multi-step task (research, drafting, running
+    an operational flow) end to end, giving raw material to an agent under time pressure and expecting
+    a directly usable result.
+  pain: 旧做法要在多个工具间来回切换、自己记住每一步顺序，任务一长就容易漏步、返工，中间结果还得手工搬运，过程无法一次性交付。
+  pain_en: The old way means switching among many tools and remembering each step; long tasks invite missed
+    steps and rework, intermediate results must be moved by hand, and the process cannot be delivered
+    in one pass.
+  current_alternative: 目前多数人用通用聊天助手分步提问，再手工把结果拼起来，或自己写脚本串联工具。
+  current_alternative_en: Most people today ask a general chat assistant step by step, then stitch results
+    together by hand, or write their own scripts to chain tools.
+  usage_reason: 推断：相较逐步提问再手工拼接，它把拆解、调用工具和产出合并为一次委托，减少用户记住步骤顺序和搬运中间结果的负担，因此任务链较长、又不想自己编排流程的用户会在赶交付时选择它。
+  usage_reason_en: 'Inference: versus step-by-step prompting and manual stitching, it merges decomposition,
+    tool calls and output into one delegation, cutting the burden of tracking step order and moving intermediate
+    results, so users with long task chains who do not want to orchestrate flows themselves would pick
+    it when a deadline looms.'

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/yattayo
 summary: A physical slider to-do board, faithfully rebuilt in 3D
 first_seen: '2026-08-17T01:36:09Z'
 last_seen: '2026-08-23T14:11:13Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:
@@ -29,6 +29,7 @@ sightings:
   url: https://www.producthunt.com/products/yattayo
   seen_at: '2026-08-23T14:11:13Z'
   metrics: {}
+  kind: product
 ---
 
 # Yattayo

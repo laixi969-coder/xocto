@@ -1,0 +1,90 @@
+- id: req-initial-legora-2026-10-10
+  project_slug: legora
+  level: initial
+  reviewed_at: '2026-10-10T01:56:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法律文书与检索整理耗时的问题，痛点是重复阅读占用判断时间，旧做法是初级律师人工整理，结构上成立。
+    evidence_ids:
+    - ev-89820f60ab237a00
+  - gate: consensus
+    status: insufficient
+    reason: 仅有入选榜单这一事实，没有律师评价或律所采用材料，无法判断是否已进入日常工作流。
+    evidence_ids:
+    - ev-89820f60ab237a00
+  - gate: model
+    status: insufficient
+    reason: 候选未提供定价或采购信息，买方为律所或法务部门属于推断，不是已验证事实。
+    evidence_ids:
+    - ev-89820f60ab237a00
+  - gate: truth
+    status: insufficient
+    reason: 法律场景对准确性与责任边界要求高，公开材料未说明引用核验与人工复核机制，交付确定性待核验。
+    evidence_ids:
+    - ev-89820f60ab237a00
+  next_validation: 收集 Legora 官方定价页与客户案例页，核验其合同审阅与检索工作流的具体输入、交付物与人工复核环节。
+  market: ''
+  job: 律师在合同审阅或法律检索时，需要把大量文书与判例材料整理成可复核的初稿或结论，再据此给出专业判断。
+  job_en: During contract review or legal research, lawyers need large volumes of documents and case material
+    turned into a reviewable draft or conclusion before they can form a professional judgement.
+  pain: 文书与检索工作量大、重复度高，人工逐份阅读耗时，且初稿整理占用了本应用于判断的时间。
+  pain_en: Document and research work is voluminous and repetitive, reading each item by hand is slow,
+    and drafting eats time that should go to judgement.
+  current_alternative: 初级律师或助理人工阅读与整理，配合通用检索工具和模板。
+  current_alternative_en: Junior lawyers or assistants reading and organising by hand, aided by generic
+    search tools and templates.
+  usage_reason: 推断：相较人工逐份整理，它把材料阅读与初稿生成合并到同一环节，减少从零起草这一步，因此案件量大、需要快速出初稿的律所团队会尝试它；本次材料未提供客户案例或使用数据。
+  usage_reason_en: 'Inference: compared with organising documents by hand, it merges reading and first-draft
+    generation into one step, removing the from-scratch drafting stage, so teams with heavy caseloads
+    needing fast drafts are likely to try it; this material provides no customer cases or usage data.'
+- id: req-full-legora-2026-10-10
+  project_slug: legora
+  level: full
+  reviewed_at: '2026-10-10T02:30:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同审阅、法律检索与文书起草中重复阅读和从零起草耗时的问题，痛点是初稿整理挤占律师判断时间，旧做法是初级律师人工整理；这是基于产品说明与法律工作流的结构推理，非采用数据。
+    evidence_ids:
+    - ev-ae174ea96cc2ca8d
+    - ev-f3f9215444c42988
+  - gate: consensus
+    status: insufficient
+    reason: 官网称逾13万法律专业人士、2000多家律所与法务团队使用，属厂商自述规模；缺少独立律师评价、律所采购记录或榜单之外的采用材料，无法确认已进入日常工作流。
+    evidence_ids:
+    - ev-f3f9215444c42988
+    - ev-ae174ea96cc2ca8d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或采购方式，买方为律所或企业法务部门属推断而非已验证事实；官网使用规模暗示存在机构付费路径，但无公开定价页或合同证据。
+    evidence_ids:
+    - ev-f3f9215444c42988
+  - gate: truth
+    status: insufficient
+    reason: 法律场景对准确性与责任边界要求高，公开材料未说明引用核验、幻觉控制与人工复核机制，交付能否确定性发生仍缺证据；产品定位为辅助律师而非替代判断，边界表述尚可。
+    evidence_ids:
+    - ev-ae174ea96cc2ca8d
+    - ev-f3f9215444c42988
+  next_validation: 追踪 Legora 官网定价页与客户案例页，核验其合同审阅与检索工作流的输入、交付物、人工复核环节及公开采购或付费证据。
+  market: ''
+  job: 律师在合同审阅、法律检索与文书起草时，把案件材料与判例交给系统，得到可复核的初稿或检索结论，再由律师作出最终专业判断。
+  job_en: During contract review, legal research and document drafting, lawyers hand case material and
+    precedents to the system to obtain a reviewable draft or research conclusion, then make the final
+    professional judgement themselves.
+  pain: 合同与判例材料体量大、重复阅读与从零起草占用大量时间，初级律师与助理的人工整理挤压了本应用于法律判断的精力，且逐份核对易漏项。
+  pain_en: Contract and case material is voluminous; repetitive reading and drafting from scratch consume
+    hours, junior lawyers' manual organisation squeezes out time for legal judgement, and item-by-item
+    checking is error-prone.
+  current_alternative: 初级律师或助理人工阅读整理，配合通用检索工具、模板与关键词搜索，初稿靠手工拼装。
+  current_alternative_en: Junior lawyers or assistants reading and organising by hand, aided by generic
+    search tools, templates and keyword search, with drafts assembled manually.
+  usage_reason: 推断：相较人工逐份阅读再手工起草，它把材料阅读、检索与初稿生成合并进同一环节，减少从零起草这一步，因此案件量大、需要快速产出可复核初稿的律所与法务团队会在合同审阅和检索场景选择它；公开材料未提供客户案例或留存数据。
+  usage_reason_en: 'Inference: compared with reading each item by hand and drafting manually, it merges
+    reading, research and first-draft generation into one step, removing the from-scratch drafting stage,
+    so law firms and in-house teams with heavy caseloads needing fast reviewable drafts would choose it
+    for contract review and research; public material provides no customer cases or retention data.'

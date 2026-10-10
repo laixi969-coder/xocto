@@ -280,3 +280,43 @@
   usage_reason_en: Integration method and replaced step are missing, so which burden it removes versus
     direct calls cannot be explained; this is an inference gap, and repository stars only reflect attention,
     not usage reason.
+- id: req-full-stuntd-2026-10-10
+  project_slug: stuntd
+  level: full
+  reviewed_at: '2026-10-10T02:32:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仓库自述仅说明它是学习带类型 LLM 决策的本地代理，未交代接入环节、处理材料与不采用后果，连需求与痛点都无法还原，故价值关不成立。
+    evidence_ids:
+    - ev-5e16cbdc33327423
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 stuntd 仓库 README 与 issue/discussion 中关于接入方式、被替代的调用环节及实测结果的公开说明。
+  market: ''
+  job: 公开材料只说明它是本地代理，学习应用里带类型的 LLM 决策并用 Laya 头回答，兼容 Jev 与 OpenAI 接口；谁在什么开发环节接入、处理哪些请求、要完成什么任务均未说明。
+  job_en: Public material only says it is a local proxy that learns an app's typed LLM decisions and answers
+    them with a Laya head, Jev- and OpenAI-compatible; who integrates it at which development step, what
+    requests it handles, and what task it completes are all unstated.
+  pain: 未说明重复调用模型带来的具体成本、延迟或不确定性后果，也没有用户抱怨、workaround 或案例可引用，痛点无法还原。
+  pain_en: It does not state the concrete cost, latency, or nondeterminism consequence of repeated model
+    calls, and no user complaint, workaround, or case is citable, so the pain cannot be reconstructed.
+  current_alternative: 未说明开发者此前如何复用、缓存或桩化模型决策，旧替代行为在公开材料中缺失。
+  current_alternative_en: It does not state how developers previously reused, cached, or stubbed model
+    decisions; the prior alternative is absent from public material.
+  usage_reason: 缺少接入方式与被替代环节，无法解释相较直接调用减少了哪一步负担，也无法说明哪类开发者会在什么情况下选择它，属推断空白。
+  usage_reason_en: Integration method and the replaced step are missing, so which burden it removes versus
+    direct calls, and which developers would choose it when, cannot be explained; this is an inference
+    gap.

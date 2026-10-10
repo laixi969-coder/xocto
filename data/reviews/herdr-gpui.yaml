@@ -675,3 +675,52 @@
     the step of hunting window by window to identify each agent''s state, so developers running several
     local agents who prefer a GUI would pick it when they need an overview and fast switching; public
     materials contain no user feedback or retention evidence for this motive.'
+- id: req-full-herdr-gpui-2026-10-10
+  project_slug: herdr-gpui
+  level: full
+  reviewed_at: '2026-10-10T02:30:15Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地多 agent 会话分散、切换与追踪靠人工翻找的需求，痛点随多 agent 并行而刚性上升；从连接本地 Herdr 守护进程、汇总会话与 worktree、集中展示的闭环看交付路径可确定，属工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-f6f6059de56382ed
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 682 升至 1,054，多日持续增长，说明开发者社区持续关注并可能在使用；但收藏属关注度证据，不能证明已长期留在工作流，强场景成立与否仍需 issue 或评价佐证。
+    evidence_ids:
+    - ev-29d4bf8a51c06e62
+    - ev-f6f6059de56382ed
+  - gate: model
+    status: insufficient
+    reason: 开源客户端未见定价页或商业路径，买方可能是个人开发者或团队，但公开材料未披露任何付费、赞助或采购记录，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f6f6059de56382ed
+  - gate: truth
+    status: insufficient
+    reason: 客户端依赖本地 Herdr 守护进程，公开材料未说明守护进程的部署要求、多平台一致性以及 agent 活动的读取边界，交付能否稳定发生缺少文档与实测。
+    evidence_ids:
+    - ev-f6f6059de56382ed
+  next_validation: 追踪 herdr-gpui 仓库的 README、release 与 issue/discussion，确认本地 Herdr 守护进程的部署要求、多平台支持状态，以及是否有用户报告将其用于日常多
+    agent 工作流。
+  market: ''
+  job: 开发者在本地同时运行多个编码 agent 时，打开这个 macOS/Linux/Windows 原生客户端，通过本地 Herdr 守护进程查看终端会话、工作区、Git worktree 和
+    agent 活动，需要在一个界面里集中查看与切换这些会话。
+  job_en: Developers running multiple coding agents locally open this native macOS/Linux/Windows client
+    to view terminal sessions, workspaces, Git worktrees and agent activity through the local Herdr daemon,
+    needing one interface to monitor and switch among those sessions.
+  pain: 多个 agent 与终端会话分散在不同窗口和 worktree 中，切换与追踪各自进度靠人工翻找，容易漏看某个 agent 的状态或输出。
+  pain_en: Multiple agents and terminal sessions are scattered across windows and worktrees; tracking
+    and switching between them relies on manual hunting, making it easy to miss an agent's status or output.
+  current_alternative: 直接用终端多标签、tmux 或 IDE 内置终端分别管理各 agent 会话，靠人工切换窗口查看。
+  current_alternative_en: Managing each agent session with terminal tabs, tmux or IDE built-in terminals,
+    switching windows manually to check on them.
+  usage_reason: 推断：相较在多个终端标签或 tmux 会话间手动切换，该客户端把终端会话、工作区、Git worktree 与 agent 活动汇总到一个原生界面，减少逐个窗口翻找这一步，因此同时跑多个编码
+    agent 的开发者会在需要集中查看与切换时选择它；但公开材料未说明其相较 tmux 的具体增量，也无用户反馈佐证。
+  usage_reason_en: 'Inference: versus manually switching among terminal tabs or tmux sessions, the client
+    aggregates terminal sessions, workspaces, Git worktrees and agent activity into one native interface,
+    removing the step of hunting window by window, so developers running several coding agents would choose
+    it when they need centralized viewing and switching; public material does not state its concrete increment
+    over tmux, and no user feedback corroborates it.'

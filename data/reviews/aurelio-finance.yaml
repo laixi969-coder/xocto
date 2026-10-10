@@ -1,0 +1,89 @@
+- id: req-initial-aurelio-finance-2026-10-10
+  project_slug: aurelio-finance
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地汇总多类资产并随时询问资产状况的需求，痛点是云端隐私顾虑与手工汇总费时；具体导入方式仍待核验。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有星标与分支等关注度，但没有可归因到该产品的持续使用或付费证据。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页；钱可能来自捐赠、托管或增值服务，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+  - gate: truth
+    status: insufficient
+    reason: AI 顾问的建议边界、数据准确性与人工确认环节，公开材料未说明。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+  next_validation: 收集该仓库的 README 与 issue，确认支持的数据导入方式、AI 顾问的输出边界与本地存储实现。
+  market: ''
+  job: 个人投资者在自己的电脑上汇总净值、投资、ETF、现金与债务，并向内置 AI 顾问询问资产状况，得到本地保存的财务视图。
+  job_en: Individual investors consolidating net worth, investments, ETFs, cash and debts on their own
+    computer and asking the built-in AI advisor about their position, getting a locally stored financial
+    view.
+  pain: 把账户数据交给云端聚合平台存在隐私顾虑，而用表格手工汇总又费时且难以持续更新。
+  pain_en: Handing account data to cloud aggregators raises privacy concerns, while manual spreadsheet
+    consolidation is time-consuming and hard to keep updated.
+  current_alternative: 用 Excel 或记账软件手工汇总，或使用云端资产聚合服务。
+  current_alternative_en: Manual consolidation in Excel or bookkeeping software, or using cloud asset-aggregation
+    services.
+  usage_reason: 推断：相较手工表格，它把多类资产放在同一本地视图并由 AI 顾问直接回答资产问题，省去逐项整理与自行计算这一步；因此对不愿上传账户数据、又想随时问资产状况的人有吸引力。
+  usage_reason_en: 'Inference: versus manual spreadsheets, it puts multiple asset types in one local view
+    and has the AI advisor answer asset questions directly, removing item-by-item consolidation and self-calculation;
+    that appeals to people unwilling to upload account data yet wanting on-demand answers about their
+    position.'
+- id: req-full-aurelio-finance-2026-10-10
+  project_slug: aurelio-finance
+  level: full
+  reviewed_at: '2026-10-10T02:28:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地汇总多类资产并随时询问资产状况的需求，痛点是云端隐私顾虑与手工汇总费时；这是从产品定位与旧替代方式作出的结构推理，具体导入方式仍待核验。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 1,555 星标等关注度，但没有可归因到该产品的持续使用或付费证据，无法判断共识。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页；钱可能来自捐赠、托管或增值服务，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+  - gate: truth
+    status: insufficient
+    reason: AI 顾问的建议边界、数据准确性与人工确认环节，公开材料未说明。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+  next_validation: 收集该仓库的 README 与 issue，确认支持的数据导入方式、AI 顾问的输出边界与本地存储实现。
+  market: ''
+  job: 在意隐私的个人投资者在自己的电脑上汇总净值、投资、ETF、现金与债务，并向内置 AI 顾问询问资产状况，得到本地保存的财务视图。
+  job_en: Privacy-conscious individual investors consolidating net worth, investments, ETFs, cash and
+    debts on their own computer and asking the built-in AI advisor about their position, getting a locally
+    stored financial view.
+  pain: 把账户数据交给云端聚合平台存在隐私顾虑，而用表格手工汇总又费时且难以持续更新；这是从产品定位与旧替代方式作出的结构推理，公开材料未给出用户原话。
+  pain_en: Handing account data to cloud aggregators raises privacy concerns, while manual spreadsheet
+    consolidation is time-consuming and hard to keep updated; this is structural inference from the product
+    positioning and prior alternatives, not user testimony.
+  current_alternative: 用 Excel 或记账软件手工汇总，或使用云端资产聚合服务。
+  current_alternative_en: Manual consolidation in Excel or bookkeeping software, or using cloud asset-aggregation
+    services.
+  usage_reason: 推断：相较手工表格，它把多类资产放在同一本地视图并由 AI 顾问直接回答资产问题，省去逐项整理与自行计算这一步；因此对不愿上传账户数据、又想随时问资产状况的人有吸引力。
+  usage_reason_en: 'Inference: versus manual spreadsheets, it puts multiple asset types in one local view
+    and has the AI advisor answer asset questions directly, removing item-by-item consolidation and self-calculation;
+    that appeals to people unwilling to upload account data yet wanting on-demand answers about their
+    position.'

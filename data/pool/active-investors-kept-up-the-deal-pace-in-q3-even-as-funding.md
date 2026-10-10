@@ -33,7 +33,7 @@ summary: Active startup investors largely kept up or increased their dealmaking 
   Overall, as charted below, at least 22 investors participated
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

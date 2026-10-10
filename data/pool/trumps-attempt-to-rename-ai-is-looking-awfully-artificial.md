@@ -27,7 +27,7 @@ summary: President Donald Trump has a knack for turning words against his enemie
   him. But he's picked a tough linguistic batt … Read the full story at The Verge.
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFBrSmFjY1ZOdGl0
 summary: ChatGPT Shopping 虚拟试穿上线！AI 试衣 + 商品收藏，重塑跨境网购体验 全球定制网
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

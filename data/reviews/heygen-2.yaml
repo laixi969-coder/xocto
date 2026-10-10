@@ -1,0 +1,93 @@
+- id: req-initial-heygen-2-2026-10-10
+  project_slug: heygen-2
+  level: initial
+  reviewed_at: '2026-10-10T01:56:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多语言口播视频的制作需求，痛点在于真人拍摄与本地化重拍成本高，旧流程清晰，结构上成立。
+    evidence_ids:
+    - ev-bd61da35ae7fad31
+  - gate: consensus
+    status: insufficient
+    reason: 入选行业名单说明机构关注，但公开材料未给出客户采用或持续使用证据，共识仍不充分。
+    evidence_ids:
+    - ev-bd61da35ae7fad31
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方结构；企业内容团队付费是判断而非已验证事实，且头部竞争激烈。
+    evidence_ids:
+    - ev-bd61da35ae7fad31
+  - gate: truth
+    status: insufficient
+    reason: 数字人出镜的合规、肖像授权与人工审核边界未在材料中说明，承诺能否确定性交付缺少可核对信息。
+    evidence_ids:
+    - ev-bd61da35ae7fad31
+  next_validation: 收集 HeyGen 官方定价页或客户案例，确认按什么计价以及企业内容团队的实际采用情况。
+  market: ''
+  job: 市场或培训团队在需要多语言口播视频时，把脚本交给它生成数字人出镜的成片，用于广告投放、产品介绍或内部培训。
+  job_en: Marketing or training teams hand scripts to it to produce avatar-presented videos for ad campaigns,
+    product explainers or internal training.
+  pain: 真人出镜拍摄多语言版本需要演员、场地和反复重拍，本地化版本越多成本越高，更新脚本又要重新约拍。
+  pain_en: Filming human presenters in multiple languages requires talent, studios and repeated reshoots;
+    more localized versions mean higher cost, and script changes force new shoots.
+  current_alternative: 找真人演员与摄制团队拍摄，或使用传统配音加字幕的后期流程。
+  current_alternative_en: Hiring on-camera talent and production crews, or using traditional dubbing plus
+    subtitle post-production.
+  usage_reason: 推断：相较约拍真人，它把脚本直接转成数字人口播成片，省去演员、场地与重拍环节，脚本改动可重新生成；需要频繁更新多语言素材的营销与培训团队会因此选择它。公开材料未提供留存或复购数据，长期使用情况缺少证据。
+  usage_reason_en: 'Inference: versus booking human shoots, it turns a script directly into an avatar-presented
+    video, removing talent, studio and reshoot steps, and script edits can be regenerated; marketing and
+    training teams that update multi-language assets frequently would choose it for that reason. No retention
+    or repeat-use data is provided, so long-term use lacks evidence.'
+- id: req-full-heygen-2-2026-10-10
+  project_slug: heygen-2
+  level: full
+  reviewed_at: '2026-10-10T02:30:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多语言口播视频的制作需求，痛点是真人拍摄与本地化重拍成本高、脚本改动需重约拍摄；公开材料显示输入文本、图片或音频即可产出含旁白字幕的完整视频，旧流程与交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-02ed1e2cb95452fd
+    - ev-ac207a72b062032b
+  - gate: consensus
+    status: insufficient
+    reason: 入选 Madrona 2026 中期名单只说明机构关注，属关注度而非采用证据；公开材料未给出客户名单、使用规模或持续使用记录，共识强度无法确认。
+    evidence_ids:
+    - ev-c987653e461c7dc1
+    - ev-dc29098a05cf7a53
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页与买方结构，企业内容团队付费属判断而非已验证事实；HyperFrames 以开源 skill 形式发布，其变现路径与主产品关系亦未说明。
+    evidence_ids:
+    - ev-e35ddc9172d2a7ec
+    - ev-9d2970cc24dd8cc6
+  - gate: truth
+    status: insufficient
+    reason: 数字人出镜涉及肖像授权、合规与人工审核边界，公开材料未说明承诺能否确定性交付，也未给出成片质量与失败处理的可核对信息。
+    evidence_ids:
+    - ev-02ed1e2cb95452fd
+    - ev-e35ddc9172d2a7ec
+  next_validation: 追踪 HeyGen 官网定价页与公开客户案例，确认按什么计价、企业内容团队的实际采用与续用情况。
+  market: ''
+  job: 市场或培训团队在需要多语言口播视频时，把脚本、图片或音频交给 HeyGen，生成带旁白、字幕、画面与动画的数字人出镜成片，用于广告投放、产品介绍或内部培训。
+  job_en: Marketing or training teams with a need for multi-language talking-head video hand scripts,
+    images or audio to HeyGen to produce avatar-presented videos with narration, captions, visuals and
+    animations for ad campaigns, product explainers or internal training.
+  pain: 公开材料显示其输入只需文本、图片或音频即可产出完整视频，说明旧流程中真人出镜、多语言本地化与脚本改动后的重拍是主要负担；版本越多、更新越频繁，演员、场地与后期成本越高。
+  pain_en: Public material shows a complete video can be produced from text, image or audio input, implying
+    the main burden in the old process is on-camera talent, multi-language localization and reshoots after
+    script changes; the more versions and updates, the higher the talent, studio and post-production cost.
+  current_alternative: 约请真人演员与摄制团队拍摄，或用传统配音加字幕的后期流程制作多语言版本。
+  current_alternative_en: Booking on-camera talent and production crews, or producing multi-language versions
+    through traditional dubbing plus subtitle post-production.
+  usage_reason: 推断：相较约拍真人，HeyGen 把脚本、图片或音频直接转成含旁白、字幕、画面与动画的数字人口播成片，省去演员、场地与重拍环节，脚本改动可重新生成；因此需要频繁产出或更新多语言素材的营销与培训团队会在该情境下选择它。公开材料未提供留存或复购数据，长期使用情况缺少证据。
+  usage_reason_en: 'Inference: versus booking human shoots, HeyGen turns scripts, images or audio directly
+    into avatar-presented videos with narration, captions, visuals and animations, removing talent, studio
+    and reshoot steps, and script edits can be regenerated; marketing and training teams that frequently
+    produce or update multi-language assets would therefore choose it in that situation. No retention
+    or repeat-use data is provided, so long-term use lacks evidence.'

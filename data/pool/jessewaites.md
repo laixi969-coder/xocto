@@ -21,7 +21,7 @@ canonical_url: https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-ar
 summary: Pointing AI at archives found a forgotten meteorite, lost rhinos, and more
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

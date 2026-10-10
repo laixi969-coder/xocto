@@ -1,0 +1,38 @@
+- id: req-initial-astute-2026-10-10
+  project_slug: astute
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，公开材料只有一句传播口号。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，无采用或关注证据可判。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径无从判断。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性与人工边界无从判断。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面的功能说明与定价，确认 AI 具体接收什么材料、执行哪一步、交付什么结果。
+  market: ''
+  job: B2B 品牌市场人员在需要扩大内容传播时，把品牌素材交给它并借助外部创作者产出传播内容。
+  job_en: B2B brand marketers handing brand material to it and working with outside creators to produce
+    distribution content when they need wider reach.
+  pain: 公开材料未说明具体痛点，只能推断为品牌内容传播依赖人工对接创作者、周期长。
+  pain_en: Public material does not state the specific pain; it can only be inferred as brand content
+    distribution relying on manual creator outreach with long cycles.
+  current_alternative: 市场团队自行联系创作者或投放代理，人工排期与审稿。
+  current_alternative_en: Marketing teams contacting creators or agencies themselves, scheduling and reviewing
+    manually.
+  usage_reason: 推断：若它把创作者匹配与内容产出串成一步，可省去人工对接环节；但公开材料未给出任何具体动作，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if it chains creator matching and content production into one step, it
+    could remove manual outreach; but public material gives no concrete action, so why users choose it
+    cannot be confirmed.'

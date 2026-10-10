@@ -1,6 +1,6 @@
 ---
 slug: jev开发商typesafe-ai完成87亿美元融资-估值75亿美元-红杉参投
-name: Jev开发商TypeSafe AI完成8.7亿美元融资 估值75亿美元 红杉参投
+name: TypeSafe AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc1R2d010OFFU
 summary: Jev开发商TypeSafe AI完成8.7亿美元融资 估值75亿美元 红杉参投 搜狐网
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Jev开发商TypeSafe AI完成8.7亿美元融资 估值75亿美元 红杉参投
+# TypeSafe AI
 
 Jev开发商TypeSafe AI完成8.7亿美元融资 估值75亿美元 红杉参投 搜狐网
 

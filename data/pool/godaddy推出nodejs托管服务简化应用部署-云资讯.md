@@ -1,6 +1,6 @@
 ---
 slug: godaddy推出nodejs托管服务简化应用部署-云资讯
-name: GoDaddy推出Node.js托管服务简化应用部署-云资讯
+name: GoDaddy
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzYkVpSnRiV3pN
 summary: GoDaddy推出Node.js托管服务简化应用部署-云资讯 至顶网
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# GoDaddy推出Node.js托管服务简化应用部署-云资讯
+# GoDaddy
 
 GoDaddy推出Node.js托管服务简化应用部署-云资讯 至顶网
 

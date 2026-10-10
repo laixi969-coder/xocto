@@ -659,3 +659,42 @@
   usage_reason_en: 'Inference: if it collapses multiple tool configs into one repeatable bootstrap action
     it may cut per-file editing, but no concrete difference from manual setup is given, so which users
     would choose it cannot be judged.'
+- id: req-full-bootagent-2026-10-10
+  project_slug: bootagent
+  level: full
+  reviewed_at: '2026-10-10T02:28:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决新机 AI 助手配置需逐个手改配置文件的问题，但公开材料未说明旧流程的具体步骤、耗时与不解决代价，需求结构无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 release 记录，确认新机配置的实际步骤、支持的工具范围与可复现产出。
+  market: ''
+  job: 开发者在新电脑到手时，把常用的 AI 助手与工具配置一次装好，避免逐个手工编辑各工具专属配置文件。
+  job_en: Developers set up their usual AI assistants and tools once on a fresh machine, avoiding hand-editing
+    each tool-specific config file.
+  pain: 公开材料只说明可免去逐个改设置，未说明新机配置实际耗时多久、出错频率多高、不解决会有什么后果，痛点强度无法还原。
+  pain_en: Public material only says it avoids editing each setting by hand, without showing how long
+    fresh-machine setup takes, how often it goes wrong, or the consequence of leaving it unsolved, so
+    pain intensity cannot be reconstructed.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：若一次配置能生成可复用的新机环境，可省去逐工具手改配置文件的步骤；但公开材料未给出使用场景与留存证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if one setup produces a repeatable fresh-machine environment, it could
+    remove the step of hand-editing each tool''s config; but public material gives no usage scenario or
+    retention evidence, so why users choose it cannot be confirmed.'

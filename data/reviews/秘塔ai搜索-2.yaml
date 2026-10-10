@@ -1,0 +1,89 @@
+- id: req-initial-秘塔ai搜索-2-2026-10-10
+  project_slug: 秘塔ai搜索-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:41Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文资料检索与来源核对耗时的问题，旧行为是逐条翻网页，痛点刚性且交付为可阅读的带引用答案。
+    evidence_ids:
+    - ev-887de63da485e6a9
+  - gate: consensus
+    status: supported
+    reason: 公开使用数据显示已有百万级月度使用规模，说明中文用户确实在用它完成检索任务。
+    evidence_ids:
+    - ev-887de63da485e6a9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费转化，买方可能是个人订阅或企业采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-887de63da485e6a9
+  - gate: truth
+    status: insufficient
+    reason: 引用是否可核对、错误答案如何纠正、专业场景下的人工边界，公开材料未说明。
+    evidence_ids:
+    - ev-887de63da485e6a9
+  next_validation: 收集该产品官方定价页或企业版说明，确认付费层级与面向专业场景的交付方式。
+  market: ''
+  job: 中文用户在做研究、写材料或查证事实时，需要快速获得可追溯来源的答案，而不是自己逐条翻网页。
+  job_en: A Chinese-speaking user doing research, writing or fact-checking needs a quickly obtained answer
+    with traceable sources instead of paging through web results themselves.
+  pain: 中文网页信息分散、广告与低质内容多，人工检索并核对来源耗时，且容易采信不可靠内容。
+  pain_en: Chinese web information is scattered with ads and low-quality content, so manual retrieval
+    and source checking is time-consuming and prone to trusting unreliable material.
+  current_alternative: 用户目前用传统搜索引擎逐条点开网页，或直接问通用聊天助手但拿不到可靠引用。
+  current_alternative_en: Users currently open results one by one in a traditional search engine, or ask
+    a general chat assistant but get no reliable citations.
+  usage_reason: 它把检索与来源整理合并成一次输出，用户不必逐条点开网页再自行摘录，因此在需要快速查证并保留出处的场景下会被选用；公开数据只显示月度使用规模，未提供留存或付费证据。
+  usage_reason_en: It merges retrieval and source organization into one output, so users need not open
+    pages one by one and excerpt them manually, which is why it gets chosen when quick verification with
+    retained citations is needed; the public data shows only monthly usage scale, with no retention or
+    payment evidence.
+- id: req-full-秘塔ai搜索-2-2026-10-10
+  project_slug: 秘塔ai搜索-2
+  level: full
+  reviewed_at: '2026-10-10T02:34:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文资料检索与来源核对耗时的问题，旧行为是逐条翻网页，痛点刚性且交付为可阅读的带引用答案；此为工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-887de63da485e6a9
+  - gate: consensus
+    status: supported
+    reason: 公开使用数据显示已有百万级月度使用规模，说明中文用户确实在用它完成检索任务；但该数据仅属规模证据，不能证明留存或持续采用。
+    evidence_ids:
+    - ev-887de63da485e6a9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费转化，买方可能是个人订阅或企业采购，属判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-887de63da485e6a9
+  - gate: truth
+    status: insufficient
+    reason: 引用是否可核对、错误答案如何纠正、专业场景下的人工边界，公开材料未说明，交付确定性仍缺证据。
+    evidence_ids:
+    - ev-887de63da485e6a9
+  next_validation: 收集秘塔AI搜索官方定价页或企业版说明，确认付费层级与面向专业场景的交付方式。
+  market: ''
+  job: 中文用户（研究者、学生、写作者）在需要查证事实或整理资料时，用中文提问，由模型检索网页并生成带引用来源的答案，拿到可直接阅读和引用的整理结果。
+  job_en: A Chinese-speaking user (researcher, student, writer) who needs to verify facts or compile material
+    asks a question in Chinese; the model retrieves web pages and produces an answer with cited sources,
+    delivering a directly readable and citable result.
+  pain: 中文网页信息分散、广告与低质内容多，人工逐条检索并核对来源耗时，且容易采信不可靠内容；通用聊天助手又常给不出可追溯引用。
+  pain_en: Chinese web information is scattered with ads and low-quality content; manual retrieval and
+    source checking is time-consuming and prone to trusting unreliable material, while general chat assistants
+    often give no traceable citations.
+  current_alternative: 用户目前用传统搜索引擎逐条点开网页自行摘录，或直接问通用聊天助手但拿不到可靠引用。
+  current_alternative_en: Users currently open results one by one in a traditional search engine and excerpt
+    manually, or ask a general chat assistant but get no reliable citations.
+  usage_reason: 相较逐条点开网页再自行摘录，它把检索与来源整理合并为一次带引用的输出，省去用户逐页翻找与摘录这一步，因此在需要快速查证并保留出处的场景下会被选用；公开数据仅显示百万级月度使用规模，尚无留存或付费证据，采用动机属基于产品能力的推断。
+  usage_reason_en: Compared with opening pages one by one and excerpting manually, it merges retrieval
+    and source organization into a single cited output, removing the step of paging through and excerpting
+    each source, so it gets chosen when quick verification with retained citations is needed; public data
+    shows only million-scale monthly usage, with no retention or payment evidence, so the adoption motive
+    is an inference from product capability.

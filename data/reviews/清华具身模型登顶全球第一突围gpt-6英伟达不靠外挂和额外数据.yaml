@@ -1,0 +1,87 @@
+- id: req-initial-清华具身模型登顶全球第一突围gpt-6英伟达不靠外挂和额外数据-2026-10-10
+  project_slug: 清华具身模型登顶全球第一突围gpt-6英伟达不靠外挂和额外数据
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人策略训练中真机数据昂贵、混合训练导致策略不稳的问题，痛点具体，旧做法是遥操作数据与仿真迁移。
+    evidence_ids:
+    - ev-b958024804f53759
+  - gate: consensus
+    status: insufficient
+    reason: 只有登顶评测这一条报道，没有第三方复现、同行采用或客户部署信息，共识环节缺少可核验事实。
+    evidence_ids:
+    - ev-b958024804f53759
+  - gate: model
+    status: insufficient
+    reason: 未披露模型开放方式、授权与收费路径；开源只是候选标签，买方与付费结构均无公开材料。
+    evidence_ids:
+    - ev-b958024804f53759
+  - gate: truth
+    status: insufficient
+    reason: 缺少真机任务成功率、节拍与安全边界数据，无法核对模型承诺能否在产线确定性交付。
+    evidence_ids:
+    - ev-b958024804f53759
+  next_validation: 收集星动纪元官方模型仓库或技术文档，核对评测口径、模型开放范围与真机任务成功率。
+  market: ''
+  job: 机器人研发团队在训练抓取与操作策略时，需要处理视频与动作数据，产出能迁移到真机、在具体工位上稳定完成操作任务的模型。
+  job_en: Robotics R&D teams training grasping and manipulation policies need to process video and action
+    data and produce models that transfer to real machines and reliably perform tasks at a specific station.
+  pain: 真机数据采集昂贵、周期长，视频与动作混合训练容易互相干扰，导致策略在真机上不稳定，团队反复返工。
+  pain_en: Real-robot data collection is expensive and slow, and mixing video and action training causes
+    interference, making policies unstable on real hardware and forcing repeated rework.
+  current_alternative: 目前多依赖大规模真机遥操作数据、仿真到现实的迁移，或直接采购通用具身模型再做微调。
+  current_alternative_en: Today teams rely on large-scale teleoperation data, sim-to-real transfer, or
+    buying a generic embodied model and fine-tuning it.
+  usage_reason: 推断：相较混合训练，分阶段解耦把视频预测与动作学习分开，减少两类信号互相干扰带来的返工，因此真机数据有限、又需要在特定工位快速迭代策略的机器人团队会尝试它。材料未给出真机落地与重复使用证据，尚不能确认已进入长期工作流。
+  usage_reason_en: 'Inference: versus mixed training, staged decoupling separates video prediction from
+    action learning, reducing rework caused by the two signals interfering, so robotics teams with limited
+    real-robot data that need fast policy iteration at a specific station would try it. No real-robot
+    deployment or repeated-use evidence is given, so long-term workflow adoption cannot be confirmed.'
+- id: req-full-清华具身模型登顶全球第一突围gpt-6英伟达不靠外挂和额外数据-2026-10-10
+  project_slug: 清华具身模型登顶全球第一突围gpt-6英伟达不靠外挂和额外数据
+  level: full
+  reviewed_at: '2026-10-10T02:33:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人策略训练中真机数据昂贵、视频与动作混合训练互相干扰导致策略不稳的问题，旧做法是遥操作数据与仿真迁移；这是从训练流程作出的结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-b958024804f53759
+  - gate: consensus
+    status: insufficient
+    reason: 只有登顶评测这一条报道，没有第三方复现、同行采用或客户部署信息，共识环节缺少可核验事实。
+    evidence_ids:
+    - ev-b958024804f53759
+  - gate: model
+    status: insufficient
+    reason: 未披露模型开放方式、授权与收费路径；开源只是候选标签，买方与付费结构均无公开材料。
+    evidence_ids:
+    - ev-b958024804f53759
+  - gate: truth
+    status: insufficient
+    reason: 缺少真机任务成功率、节拍与安全边界数据，无法核对模型承诺能否在产线确定性交付。
+    evidence_ids:
+    - ev-b958024804f53759
+  next_validation: 收集星动纪元官方模型仓库或技术文档，核对评测口径、模型开放范围与真机任务成功率。
+  market: ''
+  job: 机器人研发团队在训练抓取与操作策略时，处理视频与动作数据，产出能迁移到真机、在具体工位上稳定完成操作任务的具身模型。
+  job_en: Robotics R&D teams training grasping and manipulation policies process video and action data
+    to produce embodied models that transfer to real machines and reliably perform tasks at a specific
+    station.
+  pain: 真机数据采集昂贵、周期长，视频与动作混合训练容易互相干扰，导致策略在真机上不稳定，团队反复返工。
+  pain_en: Real-robot data collection is expensive and slow, and mixing video and action training causes
+    interference, making policies unstable on real hardware and forcing repeated rework.
+  current_alternative: 目前多依赖大规模真机遥操作数据、仿真到现实的迁移，或直接采购通用具身模型再做微调。
+  current_alternative_en: Today teams rely on large-scale teleoperation data, sim-to-real transfer, or
+    buying a generic embodied model and fine-tuning it.
+  usage_reason: 推断：相较混合训练，分阶段解耦把视频预测与动作学习分开，减少两类信号互相干扰带来的返工，因此真机数据有限、又需要在特定工位快速迭代策略的机器人团队会尝试它。材料未给出真机落地与重复使用证据，尚不能确认已进入长期工作流。
+  usage_reason_en: 'Inference: versus mixed training, staged decoupling separates video prediction from
+    action learning, reducing rework caused by the two signals interfering, so robotics teams with limited
+    real-robot data that need fast policy iteration at a specific station would try it. No real-robot
+    deployment or repeated-use evidence is given, so long-term workflow adoption cannot be confirmed.'

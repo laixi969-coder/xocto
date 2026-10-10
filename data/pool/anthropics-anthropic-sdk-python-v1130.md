@@ -1,6 +1,6 @@
 ---
 slug: anthropics-anthropic-sdk-python-v1130
-name: 'anthropics/anthropic-sdk-python: v1.13.0'
+name: anthropic-sdk-python
 builder: anthropics
 category: ''
 summary_zh: ''
@@ -33,7 +33,7 @@ summary: '### Features
   * **internal:** name the default API version header value'
 first_seen: '2026-10-10T01:46:04Z'
 last_seen: '2026-10-10T01:46:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -45,7 +45,7 @@ sightings:
   kind: news
 ---
 
-# anthropics/anthropic-sdk-python: v1.13.0
+# anthropic-sdk-python
 
 ### Features
 

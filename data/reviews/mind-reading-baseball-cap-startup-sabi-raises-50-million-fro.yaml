@@ -1,0 +1,83 @@
+- id: req-initial-mind-reading-baseball-cap-startup-sabi-raises-50-million-fro-2026-10-10
+  project_slug: mind-reading-baseball-cap-startup-sabi-raises-50-million-fro
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只写融资 5000 万美元，未说明解决什么需求、什么痛点，也看不出不采用的后果，价值关无法成立。
+    evidence_ids:
+    - ev-0943078c5aad90bf
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且材料没有用户采用、社区讨论或客户案例可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-0943078c5aad90bf
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，材料未披露买方、定价或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-0943078c5aad90bf
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，材料未说明交付形态、安全边界或人工确认环节。
+    evidence_ids:
+    - ev-0943078c5aad90bf
+  next_validation: 收集 Sabi 官方产品页或官方发布材料，确认该头戴设备采集的信号类型、使用场景与交付结果。
+  market: ''
+  job: 候选材料未说明具体使用者与任务，只能推测为个人在居家场景佩戴头戴设备采集脑电信号，用于查看或分析自身状态，具体任务与交付仍待核验。
+  job_en: The candidate material names no specific user or task; it can only be inferred that an individual
+    wears a head-worn device at home to capture brain signals for reviewing or analysing their own state,
+    with the exact task and deliverable still unverified.
+  pain: 材料未给出任何用户痛点、抱怨或替代行为，无法说明不解决会失去什么。
+  pain_en: The material gives no user pain, complaint or substitute behaviour, so it cannot say what is
+    lost if the problem goes unsolved.
+  current_alternative: 材料未提及现有替代方式，无法判断用户此前如何完成同类任务。
+  current_alternative_en: The material mentions no existing alternative, so it is impossible to tell how
+    users handled a comparable task before.
+  usage_reason: 仅有融资事实，没有产品能力、定价或使用证据，无法解释用户为何选择它而非旧做法；此处不作推断。
+  usage_reason_en: Only the funding fact exists, with no product capability, pricing or usage evidence,
+    so there is no basis to explain why a user would choose it over the old way; no inference is made
+    here.
+- id: req-full-mind-reading-baseball-cap-startup-sabi-raises-50-million-fro-2026-10-10
+  project_slug: mind-reading-baseball-cap-startup-sabi-raises-50-million-fro
+  level: full
+  reviewed_at: '2026-10-10T02:31:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只写融资 5000 万美元，未说明解决什么需求、什么痛点，也看不出不采用的后果，价值关无法成立。
+    evidence_ids:
+    - ev-d143b276403974b5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Sabi 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 材料未说明具体使用者与任务；仅能推测为个人在居家场景佩戴头戴设备采集脑电信号，用于查看或分析自身状态，具体任务与交付仍待核验。
+  job_en: The material names no specific user or task; it can only be inferred that an individual wears
+    a head-worn device at home to capture brain signals for reviewing or analysing their own state, with
+    the exact task and deliverable still unverified.
+  pain: 材料未给出任何用户痛点、抱怨或替代行为，无法说明不解决会失去什么。
+  pain_en: The material gives no user pain, complaint or substitute behaviour, so it cannot say what is
+    lost if the problem goes unsolved.
+  current_alternative: 材料未提及现有替代方式，无法判断用户此前如何完成同类任务。
+  current_alternative_en: The material mentions no existing alternative, so it is impossible to tell how
+    users handled a comparable task before.
+  usage_reason: 仅有融资事实，没有产品能力、定价或使用证据，无法解释用户为何选择它而非旧做法；此处不作推断。
+  usage_reason_en: Only the funding fact exists, with no product capability, pricing or usage evidence,
+    so there is no basis to explain why a user would choose it over the old way; no inference is made
+    here.

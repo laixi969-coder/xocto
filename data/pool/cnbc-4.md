@@ -1,6 +1,6 @@
 ---
 slug: cnbc-4
-name: cnbc
+name: OpenAI
 builder: mfiguiere
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-corewea
 summary: OpenAI annualised revenues $20B less than previously signalled
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# cnbc
+# OpenAI
 
 OpenAI annualised revenues $20B less than previously signalled
 

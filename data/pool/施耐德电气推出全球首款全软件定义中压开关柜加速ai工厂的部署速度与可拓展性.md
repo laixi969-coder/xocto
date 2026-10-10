@@ -1,6 +1,6 @@
 ---
 slug: 施耐德电气推出全球首款全软件定义中压开关柜加速ai工厂的部署速度与可拓展性
-name: 施耐德电气推出全球首款全软件定义中压开关柜，加速AI工厂的部署速度与可拓展性
+name: 施耐德电气
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE92WEpaNEZIRHRV
 summary: 施耐德电气推出全球首款全软件定义中压开关柜，加速AI工厂的部署速度与可拓展性 能源界
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 施耐德电气推出全球首款全软件定义中压开关柜，加速AI工厂的部署速度与可拓展性
+# 施耐德电气
 
 施耐德电气推出全球首款全软件定义中压开关柜，加速AI工厂的部署速度与可拓展性 能源界
 

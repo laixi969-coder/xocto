@@ -1,0 +1,96 @@
+- id: req-initial-titan-engine-2026-10-10
+  project_slug: titan-engine
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决网页端大表计算与渲染的问题，但公开材料没有说明谁在什么工作节点被卡住、不解决会失去什么，痛点强度无法判断。
+    evidence_ids:
+    - ev-f79824fdc031dcb8
+    - ev-16001dbb169809d6
+  - gate: consensus
+    status: insufficient
+    reason: 只有少量社区讨论，没有可归因到该项目的采用、评价或重复使用记录，共识卡在场景未被描述。
+    evidence_ids:
+    - ev-f79824fdc031dcb8
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业交付方式，买方与付费路径均未披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f79824fdc031dcb8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近表格工作的第一性目标，也未见性能实测或安全边界说明，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-16001dbb169809d6
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它支持的数据规模、公式覆盖范围以及是否有真实项目在生产中嵌入使用。
+  market: ''
+  job: 前端工程师在把表格能力嵌进网页应用时，需要让用户在浏览器里直接打开并操作大体量数据表，完成排序、筛选和公式重算。
+  job_en: Frontend engineers embedding table capability into a web app need users to open and manipulate
+    large data tables directly in the browser, completing sorting, filtering and formula recalculation.
+  pain: 公开材料只说明这是一个用 Rust/WASM 写的网页表格引擎，没有说明谁在什么场景下被哪一步卡住，也没有用户抱怨或替代行为的记录。
+  pain_en: The public material only says this is a web spreadsheet engine written in Rust/WASM; it does
+    not say who is blocked at which step in what scenario, and there is no record of user complaints or
+    substitute behaviour.
+  current_alternative: 常见旧做法是使用现成的网页表格组件库，或把数据放到服务端计算后回传；候选材料未给出与这些做法的对比。
+  current_alternative_en: The common old approach is to use an existing web table component library, or
+    compute on the server and send results back; the candidate material gives no comparison with these
+    approaches.
+  usage_reason: 推断：如果本地计算确实能减少服务端往返并支撑更大的表，前端工程师会在需要嵌入高性能表格、又不想自建计算层时选择它；但缺少采用、留存或付费证据，无法确认这一选择已经发生。
+  usage_reason_en: 'Inference: if local computation really cuts server round-trips and supports larger
+    tables, frontend engineers would choose it when they need to embed a high-performance table without
+    building a calculation layer themselves; but adoption, retention or payment evidence is missing, so
+    this choice cannot be confirmed as happening.'
+- id: req-full-titan-engine-2026-10-10
+  project_slug: titan-engine
+  level: full
+  reviewed_at: '2026-10-10T02:33:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决网页端大表在浏览器内完成计算与渲染的需求，痛点在于服务端往返延迟、并发成本与自建计算层的负担，不解决则前端团队要么牺牲表规模要么自建引擎；这是基于产品能力与旧流程的工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-f79824fdc031dcb8
+    - ev-16001dbb169809d6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有项目自述与英文生态早期信号，没有可归因到该项目的采用、评价或重复使用记录，共识卡在场景未被真实用户描述，无法判断是否形成强场景。
+    evidence_ids:
+    - ev-f79824fdc031dcb8
+    - ev-16001dbb169809d6
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业交付方式，买方与付费路径均未披露；钱可能来自 to B 的嵌入式授权或 to VC 的融资，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f79824fdc031dcb8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近表格工作的第一性目标，也未见性能实测、公式覆盖范围或安全边界说明，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-16001dbb169809d6
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它支持的数据规模、公式覆盖范围以及是否有真实项目在生产中嵌入使用。
+  market: ''
+  job: 前端工程师在把表格能力嵌进网页应用时，需要让用户在浏览器里直接打开并操作大体量数据表，完成排序、筛选与公式重算，而不必把每次重算都发回服务端。
+  job_en: Frontend engineers embedding table capability into a web app need users to open and manipulate
+    large data tables directly in the browser, completing sorting, filtering and formula recalculation
+    without sending every recalculation back to the server.
+  pain: 公开材料只说明这是用 Rust/WASM 写的网页表格引擎，未记录具体用户抱怨；但结构上，网页端大表若依赖服务端计算，会带来往返延迟、并发成本与离线不可用，前端团队要么自建计算层要么牺牲表规模，这是可推理的刚性负担。
+  pain_en: The public material only says this is a web spreadsheet engine written in Rust/WASM and records
+    no specific user complaints; structurally, however, large web tables that depend on server-side computation
+    incur round-trip latency, concurrency cost and offline unavailability, forcing frontend teams either
+    to build their own calculation layer or to cap table size — a rigid burden by inference.
+  current_alternative: 旧做法是使用现成的网页表格组件库（如 Handsontable、AG Grid 等），或把数据放到服务端计算后回传结果；候选材料未给出与这些做法的对比数据。
+  current_alternative_en: The old approach is to use an existing web table component library (e.g. Handsontable,
+    AG Grid) or to compute on the server and send results back; the candidate material gives no comparison
+    data against these approaches.
+  usage_reason: 推断：相较服务端计算或自建计算层，它把公式重算与渲染放到浏览器本地完成，省掉每次重算的服务端往返与并发扩容这一步负担，因此需要嵌入高性能表格、又不想自建计算层的前端工程师会在构建大表页面时选择它；但缺少采用、留存或付费证据，这一选择尚未被公开事实确认。
+  usage_reason_en: 'Inference: compared with server-side computation or building a calculation layer in-house,
+    it performs formula recalculation and rendering locally in the browser, removing the server round-trip
+    and concurrency scaling burden on every recalculation; frontend engineers who need to embed a high-performance
+    table without building a calculation layer would therefore choose it when building large-table pages
+    — but adoption, retention or payment evidence is missing, so this choice i'

@@ -304,3 +304,44 @@
   usage_reason_en: 'Inference: if it makes dictation a key-triggered standalone action it may cut input-method
     switching and misfires, but no concrete difference from OS dictation is given, so which users would
     choose it cannot be judged.'
+- id: req-full-blurt-2026-10-10
+  project_slug: blurt
+  level: full
+  reviewed_at: '2026-10-10T02:28:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决语音转文本的录入需求，但候选证据全部是词典释义、同名电影和泛化市场检索，没有任何产品页面、文档或用户反馈能说明它替代了哪一步旧工作、谁在什么场景下必须用它，痛点刚性无法判断。
+    evidence_ids:
+    - ev-2e6d2818cb73d7fe
+    - ev-7e56d59ef48f5120
+    - ev-0b28ae60356862ad
+    - ev-dd9d1301645bbb1c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Blurt 官方产品页或 公开代码仓库 仓库 README，确认其实际功能、支持场景与是否针对特定工作流。
+  market: ''
+  job: 文字工作者或客服、销售支持人员在写邮件、记录会议或整理工单时，需要把手上的语音快速变成可编辑文本。
+  job_en: Writers, support agents or sales staff need to turn spoken input into editable text while drafting
+    emails, taking notes or logging tickets.
+  pain: 打字速度慢于说话速度，长文本录入耗时；候选材料未给出任何用户抱怨或替代行为的证据。
+  pain_en: Typing is slower than speaking and long-form entry is time-consuming; the candidate material
+    provides no evidence of user complaints or workarounds.
+  current_alternative: 系统自带听写、手机语音输入法或人工打字。
+  current_alternative_en: Built-in OS dictation, mobile voice keyboards, or typing by hand.
+  usage_reason: 推断：相较系统听写，它把听写做成按键触发的独立动作，可能减少误触发和切换输入法的步骤，但材料未说明与系统听写相比的具体差异，因此哪类用户会因此选择它尚不清楚。
+  usage_reason_en: 'Inference: versus built-in dictation it makes dictation a key-triggered standalone
+    action, potentially reducing misfires and input-method switching, but the material does not state
+    any concrete difference from OS dictation, so which users would choose it remains unclear.'

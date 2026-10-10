@@ -76,3 +76,51 @@
   usage_reason: 用户要完成的任务是：运维与后端开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Operations and backend developers Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-pocketty-2026-10-10
+  project_slug: pocketty
+  level: full
+  reviewed_at: '2026-10-10T02:32:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是无人值守时 AI 代理卡住却无人知晓的问题：开发者离开电脑后无法得知代理被阻塞，任务静默停摆。公开说明确认产品是 iPhone SSH 终端并在代理被阻塞时提醒，旧做法是盯屏或手动连
+      SSH，均不主动告警。痛点与交付闭环可由工作流结构推理成立，但提醒方式与可执行操作仍属推断。
+    evidence_ids:
+    - ev-a63b0a9fc07a119d
+    - ev-0809cc10afaebd73
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品自述，未见开发者讨论、评价或部署范围等采用证据，无法判断是否形成持续使用或强场景共识；现有信号仅说明产品已发布，不足以支撑共识成立。
+    evidence_ids:
+    - ev-a63b0a9fc07a119d
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、收费方式或买方描述，无法判断是面向个人开发者的订阅还是团队采购；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-0809cc10afaebd73
+  - gate: truth
+    status: insufficient
+    reason: 提醒的触发机制、可执行操作与安全边界（如 SSH 凭据在手机上的存放）均未公开，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-a63b0a9fc07a119d
+  next_validation: 追踪 Pocketty 官网是否上线定价页或客户案例，并查看其 App Store 页面与开发者讨论，确认提醒机制、可执行操作与是否按订阅收费。
+  market: ''
+  job: 运维与后端开发者在离开电脑、只带 iPhone 的情况下，通过 SSH 连到自己的服务器查看正在运行的 AI 代理，并在代理卡住或被阻塞时收到提醒，以便决定是否回到终端处理。
+  job_en: An ops or backend developer away from a computer, using only an iPhone, SSHes into their own
+    server to check running AI agents and gets pinged when an agent is blocked, so they can decide whether
+    to return to a terminal.
+  pain: 长时运行的 AI 代理会在无人值守时卡在确认、权限或错误提示上，任务静默停摆；开发者若不在电脑前就无从得知，只能事后发现整段时间被浪费。
+  pain_en: Long-running AI agents stall on confirmations, permissions or errors while unattended, silently
+    halting the task; a developer away from a computer has no way to know until they discover the wasted
+    time afterwards.
+  current_alternative: 目前多靠留在电脑前盯终端、用通用 SSH 客户端（如 Termius、Blink）手动连上查看，或干脆等回到工位再排查；这些方式都不会主动告知代理被阻塞。
+  current_alternative_en: Today this is handled by staying at the desk watching the terminal, manually
+    connecting with generic SSH clients such as Termius or Blink, or simply waiting until back at the
+    workstation; none of these proactively tell you an agent is blocked.
+  usage_reason: 推断：相较通用 SSH 客户端需要用户主动连上并逐屏翻看，Pocketty 把“代理被阻塞”这一状态变成主动推送，用户不必持续盯屏或反复手动连接，只需在收到提醒时打开手机处理，因此适合离开工位但仍需照看长时代理任务的开发者。
+  usage_reason_en: 'Inference: unlike generic SSH clients that require the user to connect and scroll
+    through screens, Pocketty turns the ''agent is blocked'' state into a proactive ping, so the user
+    need not keep watching or repeatedly reconnect and only opens the phone when alerted; this suits developers
+    who leave the desk but still need to supervise long-running agent tasks.'

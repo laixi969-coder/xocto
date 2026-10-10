@@ -8,13 +8,21 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/global-fde/awesome-fde-resources
 canonical_url: https://github.com/global-fde/awesome-fde-resources
 summary: A curated collection of resources, tools, practices, case studies, and opportunities for Forward
   Deployed Engineers.
 first_seen: '2026-08-02T14:53:33Z'
 last_seen: '2026-08-22T22:38:00Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -25,6 +33,7 @@ sightings:
     stars: 200
     forks: 25
     open_issues: 0
+  kind: product
 ---
 
 # awesome-fde-resources

@@ -1,6 +1,6 @@
 ---
 slug: 从欧洲热销到ifa-获奖大疆romo-2-系列展现产品实力-ai云资讯
-name: 从欧洲热销到IFA 获奖，大疆ROMO 2 系列展现产品实力-AI云资讯
+name: 大疆 ROMO 2 系列
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2MENmam5lX29C
 summary: 从欧洲热销到IFA 获奖，大疆ROMO 2 系列展现产品实力-AI云资讯 www.icloudnews.net
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 从欧洲热销到IFA 获奖，大疆ROMO 2 系列展现产品实力-AI云资讯
+# 大疆 ROMO 2 系列
 
 从欧洲热销到IFA 获奖，大疆ROMO 2 系列展现产品实力-AI云资讯 www.icloudnews.net
 

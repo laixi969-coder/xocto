@@ -21,7 +21,7 @@ canonical_url: https://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-sh
 summary: Making a flexible "neon" t-shirt with LED filaments
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

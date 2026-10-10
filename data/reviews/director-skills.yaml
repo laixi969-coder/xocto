@@ -1,0 +1,41 @@
+- id: req-initial-director-skills-2026-10-10
+  project_slug: director-skills
+  level: initial
+  reviewed_at: '2026-08-22T22:38:00Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决脚本到分镜与提示词的整理需求，但公开材料只有一句定位，说不清原来谁在做、痛在哪，价值结构无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 46 星、5 次 fork 的仓库关注度，没有使用、留存或社区讨论证据，无法判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费方或商业路径，买方与收入来源均无公开信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近分镜工作的第一性目标、产出是否确定交付，安全与人工确认边界也未说明。
+    evidence_ids: []
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认技能的具体输入、执行步骤与产出示例，以及是否有使用者反馈。
+  market: ''
+  job: AI 视频创作者在拿到脚本后，需要把它拆成镜头清单、镜头语言与画面提示词，再交给生成模型出片。
+  job_en: After getting a script, an AI video creator needs to break it into a shot list, shot language
+    and visual prompts before handing it to a generation model.
+  pain: 候选资料只给出“面向 AI 视频创作的开源 Agent Skills”这一句描述，没有说明原来由谁、用什么方式、花多久完成分镜与提示词整理，也没有用户抱怨或替代行为的记录，痛点无法从公开事实还原。
+  pain_en: The candidate material only gives one line describing open-source Agent Skills for AI video
+    creation; it does not say who previously did the shot breakdown and prompt writing, with what tools,
+    or how long it took, and there is no record of user complaints or workarounds, so the pain cannot
+    be reconstructed from public facts.
+  current_alternative: 推断：创作者目前多靠手工写分镜文档、在通用对话助手里反复改提示词，或直接凭经验在生成工具里试镜头。
+  current_alternative_en: 'Inference: creators currently write shot documents by hand, iterate prompts
+    in general chat assistants, or try shots directly inside generation tools by experience.'
+  usage_reason: 推断：如果这些技能确实把导演经验固化成可复用的分镜与提示词步骤，创作者可以少写一遍分镜模板、少一轮提示词试错；但公开材料没有展示具体动作与产出，也没有用户反馈或案例支持这一动机，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if these skills really fix directing know-how into reusable shot-breakdown
+    and prompt steps, creators could skip rewriting a shot template and one round of prompt trial and
+    error; however, public material shows neither the concrete actions and outputs nor user feedback or
+    cases supporting this motive, so it cannot be confirmed that users would choose it for this reason.'

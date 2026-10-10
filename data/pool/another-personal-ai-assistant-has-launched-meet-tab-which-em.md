@@ -1,12 +1,15 @@
 ---
 slug: another-personal-ai-assistant-has-launched-meet-tab-which-em
-name: Another personal AI assistant has launched — Meet Tab, which emerged from stealth with a $300M valuation
+name: Tab
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 通用助手
+summary_zh: Tab 是一款面向个人的 AI 助手，用户可在日常事务中让它接收信息并代为处理任务；具体输入材料、执行动作与最终交付仍待核验。
+inspiration: 个人助手赛道正被高估值叙事推热，但通用入口已被大厂占据；切入更可能来自某个具体人群的固定事务，而非再做一个全能助手。
+summary_en: Tab is a personal AI assistant that users can direct at everyday tasks; the specific inputs,
+  actions and deliverables still need verification.
+inspiration_en: The personal assistant race is being heated by valuation narratives, yet generic entry
+  points are already held by large platforms; entry is more likely via a specific group's recurring tasks
+  than another all-purpose assistant.
 priority_review: false
 project_type: new_application
 industries: []
@@ -22,7 +25,7 @@ summary: Another personal AI assistant has launched — Meet Tab, which emerged 
   valuation TechCrunch
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:
@@ -33,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Another personal AI assistant has launched — Meet Tab, which emerged from stealth with a $300M valuation
+# Tab
 
 Another personal AI assistant has launched — Meet Tab, which emerged from stealth with a $300M valuation TechCrunch
 

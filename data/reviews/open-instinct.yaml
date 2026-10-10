@@ -1,0 +1,83 @@
+- id: req-initial-open-instinct-2026-10-10
+  project_slug: open-instinct
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决个人事务跨应用执行的需求，但材料未说明旧流程与不解决的后果，痛点无法还原。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，没有使用反馈、issue 讨论或采用案例，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+  - gate: model
+    status: insufficient
+    reason: 开源项目，买方与收费路径均未披露；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理执行任务的成功率与边界，也看不到人工确认与安全说明。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+  next_validation: 收集 open-instinct 仓库的 README 与 issue 讨论，确认它实际能完成的任务类型、执行环境与交付确认方式。
+  market: ''
+  job: 个人用户在手机上通过 iMessage 给个人代理发消息，让它在自己的一台计算机上执行任务，并与其他代理协作完成事项。
+  job_en: Individual users text a personal agent on iMessage so it executes tasks on its own computer
+    and coordinates with other agents to complete errands.
+  pain: 材料只有仓库简介，没有说明用户原来如何处理这些事务、卡在哪一步、不解决会失去什么，痛点无法还原。
+  pain_en: The material is only a repository blurb and does not say how users handled these tasks before,
+    where they got stuck, or what they lose by not solving it, so the pain cannot be reconstructed.
+  current_alternative: 候选未提供旧做法信息；按常识推断可能是用户自己在多个 App 间手动操作，但这是推断，不是材料事实。
+  current_alternative_en: The candidate gives no information on prior practice; by inference users may
+    have handled it manually across multiple apps, but this is inference, not a material fact.
+  usage_reason: 无法判断：材料未说明它相较手动跨应用操作减少了哪一步负担或改善了哪项可核对结果，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus manual cross-app
+    work or which checkable result it improves, so it cannot explain why users would choose it.'
+- id: req-full-open-instinct-2026-10-10
+  project_slug: open-instinct
+  level: full
+  reviewed_at: '2026-10-10T02:31:38Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决个人事务跨应用执行的需求，但公开材料只有仓库简介与星标，未还原旧流程、卡点与不解决的后果；手机端助手与快捷指令已覆盖同类随手任务，缺少刚性痛点，属自嗨拼凑。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 open-instinct 仓库 README 与 issue/discussion，确认它实际能完成的任务类型、执行环境、权限边界与交付确认方式，以及是否有用户反馈或采用案例。
+  market: ''
+  job: 个人用户在手机上通过 iMessage 给一个自托管个人代理发消息，让它在自己的计算机上执行任务，并与其他代理协作完成事项。
+  job_en: An individual user texts a self-hosted personal agent via iMessage so it executes tasks on its
+    own computer and coordinates with other agents to complete errands.
+  pain: 公开材料只有仓库简介与 280 星标，未说明用户原来如何处理这些事务、卡在哪一步、不解决会失去什么；从结构推理看，用户已有 Siri、ChatGPT 手机端、快捷指令等随手可用的替代，缺少必须换用自托管代理的刚性痛点。
+  pain_en: The public material is only a repository blurb plus 280 stars; it does not say how users handled
+    these tasks before, where they got stuck, or what they lose. Structurally, users already have Siri,
+    mobile ChatGPT, and Shortcuts at hand, so no rigid pain forces a switch to a self-hosted agent.
+  current_alternative: 手机端 AI 助手（Siri、ChatGPT App）、快捷指令，以及用户自己在多个 App 间手动操作；这些是公开可观察的既有做法，候选材料未提供任何旧流程描述。
+  current_alternative_en: Mobile AI assistants (Siri, ChatGPT app), Shortcuts, and manual cross-app operation;
+    these are publicly observable existing practices, while the candidate provides no description of any
+    prior workflow.
+  usage_reason: 推断：它把入口放在 iMessage 并给代理一台自己的计算机，理论上省去切换 App 与手动搬运上下文的一步；但材料未说明它相较手机端助手减少了哪一步可核对负担，也未给出任何用户反馈或案例，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: putting the entry point in iMessage and giving the agent its own computer
+    could remove a step of switching apps and manually moving context; but the material does not say which
+    checkable burden it removes versus mobile assistants, nor offers any user feedback or case, so it
+    cannot explain which users would choose it and when.'

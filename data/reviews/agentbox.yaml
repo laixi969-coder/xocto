@@ -320,3 +320,50 @@
   usage_reason_en: The public material gives no reason any user would choose it; the available evidence
     points to a same-named real-estate CRM and login pages unrelated to a command-line coding agent workspace,
     so no adoption rationale can be formed.
+- id: req-full-agentbox-2026-10-10
+  project_slug: agentbox
+  level: full
+  reviewed_at: '2026-10-10T02:27:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决命令行编码代理会话、容器、Git 改动与用量分散的问题，旧做法是手工终端加自写 Docker 脚本，痛点具体、不解决的后果可核对；这是从产品自述结构推出的工作流推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-de82c83218d60b2a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 141 星，属早期关注度，只能说明有人注意到该项目，不能证明团队已把它放进日常工作流；缺少 issue、discussion 或用户评价来显示持续使用。
+    evidence_ids:
+    - ev-de82c83218d60b2a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或付费路径，买方可能是自建环境的研发团队或自托管个人开发者，这是判断而非已验证事实；未发现融资叙事，也无每日优鲜式风险证据。
+    evidence_ids:
+    - ev-de82c83218d60b2a
+  - gate: truth
+    status: insufficient
+    reason: 自托管加容器隔离方向与代理执行审计的第一性目标一致，但缺少部署文档、issue 讨论或可复现实测来确认容器会话隔离与用量记录能否稳定交付。
+    evidence_ids:
+    - ev-de82c83218d60b2a
+  next_validation: 追踪该 公开代码仓库 仓库的 README/部署文档与 issue、discussion，确认容器会话隔离、Git 集成和用量记录是否可复现，以及是否有用户报告实际使用场景。
+  market: ''
+  job: 开发者在本地或服务器上运行 Claude Code、Codex CLI 等命令行编码代理时，需要把多个代理会话、容器环境、文件改动、Git 状态和用量记录放在同一处管理，以便随时回到某个会话继续工作或回溯改动。
+  job_en: Developers running command-line coding agents such as Claude Code and Codex CLI locally or on
+    a server need to manage multiple agent sessions, container environments, file changes, Git state and
+    usage records in one place, so they can resume a session or trace changes later.
+  pain: 代理在裸终端里跑，会话、容器、Git 改动和用量分散在 shell 历史与零散日志中，出问题难以回溯，换机器或换项目时环境难以复用；这是从产品自述的输入—动作—交付结构推出的痛点，公开材料未提供用户抱怨或采用数据。
+  pain_en: Agents run in a bare terminal, so sessions, containers, Git changes and usage are scattered
+    across shell history and loose logs; failures are hard to trace and environments are hard to reuse
+    across machines or projects. This pain is inferred from the product's stated input-action-delivery
+    structure; public materials provide no user complaints or adoption data.
+  current_alternative: 手工开终端、自己写 Docker 脚本做隔离、用 shell 历史或零散日志记录会话与用量，没有统一工作区。
+  current_alternative_en: Opening terminals by hand, writing ad-hoc Docker scripts for isolation, and
+    relying on shell history or scattered logs for sessions and usage, with no unified workspace.
+  usage_reason: 推断：相较手工终端加自写 Docker 脚本，它把容器会话、终端、文件和 Git 收进同一个浏览器界面并附带用量记录，省去开发者自己搭隔离环境、拼日志这一步，因此需要审计代理执行过程或跨机器复用环境的小团队会在这种场景下选择它；公开材料尚无用户反馈或客户案例证实这一动机。
+  usage_reason_en: 'Inference: compared with hand-rolled terminals plus ad-hoc Docker scripts, it puts
+    container sessions, terminal, files and Git into one browser interface with usage records, removing
+    the step of hand-building isolation and stitching logs, so small teams that need to audit agent execution
+    or reuse environments across machines would pick it in that situation; public materials contain no
+    user feedback or customer cases confirming this motive.'

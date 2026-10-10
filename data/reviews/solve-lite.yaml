@@ -227,3 +227,54 @@
     the model-conversion and device-adaptation step; developers whose data cannot leave the device but
     who still need continuous agent decisions would therefore pick it for offline deployment. The public
     material gives no verifiable deliverable or adoption feedback, so this is workflow-structure reasonin'
+- id: req-full-solve-lite-2026-10-10
+  project_slug: solve-lite
+  level: full
+  reviewed_at: '2026-10-10T02:32:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决离线或数据不能出本地时 agent 无法决策的问题：云端推理需联网且外传请求数据，无网或合规受限场景下 agent 不可用，开发者只能自行拼装本地推理链路。仓库说明给出 CoreML
+      本地执行、离线与安装配置，交付闭环可结构推理成立；但输入输出格式与人工确认环节公开材料未说明。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+    - ev-f3ae7914762850b0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 150 增至 219，说明有持续关注，但公开材料没有用户评价、issue 讨论或采用记录，无法判断是否形成使用共识；星标只属关注度证据，不能证明持续使用。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+    - ev-f3ae7914762850b0
+  - gate: model
+    status: insufficient
+    reason: 开源仓库，公开材料未披露定价、付费路径或买方类型，钱可能来自 to C 开发者或 to B 集成，但这是判断而非已验证事实；无融资叙事，不构成每日优鲜风险。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+  - gate: truth
+    status: insufficient
+    reason: 宣称的 18 种安装配置与 20 场景协议缺少第三方复现、部署文档或 issue 佐证，离线 CoreML 决策的实际输入输出与交付确定性无法核对，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-2f3b8b1ae797f929
+    - ev-ac5ceae028a18a87
+  next_validation: 追踪该仓库 README、部署文档与 issue/discussion，核对离线 CoreML 决策的实际输入输出格式、18 种安装配置与 20 场景协议是否可复现运行。
+  market: ''
+  job: 开发者在离线、内网或数据不能出本地的设备上部署 AI agent 时，需要让 agent 在设备端完成决策并返回结果，而不是把每次决策请求发往云端模型。
+  job_en: When developers deploy AI agents on offline, intranet, or data-residency-constrained devices,
+    they need the agent to make decisions on-device and return results instead of sending each decision
+    request to a cloud model.
+  pain: 云端推理要求网络连通并把请求数据传出设备，在无网、弱网或合规受限场景下 agent 直接不可用；开发者只能自行用本地推理框架拼装决策链路，这一步是重复且易错的负担。
+  pain_en: Cloud inference requires network connectivity and sends request data off-device, so agents
+    simply cannot run in offline, weak-network, or compliance-restricted settings; developers must hand-assemble
+    a local decision pipeline, a repetitive and error-prone burden.
+  current_alternative: 开发者自行用 CoreML 等本地推理框架拼接 agent 决策逻辑，或直接调用云端模型 API 并接受联网与数据外传前提。
+  current_alternative_en: Developers hand-assemble agent decision logic on local inference frameworks
+    such as CoreML, or call cloud model APIs directly and accept the connectivity and data-egress premise.
+  usage_reason: 推断：相较自行拼装本地推理链路，它把决策执行封装成可直接接入 agent 的本地运行时，并宣称提供 18 种安装配置与 20 场景协议，减少开发者从零搭建与调参的步骤；因此数据不能出本地、或需要在无网设备上跑
+    agent 的开发者会在该情况下选择它。公开材料未给出可核对的交付结果或采用反馈。
+  usage_reason_en: 'Inference: compared with hand-assembling a local inference pipeline, it packages decision
+    execution as a local runtime that agents can call directly, and claims 18 install profiles and a 20-scenario
+    protocol, cutting the steps of building and tuning from scratch; developers whose data cannot leave
+    the device, or who must run agents on offline hardware, would choose it in that situation. The public
+    material gives no verifiable deliverable or adoption feedback.'

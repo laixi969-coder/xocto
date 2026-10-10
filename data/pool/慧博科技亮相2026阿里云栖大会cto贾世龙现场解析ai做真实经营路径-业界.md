@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OYjZnQlltYVIx
 summary: 慧博科技亮相2026阿里云栖大会CTO贾世龙现场解析AI做真实经营路径- 业界 亿邦动力
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

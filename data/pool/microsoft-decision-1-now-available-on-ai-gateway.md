@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/microsoft-decision-1-now-available-o
 summary: ''
 first_seen: '2026-10-10T01:46:28Z'
 last_seen: '2026-10-10T01:46:28Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

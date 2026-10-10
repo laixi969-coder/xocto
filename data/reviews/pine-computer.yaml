@@ -1,0 +1,86 @@
+- id: req-initial-pine-computer-2026-10-10
+  project_slug: pine-computer
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它是给 AI 用的云端电脑，说不清谁在什么任务里用、替代哪一步旧工作、不解决会失去什么，需求与痛点均未成形。
+    evidence_ids:
+    - ev-226d4cdc4beb978a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，材料中没有用户评价、客户案例或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-226d4cdc4beb978a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，材料未披露定价、买方类型或任何收费路径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-226d4cdc4beb978a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，云端环境的安全边界、账号权限与人工确认环节均无材料可查。
+    evidence_ids:
+    - ev-226d4cdc4beb978a
+  next_validation: 收集该产品官方页面或文档，确认它面向哪类使用者、代理在云端实际执行哪些任务，以及是否披露定价或客户案例。
+  market: ''
+  job: 公开材料未说明具体使用者与场景；从定位推断，可能是需要让 AI 代理长时间运行任务的开发者或运营人员，在云端完成需要登录与安装的操作，但这一推断缺少材料支持。
+  job_en: The public material does not name a user or scenario; inferring from the positioning, it may
+    be developers or operators who need AI agents to run tasks for long stretches, performing operations
+    that require login and installation in the cloud, but this inference lacks material support.
+  pain: 代理任务常需要持续运行、登录账号和安装依赖，放在本机既占资源又难管理；但候选资料没有给出任何用户抱怨、替代做法或采用行为来证明这一痛点真实存在。
+  pain_en: Agent tasks often need long runtimes, account logins and installed dependencies, which are
+    resource-heavy and hard to manage on a local machine; yet the candidate material provides no user
+    complaint, workaround or adoption behaviour proving this pain is real.
+  current_alternative: 公开材料未提及替代方式；结构上可能的旧做法是本地脚本、自建服务器或通用云主机，均未被材料证实。
+  current_alternative_en: No alternative is mentioned; structurally the old way could be local scripts,
+    self-hosted servers or generic cloud instances, none confirmed by the material.
+  usage_reason: 无法给出因果解释：材料没有说明它相较自建环境减少了哪一步负担，也没有可核对的结果或用户反馈，无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    compared with a self-built environment, nor offers any checkable result or user feedback, so it is
+    unclear who would choose it and when.'
+- id: req-full-pine-computer-2026-10-10
+  project_slug: pine-computer
+  level: full
+  reviewed_at: '2026-10-10T02:31:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它是给 AI 用的云端电脑，说不清谁在什么任务里用、替代哪一步旧工作、不解决会失去什么，需求与痛点均未成形。
+    evidence_ids:
+    - ev-46790c0575449f2a
+    - ev-f98aa2b4bcff4f6d
+    - ev-5f188d17dd5218ed
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或文档，确认它面向哪类使用者、代理在云端实际执行哪些任务，以及是否披露定价或客户案例。
+  market: ''
+  job: 公开材料只给出“为 AI 执行任务而构建的云端电脑”一句定位，未说明谁在什么情况下、处理什么材料、要完成什么任务；无法还原具体使用者与工作流。
+  job_en: The public material offers only the positioning 'a cloud computer built for AI to get jobs done'
+    and does not say who, in what situation, handling what material, completes what task; no concrete
+    user or workflow can be reconstructed.
+  pain: 候选资料未给出任何用户抱怨、替代做法或采用行为，无法说明 AI 代理任务在本机运行时的具体痛点，痛点未成形。
+  pain_en: The candidate material provides no user complaint, workaround or adoption behaviour, so no
+    concrete pain of running AI agent tasks locally can be stated; the pain is unformed.
+  current_alternative: 公开材料未提及替代方式；结构上可能的旧做法是本地脚本、自建服务器或通用云主机，但均未被材料证实。
+  current_alternative_en: No alternative is mentioned; structurally the old way could be local scripts,
+    self-hosted servers or generic cloud instances, but none is confirmed by the material.
+  usage_reason: 无法给出因果解释：材料没有说明它相较自建环境减少哪一步负担，也没有可核对的结果或用户反馈，无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    versus a self-built environment, nor offers any checkable result or user feedback, so it is unclear
+    who would choose it and when.'

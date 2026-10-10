@@ -1,6 +1,6 @@
 ---
 slug: bmw-techworks-india-grows-ai-proficiency-nearly-9x-with-cour
-name: BMW TechWorks India grows AI proficiency nearly 9x with Coursera
+name: BMW TechWorks India
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE5UdTd5UHI3Q0Jp
 summary: BMW TechWorks India grows AI proficiency nearly 9x with Coursera Coursera
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# BMW TechWorks India grows AI proficiency nearly 9x with Coursera
+# BMW TechWorks India
 
 BMW TechWorks India grows AI proficiency nearly 9x with Coursera Coursera
 

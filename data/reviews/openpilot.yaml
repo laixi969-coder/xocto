@@ -1,0 +1,82 @@
+- id: req-initial-openpilot-2026-10-10
+  project_slug: openpilot
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法还原具体桌面任务、输入材料与交付结果，痛点强度与不采用后果均无材料支持。
+    evidence_ids:
+    - ev-ef7981216c61189b
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供采用、下载或讨论数据，无法判断是否有人持续使用。
+    evidence_ids:
+    - ev-ef7981216c61189b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、订阅或企业授权等付费路径的公开信息。
+    evidence_ids:
+    - ev-ef7981216c61189b
+  - gate: truth
+    status: insufficient
+    reason: 桌面代理涉及本地文件与系统操作，公开材料未说明权限边界与人工确认方式，交付确定性无法核对。
+    evidence_ids:
+    - ev-ef7981216c61189b
+  next_validation: 收集该项目的代码仓库与说明文档，确认支持的桌面操作范围、权限边界以及是否有外部用户报告实际使用。
+  market: ''
+  job: 需要在本地桌面上完成重复操作、又希望自选模型的用户，用桌面代理代替手工点击与复制粘贴。
+  job_en: Users who need repetitive desktop operations done locally and want to pick their own model use
+    a desktop agent instead of manual clicking and copy-pasting.
+  pain: 公开材料只有一句定位，没有说明具体哪类桌面任务、谁在做、现在多麻烦，也没有用户反馈。
+  pain_en: Public material gives only a one-line positioning; it does not say which desktop tasks, who
+    performs them, how painful it is now, or any user feedback.
+  current_alternative: 用户目前手工操作桌面软件，或使用绑定单一模型的桌面助手。
+  current_alternative_en: Users currently operate desktop software by hand, or use desktop assistants
+    tied to a single model.
+  usage_reason: 推断：自选模型可让用户按成本或合规要求挑模型，但公开材料未说明它替代了哪一步手工操作、支持哪些软件，因此选择理由无法确认。
+  usage_reason_en: 'Inference: model choice lets users pick by cost or compliance, but public material
+    does not say which manual step it replaces or which software it supports, so the choice reason cannot
+    be confirmed.'
+- id: req-full-openpilot-2026-10-10
+  project_slug: openpilot
+  level: full
+  reviewed_at: '2026-10-10T02:31:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅一句产品定位，未说明具体桌面任务、输入材料与交付结果，也无可引用的用户痛点或旧替代行为，连需求与痛点都无法写出，故价值关不成立。
+    evidence_ids:
+    - ev-ef7981216c61189b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OpenPilot 的官方仓库与说明文档，确认支持的桌面操作范围、权限边界，以及是否有外部用户报告实际使用。
+  market: ''
+  job: 公开材料只有一句“可自选模型的开源桌面 AI 代理”，未说明谁在什么情况下、处理什么桌面材料、要完成什么任务，无法还原具体使用场景。
+  job_en: Public material gives only one line, an open-source desktop AI agent for any model you choose;
+    it does not say who, in what situation, handling what desktop material, to complete what task, so
+    no concrete scenario can be reconstructed.
+  pain: 公开材料没有用户抱怨、workaround 或客户案例，无法说明手工操作桌面软件或绑定单一模型的具体代价与频率；定位句不能当作痛点证据。
+  pain_en: Public material contains no user complaints, workarounds or customer cases, so the cost and
+    frequency of manual desktop operation or single-model lock-in cannot be stated; a positioning line
+    is not pain evidence.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了哪一步旧做法。
+  current_alternative_en: Public material does not show how users complete this job today or which prior
+    step it actually replaces.
+  usage_reason: 无法判断：材料未说明它减少哪一步手工操作或改善哪项可核对结果，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which manual step it removes or which
+    checkable result it improves, so it cannot explain which users would choose it and when.'

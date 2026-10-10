@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/aleph-alpha-kolibri-mistral-chonk-fron
 summary: ''
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

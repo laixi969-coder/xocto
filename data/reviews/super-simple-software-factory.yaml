@@ -541,3 +541,55 @@
     to deterministic Python and bounds agents as nodes, removing the step of re-adjusting call order each
     run, so developers who need to reproduce the same agent workflow inside an existing repository would
     choose it in that situation; public material gives no user feedback, so this is structural reasoning.'
+- id: req-full-super-simple-software-factory-2026-10-10
+  project_slug: super-simple-software-factory
+  level: full
+  reviewed_at: '2026-10-10T02:33:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理执行顺序不稳定、流程无法固化为可重复资产这一需求，痛点在于每次重述步骤与人工核对中间产物；不解决的后果是同一任务结果不可复现、流程无法沉淀。公开材料仅有产品说明与仓库关注度，未量化返工代价，故痛点刚性属工作流结构推理而非实测。
+    evidence_ids:
+    - ev-7b7834e2b499224a
+    - ev-fc243b2eb8811649
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有仓库收藏数从199升至216的缓慢增长，属关注度而非持续采用；没有issue、discussion或用户评价说明谁在何种场景长期使用，也未显示替代了哪套旧流程，因此共识卡在感知与场景环节。
+    evidence_ids:
+    - ev-7b7834e2b499224a
+    - ev-20d90590271aa76e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断收入来自开发者个人、团队订阅还是企业采购；这是商业证据缺口，不反推问题不存在，但当前无法核验单位经济与可重复交付的收费路径。
+    evidence_ids:
+    - ev-b987b2349445e1cb
+    - ev-d82e9aaa1896d09c
+  - gate: truth
+    status: insufficient
+    reason: 产品说明称由确定性Python掌管图、代理为受约束节点，但公开材料未提供部署文档、可复现实测或人工确认与安全边界的说明，无法核验交付是否每次稳定发生，也无法确认代理越界时的处理方式。
+    evidence_ids:
+    - ev-7b7834e2b499224a
+    - ev-1de658a6c11f39c1
+  next_validation: 追踪该项目的官方仓库 README 与 issue/discussion，确认是否有开发者公开描述在真实仓库中部署该编排流程、替代了哪种旧做法，以及是否出现定价或付费相关页面。
+  market: ''
+  job: 开发者在已有代码仓库中，把多个编码代理的调用顺序、输入输出和重试规则固定成一条可重复运行的流程，处理的是仓库内代码与代理提示材料，要完成的是让同一套代理加代码工作流每次都能按同一图结构重跑。
+  job_en: Inside an existing repository, a developer fixes the call order, inputs/outputs and retry rules
+    of several coding agents into one repeatable pipeline, working on repo code and agent prompts so the
+    same agents-plus-code workflow re-runs along the same graph every time.
+  pain: 编码代理每次执行路径不稳定，同一任务两次结果不同，人工反复重述步骤、手工检查中间产物，流程无法沉淀为可复用资产；公开材料只给出产品说明与仓库关注度，未量化返工耗时，因此痛点强度属工作流结构推理。
+  pain_en: Coding agents take unstable paths, so the same task yields different results and developers
+    must restate steps and hand-check intermediate artifacts; the workflow never settles into a reusable
+    asset. Public material gives only product description and repo attention, so pain intensity is a workflow-structure
+    inference, not a measured fact.
+  current_alternative: 旧做法是开发者手动在会话里逐步提示代理、靠人记住顺序，或把零散脚本和提示词散落在仓库各处，每次重新拼装；公开材料未说明是否已有同类编排框架被替代。
+  current_alternative_en: The old way is to prompt agents step by step in a session, rely on human memory
+    for ordering, or scatter ad-hoc scripts and prompts across the repo and reassemble them each time;
+    public material does not show which comparable orchestration framework, if any, is being replaced.
+  usage_reason: 推断：相较手工逐步提示，它把编排权交给确定性 Python 图，代理只作为受约束节点执行单步，从而省去每次重述顺序和人工核对中间状态这一步，并让流程可被重复运行；因此会在需要同一代理流程反复跑、且要求结果可复现的开发者场景中被选择。公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus manual step-by-step prompting, it hands orchestration to a deterministic
+    Python graph and keeps agents as bounded single-step nodes, removing the need to restate ordering
+    and hand-verify intermediate state each run and making the pipeline re-runnable; it would therefore
+    be chosen by developers who must run the same agent pipeline repeatedly and need reproducible results.
+    Public material has no user feedback or case confirming this motive.'

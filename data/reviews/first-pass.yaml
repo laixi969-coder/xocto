@@ -508,3 +508,55 @@
     questions, review by someone who did not write the code, and proof-of-done into fixed actions inside
     Claude Code, reducing the burden on engineers to reason through impact themselves before commit; inferred
     to attract engineers already using Claude Code who worry about AI change blind spots.
+- id: req-full-first-pass-2026-10-10
+  project_slug: first-pass
+  level: full
+  reviewed_at: '2026-10-10T02:30:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 只改所写行、不看改动影响范围导致漏改与假完成的问题；公开仓库说明给出十问、非作者复核、完成证据的输入—动作—交付闭环，痛点刚性来自回归缺陷后果，属工作流结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-57dadc274a2cc89c
+    - ev-fa336c5605612f26
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 103 增至 111 后又回落至 92、94，说明有开发者关注并试用，但收藏与波动只属关注度证据，缺少 issue、discussion 或评价证明它被持续留在提交前工作流中。
+    evidence_ids:
+    - ev-57dadc274a2cc89c
+    - ev-401cd16baae82b38
+    - ev-4d37b39e0fd84a90
+    - ev-c2f892f90ddf9899
+  - gate: model
+    status: insufficient
+    reason: 这是开源规则集，公开材料未见定价页、付费主体或单位经济；钱可能来自个人开发者自用或团队内部采纳，属判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-57dadc274a2cc89c
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺十问、非作者复核与完成证据，但未见部署文档、可复现实测或 issue 记录证明这些检查在真实仓库中稳定触发，人工与安全边界也缺公开材料。
+    evidence_ids:
+    - ev-fa336c5605612f26
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有开发者报告在真实提交前流程中启用并复现十问、非作者复核与完成证据。
+  market: ''
+  job: 使用 Claude Code 的软件工程师在提交改动前，把仓库上下文交给这套规则集，让模型先回答十个关于改动影响范围的问题、由未参与编写的审查角色复核、并给出完成证据后才结束，最终由人决定是否合并。
+  job_en: Software engineers using Claude Code, before committing a change, run this rule set so the model
+    first answers ten questions about the change's blast radius, a reviewer that did not write the code
+    re-checks it, and completion evidence is produced before the task ends; the human still decides whether
+    to merge.
+  pain: 公开仓库说明指向的痛点是：AI 只盯着它写的那几行，不看改动波及的调用方、边界与回归面，导致漏改、假完成和同类 bug 反复出现；不解决的后果是审查成本转移到人工，且缺陷以类而非单点形式复发。
+  pain_en: 'The public repository description points to a real pain: the AI looks only at the lines it
+    writes, not at callers, boundaries and regression surface, producing missed edits, false ''done''
+    claims and recurring bug classes; the cost of not solving it shifts review burden onto humans and
+    lets defects recur as a class rather than a single instance.'
+  current_alternative: 当前替代方式是工程师自己逐条提示模型、人工通读 diff 并凭经验判断是否漏改，或依赖通用 code review 流程；这些做法没有把“先问影响范围、由非作者复核、给出完成证据”固化成可重复的检查。
+  current_alternative_en: Today engineers hand-prompt the model, manually read the diff and judge by experience
+    whether anything was missed, or rely on generic code review; none of these codify 'ask blast-radius
+    questions first, have a non-author review, produce completion evidence' as a repeatable check.
+  usage_reason: 推断：相较逐条提示加人工通读，这套规则把检查前置为固定十问、把复核交给未参与编写的角色、并要求完成证据，从而减少“模型自称完成但实际漏改”这一步返工；因此在意 AI 改动回归面的工程师会在提交前采用它。
+  usage_reason_en: 'Inference: versus ad-hoc prompting plus manual diff reading, this rule set front-loads
+    a fixed ten-question check, assigns review to a non-author role, and requires completion evidence,
+    cutting the rework step where the model claims done but missed edits; engineers who care about AI-change
+    regression surface would adopt it before committing.'

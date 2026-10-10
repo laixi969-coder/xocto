@@ -1,0 +1,84 @@
+- id: req-initial-assist-2-2026-10-10
+  project_slug: assist-2
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决不打断当前操作即可查问的需求，痛点是切窗口与搬运上下文；具体输入范围与交付仍待核验。
+    evidence_ids:
+    - ev-54f634f3d23172e8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，无采用、评价或持续使用证据。
+    evidence_ids:
+    - ev-54f634f3d23172e8
+  - gate: model
+    status: insufficient
+    reason: 未见定价页与买方信息，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-54f634f3d23172e8
+  - gate: truth
+    status: insufficient
+    reason: 能否稳定读取前台内容、权限与隐私边界如何，公开材料未说明。
+    evidence_ids:
+    - ev-54f634f3d23172e8
+  next_validation: 收集该产品官方页面的定价与权限说明，确认它读取哪些前台内容以及交付结果形态。
+  market: ''
+  job: MacBook 用户在任意应用前台工作时，通过刘海区域唤起助手处理当前屏幕或输入内容，完成问答或操作。
+  job_en: MacBook users invoking an assistant from the notch while working in any foreground app, to handle
+    on-screen or typed content for Q&A or actions.
+  pain: 切换窗口或复制内容到独立助手会打断当前操作，上下文需要反复搬运。
+  pain_en: Switching windows or copying content into a separate assistant interrupts the current task
+    and forces repeated context shuttling.
+  current_alternative: 在浏览器或独立聊天窗口与当前应用之间来回切换、手动复制粘贴。
+  current_alternative_en: Switching back and forth between a browser or standalone chat window and the
+    current app, copying and pasting by hand.
+  usage_reason: 推断：相较切窗口再粘贴，它把唤起点放在常驻的刘海位置，省去切换与搬运上下文这一步；因此对长时间在单一应用内工作、需要即时查问的人有吸引力。
+  usage_reason_en: 'Inference: versus switching windows and pasting, it puts invocation in the always-present
+    notch, removing the switch-and-carry-context step; that appeals to people who work long stretches
+    inside one app and need instant lookups.'
+- id: req-full-assist-2-2026-10-10
+  project_slug: assist-2
+  level: full
+  reviewed_at: '2026-10-10T02:28:18Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部是词典释义与美军 ASSIST 文档检索系统，与 MacBook 刘海助手无关，无法还原用户任务、痛点、替代方式与不解决的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-8fa956f0aa0e8e7b
+    - ev-971183bd69b90f34
+    - ev-bbbda9f0eae87993
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官方页面（产品说明、定价与权限/隐私文档），确认它读取哪些前台内容、交付结果形态与收费方式。
+  market: ''
+  job: MacBook 用户在任意应用前台工作时，从屏幕刘海区域唤起助手，处理当前屏幕或输入内容，完成问答或操作。
+  job_en: MacBook users invoking an assistant from the screen notch while working in any foreground app,
+    to handle on-screen or typed content for Q&A or actions.
+  pain: 公开材料未提供任何用户痛点证据：现有证据全部是词典释义与美军 ASSIST 文档检索系统，与 MacBook 刘海助手无关，无法说明谁在什么情况下难受。
+  pain_en: 'No user-pain evidence exists in the public material: all evidence is dictionary definitions
+    and a US military ASSIST document search system, unrelated to a MacBook notch assistant, so it cannot
+    show who suffers and when.'
+  current_alternative: 无可用证据说明用户当前如何绕过该问题；无法确认替代方式是切窗口、复制粘贴还是根本不做。
+  current_alternative_en: No usable evidence shows how users currently work around this; it is unknown
+    whether the alternative is window switching, copy-paste, or simply not doing it.
+  usage_reason: 无法给出使用理由：证据中没有产品页面、功能说明、用户反馈或案例，无法说明相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: the evidence contains no product page, feature description,
+    user feedback, or case, so it cannot show which step is removed versus the old way, nor which users
+    would choose it and when.'

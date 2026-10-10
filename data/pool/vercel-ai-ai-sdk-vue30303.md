@@ -22,7 +22,7 @@ summary: "### Patch Changes\n\n- Updated dependencies [c0350be]\n- Updated depen
   \ dependencies [8444abe]\n  - ai@6.0.303"
 first_seen: '2026-10-10T01:46:04Z'
 last_seen: '2026-10-10T01:46:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

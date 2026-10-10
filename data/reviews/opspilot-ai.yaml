@@ -80,3 +80,53 @@
   usage_reason_en: 'The task is: Operations or project owners reviewing meeting notes, follow-up tasks
     and risks after meetings need to consolidate scattered records into trackable items Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-opspilot-ai-2026-10-10
+  project_slug: opspilot-ai
+  level: full
+  reviewed_at: '2026-10-10T02:31:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会后决议、待办与风险散落在文档、任务工具和聊天记录中、需人工汇总成可追踪条目的需求；痛点在于漏项与跟进回查成本。仓库自述功能清单可还原输入—动作—交付闭环，属工作流结构推理；但无用户抱怨或采用证据，痛点强度未量化。
+    evidence_ids:
+    - ev-67645a720b40eecb
+    - ev-270c51915e937853
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录为 44 至 51 个收藏，说明开发者社区已注意到该项目，但收藏属关注度而非持续采用；没有 issue、discussion 或用户反馈显示目标运营或项目负责人已把它留在会后工作流中。
+    evidence_ids:
+    - ev-67645a720b40eecb
+    - ev-270c51915e937853
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费主体或单位经济，无法判断钱来自 to C、to B 还是 to VC；这是商业证据缺口，不反推问题不存在，但付费路径尚未核验。
+    evidence_ids:
+    - ev-67645a720b40eecb
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述覆盖会议、知识、决策、任务、风险与组织记忆，但公开材料未说明具体输入材料、执行动作与产出交付，也未给出部署文档或可复现实测，交付能否确定性发生尚不可核验。
+    evidence_ids:
+    - ev-67645a720b40eecb
+    - ev-270c51915e937853
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认它接收的输入材料、执行动作与产出交付，以及是否有真实团队部署记录。
+  market: ''
+  job: 运营或项目负责人在会后处理会议记录、聊天记录与任务工具中的分散条目时，需要把决议、待办与风险汇总成可追踪、可交接的条目并持续跟进。
+  job_en: Operations or project owners, after meetings, working from scattered meeting notes, chat logs
+    and task tools, need to consolidate decisions, action items and risks into trackable, handover-ready
+    entries and keep following them up.
+  pain: 公开材料只给出仓库自述的功能清单，未展示用户抱怨、不采用代价或频率；从工作流结构推理，会后信息散落在文档、任务工具与聊天记录中，人工汇总易漏项、责任人与截止时间不清，跟进时需反复回查原始记录。
+  pain_en: Public materials only give the repository's own feature list, with no user complaints, cost
+    of inaction or frequency; by workflow inference, post-meeting information is scattered across documents,
+    task tools and chat logs, so manual consolidation drops items, blurs owners and deadlines, and follow-up
+    requires re-reading source records.
+  current_alternative: 当前替代方式为人工在文档、任务工具与聊天记录之间复制粘贴汇总，或使用会议纪要工具加独立任务看板拼接流程；公开材料未说明它具体替代了哪一套。
+  current_alternative_en: The current alternative is manual copy-paste consolidation across documents,
+    task tools and chat logs, or a stitched flow of a meeting-notes tool plus a separate task board; public
+    materials do not say which stack it replaces.
+  usage_reason: 推断：相较手工跨工具汇总，它把会议、知识、决策、任务与风险放进同一工作台，可能减少在多个工具间搬运和回查记录这一步；但公开材料未说明输入材料、执行动作与产出交付，因此哪类用户会在什么情况下选择它仍属推断。
+  usage_reason_en: 'Inference: versus manual cross-tool consolidation, it puts meetings, knowledge, decisions,
+    tasks and risks in one workspace, potentially removing the step of shuttling and re-checking records
+    across tools; however, public materials do not describe inputs, actions or outputs, so which users
+    choose it and when remains an inference.'

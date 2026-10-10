@@ -1,0 +1,42 @@
+- id: req-initial-te-speed-minimaxh3-oss-2026-10-10
+  project_slug: te-speed-minimaxh3-oss
+  level: initial
+  reviewed_at: '2026-08-23T14:11:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决本地推理重复计算导致的等待，但公开材料未给出旧流程耗时或替代步骤，痛点无法判断。
+    evidence_ids:
+    - ev-691f52c7cc044ced
+  - gate: consensus
+    status: insufficient
+    reason: 269 个星标只说明关注度，不能证明用户已把它长期用于生产生成流程。
+    evidence_ids:
+    - ev-691f52c7cc044ced
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露任何收费、赞助或商业交付路径，买方完全未知。
+    evidence_ids:
+    - ev-691f52c7cc044ced
+  - gate: truth
+    status: insufficient
+    reason: 无法确认缓存是否影响生成结果一致性，也未说明与模型官方推理链路的兼容边界。
+    evidence_ids:
+    - ev-691f52c7cc044ced
+  next_validation: 收集该仓库的 README、release 说明与 issue，确认它加速的具体推理环节、实测收益与兼容的部署环境。
+  market: ''
+  job: 本地部署 MiniMax-H3 的用户在批量生成内容时，通过缓存插件减少重复计算，缩短单次生成的等待时间。
+  job_en: Users running MiniMax-H3 locally use a caching plugin during batch generation to cut repeated
+    computation and shorten per-run waiting time.
+  pain: 公开材料只有一句插件描述，没有说明原来等待多久、重复计算占比多少，痛点强度无法还原。
+  pain_en: Public material is a single plugin description with no data on prior waiting time or the share
+    of repeated computation, so pain intensity cannot be reconstructed.
+  current_alternative: 用户目前靠升级显卡、调低精度或减少批量规模来压缩生成时间。
+  current_alternative_en: Users currently compress generation time by upgrading GPUs, lowering precision
+    or shrinking batch size.
+  usage_reason: 推断：若缓存能在不改变输出质量的前提下跳过重复计算，用户可省去升级硬件或降精度这一步，因此本地跑批量生成的用户可能采用；但缺少实测数据与用户反馈，无法确认收益。
+  usage_reason_en: 'Inference: if caching skips repeated computation without changing output quality,
+    users avoid upgrading hardware or lowering precision, so local batch generators may adopt it; without
+    benchmarks or user feedback the gain cannot be confirmed.'

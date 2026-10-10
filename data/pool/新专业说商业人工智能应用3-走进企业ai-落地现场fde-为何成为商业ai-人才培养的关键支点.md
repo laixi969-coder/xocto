@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PWXRBWXBfV3NO
 summary: 新专业说·商业人工智能应用③｜走进企业AI 落地现场：FDE 为何成为商业AI 人才培养的关键支点？ 同花顺财经
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

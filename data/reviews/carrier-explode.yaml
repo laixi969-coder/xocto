@@ -1,0 +1,84 @@
+- id: req-initial-carrier-explode-2026-10-10
+  project_slug: carrier-explode
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是运营商配置难解读、排查靠试错的问题，痛点具体；但材料只有一句“解码”，说不清输入、动作与交付，价值结构尚不完整。
+    evidence_ids:
+    - ev-8e557991aa08884c
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有一定热度，但没有任何采用、复购或付费证据，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-8e557991aa08884c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是判断而非已验证事实；可能的付费方是运营商客服外包或维修服务商。
+    evidence_ids:
+    - ev-8e557991aa08884c
+  - gate: truth
+    status: insufficient
+    reason: 配置解读若出错会直接导致断网，承诺能否确定性交付、是否需人工复核均未说明。
+    evidence_ids:
+    - ev-8e557991aa08884c
+  next_validation: 抓取该产品官网的说明页或文档，确认它接收的输入格式、输出结论形式以及是否标注人工复核环节。
+  market: ''
+  job: 手机用户或维修人员在换卡、漫游或信号异常时，处理运营商配置文件与机型设置项，要判断该改哪一项。
+  job_en: Phone users or repair technicians handling carrier configuration files and device settings when
+    swapping SIMs, roaming or debugging signal issues, to decide which setting to change.
+  pain: 运营商配置项命名晦涩、机型差异大，出错会导致无法上网或通话，排查靠反复试错。
+  pain_en: Carrier settings are obscurely named and vary by device; a wrong change breaks data or calls,
+    and troubleshooting is trial and error.
+  current_alternative: 在论坛帖、运营商客服和机型社区里翻找零散答案，或直接恢复出厂设置。
+  current_alternative_en: Digging through forum threads, carrier support and device communities for scattered
+    answers, or resetting the device.
+  usage_reason: 推断：若它能把配置文件直接翻译成“这台机器该改哪一项”，用户可省去在多个论坛帖之间比对机型与运营商组合的步骤；但候选材料未说明输出形式与准确性，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it translates the configuration file into ''which setting to change
+    on this handset'', users skip cross-checking device and carrier combinations across forum threads;
+    the material does not describe the output format or accuracy, so selection behaviour cannot yet be
+    confirmed.'
+- id: req-full-carrier-explode-2026-10-10
+  project_slug: carrier-explode
+  level: full
+  reviewed_at: '2026-10-10T02:29:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决运营商配置难解读、排查靠试错的问题，痛点具体且改错会断网；但公开材料只有一句“解码”，说不清输入什么、输出什么结论、人工是否复核，价值结构无法闭合。
+    evidence_ids:
+    - ev-8e557991aa08884c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 carrierexplode.com 官网说明页或文档，确认它接收的输入格式、输出的结论形式以及是否标注人工复核环节。
+  market: ''
+  job: 手机用户或维修人员在换卡、漫游或信号异常时，处理 iPhone、Pixel、Galaxy 的运营商配置文件与设置项，要判断该改哪一项。
+  job_en: Phone users or repair technicians handling carrier configuration files and settings on iPhone,
+    Pixel and Galaxy when swapping SIMs, roaming or debugging signal issues, to decide which setting to
+    change.
+  pain: 运营商配置项命名晦涩、机型与运营商组合差异大，改错会导致无法上网或通话，排查只能反复试错。
+  pain_en: Carrier settings are obscurely named and vary by device and carrier combination; a wrong change
+    breaks data or calls, and troubleshooting is trial and error.
+  current_alternative: 在论坛帖、运营商客服和机型社区里翻找零散答案，或直接恢复出厂设置。
+  current_alternative_en: Digging through forum threads, carrier support and device communities for scattered
+    answers, or resetting the device.
+  usage_reason: 推断：若它能把配置文件直接翻译成“这台机器该改哪一项”，用户可省去在多个论坛帖之间比对机型与运营商组合的步骤；但公开材料只有一句“解码”，未说明输入格式、输出结论与准确性，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it translates the configuration file into ''which setting to change
+    on this handset'', users skip cross-checking device and carrier combinations across forum threads;
+    the public material only says ''decoded'' and gives no input format, output form or accuracy, so selection
+    behaviour cannot be confirmed.'

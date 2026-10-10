@@ -1,0 +1,43 @@
+- id: req-initial-sloptrim-2026-10-10
+  project_slug: sloptrim
+  level: initial
+  reviewed_at: '2026-08-31T00:37:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理批量写稿后无人逐句把关的问题，痛点是不检查就要返工，旧做法是人工抽读或联网检测，结构上成立。
+    evidence_ids:
+    - ev-a43ebe8fdbe81114
+  - gate: consensus
+    status: insufficient
+    reason: 205 星与 17 次 fork 只说明有开发者关注，没有用户评价或团队采用证据，无法判断是否进入日常流程。
+    evidence_ids:
+    - ev-a43ebe8fdbe81114
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或商业路径，买方与收费方式不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a43ebe8fdbe81114
+  - gate: truth
+    status: insufficient
+    reason: 规则式打分是否贴近真实写作质量、误报率多高，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-a43ebe8fdbe81114
+  next_validation: 收集该仓库的 README 与 issue，确认评分规则、误报反馈以及是否被团队用于发布前检查。
+  market: ''
+  job: 内容或工程团队在代理批量写入文稿后，需要判断哪些段落带有 AI 写作套路，于是让 sloptrim 在本地扫描每个文本文件并给出评分，用于决定哪些稿子需要人工重写。
+  job_en: After agents write prose in bulk, a content or engineering team needs to know which passages
+    carry AI-writing patterns, so sloptrim scans each text file locally and returns a score to decide
+    what needs human rewriting.
+  pain: 代理产出的文字量大且腔调雷同，人工逐篇通读成本高，等到发布后被发现是机器稿才返工，代价更大。
+  pain_en: Agent output is voluminous and uniform in tone; reading every piece by hand is costly, and
+    discovering the machine-written feel after publishing forces expensive rework.
+  current_alternative: 现在靠人工抽读、凭经验判断，或用联网的 AI 检测服务，但后者要上传文本、结果也不稳定。
+  current_alternative_en: Today teams skim by hand, judge by experience, or use online AI-detection services
+    that require uploading text and give unstable results.
+  usage_reason: 推断：相较上传到联网检测服务或人工抽读，它在本地对每个保存的文件即时打分，省掉上传与等待这一步，因此在意稿件外发风险的团队会在保存环节用它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus uploading to an online detector or skimming by hand, it scores each
+    saved file locally and instantly, removing the upload-and-wait step, so teams worried about outbound
+    copy would use it at save time; no retention or repeat-use evidence yet.'

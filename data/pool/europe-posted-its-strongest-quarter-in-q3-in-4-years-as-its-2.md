@@ -23,7 +23,7 @@ summary: Europe Posted Its Strongest Quarter In Q3 In 4 Years, As Its Venture Ec
   The UK Crunchbase News
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

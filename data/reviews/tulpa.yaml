@@ -131,3 +131,45 @@
     logs into a searchable, reminder-capable memory layer, removing the per-message scrolling and manual
     logging step, so people chasing leads daily would try it; public material shows only repo stars, with
     no retention or repeat-use evidence, so long-term workflow adoption cannot be claimed.'
+- id: req-full-tulpa-2026-10-10
+  project_slug: tulpa
+  level: full
+  reviewed_at: '2026-10-10T02:33:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决 QQ/微信聊天记录分散、跟进靠记忆的问题，但全部证据均为同名超自然概念条目，无一条描述该产品的用户任务、痛点或旧替代行为，需求与痛点无法从公开事实还原。
+    evidence_ids:
+    - ev-e8179a883deb00fb
+    - ev-3efe6177cf0199f1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或发布页（如 公开代码仓库 README、release notes、issue/discussion），确认其真实产品定位、输入输出流程与用户使用报告，以替换当前全部指向同名超自然概念的证据。
+  market: ''
+  job: 在 Windows 上同时用 QQ 和微信处理大量往来消息的人（如销售、招聘、社群运营），需要从两个客户端的本地聊天记录中检索历史信息、识别待跟进对象并保留可查工作区。
+  job_en: People handling heavy QQ and WeChat traffic on Windows (sales, recruiters, community operators)
+    need to search local chat history across both clients, identify who is owed a follow-up, and keep
+    a searchable workspace.
+  pain: 公开证据中没有任何一条描述该产品用户的具体痛点，现有材料全部是关于同名超自然概念（tulpa）的百科与社区条目，无法确认聊天记录分散、跟进遗漏等痛点是否真实存在。
+  pain_en: No public evidence describes this product's users' pain; all collected material concerns the
+    supernatural concept 'tulpa', so it cannot confirm whether scattered chat logs or missed follow-ups
+    are real pains.
+  current_alternative: 公开材料未提供任何关于用户当前如何管理 QQ/微信聊天记录的替代方式证据。
+  current_alternative_en: Public material provides no evidence of how users currently manage QQ/WeChat
+    chat records.
+  usage_reason: 无法判断：现有证据全部指向同名超自然概念，没有任何关于该 Agent 工具的用户反馈、案例或使用动机，因此不能说明哪类用户会因何种具体动作选择它。
+  usage_reason_en: 'Cannot be determined: all evidence points to the supernatural concept of the same
+    name, with no user feedback, cases, or usage motivation for this agent tool, so no user segment or
+    concrete reason for choosing it can be stated.'

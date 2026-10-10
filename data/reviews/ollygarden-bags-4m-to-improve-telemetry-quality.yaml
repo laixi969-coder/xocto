@@ -1,0 +1,93 @@
+- id: req-initial-ollygarden-bags-4m-to-improve-telemetry-quality-2026-10-10
+  project_slug: ollygarden-bags-4m-to-improve-telemetry-quality
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决遥测数据不可靠、冗余推高成本且淹没排障信息的需求，痛点是持续付费买垃圾数据；公开材料已能还原旧流程与交付，属工作流推理。
+    evidence_ids:
+    - ev-99806556f5593652
+  - gate: consensus
+    status: insufficient
+    reason: Datadog、Grafana Labs、Dash0 战略投资说明后端厂商认可这一层，但公开材料没有客户名单、部署规模或持续采用数据。
+    evidence_ids:
+    - ev-99806556f5593652
+  - gate: model
+    status: insufficient
+    reason: 买方是工程团队的可观测性预算，但公开材料未披露定价页或按什么计价，收入路径是判断而非已验证事实。
+    evidence_ids:
+    - ev-99806556f5593652
+  - gate: truth
+    status: insufficient
+    reason: 「最高削减 85% 日志量」是公司自述，缺少可复现的第三方实测或客户案例细节，交付确定性仍待核验。
+    evidence_ids:
+    - ev-99806556f5593652
+  next_validation: 收集 OllyGarden 官方定价页或公开客户案例，确认按什么计价以及是否有可核验的日志量削减结果。
+  market: ''
+  job: 可观测性工程师在日志与追踪量失控、后端账单上涨时，处理 OpenTelemetry 埋点与遥测数据，要完成埋点精简与数据质量修复。
+  job_en: Observability engineers, when log and trace volume runs away and backend bills rise, work on
+    OpenTelemetry instrumentation and telemetry to slim instrumentation and repair data quality.
+  pain: 不可靠和冗余遥测推高存储与处理成本，也让工程师和 AI agent 更难找到相关信息；不处理的后果是持续付费买垃圾数据，排障时间被噪声吞掉。
+  pain_en: Unreliable and redundant telemetry inflates storage and processing cost and makes it harder
+    for engineers and AI agents to find relevant information; not fixing it means paying continuously
+    for junk data while noise eats troubleshooting time.
+  current_alternative: 靠人工审查埋点、采样率配置、日志级别调整，或直接购买更贵的可观测性后端容量来兜住数据量。
+  current_alternative_en: Manual instrumentation review, sampling-rate and log-level tuning, or simply
+    buying more capacity from a pricier observability backend to absorb the volume.
+  usage_reason: 相较人工逐条审查埋点，它持续评估遥测质量并在源头生成修复，把「先发现哪段埋点有问题」这一步从人工排查变成自动定位，因此自建 OpenTelemetry、后端账单敏感的中型工程团队会在日志量失控时选择它；这是基于产品能力的推断，尚无公开留存或复购证据。
+  usage_reason_en: Compared with manually reviewing instrumentation line by line, it continuously assesses
+    telemetry quality and generates fixes at the source, turning 'find which instrumentation is broken'
+    from manual triage into automatic location, so mid-sized teams running their own OpenTelemetry and
+    sensitive to backend bills would pick it when log volume runs away; this is inference from product
+    capability, with no public retention or repeat-use evidence yet.
+- id: req-full-ollygarden-bags-4m-to-improve-telemetry-quality-2026-10-10
+  project_slug: ollygarden-bags-4m-to-improve-telemetry-quality
+  level: full
+  reviewed_at: '2026-10-10T02:31:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决遥测数据不可靠、冗余推高成本且淹没排障信息的需求，痛点是持续付费买垃圾数据；官网与文档已能还原旧流程与交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-a3c914ee192714f8
+    - ev-4bf95e67b7a91c7a
+  - gate: consensus
+    status: insufficient
+    reason: Datadog、Grafana Labs、Dash0 战略投资说明后端厂商认可这一层，但公开材料没有客户名单、部署规模或持续采用数据，无法判断工程师是否已把它留在工作流。
+    evidence_ids:
+    - ev-a3c914ee192714f8
+  - gate: model
+    status: insufficient
+    reason: 买方应是工程团队的可观测性预算，但公开材料未披露定价页或计价方式，收入路径是判断而非已验证事实。
+    evidence_ids:
+    - ev-a3c914ee192714f8
+    - ev-4bf95e67b7a91c7a
+  - gate: truth
+    status: insufficient
+    reason: 「最高削减 85% 日志量」是公司自述，缺少可复现的第三方实测或客户案例细节，源头修复的交付确定性仍待核验。
+    evidence_ids:
+    - ev-a3c914ee192714f8
+  next_validation: 追踪 OllyGarden 官方定价页或公开客户案例，确认按什么计价以及是否有可核验的日志量削减结果。
+  market: ''
+  job: 可观测性工程师在日志与追踪数据量失控、后端存储与处理账单上涨时，处理已有的 OpenTelemetry 埋点与遥测数据，要完成埋点精简、数据质量修复，让可靠数据进入后端。
+  job_en: Observability engineers, when log and trace volume runs away and backend storage and processing
+    bills climb, work on existing OpenTelemetry instrumentation and telemetry to slim instrumentation
+    and repair data quality so reliable data reaches the backend.
+  pain: 公开材料指出不可靠、冗余遥测推高存储与处理成本，并让工程师和 AI agent 更难找到相关信息；不处理的后果是持续为无用数据付费，排障被噪声拖慢。
+  pain_en: Public material states unreliable, redundant telemetry inflates storage and processing cost
+    and makes it harder for engineers and AI agents to find relevant information; not fixing it means
+    paying continuously for useless data while noise slows troubleshooting.
+  current_alternative: 人工审查埋点、调整采样率与日志级别，或直接向可观测性后端购买更多容量来兜住数据量。
+  current_alternative_en: Manual instrumentation review, tuning sampling rates and log levels, or simply
+    buying more capacity from the observability backend to absorb the volume.
+  usage_reason: 相较人工逐条排查埋点，它持续评估遥测质量并在源头生成修复，把「先定位哪段埋点有问题」从人工翻查变成自动定位，因此自建 OpenTelemetry、对后端账单敏感的中型工程团队会在日志量失控时选择它；这是基于产品能力的推断，尚无公开留存或复购证据。
+  usage_reason_en: Compared with manually reviewing instrumentation line by line, it continuously assesses
+    telemetry quality and generates fixes at the source, turning 'locate which instrumentation is broken'
+    from manual digging into automatic location, so mid-sized teams running their own OpenTelemetry and
+    sensitive to backend bills would pick it when log volume runs away; this is inference from product
+    capability, with no public retention or repeat-use evidence yet.

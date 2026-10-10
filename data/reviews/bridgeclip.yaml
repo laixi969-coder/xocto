@@ -620,3 +620,52 @@
     the user to confirm the produced candidates, thereby removing the burden of frame-by-frame review
     and manual in/out marking; editors or operators handling long interviews or livestream replays would
     therefore choose it when they need to produce clips in batches. Public materials provide no user '
+- id: req-full-bridgeclip-2026-10-10
+  project_slug: bridgeclip
+  level: full
+  reviewed_at: '2026-10-10T02:28:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频转短视频的批量切片需求，痛点是人工回看定位高光、逐段剪切的重复劳动；公开材料仅说明这是 BridgeMind 的开源 AI 剪辑桌面应用，未给出用户抱怨或耗时数据，故痛点刚性属工作流结构推理，交付闭环可确定。
+    evidence_ids:
+    - ev-a78a33a7132f1dcf
+    - ev-75159e4d350af86c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 360 缓慢升至 368，说明有开发者关注，但收藏与排名只属关注度证据，不能证明目标剪辑用户持续使用或形成强场景共识。
+    evidence_ids:
+    - ev-a78a33a7132f1dcf
+    - ev-820831eacbff90f9
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价页、付费主体或单位经济，钱可能来自 to C 订阅、to B 授权或 to VC，均属判断而非已验证事实；买方不清不取消需求判定。
+    evidence_ids:
+    - ev-75159e4d350af86c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输入格式、切分规则、导出流程与人工确认边界，交付能否确定性发生缺可复现证据，也未发现安全或人工边界的公开说明。
+    evidence_ids:
+    - ev-55c367714a4cc378
+  next_validation: 追踪 bridgeclip 仓库的 README、release 说明与 issue/discussion，确认实际支持的输入格式、切分与导出流程，以及是否有用户公开描述替代了原有剪辑流程。
+  market: ''
+  job: 短视频剪辑师或自媒体运营者在拿到一段长视频（如播客、访谈、直播回放）后，打开这个桌面应用，让 AI 从长素材中切出若干可发布的短片片段，最终交付一批待人工确认的剪辑结果。
+  job_en: A short-form video editor or social media operator takes a long video (podcast, interview, livestream
+    replay), opens this desktop app, and has AI cut several publishable short clips from the long source,
+    delivering a batch of clips for human confirmation.
+  pain: 长素材转短视频需要人工反复回看、定位高光、逐段剪切，是重复且耗时的机械劳动；公开材料只说明产品定位为 AI 剪辑桌面应用，未给出用户抱怨、耗时数据或不采用的具体代价，痛点强度属工作流结构推理。
+  pain_en: Turning long footage into short clips requires repeated manual review, highlight spotting,
+    and segment-by-segment cutting, which is repetitive mechanical labor; public materials only state
+    the product is an AI clipping desktop app and give no user complaints, time data, or cost of not adopting,
+    so pain intensity is a workflow-structure inference.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；按任务结构推断，旧做法是人工在通用剪辑软件（如 Premiere、剪映）中回看长素材并手动切段，或使用其他 AI 切片工具。
+  current_alternative_en: Public materials do not state how users do this today; by task structure, the
+    old approach is manually reviewing long footage and cutting segments in general editors (Premiere,
+    CapCut) or using other AI clipping tools.
+  usage_reason: 推断：相较人工在通用剪辑软件里逐段回看剪切，该产品以桌面应用形式让 AI 直接输出候选短片片段，减少的是“定位高光并初剪”这一步的人工负担，因此需要批量产出短视频的剪辑师或运营者会在处理长素材时选择它；公开材料未提供用户反馈或案例佐证这一动机。
+  usage_reason_en: 'Inference: versus manually reviewing and cutting in a general editor, the desktop
+    app has AI directly output candidate short clips, removing the manual burden of highlight spotting
+    and rough cutting, so editors or operators needing batch short-form output would pick it for long
+    footage; public materials provide no user feedback or case to support this motive.'

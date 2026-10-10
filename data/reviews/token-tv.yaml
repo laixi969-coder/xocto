@@ -86,3 +86,52 @@
     onto one always-on clock screen, removing the repeated-lookup step, so developers running several
     accounts who do not want to switch windows may choose it at their desk; however the repo has only
     54 stars, with no retention or payment evidence, and the hardware form limits spread.'
+- id: req-full-token-tv-2026-10-10
+  project_slug: token-tv
+  level: full
+  reviewed_at: '2026-10-10T02:33:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号额度分散、超限才发现的问题，痛点方向成立且不解决的后果明确（任务中断、额度浪费）；从输入用量数据到常亮显示交付闭环可还原，属工作流结构推理，但数据来源与合规性未说明。
+    evidence_ids:
+    - ev-4883106c347313a8
+    - ev-82db5e0161d07e02
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 54 增至 67 只反映关注度累积，没有用户反馈、issue 讨论或持续使用证据，无法判断是否形成真实共识。
+    evidence_ids:
+    - ev-4883106c347313a8
+    - ev-fbc4de80e94fbd66
+  - gate: model
+    status: insufficient
+    reason: 开源硬件项目，未见定价或付费路径，买方与收费方式不明；这是判断而非已验证事实，硬件 BOM 与刷机成本由用户自担。
+    evidence_ids:
+    - ev-4883106c347313a8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对用量数据是否准确、刷新是否及时、账号授权是否合规，交付确定性不清楚，安全与人工边界未说明。
+    evidence_ids:
+    - ev-4883106c347313a8
+    - ev-82db5e0161d07e02
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认用量数据来源、刷新频率与账号授权方式，并核对是否出现用户反馈或复现记录。
+  market: ''
+  job: 同时使用 Claude、Codex 等多个 AI 编码账号的开发者，在长时间编码、需要随时掌握各账号额度余量时，处理分散在各平台后台的用量数据，要完成把额度状态集中显示在桌面常亮设备上、以便在接近限额前调整账号或节奏的任务。
+  job_en: A developer running several Claude and Codex accounts, while coding for long stretches and needing
+    to know each account's remaining quota at any moment, works on usage data scattered across separate
+    platform dashboards and needs to surface quota status on an always-on desk device so they can switch
+    accounts or pace work before hitting limits.
+  pain: 多账号额度分散在各平台后台，需要反复登录逐个查看，往往在超限报错后才发现，打断正在进行的编码任务；公开材料未说明数据来源与刷新方式是否稳定合规。
+  pain_en: Quota across accounts is scattered across separate dashboards requiring repeated logins, and
+    overruns are usually discovered only when a request fails mid-task; the public material does not state
+    whether the data source and refresh method are stable or compliant.
+  current_alternative: 开发者目前逐个登录各平台后台查看用量，或干脆不监控、等报错再切换账号。
+  current_alternative_en: Developers currently log into each platform dashboard to check usage, or skip
+    monitoring entirely and switch accounts only after an error.
+  usage_reason: 推断：相较逐个登录后台，它把多账号用量集中到一块约 5 美元、常亮零闪的时钟屏幕上，省去反复查询这一步，因此同时开多个账号、桌面常驻的开发者会在长时间编码时选择它；但缺少留存与付费证据，硬件形态也限制扩散。
+  usage_reason_en: 'Inference: versus logging into each dashboard, it consolidates multi-account usage
+    onto a ~$5 always-on, zero-flash clock screen, removing the repeated-lookup step, so developers running
+    several accounts at a desk may choose it during long coding sessions; retention and payment evidence
+    are missing and the hardware form limits spread.'

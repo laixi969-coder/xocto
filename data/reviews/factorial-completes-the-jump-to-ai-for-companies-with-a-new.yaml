@@ -1,0 +1,84 @@
+- id: req-initial-factorial-completes-the-jump-to-ai-for-companies-with-a-new-2026-10-10
+  project_slug: factorial-completes-the-jump-to-ai-for-companies-with-a-new
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想接管 HR 事务中的核对与流转，但公开材料未说明代理接收什么、做哪一步、交付什么，痛点与旧流程无法还原。
+    evidence_ids:
+    - ev-56f2eca22175375e
+  - gate: consensus
+    status: insufficient
+    reason: 只有一篇报道提到发布，没有客户采用、使用反馈或场景描述，无法判断卡在感知还是场景。
+    evidence_ids:
+    - ev-56f2eca22175375e
+  - gate: model
+    status: insufficient
+    reason: Factorial 是既有订阅制 HR 软件，买方应是中小企业，但代理是否单独收费、按什么计价均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-56f2eca22175375e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理是否贴近 HR 工作的第一性目标、承诺能否确定性交付，以及人工复核边界在哪里。
+    evidence_ids:
+    - ev-56f2eca22175375e
+  next_validation: 收集 Factorial 官方产品页或发布说明，确认该个人 AI 代理的输入、可执行动作、交付结果与计价方式。
+  market: ''
+  job: 中小企业 HR 或行政人员在员工入职、请假、报销、合同等节点上，需要处理员工提交的表格与材料并完成归档和审批流转。
+  job_en: An SMB HR or administrative staffer handles forms and documents submitted by employees at onboarding,
+    leave, expense and contract steps, and completes filing and approval routing.
+  pain: 这些节点分散在多个表单和系统里，人工核对与转交耗时，且容易漏项；但公开材料没有说明该代理具体接管哪一步，痛点强度无法从现有事实确认。
+  pain_en: These steps are scattered across forms and systems, so manual checking and hand-off take time
+    and items get missed; however, the public material does not say which step the agent takes over, so
+    pain intensity cannot be confirmed from available facts.
+  current_alternative: 继续用 Factorial 原有 HR 模块加人工跟进，或员工直接找 HR 询问和补交材料。
+  current_alternative_en: Continuing with Factorial's existing HR modules plus manual follow-up, or employees
+    asking HR directly and resubmitting documents.
+  usage_reason: 推断：若该代理能直接读取员工已提交的材料并自动完成核对、提醒与归档，HR 可省掉逐项检查与催办这一步，因此已在使用 Factorial 的中小企业 HR 会在入职和报销高峰时尝试它；但公开材料未给出动作与交付细节，这一判断尚未被事实支持。
+  usage_reason_en: 'Inference: if the agent reads submitted employee documents and automatically checks,
+    reminds and files them, HR skips item-by-item checking and chasing, so SMB HR teams already on Factorial
+    would try it at onboarding and expense peaks; the public material gives no action or output detail,
+    so this remains unsupported by facts.'
+- id: req-full-factorial-completes-the-jump-to-ai-for-companies-with-a-new-2026-10-10
+  project_slug: factorial-completes-the-jump-to-ai-for-companies-with-a-new
+  level: full
+  reviewed_at: '2026-10-10T02:29:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想接管 HR 事务中的核对与流转，但公开材料未说明代理接收什么材料、做哪一步、交付什么，痛点与旧流程无法还原，连需求都写不具体。
+    evidence_ids:
+    - ev-2807307c9d98199d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Factorial 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 中小企业 HR 或行政人员在员工入职、请假、报销、合同等节点上，处理员工提交的表格与材料，完成核对、归档与审批流转。
+  job_en: An SMB HR or administrative staffer handles forms and documents submitted by employees at onboarding,
+    leave, expense and contract steps, completing checks, filing and approval routing.
+  pain: 公开材料只说明 Factorial 是中小企业 HR 软件并新增了内部个人 AI 代理，没有说明代理接收哪些材料、替员工完成哪一步、交付什么结果，因此无法还原具体痛点与旧流程。
+  pain_en: Public material only says Factorial is SMB HR software that added an internal personal AI agent;
+    it does not say what materials the agent takes in, which step it performs, or what it delivers, so
+    the specific pain and old workflow cannot be reconstructed.
+  current_alternative: 继续使用 Factorial 原有 HR 模块加人工跟进，或员工直接找 HR 询问和补交材料。
+  current_alternative_en: Continuing with Factorial's existing HR modules plus manual follow-up, or employees
+    asking HR directly and resubmitting documents.
+  usage_reason: 推断：若代理能读取员工已提交材料并自动完成核对、提醒与归档，HR 可省掉逐项检查与催办；但公开材料未给出动作与交付细节，该判断缺乏事实支持。
+  usage_reason_en: 'Inference: if the agent reads submitted employee documents and automatically checks,
+    reminds and files them, HR skips item-by-item checking and chasing; but public material gives no action
+    or output detail, so this remains unsupported.'

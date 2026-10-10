@@ -1,6 +1,6 @@
 ---
 slug: typesafe
-name: typesafe
+name: TypeSafe AI
 builder: tosh
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://typesafe.ai/blog/series-ai
 summary: Typesafe AI raises $870M at $7.5B
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# typesafe
+# TypeSafe AI
 
 Typesafe AI raises $870M at $7.5B
 

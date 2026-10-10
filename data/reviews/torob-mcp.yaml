@@ -262,3 +262,55 @@
     into 14 read-only tools that an AI assistant can call in one conversation and get cross-shop quotes,
     removing page switching and manual model alignment; this is an inference, for users already running
     MCP-capable assistants who need on-the-spot price comparison.
+- id: req-full-torob-mcp-2026-10-10
+  project_slug: torob-mcp
+  level: full
+  reviewed_at: '2026-10-10T02:33:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决选购时跨店铺比价的需求：同一商品价格分散，用户需逐站搜索抄价，不解决则费时且可能买贵。公开说明确认只读搜索、比价与价格核对能力，旧流程与交付闭环可还原，属工作流结构推理；痛点强度与频率缺用户证据。
+    evidence_ids:
+    - ev-f682aed75b93a346
+    - ev-5cff9a1325ef4fe4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 增至 60，说明开发者社区注意到它，但收藏与关注属规模信号，不能证明目标用户已把它留在比价工作流里；缺 issue、discussion 或使用反馈说明谁在什么场景持续调用。
+    evidence_ids:
+    - ev-f682aed75b93a346
+    - ev-5cff9a1325ef4fe4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，谁付钱尚不清；可能路径是 to C 免费工具或 to B 比价/导购方按调用付费，但这是判断而非已验证事实，且 Torob 数据授权与商业条款未披露。
+    evidence_ids:
+    - ev-f682aed75b93a346
+  - gate: truth
+    status: insufficient
+    reason: 只读、无需 API key 降低了误操作风险，但公开材料未说明 Torob 数据来源授权、价格更新频率与覆盖品类，交付能否稳定复现无法从现有证据确认。
+    evidence_ids:
+    - ev-f682aed75b93a346
+    - ev-0ad49d00ab79c33e
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认 Torob 数据授权说明、价格更新频率与真实调用场景，作为判断交付确定性与付费路径的公开证据。
+  market: ''
+  job: 消费者或接入 AI 助手的用户在选购某件商品时，把商品关键词交给 torob-mcp，由它调用 Torob 的跨店铺数据，返回可比较的报价与商品清单，用于决定在哪家店下单。
+  job_en: A consumer or an AI assistant acting for them, while shopping for a specific product, passes
+    a product keyword to torob-mcp, which queries Torob's cross-shop data and returns a comparable list
+    of offers and products to decide which shop to buy from.
+  pain: 同一商品在不同店铺价格与库存分散，用户要逐个站点打开、搜索、抄价再人工比对；不解决就要多花时间，且可能以更高价格成交。公开材料只说明它做搜索、比价与价格核对，未给出用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Prices and availability for the same product are scattered across shops, so users must open,
+    search and manually copy prices site by site; leaving it unsolved costs time and may mean paying more.
+    Public materials only describe search, comparison and price-checking, with no user complaints or frequency
+    data, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是人工在多个电商站点分别搜索、记录价格，或依赖 Torob 自身的网页/应用界面手动比价；torob-mcp 把这一步变成 AI 助手可直接调用的只读工具。
+  current_alternative_en: The old way is manually searching several e-commerce sites and noting prices,
+    or using Torob's own web/app interface by hand; torob-mcp turns that step into a read-only tool an
+    AI assistant can call directly.
+  usage_reason: 推断：相较人工逐站搜索抄价，它把关键词直接映射为 Torob 的跨店铺结果，省去用户自己打开多个页面并汇总报价这一步；因此已经在用 AI 助手做购物决策、且希望比价结果直接进入对话的用户会在选购时选择它。仓库收藏从
+    41 增至 60 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manually searching each site and copying prices, it maps a keyword
+    directly to Torob''s cross-shop results, removing the step of opening multiple pages and aggregating
+    offers; users already making shopping decisions through an AI assistant who want comparison results
+    inside the conversation would choose it. Stars rising from 41 to 60 shows attention, not sustained
+    use.'

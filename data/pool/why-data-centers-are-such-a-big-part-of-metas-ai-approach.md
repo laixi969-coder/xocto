@@ -28,7 +28,7 @@ summary: 'Developer and creator Tom Shaw sat down with Meta’s Head of Infrastr
   on Meta Newsroom .'
 first_seen: '2026-10-10T01:46:28Z'
 last_seen: '2026-10-10T01:46:28Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

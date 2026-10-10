@@ -1,0 +1,83 @@
+- id: req-initial-eformed-ventures-acquires-outdoor-life-to-build-ai-powered-o-2-2026-10-10
+  project_slug: eformed-ventures-acquires-outdoor-life-to-build-ai-powered-o-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只能看出内容与交易被合并，AI 具体解决哪一步、读者不用的后果是什么都写不出来，需求强度未明。
+    evidence_ids:
+    - ev-172ed26beb5f9c11
+  - gate: consensus
+    status: insufficient
+    reason: 仅一条收购报道，无读者或商家侧的使用与反馈信号。
+    evidence_ids:
+    - ev-172ed26beb5f9c11
+  - gate: model
+    status: insufficient
+    reason: 未披露抽成、订阅或广告等收入方式，买方与付费路径均不明确，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-172ed26beb5f9c11
+  - gate: truth
+    status: insufficient
+    reason: 交易与履约由谁承担、AI 输出是否可靠均无材料支持，交付确定性无法核对。
+    evidence_ids:
+    - ev-172ed26beb5f9c11
+  next_validation: 收集 eFormed Ventures 或 Outdoor Life 官方发布的改造方案说明，核对 AI 在选购链路中的具体动作、交易与履约责任方。
+  market: ''
+  job: 户外装备读者在阅读评测和选购指南时，需要判断哪件装备适合自己并完成购买。
+  job_en: An outdoor gear reader browsing reviews and buying guides needs to decide which item fits and
+    complete a purchase.
+  pain: 评测内容与购买入口分离，读者要自己跳转多个电商页面比价，选购链路长。
+  pain_en: Reviews and purchase entry points are separated, so readers jump across multiple retail pages
+    to compare, making the buying path long.
+  current_alternative: 读者在媒体看评测，再自行到电商平台搜索、比价并下单。
+  current_alternative_en: Readers read reviews on media sites, then search, compare and order on e-commerce
+    platforms themselves.
+  usage_reason: 推断：若 AI 能在阅读装备内容时直接给出匹配商品与购买入口，可省去跨站搜索比价这一步，因此户外装备买家可能使用；但公开材料未说明 AI 具体做什么，也未给出任何采用或成交证据。
+  usage_reason_en: 'Inference: if AI surfaces matching products and a purchase entry while reading gear
+    content, it removes the cross-site search and comparison step, so outdoor gear buyers might use it;
+    however the public material does not say what the AI does and offers no adoption or transaction evidence.'
+- id: req-full-eformed-ventures-acquires-outdoor-life-to-build-ai-powered-o-2-2026-10-10
+  project_slug: eformed-ventures-acquires-outdoor-life-to-build-ai-powered-o-2
+  level: full
+  reviewed_at: '2026-10-10T02:29:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决读者看评测后跨站比价下单的割裂，但公开材料只宣布收购与改造意向，未说明 AI 具体解决哪一步、不采用会失去什么，痛点刚性与交付闭环均无法还原，属自嗨式拼装。
+    evidence_ids:
+    - ev-172ed26beb5f9c11
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 eFormed Ventures 或 Outdoor Life 官网发布的改造方案与上线页面，核对 AI 在选购链路中的具体动作、交易与履约责任方及是否出现定价或商家入驻信息。
+  market: ''
+  job: 户外装备读者在浏览 Outdoor Life 的评测与选购指南时，需要判断某件装备是否适合自己并完成购买。
+  job_en: An outdoor gear reader browsing Outdoor Life reviews and buying guides needs to judge whether
+    a piece of gear fits them and complete a purchase.
+  pain: 公开材料只说明内容与交易将被合并，未说明读者在选购中具体卡在哪一步、不解决会失去什么；评测与购买入口分离这一痛点属于结构推理，尚无用户抱怨或行为证据支撑其刚性。
+  pain_en: Public material only says content and commerce will be merged; it does not say which step readers
+    are stuck on or what they lose if unsolved. The review-to-purchase gap is structural inference, with
+    no user complaint or behavioral evidence of rigidity.
+  current_alternative: 读者在媒体站看评测，再自行到电商平台搜索、比价并下单，这一旧流程未被任何材料描述为已被放弃。
+  current_alternative_en: Readers read reviews on media sites, then search, compare and order on e-commerce
+    platforms themselves; no material shows this old path being abandoned.
+  usage_reason: 推断：若 AI 能在阅读装备内容时直接给出匹配商品与购买入口，可省去跨站搜索比价这一步，因此户外装备买家可能使用；但公开材料未说明 AI 接收什么、执行什么动作，也无采用或成交证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if AI surfaces matching products and a purchase entry while reading gear
+    content, it removes the cross-site search-and-compare step, so outdoor gear buyers might use it; however
+    the material does not say what the AI takes in or does, and there is no adoption or transaction evidence
+    that users would choose it.'

@@ -1,0 +1,81 @@
+- id: req-initial-agentsdr-2026-10-10
+  project_slug: agentsdr
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它指向线索筛选与外联这一真实重复工作，但公开材料未说明具体动作与交付，痛点与解法之间缺少可核验连接。
+    evidence_ids:
+    - ev-a924ec978f872a69
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无采用或用户反馈材料。
+    evidence_ids:
+    - ev-a924ec978f872a69
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，开源项目的付费或服务路径无公开材料。
+    evidence_ids:
+    - ev-a924ec978f872a69
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法判断外联结果能否确定性交付。
+    evidence_ids:
+    - ev-a924ec978f872a69
+  next_validation: 收集 AgentSDR 仓库 README 与 issue/discussion，确认其线索输入、外联动作与输出交付的具体流程。
+  market: ''
+  job: 销售开发代表在需要批量开发潜在客户时，要完成线索筛选与首轮外联，把合格线索交给销售。
+  job_en: A sales development representative prospecting at scale needs to qualify leads and do first-touch
+    outreach, then hand qualified leads to sales.
+  pain: 线索筛选与首轮外联重复且耗时，人工逐条判断和写邮件占用大量时间。
+  pain_en: Lead qualification and first-touch outreach are repetitive and time-consuming, with manual
+    per-lead judgment and email writing eating up hours.
+  current_alternative: 现在多靠人工在 CRM 里筛名单、逐个写邮件，或购买闭源外联 SaaS 工具。
+  current_alternative_en: Today this is mostly manual list filtering in a CRM and writing emails one by
+    one, or buying closed-source outreach SaaS tools.
+  usage_reason: 公开材料只有一句定位，无法说明它相较人工筛选或闭源 SaaS 具体减少哪一步负担或改善哪项可核对结果，因此无法判断哪类团队会因何选择它。
+  usage_reason_en: Public material offers only a one-line positioning and cannot show which step it removes
+    versus manual filtering or closed-source SaaS, or which checkable result it improves, so it is impossible
+    to say which teams would choose it and why.
+- id: req-full-agentsdr-2026-10-10
+  project_slug: agentsdr
+  level: full
+  reviewed_at: '2026-10-10T02:28:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它指向线索筛选与外联这一真实重复工作，但公开材料未说明具体动作与交付，痛点与解法之间缺少可核验连接。
+    evidence_ids:
+    - ev-a924ec978f872a69
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 AgentSDR 仓库 README 与 issue/discussion，确认其线索输入、外联动作与输出交付的具体流程。
+  market: ''
+  job: 销售开发代表在需要批量开发潜在客户时，要完成线索筛选与首轮外联，把合格线索交给销售。
+  job_en: A sales development representative prospecting at scale needs to qualify leads and do first-touch
+    outreach, then hand qualified leads to sales.
+  pain: 线索筛选与首轮外联重复且耗时，人工逐条判断和写邮件占用大量时间。
+  pain_en: Lead qualification and first-touch outreach are repetitive and time-consuming, with manual
+    per-lead judgment and email writing eating up hours.
+  current_alternative: 现在多靠人工在 CRM 里筛名单、逐个写邮件，或购买闭源外联 SaaS 工具。
+  current_alternative_en: Today this is mostly manual list filtering in a CRM and writing emails one by
+    one, or buying closed-source outreach SaaS tools.
+  usage_reason: 公开材料只有一句“开源 AI SDR”定位，无法说明它相较人工筛选或闭源 SaaS 具体减少哪一步负担或改善哪项可核对结果，因此无法判断哪类团队会因何选择它。
+  usage_reason_en: Public material offers only a one-line 'open-source AI SDR' positioning and cannot
+    show which step it removes versus manual filtering or closed-source SaaS, or which checkable result
+    it improves, so it is impossible to say which teams would choose it and why.

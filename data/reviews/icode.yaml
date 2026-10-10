@@ -335,3 +335,52 @@
   usage_reason_en: Because public evidence is entirely inconsistent with the product described in the
     candidate summary, there is no basis to explain which users would choose it or when; no citable product
     description, documentation, or user feedback exists.
+- id: req-full-icode-2026-10-10
+  project_slug: icode
+  level: full
+  reviewed_at: '2026-10-10T02:30:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是内网或无稳定外网环境下把本地代码与任务交给离线 agent 执行并取回结果的需求，痛点来自数据不能外传的合规约束；公开材料只给出离线、TUI、数据自控等能力，未给用户抱怨与频率，故为工作流结构推理而非量化验证。
+    evidence_ids:
+    - ev-45acee8617c38c8a
+    - ev-ae429b0e88450179
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 仓库收藏从 323 增至 333，说明有开发者关注；但公开材料没有目标用户持续使用、复刻后留存或社区讨论证据，关注度不能替代采用共识。
+    evidence_ids:
+    - ev-45acee8617c38c8a
+    - ev-ae429b0e88450179
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；开源仓库本身不说明谁付钱，to B 内网部署或 to VC 均属判断而非已验证事实，这是模式缺口而非需求不存在。
+    evidence_ids:
+    - ev-45acee8617c38c8a
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出支持的任务类型、交付物形态、人工确认与安全边界，也未提供可复现的部署或执行结果，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-45acee8617c38c8a
+    - ev-ae429b0e88450179
+  next_validation: 追踪 iCode 官方仓库的 README、部署文档与 issue/discussion，确认离线部署方式、支持的任务类型与人工确认环节等公开交付证据。
+  market: ''
+  job: 在数据不能出内网、或没有稳定外网的开发环境里，开发者打开 iCode，把本地代码仓库和任务交给离线运行的 agent 与工作流执行，最后在终端 TUI 里取回执行结果。
+  job_en: In an intranet-only or unstable-network development environment, a developer opens iCode, hands
+    local repositories and tasks to an offline agent/workflow runtime, and retrieves results in the terminal
+    TUI.
+  pain: 公开材料只说明它完全离线、数据与 agent 由用户掌控，未给出用户抱怨、频率或不采用的具体代价；痛点强度属于工作流结构推理，而非用户口述。
+  pain_en: Public materials only state that it is fully offline with user-controlled data and agents;
+    no user complaints, frequency, or cost of not adopting is given, so pain intensity is a workflow-structure
+    inference, not user testimony.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的旧做法是本地手工运行脚本、自建 agent 编排，或把代码交给需要外网的云端 agent 服务。
+  current_alternative_en: Public materials do not state how users do this today; structurally inferable
+    alternatives are manually running local scripts, self-built agent orchestration, or cloud agent services
+    that require external network access.
+  usage_reason: 推断：相较把代码或任务交给需要外网的云端 agent，iCode 以完全离线运行、TUI 内操作和本地数据掌控为具体动作，省去为合规而搭建或审批外网通道这一步，因此受数据不能外传约束的开发者会在内网环境中选择它。
+  usage_reason_en: 'Inference: versus sending code or tasks to cloud agents that need external network
+    access, iCode runs fully offline with a TUI and local data control, removing the step of building
+    or approving an external channel for compliance, so developers under data-egress constraints would
+    choose it on intranets.'

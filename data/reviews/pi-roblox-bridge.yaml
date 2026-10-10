@@ -89,3 +89,50 @@
     developers or teaching settings that do not want to maintain a local service may choose it for a specific
     level edit; the repository offers only a self-description and 68 stars, with no user feedback or repeat-use
     evidence, so whether it enters daily workflows is unconfirmed.'
+- id: req-full-pi-roblox-bridge-2026-10-10
+  project_slug: pi-roblox-bridge
+  level: full
+  reviewed_at: '2026-10-10T02:31:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是让外部 AI 直接读写封闭编辑器 Studio 内对象这一具体任务，痛点在于手工复制粘贴或自建本地 MCP 服务既费时又易错，对青少年学习者更是门槛；不解决的后果是改动只能靠人工搬运。这是基于产品说明与工作流结构的推理，非用户采用数据。
+    evidence_ids:
+    - ev-7787f5127738805c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 68 个星标，说明存在关注度，但公开材料没有用户评价、issue 讨论或采用记录，无法判断共识卡在感知、场景还是利益哪一环，也不能把星标当作持续采用。
+    evidence_ids:
+    - ev-7787f5127738805c
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费路径或买方，开源项目本身也没有可见收入模式；钱可能来自 to C 开发者捐赠或 to B 教学机构采购，但这是判断而非已验证事实，公开材料无法确认。
+    evidence_ids:
+    - ev-7787f5127738805c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有仓库自述，无法核对它是否真能稳定读写 Studio 对象，也没有安全边界或人工确认机制的说明，交付确定性未知，需进一步核验实际支持的指令范围。
+    evidence_ids:
+    - ev-7787f5127738805c
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它实际支持的 Studio 操作范围、安装步骤，以及是否有用户报告成功使用或重复使用。
+  market: ''
+  job: Roblox 游戏开发者或青少年编程学习者在 Roblox Studio 中搭建场景与脚本时，需要让外部 AI 助手读取 Studio 内的对象与脚本并直接执行改动，以完成一次具体的关卡或脚本修改任务。
+  job_en: A Roblox game developer or teen coding learner building scenes and scripts in Roblox Studio
+    needs an external AI assistant to read objects and scripts inside Studio and apply changes directly,
+    to complete a specific level or script edit.
+  pain: Studio 是封闭编辑器，外部 AI 无法直接接触项目内容；开发者要么在 Studio 与聊天窗口之间手工复制粘贴代码，要么自己架设并维护本地 MCP 服务，这一步既费时又容易出错，且对青少年学习者构成门槛。
+  pain_en: Studio is a closed editor, so an external AI cannot touch project content directly; developers
+    either copy and paste code by hand between Studio and a chat window, or stand up and maintain a local
+    MCP server themselves, a step that is slow, error-prone, and a barrier for teen learners.
+  current_alternative: 手工在 Studio 与聊天窗口之间复制粘贴脚本，或自行搭建并维护本地 MCP 服务。
+  current_alternative_en: Manually copying scripts between Studio and a chat window, or building and maintaining
+    a local MCP server themselves.
+  usage_reason: 推断：相较自行架设本地服务，该桥接让 AI 助手直接接收 Studio 中的脚本与场景内容并执行改动，省去“先架服务器再连编辑器”这一步，因此不想维护本地服务的独立开发者或教学场景可能选择它；但仓库仅有自述与
+    68 星标，缺少用户反馈与重复使用证据，是否真正进入日常工作流尚未核验。
+  usage_reason_en: 'Inference: compared with standing up a local server, the bridge lets the AI assistant
+    receive Studio scripts and scene content and apply changes directly, removing the ''set up a server
+    before connecting the editor'' step, so indie developers or teaching settings that do not want to
+    maintain a local service may choose it; however, the repository offers only a self-description and
+    68 stars, with no user feedback or repeat-use evidence, so whether it enters daily workflows is unv'

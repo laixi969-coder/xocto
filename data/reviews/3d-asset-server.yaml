@@ -126,3 +126,52 @@
     AI coding assistant fetch assets directly through MCP during coding, removing one tool switch and
     manual import; but asset source, format and licensing are undisclosed, so the size of the reduction
     cannot be verified.'
+- id: req-full-3d-asset-server-2026-10-10
+  project_slug: 3d-asset-server
+  level: full
+  reviewed_at: '2026-10-10T02:27:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 3D 美术师/游戏开发者在场景搭建中批量取用模型资产的需求，痛点是资产检索与导入分散、需人工切换工具；不采用则继续手工下载导入。公开材料仅一句描述，痛点与交付闭环属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-0966152dc268345b
+    - ev-309c0c955052aab4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 241 增至 272，仅说明开源关注度上升，属规模信号；没有用户反馈、issue 讨论或采用案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-0966152dc268345b
+    - ev-84bcdd0afba10218
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费或采购信息，买方与收费方式均不明；按开源 MCP 服务推断可能走 to B 或 to VC，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-0966152dc268345b
+  - gate: truth
+    status: insufficient
+    reason: 资产来源、支持格式、授权范围与人工确认边界均未披露，无法核对交付是否确定发生，也无法判断是否贴近该工作的第一性目标。
+    evidence_ids:
+    - ev-0966152dc268345b
+    - ev-309c0c955052aab4
+  next_validation: 收集该仓库 README 与 issue/discussion，确认 3D 资产的实际来源、支持格式、授权方式与调用示例。
+  market: ''
+  job: 3D 美术师或游戏开发者在搭建场景、需要批量取用模型资产时，让 AI 编码助手通过 MCP 检索并获取 3D 资产，用于后续建模或场景搭建。
+  job_en: A 3D artist or game developer building a scene asks an AI coding assistant to look up and fetch
+    3D assets through MCP for later modeling or scene assembly.
+  pain: 公开材料只给出“3D assets api and mcp”一句描述，未说明原来由谁、用什么工具、花多久完成资产获取，痛点只能从工作流结构推断：资产检索与导入分散在素材站与本地管线之间，需人工切换。
+  pain_en: 'The public material only gives the phrase ''3d assets api and mcp''; it does not say who previously
+    fetched assets, with what tools, or how long it took. The pain can only be inferred from workflow
+    structure: asset search and import are split between marketplaces and local pipelines, requiring manual
+    switching.'
+  current_alternative: 公开材料未说明现有替代方式；按工作流结构推断，用户此前多在素材站手工搜索下载模型，再手动导入引擎或 DCC 工具。
+  current_alternative_en: The public material does not describe existing alternatives; by workflow-structure
+    inference, users previously searched and downloaded models manually from asset marketplaces, then
+    imported them into engines or DCC tools by hand.
+  usage_reason: 推断：相较手工到素材站搜索再导入，该服务让 AI 助手在编码过程中直接发起资产检索与获取请求，省去切换工具与手动导入这一步；但资产来源、格式与授权未披露，减少的负担程度尚不可核对。
+  usage_reason_en: 'Inference: compared with manually searching an asset marketplace and importing, this
+    service lets the AI assistant issue asset search and fetch requests during coding, removing the tool-switching
+    and manual-import step; however, asset source, format and licensing are undisclosed, so the degree
+    of burden reduction cannot yet be verified.'

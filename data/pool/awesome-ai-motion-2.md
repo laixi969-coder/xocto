@@ -22,7 +22,7 @@ summary: 637 motion techniques for AI video, infographics and scroll decks — r
   routes and an agent skill (ko/en)
 first_seen: '2026-10-10T01:46:04Z'
 last_seen: '2026-10-10T01:46:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

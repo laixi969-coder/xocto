@@ -57,7 +57,7 @@ summary: "### Release Notes\r\n\r\n- 1 、 [新增]  OpenAPI 能力增强：提�
   \n- 39 、优雅停机：调度中心停机，检测时间轮非空时主动等待调度完成；客户端停机，检测存在运行中任务时，停止接收新任务并主动等待任务执行完成；"
 first_seen: '2026-10-10T01:45:57Z'
 last_seen: '2026-10-10T01:45:57Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

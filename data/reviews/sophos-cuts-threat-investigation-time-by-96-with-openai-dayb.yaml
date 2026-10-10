@@ -1,0 +1,86 @@
+- id: req-initial-sophos-cuts-threat-investigation-time-by-96-with-openai-dayb-2026-10-10
+  project_slug: sophos-cuts-threat-investigation-time-by-96-with-openai-dayb
+  level: initial
+  reviewed_at: '2026-10-10T01:46:28Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决安全排查耗时长与告警过载的硬痛点，材料明确披露了缩短调查时间与自动化比例。
+    evidence_ids:
+    - ev-4fc3d5bd9883d960
+  - gate: consensus
+    status: insufficient
+    reason: 仅见 OpenAI 官方客户案例披露，缺乏独立第三方客户的持续采用与复购数据。
+    evidence_ids:
+    - ev-4fc3d5bd9883d960
+  - gate: model
+    status: supported
+    reason: 作为 Sophos 现有 MDR 托管安全服务的降本增效改造，买方为企业安全采购方。
+    evidence_ids:
+    - ev-4fc3d5bd9883d960
+  - gate: truth
+    status: supported
+    reason: 保留人工最终裁决边界，以模型完成繁复的日志梳理，交付链路清晰可行。
+    evidence_ids:
+    - ev-4fc3d5bd9883d960
+  next_validation: 查阅 Sophos MDR 官方服务文档与独立客户评价，核验该功能是否已作为通用功能全量交付并维持所述指标。
+  market: ''
+  job: 安全运营分析师在企业网络告警涌入时，处理系统日志与威胁遥测数据，以完成初步事件排查与定性。
+  job_en: SecOps analysts triaging cyber-threat telemetry and event logs to assess and classify security
+    incidents.
+  pain: 海量告警导致人工排查耗时极长，误报率高且分析师常面临严重的工单疲劳。
+  pain_en: Massive alert volumes cause severe fatigue and long manual triage times per incident.
+  current_alternative: 人工编写 SIEM 过滤规则并逐条比对威胁情报库排查。
+  current_alternative_en: Manual SIEM filtering rules paired with manual threat intelligence cross-checks.
+  usage_reason: 推断分析师选择它是因为该模型自动完成了日志比对与上下文聚类，直接减少手工检索步骤，使半数以上案例免于全流程人工介入。
+  usage_reason_en: Inferred that analysts adopt it because it automates log correlation and initial context
+    gathering, reducing manual search steps for over half of standard cases.
+- id: req-full-sophos-cuts-threat-investigation-time-by-96-with-openai-dayb-2026-10-10
+  project_slug: sophos-cuts-threat-investigation-time-by-96-with-openai-dayb
+  level: full
+  reviewed_at: '2026-10-10T02:32:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决安全告警过载下的人工排查耗时与工单疲劳：分析师需逐条比对日志与情报才能定性事件，延迟即放大暴露窗口，痛点刚性；公开材料给出调查时间与自动化比例，但采用动机属工作流结构推理。
+    evidence_ids:
+    - ev-4c4a75efb700cf1d
+    - ev-31ecbb55bb73ecdd
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据仅见 Sophos 自有产品页与免费工具说明，未见独立第三方客户案例、分析师评价或持续采用数据，无法确认安全团队已把它长期留在日常分类流程中。
+    evidence_ids:
+    - ev-4c4a75efb700cf1d
+    - ev-31ecbb55bb73ecdd
+  - gate: model
+    status: insufficient
+    reason: 判断：买方应是采购 MDR 托管安全服务的企业安全预算方，属 to B；但公开材料未披露该 AI 能力的定价页、订阅层级或采购记录，付费路径尚未核验。
+    evidence_ids:
+    - ev-31ecbb55bb73ecdd
+  - gate: truth
+    status: insufficient
+    reason: 公开材料强调保留人工复核边界，交付链路方向合理；但 96% 与 52% 等指标仅来自厂商自述，缺少可复现的部署文档或独立实测，确定性交付尚未核验。
+    evidence_ids:
+    - ev-4c4a75efb700cf1d
+  next_validation: 追踪 Sophos 官网 MDR 产品页与定价页，以及独立客户案例或第三方评测，核验该 AI 调查能力是否已作为通用功能交付并维持所述指标。
+  market: ''
+  job: 企业安全运营分析师在告警大量涌入时，处理系统日志、告警遥测与威胁情报，完成威胁分类、上下文聚合与初步事件定性，输出可供人工复核的排查结论。
+  job_en: Enterprise SecOps analysts, when alert volumes surge, process system logs, alert telemetry and
+    threat intelligence to classify threats, aggregate context and produce triage conclusions for human
+    review.
+  pain: 公开材料支持的是告警过载与排查耗时：单次威胁调查需人工比对日志与情报，工单疲劳严重，处置延迟直接放大暴露窗口；这是安全运营长期存在的刚性负担。
+  pain_en: 'Public materials support alert overload and slow investigation: each threat probe requires
+    manual log and intelligence cross-checks, causing ticket fatigue and delayed response that widens
+    exposure windows.'
+  current_alternative: 旧做法是人工编写 SIEM 过滤规则、逐条比对威胁情报库，再由分析师手工串联上下文并撰写排查记录。
+  current_alternative_en: The old way is manual SIEM filtering rules, item-by-item threat-intelligence
+    lookups, and analysts hand-assembling context and writing up findings.
+  usage_reason: 推断：相较人工逐条比对，该方案由模型自动完成日志与告警上下文聚类并输出调查摘要，省去手工检索与串联步骤，使部分标准案例无需全流程人工介入；因此告警量大、人力受限的企业安全团队会在常规分类场景选择它，但公开材料未提供用户自述动机。
+  usage_reason_en: 'Inferred: versus manual item-by-item lookups, the model auto-clusters logs and alert
+    context and emits investigation summaries, removing manual search and stitching steps so some standard
+    cases skip full human handling; teams with high alert volume and limited staff would choose it for
+    routine classification, though no first-person user motivation is public.'

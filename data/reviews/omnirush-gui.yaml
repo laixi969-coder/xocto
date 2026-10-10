@@ -233,3 +233,56 @@
     redacted sessions and workspace snapshots; this attracts developers wanting low-cost trials of frontier
     models who accept that data exchange. Public materials show no user feedback or retention evidence,
     so long-term use is unconfirmed.'
+- id: req-full-omnirush-gui-2026-10-10
+  project_slug: omnirush-gui
+  level: full
+  reviewed_at: '2026-10-10T02:31:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者接入前沿模型编码的配置与成本负担：公开材料称前沿模型免费，代价是上传聊天会话与工作区快照。旧做法是自行接入 API、按量付费并管理密钥额度，不解决的后果是成本与配置时间持续占用。交付闭环为桌面客户端接收任务、调用模型、产出代码改动，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-36b12d5fd3221a00
+    - ev-b9ae32443950b40a
+    - ev-4b213faf01740978
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 2,608 增至 3,021，说明关注度上升，但星标属规模信号，不能证明持续采用或场景共识；公开材料无用户评价、issue 讨论或复购证据，无法判断卡在感知还是场景。
+    evidence_ids:
+    - ev-96e42c8749d79bde
+    - ev-2af7ed1c775fb485
+    - ev-c0c5600fb6b420b6
+  - gate: model
+    status: insufficient
+    reason: 公开材料称前沿模型免费，但未披露额度上限、成本承担方与付费路径；以代码上下文上传换取免费额度，暗示可能向模型方或数据侧变现，这是判断而非已验证事实，存在每日优鲜式依赖外部输血的风险。
+    evidence_ids:
+    - ev-9d3eea7e1cee7856
+    - ev-36b12d5fd3221a00
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺免费前沿模型与代码改动交付，但公开材料未给出可复现实测、交付质量核对或安全边界说明；上传工作区快照虽称脱敏，脱敏范围与人工边界未公开，承诺能否确定性交付不明。
+    evidence_ids:
+    - ev-36b12d5fd3221a00
+    - ev-4b213faf01740978
+  next_validation: 追踪 omnirush-gui 官方仓库的 issue、release notes 与 omnirush.ai 定价/条款页，核对免费前沿模型的实际额度、上传数据的脱敏范围与代码交付质量反馈。
+  market: ''
+  job: 软件开发者在自己电脑上打开桌面编码智能体，把本地代码库或一个开发任务交给它，让它读取项目、生成或修改代码，最终拿到可运行的代码改动。
+  job_en: A software developer opens a desktop coding agent on their own machine, hands it a local codebase
+    or a development task, and expects it to read the project, generate or modify code, and return runnable
+    changes.
+  pain: 公开材料显示该产品以“前沿模型免费”换取上传聊天会话与工作区快照，说明开发者自行接入前沿模型时面临调用成本高、密钥与额度配置繁琐的负担；同时把代码上下文上传换取免费额度，又带来隐私与合规取舍。
+  pain_en: Public materials show the product trades free frontier-model access for uploading chat sessions
+    and workspace snapshots, implying developers face costly frontier-model calls and tedious key/quota
+    setup when self-wiring; uploading code context for free quota also forces a privacy and compliance
+    trade-off.
+  current_alternative: 开发者目前使用现有编码助手、编辑器插件，或自行接入模型 API，按用量付费并自行管理密钥与额度。
+  current_alternative_en: Developers currently use existing coding assistants, editor plugins, or self-wired
+    model APIs, paying by usage and managing keys and quotas themselves.
+  usage_reason: 推断：相较自行接入模型 API 并管理额度，它把前沿模型访问打包进桌面客户端，用户只需注册 omnirush.ai 账号即可调用，省去配置密钥与额度管理这一步；代价是聊天会话与工作区快照被上传（敏感信息脱敏），因此愿意用代码上下文换取免费前沿模型额度的开发者会在试用或轻量任务时选择它。公开材料无用户反馈或留存证据，长期使用未确认。
+  usage_reason_en: 'Inference: versus self-wiring model APIs and managing quotas, it bundles frontier-model
+    access into a desktop client where signing up for an omnirush.ai account suffices, removing the key-configuration
+    and quota-management step; the cost is uploading chat sessions and workspace snapshots (with secrets
+    redacted), so developers willing to trade code context for free frontier-model quota would choose
+    it for trials or light tasks. Public materials show no user feedback or retenti'

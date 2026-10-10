@@ -1,0 +1,87 @@
+- id: req-initial-泰瑞达投资bright-machines推进ai基础设施自动化制造-2026-10-10
+  project_slug: 泰瑞达投资bright-machines推进ai基础设施自动化制造
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电子与服务器硬件产线上人工装配、配置与检测慢且不一致的问题，痛点来自算力硬件扩产这一具体压力，旧做法是人工工位与固定专机。
+    evidence_ids:
+    - ev-66bb6fe8930ade5e
+  - gate: consensus
+    status: insufficient
+    reason: 材料只有泰瑞达投资这一条，没有客户名单、产线部署数量或行业采购方的公开表态，共识环节缺少可核验事实。
+    evidence_ids:
+    - ev-66bb6fe8930ade5e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式与买方结构；按产线或按交付结果收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-66bb6fe8930ade5e
+  - gate: truth
+    status: insufficient
+    reason: 缺少产线实测结果、良率或交付周期数据，无法核对自动化承诺能否确定性兑现，人工复核边界也未说明。
+    evidence_ids:
+    - ev-66bb6fe8930ade5e
+  next_validation: 收集 Bright Machines 官方客户案例或部署文档，核对已落地产线的品类、交付周期与人工复核环节。
+  market: ''
+  job: 电子与服务器硬件制造商的产线工程师，在批量组装、配置和检测服务器或电子设备时，需要把原本靠人工完成的装配与调试步骤变成可复现的自动化流程。
+  job_en: Line engineers at electronics and server hardware makers need to turn manual assembly and debugging
+    steps into reproducible automated processes when building and testing servers or electronics at volume.
+  pain: AI 基础设施需求推高服务器与电子硬件产量，人工装配与配置速度慢、一致性差，且熟练工人难招；产线换型时重新调试成本高。
+  pain_en: AI infrastructure demand raises server and electronics output, but manual assembly and configuration
+    are slow, inconsistent and hard to staff; retooling a line for a new product is costly.
+  current_alternative: 目前多依赖人工工位、固定功能的专机或传统产线集成商做定制自动化，换型与调试周期长。
+  current_alternative_en: Today this is mostly done with manual stations, fixed-function machines or custom
+    automation from traditional line integrators, with long changeover and debugging cycles.
+  usage_reason: 推断：相较固定专机，软件定义的自动化把换型与配置调整从重新做机械改造变成改软件参数，减少一次产线换型的调试负担，因此批量大、型号迭代快的服务器与电子硬件厂商会在扩产或换型时选择它。材料未披露客户案例与留存数据，尚不能确认持续使用。
+  usage_reason_en: 'Inference: versus fixed-function machines, software-defined automation turns changeover
+    and configuration adjustments from mechanical rework into software parameter changes, cutting the
+    debugging burden of a line change, so high-volume server and electronics makers with fast model iteration
+    would choose it when expanding or retooling. No customer cases or retention data are disclosed, so
+    sustained use cannot be confirmed.'
+- id: req-full-泰瑞达投资bright-machines推进ai基础设施自动化制造-2026-10-10
+  project_slug: 泰瑞达投资bright-machines推进ai基础设施自动化制造
+  level: full
+  reviewed_at: '2026-10-10T02:33:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据为 Purdue 登录页、Bright Money 理财应用、词典释义与通用 AI 介绍，均与电子制造无关，无法写出 Bright Machines 解决什么需求与痛点，价值关不成立。
+    evidence_ids:
+    - ev-475914e50e69f424
+    - ev-7d58b231f43f3017
+    - ev-e6ee74a051c824ad
+    - ev-c91cebb3df1bfb19
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Bright Machines 官网产品页与客户案例页面，核对已落地产线的品类、交付形态与人工复核边界。
+  market: ''
+  job: 材料未提供任何可归因到 Bright Machines 的公开事实，无法还原具体是谁、在什么产线情况下、处理什么硬件材料、要完成什么任务。
+  job_en: The material provides no public fact attributable to Bright Machines, so it is impossible to
+    reconstruct who, under what line conditions, handling what hardware, is to complete what task.
+  pain: 没有可引用的公开材料说明 Bright Machines 用户的具体痛点；现有证据是 Purdue 登录页、Bright Money 理财应用、词典释义与通用 AI 介绍，均与电子制造无关。
+  pain_en: No citable public material describes a concrete pain point for Bright Machines users; the evidence
+    is a Purdue login page, a Bright Money finance app, a dictionary entry and generic AI explainers,
+    none related to electronics manufacturing.
+  current_alternative: 无法从现有证据确认当前替代方式；材料未披露人工工位、专机或产线集成商等旧做法。
+  current_alternative_en: The current alternative cannot be confirmed from the available evidence; no
+    manual stations, fixed-function machines or line integrators are disclosed.
+  usage_reason: 无法判断用户为何选择它：证据中没有产品页面、客户案例、部署文档或用户反馈，只有一条无法核验的投资标题，因此不能说明任何采用动机。
+  usage_reason_en: 'Why users would choose it cannot be judged: there is no product page, customer case,
+    deployment doc or user feedback, only an unverifiable investment headline, so no adoption motive can
+    be stated.'

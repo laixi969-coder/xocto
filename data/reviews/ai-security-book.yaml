@@ -142,3 +142,50 @@
     attack surface and verification method directly, cutting the step of cross-source collection and translation;
     engineers or compliance staff needing to establish an AI security assessment baseline would therefore
     pick it at the start of an assessment — an inference from the delivery for
+- id: req-full-ai-security-book-2026-10-10
+  project_slug: ai-security-book
+  level: full
+  reviewed_at: '2026-10-10T02:28:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 安全知识零散、缺少工程验证方法整理的需求，痛点是评估生成式与具身系统时缺少可对照依据；双语开源书按攻击、防御、验证组织内容，交付形式确定，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 51 个星标只反映关注度，未见 issue、discussion 或读者反馈说明安全从业者已把它纳入评估流程，持续采用证据缺失。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  - gate: model
+    status: insufficient
+    reason: 采用 CC BY-NC-SA 4.0 非商业许可，公开材料未给出定价、赞助或企业采购路径，谁付钱无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  - gate: truth
+    status: insufficient
+    reason: 书中攻击与防御方法是否经过真实系统验证、是否有安全边界与人工复核说明，公开材料未提供可复现证据，交付确定性待核。
+    evidence_ids:
+    - ev-f5a0a0cf5a26ab2c
+  next_validation: 追踪该仓库的 issue、discussion 与提交记录，确认是否有安全从业者提出具体使用场景、勘误或落地反馈。
+  market: ''
+  job: AI 安全工程师或合规审查人员在评估生成式模型与具身智能系统的攻击面时，需要处理模型接口、部署架构与验证记录等材料，产出一份可对照的安全评估结论。
+  job_en: An AI security engineer or compliance reviewer assessing the attack surface of generative and
+    embodied AI systems needs to work through model interfaces, deployment architecture and verification
+    records to produce a checkable security assessment conclusion.
+  pain: 生成式与具身 AI 的攻击面、防御手段和工程验证方法散落在论文、厂商文档与零散博客中，从业者要自行拼装才能形成可对照的评估依据；公开材料只给出书的主题范围，未提供读者反馈，痛点强度属结构推理。
+  pain_en: Attack surfaces, defenses and engineering verification methods for generative and embodied
+    AI are scattered across papers, vendor docs and blogs, so practitioners must assemble a checkable
+    assessment basis themselves; the public material only states the book's topic scope and gives no reader
+    feedback, so pain intensity is a structural inference.
+  current_alternative: 推断读者此前依赖零散论文、厂商安全文档与个人博客自行搜集，这是基于产品定位的推断，公开材料未直接说明替代对象。
+  current_alternative_en: It is inferred that readers previously relied on scattered papers, vendor security
+    documentation and personal blogs; this is an inference from the product positioning, as the public
+    material does not directly state the alternative.
+  usage_reason: 相较自行搜集论文与厂商文档，该书把攻击手法、防御方案与工程验证方法按章节整理成中英双语，减少读者跨来源检索与拼装的一步负担；因此需要快速建立 AI 安全评估框架的工程师或合规人员可能选择它，这是推断，尚无读者反馈佐证。
+  usage_reason_en: Compared with collecting papers and vendor docs oneself, the book organises attacks,
+    defenses and engineering verification into bilingual chapters, reducing the step of cross-source retrieval
+    and assembly; engineers or compliance staff needing to quickly build an AI security assessment framework
+    may therefore choose it — this is an inference without reader feedback.

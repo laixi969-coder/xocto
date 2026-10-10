@@ -354,3 +354,62 @@
     fail hard constraints, fills forms inside the user's own Chrome session, and writes each application
     or skip to a greppable, diffable markdown file. Job seekers in an intensive search with hard constraints
     (e.g., visa sponsorship or a salary floor) who are willing to configure rules in Claude
+- id: req-full-seekter-2026-10-10
+  project_slug: seekter
+  level: full
+  reviewed_at: '2026-10-10T02:32:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者集中投递期跨来源筛选职位与重复填写申请表单的需求，痛点是逐条比对和重复录入的机械负担，以及投递记录零散不可回溯。仓库说明已还原输入（招聘来源）、动作（按规则过滤、在本人
+      Chrome 填表）、交付（可 grep、可 diff 的 markdown 记录），不解决的后果是求职者持续消耗时间在低价值重复劳动上。这是工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-a5732a0396781d27
+    - ev-5ecca461280c4b47
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 48 逐步升至 59，说明有开发者持续关注，但收藏属于关注度证据，不能证明目标求职者已把它留在日常工作流中。公开材料未见用户评价、issue 讨论或客户案例说明实际使用场景与持续采用，共识卡在感知与场景验证环节。
+    evidence_ids:
+    - ev-a5732a0396781d27
+    - ev-9b67e2d8d1703932
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入模式。作为 Claude Code 代理，可能的付费路径是 to C 求职者订阅或 to B 招聘服务采购，但均无公开证据。这是判断，不是已验证事实；缺定价不反推需求不存在。
+    evidence_ids:
+    - ev-a5732a0396781d27
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理在真实招聘网站上的表单填写成功率、验证码或反自动化边界，也未提供可复现的部署与运行结果。交付能否稳定发生、人工介入边界如何，尚缺公开证据。
+    evidence_ids:
+    - ev-a5732a0396781d27
+    - ev-5ecca461280c4b47
+  next_validation: 追踪 seekter 仓库的 issue 与 discussion，确认是否有用户报告在真实招聘网站上的表单填写成功率、失败场景与人工介入边界。
+  market: ''
+  job: 求职者在集中投递期（如换工作、毕业求职）每天面对多个招聘来源的职位列表，需要按地点、签证、薪资、行业、资历、语言等自定规则筛选出值得投的职位，并在本人 Chrome 中逐条填写申请表单，同时保留每次申请或跳过的记录以便复盘和对比。
+  job_en: During an intensive job-search period, a job seeker reviews postings across multiple sources
+    daily, filters them against self-defined rules (location, visa, salary, sector, seniority, language),
+    fills application forms one by one in their own Chrome, and keeps a record of each application or
+    skip for review and diffing.
+  pain: 公开材料显示该代理针对的是求职流程中重复性最高的两步：跨来源逐条比对筛选条件，以及在不同申请表单中重复填写相同信息。仓库说明明确把筛选规则和表单填写作为核心动作，并强调把申请与跳过记录成可
+    grep、可 diff 的 markdown，说明用户当前缺少可审计、可回溯的投递记录。这是从产品输入—动作—交付闭环作出的工作流结构推理，尚无用户抱怨或案例直接佐证痛点强度。
+  pain_en: 'The public description targets the two most repetitive steps of job search: comparing postings
+    across sources against filter rules, and re-entering the same information into different application
+    forms. The repository explicitly makes rule-based filtering and form filling the core actions and
+    keeps applications and skips as greppable, diffable markdown, implying users currently lack an auditable,
+    reviewable application record. This is workflow-structural inference from the pr'
+  current_alternative: 公开材料未直接描述旧做法，但从产品替代的动作可推断：求职者通常在各招聘网站手动设置筛选条件、逐条浏览职位，再在每家公司自己的申请页重复填写相同字段，并用表格或笔记零散记录投递情况。seekter
+    把筛选、填表和记录合并为一个每日运行的代理流程。
+  current_alternative_en: 'Public materials do not directly describe the prior workflow, but the actions
+    the product replaces imply it: job seekers manually set filters on each job board, browse postings
+    one by one, re-enter the same fields on each company''s application page, and track applications in
+    scattered spreadsheets or notes. seekter consolidates filtering, form filling, and record-keeping
+    into one daily agent run.'
+  usage_reason: 相较手动逐站筛选和逐表填写，seekter 通过每日自动抓取并按用户自定规则过滤，减少逐条比对职位这一步；通过在用户本人 Chrome 中填写表单，减少重复录入相同字段这一步；通过把每次申请或跳过写成可读、可
+    grep、可 diff 的 markdown，让投递记录可回溯和对比。因此处于集中投递期、需要批量处理职位且重视投递记录可审计的求职者，会在这种情况下选择它。这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with manual per-site filtering and per-form entry, seekter reduces the step
+    of comparing postings one by one by fetching and filtering daily against user-defined rules; it reduces
+    re-entering the same fields by filling forms in the user's own Chrome; and it makes the application
+    record reviewable and diffable by writing each application or skip as readable, greppable markdown.
+    Job seekers in an intensive application period who need to process postings at volume and v

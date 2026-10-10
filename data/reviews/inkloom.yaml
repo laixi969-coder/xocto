@@ -409,3 +409,51 @@
     typography, symbols and clear-space rules into separately callable steps and directly produces lockups
     and clear-space specs, cutting the designer''s post-hoc specification work; editability and commercial
     use are undisclosed, so the reduced burden is specification clean-up.'
+- id: req-full-inkloom-2026-10-10
+  project_slug: inkloom
+  level: full
+  reviewed_at: '2026-10-10T02:30:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新业务标识交付中规范缺失、设计师手工补字体与留白规则的问题，痛点刚性且交付环节可确定；属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-07b3bd138e0cb3ac
+    - ev-86ccc0bbc684c835
+  - gate: consensus
+    status: insufficient
+    reason: 仅有早期访问说明与仓库星标从979增至1486，属关注度而非采用；没有设计师或客户的重复使用与评价证据。
+    evidence_ids:
+    - ev-07b3bd138e0cb3ac
+    - ev-a19cdb8f580677b4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、商用授权与买方，按项目或订阅收费都只是推断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-07b3bd138e0cb3ac
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否输出可编辑源文件、是否可商用，交付确定性无法核对，人工筛选边界也未定义。
+    evidence_ids:
+    - ev-86ccc0bbc684c835
+  next_validation: 追踪 inkloom 官网或仓库文档中的定价页与商用授权条款，确认是否交付可编辑源文件。
+  market: ''
+  job: 小企业主或独立设计师在为新业务做品牌标识时，把业务描述交给系统，得到可用的标志锁定组合与留白规范，再人工筛选定稿。
+  job_en: A small business owner or independent designer creating a brand mark for a new business hands
+    a business description to the system, receives usable lockups and clear-space rules, then manually
+    selects the final mark.
+  pain: 通用图像生成只出图，给不出字体、间距与留白规范，设计师仍需手工补规范并反复返工；小企业主则缺少可交付的规范文件。
+  pain_en: Generic image generation only outputs images and gives no typography, spacing or clear-space
+    specification, so designers still hand-build the spec and rework repeatedly, while small business
+    owners lack a deliverable spec file.
+  current_alternative: 通用图像生成工具加设计师手工整理，或直接购买现成模板与低价外包标识。
+  current_alternative_en: Generic image generators plus manual designer clean-up, or buying ready-made
+    templates and low-cost outsourced marks.
+  usage_reason: 推断：相较通用生成只出图，它把品牌约束、字体、符号与留白规则拆成可分别调用的环节，直接产出锁定组合与留白规范，减少设计师事后补规范这一步；因此需要可落地规范而非仅几张图的小企业主与独立设计师会在新业务起步时选择它。
+  usage_reason_en: 'Inference: unlike generators that only output images, it splits brand constraints,
+    typography, symbols and clear-space rules into separately callable steps and directly produces lockups
+    and clear-space specs, cutting the designer''s post-hoc specification work; therefore small business
+    owners and independent designers who need a usable spec rather than a few images would choose it when
+    starting a new business.'

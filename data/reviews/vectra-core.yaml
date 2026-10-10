@@ -79,3 +79,55 @@
   usage_reason_en: 'The task is: Backend engineers building search or recommendation services on the JVM
     who need in-process vector nearest-neighbor queries without adding an external vector database Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-vectra-core-2026-10-10
+  project_slug: vectra-core
+  level: full
+  reviewed_at: '2026-10-10T02:33:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 JVM 后端在进程内完成向量近邻查询、避免额外部署向量数据库的需求；痛点来自多一个有状态服务与跨进程调用的结构性摩擦，属工作流推理，公开材料尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+    - ev-09986fdd58e6e862
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 增至 41，说明有开发者关注，但收藏属关注度证据，不能证明目标用户持续使用或形成强场景共识；公开材料未见 issue、discussion 或采用案例。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+    - ev-09986fdd58e6e862
+  - gate: model
+    status: insufficient
+    reason: 这是开源库，公开材料未见定价页、商业授权或企业支持路径，谁付钱尚不清；按判断（非已验证事实），钱可能来自 to B 的企业支持或托管服务，也可能纯靠 to VC 或无偿维护。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+  - gate: truth
+    status: insufficient
+    reason: 公开事实只有功能与性能宣称，未见可复现基准、部署文档或稳定性说明，交付能否确定性发生、内存与安全边界如何尚缺公开证据。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+    - ev-09986fdd58e6e862
+  next_validation: 追踪该仓库的 README/文档、issue 与 discussion，确认是否有团队公开描述在何种场景部署、替代了哪个旧流程，以及是否出现基准复现或生产使用说明。
+  market: ''
+  job: 在 JVM 技术栈上做检索或推荐服务的后端工程师，在已有 Java 21 服务里需要做向量近邻查询时，把向量索引嵌入进程内，直接调用库完成 KNN 检索，而不额外部署独立向量数据库。
+  job_en: Backend engineers building search or recommendation services on the JVM who need vector nearest-neighbor
+    queries inside an existing Java 21 service embed the index in-process and call the library for KNN
+    retrieval instead of deploying a separate vector database.
+  pain: 公开事实只给出内存向量检索、HNSW 图、SQ8 量化与 16,000+ QPS 的实现描述，未提供用户抱怨或案例；从工作流结构推理，JVM 团队引入外部向量数据库意味着多一个有状态服务、跨进程网络往返与运维负担，这是该任务的结构性摩擦，但具体代价与频率尚无公开用户材料佐证。
+  pain_en: Public facts only describe in-memory vector search, HNSW graphs, SQ8 quantization and 16,000+
+    QPS; no user complaints or cases are given. By workflow inference, adding an external vector database
+    means another stateful service, cross-process network hops and operational burden for JVM teams, but
+    the concrete cost and frequency lack public user evidence.
+  current_alternative: 公开材料未说明用户当前做法；结构上可推断的替代是部署独立向量数据库（如 Milvus、Qdrant、pgvector 等）或自研 HNSW 索引，但这一替代关系属于推理，未经公开用户材料确认。
+  current_alternative_en: Public materials do not state current practice; the structurally inferred alternatives
+    are deploying a standalone vector database (e.g. Milvus, Qdrant, pgvector) or hand-rolling an HNSW
+    index, but this substitution is inference, not confirmed by public user materials.
+  usage_reason: 推断：相较单独部署向量数据库，该库把索引放进同一 JVM 进程，省去跨进程网络调用与独立服务的部署运维步骤，因此已在 Java 21 技术栈、希望避免新增有状态服务的团队会在小到中等规模向量检索场景下选择它；仓库仅
+    41 个收藏，尚无留存或复购证据，不能声称已被长期留在工作流中。
+  usage_reason_en: 'Inference: versus deploying a standalone vector database, this library keeps the index
+    in the same JVM process, removing cross-process network calls and the deploy/ops step of a separate
+    service, so teams already on Java 21 that want to avoid a new stateful service would pick it for small-to-medium
+    vector retrieval; with only 41 stars and no retention or repeat-use evidence, it cannot be claimed
+    as long-term embedded in workflows.'

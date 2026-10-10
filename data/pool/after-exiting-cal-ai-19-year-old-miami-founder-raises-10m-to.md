@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQMWpBbzRpcThh
 summary: After exiting Cal AI, 19-year-old Miami founder raises $10M to put AI on your wrist Refresh Miami
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

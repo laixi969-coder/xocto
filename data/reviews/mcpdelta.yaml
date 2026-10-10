@@ -78,3 +78,52 @@
   usage_reason: 用户要完成的任务是：AI 应用开发者、自动化流程工程师；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: AI application developers, Automation engineers Public materials do not
     yet explain why users choose this product over their existing approach.'
+- id: req-full-mcpdelta-2026-10-10
+  project_slug: mcpdelta
+  level: full
+  reviewed_at: '2026-10-10T02:31:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 MCP 多步工具调用的 token 膨胀与改动不可回退问题：逐步调用重复携带上下文推高成本，多步改动散落难以定位。官方称每任务一个程序、最多省 24.1× token 且改动可撤销，属工作流结构推理，痛点刚性来自成本与可回退性。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+    - ev-14e40a0878eef311
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 79–80 星说明开发者社区已注意到它，但无用户评价、issue 讨论或部署案例，无法判断是否形成持续采用共识，卡在感知与场景验证环节。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+    - ev-14e40a0878eef311
+  - gate: model
+    status: insufficient
+    reason: 官方标注 free app，未见定价页、付费主体或单位经济；to C 开发者免费、to B 团队付费均为推断而非已验证事实，属商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+    - ev-14e40a0878eef311
+  - gate: truth
+    status: insufficient
+    reason: 24.1× token 节省为官方自测基准，无第三方复现；撤销粒度、支持哪些 MCP 服务器及安全边界未公开，交付确定性尚缺可核对证据。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+    - ev-14e40a0878eef311
+  next_validation: 追踪 mcpdelta 官方文档与仓库 issue/discussion，核对 24.1× token 基准的复现条件、撤销粒度与已支持的 MCP 服务器清单。
+  market: ''
+  job: AI 应用开发者在把 AI 应用接入多个 MCP 服务器时，处理逐步发起的工具调用序列，要把一个任务的多步调用合并成一次可执行程序，并保留每次改动的记录以便回退。
+  job_en: AI application developers wiring AI apps to multiple MCP servers handle step-by-step tool-call
+    sequences, and need to collapse a task's many calls into one executable program while keeping an undoable
+    record of each change.
+  pain: 逐步工具调用会重复携带上下文，token 消耗随步数放大，成本与延迟上升；同时多步改动散落在各次调用中，出错后难以定位和回退。
+  pain_en: Step-by-step tool calls re-send context, so token cost and latency grow with each step; multi-step
+    changes are scattered across calls, making failures hard to locate and roll back.
+  current_alternative: 开发者目前自行编排 MCP 调用链、手写脚本或工作流，并靠日志和版本控制手动回滚。
+  current_alternative_en: Developers currently hand-orchestrate MCP call chains, write their own scripts
+    or workflows, and roll back manually via logs and version control.
+  usage_reason: 推断：相较手写逐步调用链，Delta MCP 把每个任务编译成一个程序并记录可撤销改动，省掉逐次拼接调用与手工回滚这两步，因此在意 token 成本与操作可回退的 MCP
+    集成开发者会尝试它；公开材料尚无用户反馈证实这一因果。
+  usage_reason_en: 'Inference: versus hand-written step-by-step chains, Delta MCP compiles each task into
+    one program and records undoable changes, removing the per-call stitching and manual rollback steps,
+    so MCP integrators sensitive to token cost and reversibility would try it; no public user feedback
+    yet confirms this causal link.'

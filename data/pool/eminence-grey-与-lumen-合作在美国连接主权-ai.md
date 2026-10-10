@@ -1,6 +1,6 @@
 ---
 slug: eminence-grey-与-lumen-合作在美国连接主权-ai
-name: Eminence Grey 与 Lumen 合作在美国连接主权 AI
+name: Eminence Grey
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE1WWnBYcXhLYUoy
 summary: Eminence Grey 与 Lumen 合作在美国连接主权 AI Unite.AI
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Eminence Grey 与 Lumen 合作在美国连接主权 AI
+# Eminence Grey
 
 Eminence Grey 与 Lumen 合作在美国连接主权 AI Unite.AI
 

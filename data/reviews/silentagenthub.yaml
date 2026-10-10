@@ -81,3 +81,55 @@
     to move through requirements, research, design, prototype, development, testing and release, and want
     a set of rules and hooks to constrain a coding agent''s behavior Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-silentagenthub-2026-10-10
+  project_slug: silentagenthub
+  level: full
+  reviewed_at: '2026-10-10T02:32:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者用编码代理做 0-1 项目时流程无约束、跨阶段上下文丢失、产出难复核的痛点；仓库说明已给出输入（想法）、动作（七阶段规则与 Hooks 约束代理）、交付（代码与文档），不采用则需手工逐次交代流程，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+    - ev-9deeda099dd51276
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 104 增至 116，说明社区注意到该项目，但收藏属关注度证据，不能证明目标用户持续使用或形成强场景；公开材料未见 issue、discussion 或用户反馈说明谁在何种情况下采用。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+    - ev-9deeda099dd51276
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺七阶段全流程交付，但公开材料未提供可复现的产出样例、测试结果或人工确认与安全边界说明，交付能否稳定发生尚不可核验。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+    - ev-9deeda099dd51276
+  next_validation: 追踪 SilentAgentHub 仓库的 issue、discussion 与 README 更新，确认是否有用户报告在具体 0-1 项目中部署该插件、替代了哪种手工流程及产出结果。
+  market: ''
+  job: 独立开发者或小团队在把一个 0-1 想法落地时，把需求、研究、设计、原型、开发、测试、发布各阶段的规则、Skills 与 Hooks 装进编码代理，让代理按这套流程产出代码与文档，自己负责确认与发布。
+  job_en: Solo developers or small teams taking a 0-to-1 idea to delivery install stage-by-stage rules,
+    Skills and Hooks (requirements, research, design, prototype, development, testing, release) into a
+    coding agent so it produces code and docs along that pipeline, while they keep confirmation and release
+    duties.
+  pain: 编码代理默认没有固定流程约束，容易跳过需求与设计直接写码、跨阶段丢失上下文、产出不可复核；独立开发者缺少团队评审与流程护栏，返工和人工补流程的负担落在自己身上。
+  pain_en: 'Coding agents by default have no enforced pipeline: they jump to code, lose context across
+    stages, and produce hard-to-review output; solo developers lack team review and process guardrails,
+    so rework and manual process repair fall on them.'
+  current_alternative: 现状替代是手工在提示词里逐次交代流程、自己维护需求与设计文档、或依赖通用 agent 框架与零散插件拼装工作流；每一步的约束都要用户自己重复输入。
+  current_alternative_en: Today's alternatives are manually restating the process in each prompt, maintaining
+    requirements and design docs by hand, or assembling generic agent frameworks and scattered plugins;
+    the user re-supplies the constraints every step.
+  usage_reason: 推断：相较每次手写提示词，它把七阶段规则、Skills 与 Hooks 一次性装进代理，使代理在需求、设计、原型等阶段自动按同一套约束产出，减少用户重复交代流程和跨阶段补文档的步骤；因此会在启动新
+    0-1 项目、希望代理产出可复核的阶段文档时选择它。公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus re-writing prompts each time, it installs seven-stage rules, Skills
+    and Hooks into the agent once, so the agent produces output under the same constraints across requirements,
+    design and prototype stages, cutting the user''s repeated process restatement and cross-stage doc
+    patching; users would pick it when starting a new 0-to-1 project and wanting reviewable stage artifacts.
+    Public materials show no retention or repeat-use evidence.'

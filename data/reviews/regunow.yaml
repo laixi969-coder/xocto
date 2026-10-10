@@ -1,0 +1,91 @@
+- id: req-initial-regunow-2026-10-10
+  project_slug: regunow
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合规人员把法规文本转成可执行审计清单的需求，痛点是人工比对耗时且漏项有处罚风险，结构上成立。
+    evidence_ids:
+    - ev-f29bbe167c934130
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，没有用户评价、客户案例或采用数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-f29bbe167c934130
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方是法务团队、律所还是企业合规部门，也未披露定价，付费路径属推断。
+    evidence_ids:
+    - ev-f29bbe167c934130
+  - gate: truth
+    status: insufficient
+    reason: 未说明覆盖法域、是否需人工复核、结果准确性如何保证，交付确定性无法核对。
+    evidence_ids:
+    - ev-f29bbe167c934130
+  next_validation: 收集 Regunow 官方定价页或客户案例，确认覆盖的法域范围与审计条目的交付形式。
+  market: ''
+  job: 合规专员在监管规则更新时，把散落的法规文本整理成可执行的审计清单，供内部或外部审计使用。
+  job_en: Compliance officers turn scattered regulatory texts into actionable audit checklists for internal
+    or external audits when rules update.
+  pain: 法规文本分散、更新频繁，人工逐条比对耗时且容易漏项，漏项会带来监管处罚风险。
+  pain_en: Regulatory texts are scattered and update frequently; manual clause-by-clause comparison is
+    slow and error-prone, and missed items carry penalty risk.
+  current_alternative: 目前多由合规人员或外部律所人工阅读法规、用表格整理要求，或购买昂贵的合规数据库。
+  current_alternative_en: Today compliance staff or outside law firms read regulations manually, organize
+    requirements in spreadsheets, or buy expensive compliance databases.
+  usage_reason: 推断：相较人工逐条阅读，它把法规文本直接转成审计条目，减少从阅读到成表的整理步骤，因此人手有限的合规团队在规则密集更新时会选择试用；公开材料未提供客户案例或留存证据。
+  usage_reason_en: 'Inference: compared with reading clause by clause, it converts regulatory text directly
+    into audit items, cutting the step between reading and tabulating, so small compliance teams facing
+    dense rule updates may try it; no customer cases or retention evidence are public.'
+- id: req-full-regunow-2026-10-10
+  project_slug: regunow
+  level: full
+  reviewed_at: '2026-10-10T02:32:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合规人员把法规文本转成可执行审计清单的需求，痛点是人工逐条比对耗时且漏项有处罚风险，替代方式是人工阅读加表格或合规数据库；这是基于产品定位与替代品的工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-f29bbe167c934130
+    - ev-31528473b3e700f6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页定位描述与替代品列表，没有用户评价、客户案例或采用数据，无法判断合规人群是否已形成选择共识；替代品存在只说明场景被认可，不等于本产品被采用。
+    evidence_ids:
+    - ev-f29bbe167c934130
+    - ev-31528473b3e700f6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方是企业合规部门、律所还是金融机构，也未披露定价与计费方式，付费路径只能推断为 to B 订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-f29bbe167c934130
+  - gate: truth
+    status: insufficient
+    reason: 未说明覆盖哪些法域、抽取结果是否需人工复核、准确性如何保证，交付确定性无法核对；合规场景对漏项与误判敏感，人工边界缺失是主要缺口。
+    evidence_ids:
+    - ev-f29bbe167c934130
+  next_validation: 追踪 Regunow 官网定价页与客户案例页，确认覆盖法域、审计条目交付形式及是否标注人工复核环节。
+  market: ''
+  job: 合规专员或法务人员在监管规则更新时，把散落的法规文本交给系统，抽取要求并整理成可执行的合规审计清单，供内部或外部审计逐条核对。
+  job_en: When regulations update, compliance officers or legal staff feed scattered regulatory texts
+    into the system to extract requirements and produce an actionable compliance audit checklist for internal
+    or external audit review.
+  pain: 法规文本分散、更新频繁，人工逐条阅读比对耗时且容易漏项，漏项会带来监管处罚与审计返工风险；公开材料只给出产品定位，未提供用户抱怨或案例佐证。
+  pain_en: Regulatory texts are scattered and update frequently; manual clause-by-clause reading is slow
+    and error-prone, and missed items carry penalty and audit-rework risk. Public material only states
+    the product positioning, with no user complaints or cases cited.
+  current_alternative: 合规人员或外部律所人工阅读法规、用表格整理要求，或采购合规数据库；公开资料 替代页列出 Sprinto、Probo、Cleo Labs、Auxilius.ai
+    等自动化合规工具。
+  current_alternative_en: Compliance staff or outside law firms read regulations manually and tabulate
+    requirements, or buy compliance databases; the public reporting alternatives page lists Sprinto, Probo,
+    Cleo Labs and Auxilius.ai as automation options.
+  usage_reason: 推断：相较人工逐条阅读再手工成表，它把法规文本直接转成审计条目，省去从阅读到建表的整理环节，因此人手有限、规则密集更新的合规团队会考虑试用；公开材料无客户案例或留存证据，无法确认已长期留在工作流。
+  usage_reason_en: 'Inference: compared with reading clause by clause and tabulating by hand, it converts
+    regulatory text directly into audit items, removing the step between reading and building the checklist,
+    so small compliance teams facing dense rule updates may try it; no customer cases or retention evidence
+    are public, so long-term workflow embedding is unconfirmed.'

@@ -1,6 +1,6 @@
 ---
 slug: shb-将人工智能融入到其运营中智能应用而不是创造人工智能的竞赛
-name: SHB 将人工智能融入到其运营中：智能应用，而不是“创造人工智能”的竞赛。
+name: SHB
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxOTWR2OWNyNnpV
 summary: SHB 将人工智能融入到其运营中：智能应用，而不是“创造人工智能”的竞赛。 Vietnam.vn
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# SHB 将人工智能融入到其运营中：智能应用，而不是“创造人工智能”的竞赛。
+# SHB
 
 SHB 将人工智能融入到其运营中：智能应用，而不是“创造人工智能”的竞赛。 Vietnam.vn
 

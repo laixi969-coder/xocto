@@ -1,0 +1,75 @@
+- id: req-initial-persona-raises-10-million-as-cal-ai-founder-launches-consume-2026-10-10
+  project_slug: persona-raises-10-million-as-cal-ai-founder-launches-consume
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有融资与创始人信息，价值关无法成立。
+    evidence_ids:
+    - ev-cb048be8a17772ce
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注度数据可判断共识。
+    evidence_ids:
+    - ev-cb048be8a17772ce
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-cb048be8a17772ce
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从核对。
+    evidence_ids:
+    - ev-cb048be8a17772ce
+  next_validation: 收集 Persona 官方产品页或应用商店页面，确认其具体功能、目标用户与是否标注定价。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境与要处理的材料，无法还原一个可描述的任务。
+  job_en: The material names no specific user, situation or material, so no describable task can be reconstructed.
+  pain: 材料只给出融资与创始人背景，没有说明用户在哪一步难受、现在如何绕过。
+  pain_en: It gives only funding and founder background, with no user pain point or current workaround.
+  current_alternative: 未披露，无法判断它替代的是通用聊天助手、搜索还是别的旧做法。
+  current_alternative_en: Undisclosed; it is unclear whether it replaces a general chat assistant, search
+    or something else.
+  usage_reason: 缺少产品能力与场景描述，无法解释用户为何选择它而非现有助手；这是信息缺口，不是需求不存在的证据。
+  usage_reason_en: With no capability or scenario description, there is no way to explain why a user would
+    pick it over existing assistants; this is an information gap, not proof the need is absent.
+- id: req-full-persona-raises-10-million-as-cal-ai-founder-launches-consume-2026-10-10
+  project_slug: persona-raises-10-million-as-cal-ai-founder-launches-consume
+  level: full
+  reviewed_at: '2026-10-10T02:31:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有融资与创始人信息，价值关无法成立。
+    evidence_ids:
+    - ev-8d9c62aafe6c8f0a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Persona 官方产品页或应用商店页面，确认其具体功能、目标用户与是否标注定价。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境与要处理的材料，无法还原一个可描述的任务。
+  job_en: The material names no specific user, situation or material, so no describable task can be reconstructed.
+  pain: 材料只给出融资与创始人背景，没有说明用户在哪一步难受、现在如何绕过。
+  pain_en: It gives only funding and founder background, with no user pain point or current workaround.
+  current_alternative: 未披露，无法判断它替代的是通用聊天助手、搜索还是别的旧做法。
+  current_alternative_en: Undisclosed; it is unclear whether it replaces a general chat assistant, search
+    or something else.
+  usage_reason: 缺少产品能力与场景描述，无法解释用户为何选择它而非现有助手；这是信息缺口，不是需求不存在的证据。
+  usage_reason_en: With no capability or scenario description, there is no way to explain why a user would
+    pick it over existing assistants; this is an information gap, not proof the need is absent.

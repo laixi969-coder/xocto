@@ -334,3 +334,55 @@
     assembly step, so solo creators with only a story idea and no editing capacity would pick it for batch
     output; public materials do not describe manual revision or per-segment confirmation, and no evidence
     exists on output quality or retention.'
+- id: req-full-bang-story-2026-10-10
+  project_slug: bang-story
+  level: full
+  reviewed_at: '2026-10-10T02:28:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决故事类视频创作者从文字创意到可上传成片的制作需求，痛点是脚本、配图、剪辑分散在多工具手工串联；公开说明已能还原输入创意、自动生成脚本图片视频、输出成片的闭环，属工作流结构推理，痛点强度与成片质量仍缺用户证据。
+    evidence_ids:
+    - ev-266074db31c78708
+    - ev-5ba25d6f5d030e2a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 66 缓慢升至 73，说明有开发者关注，但公开材料没有目标创作者的使用反馈、复刻后的实际产出或持续使用记录，无法判断强场景是否形成，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-266074db31c78708
+    - ev-9d92cdf6e98f80a0
+    - ev-bdaedae65c436ba2
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入路径，桌面应用可能走 to C 订阅或一次性授权，但这只是判断而非已验证事实；缺买方信息不反推需求不存在。
+    evidence_ids:
+    - ev-266074db31c78708
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明成片质量、是否需逐段人工确认、生成失败或版权素材的处理方式，交付能否稳定发生缺少可复现证据，人工与安全边界也未披露。
+    evidence_ids:
+    - ev-266074db31c78708
+    - ev-5ba25d6f5d030e2a
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认是否有创作者公开的成片样例、生成流程说明或使用反馈，以核验交付质量与真实使用场景。
+  market: ''
+  job: 做 YouTube 故事类视频的独立创作者在只有文字创意、没有脚本和素材的情况下，打开这个桌面应用输入故事创意，由 AI 依次产出脚本、配图和视频，最终拿到可上传的成片文件。
+  job_en: An independent YouTube story-video creator who has only a text idea and no script or assets
+    opens this desktop app, enters the story idea, and lets the AI produce script, images and video in
+    sequence to obtain an uploadable finished file.
+  pain: 公开材料只说明它把脚本、配图、剪辑串成一条自动链路，未披露用户抱怨、成片质量或返工率；从工作流结构推理，故事类视频的脚本、配图与逐段剪辑原本要在多个工具间手工搬运，这是该任务的主要摩擦，但痛点强度属推断而非用户证词。
+  pain_en: Public materials only describe an automated script-image-video pipeline and disclose no user
+    complaints, output quality or rework rate; by workflow inference, story-video scripting, illustration
+    and clip assembly normally require manual shuttling across several tools, which is the main friction,
+    but pain intensity is inferred, not user-testified.
+  current_alternative: 公开材料未说明用户现在用什么替代；结构上可推断的旧做法是人工写脚本、用图库或绘图工具配图、再在剪辑软件里逐段拼接，或使用通用 AI 视频工具分步生成后自行组装。
+  current_alternative_en: Public materials do not state the current substitute; the structurally inferable
+    old approach is writing the script by hand, sourcing images from stock or drawing tools, then assembling
+    clips in an editor, or using general AI video tools step by step and stitching the output manually.
+  usage_reason: 推断：相较手工多工具串联，它把脚本、图片、视频三步收进一个桌面应用、由一次创意输入触发，减少在写稿、找图和剪辑软件之间反复切换与导出导入的步骤，因此缺少制作班底、想快速把文字创意变成可上传成片的故事类创作者会在这种情况下选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual multi-tool chaining, it folds script, image and video into
+    one desktop app triggered by a single idea input, cutting the repeated switching and export/import
+    between writing, image sourcing and editing software, so story creators without a production team
+    who want to turn a text idea into an uploadable video would choose it in that situation; public materials
+    contain no user feedback confirming this motive.'

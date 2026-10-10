@@ -1,6 +1,6 @@
 ---
 slug: openai-openai-python-v3280
-name: 'openai/openai-python: v3.28.0'
+name: openai-python
 builder: openai
 category: ''
 summary_zh: ''
@@ -43,7 +43,7 @@ summary: '## [3.28.0](https://github.com/openai/openai-python/compare/v3.27.0...
   ([aaed2a7](https://github.com/openai/openai-python/commit/aaed2a767319b3bc0637e0522bf09a4c7f8f36fc))'
 first_seen: '2026-10-10T01:46:04Z'
 last_seen: '2026-10-10T01:46:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -55,7 +55,7 @@ sightings:
   kind: news
 ---
 
-# openai/openai-python: v3.28.0
+# openai-python
 
 ## [3.28.0](https://github.com/openai/openai-python/compare/v3.27.0...v3.28.0) (2026-10-09)
 

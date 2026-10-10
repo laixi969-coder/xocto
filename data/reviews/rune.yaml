@@ -1,0 +1,82 @@
+- id: req-initial-rune-2026-10-10
+  project_slug: rune
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅一句跨设备找回描述，未说清解决什么具体痛点、替代了哪一步旧工作，价值结构无法成立。
+    evidence_ids:
+    - ev-e381b9b859560f36
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺少用户评价、采用或持续使用证据。
+    evidence_ids:
+    - ev-e381b9b859560f36
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，未见定价页或付费路径。
+    evidence_ids:
+    - ev-e381b9b859560f36
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，AI 环节与交付方式均未说明。
+    evidence_ids:
+    - ev-e381b9b859560f36
+  next_validation: 收集 Rune 官方产品页或定价页，确认其 AI 具体功能、同步机制与交付方式。
+  market: ''
+  job: 拥有多台 Mac 的用户在一台设备上随手记下想法，之后需要在另一台设备上找回这条笔记。
+  job_en: A user with multiple Macs jots a thought on one device and later needs to retrieve that note
+    on another device.
+  pain: 公开材料只给出一句跨设备找回的描述，未说明现有笔记工具在同步或检索上具体哪里难受。
+  pain_en: Public material gives only one line about cross-device retrieval and does not state where existing
+    note tools specifically hurt in sync or search.
+  current_alternative: 用系统备忘录、iCloud 同步笔记或通用笔记应用跨设备查看。
+  current_alternative_en: Using system Notes, iCloud-synced notes, or a general note app to view across
+    devices.
+  usage_reason: 推断：若它能在多台 Mac 间自动同步并快速找回笔记，可省去手动整理与搜索的一步；但材料未说明 AI 环节与同步机制，无法确认用户为何选它而非系统备忘录。
+  usage_reason_en: 'Inference: if it auto-syncs and quickly retrieves notes across Macs, it saves a manual
+    organizing and searching step; but the material does not describe the AI step or sync mechanism, so
+    why users pick it over system Notes is unconfirmed.'
+- id: req-full-rune-2026-10-10
+  project_slug: rune
+  level: full
+  reviewed_at: '2026-10-10T02:32:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅一句跨设备找回描述，未说清解决什么具体痛点、替代了哪一步旧工作，价值结构无法成立。
+    evidence_ids:
+    - ev-92da22bb8c9d0e0b
+    - ev-c9d03838d7b3f4be
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Rune 官方产品页或定价页，确认其 AI 具体功能、同步机制与交付方式。
+  market: ''
+  job: 拥有多台 Mac 的用户在一台设备上随手记下想法或片段，之后在另一台 Mac 上需要把这条笔记找回来继续使用。
+  job_en: A user with multiple Macs jots a thought or snippet on one device and later needs to retrieve
+    that note on another Mac to continue using it.
+  pain: 公开材料只有“在一台 Mac 写下、在另一台找到”这一句描述，没有说明现有笔记工具在同步延迟、检索或整理上具体哪里难受，也没有用户抱怨或替代行为的记录。
+  pain_en: Public material contains only the single line 'write it down on one Mac, find it on the other'
+    and does not state where existing note tools specifically hurt in sync latency, retrieval, or organization,
+    nor any user complaint or workaround record.
+  current_alternative: 系统备忘录、iCloud 同步笔记或通用笔记应用跨设备查看。
+  current_alternative_en: System Notes, iCloud-synced notes, or a general note app for cross-device viewing.
+  usage_reason: 推断：若它能在多台 Mac 间自动同步并快速找回笔记，可省去手动整理与搜索的一步；但材料未说明 AI 环节、同步机制与交付方式，无法确认用户为何选它而非系统备忘录。
+  usage_reason_en: 'Inference: if it auto-syncs and quickly retrieves notes across Macs, it saves a manual
+    organizing and searching step; but the material does not describe the AI step, sync mechanism, or
+    delivery, so why users pick it over system Notes is unconfirmed.'

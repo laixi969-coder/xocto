@@ -1,0 +1,79 @@
+- id: req-initial-ongrid-2026-10-10
+  project_slug: ongrid
+  level: initial
+  reviewed_at: '2026-10-10T01:46:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决模型输出可校验的问题，但材料未说明旧校验流程与不解决的后果，痛点无法还原。
+    evidence_ids:
+    - ev-92ce22cb1ec8cd65
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源空间上的少量收藏，没有使用反馈、issue 讨论或采用案例，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-92ce22cb1ec8cd65
+  - gate: model
+    status: insufficient
+    reason: 开源项目，买方与收费路径均未披露；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-92ce22cb1ec8cd65
+  - gate: truth
+    status: insufficient
+    reason: 无法核对零 token 校验的实际效果与边界，也看不到人工复核与安全说明。
+    evidence_ids:
+    - ev-92ce22cb1ec8cd65
+  next_validation: 收集 ONGRID 仓库或空间中的使用文档与 issue 讨论，确认校验机制的实际输入输出与可复现效果。
+  market: ''
+  job: 开发者在需要让模型输出可被规则校验时，把本体与图谱结构接入决策流程，得到带零 token 校验的判定结果。
+  job_en: Developers wire ontology and graph structures into a decision flow when model output must be
+    rule-checkable, obtaining judgments with zero-token verification.
+  pain: 材料只有一句功能描述，没有说明开发者原来如何做校验、卡在哪一步、不解决会付出什么代价，痛点无法还原。
+  pain_en: The material is a single feature line and does not say how developers verified before, where
+    they got stuck, or what it costs to leave unsolved, so the pain cannot be reconstructed.
+  current_alternative: 候选未提供旧做法信息；按常识推断可能是人工规则脚本或模型自带校验，但这是推断，不是材料事实。
+  current_alternative_en: The candidate gives no information on prior practice; by inference it may be
+    hand-written rule scripts or built-in model checks, but this is inference, not a material fact.
+  usage_reason: 无法判断：材料未说明它相较旧校验方式减少了哪一步负担或改善了哪项可核对结果，因此不能解释开发者为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus prior verification
+    or which checkable result it improves, so it cannot explain why developers would choose it.'
+- id: req-full-ongrid-2026-10-10
+  project_slug: ongrid
+  level: full
+  reviewed_at: '2026-10-10T02:31:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决模型输出可校验的问题，但材料未说明旧校验流程与不解决的后果，痛点无法还原。
+    evidence_ids:
+    - ev-92ce22cb1ec8cd65
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ONGRID 在 公开模型社区 Space 或对应仓库中的使用文档与 issue 讨论，确认校验机制的输入输出与可复现效果。
+  market: ''
+  job: 开发者在本体与图谱结构已建好、需要模型输出可被规则校验时，把结构化知识接入决策流程，取得带零 token 校验的判定结果。
+  job_en: Developers with an existing ontology and graph structure wire that structured knowledge into
+    a decision flow when model output must be rule-checkable, obtaining judgments with zero-token verification.
+  pain: 公开材料只有一句功能描述，没有说明开发者原先如何做规则校验、卡在哪一步、不解决会付出什么代价，痛点无法还原。
+  pain_en: The public material is a single feature line and does not say how developers verified rules
+    before, where they got stuck, or what it costs to leave unsolved, so the pain cannot be reconstructed.
+  current_alternative: 候选未提供旧做法信息；按常识推断可能是手写规则脚本或模型自带校验，但这是推断，不是材料事实。
+  current_alternative_en: The candidate gives no information on prior practice; by inference it may be
+    hand-written rule scripts or built-in model checks, but this is inference, not a material fact.
+  usage_reason: 无法判断：材料未说明它相较旧校验方式减少了哪一步负担或改善了哪项可核对结果，因此不能解释开发者为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus prior verification
+    or which checkable result it improves, so it cannot explain why developers would choose it.'

@@ -1,0 +1,88 @@
+- id: req-initial-jevmem-2026-10-10
+  project_slug: jevmem
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多轮编码会话之间上下文丢失的问题，痛点是重复解释与重复试错，旧做法是手工维护说明文件，结构上成立。
+    evidence_ids:
+    - ev-c5902a9e4b860d00
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度信号，没有用户评价或团队采用材料说明它已进入日常流程。
+    evidence_ids:
+    - ev-c5902a9e4b860d00
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明任何付费路径或商业主体，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-c5902a9e4b860d00
+  - gate: truth
+    status: insufficient
+    reason: 记忆文件是否真能确定性召回、错误记忆如何纠正、是否需人工确认，公开材料未交代，交付确定性待核验。
+    evidence_ids:
+    - ev-c5902a9e4b860d00
+  next_validation: 收集该仓库的 issue 与 discussion，查看是否有开发者报告跨会话召回的实际效果与错误记忆处理方式。
+  market: ''
+  job: 开发者在同一代码仓库里连续多轮使用编码助手时，需要把上一轮定下的架构决策、编码规则和失败尝试带到下一轮，避免重复解释或重走死路。
+  job_en: Developers working across many coding-assistant sessions in one repository need the architecture
+    decisions, coding rules and failed attempts from earlier sessions carried into the next one, instead
+    of re-explaining or repeating dead ends.
+  pain: 会话一关，上下文就丢，开发者要么重新粘贴背景，要么让助手再次提出已经被否决的方案，重复劳动且容易前后不一致。
+  pain_en: Once a session closes the context is gone, so developers either re-paste background or watch
+    the assistant re-propose options already rejected, which wastes work and creates inconsistency.
+  current_alternative: 手工维护 CLAUDE.md 之类的说明文件、把关键结论复制进新会话，或干脆依赖助手自己重新推断。
+  current_alternative_en: Hand-maintaining a CLAUDE.md-style file, pasting key conclusions into a new
+    session, or simply letting the assistant re-infer everything.
+  usage_reason: 推断：相较手工维护说明文件，它把决策与失败尝试的沉淀动作放进会话流程本身，减少“先回忆再补写”这一步，因此长期在同一仓库迭代、又不想反复交代背景的开发者会尝试它；目前缺少留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with hand-maintaining a notes file, it moves the act of recording
+    decisions and dead ends into the session flow itself, removing the recall-then-rewrite step, so developers
+    who iterate in one repository and dislike re-briefing are likely to try it; retention or repeat-use
+    evidence is still missing.'
+- id: req-full-jevmem-2026-10-10
+  project_slug: jevmem
+  level: full
+  reviewed_at: '2026-10-10T02:30:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多轮编码会话之间上下文丢失的问题，痛点是重复解释与重复试错，旧做法是手工维护说明文件，结构上成立。
+    evidence_ids:
+    - ev-c5902a9e4b860d00
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度信号，没有用户评价或团队采用材料说明它已进入日常流程。
+    evidence_ids:
+    - ev-c5902a9e4b860d00
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明任何付费路径或商业主体，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-c5902a9e4b860d00
+  - gate: truth
+    status: insufficient
+    reason: 记忆文件是否真能确定性召回、错误记忆如何纠正、是否需人工确认，公开材料未交代，交付确定性待核验。
+    evidence_ids:
+    - ev-c5902a9e4b860d00
+  next_validation: 收集该仓库的 issue 与 discussion，查看是否有开发者报告跨会话召回的实际效果与错误记忆处理方式。
+  market: ''
+  job: 开发者在同一代码仓库里连续多轮使用 Claude Code 时，需要把上一轮定下的架构决策、编码规则和失败尝试带到下一轮，避免重复解释或重走死路。
+  job_en: Developers working across many Claude Code sessions in one repository need the architecture
+    decisions, coding rules and failed attempts from earlier sessions carried into the next one, instead
+    of re-explaining or repeating dead ends.
+  pain: 会话一关上下文就丢，开发者要么重新粘贴背景，要么看助手再次提出已被否决的方案，重复劳动且前后不一致。
+  pain_en: Once a session closes the context is gone, so developers either re-paste background or watch
+    the assistant re-propose options already rejected, wasting work and creating inconsistency.
+  current_alternative: 手工维护 CLAUDE.md 之类的说明文件、把关键结论复制进新会话，或依赖助手自己重新推断。
+  current_alternative_en: Hand-maintaining a CLAUDE.md-style file, pasting key conclusions into a new
+    session, or letting the assistant re-infer everything.
+  usage_reason: 推断：相较手工维护说明文件，它把决策与失败尝试的沉淀动作放进会话流程本身，减少“先回忆再补写”这一步，因此长期在同一仓库迭代、不愿反复交代背景的开发者会尝试它；目前缺少留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with hand-maintaining a notes file, it moves the act of recording
+    decisions and dead ends into the session flow itself, removing the recall-then-rewrite step, so developers
+    who iterate in one repository and dislike re-briefing are likely to try it; retention or repeat-use
+    evidence is still missing.'

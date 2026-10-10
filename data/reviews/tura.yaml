@@ -1,0 +1,43 @@
+- id: req-initial-tura-2026-10-10
+  project_slug: tura
+  level: initial
+  reviewed_at: '2026-09-10T05:14:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 agent 工具调用的轮次成本，但公开材料没有说明具体工作节点和不解决的后果，痛点强度无法判断。
+    evidence_ids:
+    - ev-054bfbf42c8dde62
+  - gate: consensus
+    status: insufficient
+    reason: 只有少量社区讨论，没有可归因到该项目的采用、评价或重复使用记录，共识卡在场景未被描述。
+    evidence_ids:
+    - ev-054bfbf42c8dde62
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业交付方式，买方与付费路径未披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-054bfbf42c8dde62
+  - gate: truth
+    status: insufficient
+    reason: 75% 的降幅为项目自述，未见可复现的测试方法或任务完成度对照，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-054bfbf42c8dde62
+  next_validation: 收集该仓库的 README、benchmark 脚本与 issue，确认轮次削减在哪些任务上测得、是否附带任务完成度对照。
+  market: ''
+  job: 开发者在构建调用 MCP 工具的 agent 时，需要减少模型与工具之间的往返轮次，以控制单次任务的调用成本。
+  job_en: Developers building agents that call MCP tools need to cut round-trips between model and tools
+    to control per-task call cost.
+  pain: 公开材料只有一句轮次削减的说法，没有说明开发者在哪一步被成本卡住、原来要花多少轮，也没有用户抱怨或替代行为记录。
+  pain_en: The public material is a single claim about cutting rounds; it does not say where developers
+    are blocked by cost or how many rounds it used to take, and there is no record of user complaints
+    or substitute behaviour.
+  current_alternative: 旧做法通常是直接按默认方式编排工具调用，或自行写缓存与批处理逻辑；候选材料未给出与这些做法的对比。
+  current_alternative_en: The old approach is usually orchestrating tool calls the default way, or writing
+    caching and batching logic by hand; the candidate material gives no comparison with these approaches.
+  usage_reason: 推断：如果轮次压缩能在不降低任务完成度的前提下减少调用次数，开发者会在 agent 调用成本敏感时选择它；但缺少采用、留存或付费证据，无法确认这一选择已经发生。
+  usage_reason_en: 'Inference: if round-trip compression cuts call counts without lowering task completion,
+    developers would choose it when agent call cost is sensitive; but adoption, retention or payment evidence
+    is missing, so this choice cannot be confirmed as happening.'

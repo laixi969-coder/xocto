@@ -1,0 +1,86 @@
+- id: req-initial-iwant-2026-10-10
+  project_slug: iwant
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决找算力与部署开源模型的需求，痛点真实，但公开材料只有一句功能描述，无法确认交付是否确定发生。
+    evidence_ids:
+    - ev-c0bf8f2ddc069543
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：除产品页一句描述外，没有用户评价、采用或社区讨论可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-c0bf8f2ddc069543
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或计费说明，无法判断收入来自开发者订阅、按算力计费还是转售差价。
+    evidence_ids:
+    - ev-c0bf8f2ddc069543
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验它是否真能确定性完成部署，也不清楚支持哪些云与模型，安全与配额边界未知。
+    evidence_ids:
+    - ev-c0bf8f2ddc069543
+  next_validation: 收集 iwant 官方定价页或部署文档，确认支持的 GPU 云、计费方式与一次部署的实际交付结果。
+  market: ''
+  job: 独立开发者或小团队在需要跑开源模型时，先找到可用 GPU，再把模型部署起来对外提供服务。
+  job_en: Solo developers or small teams need to find available GPUs and then deploy an open model to
+    serve traffic.
+  pain: 找算力要在多家云之间比价、查库存、再手工配置环境，步骤碎且容易卡在配额或驱动上。
+  pain_en: Finding compute means comparing clouds, checking availability and hand-configuring environments,
+    with frequent blocks on quota or drivers.
+  current_alternative: 直接租用 GPU 云主机、用托管推理平台，或自己维护部署脚本。
+  current_alternative_en: Renting GPU cloud instances directly, using managed inference platforms, or
+    maintaining their own deployment scripts.
+  usage_reason: 推断：如果一条命令真能同时完成找卡与托管，用户可省去跨平台比价和手工配置这一步，因此会吸引想快速试跑开源模型的小团队；但公开材料只有一句功能描述，缺少定价、实际部署结果与重复使用证据。
+  usage_reason_en: 'Inference: if one command really covers both finding GPUs and hosting, users skip
+    cross-platform comparison and manual setup, which would appeal to small teams wanting to try open
+    models quickly; but public material is a single feature line with no pricing, deployment outcomes
+    or repeat-use evidence.'
+- id: req-full-iwant-2026-10-10
+  project_slug: iwant
+  level: full
+  reviewed_at: '2026-10-10T02:30:29Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向菲律宾流媒体应用 iWant，与找 GPU、托管开源模型无关，无法还原用户任务、痛点与不解决的后果，价值结构无从成立。
+    evidence_ids:
+    - ev-08a9fa0337a01dd7
+    - ev-b4242da9789f5ef2
+    - ev-20f0ceb896097b63
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 iwant 的官方产品页或仓库 README，确认其是否真实提供 GPU 查找与开源模型托管功能，并记录支持的云、计费方式与一次部署的实际交付结果。
+  market: ''
+  job: 独立开发者或小团队在需要跑开源模型时，先找到可用 GPU，再把模型部署起来对外提供服务。
+  job_en: Solo developers or small teams need to find available GPUs and then deploy an open model to
+    serve traffic.
+  pain: 公开材料中没有任何用户痛点、抱怨或替代行为的证据；现有证据全部指向菲律宾流媒体应用 iWant，与 GPU 查找和模型托管无关，无法确认该产品真实存在及其要解决的问题。
+  pain_en: No public evidence of user pain, complaints or workarounds exists; all evidence points to the
+    Filipino streaming app iWant, unrelated to GPU discovery or model hosting, so the product's existence
+    and problem cannot be confirmed.
+  current_alternative: 无法从公开材料确认当前替代方式；按任务结构推断，开发者通常直接租用 GPU 云主机、使用托管推理平台或自维护部署脚本，但这是推理而非证据。
+  current_alternative_en: Current alternatives cannot be confirmed from public material; structurally,
+    developers would rent GPU cloud instances, use managed inference platforms or maintain their own deployment
+    scripts, but this is inference, not evidence.
+  usage_reason: 无法给出使用理由：公开证据中不存在该产品的功能说明、定价、部署结果或用户反馈，唯一可引用的材料是菲律宾流媒体应用 iWant，与所述任务无关，因此既不能确认需求，也不能解释用户为何选择它。
+  usage_reason_en: 'No usage reason can be given: public evidence contains no feature description, pricing,
+    deployment outcome or user feedback for this product, and the only citable material is the Filipino
+    streaming app iWant, unrelated to the stated task, so neither demand nor user choice can be explained.'

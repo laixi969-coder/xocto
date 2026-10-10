@@ -1,0 +1,92 @@
+- id: req-initial-phonable-2026-10-10
+  project_slug: phonable
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知漏接电话后发短信并汇总要点，说不清替代哪一步旧工作、交付是否可核对，需求与痛点均未成形。
+    evidence_ids:
+    - ev-1f58620d8f81e3b7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，材料中没有用户评价、客户案例或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-1f58620d8f81e3b7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，材料未披露定价、目标行业或买方类型，无法判断钱从哪来。
+    evidence_ids:
+    - ev-1f58620d8f81e3b7
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，短信内容是否准确、要点是否需人工确认、交付确定性均无材料可查。
+    evidence_ids:
+    - ev-1f58620d8f81e3b7
+  next_validation: 收集该产品官方页面或定价页，确认它面向哪类商家、短信与要点如何生成、是否有人工确认环节及收费方式。
+  market: ''
+  job: 小型服务商在忙不过来漏接客户电话时，需要向来电者回应并把通话要点留给自己跟进；材料未说明系统处理什么材料、产出什么、由谁确认。
+  job_en: When small service businesses miss customer calls while busy, they need to respond to the caller
+    and keep the call highlights for follow-up; the material does not say what the system processes, what
+    it produces or who confirms it.
+  pain: 漏接电话往往意味着丢掉一单生意，回拨又常错过时机；但候选资料没有给出用户抱怨、替代做法或采用行为来证明这一痛点。
+  pain_en: A missed call often means a lost job, and calling back frequently comes too late; yet the candidate
+    material provides no user complaint, workaround or adoption behaviour proving this pain.
+  current_alternative: 公开材料未提及替代方式；结构上可能的旧做法是人工回拨、语音信箱或第三方接听服务，均未被材料证实。
+  current_alternative_en: No alternative is mentioned; structurally the old way could be manual callbacks,
+    voicemail or third-party answering services, none confirmed by the material.
+  usage_reason: 无法给出因果解释：材料没有说明它相较人工回拨减少了哪一步负担，也没有可核对的结果或用户反馈，无法判断哪类商家会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    compared with manually calling back, nor offers any checkable result or user feedback, so it is unclear
+    which businesses would choose it and when.'
+- id: req-full-phonable-2026-10-10
+  project_slug: phonable
+  level: full
+  reviewed_at: '2026-10-10T02:31:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决漏接客户来电后无人回应、线索流失的需求，痛点是忙线或非营业时段回拨已错过时机；产品以自动短信回应来电者并向机主交付通话要点来闭环。公开材料仅一句定位，痛点强度与交付确定性属工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-1f58620d8f81e3b7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品定位，没有用户评价、客户案例或采用信号，无法判断共识卡在感知、想象、场景还是利益环节；也未发现中文生态相关讨论，场景是否够强无法从公开材料确认。
+    evidence_ids:
+    - ev-1f58620d8f81e3b7
+    - ev-515f280929929473
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、目标行业或买方类型，钱可能来自 to B 小型服务商订阅或按通话量计费，这是判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险，但付费路径完全未核验。
+    evidence_ids:
+    - ev-1f58620d8f81e3b7
+  - gate: truth
+    status: insufficient
+    reason: 短信内容如何生成、要点以什么形式呈现、是否需人工确认、误发或错漏时如何兜底，材料均未说明；交付能否确定性发生无法核对，安全与人工边界缺失。
+    evidence_ids:
+    - ev-1f58620d8f81e3b7
+  next_validation: 追踪 Phonable 官方产品页与定价页（含 公开资料 产品页链接的官网入口），确认它面向哪类商家、短信与要点如何生成、是否有人工确认环节及收费方式。
+  market: ''
+  job: 小型服务商（如水电维修、美容美发、本地零售）在忙不过来或非营业时间漏接客户来电时，需要让来电者立刻收到一条短信回应，同时把这次来电的要点留给自己，以便稍后回拨跟进线索。
+  job_en: When small service businesses (e.g. tradespeople, salons, local retail) miss a customer call
+    while busy or after hours, they need the caller to receive an immediate text reply and to keep the
+    gist of that call for themselves so they can follow up the lead later.
+  pain: 漏接电话往往直接等于丢掉一单生意，而回拨常已错过客户当下的决策时机；忙线或下班时段无人接听会让来电者转投下一家。候选材料只有一句产品定位，没有用户抱怨、替代做法或采用行为来直接证明这一痛点，因此痛点强度属于工作流结构推理。
+  pain_en: A missed call often means a lost job outright, and calling back frequently comes too late after
+    the customer has already decided; being busy or off-hours with no answer pushes the caller to the
+    next provider. The candidate material offers only a one-line positioning with no user complaint, workaround
+    or adoption behaviour directly proving this pain, so its intensity is a workflow-structure inference.
+  current_alternative: 结构上可能的旧做法是人工回拨、语音信箱、第三方人工接听/答录服务，或干脆不回；公开材料未提及任何替代方式，这些均为推断而非已证实事实。
+  current_alternative_en: Structurally the old ways could be manual callbacks, voicemail, third-party
+    human answering services, or simply not responding; the public material mentions no alternative, so
+    these are inferences rather than confirmed facts.
+  usage_reason: 推断：相较人工回拨或语音信箱，产品在漏接瞬间自动向来电者发短信、并把通话要点整理给机主，省去“先听语音留言再判断是否值得回拨”这一步，让忙线中的服务商不必中断手头工作即可保住线索；哪类商家会在什么情况下选择它，材料未给出用户反馈，无法写成事实。
+  usage_reason_en: 'Inference: compared with manual callbacks or voicemail, the product texts the caller
+    the moment a call is missed and hands the owner the call gist, removing the step of listening to a
+    voicemail before deciding whether a callback is worth it, so a busy service provider can keep the
+    lead without interrupting current work; which businesses choose it and when is not supported by user
+    feedback in the material and cannot be stated as fact.'

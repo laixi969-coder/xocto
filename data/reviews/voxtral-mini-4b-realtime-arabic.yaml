@@ -1,0 +1,84 @@
+- id: req-initial-voxtral-mini-4b-realtime-arabic-2026-10-10
+  project_slug: voxtral-mini-4b-realtime-arabic
+  level: initial
+  reviewed_at: '2026-10-10T01:46:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决阿拉伯语方言实时转写的需求，痛点是通用模型方言错误率高、事后人工整理耗时。
+    evidence_ids:
+    - ev-4f23f81b59b75344
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量点赞，缺少行业用户评价或采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-4f23f81b59b75344
+  - gate: model
+    status: insufficient
+    reason: 开源演示未披露商用定价或买方，付费路径只能推断为面向客服与转录服务商，属判断。
+    evidence_ids:
+    - ev-4f23f81b59b75344
+  - gate: truth
+    status: insufficient
+    reason: 缺少准确率、延迟与部署文档等可核对结果，交付确定性无法确认。
+    evidence_ids:
+    - ev-4f23f81b59b75344
+  next_validation: 收集该演示的模型卡或部署文档，核对阿拉伯语方言识别准确率与实时延迟数据。
+  market: ''
+  job: 阿拉伯语呼叫中心或会议记录人员，在通话进行中处理流式语音，要实时得到可用的文字转写。
+  job_en: Arabic call-center or meeting staff, during a live call, process streaming speech to get usable
+    real-time transcripts.
+  pain: 方言口音让通用英语语音模型转写错误率高，事后人工整理录音耗时。
+  pain_en: Dialect accents cause high error rates in generic English speech models, and manually transcribing
+    recordings afterward is slow.
+  current_alternative: 目前多依赖通用语音模型加人工校对，或直接雇人听录音整理。
+  current_alternative_en: Today most rely on generic speech models plus manual correction, or hire people
+    to listen and transcribe.
+  usage_reason: 推断：相较通用语音模型，它针对阿拉伯语方言做流式识别，减少事后人工听录这一步，因此阿拉伯语客服与会议记录团队会试用它。
+  usage_reason_en: 'Inference: versus generic speech models, it streams Arabic dialect recognition, cutting
+    the manual listen-and-type step, so Arabic support and meeting teams would try it.'
+- id: req-full-voxtral-mini-4b-realtime-arabic-2026-10-10
+  project_slug: voxtral-mini-4b-realtime-arabic
+  level: full
+  reviewed_at: '2026-10-10T02:33:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决阿拉伯语方言实时转写需求，痛点是通用语音模型方言覆盖弱、事后人工听录耗时；这是从流式输入到文字交付的工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-4f23f81b59b75344
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品自述说明其做阿拉伯语流式转写，缺少行业用户评价、采用记录或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-4f23f81b59b75344
+  - gate: model
+    status: insufficient
+    reason: 开源演示未披露商用定价或买方，付费路径只能推断为面向客服与转录服务商，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4f23f81b59b75344
+  - gate: truth
+    status: insufficient
+    reason: 缺少准确率、延迟与部署文档等可核对结果，承诺能否确定性交付无法确认，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-4f23f81b59b75344
+  next_validation: 追踪该 公开模型社区 Space 的模型卡与部署文档，核对阿拉伯语方言识别准确率与实时延迟指标。
+  market: ''
+  job: 阿拉伯语呼叫中心坐席或会议记录人员，在通话或会议进行中处理流式阿拉伯语语音（含现代标准语与方言），要实时得到可用的文字转写用于记录与后续检索。
+  job_en: Arabic call-center agents or meeting note-takers, during a live call or meeting, process streaming
+    Arabic speech (MSA and dialects) to get usable real-time transcripts for records and later retrieval.
+  pain: 公开材料只说明它做阿拉伯语流式转写，未给出方言错误率或人工整理耗时的用户抱怨；可确认的痛点是通用语音模型对阿拉伯语方言覆盖弱，而事后听录音整理是人工密集环节。
+  pain_en: Public material only states it does streaming Arabic transcription and gives no user complaints
+    about dialect error rates or manual cleanup time; the confirmable pain is that generic speech models
+    cover Arabic dialects poorly, while post-hoc listen-and-transcribe is labor-intensive.
+  current_alternative: 当前替代是通用语音识别模型加人工校对，或直接雇人听录音逐句整理；公开材料未展示这些替代方式的具体使用记录。
+  current_alternative_en: The current alternative is generic ASR plus manual correction, or hiring people
+    to listen and transcribe line by line; public material shows no concrete usage records of these alternatives.
+  usage_reason: 推断：相较通用语音模型加事后人工听录，它把阿拉伯语方言识别放进流式管线，在通话进行中即产出文字，减少事后重听整段录音这一步，因此阿拉伯语客服与会议记录团队会在方言密集场景下试用它。
+  usage_reason_en: 'Inference: versus generic ASR plus post-hoc manual transcription, it puts Arabic dialect
+    recognition into a streaming pipeline that emits text during the call, removing the step of re-listening
+    to the whole recording, so Arabic support and meeting teams would try it in dialect-heavy settings.'

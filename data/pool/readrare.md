@@ -21,7 +21,7 @@ canonical_url: https://readrare.com
 summary: The rarest tech books and docs you've probably never read
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

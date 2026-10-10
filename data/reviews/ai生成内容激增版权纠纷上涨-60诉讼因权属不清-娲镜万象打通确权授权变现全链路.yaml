@@ -1,0 +1,92 @@
+- id: req-initial-ai生成内容激增版权纠纷上涨-60诉讼因权属不清-娲镜万象打通确权授权变现全链路-2026-10-10
+  project_slug: ai生成内容激增版权纠纷上涨-60诉讼因权属不清-娲镜万象打通确权授权变现全链路
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI生成素材商用前的权属登记与授权问题，痛点由约60%诉讼因权属不清的报道支撑，属刚性风险；买方是谁尚不清楚。
+    evidence_ids:
+    - ev-5f8d65b4a67daa05
+  - gate: consensus
+    status: insufficient
+    reason: 只有一篇报道提及，未见创作者或平台采用、案例或社区讨论，卡在场景感知环节。
+    evidence_ids:
+    - ev-5f8d65b4a67daa05
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，to C、to B 还是平台分成均无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5f8d65b4a67daa05
+  - gate: truth
+    status: insufficient
+    reason: 确权凭证能否被司法或平台认可、人工复核边界如何，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-5f8d65b4a67daa05
+  next_validation: 收集娲镜万象官方产品页或客户案例，确认其确权与授权交付物的具体形态及是否被平台或司法采信。
+  market: ''
+  job: 内容创作者与法务人员在AI生成素材进入商用或授权前，处理权属登记、授权与收益分配材料，完成可追溯的确权与授权交付。
+  job_en: Content creators and legal staff handle ownership registration, licensing and revenue-sharing
+    materials before AI-generated assets go commercial, delivering traceable rights clearance and licensing.
+  pain: 候选资料称约60%相关诉讼因权属不清，说明生成素材一旦商用，权属与授权链条缺失会直接带来纠纷与无法收费的风险。
+  pain_en: The candidate says about 60% of related lawsuits turn on unclear ownership, meaning missing
+    ownership and licensing chains directly create dispute and unmonetizable risk once generated assets
+    go commercial.
+  current_alternative: 旧做法多为人工整理素材来源、合同与授权记录，或干脆不登记直接使用，权属凭证分散且难以追溯。
+  current_alternative_en: The old way is manually tracking asset sources, contracts and license records,
+    or using assets without registration, leaving ownership proof scattered and hard to trace.
+  usage_reason: 推断：若它能把登记、授权与收益分配收敛到同一份可追溯凭证，创作者在素材入库时就不必再手工拼接来源与合同记录，法务也能直接核验授权范围；但公开材料未展示实际交付物，这一因果仍待核验。
+  usage_reason_en: 'Inference: if it consolidates registration, licensing and revenue sharing into one
+    traceable certificate, creators need not manually stitch source and contract records at asset intake,
+    and legal can verify license scope directly; the public material does not show the actual deliverable,
+    so this causal link still needs verification.'
+- id: req-full-ai生成内容激增版权纠纷上涨-60诉讼因权属不清-娲镜万象打通确权授权变现全链路-2026-10-10
+  project_slug: ai生成内容激增版权纠纷上涨-60诉讼因权属不清-娲镜万象打通确权授权变现全链路
+  level: full
+  reviewed_at: '2026-10-10T02:28:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI生成素材商用前的权属登记与授权问题，候选资料称约60%相关诉讼因权属不清，痛点属刚性法律风险；旧做法靠人工整理来源与合同，凭证分散难追溯。买方是谁公开材料未说明，属结构推理而非采用数据。
+    evidence_ids:
+    - ev-5f8d65b4a67daa05
+  - gate: consensus
+    status: insufficient
+    reason: 仅一篇报道提及该产品，未见创作者、法务或平台的实际采用、客户案例或社区讨论，卡在场景感知环节，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-5f8d65b4a67daa05
+  - gate: model
+    status: insufficient
+    reason: 未见官方定价页或收费方式，to C、to B 还是平台分成均无法判断；这是基于公开材料的判断，不是已验证的付费事实。
+    evidence_ids:
+    - ev-5f8d65b4a67daa05
+  - gate: truth
+    status: insufficient
+    reason: 确权凭证能否被司法或内容平台采信、人工复核边界与责任划分如何，公开材料未说明，交付确定性尚缺可核验依据。
+    evidence_ids:
+    - ev-5f8d65b4a67daa05
+  next_validation: 追踪娲镜万象官网产品页或客户案例，确认其确权与授权交付物的具体形态（登记凭证、授权合同模板或链上存证）及是否被内容平台或司法采信。
+  market: ''
+  job: 内容创作者与法务人员在AI生成素材进入商用或授权环节时，处理素材来源、权属登记、授权范围与收益分配材料，完成可追溯的确权与授权交付，使素材可以合法商用或对外授权。
+  job_en: Content creators and legal staff, when AI-generated assets enter commercial use or licensing,
+    handle asset provenance, ownership registration, license scope and revenue-sharing materials to deliver
+    traceable rights clearance and licensing so the asset can be legally used or licensed out.
+  pain: 候选资料称约60%相关诉讼因权属不清，说明AI生成素材一旦商用，来源、权属与授权链条缺失会直接带来纠纷、下架或无法收费的风险；旧流程中这些凭证分散在生成记录、合同与聊天记录里，难以举证。
+  pain_en: The candidate material says about 60% of related lawsuits turn on unclear ownership, meaning
+    once AI-generated assets go commercial, missing provenance, ownership and licensing chains directly
+    create dispute, takedown or unmonetizable risk; in the old process such proof is scattered across
+    generation logs, contracts and chat records and is hard to produce as evidence.
+  current_alternative: 旧做法是人工整理素材来源、生成记录、合同与授权台账，或干脆不登记直接使用；权属凭证分散、格式不统一，商用前难以快速核验授权范围。
+  current_alternative_en: The old way is manually compiling asset sources, generation logs, contracts
+    and license ledgers, or simply using assets without registration; ownership proof is scattered and
+    inconsistently formatted, making license scope hard to verify quickly before commercial use.
+  usage_reason: 推断：若它把确权登记、授权条款与收益分配收敛为同一份可追溯凭证，创作者在素材入库时就不必再手工拼接来源与合同记录，法务也能直接核验授权范围与分成依据，因此会在素材即将商用或对外授权时选择它；公开材料未展示实际交付物，这一因果仍属结构推理。
+  usage_reason_en: 'Inference: if it consolidates ownership registration, license terms and revenue sharing
+    into one traceable certificate, creators need not manually stitch source and contract records at asset
+    intake, and legal can directly verify license scope and royalty basis, so it would be chosen when
+    an asset is about to go commercial or be licensed out; the public material does not show the actual
+    deliverable, so this causal link remains structural reasoning.'

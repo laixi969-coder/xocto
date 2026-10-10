@@ -22,7 +22,7 @@ summary: 'The Week’s 10 Biggest Funding Rounds: AI And Energy Top A Busy Lineu
   News'
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

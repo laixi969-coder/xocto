@@ -1,0 +1,37 @@
+- id: req-initial-muse-2026-10-10
+  project_slug: muse
+  level: initial
+  reviewed_at: '2026-09-11T00:10:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 书签整理长期属于没有也行的事情，候选未说明用户为此付出的具体代价，价值关未过。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或讨论证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付形态与人工边界均未说明。
+    evidence_ids: []
+  next_validation: 收集该产品的官方页面或定价说明，确认它接收什么材料、输出什么交付以及是否按订阅收费。
+  market: ''
+  job: Mac 用户在浏览网页、积累资料时，处理散落的链接与书签，要完成可检索、可分类的收藏整理。
+  job_en: Mac users browsing the web and accumulating material process scattered links and bookmarks to
+    get searchable, categorized collections.
+  pain: 书签越积越多、难以检索和复用，但候选资料未说明用户为此付出的具体代价，痛点强度无法确认。
+  pain_en: Bookmarks pile up and become hard to search or reuse, but the candidate material does not state
+    the concrete cost users pay, so pain intensity cannot be confirmed.
+  current_alternative: 浏览器自带书签、稍后读工具或笔记软件。
+  current_alternative_en: Built-in browser bookmarks, read-later tools or note apps.
+  usage_reason: 推断：相较浏览器自带书签，它用 AI 做分类与检索，省掉手动整理这一步，因此收藏量大且需要复用的用户可能尝试；但候选未给出任何采用或留存证据。
+  usage_reason_en: 'Inference: versus built-in browser bookmarks, it applies AI categorization and retrieval,
+    removing the manual tidying step, so heavy savers who need reuse might try it; the candidate gives
+    no adoption or retention evidence.'

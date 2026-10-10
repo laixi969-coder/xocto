@@ -1,0 +1,93 @@
+- id: req-initial-谷歌发布通用gemini工作智能体可跨应用执行任务并调用claude模型-2026-10-10
+  project_slug: 谷歌发布通用gemini工作智能体可跨应用执行任务并调用claude模型
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用事务需人工反复切换与重复录入的需求，痛点在结构上成立，但买方与权限边界未明。
+    evidence_ids:
+    - ev-8cde6e08b891857b
+  - gate: consensus
+    status: insufficient
+    reason: 发布本身不构成持续采用证据，公开材料未给出使用规模或用户反馈。
+    evidence_ids:
+    - ev-8cde6e08b891857b
+  - gate: model
+    status: insufficient
+    reason: 可调用 Claude 模型说明其按任务编排而非单一模型收费，但具体定价与付费方未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8cde6e08b891857b
+  - gate: truth
+    status: insufficient
+    reason: 跨应用代执行的权限、人工确认与失败回滚边界未公开，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-8cde6e08b891857b
+  next_validation: 收集该 Gemini 工作智能体的官方支持应用清单与权限说明文档，核对可代执行范围与人工确认环节。
+  market: ''
+  job: 办公室职员在需要跨多个应用完成一项事务时，把任务交给智能体，由它代为操作并返回完成结果。
+  job_en: Office workers who must complete a chore spanning several applications hand the task to the
+    agent, which operates on their behalf and returns the finished result.
+  pain: 跨应用事务需要在多个界面间反复切换、重复录入，人工逐步操作耗时且容易漏项，这是结构上可识别的负担。
+  pain_en: Cross-application chores require repeated switching between interfaces and re-entering data;
+    doing each step by hand is slow and error-prone, a structurally identifiable burden.
+  current_alternative: 目前用户依靠人工在多个应用间切换操作，或使用只能对话、不能代执行的助手。
+  current_alternative_en: Today users switch between applications manually, or use assistants that can
+    only converse and cannot execute on their behalf.
+  usage_reason: 推断：相较人工逐步切换应用，它把多步操作收敛为一次任务下发并返回结果，减少重复录入与漏项，因此需要频繁处理跨应用事务的办公用户会优先试用；但缺少采用与留存证据。
+  usage_reason_en: 'Inference: compared with manually switching applications step by step, it collapses
+    multiple steps into one task submission that returns a result, cutting re-entry and missed items,
+    so office users with frequent cross-app chores would try it first; adoption and retention evidence
+    is missing.'
+- id: req-full-谷歌发布通用gemini工作智能体可跨应用执行任务并调用claude模型-2026-10-10
+  project_slug: 谷歌发布通用gemini工作智能体可跨应用执行任务并调用claude模型
+  level: full
+  reviewed_at: '2026-10-10T02:34:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用事务需人工反复切换与重复录入的需求，痛点在结构上成立；但公开材料未给出支持应用清单、权限边界与人工确认环节，买方与交付确定性仍不明。
+    evidence_ids:
+    - ev-fb80393ab7d07e5d
+    - ev-58333cdf578a39a7
+  - gate: consensus
+    status: insufficient
+    reason: 发布本身不构成持续采用证据，公开材料未给出使用规模、用户反馈或留存数据，无法判断是否已进入工作流。
+    evidence_ids:
+    - ev-fb80393ab7d07e5d
+    - ev-277f7cfc133104be
+  - gate: model
+    status: insufficient
+    reason: 可调用 Claude 模型说明其按任务编排而非单一模型收费，但具体定价与付费方未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-277f7cfc133104be
+    - ev-2abbcb5e55558c93
+  - gate: truth
+    status: insufficient
+    reason: 跨应用代执行的权限范围、人工确认与失败回滚边界未公开，交付能否确定发生无法核对，安全与人工边界待明确。
+    evidence_ids:
+    - ev-fb80393ab7d07e5d
+    - ev-58333cdf578a39a7
+  next_validation: 收集该 Gemini 工作智能体的官方支持应用清单与权限说明文档，核对可代执行范围与人工确认环节。
+  market: ''
+  job: 办公室职员在需要跨多个应用完成一项事务（如汇总信息、发起审批、整理并分发材料）时，把任务交给 Gemini 工作智能体，由它代为跨应用操作并返回完成结果。
+  job_en: Office workers who must complete a chore spanning several applications (gathering information,
+    initiating approvals, compiling and distributing materials) hand the task to the Gemini work agent,
+    which operates across apps on their behalf and returns the finished result.
+  pain: 跨应用事务需要在多个界面间反复切换、重复录入同一份信息，人工逐步操作耗时且容易漏项；公开材料未给出用户抱怨或 workaround 记录，此痛点来自任务结构推理。
+  pain_en: Cross-application chores require repeated switching between interfaces and re-entering the
+    same information; doing each step by hand is slow and error-prone. Public material contains no user
+    complaints or workaround records, so this pain is inferred from task structure.
+  current_alternative: 用户目前依靠人工在多个应用间切换逐步操作，或使用只能对话、不能代执行的助手（如 Gemini 现有写作、规划、头脑风暴功能）。
+  current_alternative_en: Users currently switch between applications manually step by step, or use assistants
+    that can only converse and cannot execute on their behalf (Gemini's existing writing, planning and
+    brainstorming features).
+  usage_reason: 推断：相较人工逐步切换应用，它把多步操作收敛为一次任务下发并返回结果，减少重复录入与漏项，因此频繁处理跨应用事务的办公用户会优先试用；公开材料未提供采用、留存或付费证据，动机属推断。
+  usage_reason_en: 'Inference: compared with manually switching applications step by step, it collapses
+    multiple steps into one task submission that returns a result, cutting re-entry and missed items,
+    so office users with frequent cross-app chores would try it first; public material provides no adoption,
+    retention or payment evidence, so the motive is inferred.'

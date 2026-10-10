@@ -1,0 +1,83 @@
+- id: req-initial-comcent-2026-10-10
+  project_slug: comcent
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是把 AI 语音接上企业自有线路这一步，但材料未说明原来谁在做、花多久、不做的后果，痛点强度无法判断。
+    evidence_ids:
+    - ev-bad6d2ea67c41baa
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有客户案例、评价或采用信号，无法判断买方是否已形成共识。
+    evidence_ids:
+    - ev-bad6d2ea67c41baa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式或买方类型，to B 还是按用量收费只能推测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-bad6d2ea67c41baa
+  - gate: truth
+    status: insufficient
+    reason: 无法核对语音交付是否确定发生、人工介入边界与合规责任如何划分，材料未涉及。
+    evidence_ids:
+    - ev-bad6d2ea67c41baa
+  next_validation: 收集 Comcent 官方定价页或部署文档，确认其计费方式、接入流程与是否披露客户案例。
+  market: ''
+  job: 呼叫中心或客服团队在已有 SIP 中继上部署 AI 语音代理时，需要把线路与语音能力打通，让自动通话能真正跑起来。
+  job_en: A call center or support team deploying AI voice agents on an existing SIP trunk needs to connect
+    the lines with voice capability so automated calls actually run.
+  pain: 公开材料只说明它提供基于自有 SIP 中继的语音基础设施，没有说明原来这一步由谁、用什么方式、花多久完成，痛点强度无法从现有事实判断。
+  pain_en: Public material only states it provides voice infrastructure on the user's own SIP trunk; it
+    does not say who did this step before, with what tool, or how long it took, so pain intensity cannot
+    be judged from available facts.
+  current_alternative: 可能沿用运营商或 CPaaS 厂商的语音接口，或由内部工程团队自行对接 SIP 与语音模型；具体替代方式未在材料中说明。
+  current_alternative_en: Possibly carrier or CPaaS voice APIs, or an in-house engineering team wiring
+    SIP to speech models; the actual alternative is not described in the material.
+  usage_reason: 推断：如果企业已投入 SIP 线路又不想更换运营商，把 AI 语音接在现有线路上可省去迁移线路这一步；但缺少定价、客户案例或使用数据，无法确认用户是否因此选择它。
+  usage_reason_en: 'Inference: if an enterprise has already invested in SIP lines and does not want to
+    switch carriers, attaching AI voice to existing lines avoids a line migration step; but without pricing,
+    customer cases or usage data, it is unconfirmed that users choose it for this reason.'
+- id: req-full-comcent-2026-10-10
+  project_slug: comcent
+  level: full
+  reviewed_at: '2026-10-10T02:29:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决把 AI 语音接上企业自有 SIP 中继这一步，但公开材料只有一句定位，未说明原流程、耗时、不做的后果或用户抱怨，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-bad6d2ea67c41baa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Comcent 官方产品页或部署文档，确认其接入流程、计费方式与是否披露客户案例或公开使用数据。
+  market: ''
+  job: 呼叫中心或客服团队在已投入自有 SIP 中继的情况下，要把 AI 语音代理或自动通话流程接到现有线路上，让自动通话真正跑起来。
+  job_en: A call center or support team that already owns a SIP trunk wants to attach AI voice agents
+    or automated call flows to those existing lines so automated calls actually run.
+  pain: 公开材料只有一句产品定位，没有说明这一步原先由谁做、用什么工具、耗时多久，也没有用户抱怨或 workaround 记录，因此无法确认痛点是否刚性。
+  pain_en: Public material contains only a one-line positioning statement; it does not say who performed
+    this step before, with what tool, or how long it took, and there are no user complaints or workaround
+    records, so pain rigidity cannot be confirmed.
+  current_alternative: 可能沿用运营商或 CPaaS 厂商的语音接口，或由内部工程团队自行把 SIP 与语音模型对接；具体替代方式未在材料中出现。
+  current_alternative_en: Possibly carrier or CPaaS voice APIs, or an in-house engineering team wiring
+    SIP to speech models; the actual alternative does not appear in the material.
+  usage_reason: 推断：若企业已投入 SIP 线路且不愿更换运营商，把 AI 语音接在现有线路上可省去迁移线路这一步，因此运维人员可能选择它；但缺少定价、客户案例或使用数据，无法确认这一动机。
+  usage_reason_en: 'Inference: if an enterprise has already invested in SIP lines and does not want to
+    switch carriers, attaching AI voice to existing lines avoids a line-migration step, so ops staff might
+    choose it; but without pricing, customer cases or usage data this motive is unconfirmed.'

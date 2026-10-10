@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE5LYU4tazVTYVhr
 summary: AI重构广电新业态，聚力共生开启行业换道超车新征程｜黑龙江广电AI生态大会深度观察 中广互联
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

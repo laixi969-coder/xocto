@@ -206,3 +206,51 @@
   usage_reason_en: 'Cannot be judged: the material does not say which integration burden decoupling removes
     or which checkable result improves, and attention metrics cannot explain why a developer would choose
     it.'
+- id: req-full-lcu-2026-10-10
+  project_slug: lcu
+  level: full
+  reviewed_at: '2026-10-10T02:30:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者无法在自选harness中复用Codex computer use、需自行重写界面操作层的问题；痛点刚性来自能力被绑定单一应用，不采用则集成成本自担。公开材料仅说明解耦，旧流程与后果为工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-006a67f840e1355d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库866星标只反映关注度，不能证明持续采用；公开材料未提供issue、discussion或用户评价，无法判断共识卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-006a67f840e1355d
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页与买方信息，钱可能来自企业适配、托管服务或支持合同，但均为判断而非已验证事实；未发现用户付费路径，需警惕仅靠关注度续命。
+    evidence_ids:
+    - ev-006a67f840e1355d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对界面操作在真实业务系统中的成功率、支持范围与安全边界；公开材料未说明harness兼容清单与人工兜底机制，交付确定性未验证。
+    evidence_ids:
+    - ev-006a67f840e1355d
+  next_validation: 追踪lcu仓库的README、issue与discussion，确认其支持的harness范围、实际可完成的界面任务类型，以及是否有企业用户提出适配或付费需求。
+  market: ''
+  job: AI应用开发者在自建agent运行环境（自选harness）时，需要让模型直接操作图形界面完成点击、输入等界面动作，把Codex的computer use能力嵌入自己的流程而非绑定在官方应用内。
+  job_en: An AI application developer building a custom agent runtime (chosen harness) needs the model
+    to operate a graphical interface—clicking and typing—embedding Codex computer-use capability into
+    their own pipeline rather than inside the official app.
+  pain: 公开材料只说明能力被从原应用中解耦，未给出开发者遇到的具体阻碍、失败场景或抱怨；痛点只能从工作流结构推断：computer use能力被绑定在单一宿主应用内，开发者无法在自选harness中复用，需自行重写界面操作层。
+  pain_en: 'Public material only states the capability is decoupled from the host app; it gives no specific
+    blocker, failure case or complaint. The pain is inferred from workflow structure: computer-use capability
+    locked inside a single host app cannot be reused in a chosen harness, forcing developers to rebuild
+    the interface-action layer themselves.'
+  current_alternative: 公开材料未提及替代方式；按结构推断，开发者此前只能直接使用原应用内置的computer use能力，或自行编写界面自动化脚本，但这是推断而非材料支持的事实。
+  current_alternative_en: No alternative is mentioned; by structural inference developers previously used
+    the computer-use capability built into the host app, or wrote their own UI automation scripts—this
+    is inference, not a fact supported by the material.
+  usage_reason: 推断：相较把computer use绑定在官方应用内，lcu把该能力解耦为可嵌入任意harness的组件，开发者无需自行重写界面操作层即可在自选运行环境中执行点击与输入；因此正在搭建自建agent运行环境、需要复用界面操作能力的开发者会在集成阶段选择它。公开材料未提供用户反馈或客户案例，此因果为基于产品能力的推断。
+  usage_reason_en: 'Inference: versus computer use locked inside the official app, lcu decouples the capability
+    into a component embeddable in any harness, so developers need not rebuild the interface-action layer
+    to click and type inside their chosen runtime; developers building a custom agent runtime who need
+    reusable UI-operation capability would therefore adopt it at integration time. No user feedback or
+    customer case is provided, so this causal link is inferred from product capability.'

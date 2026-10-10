@@ -1,0 +1,82 @@
+- id: req-initial-pune-ai-startup-curvetai-raises-rs-6-crore-to-build-ai-agent-2026-10-10
+  project_slug: pune-ai-startup-curvetai-raises-rs-6-crore-to-build-ai-agent
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有“处理复杂任务的 agent”这一方向，价值关无法成立。
+    evidence_ids:
+    - ev-1a3c8ebe407ca89e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。除融资报道外没有用户、场景或采用信号。
+    evidence_ids:
+    - ev-1a3c8ebe407ca89e
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。买方与付费路径均未披露，无法判断收入来源。
+    evidence_ids:
+    - ev-1a3c8ebe407ca89e
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核对交付是否确定发生，也无安全与人工边界信息。
+    evidence_ids:
+    - ev-1a3c8ebe407ca89e
+  next_validation: 收集 CurvetAI 官方产品页或客户案例，确认其具体服务的行业、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用 CurvetAI、处理什么材料、要完成什么任务；只能确认其宣称方向是让 agent 处理复杂任务。
+  job_en: Public material does not say who uses CurvetAI, in what situation, with what materials, or to
+    finish what task; only the stated direction of agents handling complex tasks is confirmed.
+  pain: 候选资料未给出任何用户痛点、旧流程或替代行为的描述，无法判断它缓解了哪一步负担。
+  pain_en: The candidate material gives no description of user pain, legacy process or substitute behavior,
+    so which burden it relieves cannot be judged.
+  current_alternative: 未披露。无法确认用户此前是用人工、外包还是其他软件完成同类任务。
+  current_alternative_en: Not disclosed. It cannot be confirmed whether users previously did comparable
+    work manually, via outsourcing, or with other software.
+  usage_reason: 缺少场景与交付信息，无法解释用户为何选择它；融资规模只说明关注度，不构成使用理由。
+  usage_reason_en: With no scenario or deliverable information, there is no explanation of why a user
+    would choose it; the funding size only indicates attention, not a usage reason.
+- id: req-full-pune-ai-startup-curvetai-raises-rs-6-crore-to-build-ai-agent-2026-10-10
+  project_slug: pune-ai-startup-curvetai-raises-rs-6-crore-to-build-ai-agent
+  level: full
+  reviewed_at: '2026-10-10T02:32:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有“处理复杂任务的 agent”这一方向，无法还原用户任务、旧替代与不解决的后果，价值关无法成立。
+    evidence_ids:
+    - ev-1a3c8ebe407ca89e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 CurvetAI 官方产品页或客户案例（官网/新闻稿），确认其具体服务的行业、输入材料与交付结果。
+  market: ''
+  job: 公开材料只说明 CurvetAI 位于浦那、获 6000 万卢比融资、方向是处理复杂任务的 AI agent；谁在什么情况下、处理什么材料、要完成什么任务均未披露，无法还原具体工作场景。
+  job_en: Public material only states CurvetAI is based in Pune, raised Rs 6 crore, and is building AI
+    agents for complex tasks; who uses it, in what situation, with what materials, and to finish what
+    task is undisclosed, so no concrete job can be reconstructed.
+  pain: 候选证据未给出任何用户痛点、旧流程或替代行为的描述，无法判断它缓解了哪一步负担；融资报道只说明关注度，不构成痛点证据。
+  pain_en: The candidate evidence gives no description of user pain, legacy process, or substitute behavior,
+    so which burden it relieves cannot be judged; the funding report only indicates attention, not pain
+    evidence.
+  current_alternative: 未披露。无法确认用户此前是用人工、外包还是其他软件完成同类任务。
+  current_alternative_en: Not disclosed. It cannot be confirmed whether users previously did comparable
+    work manually, via outsourcing, or with other software.
+  usage_reason: 缺少场景、输入材料与交付结果信息，无法解释哪类用户会在什么情况下选择它；融资规模只属于关注度证据，不能作为使用理由。
+  usage_reason_en: With no scenario, input material, or deliverable information, there is no explanation
+    of which users would choose it and when; funding size is attention evidence only and cannot serve
+    as a usage reason.

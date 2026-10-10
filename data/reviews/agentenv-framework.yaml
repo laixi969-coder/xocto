@@ -131,3 +131,50 @@
     and reproducibility into one structure, cutting the repeated setup and alignment step, so agent training
     and evaluation teams would pick it when comparing multiple environments; only star growth exists,
     with no usage feedback yet.'
+- id: req-full-agentenv-framework-2026-10-10
+  project_slug: agentenv-framework
+  level: full
+  reviewed_at: '2026-10-10T02:27:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体RL训练环境搭建缺共享框架的问题：跨工件、工具、动态性与复现性协作成本高，团队只能各自拼脚本，环境难对齐复用。公开说明已还原输入、动作与交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+    - ev-02f8d26861ee3e81
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从99升至212，说明关注度在增长，但公开材料没有团队报告已将其纳入日常训练流程，也没有issue或discussion佐证持续采用，共识仅停留在关注层。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+    - ev-02f8d26861ee3e81
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露定价、商业服务或支持合同，钱可能来自to B支持或to VC，但均无公开证据，属判断而非已验证事实。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+  - gate: truth
+    status: insufficient
+    reason: 无法核验环境是否真能复现、评测结果是否可对齐，承诺的确定性交付缺少部署文档或实测证据，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有团队公开报告用其搭建并复现了具体训练环境。
+  market: ''
+  job: 强化学习研究与工程团队在需要为智能体搭建可复现训练环境时，处理环境工件、工具调用、动态场景与复现配置，要产出一套他人能重复运行、可共享的环境。
+  job_en: RL research and engineering teams, when building reproducible training environments for agents,
+    work with environment artifacts, tool calls, dynamic scenarios and reproducibility config to produce
+    a setup others can re-run and share.
+  pain: 公开材料指出环境构建需研究者、工程师与领域专家跨工件、工具、动态性、复现性多维度协作，且缺少开源框架，团队只能各自拼内部脚本，环境难以对齐与复用。
+  pain_en: The public material states environment building requires researchers, engineers and domain
+    experts to collaborate across artifacts, tools, dynamism and reproducibility, with no open-source
+    framework, so teams stitch internal scripts and environments are hard to align or reuse.
+  current_alternative: 团队各自编写脚本、拼装内部工具链来搭建环境，缺少可共享的框架，复现与横向比较靠人工约定。
+  current_alternative_en: Teams write their own scripts and stitch internal tooling, with no shared framework;
+    reproducibility and cross-comparison rely on manual conventions.
+  usage_reason: 推断：相较各自拼脚本，该框架把工件、工具、动态性与复现要求收敛为统一组织方式，减少重复搭建与对齐成本，因此做智能体评测、需要横向比较多个环境的团队会在搭建新环境时选择它；目前缺少使用反馈与采用证据，动机属结构推理。
+  usage_reason_en: 'Inference: versus stitching scripts, the framework consolidates artifacts, tools,
+    dynamism and reproducibility into one organization, cutting repeated setup and alignment work, so
+    teams evaluating agents across multiple environments would pick it when building a new environment;
+    usage feedback and adoption evidence are absent, so this motive is structural inference.'

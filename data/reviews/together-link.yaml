@@ -1,0 +1,88 @@
+- id: req-initial-together-link-2026-10-10
+  project_slug: together-link
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决开源模型接入现有工具链的摩擦，但公开材料没有说明具体工作节点、不解决的后果，痛点强度无法判断。
+    evidence_ids:
+    - ev-ccaf3b8a5a43242f
+  - gate: consensus
+    status: insufficient
+    reason: 没有可归因到该产品的采用、评价或重复使用记录，共识卡在场景未被描述。
+    evidence_ids:
+    - ev-ccaf3b8a5a43242f
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或商业交付方式，买方与付费路径未披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ccaf3b8a5a43242f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近接入工作的第一性目标，也未见可复现的接入结果或安全边界说明。
+    evidence_ids:
+    - ev-ccaf3b8a5a43242f
+  next_validation: 收集该产品的官方文档或定价页，确认它支持哪些运行框架、接入方式以及是否按调用量或席位收费。
+  market: ''
+  job: 开发者在自建 agent 或编码工具链里接入开源模型时，需要把模型调用接进现有运行框架并跑通一次完整任务。
+  job_en: Developers wiring open models into a self-built agent or coding harness need to connect model
+    calls into the existing runtime and complete a full task.
+  pain: 公开材料只有一句接入说明，没有说明开发者在哪一步被卡住、现有做法要花多少时间，也没有用户抱怨或替代行为记录。
+  pain_en: The public material is a single line about integration; it does not say where developers get
+    stuck, how long the current approach takes, and there is no record of user complaints or substitute
+    behaviour.
+  current_alternative: 旧做法通常是直接调用模型厂商 API 或自行写适配代码；候选材料未给出与这些做法的对比。
+  current_alternative_en: The old approach is usually calling a model vendor API directly or writing adapter
+    code by hand; the candidate material gives no comparison with these approaches.
+  usage_reason: 推断：如果它能把多家开源模型的接入步骤收敛成一次配置，开发者会在需要快速切换模型、又不想重写调用层时选择它；但缺少采用、留存或付费证据，无法确认这一选择已经发生。
+  usage_reason_en: 'Inference: if it collapses the integration steps for several open models into one
+    configuration, developers would choose it when they need to switch models quickly without rewriting
+    the call layer; but adoption, retention or payment evidence is missing, so this choice cannot be confirmed
+    as happening.'
+- id: req-full-together-link-2026-10-10
+  project_slug: together-link
+  level: full
+  reviewed_at: '2026-10-10T02:33:11Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决开源模型接入现有工具链的摩擦，但公开材料只有一句接入说明，没有具体工作节点、不解决的后果或替代行为记录，连需求和痛点都还原不出，属于自嗨式描述。
+    evidence_ids:
+    - ev-2dd07e796cc7752f
+    - ev-beb598d69b6b82ea
+    - ev-8f91a9cef2ac9250
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Together Link 官网或文档页，确认其支持哪些运行框架、接入方式与是否按调用量或席位收费。
+  market: ''
+  job: 开发者或 AI 应用团队在自建 agent、编码工具链中接入开源模型时，需要把模型调用接进现有运行框架并跑通一次完整任务，或在自己的工具链里实际调用并比较输出。
+  job_en: Developers or AI application teams wiring open models into a self-built agent or coding harness
+    need to connect model calls into the existing runtime and complete a full task, or call and compare
+    outputs inside their own toolchain.
+  pain: 公开材料只有一句“Use open models in your harness”，没有说明开发者在哪一步被卡住、现有做法耗时多少，也没有用户抱怨、替代行为或采用记录，痛点强度无法还原。
+  pain_en: The public material is a single line, 'Use open models in your harness'; it does not say where
+    developers get stuck or how long the current approach takes, and there is no record of user complaints,
+    substitute behaviour or adoption, so pain intensity cannot be reconstructed.
+  current_alternative: 旧做法通常是直接调用模型厂商 API 或自行编写适配代码；候选材料未给出与这些做法的任何对比。
+  current_alternative_en: The old approach is usually calling a model vendor API directly or writing adapter
+    code by hand; the candidate material gives no comparison with these approaches.
+  usage_reason: 推断：若它能把多家开源模型的接入步骤收敛成一次配置，开发者会在需要快速切换模型、又不想重写调用层时选择它；但缺少采用、留存或付费证据，无法确认这一选择已经发生。
+  usage_reason_en: 'Inference: if it collapses the integration steps for several open models into one
+    configuration, developers would choose it when they need to switch models quickly without rewriting
+    the call layer; but adoption, retention or payment evidence is missing, so this choice cannot be confirmed
+    as happening.'

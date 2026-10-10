@@ -1,0 +1,87 @@
+- id: req-initial-stepfun-harness-2026-10-10
+  project_slug: stepfun-harness
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是桌面端编排编码代理这一需求，但公开材料未说明替代了哪一步旧手工流程，痛点强度无法判断。
+    evidence_ids:
+    - ev-69e119d4954737e7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 51 个星标，属于关注度信号，不能说明开发者已把它纳入日常工作流。
+    evidence_ids:
+    - ev-69e119d4954737e7
+  - gate: model
+    status: insufficient
+    reason: 提到订阅与 API 接入，但未披露定价、买方或按什么计价，付费路径无法核验。
+    evidence_ids:
+    - ev-69e119d4954737e7
+  - gate: truth
+    status: insufficient
+    reason: 无法确认多代理产出是否可确定性交付、人工复核边界在哪，也未说明与模型厂商官方工具的关系。
+    evidence_ids:
+    - ev-69e119d4954737e7
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际替代的编码步骤、交付边界与是否已有开发者持续使用。
+  market: ''
+  job: 开发者在本地桌面环境中把编码任务交给多代理工作流，通过订阅或 API 接入模型并用插件扩展，完成代码产出。
+  job_en: Developers hand coding tasks to multi-agent workflows in a local desktop environment, connecting
+    models via subscription or API and extending with plugins to produce code.
+  pain: 公开材料只给出功能清单，没有说明开发者原来在哪一步手工做、耗时多久或出错代价，痛点无法还原。
+  pain_en: Public material only lists features; it does not show which step developers previously did
+    by hand, how long it took or what errors cost, so the pain cannot be reconstructed.
+  current_alternative: 开发者目前用 IDE 加命令行代理、或直接在通用聊天助手里贴代码来完成同类任务。
+  current_alternative_en: Developers currently use an IDE plus command-line agents, or paste code into
+    general chat assistants, for the same tasks.
+  usage_reason: 推断：若多代理编排能在本机直接读写代码库并保留上下文，可省去在聊天窗口与编辑器之间反复复制粘贴这一步，因此重度本地编码的开发者可能试用；但缺少用户反馈或采用证据，无法确认其被长期留在工作流中。
+  usage_reason_en: 'Inference: if multi-agent orchestration can read and write the local codebase while
+    keeping context, it removes the copy-paste loop between chat window and editor, so heavy local coders
+    may try it; without user feedback or adoption evidence, long-term retention cannot be confirmed.'
+- id: req-full-stepfun-harness-2026-10-10
+  project_slug: stepfun-harness
+  level: full
+  reviewed_at: '2026-10-10T02:32:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者在本机把跨文件编码任务交给多代理工作流并拿到可运行代码的需求，痛点在于上下文搬运与多轮手工串联；公开材料仅列功能清单，未量化耗时或出错代价，故价值成立属工作流结构推理而非采用事实。
+    evidence_ids:
+    - ev-69e119d4954737e7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 51 个星标，属关注度信号，不能说明开发者已把它纳入日常工作流；公开材料未见用户评价、issue 讨论或客户案例，强场景存在但采用共识未核验。
+    evidence_ids:
+    - ev-69e119d4954737e7
+  - gate: model
+    status: insufficient
+    reason: 摘要提到订阅与 API 接入，但未披露定价页、计价单位与买方是个人开发者还是团队，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-69e119d4954737e7
+  - gate: truth
+    status: insufficient
+    reason: 无法确认多代理产出能否确定性交付、人工复核边界在哪，也未说明与模型厂商官方编码工具的关系，第一性目标贴近度与安全边界均缺公开依据。
+    evidence_ids:
+    - ev-69e119d4954737e7
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际替代的编码步骤、交付边界，以及是否已有开发者持续使用或提交反馈。
+  market: ''
+  job: 开发者在本地桌面环境中处理自己的代码仓库，把跨文件的编码任务交给多代理工作流，通过订阅或 API 接入模型、用插件扩展能力，最终拿到可运行的代码改动。
+  job_en: Developers work on their own code repositories in a local desktop environment, handing cross-file
+    coding tasks to multi-agent workflows, connecting models via subscription or API and extending with
+    plugins, to obtain runnable code changes.
+  pain: 公开材料只给出功能清单，未说明开发者原先在哪一步手工操作、耗时多久或出错代价；从工作流结构推断，痛点在跨文件改动的上下文搬运与多轮手工串联，而非单点补全。
+  pain_en: Public material only lists features and does not state which step developers previously did
+    by hand, how long it took or what errors cost; inferred from workflow structure, the pain lies in
+    context shuttling and manual chaining across multi-file edits rather than single-point completion.
+  current_alternative: 开发者目前用 IDE 加命令行编码代理，或把代码贴进通用聊天助手再手工回贴，来完成同类跨文件任务。
+  current_alternative_en: Developers currently use an IDE plus command-line coding agents, or paste code
+    into general chat assistants and manually paste results back, for the same cross-file tasks.
+  usage_reason: 推断：相较在聊天窗口与编辑器之间反复复制粘贴的旧做法，它把多代理编排放在本机桌面并直接读写代码库，省去上下文搬运这一步，因此重度本地编码的开发者会在处理跨文件改动时选择它；尚无用户反馈或采用证据，长期留存无法确认。
+  usage_reason_en: 'Inference: compared with repeatedly copy-pasting between chat window and editor, it
+    places multi-agent orchestration on the local desktop with direct read/write access to the codebase,
+    removing the context-shuttling step, so heavy local coders would choose it for cross-file changes;
+    without user feedback or adoption evidence, long-term retention cannot be confirmed.'

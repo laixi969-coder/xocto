@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/request-eagle
 summary: Fast and open-source Postman alternative
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigJBVV95cUxOazBTRUdkODdX
 summary: AI智能体迭代提速 三十九只概念股获机构积极评级 新浪财经
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

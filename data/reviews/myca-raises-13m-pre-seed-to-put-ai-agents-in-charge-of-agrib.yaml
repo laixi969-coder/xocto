@@ -1,0 +1,81 @@
+- id: req-initial-myca-raises-13m-pre-seed-to-put-ai-agents-in-charge-of-agrib-2026-10-10
+  project_slug: myca-raises-13m-pre-seed-to-put-ai-agents-in-charge-of-agrib
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决田间作业调度与记录，但公开材料未说明原流程、痛点强度与交付结果，无法判断需求是否刚性。
+    evidence_ids:
+    - ev-6b726d8922ce2ad7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，未见客户采用、场景共识或使用反馈，无法判断谁在什么场景下认可它。
+    evidence_ids:
+    - ev-6b726d8922ce2ad7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断收入来自种植企业、服务商还是投资叙事。
+    evidence_ids:
+    - ev-6b726d8922ce2ad7
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 AI 代理的输入、动作与人工边界，交付是否确定发生尚不清楚。
+    evidence_ids:
+    - ev-6b726d8922ce2ad7
+  next_validation: 收集 Myca 官方产品页或客户案例，确认其田间作业流程的输入、交付物与付费方。
+  market: ''
+  job: 农业企业的田间作业管理者在播种、施肥、巡田等节点，需要把地块、人员、机具和天气信息整理成可执行的作业计划与记录。
+  job_en: Field operations managers at agribusinesses turn plot, crew, machinery and weather information
+    into executable work plans and records at planting, fertilizing and scouting stages.
+  pain: 公开材料只说明 AI 代理接管田间作业，未说明原先由谁、用什么工具、花多久完成，痛点强度无法判断。
+  pain_en: Public material only says AI agents take over field operations; it does not say who did this
+    before, with what tools, or how long it took, so pain intensity cannot be judged.
+  current_alternative: 公开材料未披露现有替代方式，可能为人工排程与表格记录，但这是推断，未经证实。
+  current_alternative_en: Public material does not disclose the current alternative; manual scheduling
+    and spreadsheets are a guess, not a verified fact.
+  usage_reason: 缺少可核验的作业流程与交付结果，无法说明相较旧做法减少了哪一步负担，因此暂不判断用户为何选择它。
+  usage_reason_en: Without verifiable workflow or delivery detail, there is no basis to say which step
+    it removes versus the old way, so why users would choose it cannot yet be judged.
+- id: req-full-myca-raises-13m-pre-seed-to-put-ai-agents-in-charge-of-agrib-2026-10-10
+  project_slug: myca-raises-13m-pre-seed-to-put-ai-agents-in-charge-of-agrib
+  level: full
+  reviewed_at: '2026-10-10T02:31:20Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决田间作业调度与记录，但公开材料只有融资标题，未说明原流程、痛点强度、不采用后果与交付物，连需求与痛点都无法还原，故价值关不成立。
+    evidence_ids:
+    - ev-62af09c14f27b533
+    - ev-8edf53d72cb75e56
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 AgFunderNews 关于 Myca 的原始报道及其官网产品页，确认田间作业流程的输入数据、交付物与付费方。
+  market: ''
+  job: 农业企业的田间作业管理者在播种、施肥、巡田等节点，需要把地块、人员、机具和天气信息汇总成可执行的作业计划与作业记录。
+  job_en: Field operations managers at agribusinesses must combine plot, crew, machinery and weather information
+    into executable work plans and records at planting, fertilizing and scouting stages.
+  pain: 公开材料只给出融资标题，未说明原先由谁、用什么工具、花多久完成排程与记录，也未说明出错或延误的后果，痛点强度无法判断。
+  pain_en: Public material offers only a funding headline; it does not say who did the scheduling and
+    record-keeping before, with what tools, or how long it took, nor the cost of error or delay, so pain
+    intensity cannot be judged.
+  current_alternative: 公开材料未披露现有替代方式；人工排程加表格记录只是推断，未经证实。
+  current_alternative_en: Public material does not disclose the current alternative; manual scheduling
+    plus spreadsheets is an inference, not a verified fact.
+  usage_reason: 缺少可核验的输入数据、代理动作与交付物，无法说明相较旧做法减少哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: Without verifiable input data, agent actions or deliverables, there is no basis to
+    say which step it removes versus the old way, so which users would choose it and when cannot be judged.

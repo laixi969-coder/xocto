@@ -26,3 +26,45 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-scan-to-practice-2026-10-10
+  project_slug: scan-to-practice
+  level: initial
+  reviewed_at: '2026-08-28T06:07:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把扫描学习材料转成结构化练习的需求，痛点是手工拆题与录入重复耗时，旧行为是人工录入或 OCR 拼凑，结构上成立。
+    evidence_ids:
+    - ev-58cd7e9aa07d06fe
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库简介与星标，缺少用户评价、案例或采用数据，无法判断是否形成持续使用。
+    evidence_ids:
+    - ev-58cd7e9aa07d06fe
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径，钱可能来自服务或定制，属判断而非已验证事实。
+    evidence_ids:
+    - ev-58cd7e9aa07d06fe
+  - gate: truth
+    status: insufficient
+    reason: 未核验生成题目的准确性与人工校对边界，交付确定性尚不明确。
+    evidence_ids:
+    - ev-58cd7e9aa07d06fe
+  next_validation: 收集该仓库的 README、issue 或示例输出，确认扫描输入格式、生成题目质量与人工校对流程。
+  market: ''
+  job: 教师或学习者在拿到扫描的教材、试卷等学习材料后，需要把它们整理成可练习的题目或练习产品。
+  job_en: After receiving scanned textbooks or exam papers, a teacher or learner needs to turn them into
+    practice questions or practice products.
+  pain: 扫描件是非结构化材料，手工把内容拆成题目、答案和练习结构耗时且重复。
+  pain_en: Scans are unstructured material, and manually breaking content into questions, answers and
+    practice structure is time-consuming and repetitive.
+  current_alternative: 人工阅读扫描件后手工录入题目，或用通用 OCR 加表格工具拼凑。
+  current_alternative_en: Reading scans by hand and typing questions manually, or stitching together generic
+    OCR and spreadsheet tools.
+  usage_reason: 推断：相较人工阅读扫描件再逐题录入，它把材料直接转成结构化练习，省去逐题抄录与排版的一步，因此需要批量出题的教师或教培人员会在处理扫描材料时选择它。
+  usage_reason_en: 'Inference: versus reading scans and typing each question, it converts material directly
+    into structured practice, removing the per-question transcription and formatting step, so teachers
+    or tutors producing question sets in bulk would pick it for scanned material.'

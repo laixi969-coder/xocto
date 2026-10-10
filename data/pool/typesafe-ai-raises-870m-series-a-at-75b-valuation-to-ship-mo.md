@@ -1,6 +1,6 @@
 ---
 slug: typesafe-ai-raises-870m-series-a-at-75b-valuation-to-ship-mo
-name: TypeSafe AI Raises $870M Series A at $7.5B Valuation to Ship More AI Models
+name: TypeSafe AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNU1BrTG9PdlB2
 summary: TypeSafe AI Raises $870M Series A at $7.5B Valuation to Ship More AI Models Unite.AI
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# TypeSafe AI Raises $870M Series A at $7.5B Valuation to Ship More AI Models
+# TypeSafe AI
 
 TypeSafe AI Raises $870M Series A at $7.5B Valuation to Ship More AI Models Unite.AI
 

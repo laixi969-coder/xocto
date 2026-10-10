@@ -332,3 +332,56 @@
     renderer into one pipeline so a script yields a finished cut, removing manual voiceover and line-by-line
     alignment; the site shows 26 agent-made explainer videos, indicating the flow can produce presentable
     output, so developers who want assets to stay local and avoid learning editing are likely first users.'
+- id: req-full-explainroo-2026-10-10
+  project_slug: explainroo
+  level: full
+  reviewed_at: '2026-10-10T02:29:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把文字脚本变成带旁白讲解视频的需求，痛点是手工配音与逐句对轴耗时且质量不稳；公开材料给出脚本输入、本地语音与渲染、MP4 交付的闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-53ec940c2088a2aa
+    - ev-420b92054610b4fb
+    - ev-e3c9ae60b1b75c11
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 470 增至 515，说明有开发者关注；但公开材料没有用户评价、客户案例或重复使用证据，无法判断是否形成稳定共识。
+    evidence_ids:
+    - ev-eb2a80ff00955dbe
+    - ev-e8c2baf5dd342093
+  - gate: model
+    status: insufficient
+    reason: 项目免费且开源，公开材料未说明任何付费路径或买方，钱可能来自 to C 开发者捐赠或 to B 定制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-53ec940c2088a2aa
+    - ev-eb2a80ff00955dbe
+  - gate: truth
+    status: insufficient
+    reason: 本地语音与渲染能否稳定产出可直接发布的成片、人工还需多少确认，公开材料只给出静帧与缩略帧表自查机制，未给出可核对交付结果。
+    evidence_ids:
+    - ev-420b92054610b4fb
+    - ev-e3c9ae60b1b75c11
+  next_validation: 追踪该仓库的 issue、discussion 与 release notes，核对是否有用户报告把脚本到成片的流程接入真实发布工作流并重复使用。
+  market: ''
+  job: 开源项目维护者或产品营销人员在发布新版本、新功能时，把一段文字脚本交给本地语音合成、词级时间对齐与画布渲染流程，产出带旁白的讲解视频或产品演示，用于发布说明与落地页。
+  job_en: Open-source maintainers or product marketers, when shipping a new version or feature, hand a
+    written script to a local voice-synthesis, word-timing and canvas-rendering pipeline to produce a
+    narrated explainer video or product demo for release notes and landing pages.
+  pain: 公开材料显示该工具面向“AI agent 做讲解视频”这一任务：agent 无法观看视频，只能靠静帧和缩略帧表检查成片，说明脚本到成片之间原本需要人工配音、逐句对轴与反复导出，单条视频耗时且配音质量不稳。
+  pain_en: 'Public material frames the task as an AI agent making explainer videos: an agent cannot watch
+    a video, so it checks its work via stills and a frame sheet, implying that going from script to finished
+    cut otherwise requires manual voiceover, line-by-line alignment and repeated exports, which is slow
+    per video with unstable voice quality.'
+  current_alternative: 在剪辑软件里手工配音与对轴，或使用云端 AI 配音与视频生成服务；前者费时，后者按量付费且素材需上传。
+  current_alternative_en: Manual voiceover and timeline alignment in editing software, or cloud AI voiceover
+    and video-generation services; the former is slow, the latter is metered and requires uploading assets.
+  usage_reason: 推断：相较手工剪辑或云端服务，它把本地语音（Kokoro）、词级时间对齐（Whisper）与画布渲染串成一条本地流水线，脚本直接产出带旁白 MP4，并额外输出静帧与缩略帧表供
+    agent 自查，省掉手工配音与逐句对轴两步，因此在意素材不出本地、又不想学剪辑的开发者与维护者会在做发布讲解视频时选择它。
+  usage_reason_en: 'Inference: versus manual editing or cloud services, it chains a local voice (Kokoro),
+    word-level timing (Whisper) and a canvas renderer into one local pipeline so a script yields a narrated
+    MP4, plus stills and a frame sheet for agent self-checking, removing manual voiceover and line-by-line
+    alignment; developers and maintainers who want assets to stay local and do not want to learn editing
+    are the likely choosers for release explainer videos.'

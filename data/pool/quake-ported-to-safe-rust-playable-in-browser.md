@@ -21,7 +21,7 @@ canonical_url: https://quake-srp.pages.dev
 summary: playable in browser
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

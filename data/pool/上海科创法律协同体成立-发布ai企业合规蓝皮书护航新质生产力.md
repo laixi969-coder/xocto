@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE5Ta1BSVkpmR3NQ
 summary: 上海科创法律协同体成立 发布AI企业合规蓝皮书护航新质生产力 新浪网
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

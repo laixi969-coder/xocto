@@ -1,0 +1,85 @@
+- id: req-initial-woodpecker-2026-10-10
+  project_slug: woodpecker
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决重复网页操作自动化的需求，痛点是人工重复耗时、固定脚本易失效。
+    evidence_ids:
+    - ev-25e46351c9df07b9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量讨论且无评论，缺少用户采用或评价证据，无法判断共识。
+    evidence_ids:
+    - ev-25e46351c9df07b9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，付费路径只能推断为面向个人或团队的订阅，属判断。
+    evidence_ids:
+    - ev-25e46351c9df07b9
+  - gate: truth
+    status: insufficient
+    reason: 缺少可复现的实测结果与安全边界说明，交付确定性无法确认。
+    evidence_ids:
+    - ev-25e46351c9df07b9
+  next_validation: 收集 Woodpecker 的项目仓库或讨论帖，核对可复现的网页任务执行结果与权限边界。
+  market: ''
+  job: 需要反复在网页上做同样操作的用户，在批量处理页面任务时，让浏览器代理按脚本代为执行。
+  job_en: Users repeating the same web operations, when handling page tasks in bulk, let a browser agent
+    execute them from scripts.
+  pain: 重复点击与填表耗时，写死脚本又难维护，页面一变就失效。
+  pain_en: Repeated clicking and form filling is slow, and hard-coded scripts are hard to maintain and
+    break when pages change.
+  current_alternative: 目前多用固定爬虫或 RPA 脚本，或干脆人工重复操作。
+  current_alternative_en: Today most use fixed scrapers or RPA scripts, or simply repeat the operations
+    by hand.
+  usage_reason: 推断：相较写死脚本，它让代理按用户脚本执行并适应页面变化，减少脚本维护这一步，因此常做网页批量操作的用户会试用。
+  usage_reason_en: 'Inference: versus hard-coded scripts, it lets an agent run user scripts and adapt
+    to page changes, cutting script maintenance, so users doing bulk web operations would try it.'
+- id: req-full-woodpecker-2026-10-10
+  project_slug: woodpecker
+  level: full
+  reviewed_at: '2026-10-10T02:33:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向同名无关对象（啄木鸟物种、木工工具、小游戏站），没有一条描述该浏览器代理的输入、动作、交付或用户痛点，连要解决的需求都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-f3bcd9dcbec17e95
+    - ev-c83c4be696473bd4
+    - ev-65b32267e795e74d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Woodpecker 浏览器代理的官方仓库或产品页（README、issue、discussion），核对它实际支持的页面任务输入、执行动作与交付结果。
+  market: ''
+  job: 待核验：据候选摘要，需要重复网页操作的用户在批量处理页面任务时，用 Pi 和用户脚本让浏览器代理代为执行页面操作；但公开证据中没有任何一条描述该产品的输入、动作范围或交付结果。
+  job_en: 'To be verified: per the candidate summary, users doing repetitive web operations let a browser
+    agent built with Pi and user scripts execute page tasks in bulk; however, no public evidence describes
+    this product''s inputs, action scope, or delivered output.'
+  pain: 公开证据未提供任何关于该产品用户痛点的材料：现有证据全部指向同名但无关的对象（啄木鸟物种、Woodpeckers 木工工具、iWoodpecker 小游戏站），无法据此说明重复网页操作中哪里难受、频率多高、不解决会失去什么。
+  pain_en: 'No public evidence describes this product''s user pain: all available evidence points to unrelated
+    same-name objects (woodpecker species, Woodpeckers woodworking tools, iWoodpecker HTML5 games), so
+    it cannot show where repetitive web work hurts, how often, or what is lost if unsolved.'
+  current_alternative: 无法从公开证据确认当前替代方式；候选摘要暗示用户自己写脚本，但没有任何证据说明这些用户此前用固定爬虫、RPA 工具还是人工重复操作。
+  current_alternative_en: The current alternative cannot be confirmed from public evidence; the candidate
+    summary hints users write their own scripts, but nothing shows whether these users previously used
+    fixed scrapers, RPA tools, or manual repetition.
+  usage_reason: 无法给出使用理由：公开证据中没有该产品的功能说明、用户反馈或案例，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果，因此不能推断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: public evidence contains no product description, user
+    feedback, or case for this product, so it cannot explain which step it removes or which verifiable
+    result it improves versus the old way, nor infer which users would choose it and when.'

@@ -719,3 +719,44 @@
     developers who need local control and swappable components without building a framework would choose
     it. Public evidence only shows stars rising from 118 to 151, which is attention, not sustained-use
     evidence.'
+- id: req-full-deepseek-harness-2026-10-10
+  project_slug: deepseek-harness
+  level: full
+  reviewed_at: '2026-10-10T02:29:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 证据仅称两个仓库是 DeepSeek Harness 的内部组件并给出收藏数，未说明用户任务、痛点、旧替代与不采用后果，连需求与痛点都无法还原，故不成立。
+    evidence_ids:
+    - ev-c4888e4f2cb13673
+    - ev-72b867297231bcb3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 DeepSeek Harness 官方文档或仓库 README/issue/discussion，确认插件化本地助手的具体使用场景、替代的旧流程与部署方式。
+  market: ''
+  job: 开发者在自己电脑上运行 DeepSeek 助手，把工具、记忆与界面按需替换成插件，以组装符合自身工作流的本地助手。
+  job_en: Developers run the DeepSeek assistant on their own machine and swap tools, memory, and interface
+    as plugins to assemble a local assistant matching their workflow.
+  pain: 公开材料只说明这些仓库是 DeepSeek Harness 的内部组件，未给出用户抱怨、旧流程摩擦或不用它的具体代价，痛点强度无法还原。
+  pain_en: Public materials only state these repositories are internal components of DeepSeek Harness;
+    no user complaints, legacy-workflow friction, or cost of not adopting is given, so pain intensity
+    cannot be reconstructed.
+  current_alternative: 公开材料未说明开发者目前如何完成本地助手组装，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how developers currently assemble a local assistant
+    or what prior practice this replaces.
+  usage_reason: 仅能观察到 dsh-libreoffice-kit 收藏数从 136 升至 166、dsh-node-addon-require-builtin 约 10–12，属关注度信号；缺少用户反馈或案例，无法说明为何选择它，推断不成立。
+  usage_reason_en: 'Only attention signals are visible: dsh-libreoffice-kit stars rose from 136 to 166
+    and dsh-node-addon-require-builtin sits around 10–12; without user feedback or cases, why users choose
+    it cannot be explained and no inference holds.'

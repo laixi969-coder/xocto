@@ -1,0 +1,92 @@
+- id: req-initial-pipod-2026-10-10
+  project_slug: pipod
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理在真实代码库上执行时的隔离与环境污染问题，痛点具体，旧做法是手动搭容器或临时云主机，结构上成立。
+    evidence_ids:
+    - ev-978963f94bf944b8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与少量 fork，缺少用户评价、issue 讨论或采用案例，无法判断开发者是否已把它放进日常工作流。
+    evidence_ids:
+    - ev-978963f94bf944b8
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，公开材料未说明任何定价、赞助或商业路径，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-978963f94bf944b8
+  - gate: truth
+    status: insufficient
+    reason: 沙箱隔离与自托管承诺能否确定性交付、安全边界如何，缺少部署文档与实测证据，暂无法核对。
+    evidence_ids:
+    - ev-978963f94bf944b8
+  next_validation: 收集 pipod 仓库的 README 与部署文档，核对沙箱隔离机制、支持的自托管环境与是否有公开使用案例。
+  market: ''
+  job: 开发者在本地机器上运行编码代理处理真实代码库时，需要把代理会话放进隔离环境，避免污染本地依赖、泄露代码或抢占资源。
+  job_en: Developers running coding agents against real codebases need those sessions isolated so local
+    dependencies are not polluted, code is not leaked and resources are not starved.
+  pain: 编码代理会执行任意命令并写入文件，本地直接运行容易破坏环境、混入敏感代码，且多会话并行时互相干扰。
+  pain_en: Coding agents execute arbitrary commands and write files; running them locally can break environments,
+    mix in sensitive code and interfere across parallel sessions.
+  current_alternative: 开发者目前多靠本地容器、虚拟机或临时云主机手动搭建隔离环境，配置和维护成本高。
+  current_alternative_en: Developers currently hand-roll isolation with local containers, VMs or throwaway
+    cloud hosts, which is costly to configure and maintain.
+  usage_reason: 推断：相比手动搭容器或临时云主机，pipod 把会话调度、沙箱创建和自托管服务器管理打包成一步，省去每次为代理单独配置隔离环境的工作，因此对已有服务器、又不想把代码交给第三方云沙箱的团队更有吸引力。
+  usage_reason_en: 'Inference: versus hand-rolling containers or throwaway cloud hosts, pipod bundles
+    session scheduling, sandbox creation and self-hosted server management into one step, removing the
+    per-session isolation setup work, which appeals to teams that already run servers and do not want
+    code in a third-party cloud sandbox.'
+- id: req-full-pipod-2026-10-10
+  project_slug: pipod
+  level: full
+  reviewed_at: '2026-10-10T02:31:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理在真实代码库上执行时的隔离与环境污染问题：代理会执行任意命令、写文件，本地直跑易破坏依赖、混入敏感代码并让并行会话互扰；旧做法是手动搭容器或临时云主机，不解决的后果是环境被破坏或代码外泄。仓库自述与
+      159 星为公开事实，痛点刚性属工作流结构推理。
+    evidence_ids:
+    - ev-978963f94bf944b8
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库自述与 159 星，缺少 issue、discussion、用户评价或采用案例，无法判断开发者是否已把它放进日常代理工作流；星标只属关注度，不能当作持续采用证据。
+    evidence_ids:
+    - ev-978963f94bf944b8
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，公开材料未说明定价、赞助或商业路径，钱可能来自 to B 自托管支持或 to VC，但这是判断而非已验证事实；无付费路径证据，存在仅靠关注度续命的每日优鲜风险。
+    evidence_ids:
+    - ev-978963f94bf944b8
+  - gate: truth
+    status: insufficient
+    reason: 沙箱隔离强度、自托管部署要求与安全边界能否确定性交付，缺少部署文档与可复现实测；仅凭仓库自述无法核对承诺是否兑现，人工确认环节亦未说明。
+    evidence_ids:
+    - ev-978963f94bf944b8
+  next_validation: 追踪 pipod 仓库的 README 与部署文档，核对沙箱隔离机制、支持的自托管环境，以及是否出现公开使用案例或 issue 讨论。
+  market: ''
+  job: 已有自建服务器的开发者或小团队，在让 pi 编码代理对真实代码库执行命令和写文件时，需要把每个代理会话放进远程沙箱运行，拿到隔离后的执行环境与结果，而不污染本机依赖或把代码交给第三方云沙箱。
+  job_en: Developers or small teams with their own servers need each pi coding-agent session, when executing
+    commands and writing files against a real codebase, to run in a remote sandbox so they get an isolated
+    execution environment and result without polluting local dependencies or handing code to a third-party
+    cloud sandbox.
+  pain: 编码代理会执行任意命令并写入文件，直接在本地跑容易破坏依赖环境、把敏感代码混入会话，多会话并行时还互相抢占资源；公开材料只给出仓库自述与 159 星，未提供用户抱怨或事故记录，痛点强度属工作流结构推理。
+  pain_en: Coding agents execute arbitrary commands and write files, so running them locally can break
+    dependency environments, mix sensitive code into sessions and cause parallel sessions to contend for
+    resources; public material only offers the repo description and 159 stars, with no user complaints
+    or incident records, so pain intensity is a workflow-structure inference.
+  current_alternative: 开发者目前多靠本地容器、虚拟机或临时云主机手动搭建隔离环境，每次为代理单独配置并维护，配置与清理成本高。
+  current_alternative_en: Developers currently hand-roll isolation with local containers, VMs or throwaway
+    cloud hosts, configuring and maintaining them per agent session at high setup and cleanup cost.
+  usage_reason: 推断：相较手动搭容器或临时云主机，pipod 把会话调度、沙箱创建与自托管服务器管理合并为一步，省去每次为代理单独配置隔离环境这一步负担，因此已有服务器、又不愿把代码放进第三方云沙箱的团队会在跑
+    pi 代理会话时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus hand-rolling containers or throwaway cloud hosts, pipod merges session
+    scheduling, sandbox creation and self-hosted server management into one step, removing the per-session
+    isolation setup burden, so teams that already run servers and do not want code in a third-party cloud
+    sandbox would pick it when running pi agent sessions; no public user feedback yet confirms this motive.'

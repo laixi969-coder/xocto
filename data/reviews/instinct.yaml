@@ -38,3 +38,102 @@
   usage_reason: 推断：熟悉的入口加明确的任务交付可减少执行负担；热度与融资尚不能证明可靠性或持续付费。
   usage_reason_en: 'Inference: familiar access and concrete delivery may reduce execution work; attention
     and funding do not establish reliability or lasting payment.'
+- id: req-initial-instinct-2026-10-10
+  project_slug: instinct
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是个人事务代办需求：预约、售后、跟进邮件反复打断且有时限，旧做法是自己打电话填表，痛点刚性、交付可核对。
+    evidence_ids:
+    - ev-d788d869a6bd3bf2
+    - ev-29f30efe91537198
+  - gate: consensus
+    status: insufficient
+    reason: 短信入口被评测称为最受关注的代理，但公开材料只有热度与融资，没有留存或重复使用证据，无法判断是否进入日常流程。
+    evidence_ids:
+    - ev-29f30efe91537198
+    - ev-be6123018ea67de8
+  - gate: model
+    status: insufficient
+    reason: 10 亿美元 C 轮与 100 亿美元估值说明资本路径清晰，但未见定价页或用户付费证据，买方是个人订阅还是其他方式属推断。
+    evidence_ids:
+    - ev-be6123018ea67de8
+    - ev-c1abedb9515009ed
+  - gate: truth
+    status: challenged
+    reason: 代用户注册账号、联系商家涉及身份与授权边界，公开材料未说明人工确认与责任划分，且大厂已推出相近代理。
+    evidence_ids:
+    - ev-d788d869a6bd3bf2
+    - ev-29f30efe91537198
+  next_validation: 收集 Instinct 官方定价页或订阅说明，确认个人用户的实际付费方式与代办事范围。
+  market: ''
+  job: 个人用户在需要预约政府窗口、向商家发起售后或持续跟进一封没有回音的邮件时，把零散的沟通与排队事务交给一个短信里的代理去执行。
+  job_en: An individual who needs to book a government office slot, open a merchant after-sales case or
+    keep chasing an unanswered email hands the scattered messaging and queuing work to an agent reachable
+    by text.
+  pain: 这类事务单件耗时短但打断频繁，需要反复打电话、填表、等回电，且往往要跨天跟进；不做的代价是错过预约、退款或申诉时限。
+  pain_en: These errands are short but interrupt constantly, requiring repeated calls, forms and callbacks
+    spread across days; skipping them means missing appointment, refund or appeal deadlines.
+  current_alternative: 用户自己打电话、发邮件、在网页表单里排队，或请家人朋友代办；部分人用日历提醒加人工催办。
+  current_alternative_en: People call, email and queue in web forms themselves, or ask family and friends;
+    some use calendar reminders plus manual follow-up.
+  usage_reason: 相较自己反复拨号、填表和等待，Instinct 用短信接收指令后直接以自有邮箱注册账号、代发消息并处理客服往来，把“发起并持续跟进”这一步从用户手里拿走；推断，愿意把琐事外包且对账号代持接受度高的个人用户会在事务密集期选择它。
+  usage_reason_en: Instead of dialing, filling forms and waiting, Instinct takes a text instruction and
+    then uses its own email address to register accounts, send messages and work support threads, removing
+    the 'initiate and keep following up' step from the user; inference, chosen by individuals who outsource
+    errands and accept delegated account handling during busy periods.
+- id: req-full-instinct-2026-10-10
+  project_slug: instinct
+  level: full
+  reviewed_at: '2026-10-10T02:30:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人事务代办需求：预约政府窗口、商家售后、跟进邮件反复打断且有时限，旧做法是自己打电话填表排队，不做的代价是错过预约或退款时限；Instinct 以短信接单并代注册账号、代发消息完成交付，属工作流结构推理，痛点刚性、交付可核对。
+    evidence_ids:
+    - ev-ccd5c5a9d79e08c8
+    - ev-4c23433d27a02d30
+  - gate: consensus
+    status: insufficient
+    reason: 公开资料 称早期测试者对其能力赞不绝口，说明场景被感知到；但公开材料只有热度与隐私争议，没有留存、复购或重复使用证据，无法判断它是否已进入日常流程，卡在采用证据而非场景本身。
+    evidence_ids:
+    - ev-4c23433d27a02d30
+    - ev-ccd5c5a9d79e08c8
+  - gate: model
+    status: insufficient
+    reason: 官网只描述跨应用与设备代行事务，未见定价页或订阅说明，买方是个人订阅还是其他方式属推断而非已验证事实；公开材料也未显示企业或政府采购路径，付费路径尚未核验。
+    evidence_ids:
+    - ev-ccd5c5a9d79e08c8
+  - gate: truth
+    status: challenged
+    reason: 代用户注册账号、联系商家涉及身份与授权边界，公开资料 报道测试者对广泛访问权限与代行能力感到不安，公开材料未说明人工确认节点与责任划分，承诺能否确定性交付仍待观察。
+    evidence_ids:
+    - ev-4c23433d27a02d30
+    - ev-ccd5c5a9d79e08c8
+  next_validation: 追踪 Instinct 官网是否上线定价或订阅说明页，以核验个人用户的实际付费方式与代办事务范围。
+  market: ''
+  job: 个人用户在需要预约车管所等政府窗口、向商家发起售后或持续跟进一封没有回音的邮件时，通过短信或电话把零散的排队、填表与沟通事务交给一个代理去执行，自己只确认身份与付款等关键步骤。
+  job_en: An individual who needs to book a DMV-style government slot, open a merchant after-sales case
+    or keep chasing an unanswered email hands the scattered queuing, form-filling and messaging work to
+    an agent reachable by text or phone, confirming only identity and payment steps.
+  pain: 这类事务单件耗时短但打断频繁，需要反复打电话、填表、等回电并跨天跟进；不做的代价是错过预约、退款或申诉时限。公开资料 报道早期测试者认可其能力，同时对其广泛访问权限与代用户行事表示不安，说明痛点真实但授权顾虑同样真实。
+  pain_en: These errands are short but interrupt constantly, requiring repeated calls, forms and callbacks
+    spread across days; skipping them means missing appointment, refund or appeal deadlines. public reporting
+    reports early testers praise what it can do while flagging discomfort over sweeping access and acting
+    on users' behalf, so the pain is real and so is the authorization concern.
+  current_alternative: 用户自己打电话、发邮件、在网页表单里排队，或请家人朋友代办；部分人用日历提醒加人工催办。通用助手如 ChatGPT、Gemini 只能给建议，不能代为注册账号、发消息和追客服。
+  current_alternative_en: People call, email and queue in web forms themselves, or ask family and friends;
+    some use calendar reminders plus manual follow-up. General assistants such as ChatGPT and Gemini only
+    advise, they cannot register accounts, send messages or chase support threads on the user's behalf.
+  usage_reason: 相较自己反复拨号、填表和等待，Instinct 用短信接收指令后以自建邮箱注册账号、代发消息并处理客服往来，把“发起并持续跟进”这一步从用户手里拿走，用户只需在身份与付款环节确认；这是基于产品能力与旧流程对比的推断，愿意把琐事外包且接受账号代持的个人用户会在事务密集期选择它。
+  usage_reason_en: 'Instead of dialing, filling forms and waiting, Instinct takes a text instruction and
+    then uses its own email address to register accounts, send messages and work support threads, removing
+    the ''initiate and keep following up'' step; the user only confirms identity and payment. This is
+    an inference from product capability versus the old workflow: individuals who outsource errands and
+    accept delegated account handling choose it during busy periods.'

@@ -1,0 +1,81 @@
+- id: req-initial-上观新闻创意生产力再升级同济联合腾讯云发布tt-designx设计智能体桌面端-2026-10-10
+  project_slug: 上观新闻创意生产力再升级同济联合腾讯云发布tt-designx设计智能体桌面端
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决设计初稿产出，但材料未说明痛点、旧流程与不采用的后果，连需求与痛点都写不具体。
+    evidence_ids:
+    - ev-2da32e66702801fa
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有联合发布这一条消息，没有设计人群的采用、讨论或场景证据。
+    evidence_ids:
+    - ev-2da32e66702801fa
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方、计价方式或任何付费路径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-2da32e66702801fa
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近设计初稿的第一性目标，也无交付确定性与人工边界信息。
+    evidence_ids:
+    - ev-2da32e66702801fa
+  next_validation: 收集 TT DesignX 官方产品页或发布文档，确认其输入材料、输出交付物形态与是否标注定价。
+  market: ''
+  job: 设计专业学生或设计从业者在接到需求、需要先出方案初稿时，处理需求描述与素材，产出一份可继续修改的设计稿。
+  job_en: A design student or designer, facing a new brief, works from requirements and assets to produce
+    an editable first-draft design.
+  pain: 材料未说明初稿阶段具体卡在哪一步，也未给出任何用户抱怨或旧流程耗时描述。
+  pain_en: The material does not say which step of drafting is painful, nor cite any user complaint or
+    time cost in the old process.
+  current_alternative: 材料未提及此前用什么工具或人工方式完成初稿。
+  current_alternative_en: The material does not mention what tools or manual process were used for drafts
+    before.
+  usage_reason: 推断：若它能把需求描述直接转成可编辑初稿，用户可能省去从空白画布起稿的一步；但材料未给出任何功能细节或用户反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if it turns a brief directly into an editable draft, users could skip starting
+    from a blank canvas; but no feature detail or user feedback is given, so this causal link is unconfirmed.'
+- id: req-full-上观新闻创意生产力再升级同济联合腾讯云发布tt-designx设计智能体桌面端-2026-10-10
+  project_slug: 上观新闻创意生产力再升级同济联合腾讯云发布tt-designx设计智能体桌面端
+  level: full
+  reviewed_at: '2026-10-10T02:33:52Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决设计初稿产出，但材料只有一条联合发布消息，未说明痛点、旧流程与不采用的后果，连需求与痛点都写不具体。
+    evidence_ids:
+    - ev-2da32e66702801fa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 TT DesignX 官方产品页或发布文档，确认其输入材料、输出交付物形态与是否标注定价。
+  market: ''
+  job: 设计专业学生或设计从业者在接到新需求、需要先出方案初稿时，把需求描述与素材交给桌面端智能体，产出一份可继续修改的设计稿。
+  job_en: A design student or designer, facing a new brief, hands requirements and assets to a desktop
+    agent to produce an editable first-draft design.
+  pain: 公开材料只说明这是同济联合腾讯云发布的桌面端设计智能体，未说明初稿阶段具体卡在哪一步，也没有用户抱怨、旧流程耗时或返工代价的任何描述。
+  pain_en: The public material only says it is a desktop design agent released by Tongji with Tencent
+    Cloud; it does not say which drafting step is painful, nor cite any complaint, time cost, or rework
+    penalty.
+  current_alternative: 材料未提及此前用什么工具或人工方式完成初稿，无法还原旧流程。
+  current_alternative_en: The material does not mention what tools or manual process produced drafts before,
+    so the old workflow cannot be reconstructed.
+  usage_reason: 推断：若它能把需求描述直接转成可编辑初稿，用户可能省去从空白画布起稿的一步；但材料未给出输入形态、输出形态或任何用户反馈，这一因果无法确认。
+  usage_reason_en: 'Inference: if it turns a brief directly into an editable draft, users could skip starting
+    from a blank canvas; but no input form, output form, or user feedback is given, so this causal link
+    is unconfirmed.'

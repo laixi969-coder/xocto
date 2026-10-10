@@ -1,0 +1,83 @@
+- id: req-initial-staffcoder-2026-10-10
+  project_slug: staffcoder
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只有一句口号，说不清它解决什么需求、替代哪一步旧工作，也看不出不采用的具体后果。
+    evidence_ids:
+    - ev-a52db01b3f4709b0
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺少用户评价、采用或案例材料，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-a52db01b3f4709b0
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，未披露定价与买方，收费路径无从判断。
+    evidence_ids:
+    - ev-a52db01b3f4709b0
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，评审结论是否可靠、人工边界在哪均无材料支持。
+    evidence_ids:
+    - ev-a52db01b3f4709b0
+  next_validation: 收集该产品的官方页面或文档，确认它接收什么输入、输出什么评审结论以及是否收费。
+  market: ''
+  job: 开发者在接到编码任务时，希望按资深工程师的标准完成实现并拿到评审意见，于是使用 Staffcoder 引导实现与检查，最终得到可提交的代码改动。
+  job_en: When taking on a coding task, a developer wants to implement it to senior-engineer standards
+    and get review feedback, so they use Staffcoder to guide implementation and checking, ending with
+    committable code changes.
+  pain: 公开材料只有一句口号，无法确认它替代的是哪一步旧工作，也看不出不解决会带来什么具体后果。
+  pain_en: Only a tagline is public, so it is impossible to confirm which old step it replaces or what
+    concrete consequence follows from not solving it.
+  current_alternative: 现有做法是人工代码评审、静态检查工具，或直接用编码代理生成代码后自行检查。
+  current_alternative_en: Today people rely on human code review, static analysis tools, or coding agents
+    that generate code for self-checking.
+  usage_reason: 推断：若它能把评审意见直接落到具体改动上，可能省掉等待同事评审这一步，但公开材料未说明输入与输出，无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it attaches review comments to concrete changes it might remove waiting
+    for a colleague''s review, but the public material does not describe inputs or outputs, so which users
+    would choose it and when cannot be judged.'
+- id: req-full-staffcoder-2026-10-10
+  project_slug: staffcoder
+  level: full
+  reviewed_at: '2026-10-10T02:32:52Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只有一句口号，说不清它解决什么需求、替代哪一步旧工作，也看不出不采用的具体后果。
+    evidence_ids:
+    - ev-a52db01b3f4709b0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方页面或文档，确认它接收什么输入、输出什么评审结论以及是否收费。
+  market: ''
+  job: 开发者接到编码任务时，希望按资深工程师的标准完成实现并拿到评审意见，于是使用 Staffcoder 引导实现与检查，最终得到可提交的代码改动。
+  job_en: When taking on a coding task, a developer wants to implement it to senior-engineer standards
+    and get review feedback, so they use Staffcoder to guide implementation and checking, ending with
+    committable code changes.
+  pain: 公开材料只有一句口号，无法确认它替代的是哪一步旧工作，也看不出不解决会带来什么具体后果。
+  pain_en: Only a tagline is public, so it is impossible to confirm which old step it replaces or what
+    concrete consequence follows from not solving it.
+  current_alternative: 现有做法是人工代码评审、静态检查工具，或直接用编码代理生成代码后自行检查。
+  current_alternative_en: Today people rely on human code review, static analysis tools, or coding agents
+    that generate code for self-checking.
+  usage_reason: 推断：若它能把评审意见直接落到具体改动上，可能省掉等待同事评审这一步，但公开材料未说明输入与输出，无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it attaches review comments to concrete changes it might remove waiting
+    for a colleague''s review, but the public material does not describe inputs or outputs, so which users
+    would choose it and when cannot be judged.'

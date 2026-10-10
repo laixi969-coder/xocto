@@ -1,0 +1,83 @@
+- id: req-initial-ada凭借规模化解决旅客问题荣获aws-旅游与酒店业能力认证-2026-10-10
+  project_slug: ada凭借规模化解决旅客问题荣获aws-旅游与酒店业能力认证
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决旅客重复问询的处理需求，痛点是人工逐条回复慢且旺季积压；旧替代是坐席加 FAQ，结构上成立，但自动处理边界未公开。
+    evidence_ids:
+    - ev-538c9406bc8b80ed
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 AWS 行业能力认证与规模化表述，没有客户名单、部署范围或使用量数据，无法判断行业是否已形成采用共识。
+    evidence_ids:
+    - ev-538c9406bc8b80ed
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方是航司、酒店还是差旅服务商，收入来源只能推断为 to B 订阅或按工单计费。
+    evidence_ids:
+    - ev-538c9406bc8b80ed
+  - gate: truth
+    status: insufficient
+    reason: 没有公开的解决率、人工升级比例或安全边界说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-538c9406bc8b80ed
+  next_validation: 收集 Ada 官方定价页或旅游行业客户案例，核对自动处理范围、人工升级规则与计费方式。
+  market: ''
+  job: 航空或酒店客服在航班变动、退改签和行李异常集中发生时，处理旅客的重复问询并给出可执行的处理结果。
+  job_en: Airline or hotel agents handle repetitive traveller enquiries and produce an actionable resolution
+    when schedule changes, rebookings and baggage exceptions cluster.
+  pain: 旅客问询量大且高度重复，人工逐条回复慢，旺季或航班大面积变动时积压严重，处理不一致还会引发投诉。
+  pain_en: Traveller enquiry volume is large and highly repetitive; manual replies are slow, backlogs
+    spike in peak season or mass disruption, and inconsistent handling triggers complaints.
+  current_alternative: 呼叫中心人工坐席、FAQ 页面与关键词式自助机器人，复杂问题仍需转人工。
+  current_alternative_en: Human call-centre agents, FAQ pages and keyword-based self-service bots, with
+    complex cases still escalated to humans.
+  usage_reason: 相较关键词机器人只能给固定话术，它直接读取旅客的订单与问询内容并给出处理动作，减少坐席逐条查单和撰写回复这一步；推断在航班变动或旺季咨询积压时，旅游企业客服会优先选择它。
+  usage_reason_en: 'Unlike keyword bots that return canned answers, it reads the traveller''s order and
+    enquiry and returns a handling action, removing the step of agents looking up each booking and drafting
+    a reply; inference: travel support teams would pick it when disruption or peak-season backlogs hit.'
+- id: req-full-ada凭借规模化解决旅客问题荣获aws-旅游与酒店业能力认证-2026-10-10
+  project_slug: ada凭借规模化解决旅客问题荣获aws-旅游与酒店业能力认证
+  level: full
+  reviewed_at: '2026-10-10T02:27:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决旅客重复问询的处理需求，但公开证据中没有任何可归因到 Ada 产品的功能、客户或旧替代材料，连需求与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-62a3c9ece2856efd
+    - ev-abb90c16c4cd3af2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Ada 官方产品页与旅游行业客户案例（如 ada.cx 的 case studies 或 AWS 能力认证目录条目），核对自动处理范围、人工升级规则与计费方式。
+  market: ''
+  job: 航空或酒店客服团队在航班变动、退改签、行李与订单异常集中发生时，处理旅客的重复问询并给出可执行的处理结果。
+  job_en: Airline or hotel support teams handle repetitive traveller enquiries and produce an actionable
+    resolution when schedule changes, rebookings, baggage and order exceptions cluster.
+  pain: 公开证据中没有可归因到 Ada 产品的旅客问询痛点材料，无法确认人工逐条回复慢、旺季积压或处理不一致是否为其真实痛点。
+  pain_en: No public evidence attributable to the Ada product describes traveller-enquiry pain, so it
+    cannot be confirmed that slow manual replies, peak-season backlogs or inconsistent handling are its
+    real pain points.
+  current_alternative: 公开证据未提供任何可归因到该产品的旧替代方式（如人工坐席、FAQ 或关键词机器人）的描述。
+  current_alternative_en: Public evidence provides no attributable description of the prior alternatives
+    (human agents, FAQ pages or keyword bots) this product replaces.
+  usage_reason: 缺少可归因到 Ada 产品的功能、客户或使用材料，无法说明用户为何会选择它；现有证据均为同名机构页面与通用 AI 介绍，不构成使用理由。
+  usage_reason_en: With no attributable product, customer or usage material for Ada, there is no basis
+    to explain why users would choose it; existing evidence is same-name organisation pages and generic
+    AI explainers, which are not usage reasons.

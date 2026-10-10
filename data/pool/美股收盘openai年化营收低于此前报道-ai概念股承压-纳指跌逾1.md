@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE0xcGZabzBrMkN2
 summary: 美股收盘：OpenAI年化营收低于此前报道 AI概念股承压 纳指跌逾1% 财联社
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -500,3 +500,51 @@
     into agent-callable constraints, applying short-sentence, plain, no-AI-tone rules directly at the
     rewrite step and cutting the author''s later cleanup of AI tone. Inference: writers who care about
     Chinese technical prose tone would pick it while drafting or polishing.'
+- id: req-full-zh-tech-writing-2026-10-10
+  project_slug: zh-tech-writing
+  level: full
+  reviewed_at: '2026-10-10T02:33:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文技术文档缺少可执行文风标准、模型中文带 AI 腔需逐句重写的问题，痛点刚性来自文档可读性与审阅返工；旧做法是人工逐句改写或反复贴提示词。这是基于产品说明与规范来源的工作流结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-09b22c0835799729
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 325 升至 348，说明社区持续关注并把它加入工具链，但收藏与排名只属关注度，不能证明目标写作者已长期留在工作流；缺少 issue、discussion 或评价说明实际使用场景。
+    evidence_ids:
+    - ev-09b22c0835799729
+    - ev-2a23b3c466afc407
+  - gate: model
+    status: insufficient
+    reason: 这是开源 Skill，公开材料没有定价页、付费主体或采购记录，钱可能来自 to C 个人开发者或 to B 团队采购，但均未核验；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-09b22c0835799729
+  - gate: truth
+    status: insufficient
+    reason: 交付边界清楚：产出改写草稿、事实与术语仍由作者核对；但公开材料未说明改写质量的可复现结果、失败模式与人工介入边界，缺少可复现实测或使用反馈。
+    evidence_ids:
+    - ev-0c9d8e9f6c038e52
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有用户公开描述实际改写场景、替代的旧流程与使用结果。
+  market: ''
+  job: 中文技术写作者、开发者关系或文档维护者在起草或润色说明、教程、API 文档时，把待改的中文技术文本交给 AI agent，调用该 Skill 作为写作约束，产出符合短句、平实、去 AI 腔规范的中文文档草稿，再由作者核对事实与术语。
+  job_en: Chinese technical writers, DevRel or docs maintainers drafting or polishing guides, tutorials
+    and API docs hand Chinese technical text to an AI agent and invoke this Skill as a writing constraint,
+    producing a plain, short-sentence, AI-tone-free Chinese draft that the author still fact-checks.
+  pain: 中文技术文档长期缺少可执行的统一文风标准，模型生成的中文常带翻译腔、空话和 AI 腔，作者需要逐句重写；不解决则文档可读性差、审阅返工多，且规范散落在个人经验里难以复用。
+  pain_en: Chinese technical writing lacks an executable shared style standard, and model-generated Chinese
+    often carries translationese, filler and AI tone, forcing line-by-line rewriting; unsolved, docs stay
+    hard to read and reviews loop, with the norm trapped in individual experience.
+  current_alternative: 作者凭个人语感逐句改写，或把阮一峰《中文技术文档的写作规范》当人工参考清单，在通用大模型里反复贴提示词、逐段校对。
+  current_alternative_en: Authors rewrite line by line by personal feel, or treat Ruan Yifeng's Chinese
+    Technical Writing Style Guide as a manual checklist, repeatedly pasting prompts into general LLMs
+    and proofreading paragraph by paragraph.
+  usage_reason: 相较人工逐句改写或每次重贴提示词，它把已成文的规范固化为 agent 可直接调用的约束，在改写这一步一次性施加短句、平实、去 AI 腔规则，减少反复提示与逐句返工；推断：需要批量产出或统一团队文风的中文技术写作者会在起草与润色环节选用它。
+  usage_reason_en: 'Versus manual line-by-line rewriting or re-pasting prompts each time, it freezes an
+    existing written standard into a constraint the agent can call directly, applying short-sentence,
+    plain, AI-tone-free rules in one rewriting step and cutting repeated prompting and per-line rework;
+    inference: Chinese technical writers needing batch output or a unified team voice would pick it during
+    drafting and polishing.'

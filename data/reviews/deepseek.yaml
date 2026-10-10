@@ -471,3 +471,50 @@
     get model output directly via API, avoiding building their own model. So individuals and developers
     needing a usable draft, answer or model capability quickly choose it for daily tasks; this is inference
     from product capability, as public materials show no retention or repeat-purchase
+- id: req-initial-deepseek-2026-10-10
+  project_slug: deepseek
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决日常问答、写作与代码任务中反复检索和从零起草的负担，痛点刚性且使用频率高，替代的是搜索加人工整理这一步。
+    evidence_ids:
+    - ev-d31981941b01d191
+    - ev-710956e6f090f3e2
+  - gate: consensus
+    status: supported
+    reason: 第三方榜单显示月访问量约4.838亿次，说明已有大规模公开使用；但环比下降10.59%，关注度并非单向上升。
+    evidence_ids:
+    - ev-d31981941b01d191
+  - gate: model
+    status: insufficient
+    reason: 公开材料只披露融资规模与领投方，未见定价页、企业采购或付费转化数据，收入路径仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-710956e6f090f3e2
+  - gate: truth
+    status: insufficient
+    reason: 对话式交付本身可确定发生，但公开材料未说明安全边界、人工确认环节与结果准确性核验方式。
+    evidence_ids:
+    - ev-d31981941b01d191
+  next_validation: 收集 DeepSeek 官方定价页或企业版部署文档，核验其收费方式与付费路径。
+  market: ''
+  job: 个人用户在日常写作、查资料、写代码时把问题或材料交给对话助手，要拿到可直接使用的答案、代码或文本；开发者则要一个可调用的模型接口完成产品内的生成任务。
+  job_en: Individuals hand questions or materials to a chat assistant for everyday writing, research and
+    coding and need usable answers, code or text; developers need a callable model API to run generation
+    tasks inside their products.
+  pain: 过去查资料要跨多个搜索页与文档手工比对，写代码要自己查文档调试，写文案要从零起草；这些步骤耗时且重复，不解决就要持续投入人力时间。
+  pain_en: Research used to mean manually comparing results across search pages and documents, coding
+    meant looking up docs and debugging alone, and copywriting started from a blank page; these steps
+    are slow and repetitive, and skipping them means ongoing manual hours.
+  current_alternative: 旧做法是搜索引擎加人工整理、自己写代码与文案，或使用其他通用助手；部分用户也会用企业内部知识库和人工审校流程。
+  current_alternative_en: The old way is search engines plus manual collation, writing code and copy by
+    hand, or using other general assistants; some users also rely on internal knowledge bases and manual
+    review.
+  usage_reason: 相较搜索加人工整理，它把提问、检索与成稿压缩成一次对话，用户不必在多个页面间搬运材料即可得到可用草稿；推断这类用户会在需要快速成稿或调试时选择它，但公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with searching and collating by hand, it compresses asking, retrieving and
+    drafting into one conversation so users get a usable draft without moving material between pages;
+    the inference is that such users pick it when they need a fast draft or debug, though public materials
+    show no retention or repeat-purchase evidence.

@@ -470,3 +470,52 @@
     editor only swaps sources and criteria to get a publishable site, removing the daily collection and
     layout steps; editors or operators maintaining a recurring vertical digest would therefore choose
     it under a fixed publishing cadence.'
+- id: req-full-aihot-2026-10-10
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-10T02:28:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决行业资讯编辑每日跨源翻找、筛选并排版日报的任务，痛点是人工收集与初筛耗时且易漏热点；公开代码仓库 仓库说明引擎含全部提示词与阈值、可替换信源与精选标准，交付物是可发布的日报站点，属工作流结构推理，公开材料未量化不解决的代价。
+    evidence_ids:
+    - ev-fb84d3fdbfec8087
+    - ev-ebe80ed3bd5c6e6e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库公开记录为 6,918 个收藏，说明开发者社区已注意到该框架；但收藏属关注度证据，公开材料未见目标编辑或运营者持续使用、复刻后长期运行的记录，无法据此判断共识已形成。
+    evidence_ids:
+    - ev-943c4d031ed0f319
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，谁付钱尚不清；仓库以开源框架形式发布，可能的付费方是自建站点的编辑或运营者所在组织，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fb84d3fdbfec8087
+  - gate: truth
+    status: insufficient
+    reason: 仓库称引擎含全部提示词与阈值、部分 AI 专属功能保留在 AIHOT，但公开材料未展示抓取失败、筛选误判时的人工兜底与安全边界，交付能否确定性发生仍缺可复现证据。
+    evidence_ids:
+    - ev-fb84d3fdbfec8087
+  next_validation: 追踪 AIHOT 仓库的 issue 与 discussion，确认是否有编辑或运营者报告用其替换原有信源收集与日报排版流程并持续运行。
+  market: ''
+  job: 行业资讯编辑或运营者每天要在多个信源之间翻找 AI 产品、行业、论文与技巧类内容，挑出当天值得看的条目，再排版成一份可发布的日报站点。
+  job_en: An industry news editor or operator must scan multiple sources each day for AI product, industry,
+    paper and tip items, pick the day's worthwhile entries, and lay them out as a publishable daily news
+    site.
+  pain: 公开材料显示 AIhot 定位为每日聚合全球 AI 热点、按北京时间时间轴整理、一分钟看懂 AI 圈，说明痛点是人工跨源翻找与逐条筛选耗时且容易漏掉当天热点；但公开证据未给出不解决的具体代价或频率。
+  pain_en: Public materials position AIhot as a daily aggregation of global AI hotspots arranged on a
+    Beijing-time timeline, implying the pain of manual cross-source scanning and item-by-item filtering;
+    the public evidence does not quantify the cost or frequency of leaving it unsolved.
+  current_alternative: 旧做法是编辑自己逐个打开信源、人工判断哪些条目值得收录，再手工排版成日报页面；AIHOT 仓库说明其引擎与框架包含全部提示词和阈值，可把信源与精选标准替换成用户自己的。
+  current_alternative_en: The old approach is for editors to open each source manually, judge which items
+    deserve inclusion, and hand-lay-out a daily page; the AIHOT repository states its engine and framework
+    include every prompt and threshold, so sources and selection criteria can be swapped for the user's
+    own.
+  usage_reason: 推断：相较人工逐源翻找再排版，AIHOT 按配置信源抓取并按精选标准筛出条目、自动生成日报页面，省去跨源收集与初筛这两步手工负担，因此想自建行业热点站但不想从零写抓取与筛选逻辑的编辑或运营者会选它；公开材料未提供用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: versus manually scanning each source and laying out pages, AIHOT fetches
+    from configured sources, filters by selection criteria and auto-generates the daily page, removing
+    the manual collection and first-pass screening steps, so editors or operators who want their own industry
+    hotspot site without writing scraping and filtering logic from scratch would choose it; public materials
+    provide no user feedback or retention evidence for this motive.'

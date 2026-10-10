@@ -1,0 +1,89 @@
+- id: req-initial-qwen-image-21-studio-2026-10-10
+  project_slug: qwen-image-21-studio
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量出图与改图的需求，痛点是云端按次付费和素材外传；旧做法是云端服务或手工修图，结构上成立。
+    evidence_ids:
+    - ev-c9265f85e963af1e
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库星标与本地工作台说明，没有用户评价、客户案例或采用规模，无法判断是否形成共识。
+    evidence_ids:
+    - ev-c9265f85e963af1e
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是个人设计师或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-c9265f85e963af1e
+  - gate: truth
+    status: insufficient
+    reason: 本地运行与素材不外传贴近真实诉求，但交付确定性与人工确认边界未披露，需进一步核验。
+    evidence_ids:
+    - ev-c9265f85e963af1e
+  next_validation: 收集该项目的官方定价页或部署文档，确认是否收费以及本地部署与交付流程。
+  market: ''
+  job: 电商或广告团队的视觉设计师，在需要为同一商品产出多版主图或改图时，把文字提示与多张参考图交给本地工作台，完成生成与局部编辑，拿到可直接进入排版或上架的图片。
+  job_en: A visual designer on an e-commerce or ad team producing several versions of a product image
+    hands text prompts and multiple reference images to a local workbench to generate and locally edit
+    images that can go straight into layout or listing.
+  pain: 云端出图按次计费、素材需上传第三方，批量改图时成本与保密顾虑同时存在；反复在多个工具间切换也拖慢返工。
+  pain_en: Cloud generation charges per call and requires uploading assets to third parties, so batch
+    rework carries both cost and confidentiality concerns, and switching between tools slows the rework
+    loop.
+  current_alternative: 使用云端文生图服务或 Photoshop 手工改图，前者按次付费且素材外传，后者批量处理耗时。
+  current_alternative_en: 'Cloud text-to-image services or manual editing in Photoshop: the former bills
+    per call and sends assets off-site, the latter is slow for batches.'
+  usage_reason: 推断：相较云端按次调用，它在本地一次部署后即可反复出图与改图，省去每次上传素材和按次付费这两步，因此对素材敏感、需要批量返工的电商或广告设计者更有吸引力；但公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: versus per-call cloud services, one local install allows repeated generation
+    and editing, removing the per-run upload and per-call payment steps, which appeals to designers with
+    sensitive assets and batch rework; no retention or payment evidence is public.'
+- id: req-full-qwen-image-21-studio-2026-10-10
+  project_slug: qwen-image-21-studio
+  level: full
+  reviewed_at: '2026-10-10T02:32:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量出图与改图的需求，痛点是云端按次付费和素材外传；旧做法是云端服务或手工修图，本地一次部署可反复生成与编辑，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-c9265f85e963af1e
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库星标与本地工作台说明，没有用户评价、客户案例或采用规模，无法判断是否形成共识。
+    evidence_ids:
+    - ev-c9265f85e963af1e
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是个人设计师或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-c9265f85e963af1e
+  - gate: truth
+    status: insufficient
+    reason: 本地运行与素材不外传贴近真实诉求，但交付确定性与人工确认边界未披露，需进一步核验。
+    evidence_ids:
+    - ev-c9265f85e963af1e
+  next_validation: 收集该项目的官方定价页或部署文档，确认是否收费以及本地部署与交付流程。
+  market: ''
+  job: 电商或广告团队的视觉设计师，在需要为同一商品产出多版主图或改图时，把文字提示与多张参考图交给本地工作台，完成文生图、多图编辑与提示词改写，拿到可继续排版或上架的图片文件。
+  job_en: A visual designer on an e-commerce or ad team producing several versions of a product image
+    hands text prompts and multiple reference images to a local workbench to generate, multi-image edit
+    and rewrite prompts, obtaining image files ready for layout or listing.
+  pain: 云端出图按次计费、素材需上传第三方，批量改图时成本与保密顾虑同时存在；在多个工具间切换也拖慢返工。公开材料只说明产品能力，未提供用户抱怨或采用数据，痛点属工作流结构推理。
+  pain_en: Cloud generation bills per call and requires uploading assets to third parties, so batch rework
+    carries both cost and confidentiality concerns, and switching between tools slows the rework loop.
+    Public material only states product capability, not user complaints or adoption data; the pain is
+    a workflow inference.
+  current_alternative: 使用云端文生图服务或 Photoshop 手工改图：前者按次付费且素材外传，后者批量处理耗时。
+  current_alternative_en: 'Cloud text-to-image services or manual editing in Photoshop: the former bills
+    per call and sends assets off-site, the latter is slow for batches.'
+  usage_reason: 推断：相较云端按次调用，它在 Apple Silicon 本机一次部署后即可反复出图与改图，省去每次上传素材和按次付费这两步，因此对素材敏感、需要批量返工的电商或广告设计者更有吸引力；公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: versus per-call cloud services, one local install on Apple Silicon allows
+    repeated generation and editing, removing the per-run upload and per-call payment steps, which appeals
+    to designers with sensitive assets and batch rework; no retention or payment evidence is public.'

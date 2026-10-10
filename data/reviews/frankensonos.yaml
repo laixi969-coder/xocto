@@ -92,3 +92,54 @@
     skip a layer of protocol glue before an agent can issue playback commands; inference is that users
     who already own Sonos hardware and need automation or agent control would pick it when building home
     automation.
+- id: req-full-frankensonos-2026-10-10
+  project_slug: frankensonos
+  level: full
+  reviewed_at: '2026-10-10T02:30:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决已有 Sonos 用户跨代设备与自动化控制难的问题，痛点具体，交付是音箱实际播放状态变化；但公开材料未展示真实使用场景细节。
+    evidence_ids:
+    - ev-39e8cf4ce5607845
+    - ev-1e90affc89f42837
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 75 星，无用户评价、采用案例或 issue 讨论，无法判断是否形成持续使用共识；关注度不等于采用。
+    evidence_ids:
+    - ev-fefdedff6c2bfa7c
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；钱可能来自捐赠或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2a9e8ad090b7ba39
+  - gate: truth
+    status: insufficient
+    reason: 协议兼容与 MCP 接口是仓库自述，未见独立复现或部署文档，交付确定性尚未核验。
+    evidence_ids:
+    - ev-6b8603d825548857
+  next_validation: 收集该仓库的 issue、discussion 或部署文档，确认是否有用户实际接入 Sonos 设备并报告可用性。
+  market: ''
+  job: 已拥有 Sonos 音箱的家庭用户或家庭自动化玩家，在本地局域网内需要按场景切换播放、分组与音量，或让自建脚本与 AI 代理直接下发播放指令时，处理的是音箱发现、播放队列、分组与音量等控制指令，要完成的是让指定音箱按预期播放。
+  job_en: A household user or home-automation hobbyist who already owns Sonos speakers needs to switch
+    playback, grouping and volume by scenario on the local LAN, or let self-built scripts and AI agents
+    issue playback commands directly, handling discovery, queue, grouping and volume commands to make
+    the intended speaker play as expected.
+  pain: 官方 App 与语音助手在跨房间、跨代设备（S1/S2）和自动化调用上限制多，用户想用脚本或代理控制音箱时缺少稳定接口，只能手动在 App 里逐台点选；不解决的后果是自动化场景无法落地，只能人工操作。
+  pain_en: Official apps and voice assistants are restrictive across rooms, device generations (S1/S2)
+    and automation calls; users who want script or agent control lack a stable interface and must tap
+    through the app device by device; the consequence is that automation scenarios cannot be realized
+    and everything stays manual.
+  current_alternative: 官方 Sonos App、语音助手，或社区里零散的 UPnP 脚本（SoCo、node-sonos、Home Assistant Sonos 集成）；这些方案在跨代兼容与可编程性上都不完整。
+  current_alternative_en: The official Sonos app, voice assistants, or scattered community UPnP scripts
+    (SoCo, node-sonos, Home Assistant Sonos integration); these are incomplete on cross-generation compatibility
+    and programmability.
+  usage_reason: 相较手动点 App 或自己拼协议脚本，它把 SSDP 发现、UPnP/SOAP 控制与 GENA 事件订阅封装成 CLI/HTTP/MCP 接口，用户少写一层协议适配代码就能让代理直接下发播放指令；推断已有
+    Sonos 硬件、又需要自动化或代理控制的用户会在搭建家庭自动化时选择它。
+  usage_reason_en: Compared with tapping the app manually or stitching protocol scripts together, it wraps
+    SSDP discovery, UPnP/SOAP control and GENA event subscriptions into CLI/HTTP/MCP interfaces, so users
+    skip a layer of protocol glue before an agent can issue playback commands; inference is that users
+    who already own Sonos hardware and need automation or agent control would pick it when building home
+    automation.

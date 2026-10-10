@@ -1,0 +1,91 @@
+- id: req-initial-联想天禧自研代码智能体tianxicode斩获swe-bench-live全球第一-2026-10-10
+  project_slug: 联想天禧自研代码智能体tianxicode斩获swe-bench-live全球第一
+  level: initial
+  reviewed_at: '2026-10-10T01:46:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚写不出：材料只有基准分数，未说明使用者、旧流程与不解决的后果。
+    evidence_ids:
+    - ev-026560f8e19e59e3
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，榜单名次不构成使用者的持续采用证据。
+    evidence_ids:
+    - ev-026560f8e19e59e3
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均无公开材料。
+    evidence_ids:
+    - ev-026560f8e19e59e3
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无法核对。
+    evidence_ids:
+    - ev-026560f8e19e59e3
+  next_validation: 收集 TianxiCode 的官方产品页或部署文档，确认其面向的使用者、交付形态与是否收费。
+  market: ''
+  job: 软件工程师在维护大型代码仓库时，把 issue 描述与相关代码交给智能体，希望得到可直接提交的修复补丁。
+  job_en: Software engineers maintaining large code repositories hand issue descriptions and related code
+    to an agent, hoping to get a directly submittable fix patch.
+  pain: 公开材料只给出基准分数，没有说明谁在什么情况下使用、替代了哪一步人工排查，痛点强度无法从现有事实判断。
+  pain_en: Public material gives only a benchmark score and does not say who uses it in what situation
+    or which manual debugging step it replaces, so pain intensity cannot be judged from available facts.
+  current_alternative: 工程师目前依靠人工阅读代码、调试与既有编码助手完成同类修复，但候选未说明 TianxiCode 相对这些做法的差异。
+  current_alternative_en: Engineers currently rely on manual code reading, debugging and existing coding
+    assistants for similar fixes, but the candidate does not describe how TianxiCode differs from these.
+  usage_reason: 推断：若其缺陷修复能力可复现，团队可能因减少人工定位缺陷的步骤而试用；但缺少用户反馈、定价或采用证据，无法确认这一选择是否发生。
+  usage_reason_en: 'Inference: if its defect-fixing capability is reproducible, teams might trial it to
+    cut the step of manually locating defects; but with no user feedback, pricing or adoption evidence,
+    whether that choice occurs cannot be confirmed.'
+- id: req-full-联想天禧自研代码智能体tianxicode斩获swe-bench-live全球第一-2026-10-10
+  project_slug: 联想天禧自研代码智能体tianxicode斩获swe-bench-live全球第一
+  level: full
+  reviewed_at: '2026-10-10T02:34:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是大型仓库缺陷修复中定位与出补丁的需求：工程师需从 issue 描述追到跨文件调用链再手写补丁，人工排查耗时且易漏。公开事实仅给出 SWE-bench-Live 71% 解决率，未披露用户抱怨或旧流程耗时，痛点刚性属工作流结构推理；谁付钱未说明，留待模式关。
+    evidence_ids:
+    - ev-026560f8e19e59e3
+  - gate: consensus
+    status: insufficient
+    reason: SWE-bench-Live 登顶属基准成绩与关注度，不能证明开发者已把它留在日常修复流程；公开材料无用户评价、案例或重复使用记录，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-026560f8e19e59e3
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明 TianxiCode 面向哪类开发者、以何形态交付、是否收费，to B 内部工具还是对外产品均无定价页或采购记录；这是判断而非已验证事实，买方路径尚不可核。
+    evidence_ids:
+    - ev-026560f8e19e59e3
+  - gate: truth
+    status: insufficient
+    reason: 71% 解决率来自基准评测，不等于真实仓库中补丁可确定性交付；缺少部署文档、人工复核边界与安全约束说明，无法核对实际修复结果是否被采纳。
+    evidence_ids:
+    - ev-026560f8e19e59e3
+  next_validation: 追踪 TianxiCode 的官方产品页或部署文档，确认其面向的使用者、交付形态、是否收费及人工复核边界。
+  market: ''
+  job: 联想天禧AI研发团队的工程师在维护大型代码仓库、处理公开 issue 时，把仓库代码与 issue 描述交给 TianxiCode，由它定位缺陷并生成可提交的补丁，完成一次缺陷修复任务。
+  job_en: Engineers on Lenovo's Tianxi AI team, maintaining large repositories and working through public
+    issues, hand repository code and issue descriptions to TianxiCode, which locates the defect and produces
+    a submittable patch, completing one bug-fix task.
+  pain: 公开事实只给出 SWE-bench-Live 71% 的问题解决率，未说明工程师在定位缺陷、跨文件追踪调用链上耗费多少人工时间，也未给出用户抱怨或旧流程耗时数据；痛点强度属于工作流结构推理，而非用户口述证据。
+  pain_en: Public facts give only the 71% resolution rate on SWE-bench-Live and do not state how much
+    manual time engineers spend locating defects and tracing cross-file call chains, nor any user complaint
+    or legacy-process timing data; pain intensity is a workflow-structure inference, not user testimony.
+  current_alternative: 工程师目前依靠人工阅读代码、断点调试，或使用通用编码助手（如 ChatGPT、Gemini 等公开可得的对话式工具）逐段排查并手写补丁；候选材料未说明 TianxiCode
+    相对这些做法在流程上的具体差异。
+  current_alternative_en: Engineers currently rely on manual code reading, breakpoint debugging, or general
+    coding assistants (publicly available conversational tools such as ChatGPT and Gemini) to trace issues
+    segment by segment and hand-write patches; the candidate material does not describe TianxiCode's concrete
+    process difference from these.
+  usage_reason: 推断：相较人工逐文件排查或通用对话助手需要工程师自己拼接上下文，TianxiCode 以仓库代码加 issue 为输入、直接输出补丁，省去工程师手工检索相关文件与组织提示的步骤；因此处理大型仓库缺陷、希望减少定位环节的团队会在该场景下选择它。此判断基于产品能力与任务结构，尚无用户反馈或采用数据支持。
+  usage_reason_en: 'Inference: compared with manual file-by-file triage or general chat assistants where
+    engineers assemble context themselves, TianxiCode takes repository code plus an issue as input and
+    outputs a patch directly, removing the step of manually retrieving relevant files and composing prompts;
+    teams fixing defects in large repositories who want to cut the localization step would therefore choose
+    it in this scenario. This judgment rests on product capability and task structure, with'

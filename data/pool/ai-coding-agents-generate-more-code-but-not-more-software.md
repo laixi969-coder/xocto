@@ -3,9 +3,15 @@ slug: ai-coding-agents-generate-more-code-but-not-more-software
 name: AI coding agents generate more code, but not more software
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 哈佛大学研究人员利用覆盖数百家企业的工程分析数据发现，AI 编码工具虽能快速生成大量代码，但人工代码审查成为显著瓶颈，代码审查时间延长、拉取请求更易需要修改，企业软件产出和用工并未明显增加。这意味着
+  AI 编码工具在代码生成环节的效率提升被下游审查环节吸收，短期内难以转化为整体交付效率或成本优势，竞争焦点可能转向审查与质量保障环节。
 inspiration: ''
-summary_en: ''
+summary_en: 'Harvard researchers, using engineering analytics data across hundreds of firms, found that
+  while AI coding tools generate large amounts of code quickly, human code review becomes a significant
+  bottleneck: reviews take longer, pull requests are more likely to need revisions, and firms show little
+  evidence of increased software output or reduced employment. This means efficiency gains in code generation
+  are absorbed by downstream review constraints, limiting near-term delivery or cost advantages and potentially
+  shifting competition toward review and quality assurance.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -33,7 +39,7 @@ summary: Anyone who has even tangentially associated with computer programming k
   events" (e.g., commits and pull requests) and issue management software data across more than
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:

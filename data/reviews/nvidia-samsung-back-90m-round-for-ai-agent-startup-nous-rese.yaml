@@ -1,0 +1,86 @@
+- id: req-initial-nvidia-samsung-back-90m-round-for-ai-agent-startup-nous-rese-2026-10-10
+  project_slug: nvidia-samsung-back-90m-round-for-ai-agent-startup-nous-rese
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是闭源API按调用计费与数据出境的问题，私有部署需求在受监管行业真实存在。
+    evidence_ids:
+    - ev-83d1cf103d8543ef
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有公开的下载、部署或企业采用数据支撑共识。
+    evidence_ids:
+    - ev-83d1cf103d8543ef
+  - gate: model
+    status: insufficient
+    reason: 报道未披露估值、收入或付费路径，开源项目的变现方式无法从公开材料确认。
+    evidence_ids:
+    - ev-83d1cf103d8543ef
+  - gate: truth
+    status: insufficient
+    reason: 自部署模型的输出可靠性与安全边界需团队自行承担，公开材料未说明相关保障。
+    evidence_ids:
+    - ev-83d1cf103d8543ef
+  next_validation: 收集Nous Research官方仓库的发布说明与issue讨论，确认其模型与训练工具的实际部署方式和许可条款。
+  market: ''
+  job: 开发团队在搭建智能体或需要数据不出内网的场景下，获取开源模型权重与训练工具，自行完成推理部署与微调。
+  job_en: Development teams building agents, or needing data to stay on-premise, obtain open model weights
+    and training tooling and run inference and fine-tuning themselves.
+  pain: 闭源API按调用计费且数据要出境，受监管或成本敏感的团队既无法控制单价，也无法满足数据合规要求。
+  pain_en: Closed APIs charge per call and send data off-site, so regulated or cost-sensitive teams control
+    neither unit price nor data compliance.
+  current_alternative: 直接调用商业闭源API，或自行拼装零散的开源模型与训练脚本。
+  current_alternative_en: Calling commercial closed APIs directly, or assembling scattered open models
+    and training scripts by hand.
+  usage_reason: 相较按调用付费的闭源API，它提供可自行部署的权重与训练工具，团队能把推理成本与数据边界握在自己手里；推断，公开材料未给出采用或付费证据。
+  usage_reason_en: Compared with per-call closed APIs, it offers self-deployable weights and training
+    tooling so teams keep inference cost and data boundaries in their own hands; this is inference, as
+    no adoption or payment evidence is public.
+- id: req-full-nvidia-samsung-back-90m-round-for-ai-agent-startup-nous-rese-2026-10-10
+  project_slug: nvidia-samsung-back-90m-round-for-ai-agent-startup-nous-rese
+  level: full
+  reviewed_at: '2026-10-10T02:31:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决闭源API按调用计费与数据出境的问题：受监管或成本敏感团队需要可自托管、可微调的模型与智能体，Hermes Agent 以 MIT 许可提供自托管智能体、持久记忆与自建技能，痛点刚性且交付可确定；此为工作流结构推理。
+    evidence_ids:
+    - ev-b776f9cf77d54eba
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道与官网产品说明，缺少公开的下载量、部署数或企业采用数据，无法确认开发者是否已把它留在工作流里。
+    evidence_ids:
+    - ev-b776f9cf77d54eba
+  - gate: model
+    status: insufficient
+    reason: Hermes Agent 以 MIT 许可免费发布，公开材料未披露定价、收入或企业付费路径，变现方式只能推断为后续商业支持或云服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b776f9cf77d54eba
+  - gate: truth
+    status: insufficient
+    reason: 自托管智能体的输出可靠性与安全边界由团队自行承担，公开材料未说明持久记忆与自建技能在敏感数据下的隔离与审计保障。
+    evidence_ids:
+    - ev-b776f9cf77d54eba
+  next_validation: 追踪 Nous Research 官方仓库与 Hermes Agent 文档的发布说明、issue 讨论及许可条款，确认自托管部署方式与是否存在企业付费或支持路径。
+  market: ''
+  job: 开发团队在搭建智能体或需要数据不出内网的场景下，获取开源模型权重与训练工具，自行完成推理部署与微调，交付由团队自己完成。
+  job_en: Development teams building agents, or needing data to stay on-premise, obtain open model weights
+    and training tooling and run inference and fine-tuning themselves.
+  pain: 闭源API按调用计费且数据要出境，受监管或成本敏感的团队既无法控制单价，也无法满足数据合规要求；公开材料未提供用户抱怨或采用数据，此为工作流结构推理。
+  pain_en: Closed APIs charge per call and send data off-site, so regulated or cost-sensitive teams control
+    neither unit price nor data compliance; this is workflow inference, as no user complaints or adoption
+    data are public.
+  current_alternative: 直接调用商业闭源API，或自行拼装零散的开源模型与训练脚本。
+  current_alternative_en: Calling commercial closed APIs directly, or assembling scattered open models
+    and training scripts by hand.
+  usage_reason: 相较按调用付费的闭源API，Hermes Agent 以 MIT 许可提供可自托管的智能体、持久记忆与自建技能，团队可把推理成本与数据边界握在自己手里；这是基于产品能力的推断，公开材料未给出采用或付费证据。
+  usage_reason_en: Compared with per-call closed APIs, Hermes Agent ships under MIT as a self-hosted agent
+    with persistent memory and self-created skills, so teams keep inference cost and data boundaries in
+    their own hands; this is inference from product capability, as no adoption or payment evidence is
+    public.

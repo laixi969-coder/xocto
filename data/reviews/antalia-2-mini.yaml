@@ -1,0 +1,84 @@
+- id: req-initial-antalia-2-mini-2026-10-10
+  project_slug: antalia-2-mini
+  level: initial
+  reviewed_at: '2026-10-10T01:46:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决土耳其语配音供给稀缺的问题，痛点是小语种创作者找不到便宜可用的语音来源，不解决就只能放弃配音或高价录音。
+    evidence_ids:
+    - ev-e245996b9eba486e
+  - gate: consensus
+    status: insufficient
+    reason: 公开点赞数极少，没有用户评价或采用证据，无法判断是否有人持续使用。
+    evidence_ids:
+    - ev-e245996b9eba486e
+  - gate: model
+    status: insufficient
+    reason: 没有公开定价或付费路径，是否有人为本地化配音付费尚未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e245996b9eba486e
+  - gate: truth
+    status: insufficient
+    reason: 音质、生成时长上限、商用授权与浏览器兼容性均无公开材料，交付确定性待核验。
+    evidence_ids:
+    - ev-e245996b9eba486e
+  next_validation: 收集该空间的模型卡与许可说明，确认是否允许商用以及单次可生成的文本长度上限。
+  market: ''
+  job: 土耳其语内容创作者或本地化人员在为视频、课件或语音提示制作土耳其语旁白时，把文本放进浏览器工具生成语音。
+  job_en: Turkish-language creators or localizers producing Turkish narration for videos, courseware or
+    audio prompts put text into a browser tool to generate speech.
+  pain: 土耳其语在主流语音服务里支持有限，云端调用还要上传文本并承担按量费用，小规模创作者难以承受。
+  pain_en: Turkish is thinly supported by mainstream speech services, and cloud calls require uploading
+    text and paying per use, which small creators struggle to absorb.
+  current_alternative: 当前替代方式是使用大型云厂商的语音 API、找配音员录音，或干脆放弃土耳其语配音。
+  current_alternative_en: The current alternative is a large cloud vendor's speech API, hiring a voice
+    actor, or dropping Turkish narration altogether.
+  usage_reason: 推断：它在浏览器本地完成合成，用户不必上传文本也不必按调用付费，因此对预算有限、素材敏感的土耳其语创作者更有吸引力。
+  usage_reason_en: 'Inference: it synthesizes locally in the browser, so users need not upload text or
+    pay per call, which appeals to budget-limited Turkish creators with sensitive material.'
+- id: req-full-antalia-2-mini-2026-10-10
+  project_slug: antalia-2-mini
+  level: full
+  reviewed_at: '2026-10-10T02:28:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决土耳其语旁白供给稀缺的需求，痛点是小语种创作者缺少便宜可用的语音来源，不解决就只能放弃配音或高价录音；此为工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-e245996b9eba486e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有该空间的一句话功能说明，没有点赞、评价或采用数据，无法判断是否有人持续使用或形成强场景。
+    evidence_ids:
+    - ev-e245996b9eba486e
+  - gate: model
+    status: insufficient
+    reason: 没有公开定价或付费路径，钱可能来自捐赠、托管或企业定制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e245996b9eba486e
+  - gate: truth
+    status: insufficient
+    reason: 音质、单次生成时长上限、商用授权与浏览器兼容性均无公开材料，交付确定性无法核验。
+    evidence_ids:
+    - ev-e245996b9eba486e
+  next_validation: 追踪 Antalia-2 Mini 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 土耳其语内容创作者或本地化人员在为视频、课件或语音提示制作土耳其语旁白时，把文本放进浏览器内的文本转语音空间生成语音。
+  job_en: Turkish-language creators or localizers producing Turkish narration for videos, courseware or
+    audio prompts put text into a browser-based text-to-speech space to generate speech.
+  pain: 公开材料只说明该空间在浏览器内运行土耳其语文本转语音；土耳其语在主流语音服务中支持有限、云端调用需上传文本并按量计费，这一痛点属工作流结构推理，尚无用户抱怨或评价佐证。
+  pain_en: Public material only states the space runs Turkish text-to-speech in the browser; that Turkish
+    is thinly supported by mainstream speech services and cloud calls require uploading text and paying
+    per use is workflow-structural inference, not yet backed by user complaints or reviews.
+  current_alternative: 大型云厂商语音 API、聘请配音员录音，或放弃土耳其语配音；此为对现有替代方式的结构推理。
+  current_alternative_en: Large cloud vendor speech APIs, hiring a voice actor, or dropping Turkish narration;
+    this is structural inference about existing alternatives.
+  usage_reason: 推断：相较云端 API 或人工录音，它在浏览器本地完成合成，用户不必上传文本、不必按调用付费，因此预算有限或素材敏感的土耳其语创作者在需要快速出旁白时会选择它；尚无用户反馈证实该动机。
+  usage_reason_en: 'Inference: versus cloud APIs or voice actors, it synthesizes locally in the browser
+    so users need not upload text or pay per call, which is why budget-limited or material-sensitive Turkish
+    creators would pick it for quick narration; no user feedback yet confirms this motive.'

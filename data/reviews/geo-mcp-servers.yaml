@@ -1,0 +1,39 @@
+- id: req-initial-geo-mcp-servers-2026-10-10
+  project_slug: geo-mcp-servers
+  level: initial
+  reviewed_at: '2026-08-22T22:38:00Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决地理工具接入分散、需逐个写胶水代码的问题，痛点具体；但清单本身只提供目录，单个服务器能否稳定交付结果没有材料支持。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与 fork 数，属于关注度而非持续采用；没有 GIS 团队实际接入或复用的公开记录。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源免费，未见付费路径或商业主体；谁付钱、按什么收费均无公开材料，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 地理数据涉及坐标系、精度与授权，清单未说明结果校验与人工确认边界，承诺能否确定性交付无法核对。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue/discussion 与 README，确认是否有单个 MCP 服务器被 GIS 团队实际接入并给出可复现的输出示例。
+  market: ''
+  job: GIS 分析师或测绘工程师在需要地理编码、路径规划或卫星影像检索时，把 PostGIS、QGIS/ArcGIS、STAC 等地理工具接入 AI 助手，完成一次空间数据处理任务。
+  job_en: A GIS analyst or survey engineer connects PostGIS, QGIS/ArcGIS or STAC imagery tools to an AI
+    assistant to complete a geocoding, routing or satellite-imagery retrieval task.
+  pain: 地理工具分散在多个专业软件与商业平台，接口和坐标系各不相同，接入前要逐个查文档、写胶水代码，重复劳动多。
+  pain_en: Geospatial tools are scattered across specialist software and commercial platforms with different
+    APIs and coordinate systems, so each integration needs its own documentation reading and glue code.
+  current_alternative: 手工在 QGIS/ArcGIS 里操作，或自己写脚本调用各平台 API，再人工核对结果。
+  current_alternative_en: Working manually inside QGIS/ArcGIS, or writing custom scripts against each
+    platform API and checking results by hand.
+  usage_reason: 推断：如果清单里的服务器能稳定返回可用结果，用户可省去逐个查文档和写胶水代码这一步，因此已在用 PostGIS 或 ArcGIS 的团队在需要快速接入某类空间查询时会先试它；但目前只有清单本身，缺少单个服务器的可用性、输出质量与采用证据。
+  usage_reason_en: 'Inference: if the listed servers reliably return usable results, users skip the per-API
+    documentation and glue-code step, so teams already on PostGIS or ArcGIS may try it for a quick spatial-query
+    integration; however only the list exists today, with no evidence on individual server reliability,
+    output quality or adoption.'

@@ -1,0 +1,79 @@
+- id: req-initial-大模型原生智能体手机stepx-neo将于10月13日正式发布-2026-10-10
+  project_slug: 大模型原生智能体手机stepx-neo将于10月13日正式发布
+  level: initial
+  reviewed_at: '2026-10-10T01:46:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨应用操作繁琐的问题，但公开材料未给出具体任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-a35594afbf824c35
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：产品尚未发布，无用户反馈或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-a35594afbf824c35
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或交付方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-a35594afbf824c35
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验智能体在真实手机任务中的确定性交付能力与人工边界。
+    evidence_ids:
+    - ev-a35594afbf824c35
+  next_validation: 收集该产品 10 月 13 日发布后的官方产品页与规格说明，核验其智能体可执行的具体任务范围与交付方式。
+  market: ''
+  job: 手机用户在需要跨多个应用完成一件事（如订票、比价、整理信息）时，希望由系统级智能体代为操作并给出结果。
+  job_en: Phone users who need to complete one task across multiple apps, such as booking, price comparison
+    or gathering information, want a system-level agent to operate on their behalf and return a result.
+  pain: 公开材料只有发布时间，未说明用户在哪个具体环节受阻、现有手机操作哪里不够用，痛点无法还原。
+  pain_en: Public material only gives a release date; it does not say where users get stuck or what is
+    lacking in current phone operation, so the pain cannot be reconstructed.
+  current_alternative: 现有替代是用户自己在各应用间手动切换操作，或使用已有的语音助手与自动化脚本。
+  current_alternative_en: The current alternative is users manually switching between apps themselves,
+    or using existing voice assistants and automation scripts.
+  usage_reason: 推断：若系统级代理能减少跨应用手动切换的步骤，重度手机用户可能选择它；但产品尚未发布，缺少任何采用或交付证据。
+  usage_reason_en: 'Inference: if a system-level agent cuts the manual app-switching steps, heavy phone
+    users might choose it; but the product is unreleased and there is no adoption or delivery evidence.'
+- id: req-full-大模型原生智能体手机stepx-neo将于10月13日正式发布-2026-10-10
+  project_slug: 大模型原生智能体手机stepx-neo将于10月13日正式发布
+  level: full
+  reviewed_at: '2026-10-10T02:33:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨应用操作繁琐的问题，但公开材料未给出具体任务、痛点强度与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-a35594afbf824c35
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 STEPX Neo 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 手机用户在需要跨多个应用完成一件事（如订票、比价、整理信息）时，希望由系统级智能体代为操作并给出结果。
+  job_en: Phone users who need to complete one task across multiple apps, such as booking, price comparison
+    or gathering information, want a system-level agent to operate on their behalf and return a result.
+  pain: 公开材料只有发布时间，未说明用户在哪个具体环节受阻、现有手机操作哪里不够用，痛点无法还原。
+  pain_en: Public material only gives a release date; it does not say where users get stuck or what is
+    lacking in current phone operation, so the pain cannot be reconstructed.
+  current_alternative: 现有替代是用户自己在各应用间手动切换操作，或使用已有的语音助手与自动化脚本。
+  current_alternative_en: The current alternative is users manually switching between apps themselves,
+    or using existing voice assistants and automation scripts.
+  usage_reason: 推断：若系统级代理能减少跨应用手动切换的步骤，重度手机用户可能选择它；但产品尚未发布，缺少任何采用或交付证据。
+  usage_reason_en: 'Inference: if a system-level agent cuts the manual app-switching steps, heavy phone
+    users might choose it; but the product is unreleased and there is no adoption or delivery evidence.'

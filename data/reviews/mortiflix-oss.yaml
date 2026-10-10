@@ -86,3 +86,47 @@
   usage_reason_en: 'Inference: compared with frame-by-frame manual work or waiting on outsourcing, it
     splits the video into model-generated stages the user approves step by step, removing the from-scratch
     build and repeated rework, so small teams without editors would choose it when they need a clip quickly.'
+- id: req-full-mortiflix-oss-2026-10-10
+  project_slug: mortiflix-oss
+  level: full
+  reviewed_at: '2026-10-10T02:31:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小团队做动效视频缺人手、外包等待的问题，痛点具体，交付为可导出的成片，结构上成立。
+    evidence_ids:
+    - ev-40bf43390da61d12
+  - gate: consensus
+    status: insufficient
+    reason: 389 星说明关注度，但无用户评价或案例，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-40bf43390da61d12
+  - gate: model
+    status: insufficient
+    reason: 开源且需自备 API 密钥，买方可能是使用者自付模型费用，尚无定价或付费路径的公开证据，属判断。
+    evidence_ids:
+    - ev-40bf43390da61d12
+  - gate: truth
+    status: insufficient
+    reason: 逐阶段人工确认是明确的人工边界，但成片质量、渲染确定性与素材版权边界未在公开材料中说明。
+    evidence_ids:
+    - ev-40bf43390da61d12
+  next_validation: 收集该仓库的 issue 与 discussion，确认使用者实际用它产出的视频类型与是否重复使用。
+  market: ''
+  job: 独立视频创作者或小型营销团队在需要制作动效短片时，把素材与需求交给本地运行的 Claude 流程，逐阶段确认后导出成片。
+  job_en: Independent video creators or small marketing teams hand assets and requirements to a locally
+    run Claude workflow and approve each stage before exporting a finished clip when they need a motion-design
+    video.
+  pain: 动效视频制作依赖专业软件与熟练剪辑，小团队要么外包等待，要么自己花长时间学工具；公开材料未给出具体耗时数据。
+  pain_en: Motion-design video usually depends on professional software and skilled editors, so small
+    teams either wait on outsourcing or spend long hours learning tools; the public material gives no
+    specific time figures.
+  current_alternative: 旧做法是使用专业动效软件手工制作，或把需求外包给动效设计师，按项目等待交付。
+  current_alternative_en: The old approach is hand-building in professional motion tools or outsourcing
+    to a motion designer and waiting for project delivery.
+  usage_reason: 推断：相较手工逐帧制作或外包等待，它把视频拆成阶段由模型生成、使用者逐步确认，减少了从零搭建与反复返工的那一步，因此缺少剪辑人手的小团队在需要快速出片时会选择它。
+  usage_reason_en: 'Inference: compared with frame-by-frame manual work or waiting on outsourcing, it
+    splits the video into model-generated stages the user approves step by step, removing the from-scratch
+    build and repeated rework, so small teams without editors would choose it when they need a clip quickly.'

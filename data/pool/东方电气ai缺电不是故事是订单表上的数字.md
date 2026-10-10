@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiggJBVV95cUxPSUJFNDNHTHND
 summary: 东方电气：AI缺电不是故事，是订单表上的数字 财富号
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

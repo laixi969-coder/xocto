@@ -663,3 +663,44 @@
     tasks, removing the step of rebuilding sessions and moving context; developers who compare models
     or switch per task would choose it for long tasks. The public repo''s 1,995 stars and 253 forks show
     attention only, not sustained use.'
+- id: req-full-cindy-2026-10-10
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-10-10T02:29:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 cindy 官方仓库的 README、release 与 issue/discussion，确认是否公开部署方式、模型接入清单与记忆持久化的可复现说明。
+  market: ''
+  job: 开发者在一个工作区里同时调用多家厂商的写代码助手，在任务中途切换模型，同时保留上下文记忆与未完成的工作。
+  job_en: Developers run coding assistants from multiple vendors in one workspace, switching models mid-task
+    while keeping context memory and unfinished work intact.
+  pain: 多模型并用时，上下文、记忆和任务状态分散在不同工具里，切换模型往往要重新交代背景或重做上一步；公开材料只给出产品定位，未量化这种重做的频率与代价。
+  pain_en: When several models are used together, context, memory and task state are scattered across
+    tools, so switching models often means re-explaining background or redoing a step; public materials
+    state the positioning but do not quantify how often or how costly this rework is.
+  current_alternative: 旧做法是分别打开各家厂商的助手或 IDE 插件，靠手工复制粘贴在它们之间搬运上下文与代码。
+  current_alternative_en: The old way is opening each vendor's assistant or IDE plugin separately and
+    manually copying context and code between them.
+  usage_reason: 推断：相较手工在多个助手间搬运上下文，它把模型切换与记忆保留放进同一工作区，省掉重新交代背景和重做上一步的动作，因此同时使用多家模型、又不想丢失任务状态的开发者会选它；仓库
+    1,995 收藏、253 复刻只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manually shuttling context between assistants, it keeps model switching
+    and memory retention inside one workspace, removing the step of re-explaining background and redoing
+    work, so developers who use several models and do not want to lose task state would choose it; the
+    repository''s 1,995 stars and 253 forks show attention, not sustained use.'

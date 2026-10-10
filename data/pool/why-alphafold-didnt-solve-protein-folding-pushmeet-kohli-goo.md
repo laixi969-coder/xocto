@@ -33,7 +33,7 @@ summary: 'From the Bitter Lesson of AI scaling to the unsolved mysteries of prot
   than incremental improvements. We discuss: The Bitter Lesson for'
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

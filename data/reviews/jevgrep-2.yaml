@@ -1,0 +1,90 @@
+- id: req-initial-jevgrep-2-2026-10-10
+  project_slug: jevgrep-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在陌生或大型代码库中按行为定位实现的需求，痛点具体，交付为可核对的源码片段与行号。
+    evidence_ids:
+    - ev-ba48d418908f867b
+  - gate: consensus
+    status: insufficient
+    reason: 约百星与少量 fork 只说明有开发者关注，缺少 issue、讨论或用户反馈判断共识卡在哪一环。
+    evidence_ids:
+    - ev-ba48d418908f867b
+  - gate: model
+    status: insufficient
+    reason: 开源项目暂无定价信息，收入可能来自托管服务或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ba48d418908f867b
+  - gate: truth
+    status: insufficient
+    reason: 无法核验语义检索在真实仓库中的准确率与规模上限，也未说明代理误定位时的人工确认边界。
+    evidence_ids:
+    - ev-ba48d418908f867b
+  next_validation: 收集 jevgrep 仓库的 issue 与 discussion，查看开发者对检索准确率、仓库规模上限和误定位的公开反馈。
+  market: ''
+  job: 开发者在接手陌生或大型代码库时，需要按行为语义找到相关实现，并拿到可核对的源码片段与行号。
+  job_en: Developers taking over an unfamiliar or large codebase need to find relevant implementations
+    by behavior semantics and get verifiable source excerpts with line numbers.
+  pain: 关键词搜索命中大量无关结果，逐文件阅读耗时，代理在长上下文里也容易定位错文件。
+  pain_en: Keyword search returns many irrelevant hits, reading files one by one is slow, and agents often
+    locate the wrong file in long contexts.
+  current_alternative: 用 grep 或 IDE 全局搜索、依赖人工阅读，或让编码代理自行遍历仓库。
+  current_alternative_en: Using grep or IDE-wide search, reading manually, or letting the coding agent
+    traverse the repository itself.
+  usage_reason: 推断：相较关键词搜索，它按行为语义检索并直接返回带行号的源码片段，省去人工筛选命中结果这一步，因此会吸引需要让编码代理在大型仓库中定位实现的开发者；但公开材料未提供检索准确率或重复使用证据。
+  usage_reason_en: 'Inference: compared with keyword search, it retrieves by behavior semantics and returns
+    source excerpts with line numbers, removing the manual filtering step, which appeals to developers
+    who need agents to locate implementations in large repositories; no accuracy or repeat-use evidence
+    is provided.'
+- id: req-full-jevgrep-2-2026-10-10
+  project_slug: jevgrep-2
+  level: full
+  reviewed_at: '2026-10-10T02:30:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在陌生或大型代码库中按行为语义定位实现的需求，痛点具体：关键词搜索命中大量无关结果、代理易定位错文件；交付为可核对的源码片段与行号，属工作流结构推理。
+    evidence_ids:
+    - ev-ba48d418908f867b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约百星只说明有开发者关注，缺少 issue、discussion 或用户反馈，无法判断共识卡在感知、场景还是检索质量哪一环。
+    evidence_ids:
+    - ev-ba48d418908f867b
+  - gate: model
+    status: insufficient
+    reason: 开源项目暂无定价信息，收入可能来自托管服务或企业支持，这是判断而非已验证事实；也未披露谁付费。
+    evidence_ids:
+    - ev-ba48d418908f867b
+  - gate: truth
+    status: insufficient
+    reason: 无法核验语义检索在真实仓库中的准确率与规模上限，也未说明代理误定位时的人工确认边界与安全约束。
+    evidence_ids:
+    - ev-ba48d418908f867b
+  next_validation: 收集 jevgrep 仓库的 issue 与 discussion，查看开发者对检索准确率、仓库规模上限和误定位的公开反馈。
+  market: ''
+  job: 开发者在接手陌生或大型代码库、或让编码代理修改某段行为时，需要按行为语义而非关键词找到相关实现，并拿到带行号的可核对源码片段。
+  job_en: When taking over an unfamiliar or large codebase, or having a coding agent modify a behavior,
+    developers need to find the relevant implementation by behavior semantics rather than keywords, and
+    get verifiable source excerpts with line numbers.
+  pain: grep 与 IDE 全局搜索只匹配字面词，行为描述与函数命名不一致时命中大量无关结果；逐文件阅读耗时，代理在长上下文里也容易定位错文件，导致改错位置或反复返工。
+  pain_en: grep and IDE-wide search only match literal terms, so when a behavior description differs from
+    function naming they return many irrelevant hits; reading files one by one is slow, and agents in
+    long contexts often locate the wrong file, causing wrong edits or rework.
+  current_alternative: 用 grep、IDE 全局搜索或 ripgrep 做关键词检索，再靠人工逐文件阅读确认；或让编码代理自行遍历仓库、依赖其上下文窗口猜测位置。
+  current_alternative_en: Keyword search with grep, IDE-wide search or ripgrep followed by manual file-by-file
+    reading; or letting the coding agent traverse the repository itself and guess locations from its context
+    window.
+  usage_reason: 推断：相较关键词检索，它把行为描述直接映射为语义匹配并返回带行号的源码片段，省去人工筛选命中结果与逐文件比对这一步；因此当开发者需要让编码代理在大型仓库中定位某段行为实现时，会优先调用它而非
+    grep。公开材料未提供检索准确率或重复使用证据。
+  usage_reason_en: 'Inference: compared with keyword search, it maps a behavior description directly to
+    semantic matches and returns source excerpts with line numbers, removing the manual filtering and
+    file-by-file comparison step; so when developers need a coding agent to locate a behavior''s implementation
+    in a large repository, they would call it instead of grep. No accuracy or repeat-use evidence is provided.'

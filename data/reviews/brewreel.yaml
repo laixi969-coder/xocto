@@ -448,3 +448,55 @@
     and assembly into one command after submitting a brief, with built-in ad-law checks, so small merchants
     or marketers with only a brief and scattered footage and no editing capacity would choose it when
     they need a vertical promo video quickly.'
+- id: req-full-brewreel-2026-10-10
+  project_slug: brewreel
+  level: full
+  reviewed_at: '2026-10-10T02:28:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是小商家/营销人员只有简报和零散素材、却要产出可投放竖版宣传片的需求，痛点是缺剪辑与文案能力且请不起制作团队；公开说明已能还原输入（简报+素材）、动作（AI 选镜头、写文案、合成）与交付（一条命令出片），属工作流结构推理，痛点刚性与交付可确定。
+    evidence_ids:
+    - ev-8711308f71b2a4ce
+    - ev-b61c58d11d845929
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 117 升至 145，说明开发者社区持续关注，但这是关注度而非目标商家采用证据；没有客户案例、评价或重复使用记录，无法判断小商家是否把它留在投放工作流里。
+    evidence_ids:
+    - ev-8711308f71b2a4ce
+    - ev-ee65a70df4fadeca
+  - gate: model
+    status: insufficient
+    reason: 项目标注开源可商用，公开材料未给出定价页、付费主体或单位经济；钱可能来自 to B 商家订阅、to C 创作者或 to VC，这是判断而非已验证事实，属商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-8711308f71b2a4ce
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明成片质量稳定性、镜头来源与广告法校验的准确边界，也未提供可复现的部署或实测记录；交付能否确定性发生、人工复核边界如何划分仍缺公开证据。
+    evidence_ids:
+    - ev-8711308f71b2a4ce
+    - ev-b5240a680ff85c83
+  next_validation: 追踪 BrewReel 官方仓库的 README、issue 与 discussion，确认是否有商家实际部署案例、成片样例与广告法校验的边界说明。
+  market: ''
+  job: 小商家或营销人员手里只有一份产品简报和零散素材时，打开 BrewReel 把简报交给 AI，由 AI 挑选镜头、写文案并合成竖版宣传片，最终拿到一条可直接投放的成片；广告法校验结果仍需人工确认。
+  job_en: A small merchant or marketer with only a product brief and scattered footage opens BrewReel,
+    hands the brief to the AI, which selects shots, writes copy and assembles a vertical promo video,
+    ending with a ready-to-run cut; ad-law checks still need human confirmation.
+  pain: 公开材料显示其针对的是小商家/营销人员缺乏剪辑与文案能力、又请不起制作团队的处境：竖版宣传片是投放刚需，但自建流程要同时解决选镜头、写文案、合规校验三件事，任何一环缺失都出不了可投放成片。
+  pain_en: 'Public materials indicate the pain is that small merchants or marketers lack editing and copywriting
+    skills yet cannot afford a production team: vertical promo videos are a must for ad spend, but a self-built
+    workflow must solve shot selection, copywriting and compliance checks at once, and missing any one
+    step yields no runnable cut.'
+  current_alternative: 公开材料未直接描述旧做法；从任务结构推断，替代方式是人工用剪辑软件逐条剪片、外包给制作团队，或使用通用 AI 视频工具自行拼装，这些路径要么耗时、要么有成本、要么仍需自己完成选镜头与文案。
+  current_alternative_en: Public materials do not directly describe the old workflow; inferred from the
+    task structure, alternatives are manually cutting clips in editing software, outsourcing to a production
+    team, or assembling with generic AI video tools, each of which is time-consuming, costly, or still
+    leaves shot selection and copywriting to the user.
+  usage_reason: 推断：相较人工剪辑或外包，BrewReel 把“选镜头—写文案—合成竖版成片”压缩为提交一份简报后的一条命令，并内置 3 种配方、6 个行业模板与广告法校验，减少的是用户自己完成分镜与文案这一步负担；因此缺少剪辑能力、又需要快速产出可投放竖版素材的小商家或营销人员会在有明确产品简报和零散素材时选择它。
+  usage_reason_en: 'Inference: versus manual editing or outsourcing, BrewReel compresses shot selection,
+    copywriting and vertical assembly into one command after submitting a brief, with 3 recipes, 6 industry
+    templates and ad-law checks built in, removing the burden of doing storyboarding and copywriting yourself;
+    thus small merchants or marketers without editing skills who need fast runnable vertical assets would
+    choose it when they have a clear brief and scattered footage.'

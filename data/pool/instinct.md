@@ -3,22 +3,33 @@ slug: instinct
 name: Instinct
 builder: Spear Street Technology
 category: 通用助手
-summary_zh: 个人用户通过短信或电话委托账单、买菜、预约和旅行等事务；Instinct 官网描述使用手机和电脑执行这些任务，具体权限、成功率与兜底尚需核验。
-inspiration: 推断：用已有通信习惯委托具体事务，能降低开始使用的门槛。切入应选一个任务族，先证明无需反复监督的成功率、重复使用和交付利润。
-summary_en: People delegate bills, groceries, appointments and travel by text or phone; Instinct describes
-  phone and computer execution, with reliability and intervention still unverified.
-inspiration_en: 'Inference: familiar communication can lower the barrier to delegating a concrete errand.
-  Prove completion without repeated supervision, repeat use and delivery margin for one task family.'
+summary_zh: 个人用户通过短信或电话把预约车管所、发跟进邮件、联系商家客服这类琐事交给 Instinct，代理以文本对话接收指令，并可用自建邮箱注册账号、代发消息、处理客服往来；用户拿到的是事务被推进或办完的结果，涉及身份与付款的关键步骤仍需本人确认，具体边界待核验。
+inspiration: 趋势：个人代理从“回答问题”转向“替你出面办事”，短信入口把使用门槛压到几乎为零，说明通用代理的竞争点已从模型能力转到账号、身份与信任链。切入：不要做又一个全能助理，而是切某个必须反复与机构打交道的窄场景（如保险理赔跟进、政务预约、跨境账单争议），把“代你持续催办直到有结果”做成按结果收费的服务，并自建该场景所需的凭证与合规通道。
+summary_en: Individuals text or call Instinct to hand off chores such as booking a DMV appointment, sending
+  follow-up emails or chasing a merchant's support desk; the agent takes instructions in plain text and
+  can use its own email address to create accounts, send messages and handle support threads. The user
+  gets the errand moved forward or finished, with identity and payment steps still needing human confirmation;
+  exact boundaries remain unverified.
+inspiration_en: 'Trend: personal agents are shifting from answering questions to acting on your behalf,
+  and a text-message entry point drops the adoption barrier to near zero, so competition moves from model
+  quality to accounts, identity and trust chains. Wedge: skip the do-everything assistant and pick one
+  narrow chore that forces repeated contact with institutions (insurance claim follow-up, government appointments,
+  cross-border billing disputes), selling ''keep chasing until it is resolved'' as an outcome-priced service
+  with its own credential and compliance rails.'
 priority_review: true
 project_type: new_application
 industries:
-- 个人事务服务
+- 个人生活服务
+- 行政事务代办
 industries_en:
-- Personal administration
+- personal life services
+- administrative errands
 jobs:
 - 个人用户
+- 日常事务代办
 jobs_en:
-- Individual users
+- individual consumers
+- everyday errand handling
 regions:
 - 美国
 regions_en:
@@ -29,7 +40,7 @@ canonical_url: https://instinct.com
 summary: A personal AI assistant accessed through text and phone calls.
 first_seen: '2026-08-29T03:43:29Z'
 last_seen: '2026-10-10T01:46:29Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 - marketfeeds

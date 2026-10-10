@@ -1,0 +1,41 @@
+- id: req-initial-helixworld-2026-10-10
+  project_slug: helixworld
+  level: initial
+  reviewed_at: '2026-08-23T14:11:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连它解决什么需求、什么痛点都写不出来，价值关无法成立，后续三关未进入。
+    evidence_ids:
+    - ev-a28148ea5ba1bcb7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，198 星只能说明关注度，不能说明使用或采用。
+    evidence_ids:
+    - ev-a28148ea5ba1bcb7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，未见定价、买方或商业路径。
+    evidence_ids:
+    - ev-a28148ea5ba1bcb7
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，承诺能否确定性交付缺少可核对材料。
+    evidence_ids:
+    - ev-a28148ea5ba1bcb7
+  next_validation: 收集该仓库 README 或演示材料中关于输入形式、交互方式与输出交付的说明。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用它，只能推测是研究人员或开发者在构建实时音视频生成环境时使用。
+  job_en: Public material does not say who uses it or when; it can only be inferred that researchers or
+    developers use it when building real-time audio-visual generation environments.
+  pain: 材料未描述任何具体痛点，无法判断它替代了哪一步旧工作或解决了什么不便。
+  pain_en: The material describes no specific pain point, so which old step it replaces or what inconvenience
+    it removes cannot be judged.
+  current_alternative: 材料未提供现有替代方式，无法与既有做法对比。
+  current_alternative_en: No current alternative is provided, so no comparison with existing practice
+    is possible.
+  usage_reason: 无法判断：仓库描述未说明输入、动作与交付，也没有用户反馈或采用数据，无法解释哪类用户会因什么原因选择它。
+  usage_reason_en: 'Cannot be judged: the repository description states no input, action or deliverable,
+    and there is no user feedback or adoption data to explain who would choose it and why.'

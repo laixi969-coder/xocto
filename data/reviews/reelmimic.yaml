@@ -393,3 +393,55 @@
     self-reviews against a one-line brief, removing the steps of writing prompts from scratch and aligning
     style clip by clip; teams shipping videos by the unit that need to replicate one style at volume would
     pick it when they have a reference. Public material has no retention or repeat-use eviden'
+- id: req-full-reelmimic-2026-10-10
+  project_slug: reelmimic
+  level: full
+  reviewed_at: '2026-10-10T02:32:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决按参考片复刻完整视觉与剪辑风格这一任务，痛点是通用工具只做调色滤镜、逐段生成再手工拼接导致风格漂移与返工；旧做法是人工剪辑或外包模仿，不解决的后果是单条成本高且风格不可控，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-64733584917a83d8
+    - ev-ced4c7a42944b5cf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 1,580 增至 1,940，属关注度而非持续采用；公开材料没有用户评价或客户案例说明谁在什么场景反复使用，也未见中文生态覆盖。
+    evidence_ids:
+    - ev-4ee2372ae147542e
+    - ev-947902b75535af1c
+    - ev-fe2e776ce413a4fc
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，开源仓库本身不构成付费路径；按成片条数或订阅收费只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-4ee2372ae147542e
+    - ev-64733584917a83d8
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明它拆解剪辑节奏与镜头构图并生成同风格视频，未给出成片与参考片风格一致性的可核对结果，也未说明人工确认与安全边界，交付确定性尚不清楚。
+    evidence_ids:
+    - ev-ced4c7a42944b5cf
+    - ev-eb62c7ead22d800e
+  next_validation: 追踪该仓库的 issue、discussion 或 README 示例，核对是否有用户贴出成片与参考片的风格一致性对比及人工修改量。
+  market: ''
+  job: 短视频创作者或营销人员拿到一条喜欢的参考视频后，把文件、手机录制或 YouTube 链接交给 ReelMimic，由 Claude Code 或 Codex 组成的流程拆解剪辑节奏与镜头结构，再产出一条同风格的新视频用于投放或发布。
+  job_en: Short-video creators or marketers who, after picking a reference video they like, hand a file,
+    phone recording or YouTube link to ReelMimic, where a Claude Code or Codex crew breaks down editing
+    rhythm and shot structure and produces a new video in the same style for publishing or ad delivery.
+  pain: 公开材料显示风格复刻要覆盖剪辑节奏、镜头构图等完整视觉与剪辑风格，而通用工具只做到调色或滤镜；逐段生成再手工拼接会让风格漂移、返工多，单条成片成本高。
+  pain_en: Public material shows style replication must cover editing rhythm and shot composition as a
+    whole, while general tools only do color grading or filters; generating clips piecewise and stitching
+    by hand causes style drift, heavy rework and high per-video cost.
+  current_alternative: 现在多是用通用视频生成工具逐段生成再人工剪辑拼接，或外包给剪辑师按参考片模仿；公开材料未给出这些旧做法的量化对比。
+  current_alternative_en: Today people either generate clips piecewise with general video tools and edit
+    them together by hand, or outsource to an editor who imitates the reference video; public material
+    gives no quantified comparison of these old approaches.
+  usage_reason: 推断：相较逐段生成再手工拼接，它把“看参考片—拆风格—生成—评审”串成一条可重复流程，用户不必每次从零调提示词和逐段对齐节奏，因此高频按条出片的投放或内容团队会在需要复刻某条参考片风格时选择它；公开材料没有留存或复购证据，尚不能说明它已被长期留在工作流里。
+  usage_reason_en: 'Inference: compared with piecewise generation and manual stitching, it chains reference-watching,
+    style breakdown, generation and review into one repeatable pipeline, so users no longer rebuild prompts
+    and align rhythm clip by clip each time; teams shipping video by the unit at high frequency would
+    pick it when they need to replicate a specific reference style. Public material shows no retention
+    or repeat-use evidence, so it cannot yet be said to be embedded in workflows long'

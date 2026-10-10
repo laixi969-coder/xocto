@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE43czFoTXhNR0VH
 summary: AI代理融资战升级欧盟新政压垮跨境小包| 邦小白日报- 栏目 亿邦动力
 first_seen: '2026-10-10T01:46:37Z'
 last_seen: '2026-10-10T01:46:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

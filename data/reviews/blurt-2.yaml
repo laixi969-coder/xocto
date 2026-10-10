@@ -1,0 +1,90 @@
+- id: req-initial-blurt-2-2026-10-10
+  project_slug: blurt-2
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是复现问题时把画面与口述整理成可指派条目的需求，痛点是截图加手写丢失上下文、交接要反复确认；旧替代行为明确存在。
+    evidence_ids:
+    - ev-34059aebbd25ff1a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与简介，没有用户评价、客户案例或团队采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-34059aebbd25ff1a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方是个人开发者还是团队尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-34059aebbd25ff1a
+  - gate: truth
+    status: insufficient
+    reason: 条目质量、是否需人工确认、与编码代理的实际闭环均未在材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-34059aebbd25ff1a
+  next_validation: 收集该仓库的 issue / discussion 与 README 中的使用示例，确认录屏口述转成缺陷条目的实际输出质量与人工确认环节。
+  market: ''
+  job: 开发者和测试人员在复现缺陷或试用新功能时，需要把屏幕上看到的问题和口述判断整理成可指派的缺陷条目或待办，交给编码代理或同事处理。
+  job_en: When reproducing a defect or trying a new feature, developers and testers need to turn what
+    they see on screen plus their spoken judgement into assignable bug entries or to-dos for a coding
+    agent or teammate.
+  pain: 截图加文字描述往往丢失上下文，复现步骤要反复打字，口述的细节和具体画面帧对不上，交接时对方还得再问一遍。
+  pain_en: Screenshots plus written descriptions lose context, reproduction steps must be retyped, spoken
+    detail does not line up with the exact frame, and the handoff triggers another round of questions.
+  current_alternative: 现在多用截图工具加手工写 issue，或录一段没有时间戳的视频再口头解释；也有人直接在聊天里发语音，靠对方自己找对应画面。
+  current_alternative_en: Today people use a screenshot tool plus hand-written issues, or record an untimestamped
+    video and explain verbally; some just send voice messages and let the other side find the matching
+    frame.
+  usage_reason: 推断：相较截图加手写 issue，它把录屏和口述合成一次输入并自动标出对应帧，省掉逐条打字和事后对齐画面的步骤，因此常做复现和反馈的测试、客服、实施人员会在需要把现象转成可指派条目时选它。
+  usage_reason_en: 'Inference: versus screenshots plus hand-written issues, it merges screen recording
+    and narration into one input and marks the matching frames, removing the retyping and later frame-matching
+    step, so testers, support and implementation staff who reproduce issues often would pick it when a
+    phenomenon must become an assignable item.'
+- id: req-full-blurt-2-2026-10-10
+  project_slug: blurt-2
+  level: full
+  reviewed_at: '2026-10-10T02:28:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是复现问题时把画面与口述整理成可指派条目的需求，痛点是截图加手写丢失上下文、交接要反复确认；旧替代行为明确存在。
+    evidence_ids:
+    - ev-34059aebbd25ff1a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与简介，没有用户评价、客户案例或团队采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-34059aebbd25ff1a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方是个人开发者还是团队尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-34059aebbd25ff1a
+  - gate: truth
+    status: insufficient
+    reason: 条目质量、是否需人工确认、与编码代理的实际闭环均未在材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-34059aebbd25ff1a
+  next_validation: 收集该仓库的 issue / discussion 与 README 中的使用示例，确认录屏口述转成缺陷条目的实际输出质量与人工确认环节。
+  market: ''
+  job: 开发者和测试人员在复现缺陷或试用新功能时，需要把屏幕上看到的问题和口述判断整理成可指派的缺陷条目或待办，交给编码代理或同事处理。
+  job_en: When reproducing a defect or trying a new feature, developers and testers need to turn what
+    they see on screen plus their spoken judgement into assignable bug entries or to-dos for a coding
+    agent or teammate.
+  pain: 截图加文字描述往往丢失上下文，复现步骤要反复打字，口述的细节和具体画面帧对不上，交接时对方还得再问一遍。
+  pain_en: Screenshots plus written descriptions lose context, reproduction steps must be retyped, spoken
+    detail does not line up with the exact frame, and the handoff triggers another round of questions.
+  current_alternative: 现在多用截图工具加手工写 issue，或录一段没有时间戳的视频再口头解释；也有人直接在聊天里发语音，靠对方自己找对应画面。
+  current_alternative_en: Today people use a screenshot tool plus hand-written issues, or record an untimestamped
+    video and explain verbally; some just send voice messages and let the other side find the matching
+    frame.
+  usage_reason: 推断：相较截图加手写 issue，它把录屏和口述合成一次输入并自动标出对应帧，省掉逐条打字和事后对齐画面的步骤，因此常做复现和反馈的测试、客服、实施人员会在需要把现象转成可指派条目时选它。
+  usage_reason_en: 'Inference: versus screenshots plus hand-written issues, it merges screen recording
+    and narration into one input and marks the matching frames, removing the retyping and later frame-matching
+    step, so testers, support and implementation staff who reproduce issues often would pick it when a
+    phenomenon must become an assignable item.'

@@ -335,3 +335,51 @@
   usage_reason_en: 'Inference: pinning session status to the screen edge could in theory remove the repeated
     window-switching step; however, the public material provides no user feedback, retention, or repeat-use
     evidence, so it is impossible to confirm which users would choose it under what circumstances.'
+- id: req-full-coucou-2026-10-10
+  project_slug: coucou
+  level: full
+  reviewed_at: '2026-10-10T02:29:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多代理会话并行时的状态可见性与权限阻塞问题：会话长时间无人值守、权限请求会卡住执行，开发者只能反复切终端查看或批准，漏看中断与待确认弹窗有实际代价。公开仓库说明其把状态与批准动作固定在屏幕边缘，属工作流结构推理，痛点刚性且交付形式可确定。
+    evidence_ids:
+    - ev-cd4f9643fbf3cc27
+    - ev-019135771771e0b6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库自述与产品描述，未见开发者评价、issue 讨论或采用数据，无法判断开发者是否已把它留在日常工作流；关注度不等于持续采用。
+    evidence_ids:
+    - ev-cd4f9643fbf3cc27
+  - gate: model
+    status: insufficient
+    reason: 仓库自述未给出定价页、付费方式或买方，无法判断收入来自个人捐赠、企业支持还是托管服务；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e3813359bc33a694
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明它读取会话状态的机制、是否会误报卡顿，也未交代权限批准的人工边界与安全约束，交付可靠性无法核对。
+    evidence_ids:
+    - ev-019135771771e0b6
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，核对开发者反馈的状态误报、卡顿识别、权限批准边界与长期使用情况。
+  market: ''
+  job: 开发者在同时运行多个 Claude Code 代理会话时，在 macOS 刘海或 Windows/Linux 屏幕顶部常驻的小窗口里查看各会话状态、批准权限请求、投放文件并与 Claude
+    对话，从而在不离开当前工作窗口的情况下完成对代理会话的盯守与干预。
+  job_en: Developers running several Claude Code agent sessions use a small always-on window in the Mac
+    notch or at the top of the screen on Windows/Linux to watch session status, approve permission requests,
+    drop files, and chat with Claude, so they can supervise and intervene without leaving their current
+    window.
+  pain: 代理会话运行时间长且无人值守，权限请求会阻塞执行，开发者只能反复切回终端查看或批准，容易漏掉中断、长时间无输出或待确认的权限弹窗。
+  pain_en: Agent sessions run long and unattended, and permission requests block execution, so developers
+    keep switching back to the terminal to check or approve, and can miss interruptions, long silences,
+    or pending permission prompts.
+  current_alternative: 目前主要靠手动切换终端窗口、翻看日志输出，或依赖代理自身在终端里的提示与权限弹窗。
+  current_alternative_en: Today this is mostly done by manually switching terminal windows, reading log
+    output, or relying on the agent's own terminal prompts and permission dialogs.
+  usage_reason: 推断：相较反复切换终端，它把会话状态与权限批准固定在屏幕边缘常驻显示，省去切窗口这一步，并让权限请求在视线内即可处理，因此同时跑多个会话的开发者会在多任务并行时选择它；公开材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: instead of repeatedly switching terminals, it pins session status and permission
+    approval to the screen edge, removing the window-switching step and letting permission requests be
+    handled in view, so developers running several sessions may choose it during parallel work; no retention
+    or repeat-use evidence is provided.'

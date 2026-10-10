@@ -1,0 +1,91 @@
+- id: req-initial-de-stash-2026-10-10
+  project_slug: de-stash
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 磁盘清理需求真实存在，但材料未说明 AI 具体减少哪一步负担，也未说明与系统自带工具相比的差异。
+    evidence_ids:
+    - ev-09962a967c0bc69b
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品描述，没有用户评价、下载或采用信号，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-09962a967c0bc69b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，是买断、订阅还是免费增值均不清楚，属判断而非已验证事实。
+    evidence_ids:
+    - ev-09962a967c0bc69b
+  - gate: truth
+    status: insufficient
+    reason: “100% 私有”的宣称无法从材料核对，删除操作是否可逆、误删风险如何控制也未说明。
+    evidence_ids:
+    - ev-09962a967c0bc69b
+  next_validation: 收集 De Stash 官方定价页或产品文档，确认收费方式、AI 在清理流程中的具体作用与本地处理的可核验说明。
+  market: ''
+  job: Mac 用户在硬盘空间不足、需要找出大文件和冗余内容时，扫描本机存储并清理不需要的文件。
+  job_en: A Mac user short on disk space scans local storage and removes unneeded files when they need
+    to find large or redundant content.
+  pain: 磁盘空间不足是真实且反复出现的困扰，但材料只给出扫描、搜索、清理三项功能，未说明 AI 在其中承担哪一步，也未说明旧做法慢在哪里。
+  pain_en: Running out of disk space is a real and recurring annoyance, but the material only lists scanning,
+    searching and cleaning, without saying which step the AI handles or where the old approach is slow.
+  current_alternative: 用户通常手动翻 Finder、用系统存储管理或第三方清理工具逐项删除；材料未说明 De Stash 与这些做法的差别。
+  current_alternative_en: Users typically dig through Finder manually, use system storage management,
+    or delete item by item with third-party cleaners; the material does not describe how De Stash differs.
+  usage_reason: 推断：若清理建议确实在本地生成、无需上传文件，注重隐私的 Mac 用户可能因此选择它；但缺少定价、评价或重复使用证据，无法确认这一动机成立。
+  usage_reason_en: 'Inference: if cleanup suggestions are genuinely generated on-device without uploading
+    files, privacy-conscious Mac users may choose it for that reason; but without pricing, reviews or
+    repeat-use evidence, the motive is unconfirmed.'
+- id: req-full-de-stash-2026-10-10
+  project_slug: de-stash
+  level: full
+  reviewed_at: '2026-10-10T02:29:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Mac 磁盘空间不足时定位并清理大文件的需求，痛点是容量刚性约束、旧做法需手动翻 Finder 逐项比对；扫描—搜索—清理闭环与不清理的后果（无法安装或更新）可还原，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-09962a967c0bc69b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅一句产品描述，无用户评价、下载量或采用信号，无法判断是否形成使用共识；关注度类指标也不足以证明持续使用。
+    evidence_ids:
+    - ev-09962a967c0bc69b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，买断、订阅还是免费增值均不清楚；可推断面向 Mac 个人用户 to C 收费或免费增值，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-09962a967c0bc69b
+  - gate: truth
+    status: insufficient
+    reason: “100% 私有”的宣称无法从材料核对，AI 接收哪些数据、删除是否可逆、误删如何防护均未说明，交付确定性存缺口。
+    evidence_ids:
+    - ev-09962a967c0bc69b
+  next_validation: 追踪 De Stash 官方定价页与产品文档，确认收费方式、AI 在扫描与清理流程中的具体动作，以及本地处理与删除可逆性的可核验说明。
+  market: ''
+  job: Mac 个人用户或小型团队设备管理员在系统盘空间吃紧、需要腾出容量时，用 De Stash 扫描本机存储、按占用搜索定位大文件与冗余内容，再决定删除哪些文件完成清理。
+  job_en: A Mac individual user or small-team device admin running low on system disk space uses De Stash
+    to scan local storage, search by size to locate large and redundant files, and then delete selected
+    items to free capacity.
+  pain: 磁盘空间不足是 Mac 用户反复遇到的刚性困扰，旧做法要在 Finder 里逐层翻目录、靠肉眼比对体积，定位占用大户耗时且容易漏掉；材料未说明 AI 具体承担哪一步，但扫描—搜索—清理的闭环本身对应这一真实负担。
+  pain_en: Running out of disk space is a recurring, hard constraint for Mac users; the old approach means
+    digging through Finder level by level and eyeballing sizes, which is slow and easy to miss the biggest
+    offenders. The material does not say which step the AI handles, but the scan-search-clean loop maps
+    onto that real burden.
+  current_alternative: 用户通常手动翻 Finder、用 macOS 自带的存储管理面板，或安装 CleanMyMac 等第三方清理工具逐项删除；材料未说明 De Stash 与这些做法的具体差别。
+  current_alternative_en: Users typically dig through Finder manually, use the built-in macOS Storage
+    management pane, or delete item by item with third-party cleaners such as CleanMyMac; the material
+    does not describe how De Stash differs.
+  usage_reason: 推断：相较手动翻 Finder 逐层比对，De Stash 把扫描与按占用搜索合并成一次可检索的视图，用户不必自己记住目录结构就能定位大文件；对不愿把文件清单交给云端扫描的
+    Mac 用户，'100% 本地处理'的宣称构成选择理由，但该宣称与 AI 角色均未被公开材料核验。
+  usage_reason_en: 'Inference: versus manually browsing Finder level by level, De Stash merges scanning
+    and size-based search into one searchable view, so users need not memorize directory structure to
+    find large files; for Mac users unwilling to hand file listings to a cloud scanner, the ''100% private''
+    claim is a reason to choose it, though neither that claim nor the AI''s role is verified in public
+    material.'

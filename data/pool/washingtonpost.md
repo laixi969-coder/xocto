@@ -21,7 +21,7 @@ canonical_url: https://washingtonpost.com/technology/2026/10/09/chatgpt-users-ir
 summary: Iranian campaign planted fake articles in real U.S. publications using ChatGPT
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-10T01:45:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
