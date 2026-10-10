@@ -28,8 +28,8 @@ url: https://instinct.com/
 canonical_url: https://instinct.com
 summary: A personal AI assistant accessed through text and phone calls.
 first_seen: '2026-08-29T03:43:29Z'
-last_seen: '2026-10-09T03:35:18Z'
-status: analyzed
+last_seen: '2026-10-10T01:46:29Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -136,6 +136,11 @@ sightings:
   seen_at: '2026-09-10T05:13:56Z'
   metrics: {}
   kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots
+  seen_at: '2026-10-10T01:46:29Z'
+  metrics: {}
+  kind: news
 ---
 
 # Instinct
@@ -143,3 +148,5 @@ sightings:
 A personal AI assistant accessed through text and phone calls.
 
 ## 笔记
+
+

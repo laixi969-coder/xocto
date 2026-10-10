@@ -1,0 +1,41 @@
+---
+slug: personal-agent-protocol-explained-how-ai-assistants-may-act
+name: 'Personal Agent Protocol explained: How AI assistants may act for users'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbEI2eU9jOWE0VmVSckpoWThnOU04Slo3dk5paENmX3NORzBEWXJSVWJuY1lTQndSVnRQaVRjWWtpVnJrUklPaEFXNXdPdEZfVVJkZjZDdXRYUUNDdzB6TFZiRmJSbjBWSzlDQTdybmJiX2ZqZ0w1R2RqS2RCVzh5VElXejRGb2JGOVZTQzFiSWhSdFFmVURPMWk1ZXlTbnBTNjk3eXJRUVhqX1dyeU9qM0hGaEVGeFJzc0V4a2MyWmtvd1XSAcgBQVVfeXFMUFdPSWU5LVNjaUJqNFpKeUdIM0E4bUJueWdaazdwc0p1a3NyWHpFV3RmMEN4SGZmOUJ5WjBkckFtRUxsNlZGaGstRGxTSXI3cUk1S3dkLVJ3Zl9DTDByQjZHS3AwQkd5WnFUbm8wWk9lZ2pkTlc4XzJIS28xNTFzYmNGVm1NQmI5Y1drVXJLd2daOUt0SWxjY2dmZmZkNEtSUktiRjNDeGl6VE5NX1F3b3lzdGxrLVlwdkUyRlRZdS1VR21PZk9EbWM?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbEI2eU9jOWE0VmVSckpoWThnOU04Slo3dk5paENmX3NORzBEWXJSVWJuY1lTQndSVnRQaVRjWWtpVnJrUklPaEFXNXdPdEZfVVJkZjZDdXRYUUNDdzB6TFZiRmJSbjBWSzlDQTdybmJiX2ZqZ0w1R2RqS2RCVzh5VElXejRGb2JGOVZTQzFiSWhSdFFmVURPMWk1ZXlTbnBTNjk3eXJRUVhqX1dyeU9qM0hGaEVGeFJzc0V4a2MyWmtvd1XSAcgBQVVfeXFMUFdPSWU5LVNjaUJqNFpKeUdIM0E4bUJueWdaazdwc0p1a3NyWHpFV3RmMEN4SGZmOUJ5WjBkckFtRUxsNlZGaGstRGxTSXI3cUk1S3dkLVJ3Zl9DTDByQjZHS3AwQkd5WnFUbm8wWk9lZ2pkTlc4XzJIS28xNTFzYmNGVm1NQmI5Y1drVXJLd2daOUt0SWxjY2dmZmZkNEtSUktiRjNDeGl6VE5NX1F3b3lzdGxrLVlwdkUyRlRZdS1VR21PZk9EbWM?oc=5
+summary: 'Personal Agent Protocol explained: How AI assistants may act for users News9live'
+first_seen: '2026-10-10T01:46:37Z'
+last_seen: '2026-10-10T01:46:37Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbEI2eU9jOWE0VmVSckpoWThnOU04Slo3dk5paENmX3NORzBEWXJSVWJuY1lTQndSVnRQaVRjWWtpVnJrUklPaEFXNXdPdEZfVVJkZjZDdXRYUUNDdzB6TFZiRmJSbjBWSzlDQTdybmJiX2ZqZ0w1R2RqS2RCVzh5VElXejRGb2JGOVZTQzFiSWhSdFFmVURPMWk1ZXlTbnBTNjk3eXJRUVhqX1dyeU9qM0hGaEVGeFJzc0V4a2MyWmtvd1XSAcgBQVVfeXFMUFdPSWU5LVNjaUJqNFpKeUdIM0E4bUJueWdaazdwc0p1a3NyWHpFV3RmMEN4SGZmOUJ5WjBkckFtRUxsNlZGaGstRGxTSXI3cUk1S3dkLVJ3Zl9DTDByQjZHS3AwQkd5WnFUbm8wWk9lZ2pkTlc4XzJIS28xNTFzYmNGVm1NQmI5Y1drVXJLd2daOUt0SWxjY2dmZmZkNEtSUktiRjNDeGl6VE5NX1F3b3lzdGxrLVlwdkUyRlRZdS1VR21PZk9EbWM?oc=5
+  seen_at: '2026-10-10T01:46:37Z'
+  metrics: {}
+  kind: news
+---
+
+# Personal Agent Protocol explained: How AI assistants may act for users
+
+Personal Agent Protocol explained: How AI assistants may act for users News9live
+
+## 笔记
+
+

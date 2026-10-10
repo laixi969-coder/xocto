@@ -33,16 +33,16 @@ summary: 'Typed judgment tools for MCP agents. TypeSafe''s Jev model as verify, 
   rerank, decide, compare, extract, review, gate, and score: the model judges, policy decides auto, review,
   or escalate.'
 first_seen: '2026-09-23T22:48:43Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/PyModel/jev-judge-mcp
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 71
+    stars: 72
     forks: 5
     open_issues: 0
   kind: product

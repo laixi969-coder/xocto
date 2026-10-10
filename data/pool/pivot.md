@@ -20,17 +20,17 @@ url: https://pivotlake.io/
 canonical_url: https://pivotlake.io
 summary: fast analytics on Iceberg, 2x+ faster than ClickHouse / DuckDB
 first_seen: '2026-10-08T15:08:42Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pivotlake.io/
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 11
-    comments: 1
+    points: 14
+    comments: 3
   kind: product
 ---
 

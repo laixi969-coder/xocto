@@ -17,3 +17,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 在 JVM 技术栈上做检索或推荐服务的后端工程师，需要在进程内完成向量近邻查询而不引入外部向量数据库'
+- id: ev-09986fdd58e6e862
+  project_slug: vectra-core
+  url: https://github.com/ronitgupta138/vectra-core
+  title: vectra-core
+  published_at: '2026-10-04T17:54:41Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: '⚡ In-Memory Vector Search Engine & HNSW ANN Graph in Java 21 Loom. Sub-millisecond KNN retrieval,
+    8-bit scalar quantization (SQ8), 16,000+ QPS. | repository stars: 41'

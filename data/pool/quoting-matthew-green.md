@@ -27,14 +27,19 @@ summary: "[...] Put these pieces together and you have the two halves of a worm:
   \ Green , Is sandboxing sufficient to contain rogue agents? \n\n     Tags:  accidental-cyberattacks\
   \ ,  ai-misuse ,  generative-ai ,  ai-security-research ,  sandboxing ,  ai ,  llms"
 first_seen: '2026-10-01T06:29:01Z'
-last_seen: '2026-10-02T01:42:13Z'
-status: rejected
+last_seen: '2026-10-10T01:46:29Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Oct/1/matthew-green/
   seen_at: '2026-10-02T01:42:13Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Oct/9/matthew-green/
+  seen_at: '2026-10-10T01:46:29Z'
   metrics: {}
   kind: news
 ---

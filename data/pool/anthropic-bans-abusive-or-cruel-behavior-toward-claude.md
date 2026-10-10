@@ -1,7 +1,7 @@
 ---
 slug: anthropic-bans-abusive-or-cruel-behavior-toward-claude
 name: Anthropic
-builder: ''
+builder: mikelgan
 category: ''
 summary_zh: Anthropic一年多来首次更新Claude使用政策，新增禁止对Claude持续且无谓的辱骂或残忍行为，并覆盖选举干预、武器开发、监控及健康与金融用途等高风险场景。模型厂商以使用政策划定可接受用途边界，意味着面向终端用户的AI应用在选举、监控、医疗与金融等场景的合规约束收紧，交付与采用需按厂商政策调整（推断）。
 inspiration: ''
@@ -28,15 +28,23 @@ summary: Anthropic is making changes to its usage policy for the first time in o
   and health and financial uses. But one of the most significant changes prohibits "sustained and needless
   abusive or cruel behavior" toward Claude. Last August, […]
 first_seen: '2026-10-08T17:00:00Z'
-last_seen: '2026-10-09T02:10:47Z'
-status: market_context
+last_seen: '2026-10-10T01:45:59Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude
   seen_at: '2026-10-09T02:10:47Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude
+  seen_at: '2026-10-10T01:45:59Z'
+  metrics:
+    points: 85
+    comments: 207
   kind: news
 ---
 

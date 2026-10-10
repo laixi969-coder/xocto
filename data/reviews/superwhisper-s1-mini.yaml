@@ -40,3 +40,43 @@
   usage_reason_en: 'Inference: versus manual rewriting or pasting into a general chat, it performs normalization
     right after transcription, removing a copy-and-prompt step, so heavy dictation users would choose
     it when writing emails or documents; no retention or payment evidence is public'
+- id: req-initial-superwhisper-s1-mini-2026-10-10
+  project_slug: superwhisper-s1-mini
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它试图帮助用户完成：“面向经常用语音输入写邮件或文档的人，在语音转文字之后，由模型接收转写文本并做语气与格式规范化，输出更接近书面表达的文本；用户仍需自行确认内容是否准确”。公开用户材料同时记录了痛点或既有替代行为，价值结构已有依据。
+    evidence_ids:
+    - ev-3dd2aa02866eca82
+  - gate: consensus
+    status: insufficient
+    reason: 已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    evidence_ids:
+    - ev-2a5fd84676400e8d
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''
+  job: 经常用语音输入写邮件或文档的知识工作者，在语音转文字后整理口语化、断句混乱的文本，以得到可直接发送的书面内容
+  job_en: Knowledge workers who dictate emails or documents clean up colloquial, poorly punctuated speech-to-text
+    output to get sendable written content
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：经常用语音输入写邮件或文档的知识工作者，在语音转文字后整理口语化、断句混乱的文本，以得到可直接发送的书面内容；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Knowledge workers who dictate emails or documents clean up colloquial,
+    poorly punctuated speech-to-text output to get sendable written content Public materials do not yet
+    explain why users choose this product over their existing approach.'

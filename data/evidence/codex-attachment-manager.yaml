@@ -93,3 +93,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 开发者'
+- id: ev-0560000e17a5702d
+  project_slug: codex-attachment-manager
+  url: https://github.com/chipfighter/codex-attachment-manager
+  title: codex-attachment-manager
+  published_at: '2026-09-24T05:00:09Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Codex plugin: choose which past images go to the model with your next message. Unchecked images
+    become placeholders, the task goes on, and requests stay small. | repository stars: 215'

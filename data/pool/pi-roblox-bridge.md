@@ -37,18 +37,18 @@ url: https://github.com/thryvaan-hub/pi-roblox-bridge
 canonical_url: https://github.com/thryvaan-hub/pi-roblox-bridge
 summary: Best On-Demand Roblox Studio MCP Tools for Pi Without Server 2026
 first_seen: '2026-09-22T20:30:28Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/thryvaan-hub/pi-roblox-bridge
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
     stars: 68
     forks: 0
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

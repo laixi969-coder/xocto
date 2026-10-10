@@ -573,3 +573,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 网络安全 安全工程师 应用安全负责人'
+- id: ev-d314284632d4ad32
+  project_slug: vulnhunter
+  url: https://github.com/nealbridges/VulnHunter
+  title: VulnHunter
+  published_at: '2026-09-22T23:22:00Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Agentic AI security scanner that hunts exploitable vulnerabilities like an adversary, proves
+    them with executable PoCs, and fixes them test-first. A maintained fork of Capital One''s VulnHunter,
+    rebuilt for any agent harness. | repository stars: 678'

@@ -178,3 +178,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-2b63104f390d1364
+  project_slug: mcp-extensions
+  url: https://github.com/openai/mcp-extensions
+  title: mcp-extensions
+  published_at: '2026-09-29T00:45:42Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Build plugins that feel like native, first-class features of ChatGPT. | repository stars: 954'

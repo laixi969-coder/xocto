@@ -34,18 +34,18 @@ url: https://github.com/arielshad/3d-asset-server
 canonical_url: https://github.com/arielshad/3d-asset-server
 summary: 3d assets api and mcp
 first_seen: '2026-10-04T19:28:37Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/arielshad/3d-asset-server
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 268
-    forks: 26
-    open_issues: 0
+    stars: 272
+    forks: 27
+    open_issues: 1
   kind: product
 ---
 

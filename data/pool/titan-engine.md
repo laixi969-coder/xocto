@@ -20,16 +20,16 @@ url: https://github.com/podraven/titan-engine
 canonical_url: https://github.com/podraven/titan-engine
 summary: I built a fast spreadsheet engine for the web in Rust/WASM
 first_seen: '2026-10-08T21:51:03Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/podraven/titan-engine
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 5
+    points: 8
     comments: 2
   kind: product
 ---

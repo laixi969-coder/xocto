@@ -20,11 +20,12 @@ url: https://drop.space
 canonical_url: https://drop.space
 summary: They chose your competitor. Find out why
 first_seen: '2026-09-10T02:20:02Z'
-last_seen: '2026-10-08T01:56:23Z'
-status: rejected
+last_seen: '2026-10-10T01:46:29Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://drop.space
@@ -72,6 +73,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPbkhfQXBhLVQ1eGZCaWM5YzBQa1A3N2lzdk81ZklxX0JOQ3E0VV9KUThRUjFTRWF4Y3NCbHc2OXR6blpXRnlXQkZmZkJQc2JjdF9ZallOUUtpSkltaEI0NUdWbk9pU2c2REVqd1oxbHExcGpfWG1iNW1mSjQ1R01lYnFkRF9aOUtPWE5va0pnb01lQ1ZfNEMxb3ZFTmRNM0tkWEI0TG5VbTdHVHVzREE?oc=5
   seen_at: '2026-10-08T01:56:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos
+  seen_at: '2026-10-10T01:46:29Z'
   metrics: {}
   kind: news
 ---

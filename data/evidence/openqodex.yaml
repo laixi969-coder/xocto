@@ -29,3 +29,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 信息安全 提交代码前的开发者 负责代码安全审查的工程团队'
+- id: ev-31dfb4cbcfecb646
+  project_slug: openqodex
+  url: https://qodex.ai/openqodex
+  title: openqodex
+  published_at: '2026-10-02T06:19:06Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets,
+    dependencies, lint) on the lines you changed, then a separate reviewer process that checks every scanner
+    finding and is given every changed line. No other API key. | repository stars: 508'

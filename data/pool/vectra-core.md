@@ -34,16 +34,16 @@ canonical_url: https://github.com/ronitgupta138/vectra-core
 summary: ⚡ In-Memory Vector Search Engine & HNSW ANN Graph in Java 21 Loom. Sub-millisecond KNN retrieval,
   8-bit scalar quantization (SQ8), 16,000+ QPS.
 first_seen: '2026-10-04T17:54:41Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ronitgupta138/vectra-core
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 40
+    stars: 41
     forks: 0
     open_issues: 0
   kind: product

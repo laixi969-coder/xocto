@@ -20,17 +20,17 @@ url: https://opper.ai/jevman-benchmark/
 canonical_url: https://opper.ai/jevman-benchmark
 summary: AI decision models play Pac-Man
 first_seen: '2026-10-08T16:34:13Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://opper.ai/jevman-benchmark/
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 31
-    comments: 5
+    points: 72
+    comments: 23
   kind: product
 ---
 

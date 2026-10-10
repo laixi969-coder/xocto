@@ -30,16 +30,16 @@ url: https://github.com/Arther-hup/forge-context-engine
 canonical_url: https://github.com/Arther-hup/forge-context-engine
 summary: Best Open-Source Roblox Studio AI Workflow for Claude Code 2026
 first_seen: '2026-09-22T21:24:22Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Arther-hup/forge-context-engine
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 70
+    stars: 71
     forks: 0
     open_issues: 0
   kind: product

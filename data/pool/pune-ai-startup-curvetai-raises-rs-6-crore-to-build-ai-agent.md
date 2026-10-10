@@ -1,0 +1,42 @@
+---
+slug: pune-ai-startup-curvetai-raises-rs-6-crore-to-build-ai-agent
+name: Pune AI startup CurvetAI raises Rs 6 crore to build AI agents that can handle complex tasks
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQmFmNXZXM19SRlN3VTFBTUdOM0VVSjBuTTZ1NHNWSVNtcFBNMTRVLUxjUVRIaWxQU19mU2ZJNTcxTWlUekFaZ0YtaGFsc2hsNkxxRkpGOUdBSmprMk9DRlRRVkNHekFzTnVBV0dvMkU5VUU1S3lNSlZybFBqMFpqZVFjcG1wZWR5OWtaR0R6RUNhZlZvS21HUFBtWmJUN0JpX3RGbGp0S3FWWWtfQ21LQkRTN1U2bXNrU2pVUFlzbldLVHVsNkU4S2R3LVA3VFdCdHl0ONIB1AFBVV95cUxNQmFmNXZXM19SRlN3VTFBTUdOM0VVSjBuTTZ1NHNWSVNtcFBNMTRVLUxjUVRIaWxQU19mU2ZJNTcxTWlUekFaZ0YtaGFsc2hsNkxxRkpGOUdBSmprMk9DRlRRVkNHekFzTnVBV0dvMkU5VUU1S3lNSlZybFBqMFpqZVFjcG1wZWR5OWtaR0R6RUNhZlZvS21HUFBtWmJUN0JpX3RGbGp0S3FWWWtfQ21LQkRTN1U2bXNrU2pVUFlzbldLVHVsNkU4S2R3LVA3VFdCdHl0OA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQmFmNXZXM19SRlN3VTFBTUdOM0VVSjBuTTZ1NHNWSVNtcFBNMTRVLUxjUVRIaWxQU19mU2ZJNTcxTWlUekFaZ0YtaGFsc2hsNkxxRkpGOUdBSmprMk9DRlRRVkNHekFzTnVBV0dvMkU5VUU1S3lNSlZybFBqMFpqZVFjcG1wZWR5OWtaR0R6RUNhZlZvS21HUFBtWmJUN0JpX3RGbGp0S3FWWWtfQ21LQkRTN1U2bXNrU2pVUFlzbldLVHVsNkU4S2R3LVA3VFdCdHl0ONIB1AFBVV95cUxNQmFmNXZXM19SRlN3VTFBTUdOM0VVSjBuTTZ1NHNWSVNtcFBNMTRVLUxjUVRIaWxQU19mU2ZJNTcxTWlUekFaZ0YtaGFsc2hsNkxxRkpGOUdBSmprMk9DRlRRVkNHekFzTnVBV0dvMkU5VUU1S3lNSlZybFBqMFpqZVFjcG1wZWR5OWtaR0R6RUNhZlZvS21HUFBtWmJUN0JpX3RGbGp0S3FWWWtfQ21LQkRTN1U2bXNrU2pVUFlzbldLVHVsNkU4S2R3LVA3VFdCdHl0OA?oc=5
+summary: Pune AI startup CurvetAI raises Rs 6 crore to build AI agents that can handle complex tasks Indian
+  Startup News
+first_seen: '2026-10-10T01:46:37Z'
+last_seen: '2026-10-10T01:46:37Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQmFmNXZXM19SRlN3VTFBTUdOM0VVSjBuTTZ1NHNWSVNtcFBNMTRVLUxjUVRIaWxQU19mU2ZJNTcxTWlUekFaZ0YtaGFsc2hsNkxxRkpGOUdBSmprMk9DRlRRVkNHekFzTnVBV0dvMkU5VUU1S3lNSlZybFBqMFpqZVFjcG1wZWR5OWtaR0R6RUNhZlZvS21HUFBtWmJUN0JpX3RGbGp0S3FWWWtfQ21LQkRTN1U2bXNrU2pVUFlzbldLVHVsNkU4S2R3LVA3VFdCdHl0ONIB1AFBVV95cUxNQmFmNXZXM19SRlN3VTFBTUdOM0VVSjBuTTZ1NHNWSVNtcFBNMTRVLUxjUVRIaWxQU19mU2ZJNTcxTWlUekFaZ0YtaGFsc2hsNkxxRkpGOUdBSmprMk9DRlRRVkNHekFzTnVBV0dvMkU5VUU1S3lNSlZybFBqMFpqZVFjcG1wZWR5OWtaR0R6RUNhZlZvS21HUFBtWmJUN0JpX3RGbGp0S3FWWWtfQ21LQkRTN1U2bXNrU2pVUFlzbldLVHVsNkU4S2R3LVA3VFdCdHl0OA?oc=5
+  seen_at: '2026-10-10T01:46:37Z'
+  metrics: {}
+  kind: news
+---
+
+# Pune AI startup CurvetAI raises Rs 6 crore to build AI agents that can handle complex tasks
+
+Pune AI startup CurvetAI raises Rs 6 crore to build AI agents that can handle complex tasks Indian Startup News
+
+## 笔记
+
+

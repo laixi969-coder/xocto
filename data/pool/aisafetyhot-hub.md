@@ -33,17 +33,17 @@ url: https://aisafetyhot.com
 canonical_url: https://aisafetyhot.com
 summary: 每天的 AI 安全精选和论文清单（md / bib / json），附 Agent 接入说明 · AI Safety HOT
 first_seen: '2026-10-01T11:33:59Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://aisafetyhot.com
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 634
-    forks: 5
+    stars: 653
+    forks: 7
     open_issues: 0
   kind: product
 ---

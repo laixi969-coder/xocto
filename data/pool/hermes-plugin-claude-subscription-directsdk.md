@@ -21,18 +21,18 @@ canonical_url: https://github.com/NousResearch/hermes-plugin-claude-subscription
 summary: 'Hermes Agent model-provider plugin: Claude Pro/Max subscription through the official Claude
   Code CLI (experimental)'
 first_seen: '2026-09-20T19:26:20Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 107
-    forks: 61
-    open_issues: 19
+    stars: 113
+    forks: 62
+    open_issues: 20
   kind: product
 ---
 

@@ -34,18 +34,18 @@ summary: Local-first CLI and web dashboard that reads Claude Code, Codex and Gem
   shows token usage and cost by model, project, day and activity. No account, no API key, nothing leaves
   your machine
 first_seen: '2026-09-21T18:07:22Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yakuikai/tokentab
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 406
+    stars: 432
     forks: 119
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

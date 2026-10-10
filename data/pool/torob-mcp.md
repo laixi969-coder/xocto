@@ -35,16 +35,16 @@ canonical_url: https://torob-mcp.mmdju3.workers.dev
 summary: 'MCP server for Torob: search, compare and price-check across shops. Read-only, no API key. 14
   tools, hosted on Cloudflare Workers.'
 first_seen: '2026-09-23T21:25:06Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://torob-mcp.mmdju3.workers.dev
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 57
+    stars: 60
     forks: 6
     open_issues: 2
   kind: product

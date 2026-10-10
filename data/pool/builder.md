@@ -30,17 +30,17 @@ canonical_url: https://builder.puter.com
 summary: 📦✨ AI Builder For Creating Sites and Apps! An open-source alternative to Lovable, Replit, v0,
   and similar platforms.
 first_seen: '2026-09-21T03:45:45Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://builder.puter.com
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 238
-    forks: 67
+    stars: 245
+    forks: 70
     open_issues: 2
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://svg-spark.vercel.app/
 canonical_url: https://svg-spark.vercel.app
 summary: 10 client-side SVG design and dev tools
 first_seen: '2026-10-08T23:32:49Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://svg-spark.vercel.app/
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 27
-    comments: 1
+    points: 44
+    comments: 8
   kind: product
 ---
 

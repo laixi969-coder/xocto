@@ -176,3 +176,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与互联网服务 专业与商务服务 经常用语音输入写邮件或文档的知识工作者，在语音转文字后整理口语化、断句混乱的文本，以得到可直接发送的书面内容'
+- id: ev-2a5fd84676400e8d
+  project_slug: superwhisper-s1-mini
+  url: https://huggingface.co/superwhisper/s1-mini-GGUF
+  title: Superwhisper S1 mini
+  published_at: '2026-10-08T18:07:33Z'
+  collected_at: '2026-10-10T01:45:59Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: Text and tone normalizer for speech-to-text

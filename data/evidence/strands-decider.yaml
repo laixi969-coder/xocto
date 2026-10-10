@@ -110,3 +110,26 @@
     network. Box combines OS isolation with default-deny Dogwood policies and credential injection that
     keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon, with Linux support
     planned. | repository stars: 238'
+- id: ev-1fdc8e1cd1de2168
+  project_slug: strands-decider
+  url: https://strandsagents.com/docs/labs/
+  title: strands-decider
+  published_at: '2026-09-29T16:36:38Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A small, fast decision model, or system one model, for agentic workflows. Pick between options
+    or rate on a scale faster than an LLM, with a calibrated confidence on every decision. | repository
+    stars: 545'
+- id: ev-05116057a3b0b34c
+  project_slug: strands-decider
+  url: https://strandsagents.com
+  title: box
+  published_at: '2026-10-02T20:34:08Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Run AI agents in a sandbox that restricts what they can execute, read, write, and reach on the
+    network. Box combines OS isolation with default-deny Dogwood policies and credential injection that
+    keeps secrets outside the agent. Written in Rust. Supports macOS on Apple silicon, with Linux support
+    planned. | repository stars: 292'

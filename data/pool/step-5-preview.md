@@ -20,17 +20,17 @@ url: https://openrouter.ai/stepfun/step-5-preview
 canonical_url: https://openrouter.ai/stepfun/step-5-preview
 summary: a 1M-context MoE from StepFun, shows up on OpenRouter
 first_seen: '2026-10-08T16:20:20Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://openrouter.ai/stepfun/step-5-preview
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 99
-    comments: 23
+    points: 141
+    comments: 38
   kind: news
 ---
 

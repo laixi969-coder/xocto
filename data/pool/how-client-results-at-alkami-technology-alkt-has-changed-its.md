@@ -1,0 +1,41 @@
+---
+slug: how-client-results-at-alkami-technology-alkt-has-changed-its
+name: How Client Results At Alkami Technology (ALKT) Has Changed Its Investment Story
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeXdNTnB2aXA5cEU0UHlPdjZ0WVY5WkFyYXUtekdfVkZjTlhldV9GNXFsV1dDUGdTXzMwTVFiTmE1V1NNaU45TXl3YTVNLTJIbjNJM2ZrY1dNcnJjeW54VkpzV1BBQ09XNkNCQnZXNUFuYUpUQjEwNEtSX3BtY1lwNzNPaW5WWlB1TGFxSmdiSnlrRzU1eEctYkw4alN2Y3VYLWx5M0FCcGJ2SlNDWVNybTNPOUdkNEFSVE40aFM0SVhCaFVyNVhQMjBCcExoamU2R3fSAdcBQVVfeXFMT1o3V0pPRm1lR0Zka1J2dWtvSTlCNWhITmlvaEoyRUs3Snh0cXdIVnpST2Q5X3lCQWlFUEdZNlBkSjNmazItWnZFcUp2MGVqb21feUgwNlpBME1LQ2E2TG55aDN4TV9OUlg4VENZM29hRHY3d3pWWXRkUE05T0ozVDlCaGlSSldrQUc3VWVIZHJoQ3M0WkdEUm9wNUk4azV0WDBKS3g0cHAzcmk0by1Ecm5JZllhSkdlYVMzUTY2RlBHUkRwc284ZTk1VjQ1cWlDTG9WQ3VxMVE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeXdNTnB2aXA5cEU0UHlPdjZ0WVY5WkFyYXUtekdfVkZjTlhldV9GNXFsV1dDUGdTXzMwTVFiTmE1V1NNaU45TXl3YTVNLTJIbjNJM2ZrY1dNcnJjeW54VkpzV1BBQ09XNkNCQnZXNUFuYUpUQjEwNEtSX3BtY1lwNzNPaW5WWlB1TGFxSmdiSnlrRzU1eEctYkw4alN2Y3VYLWx5M0FCcGJ2SlNDWVNybTNPOUdkNEFSVE40aFM0SVhCaFVyNVhQMjBCcExoamU2R3fSAdcBQVVfeXFMT1o3V0pPRm1lR0Zka1J2dWtvSTlCNWhITmlvaEoyRUs3Snh0cXdIVnpST2Q5X3lCQWlFUEdZNlBkSjNmazItWnZFcUp2MGVqb21feUgwNlpBME1LQ2E2TG55aDN4TV9OUlg4VENZM29hRHY3d3pWWXRkUE05T0ozVDlCaGlSSldrQUc3VWVIZHJoQ3M0WkdEUm9wNUk4azV0WDBKS3g0cHAzcmk0by1Ecm5JZllhSkdlYVMzUTY2RlBHUkRwc284ZTk1VjQ1cWlDTG9WQ3VxMVE?oc=5
+summary: How Client Results At Alkami Technology (ALKT) Has Changed Its Investment Story Simply Wall Street
+first_seen: '2026-10-10T01:46:37Z'
+last_seen: '2026-10-10T01:46:37Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeXdNTnB2aXA5cEU0UHlPdjZ0WVY5WkFyYXUtekdfVkZjTlhldV9GNXFsV1dDUGdTXzMwTVFiTmE1V1NNaU45TXl3YTVNLTJIbjNJM2ZrY1dNcnJjeW54VkpzV1BBQ09XNkNCQnZXNUFuYUpUQjEwNEtSX3BtY1lwNzNPaW5WWlB1TGFxSmdiSnlrRzU1eEctYkw4alN2Y3VYLWx5M0FCcGJ2SlNDWVNybTNPOUdkNEFSVE40aFM0SVhCaFVyNVhQMjBCcExoamU2R3fSAdcBQVVfeXFMT1o3V0pPRm1lR0Zka1J2dWtvSTlCNWhITmlvaEoyRUs3Snh0cXdIVnpST2Q5X3lCQWlFUEdZNlBkSjNmazItWnZFcUp2MGVqb21feUgwNlpBME1LQ2E2TG55aDN4TV9OUlg4VENZM29hRHY3d3pWWXRkUE05T0ozVDlCaGlSSldrQUc3VWVIZHJoQ3M0WkdEUm9wNUk4azV0WDBKS3g0cHAzcmk0by1Ecm5JZllhSkdlYVMzUTY2RlBHUkRwc284ZTk1VjQ1cWlDTG9WQ3VxMVE?oc=5
+  seen_at: '2026-10-10T01:46:37Z'
+  metrics: {}
+  kind: news
+---
+
+# How Client Results At Alkami Technology (ALKT) Has Changed Its Investment Story
+
+How Client Results At Alkami Technology (ALKT) Has Changed Its Investment Story Simply Wall Street
+
+## 笔记
+
+

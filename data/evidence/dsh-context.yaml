@@ -2672,3 +2672,34 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-bd299155830456d4
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@asigers/pi-knock
+  title: pi-knock
+  published_at: '2026-10-03T08:27:38Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Remote notifications for the Pi coding agent — Pushover, ntfy, and webhooks when tasks finish
+    or need your input. | repository stars: 113'
+- id: ev-bd39da1d273c72f2
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/jevcore
+  title: jevcore
+  published_at: '2026-09-20T04:11:31Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'TypeSafe Jev for DeepSeek Harness, the Model Context Protocol, and plain Node: typed judgments
+    instead of prose, offline by default. | repository stars: 106'
+- id: ev-0f8712a7297cc852
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-sieve
+  title: dsh-sieve
+  published_at: '2026-10-04T12:30:42Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'dsh-sieve: context engineering & token optimization plugin for DeepSeek Harness (DSH) — tool
+    output filtering, context pruning, progressive skill disclosure. 36% smaller payload in offline replay.
+    DSH 上下文管理与 token 优化节省插件。 | repository stars: 62'

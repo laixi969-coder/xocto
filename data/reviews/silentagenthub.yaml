@@ -41,3 +41,43 @@
   usage_reason_en: 'Inference: pre-loading stage rules and hooks into the agent reduces the step of re-explaining
     the process each time, so solo developers who want verifiable agent output may choose it; however
     the repository only shows star counts, with no user feedback or repeat-use evidence.'
+- id: req-initial-silentagenthub-2026-10-10
+  project_slug: silentagenthub
+  level: initial
+  reviewed_at: '2026-10-10T01:46:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“独立开发者或小团队在推进一个从零到一的项目时，把需求、研究、设计、原型、开发、测试、发布各阶段的规则、技能与钩子装进编码代理，让代理按这套流程产出代码与文档；实际交付质量与人工确认”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 116 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 独立开发者或小团队在把一个 0-1 想法落地时，需要按需求、研究、设计、原型、开发、测试、发布的顺序推进，希望用一套规则和钩子约束编码代理的行为
+  job_en: Solo developers or small teams taking a 0-to-1 idea to delivery need to move through requirements,
+    research, design, prototype, development, testing and release, and want a set of rules and hooks to
+    constrain a coding agent's behavior
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：独立开发者或小团队在把一个 0-1 想法落地时，需要按需求、研究、设计、原型、开发、测试、发布的顺序推进，希望用一套规则和钩子约束编码代理的行为；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Solo developers or small teams taking a 0-to-1 idea to delivery need
+    to move through requirements, research, design, prototype, development, testing and release, and want
+    a set of rules and hooks to constrain a coding agent''s behavior Public materials do not yet explain
+    why users choose this product over their existing approach.'

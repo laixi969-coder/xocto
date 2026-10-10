@@ -29,17 +29,17 @@ url: https://pocketty.app/
 canonical_url: https://pocketty.app
 summary: iPhone SSH terminal that pings you when an agent is blocked
 first_seen: '2026-10-08T18:11:52Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pocketty.app/
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 23
-    comments: 9
+    points: 31
+    comments: 19
   kind: product
 ---
 

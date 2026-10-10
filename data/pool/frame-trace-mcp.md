@@ -30,18 +30,18 @@ url: https://github.com/yashsindya2014-hash/frame-trace-mcp
 canonical_url: https://github.com/yashsindya2014-hash/frame-trace-mcp
 summary: Best AI QA Evidence Recorder MCP Server for Automated Testing 2026
 first_seen: '2026-09-22T19:29:07Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yashsindya2014-hash/frame-trace-mcp
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
     stars: 68
     forks: 0
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

@@ -1,0 +1,52 @@
+---
+slug: deno-is-joining-cloudflare
+name: Deno is joining Cloudflare
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/
+canonical_url: https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare
+summary: 'Deno is joining Cloudflare The Deno team released the first version of celld back in August
+  - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare
+  are acquiring Deno outright, with the goal of building on celld to "make workerd self-hosting a first-class
+  supported way to build and run apps using the Workers programming model" (see the Cloudflare blog .)
+  The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year: We will
+  support the Deno runtime for another year with monthly releases containing bug fixes and security updates.
+  After that year we will end our development of the Deno runtime. Deno will remain open source, and we
+  welcome others who want to continue its development. Deno (and Node.js) creator Ryan Dahl explained
+  that decision in a comment on Hacker News: It''s a joint decision and I agree with it. I''m most invested
+  in its success and have put the most work into it - and I no longer think it''s where I can do the most
+  important work. There are some good ideas in Deno and it''s well engineered - but it ultimately is not
+  solving big problems.'
+first_seen: '2026-10-10T01:46:29Z'
+last_seen: '2026-10-10T01:46:29Z'
+status: pending_filter
+sources:
+- marketfeeds
+sightings:
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/
+  seen_at: '2026-10-10T01:46:29Z'
+  metrics: {}
+  kind: news
+---
+
+# Deno is joining Cloudflare
+
+Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to "make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model" (see the Cloudflare blog .) The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year: We will support the Deno runtime for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime. Deno will remain open source, and we welcome others who want to continue its development. Deno (and Node.js) creator Ryan Dahl explained that decision in a comment on Hacker News: It's a joint decision and I agree with it. I'm most invested in its success and have put the most work into it - and I no longer think it's where I can do the most important work. There are some good ideas in Deno and it's well engineered - but it ultimately is not solving big problems.
+
+## 笔记
+
+

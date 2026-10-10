@@ -28,8 +28,8 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-10-09T03:25:22Z'
-status: analyzed
+last_seen: '2026-10-10T01:46:37Z'
+status: pending_filter
 sources:
 - producthunt
 - marketfeeds
@@ -300,6 +300,26 @@ sightings:
   metrics:
     content_hash: c99c57d9d7ea2bd4
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORW9sQkhpQzZKTVdLYk5RYVUwcjUwZ3NFNU1maDhtTU9NRTVsUzcwMTcxd2c5THZNZjJLaWNsYkt5SEhHR1ZNYW5oV05ZVFZJV1VxTWdOYXRYTWt5bjUtT0x3NWhRLXlwUDhjT3gza01RTW1zMzZDVm91V3BpdWRBMGVjSlgySlRDcG80RkpldzJzMC1aZGlaalZCTVNLSHNIZ1ZUS2tmcXFxei1IRW5NdHRIbDVoUQ?oc=5
+  seen_at: '2026-10-10T01:46:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNcFlGblZyOWNVYlFmX1BtZldSbGJ6bVlpdlAxdFhRS1ItYTFVdFpPdVZFNUZfS0ttU25ETkZjMHZRajRRSW13TW5iSzFOUm9rRGxVekVuV1R6SS1wcm5qcElRUkFEeW1qNGxVdi01ZmhyOGYyRjBmeGNKWFZrU245MndLU2ZkZw?oc=5
+  seen_at: '2026-10-10T01:46:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPVUZvNnVsbW1ydUUwWjYwT19SMkZ1SWthdl84QkV4enVjci1IWFZSUGdxQVQ1d1RwX3RpdzVRcFhPdnVJZ2N6WUJjVGx2bjJaWlZ1cDNPc0hnWmRPc0pscTQ4NWQ5MUhORV9iRlRRUGUtSEN1MEhCUWx5MklkbzBRV2hYTHVGUElMZGRmRlZVc1g3bUXSAZgBQVVfeXFMTUYzTXBRaXV3NGQyUzQ1cDNBS3VJVEpXNm9rYm5rOU5JQTRJX3RDNnNlTlFvZmlJcE9SQ09MdHJnbU5ERUhmWjNVRzJGT2tmZmdHNEd6Skd4c3RfY3lQbE1FbW5zRWpiOExnOVIzbXdTaDhyd3VyZm1vODlHcXJhYUVISlVsbldEMl91d1BZbWt4OUtKbXJWRjI?oc=5
+  seen_at: '2026-10-10T01:46:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeFhPVGcyaUFfWUdzMWpvQWd0MFpaRmN4clZTNmNuOHVkWk1oNlpESFE1dzZ2R3hFMEVOa25jYjNnRWRJRFZVSkRTWHFOVFo5RUJXNUdSZExMM01RaHpEVXFEekZWTU9ZZHh6ZWJXMUEycDhSS25QWmVmMXFzSU02NXFXclRacTBMZlcyR2p2NTRPRVBGVVlFcnRFYWlyYWd0a3ZlVUVmRDd0eUc5ajVMLUd6ZGdEOVVSYUdwSFN4Ny04dGdOanpjMkMycnJteGVValgyMU9hLXA4Q3Z2OG41MmhyY9IB4wFBVV95cUxQeFhPVGcyaUFfWUdzMWpvQWd0MFpaRmN4clZTNmNuOHVkWk1oNlpESFE1dzZ2R3hFMEVOa25jYjNnRWRJRFZVSkRTWHFOVFo5RUJXNUdSZExMM01RaHpEVXFEekZWTU9ZZHh6ZWJXMUEycDhSS25QWmVmMXFzSU02NXFXclRacTBMZlcyR2p2NTRPRVBGVVlFcnRFYWlyYWd0a3ZlVUVmRDd0eUc5ajVMLUd6ZGdEOVVSYUdwSFN4Ny04dGdOanpjMkMycnJteGVValgyMU9hLXA4Q3Z2OG41MmhyYw?oc=5
+  seen_at: '2026-10-10T01:46:37Z'
+  metrics: {}
+  kind: news
 ---
 
 # Meta Muse

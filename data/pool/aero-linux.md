@@ -35,16 +35,16 @@ canonical_url: https://ronitgupta138.github.io/aero-linux
 summary: ⚡ The Ultra-Lean AI & High-Performance Developer Linux Distribution. Sub-350MB idle RAM, dynamic
   zRAM (ZSTD), 45 native GTK3 zero-terminal GUI apps, and 1-click local LLMs.
 first_seen: '2026-09-27T18:35:36Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://ronitgupta138.github.io/aero-linux/
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 44
+    stars: 45
     forks: 1
     open_issues: 3
   kind: product

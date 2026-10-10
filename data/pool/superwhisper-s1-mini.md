@@ -32,16 +32,16 @@ url: https://huggingface.co/superwhisper/s1-mini-GGUF
 canonical_url: https://huggingface.co/superwhisper/s1-mini-GGUF
 summary: Text and tone normalizer for speech-to-text
 first_seen: '2026-10-08T18:07:33Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://huggingface.co/superwhisper/s1-mini-GGUF
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 6
+    points: 7
     comments: 0
   kind: product
 ---

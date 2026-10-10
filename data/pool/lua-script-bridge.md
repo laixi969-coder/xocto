@@ -35,18 +35,18 @@ url: https://github.com/demoos415/lua-script-bridge
 canonical_url: https://github.com/demoos415/lua-script-bridge
 summary: AI-Powered Roblox Luau Code Execution Server for Live Game Testing 2026
 first_seen: '2026-09-22T20:09:34Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/demoos415/lua-script-bridge
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
     stars: 68
     forks: 0
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

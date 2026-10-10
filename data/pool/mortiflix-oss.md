@@ -33,17 +33,17 @@ canonical_url: https://github.com/GTKottman/mortiflix-oss
 summary: 'A motion design studio on your own machine: Claude makes the video step by step, you approve
   every stage. Bring your own Claude Code or API key.'
 first_seen: '2026-10-05T15:15:13Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/GTKottman/mortiflix-oss
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 467
-    forks: 14
+    stars: 498
+    forks: 16
     open_issues: 0
   kind: product
 ---

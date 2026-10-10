@@ -29,17 +29,17 @@ url: https://github.com/edrisranjbar/lifeos
 canonical_url: https://github.com/edrisranjbar/lifeos
 summary: self-hosted life dashboard with an MCP server for AI
 first_seen: '2026-10-09T00:02:19Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/edrisranjbar/lifeos
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 17
-    comments: 3
+    points: 39
+    comments: 15
   kind: product
 ---
 

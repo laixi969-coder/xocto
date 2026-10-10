@@ -35,18 +35,18 @@ canonical_url: https://github.com/edenfunf/reelmimic
 summary: Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex)
   plans, builds and reviews it with you.
 first_seen: '2026-09-28T19:14:59Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/edenfunf/reelmimic
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 1773
-    forks: 200
-    open_issues: 34
+    stars: 1940
+    forks: 202
+    open_issues: 33
   kind: product
 ---
 

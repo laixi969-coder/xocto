@@ -17,3 +17,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 使用 AI 编码助手的长会话开发者'
+- id: ev-68ce2c75c6322f2b
+  project_slug: ctx-handoff-mod
+  url: https://github.com/cablate/ctx-handoff-mod
+  title: ctx-handoff-mod
+  published_at: '2026-10-02T21:33:58Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Claude Code mod: hands off to a fresh conversation when context fills up, keeps the cache warm
+    while you''re away, and turns what you teach Claude into project notes | repository stars: 75'

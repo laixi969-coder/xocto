@@ -33,17 +33,17 @@ url: https://github.com/edgedelta/project-arena
 canonical_url: https://github.com/edgedelta/project-arena
 summary: an Open Benchmark for AI SRE Agents on Kubernetes
 first_seen: '2026-10-08T17:13:08Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/edgedelta/project-arena
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 22
-    comments: 8
+    points: 24
+    comments: 9
   kind: product
 ---
 

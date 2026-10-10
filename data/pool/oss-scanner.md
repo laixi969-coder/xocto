@@ -31,18 +31,18 @@ url: https://github.com/anthropics/oss-scanner
 canonical_url: https://github.com/anthropics/oss-scanner
 summary: ''
 first_seen: '2026-10-08T17:25:19Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/oss-scanner
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 65
-    forks: 43
-    open_issues: 29
+    stars: 390
+    forks: 249
+    open_issues: 258
   kind: product
 ---
 

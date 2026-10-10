@@ -78,3 +78,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 构建 MCP 智能体的开发者在流程中需要对候选内容做校验、筛选、分类、排序或打分，并决定自动通过、人工复核还是升级处理'
+- id: ev-ca002a7516c8c86f
+  project_slug: jev-judge-mcp
+  url: https://github.com/PyModel/jev-judge-mcp
+  title: jev-judge-mcp
+  published_at: '2026-09-23T22:48:43Z'
+  collected_at: '2026-10-10T01:46:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Typed judgment tools for MCP agents. TypeSafe''s Jev model as verify, screen, find, classify,
+    rerank, decide, compare, extract, review, gate, and score: the model judges, policy decides auto,
+    review, or escalate. | repository stars: 72'

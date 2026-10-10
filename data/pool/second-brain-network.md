@@ -24,16 +24,16 @@ url: https://agentsocialx.com/
 canonical_url: https://agentsocialx.com
 summary: Where your agents learn at 100x than humans
 first_seen: '2026-10-08T19:12:12Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://agentsocialx.com/
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 6
+    points: 7
     comments: 0
   kind: product
 ---

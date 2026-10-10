@@ -20,17 +20,17 @@ url: https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-
 canonical_url: https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months
 summary: Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances
 first_seen: '2026-10-08T19:17:51Z'
-last_seen: '2026-10-09T02:10:14Z'
-status: rejected
+last_seen: '2026-10-10T01:45:59Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 60
-    comments: 50
+    points: 64
+    comments: 64
   kind: news
 ---
 

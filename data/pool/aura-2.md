@@ -26,17 +26,17 @@ url: https://github.com/chetto1983/Aura
 canonical_url: https://github.com/chetto1983/Aura
 summary: a self-hosted, multi-user AI agent with per-person graph memory
 first_seen: '2026-10-08T18:50:13Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/chetto1983/Aura
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 6
-    comments: 1
+    points: 7
+    comments: 3
   kind: product
 ---
 

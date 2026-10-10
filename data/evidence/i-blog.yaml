@@ -1,0 +1,18 @@
+- id: ev-6aab4b5253b8551c
+  project_slug: i-blog
+  url: https://www.v2ex.com/t/1247476
+  title: XXL-JOB v3.5.0 发布｜ OpenAPI 增强、动态 AccessToken、性能及安全性升级
+  published_at: '2026-10-09T15:32:15Z'
+  collected_at: '2026-10-10T01:45:57Z'
+  source_kind: product
+  tier: independent
+  fact: "### Release Notes\r\n\r\n- 1 、 [新增]  OpenAPI 能力增强：提供任务管理能力，包括任务新建/更新/删除、启动/停止、任务触发等；\r\n  （注意：任务管理\
+    \ OpenAPI 及操作代码示例，详见官方文档）\r\n- 2 、 [新增]  GLUE 模式开关：新增 GLUE 模式开关（ xxl.job.executor.glueenabled ），支持执行器维度设置是否启用\
+    \ GLUE 模式；\r\n- 3 、 [新增]  AccessToken 升级：支持执行期维度隔离设置，废弃旧的全局 AccessToken ，提升系统安全性；\r\n  （注意：因为 AccessToken\
+    \ 调整为执行器维度，OpenAPI 通讯协议部分发生适配变化，调度中心与执行器需要一并升级至 v3.5.0 体验）\r\n- 4 、 [新增]  AccessToken 在线管理：支持线上化动态管理，执行期管理\
+    \ UI 界面可操作，提升操作效率及体验；\r\n- 5 、 [重构] 数据模型标准化，通用字段命名统一，建表 SQL 规范性完善；\r\n- 6 、 [重构]  I18N 资源精简，通过配置组合替换重复资源，避免资源配置无序增长；\r\
+    \n- 7 、 [优化] 弹框交互优化：单体版本项目，iframe 中内容弹框(modal/layer)，支持自适应性居中并在顶层展示；\r\n- 8 、 [优化] 密码修改错误文案修复、gitignore\
+    \ 规则优化；合并 PR-4011 ；\r\n- 9 、 [修复] 调度中心 Tab 打开 XSS 问题修复；合并 PR-4003 ；\r\n- 10 、 [优化] 调度日志表索引优化，提升失败告警巡检查询性能；\r\
+    \n- 11 、 [升级] 升级多项 maven 依赖至较新版本；\r\n\r\n\r\n\r\n### 任务开发示例\r\n\r\nXXL-JOB 支持多模式任务，下文以简单的“Bean 模式任务”为例介绍，三步快速开发接入。\r\
+    \n\r\n##### 步骤一：执行器，开发 Job 方法\r\n```\r\n@XxlJob(\"demoJobHandler\")\r\n public void demoJobHandler()\
+    \ throws Exception {\r\n    XxlJobHelper.log(\"XXL-JOB, Hello World.\");\r\n}\r\n```\r\n#### 步骤二：调度中心，新建调"

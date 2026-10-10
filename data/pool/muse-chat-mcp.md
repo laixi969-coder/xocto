@@ -21,18 +21,18 @@ canonical_url: https://github.com/duclm1x1/Muse-Chat-MCP
 summary: MCP server + OpenAI-compatible shim to use Meta Muse (muse.ai, Hatch) by driving the real logged-in
   Chrome.
 first_seen: '2026-09-30T06:50:57Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/duclm1x1/Muse-Chat-MCP
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 49
+    stars: 50
     forks: 17
-    open_issues: 2
+    open_issues: 1
   kind: product
 ---
 

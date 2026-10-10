@@ -20,18 +20,18 @@ url: https://github.com/adhamalaabadawy60-pixel/zon-to-json-bridge
 canonical_url: https://github.com/adhamalaabadawy60-pixel/zon-to-json-bridge
 summary: Fast ZON to JSON Converter for Modern Apps 2026
 first_seen: '2026-09-22T21:45:14Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/adhamalaabadawy60-pixel/zon-to-json-bridge
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
     stars: 70
     forks: 0
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

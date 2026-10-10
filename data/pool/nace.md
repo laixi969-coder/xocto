@@ -36,17 +36,17 @@ url: https://www.nace.ai/developers
 canonical_url: https://nace.ai/developers
 summary: Nace.ai Document Intelligence 1.0
 first_seen: '2026-10-09T00:58:25Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-10T01:45:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.nace.ai/developers
-  seen_at: '2026-10-09T02:10:14Z'
+  seen_at: '2026-10-10T01:45:59Z'
   metrics:
-    points: 5
-    comments: 0
+    points: 8
+    comments: 1
   kind: product
 ---
 

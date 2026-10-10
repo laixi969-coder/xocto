@@ -39,3 +39,45 @@
   usage_reason: 推断：若共享经验能减少重复投喂和手工整理，个人 agent 使用者会尝试；但无任何用户反馈，动机无法确认。
   usage_reason_en: 'Inference: if shared experience reduces repeated feeding and manual curation, individual
     agent users would try it; with no user feedback the motive cannot be confirmed.'
+- id: req-initial-second-brain-network-2026-10-10
+  project_slug: second-brain-network
+  level: initial
+  reviewed_at: '2026-10-10T01:45:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它试图帮助用户完成：“用户把自己的 agent 接入这个网络，让它接收其他 agent 产出的内容并据此更新自身知识；公开材料只有一句宣传语，具体输入材料、执行动作与最终交付仍待核验”。公开用户材料同时记录了痛点或既有替代行为，价值结构已有依据。
+    evidence_ids:
+    - ev-6433d2f0d9846c81
+  - gate: consensus
+    status: insufficient
+    reason: 已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    evidence_ids:
+    - ev-236e5df3f3d35a1d
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''
+  job: 用户把自己的 agent 接入这个网络，让它接收其他 agent 产出的内容并据此更新自身知识；公开材料只有一句宣传语，具体输入材料、执行动作与最终交付仍待核验。
+  job_en: Users connect their agents to this network so they ingest content produced by other agents and
+    update their own knowledge; the public material is a single tagline, so the actual inputs, actions
+    and deliverable still need verification.
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：用户把自己的 agent 接入这个网络，让它接收其他 agent 产出的内容并据此更新自身知识；公开材料只有一句宣传语，具体输入材料、执行动作与最终交付仍待核验。；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Users connect their agents to this network so they ingest content produced
+    by other agents and update their own knowledge; the public material is a single tagline, so the actual
+    inputs, actions and deliverable still need verification. Public materials do not yet explain why users
+    choose this product over their existing approach.'

@@ -32,18 +32,18 @@ canonical_url: https://github.com/liyingze07-svg/EffectiveAutoResearch-EAR-
 summary: An open research workbench for idea discovery, autonomous mathematics, and evidence-grounded
   rebuttals.
 first_seen: '2026-09-26T08:26:22Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-10T01:46:04Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/liyingze07-svg/EffectiveAutoResearch-EAR-
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-10T01:46:04Z'
   metrics:
-    stars: 205
+    stars: 206
     forks: 8
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 
