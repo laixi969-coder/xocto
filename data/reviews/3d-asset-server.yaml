@@ -175,3 +175,44 @@
     service lets the AI assistant issue asset search and fetch requests during coding, removing the tool-switching
     and manual-import step; however, asset source, format and licensing are undisclosed, so the degree
     of burden reduction cannot yet be verified.'
+- id: req-full-3d-asset-server-2026-10-11
+  project_slug: 3d-asset-server
+  level: full
+  reviewed_at: '2026-10-11T01:28:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅一句“3d assets api and mcp”，无法还原谁在什么节点处理什么材料、替代了哪一步旧工作，需求与痛点均写不出，故不成立。
+    evidence_ids:
+    - ev-0966152dc268345b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认 3D 资产的实际来源、支持格式、授权方式与调用示例。
+  market: ''
+  job: 3D 美术师或游戏开发者在搭建场景、需要批量取用模型资产时，让 AI 编码助手通过 MCP 调用该服务检索并获取 3D 资产，用于后续建模或场景搭建。
+  job_en: A 3D artist or game developer building a scene asks an AI coding assistant to call this service
+    over MCP to look up and fetch 3D assets for later modeling or scene assembly.
+  pain: 公开材料只有“3d assets api and mcp”一句，未说明资产获取原本由谁、用什么工具、耗时多久，也未说明不解决的后果，痛点无法还原。
+  pain_en: The public material only states '3d assets api and mcp'; it does not say who previously fetched
+    assets, with what tools, or how long it took, nor the cost of not solving it, so the pain cannot be
+    reconstructed.
+  current_alternative: 公开材料未描述现有替代方式，无法确认用户此前是手工下载模型、使用素材站还是自建管线。
+  current_alternative_en: The public material does not describe existing alternatives, so it is unclear
+    whether users previously downloaded models manually, used asset marketplaces, or built their own pipeline.
+  usage_reason: 推断：若助手能在编码过程中直接取到可用资产，可省去切到素材站搜索再手动导入的一步；但资产来源、格式与授权均未披露，无法判断这一步负担是否真的被减少，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the assistant can fetch usable assets during coding, it may remove the
+    step of searching an asset marketplace and importing manually; however, asset source, format and licensing
+    are undisclosed, so it is unclear whether that burden is actually reduced or which users would choose
+    it under what conditions.'

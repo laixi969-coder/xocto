@@ -79,3 +79,52 @@
   usage_reason_en: 'Inference: for teams whose data cannot leave their premises, self-hosting removes
     the step of running agents on an external vendor, but public material gives no deployment cost, compatibility
     level or adoption evidence, so this reason cannot be confirmed.'
+- id: req-full-openagentcore-2-2026-10-11
+  project_slug: openagentcore-2
+  level: full
+  reviewed_at: '2026-10-11T01:31:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者把与 OpenAI Agents API 兼容的代理运行在自有服务器上的需求，痛点来自数据出境与接口锁定；公开材料仅说明自托管与多运行框架，未给出用户抱怨或迁移案例，价值判断基于工作流结构推理。
+    evidence_ids:
+    - ev-cda2647995b624e0
+    - ev-a84860d1080cd3ec
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 205 增至 208，属于关注度而非采用证据，公开材料未显示团队把它放进生产工作流或形成强场景共识。
+    evidence_ids:
+    - ev-cda2647995b624e0
+    - ev-a84860d1080cd3ec
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未披露付费、支持服务或企业部署的收费路径，买方与收入来源均不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-cda2647995b624e0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对兼容范围、安全边界与人工介入方式，承诺能否确定性交付缺少材料支持，仅凭自托管描述不足以确认交付闭环。
+    evidence_ids:
+    - ev-cda2647995b624e0
+    - ev-a84860d1080cd3ec
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认兼容范围、部署方式与是否有团队报告在生产中使用。
+  market: ''
+  job: 自建代理服务的开发者需要在自有服务器上运行与 OpenAI Agents API 兼容的代理，并接入多种运行框架，把已有代理逻辑迁到自己的基础设施上执行。
+  job_en: Developers running self-hosted agent services need to execute OpenAI Agents API-compatible agents
+    on their own servers with multiple harnesses, migrating existing agent logic onto their own infrastructure.
+  pain: 公开材料只说明它是自托管实现，未给出用户抱怨、迁移案例或具体阻碍；可确认的痛点来自工作流结构推理：把代理运行托管在外部厂商意味着数据出境、接口被单一厂商锁定、无法在自有网络内调试与审计。
+  pain_en: 'Public material only states it is a self-hosted implementation, with no user complaints, migration
+    cases or concrete obstacles; the identifiable pain comes from workflow-structure inference: hosting
+    agent execution with an external vendor means data egress, single-vendor interface lock-in, and no
+    in-network debugging or auditing.'
+  current_alternative: 开发者目前直接调用厂商托管的 Agents API，或自行拼装开源框架与自建服务端。
+  current_alternative_en: Developers currently call the vendor-hosted Agents API directly, or assemble
+    open-source frameworks and their own backend.
+  usage_reason: 推断：相较直接调用厂商托管 API，自托管实现让开发者省去把代理运行托管给外部厂商这一环，并可在自有网络内完成部署与调试；因此对数据不能出境或需要避免接口锁定的团队，会在需要把已有代理逻辑迁到自有服务器时选择它。公开材料未给出部署成本、兼容程度或实际采用证据。
+  usage_reason_en: 'Inference: compared with calling the vendor-hosted API directly, a self-hosted implementation
+    removes the step of running agents on an external vendor and allows deployment and debugging inside
+    one''s own network; teams whose data cannot leave their premises or that need to avoid interface lock-in
+    would therefore choose it when migrating existing agent logic to their own servers. Public material
+    gives no deployment cost, compatibility level or adoption evidence.'

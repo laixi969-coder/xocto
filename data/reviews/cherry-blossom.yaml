@@ -1,0 +1,40 @@
+- id: req-initial-cherry-blossom-2026-10-11
+  project_slug: cherry-blossom
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决需求到可制造 PCB 文件这一步，但材料未说明替代了哪一步手工动作，痛点与交付均无法确认。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：无用户评价、客户案例或采用信号，无法判断是否有人真的把设计交给它。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露买方、定价或收费方式，无法判断钱从哪来。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对生成文件是否真能送厂，人工复核边界也未说明。
+    evidence_ids: []
+  next_validation: 收集 Cherry Blossom 官方页面或文档，确认其输出文件格式、是否可直接送厂以及是否保留人工复核环节。
+  market: ''
+  job: 硬件工程师在打样前，把电路功能与接口需求整理成可制造的 PCB 设计文件。
+  job_en: Hardware engineers turn circuit function and interface requirements into manufacturable PCB
+    design files before prototyping.
+  pain: 从需求到可制造文件依赖资深工程师手工布局布线，周期长、返工多；但候选材料未说明它替代了哪一步具体手工动作。
+  pain_en: Going from requirements to a manufacturable file depends on senior engineers doing manual layout
+    and routing, which is slow and rework-heavy; the candidate material does not say which specific manual
+    step it replaces.
+  current_alternative: 用 Altium、KiCad 等 EDA 工具手工设计，或外包给 PCB 设计公司。
+  current_alternative_en: Manual design in EDA tools such as Altium or KiCad, or outsourcing to a PCB
+    design house.
+  usage_reason: 推断：若它能把需求描述直接转成可送厂文件，可省去初版布局布线的人工投入，独立硬件团队在小批量打样时可能选择它；但材料只有一句产品描述，无法确认交付是否可制造。
+  usage_reason_en: 'Inference: if it truly converts a requirement description into a fab-ready file, it
+    removes the manual effort of a first-pass layout, which independent hardware teams might pick for
+    small-batch prototyping; but the material is a single product line and cannot confirm the deliverable
+    is manufacturable.'

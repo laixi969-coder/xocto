@@ -1,0 +1,83 @@
+- id: req-initial-open-components-2026-10-11
+  project_slug: open-components
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它想做人和代理共用的组件标准，说不清替代了旧流程的哪一步、谁在痛，价值结构无法还原。
+    evidence_ids:
+    - ev-44eab1a3efa2ea39
+  - gate: consensus
+    status: insufficient
+    reason: 仅一条社区提交、7 分 1 评论，无法判断开发者是否真的需要统一组件契约。
+    evidence_ids:
+    - ev-44eab1a3efa2ea39
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，开源项目可能的付费路径无从判断。
+    evidence_ids:
+    - ev-44eab1a3efa2ea39
+  - gate: truth
+    status: insufficient
+    reason: 无法确认组件规范是否真能被代理确定性调用，也未见人工确认边界。
+    evidence_ids:
+    - ev-44eab1a3efa2ea39
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认组件规范如何被 AI 代理调用及是否有团队实际接入。
+  market: ''
+  job: 前端开发者和 AI 编码代理在搭建界面时，处理组件规范与代码，要产出可复用、风格一致的 UI 组件。
+  job_en: Front-end developers and AI coding agents building interfaces handle component specs and code
+    to produce reusable, consistent UI components.
+  pain: 公开材料只给出一句定位，没有说明旧流程里哪一步在痛、谁在手工维护组件规范，痛点无法从现有事实还原。
+  pain_en: The public material gives only a one-line positioning and does not show which step of the old
+    workflow hurts or who maintains component specs by hand, so the pain cannot be reconstructed from
+    available facts.
+  current_alternative: 推断：开发者通常依赖既有组件库、设计系统文档或团队内部约定，代理则靠提示词临时对齐风格。
+  current_alternative_en: 'Inference: developers typically rely on existing component libraries, design-system
+    docs or internal team conventions, while agents align style ad hoc through prompts.'
+  usage_reason: 推断：若它真能提供人和代理共用的组件契约，可省去为代理重复描述组件规范这一步；但公开材料未给出可核对的结果，也未见采用或留存证据。
+  usage_reason_en: 'Inference: if it truly provides a component contract shared by people and agents,
+    it could remove the step of re-describing component specs to agents; but the public material shows
+    no checkable outcome and no adoption or retention evidence.'
+- id: req-full-open-components-2026-10-11
+  project_slug: open-components
+  level: full
+  reviewed_at: '2026-10-11T01:31:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决人和代理共用组件规范的问题，但公开材料只有一句定位，说不清旧流程哪一步在痛、谁在维护规范，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-8f374b6717b06099
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认组件规范如何被 AI 代理调用及是否有团队实际接入。
+  market: ''
+  job: 前端开发者与 AI 编码代理在搭建界面时，处理组件规范与代码，需要产出可复用、风格一致的 UI 组件。
+  job_en: Front-end developers and AI coding agents building interfaces handle component specs and code
+    to produce reusable, style-consistent UI components.
+  pain: 公开材料只有一句定位，未说明旧流程中哪一步在痛、谁在手工维护组件规范，痛点无法从现有事实还原。
+  pain_en: The public material offers only a one-line positioning and does not show which step of the
+    old workflow hurts or who maintains component specs by hand, so the pain cannot be reconstructed from
+    available facts.
+  current_alternative: 推断：开发者通常依赖既有组件库、设计系统文档或团队内部约定，代理则靠提示词临时对齐风格。
+  current_alternative_en: 'Inference: developers typically rely on existing component libraries, design-system
+    docs or internal team conventions, while agents align style ad hoc through prompts.'
+  usage_reason: 推断：若它真能提供人和代理共用的组件契约，可省去为代理重复描述组件规范这一步；但公开材料未给出可核对的结果，也未见采用或留存证据。
+  usage_reason_en: 'Inference: if it truly provides a component contract shared by people and agents,
+    it could remove the step of re-describing component specs to agents; but the public material shows
+    no checkable outcome and no adoption or retention evidence.'

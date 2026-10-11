@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxPQzh0d2xocTlF
 summary: 10 Critical Agentic AI Use Cases in the Insurance Industry Oracle NetSuite
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

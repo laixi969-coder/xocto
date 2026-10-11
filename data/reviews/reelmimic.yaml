@@ -445,3 +445,55 @@
     and align rhythm clip by clip each time; teams shipping video by the unit at high frequency would
     pick it when they need to replicate a specific reference style. Public material shows no retention
     or repeat-use evidence, so it cannot yet be said to be embedded in workflows long'
+- id: req-full-reelmimic-2026-10-11
+  project_slug: reelmimic
+  level: full
+  reviewed_at: '2026-10-11T01:31:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决按参考片复刻剪辑风格这一具体任务，痛点是风格漂移与逐段返工，旧做法是通用工具逐段生成再手工剪辑或外包；公开教程证实安装、分析风格、迁移到自有素材的多步流程，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-eb62c7ead22d800e
+    - ev-4ee2372ae147542e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从1580升至2059，属关注度而非持续采用；公开材料没有用户评价、客户案例或复购记录说明谁在什么场景反复使用，强场景只能从任务结构推断。
+    evidence_ids:
+    - ev-4ee2372ae147542e
+    - ev-4fa9c95edf3df418
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方或收费方式，开源仓库形态下谁付钱尚不清楚；按成片条数或订阅收费只是推断，不是已验证事实，也未出现企业采购或付费记录。
+    evidence_ids:
+    - ev-4ee2372ae147542e
+  - gate: truth
+    status: insufficient
+    reason: 风格一致性、成片可直接投放的比例以及人工确认边界均未在公开材料中给出可核对结果；教程只说明流程步骤，未展示成片与参考片的风格对比或修改量，交付确定性尚不清楚。
+    evidence_ids:
+    - ev-eb62c7ead22d800e
+    - ev-81a517ce800f8930
+  next_validation: 追踪 reelmimic 仓库的 issue、discussion 与 README 示例更新，核对是否有用户贴出成片与参考片的风格一致性对比、人工修改量或可复现的部署与使用记录。
+  market: ''
+  job: 短视频创作者或营销人员拿到一条喜欢的参考视频后，需要把它的剪辑风格迁移到自己的素材上，产出一条风格一致的新视频用于投放或发布。
+  job_en: Short-video creators or marketers who, after picking a reference video they like, need to transfer
+    its editing style onto their own footage and produce a new video in a consistent style for publishing
+    or ad delivery.
+  pain: 风格复刻依赖人反复调提示词、逐段生成再手工剪辑，风格容易漂移，返工多、单条成本高；公开教程也把安装、分析风格、迁移到自有素材列为多步流程，说明旧做法步骤繁琐。
+  pain_en: Style replication relies on repeated prompt tweaking, piecewise generation and manual editing,
+    so the output drifts, rework is heavy and per-video cost stays high; the public tutorial itself frames
+    install, style analysis and transfer onto own footage as a multi-step process, showing the old path
+    is laborious.
+  current_alternative: 现在多是用通用视频生成工具逐段生成再人工剪辑拼接，或外包给剪辑师按参考片模仿；公开教程显示 ReelMimic 本身也需先安装再分析风格，属于对旧流程的替代而非全新任务。
+  current_alternative_en: Today people either generate clips piecewise with general video tools and edit
+    them together by hand, or outsource to an editor who imitates the reference video; the public tutorial
+    shows ReelMimic itself requires install-then-analyze steps, so it replaces an existing workflow rather
+    than creating a new task.
+  usage_reason: 推断：相较逐段生成再手工拼接，它把“看参考片—拆风格—生成—评审”串成一条由 Claude Code 或 Codex 编排的可重复流程，用户不必每次从零调提示词和逐段对齐风格，因此高频按条出片的投放或内容团队会在需要批量复刻某条爆款风格时选择它；公开材料尚无留存或复购证据，不能说明已被长期留在工作流里。
+  usage_reason_en: 'Inference: versus piecewise generation and manual stitching, it chains reference-watching,
+    style breakdown, generation and review into one repeatable pipeline orchestrated by Claude Code or
+    Codex, so users no longer rebuild prompts and re-align style clip by clip; teams shipping video by
+    the unit at high frequency are the likely first adopters when they need to replicate a hit style at
+    volume. Public material shows no retention or repeat-use evidence, so it cannot yet be said'

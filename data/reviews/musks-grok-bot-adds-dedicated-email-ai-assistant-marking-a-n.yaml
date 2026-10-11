@@ -1,0 +1,86 @@
+- id: req-initial-musks-grok-bot-adds-dedicated-email-ai-assistant-marking-a-n-2026-10-11
+  project_slug: musks-grok-bot-adds-dedicated-email-ai-assistant-marking-a-n
+  level: initial
+  reviewed_at: '2026-10-11T01:02:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决收件箱里逐封阅读、判断优先级并起草回复的负担，旧做法是手工分类或复制到聊天工具，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-e1b2a47e458a419b
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条报道描述新增邮件助手，没有采用规模、用户反馈或持续使用证据。
+    evidence_ids:
+    - ev-e1b2a47e458a419b
+  - gate: model
+    status: insufficient
+    reason: 买方可能是个人订阅或企业席位，但公开材料未给出定价与付费路径，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e1b2a47e458a419b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对是否代发邮件、人工确认边界与错误处理，交付确定性尚不明确。
+    evidence_ids:
+    - ev-e1b2a47e458a419b
+  next_validation: 收集 Grok 邮件助手的官方功能说明或定价页，确认接入的邮箱类型、是否代发以及人工确认环节。
+  market: ''
+  job: 知识工作者在收件箱里处理日常往来邮件时，需要把邮件内容整理成待办、回复草稿或摘要，完成收件箱清理与回复。
+  job_en: Knowledge workers handling everyday correspondence in their inbox, turning email content into
+    to-dos, reply drafts or summaries to clear and answer the inbox.
+  pain: 邮件量大且混杂，逐封阅读、判断优先级并起草回复占用大量时间，漏回代价高。
+  pain_en: Email volume is large and mixed; reading each one, judging priority and drafting replies takes
+    much time, and missing a reply is costly.
+  current_alternative: 邮箱自带规则与搜索、手工分类标签，或把邮件复制到通用聊天助手再粘贴回来。
+  current_alternative_en: Built-in mailbox rules and search, manual labels, or copying email into a general
+    chat assistant and pasting back.
+  usage_reason: 推断：相较手工分类与复制粘贴，它直接在收件箱内产出摘要与草稿，省去在邮箱和聊天工具之间来回搬运这一步，因此高频处理邮件的人会在收件箱场景选择它；材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: versus manual labeling and copy-paste, it produces summaries and drafts
+    inside the inbox, removing the step of moving text between mailbox and chat tool, so heavy email users
+    may choose it in the inbox; no retention or repeat-use evidence is given.'
+- id: req-full-musks-grok-bot-adds-dedicated-email-ai-assistant-marking-a-n-2026-10-11
+  project_slug: musks-grok-bot-adds-dedicated-email-ai-assistant-marking-a-n
+  level: full
+  reviewed_at: '2026-10-11T01:31:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决收件箱里逐封阅读、判断优先级并起草回复的负担，旧做法是手工分类或复制到聊天工具，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-7a9f3e1ea260f8e6
+    - ev-04547bdf448d358b
+  - gate: consensus
+    status: insufficient
+    reason: 只有产品页描述通用助手能力，没有邮件助手的采用规模、用户反馈或持续使用证据。
+    evidence_ids:
+    - ev-7a9f3e1ea260f8e6
+    - ev-04547bdf448d358b
+  - gate: model
+    status: insufficient
+    reason: 买方可能是个人订阅或企业席位，但公开材料未给出邮件助手的定价与付费路径，属判断而非已验证事实。
+    evidence_ids:
+    - ev-04547bdf448d358b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对是否代发邮件、人工确认边界与错误处理，交付确定性尚不明确。
+    evidence_ids:
+    - ev-7a9f3e1ea260f8e6
+  next_validation: 收集 Grok 邮件助手的官方功能说明或定价页，确认接入的邮箱类型、是否代发以及人工确认环节。
+  market: ''
+  job: 知识工作者在收件箱里处理日常往来邮件时，需要把邮件内容整理成待办、回复草稿或摘要，完成收件箱清理与回复。
+  job_en: Knowledge workers handling everyday correspondence in their inbox, turning email content into
+    to-dos, reply drafts or summaries to clear and answer the inbox.
+  pain: 邮件量大且混杂，逐封阅读、判断优先级并起草回复占用大量时间，漏回代价高。
+  pain_en: Email volume is large and mixed; reading each one, judging priority and drafting replies takes
+    much time, and missing a reply is costly.
+  current_alternative: 邮箱自带规则与搜索、手工分类标签，或把邮件复制到通用聊天助手再粘贴回来。
+  current_alternative_en: Built-in mailbox rules and search, manual labels, or copying email into a general
+    chat assistant and pasting back.
+  usage_reason: 推断：相较手工分类与复制粘贴，它直接在收件箱内产出摘要与草稿，省去在邮箱和聊天工具之间来回搬运这一步，因此高频处理邮件的人会在收件箱场景选择它；材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: versus manual labeling and copy-paste, it produces summaries and drafts
+    inside the inbox, removing the step of moving text between mailbox and chat tool, so heavy email users
+    may choose it in the inbox; no retention or repeat-use evidence is given.'

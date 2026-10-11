@@ -1,0 +1,89 @@
+- id: req-initial-adsnotch-2026-10-11
+  project_slug: adsnotch
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是闲置屏幕面积变现，但用户侧收益动机与广告主侧购买动机都无公开证据，属于看着可行、不用也行的情形。
+    evidence_ids:
+    - ev-76d510e11b373a2d
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有用户评价、采用数据或广告主案例，无法判断卡在感知还是利益环节。
+    evidence_ids:
+    - ev-76d510e11b373a2d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、分成比例与结算方式，买方是广告主还是平台方无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-76d510e11b373a2d
+  - gate: truth
+    status: challenged
+    reason: 在个人设备屏幕上投放广告涉及用户知情与反作弊，公开材料未说明安全与人工边界，交付确定性存疑。
+    evidence_ids:
+    - ev-76d510e11b373a2d
+  next_validation: 收集 AdsNotch 官方定价或分成说明页，以及任何公开的广告主投放或用户结算案例。
+  market: ''
+  job: Mac 用户在日常使用电脑时，把屏幕（含刘海区域）交给 AdsNotch 作为广告展示位，希望在不改变用机习惯的前提下获得收益；广告主则希望买到个人设备屏幕上的展示位。
+  job_en: Mac users hand their screen (including the notch area) to AdsNotch as ad inventory while working,
+    hoping to earn without changing habits; advertisers want to buy display inventory on personal device
+    screens.
+  pain: 用户侧是闲置屏幕面积没有变现渠道；广告主侧是常规网页与 App 广告位拥挤、注意力分散。但公开材料没有说明用户是否真的在意这点收益，也没有广告主需求或投放行为的证据。
+  pain_en: On the user side, idle screen area has no monetisation channel; on the advertiser side, conventional
+    web and app inventory is crowded and attention is fragmented. But public material shows no evidence
+    that users care about this payout or that advertisers demand such placements.
+  current_alternative: 用户侧旧做法是不变现，或靠浏览器插件、返利类工具获得小额收益；广告主侧旧做法是投网页、App 与视频贴片广告。
+  current_alternative_en: Users previously did nothing, or used browser extensions and cashback-style
+    tools for small payouts; advertisers previously bought web, in-app and video pre-roll inventory.
+  usage_reason: 推断：它把变现动作压缩到“装上即展示”，省去用户主动找广告主或接单的一步，因此可能吸引愿意用屏幕面积换零钱的 Mac 用户。但收益规模、结算是否真实发生、广告主是否愿意为此付费均无公开证据，无法确认用户会持续留在工作流里。
+  usage_reason_en: 'Inference: it compresses monetisation into ''install and it displays'', removing the
+    step of users finding advertisers themselves, which may attract Mac users willing to trade screen
+    area for small change. However, payout size, whether settlement actually happens, and whether advertisers
+    will pay are unsupported publicly, so sustained use cannot be confirmed.'
+- id: req-full-adsnotch-2026-10-11
+  project_slug: adsnotch
+  level: full
+  reviewed_at: '2026-10-11T01:28:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图把闲置屏幕面积变现，但公开材料只有一句产品定位，没有用户收益诉求、广告主购买动机或任何采用行为；屏幕被广告占用还会干扰用机，属于看着可行、不用也行的情形。
+    evidence_ids:
+    - ev-76d510e11b373a2d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 AdsNotch 官方定价或分成说明页，以及任何公开的广告主投放或用户结算案例。
+  market: ''
+  job: Mac 用户在日常用机时，把屏幕（含刘海区域）交给 AdsNotch 作为广告展示位，希望在不改变用机习惯的前提下获得收益；广告主则希望买到个人设备屏幕上的展示位。
+  job_en: Mac users hand their screen (including the notch area) to AdsNotch as ad inventory while working,
+    hoping to earn without changing habits; advertisers want to buy display inventory on personal device
+    screens.
+  pain: 用户侧是闲置屏幕面积没有变现渠道，广告主侧是常规网页与 App 广告位拥挤、注意力分散；但公开材料只有一句产品定位，没有用户抱怨、收益诉求或广告主投放行为的证据，痛点刚性无法确认。
+  pain_en: On the user side, idle screen area has no monetisation channel; on the advertiser side, conventional
+    web and app inventory is crowded and attention fragmented. But public material is only a one-line
+    positioning statement, with no user complaints, payout demand, or advertiser buying behaviour, so
+    pain rigidity cannot be confirmed.
+  current_alternative: 用户侧旧做法是不变现，或靠浏览器插件、返利类工具获得小额收益；广告主侧旧做法是投网页、App 与视频贴片广告。
+  current_alternative_en: Users previously did nothing, or used browser extensions and cashback-style
+    tools for small payouts; advertisers previously bought web, in-app and video pre-roll inventory.
+  usage_reason: 推断：它把变现动作压缩到“装上即展示”，省去用户主动找广告主或接单的一步，可能吸引愿意用屏幕面积换零钱的 Mac 用户；但收益规模、结算是否真实发生、广告主是否愿意为此付费均无公开证据，且屏幕被广告占用会干扰用机体验，用户是否愿意长期保留无法确认。
+  usage_reason_en: 'Inference: it compresses monetisation into ''install and it displays'', removing the
+    step of users finding advertisers themselves, which may attract Mac users willing to trade screen
+    area for small change. However, payout size, whether settlement actually happens, and whether advertisers
+    will pay are unsupported publicly, and ads occupying the screen disrupt the working experience, so
+    sustained retention cannot be confirmed.'

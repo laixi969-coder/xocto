@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE52MENSN0J3aWJ2
 summary: 读“脑”成文、跨场强造影：人工智能学院医疗智能体实验室在MICCAI 2026双开花，以AI助力全球医疗平权 兰州大学新闻网
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

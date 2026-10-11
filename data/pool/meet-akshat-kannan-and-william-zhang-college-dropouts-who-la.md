@@ -23,7 +23,7 @@ summary: Meet Akshat Kannan and William Zhang, college dropouts who launched AI 
   how it eme The Economic Times
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,37 @@
+- id: req-initial-chatoss-2026-10-11
+  project_slug: chatoss
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有本地开源模型这一部署特征，解决什么需求、什么痛点均未说明，价值关无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有少量社区讨论，无采用或共识证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料未说明买方与付费路径。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生。
+    evidence_ids: []
+  next_validation: 收集该项目的仓库文档与 issue 讨论，确认其面向的具体编码任务、输入材料与产出交付。
+  market: ''
+  job: 尚未确认：材料没有说明开发者在什么编码情况下、处理什么代码材料、要完成什么任务。
+  job_en: 'Not yet established: the material does not say in what coding situation developers handle what
+    code material to finish what task.'
+  pain: 尚未确认：无法判断开发者原来在编码哪一步受阻，也无法判断不解决的后果。
+  pain_en: 'Not yet established: it is unclear which coding step blocked developers before, nor the cost
+    of not solving it.'
+  current_alternative: 尚未确认：没有材料说明开发者现在用什么方式完成同类代码问答。
+  current_alternative_en: 'Not yet established: no material describes what developers currently use for
+    comparable code Q&A.'
+  usage_reason: 无法判断：缺少它相较现有编码助手减少了哪一步负担的证据，因此不能说明哪类开发者会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: there is no evidence of which step it removes compared with existing
+    coding assistants, so it is impossible to say which developers would choose it and when.'

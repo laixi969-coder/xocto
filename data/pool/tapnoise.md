@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/tapnoise
 summary: A tiny desktop pet that reacts to every key you press
 first_seen: '2026-10-11T01:01:01Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

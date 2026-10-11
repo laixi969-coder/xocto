@@ -22,7 +22,7 @@ summary: '971 brand logos for developers: SVG files, typed React components, sha
   directory), MCP server. African brands included.'
 first_seen: '2026-10-11T01:01:22Z'
 last_seen: '2026-10-11T01:01:22Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

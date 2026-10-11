@@ -1,0 +1,35 @@
+- id: req-initial-balsa-ui-2026-10-11
+  project_slug: balsa-ui
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 材料只有一句口号，写不出它解决什么需求、什么痛点，也看不出替代了哪一步旧工作。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有任何用户反馈或采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，定价与付费路径均无材料。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付内容与人工边界无法核对。
+    evidence_ids: []
+  next_validation: 查找该产品的官方页面或文档，确认它接收什么输入、产出什么交付以及面向哪类团队。
+  market: ''
+  job: 材料未说明具体使用者与工作节点，只能推测是前端或设计系统负责人在搭建组件库时使用。
+  job_en: The material does not name the user or the work step; it can only be guessed that a front-end
+    or design-system owner uses it while building a component library.
+  pain: 材料未提供任何痛点描述，无法确认它替代了哪一步旧工作。
+  pain_en: The material gives no pain description, so which old step it replaces cannot be confirmed.
+  current_alternative: 材料未说明现有替代方式。
+  current_alternative_en: The material does not describe any current alternative.
+  usage_reason: 材料不足，无法说明相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: The material is insufficient to say which step of burden it removes versus the old
+    way, or which users would choose it in what situation.

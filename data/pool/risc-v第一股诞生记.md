@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPMEZfdkNsZG9L
 summary: “RISC-V第一股”诞生记 21财经
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

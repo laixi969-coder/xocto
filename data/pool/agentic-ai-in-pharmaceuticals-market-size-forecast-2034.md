@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ2NPMHlUV0pL
 summary: Agentic AI in Pharmaceuticals Market Size, Forecast 2034 Fortune Business Insights
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

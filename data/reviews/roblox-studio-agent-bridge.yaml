@@ -132,3 +132,56 @@
     wraps edit actions into 35 MCP scripts so an agent can execute controlled operations directly inside
     Studio, cutting manual transport and per-item editing steps; thus Roblox developers or small studios
     handling large script/scene changes while wanting safety boundaries would choose it during batch refactors.'
+- id: req-full-roblox-studio-agent-bridge-2026-10-11
+  project_slug: roblox-studio-agent-bridge
+  level: full
+  reviewed_at: '2026-10-11T01:31:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Roblox 开发者在 Studio 内批量改脚本与场景时缺少受控 AI 编辑通道的需求，痛点是手动逐项操作重复且易误改；公开事实仅有仓库标题与 35 个 MCP 脚本、Safe
+      Edits 定位，痛点强度属工作流结构推理，尚无用户反馈量化。
+    evidence_ids:
+    - ev-2148d73d6d764b6c
+    - ev-b2e0ced0e9f24c87
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数在 70 至 71 之间波动，说明有开发者注意到该项目，但收藏只属关注度证据，公开材料没有 issue、discussion 或客户案例说明谁在何种场景持续使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-2148d73d6d764b6c
+    - ev-872bb82e5ae5b3e0
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费记录或采购信息，谁付钱、按什么单位收费均未披露；只能判断可能走开源赞助或工作室定制，属判断而非已验证事实。
+    evidence_ids:
+    - ev-2148d73d6d764b6c
+  - gate: truth
+    status: insufficient
+    reason: 标题宣称 Safe Edits，但公开证据未给出脚本清单、权限边界、回滚机制或可复现的部署文档，交付能否稳定发生、人工与安全边界如何划定仍缺公开材料支撑。
+    evidence_ids:
+    - ev-2148d73d6d764b6c
+    - ev-b2e0ced0e9f24c87
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认 35 个 MCP 脚本的实际能力清单、安全边界说明以及是否有开发者报告在真实
+    Roblox Studio 项目中部署使用。
+  market: ''
+  job: Roblox 开发者或小型工作室在 Roblox Studio 中批量修改脚本与场景时，需要让 AI 代理在编辑器内执行受控的编辑动作，最终产出修改后的项目文件。
+  job_en: Roblox developers or small studios batch-modifying scripts and scenes in Roblox Studio need
+    an AI agent to perform controlled edit operations inside the editor, producing modified project files.
+  pain: Roblox Studio 的脚本与场景改动依赖手动逐项操作，批量修改时重复劳动多、易出错，且 AI 代理直接改文件缺少安全边界；公开材料只给出 35 个 MCP 脚本与 Safe Edits
+    的定位，未量化频率与返工代价。
+  pain_en: Script and scene changes in Roblox Studio rely on manual item-by-item work; batch edits are
+    repetitive and error-prone, and letting an AI agent touch files directly lacks safety boundaries.
+    Public materials only state the 35 MCP scripts and Safe Edits positioning, without quantifying frequency
+    or rework cost.
+  current_alternative: 开发者目前靠 Roblox Studio 内置编辑器手动改脚本与场景，或让通用 AI 编码工具生成代码后自行粘贴、逐条核对，缺少在 Studio 内受控执行的桥接层。
+  current_alternative_en: Developers currently edit scripts and scenes manually in Roblox Studio's built-in
+    editor, or have general AI coding tools generate code that they paste and verify item by item, with
+    no controlled in-Studio execution bridge.
+  usage_reason: 推断：相较手动逐项编辑或通用 AI 生成后人工粘贴，它把编辑动作封装成 35 个 MCP 脚本，让代理在 Studio 内以受控方式执行，减少手工搬运与逐条核对的步骤；因此需要批量改脚本/场景又担心误改的
+    Roblox 开发者会在批量任务时选择它。
+  usage_reason_en: 'Inference: compared with manual item-by-item editing or pasting output from general
+    AI tools, it wraps edit actions into 35 MCP scripts so the agent executes them in a controlled way
+    inside Studio, cutting manual transfer and line-by-line verification; Roblox developers doing batch
+    script/scene edits who fear unintended changes would choose it for such tasks.'

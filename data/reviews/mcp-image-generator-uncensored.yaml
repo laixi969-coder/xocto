@@ -141,3 +141,56 @@
     models it ships as an MCP server callable from MCP-capable clients, saving the interface-building
     step. Creators sensitive to moderation who already use an MCP client would pick it for sensitive-theme
     generation.'
+- id: req-full-mcp-image-generator-uncensored-2026-10-11
+  project_slug: mcp-image-generator-uncensored
+  level: full
+  reviewed_at: '2026-10-11T01:31:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是创作者被云端内容审核拦截、提示词与素材须上传第三方的痛点，uncensored 与自托管直接对应这一刚性约束；不采用则需反复改写提示词或自建推理环境。此为工作流结构推理，仓库仅提供功能说明，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-d582f2f7a8c6aa14
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 53 升至 80，仅反映关注度增长，属规模信号；公开材料没有用户评价、issue 或案例说明使用者卡在感知、想象、场景还是利益哪一环，无法确认共识形成。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-d582f2f7a8c6aa14
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页与买方信息，钱可能来自自托管个人用户、企业私有部署或后续托管服务，属推断而非已验证事实；未发现融资叙事，不构成每日优鲜风险。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  - gate: truth
+    status: insufficient
+    reason: uncensored 定位贴近出图第一性目标，但公开材料未说明部署后交付是否稳定、是否设人工或安全边界；无审核能力本身带来合规不确定性，交付确定性无法核对。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-1563d977717ba26d
+  next_validation: 追踪该仓库的 issue 与 discussion，确认使用者实际用它替代了哪一步出图或修图工作，以及是否出现部署失败或审核相关反馈。
+  market: ''
+  job: 插画与视觉素材创作者、需要出图但受云端审核限制的开发者，在本地或自有服务器上部署该 MCP 服务后，把提示词或待编辑图片交给 Qwen-Image-2.1 模型，取回生成或修改后的图片文件，用于插画、视觉素材等创作交付。
+  job_en: Illustrators and visual-asset creators, plus developers who need image output but are blocked
+    by cloud moderation, deploy this MCP server locally or on their own hardware, submit prompts or images
+    to the Qwen-Image-2.1 model, and retrieve generated or edited image files for illustration and visual-asset
+    work.
+  pain: 公开材料明确标注 uncensored，指向一类刚性痛点：主流云端出图服务按内容政策拦截提示词或返回拒答，创作者在特定题材、风格或商业素材上被中途打断，且提示词与素材需上传第三方，存在数据外流顾虑。
+  pain_en: 'The public material explicitly labels the project uncensored, pointing to a rigid pain: mainstream
+    cloud image services block prompts or refuse output under content policy, interrupting creators working
+    on specific subjects, styles, or commercial assets, while prompts and source images must be uploaded
+    to a third party, raising data-egress concerns.'
+  current_alternative: 当前替代是使用带内容审核的云端出图服务（被拒答后反复改写提示词或换服务），或自行搭建开源扩散模型推理环境，需要自己处理模型下载、依赖与 MCP 接口对接。
+  current_alternative_en: The current alternative is using moderated cloud image services (rewriting prompts
+    or switching services after refusals), or self-assembling an open-source diffusion inference stack,
+    which requires handling model downloads, dependencies, and MCP interface wiring by hand.
+  usage_reason: 推断：相较云端服务被审核拦截后反复改写提示词、或从零搭建推理环境，该产品把无审核的 Qwen-Image-2.1 封装成即插即用的 MCP server，用户只需在已有 MCP
+    客户端里调用工具即可出图，省去模型部署与接口对接步骤；对内容审核敏感或需本地保留素材的创作者会因此选择它。
+  usage_reason_en: 'Inference: compared with rewriting prompts after cloud moderation blocks or building
+    an inference stack from scratch, this product wraps the uncensored Qwen-Image-2.1 as a plug-and-play
+    MCP server, so users call a tool inside an existing MCP client to get images, skipping model deployment
+    and interface wiring; creators sensitive to moderation or needing to keep assets local would choose
+    it for that reason.'

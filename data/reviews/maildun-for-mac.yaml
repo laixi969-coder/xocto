@@ -1,0 +1,85 @@
+- id: req-initial-maildun-for-mac-2026-10-11
+  project_slug: maildun-for-mac
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决品牌邮件制作耗时且易偏离规范的问题，痛点存在，但品牌规范如何被约束无公开材料支持。
+    evidence_ids:
+    - ev-900f05d0ecbd7a49
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句话描述，缺少营销团队采用或反馈证据，无法判断是否被持续使用。
+    evidence_ids:
+    - ev-900f05d0ecbd7a49
+  - gate: model
+    status: insufficient
+    reason: 未见定价或付费路径，钱可能来自席位或产出计费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-900f05d0ecbd7a49
+  - gate: truth
+    status: insufficient
+    reason: 生成邮件的品牌一致性、MCP 集成的确定性以及人工确认边界均未在公开材料中说明。
+    evidence_ids:
+    - ev-900f05d0ecbd7a49
+  next_validation: 收集该产品的官方页面或定价页，确认品牌规范约束方式、MCP 集成范围与计费口径。
+  market: ''
+  job: 营销或运营人员在制作品牌邮件时，用该工具手工设计、借助 AI 或通过 MCP 生成符合品牌规范的邮件。
+  job_en: Marketing or operations staff producing branded emails use the tool to design by hand, with
+    AI, or via MCP to generate on-brand emails.
+  pain: 品牌邮件手工排版耗时，且容易偏离品牌规范，返工成本高。
+  pain_en: Hand-laying-out branded emails is time-consuming and easily drifts from brand rules, causing
+    costly rework.
+  current_alternative: 用邮件模板工具手工排版，或让设计师逐封调整。
+  current_alternative_en: Hand-laying-out in email template tools, or having designers adjust each email.
+  usage_reason: 推断：相较手工排版或逐封找设计师，它把品牌规范约束进生成流程，省去反复校对品牌一致性的负担，因此需要批量产出品牌邮件的营销团队会尝试它。
+  usage_reason_en: 'Inference: compared with manual layout or asking designers per email, it bakes brand
+    rules into the generation flow, removing the burden of repeatedly checking brand consistency, so marketing
+    teams producing branded emails at volume would try it.'
+- id: req-full-maildun-for-mac-2026-10-11
+  project_slug: maildun-for-mac
+  level: full
+  reviewed_at: '2026-10-11T01:30:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌邮件制作耗时且易偏离规范的问题，痛点刚性来自品牌一致性与返工成本；手工、AI、MCP 三种交付路径构成可确定闭环，但公开材料仅一句话描述，属工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-900f05d0ecbd7a49
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句话定位，缺少营销团队采用、评价或重复使用证据，无法判断是否已被留在工作流中；公开关注度不能替代持续采用。
+    evidence_ids:
+    - ev-900f05d0ecbd7a49
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，钱可能来自 Mac 应用买断、订阅席位或按产出计费，这是判断而非已验证事实；买方与计费口径均未公开。
+    evidence_ids:
+    - ev-900f05d0ecbd7a49
+  - gate: truth
+    status: insufficient
+    reason: 品牌规范如何被约束、AI 与 MCP 各承担哪一步、生成结果的确定性以及人工确认边界均未在公开材料中说明，交付确定性尚不可核对。
+    evidence_ids:
+    - ev-900f05d0ecbd7a49
+  next_validation: 追踪 Maildun for Mac 官方产品页或定价页，确认品牌规范约束方式、AI 与 MCP 的分工、计费口径及是否公开客户案例。
+  market: ''
+  job: 营销或运营人员在需要产出品牌邮件时，打开 Maildun for Mac，处理品牌规范与邮件内容素材，用手工设计、AI 生成或 MCP 调用三种方式之一完成一封符合品牌规范的邮件。
+  job_en: Marketing or operations staff who need to ship branded emails open Maildun for Mac, work with
+    brand rules and email content, and produce an on-brand email by hand, via AI, or through an MCP call.
+  pain: 品牌邮件排版本身耗时，且多人协作时容易偏离品牌规范，导致反复校对与返工；公开材料只给出产品定位，未提供用户抱怨或返工数据，痛点强度属结构推理。
+  pain_en: Laying out branded emails is time-consuming, and in multi-person workflows it easily drifts
+    from brand rules, causing repeated checking and rework; public material only states the product positioning,
+    so pain intensity is a structural inference.
+  current_alternative: 用通用邮件模板工具手工排版，或把每封邮件交给设计师逐封调整；也可用通用 AI 写作工具生成文案后再人工套版。
+  current_alternative_en: Hand-laying-out in generic email template tools, or handing each email to a
+    designer; alternatively generating copy with general AI writing tools and manually applying the template.
+  usage_reason: 推断：相较手工排版或逐封找设计师，它把品牌规范约束进生成流程，并允许 AI 或 MCP 直接产出成品邮件，减少逐封校对品牌一致性和手工套版这两步负担，因此需要批量产出品牌邮件的营销团队会在有品牌一致性要求时选择它。
+  usage_reason_en: 'Inference: compared with manual layout or asking designers per email, it bakes brand
+    rules into the generation flow and lets AI or MCP produce the finished email, removing the steps of
+    per-email brand checking and manual templating, so marketing teams producing branded emails at volume
+    would choose it when brand consistency is required.'

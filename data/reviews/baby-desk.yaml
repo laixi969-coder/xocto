@@ -1,0 +1,83 @@
+- id: req-initial-baby-desk-2026-10-11
+  project_slug: baby-desk
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决幼儿误触键盘破坏工作内容这一具体问题，旧做法是锁屏或换设备，痛点真实但强度中等。
+    evidence_ids:
+    - ev-032b6b1d7f455d45
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品说明，没有用户评价或采用数据，无法判断父母是否真的持续使用。
+    evidence_ids:
+    - ev-032b6b1d7f455d45
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费方式，是否有人付费是判断不是已验证事实。
+    evidence_ids:
+    - ev-032b6b1d7f455d45
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明拦截机制与是否使用模型，能否稳定交付无法核对。
+    evidence_ids:
+    - ev-032b6b1d7f455d45
+  next_validation: 查找该产品的官方页面或定价页，确认拦截机制、是否使用模型以及是否已有用户评价。
+  market: ''
+  job: 在家办公的父母在照看幼儿的同时使用电脑，需要让孩子敲键盘时不破坏自己正在编辑的文档或代码。
+  job_en: A parent working from home while watching a toddler needs the child's key presses not to damage
+    the document or code being edited.
+  pain: 幼儿乱按键盘会删改内容、触发快捷键或误发消息，父母要么中断工作看住孩子，要么事后返工。
+  pain_en: A toddler's random key presses can delete content, trigger shortcuts or send messages, forcing
+    the parent to stop working or redo the work later.
+  current_alternative: 锁屏、把电脑放到孩子够不到的地方、另开一台设备，或干脆暂停工作。
+  current_alternative_en: Locking the screen, moving the laptop out of reach, using a second device, or
+    simply stopping work.
+  usage_reason: 推断：它把键盘输入与正在编辑的内容隔开，父母不必锁屏或离开工位就能继续处理手头材料；有幼儿又必须在家办公的人会在这种时刻选择它。
+  usage_reason_en: 'Inference: it separates keyboard input from the document being edited so the parent
+    can keep working without locking the screen or leaving the desk; people with toddlers who must work
+    from home would pick it in exactly that moment.'
+- id: req-full-baby-desk-2026-10-11
+  project_slug: baby-desk
+  level: full
+  reviewed_at: '2026-10-11T01:29:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料只有一句产品说明，其余证据均为与产品无关的音乐视频和维基百科词条，无法还原用户任务、痛点或旧替代行为，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-9415e79f04228904
+    - ev-84083be8bbd13cce
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找 Baby Desk 的官方产品页面或应用商店条目，确认其拦截机制、是否使用模型以及是否有用户评价。
+  market: ''
+  job: 在家办公的父母在照看幼儿的同时使用电脑，需要让孩子敲键盘时不破坏自己正在编辑的文档或代码。
+  job_en: A parent working from home while watching a toddler needs the child's key presses not to damage
+    the document or code being edited.
+  pain: 候选材料只有一句产品说明，没有任何公开的用户抱怨、工作流记录或客户案例能证明幼儿误触键盘确实造成返工或中断。
+  pain_en: The candidate material contains only a one-line product description; no public user complaints,
+    workflow records, or customer cases demonstrate that toddler key presses actually cause rework or
+    interruption.
+  current_alternative: 公开材料未记录父母当前如何绕过该问题，锁屏、移开电脑或暂停工作均属推测，无证据支持。
+  current_alternative_en: Public material does not record how parents currently work around the problem;
+    locking the screen, moving the laptop, or pausing work are all speculation without supporting evidence.
+  usage_reason: 无法判断：材料未说明拦截机制、是否使用模型或交付方式，也没有用户反馈说明为何选择它，因此无法解释相较旧做法的具体因果。
+  usage_reason_en: 'Cannot determine: the material does not describe the interception mechanism, whether
+    a model is used, or the delivery method, and no user feedback explains why it would be chosen, so
+    no causal explanation relative to the old approach can be given.'

@@ -1,6 +1,6 @@
 ---
 slug: kohler-achieves-98-microsoft-365-copilot-adoption-with-ai-ch
-name: KOHLER achieves 98% Microsoft 365 Copilot adoption with AI change management strategy
+name: KOHLER
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxPY2VBRjc3MXND
 summary: KOHLER achieves 98% Microsoft 365 Copilot adoption with AI change management strategy Microsoft
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# KOHLER achieves 98% Microsoft 365 Copilot adoption with AI change management strategy
+# KOHLER
 
 KOHLER achieves 98% Microsoft 365 Copilot adoption with AI change management strategy Microsoft
 

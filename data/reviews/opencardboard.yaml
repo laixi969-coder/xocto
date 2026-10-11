@@ -226,3 +226,53 @@
     constraints can for the first time put AI editing into their pipeline; chat instructions replace segment-by-segment
     timeline dragging and cut repetitive work. Public material offers no retention or repeat-use evidence,
     so long-term workflow adoption cannot be claimed.'
+- id: req-full-opencardboard-2026-10-11
+  project_slug: opencardboard
+  level: full
+  reviewed_at: '2026-10-11T01:31:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决素材不能上云时仍想用 AI 剪辑的需求，痛点是有保密或版权约束的团队被迫放弃 AI 或纯手工逐帧剪辑，本地处理直接对应这一约束；这是从产品定位与旧流程作出的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-7f88f847e2c0786a
+    - ev-6b10270d395428b5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 49 缓慢增至 60，属早期关注度而非持续采用；没有用户评价、案例或 issue 讨论说明剪辑师是否真的改用对话式剪辑，强场景只能从保密约束推断。
+    evidence_ids:
+    - ev-7f88f847e2c0786a
+    - ev-6b10270d395428b5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何收费方式，钱可能来自托管服务、企业支持或纯社区维护，属 to C 或 to B 的判断而非已验证事实；无定价页不取消真需求判定。
+    evidence_ids:
+    - ev-7f88f847e2c0786a
+  - gate: truth
+    status: insufficient
+    reason: 对话式剪辑能否稳定产出可用成片、本地算力是否够用、人工复核边界在哪，公开材料均未说明，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-7f88f847e2c0786a
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的素材格式、对话指令的实际产出与本地运行要求。
+  market: ''
+  job: 视频剪辑师或独立创作者在素材涉及客户保密、未公开版权或敏感内容、不便上传云端的情况下，把本地视频素材交给 OpenCardboard，用对话指令完成粗剪与片段调整并导出成片。
+  job_en: Video editors or independent creators whose footage involves client confidentiality, unreleased
+    copyright, or sensitive content that cannot be uploaded to the cloud hand local footage to OpenCardboard,
+    issue chat instructions to do rough cuts and clip adjustments, and export a finished cut.
+  pain: 云端 AI 剪辑必须先上传原始素材，保密与版权约束让这类团队直接放弃 AI 或退回纯手工；纯手工剪辑要逐帧拖拽时间轴，重复劳动多、耗时长。公开材料只给出本地优先与对话剪辑的定位，未说明格式、指令粒度与导出结果。
+  pain_en: Cloud AI editing requires uploading raw footage first, so confidentiality and copyright constraints
+    push these teams to abandon AI or fall back to manual work; manual editing means frame-by-frame timeline
+    dragging with heavy repetitive labor. Public material only states the local-first, chat-to-edit positioning,
+    without format, instruction granularity, or export details.
+  current_alternative: 现在要么把素材上传到云端 AI 剪辑工具，要么在本地剪辑软件（如 Premiere、DaVinci Resolve）里手动完成全部剪辑操作。
+  current_alternative_en: Today they either upload footage to cloud AI editors or do all editing manually
+    in local software such as Premiere or DaVinci Resolve.
+  usage_reason: 推断：相较上传云端或纯手工拖拽，本地优先让素材不出本机，有保密约束的团队因此第一次能把 AI 剪辑纳入流程；对话下达指令替代逐段拖拽时间轴这一步，减少重复操作。仓库星标从
+    49 缓慢增至 60 只说明关注度，公开材料没有留存或复购证据，不能声称已被长期留在工作流中。
+  usage_reason_en: 'Inference: versus uploading to the cloud or purely manual dragging, local-first keeps
+    footage on the machine, letting confidentiality-bound teams put AI editing into their pipeline for
+    the first time; chat instructions replace segment-by-segment timeline dragging and cut repetitive
+    work. Stars creeping from 49 to 60 only show attention; public material has no retention or repeat-use
+    evidence, so long-term workflow adoption cannot be claimed.'

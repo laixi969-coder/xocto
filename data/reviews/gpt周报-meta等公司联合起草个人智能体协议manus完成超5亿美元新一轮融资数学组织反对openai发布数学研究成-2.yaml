@@ -1,0 +1,90 @@
+- id: req-initial-gpt周报-meta等公司联合起草个人智能体协议manus完成超5亿美元新一轮融资数学组织反对openai发布数学研究成-2-2026-10-11
+  project_slug: gpt周报-meta等公司联合起草个人智能体协议manus完成超5亿美元新一轮融资数学组织反对openai发布数学研究成-2
+  level: initial
+  reviewed_at: '2026-10-11T01:02:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨工具多步任务需要人工逐步串联的需求，痛点是切换与中断成本高；不采用则要自己逐步操作。买方与付费路径未在材料中说明。
+    evidence_ids:
+    - ev-f3b07d1701f4ff1e
+  - gate: consensus
+    status: insufficient
+    reason: 材料只给出融资事实，没有公开使用规模、留存或客户案例，无法判断用户是否已把它留在工作流里。
+    evidence_ids:
+    - ev-f3b07d1701f4ff1e
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、席位或按结果收费方式，钱来自 to C 订阅还是 to B 采购属推断，尚无已验证付费路径。
+    evidence_ids:
+    - ev-f3b07d1701f4ff1e
+  - gate: truth
+    status: insufficient
+    reason: 通用代理的交付确定性依赖任务类型，材料未说明失败处理与人工确认边界，无法核对承诺能否稳定兑现。
+    evidence_ids:
+    - ev-f3b07d1701f4ff1e
+  next_validation: 收集 Manus 官方定价页或公开客户案例，确认其按什么计价以及是否有可核对的交付结果。
+  market: ''
+  job: 知识工作者在需要完成跨应用的多步任务（如收集资料、整理成文档、执行操作）时，把目标交给 Manus，由它拆解步骤并产出可交付结果。
+  job_en: Knowledge workers who need to complete multi-step, cross-application tasks (gathering material,
+    assembling documents, executing actions) hand the goal to Manus, which decomposes the steps and produces
+    a deliverable.
+  pain: 这类任务原本要在多个工具间手工切换、复制粘贴并逐步推进，耗时且容易中断；用户希望一次交代目标就拿到结果。
+  pain_en: Such tasks previously required manual switching between tools, copy-pasting and step-by-step
+    progress, which is slow and easily interrupted; users want to state a goal once and get a result.
+  current_alternative: 现状是人工在浏览器、文档与办公软件之间手动串联步骤，或使用只能单轮对话、无法执行动作的聊天助手。
+  current_alternative_en: Today people manually chain steps across browsers, documents and office software,
+    or use chat assistants that only answer in one turn and cannot act.
+  usage_reason: 相较手工串联，Manus 通过把目标拆成可执行步骤并代为执行，减少用户在工具间切换和逐步操作的那一步负担，因此需要跑完多步任务、又不想自己逐步操作的用户会在这种情况下选择它；这是基于产品能力的推断，候选材料未提供留存或复购证据。
+  usage_reason_en: Compared with manual chaining, Manus reduces the burden of switching tools and executing
+    each step by decomposing a goal into executable steps and running them, so users who need multi-step
+    tasks finished without doing each step themselves would choose it in that situation; this is inference
+    from product capability, as the candidate material offers no retention or repeat-use evidence.
+- id: req-full-gpt周报-meta等公司联合起草个人智能体协议manus完成超5亿美元新一轮融资数学组织反对openai发布数学研究成-2-2026-10-11
+  project_slug: gpt周报-meta等公司联合起草个人智能体协议manus完成超5亿美元新一轮融资数学组织反对openai发布数学研究成-2
+  level: full
+  reviewed_at: '2026-10-11T01:30:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨工具多步任务需人工逐步串联的需求，痛点是切换与中断成本高；不采用则要自己逐步操作。买方与付费路径未在材料中说明。
+    evidence_ids:
+    - ev-b1820282b394c226
+    - ev-1269f6229f528be1
+  - gate: consensus
+    status: insufficient
+    reason: 材料只给出融资与收购传闻，没有公开使用规模、留存或客户案例，无法判断用户是否已把它留在工作流里。
+    evidence_ids:
+    - ev-74b7673d0e9f654c
+    - ev-c5512b5758adf7c7
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、席位或按结果收费方式，钱来自 to C 订阅还是 to B 采购属推断，尚无已验证付费路径。
+    evidence_ids:
+    - ev-b1820282b394c226
+  - gate: truth
+    status: insufficient
+    reason: 通用代理的交付确定性依赖任务类型，材料未说明失败处理与人工确认边界，无法核对承诺能否稳定兑现。
+    evidence_ids:
+    - ev-1269f6229f528be1
+  next_validation: 收集 Manus 官方定价页或公开客户案例，确认其按什么计价以及是否有可核对的交付结果。
+  market: ''
+  job: 知识工作者或运营人员在需要完成跨应用的多步任务（如收集资料、整理成文档、执行网页操作）时，把目标交给 Manus，由它拆解步骤并产出可交付结果。
+  job_en: Knowledge workers or operators who need multi-step, cross-application tasks (gathering material,
+    assembling documents, executing web actions) hand the goal to Manus, which decomposes the steps and
+    produces a deliverable.
+  pain: 这类任务原本要在多个工具间手工切换、复制粘贴并逐步推进，耗时且容易中断；用户希望一次交代目标就拿到结果。
+  pain_en: Such tasks previously required manual switching between tools, copy-pasting and step-by-step
+    progress, which is slow and easily interrupted; users want to state a goal once and get a result.
+  current_alternative: 现状是人工在浏览器、文档与办公软件之间手动串联步骤，或使用只能单轮对话、无法执行动作的聊天助手（如 ChatGPT、Gemini、Copilot 等）。
+  current_alternative_en: Today people manually chain steps across browsers, documents and office software,
+    or use chat assistants that only answer in one turn and cannot act (e.g. ChatGPT, Gemini, Copilot).
+  usage_reason: 相较手工串联，Manus 通过把目标拆成可执行步骤并代为执行，减少用户在工具间切换和逐步操作的那一步负担，因此需要跑完多步任务、又不想自己逐步操作的用户会在这种情况下选择它；这是基于产品能力的推断，候选材料未提供留存或复购证据。
+  usage_reason_en: Compared with manual chaining, Manus reduces the burden of switching tools and executing
+    each step by decomposing a goal into executable steps and running them, so users who need multi-step
+    tasks finished without doing each step themselves would choose it in that situation; this is inference
+    from product capability, as the candidate material offers no retention or repeat-use evidence.

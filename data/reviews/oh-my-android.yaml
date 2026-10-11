@@ -230,3 +230,50 @@
     settings and layout reading into one interface exposed as MCP tools, so an agent can set the emulator
     to target conditions and verify, removing the manual environment-reproduction step; this is an inference
     from product capability and the old workflow, aimed at mobile teams doing frequent UI regression.
+- id: req-full-oh-my-android-2026-10-11
+  project_slug: oh-my-android
+  level: full
+  reviewed_at: '2026-10-11T01:31:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Mac 上调试 Android 时模拟器条件分散、难复现、编码代理无法操作模拟器的痛点，旧流程是手工 ADB 与菜单设置，属工作流结构推理。
+    evidence_ids:
+    - ev-12dd8275aef43c67
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库星数从 46 缓慢增至 55，无用户评价、客户案例或 fork 讨论，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-12dd8275aef43c67
+    - ev-50269a835a165ac1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是移动团队或测试外包，属判断而非已验证事实。
+    evidence_ids:
+    - ev-12dd8275aef43c67
+  - gate: truth
+    status: insufficient
+    reason: MCP 驱动模拟器的实际稳定性、权限与安全边界未见公开材料，交付确定性尚未核验。
+    evidence_ids:
+    - ev-12dd8275aef43c67
+  next_validation: 追踪该仓库的 issue / discussion 与 README 更新，确认 MCP 驱动模拟器是否被外部团队实际用于回归测试。
+  market: ''
+  job: 移动端开发者和测试工程师在 Mac 上调试或回归 Android 应用时，需要反复把模拟器调到指定条件（深色模式、字号、RTL、TalkBack、网络、GPS）并读取 dp 布局，以复现和确认某个界面问题。
+  job_en: Mobile developers and QA engineers debugging or regression-testing an Android app on a Mac need
+    to repeatedly set the emulator to specific conditions (dark mode, font size, RTL, TalkBack, network,
+    GPS) and read dp layout to reproduce and confirm a UI issue.
+  pain: 这些条件分散在 ADB 命令与模拟器菜单中，逐项切换成本高、难以复现同一组条件；编码代理只能改代码、无法操作模拟器，导致复现与验证要人工来回搬运。
+  pain_en: These conditions are scattered across ADB commands and emulator menus, costly to switch item
+    by item and hard to reproduce as one set; coding agents can only edit code and cannot drive the emulator,
+    so reproduction and verification require manual back-and-forth.
+  current_alternative: 开发者目前用命令行 ADB、模拟器自带菜单和 Layout Inspector 手工完成，或写一次性脚本；编码代理只能改代码，不能改模拟器状态。
+  current_alternative_en: Developers currently do this by hand with ADB commands, the emulator's own menus
+    and Layout Inspector, or write one-off scripts; coding agents can only edit code, not emulator state.
+  usage_reason: 相较手工敲 ADB 和逐项点菜单，它把模拟器状态设置与布局读取收进一个界面并暴露为 MCP 工具，代理可直接把模拟器调到目标条件再验证，省掉人工复现环境这一步；这是基于产品能力与任务结构的推断，面向频繁做
+    UI 回归的移动端团队。
+  usage_reason_en: Compared with typing ADB commands and clicking through menus, it puts emulator state
+    settings and layout reading into one interface exposed as MCP tools, so an agent can set the emulator
+    to target conditions and verify, removing the manual environment-reproduction step; this is an inference
+    from product capability and task structure, aimed at mobile teams doing frequent UI regression.

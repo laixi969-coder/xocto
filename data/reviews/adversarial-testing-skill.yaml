@@ -881,3 +881,42 @@
     details and the defender must justify real code paths, removing the manual step of designing attack
     scenarios; this is inferred to be chosen by solo developers and small teams lacking a dedicated security
     engineer who need a fast pre-release self-check.
+- id: req-full-adversarial-testing-skill-2026-10-11
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-10-11T01:28:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让两个 AI 对打来测产品漏洞，但公开材料只有一句定位，既未说明人工渗透测试或扫描器漏报的具体代价与频率，也未说明输入、动作与交付闭环，需求与痛点均无法从公开事实还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有可复现的漏洞发现示例、误报处理说明或真实接入案例。
+  market: ''
+  job: 安全或研发工程师在发布前，把产品源码交给一个 AI 阅读、让另一个 AI 在不知源码的情况下扮演攻击者，用两者对打的方式找出可被利用的漏洞。
+  job_en: A security or product engineer, before release, hands the source to one AI and lets another
+    AI attack it blind as a hacker, using the two against each other to surface exploitable flaws.
+  pain: 公开材料只有一句产品定位，没有说明人工渗透测试或扫描器漏报带来的具体代价、发生频率或后果，痛点强度无法从公开事实确认。
+  pain_en: Public material offers only a one-line positioning; it does not show the concrete cost, frequency
+    or consequence of missed flaws in manual pentests or scanners, so pain intensity cannot be confirmed
+    from public facts.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了人工渗透测试、SAST/DAST 扫描器还是代码评审。
+  current_alternative_en: Public material does not show how users do this job today, nor whether it replaces
+    manual pentests, SAST/DAST scanners or code review.
+  usage_reason: 公开仓库有 43 个收藏，说明开发者注意到它；但没有任何用户反馈、案例或重复使用证据，无法说明哪类用户会在什么情况下选择它，因此使用理由目前只能标为推断且证据不足。
+  usage_reason_en: The public repository has 43 stars, showing developer attention; but with no user feedback,
+    case or repeat-use evidence, it cannot be said which users would choose it and when, so the usage
+    reason remains an inference with insufficient evidence.

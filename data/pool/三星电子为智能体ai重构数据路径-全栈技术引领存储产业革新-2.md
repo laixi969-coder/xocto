@@ -1,6 +1,6 @@
 ---
 slug: 三星电子为智能体ai重构数据路径-全栈技术引领存储产业革新-2
-name: 三星电子：为智能体AI重构数据路径 全栈技术引领存储产业革新
+name: 三星电子
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgJBVV95cUxOTlVTTmpkeUlC
 summary: 三星电子：为智能体AI重构数据路径 全栈技术引领存储产业革新 新浪财经
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 三星电子：为智能体AI重构数据路径 全栈技术引领存储产业革新
+# 三星电子
 
 三星电子：为智能体AI重构数据路径 全栈技术引领存储产业革新 新浪财经
 

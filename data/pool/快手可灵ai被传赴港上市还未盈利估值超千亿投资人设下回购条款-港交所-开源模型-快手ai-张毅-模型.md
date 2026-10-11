@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxOXzJXM19VSXpR
 summary: 快手可灵AI被传赴港上市，还未盈利估值超千亿，投资人设下回购条款|港交所|开源模型|快手AI|张毅|模型 新浪财经
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

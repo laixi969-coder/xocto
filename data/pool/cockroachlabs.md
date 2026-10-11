@@ -21,7 +21,7 @@ canonical_url: https://cockroachlabs.com/blog/experiment-running-hospital-code
 summary: Five months treating bugs like patients and coding agents like a medical team
 first_seen: '2026-10-11T01:01:01Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE5uTloxaXdyYk43
 summary: AI搜索重塑企业采购决策，光伏连接器行业定制化GEO优化方案解读 新华报业网
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

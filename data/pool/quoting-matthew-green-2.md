@@ -28,7 +28,7 @@ summary: 'Everyone is very concerned about being respectable, so I’m going to 
   , matthew-green , cryptography , standards , llms , ai , generative-ai'
 first_seen: '2026-10-11T01:01:42Z'
 last_seen: '2026-10-11T01:01:42Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

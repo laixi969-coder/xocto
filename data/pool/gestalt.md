@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/gestalt
 summary: Gestalt unified multimodal discrete diffusion, text-to-image
 first_seen: '2026-10-11T01:01:41Z'
 last_seen: '2026-10-11T01:01:41Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

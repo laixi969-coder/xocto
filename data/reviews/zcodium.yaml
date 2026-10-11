@@ -515,3 +515,56 @@
     from scratch' into 'verify a branch that declares telemetry removed plus its review record.' Teams
     that must clear an AI coding tool for compliance but lack staff to track upstream continuously would
     pick it before onboarding — this is inference from product capability and task structure, not con
+- id: req-full-zcodium-2026-10-11
+  project_slug: zcodium
+  level: full
+  reviewed_at: '2026-10-11T01:32:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是团队把 AI 编码工具接入内部代码库前的合规审查需求：上游 ZCode 带监控遥测、厂商服务默认开启，团队无法确认代码与使用数据是否外传，不解决就得放弃工具或承担外泄风险；ZCodium
+      移除遥测、逐提交审阅上游并从审计后源码构建发行包，交付可自行核对。此为工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-96156741837514d0
+    - ev-c83260a05df1fabc
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明该分支存在及其做法，未给出目标团队的实际采用、部署或持续跟进上游的公开记录；仓库收藏、复刻等关注度不能证明合规团队已把它留在工作流里。
+    evidence_ids:
+    - ev-79e75e0ba52974e2
+    - ev-96156741837514d0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断是团队自建、企业采购还是纯社区维护；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-6fa461e505606784
+    - ev-8d7d59a770e1ba2d
+  - gate: truth
+    status: insufficient
+    reason: 逐提交审阅与从审计后源码构建的承诺，尚缺可复现的公开验证材料，如审计记录、构建可复现说明或上游同步机制；人工与安全边界也未公开。
+    evidence_ids:
+    - ev-96156741837514d0
+    - ev-35c983711eda1fb7
+  next_validation: 追踪 ZCodium 官方仓库的 release 说明、审计记录与 issue/discussion，确认其是否公开逐提交审阅结果、构建可复现方式及上游同步机制。
+  market: ''
+  job: 开发团队或安全合规人员在把 AI 编码工具接入内部代码库前，需要处理 ZCode 的公开源码与发行包，逐提交核对是否回传代码与使用数据，并拿到一个可自行复核、默认关闭厂商服务的可用工具版本。
+  job_en: Before connecting an AI coding tool to internal repositories, a dev or security-compliance team
+    must inspect ZCode's public source and release artifacts commit by commit, verify whether code and
+    usage data are sent back, and obtain a usable build with vendor services off by default that they
+    can re-verify themselves.
+  pain: 公开材料显示 ZCode 原版带监控与遥测、厂商服务默认开启，团队无法直接确认代码与使用数据是否外传；不解决就得放弃 AI 编码工具或承担合规与数据外泄风险，而自行逐提交审计上游成本高、需持续跟进。
+  pain_en: Public materials show upstream ZCode ships monitoring, telemetry and vendor services on by
+    default, so teams cannot confirm whether code and usage data leave their environment; leaving it unsolved
+    means either forgoing an AI coding tool or carrying compliance and data-leak risk, while auditing
+    every upstream commit themselves is costly and ongoing.
+  current_alternative: 旧做法是团队自行阅读 ZCode 源码、逐提交审计并自行打补丁构建，或干脆禁用该工具、退回不带 AI 的本地编辑器。
+  current_alternative_en: The old approach is to read ZCode's source in-house, audit commits one by one
+    and patch-build it themselves, or simply ban the tool and fall back to a non-AI local editor.
+  usage_reason: 推断：相较自行审计，ZCodium 直接交付已移除监控与遥测、默认关闭厂商服务、并从审计后源码构建的发行包，把“逐提交核对 + 自行打补丁 + 自行构建”压缩为一次可复核的取用，因此重视代码外传合规的团队会在接入内部代码库前选择它；公开材料未提供采用或留存证据。
+  usage_reason_en: 'Inference: versus self-auditing, ZCodium ships a build with monitoring and telemetry
+    removed, vendor services off by default, and artifacts built from audited source, collapsing ''audit
+    each commit + patch + build'' into one verifiable artifact, so teams that care about code-egress compliance
+    would pick it before wiring the tool into internal repos; public materials show no adoption or retention
+    evidence.'

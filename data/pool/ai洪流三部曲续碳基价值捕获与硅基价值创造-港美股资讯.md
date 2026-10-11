@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE55cmM4dXcyaTMz
 summary: AI洪流三部曲续：碳基价值捕获与硅基价值创造 港美股资讯 华盛通
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

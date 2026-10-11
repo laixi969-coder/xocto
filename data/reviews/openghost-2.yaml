@@ -1,0 +1,91 @@
+- id: req-initial-openghost-2-2026-10-11
+  project_slug: openghost-2
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从材料还原，只知自建代理引擎与绘图引擎，旧流程与不采用代价均缺失。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 254 星与 19 次复刻，属关注度信号，不能说明用户持续采用或形成共识。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、托管服务或企业采购路径，钱从哪来无法判断。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理在真实桌面任务中的交付确定性与安全边界，缺少可复现实测或使用记录。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+  next_validation: 收集该仓库的 issue、discussion 或官方文档，确认它实际替代的桌面操作步骤与交付结果。
+  market: ''
+  job: 桌面用户需要在 Windows、macOS 或 Linux 上让代理代替自己完成跨软件操作，并看到它解释的过程。
+  job_en: Desktop users want an agent to perform cross-application operations on Windows, macOS or Linux
+    and to see the process it explains.
+  pain: 候选材料只说明它自建代理引擎、浏览器工具和绘图引擎，没有说明替代了哪一步人工操作、耗时多久或出错代价，痛点无法还原。
+  pain_en: The material only says it builds its own agent engine, browser tooling and drawing engine;
+    it does not say which manual step it replaces, how long that takes or the cost of errors, so the pain
+    cannot be reconstructed.
+  current_alternative: 现有替代方式未在材料中说明，可能是人工操作或已有桌面自动化脚本，但无证据。
+  current_alternative_en: The current alternative is not stated in the material; it may be manual operation
+    or existing desktop automation scripts, but there is no evidence.
+  usage_reason: 推断：若绘图引擎能把代理的推理与操作步骤可视化，用户可在出错时更快定位是哪一步点错，从而在需要审计桌面自动化过程时选择它；但缺少用户反馈或案例支持。
+  usage_reason_en: 'Inference: if the drawing engine visualizes the agent''s reasoning and action steps,
+    users could locate a wrong click faster when errors occur, so they might choose it when desktop automation
+    needs auditing; but user feedback or cases are missing.'
+- id: req-full-openghost-2-2026-10-11
+  project_slug: openghost-2
+  level: full
+  reviewed_at: '2026-10-11T01:31:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决桌面用户跨应用操作需人工逐步执行、且自动化脚本出错难定位的痛点；自研代理引擎加绘图引擎把操作步骤可视化，交付闭环可确定，属工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 254 星等关注度信号，属规模而非持续采用；无 issue、discussion 或用户评价说明谁在什么场景反复使用，共识尚未形成。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、托管服务或企业采购路径；钱可能来自 to C 捐赠或 to B 支持，但这是判断而非已验证事实，付费路径未核验。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理在真实桌面任务中的交付确定性与安全边界（如误点、权限范围），缺少可复现实测或使用记录，承诺能否确定性交付未验证。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+  next_validation: 追踪该仓库的 issue、discussion 或官方文档，确认它实际替代的桌面操作步骤、跨平台交付结果与安全边界。
+  market: ''
+  job: 桌面用户（开发者或需要跨软件操作的知识工作者）在 Windows、macOS 或 Linux 上处理需要跨应用点击、填表、取数或浏览网页的任务时，希望由一个本地代理代替自己逐步执行，并看到它解释的每一步操作。
+  job_en: Desktop users (developers or knowledge workers doing cross-application work) on Windows, macOS
+    or Linux, handling tasks that require clicking, form-filling, data extraction or web browsing across
+    applications, want a local agent to execute the steps for them while showing each explained action.
+  pain: 公开材料只说明它自建代理引擎、浏览器工具与绘图引擎，未说明替代了哪一步人工操作、耗时多久或出错代价；可还原的痛点是桌面自动化脚本一旦出错难以定位是哪一步点错，且跨平台（Win/macOS/Linux）脚本需分别维护。
+  pain_en: The public material only states it builds its own agent engine, browser tooling and drawing
+    engine; it does not say which manual step is replaced, how long it takes or the cost of errors. The
+    reconstructable pain is that when a desktop automation script fails it is hard to locate which click
+    went wrong, and cross-platform (Win/macOS/Linux) scripts must be maintained separately.
+  current_alternative: 现有替代方式未在材料中说明；结构上对应人工重复操作、平台专属自动化脚本（如 AutoHotkey、AppleScript）或云端浏览器代理，但均无公开证据支持。
+  current_alternative_en: The current alternative is not stated in the material; structurally it corresponds
+    to manual repetitive operation, platform-specific automation scripts (e.g. AutoHotkey, AppleScript)
+    or cloud browser agents, but none is supported by public evidence.
+  usage_reason: 推断：相较平台专属脚本需分别编写与调试，OpenGhost 以自研代理引擎加绘图引擎把推理与操作步骤可视化，用户可在出错时直接看到是哪一步点错，因此需要审计桌面自动化过程、且跨多操作系统的用户会在该情况下选择它；此因果为结构推理，尚无用户反馈或案例佐证。
+  usage_reason_en: 'Inference: compared with platform-specific scripts that must be written and debugged
+    separately, OpenGhost uses its own agent engine plus a drawing engine to visualize reasoning and action
+    steps, letting users see directly which click went wrong; so users who need to audit desktop automation
+    and work across multiple OSes would choose it in that situation. This causal link is structural reasoning,
+    not yet backed by user feedback or cases.'

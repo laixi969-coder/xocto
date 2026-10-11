@@ -550,3 +550,53 @@
     segment-by-segment timeline work and hand-adding effects, while the optional layered CapCut draft
     export preserves manual fine-tuning; this gives creators who batch-produce talking-head/avatar videos
     but want to keep post-production control a reason to choose it. Public materials provide no use'
+- id: req-full-seecut-2026-10-11
+  project_slug: seecut
+  level: full
+  reviewed_at: '2026-10-11T01:32:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播/数字人素材粗剪、节奏切分与网感动效的重复手工剪辑需求，痛点在于逐条切分加动效耗时且机械；公开说明已还原输入—动作—交付闭环（原始口播→AI 精剪→成片或剪映分层草稿），属工作流结构推理，尚无用户抱怨或耗时量化证据。
+    evidence_ids:
+    - ev-460d049733814769
+    - ev-8ecc933118c02831
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 仓库收藏从 216 增至 264，说明开发者社区持续关注；但收藏与排名只属关注度证据，公开材料没有目标创作者的使用反馈、复购或持续采用记录，无法证明它已进入真实剪辑工作流。
+    evidence_ids:
+    - ev-460d049733814769
+    - ev-8ecc933118c02831
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断钱来自 to C 创作者、to B MCN 还是 to VC；这是商业证据缺口，不反推需求不存在，但付费路径目前只是判断而非已验证事实。
+    evidence_ids:
+    - ev-460d049733814769
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺自动精剪与剪映分层草稿导出，但识别精度、节奏切分质量、成片可发布率及人工复核边界均无公开可复现证据，交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-460d049733814769
+    - ev-8ecc933118c02831
+  next_validation: 追踪 SeeCut 仓库的 README、issue 与 discussion，确认是否有创作者公开贴出实际剪辑前后对比、成片可发布率或剪映草稿导入结果，以核验交付确定性。
+  market: ''
+  job: 口播或数字人视频创作者、MCN 后期运营在拿到一段未经剪辑的口播/数字人原始素材后，需要把它处理成可直接发布的网感短视频，或导出剪映分层草稿继续人工调整。
+  job_en: Talking-head or AI-avatar creators and MCN post-production operators take a raw talking-head/avatar
+    recording and must turn it into a publish-ready short video, or export a layered CapCut draft for
+    further manual editing.
+  pain: 口播素材的粗剪、节奏切分和网感动效是重复且耗时的机械环节，创作者往往要逐条手动切分、加字幕与动效；公开材料只说明产品要自动化这一步，未给出用户抱怨、耗时或放弃剪辑的具体量化证据。
+  pain_en: Rough-cutting, pacing and adding short-video motion effects to talking-head footage is repetitive
+    manual work; creators must cut, subtitle and animate clip by clip. Public materials only state the
+    product automates this step and give no quantified user complaint, time cost or abandonment evidence.
+  current_alternative: 当前替代方式是人工在剪映等剪辑软件里逐条粗剪、切节奏、加字幕与动效；SeeCut 的公开说明显示它可输出剪映分层草稿，说明它定位为对这条人工流程的前置自动化，而非完全取代。
+  current_alternative_en: 'The current alternative is manual editing in CapCut-style tools: cutting, pacing,
+    subtitling and animating clip by clip. SeeCut''s public description says it can export a layered CapCut
+    draft, positioning it as front-end automation of that manual workflow rather than a full replacement.'
+  usage_reason: 推断：相较纯手工粗剪，SeeCut 通过自动完成粗剪、节奏切分和网感动效，减少逐条切分与加动效的手工步骤，并保留剪映分层草稿供人工微调，因此对口播/数字人量产型创作者和 MCN
+    后期更可能被选择；公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus fully manual rough-cutting, SeeCut automates rough cut, pacing and
+    motion effects, removing clip-by-clip cutting and animation steps while keeping a layered CapCut draft
+    for manual fine-tuning, so it is more likely chosen by high-volume talking-head/avatar creators and
+    MCN post teams; public materials contain no user feedback or case confirming this motive.'

@@ -3,32 +3,32 @@ slug: openclaw
 name: OpenClaw
 builder: doppp
 category: 通用助手
-summary_zh: OpenClaw 是开源 AI 助手，运行在用户本机，通过 WhatsApp、Telegram、Discord 等聊天应用交互，可调用 Claude、GPT 或本地模型自动执行任务。用户在日常聊天界面中下达指令，AI
-  在后台完成操作并返回结果，覆盖 30+ 平台。具体任务类型和交付形式仍待核验。
-inspiration: 趋势是 AI 从聊天助手走向能自主执行任务的智能体，且以聊天应用为入口降低使用门槛。切入可从垂直任务（如日程管理、信息聚合）开始，按任务完成收费，而非通用助手。注意避免与 ChatGPT
-  等通用入口正面竞争，聚焦特定工作流。
-summary_en: OpenClaw is an open-source AI assistant that runs locally and interacts via chat apps like
-  WhatsApp, Telegram, Discord, using Claude, GPT, or local models to automate tasks. Users issue commands
-  in familiar chat interfaces, and the AI executes actions in the background, covering 30+ platforms.
-  Specific task types and deliverables remain unverified.
-inspiration_en: The trend is AI evolving from chat assistants to autonomous agents, with chat apps as
-  low-friction entry points. Enter by focusing on vertical tasks (e.g., scheduling, info aggregation)
-  and charging per completed task, not as a general assistant. Avoid head-on competition with ChatGPT;
-  target specific workflows.
+summary_zh: 个人开发者或小团队负责人在即时通讯窗口里下达指令，OpenClaw 接收自然语言任务后调用大模型执行操作，再把结果回传到对话里，用户拿到的是已完成的任务结果而非代码；它是免费开源项目，具体执行边界与人工确认环节仍待核验。
+inspiration: 趋势：智能体开始以聊天窗口而非新 App 作为入口，生态里已长出四十多款周边产品，说明分发层正在被重新划分。切入：不要做又一个通用智能体，而是把这类执行能力接到一个具体旧流程上，例如跨境卖家的订单异常跟进或小型律所的材料归档，按处理结果收费；开源底座本身难以直接收费，价值在垂直流程的封装与履约。
+summary_en: An individual developer or small-team lead issues instructions inside a messaging window;
+  OpenClaw takes the natural-language task, calls an LLM to carry it out, and returns the result into
+  the conversation, so the user receives a completed task rather than code. It is a free open-source project,
+  and its execution boundaries and human-confirmation step still need verification.
+inspiration_en: 'Trend: agents are starting to use chat windows rather than new apps as their entry point,
+  and more than 40 adjacent products have already grown around this ecosystem, meaning the distribution
+  layer is being redivided. Angle: do not build another general agent; instead attach this execution capability
+  to one concrete legacy workflow, such as following up order exceptions for cross-border sellers or filing
+  documents for a small law firm, and charge per completed result. The open-source base is hard to monetise
+  directly; the value sits in vertical packaging and fulfilment.'
 priority_review: false
 project_type: open_source
 industries:
-- 个人效率
 - 软件开发
+- 个人效率服务
 industries_en:
-- Personal Productivity
 - Software Development
+- Personal Productivity Services
 jobs:
-- 个人用户
-- 开发者
+- 个人开发者或小团队负责人，在需要把重复的查询、整理、通知类任务交给自动化处理时，通过即时通讯窗口下达指令，让智能体调用大模型执行并回传结果，自己只做最后确认
 jobs_en:
-- Individual Users
-- Developers
+- An individual developer or small-team lead who, when repetitive lookup, sorting and notification tasks
+  need to be automated, issues instructions through a messaging window so the agent calls an LLM to execute
+  and return results, leaving only final confirmation to the human
 regions:
 - 全球
 regions_en:
@@ -39,7 +39,7 @@ canonical_url: https://aicpb.com/product/OpenClaw/webid1D6F39F51
 summary: 开创了 Claw 智能体品类
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-09-29T01:58:36Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - marketfeeds

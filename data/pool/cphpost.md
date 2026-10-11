@@ -21,7 +21,7 @@ canonical_url: https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-
 summary: '`123456'' password used in Danish CPR data breach'
 first_seen: '2026-10-11T01:01:01Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

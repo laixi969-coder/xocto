@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/502467.html
 summary: 马斯克反而发文道谢？
 first_seen: '2026-10-11T01:01:42Z'
 last_seen: '2026-10-11T01:01:42Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

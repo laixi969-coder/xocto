@@ -25,7 +25,7 @@ summary: 'Python 3.15.0 added to actions/python-versions Bit of a niche link, bu
   . Tags: github , python , github-actions , chatgpt'
 first_seen: '2026-10-11T01:01:42Z'
 last_seen: '2026-10-11T01:01:42Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

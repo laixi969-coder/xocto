@@ -480,3 +480,47 @@
     anything, so users still pick, install and debug skill packages themselves. Versus searching public
     code repository directly it only removes the filtering step, and no user feedback or case supports
     sustained use.'
+- id: req-full-awesome-claude-video-skills-2026-10-11
+  project_slug: awesome-claude-video-skills
+  level: full
+  reviewed_at: '2026-10-11T01:29:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决的是让编码代理替人做视频，但公开材料只有清单分类与安全评级，没有用户痛点、旧流程耗时或返工代价，也说不清清单本身如何完成成片交付；这更像自嗨拼凑的目录，价值关不成立。
+    evidence_ids:
+    - ev-641973435fea2b12
+    - ev-a2836c24259a67c3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该清单仓库的 README、issue 与 discussion，确认是否有用户报告用某个技能包完成过具体成片任务及其输入输出。
+  market: ''
+  job: 视频剪辑师或短视频运营在需要批量产出成片时，把素材交给已装好视频技能包的 Claude Code / Codex 代理，由代理读取素材、调用渲染工具输出视频，而不是自己在剪辑软件里逐条拼接。
+  job_en: A video editor or short-video operator who needs to produce finished clips at volume hands footage
+    to a Claude Code / Codex agent with a video skill pack installed, letting the agent read the material
+    and call rendering tools to output video instead of assembling every cut manually in an editor.
+  pain: 公开材料只说明清单把 180 个仓库按类型分类并做安全评级，没有给出任何用户抱怨、旧流程耗时或返工代价；因此无法确认逐条拼接素材的痛点在什么频率和后果下真实存在。
+  pain_en: Public material only says the list categorizes 180 repos by type and security-grades each one;
+    it contains no user complaint, time cost, or rework evidence, so the frequency and consequence of
+    manual clip assembly cannot be confirmed.
+  current_alternative: 公开材料未说明目标用户现在用什么替代：是继续用 Premiere / 剪映等剪辑软件手工拼接，还是直接用 Runway、CapCut 等 AI 成片工具，均无证据。
+  current_alternative_en: 'Public material does not show what users replace: whether they keep assembling
+    by hand in Premiere / CapCut-style editors or already use AI video tools such as Runway, there is
+    no evidence either way.'
+  usage_reason: 推断：清单本身只做分类和安全标注，不执行渲染，用户仍需自行挑选技能包、安装并调试代理环境；相较直接打开剪辑软件，它没有减少任何一步具体负担，也没有可核对的成片质量改善，因此看不出哪类用户会在什么情况下优先选它。
+  usage_reason_en: 'Inference: the list only categorizes and security-grades repos and does not render
+    anything, so users must still pick a skill pack, install it, and debug the agent environment; versus
+    simply opening an editor it removes no concrete step and improves no checkable output quality, so
+    it is unclear which users would prefer it and when.'

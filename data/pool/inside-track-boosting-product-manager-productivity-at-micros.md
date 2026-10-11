@@ -1,6 +1,6 @@
 ---
 slug: inside-track-boosting-product-manager-productivity-at-micros
-name: Inside Track - Boosting product manager productivity at Microsoft with AI
+name: Microsoft
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2hXOHZ0U0sw
 summary: Inside Track - Boosting product manager productivity at Microsoft with AI Microsoft
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Inside Track - Boosting product manager productivity at Microsoft with AI
+# Microsoft
 
 Inside Track - Boosting product manager productivity at Microsoft with AI Microsoft
 

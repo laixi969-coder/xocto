@@ -1,0 +1,86 @@
+- id: req-initial-agentdock-2026-10-11
+  project_slug: agentdock
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时提问分散、容易漏确认的问题，旧做法是手动切换终端，痛点具体，交付是完成一次代理回复。
+    evidence_ids:
+    - ev-d0098cf3d2bfda46
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有用户评价或采用数据，无法判断开发者是否真的被多窗口切换困扰。
+    evidence_ids:
+    - ev-d0098cf3d2bfda46
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人开发者还是团队付费无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d0098cf3d2bfda46
+  - gate: truth
+    status: insufficient
+    reason: 依赖 Claude Code 与 Codex 的接口行为，代理提问格式变化时能否稳定汇总、是否需人工兜底，公开材料未说明。
+    evidence_ids:
+    - ev-d0098cf3d2bfda46
+  next_validation: 收集 AgentDock 官方定价页或文档，确认支持的终端与代理范围及是否保留会话记录。
+  market: ''
+  job: 开发者同时运行 Claude Code 与 Codex 等多个编码代理时，需要在一个地方看到各代理抛出的提问并逐一回复，以推进各自的任务。
+  job_en: Developers running several coding agents such as Claude Code and Codex at once need one place
+    to see and answer the prompts each agent raises, so each task can move forward.
+  pain: 多个代理并行时，提问散落在不同终端窗口，容易漏掉某个代理的确认请求，导致任务卡住或重复切换窗口。
+  pain_en: With several agents in parallel, prompts scatter across terminal windows, so a confirmation
+    request is easily missed, leaving a task stuck or forcing repeated window switching.
+  current_alternative: 旧做法是在多个终端标签页之间手动切换，或干脆一次只跑一个代理。
+  current_alternative_en: The old way was manually switching between terminal tabs, or simply running
+    one agent at a time.
+  usage_reason: 推断：它把分散在各终端的代理提问汇总成一个待回复队列，省去逐个窗口巡检这一步，因此同时跑多个代理的开发者会在并行任务变多时选择它。目前没有使用数据或留存证据，无法确认它是否被长期留在工作流里。
+  usage_reason_en: 'Inference: it aggregates agent prompts scattered across terminals into one reply queue,
+    removing the step of checking each window, so developers running several agents are likely to adopt
+    it as parallel tasks grow. There is no usage or retention evidence, so long-term workflow adoption
+    cannot be confirmed.'
+- id: req-full-agentdock-2026-10-11
+  project_slug: agentdock
+  level: full
+  reviewed_at: '2026-10-11T01:28:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时提问分散、容易漏确认的问题，旧做法是手动切换终端，痛点具体，交付是完成一次代理回复。
+    evidence_ids:
+    - ev-d0098cf3d2bfda46
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有用户评价或采用数据，无法判断开发者是否真的被多窗口切换困扰。
+    evidence_ids:
+    - ev-d0098cf3d2bfda46
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人开发者还是团队付费无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d0098cf3d2bfda46
+  - gate: truth
+    status: insufficient
+    reason: 依赖 Claude Code 与 Codex 的接口行为，代理提问格式变化时能否稳定汇总、是否需人工兜底，公开材料未说明。
+    evidence_ids:
+    - ev-d0098cf3d2bfda46
+  next_validation: 收集 AgentDock 官方定价页或文档，确认支持的终端与代理范围及是否保留会话记录。
+  market: ''
+  job: 开发者同时运行 Claude Code 与 Codex 等多个编码代理时，需要在一个统一收件箱里查看各代理抛出的提问并逐一回复，以推进各自任务。
+  job_en: Developers running several coding agents such as Claude Code and Codex at once need one inbox
+    to see and answer the prompts each agent raises, so each task can move forward.
+  pain: 多个代理并行时提问散落在不同终端窗口，容易漏掉某个代理的确认请求，导致任务卡住或反复切换窗口。
+  pain_en: With several agents in parallel, prompts scatter across terminal windows, so a confirmation
+    request is easily missed, leaving a task stuck or forcing repeated window switching.
+  current_alternative: 旧做法是在多个终端标签页之间手动切换，或一次只跑一个代理。
+  current_alternative_en: The old way was manually switching between terminal tabs, or simply running
+    one agent at a time.
+  usage_reason: 推断：它把分散在各终端的代理提问汇总成一个待回复队列，省去逐个窗口巡检这一步，因此同时跑多个代理的开发者会在并行任务变多时选择它。目前没有使用数据或留存证据，无法确认它是否被长期留在工作流里。
+  usage_reason_en: 'Inference: it aggregates agent prompts scattered across terminals into one reply queue,
+    removing the step of checking each window, so developers running several agents are likely to adopt
+    it as parallel tasks grow. There is no usage or retention evidence, so long-term workflow adoption
+    cannot be confirmed.'

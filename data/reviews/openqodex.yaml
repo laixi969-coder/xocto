@@ -132,3 +132,53 @@
   usage_reason_en: 'Inference: versus full-repo scans or post-push CI checks, it narrows scanning to the
     changed lines and has a separate reviewer process re-check each finding, cutting the burden of triaging
     false positives so Claude Code/Codex users get a verdict tied to their own diff before pushing.'
+- id: req-full-openqodex-2026-10-11
+  project_slug: openqodex
+  level: full
+  reviewed_at: '2026-10-11T01:31:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决推送前对改动行做安全与质量审查的需求：密钥、依赖漏洞或 SAST 告警若推送后才发现，返工与暴露代价更高，而现有扫描输出需人工逐条判断误报。公开说明已能还原输入（改动行）、动作（扫描加独立复核）与交付（审查结论），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-42c3fdbe8046787e
+    - ev-6214c067f349d7e4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 274 增至 568，说明社区关注度上升，但收藏属关注度证据，不能证明目标开发者已把它留在推送前工作流中持续使用；缺少 issue、discussion 或用户反馈佐证。
+    evidence_ids:
+    - ev-42c3fdbe8046787e
+    - ev-6214c067f349d7e4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，开源项目可能靠托管服务、企业版或赞助变现，这是判断而非已验证事实；买方与单位经济仍缺公开证据。
+    evidence_ids:
+    - ev-42c3fdbe8046787e
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺独立审查进程复核每条扫描发现，但误报率、人工确认比例与交付确定性尚无公开可复现数据，安全边界与人工介入规则也未说明。
+    evidence_ids:
+    - ev-6214c067f349d7e4
+  next_validation: 追踪 openqodex 仓库的 issue 与 discussion，确认开发者是否在推送前工作流中持续使用，以及误报与人工确认比例。
+  market: ''
+  job: 使用 Claude Code 或 Codex 的开发者，在把本地改动推送到仓库之前，对本次改动的代码行运行 SAST、密钥、依赖与 lint 扫描，并由独立审查进程逐条复核扫描发现，最终得到针对改动行的审查结论，再决定是否推送。
+  job_en: Developers using Claude Code or Codex run SAST, secret, dependency and lint scanners on their
+    changed lines before pushing, then have a separate reviewer process re-check every scanner finding
+    to obtain a review verdict on the changed lines before deciding whether to push.
+  pain: 公开材料显示产品针对的是推送前审查这一步；结构推理上，改动行上的密钥泄露、依赖漏洞或 SAST 告警若在推送后才被发现，返工与安全暴露代价更高，而现有扫描器输出常需人工逐条判断是否误报。
+  pain_en: Public materials show the product targets the pre-push review step; structurally, secrets,
+    dependency vulnerabilities or SAST alerts on changed lines cost more to fix after push, and raw scanner
+    output often requires manual triage of false positives.
+  current_alternative: 公开材料未直接说明替代方式；结构推理上，开发者目前依赖 IDE 插件、pre-commit 钩子、CI 流水线中的 SAST/密钥扫描，或人工阅读 diff
+    自行判断。
+  current_alternative_en: Public materials do not state the alternative directly; structurally, developers
+    currently rely on IDE plugins, pre-commit hooks, CI-stage SAST/secret scanning, or manually reading
+    the diff.
+  usage_reason: 推断：相较把扫描放在 CI 或人工读 diff，openqodex 把扫描范围限定在改动行，并用独立审查进程复核每条扫描发现，减少开发者逐条判断误报这一步负担，因此使用 Claude
+    Code/Codex 且希望推送前拿到可核对结论的开发者会在提交前选择它；尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus CI-stage scanning or manual diff reading, openqodex limits scanning
+    to changed lines and uses a separate reviewer process to re-check each finding, reducing the burden
+    of manually triaging false positives, so Claude Code/Codex users wanting a checkable pre-push verdict
+    may choose it; user feedback is not yet available.'

@@ -1,0 +1,40 @@
+- id: req-initial-cofoundme-2026-10-11
+  project_slug: cofoundme
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决创业者找联合创始人的需求，但候选未说明痛点强度、AI 具体动作与交付结果，连需求与痛点都难以还原，价值关证据不足。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 5 点社区讨论，无用户评价或采用证据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、买方或收费方式，无法判断钱来自 to C、to B 还是 to VC，属未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对匹配结果是否确定性交付，也看不到人工边界与安全约束，求真检查缺少材料。
+    evidence_ids: []
+  next_validation: 收集 CoFoundMe 官方产品页或应用商店说明，确认 AI 在匹配流程中的具体输入、动作与交付结果。
+  market: ''
+  job: 创业者或独立开发者在准备启动项目、需要补齐技术或运营搭档时，寻找可以一起做事的联合创始人或协作者。
+  job_en: A founder or indie developer preparing to start a project and needing a technical or operations
+    partner looks for a co-founder or collaborator to build with.
+  pain: 候选资料未说明具体痛点，只能推断早期找人依赖熟人介绍和社群发帖，匹配效率与信任建立困难；这是推断，不是用户反馈。
+  pain_en: The candidate does not state a specific pain point; it can only be inferred that early-stage
+    matching relies on personal introductions and community posts, making matching and trust-building
+    hard. This is inference, not user feedback.
+  current_alternative: 公开材料未给出替代方式，常见旧做法是熟人介绍、创业社群发帖或联合创始人匹配平台；候选未提供任何用户行为证据。
+  current_alternative_en: No alternative is given in the public material; common old approaches are personal
+    introductions, startup community posts, or co-founder matching platforms. The candidate provides no
+    user-behavior evidence.
+  usage_reason: 无法判断：候选只有一句游戏化定位，既没有说明 AI 在匹配中做什么具体动作，也没有用户反馈或采用证据，因此无法解释用户为何选择它而非旧做法。
+  usage_reason_en: 'Cannot be judged: the candidate offers only a one-line gamified positioning, with
+    no description of what the AI concretely does in matching and no user feedback or adoption evidence,
+    so there is no basis to explain why users would choose it over existing approaches.'

@@ -1,0 +1,87 @@
+- id: req-initial-scam-with-your-friends-web-2026-10-11
+  project_slug: scam-with-your-friends-web
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决想随时玩语音角色扮演却凑不齐真人的需求，痛点是缺少可即时响应的对手戏，属于娱乐价值。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有 228 星，说明有开发者关注，但没有玩家持续游玩或口碑证据，共识卡在场景认知。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，钱可能来自托管、内容或赞助，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  - gate: truth
+    status: insufficient
+    reason: 语音 AI 对话质量、延迟与配额机制能否长期留住玩家，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认玩家对语音 AI 对话质量、延迟和重复游玩意愿的公开反馈。
+  market: ''
+  job: 玩家和朋友组队，在浏览器里扮演呼叫中心客服，用语音与 AI 客户对话并完成每日配额任务。
+  job_en: Players team up with friends in a browser to role-play call-center agents, talk to AI customers
+    by voice, and hit daily quotas.
+  pain: 想和朋友一起玩需要真人配合的语音角色扮演游戏时，缺少能随时提供对手戏的真人玩家，传统联机游戏依赖固定队友和排期。
+  pain_en: When wanting to play a voice role-play game that needs human counterparts, there are no real
+    players available on demand; traditional online games depend on fixed teammates and scheduling.
+  current_alternative: 现有替代是找固定朋友约时间联机、玩单人剧情游戏，或看直播和视频代替亲自参与。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：AI 客户可以随时充当对手戏，玩家不必等真人凑齐就能开局，因此想随时开一局语音角色扮演的玩家会选它；但留存与重复游玩证据尚未公开。
+  usage_reason_en: 'Inference: AI customers can play the counterpart at any time, so players can start
+    without waiting for enough real people, which is why players wanting an on-demand voice role-play
+    session would choose it; retention and repeat-play evidence is not yet public.'
+- id: req-full-scam-with-your-friends-web-2026-10-11
+  project_slug: scam-with-your-friends-web
+  level: full
+  reviewed_at: '2026-10-11T01:31:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决想随时玩语音角色扮演却凑不齐真人的需求，痛点是缺少可即时响应的对手戏，属于娱乐价值；这是从产品输入—动作—交付闭环作出的工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有 228 星，说明有开发者关注，但没有玩家持续游玩或口碑证据，共识卡在场景认知与真实采用之间。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，钱可能来自托管、内容或赞助，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  - gate: truth
+    status: insufficient
+    reason: 语音 AI 对话质量、延迟与配额机制能否长期留住玩家，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认玩家对语音 AI 对话质量、延迟和重复游玩意愿的公开反馈。
+  market: ''
+  job: 玩家与朋友组队，在浏览器里打开 3D 办公室，扮演呼叫中心客服，用语音与 AI 扮演的客户对话，完成每日配额任务。
+  job_en: Players team up with friends in a browser-based 3D office, role-play call-center agents, talk
+    by voice to AI-played customers, and hit daily quotas.
+  pain: 想玩需要真人对手戏的语音角色扮演游戏时，凑不齐愿意配合的朋友、约不到时间，单人剧情又缺少即时应答的对手，导致这类玩法难以随时开局。
+  pain_en: When wanting a voice role-play game that needs human counterparts, players cannot gather willing
+    friends or schedule them, and single-player stories lack an on-demand counterpart, so this kind of
+    session is hard to start at will.
+  current_alternative: 公开材料未直接描述替代行为；结构上可推断的旧做法是约固定朋友联机、玩单人剧情游戏，或看直播和视频代替亲自参与。
+  current_alternative_en: Public materials do not directly describe substitutes; structurally the prior
+    behavior is scheduling fixed friends for co-op, playing single-player story games, or watching streams
+    and videos instead of playing.
+  usage_reason: 推断：相较约真人联机，AI 客户可随时充当对手戏，玩家不必等队友凑齐或排期就能开局，因此想随时开一局语音角色扮演的玩家会选它；但留存与重复游玩证据尚未公开。
+  usage_reason_en: 'Inference: compared with scheduling real teammates, AI customers can serve as the
+    counterpart at any time, so players can start without waiting for enough people or a time slot, which
+    is why players wanting an on-demand voice role-play session would choose it; retention and repeat-play
+    evidence is not yet public.'

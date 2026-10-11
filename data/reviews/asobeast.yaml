@@ -1,0 +1,84 @@
+- id: req-initial-asobeast-2026-10-11
+  project_slug: asobeast
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决应用排名跟踪这一具体重复劳动，旧做法是手工查榜或付费订阅，痛点清楚。
+    evidence_ids:
+    - ev-5d38fb4541dcfbff
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论只有少量点数且无评论，没有用户反馈说明它是否被持续使用。
+    evidence_ids:
+    - ev-5d38fb4541dcfbff
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或托管服务，钱从哪来是判断不是已验证事实。
+    evidence_ids:
+    - ev-5d38fb4541dcfbff
+  - gate: truth
+    status: insufficient
+    reason: 排名数据来源与更新频率未在材料中说明，能否稳定交付可核对结果无法确认。
+    evidence_ids:
+    - ev-5d38fb4541dcfbff
+  next_validation: 查看该仓库的 README 与 issue，确认排名数据来源、更新频率以及是否已有用户报告实际使用。
+  market: ''
+  job: 独立开发者或应用发行人员在版本上线前后，需要持续查看自己应用在 App Store 和 Google Play 上若干关键词的排名位置和变化。
+  job_en: Around a release, an indie developer or publisher needs to keep checking where their app ranks
+    for several keywords on the App Store and Google Play and how that changes.
+  pain: 手工逐个国家、逐个关键词查榜很费时间，商业 ASO 工具按月订阅，对个人开发者偏贵。
+  pain_en: Checking rankings by hand across countries and keywords is slow, and commercial ASO tools charge
+    monthly subscriptions that are costly for solo developers.
+  current_alternative: 手工在应用商店搜索查看，或订阅商业 ASO 排名工具。
+  current_alternative_en: Searching the app stores by hand, or subscribing to a commercial ASO rank tracker.
+  usage_reason: 推断：它把排名抓取和记录自动化，省掉逐条手工查榜这一步，并让开发者自己掌握数据；预算有限又需要多关键词监控的独立开发者会因此选择自建方案。
+  usage_reason_en: 'Inference: it automates rank fetching and logging, removing the step of checking each
+    keyword by hand and letting developers own the data; indie developers with limited budget who need
+    multi-keyword monitoring would therefore choose a self-hosted option.'
+- id: req-full-asobeast-2026-10-11
+  project_slug: asobeast
+  level: full
+  reviewed_at: '2026-10-11T01:28:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决应用排名跟踪这一具体重复劳动，旧做法是手工查榜或付费订阅，痛点清楚。
+    evidence_ids:
+    - ev-5d38fb4541dcfbff
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库自述，没有用户反馈、讨论或采用数据说明它是否被持续使用。
+    evidence_ids:
+    - ev-5d38fb4541dcfbff
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或托管服务，钱从哪来是判断不是已验证事实。
+    evidence_ids:
+    - ev-5d38fb4541dcfbff
+  - gate: truth
+    status: insufficient
+    reason: 排名数据来源与更新频率未在材料中说明，能否稳定交付可核对结果无法确认。
+    evidence_ids:
+    - ev-5d38fb4541dcfbff
+  next_validation: 查看该仓库的 README 与 issue，确认排名数据来源、更新频率以及是否已有用户报告实际使用。
+  market: ''
+  job: 独立开发者或应用发行人员在版本上线前后，需要持续查看自己应用在 App Store 和 Google Play 上若干关键词的排名位置和变化，以便判断标题、副标题或关键词调整是否生效。
+  job_en: Around a release, an indie developer or publisher needs to keep checking where their app ranks
+    for several keywords on the App Store and Google Play and how that changes, in order to judge whether
+    title, subtitle or keyword edits worked.
+  pain: 手工逐个国家、逐个关键词在应用商店搜索查榜很费时间且难以形成连续记录；商业 ASO 工具按月订阅，对个人开发者偏贵。
+  pain_en: Checking rankings by hand across countries and keywords in the app stores is slow and hard
+    to turn into a continuous record; commercial ASO tools charge monthly subscriptions that are costly
+    for solo developers.
+  current_alternative: 手工在应用商店搜索查看，或订阅商业 ASO 排名工具。
+  current_alternative_en: Searching the app stores by hand, or subscribing to a commercial ASO rank tracker.
+  usage_reason: 推断：它把排名抓取和记录自动化，省掉逐条手工查榜这一步，并让开发者自己掌握数据；预算有限又需要多关键词监控的独立开发者会因此选择自建方案。
+  usage_reason_en: 'Inference: it automates rank fetching and logging, removing the step of checking each
+    keyword by hand and letting developers own the data; indie developers with limited budget who need
+    multi-keyword monitoring would therefore choose a self-hosted option.'

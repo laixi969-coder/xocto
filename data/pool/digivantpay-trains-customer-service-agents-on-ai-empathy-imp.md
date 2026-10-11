@@ -22,7 +22,7 @@ summary: DigivantPay Trains Customer Service Agents on AI, Empathy, Improved Cus
   Icon Image
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

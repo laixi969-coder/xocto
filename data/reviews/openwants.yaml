@@ -1,0 +1,83 @@
+- id: req-initial-openwants-2026-10-11
+  project_slug: openwants
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有一句模拟城市描述，无法说清它解决什么真实需求、什么痛点，旧流程与不采用代价均缺失。
+    evidence_ids:
+    - ev-e07d115b6d93b4e3
+  - gate: consensus
+    status: insufficient
+    reason: 仅 6 分与 3 条评论，属极小关注度，不能说明形成共识或持续采用。
+    evidence_ids:
+    - ev-e07d115b6d93b4e3
+  - gate: model
+    status: insufficient
+    reason: 未见定价、客户或采购路径，买方与收入来源无法判断。
+    evidence_ids:
+    - ev-e07d115b6d93b4e3
+  - gate: truth
+    status: insufficient
+    reason: 模拟结果与真实城市服务流程的对应关系无法核对，交付确定性未知。
+    evidence_ids:
+    - ev-e07d115b6d93b4e3
+  next_validation: 收集该站点的说明页或演示文档，确认模拟对应的真实城市服务流程与产出物。
+  market: ''
+  job: 城市规划或社区服务相关人员在模拟环境中观察 AI 代理如何分派和处理虚拟居民的需求。
+  job_en: Urban planning or community-service staff observe in a simulated environment how AI agents dispatch
+    and handle virtual residents' needs.
+  pain: 材料未说明模拟对应哪一步真实工作、当前由谁手工处理、耗时或出错代价，痛点无法还原。
+  pain_en: The material does not say which real work step the simulation maps to, who handles it manually
+    today, or the time and error cost, so the pain cannot be reconstructed.
+  current_alternative: 现有替代方式未在材料中说明，可能是人工推演或表格分派，但无证据。
+  current_alternative_en: The current alternative is not stated; it may be manual tabletop exercises or
+    spreadsheet dispatch, but there is no evidence.
+  usage_reason: 推断：若模拟能快速重跑不同需求分派方案，规划或培训人员可在不搭建真实系统的情况下比较结果，因此在教学或方案预演时可能选择它；缺少用户反馈支持。
+  usage_reason_en: 'Inference: if the simulation can quickly rerun different dispatch plans, planners
+    or trainers could compare outcomes without building a real system, so they might choose it for teaching
+    or plan rehearsal; user feedback is missing.'
+- id: req-full-openwants-2026-10-11
+  project_slug: openwants
+  level: full
+  reviewed_at: '2026-10-11T01:31:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只有一句模拟城市描述，无法说清它解决什么真实需求、什么痛点，旧流程与不采用代价均缺失，连用户任务与交付物都无法还原。
+    evidence_ids:
+    - ev-e07d115b6d93b4e3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该站点的说明页或演示文档，确认模拟对应的真实城市服务流程与产出物。
+  market: ''
+  job: 材料未说明具体使用者与情境；仅能推断为城市规划、社区服务或教学人员在模拟城市环境中观察 AI 代理如何接收并处理虚拟居民提出的需求。
+  job_en: The material does not identify the specific user or situation; it can only be inferred that
+    urban planning, community-service or teaching staff observe in a simulated city how AI agents receive
+    and handle virtual residents' needs.
+  pain: 公开材料只有一句模拟城市描述，未说明模拟对应哪一步真实工作、当前由谁手工处理、耗时或出错代价，痛点无法还原。
+  pain_en: Public material is a single simulated-city description; it does not say which real work step
+    the simulation maps to, who handles it manually today, or the time and error cost, so the pain cannot
+    be reconstructed.
+  current_alternative: 现有替代方式未在材料中说明，可能是人工推演或表格分派，但无证据支持。
+  current_alternative_en: The current alternative is not stated; it may be manual tabletop exercises or
+    spreadsheet dispatch, but there is no supporting evidence.
+  usage_reason: 推断：若模拟能快速重跑不同需求分派方案，规划或培训人员可在不搭建真实系统的情况下比较结果，因此在教学或方案预演时可能选择它；缺少用户反馈支持。
+  usage_reason_en: 'Inference: if the simulation can quickly rerun different dispatch plans, planners
+    or trainers could compare outcomes without building a real system, so they might choose it for teaching
+    or plan rehearsal; user feedback is missing.'

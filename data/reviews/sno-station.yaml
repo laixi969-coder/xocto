@@ -572,3 +572,45 @@
   usage_reason_en: 'Cannot be judged: the collected evidence is entirely mismatched with the product,
     and with no user feedback or customer cases there is no link explaining why a user would choose it
     over the old approach.'
+- id: req-full-sno-station-2026-10-11
+  project_slug: sno-station
+  level: full
+  reviewed_at: '2026-10-11T01:32:13Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决多代理并行时上下文割裂、交接靠手工搬运的问题，但公开证据里没有一条用户痛点、旧替代行为或客户案例，全部证据指向神经肿瘤学会与免费小游戏站，与编码代理协作无关，无法还原真实任务与不解决的后果。
+    evidence_ids:
+    - ev-51fd332e0fa3a295
+    - ev-1d38dc1cab5c76c0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Sno Station 官方仓库的 README、issue 与 discussion，确认是否有开发者描述多代理上下文丢失或手工交接的具体场景与使用反馈。
+  market: ''
+  job: 开发者在本地同时运行 Claude Code 与 Codex 等多个编码代理时，需要让它们共享上下文、互相传递任务并完成代码交接与跨厂商评审，最终拿到一次可用的多代理协作编码会话。
+  job_en: A developer running Claude Code and Codex side by side on a local machine needs the agents to
+    share context, pass tasks to each other, and complete code handoff and cross-vendor review, ending
+    with one usable multi-agent coding session.
+  pain: 公开材料只给出产品自述的功能清单，没有任何用户反馈、issue 或案例说明多代理并行时上下文丢失、交接靠手工复制粘贴究竟造成多大代价、多久发生一次。
+  pain_en: Public material only offers the product's own feature list; no user feedback, issue, or case
+    shows how much cost or how often context loss and manual copy-paste handoff actually occur when running
+    multiple agents.
+  current_alternative: 公开材料未说明开发者今天如何完成多代理协作，也未说明它替代了手工复制上下文、分别开两个终端还是别的做法。
+  current_alternative_en: Public material does not show how developers handle multi-agent collaboration
+    today, nor whether it replaces manual context copying, two separate terminals, or something else.
+  usage_reason: 推断：若共享加密记忆与 Reach 消息真能省去在两个代理间手工搬运上下文这一步，同时使用 Claude Code 和 Codex 的开发者可能因此选择它；但这一因果目前没有任何用户证据支撑。
+  usage_reason_en: 'Inference: if shared encrypted memory and Reach messaging really remove the step of
+    manually shuttling context between two agents, developers running Claude Code and Codex together might
+    choose it; no user evidence currently supports this causal claim.'

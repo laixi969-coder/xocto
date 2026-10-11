@@ -1,0 +1,80 @@
+- id: req-initial-kitbar-2026-10-11
+  project_slug: kitbar
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能推断工具切换存在摩擦，无法从材料还原具体用户任务、旧流程与交付结果。
+    evidence_ids:
+    - ev-b24676947f863c8a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有可归因到该产品的采用或讨论证据。
+    evidence_ids:
+    - ev-b24676947f863c8a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径无从判断。
+    evidence_ids:
+    - ev-b24676947f863c8a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对它是否真的减少切换及人工边界。
+    evidence_ids:
+    - ev-b24676947f863c8a
+  next_validation: 收集该产品的官方产品页或文档，确认它接入哪些开发工具、在什么节点被打开、产出什么可核对结果。
+  market: ''
+  job: 开发者在编码或调试过程中，需要频繁调用多个开发工具；候选资料未说明具体是谁、处理什么材料、要完成什么任务。
+  job_en: A developer coding or debugging needs to call several dev tools frequently; the candidate material
+    does not say who exactly, with what material, or to complete what task.
+  pain: 候选资料未提供痛点描述，只能推断工具切换可能带来打断，但这是推断，未经材料支持。
+  pain_en: The candidate material gives no pain description; one can only infer that tool switching may
+    cause interruption, but this is inference without material support.
+  current_alternative: 公开材料未说明现有替代方式；按结构推断，开发者可能使用 IDE 插件、终端别名或独立窗口，但这属于推断。
+  current_alternative_en: Public material does not state the current alternative; structurally developers
+    may use IDE plugins, terminal aliases or separate windows, but this is inference.
+  usage_reason: 无法判断。候选资料只有一句口号，没有说明相较现有插件或快捷键减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: Cannot be judged. The material is a single tagline and does not show which step is
+    reduced versus existing plugins or shortcuts, or which checkable outcome improves.
+- id: req-full-kitbar-2026-10-11
+  project_slug: kitbar
+  level: full
+  reviewed_at: '2026-10-11T01:30:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选资料仅一句“开发工具集中在一个条里”，无法还原具体用户任务、输入材料、旧流程与交付结果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-b24676947f863c8a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Kitbar 的官方产品页或文档，确认它接入哪些开发工具、在什么节点被打开、产出什么可核对结果。
+  market: ''
+  job: 开发者在编码或调试过程中需要频繁调用多个开发工具；候选资料未说明具体是谁、处理什么材料、要完成什么任务。
+  job_en: A developer coding or debugging needs to call several dev tools frequently; the material does
+    not say who exactly, with what material, or to complete what task.
+  pain: 候选资料只有一句口号，未提供痛点描述；工具切换造成打断只是推断，没有公开材料支持。
+  pain_en: The material is a single tagline with no pain description; interruption from tool switching
+    is inference without public support.
+  current_alternative: 公开材料未说明现有替代方式；按结构推断可能是 IDE 插件、终端别名或独立窗口，但这是推断而非事实。
+  current_alternative_en: Public material states no current alternative; structurally it might be IDE
+    plugins, terminal aliases or separate windows, but that is inference, not fact.
+  usage_reason: 无法判断。材料未说明相较现有插件或快捷键减少了哪一步负担或改善了哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: Cannot be judged. The material does not show which step is reduced versus existing
+    plugins or shortcuts, or which checkable outcome improves, so it cannot explain which users would
+    choose it and when.

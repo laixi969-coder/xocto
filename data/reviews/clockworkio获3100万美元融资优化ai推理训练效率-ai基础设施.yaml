@@ -1,0 +1,82 @@
+- id: req-initial-clockworkio获3100万美元融资优化ai推理训练效率-ai基础设施-2026-10-11
+  project_slug: clockworkio获3100万美元融资优化ai推理训练效率-ai基础设施
+  level: initial
+  reviewed_at: '2026-10-11T01:02:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅知方向为优化推理训练效率，无法说清它替代哪一步旧工作、交付什么可核对结果，需求结构尚未成形。
+    evidence_ids:
+    - ev-cabf3e4fd7a57eca
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成形，且公开材料没有客户、采用或社区讨论等共识证据。
+    evidence_ids:
+    - ev-cabf3e4fd7a57eca
+  - gate: model
+    status: insufficient
+    reason: 未进入：只有 3100 万美元融资，未披露买方、定价或收费口径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-cabf3e4fd7a57eca
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无产品文档或实测材料，无法核对优化承诺能否确定性交付。
+    evidence_ids:
+    - ev-cabf3e4fd7a57eca
+  next_validation: 收集 Clockwork.io 官方产品页或技术文档，确认其优化对象是推理、训练还是两者，以及交付形式与计费口径。
+  market: ''
+  job: AI 平台工程师在模型上线前处理推理服务配置与算力预算材料，完成推理成本与延迟的优化。
+  job_en: AI platform engineers handle inference service configuration and compute budget materials before
+    model launch, to optimize inference cost and latency.
+  pain: 公开材料未说明它具体缓解哪一步痛苦，只能推断推理与训练算力成本高企是背景，但缺少可核验的痛点描述。
+  pain_en: The public material does not state which specific step it relieves; high inference and training
+    compute cost can only be inferred as background, with no verifiable pain description.
+  current_alternative: 公开材料未披露现有替代方式，无法确认用户此前如何解决同一问题。
+  current_alternative_en: The public material does not disclose existing alternatives, so how users previously
+    solved the same problem cannot be confirmed.
+  usage_reason: 推断：若其优化能直接降低单位推理成本，AI 平台工程师会在成本超预算时试用；但缺少产品形态与交付结果，无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Inference: if its optimization directly lowers unit inference cost, AI platform engineers
+    would trial it when budgets are exceeded; but with no product form or delivery outcome disclosed,
+    which step it removes versus the old approach cannot be stated.'
+- id: req-full-clockworkio获3100万美元融资优化ai推理训练效率-ai基础设施-2026-10-11
+  project_slug: clockworkio获3100万美元融资优化ai推理训练效率-ai基础设施
+  level: full
+  reviewed_at: '2026-10-11T01:29:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅知方向为优化推理训练效率，无法说清它替代哪一步旧工作、交付什么可核对结果，需求结构尚未成形。
+    evidence_ids:
+    - ev-fd82a8f245b92bcc
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Clockwork.io 官方产品页或技术文档，确认其优化对象是推理、训练还是两者，以及交付形式与计费口径。
+  market: ''
+  job: AI 平台工程师在模型上线前处理推理服务配置与算力预算材料，完成推理成本与延迟的优化。
+  job_en: AI platform engineers handle inference service configuration and compute budget materials before
+    model launch, to optimize inference cost and latency.
+  pain: 公开材料只给出“优化推理训练效率”的方向，未说明具体缓解哪一步痛苦；算力成本高只能作为背景推断，缺少可核验的痛点描述。
+  pain_en: The public material only gives the direction of 'optimizing inference and training efficiency'
+    without stating which step's pain is relieved; high compute cost can only be inferred as background,
+    lacking verifiable pain description.
+  current_alternative: 公开材料未披露用户此前如何解决同一问题，无法确认现有替代方式。
+  current_alternative_en: The public material does not disclose how users previously solved the same problem,
+    so existing alternatives cannot be confirmed.
+  usage_reason: 推断：若其优化能直接降低单位推理成本，AI 平台工程师会在成本超预算时试用；但缺少产品形态与交付结果，无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Inference: if its optimization directly lowers unit inference cost, AI platform engineers
+    would trial it when budgets are exceeded; but with no product form or delivery outcome disclosed,
+    which step it removes versus the old approach cannot be stated.'

@@ -84,3 +84,47 @@
   usage_reason_en: 'Inference: it records measured parameters and processing steps so creators skip repeated
     listening and clip-by-clip regeneration and get more natural continuous speech, which is why voice-character
     or companionship creators would consult it; no sustained-use or payment evidence appears.'
+- id: req-full-ai-voice-breath-kiss-water-2-2026-10-11
+  project_slug: ai-voice-breath-kiss-water-2
+  level: full
+  reviewed_at: '2026-10-11T01:28:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 语音角色不自然、听众出戏的问题，痛点具体且影响发布质量，旧做法是反复试听与手工剪辑，结构上成立。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，未见用户评价或采用数据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+  - gate: model
+    status: insufficient
+    reason: 开源实测记录，未见定价或买方，钱可能来自内容创作者或服务化交付，属判断而非已验证事实。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明调参结果能否稳定复现，也未涉及安全与人工审核边界。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+  next_validation: 收集该仓库的 issue/discussion 与后续更新，确认参数流程是否被外部创作者复现并用于实际发布。
+  market: ''
+  job: 做 AI 语音角色或陪伴内容的创作者，在处理配音脚本与语音素材时，用 ElevenLabs v4、ffmpeg 与 whisper 调参，解决一句话说两遍、音调跳变、喘气不自然、话量不均、重复不重样等问题，产出更自然的连续语音。
+  job_en: Creators building AI voice characters or companion content adjust parameters with ElevenLabs
+    v4, ffmpeg and whisper while working with scripts and voice assets, fixing doubled lines, pitch jumps,
+    unnatural breathing, uneven speech volume and repetition to produce more natural continuous speech.
+  pain: 合成语音常出现一句话说两遍、音调一截一截跳、喘气不自然、话量不均，直接发布会让角色显得假、听众出戏；旧做法靠反复试听、手工剪辑、逐条重生成，耗时且难稳定复现。
+  pain_en: Synthesized speech often doubles lines, jumps in pitch, breathes unnaturally and varies in
+    volume, making characters feel fake and breaking audience immersion; the old fix is repeated listening,
+    manual audio editing and clip-by-clip regeneration, which is slow and hard to reproduce consistently.
+  current_alternative: 创作者靠反复试听、手工剪辑音频、逐条重生成来修，耗时且难以稳定复现。
+  current_alternative_en: Creators fix this by repeated listening, manual audio editing and regenerating
+    clips one by one, which is slow and hard to reproduce consistently.
+  usage_reason: 推断：它把实测过的参数与处理步骤写下来，让创作者少走反复试听和逐条重生成的弯路，直接得到更自然的连续语音，因此做语音角色或陪伴内容的人会参考它；材料未显示持续使用或付费证据。
+  usage_reason_en: 'Inference: it records measured parameters and processing steps so creators skip repeated
+    listening and clip-by-clip regeneration and get more natural continuous speech, which is why voice-character
+    or companionship creators would consult it; no sustained-use or payment evidence appears.'

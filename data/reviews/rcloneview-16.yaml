@@ -87,3 +87,53 @@
     into visual operations, removing the step of memorising flags and reading docs, so small teams without
     dedicated engineers that still move files across clouds would pick it when migrating or scheduling
     syncs; no retention or payment evidence is public yet.'
+- id: req-full-rcloneview-16-2026-10-11
+  project_slug: rcloneview-16
+  level: full
+  reviewed_at: '2026-10-11T01:31:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨云盘搬运、备份与同步的需求，痛点是 rclone 命令行门槛高、参数易错、非工程人员难独立完成；旧做法是手写命令或逐个云盘客户端手动同步，不采用则跨云搬运易出错且排查成本高，交付物是已同步文件，结构成立。
+    evidence_ids:
+    - ev-505554c4ff546f13
+    - ev-60ef06cd5242e8e4
+    - ev-fe2dc65a8b1a4b86
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品自述与论坛入口，没有用户评价、客户案例或采用规模数据，无法判断是否形成使用共识；跨云同步场景本身清晰，但卡在缺少真实使用反馈这一环。
+    evidence_ids:
+    - ev-505554c4ff546f13
+    - ev-60ef06cd5242e8e4
+  - gate: model
+    status: insufficient
+    reason: 材料未给出定价页或收费方式，买方可能是个人用户、小团队或企业 IT，属判断而非已验证事实；也未说明是否存在订阅或一次性授权收入。
+    evidence_ids:
+    - ev-e3ebf6a435f5cc36
+    - ev-01b6202252022ac3
+  - gate: truth
+    status: insufficient
+    reason: 跨云同步是确定性任务，产品以 GUI 封装 rclone 可核验交付；但候选材料未说明 AI 在其中的具体动作，是否含智能分类或异常处理仍缺证据，与 AI 应用的关联待核验。
+    evidence_ids:
+    - ev-505554c4ff546f13
+    - ev-fe2dc65a8b1a4b86
+  next_validation: 追踪 RcloneView 官网定价页与客户案例页面，确认是否收费、买方类型以及是否披露 AI 相关能力或真实使用反馈。
+  market: ''
+  job: 中小企业 IT 运维或数据管理员，在需要把文件在多个云盘之间迁移或定期备份同步时，打开 RcloneView 桌面客户端，用图形界面配置存储连接与传输任务，最终拿到已同步或已迁移的文件。
+  job_en: An IT operator or data administrator at a small business who, when files must be migrated or
+    regularly backed up across several cloud drives, opens the RcloneView desktop client, configures storage
+    connections and transfer tasks through a GUI, and ends up with synced or migrated files.
+  pain: rclone 命令行配置繁琐、参数易错，非工程人员难以独立完成跨云搬运，出错后排查成本高；多云端点并存时逐个客户端手动同步也容易漏传或版本不一致。
+  pain_en: rclone's command line is fiddly and error-prone, so non-engineers struggle to move data across
+    clouds alone and debugging failures is costly; with many endpoints, syncing manually through each
+    provider's own client also risks missed transfers and inconsistent versions.
+  current_alternative: 直接手写 rclone 命令行并查文档，或依赖各家云盘自带客户端逐个手动同步。
+  current_alternative_en: Hand-writing rclone commands and reading docs, or syncing manually one by one
+    with each cloud provider's own client.
+  usage_reason: 推断：相较手写 rclone 命令，它把存储配置与传输任务变成可视化操作，省去记参数、查文档和逐条排错这一步，因此对没有专职工程师、又要跨多云搬运文件的小团队更有吸引力；公开材料未显示留存或付费证据。
+  usage_reason_en: 'Inference: versus hand-writing rclone commands, it turns storage setup and transfers
+    into visual operations, removing the step of memorising flags, reading docs and debugging command
+    by command, which appeals to small teams without dedicated engineers that still move files across
+    clouds; no retention or payment evidence is public.'

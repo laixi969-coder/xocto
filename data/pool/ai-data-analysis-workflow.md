@@ -21,7 +21,7 @@ canonical_url: https://github.com/peregrinestrand/ai-data-analysis-workflow
 summary: Argolink-focused data-analysis agent workflow for GPT-6 Sol.
 first_seen: '2026-10-11T01:01:22Z'
 last_seen: '2026-10-11T01:01:22Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -119,3 +119,45 @@
   usage_reason: 缺少产品能力与场景描述，无法解释用户为何选择它而非现有做法；这是信息缺口，不是需求不存在的证据。
   usage_reason_en: With no capability or scenario description, there is no way to explain why a user would
     pick it over existing approaches; this is an information gap, not proof the need is absent.
+- id: req-full-oss-scanner-2026-10-11
+  project_slug: oss-scanner
+  level: full
+  reviewed_at: '2026-10-11T01:31:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅显示仓库名与星标、fork、issue 数量，未说明 AI 接收什么、执行什么动作、交付什么，无法还原用户任务、痛点、旧替代与不解决的后果。
+    evidence_ids:
+    - ev-f4df8b7fc0ab4f37
+    - ev-e5b454b5e70a735a
+    - ev-6e2bd1de7cc71489
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/anthropics/oss-scanner 的 README、issue 和 discussion，确认扫描输入、输出交付物及使用场景。
+  market: ''
+  job: 开源维护者在处理代码仓库时可能打开它，让工具扫描仓库中的代码或依赖材料并输出问题清单；但候选材料只给出仓库名与星标、fork、issue 数量，AI 具体接收什么、执行什么动作、最终交付什么，均未说明。
+  job_en: Open-source maintainers may open it when working with code repositories, letting the tool scan
+    code or dependency materials and output a list of issues; however, the candidate materials only provide
+    the repository name, stars, forks, and issue counts, without specifying what the AI receives, what
+    actions it performs, or what it ultimately delivers.
+  pain: 公开材料未说明维护者在扫描代码或依赖时遇到的具体痛点、发生频率或不解决的后果。
+  pain_en: Public materials do not describe the specific pain points, frequency, or consequences of not
+    solving the problem when maintainers scan code or dependencies.
+  current_alternative: 公开材料未说明维护者目前如何完成这项工作，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not explain how maintainers currently complete this job
+    or what old approach it replaces.
+  usage_reason: 公开材料未说明用户为何会选择它，仅凭仓库星标增长无法解释用户选择原因。
+  usage_reason_en: Public materials do not explain why users would choose it; repository star growth alone
+    cannot explain user choice.

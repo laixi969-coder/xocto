@@ -21,7 +21,7 @@ canonical_url: https://businessinsider.com/personal-ai-agent-grok-bot-posted-ban
 summary: My personal AI agent posted my bank details on company Slack
 first_seen: '2026-10-11T01:01:01Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

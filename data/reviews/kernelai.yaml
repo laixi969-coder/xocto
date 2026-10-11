@@ -1,0 +1,82 @@
+- id: req-initial-kernelai-2026-10-11
+  project_slug: kernelai
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能写出模糊的隐私或断网动机，无法还原具体用户任务、旧流程与交付结果。
+    evidence_ids:
+    - ev-6756ca5f5e5ff307
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有可归因到该产品的采用或讨论证据。
+    evidence_ids:
+    - ev-6756ca5f5e5ff307
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径无从判断。
+    evidence_ids:
+    - ev-6756ca5f5e5ff307
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，端侧模型能力边界与人工确认环节无法核对。
+    evidence_ids:
+    - ev-6756ca5f5e5ff307
+  next_validation: 收集该应用的官方产品页或应用商店说明，确认它在什么场景下被打开、处理什么输入、产出什么可核对结果。
+  market: ''
+  job: 手机用户在无网络或不愿上传数据的情况下，用手机处理某些文字或信息任务；候选资料未说明具体是谁、处理什么材料、要完成什么任务。
+  job_en: A phone user, offline or unwilling to upload data, handles some text or information task on
+    the phone; the candidate material does not say who exactly, with what material, or to complete what
+    task.
+  pain: 候选资料未提供痛点描述，只能推断隐私顾虑或断网环境可能是动机，但这是推断，未经材料支持。
+  pain_en: The candidate material gives no pain description; one can only infer privacy concerns or no-network
+    situations as possible motives, but this is inference without material support.
+  current_alternative: 公开材料未说明现有替代方式；按结构推断，用户可能使用云端聊天助手或系统自带输入法，但这属于推断。
+  current_alternative_en: Public material does not state the current alternative; structurally one might
+    infer cloud chat assistants or built-in keyboards, but this is inference.
+  usage_reason: 无法判断。候选资料只有“私密、离线”一句，没有说明相较云端助手减少了哪一步负担或改善了哪项可核对结果，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: Cannot be judged. The material is only 'private, offline'; it does not show which step
+    is reduced versus cloud assistants or which checkable outcome improves, so it cannot explain which
+    users would choose it and when.
+- id: req-full-kernelai-2026-10-11
+  project_slug: kernelai
+  level: full
+  reviewed_at: '2026-10-11T01:30:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选资料仅一句“私密、离线”，无法还原具体用户任务、输入材料、旧流程与交付结果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-6756ca5f5e5ff307
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 KernelAI 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 手机用户在无网络或不愿把材料上传云端的情况下，用手机处理文字或信息任务；候选资料未说明具体是谁、处理什么材料、要完成什么任务。
+  job_en: A phone user, offline or unwilling to upload material to the cloud, handles a text or information
+    task on the phone; the material does not say who exactly, with what material, or to complete what
+    task.
+  pain: 候选资料只有“私密、离线”一句，未提供任何痛点描述；隐私顾虑或断网环境只是推断，没有公开材料支持。
+  pain_en: The material offers only 'private, offline' and no pain description; privacy concerns or no-network
+    situations are inference without public support.
+  current_alternative: 公开材料未说明现有替代方式；按结构推断可能是云端聊天助手或系统自带输入法，但这是推断而非事实。
+  current_alternative_en: Public material states no current alternative; structurally it might be cloud
+    chat assistants or built-in keyboards, but that is inference, not fact.
+  usage_reason: 无法判断。材料未说明相较云端助手减少了哪一步负担或改善了哪项可核对结果，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: Cannot be judged. The material does not show which step is reduced versus cloud assistants
+    or which checkable outcome improves, so it cannot explain which users would choose it and when.

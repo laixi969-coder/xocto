@@ -556,3 +556,54 @@
     request to a target agent on the same network, removing the step of punching a network path and exposing
     a port for each agent; developers already managing several machines with Tailscale who want their
     agents to call each other would therefore pick it once they scale past a second host.'
+- id: req-full-agent-tincan-2026-10-11
+  project_slug: agent-tincan
+  level: full
+  reviewed_at: '2026-10-11T01:28:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多机部署的 agent 之间缺少通信通道的问题：跨主机求助通常要自建转发、暴露端口并自写鉴权寻址，不解决则 agent 各自孤立、协作靠手工搬运。项目把请求复用 Tailscale
+      私有网络转发，交付形态明确，属工作流结构推理。
+    evidence_ids:
+    - ev-21a6bc5286e04765
+    - ev-da89e98d57378617
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏由 223 增至 277，说明开发者持续关注该项目，但公开材料没有 issue、discussion 或案例显示它被留在日常多机 agent 工作流中，采用强度仍缺证据。
+    evidence_ids:
+    - ev-21a6bc5286e04765
+    - ev-da914a6afd6b2e32
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未披露定价、付费主体或单位经济；钱可能来自托管服务、企业支持或纯社区维护，属判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-43e7250ca80810f7
+  - gate: truth
+    status: insufficient
+    reason: 项目承诺跨主机 agent 求助可经 Tailscale 转发，但公开材料未给出部署文档、失败处理或人工确认边界，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-da89e98d57378617
+  next_validation: 追踪该项目的公开仓库 issue 与 discussion，确认是否有开发者报告在多机 agent 工作流中实际部署、遇到的失败模式及是否长期保留使用。
+  market: ''
+  job: 开发者在自建或混合部署多个 AI agent 时，需要让运行在不同机器上的 agent 互相发起求助请求，于是用这个开源项目把请求经 Tailscale 网络转发，拿到一条可自托管的 agent
+    间通信通道。
+  job_en: Developers running multiple AI agents across self-hosted or hybrid machines need agents on different
+    hosts to ask each other for help, so they use this open-source project to route those requests over
+    a Tailscale network, obtaining a self-hostable agent-to-agent channel.
+  pain: 多机部署的 agent 之间缺少现成通道，跨主机调用通常要自己写网络暴露、鉴权和寻址逻辑；不解决的后果是 agent 只能各自孤立运行，跨机协作要手工搬运或临时开端口，暴露面与维护成本都上升。
+  pain_en: Agents deployed across machines lack a ready channel; cross-host calls usually require hand-rolling
+    network exposure, auth, and addressing. Left unsolved, agents run isolated, cross-host collaboration
+    needs manual relay or ad-hoc port opening, raising exposure and maintenance cost.
+  current_alternative: 旧做法是自建消息队列、HTTP 内网暴露或直接 SSH 转发，并自行处理鉴权与寻址；这些方案需要额外运维，且不天然适配 Tailscale 的私有网络语义。
+  current_alternative_en: The old approach is self-built message queues, HTTP exposure on the internal
+    network, or plain SSH forwarding, with auth and addressing handled by hand; these need extra ops work
+    and do not natively fit Tailscale's private-network semantics.
+  usage_reason: 推断：相较自建转发，它把 agent 间求助直接复用已有的 Tailscale 私有网络，省去单独暴露端口与自写寻址这一步，因此已在用 Tailscale 管理多机 agent
+    的开发者会在需要跨主机协作时选择它；仓库收藏从 223 增至 277 只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus self-built forwarding, it reuses an existing Tailscale private network
+    for agent-to-agent help, removing the step of separately exposing ports and writing addressing, so
+    developers already managing multi-host agents on Tailscale would pick it when cross-host collaboration
+    is needed; stars rising from 223 to 277 show attention only, not sustained use.'

@@ -1,0 +1,38 @@
+- id: req-initial-anycreature-by-gobkit-2026-10-11
+  project_slug: anycreature-by-gobkit
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 材料只说明从代理召唤怪物，既未写清解决什么需求与痛点，也看不出不采用会失去什么，价值关未过。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何公开采用或讨论证据可判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均无材料支持。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定、人工边界如何均无法判断。
+    evidence_ids: []
+  next_validation: 收集该产品的官方页面或可玩入口，核验它接收什么输入、交付什么结果以及是否有公开使用数据。
+  market: ''
+  job: 使用 AI 代理的人在代理执行任务的过程中，希望获得角色化的视觉或互动反馈，用于娱乐或内容展示。
+  job_en: People using AI agents want character-based visual or interactive feedback during agent task
+    execution, for entertainment or content display.
+  pain: 公开材料只给出“从代理中召唤怪物”这一句，无法确认它替代了哪一步旧做法，也看不出不采用会失去什么。
+  pain_en: The public material only states that monsters are summoned from an agent; it is impossible
+    to confirm which previous step it replaces or what is lost by not using it.
+  current_alternative: 可能是不使用任何角色化反馈，或使用通用图像生成与聊天角色工具，但材料未说明。
+  current_alternative_en: Possibly no character-based feedback at all, or generic image generation and
+    chat character tools, but the material does not say.
+  usage_reason: 推断：如果怪物形象能随代理任务状态变化，用户可能因为互动趣味而试用；但缺少可玩入口、交付物和用户反馈，无法说明用户为何会选择它。
+  usage_reason_en: 'Inference: if monster characters change with agent task state, users might try it
+    for the interactivity; but with no playable entry, deliverable or user feedback, there is no basis
+    to explain why users would choose it.'

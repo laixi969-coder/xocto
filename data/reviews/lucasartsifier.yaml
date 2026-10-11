@@ -1,0 +1,38 @@
+- id: req-initial-lucasartsifier-2026-10-11
+  project_slug: lucasartsifier
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决老游戏卡死无法通关的问题，痛点真实但受众窄，且是否覆盖多款游戏、补丁是否可靠尚无公开材料支持。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度存在，但缺少玩家反馈说明它确实修复了卡死状态，无法判断是否被持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径，钱可能来自捐赠或维护服务，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 自动检测与打补丁的确定性、对存档的副作用、人工确认边界均未在公开材料中说明。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，确认玩家报告的实际修复案例与失败情况。
+  market: ''
+  job: 复古游戏玩家在运行 Sierra 老游戏、遇到剧情卡死无法继续时，用工具检测并修补存档或游戏文件以继续游玩。
+  job_en: Retro gamers who hit unwinnable dead-end states in old Sierra games use the tool to detect and
+    patch save or game files to keep playing.
+  pain: 老游戏存在设计缺陷导致的卡死状态，玩家往往要重开或手工改存档，损失进度。
+  pain_en: Old games contain design flaws that cause dead-end states, forcing players to restart or hand-edit
+    saves and lose progress.
+  current_alternative: 查攻略、重开存档、用十六进制编辑器手工修改存档文件。
+  current_alternative_en: Reading walkthroughs, restarting saves, or hand-editing save files with a hex
+    editor.
+  usage_reason: 推断：相较手工改存档，它自动定位卡死状态并打补丁，省去玩家自己判断哪一步出错、改哪个字节的负担，因此遇到卡死的玩家会尝试它。
+  usage_reason_en: 'Inference: compared with hand-editing saves, it automatically locates the dead-end
+    state and applies a patch, removing the burden of figuring out which step failed and which byte to
+    change, so players stuck at a dead-end would try it.'

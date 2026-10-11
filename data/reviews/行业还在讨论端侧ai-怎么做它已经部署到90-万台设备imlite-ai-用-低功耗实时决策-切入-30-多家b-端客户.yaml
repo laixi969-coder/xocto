@@ -1,0 +1,93 @@
+- id: req-initial-行业还在讨论端侧ai-怎么做它已经部署到90-万台设备imlite-ai-用-低功耗实时决策-切入-30-多家b-端客户-2026-10-11
+  project_slug: 行业还在讨论端侧ai-怎么做它已经部署到90-万台设备imlite-ai-用-低功耗实时决策-切入-30-多家b-端客户
+  level: initial
+  reviewed_at: '2026-10-11T01:02:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设备端要在低功耗、数据不出场的条件下完成实时判断的需求，痛点具体且不采用就要承担时延、带宽与合规成本；买方与付费方式公开材料未说明。
+    evidence_ids:
+    - ev-8be6a4f3c08f15bd
+  - gate: consensus
+    status: insufficient
+    reason: 报道称已进入 30 多家 B 端客户，但无客户名称、无场景细节，无法判断是试点还是持续采购。
+    evidence_ids:
+    - ev-8be6a4f3c08f15bd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按设备还是按项目收费、以及是否含授权与维护，收入路径只能推断为 to B 授权或项目制。
+    evidence_ids:
+    - ev-8be6a4f3c08f15bd
+  - gate: truth
+    status: insufficient
+    reason: 90 万台设备与 30 多家客户均为报道转述，缺少可核验的部署文档、客户案例或复购证据，交付确定性未明。
+    evidence_ids:
+    - ev-8be6a4f3c08f15bd
+  next_validation: 收集 iMLite AI 官方客户案例页或部署文档，核验其公布的客户名称、设备出货规模与部署周期。
+  market: ''
+  job: 设备厂商的嵌入式团队在给摄像头、传感器或工业设备加识别与异常判断能力时，需要让模型在本地算力受限、供电受限的条件下直接给出判断结果，而不是把原始数据传回云端。
+  job_en: Embedded teams at device makers adding recognition or anomaly detection to cameras, sensors
+    or industrial equipment need the model to decide locally under tight compute and power budgets instead
+    of shipping raw data to the cloud.
+  pain: 云端推理带来时延、带宽和电费成本，工业与安防场景还受数据不出厂、不出户的合规约束；把通用模型塞进低功耗芯片往往跑不动或耗电过高。
+  pain_en: Cloud inference adds latency, bandwidth and power cost, while industrial and security settings
+    often forbid raw data leaving the site; general models frequently fail to run, or drain power, on
+    low-power chips.
+  current_alternative: 常见做法是采购通用芯片方案后由自家算法团队裁剪量化模型，或继续用云端推理加本地简单规则判断，前者周期长，后者时延与合规都难满足。
+  current_alternative_en: Teams either buy general-purpose chips and have in-house algorithm staff prune
+    and quantize models, or keep cloud inference with simple local rules; the first is slow, the second
+    fails on latency and compliance.
+  usage_reason: 推断：相较自研裁剪或纯云端方案，它把低功耗实时推理做成可直接嵌入固件的交付物，省掉从模型压缩到芯片适配这一段工程负担，因此算力与人力都有限的硬件厂商会在新机型立项时优先评估它。
+  usage_reason_en: 'Inference: versus in-house pruning or cloud-only setups, it packages low-power real-time
+    inference as firmware-ready output, removing the model-compression-to-chip-porting work, so hardware
+    makers with limited compute and staff evaluate it at new-model kickoff.'
+- id: req-full-行业还在讨论端侧ai-怎么做它已经部署到90-万台设备imlite-ai-用-低功耗实时决策-切入-30-多家b-端客户-2026-10-11
+  project_slug: 行业还在讨论端侧ai-怎么做它已经部署到90-万台设备imlite-ai-用-低功耗实时决策-切入-30-多家b-端客户
+  level: full
+  reviewed_at: '2026-10-11T01:32:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设备端在低功耗、数据不出场的条件下完成实时识别与异常判断的需求，痛点具体：不采用就要承担时延、带宽与合规成本；买方与付费方式公开材料未说明，属结构推理。
+    evidence_ids:
+    - ev-8be6a4f3c08f15bd
+  - gate: consensus
+    status: insufficient
+    reason: 报道称已部署 90 万台设备并切入 30 多家 B 端客户，但无客户名称、无场景细节、无复购信息，无法判断是试点还是持续采购。
+    evidence_ids:
+    - ev-8be6a4f3c08f15bd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按设备还是按项目收费、是否含授权与维护；收入路径只能推断为 to B 授权或项目制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8be6a4f3c08f15bd
+  - gate: truth
+    status: insufficient
+    reason: 90 万台设备与 30 多家客户均为报道转述，缺少可核验的部署文档、客户案例或复购证据，交付确定性与人工复核边界未明。
+    evidence_ids:
+    - ev-8be6a4f3c08f15bd
+  next_validation: 追踪 iMLite AI 官方客户案例页或部署文档，核验其公布的客户名称、设备出货规模与部署周期。
+  market: ''
+  job: 设备厂商与工业设备团队的嵌入式算法工程师，在给摄像头、传感器或工业设备新增识别与异常判断能力、且芯片算力与供电受限时，需要让模型在本地直接输出判断结果，而不是把原始图像或传感数据回传云端。
+  job_en: Embedded algorithm engineers at device makers and industrial equipment teams, when adding recognition
+    or anomaly detection to cameras, sensors or industrial equipment under tight chip compute and power
+    budgets, need the model to output decisions locally instead of sending raw images or sensor data to
+    the cloud.
+  pain: 公开报道只给出定位与规模，未披露客户抱怨；从工作流看，云端推理带来时延、带宽与电费成本，工业与安防场景还受数据不出厂约束，而通用模型直接塞进低功耗芯片常跑不动或耗电过高，这是结构推理而非用户口述。
+  pain_en: Public coverage gives only positioning and scale, not user complaints; structurally, cloud
+    inference adds latency, bandwidth and power cost, industrial and security settings restrict data leaving
+    the site, and general models often fail to run or drain power on low-power chips — this is workflow
+    inference, not user testimony.
+  current_alternative: 常见替代是采购通用芯片方案后由自家算法团队裁剪量化模型，或继续用云端推理加本地简单规则判断；前者周期长，后者在时延与合规上难满足。
+  current_alternative_en: Teams either buy general-purpose chips and have in-house staff prune and quantize
+    models, or keep cloud inference with simple local rules; the first is slow, the second fails on latency
+    and compliance.
+  usage_reason: 推断：相较自研裁剪或纯云端方案，它把低功耗实时推理做成可嵌入固件的交付物，省掉从模型压缩到芯片适配这一段工程负担，因此算力与人力都有限的硬件厂商会在新机型立项时优先评估它；公开材料未提供用户反馈或留存证据，故不声称已被长期留在工作流中。
+  usage_reason_en: 'Inference: versus in-house pruning or cloud-only setups, it packages low-power real-time
+    inference as firmware-ready output, removing the model-compression-to-chip-porting work, so hardware
+    makers with limited compute and staff evaluate it at new-model kickoff; no public user feedback or
+    retention evidence exists, so no claim of long-term workflow embedding.'

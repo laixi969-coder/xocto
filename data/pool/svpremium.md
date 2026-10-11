@@ -21,7 +21,7 @@ canonical_url: https://svpremium.dev
 summary: The safe-choice tax – what the vendor nobody gets fired for costs
 first_seen: '2026-10-11T01:01:01Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,38 @@
+- id: req-initial-maccess-2026-10-11
+  project_slug: maccess
+  level: initial
+  reviewed_at: '2026-08-22T22:37:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决离开电脑后临时操作 Mac 的需求，痛点存在但强度有限，且 AI 具体承担什么动作无公开材料支持。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 缺少用户采用或反馈证据，无法判断是否被持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价或付费路径，钱可能来自订阅，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 远程连接的安全性、AI 操作的确定性以及人工确认边界均未在公开材料中说明。
+    evidence_ids: []
+  next_validation: 收集该产品的官方页面或定价页，确认远程连接方式、AI 操作范围与计费口径。
+  market: ''
+  job: Mac 用户在离开电脑时，用手机远程操作 Mac 的触控板、屏幕并调用 AI 以完成临时任务。
+  job_en: Mac users away from their computer use their phone to remotely control the Mac trackpad and
+    screen and invoke AI to finish ad-hoc tasks.
+  pain: 离开电脑后无法直接操作 Mac，临时任务只能等回去处理或依赖他人。
+  pain_en: Once away from the computer, users cannot operate the Mac directly, so ad-hoc tasks must wait
+    or depend on others.
+  current_alternative: 使用系统自带屏幕共享、第三方远程桌面工具，或干脆等回到电脑前再处理。
+  current_alternative_en: Using built-in screen sharing, third-party remote desktop tools, or simply waiting
+    until back at the computer.
+  usage_reason: 推断：相较传统远程桌面，它把触控板操作与 AI 代操作结合，省去在小屏上精确点击的负担，因此需要临时远程处理 Mac 任务的用户会尝试它。
+  usage_reason_en: 'Inference: compared with traditional remote desktop, it combines trackpad control
+    with AI-operated actions, removing the burden of precise tapping on a small screen, so users needing
+    ad-hoc remote Mac tasks would try it.'

@@ -80,3 +80,48 @@
   usage_reason_en: 'Inference: versus hand-writing scripts, it wires models into sandbox state via MCP
     so AI directly generates or drives content, cutting the manual coding and debugging between an idea
     and a runnable scene, so individual sandbox creators would try it.'
+- id: req-full-miliastra-beyond-simulator-2-2026-10-11
+  project_slug: miliastra-beyond-simulator-2
+  level: full
+  reviewed_at: '2026-10-11T01:31:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决沙箱规则脚本编写与场景调试这一具体任务，痛点是门槛高、迭代慢，旧行为是手写 Lua 与手动试错；这是从产品说明与工作流作出的结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-fec2a8ff58d1294b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 55 增至 56，属于关注度而非采用证据，没有用户反馈、案例或讨论说明创作者在持续使用它。
+    evidence_ids:
+    - ev-fec2a8ff58d1294b
+    - ev-1be6585ada99a67c
+  - gate: model
+    status: insufficient
+    reason: 推断：可能面向个人创作者或小团队收费，但公开材料没有定价页、付费记录或采购证据，买方与收费方式均未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fec2a8ff58d1294b
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 生成内容是否需人工确认、沙箱运行结果能否复现，交付确定性与安全边界缺少公开依据。
+    evidence_ids:
+    - ev-fec2a8ff58d1294b
+  next_validation: 追踪该仓库 README 或文档中关于 DeepSeek Harness 与 MCP 接入方式、输入输出示例及可复现演示的公开说明。
+  market: ''
+  job: 做奇域类 2D 沙箱玩法的个人或小团队创作者，在需要把玩法规则变成可运行场景时，用 Lua 编写规则，并通过 DeepSeek Harness 与 MCP 让 AI 参与生成或驱动沙箱内容，最终交付一个可运行的沙箱场景。
+  job_en: Individual or small-team creators building Qiyu-style 2D sandbox gameplay write rules in Lua
+    and let AI generate or drive sandbox content via DeepSeek Harness and MCP, delivering a runnable sandbox
+    scene.
+  pain: 公开材料只说明它是 Lua 驱动的外置沙箱并接入 AI，未记录创作者的具体抱怨；从工作流看，痛点在于规则脚本编写与场景调试门槛高、迭代慢，想法到可运行场景之间要反复手写与试错。
+  pain_en: Public material only describes a Lua-driven external sandbox with AI hooks and records no creator
+    complaints; structurally the pain is that rule scripting and scene debugging are high-threshold and
+    slow, forcing repeated hand-coding and trial-and-error between idea and runnable scene.
+  current_alternative: 手写 Lua 脚本、参考社区示例，或在引擎内手动搭建场景并反复试错。
+  current_alternative_en: Hand-writing Lua scripts, copying community examples, or manually building scenes
+    and trial-and-error inside an engine.
+  usage_reason: 推断：相较纯手写脚本，它把模型经 MCP 接到沙箱状态上，让 AI 直接生成或驱动内容，减少从想法到可运行场景之间的手工编码与调试步骤，因此做沙箱玩法的创作者会在需要快速产出可运行场景时选择它。
+  usage_reason_en: 'Inference: versus hand-writing scripts, it wires models into sandbox state via MCP
+    so AI directly generates or drives content, cutting manual coding and debugging between an idea and
+    a runnable scene, so sandbox creators would pick it when they need a runnable scene fast.'

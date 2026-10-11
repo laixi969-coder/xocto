@@ -637,3 +637,53 @@
     before routing, so developers need not add a branch per ambiguity and routers or decision models only
     receive a settled IntentSpec; developers building agent routers or decision models would choose it
     where request ambiguity is high and downstream action cost is significant.'
+- id: req-full-intent-router-2026-10-11
+  project_slug: intent-router
+  level: full
+  reviewed_at: '2026-10-11T01:30:34Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把模糊自然语言请求收敛为带类型的 IntentSpec 契约，痛点是路由前缺少探测、追问或中止，模糊输入直接进入路由或类型化决策模型会造成误路由；这是从公开产品说明与工作流结构推出的判断，非用户口述。
+    evidence_ids:
+    - ev-5fd7a6da235de579
+    - ev-eb512c3b3c618466
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 869 增至 1,068，说明开发者社区持续关注并把它纳入 agent 输入层讨论；但收藏属关注度证据，不能证明已长期留在工作流，持续采用仍缺公开反馈。
+    evidence_ids:
+    - ev-5fd7a6da235de579
+    - ev-2846ff0122b47a80
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，钱可能来自 to C 开发者订阅或 to B 团队集成，这是判断而非已验证事实；开源仓库本身不显示收入路径。
+    evidence_ids:
+    - ev-eb512c3b3c618466
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺在路由前探测、追问或中止，但接入方式、失败处理与人工边界尚无部署文档或 issue 佐证，交付能否稳定发生仍缺可复现证据。
+    evidence_ids:
+    - ev-5fd7a6da235de579
+  next_validation: 追踪 Intent-Router 仓库的 README、部署文档与 issue/discussion，确认实际接入方式、失败处理与是否有团队在生产环境使用。
+  market: ''
+  job: 构建 agent 路由或决策模型的开发者，在接入用户请求时把模糊的自然语言输入交给 Intent-Router，由它转成带类型的 IntentSpec 契约，在路由前探测、追问或中止，最终拿到可被下游路由或决策模型消费的结构化意图输入。
+  job_en: Developers building agent routers or decision models hand vague natural-language requests to
+    Intent-Router, which converts them into typed IntentSpec contracts and probes, asks, or halts before
+    routing, yielding structured intent input consumable by downstream routers or decision models.
+  pain: 公开说明指出输入是模糊请求，若直接路由，下游路由或类型化决策模型会拿到未收敛、类型不明的意图，导致误路由或无法判定；不解决的后果是路由前缺少探测、追问或中止这一道收敛环节。
+  pain_en: The public description states the input is vague requests; routing them directly leaves downstream
+    routers or typed decision models with unconverged, untyped intent, causing misrouting or undecidable
+    cases. The unsolved consequence is the absence of a converge step that probes, asks, or halts before
+    routing.
+  current_alternative: 公开材料未说明现有做法；结构推理上，开发者目前多是在路由或决策模型内部自行写提示词、正则或校验逻辑来猜测意图，缺少独立的类型化契约层。
+  current_alternative_en: Public materials do not describe current practice; by structural inference,
+    developers today typically hand-roll prompts, regex, or validation inside the router or decision model
+    to guess intent, without a separate typed-contract layer.
+  usage_reason: 推断：相较在路由模型里自行猜测意图，它把收敛动作前移为独立的 IntentSpec 契约层，在路由前完成探测、追问或中止，减少下游为处理模糊输入而反复加校验或兜底分支的负担；构建
+    agent 路由或类型化决策模型的开发者会在输入质量直接决定路由正确率时选择它。
+  usage_reason_en: 'Inference: versus guessing intent inside the routing model, it moves convergence into
+    a separate IntentSpec contract layer that probes, asks, or halts before routing, reducing downstream
+    validation and fallback branches for vague input; developers building agent routers or typed decision
+    models would choose it when input quality directly determines routing accuracy.'

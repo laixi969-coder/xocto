@@ -21,7 +21,7 @@ canonical_url: https://deadsimpletech.com/blog/llms-arent-inevitable
 summary: There's little that's "inevitable" about AI
 first_seen: '2026-10-11T01:01:01Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

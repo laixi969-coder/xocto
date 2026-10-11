@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBna05LeTJ6aUli
 summary: 效率与安全双向突破，启云方携EDA系统级电子设计工具链与“小笼虾™”智能体安全方案亮相2026深圳湾芯展 人民政协网
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,38 @@
+- id: req-initial-ressearch-ai-2026-10-11
+  project_slug: ressearch-ai
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决研究可复现整理的问题，但材料未说明原来谁做、卡在哪，痛点刚性无法确认。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供任何证据，无用户评价或采用记录，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人科研人员还是实验室采购均不明，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它如何保证可复现、人工确认边界在哪，交付确定性缺少材料。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或公开客户案例，确认买方与可复现交付的具体形式。
+  market: ''
+  job: 科研人员在推进一项研究、需要把实验记录与文献整理成可复现流程时，把材料交给这个工作区，产出可复现的研究记录。
+  job_en: A research scientist advancing a study and needing to turn experiment records and literature
+    into a reproducible flow hands the material to this workspace and gets a reproducible research record.
+  pain: 候选没有任何证据，无法说明原来谁在做可复现整理、卡在哪一步，痛点强度无法判断。
+  pain_en: The candidate provides no evidence, so who did reproducibility work before and where it broke
+    down cannot be stated, and pain intensity cannot be judged.
+  current_alternative: 可推断的旧做法是电子实验记录本加手工整理脚本与文献管理工具；这是推断，材料未给出。
+  current_alternative_en: The inferred old approach is an electronic lab notebook plus manually maintained
+    scripts and reference managers; this is inference, not stated in the material.
+  usage_reason: 若它把实验记录与文献放进同一结构，就省掉事后手工对齐这一步，需要向基金或期刊证明可复现的课题组可能选它；但无任何用户反馈，这只是推断。
+  usage_reason_en: If it puts experiment records and literature into one structure, it removes the step
+    of manually aligning them afterwards, so groups that must prove reproducibility to funders or journals
+    might pick it; with no user feedback, this is inference only.

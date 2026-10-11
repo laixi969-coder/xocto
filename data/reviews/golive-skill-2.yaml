@@ -87,3 +87,49 @@
     proposes a plan, applies it after user approval and verifies, turning the error-prone key and DNS
     steps into reviewable ones, so indie developers about to launch an agent-built prototype would pick
     it here; retention and repeat-use evidence is still missing.'
+- id: req-full-golive-skill-2-2026-10-11
+  project_slug: golive-skill-2
+  level: full
+  reviewed_at: '2026-10-11T01:30:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理写完代码后上线配置分散、易出错的问题，痛点具体且不采用就上不了线；旧流程是手工逐个后台配置，结构上成立。
+    evidence_ids:
+    - ev-3dd525a6d13133c3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从1258升至1269只说明关注度，没有开发者实际用它完成上线的公开记录或持续采用证据。
+    evidence_ids:
+    - ev-3dd525a6d13133c3
+    - ev-4781df1afb709756
+  - gate: model
+    status: insufficient
+    reason: 开源且无账号、无后端、无遥测，未见付费路径；谁付钱、按什么收费是判断而非已验证事实。
+    evidence_ids:
+    - ev-3dd525a6d13133c3
+  - gate: truth
+    status: supported
+    reason: 流程含 approve 与 verify 两步，用户批准后才执行并校验，人工边界明确，承诺的交付可核对。
+    evidence_ids:
+    - ev-3dd525a6d13133c3
+  next_validation: 收集该仓库的 issue/discussion，确认是否有开发者用它完成真实上线并给出可复现的部署结果。
+  market: ''
+  job: 用 AI 代理做出原型但不会运维的独立开发者，在准备把产品首次上线时，处理托管、数据库、域名、邮箱和支付这些分散配置项，完成从本地代码到可访问线上服务的部署。
+  job_en: Independent developers who built a prototype with an AI agent but lack ops skills handle scattered
+    hosting, database, domain, email and payment configuration to take the product from local code to
+    a reachable online service for the first launch.
+  pain: 写代码被代理压平后，上线仍要在多个服务商后台逐个开通、填密钥、配 DNS，一步错就卡住；对非运维背景的人这些步骤不直观，不解决就上不了线。
+  pain_en: Once agents flatten coding, launching still means opening accounts, filling keys and configuring
+    DNS across several provider dashboards; one wrong step blocks the launch, and the steps are unintuitive
+    for people without an ops background.
+  current_alternative: 照着教程手工在托管平台、域名商和支付后台之间来回配置，或把部署外包、求助他人。
+  current_alternative_en: Following tutorials to configure hosting, domain registrar and payment dashboards
+    by hand, or outsourcing the deployment to someone else.
+  usage_reason: 推断：相较手工逐个后台配置，它先探测环境再给出计划、经用户批准后执行并校验，把最容易出错的密钥与 DNS 环节变成可复核步骤，因此刚用代理做出原型、准备首次上线的独立开发者会在这一步选择它；目前缺少留存与重复使用证据。
+  usage_reason_en: 'Inference: compared with configuring each dashboard by hand, it probes the environment,
+    proposes a plan, applies it after user approval and verifies, turning the error-prone key and DNS
+    steps into reviewable ones, so indie developers about to launch an agent-built prototype would pick
+    it here; retention and repeat-use evidence is still missing.'

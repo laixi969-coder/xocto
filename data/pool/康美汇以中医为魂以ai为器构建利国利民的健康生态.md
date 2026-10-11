@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE1oVDZ5RWwwN2c1
 summary: 康美汇：以中医为魂、以AI为器，构建利国利民的健康生态 中华网
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

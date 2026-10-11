@@ -84,3 +84,46 @@
     to a multi-model server and renders the answer on the existing screen, removing the device-switch
     and habit-migration step, so people who still own a working feature phone and resist upgrading are
     likely to try it.'
+- id: req-full-aikon-2-2026-10-11
+  project_slug: aikon-2
+  level: full
+  reviewed_at: '2026-10-11T01:28:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决旧功能机在线搜索失效后无法获取信息的问题，痛点具体且用户已有设备在手；但公开材料未说明实际可用机型与回答质量。
+    evidence_ids:
+    - ev-b515408c59f8e65d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有代码仓库关注度，没有用户评价、装机量或重复使用证据，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-b515408c59f8e65d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，模型调用成本由谁承担、是否可持续均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b515408c59f8e65d
+  - gate: truth
+    status: insufficient
+    reason: 多模型转调依赖第三方接口与自建服务端，长期可用性、隐私与滥用边界均未见公开说明。
+    evidence_ids:
+    - ev-b515408c59f8e65d
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认实际可运行机型、用户反馈的可用性与维护者是否持续更新。
+  market: ''
+  job: 仍在使用 2007 年前后诺基亚 S40/S60 功能机的人，在需要查资料或提问时，用手机上的 J2ME 应用输入问题，希望拿到可读的答案而不是空白页面。
+  job_en: People still using Nokia S40/S60 feature phones from around 2007 type a question into a J2ME
+    app on the handset and expect a readable answer instead of a blank page.
+  pain: 这些设备上的 Google 搜索等在线服务已经停止可用，用户要么换机，要么彻底失去在旧设备上获取信息的能力。
+  pain_en: Online services such as Google search no longer work on these devices, so users must either
+    replace the phone or lose the ability to get information on it entirely.
+  current_alternative: 换一部智能手机，或放弃在功能机上查询，改用电脑或其他人的设备。
+  current_alternative_en: Buy a smartphone, or give up querying on the feature phone and use a computer
+    or someone else's device instead.
+  usage_reason: 推断：相较换机或放弃查询，它把问题直接送到多模型服务端并把答案回显在原有屏幕上，省去更换设备和迁移使用习惯这一步，因此仍持有可用功能机、又不想换机的人会尝试它。
+  usage_reason_en: 'Inference: compared with replacing the phone or giving up, it routes the question
+    to a multi-model server and renders the answer on the existing screen, removing the device-switch
+    and habit-migration step, so people who still own a working feature phone and resist upgrading are
+    likely to try it.'

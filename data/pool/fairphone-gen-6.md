@@ -8,12 +8,20 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.producthunt.com/products/fairphone
 canonical_url: https://producthunt.com/products/fairphone
 summary: A modular phone built to last through 2033
 first_seen: '2026-08-19T04:10:09Z'
 last_seen: '2026-08-19T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:
@@ -21,6 +29,7 @@ sightings:
   url: https://www.producthunt.com/products/fairphone
   seen_at: '2026-08-19T22:41:21Z'
   metrics: {}
+  kind: product
 ---
 
 # Fairphone Gen 6+

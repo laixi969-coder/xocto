@@ -1,0 +1,90 @@
+- id: req-initial-context-attachment-manager-2026-10-11
+  project_slug: context-attachment-manager
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长编码会话中历史图片持续占用上下文、推高请求体积的问题，痛点来自多轮对话结构，交付是可控的上下文裁剪动作。
+    evidence_ids:
+    - ev-4e5e1c90b5d83270
+  - gate: consensus
+    status: insufficient
+    reason: 224 星与 9 次 fork 只说明开源关注度，缺少用户评价或讨论，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-4e5e1c90b5d83270
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价或商业路径，买方与收费方式均未核验，属判断而非已验证事实。
+    evidence_ids:
+    - ev-4e5e1c90b5d83270
+  - gate: truth
+    status: insufficient
+    reason: 占位符是否影响模型对历史图片的理解、裁剪后结果是否可靠，候选未给出说明或实测，求真检查缺少材料。
+    evidence_ids:
+    - ev-4e5e1c90b5d83270
+  next_validation: 查看该仓库的 README 与 issue/discussion，确认占位符机制对模型理解历史图片的实际影响及可复现实测结果。
+  market: ''
+  job: 开发者在 Codex 或 Claude Code 里进行多轮编码对话、历史里累积了多张截图或设计图时，需要决定哪些图片继续随下一条消息发送给模型。
+  job_en: When a developer runs a multi-turn coding conversation in Codex or Claude Code and screenshots
+    or design images accumulate in history, they must decide which images keep being sent with the next
+    message.
+  pain: 长会话中历史图片持续占用上下文，推高请求体积与成本，并可能挤占模型对当前任务的注意力；这是从产品功能推导的痛点，候选未提供用户抱怨原文。
+  pain_en: Historical images keep occupying context in long sessions, inflating request size and cost
+    and potentially crowding out attention on the current task; this pain is inferred from the product
+    capability, as the candidate provides no user complaint text.
+  current_alternative: 旧做法是手动开新会话、删除历史消息，或依赖模型侧自动压缩上下文，用户无法逐张挑选保留哪些图片。
+  current_alternative_en: The old approach is manually starting a new session, deleting history, or relying
+    on model-side automatic context compression, with no way to pick image by image what to keep.
+  usage_reason: 推断：相较开新会话或删历史，它让用户在下一条消息前逐张勾选保留的图片，未选中的变成占位符，从而减少重开会话丢失上下文的负担并控制请求体积；缺少留存或复购证据，尚不能断言已进入长期工作流。
+  usage_reason_en: 'Inference: compared with starting a new session or deleting history, it lets users
+    check which images to keep before the next message, turning unchecked ones into placeholders, reducing
+    the burden of losing context by restarting and controlling request size; without retention or repeat-use
+    evidence, it cannot be claimed to be embedded in long-term workflows.'
+- id: req-full-context-attachment-manager-2026-10-11
+  project_slug: context-attachment-manager
+  level: full
+  reviewed_at: '2026-10-11T01:29:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长编码会话中历史图片持续占用上下文、推高请求体积的问题，痛点来自多轮对话结构，交付是可控的上下文裁剪动作。
+    evidence_ids:
+    - ev-4e5e1c90b5d83270
+  - gate: consensus
+    status: insufficient
+    reason: 224 星只说明开源关注度，缺少用户评价或讨论，无法判断共识卡在感知、想象、场景还是利益环节。
+    evidence_ids:
+    - ev-4e5e1c90b5d83270
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价或商业路径，买方与收费方式均未核验，属判断而非已验证事实。
+    evidence_ids:
+    - ev-4e5e1c90b5d83270
+  - gate: truth
+    status: insufficient
+    reason: 占位符是否影响模型对历史图片的理解、裁剪后结果是否可靠，候选未给出说明或实测，求真检查缺少材料。
+    evidence_ids:
+    - ev-4e5e1c90b5d83270
+  next_validation: 查看该仓库的 README 与 issue/discussion，确认占位符机制对模型理解历史图片的实际影响及可复现实测结果。
+  market: ''
+  job: 使用 Codex、Claude Code 或 Claude Desktop 的开发者，在多轮编码对话中历史累积了多张截图或设计图时，需要在下一条消息发出前决定哪些历史图片继续随消息发送给模型。
+  job_en: Developers using Codex, Claude Code, or Claude Desktop, when screenshots or design images accumulate
+    across a multi-turn coding conversation, must decide before the next message which historical images
+    keep being sent to the model.
+  pain: 长会话中历史图片持续占用上下文，推高请求体积与成本，并可能挤占模型对当前任务的注意力；这是从产品功能与多轮对话结构推导的痛点，候选未提供用户抱怨原文。
+  pain_en: Historical images keep occupying context in long sessions, inflating request size and cost
+    and potentially crowding out attention on the current task; this pain is inferred from the product
+    capability and multi-turn conversation structure, as the candidate provides no user complaint text.
+  current_alternative: 旧做法是手动开新会话、删除历史消息，或依赖模型侧自动压缩上下文，用户无法逐张挑选保留哪些图片。
+  current_alternative_en: The old approach is manually starting a new session, deleting history, or relying
+    on model-side automatic context compression, with no way to pick image by image what to keep.
+  usage_reason: 推断：相较开新会话或删历史，它让用户在下一条消息前逐张勾选保留的图片，未选中的变成占位符，从而减少重开会话丢失上下文的负担并控制请求体积；缺少留存或复购证据，尚不能断言已进入长期工作流。
+  usage_reason_en: 'Inference: compared with starting a new session or deleting history, it lets users
+    check which images to keep before the next message, turning unchecked ones into placeholders, reducing
+    the burden of losing context by restarting and controlling request size; without retention or repeat-use
+    evidence, it cannot be claimed to be embedded in long-term workflows.'

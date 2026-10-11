@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxNemxYUjlGX3A2
 summary: 努比亚手机怎么样？全球首款AI智能体手机实测，3个维度说清+FAQ 新浪网
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

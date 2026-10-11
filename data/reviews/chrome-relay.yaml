@@ -1,0 +1,93 @@
+- id: req-initial-chrome-relay-2026-10-11
+  project_slug: chrome-relay
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理跑不通需登录态网页流程的问题，痛点是真实存在的，替代的是无头浏览器或手工复现。
+    evidence_ids:
+    - ev-a90ed7318734a8a3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论且无评论，缺少用户反馈或案例证明开发者已把它留在调试流程里。
+    evidence_ids:
+    - ev-a90ed7318734a8a3
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或商业路径，钱从哪来无法判断，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-a90ed7318734a8a3
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明代理在真实浏览器中的权限边界、凭据安全与失败回滚，交付确定性无法核对。
+    evidence_ids:
+    - ev-a90ed7318734a8a3
+  next_validation: 查看该仓库的 README 与 issue/discussion，确认权限边界、凭据处理方式以及是否有开发者报告实际接入调试流程。
+  market: ''
+  job: 开发者在调试需要登录态的网页流程时，让编码代理在真实 Chrome 后台标签页里完成点击、填写与验证。
+  job_en: Developers debugging logged-in web flows let a coding agent perform clicks, form filling and
+    verification in background tabs of their real Chrome.
+  pain: 无头浏览器拿不到登录态和真实页面行为，代理跑不通需要账号的流程，开发者只能手工复现或反复配置环境。
+  pain_en: Headless browsers lack login state and real page behavior, so agents cannot complete account-gated
+    flows and developers must reproduce them by hand or repeatedly reconfigure environments.
+  current_alternative: 用 Playwright、Puppeteer 等无头浏览器，或手工在浏览器里逐步复现并记录。
+  current_alternative_en: Headless browsers such as Playwright or Puppeteer, or manually reproducing and
+    logging each step in the browser.
+  usage_reason: 推断：它复用开发者已登录的真实 Chrome 会话，省去为代理单独搭建登录态与浏览器环境这一步，因此需要端到端验证登录后流程的开发者会在调试时选择它。
+  usage_reason_en: 'Inference: it reuses the developer''s already logged-in real Chrome session, removing
+    the step of building a separate login and browser environment for the agent, so developers verifying
+    post-login flows end to end would pick it while debugging.'
+- id: req-full-chrome-relay-2026-10-11
+  project_slug: chrome-relay
+  level: full
+  reviewed_at: '2026-10-11T01:29:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理跑不通需登录态网页流程的问题：无头浏览器缺登录态与真实页面行为，开发者只能手工复现或反复配环境，不解决的后果是端到端验证无法自动完成。这是工作流结构推理，公开证据仅覆盖
+      Chrome 本身，无该产品用户抱怨或采用记录。
+    evidence_ids:
+    - ev-bdc1ab5ba4ff2503
+    - ev-1d1797ae254d9b85
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有 Chrome 官方下载与安装页面，没有该产品的开发者讨论、评价或案例，无法判断开发者是否已把它留在调试流程里；关注度不等于持续采用。
+    evidence_ids:
+    - ev-be00bb500f79920f
+    - ev-3bf55d6c75217b71
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露该产品的定价、收费方式或买方，钱可能来自开发者个人订阅或团队采购，但这是判断而非已验证事实；现有定价类证据实为 Chrome 官方页面，不能归因到该产品。
+    evidence_ids:
+    - ev-71cc392dc44d58a6
+    - ev-147545bc252ea36b
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明代理在真实浏览器中的权限边界、凭据如何隔离、失败如何回滚，交付能否确定性发生无法核对；现有留存类证据只是 Chrome 官方页面，不能证明该产品被重复使用。
+    evidence_ids:
+    - ev-f797e2982b438794
+    - ev-efea733f7d2cfc5e
+  next_validation: 追踪该项目的公开仓库 README 与 issue/discussion，确认代理在真实 Chrome 中的权限边界、凭据处理方式，以及是否有开发者报告实际接入调试流程。
+  market: ''
+  job: 开发者在调试需要登录态或真实浏览器环境的网页任务时，把点击、填写与验证交给编码代理，由它在自己已登录的真实 Chrome 后台标签页里执行，开发者拿到代理在真实浏览器中的操作结果。
+  job_en: When debugging web tasks that need login state or a real browser environment, developers hand
+    clicks, form filling and verification to a coding agent that runs them in background tabs of their
+    own logged-in Chrome, and receive the agent's results from that real browser.
+  pain: 无头浏览器拿不到登录态和真实页面行为，代理跑不通需要账号的流程，开发者只能手工复现或反复为代理搭建登录环境；公开材料只覆盖 Chrome 本身，未提供该产品用户抱怨的直接证据，痛点强度属工作流结构推理。
+  pain_en: Headless browsers lack login state and real page behavior, so agents cannot complete account-gated
+    flows and developers must reproduce them by hand or repeatedly build a login environment for the agent;
+    public materials cover only Chrome itself and give no direct user complaints, so pain intensity is
+    a workflow-structure inference.
+  current_alternative: 用 Playwright、Puppeteer 等无头浏览器驱动代理，或手工在浏览器里逐步复现并记录登录后流程。
+  current_alternative_en: Driving agents with headless browsers such as Playwright or Puppeteer, or manually
+    reproducing and logging each post-login step in the browser.
+  usage_reason: 推断：相较无头浏览器方案，它复用开发者已登录的真实 Chrome 会话，省去为代理单独搭建登录态与浏览器环境这一步，因此需要端到端验证登录后流程的开发者会在调试时选择它；公开材料未提供用户反馈或留存证据，动机为推断。
+  usage_reason_en: 'Inference: versus headless setups it reuses the developer''s already logged-in real
+    Chrome session, removing the step of building a separate login and browser environment for the agent,
+    so developers verifying post-login flows end to end would pick it while debugging; no user feedback
+    or retention evidence is public, so the motive is inferred.'

@@ -22,7 +22,7 @@ summary: Someone was tired of paying for Adobe products, so they used AI to make
   XDA
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,93 @@
+- id: req-initial-scroll-studio-2026-10-11
+  project_slug: scroll-studio
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决做滚动叙事落地页要手写大量前端代码、改文案就重排动画的痛点，交付是可直接使用的网页。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库 42 星，说明有开发者关注，但没有客户案例或持续使用证据，共识卡在场景认知。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  - gate: model
+    status: insufficient
+    reason: 项目未披露定价或收费方式，钱可能来自模板包、定制交付或赞助，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  - gate: truth
+    status: insufficient
+    reason: 生成页面能否达到可上线质量、YAML 描述能否覆盖真实营销需求，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认生成页面在真实营销落地页中的可编辑程度与上线质量反馈。
+  market: ''
+  job: 网页设计师或营销人员把一份 YAML 描述交给工具，生成带滚动动画、3D 场景、数据故事或地图的落地页。
+  job_en: Web designers or marketers hand a YAML description to the tool to generate landing pages with
+    scroll animation, 3D scenes, data stories, or maps.
+  pain: 做带滚动叙事和 3D 效果的落地页，通常要手写大量前端代码或依赖模板，改一版文案就要重排动画，交付周期长。
+  pain_en: Building landing pages with scroll narratives and 3D effects usually requires writing lots
+    of front-end code or relying on templates, and changing copy forces re-laying out animations, lengthening
+    delivery.
+  current_alternative: 现有替代是手写 HTML/CSS/JS、用 Webflow 等可视化建站工具，或买现成模板再手工改。
+  current_alternative_en: Current alternatives are hand-writing HTML/CSS/JS, using visual site builders
+    such as Webflow, or buying templates and editing them manually.
+  usage_reason: 推断：把页面结构写进一份 YAML 就能生成动画与 3D 页面，省去逐段手写前端和重排动画的步骤，因此需要快速产出营销落地页的设计师或营销人员会选它；但实际交付质量与复用证据尚未公开。
+  usage_reason_en: 'Inference: writing page structure into one YAML file generates animated and 3D pages,
+    removing the step of hand-coding each section and re-laying out animations, which is why designers
+    or marketers needing fast marketing landing pages would choose it; real delivery quality and reuse
+    evidence is not yet public.'
+- id: req-full-scroll-studio-2026-10-11
+  project_slug: scroll-studio
+  level: full
+  reviewed_at: '2026-10-11T01:32:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决做滚动叙事与 3D 落地页要手写大量前端代码、改文案就重排动画的痛点，交付物是可直接使用的网页；痛点刚性来自交付周期压力，此为工作流结构推理，尚无用户抱怨原文佐证。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 42 星说明有开发者注意到它，但公开材料没有客户案例或持续使用记录，共识卡在场景认知与真实营销需求之间，无法确认已进入日常工作流。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  - gate: model
+    status: insufficient
+    reason: 项目未披露定价或收费方式，钱可能来自模板包、定制交付或赞助，这是判断而非已验证事实；本地运行、无需 API key 也意味着没有按调用量计费的路径。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  - gate: truth
+    status: insufficient
+    reason: 生成页面能否达到可上线质量、YAML 描述能否覆盖真实营销需求，公开材料只给出功能描述与星数，没有可核对的交付结果或人工复核边界。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认生成页面在真实营销落地页中的可编辑程度、上线质量反馈以及是否有用户报告重复使用。
+  market: ''
+  job: 网页设计师或营销人员在需要快速产出带滚动叙事、实时 3D、数据故事或地图的营销落地页时，把页面结构写成一份 YAML 交给工具，由它生成可直接使用的网页，本地运行且无需 API key，也可由
+    Claude 经 MCP 驱动。
+  job_en: When a web designer or marketer needs to quickly produce a marketing landing page with scroll
+    narrative, live 3D, data stories, or maps, they write the page structure into one YAML file and hand
+    it to the tool, which generates a usable web page locally with no API keys, and Claude can drive it
+    via MCP.
+  pain: 做带滚动动画与 3D 效果的落地页通常要手写大量前端代码或依赖模板，改一版文案就要重排动画，交付周期被拉长；公开材料未给出用户抱怨原文，此痛点来自产品说明与工作流结构推理。
+  pain_en: Building landing pages with scroll animation and 3D effects usually requires hand-writing large
+    amounts of front-end code or relying on templates, and changing copy forces re-laying out animations,
+    lengthening delivery; the public material gives no verbatim user complaint, so this pain comes from
+    the product description and workflow-structure inference.
+  current_alternative: 现有替代是手写 HTML/CSS/JS、用 Webflow 等可视化建站工具，或购买现成模板后手工修改。
+  current_alternative_en: Current alternatives are hand-writing HTML/CSS/JS, using visual site builders
+    such as Webflow, or buying ready-made templates and editing them manually.
+  usage_reason: 推断：相较手写前端或改模板，它把页面结构与动画逻辑收进一份 YAML，生成动作一次完成滚动动画、3D 场景与地图，省掉逐段编码和改文案后重排动画这两步；因此需要快速迭代营销页的设计师或营销人员会在赶交付时选择它，但公开材料尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with hand-coding front-end or editing templates, it folds page
+    structure and animation logic into one YAML file and generates scroll animation, 3D scenes, and maps
+    in a single action, removing both the section-by-section coding step and the re-layout-after-copy-change
+    step; designers or marketers iterating on marketing pages under deadline would therefore choose it,
+    though public material shows no retention or repeat-use evidence yet.'

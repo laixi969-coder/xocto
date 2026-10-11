@@ -612,3 +612,56 @@
     so the agent follows checkable vector conventions and compares against peer marks during generation,
     removing a manual path-fixing and redraw step; designers or startup brand leads already using Claude/Codex
     who need deliverable SVG would pick it for logo work.'
+- id: req-full-logo-design-skill-2026-10-11
+  project_slug: logo-design-skill
+  level: full
+  reviewed_at: '2026-10-11T01:30:51Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是品牌设计师或初创品牌负责人在早期品牌阶段快速产出规范 SVG 标志的需求；公开材料显示该 skill 内置设计原则、流程、SVG 规范、测试工具与 1400+ 参考库，可还原输入—动作—交付闭环，痛点与交付确定性属工作流结构推理，尚无用户抱怨或失败案例佐证。
+    evidence_ids:
+    - ev-9c52297be1fb5f9f
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 2025 年 9 月 26 日建库时的 2,025 持续升至 10 月 11 日的 2,627，说明开发者社区持续关注并收藏该 skill；但收藏属关注度证据，不能证明目标设计师已将其长期留在工作流中。
+    evidence_ids:
+    - ev-9c52297be1fb5f9f
+    - ev-242dbcbd9f8b4208
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济；该 skill 以开源仓库形式发布，钱可能来自 to C 设计师订阅、to B 团队授权或 to VC 融资，均属判断而非已验证事实，存在每日优鲜风险。
+    evidence_ids:
+    - ev-9c52297be1fb5f9f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明生成标志的确定性交付标准、人工确认环节与安全边界；1400+ 参考库与测试工具能否稳定产出可用 SVG 尚缺可复现的公开验证。
+    evidence_ids:
+    - ev-9c52297be1fb5f9f
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有设计师或初创团队公开报告实际使用场景、替代的旧流程与交付结果。
+  market: ''
+  job: 品牌设计师或初创公司品牌负责人在需要产出可用的标志方案时，把品牌名称、定位与风格要求交给 Claude、Gemini CLI、Codex 等 AI 代理，由该 skill 按内置设计原则、流程与
+    SVG 规范生成标志，并借助测试工具与 1400+ 标志参考库比对，最终交付可用的 SVG 标志文件。
+  job_en: A brand designer or startup brand lead who needs a usable logo hands the brand name, positioning
+    and style requirements to an AI agent such as Claude, Gemini CLI or Codex; the skill generates marks
+    following built-in design principles, process and SVG craft, cross-checks them against testing tools
+    and a 1,400+ logo reference library, and delivers a usable SVG logo file.
+  pain: 公开材料只说明该 skill 内置设计原则、流程、SVG 规范、测试工具与 1400+ 参考库，未提供用户抱怨、失败案例或不采用代价的原始证据；从工作流结构推理，AI 直接生成标志常出现
+    SVG 路径不规范、缩放失真、缺乏参考比对等问题，需要反复返工。
+  pain_en: Public materials only describe the skill's built-in design principles, process, SVG craft,
+    testing tools and 1,400+ reference library; they provide no raw user complaints, failure cases or
+    cost-of-inaction evidence. By workflow inference, raw AI-generated logos often suffer from malformed
+    SVG paths, scaling distortion and no reference benchmarking, forcing repeated rework.
+  current_alternative: 公开材料未说明用户当前的具体替代方式；从任务结构推断，旧做法可能是设计师手工绘制 SVG、使用通用 AI 图像生成工具出位图后再描摹，或在素材库中挑选模板修改。
+  current_alternative_en: Public materials do not state the user's current alternative; by task-structure
+    inference, the old approach may be a designer hand-drawing SVG, using generic AI image generators
+    to produce bitmaps and then tracing them, or picking and editing templates from asset libraries.
+  usage_reason: 推断：相较手工绘制或通用图像生成后描摹，该 skill 把设计原则、SVG 规范、测试工具与 1400+ 参考库打包进 AI 代理的一次调用中，减少从位图转矢量、手动校验缩放与比对参考的步骤，因此需要快速产出规范
+    SVG 标志的设计师或初创品牌负责人会在早期品牌探索阶段选择它。
+  usage_reason_en: 'Inference: compared with hand-drawing or tracing from generic image generation, the
+    skill packages design principles, SVG craft, testing tools and a 1,400+ reference library into a single
+    AI-agent invocation, cutting the steps of bitmap-to-vector conversion, manual scaling checks and reference
+    benchmarking, so designers or startup brand leads needing fast, standards-compliant SVG logos would
+    choose it during early brand exploration.'

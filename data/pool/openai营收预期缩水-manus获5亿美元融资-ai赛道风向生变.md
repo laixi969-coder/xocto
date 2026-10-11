@@ -1,11 +1,14 @@
 ---
 slug: openai营收预期缩水-manus获5亿美元融资-ai赛道风向生变
-name: OpenAI营收预期缩水 Manus获5亿美元融资 AI赛道风向生变
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 报道称 OpenAI 营收预期缩水，同时 Manus 获得 5 亿美元融资，被视为 AI 赛道风向变化。该变化意味着资本可能从基础模型转向应用层，影响 AI 应用的融资与竞争格局；单一融资事件不足以断定行业整体转向（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: Reports say OpenAI's revenue expectations were revised down while Manus raised $500 million,
+  seen as a shift in the AI sector. This implies capital may move from foundation models toward the application
+  layer, affecting financing and competition for AI applications; a single funding event is insufficient
+  to conclude an industry-wide shift (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UQ2J3c09kZktG
 summary: OpenAI营收预期缩水 Manus获5亿美元融资 AI赛道风向生变 36Kr
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI营收预期缩水 Manus获5亿美元融资 AI赛道风向生变
+# OpenAI
 
 OpenAI营收预期缩水 Manus获5亿美元融资 AI赛道风向生变 36Kr
 

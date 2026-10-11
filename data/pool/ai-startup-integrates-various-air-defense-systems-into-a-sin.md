@@ -23,7 +23,7 @@ summary: AI startup integrates various air defense systems into a single network
   — Reuters UA.NEWS
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

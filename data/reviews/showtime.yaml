@@ -208,3 +208,46 @@
     cutting and exporting into a one-sentence prompt plus local rendering, removing the editing-software
     learning and operation steps, so developers needing quick demo videos may choose it; however, no user
     feedback or repeat-use evidence is provided.'
+- id: req-full-showtime-2026-10-11
+  project_slug: showtime
+  level: full
+  reviewed_at: '2026-10-11T01:32:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料中全部证据指向同名美国付费电视网 Showtime，无一条描述该视频工具的用户任务、痛点或替代行为，连需求与痛点都无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-8836cee11cc342d6
+    - ev-3e3e7ead3fab8fd9
+    - ev-10c9ee42f89a009b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该视频工具自身的官方仓库或产品页，收集其 README、issue 与 discussion，确认实际产出的视频类型、渲染失败处理与是否被重复使用。
+  market: ''
+  job: 开发者或内容创作者在为项目、产品制作演示或说明短视频时，用一句话描述视频需求，由编码代理编排镜头与脚本，本机完成渲染并输出成片。
+  job_en: Developers or content creators making a demo or explainer video for a project or product describe
+    it in one sentence; a coding agent directs shots and script, and the local machine renders the final
+    video.
+  pain: 公开材料未提供任何用户抱怨、旧流程细节或替代行为证据，无法确认做演示视频这一环节对目标用户是否构成刚性痛点。
+  pain_en: The public material provides no user complaints, legacy workflow details, or workaround evidence,
+    so it cannot be confirmed whether making demo videos is a rigid pain point for the target users.
+  current_alternative: 公开材料未记录目标用户当前如何制作演示视频，无法确认是手工剪辑、外包还是干脆不做。
+  current_alternative_en: The public material does not record how target users currently produce demo
+    videos, so it is unknown whether they edit manually, outsource, or skip the video.
+  usage_reason: 推断：若产品确能一句话描述加本机渲染出片，相较手工剪辑可省去脚本、素材与导出步骤；但现有证据全部指向同名电视网，无任何该产品自身的用户反馈或采用记录，无法说明哪类用户会因何选择它。
+  usage_reason_en: 'Inference: if the product truly turns a one-sentence prompt plus local rendering into
+    a finished video, it could remove script, asset, and export steps versus manual editing; however,
+    all current evidence points to the same-named TV network, with no user feedback or adoption record
+    for this product, so it cannot be shown which users would choose it and why.'

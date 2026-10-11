@@ -21,7 +21,7 @@ canonical_url: https://menura.download
 summary: video, and audio from websites in one step
 first_seen: '2026-10-11T01:01:01Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

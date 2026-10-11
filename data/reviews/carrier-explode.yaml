@@ -82,3 +82,48 @@
     on this handset'', users skip cross-checking device and carrier combinations across forum threads;
     the public material only says ''decoded'' and gives no input format, output form or accuracy, so selection
     behaviour cannot be confirmed.'
+- id: req-full-carrier-explode-2026-10-11
+  project_slug: carrier-explode
+  level: full
+  reviewed_at: '2026-10-11T01:29:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决运营商配置难解读、排查靠试错的问题：换卡、漫游或信号异常时用户要判断该改哪一项，改错即断网，痛点刚性且旧替代是翻论坛与恢复出厂。材料仅一句“解码”，输入输出与人工复核未说明，交付闭环属工作流结构推理。
+    evidence_ids:
+    - ev-8e557991aa08884c
+    - ev-26e04db081f132bf
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网一句“iPhone, Pixel and Galaxy carrier settings decoded”，没有用户评价、采用规模或重复使用证据，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-8e557991aa08884c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是判断而非已验证事实；可能付费方为维修服务商、运营商客服外包或直接面向个人用户，均无公开采购或订阅记录支撑。
+    evidence_ids:
+    - ev-8e557991aa08884c
+  - gate: truth
+    status: insufficient
+    reason: 配置解读出错会直接导致断网，但材料未说明输出结论形式、是否标注人工复核，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-8e557991aa08884c
+  next_validation: 抓取 carrierexplode.com 的说明页或文档，确认它接收的输入格式、输出结论形式以及是否标注人工复核环节。
+  market: ''
+  job: 手机用户或维修人员在换卡、漫游或信号异常时，处理 iPhone、Pixel、Galaxy 的运营商配置文件与设置项，要判断该改哪一项才能恢复上网或通话。
+  job_en: Phone users or repair technicians handling iPhone, Pixel and Galaxy carrier configuration files
+    and settings when swapping SIMs, roaming or debugging signal issues, to decide which setting to change
+    to restore data or calls.
+  pain: 运营商配置项命名晦涩、机型与运营商组合差异大，改错会直接断网或无法通话，排查只能靠反复试错和翻零散帖子。
+  pain_en: Carrier settings are obscurely named and vary by device and carrier combination; a wrong change
+    breaks data or calls, and troubleshooting relies on trial and error and scattered posts.
+  current_alternative: 在机型社区、论坛帖和运营商客服之间翻找零散答案，或直接恢复出厂设置、换卡重试。
+  current_alternative_en: Digging through device communities, forum threads and carrier support for scattered
+    answers, or resetting the device and swapping SIMs to retry.
+  usage_reason: 推断：相较在多个论坛帖之间比对机型与运营商组合，它把配置文件直接解码成可读的设置项，减少用户逐条猜测该改哪一项的步骤；但候选材料未说明输出形式与准确性，因此选择动机仍属结构推理。
+  usage_reason_en: 'Inference: rather than cross-checking device and carrier combinations across forum
+    threads, it decodes the configuration file into readable settings, cutting the step of guessing which
+    item to change; the material does not describe output format or accuracy, so the selection motive
+    remains structural reasoning.'

@@ -127,3 +127,50 @@
   usage_reason_en: 'Cannot be determined: the evidence consists only of the product''s own description
     and unrelated Moyai statue and emoji entries, with no user feedback or cases explaining why anyone
     would choose it.'
+- id: req-full-moyai-2026-10-11
+  project_slug: moyai
+  level: full
+  reviewed_at: '2026-10-11T01:31:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长耗时编码任务占用开发者时间、且难以自托管的问题：任务需在自有环境反复运行，旧做法是人工排队或绑定单一厂商云端代理，不解决的后果是等待与厂商锁定。属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-fbb529a16ef90783
+    - ev-e7133c20663746fa
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 239 增至 247，属关注度而非持续采用；无用户评价、团队案例或 issue 讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-fbb529a16ef90783
+    - ev-e7133c20663746fa
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方可能是自建团队或企业采购，属判断而非已验证事实；无收入或采购记录。
+    evidence_ids:
+    - ev-fbb529a16ef90783
+  - gate: truth
+    status: insufficient
+    reason: 未提供任务成功率、人工复核边界或安全隔离说明，交付确定性无法核对；现有证据仅支持产品定位描述。
+    evidence_ids:
+    - ev-e7133c20663746fa
+  next_validation: 追踪该仓库的 issue 与 discussion，核对是否有团队报告实际任务完成率、自托管部署方式与人工复核流程。
+  market: ''
+  job: 软件工程师在维护既有代码库时，把批量重构、依赖升级、跑测试、修缺陷等长耗时编码任务交给自托管后台代理执行，代理调用 Claude Code、Codex、OpenCode 等模型产出代码变更，工程师再复核合并。
+  job_en: Software engineers maintaining an existing codebase hand long-running coding tasks such as bulk
+    refactors, dependency upgrades, test runs and bug fixes to a self-hosted background agent, which drives
+    Claude Code, Codex, OpenCode and other providers to produce code changes that the engineer reviews
+    and merges.
+  pain: 这类任务单次耗时长、打断主线开发，且必须在自有环境反复运行；现有做法要么人工排队逐个执行，要么绑定单一厂商的云端代理，难以自托管或更换模型。
+  pain_en: These tasks are long-running, interrupt main development and must be run repeatedly in one's
+    own environment; current practice is either manual one-by-one queuing or a single vendor's cloud agent,
+    with little self-hosting or model choice.
+  current_alternative: 工程师在终端或编辑器里逐个手动执行任务，或使用单一厂商的云端编码代理，任务排队与模型选择受该平台限制。
+  current_alternative_en: Engineers run tasks one by one manually in a terminal or editor, or use a single
+    vendor's cloud coding agent, with queuing and model choice constrained by that platform.
+  usage_reason: 推断：相较手动逐个执行或绑定单一厂商，它把任务放到自托管后台并允许切换 100 多个模型提供方，省去排队等待与厂商锁定这一步，因此在意代码留在自有环境、又想控制模型成本的团队会优先试用。
+  usage_reason_en: 'Inference: compared with running tasks manually or being tied to one vendor, it moves
+    work to a self-hosted background and allows switching among 100+ providers, removing the queuing and
+    lock-in step, so teams that want code kept in-house and model cost control are likely to try it first.'

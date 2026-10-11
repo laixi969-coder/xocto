@@ -1,0 +1,84 @@
+- id: req-initial-从工具到智能体cares-40在港发布刘宏斌谈医疗ai如何走进临床-2026-10-11
+  project_slug: 从工具到智能体cares-40在港发布刘宏斌谈医疗ai如何走进临床
+  level: initial
+  reviewed_at: '2026-10-11T01:02:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向病历录入与质控这一真实负担，痛点存在；但候选未说明 AI 接收什么、产出什么，价值链条无法闭合。
+    evidence_ids:
+    - ev-5d79607d287d7048
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布会报道，没有医院、科室或医生的采用与评价证据，共识卡在场景未被公开描述。
+    evidence_ids:
+    - ev-5d79607d287d7048
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、采购方式与付费方，医院采购通常走招标或年度预算，此处属判断而非已验证事实。
+    evidence_ids:
+    - ev-5d79607d287d7048
+  - gate: truth
+    status: insufficient
+    reason: 临床场景涉及安全与医生最终确认边界，报道未给出临床验证、合规或部署信息，交付确定性无法核对。
+    evidence_ids:
+    - ev-5d79607d287d7048
+  next_validation: 收集 CARES 4.0 的官方产品页或部署文档，确认其接入的院内数据类型、执行动作与医生最终交付物。
+  market: ''
+  job: 医院信息科与临床科室在门诊或住院环节处理病历、检查报告与医嘱等材料，需要完成结构化录入、质控与临床决策参考。
+  job_en: Hospital IT staff and clinical departments handle records, test reports and orders in outpatient
+    or inpatient settings, needing structured entry, quality control and clinical decision support.
+  pain: 病历书写与质控占用医生时间，规则式质控漏检多、事后返工成本高；这是医院信息化的既有痛点，但本候选未提供任何医院使用或效果数据。
+  pain_en: Writing and quality-checking records consumes clinician time, while rule-based checks miss
+    cases and cause costly rework; this is a known pain in hospital IT, but this candidate provides no
+    hospital usage or outcome data.
+  current_alternative: 现有做法是医生手工书写病历、信息科用规则引擎做事后质控，部分医院已采购单点语音录入或结构化模板工具。
+  current_alternative_en: Today clinicians write records by hand and IT departments run rule engines for
+    after-the-fact quality control, with some hospitals buying single-point dictation or structured templates.
+  usage_reason: 推断：若智能体能直接读取院内病历与检查数据并产出可核对的质控结果或文书草稿，医生可省去逐条自查，信息科可减少事后返工；但候选未说明具体动作与交付，该理由目前只是结构推断。
+  usage_reason_en: 'Inference: if the agent reads hospital records and test data and produces checkable
+    quality-control results or document drafts, clinicians could skip line-by-line self-checks and IT
+    could cut rework; but the candidate does not describe the concrete action or deliverable, so this
+    remains a structural inference.'
+- id: req-full-从工具到智能体cares-40在港发布刘宏斌谈医疗ai如何走进临床-2026-10-11
+  project_slug: 从工具到智能体cares-40在港发布刘宏斌谈医疗ai如何走进临床
+  level: full
+  reviewed_at: '2026-10-11T01:32:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向病历录入与质控这一真实负担，痛点存在；但候选未说明 AI 接收什么、产出什么，价值链条无法闭合。
+    evidence_ids:
+    - ev-ee903717321c07d0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 CARES 4.0 的官方产品页或部署文档，确认其接入的院内数据类型、执行动作与医生最终交付物。
+  market: ''
+  job: 医院信息科与临床科室在门诊或住院环节处理病历、检查报告与医嘱，需要完成结构化录入、质控与临床决策参考。
+  job_en: Hospital IT staff and clinical departments handle records, test reports and orders in outpatient
+    or inpatient settings, needing structured entry, quality control and clinical decision support.
+  pain: 病历书写与质控占用医生时间、规则式质控漏检多、事后返工成本高；但候选未提供任何医院使用或效果数据。
+  pain_en: Writing and quality-checking records consumes clinician time, rule-based checks miss cases
+    and cause costly rework; but the candidate provides no hospital usage or outcome data.
+  current_alternative: 医生手工书写病历、信息科用规则引擎做事后质控，部分医院已采购单点语音录入或结构化模板工具。
+  current_alternative_en: Clinicians write records by hand and IT departments run rule engines for after-the-fact
+    quality control, with some hospitals buying single-point dictation or structured templates.
+  usage_reason: 推断：若智能体能读取院内病历与检查数据并产出可核对的质控结果或文书草稿，医生可省去逐条自查，信息科可减少事后返工；但候选未说明具体动作与交付，该理由目前只是结构推断。
+  usage_reason_en: 'Inference: if the agent reads hospital records and test data and produces checkable
+    quality-control results or document drafts, clinicians could skip line-by-line self-checks and IT
+    could cut rework; but the candidate does not describe the concrete action or deliverable, so this
+    remains a structural inference.'

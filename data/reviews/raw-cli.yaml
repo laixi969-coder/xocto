@@ -1,0 +1,88 @@
+- id: req-initial-raw-cli-2026-10-11
+  project_slug: raw-cli
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上下文受限模型下工具与上下文要手工拼接的问题，本地终端交付路径清楚，属结构上成立。
+    evidence_ids:
+    - ev-66191eff25fed48e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 101 个星标与 1 个 fork，属关注度信号，不能证明持续采用或形成共识。
+    evidence_ids:
+    - ev-66191eff25fed48e
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-66191eff25fed48e
+  - gate: truth
+    status: insufficient
+    reason: 缺少可复现实测与 issue 讨论，无法核对它在真实代码任务中的交付确定性。
+    evidence_ids:
+    - ev-66191eff25fed48e
+  next_validation: 收集该仓库的 issue 与 discussion，核对真实任务中的可复现交付结果。
+  market: ''
+  job: 开发者在本地环境里用上下文窗口有限的模型处理代码任务时，需要把工具、技能和钩子串起来，让代理在终端里完成一次可复现的改动。
+  job_en: A developer working locally with a context-limited model needs to chain tools, skills and hooks
+    so an agent can complete a reproducible change in the terminal.
+  pain: 上下文受限的模型在长代码任务中容易丢信息，开发者要手工拼接上下文与工具调用；材料未给出用户抱怨，痛点强度属结构推断。
+  pain_en: Context-limited models lose information on long coding tasks, forcing developers to manually
+    stitch context and tool calls; the material gives no user complaints, so pain intensity is a structural
+    inference.
+  current_alternative: 旧做法是直接用通用编码助手或手工在终端里拼命令与脚本，上下文管理靠人；这是推断，材料未列出替代工具。
+  current_alternative_en: The old approach is using a general coding assistant or manually assembling
+    commands and scripts in the terminal, with humans managing context; this is inference, as the material
+    lists no alternatives.
+  usage_reason: 相较手工拼接，它把工具、技能与钩子做成可组合单元，减少每次任务重新搭上下文这一步，因此本地部署且模型上下文受限的开发者会在终端里选它；这是基于能力的推断。
+  usage_reason_en: Compared with manual stitching, it makes tools, skills and hooks composable units,
+    removing the step of rebuilding context per task, so developers running locally with context-limited
+    models would pick it in the terminal; this is capability-based inference.
+- id: req-full-raw-cli-2026-10-11
+  project_slug: raw-cli
+  level: full
+  reviewed_at: '2026-10-11T01:31:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上下文受限模型下工具与上下文要手工拼接的问题，本地终端交付路径清楚，属结构上成立。
+    evidence_ids:
+    - ev-66191eff25fed48e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 101 个星标与 1 个 fork，属关注度信号，不能证明持续采用或形成共识。
+    evidence_ids:
+    - ev-66191eff25fed48e
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-66191eff25fed48e
+  - gate: truth
+    status: insufficient
+    reason: 缺少可复现实测与 issue 讨论，无法核对它在真实代码任务中的交付确定性。
+    evidence_ids:
+    - ev-66191eff25fed48e
+  next_validation: 收集该仓库的 issue 与 discussion，核对真实任务中的可复现交付结果。
+  market: ''
+  job: 开发者在本地环境里用上下文窗口有限的模型处理代码任务时，需要把工具、技能和钩子串起来，让代理在终端里完成一次可复现的改动。
+  job_en: A developer working locally with a context-limited model needs to chain tools, skills and hooks
+    so an agent can complete a reproducible change in the terminal.
+  pain: 上下文受限的模型在长代码任务中容易丢信息，开发者要手工拼接上下文与工具调用；材料未给出用户抱怨，痛点强度属结构推断。
+  pain_en: Context-limited models lose information on long coding tasks, forcing developers to manually
+    stitch context and tool calls; the material gives no user complaints, so pain intensity is a structural
+    inference.
+  current_alternative: 旧做法是直接用通用编码助手或手工在终端里拼命令与脚本，上下文管理靠人；这是推断，材料未列出替代工具。
+  current_alternative_en: The old approach is using a general coding assistant or manually assembling
+    commands and scripts in the terminal, with humans managing context; this is inference, as the material
+    lists no alternatives.
+  usage_reason: 相较手工拼接，它把工具、技能与钩子做成可组合单元，减少每次任务重新搭上下文这一步，因此本地部署且模型上下文受限的开发者会在终端里选它；这是基于能力的推断。
+  usage_reason_en: Compared with manual stitching, it makes tools, skills and hooks composable units,
+    removing the step of rebuilding context per task, so developers running locally with context-limited
+    models would pick it in the terminal; this is capability-based inference.

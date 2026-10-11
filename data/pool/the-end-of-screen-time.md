@@ -31,7 +31,7 @@ summary: 'I live in Amsterdam, and I travel to London every couple of months for
   attention then. It feels a little like talking to Jarvis, Iron Man’s'
 first_seen: '2026-10-11T01:01:42Z'
 last_seen: '2026-10-11T01:01:42Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

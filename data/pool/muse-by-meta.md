@@ -3,17 +3,18 @@ slug: muse-by-meta
 name: Meta Muse
 builder: Meta
 category: 通用助手
-summary_zh: Meta 把 Muse 助手从 iPhone 扩到 iPad，用户在平板上打开它处理日常问答与任务类请求；候选材料只支持“发布到 iPad”这一事实，它具体接收什么材料、执行哪些动作、交付什么结果仍待核验。
-inspiration: 趋势：大厂把通用助手从手机铺到平板，说明入口之争正从单一设备转向多设备常驻。切入：通用问答已被大厂占据，创业方向不在复刻助手，而在把助手嵌进某个具体行业已有的材料流（如保单、图纸、报关单）并交付可核对结果；Meta
-  Muse 本身尚无公开定价与采用数据，窗口判断需等更多事实。
-summary_en: Meta extended its Muse assistant from iPhone to iPad, where users open it for everyday questions
-  and task requests; the candidate material only supports the iPad release, and what it ingests, does
-  and delivers still needs verification.
-inspiration_en: 'Trend: a big platform pushing a general assistant from phone to tablet shows the entry-point
-  race moving to multi-device presence. Angle: general Q&A is taken; the opening is embedding assistants
-  into a specific industry''s existing material flow (policies, drawings, customs forms) and delivering
-  checkable output. Meta Muse has no public pricing or adoption data yet, so window judgment waits on
-  more facts.'
+summary_zh: 普通用户在手机或 iPad 上打开 Meta Muse，把待办、查询或需要代办的请求交给这个个人 AI agent，由它执行动作并返回结果；具体能处理哪些材料、交付到哪一步、哪些环节仍需人工确认，公开材料未说明，流程与交付仍待核验。
+inspiration: 趋势：大厂把个人 agent 直接塞进手机与平板入口，通用助手的默认位置正在被重新划分。切入：不要在通用代办上正面竞争，可切到某个垂直人群的固定旧流程（如房产带看后的资料整理、跨境卖家的订单跟进），把
+  agent 能力包成对结果负责的交付；窗口是否已关需看该入口的实际采用。
+summary_en: An ordinary user opens Meta Muse on a phone or iPad and hands it to-dos, queries or errands;
+  the personal AI agent performs actions and returns results. Which materials it handles, how far it delivers
+  and where humans must still confirm are not stated in the public material, so the workflow and deliverable
+  remain unverified.
+inspiration_en: 'Trend: big platforms are pushing personal agents straight into phone and tablet entry
+  points, redrawing where general assistants sit by default. Entry: avoid head-on general errand-running;
+  instead wrap agent capability into a vertical, result-accountable deliverable for a fixed legacy workflow
+  (e.g. post-viewing document work for realtors, order follow-up for cross-border sellers). Whether the
+  window is closed depends on real adoption of that entry point.'
 priority_review: true
 project_type: new_application
 industries: []
@@ -28,7 +29,7 @@ canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - marketfeeds

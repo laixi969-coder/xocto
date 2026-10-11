@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE9fZGM2SFd5aG9J
 summary: iPod之父：为什么我认为苹果依然会引领AI硬件时代？ RFID世界网
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

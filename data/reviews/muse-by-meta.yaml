@@ -124,3 +124,93 @@
   usage_reason: 缺少任何用户反馈、采用或留存证据，无法解释用户为何会选择它而非现有做法；仅凭“发布到 iPad”不能构成使用理由。
   usage_reason_en: With no user feedback, adoption or retention evidence, there is no basis to explain
     why a user would choose it over existing practice; an iPad release alone is not a usage reason.
+- id: req-initial-muse-by-meta-2026-10-11
+  project_slug: muse-by-meta
+  level: initial
+  reviewed_at: '2026-10-11T01:02:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决日常代办，但公开材料未说明用户原来卡在哪一步、不解决会失去什么，痛点与旧流程无法还原，价值判断缺少事实基础。
+    evidence_ids:
+    - ev-824661632e7bc24c
+    - ev-0f2901d2dcc631d3
+  - gate: consensus
+    status: insufficient
+    reason: 只有平台扩展与算力侧报道，没有可归因到该产品的使用、留存或采用数据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-0f2901d2dcc631d3
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或付费路径，to C 订阅或平台补贴都只是推断，不能作为已验证事实。
+    evidence_ids:
+    - ev-824661632e7bc24c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近代办任务的第一性目标、承诺能否确定性交付，以及人工确认边界在哪里。
+    evidence_ids:
+    - ev-0f2901d2dcc631d3
+  next_validation: 收集 Meta Muse 官方产品页或 App Store 说明，确认其可执行的具体任务、交付结果与是否标注定价或订阅。
+  market: ''
+  job: 手机或平板用户在日常场景中把待办、查询或代办请求交给个人 AI agent，期望它直接执行并返回结果；具体输入材料与交付形态公开材料未说明。
+  job_en: A phone or tablet user hands to-dos, queries or errands to a personal AI agent in daily situations,
+    expecting it to act and return results; the specific input materials and deliverable form are not
+    stated publicly.
+  pain: 公开材料只给出“personal AI agent that gets things done”这类定位，没有说明用户原来卡在哪一步、不解决会失去什么，痛点无法从现有事实还原。
+  pain_en: Public material only gives a positioning such as a personal AI agent that gets things done;
+    it does not say which step users were stuck on or what they lose without it, so the pain cannot be
+    reconstructed from available facts.
+  current_alternative: 用户现有的替代方式是手机自带助手、通用聊天助手或直接在各个 App 里手动操作；材料未说明 Meta Muse 相对这些旧做法改掉了哪一步。
+  current_alternative_en: Users' current alternatives are built-in phone assistants, general chat assistants,
+    or simply operating each app by hand; the material does not say which step Meta Muse replaces relative
+    to these.
+  usage_reason: 推断：若它能把跨 App 的代办请求直接执行完并返回可核对结果，用户会在懒得逐步手动操作时选择它；但材料未给出任何用户反馈、案例或重复使用证据，选择动机无法作为事实陈述。
+  usage_reason_en: 'Inference: if it can execute cross-app errands end to end and return a checkable result,
+    users would pick it when they would rather not operate step by step by hand; however the material
+    offers no user feedback, case or repeat-use evidence, so the motive cannot be stated as fact.'
+- id: req-full-muse-by-meta-2026-10-11
+  project_slug: muse-by-meta
+  level: full
+  reviewed_at: '2026-10-11T01:31:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决日常代办，但公开材料未说明用户原来卡在哪一步、不解决会失去什么，痛点与旧流程无法还原，价值判断缺少事实基础。
+    evidence_ids:
+    - ev-163e398e18e66c9d
+    - ev-b0ba8e697aabb889
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Meta Muse 官方产品页或 App Store 说明，确认其可执行的具体任务、交付结果与是否标注定价或订阅。
+  market: ''
+  job: 普通用户在手机或 iPad 上打开 Meta Muse，把待办、查询或需要代办的请求交给这个个人 AI agent，期望它执行动作并返回结果；公开材料未说明它处理哪些材料、交付到哪一步、哪些环节需人工确认。
+  job_en: An ordinary user opens Meta Muse on a phone or iPad and hands to-dos, queries or errands to
+    a personal AI agent, expecting it to act and return results; public material does not state which
+    materials it handles, how far it delivers, or which steps need human confirmation.
+  pain: 公开材料只有“personal AI agent that gets things done”一句定位，没有说明用户原来卡在哪一步、不解决会失去什么，痛点无法从现有事实还原。
+  pain_en: Public material offers only the positioning 'a personal AI agent that gets things done'; it
+    does not say which step users were stuck on or what they lose without it, so the pain cannot be reconstructed
+    from available facts.
+  current_alternative: 用户现有替代方式是手机自带助手、通用聊天助手（如 Gemini、ChatGPT、Copilot）或直接在各个 App 里手动操作；材料未说明 Meta Muse
+    相对这些旧做法改掉了哪一步。
+  current_alternative_en: Users' current alternatives are built-in phone assistants, general chat assistants
+    (e.g. Gemini, ChatGPT, Copilot), or simply operating each app by hand; the material does not say which
+    step Meta Muse replaces relative to these.
+  usage_reason: 推断：若它能把跨 App 的代办请求直接执行完并返回可核对结果，用户会在不愿逐步手动操作时选择它；但材料未给出任何用户反馈、案例或重复使用证据，选择动机无法作为事实陈述。
+  usage_reason_en: 'Inference: if it can execute cross-app errands end to end and return a checkable result,
+    users would pick it when they would rather not operate step by step by hand; however the material
+    offers no user feedback, case or repeat-use evidence, so the motive cannot be stated as fact.'

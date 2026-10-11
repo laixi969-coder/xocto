@@ -21,7 +21,7 @@ canonical_url: https://celeryman.fun
 summary: A functioning Celery Man computer
 first_seen: '2026-10-11T01:01:01Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

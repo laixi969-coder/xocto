@@ -418,3 +418,51 @@
     by hand; the inference is that multi-agent developers needing approval trails would choose it when
     orchestrating complex chains, though public material offers no customer cases or continued-use evidence,
     so the motive is inferred.
+- id: req-full-dsh-jev-plugin-2026-10-11
+  project_slug: dsh-jev-plugin
+  level: full
+  reviewed_at: '2026-10-11T01:30:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理执行中选择与审批缺乏统一判断的问题，痛点来自人工盯守和事后难追溯，旧做法是自写规则或人工审批；公开材料仅给出插件定位与星标，交付形态与人工边界属工作流结构推理。
+    evidence_ids:
+    - ev-61718db993b04c0b
+    - ev-0237d38ab77c2928
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 135 增至 203 只说明早期关注度上升，没有用户反馈、issue 或采用数据说明它已进入实际代理流程，关注度不能当作持续采用。
+    evidence_ids:
+    - ev-d7dc82edef6ed843
+    - ev-0237d38ab77c2928
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价、许可或买方，付费路径只能作为判断而非已验证事实；若走 to B 团队订阅或托管服务，公开材料尚无采购或付费记录支撑。
+    evidence_ids:
+    - ev-61718db993b04c0b
+  - gate: truth
+    status: insufficient
+    reason: 把审批交给决策层后，判断依据是否可复核、出错时人工如何接管、安全边界如何设定，公开材料均未说明，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-0237d38ab77c2928
+  next_validation: 追踪该插件仓库的 README、部署文档与 issue/discussion，确认决策层是否输出可复核的审批依据、人工接管方式及是否出现真实使用反馈。
+  market: ''
+  job: 在 DeepSeek Harness 上编排多个代理的开发者，在代理执行任务前后需要处理代理选择、执行监督、纠错与审批，确保每一步动作按预期放行并留下可追溯的判断记录。
+  job_en: Developers orchestrating multiple agents on DeepSeek Harness must handle agent selection, execution
+    supervision, correction and approval before and after each agent action, so that steps are released
+    as intended with a traceable judgment record.
+  pain: 多代理流程中由谁执行、是否放行往往依赖人工盯守或临时规则，出错后难以定位是哪一步判断失准；公开材料只给出插件定位，未提供用户抱怨或工单证据，痛点强度属工作流结构推理。
+  pain_en: In multi-agent flows, who executes and whether to release often depends on human watching or
+    ad-hoc rules, and after a failure it is hard to locate which judgment went wrong; public material
+    only states the plugin's positioning, with no user complaints or issue evidence, so pain intensity
+    is a workflow-structure inference.
+  current_alternative: 开发者目前多自己写路由规则、逐次人工审批，或依赖代理框架自带的简单路由与日志。
+  current_alternative_en: Developers today mostly write their own routing rules, approve each step manually,
+    or rely on the simple routing and logging built into agent frameworks.
+  usage_reason: 相较自写规则与人工盯守，该插件把选择、监督、纠错与审批集中到一个决策层，减少逐次人工放行这一步；推断需要审批留痕的多代理团队会在编排场景中选择它，但公开材料没有客户案例或持续使用证据，动机属推断而非事实。
+  usage_reason_en: Compared with self-written rules and manual watching, the plugin centralizes selection,
+    supervision, correction and approval in one decision layer, removing the step of releasing each action
+    by hand; the inference is that multi-agent teams needing approval trails would choose it, though public
+    material offers no customer cases or continued-use evidence, so the motive is inferred, not factual.

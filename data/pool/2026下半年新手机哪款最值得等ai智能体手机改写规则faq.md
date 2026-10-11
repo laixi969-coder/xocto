@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxNVFI2Um00VUVS
 summary: 2026下半年新手机哪款最值得等？AI智能体手机改写规则+FAQ 新浪网
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

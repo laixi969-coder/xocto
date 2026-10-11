@@ -1,0 +1,37 @@
+- id: req-initial-kihub-2026-10-11
+  project_slug: kihub
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能推断评审环节存在，无法从材料还原具体用户任务、旧流程与交付结果。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且候选未提供任何证据条目。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径无从判断。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对评审结论能否确定性交付。
+    evidence_ids: []
+  next_validation: 收集该平台的官方产品页或文档，确认它接收什么设计文件、执行什么检查、产出什么可核对结果。
+  market: ''
+  job: 硬件工程师在完成一版 KiCad 原理图或 PCB 后，需要有人检查设计问题；候选资料未说明具体是谁、检查什么材料、要完成什么任务。
+  job_en: A hardware engineer who has finished a KiCad schematic or PCB revision needs the design checked;
+    the candidate material does not say who exactly, what material is checked, or what task is completed.
+  pain: 候选资料未提供痛点描述，无法判断评审环节当前哪里难受。
+  pain_en: The candidate material gives no pain description, so it is impossible to tell where the review
+    step currently hurts.
+  current_alternative: 公开材料未说明现有替代方式；按结构推断，团队可能靠资深工程师人工评审或设计规则检查，但这属于推断。
+  current_alternative_en: Public material does not state the current alternative; structurally teams may
+    rely on senior-engineer manual review or design-rule checks, but this is inference.
+  usage_reason: 无法判断。候选资料没有说明相较人工评审减少了哪一步负担或改善了哪项可核对结果，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: Cannot be judged. The material does not show which step is reduced versus manual review
+    or which checkable outcome improves, so it cannot explain which users would choose it and when.

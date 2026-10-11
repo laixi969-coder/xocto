@@ -1,6 +1,6 @@
 ---
 slug: hcltech-launches-20-industry-ai-solutions-to-scale-enterpris
-name: HCLTech Launches 20 Industry AI Solutions to Scale Enterprise Automation
+name: HCLTech
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRUJNSGVnTW9r
 summary: HCLTech Launches 20 Industry AI Solutions to Scale Enterprise Automation Konsulteer
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# HCLTech Launches 20 Industry AI Solutions to Scale Enterprise Automation
+# HCLTech
 
 HCLTech Launches 20 Industry AI Solutions to Scale Enterprise Automation Konsulteer
 

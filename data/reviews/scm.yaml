@@ -134,3 +134,49 @@
   usage_reason_en: Because all evidence points to supply chain management and woodworking machinery, there
     is no way to explain which step this product removes or which checkable result it improves versus
     any prior practice, so no causal reason for choosing it can be given.
+- id: req-full-scm-2026-10-11
+  project_slug: scm
+  level: full
+  reviewed_at: '2026-10-11T01:32:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向供应链管理概念与木工机械公司 SCM North America，与候选所述 macOS 影像检索产品无任何可核对关联，连用户任务与痛点都无法从公开材料还原，价值关不成立。
+    evidence_ids:
+    - ev-366fa2ca898f1bec
+    - ev-f835db601baa402f
+    - ev-bb86cf0cda8c45a6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品自身的官方仓库或官网 README，确认其真实名称、支持的媒体格式、索引范围与是否有用户在实际检索流程中重复使用的公开记录。
+  market: ''
+  job: 候选摘要称 macOS 用户把本地照片和视频文件夹交给它做 AI 索引，再用自然语言检索定位到具体照片或视频帧；但证据链中没有任何一条来自该产品本身，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: The candidate summary claims macOS users hand local photo and video folders to it for AI indexing
+    and then search in natural language to locate a specific photo or video frame; however, no evidence
+    item comes from the product itself, so who does what, with which material, and to what end cannot
+    be confirmed.
+  pain: 公开证据只覆盖供应链管理定义与木工机械公司 SCM North America 的分销支持，未出现任何关于影像素材检索痛点的用户陈述、抱怨或替代行为记录，痛点无法从证据中还原。
+  pain_en: The public evidence only covers supply chain management definitions and the distribution/support
+    footprint of the woodworking machinery company SCM North America; there is no user statement, complaint,
+    or workaround record about image material retrieval, so the pain cannot be reconstructed from evidence.
+  current_alternative: 证据中没有出现任何影像检索的现有替代方式（如相册元数据搜索、手工打标、逐条回看）的公开记录，无法描述用户今天如何绕过这个问题。
+  current_alternative_en: The evidence contains no public record of any current alternative for image
+    retrieval (such as library metadata search, manual tagging, or clip-by-clip scrubbing), so how users
+    work around the problem today cannot be described.
+  usage_reason: 无法给出使用理由：现有证据全部指向供应链管理概念与木工机械厂商，与候选所述 macOS 影像检索产品无任何可核对关联，既无功能说明也无用户反馈，任何采用动机都只能凭空编造。
+  usage_reason_en: 'No usage reason can be given: all existing evidence points to supply chain management
+    concepts and a woodworking machinery vendor, with no verifiable link to the described macOS image
+    retrieval product, and neither capability documentation nor user feedback exists, so any adoption
+    motive would be fabricated.'

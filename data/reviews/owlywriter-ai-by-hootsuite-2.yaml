@@ -76,3 +76,47 @@
   usage_reason: 集成在 Hootsuite，用户已在使用，AI 生成降低创作门槛，访问量增长表明采用。
   usage_reason_en: Integrated into Hootsuite, users already on the platform; AI generation lowers creation
     barrier, and traffic growth indicates adoption.
+- id: req-full-owlywriter-ai-by-hootsuite-2-2026-10-11
+  project_slug: owlywriter-ai-by-hootsuite-2
+  level: full
+  reviewed_at: '2026-10-11T01:31:41Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社交媒体经理持续产出多平台内容时手动撰写耗时、难以保持一致的痛点；旧做法是手动撰写或通用 AI 生成后手动适配，OwlyWriter 集成在 Hootsuite 内输入主题即可生成可编辑文案，交付可确定。
+    evidence_ids:
+    - ev-ad92b63814a914a4
+  - gate: consensus
+    status: supported
+    reason: 公开数据显示月访问量 279 万、环比增长 49.37%，表明已有相当规模用户关注或使用，但持续采用与留存仍缺公开证据。
+    evidence_ids:
+    - ev-ad92b63814a914a4
+  - gate: model
+    status: insufficient
+    reason: OwlyWriter 作为 Hootsuite 平台内功能，付费路径可能依托 Hootsuite 订阅，但公开材料未给出独立定价或该功能的付费转化数据，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: Hootsuite 是成熟平台，交付确定性较高，但公开材料未说明 AI 生成内容的事实准确性、品牌安全边界及人工审核流程。
+    evidence_ids: []
+  next_validation: 追踪 Hootsuite 官网 OwlyWriter AI 功能页或定价页，确认其是否独立计费、包含在哪些订阅档位，以及是否有客户案例说明使用效果。
+  market: ''
+  job: 社交媒体经理或内容创作者在需要为多平台快速产出帖子文案时，输入主题或关键词，让 OwlyWriter AI 生成可编辑或直接发布的帖子文案与标题。
+  job_en: Social media managers or content creators, when needing to quickly produce post copy for multiple
+    platforms, input topics or keywords and let OwlyWriter AI generate editable or publish-ready post
+    copy and headlines.
+  pain: 公开材料显示内容创作耗时且难以保持一致性，社交媒体经理需要持续产出多平台内容，手动撰写或使用通用 AI 工具缺乏平台集成与优化。
+  pain_en: Public materials indicate content creation is time-consuming and hard to keep consistent; social
+    media managers must continuously produce multi-platform content, and manual writing or generic AI
+    tools lack platform integration and optimization.
+  current_alternative: 手动撰写文案，或使用 ChatGPT、Gemini 等通用 AI 工具生成内容后再手动适配平台。
+  current_alternative_en: Manually writing copy, or using generic AI tools like ChatGPT or Gemini to generate
+    content and then manually adapting it for each platform.
+  usage_reason: 推断：相较手动撰写或通用 AI 工具，OwlyWriter 集成在 Hootsuite 内，用户输入主题即可生成适配社交平台的文案，减少从通用工具复制再手动调整的步骤，因此已在
+    Hootsuite 工作流中的社交媒体经理会在需要快速产出多平台内容时选择它。
+  usage_reason_en: 'Inference: Compared to manual writing or generic AI tools, OwlyWriter is integrated
+    into Hootsuite, allowing users to input a topic and generate social-platform-adapted copy, reducing
+    the step of copying from generic tools and manually adjusting; therefore social media managers already
+    in the Hootsuite workflow would choose it when needing to quickly produce multi-platform content.'

@@ -23,7 +23,7 @@ summary: 'If you’re seeing this you’re part of our very very light subscript
   i… Read more'
 first_seen: '2026-10-11T01:01:42Z'
 last_seen: '2026-10-11T01:01:42Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE9SV012Rko3SXVJ
 summary: SaaS品牌如何提升豆包AI可见度？2026方法 手机新浪网
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

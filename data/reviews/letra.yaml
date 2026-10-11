@@ -1,0 +1,85 @@
+- id: req-initial-letra-2026-10-11
+  project_slug: letra
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决“文字不可选中就无法取用”的问题，但公开材料只有一句产品描述，说不清谁在什么场景下用、不解决会怎样，痛点强度无法判断。
+    evidence_ids:
+    - ev-9bd5c540bdcf4e99
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有一条产品页描述，没有用户评价、采用或重复使用证据，无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-9bd5c540bdcf4e99
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料没有定价页或买方信息，无法判断钱来自个人订阅还是企业采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9bd5c540bdcf4e99
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对取字方式、准确率与人工校对边界，承诺能否确定性交付缺少材料支持。
+    evidence_ids:
+    - ev-9bd5c540bdcf4e99
+  next_validation: 收集 Letra 官方产品页或定价页，确认取字的具体操作方式、是否需要人工校对以及是否标注收费方式。
+  market: ''
+  job: Mac 用户在网页或应用禁止选中文字时，需要把屏幕上的文字取出并粘贴到笔记或文档里完成整理。
+  job_en: Mac users need to extract on-screen text from pages or apps that block selection and paste it
+    into notes or documents.
+  pain: 公开材料只给出一句“复制 Mac 不让你选中的文字”，没有说明用户是谁、在什么场景下遇到、不解决会损失什么，痛点强度无法判断。
+  pain_en: The public material offers only one line, 'copy the text your Mac won't let you select', without
+    saying who the user is, in what situation this occurs, or what is lost if unsolved, so pain intensity
+    cannot be judged.
+  current_alternative: 公开材料未说明现有替代方式；按常见做法推断，用户可能用截图加系统 OCR、手打，或换设备打开页面。
+  current_alternative_en: The public material does not state existing alternatives; by common practice,
+    users may use screenshot plus system OCR, retype manually, or open the page on another device.
+  usage_reason: 推断：若它能把取字压缩成一次操作并直接进入粘贴板，用户会在需要抄录不可复制文本时选择它，省掉截图、切到 OCR、再复制这几步；但公开材料没有说明具体动作，也没有用户反馈或使用数据支持这一判断。
+  usage_reason_en: 'Inference: if it reduces capture to a single action that lands in the clipboard, users
+    would pick it when retyping uncopyable text, skipping screenshot, switching to OCR and copying again;
+    but the public material does not describe the action, and no user feedback or usage data supports
+    this.'
+- id: req-full-letra-2026-10-11
+  project_slug: letra
+  level: full
+  reviewed_at: '2026-10-11T01:30:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决“文字不可选中就无法取用”的问题，但公开材料只有一句产品描述，说不清谁在什么场景下用、不解决会怎样，痛点强度无法判断。
+    evidence_ids:
+    - ev-1be16e71decc121e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Letra 官方产品页或定价页，确认取字的具体操作方式、是否需要人工校对以及是否标注收费方式。
+  market: ''
+  job: Mac 用户在网页或应用禁止选中文字时，需要把屏幕上的文字取出并粘贴到笔记、文档或翻译工具里继续整理。
+  job_en: Mac users, when a webpage or app blocks text selection, need to extract the on-screen text and
+    paste it into notes, documents, or translation tools to continue working.
+  pain: 公开材料只有一句“复制 Mac 不让你选中的文字”，没有说明谁在什么场景下遇到、不解决会损失什么，痛点强度无法判断。
+  pain_en: The public material offers only one line, 'copy the text your Mac won't let you select', without
+    saying who encounters this, in what situation, or what is lost if unsolved, so pain intensity cannot
+    be judged.
+  current_alternative: 公开材料未说明现有替代方式；按常见做法推断，用户可能用截图加系统 OCR、手打，或换设备打开页面。
+  current_alternative_en: The public material does not state existing alternatives; by common practice,
+    users may use screenshot plus system OCR, retype manually, or open the page on another device.
+  usage_reason: 推断：若它能把取字压缩成一次操作并直接进入粘贴板，用户会在需要抄录不可复制文本时选择它，省掉截图、切到 OCR、再复制这几步；但公开材料没有说明具体动作，也没有用户反馈或使用数据支持这一判断。
+  usage_reason_en: 'Inference: if it reduces capture to a single action that lands in the clipboard, users
+    would pick it when retyping uncopyable text, skipping screenshot, switching to OCR and copying again;
+    but the public material does not describe the action, and no user feedback or usage data supports
+    this.'

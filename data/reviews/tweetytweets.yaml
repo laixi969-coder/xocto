@@ -387,3 +387,51 @@
     pipeline, removing the steps of obtaining an API key and buying scraping quota, so solo operators
     or small teams without dev resources who must keep an account active would pick it when continuous
     posting is required.'
+- id: req-full-tweetytweets-2026-10-11
+  project_slug: tweetytweets
+  level: full
+  reviewed_at: '2026-10-11T01:32:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是个人运营者持续发帖的重复劳动：选题、按语气成文、发布、回查四步串成自动流程，痛点在于断更损失曝光且 X API 与抓取工具要付费。公开仓库说明已还原输入、动作与交付闭环，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-ab213b4e7fde018f
+    - ev-598e2d9e91a0faf1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 54 增至 64，说明开发者社区持续关注，但收藏与关注只是规模信号，不能证明目标运营者已把它留在日常工作流；缺少 issue、discussion 或使用反馈说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-ab213b4e7fde018f
+    - ev-598e2d9e91a0faf1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或收入路径，开源仓库本身不显示谁付钱；按能力推断可能面向个人运营者订阅或团队授权，但这是判断而非已验证事实，也未排除靠融资或赞助维持。
+    evidence_ids:
+    - ev-97f221a65ed269d3
+  - gate: truth
+    status: insufficient
+    reason: 通过真实浏览器发布并自检能否稳定交付、账号授权方式、内容审核与失败重试边界均无公开文档或可复现记录；浏览器自动化发布还涉及平台规则与账号安全，缺少可核验的部署说明。
+    evidence_ids:
+    - ev-3fc33dd10ae18244
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否公开账号授权方式、发布失败处理与真实使用案例，以核验交付稳定性与采用情况。
+  market: ''
+  job: 个人品牌运营者或小团队社媒负责人，在没有专职内容团队的情况下，需要围绕自己所在领域持续产出并发布 X/Twitter 帖子，维持账号更新节奏。
+  job_en: A personal-brand operator or small-team social lead without a dedicated content team needs to
+    keep producing and publishing X/Twitter posts in their niche to maintain account cadence.
+  pain: 持续发帖要求每天先找选题、再按个人语气成文、再登录平台发布并确认是否成功，这套流程重复且占用大量时间；断更会直接损失账号曝光与粉丝增长，而 X API 收费、第三方抓取工具也要付费，个人运营者难以承担。
+  pain_en: Continuous posting requires daily topic research, voice-matched drafting, manual publishing,
+    and confirming the post actually went out; this loop is repetitive and time-consuming, and going silent
+    directly costs reach and follower growth, while the paid X API and paid scrapers are hard for an individual
+    to justify.
+  current_alternative: 目前多靠人工每天刷信息流找选题、手写或让通用大模型起草后手动复制到 X 发布，或购买 X API 与付费抓取工具搭建脚本；这些做法要么耗时，要么有额外费用和接入门槛。
+  current_alternative_en: Today users mostly scroll feeds manually for topics, hand-write or draft with
+    a general LLM and paste into X, or pay for the X API and scrapers to script it; these are either time-consuming
+    or carry extra cost and setup friction.
+  usage_reason: 推断：相较手动起草加复制粘贴，它把选题调研、按设定语气成文、通过真实浏览器发布、回查发布结果串成一条自动流程，省去逐条手动操作和确认这一步；因此没有 API 预算、又需要稳定日更的个人运营者会在维持账号节奏时选择它。
+  usage_reason_en: 'Inference: versus manual drafting and copy-paste, it chains niche research, voice-matched
+    writing, browser-based publishing, and post verification into one automated flow, removing the per-post
+    manual step and confirmation; so individual operators without an API budget who need steady daily
+    posting would pick it to keep cadence.'

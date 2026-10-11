@@ -1,0 +1,81 @@
+- id: req-initial-ai眼镜品牌nimo获数亿元融资投后估值达15亿元-2026-10-11
+  project_slug: ai眼镜品牌nimo获数亿元融资投后估值达15亿元
+  level: initial
+  reviewed_at: '2026-10-11T01:02:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决佩戴者免掏手机的日常交互需求，但材料未给出痛点、旧替代或交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-dd92d4c67a7bea8d
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资与估值信息，没有用户采用、复购或场景共识证据，无法判断卡在哪一环。
+    evidence_ids:
+    - ev-dd92d4c67a7bea8d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或销售渠道，to C 硬件销售只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-dd92d4c67a7bea8d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对产品是否贴近第一性目标、承诺能否确定性交付，安全与人工边界亦无材料。
+    evidence_ids:
+    - ev-dd92d4c67a7bea8d
+  next_validation: 收集NIMO官方产品页或官方发布，确认其硬件形态、AI功能清单、定价与首批交付时间。
+  market: ''
+  job: 个人用户在通勤、会议或出行时佩戴眼镜，用语音或轻触完成拍摄、信息查询与提醒，替代掏手机这一动作。
+  job_en: Individual users wear the glasses while commuting, in meetings or on the move, using voice or
+    touch to capture, look up information and receive reminders instead of pulling out a phone.
+  pain: 候选材料未提供任何用户痛点、使用反馈或旧替代行为的描述，无法确认佩戴者究竟被哪一步困扰。
+  pain_en: The candidate material provides no user pain points, usage feedback or description of prior
+    substitute behaviour, so it is impossible to confirm which step actually troubles wearers.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类任务，手机、运动相机或普通眼镜都只是推测。
+  current_alternative_en: Public material does not state how users previously completed comparable tasks;
+    phones, action cameras or ordinary glasses are only speculation.
+  usage_reason: 仅凭融资与估值无法解释用户为何选择它；缺少产品功能、定价与使用场景证据，无法判断相较旧做法的具体减负环节。
+  usage_reason_en: Funding and valuation alone cannot explain why users would choose it; without product
+    features, pricing or usage-scenario evidence, the specific step it relieves versus the old approach
+    cannot be judged.
+- id: req-full-ai眼镜品牌nimo获数亿元融资投后估值达15亿元-2026-10-11
+  project_slug: ai眼镜品牌nimo获数亿元融资投后估值达15亿元
+  level: full
+  reviewed_at: '2026-10-11T01:28:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决佩戴者免掏手机的日常交互需求，但材料未给出痛点、旧替代或交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-dd92d4c67a7bea8d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集NIMO官方产品页或官方发布，确认其硬件形态、AI功能清单、定价与首批交付时间。
+  market: ''
+  job: 个人用户在通勤、会议或出行时佩戴眼镜，用语音或轻触完成拍摄、信息查询与提醒，替代掏手机这一动作。
+  job_en: Individual users wear the glasses while commuting, in meetings or on the move, using voice or
+    touch to capture, look up information and receive reminders instead of pulling out a phone.
+  pain: 候选材料未提供任何用户痛点、使用反馈或旧替代行为的描述，无法确认佩戴者究竟被哪一步困扰。
+  pain_en: The candidate material provides no user pain points, usage feedback or description of prior
+    substitute behaviour, so it is impossible to confirm which step actually troubles wearers.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类任务，手机、运动相机或普通眼镜都只是推测。
+  current_alternative_en: Public material does not state how users previously completed comparable tasks;
+    phones, action cameras or ordinary glasses are only speculation.
+  usage_reason: 仅凭融资与估值无法解释用户为何选择它；缺少产品功能、定价与使用场景证据，无法判断相较旧做法的具体减负环节。
+  usage_reason_en: Funding and valuation alone cannot explain why users would choose it; without product
+    features, pricing or usage-scenario evidence, the specific step it relieves versus the old approach
+    cannot be judged.

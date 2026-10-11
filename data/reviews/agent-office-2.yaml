@@ -88,3 +88,50 @@
     terminal output and matching issue/PR into one visual surface, removing the step of switching back
     and forth and aligning verbally; teams that routinely run several coding agents in parallel would
     choose it when they must watch multiple agents at once, as inference.
+- id: req-full-agent-office-2-2026-10-11
+  project_slug: agent-office-2
+  level: full
+  reviewed_at: '2026-10-11T01:28:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时状态分散、进度不可见的问题，痛点来自真实并行工作流，交付是可视化协作面板；但公开材料仅产品说明，痛点强度属工作流结构推理。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 696 增至 705，属关注度证据，未见团队持续使用、留存或工作流嵌入的公开材料。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+    - ev-600d37d8fa77d38f
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费路径或企业采购方式，钱从哪来仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  - gate: truth
+    status: insufficient
+    reason: 语音沟通与代理调度能否确定性交付、失败时如何回退，公开材料未给出可核验结果。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  next_validation: 收集该仓库的 issue/discussion 与 README 部署文档，确认多代理调度与语音协作的实际交付边界和失败处理方式。
+  market: ''
+  job: 开发团队负责人在同时运行多个 Claude Code 编码代理时，打开 3D 办公室界面把代理安排到工位，处理各代理的实时终端输出、语音沟通内容以及关联的 公开代码仓库 issue 与 PR，最终要判断哪个代理卡住、哪些改动可合并。
+  job_en: An engineering team lead running several Claude Code agents at once opens a 3D office to seat
+    agents at desks, handle their live terminal output, voice chatter and linked public code repository
+    issues/PRs, and decide which agent is stuck and which changes can be merged.
+  pain: 多个代理并行时终端窗口互相覆盖，进度、冲突和失败任务只能靠人来回切换查看，容易漏掉失败任务或重复改动；公开材料只给出产品说明，未提供用户抱怨或采用数据，痛点强度属工作流结构推理。
+  pain_en: With several agents in parallel, terminal windows overwrite each other and progress, conflicts
+    and failed tasks can only be checked by switching back and forth, so failures or duplicate edits are
+    easily missed; public material only offers product description, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 现在多代理协作多靠多个终端标签页、tmux 分屏加人工口头同步，或干脆串行执行以降低混乱。
+  current_alternative_en: Today multi-agent work mostly relies on multiple terminal tabs, tmux panes plus
+    manual verbal sync, or simply running agents serially to reduce chaos.
+  usage_reason: 相较终端分屏加人工同步，它把每个代理的状态、终端输出和对应 issue/PR 放进同一可视界面，减少来回切换和口头对齐这一步；推断经常并行跑多个编码代理的小团队会因此选择它，公开材料未提供用户反馈佐证。
+  usage_reason_en: Compared with split terminals plus manual sync, it puts each agent's state, terminal
+    output and matching issue/PR into one visual surface, removing the step of switching back and forth
+    and aligning verbally; teams that routinely run several coding agents in parallel would choose it,
+    as inference, with no user feedback in public material.

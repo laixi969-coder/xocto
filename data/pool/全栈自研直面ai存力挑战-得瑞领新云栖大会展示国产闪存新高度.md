@@ -1,6 +1,6 @@
 ---
 slug: 全栈自研直面ai存力挑战-得瑞领新云栖大会展示国产闪存新高度
-name: 全栈自研直面AI存力挑战： 得瑞领新云栖大会展示国产闪存新高度
+name: 得瑞领新
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE9PeDNRT0pOT0ZE
 summary: 全栈自研直面AI存力挑战： 得瑞领新云栖大会展示国产闪存新高度 美通社
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# 全栈自研直面AI存力挑战： 得瑞领新云栖大会展示国产闪存新高度
+# 得瑞领新
 
 全栈自研直面AI存力挑战： 得瑞领新云栖大会展示国产闪存新高度 美通社
 

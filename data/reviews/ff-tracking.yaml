@@ -1,0 +1,90 @@
+- id: req-initial-ff-tracking-2026-10-11
+  project_slug: ff-tracking
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理屏幕录制素材需要跟踪字形与重新配音的问题，旧做法是手工在剪辑软件里逐帧处理，痛点具体且可核对。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有一定关注度，但没有用户评价或采用案例，无法判断后期人员是否已把它纳入常规流程。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或服务模式，钱从哪来不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输出规格与人工确认边界，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+  next_validation: 查看该仓库的 README 与 issue/discussion，确认输入输出规格、依赖环境与是否有实际使用反馈。
+  market: ''
+  job: 视频剪辑师或特效师在制作 AI 代理演示、教程或特效短片时，处理代理屏幕录制素材，要完成字形跟踪、画面合成与音效制作。
+  job_en: A video editor or VFX artist producing an AI agent demo, tutorial or effects short works with
+    agent screen recordings to complete glyph tracking, compositing and sound design.
+  pain: 代理屏幕录制里的文字与界面元素需要逐帧跟踪和重新配音，手工在常规剪辑软件里做既慢又容易错位。
+  pain_en: Text and UI elements in agent screen recordings need frame-by-frame tracking and re-scoring;
+    doing this by hand in standard editors is slow and prone to drift.
+  current_alternative: 在 After Effects 等软件里手动做跟踪与合成，或直接使用未加工的屏幕录制。
+  current_alternative_en: Manual tracking and compositing in tools like After Effects, or shipping raw
+    screen recordings.
+  usage_reason: 推断：它把跟踪、两遍 fframes 处理、着色器与声音合成打包成一条可复现的管线，减少在通用剪辑软件里逐步搭建跟踪与配音的负担，因此做代理演示素材的后期人员会尝试它；仓库尚无用户案例或留存证据。
+  usage_reason_en: 'Inference: it packages tracking, two fframes passes, a shader and sound synthesis
+    into one reproducible pipeline, cutting the work of building tracking and scoring step by step in
+    general editors, so post-production people making agent demos would try it; the repo has no user cases
+    or retention evidence yet.'
+- id: req-full-ff-tracking-2026-10-11
+  project_slug: ff-tracking
+  level: full
+  reviewed_at: '2026-10-11T01:30:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理屏幕录制素材需逐帧跟踪字形并重新配音的需求，旧做法是在通用剪辑软件里手工跟踪合成，慢且易错位；这是工作流结构推理，仓库说明与 222 星为公开事实。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 222 星属关注度证据，但无用户评价、客户案例或采用记录，无法判断后期人员是否已把它纳入常规流程，也未发现中文生态对应项目。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+    - ev-7aaf12ea9e69385b
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、赞助或服务模式，钱可能来自捐赠或后续商业化，但公开材料无付费路径；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输入格式、输出规格、依赖环境与人工确认边界，承诺能否确定性交付仍缺可核对信息。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认输入输出规格、依赖环境及是否有实际使用反馈。
+  market: ''
+  job: 视频剪辑师或视觉特效师在制作 AI 代理演示、教程或特效短片时，处理代理屏幕录制素材，要完成字形跟踪、两遍 fframes 合成与全音效制作，输出带跟踪与音效的成片素材。
+  job_en: A video editor or VFX artist producing an AI agent demo, tutorial or effects short works with
+    agent screen recordings to complete glyph tracking, two fframes compositing passes and full sound
+    synthesis, delivering tracked and scored footage.
+  pain: 代理屏幕录制中的文字与界面元素需要逐帧跟踪并重新配音，在通用剪辑软件里手工做既慢又容易错位；公开材料未给出用户抱怨，此痛点由工作流结构推理得出。
+  pain_en: Text and UI elements in agent screen recordings need frame-by-frame tracking and re-scoring;
+    doing this by hand in general editors is slow and prone to drift. The repo shows no user complaints;
+    this pain is inferred from workflow structure.
+  current_alternative: 在 After Effects 等通用软件里手动做跟踪、合成与配音，或直接使用未加工的屏幕录制。
+  current_alternative_en: Manual tracking, compositing and scoring in general tools like After Effects,
+    or shipping raw screen recordings.
+  usage_reason: 推断：相较手工在通用剪辑软件里逐步搭建跟踪与配音，它把跟踪器、两遍 fframes 处理、一个 SkSL 着色器和声音合成串成一条可复现管线，减少逐帧对齐与单独配音这两步负担，因此做代理演示素材的后期人员会在需要快速产出带跟踪与音效的成片时选择它；仓库尚无用户案例或留存证据。
+  usage_reason_en: 'Inference: versus building tracking and scoring step by step in a general editor,
+    it chains a tracker, two fframes passes, one SkSL shader and sound synthesis into a reproducible pipeline,
+    removing the frame-by-frame alignment and separate scoring steps, so post-production people making
+    agent demos would pick it when they need tracked, scored footage quickly; the repo has no user cases
+    or retention evidence yet.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPbEE2Ql9zNllu
 summary: 2026 U.S. Individual Life Insurance Study JD Power
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

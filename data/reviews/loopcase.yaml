@@ -1,0 +1,40 @@
+- id: req-initial-loopcase-2026-10-11
+  project_slug: loopcase
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决“做案例展示视频要逐帧打关键帧”的问题，但公开材料只有一句描述，说不清谁在什么节点用、不解决会怎样，痛点强度无法判断。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：候选未提供任何证据条目，没有用户评价或采用信号，无法判断是否卡在想象或场景环节。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料没有定价或买方信息，无法判断钱来自个人创作者还是营销团队，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对生成视频的时长、清晰度与人工调整边界，承诺能否确定性交付缺少材料支持。
+    evidence_ids: []
+  next_validation: 收集 Loopcase 官方产品页或定价页，确认输入素材格式、输出视频规格与是否提供人工调整环节。
+  market: ''
+  job: 产品营销或设计人员把已有的界面截图、成品图整理成可循环播放的案例展示视频，用于作品集或落地页。
+  job_en: Product marketing or design staff turn existing interface screenshots and finished images into
+    looping case-study videos for portfolios or landing pages.
+  pain: 公开材料只有一句“从图片生成循环案例视频，无需关键帧”，没有说明谁在做这件事、现在花多少时间、不解决会损失什么，痛点强度无法判断。
+  pain_en: The public material has only one line, 'looping case study videos from your images, no keyframes',
+    without saying who does this, how long it takes now, or what is lost if unsolved, so pain intensity
+    cannot be judged.
+  current_alternative: 公开材料未说明现有替代方式；按常见做法推断，用户可能用动效软件手动打关键帧，或把动效外包给设计师。
+  current_alternative_en: The public material does not state existing alternatives; by common practice,
+    users may keyframe manually in motion software or outsource motion design.
+  usage_reason: 推断：若它能把截图直接变成可用的循环展示视频，用户会在需要快速更新作品集或落地页素材时选择它，省掉逐帧打关键帧或等外包排期；但公开材料没有说明生成质量与可调整程度，也没有用户反馈支持这一判断。
+  usage_reason_en: 'Inference: if it turns screenshots directly into usable looping showcase videos, users
+    would pick it when they need to refresh portfolio or landing-page assets quickly, skipping manual
+    keyframing or waiting on an outsourced designer; but the public material does not describe output
+    quality or editability, and no user feedback supports this.'

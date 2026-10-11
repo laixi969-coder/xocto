@@ -1,0 +1,87 @@
+- id: req-initial-onetake-2026-10-11
+  project_slug: onetake
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布片与功能演示中分镜拼接、镜头跳切导致返工的问题，痛点来自可还原的旧剪辑流程，属工作流推理。
+    evidence_ids:
+    - ev-034648b3f7e8d473
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有星标与分支，说明开发者关注，但无评论或采用案例，无法判断卡在感知还是场景。
+    evidence_ids:
+    - ev-034648b3f7e8d473
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方是市场团队还是制作公司无法判断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-034648b3f7e8d473
+  - gate: truth
+    status: insufficient
+    reason: 连续性由校验器衡量，但成片是否可用仍需人工确认，交付确定性与安全边界未核验。
+    evidence_ids:
+    - ev-034648b3f7e8d473
+  next_validation: 抓取该开源仓库的 issue 与 discussion，确认实际使用者反馈的成片可用率与人工返工环节。
+  market: ''
+  job: 产品市场或增长团队在准备产品发布片与功能演示时，把脚本与素材交给它，用编码代理生成一条不切镜、镜头连续推进的运动影片。
+  job_en: Product marketing or growth teams preparing launch films and feature demos hand over scripts
+    and assets to generate a single continuous, uncut motion film via a coding agent.
+  pain: 发布片与功能演示通常要反复分镜、剪辑与拼接，镜头之间跳切导致观感断裂，重做成本高；这是从产品定位推导的工作流痛点，非用户口述。
+  pain_en: Launch films and demos usually require repeated storyboarding, editing and stitching, and cuts
+    between shots break visual continuity, making rework costly; this is a workflow pain inferred from
+    the product positioning, not user testimony.
+  current_alternative: 旧做法是人工分镜后用剪辑软件逐段拼接，或使用通用视频生成工具再手工对齐镜头；材料未说明具体替代工具。
+  current_alternative_en: The old way is manual storyboarding and clip-by-clip editing, or using general
+    video generation tools and aligning shots by hand; the material does not name specific alternatives.
+  usage_reason: 推断：它把分镜与拼接合并为一次连续镜头生成，并用校验器衡量连续性，减少逐段对齐与返工这一步，因此高频出发布片的团队会在赶发布节点时选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it merges storyboarding and stitching into one continuous generation pass
+    and measures continuity with an oracle, removing the shot-by-shot alignment and rework step, so teams
+    shipping launch films frequently would pick it near release deadlines; no retention or repeat-use
+    evidence yet.'
+- id: req-full-onetake-2026-10-11
+  project_slug: onetake
+  level: full
+  reviewed_at: '2026-10-11T01:31:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据未提供该产品自身的功能说明、用户任务或痛点材料，同名站点分别指向 CS2 服务器与另一款视频编辑产品，无法还原需求与痛点，价值关不成立。
+    evidence_ids:
+    - ev-a525b9abafe5fde7
+    - ev-ceeb38448570343c
+    - ev-3fc18b37c831863a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或代码仓库中关于输入格式、校验器与成片交付的官方文档或 README，确认其实际功能与交付形态。
+  market: ''
+  job: 产品市场或增长团队在准备产品发布片与功能演示时，把脚本与素材交给它，用编码代理生成一条不切镜、镜头连续推进的运动影片。
+  job_en: Product marketing or growth teams preparing launch films and feature demos hand over scripts
+    and assets to generate a single continuous, uncut motion film via a coding agent.
+  pain: 公开证据中没有任何材料描述该工具使用者的具体痛点、旧剪辑流程或返工代价；现有证据只包含同名 CS2 服务器站、OneTake AI 视频编辑站与一条空泛的检索查询，无法还原用户任务中的难受之处。
+  pain_en: No public evidence describes the specific pain, old editing workflow, or rework cost for this
+    tool's users; the available evidence consists only of a same-named CS2 server site, the OneTake AI
+    video editing site, and a generic search query, so the user's discomfort cannot be reconstructed.
+  current_alternative: 公开材料未说明目标用户当前用什么方式完成发布片与功能演示，无法确认替代方式是人工分镜剪辑、通用视频生成工具还是外包制作。
+  current_alternative_en: Public material does not state how target users currently produce launch films
+    and demos, so it is unclear whether the alternative is manual storyboard editing, general video generation
+    tools, or outsourced production.
+  usage_reason: 无法判断：证据中没有该产品自身的功能说明、使用反馈或客户案例，同名站点指向 CS2 服务器与另一款视频编辑产品，不能据此推断用户为何选择它。
+  usage_reason_en: 'Cannot be determined: the evidence contains no product-specific capability description,
+    user feedback, or customer case for this tool, and the same-named sites point to a CS2 server and
+    a different video editing product, so no reason for adoption can be inferred.'

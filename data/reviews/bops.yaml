@@ -117,3 +117,46 @@
   usage_reason_en: 'Inference: if bots can directly operate email, phone and web systems, they could remove
     the step of staff executing each task by hand; but public material gives no usage scenario or retention
     evidence, so why users choose it cannot be confirmed.'
+- id: req-full-bops-2026-10-11
+  project_slug: bops
+  level: full
+  reviewed_at: '2026-10-11T01:29:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图让 AI 机器人代发邮件、打电话、操作网页系统，但公开证据全部指向同名冰淇淋店、TikTok 舞蹈标签和无关搜索页，没有任何用户痛点、旧替代或采用行为，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-36393688825118ba
+    - ev-ce7aea9860b31180
+    - ev-9515e2a97b18b1c9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bops.bot 官网的定价页、客户案例或部署文档，确认是否有真实运营团队使用其 AI 机器人代发邮件、打电话或操作网页系统。
+  market: ''
+  job: 小团队运营或行政人员把需要发邮件、打电话、在网页系统里操作的日常事务交给 Bops 的多个 AI 机器人，每个机器人有自己的电脑、邮箱和电话号码，由它们代为执行这些事务。
+  job_en: A small team's ops or admin staff hands off day-to-day tasks that require sending email, making
+    calls, and operating web-based systems to Bops' AI bots, each with its own computer, email address,
+    and phone number, so the bots carry out the work.
+  pain: 公开材料未提供任何用户痛点证据：现有证据全部指向同名冰淇淋店、TikTok 舞蹈标签和无关搜索页，没有运营人员抱怨、workaround 或客户案例。
+  pain_en: 'Public materials provide no user-pain evidence: all available evidence points to a same-named
+    frozen-custard shop, a TikTok dance tag, and an unrelated search page, with no ops-staff complaints,
+    workarounds, or customer cases.'
+  current_alternative: 公开材料未说明用户目前如何完成这些事务，也未说明 Bops 实际替代了外包、虚拟助理还是人工手动操作。
+  current_alternative_en: Public materials do not show how users currently complete these tasks, nor whether
+    Bops replaces outsourcing, virtual assistants, or manual human work.
+  usage_reason: 公开材料未提供任何用户选择理由；现有证据无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法判断用户为何会采用它。
+  usage_reason_en: Public materials offer no reason users choose it; the available evidence cannot show
+    which step of the old workflow it removes or which verifiable result it improves, so why users would
+    adopt it cannot be judged.

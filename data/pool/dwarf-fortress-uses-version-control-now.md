@@ -31,7 +31,7 @@ summary: 'I remember hearing a while ago that Dwarf Fortress didn''t use version
   control stuff to use now, so the process is definitely a little more involved" That'
 first_seen: '2026-10-11T01:01:42Z'
 last_seen: '2026-10-11T01:01:42Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

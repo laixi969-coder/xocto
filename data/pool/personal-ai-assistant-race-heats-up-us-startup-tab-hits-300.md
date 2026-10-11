@@ -23,7 +23,7 @@ summary: 'Personal AI Assistant Race Heats Up: US Startup Tab Hits $300 Million 
   Launch BigGo Finance'
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

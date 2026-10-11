@@ -125,3 +125,45 @@
   usage_reason_en: 'Why users would choose it cannot be judged: all evidence is historical material about
     the painter Rembrandt, with no product capability, user feedback, or adoption behavior to establish
     a causal link.'
+- id: req-full-rembrandt-2026-10-11
+  project_slug: rembrandt
+  level: full
+  reviewed_at: '2026-10-11T01:31:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决独立摄影师交付前的 RAW 处理与蒙版局部调整，但公开证据全部指向17世纪画家伦勃朗，未记录任何用户痛点、替代行为或不解决的后果，无法还原真实任务闭环。
+    evidence_ids:
+    - ev-70b7049c6a5ccf74
+    - ev-0c6402990b45621c
+    - ev-49c3c815623a9014
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源项目的官方仓库 README、release 说明与 issue/discussion，确认其实际 AI 编辑能力、支持的 RAW 格式与部署方式。
+  market: ''
+  job: 独立摄影师或小型工作室在交付客户成片前，处理 RAW 素材并做蒙版局部调整，最终输出可交付的图片文件。
+  job_en: Independent photographers or small studios process RAW files and make masked local adjustments
+    before delivering client images, ultimately exporting deliverable image files.
+  pain: 公开材料未提供任何用户痛点、抱怨或既有替代行为的证据；现有证据全部指向17世纪荷兰画家伦勃朗，与照片后期产品无关。
+  pain_en: Public materials provide no user pain, complaint, or existing workaround evidence; all collected
+    evidence refers to the 17th-century Dutch painter Rembrandt, unrelated to a photo post-processing
+    product.
+  current_alternative: 公开材料未说明用户目前用什么工具完成 RAW 处理与蒙版局部调整，也未说明它替代了什么旧流程。
+  current_alternative_en: Public materials do not indicate what tools users currently use for RAW processing
+    and masked local adjustments, nor what prior workflow it replaces.
+  usage_reason: 无法从现有证据推断用户为何选择它；所有引用证据均与产品无关，缺少产品文档、用户反馈或使用数据来支撑任何采用理由。
+  usage_reason_en: No usage reason can be inferred from current evidence; all cited evidence is unrelated
+    to the product, lacking product documentation, user feedback, or usage data to support any adoption
+    rationale.

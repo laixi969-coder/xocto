@@ -551,3 +551,53 @@
     their story, letting the agent produce a film along the existing demo structure and skipping from-scratch
     style design and tuning; creators lacking a video model or wanting fast style alignment would choose
     it in that situation.'
+- id: req-full-lemo-opuscar-2026-10-11
+  project_slug: lemo-opuscar
+  level: full
+  reviewed_at: '2026-10-11T01:30:47Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是风格化短片制作门槛高、缺少可复用风格模板与样片参照的需求，痛点是制作成本与风格定义负担；仓库以 43 种风格提示词加纯代码样片给出输入—动作—交付闭环，属工作流结构推理，公开材料未量化不采用代价。
+    evidence_ids:
+    - ev-6290389f59a20c4e
+    - ev-af3884adad5a651a
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 1,194 增至 1,812，说明开发者社区持续关注并把它纳入收藏；但收藏只属关注度证据，公开材料未显示目标创作者已将其长期留在工作流中，故共识成立而持续采用未核验。
+    evidence_ids:
+    - ev-6290389f59a20c4e
+    - ev-af3884adad5a651a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，无法判断钱来自 to C 创作者、to B 品牌团队还是 to VC；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-6290389f59a20c4e
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明样片由 Claude Opus 5.5 纯代码生成，但公开材料未给出可复现的成片交付流程、人工确认环节与安全边界，交付能否稳定发生尚缺公开证据。
+    evidence_ids:
+    - ev-6290389f59a20c4e
+    - ev-4b6c4658fc477607
+  next_validation: 追踪 lemo-opuscar 官方仓库的 README、issue 与 discussion，确认是否有用户公开报告实际用其风格提示词产出成片及交付流程。
+  market: ''
+  job: 短片创作者或品牌内容团队在需要产出风格化短片时，先选定一种影片风格，把自己的故事素材交给 Claude Code 代理，由它按该风格的提示词与纯代码样片生成一段可播放的成片。
+  job_en: A short-film creator or brand content team, needing a stylized short film, picks one of the
+    film styles, hands their own story material to a Claude Code agent, and has it generate a playable
+    short following that style's prompt and code-only demo film.
+  pain: 公开材料显示该仓库以 43 种风格提示词加纯代码样片替代逐帧手工制作，说明痛点是风格化短片制作门槛高、缺少可复用的风格模板与可参照样片；但公开证据未给出不采用的具体代价与发生频率，属结构推理。
+  pain_en: Public material shows the repo substitutes 43 style prompts plus code-only demo films for frame-by-frame
+    manual production, implying the pain is the high barrier to stylized short-film production and the
+    lack of reusable style templates and reference samples; the concrete cost and frequency of not adopting
+    it are not shown publicly, so this is structural inference.
+  current_alternative: 旧做法是人工编写分镜、逐帧制作或使用通用视频生成模型；该仓库提供的是风格提示词加纯代码样片，公开材料未说明用户此前具体使用哪种工具。
+  current_alternative_en: The old approach is manually writing storyboards, frame-by-frame production,
+    or using general video-generation models; this repo offers style prompts plus code-only demo films,
+    and public material does not state which tool users previously used.
+  usage_reason: 推断：相较从零构思风格与分镜，用户可直接选用 43 种风格中已带样片的一种，把风格提示词交给代理执行，省去自行定义视觉风格与搭建样片参照的步骤，因此需要快速产出风格化短片的创作者会在起步阶段选择它。
+  usage_reason_en: 'Inference: instead of conceiving style and storyboard from scratch, users can pick
+    one of 43 styles that already ships with a demo film and hand the style prompt to the agent, skipping
+    the step of defining a visual style and building a reference sample, so creators needing fast stylized
+    shorts would choose it at the starting stage.'

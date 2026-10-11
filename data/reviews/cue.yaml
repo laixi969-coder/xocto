@@ -1,0 +1,82 @@
+- id: req-initial-cue-2026-10-11
+  project_slug: cue
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句戴上耳机即专注的描述，价值关无法成立。
+    evidence_ids:
+    - ev-2f6ed15e1ec21346
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无采用或留存证据。
+    evidence_ids:
+    - ev-2f6ed15e1ec21346
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料。
+    evidence_ids:
+    - ev-2f6ed15e1ec21346
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，是否含 AI 处理与交付是否确定均无从判断。
+    evidence_ids:
+    - ev-2f6ed15e1ec21346
+  next_validation: 抓取 Cue 官方产品页或定价页，确认它如何检测 AirPods 佩戴、切换哪些系统设置、是否含 AI 处理及如何收费。
+  market: ''
+  job: 尚未确认具体使用者；从描述推断，可能是 Mac 用户戴上 AirPods 准备进入专注工作时，希望电脑自动切换到专注状态。
+  job_en: The specific user is unconfirmed; the description suggests Mac users who put on AirPods to start
+    focused work and want the machine to switch into a focus state automatically.
+  pain: 候选资料未说明任何具体痛点，无法判断手动切换专注模式带来多大负担。
+  pain_en: The candidate material states no concrete pain point, so how burdensome manual focus switching
+    is cannot be judged.
+  current_alternative: 公开材料未给出旧做法，无法确认此前是手动开启专注模式、使用系统快捷指令还是其他工具。
+  current_alternative_en: No prior practice is given; whether users previously toggled focus mode by hand,
+    used system shortcuts or another tool cannot be confirmed.
+  usage_reason: 缺少触发判断与系统动作的说明，无法解释相较手动切换减少了哪一步负担。
+  usage_reason_en: With no description of how the trigger is detected or which system actions follow,
+    there is no basis to explain which step it removes versus manual switching.
+- id: req-full-cue-2026-10-11
+  project_slug: cue
+  level: full
+  reviewed_at: '2026-10-11T01:29:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决戴上 AirPods 后自动进入专注状态的需求，但公开材料未说明任何具体痛点、触发判断方式与系统动作，连旧替代做法都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-46ec6d79e8931c79
+    - ev-f8503411fd01e0f4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Cue 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 候选资料未确认具体使用者；从摘要推断，可能是 Mac 用户在戴上 AirPods 准备进入一段专注工作时，希望电脑自动切换到专注状态，省去手动操作。
+  job_en: The specific user is unconfirmed; the summary suggests Mac users who put on AirPods to begin
+    a focused work session and want the machine to switch into a focus state automatically instead of
+    doing it by hand.
+  pain: 公开材料没有说明任何具体痛点，也未说明手动切换专注模式或系统设置带来多大负担，无法判断该需求是否刚性。
+  pain_en: The public material states no concrete pain point and does not describe how burdensome manually
+    toggling focus mode or system settings is, so the rigidity of the need cannot be judged.
+  current_alternative: 公开材料未给出旧做法，无法确认此前是手动开启专注模式、使用系统快捷指令、还是其他自动化工具。
+  current_alternative_en: No prior practice is given, so whether users previously toggled focus mode by
+    hand, used system shortcuts, or relied on another automation tool cannot be confirmed.
+  usage_reason: 缺少佩戴检测方式与系统动作的说明，无法解释相较手动切换减少了哪一步负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no description of how wearing is detected or which system actions follow, there
+    is no basis to explain which step it removes versus manual switching, so which users would choose
+    it and when cannot be judged.

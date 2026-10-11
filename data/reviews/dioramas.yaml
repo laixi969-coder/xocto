@@ -386,3 +386,46 @@
     sites, letting front-end and design staff assemble assets into a page inside a single repository and
     skip coordinating separate modeling and front-end vendors; public material gives no measured step
     savings or output quality, so this is a capability-based judgment, not a verified reason users '
+- id: req-full-dioramas-2026-10-11
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-11T01:29:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决三维发布页素材与编排成本高的问题，但全部证据指向同名实体微缩景观手工，未提供任何三维网页制作者的任务、痛点或旧做法，连需求与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-8f46f1d4e8a0f2c4
+    - ev-de41c1174ab5cf5c
+    - ev-724cb1e42cc3933d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该框架的官方仓库 README、issue 与 discussion，确认是否存在真实团队用它交付三维发布页的记录及素材与部署流程说明。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 公开材料未提供任何关于三维发布页制作痛点的用户陈述、抱怨或工作流记录；现有证据全部指向实体微缩景观模型（diorama）这一同名手工爱好，与三维网页框架无关，无法据此还原真实痛点。
+  pain_en: The public material contains no user statements, complaints, or workflow records about the
+    pain of building 3D launch pages; all evidence points to physical miniature dioramas, an unrelated
+    craft hobby sharing only the name, so no real pain can be reconstructed.
+  current_alternative: 公开材料未记录三维网页制作者当前使用的替代方式；现有证据描述的是学校手工项目与博物馆实体微缩景观，不构成该任务的旧做法。
+  current_alternative_en: The public material does not record what alternatives 3D web builders currently
+    use; the existing evidence describes school craft projects and museum physical dioramas, which are
+    not prior practice for this task.
+  usage_reason: 无法判断：证据中没有该框架的用户反馈、客户案例或采用记录，也没有可核对的输入—动作—交付闭环，因此不能说明哪类用户会因什么具体动作选择它。
+  usage_reason_en: 'Cannot be determined: the evidence contains no user feedback, customer cases, or adoption
+    records for this framework, nor a verifiable input-action-delivery loop, so it cannot explain which
+    users would choose it for what concrete action.'

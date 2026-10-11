@@ -127,3 +127,45 @@
   usage_reason: 无法给出使用理由：现有证据没有一条描述该产品的输入、动作或交付结果，任何选择动机都只能凭空编造，因此不作推断。
   usage_reason_en: 'No usage reason can be given: no evidence describes this product''s inputs, actions
     or outputs, so any adoption motive would be fabricated and is therefore withheld.'
+- id: req-full-shipyard-2026-10-11
+  project_slug: shipyard
+  level: full
+  reviewed_at: '2026-10-11T01:32:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述的是编码代理工作区编排，但全部引用证据均为现实造船厂条目与码头介绍，与产品任务无关，无法还原用户任务、痛点与旧替代，价值结构无从建立。
+    evidence_ids:
+    - ev-e9f3bb4ddb6f8f7e
+    - ev-01de4b0a469f3082
+    - ev-78e1317f36fda29e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或官网，收集 README、部署文档与 issue/discussion，确认其多代理 worktree 编排的实际交付流程与失败处理方式。
+  market: ''
+  job: 开发者在本机同时运行多个编码代理时，需要把每个代理的代码改动、分支和终端会话分开管理，最后合并成可提交的改动。
+  job_en: Developers running multiple coding agents locally need to keep each agent's code changes, branches
+    and terminal sessions separate, then merge them into committable changes.
+  pain: 公开证据中没有任何关于该产品用户痛点的材料：所引证据全部指向现实中的造船厂（Wikipedia 的 Shipyard 条目、船厂列表、Safe Harbor 码头），与编码代理工作区管理无关，无法还原用户遇到的具体困难。
+  pain_en: 'No public evidence describes this product''s user pain: all cited evidence refers to physical
+    shipyards (Wikipedia''s Shipyard article, a list of shipbuilders, Safe Harbor marina), unrelated to
+    coding-agent workspace management, so no concrete user difficulty can be reconstructed.'
+  current_alternative: 公开材料未提供任何关于开发者当前如何绕过该问题的证据，无法说明旧做法是手工切分支、开多终端还是串行运行单个代理。
+  current_alternative_en: Public material provides no evidence of how developers currently work around
+    this problem, so it cannot be said whether the old practice is manual branch switching, multiple terminals,
+    or running one agent serially.
+  usage_reason: 无法判断：证据中没有产品页面、文档或用户反馈说明它通过什么具体动作减少哪一步负担，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: no product page, documentation or user feedback in the evidence
+    shows what concrete step it removes, so it cannot be explained which users would choose it and when.'

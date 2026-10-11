@@ -367,3 +367,51 @@
     the step of hand-building isolation and stitching logs, so small teams that need to audit agent execution
     or reuse environments across machines would pick it in that situation; public materials contain no
     user feedback or customer cases confirming this motive.'
+- id: req-full-agentbox-2026-10-11
+  project_slug: agentbox
+  level: full
+  reviewed_at: '2026-10-11T01:28:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决命令行编码代理会话、容器隔离与用量分散的问题，旧做法是手工终端加自写 Docker 脚本，痛点具体且可核对；这是基于仓库自述与工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-de82c83218d60b2a
+    - ev-4623553d26791ac1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 141 增至 154，属早期关注度，只能说明有人关注，不能证明团队已把它放进日常工作流或持续使用。
+    evidence_ids:
+    - ev-de82c83218d60b2a
+    - ev-4623553d26791ac1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是自建环境的研发团队，这是判断而非已验证事实；开源仓库本身不构成收入证据。
+    evidence_ids:
+    - ev-de82c83218d60b2a
+  - gate: truth
+    status: insufficient
+    reason: 自托管与容器隔离方向合理，但缺少部署文档、issue 讨论或实测来确认容器会话隔离与用量记录能否确定性交付。
+    evidence_ids:
+    - ev-de82c83218d60b2a
+    - ev-4623553d26791ac1
+  next_validation: 追踪该 公开代码仓库 仓库的 README/部署文档与 issue、discussion，确认容器会话隔离与用量记录是否可复现、是否有用户报告实际使用。
+  market: ''
+  job: 开发者在本地或服务器上运行 Claude Code、Codex CLI 等命令行编码代理时，需要把多个代理会话、容器环境、文件改动、Git 状态和用量记录集中在一个浏览器工作区里管理，以便随时回到某个会话继续或回溯。
+  job_en: Developers running command-line coding agents such as Claude Code and Codex CLI locally or on
+    a server need to manage multiple agent sessions, container environments, file changes, Git state and
+    usage records in one browser workspace so they can resume or trace back any session.
+  pain: 代理在裸终端里跑，会话、容器、Git 改动和用量分散在各处，出问题难以回溯，换机器或换项目时环境难以复用，多会话并行时容易互相污染。
+  pain_en: Agents run in a bare terminal, so sessions, containers, Git changes and usage are scattered,
+    hard to trace when something breaks, hard to reuse across machines or projects, and parallel sessions
+    can contaminate each other.
+  current_alternative: 手工开多个终端、自己写 Docker 脚本做隔离、用 shell 历史或零散日志记录用量，没有统一工作区。
+  current_alternative_en: Opening multiple terminals by hand, writing ad-hoc Docker scripts for isolation,
+    and relying on shell history or scattered logs for usage, with no unified workspace.
+  usage_reason: 推断：相较手工终端加自写脚本，它把容器会话、终端、文件和 Git 收进同一浏览器界面并附带用量记录，省去开发者自己搭隔离环境和拼日志这一步，因此需要审计代理执行过程或跨机器复用环境的小团队会在多会话并行时选择它。
+  usage_reason_en: 'Inference: compared with hand-rolled terminals and scripts, it puts container sessions,
+    terminal, files and Git into one browser interface with usage records, removing the step of hand-building
+    isolation and stitching logs, so small teams that need to audit agent execution or reuse environments
+    across machines would pick it when running parallel sessions.'

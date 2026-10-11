@@ -130,3 +130,47 @@
   usage_reason_en: 'No usage reason can be given: all available evidence points to Invisible Technologies
     enterprise services, a dictionary entry and an invisible-character generator, none related to this
     MCP product, so it cannot be shown which step it removes versus the old approach.'
+- id: req-full-invisible-playwright-mcp-2026-10-11
+  project_slug: invisible-playwright-mcp
+  level: full
+  reviewed_at: '2026-10-11T01:30:34Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部是词典释义、无关的 Invisible Technologies 官网和隐形文本生成器，没有该 MCP 项目自身的功能说明、用户任务或痛点记录，连它解决什么需求、什么痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-5b4fa81de1fc823c
+    - ev-2334d1c175ebdd20
+    - ev-a8e9b36a4cc41f48
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 MCP 项目自身的公开仓库 README、issue 与 discussion，确认其反检测能力说明、被目标站点封禁记录及合规使用边界。
+  market: ''
+  job: 数据采集或自动化测试工程师在目标站点启用反爬与验证码、常规脚本被拦截时，把该 MCP 服务接入 AI 代理，让代理在反检测 Firefox 上打开页面、点击并抓取，产出可用的页面数据或操作结果。
+  job_en: A data-collection or automation-testing engineer, when a target site enables anti-bot and captcha
+    defenses that block ordinary scripts, wires this MCP server into an AI agent so the agent browses,
+    clicks and scrapes on anti-detect Firefox and produces usable page data or action results.
+  pain: 公开证据中没有该产品自身的用户痛点、被拦截记录或工作流抱怨，无法确认脚本被风控拦截后反复修补这一痛点真实存在及其强度。
+  pain_en: The public evidence contains no user pain, block records or workflow complaints tied to this
+    product itself, so it cannot be confirmed that the pain of repeatedly patching scripts after risk-control
+    blocks is real or how severe it is.
+  current_alternative: 公开材料未提供该产品用户当前使用的替代方式；只能从任务结构推断可能为自建 Selenium/Playwright 加代理池与指纹补丁，或购买商业采集接口，但无证据支持。
+  current_alternative_en: The public material provides no current alternative used by this product's users;
+    only a structural inference is possible (self-built Selenium/Playwright with proxy pools and fingerprint
+    patches, or commercial scraping APIs), and it is unsupported by evidence.
+  usage_reason: 缺少该产品自身的功能说明、文档或用户反馈，无法说明它相较旧做法减少哪一步负担或改善哪项可核对结果，因此无法给出用户选择它的因果解释。
+  usage_reason_en: With no product-specific documentation, feature description or user feedback, it is
+    impossible to say which step it removes or which checkable result it improves versus the old approach,
+    so no causal reason for choosing it can be given.

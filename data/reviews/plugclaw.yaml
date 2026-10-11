@@ -1,0 +1,38 @@
+- id: req-initial-plugclaw-2026-10-11
+  project_slug: plugclaw
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知是私有代理硬件，无法说清解决什么需求、什么痛点，价值关证据不足。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值未成立，社区讨论量小且无具体使用场景描述。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值未成立，买方与收费方式均无公开材料。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值未成立，无法判断交付是否确定发生。
+    evidence_ids: []
+  next_validation: 收集 PlugClaw 官方产品页或部署文档，确认它接入哪些设备、执行什么任务、交付什么结果。
+  market: ''
+  job: 个人或小团队用户希望在手机或电脑上运行自己的 AI 代理，处理本地文件与私人数据而不上传云端，具体任务与材料仍待核验。
+  job_en: Individuals or small teams want to run their own AI agent on phone or PC, handling local files
+    and private data without uploading to the cloud; the concrete task and materials still need verification.
+  pain: 公开材料只给出定位，未说明用户原来卡在哪一步、不解决会失去什么，痛点无法从现有事实还原。
+  pain_en: Public material only states positioning; it does not show which step users were stuck on or
+    what they lose by not solving it, so the pain cannot be reconstructed from available facts.
+  current_alternative: 现有替代可能是云端通用助手、本地开源模型自建，或直接不用代理，但候选未提供任何对比事实。
+  current_alternative_en: The likely alternatives are cloud general assistants, self-hosted local open
+    models, or simply not using an agent, but the candidate provides no comparison facts.
+  usage_reason: 推断：若硬件真能让代理在本地读取文件并完成一项可核对的任务，隐私敏感用户可能因不愿上传材料而选择它；目前缺少任何采用或交付证据。
+  usage_reason_en: 'Inference: if the hardware truly lets an agent read local files and complete one verifiable
+    task, privacy-sensitive users might choose it to avoid uploading materials; there is currently no
+    adoption or delivery evidence.'

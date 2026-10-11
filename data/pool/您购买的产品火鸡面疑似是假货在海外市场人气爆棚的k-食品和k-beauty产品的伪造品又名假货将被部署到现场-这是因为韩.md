@@ -22,7 +22,7 @@ summary: '"您购买的产品（火鸡面）疑似是假货。"在海外市场�
   매일경제'
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

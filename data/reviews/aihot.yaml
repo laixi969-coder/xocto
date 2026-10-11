@@ -519,3 +519,55 @@
     the manual collection and first-pass screening steps, so editors or operators who want their own industry
     hotspot site without writing scraping and filtering logic from scratch would choose it; public materials
     provide no user feedback or retention evidence for this motive.'
+- id: req-full-aihot-2026-10-11
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-11T01:28:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是行业资讯编辑每天从多信源挑条目、写中文标题摘要并排成日报的需求，痛点是重复性人工筛选与同一事件归并排序，漏判直接影响日报质量；公开材料已给出输入（一批信源）、动作（大模型筛选、两次独立打分、事件聚合排序）与交付（每日
+      08:00 日报），属工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-01b6fe12181ad00f
+    - ev-526cf5d8c4beb837
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明它每天 08:00 发布精编日报、按北京时间时间轴整理，能看出有固定产出节奏，但没有可归因到该产品的访问量、订阅、复刻或持续使用数据，无法判断目标编辑是否把它留在工作流里。
+    evidence_ids:
+    - ev-526cf5d8c4beb837
+    - ev-e4dd24e052c346b7
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，钱可能来自自建站运营者自用、内容站订阅或 to VC，均属判断而非已验证事实；这是模式缺口，不否定价值关成立。
+    evidence_ids:
+    - ev-7591fc451980d1e6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明筛选规则可配置到什么程度、信源与精选标准替换后的交付是否稳定，也未给出人工复核与错误筛选的安全边界，承诺能否确定性交付尚缺可复现证据。
+    evidence_ids:
+    - ev-01b6fe12181ad00f
+    - ev-9c5535df52c3f807
+  next_validation: 追踪 AIHOT 的 公开代码仓库 仓库 README、issue 与 discussion，确认信源配置方式、筛选规则可替换程度以及是否有使用者公开部署案例。
+  market: ''
+  job: 行业资讯编辑或想自建垂直热点站的运营者，每天面对一批分散的 AI 信源（产品发布、行业动态、论文、技巧），需要挑出当天真正值得看的条目、写成中文标题摘要并排成一份可发布的日报。
+  job_en: An industry news editor or operator building a vertical news site faces a scattered set of AI
+    sources (product launches, industry news, papers, tips) each day and must pick the day's genuinely
+    worthwhile items, write Chinese headlines and summaries, and lay them out as a publishable daily digest.
+  pain: 公开材料显示旧做法是人工从一批信源里收资料、逐条判断价值并手写标题摘要；同一事件被多家来源重复报道时还要人工归并排序。这是每天重复发生、且漏掉或误判会直接影响日报质量的刚性编辑工作。
+  pain_en: Public materials show the old approach is manually collecting material from a set of sources,
+    judging each item's value and hand-writing headlines and summaries; when several sources cover the
+    same event, a human must also merge and rank them. This is rigid, daily-recurring editorial work where
+    misses or misjudgments directly degrade the digest.
+  current_alternative: 人工翻多个信源、凭经验挑条目、手写中文标题摘要并手动排版；或直接转载他人已编好的日报。
+  current_alternative_en: Manually scanning multiple sources, picking items by experience, hand-writing
+    Chinese headlines and summaries, and laying out by hand; or simply reposting someone else's already-edited
+    digest.
+  usage_reason: 推断：相较人工逐条筛选，AIHOT 用大模型先筛一遍、再独立打两次分挑出值得看的条目，把多来源同一事件聚成一个事件并按讨论量排序，再自动生成日报页面，减少的是逐条判断与归并排序这两步人工负担；因此每天要出垂直日报、又不想从零搭抓取与筛选管线的编辑或运营者会选它。
+  usage_reason_en: 'Inference: versus manual item-by-item triage, AIHOT first screens with an LLM, then
+    independently scores twice to pick worthwhile items, clusters the same event across sources and ranks
+    by discussion volume, then auto-generates the digest page, removing the manual triage and merge-and-rank
+    steps; editors or operators who must ship a vertical daily digest but do not want to build a crawl-and-filter
+    pipeline from scratch would choose it.'

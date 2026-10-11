@@ -1,0 +1,83 @@
+- id: req-initial-claude-dashboards-motion-2026-10-11
+  project_slug: claude-dashboards-motion
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决汇报材料制作耗时的问题，但材料未说明替代了哪一步手工动作，交付形态也不清楚。
+    evidence_ids:
+    - ev-c87325289e2735c2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：无用户评价或采用信号，无法判断是否有人真的用它做汇报。
+    evidence_ids:
+    - ev-c87325289e2735c2
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露定价与买方，无法判断钱从哪来。
+    evidence_ids:
+    - ev-c87325289e2735c2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对看板数据是否准确、动画是否可直接用于汇报。
+    evidence_ids:
+    - ev-c87325289e2735c2
+  next_validation: 收集该产品官方页面或文档，确认数据源接入方式、输出格式以及是否保留人工校对环节。
+  market: ''
+  job: 分析师或内容制作者在汇报前，把数据或说明材料交给 Claude，生成可展示的实时看板与动画讲解。
+  job_en: Analysts or content producers hand data or explanatory material to Claude before a review to
+    generate presentable live dashboards and animated explainers.
+  pain: 做看板和动画讲解通常要在多个工具间手工搬运数据、调格式，耗时且易错；但材料未说明它替代了哪一步具体手工动作。
+  pain_en: Building dashboards and animated explainers usually means manually moving data and fixing formats
+    across several tools, which is slow and error-prone; the material does not say which specific manual
+    step it replaces.
+  current_alternative: 用 BI 工具做看板、用演示或动效软件手工制作讲解动画。
+  current_alternative_en: Building dashboards in BI tools and hand-making explainer animations in presentation
+    or motion software.
+  usage_reason: 推断：若对话能直接产出可展示的看板与动画，可省去跨工具搬运数据和调格式的步骤，频繁做数据汇报的人可能选择它；但材料只有一句描述，交付质量与数据准确性无法确认。
+  usage_reason_en: 'Inference: if conversation directly yields presentable dashboards and animations,
+    it removes the step of moving data and fixing formats across tools, which frequent data reporters
+    might pick; but the material is one line and neither output quality nor data accuracy can be confirmed.'
+- id: req-full-claude-dashboards-motion-2026-10-11
+  project_slug: claude-dashboards-motion
+  level: full
+  reviewed_at: '2026-10-11T01:29:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选描述称用 Claude 生成实时看板与动画讲解，但所引证据仅为 Claude 通用登录页与下载页，未出现看板、动画或相关用户痛点，无法还原具体任务与旧替代。
+    evidence_ids:
+    - ev-2dfdf2e0859018de
+    - ev-0f4df42733462516
+    - ev-82d24d991dada000
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官方文档或发布说明中是否出现 Claude 生成实时看板与动画讲解的功能页、示例输出或客户案例。
+  market: ''
+  job: 分析师或内容制作者在汇报前，把数据或说明材料交给 Claude，生成可展示的实时看板与动画讲解。
+  job_en: Analysts or content producers hand data or explanatory material to Claude before a review to
+    generate presentable live dashboards and animated explainers.
+  pain: 公开材料只说明 Claude 是通用 AI 助手，未提供任何关于看板或动画讲解的用户痛点、抱怨或替代行为证据。
+  pain_en: The public material only describes Claude as a general AI assistant and provides no user pain,
+    complaint, or workaround evidence about dashboards or animated explainers.
+  current_alternative: 公开材料未提及用户当前如何制作看板或动画讲解，无法确认替代方式。
+  current_alternative_en: The public material does not mention how users currently build dashboards or
+    animated explainers, so the alternative cannot be confirmed.
+  usage_reason: 公开材料未包含任何用户选择该功能的原因或使用反馈，无法判断用户为何会采用它。
+  usage_reason_en: The public material contains no user reason for choosing this feature or usage feedback,
+    so why users would adopt it cannot be determined.

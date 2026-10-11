@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQUlZYbXdSb2VG
 summary: At 16, She Founded An AI Startup Valued At Rs 100 Crore. Here’s Her Story NDTV Profit
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

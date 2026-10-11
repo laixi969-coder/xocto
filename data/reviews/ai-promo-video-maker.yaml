@@ -1,0 +1,90 @@
+- id: req-initial-ai-promo-video-maker-2026-10-11
+  project_slug: ai-promo-video-maker
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是发布期做宣传片这一具体任务，痛点在于手工剪辑耗时或外包改稿慢，旧行为明确存在，交付物是一支成片。
+    evidence_ids:
+    - ev-7ab92c686667e8a7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 104 星与 16 次 fork，说明有开发者关注，但公开材料未见真实成片案例或团队持续使用记录，共识强度有限。
+    evidence_ids:
+    - ev-7ab92c686667e8a7
+  - gate: model
+    status: insufficient
+    reason: 开源可克隆，未见定价页或收费方式；买方可能是自用开发者或代做服务方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7ab92c686667e8a7
+  - gate: truth
+    status: insufficient
+    reason: 旁白转写校验与自动审图是贴近交付质量的设计，但成片是否达到可投放水准、人工仍需确认到哪一步，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-7ab92c686667e8a7
+  next_validation: 收集该仓库的 issue、discussion 或 README 中公开的真实成片案例与二次使用记录，核验交付质量与重复使用情况。
+  market: ''
+  job: 独立开发者、SaaS 或课程团队在发布新品时，需要把产品页面、截图和卖点整理成一支能对外投放的宣传片，用于官网、社媒和发布渠道。
+  job_en: Indie developers, SaaS or course teams launching a new product need to turn product pages, screenshots
+    and selling points into a promo video for their site, social channels and launch posts.
+  pain: 过去要么自己学剪辑软件花数天做一支片，要么按条外包给剪辑师，沟通成本高、改稿慢，且产品页面更新后视频往往来不及同步。
+  pain_en: Previously they either spent days learning editing software for one video or outsourced per
+    video to an editor, with high communication cost, slow revisions, and videos that lag behind product
+    page updates.
+  current_alternative: 自己用剪辑软件手工做，或按条付费找剪辑外包；也有用通用视频生成工具，但需要自己准备素材、脚本和卡点。
+  current_alternative_en: Editing by hand in video software, or paying an editor per video; some use generic
+    video generators but still prepare assets, scripts and beat timing themselves.
+  usage_reason: 推断：相较手工剪辑或外包，它把调研、截图、卡点、配音、审图串成一次代理执行，用户只需确认需求和试听配乐，省掉的是逐帧剪辑与来回改稿这一步，因此发布节奏紧、预算不足以长期外包的小团队会优先试它。
+  usage_reason_en: 'Inference: compared with hand editing or outsourcing, it chains research, capture,
+    beat-cutting, voiceover and visual review into one agent run, leaving the user only to confirm requirements
+    and audition music, removing frame-by-frame editing and revision rounds, so small teams with tight
+    launch schedules and no budget for ongoing outsourcing would try it first.'
+- id: req-full-ai-promo-video-maker-2026-10-11
+  project_slug: ai-promo-video-maker
+  level: full
+  reviewed_at: '2026-10-11T01:28:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布期做宣传片这一具体任务，痛点在于手工剪辑耗时或外包改稿慢，旧行为明确存在，交付物是一支成片；这是基于产品说明与旧流程的结构推理。
+    evidence_ids:
+    - ev-7ab92c686667e8a7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 104 星，说明有开发者关注，但公开材料未见真实成片案例或团队持续使用记录，共识强度有限。
+    evidence_ids:
+    - ev-7ab92c686667e8a7
+  - gate: model
+    status: insufficient
+    reason: 开源可克隆，未见定价页或收费方式；买方可能是自用开发者或代做服务方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7ab92c686667e8a7
+  - gate: truth
+    status: insufficient
+    reason: 旁白转写校验与自动审图贴近交付质量，但成片是否达到可投放水准、人工仍需确认到哪一步，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-7ab92c686667e8a7
+  next_validation: 收集该仓库的 issue、discussion 或 README 中公开的真实成片案例与二次使用记录，核验交付质量与重复使用情况。
+  market: ''
+  job: 独立开发者、SaaS 或课程团队在发布新品时，把产品名或网址交给 Cursor、Claude Code 等编程代理，由它调研产品、截取 4K 真实页面、按节拍剪辑、生成旁白并校验，最终产出一支可投放的
+    4K 宣传片和网页版。
+  job_en: Indie developers, SaaS or course teams launching a product hand a product name or URL to a coding
+    agent (Cursor, Claude Code), which researches the product, captures 4K real pages, beat-cuts, generates
+    and verifies voiceover, and delivers a 4K promo video plus a web-playable version.
+  pain: 发布期做一支宣传片要么自己学剪辑软件耗数天，要么按条外包给剪辑师，沟通与改稿慢；产品页面更新后视频常来不及同步，小团队预算不足以长期外包。
+  pain_en: Making one promo video at launch means either days learning editing software or paying an editor
+    per video with slow communication and revisions; videos lag behind page updates, and small teams cannot
+    fund ongoing outsourcing.
+  current_alternative: 自己用剪辑软件手工做，或按条付费找剪辑外包；也有用通用视频生成工具，但需自己准备素材、脚本和卡点。
+  current_alternative_en: Editing by hand in video software, or paying an editor per video; some use generic
+    video generators but still prepare assets, scripts and beat timing themselves.
+  usage_reason: 推断：相较手工剪辑或外包，它把调研、截图、卡点、配音、审图串成一次代理执行，用户只需确认需求和试听配乐，省掉逐帧剪辑与来回改稿这一步，因此发布节奏紧、预算不足以长期外包的小团队会优先试它。
+  usage_reason_en: 'Inference: versus hand editing or outsourcing, it chains research, capture, beat-cutting,
+    voiceover and visual review into one agent run, leaving the user only to confirm requirements and
+    audition music, removing frame-by-frame editing and revision rounds, so small teams with tight launch
+    schedules and no budget for ongoing outsourcing would try it first.'

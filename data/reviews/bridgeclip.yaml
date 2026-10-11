@@ -669,3 +669,52 @@
     app has AI directly output candidate short clips, removing the manual burden of highlight spotting
     and rough cutting, so editors or operators needing batch short-form output would pick it for long
     footage; public materials provide no user feedback or case to support this motive.'
+- id: req-full-bridgeclip-2026-10-11
+  project_slug: bridgeclip
+  level: full
+  reviewed_at: '2026-10-11T01:29:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是从长视频中批量切出可发布短片这一具体任务，痛点是逐帧回看与手动标记入出点的重复劳动；不解决的后果是剪辑师被机械性挑片占用时间。公开材料仅说明其为开源 AI 剪辑桌面应用，未给出用户自述痛点，故价值判断基于工作流结构推理。
+    evidence_ids:
+    - ev-75159e4d350af86c
+    - ev-eb84d2d042730675
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 364 缓慢升至 368，说明有开发者关注并收藏，但收藏不等于目标剪辑用户持续使用；公开材料未见 issue、discussion 或用户评价说明谁在什么场景下真正采用它。
+    evidence_ids:
+    - ev-75159e4d350af86c
+    - ev-362b58e3adb33fe4
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；作为开源桌面应用，钱可能来自赞助、托管服务或后续商业版，但公开材料未披露任何付费路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-820831eacbff90f9
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输入格式、切分规则、导出流程与人工确认边界，无法核验 AI 切出的片段是否可直接交付，也无法判断本地处理与素材安全承诺能否确定性兑现。
+    evidence_ids:
+    - ev-5b9083327ee422e4
+  next_validation: 追踪 bridgeclip 仓库的 README、release 说明与 issue/discussion，确认其输入格式、切分规则、导出流程及是否有用户报告实际用于发布工作流。
+  market: ''
+  job: 短视频剪辑师或自媒体运营者拿到一段长视频（访谈、直播回放、课程录像）后，需要从中挑出可独立发布的短片片段，并交付一批待人工确认的剪辑结果。
+  job_en: A short-form video editor or social media operator takes a long video (interview, livestream
+    replay, course recording) and must extract publishable short clips, delivering a batch of candidate
+    cuts for human review.
+  pain: 长素材逐帧回看、手动标记入出点是重复且耗时的人工劳动；公开材料只说明它是 AI 剪辑桌面应用，未给出用户自述的耗时、频率或不采用的具体代价，因此痛点强度属工作流结构推理而非用户口述。
+  pain_en: Reviewing long footage frame by frame and manually marking in/out points is repetitive manual
+    labor; public materials only describe it as an AI clipping desktop app and give no user-stated time
+    cost, frequency, or consequence, so pain intensity is a workflow inference, not user testimony.
+  current_alternative: 现有替代是 Premiere、Final Cut、剪映等通用非线性编辑器手动切分，或 Opus Clip、Descript 等云端 AI 剪辑服务；bridgeclip
+    以开源桌面应用形式出现，是这一替代谱系中的新选项。
+  current_alternative_en: The current alternative is manual cutting in general NLEs such as Premiere,
+    Final Cut, or CapCut, or cloud AI clipping services such as Opus Clip and Descript; bridgeclip appears
+    as an open-source desktop option in that replacement landscape.
+  usage_reason: 推断：相较在通用编辑器里逐段手动回看，它把“从长素材中定位候选片段”这一步交给 AI 自动完成，用户只需在桌面端确认结果，因此对需要批量产出短片、又不想把素材上传到云端的剪辑师和运营者更有吸引力；公开材料未提供用户自述的采用动机。
+  usage_reason_en: 'Inference: versus manually scrubbing a general NLE, it hands the ''locate candidate
+    segments in long footage'' step to AI and leaves the user to confirm results locally, which appeals
+    to editors and operators producing clips in batches who prefer not to upload footage to the cloud;
+    public materials give no user-stated adoption motive.'

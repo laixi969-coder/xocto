@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxPUEYyMlNGZ1ZK
 summary: 全屋AI家电：新一轮家电竞争的胜负手 长虹海尔创维建立领先 新浪网
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

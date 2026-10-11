@@ -23,7 +23,7 @@ summary: TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Ove
   sessions. Register before doors open to save up to $100 and get a second pass at 50% off.
 first_seen: '2026-10-11T01:01:42Z'
 last_seen: '2026-10-11T01:01:42Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -128,3 +128,52 @@
     and face meshes into one automatic selection pass and previews masks and generations in the same UI
     with original-audio export, removing per-frame tracing and tool-switching, so post artists needing
     fast character/object replacement on existing footage would pick it over reshoots.'
+- id: req-full-genjustsu-open-source-workflow-2026-10-11
+  project_slug: genjustsu-open-source-workflow
+  level: full
+  reviewed_at: '2026-10-11T01:30:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是成片人物/物体替换这一具体任务，痛点是逐帧 roto 与重拍成本高、遮罩与音轨对齐易穿帮；公开仓库说明已把深度图、SAM 分割、人脸网格与音频处理串成输入—复核—生成—带原声导出的闭环，属工作流结构推理，痛点刚性与交付路径可判。
+    evidence_ids:
+    - ev-34dc14630227cc10
+    - ev-1406f950d1fa6027
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 84 增至 471，说明开发者社区持续关注，但这是关注度而非目标后期人员的持续采用；公开材料没有客户案例、评价或重复使用记录，无法确认它已进入真实工作流。
+    evidence_ids:
+    - ev-34dc14630227cc10
+    - ev-1406f950d1fa6027
+  - gate: model
+    status: insufficient
+    reason: 这是开源工作流，公开材料未给出定价、付费主体或商业交付方式；可能路径是 to B 后期团队自部署或 to VC 的开源引流，属判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-34dc14630227cc10
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只描述流程与本地 UI，未提供可复现的替换质量、遮罩准确率或人工介入边界；交付能否稳定发生、Seedance 依赖与安全合规边界均缺公开证据。
+    evidence_ids:
+    - ev-34dc14630227cc10
+    - ev-1406f950d1fa6027
+  next_validation: 追踪该仓库的 issue/discussion 与 README 更新，确认是否有后期团队公开报告实际替换镜头、遮罩返工率或部署案例。
+  market: ''
+  job: 影视/广告后期人员拿到已拍摄的成片素材，需要把画面中指定的人物或物体替换成新形象，同时保留原始对白与音轨，交付可直接进入剪辑的替换镜头。
+  job_en: Post-production artists working on film/advertising footage need to replace specific characters
+    or objects in already-shot footage with new imagery while keeping the original dialogue and audio,
+    delivering replacement shots ready for editing.
+  pain: 传统替换要么靠逐帧手工 roto 与抠像，要么重拍或补拍，成本高、周期长；遮罩边缘、人脸与景深不一致会让替换镜头穿帮，返工代价大。
+  pain_en: Traditional replacement requires frame-by-frame roto and keying, or reshoots; mask edges, faces
+    and depth mismatches cause visible artifacts, and rework is expensive.
+  current_alternative: 公开材料未直接描述用户现有做法；从任务结构推断，替代方式是人工 roto/抠像加合成软件，或直接重拍、补拍，以及单独调用通用视频生成模型再手工对齐音轨。
+  current_alternative_en: Public materials do not describe the current workflow directly; structurally,
+    alternatives are manual roto/keying plus compositing, reshoots, or calling a generic video model and
+    manually re-syncing audio.
+  usage_reason: 推断：相较手工 roto 加通用生成模型再自行对齐音轨，该工作流用深度图、SAM 分割和人脸网格自动生成候选遮罩，并在本地 Web UI 内完成遮罩复核、生成预览与带原声导出，把“先抠像再对齐声音”的多步手工环节压缩到一次界面内确认，因此需要批量替换镜头又不想重拍的后期人员会尝试它。
+  usage_reason_en: 'Inference: versus manual roto plus a generic video model with hand re-synced audio,
+    this workflow auto-produces candidate masks from depth maps, SAM segmentation and face meshes, then
+    lets users review masks, preview generations and export with original audio in one local UI, collapsing
+    several manual steps into one review pass — which is why post artists facing many replacement shots
+    without reshoots would try it.'

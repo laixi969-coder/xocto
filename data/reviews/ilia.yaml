@@ -1,0 +1,84 @@
+- id: req-initial-ilia-2026-10-11
+  project_slug: ilia
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨设备待办与 agent 之间状态不通、需人工转述的问题，任务结构清晰。
+    evidence_ids:
+    - ev-79e62bb74aeed714
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量有限，无采用或留存证据，卡在场景感知一环。
+    evidence_ids:
+    - ev-79e62bb74aeed714
+  - gate: model
+    status: insufficient
+    reason: 未见定价信息，买方与收费方式不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-79e62bb74aeed714
+  - gate: truth
+    status: insufficient
+    reason: agent 读写待办的确定性与权限边界未说明。
+    evidence_ids:
+    - ev-79e62bb74aeed714
+  next_validation: 收集该产品官方文档或定价页，确认 agent 读写待办的接口方式与收费口径。
+  market: ''
+  job: 个人用户在多台设备间维护待办，并希望自己的 agent 能读取这些条目来安排或执行下一步。
+  job_en: An individual maintains to-dos across several devices and wants their own agent to read those
+    items to plan or execute the next step.
+  pain: 待办散落在不同设备与工具里，agent 拿不到统一的任务状态，只能靠人工转述。
+  pain_en: To-dos are scattered across devices and tools, so the agent cannot get a unified task state
+    and relies on manual restatement.
+  current_alternative: 旧做法是用系统提醒事项或笔记应用，agent 需要用户手动复制粘贴任务内容。
+  current_alternative_en: The old way is system reminders or a notes app, where the user must manually
+    copy and paste task content for the agent.
+  usage_reason: 推断：把清单做成 agent 可直接读写的同一份状态，省去人工转述这一步，因此已在自建 agent 的个人用户会在需要 agent 跟进任务时选择它。
+  usage_reason_en: 'Inference: by making the list one state that the agent can read and write directly,
+    it removes the manual restatement step, so individuals already running their own agent would pick
+    it when they need the agent to follow up on tasks.'
+- id: req-full-ilia-2026-10-11
+  project_slug: ilia
+  level: full
+  reviewed_at: '2026-10-11T01:30:30Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向同名彩妆品牌 ILIA Beauty 的电商页面，未出现任何待办同步或 agent 读取的产品说明，连用户任务与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-aa1b157853abf566
+    - ev-9358ef9f4ddfa36f
+    - ev-18ba738a667c1458
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或应用商店页面，确认是否存在待办同步与 agent 读写的产品说明、接口文档或定价页，以区分其与同名彩妆品牌 ILIA Beauty。
+  market: ''
+  job: 待核验：候选摘要称个人用户在 iPhone、Mac 与自己的 agent 之间共用一份待办清单，但现有证据全部指向同名彩妆品牌 ILIA Beauty 的电商页面，无法还原谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Individual syncing to-dos across phone and computer for an agent to read
+  pain: 公开材料未提供任何待办同步或 agent 读取相关的用户痛点陈述；现有证据只描述彩妆购买，无法说明用户在哪里难受、频率多高、不解决会失去什么。
+  pain_en: Public material provides no user pain statement about to-do sync or agent reading; the evidence
+    only describes cosmetics shopping, so it cannot show where users hurt, how often, or what they lose
+    by not solving it.
+  current_alternative: 无法确认。候选摘要暗示旧做法是系统提醒事项或笔记应用加人工转述，但没有任何公开证据支持这一替代行为存在。
+  current_alternative_en: Unconfirmed. The candidate summary hints the old way is system reminders or
+    a notes app plus manual restatement, but no public evidence supports that this alternative behavior
+    exists.
+  usage_reason: 无法给出。缺少可引用的产品说明、文档或用户反馈，无法解释相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: Cannot be given. With no citable product description, documentation or user feedback,
+    there is no way to explain which step is reduced or which checkable result improves versus the old
+    way.

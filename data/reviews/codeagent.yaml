@@ -1,0 +1,86 @@
+- id: req-initial-codeagent-2026-10-11
+  project_slug: codeagent
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是仓库级多步改动与测试迭代这一具体任务，痛点来自手工循环的重复劳动，旧替代行为明确存在。
+    evidence_ids:
+    - ev-dd4239cdcfccd76b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度信号，没有用户评价或采用证据说明它已进入日常工作流。
+    evidence_ids:
+    - ev-dd4239cdcfccd76b
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方与收费方式只能推断为开发者自用或团队采购，尚无已验证事实。
+    evidence_ids:
+    - ev-dd4239cdcfccd76b
+  - gate: truth
+    status: insufficient
+    reason: 自动改代码并执行命令存在误改与安全边界问题，公开材料未说明权限控制、回滚或人工确认机制。
+    evidence_ids:
+    - ev-dd4239cdcfccd76b
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于权限控制、回滚与人工确认机制的公开说明，以核验交付确定性。
+  market: ''
+  job: 软件工程师在终端里面对一个已有代码仓库，需要完成多步改动并跑通测试，材料是仓库源码、命令输出和测试结果。
+  job_en: A software engineer in the terminal faces an existing repository and must complete multi-step
+    changes and get tests passing, working from source code, command output and test results.
+  pain: 改动分散在多个文件，需要反复读代码、改文件、跑命令、看报错再改，手工循环耗时且容易漏掉依赖。
+  pain_en: Changes span many files, forcing repeated reading, editing, running commands and fixing errors;
+    the manual loop is slow and easy to miss dependencies.
+  current_alternative: 旧做法是开发者自己在编辑器与终端之间切换，手工搜索、编辑并逐条运行测试；或使用编辑器内的补全与聊天插件。
+  current_alternative_en: The old way is the developer switching between editor and terminal, manually
+    searching, editing and running tests one by one, or using in-editor completion and chat plugins.
+  usage_reason: 推断：相较手工逐文件修改，它把“读仓库—规划—改文件—跑测试”串成一个可见循环，减少反复切换与重复敲命令的步骤，因此习惯终端工作流、任务边界清晰的工程师会先试用它。
+  usage_reason_en: 'Inference: versus manual file-by-file editing, it chains read-repo, plan, edit and
+    test into one visible loop, cutting context switching and repeated command typing, so engineers who
+    live in the terminal and have well-scoped tasks are likely to try it first.'
+- id: req-full-codeagent-2026-10-11
+  project_slug: codeagent
+  level: full
+  reviewed_at: '2026-10-11T01:29:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决仓库级多步改动与测试迭代这一具体任务，痛点来自手工读改跑循环的重复劳动，旧替代行为明确存在；这是基于产品说明与工作流结构的推理，尚无用户抱怨或采用数据佐证。
+    evidence_ids:
+    - ev-dd4239cdcfccd76b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标 219 这一关注度信号，没有用户评价、issue 讨论或采用证据说明它已进入日常工作流，强场景可判断但共识未形成。
+    evidence_ids:
+    - ev-dd4239cdcfccd76b
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方与收费方式只能推断为开发者自用或团队采购，尚无已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-dd4239cdcfccd76b
+  - gate: truth
+    status: insufficient
+    reason: 自动改代码并执行命令存在误改与安全边界问题，公开材料未说明权限控制、回滚或人工确认机制，交付确定性无法核验。
+    evidence_ids:
+    - ev-dd4239cdcfccd76b
+  next_validation: 追踪该仓库 README、issue 与 discussion 中关于权限控制、回滚与人工确认机制的公开说明，以核验交付确定性。
+  market: ''
+  job: 软件工程师在终端里面对一个已有代码仓库，需要完成跨文件的多步改动并跑通测试，处理材料是仓库源码、命令输出与测试结果。
+  job_en: A software engineer in the terminal faces an existing repository and must complete multi-step
+    cross-file changes and get tests passing, working from source code, command output and test results.
+  pain: 改动分散在多个文件，需要反复读代码、改文件、跑命令、看报错再改，手工循环耗时且容易漏掉依赖；公开材料只给出产品自述，未提供用户抱怨或工单证据。
+  pain_en: Changes span many files, forcing repeated reading, editing, running commands and fixing errors;
+    the manual loop is slow and easy to miss dependencies. Public material only offers the product's own
+    description, with no user complaints or issue evidence.
+  current_alternative: 旧做法是开发者在编辑器与终端之间切换，手工搜索、编辑并逐条运行测试；或使用编辑器内的补全与聊天插件。
+  current_alternative_en: The old way is the developer switching between editor and terminal, manually
+    searching, editing and running tests one by one, or using in-editor completion and chat plugins.
+  usage_reason: 推断：相较手工逐文件修改，它把读仓库、规划、改文件、跑测试串成一个可见循环，减少反复切换与重复敲命令的步骤，因此习惯终端工作流、任务边界清晰的工程师会先试用它；仓库星标只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus manual file-by-file editing, it chains read-repo, plan, edit and
+    test into one visible loop, cutting context switching and repeated command typing, so engineers who
+    live in the terminal and have well-scoped tasks are likely to try it first; repo stars only show attention,
+    not sustained use.'

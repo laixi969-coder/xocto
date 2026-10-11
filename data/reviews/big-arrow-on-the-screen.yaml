@@ -90,3 +90,51 @@
     a single CLI command, with click-through annotations that disappear on their own, removing the screenshot-annotate-switch-back
     round trip, so developers who present live on Mac and already run Claude Code/Codex in their workflow
     would pick it for demos; public material has no user feedback or retention evidence backing this motive.'
+- id: req-full-big-arrow-on-the-screen-2026-10-11
+  project_slug: big-arrow-on-the-screen
+  level: full
+  reviewed_at: '2026-10-11T01:29:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决讲解时需即时、精确指向屏幕位置的需求，痛点是鼠标圈画或截图加标注打断讲解节奏；一条 CLI 加自动消失标注的输入—动作—交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-0154af1966073d13
+    - ev-e5fa51832c3de71d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 464 升至 586，属关注度而非持续采用；缺少用户评价或客户案例，无法确认开发者已将其留在演示工作流。
+    evidence_ids:
+    - ev-e5fa51832c3de71d
+    - ev-e704405ef9898431
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且未披露定价与买方，付费路径尚不明确；谁付钱是判断而非已验证事实，但需求判定不因此取消。
+    evidence_ids:
+    - ev-e5fa51832c3de71d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对标注是否在真实讲解中稳定出现，也未见人工确认边界；公开材料只说明可点击穿透并自动消失，未说明误标或遮挡时的处理。
+    evidence_ids:
+    - ev-e5fa51832c3de71d
+  next_validation: 追踪该仓库的 issue 或 discussion，确认实际使用场景、标注在讲解中的稳定性以及是否出现付费或商业使用记录。
+  market: ''
+  job: 开发者在演示或讲解时，让 AI 代理在 Mac 屏幕上画出箭头、方框和文字，指向正在说明的位置，交付是短暂出现、可点击穿透并自动消失的屏幕标注。
+  job_en: Developers, during demos or walkthroughs, let an AI agent draw arrows, boxes and text on a Mac
+    screen to point at what is being explained, delivering brief click-through annotations that disappear
+    by themselves.
+  pain: 公开材料只说明代理可在屏幕上标注，未说明原来讲解时哪一步费时或出错；从工作流结构推理，痛点是讲解者需临时圈画或截图加标注，打断讲解节奏且难以精确指向。
+  pain_en: Public material only says an agent can annotate the screen and does not say which step of explaining
+    was slow or error-prone; by workflow inference, the pain is that presenters must circle on the fly
+    or annotate screenshots, interrupting the flow and making precise pointing hard.
+  current_alternative: 讲解者用鼠标圈画、截图后加标注，或口头描述位置。
+  current_alternative_en: Presenters circle with the mouse, annotate screenshots afterwards, or describe
+    positions verbally.
+  usage_reason: 推断：相较鼠标圈画或截图后加标注，该工具通过一条 CLI 让代理直接在屏幕上画出箭头、方框和文字，且标注可点击穿透并自动消失，省去截图与事后标注步骤，因此频繁做屏幕演示或讲解的开发者会在需要即时指向时选择它；公开材料未给出使用场景与留存证据，此为结构推理。
+  usage_reason_en: 'Inference: compared with mouse circling or post-hoc screenshot annotation, the tool
+    uses one CLI to let an agent draw arrows, boxes and text directly on screen, with click-through annotations
+    that vanish automatically, removing the screenshot-and-annotate step, so developers who demo or explain
+    screens frequently would choose it when instant pointing is needed; public material gives no usage
+    scenario or retention evidence, so this is structural reasoning.'

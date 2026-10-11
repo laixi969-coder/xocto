@@ -1,0 +1,38 @@
+- id: req-initial-clinch-2026-10-11
+  project_slug: clinch
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理会话分散、状态难追踪的问题，替代的是多窗口手工切换，痛点具体。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论且无评论，缺少用户反馈证明开发者已把它留在日常流程里。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费或商业路径，钱从哪来无法判断，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明支持哪些代理、会话状态如何持久化，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 查看该项目的 README 与 issue/discussion，确认支持的代理类型、会话状态持久化方式以及是否有开发者报告日常使用。
+  market: ''
+  job: 开发者在同时运行多个编码代理会话时，在本地终端里管理这些会话的启动、切换与状态。
+  job_en: Developers running several coding-agent sessions at once manage their launch, switching and
+    state in a local terminal.
+  pain: 多个代理会话分散在不同窗口，切换和追踪状态靠手工，容易漏掉某个会话的进度或结果。
+  pain_en: Multiple agent sessions scatter across windows, so switching and tracking state is manual and
+    it is easy to lose a session's progress or result.
+  current_alternative: 开多个终端窗口或标签页，手工切换并记录每个代理的状态。
+  current_alternative_en: Opening multiple terminal windows or tabs and manually switching and noting
+    each agent's state.
+  usage_reason: 推断：它把多个代理会话收进一个本地终端界面统一管理，省去在多个窗口间手工切换和追踪状态这一步，因此日常并行跑多个编码代理的开发者会在本地选择它。
+  usage_reason_en: 'Inference: it gathers multiple agent sessions into one local terminal interface, removing
+    the step of manually switching and tracking state across windows, so developers who routinely run
+    several coding agents in parallel would pick it locally.'

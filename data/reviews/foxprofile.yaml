@@ -1,0 +1,95 @@
+- id: req-initial-foxprofile-2026-10-11
+  project_slug: foxprofile
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号运营在同一设备上隔离浏览器环境的需求，痛点是平台关联判定导致限流封店，旧做法是按账号买闭源工具或手工清 Cookie 换代理，结构上成立。
+    evidence_ids:
+    - ev-b8fb2f66cc7d40ce
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 56 星、42 分支，说明有开发者关注，但没有用户评价、客户案例或持续使用证据，无法判断运营人员是否真的把它放进日常工作流。
+    evidence_ids:
+    - ev-b8fb2f66cc7d40ce
+  - gate: model
+    status: insufficient
+    reason: 开源免费，公开材料未披露任何付费路径；可能的收入来自托管、代理资源或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b8fb2f66cc7d40ce
+  - gate: truth
+    status: insufficient
+    reason: 指纹隔离的实际强度、对平台风控的对抗效果以及多账号运营的合规边界都未在材料中说明，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-b8fb2f66cc7d40ce
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于指纹隔离实测效果与合规边界的公开说明。
+  market: ''
+  job: 跨境电商多店铺运营或广告投放人员，需要在同一台设备上同时登录多个平台账号，处理商品上架、投放和客服消息，并让每个账号保持独立的浏览器环境。
+  job_en: Cross-border e-commerce multi-store operators or ad buyers who must stay logged into several
+    platform accounts on one machine for listings, campaigns and customer messages, keeping each account
+    in a separate browser environment.
+  pain: 平台把同设备、同指纹的多账号登录判为关联，轻则限流重则封店；手工切换浏览器、清理 Cookie、换代理既慢又容易出错，闭源反检测工具按账号收月费，账号一多成本陡增。
+  pain_en: Platforms treat multiple logins from one device and fingerprint as linked accounts, causing
+    throttling or store bans; manually switching browsers, clearing cookies and rotating proxies is slow
+    and error-prone, while closed anti-detect tools charge monthly per account, so costs climb with account
+    count.
+  current_alternative: 现在多用 GoLogin、MoreLogin 这类闭源反检测浏览器按账号付费，或靠多台设备、虚拟机、手工清 Cookie 加代理来隔离。
+  current_alternative_en: Today they mostly pay per account for closed anti-detect browsers such as GoLogin
+    or MoreLogin, or isolate by using multiple devices, virtual machines, and manual cookie clearing plus
+    proxies.
+  usage_reason: 推断：相比按账号订阅闭源工具，foxprofile 把每个档案的指纹、Cookie 和代理存在本地并开放 REST API 与 MCP，运营或脚本可以直接调用同一份档案，省掉逐账号购买席位和手工重建环境这两步；因此账号数量多、又想让自动化脚本接管会话的团队会先试用它。
+  usage_reason_en: 'Inference: versus per-account closed subscriptions, foxprofile keeps each profile''s
+    fingerprint, cookies and proxy locally and exposes them via REST API and MCP, so operators or scripts
+    can reuse the same profile, removing the per-seat purchase and manual environment rebuild steps; teams
+    with many accounts that want scripts to drive sessions are the likely first triers.'
+- id: req-full-foxprofile-2026-10-11
+  project_slug: foxprofile
+  level: full
+  reviewed_at: '2026-10-11T01:30:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号运营在同一设备上隔离浏览器环境的需求，痛点是平台关联判定导致限流封店，旧做法是按账号买闭源工具或手工清 Cookie 换代理，结构上成立。
+    evidence_ids:
+    - ev-b8fb2f66cc7d40ce
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 56 星，说明有开发者关注，但没有用户评价、客户案例或持续使用证据，无法判断运营人员是否真的把它放进日常工作流。
+    evidence_ids:
+    - ev-b8fb2f66cc7d40ce
+  - gate: model
+    status: insufficient
+    reason: 开源免费，公开材料未披露任何付费路径；可能的收入来自托管、代理资源或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b8fb2f66cc7d40ce
+  - gate: truth
+    status: insufficient
+    reason: 指纹隔离的实际强度、对平台风控的对抗效果以及多账号运营的合规边界都未在材料中说明，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-b8fb2f66cc7d40ce
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于指纹隔离实测效果与合规边界的公开说明。
+  market: ''
+  job: 跨境电商多店铺运营或广告投放人员，需要在同一台设备上同时登录多个平台账号，处理商品上架、投放和客服消息，并让每个账号保持独立的浏览器环境；数据采集工程师则为批量抓取任务配置独立指纹与代理。
+  job_en: Cross-border e-commerce multi-store operators or ad buyers who must stay logged into several
+    platform accounts on one machine for listings, campaigns and customer messages while keeping each
+    account in a separate browser environment; data-collection engineers also configure independent fingerprints
+    and proxies for batch scraping tasks.
+  pain: 平台把同设备、同指纹的多账号登录判为关联，轻则限流重则封店；手工切换浏览器、清理 Cookie、换代理既慢又易出错，闭源反检测工具按账号收月费，账号一多成本陡增。
+  pain_en: Platforms treat multiple logins from one device and fingerprint as linked accounts, causing
+    throttling or store bans; manually switching browsers, clearing cookies and rotating proxies is slow
+    and error-prone, while closed anti-detect tools charge monthly per account, so costs climb with account
+    count.
+  current_alternative: 现在多用 GoLogin、MoreLogin 这类闭源反检测浏览器按账号付费，或靠多台设备、虚拟机、手工清 Cookie 加代理来隔离。
+  current_alternative_en: Today they mostly pay per account for closed anti-detect browsers such as GoLogin
+    or MoreLogin, or isolate by using multiple devices, virtual machines, and manual cookie clearing plus
+    proxies.
+  usage_reason: 推断：相比按账号订阅闭源工具，foxprofile 把每个档案的指纹、Cookie 和代理存在本地并开放 REST API 与 MCP，运营或脚本可直接调用同一份档案，省掉逐账号购买席位和手工重建环境这两步；因此账号数量多、又想让自动化脚本接管会话的团队会先试用它。
+  usage_reason_en: 'Inference: versus per-account closed subscriptions, foxprofile keeps each profile''s
+    fingerprint, cookies and proxy locally and exposes them via REST API and MCP, so operators or scripts
+    can reuse the same profile, removing the per-seat purchase and manual environment rebuild steps; teams
+    with many accounts that want scripts to drive sessions are the likely first triers.'

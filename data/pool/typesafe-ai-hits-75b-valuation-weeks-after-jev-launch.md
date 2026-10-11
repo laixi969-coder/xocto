@@ -1,6 +1,6 @@
 ---
 slug: typesafe-ai-hits-75b-valuation-weeks-after-jev-launch
-name: TypeSafe AI Hits $7.5B Valuation Weeks After Jev Launch
+name: TypeSafe AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOdDdUckNla21E
 summary: TypeSafe AI Hits $7.5B Valuation Weeks After Jev Launch The Tech Buzz
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# TypeSafe AI Hits $7.5B Valuation Weeks After Jev Launch
+# TypeSafe AI
 
 TypeSafe AI Hits $7.5B Valuation Weeks After Jev Launch The Tech Buzz
 

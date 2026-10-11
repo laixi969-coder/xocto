@@ -1,0 +1,85 @@
+- id: req-initial-isa-workbench-2026-10-11
+  project_slug: isa-workbench
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决二进制样本初筛需本地环境、重复配置的问题，任务与旧流程可还原。
+    evidence_ids:
+    - ev-41f02abfe29a92d1
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论极少，无采用证据，卡在场景感知一环。
+    evidence_ids:
+    - ev-41f02abfe29a92d1
+  - gate: model
+    status: insufficient
+    reason: 未见定价与买方信息；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-41f02abfe29a92d1
+  - gate: truth
+    status: insufficient
+    reason: 样本上传涉及安全与隐私边界，材料未说明处理方式。
+    evidence_ids:
+    - ev-41f02abfe29a92d1
+  next_validation: 收集该产品官方文档或仓库说明，确认样本处理方式、是否使用模型及数据留存政策。
+  market: ''
+  job: 安全或逆向工程师拿到一批未知二进制样本时，需要先判断类型与结构，再决定是否深入分析。
+  job_en: When a security or reverse engineer receives a batch of unknown binary samples, they need to
+    judge type and structure before deciding whether to analyze further.
+  pain: 本地分析环境搭建与工具链配置耗时，样本初筛这一步重复且门槛高。
+  pain_en: Setting up a local analysis environment and toolchain is time-consuming, and the sample triage
+    step is repetitive and high-threshold.
+  current_alternative: 旧做法是在本地安装反汇编与十六进制工具，逐个样本手工判断类型。
+  current_alternative_en: The old way is installing disassembly and hex tools locally and judging each
+    sample's type by hand.
+  usage_reason: 推断：把分类与浏览放到浏览器里，省去本地环境搭建这一步，因此需要快速初筛样本的安全人员会在没有现成分析机时选择它。
+  usage_reason_en: 'Inference: by putting classification and browsing in the browser, it removes the local
+    environment setup step, so security staff needing quick sample triage would pick it when no analysis
+    machine is at hand.'
+- id: req-full-isa-workbench-2026-10-11
+  project_slug: isa-workbench
+  level: full
+  reviewed_at: '2026-10-11T01:30:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选资料仅一句“在浏览器中分类与查看二进制文件”，所引证据全部指向自动化、编剧、树艺等无关协会，无法还原用户任务、痛点、旧替代与不解决的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-ac5e2f329bbfcb96
+    - ev-71864c6ece34f22e
+    - ev-a7aaf044a99e031e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 ISA Workbench 官方产品页或仓库 README，确认它接收什么输入、执行什么动作、产出什么可核对结果，以及样本处理与数据留存政策。
+  market: ''
+  job: 候选资料称安全或逆向工程师在浏览器中分类与查看二进制文件，但未说明是谁、在什么情况下、处理什么样本、要完成什么任务，无法还原具体工作节点。
+  job_en: The candidate material says security or reverse engineers classify and browse binaries in a
+    browser, but does not say who, in what situation, with what samples, or to complete what task, so
+    the specific work step cannot be reconstructed.
+  pain: 公开证据中没有任何用户痛点、抱怨或旧流程描述；现有证据全部指向自动化协会、编剧协会、树艺协会等无关组织，无法说明二进制分析中哪一步难受。
+  pain_en: The public evidence contains no user pain, complaint or old-workflow description; all evidence
+    points to unrelated bodies such as automation, screenwriters' and arboriculture associations, so it
+    cannot show which step of binary analysis hurts.
+  current_alternative: 材料未提供任何现有替代方式；按结构推断可能是本地反汇编与十六进制工具，但这属于推断，且无任何引用事实支持。
+  current_alternative_en: The material provides no current alternative; structurally one might infer local
+    disassembly and hex tools, but this is inference with no cited factual support.
+  usage_reason: 无法判断。候选资料只有一句产品描述，且所引证据与二进制分析无关，既不能说明相较旧做法减少哪一步负担，也没有可核对的结果改善。
+  usage_reason_en: Cannot be judged. The candidate material is a single product description and the cited
+    evidence is unrelated to binary analysis; it neither shows which step is reduced versus the old way
+    nor any checkable outcome improvement.

@@ -1,0 +1,89 @@
+- id: req-initial-solvecraft-2026-10-11
+  project_slug: solvecraft
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决参数化建模被商业软件高价锁定、AI 代理无法直接操作模型的问题，痛点具体且旧替代行为明确；但实际建模能力边界仍待核验。
+    evidence_ids:
+    - ev-00869de3b04b9855
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 131 星与 20 个未关闭 issue，缺少用户评价、采用案例或社区讨论，尚不能判断是否形成共识。
+    evidence_ids:
+    - ev-00869de3b04b9855
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；钱可能来自企业定制、托管服务或支持合同，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-00869de3b04b9855
+  - gate: truth
+    status: insufficient
+    reason: 未见与真实制造流程对接的交付结果或精度验证，AI 代理能否确定性产出可加工模型尚缺证据。
+    evidence_ids:
+    - ev-00869de3b04b9855
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告用 AI 代理完成过真实零件建模或导出可加工文件。
+  market: ''
+  job: 机械工程师或工业设计师在需要修改零件尺寸、装配关系或核对结构时，打开参数化 CAD 模型，调整参数并重新生成可继续加工的 3D 模型文件。
+  job_en: A mechanical engineer or industrial designer opens a parametric CAD model to change a part dimension
+    or assembly constraint, then regenerates a 3D model file that can be machined further.
+  pain: 商业 CAD 授权贵、绑定重，小团队和独立开发者难以负担；同时 AI 代理无法直接操作这些封闭工具，改一个参数往往要人工在图形界面里反复点。
+  pain_en: Commercial CAD licenses are expensive and heavily locked in, hard for small teams and independent
+    developers to afford; AI agents cannot directly operate these closed tools, so changing one parameter
+    often means repeated manual clicking in a GUI.
+  current_alternative: 继续用 Autodesk Fusion 360、SolidWorks 等商业软件手工建模，或退回到 FreeCAD 等开源工具，AI 环节基本靠人工复制参数。
+  current_alternative_en: Keep modeling by hand in Autodesk Fusion 360 or SolidWorks, or fall back to
+    open-source tools like FreeCAD, with the AI step done by manually copying parameters.
+  usage_reason: 推断：相较在商业软件里手工改参数，它把模型操作暴露成可被 AI 代理调用的接口，让代理直接读参数、改尺寸、重建模型，减少人工在图形界面里逐步点击这一环；因此预算有限、又想让代理参与建模的小型工程团队会先试用它。
+  usage_reason_en: 'Inference: versus manually editing parameters in commercial software, it exposes model
+    operations as an interface AI agents can call, letting an agent read parameters, change dimensions,
+    and rebuild the model, removing the step of clicking through a GUI; small engineering teams with tight
+    budgets that want agents in the modeling loop would try it first.'
+- id: req-full-solvecraft-2026-10-11
+  project_slug: solvecraft
+  level: full
+  reviewed_at: '2026-10-11T01:32:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决参数化建模被商业软件高价锁定、AI 代理无法直接操作模型的问题，痛点具体且旧替代行为明确；但实际建模能力边界仍待核验。
+    evidence_ids:
+    - ev-00869de3b04b9855
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 131 星与 20 个未关闭 issue，缺少用户评价、采用案例或社区讨论，尚不能判断是否形成共识。
+    evidence_ids:
+    - ev-00869de3b04b9855
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；钱可能来自企业定制、托管服务或支持合同，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-00869de3b04b9855
+  - gate: truth
+    status: insufficient
+    reason: 未见与真实制造流程对接的交付结果或精度验证，AI 代理能否确定性产出可加工模型尚缺证据。
+    evidence_ids:
+    - ev-00869de3b04b9855
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告用 AI 代理完成过真实零件建模或导出可加工文件。
+  market: ''
+  job: 机械工程师或工业设计师在需要改动零件尺寸、装配关系或核对结构时，打开参数化 CAD 模型，调整参数并重新生成可继续加工的 3D 模型文件；也可让 AI 代理通过 MCP 接口读取参数、改尺寸并重建模型。
+  job_en: A mechanical engineer or industrial designer opens a parametric CAD model to change a part dimension
+    or assembly constraint, then regenerates a 3D model file that can be machined further; an AI agent
+    can also read parameters, change dimensions, and rebuild the model through the MCP interface.
+  pain: 商业 CAD 授权贵、绑定重，小团队与独立开发者难以负担；封闭工具不向 AI 代理开放操作接口，改一个参数往往要在图形界面里反复手工点击，参数化重建这一步被卡在人工操作上。
+  pain_en: Commercial CAD licenses are expensive and heavily locked in, hard for small teams and independent
+    developers to afford; closed tools expose no interface for AI agents, so changing one parameter often
+    means repeated manual clicking in a GUI, leaving parametric rebuild stuck on human operation.
+  current_alternative: 继续用 Autodesk Fusion 360、SolidWorks 等商业软件手工建模，或退回 FreeCAD 等开源工具，AI 环节基本靠人工复制参数。
+  current_alternative_en: Keep modeling by hand in Autodesk Fusion 360 or SolidWorks, or fall back to
+    open-source tools like FreeCAD, with the AI step done by manually copying parameters.
+  usage_reason: 推断：相较在商业软件里手工改参数，它把模型操作暴露成可被 AI 代理调用的 MCP 接口，让代理直接读参数、改尺寸、重建模型，减少人工在图形界面里逐步点击这一环；因此预算有限、又想让代理参与建模的小型工程团队会先试用它。
+  usage_reason_en: 'Inference: versus manually editing parameters in commercial software, it exposes model
+    operations as an MCP interface AI agents can call, letting an agent read parameters, change dimensions,
+    and rebuild the model, removing the step of clicking through a GUI; small engineering teams with tight
+    budgets that want agents in the modeling loop would try it first.'

@@ -560,3 +560,58 @@
     removing manual copy-and-reformat steps; analysts already using AI assistants for SEO work and needing
     bulk data would choose it in repetitive query scenarios. Stars rising from 85 to 154 indicate attention,
     not sustained use.'
+- id: req-full-semrush-ai-tool-2026-10-11
+  project_slug: semrush-ai-tool
+  level: full
+  reviewed_at: '2026-10-11T01:32:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SEO 分析师在关键词、域名与外链查询中反复手工搬运数据的需求，痛点是从网页后台逐项查询再复制导出难以脚本化；公开仓库说明其提供 CLI 与 MCP 接口，属工作流结构推理，尚无用户抱怨或耗时数据佐证强度。
+    evidence_ids:
+    - ev-cf5fb8da8611d49a
+    - ev-c8762efbf6511317
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 95 增至 171，说明开发者持续关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在日常工作流或持续使用；缺少 issue、讨论或客户案例佐证真实采用。
+    evidence_ids:
+    - ev-cf5fb8da8611d49a
+    - ev-fc44cd7a1e0848bb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或收入路径，开源仓库本身不显示谁付钱；这是判断而非已验证事实，可能是个人开发者免费使用，也可能存在企业支持或托管收费，均未核验。
+    evidence_ids:
+    - ev-cf5fb8da8611d49a
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生取决于 Semrush 官方授权与接口可用范围，公开材料未说明授权关系、速率限制或数据合规边界，也未提供可复现的部署与运行证据。
+    evidence_ids:
+    - ev-cf5fb8da8611d49a
+    - ev-c8762efbf6511317
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认其与 Semrush 官方 API 的授权关系、实际部署方式及用户报告的使用场景。
+  market: ''
+  job: SEO 分析师或内容营销运营在做关键词选题、竞品域名分析和外链盘点时，需要从 Semrush 拉取关键词量、域名流量、外链清单等数据，再整理成表格或报告；该工具把这类查询包装成 CLI 与
+    MCP 接口，让 AI 助手或脚本直接调用并返回结构化结果。
+  job_en: An SEO analyst or content marketing operator doing keyword selection, competitor domain analysis,
+    and backlink audits needs to pull keyword volumes, domain traffic, and backlink lists from Semrush
+    and turn them into tables or reports; this tool wraps those queries as a CLI and MCP interface so
+    an AI assistant or script can call them and get structured results.
+  pain: 公开材料只说明工具覆盖关键词研究、域名分析和外链分析，未提供用户抱怨或耗时数据；从工作流结构推断，痛点是原本要在 Semrush 网页后台逐个查询、手工复制或导出，再粘贴进表格或喂给 AI，重复操作多且难以脚本化。
+  pain_en: Public materials only state the tool covers keyword research, domain analytics, and backlink
+    analysis, with no user complaints or time data; inferred from workflow structure, the pain is that
+    users must query Semrush's web UI one by one, copy or export manually, then paste into spreadsheets
+    or feed an AI, which is repetitive and hard to script.
+  current_alternative: 当前替代方式是直接使用 Semrush 官方网页后台逐项查询并手工导出，或使用 Semrush 官方 API 自行写脚本对接；公开材料未说明该工具与 Semrush
+    的授权关系及可用范围。
+  current_alternative_en: The current alternative is querying Semrush's official web UI item by item and
+    exporting manually, or using Semrush's official API and writing one's own scripts; public materials
+    do not clarify this tool's authorization relationship with Semrush or its usable scope.
+  usage_reason: 推断：相较在网页后台逐项查询再手工搬运，该工具通过 CLI 和 MCP 接口让 AI 助手或脚本直接发起关键词、域名和外链查询并拿到结构化结果，减少手工复制与格式整理这一步；因此习惯用
+    AI 助手或脚本做批量 SEO 分析的用户会在需要重复拉取数据时选择它。
+  usage_reason_en: 'Inference: compared with querying the web UI item by item and manually moving data,
+    this tool lets an AI assistant or script directly issue keyword, domain, and backlink queries via
+    CLI and MCP and receive structured results, removing the manual copy-and-format step; thus users who
+    habitually use AI assistants or scripts for batch SEO analysis would choose it when repeatedly pulling
+    data.'

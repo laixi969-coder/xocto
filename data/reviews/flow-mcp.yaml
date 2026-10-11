@@ -1,0 +1,87 @@
+- id: req-initial-flow-mcp-2026-10-11
+  project_slug: flow-mcp
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频生成按次计费成本高、浏览器操作难批量的问题，旧做法是手动点击或按量付费，痛点具体。
+    evidence_ids:
+    - ev-b85c80a1687df89b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有星标与分叉，但没有用户评价或采用案例，无法判断创作者是否已把它放进日常出片流程。
+    evidence_ids:
+    - ev-b85c80a1687df89b
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，且依赖 Google 订阅额度，商业路径不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-b85c80a1687df89b
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明额度限制、生成质量与账号合规边界，交付确定性仍待核验。
+    evidence_ids:
+    - ev-b85c80a1687df89b
+  next_validation: 查看该仓库 README 与 issue，确认支持的 Google Flow 版本、额度限制与用户实际使用反馈。
+  market: ''
+  job: 视频内容创作者或营销素材制作人员在需要批量产出短视频片段时，用 Claude、Codex 或本地控制面板驱动 Google Flow，完成素材生成。
+  job_en: A video content creator or marketing asset producer needing batches of short clips drives Google
+    Flow via Claude, Codex or a local control panel to generate assets.
+  pain: 按次计费的视频生成 API 成本随用量上升，且浏览器内手动操作难以批量化和脚本化。
+  pain_en: Pay-per-use video generation APIs get expensive with volume, and manual in-browser operation
+    is hard to batch or script.
+  current_alternative: 在浏览器里手动操作 Google Flow，或直接调用按次计费的视频生成 API。
+  current_alternative_en: Manually operating Google Flow in a browser, or calling a pay-per-use video
+    generation API directly.
+  usage_reason: 推断：它把生成动作接到已有 AI 订阅额度上并去掉浏览器扩展，减少按次付费与手动点击两步负担，因此已有 Google AI 订阅、需要批量出片的内容团队会尝试；仓库尚无付费或留存证据。
+  usage_reason_en: 'Inference: it routes generation through existing AI subscription credits and removes
+    the browser extension, cutting the pay-per-use and manual-click steps, so content teams already holding
+    a Google AI subscription and needing batch output would try it; the repo has no payment or retention
+    evidence.'
+- id: req-full-flow-mcp-2026-10-11
+  project_slug: flow-mcp
+  level: full
+  reviewed_at: '2026-10-11T01:30:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频生成按次计费成本高、浏览器操作难批量脚本化的痛点，旧做法是手动逐条点击或按量付费 API，不解决的后果是批量出片时成本与人工点击同步上升。这是基于仓库说明与工作流结构的推理，非用户口述。
+    evidence_ids:
+    - ev-b85c80a1687df89b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 65 个星标，说明开发者注意到它，但公开材料没有用户评价、issue 讨论或采用案例，无法判断创作者是否已把它放进日常出片流程。
+    evidence_ids:
+    - ev-b85c80a1687df89b
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，且依赖 Google 订阅额度，钱可能来自用户自带的 Google 订阅而非本项目；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-b85c80a1687df89b
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明额度限制、生成质量与账号合规边界，交付能否稳定发生仍缺可复现证据。
+    evidence_ids:
+    - ev-b85c80a1687df89b
+  next_validation: 追踪该仓库 README 与 issue，确认支持的 Google Flow 版本、订阅额度限制与用户实际使用反馈。
+  market: ''
+  job: 做短视频素材的内容创作者或营销素材制作人员，在已有 Google AI 订阅、需要批量产出片段时，用 Claude、Codex 或本地控制面板驱动 Google Flow 生成视频，而不是在浏览器里逐条手动操作。
+  job_en: Video content creators or marketing asset producers who already hold a Google AI subscription
+    and need batches of clips drive Google Flow via Claude, Codex or a local control panel instead of
+    clicking through the browser one clip at a time.
+  pain: 按次计费的视频生成 API 成本随用量上升，浏览器内手动操作难以批量和脚本化，批量出片时每一步都要人工点击，量一大就卡在成本与操作上。
+  pain_en: Pay-per-use video generation APIs get expensive as volume grows, and manual in-browser operation
+    is hard to batch or script, so every clip in a batch needs a human click and cost scales with output.
+  current_alternative: 在浏览器里手动操作 Google Flow 逐条生成，或直接调用按次计费的视频生成 API。
+  current_alternative_en: Manually operating Google Flow in a browser clip by clip, or calling a pay-per-use
+    video generation API directly.
+  usage_reason: 推断：相较手动点击或按次付费 API，它把生成动作接到已有 Google AI 订阅额度上并去掉浏览器扩展，减少按次付费和逐条点击两步负担，因此已有订阅、需要批量出片的内容团队会尝试；仓库仅有星标，无付费或留存证据。
+  usage_reason_en: 'Inference: versus manual clicking or pay-per-use APIs, it routes generation through
+    existing Google AI subscription credits and removes the browser extension, cutting the pay-per-use
+    and per-clip click steps, so content teams already holding a subscription and needing batch output
+    would try it; the repo shows stars only, no payment or retention evidence.'

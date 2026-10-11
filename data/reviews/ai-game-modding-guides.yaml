@@ -188,3 +188,51 @@
     the step of first hunting for material and then stitching a process together; mod authors starting
     a first mod for a game or rewriting after an update would open it. However public material only shows
     the repository description and star counts, with no user feedback or repeat-use evidence, so it '
+- id: req-full-ai-game-modding-guides-2026-10-11
+  project_slug: ai-game-modding-guides
+  level: full
+  reviewed_at: '2026-10-11T01:28:43Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模组作者在加载器适配与代码改写上的资料分散、试错成本高问题，痛点刚性且不采用会持续卡在排错；指南给出直通式模组、Rust 重写、提示词与排错路径，交付形态可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-9acf982733ac935e
+    - ev-c4f048bc421556f9
+  - gate: consensus
+    status: supported
+    reason: 仓库星标从 216 增至 450，说明英文生态模组开发者持续关注并收藏该指南；但星标只属关注度证据，不能证明已被纳入日常工作流，故共识成立而采用强度仍待观察。
+    evidence_ids:
+    - ev-9acf982733ac935e
+    - ev-c4f048bc421556f9
+  - gate: model
+    status: insufficient
+    reason: 仓库为公开文档，未见定价、赞助或商业交付路径，钱可能来自 to C 开发者捐赠或 to B 工具方赞助，这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-9acf982733ac935e
+  - gate: truth
+    status: insufficient
+    reason: 指南贴近模组开发的第一性目标，但缺少可复现实测与排错效果证据，承诺能否确定性交付尚未核验，安全与人工边界也未在公开材料中说明。
+    evidence_ids:
+    - ev-9acf982733ac935e
+    - ev-c4f048bc421556f9
+  next_validation: 追踪该仓库的 issue 与 discussion，查看是否有模组作者报告按指南成功产出可运行模组或排错结果。
+  market: ''
+  job: 游戏模组作者在为某款具体游戏制作模组时，需要处理游戏文件、加载器与代码改写材料，借助 AI 编码代理完成一个能加载并运行的模组。
+  job_en: A game mod author building a mod for a specific game handles game files, loaders and code rewrite
+    material, using AI coding agents to produce a mod that loads and runs.
+  pain: 模组开发长期依赖个人逆向、论坛零散帖子和反复试错，加载器适配与游戏版本更新后的重写尤其耗时，出错后缺少系统排错路径。
+  pain_en: Mod development has long relied on individual reverse engineering, scattered forum posts and
+    repeated trial and error; loader adaptation and rewrites after game version updates are especially
+    costly, and there is no systematic debugging path when things break.
+  current_alternative: 旧做法是翻论坛帖、看视频教程、在 Discord 里问人，或自己反复试错改代码。
+  current_alternative_en: The old approach is reading forum threads, watching video tutorials, asking
+    on Discord, or repeatedly trial-and-error editing code alone.
+  usage_reason: 推断：相较零散帖子，这份指南把 AI 编码代理的提示写法、加载器与 Rust 重写步骤集中成一条可照做的路径，减少找资料和试错的步骤，因此刚接触某款游戏模组、需要先搞清加载器与改写方式的作者会在起步阶段选择它；但公开材料只有仓库说明与星标，没有用户反馈或重复使用证据，无法确认它被长期留在工作流里。
+  usage_reason_en: 'Inference: compared with scattered posts, this guide consolidates prompting for AI
+    coding agents, loaders and Rust rewrite steps into one followable path, cutting the search-and-trial
+    steps, so authors new to a specific game''s modding who need to first understand loaders and rewrite
+    approaches would pick it at the start; however public material only shows the repository description
+    and star count, with no user feedback or repeat-use evidence, so it cannot be confirmed as a lo'

@@ -1,0 +1,88 @@
+- id: req-initial-history-monk-2026-10-11
+  project_slug: history-monk
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决找回旧页面与清理历史这一任务，但公开材料只有一句功能描述，说不清痛点与不采用的后果，价值结构无法成立。
+    evidence_ids:
+    - ev-c8546be0c42e887b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，候选也没有采用、评价或场景描述可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-c8546be0c42e887b
+  - gate: model
+    status: insufficient
+    reason: 未进入：候选未披露定价、买方或收费方式，无法判断钱来自哪一方。
+    evidence_ids:
+    - ev-c8546be0c42e887b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近找回信息的第一性目标、承诺能否确定性交付，以及删除类动作的人工边界。
+    evidence_ids:
+    - ev-c8546be0c42e887b
+  next_validation: 收集 History Monk 官方产品页或说明文档，确认搜索基于什么信号、导出格式与批量删除的确认机制。
+  market: ''
+  job: 用户在浏览器中查找、导出或批量删除自己的历史记录，以找回旧页面或清理痕迹。
+  job_en: Users search, export or bulk-delete their own browser history to recover an old page or clean
+    up traces.
+  pain: 候选资料只有“快速搜索、导出与批量删除”一句，未说明现有历史检索慢在哪、找不到什么，痛点无法从公开事实还原。
+  pain_en: The candidate only states 'fast history search, export and bulk delete'; it does not say where
+    current history search is slow or what cannot be found, so the pain cannot be reconstructed from public
+    facts.
+  current_alternative: 按常识推断是浏览器自带的历史页面加关键词搜索，但候选未描述任何替代行为，属推断。
+  current_alternative_en: By common inference, the browser's built-in history page plus keyword search,
+    but the candidate describes no alternative behavior; this is inference.
+  usage_reason: 无法写出因果：资料未说明它相较浏览器自带搜索减少了哪一步负担或改善了哪项可核对结果，因此不能判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal account is possible: the material does not say which step of built-in browser
+    search it removes or which checkable result it improves, so it cannot be judged which users would
+    choose it and when.'
+- id: req-full-history-monk-2026-10-11
+  project_slug: history-monk
+  level: full
+  reviewed_at: '2026-10-11T01:30:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决找回旧页面与清理历史这一任务，但公开材料只有一句功能描述，说不清痛点、不采用的后果与交付形态，价值结构无法成立。
+    evidence_ids:
+    - ev-36f364c00d440b4e
+    - ev-e6275981ea165f8c
+    - ev-82107a5637332d17
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 History Monk 官方产品页或说明文档，确认搜索基于什么信号、导出格式与批量删除的确认机制。
+  market: ''
+  job: 用户在浏览器里翻找旧页面时打开它，处理的是自己的浏览历史记录，要完成的任务是快速定位某条旧记录、把它导出成文件，或批量删除一批记录。
+  job_en: 'When digging for an old page in the browser, the user opens it to work on their own browsing
+    history: quickly locating a specific old record, exporting it to a file, or bulk-deleting a batch
+    of records.'
+  pain: 公开材料只有一句“快速搜索、导出与批量删除”，没有说明浏览器自带历史页慢在哪、找不到什么、导出或清理失败会有什么后果，痛点无法从公开事实还原，只能确认存在“翻找旧页面”这一动作。
+  pain_en: Public material offers only one line, 'fast search, export and bulk delete'; it does not say
+    where the built-in history page is slow, what cannot be found, or what goes wrong when export or cleanup
+    fails, so the pain cannot be reconstructed from public facts—only the act of digging for an old page
+    is confirmed.
+  current_alternative: 按常识推断是浏览器自带的历史页面加关键词搜索，以及 Bing、Google My Activity 这类平台自带的搜索历史查看与清除入口；候选未描述任何替代行为，属推断。
+  current_alternative_en: By common inference, the browser's built-in history page plus keyword search,
+    and platform-native history viewers/clearers such as Bing search history and Google My Activity; the
+    candidate describes no alternative behavior, so this is inference.
+  usage_reason: 无法写出因果：资料未说明它相较浏览器自带搜索减少了哪一步负担或改善了哪项可核对结果，因此不能判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal account is possible: the material does not say which step of built-in browser
+    search it removes or which checkable result it improves, so it cannot be judged which users would
+    choose it and when.'

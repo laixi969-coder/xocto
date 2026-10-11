@@ -1,0 +1,38 @@
+- id: req-initial-cronloop-ai-2026-10-11
+  project_slug: cronloop-ai
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决什么需求、什么痛点都写不出来，只有一句循环运行代理的描述，价值关无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从判断。
+    evidence_ids: []
+  next_validation: 抓取 Cronloop AI 官方产品页或文档，确认它接收什么输入、在什么触发条件下运行、产出什么交付物。
+  market: ''
+  job: 尚未确认具体使用者与场景；从描述推断，可能是需要周期性重复执行同一任务的运营或工程人员，在固定时间点让代理自动跑一遍流程。
+  job_en: The specific user and scenario are unconfirmed; the description suggests operations or engineering
+    staff who need the same task repeated on a schedule and let an agent run it automatically at fixed
+    times.
+  pain: 候选资料未说明任何具体痛点，无法判断不采用会失去什么。
+  pain_en: The candidate material states no concrete pain point, so what a user loses by not adopting
+    it cannot be judged.
+  current_alternative: 公开材料未给出旧做法，无法确认此前是人工定时执行、脚本调度还是其他工具。
+  current_alternative_en: No prior practice is given in the public material; whether this was previously
+    done by manual scheduling, cron scripts or another tool cannot be confirmed.
+  usage_reason: 缺少输入、触发条件与交付物的说明，无法解释相较旧做法减少了哪一步负担，因此无法给出使用理由。
+  usage_reason_en: With no description of inputs, triggers or deliverables, there is no basis to explain
+    which step it removes versus the old approach, so no usage reason can be given.

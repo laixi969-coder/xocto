@@ -21,7 +21,7 @@ canonical_url: https://nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-v
 summary: Court throws out killer's sentence after judge said he loved AI video of victim
 first_seen: '2026-10-10T01:45:59Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

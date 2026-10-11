@@ -548,3 +548,53 @@
     plain, AI-tone-free rules in one rewriting step and cutting repeated prompting and per-line rework;
     inference: Chinese technical writers needing batch output or a unified team voice would pick it during
     drafting and polishing.'
+- id: req-full-zh-tech-writing-2026-10-11
+  project_slug: zh-tech-writing
+  level: full
+  reviewed_at: '2026-10-11T01:32:48Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文技术文档被模型写成翻译腔、空话套话、需逐句删改 AI 腔的问题，把阮一峰写作规范变成 agent 可调用的约束；旧替代是人工逐句改写或自行对照规范文章。痛点与交付闭环可由公开产品说明还原，属工作流结构推理，尚无用户反馈量化。
+    evidence_ids:
+    - ev-0c9d8e9f6c038e52
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 331 持续升至 354，说明中文技术写作者群体持续关注并把它纳入 agent 工作流；但收藏与关注只属规模信号，缺少 issue、discussion 或评价说明实际使用场景与留存，故共识仅初步成立。
+    evidence_ids:
+    - ev-0c9d8e9f6c038e52
+    - ev-05d3807d1ac08ac7
+    - ev-a1d7f1e004e1d539
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法判断钱来自 to C 写作者、to B 文档团队还是仅靠开源关注；这是商业证据缺口，属判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-0c9d8e9f6c038e52
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺按规范改写并产出草稿，但公开材料未说明事实与术语核对的人工边界、改写失败或误改的处理方式，也无可复现的交付结果证据，确定性交付尚未核验。
+    evidence_ids:
+    - ev-0c9d8e9f6c038e52
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际改写场景、替代的旧流程及事实核对边界。
+  market: ''
+  job: 中文技术写作者（文档工程师、开发者关系或开源维护者）在起草或润色说明、教程、API 文档时，把已有中文草稿交给 AI agent，调用该 Skill 按短句、平实、去 AI 腔的规范改写，最终产出仍需作者核对事实与术语的中文文档草稿。
+  job_en: A Chinese technical writer (docs engineer, DevRel, or OSS maintainer) drafting or polishing
+    guides, tutorials, and API docs hands an existing Chinese draft to an AI agent, which invokes this
+    Skill to rewrite it under short-sentence, plain, no-AI-tone rules, producing a Chinese draft the author
+    still fact-checks.
+  pain: 中文技术文档常被模型写成翻译腔、空话和套话，作者要逐句删改 AI 腔，重复劳动且难以统一风格；公开材料未给出频率或返工时长的量化数据，痛点强度属工作流结构推理。
+  pain_en: Chinese technical docs written by models often come out translationese, padded, and formulaic,
+    forcing authors to hand-edit AI tone sentence by sentence with no consistent style; public materials
+    give no quantified frequency or rework time, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是作者凭个人语感逐句改写，或把阮一峰《中文技术文档的写作规范》当参考文章自行对照，规范停留在人读的文档层面，无法被 agent 直接调用执行。
+  current_alternative_en: The old way is authors rewriting sentence by sentence by personal feel, or consulting
+    Ruan Yifeng's Chinese Technical Writing Style Guide as a human-read article; the rules stay a document
+    for people, not something an agent can invoke and execute.
+  usage_reason: 相较逐句人工改写或自行对照规范文章，该 Skill 把规范固化为 agent 可调用的写作约束，在生成或改写环节直接施加短句、平实、去 AI 腔的规则，省去事后逐句清理 AI
+    腔这一步；推断常在中文技术文档产出量大、需要统一文风的写作者会在起草或润色时选用它。
+  usage_reason_en: Versus hand-rewriting or self-checking against the guide article, the Skill encodes
+    the rules as agent-invocable writing constraints applied during generation or rewriting, removing
+    the after-the-fact sentence-by-sentence cleanup of AI tone; inferred that writers producing large
+    volumes of Chinese technical docs needing a consistent voice would pick it while drafting or polishing.

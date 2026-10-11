@@ -1,0 +1,83 @@
+- id: req-initial-人工智能给助听器技术带来变革联影发布新一代医疗级智能助听器-2026-10-11
+  project_slug: 人工智能给助听器技术带来变革联影发布新一代医疗级智能助听器
+  level: initial
+  reviewed_at: '2026-10-11T01:02:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是验配反复调试、随访成本高的既有痛点，痛点真实；但候选未说明 AI 具体做什么、交付什么，价值链条无法闭合。
+    evidence_ids:
+    - ev-8ef571a02cbc19ca
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，没有验配师、听损用户或机构的采用与评价证据，共识卡在场景未被公开描述。
+    evidence_ids:
+    - ev-8ef571a02cbc19ca
+  - gate: model
+    status: insufficient
+    reason: 未披露价格、渠道与付费方，医疗级助听器通常由用户自费或医保/残联补贴，此处属判断而非已验证事实。
+    evidence_ids:
+    - ev-8ef571a02cbc19ca
+  - gate: truth
+    status: insufficient
+    reason: 医疗级产品涉及安全与验配人工边界，报道未给出临床验证或监管信息，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-8ef571a02cbc19ca
+  next_validation: 收集联影该款助听器的官方产品页或验配说明，确认 AI 在验配流程中的具体输入、动作与交付物。
+  market: ''
+  job: 听力师或验配师在门店为听损用户做听力评估与助听器验配时，需要处理听力图与调试参数，完成个性化增益设置与随访调整。
+  job_en: Audiologists or fitters assess hearing loss and fit hearing aids in clinics, working from audiograms
+    and fitting parameters to set personalised gain and follow-up adjustments.
+  pain: 验配依赖个人经验，参数调整反复、随访成本高，用户佩戴不适时往往要多次回店；这是听力辅具行业的既有痛点，但本候选未提供任何用户反馈或采用证据。
+  pain_en: Fitting depends on individual experience, parameter tuning is iterative and follow-up is costly,
+    so users often return repeatedly when the device feels uncomfortable; this is a known pain in hearing
+    care, but this candidate offers no user feedback or adoption evidence.
+  current_alternative: 现有做法是听力师手动调试、用户多次回店复调，部分机构用厂商自带的验配软件与远程调试功能。
+  current_alternative_en: Today audiologists tune manually and users return for repeat adjustments, with
+    some clinics using vendor fitting software and remote-tuning features.
+  usage_reason: 推断：若 AI 能根据听力图与佩戴数据直接给出可执行的调参建议，验配师可少做一轮试错，用户少跑一次门店；但本候选未说明 AI 的具体动作与交付，因此该理由目前只是结构推断，缺少可核验依据。
+  usage_reason_en: 'Inference: if the AI turns audiograms and wear data into actionable tuning suggestions,
+    fitters would need one less trial-and-error round and users one less clinic visit; however this candidate
+    does not describe the AI''s concrete action or deliverable, so the reason remains a structural inference
+    without verifiable support.'
+- id: req-full-人工智能给助听器技术带来变革联影发布新一代医疗级智能助听器-2026-10-11
+  project_slug: 人工智能给助听器技术带来变革联影发布新一代医疗级智能助听器
+  level: full
+  reviewed_at: '2026-10-11T01:32:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一句“AI 改造验配环节”的发布表述，未说明输入、动作与交付物，也未提供任何用户痛点或替代行为证据，连要解决的具体需求都无法还原，价值链条无法闭合。
+    evidence_ids:
+    - ev-8ef571a02cbc19ca
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集联影该款医疗级智能助听器的官方产品页或验配说明文档，确认 AI 在验配流程中的具体输入、动作与交付物。
+  market: ''
+  job: 听力师或验配师在门店或医院为听损用户做听力评估与助听器验配时，需要处理听力图与调试参数，完成个性化增益设置与随访调整。
+  job_en: Audiologists or fitters assess hearing loss and fit hearing aids in clinics, working from audiograms
+    and fitting parameters to set personalised gain and follow-up adjustments.
+  pain: 公开材料只给出“AI 改造验配环节”的笼统说法，未说明 AI 接收什么输入、执行什么动作、交付什么结果，也未提供任何验配师或听损用户的抱怨、workaround 或采用行为，因此连具体痛点都无法从证据中还原。
+  pain_en: Public material only states that AI transforms the fitting step; it does not say what the AI
+    takes as input, what it does, or what it delivers, and offers no complaints, workarounds or adoption
+    behaviour from fitters or users, so no concrete pain can be reconstructed from the evidence.
+  current_alternative: 公开材料未描述现有验配流程与替代方式，无法确认旧做法是手动调参、厂商验配软件还是远程调试。
+  current_alternative_en: Public material does not describe the existing fitting workflow or alternatives,
+    so it is unclear whether the old practice is manual tuning, vendor fitting software or remote adjustment.
+  usage_reason: 无法判断：候选未说明产品通过什么具体动作减少哪一步负担，也没有任何用户反馈或案例支持选择动机，因此不存在可写的使用理由。
+  usage_reason_en: 'Cannot be judged: the candidate does not describe what concrete action reduces which
+    step of effort, and no user feedback or case supports a choice motive, so no usage reason can be written.'

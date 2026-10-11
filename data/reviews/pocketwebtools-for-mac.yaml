@@ -1,0 +1,81 @@
+- id: req-initial-pocketwebtools-for-mac-2026-10-11
+  project_slug: pocketwebtools-for-mac
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知功能组合，无法说清替代了哪一步旧工作与具体痛点，价值关证据不足。
+    evidence_ids:
+    - ev-1e4ff8359e26f6f4
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值未成立，无用户评价或使用场景描述。
+    evidence_ids:
+    - ev-1e4ff8359e26f6f4
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值未成立，未见定价或买方信息。
+    evidence_ids:
+    - ev-1e4ff8359e26f6f4
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值未成立，无法判断转录与视频处理结果是否可靠交付。
+    evidence_ids:
+    - ev-1e4ff8359e26f6f4
+  next_validation: 收集 PocketWebTools 官方页面或定价页，确认支持的素材格式、输出结果与收费方式。
+  market: ''
+  job: Mac 用户在处理录音、视频等本地素材时，希望在同一应用内完成转录与后续处理，避免把文件上传到多个在线服务。
+  job_en: Mac users handling local audio and video want transcription and follow-up processing inside
+    one app, avoiding uploads to several online services.
+  pain: 公开材料只列出功能组合，未说明用户原来在哪一步费时、不解决会怎样，痛点无法从现有事实还原。
+  pain_en: Public material only lists a feature bundle; it does not show which step was costly or what
+    happens if unsolved, so the pain cannot be reconstructed.
+  current_alternative: 现有替代可能是分别使用在线转录服务、本地开源工具或系统自带功能，候选未提供任何对比事实。
+  current_alternative_en: Alternatives are likely separate online transcription services, local open-source
+    tools, or built-in system features; the candidate offers no comparison facts.
+  usage_reason: 推断：若本地处理能省去逐个上传与切换工具的步骤，注重隐私的个人用户可能选择它；目前缺少采用、留存或交付结果证据。
+  usage_reason_en: 'Inference: if local processing removes repeated uploading and tool switching, privacy-minded
+    individuals might choose it; adoption, retention and delivery evidence are missing.'
+- id: req-full-pocketwebtools-for-mac-2026-10-11
+  project_slug: pocketwebtools-for-mac
+  level: full
+  reviewed_at: '2026-10-11T01:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅有一句功能组合描述，无法还原用户原来在哪一步费时、不解决会怎样，也说不清替代了哪条旧流程，需求与痛点均无法从公开事实还原。
+    evidence_ids:
+    - ev-1e4ff8359e26f6f4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 PocketWebTools 官方产品页或定价页，确认支持的素材格式、输出结果、本地处理范围与收费方式。
+  market: ''
+  job: Mac 用户在处理本机录音、视频等素材时，希望在同一应用内完成 AI 对话、转录与视频处理，避免把文件分别上传到多个在线服务。
+  job_en: Mac users handling local audio and video want AI chat, transcription and video processing inside
+    one app, avoiding uploading files to several online services.
+  pain: 公开材料只有一句功能组合描述，未说明用户原来在哪一步费时、出错或受隐私限制，不解决会有什么后果，痛点无法从现有事实还原。
+  pain_en: Public material offers only a one-line feature bundle; it does not show which step was slow,
+    error-prone or privacy-constrained, nor the consequence of not solving it, so the pain cannot be reconstructed.
+  current_alternative: 可能的旧做法是分别使用在线转录服务、本地开源工具或系统自带功能，但候选未提供任何对比事实，无法确认替代路径。
+  current_alternative_en: Likely alternatives are separate online transcription services, local open-source
+    tools or built-in system features, but the candidate provides no comparison facts to confirm the substitute
+    path.
+  usage_reason: 推断：若本地处理能省去逐个上传与切换工具的步骤，注重隐私的个人用户可能选择它；但目前缺少采用、留存或交付结果证据，无法确认选择动因。
+  usage_reason_en: 'Inference: if local processing removes repeated uploading and tool switching, privacy-minded
+    individuals might choose it; adoption, retention and delivery evidence are missing, so the choice
+    motive cannot be confirmed.'

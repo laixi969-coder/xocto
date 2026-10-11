@@ -1,0 +1,86 @@
+- id: req-initial-primeintellect-2026-10-11
+  project_slug: primeintellect
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 agent 运行时的性能与稳定性需求，但公开材料未说明原先痛点与不解决的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-53cb605d2518709a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有采用、付费或持续使用的公开证据。
+    evidence_ids:
+    - ev-53cb605d2518709a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或买方，无法判断收入来自 to B、to C 还是 to VC。
+    evidence_ids:
+    - ev-53cb605d2518709a
+  - gate: truth
+    status: insufficient
+    reason: 未说明重写后的可核对结果、安全边界与人工介入方式。
+    evidence_ids:
+    - ev-53cb605d2518709a
+  next_validation: 收集 Prime Agent Rust 重写的官方发布说明或仓库文档，核对性能对比数据与开源许可。
+  market: ''
+  job: AI 基础设施工程师在维护自研 agent 运行时、需要降低资源占用与延迟时，处理 Rust 重写后的调度与执行代码，完成可稳定运行的 agent 执行环境。
+  job_en: AI infrastructure engineers maintaining a self-built agent runtime, handling Rust-rewritten
+    scheduling and execution code to deliver a stable agent execution environment.
+  pain: 公开材料只说明做了 Rust 重写，未给出原先的性能瓶颈、故障率或成本问题，痛点未被具体描述。
+  pain_en: Public material only states a Rust rewrite, without the prior performance bottleneck, failure
+    rate or cost problem, so the pain is not concretely described.
+  current_alternative: 团队此前使用 Python 实现的 agent 执行与调度代码，或采用其他开源 agent 框架。
+  current_alternative_en: Teams previously used Python-based agent execution and scheduling code, or other
+    open-source agent frameworks.
+  usage_reason: 推断：若 Rust 重写确实降低资源开销与延迟，自建 agent 的团队可能因此替换原有 Python 运行时；但公开材料未给出可核对的结果，选择理由尚不成立。
+  usage_reason_en: 'Inference: if the Rust rewrite genuinely lowers resource overhead and latency, teams
+    building their own agents might replace a Python runtime; but no verifiable result is public, so the
+    reason to choose it is not yet established.'
+- id: req-full-primeintellect-2026-10-11
+  project_slug: primeintellect
+  level: full
+  reviewed_at: '2026-10-11T01:31:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决 agent 运行时的开销与稳定性问题，但公开材料只有一句 Rust 重写标题，未说明原先瓶颈、不解决的后果与外部使用者，属于自研内部工程动作，外部用户不用也没有损失，价值关不成立。
+    evidence_ids:
+    - ev-53cb605d2518709a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Prime Intellect 官方博客与 公开代码仓库 仓库中 Prime Agent Rust 重写的发布说明，核对是否给出性能对比数据、开源许可与外部可复现的部署文档。
+  market: ''
+  job: Prime Intellect 团队自身的工程师在维护自研 Prime Agent 运行时、需要降低执行开销与延迟时，处理 Rust 重写后的调度与执行代码，交付可稳定运行的 agent 执行环境。
+  job_en: Prime Intellect's own engineers maintain the in-house Prime Agent runtime, handling Rust-rewritten
+    scheduling and execution code to deliver a stable agent execution environment with lower overhead
+    and latency.
+  pain: 公开材料只有一句“Rewriting Prime Agent in Rust”，没有说明原先 Python 运行时的具体瓶颈、故障率、成本或延迟数字，也没有外部用户抱怨或 workaround
+    记录，痛点无法从公开事实还原。
+  pain_en: The only public material is the line 'Rewriting Prime Agent in Rust'; it gives no prior Python
+    runtime bottleneck, failure rate, cost or latency figure, and no external user complaint or workaround,
+    so the pain cannot be reconstructed from public facts.
+  current_alternative: 团队此前自研的 Python 版 Prime Agent 执行与调度代码，或其他开源 agent 框架；这是从重写这一动作反推的旧做法，非公开披露。
+  current_alternative_en: The team's prior Python-based Prime Agent execution and scheduling code, or
+    other open-source agent frameworks; this is inferred from the rewrite action, not publicly disclosed.
+  usage_reason: 推断：若 Rust 重写确实降低资源开销与延迟，自建 agent 运行时的团队可能替换 Python 实现；但公开材料未给出可核对结果、交付形态或开源许可，选择理由目前只对
+    Prime Intellect 内部成立，对外部用户不构成采用依据。
+  usage_reason_en: 'Inference: if the Rust rewrite genuinely lowers overhead and latency, teams running
+    their own agent runtime might replace a Python implementation; but no verifiable result, delivery
+    form or open-source license is public, so the reason to choose it currently holds only inside Prime
+    Intellect and gives external users no adoption basis.'

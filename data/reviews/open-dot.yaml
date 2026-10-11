@@ -425,3 +425,44 @@
     it keeps execution on the user''s own computer and lets the agent complete the work autonomously,
     removing the manual step and making locally-run execution more acceptable to users wary of data leaving
     the machine; the material provides no user feedback backing this motive.'
+- id: req-full-open-dot-2026-10-11
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-11T01:31:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有一句仓库简介，未说明用户要完成什么任务、痛点是什么、旧流程如何，连需求与痛点都无法还原，价值关无法成立。
+    evidence_ids:
+    - ev-bd78c60be90f1550
+    - ev-9e0fc8c5f00d5693
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 open-dot 仓库的 README、issue 与 discussion，确认它实际执行的任务类型、输入材料与交付确认方式。
+  market: ''
+  job: 公开材料只说明它是运行在 Mac 上的个人代理，由 OpenAI 模型与 Composio 连接外部服务执行操作；没有说明谁、在什么情况下、处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: Public material only describes a Mac app personal agent that uses OpenAI models and Composio
+    to act on external services; it does not say who, in what situation, handling what material, to finish
+    what task, so the scenario cannot be reconstructed.
+  pain: 候选资料没有给出任何用户痛点、抱怨或旧流程描述，无法判断它替代了哪一步手工操作，也无法说明不解决会失去什么。
+  pain_en: The candidate material gives no user pain point, complaint or legacy workflow, so it is impossible
+    to tell which manual step it replaces or what is lost by not solving it.
+  current_alternative: 公开材料未提及用户此前用什么方式完成同类任务，替代对象无法确认。
+  current_alternative_en: The public material does not mention how users previously did comparable tasks,
+    so the alternative being replaced cannot be confirmed.
+  usage_reason: 缺少可核验的使用场景与交付说明，无法解释用户为何选择它而非现有做法；仓库星标从 578 增至 625 只反映关注度，不能作为使用理由。
+  usage_reason_en: With no verifiable usage scenario or delivery description, there is no way to explain
+    why a user would choose it over existing practice; repository stars rising from 578 to 625 reflect
+    attention only and cannot serve as a usage reason.

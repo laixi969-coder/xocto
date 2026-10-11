@@ -851,3 +851,49 @@
     an irreversible change after the fact and rolling it back, and leaving an auditable, recoverable record
     per delivery. Teams that let coding agents touch production repositories but must keep human sign-off
     would therefore choose it when agents edit sensitive paths or approach a merge. The 77 st'
+- id: req-full-approving-2026-10-11
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-10-11T01:28:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的公开 issue / discussion 与部署文档，确认是否有团队报告在真实代码库中持续使用沙箱执行与人工批准节点，以及是否出现托管版定价或付费支持记录。
+  market: ''
+  job: 使用编码代理的开发者或小团队，在让代理执行会改动真实代码库的任务时，需要把代理放进隔离的 Docker 沙箱运行，并在关键节点暂停，由人审阅结构化产物后批准才继续，从而在保留人工控制的前提下完成多步交付。
+  job_en: Developers or small teams using coding agents need to run agents inside isolated Docker sandboxes
+    on tasks that modify a real codebase, pause at critical nodes, and let a human review structured artifacts
+    and approve before the workflow continues, so multi-step delivery proceeds with human control intact.
+  pain: 编码代理直接在主仓库或本机执行时，越权改动、误删文件、跑出不可复现结果的风险由人承担；事后从日志里还原代理做了什么、哪一步出错，成本高且难以回滚。公开材料未给出频率或事故代价的量化数据，此痛点强度为工作流结构推理。
+  pain_en: When coding agents run directly on the main repo or local machine, the human bears the risk
+    of unauthorized edits, deleted files, and unreproducible results; reconstructing what the agent did
+    and where it failed from logs is costly and hard to roll back. Public materials give no quantified
+    frequency or incident cost, so this pain intensity is a workflow-structure inference.
+  current_alternative: 常见旧做法是让代理直接在本地或主分支跑，靠 git diff、日志和人工回滚兜底；或使用通用 CI 与容器脚本自行拼装沙箱，但没有内建的人工批准节点和结构化产物交换。
+  current_alternative_en: The common old practice is to let agents run directly on the local machine or
+    main branch, relying on git diff, logs, and manual rollback; alternatively teams assemble sandboxes
+    from generic CI and container scripts, without built-in human approval nodes or structured artifact
+    exchange.
+  usage_reason: 推断：相较直接在主仓库跑代理，它把执行放进真实 Docker 沙箱，并在关键节点强制暂停等待人工 Approve，从而省去事后从日志还原改动、手工回滚这一步负担，让需要审计与可恢复性的开发者在改动生产代码库时选择它。公开仓库
+    77 收藏、3 复刻只说明开发者关注，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus running agents directly on the main repo, it executes inside real
+    Docker sandboxes and forces a pause for human Approve at critical nodes, removing the burden of reconstructing
+    changes from logs and manually rolling back, which is why developers needing auditability and recoverability
+    would choose it when modifying production codebases. The 77 stars and 3 forks show developer attention
+    only, not sustained use.'

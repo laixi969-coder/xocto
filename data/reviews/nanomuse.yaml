@@ -295,3 +295,56 @@
     actions, removing the step of staying at the device clicking through and lowering the risk of unrecoverable
     mistakes; individuals who repeatedly move information between phone and computer and worry about automation
     errors would choose it in these situations. Public materials show no user f'
+- id: req-full-nanomuse-2026-10-11
+  project_slug: nanomuse
+  level: full
+  reviewed_at: '2026-10-11T01:31:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨设备重复操作与应用关闭后任务中断的需求，痛点是手动切换、重复执行且误操作难撤回；公开材料说明常驻执行、跨周记忆与不可撤销前确认，旧替代为手动操作、快捷指令与一次性助手。这是工作流结构推理，具体任务清单与交付稳定性仍缺公开核验。
+    evidence_ids:
+    - ev-afc97fc3c5e6a0bc
+    - ev-5078b08ae2b6f1be
+    - ev-3047b9abb8930587
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有开源仓库与官网的产品自述，未见用户评价、issue 讨论或客户案例说明谁在什么场景持续使用；关注度不等于场景共识，强场景是否存在仍无法从现有证据判断。
+    evidence_ids:
+    - ev-3047b9abb8930587
+    - ev-5078b08ae2b6f1be
+  - gate: model
+    status: insufficient
+    reason: 官网写明免费模型使用或接入任意 OpenAI 兼容模型，属开源免费路径，未见定价页、企业版或采购记录；钱可能来自 to C 捐赠、to B 支持或 to VC，这是判断而非已验证事实，需警惕只靠融资叙事。
+    evidence_ids:
+    - ev-5078b08ae2b6f1be
+    - ev-2117e087a7636c19
+  - gate: truth
+    status: insufficient
+    reason: 常驻执行与不可撤销操作前确认的设计贴近安全边界，但缺少部署文档、可复现实测或用户反馈来核对承诺能否确定性交付，人工确认边界与失败回滚机制尚未公开。
+    evidence_ids:
+    - ev-3047b9abb8930587
+    - ev-afc97fc3c5e6a0bc
+  next_validation: 追踪 nanoMuse 官方 公开代码仓库 仓库的 issue、discussion 与部署文档，核对它实际支持的任务类型、执行可靠性以及不可撤销操作确认机制是否按承诺落地。
+  market: ''
+  job: 个人用户在自己的手机、电脑或浏览器里，把跨设备的日常操作（在浏览器与本机应用之间搬运信息、执行重复动作）交给一个常驻智能体，由它调用本机与浏览器执行动作，应用关闭后仍继续跑，遇到不可撤销的操作先确认，最终交付已执行的动作或待确认提示。
+  job_en: An individual hands cross-device routine operations (moving information and repeating actions
+    between browser and local apps) to a resident agent on their phone, computer or browser; it executes
+    via local and browser actions, keeps running after the app closes, asks before irreversible steps,
+    and delivers executed actions or pending confirmations.
+  pain: 跨设备操作要在多个应用间来回切换并手动重复，应用关闭后任务中断，自动化动作一旦出错难以撤回；2011 年以来的助手只回答不执行，2023 年的 agent 做完一次就停，缺少跨周记忆与常驻执行。
+  pain_en: Cross-device work means switching among apps and repeating steps manually, tasks stop when
+    the app closes, and automated actions are hard to undo; assistants since 2011 only answered, and 2023
+    agents did one task and stopped, lacking cross-week memory and resident execution.
+  current_alternative: 用户目前靠手动逐步操作、系统自带快捷指令或脚本，以及通用对话助手；Meta Muse 这类厂商云内单国部署的常驻 agent 是新的参照，但闭源、绑定单一厂商云。
+  current_alternative_en: Users currently rely on manual step-by-step operation, built-in shortcuts or
+    scripts, and general chat assistants; vendor-cloud resident agents like Meta's Muse are a new reference
+    but closed and tied to one vendor's cloud in one country.
+  usage_reason: 推断：相较手动逐步操作或一次性对话助手，它把执行放进常驻进程、应用关闭后继续跑，并在不可撤销操作前要求确认，减少用户守在设备前逐步点击这一步，同时把记忆延续到跨周；因此在意跨设备重复操作、又担心自动化误操作不可撤回的个人用户，会在需要常驻执行且要求确认边界的场景下选择它。公开材料未给出用户反馈、留存或客户案例，是否长期留在工作流中尚不可确认。
+  usage_reason_en: 'Inference: versus manual step-by-step operation or one-shot chat assistants, it puts
+    execution in a resident process that keeps running after the app closes and requires confirmation
+    before irreversible actions, removing the step of staying at the device clicking through, while extending
+    memory across weeks; so individuals with cross-device repetitive work who fear irreversible automation
+    errors would choose it when they need resident execution with confirmation boundaries. P'

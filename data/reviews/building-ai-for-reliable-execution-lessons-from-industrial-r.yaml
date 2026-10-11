@@ -1,0 +1,88 @@
+- id: req-initial-building-ai-for-reliable-execution-lessons-from-industrial-r-2026-10-11
+  project_slug: building-ai-for-reliable-execution-lessons-from-industrial-r
+  level: initial
+  reviewed_at: '2026-10-11T01:01:42Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决产线换型时机械臂需重新示教标定的痛点，旧做法依赖稀缺集成工程师且停机久，交付物是可执行任务动作，结构上成立。
+    evidence_ids:
+    - ev-5a8fd62f7772c6d9
+  - gate: consensus
+    status: supported
+    reason: NASA、Amazon、Lockheed Martin 被列为客户，说明已有真实采购方；但公开材料未给出使用频率与复购数据。
+    evidence_ids:
+    - ev-5a8fd62f7772c6d9
+  - gate: model
+    status: insufficient
+    reason: 2 亿美元 C 轮与 10 亿美元估值显示资本路径清晰，但未披露定价、按工位还是按设备收费，买方付费方式仍待核验。
+    evidence_ids:
+    - ev-5a8fd62f7772c6d9
+  - gate: truth
+    status: insufficient
+    reason: 焊接与装配属安全敏感场景，公开材料未说明人工确认与安全边界如何设置，承诺能否确定性交付尚缺证据。
+    evidence_ids:
+    - ev-5a8fd62f7772c6d9
+  next_validation: 收集 Standard Bots 官方定价或部署文档，确认其按工位、按设备还是按订阅收费，以及客户侧人工确认与安全边界如何设置。
+  market: ''
+  job: 工厂自动化工程师在产线换型或新增工位时，处理机械臂示教、视觉标定与任务参数材料，完成新工位的部署与调试。
+  job_en: Factory automation engineers handle robot teaching, vision calibration and task parameter materials
+    during line changeovers or new workcells, to deploy and debug the new station.
+  pain: 传统工业机械臂每换一个任务都要重新示教和标定，依赖稀缺的集成工程师，换型停机时间长；招工难使老办法越来越难维持。
+  pain_en: Traditional industrial arms require re-teaching and recalibration for every task change, depend
+    on scarce integrators, and cause long changeover downtime; hiring difficulty makes the old approach
+    harder to sustain.
+  current_alternative: 由系统集成商上门做示教与编程，或采购固定程序的专机，换型时再请人重做。
+  current_alternative_en: System integrators visit to teach and program the arm, or the plant buys fixed-program
+    special-purpose machines and calls someone back in at each changeover.
+  usage_reason: 推断：相较集成商上门逐点示教，客户用自身演示数据微调共享基座模型，可减少重新编程这一步，并把适配工作留在厂内；因此换型频繁、缺少集成工程师的中小制造厂会在新增工位时优先考虑它。
+  usage_reason_en: 'Inference: compared with integrators teaching point by point on site, adapting a shared
+    base model with the customer''s own demonstrations removes the reprogramming step and keeps adaptation
+    in-house; plants with frequent changeovers and no in-house integrators would therefore consider it
+    first when adding a workcell.'
+- id: req-full-building-ai-for-reliable-execution-lessons-from-industrial-r-2026-10-11
+  project_slug: building-ai-for-reliable-execution-lessons-from-industrial-r
+  level: full
+  reviewed_at: '2026-10-11T01:29:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决产线换型时机械臂需重新示教标定的需求，痛点是依赖稀缺集成工程师、停机久；交付物是可执行任务的机械臂动作，结构推理成立，但部署流程与人工确认环节公开材料未披露。
+    evidence_ids:
+    - ev-a5a19c844ea231a2
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料称客户含 NASA、Amazon、Lockheed Martin，属采购方线索，但未给出使用频率、复购或持续采用数据，无法确认已长期留在工作流。
+    evidence_ids:
+    - ev-a5a19c844ea231a2
+  - gate: model
+    status: insufficient
+    reason: 2 亿美元 C 轮与 10 亿美元估值显示资本路径清晰，但未披露定价、按工位还是按设备收费，to B 付费方式属判断而非已验证事实。
+    evidence_ids:
+    - ev-a5a19c844ea231a2
+  - gate: truth
+    status: insufficient
+    reason: 焊接与装配属安全敏感场景，公开材料未说明人工确认与安全边界如何设置，承诺能否确定性交付尚缺证据。
+    evidence_ids:
+    - ev-a5a19c844ea231a2
+  next_validation: 追踪 Standard Bots 官网定价页或部署文档，确认其按工位、按设备还是按订阅收费，以及客户侧人工确认与安全边界如何设置。
+  market: ''
+  job: 工厂自动化工程师在产线换型或新增工位时，处理机械臂示教、视觉标定与任务参数材料，完成机器上下料、焊接或装配工位的部署与调试。
+  job_en: Factory automation engineers handle robot teaching, vision calibration and task parameters during
+    line changeovers or new workcells, to deploy and debug machine-tending, welding or assembly stations.
+  pain: 公开材料显示传统工业机械臂每换任务需重新示教与标定，依赖稀缺集成工程师，换型停机时间长；Standard Bots 以共享基座模型加客户演示微调、零样本感知来压缩这段适配工作。
+  pain_en: Public material indicates traditional industrial arms need re-teaching and recalibration at
+    each task change, depend on scarce integrators and cause long changeover downtime; Standard Bots compresses
+    this adaptation with a shared base model plus customer-demonstration fine-tuning and zero-shot perception.
+  current_alternative: 由系统集成商上门逐点示教编程，或采购固定程序的专机，换型时再请人重做。
+  current_alternative_en: System integrators visit to teach and program point by point, or the plant buys
+    fixed-program special-purpose machines and calls someone back in at each changeover.
+  usage_reason: 推断：相较集成商上门逐点示教，客户用自身演示数据微调共享基座模型，可省去重新编程这一步并把适配留在厂内；因此换型频繁、缺少驻厂集成工程师的制造厂在新增工位时会优先考虑它。
+  usage_reason_en: 'Inference: versus on-site point-by-point teaching by integrators, fine-tuning a shared
+    base model with the customer''s own demonstrations removes the reprogramming step and keeps adaptation
+    in-house; plants with frequent changeovers and no resident integrators would consider it first when
+    adding a workcell.'

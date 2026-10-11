@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi5wJBVV95cUxOYUV6WFdKM0hk
 summary: 本地跑3000亿参数模型！且看AMD如何引领智能体PC发展|大模型|NPU|AIPC|AI辅助|Agent 新浪财经
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

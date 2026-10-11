@@ -154,3 +154,50 @@
   usage_reason: 开源免费，且能直接在常用聊天应用中运行，降低切换成本，吸引技术爱好者尝试。
   usage_reason_en: Open-source and free, runs directly in common chat apps, reducing switching costs,
     attracting tech enthusiasts.
+- id: req-initial-openclaw-2026-10-11
+  project_slug: openclaw
+  level: initial
+  reviewed_at: '2026-09-29T01:58:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是零散重复任务要人工切换工具、手工盯进度的问题，痛点真实且高频；免费开源，买方不清，但需求结构成立。
+    evidence_ids:
+    - ev-766a1f907ec5b080
+  - gate: consensus
+    status: insufficient
+    reason: 有约478万次访问与社区讨论，但环比下降39.27%，且这些只是关注度与规模信号，不能证明持续采用。
+    evidence_ids:
+    - ev-6f4e07156d104cab
+  - gate: model
+    status: insufficient
+    reason: 开源免费，未见定价页或付费路径；钱可能来自企业部署与托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-766a1f907ec5b080
+  - gate: truth
+    status: insufficient
+    reason: 智能体可自主执行操作，权限边界、误操作后果与人工确认环节在公开材料中未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-766a1f907ec5b080
+  next_validation: 收集 OpenClaw 官方仓库的 issue 与 discussion，核验权限边界、人工确认机制及企业部署相关讨论。
+  market: ''
+  job: 个人开发者或小团队负责人，在需要把重复的查询、整理、通知类任务交给自动化处理时，通过即时通讯窗口下达指令，让智能体调用大模型执行并回传结果，自己只做最后确认。
+  job_en: An individual developer or small-team lead who, when repetitive lookup, sorting and notification
+    tasks need to be automated, issues instructions through a messaging window so the agent calls an LLM
+    to execute and return results, leaving only final confirmation to the human.
+  pain: 这类零散任务此前要在多个工具间手工切换、复制粘贴并自己盯进度，单次耗时短但频次高，容易漏掉；不做的代价是这些杂事持续占用开发者本可用于写代码的时间。
+  pain_en: Such scattered tasks previously required manual switching between tools, copy-pasting and self-monitoring;
+    each takes little time but recurs often and is easy to drop, and the cost of not doing it is that
+    these chores keep eating the developer's coding time.
+  current_alternative: 此前靠人工在浏览器与脚本之间来回操作，或自己写一次性脚本、用定时任务拼接，维护成本高且难以覆盖临时变化。
+  current_alternative_en: Previously people moved manually between browser and scripts, or wrote one-off
+    scripts and stitched together cron jobs, which are costly to maintain and hard to adapt to ad-hoc
+    changes.
+  usage_reason: 相较自己写脚本或手工切换工具，它把指令入口放在用户本来就在用的聊天窗口里，用自然语言描述任务即可触发执行并直接回传结果，省掉了写脚本和盯进度这两步；推断，习惯用聊天工具、又不想维护自动化脚本的独立开发者会因此选择它。
+  usage_reason_en: 'Compared with writing scripts or switching tools by hand, it puts the instruction
+    entry point in the chat window the user already uses, so a natural-language task triggers execution
+    and returns the result directly, removing the scripting and progress-monitoring steps. Inference:
+    independent developers who live in chat tools and do not want to maintain automation scripts would
+    choose it for this reason.'

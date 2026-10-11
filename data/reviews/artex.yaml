@@ -125,3 +125,46 @@
   usage_reason_en: 'No usage reason can be given: the evidence contains no product description, user feedback
     or adoption record matching this project, only the summary claim of a Baidu ''agent+'' attack-defense
     challenge win, which cannot explain which users would choose it and when.'
+- id: req-full-artex-2026-10-11
+  project_slug: artex
+  level: full
+  reviewed_at: '2026-10-11T01:28:58Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向同名建材、保险与航空信标产品，没有一条描述该渗透测试系统解决什么任务、痛点或旧做法，连需求和痛点都写不出来。
+    evidence_ids:
+    - ev-b87010d821b37b26
+    - ev-99790eec3c05635e
+    - ev-02459b6f07d28ed6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度“agent+”攻防挑战赛官方页面或该项目的公开仓库/演示文档，确认其输入、交付物与人工复核边界。
+  market: ''
+  job: 渗透测试工程师或安全服务交付人员在授权渗透测试中，把目标环境交给系统执行探测与攻击链尝试，产出测试结果；具体输入格式、人工复核边界与交付物形态均无公开材料说明。
+  job_en: A penetration tester or security service delivery specialist hands a target environment to the
+    system for authorized probing and attack-chain attempts and receives test results; the input format,
+    human review boundary and deliverable form are not described in public materials.
+  pain: 公开材料没有说明渗透测试工程师当前在哪个环节难受、频率多高、不解决会有什么后果；现有证据全部指向同名建材、保险和航空信标产品，与渗透测试无关。
+  pain_en: Public materials do not describe where penetration testers currently feel friction, how often,
+    or what happens if it is left unsolved; all available evidence points to same-named building material,
+    insurance and aviation beacon products unrelated to penetration testing.
+  current_alternative: 公开材料未说明用户目前如何完成渗透测试、它替代了哪一步人工或工具流程。
+  current_alternative_en: Public materials do not show how users currently perform penetration testing
+    or which manual or tool step it replaces.
+  usage_reason: 无法判断：现有证据没有一条描述该渗透测试产品的输入、动作或交付，也没有用户反馈说明为何选择它，因此不能给出使用理由。
+  usage_reason_en: 'Cannot be determined: no evidence describes this penetration-testing product''s input,
+    action or delivery, and no user feedback explains why anyone would choose it, so no usage reason can
+    be given.'

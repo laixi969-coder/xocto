@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/the-computer-game
 summary: Build the best computer, from stone tools to your own chips
 first_seen: '2026-10-11T01:01:01Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

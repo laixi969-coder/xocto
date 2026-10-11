@@ -165,3 +165,43 @@
   usage_reason: 材料未提供任何用户反馈或采用证据，无法解释开发者为何会选择它而非旧做法；仅凭仓库星标不能说明持续使用。
   usage_reason_en: The material provides no user feedback or adoption evidence, so it cannot explain why
     developers would choose it over the old approach; repository stars alone do not show sustained use.
+- id: req-full-shaders-2026-10-11
+  project_slug: shaders
+  level: full
+  reviewed_at: '2026-10-11T01:32:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选材料只给出组件库定位与仓库星标数，未说明开发者此前用什么方式实现同类效果、卡在哪一步，痛点无法从材料确认。
+    evidence_ids:
+    - ev-727e358c94040aa3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该项目的官方文档或示例页，确认它是否包含 AI 生成或辅助生成着色器的环节，以及开发者实际接入的步骤。
+  market: ''
+  job: 前端开发者在搭建网页或应用界面时，需要为页面加入着色器视觉效果，处理组件代码与渲染管线。
+  job_en: Front-end developers adding shader visual effects to web pages or app interfaces, working with
+    component code and rendering pipelines.
+  pain: 候选资料只给出组件库定位与仓库星标数，未说明开发者此前用什么方式实现同类效果、卡在哪一步，痛点无法从材料确认。
+  pain_en: The candidate material only gives the component library positioning and repository star count;
+    it does not say how developers achieved similar effects before or where they got stuck, so the pain
+    point cannot be confirmed from the material.
+  current_alternative: 公开材料未说明旧做法，无法确认此前是手写 WebGL/着色器代码、使用其他图形库，还是直接放弃该效果。
+  current_alternative_en: The public material does not describe the previous approach, so it is unclear
+    whether developers hand-wrote WebGL/shader code, used another graphics library, or simply skipped
+    the effect.
+  usage_reason: 材料未提供任何用户反馈或采用证据，无法解释开发者为何会选择它而非旧做法；仅凭仓库星标不能说明持续使用。
+  usage_reason_en: The material provides no user feedback or adoption evidence, so it cannot explain why
+    developers would choose it over the old approach; repository stars alone do not show sustained use.

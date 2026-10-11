@@ -1,11 +1,14 @@
 ---
 slug: 谷歌发布gemini智能体能写代码创作内容自主推进任务
-name: 谷歌发布Gemini智能体：能写代码、创作内容，自主推进任务
+name: Gemini
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是谷歌发布 Gemini 智能体能力的报道，指向模型厂商主产品的能力更新，而非一个可核验的独立垂直应用。报道只列出写代码、创作内容、自主推进任务等能力描述，未说明谁在什么工作节点使用、处理什么材料、交付什么结果，因此按平台能力变化进入市场背景。
 inspiration: ''
-summary_en: ''
+summary_en: This is a report on Google releasing Gemini agent capabilities, pointing to a capability update
+  of a model vendor's main product rather than a verifiable standalone vertical application. It lists
+  abilities such as coding, content creation and autonomous task advancement, without saying who uses
+  it, on what materials or with what deliverable, so it enters as market context.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi_wJBVV95cUxNS2JtWmFJZ1Aw
 summary: 谷歌发布Gemini智能体：能写代码、创作内容，自主推进任务 新浪财经
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# 谷歌发布Gemini智能体：能写代码、创作内容，自主推进任务
+# Gemini
 
 谷歌发布Gemini智能体：能写代码、创作内容，自主推进任务 新浪财经
 

@@ -1,12 +1,13 @@
 ---
 slug: meta-and-partners-launch-the-pap-protocol-to-standardize-int
-name: Meta and Partners Launch the PAP Protocol to Standardize Interactions Between Personal Agents and
-  Enterprise Services
+name: PAP Protocol
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Meta 与合作伙伴推出 PAP 协议，用于标准化个人智能体与企业服务之间的交互。该协议若被广泛采用，可能降低企业接入个人智能体的集成成本，并影响智能体生态的互操作标准竞争。
 inspiration: ''
-summary_en: ''
+summary_en: Meta and partners launched the PAP protocol to standardize interactions between personal agents
+  and enterprise services. If widely adopted, it could lower integration costs for enterprises connecting
+  to personal agents and shape competition over interoperability standards in the agent ecosystem.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +24,7 @@ summary: Meta and Partners Launch the PAP Protocol to Standardize Interactions B
   and Enterprise Services KuCoin
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Meta and Partners Launch the PAP Protocol to Standardize Interactions Between Personal Agents and Enterprise Services
+# PAP Protocol
 
 Meta and Partners Launch the PAP Protocol to Standardize Interactions Between Personal Agents and Enterprise Services KuCoin
 

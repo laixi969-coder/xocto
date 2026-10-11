@@ -1,0 +1,86 @@
+- id: req-initial-hypervibe-2026-10-11
+  project_slug: hypervibe
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多编码 agent 并行时状态分散、人工汇总成本高的问题，痛点来自任务结构本身。
+    evidence_ids:
+    - ev-1a3cfc51ae7acb41
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句产品描述，无用户评价或采用数据，卡在场景感知一环。
+    evidence_ids:
+    - ev-1a3cfc51ae7acb41
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，买方与收费方式不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-1a3cfc51ae7acb41
+  - gate: truth
+    status: insufficient
+    reason: 无法核对多 agent 结果归集是否确定发生，人工边界未说明。
+    evidence_ids:
+    - ev-1a3cfc51ae7acb41
+  next_validation: 收集该产品官方定价页或文档，确认多 agent 编排的交付方式与收费口径。
+  market: ''
+  job: 开发者同时向多个编码 agent 派发任务时，需要在一个界面上看清每个任务的状态与产出，避免在多个终端或会话间来回切换。
+  job_en: When a developer dispatches tasks to several coding agents at once, they need one surface showing
+    each task's status and output instead of switching between terminals or sessions.
+  pain: 并行 agent 的进度分散在各处，冲突与失败不易察觉，人工汇总成本高。
+  pain_en: Parallel agent progress is scattered, conflicts and failures are easy to miss, and manual consolidation
+    is costly.
+  current_alternative: 旧做法是开多个终端标签或会话窗口，靠人工记忆和逐个查看判断哪个任务卡住。
+  current_alternative_en: The old way is opening multiple terminal tabs or session windows and relying
+    on memory and manual inspection to spot which task is stuck.
+  usage_reason: 推断：把多个 agent 的任务与状态收敛到同一块画布，省去逐个窗口切换与人工比对这一步，因此同时跑多仓库任务的小团队会在任务数超过两三个时选择它。
+  usage_reason_en: 'Inference: by converging several agents'' tasks and status onto one board, it removes
+    the step of switching windows and comparing manually, so small teams running tasks across repositories
+    would pick it once task count exceeds two or three.'
+- id: req-full-hypervibe-2026-10-11
+  project_slug: hypervibe
+  level: full
+  reviewed_at: '2026-10-11T01:30:29Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称解决多编码 agent 并行调度，但全部证据指向同名全身振动健身平台，无法还原编码场景的用户任务、痛点与旧替代，需求与痛点均写不出。
+    evidence_ids:
+    - ev-43f4ecfb85e1e29c
+    - ev-6b71113ed163da16
+    - ev-90a7c49da1db591a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Hypervibe 官方产品页或仓库 README，确认其实际产品类别与多编码 agent 编排的交付方式，排除与同名振动健身平台混淆。
+  market: ''
+  job: 待判断：候选摘要称开发者同时跑多个编码 agent 时用一块无限画布查看与调度任务，但该项目全部证据指向同名全身振动健身平台（G14 振动板），无法还原任何编码 agent 场景中的使用者、输入材料与交付任务。
+  job_en: 'To be determined: the candidate summary describes developers viewing and scheduling multiple
+    coding agents on one infinite board, but all evidence for this project points to a same-named whole-body
+    vibration fitness platform (G14), so no user, input material, or deliverable in a coding-agent scenario
+    can be reconstructed.'
+  pain: 无法写出痛点：现有证据只说明振动平台用于改善力量、平衡、循环与日常活动能力，未提供任何关于并行编码 agent 状态分散、冲突或人工汇总成本的公开事实。
+  pain_en: 'No pain can be stated: the evidence only says the vibration platform improves strength, balance,
+    circulation, and daily mobility, offering no public fact about scattered parallel coding-agent status,
+    conflicts, or manual consolidation cost.'
+  current_alternative: 无法确认替代方式：证据中未出现开发者管理多个编码 agent 的旧做法，只出现家用振动训练设备这一完全不同的品类。
+  current_alternative_en: 'No alternative can be confirmed: the evidence shows no prior practice for managing
+    multiple coding agents, only a home vibration-training device in an entirely different category.'
+  usage_reason: 无法给出使用理由：候选描述的产品能力与全部引用证据（振动健身设备、FDA 注册、健身认证）不匹配，无法解释哪类用户会因哪一步负担减少而选择它。
+  usage_reason_en: 'No usage reason can be given: the described product capability does not match any
+    cited evidence (vibration fitness device, FDA registration, fitness certifications), so it cannot
+    explain which users would choose it for which reduced step.'

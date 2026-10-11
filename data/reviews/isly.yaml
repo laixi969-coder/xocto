@@ -1,0 +1,84 @@
+- id: req-initial-isly-2026-10-11
+  project_slug: isly
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句产品口号，无法还原旧流程、输入、动作与交付。
+    evidence_ids:
+    - ev-0520bd9063bb4eef
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有可归因到该产品的采用或讨论证据。
+    evidence_ids:
+    - ev-0520bd9063bb4eef
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径无从判断。
+    evidence_ids:
+    - ev-0520bd9063bb4eef
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法核对承诺能否确定性交付及人工边界。
+    evidence_ids:
+    - ev-0520bd9063bb4eef
+  next_validation: 收集该产品的官方产品页或说明文档，确认它在什么工作节点被打开、接收什么输入、产出什么可核对结果。
+  market: ''
+  job: MacBook 用户在桌面工作时，希望在不切换窗口的情况下查看或触发某些信息与操作；但候选资料未说明具体是谁、处理什么材料、要完成什么任务。
+  job_en: A MacBook user working at the desktop wants to view or trigger certain information and actions
+    without switching windows; the candidate material does not say who exactly, with what material, or
+    to complete what task.
+  pain: 候选资料未提供任何痛点描述，无法判断用户当前在哪一步感到难受。
+  pain_en: The candidate material provides no pain description, so it is impossible to tell which step
+    currently hurts the user.
+  current_alternative: 公开材料未说明现有替代方式；按结构推断，用户可能使用菜单栏工具、快捷键或独立窗口，但这属于推断，未经材料支持。
+  current_alternative_en: Public material does not state the current alternative; structurally one might
+    infer menu-bar utilities, shortcuts or separate windows, but this is inference without material support.
+  usage_reason: 无法判断。候选资料只有一句产品口号，既没有说明相较旧做法减少了哪一步负担，也没有可核对的结果改善，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: Cannot be judged. The candidate material is a single tagline; it neither shows which
+    step is reduced versus the old way nor any checkable outcome improvement, so it cannot explain which
+    users would choose it and when.
+- id: req-full-isly-2026-10-11
+  project_slug: isly
+  level: full
+  reviewed_at: '2026-10-11T01:30:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选资料仅一句“让 MacBook 刘海活起来”，所引证据全部指向同名乐队及其社交账号，无法还原用户任务、痛点、旧替代与不解决的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-50eab94230377335
+    - ev-3fa067589b6e4ec2
+    - ev-ac820c771b940734
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Isly 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 候选资料称面向 MacBook 刘海区域，但未说明谁、在什么情况下、处理什么材料、要完成什么任务，无法还原具体工作节点。
+  job_en: The candidate material says it targets the MacBook notch area, but does not say who, in what
+    situation, with what material, or to complete what task, so the specific work step cannot be reconstructed.
+  pain: 公开证据中没有任何用户痛点、抱怨或旧流程描述；所引证据全部指向名为 ISLY 的乐队及其社交账号，与 MacBook 刘海应用无关。
+  pain_en: The public evidence contains no user pain, complaint or old-workflow description; all cited
+    evidence points to a band named ISLY and its social accounts, unrelated to a MacBook notch app.
+  current_alternative: 材料未提供任何现有替代方式；按结构推断可能是菜单栏工具、快捷键或独立窗口，但这属于推断，且无任何引用事实支持。
+  current_alternative_en: The material provides no current alternative; structurally one might infer menu-bar
+    utilities, shortcuts or separate windows, but this is inference with no cited factual support.
+  usage_reason: 无法判断。候选资料只有一句产品口号，且所引证据与 MacBook 刘海应用无关，既不能说明相较旧做法减少哪一步负担，也没有可核对的结果改善。
+  usage_reason_en: Cannot be judged. The candidate material is a single tagline and the cited evidence
+    is unrelated to a MacBook notch app; it neither shows which step is reduced versus the old way nor
+    any checkable outcome improvement.

@@ -21,7 +21,7 @@ canonical_url: https://github.com/barnabymoorcroft/ai-media-model-workflows
 summary: Argolink-focused AI media workflow patterns for Seedance 2.5.
 first_seen: '2026-10-11T01:01:22Z'
 last_seen: '2026-10-11T01:01:22Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

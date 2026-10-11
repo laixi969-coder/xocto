@@ -519,3 +519,47 @@
     locally once, hits clips via natural language, and exports trimmed FCPXML, removing the manual timestamp-logging
     and project-rebuilding step; Apple Silicon editors with large local archives who avoid uploads would
     try it first.'
+- id: req-full-tern-2026-10-11
+  project_slug: tern
+  level: full
+  reviewed_at: '2026-10-11T01:32:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述了本地多模态检索与 FCPXML 导出，但全部证据指向同名自行车品牌、鸟类词条和旅行社软件，无一条来自该产品，无法确认用户任务、痛点强度与替代行为，价值结构无从建立。
+    evidence_ids:
+    - ev-65b7654a770afcba
+    - ev-0676eb830e110fa7
+    - ev-bd5ea02639b6e5a1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品自身的官方仓库或发布页，收集其 README、issue/discussion 与打包发布记录，确认 Whisper、Apple Vision、SigLIP-2
+    的实际集成与 FCPXML 导出是否可用。
+  market: ''
+  job: 视频剪辑师或播客制作人在整理本地历史音视频素材时，希望用自然语言定位特定台词、画面文字或视觉场景，裁切后导出 FCPXML 进入非编时间线。
+  job_en: Video editors or podcast producers working through local audio/video archives want to locate
+    specific spoken lines, on-screen text, or visual scenes by natural-language query, trim them, and
+    export FCPXML into an NLE timeline.
+  pain: 公开证据中没有任何一条来自该产品的用户反馈、issue 或案例，无法确认回放查找素材的耗时痛点真实存在及其强度；现有证据全部指向同名自行车品牌、鸟类词条与旅行社软件。
+  pain_en: No public evidence from this product's users, issues, or cases exists; the pain of scrubbing
+    archives cannot be confirmed, and all collected evidence points to an unrelated bicycle brand, a bird
+    article, and travel-agency software.
+  current_alternative: 无法从公开材料确认剪辑师当前用什么方式替代；候选摘要所述的人工回放或表格记录时间戳属于产品描述推断，不是可引用的用户行为证据。
+  current_alternative_en: The current workaround cannot be confirmed from public material; manual scrubbing
+    or spreadsheet timestamp logs are inferred from the product summary, not citable user-behavior evidence.
+  usage_reason: 无法判断用户为何选择它：没有定价、案例、评价或使用数据，本地多模态检索与 FCPXML 导出只是功能陈述，不构成采用动机的公开依据。
+  usage_reason_en: 'Why users would choose it cannot be judged: there is no pricing, case, review, or
+    usage data, and local multimodal search plus FCPXML export are feature statements, not public evidence
+    of adoption motive.'

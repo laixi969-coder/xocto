@@ -367,3 +367,46 @@
     models free without API keys — so non-professional developers or small teams without a dev environment
     or with limited budget would choose it when they need to validate a prototype quickly; however, public
     materials do not yet provide evidence of actual adoption or retention.'
+- id: req-full-builder-2026-10-11
+  project_slug: builder
+  level: full
+  reviewed_at: '2026-10-11T01:29:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决非专业开发者快速生成可运行原型的需求，但公开证据只有 Puter 平台通用介绍与 Puter.js 免费调用模型的教程，没有 Builder 自身的用户痛点、旧替代行为或不采用代价，痛点刚性与交付确定性均无公开事实支撑。
+    evidence_ids:
+    - ev-d8c76d9a32aa993c
+    - ev-4a3875c64e36467f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Puter Builder 官方文档或仓库中关于生成范围、部署方式与人工修改边界的说明，以及是否出现 Builder 专属的客户案例或使用反馈。
+  market: ''
+  job: 非专业开发者或小团队在需要快速做出网站或应用原型时，打开 Puter Builder，用自然语言描述需求，期望由 AI 生成可运行的站点或应用代码并拿到可运行项目。
+  job_en: Non-professional developers or small teams who need a quick website or app prototype open Puter
+    Builder, describe requirements in natural language, and expect AI to generate runnable site or app
+    code and a working project.
+  pain: 公开材料只给出 Puter 平台“浏览器内运行、无需安装”的通用描述和 Puter.js 免费调用多模型的教程，没有 Builder 用户对原型搭建摩擦、返工或交付不确定的任何抱怨或行为记录，痛点强度无法从公开事实确认。
+  pain_en: Public materials only give Puter's generic 'runs in your browser, nothing to install' description
+    and a Puter.js tutorial for free multi-model access; there is no Builder-user complaint or behavior
+    record about prototyping friction, rework, or delivery uncertainty, so pain intensity cannot be confirmed
+    from public facts.
+  current_alternative: 公开材料未说明 Builder 用户此前用什么方式完成原型搭建，也未说明它实际替代了 Lovable、Replit、v0 中的哪一步旧流程。
+  current_alternative_en: Public materials do not show how Builder users previously completed prototyping,
+    nor which step of Lovable, Replit, or v0 workflows it actually replaces.
+  usage_reason: 推断：若用户选择它，可能因为浏览器内免安装、无需 API key 即可调用多模型，从而省去本地环境配置和密钥申请；但公开材料没有任何 Builder 使用反馈或案例支持这一因果，因此不能作为已成立的采用理由。
+  usage_reason_en: 'Inference: users might choose it because it runs in-browser with no install and calls
+    multiple models without API keys, skipping local setup and key provisioning; but no Builder usage
+    feedback or case supports this causal link, so it cannot stand as an established adoption reason.'

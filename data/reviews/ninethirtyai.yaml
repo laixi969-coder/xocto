@@ -1,0 +1,39 @@
+- id: req-initial-ninethirtyai-2026-10-11
+  project_slug: ninethirtyai
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它是美股研究分析平台，未说明用户原来怎么手工做、哪一步最痛，需求与痛点尚写不实。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区提交且无评论，无法判断是否卡在感知、场景或利益环节。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方是个人投资者还是机构无法判断，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核验数据来源、结论可复核性与人工复核边界，交付确定性未知。
+    evidence_ids: []
+  next_validation: 抓取该平台官方定价页或产品文档，确认其数据来源、分析输出形态与收费方式。
+  market: ''
+  job: 美股研究员或独立投资者在需要快速形成个股观点时，把财报、公告与行情材料交给平台，产出可复核的研究结论。
+  job_en: US equity analysts or independent investors who need a fast view on a stock feed filings, announcements
+    and market data into the platform to produce a reviewable research conclusion.
+  pain: 公开材料只给出产品定位，未说明用户原来如何手工完成研究、耗时多久或哪一步最难受，痛点强度无法从现有事实判断。
+  pain_en: The public material only states the product positioning; it does not say how users previously
+    did this research by hand, how long it took, or which step hurt most, so pain intensity cannot be
+    judged from available facts.
+  current_alternative: 现有替代方式未在材料中说明；按常理推断可能是人工阅读财报、券商研报或通用对话助手，但这是推断，不是已核验事实。
+  current_alternative_en: The current alternative is not stated in the material; by inference it may be
+    manual reading of filings, broker research or a general chat assistant, but this is inference, not
+    verified fact.
+  usage_reason: 材料未提供任何用户反馈、客户案例或使用数据，无法说明相较旧做法减少了哪一步负担，因此选择动机只能标为未知。
+  usage_reason_en: The material provides no user feedback, customer case or usage data, so it cannot show
+    which step of the old workflow is reduced; the reason for choosing it must be marked unknown.

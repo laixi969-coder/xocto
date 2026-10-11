@@ -85,3 +85,51 @@
     places multi-agent orchestration on the local desktop with direct read/write access to the codebase,
     removing the context-shuttling step, so heavy local coders would choose it for cross-file changes;
     without user feedback or adoption evidence, long-term retention cannot be confirmed.'
+- id: req-full-stepfun-harness-2026-10-11
+  project_slug: stepfun-harness
+  level: full
+  reviewed_at: '2026-10-11T01:32:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者在本地桌面把编码任务交给多代理工作流并拿到可运行代码的需求；公开材料只列功能，未还原旧手工步骤与出错代价，痛点刚性属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-69e119d4954737e7
+    - ev-b4f85086f5e17625
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 51 增至 52，属关注度信号，不能说明开发者已把它纳入日常工作流；无 issue、discussion 或评价佐证持续使用。
+    evidence_ids:
+    - ev-69e119d4954737e7
+    - ev-b4f85086f5e17625
+  - gate: model
+    status: insufficient
+    reason: 摘要提到订阅与 API 接入，但未披露定价、计价单位或买方是个人开发者还是团队，付费路径无法核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-69e119d4954737e7
+  - gate: truth
+    status: insufficient
+    reason: 无法确认多代理产出是否可确定性交付、人工复核边界在哪，也未说明与模型厂商官方工具的关系，承诺交付边界仍待核验。
+    evidence_ids:
+    - ev-69e119d4954737e7
+    - ev-b4f85086f5e17625
+  next_validation: 追踪该仓库 README、issue 与 discussion 的公开更新，确认它实际替代的编码步骤、交付边界与是否已有开发者持续使用。
+  market: ''
+  job: 开发者在本地桌面环境中处理自己的代码仓库，把编码任务交给多代理工作流，通过订阅或 API 接入模型、用插件扩展能力，最终拿到可运行的代码产出。
+  job_en: Developers work on their own code repositories in a local desktop environment, hand coding tasks
+    to multi-agent workflows, connect models via subscription or API, extend with plugins, and obtain
+    runnable code output.
+  pain: 公开材料只给出功能清单（订阅与 API、多代理工作流、插件、Mini），没有说明开发者原来在哪一步手工做、耗时多久或出错代价，痛点强度只能从工作流结构推断，缺少用户抱怨或案例佐证。
+  pain_en: Public material only lists features (subscription and API, multi-agent workflows, plugins,
+    Mini); it does not show which step developers previously did by hand, how long it took, or what errors
+    cost, so pain intensity can only be inferred from workflow structure, without user complaints or cases.
+  current_alternative: 开发者目前用 IDE 加命令行代理，或直接在通用聊天助手里贴代码，再手工把结果搬回编辑器与仓库。
+  current_alternative_en: Developers currently use an IDE plus command-line agents, or paste code into
+    general chat assistants, then manually move results back into the editor and repository.
+  usage_reason: 推断：相较在聊天窗口与编辑器之间反复复制粘贴的旧做法，该产品把多代理编排放在本机桌面并直接读写代码库、保留上下文，省去搬运代码这一步，因此重度本地编码的开发者可能试用；但缺少用户反馈或采用证据，无法确认其被长期留在工作流中。
+  usage_reason_en: 'Inference: compared with the old copy-paste loop between chat window and editor, this
+    product puts multi-agent orchestration on the local desktop with direct read/write access to the codebase
+    and preserved context, removing the code-shuttling step, so heavy local coders may try it; without
+    user feedback or adoption evidence, long-term retention cannot be confirmed.'

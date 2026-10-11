@@ -1,0 +1,86 @@
+- id: req-initial-architecture-canvas-2026-10-11
+  project_slug: architecture-canvas
+  level: initial
+  reviewed_at: '2026-10-11T01:01:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把文档整理成架构图这一步手工劳动，痛点具体、旧做法明确，不采用就要继续手工拖拽和重画。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标数，没有用户评价或团队采用记录，无法判断架构师是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，开源项目可能靠赞助或托管服务变现，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  - gate: truth
+    status: insufficient
+    reason: 生成图是否准确、是否需大量人工返工没有公开材料，交付确定性无法核对。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  next_validation: 收集该仓库的 issue 与 discussion，看用户是否报告生成图需要大量返工或已用于真实评审。
+  market: ''
+  job: 系统架构师在方案评审或技术设计前，把需求文档、接口说明和现有系统描述整理成一张可编辑的架构图，供团队讨论和修改。
+  job_en: Before a design review, a system architect turns requirement documents, interface notes and
+    existing system descriptions into one editable architecture diagram for the team to discuss and revise.
+  pain: 手工在绘图工具里逐个拖拽方框和连线，材料一多就要反复对照文档，改一版图往往要重画一遍。
+  pain_en: Manually dragging boxes and connectors in a drawing tool means constantly cross-checking documents
+    as material grows, and a revised version often means redrawing.
+  current_alternative: 用 Excalidraw、draw.io、Visio 等工具手工绘制，或把文档贴给通用聊天助手要一段 Mermaid 代码再自己调。
+  current_alternative_en: Drawing by hand in Excalidraw, draw.io or Visio, or pasting documents into a
+    general chat assistant for Mermaid code and fixing it manually.
+  usage_reason: 推断：它把文档直接读成画布上的图形初稿，省掉从零摆放节点和连线的第一步，架构师只需在已有草图上增删；对不愿把内部文档交给外部服务的团队，本地工作区是选择它的具体理由。
+  usage_reason_en: 'Inference: it reads documents straight into a first draft of shapes on the canvas,
+    removing the first step of placing nodes and connectors from scratch so the architect only edits an
+    existing sketch; for teams unwilling to hand internal documents to an external service, the local
+    workspace is a concrete reason to pick it.'
+- id: req-full-architecture-canvas-2026-10-11
+  project_slug: architecture-canvas
+  level: full
+  reviewed_at: '2026-10-11T01:28:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把需求文档整理成可编辑架构图这一步手工劳动，痛点具体、旧做法明确，不采用就要继续手工拖拽和重画；这是从产品输入—动作—交付闭环作出的工作流结构推理。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标数，没有用户评价或团队采用记录，无法判断架构师是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，开源项目可能靠赞助或托管服务变现，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  - gate: truth
+    status: insufficient
+    reason: 生成图是否准确、是否需大量人工返工没有公开材料，交付确定性无法核对。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  next_validation: 收集该仓库的 issue 与 discussion，看用户是否报告生成图需要大量返工或已用于真实评审。
+  market: ''
+  job: 系统架构师在方案评审或技术设计前，把需求文档、接口说明和现有系统描述整理成一张可编辑的架构图，供团队讨论和修改。
+  job_en: Before a design review, a system architect turns requirement documents, interface notes and
+    existing system descriptions into one editable architecture diagram for the team to discuss and revise.
+  pain: 手工在绘图工具里逐个拖拽方框和连线，材料一多就要反复对照文档，改一版图往往要重画一遍。
+  pain_en: Manually dragging boxes and connectors in a drawing tool means constantly cross-checking documents
+    as material grows, and a revised version often means redrawing.
+  current_alternative: 用 Excalidraw、draw.io、Visio 等工具手工绘制，或把文档贴给通用聊天助手要一段 Mermaid 代码再自己调。
+  current_alternative_en: Drawing by hand in Excalidraw, draw.io or Visio, or pasting documents into a
+    general chat assistant for Mermaid code and fixing it manually.
+  usage_reason: 推断：它把文档直接读成画布上的图形初稿，省掉从零摆放节点和连线的第一步，架构师只需在已有草图上增删；对不愿把内部文档交给外部服务的团队，本地工作区是选择它的具体理由。
+  usage_reason_en: 'Inference: it reads documents straight into a first draft of shapes on the canvas,
+    removing the first step of placing nodes and connectors from scratch so the architect only edits an
+    existing sketch; for teams unwilling to hand internal documents to an external service, the local
+    workspace is a concrete reason to pick it.'

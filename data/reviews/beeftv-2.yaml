@@ -79,3 +79,50 @@
   usage_reason_en: 'Inference: if the canvas keeps assets, models and ideas in one place and an agent
     connects them, it could cut the steps of moving and merging across tools; but public material does
     not describe the concrete action, input or deliverable, so which users would choose it cannot be confirmed.'
+- id: req-full-beeftv-2-2026-10-11
+  project_slug: beeftv-2
+  level: full
+  reviewed_at: '2026-10-11T01:29:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频创作中创意、模型与素材分散、需跨工具搬运汇总的需求，痛点来自多模型产出难以编排；公开材料未量化耗时，但画布加 Agent 的输入—动作—交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-569ee8502ccee239
+    - ev-585d26f218ddd930
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 1,006 升至 1,050，属关注度而非持续采用；缺少用户评价、客户案例或复购证据，无法确认创作者已将其留在工作流。
+    evidence_ids:
+    - ev-569ee8502ccee239
+    - ev-585d26f218ddd930
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，开源项目可能的付费路径尚不明确；谁付钱是判断而非已验证事实，但需求判定不因此取消。
+    evidence_ids:
+    - ev-569ee8502ccee239
+  - gate: truth
+    status: insufficient
+    reason: 无法核对画布与 Agent 的交付是否确定发生，也未见人工确认边界与安全约束；公开材料只给出定位，未说明成片方案如何验收。
+    evidence_ids:
+    - ev-569ee8502ccee239
+  next_validation: 追踪 BeefTV 官方文档或演示页，确认画布加 Agent 的具体输入、动作与交付物，以及是否披露定价或客户案例。
+  market: ''
+  job: 视频创作者在分镜与素材整理阶段，把创意、模型与素材放进同一块画布，由 Agent 连接这些元素，产出可交付的成片方案或素材编排结果。
+  job_en: Video creators, during storyboarding and asset organization, place ideas, models and assets
+    on one canvas and let an agent connect them into a deliverable cut plan or asset arrangement.
+  pain: 公开材料只给出画布加 Agent 的定位，未说明原来哪一步手工工作被替代、耗时多久；从工作流结构推理，痛点是创意、生成模型与素材分散在多个工具，创作者需反复搬运与人工汇总。
+  pain_en: Public material only states a canvas-plus-agent positioning and does not say which manual step
+    was replaced or how long it took; by workflow inference, the pain is that ideas, generation models
+    and assets are scattered across tools, forcing repeated moving and manual merging.
+  current_alternative: 剪辑师在时间轴软件里手工拼接素材，或分别调用多个生成模型再人工汇总。
+  current_alternative_en: Editors assemble assets manually in timeline software, or call several generation
+    models separately and merge results by hand.
+  usage_reason: 推断：相较在时间轴软件与多个生成模型间来回搬运，画布把创意、模型与素材放在同一处并由 Agent 连接，可减少跨工具复制与汇总的步骤，因此需要快速把多模型产出编排成成片方案的创作者会在分镜与素材整理阶段选择它；公开材料未给出具体动作与交付细节，此为结构推理。
+  usage_reason_en: 'Inference: compared with shuttling between timeline software and several generation
+    models, a canvas that keeps ideas, models and assets in one place and lets an agent connect them can
+    cut cross-tool copying and merging, so creators who need to quickly arrange multi-model output into
+    a cut plan would choose it during storyboarding and asset organization; public material lacks concrete
+    action and deliverable detail, so this is structural reasoning.'

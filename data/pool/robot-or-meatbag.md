@@ -8,12 +8,20 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://meatbag.atomic14.com/
 canonical_url: https://meatbag.atomic14.com
 summary: ''
 first_seen: '2026-08-18T13:55:39Z'
 last_seen: '2026-08-19T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -23,6 +31,7 @@ sightings:
   metrics:
     points: 5
     comments: 3
+  kind: product
 ---
 
 # Robot or Meatbag?

@@ -891,3 +891,49 @@
   usage_reason_en: Its public repository has 221 stars and 21 forks, showing developer attention; but
     stars and forks are attention signals only and cannot explain why users choose it, and repeat use
     and payment remain unverified.
+- id: req-full-ai-agent-book-2026-10-11
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-10-11T01:28:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 release/commit 记录，核对读者是否报告实验可复现、内容是否随模型与框架版本更新，以判断交付稳定性与持续使用。
+  market: ''
+  job: AI 应用开发者或技术团队在准备把 LLM 助手从 demo 推进到可上线系统时，需要处理设计原理、工具调用、记忆、评测与工程落地等材料，产出一套能照着复现的实验与实现路径。
+  job_en: AI application developers or technical teams moving an LLM assistant from demo to shippable
+    system need to work through design principles, tool use, memory, evaluation and engineering practice,
+    producing a reproducible set of experiments and an implementation path.
+  pain: 公开材料只显示这是一本开源教材加实验，未提供用户抱怨或失败案例；从工作流结构推理，痛点是该领域知识碎片化、官方文档偏 API 参考、博客偏单点技巧，读者难以把原理串成可运行的工程闭环，不解决则只能靠零散试错，返工成本高。
+  pain_en: Public materials show only an open textbook plus experiments, with no user complaints or failure
+    cases; by workflow inference the pain is that knowledge in this field is fragmented, official docs
+    are API-reference oriented and blog posts cover isolated tricks, so readers struggle to turn principles
+    into a runnable engineering loop, and leaving it unsolved means scattered trial and error with high
+    rework cost.
+  current_alternative: 读者目前依赖官方 API 文档、框架文档、零散博客与视频教程，或直接照抄开源 demo 代码，缺少把设计原理与工程实践串起来的系统材料。
+  current_alternative_en: Readers currently rely on official API docs, framework docs, scattered blog
+    posts and video tutorials, or copy open-source demo code directly, lacking systematic material that
+    connects design principles with engineering practice.
+  usage_reason: 推断：相较零散博客与官方 API 参考，它把原理讲解与可跟做的实验放在同一份开源材料里，读者可少一步自行拼装知识路径、直接按章节复现实验，因此正在学习或落地 AI Agent
+    的开发者会在需要系统入门与动手验证时选择它；仓库 221 收藏、21 复刻只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: compared with scattered blog posts and official API references, it puts
+    principle explanations and follow-along experiments in one open-source artifact, saving readers a
+    step of assembling a learning path and letting them reproduce experiments chapter by chapter, so developers
+    learning or shipping AI agents would choose it when they need systematic onboarding plus hands-on
+    validation; the repository''s 221 stars and 21 forks indicate attention only, not sustained us'

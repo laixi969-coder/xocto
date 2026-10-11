@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOUVnaXBBbDFv
 summary: 'Youth Startup Award: Bringing AI into sales and customer service. Vietnam.vn'
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: 仓储机器人公司ultra-robotics获6200万美元融资-ai应用
-name: 仓储机器人公司Ultra Robotics获6200万美元融资-AI应用
+name: Ultra Robotics
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE1BYWZEa04tMjI5
 summary: 仓储机器人公司Ultra Robotics获6200万美元融资-AI应用 至顶网
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 仓储机器人公司Ultra Robotics获6200万美元融资-AI应用
+# Ultra Robotics
 
 仓储机器人公司Ultra Robotics获6200万美元融资-AI应用 至顶网
 

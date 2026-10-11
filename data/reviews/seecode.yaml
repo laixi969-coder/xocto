@@ -85,3 +85,49 @@
     a structured JSON spec straight into playable, explorable diagrams, removing the manual drawing and
     step-alignment work, so developers who must explain agent changes would pick it in review or walkthrough
     settings; no retention or repeat-use evidence yet.'
+- id: req-full-seecode-2026-10-11
+  project_slug: seecode
+  level: full
+  reviewed_at: '2026-10-11T01:32:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理多文件改动难以被人读懂和讲清的问题，痛点来自 diff 与日志无法还原步骤顺序，旧做法是手绘流程图或截图标注，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 123 升至 149，说明有关注度，但没有用户评价、客户案例或采用数据，无法判断开发者是否真把它放进审阅流程。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+    - ev-b4ab9669841721a7
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或商业路径，买方与收费方式不明；这是判断而非已验证事实，不能据此取消真需求判定。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  - gate: truth
+    status: insufficient
+    reason: 图解是否与真实代码变更一致、是否需人工校对，公开材料未说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-909277b5e82faf6d
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认支持的编码代理、输入格式，以及生成的图解是否需人工校对。
+  market: ''
+  job: 开发者在审阅 Claude 等编码代理产出的多文件改动时，把一段简短 JSON 规格交给 SeeCode，生成可播放、可逐层展开的动画图解，用来自己核对步骤衔接或向同事说明代理到底改了什么。
+  job_en: When reviewing multi-file changes produced by coding agents such as Claude, a developer feeds
+    a short JSON spec into SeeCode to generate animated, explorable diagrams, either to self-check step
+    ordering or to explain to colleagues what the agent actually changed.
+  pain: 代理一次改动跨多个文件和步骤，纯文字 diff 与日志难以还原先后顺序与依赖关系，人工在脑中重建结构耗时且容易漏看关键环节。
+  pain_en: A single agent change spans multiple files and steps; plain diffs and logs make ordering and
+    dependencies hard to reconstruct, so rebuilding the structure mentally is slow and easy to miss key
+    links.
+  current_alternative: 目前多靠逐行读 diff、翻代理日志、手画流程图或截图标注，并在编辑器与绘图工具之间来回切换。
+  current_alternative_en: Today people read diffs line by line, scroll agent logs, hand-draw flowcharts
+    or annotate screenshots, switching between editor and drawing tools.
+  usage_reason: 推断：相较逐行读 diff 再手绘流程图，SeeCode 把结构化 JSON 规格直接渲染成可播放、可展开的图解，省掉手工画图与截图标注这一步，因此需要向他人解释代理改动的开发者会在审阅或评审场景选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus reading diffs line by line and drawing flowcharts by hand, SeeCode
+    renders a structured JSON spec straight into playable, expandable diagrams, removing the manual drawing
+    and screenshot-annotation step, so developers who must explain agent changes would pick it during
+    review or walkthrough scenarios; no retention or repeat-use evidence yet.'

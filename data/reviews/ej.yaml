@@ -1,0 +1,91 @@
+- id: req-initial-ej-2026-10-11
+  project_slug: ej
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是边缘设备上离线做分类判断的需求，痛点存在，但候选只有一句产品描述，没有用户抱怨、替代行为或采用记录。
+    evidence_ids:
+    - ev-457f1338f696d068
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供任何关注度、下载或使用数据，无法判断是否有具体人群已经在用它替代云端推理。
+    evidence_ids:
+    - ev-457f1338f696d068
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、授权方式或客户案例，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-457f1338f696d068
+  - gate: truth
+    status: insufficient
+    reason: 候选未说明支持的输入类型、准确率与集成方式，交付结果无法核对，也无法判断设备端判断的安全边界。
+    evidence_ids:
+    - ev-457f1338f696d068
+  next_validation: 收集该产品的官方文档或发布页，确认支持的输入类型、准确率指标、集成方式与授权或定价信息。
+  market: ''
+  job: 嵌入式开发者在边缘设备算力有限、网络不可靠的场景下，处理设备采集的输入，希望在本机一次推理就得到带类型的判断结果。
+  job_en: An embedded developer, in a setting with limited edge compute and unreliable network, processes
+    device-captured input and wants a typed decision from a single on-device inference pass.
+  pain: 把判断放到云端会带来延迟、联网依赖与数据外流问题，而在设备上跑通用模型又受体积与算力限制；候选材料没有给出用户抱怨或采用证据。
+  pain_en: Moving decisions to the cloud brings latency, connectivity dependence and data leaving the
+    device, while running general models on-device is limited by size and compute; the candidate material
+    gives no user complaints or adoption evidence.
+  current_alternative: 调用云端推理接口，或在设备上部署体积更大的模型并做量化裁剪，也可能用传统规则与阈值判断。
+  current_alternative_en: Calling a cloud inference API, or deploying a larger model on-device with quantization
+    and trimming, or using traditional rules and thresholds.
+  usage_reason: 推断：相较云端调用，它在设备本地完成一次前向推理，省掉联网与数据外传这一步，因此对网络不稳或数据不便外发的边缘场景有吸引力。缺少准确率、集成案例与留存证据，无法确认是否被长期采用。
+  usage_reason_en: 'Inference: compared with cloud calls, it completes one forward pass locally on the
+    device, removing the connectivity and data-egress step, which appeals to edge settings with unstable
+    networks or data that should not leave the device. Without accuracy, integration cases or retention
+    evidence, long-term adoption cannot be confirmed.'
+- id: req-full-ej-2026-10-11
+  project_slug: ej
+  level: full
+  reviewed_at: '2026-10-11T01:30:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决边缘设备上离线做带类型分类判断的需求，痛点来自云端延迟、联网依赖与数据外流，以及设备端大模型受体积算力限制；11MB 一次前向推理在结构上对应这一任务，但痛点强度与采用属工作流推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-457f1338f696d068
+  - gate: consensus
+    status: insufficient
+    reason: 候选只有一句产品描述，没有下载、关注、集成或使用数据，无法判断是否已有具体人群在用它替代云端推理或规则判断。
+    evidence_ids:
+    - ev-457f1338f696d068
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、授权方式或客户案例，买方与付费路径不明；按产品形态推断可能面向嵌入式开发者或设备厂商，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-457f1338f696d068
+  - gate: truth
+    status: insufficient
+    reason: 候选未说明支持的输入类型、准确率与集成方式，交付结果无法核对，设备端判断的安全与人工边界也无从判断。
+    evidence_ids:
+    - ev-457f1338f696d068
+  next_validation: 追踪该产品在 公开资料 发布页与官方仓库/文档中是否补充支持的输入类型、准确率指标、集成方式与授权或定价信息。
+  market: ''
+  job: 嵌入式开发者在边缘设备算力有限、网络不可靠或数据不便外发的场景下，处理设备采集的输入，希望在本机一次前向推理就得到带类型的判断结果，用于设备侧分类决策。
+  job_en: An embedded developer, in a setting with limited edge compute, unreliable network or data that
+    should not leave the device, processes device-captured input and wants a typed decision from a single
+    on-device forward pass for device-side classification.
+  pain: 把判断放到云端会带来延迟、联网依赖与数据外流；在设备上跑通用模型又受体积与算力限制，需要量化裁剪与工程适配。候选材料只有一句产品描述，没有用户抱怨或采用记录，痛点强度属结构推理。
+  pain_en: Cloud-side decisions bring latency, connectivity dependence and data egress; running general
+    models on-device is constrained by size and compute, requiring quantization and engineering adaptation.
+    The candidate has only a one-line product description, no user complaints or adoption records, so
+    pain intensity is structural inference.
+  current_alternative: 调用云端推理接口；或在设备上部署更大的模型并做量化裁剪；也可能用传统规则与阈值判断。
+  current_alternative_en: Calling a cloud inference API; or deploying a larger model on-device with quantization
+    and trimming; or using traditional rules and thresholds.
+  usage_reason: 推断：相较云端调用，它把一次前向推理放在设备本地完成，省掉联网请求与数据外传这一步；相较自部署大模型，11MB 体积降低了内存与算力门槛。因此网络不稳、数据不便外发或算力受限的边缘开发者会优先试用它。缺少准确率、集成案例与留存证据，无法确认是否被长期采用。
+  usage_reason_en: 'Inference: compared with cloud calls, it completes one forward pass locally, removing
+    the network request and data-egress step; compared with self-hosting a larger model, the 11MB size
+    lowers memory and compute thresholds. Edge developers with unstable networks, data that should not
+    leave the device, or constrained compute would therefore try it first. Without accuracy, integration
+    cases or retention evidence, long-term adoption cannot be confirmed.'

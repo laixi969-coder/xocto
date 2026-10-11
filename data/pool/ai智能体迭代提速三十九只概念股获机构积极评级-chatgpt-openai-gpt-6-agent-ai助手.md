@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwtBVV95cUxNT2txMEFEUlFD
 summary: AI智能体迭代提速三十九只概念股获机构积极评级|ChatGPT|OpenAI|GPT-6|Agent|AI助手 新浪财经
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

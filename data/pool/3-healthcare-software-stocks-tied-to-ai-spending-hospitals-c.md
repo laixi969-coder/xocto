@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNamdMZEJ2RmhO
 summary: 3 Healthcare Software Stocks Tied To AI Spending Hospitals Can Actually Use Simply Wall Street
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

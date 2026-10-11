@@ -130,3 +130,51 @@
     tasks and risks in one workspace, potentially removing the step of shuttling and re-checking records
     across tools; however, public materials do not describe inputs, actions or outputs, so which users
     choose it and when remains an inference.'
+- id: req-full-opspilot-ai-2026-10-11
+  project_slug: opspilot-ai
+  level: full
+  reviewed_at: '2026-10-11T01:31:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会后把分散记录汇总成可追踪条目的需求，痛点在于跨文档、任务工具与聊天手工搬运易漏跟；仓库自述覆盖会议、决策、任务、风险与组织记忆，说明交付对象明确。但输入材料与产出格式未公开，属工作流结构推理而非用户证据。
+    evidence_ids:
+    - ev-67645a720b40eecb
+    - ev-e127699f214e4808
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从44升至60，说明开发者注意到该项目，但收藏与排名只属关注度，不能证明目标运营或项目负责人已把它留在工作流；公开材料无用户评价、案例或重复使用记录。
+    evidence_ids:
+    - ev-67645a720b40eecb
+    - ev-270c51915e937853
+    - ev-e127699f214e4808
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未公开定价页、付费主体或采购路径，无法判断钱来自企业订阅、团队自建还是纯社区维护；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-67645a720b40eecb
+  - gate: truth
+    status: insufficient
+    reason: 仓库自述承诺覆盖会议到组织记忆的闭环，但未公开部署文档、数据留存方式或人工复核边界，交付能否稳定发生、敏感会议数据如何处理均无法核对。
+    evidence_ids:
+    - ev-67645a720b40eecb
+    - ev-e127699f214e4808
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认它接收的会议输入格式、产出的任务与风险条目形态，以及是否有真实团队部署记录。
+  market: ''
+  job: 运营或项目负责人在会后需要把散落在会议记录、聊天与任务工具里的决议、待办和风险，整理成可追踪、可交接的条目，并持续跟进到关闭。
+  job_en: After meetings, operations or project owners must turn decisions, action items and risks scattered
+    across notes, chat and task tools into trackable, handover-ready items and follow them to closure.
+  pain: 公开材料只给出仓库自述的功能清单，未展示任何用户抱怨、旧流程耗时或漏跟后果；痛点强度属于从任务结构推出的判断，而非已核验的用户事实。
+  pain_en: Public material only offers the repository's own feature list; no user complaints, time cost
+    or missed-follow-up consequences are shown, so pain intensity is inferred from task structure, not
+    verified user fact.
+  current_alternative: 按任务结构推断，用户目前用会议纪要文档加任务工具加聊天记录手工汇总，或干脆只留纪要、不建可追踪条目；公开材料未说明它实际替代了哪一步。
+  current_alternative_en: Inferred from task structure, users currently consolidate manually across meeting-note
+    docs, task tools and chat, or keep notes without trackable items; public material does not show which
+    step it actually replaces.
+  usage_reason: 推断：若产品真能把会议输入直接落成任务、风险与决策条目，用户省掉的是在多个工具间复制粘贴并手工建条这一步；但公开材料未说明输入材料、执行动作与产出格式，因此这只是结构推理，尚无用户反馈或案例支持。
+  usage_reason_en: 'Inference: if the product truly turns meeting input into task, risk and decision items,
+    users skip the copy-paste-and-manually-create step across tools; but public material does not state
+    inputs, actions or output format, so this is structural reasoning without user feedback or cases.'

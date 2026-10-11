@@ -384,3 +384,47 @@
     access, iCode runs fully offline with a TUI and local data control, removing the step of building
     or approving an external channel for compliance, so developers under data-egress constraints would
     choose it on intranets.'
+- id: req-full-icode-2026-10-11
+  project_slug: icode
+  level: full
+  reviewed_at: '2026-10-11T01:30:29Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据只显示同名少儿编程教育机构与竞赛组织，未出现候选摘要所述离线 agent 产品的任何用户任务、痛点或替代行为，连需求与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-167b5f2fde824689
+    - ev-7c7f17dcb4179695
+    - ev-ffc63c6d50076aa3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该离线 agent 产品的官方仓库或官网，核对其 README、部署文档与 issue/discussion 是否描述离线执行任务、输入材料与交付物，以确认其与同名少儿编程机构是否为同一实体。
+  market: ''
+  job: 候选摘要称开发者可在数据不能出内网或无稳定外网的环境中，把本地代码仓库与任务交给离线 agent 与工作流执行，并在终端界面取回结果；但公开证据中没有任何材料描述这一任务、输入材料或交付物。
+  job_en: The candidate summary claims developers in offline or data-restricted environments hand local
+    repositories and tasks to an offline agent and workflow, retrieving results in a terminal UI; however,
+    no public evidence describes this task, its input materials, or deliverables.
+  pain: 公开证据未记录任何与该离线 agent 任务相关的痛点、频率或不采用代价；现有材料只描述面向儿童和青少年的编程与 STEM 课程，与候选摘要所述任务无关。
+  pain_en: Public evidence records no pain, frequency, or cost of inaction tied to this offline agent
+    task; the available materials only describe coding and STEM classes for kids and teens, unrelated
+    to the claimed task.
+  current_alternative: 公开材料未说明开发者目前如何完成这一任务，也未说明该产品替代了什么旧做法；现有证据指向线下少儿编程课程网络，而非开发工作流替代。
+  current_alternative_en: Public materials do not show how developers complete this job today or what
+    the product replaces; the evidence points to an in-person kids coding school network, not a developer
+    workflow substitute.
+  usage_reason: 无法给出使用理由：公开证据中不存在该离线 agent 产品的功能、用户反馈或采用记录，无法说明用户相较旧做法为何选择它；现有证据全部指向同名的少儿编程教育机构。
+  usage_reason_en: 'No usage reason can be given: public evidence contains no functionality, user feedback,
+    or adoption record for this offline agent product, so it cannot explain why users would choose it
+    over their existing approach; all evidence points to a same-named kids coding education organization.'

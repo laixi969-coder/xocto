@@ -704,3 +704,42 @@
     and memory retention inside one workspace, removing the step of re-explaining background and redoing
     work, so developers who use several models and do not want to lose task state would choose it; the
     repository''s 1,995 stars and 253 forks show attention, not sustained use.'
+- id: req-full-cindy-2026-10-11
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-10-11T01:29:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让开发者在一个工作区里跨厂商切换写代码助手并保留记忆与任务，但公开材料只有产品口号，没有用户抱怨、旧替代行为或不解决的后果，无法还原具体任务与痛点强度，故不判真需求也不判伪需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的公开仓库 README、release 与 issue/discussion，确认跨模型切换时记忆与任务保持的实际机制，以及是否有用户报告把它接入日常编码流程。
+  market: ''
+  job: 开发者把不同厂商的写代码助手收进同一工作区，在任务中途切换模型，同时保留记忆与未完成的工作。
+  job_en: Developers put coding assistants from different vendors into one workspace so they can switch
+    models mid-task while keeping memory and unfinished work.
+  pain: 公开材料只有一句产品口号，没有用户抱怨、workaround 或案例说明切换模型时丢失上下文的具体代价与发生频率，痛点强度无法从公开事实还原。
+  pain_en: Public materials contain only a product tagline; no user complaints, workarounds or cases show
+    the concrete cost or frequency of losing context when switching models, so pain intensity cannot be
+    reconstructed from public facts.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users complete this job today or what prior
+    practice it replaces.
+  usage_reason: 公开仓库有 1,995 个收藏、253 次复刻，说明开发者注意到或试用过它，但这是关注度证据，不能解释用户为何选择它，也不能证明持续使用或付费。
+  usage_reason_en: The public repository has 1,995 stars and 253 forks, showing developer attention or
+    trial, but this is attention evidence; it does not explain why users choose it nor prove repeat use
+    or payment.

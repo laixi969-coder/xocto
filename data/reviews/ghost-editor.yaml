@@ -376,3 +376,50 @@
     placement and motion scenes into one input-output pass, removing the repetitive line-by-line caption
     alignment and manual face-avoidance steps, so creators who must ship uniform talking-head reels on
     a publishing cadence would pick it; this motive is not yet backed by user feedback or cases.'
+- id: req-full-ghost-editor-2026-10-11
+  project_slug: ghost-editor
+  level: full
+  reviewed_at: '2026-10-11T01:30:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播成片剪辑的重复劳动：逐句卡节奏、手动排字幕避脸、模仿参考视频手法。痛点刚性来自高频出片与剪辑工时冲突，不解决则产出速度受限。这是基于产品说明与任务结构的工作流推理，非用户采用证据。
+    evidence_ids:
+    - ev-80f8278f2cfca759
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 63 缓慢增至 67，说明有开发者关注，但无用户评价、案例或持续使用证据，无法判断目标创作者是否真把它留在工作流里。
+    evidence_ids:
+    - ev-80f8278f2cfca759
+    - ev-bf271ef7a261dcc4
+  - gate: model
+    status: insufficient
+    reason: 作为开源 agent skill 无定价页，谁付费、按什么单位收费均未公开；可能走 to C 订阅或 to B 授权，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-80f8278f2cfca759
+  - gate: truth
+    status: insufficient
+    reason: 成片质量、字幕避脸准确率与人工返工量无公开可复现证据，交付能否稳定发生尚未核验；安全与人工边界也未说明。
+    evidence_ids:
+    - ev-80f8278f2cfca759
+  next_validation: 追踪 ghost-editor 仓库的 README、issue 与 discussion，确认是否有真实创作者提交成片样例、返工反馈或部署使用记录。
+  market: ''
+  job: 口播类短视频创作者或剪辑师在剪一条竖屏成片时，把原始口播素材和一条想模仿的参考视频交给它，按选定风格套用节奏、生成不遮脸的字幕并加入动态场景，输出可直接发布的成片。
+  job_en: A talking-head short-video creator or editor, cutting one vertical clip, feeds raw talking-head
+    footage plus a reference video into the tool, which applies one of 7 styles, generates face-safe captions
+    and motion scenes, and outputs a publish-ready vertical cut.
+  pain: 口播成片的手工剪辑重复且耗时：逐句卡节奏、手动排字幕并避开人脸、套用参考视频的剪辑手法都要人工重做；不解决则每条视频的产出速度受限于剪辑工时，参考风格难以稳定复用。
+  pain_en: 'Hand-editing talking-head clips is repetitive and slow: matching rhythm line by line, placing
+    captions without covering the face, and copying a reference edit''s technique are all manual; leaving
+    it unsolved caps output speed at editing hours and makes reference styles hard to reuse consistently.'
+  current_alternative: 公开材料未直接描述用户现有做法；从任务结构推断，替代方式是 Premiere/CapCut 等通用剪辑软件手工剪，或外包给剪辑师，参考视频靠人眼拆解后手动模仿。
+  current_alternative_en: Public materials do not directly describe current practice; inferred from the
+    task structure, the alternative is manual editing in general tools like Premiere or CapCut, outsourcing
+    to an editor, or eyeballing a reference video and copying it by hand.
+  usage_reason: 推断：相较手工剪辑，它把“拆解参考视频的剪辑手法”和“逐句排字幕避脸”两步交给自动化，用户只需提供素材和参考视频即可得到成片，因此追求高频出片、又缺乏剪辑人力的口播创作者会在批量产出时选择它；但成片质量与返工量尚无公开证据。
+  usage_reason_en: 'Inference: versus manual editing, it automates two steps — reverse-engineering a reference
+    edit and placing captions line by line without covering the face — so users only supply footage and
+    a reference to get a finished cut; creators who publish frequently without editing staff would pick
+    it for batch output, though output quality and rework remain unverified publicly.'

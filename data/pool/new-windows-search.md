@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/new-windows-search
 summary: Windows Search now takes action, not just finds files
 first_seen: '2026-10-11T01:01:01Z'
 last_seen: '2026-10-11T01:01:01Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

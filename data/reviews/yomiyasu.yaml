@@ -411,3 +411,47 @@
   usage_reason_en: 'Inference: it replaces sentence-by-sentence manual proofreading with a targeted rewrite,
     aimed at teams producing Japanese content at volume without native reviewers; but no rewrite quality
     or usage feedback is public, so whether it truly reduces human final review remains unverified.'
+- id: req-full-yomiyasu-2026-10-11
+  project_slug: yomiyasu
+  level: full
+  reviewed_at: '2026-10-11T01:32:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成日文不自然、发布前需人工逐句改写的问题，旧做法是人工校对或请母语者审稿，不做的后果是内容不可直接发布；这是从产品说明与工作流结构推出的判断。
+    evidence_ids:
+    - ev-16ee808c8dc0b0fa
+    - ev-3dd4d63546f420f6
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 1520 增至 1806 只说明开源关注度上升，没有用户评价、案例或重复使用证据证明它被持续放进内容工作流。
+    evidence_ids:
+    - ev-16ee808c8dc0b0fa
+    - ev-3dd4d63546f420f6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是内容团队或本地化公司，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-16ee808c8dc0b0fa
+  - gate: truth
+    status: insufficient
+    reason: 缺少改写质量评测与人工终审边界的说明，能否确定性交付可发布文本无法核对。
+    evidence_ids:
+    - ev-16ee808c8dc0b0fa
+  next_validation: 收集该仓库 README、示例对比或 issue 讨论，查找改写前后样例与是否仍需人工终审的说明。
+  market: ''
+  job: 日文内容编辑、本地化人员或市场内容运营在拿到 AI 生成的日文草稿后，处理这些草稿文本，要完成把不自然表达改成可直接发布的自然日语这一任务。
+  job_en: Japanese content editors, localization staff, or marketing content operators take AI-generated
+    Japanese drafts and must turn unnatural phrasing into publishable natural Japanese.
+  pain: AI 生成的日文常带不自然表达，逐句人工改写耗时；非母语者又难以判断哪里不自然，发布前必须有人兜底，这是内容上线前的真实卡点。
+  pain_en: AI-generated Japanese often carries unnatural phrasing; rewriting sentence by sentence is slow,
+    and non-native speakers struggle to spot what is unnatural, so a human must catch it before publishing.
+  current_alternative: 现有做法是人工逐句校对、请母语者审稿，或反复让通用模型重写。
+  current_alternative_en: Current practice is manual sentence-by-sentence proofreading, hiring native
+    reviewers, or repeatedly asking a general model to rewrite.
+  usage_reason: 推断：它把“找出不自然表达并改写”这一步从人工逐句校对换成一次针对性改写，面向需要批量产出日文内容、又缺少母语审稿人的团队；但公开材料没有改写质量或使用反馈，是否真能减少人工终审尚未核验。
+  usage_reason_en: 'Inference: it replaces sentence-by-sentence manual proofreading with a targeted rewrite,
+    aimed at teams producing Japanese content at volume without native reviewers; but no rewrite quality
+    or usage feedback is public, so whether it truly reduces human final review remains unverified.'

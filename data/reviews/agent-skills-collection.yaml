@@ -902,3 +902,42 @@
   usage_reason_en: 'Inference: if skill packs can be dropped into the assistant''s directory and invoked,
     users may skip hand-writing each tool definition; but without user feedback or repeat-use evidence,
     this choice cannot be confirmed.'
+- id: req-full-agent-skills-collection-2026-10-11
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-10-11T01:28:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的公开 issue 与 discussion，确认是否有用户报告安装时关杀毒、提权导致的具体故障或安全事件，以及维护者是否给出替代安装方式。
+  market: ''
+  job: 开发者想给基于 LLM 的 AI 助手加装模块化技能，按项目自述需要关闭杀毒软件、以管理员权限运行安装包来完成安装。
+  job_en: Developers want to add modular skills to an LLM-based AI assistant, and per the project's own
+    description must disable antivirus and run a setup file as administrator to install it.
+  pain: 公开材料只给出安装方式本身（关杀毒、管理员权限），没有用户抱怨、issue 或案例说明这种安装摩擦造成了什么具体损失、多久遇到一次；产品能力描述不能当作痛点证据。
+  pain_en: Public material only states the install method (disable antivirus, run as administrator); no
+    user complaints, issues, or cases show what concrete loss this friction causes or how often it occurs.
+    Product capability descriptions are not pain evidence.
+  current_alternative: 公开材料未说明用户目前如何给 AI 助手加技能，也未说明它替代了手工提示词、插件市场还是自写工具。
+  current_alternative_en: Public material does not show how users currently add skills to an AI assistant,
+    nor whether this replaces manual prompts, a plugin marketplace, or self-written tooling.
+  usage_reason: 仅有仓库收藏与复刻等关注度信号，缺少用户反馈或案例说明为何在关杀毒、提权的代价下仍选择它，因此无法给出选择因果，只能标为推断不足。
+  usage_reason_en: Only attention signals such as repository stars and forks exist; no user feedback or
+    case explains why anyone would choose it despite disabling antivirus and elevating privileges, so
+    no causal usage reason can be stated.

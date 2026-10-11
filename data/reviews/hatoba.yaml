@@ -91,3 +91,53 @@
     through the user''s own Cloudflare account gives an option to those unwilling to hand sessions to
     a third-party cloud. Public material does not state the AI''s context scope or accuracy, and there
     is no user feedback, so evidence that it stays in the workflow is missing.'
+- id: req-full-hatoba-2026-10-11
+  project_slug: hatoba
+  level: full
+  reviewed_at: '2026-10-11T01:30:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SSH 排查中报错、配置与命令历史分散、跨设备同步要么手动拷贝要么托付第三方云的需求，痛点刚性来自线上故障的时间压力与密钥安全顾虑；不解决的后果是排查变慢或密钥外泄风险。产品以桌面客户端加会话内
+      AI 助手、自带 Cloudflare 账号端到端同步完成交付，属工作流结构推理，公开材料未说明 AI 上下文范围。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 45 至 47 星，无用户评价、issue 讨论或采用数据，看不出运维人群是否把它当作日常工具；星标只反映关注度，不能证明持续使用。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+    - ev-370cbf608eda44c2
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页或商业路径，谁付钱说不清；若走托管同步或团队版，买方可能是中小运维团队，但这是判断而非已验证事实，也无采购记录。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  - gate: truth
+    status: insufficient
+    reason: AI 助手与端到端加密同步能否确定性交付缺少文档与实测，AI 读取哪些上下文、生成命令是否需人工确认、安全边界均未公开，承诺与第一性目标贴近但可核验性不足。
+    evidence_ids:
+    - ev-dc29df6b5dc96de6
+  next_validation: 追踪 Hatoba 仓库 README 或文档中关于 AI 助手可读取上下文范围、生成命令的人工确认环节，以及 Cloudflare 端到端加密同步实现方式的公开说明。
+  market: ''
+  job: 运维或后端工程师在线上故障排查或日常巡检时，打开桌面 SSH 客户端连接多台主机，翻看配置文件与日志、执行命令，需要快速定位问题并让多台设备上的会话配置保持一致。
+  job_en: SREs and backend engineers open a desktop SSH client to connect to multiple hosts during incident
+    triage or routine checks, reading config files and logs and running commands to locate problems quickly
+    while keeping session configs consistent across their devices.
+  pain: SSH 会话中的报错、配置和命令历史分散在各台机器上，跨设备同步要么手动拷贝密钥与配置，要么把会话交给第三方云，安全与便利难以兼顾；排查时还要切窗口查文档、凭记忆拼命令。
+  pain_en: Errors, configs and command history are scattered across machines; cross-device sync means
+    manually copying keys and configs or handing sessions to a third-party cloud, trading security for
+    convenience; during triage engineers also switch windows to search docs and recall commands from memory.
+  current_alternative: 直接用系统终端或 iTerm、Termius 等客户端，配合手工维护的 SSH config、密钥文件和自建同步盘；AI 辅助则靠另开浏览器或聊天窗口。
+  current_alternative_en: Plain system terminals or clients like iTerm and Termius, plus hand-maintained
+    SSH configs, key files and self-managed sync drives; AI help comes from a separate browser or chat
+    window.
+  usage_reason: 推断：相较手动翻文档、凭记忆拼命令，助手可在当前会话内直接解释报错或起草命令，省去切窗口查资料这一步；同步走用户自己的 Cloudflare 账号，让不愿把会话交给第三方云的用户多一个可接受选项。公开材料未说明
+    AI 读取的上下文范围与准确性，也无用户反馈，是否被长期留在工作流中缺少证据。
+  usage_reason_en: 'Inference: versus manually searching docs and recalling commands, the assistant can
+    explain an error or draft a command inside the session, removing the window-switching step; syncing
+    through the user''s own Cloudflare account gives an acceptable option to those unwilling to hand sessions
+    to a third-party cloud. Public material does not state the AI''s context scope or accuracy, and there
+    is no user feedback, so evidence that it stays in the workflow is missing.'

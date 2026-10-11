@@ -1270,3 +1270,51 @@
     and Context command list composition, compaction and pruning events directly, removing the step of
     manually diffing the conversation to infer what was dropped; DSH users debugging long-session forgetting
     would therefore reach for it during troubleshooting.'
+- id: req-full-dsh-context-2026-10-11
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-11T01:30:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩剪枝后用户看不见丢了什么、只能事后反推的痛点；DSH 生态已有 dsh-sieve 等上下文管理插件，说明该任务真实存在。这是基于产品能力与工作流的结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-29a5392dac0f0dd3
+    - ev-ce71b7b1a98db1f4
+  - gate: consensus
+    status: insufficient
+    reason: 同生态插件 dsh-sieve 收藏数从 52 增至 73，显示 DSH 上下文管理方向有开发者关注，但未见 dsh-context 自身的采用、评价或持续使用证据，无法确认共识。
+    evidence_ids:
+    - ev-29a5392dac0f0dd3
+    - ev-ce71b7b1a98db1f4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，钱可能来自 DSH 插件市场的个人开发者付费或赞助，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0f8712a7297cc852
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺展示上下文组成与演进，但未见部署文档、可复现实测或 issue 证明其在真实长会话中确定性交付，也未说明人工与安全边界。
+    evidence_ids:
+    - ev-29a5392dac0f0dd3
+  next_validation: 追踪 dsh-context 在 npm 或代码仓库的 README、issue 与 discussion，确认是否有真实用户报告用它定位到上下文丢失事件，以及是否出现定价或赞助入口。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或重度用户在长会话、多轮工具调用后，需要查看当前上下文里装入了哪些系统提示、工具输出与历史消息，以及压缩、剪枝发生在哪一步，从而判断模型为何丢失或遗忘关键信息。
+  job_en: Developers or heavy users of DeepSeek Harness, after long multi-turn tool-calling sessions,
+    need to inspect which system prompts, tool outputs and history are currently loaded and where compaction
+    or pruning occurred, to explain why the model dropped or forgot key facts.
+  pain: 长会话中上下文被自动压缩和剪枝，用户看不到被丢弃的内容，只能靠模型答错后反推，排查遗忘原因成本高且不可复现。
+  pain_en: In long sessions the context is auto-compacted and pruned; users cannot see what was discarded
+    and can only infer backwards after the model answers wrongly, making debugging costly and hard to
+    reproduce.
+  current_alternative: 当前替代方式是直接翻看原始会话日志、凭经验猜测 token 占用，或使用 dsh-sieve 这类只做过滤与剪枝、不展示上下文组成与演进过程的插件。
+  current_alternative_en: Today users read raw session logs, guess token usage from experience, or use
+    plugins like dsh-sieve that only filter and prune without showing context composition and evolution.
+  usage_reason: 推断：相较翻日志或凭经验猜测，该插件通过 Context 面板与命令直接列出上下文组成、压缩与剪枝事件，把“事后反推为什么忘”变成“当场看到哪一步丢了什么”，因此长会话调试和上下文调优的
+    DSH 用户会在排查遗忘时选择它。
+  usage_reason_en: 'Inference: versus reading logs or guessing, the plugin''s Context panel and command
+    directly list context composition plus compaction and pruning events, turning after-the-fact guessing
+    into seeing which step dropped what, so DSH users debugging long sessions would pick it when tracing
+    forgotten facts.'

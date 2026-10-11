@@ -8,12 +8,20 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/OperatorProject/extctl
 canonical_url: https://github.com/OperatorProject/extctl
 summary: a super simple systemd-sysext wrapper
 first_seen: '2026-08-18T21:38:54Z'
 last_seen: '2026-08-19T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -23,6 +31,7 @@ sightings:
   metrics:
     points: 5
     comments: 0
+  kind: product
 ---
 
 # Extctl

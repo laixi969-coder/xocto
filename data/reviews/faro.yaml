@@ -1,0 +1,38 @@
+- id: req-initial-faro-2026-10-11
+  project_slug: faro
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决目标坚持缺少外部问责的问题，痛点真实，但公开材料只有一句产品描述，说不清具体使用节点与交付，价值结构尚不完整。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有用户评价或采用证据，无法判断用户是否真的把短信问责当作替代方案。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，短信通道成本由谁承担不明；这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对承诺能否确定性交付，也看不到人工介入边界，公开材料不足。
+    evidence_ids: []
+  next_validation: 收集 Faro 官方产品页或应用商店页面，确认其定价、使用流程与用户评价。
+  market: ''
+  job: 想坚持戒断、健身或备考等目标的个人，在容易动摇或忘记打卡的时刻，用短信与一个问责伙伴沟通，完成一次进度确认或复盘。
+  job_en: An individual pursuing a goal such as quitting, exercising or exam prep, at moments of wavering
+    or missed check-ins, uses text messages with an accountability companion to confirm progress or reflect.
+  pain: 缺少外部问责时目标容易中断，真人教练昂贵且时间不固定，通用提醒工具容易被忽略。
+  pain_en: Goals lapse without external accountability; human coaches are expensive and schedule-bound;
+    generic reminder tools are easy to ignore.
+  current_alternative: 自己用备忘录或习惯打卡 App 记录，或请朋友、教练定期督促。
+  current_alternative_en: Self-tracking in notes or habit apps, or asking a friend or coach to check in
+    periodically.
+  usage_reason: 推断：短信不需要额外打开 App，问责消息直接出现在用户日常查看的通道里，可能降低一次打卡的操作负担；但公开材料没有用户反馈或留存证据，无法确认用户是否因此长期使用。
+  usage_reason_en: 'Inference: SMS requires no extra app launch and puts the check-in where users already
+    look, potentially lowering the effort of one log; but no user feedback or retention evidence is public,
+    so long-term use cannot be confirmed.'

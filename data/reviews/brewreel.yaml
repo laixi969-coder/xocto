@@ -500,3 +500,53 @@
     templates and ad-law checks built in, removing the burden of doing storyboarding and copywriting yourself;
     thus small merchants or marketers without editing skills who need fast runnable vertical assets would
     choose it when they have a clear brief and scattered footage.'
+- id: req-full-brewreel-2026-10-11
+  project_slug: brewreel
+  level: full
+  reviewed_at: '2026-10-11T01:29:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小商家/营销人员只有简报和零散素材、却要产出可投放竖版宣传片的需求，痛点是缺剪辑与文案能力且不愿为每条素材付高价制作费；开源可商用与一条命令出片使交付路径可确定，属工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-f47a86f2a9308698
+    - ev-b61c58d11d845929
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 118 增至 162，说明开发者社区持续关注，但收藏与关注只属规模信号，公开材料没有目标商家或营销人员的持续使用、复购或评价证据，无法证明已进入真实工作流。
+    evidence_ids:
+    - ev-f47a86f2a9308698
+    - ev-9a4b8498408a895a
+  - gate: model
+    status: insufficient
+    reason: 项目标注开源可商用，公开材料未给出定价页、付费主体或单位经济；谁付钱只能推断为自建部署的商家或二次开发者，这是判断而非已验证事实，也未出现仅靠融资续命的迹象。
+    evidence_ids:
+    - ev-f47a86f2a9308698
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明 AI 挑镜头、写文案、广告法校验与一条命令出片，未提供可复现的成片质量、镜头来源授权与广告法校验准确率证据，交付能否稳定发生及人工边界仍缺公开核验。
+    evidence_ids:
+    - ev-f47a86f2a9308698
+    - ev-b61c58d11d845929
+  next_validation: 追踪 BrewReel 官方仓库的 README、issue 与 discussion，确认是否有商家或营销人员公开描述实际部署、替代的旧流程与成片交付结果。
+  market: ''
+  job: 小商家或营销人员手里只有一份产品简报和零散素材时，打开它把简报交给 AI，由 AI 挑选镜头、写文案并合成竖版宣传片，最终拿到一条可直接投放的成片；广告法校验结果仍需人工确认。
+  job_en: A small merchant or marketer with only a product brief and scattered footage opens the tool,
+    hands the brief to the AI, which selects shots, writes copy and assembles a vertical promo video,
+    ending with a ready-to-run cut; ad-law compliance still needs human confirmation.
+  pain: 公开材料显示其定位是让 DeepSeek 这类便宜模型也能产出好看的竖版宣传片，说明痛点在于小商家缺乏剪辑与文案能力、又不想为每条素材支付高价制作或订阅；不解决的后果是只能靠模板拼接或外包，出片慢且风格差。
+  pain_en: Public material positions it as letting cheap models like DeepSeek still produce good-looking
+    vertical promos, implying the pain is that small merchants lack editing and copywriting skills yet
+    do not want to pay high production or subscription costs per asset; leaving it unsolved means template
+    mashups or outsourcing, with slow and poor-looking output.
+  current_alternative: 当前替代方式为人工剪辑软件逐条拼接、套用平台模板，或外包给剪辑师/代运营；公开材料未说明它实际替代了哪一种具体旧流程。
+  current_alternative_en: Current alternatives are manual editing software, platform templates, or outsourcing
+    to editors/agencies; public material does not specify which concrete old workflow it replaces.
+  usage_reason: 推断：相较逐条手动剪辑或套模板，它把“挑镜头、写文案、合成”合并为一条命令，用户只需提供简报即可拿到成片，因此缺少剪辑人手、需要批量产出竖版素材的小商家或营销人员会在赶投放节奏时选择它；这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus manual per-clip editing or templates, it merges shot selection,
+    copywriting and assembly into one command so the user only supplies a brief and gets a finished cut;
+    small merchants or marketers without editing staff who need batch vertical assets would choose it
+    when racing a campaign deadline. This is inferred from product capability and task structure, not
+    confirmed by user feedback.'

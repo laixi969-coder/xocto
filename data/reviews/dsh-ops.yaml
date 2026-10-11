@@ -84,3 +84,46 @@
     no longer hand-trim logs before handing results to the model, which is why Windows developers who
     run many commands and watch token bills would try it first; there is no retention or payment evidence
     yet.'
+- id: req-full-dsh-ops-2026-10-11
+  project_slug: dsh-ops
+  level: full
+  reviewed_at: '2026-10-11T01:30:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决命令行输出过长导致 token 消耗高的问题，痛点在长会话中真实存在，旧做法是手工裁剪输出；买方是谁尚不清楚。
+    evidence_ids:
+    - ev-017dc440040f5bfe
+  - gate: consensus
+    status: insufficient
+    reason: 仅 64 星、1 个 fork，属于早期关注度，无法说明开发者已把它放进日常工作流。
+    evidence_ids:
+    - ev-017dc440040f5bfe
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或收费方式，钱可能来自开源赞助或后续商业版，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-017dc440040f5bfe
+  - gate: truth
+    status: insufficient
+    reason: 与 dsh 宿主强绑定，若宿主内置输出压缩，独立价值会被吸收；压缩是否损失关键信息也未见说明。
+    evidence_ids:
+    - ev-017dc440040f5bfe
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认输出压缩的具体规则、是否可配置，以及是否有使用者报告实际节省的 token 量。
+  market: ''
+  job: 在 Windows 上使用 dsh 的开发者，在跑 Bash、PowerShell 7 或 Rust 脚本时，需要处理冗长的 shell 输出，并把结果交给模型继续推理。
+  job_en: A developer using dsh on Windows runs Bash, PowerShell 7 or Rust scripts, handles verbose shell
+    output, and passes the result back to the model for further reasoning.
+  pain: 命令行输出冗长，直接塞进上下文会快速消耗 token 并推高单次任务成本，长会话尤其明显。
+  pain_en: Command-line output is verbose; feeding it straight into context burns tokens fast and raises
+    per-task cost, especially in long sessions.
+  current_alternative: 手动裁剪输出、只贴关键行、写自定义脚本过滤，或干脆少跑几条命令。
+  current_alternative_en: Manually trimming output, pasting only key lines, writing custom filter scripts,
+    or simply running fewer commands.
+  usage_reason: 推断：它把命令执行与输出压缩合并成一步，开发者不必再手工裁剪日志就能把结果交给模型，因此常跑命令行、在意 token 账单的 Windows 开发者会先试它；但尚无留存或付费证据。
+  usage_reason_en: 'Inference: it merges command execution and output compression into one step, so developers
+    no longer hand-trim logs before handing results to the model, which is why Windows developers who
+    run many commands and watch token bills would try it first; there is no retention or payment evidence
+    yet.'

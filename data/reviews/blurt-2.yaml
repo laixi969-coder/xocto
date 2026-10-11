@@ -88,3 +88,46 @@
     and narration into one input and marks the matching frames, removing the retyping and later frame-matching
     step, so testers, support and implementation staff who reproduce issues often would pick it when a
     phenomenon must become an assignable item.'
+- id: req-full-blurt-2-2026-10-11
+  project_slug: blurt-2
+  level: full
+  reviewed_at: '2026-10-11T01:29:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决复现问题时把画面与口述整理成可指派条目的需求，但现有证据全是同名电影、词典释义等无关材料，没有任何产品页、用户抱怨或旧替代行为，痛点与不采用后果无法还原。
+    evidence_ids:
+    - ev-b6eadfa80b89d503
+    - ev-b88ab26938ecf53c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 blurt 官方产品页或 公开代码仓库 仓库的 README 与 issue，确认录屏口述转成缺陷条目的实际输出与人工确认环节。
+  market: ''
+  job: 开发者或测试人员在复现缺陷、试用产品时，一边录屏一边口述，把看到的界面和吐槽交给 Claude Code / Codex，转成带画面帧定位的缺陷条目、想法和待办。
+  job_en: When reproducing a defect or trying a product, a developer or tester records the screen while
+    narrating, then hands the recording to Claude Code / Codex to turn into bug entries, ideas and to-dos
+    with the exact frames marked.
+  pain: 公开材料只有产品自述，没有用户抱怨、workaround 或案例，无法还原截图加手写 issue 时具体哪一步费时、丢失了什么上下文。
+  pain_en: Public material contains only the product's own description, with no user complaints, workarounds
+    or cases, so it cannot reconstruct which step of screenshot-plus-handwritten-issue is slow or what
+    context is lost.
+  current_alternative: 按产品自述推断，旧做法是截图工具加手工写 issue，或录一段无时间戳的视频再口头解释；但这一替代行为没有独立证据支撑。
+  current_alternative_en: Inferred from the product's own description, the old way is a screenshot tool
+    plus hand-written issues, or an untimestamped video explained verbally; this alternative behaviour
+    has no independent evidence.
+  usage_reason: 推断：若录屏与口述能合成一次输入并自动标帧，可省掉逐条打字和事后对齐画面的步骤；但公开材料未给出任何使用场景、评价或留存证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if screen recording and narration merge into one input with automatic frame
+    marking, retyping and later frame-matching could be removed; but public material gives no usage scenario,
+    review or retention evidence, so why users choose it cannot be confirmed.'

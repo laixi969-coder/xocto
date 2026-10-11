@@ -1,0 +1,90 @@
+- id: req-initial-视频大模型第一股角逐可灵ai拟赴港ipo最快明年启动-2026-10-11
+  project_slug: 视频大模型第一股角逐可灵ai拟赴港ipo最快明年启动
+  level: initial
+  reviewed_at: '2026-10-11T01:02:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决按脚本快速产出可投放视频素材的需求，痛点是拍摄与外包成本高、改版慢；买方为内容与营销团队，付费方式公开材料未说明。
+    evidence_ids:
+    - ev-9e5f1fdf4c59cc07
+  - gate: consensus
+    status: insufficient
+    reason: 报道只提 IPO 计划，未给出用户规模、付费转化或留存数据，无法判断采用是否持续。
+    evidence_ids:
+    - ev-9e5f1fdf4c59cc07
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收入结构，to C 订阅与 to B 授权均属推断，IPO 叙事本身不构成付费路径证据。
+    evidence_ids:
+    - ev-9e5f1fdf4c59cc07
+  - gate: truth
+    status: insufficient
+    reason: 缺少生成时长、分辨率、商用授权与版权合规的可核验说明，交付确定性未明。
+    evidence_ids:
+    - ev-9e5f1fdf4c59cc07
+  next_validation: 收集可灵AI 官方定价页与商用授权条款，核验其计费方式、成片规格与商业使用范围。
+  market: ''
+  job: 短视频创作者、广告创意和电商内容运营在需要按脚本或参考图产出可投放的动态素材时，用文字或图片提示生成视频片段，再自行剪辑、配音和投放。
+  job_en: Short-video creators, ad creatives and e-commerce content operators generate clips from text
+    or image prompts when they need publishable motion assets from a script or reference image, then edit,
+    dub and place them.
+  pain: 实拍或外包制作一条素材成本高、周期长，改一版就要重拍或重剪；广告与电商又需要大量风格一致的变体做投放测试。
+  pain_en: Shooting or outsourcing a single asset is costly and slow, and any revision means reshooting
+    or recutting; ads and e-commerce need many style-consistent variants for placement tests.
+  current_alternative: 旧做法是找拍摄团队或剪辑外包，或用素材库拼接加简单动效，前者贵且慢，后者同质化严重、难以按脚本定制。
+  current_alternative_en: The old route is hiring a shoot crew or editing vendor, or stitching stock footage
+    with simple motion effects; the first is expensive and slow, the second is generic and hard to tailor
+    to a script.
+  usage_reason: 推断：相较外包拍摄或素材库拼接，它把“按脚本出片”压缩成一次提示生成，省掉拍摄排期与初剪环节，因此需要高频产出投放素材的电商与广告团队会在测试期选择它，成片仍需人工筛选与合规确认。
+  usage_reason_en: 'Inference: versus outsourced shoots or stock stitching, it compresses script-to-clip
+    into one generation, skipping scheduling and first-cut editing, so e-commerce and ad teams producing
+    frequent test assets pick it, with humans still selecting and clearing clips.'
+- id: req-full-视频大模型第一股角逐可灵ai拟赴港ipo最快明年启动-2026-10-11
+  project_slug: 视频大模型第一股角逐可灵ai拟赴港ipo最快明年启动
+  level: full
+  reviewed_at: '2026-10-11T01:32:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决按脚本或参考图快速产出可投放视频素材的需求，痛点是实拍与外包成本高、改版慢、变体难批量；买方与付费方式公开材料未说明，属工作流结构推理而非用户采用证据。
+    evidence_ids:
+    - ev-9e5f1fdf4c59cc07
+  - gate: consensus
+    status: insufficient
+    reason: 报道只提可灵AI拟赴港IPO计划，未给出用户规模、付费转化或持续使用数据，无法判断创作者是否已把它留在日常工作流里。
+    evidence_ids:
+    - ev-9e5f1fdf4c59cc07
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收入结构，to C 订阅与 to B 授权均属推断；IPO 叙事本身不构成付费路径证据，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9e5f1fdf4c59cc07
+  - gate: truth
+    status: insufficient
+    reason: 缺少生成时长、分辨率、商用授权与版权合规的可核验说明，交付确定性未明，安全与人工审核边界也未公开。
+    evidence_ids:
+    - ev-9e5f1fdf4c59cc07
+  next_validation: 收集可灵AI 官方定价页与商用授权条款，核验其计费方式、成片规格与商业使用范围。
+  market: ''
+  job: 短视频创作者、广告创意制作人和电商内容运营在需要按文字脚本或一张参考图产出可投放的动态镜头时，用提示词或图片驱动模型生成数秒到数十秒的视频片段，再自行剪辑、配音并投放。
+  job_en: Short-video creators, ad creatives and e-commerce content operators generate clips of seconds
+    to tens of seconds from a text prompt or a reference image when they need publishable motion footage
+    from a script, then edit, dub and place it themselves.
+  pain: 公开报道只支持可灵AI的IPO计划这一事实；实拍或外包单条素材成本高、周期长、改一版就要重拍重剪，广告与电商又需要大量风格一致的变体做投放测试，这一痛点由工作流结构推理得出，尚无用户抱怨或案例直接佐证。
+  pain_en: Public coverage only supports the IPO plan fact; the pain that shooting or outsourcing one
+    asset is costly, slow and requires reshooting on every revision, while ads and e-commerce need many
+    style-consistent variants, is inferred from workflow structure, not from user complaints or cases.
+  current_alternative: 旧做法是找拍摄团队或剪辑外包，或用素材库拼接加简单动效；前者贵且慢，后者同质化严重、难以按脚本定制。这是对现有替代路径的结构推理，公开材料未直接描述用户实际绕行方式。
+  current_alternative_en: The old route is hiring a shoot crew or editing vendor, or stitching stock footage
+    with simple motion effects; the first is expensive and slow, the second is generic and hard to tailor
+    to a script. This is structural inference, not a documented user workaround.
+  usage_reason: 推断：相较外包拍摄或素材库拼接，它把“按脚本出片”压缩成一次提示生成，省掉拍摄排期与初剪环节，因此需要高频产出投放素材的电商与广告团队会在测试期选择它；成片仍需人工筛选与合规确认，公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus outsourced shoots or stock stitching, it compresses script-to-clip
+    into one generation, skipping scheduling and first-cut editing, so e-commerce and ad teams producing
+    frequent test assets pick it during test cycles; humans still select and clear clips, and no retention
+    or repeat-use evidence is public.'

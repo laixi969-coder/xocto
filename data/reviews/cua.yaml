@@ -1,0 +1,37 @@
+- id: req-initial-cua-2026-10-11
+  project_slug: cua
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句样本数据集的描述，价值关无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区讨论量也不构成采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，数据是否贴近真实专业工作无从判断。
+    evidence_ids: []
+  next_validation: 抓取 cua 官方页面或仓库说明，确认数据集覆盖哪些专业软件、任务如何标注、评测结果如何产出。
+  market: ''
+  job: 尚未确认具体使用者；从描述推断，可能是训练计算机操作代理的开发者，在需要专业软件任务样本时用它做训练或评测。
+  job_en: The specific user is unconfirmed; the description suggests developers training computer-use
+    agents who use it for training or evaluation when they need task samples on professional software.
+  pain: 候选资料未说明任何具体痛点，无法判断缺少这类数据集会造成什么后果。
+  pain_en: The candidate material states no concrete pain point, so the consequence of lacking such a
+    dataset cannot be judged.
+  current_alternative: 公开材料未给出旧做法，无法确认此前是自建数据集、使用网页基准还是其他来源。
+  current_alternative_en: No prior practice is given; whether teams previously built their own datasets,
+    used web benchmarks or relied on other sources cannot be confirmed.
+  usage_reason: 缺少覆盖软件、标注方式与评测口径的说明，无法解释相较自建数据集减少了哪一步负担。
+  usage_reason_en: With no description of covered software, annotation method or evaluation criteria,
+    there is no basis to explain which step it removes versus building a dataset in house.

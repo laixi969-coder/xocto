@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE42ZUt6a1docEV2
 summary: 工业3D打印的下一场竞争，联泰科技把AI放进制造流程_行业动态 投资界
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

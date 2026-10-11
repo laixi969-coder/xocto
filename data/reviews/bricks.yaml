@@ -257,3 +257,44 @@
   usage_reason_en: 'Inference: if contracts really constrain generation upfront, they could remove the
     step of aligning each piece to conventions; but without user feedback, adoption, or delivery evidence,
     it cannot be said which users would choose it and when.'
+- id: req-full-bricks-2026-10-11
+  project_slug: bricks
+  level: full
+  reviewed_at: '2026-10-11T01:29:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 AI 生成组件不符合项目约定、工程师需逐处改写的问题，但公开证据只有一句产品自述，既无旧流程事实也无用户抱怨，需求与痛点均无法从公开材料还原。
+    evidence_ids:
+    - ev-980feff78c815e8b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README、issue 与 discussion，确认是否有外部团队在真实代码库中接入并反馈生成组件是否符合项目约定。
+  market: ''
+  job: 前端工程师在已有代码库中让 AI 生成界面组件时，需要把项目自身的实现约定与既有组件风格作为输入，产出能直接并入项目的组件代码。
+  job_en: A frontend engineer letting AI generate interface components inside an existing codebase must
+    feed the project's own implementation contracts and existing component style as input to produce component
+    code that can be merged directly.
+  pain: 公开材料只有一句产品自述，没有任何用户反馈、issue 或案例说明 AI 生成组件与项目约定之间的落差究竟造成多大返工，痛点强度无法从公开事实还原。
+  pain_en: Public material contains only a one-line product description; no user feedback, issue, or case
+    shows how much rework the gap between AI-generated components and project conventions actually causes,
+    so pain intensity cannot be reconstructed from public facts.
+  current_alternative: 公开材料未记录工程师当前用什么方式绕过该问题，通用代码助手加手工改写只是推测，没有可引用的旧流程事实。
+  current_alternative_en: Public material does not record how engineers currently work around this problem;
+    general code assistants plus manual rewriting is only a guess, with no citable old-workflow fact.
+  usage_reason: 推断：若契约真能前置项目约定，可省去逐处对齐规范这一步，但缺少任何用户采用或反馈证据，无法确认哪类工程师会在什么情况下选择它。
+  usage_reason_en: 'Inference: if contracts really front-load project conventions, they could remove the
+    step of aligning each piece to standards, but with no adoption or feedback evidence it is unconfirmed
+    which engineers would choose it and when.'

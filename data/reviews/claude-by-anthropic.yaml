@@ -535,3 +535,45 @@
   usage_reason_en: Available materials contain only a positioning statement, with no user feedback or
     customer case explaining why it is chosen, so no causal account of which step it removes versus the
     old approach can be given.
+- id: req-full-claude-by-anthropic-2026-10-11
+  project_slug: claude-by-anthropic
+  level: full
+  reviewed_at: '2026-10-11T01:29:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“Anthropic 的对话助手，主攻写代码、长文和复杂推理，靠用得深来收费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官方定价页与客户案例页，确认按用量计费的具体档位、付费主体，以及是否有公开的交付结果或企业部署记录。
+  market: ''
+  job: 开发者、研究员与写作者在需要处理长代码库、长文档或复杂多步推理时，把大段材料交给 Claude，要求它完成代码生成与调试、长文改写、结构化分析等具体产出。
+  job_en: Developers, researchers, and writers hand large codebases, long documents, or multi-step reasoning
+    problems to Claude to produce code, debugging help, long-form rewrites, or structured analysis.
+  pain: 公开材料只给出产品定位，未提供用户抱怨、失败案例或返工代价的一手证据；可确认的痛点是长上下文任务在通用工具中容易丢信息、需要反复粘贴与人工拼接，但强度与频率属工作流结构推理，非用户口述。
+  pain_en: Public materials give only positioning, not first-hand complaints or rework costs. The inferable
+    pain is that long-context work loses information in generic tools and requires repeated pasting and
+    manual stitching; intensity and frequency are workflow inference, not user statements.
+  current_alternative: 旧做法是通用聊天机器人、搜索引擎加人工整理，或在 IDE 内使用补全插件分段处理；长文与复杂推理往往被切成多次短对话再人工合并。
+  current_alternative_en: The prior path is generic chatbots, search plus manual assembly, or in-IDE completion
+    plugins handling fragments; long documents and hard reasoning get split into many short sessions and
+    merged by hand.
+  usage_reason: 推断：相较把长材料切碎再人工拼接，Claude 以长上下文窗口和面向代码、长文的输出直接承接整段材料，减少反复粘贴与跨段合并这一步负担，因此处理长代码库或长文档的开发者与写作者会在整段任务场景下选择它；公开材料未提供留存或复购证据，不能声称已长期留在工作流中。
+  usage_reason_en: 'Inference: versus chopping long material and reassembling it by hand, Claude''s long
+    context and code/long-form output take the whole passage in one pass, removing the repeated-paste
+    and cross-segment merge step, so developers and writers handling long codebases or documents choose
+    it for whole-task sessions. Public materials show no retention or repeat-use evidence, so long-term
+    workflow embedding cannot be claimed.'

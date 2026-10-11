@@ -281,3 +281,52 @@
     parameters, so small teams with one illustration and no animator would try it first; stars rising
     from 129 to 566 only show growing attention, and there is no retention or repeat-use evidence that
     it stays in the workflow.'
+- id: req-full-mesh-avatar-studio-2026-10-11
+  project_slug: mesh-avatar-studio
+  level: full
+  reviewed_at: '2026-10-11T01:31:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决一张插画变成可动 2D 角色的制作需求，痛点是手工绑定与逐帧绘制耗时且需专门技能，旧替代行为明确；这是从产品输入—动作—交付闭环作出的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-1ab9589ed00810ca
+    - ev-d50595736b3b24c2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 248 增至 593 只反映开源关注度上升，没有用户评价、客户案例或采用规模，无法判断共识是否形成。
+    evidence_ids:
+    - ev-1ab9589ed00810ca
+    - ev-5519eadca0751b9a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费路径或买方，钱可能来自个人创作者或工作室，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1ab9589ed00810ca
+  - gate: truth
+    status: insufficient
+    reason: 网格切分与动画质量是否稳定、人工确认成本多高均无公开材料，交付确定性尚未核验。
+    evidence_ids:
+    - ev-1ab9589ed00810ca
+  next_validation: 追踪该仓库的 issue、discussion 或 release notes，确认网格切分与动画生成的实际输出质量及人工修正步骤。
+  market: ''
+  job: 虚拟主播运营者或独立游戏美术手上只有一张角色插画，需要让角色在直播或游戏里动起来时，用本地编辑器把插画切成 2D 网格、绑定骨骼并由编码代理生成动画，交付一个可用的动态头像。
+  job_en: A VTuber operator or indie game artist who has only one character illustration and needs it
+    to move in a stream or game uses the local editor to slice the illustration into a 2D mesh, bind bones
+    and have a coding agent generate animation, delivering a usable animated avatar.
+  pain: 逐帧手绘或手工绑定骨骼耗时且需要专门动画技能，小团队做不出足够多的动作，角色只能静态出现；网格切分与动画效果仍需人工在编辑器里确认，这一步负担未消除。
+  pain_en: Frame-by-frame drawing or manual rigging is slow and needs dedicated animation skills, so small
+    teams cannot produce enough motions and the character stays static; mesh slicing and animation quality
+    still require manual confirmation in the editor, a burden not removed.
+  current_alternative: 用 Live2D 等工具手工切分与绑定，或外包给动画师逐帧制作，成本高、周期长。
+  current_alternative_en: Manual slicing and rigging in tools such as Live2D, or outsourcing frame-by-frame
+    work to an animator, which is costly and slow.
+  usage_reason: 推断：相较手工绑定，它让编码代理直接根据插画生成网格与动画，省掉从零切分和逐条写动画参数这一步，因此只有一张插画、又缺动画师的小团队会在赶直播或原型时先试它；仓库星标从 248
+    升至 593 只说明关注度增长，不能证明它已被长期留在工作流。
+  usage_reason_en: 'Inference: compared with manual rigging, it has a coding agent generate the mesh and
+    animation directly from the illustration, removing the step of slicing from scratch and writing animation
+    parameters one by one, so small teams with one illustration and no animator would try it first when
+    rushing a stream or prototype; stars rising from 248 to 593 only show growing attention, not that
+    it stays in the workflow.'

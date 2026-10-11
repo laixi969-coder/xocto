@@ -1,0 +1,86 @@
+- id: req-initial-lune-2026-10-11
+  project_slug: lune
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决科研代理检索科学文献的需求，痛点存在，但数据源、覆盖范围与结果质量均无公开材料支持。
+    evidence_ids:
+    - ev-aabc8d19a4c15fd9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句话描述，缺少开发者采用或代理集成证据，无法判断是否被持续使用。
+    evidence_ids:
+    - ev-aabc8d19a4c15fd9
+  - gate: model
+    status: insufficient
+    reason: 未见定价或付费路径，钱可能来自 API 调用或订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-aabc8d19a4c15fd9
+  - gate: truth
+    status: insufficient
+    reason: 检索结果的确定性、引用可靠性以及人工确认边界均未在公开材料中说明。
+    evidence_ids:
+    - ev-aabc8d19a4c15fd9
+  next_validation: 收集该产品的官方文档或定价页，确认其数据源、调用方式与计费口径。
+  market: ''
+  job: 科研人员或 AI 代理开发者在为科学任务搭建检索流程时，用该搜索引擎获取科学文献与数据以支撑代理回答。
+  job_en: Researchers or AI agent developers building retrieval pipelines for scientific tasks use this
+    search engine to fetch scientific literature and data supporting agent answers.
+  pain: 通用搜索对科学文献覆盖与结构化不足，代理难以拿到可靠、可引用的科学结果。
+  pain_en: General search lacks coverage and structure for scientific literature, making it hard for agents
+    to get reliable, citable scientific results.
+  current_alternative: 用通用搜索引擎、学术数据库或自建爬虫拼接检索流程。
+  current_alternative_en: Using general search engines, academic databases, or self-built crawlers to
+    assemble retrieval pipelines.
+  usage_reason: 推断：相较通用搜索或自建爬虫，它把科学文献检索封装成代理可直接调用的接口，省去开发者自己清洗和结构化科学结果的负担，因此搭建科研代理的开发者会尝试它。
+  usage_reason_en: 'Inference: compared with general search or self-built crawlers, it packages scientific
+    literature retrieval into an interface agents can call directly, removing the burden of cleaning and
+    structuring scientific results, so developers building research agents would try it.'
+- id: req-full-lune-2026-10-11
+  project_slug: lune
+  level: full
+  reviewed_at: '2026-10-11T01:30:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向同名保健品网站、法语维基百科月球条目与词典释义，与所述科研检索产品无对应关系，连用户任务与痛点都无法从公开材料还原。
+    evidence_ids:
+    - ev-111e7791fbeb1cab
+    - ev-2df7d6243cae6790
+    - ev-f1530b1dc1f0708a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或官方文档页面，确认其真实产品定位、数据源与调用方式，以排除同名实体造成的证据错配。
+  market: ''
+  job: 科研人员或 AI 代理开发者在为科学任务搭建检索流程时，需要让代理获取科学文献与数据以支撑回答，因此寻找一个可被代理调用的科学检索入口。
+  job_en: Researchers or AI agent developers building retrieval pipelines for scientific tasks need an
+    agent-callable scientific search entry point so the agent can fetch literature and data to support
+    its answers.
+  pain: 公开材料中没有任何关于该产品用户痛点的证据：现有证据全部指向同名保健品网站、法语维基百科的月球条目和词典释义，无法说明科研检索场景下用户具体卡在哪一步。
+  pain_en: 'No public evidence describes user pain for this product: all evidence points to a same-named
+    supplement site, a French Wikipedia article on the Moon, and a dictionary definition, so it cannot
+    show where users are stuck in scientific retrieval.'
+  current_alternative: 公开材料未提供任何关于当前替代方式的信息，无法确认用户此前是用通用搜索、学术数据库还是自建爬虫完成同类任务。
+  current_alternative_en: Public material provides no information on current alternatives, so it cannot
+    be confirmed whether users previously used general search, academic databases, or self-built crawlers
+    for the same task.
+  usage_reason: 无法判断：现有证据与所述科研检索产品无对应关系，缺少产品页、文档或用户反馈来支撑任何采用理由。
+  usage_reason_en: 'Cannot be determined: the available evidence does not correspond to the described
+    scientific retrieval product, and there is no product page, documentation, or user feedback to support
+    any adoption reason.'

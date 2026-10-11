@@ -1,0 +1,35 @@
+- id: req-initial-hosted-agents-in-cluing-2026-10-11
+  project_slug: hosted-agents-in-cluing
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连它解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或发布说明，确认其具体输入、动作与交付物。
+  market: ''
+  job: 公开材料未说明具体使用者、触发情境与要处理的材料，无法还原一项可描述的工作任务。
+  job_en: Public material does not identify the user, the triggering situation or the material handled,
+    so no describable work task can be reconstructed.
+  pain: 资料未给出任何痛点、抱怨或旧流程摩擦的描述。
+  pain_en: The material gives no description of any pain point, complaint or friction in the old process.
+  current_alternative: 未提供现有替代方式的信息。
+  current_alternative_en: No information is provided about current alternatives.
+  usage_reason: 缺少可核对的功能、交付与替代对象，无法解释用户为何会选择它；此处不作推断。
+  usage_reason_en: With no verifiable capability, deliverable or incumbent to compare against, there is
+    no basis to explain why a user would choose it; no inference is made here.

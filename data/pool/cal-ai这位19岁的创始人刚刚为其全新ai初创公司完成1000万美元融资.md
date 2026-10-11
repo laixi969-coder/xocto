@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE45QmxEN0dEdUw3
 summary: Cal AI这位19岁的创始人刚刚为其全新AI初创公司完成1000万美元融资 电子工程专辑
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

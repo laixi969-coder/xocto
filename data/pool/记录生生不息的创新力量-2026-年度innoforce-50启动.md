@@ -52,7 +52,7 @@ summary: 过去几年，科技行业最重要的变化之一，是创新的底�
   请将你的 公司、产品简介（请着重说明其创新与突破之处）及 联系方式，发送至我们的官方报名邮箱： innoforce50@geekpark.net；报名截止时间：2026 年 11 月 20
 first_seen: '2026-10-11T01:01:42Z'
 last_seen: '2026-10-11T01:01:42Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,83 @@
+- id: req-initial-rank-kiwi-2026-10-11
+  project_slug: rank-kiwi
+  level: initial
+  reviewed_at: '2026-10-11T01:01:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的是选题复盘时找不到高表现内容，但材料未说明原来谁在做、花多久，痛点刚性无法确认。
+    evidence_ids:
+    - ev-5e71a410464c7518
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品描述，没有用户评价、采用或重复使用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-5e71a410464c7518
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to C 订阅还是代运营工作室采购均无法判断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-5e71a410464c7518
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能拿到平台数据、排序是否可信，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-5e71a410464c7518
+  next_validation: 收集该产品的官方定价页或公开客户案例，确认买方与计价方式。
+  market: ''
+  job: 社交媒体运营者在做下一轮选题规划时，需要从自己或竞品的 Instagram、YouTube 历史内容中找出表现最好的那些，用来决定复制哪种题材。
+  job_en: A social media operator planning the next content cycle needs to find the best-performing posts
+    from their own or competitors' Instagram and YouTube history to decide which topic to repeat.
+  pain: 公开材料只说明它能找高表现内容，没有说明原来这一步由谁、用什么工具、花多久完成，也没有用户抱怨或替代行为的记录，痛点强度无法判断。
+  pain_en: The public material only says it finds top-performing content; it does not say who did this
+    before, with what tool, or how long it took, and there is no record of user complaints or workarounds,
+    so pain intensity cannot be judged.
+  current_alternative: 可推断的旧做法是人工翻看平台后台数据或第三方分析工具，逐条比对播放与互动数据；这是推断，材料未给出。
+  current_alternative_en: The inferred old approach is manually browsing platform analytics or third-party
+    tools and comparing views and engagement post by post; this is inference, not stated in the material.
+  usage_reason: 若它能把跨平台历史内容直接排成一份高表现清单，就省掉逐条翻后台比对这一步，选题会的人可能在复盘环节选它；但材料未给出任何用户反馈，这只是推断。
+  usage_reason_en: If it turns cross-platform history into a single ranked list, it removes the step of
+    manually comparing each post in the dashboard, so content planners might pick it during review; but
+    no user feedback is given, so this is inference only.
+- id: req-full-rank-kiwi-2026-10-11
+  project_slug: rank-kiwi
+  level: full
+  reviewed_at: '2026-10-11T01:31:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决选题复盘时找不到高表现内容，但材料未说明原来谁在做、花多久，痛点刚性无法确认。
+    evidence_ids:
+    - ev-976011ce205bb7f8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或公开客户案例，确认买方与计价方式。
+  market: ''
+  job: 社交媒体运营者在规划下一轮 Instagram 或 YouTube 选题时，需要从自己或竞品的历史内容中找出表现最好的帖子，用来决定复制哪种题材。
+  job_en: A social media operator planning the next Instagram or YouTube content cycle needs to find the
+    best-performing posts from their own or competitors' history to decide which topic to repeat.
+  pain: 公开材料只有一句产品描述，没有说明原来这一步由谁、用什么工具、花多久完成，也没有用户抱怨或替代行为记录，痛点强度无法判断。
+  pain_en: The public material contains only a one-line product description; it does not say who did this
+    before, with what tool, or how long it took, and there is no record of user complaints or workarounds,
+    so pain intensity cannot be judged.
+  current_alternative: 可推断的旧做法是人工翻看平台后台数据或第三方分析工具，逐条比对播放与互动数据；这是推断，材料未给出。
+  current_alternative_en: The inferred old approach is manually browsing platform analytics or third-party
+    tools and comparing views and engagement post by post; this is inference, not stated in the material.
+  usage_reason: 若它能把跨平台历史内容直接排成一份高表现清单，就省掉逐条翻后台比对这一步，选题会的人可能在复盘环节选它；但材料未给出任何用户反馈，这只是推断。
+  usage_reason_en: If it turns cross-platform history into a single ranked list, it removes the step of
+    manually comparing each post in the dashboard, so content planners might pick it during review; but
+    no user feedback is given, so this is inference only.

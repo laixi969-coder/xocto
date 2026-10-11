@@ -1,7 +1,6 @@
 ---
 slug: who-is-zach-yadegari-the-teen-who-built-cal-ai-sold-it-to-my
-name: Who Is Zach Yadegari? The Teen Who Built Cal AI, Sold It to MyFitnessPal and Raised $10 Million
-  for His Next Startup
+name: Cal AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: Who Is Zach Yadegari? The Teen Who Built Cal AI, Sold It to MyFitnessPa
   for His Next Startup https://ascendants.in/
 first_seen: '2026-10-11T01:02:09Z'
 last_seen: '2026-10-11T01:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Who Is Zach Yadegari? The Teen Who Built Cal AI, Sold It to MyFitnessPal and Raised $10 Million for His Next Startup
+# Cal AI
 
 Who Is Zach Yadegari? The Teen Who Built Cal AI, Sold It to MyFitnessPal and Raised $10 Million for His Next Startup https://ascendants.in/
 

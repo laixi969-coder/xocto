@@ -502,3 +502,61 @@
     a unified spec and have the feature appear natively inside the conversation, so users need not leave
     the chat or open another tool, removing a jump and adaptation step; developers integrating services
     into ChatGPT would choose it when in-conversation invocation is required.'
+- id: req-full-mcp-extensions-2026-10-11
+  project_slug: mcp-extensions
+  level: full
+  reviewed_at: '2026-10-11T01:31:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决第三方能力在对话内被直接调用的需求，痛点在分发与呈现：旧做法需自建入口或链接跳转，用户要切换上下文。仓库定位与收藏增长（774→1,004）为公开事实，痛点与替代路径属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-9ccfda53ff992970
+    - ev-f2bfc225c0479f14
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库收藏从 774 增至 1,004 的连续记录，属关注度而非持续采用；没有 issue、discussion、客户案例或部署反馈说明开发者是否真的把它接入工作流，因此共识卡在感知层，未进入使用层。
+    evidence_ids:
+    - ev-9ccfda53ff992970
+    - ev-973cbffd20be2e9f
+    - ev-c6d7bb441750852d
+    - ev-71fbed275f201f02
+    - ev-2b63104f390d1364
+    - ev-f2bfc225c0479f14
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露审核规则、计费方式与分成结构，谁付钱（开发者、终端用户还是 OpenAI 侧结算）无法从现有证据判定；这是商业证据缺口，不反推需求不存在，但付费路径目前只能标为判断而非已验证事实。
+    evidence_ids:
+    - ev-9ccfda53ff992970
+  - gate: truth
+    status: insufficient
+    reason: 仓库仅有一句定位描述，没有部署文档、规范细节、审核边界或安全与人工介入说明，无法核对插件提交后能否确定性上线、权限与数据边界如何约束；交付确定性尚缺可复现的公开证据。
+    evidence_ids:
+    - ev-9ccfda53ff992970
+    - ev-973cbffd20be2e9f
+  next_validation: 追踪 https://公开代码仓库.com/openai/mcp-extensions 的 README、提交规范文档与 issue/discussion，确认插件审核流程、计费与可用范围是否公开披露。
+  market: ''
+  job: 第三方开发者（独立开发者或 SaaS 团队）在已有 ChatGPT 会话式交互的前提下，把自家服务封装成符合 OpenAI 扩展规范的插件并提交，让终端用户在对话内直接调用该功能，而无需离开对话去打开另一个网页或应用。
+  job_en: Third-party developers (indie builders or SaaS teams) take an existing service, package it as
+    a plugin conforming to OpenAI's extension spec, submit it, and let end users invoke that capability
+    directly inside a ChatGPT conversation instead of leaving the chat for another site or app.
+  pain: 公开材料只给出仓库一句话定位与收藏数，没有用户抱怨、issue 或案例说明旧流程的具体代价；从工作流结构推理，痛点在分发与呈现环节——此前第三方能力要么以独立站点存在、要么以外部链接形式被引用，用户需切换上下文、开发者需自建入口与鉴权，插件形态把调用点前移到对话内。这是结构推理，不是用户口述。
+  pain_en: 'Public material offers only a one-line repo positioning and star counts, with no user complaints,
+    issues or cases quantifying the old workflow''s cost. By workflow inference, the friction sits in
+    distribution and presentation: third-party capabilities previously lived on separate sites or as external
+    links, forcing context switches for users and self-built entry points and auth for developers; the
+    plugin form moves the invocation point into the conversation. This is structural'
+  current_alternative: 旧做法是第三方自建网页或 App 让用户单独访问，或通过粘贴链接、复制结果在 ChatGPT 与外部工具之间来回搬运；开发者侧则需自行承担入口、登录与调用链路的搭建。公开材料未提供这些替代方式的采用规模或迁移证据。
+  current_alternative_en: The prior approach is a self-hosted web page or app the user visits separately,
+    or copy-pasting links and results back and forth between ChatGPT and an external tool; on the developer
+    side, entry points, login and invocation plumbing must be built in-house. Public material gives no
+    adoption or migration evidence for these alternatives.
+  usage_reason: 推断：相较自建入口或链接跳转，该机制让开发者按统一规范提交一次，功能即以对话内原生形态出现，用户在同一会话里完成调用，省去切换应用与重新描述上下文这一步；因此已在 ChatGPT
+    生态内获客、且希望把调用点前移到对话中的开发者，会在需要降低用户使用门槛时选择它。仓库收藏从 774 增至 1,004 只说明关注度上升，不构成采用理由。
+  usage_reason_en: 'Inference: versus building a standalone entry point or link-out, the mechanism lets
+    a developer submit once against a shared spec so the capability appears natively in-conversation,
+    letting users invoke it without switching apps or re-describing context; developers already acquiring
+    users inside the ChatGPT ecosystem who want the invocation point moved into the conversation would
+    choose it to lower that barrier. Stars rising from 774 to 1,004 shows attention, not a reason for'
