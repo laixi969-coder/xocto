@@ -31,18 +31,18 @@ canonical_url: https://avinash-jetwani.github.io/jevmem
 summary: jevmem saves the decisions, rules and failed approaches from your Claude Code chats to JEVMEM.md
   in your repo, and brings the relevant ones back next session.
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://avinash-jetwani.github.io/jevmem/
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
     stars: 121
     forks: 8
-    open_issues: 5
+    open_issues: 6
   kind: product
 ---
 

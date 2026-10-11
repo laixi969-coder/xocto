@@ -34,16 +34,16 @@ url: https://github.com/Daniel987654321/roblox-studio-agent-bridge
 canonical_url: https://github.com/Daniel987654321/roblox-studio-agent-bridge
 summary: 'Open Source Roblox Studio AI Coding Agent Tools 2026: 35 MCP Server Scripts for Safe Edits'
 first_seen: '2026-09-22T20:39:52Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Daniel987654321/roblox-studio-agent-bridge
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 71
+    stars: 70
     forks: 0
     open_issues: 0
   kind: product

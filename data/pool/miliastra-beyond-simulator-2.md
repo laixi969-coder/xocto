@@ -35,16 +35,16 @@ url: https://docs.qq.com/doc/DQ0N2dHpnSktIUmpu
 canonical_url: https://docs.qq.com/doc/DQ0N2dHpnSktIUmpu
 summary: 千星沙箱模拟器：Lua 驱动的 2D 奇域外置沙箱 ，支持 DeepSeek Harness、Web 和 MCP
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://docs.qq.com/doc/DQ0N2dHpnSktIUmpu
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 55
+    stars: 56
     forks: 2
     open_issues: 6
   kind: product

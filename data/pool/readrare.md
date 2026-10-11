@@ -20,17 +20,17 @@ url: https://readrare.com/
 canonical_url: https://readrare.com
 summary: The rarest tech books and docs you've probably never read
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:45:59Z'
+last_seen: '2026-10-11T01:01:01Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://readrare.com/
-  seen_at: '2026-10-10T01:45:59Z'
+  seen_at: '2026-10-11T01:01:01Z'
   metrics:
-    points: 76
-    comments: 11
+    points: 164
+    comments: 60
   kind: product
 ---
 

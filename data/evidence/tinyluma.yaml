@@ -27,3 +27,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 数字内容与设计 使用 Midjourney、Flux 或 ComfyUI 出图的创作者在批量生成后对图片做统一调色与批量后期，并保留原始工作流元数据'
+- id: ev-c396bf66994529c9
+  project_slug: tinyluma
+  url: https://github.com/ThetaCursed/TinyLuma
+  title: TinyLuma
+  published_at: '2026-10-03T05:01:32Z'
+  collected_at: '2026-10-11T01:01:22Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Fast, native (~8MB) post-processor and batch editor for AI images (Midjourney, Flux, ComfyUI).
+    Preserves workflow metadata, Oklab grading, 3D LUTs. | repository stars: 44'

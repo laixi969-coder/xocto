@@ -32,18 +32,18 @@ url: https://beeftv.app/
 canonical_url: https://beeftv.app
 summary: High-performance · Lightweight · AI Native Video workspace. 面向 AI 时代的视频创作工作台。 在画布中，和Agent一起自由连接创意、模型与素材。
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://beeftv.app/
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 1006
-    forks: 201
-    open_issues: 21
+    stars: 1050
+    forks: 208
+    open_issues: 23
   kind: product
 ---
 

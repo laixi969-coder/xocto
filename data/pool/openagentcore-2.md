@@ -27,18 +27,18 @@ url: https://openagentcore.dev/
 canonical_url: https://openagentcore.dev
 summary: Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://openagentcore.dev/
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 205
-    forks: 24
-    open_issues: 15
+    stars: 208
+    forks: 28
+    open_issues: 12
   kind: product
 ---
 

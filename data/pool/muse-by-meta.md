@@ -27,8 +27,8 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-10-10T01:46:37Z'
-status: queued
+last_seen: '2026-10-11T01:02:09Z'
+status: pending_filter
 sources:
 - producthunt
 - marketfeeds
@@ -317,6 +317,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeFhPVGcyaUFfWUdzMWpvQWd0MFpaRmN4clZTNmNuOHVkWk1oNlpESFE1dzZ2R3hFMEVOa25jYjNnRWRJRFZVSkRTWHFOVFo5RUJXNUdSZExMM01RaHpEVXFEekZWTU9ZZHh6ZWJXMUEycDhSS25QWmVmMXFzSU02NXFXclRacTBMZlcyR2p2NTRPRVBGVVlFcnRFYWlyYWd0a3ZlVUVmRDd0eUc5ajVMLUd6ZGdEOVVSYUdwSFN4Ny04dGdOanpjMkMycnJteGVValgyMU9hLXA4Q3Z2OG41MmhyY9IB4wFBVV95cUxQeFhPVGcyaUFfWUdzMWpvQWd0MFpaRmN4clZTNmNuOHVkWk1oNlpESFE1dzZ2R3hFMEVOa25jYjNnRWRJRFZVSkRTWHFOVFo5RUJXNUdSZExMM01RaHpEVXFEekZWTU9ZZHh6ZWJXMUEycDhSS25QWmVmMXFzSU02NXFXclRacTBMZlcyR2p2NTRPRVBGVVlFcnRFYWlyYWd0a3ZlVUVmRDd0eUc5ajVMLUd6ZGdEOVVSYUdwSFN4Ny04dGdOanpjMkMycnJteGVValgyMU9hLXA4Q3Z2OG41MmhyYw?oc=5
   seen_at: '2026-10-10T01:46:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMickFVX3lxTFB3WVZrRkhZUHdXOUtabTZGTWdOS3RRRG5McHdfMi1wR0VwaWtzMTdfeGpEcmNzdjR0NF9kcU4zM25wU0h6R3N1b0NFVzRrS1Rsb0JVajNaaTY4NjBEcGxORDlwaVI2SVBxY2Y0SjdOU2NFQQ?oc=5
+  seen_at: '2026-10-11T01:02:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaTZaSmNwZHItZVAzM1Z3QTFyZlYtRzVCYUNUN09QbVM4MVVUZ1RQaVJuZEhFUzRfQUs2NzV6NFBwTEpGLWgzNTZ1dnBPdDRLVTlSWUV2RGxhM2tHUDh6c3V2MnROb25XcU40M2Y0eUJEX1NvMGFPTHVETFJYVmNQS2pNbGNoVDVTU2FqSHdwTnBrbGhSYzVDMWdyVE1tcmhyQ3d4TkdXT2piM1dmeVR4Wk9RVmpLOVlDaHZHNWhMZ3FRSUtJM01saS1YRm9JNThEZFVPOHFVejhpOEkwdnfSAeMBQVVfeXFMUHhYT1RnMmlBX1lHczFqb0FndDBaWkZjeHJWUzZjbjh1ZFpNaDZaREhRNXc2dkd4RTBFTmtuY2IzZ0VkSURWVUpEU1hxTlRaOUVCVzVHUmRMTDNNUWh6RFVxRHpGVk1PWWR4emViVzFBMnA4UktuUFplZjFxc0lNNjVxV3JUWnEwTGZXMkdqdjU0T0VQRlVZRXJ0RWFpcmFndGt2ZVVFZkQ3dHlHOWo1TC1HemRnRDlVUmFHcEhTeDctOHRnTmp6YzJDMnJybXhlVWpYMjFPYS1wOEN2djhuNTJocmM?oc=5
+  seen_at: '2026-10-11T01:02:09Z'
   metrics: {}
   kind: news
 ---

@@ -20,17 +20,17 @@ url: https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-
 canonical_url: https://nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457
 summary: Court throws out killer's sentence after judge said he loved AI video of victim
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:45:59Z'
-status: rejected
+last_seen: '2026-10-11T01:01:01Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457
-  seen_at: '2026-10-10T01:45:59Z'
+  seen_at: '2026-10-11T01:01:01Z'
   metrics:
-    points: 69
-    comments: 73
+    points: 72
+    comments: 74
   kind: news
 ---
 

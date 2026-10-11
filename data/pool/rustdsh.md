@@ -28,7 +28,7 @@ url: https://github.com/jimoto-no-llm/rustdsh#readme
 canonical_url: https://github.com/jimoto-no-llm/rustdsh
 summary: Rust launcher for DSH with native fast commands, guarded agent tools and a local project dashboard
 first_seen: '2026-10-04T06:05:05Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
@@ -43,11 +43,11 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/jimoto-no-llm/rustdsh#getting-started
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 67
-    forks: 6
-    open_issues: 91
+    stars: 68
+    forks: 7
+    open_issues: 191
   kind: product
 ---
 

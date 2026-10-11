@@ -33,7 +33,7 @@ url: https://github.com/allenv0/SCM
 canonical_url: https://github.com/allenv0/SCM
 summary: AI search for every photo and every frame of video on macOS
 first_seen: '2026-10-04T09:24:52Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - hackernews
@@ -48,9 +48,9 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/allenv0/SCM
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 453
+    stars: 459
     forks: 32
     open_issues: 2
   kind: product

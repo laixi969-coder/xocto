@@ -1,0 +1,41 @@
+---
+slug: 谷歌发布gemini智能体能写代码创作内容自主推进任务
+name: 谷歌发布Gemini智能体：能写代码、创作内容，自主推进任务
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi_wJBVV95cUxNS2JtWmFJZ1AwUS1mQi1naktQLVZmbDI0anZxUkYxRjdzbjVFYjFIZzM3T2FHTjNrX2tWSGhkM1AxWjVfVXBSVmZpVEpjS3pxMlAyR1VmTFpfX2puSFpPQ2Z2dGNNZXpYaklqMUZiS3MtaDRLMXZkYUVGUFlkMjVuUko5R0hjTmZidldTTHBYWWxZQTBfNjV0YnJXTENVZlVyU1VndTVIMGlwMzBMeWpJWGtXVmFBTjNKOFdScVJyck9uOU1Xa0FoOVp1aG5Ka1U3WGhiTXlSNlVCLTJ3eXRYT2o1Z2dBbnhmdUk0NXdxdWNVWFF5WUZIWE1fYmtMOWRhMWR3RVhRYVVBVFNqQzdLSlVPM3lfZkE3b18yZUtzZFowM2hRVnhaNENKeVJPX1p0U3hkLWRDRnU0TUFGaFVuYS1xeG9sZkt3dUNVVjFuVG8zMHV3bnMwNG1xV1VFQzZyVEllRFpvVnFuRHRGLVV1UENXTEh5a3JyVXJZX3E0OA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi_wJBVV95cUxNS2JtWmFJZ1AwUS1mQi1naktQLVZmbDI0anZxUkYxRjdzbjVFYjFIZzM3T2FHTjNrX2tWSGhkM1AxWjVfVXBSVmZpVEpjS3pxMlAyR1VmTFpfX2puSFpPQ2Z2dGNNZXpYaklqMUZiS3MtaDRLMXZkYUVGUFlkMjVuUko5R0hjTmZidldTTHBYWWxZQTBfNjV0YnJXTENVZlVyU1VndTVIMGlwMzBMeWpJWGtXVmFBTjNKOFdScVJyck9uOU1Xa0FoOVp1aG5Ka1U3WGhiTXlSNlVCLTJ3eXRYT2o1Z2dBbnhmdUk0NXdxdWNVWFF5WUZIWE1fYmtMOWRhMWR3RVhRYVVBVFNqQzdLSlVPM3lfZkE3b18yZUtzZFowM2hRVnhaNENKeVJPX1p0U3hkLWRDRnU0TUFGaFVuYS1xeG9sZkt3dUNVVjFuVG8zMHV3bnMwNG1xV1VFQzZyVEllRFpvVnFuRHRGLVV1UENXTEh5a3JyVXJZX3E0OA?oc=5
+summary: 谷歌发布Gemini智能体：能写代码、创作内容，自主推进任务 新浪财经
+first_seen: '2026-10-11T01:02:09Z'
+last_seen: '2026-10-11T01:02:09Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi_wJBVV95cUxNS2JtWmFJZ1AwUS1mQi1naktQLVZmbDI0anZxUkYxRjdzbjVFYjFIZzM3T2FHTjNrX2tWSGhkM1AxWjVfVXBSVmZpVEpjS3pxMlAyR1VmTFpfX2puSFpPQ2Z2dGNNZXpYaklqMUZiS3MtaDRLMXZkYUVGUFlkMjVuUko5R0hjTmZidldTTHBYWWxZQTBfNjV0YnJXTENVZlVyU1VndTVIMGlwMzBMeWpJWGtXVmFBTjNKOFdScVJyck9uOU1Xa0FoOVp1aG5Ka1U3WGhiTXlSNlVCLTJ3eXRYT2o1Z2dBbnhmdUk0NXdxdWNVWFF5WUZIWE1fYmtMOWRhMWR3RVhRYVVBVFNqQzdLSlVPM3lfZkE3b18yZUtzZFowM2hRVnhaNENKeVJPX1p0U3hkLWRDRnU0TUFGaFVuYS1xeG9sZkt3dUNVVjFuVG8zMHV3bnMwNG1xV1VFQzZyVEllRFpvVnFuRHRGLVV1UENXTEh5a3JyVXJZX3E0OA?oc=5
+  seen_at: '2026-10-11T01:02:09Z'
+  metrics: {}
+  kind: news
+---
+
+# 谷歌发布Gemini智能体：能写代码、创作内容，自主推进任务
+
+谷歌发布Gemini智能体：能写代码、创作内容，自主推进任务 新浪财经
+
+## 笔记
+
+

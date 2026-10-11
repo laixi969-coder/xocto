@@ -30,16 +30,16 @@ url: https://github.com/abbcreat-cyber/stepfun-harness
 canonical_url: https://github.com/abbcreat-cyber/stepfun-harness
 summary: 阶跃星辰 Harness｜让 AI 在桌面真正开工：订阅与 API、多代理工作流、插件、Mini。A desktop AI workspace powered by Step Code.
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/abbcreat-cyber/stepfun-harness
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 51
+    stars: 52
     forks: 3
     open_issues: 0
   kind: product

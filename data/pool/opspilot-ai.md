@@ -35,17 +35,17 @@ canonical_url: https://github.com/Router0824/OpsPilot-AI
 summary: Open-source AI operations workspace for meetings, knowledge, decisions, tasks, risks, workflows,
   and organizational memory.
 first_seen: '2026-10-03T12:12:32Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Router0824/OpsPilot-AI
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 51
-    forks: 3
+    stars: 60
+    forks: 4
     open_issues: 0
   kind: product
 ---

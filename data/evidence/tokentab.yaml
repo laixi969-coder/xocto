@@ -118,3 +118,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 AI 编程工具使用者'
+- id: ev-434530304b5d0b3a
+  project_slug: tokentab
+  url: https://github.com/yakuikai/tokentab
+  title: tokentab
+  published_at: '2026-09-21T18:07:22Z'
+  collected_at: '2026-10-11T01:01:22Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Local-first CLI and web dashboard that reads Claude Code, Codex and Gemini CLI session logs and
+    shows token usage and cost by model, project, day and activity. No account, no API key, nothing leaves
+    your machine | repository stars: 434'

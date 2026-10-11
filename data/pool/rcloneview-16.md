@@ -36,16 +36,16 @@ url: https://rcloneview.com/
 canonical_url: https://rcloneview.com
 summary: A desktop GUI for rclone with 40 cloud storages
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:45:59Z'
+last_seen: '2026-10-11T01:01:01Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://rcloneview.com/
-  seen_at: '2026-10-10T01:45:59Z'
+  seen_at: '2026-10-11T01:01:01Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://mtlynch.io/why-are-coding-agents-so-dumb/
 canonical_url: https://mtlynch.io/why-are-coding-agents-so-dumb
 summary: Why are coding agents so dumb?
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:45:59Z'
-status: rejected
+last_seen: '2026-10-11T01:01:01Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://mtlynch.io/why-are-coding-agents-so-dumb/
-  seen_at: '2026-10-10T01:45:59Z'
+  seen_at: '2026-10-11T01:01:01Z'
   metrics:
-    points: 75
-    comments: 75
+    points: 99
+    comments: 98
   kind: news
 ---
 

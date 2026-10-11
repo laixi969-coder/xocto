@@ -1,0 +1,41 @@
+---
+slug: 本地跑3000亿参数模型且看amd如何引领智能体pc发展-大模型-npu-aipc-ai辅助-agent
+name: 本地跑3000亿参数模型！且看AMD如何引领智能体PC发展|大模型|NPU|AIPC|AI辅助|Agent
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5wJBVV95cUxOYUV6WFdKM0hkdzc4emdSV1dvd0JTUmY5dGlPaEVZcTNZVGdsc0ZQYXVKcXNfQ09VV08tdXpDTVhyZWZuYVZwWFBtSlV0bEZYOU44d196OThsbFNqMU5Kdzh1ZUFvZW9yR3lRN20waHd1UEVyRkVmZFE5dC1zY1NVTS1zdDQ4cENpRTRZdE95SXVRcmhnOU9TekxzUnkxVGNFYmtWcEM5SW9ZNFB3c2dpQUpXemEyTXJiRENXWkNOVlo3aXk2Sm9oNkE4Rm9uWFh3TUNtS0xnRDJmakRuU1REc2NueGRnZGJhNy1rLWlZSUxGT1NhRkJlYVNqR0hPRkZrcXpZdGRKY1YyaXFkOUR3bkZ5N3NFYVphcThhRjVYWU1YclJlUGNGQkhBZ0ZNamtNdjBFNjdKTUZqbjRsWlZuLXI5VEN5M0J2QVExNS16QmdnbWdBMzd4aVppeU1CdXNVSFA4c1FMbw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5wJBVV95cUxOYUV6WFdKM0hkdzc4emdSV1dvd0JTUmY5dGlPaEVZcTNZVGdsc0ZQYXVKcXNfQ09VV08tdXpDTVhyZWZuYVZwWFBtSlV0bEZYOU44d196OThsbFNqMU5Kdzh1ZUFvZW9yR3lRN20waHd1UEVyRkVmZFE5dC1zY1NVTS1zdDQ4cENpRTRZdE95SXVRcmhnOU9TekxzUnkxVGNFYmtWcEM5SW9ZNFB3c2dpQUpXemEyTXJiRENXWkNOVlo3aXk2Sm9oNkE4Rm9uWFh3TUNtS0xnRDJmakRuU1REc2NueGRnZGJhNy1rLWlZSUxGT1NhRkJlYVNqR0hPRkZrcXpZdGRKY1YyaXFkOUR3bkZ5N3NFYVphcThhRjVYWU1YclJlUGNGQkhBZ0ZNamtNdjBFNjdKTUZqbjRsWlZuLXI5VEN5M0J2QVExNS16QmdnbWdBMzd4aVppeU1CdXNVSFA4c1FMbw?oc=5
+summary: 本地跑3000亿参数模型！且看AMD如何引领智能体PC发展|大模型|NPU|AIPC|AI辅助|Agent 新浪财经
+first_seen: '2026-10-11T01:02:09Z'
+last_seen: '2026-10-11T01:02:09Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wJBVV95cUxOYUV6WFdKM0hkdzc4emdSV1dvd0JTUmY5dGlPaEVZcTNZVGdsc0ZQYXVKcXNfQ09VV08tdXpDTVhyZWZuYVZwWFBtSlV0bEZYOU44d196OThsbFNqMU5Kdzh1ZUFvZW9yR3lRN20waHd1UEVyRkVmZFE5dC1zY1NVTS1zdDQ4cENpRTRZdE95SXVRcmhnOU9TekxzUnkxVGNFYmtWcEM5SW9ZNFB3c2dpQUpXemEyTXJiRENXWkNOVlo3aXk2Sm9oNkE4Rm9uWFh3TUNtS0xnRDJmakRuU1REc2NueGRnZGJhNy1rLWlZSUxGT1NhRkJlYVNqR0hPRkZrcXpZdGRKY1YyaXFkOUR3bkZ5N3NFYVphcThhRjVYWU1YclJlUGNGQkhBZ0ZNamtNdjBFNjdKTUZqbjRsWlZuLXI5VEN5M0J2QVExNS16QmdnbWdBMzd4aVppeU1CdXNVSFA4c1FMbw?oc=5
+  seen_at: '2026-10-11T01:02:09Z'
+  metrics: {}
+  kind: news
+---
+
+# 本地跑3000亿参数模型！且看AMD如何引领智能体PC发展|大模型|NPU|AIPC|AI辅助|Agent
+
+本地跑3000亿参数模型！且看AMD如何引领智能体PC发展|大模型|NPU|AIPC|AI辅助|Agent 新浪财经
+
+## 笔记
+
+

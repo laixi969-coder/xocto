@@ -35,17 +35,17 @@ canonical_url: https://github.com/feder-cr/invisible_playwright_mcp/wiki
 summary: 'Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect
   stealth Firefox, Python, undetected browser automation, scraping, computer use.'
 first_seen: '2026-09-29T23:06:00Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/feder-cr/invisible_playwright_mcp/wiki
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 2700
-    forks: 464
+    stars: 2734
+    forks: 468
     open_issues: 2
   kind: product
 ---

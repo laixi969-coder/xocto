@@ -37,16 +37,16 @@ summary: "## Model upgrades\r\n\r\nModels downloaded with earlier versions of Ol
   \ New Contributors\r\n* @maziluiosif made their first contribution in https://github.com/ollama/ollama/pull/18739\r\
   \n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.1...v0.40.2-rc0"
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
-status: market_context
+last_seen: '2026-10-11T01:01:22Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.40.2
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    reactions: 23
+    reactions: 28
   kind: news
 ---
 

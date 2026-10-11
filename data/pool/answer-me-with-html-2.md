@@ -37,18 +37,18 @@ canonical_url: https://answer-me-with-html.com
 summary: Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can
   actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://answer-me-with-html.com/
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 2523
-    forks: 172
-    open_issues: 9
+    stars: 2760
+    forks: 187
+    open_issues: 4
   kind: product
 ---
 

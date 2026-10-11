@@ -20,18 +20,18 @@ url: https://github.com/jiwoochris/artex-ko
 canonical_url: https://github.com/jiwoochris/artex-ko
 summary: 'ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)'
 first_seen: '2026-10-03T14:49:48Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jiwoochris/artex-ko
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 858
-    forks: 732
-    open_issues: 5
+    stars: 983
+    forks: 982
+    open_issues: 8
   kind: product
 ---
 

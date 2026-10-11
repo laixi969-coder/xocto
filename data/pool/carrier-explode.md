@@ -33,17 +33,17 @@ url: https://carrierexplode.com/
 canonical_url: https://carrierexplode.com
 summary: iPhone, Pixel and Galaxy carrier settings decoded
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:45:59Z'
+last_seen: '2026-10-11T01:01:01Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://carrierexplode.com/
-  seen_at: '2026-10-10T01:45:59Z'
+  seen_at: '2026-10-11T01:01:01Z'
   metrics:
-    points: 214
-    comments: 26
+    points: 410
+    comments: 49
   kind: product
 ---
 

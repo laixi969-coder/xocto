@@ -38,17 +38,17 @@ url: https://brewreel.com
 canonical_url: https://brewreel.com
 summary: 精酿 BrewReel：让 DeepSeek 这类便宜模型也能做出好看的竖版宣传片。写一份产品简报，AI 挑镜头、写文案，一条命令出片。3 种配方、6 个行业、广告法校验，开源可商用。
 first_seen: '2026-09-26T01:52:24Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://brewreel.com
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 145
-    forks: 19
+    stars: 162
+    forks: 20
     open_issues: 1
   kind: product
 ---

@@ -1,0 +1,41 @@
+---
+slug: razorpay-partners-openai-to-help-indian-brands-advertise-on-2
+name: Razorpay partners OpenAI to help Indian brands advertise on ChatGPT
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNnd2a0tqNkFvZS0yOTFFUjJ2M2JSUk9sZkUteGk5Tktjc2N5NG94LWRIV3F6VWZjTTlTeGlPMEVqVFQ4b0UwTlM2N0UxcC1weXpfek5oSFoxNFhRR1Q2MERJSU01a1BXOGZySlYtSlNBMEEzYTE0ZjNZbWx3bXQwaGx4bzZjbWRQS3VIcnhGVEVJWjNBOERLWXVoSDN6VENLVjhDY3hQTEJJd0gtSEZ5TVZNeWdUV0d4dnVhTEdrTEkzR21jQzJPdnlfc0ExMk95a29McXljb2nSAd4BQVVfeXFMUEZPcDJTeEdqbV9RLVJhaThNVlhfcnBldWVNeDVnblFQcFNUa0FUSGhxUXpkRHZKYVVXZFo0X0Nxb3lBWXhlczhjTFVTS1h0WWNXdUZqQWdMN3JiRzdaaXFvd084TzdqdlZ3YTJKZ2NncTAyeDF3OXc2NzFlUjJ5SWdyNmJCcWFFYWhUMGJiOXhJV0tNaWJHZld5N0lub0JVTzFaU1RaODA0S1NhQmpWazZScnM0NVFudVdnMVljUWV3d0luSEJ6NW5fQ2tVZTRaZlA0bGdlTzd4TlBfSjB3?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNnd2a0tqNkFvZS0yOTFFUjJ2M2JSUk9sZkUteGk5Tktjc2N5NG94LWRIV3F6VWZjTTlTeGlPMEVqVFQ4b0UwTlM2N0UxcC1weXpfek5oSFoxNFhRR1Q2MERJSU01a1BXOGZySlYtSlNBMEEzYTE0ZjNZbWx3bXQwaGx4bzZjbWRQS3VIcnhGVEVJWjNBOERLWXVoSDN6VENLVjhDY3hQTEJJd0gtSEZ5TVZNeWdUV0d4dnVhTEdrTEkzR21jQzJPdnlfc0ExMk95a29McXljb2nSAd4BQVVfeXFMUEZPcDJTeEdqbV9RLVJhaThNVlhfcnBldWVNeDVnblFQcFNUa0FUSGhxUXpkRHZKYVVXZFo0X0Nxb3lBWXhlczhjTFVTS1h0WWNXdUZqQWdMN3JiRzdaaXFvd084TzdqdlZ3YTJKZ2NncTAyeDF3OXc2NzFlUjJ5SWdyNmJCcWFFYWhUMGJiOXhJV0tNaWJHZld5N0lub0JVTzFaU1RaODA0S1NhQmpWazZScnM0NVFudVdnMVljUWV3d0luSEJ6NW5fQ2tVZTRaZlA0bGdlTzd4TlBfSjB3?oc=5
+summary: Razorpay partners OpenAI to help Indian brands advertise on ChatGPT ET Enterprise AI
+first_seen: '2026-10-11T01:02:09Z'
+last_seen: '2026-10-11T01:02:09Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNnd2a0tqNkFvZS0yOTFFUjJ2M2JSUk9sZkUteGk5Tktjc2N5NG94LWRIV3F6VWZjTTlTeGlPMEVqVFQ4b0UwTlM2N0UxcC1weXpfek5oSFoxNFhRR1Q2MERJSU01a1BXOGZySlYtSlNBMEEzYTE0ZjNZbWx3bXQwaGx4bzZjbWRQS3VIcnhGVEVJWjNBOERLWXVoSDN6VENLVjhDY3hQTEJJd0gtSEZ5TVZNeWdUV0d4dnVhTEdrTEkzR21jQzJPdnlfc0ExMk95a29McXljb2nSAd4BQVVfeXFMUEZPcDJTeEdqbV9RLVJhaThNVlhfcnBldWVNeDVnblFQcFNUa0FUSGhxUXpkRHZKYVVXZFo0X0Nxb3lBWXhlczhjTFVTS1h0WWNXdUZqQWdMN3JiRzdaaXFvd084TzdqdlZ3YTJKZ2NncTAyeDF3OXc2NzFlUjJ5SWdyNmJCcWFFYWhUMGJiOXhJV0tNaWJHZld5N0lub0JVTzFaU1RaODA0S1NhQmpWazZScnM0NVFudVdnMVljUWV3d0luSEJ6NW5fQ2tVZTRaZlA0bGdlTzd4TlBfSjB3?oc=5
+  seen_at: '2026-10-11T01:02:09Z'
+  metrics: {}
+  kind: news
+---
+
+# Razorpay partners OpenAI to help Indian brands advertise on ChatGPT
+
+Razorpay partners OpenAI to help Indian brands advertise on ChatGPT ET Enterprise AI
+
+## 笔记
+
+

@@ -31,17 +31,17 @@ url: https://yeahnah.lol/
 canonical_url: https://yeahnah.lol
 summary: a BS score for Australian job ads
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:45:59Z'
+last_seen: '2026-10-11T01:01:01Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://yeahnah.lol/
-  seen_at: '2026-10-10T01:45:59Z'
+  seen_at: '2026-10-11T01:01:01Z'
   metrics:
-    points: 9
-    comments: 0
+    points: 13
+    comments: 3
   kind: product
 ---
 

@@ -278,3 +278,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-2846ff0122b47a80
+  project_slug: intent-router
+  url: https://github.com/angel291592/Intent-Router
+  title: Intent-Router
+  published_at: '2026-09-22T06:00:27Z'
+  collected_at: '2026-10-11T01:01:22Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Intent compiler for AI agents — converges vague requests into typed IntentSpec contracts (probe,
+    ask, or halt before routing), the input layer for routers and typed-decision models like Jev & Laya
+    | repository stars: 1,068'

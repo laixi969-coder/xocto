@@ -79,3 +79,12 @@
   source_kind: adoption
   tier: behavioural
   fact: Myjs An accidental pure-Python JavaScript interpreter
+- id: ev-2ce77a426aa2b291
+  project_slug: trace-file-lineage
+  url: https://pypi.org/project/compat-sentinel/
+  title: pypi
+  published_at: '2026-10-10T11:43:37Z'
+  collected_at: '2026-10-11T01:01:01Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: Pre Python 3.15 PEP 661 compat-sentinel

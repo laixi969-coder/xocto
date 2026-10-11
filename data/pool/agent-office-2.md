@@ -31,18 +31,18 @@ canonical_url: https://github.com/AgentSystemLabs/agent-office
 summary: A cartoon 3D office where your team hires Claude Code workers at desks, shares live terminals,
   talks over voice, and tracks GitHub issues and PRs.
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AgentSystemLabs/agent-office
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 696
-    forks: 185
-    open_issues: 50
+    stars: 705
+    forks: 192
+    open_issues: 60
   kind: product
 ---
 

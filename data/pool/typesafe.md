@@ -20,17 +20,17 @@ url: https://typesafe.ai/blog/series-ai
 canonical_url: https://typesafe.ai/blog/series-ai
 summary: Typesafe AI raises $870M at $7.5B
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:45:59Z'
-status: rejected
+last_seen: '2026-10-11T01:01:01Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://typesafe.ai/blog/series-ai
-  seen_at: '2026-10-10T01:45:59Z'
+  seen_at: '2026-10-11T01:01:01Z'
   metrics:
-    points: 272
-    comments: 207
+    points: 431
+    comments: 343
   kind: news
 ---
 

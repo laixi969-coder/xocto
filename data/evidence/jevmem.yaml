@@ -17,3 +17,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 开发者在多轮编码会话中保留架构决策与失败尝试记录'
+- id: ev-38a16d86a95dc42c
+  project_slug: jevmem
+  url: https://avinash-jetwani.github.io/jevmem/
+  title: jevmem
+  published_at: '2026-09-22T11:47:24Z'
+  collected_at: '2026-10-11T01:01:22Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'jevmem saves the decisions, rules and failed approaches from your Claude Code chats to JEVMEM.md
+    in your repo, and brings the relevant ones back next session. | repository stars: 121'

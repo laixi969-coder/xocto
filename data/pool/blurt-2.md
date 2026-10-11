@@ -36,16 +36,16 @@ summary: Show it. Say it. Your AI gets it. Record your screen and talk — your 
   bugs, ideas and to-dos, with the exact frames marked. 口喷鸡：边看边喷，AI 全懂。Agent Skill + macOS menu-bar app
   for Claude Code / Codex.
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AGIHunt/blurt
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 45
+    stars: 50
     forks: 7
     open_issues: 5
   kind: product

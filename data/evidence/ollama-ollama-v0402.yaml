@@ -17,3 +17,22 @@
     This only deletes the backups. If you later downgrade to a version older than 0.40, you'll need to\
     \ re-pull those models.\r\n\r\n**Other changes**\r\n* `ollama list` no longer shows duplicate entries\
     \ for upgraded models by @dhiltgen in https://github.com/oll"
+- id: ev-389e7a8523d5f187
+  project_slug: ollama-ollama-v0402
+  url: https://github.com/ollama/ollama/releases/tag/v0.40.2
+  title: 'ollama/ollama: v0.40.2'
+  published_at: '2026-10-08T16:53:47Z'
+  collected_at: '2026-10-11T01:01:22Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## Model upgrades\r\n\r\nModels downloaded with earlier versions of Ollama are upgraded in the\
+    \ background the first time you run them, for better performance and compatibility when running on\
+    \ llama.cpp.\r\n\r\nTo make downgrading safe, Ollama keeps the original copy as a backup, so upgraded\
+    \ models are temporarily kept on disk. A future release will remove these backups automatically.\r\
+    \n\r\nTo remove backed up models now (requires `jq`):\r\n\r\n```shell\r\ncurl -s localhost:11434/api/tags\
+    \ | jq -r '.models[].name' | while read -r m; do\r\n  curl -s localhost:11434/api/show -d \"{\\\"\
+    model\\\":\\\"$m\\\"}\" | jq -r \\\r\n    'select(any(.manifests[]?; .runner == \"llamacpp\")) | .manifests[]\
+    \ | select(.runner == \"ggml\") | .digest'\r\ndone | sort -u | xargs -n1 ollama rm\r\n```\r\n\r\n\
+    This only deletes the backups. If you later downgrade to a version older than 0.40, you'll need to\
+    \ re-pull those models.\r\n\r\n**Other changes**\r\n* `ollama list` no longer shows duplicate entries\
+    \ for upgraded models by @dhiltgen in https://github.com/oll"

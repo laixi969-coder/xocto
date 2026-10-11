@@ -20,17 +20,17 @@ url: https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false
 canonical_url: https://nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051
 summary: Anthropic AI model submits false tip on unsolved Philly murder
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:45:59Z'
-status: rejected
+last_seen: '2026-10-11T01:01:01Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/
-  seen_at: '2026-10-10T01:45:59Z'
+  seen_at: '2026-10-11T01:01:01Z'
   metrics:
-    points: 41
-    comments: 19
+    points: 208
+    comments: 152
   kind: news
 ---
 

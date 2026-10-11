@@ -21,18 +21,18 @@ canonical_url: https://github.com/czg86389-hub/muse2api
 summary: 把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for
   Muse.ai with Chat, Image & Video generation.
 first_seen: '2026-09-25T14:22:55Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/czg86389-hub/muse2api
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 334
-    forks: 86
-    open_issues: 4
+    stars: 340
+    forks: 90
+    open_issues: 5
   kind: product
 ---
 

@@ -36,17 +36,17 @@ url: https://github.com/mhtsec/ARTEX
 canonical_url: https://github.com/mhtsec/ARTEX
 summary: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目
 first_seen: '2026-10-08T05:33:06Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mhtsec/ARTEX
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 2228
-    forks: 4502
+    stars: 2916
+    forks: 5332
     open_issues: 0
   kind: product
 ---

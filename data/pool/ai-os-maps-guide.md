@@ -21,16 +21,16 @@ canonical_url: https://github.com/pavrus117/ai-os-maps-guide
 summary: 'Free MAPS guide: set up your own AI operating system on Claude Code (Memory, Agent, Pulse, Screen)
   — one prompt per layer'
 first_seen: '2026-09-22T09:49:59Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/pavrus117/ai-os-maps-guide
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 216
+    stars: 229
     forks: 61
     open_issues: 0
   kind: product

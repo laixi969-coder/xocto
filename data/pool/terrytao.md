@@ -20,8 +20,8 @@ url: https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-ma
 canonical_url: https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics
 summary: A Misalignment of AI in Mathematics
 first_seen: '2026-09-11T17:30:26Z'
-last_seen: '2026-09-13T00:00:05Z'
-status: rejected
+last_seen: '2026-10-11T01:01:01Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 148
     comments: 10
+  kind: news
+- source: hackernews
+  url: https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/
+  seen_at: '2026-10-11T01:01:01Z'
+  metrics:
+    points: 193
+    comments: 57
   kind: news
 ---
 

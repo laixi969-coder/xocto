@@ -1,0 +1,41 @@
+---
+slug: 3-healthcare-software-stocks-tied-to-ai-spending-hospitals-c
+name: 3 Healthcare Software Stocks Tied To AI Spending Hospitals Can Actually Use
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNamdMZEJ2RmhOVU5yMWptU2wzZ0NkMzFNblJicHpOWHBfZGo0ZC1wUjc4Vnl5TVo4SUVIOC1CM3V5dDVVSHlNZzdnb1hzLXkyNDF2QWt3bDI3cGxEbWJrRmZScHlZWDBoT1pGWi0zREJiZDNUU3Z6aEhfRVNKVzFxcktmTEM1RzhHX0Y3TFhsaGVVZGF1bU9vSmJJc3hNWEhCTU8welpwbjZ4OG5wMFFRb2hTY2k4RXVfbWlSSU1XRzJBR2pR0gHKAUFVX3lxTE45QzZwckcydUZXRFgxbWhtSWlFV2hLRFFoNDRxTXBYb3RYRDNlOHZ4b2lpRUhlWk9rcXppZ1diQ2I2aENfR0ZIYlBkU09aMHJYVEd0Q043S3c3RmJUY3dxSjduaVM3YVlHcmJGUWZNYThkR0RWaTFDRGwzdjY1RWYtejlaVzI5Q2JWcVlYaDVWMFM1cm1jWHMtWktfblhZZ2JlU0tFc0ZXZ3RwVkozamtFLUxaVXhQUzROVXVPMWxJQnZGeDJwLWF2ckE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNamdMZEJ2RmhOVU5yMWptU2wzZ0NkMzFNblJicHpOWHBfZGo0ZC1wUjc4Vnl5TVo4SUVIOC1CM3V5dDVVSHlNZzdnb1hzLXkyNDF2QWt3bDI3cGxEbWJrRmZScHlZWDBoT1pGWi0zREJiZDNUU3Z6aEhfRVNKVzFxcktmTEM1RzhHX0Y3TFhsaGVVZGF1bU9vSmJJc3hNWEhCTU8welpwbjZ4OG5wMFFRb2hTY2k4RXVfbWlSSU1XRzJBR2pR0gHKAUFVX3lxTE45QzZwckcydUZXRFgxbWhtSWlFV2hLRFFoNDRxTXBYb3RYRDNlOHZ4b2lpRUhlWk9rcXppZ1diQ2I2aENfR0ZIYlBkU09aMHJYVEd0Q043S3c3RmJUY3dxSjduaVM3YVlHcmJGUWZNYThkR0RWaTFDRGwzdjY1RWYtejlaVzI5Q2JWcVlYaDVWMFM1cm1jWHMtWktfblhZZ2JlU0tFc0ZXZ3RwVkozamtFLUxaVXhQUzROVXVPMWxJQnZGeDJwLWF2ckE?oc=5
+summary: 3 Healthcare Software Stocks Tied To AI Spending Hospitals Can Actually Use Simply Wall Street
+first_seen: '2026-10-11T01:02:09Z'
+last_seen: '2026-10-11T01:02:09Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxNamdMZEJ2RmhOVU5yMWptU2wzZ0NkMzFNblJicHpOWHBfZGo0ZC1wUjc4Vnl5TVo4SUVIOC1CM3V5dDVVSHlNZzdnb1hzLXkyNDF2QWt3bDI3cGxEbWJrRmZScHlZWDBoT1pGWi0zREJiZDNUU3Z6aEhfRVNKVzFxcktmTEM1RzhHX0Y3TFhsaGVVZGF1bU9vSmJJc3hNWEhCTU8welpwbjZ4OG5wMFFRb2hTY2k4RXVfbWlSSU1XRzJBR2pR0gHKAUFVX3lxTE45QzZwckcydUZXRFgxbWhtSWlFV2hLRFFoNDRxTXBYb3RYRDNlOHZ4b2lpRUhlWk9rcXppZ1diQ2I2aENfR0ZIYlBkU09aMHJYVEd0Q043S3c3RmJUY3dxSjduaVM3YVlHcmJGUWZNYThkR0RWaTFDRGwzdjY1RWYtejlaVzI5Q2JWcVlYaDVWMFM1cm1jWHMtWktfblhZZ2JlU0tFc0ZXZ3RwVkozamtFLUxaVXhQUzROVXVPMWxJQnZGeDJwLWF2ckE?oc=5
+  seen_at: '2026-10-11T01:02:09Z'
+  metrics: {}
+  kind: news
+---
+
+# 3 Healthcare Software Stocks Tied To AI Spending Hospitals Can Actually Use
+
+3 Healthcare Software Stocks Tied To AI Spending Hospitals Can Actually Use Simply Wall Street
+
+## 笔记
+
+

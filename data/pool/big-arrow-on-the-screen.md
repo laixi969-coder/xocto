@@ -32,7 +32,7 @@ url: https://github.com/franzenzenhofer/big-arrow-on-the-screen
 canonical_url: https://github.com/franzenzenhofer/big-arrow-on-the-screen
 summary: Let your AI agents paint big arrows, boxes and text on your screen
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - hackernews
@@ -47,10 +47,10 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/franzenzenhofer/big-arrow-on-the-screen
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 464
-    forks: 6
+    stars: 586
+    forks: 10
     open_issues: 0
   kind: product
 ---

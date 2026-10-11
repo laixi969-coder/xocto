@@ -33,18 +33,18 @@ summary: '在 dsh 里装上这个插件即可，无需登录、注册或填 API 
   you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just
   there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.'
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Ebony-Vinyl/dsh-our-free-model
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 5670
-    forks: 116
-    open_issues: 89
+    stars: 6862
+    forks: 142
+    open_issues: 102
   kind: product
 ---
 

@@ -33,17 +33,17 @@ url: https://github.com/tlack/babytalk
 canonical_url: https://github.com/tlack/babytalk
 summary: Offline speech to text and text to speech on ESP32
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:45:59Z'
+last_seen: '2026-10-11T01:01:01Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/tlack/babytalk
-  seen_at: '2026-10-10T01:45:59Z'
+  seen_at: '2026-10-11T01:01:01Z'
   metrics:
-    points: 6
-    comments: 4
+    points: 13
+    comments: 7
   kind: product
 ---
 

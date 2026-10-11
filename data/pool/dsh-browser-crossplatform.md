@@ -34,16 +34,16 @@ summary: Browser extension for the DeepSeek Harness desktop app. The model reads
   you switch image recognition on, looks at an image you point at. It asks before acting, keeps passwords
   in the page, and talks to your own desktop; the one
 first_seen: '2026-10-02T23:07:34Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-11T01:01:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/youbaiyun/dsh-browser-crossplatform
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-11T01:01:22Z'
   metrics:
-    stars: 94
+    stars: 103
     forks: 5
     open_issues: 0
   kind: product
