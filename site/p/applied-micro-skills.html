@@ -84,15 +84,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-10</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-11</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">应用微观经济学研究者（博士生、青年教师、RA）在拿到 WRDS 等数据库的原始数据后，用 Stata 或 Python 跑事件研究、面板回归，并把结果整理成可投稿的论文表格，同时保证从原始数据到表内数字的整条链路可被复现。</p>
-        <p>研究者目前靠手写 Stata do-file、散落的 README、个人脚本库和口头交接来复现；LLM 相关流程则靠临时 notebook 与聊天记录。这些做法没有统一的审计与表格生成约定，跨人跨时间复现成本高。</p>
-        <p>公开材料未给出用户抱怨原文，但从工作流结构看：复现审计要求逐行核对数据清洗、样本筛选与回归设定，手工重跑一次往往要数天；LLM 流水线方法（提示、模型版本、随机种子）缺乏记录规范，审稿人或合作者质疑数字时难以定位差异来源。这是结构推理，不是用户口述。</p>
+        <p class="product-lead">帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来</p>
+        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
+        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -102,7 +102,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：相较手写 do-file 加零散 README，这套 skill 把复现审计、LLM 流水线方法记录、事件研究与出表串成可重复调用的动作，减少的是“重新对齐数据清洗与回归设定”这一步人工负担，并让表内数字可被逐项回溯。因此正在做复现审计或需要交付可复现论文表的应用微观研究者，会在投稿前或合作者交接时选择它。公开仓库 48 个收藏只说明开发者注意到它，不构成持续使用证据。</p>
+        <p>公开代码仓库有 48 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -114,7 +114,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：相较手写 do-file 加零散 README，这套 skill 把复现审计、LLM 流水线方法记录、事件研究与出表串成可重复调用的动作，减少的是“重新对齐数据清洗与回归设定”这一步人工负担，并让表内数字可被逐项回溯。因此正在做复现审计或需要交付可复现论文表的应用微观研究者，会在投稿前或合作者交接时选择它。公开仓库 48 个收藏只说明开发者注意到它，不构成持续使用证据。</p>
+        <p><strong>值得拆解</strong>。公开代码仓库有 48 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -130,8 +130,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：相较手写 do-file 加零散 README，这套 skill 把复现审计、LLM 流水线方法记录、事件研究与出表串成可重复调用的动作，减少的是“重新对齐数据清洗与回归设定”这一步人工负担，并让表内数字可被逐项回溯。因此正在做复现审计或需要交付可复现论文表的应用微观研究者，会在投稿前或合作者交接时选择它。公开仓库 48 个收藏只说明开发者注意到它，不构成持续使用证据。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 README、issue 与 discussion，确认是否公开了在真实 WRDS/Stata 数据上的复现示例、版本兼容说明与使用者反馈。</p></div>
+        <div><span class="field-k">工作流推理</span><p>公开代码仓库有 48 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -318,7 +318,7 @@ eventstudy2 验证到浮点精度）、<code>wrds</code>（WRDS 查询模式：C
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 792 个 →
+        AI + 开发 共 817 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -410,8 +410,8 @@ eventstudy2 验证到浮点精度）、<code>wrds</code>（WRDS 查询模式：C
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2797 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-10-10</span>
+    <span>2872 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-10-11</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

@@ -84,15 +84,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-10</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-11</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者在新电脑到手时，把常用的 AI 助手与工具配置一次装好，避免逐个手工编辑各工具专属配置文件。</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>公开材料只说明可免去逐个改设置，未说明新机配置实际耗时多久、出错频率多高、不解决会有什么后果，痛点强度无法还原。</p>
+        <p class="product-lead">开发者或重度 AI 工具用户在新机器、重装系统或换机时，需要把多个 AI 助手（CLI、编辑器插件、本地模型等）的配置、密钥与运行环境一次性装好并保持可重复，而不是逐个工具手改配置文件。</p>
+        <p>当前替代是手工逐个编辑各 AI 工具的配置文件，或依赖 dotfiles 仓库、安装脚本、容器镜像与各工具自带的初始化命令，分别维护、彼此不统一。</p>
+        <p>公开材料显示痛点是逐个工具手改配置文件的重复劳动与易错：每台新机都要重配密钥、路径和版本，配置漂移后难以复现，出错时排查成本高。这是从产品说明与工作流结构推出的判断，尚无用户抱怨或案例直接佐证强度。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -102,19 +102,19 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：若一次配置能生成可复用的新机环境，可省去逐工具手改配置文件的步骤；但公开材料未给出使用场景与留存证据，无法确认用户为何选择它。</p>
+        <p>推断：相较手工逐个改配置，BootAgent 把多工具的安装与配置收敛为一次可重复执行的本地流程，减少每台新机重复配置和配置漂移这一步负担，因此频繁换机、重装或需要统一团队环境的开发者会在新机初始化时选择它。公开仓库 88 收藏、5 复刻只说明开发者关注，不构成持续使用证据。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>追踪该仓库 README、issue 与 release 记录，确认新机配置的实际步骤、支持的工具范围与可复现产出。</p>
+        <p>追踪 BootAgent 公开仓库的 README、release 与 issue/discussion，确认是否出现可复现的安装流程、失败回滚说明及用户实际使用反馈。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：若一次配置能生成可复用的新机环境，可省去逐工具手改配置文件的步骤；但公开材料未给出使用场景与留存证据，无法确认用户为何选择它。</p>
+        <p><strong>值得拆解</strong>。推断：相较手工逐个改配置，BootAgent 把多工具的安装与配置收敛为一次可重复执行的本地流程，减少每台新机重复配置和配置漂移这一步负担，因此频繁换机、重装或需要统一团队环境的开发者会在新机初始化时选择它。公开仓库 88 收藏、5 复刻只说明开发者关注，不构成持续使用证据。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -126,8 +126,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>新电脑到手，把常用的AI助手一次配好，不用再逐个改设置</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：若一次配置能生成可复用的新机环境，可省去逐工具手改配置文件的步骤；但公开材料未给出使用场景与留存证据，无法确认用户为何选择它。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库 README、issue 与 release 记录，确认新机配置的实际步骤、支持的工具范围与可复现产出。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较手工逐个改配置，BootAgent 把多工具的安装与配置收敛为一次可重复执行的本地流程，减少每台新机重复配置和配置漂移这一步负担，因此频繁换机、重装或需要统一团队环境的开发者会在新机初始化时选择它。公开仓库 88 收藏、5 复刻只说明开发者关注，不构成持续使用证据。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪 BootAgent 公开仓库的 README、release 与 issue/discussion，确认是否出现可复现的安装流程、失败回滚说明及用户实际使用反馈。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -223,7 +223,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 792 个 →
+        AI + 开发 共 817 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -315,8 +315,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2797 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-10-10</span>
+    <span>2872 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-10-11</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

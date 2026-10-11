@@ -84,15 +84,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-10</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-11</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者在发布前需要对自己的代码或产品做安全测试：让一个 AI 读取源码做白盒分析，另一个 AI 在不知道实现细节的情况下当黑盒攻击者，两者对打以暴露漏洞，最终产出可修复的缺陷清单。</p>
-        <p>当前替代方式包括人工渗透测试外包、静态分析工具（SAST/SCA）、单一 LLM 提示做代码审查，或干脆跳过安全测试直接上线。</p>
-        <p>人工渗透测试昂贵且排期长，独立开发者和小团队通常没有专职安全人员；只靠单一 AI 或静态扫描容易漏掉需要跨视角才能触发的漏洞，而漏掉一个上线漏洞的代价是真实的数据泄露与修复成本。</p>
+        <p class="product-lead">安全或研发工程师在发布前，把产品源码交给一个 AI 阅读、让另一个 AI 在不知源码的情况下扮演攻击者，用两者对打的方式找出可被利用的漏洞。</p>
+        <p>公开材料未说明用户目前如何完成这项工作，也未说明它替代了人工渗透测试、SAST/DAST 扫描器还是代码评审。</p>
+        <p>公开材料只有一句产品定位，没有说明人工渗透测试或扫描器漏报带来的具体代价、发生频率或后果，痛点强度无法从公开事实确认。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -102,7 +102,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>相较单一扫描或单次 LLM 审查，它把白盒读源码与黑盒盲测拆成两个对抗角色，使攻击方无法依赖实现细节、防守方必须解释真实代码路径，从而减少人工设计攻击场景这一步负担；推断在缺少专职安全人员、又需要上线前快速自查的独立开发者与小团队中会被选择。</p>
+        <p>公开仓库有 43 个收藏，说明开发者注意到它；但没有任何用户反馈、案例或重复使用证据，无法说明哪类用户会在什么情况下选择它，因此使用理由目前只能标为推断且证据不足。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -114,7 +114,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。相较单一扫描或单次 LLM 审查，它把白盒读源码与黑盒盲测拆成两个对抗角色，使攻击方无法依赖实现细节、防守方必须解释真实代码路径，从而减少人工设计攻击场景这一步负担；推断在缺少专职安全人员、又需要上线前快速自查的独立开发者与小团队中会被选择。</p>
+        <p><strong>值得拆解</strong>。公开仓库有 43 个收藏，说明开发者注意到它；但没有任何用户反馈、案例或重复使用证据，无法说明哪类用户会在什么情况下选择它，因此使用理由目前只能标为推断且证据不足。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -130,8 +130,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>让两个 AI 对打来测你的产品：一个读源码，一个蒙着眼当黑客</p></div>
-        <div><span class="field-k">工作流推理</span><p>相较单一扫描或单次 LLM 审查，它把白盒读源码与黑盒盲测拆成两个对抗角色，使攻击方无法依赖实现细节、防守方必须解释真实代码路径，从而减少人工设计攻击场景这一步负担；推断在缺少专职安全人员、又需要上线前快速自查的独立开发者与小团队中会被选择。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的公开 issue / discussion 与 README 更新，确认是否有用户报告实际发现的漏洞、误报情况或将其接入 CI 的用法。</p></div>
+        <div><span class="field-k">工作流推理</span><p>公开仓库有 43 个收藏，说明开发者注意到它；但没有任何用户反馈、案例或重复使用证据，无法说明哪类用户会在什么情况下选择它，因此使用理由目前只能标为推断且证据不足。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 README、issue 与 discussion，确认是否有可复现的漏洞发现示例、误报处理说明或真实接入案例。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -285,7 +285,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 792 个 →
+        AI + 开发 共 817 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -377,8 +377,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2797 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-10-10</span>
+    <span>2872 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-10-11</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
