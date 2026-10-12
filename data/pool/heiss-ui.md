@@ -32,18 +32,18 @@ canonical_url: https://heiss-ui.vercel.app
 summary: ComfyUI, without the graph. A calm, local front end for ComfyUI. Bring your own workflows, write
   a prompt, watch it render.
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://heiss-ui.vercel.app/
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 49
-    forks: 2
-    open_issues: 0
+    stars: 53
+    forks: 4
+    open_issues: 1
   kind: product
 ---
 

@@ -35,16 +35,16 @@ summary: Compose a full-stack TypeScript stack and get a cutting-edge, verified 
   agents, with type safety, lint, and tests built in. | 自由组合全栈 TypeScript 技术栈，得到一个前沿、经过验证、为 AI 编码智能体打造的项目，内置类型安全、lint
   与测试。
 first_seen: '2026-10-04T02:36:55Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://vibestart.net
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 100
+    stars: 115
     forks: 3
     open_issues: 0
   kind: product

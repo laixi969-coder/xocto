@@ -35,7 +35,7 @@ url: https://github.com/thesnarkitecht/rembrandt
 canonical_url: https://github.com/thesnarkitecht/rembrandt
 summary: Free open source Adobe Lightroom alternative, completely local with AI
 first_seen: '2026-10-08T21:00:55Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: watching
 sources:
 - hackernews
@@ -50,10 +50,10 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/thesnarkitecht/rembrandt
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 95
-    forks: 6
+    stars: 99
+    forks: 7
     open_issues: 3
   kind: product
 ---

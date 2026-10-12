@@ -20,17 +20,17 @@ url: https://celeryman.fun/
 canonical_url: https://celeryman.fun
 summary: A functioning Celery Man computer
 first_seen: '2026-10-11T01:01:01Z'
-last_seen: '2026-10-11T01:01:01Z'
+last_seen: '2026-10-12T01:20:32Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://celeryman.fun/
-  seen_at: '2026-10-11T01:01:01Z'
+  seen_at: '2026-10-12T01:20:32Z'
   metrics:
-    points: 9
-    comments: 0
+    points: 11
+    comments: 1
   kind: product
 ---
 

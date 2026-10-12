@@ -29,16 +29,16 @@ url: https://zr.ax/
 canonical_url: https://zr.ax
 summary: Classify and explore binaries in the browser
 first_seen: '2026-10-11T01:01:01Z'
-last_seen: '2026-10-11T01:01:01Z'
+last_seen: '2026-10-12T01:20:32Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://zr.ax/
-  seen_at: '2026-10-11T01:01:01Z'
+  seen_at: '2026-10-12T01:20:32Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

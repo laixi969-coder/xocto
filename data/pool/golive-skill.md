@@ -39,18 +39,18 @@ summary: 'Take your agent-built product live: hosting, database, domain, email, 
   accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify.
   No GoLive account, backend or telemetry.'
 first_seen: '2026-09-23T13:37:26Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mikehasa/golive-skill
-  seen_at: '2026-09-25T00:33:47Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 874
-    forks: 60
-    open_issues: 0
+    stars: 1268
+    forks: 96
+    open_issues: 1
   kind: product
 - source: github
   url: https://trytofu.ai

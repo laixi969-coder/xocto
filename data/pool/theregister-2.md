@@ -20,8 +20,8 @@ url: https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people
 canonical_url: https://theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368
 summary: AI models don't kill people – people kill people
 first_seen: '2026-09-13T13:33:34Z'
-last_seen: '2026-10-04T00:37:53Z'
-status: rejected
+last_seen: '2026-10-12T01:20:32Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -58,6 +58,13 @@ sightings:
   metrics:
     points: 50
     comments: 23
+  kind: news
+- source: hackernews
+  url: https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218
+  seen_at: '2026-10-12T01:20:32Z'
+  metrics:
+    points: 52
+    comments: 52
   kind: news
 ---
 

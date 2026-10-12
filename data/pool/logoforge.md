@@ -21,16 +21,16 @@ canonical_url: https://logoforge.terravidhal.me
 summary: '971 brand logos for developers: SVG files, typed React components, shadcn registry (official
   directory), MCP server. African brands included.'
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://logoforge.terravidhal.me
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 41
+    stars: 43
     forks: 3
     open_issues: 0
   kind: product

@@ -20,16 +20,16 @@ url: https://worldwatcher.live/
 canonical_url: https://worldwatcher.live
 summary: a map to seamlessly watch public webcam streams
 first_seen: '2026-10-11T01:01:01Z'
-last_seen: '2026-10-11T01:01:01Z'
+last_seen: '2026-10-12T01:20:32Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://worldwatcher.live/
-  seen_at: '2026-10-11T01:01:01Z'
+  seen_at: '2026-10-12T01:20:32Z'
   metrics:
-    points: 8
+    points: 9
     comments: 2
   kind: product
 ---

@@ -33,18 +33,18 @@ canonical_url: https://github.com/scarletkc/Hatoba
 summary: Open-source desktop SSH client with an AI assistant and end-to-end encrypted sync through your
   own Cloudflare account
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/scarletkc/Hatoba
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 47
-    forks: 3
-    open_issues: 25
+    stars: 49
+    forks: 4
+    open_issues: 38
   kind: product
 ---
 

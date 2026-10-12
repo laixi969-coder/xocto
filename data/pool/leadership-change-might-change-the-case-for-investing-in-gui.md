@@ -1,0 +1,41 @@
+---
+slug: leadership-change-might-change-the-case-for-investing-in-gui
+name: Leadership Change Might Change The Case For Investing In Guidewire Stock (GWRE)
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNS1I4RmlpUm85OEpIUUJ3bjRtNzlaQVpHSHNfMVJsRHhPSFRyVk95cDdzN1RKUy1KUkIxMkd3blRkNDRLSTBpRXhKVG1BUmllZHRxenlOblNSNmt0UHBPZWxGUXRmZWpjSzlERFpnakNoSVN0VG9jeGxQaTVhUjNiVU05WmhSckVranBDejd6WmF6VDkyWExhLWVheDVhTGVoaFQyWG4wSDgwODB0cXVrNmhhVkV1bkNjZkdhcEZBWU9oQ0RaQk9WU0gtdlhBRjJOc0FQY3RR0gHWAUFVX3lxTE1LUjhGaWlSbzk4SkhRQnduNG03OVpBWkdIc18xUmxEeE9IVHJWT3lwN3M3VEpTLUpSQjEyR3duVGQ0NEtJMGlFeEpUbUFSaWVkdHF6eU5uU1I2a3RQcE9lbEZRdGZlamNLOUREWmdqQ2hJU3RUb2N4bFBpNWFSM2JVTTlaaFJyRWtqcEN6N3paYXpUOTJYTGEtZWF4NWFMZWhoVDJYbjBIODA4MHRxdWs2aGFWRXVuQ2NmR2FwRkFZT2hDRFpCT1ZTSC12WEFGMk5zQVBjdFE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNS1I4RmlpUm85OEpIUUJ3bjRtNzlaQVpHSHNfMVJsRHhPSFRyVk95cDdzN1RKUy1KUkIxMkd3blRkNDRLSTBpRXhKVG1BUmllZHRxenlOblNSNmt0UHBPZWxGUXRmZWpjSzlERFpnakNoSVN0VG9jeGxQaTVhUjNiVU05WmhSckVranBDejd6WmF6VDkyWExhLWVheDVhTGVoaFQyWG4wSDgwODB0cXVrNmhhVkV1bkNjZkdhcEZBWU9oQ0RaQk9WU0gtdlhBRjJOc0FQY3RR0gHWAUFVX3lxTE1LUjhGaWlSbzk4SkhRQnduNG03OVpBWkdIc18xUmxEeE9IVHJWT3lwN3M3VEpTLUpSQjEyR3duVGQ0NEtJMGlFeEpUbUFSaWVkdHF6eU5uU1I2a3RQcE9lbEZRdGZlamNLOUREWmdqQ2hJU3RUb2N4bFBpNWFSM2JVTTlaaFJyRWtqcEN6N3paYXpUOTJYTGEtZWF4NWFMZWhoVDJYbjBIODA4MHRxdWs2aGFWRXVuQ2NmR2FwRkFZT2hDRFpCT1ZTSC12WEFGMk5zQVBjdFE?oc=5
+summary: Leadership Change Might Change The Case For Investing In Guidewire Stock (GWRE) Simply Wall Street
+first_seen: '2026-10-12T01:21:03Z'
+last_seen: '2026-10-12T01:21:03Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNS1I4RmlpUm85OEpIUUJ3bjRtNzlaQVpHSHNfMVJsRHhPSFRyVk95cDdzN1RKUy1KUkIxMkd3blRkNDRLSTBpRXhKVG1BUmllZHRxenlOblNSNmt0UHBPZWxGUXRmZWpjSzlERFpnakNoSVN0VG9jeGxQaTVhUjNiVU05WmhSckVranBDejd6WmF6VDkyWExhLWVheDVhTGVoaFQyWG4wSDgwODB0cXVrNmhhVkV1bkNjZkdhcEZBWU9oQ0RaQk9WU0gtdlhBRjJOc0FQY3RR0gHWAUFVX3lxTE1LUjhGaWlSbzk4SkhRQnduNG03OVpBWkdIc18xUmxEeE9IVHJWT3lwN3M3VEpTLUpSQjEyR3duVGQ0NEtJMGlFeEpUbUFSaWVkdHF6eU5uU1I2a3RQcE9lbEZRdGZlamNLOUREWmdqQ2hJU3RUb2N4bFBpNWFSM2JVTTlaaFJyRWtqcEN6N3paYXpUOTJYTGEtZWF4NWFMZWhoVDJYbjBIODA4MHRxdWs2aGFWRXVuQ2NmR2FwRkFZT2hDRFpCT1ZTSC12WEFGMk5zQVBjdFE?oc=5
+  seen_at: '2026-10-12T01:21:03Z'
+  metrics: {}
+  kind: news
+---
+
+# Leadership Change Might Change The Case For Investing In Guidewire Stock (GWRE)
+
+Leadership Change Might Change The Case For Investing In Guidewire Stock (GWRE) Simply Wall Street
+
+## 笔记
+
+

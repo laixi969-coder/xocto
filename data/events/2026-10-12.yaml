@@ -1,0 +1,4733 @@
+- id: first-github-5
+  project_slug: github-5
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:29Z'
+  discovered_at: '2026-10-12T01:20:29Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-42c05fd9ff396559
+  homepage: true
+- id: first-github-6
+  project_slug: github-6
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:29Z'
+  discovered_at: '2026-10-12T01:20:29Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-71a613e57555a05c
+  homepage: true
+- id: evt-e44ca630d06286d9
+  project_slug: ornith-15-35b-a3b-gguf
+  event_type: material_update
+  occurred_at: '2026-10-09T06:54:55Z'
+  discovered_at: '2026-10-12T01:20:31Z'
+  signals:
+  - update
+  - open_source
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b903970d27a5ed77
+  homepage: true
+- id: evt-5ee4e73f5c689f9f
+  project_slug: ornith-15-35b-a3b-gguf
+  event_type: material_update
+  occurred_at: '2026-10-07T03:16:08Z'
+  discovered_at: '2026-10-12T01:20:31Z'
+  signals:
+  - update
+  - open_source
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-587fbd062b01e8bb
+  homepage: true
+- id: first-foley
+  project_slug: foley
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-1e73f976219aa5ce
+  homepage: true
+- id: first-agibot
+  project_slug: agibot
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a3765448c84eef84
+  homepage: true
+- id: first-notchpit
+  project_slug: notchpit
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-cd6c18435ece6b9a
+  homepage: true
+- id: first-tori
+  project_slug: tori
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8d3998fc5fd0d784
+  homepage: true
+- id: first-simplespread
+  project_slug: simplespread
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-47f13912d8f877fd
+  homepage: true
+- id: first-shippeditme
+  project_slug: shippeditme
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-bbc1c6b3576c96d3
+  homepage: true
+- id: first-kōdlo
+  project_slug: kōdlo
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-13e0642cf1d70d97
+  homepage: true
+- id: first-floorgen
+  project_slug: floorgen
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d2df67c4ab2f50c6
+  homepage: true
+- id: first-karmaboard
+  project_slug: karmaboard
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5931615b3f04f404
+  homepage: true
+- id: first-focuswrite
+  project_slug: focuswrite
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ced191b127851f2b
+  homepage: true
+- id: first-unboom
+  project_slug: unboom
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ff51f42455fe2af6
+  homepage: true
+- id: first-ghost-core
+  project_slug: ghost-core
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-1e2d477637cbd6be
+  homepage: true
+- id: first-edgevolume
+  project_slug: edgevolume
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-38b899c0b0c25c0d
+  homepage: true
+- id: first-poke-finder
+  project_slug: poke-finder
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-662c852b696c9039
+  homepage: true
+- id: first-devterminal
+  project_slug: devterminal
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4f07f3452a639be6
+  homepage: true
+- id: first-kooler
+  project_slug: kooler
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4748106ebb05f5c2
+  homepage: true
+- id: first-newminecraftservers
+  project_slug: newminecraftservers
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-13d67ec82755b579
+  homepage: true
+- id: first-farol
+  project_slug: farol
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4de037f363ef8402
+  homepage: true
+- id: first-plimsoll
+  project_slug: plimsoll
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-3e7ad9ce9474462a
+  homepage: true
+- id: first-brainotes
+  project_slug: brainotes
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-77bf2a27b5d58907
+  homepage: true
+- id: first-shpyrd
+  project_slug: shpyrd
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-6e8d7626010488bf
+  homepage: true
+- id: evt-bd909fe641b0f547
+  project_slug: opendecision
+  event_type: material_update
+  occurred_at: '2026-10-11T17:22:46Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fe1e076929ee601c
+  homepage: true
+- id: first-mira
+  project_slug: mira
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-093f814814600c5b
+  homepage: true
+- id: first-betterwispr
+  project_slug: betterwispr
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ace6f96f86978545
+  homepage: true
+- id: first-titan-ai
+  project_slug: titan-ai
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-03826e1eb92ccbfe
+  homepage: true
+- id: first-gsd-task-manager
+  project_slug: gsd-task-manager
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-7f278f93a8ac3e4a
+  homepage: true
+- id: first-craftsuite
+  project_slug: craftsuite
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-db33af6f60df5800
+  homepage: true
+- id: first-littleguys
+  project_slug: littleguys
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-da70f49991ca75c0
+  homepage: true
+- id: first-wallhop
+  project_slug: wallhop
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-28da88b00ee5ae33
+  homepage: true
+- id: first-boardsy
+  project_slug: boardsy
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-801dd3770b9f1386
+  homepage: true
+- id: evt-5f24f63fdb9c12f2
+  project_slug: isa-workbench
+  event_type: material_update
+  occurred_at: '2026-10-11T00:07:43Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-65b032f8e4cbb1c0
+  homepage: true
+- id: first-manimgx
+  project_slug: manimgx
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-86722343cf14c121
+  homepage: true
+- id: evt-8304bc41d6ed4f2c
+  project_slug: celeryman
+  event_type: material_update
+  occurred_at: '2026-10-10T18:08:36Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-77e770bcd790af3f
+  homepage: true
+- id: evt-4fc4c7e7793fb98e
+  project_slug: world-watcher
+  event_type: material_update
+  occurred_at: '2026-10-10T13:40:00Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-46d16cecb1888b4a
+  homepage: true
+- id: evt-17db60c6bfb275d6
+  project_slug: asobeast
+  event_type: material_update
+  occurred_at: '2026-10-10T13:34:34Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-651323ae37810400
+  homepage: true
+- id: first-pub-2
+  project_slug: pub-2
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-25cf025bdbf5c2b7
+  homepage: true
+- id: first-bbc-6
+  project_slug: bbc-6
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-58a1eb9a100a392e
+  homepage: true
+- id: first-latimes
+  project_slug: latimes
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-dfd04cff71990dd6
+  homepage: true
+- id: first-vcresearch
+  project_slug: vcresearch
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-874f1272e1265533
+  homepage: true
+- id: first-atoll92
+  project_slug: atoll92
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e7d3ae817541b47d
+  homepage: true
+- id: evt-72acc997c7630f55
+  project_slug: satya-nadella-says-we-should-assume-all-ai-models-are-compro
+  event_type: material_update
+  occurred_at: '2026-10-11T03:41:53Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-c2f84d7fb8fb29df
+  homepage: true
+- id: first-500b-tokens-later
+  project_slug: 500b-tokens-later
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-475f09c15c2530db
+  homepage: true
+- id: evt-fb1153e2bb383df7
+  project_slug: theregister-2
+  event_type: material_update
+  occurred_at: '2026-10-11T01:17:22Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ff7423a7b93d311c
+  homepage: true
+- id: evt-f02417d3b53fde95
+  project_slug: ft-3
+  event_type: material_update
+  occurred_at: '2026-10-10T18:48:35Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5eb19237a59bf3e2
+  homepage: true
+- id: evt-45ec83fbac5cf348
+  project_slug: reuters-3
+  event_type: material_update
+  occurred_at: '2026-10-10T18:10:54Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-57afa317afbe347b
+  homepage: true
+- id: evt-fa6bfd011c2b5f34
+  project_slug: ai-is-throwing-a-roadside-picnic
+  event_type: material_update
+  occurred_at: '2026-10-10T16:19:23Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e229a9c7ac59cabf
+  homepage: true
+- id: evt-b181998712c566d2
+  project_slug: wsj-4
+  event_type: material_update
+  occurred_at: '2026-10-10T15:04:38Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-83ed17325e897812
+  homepage: true
+- id: evt-43b64149cb0d5c06
+  project_slug: businessinsider-2
+  event_type: material_update
+  occurred_at: '2026-10-10T14:46:16Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-881f9c8657a52e1a
+  homepage: true
+- id: first-ask-hn-2
+  project_slug: ask-hn-2
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:32Z'
+  discovered_at: '2026-10-12T01:20:32Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-83d62787185f7168
+  homepage: true
+- id: evt-7b19f68b58931837
+  project_slug: coucou
+  event_type: material_update
+  occurred_at: '2026-09-27T21:54:12Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a3fa958cae189f8b
+  homepage: true
+- id: evt-1d75aa73304576d2
+  project_slug: artex
+  event_type: material_update
+  occurred_at: '2026-10-08T05:33:06Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-9bacfac47d7e308c
+  homepage: true
+- id: evt-d45dd13fac5da589
+  project_slug: answer-me-with-html-2
+  event_type: material_update
+  occurred_at: '2026-10-02T09:57:40Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b1090ab5f6c727d0
+  homepage: true
+- id: evt-f6a3aa5d1c58df98
+  project_slug: logo-design-skill
+  event_type: material_update
+  occurred_at: '2026-09-26T08:23:34Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4b232b8c43a23e62
+  homepage: true
+- id: evt-c7efbfc5101cdd49
+  project_slug: invisible-playwright-mcp
+  event_type: material_update
+  occurred_at: '2026-09-29T23:06:00Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e6b53b77b9584814
+  homepage: true
+- id: evt-77676bfb508be897
+  project_slug: yomiyasu
+  event_type: material_update
+  occurred_at: '2026-09-30T11:49:32Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b7685c02e245c8b3
+  homepage: true
+- id: evt-e739441bf4f7a618
+  project_slug: beeftv-2
+  event_type: material_update
+  occurred_at: '2026-09-24T05:20:03Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5c670173f72a70d3
+  homepage: true
+- id: evt-a1b25c5a600b0861
+  project_slug: aisafetyhot-hub
+  event_type: material_update
+  occurred_at: '2026-10-01T11:33:59Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4b619864383fa117
+  homepage: true
+- id: evt-c04d85e0bfa9ab71
+  project_slug: intent-router
+  event_type: material_update
+  occurred_at: '2026-09-22T06:00:27Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-33505d11bb8bdf9a
+  homepage: true
+- id: evt-480f3ad6fd229048
+  project_slug: talorys
+  event_type: material_update
+  occurred_at: '2026-10-10T09:46:56Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-910b27e57970e6c1
+  homepage: true
+- id: evt-9c309699b42bd4e0
+  project_slug: vulnhunter
+  event_type: material_update
+  occurred_at: '2026-09-22T23:22:00Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a41165ec860607a0
+  homepage: true
+- id: evt-a1fa305622852885
+  project_slug: ai-engineering-course
+  event_type: material_update
+  occurred_at: '2026-09-25T04:50:06Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-804561a71e37521a
+  homepage: true
+- id: evt-307b3a1d54e9da44
+  project_slug: open-dot
+  event_type: material_update
+  occurred_at: '2026-09-29T16:34:16Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-99b9a85cad43fd8b
+  homepage: true
+- id: evt-279d8609edb6a79a
+  project_slug: big-arrow-on-the-screen
+  event_type: material_update
+  occurred_at: '2026-10-08T08:39:15Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f059982174f73010
+  homepage: true
+- id: evt-404b78cc335d67c7
+  project_slug: strands-decider
+  event_type: material_update
+  occurred_at: '2026-09-29T16:36:38Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-41b3eca19be6f940
+  homepage: true
+- id: evt-97e45b10fc27748b
+  project_slug: explainroo
+  event_type: material_update
+  occurred_at: '2026-09-25T15:09:54Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f4ce4a44edb0b73c
+  homepage: true
+- id: evt-3fa79eb901360234
+  project_slug: ai-engineering-course
+  event_type: material_update
+  occurred_at: '2026-09-23T08:04:42Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b1d2b381d620840e
+  homepage: true
+- id: evt-aad3ad1a04413f31
+  project_slug: ai-game-modding-guides
+  event_type: material_update
+  occurred_at: '2026-10-03T11:48:59Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-eea1e4d697382031
+  homepage: true
+- id: evt-4146f6adbe70fc1c
+  project_slug: zh-tech-writing
+  event_type: material_update
+  occurred_at: '2026-09-24T17:37:46Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-cbc01b80902c360b
+  homepage: true
+- id: evt-23ef905bae91bf3c
+  project_slug: icode
+  event_type: material_update
+  occurred_at: '2026-09-28T03:35:08Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-34058c9a9f75408f
+  homepage: true
+- id: evt-db0013ee4ccdbd64
+  project_slug: strands-decider
+  event_type: material_update
+  occurred_at: '2026-10-02T20:34:08Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-bb3eb4baf4530327
+  homepage: true
+- id: evt-b07e2a209c0bccec
+  project_slug: catbus
+  event_type: material_update
+  occurred_at: '2026-09-27T15:19:34Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-dde0b5b447b55f85
+  homepage: true
+- id: evt-2abf799ba3b3cae9
+  project_slug: ff-tracking
+  event_type: material_update
+  occurred_at: '2026-10-09T11:12:47Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d4d048b7f5183c85
+  homepage: true
+- id: evt-489c0e4ef93602e2
+  project_slug: agent-tincan
+  event_type: material_update
+  occurred_at: '2026-09-22T22:50:16Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8561f45e35e477a8
+  homepage: true
+- id: evt-9ebb58f10ca0e672
+  project_slug: openghost
+  event_type: material_update
+  occurred_at: '2026-09-25T12:32:32Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-29063ef99eb2902d
+  homepage: true
+- id: first-agent-chrome-relay
+  project_slug: agent-chrome-relay
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-12d780897c3cf1af
+  homepage: true
+- id: evt-612fcc115992fe53
+  project_slug: comma
+  event_type: material_update
+  occurred_at: '2026-09-30T08:39:30Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-373a73ebef821b84
+  homepage: true
+- id: evt-7b548cdb305d3260
+  project_slug: ai-os-maps-guide
+  event_type: material_update
+  occurred_at: '2026-09-22T09:49:59Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-836e109e8af2b104
+  homepage: true
+- id: first-pidurablekit
+  project_slug: pidurablekit
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-c353611ee0e8967b
+  homepage: true
+- id: evt-c8da419942a72896
+  project_slug: autumn-recruitment
+  event_type: material_update
+  occurred_at: '2026-09-29T08:00:33Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-bdca406f7ac05717
+  homepage: true
+- id: evt-4dec324f9818ca08
+  project_slug: genjustsu-open-source-workflow
+  event_type: material_update
+  occurred_at: '2026-10-06T23:18:18Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d7f25279a3f1fe0a
+  homepage: true
+- id: evt-dfce6e7171430af3
+  project_slug: museai-skills
+  event_type: material_update
+  occurred_at: '2026-09-25T07:45:43Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-bfeb4dcbba8fdc62
+  homepage: true
+- id: evt-16a2afc3deabd095
+  project_slug: ai-goodpractice
+  event_type: material_update
+  occurred_at: '2026-10-02T11:01:25Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-546cad0e700a6387
+  homepage: true
+- id: evt-beea850b815bfa4a
+  project_slug: fde
+  event_type: material_update
+  occurred_at: '2026-09-22T07:23:58Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-c7414e23d7b775cc
+  homepage: true
+- id: evt-9b6173c4f077d5c1
+  project_slug: campus-job-application-workflow
+  event_type: material_update
+  occurred_at: '2026-09-22T12:30:33Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b70e43c1ee081201
+  homepage: true
+- id: evt-31b9deec72f48ba7
+  project_slug: conceptloom
+  event_type: material_update
+  occurred_at: '2026-10-01T14:29:47Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e1e0e86ec2235a69
+  homepage: true
+- id: first-keys-wasserman-slate-ai-studio-powered-by-tensorfold-mac-dgx
+  project_slug: keys-wasserman-slate-ai-studio-powered-by-tensorfold-mac-dgx
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-cf601e6cfed140ac
+  homepage: true
+- id: evt-e5fd25b4828f5c91
+  project_slug: opspilot-ai
+  event_type: material_update
+  occurred_at: '2026-10-03T12:12:32Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-3d1f14e3d77b1f16
+  homepage: true
+- id: first-museflow
+  project_slug: museflow
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-7e148513f8f9e0b2
+  homepage: true
+- id: evt-53d067efd5992bfa
+  project_slug: viralwave-studio-guide
+  event_type: material_update
+  occurred_at: '2026-10-08T00:17:49Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f237376438c8476c
+  homepage: true
+- id: evt-d18478c546aba340
+  project_slug: mathmodel-copilot
+  event_type: material_update
+  occurred_at: '2026-10-07T01:52:58Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-625351d6c35e44e2
+  homepage: true
+- id: evt-c32b94cc22d438f9
+  project_slug: tinyluma
+  event_type: material_update
+  occurred_at: '2026-10-03T05:01:32Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8ddeb20acf8c6a04
+  homepage: true
+- id: evt-83452ee896cc086c
+  project_slug: aurelio-finance
+  event_type: material_update
+  occurred_at: '2026-10-06T20:14:19Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ed386290695f4981
+  homepage: true
+- id: evt-f1203e3a547588b0
+  project_slug: nanomuse
+  event_type: material_update
+  occurred_at: '2026-09-23T06:13:06Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-14ee4e8348d6448d
+  homepage: true
+- id: evt-d958c38aa95743fa
+  project_slug: aikon-2
+  event_type: material_update
+  occurred_at: '2026-09-26T03:40:08Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4e21aff2f50edc7f
+  homepage: true
+- id: evt-2fee3dd2430ed31e
+  project_slug: clodfarm
+  event_type: material_update
+  occurred_at: '2026-09-25T00:48:32Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8df7f8edfbb8a1b5
+  homepage: true
+- id: evt-ab18d64547321e93
+  project_slug: hermes-mobile-app
+  event_type: material_update
+  occurred_at: '2026-10-04T22:51:20Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8b57d7ad362b13b6
+  homepage: true
+- id: evt-d6f6a8d8a2dd3bf8
+  project_slug: inkdoc
+  event_type: material_update
+  occurred_at: '2026-09-27T01:28:04Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5e172d074db4a33c
+  homepage: true
+- id: evt-7265d69aace56382
+  project_slug: aero-linux
+  event_type: material_update
+  occurred_at: '2026-09-27T18:35:36Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-53817935daf8f934
+  homepage: true
+- id: evt-6c197e1c9da59a90
+  project_slug: official-mcp-servers
+  event_type: material_update
+  occurred_at: '2026-10-01T07:30:34Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-270e1b0f6b7049a5
+  homepage: true
+- id: evt-c8e506e63a95e227
+  project_slug: 3d-asset-server
+  event_type: material_update
+  occurred_at: '2026-10-04T19:28:37Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-20deb94470d4a45a
+  homepage: true
+- id: evt-31862d5fc9ae9c42
+  project_slug: mcp-audit-tool
+  event_type: material_update
+  occurred_at: '2026-09-26T02:42:57Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f268280d4ebe08fd
+  homepage: true
+- id: evt-7f62adb6b6cd01dd
+  project_slug: genspark-claw
+  event_type: material_update
+  occurred_at: '2026-09-26T02:18:05Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-588fd71556647f89
+  homepage: true
+- id: evt-ba012d73fc3ce45d
+  project_slug: semrush-ai-tool
+  event_type: material_update
+  occurred_at: '2026-09-25T04:00:09Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e014e6fbb5b3296c
+  homepage: true
+- id: first-winshun
+  project_slug: winshun
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-2a70fa00e60b7fdc
+  homepage: true
+- id: evt-d87fa050afb55c2d
+  project_slug: magaza-mcp
+  event_type: material_update
+  occurred_at: '2026-09-28T17:25:16Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fadffb1f52cd5ea5
+  homepage: true
+- id: evt-a689cc466a529dd5
+  project_slug: frankensonos
+  event_type: material_update
+  occurred_at: '2026-10-06T23:30:08Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-028cccc246e49242
+  homepage: true
+- id: evt-5c8f919d504114c5
+  project_slug: mcp-image-generator-uncensored
+  event_type: material_update
+  occurred_at: '2026-10-06T14:54:31Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-bf4cecccf57ff582
+  homepage: true
+- id: evt-38d03812a6a091a8
+  project_slug: torob-mcp
+  event_type: material_update
+  occurred_at: '2026-09-23T21:25:06Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e3d30cbb7a8e638e
+  homepage: true
+- id: evt-2eca1edb3f2b7eda
+  project_slug: bashcut
+  event_type: material_update
+  occurred_at: '2026-10-02T18:46:34Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5e19584cad091638
+  homepage: true
+- id: first-foxprofile-2
+  project_slug: foxprofile-2
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-06df36e5bf304794
+  homepage: true
+- id: evt-cd34228abe01cfb8
+  project_slug: oh-my-android
+  event_type: material_update
+  occurred_at: '2026-09-24T08:31:01Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0621f72d7677bd48
+  homepage: true
+- id: evt-1c33fdedca2008fc
+  project_slug: muse-chat-mcp
+  event_type: material_update
+  occurred_at: '2026-09-30T06:50:57Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-733fe9bc7400192c
+  homepage: true
+- id: evt-6e8abbcc89d612ad
+  project_slug: proxy-scraper-2
+  event_type: material_update
+  occurred_at: '2026-09-24T12:33:28Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-749e958187a51b25
+  homepage: true
+- id: evt-8820c0520c934c13
+  project_slug: logoforge
+  event_type: material_update
+  occurred_at: '2026-09-27T19:23:18Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4afecace66e23659
+  homepage: true
+- id: evt-301e68a8a0f66c53
+  project_slug: magpie
+  event_type: material_update
+  occurred_at: '2026-09-23T16:22:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-256f168f78bbf4ff
+  homepage: true
+- id: evt-2692e2b77f4bda96
+  project_slug: jevgrep
+  event_type: material_update
+  occurred_at: '2026-09-26T04:06:56Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-91bb35b7bdcdc831
+  homepage: true
+- id: evt-06e3e177299cbf8d
+  project_slug: onetake
+  event_type: material_update
+  occurred_at: '2026-09-26T05:35:17Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e849333d4167da9b
+  homepage: true
+- id: evt-d3475ac2dbf3d9a0
+  project_slug: agent-office-2
+  event_type: material_update
+  occurred_at: '2026-09-26T00:32:48Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a81c26c8736b377f
+  homepage: true
+- id: first-mesh-avatar-studio-2
+  project_slug: mesh-avatar-studio-2
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fbaaa4e6362eabd4
+  homepage: true
+- id: evt-534b54e88786e89a
+  project_slug: awesome-claude-video-skills
+  event_type: material_update
+  occurred_at: '2026-09-27T04:06:05Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f16076efca59f8b7
+  homepage: true
+- id: evt-f8b6cde725686341
+  project_slug: mu-3
+  event_type: material_update
+  occurred_at: '2026-09-22T11:56:05Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-3bac3d42545917e2
+  homepage: true
+- id: evt-3e8566b267e838ea
+  project_slug: claude-motion
+  event_type: material_update
+  occurred_at: '2026-09-29T18:44:48Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-eed72bf9f4f283aa
+  homepage: true
+- id: evt-6aa30b66dffe0af2
+  project_slug: tov
+  event_type: material_update
+  occurred_at: '2026-09-29T16:39:23Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-30a5e8b1ea7ef874
+  homepage: true
+- id: evt-cb4bbce0cc1d7e8d
+  project_slug: shipyard
+  event_type: material_update
+  occurred_at: '2026-10-02T19:49:23Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-01360a61fdae18ce
+  homepage: true
+- id: evt-91611670947c69da
+  project_slug: moyai
+  event_type: material_update
+  occurred_at: '2026-09-30T01:41:01Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0c27ee8244e8fc69
+  homepage: true
+- id: evt-9a93139f2d38c99e
+  project_slug: sno-station
+  event_type: material_update
+  occurred_at: '2026-10-01T04:18:51Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-636d2b7bd238315d
+  homepage: true
+- id: evt-8f5ba8ee99042c09
+  project_slug: showtime
+  event_type: material_update
+  occurred_at: '2026-09-28T15:16:41Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b3e191e32da44409
+  homepage: true
+- id: evt-6fa4360a8cfd815e
+  project_slug: super-simple-software-factory
+  event_type: material_update
+  occurred_at: '2026-09-27T17:19:00Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-96a9af4a617b99b0
+  homepage: true
+- id: evt-a21c407313657ebb
+  project_slug: agentbox
+  event_type: material_update
+  occurred_at: '2026-09-28T03:32:41Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-397cb2a27b8749c9
+  homepage: true
+- id: evt-277d653a6a5f80f6
+  project_slug: jev-engineering-zh
+  event_type: material_update
+  occurred_at: '2026-09-22T04:28:47Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-157d1ecfd9eb623c
+  homepage: true
+- id: evt-ec4444c2a995c04a
+  project_slug: seecode
+  event_type: material_update
+  occurred_at: '2026-10-02T18:41:07Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-764eb41078f5bad2
+  homepage: true
+- id: evt-00afbf778ecf7a36
+  project_slug: code-as-world
+  event_type: material_update
+  occurred_at: '2026-10-08T03:53:57Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-48c577a3c887b8aa
+  homepage: true
+- id: first-openfilm
+  project_slug: openfilm
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-2c2e73cbc6f82f1b
+  homepage: true
+- id: evt-7619e28386bb6252
+  project_slug: silentagenthub
+  event_type: material_update
+  occurred_at: '2026-09-28T16:41:16Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-c5b08f0472a2ea76
+  homepage: true
+- id: evt-85e4a61203aca5a4
+  project_slug: ai-promo-video-maker
+  event_type: material_update
+  occurred_at: '2026-10-09T08:44:30Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-2d131fe832a7ff7e
+  homepage: true
+- id: evt-68737e5bed7dd17c
+  project_slug: blender-game-skills
+  event_type: material_update
+  occurred_at: '2026-09-24T00:08:40Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e20d476f73a46c9c
+  homepage: true
+- id: evt-e5a71f1c041d486f
+  project_slug: reelmimic
+  event_type: material_update
+  occurred_at: '2026-09-28T19:14:59Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-6303706bf0935bc9
+  homepage: true
+- id: evt-0022b43178dafde5
+  project_slug: motion-video-kit
+  event_type: material_update
+  occurred_at: '2026-09-27T14:11:14Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e26299384f43a8f9
+  homepage: true
+- id: evt-f79c375383dcf1ea
+  project_slug: scm
+  event_type: material_update
+  occurred_at: '2026-10-03T16:11:55Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-59e06083c762133c
+  homepage: true
+- id: evt-85f9c78e5abf0544
+  project_slug: bridgeclip
+  event_type: material_update
+  occurred_at: '2026-09-24T17:09:04Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-eab27450866480d3
+  homepage: true
+- id: evt-3984ff0be298b693
+  project_slug: muse2api
+  event_type: material_update
+  occurred_at: '2026-09-25T14:22:55Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8cbdc6beae45b3dd
+  homepage: true
+- id: evt-6b52184603927598
+  project_slug: awesome-ai-motion
+  event_type: material_update
+  occurred_at: '2026-09-27T08:53:43Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-910c46f619a12926
+  homepage: true
+- id: evt-bc9a1e0733f7291b
+  project_slug: short-video-maker
+  event_type: material_update
+  occurred_at: '2026-10-05T18:35:21Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-35bf3f50f4e93f04
+  homepage: true
+- id: evt-9cd59dffb6ad1406
+  project_slug: seecut
+  event_type: material_update
+  occurred_at: '2026-09-25T11:48:27Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-39d2d1983e519545
+  homepage: true
+- id: evt-d8d56dc70fd57e0c
+  project_slug: adu-motion-video
+  event_type: material_update
+  occurred_at: '2026-09-28T19:29:18Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d092cedd34c98669
+  homepage: true
+- id: evt-332b0e0ed8f26b2c
+  project_slug: tern
+  event_type: material_update
+  occurred_at: '2026-09-24T17:31:47Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-73b0455e8e4b9c4a
+  homepage: true
+- id: evt-ec082837e039300f
+  project_slug: super-simple-software-factory
+  event_type: material_update
+  occurred_at: '2026-09-24T15:00:59Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-1a3bfd993e303c35
+  homepage: true
+- id: evt-8bb4992344d67da4
+  project_slug: bang-story
+  event_type: material_update
+  occurred_at: '2026-10-02T05:18:21Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5d553fb55df2176d
+  homepage: true
+- id: evt-a7d41faa2510e803
+  project_slug: motionmaxxing
+  event_type: material_update
+  occurred_at: '2026-10-06T18:18:49Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-486e7b12e36de81f
+  homepage: true
+- id: evt-12ab953cc9f93baf
+  project_slug: vocaloid-style-mv-pipeline
+  event_type: material_update
+  occurred_at: '2026-10-04T10:23:26Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-910caf94f115c396
+  homepage: true
+- id: evt-74f47a3ad84d51a5
+  project_slug: awesome-ai-motion-2
+  event_type: material_update
+  occurred_at: '2026-09-30T09:40:42Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0c3a9c77c1143102
+  homepage: true
+- id: evt-3b0a016d782991f5
+  project_slug: ghost-editor
+  event_type: material_update
+  occurred_at: '2026-09-24T02:02:11Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-c8f01d709b201501
+  homepage: true
+- id: evt-43f4b42a5a9f970a
+  project_slug: opencardboard
+  event_type: material_update
+  occurred_at: '2026-10-04T09:23:43Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-2183b9ee9cf95fd8
+  homepage: true
+- id: evt-67c8a9db6ba18ed3
+  project_slug: scam-with-your-friends-web
+  event_type: material_update
+  occurred_at: '2026-10-09T05:27:48Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-257b9ed736269199
+  homepage: true
+- id: evt-7cfbcdc8cce663b9
+  project_slug: ai-voice-breath-kiss-water
+  event_type: material_update
+  occurred_at: '2026-09-30T21:00:41Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-05d76d4f69387f9c
+  homepage: true
+- id: first-onair
+  project_slug: onair
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-9e23f91612a96ace
+  homepage: true
+- id: evt-7413ee3317466f6e
+  project_slug: wayvoice
+  event_type: material_update
+  occurred_at: '2026-10-02T19:53:06Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-eaef88250e3e651d
+  homepage: true
+- id: evt-69728f3127d385e1
+  project_slug: blurt-2
+  event_type: material_update
+  occurred_at: '2026-09-25T09:59:27Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-46871be639cfafb1
+  homepage: true
+- id: evt-4538e263d9986b22
+  project_slug: ai-voice-breath-kiss-water-2
+  event_type: material_update
+  occurred_at: '2026-10-05T21:00:25Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d0713676ea9ee9a9
+  homepage: true
+- id: evt-f2bd1b20011b938b
+  project_slug: seekter
+  event_type: material_update
+  occurred_at: '2026-09-22T09:30:26Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-22d05df6f94098e5
+  homepage: true
+- id: evt-2c602f8df3f2d6a9
+  project_slug: rembrandt
+  event_type: material_update
+  occurred_at: '2026-09-29T18:25:04Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0ca9732ca9a13298
+  homepage: true
+- id: evt-6e2f87e6364d6ca0
+  project_slug: hatoba
+  event_type: material_update
+  occurred_at: '2026-10-07T23:43:36Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-6a34284bf9d75484
+  homepage: true
+- id: first-ai-writer
+  project_slug: ai-writer
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-6604ad2a0414ca8f
+  homepage: true
+- id: evt-a91c465995cb6233
+  project_slug: ag-login-inject
+  event_type: material_update
+  occurred_at: '2026-09-25T09:16:30Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-2aa863e8cee0e8b9
+  homepage: true
+- id: evt-2376e70896fd83fa
+  project_slug: owlmic
+  event_type: material_update
+  occurred_at: '2026-09-25T20:28:23Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a98d900049ddb91f
+  homepage: true
+- id: evt-a4170fa005a09fe7
+  project_slug: artex-ko
+  event_type: material_update
+  occurred_at: '2026-10-03T14:49:48Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-dc3144bc1115ea5a
+  homepage: true
+- id: evt-90701825a245f8b1
+  project_slug: offensive-security-ai-models
+  event_type: material_update
+  occurred_at: '2026-09-27T20:36:30Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-81c0a8f52f7caa15
+  homepage: true
+- id: evt-0ec6dceff66cf802
+  project_slug: openqodex
+  event_type: material_update
+  occurred_at: '2026-10-02T06:19:06Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-886b02931064a4b7
+  homepage: true
+- id: evt-4086d10033d75f7d
+  project_slug: hello-agent-system
+  event_type: material_update
+  occurred_at: '2026-09-27T01:18:37Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-60a6b0f9188687e2
+  homepage: true
+- id: first-artex-ko-plus
+  project_slug: artex-ko-plus
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-708f47edde20582f
+  homepage: true
+- id: evt-fdc0ec01bca6a279
+  project_slug: ai-security-book
+  event_type: material_update
+  occurred_at: '2026-09-26T17:49:17Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a53d50e659439c7a
+  homepage: true
+- id: evt-243fc719e1f8d577
+  project_slug: deployment-checklist
+  event_type: material_update
+  occurred_at: '2026-09-26T00:58:58Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-3ad8482a373648d1
+  homepage: true
+- id: evt-960f8314729239d7
+  project_slug: dsh-our-free-model-2
+  event_type: material_update
+  occurred_at: '2026-09-24T16:17:19Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b2c264bed0f02698
+  homepage: true
+- id: evt-52e4e3581f9c65a9
+  project_slug: dsh-ops
+  event_type: material_update
+  occurred_at: '2026-10-08T07:09:25Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fc8979654855a515
+  homepage: true
+- id: evt-ba1c32976308478b
+  project_slug: dsh-jev-plugin
+  event_type: material_update
+  occurred_at: '2026-09-27T15:36:12Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f5e55e9a4c725aea
+  homepage: true
+- id: evt-97b40f67b7d75032
+  project_slug: dsh-550c-boot
+  event_type: material_update
+  occurred_at: '2026-09-28T15:47:54Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-59d2ae3c64e42c08
+  homepage: true
+- id: evt-b68ea27e1decae77
+  project_slug: dsh-wechat
+  event_type: material_update
+  occurred_at: '2026-10-07T10:01:56Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-902257596a02c37c
+  homepage: true
+- id: evt-9ab4e0c6fe37f436
+  project_slug: dsh-auto-memory
+  event_type: material_update
+  occurred_at: '2026-09-22T12:05:34Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-c6768bc3368f6894
+  homepage: true
+- id: evt-0326f257f8bc0691
+  project_slug: dsh-codex-effort-slider
+  event_type: material_update
+  occurred_at: '2026-10-04T12:33:41Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f5f68088cb447a96
+  homepage: true
+- id: evt-e52c0fbecdf976c5
+  project_slug: rustdsh
+  event_type: material_update
+  occurred_at: '2026-10-04T06:05:05Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e69b3de2d4995c05
+  homepage: true
+- id: evt-d388904dd87f13d8
+  project_slug: dsh-browser-crossplatform
+  event_type: material_update
+  occurred_at: '2026-10-02T23:07:34Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a8f6138a8a5794d4
+  homepage: true
+- id: evt-e955d9d8201e6434
+  project_slug: miliastra-beyond-simulator-2
+  event_type: material_update
+  occurred_at: '2026-09-23T15:18:38Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-66265d2d69f1db03
+  homepage: true
+- id: evt-de8c326f156a7ec4
+  project_slug: fujiang-dsh
+  event_type: material_update
+  occurred_at: '2026-10-03T15:26:24Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-bd7d104bfcb869a4
+  homepage: true
+- id: evt-7ed8f659ee9cd90a
+  project_slug: deepseek-bot
+  event_type: material_update
+  occurred_at: '2026-10-07T15:37:36Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4695440df52ed60a
+  homepage: true
+- id: evt-dbc97cf2d97062d4
+  project_slug: brewreel
+  event_type: material_update
+  occurred_at: '2026-09-26T01:52:24Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-31d1ba1e7730ddc2
+  homepage: true
+- id: evt-8c7a5b3eecbc16b2
+  project_slug: dsh-context
+  event_type: material_update
+  occurred_at: '2026-10-04T12:30:42Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-3f27a22732e71b3f
+  homepage: true
+- id: evt-6e26f9463875cf9c
+  project_slug: dsh-model-fusion
+  event_type: material_update
+  occurred_at: '2026-09-27T08:41:06Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-885fb0908553540a
+  homepage: true
+- id: evt-d28cd72bf6feeec2
+  project_slug: qiaomu-rss-dsh
+  event_type: material_update
+  occurred_at: '2026-09-30T02:15:59Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-9ccf6dc2926a99e8
+  homepage: true
+- id: evt-19ff33db72e3e189
+  project_slug: aihot
+  event_type: material_update
+  occurred_at: '2026-09-28T23:40:05Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-1950f3f9b7407e98
+  homepage: true
+- id: evt-30cdcd11e919954e
+  project_slug: universal-modder
+  event_type: material_update
+  occurred_at: '2026-09-30T05:00:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-932023d2acf4c056
+  homepage: true
+- id: evt-38095eb02f4a05bb
+  project_slug: shaders
+  event_type: material_update
+  occurred_at: '2026-09-29T16:36:26Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-67c7dffd4ee91a12
+  homepage: true
+- id: evt-b651e8609fcd9bbd
+  project_slug: lcu
+  event_type: material_update
+  occurred_at: '2026-09-22T15:08:18Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-6d79fedb6d26b195
+  homepage: true
+- id: evt-8d9927d065bdafcf
+  project_slug: solvecraft
+  event_type: material_update
+  occurred_at: '2026-10-07T18:57:48Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-04dd4165f392ee59
+  homepage: true
+- id: evt-cded75805dc82535
+  project_slug: tulpa
+  event_type: material_update
+  occurred_at: '2026-09-26T10:23:53Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5ffd80e082354c02
+  homepage: true
+- id: evt-124878f667d1124d
+  project_slug: claude-code-pro-course
+  event_type: material_update
+  occurred_at: '2026-09-30T12:15:37Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d52a07856c07610a
+  homepage: true
+- id: evt-f471f7b4f6e31b3d
+  project_slug: agentenv-framework
+  event_type: material_update
+  occurred_at: '2026-09-24T18:52:20Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f9f993b81c46bb99
+  homepage: true
+- id: evt-da4c0ce2b4188df4
+  project_slug: context-attachment-manager
+  event_type: material_update
+  occurred_at: '2026-09-24T05:00:09Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-2c172bbb3621eda4
+  homepage: true
+- id: evt-b52ce8474fc64194
+  project_slug: syncso
+  event_type: material_update
+  occurred_at: '2026-09-23T23:27:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-78b2b22af6f54a60
+  homepage: true
+- id: first-mcd-coupon-strategist
+  project_slug: mcd-coupon-strategist
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0556f1716edb1589
+  homepage: true
+- id: evt-4eb650dced22cbb9
+  project_slug: roqer
+  event_type: material_update
+  occurred_at: '2026-09-25T11:33:22Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-6a9ed4ea4b69a99b
+  homepage: true
+- id: evt-ade101ce6f7accfd
+  project_slug: qiaomu-codex-imagegen
+  event_type: material_update
+  occurred_at: '2026-10-04T08:47:02Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e2cde147a5a8db24
+  homepage: true
+- id: evt-1d57e752205a8ca8
+  project_slug: kaletacms
+  event_type: material_update
+  occurred_at: '2026-09-24T16:08:57Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ab687c758239f7d0
+  homepage: true
+- id: first-awesome-reverse-engineering
+  project_slug: awesome-reverse-engineering
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d98382303d1a1b2c
+  homepage: true
+- id: evt-2a0e69cf4e05a8e8
+  project_slug: raw-cli
+  event_type: material_update
+  occurred_at: '2026-09-25T16:18:09Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fe928ee320244ab1
+  homepage: true
+- id: first-mcd-party-officer
+  project_slug: mcd-party-officer
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b810f02b62d22e8a
+  homepage: true
+- id: evt-97bda0ff61b0a820
+  project_slug: lemo-opuscar
+  event_type: material_update
+  occurred_at: '2026-09-26T10:10:41Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-569025a15f58ae08
+  homepage: true
+- id: evt-80f27ac3aa94c9ac
+  project_slug: golive-skill
+  event_type: material_update
+  occurred_at: '2026-09-23T13:37:26Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-98e21d37015fd76e
+  homepage: true
+- id: evt-6c8f9d1b0aed2138
+  project_slug: awesome-grokbot
+  event_type: material_update
+  occurred_at: '2026-09-22T02:22:54Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-cf56ecd28106664e
+  homepage: true
+- id: evt-45f228eb4a878908
+  project_slug: mortiflix-oss
+  event_type: material_update
+  occurred_at: '2026-10-05T15:15:13Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-9f1a0bbf098546ba
+  homepage: true
+- id: evt-401c76b05d5b2242
+  project_slug: agent-smith
+  event_type: material_update
+  occurred_at: '2026-09-30T15:58:32Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-66f0f2e5c793886f
+  homepage: true
+- id: evt-ed01134e49f6b6da
+  project_slug: open-instinct
+  event_type: material_update
+  occurred_at: '2026-10-03T20:07:59Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fac6fae7d41dd31e
+  homepage: true
+- id: evt-32f568a9883e002e
+  project_slug: bops
+  event_type: material_update
+  occurred_at: '2026-10-06T14:45:00Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5a80b962d418ce8a
+  homepage: true
+- id: first-robot-heads
+  project_slug: robot-heads
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ae6eb418168ea39d
+  homepage: true
+- id: evt-2f3d791eb22e6ede
+  project_slug: zcodium
+  event_type: material_update
+  occurred_at: '2026-09-23T21:53:06Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f75eadda06f2b92f
+  homepage: true
+- id: first-claude-code-mods
+  project_slug: claude-code-mods
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-366347638b22f114
+  homepage: true
+- id: evt-3bc7a48f1211148e
+  project_slug: autoloom
+  event_type: material_update
+  occurred_at: '2026-09-30T12:40:15Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-67290790446ff1a3
+  homepage: true
+- id: evt-e8299c4e247fc1a3
+  project_slug: paragravity
+  event_type: material_update
+  occurred_at: '2026-09-22T09:51:33Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ba4f7b07020483fb
+  homepage: true
+- id: evt-346ee4a3e0271eb0
+  project_slug: vibestart
+  event_type: material_update
+  occurred_at: '2026-10-04T02:36:55Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-9c2fda75362abc7f
+  homepage: true
+- id: evt-0cc2ae88f1a03191
+  project_slug: first-pass
+  event_type: material_update
+  occurred_at: '2026-09-25T15:45:56Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f3802d3be791ee29
+  homepage: true
+- id: evt-5735e466e11df6f6
+  project_slug: ctx-handoff-mod
+  event_type: material_update
+  occurred_at: '2026-10-02T21:33:58Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-971dbd54168a798a
+  homepage: true
+- id: evt-3d64b85087fc6ca1
+  project_slug: creditdaddy
+  event_type: material_update
+  occurred_at: '2026-09-23T08:50:53Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-396195243500e1d1
+  homepage: true
+- id: first-dotpals
+  project_slug: dotpals
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b3195729fd7000b9
+  homepage: true
+- id: evt-fc40c53984d899de
+  project_slug: vectra-core
+  event_type: material_update
+  occurred_at: '2026-10-04T17:54:41Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0f17f4658be7fcaf
+  homepage: true
+- id: evt-b5191a5da75cf390
+  project_slug: dioramas
+  event_type: material_update
+  occurred_at: '2026-09-30T00:07:56Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-44f89d9a0ecf3264
+  homepage: true
+- id: evt-926aca2c60dd3adb
+  project_slug: dmad
+  event_type: material_update
+  occurred_at: '2026-09-29T04:47:19Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-2a28d44e4b9c3098
+  homepage: true
+- id: evt-2a4566ed8dea4118
+  project_slug: heiss-ui
+  event_type: material_update
+  occurred_at: '2026-09-22T19:23:08Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5458750c16b27aa1
+  homepage: true
+- id: evt-bdb10add9b03b431
+  project_slug: scroll-studio
+  event_type: material_update
+  occurred_at: '2026-09-28T17:46:23Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a6e4fc68d697b93d
+  homepage: true
+- id: evt-d4c4b9056df29906
+  project_slug: deepseek-harness
+  event_type: material_update
+  occurred_at: '2026-09-30T06:28:16Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-517f8bf37a44e10f
+  homepage: true
+- id: evt-71a10118c5712e37
+  project_slug: deepseek-harness
+  event_type: material_update
+  occurred_at: '2026-09-30T06:27:22Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-51f8badd4e158c96
+  homepage: true
+- id: evt-bacc578513f9e421
+  project_slug: deepgemm-ascend
+  event_type: material_update
+  occurred_at: '2026-09-29T15:49:55Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a32e080674bec15c
+  homepage: true
+- id: evt-bedaf445fb989576
+  project_slug: math
+  event_type: material_update
+  occurred_at: '2026-10-06T21:47:02Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-1308fb810ccd5d13
+  homepage: true
+- id: evt-884d05a9e36b459a
+  project_slug: sign-in-with-chatgpt-devkit
+  event_type: material_update
+  occurred_at: '2026-09-29T01:43:11Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-bad72db4abbab513
+  homepage: true
+- id: evt-5ff545ca4f35ab44
+  project_slug: mcp-extensions
+  event_type: material_update
+  occurred_at: '2026-09-29T00:45:42Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d0d81c3c23fc5e2c
+  homepage: true
+- id: evt-fbb1c5a9e9412855
+  project_slug: oss-scanner
+  event_type: material_update
+  occurred_at: '2026-10-08T17:25:19Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-3dab542a0edb23b2
+  homepage: true
+- id: evt-1b52ba29e298b811
+  project_slug: claude-code-playground
+  event_type: material_update
+  occurred_at: '2026-09-25T20:16:50Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b13d6b545a829548
+  homepage: true
+- id: first-openai-openai-python-v3290
+  project_slug: openai-openai-python-v3290
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-3edbff6c3509de12
+  homepage: true
+- id: first-ollama-ollama-v0403
+  project_slug: ollama-ollama-v0403
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:35Z'
+  discovered_at: '2026-10-12T01:20:35Z'
+  signals:
+  - release
+  - open_source
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4d130301de296b6b
+  homepage: true
+- id: first-wan22-14b-preview-2
+  project_slug: wan22-14b-preview-2
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:54Z'
+  discovered_at: '2026-10-12T01:20:54Z'
+  signals:
+  - release
+  - open_source
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-eaa09c999e7a7728
+  homepage: true
+- id: first-iris-3b-turbo
+  project_slug: iris-3b-turbo
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:54Z'
+  discovered_at: '2026-10-12T01:20:54Z'
+  signals:
+  - release
+  - open_source
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-6a51f370b25d0a53
+  homepage: true
+- id: first-rise-leaderboard
+  project_slug: rise-leaderboard
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:54Z'
+  discovered_at: '2026-10-12T01:20:54Z'
+  signals:
+  - release
+  - open_source
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-7e3343fd055d2d6d
+  homepage: true
+- id: first-loopvl
+  project_slug: loopvl
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:54Z'
+  discovered_at: '2026-10-12T01:20:54Z'
+  signals:
+  - release
+  - open_source
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a9b10a4a7d18652a
+  homepage: true
+- id: first-open-quantum-challenge
+  project_slug: open-quantum-challenge
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:54Z'
+  discovered_at: '2026-10-12T01:20:54Z'
+  signals:
+  - release
+  - open_source
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-7835d17e3ebd1f4e
+  homepage: true
+- id: first-王的猜想刚刚扩展到四维
+  project_slug: 王的猜想刚刚扩展到四维
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b1627f9b2df2e8f1
+  homepage: true
+- id: first-硅谷ai现状谁有算力谁是爹
+  project_slug: 硅谷ai现状谁有算力谁是爹
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-207c46ae67bf3eaa
+  homepage: true
+- id: first-下架8个月gpt-4o的拯救行动居然还在继续
+  project_slug: 下架8个月gpt-4o的拯救行动居然还在继续
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-436d9cff18eba350
+  homepage: true
+- id: first-deepseek-bot来了民间版dsh装个插件就能用
+  project_slug: deepseek-bot来了民间版dsh装个插件就能用
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-feb0b2fc152d3d85
+  homepage: true
+- id: first-西门子将亮相2026工博会以软硬协同的工业全栈能力推动物理ai加速落地
+  project_slug: 西门子将亮相2026工博会以软硬协同的工业全栈能力推动物理ai加速落地
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0909db3913a8f7c8
+  homepage: true
+- id: first-超清双2亿掌中电影机荣耀magic9-系列正式发布售价4499元起
+  project_slug: 超清双2亿掌中电影机荣耀magic9-系列正式发布售价4499元起
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-962f87f0b9ba5b30
+  homepage: true
+- id: first-24天jev估值翻至75亿美元年度硅谷最爽逆袭了吧
+  project_slug: 24天jev估值翻至75亿美元年度硅谷最爽逆袭了吧
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a600e3cf62de6878
+  homepage: true
+- id: first-nano-banana终于21了4k直出中文进步太明显
+  project_slug: nano-banana终于21了4k直出中文进步太明显
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fcc0e6052ea00134
+  homepage: true
+- id: first-尊界11-月起陆续升级踏板iphone-折叠屏国内预约超-200-万6-个月超千万-claude-账户被封杀-极客早知道
+  project_slug: 尊界11-月起陆续升级踏板iphone-折叠屏国内预约超-200-万6-个月超千万-claude-账户被封杀-极客早知道
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-bfcfb4608c2311ad
+  homepage: true
+- id: first-12-分钟订单破万吉利银河战舰-700要订下新能源越野的新标准
+  project_slug: 12-分钟订单破万吉利银河战舰-700要订下新能源越野的新标准
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-49a76d90e1f33c61
+  homepage: true
+- id: first-ai-math-20-pakistans-solar-hedge-who-controls-computing
+  project_slug: ai-math-20-pakistans-solar-hedge-who-controls-computing
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-79c571d7689478b3
+  homepage: true
+- id: first-will-the-homeview-be-apples-first-smart-home-success
+  project_slug: will-the-homeview-be-apples-first-smart-home-success
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8c262fe2e6e6a6f1
+  homepage: true
+- id: first-48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-p
+  project_slug: 48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-p
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-1eed142b021e4d19
+  homepage: true
+- id: first-can-the-ai-industry-persuade-data-center-opponents-by-gettin
+  project_slug: can-the-ai-industry-persuade-data-center-opponents-by-gettin
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0aa53875a5b7ccc2
+  homepage: true
+- id: first-these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment
+  project_slug: these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-77a137aeea874bbd
+  homepage: true
+- id: first-silicon-valley-is-falling-in-line-with-trumps-attempt-to-ren
+  project_slug: silicon-valley-is-falling-in-line-with-trumps-attempt-to-ren
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-47c8610d038959a1
+  homepage: true
+- id: first-learning-to-use-local-ai-is-exciting-overwhelming-and-frustr
+  project_slug: learning-to-use-local-ai-is-exciting-overwhelming-and-frustr
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:20:56Z'
+  discovered_at: '2026-10-12T01:20:56Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-85ef45e8635de930
+  homepage: true
+- id: first-ant-groups-lingguang-20-enters-limited-beta-as-a-personal-ag
+  project_slug: ant-groups-lingguang-20-enters-limited-beta-as-a-personal-ag
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-c191586a6d60cfb9
+  homepage: true
+- id: first-rejected-by-harvard-and-stanford-19-year-old-raises-usd-10-m
+  project_slug: rejected-by-harvard-and-stanford-19-year-old-raises-usd-10-m
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-c46baa1541e0ad0d
+  homepage: true
+- id: first-meet-zach-yadegari-rejected-by-15-colleges-now-raises-10-mil
+  project_slug: meet-zach-yadegari-rejected-by-15-colleges-now-raises-10-mil
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-60ca76f4d8551bd4
+  homepage: true
+- id: first-i-left-my-200k-job-before-my-business-had-paying-customers-h
+  project_slug: i-left-my-200k-job-before-my-business-had-paying-customers-h
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-2ad0d304d11396ca
+  homepage: true
+- id: first-fuselab-creative-ceo-2027s-real-ai-startups-will-look-like-c
+  project_slug: fuselab-creative-ceo-2027s-real-ai-startups-will-look-like-c
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ce07c5a82b165df9
+  homepage: true
+- id: first-pc-ai-race-intensifies-as-big-tech-joins-local-on-device-pus
+  project_slug: pc-ai-race-intensifies-as-big-tech-joins-local-on-device-pus
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a8206c6e6ffbc5bb
+  homepage: true
+- id: first-monte-carlo-capital-raises-13-million-for-fund-ii-to-invest
+  project_slug: monte-carlo-capital-raises-13-million-for-fund-ii-to-invest
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a8617f74d1f84259
+  homepage: true
+- id: evt-c58414abb09efe1c
+  project_slug: rejected-by-harvard-and-stanford-19-year-old-raises-usd-10-m
+  event_type: material_update
+  occurred_at: '2026-10-11T04:53:23Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - update
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e6b72aae10eba0e8
+  homepage: true
+- id: first-meet-akshat-kannan-and-william-zhang-college-dropouts-who-la-2
+  project_slug: meet-akshat-kannan-and-william-zhang-college-dropouts-who-la-2
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b4ae04ac2395a057
+  homepage: true
+- id: first-bern-based-besso-raises-429-million-to-scale-its-ai-powered
+  project_slug: bern-based-besso-raises-429-million-to-scale-its-ai-powered
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-68b9cc7c08555c6b
+  homepage: true
+- id: first-barcelona-startups-secure-31b-as-venture-capital-surges
+  project_slug: barcelona-startups-secure-31b-as-venture-capital-surges
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4592060698601e76
+  homepage: true
+- id: first-european-startups-push-ai-from-screens-to-factory-floors
+  project_slug: european-startups-push-ai-from-screens-to-factory-floors
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f885d8f2877e5085
+  homepage: true
+- id: first-us-startup-launches-2-per-minute-ai-jesus-video-chat-service
+  project_slug: us-startup-launches-2-per-minute-ai-jesus-video-chat-service
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-af12af5af2f027ea
+  homepage: true
+- id: first-mecka-ai-secures-60m-funding-led-by-sequoia-and-nvidia
+  project_slug: mecka-ai-secures-60m-funding-led-by-sequoia-and-nvidia
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d0ebdf6bcdc53034
+  homepage: true
+- id: first-africa-middle-east-startup-funding-week-41-1052m-raised
+  project_slug: africa-middle-east-startup-funding-week-41-1052m-raised
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-219e53bcb50cb434
+  homepage: true
+- id: first-celebrity-backed-european-startup-deals-reach-millions
+  project_slug: celebrity-backed-european-startup-deals-reach-millions
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b4d388cb06fb00ba
+  homepage: true
+- id: first-leadership-change-might-change-the-case-for-investing-in-gui
+  project_slug: leadership-change-might-change-the-case-for-investing-in-gui
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-817c53af86532eee
+  homepage: true
+- id: first-what-if-everything-changes-tomorrow-a-canadian-company-is-us
+  project_slug: what-if-everything-changes-tomorrow-a-canadian-company-is-us
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0cca964670a2e1b3
+  homepage: true
+- id: first-why-clean-data-matters-more-than-your-next-ai-tool
+  project_slug: why-clean-data-matters-more-than-your-next-ai-tool
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d988711461db40e2
+  homepage: true
+- id: first-inspecting-2000-parts-a-minute-with-ai-powered-eyesedge-ai-s
+  project_slug: inspecting-2000-parts-a-minute-with-ai-powered-eyesedge-ai-s
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-097f056b64958cb3
+  homepage: true
+- id: first-is-taiwan-semiconductor-manufacturing-nysetsm-facing-an-ai-c
+  project_slug: is-taiwan-semiconductor-manufacturing-nysetsm-facing-an-ai-c
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-31d1a5e2adf9ba46
+  homepage: true
+- id: first-misumi-india-fully-deploys-generative-ai-for-customer-aiming
+  project_slug: misumi-india-fully-deploys-generative-ai-for-customer-aiming
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e52839c81720d854
+  homepage: true
+- id: first-gallatin-ai-raises-50m-to-expand-military-logistics-platform
+  project_slug: gallatin-ai-raises-50m-to-expand-military-logistics-platform
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-7581cf6cf37b6c5d
+  homepage: true
+- id: first-consumer-tech-oct-5-9-spacex-expands-wireless-ambitions-amaz
+  project_slug: consumer-tech-oct-5-9-spacex-expands-wireless-ambitions-amaz
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0e366aab558d303f
+  homepage: true
+- id: first-should-you-buy-hold-or-sell-tempus-ai-stock-amid-ai-boom
+  project_slug: should-you-buy-hold-or-sell-tempus-ai-stock-amid-ai-boom
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fa24a3ef11022676
+  homepage: true
+- id: first-ai-translator-test-deepls-94-vs-google-chatgpt-2026
+  project_slug: ai-translator-test-deepls-94-vs-google-chatgpt-2026
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-71dd829a4ba140db
+  homepage: true
+- id: first-trumps-ai-liability-push-opens-blame-game-for-models-gone-ro
+  project_slug: trumps-ai-liability-push-opens-blame-game-for-models-gone-ro
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-edf43531cc94e67a
+  homepage: true
+- id: first-the-future-of-swedish-personal-lines-insurance-distribution
+  project_slug: the-future-of-swedish-personal-lines-insurance-distribution
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-c88ff88dccef4628
+  homepage: true
+- id: first-press-releases-about-ruanyun-edai-technology-inc-ordinary-sh
+  project_slug: press-releases-about-ruanyun-edai-technology-inc-ordinary-sh
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b0e6786dea1f1138
+  homepage: true
+- id: first-neo4js-nyah-macklin-vector-rag-fails-at-counting-knowledge-g
+  project_slug: neo4js-nyah-macklin-vector-rag-fails-at-counting-knowledge-g
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f6c529a036a93af3
+  homepage: true
+- id: evt-6ba2aefd5b5df15f
+  project_slug: rea-tool-connects-claude-code-and-cursor-to-ghidra-and-ida-p
+  event_type: material_update
+  occurred_at: '2026-10-10T20:55:57Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - update
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8654596f1c0b47dc
+  homepage: true
+- id: first-anthropic-names-ph-based-apper-as-select-partner-for-claude
+  project_slug: anthropic-names-ph-based-apper-as-select-partner-for-claude
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-37df3ecc8b53bb66
+  homepage: true
+- id: first-hyderabad-universities-find-new-ai-model-to-help-detect-sap
+  project_slug: hyderabad-universities-find-new-ai-model-to-help-detect-sap
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ecc622b905aa1656
+  homepage: true
+- id: evt-32531da4fd615490
+  project_slug: apps
+  event_type: material_update
+  occurred_at: '2026-10-09T11:16:26Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - update
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-f52e33f3befab74a
+  homepage: true
+- id: first-shopify-ecommerce-product-pages-for-ai-agents-2026-guide
+  project_slug: shopify-ecommerce-product-pages-for-ai-agents-2026-guide
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-85ad7382f6437e00
+  homepage: true
+- id: first-top-app-development-companies-2026
+  project_slug: top-app-development-companies-2026
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-bd415ed59f05646a
+  homepage: true
+- id: first-2-palantir-pltr-stock-alternatives-to-buy-now
+  project_slug: 2-palantir-pltr-stock-alternatives-to-buy-now
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0f4bd9db5fc7a26f
+  homepage: true
+- id: first-text-to-video-ai-for-tech-reviews-and-digital-stories
+  project_slug: text-to-video-ai-for-tech-reviews-and-digital-stories
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-48e3cbcff4a04754
+  homepage: true
+- id: first-anthropic-admits-ai-agents-meddled-with-government-websites
+  project_slug: anthropic-admits-ai-agents-meddled-with-government-websites
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-b6028d54caad0c5f
+  homepage: true
+- id: first-中金棉花糖时代的美国ai
+  project_slug: 中金棉花糖时代的美国ai
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-59391ede7e18bef4
+  homepage: true
+- id: first-美国市场叙事剧烈反转从ai通缩论和美债可控论转向ai挤爆债市贝森特控不住长端利率
+  project_slug: 美国市场叙事剧烈反转从ai通缩论和美债可控论转向ai挤爆债市贝森特控不住长端利率
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-7925833d94b78a0a
+  homepage: true
+- id: first-华尔街早报openai营收落差带崩ai叙事美债拍卖救场难掩市场隐忧
+  project_slug: 华尔街早报openai营收落差带崩ai叙事美债拍卖救场难掩市场隐忧
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4ac44f05b63b2e21
+  homepage: true
+- id: first-semianalysis创始人dylan-patelai基础设施投入被严重低估真正的回报不只来自token
+  project_slug: semianalysis创始人dylan-patelai基础设施投入被严重低估真正的回报不只来自token
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-cfbda2205fc343b2
+  homepage: true
+- id: first-一周连连看两大ai厂商加码教育领域多款ai软件和硬件获融资
+  project_slug: 一周连连看两大ai厂商加码教育领域多款ai软件和硬件获融资
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8920a16c9308c9eb
+  homepage: true
+- id: first-客户已经开始问ai下一个被推荐的会是谁
+  project_slug: 客户已经开始问ai下一个被推荐的会是谁
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8132510251321525
+  homepage: true
+- id: first-工业富联立讯精密卷入337调查ai供电为何成了专利战场
+  project_slug: 工业富联立讯精密卷入337调查ai供电为何成了专利战场
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a60b06fd8287d4ae
+  homepage: true
+- id: first-美国ai算力租赁有多贵现货价格是长协的2倍是云厂商回报门槛的4倍
+  project_slug: 美国ai算力租赁有多贵现货价格是长协的2倍是云厂商回报门槛的4倍
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-afb8bd8b8d3075cc
+  homepage: true
+- id: first-台积电前三季度营收狂飙411ai芯片持续撑起晶圆代工增长
+  project_slug: 台积电前三季度营收狂飙411ai芯片持续撑起晶圆代工增长
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d4f3fcc58629aa2a
+  homepage: true
+- id: first-ai真赚钱了吗传媒大涨5背后一场ai商业淘汰赛正在开始
+  project_slug: ai真赚钱了吗传媒大涨5背后一场ai商业淘汰赛正在开始
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-505798d31f0a16d2
+  homepage: true
+- id: first-万亿估值背后的数字口径游戏openai与anthropic的营收竟然无法直接比较
+  project_slug: 万亿估值背后的数字口径游戏openai与anthropic的营收竟然无法直接比较
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-766c4423dd97ca1c
+  homepage: true
+- id: first-华为ai芯片不够卖了
+  project_slug: 华为ai芯片不够卖了
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ff9ce80a629a658e
+  homepage: true
+- id: first-ai进化速递丨openai预计2026年底年化营收将达700亿美元
+  project_slug: ai进化速递丨openai预计2026年底年化营收将达700亿美元
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-3a4ec12de7cf81c0
+  homepage: true
+- id: first-openai九月末年化收入500亿美元寻求300亿新融资-ai
+  project_slug: openai九月末年化收入500亿美元寻求300亿新融资-ai
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0ee56f559d32d1c0
+  homepage: true
+- id: first-快手可灵ai被传赴港上市还未盈利估值超千亿投资人设下回购条款
+  project_slug: 快手可灵ai被传赴港上市还未盈利估值超千亿投资人设下回购条款
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-85b18e0b48ce50e0
+  homepage: true
+- id: first-聊天机器人劝用户挨饿割伤自己肯塔基州把characterai告了
+  project_slug: 聊天机器人劝用户挨饿割伤自己肯塔基州把characterai告了
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5ee8a1f5a047e82b
+  homepage: true
+- id: first-ai运动硬件公司获数亿b轮融资用体育大模型重构网球自主训练体验-硬氪首发
+  project_slug: ai运动硬件公司获数亿b轮融资用体育大模型重构网球自主训练体验-硬氪首发
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-56f64169674e3856
+  homepage: true
+- id: first-两套营收口径万亿-ai-估值的信息迷雾
+  project_slug: 两套营收口径万亿-ai-估值的信息迷雾
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-35f18eba999cad58
+  homepage: true
+- id: first-24天jev估值翻至75亿美元年度硅谷最爽逆袭了吧-2
+  project_slug: 24天jev估值翻至75亿美元年度硅谷最爽逆袭了吧-2
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-82d7d678129416f0
+  homepage: true
+- id: first-白线日报-nvidia-洽购-reflection-aiai-债务融资较峰值下降-80
+  project_slug: 白线日报-nvidia-洽购-reflection-aiai-债务融资较峰值下降-80
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-14624c9df0ebae2b
+  homepage: true
+- id: first-从会聊天到能干活-这场智能体大赛让ai走进真实产业场景
+  project_slug: 从会聊天到能干活-这场智能体大赛让ai走进真实产业场景
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-39d7bfc31a90f91b
+  homepage: true
+- id: first-深耕ai-京北方第七次入选软件和信息技术服务竞争力百强企业榜单
+  project_slug: 深耕ai-京北方第七次入选软件和信息技术服务竞争力百强企业榜单
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fdcd93558e782b28
+  homepage: true
+- id: first-端侧智能体加速落地mitac-agent-builder企业级ai助手部署研讨会走进贵阳-2
+  project_slug: 端侧智能体加速落地mitac-agent-builder企业级ai助手部署研讨会走进贵阳-2
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-485b6b0ec230e81d
+  homepage: true
+- id: first-腾讯又一款明星产品即将消失
+  project_slug: 腾讯又一款明星产品即将消失
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d6bb457238728fd6
+  homepage: true
+- id: first-fhir-agenteval面向医疗场景的大语言模型智能体可扩展评估框架
+  project_slug: fhir-agenteval面向医疗场景的大语言模型智能体可扩展评估框架
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e98f63ad8b904539
+  homepage: true
+- id: first-ai周观察anthropic发布haiku558月中国智能手机市场继续下滑-行业研究-研报
+  project_slug: ai周观察anthropic发布haiku558月中国智能手机市场继续下滑-行业研究-研报
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-5cd26cf5ee967eaa
+  homepage: true
+- id: first-重磅嘉宾-阿里巴巴千问办公业务发展专家王鹏确认参加waie第十届2026-人工智能产业大会暨ai-智能体产业应用大会
+  project_slug: 重磅嘉宾-阿里巴巴千问办公业务发展专家王鹏确认参加waie第十届2026-人工智能产业大会暨ai-智能体产业应用大会
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a27ae8680c8b1269
+  homepage: true
+- id: first-让ai在车间跑起来炽橙科技用城市级平台破解ai落地难
+  project_slug: 让ai在车间跑起来炽橙科技用城市级平台破解ai落地难
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-6ea0af33bb9756cd
+  homepage: true
+- id: first-青岛新增一家国家级制造业数字化转型促进中心
+  project_slug: 青岛新增一家国家级制造业数字化转型促进中心
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0d0329bd749faa97
+  homepage: true
+- id: first-ai不聊天了争相替你干活全行业all-in多智能体-未来最稀缺的不是会用ai的人是会管理ai的人
+  project_slug: ai不聊天了争相替你干活全行业all-in多智能体-未来最稀缺的不是会用ai的人是会管理ai的人
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-741e4c26afaeb90a
+  homepage: true
+- id: first-gemini-at-work-2026发布会-又一巨头入场智能体进入长任务时代gemini-agent的企业级答案
+  project_slug: gemini-at-work-2026发布会-又一巨头入场智能体进入长任务时代gemini-agent的企业级答案
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-73da73987f66bfbe
+  homepage: true
+- id: evt-8304f29a0657743c
+  project_slug: 2026工业ai平台价值投资指南
+  event_type: material_update
+  occurred_at: '2026-10-10T08:41:00Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - update
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-1885548b8b518789
+  homepage: true
+- id: first-四港智运浙江海港货主无忧智能体上线
+  project_slug: 四港智运浙江海港货主无忧智能体上线
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-1feb77d07520c0c2
+  homepage: true
+- id: first-sophos-借助-openai-daybreak-将威胁调查时间缩短-96
+  project_slug: sophos-借助-openai-daybreak-将威胁调查时间缩短-96
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0dde0094d32fc20a
+  homepage: true
+- id: first-工业具身智能一哥微亿智造冲刺港股
+  project_slug: 工业具身智能一哥微亿智造冲刺港股
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fd01cd9c91684232
+  homepage: true
+- id: first-中信建投-agent越权风险显现关注ai安全产品落地
+  project_slug: 中信建投-agent越权风险显现关注ai安全产品落地
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d00cb8e33abd6d04
+  homepage: true
+- id: first-onebox-正式发布-ai-产品ai-agent-for-hospitality引领酒店智能化新篇章
+  project_slug: onebox-正式发布-ai-产品ai-agent-for-hospitality引领酒店智能化新篇章
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-75ee5921c47ed251
+  homepage: true
+- id: first-ai手机入口战华为做深阿里做广字节做精腾讯做巧
+  project_slug: ai手机入口战华为做深阿里做广字节做精腾讯做巧
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-889a5bd429cec804
+  homepage: true
+- id: first-施耐德电气推出全球首款全软件定义中压开关柜加速ai工厂的部署速度与可拓展性-2
+  project_slug: 施耐德电气推出全球首款全软件定义中压开关柜加速ai工厂的部署速度与可拓展性-2
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0f0163be7d5be96d
+  homepage: true
+- id: first-英伟达dgx-station-为何首推windows版
+  project_slug: 英伟达dgx-station-为何首推windows版
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-79fad98aa4c7ec09
+  homepage: true
+- id: evt-9dfdcd7e109161a4
+  project_slug: 从冲规模到保利润美妆双11要打四场硬仗
+  event_type: material_update
+  occurred_at: '2026-10-09T21:59:00Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - update
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ad9a62b86b403d39
+  homepage: true
+- id: first-google-gemini-agent-整合企业工作但治理才是真正考验
+  project_slug: google-gemini-agent-整合企业工作但治理才是真正考验
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-550069db206579fa
+  homepage: true
+- id: first-开源项目-artiface在浏览器中集中查看本地与服务器的-ai-agent-输出
+  project_slug: 开源项目-artiface在浏览器中集中查看本地与服务器的-ai-agent-输出
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-fe6e10b14fd4c759
+  homepage: true
+- id: first-广东年轻人勇闯全球ai赛场
+  project_slug: 广东年轻人勇闯全球ai赛场
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-d5260531c9d5b9d0
+  homepage: true
+- id: first-努比亚手机怎么样ai智能体专业影像双线出击2026年最值得买的3个理由faq
+  project_slug: 努比亚手机怎么样ai智能体专业影像双线出击2026年最值得买的3个理由faq
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-4e4c0bf617ea5d50
+  homepage: true
+- id: evt-343f3bf12f4549de
+  project_slug: 家用摄像头如何兼顾隐私古尔曼苹果的答案是不录像
+  event_type: material_update
+  occurred_at: '2026-10-10T16:32:24Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - update
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-8482c01fb4e7a2fa
+  homepage: true
+- id: first-记录生生不息的创新力量-2026-年度innoforce-50启动-2
+  project_slug: 记录生生不息的创新力量-2026-年度innoforce-50启动-2
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-cbe7f263d8c31b2b
+  homepage: true
+- id: first-想看ai芯片下一步往哪里走没来上海峰会的人看这篇就够了
+  project_slug: 想看ai芯片下一步往哪里走没来上海峰会的人看这篇就够了
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-1b181a338b6e6606
+  homepage: true
+- id: evt-f8959c205dc5d133
+  project_slug: 教人摆姿势的相机app融资千万
+  event_type: material_update
+  occurred_at: '2026-10-10T06:20:00Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - update
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-0a158b4ed987dee8
+  homepage: true
+- id: first-openai营收预期缩水manus却融资5亿美元ai赛道风向变了
+  project_slug: openai营收预期缩水manus却融资5亿美元ai赛道风向变了
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e2d3b1734e2c375d
+  homepage: true
+- id: first-虎嗅ai100闭门会ai硬件不会走向统一形态长期价值取决于场景理解数据复用与系统整合
+  project_slug: 虎嗅ai100闭门会ai硬件不会走向统一形态长期价值取决于场景理解数据复用与系统整合
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-a584ecb338c770af
+  homepage: true
+- id: first-机器人按摩成门店增长新引擎俏妃ai云智护机器人新一轮招商全面启动
+  project_slug: 机器人按摩成门店增长新引擎俏妃ai云智护机器人新一轮招商全面启动
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-da24ffc32607fac3
+  homepage: true
+- id: first-ai科技打造舒适沐浴海尔热水器销量持续走高-科技快讯
+  project_slug: ai科技打造舒适沐浴海尔热水器销量持续走高-科技快讯
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-e49bad96e637acf5
+  homepage: true
+- id: first-国庆中秋账单里的新信号日均3亿人次出行商品消费绿智领跑
+  project_slug: 国庆中秋账单里的新信号日均3亿人次出行商品消费绿智领跑
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-ddedb0c0ea0e1063
+  homepage: true
+- id: first-吉利智充正式发布单枪峰值22兆瓦引领ai安全快充时代
+  project_slug: 吉利智充正式发布单枪峰值22兆瓦引领ai安全快充时代
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-68be93d971c425a7
+  homepage: true
+- id: first-ai决策模型jev走红typesafe-ai获巨额融资估值达75亿美元-ai资讯-typesafeai-人工智能融资
+  project_slug: ai决策模型jev走红typesafe-ai获巨额融资估值达75亿美元-ai资讯-typesafeai-人工智能融资
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-c794b310e3106656
+  homepage: true
+- id: first-太阳gg官方登录入口ai超高清转播技术首秀重塑观赛体验新范式
+  project_slug: 太阳gg官方登录入口ai超高清转播技术首秀重塑观赛体验新范式
+  event_type: first_discovered
+  occurred_at: '2026-10-12T01:21:03Z'
+  discovered_at: '2026-10-12T01:21:03Z'
+  signals:
+  - release
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-907e7d6c4c036c0d
+  homepage: true
+- id: evt-8b50f570891bcb52
+  project_slug: owlywriter-ai-by-hootsuite-2
+  event_type: material_update
+  occurred_at: '2026-10-12T01:21:07Z'
+  discovered_at: '2026-10-12T01:21:07Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  summary_en: ''
+  evidence_ids:
+  - ev-04b522f8cb9b9b2d
+  homepage: true

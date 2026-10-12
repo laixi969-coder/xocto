@@ -36,16 +36,16 @@ canonical_url: https://github.com/ManfredCh/ai-security-book
 summary: 'A book on generative and embodied AI security — attacks, defenses and engineering verification,
   in Chinese and English. Licence: CC BY-NC-SA 4.0'
 first_seen: '2026-09-26T17:49:17Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ManfredCh/ai-security-book
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 52
+    stars: 50
     forks: 3
     open_issues: 0
   kind: product

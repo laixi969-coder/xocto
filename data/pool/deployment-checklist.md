@@ -36,17 +36,17 @@ canonical_url: https://github.com/PinoyFreeCoder/deployment-checklist
 summary: Language-agnostic pre-deployment checklist for web & mobile apps — security-heavy, with human
   and AI-agent versions.
 first_seen: '2026-09-26T00:58:58Z'
-last_seen: '2026-10-06T02:18:35Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/PinoyFreeCoder/deployment-checklist
-  seen_at: '2026-10-06T02:18:35Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 47
-    forks: 7
+    stars: 48
+    forks: 8
     open_issues: 0
   kind: product
 ---

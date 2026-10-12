@@ -32,16 +32,16 @@ canonical_url: https://github.com/ThetaCursed/TinyLuma
 summary: Fast, native (~8MB) post-processor and batch editor for AI images (Midjourney, Flux, ComfyUI).
   Preserves workflow metadata, Oklab grading, 3D LUTs.
 first_seen: '2026-10-03T05:01:32Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ThetaCursed/TinyLuma
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 44
+    stars: 46
     forks: 4
     open_issues: 0
   kind: product

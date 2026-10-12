@@ -32,18 +32,18 @@ canonical_url: https://github.com/devilcoolyue/agentbox
 summary: Self-hosted browser workspace for Claude Code and Codex CLI, with Docker sessions, terminal,
   files, Git, and usage tracking.
 first_seen: '2026-09-28T03:32:41Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/devilcoolyue/agentbox
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 154
+    stars: 168
     forks: 6
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

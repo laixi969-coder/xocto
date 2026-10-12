@@ -36,17 +36,17 @@ canonical_url: https://kaletacms.com
 summary: Kaleta – an open-source CMS for business websites with a visual page builder, a token design
   system and Claude over MCP
 first_seen: '2026-09-24T16:08:57Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://kaletacms.com
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 110
-    forks: 2
+    stars: 112
+    forks: 3
     open_issues: 0
   kind: product
 ---

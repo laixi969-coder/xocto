@@ -20,7 +20,7 @@ url: https://deepanwadhwa.github.io/OpenDecision/
 canonical_url: https://deepanwadhwa.github.io/OpenDecision
 summary: a 400M zero-shot model makes local decisions, plays Doom
 first_seen: '2026-09-21T14:00:16Z'
-last_seen: '2026-09-22T00:50:21Z'
+last_seen: '2026-10-12T01:20:32Z'
 status: rejected
 sources:
 - hackernews
@@ -28,6 +28,13 @@ sightings:
 - source: hackernews
   url: https://deepanwadhwa.github.io/OpenDecision/
   seen_at: '2026-09-22T00:50:21Z'
+  metrics:
+    points: 6
+    comments: 0
+  kind: product
+- source: hackernews
+  url: https://deepanwadhwa.github.io/OpenDecision/image-examples/
+  seen_at: '2026-10-12T01:20:32Z'
   metrics:
     points: 6
     comments: 0

@@ -23,17 +23,17 @@ url: https://wsj.com/tech/ai/tom-brown-athropic-669005ad
 canonical_url: https://wsj.com/tech/ai/tom-brown-athropic-669005ad
 summary: Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal
 first_seen: '2026-10-11T01:01:01Z'
-last_seen: '2026-10-11T01:01:01Z'
-status: market_context
+last_seen: '2026-10-12T01:20:32Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://wsj.com/tech/ai/tom-brown-athropic-669005ad
-  seen_at: '2026-10-11T01:01:01Z'
+  seen_at: '2026-10-12T01:20:32Z'
   metrics:
-    points: 124
-    comments: 53
+    points: 135
+    comments: 52
   kind: news
 ---
 

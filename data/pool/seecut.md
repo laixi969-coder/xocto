@@ -41,17 +41,17 @@ canonical_url: https://github.com/YeJe-cpu/SeeCut
 summary: 'An AI editor that watches its own cut: talking-head / AI-avatar video → auto-edited short video.
   网感口播精剪：数字人/真人口播 → AI 自动精剪成网感动效短视频 → 可选剪映分层草稿'
 first_seen: '2026-09-25T11:48:27Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/YeJe-cpu/SeeCut
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 264
-    forks: 42
+    stars: 267
+    forks: 43
     open_issues: 0
   kind: product
 ---

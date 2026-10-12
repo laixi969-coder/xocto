@@ -22,17 +22,17 @@ summary: 'Claude Code PRO — полный курс и гайд на русск�
   MCP, плагины, CI. 8 лабораторных, библиотека промптов и готовый starter-kit. Здесь бесплатные курсы  по
   chatgpt -'
 first_seen: '2026-09-30T12:15:37Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://t.me/ai_machinelearning_big_data/10997
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 281
-    forks: 47
+    stars: 287
+    forks: 50
     open_issues: 1
   kind: product
 ---

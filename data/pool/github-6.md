@@ -1,0 +1,71 @@
+---
+slug: github-6
+name: Github
+builder: quxiaojuncuiyue
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://github.com/liliBestCoder/ghost-proxifier-pro
+canonical_url: https://github.com/liliBestCoder/ghost-proxifier-pro
+summary: "写这个工具的起因很简单：平时用终端、AI 客户端或者某些软件，老是不听话不走系统代理。\r\n用全局/TUN 模式吧，装虚拟网卡不说，还容易搞炸本地网络；用老牌 Proxifier 吧，配规则麻烦得要死，多进程软件（像\
+  \ Chrome 这种）还要到处抓子进程。\r\n为了解决“只让某一个软件老老实实走代理”这件小事，我做了 Ghost Proxifier 。主打就是一个：极简、不用动脑子。\r\n\r\n做了哪些省心功能？\r\
+  \n * 把图标拖进去就行：不管是桌面快捷方式还是 .exe ，直接拖进软件窗口，立即接管代理，完全不用手动填规则、查 PID 。\r\n * 自动抓子进程：父进程生出来的子进程（比如浏览器多进程架构、代码编辑器的后台服务），全部自动跟着走代理，不用一个个配。\r\
+  \n * 不装驱动、不改网络：不用装 TUN/TAP 虚拟网卡，也不碰系统全局路由，只在用户态精准拦截你选中的那几个软件，关掉就恢复，绝不搞乱你的网络环境。\r\n * UDP 和防泄漏都做了：支持\
+  \ TCP/UDP 双协议转发；自带防 DNS 泄漏机制，自动把 QUIC 降级为 TCP ，杜绝浏览器通过 UDP 偷偷直连。\r\n * 支持微软商店应用：像 Windows 商店版 ChatGPT\
+  \ 、Claude 这种奇怪路径的软件，也能直接代理，商店自动更新后不失效。\r\n * 后续还会把 charles 和 fiddler 做成插件集成进来或者开发出来更多好用的插件 而且 开放了插件\
+  \ sdk 和插件构建文档，感兴趣的朋友，也可以一起来开发插件。\r\n \r\n怎么用？\r\n * 填好你的上游代理（ HTTP / SOCKS5 都支持）；\r\n * 把想走代理的程序拖进窗口；\r\
+  \n * 搞定，直接开用。\r\n下载 & 开源\r\n * 项目主页： https://github.com/liliBestCoder/ghost-proxifier-pro\r\n * 支持系统：Windows\
+  \ 10 / 11 （ 64 位）\r\n \r\n> \r\n纯个人开发，觉得好用的话就赏个 star 欢迎大家去提建议和 Issue ，轻喷！"
+first_seen: '2026-10-12T01:20:29Z'
+last_seen: '2026-10-12T01:20:29Z'
+status: pending_filter
+sources:
+- v2ex
+sightings:
+- source: v2ex
+  url: https://github.com/liliBestCoder/ghost-proxifier-pro
+  seen_at: '2026-10-12T01:20:29Z'
+  metrics:
+    comments: 20
+  kind: product
+---
+
+# Github
+
+写这个工具的起因很简单：平时用终端、AI 客户端或者某些软件，老是不听话不走系统代理。
+用全局/TUN 模式吧，装虚拟网卡不说，还容易搞炸本地网络；用老牌 Proxifier 吧，配规则麻烦得要死，多进程软件（像 Chrome 这种）还要到处抓子进程。
+为了解决“只让某一个软件老老实实走代理”这件小事，我做了 Ghost Proxifier 。主打就是一个：极简、不用动脑子。
+
+做了哪些省心功能？
+ * 把图标拖进去就行：不管是桌面快捷方式还是 .exe ，直接拖进软件窗口，立即接管代理，完全不用手动填规则、查 PID 。
+ * 自动抓子进程：父进程生出来的子进程（比如浏览器多进程架构、代码编辑器的后台服务），全部自动跟着走代理，不用一个个配。
+ * 不装驱动、不改网络：不用装 TUN/TAP 虚拟网卡，也不碰系统全局路由，只在用户态精准拦截你选中的那几个软件，关掉就恢复，绝不搞乱你的网络环境。
+ * UDP 和防泄漏都做了：支持 TCP/UDP 双协议转发；自带防 DNS 泄漏机制，自动把 QUIC 降级为 TCP ，杜绝浏览器通过 UDP 偷偷直连。
+ * 支持微软商店应用：像 Windows 商店版 ChatGPT 、Claude 这种奇怪路径的软件，也能直接代理，商店自动更新后不失效。
+ * 后续还会把 charles 和 fiddler 做成插件集成进来或者开发出来更多好用的插件 而且 开放了插件 sdk 和插件构建文档，感兴趣的朋友，也可以一起来开发插件。
+ 
+怎么用？
+ * 填好你的上游代理（ HTTP / SOCKS5 都支持）；
+ * 把想走代理的程序拖进窗口；
+ * 搞定，直接开用。
+下载 & 开源
+ * 项目主页： https://github.com/liliBestCoder/ghost-proxifier-pro
+ * 支持系统：Windows 10 / 11 （ 64 位）
+ 
+> 
+纯个人开发，觉得好用的话就赏个 star 欢迎大家去提建议和 Issue ，轻喷！
+
+## 笔记
+
+

@@ -1,0 +1,41 @@
+---
+slug: hyderabad-universities-find-new-ai-model-to-help-detect-sap
+name: Hyderabad universities find new AI model to help detect SAP fraud
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNVG9DT05LY0pxMUVYalR2alZBeWFndkNIN1Q4ZGRHc2lfTkhvdTZIRGxINnJNb09ZVjE0bGxkZDd5SDFnMC1BN1p3alN6Q0FsamN4cjFIRXVpbU81NklUdTRGTGRmX2I1d0d1eTBPQVF4TkUwYXpqQVdGTzNGN3RDb3hiempxbUZGQnRhMU14cVVsbmgzR01CYkNKNUhCYzlqT0tpdUxSbVNEbUY3WGhwcVd4dERETWpvZ1JIUXR2bUVqRUM3OVHSAdMBQVVfeXFMTmx0clA3VnVIeE5YY1l3VThJOEd0SmdEN1JFZGc1REhvRGRadFRTa1ZaSGZVbnBBV0o3d3Q0Z0ZJcXQ1NzZPZXpNYjFYRmJuSVJoRllBb0hvUXhYRnlYMktiYjBBU25pdk5tQmVUZzQ1WXJ0Z1BDY2x2S2NUa1hPdFlEd0ZnWkxFdENQaTdwOFE5bFc5NzI3bWJpek5kMVVOT0hVWTB6Zl82RFVpU1ZWQWhTdUgxNHB0cjNBNGtsa0FwRFpsNElONWQ4ckY4Wm5SLTljOA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNVG9DT05LY0pxMUVYalR2alZBeWFndkNIN1Q4ZGRHc2lfTkhvdTZIRGxINnJNb09ZVjE0bGxkZDd5SDFnMC1BN1p3alN6Q0FsamN4cjFIRXVpbU81NklUdTRGTGRmX2I1d0d1eTBPQVF4TkUwYXpqQVdGTzNGN3RDb3hiempxbUZGQnRhMU14cVVsbmgzR01CYkNKNUhCYzlqT0tpdUxSbVNEbUY3WGhwcVd4dERETWpvZ1JIUXR2bUVqRUM3OVHSAdMBQVVfeXFMTmx0clA3VnVIeE5YY1l3VThJOEd0SmdEN1JFZGc1REhvRGRadFRTa1ZaSGZVbnBBV0o3d3Q0Z0ZJcXQ1NzZPZXpNYjFYRmJuSVJoRllBb0hvUXhYRnlYMktiYjBBU25pdk5tQmVUZzQ1WXJ0Z1BDY2x2S2NUa1hPdFlEd0ZnWkxFdENQaTdwOFE5bFc5NzI3bWJpek5kMVVOT0hVWTB6Zl82RFVpU1ZWQWhTdUgxNHB0cjNBNGtsa0FwRFpsNElONWQ4ckY4Wm5SLTljOA?oc=5
+summary: Hyderabad universities find new AI model to help detect SAP fraud The New Indian Express
+first_seen: '2026-10-12T01:21:03Z'
+last_seen: '2026-10-12T01:21:03Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNVG9DT05LY0pxMUVYalR2alZBeWFndkNIN1Q4ZGRHc2lfTkhvdTZIRGxINnJNb09ZVjE0bGxkZDd5SDFnMC1BN1p3alN6Q0FsamN4cjFIRXVpbU81NklUdTRGTGRmX2I1d0d1eTBPQVF4TkUwYXpqQVdGTzNGN3RDb3hiempxbUZGQnRhMU14cVVsbmgzR01CYkNKNUhCYzlqT0tpdUxSbVNEbUY3WGhwcVd4dERETWpvZ1JIUXR2bUVqRUM3OVHSAdMBQVVfeXFMTmx0clA3VnVIeE5YY1l3VThJOEd0SmdEN1JFZGc1REhvRGRadFRTa1ZaSGZVbnBBV0o3d3Q0Z0ZJcXQ1NzZPZXpNYjFYRmJuSVJoRllBb0hvUXhYRnlYMktiYjBBU25pdk5tQmVUZzQ1WXJ0Z1BDY2x2S2NUa1hPdFlEd0ZnWkxFdENQaTdwOFE5bFc5NzI3bWJpek5kMVVOT0hVWTB6Zl82RFVpU1ZWQWhTdUgxNHB0cjNBNGtsa0FwRFpsNElONWQ4ckY4Wm5SLTljOA?oc=5
+  seen_at: '2026-10-12T01:21:03Z'
+  metrics: {}
+  kind: news
+---
+
+# Hyderabad universities find new AI model to help detect SAP fraud
+
+Hyderabad universities find new AI model to help detect SAP fraud The New Indian Express
+
+## 笔记
+
+

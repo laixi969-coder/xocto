@@ -17,3 +17,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 内容创作与媒体 图像创作者在本地用已有 ComfyUI 工作流出图时填写提示词并查看渲染结果'
+- id: ev-5458750c16b27aa1
+  project_slug: heiss-ui
+  url: https://heiss-ui.vercel.app/
+  title: HEISS-UI
+  published_at: '2026-09-22T19:23:08Z'
+  collected_at: '2026-10-12T01:20:35Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'ComfyUI, without the graph. A calm, local front end for ComfyUI. Bring your own workflows, write
+    a prompt, watch it render. | repository stars: 53'

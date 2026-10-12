@@ -31,16 +31,16 @@ url: https://github.com/AsoBeast/asobeast
 canonical_url: https://github.com/AsoBeast/asobeast
 summary: Open-Source ASO Rank Tracker for App Store and Google Play
 first_seen: '2026-10-11T01:01:01Z'
-last_seen: '2026-10-11T01:01:01Z'
+last_seen: '2026-10-12T01:20:32Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/AsoBeast/asobeast
-  seen_at: '2026-10-11T01:01:01Z'
+  seen_at: '2026-10-12T01:20:32Z'
   metrics:
-    points: 7
+    points: 9
     comments: 0
   kind: product
 ---

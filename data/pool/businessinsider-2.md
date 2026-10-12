@@ -20,17 +20,17 @@ url: https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-deta
 canonical_url: https://businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10
 summary: My personal AI agent posted my bank details on company Slack
 first_seen: '2026-10-11T01:01:01Z'
-last_seen: '2026-10-11T01:01:01Z'
-status: rejected
+last_seen: '2026-10-12T01:20:32Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10
-  seen_at: '2026-10-11T01:01:01Z'
+  seen_at: '2026-10-12T01:20:32Z'
   metrics:
-    points: 60
-    comments: 64
+    points: 63
+    comments: 67
   kind: news
 ---
 

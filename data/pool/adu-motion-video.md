@@ -40,17 +40,17 @@ url: https://github.com/adunext/adu-motion-video
 canonical_url: https://github.com/adunext/adu-motion-video
 summary: 阿杜的 AI 剪辑 Skill，精选由阿杜与 Opus 5.5 制作的动画动效模板。选模板和风格，用 Codex / Claude Code 把口播与素材剪成视频；适合口播、知识讲解，更多类型的模板和全助手适配持续进行中。
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-12T01:20:35Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/adunext/adu-motion-video
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-12T01:20:35Z'
   metrics:
-    stars: 212
-    forks: 25
+    stars: 237
+    forks: 28
     open_issues: 1
   kind: product
 ---

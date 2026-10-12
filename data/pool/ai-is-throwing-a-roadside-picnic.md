@@ -20,17 +20,17 @@ url: https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic
 canonical_url: https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic
 summary: AI Is Throwing a Roadside Picnic
 first_seen: '2026-10-11T01:01:01Z'
-last_seen: '2026-10-11T01:01:01Z'
-status: rejected
+last_seen: '2026-10-12T01:20:32Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic
-  seen_at: '2026-10-11T01:01:01Z'
+  seen_at: '2026-10-12T01:20:32Z'
   metrics:
-    points: 45
-    comments: 45
+    points: 47
+    comments: 50
   kind: news
 ---
 

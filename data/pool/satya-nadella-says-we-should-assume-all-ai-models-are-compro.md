@@ -1,7 +1,7 @@
 ---
 slug: satya-nadella-says-we-should-assume-all-ai-models-are-compro
 name: Satya Nadella says we should assume all AI models are ‘compromised’
-builder: ''
+builder: jonbaer
 category: ''
 summary_zh: 微软 CEO Satya Nadella 于 2026 年 10 月公开表示应假定所有 AI 模型都已被攻破，主张对模型进行隔离、观测并留下防篡改的人类可读证据，同时呼吁及时披露事件、独立审计与可验证数据。这一表态把
   AI 安全与可审计性推向行业议程，意味着 AI 应用在部署与合规交付上可能面临更高的透明度与审计要求（推断）。
@@ -31,15 +31,23 @@ summary: 'In a lengthy post on X , Microsoft''s CEO laid out his views on the da
   from others in the industry: timely incident disclosure, independent audits, verifiable data, and containment.
   It''s on that last point that he appears t … Read the full story at The Verge.'
 first_seen: '2026-10-11T01:01:42Z'
-last_seen: '2026-10-11T01:01:42Z'
-status: market_context
+last_seen: '2026-10-12T01:20:32Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised
   seen_at: '2026-10-11T01:01:42Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised
+  seen_at: '2026-10-12T01:20:32Z'
+  metrics:
+    points: 42
+    comments: 75
   kind: news
 ---
 

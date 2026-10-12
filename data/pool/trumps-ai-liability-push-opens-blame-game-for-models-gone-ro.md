@@ -1,0 +1,41 @@
+---
+slug: trumps-ai-liability-push-opens-blame-game-for-models-gone-ro
+name: Trump’s AI liability push opens blame game for models gone rogue
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOEJwcDh5OVFvYWtaUHdLcW9LUTNOa3BGaGhralRlcDFwU0hmWU1WTks5WVhmY0lNbDA5eXJFVjFCcGJTTWtrZThvZzdnZWRnempVR18xM19UVTNSa24xeHNMX2t4NkRBZ0RjQktZLWtIbG50c0V5cDdfN3dQVVpDXzhhZU9CekVtTzFpdFI5MlhydUJUTGdxNVF5N01rR1ZkRzNNRk5nTVRINUhsS25OVmxfZ1R1SmlMRktrbUNBVXQtNVBqbzNGTnhQakVHZVBLSi14cUxGeE_SAdgBQVVfeXFMTThCcHA4eTlRb2FrWlB3S3FvS1EzTmtwRmhoa2pUZXAxcFNIZllNVk5LOVlYZmNJTWwwOXlyRVYxQnBiU01ra2U4b2c3Z2VkZ3pqVUdfMTNfVFUzUmtuMXhzTF9reDZEQWdEY0JLWS1rSGxudHNFeXA3Xzd3UFVaQ184YWVPQnpFbU8xaXRSOTJYcnVCVExncTVReTdNa0dWZEczTUZOZ01USDVIbEtuTlZsX2dUdUppTEZLa21DQVV0LTVQam8zRk54UGpFR2VQS0oteHFMRnhP?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOEJwcDh5OVFvYWtaUHdLcW9LUTNOa3BGaGhralRlcDFwU0hmWU1WTks5WVhmY0lNbDA5eXJFVjFCcGJTTWtrZThvZzdnZWRnempVR18xM19UVTNSa24xeHNMX2t4NkRBZ0RjQktZLWtIbG50c0V5cDdfN3dQVVpDXzhhZU9CekVtTzFpdFI5MlhydUJUTGdxNVF5N01rR1ZkRzNNRk5nTVRINUhsS25OVmxfZ1R1SmlMRktrbUNBVXQtNVBqbzNGTnhQakVHZVBLSi14cUxGeE_SAdgBQVVfeXFMTThCcHA4eTlRb2FrWlB3S3FvS1EzTmtwRmhoa2pUZXAxcFNIZllNVk5LOVlYZmNJTWwwOXlyRVYxQnBiU01ra2U4b2c3Z2VkZ3pqVUdfMTNfVFUzUmtuMXhzTF9reDZEQWdEY0JLWS1rSGxudHNFeXA3Xzd3UFVaQ184YWVPQnpFbU8xaXRSOTJYcnVCVExncTVReTdNa0dWZEczTUZOZ01USDVIbEtuTlZsX2dUdUppTEZLa21DQVV0LTVQam8zRk54UGpFR2VQS0oteHFMRnhP?oc=5
+summary: Trump’s AI liability push opens blame game for models gone rogue ET Enterprise AI
+first_seen: '2026-10-12T01:21:03Z'
+last_seen: '2026-10-12T01:21:03Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOEJwcDh5OVFvYWtaUHdLcW9LUTNOa3BGaGhralRlcDFwU0hmWU1WTks5WVhmY0lNbDA5eXJFVjFCcGJTTWtrZThvZzdnZWRnempVR18xM19UVTNSa24xeHNMX2t4NkRBZ0RjQktZLWtIbG50c0V5cDdfN3dQVVpDXzhhZU9CekVtTzFpdFI5MlhydUJUTGdxNVF5N01rR1ZkRzNNRk5nTVRINUhsS25OVmxfZ1R1SmlMRktrbUNBVXQtNVBqbzNGTnhQakVHZVBLSi14cUxGeE_SAdgBQVVfeXFMTThCcHA4eTlRb2FrWlB3S3FvS1EzTmtwRmhoa2pUZXAxcFNIZllNVk5LOVlYZmNJTWwwOXlyRVYxQnBiU01ra2U4b2c3Z2VkZ3pqVUdfMTNfVFUzUmtuMXhzTF9reDZEQWdEY0JLWS1rSGxudHNFeXA3Xzd3UFVaQ184YWVPQnpFbU8xaXRSOTJYcnVCVExncTVReTdNa0dWZEczTUZOZ01USDVIbEtuTlZsX2dUdUppTEZLa21DQVV0LTVQam8zRk54UGpFR2VQS0oteHFMRnhP?oc=5
+  seen_at: '2026-10-12T01:21:03Z'
+  metrics: {}
+  kind: news
+---
+
+# Trump’s AI liability push opens blame game for models gone rogue
+
+Trump’s AI liability push opens blame game for models gone rogue ET Enterprise AI
+
+## 笔记
+
+
