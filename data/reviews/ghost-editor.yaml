@@ -423,3 +423,51 @@
     edit and placing captions line by line without covering the face — so users only supply footage and
     a reference to get a finished cut; creators who publish frequently without editing staff would pick
     it for batch output, though output quality and rework remain unverified publicly.'
+- id: req-full-ghost-editor-2026-10-12
+  project_slug: ghost-editor
+  level: full
+  reviewed_at: '2026-10-12T01:54:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播成片剪辑中字幕避脸、节奏套用与参考视频复刻的重复劳动，痛点刚性来自发布节奏被剪辑工时卡住；公开说明已能还原输入素材、动作与成片交付闭环，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-49322c0939d2a85e
+    - ev-4233615e881ffa09
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 63 缓慢增至 69，说明有开发者关注，但无 issue、discussion 或用户评价说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-49322c0939d2a85e
+    - ev-c8f01d709b201501
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：作为 Claude Code / agent skill 形态的开源项目，公开材料未见定价页、付费路径或买方，to C 创作者与 to B 代运营谁付费尚不可知。
+    evidence_ids:
+    - ev-49322c0939d2a85e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只描述 7 种风格与反推参考剪辑的能力，未见成片样例、返工率或人工介入边界，交付能否稳定发生无法核验。
+    evidence_ids:
+    - ev-4233615e881ffa09
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有创作者公开成片样例、使用反馈或部署说明，以核验交付稳定性与持续使用。
+  market: ''
+  job: 口播类短视频创作者或剪辑师在剪一条竖屏成片时，把原始口播素材和一条想模仿的参考视频交给它，按 7 种风格套用节奏、生成不遮脸的字幕并加入动态场景，输出可直接发布的成片。
+  job_en: A talking-head short-video creator or editor, cutting a vertical reel, feeds raw talking-head
+    footage plus a reference video into it to apply one of 7 styles, generate face-safe captions and motion
+    scenes, and output a publish-ready vertical cut.
+  pain: 口播成片的手工剪辑重复且耗时：逐句对齐字幕、避开人脸、套节奏模板、模仿参考视频的剪辑手法，每一步都要在通用剪辑器里手动完成；不解决的后果是发布节奏被剪辑工时卡住。
+  pain_en: 'Hand-editing talking-head reels is repetitive and slow: aligning captions line by line, keeping
+    them off the face, applying a pacing template, and reverse-engineering a reference edit all happen
+    manually in a general editor; the cost of not solving it is that publishing cadence is gated by editing
+    hours.'
+  current_alternative: 通用剪辑软件（如剪映、Premiere、CapCut）手工剪辑，或把素材外包给剪辑师；参考视频的剪辑手法靠人眼拆解后手动复刻。
+  current_alternative_en: Manual editing in general editors such as CapCut, Jianying or Premiere, or outsourcing
+    footage to a human editor; a reference video's edit is reverse-engineered by eye and rebuilt by hand.
+  usage_reason: 推断：相较手工剪辑，它把“拆解参考视频剪辑手法”和“逐句字幕避脸”这两步从人工操作变成一次输入参考视频后自动套用模板，创作者因此不必先学会复刻节奏再逐条对齐字幕；会在需要按固定风格高频出片、又不想养剪辑工时选择它。
+  usage_reason_en: 'Inference: versus manual editing, it turns ''reverse-engineering a reference edit''
+    and ''line-by-line face-safe captioning'' from manual steps into one reference-video input that auto-applies
+    a template, so creators skip learning to replicate pacing and aligning captions by hand; chosen by
+    those who must ship frequently in a fixed style without keeping an editor on staff.'

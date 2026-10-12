@@ -1,0 +1,82 @@
+- id: req-initial-plimsoll-2026-10-12
+  project_slug: plimsoll
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理编写不受信代码时宿主环境的安全隔离与执行痛点，是自动化代理落地的刚需防御层。
+    evidence_ids:
+    - ev-3e7ad9ce9474462a
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅有个位数互动，尚处于极早期发布阶段，缺乏广泛采用与生产环境验证。
+    evidence_ids:
+    - ev-3e7ad9ce9474462a
+  - gate: model
+    status: insufficient
+    reason: 作为开源自托管项目，尚未建立付费企业版或托管服务方案，商业模式未验证。
+    evidence_ids:
+    - ev-3e7ad9ce9474462a
+  - gate: truth
+    status: supported
+    reason: 容器与沙箱隔离技术路径明确且可闭环，能够确定性执行代码并捕获标准输出和异常。
+    evidence_ids:
+    - ev-3e7ad9ce9474462a
+  next_validation: 查阅该项目的架构设计文档、资源限制隔离机制，以及 公开代码仓库 仓库中解决逃逸防范相关的安全测试用例。
+  market: ''
+  job: AI 应用后端工程师在搭建允许智能体编写并运行动态代码的系统时，需要处理不可信代码并安全返回执行结果。
+  job_en: AI backend engineers building agentic systems that write and run dynamic code need to execute
+    untrusted scripts safely and capture outputs.
+  pain: 直接在宿主机或常规容器中运行 AI 编写的代码存在越权访问、死循环或资源耗尽等严重安全风险，搭建定制隔离层成本高。
+  pain_en: Running AI-generated code directly on host machines or standard containers risks unauthorized
+    access and resource exhaustion.
+  current_alternative: 使用 E2B、Modal 等商业云沙箱服务，或手动配置基于 Docker 的一次性容器与网络隔离脚本。
+  current_alternative_en: Using commercial cloud sandboxes like E2B or Modal, or manually maintaining
+    one-off Docker containers with network isolation scripts.
+  usage_reason: 推断开发者选择自托管沙箱是为了在保障数据合规和私有化部署的前提下，避免将代码执行委托给第三方云服务并降低调用开销。
+  usage_reason_en: Developers choose a self-hosted sandbox to keep code execution on-premise for privacy
+    and compliance while avoiding recurring third-party cloud costs.
+- id: req-full-plimsoll-2026-10-12
+  project_slug: plimsoll
+  level: full
+  reviewed_at: '2026-10-12T01:56:05Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部是词典与百科对 plimsoll 一词的释义，未提供该产品解决什么需求、什么痛点、谁在什么场景使用，无法还原用户任务与旧替代方式。
+    evidence_ids:
+    - ev-6b268aac5444ee0a
+    - ev-6d72bb6ed9d29f80
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库 README、部署文档与 issue/discussion，确认其是否提供 AI 代码沙箱的隔离机制、资源配额与安全测试用例。
+  market: ''
+  job: AI 应用后端工程师在让自主代理生成并执行代码时，需要把不可信代码放入隔离环境运行并取回结果。
+  job_en: AI backend engineers running code written by autonomous agents need to execute untrusted code
+    in an isolated environment and retrieve results.
+  pain: 公开材料未提供任何关于该产品用户痛点、使用场景或抱怨的证据；现有证据均为词典与百科对 plimsoll 一词的释义，与 AI 代码沙箱无关。
+  pain_en: Public materials provide no evidence of user pain, usage scenarios, or complaints for this
+    product; all evidence is dictionary and encyclopedia definitions of the word plimsoll, unrelated to
+    AI code sandboxing.
+  current_alternative: 公开材料未披露该产品用户当前使用的替代方式；无法从现有证据还原旧流程。
+  current_alternative_en: Public materials do not disclose current alternatives used by this product's
+    users; the prior workflow cannot be reconstructed from available evidence.
+  usage_reason: 公开材料未提供任何用户选择该产品的理由或采用证据；现有证据仅解释 plimsoll 一词的词典含义，无法支撑使用动机判断。
+  usage_reason_en: Public materials provide no reason why users would choose this product or any adoption
+    evidence; existing evidence only explains the dictionary meaning of the word plimsoll and cannot support
+    a usage rationale.

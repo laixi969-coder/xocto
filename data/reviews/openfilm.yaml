@@ -1,0 +1,87 @@
+- id: req-initial-openfilm-2026-10-12
+  project_slug: openfilm
+  level: initial
+  reviewed_at: '2026-10-12T01:20:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成视频不可回改、脚本到成片缺中间环节的问题，旧替代流程清晰，属工作流推理。
+    evidence_ids:
+    - ev-2c2e73cbc6f82f1b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，缺少创作者评价或成片案例，无法判断是否被持续使用。
+    evidence_ids:
+    - ev-2c2e73cbc6f82f1b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未显示定价或付费路径，买方与收费方式未核验。
+    evidence_ids:
+    - ev-2c2e73cbc6f82f1b
+  - gate: truth
+    status: insufficient
+    reason: 未核验生成质量、可编辑粒度与人工确认边界，交付确定性缺少公开材料支持。
+    evidence_ids:
+    - ev-2c2e73cbc6f82f1b
+  next_validation: 收集该项目的公开演示或仓库 issue，确认生成片段的可编辑粒度与实际成片案例。
+  market: ''
+  job: 内容创作者或剪辑师需要把脚本或素材变成可用的视频片段，并在成片前逐段修改不满意的部分。
+  job_en: Content creators or editors need to turn scripts or footage into usable video clips and revise
+    the parts they dislike before delivery.
+  pain: 生成式视频工具通常只给一次性结果，改一处就要重跑整段，脚本到成片之间缺少可回改的中间环节。
+  pain_en: Generative video tools usually return one-shot results, so changing one part means rerunning
+    the whole clip, and there is no revisable middle step between script and finished cut.
+  current_alternative: Runway、可灵等生成工具配合人工剪辑软件，或让编码代理写脚本再手工拼接。
+  current_alternative_en: Generation tools such as Runway or Kling combined with manual editing software,
+    or having a coding agent write scripts and stitching output by hand.
+  usage_reason: 推断：openfilm 让代理生成后仍能在编辑器里逐段改动，用户不必为一次修改重跑整段生成，因此需要反复改稿的短视频或广告创作者会先试它。
+  usage_reason_en: 'Inference: openfilm keeps agent output editable clip by clip, so users need not rerun
+    a whole generation for one change, which is why short-video or ad creators who iterate on drafts would
+    try it first.'
+- id: req-full-openfilm-2026-10-12
+  project_slug: openfilm
+  level: full
+  reviewed_at: '2026-10-12T01:55:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成视频不可回改、脚本到成片缺中间环节的问题，旧替代流程清晰，属工作流结构推理，非用户口述或采用数据。
+    evidence_ids:
+    - ev-2c2e73cbc6f82f1b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标 145，缺少创作者评价、成片案例或讨论，无法判断是否被持续使用，关注度不等于采用。
+    evidence_ids:
+    - ev-2c2e73cbc6f82f1b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未显示定价或付费路径，买方与收费方式未核验，钱可能来自托管或企业支持，属判断非事实。
+    evidence_ids:
+    - ev-2c2e73cbc6f82f1b
+  - gate: truth
+    status: insufficient
+    reason: 未核验生成质量、可编辑粒度与人工确认边界，交付确定性缺少公开材料支持，承诺能否稳定兑现仍不明。
+    evidence_ids:
+    - ev-2c2e73cbc6f82f1b
+  next_validation: 收集该项目的公开演示或仓库 issue，确认生成片段的可编辑粒度与实际成片案例。
+  market: ''
+  job: 内容创作者或剪辑师在已有编码代理的工作环境里，把脚本或素材交给 openfilm 生成视频片段，再在自带编辑器里逐段修改不满意的部分，直到可以交付。
+  job_en: Content creators or editors working inside an existing coding-agent environment hand scripts
+    or footage to openfilm to generate video clips, then revise the parts they dislike clip by clip in
+    its built-in editor until the cut is deliverable.
+  pain: 生成式视频工具通常只给一次性结果，改一处就要重跑整段，脚本到成片之间缺少可回改的中间环节；公开材料只给出产品定位，未提供创作者抱怨或案例，痛点强度属结构推理。
+  pain_en: Generative video tools usually return one-shot results, so changing one part means rerunning
+    the whole clip, and there is no revisable middle step between script and finished cut; public material
+    only states the product positioning, with no creator complaints or cases, so pain intensity is a structural
+    inference.
+  current_alternative: Runway、可灵等生成工具配合人工剪辑软件，或让编码代理写脚本再手工拼接成片。
+  current_alternative_en: Generation tools such as Runway or Kling combined with manual editing software,
+    or having a coding agent write scripts and stitching output by hand.
+  usage_reason: 推断：openfilm 让代理生成后仍能在编辑器里逐段改动，用户不必为一次修改重跑整段生成，因此需要反复改稿的短视频或广告创作者会先试它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: openfilm keeps agent output editable clip by clip, so users need not rerun
+    a whole generation for one change, which is why short-video or ad creators who iterate on drafts would
+    try it first; public material offers no retention or repeat-use evidence.'

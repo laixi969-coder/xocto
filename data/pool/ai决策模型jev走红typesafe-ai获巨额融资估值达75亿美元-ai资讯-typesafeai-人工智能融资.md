@@ -1,6 +1,6 @@
 ---
 slug: ai决策模型jev走红typesafe-ai获巨额融资估值达75亿美元-ai资讯-typesafeai-人工智能融资
-name: 'AI决策模型Jev走红：TypeSafe AI获巨额融资，估值达75亿美元 ｜#AI资讯# #TypeSafeAI# #人工智能融资#'
+name: TypeSafe AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPVU5SdjRGRnRX
 summary: 'AI决策模型Jev走红：TypeSafe AI获巨额融资，估值达75亿美元 ｜#AI资讯# #TypeSafeAI# #人工智能融资# 搜狐网'
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI决策模型Jev走红：TypeSafe AI获巨额融资，估值达75亿美元 ｜#AI资讯# #TypeSafeAI# #人工智能融资#
+# TypeSafe AI
 
 AI决策模型Jev走红：TypeSafe AI获巨额融资，估值达75亿美元 ｜#AI资讯# #TypeSafeAI# #人工智能融资# 搜狐网
 

@@ -1,0 +1,39 @@
+- id: req-initial-flanori-2026-10-12
+  project_slug: flanori
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是游客想要有目标地探索城市、避免走马观花的需求，痛点真实但强度未知；公开材料未说明谜题内容与交付形式，无法确认是否刚性。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有个位数社区讨论，没有用户评价或场景描述，无法判断游客是否真的会为解谜路线改变原有观光方式。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能是游客按次付费，也可能是酒店或文旅方采购，这属于判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对谜题是否由 AI 生成、路线是否可靠、现场线索是否可确定性交付，安全与人工边界也未说明。
+    evidence_ids: []
+  next_validation: 收集 flanori 官方页面上的路线示例、定价或合作方说明，确认谜题内容与交付方式。
+  market: ''
+  job: 游客在巴黎街头漫步时，需要一条能边走边解谜的探索路线，把零散的观光变成有目标的活动。
+  job_en: A visitor walking the streets of Paris needs a puzzle-driven exploration route that turns scattered
+    sightseeing into a goal-directed activity.
+  pain: 自由行游客常靠地图和攻略自己拼路线，容易走马观花、缺少参与感；现有语音导览和城市漫步 App 多为被动讲解，不产生任务感。
+  pain_en: Independent travellers piece routes together from maps and guides, which leads to passive sightseeing
+    with little engagement; existing audio guides and city-walk apps mostly narrate rather than give tasks.
+  current_alternative: 纸质攻略、地图 App 自排路线、语音导览或线下解谜活动公司组织的付费城市游戏。
+  current_alternative_en: Paper guides, self-planned routes in map apps, audio guides, or paid city games
+    run by offline puzzle-event companies.
+  usage_reason: 推断：它把路线和解谜合并到一个免安装的网页里，游客不必先做攻略再找讲解，打开就能按线索走；但公开材料没有说明 AI 具体生成什么、谜题质量如何，也没有留存或复购证据，因此选择动机仍属推断。
+  usage_reason_en: 'Inference: it merges routing and puzzles into one install-free web page, so a visitor
+    can start following clues without first planning a route or finding a guide; however, public material
+    does not say what the AI generates or how good the puzzles are, and there is no retention or repeat-use
+    evidence, so the reason for choosing it remains an inference.'

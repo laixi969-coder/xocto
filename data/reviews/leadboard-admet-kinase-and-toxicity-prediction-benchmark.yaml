@@ -1,0 +1,39 @@
+- id: req-initial-leadboard-admet-kinase-and-toxicity-prediction-benchmark-2026-10-12
+  project_slug: leadboard-admet-kinase-and-toxicity-prediction-benchmark
+  level: initial
+  reviewed_at: '2026-08-22T22:38:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是模型选型时指标口径不一、复现成本高的具体任务，痛点真实，但公开材料只有一句描述，无法确认覆盖范围与评测是否可复现，价值结构尚不能还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有研究者评价、引用或使用反馈，无法判断卡在感知还是场景环节。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有维护方、资金来源或付费路径信息，是否可持续运营属未知，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对数据集来源、指标定义与更新机制，评测结论的确定性不明。
+    evidence_ids: []
+  next_validation: 收集该基准的官方说明或仓库文档，确认覆盖的数据集与指标定义、维护方及最近一次更新时间。
+  market: ''
+  job: 药物发现团队在挑选 ADMET、激酶或毒性预测模型时，需要一份可横向比较的评测结果来决定采用哪个工具。
+  job_en: A drug discovery team choosing ADMET, kinase or toxicity prediction models needs a comparable
+    evaluation to decide which tool to adopt.
+  pain: 各模型论文指标口径不一，复现成本高，选型容易靠印象或单一论文结论。
+  pain_en: Reported metrics differ across papers, reproduction is costly, and selection often rests on
+    impressions or a single paper.
+  current_alternative: 读论文对比、依赖内部小规模复现，或直接沿用团队熟悉的模型。
+  current_alternative_en: Comparing papers, running small in-house reproductions, or defaulting to the
+    model the team already knows.
+  usage_reason: 推断：如果它把多个工具放在同一基准上跑分，用户省掉的是自己搭评测环境这一步，因此需要对外说明选型依据的研发团队会先参考它；但公开材料只有一句描述，没有维护方、更新频率或使用反馈，无法确认是否被持续采用。
+  usage_reason_en: 'Inference: if it scores multiple tools on one benchmark, it removes the step of building
+    an evaluation harness, so R&D teams that must justify model choices would consult it first; but the
+    public material is one line with no maintainer, update cadence or user feedback, so sustained adoption
+    cannot be confirmed.'

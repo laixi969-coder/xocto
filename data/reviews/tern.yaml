@@ -563,3 +563,47 @@
   usage_reason_en: 'Why users would choose it cannot be judged: there is no pricing, case, review, or
     usage data, and local multimodal search plus FCPXML export are feature statements, not public evidence
     of adoption motive.'
+- id: req-full-tern-2026-10-12
+  project_slug: tern
+  level: full
+  reviewed_at: '2026-10-12T01:57:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决音视频素材检索痛点，但全部证据指向同名自行车品牌、旅行代理软件与鸟类词条，无一条涉及该工具的用户任务、痛点或替代行为，需求与痛点均无法写出。
+    evidence_ids:
+    - ev-5327ac82b17735da
+    - ev-a9b1fa9df97473bf
+    - ev-67ebda87a0d6013d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该工具官方仓库或官网的 README、release 与 issue/discussion，确认其真实产品身份、输入输出流程与是否存在用户使用记录。
+  market: ''
+  job: 视频剪辑师与播客制作人在整理历史音视频素材时，需要按台词、画面文字或视觉场景定位片段并导入剪辑时间线；但当前证据集中指向同名自行车品牌、同名旅行代理软件与鸟类条目，无法确认该本地检索工具的真实用户任务。
+  job_en: Video editors and podcasters need to locate clips by spoken line, on-screen text, or visual
+    scene across archives and bring them into an edit timeline; however, the evidence points to a bicycle
+    brand, a travel-agency SaaS, and a bird, so the actual user task cannot be confirmed.
+  pain: 公开材料未提供任何该工具用户的痛点陈述、抱怨或替代行为记录；现有证据描述的是自行车产品、旅行代理平台与鸟类词条，无法支撑音视频检索耗时或隐私顾虑等痛点。
+  pain_en: No public material records pain points, complaints, or workaround behavior from users of this
+    tool; the evidence describes bicycles, a travel-agency platform, and a bird, so claims about footage-search
+    friction or privacy concerns are unsupported.
+  current_alternative: 无可用证据说明目标用户当前如何绕过该问题；现有替代方式描述只能来自产品功能推断，缺少可引用的公开事实。
+  current_alternative_en: No usable evidence shows how target users currently work around this problem;
+    any alternative description would be pure inference from product features, with no citable public
+    fact.
+  usage_reason: 无法给出使用理由：公开证据未包含任何该工具的用户反馈、客户案例或采用记录，产品能力描述本身不能解释用户为何选择它。
+  usage_reason_en: 'No usage reason can be given: public evidence contains no user feedback, customer
+    case, or adoption record for this tool, and product capability descriptions alone cannot explain why
+    users would choose it.'

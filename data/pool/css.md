@@ -8,12 +8,20 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://css.graphics/cloth/
 canonical_url: https://css.graphics/cloth
 summary: Cloth Physics in 3D CSS
 first_seen: '2026-08-21T12:37:44Z'
 last_seen: '2026-08-22T22:37:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -23,6 +31,7 @@ sightings:
   metrics:
     points: 5
     comments: 1
+  kind: product
 ---
 
 # css

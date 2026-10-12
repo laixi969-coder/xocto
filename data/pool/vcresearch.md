@@ -21,7 +21,7 @@ canonical_url: https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-ero
 summary: Using AI for just 10 minutes erodes your ability to persist at hard things
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

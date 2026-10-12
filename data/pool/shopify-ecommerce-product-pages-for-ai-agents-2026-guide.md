@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxOYTY4bUtJczk5
 summary: 'Shopify Ecommerce Product Pages for AI Agents: 2026 Guide ALM Corp'
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -81,3 +81,42 @@
   usage_reason_en: With no description of task orchestration, input material or deliverables, there is
     no basis to explain which step it removes versus building a multi-agent setup in house, so which users
     would choose it and when cannot be judged.
+- id: req-full-deepseek-bot-2026-10-12
+  project_slug: deepseek-bot
+  level: full
+  reviewed_at: '2026-10-12T01:53:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有机器人团队与群聊的描述，价值关无法成立。
+    evidence_ids:
+    - ev-8ca1cb8f930a8a08
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该仓库的 README 与 issue/discussion，确认它编排什么任务、产出什么交付、是否有真实业务使用记录。
+  market: ''
+  job: 尚未确认具体使用者；从描述推断，可能是搭建多代理系统的开发者，在需要多个长期运行机器人互相通信时，用它组织主机器人与群聊。
+  job_en: The specific user is unconfirmed; the description suggests developers building multi-agent systems
+    who use it to organise main bots and group chats when they need several long-lived bots to message
+    each other.
+  pain: 候选资料未说明任何具体痛点，无法判断缺少多机器人协作会造成什么后果。
+  pain_en: The candidate material states no concrete pain point, so the consequence of lacking multi-bot
+    collaboration cannot be judged.
+  current_alternative: 公开材料未给出旧做法，无法确认此前是自建脚本、使用其他代理框架还是人工分派。
+  current_alternative_en: No prior practice is given; whether teams previously wrote their own scripts,
+    used another agent framework or assigned work manually cannot be confirmed.
+  usage_reason: 缺少任务编排与交付说明，无法解释相较自建多代理方案减少了哪一步负担。
+  usage_reason_en: With no description of task orchestration or deliverables, there is no basis to explain
+    which step it removes versus building a multi-agent setup in house.

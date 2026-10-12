@@ -129,3 +129,49 @@
   usage_reason_en: 'Inference: it moves the layout step from the user into the model''s output, so the
     user receives a finished single page and skips copying and formatting, which is why people who often
     send complex conclusions to non-technical colleagues would try it first.'
+- id: req-full-answer-me-with-html-2-2026-10-12
+  project_slug: answer-me-with-html-2
+  level: full
+  reviewed_at: '2026-10-12T01:52:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复杂结论难以转成可读交付物的问题，痛点是排版这一步反复手工发生，不解决则结论无法直接发给他人；这是基于产品说明的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-13314c994be89e30
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从2523升至2903，说明开发者关注度存在，但星标属关注度证据，无公开材料显示非开发者用户已把它放进日常工作流。
+    evidence_ids:
+    - ev-13314c994be89e30
+    - ev-b1090ab5f6c727d0
+  - gate: model
+    status: insufficient
+    reason: 开源技能本身无公开定价或付费路径，是否有人为版式模板或托管服务付费尚未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-13314c994be89e30
+  - gate: truth
+    status: insufficient
+    reason: 输出是否稳定、版式是否可控、人工确认环节如何安排均无公开材料，交付确定性仍待核验。
+    evidence_ids:
+    - ev-13314c994be89e30
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际用它产出哪类页面、是否出现版式失控或需要人工返工的反馈。
+  market: ''
+  job: 分析师、顾问或研究者在需要向同事或客户解释一个复杂问题时，把零散资料交给 AI，要求产出一页可直接打开、分享的 HTML 说明页。
+  job_en: Analysts, consultants or researchers explaining a complex question to colleagues or clients
+    hand scattered material to an AI and ask for a single HTML explainer page they can open and share
+    directly.
+  pain: 旧流程里 AI 只给一大段聊天文本，用户还得自己复制、排版、截图才能变成能发出去的文档，这一步纯手工且反复发生；不解决就只能转发难以阅读的对话记录。
+  pain_en: In the old flow the AI returns a long chat transcript, and the user must still copy, lay out
+    and screenshot it before it can be sent; this manual step repeats constantly, and skipping it means
+    forwarding an unreadable transcript.
+  current_alternative: 把聊天输出粘进 Word、Notion 或 PPT 手动排版，或直接转发一段对话记录。
+  current_alternative_en: Pasting chat output into Word, Notion or slides and formatting by hand, or forwarding
+    a raw transcript.
+  usage_reason: 推断：它把排版从用户手里移到模型输出环节，用户直接拿到成形的单页文件，省掉复制与排版这一步，因此经常要把复杂结论发给非技术同事的人会先试用；但版式可控性与人工确认环节尚无公开反馈支撑。
+  usage_reason_en: 'Inference: it moves layout from the user into the model''s output, so the user receives
+    a finished single page and skips the copy-and-format step, which is why people who often send complex
+    conclusions to non-technical colleagues would try it first; layout control and human review are not
+    yet supported by public feedback.'

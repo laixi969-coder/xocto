@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxOdjR5YmdkbGVs
 summary: European Startups Push AI From Screens to Factory Floors n24.com.tr
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

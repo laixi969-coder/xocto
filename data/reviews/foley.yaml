@@ -1,0 +1,84 @@
+- id: req-initial-foley-2026-10-12
+  project_slug: foley
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是移动场景下快速记录并归档待办的需求，痛点是打字不便和事后整理，旧做法是语音备忘录加手动分类，结构上成立。
+    evidence_ids:
+    - ev-1e73f976219aa5ce
+  - gate: consensus
+    status: insufficient
+    reason: 只有产品页一句描述，没有用户评价或采用数据，无法判断用户是否真的把语音待办当成日常入口。
+    evidence_ids:
+    - ev-1e73f976219aa5ce
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能是个人订阅或团队席位，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-1e73f976219aa5ce
+  - gate: truth
+    status: insufficient
+    reason: 未说明语音识别准确度、与哪些日历或任务系统打通，以及反问后如何确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-1e73f976219aa5ce
+  next_validation: 收集 Foley 官方页面上的集成列表与定价说明，核对语音待办如何写入日历或任务系统。
+  market: ''
+  job: 个人在走路、开车或双手被占用时，需要把突然想到的待办记下来并安排到日程里。
+  job_en: While walking, driving or with hands occupied, a person needs to capture a sudden to-do and
+    place it on a schedule.
+  pain: 手动打开待办 App 打字在移动场景里很麻烦，语音备忘录记完还要事后整理归类，容易漏掉或堆积。
+  pain_en: Opening a task app and typing is awkward on the move, and voice memos still need later sorting
+    and filing, so items get lost or pile up.
+  current_alternative: 系统语音备忘录、Siri 或 Google Assistant 加提醒事项、纸质便签，事后手动整理。
+  current_alternative_en: System voice memos, Siri or Google Assistant with reminders, paper notes, and
+    manual sorting afterwards.
+  usage_reason: 推断：相较语音备忘录加事后整理，它在录音当下就完成归档和排期，并在信息不足时先反问，省掉事后分类这一步，因此双手被占用的外勤和销售类用户会在移动场景选择它。
+  usage_reason_en: 'Inference: compared with voice memos plus later sorting, it files and schedules at
+    the moment of recording and asks a clarifying question when details are missing, removing the later
+    classification step, so field and sales users with occupied hands would choose it on the move.'
+- id: req-full-foley-2026-10-12
+  project_slug: foley
+  level: full
+  reviewed_at: '2026-10-12T01:54:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决语音记录待办并排期，但全部证据指向同名的人力合规公司、医疗导管与运输服务，无一条描述该语音待办产品的用户任务、痛点或旧替代，需求与痛点均无法写出。
+    evidence_ids:
+    - ev-e2ffafa7b48c9ad0
+    - ev-550d8dc2bcf81616
+    - ev-6f9c7cfa6dd607c3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Foley 语音待办产品的官方站点或应用商店页面，确认其真实产品身份、功能说明与定价，以替换当前指向同名无关公司的证据。
+  market: ''
+  job: 个人在走路、开车或双手被占用时，需要把突然想到的待办用语音记下并安排到日程中。
+  job_en: While walking, driving or with hands occupied, a person needs to capture a sudden to-do by voice
+    and place it on a schedule.
+  pain: 公开材料未提供任何关于该语音待办产品的用户痛点证据；现有证据全部指向同名的人力合规公司、医疗导管与运输服务，无法还原用户任务中的具体痛点。
+  pain_en: No public evidence describes user pain for this voice to-do product; all available evidence
+    points to unrelated same-name companies (background checks, medical catheter, transportation), so
+    the specific pain cannot be reconstructed.
+  current_alternative: 无法从公开证据确认当前替代方式；候选摘要提到的语音备忘录加手动整理属于未获证据支持的描述。
+  current_alternative_en: The current alternative cannot be confirmed from public evidence; the voice-memo-plus-manual-sorting
+    description in the candidate summary is unsupported.
+  usage_reason: 无法判断用户为何选择它：没有该产品的功能文档、用户反馈或采用证据，无法说明相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Why users would choose it cannot be judged: there is no product documentation, user
+    feedback or adoption evidence for this product, so no step-reduction versus the old approach can be
+    explained.'

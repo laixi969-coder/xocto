@@ -437,3 +437,52 @@
     and line-by-line alignment and keeping assets local; developers and maintainers who do not want to
     learn editing and care about assets staying local are the likely first users for release explainer
     videos.'
+- id: req-full-explainroo-2026-10-12
+  project_slug: explainroo
+  level: full
+  reviewed_at: '2026-10-12T01:53:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把文字脚本变成带旁白讲解视频的需求，痛点是手工配音与逐句对轴耗时且质量不稳，旧替代可还原，属工作流结构推理；仓库星标从470升至533说明有人持续关注，但无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-eb2a80ff00955dbe
+    - ev-f4ce4a44edb0b73c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标从470增至533的关注度证据，没有用户评价、客户案例或重复使用记录，无法判断是否形成稳定采用共识。
+    evidence_ids:
+    - ev-eb2a80ff00955dbe
+    - ev-605b6db88f07c39e
+  - gate: model
+    status: insufficient
+    reason: 项目标注免费开源，公开材料未说明任何付费路径或买方；钱可能来自捐赠、托管服务或 to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-eb2a80ff00955dbe
+  - gate: truth
+    status: insufficient
+    reason: 本地语音与画布渲染能否稳定产出可直接发布的成片、人工还需多少确认，公开材料未给出可核对结果，也未说明安全与人工边界。
+    evidence_ids:
+    - ev-eb2a80ff00955dbe
+    - ev-86394471289e436e
+  next_validation: 追踪该仓库的 issue、discussion 与 release notes，核对是否有用户报告把脚本到成片的流程接入真实发布工作流，以及成片是否被直接采用。
+  market: ''
+  job: 开源项目维护者或产品营销人员在发布新版本、新功能时，把一段文字脚本交给本地语音合成（Kokoro）、词级时间对齐（Whisper）和画布渲染器，产出带旁白的讲解视频或产品演示 MP4，用于发布说明和落地页。
+  job_en: Open-source maintainers or product marketers, when shipping a new version or feature, hand a
+    written script to a local voice (Kokoro), word-level timing (Whisper) and a canvas renderer to produce
+    a narrated explainer or product demo MP4 for release notes and landing pages.
+  pain: 公开材料只说明脚本到成片的流水线，未直接记录用户抱怨；从工作流结构推理，旧做法要在剪辑软件里手工配音、逐句对轴、反复导出，单条视频耗数小时且配音质量不稳，这是该任务固有的时间与一致性负担。
+  pain_en: Public material only describes the script-to-MP4 pipeline and records no user complaints; by
+    workflow inference, the old path requires manual voiceover, line-by-line alignment and repeated exports
+    in editing software, costing hours per video with inconsistent voice quality.
+  current_alternative: 用剪辑软件手工配音与对轴，或购买云端 AI 配音与视频生成服务；前者费时，后者按量付费且素材需上传到第三方。
+  current_alternative_en: Manual voiceover and timeline alignment in editing software, or paid cloud AI
+    voiceover and video generation services; the former is slow, the latter is metered and requires uploading
+    assets to a third party.
+  usage_reason: 推断：相较手工剪辑或云端服务，它把配音、词级对齐和渲染合并为本地一条流水线，脚本直接产出成片，省掉手工配音与逐句对轴两步，并让素材不出本地；在意素材不外传、又不愿学剪辑的开发者与开源维护者会在做发布视频时选它。
+  usage_reason_en: 'Inference: versus manual editing or cloud services, it merges voiceover, word-level
+    alignment and rendering into one local pipeline so a script yields a finished cut, removing manual
+    voiceover and line-by-line alignment while keeping assets local; developers and maintainers who care
+    about assets not leaving their machine and do not want to learn editing are the likely choosers.'

@@ -428,3 +428,47 @@
   usage_reason_en: 'No usage reason can be given: public evidence contains no functionality, user feedback,
     or adoption record for this offline agent product, so it cannot explain why users would choose it
     over their existing approach; all evidence points to a same-named kids coding education organization.'
+- id: req-full-icode-2026-10-12
+  project_slug: icode
+  level: full
+  reviewed_at: '2026-10-12T01:54:28Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向儿童编程教育机构与竞赛组织，与候选描述的离线 agent 开发平台无任何对应；连目标用户要完成的任务和痛点都无法从公开事实还原，价值结构无从成立。
+    evidence_ids:
+    - ev-1ab1783cf5426117
+    - ev-f75d6aeaf5cf8ad5
+    - ev-8ac8c3c554119670
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪候选所述离线 agent 平台的官方仓库或官网（如 README、release、issue、discussion），确认其真实产品定位、部署文档与使用场景，以排除与同名儿童编程教育机构混淆。
+  market: ''
+  job: 候选描述称开发者可在离线或数据不能外传的环境中，把本地代码仓库与任务交给离线 agent 与工作流执行，并在终端界面取回结果；但公开证据全部指向面向儿童与青少年的编程教育机构与竞赛组织，没有任何材料说明谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: The candidate describes developers handing local repositories and tasks to an offline agent
+    and workflow in air-gapped or data-restricted settings, retrieving results in a terminal UI; however,
+    all public evidence points to kids' coding schools and a competition nonprofit, with no material showing
+    who handles what material to complete what task.
+  pain: 公开材料只描述儿童编程课程、机器人、游戏设计与竞赛，未记录任何离线 agent 使用者的痛点、发生频率或不解决的后果，因此无法写出该任务对应的具体痛点。
+  pain_en: Public materials only describe kids' coding classes, robotics, game design and competitions;
+    they record no pain, frequency, or consequence for offline-agent users, so no concrete pain for that
+    job can be stated.
+  current_alternative: 公开材料未说明目标用户当前如何完成离线 agent 任务，也未说明它替代了什么旧做法；现有证据指向的是线下编程课程这一完全不同的替代关系。
+  current_alternative_en: Public materials do not show how target users complete offline agent tasks today
+    or what prior practice is replaced; the available evidence points to in-person coding classes, an
+    entirely different substitution.
+  usage_reason: 由于公开证据与候选描述的产品完全对不上，无法说明哪类用户会因产品减少哪一步负担或改善哪项可核对结果而选择它；此处不作推断。
+  usage_reason_en: Because the public evidence does not match the described product at all, no user type
+    can be said to choose it for a specific reduced step or verifiable outcome; no inference is made here.

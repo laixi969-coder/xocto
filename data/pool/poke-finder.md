@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/poke-finder-catch-em-on-the-web
 summary: Catch Pokémon while you browse and complete your Pokédex.
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

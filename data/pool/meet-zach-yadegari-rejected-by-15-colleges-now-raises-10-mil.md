@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOT25JQVpJd0pV
 summary: Meet Zach Yadegari, Rejected By 15 Colleges, Now Raises $10 Million For Persona Bharat Fast
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

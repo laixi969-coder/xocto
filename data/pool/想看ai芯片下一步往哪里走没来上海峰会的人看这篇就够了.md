@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHWEp0cTJZQVk0
 summary: 想看AI芯片下一步往哪里走？没来上海峰会的人，看这篇就够了 电子工程专辑
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

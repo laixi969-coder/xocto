@@ -22,7 +22,7 @@ summary: Curated reverse-engineering tools and learning resources for binaries, 
   and protocols.
 first_seen: '2026-10-12T01:20:35Z'
 last_seen: '2026-10-12T01:20:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

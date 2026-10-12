@@ -160,3 +160,44 @@
   usage_reason_en: Public materials offer no reason users choose it; the available evidence cannot show
     which step of the old workflow it removes or which verifiable result it improves, so why users would
     adopt it cannot be judged.
+- id: req-full-bops-2026-10-12
+  project_slug: bops
+  level: full
+  reviewed_at: '2026-10-12T01:53:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让 AI 机器人代做发邮件、打电话、操作网页系统的事务，但公开材料未说明旧流程耗时、出错后果与不采用代价，痛点强度无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bops.bot 官网的定价页、客户案例与部署文档，确认接入哪些系统、谁付费及交付结果。
+  market: ''
+  job: 小团队的运营或行政人员在处理日常事务时，把需要发邮件、打电话、在网页系统里操作的任务交给 Bops 的多个 AI 机器人，每个机器人有自己的电脑、邮箱和电话号码，最终产出是这些事务被代为执行。
+  job_en: Ops or admin staff at small teams hand off tasks that require emailing, calling, and operating
+    web systems to Bops' AI bots, each with its own computer, email address, and phone number, so those
+    tasks get executed on their behalf.
+  pain: 公开材料只给出产品自述，未说明运营人员当前在这些事务上耗时多少、出错或漏办的后果是什么，痛点强度无法还原。
+  pain_en: Public material only offers the product's own description and does not show how much time ops
+    staff currently spend on these tasks or what happens when they are missed, so pain intensity cannot
+    be reconstructed.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：若机器人能自带邮箱与电话直接执行邮件、通话和网页操作，可省去人工逐条操作与在多个系统间切换的步骤；但现有证据全部指向同名冰淇淋店与 TikTok 话题，与该项目无关，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if bots with their own email and phone can directly execute emailing, calling,
+    and web actions, that could remove manual step-by-step operation and system switching; but all available
+    evidence points to an unrelated frozen-custard shop and a TikTok hashtag, so why users choose it cannot
+    be confirmed.'

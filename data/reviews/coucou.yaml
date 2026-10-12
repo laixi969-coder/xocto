@@ -424,3 +424,47 @@
   usage_reason_en: 'Inference: pinning session status to the screen edge would in theory remove the repeated
     window-switching step, so developers running several sessions may choose it; however, no retention,
     repeat-use, or user-motivation evidence is provided, so the choice causality cannot be confirmed.'
+- id: req-full-coucou-2026-10-12
+  project_slug: coucou
+  level: full
+  reviewed_at: '2026-10-12T01:53:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多会话并行时状态不可见的问题：开发者长时间无人值守跑 Claude Code，只能反复切终端确认是否卡住或报错。公开材料给出常驻刘海/屏幕顶部的交付形式，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-b3dcf3c0bb57d028
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 公开代码仓库 Releases 的版本与签名说明，没有开发者评价、issue 或讨论，无法判断是否已被留在日常工作流；关注度不等于持续采用。
+    evidence_ids:
+    - ev-b3dcf3c0bb57d028
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或买方说明，无法判断收入来自个人买断、订阅还是捐赠；这是判断，不是已验证事实，但不影响价值关成立。
+    evidence_ids:
+    - ev-b3dcf3c0bb57d028
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它读取 Claude Code 会话状态的机制是否可靠、是否会误报，也未说明人工确认边界；签名与公证只证明分发合规，不证明状态判断准确。
+    evidence_ids:
+    - ev-b3dcf3c0bb57d028
+  next_validation: 追踪 公开代码仓库 仓库 Louis-CFM/coucou 的 issue 与 discussion，核对开发者反馈的状态误报、卡顿识别与长期使用情况。
+  market: ''
+  job: 同时运行多个 Claude Code 会话的开发者，在长时间无人值守跑任务时，需要在不切回终端窗口的情况下确认每个会话是否仍在运行、卡住或报错。
+  job_en: Developers running several Claude Code sessions at once, during long unattended runs, need to
+    confirm whether each session is still running, stuck, or failing without switching back to the terminal
+    window.
+  pain: 代理会话运行时间长且无人值守，开发者只能反复切回终端查看输出，容易漏掉中断或长时间无输出；公开材料只给出产品定位，未提供用户抱怨或误报反馈。
+  pain_en: Agent sessions run long and unattended, so developers repeatedly switch back to the terminal
+    and can miss interruptions or long silences; public material only states the product positioning,
+    with no user complaints or false-alarm feedback.
+  current_alternative: 目前主要靠手动切换终端窗口、翻看日志输出，或依赖代理自身在终端里的提示。
+  current_alternative_en: Today this is mostly done by manually switching terminal windows, reading log
+    output, or relying on the agent's own terminal prompts.
+  usage_reason: 推断：把会话状态常驻在 macOS 刘海或 Windows 屏幕顶部，省去反复切换终端这一步，因此同时跑多个会话的开发者可能选择它；公开材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: pinning session status to the macOS notch or the top of the Windows screen
+    removes the repeated window-switching step, so developers running several sessions may choose it;
+    no retention or repeat-use evidence is provided in the public material.'

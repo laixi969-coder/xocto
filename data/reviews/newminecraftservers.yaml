@@ -1,0 +1,85 @@
+- id: req-initial-newminecraftservers-2026-10-12
+  project_slug: newminecraftservers
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决服务器人气数据真伪难辨的问题，但材料未说明原先谁如何识别刷量、误判代价多大，痛点无法还原。
+    evidence_ids:
+    - ev-13d67ec82755b579
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句简介，无用户评价、案例或使用数据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-13d67ec82755b579
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；可能向服务器托管方或投放方收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-13d67ec82755b579
+  - gate: truth
+    status: insufficient
+    reason: 无法核对检测准确率、误判处理与人工复核边界，也未见数据来源与合规说明。
+    evidence_ids:
+    - ev-13d67ec82755b579
+  next_validation: 收集该产品官网或产品页的定价与功能说明，确认伪造检测依据哪些数据、输出何种可核对结果。
+  market: ''
+  job: Minecraft 服务器运营者或找服玩家在浏览服务器列表、评估某台服务器是否值得加入或投放时，需要判断其在线人数与人气数据是否被刷量或伪造。
+  job_en: Minecraft server operators or players browsing server lists and deciding whether a server is
+    worth joining or advertising on need to judge whether its player counts and popularity data are inflated
+    or spoofed.
+  pain: 公开材料只给出发现、分析与伪造检测三个词，未说明原先玩家或运营者如何识别刷量、误判会造成什么后果，痛点缺少事实支撑。
+  pain_en: Public material only lists discovery, analytics and spoof detection; it does not say how players
+    or operators previously spotted inflation or what misjudgment costs them, so the pain lacks factual
+    support.
+  current_alternative: 推断：用户目前可能依赖服务器榜单排名、玩家评论或自行观察在线人数来判断；该替代路径未经材料证实。
+  current_alternative_en: 'Inference: users likely rely on server ranking lists, player reviews or their
+    own observation of online counts; this alternative path is not confirmed by the material.'
+  usage_reason: 推断：若检测能直接标出被刷量的服务器，用户可省去逐台比对在线人数与评论的步骤，因此找服玩家或投放方可能选择它；但缺少用户反馈与采用证据，无法确认这一选择真实发生。
+  usage_reason_en: 'Inference: if detection directly flags inflated servers, users skip comparing online
+    counts and reviews one by one, so players or advertisers might choose it; without user feedback or
+    adoption evidence, this choice cannot be confirmed as real.'
+- id: req-full-newminecraftservers-2026-10-12
+  project_slug: newminecraftservers
+  level: full
+  reviewed_at: '2026-10-12T01:55:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决服务器人气数据真伪难辨的问题，但材料未说明原先谁如何识别刷量、误判代价多大，痛点无法还原。
+    evidence_ids:
+    - ev-13d67ec82755b579
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官网或产品页的定价与功能说明，确认伪造检测依据哪些数据、输出何种可核对结果。
+  market: ''
+  job: Minecraft 服务器运营者或找服玩家在浏览服务器列表、评估某台服务器是否值得加入或投放时，需要判断其在线人数与人气数据是否被刷量或伪造。
+  job_en: Minecraft server operators or players browsing server lists and deciding whether a server is
+    worth joining or advertising on need to judge whether its player counts and popularity data are inflated
+    or spoofed.
+  pain: 公开材料只给出发现、分析与伪造检测三个词，未说明原先玩家或运营者如何识别刷量、误判会造成什么后果，痛点缺少事实支撑。
+  pain_en: Public material only lists discovery, analytics and spoof detection; it does not say how players
+    or operators previously spotted inflation or what misjudgment costs them, so the pain lacks factual
+    support.
+  current_alternative: 推断：用户目前可能依赖服务器榜单排名、玩家评论或自行观察在线人数来判断；该替代路径未经材料证实。
+  current_alternative_en: 'Inference: users likely rely on server ranking lists, player reviews or their
+    own observation of online counts; this alternative path is not confirmed by the material.'
+  usage_reason: 推断：若检测能直接标出被刷量的服务器，用户可省去逐台比对在线人数与评论的步骤，因此找服玩家或投放方可能选择它；但缺少用户反馈与采用证据，无法确认这一选择真实发生。
+  usage_reason_en: 'Inference: if detection directly flags inflated servers, users skip comparing online
+    counts and reviews one by one, so players or advertisers might choose it; without user feedback or
+    adoption evidence, this choice cannot be confirmed as real.'

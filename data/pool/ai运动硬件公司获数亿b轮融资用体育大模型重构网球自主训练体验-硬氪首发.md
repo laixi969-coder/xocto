@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fWTJ5Y212RnZZ
 summary: AI运动硬件公司获数亿B轮融资，用体育大模型重构网球自主训练体验｜硬氪首发 36Kr
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

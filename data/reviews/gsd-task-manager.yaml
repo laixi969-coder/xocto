@@ -1,0 +1,86 @@
+- id: req-initial-gsd-task-manager-2026-10-12
+  project_slug: gsd-task-manager
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理跨会话丢失任务状态、开发者手工复述待办的问题，痛点具体且不解决的后果可核对；买方是谁尚不清楚。
+    evidence_ids:
+    - ev-7f278f93a8ac3e4a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该产品的采用或持续使用证据，强场景尚未被外部确认。
+    evidence_ids:
+    - ev-7f278f93a8ac3e4a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径；可能靠托管版或团队支持收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7f278f93a8ac3e4a
+  - gate: truth
+    status: insufficient
+    reason: 任务清单与代理执行之间的人工确认边界、失败回滚方式在公开材料中未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-7f278f93a8ac3e4a
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认任务清单如何与代理执行衔接、是否有人报告长期使用。
+  market: ''
+  job: 开发者在用编码代理执行多步任务（如批量重构、迁移、连续修 bug）时，需要一份代理能读写、跨会话保留的任务清单，让代理知道还剩哪些步骤。
+  job_en: While running multi-step tasks with a coding agent (bulk refactors, migrations, chained bug
+    fixes), developers need a task list the agent can read and write and that survives across sessions,
+    so the agent knows which steps remain.
+  pain: 代理会话结束后任务状态丢失，开发者要手工把待办和进度重新贴回上下文，长任务容易漏步或重复劳动。
+  pain_en: Task state is lost when an agent session ends, forcing developers to paste to-dos and progress
+    back into context by hand; long tasks risk skipped or repeated steps.
+  current_alternative: 现在多靠手工维护 markdown 待办、在对话里反复复述进度，或让代理自己生成一份临时计划文件。
+  current_alternative_en: Today this is mostly handled by hand-maintained markdown to-do files, restating
+    progress in the conversation, or letting the agent generate a throwaway plan file.
+  usage_reason: 推断：相较手工复述进度，它把任务清单做成代理可直接调用的接口，省掉每次会话重新交代待办这一步，因此常跑长任务的开发者会在多步任务开始时接入它。公开材料未显示留存或复购证据。
+  usage_reason_en: 'Inference: versus restating progress by hand, it exposes the task list as an interface
+    the agent can call directly, removing the step of re-briefing to-dos each session, so developers running
+    long tasks would wire it in at the start of multi-step work. Public material shows no retention or
+    repeat-use evidence.'
+- id: req-full-gsd-task-manager-2026-10-12
+  project_slug: gsd-task-manager
+  level: full
+  reviewed_at: '2026-10-12T01:54:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据仅含仓库迁移提示、GSD Core 框架简介与哈佛设计学院页面，均未描述该任务清单产品的用户任务、痛点或替代行为，无法还原需求结构。
+    evidence_ids:
+    - ev-084497f651431956
+    - ev-a35b47be739b3d31
+    - ev-c69220dd32826f95
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 gsd-build/get-shit-done 与 open-gsd/gsd-core 仓库的 README、issue 与 discussion，确认是否存在任务清单
+    MCP 接口的实际实现与使用记录。
+  market: ''
+  job: 开发者在用编码代理执行多步任务（批量重构、迁移、连续修 bug）时，希望代理能读写一份跨会话保留的任务清单，知道还剩哪些步骤。
+  job_en: While running multi-step tasks with a coding agent (bulk refactors, migrations, chained bug
+    fixes), developers want the agent to read and write a task list that survives across sessions so it
+    knows which steps remain.
+  pain: 公开材料未提供任何用户痛点、抱怨或 workaround 证据；候选摘要所述“会话结束任务状态丢失、需手工复述待办”在给定证据中找不到出处。
+  pain_en: The public material provides no user pain, complaint, or workaround evidence; the claimed 'task
+    state lost at session end, manual re-briefing' has no source in the given evidence.
+  current_alternative: 证据中未记录任何现有替代方式（如手工 markdown 待办、对话内复述进度）的实际使用。
+  current_alternative_en: The evidence records no actual current alternative (hand-maintained markdown
+    to-dos, restating progress in conversation).
+  usage_reason: 无法说明用户为何选择它：证据中无产品功能说明、无用户反馈、无采用记录，仅有一条指向无关仓库的迁移提示。
+  usage_reason_en: 'Cannot explain why users would choose it: no product capability description, no user
+    feedback, no adoption record in the evidence, only a migration notice pointing to an unrelated repository.'

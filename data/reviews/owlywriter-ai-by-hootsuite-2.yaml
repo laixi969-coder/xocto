@@ -120,3 +120,53 @@
     into Hootsuite, allowing users to input a topic and generate social-platform-adapted copy, reducing
     the step of copying from generic tools and manually adjusting; therefore social media managers already
     in the Hootsuite workflow would choose it when needing to quickly produce multi-platform content.'
+- id: req-full-owlywriter-ai-by-hootsuite-2-2026-10-12
+  project_slug: owlywriter-ai-by-hootsuite-2
+  level: full
+  reviewed_at: '2026-10-12T01:55:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社媒运营者持续产出多平台帖子文案的起草负担，旧做法是手写或用通用 AI 再搬运；公开材料确认输入主题即生成可编辑可发布文案，交付闭环可确定，属工作流结构推理，尚无用户痛点原话。
+    evidence_ids:
+    - ev-04b522f8cb9b9b2d
+    - ev-604c7c8e0bc4d133
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 279 万访问量与 49.37% 环比，属规模与关注度证据，且该指标挂在 Hootsuite 资源页而非功能级产品，无法归因到 OwlyWriter 本身；缺少用户评价、案例或重复使用证据说明场景共识。
+    evidence_ids:
+    - ev-04b522f8cb9b9b2d
+  - gate: model
+    status: insufficient
+    reason: OwlyWriter 作为 Hootsuite 平台内功能，付费路径推断为 to B/to C 订阅，但公开材料未给出该功能的独立定价页或采购记录，谁付钱、按什么计费属判断而非已验证事实。
+    evidence_ids:
+    - ev-04b522f8cb9b9b2d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明生成文案可编辑可发布，未提供生成质量、事实准确性、平台合规或人工审核边界的可核对结果，交付确定性只能靠母公司平台成熟度间接推断。
+    evidence_ids:
+    - ev-604c7c8e0bc4d133
+  next_validation: 追踪 Hootsuite 官网 OwlyWriter 功能页的定价与套餐说明，以及是否出现公开客户案例或使用数据，用以核验付费路径与功能级采用。
+  market: ''
+  job: 社交媒体经理或内容创作者在需要为多个社交平台持续排期发帖时，面对空白编辑器，要快速产出符合各平台语气的帖子文案与标题，并直接进入 Hootsuite 的排期发布流程。
+  job_en: A social media manager or content creator, facing a blank editor while needing to keep multiple
+    social channels scheduled, must quickly produce post copy and headlines matching each platform's tone
+    and push them into Hootsuite's scheduling flow.
+  pain: 公开材料显示该工具定位为输入主题或关键词即生成可编辑、可发布的帖子文案，说明其针对的是持续产出内容时的构思与起草负担；但现有证据未包含用户抱怨、耗时数据或返工记录，痛点强度属工作流结构推理而非已核验事实。
+  pain_en: Public material positions the tool as generating editable, publish-ready post copy from a topic
+    or keyword, implying the burden of ideation and drafting in continuous content production; however,
+    no user complaints, time data, or rework records are present, so pain intensity is workflow inference,
+    not verified fact.
+  current_alternative: 旧做法是手动撰写文案，或使用通用 AI 助手（如 ChatGPT、Copilot、Gemini）生成文本后再复制到社交管理工具中排期；公开对比证据只说明这些通用助手存在，未说明其在本任务上的具体不足。
+  current_alternative_en: The old way is writing copy manually, or using general AI assistants (ChatGPT,
+    Copilot, Gemini) to draft text and then pasting it into a social management tool to schedule; the
+    comparison evidence only shows these assistants exist, not their specific shortfalls for this task.
+  usage_reason: 推断：相较通用助手起草再手工搬运，OwlyWriter 把生成动作放在 Hootsuite 编辑与排期界面内，减少一次跨工具复制粘贴和格式重排；因此已在 Hootsuite
+    内管理账号的社媒运营者，在需要批量补足帖子草稿时会优先试用它。该因果为结构推理，尚无用户反馈或留存证据支持。
+  usage_reason_en: 'Inference: versus drafting in a general assistant and manually moving text, OwlyWriter
+    places generation inside Hootsuite''s editing and scheduling surface, removing a cross-tool copy-paste
+    and reformat step; thus operators already managing accounts in Hootsuite would try it first when needing
+    to fill a batch of post drafts. This causal chain is structural inference, not yet backed by user
+    feedback or retention evidence.'

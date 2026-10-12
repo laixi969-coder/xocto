@@ -230,3 +230,54 @@
     assistant can read and submit on the user''s behalf, reducing the step of switching between two consoles
     and re-entering data, so Turkish-speaking developers or small teams updating both sides'' metadata
     and versions would choose it; no user feedback yet confirms this.'
+- id: req-full-magaza-mcp-2026-10-12
+  project_slug: magaza-mcp
+  level: full
+  reviewed_at: '2026-10-12T01:54:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决双商店发布中同一版本与元数据需在两处重复录入核对的痛点，土耳其语开发者还面临英文后台门槛；不采用则需手工切换两个后台或自写脚本，漏改会导致状态不一致。这是基于产品说明与发布工作流的结构推理，尚无用户反馈或量化数据佐证痛点强度。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+    - ev-325451e354f937dd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 84 增至 91，说明有开发者关注该 MCP 服务器，但收藏与关注只属规模信号，公开材料没有用户评价、issue 或案例说明谁在何种场景持续使用，无法判断共识是否形成。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+    - ev-fadffb1f52cd5ea5
+  - gate: model
+    status: insufficient
+    reason: 这是开源 MCP 服务器，公开材料未见定价页、付费主体或采购记录，钱可能来自 to C 开发者赞助或 to B 定制，属判断而非已验证事实；开源项目无付费路径不反推需求不存在。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明接入两个商店，未披露覆盖哪些字段、提交前是否需人工复核、凭证与权限如何管理，交付能否稳定发生及安全边界缺少可复现证据。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+    - ev-325451e354f937dd
+  next_validation: 追踪 magaza-mcp 仓库的 README、issue 与 discussion，确认其实际覆盖的商店字段、提交前人工复核与凭证管理方式，以及是否有开发者报告真实发布使用。
+  market: ''
+  job: 土耳其语独立开发者或小型发行团队在准备上架或更新应用时，需要同时处理 App Store Connect 和 Google Play 两套后台，核对并提交版本、文案与状态，最终让两个商店的发布动作一致完成。
+  job_en: Turkish-speaking indie developers or small publishing teams preparing an app launch or update
+    must work across both App Store Connect and Google Play backends, checking and submitting version,
+    copy, and status so that both stores' release actions complete consistently.
+  pain: 双商店后台彼此独立，同一份版本与元数据要在两处重复录入和核对，容易漏改或状态不一致；土耳其语开发者还要面对英文后台术语，公开材料未给出频率与出错代价的量化数据。
+  pain_en: The two store backends are separate, so the same version and metadata must be re-entered and
+    re-checked in both places, risking missed edits or inconsistent status; Turkish-speaking developers
+    also face English console terminology, and public materials give no quantified frequency or cost of
+    errors.
+  current_alternative: 当前替代方式是分别登录 App Store Connect 与 Google Play 后台手工操作，或自行写脚本调用两边 API；公开材料未说明用户此前具体使用哪种方式。
+  current_alternative_en: The current alternative is logging into App Store Connect and Google Play separately
+    and working manually, or writing one's own scripts against both APIs; public materials do not state
+    which approach users previously used.
+  usage_reason: 推断：相较分别登录两个后台手工核对，该 MCP 服务器把两个商店接口收敛到同一入口并由 AI 助手代为读取和提交，减少在两边重复录入与切换的步骤，因此土耳其语小型发行团队在需要同步双商店版本与文案时可能选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with logging into two backends and checking manually, this MCP
+    server converges both store APIs into one entry point where an AI assistant reads and submits on the
+    user''s behalf, cutting duplicate entry and switching steps, so Turkish-speaking small publishing
+    teams syncing version and copy across both stores may choose it; public materials contain no user
+    feedback confirming this motive.'

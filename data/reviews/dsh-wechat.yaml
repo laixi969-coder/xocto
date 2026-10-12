@@ -93,3 +93,45 @@
     developers who already run a local model and require communication to stay inside WeChat would pick
     it for quick questions; with only 82 stars and no retention or repeat-use evidence, long-term workflow
     placement cannot be confirmed.'
+- id: req-full-dsh-wechat-2026-10-12
+  project_slug: dsh-wechat
+  level: full
+  reviewed_at: '2026-10-12T01:54:00Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决本地模型缺少日常入口的问题，但公开材料只有一句仓库描述，没有用户抱怨、替代行为或采用记录，连具体痛点都只能靠结构推理补足，价值关无法成立。
+    evidence_ids:
+    - ev-ce6a0407b7e5be49
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README 与 issue/discussion，确认支持的消息类型、部署步骤、微信侧合规说明以及是否有使用者反馈。
+  market: ''
+  job: 已自建或本地部署 DeepSeek Harness 的开发者或小团队，把微信会话当作调用入口，处理日常问答或内部查询，希望不切换工具就能用上模型。
+  job_en: A developer or small team with a self-hosted or local DeepSeek Harness deployment uses WeChat
+    conversations as the calling entry point for everyday questions or internal lookups, hoping to use
+    the model without switching tools.
+  pain: 公开材料只有一句 WeChat channel for DeepSeek Harness 的仓库描述，没有用户抱怨、替代行为或采用记录；本地模型缺少日常入口只是结构推理，无法确认痛点真实存在。
+  pain_en: The public material is only a one-line repository description, 'WeChat channel for DeepSeek
+    Harness', with no user complaints, workaround behavior or adoption records; the missing everyday entry
+    point for local models is structural inference and cannot be confirmed as real pain.
+  current_alternative: 直接在终端或网页界面调用本地模型，或使用现成的云端聊天助手；也可能自建机器人但需要额外开发。
+  current_alternative_en: Calling the local model from a terminal or web UI, or using an existing cloud
+    chat assistant; some teams build their own bot with extra development work.
+  usage_reason: 推断：相较终端或网页调用，它把模型调用搬进用户已在使用的微信会话，省掉切换应用这一步，因此对已部署本地模型、又要求沟通留在微信内的团队有吸引力；但缺少留存或重复使用证据，无法确认是否被长期留在工作流中。
+  usage_reason_en: 'Inference: compared with terminal or web calls, it moves model invocation into the
+    WeChat conversation users already have open, removing the app-switching step, which appeals to teams
+    that already run a local model and require communication to stay inside WeChat; without retention
+    or repeat-use evidence, long-term workflow placement cannot be confirmed.'

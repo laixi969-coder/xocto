@@ -1,0 +1,90 @@
+- id: req-initial-keys-wasserman-slate-ai-studio-powered-by-tensorfold-mac-dgx-2026-10-12
+  project_slug: keys-wasserman-slate-ai-studio-powered-by-tensorfold-mac-dgx
+  level: initial
+  reviewed_at: '2026-10-12T01:20:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分镜到素材的生成需求，痛点是小团队外包贵、周期长；本地一体化流程在结构上能减少跨工具搬运这一步。
+    evidence_ids:
+    - ev-cf601e6cfed140ac
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 87 星与 7 次 fork，说明有开发者关注，但没有用户成片案例或重复使用证据，共识强度未知。
+    evidence_ids:
+    - ev-cf601e6cfed140ac
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，买方可能是创作者自购硬件或后续订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-cf601e6cfed140ac
+  - gate: truth
+    status: insufficient
+    reason: 依赖特定硬件与多个模型，成片质量、渲染耗时和人工审片边界均未在材料中说明，确定性交付待核验。
+    evidence_ids:
+    - ev-cf601e6cfed140ac
+  next_validation: 查看该仓库的 README、issue 与 discussion，确认实际渲染耗时、成片示例以及是否已有创作者提交作品。
+  market: ''
+  job: 独立影视或广告创作者在预算有限、不便外包的情况下，需要把分镜脚本变成可剪辑的图像与带声音视频素材。
+  job_en: Independent film or ad creators with limited budgets who cannot easily outsource need to turn
+    a shot list into editable images and video clips with sound.
+  pain: 分镜预演和素材生成通常要分别找画师、配音和剪辑，周期长、沟通成本高，小团队难以承担。
+  pain_en: Storyboard previz and asset generation usually require separate artists, voice talent, and
+    editors, making cycles long and coordination costly for small teams.
+  current_alternative: 手绘分镜、外包动画或配音团队，以及分别使用多个云端图像和视频生成服务再手动拼接。
+  current_alternative_en: Hand-drawn storyboards, outsourced animation or voice teams, and stitching together
+    several cloud image and video generation services manually.
+  usage_reason: 推断：它把分镜规划与图像、视频、声音渲染放在同一本地流程里，创作者不必在多个云端工具间导出导入，也不必为每段素材单独付费；因此预算有限、素材量大的短片和广告创作者会优先试用。
+  usage_reason_en: 'Inference: it keeps shot planning and image, video, and sound rendering in one local
+    pipeline, so creators avoid exporting and importing across cloud tools and paying per clip; short-film
+    and ad creators with tight budgets and high asset volume would try it first.'
+- id: req-full-keys-wasserman-slate-ai-studio-powered-by-tensorfold-mac-dgx-2026-10-12
+  project_slug: keys-wasserman-slate-ai-studio-powered-by-tensorfold-mac-dgx
+  level: full
+  reviewed_at: '2026-10-12T01:54:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分镜到带声音素材的生成需求，痛点是小团队外包贵、周期长、云端逐段计费；本地一体化流程在结构上能减少跨工具搬运这一步，属工作流推理，尚无成片案例佐证。
+    evidence_ids:
+    - ev-cf601e6cfed140ac
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 87 星，说明有开发者关注，但没有用户成片案例、评价或重复使用证据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-cf601e6cfed140ac
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，买方可能是创作者自购硬件或后续订阅，属判断而非已验证事实；公开材料未见付费或采购记录。
+    evidence_ids:
+    - ev-cf601e6cfed140ac
+  - gate: truth
+    status: insufficient
+    reason: 依赖特定硬件与多个模型，成片质量、渲染耗时和人工审片边界均未在材料中说明，承诺能否确定性交付待核验。
+    evidence_ids:
+    - ev-cf601e6cfed140ac
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认实际渲染耗时、成片示例以及是否已有创作者提交作品或付费/订阅说明。
+  market: ''
+  job: 独立影视或广告创作者在预算有限、不便外包的情况下，把分镜脚本输入本地 Mac 或 DGX Spark 上的 Slate 工作流，规划镜头并用 Qwen-Image-2.1 与 MiniMax
+    H3 渲染出带声音、可继续剪辑的图像与视频素材。
+  job_en: Independent film or ad creators with limited budgets who cannot easily outsource feed a shot
+    list into the local Slate workflow on Mac or DGX Spark, plan shots, and render editable images and
+    sound-bearing video clips with Qwen-Image-2.1 and MiniMax H3.
+  pain: 分镜预演与素材生成通常要分别找画师、配音和剪辑，周期长、沟通成本高；云端逐段生成还要反复导出导入并承担按量计费，小团队难以承受。
+  pain_en: Storyboard previz and asset generation usually require separate artists, voice talent, and
+    editors, making cycles long and coordination costly; cloud per-clip generation adds repeated export/import
+    and metered fees that small teams struggle to absorb.
+  current_alternative: 手绘分镜、外包动画或配音团队，以及分别使用多个云端图像和视频生成服务再手动拼接。
+  current_alternative_en: Hand-drawn storyboards, outsourced animation or voice teams, and stitching together
+    several cloud image and video generation services manually.
+  usage_reason: 推断：相较旧做法，它把分镜规划与图像、视频、声音渲染收进同一本地流程，创作者不必在多个云端工具间导出导入，也不必为每段素材单独付费，因此预算有限、素材量大的短片和广告创作者会优先试用；但公开材料只有仓库描述与
+    87 星，尚无成片案例或重复使用证据，不能断言已被长期留在工作流里。
+  usage_reason_en: 'Inference: versus the old approach, it keeps shot planning and image, video, and sound
+    rendering in one local pipeline, so creators avoid exporting and importing across cloud tools and
+    paying per clip; short-film and ad creators with tight budgets and high asset volume would try it
+    first. But the public material is only a repo description and 87 stars, with no finished-film cases
+    or repeat-use evidence, so long-term workflow placement cannot be asserted.'

@@ -1,0 +1,39 @@
+- id: req-initial-claude-watermark-remover-2026-10-12
+  project_slug: claude-watermark-remover
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决作者担心被判定为 AI 写作的问题，但公开材料未说明检测对象与移除方式，连交付是否可核对都无法判断。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、使用数据或案例，无法判断是否形成使用共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 判断：买方可能是个人写作者或内容团队，但无定价页与付费证据，付费路径未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 去除 AI 痕迹可能触及学术诚信与平台规则，材料未说明合规边界与人工确认环节。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面上的功能说明与定价信息，确认其检测对象、移除方式及是否提供效果示例。
+  market: ''
+  job: 写作者或编辑在稿件发布或提交前，处理待交付的文本，希望确认并清除其中可能被识别为 AI 生成的痕迹。
+  job_en: Writers or editors handling a draft before publication or submission, wanting to confirm and
+    clear traces that might be identified as AI-generated.
+  pain: 部分平台和机构会检查文本是否由 AI 生成，作者担心被判定为机器写作而影响录用或发布。
+  pain_en: Some platforms and institutions check whether text is AI-generated, and authors worry that
+    a machine-writing verdict will hurt acceptance or publication.
+  current_alternative: 目前靠人工改写、换词、调整句式，或使用通用改写工具反复润色，效果不可预期。
+  current_alternative_en: Today people manually rewrite, swap words and restructure sentences, or repeatedly
+    polish with generic rewriting tools, with unpredictable results.
+  usage_reason: 推断：如果工具能一次性定位并清除被检测的痕迹，作者可省去反复改写与自查的步骤，因此在投稿或供稿前会尝试它；但公开材料没有说明检测对象、移除方式与效果，也没有用户反馈或采用证据。
+  usage_reason_en: 'Inference: if the tool locates and clears detected traces in one pass, authors skip
+    repeated rewriting and self-checking, so they would try it before submission; however the public material
+    does not describe what is detected, how removal works or how effective it is, and there is no user
+    feedback or adoption evidence.'

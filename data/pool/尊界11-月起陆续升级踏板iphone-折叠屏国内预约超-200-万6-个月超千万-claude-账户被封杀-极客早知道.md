@@ -3,9 +3,17 @@ slug: 尊界11-月起陆续升级踏板iphone-折叠屏国内预约超-200-万6-
 name: 尊界：11 月起陆续升级踏板；iPhone 折叠屏国内预约超 200 万；6 个月，超千万 Claude 账户被封杀｜极客早知道
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 于 2026 年 7 月发布的报告显示，2026 年上半年平台累计封禁约 1140 万个 Claude 账号，收到约 39.8 万次申诉，其中约 4.2 万次申诉成功；同时
+  Anthropic 修订使用政策，自 11 月 12 日起禁止用户在没有明显目的的情况下反复对模型实施极端残忍行为。这一封禁规模与申诉通过率表明，头部大模型平台正在以更严格的账号治理与使用政策约束开发者与终端用户，对依赖单一模型
+  API 的 AI 应用而言，账号合规风险与迁移成本上升，多模型冗余和合规审查将成为交付环节的隐性成本。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic's July 2026 report shows that in the first half of 2026 the platform banned roughly
+  11.4 million Claude accounts, received about 398,000 appeals, and granted about 42,000 of them; Anthropic
+  also revised its usage policy to prohibit, from November 12, repeatedly subjecting the model to extreme
+  cruelty without clear purpose. The scale of bans and the low appeal success rate indicate that leading
+  model platforms are tightening account governance and usage policies, raising compliance risk and migration
+  costs for AI applications that depend on a single model API, and making multi-model redundancy and compliance
+  review a hidden cost in delivery.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -40,7 +48,7 @@ summary: 陶哲轩提出「数学 2.0」：AI 解题之外，还要帮助人理�
   官方账号更名为 SpaceX Super Intelligence 10 月 11 日，马斯克当地时间
 first_seen: '2026-10-12T01:20:56Z'
 last_seen: '2026-10-12T01:20:56Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:

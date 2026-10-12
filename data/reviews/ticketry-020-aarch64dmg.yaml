@@ -1,0 +1,38 @@
+- id: req-initial-ticketry-020-aarch64dmg-2026-10-12
+  project_slug: ticketry-020-aarch64dmg
+  level: initial
+  reviewed_at: '2026-08-22T22:37:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，材料只有一句工作流描述，价值关无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有可引用的关注或采用数据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，材料也未说明买方与收费方式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，也没有交付结果或人工边界的材料。
+    evidence_ids: []
+  next_validation: 抓取该产品的官方发布说明或下载页，确认其功能范围、是否含 AI 能力以及是否有公开使用或付费数据。
+  market: ''
+  job: 使用编码代理的开发者在一个工作台里组织代理任务、查看产出并推进编码工作。
+  job_en: A developer using coding agents organizes agent tasks, reviews output and advances coding work
+    inside one workbench.
+  pain: 材料没有说明开发者原来哪里难受，例如任务散落或产出难追踪，痛点无法确认。
+  pain_en: The material does not say what was painful before, such as scattered tasks or hard-to-track
+    output, so the pain cannot be confirmed.
+  current_alternative: 公开材料未提及替代方式；按常识推断旧做法是直接在编辑器或终端里与编码代理对话，但这是推断。
+  current_alternative_en: No alternative is mentioned; by common inference the old practice would be talking
+    to coding agents directly in an editor or terminal, but that is inference.
+  usage_reason: 材料没有用户反馈或采用证据，无法说明开发者为何选择它而非直接用编辑器里的代理；缺少的一环是实际使用与留存证据。
+  usage_reason_en: There is no user feedback or adoption evidence, so it cannot explain why a developer
+    would choose it over using an agent inside the editor; the missing link is actual usage and retention
+    evidence.

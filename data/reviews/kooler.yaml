@@ -1,0 +1,85 @@
+- id: req-initial-kooler-2026-10-12
+  project_slug: kooler
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是“家里有什么就调什么”的具体任务，痛点真实但强度偏弱，缺一两样材料通常可以换一杯，不采用代价低；且公开材料只有一句描述，无法确认输入方式与交付是否可执行。
+    evidence_ids:
+    - ev-4748106ebb05f5c2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：公开材料未提供任何用户评价、使用数据或场景描述，无法判断卡在感知还是场景环节。
+    evidence_ids:
+    - ev-4748106ebb05f5c2
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页、付费路径或买方信息，to C 订阅或与酒类零售分成均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-4748106ebb05f5c2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对配方是否含用量、替代建议与安全提示（如酒精摄入），交付确定性不明。
+    evidence_ids:
+    - ev-4748106ebb05f5c2
+  next_validation: 收集 Kooler 官方产品页或应用商店页面，确认输入方式（手动录入或拍照识别）、配方是否含用量与替代建议，以及是否已公布定价。
+  market: ''
+  job: 家庭调酒的人在打开自家酒柜、想决定今晚调哪杯时，需要把手头已有的酒和配料变成一份可执行的配方清单。
+  job_en: A home drinker opening their own bar and deciding what to mix tonight needs to turn the bottles
+    and mixers they already own into an executable recipe list.
+  pain: 配方通常按“先买齐材料”写，家里缺一两样就做不成；靠记忆或搜索逐个比对既慢又容易放弃。
+  pain_en: Recipes are usually written assuming you buy everything first; missing one or two items kills
+    the drink, and comparing by memory or search is slow and easy to abandon.
+  current_alternative: 搜索引擎、鸡尾酒 App 的固定配方库、小红书/YouTube 教程，或干脆随便兑一杯。
+  current_alternative_en: Search engines, fixed recipe libraries in cocktail apps, social video tutorials,
+    or just pouring something random.
+  usage_reason: 推断：如果它真能按已有库存反向筛选并给出可执行配方，用户省掉的是“逐个配方核对缺哪样”这一步，因此家里酒多但不成套的人会先试它；但公开材料只有一句描述，没有留存或复购证据，无法确认它是否被长期留在流程里。
+  usage_reason_en: 'Inference: if it truly filters recipes backwards from existing stock and returns executable
+    steps, it removes the step of checking each recipe for missing items, so people with many but mismatched
+    bottles would try it first; however the public material is a single line with no retention or repeat-use
+    evidence, so long-term workflow placement cannot be confirmed.'
+- id: req-full-kooler-2026-10-12
+  project_slug: kooler
+  level: full
+  reviewed_at: '2026-10-12T01:54:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决“家里有什么就调什么”的任务，痛点真实但强度弱：缺一两样材料通常换一杯即可，不采用代价低；公开材料仅一句描述，无法确认输入方式与配方是否可执行。
+    evidence_ids:
+    - ev-4748106ebb05f5c2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Kooler 官方产品页或应用商店页面，确认输入方式（手动录入或拍照识别）、配方是否含用量与替代建议，以及是否已公布定价或用户评价。
+  market: ''
+  job: 家庭调酒的人在打开自家酒柜、想决定今晚调哪杯时，需要把手头已有的基酒、利口酒和配料变成一份能直接照着调的配方清单。
+  job_en: A home drinker opening their own bar and deciding what to mix tonight needs to turn the base
+    spirits, liqueurs, and mixers they already own into a recipe list they can follow directly.
+  pain: 配方通常按“先买齐材料”写，家里缺一两样就做不成；靠记忆或搜索逐个比对既慢又容易放弃，但换一杯或随便兑一杯的代价很低。
+  pain_en: Recipes are usually written assuming you buy everything first; missing one or two items kills
+    the drink, and comparing by memory or search is slow and easy to abandon—but swapping drinks or pouring
+    something random costs little.
+  current_alternative: 搜索引擎、鸡尾酒 App 的固定配方库、小红书或 YouTube 教程，或干脆随便兑一杯。
+  current_alternative_en: Search engines, fixed recipe libraries in cocktail apps, social video tutorials,
+    or just pouring something random.
+  usage_reason: 推断：若它真能按已有库存反向筛选并给出可执行配方，用户省掉的是逐个配方核对缺哪样这一步，家里酒多但不成套的人可能试一次；但公开材料只有一句产品描述，没有用户反馈、留存或复购证据，且缺料时换一杯的替代成本极低，难以支撑持续使用。
+  usage_reason_en: 'Inference: if it truly filters recipes backwards from existing stock and returns executable
+    steps, it removes the step of checking each recipe for missing items, so people with many but mismatched
+    bottles might try it once. But the public material is a single product line with no user feedback,
+    retention, or repeat-use evidence, and the fallback of simply picking another drink is nearly costless,
+    which cannot support sustained use.'

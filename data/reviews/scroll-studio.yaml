@@ -91,3 +91,52 @@
     in a single action, removing both the section-by-section coding step and the re-layout-after-copy-change
     step; designers or marketers iterating on marketing pages under deadline would therefore choose it,
     though public material shows no retention or repeat-use evidence yet.'
+- id: req-full-scroll-studio-2026-10-12
+  project_slug: scroll-studio
+  level: full
+  reviewed_at: '2026-10-12T01:56:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决做滚动叙事与 3D 落地页要手写大量前端代码、改文案就重排动画的痛点，交付物是可直接使用的网页；这是基于产品输入—动作—交付闭环的工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星标从 42 增至 44，说明有开发者关注，但无客户案例、评价或持续使用证据，共识卡在场景认知与真实交付验证这一环。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+    - ev-a6e4fc68d697b93d
+  - gate: model
+    status: insufficient
+    reason: 项目未披露定价或收费方式，钱可能来自模板包、定制交付或赞助，属 to C 开发者与 to B 营销团队之间的判断，不是已验证事实。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  - gate: truth
+    status: insufficient
+    reason: 生成页面能否达到可上线质量、YAML 能否覆盖真实营销需求，公开材料未给出可核对结果，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-7a7b9250712f3943
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认生成页面在真实营销落地页中的可编辑程度与上线质量反馈。
+  market: ''
+  job: 网页设计师或营销人员在需要快速产出带滚动叙事、实时 3D、数据故事或地图的营销落地页时，把页面结构写进一份 YAML 描述，交给工具在本地生成可交付网页，也可由 Claude 通过 MCP
+    驱动生成。
+  job_en: Web designers or marketers who need to quickly produce marketing landing pages with scroll narratives,
+    live 3D, data stories, or maps write the page structure into one YAML description and have the tool
+    generate a deliverable page locally, optionally driven by Claude via MCP.
+  pain: 公开材料显示这类页面通常要手写大量前端代码或依赖模板，改一版文案就要重排动画，交付周期长；滚动叙事与 3D 效果尤其需要反复调参，属于刚性但高频的返工负担。
+  pain_en: Public materials indicate such pages usually require writing lots of front-end code or relying
+    on templates, and changing copy forces re-laying out animations, lengthening delivery; scroll narratives
+    and 3D effects especially need repeated tuning, a rigid and frequent rework burden.
+  current_alternative: 现有替代是手写 HTML/CSS/JS、用 Webflow 等可视化建站工具，或买现成模板再手工改；这些方式要么门槛高，要么滚动与 3D 效果受限。
+  current_alternative_en: Current alternatives are hand-writing HTML/CSS/JS, using visual site builders
+    such as Webflow, or buying templates and editing them manually; these are either high-threshold or
+    limited in scroll and 3D effects.
+  usage_reason: 推断：相较手写前端或改模板，它把页面结构收敛为一份 YAML，由工具直接生成动画与 3D 页面，省去逐段手写和重排动画的步骤，因此需要快速迭代营销落地页的设计师或营销人员会在赶交付时选择它；实际可编辑程度与上线质量尚无公开反馈支撑。
+  usage_reason_en: 'Inference: compared with hand-coding front-end or editing templates, it condenses
+    page structure into one YAML file and has the tool directly generate animated and 3D pages, removing
+    the step of hand-coding each section and re-laying out animations, so designers or marketers needing
+    fast iteration on marketing landing pages would choose it under delivery pressure; actual editability
+    and launch quality lack public feedback.'

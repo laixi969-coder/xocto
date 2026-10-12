@@ -1,0 +1,84 @@
+- id: req-initial-iris-3b-turbo-2026-10-12
+  project_slug: iris-3b-turbo
+  level: initial
+  reviewed_at: '2026-10-12T01:20:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决出图慢、试风格成本高的问题，痛点具体；但买方与是否有人真正接入日常流程尚不清楚。
+    evidence_ids:
+    - ev-6a51f370b25d0a53
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量点赞，没有可归因到该模型的持续使用或客户案例，强场景未被外部确认。
+    evidence_ids:
+    - ev-6a51f370b25d0a53
+  - gate: model
+    status: insufficient
+    reason: 开源演示，未见定价或付费路径；可能靠托管推理或授权收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6a51f370b25d0a53
+  - gate: truth
+    status: insufficient
+    reason: 像素空间少步生成的稳定性、商用许可与人工筛选环节在公开材料中未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-6a51f370b25d0a53
+  next_validation: 收集该模型页面的许可说明与使用讨论，确认是否有人把它用于批量出图并报告稳定性。
+  market: ''
+  job: 出图创作者在需要快速产出多张风格变体时，输入文字提示并选择适配器，让模型在几步内生成图片，用于电商素材、社媒配图或概念草图。
+  job_en: When needing many style variants quickly, image creators enter a text prompt and pick an adapter
+    so the model produces pictures in a few steps, for e-commerce assets, social posts or concept sketches.
+  pain: 多步扩散模型出图慢、单张成本高，试风格时反复等待，拖慢素材迭代。
+  pain_en: Multi-step diffusion is slow and costly per image, so trying styles means repeated waiting
+    that slows asset iteration.
+  current_alternative: 现在多用主流文生图服务或本地多步扩散流程，靠调提示词和后期修图换风格。
+  current_alternative_en: Today this is mostly mainstream text-to-image services or local multi-step diffusion,
+    switching styles via prompt tweaks and post-editing.
+  usage_reason: 推断：相较多步扩散，它把生成压缩到 4 步并让风格以适配器切换，减少等待与试错轮次，因此需要批量出风格变体的创作者会试用它；公开材料没有采用或留存证据。
+  usage_reason_en: 'Inference: versus multi-step diffusion, it compresses generation to 4 steps and makes
+    style a swappable adapter, cutting waiting and trial rounds, so creators needing batches of style
+    variants would try it; public material has no adoption or retention evidence.'
+- id: req-full-iris-3b-turbo-2026-10-12
+  project_slug: iris-3b-turbo
+  level: full
+  reviewed_at: '2026-10-12T01:54:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决出图慢、试风格成本高的问题，痛点具体且刚性；4 步像素空间生成与适配器切换构成可确定的交付闭环，但买方与是否接入日常流程尚不清楚。
+    evidence_ids:
+    - ev-6a51f370b25d0a53
+  - gate: consensus
+    status: insufficient
+    reason: 仅有模型页的功能描述，没有可归因到该模型的持续使用、客户案例或社区讨论，强场景未被外部确认。
+    evidence_ids:
+    - ev-6a51f370b25d0a53
+  - gate: model
+    status: insufficient
+    reason: 开源演示，未见定价或付费路径；可能靠托管推理或授权收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6a51f370b25d0a53
+  - gate: truth
+    status: insufficient
+    reason: 像素空间少步生成的稳定性、商用许可与人工筛选环节在公开材料中未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-6a51f370b25d0a53
+  next_validation: 追踪 Iris-3B Turbo 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 出图创作者在需要快速产出多张风格变体时，输入文字提示并选择适配器，让模型在 4 步内生成图片，用于电商素材、社媒配图或概念草图。
+  job_en: When needing many style variants quickly, image creators enter a text prompt and pick an adapter
+    so the model produces images in 4 steps, for e-commerce assets, social posts or concept sketches.
+  pain: 多步扩散模型出图慢、单张算力成本高，试风格时反复等待，拖慢素材迭代节奏。
+  pain_en: Multi-step diffusion is slow and costly per image, so trying styles means repeated waiting
+    that slows asset iteration.
+  current_alternative: 目前多用主流文生图服务或本地多步扩散流程，靠调提示词和后期修图换风格。
+  current_alternative_en: Today this is mostly mainstream text-to-image services or local multi-step diffusion,
+    switching styles via prompt tweaks and post-editing.
+  usage_reason: 推断：相较多步扩散，它把生成压缩到 4 步、把风格切换做成可选适配器，减少等待与试错轮次，因此需要批量出风格变体的创作者会试用它；公开材料没有采用或留存证据。
+  usage_reason_en: 'Inference: versus multi-step diffusion, it compresses generation to 4 steps and makes
+    style a swappable adapter, cutting waiting and trial rounds, so creators needing batches of style
+    variants would try it; public material has no adoption or retention evidence.'

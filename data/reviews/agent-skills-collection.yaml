@@ -941,3 +941,44 @@
   usage_reason_en: Only attention signals such as repository stars and forks exist; no user feedback or
     case explains why anyone would choose it despite disabling antivirus and elevating privileges, so
     no causal usage reason can be stated.
+- id: req-full-agent-skills-collection-2026-10-12
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-10-12T01:52:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认技能安装步骤、权限要求及是否有用户反馈其实际接入助手工作流。
+  market: ''
+  job: 开发者想给基于 LLM 的助手加装模块化技能，在本地或团队环境里安装并运行这些技能包，让助手多出可调用的能力。
+  job_en: A developer wants to add modular skills to an LLM-based assistant, installing and running those
+    skill packages locally or in a team environment so the assistant gains callable capabilities.
+  pain: 公开摘要只说明它是技能合集，未给出任何用户抱怨、使用反馈或旧流程描述；安装需关杀毒并以管理员权限运行安装包这一说法本身指向安全与信任成本，但没有公开证据表明有人因此受阻或付出代价。
+  pain_en: The public summary only says it is a skill collection, with no user complaints, feedback, or
+    old-workflow description; the claim that installation requires disabling antivirus and running a setup
+    file as administrator points to security and trust cost, but no public evidence shows anyone was blocked
+    or paid a price for it.
+  current_alternative: 公开材料未说明用户现在如何获取技能，无法确认此前是手写提示词、复制社区片段，还是直接调用模型自带工具。
+  current_alternative_en: Public materials do not say how users obtain skills today, so it is unclear
+    whether they previously wrote prompts by hand, copied community snippets, or used built-in model tools.
+  usage_reason: 推断：若技能包能直接挂载到助手，开发者可省去自己编写工具定义的一步；但缺少用户反馈、留存或复购证据，无法确认有人把它留在工作流里，关注度不能替代使用理由。
+  usage_reason_en: 'Inference: if skill packages can be mounted directly onto an assistant, developers
+    may skip writing tool definitions themselves; however, without user feedback, retention, or repeat-use
+    evidence, it is unverified that anyone keeps it in their workflow, and attention cannot substitute
+    for a usage reason.'

@@ -231,3 +231,51 @@
     conventions into one reusable agent-skill pass, cutting repeated manual adjustment steps; editors
     with client-facing quality demands would try it. Stars rising from 88 to 101 only shows growing developer
     attention, not repeated use in real delivery.'
+- id: req-full-motionmaxxing-2026-10-12
+  project_slug: motionmaxxing
+  level: full
+  reviewed_at: '2026-10-12T01:55:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成素材观感廉价、无法直接交付的问题，痛点具体且刚性：交付不达标会被退回，重做又抵消生成省下的时间。仓库自述明确输入为 AI slop 视频、交付为接近动态设计师水准的成片，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-33c073c4a458de7b
+    - ev-486e7b12e36de81f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 88 增至 110，说明开发者关注度在上升，但公开材料没有用户反馈、客户案例或后期人员实际采用记录，无法确认它进入真实交付流程。
+    evidence_ids:
+    - ev-33c073c4a458de7b
+    - ev-827cb55ffe8596ae
+    - ev-486e7b12e36de81f
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何定价或收费路径，是个人接单工具、团队内部流程还是未来商业化，公开材料无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-33c073c4a458de7b
+  - gate: truth
+    status: insufficient
+    reason: 动态设计的第一性目标是成片观感与规范一致，材料未说明它如何校验输出质量、人工需在哪一步介入，交付确定性无法核对。
+    evidence_ids:
+    - ev-33c073c4a458de7b
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认它实际接收的输入、处理步骤与是否有真实交付案例。
+  market: ''
+  job: 接单的短视频与广告后期人员，在拿到 AI 生成的粗糙视频素材后，需要把它处理成观感接近专业动态设计师水准、能直接交给客户的成片。
+  job_en: Short-video and ad post-production freelancers who receive rough AI-generated footage need to
+    turn it into a client-ready cut that looks like a motion designer made it.
+  pain: AI 生成视频观感廉价，节奏、转场与图形规范不达标，直接交付会被客户退回；人工逐段重做后期等于把生成省下的时间又还回去。
+  pain_en: AI-generated video looks cheap, with pacing, transitions and graphic conventions below standard,
+    so delivering it directly gets rejected; redoing post-production clip by clip gives back the time
+    generation saved.
+  current_alternative: 人工在剪辑与动效软件里逐段调整，或放弃 AI 素材从头制作。
+  current_alternative_en: Adjusting clip by clip by hand in editing and motion software, or discarding
+    the AI footage and building from scratch.
+  usage_reason: 推断：相较人工逐段调参，它把“按动态设计规范修一遍”打包成一次可复用的 agent skill 动作，减少重复的手工调整步骤；因此对成片观感有交付要求的接单后期人员会尝试它。仓库星标从
+    88 增至 110 只说明开发者关注度上升，不能证明已被反复用于真实交付。
+  usage_reason_en: 'Inference: compared with manual clip-by-clip tweaking, it packages polishing to motion-design
+    conventions into one reusable agent-skill pass, cutting repeated manual adjustment; freelancers with
+    client-facing quality demands would try it. Stars rising from 88 to 110 only shows growing developer
+    attention, not repeated use in real delivery.'

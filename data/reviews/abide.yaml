@@ -545,3 +545,43 @@
   usage_reason_en: 'Inference: if the product applies project rules as a constraint during generation,
     it could reduce line-by-line post-hoc checking; but without user feedback, adoption, or retention
     evidence, when developers would choose it cannot be confirmed.'
+- id: req-full-abide-2026-10-12
+  project_slug: abide
+  level: full
+  reviewed_at: '2026-10-12T01:51:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决代理不守项目规则的问题，但公开材料未说明偏离规则的具体代价与频率，痛点刚性无法确认，需求强度未明。
+    evidence_ids:
+    - ev-ff29152209289200
+    - ev-4f02537d1a3b30a1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该编码代理规则工具仓库的 README、使用文档与 issue/discussion，核对它如何接入编码代理、规则约束是否确定性生效。
+  market: ''
+  job: 软件开发工程师在让编码代理修改已有代码库时，需要把项目既有的规则文件与代码约定交给代理，让代理产出的改动符合这些约定。
+  job_en: A software developer, while having a coding agent modify an existing codebase, needs to hand
+    the project's existing rule files and conventions to the agent so its changes comply with them.
+  pain: 公开材料没有说明代理偏离项目规则的具体代价、发生频率或用户抱怨，痛点只能从任务结构推测，缺少可引用的用户侧证据。
+  pain_en: Public materials do not state the concrete cost, frequency, or user complaints of agents deviating
+    from project rules; the pain can only be inferred from task structure, with no citable user-side evidence.
+  current_alternative: 开发者目前靠人工审查代理输出、在提示里重复粘贴规则，或依赖代理自带的规则文件支持。
+  current_alternative_en: Developers currently review agent output by hand, paste rules repeatedly into
+    prompts, or rely on the agent's built-in rule-file support.
+  usage_reason: 推断：相较人工逐条核对，abide 把项目规则作为约束施加在代理生成环节，可能减少事后返工；但缺少用户反馈或采用证据，无法确认开发者会持续使用。
+  usage_reason_en: 'Inference: compared with checking rules by hand, abide applies project rules as a
+    constraint during generation, potentially reducing rework; without user feedback or adoption evidence,
+    continued use cannot be confirmed.'

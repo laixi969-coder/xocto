@@ -161,3 +161,49 @@
   usage_reason: 公开材料未说明用户为何会选择它，仅凭仓库星标增长无法解释用户选择原因。
   usage_reason_en: Public materials do not explain why users would choose it; repository star growth alone
     cannot explain user choice.
+- id: req-full-oss-scanner-2026-10-12
+  project_slug: oss-scanner
+  level: full
+  reviewed_at: '2026-10-12T01:55:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选材料只有仓库名与星标、fork、issue 数量，未说明扫描什么材料、执行什么动作、输出什么交付物，连用户任务与痛点都无法还原，无法判断需求是否成立。
+    evidence_ids:
+    - ev-f4df8b7fc0ab4f37
+    - ev-e5b454b5e70a735a
+    - ev-6e2bd1de7cc71489
+    - ev-3dab542a0edb23b2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/anthropics/oss-scanner 的 README、文档与 issue/discussion，确认它接收什么输入、执行什么扫描动作、输出什么交付物。
+  market: ''
+  job: 开源维护者在处理代码仓库时可能打开它，让工具扫描仓库中的代码或依赖材料并输出问题清单；但候选材料只给出仓库名与星标、fork、issue 数量，AI 具体接收什么、执行什么动作、最终交付什么，均未说明。
+  job_en: An open-source maintainer may open it when working on a code repository, letting the tool scan
+    code or dependency material and output a problem list; but the candidate material only gives the repo
+    name plus star, fork and issue counts, and does not state what the AI receives, what action it performs,
+    or what it finally delivers.
+  pain: 公开材料未说明维护者在扫描仓库时具体卡在哪一步、不解决会有什么后果，也没有用户抱怨或 workaround 记录，痛点强度无法从现有证据还原。
+  pain_en: Public material does not state which step maintainers are stuck on when scanning repositories
+    or what happens if it is left unsolved, and there are no user complaints or workaround records, so
+    pain intensity cannot be reconstructed from the available evidence.
+  current_alternative: 公开材料未说明维护者目前用什么方式完成仓库扫描（如既有 linter、依赖审计工具或人工检查），也未说明本产品替代了哪一步。
+  current_alternative_en: Public material does not state how maintainers currently complete repository
+    scanning (e.g. existing linters, dependency audit tools, or manual review), nor which step this product
+    replaces.
+  usage_reason: 仅能确认仓库星标从 65 增至 800，属于关注度证据，不能解释用户为何选择它；缺少产品说明、文档或用户反馈，无法给出相较旧做法的因果理由。
+  usage_reason_en: Only star growth from 65 to 800 is confirmed, which is attention evidence and cannot
+    explain why users choose it; with no product description, docs, or user feedback, no causal reason
+    versus the old approach can be given.

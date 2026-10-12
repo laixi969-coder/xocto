@@ -85,3 +85,49 @@
     collapses interaction into entering a prompt and watching the render, removing the step of hunting
     nodes in the graph; local creators who already own workflow assets but do not want to learn node operation
     would choose it for daily rendering. The candidate provides no retention or repeat-use evidence.'
+- id: req-full-heiss-ui-2026-10-12
+  project_slug: heiss-ui
+  level: full
+  reviewed_at: '2026-10-12T01:54:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地出图时节点图操作门槛这一需求，痛点具体：已有工作流的人不采用就要继续在图里找节点调参，出图准备长且易错；工作流结构推理成立，但交付确定性未展开。
+    evidence_ids:
+    - ev-2afbba21992f8b5c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 49 升至 53，属关注度信号，只能说明有人注意到它，不能证明创作者已把它放进日常出图流程或形成持续采用。
+    evidence_ids:
+    - ev-2afbba21992f8b5c
+    - ev-5458750c16b27aa1
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费方式，钱可能来自捐赠、托管或 to B 定制，这是判断而非已验证事实；买方与付费路径在公开材料中均未出现。
+    evidence_ids:
+    - ev-2afbba21992f8b5c
+  - gate: truth
+    status: insufficient
+    reason: 它贴近出图这一第一性目标，但候选未说明渲染失败、工作流不兼容或参数越界时如何交付，确定性边界与人工确认环节待核验。
+    evidence_ids:
+    - ev-2afbba21992f8b5c
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认它支持哪些 ComfyUI 工作流、渲染失败时的处理方式，以及是否出现用户反馈或重复使用记录。
+  market: ''
+  job: 已有 ComfyUI 工作流的本地图像创作者，在需要出图时打开 HEISS-UI，载入自备工作流、填写提示词并观看渲染，最终拿到渲染图像。
+  job_en: Local image creators who already own ComfyUI workflows open HEISS-UI when they need to render,
+    load their own workflow, enter a prompt and watch the render to obtain the output image.
+  pain: ComfyUI 的节点图对非工程背景创作者是操作门槛：改一个参数要在图里定位节点，出图前的准备步骤长且易错；已有工作流资产的人每次出图都要重复这套图操作。
+  pain_en: 'ComfyUI''s node graph is an operating threshold for creators without an engineering background:
+    changing one parameter requires locating a node in the graph, making pre-render setup long and error-prone;
+    those who already own workflow assets must repeat this graph work on every render.'
+  current_alternative: 旧做法是直接在 ComfyUI 里连节点、调参数出图，或改用云端出图服务并放弃自己的本地工作流与模型资产。
+  current_alternative_en: The old approach is wiring nodes and tuning parameters directly in ComfyUI,
+    or switching to a cloud image service and giving up one's local workflows and model assets.
+  usage_reason: 推断：相较在 ComfyUI 图里逐节点定位参数，它把交互收敛为填写提示词并观看渲染，省去在图里找节点这一步，因此已有工作流资产、又不想每次操作节点图的本地创作者会在日常出图时选择它；候选未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with locating parameters node-by-node in the ComfyUI graph, it
+    collapses interaction into entering a prompt and watching the render, removing the step of hunting
+    for nodes in the graph; local creators who already own workflow assets but do not want to operate
+    the node graph each time would choose it for daily rendering. The candidate provides no retention
+    or repeat-use evidence.'

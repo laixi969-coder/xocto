@@ -23,7 +23,7 @@ summary: 'Consumer Tech (Oct 5-9): SpaceX Expands Wireless Ambitions, Amazon Cut
   Lower Revenue & More TradingView'
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,38 @@
+- id: req-initial-s1-mini-transcript-cleanup-2026-10-12
+  project_slug: s1-mini-transcript-cleanup
+  level: initial
+  reviewed_at: '2026-08-19T22:41:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决转写稿口语化、错字多、不能直接使用的问题，痛点在每次录音后重复出现，不处理的后果是人工校对耗时或文稿不可用。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有页面一句说明与少量点赞，没有用户反馈说明清洗结果是否达到可直接发布的标准。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能来自个人订阅或内容团队采购，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 清洗会改动原文，是否保留原意、是否需人工复核，公开材料未说明，存在改写失真的边界问题。
+    evidence_ids: []
+  next_validation: 收集该产品的官方说明或示例输出，确认清洗后文本的保真程度以及是否提供人工复核环节。
+  market: ''
+  job: 做访谈、播客或会议记录的人，在拿到 ASR 原始转写后，需要把口语、错字和断句整理成可直接发布或归档的文稿。
+  job_en: People producing interviews, podcasts or meeting notes need to turn raw ASR output into a document
+    that can be published or archived directly.
+  pain: 原始转写充满口语重复、错别字和错误断句，人工逐句校对耗时，且这部分工作重复度极高。
+  pain_en: Raw transcripts are full of verbal repetition, misrecognized words and wrong sentence breaks;
+    proofreading line by line is slow and highly repetitive.
+  current_alternative: 人工在文档里逐句修改，或把文本粘进通用聊天助手反复提示。
+  current_alternative_en: Editing sentence by sentence in a document, or pasting the text into a general
+    chat assistant with repeated prompts.
+  usage_reason: 推断：相较人工逐句校对或通用助手反复提示，它把清洗与规范化固定成一次转写后处理，减少重复提示与格式返工，因此转写稿量大的内容团队会在拿到原始转写后直接走这一步。
+  usage_reason_en: 'Inference: versus manual line-by-line editing or repeated prompting in a general assistant,
+    it fixes cleanup and normalization as a single post-transcription step, cutting repeated prompting
+    and format rework, so content teams with high transcript volume would run it right after transcription.'

@@ -23,7 +23,7 @@ summary: Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s
   deals.
 first_seen: '2026-10-12T01:20:56Z'
 last_seen: '2026-10-12T01:20:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

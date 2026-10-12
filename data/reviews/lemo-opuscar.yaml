@@ -601,3 +601,54 @@
     one of 43 styles that already ships with a demo film and hand the style prompt to the agent, skipping
     the step of defining a visual style and building a reference sample, so creators needing fast stylized
     shorts would choose it at the starting stage.'
+- id: req-full-lemo-opuscar-2026-10-12
+  project_slug: lemo-opuscar
+  level: full
+  reviewed_at: '2026-10-12T01:54:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是“无视频模型下快速产出风格化短片”的需求：用户此前要么依赖视频生成模型、要么手写代码做动画，痛点在于定风格与搭渲染管线两步门槛高。仓库提供风格提示词加纯代码样片，交付物是可播放短片，属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-69ad23ee8e613c18
+    - ev-4b6c4658fc477607
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库收藏数从 1,290 增至 1,908 的关注度变化，属规模信号；没有 issue、discussion 或用户评价说明谁在何种场景持续使用，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-69ad23ee8e613c18
+    - ev-af3884adad5a651a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；仓库为开源 skill，钱可能来自 to C 创作者或 to B 内容团队，但这是判断而非已验证事实，属商业证据缺口。
+    evidence_ids:
+    - ev-4b6c4658fc477607
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明为纯代码样片、无视频模型，但公开材料未给出可复现的生成流程、人工确认环节或安全边界，交付能否稳定发生尚缺可核对证据。
+    evidence_ids:
+    - ev-69ad23ee8e613c18
+  next_validation: 追踪 lemo-opuscar 仓库的 issue 与 discussion，确认是否有用户报告实际用其生成短片、替代了哪种旧流程，以及生成流程中的人工确认环节。
+  market: ''
+  job: 独立短片创作者或品牌内容团队在需要快速产出风格化短片时，挑选一种影片风格，把自己的故事素材交给 Claude Code 代理，由代理按该风格的提示词与纯代码样片生成一段可播放的短片。
+  job_en: An indie short-film creator or brand content team, needing a stylized short film quickly, picks
+    one of the film styles, hands their own story material to a Claude Code agent, and has the agent generate
+    a playable short film following that style's prompt and code-only demo reel.
+  pain: 公开材料显示该仓库定位为“无视频模型的短片 skill”，即用户此前要么依赖视频生成模型（成本高、风格不稳定），要么手工写代码做动画短片（门槛高、周期长）；39/43 种风格提示词加纯代码样片的组合，正是为降低“从零定风格、从零搭渲染管线”这两步摩擦而存在。
+  pain_en: 'Public materials frame it as a short-film skill with no video model: previously users either
+    depended on video-generation models (costly, style-unstable) or hand-coded animated shorts (high skill
+    barrier, long cycle). The 39/43 style prompts plus code-only demo reels exist precisely to cut the
+    friction of defining a style from scratch and building a render pipeline from scratch.'
+  current_alternative: 旧做法是直接用视频生成模型（如文生视频/图生视频工具）产出片段，或由具备编程能力的创作者手写动画/渲染代码；公开材料未说明该仓库是否替代了其中某一步，也未给出用户自述的替代行为。
+  current_alternative_en: The prior approach is either generating clips directly with video-generation
+    models (text-to-video / image-to-video tools) or having a code-capable creator hand-write animation/rendering
+    code; public materials do not state which step it replaces, nor give user-reported substitution behavior.
+  usage_reason: 推断：相较旧做法，用户不必先自行确定影片风格并搭建代码渲染流程，而是直接选用仓库中已有的风格提示词与对应纯代码样片，由 Claude Code 代理按该风格执行生成，从而省去“定风格
+    + 搭管线”这两步；因此会在需要快速产出特定风格短片、且已使用 Claude Code 工作流的情况下选择它。仓库收藏数从 1,290 增至 1,908 只说明关注度上升，不作为持续使用证据。
+  usage_reason_en: 'Inference: versus the old approach, users no longer need to first define a film style
+    themselves and build a code rendering pipeline; they pick an existing style prompt and its code-only
+    demo reel from the repo and let the Claude Code agent execute generation in that style, removing the
+    ''define style + build pipeline'' steps. Hence it is chosen when a stylized short film is needed quickly
+    and the user already works in a Claude Code workflow. The star count rising from 1,290 to'

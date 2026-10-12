@@ -1,0 +1,87 @@
+- id: req-initial-onair-2026-10-12
+  project_slug: onair
+  level: initial
+  reviewed_at: '2026-10-12T01:20:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多制式信号接收与解码分散在多个工具里的问题，痛点具体且旧替代行为明确，属于工作流推理。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，缺少用户评价、issue 讨论或采用案例，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  - gate: model
+    status: insufficient
+    reason: 开源免费项目，公开材料未显示付费路径或商业交付方式，买方与收费模式均未核验。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  - gate: truth
+    status: insufficient
+    reason: 未核验解码准确率、硬件兼容范围与人工确认边界，交付确定性仍待公开材料支持。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际报告的硬件兼容、解码失败与使用场景。
+  market: ''
+  job: 无线电爱好者与射频工程师在本地接入 SDR 硬件后，需要接收并解码电视、广播、航空、卫星与业余无线电信号，得到可读的频道、航迹或报文。
+  job_en: Radio hobbyists and RF engineers who connect SDR hardware locally need to receive and decode
+    TV, broadcast, aviation, satellite and ham signals into readable channels, tracks or messages.
+  pain: 过去要在多个命令行工具之间切换，每种制式单独配置，跨平台安装与驱动适配成本高，解码结果分散难以对照。
+  pain_en: Users previously switched among many command-line tools, configured each standard separately,
+    fought cross-platform driver setup, and kept decoded results scattered and hard to compare.
+  current_alternative: GQRX、SDR#、rtl_433、dump1090 等单一用途工具，或自行拼装脚本与驱动。
+  current_alternative_en: Single-purpose tools such as GQRX, SDR#, rtl_433 or dump1090, or self-assembled
+    scripts and drivers.
+  usage_reason: 推断：OnAir 把多种制式的接收与解码收进一个跨平台界面，用户不必为每种信号单独装工具和驱动，因此需要同时监听多个频段的爱好者或工程人员会先试它。
+  usage_reason_en: 'Inference: OnAir folds multi-standard reception and decoding into one cross-platform
+    interface, so users no longer install a separate tool and driver per signal, which is why hobbyists
+    or engineers monitoring several bands at once would try it first.'
+- id: req-full-onair-2026-10-12
+  project_slug: onair
+  level: full
+  reviewed_at: '2026-10-12T01:55:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多制式信号接收与解码分散在多个工具里的问题：用户要同时监听电视、航空、GNSS 与业余频段，旧做法每种制式单独装工具配驱动，结果分散难对照，不解决的后果是重复配置与漏收。此为工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有仓库星标 125 与多制式功能清单，缺少用户评价、issue 讨论或采用案例，无法判断是否形成稳定使用或强场景共识。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  - gate: model
+    status: insufficient
+    reason: 开源免费项目，公开材料未显示定价页、付费路径或商业交付方式，买方与收费模式均未核验；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  - gate: truth
+    status: insufficient
+    reason: 未核验各制式解码准确率、硬件兼容范围与人工确认边界，交付确定性缺少公开材料支持，仅凭功能清单无法确认承诺可确定性兑现。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际报告的硬件兼容、解码失败与使用场景。
+  market: ''
+  job: 无线电爱好者或射频工程师在本地接上 HackRF、RTL-SDR、Airspy 等 SDR 硬件后，需要同时接收并解码数字电视、DAB+、FM、ADS-B、ACARS、GNSS 与业余无线电等信号，在频谱界面里得到可读的频道、航迹或报文。
+  job_en: Radio hobbyists or RF engineers who connect SDR hardware such as HackRF, RTL-SDR or Airspy locally
+    need to receive and decode digital TV, DAB+, FM, ADS-B, ACARS, GNSS and ham signals at once, obtaining
+    readable channels, tracks or messages in a spectrum interface.
+  pain: 公开材料显示旧做法是每种制式各装一套工具：GQRX、SDR#、rtl_433、dump1090 分别配置，跨平台驱动适配成本高，解码结果分散在不同窗口难以对照。
+  pain_en: Public material shows the old path requires one tool per standard — GQRX, SDR#, rtl_433, dump1090
+    configured separately — with costly cross-platform driver setup and decoded results scattered across
+    windows.
+  current_alternative: GQRX、SDR#、rtl_433、dump1090 等单一用途工具，或自行拼装脚本与驱动。
+  current_alternative_en: Single-purpose tools such as GQRX, SDR#, rtl_433 or dump1090, or self-assembled
+    scripts and drivers.
+  usage_reason: 推断：相较逐个安装单一制式工具，OnAir 用一个跨平台界面覆盖多制式接收与解码并内置频谱分析，用户省去为每种信号单独配驱动和切换窗口的步骤，因此需要同时监听多个频段的爱好者或工程人员会先试它。
+  usage_reason_en: 'Inference: versus installing one single-standard tool at a time, OnAir covers multi-standard
+    reception and decoding plus a spectrum analyser in one cross-platform interface, removing per-signal
+    driver setup and window switching, so hobbyists or engineers monitoring several bands at once would
+    try it first.'

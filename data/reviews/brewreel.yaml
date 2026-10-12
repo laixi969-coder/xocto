@@ -550,3 +550,49 @@
     small merchants or marketers without editing staff who need batch vertical assets would choose it
     when racing a campaign deadline. This is inferred from product capability and task structure, not
     confirmed by user feedback.'
+- id: req-full-brewreel-2026-10-12
+  project_slug: brewreel
+  level: full
+  reviewed_at: '2026-10-12T01:53:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小商家无剪辑能力却要持续产出竖版投放素材的需求，痛点是逐条手工挑镜头写文案耗时且外包贵；公开说明已还原输入简报与素材、AI 选镜写文案、一条命令出片的旧流程替代，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-b61c58d11d845929
+    - ev-9a4b8498408a895a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 129 增至 164，说明开发者社区持续关注，但收藏与排名只属关注度证据，不能证明目标小商家已把它留在工作流；缺 issue、discussion 或用户反馈说明实际使用场景。
+    evidence_ids:
+    - ev-b61c58d11d845929
+    - ev-31d1ba1e7730ddc2
+  - gate: model
+    status: insufficient
+    reason: 项目开源可商用，公开材料未见定价页、付费客户或采购记录，钱可能来自 to B 定制或 to VC，这是判断而非已验证事实；开源许可本身不构成收入路径。
+    evidence_ids:
+    - ev-b61c58d11d845929
+  - gate: truth
+    status: insufficient
+    reason: 公开说明称广告法校验仍需人工确认，但未披露镜头来源、素材版权与成片质量的可复现结果，交付能否稳定发生缺公开验证；这是证据缺口，不否定已识别的需求。
+    evidence_ids:
+    - ev-b61c58d11d845929
+  next_validation: 追踪 BrewReel 仓库的 issue、discussion 与 README 部署文档，确认是否有真实商家案例、素材来源与成片交付流程的公开记录。
+  market: ''
+  job: 小商家或营销人员手里只有一份产品简报和零散素材时，打开它把简报交给 AI，由 AI 挑选镜头、写文案并合成竖版宣传片，最终拿到一条可直接投放的成片；广告法校验结果仍需人工确认。
+  job_en: A small merchant or marketer with only a product brief and scattered footage opens the tool,
+    hands the brief to the AI, which selects shots, writes copy and assembles a vertical promo video,
+    ending with a ready-to-run cut; ad-law checks still need human confirmation.
+  pain: 小商家没有剪辑能力也没有预算外包，竖版投放素材要反复出片，人工挑镜头、写文案、套模板是重复且耗时的负担；不解决的后果是素材更新慢、投放节奏被拖住。
+  pain_en: Today they hand-apply templates in CapCut-style editors, outsource to freelance editors, or
+    use platform-native templates; these either still require per-video manual work or are paid per clip.
+  current_alternative: 目前多靠剪映/CapCut 等模板工具手工套用、外包给剪辑师，或直接用平台自带模板；这些做法要么仍需逐条手工操作，要么按条付费。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：相较手工套模板，它把“挑镜头—写文案—合成”压缩成一条命令，用户只需提供简报和素材，减少逐条剪辑与文案撰写的步骤，因此没有剪辑人手、需要批量出竖版素材的小商家或营销人员会在赶投放节奏时选择它。
+  usage_reason_en: 'Inference: versus manual template work, it compresses shot selection, copywriting
+    and assembly into one command, so users only supply a brief and footage, cutting per-video editing
+    and copywriting steps; merchants or marketers without editing staff who need batches of vertical assets
+    would pick it when racing a campaign deadline.'

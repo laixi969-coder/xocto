@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbjlnQVVSTXBM
 summary: SemiAnalysis创始人Dylan Patel：AI基础设施投入被严重低估，真正的回报不只来自Token TradingKey
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

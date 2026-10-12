@@ -1,6 +1,6 @@
 ---
 slug: mecka-ai-secures-60m-funding-led-by-sequoia-and-nvidia
-name: Mecka AI Secures $60M Funding Led by Sequoia and NVIDIA
+name: Mecka AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxObGdIYWMwV2o2
 summary: Mecka AI Secures $60M Funding Led by Sequoia and NVIDIA n24.com.tr
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Mecka AI Secures $60M Funding Led by Sequoia and NVIDIA
+# Mecka AI
 
 Mecka AI Secures $60M Funding Led by Sequoia and NVIDIA n24.com.tr
 

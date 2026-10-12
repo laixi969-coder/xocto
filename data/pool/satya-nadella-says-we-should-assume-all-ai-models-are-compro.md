@@ -32,7 +32,7 @@ summary: 'In a lengthy post on X , Microsoft''s CEO laid out his views on the da
   It''s on that last point that he appears t … Read the full story at The Verge.'
 first_seen: '2026-10-11T01:01:42Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - hackernews

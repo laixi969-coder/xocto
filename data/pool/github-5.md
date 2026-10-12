@@ -22,7 +22,7 @@ summary: "Grok Bot 能看 X ，我的 Dot 也想凑热闹，于是给它俩接�
   \n\r\n非官方集成，代码已开源：\r\nhttps://github.com/UnCooe/grok-dot-bridge\r\n\r\n![偷偷看它俩聊天记录]( https://raw.githubusercontent.com/UnCooe/my-images/main/grok-dot-chat.png)"
 first_seen: '2026-10-12T01:20:29Z'
 last_seen: '2026-10-12T01:20:29Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

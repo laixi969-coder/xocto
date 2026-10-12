@@ -1,0 +1,84 @@
+- id: req-initial-floorgen-2026-10-12
+  project_slug: floorgen
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把口头装修需求变成可讨论平面图的需求，痛点在于不会画图和反复改图，旧做法是手绘或付费出初稿，结构上成立。
+    evidence_ids:
+    - ev-d2df67c4ab2f50c6
+  - gate: consensus
+    status: insufficient
+    reason: 只有产品页一句描述，没有用户评价或案例，无法判断业主和设计师是否真的会把它放进前期沟通环节。
+    evidence_ids:
+    - ev-d2df67c4ab2f50c6
+  - gate: model
+    status: insufficient
+    reason: 标注为免费，未说明后续如何收费，买方可能是业主、装修公司或设计团队，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-d2df67c4ab2f50c6
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成平面图的尺寸准确度、是否合规以及人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-d2df67c4ab2f50c6
+  next_validation: 收集 FloorGen 官方页面上的输出示例与定价说明，核对平面图精度和收费方式。
+  market: ''
+  job: 业主或设计师在装修或购房前，需要把口头需求变成一张能讨论、能修改的户型平面图。
+  job_en: Before renovating or buying, a homeowner or designer needs to turn verbal requirements into
+    a floor plan that can be discussed and revised.
+  pain: 不会画图的人只能靠口头描述或手绘草图沟通，设计师则要花时间把需求转成初稿，来回改图拖慢决策。
+  pain_en: People who cannot draw rely on verbal descriptions or rough sketches, while designers spend
+    time converting requirements into a first draft, and repeated redraws slow decisions.
+  current_alternative: 手绘草图、Excel 或纸笔标注、专业 CAD 软件，或直接付费请设计师出初稿。
+  current_alternative_en: Hand sketches, spreadsheet or paper annotations, professional CAD software,
+    or paying a designer for a first draft.
+  usage_reason: 推断：相较手绘或 CAD，它让用户用一句话或一张草图就得到可继续修改的平面图，省掉从零画图这一步，因此装修前需要快速比选方案的业主和小型设计团队会先试用它。
+  usage_reason_en: 'Inference: compared with hand sketching or CAD, it turns a sentence or a rough sketch
+    into a revisable floor plan, removing the step of drawing from scratch, so homeowners comparing options
+    before renovation and small design teams would try it first.'
+- id: req-full-floorgen-2026-10-12
+  project_slug: floorgen
+  level: full
+  reviewed_at: '2026-10-12T01:54:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把口头装修需求变成可讨论平面图的需求，痛点在于不会画图和反复改图，旧做法是手绘或付费出初稿，结构上成立。
+    evidence_ids:
+    - ev-d2df67c4ab2f50c6
+  - gate: consensus
+    status: insufficient
+    reason: 只有产品页一句描述，没有用户评价或案例，无法判断业主和设计师是否真的会把它放进前期沟通环节。
+    evidence_ids:
+    - ev-d2df67c4ab2f50c6
+  - gate: model
+    status: insufficient
+    reason: 标注为免费，未说明后续如何收费，买方可能是业主、装修公司或设计团队，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-d2df67c4ab2f50c6
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成平面图的尺寸准确度、是否合规以及人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-d2df67c4ab2f50c6
+  next_validation: 收集 FloorGen 官方页面上的输出示例与定价说明，核对平面图精度和收费方式。
+  market: ''
+  job: 业主或设计师在改造住宅前，需要把口头或手绘的户型需求变成一张可讨论、可继续修改的平面图。
+  job_en: Before renovating a home, a homeowner or designer needs to turn verbal or hand-drawn layout
+    requirements into a floor plan that can be discussed and further revised.
+  pain: 不会画图的人只能靠口头描述或潦草草图沟通，设计师则要花时间把需求转成初稿，来回改图拖慢决策。
+  pain_en: People who cannot draw rely on verbal descriptions or rough sketches, while designers spend
+    time converting requirements into a first draft, and repeated redraws slow decisions.
+  current_alternative: 手绘草图、纸笔标注、专业 CAD 软件，或直接付费请设计师出初稿。
+  current_alternative_en: Hand sketches, paper annotations, professional CAD software, or paying a designer
+    for a first draft.
+  usage_reason: 推断：相较手绘或 CAD，它让用户用一句话或一张草图就得到可继续修改的平面图，省掉从零画图这一步，因此装修前需要快速比选方案的业主和小型设计团队会先试用它。
+  usage_reason_en: 'Inference: compared with hand sketching or CAD, it turns a sentence or a rough sketch
+    into a revisable floor plan, removing the step of drawing from scratch, so homeowners comparing options
+    before renovation and small design teams would try it first.'

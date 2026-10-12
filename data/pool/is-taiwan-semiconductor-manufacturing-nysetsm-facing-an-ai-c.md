@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxON2twcDJWWDhy
 summary: Is Taiwan Semiconductor Manufacturing (NYSE:TSM) Facing an AI Chip Valuation Test? Kalkine Media
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

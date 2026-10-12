@@ -1,0 +1,86 @@
+- id: req-initial-boardsy-2026-10-12
+  project_slug: boardsy
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决展位 LED 选型算规格的需求，痛点真实但公开材料只给出免费计算器，未说明 AI 环节与交付边界。
+    evidence_ids:
+    - ev-801dd3770b9f1386
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无行业用户反馈或采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-801dd3770b9f1386
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，判断可能来自搭建商或标识商的按次付费，属推断而非已验证事实。
+    evidence_ids:
+    - ev-801dd3770b9f1386
+  - gate: truth
+    status: insufficient
+    reason: 计算器贴近选型第一性目标，但承诺能否确定性交付、是否需人工复核均无公开材料支持。
+    evidence_ids:
+    - ev-801dd3770b9f1386
+  next_validation: 收集 Boardsy 官方页面上的定价、付费方式或客户案例说明，以核验其商业模式与交付边界。
+  market: ''
+  job: 展会搭建方或活动策划人员在确定展位 LED 屏规格时，根据观看距离和场地尺寸核算像素间距与屏体尺寸。
+  job_en: Exhibition builders or event planners sizing a booth LED wall, calculating pixel pitch and screen
+    dimensions from viewing distance and venue size.
+  pain: 选错像素间距会导致近看颗粒感或成本浪费，过去依赖供应商经验口算，反复沟通耗时。
+  pain_en: Wrong pixel pitch causes visible graininess up close or wasted budget, and the old path relies
+    on vendor experience and repeated back-and-forth.
+  current_alternative: 向 LED 供应商询价并请其代为核算，或用 Excel 与经验公式自行估算。
+  current_alternative_en: Asking LED suppliers to quote and calculate, or estimating with spreadsheets
+    and rule-of-thumb formulas.
+  usage_reason: 推断：相较反复找供应商核算，网页计算器让搭建方在选型阶段自行得到可下单规格，减少一轮沟通；但公开材料未显示 AI 环节、定价或客户案例，是否被长期使用无法确认。
+  usage_reason_en: 'Inference: versus repeatedly asking suppliers, a web calculator lets builders derive
+    an orderable spec during selection, cutting one round of communication; public material shows no AI
+    step, pricing, or customer cases, so sustained use cannot be confirmed.'
+- id: req-full-boardsy-2026-10-12
+  project_slug: boardsy
+  level: full
+  reviewed_at: '2026-10-12T01:53:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决展位 LED 选型时按观看距离与场地尺寸核算像素间距和屏体尺寸的需求，痛点是不核算就易选错间距造成颗粒感或预算浪费；公开材料确认存在免费计算器这一交付形态，属工作流结构推理。
+    evidence_ids:
+    - ev-801dd3770b9f1386
+  - gate: consensus
+    status: insufficient
+    reason: 仅有该免费工具页一条公开事实，没有行业用户反馈、评价或采用记录，无法判断共识卡在感知、想象、场景还是利益环节。
+    evidence_ids:
+    - ev-801dd3770b9f1386
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，钱可能来自搭建商或标识商按次付费，也可能纯免费引流，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-801dd3770b9f1386
+  - gate: truth
+    status: insufficient
+    reason: 计算器贴近选型第一性目标，但公开材料未说明计算结果是否需人工复核、是否含 AI 环节，交付确定性尚无证据。
+    evidence_ids:
+    - ev-801dd3770b9f1386
+  next_validation: 追踪 Boardsy 官网 free-exhibition-display-tools 页面是否新增定价、付费方式或客户案例说明，以核验商业模式与交付边界。
+  market: ''
+  job: 展会搭建方或活动策划人员在确定展位 LED 屏规格时，根据观看距离与场地尺寸核算像素间距和屏体尺寸，得到可下单的屏幕规格。
+  job_en: Exhibition builders or event planners sizing a booth LED wall calculate pixel pitch and screen
+    dimensions from viewing distance and venue size to obtain an orderable screen spec.
+  pain: 公开材料仅说明这是免费 LED 像素间距与屏体尺寸计算器；选错间距导致近看颗粒感或预算浪费、依赖供应商经验反复沟通的痛点属工作流结构推理，尚无用户反馈佐证。
+  pain_en: Public material only states it is a free LED pixel-pitch and display-size calculator; the pain
+    of wrong pitch causing visible graininess or wasted budget and of relying on vendor experience is
+    a workflow inference, not yet backed by user feedback.
+  current_alternative: 向 LED 供应商询价并请其代为核算，或用 Excel 与经验公式自行估算。
+  current_alternative_en: Asking LED suppliers to quote and calculate, or estimating with spreadsheets
+    and rule-of-thumb formulas.
+  usage_reason: 推断：相较反复找供应商核算，网页计算器让搭建方在选型阶段自行输入观看距离与场地尺寸即得可下单规格，省掉一轮询价沟通；但公开材料未显示定价、客户案例或持续使用，选择动机仍属结构推理。
+  usage_reason_en: 'Inference: versus repeatedly asking suppliers, the web calculator lets builders input
+    viewing distance and venue size during selection and get an orderable spec, removing one round of
+    quoting; public material shows no pricing, customer cases or sustained use, so the choice motive remains
+    a structural inference.'

@@ -437,3 +437,53 @@
     into a single-input desktop flow, cutting the steps of moving assets between tools and re-describing
     the idea, so solo story-channel creators with only a text idea and no production crew would pick it
     when they need a finished video fast; public material offers no user feedback or retention evidence.'
+- id: req-full-bang-story-2026-10-12
+  project_slug: bang-story
+  level: full
+  reviewed_at: '2026-10-12T01:52:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决故事类视频从创意到成片的脚本、配图与合成需求，痛点在于跨工具手工串联耗时且重复；公开仓库说明输入创意即自动产出脚本、图片、视频，交付闭环可确定，属工作流结构推理，尚无用户自述痛点强度。
+    evidence_ids:
+    - ev-fb694c8c0e81ff4b
+    - ev-5d553fb55df2176d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 70 升至 129，说明开发者社区持续关注，但收藏与关注只属规模信号，不能证明目标创作者已把它留在日常出片流程；缺少 issue、discussion 或用户评价说明真实使用场景。
+    evidence_ids:
+    - ev-fb694c8c0e81ff4b
+    - ev-5d553fb55df2176d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断收入来自创作者订阅、API 调用还是其他；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-fb694c8c0e81ff4b
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明成片质量、是否需逐段人工确认、生成失败或版权素材的处理方式，交付能否稳定发生缺少可复现证据；安全与人工边界也未披露。
+    evidence_ids:
+    - ev-fb694c8c0e81ff4b
+    - ev-5d553fb55df2176d
+  next_validation: 追踪 bang-story 仓库的 README、issue 与 discussion，确认是否有创作者公开描述实际出片流程、成片质量与人工修改环节。
+  market: ''
+  job: 做 YouTube 故事类视频的独立创作者在只有文字故事创意、没有脚本和素材的情况下，打开这个桌面应用，把创意输入后依次得到脚本、配图和视频，最终拿到可上传的成片文件。
+  job_en: An independent YouTube story-video creator who has only a text story idea opens this desktop
+    app, inputs the idea, and receives script, images, and video in sequence, ending with an uploadable
+    video file.
+  pain: 故事类视频的脚本、配图和剪辑素材需要跨多个工具手工串联，单条视频的前期制作耗时且重复；公开材料只说明产品把这段流程自动化，未提供用户对耗时或放弃代价的自述。
+  pain_en: Script, imagery, and editing assets for story videos must be stitched together manually across
+    several tools, making per-video pre-production slow and repetitive; public materials only show the
+    product automates this chain, not user statements about time cost or abandonment.
+  current_alternative: 公开材料未说明现有替代方式；从任务结构推断，创作者目前会用 ChatGPT 类工具写脚本、用图像生成工具出图、再用剪辑软件合成，或直接外包给剪辑师。
+  current_alternative_en: Public materials do not state the current alternative; inferred from the task
+    structure, creators today use a ChatGPT-like tool for script, an image generator for visuals, and
+    an editor to assemble, or outsource to a video editor.
+  usage_reason: 推断：相较在多个工具间手工搬运脚本和图片，该产品把脚本、配图、视频合成收进一个桌面应用的一次输入流程，减少跨工具复制粘贴和格式转换的步骤，因此只有故事创意、缺少制作班底的独立创作者会在需要批量产出故事视频时选择它；公开材料未提供用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with manually moving script and images across tools, the product
+    folds script, imagery, and video assembly into one input flow in a desktop app, cutting cross-tool
+    copy-paste and format conversion, so solo creators with only a story idea and no production crew would
+    choose it when producing story videos at volume; public materials provide no user feedback confirming
+    this motive.'

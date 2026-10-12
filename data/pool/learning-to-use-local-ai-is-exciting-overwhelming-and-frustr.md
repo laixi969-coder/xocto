@@ -28,7 +28,7 @@ summary: 'Baby’s first local AI agent. | Photo: Antonio G. Di Benedetto / The 
   desktops is how good they … Read the full story at The Verge.'
 first_seen: '2026-10-12T01:20:56Z'
 last_seen: '2026-10-12T01:20:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

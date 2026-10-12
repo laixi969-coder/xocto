@@ -937,3 +937,45 @@
     step of assembling a learning path and letting them reproduce experiments chapter by chapter, so developers
     learning or shipping AI agents would choose it when they need systematic onboarding plus hands-on
     validation; the repository''s 221 stars and 21 forks indicate attention only, not sustained us'
+- id: req-full-ai-agent-book-2026-10-12
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-10-12T01:52:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue 与 discussion，查看是否有读者报告按书中实验成功跑通 Agent 或指出内容缺口。
+  market: ''
+  job: 想用 AI Agent 做产品的开发者或技术学习者，在准备把「AI 助手怎么设计和落地」从概念变成可运行系统时，需要处理设计原理与工程实践材料，跟着实验把 Agent 搭起来。
+  job_en: A developer or technical learner who wants to build with AI agents, when turning 'how to design
+    and ship an AI assistant' from concept into a running system, works through design-principle and engineering-practice
+    material and follows experiments to build the agent.
+  pain: Agent 开发知识散落在论文、博客与各家框架文档里，缺少从原理到工程落地的连贯路径，学习者反复在选型、提示编排与工具调用上试错，不解决就要付出大量自行拼凑的时间成本。
+  pain_en: Agent-building knowledge is scattered across papers, blog posts and framework docs, with no
+    coherent path from principles to engineering practice; learners repeatedly trial-and-error on framework
+    choice, prompt orchestration and tool calling, and leaving it unsolved costs substantial self-assembly
+    time.
+  current_alternative: 旧做法是零散读论文与官方文档、看博客教程、在社区提问，或直接照抄示例代码反复试错。
+  current_alternative_en: The old approach is reading papers and official docs piecemeal, following blog
+    tutorials, asking in communities, or copying sample code and trial-and-erroring.
+  usage_reason: 推断：相较零散文档，它把设计原理与可跟做的实验串成一条从概念到可运行 Agent 的路径，减少在选型与拼凑资料上的步骤；公开材料只显示仓库存在与收藏数，尚无用户反馈或重复使用证据，不能确认已被长期留在工作流里。
+  usage_reason_en: 'Inference: compared with scattered docs, it strings design principles and followable
+    experiments into one path from concept to a running agent, cutting steps spent on framework selection
+    and material assembly; public material only shows the repository exists with a star count, with no
+    user feedback or repeat-use evidence, so long-term workflow retention cannot be confirmed.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxOeUl6dEtRSGF1
 summary: 白线日报｜NVIDIA 洽购 Reflection AI，AI 债务融资较峰值下降 80% 吴说
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

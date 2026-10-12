@@ -180,3 +180,46 @@
     concepts and a woodworking machinery vendor, with no verifiable link to the described macOS image
     retrieval product, and neither capability documentation nor user feedback exists, so any adoption
     motive would be fabricated.'
+- id: req-full-scm-2026-10-12
+  project_slug: scm
+  level: full
+  reviewed_at: '2026-10-12T01:56:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称做 macOS 本地照片视频的 AI 画面检索，但全部证据指向供应链管理与木工机械公司 SCM North America，与影像检索无任何对应，连用户任务和痛点都无法从公开材料还原。
+    evidence_ids:
+    - ev-e184263c38f2ec13
+    - ev-ce6bde9f13483d85
+    - ev-553716741cccc574
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或仓库 README 与 release notes，确认其真实产品定位、支持的媒体格式与索引范围，以排除当前证据与供应链管理词条混淆的可能。
+  market: ''
+  job: 待补充：公开证据未描述任何具体用户、情境或材料，无法还原谁在什么情况下处理什么影像素材、要完成什么检索任务。
+  job_en: 'To be determined: the public evidence describes no specific user, situation, or material, so
+    it is impossible to reconstruct who handles what footage under what circumstances to complete which
+    retrieval task.'
+  pain: 待补充：现有证据全部指向供应链管理（SCM）与木工机械公司 SCM North America，与“macOS 本地照片视频 AI 检索”无任何对应，无法写出该产品的用户痛点。
+  pain_en: 'To be determined: all available evidence points to supply chain management (SCM) and the woodworking
+    machinery company SCM North America, with no correspondence to macOS local photo/video AI search,
+    so no user pain can be stated.'
+  current_alternative: 待补充：公开材料未记录任何旧做法或替代方式，无法说明用户目前如何完成影像素材检索。
+  current_alternative_en: 'To be determined: the public material records no prior practice or substitute,
+    so it cannot be stated how users currently accomplish footage retrieval.'
+  usage_reason: 待补充：证据与产品能力完全错配，无法解释相较旧做法它减少了哪一步负担或改善哪项可核对结果，因此也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'To be determined: the evidence is entirely mismatched with the product capability,
+    so it cannot be explained which step of burden it removes or which checkable result it improves versus
+    the old approach, nor which users would choose it under what circumstances.'

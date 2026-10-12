@@ -1,0 +1,84 @@
+- id: req-initial-artex-ko-plus-2026-10-12
+  project_slug: artex-ko-plus
+  level: initial
+  reviewed_at: '2026-10-12T01:20:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决韩语安全团队把告警整理成事故响应报告的需求，痛点是语言与格式搬运；但具体输入与交付仍待核验。
+    evidence_ids:
+    - ev-708f47edde20582f
+  - gate: consensus
+    status: insufficient
+    reason: 142 星与 117 分支只说明有开发者关注，未见安全团队采用或重复使用的公开证据。
+    evidence_ids:
+    - ev-708f47edde20582f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，推断可能来自安全服务商或企业安全预算，属判断而非已验证事实。
+    evidence_ids:
+    - ev-708f47edde20582f
+  - gate: truth
+    status: insufficient
+    reason: 上游为 AGPL 分支，商用授权与交付确定性未说明，安全场景的人工复核边界也未见描述。
+    evidence_ids:
+    - ev-708f47edde20582f
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认 AI 事故响应功能的具体输入、输出与 AGPL 商用授权说明。
+  market: ''
+  job: 安全分析师在收到入侵告警后，需要把韩语环境下的日志与告警材料整理成攻击链判断和事故响应报告，交给内部或客户。
+  job_en: After an intrusion alert, a security analyst must turn Korean-language logs and alerts into
+    an attack-chain judgement and incident-response report for internal or client use.
+  pain: 韩语安全团队常要在英文工具与本地报告格式之间来回搬运，告警到成文之间靠人工拼接，耗时且容易漏掉处置步骤。
+  pain_en: Korean security teams shuttle between English tools and local report formats, stitching alerts
+    into prose by hand, which is slow and prone to missing response steps.
+  current_alternative: 用英文开源或商业 SIEM/EDR 出告警，再由分析师手工翻译、整理成韩语报告，或依赖厂商自带模板。
+  current_alternative_en: English open-source or commercial SIEM/EDR produces alerts, then analysts manually
+    translate and assemble Korean reports, or rely on vendor templates.
+  usage_reason: 推断：相较手工翻译加拼接，它把韩语界面与事故响应步骤直接放进同一条流程，减少从告警到成文之间的搬运环节，因此韩语安全团队在需要快速出本地语言处置记录时会选择它；是否真正留在工作流尚无留存证据。
+  usage_reason_en: 'Inference: versus manual translation plus assembly, it puts the Korean interface and
+    response steps into one flow, cutting the shuttling between alert and write-up, so Korean security
+    teams needing fast local-language records would pick it; there is no retention evidence yet.'
+- id: req-full-artex-ko-plus-2026-10-12
+  project_slug: artex-ko-plus
+  level: full
+  reviewed_at: '2026-10-12T01:52:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向同名但无关的建材、航空信标与保险风险公司，未提供任何关于韩语安全团队告警处理、语言搬运或报告撰写的材料，连需求与痛点都无法从证据中还原。
+    evidence_ids:
+    - ev-a79179b657e667aa
+    - ev-15856d50fa5511af
+    - ev-15a3334a73946bd2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、issue/discussion 与上游 Autumn-27/ARTEX 的文档，确认 AI 事故响应功能的具体输入、输出与 AGPL 商用授权说明。
+  market: ''
+  job: 安全分析师在收到入侵告警后，需要把韩语环境下的日志与告警材料整理成攻击链判断和事故响应报告，交给内部或客户。
+  job_en: After an intrusion alert, a security analyst must turn Korean-language logs and alerts into
+    an attack-chain judgement and incident-response report for internal or client use.
+  pain: 公开证据未提供任何关于韩语安全团队告警处理流程、语言搬运负担或报告撰写耗时的材料；现有证据全部指向同名但无关的建材、航空信标与保险风险公司，无法确认该产品实际解决什么痛点。
+  pain_en: The public evidence contains nothing about Korean security teams' alert-handling workflow,
+    language-shuttling burden, or report-writing time; all evidence points to unrelated namesakes in building
+    materials, aviation beacons, and insurance risk, so the actual pain point cannot be confirmed.
+  current_alternative: 公开材料未披露安全分析师当前用什么工具或流程替代该产品；无法从证据中还原旧做法。
+  current_alternative_en: The public materials do not disclose what tools or processes security analysts
+    currently use instead; the prior workflow cannot be reconstructed from the evidence.
+  usage_reason: 公开证据未提供任何用户反馈、客户案例或采用记录，无法说明用户为何会选择它；现有证据与产品功能无关，不能支撑使用理由。
+  usage_reason_en: The public evidence provides no user feedback, customer cases, or adoption records
+    to explain why users would choose it; the existing evidence is unrelated to the product's function
+    and cannot support a usage reason.

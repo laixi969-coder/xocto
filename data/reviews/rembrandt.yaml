@@ -167,3 +167,47 @@
   usage_reason_en: No usage reason can be inferred from current evidence; all cited evidence is unrelated
     to the product, lacking product documentation, user feedback, or usage data to support any adoption
     rationale.
+- id: req-full-rembrandt-2026-10-12
+  project_slug: rembrandt
+  level: full
+  reviewed_at: '2026-10-12T01:56:11Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要声称解决 RAW 素材处理与蒙版局部调整，但全部证据均为伦勃朗艺术史资料，无一条涉及摄影后期任务、痛点、频率或替代行为，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-488c2d9bf6e1324c
+    - ev-83b484f3cb21469a
+    - ev-06f3fb1ad7f36cce
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Rembrandt 项目自身的官方仓库或官网页面（README、release、issue/discussion），确认其实际功能范围、支持的 RAW 格式与本地
+    AI 编辑能力，以替代当前误配的伦勃朗艺术史资料。
+  market: ''
+  job: 独立摄影师或小型工作室在交付客户成片前，需要处理 RAW 素材并做蒙版局部调整；Rembrandt 声称在本地读取这些照片、用设备端 AI 完成编辑动作并输出处理后的图片文件，全程不需要账号或订阅。
+  job_en: Independent photographers or small studios processing RAW files and making masked local adjustments
+    before delivering client images; Rembrandt claims to read these photos locally, perform edits with
+    on-device AI, and output processed image files without an account or subscription.
+  pain: 公开证据中没有任何一条描述摄影师在 RAW 处理或蒙版局部调整上的具体痛点、发生频率或不解决的后果；现有证据全部是关于十七世纪荷兰画家伦勃朗的艺术史资料，与照片后期工作流无关。
+  pain_en: None of the public evidence describes a concrete pain point, frequency, or consequence for
+    photographers doing RAW processing or masked local adjustments; all evidence is art-history material
+    about the 17th-century Dutch painter Rembrandt, unrelated to photo post-production workflows.
+  current_alternative: 公开材料未说明用户目前用什么工具完成这项工作，也未说明它实际替代了 Lightroom、Capture One 或其它本地/云端方案中的哪一步。
+  current_alternative_en: Public materials do not state what tools users currently rely on for this job,
+    nor which step of Lightroom, Capture One, or other local/cloud workflows it actually replaces.
+  usage_reason: 无法给出使用理由：证据中没有产品页面、文档、用户反馈或客户案例说明 Rembrandt 通过什么具体动作减少哪一步负担，因此无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: the evidence contains no product page, documentation,
+    user feedback, or customer case showing which concrete step Rembrandt reduces, so it is impossible
+    to explain which users would choose it and when.'

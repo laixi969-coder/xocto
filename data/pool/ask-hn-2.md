@@ -21,7 +21,7 @@ canonical_url: https://news.ycombinator.com/item?id=50039291
 summary: Do you want a router that has DD-WRT pre-installed?
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

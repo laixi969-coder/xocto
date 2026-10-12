@@ -1,0 +1,42 @@
+- id: req-initial-cinelyo-2026-10-12
+  project_slug: cinelyo
+  level: initial
+  reviewed_at: '2026-08-23T14:11:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是按脚本或卖点快速出短片段的需求，痛点是拍摄剪辑成本高、通用工具试错多；旧行为明确，属工作流推理。
+    evidence_ids:
+    - ev-4f3be6975e983ce3
+  - gate: consensus
+    status: insufficient
+    reason: 仅见一条零评论的发布帖，没有用户评价、案例或采用数据，无法判断创作者是否真的把它放进日常出片流程。
+    evidence_ids:
+    - ev-4f3be6975e983ce3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页、计费方式或买方类型，按生成量还是按成片收费无从判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4f3be6975e983ce3
+  - gate: truth
+    status: insufficient
+    reason: 模型由第三方提供，产品自身壁垒与交付确定性未说明，也没有人工确认环节的公开描述。
+    evidence_ids:
+    - ev-4f3be6975e983ce3
+  next_validation: 抓取 Cinelyo 官网定价页与客户案例页，确认其计费方式、目标买方及是否有公开的成片交付案例。
+  market: ''
+  job: 短视频创作者、电商产品视觉人员和影视预演人员在需要按脚本或产品卖点出片时，处理文字提示、参考图和素材，要拿到可直接使用的短片段。
+  job_en: Short-form creators, e-commerce visual staff and previz teams turn scripts or product selling
+    points into usable short clips from text prompts, reference images and assets.
+  pain: 过去要出这类片段，需要拍摄或逐帧剪辑，成本高、周期长；用通用生成工具又要自己拼提示词、反复试错，成片质量不稳定。
+  pain_en: Producing such clips used to require shooting or frame-by-frame editing, which is costly and
+    slow; generic generators force users to hand-craft prompts and retry, with unstable output quality.
+  current_alternative: 自己拍摄加剪辑，或直接用模型厂商的通用生成入口，靠人工反复调提示词和筛选结果。
+  current_alternative_en: Shooting and editing in-house, or using a model vendor's generic generation
+    entry point with manual prompt tuning and result screening.
+  usage_reason: 推断：相较自己拼提示词，它把模型、参考素材和出片参数收在一个浏览器流程里，减少试错与拼接步骤，因此需要按固定规格快速出片、又不想自建生成管线的创作者会先试用它。
+  usage_reason_en: 'Inference: versus hand-assembling prompts, it puts the model, reference assets and
+    output settings into one browser flow, cutting trial-and-error and stitching, so creators who need
+    fixed-spec clips fast without building their own pipeline would try it first.'

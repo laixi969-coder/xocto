@@ -617,3 +617,62 @@
     rule matching and SARIF output into one command, removing the steps of comparing tool descriptions
     by hand and assembling a report, so a security engineer can gate merges in CI; stars rising from 106
     to 185 shows developer attention, but no user feedback or case yet shows it is retained in a workflow.'
+- id: req-full-mcp-audit-tool-2026-10-12
+  project_slug: mcp-audit-tool
+  level: full
+  reviewed_at: '2026-10-12T01:55:07Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是接入第三方 MCP 服务器前缺少专用安全审查手段的问题：配置中可能藏有工具投毒、rug pull、硬编码密钥与命令注入，放行后代理以自身权限执行，事后难回收。公开说明已给出输入（MCP
+      配置）、动作（扫描四类风险）与交付（SARIF 报告），旧做法是人工阅读或直接接入，属工作流结构推理，尚无用户抱怨或事故案例佐证强度。
+    evidence_ids:
+    - ev-437d0fbd835a84e6
+    - ev-f268280d4ebe08fd
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 126 持续升至 213，说明有开发者持续关注并把它加入工具清单；但这是关注度证据，公开材料未显示 issue、讨论或客户案例证明它已被长期留在 CI 工作流中，故共识仅到关注层面。
+    evidence_ids:
+    - ev-437d0fbd835a84e6
+    - ev-acc65d1b32403a82
+    - ev-f268280d4ebe08fd
+  - gate: model
+    status: insufficient
+    reason: 这是纯 Python 开源 CLI，公开材料没有定价页、付费版本、企业支持或采购记录，谁付钱（to B 安全团队、to C 开发者还是仅靠赞助）无法核验；按判断而非已验证事实，最可能的路径是开源引流加企业版或托管扫描服务，但公开证据未支持。
+    evidence_ids:
+    - ev-437d0fbd835a84e6
+  - gate: truth
+    status: insufficient
+    reason: 扫描项与 SARIF 输出在说明中列出，但公开材料没有可复现的检测结果、误报率或人工复核边界说明，无法确认它能否稳定交付可信结论；安全工具若误报漏报，反而增加审查负担，这一环尚缺公开证据。
+    evidence_ids:
+    - ev-437d0fbd835a84e6
+    - ev-8374297141a1d3d7
+  next_validation: 追踪该仓库的 README/文档与 issue、discussion，确认是否公开检测规则清单、误报处理方式与真实接入 CI 的使用案例。
+  market: ''
+  job: 安全工程师或平台工程师在把第三方 MCP 服务器接入自家 AI 代理前，用该 CLI 读取代理的 MCP 配置文件，扫描工具投毒、rug pull、硬编码密钥、命令注入与依赖供应链风险，产出可接入
+    CI 的 SARIF 报告，再人工决定是否放行。
+  job_en: A security or platform engineer, before wiring a third-party MCP server into their AI agent,
+    runs this CLI against the agent's MCP config to scan for tool poisoning, rug pulls, hardcoded secrets,
+    command injection and supply-chain risk, producing a CI-ready SARIF report before manually deciding
+    whether to approve it.
+  pain: MCP 服务器由外部提供方发布，其工具描述与依赖可在接入后变更，配置里还可能夹带密钥或可执行命令；一旦放行，代理会以自身权限调用这些工具，事后排查成本高。公开材料只给出扫描项清单，未提供用户抱怨或事故案例，痛点强度属工作流结构推理。
+  pain_en: MCP servers come from external publishers whose tool descriptions and dependencies can change
+    after adoption, and configs may embed secrets or executable commands; once approved, the agent invokes
+    those tools with its own privileges, making later cleanup costly. Public material only lists scan
+    categories, with no user complaints or incident reports, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 当前替代是人工逐条阅读 MCP 配置与工具描述、凭经验判断第三方服务器是否可信，或干脆不审查直接接入；通用 SAST/SCA 工具并不理解 MCP 工具投毒与
+    rug pull 这类语义，公开材料未显示已有同类 MCP 专用审计工具。
+  current_alternative_en: Today teams either read MCP configs and tool descriptions by hand and judge
+    third-party servers on experience, or skip review and wire them in directly; generic SAST/SCA tools
+    do not understand MCP-specific tool poisoning or rug pulls, and public material shows no comparable
+    MCP-specific audit tool.
+  usage_reason: 推断：相较人工逐条阅读配置，该工具把 MCP 配置作为输入一次性跑出覆盖投毒、密钥、命令注入与供应链的检查结果，并以 SARIF 格式直接进入既有 CI 流水线，省去人工整理审查记录这一步，因此会在接入新
+    MCP 服务器或配置变更的评审节点被安全/平台工程师选用。
+  usage_reason_en: 'Inference: versus reading configs line by line, the tool takes the MCP config as input
+    and emits one pass covering poisoning, secrets, command injection and supply chain, formatted as SARIF
+    that drops into an existing CI pipeline, removing the manual step of compiling review notes; that
+    is why security/platform engineers would pick it at the point of onboarding a new MCP server or reviewing
+    a config change.'

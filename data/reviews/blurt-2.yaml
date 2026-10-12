@@ -131,3 +131,46 @@
   usage_reason_en: 'Inference: if screen recording and narration merge into one input with automatic frame
     marking, retyping and later frame-matching could be removed; but public material gives no usage scenario,
     review or retention evidence, so why users choose it cannot be confirmed.'
+- id: req-full-blurt-2-2026-10-12
+  project_slug: blurt-2
+  level: full
+  reviewed_at: '2026-10-12T01:53:04Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决录屏口述转缺陷条目的需求，但全部证据是同名 2018 年电视电影、词典释义与泛化检索，没有产品说明、用户痛点或旧替代行为，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-fad3c68f4e646bc4
+    - ev-4cabfe1b20a6c3e6
+    - ev-3bc1e9ca7e203ac3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 blurt 官方产品页或仓库 README / issue，确认录屏口述转缺陷条目的实际输出示例与人工确认环节。
+  market: ''
+  job: 开发者或测试人员在复现缺陷、试用新功能时，一边录屏一边口述所见与判断，把画面与语音交给 Claude Code / Codex 这类编码代理，转成带帧定位的缺陷条目、想法与待办。
+  job_en: When reproducing a defect or trying a new feature, developers or testers record the screen while
+    narrating what they see and judge, feeding frames and speech to a coding agent such as Claude Code
+    / Codex to produce frame-anchored bug entries, ideas and to-dos.
+  pain: 公开材料未提供任何用户痛点证据：现有证据全部是 2018 年尼克儿童频道同名电视电影、词典释义与一条泛化市场检索，无法说明截图加手写 issue 丢失上下文、复现步骤反复打字等具体痛点是否真实存在。
+  pain_en: 'No user-pain evidence exists in the public material: all evidence is a 2018 Nickelodeon TV
+    movie of the same name, a dictionary definition, and a generic market query, so it cannot show whether
+    losing context in screenshot-plus-text issues or retyping reproduction steps is a real pain.'
+  current_alternative: 公开材料未记录任何旧替代行为；无法确认用户现在是用截图工具加手写 issue、无时间戳录屏，还是聊天里发语音。
+  current_alternative_en: No prior workaround is documented; it is unknown whether users today rely on
+    screenshot tools plus hand-written issues, untimestamped screen recordings, or voice messages in chat.
+  usage_reason: 无法给出使用理由：证据链中没有产品页面、文档、定价、用户评价或客户案例，只有同名影视与词典条目，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'No usage reason can be given: the evidence chain contains no product page, docs, pricing,
+    user reviews or customer cases, only same-name film and dictionary entries, so it cannot explain which
+    step it removes or which checkable result it improves versus the old way.'

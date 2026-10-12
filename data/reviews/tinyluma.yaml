@@ -140,3 +140,51 @@
     and batch processing inside an ~8MB local tool while preserving workflow metadata, removing the per-image
     work and the manual re-recording of parameters, so batch generators who need a consistent look before
     delivery may pick it; no user feedback or retention evidence yet supports this motive.'
+- id: req-full-tinyluma-2026-10-12
+  project_slug: tinyluma
+  level: full
+  reviewed_at: '2026-10-12T01:57:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量 AI 出图后的统一调色与元数据保留需求，痛点是逐张处理慢、风格难一致、导出丢参数；旧做法为 Photoshop 批处理或 Lightroom 预设逐张处理，不解决的后果是返工与素材难复用。此为工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+    - ev-ebfee04cbd5a96d4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 40 增至 46，属关注度信号，只能说明有人关注，不能证明创作者已把它纳入日常交付流程；缺少用户评价、issue 或案例佐证强场景。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+    - ev-8ddeb20acf8c6a04
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、许可或商业路径，买方与收费方式未知；可能走 to C 创作者付费或开源赞助，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+  - gate: truth
+    status: insufficient
+    reason: 无法确认 Oklab 调色与元数据保留在 Midjourney、Flux、ComfyUI 各类输出下是否一致，也未说明批量处理的人工复核边界与失败处理。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+    - ev-c396bf66994529c9
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 说明与 issue/discussion，确认支持的生成工具格式、元数据保留范围与批量处理实测结果。
+  market: ''
+  job: 用 Midjourney、Flux 或 ComfyUI 批量出图的创作者，在拿到几十上百张成片后，用本地工具对整批图片做统一调色与批量后期，同时保留每张图的生成工作流元数据以便回溯与复用。
+  job_en: Creators who batch-generate images with Midjourney, Flux or ComfyUI take the dozens-to-hundreds
+    of outputs and apply uniform grading and batch post-processing locally, while keeping each image's
+    generation workflow metadata for traceability and reuse.
+  pain: 批量生成后逐张在通用修图软件里调色既慢又难保持一致，且导出常丢失生成参数，导致返工、风格不统一和素材难以复用。
+  pain_en: After batch generation, grading image by image in general retouching software is slow and hard
+    to keep consistent, and exports often drop generation parameters, causing rework, inconsistent style
+    and hard-to-reuse assets.
+  current_alternative: 创作者目前用 Photoshop 批处理动作、Lightroom 预设或自写脚本逐张处理，元数据往往在导出环节丢失。
+  current_alternative_en: Creators currently use Photoshop batch actions, Lightroom presets or self-written
+    scripts image by image, and metadata is often lost at export.
+  usage_reason: 推断：相较逐张在通用修图软件处理，它把统一调色与批量处理收进约 8MB 的本地工具，并保留工作流元数据，省去逐张操作与事后手动补记参数这两步，因此批量出图的创作者在成片交付前会选它；尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: versus per-image work in general retouching software, it folds uniform
+    grading and batch processing into an ~8MB local tool and preserves workflow metadata, removing the
+    per-image step and the manual re-recording of parameters, so batch generators may pick it before delivery;
+    no user feedback or retention evidence yet.'

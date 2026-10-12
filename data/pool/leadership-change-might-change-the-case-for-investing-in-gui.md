@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNS1I4RmlpUm85
 summary: Leadership Change Might Change The Case For Investing In Guidewire Stock (GWRE) Simply Wall Street
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

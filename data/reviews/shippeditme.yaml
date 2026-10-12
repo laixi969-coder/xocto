@@ -1,0 +1,84 @@
+- id: req-initial-shippeditme-2026-10-12
+  project_slug: shippeditme
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决上线后不知是否被看到的问题，但候选只有一句简介，连具体输出什么指标、如何核对都说不清，痛点强度无法判断。
+    evidence_ids:
+    - ev-bbc1c6b3576c96d3
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、案例或采用数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-bbc1c6b3576c96d3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能按项目或按月向独立开发者收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bbc1c6b3576c96d3
+  - gate: truth
+    status: insufficient
+    reason: 数据来源与口径不明，无法核对它给出的可见性结论是否可靠。
+    evidence_ids:
+    - ev-bbc1c6b3576c96d3
+  next_validation: 收集 shippedit.me 官方页面或定价说明，确认它输出的具体指标、数据来源与计费方式。
+  market: ''
+  job: 独立开发者或小团队在把新产品上线后，需要知道它在搜索引擎和 AI 问答里有没有被收录和提及，于是把上线信息提交给该平台查看洞察。
+  job_en: An indie developer or small team that just launched needs to know whether the product is indexed
+    and mentioned in search engines and AI answers, so they submit launch information to the platform
+    and read the insights.
+  pain: 上线后不知道有没有人能看到，搜索收录和 AI 回答中的曝光都缺少现成查看方式。
+  pain_en: After launch it is unclear whether anyone can find the product, and there is no ready way to
+    check search indexing or AI-answer exposure.
+  current_alternative: 手动在搜索引擎里搜自己、看站长工具，或凭感觉判断。
+  current_alternative_en: Manually searching for yourself, checking webmaster tools, or guessing.
+  usage_reason: 推断：它把搜索收录与 AI 问答可见性检查集中到一次提交里，省掉逐个平台手动搜索的步骤，因此刚上线、需要判断曝光的人会试用；但候选只有一句简介，无法确认它是否被重复使用。
+  usage_reason_en: 'Inference: it consolidates search indexing and AI-answer visibility checks into one
+    submission, removing the step of manually searching each platform, so newly launched teams would try
+    it; the candidate gives only one line, so repeat use cannot be confirmed.'
+- id: req-full-shippeditme-2026-10-12
+  project_slug: shippeditme
+  level: full
+  reviewed_at: '2026-10-12T01:56:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线后不知是否被搜索与 AI 问答收录的痛点，旧做法是逐个平台手动搜索或凭感觉判断，不解决的后果是曝光盲区；这是基于产品定位与任务结构的工作流推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-bbc1c6b3576c96d3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 公开资料 产品页一句简介，没有用户评价、案例或采用数据，无法判断是否形成共识或持续使用。
+    evidence_ids:
+    - ev-bbc1c6b3576c96d3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能按项目或按月向独立开发者收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bbc1c6b3576c96d3
+  - gate: truth
+    status: insufficient
+    reason: 数据来源与口径不明，无法核对它给出的 SEO、AEO 可见性结论是否可靠，承诺能否确定性交付无法验证。
+    evidence_ids:
+    - ev-bbc1c6b3576c96d3
+  next_validation: 收集 shippedit.me 官方页面或定价说明，确认它输出的具体指标、数据来源与计费方式。
+  market: ''
+  job: 独立开发者或小团队在把新产品上线后，需要知道它在搜索引擎和 AI 问答里有没有被收录和提及，于是把上线信息提交给该平台查看 SEO、AEO 与增长洞察。
+  job_en: An indie developer or small team that just launched needs to know whether the product is indexed
+    and mentioned in search engines and AI answers, so they submit launch information to the platform
+    and read SEO, AEO and growth insights.
+  pain: 上线后不知道有没有人能看到，搜索收录和 AI 回答中的曝光都缺少现成查看方式，只能靠手动搜索或凭感觉判断。
+  pain_en: After launch it is unclear whether anyone can find the product, and there is no ready way to
+    check search indexing or AI-answer exposure, leaving manual searching or guessing.
+  current_alternative: 手动在搜索引擎里搜自己、看站长工具，或凭感觉判断。
+  current_alternative_en: Manually searching for yourself, checking webmaster tools, or guessing.
+  usage_reason: 推断：它把搜索收录与 AI 问答可见性检查集中到一次提交里，省掉逐个平台手动搜索的步骤，因此刚上线、需要判断曝光的人会试用；但候选只有一句简介，无法确认它是否被重复使用。
+  usage_reason_en: 'Inference: it consolidates search indexing and AI-answer visibility checks into one
+    submission, removing the step of manually searching each platform, so newly launched teams would try
+    it; the candidate gives only one line, so repeat use cannot be confirmed.'

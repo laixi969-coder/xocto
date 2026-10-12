@@ -1,0 +1,38 @@
+- id: req-initial-zyntax-ide-2026-10-12
+  project_slug: zyntax-ide
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决移动端临时改代码与提交的需求，痛点真实但频率与刚性未明，公开材料未说明 AI 代理具体交付什么。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页简介，无用户评价、采用或社区讨论证据，无法判断是否形成使用共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，to C 订阅或买断均属推断，无法核验付费路径。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 移动端输入与调试体验是硬约束，AI 代理能否确定性交付未说明，安全与人工边界不明。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或应用商店页面，确认收费方式与 AI 代理的具体交付内容。
+  market: ''
+  job: Android 设备上的开发者，在离开电脑时打开手机，处理代码文件与 Git 操作，要完成编辑、提交或让 AI 代理执行任务。
+  job_en: Developers on Android devices open their phone away from a computer to handle code files and
+    Git actions, completing edits, commits or agent-executed tasks.
+  pain: 离开桌面后无法方便地改代码或提交，只能等回到电脑前，或忍受手机浏览器与 SSH 的笨拙操作。
+  pain_en: Away from a desktop, editing code or committing is inconvenient; users wait until back at a
+    computer or endure clumsy mobile browser and SSH workarounds.
+  current_alternative: 用手机 SSH 客户端连服务器、网页版 Git 平台，或干脆推迟到回到电脑再处理。
+  current_alternative_en: Mobile SSH clients to a server, web-based Git platforms, or simply deferring
+    the work until back at a computer.
+  usage_reason: 推断：相较 SSH 加网页 Git 的拼凑方式，它把编辑器、终端、Git 与 AI 代理放在同一移动界面，减少在多个应用间切换与手动敲命令的步骤，因此临时需要改代码的移动开发者可能选择它；但公开材料未给出用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: versus stitching SSH with web Git, it puts editor, terminal, Git and an
+    AI agent in one mobile interface, cutting app switching and manual command typing, so mobile developers
+    needing quick edits may choose it; no public user feedback or repeat-use evidence is provided.'

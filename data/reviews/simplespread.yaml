@@ -1,0 +1,81 @@
+- id: req-initial-simplespread-2026-10-12
+  project_slug: simplespread
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，材料只有一句产品定位，价值关无法成立。
+    evidence_ids:
+    - ev-47f13912d8f877fd
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有任何关注或采用数据可判断共识。
+    evidence_ids:
+    - ev-47f13912d8f877fd
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，材料也未说明买方与收费方式。
+    evidence_ids:
+    - ev-47f13912d8f877fd
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，也没有交付结果或人工边界的材料。
+    evidence_ids:
+    - ev-47f13912d8f877fd
+  next_validation: 抓取该开源仓库的 README 与 issue/discussion，确认它是否包含 AI 功能、面向谁、以及用户实际用它替代了哪一步旧流程。
+  market: ''
+  job: Mac 用户在本机打开表格文件，录入、计算和整理表格数据，完成一份可保存或分享的表格结果。
+  job_en: A Mac user opens a spreadsheet file locally, enters, calculates and organizes tabular data,
+    and produces a table result that can be saved or shared.
+  pain: 候选材料没有说明任何具体痛点，只给出“原生、开源 Mac 表格”这一句描述，无法判断用户原来哪里难受。
+  pain_en: The candidate material states no specific pain point beyond 'native, open source Mac spreadsheet',
+    so it is impossible to tell what was painful before.
+  current_alternative: 公开材料未提及替代方式；按常识推断旧做法是 Excel、Numbers 或 Google Sheets，但这是推断，不是材料事实。
+  current_alternative_en: No alternative is mentioned in the material; by common inference the old practice
+    would be Excel, Numbers or Google Sheets, but that is inference, not a stated fact.
+  usage_reason: 材料未给出任何用户反馈、采用或付费证据，无法说明用户为何选择它而非旧表格工具；缺少的一环是具体使用场景与采用证据。
+  usage_reason_en: The material gives no user feedback, adoption or payment evidence, so it cannot explain
+    why a user would choose it over existing spreadsheet tools; the missing link is a concrete use case
+    and adoption evidence.
+- id: req-full-simplespread-2026-10-12
+  project_slug: simplespread
+  level: full
+  reviewed_at: '2026-10-12T01:56:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，材料只有一句产品定位，价值关无法成立。
+    evidence_ids:
+    - ev-47f13912d8f877fd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该开源仓库的 README 与 issue/discussion，确认它是否包含 AI 功能、面向谁、以及用户实际用它替代了哪一步旧流程。
+  market: ''
+  job: Mac 用户在本机打开表格文件，录入、计算和整理表格数据，完成一份可保存或分享的表格结果。
+  job_en: A Mac user opens a spreadsheet file locally, enters, calculates and organizes tabular data,
+    and produces a table result that can be saved or shared.
+  pain: 候选材料只有“原生、开源 Mac 表格”一句定位，未说明任何具体痛点，无法判断用户原来哪里难受。
+  pain_en: The candidate material offers only the positioning 'native, open source Mac spreadsheet' and
+    states no specific pain point, so it is impossible to tell what was painful before.
+  current_alternative: 公开材料未提及替代方式；按常识推断旧做法是 Excel、Numbers 或 Google Sheets，但这是推断，不是材料事实。
+  current_alternative_en: No alternative is mentioned in the material; by common inference the old practice
+    would be Excel, Numbers or Google Sheets, but that is inference, not a stated fact.
+  usage_reason: 材料未给出任何用户反馈、采用或付费证据，无法说明用户为何选择它而非旧表格工具；缺少的一环是具体使用场景与采用证据。
+  usage_reason_en: The material gives no user feedback, adoption or payment evidence, so it cannot explain
+    why a user would choose it over existing spreadsheet tools; the missing link is a concrete use case
+    and adoption evidence.

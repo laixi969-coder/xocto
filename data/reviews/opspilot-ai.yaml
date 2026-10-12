@@ -178,3 +178,45 @@
   usage_reason_en: 'Inference: if the product truly turns meeting input into task, risk and decision items,
     users skip the copy-paste-and-manually-create step across tools; but public material does not state
     inputs, actions or output format, so this is structural reasoning without user feedback or cases.'
+- id: req-full-opspilot-ai-2026-10-12
+  project_slug: opspilot-ai
+  level: full
+  reviewed_at: '2026-10-12T01:55:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决会后纪要、任务与风险分散难追踪的问题，但公开材料只有功能罗列，未说明输入材料、执行动作、交付物与不解决的后果，痛点刚性无法确认，属自嗨拼凑式功能堆叠。
+    evidence_ids:
+    - ev-67645a720b40eecb
+    - ev-270c51915e937853
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，确认它具体接收什么材料、执行哪些动作、产出什么交付物，以及是否有真实用户报告替代了旧流程。
+  market: ''
+  job: 运营或项目负责人在会后需要把会议纪要、决策、任务与风险从文档、任务工具和聊天记录中汇总成可追踪条目，并维护组织记忆。
+  job_en: Operations or project owners need to consolidate meeting notes, decisions, tasks and risks from
+    documents, task tools and chat logs into trackable items and maintain organizational memory.
+  pain: 公开材料只给出功能清单（会议、知识、决策、任务、风险、工作流、组织记忆），没有说明具体输入材料、执行动作、交付物，也没有用户抱怨、频率或不解决的后果；痛点强度无法从公开事实确认。
+  pain_en: Public materials only list features (meetings, knowledge, decisions, tasks, risks, workflows,
+    organizational memory) without specifying inputs, actions, deliverables, user complaints, frequency
+    or consequences of inaction; pain intensity cannot be confirmed from public facts.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作，也未说明它替代了哪些旧工具或手工流程。
+  current_alternative_en: Public materials do not describe how users currently complete this job or which
+    legacy tools or manual processes it replaces.
+  usage_reason: 推断：若产品能把会后分散记录自动归并为任务与风险条目，可减少手工跨工具汇总；但公开材料未说明具体动作与交付，无法确认相较旧做法减少了哪一步负担，因此选择动机不成立。
+  usage_reason_en: 'Inference: if the product could auto-consolidate scattered post-meeting records into
+    tasks and risks, it might reduce manual cross-tool aggregation; but public materials do not specify
+    the concrete action or deliverable, so the reason users would choose it over the old approach cannot
+    be established.'

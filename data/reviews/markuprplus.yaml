@@ -1,0 +1,44 @@
+- id: req-initial-markuprplus-2026-10-12
+  project_slug: markuprplus
+  level: initial
+  reviewed_at: '2026-09-01T14:56:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决向编码代理报缺陷时描述与截图分离、复现步骤易漏的问题，旧做法是手动截图加打字，痛点具体且反复出现，交付物是可核对的 Markdown 与标注截图。
+    evidence_ids:
+    - ev-4bc94d4a49c18391
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标与 fork 数，没有用户评价、客户案例或重复使用数据，无法确认开发者是否已把它留在报缺陷流程里。
+    evidence_ids:
+    - ev-4bc94d4a49c18391
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且未见定价页，买方可能是个人开发者或团队，收费路径尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4bc94d4a49c18391
+  - gate: truth
+    status: insufficient
+    reason: 本地 Whisper 转写与本地优先的承诺方向明确，但转写准确度、标注截图与代理实际读取效果缺少可复现验证材料。
+    evidence_ids:
+    - ev-4bc94d4a49c18391
+  next_validation: 收集 MarkuprPlus 仓库的 issue 与 discussion，查看开发者对转写准确度和代理读取效果的实测反馈。
+  market: ''
+  job: 开发者在向编码代理报缺陷时，需要把屏幕上的现象和自己的口头描述整理成代理能直接读懂的复现材料。
+  job_en: When filing a bug to a coding agent, a developer needs to turn what is on screen plus their
+    spoken description into reproduction material the agent can read directly.
+  pain: 代理看不到屏幕，开发者只能手打文字描述，截图与说明分离，复现步骤容易漏，来回补充消耗时间。
+  pain_en: The agent cannot see the screen, so the developer types a description by hand, screenshots
+    and explanation stay separate, steps get missed and time is lost on back-and-forth.
+  current_alternative: 手动截图加文字描述，或直接把报错日志粘贴进对话。
+  current_alternative_en: Manual screenshots plus a written description, or pasting error logs straight
+    into the chat.
+  usage_reason: 推断：相较手动截图再打字，它把口述转写与标记点截图合成一份结构化 Markdown，省掉整理复现步骤这一步，并让每个标记对应一张可核对的截图；常在向代理报缺陷的开发者会因此选择它。仓库有
+    62 星、28 次 fork，属关注度证据，不能证明持续使用。
+  usage_reason_en: 'Inference: compared with manual screenshots plus typing, it merges narration transcription
+    and per-mark screenshots into one structured Markdown file, removing the step of assembling reproduction
+    steps and giving each mark a checkable screenshot; developers who regularly file bugs to agents would
+    choose it for that. The 62 stars and 28 forks are attention signals, not proof of continued use.'

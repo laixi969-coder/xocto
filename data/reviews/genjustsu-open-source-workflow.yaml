@@ -177,3 +177,55 @@
     lets users review masks, preview generations and export with original audio in one local UI, collapsing
     several manual steps into one review pass — which is why post artists facing many replacement shots
     without reshoots would try it.'
+- id: req-full-genjustsu-open-source-workflow-2026-10-12
+  project_slug: genjustsu-open-source-workflow
+  level: full
+  reviewed_at: '2026-10-12T01:54:15Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决成片人物/物体替换这一具体任务，痛点是逐帧遮罩与合成耗时、遮挡处易穿帮，不解决则需重拍或放弃替换；公开说明已能还原输入（原素材）、动作（深度图+SAM+人脸网格生成遮罩、Seedance
+      生成）与交付（带原声导出），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-34dc14630227cc10
+    - ev-1406f950d1fa6027
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 84 增至 173、471、648，说明英文开发者社区持续关注并把它纳入候选工具链；但公开材料未见用户评价或案例说明它已长期留在生产工作流，采用深度仍属关注度层面。
+    evidence_ids:
+    - ev-34dc14630227cc10
+    - ev-12bd0002a6cf56c1
+    - ev-1406f950d1fa6027
+    - ev-d7f25279a3f1fe0a
+  - gate: model
+    status: insufficient
+    reason: 这是开源工作流，公开材料未给出定价、付费主体或单位经济；可能路径是 TEIN 以托管服务或企业支持变现，但属判断而非已验证事实，to B 付费路径尚未核验。
+    evidence_ids:
+    - ev-34dc14630227cc10
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺本地 Web UI 复核遮罩与带原声导出，但未见可复现的生成质量、失败率或人工与安全边界证据，交付确定性尚不能核验。
+    evidence_ids:
+    - ev-1406f950d1fa6027
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有后期团队公开报告实际替换镜头、替代了哪种旧流程及生成质量结果。
+  market: ''
+  job: 影视/广告后期人员拿到已拍摄的成片素材，需要在保留原声与镜头运动的前提下，把画面中指定的人物或物体替换成新形象，并在本地 Web UI 里逐帧确认遮罩与生成结果后导出成片。
+  job_en: Post-production staff in film/advertising take already-shot footage and must replace designated
+    characters or objects with new ones while preserving original audio and camera motion, confirming
+    masks and generations frame by frame in a local web UI before export.
+  pain: 传统替换依赖逐帧 rotoscoping、抠像与手工合成，人物遮挡、发丝和运动模糊处最耗时；不解决则只能重拍、放弃替换或接受穿帮镜头，直接拖慢交付周期。
+  pain_en: Traditional replacement relies on frame-by-frame rotoscoping, keying and manual compositing,
+    with occlusion, hair and motion blur being the most time-consuming; leaving it unsolved means reshoots,
+    abandoning the replacement, or shipping visible artifacts, which delays delivery.
+  current_alternative: 公开材料未直接描述用户现有做法；从工作流结构推断，替代方式是 After Effects/Nuke 手工遮罩合成，或直接用通用视频生成模型逐段重绘再人工对齐音频。
+  current_alternative_en: Public materials do not directly describe current practice; inferred from workflow
+    structure, alternatives are manual masking/compositing in After Effects or Nuke, or per-segment redrawing
+    with general video generation models followed by manual audio alignment.
+  usage_reason: 推断：相较手工逐帧遮罩，它用深度图、SAM 分割与人脸网格自动生成候选遮罩，把最耗时的圈选步骤压缩为人工复核，并在同一界面预览生成、带原声导出，因此需要批量处理替换镜头、又缺乏专职
+    roto 人力的后期团队会优先试用。
+  usage_reason_en: 'Inference: versus manual frame-by-frame masking, it auto-generates candidate masks
+    via depth maps, SAM segmentation and face meshes, compressing the most time-consuming selection step
+    into human review, and previews generations with original-audio export in one UI, so post teams handling
+    many replacement shots without dedicated roto staff would try it first.'

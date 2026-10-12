@@ -177,3 +177,53 @@
     model comparison, Python execution and result verification into one reproducible local workflow, cutting
     the cost of shuttling problem text and code between tools and of untraceable results, so time-pressed
     teams needing reproducible output would pick it once the problem drops.'
+- id: req-full-mathmodel-copilot-2026-10-12
+  project_slug: mathmodel-copilot
+  level: full
+  reviewed_at: '2026-10-12T01:55:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决竞赛学生在三到四天窗口内完成审题、模型选择、代码运行与结果核验的需求，痛点是时间刚性且模型选错代价高；公开材料只给出产品能力，痛点强度属工作流结构推理，尚无参赛者自述佐证。
+    evidence_ids:
+    - ev-c18692209936235e
+    - ev-625351d6c35e44e2
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 增至 50，说明开发者持续关注，但无用户反馈、issue 或案例证明参赛者已把它放进备赛流程，关注度不能替代持续采用。
+    evidence_ids:
+    - ev-c18692209936235e
+    - ev-625351d6c35e44e2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式；判断上可能面向学生 to C 订阅或面向高校 to B 授权，均非已验证事实，属商业证据缺口而非需求缺口。
+    evidence_ids:
+    - ev-c18692209936235e
+  - gate: truth
+    status: insufficient
+    reason: 交付依赖模型输出与 Python 执行环境，公开材料未说明结果核验如何避免错误结论、以及人工确认边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-c18692209936235e
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认是否有参赛者公开描述实际备赛使用流程与结果核验反馈。
+  market: ''
+  job: 参加国赛 CUMCM 或美赛 MCM/ICM 的学生在拿到赛题后，把题目文本和已有数据交给它，由它做审题拆解、比较候选模型、运行 Python 代码并核验结果，最后产出论文素材，模型选择与结论仍由参赛者自己确认。
+  job_en: Students in CUMCM or MCM/ICM, after receiving the problem statement, hand the prompt text and
+    available data to it so it breaks down the problem, compares candidate models, runs Python code and
+    verifies results, then produces paper material, while the contestant still confirms model choice and
+    conclusions.
+  pain: 竞赛窗口只有三到四天，审题偏差、模型选错或代码跑不通都会直接压缩写作时间；公开材料未给出参赛者自述的痛点强度，此处为工作流结构推理。
+  pain_en: The contest window is only three to four days, and misreading the problem, choosing the wrong
+    model or failing to run code directly squeezes writing time; public materials give no self-reported
+    pain intensity, so this is workflow-structural inference.
+  current_alternative: 参赛者通常靠往年优秀论文、队友分工、通用大模型对话和本地 Python 环境拼凑流程，模型比较与结果核验缺少可复现的固定环节。
+  current_alternative_en: Contestants typically stitch together past award papers, teammate division of
+    labor, general LLM chats and a local Python environment, with no reproducible fixed step for model
+    comparison and result verification.
+  usage_reason: 推断：相较通用大模型对话加本地脚本，它把审题、模型比较、代码运行与结果核验串成一条可复现工作流，减少在多个工具间搬运题目与数据、并手工核对代码是否跑通这两步；因此时间紧、需要可复现记录的参赛队会在赛题到手后选择它。
+  usage_reason_en: 'Inference: versus general LLM chat plus local scripts, it chains problem parsing,
+    model comparison, code execution and result verification into one reproducible workflow, removing
+    the steps of shuttling problem text and data between tools and manually checking whether code ran;
+    teams under time pressure needing a reproducible record would therefore pick it once the problem is
+    released.'

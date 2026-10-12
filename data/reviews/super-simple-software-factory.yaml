@@ -645,3 +645,54 @@
     who need agent steps inside a repeatable build and do not want to rewrite orchestration each time
     would adopt it in an existing repo; public materials contain no user feedback or case confirming this
     motive.'
+- id: req-full-super-simple-software-factory-2026-10-12
+  project_slug: super-simple-software-factory
+  level: full
+  reviewed_at: '2026-10-12T01:56:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把编码代理调用顺序固化为可重复流程的需求，痛点是代理输出不稳定、多步任务靠人工串联、换仓库即重搭且出错无法定位到具体步骤。公开材料只给出产品形态与仓库关注度，未给用户自述痛点，故价值成立属工作流结构推理而非采用事实。
+    evidence_ids:
+    - ev-e19abd976d04f70c
+    - ev-1de658a6c11f39c1
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有两个配套仓库的收藏数在数周内从 171/213 缓慢升至 178/221，属关注度而非持续采用；没有 issue、discussion 或客户案例说明谁在真实仓库里长期运行该流程，因此共识层证据不足。
+    evidence_ids:
+    - ev-e19abd976d04f70c
+    - ev-1de658a6c11f39c1
+    - ev-96a9af4a617b99b0
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费主体或采购记录，无法判断收入来自 to C 开发者、to B 团队还是仅靠开源与融资维持；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-d813bf36e36266f3
+  - gate: truth
+    status: insufficient
+    reason: 确定性 Python 掌管图、代理作为受约束节点这一承诺在结构上可核验，但公开材料未给出部署文档、可复现实测或人工确认与安全边界说明，交付能否稳定发生仍缺证据。
+    evidence_ids:
+    - ev-e19abd976d04f70c
+  next_validation: 追踪该项目的官方仓库 README 与 issue/discussion，确认是否有真实仓库部署记录、可复现运行示例及人工确认环节说明。
+  market: ''
+  job: 开发者在已有代码仓库中，把多个编码代理的调用顺序、输入输出和重试规则固定成一条可重复运行的流水线，处理的是仓库内的代码与任务描述，要完成的是让同一套代理加代码流程每次都能按相同步骤执行并产出可核对的改动。
+  job_en: Inside an existing repository, a developer fixes the call order, inputs/outputs and retry rules
+    of several coding agents into a repeatable pipeline, working on repo code and task descriptions so
+    the same agent-plus-code workflow runs the same steps and produces checkable changes every time.
+  pain: 编码代理单次调用结果不稳定，多步任务靠人工在对话里反复粘贴上下文、手动串联步骤，换一个仓库或换一个人就要重搭一遍；流程无法复现时，出错只能重跑整段对话，无法定位是哪一步的代理输出偏离。
+  pain_en: Single coding-agent calls are unstable; multi-step tasks rely on manually pasting context and
+    chaining steps in chat, and the setup must be rebuilt for each repo or person. When the flow is not
+    reproducible, a failure means rerunning the whole conversation with no way to locate which agent step
+    drifted.
+  current_alternative: 当前替代方式包括：在 IDE 或终端里手工逐条调用编码代理并复制粘贴上下文；用 shell 脚本、Makefile 或 CI 配置把若干命令串起来；或使用通用工作流编排工具自行搭建代理节点。
+  current_alternative_en: Current alternatives include manually invoking coding agents one by one in an
+    IDE or terminal with copy-pasted context; chaining commands via shell scripts, Makefiles or CI config;
+    or building agent nodes on general-purpose workflow orchestrators.
+  usage_reason: 推断：相较手工串联对话或自写脚本，它把编排逻辑交给确定性 Python 掌管、把编码代理降为受约束节点，从而减少“每次重搭流程”和“出错无法定位到具体步骤”这两步负担；因此会在需要同一流程跨仓库反复执行、且要求步骤可核对的开发者场景中被选择。公开材料尚未给出用户自述的采用动机。
+  usage_reason_en: 'Inference: versus hand-chaining conversations or writing ad-hoc scripts, it puts orchestration
+    in deterministic Python and demotes coding agents to bounded nodes, removing the ''rebuild the flow
+    each time'' step and the ''cannot locate the failing step'' burden; it would therefore be chosen by
+    developers who need the same flow to run repeatedly across repos with checkable steps. Public materials
+    do not yet give user-stated adoption motives.'

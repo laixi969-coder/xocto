@@ -429,3 +429,47 @@
   usage_reason_en: 'Cannot be determined: the evidence contains no user feedback, customer cases, or adoption
     records for this framework, nor a verifiable input-action-delivery loop, so it cannot explain which
     users would choose it for what concrete action.'
+- id: req-full-dioramas-2026-10-12
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-12T01:53:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向实体微缩景观（diorama）的百科与展览介绍，未提供任何关于三维网页制作需求、痛点或替代行为的用户材料，连要解决什么需求都无法从证据中还原。
+    evidence_ids:
+    - ev-98e7f64171582fd2
+    - ev-a229c5da5a33a218
+    - ev-84703833c723103d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该框架的官方仓库 README、issue 与 discussion，确认其是否真实存在、是否有团队用它交付商业站点，以及素材生成与部署流程。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理AI生成的三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with AI-generated 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 公开材料未提供任何关于三维发布页制作痛点的用户陈述、抱怨或替代行为记录；现有证据全部指向实体微缩景观（diorama）这一同名概念，与三维网页制作无关。
+  pain_en: The public material contains no user statements, complaints, or workaround records about the
+    pain of building 3D launch pages; all evidence points to the physical miniature-scene concept of 'diorama',
+    unrelated to 3D web production.
+  current_alternative: 公开材料未记录目标用户当前如何完成三维发布页，无法确认旧做法是外包建模与前端、使用通用模板，还是其他方式。
+  current_alternative_en: The public material does not record how the target users currently build 3D
+    launch pages, so it is impossible to confirm whether the old approach is outsourced modeling and front-end,
+    generic templates, or something else.
+  usage_reason: 无法判断：现有证据均为实体微缩景观的百科与展览介绍，未涉及该框架的素材生成、编排或部署流程，也没有任何用户选择它的记录，因此无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Cannot be determined: the available evidence consists of encyclopedia and exhibition
+    descriptions of physical miniature scenes, with no coverage of the framework''s asset generation,
+    orchestration, or deployment, and no record of any user choosing it, so it is impossible to explain
+    which step it removes relative to the old approach.'

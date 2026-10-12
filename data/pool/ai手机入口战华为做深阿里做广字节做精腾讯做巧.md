@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE83QmIzSVROR1JX
 summary: AI手机入口战：华为做深，阿里做广，字节做精，腾讯做巧 ThePaper.cn
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

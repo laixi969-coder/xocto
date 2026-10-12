@@ -1,0 +1,39 @@
+- id: req-initial-inxm-local-2026-10-12
+  project_slug: inxm-local
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只能看出它想改变模型调用的位置，说不清谁在什么节点用它、处理什么材料、拿到什么交付，需求与痛点尚未成形。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有少量社区讨论，无法判断是否有强场景。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，开源项目未见定价或付费路径。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，构建期产物的确定性与人工边界均无材料支持。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README 与示例目录，确认它接收什么输入、产出什么构建期交付物。
+  market: ''
+  job: 开发者希望在构建阶段用大模型生成或转换代码产物，而不是在运行时调用模型，从而让线上服务保持确定性。
+  job_en: Developers want to use a large model at build time to generate or transform code artifacts instead
+    of calling a model at runtime, keeping the live service deterministic.
+  pain: 运行时调用模型带来延迟、成本和输出不确定，构建期与运行期的职责边界不清。
+  pain_en: Calling a model at runtime brings latency, cost and non-deterministic output, and the boundary
+    between build-time and run-time responsibilities is unclear.
+  current_alternative: 常见做法是在运行时直接调用模型 API，或把生成结果手工固化进代码库。
+  current_alternative_en: The common approach is calling a model API at runtime, or manually freezing
+    generated output into the codebase.
+  usage_reason: 推断：若它能把模型调用固定在构建阶段并产出可复现的代码产物，开发者会在对延迟和成本敏感的构建流水线里选用它；但公开材料未说明输入、动作与交付，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if it pins model calls to the build stage and yields reproducible code
+    artifacts, developers would adopt it in latency- and cost-sensitive build pipelines; but public material
+    does not describe input, action or output, so it cannot be confirmed that this step''s burden is actually
+    reduced.'

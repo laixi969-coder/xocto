@@ -168,3 +168,45 @@
   usage_reason_en: 'Cannot be determined: no evidence describes this penetration-testing product''s input,
     action or delivery, and no user feedback explains why anyone would choose it, so no usage reason can
     be given.'
+- id: req-full-artex-2026-10-12
+  project_slug: artex
+  level: full
+  reviewed_at: '2026-10-12T01:52:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称是 AI 自主渗透测试系统，但全部证据指向同名无关实体：英国 Artex 天花板涂料、ACR ARTEX 航空应急定位信标、Artex Risk 保险风险服务，无一条涉及渗透测试。连用户任务、痛点与现有替代都无法从公开事实还原，价值结构不成立。
+    evidence_ids:
+    - ev-b463476f516cb569
+    - ev-2d8e4c85ea2c52c4
+    - ev-b7ace8f1be55f424
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度“agent+”攻防挑战赛官方获奖公示与项目仓库/文档，确认 ARTEX 的真实产品页面、输入输出与部署说明，替换当前同名无关证据。
+  market: ''
+  job: 安全团队在获得授权的渗透测试项目中，把目标环境交给这套自主渗透测试系统，由 AI 代理执行探测与攻击链尝试，最终产出测试结果；但公开材料未说明输入格式、人工复核边界与交付物形态。
+  job_en: A security team, on an authorized penetration-testing engagement, hands a target environment
+    to this autonomous pentest system so AI agents run probing and attack-chain attempts and produce test
+    results; public materials do not specify input format, human-review boundaries, or deliverable form.
+  pain: 公开证据中没有一条来自该产品的用户材料，无法说明渗透测试工程师在授权测试中具体卡在哪一步、不解决会付出什么代价、发生频率多高。
+  pain_en: No public evidence comes from this product's users, so it cannot be shown which step of authorized
+    pentesting actually hurts, what it costs to leave unsolved, or how often it recurs.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它替代了人工渗透测试、脚本化扫描还是既有自动化工具。
+  current_alternative_en: Public materials do not show how users complete this job today, nor whether
+    it replaces manual pentesting, scripted scanning, or existing automation tools.
+  usage_reason: 缺少任何来自该产品的用户反馈或客户案例，无法解释相较旧做法它减少了哪一步负担或改善了哪项可核对结果；现有证据全部指向同名无关实体，不能作为采用理由。
+  usage_reason_en: With no user feedback or customer case tied to this product, there is no basis to explain
+    which step it removes or which checkable result it improves versus the old approach; all available
+    evidence points to unrelated same-name entities and cannot support adoption reasoning.

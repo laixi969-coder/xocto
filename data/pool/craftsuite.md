@@ -21,7 +21,7 @@ canonical_url: https://craftsuite.net
 summary: An unofficial download picker for the ArtCraft Rust apps
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

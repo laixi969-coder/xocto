@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE90ZDhLXzdJSHRm
 summary: AI不聊天了，争相替你干活，全行业All-in多智能体｜未来最稀缺的，不是会用AI的人，是会“管理”AI的人 ThePaper.cn
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

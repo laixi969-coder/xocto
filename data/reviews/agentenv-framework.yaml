@@ -219,3 +219,51 @@
   usage_reason_en: 'Inference: if the framework cuts repeated artifact and reproducibility setup, teams
     evaluating agents would pick it when comparing multiple environments; there is no usage feedback or
     adoption evidence to confirm this motive yet.'
+- id: req-full-agentenv-framework-2026-10-12
+  project_slug: agentenv-framework
+  level: full
+  reviewed_at: '2026-10-12T01:52:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 RL 团队搭建可复现智能体训练环境的需求：跨研究员、工程师与领域专家协作，涉及工件、工具、动态性与复现，且公开材料称缺少开源框架，团队只能各自拼脚本，环境难复现与比较。这是基于公开事实的工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+    - ev-f9f993b81c46bb99
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 99 增至 238，说明关注度在上升，但公开材料没有 issue、discussion 或客户案例显示团队已把它纳入日常训练流程，持续采用无法确认。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+    - ev-f9f993b81c46bb99
+  - gate: model
+    status: insufficient
+    reason: 这是开源框架，公开材料未披露定价、商业服务、支持合同或任何付费方，钱可能来自 to B 支持服务或 to VC 资助，但均属判断而非已验证事实。
+    evidence_ids:
+    - ev-f9f993b81c46bb99
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出框架定位，没有部署文档、复现实测或评测对齐结果，无法核验环境是否真能确定性复现，承诺交付仍待证据。
+    evidence_ids:
+    - ev-4493e58e28f4f12d
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有团队公开报告用其搭建并复现了具体训练环境。
+  market: ''
+  job: 强化学习研究与工程团队在训练或评测智能体时，需要把环境工件、工具调用、环境动态性和复现配置组织成一套可共享、可重复运行的环境，供研究员、工程师与领域专家协作使用。
+  job_en: RL research and engineering teams training or evaluating agents need to organize environment
+    artifacts, tool calls, environment dynamism and reproducibility config into a shareable, re-runnable
+    environment for researchers, engineers and domain experts to collaborate on.
+  pain: 公开材料指出这类环境构建需要跨研究员、工程师、领域专家多方协作，涉及工件、工具、动态性与复现等多个维度，且缺少开源框架，团队只能各自拼内部脚本，环境难以被他人复现和横向比较。
+  pain_en: The public material states that building such environments requires collaboration across researchers,
+    engineers and domain experts over artifacts, tools, dynamism and reproducibility, and that no open-source
+    framework exists, so teams stitch together internal scripts and environments are hard for others to
+    reproduce or compare.
+  current_alternative: 团队各自编写脚本、拼装内部工具链来搭建训练环境，没有共享框架，复现与交接靠口头或零散文档。
+  current_alternative_en: Teams write their own scripts and stitch together internal tooling to build
+    training environments, with no shared framework and reproduction or handoff relying on ad-hoc docs.
+  usage_reason: 推断：相较各自拼脚本，该框架把工件、工具、动态性与复现要求收敛为统一组织方式，减少为每个环境重复搭建与对齐配置的步骤，因此需要横向比较多个环境或与他人共享环境的 RL 团队会在搭建新环境时选择它；目前尚无使用反馈或客户案例证实这一动机。
+  usage_reason_en: 'Inference: compared with stitching scripts, the framework consolidates artifacts,
+    tools, dynamism and reproducibility into one organizing scheme, cutting the repeated setup and alignment
+    work per environment, so RL teams that compare or share multiple environments would pick it when building
+    a new one; no usage feedback or customer case confirms this motive yet.'

@@ -687,3 +687,59 @@
     a separate IntentSpec contract layer that probes, asks, or halts before routing, reducing downstream
     validation and fallback branches for vague input; developers building agent routers or typed decision
     models would choose it when input quality directly determines routing accuracy.'
+- id: req-full-intent-router-2026-10-12
+  project_slug: intent-router
+  level: full
+  reviewed_at: '2026-10-12T01:54:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是模糊自然语言请求进入 agent 路由前缺少类型化意图契约的问题，痛点在于歧义输入导致下游路由或决策模型误分派、需人工兜底；公开说明明确输入为 vague requests
+      并给出 probe/ask/halt 的交付动作，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-eb512c3b3c618466
+    - ev-1f348084c8f00e89
+  - gate: consensus
+    status: supported
+    reason: 公开代码仓库 仓库收藏从 923 增至 1,006、1,043、1,068，说明英文开发者生态已持续关注该输入层；但收藏属关注度证据，不能证明已长期嵌入工作流，故共识仅到初步成立。
+    evidence_ids:
+    - ev-eb512c3b3c618466
+    - ev-1f348084c8f00e89
+    - ev-0a8661eae378c77a
+    - ev-2846ff0122b47a80
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与说明，未见定价页、付费主体或 to B/to C 采购路径；谁付钱、按什么单位收费均未核验，这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-eb512c3b3c618466
+    - ev-33505d11bb8bdf9a
+  - gate: truth
+    status: insufficient
+    reason: probe/ask/halt 的交付确定性、失败处理与人工边界缺少可复现的部署文档或 issue 证据；仓库说明只描述能力，未证明在真实路由链路中稳定交付。
+    evidence_ids:
+    - ev-1f348084c8f00e89
+    - ev-0a8661eae378c77a
+  next_validation: 追踪 Intent-Router 仓库的 README/部署文档与 issue、discussion，确认是否有开发者公开描述接入路由链路、替代了原有手写清洗逻辑的实际使用记录。
+  market: ''
+  job: 构建 agent 路由或决策模型的开发者，在把用户模糊的自然语言请求接入路由/决策层之前，先把请求交给 Intent-Router，由它收敛成带类型的 IntentSpec 契约，并在信息不足时探测、追问或中止，最终拿到可被下游路由消费的结构化意图输入。
+  job_en: Developers building agent routers or decision models, before feeding vague natural-language
+    user requests into the routing/decision layer, pass them through Intent-Router, which converges them
+    into typed IntentSpec contracts and probes, asks, or halts when information is insufficient, yielding
+    structured intent input consumable by downstream routers.
+  pain: 公开说明指出输入是“vague requests”，即模糊请求直接进入路由会导致意图歧义、类型缺失，下游路由或决策模型无法可靠分派；不处理的后果是错误路由或需要人工兜底，而现有做法缺少在路由前统一探测、追问、中止的输入层。
+  pain_en: 'The public description states the input is ''vague requests'': ambiguous, untyped requests
+    entering routing cause misdispatch by downstream routers or decision models; without handling, the
+    consequence is wrong routing or manual fallback, and existing practice lacks a unified pre-routing
+    layer that probes, asks, or halts.'
+  current_alternative: 当前替代方式推断为：开发者在自己的路由或 agent 代码里手写 prompt 约束、正则/关键词匹配或临时校验逻辑来清洗和分类用户输入，没有独立的意图契约层。
+  current_alternative_en: 'The inferred current alternative: developers hand-write prompt constraints,
+    regex/keyword matching, or ad-hoc validation inside their own router or agent code to clean and classify
+    user input, with no separate intent-contract layer.'
+  usage_reason: 推断：相较在路由代码里手写清洗与分类逻辑，Intent-Router 把“探测—追问—中止”收敛为一次可复用的编译动作，输出带类型的 IntentSpec，使下游路由不再各自处理模糊输入；因此正在搭建
+    agent 路由或决策模型、且被模糊输入困扰的开发者会在接入阶段选择它。
+  usage_reason_en: 'Inference: compared with hand-writing cleaning and classification logic inside router
+    code, Intent-Router turns probe-ask-halt into one reusable compilation step that emits typed IntentSpec,
+    so downstream routers no longer each handle vague input; developers building agent routers or decision
+    models and struggling with vague input would adopt it at the integration stage.'

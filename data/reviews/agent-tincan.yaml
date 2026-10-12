@@ -607,3 +607,54 @@
     for agent-to-agent help, removing the step of separately exposing ports and writing addressing, so
     developers already managing multi-host agents on Tailscale would pick it when cross-host collaboration
     is needed; stars rising from 223 to 277 show attention only, not sustained use.'
+- id: req-full-agent-tincan-2026-10-12
+  project_slug: agent-tincan
+  level: full
+  reviewed_at: '2026-10-12T01:52:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 跨主机互相求助的需求：agent 分散在不同机器时缺少可自托管的私有调用通道，旧做法是手工搭端点或走公网中转。痛点刚性与交付闭环由产品定位和 Tailscale
+      网络结构推理得出，尚无用户抱怨或案例佐证，属结构推理而非量化验证。
+    evidence_ids:
+    - ev-43e7250ca80810f7
+    - ev-da89e98d57378617
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 228 增至 284，说明开发者社区持续关注，但收藏与关注只属规模信号，不能证明目标用户已把它留在工作流；缺少 issue、discussion 或部署案例说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-43e7250ca80810f7
+    - ev-8561f45e35e477a8
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未见定价页、付费主体或采购记录；钱可能来自 to C 开发者自用或 to B 团队自托管支持，属判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-da89e98d57378617
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有一句定位与收藏数，未见部署文档、可复现实测或安全边界说明，无法核验跨主机求助请求能否确定性送达、失败如何处理，以及人工确认环节是否存在。
+    evidence_ids:
+    - ev-43e7250ca80810f7
+  next_validation: 追踪 agent-tincan 仓库的 README、部署文档与 issue/discussion，确认是否有开发者描述具体部署场景、替代的旧流程与跨主机求助的实际运行结果。
+  market: ''
+  job: 自建或混合部署多个 AI agent 的开发者，在 agent 分散于不同机器、需要互相调用能力时，打开这个开源项目，把 agent 之间的求助请求经 Tailscale 网络转发，让跨主机的
+    agent 能彼此调用。
+  job_en: Developers running multiple AI agents across self-hosted or hybrid machines open this open-source
+    project to route help requests between agents over a Tailscale network, so agents on different hosts
+    can call each other.
+  pain: 多 agent 分散在不同主机时，agent 之间缺少一条可自托管、不暴露公网的求助通道；公开材料只给出产品定位与仓库收藏数，未提供用户抱怨、频率或不采用代价的一手证据，痛点强度属工作流结构推理。
+  pain_en: When agents are spread across hosts, there is no self-hostable, non-public help channel between
+    them; public materials give only the product positioning and star counts, with no first-hand complaint,
+    frequency, or cost-of-inaction evidence, so pain intensity is a workflow inference.
+  current_alternative: 公开材料未说明用户当前做法；结构上可推断的旧替代是手工在 agent 间搭 HTTP 端点、写胶水脚本，或把请求经公网服务中转。
+  current_alternative_en: Public materials do not state the current practice; structurally the old alternative
+    is hand-rolling HTTP endpoints and glue scripts between agents, or relaying requests through public
+    services.
+  usage_reason: 推断：相较手工搭端点或走公网中转，它把 agent 间求助直接放进已有的 Tailscale 私有网络，省去自建鉴权与暴露公网端口这一步，因此已在用 Tailscale 管理多机
+    agent 的开发者会在需要跨主机互调时选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus hand-rolled endpoints or public relays, it places agent-to-agent
+    help directly on the existing Tailscale private network, removing the step of building auth and exposing
+    public ports, so developers already using Tailscale for multi-host agents would pick it when cross-host
+    calls are needed; no user feedback or case yet confirms this motive.'

@@ -83,3 +83,43 @@
   usage_reason_en: Cannot be judged. The candidate material is a single product description and the cited
     evidence is unrelated to binary analysis; it neither shows which step is reduced versus the old way
     nor any checkable outcome improvement.
+- id: req-full-isa-workbench-2026-10-12
+  project_slug: isa-workbench
+  level: full
+  reviewed_at: '2026-10-12T01:54:37Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向三个同名非相关组织，无该产品功能说明、用户任务或痛点记录，连解决什么需求都无法还原，故价值关不成立。
+    evidence_ids:
+    - ev-1f361815426c8147
+    - ev-176fbad232ab01bb
+    - ev-6d9c4f375e40f642
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官方仓库或官网的 README、issue 与 discussion，确认其实际功能、样本处理方式与是否存在真实用户使用记录。
+  market: ''
+  job: 安全或逆向工程师拿到未知二进制样本时，在浏览器中打开工具，对样本做类型分类与结构浏览，以决定是否深入分析。
+  job_en: When a security or reverse engineer receives unknown binary samples, they open the tool in a
+    browser to classify the sample type and browse its structure before deciding whether to analyze further.
+  pain: 公开材料未提供任何关于该产品用户痛点的证据：现有证据全部指向国际编剧协会、国际自动化学会和国际树木栽培学会三个同名组织，与二进制分类无关。
+  pain_en: 'The public material provides no evidence of user pain for this product: all evidence points
+    to three same-named organizations (screenwriters, automation, arboriculture) unrelated to binary classification.'
+  current_alternative: 公开材料未记录任何现有替代方式；无法从证据还原旧流程是本地反汇编工具、在线沙箱还是其他手段。
+  current_alternative_en: The public material records no current alternative; the old workflow cannot
+    be reconstructed from evidence as local disassembly tools, online sandboxes, or anything else.
+  usage_reason: 无法判断：证据中不存在该产品的功能说明、用户反馈或采用记录，无法解释任何用户为何选择它而非旧做法。
+  usage_reason_en: 'Cannot be judged: the evidence contains no product description, user feedback, or
+    adoption record, so no reason any user would choose it over the old way can be explained.'

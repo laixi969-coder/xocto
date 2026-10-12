@@ -131,3 +131,53 @@
     service, so teams already on Java 21 that want to avoid a new stateful service would pick it for small-to-medium
     vector retrieval; with only 41 stars and no retention or repeat-use evidence, it cannot be claimed
     as long-term embedded in workflows.'
+- id: req-full-vectra-core-2026-10-12
+  project_slug: vectra-core
+  level: full
+  reviewed_at: '2026-10-12T01:57:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 JVM 后端在进程内做向量近邻查询、避免单独部署向量数据库的需求；痛点来自额外部署、运维与跨进程调用的摩擦，属工作流结构推理，公开材料未给出用户抱怨或量化代价，但任务、旧替代与不解决后果可还原。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+    - ev-09986fdd58e6e862
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 40 到 41 仅说明社区注意到该项目，属关注度证据，不能证明目标用户持续采用或形成强场景；公开材料未见 issue、discussion 或客户案例说明谁在何种场景使用。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+    - ev-0f17f4658be7fcaf
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，开源库的变现路径（to B 支持、托管服务或 to VC）尚不明确；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有功能描述与 QPS 宣称，缺少可复现基准、部署文档、稳定性与安全边界说明，交付能否确定性发生尚未核验。
+    evidence_ids:
+    - ev-e0ee15c01a12f9ab
+    - ev-09986fdd58e6e862
+  next_validation: 追踪 vectra-core 仓库的 README、release 与 issue/discussion，确认是否有可复现基准、部署文档及真实使用场景记录。
+  market: ''
+  job: 在 JVM 技术栈上做检索或推荐服务的后端工程师，在已有 Java 21 服务里需要做向量近邻查询时，把向量索引嵌入进程内，直接调用库完成 KNN 检索，而不额外部署独立向量数据库。
+  job_en: Backend engineers building search or recommendation services on the JVM embed a vector index
+    in-process and call it for KNN retrieval inside an existing Java 21 service, instead of deploying
+    a separate vector database.
+  pain: 公开材料只给出实现描述（HNSW 图、SQ8 量化、16,000+ QPS、亚毫秒 KNN），未提供用户抱怨或案例；从工作流结构推理，JVM 团队引入外部向量数据库需额外部署、运维、跨进程网络调用与数据同步，这是可识别的摩擦，但具体代价与频率尚无公开证据。
+  pain_en: Public materials only describe the implementation (HNSW graph, SQ8 quantization, 16,000+ QPS,
+    sub-millisecond KNN) with no user complaints or cases; by workflow inference, JVM teams adding an
+    external vector DB take on extra deployment, ops, cross-process network calls and data sync, a recognizable
+    friction whose concrete cost and frequency remain unverified.
+  current_alternative: 公开材料未说明现有做法；结构上可推断的替代是部署独立向量数据库（如 Milvus、Qdrant、pgvector 等）或自研 HNSW 索引，通过独立服务或扩展完成近邻查询。
+  current_alternative_en: Public materials do not state the current approach; structurally inferable alternatives
+    are deploying a standalone vector database (e.g. Milvus, Qdrant, pgvector) or hand-rolling an HNSW
+    index, serving KNN through a separate service or extension.
+  usage_reason: 推断：相较独立向量数据库，它把索引放进同一 JVM 进程，省去单独部署与跨进程网络调用这一步，对已用 Java 21 且希望避免新增基础设施的团队，可在不引入新服务的前提下完成近邻查询；但尚无用户反馈或案例证实这一选择动机。
+  usage_reason_en: 'Inference: versus a standalone vector DB, it keeps the index inside the same JVM process,
+    removing the separate deployment and cross-process network call; teams already on Java 21 that want
+    to avoid new infrastructure could complete KNN queries without adding a service — though no user feedback
+    or case yet confirms this motive.'

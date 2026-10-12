@@ -365,3 +365,55 @@
     and price-checking into 14 read-only tools that an AI assistant can call in one conversation and return
     a cross-shop quote list, removing the step of opening pages and recording prices by hand; thus assistant
     users with a concrete purchase target who need to check multiple quotes quickly would choose it.'
+- id: req-full-torob-mcp-2026-10-12
+  project_slug: torob-mcp
+  level: full
+  reviewed_at: '2026-10-12T01:57:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决选购时跨店比价的需求：同款商品价格分散，用户需逐个站点对齐型号抄价，漏价即多付钱，痛点刚性且高频。旧替代是手动开站点或用 Torob 网页，产品以只读工具在对话内直接返回可比报价，交付边界清晰。属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-0ad49d00ab79c33e
+    - ev-458209716a8d414a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 55 缓升至 62，说明开发者持续注意到它，但收藏与关注只是规模信号，不能证明目标用户已把它留在比价工作流里；缺少 issue、discussion 或使用反馈说明谁在什么场景反复调用。
+    evidence_ids:
+    - ev-0ad49d00ab79c33e
+    - ev-e3d30cbb7a8e638e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，只读且无需 API key 的形态更像免费工具；钱可能来自 to C 订阅、to B 集成或 to VC，均属判断而非已验证事实，存在只有关注没有付费路径的风险。
+    evidence_ids:
+    - ev-0ad49d00ab79c33e
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺在对话内返回跨店实时报价，但公开材料未说明 Torob 数据授权、更新频率与覆盖品类，也未给出可复现的调用结果；交付能否稳定发生、数据合规边界如何，仍缺公开证据。
+    evidence_ids:
+    - ev-0ad49d00ab79c33e
+    - ev-6d42ae3c94901718
+  next_validation: 追踪该 MCP 仓库的 README、issue 与 discussion，确认 Torob 数据来源与授权说明、价格更新频率，以及是否有用户报告在真实选购中反复调用。
+  market: ''
+  job: 消费者或接入它的 AI 助手在选购某件商品时，把商品关键词交给 Torob 的店铺数据，跨店检索同一商品的报价并核对价格，最终拿到可比较的报价清单以决定在哪家下单。
+  job_en: A consumer, or an AI assistant wired to it, shopping for a specific item passes the product
+    keyword into Torob's shop data, retrieves cross-shop listings for the same item and checks prices,
+    ending with a comparable quote list to decide which shop to buy from.
+  pain: 同一商品在不同店铺价格分散，用户要逐个站点打开、手动对齐型号与规格才能比价，耗时且容易漏掉更低价；不解决的直接后果是多付钱或买错规格。这是从比价任务结构推出的痛点，公开材料未给出用户抱怨原文。
+  pain_en: The same item is priced differently across shops, so users must open each site and manually
+    align model and spec before comparing, which is slow and easily misses a cheaper listing; the consequence
+    of not solving it is overpaying or buying the wrong variant. This pain is inferred from the comparison
+    task structure, not from quoted user complaints.
+  current_alternative: 旧做法是逐个打开电商站点或使用 Torob 网页/App 手动搜索比价，AI 助手侧则只能靠模型记忆或让用户自己贴链接，无法在对话内直接取到跨店实时报价。
+  current_alternative_en: The old way is opening each shop site one by one or using Torob's own web/app
+    to search and compare manually; on the assistant side the model can only rely on memory or ask the
+    user to paste links, with no in-conversation cross-shop live quotes.
+  usage_reason: 相较逐个站点手动比价，它把跨店检索与价格核对封装成 14 个只读工具，AI 助手在对话中一次调用即可返回可比较的报价，省掉用户自己开页面、对齐型号、抄价格这几步；因此会在用户已用
+    AI 助手做选购决策、且需要即时跨店报价时被选用。这是基于产品能力与任务结构的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with manually checking shop by shop, it wraps cross-shop retrieval and price
+    checking into 14 read-only tools, so an assistant returns comparable quotes in one call and the user
+    skips opening pages, aligning models and copying prices; it would therefore be chosen when a user
+    already makes purchase decisions through an AI assistant and needs instant cross-shop quotes. This
+    is an inference from product capability and task structure, not yet backed by user feedback.

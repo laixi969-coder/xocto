@@ -21,7 +21,7 @@ canonical_url: https://latimes.com/entertainment-arts/business/story/2026-10-10/
 summary: Nicolas Cage says he won't work with Amazon again over AI dispute
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

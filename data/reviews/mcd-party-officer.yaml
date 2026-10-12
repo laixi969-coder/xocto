@@ -1,0 +1,89 @@
+- id: req-initial-mcd-party-officer-2026-10-12
+  project_slug: mcd-party-officer
+  level: initial
+  reviewed_at: '2026-10-12T01:20:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决派对能否成团、场地怎么选、日期怎么定的具体决策，痛点真实；但成团概率的计算依据未公开。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+  - gate: consensus
+    status: insufficient
+    reason: 85 星只反映开发者关注，没有家长或组织者的使用反馈证明它进入筹备流程。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+  - gate: model
+    status: insufficient
+    reason: 未见定价或收费方式；可能按场次或向门店/服务商收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+  - gate: truth
+    status: insufficient
+    reason: 成团概率与门店档期依赖外部数据，公开材料未说明数据来源与人工确认环节，交付确定性存疑。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+  next_validation: 收集该项目的 README 与页面说明，确认成团概率与门店档期数据的来源、更新方式及是否有真实办成案例。
+  market: ''
+  job: 家长或活动组织者在筹办麦当劳门店儿童派对时，要判断能不能凑够人数、包场还是拼团、选哪一天，并发出招募和邀请。
+  job_en: A parent or organizer planning a kids' party at a McDonald's store must judge whether enough
+    people will join, whether to buy out or share the venue, which date to pick, and then send recruitment
+    and invitations.
+  pain: 成团人数、门店档期和预算互相牵制，靠微信群反复问人、手动比价，常常拖到最后办不成。
+  pain_en: Headcount, store availability and budget constrain each other; asking around in chat groups
+    and comparing manually often drags on until the event falls apart.
+  current_alternative: 在家长群里反复接龙统计人数，自己打电话问门店档期，再用模板拼邀请函。
+  current_alternative_en: Repeated roll-calls in parent chat groups, calling the store for availability,
+    and assembling invitations from templates.
+  usage_reason: 推断：相比群里接龙加电话问档期，它把成团概率、包场与拼团成本和可选日期放在一次判断里，省掉反复统计与比价这一步；对要办儿童生日会、又怕凑不齐人的家长，会在定日子之前先用它筛方案。
+  usage_reason_en: 'Inference: versus chat-group roll-calls plus phone calls, it puts group-formation
+    odds, buyout-versus-shared cost and candidate dates into one judgment, removing repeated counting
+    and price comparison; parents planning a kids'' birthday who fear not filling the group would screen
+    options with it before fixing a date.'
+- id: req-full-mcd-party-officer-2026-10-12
+  project_slug: mcd-party-officer
+  level: full
+  reviewed_at: '2026-10-12T01:55:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决儿童派对能否成团、包场还是拼团、选哪天这三个互相牵制的决策，痛点真实且刚性；但成团概率的计算依据与门店档期数据来源未公开，属工作流结构推理。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+  - gate: consensus
+    status: insufficient
+    reason: 85 星只反映开发者关注，没有家长或组织者的使用反馈证明它已进入筹备流程；公开材料也未显示强场景下的重复使用。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+  - gate: model
+    status: insufficient
+    reason: 未见定价或收费方式；可能按场次收费或向门店、服务商收费，这是判断而非已验证事实，买方与付费路径均未核验。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+  - gate: truth
+    status: insufficient
+    reason: 成团概率与门店档期依赖外部数据，公开材料未说明数据来源、更新方式与人工确认环节，交付能否确定性发生存疑。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+  next_validation: 追踪该 Skill 的 README 与项目页面，确认成团概率与门店档期数据的来源、更新方式，以及是否披露真实办成的派对案例。
+  market: ''
+  job: 家长或活动组织者在筹办麦当劳门店儿童派对时，把人数、日期和预算交给这个 Skill，要判断能否凑够人数成团、包场还是拼团、选哪一天，并生成招募卡与邀请函去召集参与者。
+  job_en: A parent or organizer planning a kids' party at a McDonald's store feeds headcount, dates and
+    budget into this Skill to judge whether enough people will join, whether to buy out or share the venue,
+    which date to pick, and to generate recruitment cards and invitations.
+  pain: 成团人数、门店档期和预算互相牵制，靠微信群反复接龙问人、手动比价、逐个打电话问档期，常常拖到最后办不成或被迫改期。
+  pain_en: Headcount, store availability and budget constrain each other; repeated roll-calls in chat
+    groups, manual price comparison and phone calls for availability often drag on until the event falls
+    apart or must be rescheduled.
+  current_alternative: 在家长群里反复接龙统计人数，自己打电话问门店档期，再用模板拼邀请函。
+  current_alternative_en: Repeated roll-calls in parent chat groups, calling the store for availability,
+    and assembling invitations from templates.
+  usage_reason: 推断：相比群里接龙加电话问档期，它把成团概率、包场与拼团成本和候选日期放进一次判断，省掉反复统计与比价这一步；对要办儿童生日会、又怕凑不齐人的家长，会在定日子之前先用它筛方案。
+  usage_reason_en: 'Inference: versus chat-group roll-calls plus phone calls, it puts group-formation
+    odds, buyout-versus-shared cost and candidate dates into one judgment, removing repeated counting
+    and price comparison; parents planning a kids'' birthday who fear not filling the group would screen
+    options with it before fixing a date.'

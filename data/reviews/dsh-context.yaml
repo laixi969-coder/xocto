@@ -1318,3 +1318,51 @@
     directly list context composition plus compaction and pruning events, turning after-the-fact guessing
     into seeing which step dropped what, so DSH users debugging long sessions would pick it when tracing
     forgotten facts.'
+- id: req-full-dsh-context-2026-10-12
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-12T01:53:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被隐式压缩、剪枝后用户无法确认关键信息是否还在的问题，痛点刚性来自模型遗忘后的返工成本；公开材料已能还原输入（会话上下文）、动作（面板与命令透视组成与事件）与交付（可视化结果），属工作流结构推理，买方未核验。
+    evidence_ids:
+    - ev-29a5392dac0f0dd3
+    - ev-0f8712a7297cc852
+  - gate: consensus
+    status: insufficient
+    reason: 同生态 dsh-sieve 的收藏数从 52 增至 96，说明 DSH 插件生态有开发者关注与试用，但这些数字属于同生态邻近项目，不能归因到 dsh-context 本身的持续采用，也未见其自身使用或评价证据。
+    evidence_ids:
+    - ev-29a5392dac0f0dd3
+    - ev-3f27a22732e71b3f
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，钱可能来自开发者个人订阅或 DSH 生态赞助，属判断而非已验证事实；插件形态本身也常以免费开源分发，付费路径尚未在公开材料中出现。
+    evidence_ids:
+    - ev-9ec5e446186abb6a
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺的是“看清上下文”，但公开材料未给出面板输出与实际压缩事件的对照验证，也未说明剪枝建议是否会自动改动上下文；交付确定性与人工边界缺少可复现证据。
+    evidence_ids:
+    - ev-0f8712a7297cc852
+  next_validation: 追踪 dsh-context 在 npm 或代码仓库的 README、issue 与 discussion，确认其面板输出是否与真实压缩/剪枝事件对应，以及是否出现用户报告据此定位到上下文丢失的公开案例。
+  market: ''
+  job: 使用 DeepSeek Harness 跑长任务的开发者，在上下文被压缩、剪枝或工具输出堆积时，需要打开 Context 面板或执行 Context 命令，查看本轮上下文的组成、演进与丢弃事件，判断关键信息是否还在，再决定是否调整提示或清理上下文。
+  job_en: Developers running long tasks in DeepSeek Harness open the Context panel or run the Context
+    command when context is compacted, pruned, or flooded by tool output, to inspect composition, evolution,
+    and dropped events, judge whether key facts survived, and decide whether to adjust prompts or clean
+    context.
+  pain: 长会话中上下文压缩与剪枝是隐式发生的，用户看不到哪段材料被丢弃、token 花在哪里，只能等模型答错或遗忘关键信息后回头排查，排查成本高且不可预期。
+  pain_en: Compaction and pruning happen implicitly in long sessions; users cannot see which material
+    was dropped or where tokens went, and only discover the loss after the model errs or forgets a key
+    fact, making diagnosis costly and unpredictable.
+  current_alternative: 当前替代是直接读原始会话日志或 JSON、凭经验猜测 token 去向，或干脆重开会话；同生态的 dsh-sieve 走的是自动过滤与剪枝路线，解决的是减少体积而非让人看清上下文。
+  current_alternative_en: Today users read raw session logs or JSON, guess where tokens went, or restart
+    the session; the sibling plugin dsh-sieve takes an automatic filtering and pruning route, reducing
+    payload size rather than making context legible.
+  usage_reason: 推断：相较翻日志或重开会话，它把上下文组成、演进与压缩/剪枝事件直接渲染成面板和命令输出，省掉手工解析会话状态这一步，因此正在调试长任务、怀疑上下文被截断的 DSH 用户会在排查时选择它。
+  usage_reason_en: 'Inference: versus reading logs or restarting, it renders context composition, evolution,
+    and compaction/pruning events directly in a panel and command output, removing the manual parsing
+    step, so DSH users debugging long tasks and suspecting truncation would reach for it during diagnosis.'

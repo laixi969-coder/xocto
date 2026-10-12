@@ -194,3 +194,54 @@
     MCP server, so users call a tool inside an existing MCP client to get images, skipping model deployment
     and interface wiring; creators sensitive to moderation or needing to keep assets local would choose
     it for that reason.'
+- id: req-full-mcp-image-generator-uncensored-2026-10-12
+  project_slug: mcp-image-generator-uncensored
+  level: full
+  reviewed_at: '2026-10-12T01:55:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者出图与改图时被云端审核拦截、素材需上传第三方的痛点，自托管本地模型可绕开审核并保留素材在本地，痛点刚性且交付路径可确定；属工作流结构推理，仓库未记录用户抱怨。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-1563d977717ba26d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 53 增至 83 只反映关注度上升，没有用户评价、issue 或案例说明谁在什么场景下采用，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-bf4cecccf57ff582
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页与买方信息，钱可能来自自托管个人用户或后续托管服务，属推断而非已验证事实；未出现融资叙事，暂无每日优鲜风险。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明部署步骤、出图质量与失败处理，uncensored 定位本身带来合规与安全边界不确定性，交付能否稳定发生无法核对。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-8d94f450c18f35fb
+  next_validation: 追踪该仓库的 issue 与 discussion，确认使用者实际用它替代了哪一步出图或修图工作，以及部署与出图是否稳定。
+  market: ''
+  job: 插画与视觉素材创作者或开发者在自己机器上部署该 MCP 服务，把提示词或待编辑图片交给本地 Qwen-Image-2.1 模型，取回生成或修改后的图片文件，用于后续创作或素材生产。
+  job_en: Illustrators and visual-asset creators (or developers) self-host this MCP server, submit prompts
+    or images to the local Qwen-Image-2.1 model, and retrieve generated or edited image files for downstream
+    creative work.
+  pain: 公开材料显示其定位是 uncensored 出图与改图，指向的是云端出图服务对提示词和素材的审核拦截、以及图片上传第三方带来的外流顾虑；被拦截或反复改写提示词会打断创作流程，这是结构推理，仓库未直接记录用户抱怨。
+  pain_en: The public material positions it as uncensored generation and editing, pointing to cloud services
+    blocking prompts or assets via moderation and to concerns about images leaving the machine; blocked
+    or repeatedly rewritten prompts interrupt the creative flow. This is structural inference; the repo
+    does not record user complaints directly.
+  current_alternative: 旧做法是使用带内容审核的云端出图服务（提示词被拒后反复改写），或本地手工修图、拼素材；公开材料未给出它明确替代的具体工具。
+  current_alternative_en: The prior approach is using moderated cloud image services (rewriting prompts
+    after rejections) or manual local editing and asset assembly; the public material does not name the
+    specific tool it replaces.
+  usage_reason: 推断：相较云端审核服务，它把模型跑在本地、以 MCP 接口接入既有工作流，省去上传素材和绕过审核反复改写提示词这两步，因此对提示词常被拦截或不愿素材外流的创作者有吸引力；仓库星标从
+    53 增至 83 只说明关注度上升，不能证明持续使用。
+  usage_reason_en: 'Inference: versus moderated cloud services, it runs the model locally and plugs into
+    existing workflows via MCP, removing the upload step and the repeated prompt rewriting after moderation
+    rejections, which appeals to creators whose prompts are often blocked or who avoid sending assets
+    off-machine; stars rising from 53 to 83 shows attention, not sustained use.'

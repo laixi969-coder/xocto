@@ -95,3 +95,54 @@
     a single-user agent into the user''s existing free Cloudflare account with one command (npx create-talorys@latest),
     removing the ops and hosting step while data stays in their account; privacy-minded users who avoid
     ops would try it first.'
+- id: req-full-talorys-2026-10-12
+  project_slug: talorys
+  level: full
+  reviewed_at: '2026-10-12T01:56:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人助手数据必须交给第三方、自建又要买服务器配数据库的痛点，作者自述动机即拥有与控制、不付月费；一条命令部署到自有 Cloudflare 账号、单用户、无遥测，旧替代与不采用后果清楚。这是工作流结构推理，实际任务完成度仍缺公开验证。
+    evidence_ids:
+    - ev-e49edc696497543f
+    - ev-910b27e57970e6c1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 752 星，说明存在关注度，但公开材料未见用户评价、issue 或持续使用证据，无法据此判断是否形成采用共识；关注度不能替代重复使用事实。
+    evidence_ids:
+    - ev-910b27e57970e6c1
+  - gate: model
+    status: insufficient
+    reason: 开源免费、部署在用户自己的 Cloudflare 免费额度上，公开材料未见定价页或付费路径；钱可能来自托管版或支持服务，这是判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-e49edc696497543f
+    - ev-910b27e57970e6c1
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明一条命令部署与无遥测，未见记忆跨会话保持、定时提醒按时触发或数据安全的可复现实测，承诺能否确定性交付尚缺证据。
+    evidence_ids:
+    - ev-910b27e57970e6c1
+  next_validation: 追踪 公开代码仓库 仓库 rociiu/talorys 的 issue 与 discussion，确认是否有用户报告提醒按时触发、记忆跨会话保持等可复现结果。
+  market: ''
+  job: 个人用户在需要记录待办、备忘和定时提醒时，把聊天、记忆、任务、笔记交给部署在自己 Cloudflare 账号里的单用户代理，由它按计划触发提醒；隐私敏感用户则在不愿把个人数据交给第三方托管服务时，用一条命令把代理部署进自己的云账号并自行保管数据。
+  job_en: An individual hands chat, memory, tasks, notes and scheduled reminders to a single-user agent
+    deployed in their own Cloudflare account, and it fires reminders on schedule; privacy-sensitive users
+    deploy it with one command into their own cloud account to keep data self-held instead of on a hosted
+    service.
+  pain: 托管式个人助手要求把聊天、笔记和日程交给第三方，隐私敏感用户不放心；自建代理则要买服务器、配数据库、做运维，门槛高。作者自述动机正是想要一个自己拥有和控制、不付月费、不依赖他人托管服务的个人助手。
+  pain_en: Hosted personal assistants require handing chats, notes and schedules to a third party, which
+    privacy-sensitive users resist; self-hosting an agent otherwise means buying servers, wiring a database
+    and doing ops, a high bar. The author states the motivation was wanting a personal assistant he could
+    own and control, without a monthly subscription or someone else's hosted service.
+  current_alternative: 用 Notion、Obsidian 加提醒工具手工记录，或直接用托管式 AI 助手把数据放在别人的服务器上；对开发者则是自己买 VPS、配数据库搭一套自建代理。
+  current_alternative_en: Recording by hand in Notion or Obsidian plus a reminder tool, or using a hosted
+    AI assistant that keeps data on someone else's servers; for developers, standing up a self-hosted
+    agent on a VPS with a database.
+  usage_reason: 推断：相较自建代理要自己买服务器、配数据库、做运维，它用一条 npx create-talorys@latest 命令把单用户代理部署进用户已有的 Cloudflare 免费账号，省掉采购与运维这一步，数据仍留在自己账号且无遥测；因此在意隐私、又不愿承担运维的个人用户会先试用它，而不是继续用托管助手或自建方案。
+  usage_reason_en: 'Inference: versus self-hosting an agent with your own server, database and ops, it
+    deploys a single-user agent into the user''s existing free Cloudflare account with one npx create-talorys@latest
+    command, removing the procurement and ops step while data stays in their account with no telemetry;
+    privacy-minded users who avoid ops would try it first rather than keep a hosted assistant or build
+    their own.'

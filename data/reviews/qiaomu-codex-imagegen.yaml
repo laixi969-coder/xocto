@@ -275,3 +275,53 @@
     between image and layout tools and applying layouts by hand per image; operators who regularly make
     Xiaohongshu or video covers and already use an agent would pick it when rushing a post. Stars rising
     from 95 to 127 only shows attention, not sustained use.'
+- id: req-full-qiaomu-codex-imagegen-2026-10-12
+  project_slug: qiaomu-codex-imagegen
+  level: full
+  reviewed_at: '2026-10-12T01:56:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容运营按平台版式快速出图的需求，痛点是生图与排版工具来回切换、手工套版式，旧替代明确，不解决则每篇内容重复走一遍；这是从产品能力与旧流程作出的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-0293d1847b87a657
+    - ev-64ec8e0fd3ccd9d6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 104 增至 128，说明有开发者持续关注，但公开材料没有用户反馈、案例或重复使用证据，无法证明运营已把它放进日常出图流程。
+    evidence_ids:
+    - ev-0293d1847b87a657
+    - ev-e2cde147a5a8db24
+  - gate: model
+    status: insufficient
+    reason: 开源项目无公开定价页，付费路径可能是定制版式配方、代出图或企业部署，这是判断而非已验证事实；谁付钱尚未在公开材料中核验。
+    evidence_ids:
+    - ev-0293d1847b87a657
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成图是否真的符合小红书与视频封面的版式要求及平台审核偏好，缺少可复现的成品对比与人工边界说明。
+    evidence_ids:
+    - ev-0293d1847b87a657
+    - ev-64ec8e0fd3ccd9d6
+  next_validation: 收集该仓库 README 中的示例输出与 issue/discussion，核对生成图是否满足小红书与视频封面的尺寸版式要求，并观察是否出现付费或定制需求。
+  market: ''
+  job: 内容运营或社交媒体运营在准备小红书笔记配图、视频封面或 Mondo 风格海报时，需要按平台尺寸与版式产出多张候选图，于是让手边的 Agent 通过 MCP、CLI 或 Skill 调用 Codex
+    内置生图能力直接出图，再人工挑选确认。
+  job_en: A content or social media operator preparing Xiaohongshu post images, video covers, or Mondo-style
+    posters needs several platform-sized candidates, so they have their agent call Codex's built-in image
+    generation via MCP, CLI, or Skill and then pick and confirm the output by hand.
+  pain: 平台封面与笔记图有固定尺寸和版式偏好，运营通常先在生图工具出图，再导入设计工具裁切、加标题、套模板，来回切换与手工套版式是重复且不可省的一步；不解决则每篇内容都要重走一遍这条链路。
+  pain_en: Platform covers and post images have fixed sizes and layout conventions, so operators generate
+    in one tool and then re-crop, re-title, and re-template in a design tool; that switching and manual
+    templating is a repeated, unavoidable step, and skipping it means redoing the chain for every post.
+  current_alternative: 在独立生图工具（如 Midjourney、即梦等）出图，再导入 Canva、Figma 或 Photoshop 手工裁切、加标题、套版式；或在 Agent 里手工拼提示词后把图另存再处理。
+  current_alternative_en: Generating in a standalone image tool (Midjourney, Jimeng, etc.), then importing
+    into Canva, Figma, or Photoshop to crop, add titles, and apply layouts by hand; or hand-assembling
+    prompts in an agent and saving images out for further editing.
+  usage_reason: 推断：相较旧做法，它把小红书、视频封面、Mondo 海报的版式技巧内置为 Agent 可直接调用的生图动作，运营在同一对话里就能出图，省去在生图工具与设计工具之间导出导入并手工套版式的一步；因此经常批量做小红书笔记或视频封面的运营会在需要快速出多张候选图时选择它。
+  usage_reason_en: 'Inference: versus the old path, it bakes Xiaohongshu, video-cover, and Mondo poster
+    layout recipes into an agent-callable image action, so operators generate inside the same conversation
+    and skip the export-import-and-hand-template step between image and design tools; operators who regularly
+    batch out Xiaohongshu posts or video covers would pick it when they need several candidates fast.'

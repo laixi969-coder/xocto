@@ -611,3 +611,58 @@
     questions, an independent reviewer role and pre-done proof into a reusable rule set, cutting the steps
     of reconstructing impact and re-doing review, so engineers using Claude Code who want fewer missed
     changes would adopt it; the repo shows stars only, no payment or retention evidence.'
+- id: req-full-first-pass-2026-10-12
+  project_slug: first-pass
+  level: full
+  reviewed_at: '2026-10-12T01:54:06Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Claude Code 只看所写行、漏掉改动影响面的问题，痛点在于 AI 生成代码缺少提交前的强制自查、独立复核与完成证据；公开说明已给出输入、动作与交付闭环，属工作流结构推理，痛点刚性来自合并后返工代价。
+    evidence_ids:
+    - ev-fa336c5605612f26
+  - gate: consensus
+    status: supported
+    reason: 公开仓库说明与 star 数显示英文开发者社区已注意到这套规则集，star 从 92 到 111 波动，说明有持续关注；但尚无 issue、discussion 或客户案例证明它被长期留在工作流里，采用深度仍属初步。
+    evidence_ids:
+    - ev-fa336c5605612f26
+    - ev-401cd16baae82b38
+    - ev-4d37b39e0fd84a90
+    - ev-c2f892f90ddf9899
+    - ev-32f9b2d5247e6cf1
+    - ev-f3802d3be791ee29
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断钱来自个人开发者、团队还是企业；这是商业证据缺口，不反推问题不存在，按判断而非已验证事实记录。
+    evidence_ids:
+    - ev-fa336c5605612f26
+  - gate: truth
+    status: insufficient
+    reason: 规则集能否在真实仓库中稳定产出可核对的完成证据、人工确认与安全边界如何落地，尚缺可复现的公开部署文档或实测记录，交付确定性未被公开证据覆盖。
+    evidence_ids:
+    - ev-fa336c5605612f26
+  next_validation: 追踪 first-pass 仓库的 README、issue 与 discussion，确认是否有团队在真实仓库中部署这套规则并留下可核对的完成证据或使用记录。
+  market: ''
+  job: 使用 Claude Code 的软件工程师在提交改动前，处理 AI 生成的代码 diff，要完成的任务是让模型先回答十个关于改动影响范围的问题、由未参与编写的审查角色复核、并给出完成证据后才结束，最终由人确认是否合并。
+  job_en: Software engineers using Claude Code, before committing a change, work on AI-generated code
+    diffs to make the model answer ten questions about the change's blast radius, have a reviewer that
+    did not write the code re-check it, and produce proof before the task is called done, with the human
+    still confirming the merge.
+  pain: 公开说明指出 Claude Code 默认只看它写的那几行，容易漏掉改动对周边代码的影响；工程师在 AI 生成代码后缺少强制的影响面自查、独立复核和完成证据，问题往往在提交或合并后才暴露。
+  pain_en: The public description states Claude Code by default only looks at the lines it writes, missing
+    the change's effect on surrounding code; after AI-generated code, engineers lack a forced blast-radius
+    self-check, an independent review, and proof of completion, so problems surface only at commit or
+    merge time.
+  current_alternative: 当前替代方式是工程师自己人工检查 AI 生成的 diff、依赖常规 code review 或 CI 事后发现问题，没有把影响面提问、独立审查角色和完成证据固化成提交前的固定步骤。
+  current_alternative_en: Today engineers manually inspect the AI-generated diff, rely on ordinary code
+    review or CI to catch problems after the fact, and have no fixed pre-commit step that forces blast-radius
+    questions, an independent reviewer role, and completion proof.
+  usage_reason: 推断：相较人工逐行看 diff 或等 CI 报错，这套规则集在提交前自动插入十个影响面问题、一个未参与编写的审查角色和完成证据要求，把原本靠人记得做的检查变成流程强制动作，因此在意
+    AI 改动风险的 Claude Code 用户会在提交前选择它。
+  usage_reason_en: 'Inference: compared with manually reading the diff line by line or waiting for CI
+    to fail, this rule set automatically inserts ten blast-radius questions, a reviewer role that did
+    not write the code, and a proof-before-done requirement before commit, turning checks that relied
+    on human memory into enforced workflow steps, so Claude Code users worried about AI-change risk would
+    adopt it before committing.'

@@ -466,3 +466,53 @@
   usage_reason_en: With no verifiable usage scenario or delivery description, there is no way to explain
     why a user would choose it over existing practice; repository stars rising from 578 to 625 reflect
     attention only and cannot serve as a usage reason.
+- id: req-full-open-dot-2026-10-12
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-12T01:55:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是把 Mac 上重复的电脑操作交给本地自主代理执行，痛点是手动逐应用操作耗时且云端代理有数据外流顾虑；公开材料仅给出定位，交付边界与人工确认环节未说明，故为工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-43197b4d3be77ce9
+    - ev-99b9a85cad43fd8b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 585 增至 628，属关注度而非采用或持续使用证据；公开材料没有用户评价、案例或讨论，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-43197b4d3be77ce9
+    - ev-99b9a85cad43fd8b
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价页或付费路径，买方是 to C 动手型 Mac 用户还是 to B 团队无法从公开材料确认；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-43197b4d3be77ce9
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理执行哪些具体任务、交付是否确定发生、哪些操作需人工确认，安全与人工边界缺失，无法核验承诺能否确定性交付。
+    evidence_ids:
+    - ev-43197b4d3be77ce9
+    - ev-99b9a85cad43fd8b
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认它实际执行的任务类型、输入材料、交付结果与人工确认边界。
+  market: ''
+  job: 愿意自己动手的 Mac 用户在自己的电脑上打开 open-dot，把需要在本地电脑上完成的琐碎操作（如跨应用整理、批量处理、调用外部服务）交给一个本地自主运行的代理，由它调用 OpenAI
+    模型与 Composio 连接的外部服务执行，最后拿到完成结果或待确认操作。
+  job_en: A hands-on Mac user opens open-dot on their own machine and hands off small computer-bound chores
+    (cross-app tidying, batch handling, calling external services) to a locally running autonomous agent
+    that uses OpenAI models plus Composio connectors, receiving finished results or actions awaiting confirmation.
+  pain: 公开材料只给出产品定位，没有用户抱怨或旧流程描述；从工作流结构推理，痛点是用户要在 Mac 上反复手动切换应用、逐步点击完成本可自动化的电脑操作，且把这类操作交给云端代理又担心数据离开本机。
+  pain_en: Public material gives only positioning, no user complaints or legacy workflow; by workflow
+    inference the pain is repeatedly switching apps and clicking through Mac chores that could be automated,
+    while handing them to a cloud agent raises data-leaving-the-machine concerns.
+  current_alternative: 结构推理下的旧做法是用户自己手动在 Mac 上逐步操作，或使用云端托管的通用代理/自动化脚本；公开材料未说明用户此前具体用什么方式完成同类任务。
+  current_alternative_en: The inferred legacy practice is the user manually stepping through Mac operations,
+    or using cloud-hosted general agents/automation scripts; public material does not state what users
+    previously used for comparable tasks.
+  usage_reason: 推断：相较手动逐步点击或把任务交给云端代理，open-dot 把执行放在用户自己的 Mac 上并接入 Composio 的外部服务连接，减少用户逐应用手动操作这一步，同时让在意数据留在本机的动手型用户更愿意把电脑上的琐事交出去；公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus manual clicking or handing tasks to a cloud agent, open-dot runs
+    execution on the user''s own Mac and wires in Composio connectors, removing the step of manually operating
+    each app while making hands-on users who care about data staying local more willing to delegate machine
+    chores; no public user feedback or case yet confirms this motive.'

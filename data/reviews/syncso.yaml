@@ -169,3 +169,58 @@
     data in unified fields (times, prices, booking links, images), removing the step of per-source parsing
     and field alignment, so developers building local-event agents without a stable data source would
     choose it when they need real-time city event input.'
+- id: req-full-syncso-2026-10-12
+  project_slug: syncso
+  level: full
+  reviewed_at: '2026-10-12T01:56:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理获取城市实时活动信息（时间、价格、预订链接、图片）的需求，痛点在于本地活动数据分散且时效要求高，开发者需自行抓取清洗；不解决的后果是代理无法给出可执行的本地活动建议。公开材料仅一句能力描述，未披露数据来源、覆盖城市与调用方式，痛点强度属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-33256b132333836e
+    - ev-5fade128814b5004
+    - ev-528d940d6a368271
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 101 升至 301 后又回落至 189，仅反映关注度波动，不能证明开发者已持续采用或形成场景共识；公开材料没有用户评价、issue 讨论或客户案例说明谁在什么场景下使用。
+    evidence_ids:
+    - ev-33256b132333836e
+    - ev-528d940d6a368271
+    - ev-78b2b22af6f54a60
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费记录或采购信息，无法判断收入来自 to C 开发者订阅、to B 代理平台采购还是 to VC 融资；这是判断而非已验证事实，但价值关已成立，不因此取消真需求判定。
+    evidence_ids:
+    - ev-33256b132333836e
+    - ev-5fade128814b5004
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明数据来自哪些城市与来源、更新频率如何、预订链接是否可确定性跳转，无法核对交付是否稳定发生；仓库星标变化不能替代对数据准确性与交付确定性的验证。
+    evidence_ids:
+    - ev-33256b132333836e
+    - ev-78b2b22af6f54a60
+  next_validation: 追踪 syncso 官方仓库的 README、文档或 issue/discussion，确认数据来源、覆盖城市、调用方式与是否公布定价或客户案例。
+  market: ''
+  job: 代理开发者或使用代理的终端用户，在规划某城市当日或近期行程时，需要让代理拿到该城市正在发生的活动清单（时间、价格、预订链接、图片），以便代理直接给出可执行的本地活动建议或完成预订跳转。
+  job_en: Agent developers or end users of agents, when planning same-day or near-term activities in a
+    city, need the agent to obtain a list of currently happening local experiences (times, prices, booking
+    links, images) so the agent can give actionable local recommendations or complete booking handoffs.
+  pain: 公开材料只说明代理需要理解本地实时发生的事，未披露开发者当前抓取本地活动数据时遇到的具体困难（如来源分散、时效性差、字段不统一），也未说明不解决会有什么后果；痛点强度属于工作流结构推理，尚无用户抱怨或案例佐证。
+  pain_en: Public material only states that agents need to understand what is happening locally in real
+    time; it does not disclose the concrete difficulties developers face when sourcing local event data
+    (scattered sources, poor freshness, inconsistent fields) or the consequence of not solving it. Pain
+    intensity is a workflow-structure inference, not yet backed by user complaints or cases.
+  current_alternative: 公开材料未披露现有替代方式；按工作流结构推理，开发者可能自行抓取票务或活动网站、调用地图与票务平台接口，或让代理依赖通用搜索与训练数据，但这些均未在证据中出现，属于推断。
+  current_alternative_en: Public material does not disclose current alternatives; by workflow-structure
+    inference, developers might scrape ticketing or event sites, call map and ticketing platform APIs,
+    or let agents rely on general search and training data, but none of these appear in the evidence and
+    remain inference.
+  usage_reason: 推断：相较自行抓取或依赖通用搜索，syncso 以统一接口直接返回带时间、价格、预订链接与图片的城市活动数据，可减少开发者逐个来源抓取、清洗与维护字段的工作，因此需要让代理实时回答本地活动的开发者会在该场景选择它；但数据来源、覆盖城市与调用方式未公开，尚无用户反馈或案例证实这一选择。
+  usage_reason_en: 'Inference: compared with self-scraping or relying on general search, syncso returns
+    city event data with times, prices, booking links and images through a unified interface, reducing
+    the work of scraping, cleaning and maintaining fields across sources, so developers who need agents
+    to answer local-activity queries in real time would choose it in that scenario; however, data sources,
+    city coverage and calling method are undisclosed, and no user feedback or case confirms this c'

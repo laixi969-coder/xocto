@@ -600,3 +600,53 @@
     motion effects, removing clip-by-clip cutting and animation steps while keeping a layered CapCut draft
     for manual fine-tuning, so it is more likely chosen by high-volume talking-head/avatar creators and
     MCN post teams; public materials contain no user feedback or case confirming this motive.'
+- id: req-full-seecut-2026-10-12
+  project_slug: seecut
+  level: full
+  reviewed_at: '2026-10-12T01:56:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播/数字人素材从原始录制到可发布短视频的粗剪与动效需求，痛点是重复机械的剪片耗时；不采用则创作者需人工逐段粗剪或外包。公开仓库说明已还原输入—动作—交付闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-550031d6ad9b550c
+    - ev-39d2d1983e519545
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 223 增至 267，说明开发者社区持续关注，但收藏属关注度证据，不能证明口播创作者或 MCN 已把它留在剪辑工作流中；缺少 issue、discussion 或用户反馈佐证真实使用场景。
+    evidence_ids:
+    - ev-550031d6ad9b550c
+    - ev-39d2d1983e519545
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，没有定价页、付费记录或采购信息，无法判断钱来自 to C 创作者订阅、to B MCN 采购还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-550031d6ad9b550c
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺自动精剪并可选导出剪映分层草稿，但公开材料未提供识别精度、交付稳定性或人工复核边界的可复现证据，交付能否确定性发生尚未核验。
+    evidence_ids:
+    - ev-550031d6ad9b550c
+  next_validation: 追踪 SeeCut 仓库的 issue、discussion 与 README/部署文档，确认是否有创作者或 MCN 公开描述实际使用场景、替代的旧剪辑流程及输出质量反馈。
+  market: ''
+  job: 口播或数字人视频创作者、MCN 后期运营在拿到一段未剪的口播/数字人原始素材后，需要把它变成有节奏切分、有网感动效、可直接发布的短视频，或导出剪映分层草稿继续人工调整。
+  job_en: Talking-head or AI-avatar creators and MCN post-production operators take a raw talking-head/avatar
+    recording and must turn it into a publish-ready short video with rhythm cuts and trend-style motion
+    effects, or export a layered CapCut draft for further manual editing.
+  pain: 口播素材的粗剪、去停顿、卡节奏和加动效是重复且耗时的机械环节，创作者往往在剪片而非内容上消耗大量时间；公开材料只给出产品定位，未提供用户抱怨或耗时数据，痛点强度属工作流结构推理。
+  pain_en: Rough-cutting talking-head footage, removing pauses, matching rhythm and adding motion effects
+    is repetitive mechanical work that pulls creators away from content; public materials give only the
+    product positioning, not user complaints or time data, so pain intensity is a workflow-structure inference.
+  current_alternative: 当前替代方式是人工在剪映等剪辑软件里逐段粗剪、手动卡点加动效，或把素材交给剪辑师/外包后期；公开材料未说明用户此前具体使用哪条流程。
+  current_alternative_en: Today users manually rough-cut in editors such as CapCut, hand-place cuts and
+    effects, or outsource to an editor; public materials do not specify which prior workflow users actually
+    used.
+  usage_reason: 推断：相较人工逐段粗剪，它把原始口播素材直接作为输入，由 AI 完成粗剪、节奏切分和网感动效，并可选输出剪映分层草稿，减少的是“从原始素材到可发布初剪”这一步的手工操作；因此时间紧、需要批量产出短视频的口播创作者和
+    MCN 后期更可能在剪片环节选择它。
+  usage_reason_en: 'Inference: versus manual cut-by-cut editing, it takes raw talking-head footage as
+    input, has AI perform rough cutting, rhythm segmentation and trend-style effects, and can export a
+    layered CapCut draft, removing the manual step from raw footage to a publishable first cut; creators
+    and MCN post teams with tight schedules and batch output needs are therefore more likely to choose
+    it at the editing stage.'

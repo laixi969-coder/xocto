@@ -21,7 +21,7 @@ canonical_url: https://atoll92.github.io/agent-standup
 summary: AI agents in a stand-up call
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

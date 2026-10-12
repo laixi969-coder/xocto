@@ -1,0 +1,85 @@
+- id: req-initial-brainotes-2026-10-12
+  project_slug: brainotes
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决课堂讲义批注的需求，痛点具体，但公开材料未说明 AI 环节，交付边界不清。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区关注，无学生反馈或采用数据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，学生订阅或院校采购均属推断，非已验证事实。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+  - gate: truth
+    status: insufficient
+    reason: 批注贴近学习第一性目标，但承诺能否确定性交付、是否需人工整理均无公开材料支持。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+  next_validation: 收集 BraiNOTES 仓库的 README、issue 或 discussion，核验其是否含 AI 能力、实际使用反馈与交付流程。
+  market: ''
+  job: 大学生在听课时打开浏览器标签页，在讲义 PDF 上手写批注并保存笔记。
+  job_en: University students annotating lecture PDFs by hand in a browser tab during class.
+  pain: 讲义多为 PDF，打印成本高，另开笔记软件又要来回切换，批注与原文容易脱节。
+  pain_en: Handouts are usually PDFs, printing is costly, and switching to a separate note app separates
+    annotations from the source text.
+  current_alternative: 打印讲义手写、用平板批注应用，或在笔记软件里另建文档摘抄。
+  current_alternative_en: Printing handouts to write on, using tablet annotation apps, or retyping into
+    a separate note app.
+  usage_reason: 推断：相较打印或另开笔记软件，浏览器内直接批注 PDF 省去打印与切换步骤，学生在上课时更易随手记录；但公开材料未显示 AI 能力、定价或使用留存，长期采用无法确认。
+  usage_reason_en: 'Inference: versus printing or a separate note app, annotating PDFs in the browser
+    removes printing and app switching, making in-class capture easier; public material shows no AI capability,
+    pricing, or retention, so long-term use cannot be confirmed.'
+- id: req-full-brainotes-2026-10-12
+  project_slug: brainotes
+  level: full
+  reviewed_at: '2026-10-12T01:53:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决课堂讲义批注需求：PDF 讲义打印贵、另开笔记软件导致批注与原文脱节，痛点具体且发生在每节课。公开说明显示浏览器内即可在讲义 PDF 上手写并保存，输入—动作—交付闭环可还原，属工作流结构推理；但无用户反馈佐证。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 公开代码仓库 仓库一句产品说明，无学生评价、issue 讨论或采用数据，无法判断共识卡在感知、场景还是利益环节，也无法确认是否被持续使用。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、订阅或院校采购信息，学生自付、学校采购或纯开源无收入均属推断而非已验证事实，付费路径尚不可核验。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+  - gate: truth
+    status: insufficient
+    reason: 浏览器内手写批注贴近课堂记录的第一性目标，但公开材料未说明保存格式、跨设备同步与数据归属，承诺能否确定性交付、是否需人工整理均无依据。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+  next_validation: 追踪 BraiNOTES 仓库的 README、issue 与 discussion，核验其保存格式、跨设备同步说明及是否有学生实际使用反馈。
+  market: ''
+  job: 大学生在课堂上用笔记本或平板打开浏览器标签页，一边听讲一边在教师发放的讲义 PDF 上直接手写批注，并在课后保存成可回看的笔记。
+  job_en: University students open a browser tab on a laptop or tablet during class, hand-annotate the
+    lecturer's PDF handout while listening, and save it as a reviewable note afterwards.
+  pain: 讲义几乎都是 PDF，打印成本高且不便携带；改用独立笔记软件则要在 PDF 阅读器和笔记应用之间来回切换，批注与原文分离，课后复习时难以对应。
+  pain_en: 'Handouts are almost always PDFs: printing is costly and unwieldy, while a separate note app
+    forces constant switching between the PDF reader and the note tool, leaving annotations detached from
+    the source text and hard to match during revision.'
+  current_alternative: 打印讲义后手写、用平板批注应用（如 GoodNotes、Notability）、或在笔记软件里另建文档摘抄要点。
+  current_alternative_en: Printing the handout to write on, using tablet annotation apps such as GoodNotes
+    or Notability, or retyping key points into a separate note document.
+  usage_reason: 推断：相较打印或另开笔记软件，产品把 PDF 阅读与手写批注放在同一个浏览器标签页内完成，省去打印和跨应用切换这两步，批注直接锚定在原文页面上，因此经常用笔记本上课、又不想打印讲义的学生会在听课时选择它；公开材料尚无留存或付费证据。
+  usage_reason_en: 'Inference: versus printing or a separate note app, the product keeps PDF reading and
+    handwriting in one browser tab, removing the printing step and the app-switching step and anchoring
+    annotations to the original page, so students who take notes on a laptop and avoid printing would
+    choose it in class; public material shows no retention or payment evidence yet.'

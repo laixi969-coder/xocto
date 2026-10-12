@@ -1,0 +1,43 @@
+- id: req-initial-claude-academy-2026-10-12
+  project_slug: claude-academy
+  level: initial
+  reviewed_at: '2026-08-23T14:11:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决新用户不知从何学起、文档分散的问题，痛点真实但强度偏弱，且公开材料未说明课程是否含实操与考核，交付形态不清。
+    evidence_ids:
+    - ev-0629101aa025a6fe
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条官方定位描述，没有用户评价、学习完成率或企业采购信号，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-0629101aa025a6fe
+  - gate: model
+    status: insufficient
+    reason: 判断：买方可能是企业培训预算或个人订阅，但公开材料未披露定价与收费方式，付费路径未核验。
+    evidence_ids:
+    - ev-0629101aa025a6fe
+  - gate: truth
+    status: insufficient
+    reason: 学习类内容交付确定性较高，但缺少课程完成、认证或企业落地的可核对结果，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-0629101aa025a6fe
+  next_validation: 收集 Claude Academy 官方页面上的课程目录、是否含实操环境与考核，以及是否标注价格或企业采购入口。
+  market: ''
+  job: 企业员工或个人开发者在需要把 Claude 用进日常工作时，打开官方学习中心，处理官方文档与教程材料，完成从注册到具体任务用法的学习。
+  job_en: Corporate staff or individual developers who need to put Claude into daily work open the official
+    learning hub, work through official docs and tutorials, and learn from sign-up to task-specific usage.
+  pain: 官方文档分散、更新快，新用户不知道从哪一步开始，容易在提示写法、权限和成本控制上反复试错。
+  pain_en: Official documentation is scattered and fast-changing; new users do not know where to start
+    and repeatedly trial-and-error on prompting, permissions and cost control.
+  current_alternative: 用户目前靠零散博客、视频教程、社区帖子和同事口传学习，内容质量与时效参差。
+  current_alternative_en: Users currently learn from scattered blog posts, video tutorials, community
+    threads and word of mouth from colleagues, with uneven quality and freshness.
+  usage_reason: 推断：如果官方学习中心把文档、教程和最佳实践按任务路径组织，用户可省去在多个来源之间筛选和拼凑的步骤，因此刚接触 Claude 的团队和个人会优先打开它；但公开材料未说明课程是否含实操与考核，也未见采用或留存证据。
+  usage_reason_en: 'Inference: if the official hub organizes docs, tutorials and best practices along
+    task paths, users skip filtering and stitching together multiple sources, so teams and individuals
+    new to Claude would open it first; however the public material does not say whether courses include
+    hands-on work or assessment, and no adoption or retention evidence is visible.'

@@ -295,3 +295,45 @@
   usage_reason_en: 'Cannot be judged: the material does not say which integration burden decoupling removes
     or which checkable result improves, and star counts reflect attention only, not why a developer would
     choose it.'
+- id: req-full-lcu-2026-10-12
+  project_slug: lcu
+  level: full
+  reviewed_at: '2026-10-12T01:54:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决模型界面操作能力被绑定在单一应用内的问题，但公开材料只有一句解耦描述，没有具体旧流程、失败场景或不采用的后果，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-244e2c2eee0854a8
+    - ev-1019df17fb636517
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪lcu项目自身的仓库README、issue与discussion，确认其支持的harness范围、可完成的界面任务类型与是否有开发者提出接入需求。
+  market: ''
+  job: AI应用开发者在搭建自有agent运行环境时，希望让模型直接操作图形界面，把Codex的计算机操作能力接入自选harness，完成点击、输入等界面动作。
+  job_en: An AI application developer building a custom agent runtime wants the model to operate a graphical
+    interface, integrating Codex's computer-use capability into a chosen harness to perform clicks, typing
+    and other UI actions.
+  pain: 公开材料只给出“能力从原应用解耦”这一句产品描述，没有任何开发者遇到的具体阻碍、失败场景或抱怨，无法还原痛点是什么、有多刚性。
+  pain_en: The public material offers only the product claim that the capability is decoupled from the
+    host app; it contains no specific blocker, failure case or complaint from developers, so the pain
+    itself cannot be reconstructed.
+  current_alternative: 材料未提及任何替代方式；按常识推断开发者此前直接使用原应用内置的计算机操作能力，但这是推断，不是材料支持的事实。
+  current_alternative_en: No alternative is mentioned; by common inference developers previously used
+    the computer-use capability built into the host app, but this is inference, not a fact supported by
+    the material.
+  usage_reason: 无法判断：材料未说明解耦后减少了哪一步集成负担或改善了哪项可核对结果，因此无法解释哪类开发者会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which integration step decoupling removes
+    or which checkable result improves, so it cannot explain which developers would choose it and when.'

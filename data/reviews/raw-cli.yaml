@@ -86,3 +86,52 @@
   usage_reason_en: Compared with manual stitching, it makes tools, skills and hooks composable units,
     removing the step of rebuilding context per task, so developers running locally with context-limited
     models would pick it in the terminal; this is capability-based inference.
+- id: req-full-raw-cli-2026-10-12
+  project_slug: raw-cli
+  level: full
+  reviewed_at: '2026-10-12T01:56:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上下文受限模型下工具与上下文需手工拼接、长任务易丢信息的需求，旧做法是通用编码助手或手工拼命令，不解决的后果是改动不可复现；交付闭环为组合工具、执行任务、终端或面板查看，属工作流结构推理。
+    evidence_ids:
+    - ev-66191eff25fed48e
+    - ev-fe928ee320244ab1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 101 升至 102，属关注度信号，公开材料没有用户反馈、案例或重复使用证据，无法证明开发者已把它留在日常工作流里。
+    evidence_ids:
+    - ev-66191eff25fed48e
+    - ev-fe928ee320244ab1
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方与付费路径不明，可能是个人开发者或企业定制，这是判断而非已验证事实；公开材料未见采购或付费记录。
+    evidence_ids:
+    - ev-66191eff25fed48e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有项目描述与星数，缺少可复现实测与 issue 讨论，无法核对它在真实代码任务中的交付确定性与安全边界。
+    evidence_ids:
+    - ev-66191eff25fed48e
+    - ev-fe928ee320244ab1
+  next_validation: 追踪该仓库的 issue 与 discussion，核对真实代码任务中的可复现交付结果与用户反馈。
+  market: ''
+  job: 开发者在本地终端用上下文窗口有限的模型处理代码任务时，把工具、技能、钩子和代理组合起来，让代理完成一次可复现的代码改动，并通过终端 REPL、浏览器面板或 ACP 查看结果。
+  job_en: A developer working locally in the terminal with a context-limited model composes tools, skills,
+    hooks and agents so an agent can complete a reproducible code change, viewing results through the
+    terminal REPL, browser dashboard or ACP.
+  pain: 上下文受限的模型在长代码任务中容易丢信息，开发者需手工拼接上下文与工具调用；公开材料未给出用户抱怨原文，痛点强度属工作流结构推理。
+  pain_en: Context-limited models lose information on long coding tasks, forcing developers to manually
+    stitch context and tool calls; the public material gives no user complaints, so pain intensity is
+    a workflow-structural inference.
+  current_alternative: 旧做法是直接用通用编码助手，或手工在终端里拼命令与脚本，上下文管理靠人；这是推断，公开材料未列出具体替代工具。
+  current_alternative_en: The old approach is using a general coding assistant or manually assembling
+    commands and scripts in the terminal, with humans managing context; this is inference, as the public
+    material lists no specific alternatives.
+  usage_reason: 推断：相较手工拼接上下文与工具调用，它把工具、技能与钩子做成可组合单元，减少每次任务重新搭建上下文这一步，并让代理在本地终端完成可复现改动；因此本地部署且模型上下文受限的开发者会在终端里选它。
+  usage_reason_en: 'Inference: compared with manually stitching context and tool calls, it makes tools,
+    skills and hooks composable units, removing the step of rebuilding context per task and letting the
+    agent complete a reproducible change in the local terminal; developers running locally with context-limited
+    models would pick it in the terminal.'

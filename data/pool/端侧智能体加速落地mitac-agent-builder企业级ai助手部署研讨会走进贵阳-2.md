@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE1iS0RyOU52QmNx
 summary: 端侧智能体加速落地：MiTAC Agent Builder企业级AI助手部署研讨会走进贵阳 中国日报网
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

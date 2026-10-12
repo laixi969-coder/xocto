@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1saUhxMkpKWEpt
 summary: 深耕AI+ 京北方第七次入选“软件和信息技术服务竞争力百强企业”榜单 同花顺
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/502585.html
 summary: 马斯克连横A社，硅谷VC开始囤GPU
 first_seen: '2026-10-12T01:20:56Z'
 last_seen: '2026-10-12T01:20:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

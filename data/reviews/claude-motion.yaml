@@ -131,3 +131,50 @@
     into parameters frame by frame and avoid cross-framework rewrites; front-end or product engineers
     tuning motion would pick it when they need runnable animation code quickly. Output quality and framework
     coverage are undisclosed, so adoption remains inferred.'
+- id: req-full-claude-motion-2026-10-12
+  project_slug: claude-motion
+  level: full
+  reviewed_at: '2026-10-12T01:53:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决动效实现中设计意图到可运行动画代码的转换与反复调参问题，痛点在于设计师与前端来回沟通、参数逐项微调耗时且跨框架写法不通用；仓库定位与持续增长的星标表明有开发者关注，但输入形式与交付形态未在材料中说明，价值判断基于工作流结构推理。
+    evidence_ids:
+    - ev-238c1734b064e734
+    - ev-eed72bf9f4f283aa
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从198升至320，说明关注度在增长，但材料没有 issue、discussion 或用户反馈，无法判断是否被持续用于真实项目，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-238c1734b064e734
+    - ev-7c8692ef22a8f874
+    - ev-eed72bf9f4f283aa
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何定价或收费路径，买方与付费方式均属未知；这是判断而非已验证事实，但价值关已成立，不因此取消需求判定。
+    evidence_ids:
+    - ev-238c1734b064e734
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明产出的动画代码能否直接上线、是否需人工逐项核对，以及动效安全与人工边界，确定性交付无法评估。
+    evidence_ids:
+    - ev-238c1734b064e734
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认它接收的设计输入形式、产出的代码形态与框架适配范围，以及是否有真实项目使用记录。
+  market: ''
+  job: 前端或产品工程师在给网页、应用做动效时，把设计意图（时长、缓动、触发时机）交给编码代理，生成并反复调整可运行的动画代码。
+  job_en: Front-end or product engineers producing motion for web pages and apps hand design intent (duration,
+    easing, trigger timing) to a coding agent to generate and iteratively tune runnable animation code.
+  pain: 动效实现依赖设计师与前端反复沟通，参数逐项微调耗时；不同框架动画写法不通用，同一效果要重写一遍。
+  pain_en: Motion implementation depends on repeated designer-to-front-end handoffs, parameter tuning
+    is slow, and animation syntax differs across frameworks, so the same effect must be rewritten.
+  current_alternative: 手写 CSS/JS 动画，或引入现成动效库后逐项改参数；也可让通用编码代理直接写动画代码，但缺少动效专用约束。
+  current_alternative_en: Hand-writing CSS/JS animation, or adopting an existing motion library and adjusting
+    parameters item by item; alternatively letting a general coding agent write animation code without
+    motion-specific constraints.
+  usage_reason: 推断：相较手写或通用代理直接生成，它把动效参数与缓动规范作为工具包约束交给编码代理，工程师可省去把设计意图逐帧翻译成参数这一步；但材料未说明产出代码形态与框架适配范围，采用动机属结构推理而非用户反馈。
+  usage_reason_en: 'Inference: versus hand-writing or a general agent, it feeds motion parameters and
+    easing conventions to the coding agent as toolkit constraints, sparing engineers the step of translating
+    design intent frame by frame into parameters; the material does not describe output code form or framework
+    coverage, so the motive is structural reasoning, not user feedback.'

@@ -21,7 +21,7 @@ canonical_url: https://bbc.com/news/articles/c5vgjm3gk7rzo
 summary: AI is creating a 'human premium' for art created by people
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

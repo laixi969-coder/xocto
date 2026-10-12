@@ -1,7 +1,6 @@
 ---
 slug: meet-akshat-kannan-and-william-zhang-college-dropouts-who-la-2
-name: Meet Akshat Kannan and William Zhang, college dropouts who launched AI startup Zeroset, here's how
-  it emerged with $5.2 million in funding
+name: Zeroset
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: Meet Akshat Kannan and William Zhang, college dropouts who launched AI 
   how it emerged with $5.2 million in funding The Economic Times
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Meet Akshat Kannan and William Zhang, college dropouts who launched AI startup Zeroset, here's how it emerged with $5.2 million in funding
+# Zeroset
 
 Meet Akshat Kannan and William Zhang, college dropouts who launched AI startup Zeroset, here's how it emerged with $5.2 million in funding The Economic Times
 

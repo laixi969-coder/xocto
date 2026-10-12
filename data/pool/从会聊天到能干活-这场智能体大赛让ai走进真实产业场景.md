@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFQ1dtdWVDdDBz
 summary: 从“会聊天”到“能干活” 这场智能体大赛让AI走进真实产业场景 四川新闻
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

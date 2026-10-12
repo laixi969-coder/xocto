@@ -1,0 +1,83 @@
+- id: req-initial-工业具身智能一哥微亿智造冲刺港股-2026-10-12
+  project_slug: 工业具身智能一哥微亿智造冲刺港股
+  level: initial
+  reviewed_at: '2026-10-12T01:21:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决人工目检疲劳与标准不一致的问题，痛点真实，但公开材料无法确认它替代了哪条产线的哪一步操作。
+    evidence_ids:
+    - ev-fd01cd9c91684232
+  - gate: consensus
+    status: insufficient
+    reason: 只有冲刺上市的报道，没有客户采用、复购或产线部署证据。
+    evidence_ids:
+    - ev-fd01cd9c91684232
+  - gate: model
+    status: insufficient
+    reason: 未披露营收、客户结构与收费方式，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-fd01cd9c91684232
+  - gate: truth
+    status: insufficient
+    reason: 无法核对判定是否贴近质检第一性目标、承诺能否确定性交付，以及人工复核边界。
+    evidence_ids:
+    - ev-fd01cd9c91684232
+  next_validation: 收集微亿智造招股书或官方客户案例，确认其检测品类、客户结构与收费方式。
+  market: ''
+  job: 工厂质检与产线工程师在产线上处理外观缺陷检测时，需要把人工目检的判断替换为可复核的自动判定并定位缺陷位置。
+  job_en: Factory quality and line engineers handling appearance defect inspection need to replace manual
+    visual judgment with a reviewable automated decision that locates the defect.
+  pain: 人工目检存在疲劳、漏检和标准不一致的问题，产线对稳定判定有长期需求；但公开材料未说明该公司的方案在哪些产线解决了它。
+  pain_en: Manual visual inspection suffers fatigue, missed defects and inconsistent standards, so lines
+    have a long-standing need for stable judgment; however public material does not show which lines its
+    solution addresses.
+  current_alternative: 工厂目前依靠人工目检、传统机器视觉规则设备或外购检测服务来完成质检。
+  current_alternative_en: Factories currently rely on manual visual inspection, rule-based machine vision
+    equipment, or outsourced inspection services.
+  usage_reason: 推断：若方案能在特定品类上给出可复核的缺陷判定并减少漏检，产线工程师会在该品类上采用它替代人工目检；但客户案例与交付结果未公开，无法确认这一因果。
+  usage_reason_en: 'Inference: if the solution gives reviewable defect decisions for a specific category
+    and reduces missed defects, line engineers may adopt it there instead of manual inspection; however
+    customer cases and delivery results are undisclosed, so this causal link is unconfirmed.'
+- id: req-full-工业具身智能一哥微亿智造冲刺港股-2026-10-12
+  project_slug: 工业具身智能一哥微亿智造冲刺港股
+  level: full
+  reviewed_at: '2026-10-12T01:57:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决人工目检疲劳与标准不一致的问题，痛点方向真实，但公开材料无法确认它接收什么数据、替代哪条产线的哪一步操作、交付什么结果，连需求与痛点都还原不出。
+    evidence_ids:
+    - ev-fd01cd9c91684232
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪微亿智造港交所招股书或官网客户案例页，确认其检测品类、输入数据、部署产线与收费方式。
+  market: ''
+  job: 工厂质检与产线工程师在产线上处理产品外观缺陷检测时，需要把人工目检的判断替换为可复核的自动判定并定位缺陷位置。
+  job_en: Factory quality and line engineers handling appearance defect inspection on the line need to
+    replace manual visual judgment with a reviewable automated decision that locates the defect.
+  pain: 公开材料只给出“工业具身智能一哥冲刺港股”这一报道标题，未说明它接收什么图像或传感数据、执行哪些判定动作、交付什么结果，也未说明在哪些产线替代了哪一步人工目检，因此无法确认它解决的具体痛点。
+  pain_en: Public material only provides a headline about an IPO push; it does not state what image or
+    sensor data it ingests, what judgment actions it performs, what output it delivers, or which manual
+    inspection step it replaces on which line, so the specific pain it addresses cannot be confirmed.
+  current_alternative: 工厂目前依靠人工目检、传统规则式机器视觉设备或外购检测服务完成外观质检。
+  current_alternative_en: Factories currently rely on manual visual inspection, rule-based machine vision
+    equipment, or outsourced inspection services for appearance quality control.
+  usage_reason: 推断：若该方案能在特定品类上给出可复核的缺陷判定并减少漏检，产线工程师会在该品类上采用它替代人工目检；但公开材料未披露任何客户案例、部署细节或交付结果，无法确认这一因果。
+  usage_reason_en: 'Inference: if the solution gives reviewable defect decisions for a specific category
+    and reduces missed defects, line engineers may adopt it there instead of manual inspection; however
+    no customer case, deployment detail, or delivery result is disclosed, so this causal link is unconfirmed.'

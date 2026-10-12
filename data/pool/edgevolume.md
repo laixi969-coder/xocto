@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/edgevolume-volume-at-your-finger
 summary: Control your Mac’s volume from your trackpad edge
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://github.com/academa-labs/manimgx
 summary: Manim's API on a Rust/wgpu engine, for 3D videos in Python
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

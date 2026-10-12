@@ -1,0 +1,83 @@
+- id: req-initial-ghost-core-2026-10-12
+  project_slug: ghost-core
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 资料只有一句端侧运行描述，说不出它解决什么具体需求与痛点，也看不出替代了哪一步旧工作，价值关未过。
+    evidence_ids:
+    - ev-1e2d477637cbd6be
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有任何用户评价、采用或社区讨论可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-1e2d477637cbd6be
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均无公开信息。
+    evidence_ids:
+    - ev-1e2d477637cbd6be
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，端侧承诺能否确定性交付、安全与人工边界如何划分均无材料。
+    evidence_ids:
+    - ev-1e2d477637cbd6be
+  next_validation: 收集 Ghost Core 的官方产品页或发布说明，确认它具体接收什么输入、执行什么动作、产出什么交付，以及是否披露定价或使用场景。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the specific user or work step, so it is impossible to confirm
+    who handles what material in which situation to complete which task.
+  pain: 只能推断隐私敏感人群不愿把材料交给云端助手，但资料未给出任何具体痛点、频率或不采用的后果。
+  pain_en: One can only infer that privacy-sensitive users dislike sending material to cloud assistants,
+    but the material gives no concrete pain, frequency or cost of not adopting.
+  current_alternative: 公开材料未提及现有替代方式，无法判断用户此前用什么完成同一任务。
+  current_alternative_en: Public material mentions no existing alternative, so it is unclear what users
+    previously used for the same task.
+  usage_reason: 推断：若它确实把模型与数据都留在本机，可能吸引不能外传材料的人；但缺少功能说明、使用场景与任何采用证据，无法解释用户为何选择它。
+  usage_reason_en: 'Inference: if it truly keeps both model and data on-device, it may attract people
+    who cannot send material out; but with no feature description, scenario or adoption evidence, there
+    is no explanation of why users would choose it.'
+- id: req-full-ghost-core-2026-10-12
+  project_slug: ghost-core
+  level: full
+  reviewed_at: '2026-10-12T01:54:13Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选资料只有一句端侧运行描述，说不出它解决什么具体需求与痛点，也看不出替代了哪一步旧工作，价值关未过。
+    evidence_ids:
+    - ev-804526de48507746
+    - ev-2351c17b737dc86f
+    - ev-18e1fa2eeb5c98a9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Ghost Core 的官方产品页或发布说明，确认它具体接收什么输入、执行什么动作、产出什么交付，以及是否披露定价或使用场景。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the specific user or work step, so it is impossible to confirm
+    who handles what material in which situation to complete which task.
+  pain: 只能推断隐私敏感人群不愿把材料交给云端助手，但资料未给出任何具体痛点、频率或不采用的后果。
+  pain_en: One can only infer that privacy-sensitive users dislike sending material to cloud assistants,
+    but the material gives no concrete pain, frequency or cost of not adopting.
+  current_alternative: 公开材料未提及现有替代方式，无法判断用户此前用什么完成同一任务。
+  current_alternative_en: Public material mentions no existing alternative, so it is unclear what users
+    previously used for the same task.
+  usage_reason: 推断：若它确实把模型与数据都留在本机，可能吸引不能外传材料的人；但缺少功能说明、使用场景与任何采用证据，无法解释用户为何选择它。
+  usage_reason_en: 'Inference: if it truly keeps both model and data on-device, it may attract people
+    who cannot send material out; but with no feature description, scenario or adoption evidence, there
+    is no explanation of why users would choose it.'

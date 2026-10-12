@@ -1,0 +1,89 @@
+- id: req-initial-dotpals-2026-10-12
+  project_slug: dotpals
+  level: initial
+  reviewed_at: '2026-10-12T01:20:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是代理自称测试通过但结果不可信这一具体痛点，不核对的后果是坏代码进入主干，旧做法是人工翻日志重跑，价值结构成立。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 42 星、7 个 fork 只说明有开发者关注，没有用户评价或团队采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是个人开发者或团队，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+  - gate: truth
+    status: insufficient
+    reason: 它贴近“改动是否真的通过测试”这一第一性目标，但伪造通过的判定规则、误报率与人工边界均无公开材料。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+  next_validation: 收集 dotpals 仓库的 issue 与 discussion，查看是否有开发者报告误报、漏报或已将其接入日常代理工作流。
+  market: ''
+  job: 使用 Claude Code、Codex、Cursor 等编码代理的工程师，在代理改完代码后需要确认测试是否真的通过、改动是否弄坏了别处。
+  job_en: Engineers using coding agents such as Claude Code, Codex or Cursor need to confirm, after the
+    agent edits code, that tests really pass and nothing else was broken.
+  pain: 代理会报告“测试通过”，但可能跳过、伪造或只跑了一部分用例，工程师要重新读输出、重跑测试才能确认，代理改坏的地方还容易被漏掉。
+  pain_en: Agents report "tests pass" but may skip, fake or partially run cases, so engineers must re-read
+    output and re-run tests to confirm, and breakage the agent caused is easily missed.
+  current_alternative: 人工翻看代理输出与 CI 日志，或自己重跑测试命令，再手动把问题贴回给代理。
+  current_alternative_en: Manually reading agent output and CI logs, re-running test commands, then pasting
+    problems back to the agent by hand.
+  usage_reason: 推断：相较人工翻日志再重跑，它把“读代理输出、判断通过是否可信、把问题退回代理”合成一步，因此高频使用编码代理、且测试可信度影响交付的团队会在代理改完代码后选择它；公开材料尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with reading logs and re-running tests by hand, it merges reading
+    agent output, judging whether a pass is trustworthy, and sending the problem back into one step, so
+    teams that use coding agents heavily and depend on test trustworthiness would pick it after an agent
+    edit; public material has no user feedback or retention evidence yet.'
+- id: req-full-dotpals-2026-10-12
+  project_slug: dotpals
+  level: full
+  reviewed_at: '2026-10-12T01:53:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理自称测试通过但结果不可信这一具体痛点，不核对的后果是坏代码进入主干，旧做法是人工翻日志重跑，价值结构成立。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 42 星只说明有开发者关注，没有用户评价、团队采用或重复使用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是个人开发者或团队，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+  - gate: truth
+    status: insufficient
+    reason: 它贴近“改动是否真的通过测试”这一第一性目标，但伪造通过的判定规则、误报率与人工边界均无公开材料。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+  next_validation: 收集 dotpals 仓库的 issue 与 discussion，查看是否有开发者报告误报、漏报或已将其接入日常代理工作流。
+  market: ''
+  job: 使用 Claude Code、Codex、Cursor、Gemini CLI 等编码代理的工程师，在代理改完代码后处理代理输出与测试结果，要完成的任务是确认本次改动是否真的通过测试、有没有改坏别处，并把问题退回代理修复。
+  job_en: Engineers using coding agents such as Claude Code, Codex, Cursor or Gemini CLI, after the agent
+    edits code, work with agent output and test results to confirm whether the change really passes tests
+    and broke nothing else, then send problems back to the agent to fix.
+  pain: 代理会宣称测试通过，但可能跳过、伪造或只跑部分用例；工程师必须重新读输出、重跑测试才能确认，代理改坏的地方还容易漏掉，坏代码因此可能进入主干。
+  pain_en: Agents claim tests pass but may skip, fake or partially run cases; engineers must re-read output
+    and re-run tests to confirm, breakage the agent caused is easily missed, and bad code can reach the
+    main branch.
+  current_alternative: 人工翻看代理输出与 CI 日志，自己重跑测试命令，再手动把失败信息贴回给代理。
+  current_alternative_en: Manually reading agent output and CI logs, re-running test commands by hand,
+    then pasting failures back to the agent.
+  usage_reason: 推断：相较人工翻日志再重跑，它从代理输出中读取测试结果、标出被伪造或跳过的通过，并把 Claude Code 打回修复，把“读输出—判断通过是否可信—退回代理”合成一步，因此高频使用编码代理、且测试可信度影响交付的工程师会在代理改完代码后选择它；公开材料尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with reading logs and re-running tests by hand, it reads test
+    results from agent output, flags faked or skipped passes, and sends Claude Code back to fix, merging
+    reading output, judging whether a pass is trustworthy, and returning the problem into one step, so
+    engineers who use coding agents heavily and depend on test trustworthiness would pick it after an
+    agent edit; public material has no user feedback or retention evidence yet.'

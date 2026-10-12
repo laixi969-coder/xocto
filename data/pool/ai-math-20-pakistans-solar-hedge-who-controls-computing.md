@@ -32,7 +32,7 @@ summary: '“I’ve worked in the tech industry for the last 10 years, and Expon
   Condorcet bet that knowledge'
 first_seen: '2026-10-12T01:20:56Z'
 last_seen: '2026-10-12T01:20:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -651,3 +651,55 @@
     files via content previews, and returns exact line-numbered source excerpts, collapsing the ''guess
     a file then open and confirm'' step into directly supplied candidate files and code locations; inference:
     engineers who lack the symbol name but need verifiable context for a coding agent would cho'
+- id: req-full-jevgrep-2026-10-12
+  project_slug: jevgrep
+  level: full
+  reviewed_at: '2026-10-12T01:54:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是“只知行为、不知符号”时定位源码的需求，痛点是精确搜索失效、摘要可能失真；公开材料承认已知符号时 rg 更快，反证该场景真实存在，且返回精确源码片段使交付可确定。属工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-85b82eb9f92be694
+    - ev-c11fdbe18e0f883b
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 仓库收藏数从 2,521 增至 2,596，说明开发者社区已注意到该项目，但收藏与关注只属规模信号，公开材料未见持续使用、复购或工作流留存的证据。
+    evidence_ids:
+    - ev-ebfa2f4cb3a1431d
+    - ev-91bb35b7bdcdc831
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济，钱可能来自开源赞助、企业版或托管服务，均属判断而非已验证事实；这是模式缺口，不否定需求成立。
+    evidence_ids:
+    - ev-b031f0e5f4341e14
+  - gate: truth
+    status: insufficient
+    reason: 官网自述结果来自 2026 年 9 月 20 日单次未缓存开发运行、未使用生成式查询扩展，属原型阶段；交付稳定性、误召回率与人工复核边界尚无公开可复现证据。
+    evidence_ids:
+    - ev-f9f75d98fe474649
+    - ev-191d898cd7a38eb2
+  next_validation: 追踪 jevgrep 官方仓库的 issue 与 discussion，确认是否有用户报告在真实仓库中替代 rg 或智能体摘要检索的具体使用记录。
+  market: ''
+  job: 编码智能体使用者或维护陌生代码库的工程师，在只知道某段代码“做什么”而不知道符号名或字面量时，用自然语言描述行为，让 jevgrep 在仓库中定位相关文件与带行号的源码片段，再交给智能体或自己动手修改。
+  job_en: A coding-agent user or engineer maintaining an unfamiliar repository, who knows what a piece
+    of code does but not its symbol or literal, describes the behavior in natural language so jevgrep
+    locates the relevant files and line-numbered source excerpts before handing off to an agent or editing
+    manually.
+  pain: 公开材料明确承认：只有已知符号或字面量时，普通文本搜索才更快；反过来说，当只掌握行为描述时，rg 这类精确工具无法直接命中，用户只能靠猜关键词、翻目录或让智能体生成摘要，而摘要可能偏离真实源码。
+  pain_en: The public material explicitly concedes that ordinary text search is faster only when the symbol
+    or literal is already known; conversely, when only a behavior description is available, exact tools
+    like rg cannot hit directly, forcing users to guess keywords, browse directories, or accept agent-generated
+    summaries that may drift from the real source.
+  current_alternative: 当前替代是 rg 等精确文本搜索、按目录人工浏览，以及让编码智能体自行生成摘要式检索结果；公开材料把 jevgrep 定位为对 rg 的补充而非替代。
+  current_alternative_en: The current alternatives are exact text search such as rg, manual directory
+    browsing, and letting coding agents produce summary-style retrieval results; the public material positions
+    jevgrep as a complement to rg rather than a replacement.
+  usage_reason: 推断：相较 rg 需要先知道符号、相较智能体摘要可能失真，jevgrep 用 Jev 先做范围选择再比对完整函数源码，直接返回精确源码片段而非生成摘要，省去用户猜关键词和核对摘要是否忠实的那一步，因此已知行为但不知符号的工程师会在接手陌生仓库时选择它。
+  usage_reason_en: 'Inference: compared with rg, which requires knowing the symbol first, and with agent
+    summaries that may distort, jevgrep uses Jev to select scope and then compare complete function source,
+    returning exact source excerpts instead of generated summaries, removing the step of guessing keywords
+    and verifying summary fidelity, so engineers who know the behavior but not the symbol choose it when
+    taking over an unfamiliar repository.'

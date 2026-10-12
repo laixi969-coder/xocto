@@ -1,0 +1,83 @@
+- id: req-initial-四港智运浙江海港货主无忧智能体上线-2026-10-12
+  project_slug: 四港智运浙江海港货主无忧智能体上线
+  level: initial
+  reviewed_at: '2026-10-12T01:21:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决货主在港口环节反复确认状态与手续的问题，痛点真实，但公开材料无法确认它替代了哪一步具体操作。
+    evidence_ids:
+    - ev-1feb77d07520c0c2
+  - gate: consensus
+    status: insufficient
+    reason: 只有上线报道，没有货主采用、评价或使用规模证据。
+    evidence_ids:
+    - ev-1feb77d07520c0c2
+  - gate: model
+    status: insufficient
+    reason: 未披露收费方式与买方结构，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-1feb77d07520c0c2
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近货主第一性目标、承诺能否确定性交付，以及人工与自动边界。
+    evidence_ids:
+    - ev-1feb77d07520c0c2
+  next_validation: 收集四港智运或浙江海港官方页面，确认该智能体的功能范围、覆盖港口与收费方式。
+  market: ''
+  job: 货主在货物进出浙江海港时，需要查询船舶与货物状态、办理港口相关手续并跟踪异常，原本要在多个窗口和电话之间来回确认。
+  job_en: Cargo owners moving goods through Zhejiang ports need to check vessel and cargo status, handle
+    port paperwork and track exceptions, previously bouncing between counters and phone calls.
+  pain: 港口环节信息分散在船公司、码头、报关等多个主体，货主确认一次状态往往要打多个电话，这是长期存在的旧问题；但公开材料未说明该智能体是否真正解决它。
+  pain_en: Port information is split across carriers, terminals and customs, so confirming one status
+    often takes several calls; this is a long-standing problem, but public material does not show whether
+    this agent actually solves it.
+  current_alternative: 货主目前依靠电话、邮件、货代和港口各业务系统分别查询与办理。
+  current_alternative_en: Cargo owners currently rely on phone calls, email, freight forwarders and separate
+    port business systems to query and process.
+  usage_reason: 推断：若该智能体能直接给出可核对的船期与货物状态并承接部分手续，货主会在异常跟踪时优先使用它，省去一次电话确认；但功能范围与收费方式未公开，无法确认这一因果。
+  usage_reason_en: 'Inference: if the agent returns checkable vessel and cargo status and handles part
+    of the paperwork, cargo owners may use it first when tracking exceptions, saving one phone confirmation;
+    however scope and pricing are undisclosed, so this causal link is unconfirmed.'
+- id: req-full-四港智运浙江海港货主无忧智能体上线-2026-10-12
+  project_slug: 四港智运浙江海港货主无忧智能体上线
+  level: full
+  reviewed_at: '2026-10-12T01:57:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决货主在港口环节反复确认状态与手续的问题，痛点真实，但公开材料无法确认它替代了哪一步具体操作。
+    evidence_ids:
+    - ev-1feb77d07520c0c2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 货主无忧智能体 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 货主在货物进出浙江海港时，需要查询船舶与货物状态、办理港口相关手续并跟踪异常，原本要在多个窗口和电话之间来回确认。
+  job_en: Cargo owners moving goods through Zhejiang ports need to check vessel and cargo status, handle
+    port paperwork and track exceptions, previously bouncing between counters and phone calls.
+  pain: 公开材料只给出上线报道，未说明该智能体接收什么数据、执行哪些动作、交付什么结果，也未说明它替代了货主现有流程中的哪一步，因此无法确认痛点是否被真正承接。
+  pain_en: Public material only reports the launch; it does not state what data the agent takes in, what
+    actions it performs, what it delivers, or which step of the cargo owner's existing process it replaces,
+    so it is impossible to confirm the pain is actually addressed.
+  current_alternative: 货主目前依靠电话、邮件、货代和港口各业务系统分别查询与办理。
+  current_alternative_en: Cargo owners currently rely on phone calls, email, freight forwarders and separate
+    port business systems to query and process.
+  usage_reason: 推断：若该智能体能直接给出可核对的船期与货物状态并承接部分手续，货主会在异常跟踪时优先使用它，省去一次电话确认；但功能范围、输入数据与收费方式均未公开，无法确认这一因果。
+  usage_reason_en: 'Inference: if the agent returns checkable vessel and cargo status and handles part
+    of the paperwork, cargo owners may use it first when tracking exceptions, saving one phone confirmation;
+    however scope, input data and pricing are undisclosed, so this causal link is unconfirmed.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SWTNMQ21ETVhs
 summary: 虎嗅AI100闭门会：AI硬件不会走向统一形态，长期价值取决于场景理解、数据复用与系统整合 虎嗅网
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

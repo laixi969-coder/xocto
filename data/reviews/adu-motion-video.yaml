@@ -91,3 +91,55 @@
     step, so explainer creators with fixed formats and per-video output are likely to try it first. The
     212 stars only show developer attention; with no evidence on output quality or repeat use, long-term
     workflow adoption cannot be claimed.'
+- id: req-full-adu-motion-video-2026-10-12
+  project_slug: adu-motion-video
+  level: full
+  reviewed_at: '2026-10-12T01:51:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播与讲解视频中动效与剪辑耗时、风格难统一的问题，痛点具体且刚性，旧做法（手工调关键帧或外包）明确，交付是可发布的成片，结构上成立；这是工作流推理，尚无成片质量与返修量数据。
+    evidence_ids:
+    - ev-522ea4a6aa5eecc2
+    - ev-d092cedd34c98669
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 212 升至 237，只说明开发者关注度上升，没有用户评价、成片案例或使用反馈，无法判断卡在感知、想象还是场景环节。
+    evidence_ids:
+    - ev-522ea4a6aa5eecc2
+    - ev-d092cedd34c98669
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何收费方式，买方可能是个人创作者、内容团队或课程机构，这是判断而非已验证事实；无定价页不取消真需求判定。
+    evidence_ids:
+    - ev-522ea4a6aa5eecc2
+  - gate: truth
+    status: insufficient
+    reason: 依赖 Codex 或 Claude Code 执行剪辑，成片是否需人工返修、模板能否稳定复现同一效果、素材版权与安全边界，公开材料均未说明。
+    evidence_ids:
+    - ev-522ea4a6aa5eecc2
+    - ev-d092cedd34c98669
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，收集用户实际成片反馈、模板复现问题与是否出现付费或赞助入口。
+  market: ''
+  job: 口播与知识讲解类创作者在录好口播音频、备齐素材后，需要把口播与画面剪成一条风格统一的成片，用于发布到视频平台或课程；短视频团队则要按同一模板批量产出风格一致的讲解视频。
+  job_en: Talking-head and explainer creators, after recording voice-over audio and gathering footage,
+    need to cut voice-over and visuals into one style-consistent finished video for publishing to video
+    platforms or courses; short-video teams need to batch-produce style-consistent explainer videos from
+    the same template.
+  pain: 动效与转场原本要在剪辑软件里逐帧调关键帧，一条几分钟的讲解视频常要花数小时，且不同视频之间风格难以统一；批量产出时这一步最耗时，也是最难标准化的环节。
+  pain_en: Motion and transitions previously required frame-by-frame keyframing in editing software, often
+    costing hours for a few minutes of explainer video, with style hard to keep consistent across videos;
+    in batch production this step dominates time and is hardest to standardize.
+  current_alternative: 旧做法是在 Premiere、剪映或 After Effects 里手工套模板、调关键帧，或外包给剪辑师按条计费；也有创作者直接用无动效的纯口播画面凑合。
+  current_alternative_en: The old way is manually applying templates and keyframes in Premiere, CapCut
+    or After Effects, or outsourcing to editors paid per video; some creators settle for plain talking-head
+    footage with no motion design.
+  usage_reason: 推断：相较手工逐帧调关键帧，它把“选模板—套动效—对齐口播”这几步交给 Codex 或 Claude Code 按模板执行，省去逐帧调关键帧这一步，并让同一模板在多条视频上复现同一风格；因此结构固定、按条产出的知识讲解创作者和需要统一风格的短视频团队会优先尝试。仓库
+    212→237 星只说明开发者关注度上升，尚无成片质量、返修量或复购证据，不能据此断言已进入长期工作流。
+  usage_reason_en: 'Inference: versus manual frame-by-frame keyframing, it hands the steps of picking
+    a template, applying motion and aligning voice-over to Codex or Claude Code executing the template,
+    removing the keyframing step and letting one template reproduce the same style across videos; so explainer
+    creators with fixed formats and teams needing consistent style are likely to try it first. The star
+    count rising from 212 to 237 only shows growing developer attention; there is no evidence o'

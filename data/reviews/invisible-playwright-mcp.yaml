@@ -174,3 +174,47 @@
   usage_reason_en: With no product-specific documentation, feature description or user feedback, it is
     impossible to say which step it removes or which checkable result it improves versus the old approach,
     so no causal reason for choosing it can be given.
+- id: req-full-invisible-playwright-mcp-2026-10-12
+  project_slug: invisible-playwright-mcp
+  level: full
+  reviewed_at: '2026-10-12T01:54:34Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决受保护站点上代理被反爬与验证码拦截、脚本反复失效的问题，但公开证据里没有该产品自身的用户任务、痛点或替代行为记录，无法确认需求刚性，价值关不成立。
+    evidence_ids:
+    - ev-d4e3a6c6fd1e9c1a
+    - ev-f51df081a69c92e7
+    - ev-10513c23a71337cf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 MCP 服务官方仓库的 README、issue 与 discussion，确认其真实功能范围、被目标站点封禁的记录以及是否有企业采用或合规说明。
+  market: ''
+  job: 数据采集或自动化测试工程师在目标站点启用反爬与验证码、常规脚本被拦截时，把该 MCP 服务接入 AI 代理，让代理在反检测 Firefox 上打开页面、点击并抓取，产出可用的页面数据或操作结果。
+  job_en: A data-collection or automation-testing engineer, when a target site enables anti-bot and captcha
+    defenses that block ordinary scripts, wires this MCP server into an AI agent so the agent browses,
+    clicks and scrapes on stealth Firefox to produce usable page data or action results.
+  pain: 公开证据中没有该产品自身的用户痛点、被拦截记录或使用反馈；现有材料只描述反检测浏览器与 MCP 接入这一能力，无法据此确认谁在什么情况下因何受困。
+  pain_en: The public evidence contains no user pain, block records or feedback for this product itself;
+    the material only describes an anti-detect browser plus MCP access, which cannot establish who is
+    stuck, when, or why.
+  current_alternative: 公开材料未记录该产品用户当前使用的替代方式；只能从任务结构推断可能自建 Playwright/Selenium 加代理池与指纹补丁，或购买商业采集接口，但无引用支持。
+  current_alternative_en: The public material records no current alternative used by this product's users;
+    only structural inference suggests self-built Playwright/Selenium with proxy pools and fingerprint
+    patches, or commercial scraping APIs, but no citation supports it.
+  usage_reason: 无法从公开证据说明用户为何选择它：现有引用均与该项目无关，缺少产品文档、使用反馈或采用记录，因此不能给出相较旧做法的具体减负因果。
+  usage_reason_en: 'No public evidence explains why a user would choose it: all citations are unrelated
+    to the project, and product docs, usage feedback or adoption records are absent, so no concrete causal
+    reduction of effort versus the old approach can be stated.'

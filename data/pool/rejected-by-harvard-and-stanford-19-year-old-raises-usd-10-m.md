@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQlhEc0w2ZEEx
 summary: Rejected by Harvard and Stanford, 19-year-old raises USD 10 million for AI startup India Today
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

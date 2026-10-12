@@ -22,7 +22,7 @@ summary: I left my $200K job before my business had paying customers. Here's why
   validation. Business Insider
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -278,3 +278,49 @@
   usage_reason_en: 'Inference: unlike scanners that only list alerts, it first proves exploitability with
     executable PoCs and then submits test-first fixes, removing the step where engineers reproduce each
     alert, so teams needing fast pre-release exploitability confirmation would choose it.'
+- id: req-full-vulnhunter-2026-10-12
+  project_slug: vulnhunter
+  level: full
+  reviewed_at: '2026-10-12T01:57:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决扫描告警需逐条人工验证可利用性的负担，不验证会让误报进入修复流程；公开材料明确传统 SAST 误报多，旧做法是静态扫描加人工复现，属工作流结构推理。
+    evidence_ids:
+    - ev-81da9871367a3ed6
+    - ev-2217258a865f3ecb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 665 升至 699 显示关注度，但无客户案例、issue 反馈或持续采用证据，无法证明团队已把它留在工作流里。
+    evidence_ids:
+    - ev-f0e2767371017cb9
+    - ev-a41165ec860607a0
+  - gate: model
+    status: insufficient
+    reason: 开源分支无定价页与买方信息，企业采购或托管收费只是推断而非已验证事实，谁付钱尚未在公开材料中核验。
+    evidence_ids:
+    - ev-f0e2767371017cb9
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 PoC 生成的安全边界与人工复核流程，修复能否确定性交付、误报率如何仍缺可核对证据。
+    evidence_ids:
+    - ev-2217258a865f3ecb
+  next_validation: 追踪 nealbridges/VulnHunter 仓库的 issue 与 discussion，确认是否有团队在真实代码库中重复使用并反馈误报率或修复合并结果。
+  market: ''
+  job: 安全工程师或应用安全负责人在代码库上线前，把仓库源码交给扫描器，需要判断哪些告警真的可被利用，并拿到可复核的修复改动后再合并。
+  job_en: Security engineers or AppSec leads hand a repository to the scanner before release, needing
+    to judge which alerts are truly exploitable and obtain reviewable fix changes before merging.
+  pain: 公开材料指出传统被动 SAST 只标记可疑模式、常产生误报，安全团队必须逐条人工验证可利用性，误报消耗大量时间，修复也缺少可复现证据。
+  pain_en: Public materials state traditional passive SAST flags suspicious patterns and often causes
+    false positives, forcing teams to manually verify exploitability one by one; false positives consume
+    heavy time and fixes lack reproducible evidence.
+  current_alternative: 使用传统静态扫描器输出告警清单后人工复现验证，或外包渗透测试并等待报告。
+  current_alternative_en: Using traditional static scanners that emit alert lists followed by manual reproduction,
+    or outsourcing penetration tests and waiting for reports.
+  usage_reason: 推断：相较旧做法只给告警清单，它以攻击者视角推理并生成可执行 PoC 先证明漏洞真实可利用，再按测试先行提交修复，省掉安全工程师逐条复现告警这一步，因此需要在上线前快速确认可利用性的团队会选择它。
+  usage_reason_en: 'Inference: unlike the old approach that only lists alerts, it reasons like an adversary
+    and produces executable PoCs to first prove exploitability, then submits test-first fixes, removing
+    the step where engineers reproduce each alert, so teams needing fast exploitability confirmation before
+    release would choose it.'

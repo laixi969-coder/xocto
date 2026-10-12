@@ -24,3 +24,46 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+- id: req-initial-savvy-2026-10-12
+  project_slug: savvy
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议中即时应答的需求，痛点是想不出话会直接损失成交，旧做法是会前背稿与会后复盘，结构上成立。
+    evidence_ids:
+    - ev-35125cc07997574d
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品简介，没有用户评价、案例或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-35125cc07997574d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能按坐席向销售团队收费，也可能面向个人订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-35125cc07997574d
+  - gate: truth
+    status: insufficient
+    reason: 实时提示的延迟、准确度以及会议中使用的合规边界均无材料支持，交付确定性待核验。
+    evidence_ids:
+    - ev-35125cc07997574d
+  next_validation: 收集 Savvy 官方定价页或客户案例，确认按坐席还是按通话计费以及是否有团队采购记录。
+  market: ''
+  job: 销售或商务人员在客户会议、外呼或面试中，一边听对方说话一边需要立刻给出得体回应，Savvy 在屏幕上提示可照读的话术。
+  job_en: A salesperson or business staffer in a client meeting, cold call or interview must respond well
+    on the spot while listening, and Savvy shows lines on screen to read out.
+  pain: 临场想不出话、答不上专业问题或说错话，会直接损失成交或机会；会后复盘来不及补救。
+  pain_en: Failing to find words, answer a domain question or avoid a misstatement costs the deal or the
+    opportunity immediately, and post-meeting review comes too late.
+  current_alternative: 会前背话术、会后复盘录音，或旁边有人递纸条提示。
+  current_alternative_en: Memorising scripts beforehand, reviewing recordings afterwards, or having a
+    colleague pass notes.
+  usage_reason: 推断：相比会前背稿和会后复盘，它在对话进行中直接给出可照读的句子，把“想不出怎么接”这一步从用户身上移走，因此高频面对陌生提问的销售和面试者会在关键通话时打开它；候选未提供任何使用反馈，是否长期留在工作流无法确认。
+  usage_reason_en: 'Inference: unlike memorising scripts or reviewing afterwards, it supplies readable
+    lines during the conversation, removing the step of finding the right words, so salespeople and interviewees
+    facing unfamiliar questions would open it on high-stakes calls; no usage feedback is provided, so
+    long-term retention cannot be confirmed.'

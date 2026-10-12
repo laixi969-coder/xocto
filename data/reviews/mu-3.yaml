@@ -126,3 +126,48 @@
   usage_reason_en: 'Inference: versus a single-model agent, it uses a small model to judge routine calls
     before handing work to a large model, removing the step of calling the large model on every request,
     so cost-sensitive indie developers or small teams would try it; retention evidence is missing.'
+- id: req-full-mu-3-2026-10-12
+  project_slug: mu-3
+  level: full
+  reviewed_at: '2026-10-12T01:55:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理对每个请求都调用大模型带来的成本与延迟问题，旧做法是单模型或手动切换模型，痛点刚性且交付为代码改动，结构推理成立。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从478增至493，没有开发者采用、评测或讨论证据，共识尚未形成，星标只属关注度。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+    - ev-3bac3d42545917e2
+  - gate: model
+    status: insufficient
+    reason: 开源项目无可见定价，买方可能是自托管团队或企业，这是判断而非已验证事实，付费路径未核验。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  - gate: truth
+    status: insufficient
+    reason: 分层路由是否真的降低总成本、是否影响代码正确率，均无公开评测可核对，承诺交付确定性未验证。
+    evidence_ids:
+    - ev-824f21e9f1c29a9a
+  next_validation: 收集该仓库的 issue、discussion 或基准测试说明，确认分层路由在真实任务上的成本与通过率对比数据。
+  market: ''
+  job: 软件工程师在本地仓库中让编码代理处理日常改动时，输入代码上下文与任务描述，要完成一次可用的代码修改，同时控制大模型调用成本与延迟。
+  job_en: Software engineers letting a coding agent handle routine repository changes input code context
+    and task descriptions to produce a usable code change while controlling large-model call cost and
+    latency.
+  pain: 公开说明显示代理把每个请求都交给大模型，常规小改动也付出高延迟与高成本，团队无法按任务难度分配算力；这是从产品机制推出的痛点，缺少用户抱怨或评测佐证。
+  pain_en: The public description shows the agent sends every request to a large model, so routine small
+    edits carry high latency and cost and teams cannot allocate compute by task difficulty; this pain
+    is inferred from the product mechanism, lacking user complaints or benchmarks.
+  current_alternative: 直接使用单一模型的编码代理，或手动在便宜与昂贵模型之间切换，或干脆自己写小改动。
+  current_alternative_en: Using a single-model coding agent, manually switching between cheap and expensive
+    models, or just writing small edits by hand.
+  usage_reason: 推断：相较单一模型代理，它先用小模型判断常规调用再交给大模型执行，减少每次请求都调用大模型这一步，因此对调用成本敏感的独立开发者或小团队会尝试；是否长期留在工作流缺少留存证据。
+  usage_reason_en: 'Inference: versus a single-model agent, it uses a small model to judge routine calls
+    before handing work to a large model, removing the step of calling the large model on every request,
+    so cost-sensitive indie developers or small teams would try it; retention evidence is missing.'

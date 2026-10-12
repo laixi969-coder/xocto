@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOX2RoZVY3akk0
 summary: AI真赚钱了吗？传媒大涨5%背后，一场AI商业淘汰赛正在开始 搜狐网
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

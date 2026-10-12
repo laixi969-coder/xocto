@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE1MZTg2WTQzTTdk
 summary: Press Releases about Ruanyun Edai Technology Inc. - Ordinary shares (Nasdaq:RYET) FinancialContent
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -8,12 +8,20 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/manishrjain/zroar
 canonical_url: https://github.com/manishrjain/zroar
 summary: Serialized Roaring Bitmaps in Zig
 first_seen: '2026-08-21T20:18:22Z'
 last_seen: '2026-08-22T22:37:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -23,6 +31,7 @@ sightings:
   metrics:
     points: 5
     comments: 0
+  kind: product
 ---
 
 # Zroar

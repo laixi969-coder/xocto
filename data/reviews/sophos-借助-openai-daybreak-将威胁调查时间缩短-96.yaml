@@ -1,0 +1,89 @@
+- id: req-initial-sophos-借助-openai-daybreak-将威胁调查时间缩短-96-2026-10-12
+  project_slug: sophos-借助-openai-daybreak-将威胁调查时间缩短-96
+  level: initial
+  reviewed_at: '2026-10-12T01:21:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决告警后跨系统取证与时间线还原的需求，痛点是调查慢导致攻击者停留时间延长，旧做法是人工查询日志并手写报告。
+    evidence_ids:
+    - ev-0dde0094d32fc20a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有单一材料给出的时间缩短说法，未见独立客户案例或持续采用证据。
+    evidence_ids:
+    - ev-0dde0094d32fc20a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价、买方或按事件计费方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0dde0094d32fc20a
+  - gate: truth
+    status: insufficient
+    reason: 未见模型结论准确性、误判处理与人工复核边界的公开说明。
+    evidence_ids:
+    - ev-0dde0094d32fc20a
+  next_validation: 收集 Sophos 官方博客或案例页中关于该调查流程接入方式与人工复核环节的公开说明。
+  market: ''
+  job: 安全运营人员在收到告警后，需要跨日志与控制台收集证据、还原攻击时间线并产出调查结论。
+  job_en: After an alert, security operations staff must gather evidence across logs and consoles, reconstruct
+    the attack timeline and produce an investigation conclusion.
+  pain: 证据分散在多个系统，人工串联时间线耗时，调查慢会延长攻击者停留时间。
+  pain_en: Evidence is scattered across systems, manual timeline stitching is slow, and slow investigations
+    extend attacker dwell time.
+  current_alternative: 分析师手工查询各日志平台、复制时间戳到文档，再凭经验写出事件报告。
+  current_alternative_en: Analysts manually query each log platform, copy timestamps into documents, and
+    write incident reports from experience.
+  usage_reason: 推断：相较人工跨系统取证，该方案让模型直接读取告警与日志并生成调查结论，减少收集与串联证据这一步，因此告警量大、人手有限的安全团队会在事件响应时选择它。
+  usage_reason_en: 'Inference: compared with manual cross-system forensics, this lets the model read alerts
+    and logs and produce investigation conclusions, removing the evidence-gathering and stitching step,
+    so alert-heavy, thinly staffed security teams would choose it during incident response.'
+- id: req-full-sophos-借助-openai-daybreak-将威胁调查时间缩短-96-2026-10-12
+  project_slug: sophos-借助-openai-daybreak-将威胁调查时间缩短-96
+  level: full
+  reviewed_at: '2026-10-12T01:56:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决告警后跨系统取证与时间线还原的需求，痛点是调查慢导致攻击者停留时间延长，旧做法是人工查询日志并手写报告；公开材料仅给出时间缩短说法，属工作流结构推理。
+    evidence_ids:
+    - ev-7ecfa3d64c6fd705
+    - ev-fe7f27ed0fd5fdcf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有单一材料给出的时间缩短说法，未见独立客户案例、公开评价或持续采用证据，无法判断安全团队是否已把它留在日常响应流程中。
+    evidence_ids:
+    - ev-fe7f27ed0fd5fdcf
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价、买方或按事件计费方式，谁付钱与如何重复交付仍属判断而非已验证事实。
+    evidence_ids:
+    - ev-7ecfa3d64c6fd705
+  - gate: truth
+    status: insufficient
+    reason: 未见模型结论准确性、误判处理与人工复核边界的公开说明，承诺能否确定性交付尚不可核对。
+    evidence_ids:
+    - ev-fe7f27ed0fd5fdcf
+  next_validation: 追踪 Sophos 官方博客或客户案例页中关于该调查流程接入方式、人工复核环节与计费方式的公开说明。
+  market: ''
+  job: 安全运营分析师在收到告警或事件后，需要跨多个日志平台与控制台收集证据、串联攻击时间线，并写出可交付的调查结论。
+  job_en: After an alert or incident, security operations analysts must gather evidence across multiple
+    log platforms and consoles, stitch together the attack timeline, and produce a deliverable investigation
+    conclusion.
+  pain: 证据分散在多个系统，人工查询与时间线串联耗时，调查慢会延长攻击者停留时间；公开材料只给出时间缩短 96% 的说法，未提供客户侧痛点原话。
+  pain_en: Evidence is scattered across systems and manual querying and timeline stitching is slow, so
+    slow investigations extend attacker dwell time; the public material only states a 96% time reduction
+    and gives no customer-side pain quotes.
+  current_alternative: 分析师手工查询各日志平台、把时间戳复制进文档，再凭经验撰写事件报告；Sophos 官方页面称其架构整合 500+ 集成以统一查看与响应。
+  current_alternative_en: Analysts manually query each log platform, copy timestamps into documents, and
+    write incident reports from experience; Sophos's own page says its architecture unifies 500+ integrations
+    for unified visibility and response.
+  usage_reason: 推断：相较人工跨系统取证，该方案让模型直接读取告警与日志并生成调查结论，减少收集与串联证据这一步，因此告警量大、人手有限的安全团队会在事件响应时选择它；公开材料未提供客户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with manual cross-system forensics, this lets the model read alerts
+    and logs and produce investigation conclusions, removing the evidence-gathering and stitching step,
+    so alert-heavy, thinly staffed security teams would choose it during incident response; no customer
+    feedback or retention evidence is provided.'

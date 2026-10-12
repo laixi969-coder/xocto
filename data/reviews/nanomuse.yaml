@@ -348,3 +348,55 @@
     before irreversible actions, removing the step of staying at the device clicking through, while extending
     memory across weeks; so individuals with cross-device repetitive work who fear irreversible automation
     errors would choose it when they need resident execution with confirmation boundaries. P'
+- id: req-full-nanomuse-2026-10-12
+  project_slug: nanomuse
+  level: full
+  reviewed_at: '2026-10-12T01:55:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨设备重复操作与应用关闭后任务中断的需求，痛点在于手动切换、动作不可撤回；公开材料说明其常驻执行、跨设备记忆与不可撤销前确认，旧替代为手动操作、快捷指令与一次性 agent，结构推理下交付可确定。
+    evidence_ids:
+    - ev-3047b9abb8930587
+    - ev-04b30655a9581f79
+    - ev-97b65842703fffc8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 871 星标属关注度信号，公开材料未见用户评价、客户案例或持续采用证据，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-14ee4e8348d6448d
+  - gate: model
+    status: insufficient
+    reason: 开源项目提供免费模型或接入任意 OpenAI 兼容模型，但未披露定价、买方或付费路径，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-97b65842703fffc8
+    - ev-2117e087a7636c19
+  - gate: truth
+    status: insufficient
+    reason: 常驻执行与不可撤销操作前确认贴近安全边界，但缺少部署文档、实测或用户反馈来核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-3047b9abb8930587
+    - ev-04b30655a9581f79
+  next_validation: 追踪 nanoMuse 官方 公开代码仓库 仓库的 issue、discussion 与部署文档，核对它实际支持的任务类型、执行可靠性及是否有用户反馈或客户案例。
+  market: ''
+  job: 个人用户在自己的手机、电脑或浏览器里，把跨设备的日常操作（如在本机应用与浏览器之间搬运信息、执行重复动作）交给一个常驻智能体，由它调用本机与浏览器执行动作，应用关闭后仍继续跑，遇到不可撤销操作先确认，最终交付已执行的动作或待确认提示。
+  job_en: An individual hands cross-device routine operations (e.g., moving information between local
+    apps and the browser, repeating actions) to a resident agent on their phone, computer or browser;
+    it calls local and browser capabilities, keeps running after the app closes, asks before irreversible
+    actions, and delivers executed actions or pending confirmations.
+  pain: 跨设备操作要在多个应用间来回切换并手动重复，应用关闭后任务中断，且自动化动作一旦出错难以撤回；现有对话助手只回答不执行，2023 年类 agent 做完一次就停。
+  pain_en: Cross-device work requires switching among apps and repeating steps manually, tasks stop when
+    the app closes, and automated actions are hard to undo once wrong; existing chat assistants answer
+    without acting, and 2023-era agents stop after one task.
+  current_alternative: 用户目前靠手动逐步操作、系统自带快捷指令或脚本，以及通用对话助手逐步完成，缺少常驻执行、跨设备记忆与不可撤销操作前的确认边界。
+  current_alternative_en: Users currently rely on manual step-by-step operation, built-in shortcuts or
+    scripts, and general chat assistants, lacking resident execution, cross-device memory and a confirmation
+    boundary before irreversible actions.
+  usage_reason: 推断：相较手动逐步操作或一次性 agent，它把执行放进常驻进程，应用关闭后仍继续，并在不可撤销操作前要求确认，减少用户守在设备前逐步点击的一步，同时降低误操作不可撤回的风险；因此需要跨设备重复操作、又担心自动化出错的个人用户会在这些场景选择它。公开材料未给出用户反馈、留存或客户案例，是否长期留在工作流仍无法确认。
+  usage_reason_en: 'Inference: versus manual step-by-step operation or one-shot agents, it moves execution
+    into a resident process that keeps running after the app closes and requires confirmation before irreversible
+    actions, removing the step of staying at the device clicking through and lowering the risk of unrecoverable
+    mistakes; thus individuals with cross-device repetitive work who worry about automation errors would
+    choose it in these situations. Public materials give no user feedback, ret'

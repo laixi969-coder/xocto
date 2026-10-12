@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/notchpit
 summary: Your Mac's notch, rearranged into a control center
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

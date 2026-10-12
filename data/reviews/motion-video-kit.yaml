@@ -578,3 +578,52 @@
     into loadable skills and auto-reviews within the generation flow via the independent critic loop,
     reducing the manual frame-checking step; thus creators or marketing teams needing batch business promo
     videos without a professional motion team would choose it in a Claude Code workflow.'
+- id: req-full-motion-video-kit-2026-10-12
+  project_slug: motion-video-kit
+  level: full
+  reviewed_at: '2026-10-12T01:55:19Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是商业宣传片制作中 AI 生成质量不稳、动效与音效缺乏专业标准、单次生成无法自检的需求，痛点在于成片达不到发布级水准需反复返工；公开仓库说明已把 28 部发布片的动效原则、音效规范与独立评审循环固化为可加载规则，交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-9dc30c17fe8eda22
+    - ev-e26299384f43a8f9
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏数从 1,044 增至 1,087，说明开发者社区持续关注并把它纳入 Claude Code 工作流；但这是关注度证据，公开材料未显示目标营销用户的持续使用或复购，故共识仅到关注层面。
+    evidence_ids:
+    - ev-9dc30c17fe8eda22
+    - ev-e26299384f43a8f9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断钱来自 to C 创作者、to B 营销团队还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-9dc30c17fe8eda22
+  - gate: truth
+    status: insufficient
+    reason: 技能包承诺的评审循环能否稳定产出发布级成片、人工修改量与安全边界，公开材料尚无客户案例或可复现实测支持，交付确定性仍待公开证据。
+    evidence_ids:
+    - ev-e26299384f43a8f9
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户公开贴出用该技能包产出的成片案例及其人工修改量。
+  market: ''
+  job: 营销团队或独立创作者在需要为产品发布、融资或投放制作商业宣传片时，在 Claude Code 中加载这套技能包，处理脚本、分镜、动效与音效素材，产出可交付的成片脚本与视频画面。
+  job_en: Marketing teams or solo creators producing a business promo video for a launch, fundraise, or
+    campaign load this skill kit in Claude Code, working on scripts, storyboards, motion and sound assets
+    to produce a deliverable video script and footage.
+  pain: 公开材料显示该技能包针对的是 AI 生成商业视频质量不稳、动效与音效缺乏专业标准、单次生成难以自检的问题；不解决的后果是反复返工、成片达不到发布级水准，但公开材料未给出具体返工时长或成本数据。
+  pain_en: Public materials indicate the kit targets unstable quality in AI-generated business video,
+    missing professional motion and sound standards, and the lack of self-checking in single-pass generation;
+    the consequence is rework and sub-launch-grade output, though no concrete rework time or cost data
+    is public.
+  current_alternative: 旧做法是人工套用 After Effects、Premiere 模板或外包动效团队，或直接使用通用 AI 视频工具生成后靠人工逐帧修补；公开材料未说明用户此前具体使用哪种替代。
+  current_alternative_en: The prior approach is hand-applying After Effects or Premiere templates, outsourcing
+    motion work, or using generic AI video tools and fixing frames manually; public materials do not specify
+    which alternative users previously used.
+  usage_reason: 推断：相较通用 AI 视频工具一次性出片，该技能包把来自 28 部发布片的动效原则、音效规范与 Three.js 模式固化为可加载的规则，并内置独立评审循环对生成结果反复检查，从而减少人工逐帧校对与返工这一步；需要发布级商业视频、又缺乏专业动效团队的营销人员会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus one-shot generic AI video tools, the kit encodes motion principles
+    from 28 launch films, sound specs, and Three.js patterns as loadable rules and adds an independent
+    critic loop that re-checks output, cutting the manual frame-by-frame review and rework step; marketers
+    needing launch-grade video without a motion team would choose it in that situation.'

@@ -1,0 +1,88 @@
+- id: req-initial-rea-tool-connects-claude-code-and-cursor-to-ghidra-and-ida-p-2026-10-12
+  project_slug: rea-tool-connects-claude-code-and-cursor-to-ghidra-and-ida-p
+  level: initial
+  reviewed_at: '2026-10-12T01:21:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逆向分析中反汇编结果难读、结论难整理的需求，痛点是人工逐段阅读耗时且易漏，旧做法是手工浏览加写脚本。
+    evidence_ids:
+    - ev-d722c82f7c0c4b0c
+    - ev-8654596f1c0b47dc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有媒体报道，未见安全团队公开采用、留存或复购证据。
+    evidence_ids:
+    - ev-d722c82f7c0c4b0c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价、买方或按任务收费方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8654596f1c0b47dc
+  - gate: truth
+    status: insufficient
+    reason: 未见模型输出准确性、误报处理与人工复核边界的公开说明。
+    evidence_ids:
+    - ev-d722c82f7c0c4b0c
+  next_validation: 收集 REA 官方仓库或文档中关于安装方式、支持工具版本与人工复核流程的公开说明。
+  market: ''
+  job: 安全分析人员在逆向未知二进制时，需要把 IDA Pro 或 Ghidra 的反汇编与反编译结果整理成可用的分析结论。
+  job_en: Security analysts reverse-engineering unknown binaries need to turn IDA Pro or Ghidra disassembly
+    and decompilation output into usable analysis conclusions.
+  pain: 反汇编结果量大且碎片化，人工逐段阅读、写脚本和记录结论耗时，容易漏掉关键调用路径。
+  pain_en: Disassembly output is large and fragmented; reading it piece by piece, scripting and recording
+    conclusions is slow and key call paths are easily missed.
+  current_alternative: 分析人员手工在 IDA Pro 或 Ghidra 中浏览、写 IDAPython 脚本，再自行整理笔记与报告。
+  current_alternative_en: Analysts manually browse IDA Pro or Ghidra, write IDAPython scripts, and compile
+    notes and reports themselves.
+  usage_reason: 推断：相较手工逐段阅读，REA 让模型直接调用反汇编工具读取分析结果并推进下一步，减少在工具与笔记之间来回搬运信息的一步，因此逆向任务密集的安全团队会在处理陌生样本时选择它。
+  usage_reason_en: 'Inference: compared with reading section by section by hand, REA lets the model call
+    the disassembler directly, read results and advance the next step, removing the step of shuttling
+    information between tool and notes, so reverse-engineering-heavy security teams would choose it on
+    unfamiliar samples.'
+- id: req-full-rea-tool-connects-claude-code-and-cursor-to-ghidra-and-ida-p-2026-10-12
+  project_slug: rea-tool-connects-claude-code-and-cursor-to-ghidra-and-ida-p
+  level: full
+  reviewed_at: '2026-10-12T01:56:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据均为房产网站、通用 AI 介绍页与检索占位记录，未包含 REA 产品说明、用户痛点或旧流程描述，无法还原用户任务、痛点与替代方式，价值结构不成立。
+    evidence_ids:
+    - ev-53c68847a0acb391
+    - ev-4d6a4ecb0f3840b4
+    - ev-b639117daf8f5c36
+    - ev-d96331727fd09745
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 REA 官方仓库或产品文档中关于安装方式、支持工具版本与人工复核流程的公开说明。
+  market: ''
+  job: 安全分析人员在拿到未知二进制样本时，需要在 IDA Pro 或 Ghidra 中读取反汇编与反编译结果，并整理成可用的逆向分析结论。
+  job_en: Security analysts handling unknown binary samples need to read disassembly and decompilation
+    output in IDA Pro or Ghidra and turn it into usable reverse-engineering conclusions.
+  pain: 公开材料未提供任何用户痛点、抱怨或旧流程描述；现有证据只有房产网站、通用 AI 介绍页与检索占位记录，无法说明反汇编阅读耗时、脚本编写负担或漏判后果。
+  pain_en: The public material provides no user pain points, complaints, or legacy workflow descriptions;
+    the available evidence consists of real-estate sites, generic AI landing pages, and placeholder search
+    records, so it cannot establish disassembly-reading time cost, scripting burden, or missed-finding
+    consequences.
+  current_alternative: 公开材料未记录分析人员当前如何绕过该问题，无法确认是手工浏览、IDAPython 脚本还是其他工具链。
+  current_alternative_en: The public material does not record how analysts currently work around the problem,
+    so it is unclear whether they browse manually, write IDAPython scripts, or use another toolchain.
+  usage_reason: 无法判断：没有可引用的产品说明、用户反馈或客户案例说明 REA 通过什么具体动作减少哪一步负担，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be determined: no citable product description, user feedback, or customer case
+    explains which specific step REA removes, so it is impossible to explain which users would choose
+    it under what circumstances.'

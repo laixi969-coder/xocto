@@ -133,3 +133,56 @@
     design and prototype stages, cutting the user''s repeated process restatement and cross-stage doc
     patching; users would pick it when starting a new 0-to-1 project and wanting reviewable stage artifacts.
     Public materials show no retention or repeat-use evidence.'
+- id: req-full-silentagenthub-2026-10-12
+  project_slug: silentagenthub
+  level: full
+  reviewed_at: '2026-10-12T01:56:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是独立开发者用编码代理做 0-1 项目时流程约束缺失、代理易偏离需求与测试环节的痛点；不采用则需手工维护提示词与流程，返工代价真实。公开材料仅有产品说明与仓库收藏，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+    - ev-c5b08f0472a2ea76
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 104 增至 145，说明开发者社区注意到该项目，但收藏属关注度证据，不能证明目标用户已把它留在工作流或持续使用；缺少 issue、discussion 或用户评价佐证强场景。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+    - ev-9deeda099dd51276
+    - ev-c5b08f0472a2ea76
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费路径或买方说明，无法判断收入来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺按需求到发布全流程约束代理，但公开材料未展示可复现的交付结果、人工确认边界与安全限制，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+    - ev-c5b08f0472a2ea76
+  next_validation: 追踪 SilentAgentHub 仓库的 README、issue 与 discussion，确认是否有用户公开描述部署场景、替代的旧流程及实际产出结果。
+  market: ''
+  job: 独立开发者或小团队在把一个 0-1 想法落地时，把需求、研究、设计、原型、开发、测试、发布各阶段的规则、Skills 与 Hooks 装进编码代理，让代理按这套流程产出代码与文档，自己负责确认与发布。
+  job_en: Solo developers or small teams taking a 0-to-1 idea to delivery install rules, Skills and Hooks
+    for requirements, research, design, prototype, development, testing and release into a coding agent,
+    so the agent produces code and documents along that pipeline while the human confirms and ships.
+  pain: 编码代理在长流程中容易偏离既定步骤、跳过测试或产出与需求脱节的代码，用户需要反复手工纠正提示词与流程；公开材料只给出产品说明与仓库收藏数，未提供用户抱怨或返工代价的量化证据。
+  pain_en: Coding agents tend to drift from the intended steps, skip testing, or produce code disconnected
+    from requirements during long pipelines, forcing users to repeatedly hand-correct prompts and process;
+    public materials only give product description and repo stars, with no quantified evidence of user
+    complaints or rework cost.
+  current_alternative: 用户目前多靠手工编写提示词、自建规则文件或零散脚本约束代理，或在不同工具间手动切换需求、设计、编码与测试环节。
+  current_alternative_en: Users currently rely on hand-written prompts, self-built rule files or scattered
+    scripts to constrain the agent, or manually switch between tools for requirements, design, coding
+    and testing.
+  usage_reason: 推断：相较手工拼提示词和零散脚本，该插件把各阶段规则、Skills 与 Hooks 一次性装入编码代理，减少用户逐轮重写流程约束、手动串联阶段的动作，因此正在用编码代理做
+    0-1 项目、又不想自己维护流程规则的小团队会尝试它；仓库收藏从 104 增至 145 只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: compared with hand-assembled prompts and scattered scripts, the plugin
+    installs stage rules, Skills and Hooks into the coding agent in one step, reducing the need to rewrite
+    process constraints each round and manually chain stages, so small teams using coding agents for 0-to-1
+    projects who do not want to maintain their own process rules would try it; repo stars rising from
+    104 to 145 only shows attention, not sustained use.'

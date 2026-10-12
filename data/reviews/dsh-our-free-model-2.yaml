@@ -126,3 +126,45 @@
     models without managing keys, which is why dsh users wanting to try several models cheaply would install
     it first; the source and sustainability of the free quota are undisclosed and there is no retention
     evidence.'
+- id: req-full-dsh-our-free-model-2-2026-10-12
+  project_slug: dsh-our-free-model-2
+  level: full
+  reviewed_at: '2026-10-12T01:54:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决多模型接入的注册与密钥配置摩擦，但公开材料只有一句免费不限量的功能宣称，没有用户抱怨、替代行为或采用记录；免费额度来源与成本承担方未说明，属于靠外部供给续命的拼凑式价值，痛点刚性无法成立。
+    evidence_ids:
+    - ev-4bd960c40710b563
+    - ev-1aab17f830e062c2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README 与 issue/discussion，确认免费额度的实际来源、是否标注速率限制或上游服务条款，以及使用者报告的可用性变化。
+  market: ''
+  job: 使用 dsh 的开发者，在需要调用前沿模型处理代码或文本时，安装该插件后直接发起请求，省去逐平台注册账号与配置 API Key 的步骤。
+  job_en: A developer using dsh who needs frontier models for code or text tasks installs this plugin
+    and issues requests directly, skipping per-platform account registration and API key configuration.
+  pain: 公开材料只说明插件免登录、免密钥、免费不限量，未提供任何用户抱怨、替代行为或采用记录；多模型接入的注册与密钥管理摩擦是结构推理，不是被证据支持的痛点。
+  pain_en: The public material only states the plugin needs no login, no key and is free with no cap;
+    it offers no user complaints, workaround behavior or adoption records, so the multi-model onboarding
+    friction is structural inference, not evidenced pain.
+  current_alternative: 逐个平台注册、申请密钥、配置环境变量，或使用付费的模型聚合服务。
+  current_alternative_en: Signing up per platform, requesting keys, setting environment variables, or
+    paying for a model aggregation service.
+  usage_reason: 推断：它把接入摩擦压缩为一次安装，开发者无需管理密钥即可调用模型；但免费额度的来源、成本承担方与可持续性均未公开，且无留存或重复使用证据，因此无法确认用户会把它长期留在工作流里。
+  usage_reason_en: 'Inference: it compresses onboarding friction into a single install so developers can
+    call models without managing keys; however the source, cost bearer and sustainability of the free
+    quota are undisclosed and there is no retention or repeat-use evidence, so long-term workflow placement
+    cannot be confirmed.'

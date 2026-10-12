@@ -1,0 +1,41 @@
+- id: req-initial-echovault-2026-10-12
+  project_slug: echovault
+  level: initial
+  reviewed_at: '2026-08-22T22:37:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是身后记忆与意愿留存的需求，痛点真实但刚性未明；公开材料只有一句产品描述，访谈流程、交付形态与不采用的后果都说不清。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅见社区讨论帖，7 点 5 条评论，属于关注度而非采用证据；没有用户评价或客户案例说明家属是否真的使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，买方可能是个人、殡葬机构或律所，属判断而非已验证事实；也没有融资叙事可判断。
+    evidence_ids: []
+  - gate: truth
+    status: challenged
+    reason: 逝者数据授权、继承触发与隐私边界在公开材料中完全没有交代，这是该场景能否确定性交付的核心，也是安全与人工边界最需要说明的一环。
+    evidence_ids: []
+  next_validation: 收集该应用在 App Store 的官方产品页与隐私说明，确认访谈流程、数据托管方与身故触发机制。
+  market: ''
+  job: 准备身后事务的个人在生前接受访谈，把回答与个人材料交给应用保存，以便身故后家人能就往事与意愿提问并得到回应。
+  job_en: A person planning end-of-life matters is interviewed while alive and hands answers and personal
+    material to the app, so that after death family members can ask about memories and wishes and get
+    answers.
+  pain: 家人往往在亲人去世后才发现遗嘱之外的记忆、意愿和口述历史没有留下，只能靠零散回忆拼凑；现有替代是手写遗嘱、录音或家庭群里的碎片记录。
+  pain_en: Families often discover only after a death that memories, wishes and oral history beyond the
+    will were never captured, leaving them to piece together scattered recollections; today's alternatives
+    are handwritten wills, recordings or fragments in family chats.
+  current_alternative: 手写遗嘱与法律文书、手机录音、家庭相册和聊天记录，或由家人事后口述整理。
+  current_alternative_en: Handwritten wills and legal documents, phone recordings, family albums and chat
+    logs, or relatives reconstructing the story afterwards.
+  usage_reason: 推断：相比录音或手写文件，它把访谈变成可被追问的对话，家属不必自己整理素材就能得到回应；但公开材料没有说明访谈由谁执行、数据由谁托管、身故如何触发，也未见用户反馈或付费证据，因此是否有人真正把它留在流程里无法确认。
+  usage_reason_en: 'Inference: unlike recordings or written documents, it turns the interview into a conversation
+    that can be questioned, so relatives get answers without organising the material themselves; but public
+    material does not say who runs the interview, who hosts the data or how death triggers it, and there
+    is no user feedback or payment evidence, so whether anyone keeps it in their process is unconfirmed.'

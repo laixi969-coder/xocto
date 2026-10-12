@@ -718,3 +718,53 @@
     segments in long footage'' step to AI and leaves the user to confirm results locally, which appeals
     to editors and operators producing clips in batches who prefer not to upload footage to the cloud;
     public materials give no user-stated adoption motive.'
+- id: req-full-bridgeclip-2026-10-12
+  project_slug: bridgeclip
+  level: full
+  reviewed_at: '2026-10-12T01:53:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频转短视频时逐段回看、手动打点、反复试剪的重复劳动，任务与痛点具体；仓库 362→368 星显示有人关注，但输入格式、切分规则与导出流程未公开，痛点强度属工作流结构推理。
+    evidence_ids:
+    - ev-eb84d2d042730675
+    - ev-820831eacbff90f9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 362 缓慢增至 368，说明有开发者关注，但公开材料没有目标剪辑师或运营者的持续使用、复购或评价，无法证明已进入日常工作流。
+    evidence_ids:
+    - ev-eb84d2d042730675
+    - ev-362b58e3adb33fe4
+  - gate: model
+    status: insufficient
+    reason: 开源桌面应用，未见定价页、付费主体或单位经济；钱可能来自 to C 订阅或 to B 授权，但这是判断而非已验证事实，属模式缺口。
+    evidence_ids:
+    - ev-eb84d2d042730675
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明切分规则、导出流程与人工确认边界，交付能否稳定发生、AI 误切如何纠正均缺可复现证据，需看文档与 issue。
+    evidence_ids:
+    - ev-55c367714a4cc378
+  next_validation: 追踪 bridgeclip 仓库的 README、issue 与 discussion，确认输入格式、切分规则、导出流程及是否有用户报告实际替代了手动剪辑流程。
+  market: ''
+  job: 短视频剪辑师或自媒体运营者在拿到一段长视频（如访谈、直播回放、课程录像）后，打开这个开源桌面应用，让 AI 从长素材中切出可发布的短片候选，再人工确认后导出成片。
+  job_en: A short-form video editor or social media operator takes a long video (interview, livestream
+    replay, course recording), opens this open-source desktop app, has AI cut candidate short clips from
+    the long footage, then manually confirms and exports the finished clips.
+  pain: 长素材转短视频需要逐段回看、手动标记入出点、反复试剪，单条成片耗时长且高度重复；公开材料只给出产品定位，未记录用户抱怨或耗时数据，痛点强度属工作流结构推理。
+  pain_en: Turning long footage into short clips requires rewatching, manually marking in/out points,
+    and repeated trial cuts; each finished clip is slow and highly repetitive. Public materials only give
+    the product positioning, not user complaints or time data, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 旧做法是用 Premiere、剪映、Final Cut 等通用剪辑软件手动切分，或把长视频交给人工剪辑外包；公开材料未说明该产品具体替代了哪一步。
+  current_alternative_en: The old approach is manual cutting in general editors such as Premiere, CapCut,
+    or Final Cut, or outsourcing the long video to a human editor; public materials do not say which step
+    this product specifically replaces.
+  usage_reason: 推断：相较在通用剪辑软件里逐段回看和手动打点，它把“从长素材里找可发布片段”这一步交给 AI 先出候选，用户只需在候选上做确认和微调，因此拿到长访谈、直播回放、课程录像且需要批量产出短片的剪辑师或运营者会在这种情况下选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus rewatching and manually marking clips in a general editor, it hands
+    the ''find publishable segments in long footage'' step to AI to produce candidates first, leaving
+    the user to confirm and fine-tune. Editors or operators who have long interviews, livestream replays,
+    or course recordings and need batch short clips would choose it in that situation; public materials
+    contain no user feedback confirming this motive.'

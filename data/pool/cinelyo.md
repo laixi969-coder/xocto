@@ -2,17 +2,37 @@
 slug: cinelyo
 name: Cinelyo
 builder: kuangqp90
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 创作
+summary_zh: 短视频创作者、电商产品视觉人员和影视前期预演人员在需要出片时，把文字提示、参考图或多模态素材交给 Cinelyo，由它调用 Seedance 2.5 生成 4 至 30 秒、480p
+  或 720p 的片段；最终交付是可直接用于社媒或预演的成片素材，具体工作流、定价与人工确认环节仍待核验。
+inspiration: 趋势是视频生成模型被第三方产品快速接入，模型能力本身不再是壁垒，谁能把出片流程和行业素材接上谁就有位置。切入可考虑电商产品视频或影视预演这类有明确交付标准的环节，按条或按项目卖成片，而不是卖生成次数；该产品是否已形成稳定付费路径尚未核验。
+summary_en: Short-form video creators, e-commerce visual teams and film previsualization staff hand text
+  prompts, reference images or multimedia assets to Cinelyo, which calls Seedance 2.5 to produce 4- to
+  30-second clips at 480p or 720p; the deliverable is footage usable for social posts or previz, while
+  the exact workflow, pricing and human review step still need verification.
+inspiration_en: The trend is that video-generation models get plugged into third-party products fast,
+  so model capability stops being the moat and whoever wires the output pipeline to industry assets holds
+  a position. A wedge is e-commerce product video or film previz, where delivery standards are explicit,
+  sold per clip or per project rather than per generation; whether this product has a stable paid path
+  is unverified.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 影视与视频制作
+- 广告与营销
+- 电商零售
+industries_en:
+- Film and video production
+- Advertising and marketing
+- E-commerce and retail
+jobs:
+- 短视频创作者
+- 电商产品视觉设计
+- 影视前期预演
+jobs_en:
+- Short-form video creator
+- E-commerce product visual designer
+- Film previsualization
 regions: []
 regions_en: []
 open_source: false
@@ -78,7 +98,7 @@ summary: "# Seedance 2.5 Is Now Available on Cinelyo\r\n\r\nSeedance 2.5 is now 
   \ AI video generation platform and is not officially affiliated with Seedance or ByteDance.\r\n```text"
 first_seen: '2026-08-20T09:00:29Z'
 last_seen: '2026-08-23T14:11:11Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 sightings:
@@ -87,6 +107,7 @@ sightings:
   seen_at: '2026-08-23T14:11:11Z'
   metrics:
     comments: 0
+  kind: product
 ---
 
 # Cinelyo

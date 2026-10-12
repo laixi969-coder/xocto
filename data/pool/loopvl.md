@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/loopvl
 summary: Recurrent VLM with a controllable compute budget
 first_seen: '2026-10-12T01:20:54Z'
 last_seen: '2026-10-12T01:20:54Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

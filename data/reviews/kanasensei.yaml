@@ -1,0 +1,42 @@
+- id: req-initial-kanasensei-2026-10-12
+  project_slug: kanasensei
+  level: initial
+  reviewed_at: '2026-08-23T14:11:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决假名记忆与读音练习需求，痛点真实，但候选只有一句宣传语，无法确认 AI 具体做什么、交付什么，价值结构无法还原。
+    evidence_ids:
+    - ev-355758b4ddca23b5
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有产品页标题，没有用户评价、采用或场景讨论，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-355758b4ddca23b5
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或付费路径信息，买方与收费方式均未知。
+    evidence_ids:
+    - ev-355758b4ddca23b5
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验两周学会假名的承诺是否确定性交付，也看不到人工确认或纠错边界。
+    evidence_ids:
+    - ev-355758b4ddca23b5
+  next_validation: 抓取 KanaSensei 官方产品页或应用商店页面，确认其练习流程、是否含语音识别或生成环节以及是否公布定价。
+  market: ''
+  job: 日语零基础学习者在入门阶段需要记住假名字形与读音，并能在两周左右形成基本阅读能力。
+  job_en: Absolute Japanese beginners need to memorize kana shapes and readings and reach basic reading
+    ability within about two weeks.
+  pain: 假名数量多、形近音近，靠课本和抄写容易混淆且难以自查进度，这是语言入门常见的卡点。
+  pain_en: Kana are numerous and visually similar, so textbook reading and copying easily cause confusion
+    and make progress hard to self-check, a common bottleneck at the start of language learning.
+  current_alternative: 纸质五十音图、Anki 卡片、YouTube 教学视频或线下日语班。
+  current_alternative_en: Paper kana charts, Anki decks, YouTube lessons, or offline Japanese classes.
+  usage_reason: 推断：若它真能把假名拆成带发音反馈的短时练习并给出进度，学习者会用它替代自己拼凑卡片和视频；但候选只有一句宣传语，无法确认 AI 环节与交付，因此选择理由尚不成立。
+  usage_reason_en: 'Inference: if it truly breaks kana into short drills with pronunciation feedback and
+    progress tracking, learners would use it instead of assembling their own cards and videos; however
+    the candidate only offers a tagline, so the AI step and deliverable cannot be confirmed and the reason
+    to choose it is not yet established.'

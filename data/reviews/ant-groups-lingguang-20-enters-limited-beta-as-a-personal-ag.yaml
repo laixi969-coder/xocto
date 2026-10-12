@@ -1,0 +1,90 @@
+- id: req-initial-ant-groups-lingguang-20-enters-limited-beta-as-a-personal-ag-2026-10-12
+  project_slug: ant-groups-lingguang-20-enters-limited-beta-as-a-personal-ag
+  level: initial
+  reviewed_at: '2026-10-12T01:21:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨会话重复交代背景的负担，痛点真实但强度未明；除限量测试标题外，没有可核对的记忆效果或使用场景证据。
+    evidence_ids:
+    - ev-c191586a6d60cfb9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有媒体报道标题，没有用户评价、社区讨论或采用数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-c191586a6d60cfb9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方或商业模式，to C 订阅或平台内嵌均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-c191586a6d60cfb9
+  - gate: truth
+    status: insufficient
+    reason: 长期记忆的准确性与隐私边界未公开，能否确定性交付、出错时如何纠正均无法核对。
+    evidence_ids:
+    - ev-c191586a6d60cfb9
+  next_validation: 收集灵光 2.0 官方产品页或发布说明，核对长期记忆的具体能力边界、可用范围与是否公布定价。
+  market: ''
+  job: 个人用户在日常中把要记住的琐事、要查的信息和要跟进的任务交给一个带长期记忆的助手，期望跨会话不用重复交代背景就能拿到答复或待办。
+  job_en: An individual hands everyday things to remember, information to look up, and tasks to follow
+    up on to an assistant with long-term memory, expecting answers or to-dos across sessions without restating
+    context.
+  pain: 现有通用助手每次对话都要重新交代背景，跨会话的偏好和历史容易丢失，用户要么反复粘贴，要么自己另建笔记维护上下文。
+  pain_en: Today's general assistants require restating context each session; preferences and history
+    are easily lost, so users either paste repeatedly or maintain their own notes to hold context.
+  current_alternative: 用户目前用通用聊天助手加自建笔记、备忘录或待办应用拼出上下文，靠手动复制粘贴在会话之间搬运信息。
+  current_alternative_en: Users currently combine a general chat assistant with their own notes, memos,
+    or to-do apps, manually copying information between sessions.
+  usage_reason: 推断：若长期记忆真能跨会话保留偏好与历史，用户就不必每次重述背景，省掉手动搬运上下文这一步，因此频繁处理同类重复事务的人会优先试用；但公开材料未给出任何记忆准确率、留存或付费证据，选择理由尚属结构推断。
+  usage_reason_en: 'Inference: if long-term memory truly retains preferences and history across sessions,
+    users avoid restating context and the manual copying step, so people handling the same recurring tasks
+    would try it first. However, no public evidence on memory accuracy, retention, or payment exists,
+    so the reason to choose it remains structural inference.'
+- id: req-full-ant-groups-lingguang-20-enters-limited-beta-as-a-personal-ag-2026-10-12
+  project_slug: ant-groups-lingguang-20-enters-limited-beta-as-a-personal-ag
+  level: full
+  reviewed_at: '2026-10-12T01:52:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人跨会话重复交代背景、上下文丢失的需求，痛点在通用助手场景中真实存在且刚性；公开事实仅确认限量测试与长期记忆定位，交付闭环属工作流结构推理，尚无记忆效果或采用数据。
+    evidence_ids:
+    - ev-c191586a6d60cfb9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有媒体报道标题，没有用户评价、社区讨论或采用数据，无法判断长期记忆这一场景是否已形成使用共识；公开关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-c191586a6d60cfb9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方或商业模式，to C 订阅或嵌入蚂蚁生态均属推断而非已验证事实；这是判断，不是已核验的付费路径。
+    evidence_ids:
+    - ev-c191586a6d60cfb9
+  - gate: truth
+    status: insufficient
+    reason: 长期记忆的准确性、隐私边界与出错纠正机制未公开，能否确定性交付无法核对；限量测试阶段也未见人工确认环节说明。
+    evidence_ids:
+    - ev-c191586a6d60cfb9
+  next_validation: 追踪灵光 2.0 官方产品页或发布说明，核对长期记忆的能力边界、可用范围、隐私处理与是否公布定价。
+  market: ''
+  job: 个人用户在手机或网页端把日常要记的琐事、要查的信息和要跟进的任务交给灵光 2.0，期望它带着跨会话的长期记忆直接给出答复或待办，而不用每次重新交代背景。
+  job_en: An individual on phone or web hands everyday things to remember, information to look up, and
+    tasks to follow up on to LingGuang 2.0, expecting answers or to-dos that carry long-term memory across
+    sessions without restating context each time.
+  pain: 通用助手每次会话都从零开始，偏好、历史与未完成事项容易丢失，用户要么反复粘贴背景，要么自己另建笔记维护上下文，重复交代本身就是持续负担。
+  pain_en: General assistants start from zero each session; preferences, history, and open items are easily
+    lost, so users either paste context repeatedly or maintain their own notes, making repeated restatement
+    a recurring burden.
+  current_alternative: 用户目前用通用聊天助手（如 ChatGPT、Gemini、Copilot）配合自建备忘录、笔记或待办应用，靠手动复制粘贴在会话之间搬运上下文。
+  current_alternative_en: Users currently combine a general chat assistant (ChatGPT, Gemini, Copilot)
+    with their own memos, notes, or to-do apps, manually copying context between sessions.
+  usage_reason: 推断：相较通用助手加自建笔记的旧做法，灵光 2.0 把上下文保留放进助手自身，用户不必在每次会话开头重述偏好与历史，省掉手动搬运这一步；因此经常处理同类重复事务、又不想维护额外笔记的个人用户会在需要连续跟进时选择它。公开材料未给出记忆准确率、留存或付费证据，此因果仍属结构推断。
+  usage_reason_en: 'Inference: versus a general assistant plus self-built notes, LingGuang 2.0 keeps context
+    inside the assistant, so users need not restate preferences and history at each session start, removing
+    the manual copying step. Individuals handling recurring tasks who prefer not to maintain extra notes
+    would therefore pick it when follow-up is continuous. No public evidence on memory accuracy, retention,
+    or payment exists, so this causal claim remains structural inference.'

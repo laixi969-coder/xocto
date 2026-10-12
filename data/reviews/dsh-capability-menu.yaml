@@ -1,0 +1,43 @@
+- id: req-initial-dsh-capability-menu-2026-10-12
+  project_slug: dsh-capability-menu
+  level: initial
+  reviewed_at: '2026-09-07T15:52:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是代理工具全量暴露挤占上下文、手工开关难维护这一具体负担，不处理的后果是代理决策被无关能力干扰，价值结构成立。
+    evidence_ids:
+    - ev-f24b954cd0dd66f9
+  - gate: consensus
+    status: insufficient
+    reason: 84 星、1 个 fork 只反映关注度，没有用户评价或团队采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-f24b954cd0dd66f9
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是自建代理的团队或平台方，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-f24b954cd0dd66f9
+  - gate: truth
+    status: insufficient
+    reason: 方向贴近“让代理只看到该看的能力”，但三档设置对上下文与执行结果的实际影响无公开实测，人工边界也未说明。
+    evidence_ids:
+    - ev-f24b954cd0dd66f9
+  next_validation: 收集 dsh-capability-menu 仓库的 README 与 issue，查看是否给出上下文占用对比数据或真实使用者的配置案例。
+  market: ''
+  job: 为代理接入 MCP 工具与技能的开发者，在搭建 DeepSeek Harness 时需要决定哪些能力此刻可用，并控制上下文占用。
+  job_en: Developers wiring MCP tools and skills into an agent need to decide which capabilities are available
+    at a given moment and keep the context footprint under control while setting up DeepSeek Harness.
+  pain: 工具与技能全部暴露会挤占上下文、拖慢或干扰代理决策，逐个手工开关又难以维护，能力越多越难管。
+  pain_en: Exposing every tool and skill eats context and can slow or derail agent decisions, while toggling
+    them by hand is hard to maintain, and the problem grows with each added capability.
+  current_alternative: 在配置文件里手工增删工具，或干脆全部常驻暴露，靠提示词约束代理少用。
+  current_alternative_en: Hand-editing tool lists in config files, or exposing everything permanently
+    and relying on prompts to discourage overuse.
+  usage_reason: 推断：相较手工改配置或全部常驻，它把“哪些能力可见、以什么方式执行”变成三档可切换的设置，减少每次调整都要改文件并重启的负担，因此自建代理、上下文成本敏感的团队会先试它；公开材料无实测数据与用户反馈。
+  usage_reason_en: 'Inference: compared with hand-editing configs or exposing everything, it turns "which
+    capabilities are visible and how they execute" into three switchable tiers, cutting the burden of
+    editing files and restarting on every change, so teams building their own agents and sensitive to
+    context cost would try it first; public material has no measurements or user feedback.'

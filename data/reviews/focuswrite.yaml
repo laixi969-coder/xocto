@@ -1,0 +1,81 @@
+- id: req-initial-focuswrite-2026-10-12
+  project_slug: focuswrite
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决写作时被打扰和稿件上云的顾虑，但公开材料未说明 AI 具体做什么，也看不出不采用会失去什么，需求强度无法判断。
+    evidence_ids:
+    - ev-ced191b127851f2b
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价或采用信号，无法判断写作者是否会为本地优先和专注模式更换现有写作工具。
+    evidence_ids:
+    - ev-ced191b127851f2b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能是个人写作者订阅，这属于判断而非已验证事实。
+    evidence_ids:
+    - ev-ced191b127851f2b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对本地优先是否真的不上传数据、AI 功能是否离线可用，交付边界不清。
+    evidence_ids:
+    - ev-ced191b127851f2b
+  next_validation: 收集 FocusWrite 官方页面上的功能说明与定价，确认 AI 在写作流程中的具体动作。
+  market: ''
+  job: 写作者在需要长时间专注时，要在一个不被打扰的环境里起草和整理文稿。
+  job_en: A writer needs an undisturbed environment to draft and organise text during long focus sessions.
+  pain: 通用写作软件通知多、云端同步让人担心稿件外泄，专注模式常需另装插件或靠自律维持。
+  pain_en: General writing software is full of notifications, cloud sync raises concerns about drafts
+    leaking, and focus modes often require extra plugins or self-discipline.
+  current_alternative: Word、Notion、Obsidian 等通用写作工具，配合系统勿扰模式或第三方专注插件。
+  current_alternative_en: General writing tools such as Word, Notion or Obsidian, combined with system
+    do-not-disturb or third-party focus plugins.
+  usage_reason: 推断：它把本地存储和专注模式放进同一个应用，写作者不必再拼装插件或担心云端稿件，因此对隐私敏感的长文作者可能选择它；但公开材料没有说明 AI 具体做什么，也没有用户反馈，动机仍属推断。
+  usage_reason_en: 'Inference: it puts local storage and focus modes in one app, so writers no longer
+    assemble plugins or worry about cloud drafts, which may attract privacy-sensitive long-form authors;
+    however, public material does not say what the AI does and there is no user feedback, so the motive
+    remains an inference.'
+- id: req-full-focuswrite-2026-10-12
+  project_slug: focuswrite
+  level: full
+  reviewed_at: '2026-10-12T01:54:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决写作时被打扰和稿件上云的顾虑，但公开材料未说明 AI 具体做什么，也看不出不采用会失去什么，需求强度无法判断。
+    evidence_ids:
+    - ev-ced191b127851f2b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 FocusWrite 官方页面上的功能说明与定价，确认 AI 在写作流程中的具体动作。
+  market: ''
+  job: 写作者在需要长时间专注时，要在一个不被打扰的环境里起草和整理文稿。
+  job_en: A writer needs an undisturbed environment to draft and organise text during long focus sessions.
+  pain: 通用写作软件通知多、云端同步让人担心稿件外泄，专注模式常需另装插件或靠自律维持。
+  pain_en: General writing software is full of notifications, cloud sync raises concerns about drafts
+    leaking, and focus modes often require extra plugins or self-discipline.
+  current_alternative: Word、Notion、Obsidian 等通用写作工具，配合系统勿扰模式或第三方专注插件。
+  current_alternative_en: General writing tools such as Word, Notion or Obsidian, combined with system
+    do-not-disturb or third-party focus plugins.
+  usage_reason: 推断：它把本地存储和专注模式放进同一个应用，写作者不必再拼装插件或担心云端稿件，因此对隐私敏感的长文作者可能选择它；但公开材料没有说明 AI 具体做什么，也没有用户反馈，动机仍属推断。
+  usage_reason_en: 'Inference: it puts local storage and focus modes in one app, so writers no longer
+    assemble plugins or worry about cloud drafts, which may attract privacy-sensitive long-form authors;
+    however, public material does not say what the AI does and there is no user feedback, so the motive
+    remains an inference.'

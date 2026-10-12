@@ -8,12 +8,20 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://krishna-modi12.github.io/frontend-design-pro/
 canonical_url: https://krishna-modi12.github.io/frontend-design-pro
 summary: Front end skill pack for AI agents, with machine-enforced quality gates
 first_seen: '2026-08-22T05:52:19Z'
 last_seen: '2026-08-22T22:37:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -23,6 +31,7 @@ sightings:
   metrics:
     points: 5
     comments: 0
+  kind: product
 ---
 
 # krishna-modi12

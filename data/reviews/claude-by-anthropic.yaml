@@ -577,3 +577,41 @@
     and cross-segment merge step, so developers and writers handling long codebases or documents choose
     it for whole-task sessions. Public materials show no retention or repeat-use evidence, so long-term
     workflow embedding cannot be claimed.'
+- id: req-full-claude-by-anthropic-2026-10-12
+  project_slug: claude-by-anthropic
+  level: full
+  reviewed_at: '2026-10-12T01:53:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它面向写代码、长文与复杂推理的对话助手场景，但公开材料只有定位和用量，没有用户任务细节、痛点强度与不采用代价，无法还原旧流程与交付闭环。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官方定价页与客户案例页面，确认付费档位、企业采购方式与公开交付结果。
+  market: ''
+  job: 需要写代码、长文写作或复杂推理的用户，在对话界面里提交材料并获取可用的产出。
+  job_en: Users who need coding, long-form writing, or hard reasoning submit material in a chat interface
+    and expect usable output.
+  pain: 公开材料只有产品定位与用量数字，没有用户抱怨、旧流程或不采用代价的描述，无法确认具体痛点是什么、对谁刚性。
+  pain_en: Public materials offer only positioning and usage numbers, with no user complaints, old workflows,
+    or costs of not adopting, so the specific pain and its rigidity cannot be established.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类任务，也未说明它替代了哪些工具或流程。
+  current_alternative_en: Public materials do not show what users previously used for comparable tasks
+    or which tools and workflows it replaces.
+  usage_reason: 公开记录显示 39.81M 月活、环比 10.79%，这属于规模与关注度证据，不能解释用户为何选择它；缺少用户反馈或案例说明具体选择动机。
+  usage_reason_en: A public record shows 39.81M MAU and 10.79% month-over-month growth, which is scale
+    and attention evidence and does not explain why users choose it; user feedback or cases stating the
+    motive are missing.

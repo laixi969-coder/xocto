@@ -614,3 +614,47 @@
   usage_reason_en: 'Inference: if shared encrypted memory and Reach messaging really remove the step of
     manually shuttling context between two agents, developers running Claude Code and Codex together might
     choose it; no user evidence currently supports this causal claim.'
+- id: req-full-sno-station-2026-10-12
+  project_slug: sno-station
+  level: full
+  reviewed_at: '2026-10-12T01:56:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决多代理并行时的上下文共享与交接问题，但全部证据来自无关的 SNO 学会与 SNO Sites 页面，没有一条能说明用户任务、痛点强度或现有替代行为，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-055a2175db1085e8
+    - ev-a09345b67c3aa524
+    - ev-9f5177f7aa37a469
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Sno Station 官方仓库的 README、release 与 issue/discussion，确认其安装方式、记忆范围、代理间消息机制及是否有真实用户报告使用场景。
+  market: ''
+  job: 开发者在本地同时运行 Claude Code 与 Codex 等多个编码代理时，需要让它们共享上下文、互相传递任务并完成代码交接与跨厂商评审，最终拿到一份可用的多代理协作编码结果。
+  job_en: A developer running Claude Code and Codex side by side locally needs the agents to share context,
+    pass tasks to each other, and complete code handoff and cross-vendor review, ending with a usable
+    multi-agent coding result.
+  pain: 公开材料只有产品自述，没有任何用户反馈、issue 或案例说明多代理并行时上下文丢失、交接返工或评审割裂究竟造成多大代价、多久发生一次；痛点存在与否无法从证据判断。
+  pain_en: Public material contains only the product's own description; no user feedback, issue, or case
+    shows how much context loss, handoff rework, or fragmented review actually costs when running multiple
+    agents, or how often it occurs, so the pain cannot be judged from evidence.
+  current_alternative: 公开材料未说明开发者今天如何完成多代理协作，例如手工复制上下文、分别开两个终端、用 git 分支与 PR 交接，还是干脆只用一个代理。
+  current_alternative_en: Public material does not show how developers handle multi-agent collaboration
+    today, e.g. manually copying context, running two terminals, handing off via git branches and PRs,
+    or simply using one agent.
+  usage_reason: 推断：若共享加密记忆与代理间消息真能免去手工搬运上下文这一步，同时使用两个代理的开发者可能因此选择它；但缺少任何用户陈述或案例，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if shared encrypted memory and agent-to-agent messaging really remove the
+    manual step of copying context, developers already running two agents might choose it; but with no
+    user statement or case, this causal link is unconfirmed.'

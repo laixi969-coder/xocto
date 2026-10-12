@@ -85,3 +85,50 @@
     counterpart at any time, so players can start without waiting for enough people or a time slot, which
     is why players wanting an on-demand voice role-play session would choose it; retention and repeat-play
     evidence is not yet public.'
+- id: req-full-scam-with-your-friends-web-2026-10-12
+  project_slug: scam-with-your-friends-web
+  level: full
+  reviewed_at: '2026-10-12T01:56:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决想随时玩语音角色扮演却凑不齐真人的需求，痛点是缺少即时响应的对手戏，属于娱乐价值；开源仓库 228→229 星显示有开发者关注，但这是工作流结构推理，非玩家采用证据。
+    evidence_ids:
+    - ev-9400001e3021a20f
+    - ev-257b9ed736269199
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 228 增至 229，仅说明开发者关注度，没有玩家持续游玩、口碑或社区讨论证据，共识卡在场景认知与体验验证环节。
+    evidence_ids:
+    - ev-9400001e3021a20f
+    - ev-257b9ed736269199
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，钱可能来自托管、内容或赞助，这是判断而非已验证事实；中文生态检索未发现相关供给。
+    evidence_ids:
+    - ev-9400001e3021a20f
+    - ev-648efcce543868ce
+  - gate: truth
+    status: insufficient
+    reason: 语音 AI 对话质量、延迟与每日配额机制能否长期留住玩家，公开材料未给出可核对结果，交付确定性尚未被验证。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  next_validation: 追踪该开源仓库的 issue 与 discussion，确认玩家对语音 AI 对话质量、延迟和重复游玩意愿的公开反馈。
+  market: ''
+  job: 玩家与朋友组队，在浏览器里打开 3D 办公室，扮演呼叫中心客服，用语音与 AI 扮演的客户对话，完成每日配额任务。
+  job_en: Players team up with friends in a browser 3D office, role-play call-center agents, talk by voice
+    to AI-played customers, and hit daily quotas.
+  pain: 想玩需要真人对手戏的语音角色扮演游戏时，真人玩家难以随时凑齐，传统联机依赖固定队友和约时间；单人剧情游戏又缺少即兴对话的对手。
+  pain_en: When wanting a voice role-play game that needs a human counterpart, real players are hard to
+    assemble on demand; traditional online play depends on fixed teammates and scheduling, while single-player
+    story games lack an improvised counterpart.
+  current_alternative: 现有替代是约固定朋友联机、玩单人剧情游戏，或看直播和视频代替亲自参与。
+  current_alternative_en: Current alternatives are scheduling sessions with fixed friends, playing single-player
+    story games, or watching streams and videos instead of participating.
+  usage_reason: 推断：相较约真人联机，AI 客户可即时充当对手戏，玩家不必等队友凑齐就能开局；浏览器打开即玩、可自托管也降低了安装与组局门槛，因此想随时开一局语音角色扮演的玩家会选它。留存与重复游玩证据尚未公开。
+  usage_reason_en: 'Inference: versus scheduling real teammates, AI customers provide an instant counterpart
+    so a session can start without waiting; browser access and self-hosting lower install and group-forming
+    friction, so players wanting an on-demand voice role-play session would choose it. Retention and repeat-play
+    evidence is not yet public.'

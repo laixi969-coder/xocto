@@ -897,3 +897,46 @@
     changes from logs and manually rolling back, which is why developers needing auditability and recoverability
     would choose it when modifying production codebases. The 77 stars and 3 forks show developer attention
     only, not sustained use.'
+- id: req-full-approving-2026-10-12
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-10-12T01:52:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的公开 issue / discussion 与 README 部署文档，确认是否有真实用户报告在沙箱中运行编码代理并依赖人工 Approve 节点完成交付，以及是否出现托管版定价或付费支持入口。
+  market: ''
+  job: 使用编码代理的开发者或团队在让代理执行多步代码修改任务时，把代理放进真实 Docker 沙箱运行，在关键节点检查结构化产物并人工批准后才允许继续，最终得到可审查、可回滚的交付流程。
+  job_en: Developers or teams using coding agents run the agent inside a real Docker sandbox on multi-step
+    code-change tasks, inspect structured artifacts at critical nodes, and only let it continue after
+    human approval, ending with a reviewable, recoverable delivery workflow.
+  pain: 编码代理自主执行时容易越权改动、跑偏或产生不可追溯的中间结果，人工事后审查成本高，出错后难以恢复；公开材料未给出不解决的具体代价或发生频率，痛点强度属工作流结构推理。
+  pain_en: Autonomous coding agents can make out-of-scope changes, drift, or produce untraceable intermediate
+    results; post-hoc human review is costly and recovery after failure is hard. Public materials do not
+    quantify the cost or frequency, so pain intensity is a workflow-structure inference.
+  current_alternative: 当前替代方式多为直接让代理在本地或 CI 中无隔离运行、靠人工盯着终端输出、事后用 git diff 与代码评审兜底，或干脆不用代理执行多步任务。
+  current_alternative_en: Today's alternatives are mostly running the agent unisolated locally or in CI,
+    watching terminal output manually, relying on git diff and code review after the fact, or avoiding
+    agents for multi-step tasks altogether.
+  usage_reason: 推断：相较无隔离直跑加事后 diff 审查，它把代理放进真实 Docker 沙箱并在关键节点暂停等待人工 Approve，把“事后发现越权改动再回滚”这一步前移为“执行中拦截”，因此在意变更可控性与可恢复性的编码代理使用者会在多步任务中选择它；公开材料尚无用户反馈或客户案例证实该动机。
+  usage_reason_en: 'Inference: versus unisolated runs plus after-the-fact diff review, it runs the agent
+    in a real Docker sandbox and pauses at critical nodes for human Approve, moving ''discover an out-of-scope
+    change and roll back'' earlier into ''intercept during execution.'' Users who care about change control
+    and recoverability would choose it for multi-step tasks; public materials contain no user feedback
+    or customer case confirming this motive.'

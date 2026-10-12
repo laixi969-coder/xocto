@@ -550,3 +550,47 @@
     the list may save users from searching platform by platform, so researchers doing authorized testing
     may browse it; however, public materials show no inclusion criteria, deployment instructions, outputs,
     or user feedback, so it is unconfirmed which step it removes versus the old approach.'
+- id: req-full-offensive-security-ai-models-2026-10-12
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-12T01:55:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决研究员在授权测试中挑选可本地部署未审查模型的需求，但公开材料只有一句仓库简介与星标，未说明筛选卡点、不采用代价与现有替代，痛点刚性无法确认，属自嗨拼凑式清单。
+    evidence_ids:
+    - ev-fe60d1cf4ee2c5ef
+    - ev-6c95a5897c54f26a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README 更新、issue 与 discussion，确认是否列出具体模型、部署条件与授权测试使用记录，以判断清单是否被真实工作流采用。
+  market: ''
+  job: 安全研究员在获得客户书面授权的渗透测试或红队评估中，需要挑选可本地部署、无内容审查或已针对安全任务微调的模型，用自有硬件跑攻击面验证与漏洞复现，避免把目标信息交给云端 API。
+  job_en: During an authorized penetration test or red-team engagement, a security researcher needs to
+    pick locally deployable, uncensored or security-fine-tuned models to run attack-surface validation
+    and exploit reproduction on own hardware, avoiding sending target data to cloud APIs.
+  pain: 公开材料只给出仓库一句话简介与星标数，没有说明研究员在筛选模型时具体卡在哪一步（如许可、显存、审查拒答、评测缺失），也没有任何用户抱怨、issue 或案例佐证痛点的强度与频率。
+  pain_en: Public materials offer only a one-line repo description and star counts; they do not show which
+    step actually blocks researchers (licensing, VRAM, refusal behavior, missing evals), and no user complaints,
+    issues, or cases substantiate the pain's intensity or frequency.
+  current_alternative: 公开材料未说明现有替代方式；按工作流结构推断，研究员目前可能依赖 公开模型社区 搜索、Awesome 列表、同事推荐或自行微调，但仓库未记录它替代了哪一步。
+  current_alternative_en: Public materials do not state the current alternative; by workflow inference
+    researchers likely rely on public model community search, Awesome lists, peer recommendations, or
+    self-fine-tuning, but the repo does not record which step it replaces.
+  usage_reason: 推断：若清单确实按部署条件与安全任务分类并保持更新，研究员可少做一轮跨平台检索；但公开证据只有简介与星标，无法确认清单内容、维护频率或是否被纳入实际测试流程，因此选择动机尚不成立。
+  usage_reason_en: 'Inference: if the list truly classifies models by deployment constraints and security
+    tasks and stays current, researchers could skip a round of cross-platform searching; but public evidence
+    is only a description and stars, so the list''s content, update cadence, and real workflow adoption
+    cannot be confirmed, leaving the choice motive unestablished.'

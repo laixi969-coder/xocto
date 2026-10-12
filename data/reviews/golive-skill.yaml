@@ -633,3 +633,54 @@
     loop automates the provider-exposed configuration steps on the user''s own accounts, records what
     it created, re-checks drift on demand and can roll back, removing the step of hunting docs and hand-verifying
     each item; developers who value account ownership and reversibility would choose it.'
+- id: req-full-golive-skill-2026-10-12
+  project_slug: golive-skill
+  level: full
+  reviewed_at: '2026-10-12T01:54:22Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 写完代码后域名、托管、数据库、邮件与支付分散在多个服务商后台、需手工逐项配置的上线卡点；不解决则代码无法变成可访问可收款的产品。公开说明已还原输入、动作与交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-c4b30bb6bde2e10e
+    - ev-5b1861ebd530ad36
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 1,236 增至 1,268，说明英文生态开发者持续关注这一上线编排场景；但收藏与关注只属规模信号，公开材料尚无用户反馈或案例证明其已长期留在工作流中。
+    evidence_ids:
+    - ev-e0bba96552195e05
+    - ev-98e21d37015fd76e
+  - gate: model
+    status: supported
+    reason: 开源 Agent Skill 加零依赖 Node CLI，无 GoLive 账号、后端或遥测，用户在自己的服务商账号上执行，因此不存在向终端用户收费的路径；这是判断而非已验证事实，钱更可能来自后续托管或企业支持，属开源工具常见模式。
+    evidence_ids:
+    - ev-e0bba96552195e05
+    - ev-d51cd3d715cd2761
+  - gate: truth
+    status: supported
+    reason: 流程为 detect→plan→approve→apply→verify，关键步骤需用户批准，凭据留在用户自己的账号，且可记录、复查漂移并回滚，交付边界与人工确认点清晰；但公开材料未提供可复现的部署验证结果。
+    evidence_ids:
+    - ev-c4b30bb6bde2e10e
+    - ev-5b1861ebd530ad36
+  next_validation: 追踪 golive-skill 仓库的 issue 与 discussion，确认是否有开发者报告在真实项目中完成多服务商上线配置及验证结果。
+  market: ''
+  job: 独立开发者或小团队用 agent 写完应用代码后，面对域名、托管、数据库、邮件与支付等上线材料，要在自己已有的服务商账号上完成配置，把产品真正发布成可访问、可收款的环境。
+  job_en: After an agent writes the app code, solo developers or small teams must configure domain, hosting,
+    database, email and payments on their own provider accounts to actually ship a reachable, payable
+    product.
+  pain: 上线环节分散在多个服务商后台，配置项琐碎且容易漏配或配错；agent 能写完代码却无法把产品真正推上线，开发者被迫在发布前手工逐项排查，这一步成为从代码到可用产品的卡点。
+  pain_en: Go-live work is scattered across multiple provider dashboards with fiddly, error-prone settings;
+    an agent can finish the code but cannot actually ship it, forcing developers into manual pre-launch
+    checklist work that blocks code from becoming a usable product.
+  current_alternative: 当前替代是开发者自己逐个登录域名、托管、数据库、邮件和支付服务商后台手工配置，或依赖 Vercel、Supabase 等平台的一体化模板；公开材料未显示已有专门覆盖多服务商上线编排的旧工具。
+  current_alternative_en: Today developers manually log into each domain, hosting, database, email and
+    payment provider, or rely on all-in-one platform templates like Vercel or Supabase; public materials
+    do not show an existing tool dedicated to multi-provider go-live orchestration.
+  usage_reason: 推断：相较逐个后台手工配置，它先检测项目缺哪些上线资源、生成计划、经用户批准后用自己的登录执行并验证结果，把“逐项排查+手工配置”压缩为一次可审阅的检测—批准—执行流程，因此在意账号自主权、不愿把凭据交给第三方托管平台的独立开发者会在发布阶段选择它。
+  usage_reason_en: 'Inference: versus manual per-dashboard setup, it detects missing go-live resources,
+    plans changes, applies them with the user''s own logins after approval, and verifies results, compressing
+    item-by-item checking and manual configuration into one reviewable detect-approve-apply flow, so developers
+    who value account ownership and avoid handing credentials to a hosted platform would pick it at launch
+    time.'

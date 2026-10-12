@@ -415,3 +415,47 @@
     terminal, files and Git into one browser interface with usage records, removing the step of hand-building
     isolation and stitching logs, so small teams that need to audit agent execution or reuse environments
     across machines would pick it when running parallel sessions.'
+- id: req-full-agentbox-2026-10-12
+  project_slug: agentbox
+  level: full
+  reviewed_at: '2026-10-12T01:52:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向房地产 CRM 与同名 AI 门户，未出现该命令行代理工作区的用户任务、痛点或替代行为，连需求与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-3cb6c5cc61c76de7
+    - ev-2271d18c2b1a1944
+    - ev-74557626d628fd36
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品自身官网或仓库的 README、部署文档与 issue/discussion，确认其是否真实存在并记录容器会话隔离与用量记录的可复现交付。
+  market: ''
+  job: 开发者需要在本地或服务器上运行 Claude Code、Codex CLI 等命令行编码代理，并管理多个会话、文件改动与用量记录。
+  job_en: Developers need to run command-line coding agents such as Claude Code and Codex CLI locally
+    or on a server, and manage multiple sessions, file changes and usage records.
+  pain: 公开材料未提供任何关于该产品使用者的痛点证据：现有证据全部指向房地产 CRM（Reapit/Agentbox CRM）与另一个同名 AI 门户（agentbox.so），无法确认命令行代理会话分散、难以回溯等痛点是否真实存在。
+  pain_en: 'Public material provides no pain evidence for this product''s users: all evidence points to
+    a real-estate CRM (Reapit/Agentbox CRM) and a different same-named AI portal (agentbox.so), so it
+    cannot be confirmed that pain such as scattered agent sessions or hard-to-trace execution actually
+    exists.'
+  current_alternative: 公开材料未记录该产品的现有替代方式；可引用的替代行为证据属于房地产 CRM 场景，与命令行编码代理工作区无关。
+  current_alternative_en: Public material records no current alternative for this product; the citable
+    alternative-behavior evidence belongs to a real-estate CRM context and is unrelated to a command-line
+    coding-agent workspace.
+  usage_reason: 无法给出使用理由：证据中没有任何用户反馈、客户案例或可核对结果能说明开发者为何选择它，而非手工终端加自写 Docker 脚本。
+  usage_reason_en: 'No usage reason can be given: the evidence contains no user feedback, customer case
+    or checkable result explaining why a developer would choose it over a bare terminal plus ad-hoc Docker
+    scripts.'

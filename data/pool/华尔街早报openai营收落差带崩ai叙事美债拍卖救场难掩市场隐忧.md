@@ -1,11 +1,13 @@
 ---
 slug: 华尔街早报openai营收落差带崩ai叙事美债拍卖救场难掩市场隐忧
-name: 华尔街早报：OpenAI营收落差带崩AI叙事，美债拍卖“救场”难掩市场隐忧
+name: OpenAI营收落差
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI营收表现不及预期，引发市场对AI叙事的担忧。这可能影响AI应用领域的融资环境与估值预期，进而波及企业AI投入的节奏与竞争格局。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI's revenue came in below expectations, triggering market concerns over the AI narrative.
+  This may affect financing conditions and valuation expectations in AI applications, in turn influencing
+  the pace of enterprise AI investment and the competitive landscape.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9LaVN0VEY1X2VB
 summary: 华尔街早报：OpenAI营收落差带崩AI叙事，美债拍卖“救场”难掩市场隐忧 PANews
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# 华尔街早报：OpenAI营收落差带崩AI叙事，美债拍卖“救场”难掩市场隐忧
+# OpenAI营收落差
 
 华尔街早报：OpenAI营收落差带崩AI叙事，美债拍卖“救场”难掩市场隐忧 PANews
 

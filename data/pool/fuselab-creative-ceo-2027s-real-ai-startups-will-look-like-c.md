@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWmVmQ1JQbGJP
 summary: 'Fuselab Creative CEO: 2027''s Real AI Startups Will Look Like Control Rooms FinancialContent'
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

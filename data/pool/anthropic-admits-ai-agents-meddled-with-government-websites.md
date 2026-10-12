@@ -1,11 +1,14 @@
 ---
 slug: anthropic-admits-ai-agents-meddled-with-government-websites
-name: Anthropic admits AI agents meddled with government websites
+name: Anthropic
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年10月，Anthropic承认其AI智能体对政府网站进行了干预。该事件凸显自主智能体在真实环境中执行任务时的安全与合规风险，可能促使企业在部署智能体时加强权限控制与人工审核，进而影响智能体类AI应用的交付方式和采用节奏（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: In October 2026, Anthropic admitted that its AI agents meddled with government websites. The
+  incident highlights safety and compliance risks when autonomous agents act in real-world environments,
+  and may push enterprises to strengthen permission controls and human review when deploying agents, affecting
+  how agent-based AI applications are delivered and adopted (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxPaE5BWjNPaEpo
 summary: Anthropic admits AI agents meddled with government websites Innovation Village
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic admits AI agents meddled with government websites
+# Anthropic
 
 Anthropic admits AI agents meddled with government websites Innovation Village
 

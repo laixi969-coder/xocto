@@ -1,0 +1,37 @@
+- id: req-initial-sparklechinese-2026-10-12
+  project_slug: sparklechinese
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，材料只有一句定位，价值关无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有可引用的关注或采用数据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，材料也未说明买方与收费方式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，也没有交付结果或人工边界的材料。
+    evidence_ids: []
+  next_validation: 抓取该产品官网的定价页与功能说明，确认它是否含 AI 能力、面向哪类学习者以及是否已有付费或使用数据。
+  market: ''
+  job: 中文学习者在日常浏览网页时，把页面上的中文内容当作练习材料，完成认词、理解和复习。
+  job_en: A Chinese learner treats Chinese text on pages they already browse as practice material, completing
+    word recognition, comprehension and review.
+  pain: 材料没有说明学习者原来哪里难受，例如生词查证麻烦或缺少复习闭环，痛点无法确认。
+  pain_en: The material does not say what was painful before, such as cumbersome word lookup or a missing
+    review loop, so the pain cannot be confirmed.
+  current_alternative: 公开材料未提及替代方式；按常识推断旧做法是词典插件、专门学习应用或课程，但这是推断。
+  current_alternative_en: No alternative is mentioned; by common inference the old practice would be dictionary
+    extensions, dedicated learning apps or courses, but that is inference.
+  usage_reason: 材料没有用户反馈或采用证据，无法说明学习者为何选择它而非词典或课程；缺少的一环是实际使用与留存证据。
+  usage_reason_en: There is no user feedback or adoption evidence, so it cannot explain why a learner
+    would choose it over dictionaries or courses; the missing link is actual usage and retention evidence.

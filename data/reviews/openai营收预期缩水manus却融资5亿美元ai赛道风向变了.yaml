@@ -1,0 +1,94 @@
+- id: req-initial-openai营收预期缩水manus却融资5亿美元ai赛道风向变了-2026-10-12
+  project_slug: openai营收预期缩水manus却融资5亿美元ai赛道风向变了
+  level: initial
+  reviewed_at: '2026-10-12T01:21:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨应用多步任务的手工搬运与切换，痛点方向可辨，但公开材料未给出具体使用场景、材料与交付物，需求强度无法判定。
+    evidence_ids:
+    - ev-e2d3b1734e2c375d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有约5亿美元融资这一资本信号，未见用户采用、留存或客户案例，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-e2d3b1734e2c375d
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价、买方类型或收入，钱来自to C、to B还是to VC无法判断；仅有融资叙事，需警惕依赖融资续命的风险。
+    evidence_ids:
+    - ev-e2d3b1734e2c375d
+  - gate: truth
+    status: insufficient
+    reason: 通用代理贴近“替人跑完任务”的第一性目标，但承诺能否确定性交付、人工边界在哪，公开材料均未说明。
+    evidence_ids:
+    - ev-e2d3b1734e2c375d
+  next_validation: 收集Manus官方定价页或客户案例页面，核验其计费方式、买方类型与可复现的交付结果。
+  market: ''
+  job: 通用型用户在处理跨应用的多步任务时，把目标交给代理，由它拆解步骤、调用工具并产出结果；具体是谁、在什么情况下、处理什么材料，公开材料未说明。
+  job_en: A general user hands a goal to the agent for multi-step, cross-application tasks, and it decomposes
+    steps, calls tools and produces a result; who exactly, in what situation, and with what materials
+    is not stated publicly.
+  pain: 跨应用多步任务需要在多个工具间手工搬运信息、反复切换与核对，耗时且易漏步；但公开材料未给出具体痛点场景或用户抱怨。
+  pain_en: Multi-step cross-application tasks require manual information shuttling, repeated switching
+    and checking, which is slow and error-prone; however, public materials give no concrete pain scenario
+    or user complaint.
+  current_alternative: 用户目前多以通用对话助手加手工复制粘贴，或自行编写脚本与自动化流程来绕过；这一替代方式来自对产品形态的推断，非公开用户陈述。
+  current_alternative_en: Users currently work around this with general chat assistants plus manual copy-paste,
+    or self-written scripts and automation; this alternative is inferred from the product form, not a
+    public user statement.
+  usage_reason: 推断：相较手工在多个工具间搬运，代理若能一次接收目标并自动完成拆解与调用，可省去逐步操作与切换的负担，因此需要跑完多步任务又不想自己编排流程的用户会尝试它；但缺少留存、复购或客户案例证据，无法确认其被长期留在工作流中。
+  usage_reason_en: 'Inference: versus manually shuttling between tools, an agent that takes a goal and
+    automatically decomposes and executes it can remove step-by-step operation and switching, so users
+    who need multi-step tasks finished without orchestrating them may try it; lacking retention, repeat-purchase
+    or customer-case evidence, long-term workflow embedding cannot be confirmed.'
+- id: req-full-openai营收预期缩水manus却融资5亿美元ai赛道风向变了-2026-10-12
+  project_slug: openai营收预期缩水manus却融资5亿美元ai赛道风向变了
+  level: full
+  reviewed_at: '2026-10-12T01:55:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用多步任务的手工搬运与切换：用户给目标，代理拆解并调用工具产出结果。旧做法是对话助手加复制粘贴或自写脚本，不解决的后果是耗时易漏步。公开材料未给具体场景与材料，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-25e902bf84527041
+    - ev-480d8ef67d79e7af
+  - gate: consensus
+    status: insufficient
+    reason: 仅有约5亿美元融资与Meta拟收购的资本信号，未见用户采用、留存或客户案例，无法判断共识卡在感知、场景还是利益环节；资本关注不等于持续采用。
+    evidence_ids:
+    - ev-dac8764fa9b8d0d1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方类型或收入，钱来自to C、to B还是to VC无法判断；存在仅靠融资叙事支撑的每日优鲜风险，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-dac8764fa9b8d0d1
+  - gate: truth
+    status: insufficient
+    reason: 通用代理贴近“替人跑完任务”的第一性目标，但承诺能否确定性交付、人工确认边界在哪，公开材料均未说明，交付确定性无法核验。
+    evidence_ids:
+    - ev-25e902bf84527041
+  next_validation: 追踪Manus官网定价页与客户案例页面，核验其计费方式、买方类型与可复现的交付结果。
+  market: ''
+  job: 通用型用户（含个人与团队）在需要完成跨应用的多步任务时，把目标交给Manus，由它拆解步骤、调用工具并产出可交付结果；公开材料未说明具体是谁、在什么情况下、处理什么材料。
+  job_en: A general user (individual or team) hands a goal for a multi-step, cross-application task to
+    Manus, which decomposes steps, calls tools and produces a deliverable; public materials do not state
+    exactly who, in what situation, or with what materials.
+  pain: 跨应用多步任务需要在多个工具间手工搬运信息、反复切换与核对，耗时且易漏步；公开材料只给出产品定位，未提供具体用户抱怨或痛点场景，痛点强度属结构推理。
+  pain_en: Multi-step cross-application tasks require manual information shuttling, repeated switching
+    and checking, which is slow and error-prone; public materials only give the product positioning, with
+    no concrete user complaint or pain scenario, so pain intensity is structural inference.
+  current_alternative: 用户目前多以通用对话助手（如ChatGPT、Gemini、Copilot）加手工复制粘贴，或自行编写脚本与自动化流程来绕过；这一替代方式来自对产品形态与同类工具的推断，非公开用户陈述。
+  current_alternative_en: Users currently work around this with general chat assistants (e.g. ChatGPT,
+    Gemini, Copilot) plus manual copy-paste, or self-written scripts and automation; this alternative
+    is inferred from the product form and comparable tools, not a public user statement.
+  usage_reason: 推断：相较在多个工具间手工搬运与逐步操作，Manus以“接收目标—自动拆解—调用工具—产出结果”的闭环减少逐步编排与切换的负担，因此需要跑完多步任务又不想自己编排流程的用户会尝试它；但缺少留存、复购或客户案例证据，无法确认其被长期留在工作流中。
+  usage_reason_en: 'Inference: versus manually shuttling between tools and operating step by step, Manus''s
+    loop of ''take a goal—auto-decompose—call tools—produce a result'' removes step-by-step orchestration
+    and switching, so users who need multi-step tasks finished without orchestrating them may try it;
+    lacking retention, repeat-purchase or customer-case evidence, long-term workflow embedding cannot
+    be confirmed.'

@@ -22,7 +22,7 @@ summary: Voice AI's often misses important points for its context layer, and cau
   to break
 first_seen: '2026-10-12T01:20:56Z'
 last_seen: '2026-10-12T01:20:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

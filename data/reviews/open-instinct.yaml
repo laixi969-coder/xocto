@@ -121,3 +121,54 @@
   usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus manual cross-app
     work or which checkable result it improves, so it cannot explain why users would choose it; stars
     rising from 280 to 289 reflect attention only.'
+- id: req-full-open-instinct-2026-10-12
+  project_slug: open-instinct
+  level: full
+  reviewed_at: '2026-10-12T01:55:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人事务跨应用代执行的需求：用户在手机上发消息，代理在自有计算机上执行并调用其他代理。公开材料未给用户抱怨与失败代价，痛点刚性属工作流结构推理；但输入、动作、交付闭环可还原，故价值结构成立。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+    - ev-fac6fae7d41dd31e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 280 增至 300，属关注度而非采用证据；没有 issue、discussion、用户反馈或客户案例，无法判断共识卡在感知、想象、场景还是利益环节。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+    - ev-fac6fae7d41dd31e
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、买方或收费路径，钱可能来自 to C 订阅、to B 部署或 to VC，均属判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明代理执行任务的成功率、权限边界与人工确认机制，无法核对承诺能否确定性交付，也看不到安全与人工介入说明。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+    - ev-9a4aff5f18265dda
+  next_validation: 追踪 open-instinct 仓库 README 与 issue/discussion，确认它实际支持的任务类型、执行环境、权限与交付确认方式，以及是否出现用户使用反馈。
+  market: ''
+  job: 个人用户在手机上用 iMessage 给一个跑在自己计算机上的个人代理发消息，让它代为执行跨应用事务，并在需要时调用其他代理协作完成同一件事。
+  job_en: An individual user texts a personal agent on iMessage; the agent runs on its own computer, executes
+    cross-app errands, and coordinates with other agents when a task needs them.
+  pain: 公开材料只说明代理有独立计算机与代理网络，未给出用户抱怨、旧流程耗时或失败代价，痛点强度属于工作流结构推理：手机端下达、桌面端执行、跨应用串联原本需要用户自己在多个 App 与设备间来回切换。
+  pain_en: 'Public material only states the agent has its own computer and an agent network; no user complaints,
+    prior-process cost, or failure consequences are given. Pain intensity is a workflow inference: issuing
+    from mobile, executing on desktop, and chaining across apps otherwise forces the user to switch between
+    devices and apps.'
+  current_alternative: 公开材料未描述旧做法；按结构推断，用户此前是自己手动在多个 App 间操作，或使用单一聊天式助手但无法在自有计算机上持续执行并调用其他代理。
+  current_alternative_en: The material does not describe prior practice; structurally, users previously
+    did the work manually across apps, or used a single chat assistant that could not persistently execute
+    on their own computer and call other agents.
+  usage_reason: 推断：相较手动跨应用操作，它把入口收敛到用户已在用的 iMessage，并把执行放到一台常驻计算机上，省去用户自己切换设备、逐个 App 操作这一步；因此习惯用 iMessage
+    且需要跨应用代办的个人用户会在有此类事务时选择它。公开材料未提供用户反馈或留存证据，动机为推断。
+  usage_reason_en: 'Inference: versus manual cross-app work, it collapses the entry point into iMessage,
+    which the user already uses, and moves execution onto a persistent computer, removing the step of
+    switching devices and operating each app by hand. Users who live in iMessage and need cross-app errands
+    would therefore pick it for such tasks. No user feedback or retention evidence is public, so the motive
+    is inferred.'

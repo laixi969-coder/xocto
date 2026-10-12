@@ -183,3 +183,55 @@
     project to build, script and playtest, removing the step of shuttling code between editor and chat
     window; Roblox developers who already hold a ChatGPT/Claude subscription may therefore choose it,
     though no public user feedback confirms this motive.'
+- id: req-full-roqer-2026-10-12
+  project_slug: roqer
+  level: full
+  reviewed_at: '2026-10-12T01:56:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Roblox 开发者在 Studio 内从构建、写脚本到试玩的重复手工流程，痛点在于单人/小团队逐行手写并手动试玩迭代慢；旧替代是手工编码或把通用聊天模型输出复制回 Studio。产品以代理在项目内直接执行并产出可运行改动，交付闭环清晰，属工作流结构推理。
+    evidence_ids:
+    - ev-cc7d8de269a7d133
+    - ev-dd34edcf11a9117c
+    - ev-4fbeb75cfbb7e772
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 仓库收藏从 123 增至 129，说明有开发者关注并下载 Windows 版，但公开材料没有用户评价、issue 讨论或持续使用证据，无法确认它已进入目标用户日常工作流。
+    evidence_ids:
+    - ev-fb6434fb22060dc1
+    - ev-6a9ed4ea4b69a99b
+    - ev-4fbeb75cfbb7e772
+  - gate: model
+    status: insufficient
+    reason: 产品免费开源，靠用户自带 ChatGPT/Claude 订阅或自定义 API 运行，公开材料未显示任何定价、付费或采购路径；谁付钱、是否可持续尚无公开证据，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cc7d8de269a7d133
+    - ev-dd34edcf11a9117c
+  - gate: truth
+    status: insufficient
+    reason: 代理在 Studio 内自动构建、写脚本并试玩，但公开材料未说明人工确认边界、失败回滚与安全限制，交付能否稳定发生缺少可复现证据。
+    evidence_ids:
+    - ev-cc7d8de269a7d133
+    - ev-dd34edcf11a9117c
+  next_validation: 追踪 Roqer 的 公开代码仓库 仓库 issue/discussion 与官方文档，确认是否有开发者报告实际部署、替代了哪一步手工流程及人工确认边界。
+  market: ''
+  job: Roblox 独立开发者或小型工作室在 Roblox Studio 中搭建场景、编写脚本并试玩验证时，需要把一句自然语言需求变成可运行的项目改动，完成从构建、写脚本到试玩的开发任务。
+  job_en: Roblox indie developers or small studios working in Roblox Studio need to turn a natural-language
+    request into runnable project changes, completing the build-script-playtest loop.
+  pain: Roblox Studio 里搭场景、写 Luau 脚本、反复进游戏试玩验证是重复且割裂的手工流程；单人开发者或小工作室人手有限，每轮改动都要自己切工具、手写代码、手动试玩，迭代慢且容易卡在琐碎实现上。
+  pain_en: Building scenes, writing Luau scripts and repeatedly entering playtests in Roblox Studio is
+    a repetitive, fragmented manual loop; solo devs and small studios have limited hands, so each change
+    means switching tools, hand-writing code and manually playtesting, slowing iteration.
+  current_alternative: 当前替代方式是在 Roblox Studio 内手工搭建与手写脚本，或把需求贴给通用 ChatGPT/Claude 再手动复制代码回 Studio，试玩验证仍由人完成。
+  current_alternative_en: Today they build and script by hand inside Roblox Studio, or paste requests
+    into generic ChatGPT/Claude and manually copy code back, with playtesting still done by a human.
+  usage_reason: 相较手工写脚本或把通用聊天模型输出手动搬回 Studio，Roqer 以代理形式直接在项目内执行构建、写脚本与试玩动作，省去在聊天窗口与 Studio 之间来回复制粘贴、再手动跑一遍验证的步骤；自带
+    ChatGPT/Claude 订阅或自定义 API 也免去额外模型费用。这类用户会在需要快速把想法落成可运行改动、又不想逐行手写时选择它（推断）。
+  usage_reason_en: Compared with hand-writing scripts or manually copying generic chatbot output back
+    into Studio, Roqer acts as an agent inside the project to build, script and playtest, removing the
+    copy-paste-and-rerun loop between chat window and Studio; using the user's own ChatGPT/Claude subscription
+    or custom API avoids extra model cost. Such users would pick it when they want ideas turned into runnable
+    changes without writing every line (inference).

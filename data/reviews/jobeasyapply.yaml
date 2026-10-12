@@ -1,0 +1,39 @@
+- id: req-initial-jobeasyapply-2026-10-12
+  project_slug: jobeasyapply
+  level: initial
+  reviewed_at: '2026-08-19T22:41:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨站点重复填写申请表单、耗时长易漏投的问题，痛点具体；买方是求职者个人，付费意愿尚不清楚。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该产品的采用或持续使用证据，强场景未被外部确认。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径；可能按订阅或按投递量向求职者收费，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 自动投递是否违反平台条款、账号风险与人工确认边界在公开材料中未说明，交付确定性待核验。
+    evidence_ids: []
+  next_validation: 收集该产品官网的定价与使用说明页面，确认计费方式、人工确认环节与平台合规表述。
+  market: ''
+  job: 求职者在同时投递大量职位时，把 LinkedIn、Greenhouse、Lever 上的申请表单交给工具批量提交，以完成投递动作并跟踪进度。
+  job_en: When applying to many roles at once, job seekers hand the application forms on LinkedIn, Greenhouse
+    and Lever to the tool for bulk submission, completing the applications and tracking progress.
+  pain: 同一份简历要在多个站点反复填写相似表单，重复劳动多、耗时长，容易漏投或错填。
+  pain_en: The same resume must be re-entered into similar forms across many sites, which is repetitive
+    and slow, and easy to skip or mis-fill.
+  current_alternative: 现在多靠手工逐个填写，或用浏览器自动填充插件加表格清单自行管理。
+  current_alternative_en: Today this is mostly manual form filling one by one, or browser autofill extensions
+    plus a self-managed spreadsheet.
+  usage_reason: 推断：相较手工逐个填写，它把跨站点表单提交交给代理执行，省掉重复录入这一步，因此海投阶段的求职者会试用；但公开材料未说明人工确认与结果反馈，也未显示留存或付费证据。
+  usage_reason_en: 'Inference: versus filling forms by hand one by one, it delegates cross-site submission
+    to an agent, removing the repeated data-entry step, so job seekers in a mass-application phase would
+    try it; but public material does not describe human confirmation or result feedback, nor show retention
+    or payment evidence.'

@@ -1,0 +1,84 @@
+- id: req-initial-will-the-homeview-be-apples-first-smart-home-success-2026-10-12
+  project_slug: will-the-homeview-be-apples-first-smart-home-success
+  level: initial
+  reviewed_at: '2026-10-12T01:20:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多品牌设备分散控制的问题，痛点真实存在，但公开材料只有产品名与上市时间，无法确认它具体替代哪一步旧操作。
+    evidence_ids:
+    - ev-8c262fe2e6e6a6f1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有媒体报道的传闻与时间点，没有用户采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-8c262fe2e6e6a6f1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-8c262fe2e6e6a6f1
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近家庭控制的第一性目标、承诺能否确定性交付，以及 AI 与人工边界。
+    evidence_ids:
+    - ev-8c262fe2e6e6a6f1
+  next_validation: 收集苹果官方产品页或发布公告，确认 HomeView 的功能范围、定价与交付方式。
+  market: ''
+  job: 家庭用户在家中管理灯光、安防与家电时，需要把分散在多个品牌 App 的设备统一到一个入口完成日常控制。
+  job_en: Home users managing lights, security and appliances need one entry point to control devices
+    currently scattered across several brand apps.
+  pain: 多品牌设备各自为政，用户要在多个 App 间切换才能完成一次家庭控制，这是长期存在的旧问题；但公开材料未说明 HomeView 是否解决它。
+  pain_en: Multi-brand devices are siloed, so users switch between apps to complete a single household
+    control task; this is a long-standing problem, but public material does not say whether HomeView addresses
+    it.
+  current_alternative: 用户目前使用各品牌自带 App、智能音箱语音指令或第三方家庭自动化平台来分别控制设备。
+  current_alternative_en: Users currently control devices separately through brand apps, smart speaker
+    voice commands, or third-party home automation platforms.
+  usage_reason: 推断：若 HomeView 能把多品牌设备收敛到一个入口并减少切换 App 的步骤，习惯苹果生态的家庭用户会在添置新设备时优先选择它；但功能、定价与交付均未公开，无法确认这一因果。
+  usage_reason_en: 'Inference: if HomeView consolidates multi-brand devices into one entry point and removes
+    app-switching steps, Apple-ecosystem households may prefer it when adding devices; however features,
+    pricing and delivery are undisclosed, so this causal link is unconfirmed.'
+- id: req-full-will-the-homeview-be-apples-first-smart-home-success-2026-10-12
+  project_slug: will-the-homeview-be-apples-first-smart-home-success
+  level: full
+  reviewed_at: '2026-10-12T01:57:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 多品牌设备分散控制是真实旧问题，但公开材料只有产品名与上市时间的传闻，无法确认 HomeView 具体替代哪一步旧操作、交付什么结果，价值结构无法成立。
+    evidence_ids:
+    - ev-f897688be9c02813
+    - ev-d42b3bae58feae13
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪苹果官方产品页或官方发布公告，确认 HomeView 的功能范围、定价与交付方式。
+  market: ''
+  job: 家庭用户在家中管理灯光、安防与家电设备时，需要把分散在不同品牌 App 里的设备统一到一个入口完成日常控制。
+  job_en: Home users managing lights, security and appliances need one entry point to control devices
+    currently scattered across several brand apps.
+  pain: 多品牌设备各自为政，用户要在多个 App 间切换才能完成一次家庭控制；但公开材料只有产品名与上市时间的传闻，未说明 HomeView 具体接收什么输入、执行哪些动作、交付什么结果。
+  pain_en: Multi-brand devices are siloed, forcing users to switch between apps for a single household
+    control task; but public material only reports a product name and launch timing, without stating what
+    HomeView takes as input, what actions it performs, or what it delivers.
+  current_alternative: 用户目前使用各品牌自带 App、智能音箱语音指令或第三方家庭自动化平台分别控制设备。
+  current_alternative_en: Users currently control devices separately through brand apps, smart speaker
+    voice commands, or third-party home automation platforms.
+  usage_reason: 推断：若 HomeView 真能把多品牌设备收敛到一个入口并减少切换 App 的步骤，苹果生态家庭用户可能在新购设备时优先选择它；但功能、定价与交付均未公开，无法确认这一因果。
+  usage_reason_en: 'Inference: if HomeView actually consolidates multi-brand devices into one entry point
+    and removes app-switching steps, Apple-ecosystem households might prefer it when adding devices; however
+    features, pricing and delivery are undisclosed, so this causal link is unconfirmed.'

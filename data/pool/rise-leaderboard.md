@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/VisionXLab/RISEBench_Leaderboard
 summary: Reasoning-informed visual editing — RISEBench & RISEBench++
 first_seen: '2026-10-12T01:20:54Z'
 last_seen: '2026-10-12T01:20:54Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

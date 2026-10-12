@@ -1,0 +1,81 @@
+- id: req-initial-titan-ai-2026-10-12
+  project_slug: titan-ai
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，价值关不成立，后续三关未进入。
+    evidence_ids:
+    - ev-03826e1eb92ccbfe
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。仅有少量社区讨论，无可归因到产品的采用证据。
+    evidence_ids:
+    - ev-03826e1eb92ccbfe
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。未披露定价与买方，无法判断付费路径。
+    evidence_ids:
+    - ev-03826e1eb92ccbfe
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无交付说明与人工边界，承诺能否确定性交付无法核验。
+    evidence_ids:
+    - ev-03826e1eb92ccbfe
+  next_validation: 抓取 titan-ai.co 官网首页与定价页正文，确认它面向的具体用户、输入材料与交付结果。
+  market: ''
+  job: 材料未说明谁在什么情况下打开 Titan、处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: The material does not say who opens Titan, in what situation, with what material, to finish
+    what task, so the use scenario cannot be reconstructed.
+  pain: 没有用户抱怨、替代行为或采用记录，连它要解决什么问题都写不出来，痛点强度无从判断。
+  pain_en: There are no user complaints, workarounds or adoption records, and even the problem it targets
+    cannot be stated, so pain intensity cannot be judged.
+  current_alternative: 无法确认；材料未说明它替代的是哪一步旧做法。
+  current_alternative_en: Cannot be determined; the material does not say which old practice it replaces.
+  usage_reason: 推断：仅凭“14 岁开发者发布首个项目”这一事实无法解释用户为何选择它，缺少功能、场景与结果信息，无法给出使用理由。
+  usage_reason_en: 'Inference: the fact that a 14-year-old launched a first project cannot explain why
+    a user would choose it; with no function, scenario or outcome information, no usage reason can be
+    given.'
+- id: req-full-titan-ai-2026-10-12
+  project_slug: titan-ai
+  level: full
+  reviewed_at: '2026-10-12T01:57:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 材料只显示一名 14 岁开发者发布首个项目 Titan，未说明它解决什么需求、什么痛点，也写不出用户任务与旧替代，价值关不成立。
+    evidence_ids:
+    - ev-672529bde4ceca65
+    - ev-0cdf91a7eedec9ff
+    - ev-09a9b01b709ae70c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 Titan 项目官网首页与定价页正文，确认它面向的具体用户、输入材料与交付结果。
+  market: ''
+  job: 材料只说明一名 14 岁开发者发布了自己的第一个创业项目 Titan，未说明谁在什么情况下打开它、处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: The material only says a 14-year-old launched his first startup, Titan; it does not say who
+    opens it, in what situation, with what material, to finish what task, so the job cannot be reconstructed.
+  pain: 没有用户抱怨、替代行为或采用记录，连它要解决什么问题都写不出来，痛点强度无从判断。
+  pain_en: There are no user complaints, workarounds or adoption records, and even the problem it targets
+    cannot be stated, so pain intensity cannot be judged.
+  current_alternative: 无法确认；材料未说明它替代的是哪一步旧做法。
+  current_alternative_en: Cannot be determined; the material does not say which old practice it replaces.
+  usage_reason: 推断：仅凭“14 岁开发者发布首个项目”无法解释用户为何选择它，缺少功能、场景与结果信息，无法给出使用理由。
+  usage_reason_en: 'Inference: the fact that a 14-year-old launched a first project cannot explain why
+    a user would choose it; with no function, scenario or outcome information, no usage reason can be
+    given.'

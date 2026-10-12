@@ -1,0 +1,90 @@
+- id: req-initial-github-6-2026-10-12
+  project_slug: github-6
+  level: initial
+  reviewed_at: '2026-10-12T01:20:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是“只让某个程序走代理”的具体任务，痛点来自全局/TUN 模式与手写规则的真实麻烦，旧替代行为明确，结构上成立。
+    evidence_ids:
+    - ev-71a613e57555a05c
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有社区帖与 20 条评论，缺少独立评价、下载量或持续使用证据，尚不能判断是否形成稳定共识。
+    evidence_ids:
+    - ev-71a613e57555a05c
+  - gate: model
+    status: insufficient
+    reason: 免费开源，未见定价页或付费路径；插件 SDK 是否带来收入只是推断，买方与收费方式均未核验。
+    evidence_ids:
+    - ev-71a613e57555a05c
+  - gate: truth
+    status: insufficient
+    reason: 作者自述不装驱动、不改路由、支持 UDP 与防泄漏，但无第三方实测或仓库 issue 佐证其确定性与安全边界。
+    evidence_ids:
+    - ev-71a613e57555a05c
+  next_validation: 收集该开源仓库的 issue/discussion 与发布记录，核验子进程接管、UDP 转发和防 DNS 泄漏是否被独立复现或报告缺陷。
+  market: ''
+  job: 开发者和 AI 客户端重度用户在 Windows 上使用终端、ChatGPT/Claude 桌面或商店版等程序时，需要让其中某几个程序走指定上游代理，同时保持其他程序直连。
+  job_en: Developers and heavy AI-client users on Windows need to route only selected programs, such as
+    terminals or the desktop/Store builds of ChatGPT and Claude, through a chosen upstream proxy while
+    other apps stay direct.
+  pain: 全局或 TUN 模式要装虚拟网卡、容易搞乱本地网络；老牌 Proxifier 需要手写规则并逐个抓取多进程软件的子进程，配置成本高。
+  pain_en: Global or TUN modes require a virtual adapter and often break local networking, while established
+    tools like Proxifier demand hand-written rules and manual child-process capture for multi-process
+    apps.
+  current_alternative: 使用系统全局代理/TUN 模式，或使用 Proxifier 等按规则配置的老牌工具，也有人干脆放弃让这些程序走代理。
+  current_alternative_en: Using system-wide proxy or TUN mode, configuring rule-based legacy tools such
+    as Proxifier, or simply giving up on proxying those programs.
+  usage_reason: 推断：相较手写规则和抓 PID，它把“拖入图标即接管、自动跟随子进程、不装驱动不改路由”作为具体动作，省掉了查进程和逐条配规则这一步，因此怕弄乱本地网络、又只想让个别 AI
+    客户端走代理的 Windows 用户会优先试它。
+  usage_reason_en: 'Inference: instead of writing rules and hunting PIDs, it makes drag-in takeover, automatic
+    child-process following and driver-free, route-free operation the concrete steps, removing the process-hunting
+    and rule-writing burden, so Windows users who fear breaking local networking but want only a few AI
+    clients proxied are likely to try it first.'
+- id: req-full-github-6-2026-10-12
+  project_slug: github-6
+  level: full
+  reviewed_at: '2026-10-12T01:54:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决“只让某个程序走代理”的具体任务，痛点来自全局/TUN 模式与手写规则的真实麻烦，旧替代行为明确，结构上成立。
+    evidence_ids:
+    - ev-71a613e57555a05c
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有社区帖与少量评论，缺少独立评价、下载量或持续使用证据，尚不能判断是否形成稳定共识。
+    evidence_ids:
+    - ev-71a613e57555a05c
+  - gate: model
+    status: insufficient
+    reason: 免费开源，未见定价页或付费路径；插件 SDK 是否带来收入只是推断，买方与收费方式均未核验。
+    evidence_ids:
+    - ev-71a613e57555a05c
+  - gate: truth
+    status: insufficient
+    reason: 作者自述不装驱动、不改路由、支持 UDP 与防泄漏，但无第三方实测或仓库 issue 佐证其确定性与安全边界。
+    evidence_ids:
+    - ev-71a613e57555a05c
+  next_validation: 收集该开源仓库的 issue/discussion 与发布记录，核验子进程接管、UDP 转发和防 DNS 泄漏是否被独立复现或报告缺陷。
+  market: ''
+  job: Windows 上的开发者与 AI 客户端重度用户，在使用终端、ChatGPT/Claude 桌面版或微软商店版等程序时，需要只让其中某几个程序走指定上游代理，同时保持其他程序直连。
+  job_en: Windows developers and heavy AI-client users need to route only selected programs (terminals,
+    ChatGPT/Claude desktop or Store builds) through a chosen upstream proxy while other apps stay direct.
+  pain: 全局/TUN 模式要装虚拟网卡、容易搞乱本地网络；老牌 Proxifier 需手写规则并逐个抓取多进程软件的子进程，配置成本高。
+  pain_en: Global/TUN modes require a virtual adapter and often break local networking, while legacy tools
+    like Proxifier demand hand-written rules and manual child-process capture for multi-process apps.
+  current_alternative: 使用系统全局代理/TUN 模式，或使用 Proxifier 等按规则配置的老牌工具，也有人干脆放弃让这些程序走代理。
+  current_alternative_en: Using system-wide proxy or TUN mode, configuring rule-based legacy tools such
+    as Proxifier, or simply giving up on proxying those programs.
+  usage_reason: 推断：相较手写规则和抓 PID，它把“拖入图标即接管、自动跟随子进程、不装驱动不改路由”作为具体动作，省掉查进程和逐条配规则这一步，因此怕弄乱本地网络、又只想让个别 AI
+    客户端走代理的 Windows 用户会优先试它。
+  usage_reason_en: 'Inference: instead of writing rules and hunting PIDs, it makes drag-in takeover, automatic
+    child-process following and driver-free, route-free operation the concrete steps, removing process-hunting
+    and rule-writing, so Windows users who fear breaking local networking but want only a few AI clients
+    proxied are likely to try it first.'

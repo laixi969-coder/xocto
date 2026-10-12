@@ -1,0 +1,84 @@
+- id: req-initial-betterwispr-2026-10-12
+  project_slug: betterwispr
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口述直接成文的需求，痛点是键盘慢、系统听写弱与粘贴多一步；具体转写质量仍待核验。
+    evidence_ids:
+    - ev-ace6f96f86978545
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量说明关注度，但未见持续使用或付费的公开证据。
+    evidence_ids:
+    - ev-ace6f96f86978545
+  - gate: model
+    status: insufficient
+    reason: 免费开源，未披露付费路径；推断可能靠托管服务或企业版收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ace6f96f86978545
+  - gate: truth
+    status: insufficient
+    reason: 转写准确率、隐私处理与离线能力未说明，医疗法律等敏感场景的人工复核边界不清。
+    evidence_ids:
+    - ev-ace6f96f86978545
+  next_validation: 收集该项目的官方定价或托管服务页面，确认是否存在付费层与数据处理方式。
+  market: ''
+  job: Mac 用户在写邮件、文档或代码注释时，需要把手上的口述内容变成当前输入框里的文字，而不打断正在做的事。
+  job_en: While writing emails, documents or code comments, Mac users need spoken content turned into
+    text in the active field without breaking their flow.
+  pain: 键盘输入慢且打断思路，系统自带听写对专业词汇和标点处理有限，切换应用再粘贴又多一步。
+  pain_en: Typing is slow and interrupts thought, built-in dictation handles jargon and punctuation poorly,
+    and switching apps to paste adds a step.
+  current_alternative: 使用 macOS 自带听写，或先录到语音备忘录再手动转写粘贴。
+  current_alternative_en: Using built-in macOS dictation, or recording to a voice memo and transcribing
+    and pasting manually.
+  usage_reason: 推断：相较系统听写，它把转写结果直接落到当前输入框，省掉切换与粘贴这一步，因此长时间口述成文的 Mac 用户会试用；公开讨论热度不等于已留在工作流。
+  usage_reason_en: 'Inference: versus built-in dictation, it inserts the transcript straight into the
+    active field, removing the switch-and-paste step, so Mac users who dictate at length would try it;
+    public discussion volume does not mean it stays in the workflow.'
+- id: req-full-betterwispr-2026-10-12
+  project_slug: betterwispr
+  level: full
+  reviewed_at: '2026-10-12T01:52:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口述直接成文的需求，痛点是键盘慢、系统听写弱与粘贴多一步；具体转写质量仍待核验。
+    evidence_ids:
+    - ev-ace6f96f86978545
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量说明关注度，但未见持续使用或付费的公开证据。
+    evidence_ids:
+    - ev-ace6f96f86978545
+  - gate: model
+    status: insufficient
+    reason: 免费开源，未披露付费路径；推断可能靠托管服务或企业版收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ace6f96f86978545
+  - gate: truth
+    status: insufficient
+    reason: 转写准确率、隐私处理与离线能力未说明，医疗法律等敏感场景的人工复核边界不清。
+    evidence_ids:
+    - ev-ace6f96f86978545
+  next_validation: 收集该项目的官方定价或托管服务页面，确认是否存在付费层与数据处理方式。
+  market: ''
+  job: Mac 用户在写邮件、文档或代码注释时，需要把手上的口述内容变成当前输入框里的文字，而不打断正在做的事。
+  job_en: While writing emails, documents or code comments, Mac users need spoken content turned into
+    text in the active field without breaking their flow.
+  pain: 键盘输入慢且打断思路，系统自带听写对专业词汇和标点处理有限，切换应用再粘贴又多一步。
+  pain_en: Typing is slow and interrupts thought, built-in dictation handles jargon and punctuation poorly,
+    and switching apps to paste adds a step.
+  current_alternative: 使用 macOS 自带听写，或先录到语音备忘录再手动转写粘贴。
+  current_alternative_en: Using built-in macOS dictation, or recording to a voice memo and transcribing
+    and pasting manually.
+  usage_reason: 推断：相较系统听写，它把转写结果直接落到当前输入框，省掉切换与粘贴这一步，因此长时间口述成文的 Mac 用户会试用；公开讨论热度不等于已留在工作流。
+  usage_reason_en: 'Inference: versus built-in dictation, it inserts the transcript straight into the
+    active field, removing the switch-and-paste step, so Mac users who dictate at length would try it;
+    public discussion volume does not mean it stays in the workflow.'

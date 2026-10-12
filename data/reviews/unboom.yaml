@@ -1,0 +1,84 @@
+- id: req-initial-unboom-2026-10-12
+  project_slug: unboom
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决未处理房间低频轰鸣导致监听失真、混音判断出错的需求，旧替代是买吸音板或改造房间，成本与施工门槛明确。
+    evidence_ids:
+    - ev-ff51f42455fe2af6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，没有可归因到该产品的使用、复购或评价数据，是否形成共识无法判断。
+    evidence_ids:
+    - ev-ff51f42455fe2af6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，一次性买断或订阅均为判断而非已验证事实。
+    evidence_ids:
+    - ev-ff51f42455fe2af6
+  - gate: truth
+    status: insufficient
+    reason: 修正是否在不同房间与设备上稳定生效、是否需要人工试听确认，公开材料未说明，确定性交付待核验。
+    evidence_ids:
+    - ev-ff51f42455fe2af6
+  next_validation: 收集 Unboom 官方定价页或独立评测，确认收费方式以及在不同房间与监听设备上的实测修正效果。
+  market: ''
+  job: 家庭录音室音乐人或播客创作者在未经声学处理的房间里监听和录音，需要让低频不再轰鸣，以便判断混音与录音是否准确。
+  job_en: A home-studio musician or podcaster monitors and records in an untreated room and needs the
+    low end to stop booming so they can judge mixes and takes accurately.
+  pain: 房间低频堆积会让监听失真，导致混音判断错误；旧办法要买吸音板、低频陷阱或改造房间，成本高且租房者无法施工。
+  pain_en: Room bass buildup distorts monitoring and leads to wrong mix decisions; the old fix is buying
+    panels, bass traps or rebuilding the room, which is costly and impossible for renters.
+  current_alternative: 旧做法是购买吸音板与低频陷阱、调整音箱摆位，或靠耳机与试错反复修正混音。
+  current_alternative_en: The old way is buying acoustic panels and bass traps, repositioning speakers,
+    or relying on headphones and repeated trial-and-error mixing.
+  usage_reason: 推断：相较买吸音板或改造房间，Unboom 直接在 Mac 上对音频做低频修正，省去硬件采购与施工这一步，因此租房或预算有限、又需要可靠监听判断的家庭录音室用户会在混音前使用它。
+  usage_reason_en: 'Inference: versus buying panels or rebuilding the room, Unboom corrects low frequencies
+    in software on the Mac, removing the hardware purchase and construction step, so home-studio users
+    who rent or have limited budget but need reliable monitoring would use it before mixing.'
+- id: req-full-unboom-2026-10-12
+  project_slug: unboom
+  level: full
+  reviewed_at: '2026-10-12T01:57:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决未处理房间低频轰鸣导致监听失真、混音判断出错的需求，旧替代是买吸音板或改造房间，成本与施工门槛明确；这是基于产品说明的工作流结构推理。
+    evidence_ids:
+    - ev-ff51f42455fe2af6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有可归因到该产品的使用、复购或评价数据，是否形成采用共识无法判断。
+    evidence_ids:
+    - ev-ff51f42455fe2af6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，一次性买断或订阅均为判断而非已验证事实，付费路径尚不明确。
+    evidence_ids:
+    - ev-ff51f42455fe2af6
+  - gate: truth
+    status: insufficient
+    reason: 修正是否在不同房间与设备上稳定生效、是否需要人工试听确认，公开材料未说明，确定性交付待核验。
+    evidence_ids:
+    - ev-ff51f42455fe2af6
+  next_validation: 收集 Unboom 官方定价页或独立评测，确认收费方式以及在不同房间与监听设备上的实测修正效果。
+  market: ''
+  job: 家庭录音室音乐人或播客创作者在未经声学处理的房间里用 Mac 监听和录音，需要让低频不再轰鸣，以便准确判断混音与录音是否成立。
+  job_en: A home-studio musician or podcaster monitors and records on a Mac in an untreated room and needs
+    the low end to stop booming so they can judge mixes and takes accurately.
+  pain: 房间低频堆积会让监听失真，导致混音判断出错；旧办法要买吸音板、低频陷阱或改造房间，成本高且租房者无法施工。
+  pain_en: Room bass buildup distorts monitoring and leads to wrong mix decisions; the old fix is buying
+    panels, bass traps or rebuilding the room, which is costly and impossible for renters.
+  current_alternative: 旧做法是购买吸音板与低频陷阱、调整音箱摆位，或靠耳机与反复试错修正混音。
+  current_alternative_en: The old way is buying acoustic panels and bass traps, repositioning speakers,
+    or relying on headphones and repeated trial-and-error mixing.
+  usage_reason: 推断：相较买吸音板或改造房间，Unboom 直接在 Mac 上对音频做低频修正，省去硬件采购与施工这一步，因此租房或预算有限、又需要可靠监听判断的家庭录音室用户会在混音前使用它。
+  usage_reason_en: 'Inference: versus buying panels or rebuilding the room, Unboom corrects low frequencies
+    in software on the Mac, removing the hardware purchase and construction step, so home-studio users
+    who rent or have limited budget but need reliable monitoring would use it before mixing.'

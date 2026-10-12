@@ -1,0 +1,38 @@
+- id: req-initial-s1-mini-webgpu-2026-10-12
+  project_slug: s1-mini-webgpu
+  level: initial
+  reviewed_at: '2026-08-19T22:41:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决录音不外传场景下的转写需求，痛点真实，但候选只给出一句简介，无法确认输入格式、时长与准确度，交付是否确定仍不清楚。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 3 个点赞，没有用户评价、案例或重复使用证据，无法判断是否形成采用共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；浏览器本地推理可能靠模型托管或企业部署变现，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对转写准确度、隐私边界与人工校对环节，承诺能否确定性交付缺少材料支持。
+    evidence_ids: []
+  next_validation: 收集该页面的官方说明或仓库文档，确认支持的音频格式、时长上限与转写准确度指标。
+  market: ''
+  job: 记者、律师或医生在需要整理访谈、问诊或会议录音时，把音频文件放进浏览器页面，得到可编辑的文字稿。
+  job_en: A reporter, lawyer or clinician with interview, consultation or meeting audio puts the file
+    into a browser page and gets an editable transcript.
+  pain: 录音不能外传的行业里，云端转写意味着把敏感音频交给第三方；本地部署方案又需要装环境和显卡。
+  pain_en: In sectors where recordings cannot leave the premises, cloud transcription means handing sensitive
+    audio to a third party, while local setups require installing runtimes and GPUs.
+  current_alternative: 人工听录、付费云端转写服务，或自行搭建本地 Whisper 环境。
+  current_alternative_en: Manual listening and typing, paid cloud transcription services, or self-hosting
+    a local Whisper setup.
+  usage_reason: 推断：它把模型放进浏览器，省掉安装本地环境和上传音频两步，因此对不能外传录音、又不想折腾部署的人有吸引力；但候选材料未给出准确度、时长限制或任何使用反馈，无法确认它真被留在工作流里。
+  usage_reason_en: 'Inference: it puts the model in the browser, removing both local setup and audio upload,
+    which appeals to people who cannot send recordings out but will not manage a deployment; the candidate
+    material gives no accuracy, length limits or usage feedback, so retention cannot be confirmed.'

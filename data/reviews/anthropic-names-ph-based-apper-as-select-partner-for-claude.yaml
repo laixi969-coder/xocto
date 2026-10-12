@@ -1,0 +1,86 @@
+- id: req-initial-anthropic-names-ph-based-apper-as-select-partner-for-claude-2026-10-12
+  project_slug: anthropic-names-ph-based-apper-as-select-partner-for-claude
+  level: initial
+  reviewed_at: '2026-10-12T01:21:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决企业把模型接进自身流程时缺工程与合规能力的问题，痛点具体，但合作范围与交付内容未公开，价值强度无法核对。
+    evidence_ids:
+    - ev-37df3ecc8b53bb66
+  - gate: consensus
+    status: insufficient
+    reason: 仅有被列为合作伙伴的报道，没有客户名单、评价或采用数据，无法判断本地企业是否已形成选择共识。
+    evidence_ids:
+    - ev-37df3ecc8b53bb66
+  - gate: model
+    status: insufficient
+    reason: 未披露收费方式、项目规模或收入，按项目收费或按席位收费均属推断，不是已验证事实。
+    evidence_ids:
+    - ev-37df3ecc8b53bb66
+  - gate: truth
+    status: insufficient
+    reason: 交付是否确定发生、出错时责任如何划分、是否涉及数据合规审查，公开材料均未说明。
+    evidence_ids:
+    - ev-37df3ecc8b53bb66
+  next_validation: 收集 Apper 官方页面或 Anthropic 合作伙伴目录中关于其服务范围与交付内容的公开说明。
+  market: ''
+  job: 菲律宾本地企业的业务或 IT 负责人要在自身流程中引入 Claude，需要有人把需求翻译成可运行的接入方案并完成部署与培训。
+  job_en: A business or IT lead at a Philippine enterprise wants to bring Claude into its own processes
+    and needs someone to translate requirements into a working integration and complete deployment and
+    training.
+  pain: 企业自己缺少把大模型接进既有系统的工程与合规经验，语言和时区差异也让直接对接模型厂商成本高。
+  pain_en: Enterprises lack the engineering and compliance experience to wire a large model into existing
+    systems, and language and time-zone gaps make dealing directly with the model vendor costly.
+  current_alternative: 企业目前靠内部 IT 团队自学、找通用系统集成商，或直接使用模型厂商的官方支持渠道。
+  current_alternative_en: Enterprises currently rely on internal IT self-learning, general system integrators,
+    or the model vendor's official support channels.
+  usage_reason: 推断：若本地合作方能把需求梳理、接入和培训打包交付，企业就省掉自己摸索模型接口与合规流程这一步，因此缺少 AI 工程团队的中型企业会优先选择本地伙伴；但公开材料未给出任何客户案例或交付结果，选择理由仍属推断。
+  usage_reason_en: 'Inference: if a local partner packages scoping, integration, and training, enterprises
+    skip figuring out model APIs and compliance themselves, so mid-size firms without AI engineering teams
+    would prefer a local partner. But no customer case or delivery outcome is public, so the reason to
+    choose remains inference.'
+- id: req-full-anthropic-names-ph-based-apper-as-select-partner-for-claude-2026-10-12
+  project_slug: anthropic-names-ph-based-apper-as-select-partner-for-claude
+  level: full
+  reviewed_at: '2026-10-12T01:52:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决企业把模型接进自身流程时缺工程与合规能力的问题，痛点具体，但合作范围与交付内容未公开，价值强度无法核对。
+    evidence_ids:
+    - ev-87bc883b96d34f62
+    - ev-41734d3be1c6ab18
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Apper 官方页面或 Anthropic 合作伙伴目录中关于其服务范围与交付内容的公开说明。
+  market: ''
+  job: 菲律宾本地企业的业务或 IT 负责人要在自身流程中引入 Claude，需要有人把需求翻译成可运行的接入方案并完成部署与培训。
+  job_en: A business or IT lead at a Philippine enterprise wants to bring Claude into its own processes
+    and needs someone to translate requirements into a working integration and complete deployment and
+    training.
+  pain: 企业自己缺少把大模型接进既有系统的工程与合规经验，语言和时区差异也让直接对接模型厂商成本高。
+  pain_en: Enterprises lack the engineering and compliance experience to wire a large model into existing
+    systems, and language and time-zone gaps make dealing directly with the model vendor costly.
+  current_alternative: 企业目前靠内部 IT 团队自学、找通用系统集成商，或直接使用模型厂商的官方支持渠道。
+  current_alternative_en: Enterprises currently rely on internal IT self-learning, general system integrators,
+    or the model vendor's official support channels.
+  usage_reason: 推断：若本地合作方能把需求梳理、接入和培训打包交付，企业就省掉自己摸索模型接口与合规流程这一步，因此缺少 AI 工程团队的中型企业会优先选择本地伙伴；但公开材料未给出任何客户案例或交付结果，选择理由仍属推断。
+  usage_reason_en: 'Inference: if a local partner packages scoping, integration, and training, enterprises
+    skip figuring out model APIs and compliance themselves, so mid-size firms without AI engineering teams
+    would prefer a local partner. But no customer case or delivery outcome is public, so the reason to
+    choose remains inference.'

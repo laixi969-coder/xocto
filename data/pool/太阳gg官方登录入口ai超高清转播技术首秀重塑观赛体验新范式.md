@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZSjRqa1NIOGVy
 summary: 太阳gg官方登录入口：AI+超高清转播技术首秀，重塑观赛体验新范式 体坛加
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

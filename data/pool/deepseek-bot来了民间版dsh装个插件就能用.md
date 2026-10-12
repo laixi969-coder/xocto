@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/502544.html
 summary: Grok Bot我养不起，ds bot不得高低尝尝咸淡？
 first_seen: '2026-10-12T01:20:56Z'
 last_seen: '2026-10-12T01:20:56Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

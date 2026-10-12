@@ -127,3 +127,53 @@
     GUI apps, and local model startup into one image, removing the step-by-step install and tuning after
     OS setup, so users on constrained hardware or avoiding the terminal would pick it at install time.
     No user feedback or retention evidence is public; the motive is structural inference.'
+- id: req-full-aero-linux-2026-10-12
+  project_slug: aero-linux
+  level: full
+  reviewed_at: '2026-10-12T01:52:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决低配机器上装系统后仍需大量终端配置、本地模型环境要自行搭建的问题，痛点具体；公开事实给出低于 350MB 空闲内存、45 个免终端应用与一键本地模型，旧替代为常规发行版加手动配置，属工作流结构推理。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+    - ev-d6c0c09b821b3ecf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标在 44 至 45 之间波动，属关注度信号，未见用户评价、客户案例或重复使用证据，无法判断是否形成持续采用共识。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+    - ev-53817935daf8f934
+  - gate: model
+    status: insufficient
+    reason: 开源发行版，公开材料未说明收费方式或买方；可能走捐赠、企业定制或 to VC，属判断而非已验证事实，也未发现定价页。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出内存占用与应用数量等宣称，未见可复现的安装镜像校验、预装清单或本地模型实际运行结果，交付确定性尚缺公开依据。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+    - ev-d6c0c09b821b3ecf
+  next_validation: 追踪该发行版官网或仓库的发布说明与 issue，确认安装镜像、预装应用清单及本地模型运行的可复现结果。
+  market: ''
+  job: 开发者在旧笔记本或内存受限的机器上安装系统时，需要一个开箱即用的桌面环境：系统本身占用低、预装免终端的图形应用，并能一键拉起本地大模型，从而不必自己逐项配置驱动、桌面和推理环境。
+  job_en: 'A developer installing an OS on an old laptop or memory-constrained machine needs an out-of-the-box
+    desktop: low system footprint, preinstalled zero-terminal GUI apps, and one-click local LLMs, so they
+    avoid configuring drivers, desktop, and inference stack piece by piece.'
+  pain: 常规发行版在低配机器上占用高、需要大量终端配置，本地模型环境还要自行搭建；公开材料以低于 350MB 空闲内存、45 个免终端 GTK3 应用、一键本地模型作为卖点，指向这一配置负担，但缺少用户抱怨或案例佐证。
+  pain_en: Mainstream distributions are heavy on low-spec machines and require heavy terminal configuration,
+    and local model environments must be built by hand; the listing's sub-350MB idle RAM, 45 zero-terminal
+    GTK3 apps and one-click local LLMs point at this setup burden, though user complaints or cases are
+    absent.
+  current_alternative: 安装 Ubuntu、Debian 等常规发行版后自行精简与配置，或使用轻量发行版再手动搭建桌面与本地模型运行环境。
+  current_alternative_en: Installing mainstream distributions like Ubuntu or Debian and slimming/configuring
+    them by hand, or using a lightweight distro and manually building the desktop and local model runtime.
+  usage_reason: 推断：相较自行精简常规发行版再逐项配置，它把低内存占用、免终端图形应用和本地模型启动打包进安装镜像，省去装完系统后逐项配置桌面与推理环境这一步，因此手上只有旧机器、又想在本地跑模型的开发者会优先试用；但预装清单与本地模型实际运行效果尚无公开核验。
+  usage_reason_en: 'Inference: versus slimming a mainstream distro and configuring item by item, it bundles
+    low memory footprint, zero-terminal GUI apps and local model launch into the install image, removing
+    the post-install desktop and inference setup step, so developers with only an old machine who want
+    local models would try it first; the preinstall list and actual local model performance are not publicly
+    verified.'

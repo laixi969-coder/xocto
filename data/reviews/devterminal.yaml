@@ -1,0 +1,87 @@
+- id: req-initial-devterminal-2026-10-12
+  project_slug: devterminal
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决的是“项目命令要手敲、易错”这一具体负担，痛点真实但公开材料只有一句描述，无法确认它是否真能识别项目并正确执行，价值结构尚不成立。
+    evidence_ids:
+    - ev-4f07f3452a639be6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：公开材料没有用户评价、采用或讨论，无法判断开发者是否认为这一步值得被替换。
+    evidence_ids:
+    - ev-4f07f3452a639be6
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或买方信息，无法判断钱来自个人开发者还是团队席位，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4f07f3452a639be6
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近“把项目跑起来”的第一性目标，失败时是否给出可操作提示也无材料。
+    evidence_ids:
+    - ev-4f07f3452a639be6
+  next_validation: 收集 DevTerminal 官方产品页或文档，确认它如何识别项目类型、支持哪些技术栈，以及是否公布定价。
+  market: ''
+  job: 后端或全栈工程师在本地终端里启动、构建和调试自己的项目脚本，需要把项目跑起来并看到执行结果。
+  job_en: A backend or full-stack engineer starts, builds and debugs project scripts in a local terminal,
+    needing to get the project running and see the results.
+  pain: 项目命令分散在 README、package.json 或同事口口相传里，换项目或换机器就要重新拼命令，跑错命令的代价是时间浪费。
+  pain_en: Project commands are scattered across READMEs, package.json or colleagues' memory, so switching
+    projects or machines means reassembling commands, and a wrong command costs time.
+  current_alternative: 手敲 npm run / make / docker compose 等命令，或维护一份自己的 shell 别名与脚本。
+  current_alternative_en: Typing npm run / make / docker compose by hand, or maintaining personal shell
+    aliases and scripts.
+  usage_reason: 推断：如果它真能识别项目类型并给出正确的运行命令，用户省下的是“查文档、拼命令、试错”这一步，因此常切换项目或带新人的团队会先试它；但公开材料只有一句描述，是否减少这一步负担无法核对。
+  usage_reason_en: 'Inference: if it really detects the project type and produces the right run command,
+    the user skips looking up docs, assembling commands and trial and error, so teams that switch projects
+    often or onboard newcomers would try it first; but public material is one line only, so whether that
+    step is actually reduced cannot be checked.'
+- id: req-full-devterminal-2026-10-12
+  project_slug: devterminal
+  level: full
+  reviewed_at: '2026-10-12T01:53:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是项目命令分散、换项目或换机器要重新拼命令这一具体负担，痛点刚性来自跑错命令直接浪费时间；公开材料仅一句产品描述，交付确定性属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-4f07f3452a639be6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品描述，没有用户评价、采用或开发者讨论，无法判断开发者是否认为这一步值得被替换，也未出现可归因到该产品的使用规模。
+    evidence_ids:
+    - ev-4f07f3452a639be6
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或买方信息，钱可能来自个人开发者订阅或团队席位，这是判断而非已验证事实；也未出现付费或采购记录。
+    evidence_ids:
+    - ev-4f07f3452a639be6
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近“把项目跑起来”的第一性目标：是否真能识别项目配置、失败时是否给出可操作提示，公开材料均未说明。
+    evidence_ids:
+    - ev-4f07f3452a639be6
+  next_validation: 追踪 DevTerminal 官方产品页或文档，确认它如何识别项目类型、支持哪些技术栈，以及是否公布定价。
+  market: ''
+  job: 后端或全栈工程师在本地终端里启动、构建和调试自己的项目脚本，需要把项目跑起来并看到执行结果。
+  job_en: A backend or full-stack engineer starts, builds and debugs project scripts in a local terminal,
+    needing to get the project running and see the results.
+  pain: 项目命令分散在 README、package.json 或同事口口相传里，换项目或换机器就要重新拼命令，跑错命令的代价是时间浪费。
+  pain_en: Project commands are scattered across READMEs, package.json or colleagues' memory, so switching
+    projects or machines means reassembling commands, and a wrong command costs time.
+  current_alternative: 手敲 npm run / make / docker compose 等命令，或维护一份自己的 shell 别名与脚本。
+  current_alternative_en: Typing npm run / make / docker compose by hand, or maintaining personal shell
+    aliases and scripts.
+  usage_reason: 推断：相较手敲命令或自维护别名，它把“识别项目类型并给出正确运行命令”这一步收进一个 Run 按钮，用户不必先查 README 或 package.json 再拼命令，因此常切换项目或带新人的工程师会先试它；但公开材料只有一句描述，是否真能识别项目并正确执行无法核对。
+  usage_reason_en: 'Inference: versus typing commands or maintaining personal aliases, it folds ''detect
+    the project type and produce the right run command'' into one Run button, so the user skips reading
+    the README or package.json before assembling the command; engineers who switch projects often or onboard
+    newcomers would try it first. But public material is one line only, so whether it truly detects the
+    project and runs correctly cannot be checked.'

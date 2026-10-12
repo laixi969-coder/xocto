@@ -1,0 +1,83 @@
+- id: req-initial-farol-2026-10-12
+  project_slug: farol
+  level: initial
+  reviewed_at: '2026-10-12T01:20:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多智能体并行时人工审批点被漏看的问题，痛点来自并行任务本身的结构；旧做法是逐个窗口轮询，不采用的代价是任务卡住无人处理。
+    evidence_ids:
+    - ev-4de037f363ef8402
+  - gate: consensus
+    status: insufficient
+    reason: 只有产品页一句描述，没有用户评价、讨论或采用数据，无法判断开发者是否真的把它接入日常终端工作流。
+    evidence_ids:
+    - ev-4de037f363ef8402
+  - gate: model
+    status: insufficient
+    reason: 未见定价页与买方信息，可能面向个人开发者订阅或团队席位，属判断而非已验证事实；也没有融资叙事。
+    evidence_ids:
+    - ev-4de037f363ef8402
+  - gate: truth
+    status: insufficient
+    reason: “需要你”的判定依据、支持哪些智能体运行时、误报如何处理均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-4de037f363ef8402
+  next_validation: 收集该产品的官方文档或仓库说明，确认支持哪些编码智能体运行时以及“需要人工介入”的判定方式。
+  market: ''
+  job: 同时运行多个编码智能体的开发者在终端里需要随时知道哪个智能体在等待输入或审批，以便及时分派下一步任务而不遗漏。
+  job_en: A developer running several coding agents at once needs to know at any moment which agent is
+    waiting for input or approval, so they can dispatch the next step without missing one.
+  pain: 并行智能体会各自停在等待确认的节点，开发者只能逐个窗口切换查看，容易漏掉卡住的会话，等待时间被浪费。
+  pain_en: Parallel agents each stall at a confirmation point, and the developer can only switch windows
+    one by one, easily missing a stuck session and wasting the waiting time.
+  current_alternative: 手动在多个终端标签或窗口之间切换，或靠记忆与通知逐个检查智能体状态。
+  current_alternative_en: Manually switching between terminal tabs or windows, or checking agent status
+    one by one from memory and notifications.
+  usage_reason: 推断：相比逐个窗口切换，它把多个智能体的等待状态汇总到一处并直接指出需要人工介入的那个，省掉的是轮询查找这一步；因此同时跑多个智能体的开发者会在并行任务变多时选择它。公开材料未提供用户反馈或留存数据。
+  usage_reason_en: 'Inference: instead of switching windows one by one, it aggregates the waiting states
+    of several agents in one place and points directly at the one needing human input, removing the polling
+    step; developers running multiple agents would pick it as parallel tasks grow. Public material provides
+    no user feedback or retention data.'
+- id: req-full-farol-2026-10-12
+  project_slug: farol
+  level: full
+  reviewed_at: '2026-10-12T01:54:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据链中没有任何与编码智能体监控相关的公开事实，全部为词典释义和割草机经销商页面，无法还原用户任务、痛点或旧替代方式，连需求本身都写不出来。
+    evidence_ids:
+    - ev-e467af6b65e0473e
+    - ev-4db95d015ca6b252
+    - ev-37463c11459b9c05
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Farol 的官方产品页或 公开代码仓库 仓库 README，确认其实际功能、支持的编码智能体运行时及用户使用反馈。
+  market: ''
+  job: 同时运行多个编码智能体的 macOS 开发者在终端里需要随时知道哪个智能体在等待输入或审批，以便及时分派下一步任务而不遗漏。
+  job_en: A macOS developer running several coding agents at once needs to know at any moment which agent
+    is waiting for input or approval, so they can dispatch the next step without missing one.
+  pain: 公开材料中没有任何关于该产品用户痛点的证据；现有证据全部是词典释义和割草机经销商页面，与编码智能体监控无关。
+  pain_en: Public material contains no evidence of user pain for this product; all available evidence
+    is dictionary definitions and a lawn-mower dealer page, unrelated to coding-agent monitoring.
+  current_alternative: 公开材料未提供任何关于开发者当前如何管理多智能体状态的替代方式证据。
+  current_alternative_en: Public material provides no evidence of how developers currently manage multi-agent
+    status.
+  usage_reason: 公开材料未提供任何用户反馈、采用案例或使用动机证据，无法判断用户为什么会选择它。
+  usage_reason_en: Public material provides no user feedback, adoption cases or usage motivation evidence,
+    so it is impossible to judge why users would choose it.

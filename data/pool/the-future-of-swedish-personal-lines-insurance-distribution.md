@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT3NoanZpTjhY
 summary: The Future of Swedish Personal Lines Insurance Distribution Deloitte
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

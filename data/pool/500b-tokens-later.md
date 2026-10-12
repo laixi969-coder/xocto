@@ -21,7 +21,7 @@ canonical_url: https://momo5502.com/posts/2026-10-09-game-decompilation
 summary: Letting AI agents decompile a first-person shooter
 first_seen: '2026-10-12T01:20:32Z'
 last_seen: '2026-10-12T01:20:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

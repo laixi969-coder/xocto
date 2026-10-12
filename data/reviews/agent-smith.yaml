@@ -187,3 +187,53 @@
     fact, it moves model choice into per-task routing and offers a usage panel with reproducible benchmarks,
     letting teams check cost and effect in one place; without bill comparison data, actual savings remain
     unverified.'
+- id: req-full-agent-smith-2026-10-12
+  project_slug: agent-smith
+  level: full
+  reviewed_at: '2026-10-12T01:52:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队用编码助手时 token 超支、成本不可见的需求，痛点由摘要直接点出；不解决则账单失控，旧做法是人工选模型或事后看账单。产品以自适应路由加用量面板交付，属工作流结构推理，公开用户反馈仍缺。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+    - ev-752672a26f62b7af
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 347 升至 510 后回落至 309，说明开发者关注度存在但波动明显；没有用户反馈、采用或持续使用证据，无法判断共识是否形成，关注度不等于持续采用。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+    - ev-c7dece0185ac79e6
+    - ev-66f0f2e5c793886f
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价、付费或采购信息，买方与收费方式均不明；按产品形态推断可能面向 to B 工程团队或 to C 开发者，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: truth
+    status: insufficient
+    reason: 摘要称基准测试带凭据，但复现条件、路由策略效果与人工确认边界均未披露，无法核对节省是否确定发生；交付确定性尚缺可复现公开证据。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+    - ev-752672a26f62b7af
+  next_validation: 追踪该仓库 README 与基准测试说明，核对路由策略的对比口径、可复现步骤及是否披露实际用量或账单节省数据。
+  market: ''
+  job: AI 应用开发者或工程效能负责人在团队使用编码助手、担心 token 超支时，接入 agent-smith 做自适应模型路由并查看 Codex 用量面板，最终拿到路由策略与用量视图。
+  job_en: An AI application developer or engineering productivity lead whose team uses coding assistants
+    and worries about token overspend plugs in agent-smith for adaptive model routing and a Codex usage
+    panel, ending up with routing policy and a usage view.
+  pain: 公开摘要直接点出 token 超支这一痛点，说明团队在调用大模型编码助手时成本会失控；但公开材料未说明超支发生在哪个环节、此前如何发现和控制，痛点强度只能靠结构推理。
+  pain_en: The public summary names token overspend directly, indicating teams lose cost control when
+    calling LLM coding assistants; however, the material does not say where overspend occurs or how it
+    was previously detected and controlled, so pain intensity rests on structural inference.
+  current_alternative: 公开材料未说明现有替代方式，无法确认此前是靠人工看账单、平台自带额度限制，还是自建脚本控制成本。
+  current_alternative_en: Public materials do not describe existing alternatives, so it is unclear whether
+    teams previously watched bills manually, relied on platform quotas, or wrote their own scripts to
+    control cost.
+  usage_reason: 推断：相较人工逐次选模型或事后看账单，agent-smith 按任务自动切换模型并给出用量面板，可省去手动选型与事后对账两步；带凭据的基准测试让团队能核对路由效果，因此担心超支的工程团队会在接入编码助手时选择它。
+  usage_reason_en: 'Inference: compared with manually choosing a model each time or reviewing bills afterward,
+    agent-smith automatically switches models per task and provides a usage panel, removing the manual
+    selection and reconciliation steps; its benchmark receipts let teams check routing results, so cost-worried
+    engineering teams would choose it when wiring up coding assistants.'

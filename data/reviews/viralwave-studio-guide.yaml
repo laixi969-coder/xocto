@@ -125,3 +125,48 @@
   usage_reason_en: 'Inference: versus a general writing assistant, it fixes brand voice and a review step
     inside the product, cutting per-post rewriting and proofing, so agencies needing batch output without
     tone drift would pick it before scheduling.'
+- id: req-full-viralwave-studio-guide-2026-10-12
+  project_slug: viralwave-studio-guide
+  level: full
+  reviewed_at: '2026-10-12T01:57:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社媒批量出稿与语气一致的需求，痛点在于逐条手写和返工校对耗时，旧做法是通用助手加人工改写；交付闭环由品牌语气设定、生成、审核构成，属工作流结构推理。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从43升至52与一份使用指南，缺少真实用户评价或团队采用记录，无法判断是否形成共识。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+    - ev-4831dba6d816005c
+    - ev-f237376438c8476c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，付费路径只能推断为面向代运营团队或品牌的订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  - gate: truth
+    status: insufficient
+    reason: 审核工作流与人工边界在材料中只被提及，缺少可复现的交付结果或留存证据，无法确认承诺确定性交付。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  next_validation: 追踪 ViralWave Studio 官网定价页或公开客户案例，确认其审核流程、付费方式与真实采用记录。
+  market: ''
+  job: 社媒运营者或代运营团队在每周排期发布前，处理品牌语气说明与选题素材，批量产出符合调性的待发布帖子并进入审核流程。
+  job_en: Social media operators or agencies, before weekly scheduling, work from brand-voice notes and
+    topic material to batch-produce on-brand posts that enter a review workflow.
+  pain: 逐条手写帖子耗时且难以保持统一语气，外包写手又要反复返工校对；公开材料只说明存在品牌语气与审核流程，未提供用户抱怨或返工数据。
+  pain_en: Writing each post by hand is slow and tone drifts easily, while freelance writers need repeated
+    rework; public material only shows a brand-voice and review workflow, with no user complaints or rework
+    data.
+  current_alternative: 目前多用通用写作助手加人工改写，或直接雇写手，语气一致性靠人盯；这是从产品能力反推的旧做法，非用户自述。
+  current_alternative_en: Today most use a general writing assistant plus manual rewriting, or hire writers,
+    keeping tone consistent by human supervision; this is inferred from product capability, not user statements.
+  usage_reason: 推断：相较通用写作助手，它把品牌语气设定与审核环节固定进流程，减少逐条重写和校对这一步，因此需要批量出稿又怕跑调的代运营团队会在排期前选择它。
+  usage_reason_en: 'Inference: versus a general writing assistant, it fixes brand voice and a review step
+    into the flow, cutting per-post rewriting and proofing, so agencies needing batch output without tone
+    drift would choose it before scheduling.'

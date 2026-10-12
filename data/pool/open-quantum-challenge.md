@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/FINAL-Bench/open-quantum-challenge
 summary: GPU + harness only. Two quantum seasons, $1000 each.
 first_seen: '2026-10-12T01:20:54Z'
 last_seen: '2026-10-12T01:20:54Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -175,3 +175,51 @@
   usage_reason_en: 'Inference: compared with frame-by-frame manual work or waiting on outsourcing, it
     splits the video into model-generated stages the user approves step by step, removing the from-scratch
     build and repeated rework, so small teams without editors would choose it when they need a clip quickly.'
+- id: req-full-mortiflix-oss-2026-10-12
+  project_slug: mortiflix-oss
+  level: full
+  reviewed_at: '2026-10-12T01:55:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小团队做动效短片缺剪辑人手、外包等待的问题，痛点具体，交付物是可导出的成片，输入—分步生成—逐阶段确认—导出闭环清晰，属工作流结构推理。
+    evidence_ids:
+    - ev-40bf43390da61d12
+    - ev-9f1a0bbf098546ba
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 389 增至 570，仅说明关注度上升，无用户评价、案例或重复使用证据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-40bf43390da61d12
+    - ev-9f1a0bbf098546ba
+  - gate: model
+    status: insufficient
+    reason: 开源且需自备 Claude Code 或 API 密钥，费用可能由使用者自付模型调用，尚无定价页或付费路径公开证据，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-40bf43390da61d12
+  - gate: truth
+    status: insufficient
+    reason: 逐阶段人工确认是明确的人工边界，但成片质量、渲染确定性与素材版权边界未在公开材料中说明，交付确定性仍待核验。
+    evidence_ids:
+    - ev-40bf43390da61d12
+    - ev-9e40f8d3fe6a54c8
+  next_validation: 追踪该仓库的 issue 与 discussion，确认使用者实际产出的视频类型、是否重复使用以及渲染与版权边界。
+  market: ''
+  job: 独立视频创作者或小型营销团队在需要产出动效短片时，把素材与需求交给本地运行的 Claude 分步流程，逐阶段确认后导出成片。
+  job_en: Independent video creators or small marketing teams hand assets and requirements to a locally
+    run Claude step-by-step workflow and approve each stage before exporting a finished motion clip.
+  pain: 动效视频制作依赖专业软件与熟练剪辑，小团队要么外包等待排期，要么自己长时间学工具；公开材料只说明流程分步确认，未给出具体耗时或返工数据。
+  pain_en: Motion-design video depends on professional software and skilled editors, so small teams either
+    wait on outsourcing queues or spend long hours learning tools; the public material only describes
+    staged approval and gives no time or rework figures.
+  current_alternative: 旧做法是用专业动效软件手工逐帧制作，或把需求外包给动效设计师并按项目等待交付。
+  current_alternative_en: The old approach is hand-building frame by frame in professional motion tools,
+    or outsourcing to a motion designer and waiting for project delivery.
+  usage_reason: 推断：相较手工逐帧搭建或外包等待，它把视频拆成模型生成的分步阶段、由使用者逐步确认，减少从零搭建与整片返工的那一步，因此缺少剪辑人手的小团队在需要快速出片时会选择它；仓库星标从
+    389 增至 570 只说明关注度，不构成使用理由。
+  usage_reason_en: 'Inference: compared with frame-by-frame manual building or waiting on outsourcing,
+    it splits the video into model-generated stages the user approves step by step, removing the from-scratch
+    build and whole-clip rework, so small teams without editors would choose it when they need a clip
+    quickly; the star growth from 389 to 570 shows attention only, not usage reason.'

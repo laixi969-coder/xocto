@@ -571,3 +571,54 @@
     by discussion volume, then auto-generates the digest page, removing the manual triage and merge-and-rank
     steps; editors or operators who must ship a vertical daily digest but do not want to build a crawl-and-filter
     pipeline from scratch would choose it.'
+- id: req-full-aihot-2026-10-12
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-12T01:52:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编辑每日从多信源挑条目、聚事件、排日报的重复劳动：公开仓库说明按配置信源抓取、大模型先筛再独立打两次分、同一事件聚合、按讨论量排热点并每日出报，旧做法是人工翻源筛选排版，不做的后果是每日出稿成本高；此为工作流结构推理。
+    evidence_ids:
+    - ev-ba045dc705565db7
+    - ev-526cf5d8c4beb837
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 7,186 星，说明开发者社区注意到该框架；但未见目标编辑用户的持续使用、部署或复购证据，关注度不能替代采用共识。
+    evidence_ids:
+    - ev-1950f3f9b7407e98
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；框架以开源形式发布，钱可能来自自部署者的自用成本或后续托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-1950f3f9b7407e98
+  - gate: truth
+    status: insufficient
+    reason: 公开材料说明每日 08:00 出报与筛选打分流程，但未见筛选准确率、误聚事件或人工复核边界的可复现证据，交付确定性尚不能核验。
+    evidence_ids:
+    - ev-526cf5d8c4beb837
+    - ev-8ccf128618bb6477
+  next_validation: 追踪 AIHOT 仓库的 issue 与 discussion，确认是否有编辑或运营者实际部署、替换了哪套旧流程，以及筛选与聚合的准确率反馈。
+  market: ''
+  job: 想自建行业热点站的编辑或运营者，每天面对多个信源的大量 AI 资讯，需要挑出当天值得看的条目、聚合成事件并排成一份可发布的日报页面。
+  job_en: An editor or operator who wants to run an industry hot-topic site faces a flood of AI news from
+    many sources each day and must pick the day's worthwhile items, cluster them into events, and lay
+    out a publishable daily digest page.
+  pain: 公开仓库说明其做法是每天从一批信源收资料、用大模型先筛再独立打两次分、把同一事件聚合、按讨论量排热点，这对应人工翻多个信源、逐条筛选与排版的重复劳动；痛点来自工作流结构推理，尚无用户抱怨或案例直接佐证强度。
+  pain_en: The public repository describes collecting from many sources daily, screening with an LLM and
+    scoring twice independently, clustering the same event, and ranking by discussion volume — matching
+    the repetitive manual work of scanning sources, filtering, and laying out; the pain is inferred from
+    workflow structure, not yet directly attested by user complaints or cases.
+  current_alternative: 旧做法是编辑手动翻多个信源、凭经验挑条目、再手工排版成日报；公开材料未说明是否已有同类自动化工具被替换。
+  current_alternative_en: The old approach is an editor manually scanning multiple sources, picking items
+    by judgment, and hand-laying-out the digest; public materials do not show whether a comparable automation
+    tool was replaced.
+  usage_reason: 推断：相较手动翻信源再排版，AIHOT 按配置信源抓取、用大模型筛选并独立打两次分、把同一事件聚合并按讨论量排序，直接产出日报页面，省去逐条筛选与排版两步；因此想低成本自建行业热点站的编辑或运营者会在需要每日出稿时选择它。仓库
+    7,186 星说明关注度，但不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manually scanning sources and laying out, AIHOT fetches from configured
+    sources, screens with an LLM and scores twice independently, clusters the same event, ranks by discussion
+    volume, and outputs a digest page, removing the filtering and layout steps; editors or operators wanting
+    a low-cost industry hot-topic site would choose it when they must publish daily. The 7,186 stars show
+    attention, not sustained use.'

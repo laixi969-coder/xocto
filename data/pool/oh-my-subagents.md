@@ -8,12 +8,20 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/ringlochid/oh-my-subagents
 canonical_url: https://github.com/ringlochid/oh-my-subagents
 summary: I let an subagent workflow refactor my codebase for three days
 first_seen: '2026-08-22T02:33:27Z'
 last_seen: '2026-08-22T22:37:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -23,6 +31,7 @@ sightings:
   metrics:
     points: 7
     comments: 2
+  kind: product
 ---
 
 # oh-my-subagents

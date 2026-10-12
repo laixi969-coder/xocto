@@ -205,3 +205,47 @@
   usage_reason: 材料未提供任何用户反馈或采用证据，无法解释开发者为何会选择它而非旧做法；仅凭仓库星标不能说明持续使用。
   usage_reason_en: The material provides no user feedback or adoption evidence, so it cannot explain why
     developers would choose it over the old approach; repository stars alone do not show sustained use.
+- id: req-full-shaders-2026-10-12
+  project_slug: shaders
+  level: full
+  reviewed_at: '2026-10-12T01:56:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据全部指向 Minecraft 着色器下载站，与前端 WebGPU 组件库并非同一产品，无法还原用户任务、痛点与旧替代，价值结构无从成立。
+    evidence_ids:
+    - ev-75524029e7e316ae
+    - ev-035a8140872a83b5
+    - ev-da5ba44d362451ee
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 shaders 项目自身的官方文档或仓库 README，确认它是否提供 WebGPU 着色器组件、支持哪些框架，以及开发者实际接入步骤。
+  market: ''
+  job: 前端开发者在搭建网页或应用界面时，需要为页面加入着色器视觉效果，处理组件代码与渲染管线，把 WebGPU 着色器效果接入 React、Vue、Svelte、Solid、JS 或 Framer
+    项目。
+  job_en: Front-end developers adding shader visual effects to web pages or app interfaces, integrating
+    WebGPU shader effects into React, Vue, Svelte, Solid, JS or Framer projects while handling component
+    code and rendering pipelines.
+  pain: 候选材料只给出组件库定位，未说明开发者此前实现同类效果时卡在哪一步、不采用会失去什么，痛点无法从公开材料确认。
+  pain_en: The candidate material only gives the component library positioning; it does not say where
+    developers got stuck implementing similar effects before or what they lose without it, so the pain
+    point cannot be confirmed from public material.
+  current_alternative: 公开材料未说明旧做法，无法确认此前是手写 WebGL/着色器代码、使用其他图形库，还是直接放弃该效果。
+  current_alternative_en: The public material does not describe the previous approach, so it is unclear
+    whether developers hand-wrote WebGL/shader code, used another graphics library, or simply skipped
+    the effect.
+  usage_reason: 材料未提供任何用户反馈或采用证据，无法解释开发者为何会选择它而非旧做法；仅凭仓库星标不能说明持续使用。
+  usage_reason_en: The material provides no user feedback or adoption evidence, so it cannot explain why
+    developers would choose it over the old approach; repository stars alone do not show sustained use.

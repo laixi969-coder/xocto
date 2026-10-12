@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNR2R1cjhqYXR6
 summary: 'AI Translator Test: DeepL’s 94% vs Google, ChatGPT [2026] tech-insider.org'
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

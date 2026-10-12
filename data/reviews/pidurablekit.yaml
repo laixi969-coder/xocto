@@ -1,0 +1,85 @@
+- id: req-initial-pidurablekit-2026-10-12
+  project_slug: pidurablekit
+  level: initial
+  reviewed_at: '2026-10-12T01:20:35Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决苹果客户端开发者难以在本地保持智能体状态与跨生命周期恢复的痛点，结构上具备明确技术需求。
+    evidence_ids:
+    - ev-c353611ee0e8967b
+  - gate: consensus
+    status: supported
+    reason: 开源代码库已获得 231 颗星与 21 次分支，表明苹果平台开发者群体对其技术组合存在真实关注与复用尝试。
+    evidence_ids:
+    - ev-c353611ee0e8967b
+  - gate: model
+    status: insufficient
+    reason: 作为开源基础库，公开材料未披露商业化定价或商业支持服务，变现路径未经验证。
+    evidence_ids:
+    - ev-c353611ee0e8967b
+  - gate: truth
+    status: supported
+    reason: 基于 JavaScriptCore 的嵌入式运行机制技术路径成熟，能确定性提供 Swift 与 JS 代理逻辑的互操作。
+    evidence_ids:
+    - ev-c353611ee0e8967b
+  next_validation: 观察仓库后续 releases、单元测试覆盖率以及实际接入该库的开源或商业 iOS/macOS 示例应用。
+  market: ''
+  job: 苹果平台软件工程师在开发需要长时间跨度执行或断点恢复的客户端 AI 代理时，需要接入可在本地稳定维持状态与生命周期的运行时环境。
+  job_en: Apple platform software engineers developing client-side AI agents that require long-running
+    execution or crash recovery need to integrate a stable local runtime.
+  pain: 移动端或桌面端原生应用生命周期易受系统挂起或内存回收影响，开发者自建跨语言的代理状态机与持久化恢复逻辑极其繁琐且易出错。
+  pain_en: Native mobile and desktop lifecycles are vulnerable to system suspensions and memory reclaims,
+    making it tedious and bug-prone to build custom state persistence.
+  current_alternative: 完全依赖服务端云端工作流引擎托管状态，或在 Swift 中手工编写本地 SQLite / JSON 持久化与恢复状态机逻辑。
+  current_alternative_en: Relying entirely on cloud workflow orchestrators, or manually writing custom
+    SQLite/JSON state persistence and recovery logic in Swift.
+  usage_reason: 推断开发者选择该库是因为它直接包装了 JavaScriptCore 与 pi-durable 逻辑并暴露原生 Swift API，省去跨语言状态绑定的人工封装工作。
+  usage_reason_en: Developers choose it because it wraps JavaScriptCore and durable agent logic with native
+    Swift APIs, eliminating manual cross-language bindings.
+- id: req-full-pidurablekit-2026-10-12
+  project_slug: pidurablekit
+  level: full
+  reviewed_at: '2026-10-12T01:56:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决苹果客户端代理状态随进程中断丢失、开发者需自建跨语言持久化恢复逻辑的痛点；移动端生命周期挂起与内存回收是刚性约束，交付路径为 JavaScriptCore 运行 pi-durable
+      并暴露 Swift API，结构上可确定。
+    evidence_ids:
+    - ev-c353611ee0e8967b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 231 颗星，说明苹果平台开发者对该技术组合存在关注，但公开材料未提供采用、复购或生产环境使用证据，无法确认持续采用。
+    evidence_ids:
+    - ev-c353611ee0e8967b
+  - gate: model
+    status: insufficient
+    reason: 作为开源基础库，公开材料未披露定价、商业支持或企业版方案，谁付钱、按什么方式收费均未核验，变现路径不明。
+    evidence_ids:
+    - ev-c353611ee0e8967b
+  - gate: truth
+    status: supported
+    reason: 基于 JavaScriptCore 的嵌入式运行机制技术路径成熟，能在苹果平台确定性提供 Swift 与 JS 代理逻辑互操作；但公开材料未展示资源限制、安全边界与恢复语义的测试证据。
+    evidence_ids:
+    - ev-c353611ee0e8967b
+  next_validation: 追踪该仓库的 releases、README 与 issue/discussion，确认是否出现实际接入的开源或商业 iOS/macOS 示例应用及持久化恢复的测试用例。
+  market: ''
+  job: iOS/macOS 开发者在为苹果客户端构建需要长时间运行或断点恢复的 AI 代理时，需要让代理状态在系统挂起、内存回收或进程重启后仍能恢复，并能在 Swift 代码中直接调度代理逻辑。
+  job_en: iOS/macOS developers building Apple client-side AI agents that must survive suspension, memory
+    reclaim, or process restart need to persist agent state and invoke agent logic directly from Swift.
+  pain: 苹果平台应用生命周期受系统挂起与内存回收影响，开发者若自建跨语言状态机与持久化恢复逻辑，需手工处理 JavaScriptCore 绑定、状态序列化与恢复，工作量大且易出错。
+  pain_en: Apple platform lifecycles are subject to suspension and memory reclaim; hand-building cross-language
+    state machines and persistence requires manual JavaScriptCore bindings, serialization, and recovery
+    logic, which is laborious and error-prone.
+  current_alternative: 将状态托管在云端工作流引擎，或在 Swift 中手工编写 SQLite/JSON 持久化与恢复状态机，并自行封装 JavaScriptCore 互操作。
+  current_alternative_en: Hosting state in cloud workflow engines, or manually writing SQLite/JSON persistence
+    and recovery state machines in Swift while hand-wrapping JavaScriptCore interop.
+  usage_reason: 推断：该库把 pi-durable 的持久化代理逻辑运行在 JavaScriptCore 上并暴露原生 Swift API，开发者无需自行编写跨语言绑定与状态恢复代码，因此需要在苹果客户端嵌入持久化代理的开发者会在本地运行时选型时考虑它。
+  usage_reason_en: 'Inference: by running pi-durable agent logic on JavaScriptCore and exposing a native
+    Swift API, it removes the need to hand-write cross-language bindings and state recovery code, so developers
+    embedding durable agents in Apple clients may choose it for local runtime.'

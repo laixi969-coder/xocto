@@ -413,3 +413,59 @@
     re-entering the same fields by filling forms in the user's own Chrome; and it makes the application
     record reviewable and diffable by writing each application or skip as readable, greppable markdown.
     Job seekers in an intensive application period who need to process postings at volume and v
+- id: req-full-seekter-2026-10-12
+  project_slug: seekter
+  level: full
+  reviewed_at: '2026-10-12T01:56:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者每日跨来源筛选职位并逐条填写申请表单的需求，痛点是筛选条件个人化、表单重复录入、申请历史不可检索；不采用则投递量受限且错过符合硬性条件的职位。旧替代为手动浏览加表格记录。这是基于公开产品说明的工作流结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-5ecca461280c4b47
+    - ev-e844765578e9bcc5
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏数从 52 缓慢升至 60，说明有开发者关注，但收藏与排名只属关注度证据，不能证明目标求职者持续使用或把它留在工作流里；缺少 issue、discussion 或用户评价说明真实采用。
+    evidence_ids:
+    - ev-5ecca461280c4b47
+    - ev-22d05df6f94098e5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或收入路径，无法判断钱来自 to C 订阅、to B 招聘方还是仅靠开源维护；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-5ecca461280c4b47
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺在本人 Chrome 中自动填写申请表单并记录每次申请或跳过，但公开材料未提供部署文档、可复现实测或失败处理说明，交付能否稳定发生以及自动填表的安全与人工边界尚缺公开证据。
+    evidence_ids:
+    - ev-5ecca461280c4b47
+    - ev-e844765578e9bcc5
+  next_validation: 追踪 seekter 仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际部署、替代的旧流程以及自动填表的失败或安全边界。
+  market: ''
+  job: 求职者在集中投递期（如换工作或毕业求职）每天处理多个招聘来源的职位列表，按地点、签证、薪资、行业、资历、语言等自定规则筛选出可投职位，再在本人 Chrome 中逐条填写申请表单，并把每次申请或跳过记录成可读、可检索、可对比的
+    markdown 文件。
+  job_en: During an intensive job-search period, a job seeker processes postings from multiple sources
+    daily, filters them against self-defined rules (location, visa, salary, sector, seniority, language),
+    fills application forms one by one in their own Chrome, and keeps each application or skip as a readable,
+    greppable, diffable markdown file.
+  pain: 公开材料显示该代理针对的是每日重复筛选与逐条填表的负担：职位分散在多个来源、筛选条件多且个人化（尤其签证、地点、语言），表单填写重复度高；不解决的后果是投递量受限、错过符合硬性条件的职位，且申请历史散落无法检索对比。痛点强度与频率来自工作流结构推理，尚无用户抱怨或案例直接佐证。
+  pain_en: 'Public materials show the agent targets the daily burden of repeated screening and form-by-form
+    filling: postings are scattered across sources, filters are numerous and personal (especially visa,
+    location, language), and form entry is highly repetitive. The consequence of not solving it is capped
+    application volume, missed postings that meet hard constraints, and application history that cannot
+    be searched or compared. Pain intensity and frequency are inferred from workflow s'
+  current_alternative: 旧做法是求职者自己在各招聘网站或聚合站逐日浏览、用关键词和站点筛选器过滤，再手动逐条填写表单，并用表格、邮件或笔记记录投递状态；部分人使用招聘平台的自动推荐或浏览器自动填表插件，但这些替代方式不覆盖跨来源的自定规则过滤与可检索的申请记录。
+  current_alternative_en: The old approach is for the job seeker to browse each job board or aggregator
+    daily, filter with keywords and site filters, fill forms manually one by one, and track status in
+    spreadsheets, email, or notes. Some use platform recommendations or browser autofill extensions, but
+    these do not cover cross-source custom-rule filtering plus a searchable application record.
+  usage_reason: 推断：相较手动逐日浏览与逐条填表，该代理把筛选规则固化为可复用配置、在本人 Chrome 中自动完成表单填写，并把每次申请或跳过落成 markdown 文件，从而减少重复筛选与重复录入这两步负担，并让申请历史可
+    grep、可 diff。因此处于集中投递期、需要跨来源批量投递并保留可审计记录的求职者会在这种情况下选择它；公开材料尚无用户反馈或案例直接证实这一动机。
+  usage_reason_en: 'Inference: compared with manual daily browsing and form-by-form entry, the agent turns
+    filter rules into reusable configuration, fills forms automatically in the user''s own Chrome, and
+    writes each application or skip to a markdown file, reducing the two burdens of repeated screening
+    and repeated data entry while making application history greppable and diffable. Job seekers in an
+    intensive application period who need cross-source volume plus an auditable record would choose i'

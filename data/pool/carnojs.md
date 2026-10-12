@@ -8,12 +8,20 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/carnojs/carno.js
 canonical_url: https://github.com/carnojs/carno.js
 summary: a Nest-style application framework for Bun
 first_seen: '2026-08-19T12:51:05Z'
 last_seen: '2026-08-19T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -23,6 +31,7 @@ sightings:
   metrics:
     points: 6
     comments: 1
+  kind: product
 ---
 
 # Carno.js

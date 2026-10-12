@@ -510,3 +510,56 @@
     can reuse components and styling and skip implementing the login UI and auth flow from scratch. Developers
     who already rely on the ChatGPT account ecosystem and want users to enter their app with the same
     account would therefore choose it when they need to ship a login entry quickly. This is'
+- id: req-full-sign-in-with-chatgpt-devkit-2026-10-12
+  project_slug: sign-in-with-chatgpt-devkit
+  level: full
+  reviewed_at: '2026-10-12T01:56:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是第三方应用缺少账号登录入口、开发者不愿自建认证体系的需求，痛点是密码与会话安全、登录页实现等与核心功能无关的刚性负担；公开仓库显示其以本地 SDK 与可复用 React
+      组件交付登录能力，属工作流结构推理，尚无用户采用或付费证据。
+    evidence_ids:
+    - ev-200560ea7b024fe7
+    - ev-bad72db4abbab513
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 30 增至 45，说明开发者社区已注意到该项目，但公开材料没有 issue、discussion 或客户案例显示它被接入真实产品并持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-200560ea7b024fe7
+    - ev-bad72db4abbab513
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、商用条款或付费主体，钱可能来自 OpenAI 生态的开发者采用而非直接收费，这是判断而非已验证事实；缺少付费路径不反推需求不存在。
+    evidence_ids:
+    - ev-200560ea7b024fe7
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生取决于权限范围、账号数据边界与商用条款，这些公开材料均未披露；本地 SDK 与示例应用说明交付形态存在，但安全与人工边界尚缺可核验证据。
+    evidence_ids:
+    - ev-200560ea7b024fe7
+    - ev-ca3d4e6011ef677d
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认权限范围、商用条款以及是否有开发者公开报告已将其登录入口接入真实产品。
+  market: ''
+  job: 第三方应用开发者（多为已有 Web 或桌面产品的团队）在需要为自己的应用加入账号登录入口时，处理的是身份认证流程与登录界面，要完成的任务是让终端用户用 ChatGPT 账号完成注册与登录，而不必自建一套账号体系。
+  job_en: Developers of third-party apps (typically teams with an existing web or desktop product) who
+    need to add an account login entry handle the authentication flow and login UI; their job is to let
+    end users sign up and log in with a ChatGPT account instead of building an account system from scratch.
+  pain: 自建账号体系意味着要处理密码存储、找回、邮箱验证、会话与安全合规，还要为登录页做设计与前端实现；对只想验证产品的小团队，这部分工作量大、与核心功能无关，且做不好会直接带来安全与合规风险。
+  pain_en: Building an account system means handling password storage, recovery, email verification, sessions
+    and security compliance, plus designing and implementing the login UI; for small teams validating
+    a product this is heavy work unrelated to the core feature, and doing it poorly creates direct security
+    and compliance risk.
+  current_alternative: 当前替代方式是自建邮箱密码账号体系，或接入 Google、公开代码仓库、Apple 等第三方 OAuth 登录；公开材料未说明本套件相对这些既有方案在权限范围、商用条款与数据边界上的具体差异。
+  current_alternative_en: The current alternative is a self-built email/password account system or integrating
+    third-party OAuth logins such as Google, public code repository or Apple; public materials do not
+    yet show how this kit differs from those options in permission scope, commercial terms or data boundaries.
+  usage_reason: 推断：相较自建账号体系，该套件以本地 SDK 加可复用 React 组件的形式，把登录入口的接入动作压缩为引入组件与调用 SDK，省去从零实现认证流程与登录界面这一步；因此正在做
+    Web 或桌面应用、希望快速上线登录入口的开发者会在需要账号体系时选择它。仓库收藏数从 30 增至 45 只说明关注度上升，不构成持续使用证据。
+  usage_reason_en: 'Inference: compared with a self-built account system, this kit packages the login
+    entry as a local SDK plus reusable React components, compressing integration into importing components
+    and calling the SDK and removing the step of implementing the auth flow and login UI from scratch;
+    developers building web or desktop apps who want a login entry live quickly would therefore choose
+    it when they need an account system. Repository stars rising from 30 to 45 only indicates growing'

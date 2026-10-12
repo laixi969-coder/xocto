@@ -214,3 +214,46 @@
   usage_reason: 无法从现有证据判断用户为何会选择它；产品摘要描述的是功能，不是用户动机，且没有任何用户反馈或案例支持采用。
   usage_reason_en: Cannot determine from available evidence why users would choose it; the product summary
     describes features, not user motivation, and no user feedback or cases support adoption.
+- id: req-full-tulpa-2026-10-12
+  project_slug: tulpa
+  level: full
+  reviewed_at: '2026-10-12T01:57:11Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向“tulpa”这一心理学/网络亚文化概念，与本地 QQ、微信聊天记录接入 Agent 的产品毫无关联，无法还原用户任务、痛点强度与旧替代行为，价值结构无从建立。
+    evidence_ids:
+    - ev-11490be12cc3508e
+    - ev-c84961766303087c
+    - ev-ccbd92dca9e1540f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Tulpa 项目自身的官方仓库 README、issue 与 discussion，确认其是否真实存在、支持哪些聊天客户端，以及是否有用户报告跟进场景中的实际使用。
+  market: ''
+  job: 在 Windows 上同时用 QQ 和微信跟进大量联系人的人（销售、招聘、社群运营），需要从两个客户端的本地聊天记录中找出谁该回、哪条线索没跟进，并把往来整理成可检索、可提醒的工作区。
+  job_en: People on Windows who follow up with many contacts across QQ and WeChat (sales, recruiting,
+    community ops) need to find who is owed a reply and which lead went cold from local chat logs in two
+    clients, and keep the threads in a searchable, reminder-capable workspace.
+  pain: 公开证据只描述了 Tulpa 作为 Agent/MCP 工具的功能定位，没有任何用户抱怨、workaround 或客户案例说明聊天记录分散、跟进遗漏这一痛点真实存在及其强度；痛点目前只能从产品功能反推，属于推断而非公开事实。
+  pain_en: The public evidence only describes Tulpa's positioning as an Agent/MCP tool; no user complaint,
+    workaround or customer case shows that scattered chat logs and missed follow-ups are a real, intense
+    pain. The pain can only be inferred from product features, not from public facts.
+  current_alternative: 公开材料未记录目标用户当前如何绕过这一问题（手动翻找聊天记录、自建表格、备忘录或标签），因此无法确认旧做法及其负担。
+  current_alternative_en: Public material does not record how target users currently work around this
+    (manual scrolling, spreadsheets, notes, tags), so the old practice and its burden cannot be confirmed.
+  usage_reason: 推断：若它能把本地 QQ/微信记录变成可检索、可提醒的记忆层，就能省掉逐条翻找与手工登记，高频跟进线索的人可能因此尝试；但公开材料没有用户反馈、留存或复购证据，无法确认任何用户实际选择它。
+  usage_reason_en: 'Inference: if it turns local QQ/WeChat logs into a searchable, reminder-capable memory
+    layer, it would remove manual scrolling and logging, so heavy follow-up users might try it; but there
+    is no user feedback, retention or repeat-use evidence, so no actual adoption can be confirmed.'

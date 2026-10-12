@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5BWEo0TTZUZ05t
 summary: 重磅嘉宾|阿里巴巴千问办公业务发展专家王鹏确认参加WAIE（第十届）2026 人工智能产业大会暨AI 智能体产业应用大会 OFweek
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-12T01:21:03Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
