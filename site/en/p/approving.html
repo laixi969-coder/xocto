@@ -85,15 +85,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>Why this would be needed</h2>
-        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-10-11</p>
+        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-10-12</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">Use case</span>
-        <p class="product-lead">Developers or small teams using coding agents need to run agents inside isolated Docker sandboxes on tasks that modify a real codebase, pause at critical nodes, and let a human review structured artifacts and approve before the workflow continues, so multi-step delivery proceeds with human control intact.</p>
-        <p>The common old practice is to let agents run directly on the local machine or main branch, relying on git diff, logs, and manual rollback; alternatively teams assemble sandboxes from generic CI and container scripts, without built-in human approval nodes or structured artifact exchange.</p>
-        <p>When coding agents run directly on the main repo or local machine, the human bears the risk of unauthorized edits, deleted files, and unreproducible results; reconstructing what the agent did and where it failed from logs is costly and hard to roll back. Public materials give no quantified frequency or incident cost, so this pain intensity is a workflow-structure inference.</p>
+        <p class="product-lead">Developers or teams using coding agents run the agent inside a real Docker sandbox on multi-step code-change tasks, inspect structured artifacts at critical nodes, and only let it continue after human approval, ending with a reviewable, recoverable delivery workflow.</p>
+        <p>Today&#39;s alternatives are mostly running the agent unisolated locally or in CI, watching terminal output manually, relying on git diff and code review after the fact, or avoiding agents for multi-step tasks altogether.</p>
+        <p>Autonomous coding agents can make out-of-scope changes, drift, or produce untraceable intermediate results; post-hoc human review is costly and recovery after failure is hard. Public materials do not quantify the cost or frequency, so pain intensity is a workflow-structure inference.</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
@@ -103,7 +103,7 @@
       <article class="product-panel">
         <span class="field-k">Reason to use it</span>
         <h3>Why users would choose it</h3>
-        <p>Inference: versus running agents directly on the main repo, it executes inside real Docker sandboxes and forces a pause for human Approve at critical nodes, removing the burden of reconstructing changes from logs and manually rolling back, which is why developers needing auditability and recoverability would choose it when modifying production codebases. The 77 stars and 3 forks show developer attention only, not sustained use.</p>
+        <p>Inference: versus unisolated runs plus after-the-fact diff review, it runs the agent in a real Docker sandbox and pauses at critical nodes for human Approve, moving &#39;discover an out-of-scope change and roll back&#39; earlier into &#39;intercept during execution.&#39; Users who care about change control and recoverability would choose it for multi-step tasks; public materials contain no user feedback or customer case confirming this motive.</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">Where the easy answer breaks down</span>
@@ -115,7 +115,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">If this is your job</span>
-        <p><strong>Worth dissecting</strong>. Inference: versus running agents directly on the main repo, it executes inside real Docker sandboxes and forces a pause for human Approve at critical nodes, removing the burden of reconstructing changes from logs and manually rolling back, which is why developers needing auditability and recoverability would choose it when modifying production codebases. The 77 stars and 3 forks show developer attention only, not sustained use.</p>
+        <p><strong>Worth dissecting</strong>. Inference: versus unisolated runs plus after-the-fact diff review, it runs the agent in a real Docker sandbox and pauses at critical nodes for human Approve, moving &#39;discover an out-of-scope change and roll back&#39; earlier into &#39;intercept during execution.&#39; Users who care about change control and recoverability would choose it for multi-step tasks; public materials contain no user feedback or customer case confirming this motive.</p>
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
@@ -131,7 +131,7 @@
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">Public fact</span><p>Runs a coding AI in an isolated box and pauses at critical steps until a person approves before it continues.</p></div>
-        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus running agents directly on the main repo, it executes inside real Docker sandboxes and forces a pause for human Approve at critical nodes, removing the burden of reconstructing changes from logs and manually rolling back, which is why developers needing auditability and recoverability would choose it when modifying production codebases. The 77 stars and 3 forks show developer attention only, not sustained use.</p></div>
+        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus unisolated runs plus after-the-fact diff review, it runs the agent in a real Docker sandbox and pauses at critical nodes for human Approve, moving &#39;discover an out-of-scope change and roll back&#39; earlier into &#39;intercept during execution.&#39; Users who care about change control and recoverability would choose it for multi-step tasks; public materials contain no user feedback or customer case confirming this motive.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
       <div class="gate-audit">
@@ -340,7 +340,7 @@ product. Revisit in three months against the checks above.</p></article></div>
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Dev">
-        817 in AI + Dev →
+        839 in AI + Dev →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -432,8 +432,8 @@ product. Revisit in three months against the checks above.</p></article></div>
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>2872 cases · 177 business reads</span>
-    <span class="gen">Data through 2026-10-11</span>
+    <span>2941 cases · 177 business reads</span>
+    <span class="gen">Data through 2026-10-12</span>
     <span>·</span>
     <a href="../../en/reports.html">Calls archive</a>
     <span>·</span>

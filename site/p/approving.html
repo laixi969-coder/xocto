@@ -85,15 +85,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-11</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-12</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">使用编码代理的开发者或小团队，在让代理执行会改动真实代码库的任务时，需要把代理放进隔离的 Docker 沙箱运行，并在关键节点暂停，由人审阅结构化产物后批准才继续，从而在保留人工控制的前提下完成多步交付。</p>
-        <p>常见旧做法是让代理直接在本地或主分支跑，靠 git diff、日志和人工回滚兜底；或使用通用 CI 与容器脚本自行拼装沙箱，但没有内建的人工批准节点和结构化产物交换。</p>
-        <p>编码代理直接在主仓库或本机执行时，越权改动、误删文件、跑出不可复现结果的风险由人承担；事后从日志里还原代理做了什么、哪一步出错，成本高且难以回滚。公开材料未给出频率或事故代价的量化数据，此痛点强度为工作流结构推理。</p>
+        <p class="product-lead">使用编码代理的开发者或团队在让代理执行多步代码修改任务时，把代理放进真实 Docker 沙箱运行，在关键节点检查结构化产物并人工批准后才允许继续，最终得到可审查、可回滚的交付流程。</p>
+        <p>当前替代方式多为直接让代理在本地或 CI 中无隔离运行、靠人工盯着终端输出、事后用 git diff 与代码评审兜底，或干脆不用代理执行多步任务。</p>
+        <p>编码代理自主执行时容易越权改动、跑偏或产生不可追溯的中间结果，人工事后审查成本高，出错后难以恢复；公开材料未给出不解决的具体代价或发生频率，痛点强度属工作流结构推理。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -103,7 +103,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：相较直接在主仓库跑代理，它把执行放进真实 Docker 沙箱，并在关键节点强制暂停等待人工 Approve，从而省去事后从日志还原改动、手工回滚这一步负担，让需要审计与可恢复性的开发者在改动生产代码库时选择它。公开仓库 77 收藏、3 复刻只说明开发者关注，不构成持续使用证据。</p>
+        <p>推断：相较无隔离直跑加事后 diff 审查，它把代理放进真实 Docker 沙箱并在关键节点暂停等待人工 Approve，把“事后发现越权改动再回滚”这一步前移为“执行中拦截”，因此在意变更可控性与可恢复性的编码代理使用者会在多步任务中选择它；公开材料尚无用户反馈或客户案例证实该动机。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -115,7 +115,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：相较直接在主仓库跑代理，它把执行放进真实 Docker 沙箱，并在关键节点强制暂停等待人工 Approve，从而省去事后从日志还原改动、手工回滚这一步负担，让需要审计与可恢复性的开发者在改动生产代码库时选择它。公开仓库 77 收藏、3 复刻只说明开发者关注，不构成持续使用证据。</p>
+        <p><strong>值得拆解</strong>。推断：相较无隔离直跑加事后 diff 审查，它把代理放进真实 Docker 沙箱并在关键节点暂停等待人工 Approve，把“事后发现越权改动再回滚”这一步前移为“执行中拦截”，因此在意变更可控性与可恢复性的编码代理使用者会在多步任务中选择它；公开材料尚无用户反馈或客户案例证实该动机。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -131,8 +131,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：相较直接在主仓库跑代理，它把执行放进真实 Docker 沙箱，并在关键节点强制暂停等待人工 Approve，从而省去事后从日志还原改动、手工回滚这一步负担，让需要审计与可恢复性的开发者在改动生产代码库时选择它。公开仓库 77 收藏、3 复刻只说明开发者关注，不构成持续使用证据。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该开源仓库的公开 issue / discussion 与部署文档，确认是否有团队报告在真实代码库中持续使用沙箱执行与人工批准节点，以及是否出现托管版定价或付费支持记录。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较无隔离直跑加事后 diff 审查，它把代理放进真实 Docker 沙箱并在关键节点暂停等待人工 Approve，把“事后发现越权改动再回滚”这一步前移为“执行中拦截”，因此在意变更可控性与可恢复性的编码代理使用者会在多步任务中选择它；公开材料尚无用户反馈或客户案例证实该动机。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该开源仓库的公开 issue / discussion 与 README 部署文档，确认是否有真实用户报告在沙箱中运行编码代理并依赖人工 Approve 节点完成交付，以及是否出现托管版定价或付费支持入口。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -321,7 +321,7 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 817 个 →
+        AI + 开发 共 839 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -413,8 +413,8 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>2872 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-10-11</span>
+    <span>2941 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-10-12</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
