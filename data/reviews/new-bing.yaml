@@ -1,0 +1,38 @@
+- id: req-initial-new-bing-2026-10-13
+  project_slug: new-bing
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决搜索要逐页点开、自行拼答案的需求，痛点普遍且高频，旧做法明确。
+    evidence_ids: []
+  - gate: consensus
+    status: supported
+    reason: 36.8 亿月访问量说明已是大众默认入口，共识成立，但环比仅 0.73%，属平稳而非新增采用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价或买方结构，广告与订阅路径是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对答案出处是否可靠、错误如何纠正，本次材料未说明引用与人工边界。
+    evidence_ids: []
+  next_validation: 抓取该搜索产品的官方帮助页或引用说明文档，确认答案来源标注与纠错机制。
+  market: ''
+  job: 普通用户在需要查资料或找答案时，把问题输入搜索框，得到带来源链接的汇总回答。
+  job_en: General users type a question into a search box when they need information or an answer, and
+    receive a summarized answer with source links.
+  pain: 传统搜索返回链接列表，用户要逐个点开、自己拼出答案，多来源比对耗时。
+  pain_en: Traditional search returns a list of links, forcing users to open each one and assemble the
+    answer themselves, which is slow when comparing multiple sources.
+  current_alternative: 传统关键词搜索加人工逐页阅读，或直接问通用聊天助手。
+  current_alternative_en: Traditional keyword search plus reading pages one by one, or asking a general
+    chat assistant directly.
+  usage_reason: 推断：相较逐条点开链接自行归纳，它把多个来源合并成一段带出处的回答，省掉打开与比对页面的步骤，因此需要快速拿到有依据答案的普通用户会在日常查资料时选它。
+  usage_reason_en: 'Inference: versus opening links one by one and summarizing manually, it merges multiple
+    sources into one sourced answer, removing the step of opening and comparing pages, so general users
+    who need a grounded answer quickly choose it for everyday lookups.'

@@ -21,7 +21,7 @@ canonical_url: https://georadios.com
 summary: Spin a globe, hear what's on the radio there
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

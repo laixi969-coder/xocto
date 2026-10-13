@@ -1,0 +1,84 @@
+- id: req-initial-tabby-launches-tabby-20-with-tabby-talk-an-ai-agent-answerin-2026-10-13
+  project_slug: tabby-launches-tabby-20-with-tabby-talk-an-ai-agent-answerin
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小微企业日常记账与财务问答的需求，痛点是重复耗时和反馈慢，旧做法是人工记账或传统软件手动录入。
+    evidence_ids:
+    - ev-f9edad3a079d56f1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，未见用户采用或客户案例，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-f9edad3a079d56f1
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价与计费方式，买方付费路径只能推断为向小微企业或记账人员收费。
+    evidence_ids:
+    - ev-f9edad3a079d56f1
+  - gate: truth
+    status: insufficient
+    reason: 未见记账准确率、数据来源或人工复核边界的公开材料，交付确定性仍待核验。
+    evidence_ids:
+    - ev-f9edad3a079d56f1
+  next_validation: 收集 Tabby 官方定价页或 Tabby Talk 的产品文档，确认记账数据来源与人工复核流程。
+  market: ''
+  job: 中小企业主或记账人员在日常经营中处理财务问题与记账凭证，需要得到答案并完成记账任务。
+  job_en: Small-business owners or bookkeepers handling financial questions and bookkeeping entries in
+    daily operations, needing answers and completed bookkeeping tasks.
+  pain: 记账重复且耗时，财务问题需要查账或问会计，反馈慢。
+  pain_en: Bookkeeping is repetitive and time-consuming, and financial questions require checking ledgers
+    or asking an accountant, with slow feedback.
+  current_alternative: 人工记账、聘请会计或使用传统财务软件手动录入。
+  current_alternative_en: Manual bookkeeping, hiring an accountant, or entering data by hand in traditional
+    accounting software.
+  usage_reason: 推断：相较人工记账或传统软件手动录入，它直接接收财务问题与账目数据并完成记账任务，减少逐笔录入和查账这一步，因此缺少专职会计的小微企业会选择它。
+  usage_reason_en: 'Inference: versus manual bookkeeping or hand entry in traditional software, it ingests
+    financial questions and ledger data and completes bookkeeping tasks, removing the per-entry and lookup
+    step, so micro-businesses without a dedicated accountant would choose it.'
+- id: req-full-tabby-launches-tabby-20-with-tabby-talk-an-ai-agent-answerin-2026-10-13
+  project_slug: tabby-launches-tabby-20-with-tabby-talk-an-ai-agent-answerin
+  level: full
+  reviewed_at: '2026-10-13T03:47:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称其解决中小企业记账与财务问答，但现有证据全部指向同名开源终端模拟器 Eugeny/tabby 及通用 AI 介绍页，没有任何该财税产品的功能、用户痛点或替代方式材料，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-3f3d973ee2b16c28
+    - ev-747facc067c17cc4
+    - ev-3d9acc643a53b05d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Tabby 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 待核验：候选称中小企业主或记账人员在日常经营中处理财务问题与记账凭证，需要得到答案并完成记账任务，但公开证据未提供任何该产品的功能、界面或工作流说明。
+  job_en: 'To be verified: the candidate claims small-business owners or bookkeepers handle financial
+    questions and bookkeeping entries in daily operations, but no public evidence describes this product''s
+    functions, interface, or workflow.'
+  pain: 公开证据未包含任何关于记账耗时、财务问答反馈慢或人工录入负担的用户陈述、评价或案例，痛点无法从现有材料还原。
+  pain_en: Public evidence contains no user statements, reviews, or cases about bookkeeping time cost,
+    slow financial Q&A, or manual-entry burden; the pain cannot be reconstructed from available material.
+  current_alternative: 公开证据未记录目标用户当前使用的替代方式，无法确认是人工记账、聘请会计还是传统财务软件。
+  current_alternative_en: Public evidence does not record the current alternatives used by target users,
+    so it cannot be confirmed whether they rely on manual bookkeeping, accountants, or traditional accounting
+    software.
+  usage_reason: 无法判断：现有证据中没有任何该产品的功能说明、用户反馈或采用记录，无法解释用户为何会选择它而非旧做法。
+  usage_reason_en: 'Cannot be determined: no evidence describes this product''s capabilities, user feedback,
+    or adoption, so there is no basis to explain why a user would choose it over existing practices.'

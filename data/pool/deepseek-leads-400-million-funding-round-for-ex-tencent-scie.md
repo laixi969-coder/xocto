@@ -1,6 +1,6 @@
 ---
 slug: deepseek-leads-400-million-funding-round-for-ex-tencent-scie
-name: DeepSeek leads $400 million funding round for ex-Tencent scientist's robot AI startup
+name: DeepSeek
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: DeepSeek leads $400 million funding round for ex-Tencent scientist's ro
   Fortune
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# DeepSeek leads $400 million funding round for ex-Tencent scientist's robot AI startup
+# DeepSeek
 
 DeepSeek leads $400 million funding round for ex-Tencent scientist's robot AI startup Startup Fortune
 

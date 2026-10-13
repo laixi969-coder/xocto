@@ -684,3 +684,57 @@
     item-by-item checking and manual configuration into one reviewable detect-approve-apply flow, so developers
     who value account ownership and avoid handing credentials to a hosted platform would pick it at launch
     time.'
+- id: req-full-golive-skill-2026-10-13
+  project_slug: golive-skill
+  level: full
+  reviewed_at: '2026-10-13T03:44:53Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 写完代码后上线配置分散在域名、托管、数据库、邮件、支付多个后台的问题，痛点在于重复手工配置与漏项导致产品不可访问或不可收款；公开说明给出检测、计划、批准、执行、验证的闭环，属工作流结构推理，交付可确定。
+    evidence_ids:
+    - ev-c3ddf27badbe8c69
+    - ev-e0bba96552195e05
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 1,236 增至 1,277，说明有开发者持续关注并收藏该工具；但收藏只属关注度证据，不能证明已长期留在工作流，故共识仅到关注层面。
+    evidence_ids:
+    - ev-e0bba96552195e05
+    - ev-ce726d80197a24f3
+  - gate: model
+    status: insufficient
+    reason: 项目为开源 Agent Skill 加零依赖 CLI，无 GoLive 账号、后端或遥测，公开材料未给出定价页、付费主体或采购记录；谁付钱尚不清，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d51cd3d715cd2761
+    - ev-e0bba96552195e05
+  - gate: truth
+    status: supported
+    reason: 公开说明承诺检测、计划、批准、执行、验证并记录创建物、按需复查漂移、可移除，且关键步骤需用户批准、使用用户自己的登录，人工与安全边界明确；但尚无独立复现或 issue 证据。
+    evidence_ids:
+    - ev-c3ddf27badbe8c69
+    - ev-ff0e7b8480b99fa7
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有开发者报告在真实项目上完成上线、替代了哪些手工步骤以及是否重复使用。
+  market: ''
+  job: 独立开发者或小团队用 agent 写完应用代码后，面对一个可运行但未上线的项目，需要在自己的域名、托管、数据库、邮件和支付账号上完成配置，把产品真正发布成可访问、可收款的环境。
+  job_en: After an agent writes the app code, solo developers or small teams take a runnable-but-unlaunched
+    project and configure their own domain, hosting, database, email and payment accounts to ship it as
+    a reachable, payable environment.
+  pain: 上线环节分散在多个服务商后台，域名解析、托管部署、数据库连接、邮件验证和支付开通各自有独立控制台与凭据，agent 写代码省下的时间往往又在上线配置上被消耗；配置错误或漏项会让产品停在不可访问或不可收款状态。
+  pain_en: 'Launch work is scattered across provider consoles: DNS, hosting, database, email verification
+    and payment activation each have their own dashboard and credentials, so time saved by the agent is
+    often spent again on launch configuration, and a missed or wrong step leaves the product unreachable
+    or unable to take payment.'
+  current_alternative: 当前替代方式是开发者自己逐个登录服务商后台手工配置，或依赖 Vercel、Railway、Supabase 等一体化平台的默认流程；前者重复且易错，后者把用户绑定到特定平台，且仍需人工处理域名、邮件与支付。
+  current_alternative_en: Today developers either log into each provider console and configure by hand,
+    or lean on all-in-one platforms such as Vercel, Railway or Supabase; the former is repetitive and
+    error-prone, the latter locks users to a platform and still leaves domain, email and payment work
+    manual.
+  usage_reason: 推断：相较逐个后台手工配置，GoLive 先检测项目缺哪些上线资源，给出计划并等用户批准，再用用户自己的登录在用户账号上执行并验证结果，还记录创建了什么、可按需复查漂移并可撤销；因此在意账号自主权和可回滚的独立开发者，会在
+    agent 写完代码、准备上线时选择它，而不是把凭据交给托管平台或重复手工配置。
+  usage_reason_en: 'Inference: versus configuring each console by hand, GoLive detects which launch resources
+    the project lacks, plans the changes, waits for approval, then applies them with the user''s own logins
+    on the user''s own accounts and verifies the result, recording what it created, re-checking drift
+    on demand and allowing removal; so developers who value account ownership and reversibility would
+    pick it when an agent has finished the code and launch is next, rather than handing credenti'

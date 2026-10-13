@@ -1,6 +1,6 @@
 ---
 slug: hyundai-bayon-revealed-in-india-with-ai-assistant-launch-on
-name: Hyundai Bayon Revealed In India With AI Assistant; Launch On October 26
+name: Hyundai Bayon
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPNzVVN1NnSjZm
 summary: Hyundai Bayon Revealed In India With AI Assistant; Launch On October 26 BW Auto World
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Hyundai Bayon Revealed In India With AI Assistant; Launch On October 26
+# Hyundai Bayon
 
 Hyundai Bayon Revealed In India With AI Assistant; Launch On October 26 BW Auto World
 

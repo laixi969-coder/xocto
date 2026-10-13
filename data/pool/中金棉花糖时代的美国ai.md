@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzE0WEw4bFRs
 summary: 中金：“棉花糖”时代的美国AI 新浪网
 first_seen: '2026-10-12T01:21:03Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

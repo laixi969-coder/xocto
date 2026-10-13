@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeGk2SXJFd2gw
 summary: Could Manulife Financial (TSX:MFC) Transform Insurance Through AI? Kalkine Media
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

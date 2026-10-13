@@ -1,0 +1,92 @@
+- id: req-initial-why-amazon-might-pay-billions-for-decart-a-3-year-old-ai-sta-2026-10-13
+  project_slug: why-amazon-might-pay-billions-for-decart-a-3-year-old-ai-sta
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料未写出它解决什么需求、什么痛点，也看不出替代了哪一步旧工作，价值关无法成立。
+    evidence_ids:
+    - ev-659b2e668f07bdab
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-659b2e668f07bdab
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，报道明确称其未披露收入，付费路径未知。
+    evidence_ids:
+    - ev-659b2e668f07bdab
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定、安全边界如何均无材料支持。
+    evidence_ids:
+    - ev-659b2e668f07bdab
+  next_validation: 查找 Decart 官方产品页或技术文档，确认其具体产品形态、使用场景与客户案例。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开 Decart、处理什么材料、要完成什么任务，只提到它是一家实时 AI 初创公司。
+  job_en: Public material does not say who opens Decart, in what situation, with what material, to finish
+    what task; it only calls it a real-time AI startup.
+  pain: 材料未描述任何用户痛点或旧流程，无法判断它替代了哪一步人工工作。
+  pain_en: The material describes no user pain or old workflow, so it is impossible to tell which manual
+    step it replaces.
+  current_alternative: 未提供，无法确认现有替代方式。
+  current_alternative_en: Not provided; the current alternative cannot be confirmed.
+  usage_reason: 无法判断：候选只给出收购传闻，没有产品能力、使用场景或用户反馈，无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the candidate only offers an acquisition rumor, with no product
+    capability, usage scenario or user feedback to explain why users would choose it.'
+- id: req-full-why-amazon-might-pay-billions-for-decart-a-3-year-old-ai-sta-2026-10-13
+  project_slug: why-amazon-might-pay-billions-for-decart-a-3-year-old-ai-sta
+  level: full
+  reviewed_at: '2026-10-13T03:48:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决直播与零售场景中实时画面无法即时改写、只能事后剪辑的痛点；官方称以毫秒级延迟的实时世界模型与 SDK 交付，替代离线剪辑与后期渲染，痛点刚性且交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-3871f28539fcf971
+    - ev-33349867040b3977
+    - ev-54cd2a07e69163bb
+  - gate: consensus
+    status: insufficient
+    reason: 官方页面称 Lucy 面向企业、品牌、创作者与观众，但未给出客户名单、采用规模或社区讨论，无法确认已有用户把它放进日常工作流。
+    evidence_ids:
+    - ev-54cd2a07e69163bb
+    - ev-33349867040b3977
+  - gate: model
+    status: insufficient
+    reason: 公开材料只提到亚马逊可能以数十亿美元收购且未披露收入，未见定价页或付费路径；买方可能是被收购方、企业 SDK 采购或平台分成，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3871f28539fcf971
+    - ev-54cd2a07e69163bb
+  - gate: truth
+    status: insufficient
+    reason: 实时世界模型贴近实时视频编辑的第一性目标，但公开材料未说明延迟承诺的实测条件、内容安全与人工审核边界，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-3871f28539fcf971
+    - ev-33349867040b3977
+  next_validation: 追踪 Decart 官方定价页或 platform.decart.ai 的 API 计费与客户案例页，确认是否存在公开的企业采购与付费记录。
+  market: ''
+  job: 品牌、零售企业与内容创作者在直播或实时视频场景中，需要一边播出画面一边即时改写风格、背景或商品呈现，把原本要停机剪辑、后期渲染的素材变成可当场交付的成品。
+  job_en: Brands, retail enterprises and creators need to restyle, re-background or re-present products
+    inside a live video feed while it is still broadcasting, turning material that used to require offline
+    editing and rendering into something deliverable on the spot.
+  pain: 公开材料称 Lucy 面向企业、品牌、创作者与观众提供实时画布，并强调实时消费体验与零售场景融合；据此推断，旧流程中实时画面无法即时改写，只能事后剪辑或放弃实时互动，导致直播与零售场景的呈现受限。
+  pain_en: Public material describes Lucy as a live canvas for enterprises, brands, creators and viewers
+    and stresses real-time consumer experience blended into retail; the inferred pain is that live footage
+    cannot be rewritten on the fly, so teams must edit afterwards or give up real-time interaction, limiting
+    what live and retail scenarios can show.
+  current_alternative: 旧做法是离线剪辑与后期渲染，或使用通用生成式 AI 工具（如公开检索到的 Gemini、ChatGPT、Google AI Studio）生成素材后再拼接，均无法在毫秒级延迟下改写正在播出的画面。
+  current_alternative_en: The old way is offline editing and post-render, or generating assets with general-purpose
+    generative AI tools (Gemini, ChatGPT, Google AI Studio appear in the public coverage) and stitching
+    them in afterwards; none rewrites a live feed at millisecond latency.
+  usage_reason: 推断：相较事后剪辑，Decart 以毫秒级延迟的实时世界模型和 SDK 在播出过程中直接改写画面，省掉停机剪辑与重新渲染这一步，因此需要实时互动呈现的品牌、零售与直播团队会在直播或实时消费场景中选择它。
+  usage_reason_en: 'Inference: versus post-hoc editing, Decart''s millisecond-latency real-time world
+    model and SDK rewrite the picture during broadcast, removing the stop-and-render step, so brands,
+    retail and live teams that need real-time interactive presentation would pick it for live or real-time
+    consumer scenarios.'

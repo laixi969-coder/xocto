@@ -1,0 +1,43 @@
+- id: req-initial-declarative-2026-10-13
+  project_slug: declarative
+  level: initial
+  reviewed_at: '2026-08-23T14:11:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是代理运行环境不可复现、失败难以定位的需求，痛点是配置散落与人工比对，旧做法是手写脚本加文档。
+    evidence_ids:
+    - ev-a42639a555ebb9d7
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 分、0 条评论，没有采用或复现成功的公开记录，共识尚未形成。
+    evidence_ids:
+    - ev-a42639a555ebb9d7
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费方式，买方与付费路径不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-a42639a555ebb9d7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能确定性复现代理环境，以及安全与人工边界如何设定。
+    evidence_ids:
+    - ev-a42639a555ebb9d7
+  next_validation: 查看该仓库的 issue 与 discussion，确认是否有团队报告成功复现代理环境及具体配置格式。
+  market: ''
+  job: 平台或基础设施工程师在代理于不同环境表现不一致时，把运行配置物化出来，复现并定位失败原因。
+  job_en: Platform or infrastructure engineers materialise the runtime configuration when an agent behaves
+    differently across environments, to reproduce and locate the failure.
+  pain: 代理在本地能跑、上线就失败，配置散落在脚本和环境变量里，排查靠人工比对，复现困难。
+  pain_en: An agent runs locally but fails in production, configuration is scattered across scripts and
+    environment variables, and debugging means manual comparison with little reproducibility.
+  current_alternative: 手写部署脚本、容器镜像和文档，靠人工比对环境差异。
+  current_alternative_en: Hand-written deploy scripts, container images and docs, with environment differences
+    compared manually.
+  usage_reason: 推断：相比手写脚本加人工比对，它把配置声明成可物化的对象，减少逐项核对环境差异那一步；但公开材料没有采用数据或用户反馈，是否真被放进生产流程仍缺少证据。
+  usage_reason_en: 'Inference: versus hand-written scripts and manual comparison it declares configuration
+    as a materialisable object, removing the step of checking environment differences item by item; but
+    public material has no adoption data or user feedback, so whether it enters production workflows lacks
+    evidence.'

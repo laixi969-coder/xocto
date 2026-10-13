@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizgJBVV95cUxPQWVFVVVka2hD
 summary: AI智能体正威胁旅游企业，但爱彼迎仍有望成为赢家 华尔街日报中文网
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

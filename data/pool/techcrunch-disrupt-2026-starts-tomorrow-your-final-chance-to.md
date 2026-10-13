@@ -24,7 +24,7 @@ summary: Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, 
   and get 50% off a second.
 first_seen: '2026-10-13T03:04:22Z'
 last_seen: '2026-10-13T03:04:22Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/502628.html
 summary: 多模态模型的视觉原生Harness，来了！
 first_seen: '2026-10-13T03:04:22Z'
 last_seen: '2026-10-13T03:04:22Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

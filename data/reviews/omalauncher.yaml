@@ -1,0 +1,85 @@
+- id: req-initial-omalauncher-2026-10-13
+  project_slug: omalauncher
+  level: initial
+  reviewed_at: '2026-10-13T03:03:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决桌面定制要手动摆放图标与小组件的问题，但材料未给出痛点强度或旧替代行为的直接证据，需求强度未明。
+    evidence_ids:
+    - ev-0b110e994ddd756b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度而非持续采用，无法判断用户是否把它留在日常桌面。
+    evidence_ids:
+    - ev-0b110e994ddd756b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径，钱可能来自捐赠或后续服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0b110e994ddd756b
+  - gate: truth
+    status: insufficient
+    reason: 未说明生成的小组件是否可稳定运行、是否需要人工确认，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-0b110e994ddd756b
+  next_validation: 收集该仓库的 issue 与 discussion，确认代理生成的小组件能否稳定安装运行以及用户是否重复使用。
+  market: ''
+  job: 安卓用户在更换手机或想改造桌面时，处理图标、小组件与主题，要完成一套自己满意的桌面布局。
+  job_en: Android users changing phones or reworking their home screen handle icons, widgets and themes
+    to finish a layout they are satisfied with.
+  pain: 现有启动器只能手动摆放图标和小组件，主题与小组件来源分散，改一次桌面要花不少时间；候选材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: Existing launchers only allow manual icon and widget placement, themes and widgets come from
+    scattered sources, and redoing a home screen takes time; the candidate material gives no direct evidence
+    of user complaints or workarounds.
+  current_alternative: 手动使用 Nova 等第三方启动器逐个摆放图标、下载主题包，或干脆用系统默认桌面。
+  current_alternative_en: Manually placing icons one by one in third-party launchers such as Nova, downloading
+    theme packs, or simply keeping the stock launcher.
+  usage_reason: 推断：相比逐个手动摆放，它让代理直接生成小组件与主题，省掉找素材和调布局的步骤，因此愿意折腾桌面的极客用户可能尝试；但材料未说明生成结果是否稳定可用，也未显示重复使用。
+  usage_reason_en: 'Inference: compared with placing items manually one by one, it lets agents generate
+    widgets and themes directly, removing the steps of sourcing assets and tuning layout, so power users
+    who enjoy tinkering may try it; the material does not show whether generated results are reliably
+    usable or repeatedly used.'
+- id: req-full-omalauncher-2026-10-13
+  project_slug: omalauncher
+  level: full
+  reviewed_at: '2026-10-13T03:46:09Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 桌面定制属于可选美化，手动摆放虽费时但用户不采用也不会失去关键能力，材料未显示刚性痛点或旧替代行为，属自嗨拼凑。
+    evidence_ids:
+    - ev-0b110e994ddd756b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue 与 discussion，确认代理生成的小组件能否稳定安装运行以及用户是否重复使用。
+  market: ''
+  job: 安卓用户在换机或想改造桌面时，处理图标、小组件与主题，要完成一套自己满意的桌面布局。
+  job_en: Android users changing phones or reworking their home screen handle icons, widgets and themes
+    to finish a layout they are satisfied with.
+  pain: 现有启动器只能手动逐个摆放图标和小组件，主题与小组件来源分散，改一次桌面要花不少时间；候选材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: Existing launchers only allow manual icon and widget placement, themes and widgets come from
+    scattered sources, and redoing a home screen takes time; the candidate material gives no direct evidence
+    of user complaints or workarounds.
+  current_alternative: 手动使用 Nova 等第三方启动器逐个摆放图标、下载主题包，或干脆用系统默认桌面。
+  current_alternative_en: Manually placing icons one by one in third-party launchers such as Nova, downloading
+    theme packs, or simply keeping the stock launcher.
+  usage_reason: 推断：相比逐个手动摆放，它让代理直接生成小组件与主题，省掉找素材和调布局的步骤，因此愿意折腾桌面的极客用户可能尝试；但材料未说明生成结果是否稳定可用，也未显示重复使用。
+  usage_reason_en: 'Inference: compared with placing items manually one by one, it lets agents generate
+    widgets and themes directly, removing the steps of sourcing assets and tuning layout, so power users
+    who enjoy tinkering may try it; the material does not show whether generated results are reliably
+    usable or repeatedly used.'

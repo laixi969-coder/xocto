@@ -622,3 +622,54 @@
     volume, and outputs a digest page, removing the filtering and layout steps; editors or operators wanting
     a low-cost industry hot-topic site would choose it when they must publish daily. The 7,186 stars show
     attention, not sustained use.'
+- id: req-full-aihot-2026-10-13
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-13T03:42:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决行业资讯编辑每日从分散信源挑选并排版 AI 日报的需求，痛点是逐站翻找与人工初筛耗时且易漏热点；公开页面显示其自动聚合、LLM 摘要打分并每日 08:00 发布日报，旧做法可还原为手动浏览加人工排版，不解决的后果是日报延迟或漏报。这是工作流结构推理，尚无用户耗时或漏报代价的量化数据。
+    evidence_ids:
+    - ev-409a1e741330f368
+    - ev-3d692e8c680f988e
+    - ev-193d79d54587778e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明 AIHOT 每日聚合与发布日报，未提供访问量、订阅、复刻、用户评价或持续使用数据，无法判断目标编辑是否已把它留在日常工作流中；关注度与采用规模证据缺失。
+    evidence_ids:
+    - ev-e93eceec2624087f
+    - ev-88a5b5d50227e892
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济说明，谁付钱（自建站点的编辑、内容团队还是广告/赞助）无法从公开材料确认；这是模式缺口，不是需求不存在。
+    evidence_ids:
+    - ev-082c7960ba067ce3
+    - ev-f5d9993a04bbc132
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明信源配置方式、精选标准可替换程度、日报交付是否稳定在 08:00 发生，以及 LLM 摘要出错时的人工复核边界，交付确定性与安全边界缺可复现证据。
+    evidence_ids:
+    - ev-1dc4d1bc2c9a94a6
+    - ev-7c4ca72862b0a0f9
+  next_validation: 追踪 AIHOT 官网是否公开定价页或客户案例，以及其部署文档/仓库 issue 中是否出现编辑实际替换信源并持续发布日报的记录。
+  market: ''
+  job: 行业资讯编辑或内容运营者每天需要在多个信源（模型发布、产品发布、论文、教程、观点）中翻找当天值得看的条目，按北京时间整理成一份可发布的 AI 日报页面。
+  job_en: An industry news editor or content operator must each day scan multiple sources (model releases,
+    product launches, papers, tutorials, opinions), pick the day's worthwhile items, and assemble them
+    into a publishable AI daily page on Beijing time.
+  pain: 公开材料显示 AI 领域信源分散、更新密集，编辑要逐站翻找并人工判断哪些条目值得入选，再排版成日报；不做的后果是当天热点被漏掉或日报延迟，但公开材料未给出耗时、频率或漏报代价的量化数据。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 编辑手动浏览多个 AI 资讯站点、论文与产品发布页，凭个人判断挑选条目后自行排版发布；公开材料未说明是否已有 RSS、聚合工具或人工日报模板等替代。
+  current_alternative_en: Editors manually browse multiple AI news sites, paper and product pages, pick
+    items by personal judgment, then lay out and publish themselves; public materials do not say whether
+    RSS, aggregators, or manual digest templates are already used.
+  usage_reason: 推断：相较逐站手动翻找，AIHOT 按配置信源自动抓取、用 LLM 生成摘要并打分精选，每天 08:00 产出日报页面，把“找条目+初筛+排版”这几步压缩为替换信源与精选标准后的自动产出，因此想自建行业热点站的编辑或运营者会在需要稳定日更时选择它；公开材料未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: versus manual site-by-site scanning, AIHOT auto-fetches configured sources,
+    uses an LLM to summarize and score selections, and outputs a daily page at 08:00 Beijing time, compressing
+    find-filter-layout into an automated output after swapping sources and selection criteria, so editors
+    or operators building an industry hotspot site would choose it for steady daily publishing; no user
+    feedback or retention evidence is provided.'

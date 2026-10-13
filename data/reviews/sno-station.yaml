@@ -658,3 +658,45 @@
   usage_reason_en: 'Inference: if shared encrypted memory and agent-to-agent messaging really remove the
     manual step of copying context, developers already running two agents might choose it; but with no
     user statement or case, this causal link is unconfirmed.'
+- id: req-full-sno-station-2026-10-13
+  project_slug: sno-station
+  level: full
+  reviewed_at: '2026-10-13T03:47:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决多代理编码时上下文割裂、交接靠手工的问题，但公开证据里没有任何用户痛点、旧替代行为或不解决的后果，全部证据指向神经肿瘤学会与免费小游戏站，与该项目无关，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-c900b73174788b87
+    - ev-3b3d2ae1a4e71609
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Sno Station 官方仓库的 README、release 与 issue/discussion，确认是否有开发者描述多代理上下文丢失或手工交接的具体痛点与使用记录。
+  market: ''
+  job: 开发者在本机同时运行 Claude Code 与 Codex 处理同一代码库时，需要让两个代理共享上下文、互相传递任务并完成交接与跨厂商评审，最终拿到一份可用的多代理协作编码会话。
+  job_en: A developer running Claude Code and Codex on the same local codebase needs the two agents to
+    share context, pass tasks to each other, and complete handoff and cross-vendor review, ending with
+    a usable multi-agent coding session.
+  pain: 公开材料未记录任何用户痛点：没有开发者抱怨多代理上下文丢失、交接靠手工复制、评审无法跨厂商，也没有频率或不解决的后果。产品功能说明本身不构成痛点证据。
+  pain_en: 'Public materials record no user pain: no developer reports of lost multi-agent context, manual
+    copy-paste handoff, or inability to review across vendors, nor frequency or consequence of leaving
+    it unsolved. Product feature descriptions are not pain evidence.'
+  current_alternative: 公开材料未说明开发者目前如何完成多代理协作，是手工在终端间复制粘贴、分别维护两套记忆，还是干脆只用一个代理。
+  current_alternative_en: 'Public materials do not show how developers currently do multi-agent collaboration:
+    manual copy-paste between terminals, maintaining two separate memories, or simply using one agent.'
+  usage_reason: 无法给出因果解释：现有证据中没有用户反馈或案例说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此只能推断共享记忆与消息通道可能省去手工搬运上下文，但缺少任何采用或动机证据。
+  usage_reason_en: 'No causal explanation is possible: no user feedback or case shows which step is reduced
+    or which verifiable result improves versus the old way, so one can only infer that shared memory and
+    messaging might remove manual context shuttling, with no adoption or motivation evidence.'

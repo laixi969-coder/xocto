@@ -21,7 +21,7 @@ canonical_url: https://github.com/simvux/doiter
 summary: Language where pointers and stack frames are Docker containers
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

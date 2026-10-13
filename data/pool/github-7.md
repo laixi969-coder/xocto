@@ -1,21 +1,30 @@
 ---
 slug: github-7
-name: Github
+name: Magpie
 builder: zisen
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 基础层
+summary_zh: 开发者在自己项目里需要把不同模型或协议接到同一个入口时，打开 Magpie 这个开源 AI 网关，由它承担协议转换与翻译层，用户再按自己的需求写插件补上缺失功能，最终拿到一个可自托管的统一调用入口；插件具体形态与交付边界仍待核验。
+inspiration: 趋势是开源底座加用户自写插件，把过去等作者排期的功能改成用户自己补；切入可看中小团队自建模型入口时的协议适配与插件托管，卖法未披露，不宜照搬。
+summary_en: When developers need to route different models or protocols through one entry point, they
+  open the open-source Magpie gateway, which handles protocol conversion and the translation layer while
+  users write plugins for missing features, ending with a self-hostable unified endpoint; the exact plugin
+  form and delivery boundary still need verification.
+inspiration_en: The trend is an open-source base plus user-written plugins, replacing waiting on maintainers
+  with users filling gaps themselves; the opening is protocol adaptation and plugin hosting for small
+  teams building their own model entry point, with pricing undisclosed.
 priority_review: false
-project_type: new_application
+project_type: open_source
 industries: []
 industries_en: []
-jobs: []
-jobs_en: []
+jobs:
+- AI 应用开发者搭建多模型调用网关
+- 开发者为自己使用的网关编写自定义插件
+jobs_en:
+- AI application developers setting up a multi-model gateway
+- Developers writing custom plugins for their own gateway
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://github.com/yetone/magpie
 canonical_url: https://github.com/yetone/magpie
 summary: "最近 x 上刷到一个很火的 ai 网关，叫 magpie ，短短几天就干到 10k stars ，而且我相信它未来会超过 CPA 和 sub2api 之类的 https://github.com/yetone/magpie\r\
@@ -26,7 +35,7 @@ summary: "最近 x 上刷到一个很火的 ai 网关，叫 magpie ，短短几�
   \ dsh 自己的底座并不扎实，甚至不能自己给自己开发插件，因为插件改坏了会崩掉导致起不来，必须依赖另一个 agent 来帮助写插件，另外就是插件的开发文档不完善，基本上都是看源码来写新插件。"
 first_seen: '2026-10-13T03:03:52Z'
 last_seen: '2026-10-13T03:03:52Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 sightings:
@@ -38,7 +47,7 @@ sightings:
   kind: product
 ---
 
-# Github
+# Magpie
 
 最近 x 上刷到一个很火的 ai 网关，叫 magpie ，短短几天就干到 10k stars ，而且我相信它未来会超过 CPA 和 sub2api 之类的 https://github.com/yetone/magpie
 

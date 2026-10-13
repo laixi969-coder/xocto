@@ -1,11 +1,13 @@
 ---
 slug: fujitsu-launches-retail-ai-trial-for-seven-japanese-firms
-name: Fujitsu launches retail AI trial for seven Japanese firms
+name: Fujitsu
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 报道显示富士通与七家日本企业开展零售 AI 试点，属于大厂牵头的行业试点，而非可独立识别的产品；具体门店环节、输入材料与交付结果均未在材料中说明。
 inspiration: ''
-summary_en: ''
+summary_en: Reports indicate Fujitsu ran a retail AI trial with seven Japanese firms; this is a vendor-led
+  industry pilot rather than an identifiable standalone product, and the specific store workflow, inputs
+  and deliverables are not described in the material.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNRnl1SEFKRjky
 summary: Fujitsu launches retail AI trial for seven Japanese firms Australia
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Fujitsu launches retail AI trial for seven Japanese firms
+# Fujitsu
 
 Fujitsu launches retail AI trial for seven Japanese firms Australia
 

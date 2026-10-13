@@ -22,7 +22,7 @@ summary: Ph Down' is a professional desktop software utility configuration that 
   by providing an AI-driven interface to manage complex...
 first_seen: '2026-10-13T03:03:58Z'
 last_seen: '2026-10-13T03:03:58Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -84,3 +84,51 @@
     and motion binding in one pass via the coding agent and local editor, removing the steps of redrawing
     occluded parts and binding bones individually; VTubers and indie developers without animation backgrounds
     who need their own character would pick it when launching a new avatar.'
+- id: req-full-mesh-avatar-studio-2-2026-10-13
+  project_slug: mesh-avatar-studio-2
+  level: full
+  reviewed_at: '2026-10-13T03:45:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决一张插画转成可实时驱动 2D 网格形象的需求，痛点是非动画专业者手工切层与逐块绑骨门槛高；仓库自述与 613→657 星显示有人关注，但绑定精度与遮挡补画效果未公开，属工作流结构推理。
+    evidence_ids:
+    - ev-fbaaa4e6362eabd4
+    - ev-02b845f10bb48261
+  - gate: consensus
+    status: insufficient
+    reason: 613 至 657 星只说明开发者关注度上升，属规模与关注度证据；没有创作者使用反馈、作品案例或重复使用记录证明它被持续用于出片。
+    evidence_ids:
+    - ev-fbaaa4e6362eabd4
+    - ev-02b845f10bb48261
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页，谁付钱不清；可能靠托管服务或定制绑定收费，这是判断而非已验证事实，但买方不清不取消真需求判定。
+    evidence_ids:
+    - ev-fbaaa4e6362eabd4
+  - gate: truth
+    status: insufficient
+    reason: 本地编辑器加编码代理能否稳定产出可直播的绑定结果，公开材料未给出可复现验证；导出格式与实时驱动兼容性也未见文档。
+    evidence_ids:
+    - ev-fbaaa4e6362eabd4
+    - ev-02b845f10bb48261
+  next_validation: 追踪该仓库的 issue/discussion 与示例导出文件，核验绑定结果能否直接用于常见直播软件或游戏引擎。
+  market: ''
+  job: 插画师或虚拟主播手上有一张角色插画，需要把它变成能被面部或动作实时驱动的 2D 网格虚拟形象，用于直播或游戏出镜。
+  job_en: An illustrator or VTuber has a single character illustration and needs it turned into a 2D mesh
+    avatar drivable in real time by face or motion for streaming or games.
+  pain: 公开材料只说明输入是一张插画、输出是可动 2D 网格形象；据此推断旧流程需在专业软件里手工切层、补画被遮挡部位并逐块绑定骨骼，对非动画专业者门槛高、耗时长，但公开证据未记录创作者的具体抱怨。
+  pain_en: Public material only states the input is one illustration and the output an animated 2D mesh
+    avatar; by inference the old route requires manual layer slicing, redrawing occluded parts and piece-by-piece
+    bone binding in pro software, steep and slow for non-animators, though no creator complaint is documented
+    publicly.
+  current_alternative: 在专业绑定软件里手工切图与绑骨、外包给绑定师，或直接购买现成模型。
+  current_alternative_en: Hand-slicing and rigging in professional software, outsourcing to a rigger,
+    or buying a ready-made model.
+  usage_reason: 推断：相较手工切层与逐块绑骨，它把切图、网格化和动作绑定交给编码代理与本地编辑器一次完成，省掉补画遮挡部位和逐块绑骨两步；没有动画背景、又需要自有角色形象的虚拟主播和独立开发者会在出新角色时选它。
+  usage_reason_en: 'Inference: versus manual slicing and piece-by-piece rigging, it handles slicing, meshing
+    and motion binding in one pass via the coding agent and local editor, removing the steps of redrawing
+    occluded parts and binding bones individually; VTubers and indie developers without animation backgrounds
+    who need their own character would pick it when launching a new avatar.'

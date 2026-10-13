@@ -87,3 +87,48 @@
     merges policy citation and draft generation into one step and forces human release before writing
     a Shopify draft, cutting the back-and-forth of finding the basis first, so operators bound by platform
     rules and needing an audit trail are likely to try it; customer or payment evidence is absent.'
+- id: req-full-launchguard-ai-2026-10-13
+  project_slug: launchguard-ai
+  level: full
+  reviewed_at: '2026-10-13T03:45:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决改价前政策依据难追溯的问题，痛点是人工翻文档易错且无法留痕，旧做法是人工查文档加表格复核，从仓库描述可还原输入、动作与交付，属工作流结构推理。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 51 星后降至 43 星，仅反映关注度波动，没有运营者评价或店铺采用材料，无法判断是否已进入真实改价流程。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+    - ev-39a2915e2349d09d
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或买方，谁为它付费属于判断而非已验证事实，to B 或 to VC 路径均无公开材料支撑。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  - gate: truth
+    status: insufficient
+    reason: 政策引用是否准确、人工放行是否被真正执行、草稿写入是否可回滚，公开材料未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-a24f91973d93cd51
+  next_validation: 追踪该 公开代码仓库 仓库的部署文档与 issue，查看是否有真实店铺接入记录及政策引用准确性的反馈。
+  market: ''
+  job: 电商运营在依据平台或内部政策调整 Shopify 商品价格时，需要先找到对应条款、形成可追溯的定价建议，再交给负责人确认后落到店铺草稿。
+  job_en: When adjusting Shopify product prices under platform or internal policy, e-commerce operators
+    need to locate the relevant clauses, form a traceable pricing proposal, and hand it to a manager for
+    confirmation before it reaches a store draft.
+  pain: 改价依据分散在政策文档与表格中，人工核对易错且难以留痕，事后被追问时说不清按哪条规则定价。
+  pain_en: Pricing bases are scattered across policy documents and spreadsheets; manual checking is error-prone
+    and hard to trace, and after a challenge it is difficult to say which rule was applied.
+  current_alternative: 人工翻政策文档、在表格里算价、同事复核后手动改 Shopify 后台。
+  current_alternative_en: Manually searching policy documents, calculating in spreadsheets, having a colleague
+    review, then editing the Shopify backend by hand.
+  usage_reason: 推断：相较人工翻文档再手改后台，它把政策引用与草稿生成合并为一步并强制人工放行，减少“先找依据再动手”的往返，因此受平台规则约束、需要留痕的电商运营会尝试它；尚无客户案例或付费证据。
+  usage_reason_en: 'Inference: compared with reading documents and then editing the backend by hand, it
+    merges policy citation and draft generation into one step and forces human release, cutting the back-and-forth
+    of finding the basis first, so operators bound by platform rules and needing an audit trail are likely
+    to try it; customer or payment evidence is absent.'

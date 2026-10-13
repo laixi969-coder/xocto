@@ -220,3 +220,53 @@
     tasks and risks, it might reduce manual cross-tool aggregation; but public materials do not specify
     the concrete action or deliverable, so the reason users would choose it over the old approach cannot
     be established.'
+- id: req-full-opspilot-ai-2026-10-13
+  project_slug: opspilot-ai
+  level: full
+  reviewed_at: '2026-10-13T03:46:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会后决策、待办与风险散落在文档、任务工具和聊天记录中、难以汇总追踪的需求；痛点在于人工摘录易漏项、责任与时限不清。公开材料仅有产品定位，未给出具体输入、动作与交付，故这是工作流结构推理而非用户证据，但需求与痛点可辨。
+    evidence_ids:
+    - ev-67645a720b40eecb
+    - ev-270c51915e937853
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 44 增至 80，说明开发者社区持续关注；但收藏与关注属规模信号，不能证明目标运营或项目负责人已把它留在工作流中，也缺少使用评价或案例。
+    evidence_ids:
+    - ev-67645a720b40eecb
+    - ev-280b606b3fd2b162
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或部署方式，无法判断 to B 还是 to C 收费；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-67645a720b40eecb
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明它接收什么材料、执行哪些动作、产出什么交付，也未给出人工与安全边界，交付能否确定性发生尚缺可复现证据。
+    evidence_ids:
+    - ev-67645a720b40eecb
+  next_validation: 追踪 OpsPilot-AI 仓库的 README、部署文档与 issue/discussion，确认它具体接收的会议材料、执行动作与产出交付，以及是否有真实部署案例。
+  market: ''
+  job: 运营或项目负责人在会后处理会议记录、聊天记录与任务清单等分散材料时，需要把讨论中的决策、待办与风险汇总成可追踪、可回看的条目，并持续跟进到闭环。
+  job_en: Operations or project owners, after meetings, work with scattered meeting notes, chat logs and
+    task lists and need to consolidate decisions, action items and risks into trackable, reviewable entries
+    and follow them through to closure.
+  pain: 公开材料只给出产品定位，未提供用户抱怨或案例；从工作流结构推理，会后信息散落在文档、任务工具与聊天记录中，人工汇总易漏项、责任人与截止时间不清，导致决策与风险无法追踪。这是结构推理，不是用户口述证据。
+  pain_en: Public materials only give the product positioning, with no user complaints or cases; by workflow-structure
+    inference, post-meeting information is scattered across documents, task tools and chat logs, so manual
+    consolidation misses items and leaves owners and deadlines unclear, making decisions and risks untrackable.
+    This is structural inference, not user testimony.
+  current_alternative: 公开材料未说明现有替代方式；按任务结构推断，用户目前多以人工方式在会议纪要文档、任务看板与聊天记录之间手工摘录和同步，或依赖通用会议纪要工具加人工整理。
+  current_alternative_en: Public materials do not state the current alternative; by task structure, users
+    today likely extract and sync manually across meeting-note documents, task boards and chat logs, or
+    rely on generic meeting-note tools plus manual cleanup.
+  usage_reason: 推断：相较在文档、任务工具与聊天记录之间手工摘录，OpsPilot-AI 声称把会议、知识、决策、任务、风险与组织记忆放进同一工作台，若其确实能把会议材料直接转成可追踪条目，就减少人工跨工具搬运与漏项这一步；但公开材料未说明具体输入、动作与交付，因此这是基于产品定位的推断，尚无用户反馈或案例支持。
+  usage_reason_en: 'Inference: compared with manually extracting across documents, task tools and chat
+    logs, OpsPilot-AI claims to put meetings, knowledge, decisions, tasks, risks and organizational memory
+    into one workspace; if it truly turns meeting material into trackable entries, it removes the manual
+    cross-tool copying and missed-item step. But public materials do not describe concrete inputs, actions
+    or outputs, so this is inference from positioning, not supported by user feedback or cases'

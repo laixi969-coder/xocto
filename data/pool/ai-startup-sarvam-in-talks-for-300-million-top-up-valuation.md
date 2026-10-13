@@ -1,11 +1,13 @@
 ---
 slug: ai-startup-sarvam-in-talks-for-300-million-top-up-valuation
-name: AI startup Sarvam in talks for $300 million top-up; valuation may double to $3 billion
+name: Sarvam
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Sarvam 是一家面向印度语言市场的 AI 公司，本次公开信息仅涉及其约 3 亿美元融资谈判与估值可能翻倍，属于资本层面的行业变化，未提供可核验的产品交付或付费数据。
 inspiration: ''
-summary_en: ''
+summary_en: Sarvam is an AI company targeting Indian-language markets; the public information here concerns
+  only its roughly USD 300 million funding talks and a possible valuation doubling, a capital-level development
+  without verifiable product delivery or payment data.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +24,7 @@ summary: AI startup Sarvam in talks for $300 million top-up; valuation may doubl
   Times
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# AI startup Sarvam in talks for $300 million top-up; valuation may double to $3 billion
+# Sarvam
 
 AI startup Sarvam in talks for $300 million top-up; valuation may double to $3 billion The Economic Times
 

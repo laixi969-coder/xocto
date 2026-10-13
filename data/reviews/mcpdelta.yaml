@@ -127,3 +127,52 @@
     one program and records undoable changes, removing the per-call stitching and manual rollback steps,
     so MCP integrators sensitive to token cost and reversibility would try it; no public user feedback
     yet confirms this causal link.'
+- id: req-full-mcpdelta-2026-10-13
+  project_slug: mcpdelta
+  level: full
+  reviewed_at: '2026-10-13T03:45:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 应用开发者接入多个 MCP 服务器时逐步工具调用导致 token 消耗高、改动不可回退的痛点；公开材料以 24.1× token 减少和可撤销记录作为证据，痛点刚性且交付可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+    - ev-14e40a0878eef311
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库有 79-81 个收藏，说明社区注意到它，但缺少目标用户持续使用或付费的公开证据，无法确认共识。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+    - ev-a6334149d3cbec5b
+  - gate: model
+    status: insufficient
+    reason: 产品标注为免费，公开材料未披露付费主体、定价或单位经济；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、撤销粒度及人工与安全边界，尚缺可复现的公开证据；产品仍标注 Coming soon。
+    evidence_ids:
+    - ev-701c89fa22d9da97
+    - ev-14e40a0878eef311
+  next_validation: 追踪 mcpdelta 官方文档或仓库 issue/discussion，确认撤销粒度、支持的 MCP 服务器列表及实际部署案例。
+  market: ''
+  job: AI 应用开发者在把应用接入多个 MCP 服务器时，打开 Delta MCP 作为中间层，把原本逐步发起的工具调用合并成每个任务一个程序，并记录每次改动以便回退。
+  job_en: AI application developers, when connecting their apps to multiple MCP servers, open Delta MCP
+    as a middle layer to merge step-by-step tool calls into one program per task and record every change
+    for undo.
+  pain: 逐步工具调用导致 token 消耗高、上下文膨胀，且每次改动不可撤销，出错后难以回退；公开材料以 24.1× token 减少和可撤销记录作为痛点证据。
+  pain_en: Step-by-step tool calls cause high token consumption and context bloat, and each change is
+    not undoable, making rollback after errors difficult; public material cites 24.1× token reduction
+    and undoable records as pain evidence.
+  current_alternative: 开发者目前直接让 AI 应用逐步调用 MCP 工具，没有中间层合并调用或记录回退；公开材料未说明其他替代方式。
+  current_alternative_en: Developers currently let AI apps call MCP tools step by step, without a middle
+    layer to merge calls or record rollback; public material does not describe other alternatives.
+  usage_reason: 推断：相较逐步调用，Delta MCP 通过把多个工具调用合并成一个程序来减少 token 消耗，并通过记录每次改动支持回退，因此关注 token 成本和操作可逆性的 AI
+    应用开发者会在多 MCP 服务器场景下选择它。
+  usage_reason_en: 'Inference: compared to step-by-step calls, Delta MCP reduces token consumption by
+    merging multiple tool calls into one program and supports rollback by recording every change, so AI
+    application developers concerned with token cost and reversibility would choose it in multi-MCP-server
+    scenarios.'

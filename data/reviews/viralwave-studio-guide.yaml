@@ -170,3 +170,46 @@
   usage_reason_en: 'Inference: versus a general writing assistant, it fixes brand voice and a review step
     into the flow, cutting per-post rewriting and proofing, so agencies needing batch output without tone
     drift would choose it before scheduling.'
+- id: req-full-viralwave-studio-guide-2026-10-13
+  project_slug: viralwave-studio-guide
+  level: full
+  reviewed_at: '2026-10-13T03:48:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社媒批量出稿与语气一致的需求，痛点在于逐条手写和返工校对耗时；公开说明已给出品牌语气、审核流程与排期交付的闭环，属工作流结构推理，尚无用户评价佐证。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从43增至56与一份使用指南，缺少真实用户评价、团队采用或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+    - ev-c347da3c3df9cefb
+  - gate: model
+    status: insufficient
+    reason: 材料提到 plans 但未披露价格与买方，付费路径只能推断为面向代运营团队或品牌的订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  - gate: truth
+    status: insufficient
+    reason: 审核工作流与人工边界仅被提及，缺少可复现的交付结果、留存或复购证据，无法确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-0d13e12cfe2d5c72
+  next_validation: 追踪 ViralWave Studio 官网定价页与公开客户案例，确认其审核流程、交付形态与付费方式。
+  market: ''
+  job: 社媒运营者或代运营团队在每周排期发布前，处理品牌语气说明与选题素材，批量产出符合调性的待发布帖子并完成审核。
+  job_en: Social media operators or agencies, before weekly scheduling, work from brand-voice notes and
+    topic material to batch-produce on-brand posts and route them through review.
+  pain: 逐条手写帖子耗时且难以保持统一语气，外包写手又要反复返工校对，排期前集中出稿时压力最大。
+  pain_en: Writing each post by hand is slow and tonally inconsistent, and freelance writers require repeated
+    rework and proofing, with the crunch landing right before scheduling.
+  current_alternative: 目前多用通用写作助手加人工改写，或直接雇写手，语气一致性靠人盯。
+  current_alternative_en: Today most use a general writing assistant plus manual rewriting, or hire writers,
+    keeping tone consistent through human supervision.
+  usage_reason: 推断：相较通用助手逐条重写，它把品牌语气设定与审核流程固定为可复用配置，减少每条帖子重新交代调性和事后校对这两步，因此需要批量出稿又怕跑调的代运营团队会在排期前选择它。
+  usage_reason_en: 'Inference: versus rewriting each post in a general assistant, it fixes brand voice
+    and a review step as reusable configuration, cutting the per-post tone briefing and after-the-fact
+    proofing, so agencies needing batch output without tone drift would pick it before scheduling.'

@@ -1,0 +1,92 @@
+- id: req-initial-scarlet-raises-50m-series-b-to-accelerate-ai-medical-device-2026-10-13
+  project_slug: scarlet-raises-50m-series-b-to-accelerate-ai-medical-device
+  level: initial
+  reviewed_at: '2026-10-13T03:04:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI医疗器械上市与变更审评排队过久的需求，痛点是12至18个月审评加6至8个月变更审批，旧做法是向通用公告机构排队。
+    evidence_ids:
+    - ev-9a9a352ed8996795
+  - gate: consensus
+    status: insufficient
+    reason: 材料只说明监管资质稀缺与融资方名单，未见厂商采用规模、客户名单或审评时长改善的公开数据。
+    evidence_ids:
+    - ev-9a9a352ed8996795
+  - gate: model
+    status: insufficient
+    reason: 买方为医疗器械厂商，按审评服务收费的方向可推断，但公开材料未披露定价、合同或收入结构，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9a9a352ed8996795
+  - gate: truth
+    status: insufficient
+    reason: 资质与专注方向可核验，但审评是否真能缩短、变更审批能否确定性交付，缺少公开的通过率或周期数据。
+    evidence_ids:
+    - ev-9a9a352ed8996795
+  next_validation: 收集Scarlet官网或监管公告中公开的客户案例与审评周期数据，核验其变更审批是否确实快于通用公告机构。
+  market: ''
+  job: AI医疗器械厂商的法规事务与质量团队，在产品训练完成、准备上市或提交小版本更新时，整理模型文档、临床与质量材料，向公告机构提交并取得符合性评估结论与证书。
+  job_en: Regulatory affairs and quality teams at AI medical device makers, after model training and before
+    market launch or a minor update, compile model documentation, clinical and quality materials, submit
+    them to a notified body and obtain a conformity assessment outcome and certificate.
+  pain: 材料称AI诊断模型可在数周内训练完成，但专家审评要等12至18个月，小更新审批还要额外6至8个月，产品迭代被审评节奏卡住。
+  pain_en: The material states an AI diagnostic model can be trained in weeks, yet expert assessment takes
+    12 to 18 months, with another six to eight months for a minor update, so iteration is gated by review
+    throughput.
+  current_alternative: 厂商向欧盟医疗器械法规下约52家指定机构中面向通用器械的公告机构提交，排队等待通用审评流程。
+  current_alternative_en: Makers submit to general-purpose notified bodies among the roughly 52 designated
+    under the EU Medical Device Regulation and queue through a general review process.
+  usage_reason: 推断：相较通用公告机构的排队审评，Scarlet以软件与AI为唯一专注方向并自称按迭代开发设计流程，可能缩短变更审批这一最痛的等待环节，因此需要频繁小版本更新的AI诊断与软件器械厂商会在上市与更新节点选择它；公开材料未给出实际审评时长对比，属推断。
+  usage_reason_en: 'Inference: versus queuing at general notified bodies, Scarlet focuses solely on software
+    and AI and says its process is built for iterative development, potentially shortening the most painful
+    change-approval wait, so AI diagnostics and software device makers shipping frequent minor updates
+    would choose it at launch and update points; no public comparison of actual review times is given,
+    so this is inference.'
+- id: req-full-scarlet-raises-50m-series-b-to-accelerate-ai-medical-device-2026-10-13
+  project_slug: scarlet-raises-50m-series-b-to-accelerate-ai-medical-device
+  level: full
+  reviewed_at: '2026-10-13T03:46:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI医疗器械上市与变更审评排队过久的需求，痛点是12至18个月审评加6至8个月变更审批，旧做法是向通用公告机构排队；买方为器械厂商，属工作流结构推理。
+    evidence_ids:
+    - ev-60f2636a042c1b90
+  - gate: consensus
+    status: insufficient
+    reason: 材料只说明监管资质稀缺与融资方名单，未见厂商采用规模、客户名单或审评时长改善的公开数据，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-60f2636a042c1b90
+  - gate: model
+    status: insufficient
+    reason: 买方为医疗器械厂商，按审评服务收费的方向可推断，但公开材料未披露定价、合同或收入结构，属判断而非已验证事实。
+    evidence_ids:
+    - ev-60f2636a042c1b90
+  - gate: truth
+    status: insufficient
+    reason: 资质与专注方向可核验，但审评是否真能缩短、变更审批能否确定性交付，缺少公开的通过率或周期数据。
+    evidence_ids:
+    - ev-60f2636a042c1b90
+  next_validation: 收集Scarlet官网或监管公告中公开的客户案例与审评周期数据，核验其变更审批是否确实快于通用公告机构。
+  market: ''
+  job: AI诊断与软件医疗器械厂商的法规事务与质量团队，在模型训练完成、准备上市或提交小版本更新时，整理模型文档、临床与质量材料，向公告机构提交并取得符合性评估结论与证书。
+  job_en: Regulatory affairs and quality teams at AI diagnostic and software medical device makers, after
+    model training and before market launch or a minor update, compile model documentation, clinical and
+    quality materials, submit them to a notified body and obtain a conformity assessment outcome and certificate.
+  pain: 公开材料称AI诊断模型可在数周内训练完成，但专家审评要等12至18个月，小更新审批还要额外6至8个月，产品迭代被审评节奏卡住。
+  pain_en: Public material states an AI diagnostic model can be trained in weeks, yet expert assessment
+    takes 12 to 18 months, with another six to eight months for a minor update, so iteration is gated
+    by review throughput.
+  current_alternative: 厂商向欧盟医疗器械法规下约52家指定机构中面向通用器械的公告机构提交，排队等待通用审评流程。
+  current_alternative_en: Makers submit to general-purpose notified bodies among the roughly 52 designated
+    under the EU Medical Device Regulation and queue through a general review process.
+  usage_reason: 推断：相较通用公告机构的排队审评，Scarlet以软件与AI为唯一专注方向并自称按迭代开发设计流程，可能缩短变更审批这一最痛的等待环节，因此需要频繁小版本更新的AI诊断与软件器械厂商会在上市与更新节点选择它；公开材料未给出实际审评时长对比，属推断。
+  usage_reason_en: 'Inference: versus queuing at general notified bodies, Scarlet focuses solely on software
+    and AI and says its process is built for iterative development, potentially shortening the most painful
+    change-approval wait, so AI diagnostics and software device makers shipping frequent minor updates
+    would choose it at launch and update points; no public comparison of actual review times is given,
+    so this is inference.'

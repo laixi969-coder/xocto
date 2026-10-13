@@ -1,0 +1,38 @@
+- id: req-initial-vidu-海外-生数科技-2026-10-13
+  project_slug: vidu-海外-生数科技
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决静态人像、绘画、动漫素材无法直接用于视频的问题，痛点刚性且交付为可剪辑片段，价值关成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 有海外流量榜规模与环比数据，但缺少用户评价与场景共识材料，无法确认持续采用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价与买方结构，钱可能来自 C 端订阅或 B 端按量采购，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 生成结果是否稳定可用、人工挑选与版权边界如何，公开材料未说明。
+    evidence_ids: []
+  next_validation: 收集 Vidu 官方定价页与客户案例，确认按条或按订阅的收费方式及实际投放使用结果。
+  market: ''
+  job: 短视频、广告和动漫创作者在只有静态人像、绘画或卡通素材时，需要把它转成可投放或可剪辑的动态片段。
+  job_en: Short-video, advertising and animation creators who hold only a still portrait, painting or
+    cartoon asset need it turned into a moving clip they can place or edit.
+  pain: 静态素材无法直接用于视频投放，实拍或逐帧动画成本高、周期长，小团队难以承担。
+  pain_en: Still assets cannot be used directly in video placement, while live shooting or frame-by-frame
+    animation is costly and slow, hard for small teams to afford.
+  current_alternative: 此前依赖实拍、外包动画或手工关键帧，或干脆放弃把静态素材做成视频。
+  current_alternative_en: Previously this relied on live shooting, outsourced animation or manual keyframes,
+    or the still asset was simply not turned into video.
+  usage_reason: 相较实拍或外包动画，它把一张已有图片直接生成运动片段，省掉拍摄与逐帧制作这一步，因此预算有限、素材以图片为主的营销与动漫团队会在需要快速出片时选择它（推断）。
+  usage_reason_en: Compared with live shooting or outsourced animation, it generates a moving clip directly
+    from an existing image, removing the shooting and frame-by-frame step, so budget-limited marketing
+    and animation teams whose assets are mostly images would choose it when they need clips fast (inference).

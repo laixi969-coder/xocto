@@ -214,3 +214,44 @@
     layer, it removes the manual steps of creating branches, switching directories and moving context,
     so developers running several agents pick it once parallel tasks multiply and hand-switching starts
     causing mistakes.'
+- id: req-full-shipyard-2026-10-13
+  project_slug: shipyard
+  level: full
+  reviewed_at: '2026-10-13T03:47:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述多代理 worktree 编排，但所引证据全部是造船厂、船舶建造与品牌营销公司页面，与编码代理工作区管理无关，无法还原用户任务、痛点与旧替代，价值关不成立。
+    evidence_ids:
+    - ev-2affd711b30dd0bc
+    - ev-21eb30ab17bf35e5
+    - ev-e74357ef74a50760
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或代码仓库的 README、issue 与 discussion，确认多代理 worktree 编排的实际交付流程、失败处理与是否已有团队采用。
+  market: ''
+  job: 开发者在本机同时运行多个编码代理，需要把每个代理的代码改动、分支与终端会话分开管理，最后合并成可提交的改动。
+  job_en: Developers running several coding agents locally need to keep each agent's code changes, branches
+    and terminal sessions separate, then merge them into committable changes.
+  pain: 公开材料中没有任何用户抱怨、workaround 或案例说明多代理并行会互相覆盖工作区；现有证据全部指向造船厂、船舶建造与品牌营销公司，无法还原真实痛点。
+  pain_en: No public material shows user complaints, workarounds or cases about parallel agents overwriting
+    a shared workspace; all evidence points to shipyards, shipbuilding and a brand agency, so the real
+    pain cannot be reconstructed.
+  current_alternative: 无法从现有证据确认开发者当前用什么方式替代，例如手工开多个终端与 git worktree，或串行只跑一个代理。
+  current_alternative_en: The current substitute cannot be confirmed from the available evidence, e.g.
+    manually opening several terminals and git worktrees, or running one agent serially.
+  usage_reason: 无法判断：证据中没有产品页面、文档或用户反馈说明它通过什么具体动作减少哪一步负担，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: no product page, documentation or user feedback shows which concrete
+    step it removes, so it is impossible to explain which users would choose it and when.'

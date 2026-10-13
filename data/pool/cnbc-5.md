@@ -21,7 +21,7 @@ canonical_url: https://cnbc.com/2026/10/10/ai-lawyers-billable-hour-legal-career
 summary: AI is changing how Lawyers work – and putting the billable hour under pressure
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

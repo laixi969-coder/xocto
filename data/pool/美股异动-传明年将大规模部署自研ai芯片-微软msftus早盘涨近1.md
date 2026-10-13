@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNWVlheFJMLTZn
 summary: 美股异动 | 传明年将大规模部署自研AI芯片 微软(MSFT.US)早盘涨近1% Moomoo
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

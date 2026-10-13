@@ -473,3 +473,47 @@
     descriptions of physical miniature scenes, with no coverage of the framework''s asset generation,
     orchestration, or deployment, and no record of any user choosing it, so it is impossible to explain
     which step it removes relative to the old approach.'
+- id: req-full-dioramas-2026-10-13
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-13T03:44:15Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决三维发布页素材与编排成本高的问题，但公开证据全部指向实体微缩景观的百科与教程，未提供任何目标用户痛点、替代行为或采用记录，无法还原真实任务与刚性痛点。
+    evidence_ids:
+    - ev-b29ffecba9d7da0c
+    - ev-76da76c70b037124
+    - ev-828e7d57fa65a1b7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该框架官方仓库的 README、issue 与 discussion，确认是否有团队用它交付真实商业站点，以及素材生成到上线的实际步骤与部署方式。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 公开材料未提供任何关于三维发布页制作痛点的用户陈述、抱怨或替代行为记录；现有证据全部指向实体微缩景观（diorama）这一无关主题，无法还原真实工作流中的痛点。
+  pain_en: The public material provides no user statements, complaints, or workaround records about the
+    pain of building 3D launch pages; all evidence points to physical miniature dioramas, an unrelated
+    topic, so the real workflow pain cannot be reconstructed.
+  current_alternative: 公开材料未记录目标用户当前的替代方式；现有证据描述的是学校手工制作微缩景观或博物馆实体展陈，与三维网页制作无关。
+  current_alternative_en: The public material does not record the target users' current alternatives;
+    the existing evidence describes school craft dioramas or museum physical exhibits, unrelated to 3D
+    web page production.
+  usage_reason: 无法从公开证据说明用户为何选择它：现有证据均为实体微缩景观的百科与教程内容，未涉及该框架的素材生成、编排或部署能力，也没有任何用户反馈或案例支持选择动机。
+  usage_reason_en: 'No reason for user choice can be stated from public evidence: all existing evidence
+    is encyclopedia and tutorial content about physical miniature dioramas, with nothing on the framework''s
+    asset generation, orchestration, or deployment, and no user feedback or cases supporting a choice
+    motive.'

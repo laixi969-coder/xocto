@@ -468,3 +468,43 @@
   usage_reason_en: 'Inference: pinning session status to the macOS notch or the top of the Windows screen
     removes the repeated window-switching step, so developers running several sessions may choose it;
     no retention or repeat-use evidence is provided in the public material.'
+- id: req-full-coucou-2026-10-13
+  project_slug: coucou
+  level: full
+  reviewed_at: '2026-10-13T03:44:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向法语问候语与内衣品牌，与 Claude Code 会话监控无关，无法还原用户任务、痛点、替代方式或不采用的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-ffbcb7032b1777c5
+    - ev-b24cdd01d9fd0823
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或仓库 README，核对是否公开说明会话状态读取机制、支持的状态项与人工确认边界。
+  market: ''
+  job: 开发者在同时运行多个 Claude Code 会话时，需要在不切换终端窗口的情况下确认每个会话是否仍在运行、是否卡住或报错。
+  job_en: Developers running several Claude Code sessions at once need to confirm whether each session
+    is still running, stuck, or failing without switching terminal windows.
+  pain: 公开材料只给出产品定位描述，未提供任何用户痛点、抱怨或替代行为的证据，无法确认会话状态不可见是否构成真实困扰。
+  pain_en: The public material only provides a product positioning statement, with no user pain points,
+    complaints, or workaround evidence, so it cannot confirm whether session invisibility is a real burden.
+  current_alternative: 公开材料未说明开发者当前如何监控会话状态，无法确认现有替代方式。
+  current_alternative_en: The public material does not describe how developers currently monitor session
+    status, so the existing alternative cannot be confirmed.
+  usage_reason: 推断：若产品能把会话状态固定在屏幕边缘常驻显示，可能省去切换终端这一步；但公开材料未提供任何用户反馈、留存或重复使用证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the product pins session status to the screen edge, it may remove the
+    window-switching step; however, no user feedback, retention, or repeat-use evidence is provided, so
+    it cannot be confirmed why users would choose it.'

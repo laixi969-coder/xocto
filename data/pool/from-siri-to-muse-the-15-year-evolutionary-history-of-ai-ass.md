@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xM2U3Y3JQZE9v
 summary: 'From Siri to Muse: The 15-Year Evolutionary History of AI Assistants 36 Kr'
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

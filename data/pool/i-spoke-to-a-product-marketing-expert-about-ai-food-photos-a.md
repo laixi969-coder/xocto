@@ -23,7 +23,7 @@ summary: I spoke to a product marketing expert about AI food photos — and ther
   disappointing burger Tom's Guide
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

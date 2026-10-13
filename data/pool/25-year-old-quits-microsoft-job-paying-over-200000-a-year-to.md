@@ -23,7 +23,7 @@ summary: 25-year-old quits Microsoft job paying over $200,000 a year to build AI
   why | Trending Hindustan Times
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -696,3 +696,52 @@
     each time'' step and the ''cannot locate the failing step'' burden; it would therefore be chosen by
     developers who need the same flow to run repeatedly across repos with checkable steps. Public materials
     do not yet give user-stated adoption motives.'
+- id: req-full-super-simple-software-factory-2026-10-13
+  project_slug: super-simple-software-factory
+  level: full
+  reviewed_at: '2026-10-13T03:47:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理步骤漂移、流程无法复现的痛点：开发者要在已有仓库里把代理调用顺序固定成可重复流程，旧做法是手工逐步指挥或自拼框架，顺序约束留在人脑与文档里。公开材料已能还原输入、动作与交付闭环，属工作流结构推理；痛点刚性来自可复现性要求，但尚无用户反馈佐证。
+    evidence_ids:
+    - ev-20d90590271aa76e
+    - ev-76e0610fbd828d8f
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有仓库收藏数从 216 缓慢增至 223 这类关注度信号，属于规模证据，不能解释开发者为何选择它，也没有 issue、discussion 或客户案例显示它被持续留在工作流里；强场景是否存在仍缺公开行为证据。
+    evidence_ids:
+    - ev-20d90590271aa76e
+    - ev-fbd9d0c904285a7d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是判断而非已验证事实，开源仓库形态下买方路径尚不清晰，但不反推问题不存在。
+    evidence_ids:
+    - ev-9b7f509b7f466ad0
+  - gate: truth
+    status: insufficient
+    reason: 确定性 Python 掌管图、代理作为受约束节点这一承诺在结构上贴近可复现目标，但公开材料未展示实际部署文档、失败重试行为或人工确认与安全边界，交付能否稳定发生仍缺可复现证据。
+    evidence_ids:
+    - ev-20d90590271aa76e
+    - ev-9b7f509b7f466ad0
+  next_validation: 追踪该项目的官方仓库 README、部署文档与 issue/discussion，确认是否有开发者公开描述在真实仓库中固化代理流程、替代了哪种旧做法。
+  market: ''
+  job: 开发者在已有代码仓库中，把多个编码代理的调用顺序、输入输出和重试规则固定成一条可重复运行的流程，处理的是仓库内的代码与任务脚本，要完成的是让同一套代理加代码工作流每次都能按同一路径执行。
+  job_en: Inside an existing repository, a developer fixes the call order, inputs/outputs and retry rules
+    of multiple coding agents into one repeatable pipeline, working on in-repo code and task scripts so
+    the same agent-plus-code workflow runs the same way every time.
+  pain: 编码代理默认是自由发挥的：同一提示在不同运行里步骤顺序、边界和产出都会漂移，开发者只能每次手工重跑、比对和纠偏；不固定流程，代理产出就无法进入需要可复现的日常开发环节。
+  pain_en: 'Coding agents are free-form by default: step order, boundaries and outputs drift between runs,
+    so developers must manually re-run, diff and correct each time; without a fixed pipeline, agent output
+    cannot enter day-to-day development work that needs reproducibility.'
+  current_alternative: 当前替代方式是手工在对话里逐步指挥代理、把提示词和步骤写进 README 或脚本，或直接用通用代理框架自行拼装编排；这些做法把顺序约束留在人脑和文档里，而不是留在可执行的代码里。
+  current_alternative_en: Today developers hand-drive agents turn by turn, keep prompts and steps in a
+    README or ad-hoc scripts, or assemble orchestration themselves on generic agent frameworks; the ordering
+    constraint lives in their heads and docs rather than in executable code.
+  usage_reason: 推断：相较手工逐步指挥，它把编排权交给确定性 Python，代理只作为受约束节点被调用，因此步骤顺序和重试由代码而非提示词保证，开发者不必每次重新对齐代理行为；需要把代理流程固化进已有仓库、并希望重复运行结果一致的开发者会因此选择它。
+  usage_reason_en: 'Inference: versus hand-driving agents, it hands orchestration to deterministic Python
+    and calls agents only as bounded nodes, so step order and retries are guaranteed by code rather than
+    prompts and developers need not re-align agent behaviour each run; developers who must fix an agent
+    pipeline into an existing repo and want repeatable runs would choose it.'

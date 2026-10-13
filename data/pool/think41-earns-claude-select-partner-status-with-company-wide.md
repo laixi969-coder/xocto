@@ -1,6 +1,6 @@
 ---
 slug: think41-earns-claude-select-partner-status-with-company-wide
-name: Think41 Earns Claude Select Partner Status With Company-Wide Learning and Proven Customer Delivery
+name: Think41
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Think41 Earns Claude Select Partner Status With Company-Wide Learning a
   Business News This Week
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Think41 Earns Claude Select Partner Status With Company-Wide Learning and Proven Customer Delivery
+# Think41
 
 Think41 Earns Claude Select Partner Status With Company-Wide Learning and Proven Customer Delivery Business News This Week
 

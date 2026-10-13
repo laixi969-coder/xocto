@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQSUxiLTBpcTZH
 summary: 'Telecom Customer Service ROI in 2026: How AI and Self-Service Deliver Financial Returns TelecomLead'
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

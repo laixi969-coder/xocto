@@ -23,7 +23,7 @@ summary: "### Patch Changes\n\n- Updated dependencies [9667bf2]\n- Updated depen
   \  - @ai-sdk/openai-compatible@3.0.68"
 first_seen: '2026-10-13T03:03:58Z'
 last_seen: '2026-10-13T03:03:58Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

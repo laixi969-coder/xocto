@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE04dTRwZHRQLWIz
 summary: 企业级AI智能体哪家好丨从RPA到Agent，九科信息bit-Agent探索企业智能化新路径 www.icloudnews.net
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

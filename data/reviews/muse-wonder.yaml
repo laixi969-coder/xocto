@@ -1,0 +1,96 @@
+- id: req-initial-muse-wonder-2026-10-13
+  project_slug: muse-wonder
+  level: initial
+  reviewed_at: '2026-10-13T03:03:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连它解决什么需求、什么痛点都写不出来，无法还原输入、动作与交付，价值关未进入。
+    evidence_ids:
+    - ev-fb4708438992ce85
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区讨论热度不能替代对使用场景的判断。
+    evidence_ids:
+    - ev-fb4708438992ce85
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，材料未披露任何付费路径或买方信息。
+    evidence_ids:
+    - ev-fb4708438992ce85
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-fb4708438992ce85
+  next_validation: 收集 Meta 官方研究页面对 Muse Wonder 的功能说明、模型卡或可复现评测材料。
+  market: ''
+  job: 候选材料未说明谁在什么情况下处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The candidate material does not state who handles what material under what circumstances to
+    complete what task, so no concrete usage scenario can be reconstructed.
+  pain: 材料未提供任何用户痛点、旧流程或替代行为的描述，无法判断问题是否存在。
+  pain_en: The material provides no description of user pain, legacy workflow or substitute behavior,
+    so whether a problem exists cannot be judged.
+  current_alternative: 材料未提及现有替代方式。
+  current_alternative_en: The material mentions no existing alternatives.
+  usage_reason: 材料仅有发布与社区讨论热度，未说明产品通过什么具体动作减少哪一步负担，因此无法解释用户为何选择它。
+  usage_reason_en: The material offers only a release and community discussion volume, with no explanation
+    of what concrete step the product removes, so why users would choose it cannot be explained.
+- id: req-full-muse-wonder-2026-10-13
+  project_slug: muse-wonder
+  level: full
+  reviewed_at: '2026-10-13T03:45:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人日常事务分散在文件、消息、日历、备忘录中、需手动切换整理的需求，痛点是琐事占用时间且跨应用信息无法自动汇总；官方说明给出“给目标即代执行”的输入—动作—交付闭环，属工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-2e34a22dbec4d3c6
+    - ev-4b5d37e158d73d46
+    - ev-916f8d1b359af168
+  - gate: consensus
+    status: insufficient
+    reason: 官方页面说明可跨日常任务代执行并已提供 Mac 与移动端下载，但公开材料只有发布与讨论热度，没有用户评价、案例或持续使用证据，无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-916f8d1b359af168
+    - ev-4b5d37e158d73d46
+  - gate: model
+    status: insufficient
+    reason: 下载页明确标注免费个人 AI agent，说明当前以免费获取用户为主，未见订阅、内购或企业采购等付费路径，谁付钱在公开材料中尚不清晰，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e7b4b87c79edd027
+    - ev-30d1060f9eaa8d0d
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺跨文件、消息、日历、备忘录代执行，但公开材料未说明权限边界、失败处理与人工接管方式，交付是否确定发生无法核对，安全与人工边界待补。
+    evidence_ids:
+    - ev-4b5d37e158d73d46
+    - ev-916f8d1b359af168
+  next_validation: 追踪 Meta 官方 Muse 页面与下载页后续是否公开订阅定价、权限与数据边界说明，以及客户案例或使用数据。
+  market: ''
+  job: 普通个人用户在 Mac 或手机上处理日常事务时，把散落在文件、Messages、Calendar、Notes 里的待办与生活事项（财务、健康、购物、人际往来）交给一个个人 AI agent，由它代为组织文件、执行任务并跨应用串联信息，完成一件原本要自己逐步操作的事。
+  job_en: An ordinary individual on Mac or mobile hands everyday errands scattered across files, Messages,
+    Calendar and Notes (finances, health, shopping, personal relationships) to a personal AI agent that
+    organizes files, executes tasks and stitches information across apps, completing a chore they would
+    otherwise do step by step.
+  pain: 公开材料显示痛点是日常事务分散在多个本地应用与消息流中，用户需要自己在文件、日历、备忘录和聊天之间来回切换、手动整理与跟进；不采用则这些琐事继续占用个人时间，且跨应用信息无法自动汇总。
+  pain_en: The public material points to a pain of everyday chores being scattered across local apps and
+    message streams, forcing users to switch between files, calendar, notes and chats and track things
+    manually; without it, these chores keep consuming personal time and cross-app information is never
+    aggregated.
+  current_alternative: 当前替代方式是用户自己手动在 Finder、Messages、Calendar、Notes 之间切换操作，或分别使用各应用自带的助手与通用聊天机器人逐条处理，没有单一
+    agent 跨这些本地应用代执行。
+  current_alternative_en: The current alternative is the user manually switching among Finder, Messages,
+    Calendar and Notes, or using each app's built-in assistant and general chatbots item by item, with
+    no single agent executing across these local apps.
+  usage_reason: 推断：相较手动逐应用操作，Muse 以“给一个目标或日常任务，其余由它处理”的方式，把跨文件、消息、日历、备忘录的多步操作收敛为一次委托，减少用户在应用间切换与手动整理这一步负担；因此已在
+    Mac 或手机上、且愿意把个人事务交给本地 agent 的用户会在处理琐碎日常任务时选择它。公开材料未提供留存或复购证据，尚不能断言其已长期留在工作流中。
+  usage_reason_en: 'Inference: versus manual app-by-app operation, Muse collapses multi-step work across
+    files, messages, calendar and notes into a single delegation — ''give a goal or everyday task and
+    it handles the rest'' — removing the step of switching apps and organizing manually; hence users already
+    on Mac or mobile who are willing to delegate personal chores to a local agent would pick it for routine
+    tasks. The public material offers no retention or repeat-use evidence, so it cannot be cla'

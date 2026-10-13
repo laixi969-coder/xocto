@@ -21,7 +21,7 @@ canonical_url: https://nirajrajgor.com/blog/kindle-photo-frame-with-ai
 summary: I turned my unused Kindle into a photo frame with GPT-6 Astra
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

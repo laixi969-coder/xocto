@@ -135,3 +135,57 @@
     WeChat conversation users already have open, removing the app-switching step, which appeals to teams
     that already run a local model and require communication to stay inside WeChat; without retention
     or repeat-use evidence, long-term workflow placement cannot be confirmed.'
+- id: req-full-dsh-wechat-2026-10-13
+  project_slug: dsh-wechat
+  level: full
+  reviewed_at: '2026-10-13T03:44:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地 DeepSeek Harness 缺少日常入口、团队沟通在微信而模型在终端/网页的割裂痛点；不接入就得来回切换或自建机器人。仓库定位与星标为公开事实，痛点刚性属工作流结构推理，交付闭环可确定。
+    evidence_ids:
+    - ev-ce6a0407b7e5be49
+    - ev-7179c5729af4f260
+  - gate: consensus
+    status: insufficient
+    reason: 星标由 82 增至 142 只反映开发者关注度上升，属规模与关注度证据；材料未给出 issue、discussion 或用户反馈，无法证明团队已把它放进日常工作流。
+    evidence_ids:
+    - ev-ce6a0407b7e5be49
+    - ev-902257596a02c37c
+    - ev-7179c5729af4f260
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页、无付费路径与客户案例，钱可能来自部署与运维服务或纯社区维护，这是判断而非已验证事实；买方与收费方式在公开材料中均未出现。
+    evidence_ids:
+    - ev-ce6a0407b7e5be49
+  - gate: truth
+    status: insufficient
+    reason: 微信通道涉及平台规则与账号安全边界，公开材料未说明支持的消息类型、部署步骤、合规方式与人工确认环节，交付确定性无法核对，存在平台侧风险。
+    evidence_ids:
+    - ev-ce6a0407b7e5be49
+    - ev-902257596a02c37c
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认支持的消息类型、部署步骤、微信侧合规说明及是否有使用者反馈或重复使用记录。
+  market: ''
+  job: 已自建或本地部署 DeepSeek Harness 的开发者/小团队，在团队日常沟通已集中在微信的情况下，把微信会话当作调用本地模型的入口，处理日常问答或内部查询，希望不切换工具就能用上自己部署的模型。
+  job_en: A developer or small team that already self-hosts or locally deploys DeepSeek Harness, whose
+    daily team communication already lives in WeChat, uses WeChat conversations as the entry point to
+    call the local model for everyday Q&A or internal lookups, hoping to use their own deployment without
+    switching tools.
+  pain: 本地部署的模型通常只有命令行或网页界面，而团队沟通在微信里，来回切换应用或另建客户端带来摩擦；同时把自建模型接入微信需要自行处理协议、消息路由与部署，重复造轮子成本高。公开材料只给出仓库定位与星标，没有用户抱怨原文，痛点强度属工作流结构推理。
+  pain_en: A locally deployed model usually only has a CLI or web UI while team communication lives in
+    WeChat, so switching apps or building another client adds friction; wiring a self-hosted model into
+    WeChat also requires handling protocol, message routing and deployment, which is costly to rebuild.
+    Public material only gives the repo positioning and stars, not user complaints, so pain intensity
+    is a workflow-structure inference.
+  current_alternative: 直接在终端或网页界面调用本地模型，使用现成云端聊天助手，或自行从零开发一个微信机器人（需额外处理协议与部署）。
+  current_alternative_en: Calling the local model from a terminal or web UI, using an existing cloud chat
+    assistant, or building a WeChat bot from scratch (requiring extra protocol and deployment work).
+  usage_reason: 推断：相较终端/网页调用或从零自建机器人，该仓库把「本地模型接入微信会话」这一步做成可直接部署的通道，省掉自行处理消息路由与接入协议的工作，因此已部署 DeepSeek Harness、又要求沟通留在微信内的开发者会在需要把模型搬进日常会话时选择它。仓库星标从
+    82 增至 142 只说明关注度上升，缺少留存或重复使用证据，不能据此认定已被长期留在工作流中。
+  usage_reason_en: 'Inference: compared with terminal/web calls or building a bot from scratch, this repo
+    packages the ''connect a local model to WeChat conversations'' step into a deployable channel, removing
+    the work of handling message routing and integration protocol, so developers who already run DeepSeek
+    Harness and require communication to stay inside WeChat would pick it when moving the model into daily
+    conversations. Stars rising from 82 to 142 only shows growing attention; without retent'

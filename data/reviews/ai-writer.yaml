@@ -89,3 +89,53 @@
     the product and then translating, so sellers with many SKUs needing fast multilingual listings may
     choose it. But the candidate material has no user feedback or customer cases, so it cannot be confirmed
     that it stays in the listing workflow long-term.'
+- id: req-full-ai-writer-2026-10-13
+  project_slug: ai-writer
+  level: full
+  reviewed_at: '2026-10-13T03:42:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是商品图上架时的多语言文案撰写需求，痛点是SKU多时人工翻译改写重复且易与图片信息不一致；仓库简介已给出图片输入到多语言文案的交付闭环，属工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-6604ad2a0414ca8f
+    - ev-0ba3eca5f508a263
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从48增至54，仅说明关注度小幅上升，没有使用评价、社区讨论或客户案例，无法判断卖家是否真把图片转文案当作上架必经环节。
+    evidence_ids:
+    - ev-6604ad2a0414ca8f
+    - ev-0ba3eca5f508a263
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费路径或买方，开源项目可能的收入来自订阅或托管部署，这是判断而非已验证事实；也未出现仅靠融资续命的迹象。
+    evidence_ids:
+    - ev-6604ad2a0414ca8f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对图片识别准确率、生成文案是否与商品事实一致，以及人工复核边界；这些直接决定交付能否确定发生，仓库简介未提供相关说明。
+    evidence_ids:
+    - ev-6604ad2a0414ca8f
+    - ev-0ba3eca5f508a263
+  next_validation: 追踪该仓库 README、issue 或 discussion，确认图片输入到多语言文案的实际流程、支持平台与是否已有使用者反馈。
+  market: ''
+  job: 跨境电商卖家在新品上架前，把商品图片和基础参数交给工具，生成目标市场语言的商品标题、卖点与描述，用于平台刊登。
+  job_en: Before listing a new product, cross-border e-commerce sellers feed product images and basic
+    specs into the tool to generate target-market-language titles, selling points and descriptions for
+    marketplace publishing.
+  pain: 多语言商品文案通常靠人工翻译或逐条改写，SKU 多时重复劳动大，且容易与图片信息不一致；候选材料只有仓库简介与星标，没有用户抱怨或替代流程记录，痛点强度属工作流结构推理。
+  pain_en: Multilingual product copy is usually translated or rewritten by hand; with many SKUs the work
+    is repetitive and easily inconsistent with the images. The candidate material only has a repo description
+    and stars, with no user complaints or alternative-workflow records, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 人工翻译、通用翻译工具、通用大模型对话，或平台自带的翻译与文案模板。
+  current_alternative_en: Human translators, generic translation tools, general-purpose LLM chat, or built-in
+    marketplace translation and copy templates.
+  usage_reason: 推断：相较逐条人工翻译或通用对话改写，它把图片直接作为输入产出多语言文案，省去先人工描述商品再翻译的一步，因此SKU多、需要快速铺多语种刊登的卖家可能选择它；但候选材料没有用户反馈或客户案例，无法确认其已被长期留在上架流程中。
+  usage_reason_en: 'Inference: compared with item-by-item human translation or generic chat rewriting,
+    it takes images directly as input and outputs multilingual copy, skipping the step of manually describing
+    the product before translating. Sellers with many SKUs who need fast multilingual listings may therefore
+    choose it. But the candidate material has no user feedback or customer cases, so it cannot be confirmed
+    as durably embedded in listing workflows.'

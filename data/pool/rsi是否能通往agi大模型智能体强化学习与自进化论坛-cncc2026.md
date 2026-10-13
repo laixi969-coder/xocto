@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE14MmZ5THctQnQt
 summary: RSI是否能通往AGI？大模型智能体强化学习与自进化论坛 | CNCC2026 智源社区
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

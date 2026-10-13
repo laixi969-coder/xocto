@@ -177,3 +177,52 @@
     the post-install desktop and inference setup step, so developers with only an old machine who want
     local models would try it first; the preinstall list and actual local model performance are not publicly
     verified.'
+- id: req-full-aero-linux-2026-10-13
+  project_slug: aero-linux
+  level: full
+  reviewed_at: '2026-10-13T03:42:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是低配机器上装 Linux 开发环境的需求：常规发行版内存占用高、需大量终端配置才能凑齐开发与本地模型环境，不解决则旧设备难以承担开发与推理。公开说明已能还原输入、动作与交付，属工作流结构推理；痛点刚性成立，但缺用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库仅记录 44 至 45 个收藏，说明有开发者注意到它，但收藏数属关注度而非持续采用；没有 issue、discussion 或用户评价说明谁在何种场景实际部署并留下，强场景是否成立尚无法判断。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+    - ev-d6c0c09b821b3ecf
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购路径，无法判断钱来自 to C 捐赠、to B 支持还是 to VC；这是判断而非已验证事实，开源发行版常见靠赞助或服务变现，但本项目未见任何公开付费证据。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺 Sub-350MB 空闲内存与一键本地模型，但未见部署文档、可复现实测或 issue 记录验证这些承诺能否稳定交付，也未说明本地模型运行的安全与人工边界，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-5a53b8c6718b0277
+    - ev-53817935daf8f934
+  next_validation: 追踪 aero-linux 官方仓库的 issue 与 discussion，确认是否有用户报告在具体旧机型上完成安装、实际空闲内存与一键本地模型运行结果，作为交付确定性的公开证据。
+  market: ''
+  job: 开发者在内存受限的旧笔记本或低配机器上安装 Linux 桌面时，需要一套开箱即用的开发环境：系统本身占用低、预装免终端的图形应用，并能一键拉起本地大模型，最终拿到可直接使用的桌面与本地模型运行环境。
+  job_en: 'A developer installing a Linux desktop on a memory-constrained old laptop or low-spec machine
+    needs an out-of-the-box development environment: a low-footprint system, preinstalled zero-terminal
+    GUI apps, and one-click local LLM startup, ending with a usable desktop and local model runtime.'
+  pain: 公开说明给出的痛点是常规发行版在低配机器上内存占用高、需要大量终端配置才能凑齐开发与本地模型环境；不解决的后果是旧设备无法顺畅承担开发与本地推理任务。这是从产品定位与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: The public description points to the pain that mainstream distributions consume too much memory
+    on low-spec machines and require heavy terminal configuration to assemble a dev and local-model environment;
+    leaving it unsolved means old hardware cannot smoothly carry development and local inference. This
+    is inferred from positioning and workflow structure, not from user complaints or cases.
+  current_alternative: 当前替代方式是安装 Ubuntu、Debian 等常规发行版后自行精简、手动安装图形应用与本地模型运行工具，或直接放弃在旧机器上做本地开发与推理。
+  current_alternative_en: The current alternative is installing a mainstream distribution such as Ubuntu
+    or Debian and then manually slimming it, hand-installing GUI apps and local model tooling, or giving
+    up on local development and inference on old hardware.
+  usage_reason: 推断：相较自行精简发行版并逐项配置，它通过预置低内存占用系统、45 个免终端 GTK3 应用与一键本地模型启动，减少手动装包和终端配置步骤，因此内存受限、希望少折腾的开发者会在旧设备上选择它；该因果尚未被用户反馈或案例证实。
+  usage_reason_en: 'Inference: versus manually slimming a distribution and configuring each piece, it
+    reduces manual package installation and terminal configuration by shipping a low-memory system, 45
+    zero-terminal GTK3 apps, and one-click local model startup, so developers on constrained hardware
+    who want less setup would choose it; this causal link is not yet confirmed by user feedback or cases.'

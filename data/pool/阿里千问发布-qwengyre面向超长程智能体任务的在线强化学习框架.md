@@ -1,11 +1,13 @@
 ---
 slug: 阿里千问发布-qwengyre面向超长程智能体任务的在线强化学习框架
-name: 阿里千问发布 QwenGyre，面向超长程智能体任务的在线强化学习框架
+name: QwenGyre
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 阿里千问发布 QwenGyre，一个面向超长程智能体任务的在线强化学习框架，属于模型侧训练方法发布，而非面向具体行业或人群的独立应用。
 inspiration: ''
-summary_en: ''
+summary_en: Alibaba Qwen released QwenGyre, an online reinforcement learning framework for ultra-long-horizon
+  agent tasks, which is a model-side training method release rather than a standalone application for
+  a specific industry or group.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5xWjhuNndEbHFH
 summary: 阿里千问发布 QwenGyre，面向超长程智能体任务的在线强化学习框架 新浪财经
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# 阿里千问发布 QwenGyre，面向超长程智能体任务的在线强化学习框架
+# QwenGyre
 
 阿里千问发布 QwenGyre，面向超长程智能体任务的在线强化学习框架 新浪财经
 

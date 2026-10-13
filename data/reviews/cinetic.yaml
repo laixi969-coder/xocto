@@ -1,0 +1,90 @@
+- id: req-initial-cinetic-2026-10-13
+  project_slug: cinetic
+  level: initial
+  reviewed_at: '2026-10-13T03:03:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决动态影像制作的人工负担，但公开材料未说明旧流程、频率与不采用的后果，需求强度无法判定。
+    evidence_ids:
+    - ev-d01526a58dccd8d8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度而非采用证据，未见用户评价或客户案例。
+    evidence_ids:
+    - ev-d01526a58dccd8d8
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方是品牌方、制作公司还是个人创作者无法判断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d01526a58dccd8d8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成结果是否达到可交付的成片标准，也未说明人工审片与安全边界。
+    evidence_ids:
+    - ev-d01526a58dccd8d8
+  next_validation: 收集该仓库的 README、示例输出与 issue/discussion，确认输入形式、渲染链路与是否有真实成片交付案例。
+  market: ''
+  job: 品牌方或小型制作团队在需要发布片、产品动效等短周期动态影像时，把创意需求交给编码智能体，由它生成电影感画面与动效，产出可播放的影片素材。
+  job_en: Brands or small production teams needing short-cycle motion assets such as launch films and
+    product motion hand a creative brief to a coding agent that generates cinematic footage and motion
+    graphics into playable film assets.
+  pain: 公开材料只给出仓库一句话简介与星标数，没有说明原来由谁、用什么工具、花多久完成同一支片子，也没有用户抱怨或替代行为的记录，痛点强度无法从现有事实判断。
+  pain_en: Public material offers only a one-line repository description and star count, with no account
+    of who previously made the same film, with which tools, or how long it took, and no recorded user
+    complaints or workarounds, so pain intensity cannot be judged from current facts.
+  current_alternative: 按常识推断，同类物料目前由剪辑师与动效设计师在专业软件中手工完成，或外包给制作公司；这是推断，候选材料未提供任何替代方式的证据。
+  current_alternative_en: By inference, such assets are currently made manually by editors and motion
+    designers in professional software, or outsourced to production houses; this is inference, as the
+    candidate material provides no evidence of alternatives.
+  usage_reason: 若成立，它把“写脚本—分镜—关键帧—渲染”的多步手工流程压缩为向编码智能体描述需求并审片，减少的是逐帧调整的负担；但缺少任何用户反馈或案例，无法确认哪类用户会因此选择它，这一判断为推断。
+  usage_reason_en: If it holds, it compresses the multi-step manual flow of scripting, storyboarding,
+    keyframing and rendering into briefing a coding agent and reviewing the cut, cutting frame-by-frame
+    adjustment work; with no user feedback or case, which users would choose it cannot be confirmed, and
+    this is inference.
+- id: req-full-cinetic-2026-10-13
+  project_slug: cinetic
+  level: full
+  reviewed_at: '2026-10-13T03:43:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图减少动态影像制作的人工负担，但公开材料未说明旧流程、频率与不采用的后果，也未见用户抱怨或替代行为；仅凭仓库简介与 149 星标，无法判断该痛点是否刚性，存在把生成能力拼在一起却无强场景的貂丁风险。
+    evidence_ids:
+    - ev-d01526a58dccd8d8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、示例输出与 issue/discussion，确认输入形式、渲染链路与是否有真实成片交付案例。
+  market: ''
+  job: 品牌方或小型制作团队在需要发布片、产品动效等短周期动态影像时，把创意需求交给编码智能体，由它生成电影感画面与动效，产出可播放的影片素材。
+  job_en: Brands or small production teams needing short-cycle motion assets such as launch films and
+    product motion hand a creative brief to a coding agent that generates cinematic footage and motion
+    graphics into playable film assets.
+  pain: 公开材料只有仓库一句话简介与 149 星标，没有说明原来由谁、用什么工具、花多久完成同一支片子，也没有用户抱怨或替代行为记录；从结构推理，动态影像制作确有手工逐帧调整的负担，但该负担是否刚性、不采用会失去什么，现有事实无法支撑。
+  pain_en: Public material offers only a one-line repo description and 149 stars, with no account of who
+    previously made the same film, with which tools, or how long it took, and no recorded complaints or
+    workarounds; by inference, motion work does involve frame-by-frame manual adjustment, but whether
+    that burden is rigid and what is lost by not adopting it cannot be supported by current facts.
+  current_alternative: 按常识推断，同类物料目前由剪辑师与动效设计师在专业软件中手工完成，或外包给制作公司；这是推断，候选材料未提供任何替代方式的证据。
+  current_alternative_en: By inference, such assets are currently made manually by editors and motion
+    designers in professional software, or outsourced to production houses; this is inference, as the
+    candidate material provides no evidence of alternatives.
+  usage_reason: 推断：若成立，它把写脚本、分镜、关键帧、渲染的多步手工流程压缩为向编码智能体描述需求并审片，减少逐帧调整的负担；但缺少任何用户反馈、成片案例或可核对结果，无法确认哪类用户会因此选择它，也无法排除只是把昂贵生成能力拼在一起。
+  usage_reason_en: 'Inference: if it holds, it compresses the multi-step manual flow of scripting, storyboarding,
+    keyframing and rendering into briefing a coding agent and reviewing the cut, cutting frame-by-frame
+    adjustment; but with no user feedback, finished-film case or checkable result, which users would choose
+    it cannot be confirmed, nor can it be ruled out as merely bundling expensive generation capability.'

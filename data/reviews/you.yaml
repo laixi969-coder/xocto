@@ -1,0 +1,39 @@
+- id: req-initial-you-2026-10-13
+  project_slug: you
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决查资料时要自己点开多个结果并拼凑答案的痛点，替代行为明确，交付是可读答复，价值结构成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 有公开访问规模说明有人使用，但缺少用户评价与持续采用证据，无法判断是否已留在日常检索流程里。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价与付费路径，买方是个人订阅还是企业采购无法判断，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 答复是否稳定附带可核验来源、错误率与人工确认边界均未说明，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 收集 You.com 官方定价页与产品文档，确认订阅或企业采购的付费路径以及答复是否稳定附带可核验来源。
+  market: ''
+  job: 普通用户在需要查资料、比较产品或整理一个话题时，向对话式搜索代理提问，希望拿到带来源的答复。
+  job_en: A general user needing to look something up, compare products or organize a topic asks a conversational
+    search agent and expects a sourced answer.
+  pain: 关键词搜索要自己点开多个结果、拼凑答案，且广告与低质内容混在结果里，判断来源可信度成本高。
+  pain_en: Keyword search requires opening many results and assembling an answer yourself, with ads and
+    low-quality content mixed in, making source credibility costly to judge.
+  current_alternative: 传统搜索引擎加人工逐条点开，或使用其他通用对话助手。
+  current_alternative_en: Traditional search engines with manual result-by-result opening, or other general
+    conversational assistants.
+  usage_reason: 推断：相较逐条点开搜索结果，它把检索与初步整理合并成一次带来源的答复，减少了用户自己拼凑答案的步骤，因此需要快速获得可读答案的用户会在日常查资料时选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with opening results one by one, it merges retrieval and initial
+    synthesis into a single sourced reply, cutting the step where users assemble the answer themselves,
+    so users needing a fast readable answer would pick it for everyday lookups; public material provides
+    no retention or repeat-use evidence.'

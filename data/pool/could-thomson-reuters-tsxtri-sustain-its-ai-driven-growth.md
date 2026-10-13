@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxQTWpWdmI1M1Ji
 summary: Could Thomson Reuters (TSX:TRI) Sustain Its AI-Driven Growth? Kalkine Media
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

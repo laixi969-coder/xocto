@@ -25,7 +25,7 @@ summary: Between October 05 and October 10, 2026, as many as 27 Indian startups 
   D2C, Electronics, Jewellery, Proptech, QSR, Fintech, F Instagram
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

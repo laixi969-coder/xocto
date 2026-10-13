@@ -1,0 +1,39 @@
+- id: req-initial-presentationsai-2026-10-13
+  project_slug: presentationsai
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决培训课件制作这一具体任务，但材料只有模板宣传语，说不清原来谁在做、花多久，痛点刚性无法判断。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有访问量数据，没有用户评价、客户案例或重复使用证据，无法判断是否形成采用共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断收入来自企业培训预算还是个人订阅，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法确认生成结果是否可直接用于培训现场，人工确认边界与交付确定性均未说明。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页或客户案例页，确认买方、计价方式与培训场景的实际交付结果。
+  market: ''
+  job: HR 培训负责人要在内部培训前把培训主题、要点和案例整理成一份可现场讲解的演示文稿。
+  job_en: An HR training lead must turn a training topic, key points and cases into a deck that can be
+    presented live.
+  pain: 培训课件重复度高、排版耗时，但候选材料只给出模板宣传语，没有说明原来由谁、用什么工具、花多久完成，痛点强度无法确认。
+  pain_en: Training decks are repetitive and slow to lay out, but the candidate material only offers template
+    marketing copy and does not say who previously did this, with what tool, or how long it took, so pain
+    intensity is unconfirmed.
+  current_alternative: 公开材料未说明现有替代方式，推断可能是 PowerPoint 模板或通用演示工具。
+  current_alternative_en: The public material does not state the current alternative; PowerPoint templates
+    or generic deck tools are an inference.
+  usage_reason: 推断：若它能把培训要点直接转成可编辑的培训模板稿，用户可省去从空白页排版这一步；但缺少用户反馈或案例，无法确认这类用户会因此选择它。
+  usage_reason_en: 'Inference: if it turns training points directly into an editable templated deck, users
+    skip laying out from a blank page; without user feedback or cases, it cannot be confirmed that such
+    users would choose it for this reason.'

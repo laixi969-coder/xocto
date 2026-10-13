@@ -1,0 +1,88 @@
+- id: req-initial-oil-ui-2026-10-13
+  project_slug: oil-ui
+  level: initial
+  reviewed_at: '2026-10-13T03:03:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理只给单一界面、方向错误要返工的问题，痛点是缺少可比较方案与真实截图依据，旧做法是反复改提示词，结构上成立。
+    evidence_ids:
+    - ev-23b8a95b0b1fa65d
+  - gate: consensus
+    status: insufficient
+    reason: 星标数较高说明关注度，但没有用户评价或团队采用证据表明它已稳定进入设计流程。
+    evidence_ids:
+    - ev-23b8a95b0b1fa65d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，开源技能可能靠赞助或配套服务变现，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-23b8a95b0b1fa65d
+  - gate: truth
+    status: insufficient
+    reason: 以真实截图收敛方向的做法贴近设计第一性目标，但截图来源、可复现性与人工确认边界未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-23b8a95b0b1fa65d
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户是否在真实项目中反复调用它，以及是否出现团队版或付费支持的诉求。
+  market: ''
+  job: 使用编码代理的开发者或小团队，在需要交付界面时，面对代理直接生成的单一页面，需要先看到多个可选方向并对照真实截图筛选，再决定采用哪一版。
+  job_en: A developer or small team using a coding agent, when an interface must be delivered, faces a
+    single page the agent produced and needs several candidate directions compared against real screenshots
+    before choosing one.
+  pain: 代理往往一次只给一个界面结果，方向对不对要等做完才知道，返工成本高；口头描述风格也难以对齐。
+  pain_en: Agents usually return one interface result, so whether the direction is right is known only
+    after building, making rework costly; describing style in words is also hard to align.
+  current_alternative: 反复给代理写提示词试错，或自己先画草图、找参考图再让代理实现。
+  current_alternative_en: Iterating prompts with the agent by trial and error, or sketching and gathering
+    references first and then having the agent implement them.
+  usage_reason: 推断：相较反复改提示词，它让代理一次产出多个方向并排比较，并用真实截图做收敛依据，减少“做完才发现方向错”的返工；因此缺少专职设计师、又要快速定界面的独立开发者会在开工前调用它。
+  usage_reason_en: 'Inference: versus repeated prompt tweaks, it has the agent produce several directions
+    for side-by-side comparison and uses real screenshots to converge, cutting rework from discovering
+    a wrong direction late; hence indie developers without a dedicated designer who must settle an interface
+    quickly would invoke it before building.'
+- id: req-full-oil-ui-2026-10-13
+  project_slug: oil-ui
+  level: full
+  reviewed_at: '2026-10-13T03:46:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理只给单一界面、方向错误要返工的问题，痛点是缺少可比较方案与真实截图依据，旧做法是反复改提示词，结构上成立。
+    evidence_ids:
+    - ev-23b8a95b0b1fa65d
+  - gate: consensus
+    status: insufficient
+    reason: 星标数较高说明关注度，但没有用户评价或团队采用证据表明它已稳定进入设计流程。
+    evidence_ids:
+    - ev-23b8a95b0b1fa65d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，开源技能可能靠赞助或配套服务变现，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-23b8a95b0b1fa65d
+  - gate: truth
+    status: insufficient
+    reason: 以真实截图收敛方向的做法贴近设计第一性目标，但截图来源、可复现性与人工确认边界未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-23b8a95b0b1fa65d
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户是否在真实项目中反复调用它，以及是否出现团队版或付费支持的诉求。
+  market: ''
+  job: 使用编码代理的开发者或小团队，在需要交付界面时，面对代理直接生成的单一页面，需要先看到多个可选方向并对照真实截图筛选，再决定采用哪一版。
+  job_en: A developer or small team using a coding agent, when an interface must be delivered, faces a
+    single page the agent produced and needs several candidate directions compared against real screenshots
+    before choosing one.
+  pain: 代理往往一次只给一个界面结果，方向对不对要等做完才知道，返工成本高；口头描述风格也难以对齐。
+  pain_en: Agents usually return one interface result, so whether the direction is right is known only
+    after building, making rework costly; describing style in words is also hard to align.
+  current_alternative: 反复给代理写提示词试错，或自己先画草图、找参考图再让代理实现。
+  current_alternative_en: Iterating prompts with the agent by trial and error, or sketching and gathering
+    references first and then having the agent implement them.
+  usage_reason: 推断：相较反复改提示词，它让代理一次产出多个方向并排比较，并用真实截图做收敛依据，减少“做完才发现方向错”的返工；因此缺少专职设计师、又要快速定界面的独立开发者会在开工前调用它。
+  usage_reason_en: 'Inference: versus repeated prompt tweaks, it has the agent produce several directions
+    for side-by-side comparison and uses real screenshots to converge, cutting rework from discovering
+    a wrong direction late; hence indie developers without a dedicated designer who must settle an interface
+    quickly would invoke it before building.'

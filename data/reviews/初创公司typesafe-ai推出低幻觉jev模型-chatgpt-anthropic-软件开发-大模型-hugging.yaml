@@ -1,0 +1,95 @@
+- id: req-initial-初创公司typesafe-ai推出低幻觉jev模型-chatgpt-anthropic-软件开发-大模型-hugging-2026-10-13
+  project_slug: 初创公司typesafe-ai推出低幻觉jev模型-chatgpt-anthropic-软件开发-大模型-hugging
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是模型输出不可核对这一具体问题，痛点真实存在，但候选只有一句发布标题，无法确认它替代哪一步旧流程，价值结构尚不成立。
+    evidence_ids:
+    - ev-a2babb3804514cad
+  - gate: consensus
+    status: insufficient
+    reason: 未见开发者社区讨论、采用数据或客户案例，无法判断是否已形成使用共识。
+    evidence_ids:
+    - ev-a2babb3804514cad
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；低幻觉模型可能按 token 或授权收费，属推断而非已验证事实。
+    evidence_ids:
+    - ev-a2babb3804514cad
+  - gate: truth
+    status: insufficient
+    reason: 无评测方法、无第三方复现、无安全边界说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-a2babb3804514cad
+  next_validation: 收集 TypeSafe AI 官方页面或模型卡，确认 Jev 的评测方法、接入方式与是否公开定价。
+  market: ''
+  job: AI 应用开发者要把模型输出接入代码生成或文档问答流程，需要模型在不确定时给出可核对的答案而不是编造内容。
+  job_en: AI application developers wiring model output into code generation or document Q&A need answers
+    that can be checked rather than fabricated when the model is unsure.
+  pain: 模型幻觉会让下游流程产出错误代码或错误结论，人工逐条复核成本高；候选未提供任何用户抱怨或采用证据，痛点强度只能从任务性质推断。
+  pain_en: Hallucination makes downstream pipelines emit wrong code or wrong conclusions, and manual line-by-line
+    review is costly; the candidate offers no user complaint or adoption evidence, so pain intensity is
+    inferred from the task itself.
+  current_alternative: 开发者目前多靠提示词约束、检索增强、多模型交叉比对或人工复核来压制幻觉。
+  current_alternative_en: Developers currently suppress hallucination with prompt constraints, retrieval
+    augmentation, cross-checking multiple models or manual review.
+  usage_reason: 推断：若 Jev 真能在同等任务上减少编造并给出可核对依据，开发者会在高风险输出环节替换掉多模型交叉比对这一步；但候选未说明接入方式、评测结果或价格，无法确认它比现有做法少哪一步负担。
+  usage_reason_en: 'Inference: if Jev genuinely reduces fabrication and gives checkable grounding on the
+    same tasks, developers would replace multi-model cross-checking in high-risk output steps; but the
+    candidate gives no integration method, benchmark result or price, so which step it removes cannot
+    be confirmed.'
+- id: req-full-初创公司typesafe-ai推出低幻觉jev模型-chatgpt-anthropic-软件开发-大模型-hugging-2026-10-13
+  project_slug: 初创公司typesafe-ai推出低幻觉jev模型-chatgpt-anthropic-软件开发-大模型-hugging
+  level: full
+  reviewed_at: '2026-10-13T03:48:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是模型输出不可核对、无法直接接入生产流程这一需求：通用大模型自由文本会编造内容，下游软件无法直接消费，开发者只能靠提示词约束、检索增强或人工复核兜底。Jev 以类型化决策加概率与置信度、不做文本生成也不需解析来交付，痛点刚性且交付形态可确定；此为工作流结构推理，尚无用户采用证据。
+    evidence_ids:
+    - ev-cf6dc123133c194a
+    - ev-c1aa45fd1e20fe5b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网与文档对 Jev 能力的自述，未见开发者社区讨论、客户案例、采用数据或可观察的重复使用行为，无法判断是否已形成使用共识；现有证据只能说明产品定位，不能说明有人持续在用。
+    evidence_ids:
+    - ev-cf6dc123133c194a
+    - ev-c1aa45fd1e20fe5b
+  - gate: model
+    status: insufficient
+    reason: 官网与文档均未披露定价、计费方式或买方类型，控制台仅显示用 Google 登录入口。低幻觉模型可能按 token、调用量或授权收费，属推断而非已验证事实；谁付钱、按什么单位付钱在公开材料里说不清。
+    evidence_ids:
+    - ev-53393926c6ad3ec4
+    - ev-4fec69dca225e2ac
+  - gate: truth
+    status: insufficient
+    reason: 文档只说明 Jev 返回类型化结果、不做文本生成，未给出幻觉评测方法、基准数据、第三方复现或安全与人工边界说明，承诺能否确定性交付无法核对；低幻觉这一核心卖点目前只有厂商自述。
+    evidence_ids:
+    - ev-c1aa45fd1e20fe5b
+    - ev-cf6dc123133c194a
+  next_validation: 追踪 TypeSafe AI 官方文档或模型卡中 Jev 的评测方法、基准数据与接入示例，并留意官网是否上线定价页或公开客户案例，以核验低幻觉承诺与付费路径。
+  market: ''
+  job: AI 应用开发者要把模型输出直接接入生产流程（如自动化决策、代码生成、文档问答）时，需要把结构化问题连同当前状态交给模型，拿到带概率与置信度的类型化决策结果，让下游软件无需解析文本即可直接执行。
+  job_en: AI application developers wiring model output directly into production pipelines (automated
+    decisions, code generation, document Q&A) need to submit typed questions plus a state and receive
+    typed decisions with probabilities and confidence that downstream software can execute without parsing
+    text.
+  pain: 通用大模型以自由文本作答，会编造内容且输出不可核对，下游流程因此产出错误代码或错误结论，开发者只能靠人工逐条复核或多模型交叉比对来兜底，成本高且无法保证确定性。
+  pain_en: General LLMs answer in free text, fabricate content and produce unverifiable output, so downstream
+    pipelines emit wrong code or wrong conclusions; developers can only fall back on manual line-by-line
+    review or multi-model cross-checking, which is costly and non-deterministic.
+  current_alternative: 开发者目前用提示词约束、检索增强、多模型交叉比对或人工复核来压制幻觉，再自行把文本解析成结构化字段。
+  current_alternative_en: Developers currently suppress hallucination with prompt constraints, retrieval
+    augmentation, multi-model cross-checking or manual review, then hand-parse the text into structured
+    fields themselves.
+  usage_reason: 推断：Jev 直接返回带概率与置信度的类型化决策、不做文本生成也不需解析，相较旧做法省掉了“生成文本—再解析—再人工核对”这一整段负担；当开发者需要在自动化流程中让软件直接消费模型判断、且无法承担编造内容时，会倾向选择它。
+  usage_reason_en: 'Inference: Jev returns typed decisions with probabilities and confidence and does
+    no text generation or parsing, removing the whole ''generate text, parse it, then manually verify''
+    burden of the old approach; developers who need software to consume model judgments directly in automation
+    and cannot tolerate fabrication would choose it.'

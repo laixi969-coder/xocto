@@ -21,7 +21,7 @@ canonical_url: https://phoronix.com/news/Linus-Torvalds-Claude-Code
 summary: Linus Torvalds Working on a Hefty Linux Kernel Improvement with Claude Code
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

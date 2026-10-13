@@ -1,6 +1,6 @@
 ---
 slug: 可部署的桌面级ai算力节点极摩客evo-x5-pro在深圳发布
-name: 可部署的桌面级AI算力节点，极摩客EVO-X5 Pro在深圳发布
+name: 极摩客 EVO-X5 Pro
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTFBEeV94RUJ4M1FG
 summary: 可部署的桌面级AI算力节点，极摩客EVO-X5 Pro在深圳发布 手机新浪网
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 可部署的桌面级AI算力节点，极摩客EVO-X5 Pro在深圳发布
+# 极摩客 EVO-X5 Pro
 
 可部署的桌面级AI算力节点，极摩客EVO-X5 Pro在深圳发布 手机新浪网
 

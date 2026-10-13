@@ -83,3 +83,52 @@
     handwriting in one browser tab, removing the printing step and the app-switching step and anchoring
     annotations to the original page, so students who take notes on a laptop and avoid printing would
     choose it in class; public material shows no retention or payment evidence yet.'
+- id: req-full-brainotes-2026-10-13
+  project_slug: brainotes
+  level: full
+  reviewed_at: '2026-10-13T03:43:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决课堂讲义 PDF 手写批注的需求，痛点是打印成本高、另开笔记软件导致批注与原文脱节，不采用则复习时难以对应原文；浏览器内直接批注并保存的闭环可确定交付，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+    - ev-367b30575aca0aba
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库自述这一条产品说明，未见学生评价、issue 讨论或采用数据，无法判断共识卡在感知、场景还是利益环节，也无法确认是否形成持续使用。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、订阅或院校采购信息，学生自付、学校采购或纯开源无收入均属推断而非已验证事实，付费路径尚不可核。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+  - gate: truth
+    status: insufficient
+    reason: 浏览器内批注 PDF 贴近课堂记录的第一性目标，但公开材料未说明保存格式、跨设备同步与数据归属，承诺能否确定性交付及人工边界均无依据。
+    evidence_ids:
+    - ev-77bf2a27b5d58907
+    - ev-367b30575aca0aba
+  next_validation: 追踪 BraiNOTES 仓库（公开代码仓库.com/swimmingbrain/brainotes）的 README、issue 与 discussion，核验其实际批注与保存流程、是否含
+    AI 能力、以及是否有学生使用反馈或定价说明。
+  market: ''
+  job: 大学生在课堂上用笔记本或平板打开浏览器标签页，一边听讲一边在教师发放的讲义 PDF 上手写批注，课后把带批注的 PDF 保存下来用于复习。
+  job_en: University students open a browser tab during class, hand-annotate the instructor's lecture
+    PDF while listening, and save the annotated PDF for later review.
+  pain: 讲义几乎都是 PDF，打印成本高且不便携带；改用独立笔记软件则要在 PDF 与笔记窗口间反复切换，批注与原文位置脱节，复习时难以对应。
+  pain_en: 'Handouts are almost always PDFs: printing is costly and unwieldy, while a separate note app
+    forces constant window switching and detaches annotations from their position in the source text,
+    making review hard.'
+  current_alternative: 打印讲义后在纸上手写、用平板批注应用（如 GoodNotes、Notability）、或在笔记软件里另建文档摘抄要点。
+  current_alternative_en: Printing handouts to write on, using tablet annotation apps such as GoodNotes
+    or Notability, or retyping key points into a separate note app.
+  usage_reason: 推断：相较打印或另开笔记软件，它在同一浏览器标签内直接对讲义 PDF 手写批注并保存，省去打印和窗口切换两步，批注与原文位置绑定；因此用笔记本上课、不愿打印又不想装平板应用的学生会在听课时选择它。公开材料未显示
+    AI 能力、定价或留存，长期采用无法确认。
+  usage_reason_en: 'Inference: versus printing or a separate note app, it lets students hand-annotate
+    the lecture PDF and save it inside the same browser tab, removing the printing and window-switching
+    steps and binding annotations to their position in the source; students on laptops who avoid printing
+    and don''t want a tablet app would pick it during class. Public material shows no AI capability, pricing,
+    or retention, so long-term use is unconfirmed.'

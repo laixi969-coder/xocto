@@ -1,0 +1,38 @@
+- id: req-initial-dreamina-2026-10-13
+  project_slug: dreamina
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它面向投放素材生成，但公开材料未说明替代了拍摄、图库还是设计外包中的哪一步，痛点无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有访问量与环比，属于规模信号，不能证明用户已把它留在素材生产流程里。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成素材是否可直接投放、是否需人工返工，交付确定性未知。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页与客户案例，确认按什么计价以及素材是否可直接投放。
+  market: ''
+  job: 营销或内容人员在需要为投放准备图像与视频素材时，把文字描述输入生成工具，得到可用的视觉素材。
+  job_en: Marketing or content staff preparing image and video assets for campaigns feed text prompts
+    into a generation tool and get usable visuals.
+  pain: 公开材料只有访问量和环比，没有说明它替代了拍摄、图库采购还是设计外包中的哪一步，痛点无法从现有事实还原。
+  pain_en: Public material only has visit counts and month-over-month change; it does not say whether
+    it replaces shooting, stock purchase or design outsourcing, so the pain cannot be reconstructed.
+  current_alternative: 团队目前用图库采购、外包设计或拍摄来准备投放素材。
+  current_alternative_en: Teams currently prepare campaign assets through stock purchases, outsourced
+    design or photo shoots.
+  usage_reason: 推断：相较图库采购与外包设计，它可能把素材产出压缩成一次生成，省去采购与沟通环节；但缺少用户反馈与案例，无法确认哪类团队会因此选择它。
+  usage_reason_en: 'Inference: compared with stock purchases and outsourced design, it may compress asset
+    production into a single generation, saving procurement and back-and-forth; without user feedback
+    or cases, it is unclear which teams would choose it.'

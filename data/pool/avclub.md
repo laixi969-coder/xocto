@@ -1,6 +1,6 @@
 ---
 slug: avclub
-name: avclub
+name: Epic Games
 builder: pavel_lishin
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://avclub.com/epic-games-disney-ai-delay
 summary: Epic Games tells employees to use AI to get Disney game done
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# avclub
+# Epic Games
 
 Epic Games tells employees to use AI to get Disney game done
 

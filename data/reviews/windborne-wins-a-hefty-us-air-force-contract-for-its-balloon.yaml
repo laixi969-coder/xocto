@@ -1,0 +1,93 @@
+- id: req-initial-windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-2026-10-13
+  project_slug: windborne-wins-a-hefty-us-air-force-contract-for-its-balloon
+  level: initial
+  reviewed_at: '2026-10-13T03:04:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决区域天气观测密度不足、预报精度不够的问题，痛点对航空与国防是刚性的，且已有军方付费合同作为交付可确定性的初步证据。
+    evidence_ids:
+    - ev-cf072aaa9f8614ad
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一份合同金额，没有客户名单、续约或使用规模，无法判断行业共识是否形成。
+    evidence_ids:
+    - ev-cf072aaa9f8614ad
+  - gate: model
+    status: insufficient
+    reason: 买方为政府军方，付费路径清晰，但定价方式、单位成本与是否可重复交付均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-cf072aaa9f8614ad
+  - gate: truth
+    status: insufficient
+    reason: 气球采集与 AI 预测的准确率、与官方气象数据的对比结果、人工复核边界均无公开材料，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-cf072aaa9f8614ad
+  next_validation: 收集 WindBorne 官方发布的合同公告或技术文档，核验其数据交付形式、准确率对比与是否披露定价。
+  market: ''
+  job: 气象预报员、航空与国防规划人员在需要比常规探空更密集的区域天气数据时，处理气球采集的大气观测材料，产出可用于决策的预报结论。
+  job_en: Meteorologists and aviation or defense planners process balloon-collected atmospheric observations
+    to produce decision-ready forecasts when denser regional weather data than routine radiosondes is
+    needed.
+  pain: 传统探空站点稀疏、成本高、覆盖有限，导致区域预报精度不足，而航空与军事行动对天气的容错很低。
+  pain_en: Traditional radiosonde stations are sparse, costly and limited in coverage, leaving regional
+    forecast accuracy short, while aviation and military operations have little tolerance for weather
+    error.
+  current_alternative: 依赖政府气象部门的常规探空与卫星数据，或采购商业气象数据服务，覆盖密度和更新频率受限。
+  current_alternative_en: Relying on government radiosonde and satellite data, or buying commercial weather
+    data services, both limited in coverage density and update frequency.
+  usage_reason: 推断：相较只能等政府探空排期或购买覆盖稀疏的商业数据，WindBorne 用自建气球在指定区域补采观测，再由 AI 处理成预测结果，减少的是“数据覆盖不足导致预报不可用”这一步，因此对区域精度敏感的航空、国防与能源买方会在常规数据不够用时选择它。
+  usage_reason_en: 'Inference: compared with waiting for government radiosonde schedules or buying sparse
+    commercial data, WindBorne supplements observations in designated regions with its own balloons and
+    processes them into predictions via AI, removing the step where insufficient coverage makes forecasts
+    unusable; buyers sensitive to regional accuracy in aviation, defense and energy would choose it when
+    routine data falls short.'
+- id: req-full-windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-2026-10-13
+  project_slug: windborne-wins-a-hefty-us-air-force-contract-for-its-balloon
+  level: full
+  reviewed_at: '2026-10-13T03:48:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决区域天气观测密度不足、预报精度不够的问题，痛点对航空与国防是刚性的；官网公开说明其自建长航时智能气球星座采集关键大气数据，交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-7b35cf05970451dd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一份军方合同金额，没有客户名单、续约或使用规模，无法判断行业共识是否形成；且部分检索证据指向同名合唱团，与气象业务无关。
+    evidence_ids:
+    - ev-7b35cf05970451dd
+    - ev-16d0e24f855ad565
+  - gate: model
+    status: insufficient
+    reason: 买方为政府军方，付费路径清晰，但定价方式、单位成本与是否可重复交付均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7b35cf05970451dd
+  - gate: truth
+    status: insufficient
+    reason: 气球采集与 AI 预测的准确率、与官方气象数据的对比结果、人工复核边界均无公开材料，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-7b35cf05970451dd
+  next_validation: 收集 WindBorne 官网或美国空军合同公告中关于数据交付形式、准确率对比与定价的公开文档，核验其承诺能否确定性交付。
+  market: ''
+  job: 气象预报员、航空与国防规划人员在需要比常规探空更密集的区域天气数据时，处理气球采集的大气观测材料，产出可用于决策的预报结论。
+  job_en: Meteorologists and aviation or defense planners process balloon-collected atmospheric observations
+    to produce decision-ready forecasts when denser regional weather data than routine radiosondes is
+    needed.
+  pain: 传统探空站点稀疏、成本高、覆盖有限，导致区域预报精度不足，而航空与军事行动对天气的容错很低。
+  pain_en: Traditional radiosonde stations are sparse, costly and limited in coverage, leaving regional
+    forecast accuracy short, while aviation and military operations have little tolerance for weather
+    error.
+  current_alternative: 依赖政府气象部门的常规探空与卫星数据，或采购商业气象数据服务，覆盖密度和更新频率受限。
+  current_alternative_en: Relying on government radiosonde and satellite data, or buying commercial weather
+    data services, both limited in coverage density and update frequency.
+  usage_reason: 推断：相较只能等政府探空排期或购买覆盖稀疏的商业数据，WindBorne 用自建长航时智能气球在指定区域补采观测，再由 AI 处理成预测结果，减少的是“数据覆盖不足导致预报不可用”这一步，因此对区域精度敏感的航空、国防与能源买方会在常规数据不够用时选择它。
+  usage_reason_en: 'Inference: compared with waiting for government radiosonde schedules or buying sparse
+    commercial data, WindBorne supplements observations in designated regions with its own long-duration
+    smart balloons and processes them into predictions via AI, removing the step where insufficient coverage
+    makes forecasts unusable; buyers sensitive to regional accuracy in aviation, defense and energy would
+    choose it when routine data falls short.'

@@ -670,3 +670,59 @@
     copy-paste and format-conversion step, so analysts who need SEO data inside automated or AI workflows
     would choose it for bulk retrieval; the star count rising from 114 to 193 shows attention, not sustained
     use.'
+- id: req-full-semrush-ai-tool-2026-10-13
+  project_slug: semrush-ai-tool
+  level: full
+  reviewed_at: '2026-10-13T03:47:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SEO 分析师批量取关键词、域名与外链数据的需求，痛点是网页后台逐条查询与手工搬运在批量任务中重复易错；旧替代是后台手工查询或自写官方 API 脚本，不解决则批量取数仍靠人工。这是基于产品说明与工作流的结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-0b815225aa41a285
+    - ev-1c07450c8f56beee
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 129 增至 225，说明开发者社区持续关注，但 star 属关注度而非采用证据；没有 issue、discussion 或用户评价说明谁在何种场景持续调用，也未核验与
+      Semrush 的授权关系，共识强度不足。
+    evidence_ids:
+    - ev-0b815225aa41a285
+    - ev-1c07450c8f56beee
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料没有定价页、付费主体或单位经济；可能靠赞助、增值服务或引流到自有产品变现，但均属判断而非已验证事实，买方与付费路径尚未核验。
+    evidence_ids:
+    - ev-0b815225aa41a285
+  - gate: truth
+    status: insufficient
+    reason: 交付依赖 Semrush 数据接口，但公开材料未说明授权方式、配额限制与失败处理；若接口不可用或违反服务条款，承诺的确定性交付存疑，人工判断数据含义的边界也未在文档中说明。
+    evidence_ids:
+    - ev-0b815225aa41a285
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认它调用 Semrush 的授权方式、配额限制及是否有用户报告在真实工作流中持续使用。
+  market: ''
+  job: SEO 分析师或内容营销运营在需要批量获取关键词量、域名流量与外链数据时，原本要打开 Semrush 网页后台逐个查询、手动复制表格，现在通过这个 MCP server 或 CLI 让 AI
+    助手/脚本直接调用并拿到结构化结果，再自行判断数据含义。
+  job_en: An SEO analyst or content marketing operator who needs bulk keyword volume, domain traffic and
+    backlink data would otherwise open the Semrush web dashboard, query one item at a time and copy tables
+    by hand; this MCP server/CLI lets an AI assistant or script call the data directly and receive structured
+    results, leaving interpretation to the user.
+  pain: 公开事实只说明它把关键词、域名、外链查询包装成 CLI 与 MCP 接口；据此可推断的痛点是网页后台逐条查询与手工搬运数据在批量任务中重复且易错，但仓库未提供用户抱怨、耗时或错误率等直接证据，痛点强度属结构推理。
+  pain_en: Public facts only show that keyword, domain and backlink queries are wrapped as CLI and MCP
+    interfaces; the inferable pain is that one-by-one dashboard queries and manual data transfer are repetitive
+    and error-prone in bulk tasks, but the repo offers no direct user complaints, time cost or error-rate
+    evidence, so pain intensity is structural inference.
+  current_alternative: 旧做法是登录 Semrush 网页后台逐项查询并手工导出/复制，或直接调用 Semrush 官方 API 自行写脚本；该工具声称替代的是前者的手工环节，但它与
+    Semrush 的授权关系及可用范围仍待核验。
+  current_alternative_en: The old approach is logging into the Semrush web dashboard to query items one
+    by one and export or copy manually, or calling the official Semrush API and writing one's own scripts;
+    this tool claims to replace the manual part of the former, though its authorization relationship and
+    usable scope with Semrush remain unverified.
+  usage_reason: 推断：相较网页后台逐条查询，它把查询动作变成 AI 助手或脚本可直接调用的接口，省去打开页面、逐项输入和手工搬运表格这几步，因此需要把 SEO 数据接入自动化流程或 AI
+    工作流的分析师会在批量取数场景选择它；仓库 star 从 129 增至 225 只说明关注度上升，不能证明持续使用。
+  usage_reason_en: 'Inference: versus one-by-one dashboard queries, it turns the query action into an
+    interface an AI assistant or script can call directly, removing the steps of opening pages, entering
+    items individually and manually moving tables, so analysts who need SEO data inside automated or AI
+    workflows would choose it for bulk retrieval; the repo''s star growth from 129 to 225 only shows rising
+    attention, not sustained use.'

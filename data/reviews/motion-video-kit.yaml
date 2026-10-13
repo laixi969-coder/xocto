@@ -627,3 +627,53 @@
     from 28 launch films, sound specs, and Three.js patterns as loadable rules and adds an independent
     critic loop that re-checks output, cutting the manual frame-by-frame review and rework step; marketers
     needing launch-grade video without a motion team would choose it in that situation.'
+- id: req-full-motion-video-kit-2026-10-13
+  project_slug: motion-video-kit
+  level: full
+  reviewed_at: '2026-10-13T03:45:49Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决商业宣传片制作中动效原则不统一、AI 产出质量不稳、需大量人工返工的问题；28 部发布片原则与独立评审循环构成可确定的输入—动作—交付闭环，痛点刚性来自交付质量下限，属工作流结构推理，返工量尚无公开量化。
+    evidence_ids:
+    - ev-6578f71a6ea017e8
+    - ev-9f4453e6b84f99cf
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 1060 增至 1093，说明开发者社区持续关注并把它纳入 Claude Code 技能工作流；但收藏属关注度证据，不能证明目标用户已长期留存或复购。
+    evidence_ids:
+    - ev-6578f71a6ea017e8
+    - ev-fb257fea0f088d91
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，无法判断钱来自 to C 创作者、to B 营销团队还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-6578f71a6ea017e8
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、人工修改量与安全边界尚无公开可复现证据；独立评审循环的实际拦截效果与最终成片质量仍待公开材料核验。
+    evidence_ids:
+    - ev-9f4453e6b84f99cf
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否有真实用户公开的成片案例、返工量或部署反馈，以核验交付确定性。
+  market: ''
+  job: 做商业宣传片的创作者或营销团队在 Claude Code 里加载这套技能包，把品牌与产品素材、发布片参考转成视频脚本、动效与音效方案，并用内置独立评审循环反复检查，最终交付可用的商业视频素材。
+  job_en: Creators or marketing teams making business promo videos load this skill kit in Claude Code,
+    turning brand/product assets and launch-film references into video scripts, motion and sound plans,
+    then iterate through the built-in independent critic loop to deliver usable business video assets.
+  pain: 公开材料显示其针对的痛点是 AI 生成商业视频缺乏统一动效原则与质量把关，产出常需大量人工返工；28 部发布片的动效原则与独立评审循环正是为压缩这一返工环节而设，但具体返工量与频率尚无公开量化。
+  pain_en: Public materials indicate the pain is that AI-generated business videos lack consistent motion
+    principles and quality control, so output often needs heavy manual rework; the 28 launch films' motion
+    principles and the independent critic loop target that rework, though its volume and frequency are
+    not publicly quantified.
+  current_alternative: 旧做法是创作者凭个人经验在通用 AI 视频工具或剪辑软件里逐帧调参、反复人工审片，或直接外包给动效团队；公开材料未说明它具体替代了哪条既有流程。
+  current_alternative_en: The old approach is creators hand-tuning parameters in generic AI video tools
+    or editors, repeatedly reviewing frames manually, or outsourcing to motion teams; public materials
+    do not specify which existing workflow it replaces.
+  usage_reason: 推断：相较逐帧人工调参与外包，它把动效原则、音效规范与 Three.js 模式固化成可加载技能，并在生成后由独立评审循环自动检查质量，减少创作者反复试错与审片的一步负担，因此做商业宣传片、需要稳定质量下限的创作者或营销团队会在
+    Claude Code 工作流中选择它。
+  usage_reason_en: 'Inference: versus manual frame tuning and outsourcing, it codifies motion principles,
+    sound specs and Three.js patterns into loadable skills and auto-checks quality via an independent
+    critic loop, cutting one step of trial-and-error and review, so creators or marketing teams needing
+    a stable quality floor for business videos would choose it in a Claude Code workflow.'

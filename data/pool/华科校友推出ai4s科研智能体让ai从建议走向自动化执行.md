@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5IbTJIdEc2dFN5
 summary: 华科校友推出AI4S科研智能体，让AI从建议走向自动化执行 www.icloudnews.net
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

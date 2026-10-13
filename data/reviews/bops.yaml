@@ -201,3 +201,44 @@
     and web actions, that could remove manual step-by-step operation and system switching; but all available
     evidence points to an unrelated frozen-custard shop and a TikTok hashtag, so why users choose it cannot
     be confirmed.'
+- id: req-full-bops-2026-10-13
+  project_slug: bops
+  level: full
+  reviewed_at: '2026-10-13T03:43:28Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图让 AI 机器人代发邮件、打电话、操作网页系统，但公开材料只有一句定位，未说明旧流程哪一步费时、痛点强度与不采用代价，价值结构无法还原。
+    evidence_ids:
+    - ev-1d14e3ff38c4454d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bops.bot 官网的定价页、客户案例与部署文档，确认实际接入了哪些系统、替代了哪一步人工流程。
+  market: ''
+  job: 小团队的运营或行政人员在处理日常事务时，把需要发邮件、打电话、在网页系统里操作的任务交给 Bops 的多个 AI 机器人，每个机器人有自己的电脑、邮箱和电话号码，最终产出是这些事务被代为执行。
+  job_en: Ops or admin staff at small teams hand off email, phone-call, and web-system tasks to Bops'
+    AI bots, each with its own computer, email and phone number, so those tasks get executed on their
+    behalf.
+  pain: 公开材料只有一句产品定位，未说明运营人员当前在哪一步费时、出错或积压，也没有用户抱怨或案例，痛点无法还原。
+  pain_en: Public material offers only a one-line positioning statement, with no account of which step
+    of ops work is slow, error-prone, or backlogged, and no user complaints or cases, so the pain cannot
+    be reconstructed.
+  current_alternative: 公开材料未说明用户目前如何完成这些事务，也未说明它替代了人工助理、外包还是现有自动化工具。
+  current_alternative_en: Public materials do not show how users complete these tasks today, nor whether
+    it replaces human assistants, outsourcing, or existing automation tools.
+  usage_reason: 推断：若机器人能自带邮箱与电话直接执行事务，可省去人工逐条操作；但公开材料未给出任何使用场景或留存证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if bots with their own email and phone execute tasks directly, manual step-by-step
+    handling could be removed; but public material gives no usage scenario or retention evidence, so why
+    users choose it cannot be confirmed.'

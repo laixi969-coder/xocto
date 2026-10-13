@@ -216,3 +216,45 @@
   usage_reason: 公开证据全部指向东京涩谷的 Moyai 石像与同名 emoji，与编码代理产品无关，无法说明任何用户为何会选择它。
   usage_reason_en: All public evidence points to the Moyai statue near Shibuya, Tokyo and the emoji of
     the same name, unrelated to a coding agent, so it cannot explain why any user would choose it.
+- id: req-full-moyai-2026-10-13
+  project_slug: moyai
+  level: full
+  reviewed_at: '2026-10-13T03:45:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部是 Moyai 雕像与 Moai 表情符号的百科与迷因页面，没有任何材料说明该编码代理解决什么用户任务、痛点为何刚性、当前如何替代，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-bf605db33d1b6bf2
+    - ev-30cb031e9a8c5728
+    - ev-7937a3ed839fe3dd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该编码代理项目的官方仓库与文档页面，核对 README、issue 与 discussion 中是否披露自托管部署方式、支持的任务类型与人工复核流程。
+  market: ''
+  job: 软件工程师在维护既有代码库时，把批量重构、依赖升级、测试补齐等长耗时编码任务交给后台代理执行，再取回代码变更复核合并。
+  job_en: Software engineers maintaining an existing codebase hand long-running coding tasks such as bulk
+    refactors, dependency upgrades and test coverage to a background agent, then retrieve and review the
+    resulting changes.
+  pain: 公开证据中没有任何关于该产品用户任务、痛点或使用行为的材料，无法确认开发者是否真的被长耗时任务打断、是否愿意自托管代理。
+  pain_en: No public evidence describes this product's user tasks, pain points or usage behavior, so it
+    is unverified whether developers are actually interrupted by long-running tasks or willing to self-host
+    an agent.
+  current_alternative: 公开材料未提供任何关于现有替代方式的信息，无法判断开发者目前是手动执行、使用云端编码代理还是其他做法。
+  current_alternative_en: Public material provides no information on current alternatives, so it is unknown
+    whether developers run tasks manually, use cloud coding agents, or something else.
+  usage_reason: 无法判断：现有证据全部指向东京 Moyai 雕像与 Moai 表情符号，与编码代理产品无关，缺少任何可归因到该产品的功能、用户或采用事实。
+  usage_reason_en: 'Cannot be determined: all available evidence concerns the Tokyo Moyai statue and the
+    Moai emoji, unrelated to a coding agent product, with no attributable feature, user or adoption facts.'

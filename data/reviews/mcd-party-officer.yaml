@@ -87,3 +87,52 @@
     odds, buyout-versus-shared cost and candidate dates into one judgment, removing repeated counting
     and price comparison; parents planning a kids'' birthday who fear not filling the group would screen
     options with it before fixing a date.'
+- id: req-full-mcd-party-officer-2026-10-13
+  project_slug: mcd-party-officer
+  level: full
+  reviewed_at: '2026-10-13T03:45:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决儿童派对能否成团、包场还是拼团、定哪天的具体决策，痛点在于人数、档期与预算互相牵制且常拖到办不成；公开页面已给出成团概率、择日与招募卡等交付动作，属工作流结构推理，成团概率依据未公开。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+    - ev-722f47f78537dde4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 85 增至 158 只反映开发者关注度，没有家长或组织者的使用反馈、评价或案例证明它已进入派对筹备流程，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+    - ev-722f47f78537dde4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页或收费方式，钱可能来自家长按次付费、门店/服务商合作或纯开源，属判断而非已验证事实；中文生态检索也未发现采购或付费记录。
+    evidence_ids:
+    - ev-324cc88f98f28782
+    - ev-bd3637ccc2a257a3
+  - gate: truth
+    status: insufficient
+    reason: 成团概率与门店档期依赖外部数据，公开材料未说明数据来源、更新方式与人工确认环节，实际成团与门店档期确认仍待核验，交付确定性存疑。
+    evidence_ids:
+    - ev-b810f02b62d22e8a
+  next_validation: 追踪该 Skill 仓库的 README、issue 与 discussion，确认成团概率与门店档期数据的来源、更新方式，以及是否出现真实办成的派对案例或门店合作记录。
+  market: ''
+  job: 家长或活动组织者在筹办麦当劳门店儿童派对时，把人数、日期和预算交给这个 Skill，要判断能否凑够成团人数、选包场还是拼团、定哪一天，并生成招募卡与邀请函去召集参与者。
+  job_en: A parent or organizer planning a kids' party at a McDonald's store feeds headcount, dates and
+    budget into this Skill to judge whether the group will fill, whether to buy out or share the venue,
+    which day to pick, and then generates recruitment cards and invitations to gather participants.
+  pain: 成团人数、门店档期与预算互相牵制，靠家长群反复接龙统计、逐个打电话问档期、手动比价，过程拖沓且常因凑不齐人而办不成；公开材料未给出成团概率的计算依据与门店档期数据来源。
+  pain_en: Headcount, store availability and budget constrain each other; repeated roll-calls in parent
+    chats, calling the store for slots and manual price comparison drag on and often end with the event
+    falling apart; the public material does not disclose how group-formation odds are computed or where
+    store-slot data comes from.
+  current_alternative: 在家长群里反复接龙统计人数，自己打电话或到店问档期，再用模板拼邀请函，靠经验判断包场还是拼团。
+  current_alternative_en: Repeated roll-calls in parent chat groups, calling or visiting the store for
+    availability, assembling invitations from templates, and judging buyout versus shared booking by experience.
+  usage_reason: 推断：相较群里接龙加电话问档期，它把成团概率、包场与拼团成本、可选日期和营养指数放进一次判断并直接产出招募卡与邀请函，省掉反复统计、比价和另找模板这两步；怕凑不齐人又赶时间的家长会在定日子之前先用它筛方案。
+  usage_reason_en: 'Inference: versus chat roll-calls plus phone calls, it folds group-formation odds,
+    buyout-versus-shared cost, candidate dates and a nutrition index into one judgment and directly outputs
+    recruitment cards and invitations, removing repeated counting, price comparison and template hunting;
+    time-pressed parents who fear an under-filled group would screen options with it before fixing a date.'

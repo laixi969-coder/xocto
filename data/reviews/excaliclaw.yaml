@@ -1,0 +1,82 @@
+- id: req-initial-excaliclaw-2026-10-13
+  project_slug: excaliclaw
+  level: initial
+  reviewed_at: '2026-10-13T03:03:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能确认它做手绘风图表协作，无法说清具体用户任务、痛点强度与不采用的后果，价值结构尚未成立。
+    evidence_ids:
+    - ev-80e232803490ea23
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无任何采用或关注度数据可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-80e232803490ea23
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，材料未披露定价、买方或收费方式。
+    evidence_ids:
+    - ev-80e232803490ea23
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，代理绘制是否贴近第一性目标、能否确定性交付均无材料支持。
+    evidence_ids:
+    - ev-80e232803490ea23
+  next_validation: 收集该产品的官方页面或演示，确认代理在画布上的具体输入、动作与交付形态。
+  market: ''
+  job: 产品与设计人员在评审或讲解时，需要把想法快速画成手绘风格示意图，处理的是画布上的图形与文字，要完成一张可继续编辑的图。
+  job_en: Product and design people need to quickly sketch ideas into hand-drawn style diagrams during
+    reviews or explanations, working with shapes and text on a canvas to produce an editable figure.
+  pain: 公开材料只有一句描述，无法确认手绘示意图这一步现在有多痛、不画会有什么后果。
+  pain_en: The public material is a single line, so it is impossible to confirm how painful the hand-drawn
+    diagram step is or what happens if it is skipped.
+  current_alternative: 现有做法是用 Excalidraw、Figma 或纸笔手绘，再手动整理成图。
+  current_alternative_en: Current practice is drawing by hand in Excalidraw, Figma or on paper, then tidying
+    it into a diagram manually.
+  usage_reason: 推断：若代理能在同一画布上直接落笔并保留可编辑性，用户可省去从描述到手动描线的一步；但缺少任何使用或付费证据，无法确认这类用户会因此选择它。
+  usage_reason_en: 'Inference: if the agent can draw directly on the same canvas while keeping edits possible,
+    users skip the step of manually tracing from a description; with no usage or payment evidence, it
+    is unconfirmed that such users would choose it.'
+- id: req-full-excaliclaw-2026-10-13
+  project_slug: excaliclaw
+  level: full
+  reviewed_at: '2026-10-13T03:44:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有一句产品描述，能看出它做手绘风图表协作，但具体输入、代理动作、交付形态与不采用的后果都说不清，连需求与痛点都无法还原，价值结构尚未成立。
+    evidence_ids:
+    - ev-80e232803490ea23
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 ExcaliClaw 的官方产品页或演示视频，确认代理在画布上的具体输入、动作与交付形态，以及是否公开定价或客户案例。
+  market: ''
+  job: 产品与设计人员在评审或讲解时，需要把口头想法快速落成手绘风格示意图，处理的是画布上的图形与文字，要完成一张可继续编辑的图。
+  job_en: Product and design people need to quickly turn spoken ideas into hand-drawn style diagrams during
+    reviews or explanations, working with shapes and text on a canvas to produce an editable figure.
+  pain: 公开材料只有一句产品描述，无法确认手绘示意图这一步现在有多痛、不画会有什么后果，也看不到任何用户抱怨或替代行为的记录。
+  pain_en: The public material is a single product line, so it is impossible to confirm how painful the
+    hand-drawn diagram step is or what happens if it is skipped, and no user complaints or workaround
+    records are visible.
+  current_alternative: 现有做法是用 Excalidraw、Figma 或纸笔手绘，再手动整理成图。
+  current_alternative_en: Current practice is drawing by hand in Excalidraw, Figma or on paper, then tidying
+    it into a diagram manually.
+  usage_reason: 推断：若代理能在同一画布上直接落笔并保留可编辑性，用户可省去从描述到手动描线的一步；但缺少任何使用、评价或付费证据，无法确认这类用户会因此选择它。
+  usage_reason_en: 'Inference: if the agent can draw directly on the same canvas while keeping edits possible,
+    users skip the step of manually tracing from a description; with no usage, review or payment evidence,
+    it is unconfirmed that such users would choose it.'

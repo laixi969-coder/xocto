@@ -1,0 +1,89 @@
+- id: req-initial-投融资动态rinoai白犀牛自动驾驶c轮融资融资额1亿美元投资方为隐山资本湘潭国资等-2026-10-13
+  project_slug: 投融资动态rinoai白犀牛自动驾驶c轮融资融资额1亿美元投资方为隐山资本湘潭国资等
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 末端物流高频且人力成本占比刚性，低速无人车替代短途点对点驾驶具备结构性成立的业务价值。
+    evidence_ids:
+    - ev-6a36703bd46d6776
+  - gate: consensus
+    status: insufficient
+    reason: 虽完成1亿美元C+轮融资，但公开材料未披露在营车辆规模、客户留存率与实际履约单量。
+    evidence_ids:
+    - ev-6a36703bd46d6776
+  - gate: model
+    status: insufficient
+    reason: 机构与地方国资跟投，但未披露整车销售与运力订阅服务的单车毛利及商业化盈利周期。
+    evidence_ids:
+    - ev-6a36703bd46d6776
+  - gate: truth
+    status: supported
+    reason: 聚焦城市低速场景货物周转，以无人车承载确定性货运任务，远程人工接管作为安全兜底边界明确。
+    evidence_ids:
+    - ev-6a36703bd46d6776
+  next_validation: 查证白犀牛官方披露的常态化商业运营车队规模、合作用工单位案例及计费模式。
+  market: ''
+  job: 同城配送调度员在日间或夜间运力高峰期，需要把生鲜或快件从中转仓转运至社区网格点。
+  job_en: Urban dispatchers moving parcels and groceries from micro-fulfillment hubs to neighborhood stations
+    during daytime and nighttime delivery peaks.
+  pain: 骑手和轻卡司机人力成本逐年上升，夜间与恶劣天气招工困难，运力调配存在明显断档。
+  pain_en: Rising driver labor costs and shortages during extreme weather or nighttime shifts create unpredictable
+    delivery capacity bottlenecks.
+  current_alternative: 雇佣两轮电动车骑手、租赁厢式货车配专职司机，或由网点人员手工推车短途接驳。
+  current_alternative_en: Hiring two-wheel couriers, renting light vans with dedicated drivers, or using
+    manual pushcarts for short-haul transfers.
+  usage_reason: 推断物流企业通过无人配送车替代固定线路的人工驾驶环节，消除夜间运力溢价，但其实际单票降本幅度需后续商业数据支撑。
+  usage_reason_en: Logistics providers are inferred to deploy autonomous vans along fixed feeder paths
+    to replace human drivers and curb nighttime overtime costs, though exact unit cost reductions await
+    operational disclosures.
+- id: req-full-投融资动态rinoai白犀牛自动驾驶c轮融资融资额1亿美元投资方为隐山资本湘潭国资等-2026-10-13
+  project_slug: 投融资动态rinoai白犀牛自动驾驶c轮融资融资额1亿美元投资方为隐山资本湘潭国资等
+  level: full
+  reviewed_at: '2026-10-13T03:48:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决末端短途货运的驾驶人力与夜间运力断档需求，痛点来自物流运输成本刚性；官网明确以无人配送为起点降低物流运输成本，属公开事实，痛点强度与替代流程为工作流结构推理，尚无量化降本数据。
+    evidence_ids:
+    - ev-e926fae365d4b383
+    - ev-8d020612c01ff122
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道仅显示其在顺丰体系内争取主力供应商位置并渗透外部客户，未披露在营车队规模、履约单量或客户续约情况，无法确认持续采用已形成。
+    evidence_ids:
+    - ev-8d020612c01ff122
+  - gate: model
+    status: insufficient
+    reason: C+轮1亿美元由隐山资本、湘潭国资等投资方参与，属公开融资事实，但未见整车销售、运力订阅或按单计费的定价与毛利披露，to B付费路径为判断而非已验证事实。
+    evidence_ids:
+    - ev-8d020612c01ff122
+  - gate: truth
+    status: supported
+    reason: 官网称专注城市公开道路L4自动驾驶产品与服务，任务边界为低速货运、异常由远程人工接管，第一性目标与安全人工边界表述清晰，但接管率与事故数据未公开。
+    evidence_ids:
+    - ev-e926fae365d4b383
+  next_validation: 追踪白犀牛官网或顺丰等合作方公开披露的常态化商业运营车队规模、计费模式与客户案例文档。
+  market: ''
+  job: 物流运营主管或末端配送调度员在日间与夜间运力高峰、恶劣天气或招工困难时，需要把快件、生鲜等货物从中转仓或网点沿固定短途线路接驳到社区网格点，完成点到点货物交付。
+  job_en: Logistics operations leads or last-mile dispatchers need to move parcels and groceries from
+    transfer hubs or depots along fixed short-haul routes to neighborhood stations during daytime/nighttime
+    peaks, bad weather or driver shortages, completing point-to-point delivery.
+  pain: 公开材料称其目标是让物流运输成本更低，说明末端短途驾驶的人力成本与夜间、恶劣天气下的运力断档是核心痛点；但公开证据未给出具体成本占比或招工缺口数据，痛点强度属结构推理。
+  pain_en: Public material states the goal is lowering logistics transport cost, implying driver labor
+    cost and capacity gaps at night or in bad weather are the core pain; no specific cost-share or hiring-gap
+    figures are disclosed, so intensity is a structural inference.
+  current_alternative: 雇佣两轮电动车骑手、租赁厢式货车配专职司机，或由网点人员手工短途接驳；公开报道提到白犀牛需在顺丰体系内站稳主力供应商位置，说明大型物流体系内已有自营或外包运力作为旧替代。
+  current_alternative_en: Hiring two-wheel couriers, renting light vans with dedicated drivers, or manual
+    short-haul transfers by depot staff; coverage notes Rino.ai must secure a main-supplier position inside
+    SF Express, indicating incumbent self-run or outsourced capacity is the existing substitute.
+  usage_reason: 推断：相较雇佣司机跑固定接驳线路，无人配送车按预设路径自动完成低速货运，把驾驶环节从人力排班中移出，使物流运营方在夜间或招工困难时段仍能维持固定线路运力；哪类用户会采用取决于其单票降本幅度，公开材料尚未核验。
+  usage_reason_en: 'Inference: versus hiring drivers for fixed feeder routes, autonomous vans run low-speed
+    cargo transport on preset paths, removing the driving step from human shift scheduling so operators
+    can keep fixed-route capacity at night or during hiring shortages; which users adopt depends on per-parcel
+    cost savings, not yet verified publicly.'

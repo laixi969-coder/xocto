@@ -236,3 +236,55 @@
     collapsing migration and local environment steps into one launch plus a local dashboard; developers
     migrating from Claude Code/Codex who want to keep local project control would choose it in local project
     scenarios, though no public user feedback yet confirms this motive.'
+- id: req-full-rustdsh-2026-10-13
+  project_slug: rustdsh
+  level: full
+  reviewed_at: '2026-10-13T03:46:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者从 Claude Code/Codex 迁移到 DeepSeek Harness 时的配置与工具调用摩擦，痛点在于迁移步骤多、agent 工具调用缺约束、结果分散；不采用就得手工配置并盯终端。公开说明已能还原输入、动作与交付闭环，属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-360fba0cc93c16a3
+    - ev-a5712c307125e07d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 61 增至 71，说明有开发者关注并可能试用，但收藏与增长只属关注度证据，公开材料没有 issue、discussion 或评价说明谁在什么场景持续使用，也未显示它已留在工作流里。
+    evidence_ids:
+    - ev-a5712c307125e07d
+    - ev-17eba258da75ad95
+  - gate: model
+    status: insufficient
+    reason: 这是开源启动器，公开材料没有定价页、付费记录或采购信息，买方是个人开发者自用还是团队采购无法判断；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-360fba0cc93c16a3
+  - gate: truth
+    status: insufficient
+    reason: 公开说明提到受约束的 agent 工具与本地面板，但缺少部署文档、可复现实测或 issue 记录来确认交付能否稳定发生，以及人工确认与安全边界如何划定。
+    evidence_ids:
+    - ev-a5712c307125e07d
+    - ev-360fba0cc93c16a3
+  next_validation: 追踪 rustdsh 仓库的 issue 与 discussion，确认是否有开发者报告在真实本地项目中完成 Claude Code/Codex 到 DSH 的迁移并持续使用。
+  market: ''
+  job: 使用 Claude Code 或 Codex 的开发者，在本地项目里想切换到 DeepSeek Harness 跑 agent 任务时，打开这个 Rust 启动器，输入命令行指令，由它调用受约束的
+    agent 工具，并在本地项目面板上查看执行结果。
+  job_en: 'Developers who use Claude Code or Codex open this Rust launcher in a local project to run DeepSeek
+    Harness agent tasks: they issue CLI commands, the launcher invokes guarded agent tools, and results
+    appear on a local project dashboard.'
+  pain: 公开说明强调从 Claude Code/Codex 迁移、模型配置和轻量本地工具，指向的痛点是换用 DSH 时配置与迁移步骤繁琐、agent 工具调用缺少约束、结果散落在终端里难以查看；但公开材料没有用户抱怨原文，痛点强度属于工作流结构推理。
+  pain_en: The README emphasizes migration from Claude Code/Codex, model setup and lightweight local tools,
+    implying friction in switching to DSH, unguarded agent tool calls, and results scattered in the terminal;
+    no verbatim user complaints are public, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是继续用 Claude Code 或 Codex 自带的工作流，或手工配置 DeepSeek Harness 并在终端里直接跑命令、自己盯 agent
+    的工具调用与输出。
+  current_alternative_en: The old way is to stay on Claude Code or Codex workflows, or to hand-configure
+    DeepSeek Harness and run commands in a plain terminal while manually watching agent tool calls and
+    output.
+  usage_reason: 推断：相较手工配置 DSH 加裸终端，它把迁移、模型设置和受约束工具调用收进一个 Rust 启动器，并在本地面板汇总结果，减少逐项配置和翻找终端输出这两步负担，因此想低成本试
+    DSH 的 Claude Code/Codex 用户会在本地项目里选它。
+  usage_reason_en: 'Inference: versus hand-configuring DSH plus a bare terminal, it folds migration, model
+    setup and guarded tool calls into one Rust launcher and aggregates results in a local dashboard, cutting
+    the steps of item-by-item configuration and scrolling terminal output, so Claude Code/Codex users
+    wanting a low-cost DSH trial would pick it in a local project.'

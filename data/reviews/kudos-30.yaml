@@ -1,0 +1,83 @@
+- id: req-initial-kudos-30-2026-10-13
+  project_slug: kudos-30
+  level: initial
+  reviewed_at: '2026-10-13T03:03:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决漏掉的返现、退款和隐性费用问题，痛点具体且不处理的代价是直接损失金钱，旧做法是人工翻账单。
+    evidence_ids:
+    - ev-3f9d976021c095c4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条发布信息，没有用户评价、采用规模或重复使用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-3f9d976021c095c4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方路径，按追回金额收费还是订阅收费属推断，尚无已验证付费事实。
+    evidence_ids:
+    - ev-3f9d976021c095c4
+  - gate: truth
+    status: insufficient
+    reason: 未说明账户数据如何接入、追回动作由谁执行，交付确定性无法核对。
+    evidence_ids:
+    - ev-3f9d976021c095c4
+  next_validation: 收集 Kudos 官方定价页或客户案例，确认其数据接入方式与是否按追回金额收费。
+  market: ''
+  job: 个人消费者在整理信用卡、订阅和返现权益时，让 AI 找出被遗漏的返现、退款或费用并协助追回。
+  job_en: An individual consumer reviewing cards, subscriptions and cashback benefits lets AI surface
+    missed cashback, refunds or fees and help recover them.
+  pain: 漏掉的返现、重复订阅和隐性费用分散在多张卡和多个平台，人工逐条核对成本高，多数人直接放弃。
+  pain_en: Missed cashback, duplicate subscriptions and hidden fees are scattered across cards and platforms;
+    manual line-by-line checking is costly and most people simply give up.
+  current_alternative: 自己翻账单、用记账 App 手工分类，或干脆不查，接受这部分钱流失。
+  current_alternative_en: Reviewing statements by hand, manually categorising in a budgeting app, or not
+    checking at all and accepting the loss.
+  usage_reason: 推断：相较人工翻账单，它把扫描权益与费用这一步自动化，用户只需确认追回动作，因此对持有多张卡、订阅繁杂的人有吸引力；但公开材料未说明数据接入方式，实际减负程度待核验。
+  usage_reason_en: 'Inference: versus manual statement review it automates the scanning of benefits and
+    fees so the user only confirms the recovery action, which appeals to people with many cards and tangled
+    subscriptions; the public material does not explain data access, so the real reduction in effort is
+    unverified.'
+- id: req-full-kudos-30-2026-10-13
+  project_slug: kudos-30
+  level: full
+  reviewed_at: '2026-10-13T03:45:09Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决漏掉的返现、退款与隐性费用，但公开证据只有词典释义和同名员工表彰平台，没有任何用户任务、痛点或替代行为的材料，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-1c5f0d206f4f09c1
+    - ev-99588af49be37c39
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 kudos.com 或该产品官方页面是否发布个人金融追回功能的定价页与客户案例，以确认其真实产品定位。
+  market: ''
+  job: 个人消费者在整理信用卡、订阅和返现权益时，让 AI 找出被遗漏的返现、退款或费用并协助追回。
+  job_en: An individual consumer reviewing cards, subscriptions and cashback benefits lets AI surface
+    missed cashback, refunds or fees and help recover them.
+  pain: 公开证据中没有任何关于漏返现、重复订阅或隐性费用的用户抱怨、案例或行为记录，痛点无法从材料中还原。
+  pain_en: No public evidence records user complaints, cases or behaviour about missed cashback, duplicate
+    subscriptions or hidden fees, so the pain cannot be reconstructed from the material.
+  current_alternative: 材料未提供任何现有替代方式的描述，无法说明用户目前如何绕过这一问题。
+  current_alternative_en: The material provides no description of any current alternative, so how users
+    work around the problem cannot be stated.
+  usage_reason: 材料未说明产品如何接入账户、如何交付追回结果，无法解释用户为何会选择它；现有证据全部是词典释义与同名员工表彰平台，与个人金融追回无关。
+  usage_reason_en: The material does not explain how the product accesses accounts or delivers recovery,
+    so why a user would choose it cannot be explained; all evidence is dictionary definitions and a same-named
+    employee recognition platform, unrelated to personal-finance recovery.

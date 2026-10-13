@@ -32,7 +32,7 @@ summary: 'Last week, we tracked more than 70 tech funding deals worth over €81
   B to expand access to cash yield SWEDEN: Yazen raises €50M in funding UK: Sensible Biotechnologies raises'
 first_seen: '2026-10-13T03:04:22Z'
 last_seen: '2026-10-13T03:04:22Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

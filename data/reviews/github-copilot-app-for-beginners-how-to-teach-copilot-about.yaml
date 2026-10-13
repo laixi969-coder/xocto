@@ -1,0 +1,93 @@
+- id: req-initial-github-copilot-app-for-beginners-how-to-teach-copilot-about-2026-10-13
+  project_slug: github-copilot-app-for-beginners-how-to-teach-copilot-about
+  level: initial
+  reviewed_at: '2026-10-13T03:04:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是助手每次都要重新解释项目规范、生成改动不符合既有模式的问题，痛点具体且已有旧替代行为。
+    evidence_ids:
+    - ev-d5e6d6f9bdbe92c7
+  - gate: consensus
+    status: insufficient
+    reason: 官方博客说明的是配置方式，未提供团队采用规模、留存或客户案例，共识强度无法判断。
+    evidence_ids:
+    - ev-d5e6d6f9bdbe92c7
+  - gate: model
+    status: insufficient
+    reason: 这是 公开代码仓库 现有产品的功能说明，材料未披露该能力的定价、席位或按结果收费方式，买方路径不清。
+    evidence_ids:
+    - ev-d5e6d6f9bdbe92c7
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明生成改动的一次通过率与人工复核比例，交付确定性缺少可核对结果。
+    evidence_ids:
+    - ev-d5e6d6f9bdbe92c7
+  next_validation: 收集 公开代码仓库 官方文档或定价页中关于自定义指令、agent skills 与 MCP 配置的计费与配额说明，确认该能力的付费路径。
+  market: ''
+  job: 研发团队成员在接手或修改既有代码库时，把团队编码约定、构建脚本与框架规则整理成仓库内配置，让 Copilot 按这些规则生成改动。
+  job_en: Engineering team members onboarding to or modifying an existing codebase turn team conventions,
+    build scripts and framework rules into in-repo configuration so Copilot generates changes that follow
+    them.
+  pain: 每次新任务都要向助手重复解释同样的规范、脚本和流程，否则生成的改动不符合项目既有模式，需要人工逐处返工。
+  pain_en: Every new task requires re-explaining the same standards, scripts and workflows, otherwise
+    generated changes break existing project patterns and need manual rework.
+  current_alternative: 旧做法是开发者把规范写在文档或口头交接里，每次对话手动粘贴上下文，或干脆自己按惯例手写改动。
+  current_alternative_en: The old way is documenting conventions in wikis or verbal handover, pasting
+    context manually into each conversation, or simply writing the change by hand.
+  usage_reason: 相较每次手动粘贴上下文，把约定与脚本固化进仓库配置后，助手在生成改动时自动带上这些规则，减少的是“重复解释并逐处纠正不符合规范代码”这一步负担；推断接手遗留项目、规范分散的团队会因此选择它。
+  usage_reason_en: Compared with pasting context each time, fixing conventions and scripts into repository
+    configuration makes the assistant apply them automatically when generating changes, removing the step
+    of re-explaining and correcting non-conforming code; this is an inference that teams inheriting legacy
+    projects with scattered conventions would choose it.
+- id: req-full-github-copilot-app-for-beginners-how-to-teach-copilot-about-2026-10-13
+  project_slug: github-copilot-app-for-beginners-how-to-teach-copilot-about
+  level: full
+  reviewed_at: '2026-10-13T03:44:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是助手每次都要重新解释项目规范、生成改动不符合既有模式的问题，痛点具体且已有旧替代行为；这是基于官方功能说明的工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-296d5e76c7305ebd
+    - ev-68ce5b9dec6b9e2a
+  - gate: consensus
+    status: insufficient
+    reason: 官方博客说明的是配置方式，未提供团队采用规模、留存或客户案例，共识强度无法判断。
+    evidence_ids:
+    - ev-68ce5b9dec6b9e2a
+    - ev-fd52dd5554a4558b
+  - gate: model
+    status: insufficient
+    reason: 这是 公开代码仓库 现有产品的功能说明，材料未披露该能力的定价、席位或按结果收费方式，买方路径不清；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-296d5e76c7305ebd
+    - ev-fd52dd5554a4558b
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明生成改动的一次通过率与人工复核比例，交付确定性缺少可核对结果。
+    evidence_ids:
+    - ev-68ce5b9dec6b9e2a
+    - ev-fd52dd5554a4558b
+  next_validation: 收集 公开代码仓库 官方文档或定价页中关于自定义指令、agent skills 与 MCP 配置的计费与配额说明，确认该能力的付费路径。
+  market: ''
+  job: 研发团队成员在接手或修改既有代码库时，把团队编码约定、构建脚本与框架规则整理成仓库内的自定义指令、agent skills 与 MCP 配置，让 Copilot 按这些规则生成跨文件改动，再由开发者审阅合并。
+  job_en: Engineering team members onboarding to or modifying an existing codebase encode team conventions,
+    build scripts and framework rules into in-repo custom instructions, agent skills and MCP configuration
+    so Copilot generates cross-file changes that follow them, then review and merge.
+  pain: 每次新任务都要向助手重复解释同样的规范、脚本和流程，否则生成的改动不符合项目既有模式，需要人工逐处返工；团队约定散落在文档、口头交接与个人习惯中，难以稳定复用。
+  pain_en: Every new task requires re-explaining the same standards, scripts and workflows; otherwise
+    generated changes break existing project patterns and need manual rework, while team conventions stay
+    scattered across docs, verbal handover and personal habits.
+  current_alternative: 旧做法是把规范写在 wiki 或口头交接里，每次对话手动粘贴上下文，或干脆自己按惯例手写改动。
+  current_alternative_en: The old way is documenting conventions in wikis or verbal handover, pasting
+    context manually into each conversation, or simply writing the change by hand.
+  usage_reason: 相较每次手动粘贴上下文，把约定与脚本固化进仓库配置后，助手在生成改动时自动带上这些规则，减少的是“重复解释并逐处纠正不符合规范代码”这一步负担；推断接手遗留项目、规范分散的团队会因此选择它。
+  usage_reason_en: Compared with pasting context each time, fixing conventions and scripts into repository
+    configuration makes the assistant apply them automatically when generating changes, removing the step
+    of re-explaining and correcting non-conforming code; this is an inference that teams inheriting legacy
+    projects with scattered conventions would choose it.

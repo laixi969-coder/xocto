@@ -1,0 +1,38 @@
+- id: req-initial-prezi-2026-10-13
+  project_slug: prezi
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决演示制作这一任务，但材料未说明 AI 改造了哪一步旧流程，也说不清不采用会失去什么。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有访问量与环比下降数据，没有用户评价或客户案例，无法判断 AI 改造是否被采用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露本次 AI 功能的定价与买方结构，收入来源无法核验，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法确认 AI 生成结果是否可直接交付使用，人工确认边界未说明。
+    evidence_ids: []
+  next_validation: 收集 Prezi 官方关于本次 AI 功能的发布说明或定价页，确认 AI 具体接管哪一步以及是否单独计价。
+  market: ''
+  job: 市场或培训人员要在会议或课堂上把内容组织成一份可交互演示，并现场讲解。
+  job_en: Marketing or training staff must organise content into an interactive presentation for a meeting
+    or class and present it live.
+  pain: 演示制作本身耗时，但候选材料只给出通用欢迎语，没有说明 AI 具体替代了哪一步旧工作，痛点与改造幅度无法确认。
+  pain_en: Producing presentations takes time, but the candidate material only offers generic welcome
+    copy and does not say which old step the AI replaces, so the pain and depth of change are unconfirmed.
+  current_alternative: 公开材料未说明替代方式，推断用户此前使用传统幻灯片软件或 Prezi 自身的手工画布编辑。
+  current_alternative_en: The public material does not state the alternative; conventional slide software
+    or Prezi's own manual canvas editing is an inference.
+  usage_reason: 推断：若 AI 能把已有文字或旧稿直接转成缩放式演示结构，用户可省去手工排布画布这一步；但缺少用户反馈，无法确认这是选择它的原因。
+  usage_reason_en: 'Inference: if the AI converts existing text or old decks into a zoomable presentation
+    structure, users skip manually arranging the canvas; without user feedback this cannot be confirmed
+    as the reason for choosing it.'

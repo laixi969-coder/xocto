@@ -1,0 +1,92 @@
+- id: req-initial-ai查政策不再真假难辨-智眸可信geo-为长沙两企三新构建信息基座-2026-10-13
+  project_slug: ai查政策不再真假难辨-智眸可信geo-为长沙两企三新构建信息基座
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决政策真假难辨、人工核对耗时的问题，痛点具体；但公开材料未说明检索范围、更新频率与交付形态，无法确认是否真的替代了旧核对流程。
+    evidence_ids:
+    - ev-b7f79f5ca0ae97c5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇地方媒体报道，未见使用单位数量、复购或持续使用证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-b7f79f5ca0ae97c5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、采购方式与买方是园区、协会还是企业本身，钱从哪一方来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-b7f79f5ca0ae97c5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对政策来源是否权威、更新是否及时，也未说明人工复核边界，交付确定性存疑。
+    evidence_ids:
+    - ev-b7f79f5ca0ae97c5
+  next_validation: 收集智眸可信GEO的官方产品页或部署说明，确认其政策数据来源清单、更新频率与是否提供出处引用。
+  market: ''
+  job: 地方园区、行业协会或“两企三新”单位里负责政策事务的人，在需要确认某项政策是否真实、是否适用于本单位时，处理政策原文与解读材料，要拿到可引用的政策结论。
+  job_en: Policy staff at local parks, industry associations or 'two-enterprise, three-new' organizations,
+    when confirming whether a policy is genuine and applicable, work with policy texts and interpretations
+    to obtain a citable policy conclusion.
+  pain: 政策信息分散在多个官方渠道，网络转述真假混杂，人工核对耗时且容易引用错误版本。
+  pain_en: Policy information is scattered across official channels and online retellings mix true and
+    false, so manual verification is slow and easy to cite the wrong version.
+  current_alternative: 人工逐个访问政府官网、公众号，或向同行、中介询问，再自行比对政策原文。
+  current_alternative_en: Manually visiting government sites and official accounts one by one, or asking
+    peers and intermediaries, then comparing policy texts by hand.
+  usage_reason: 推断：若其信息基座确实限定在可追溯的官方政策来源并给出出处，用户可省去逐个官网翻找与比对版本这一步，因此地方园区和协会的政策岗在需要快速给出可引用结论时会选择它；但公开材料未说明检索范围与更新机制，无法确认这一动作是否真的发生。
+  usage_reason_en: 'Inference: if its information base is genuinely limited to traceable official policy
+    sources with citations, users skip the step of searching each official site and comparing versions,
+    so policy roles at local parks and associations would choose it when a citable conclusion is needed
+    quickly; however public material does not describe retrieval scope or update mechanism, so this cannot
+    be confirmed.'
+- id: req-full-ai查政策不再真假难辨-智眸可信geo-为长沙两企三新构建信息基座-2026-10-13
+  project_slug: ai查政策不再真假难辨-智眸可信geo-为长沙两企三新构建信息基座
+  level: full
+  reviewed_at: '2026-10-13T03:42:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决政策真假难辨、人工核对耗时的问题，痛点具体且刚性；公开报道标题已点出该痛点，且从输入关键词到给出可引用政策条目的交付闭环在结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-b7f79f5ca0ae97c5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇地方媒体报道，未见使用单位数量、复购或持续使用证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-b7f79f5ca0ae97c5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、采购方式与买方是园区、协会还是企业本身，钱从哪一方来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-b7f79f5ca0ae97c5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对政策来源是否权威、更新是否及时，也未说明人工复核边界，交付确定性存疑。
+    evidence_ids:
+    - ev-b7f79f5ca0ae97c5
+  next_validation: 收集智眸可信GEO的官方产品页或部署说明，确认其政策数据来源清单、更新频率与是否提供出处引用。
+  market: ''
+  job: 长沙“两企三新”相关单位（园区、行业协会、非公企业）里负责政策事务的人，在需要确认某项政策是否真实、是否适用于本单位时，处理政策原文与网络转述材料，要拿到可引用、可追溯出处的政策结论。
+  job_en: Policy staff at Changsha 'two-enterprise, three-new' organizations (parks, industry associations,
+    non-public firms), when confirming whether a policy is genuine and applicable, work with policy texts
+    and online retellings to obtain a citable, traceable policy conclusion.
+  pain: 政策信息分散在多个官方渠道，网络转述真假混杂，人工核对耗时且容易引用错误版本；公开报道标题即点出“AI查政策真假难辨”这一痛点。
+  pain_en: Policy information is scattered across official channels and online retellings mix true and
+    false, so manual verification is slow and easy to cite the wrong version; the public report headline
+    itself names the 'hard to tell true from false' pain.
+  current_alternative: 人工逐个访问政府官网、公众号，或向同行、中介询问，再自行比对政策原文；也可能直接用通用大模型问答，但无法保证出处。
+  current_alternative_en: Manually visiting government sites and official accounts one by one, or asking
+    peers and intermediaries, then comparing policy texts by hand; some may use general LLM chat, but
+    with no guaranteed citation.
+  usage_reason: 推断：若其信息基座确实限定在可追溯的官方政策来源并给出出处，用户可省去逐个官网翻找与比对版本这一步，因此地方园区和协会的政策岗在需要快速给出可引用结论时会选择它；但公开材料未说明检索范围与更新机制，无法确认这一动作是否真的发生。
+  usage_reason_en: 'Inference: if its information base is genuinely limited to traceable official policy
+    sources with citations, users skip the step of searching each official site and comparing versions,
+    so policy roles at local parks and associations would choose it when a citable conclusion is needed
+    quickly; however public material does not describe retrieval scope or update mechanism, so this cannot
+    be confirmed.'

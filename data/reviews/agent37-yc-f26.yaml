@@ -1,0 +1,83 @@
+- id: req-initial-agent37-yc-f26-2026-10-13
+  project_slug: agent37-yc-f26
+  level: initial
+  reviewed_at: '2026-10-13T03:03:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决智能体隔离执行，但公开材料未说明替代了哪一步旧工作与具体痛点。
+    evidence_ids:
+    - ev-983ab9517d258b43
+  - gate: consensus
+    status: insufficient
+    reason: 讨论热度存在，但无采用或客户证据，看不出共识卡在哪一环。
+    evidence_ids:
+    - ev-983ab9517d258b43
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，低成本是自述，收费路径是判断而非已验证事实。
+    evidence_ids:
+    - ev-983ab9517d258b43
+  - gate: truth
+    status: insufficient
+    reason: 沙箱隔离与安全边界是核心，但候选未提供任何相关说明。
+    evidence_ids:
+    - ev-983ab9517d258b43
+  next_validation: 收集该产品的官方定价页或部署文档，确认沙箱的隔离方式、计费单位与是否有外部团队在用。
+  market: ''
+  job: 需要运行智能体的开发者与平台团队，在让智能体执行代码或调用工具时，把它放进沙箱以获得隔离的执行环境。
+  job_en: Developers and platform teams running agents place them in a sandbox to get an isolated execution
+    environment while the agent runs code or calls tools.
+  pain: 候选只给出“低成本沙箱”一句，未说明此前如何隔离执行、哪一步成本或风险高，痛点无法从现有事实还原。
+  pain_en: The candidate gives only 'low-cost sandboxes'; it does not say how isolation was done before
+    or which step was costly or risky, so the pain cannot be reconstructed from available facts.
+  current_alternative: 此前可能用云厂商容器或自建隔离环境运行智能体，但候选未提供对比证据。
+  current_alternative_en: Previously agents may have run in cloud containers or self-built isolated environments,
+    but the candidate offers no comparative evidence.
+  usage_reason: 推断：若沙箱确实更便宜，平台团队会在需要大量隔离执行时选择它以减少单次运行成本；但缺少定价、客户或使用数据，无法确认。
+  usage_reason_en: 'Inference: if the sandbox is genuinely cheaper, platform teams would choose it for
+    large volumes of isolated runs to cut per-run cost; but with no pricing, customers or usage data,
+    this is unconfirmed.'
+- id: req-full-agent37-yc-f26-2026-10-13
+  project_slug: agent37-yc-f26
+  level: full
+  reviewed_at: '2026-10-13T03:42:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决智能体隔离执行，但公开材料未说明替代了哪一步旧工作、哪类成本或安全风险高，需求与痛点均无法从现有事实还原。
+    evidence_ids:
+    - ev-983ab9517d258b43
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Agent37 官网或 YC 公司页的定价与部署文档，确认沙箱隔离方式、计费单位以及是否有外部团队公开使用案例。
+  market: ''
+  job: 开发者与平台团队在让智能体执行代码、调用工具或跑长任务时，把智能体放进沙箱，获得隔离且可重复的执行环境，避免污染宿主或互相干扰。
+  job_en: Developers and platform teams place agents into a sandbox when the agent executes code, calls
+    tools or runs long tasks, to obtain an isolated, repeatable execution environment that does not pollute
+    the host or interfere with other runs.
+  pain: 公开材料只有一句“低成本智能体沙箱”，没有说明此前隔离执行具体卡在哪一步、哪类成本或安全风险高，痛点无法从现有事实还原。
+  pain_en: The public material offers only 'low-cost agent sandboxes' and does not say which step of isolation
+    was previously painful or which cost or security risk was high, so the pain cannot be reconstructed
+    from available facts.
+  current_alternative: 推断：此前可能用云厂商容器、自建虚拟机或直接在宿主进程里跑智能体，但候选未提供任何对比证据。
+  current_alternative_en: 'Inference: agents may previously have run in cloud containers, self-built VMs,
+    or directly in host processes, but the candidate provides no comparative evidence.'
+  usage_reason: 推断：若沙箱确实更便宜且隔离可靠，平台团队会在需要大量隔离执行时选择它以减少单次运行成本；但缺少定价、隔离方式、客户或使用数据，无法确认这一因果。
+  usage_reason_en: 'Inference: if the sandbox is genuinely cheaper and reliably isolated, platform teams
+    would choose it for high volumes of isolated runs to cut per-run cost; but with no pricing, isolation
+    details, customers or usage data, this causal claim is unconfirmed.'

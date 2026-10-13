@@ -1,6 +1,6 @@
 ---
 slug: amazon-in-talks-to-acquire-ai-startup-decart-in-7-billion-de
-name: Amazon in talks to acquire AI startup Decart in $7 billion deal, report says
+name: Decart
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNMllCb3QxX002
 summary: Amazon in talks to acquire AI startup Decart in $7 billion deal, report says The American Bazaar
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Amazon in talks to acquire AI startup Decart in $7 billion deal, report says
+# Decart
 
 Amazon in talks to acquire AI startup Decart in $7 billion deal, report says The American Bazaar
 

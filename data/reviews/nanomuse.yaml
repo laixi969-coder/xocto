@@ -400,3 +400,55 @@
     actions, removing the step of staying at the device clicking through and lowering the risk of unrecoverable
     mistakes; thus individuals with cross-device repetitive work who worry about automation errors would
     choose it in these situations. Public materials give no user feedback, ret'
+- id: req-full-nanomuse-2026-10-13
+  project_slug: nanomuse
+  level: full
+  reviewed_at: '2026-10-13T03:45:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨设备重复操作与应用关闭后任务中断的需求，痛点是用户须守在设备前逐步点击、自动化出错难撤回；公开材料已说明输入（用户指令）、动作（本机与浏览器执行、常驻进程）与交付（已执行动作或待确认提示），属工作流结构推理，价值成立。
+    evidence_ids:
+    - ev-c5b2e8c8e3df5d77
+    - ev-95ba36ad542452e7
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明它开源、可自带模型或接入任意 OpenAI 兼容模型，未见用户评价、社区讨论或持续采用证据，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-c1e798a0a15bcb63
+    - ev-95ba36ad542452e7
+  - gate: model
+    status: insufficient
+    reason: 开源且含免费模型额度，未见定价页、订阅或企业采购路径；钱可能来自 to C 增值或 to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-707e779fed82eb24
+    - ev-8d6e357355df1070
+  - gate: truth
+    status: insufficient
+    reason: 常驻执行与不可撤销操作前确认的设计贴近安全边界，但缺少部署文档、实测或用户反馈来核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-0f39fa0976414eb0
+    - ev-0f55c512bf03043b
+  next_validation: 追踪 nanoMuse 官方 公开代码仓库 仓库的 issue、discussion 与部署文档，核对它实际支持的任务类型、执行可靠性及是否有用户反馈或持续使用记录。
+  market: ''
+  job: 个人用户在自己的手机、电脑或浏览器上，把跨设备的日常操作（如在本机应用与浏览器之间搬运信息、执行重复动作）交给一个常驻智能体，由它调用本机与浏览器执行动作，应用关闭后仍继续跑，遇到不可撤销操作先确认，最终交付已执行的动作或待确认提示。
+  job_en: An individual hands cross-device routine operations (e.g., moving information between local
+    apps and the browser, repeating actions) to a resident agent on their phone, computer or browser;
+    it invokes local and browser actions, keeps running after the app closes, asks before irreversible
+    steps, and delivers executed actions or pending confirmations.
+  pain: 跨设备操作要在多个应用间来回切换并手动重复，应用关闭后任务中断，自动化动作一旦出错难以撤回；现有通用对话助手无法常驻执行，用户必须守在设备前逐步操作。
+  pain_en: Cross-device work requires switching among apps and repeating steps manually; tasks stop when
+    the app closes; automated actions are hard to undo once wrong; general chat assistants cannot execute
+    residently, so users must stay at the device stepping through each action.
+  current_alternative: 用户目前靠手动操作、系统自带快捷指令或脚本，以及通用对话助手逐步完成，缺少常驻执行与不可撤销操作的确认边界。
+  current_alternative_en: Users currently rely on manual operation, built-in shortcuts or scripts, and
+    general chat assistants step by step, lacking resident execution and a confirmation boundary for irreversible
+    actions.
+  usage_reason: 推断：相较手动逐步操作，它把执行放进常驻进程（手机 APK 内 Alpine/proot、桌面 DeepSeek Harness 的 Python 运行时），应用关闭后仍继续跑，并在不可撤销操作前要求确认，减少用户守在设备前逐步点击的一步；但公开材料未给出用户反馈、留存或客户案例，无法确认用户是否真的把它留在工作流里。
+  usage_reason_en: 'Inference: versus manual step-by-step operation, it moves execution into a resident
+    process (Alpine/proot inside the phone APK, the Python runtime of DeepSeek Harness on desktop), keeps
+    running after the app closes, and requires confirmation before irreversible actions, removing the
+    step of staying at the device clicking through; however, public materials give no user feedback, retention
+    or customer cases, so it is unconfirmed whether users keep it in their workflow.'

@@ -3,37 +3,31 @@ slug: pitch
 name: Pitch
 builder: ''
 category: AI + 效率
-summary_zh: 创业者和销售在准备路演或客户提案时，把零散的业务要点、数据和品牌素材交给 Pitch，由它生成可编辑的演示文稿模板与页面，用户再逐页调整后导出成可演示的幻灯片；具体 AI 参与环节与交付边界仍待核验。
-inspiration: 趋势：演示文稿生成已是拥挤赛道，但“AI 味太重反而丢单”的反馈说明买方开始为可信度而非生成速度付费。切入：面向融资顾问或 B2B 销售团队做“人工把关 + 行业数据校验”的提案交付服务，按份收费，而不是再做一个通用生成器。
-summary_en: Founders and sales teams preparing a pitch or client proposal hand scattered business points,
-  data and brand assets to Pitch, which produces editable deck templates and pages that the user then
-  adjusts page by page and exports as a presentable slide deck; the exact AI steps and delivery boundary
-  still need verification.
-inspiration_en: 'Trend: deck generation is crowded, but feedback that over-AI-generated decks lose deals
-  shows buyers starting to pay for credibility rather than generation speed. Entry: serve fundraising
-  advisers or B2B sales teams with a human-reviewed, industry-data-checked proposal delivery service priced
-  per deck, instead of another generic generator.'
+summary_zh: 销售或市场人员在准备客户提案时打开它，把原本要手工排版的演示文稿交给模板与生成流程处理，最终拿到一份可直接演示的幻灯片；具体由 AI 接收什么输入、生成到哪一步、人工还需确认哪些内容，公开材料未说明，仍待核验。
+inspiration: 趋势：演示文稿这类高频、低差异化的文档生产正在被模板加生成流程重新拆解，价值从排版转向内容组织。切入：从需要反复出提案的行业（咨询、代理、地产招商）进入，按份或按项目交付成稿，而不是卖席位；该产品公开材料未披露定价与客户案例，窗口是否已关无法判断。
+summary_en: Sales or marketing staff open it when preparing a client pitch, handing over deck layout that
+  used to be done by hand to templates and a generation flow, and end up with a presentable slide deck;
+  what the AI actually receives, how far it generates, and what a human must still confirm are not stated
+  in the public material and remain unverified.
+inspiration_en: 'Trend: high-frequency, low-differentiation document production like decks is being re-split
+  into templates plus generation, shifting value from layout to content organization. Entry: start with
+  industries that repeatedly produce proposals (consulting, agencies, real-estate leasing) and sell a
+  finished deliverable per deck or per project rather than seats; the product''s public material discloses
+  no pricing or customer cases, so whether the window is closed cannot be judged.'
 priority_review: false
 project_type: new_application
 industries:
-- 创业服务
-- 商务咨询
 - 市场营销
+- 专业服务
 industries_en:
-- startup services
-- business consulting
-- marketing
+- Marketing
+- Professional Services
 jobs:
-- 创业者与销售人员在准备融资路演或客户提案时，把零散的业务要点整理成可演示的幻灯片
+- 销售与市场人员准备客户提案演示文稿
 jobs_en:
-- Founders and sales staff assembling scattered business points into a presentable slide deck for fundraising
-  or client proposals
-regions:
-- 北美
-- 欧洲
-regions_en:
-- North America
-- Europe
+- Sales and marketing staff preparing client pitch decks
+regions: []
+regions_en: []
 open_source: false
 url: https://www.aicpb.com/product/Pitch/webid1D6F37829
 canonical_url: https://aicpb.com/product/Pitch/webid1D6F37829
@@ -41,7 +35,7 @@ summary: Deliver your next deck faster with our free presentation templates. The
   professionally designed, and delightfully easy to use.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-09-24T00:31:16Z'
-status: pending_filter
+status: watching
 sources:
 - aicpb
 - newssearch

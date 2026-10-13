@@ -676,3 +676,55 @@
     that drops into an existing CI pipeline, removing the manual step of compiling review notes; that
     is why security/platform engineers would pick it at the point of onboarding a new MCP server or reviewing
     a config change.'
+- id: req-full-mcp-audit-tool-2026-10-13
+  project_slug: mcp-audit-tool
+  level: full
+  reviewed_at: '2026-10-13T03:45:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是第三方 MCP 服务器接入 AI 代理前的安全审查需求：外部工具可随时变更、可触达内部系统，漏审后果重。公开说明已能还原输入（MCP 配置）、动作（扫描投毒、密钥、注入、供应链）与交付（SARIF
+      报告），属工作流结构推理；尚无用户抱怨或事故数据佐证痛点强度。
+    evidence_ids:
+    - ev-66550311432c1b72
+    - ev-06b75a4c6842471f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 139 增至 247，说明开发者持续关注，但收藏与增长只属关注度证据，不能证明目标用户已把它纳入日常审查流程；公开材料没有 issue、讨论或客户案例说明谁在何种场景持续使用。
+    evidence_ids:
+    - ev-66550311432c1b72
+    - ev-06b75a4c6842471f
+  - gate: model
+    status: insufficient
+    reason: 这是开源 CLI，公开材料未见定价页、商业授权或采购记录，买方是安全团队自建、平台团队内部采用还是企业采购均无法确认；按开源工具推断可能走 to B 内部采用或后续商业支持，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-66550311432c1b72
+  - gate: truth
+    status: insufficient
+    reason: 扫描规则能否覆盖真实 MCP 攻击面、误报率与是否需人工复核，公开材料只有功能描述，没有可复现测试、规则文档或部署说明；交付是否确定性发生尚缺证据，人工放行边界也未说明。
+    evidence_ids:
+    - ev-66550311432c1b72
+  next_validation: 追踪该仓库的 README、规则文档与 issue/discussion，确认扫描规则覆盖范围、误报处理与是否有团队在 CI 中实际部署使用。
+  market: ''
+  job: 安全工程师或平台工程师在把第三方 MCP 服务器接入自家 AI 代理前，读取代理的 MCP 配置文件，扫描工具投毒、rug pull、硬编码密钥、命令注入与依赖供应链风险，产出一份可接入 CI
+    的 SARIF 报告，再决定是否放行。
+  job_en: A security or platform engineer, before wiring a third-party MCP server into the company's AI
+    agent, reads the agent's MCP config, scans for tool poisoning, rug pulls, hardcoded secrets, command
+    injection and supply-chain risk, and produces a CI-ready SARIF report before deciding whether to approve
+    it.
+  pain: MCP 服务器由外部提供且可随时更新，工具描述与依赖可能在接入后变化，把未审查的第三方工具直接挂到能调用内部系统的代理上，风险后果重且难以事后追溯；公开材料只说明扫描能力，未给出用户抱怨或事故数据。
+  pain_en: MCP servers are third-party and can change after approval, so attaching an unreviewed tool
+    to an agent that can reach internal systems carries severe, hard-to-trace consequences; public materials
+    show the scanning capability but no user complaints or incident data.
+  current_alternative: 公开材料未描述现有做法；按工作流结构推断，团队目前多靠人工阅读 MCP 配置与工具描述、依赖通用 SAST/SCA 或干脆不做接入前审查。
+  current_alternative_en: Public materials do not describe current practice; by workflow inference, teams
+    likely rely on manually reading MCP configs and tool descriptions, generic SAST/SCA tools, or skip
+    pre-integration review entirely.
+  usage_reason: 推断：相较人工逐条阅读配置或通用扫描器不识别 MCP 语义，它直接解析 MCP 配置并以 SARIF 输出接入 CI，把审查从一次性人工动作变成每次变更可重复执行的检查，因此需要把第三方
+    MCP 服务器纳入发布流程的安全或平台工程师会在接入前选择它。
+  usage_reason_en: 'Inference: versus manually reading configs or generic scanners that lack MCP semantics,
+    it parses MCP configs directly and emits SARIF into CI, turning a one-off manual review into a repeatable
+    per-change check, so security or platform engineers who must gate third-party MCP servers in their
+    release flow would pick it before integration.'

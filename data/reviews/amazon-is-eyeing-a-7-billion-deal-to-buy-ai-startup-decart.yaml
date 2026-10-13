@@ -1,0 +1,90 @@
+- id: req-initial-amazon-is-eyeing-a-7-billion-deal-to-buy-ai-startup-decart-2026-10-13
+  project_slug: amazon-is-eyeing-a-7-billion-deal-to-buy-ai-startup-decart
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-1e0167c1be1567e9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无用户采用或场景共识证据。
+    evidence_ids:
+    - ev-1e0167c1be1567e9
+  - gate: model
+    status: insufficient
+    reason: 未进入：买方与付费路径均未披露，仅有收购传闻。
+    evidence_ids:
+    - ev-1e0167c1be1567e9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生，也无安全与人工边界信息。
+    evidence_ids:
+    - ev-1e0167c1be1567e9
+  next_validation: 收集Decart官方产品页或官方公告，确认其具体功能、面向客户与交付形式。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用Decart处理什么材料、完成什么任务，使用场景无法还原。
+  job_en: Public material does not say who uses Decart, in what situation, on what material, or to finish
+    what task, so the use scenario cannot be reconstructed.
+  pain: 报道只提到收购意向，没有描述用户痛点或旧流程中的具体困难。
+  pain_en: The report only mentions acquisition intent and describes no user pain or specific difficulty
+    in the old workflow.
+  current_alternative: 未披露Decart替代了哪种现有做法或工具。
+  current_alternative_en: It is not disclosed which existing practice or tool Decart replaces.
+  usage_reason: 缺少产品功能、用户反馈与采用证据，无法解释用户为何选择它；收购传闻属于关注度信号，不构成使用理由。
+  usage_reason_en: With no product capability, user feedback or adoption evidence, there is no basis to
+    explain why users would choose it; acquisition talk is an attention signal, not a usage reason.
+- id: req-full-amazon-is-eyeing-a-7-billion-deal-to-buy-ai-startup-decart-2026-10-13
+  project_slug: amazon-is-eyeing-a-7-billion-deal-to-buy-ai-startup-decart
+  level: full
+  reviewed_at: '2026-10-13T03:42:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决实时视频生成与编辑中延迟高、质量与实时性难兼得的痛点，公开材料称其面向零售等场景提供毫秒级实时消费者体验，旧做法需离线渲染再合成，不采用则无法在直播或门店互动中即时响应；这是基于产品说明与工作流的结构推理。
+    evidence_ids:
+    - ev-71f3a7ceb185a0ac
+    - ev-5d1efe4423918644
+    - ev-d9ea19b3fc892dfd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官方自述与收购传闻，未发现独立用户评价、客户案例或场景共识，无法判断品牌与创作者是否已把它纳入日常工作流。
+    evidence_ids:
+    - ev-5d1efe4423918644
+    - ev-d9ea19b3fc892dfd
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费客户或采购记录，钱可能来自 to B 品牌与零售企业或 to VC 的收购叙事，这是判断而非已验证事实，需警惕仅靠融资与收购续命的风险。
+    evidence_ids:
+    - ev-71f3a7ceb185a0ac
+    - ev-d9ea19b3fc892dfd
+  - gate: truth
+    status: insufficient
+    reason: 官方称毫秒级延迟与实时画布，但无独立实测、部署文档或安全与人工边界说明，交付能否确定性发生尚无法核对。
+    evidence_ids:
+    - ev-71f3a7ceb185a0ac
+    - ev-5d1efe4423918644
+  next_validation: 追踪 Decart 官方定价页与客户案例页，确认其面向品牌或零售企业的付费路径与已披露的部署交付结果。
+  market: ''
+  job: 品牌方、零售企业与内容创作者在需要实时生成或实时编辑视频画面时，把摄像头或视频流交给 Decart 的实时世界模型与 Lucy 画布，在毫秒级延迟下完成可交互的视觉内容生产与投放。
+  job_en: Brands, retail enterprises and creators hand camera or video streams to Decart's real-time world
+    model and Lucy canvas to produce and deliver interactive visual content at millisecond latency.
+  pain: 公开材料称其面向零售等场景提供实时消费者体验，说明旧做法下视频生成与编辑存在明显延迟、难以在直播或门店互动中即时响应，且质量与实时性难以兼得。
+  pain_en: Public material frames it as enabling real-time consumer experiences in retail, implying that
+    legacy video generation and editing is too slow to respond live in stores or streams, and quality
+    and latency are hard to get at once.
+  current_alternative: 当前替代方式为传统离线视频生成与后期剪辑工具，或调用通用大模型生成后再人工合成，无法在毫秒级延迟下完成实时交互。
+  current_alternative_en: The current alternative is offline video generation and post-production editing
+    tools, or general-purpose model generation followed by manual compositing, none of which delivers
+    millisecond-level interactivity.
+  usage_reason: 推断：相较离线生成再剪辑的旧流程，Decart 通过实时世界模型与 Lucy 实时画布把生成与编辑合并到同一毫秒级回路，省去等待渲染与二次合成的步骤，因此需要直播、门店互动或实时内容投放的品牌与创作者会在这些场景选择它。
+  usage_reason_en: 'Inference: versus the old generate-then-edit pipeline, Decart merges generation and
+    editing into one millisecond-level loop via its real-time world model and Lucy canvas, removing render-wait
+    and re-compositing steps, so brands and creators needing live streams, in-store interaction or real-time
+    content delivery would pick it.'

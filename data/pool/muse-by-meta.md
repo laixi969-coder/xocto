@@ -3,33 +3,47 @@ slug: muse-by-meta
 name: Meta Muse
 builder: Meta
 category: 通用助手
-summary_zh: 普通用户在手机或 iPad 上打开 Meta Muse，把待办、查询或需要代办的请求交给这个个人 AI agent，由它执行动作并返回结果；具体能处理哪些材料、交付到哪一步、哪些环节仍需人工确认，公开材料未说明，流程与交付仍待核验。
-inspiration: 趋势：大厂把个人 agent 直接塞进手机与平板入口，通用助手的默认位置正在被重新划分。切入：不要在通用代办上正面竞争，可切到某个垂直人群的固定旧流程（如房产带看后的资料整理、跨境卖家的订单跟进），把
-  agent 能力包成对结果负责的交付；窗口是否已关需看该入口的实际采用。
-summary_en: An ordinary user opens Meta Muse on a phone or iPad and hands it to-dos, queries or errands;
-  the personal AI agent performs actions and returns results. Which materials it handles, how far it delivers
-  and where humans must still confirm are not stated in the public material, so the workflow and deliverable
-  remain unverified.
-inspiration_en: 'Trend: big platforms are pushing personal agents straight into phone and tablet entry
-  points, redrawing where general assistants sit by default. Entry: avoid head-on general errand-running;
-  instead wrap agent capability into a vertical, result-accountable deliverable for a fixed legacy workflow
-  (e.g. post-viewing document work for realtors, order follow-up for cross-border sellers). Whether the
-  window is closed depends on real adoption of that entry point.'
+summary_zh: 普通用户在需要跨应用处理日程、检索资料或起草文字时打开它，把自然语言任务交给代理执行；公开材料只说明它是“帮你把事情做完”的个人AI代理，具体接收哪些数据、执行哪些动作、交付什么结果仍待核验。
+inspiration: 趋势是个人代理从聊天框走向代执行，大厂同时入场说明入口之争已开始；切入不在通用代理本身，而在被代理调用的垂直环节——例如把某类高频事务（报销、预约、对账）做成代理可直接调用的确定性交付，按结果收费。
+summary_en: An ordinary user opens it when handling schedules, retrieving material or drafting text across
+  apps, handing natural-language tasks to an agent; public material only describes it as a personal AI
+  agent that 'gets things done', so what data it takes in, what actions it performs and what it delivers
+  still need verification.
+inspiration_en: The trend is personal agents moving from chat to execution, and simultaneous big-tech
+  entry shows the gateway race has started; the opening is not the general agent itself but the vertical
+  steps it calls — turning a high-frequency task such as expense filing, booking or reconciliation into
+  a deterministic deliverable an agent can invoke, priced per outcome.
 priority_review: true
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 软件与互联网服务
+- 消费电子
+- 媒体与内容
+industries_en:
+- Software and internet services
+- Consumer electronics
+- Media and content
+jobs:
+- 个人事务与日程处理
+- 跨应用信息检索与整理
+- 日常写作与内容草稿
+jobs_en:
+- Personal task and schedule handling
+- Cross-app information retrieval and organizing
+- Everyday writing and content drafting
+regions:
+- 美国
+- 全球
+regions_en:
+- United States
+- Global
 open_source: false
 url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: queued
 sources:
 - producthunt
 - marketfeeds

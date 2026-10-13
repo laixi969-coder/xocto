@@ -22,7 +22,7 @@ summary: Microsoft Is Running AI Agents Inside Its Own HR Department, and Its Ca
   Numbers Forkast News
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

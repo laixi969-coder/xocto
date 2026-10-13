@@ -237,3 +237,45 @@
   usage_reason_en: With no description, documentation, or usage data, there is no basis to explain why
     a user would choose it over the old approach; stars, forks, and external site traffic reflect attention
     only and cannot serve as a usage reason.
+- id: req-full-math-2026-10-13
+  project_slug: math
+  level: full
+  reviewed_at: '2026-10-13T03:45:23Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选只显示 OpenAI 名下一个名为 math 的仓库及星标、fork 数，未说明谁在什么情况下处理哪类数学材料、要完成什么任务，也写不出痛点与现有替代，价值关无法成立。
+    evidence_ids:
+    - ev-87531b1f70af94f6
+    - ev-bec90da263f1d534
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该仓库的 README、目录结构与最近提交记录，确认它是评测集、形式化证明工具还是训练代码，并据此判断具体用户任务。
+  market: ''
+  job: 公开材料只给出 OpenAI 名下一个名为 math 的代码仓库及其星标、fork 数，未说明谁在什么情况下处理哪类数学材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The public material only shows a repository named math under OpenAI with star and fork counts;
+    it does not identify who, in what situation, processes what kind of math material, or to complete
+    what task, so no concrete job can be reconstructed.
+  pain: 候选材料没有描述任何用户痛点，也没有说明现有数学工作或学习流程在哪里卡住；仓库名与星标数不构成痛点证据。
+  pain_en: The candidate material describes no user pain point and does not say where existing math work
+    or learning workflows break down; a repository name and star count are not pain evidence.
+  current_alternative: 材料未说明该仓库解决什么问题，因此无法判断用户当前用什么替代方式，例如纸笔推导、符号计算软件、在线解题工具或形式化证明工具。
+  current_alternative_en: The material does not say what problem the repository addresses, so the current
+    alternative cannot be identified, whether pen-and-paper derivation, symbolic computation software,
+    online solvers, or formal proof tools.
+  usage_reason: 缺少功能说明、文档与使用数据，无法解释用户为何会选择它而非旧做法；星标与 fork 只反映关注度，不能作为使用理由。
+  usage_reason_en: With no description, documentation, or usage data, there is no basis to explain why
+    a user would choose it over the old approach; stars and forks only reflect attention and cannot serve
+    as a usage reason.

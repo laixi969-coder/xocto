@@ -1,6 +1,6 @@
 ---
 slug: chinas-avatr-to-enter-europe-in-2027-plans-six-models-in-thr
-name: China’s Avatr To Enter Europe In 2027, Plans Six Models In Three Years
+name: Avatr
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQMzBtLVM3em1Y
 summary: China’s Avatr To Enter Europe In 2027, Plans Six Models In Three Years BW Auto World
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# China’s Avatr To Enter Europe In 2027, Plans Six Models In Three Years
+# Avatr
 
 China’s Avatr To Enter Europe In 2027, Plans Six Models In Three Years BW Auto World
 

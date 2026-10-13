@@ -1,0 +1,39 @@
+- id: req-initial-pi-2026-10-13
+  project_slug: pi
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把素材变成对外演示稿这一具体任务，痛点是排版耗时且非设计人员不擅长，旧做法是模板手工拼版或外包，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 有公开访问规模，但环比为负，且没有可归因到该产品的用户评价或客户案例说明谁在持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方；按席位订阅还是按份收费无法确认，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成稿的版式质量、素材引用是否可靠，以及人工复核在流程中的位置。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页与导出格式说明，确认按什么计价、生成稿能否直接进入常用办公软件继续编辑。
+  market: ''
+  job: 市场或培训人员需要把已有材料整理成一份对外演示稿时，输入主题与素材，由产品生成可继续编辑的幻灯片文件。
+  job_en: Marketing or training staff turning existing material into an outward-facing deck by entering
+    a topic and source material and receiving an editable slide file.
+  pain: 做演示稿要反复排版、找图、对齐版式，非设计人员在这上面耗掉大量时间，且交付时间常被压缩。
+  pain_en: Building a deck means repeated layout, image hunting and alignment work; non-designers burn
+    large amounts of time on it and deadlines are often tight.
+  current_alternative: 用 PowerPoint 或 Keynote 从模板手工拼版，或把需求交给设计外包与同事代做。
+  current_alternative_en: Manually assembling slides from templates in PowerPoint or Keynote, or handing
+    the request to an outsourced designer or a colleague.
+  usage_reason: 推断：相较从空白模板逐页排版，它先按主题与素材生成整份初稿，用户只需在成稿上改内容，省掉从零搭版式这一步，因此赶交付的市场与培训人员会选它。
+  usage_reason_en: 'Inference: compared with laying out page by page from a blank template, it first generates
+    a full draft from the topic and material so users only edit content on a finished draft, removing
+    the step of building layout from scratch, which is why deadline-driven marketing and training staff
+    would choose it.'

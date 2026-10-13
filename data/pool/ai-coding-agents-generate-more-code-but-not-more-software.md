@@ -3,15 +3,16 @@ slug: ai-coding-agents-generate-more-code-but-not-more-software
 name: AI coding agents generate more code, but not more software
 builder: gumby
 category: ''
-summary_zh: 哈佛大学研究人员利用覆盖数百家企业的工程分析数据发现，AI 编码工具虽能快速生成大量代码，但人工代码审查成为显著瓶颈，代码审查时间延长、拉取请求更易需要修改，企业软件产出和用工并未明显增加。这意味着
-  AI 编码工具在代码生成环节的效率提升被下游审查环节吸收，短期内难以转化为整体交付效率或成本优势，竞争焦点可能转向审查与质量保障环节。
+summary_zh: 哈佛大学研究人员 Fiona Chen 和 James Stratton 基于 Jellyfish 覆盖数百家企业的 3 亿条工程工作事件数据研究发现，AI 编码工具虽能快速生成大量代码，但人工代码审查成为显著瓶颈：审查时间延长、拉取请求更易需要修改、审查者评论增多，编码阶段提升的效率被下游流程约束吸收，几乎没有证据表明企业因此提高软件产出或减少用工。这意味着
+  AI 编码代理的采用价值受制于审查与交付环节，短期内难以直接转化为软件交付量的提升。
 inspiration: ''
-summary_en: 'Harvard researchers, using engineering analytics data across hundreds of firms, found that
-  while AI coding tools generate large amounts of code quickly, human code review becomes a significant
-  bottleneck: reviews take longer, pull requests are more likely to need revisions, and firms show little
-  evidence of increased software output or reduced employment. This means efficiency gains in code generation
-  are absorbed by downstream review constraints, limiting near-term delivery or cost advantages and potentially
-  shifting competition toward review and quality assurance.'
+summary_en: 'Harvard researchers Fiona Chen and James Stratton, using Jellyfish analytics covering 300
+  million work events across hundreds of firms, found that while AI coding tools rapidly generate large
+  amounts of code, human code review becomes a significant bottleneck: reviews take longer, pull requests
+  more often require revisions, and reviewers leave more comments, so efficiency gains in the coding phase
+  are absorbed by downstream constraints, with little evidence that firms increase software output or
+  reduce employment. This implies the value of AI coding agent adoption is constrained by review and delivery
+  stages and is unlikely to translate directly into higher software delivery volume in the near term.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -39,7 +40,7 @@ summary: Anyone who has even tangentially associated with computer programming k
   events" (e.g., commits and pull requests) and issue management software data across more than
 first_seen: '2026-10-10T01:46:29Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - hackernews

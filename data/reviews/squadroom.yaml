@@ -1,0 +1,81 @@
+- id: req-initial-squadroom-2026-10-13
+  project_slug: squadroom
+  level: initial
+  reviewed_at: '2026-10-13T03:03:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决团队日常事务需要持续人力处理的需求，但公开材料未说明具体任务、输入材料与交付结果，痛点与不采用代价都无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-63654c9046415405
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有一句定位口号，没有可归因到该产品的使用、评价或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-63654c9046415405
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方是中小企业还是大企业，也没有定价或按结果收费的信息，钱从哪来无法判断。
+    evidence_ids:
+    - ev-63654c9046415405
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近该工作的第一性目标、承诺能否确定性交付，也看不到安全与人工边界。
+    evidence_ids:
+    - ev-63654c9046415405
+  next_validation: 收集 SquadRoom 官方产品页或文档，确认这些 AI 员工具体接手哪类任务、交付物形态以及人工复核与计费方式。
+  market: ''
+  job: 尚未确认：公开材料未说明哪类团队在什么情况下把哪项任务交给它、处理什么材料、要完成什么交付。
+  job_en: 'Not yet established: public material does not say which team hands over which task, under what
+    circumstances, with what material, to produce what deliverable.'
+  pain: 尚未确认：无法从现有材料判断用户原来在哪一步难受，也无法判断不采用会失去什么。
+  pain_en: 'Not yet established: current material does not show which step was painful before, nor what
+    is lost by not adopting it.'
+  current_alternative: 尚未确认：未说明此前是人工轮班、外包还是其他自动化工具承担同类事务。
+  current_alternative_en: 'Not yet established: it is unclear whether humans on shifts, outsourcing or
+    other automation tools handled the same work before.'
+  usage_reason: 无法判断：材料只给出“7×24 小时 AI 员工”的口号，没有说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material only gives the slogan of 24/7 AI employees and does
+    not show which step it removes versus the old way or which checkable result it improves, so user choice
+    cannot be explained.'
+- id: req-full-squadroom-2026-10-13
+  project_slug: squadroom
+  level: full
+  reviewed_at: '2026-10-13T03:47:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决团队日常事务需要持续人力处理的需求，但公开材料未说明具体任务、输入材料与交付结果，痛点与不采用代价都无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-63654c9046415405
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 SquadRoom 官方产品页或文档，确认这些 AI 员工具体接手哪类任务、交付物形态以及人工复核与计费方式。
+  market: ''
+  job: 尚未确认：公开材料只有“7×24 小时工作的 AI 员工”一句定位，未说明哪类团队在什么情况下把哪项任务交给它、读取什么材料、产出什么交付。
+  job_en: 'Not yet established: the only public line is ''AI employees that work 24/7''; it does not say
+    which team, in what situation, hands over which task, with what input material, to produce what deliverable.'
+  pain: 尚未确认：无法从现有材料判断用户原来在哪一步难受，也无法判断不采用会失去什么。
+  pain_en: 'Not yet established: current material does not show which step was painful before, nor what
+    is lost by not adopting it.'
+  current_alternative: 尚未确认：未说明此前是人工轮班、外包还是其他自动化工具承担同类事务。
+  current_alternative_en: 'Not yet established: it is unclear whether human shifts, outsourcing or other
+    automation tools handled the same work before.'
+  usage_reason: 无法判断：材料只给出“7×24 小时 AI 员工”的口号，没有说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material only gives the slogan of 24/7 AI employees and does
+    not show which step it removes versus the old way or which checkable result it improves, so user choice
+    cannot be explained.'

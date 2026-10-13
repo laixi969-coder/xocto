@@ -1,0 +1,43 @@
+- id: req-initial-pgextassure-2026-10-13
+  project_slug: pgextassure
+  level: initial
+  reviewed_at: '2026-08-23T14:11:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决扩展准入前的证据收集，痛点方向成立，但公开材料只有一句简介，说不清原来谁花多久做哪一步，价值结构无法确认。
+    evidence_ids:
+    - ev-2e079120988e75e1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库刚出现，社区讨论极少，没有可归因到该产品的采用或口碑信号。
+    evidence_ids:
+    - ev-2e079120988e75e1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；开源项目可能靠支持或托管收费，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-2e079120988e75e1
+  - gate: truth
+    status: insufficient
+    reason: 无法核对检查项是否覆盖真实攻击面、结论能否确定性交付，也看不到人工复核边界。
+    evidence_ids:
+    - ev-2e079120988e75e1
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它实际检查哪些扩展权限与依赖项、输出什么格式的准入结论。
+  market: ''
+  job: 数据库管理员在把第三方 PostgreSQL 扩展装入生产库前，收集该扩展的权限、依赖与安全证据并形成准入结论。
+  job_en: A database administrator gathers permission, dependency and security evidence on a third-party
+    PostgreSQL extension before admitting it to production.
+  pain: 扩展由外部维护，权限与依赖不透明，出问题后难以追溯是谁批准了哪一步；公开材料未说明现有做法具体卡在哪一步。
+  pain_en: Extensions are externally maintained, their permissions and dependencies are opaque, and after
+    an incident it is hard to trace who approved which step; the public material does not say exactly
+    where current practice breaks down.
+  current_alternative: 人工阅读扩展源码与文档，或依赖内部安全评审清单；公开材料未给出可核验的替代流程细节。
+  current_alternative_en: Manually reading extension source and docs, or relying on an internal security
+    review checklist; the public material gives no verifiable detail on the alternative process.
+  usage_reason: 推断：若它能把权限与依赖证据自动汇总成一份可归档结论，就省去人工逐项翻源码这一步，受审计约束的数据库团队会因此选用；目前缺少使用与留存证据。
+  usage_reason_en: 'Inference: if it consolidates permission and dependency evidence into one archivable
+    conclusion, it removes the manual step of reading source item by item, which is why audited database
+    teams would pick it; usage and retention evidence is currently missing.'

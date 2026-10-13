@@ -1,0 +1,90 @@
+- id: req-initial-ps2-web-recomp-2026-10-13
+  project_slug: ps2-web-recomp
+  level: initial
+  reviewed_at: '2026-10-13T03:03:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决旧主机游戏难以在现代设备运行的问题，但候选材料只有一句项目描述，未说明具体用户任务、痛点强度与旧流程，无法判断需求刚性。
+    evidence_ids:
+    - ev-5547d6478f647d40
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有采用、付费或持续使用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-5547d6478f647d40
+  - gate: model
+    status: insufficient
+    reason: 候选材料未显示任何付费路径、买方或收入方式，属于判断缺口而非已验证事实。
+    evidence_ids:
+    - ev-5547d6478f647d40
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付确定性、支持的游戏范围与人工校验边界，候选材料也未显示 AI 模型参与。
+    evidence_ids:
+    - ev-5547d6478f647d40
+  next_validation: 收集该仓库的 README、构建文档与 issue/discussion，确认支持的游戏范围、编译流程与是否涉及 AI 模型。
+  market: ''
+  job: 游戏保存与移植开发者需要把 PS2 原版游戏二进制转成能在浏览器里运行的构建，用于让老作品在现代设备上可访问。
+  job_en: Preservation and porting developers need to turn original PS2 game binaries into browser-runnable
+    builds so legacy titles stay accessible on modern devices.
+  pain: 旧主机游戏依赖原硬件与模拟器，运行门槛高、分发受限；候选材料未说明具体痛点与用户抱怨。
+  pain_en: Legacy console games depend on original hardware or emulators, raising the bar to run and limiting
+    distribution; the candidate material does not state specific pain points or user complaints.
+  current_alternative: 现有做法是使用模拟器或手工移植，候选材料未给出对比细节。
+  current_alternative_en: Current practice is emulators or manual ports; the candidate material gives
+    no comparison detail.
+  usage_reason: 推断：静态重编译为 WebAssembly 可省去逐平台适配，让作品直接在浏览器运行；但候选材料未显示 AI 参与、付费路径或重复使用证据，因此无法确认用户为何长期选择它。
+  usage_reason_en: 'Inference: static recompilation to WebAssembly could skip per-platform adaptation
+    and let titles run directly in the browser; however the material shows no AI involvement, payment
+    path or repeat-use evidence, so why users would stay with it cannot be confirmed.'
+- id: req-full-ps2-web-recomp-2026-10-13
+  project_slug: ps2-web-recomp
+  level: full
+  reviewed_at: '2026-10-13T03:46:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决旧主机游戏脱离原硬件、在浏览器可运行的需求，痛点是模拟器逐帧解释与手工移植的兼容和适配负担；静态重编译把代码提前译为 WebAssembly，交付物是网页可加载构建，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-5547d6478f647d40
+  - gate: consensus
+    status: insufficient
+    reason: 仅有项目一句描述与英文生态早期信号，没有采用、收藏、下载或持续使用数据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-5547d6478f647d40
+  - gate: model
+    status: insufficient
+    reason: 公开材料未显示定价、买方或收入方式，钱可能来自开发者捐赠、赞助或移植服务，但这是判断而非已验证事实，属商业证据缺口。
+    evidence_ids:
+    - ev-5547d6478f647d40
+  - gate: truth
+    status: insufficient
+    reason: 无法核对支持的游戏范围、编译流程与人工校验边界，也未显示 AI 模型参与；静态重编译的交付确定性需 README 与构建文档佐证。
+    evidence_ids:
+    - ev-5547d6478f647d40
+  next_validation: 抓取该仓库 README、构建文档与 issue/discussion，确认支持的游戏范围、编译流程、人工校验环节与是否涉及 AI 模型。
+  market: ''
+  job: 游戏保存与移植开发者在需要让 PS2 老作品脱离原主机、在现代设备上可访问时，处理原版游戏二进制，通过静态重编译产出可在浏览器加载运行的 WebAssembly 构建。
+  job_en: Preservation and porting developers, when they need PS2 legacy titles to run off original hardware
+    on modern devices, take original game binaries and produce browser-loadable WebAssembly builds via
+    static recompilation.
+  pain: PS2 游戏依赖原主机或模拟器，运行门槛高、分发受限；模拟器逐帧解释带来性能与兼容负担，手工移植则需逐平台重写。公开材料仅一句项目描述，未给出用户抱怨或痛点强度的直接证据。
+  pain_en: PS2 games depend on original hardware or emulators, raising the bar to run and limiting distribution;
+    emulators interpret frame-by-frame with performance and compatibility costs, while manual ports require
+    per-platform rewriting. The public material is a one-line description and gives no direct user complaints
+    or pain intensity.
+  current_alternative: 现有做法是使用模拟器（如 PCSX2）或手工逐平台移植；候选材料未给出与这些做法的对比细节。
+  current_alternative_en: Current practice is emulators (e.g. PCSX2) or manual per-platform ports; the
+    candidate material gives no comparison detail against these.
+  usage_reason: 推断：相较模拟器逐帧解释，静态重编译把游戏代码提前翻译为 WebAssembly，省去运行时解释这一层，使产物可直接在浏览器加载，减少逐平台适配负担；因此需要把老作品搬到网页、又不想维护模拟器运行时的移植开发者会考虑它。公开材料未显示
+    AI 参与、付费路径或重复使用证据，动机属结构推理。
+  usage_reason_en: 'Inference: unlike frame-by-frame emulator interpretation, static recompilation translates
+    game code ahead of time into WebAssembly, removing the runtime interpretation layer so the artifact
+    loads directly in the browser and cutting per-platform adaptation effort; porting developers who want
+    legacy titles on the web without maintaining an emulator runtime would consider it. The material shows
+    no AI involvement, payment path or repeat-use evidence, so the motive is structural i'

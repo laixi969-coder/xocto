@@ -1,6 +1,6 @@
 ---
 slug: hyundai-bayon-unveiled-in-india-ai-assistant-dual-123-inch-s
-name: 'Hyundai Bayon unveiled in India: AI assistant, dual 12.3-inch screens and more'
+name: Hyundai Bayon
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNdUd4bEFDWnUy
 summary: 'Hyundai Bayon unveiled in India: AI assistant, dual 12.3-inch screens and more Business Today'
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Hyundai Bayon unveiled in India: AI assistant, dual 12.3-inch screens and more
+# Hyundai Bayon
 
 Hyundai Bayon unveiled in India: AI assistant, dual 12.3-inch screens and more Business Today
 

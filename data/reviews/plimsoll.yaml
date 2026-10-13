@@ -80,3 +80,43 @@
   usage_reason_en: Public materials provide no reason why users would choose this product or any adoption
     evidence; existing evidence only explains the dictionary meaning of the word plimsoll and cannot support
     a usage rationale.
+- id: req-full-plimsoll-2026-10-13
+  project_slug: plimsoll
+  level: full
+  reviewed_at: '2026-10-13T03:46:33Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部是 Plimsoll 一词在航运载重线与帆布运动鞋上的词典释义，没有任何该产品自身的用户任务、痛点或替代行为，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-a3f1a47ba7203fd6
+    - ev-ee6a704f776e2979
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或官网，确认是否存在可复现的沙箱部署文档、资源隔离说明与 issue/discussion 中的实际使用反馈。
+  market: ''
+  job: AI 应用工程师在让自主代理生成并执行任意代码时，需要把不可信代码放进隔离环境运行并取回受控日志与结果。
+  job_en: AI application engineers running agent-generated code need to execute untrusted scripts in an
+    isolated environment and retrieve controlled logs and results.
+  pain: 公开材料未提供任何关于该产品本身的用户痛点、抱怨或采用行为；现有证据全部是 Plimsoll 一词在航运载重线与帆布运动鞋上的词典与百科释义，无法支撑代理代码执行的痛点。
+  pain_en: No public evidence describes any user pain, complaint, or adoption behavior for this product;
+    all evidence is dictionary and encyclopedia definitions of the word Plimsoll as a ship load line or
+    canvas shoe.
+  current_alternative: 公开材料未显示任何用户当前如何绕过该问题的替代行为，无法确认旧做法是商业云沙箱、自建容器还是其他方式。
+  current_alternative_en: Public material shows no user workaround behavior, so it is unknown whether
+    the current alternative is a commercial cloud sandbox, self-built containers, or something else.
+  usage_reason: 无法从公开证据推断用户为何选择它；缺少产品文档、仓库、定价或用户反馈，任何使用理由都只能是补造。
+  usage_reason_en: No usage reason can be inferred from public evidence; product docs, repository, pricing,
+    and user feedback are all absent, so any reason would be fabricated.

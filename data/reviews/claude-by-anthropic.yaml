@@ -615,3 +615,44 @@
   usage_reason_en: A public record shows 39.81M MAU and 10.79% month-over-month growth, which is scale
     and attention evidence and does not explain why users choose it; user feedback or cases stating the
     motive are missing.
+- id: req-full-claude-by-anthropic-2026-10-13
+  project_slug: claude-by-anthropic
+  level: full
+  reviewed_at: '2026-10-13T03:43:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“Anthropic 的对话助手，主攻写代码、长文和复杂推理，靠用得深来收费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官方定价页与公开客户案例（含用量计费档位与企业部署说明），核验付费主体、计费单位与可确定交付结果。
+  market: ''
+  job: 开发者、研究员与写作者在需要处理长代码库、长文档或复杂多步推理时，把材料交给 Claude，要求它完成代码生成与调试、长文改写、结构化分析等具体产出。
+  job_en: Developers, researchers, and writers hand long codebases, long documents, or multi-step reasoning
+    problems to Claude to produce working code, revised long-form text, or structured analysis.
+  pain: 旧做法下，长上下文任务要在多个工具间搬运材料，模型容易丢失前文约束、反复重述背景，用户需自行拼接与校对；不解决的后果是返工与人工复核成本高，且复杂推理任务难以一次交付。
+  pain_en: Under the old approach, long-context work requires shuttling material between tools, the model
+    loses earlier constraints, and the user must reassemble and proofread; the cost of not solving it
+    is rework and heavy manual review on hard reasoning tasks.
+  current_alternative: 此前用户主要用通用聊天机器人、IDE 内补全插件或人工检索加手写来完成同类任务，长上下文与复杂推理往往需要拆成多轮并人工拼接。
+  current_alternative_en: Users previously relied on general chatbots, in-IDE completion plugins, or manual
+    search plus hand-writing, splitting long-context and hard-reasoning work into many rounds stitched
+    together by hand.
+  usage_reason: 推断：相较旧做法，Claude 以长上下文窗口和面向代码、长文的对话式交付，把“拆成多轮再人工拼接”这一步合并为一次提交材料、一次获得可用产出，因此处理长代码库或长文档的开发者与写作者会在该情境下选择它；公开材料尚未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus the old approach, Claude''s long context window and code/long-form-oriented
+    conversational delivery merge the ''split into rounds and stitch by hand'' step into one submission
+    and one usable output, so developers and writers handling long codebases or documents would choose
+    it in that situation; public materials do not yet show retention or repeat-purchase evidence.'

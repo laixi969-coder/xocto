@@ -1,0 +1,38 @@
+- id: req-initial-feloai-2026-10-13
+  project_slug: feloai
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨语言检索后人工整理来源的问题，痛点具体，旧替代行为是逐条搜索并手动汇总，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有访问量与榜单排名，属于规模与关注度证据，不能证明用户已把它长期留在检索流程中。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价与买方；按订阅还是按席位收费属于判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺少来源可核验性与答案准确率的公开材料，检索结论能否确定性交付尚未说明。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页与用户评价，确认付费方式与检索结果的可核验程度。
+  market: ''
+  job: 知识工作者在需要跨语言查资料时，把问题交给搜索助手，处理的是多语言网页与文档，要完成一份带来源、可引用的检索结论。
+  job_en: Knowledge workers hand questions to a search assistant when researching across languages, working
+    with multilingual pages and documents to produce a sourced, citable research conclusion.
+  pain: 传统搜索需要用户自己切换语言、逐条打开链接并核对来源，跨语言检索的整理成本高。
+  pain_en: Traditional search forces users to switch languages, open links one by one and verify sources,
+    making cross-language research costly to organize.
+  current_alternative: 现有做法是用 Google 或必应逐条检索，再手动整理成笔记或文档。
+  current_alternative_en: Current practice is searching link by link on Google or Bing, then manually
+    organizing notes or documents.
+  usage_reason: 推断：相较逐条打开链接，它把多语言检索与来源整理合成一次问答，省去人工汇总这一步，因此需要快速产出可引用结论的日语等非英语用户会在资料调研时选择它。
+  usage_reason_en: 'Inference: versus opening links one by one, it merges multilingual retrieval and source
+    organization into one answer, removing the manual aggregation step, so non-English users such as Japanese
+    speakers needing citable conclusions would pick it for research.'

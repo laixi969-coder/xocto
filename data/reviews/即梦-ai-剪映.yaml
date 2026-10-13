@@ -1,0 +1,39 @@
+- id: req-initial-即梦-ai-剪映-2026-10-13
+  project_slug: 即梦-ai-剪映
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决脚本已定但缺可用画面、实拍与买素材成本高的痛点，替代行为明确，交付是可剪辑素材，价值结构成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 有公开访问规模说明有人使用，但缺少用户评价与持续采用证据，无法判断是否已留在出片流程里。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价与付费路径，买方是个人创作者还是企业采购无法判断，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 生成素材的版权归属、可用性与人工筛选边界均未说明，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 收集即梦 AI 官方定价页与使用条款，确认付费路径以及生成素材的版权归属与商用范围。
+  market: ''
+  job: 短视频与广告创作者在需要出画面或视频片段时，把文字描述或已有素材交给它生成图像与视频，用于后续剪辑成片。
+  job_en: Short-video and advertising creators needing shots or clips feed text descriptions or existing
+    footage to generate images and video for later editing into a finished piece.
+  pain: 实拍或外包出画面成本高、周期长，创作者在脚本已定但缺少可用素材时容易卡住。
+  pain_en: Shooting or outsourcing shots is costly and slow, and creators get stuck when the script is
+    ready but usable material is missing.
+  current_alternative: 实拍、购买素材库，或使用其他图像与视频生成工具再导入剪辑软件。
+  current_alternative_en: Live shooting, buying stock footage, or using other image and video generators
+    and importing into editing software.
+  usage_reason: 推断：相较实拍或买素材，它把文字描述直接转成可继续剪辑的画面，减少了找素材和拍摄这一步，因此脚本已定但缺素材的创作者会在出片前选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with shooting or buying stock, it turns text descriptions directly
+    into editable shots, removing the footage-sourcing and shooting step, so creators with a finished
+    script but no material would pick it before production; public material provides no retention or repeat-use
+    evidence.'

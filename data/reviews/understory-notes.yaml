@@ -1,0 +1,81 @@
+- id: req-initial-understory-notes-2026-10-13
+  project_slug: understory-notes
+  level: initial
+  reviewed_at: '2026-10-13T03:03:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句笔记口号，价值关无法成立。
+    evidence_ids:
+    - ev-5d6a96e7c4342a32
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有任何采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-5d6a96e7c4342a32
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费路径均无公开材料。
+    evidence_ids:
+    - ev-5d6a96e7c4342a32
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-5d6a96e7c4342a32
+  next_validation: 收集 Understory Notes 官方产品页或定价页，确认它面向的具体记录场景、AI 动作与交付物。
+  market: ''
+  job: 公开材料未说明具体使用者与任务，无法确认谁在什么情况下处理什么材料、要完成什么。
+  job_en: The public material does not identify the user or task, so it is impossible to confirm who handles
+    what material in which situation to complete what.
+  pain: 只能推断零散笔记难以整理成连贯叙述，但候选未给出任何具体痛点描述。
+  pain_en: One can only infer that scattered notes are hard to turn into a coherent narrative, but the
+    candidate gives no concrete pain description.
+  current_alternative: 公开材料未提及现有替代做法，无法确认此前用户如何整理笔记。
+  current_alternative_en: The public material mentions no existing alternative, so it is impossible to
+    confirm how users organized notes before.
+  usage_reason: 缺少功能细节与使用场景，无法解释相较手动整理减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no feature detail or usage scenario, it cannot be explained which step of manual
+    organizing is reduced, nor which users would choose it in which situation.
+- id: req-full-understory-notes-2026-10-13
+  project_slug: understory-notes
+  level: full
+  reviewed_at: '2026-10-13T03:47:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选仅有一句“会讲故事的笔记”口号，未说明谁在什么场景记录什么材料、AI 做什么、交付什么，需求与痛点均无法写出，价值关不成立。
+    evidence_ids:
+    - ev-68c1fdc003a4b30b
+    - ev-63a22927b2f04cb5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Understory Notes 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 公开材料只有“会讲故事的笔记”一句口号，未说明谁在什么情况下记录什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The public material offers only the slogan "notes that tell the tale" and never states who records
+    what material in which situation to complete what task, so no concrete usage scenario can be reconstructed.
+  pain: 只能推测零散笔记难以串成连贯叙述，但候选未给出任何用户痛点、抱怨或替代行为的公开描述，痛点无法确证。
+  pain_en: One can only speculate that scattered notes are hard to weave into a coherent narrative, but
+    the candidate provides no public description of user pain, complaint, or workaround, so the pain cannot
+    be confirmed.
+  current_alternative: 公开材料未提及任何现有替代做法，无法确认用户此前如何整理笔记或讲述记录。
+  current_alternative_en: The public material mentions no existing alternative, so it is impossible to
+    confirm how users previously organized notes or narrated records.
+  usage_reason: 缺少功能细节、输入材料与交付物说明，无法解释相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no feature detail, input material, or deliverable described, it cannot be explained
+    which step of the old approach is reduced, nor which users would choose it in which situation.

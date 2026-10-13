@@ -1,0 +1,82 @@
+- id: req-initial-winverse-ai以4亿美元估值完成在种子轮融资deepseek领投-2026-10-13
+  project_slug: winverse-ai以4亿美元估值完成在种子轮融资deepseek领投
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，公开材料只有融资估值与领投方，价值关不成立。
+    evidence_ids:
+    - ev-aa8e79b05118983e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何用户采用或场景共识材料。
+    evidence_ids:
+    - ev-aa8e79b05118983e
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-aa8e79b05118983e
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核验承诺能否确定性交付。
+    evidence_ids:
+    - ev-aa8e79b05118983e
+  next_validation: 收集 Winverse AI 官方产品页或发布说明，核验其具体功能、目标用户与交付物。
+  market: ''
+  job: 公开材料未说明用户是谁、在什么情况下处理什么材料、要完成什么任务，无法还原具体工作节点。
+  job_en: The public material does not say who the user is, under what circumstances they handle what
+    material, or what task they complete, so the concrete work step cannot be reconstructed.
+  pain: 材料未披露任何用户痛点或旧流程中的困难，无法判断问题是否真实存在。
+  pain_en: The material discloses no user pain point or difficulty in the old workflow, so whether the
+    problem is real cannot be judged.
+  current_alternative: 材料未说明用户目前用什么方式完成该任务，无法识别被替代的旧做法。
+  current_alternative_en: The material does not say how users currently complete the task, so the replaced
+    old practice cannot be identified.
+  usage_reason: 材料仅披露融资估值与领投方，未说明产品通过什么动作减少哪一步负担，无法给出用户选择它的因果解释。
+  usage_reason_en: The material only discloses the valuation and lead investor, not what action the product
+    takes to reduce which step's burden, so no causal reason for users to choose it can be given.
+- id: req-full-winverse-ai以4亿美元估值完成在种子轮融资deepseek领投-2026-10-13
+  project_slug: winverse-ai以4亿美元估值完成在种子轮融资deepseek领投
+  level: full
+  reviewed_at: '2026-10-13T03:48:13Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有 4 亿美元估值种子轮与 DeepSeek 领投，未说明谁在什么工作节点处理什么材料、要完成什么任务，也写不出用户痛点与旧替代，价值关不成立。
+    evidence_ids:
+    - ev-58d0219d5d49878a
+    - ev-24eb2b76d6aacd8e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Winverse AI 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 公开材料只说明 Winverse AI 是由前腾讯科学家胡瀚创立的机器人 AI 初创公司，处于隐身状态；没有说明谁在什么工作节点、处理什么材料、要完成什么任务，具体使用场景无法还原。
+  job_en: The public material only identifies Winverse AI as a stealth robot-AI startup founded by ex-Tencent
+    scientist Hu Han; it does not say who, at which work step, handling what material, completes what
+    task, so the concrete use scenario cannot be reconstructed.
+  pain: 材料未披露任何用户痛点或旧流程中的困难，只能看到融资估值与领投方，无法判断它要缓解什么问题。
+  pain_en: The material discloses no user pain point or difficulty in the old workflow; only the valuation
+    and lead investor are visible, so the problem it aims to relieve cannot be judged.
+  current_alternative: 材料未说明用户目前用什么方式完成该任务，无法识别被替代的旧做法。
+  current_alternative_en: The material does not say how users currently complete the task, so the replaced
+    old practice cannot be identified.
+  usage_reason: 材料仅披露 4 亿美元估值种子轮与 DeepSeek 领投，未说明产品通过什么具体动作减少哪一步负担，无法给出用户选择它的因果解释。
+  usage_reason_en: The material only discloses a $400mn-valuation seed round led by DeepSeek, not what
+    concrete action the product takes to reduce which step's burden, so no causal reason for users to
+    choose it can be given.

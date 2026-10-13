@@ -1,0 +1,38 @@
+- id: req-initial-perplexity-ai-2026-10-13
+  project_slug: perplexity-ai
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决搜索要逐条点开网页自行拼答案的问题，痛点刚性且交付为带引用的答案，需求成立。
+    evidence_ids: []
+  - gate: consensus
+    status: supported
+    reason: 公开访问量显示已有规模，说明相当数量用户已把它当作答案入口，共识在搜索场景中形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 候选未提供定价或付费路径，钱可能来自订阅或企业授权，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明引用准确率与错误纠正机制，答案可靠性的人工边界缺少支持。
+    evidence_ids: []
+  next_validation: 收集其官方定价页与订阅说明，确认个人与企业的付费路径及计价方式。
+  market: ''
+  job: 普通用户或研究者在需要快速了解一个陌生话题时，处理公开网页信息，要完成一次带来源、可核对的答案获取。
+  job_en: General users or researchers trying to quickly understand an unfamiliar topic handle public
+    web information to obtain a sourced, checkable answer.
+  pain: 传统搜索给出链接列表，用户要逐个点开、自己拼答案，来源与结论对不上时还要反复核对。
+  pain_en: Traditional search returns a list of links, so users open them one by one and assemble the
+    answer themselves, re-checking when sources and conclusions do not line up.
+  current_alternative: 用搜索引擎逐条点开网页自行整理，或在通用聊天助手里提问但缺少实时来源。
+  current_alternative_en: Opening search-engine results one by one and assembling the answer manually,
+    or asking a general chat assistant that lacks real-time sources.
+  usage_reason: 事实：它把检索与生成合并为一次带引用的回答，用户不必逐条点开网页再自行拼接；公开访问量显示已有规模，因此这类用户会在需要快速获得可核对答案时选择它。
+  usage_reason_en: 'Fact: it merges retrieval and generation into one cited answer, so users need not
+    open each page and stitch results themselves; public traffic shows scale, so such users choose it
+    when they need a quickly checkable answer.'

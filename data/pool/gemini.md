@@ -3,36 +3,37 @@ slug: gemini
 name: Gemini
 builder: simonsarris
 category: 通用助手
-summary_zh: 遇到写作、查资料、做计划或设计图片的人打开 Gemini，把问题、文档或一段提示交给它；模型读取输入后生成文案、分析、方案或图片，用户拿到可编辑的初稿或成图，再自行确认修改。
-inspiration: 趋势：模型入口已具备十亿级用户与行业版（法律、办公设计），通用助手窗口基本关闭。切入：不要正面做通用对话；可借其行业版思路，在法律、地产、医疗等中文垂直流程里做它没覆盖的交付型工具。
-summary_en: 'People open Gemini to write, research, plan, or design images: they hand it a question, document,
-  or prompt, and get back drafts, analysis, plans, or generated images to review and edit. Google''s general
-  assistant, reported above one billion monthly users.'
-inspiration_en: 'Trend: the general-assistant window is closed once a model entry reaches a billion users
-  with vertical editions for legal and design. Entry: build delivery-based vertical tools for workflows,
-  like Chinese legal or real estate, its editions don''t cover.'
+summary_zh: 学生、教师或一般知识工作者在写作、规划、查资料或做课程作业时打开它，把问题、草稿或学习材料交给助手，由模型生成文字、解释与方案，用户拿到可直接使用的草稿或答案，仍需自己核对事实与引用。具体学科场景与交付边界仍待核验。
+inspiration: 趋势是通用助手正从聊天入口渗进具体学习与工作环节，用户量翻番说明使用面在扩大而非收缩。切入不在正面做又一个通用助手，而在它交付最弱的一环：面向学校与培训机构的作业批改、引用核验、课程材料生成，按班级或按份结果收费，把通用能力包进可追责的教学流程。
+summary_en: Students, teachers or general knowledge workers open it while writing, planning, researching
+  or doing coursework, hand over a question, draft or study material, and the model returns text, explanations
+  and plans they can use directly, with facts and citations still needing their own check. The specific
+  subject workflows and delivery boundaries remain to be verified.
+inspiration_en: 'The trend is that general assistants are moving from a chat entry point into concrete
+  study and work steps, and a doubling user base shows the surface is expanding rather than shrinking.
+  The opening is not another general assistant but its weakest link: grading, citation checking and course-material
+  generation sold to schools and training providers per class or per deliverable, wrapping general capability
+  in an accountable teaching workflow.'
 priority_review: false
 project_type: new_application
 industries:
-- 企业服务
-- 法律服务
-- 消费应用
+- 教育
+- 软件与互联网服务
 industries_en:
-- Enterprise Services
-- Legal Services
-- Consumer Applications
+- Education
+- Software and Internet Services
 jobs:
-- 办公室职员
-- 律师
-- 内容创作者
+- 学生与教师
+- 通用知识工作者
 jobs_en:
-- Office Workers
-- Lawyers
-- Content Creators
+- Students and teachers
+- General knowledge workers
 regions:
 - 全球
+- 越南
 regions_en:
 - Global
+- Vietnam
 open_source: false
 url: https://www.aicpb.com/product/Gemini/webid1D6F37519
 canonical_url: https://aicpb.com/product/Gemini/webid1D6F37519
@@ -40,7 +41,7 @@ summary: Meet Gemini, Google’s AI assistant. Get help with writing, planning, 
   Experience the power of generative AI.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-09-10T05:14:03Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

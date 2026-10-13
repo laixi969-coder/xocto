@@ -344,3 +344,55 @@
     and entry step, so researchers who maintain large reference libraries and want the list consumable
     by scripts or agents would choose it at the start of the day. Public materials contain no retention
     or repeat-use evidence, so long-term workflow adoption cannot be asserted.'
+- id: req-full-aisafetyhot-hub-2026-10-13
+  project_slug: aisafetyhot-hub
+  level: full
+  reviewed_at: '2026-10-13T03:42:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 安全研究者每日从海量新论文中筛选并导入文献的需求，痛点是人工筛选耗时、易漏且引用整理重复；不解决的后果是错过关键工作或耗费大量时间。公开材料已给出输入（每日论文）、动作（精选并输出
+      md/bib/json）与交付（可导入清单），属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-3a8fe3e4c35af83a
+    - ev-4b619864383fa117
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 197 升至 1,055，说明关注度在增长，但收藏与访问量只属规模信号，不能证明研究社群已把它纳入每日工作流；公开材料未见用户评价、issue 讨论或客户案例佐证持续采用。
+    evidence_ids:
+    - ev-3a8fe3e4c35af83a
+    - ev-41714e2aa309d3f5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页或付费路径，开源项目可能靠赞助、机构资助或无偿维护，钱来自 to C 订阅、to B 机构还是 to VC 尚不可知；这是判断而非已验证事实，但不足以否定需求本身。
+    evidence_ids:
+    - ev-78022bca814ccc08
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明筛选标准、覆盖范围与更新频率，无法核验清单是否漏掉关键工作、每日是否稳定交付；交付确定性缺少可核对证据，但产品形态与第一性目标（快速得到可读可导入的清单）一致。
+    evidence_ids:
+    - ev-3a8fe3e4c35af83a
+    - ev-65b2198ec4e11950
+  next_validation: 追踪该仓库的公开 issue/discussion 与提交记录，核验每日清单的筛选标准、更新频率及是否有研究者反馈实际导入使用。
+  market: ''
+  job: AI 安全方向的研究者在每天开始工作时，面对 arXiv、会议与社区不断新增的论文，需要筛出当天值得精读的少数几篇，并把条目导入自己的文献管理工具或 Agent 工作流。
+  job_en: An AI safety researcher starting the day faces a growing stream of new papers from arXiv, conferences
+    and community feeds, and needs to shortlist the few worth reading closely and import the entries into
+    a reference manager or agent workflow.
+  pain: 论文产出速度远超个人阅读能力，逐条浏览分类列表耗时且容易漏掉重要工作；手动复制标题、链接与引用信息再整理成 bib 条目是重复劳动，且不同来源格式不统一。
+  pain_en: Paper output far exceeds individual reading capacity; scanning category listings is slow and
+    misses important work, and manually copying titles, links and citation data into bib entries is repetitive
+    work with inconsistent formats across sources.
+  current_alternative: 手动刷 arXiv 分类列表、订阅邮件列表与会议 proceedings、依赖社交平台或同行转发推荐，再自行整理引用条目。
+  current_alternative_en: Manually scanning arXiv category listings, subscribing to mailing lists and
+    conference proceedings, relying on social platforms or peer forwards, then assembling citation entries
+    by hand.
+  usage_reason: 推断：相较手动刷列表再逐条复制，它把每日筛选结果直接输出为 md/bib/json 三种可导入格式，省去整理引用条目这一步，并附 Agent 接入说明让清单可被自动化流程读取；因此需要批量维护参考文献、且希望把每日清单接入自己工具链的
+    AI 安全研究者会在日常选题时选择它。公开材料未提供筛选标准与留存数据，长期采用仍属推断。
+  usage_reason_en: 'Inference: instead of scanning listings and copying entries one by one, it outputs
+    the daily shortlist directly as importable md/bib/json and documents agent integration, removing the
+    citation-assembly step and letting the list feed automated pipelines. Researchers who maintain large
+    reference libraries and want the daily list inside their own toolchain would therefore pick it for
+    daily triage. Selection criteria and retention data are not public, so long-term adoption remain'

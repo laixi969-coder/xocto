@@ -146,3 +146,51 @@
     command, removing the procurement and ops step while data stays in their account with no telemetry;
     privacy-minded users who avoid ops would try it first rather than keep a hosted assistant or build
     their own.'
+- id: req-full-talorys-2026-10-13
+  project_slug: talorys
+  level: full
+  reviewed_at: '2026-10-13T03:47:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人助手数据必须交给第三方、自建又要运维的问题，痛点具体，旧替代行为清楚；但实际任务完成度仍待核验。
+    evidence_ids:
+    - ev-eb6a63826cc43d0f
+    - ev-910b27e57970e6c1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 752 升至 907，说明关注度存在，但缺少用户评价或持续使用证据，不能据此判断共识。
+    evidence_ids:
+    - ev-910b27e57970e6c1
+    - ev-0c9e641b58e7d0e7
+  - gate: model
+    status: insufficient
+    reason: 开源且免费额度部署，未见定价或付费路径；钱可能来自托管版或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-eb6a63826cc43d0f
+  - gate: truth
+    status: insufficient
+    reason: 未见记忆保持、提醒可靠性或数据安全的实测结果，承诺能否确定性交付尚缺证据。
+    evidence_ids:
+    - ev-910b27e57970e6c1
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户是否报告过提醒按时触发、记忆跨会话保持等可复现结果。
+  market: ''
+  job: 个人用户在需要记录待办、备忘、笔记和定时提醒时，把聊天、记忆、任务交给部署在自己 Cloudflare 账号里的单用户代理，由它按计划触发提醒；隐私敏感用户则用一条命令把代理部署到自己的云账号，自行保管数据。
+  job_en: An individual hands chat, memory, and tasks to a single-user agent deployed in their own Cloudflare
+    account when they need to record to-dos, memos, notes, and scheduled reminders, and it fires reminders
+    on schedule; privacy-sensitive users deploy it into their own cloud account with one command and keep
+    the data themselves.
+  pain: 托管式个人助手要求把聊天、笔记和日程交给第三方服务器，隐私敏感用户不放心；自建代理又要买服务器、配数据库、做运维，门槛高。
+  pain_en: Hosted personal assistants require handing chats, notes, and schedules to a third party's servers,
+    which privacy-sensitive users resist; self-hosting an agent otherwise means buying servers, wiring
+    a database, and doing ops, a high bar.
+  current_alternative: 用 Notion、Obsidian 加独立提醒工具手工记录，或直接用托管式 AI 助手，把数据放在别人的服务器上。
+  current_alternative_en: Record by hand in Notion or Obsidian plus a separate reminder tool, or use a
+    hosted AI assistant and keep data on someone else's servers.
+  usage_reason: 推断：相较自建代理要自己配服务器和数据库，它用一条 npx 命令把单用户代理部署进用户已有的 Cloudflare 免费账号，省掉运维与托管订阅这一步，数据仍留在自己账号；因此在意隐私、又不想运维的个人用户会在需要个人助手时选择它。
+  usage_reason_en: 'Inference: versus self-hosting an agent with your own server and database, it deploys
+    a single-user agent into the user''s existing free Cloudflare account with one npx command, removing
+    the ops and hosting-subscription step while data stays in their account; privacy-minded users who
+    avoid ops would pick it when they want a personal assistant.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeExqSXlSS3ZX
 summary: ServiceNow's Analyst Targets Rise in Unison, but Conviction Doesn't Follow ad-hoc-news.de
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

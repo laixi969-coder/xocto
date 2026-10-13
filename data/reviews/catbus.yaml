@@ -205,3 +205,43 @@
   usage_reason_en: 'Inference: versus writing scripts per platform, it collapses multi-platform actions
     into one command set and JSON output, removing the step of adapting an interface for each platform.
     No evidence of real usage, retention or customer cases, so long-term adoption cannot be confirmed.'
+- id: req-full-catbus-2026-10-13
+  project_slug: catbus
+  level: full
+  reviewed_at: '2026-10-13T03:43:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决跨平台操作分散、Agent 难以稳定调用的问题，但公开材料只有一句功能描述，说不清具体用户任务、被替代的人工步骤与不解决的后果，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-9dc85cea6ad87345
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目官方仓库或官网的 README、命令清单与 issue/discussion，确认实际支持的动作、失败处理方式与是否有团队在生产环境使用。
+  market: ''
+  job: 运营人员或 AI Agent 需要在同一流程里跨小红书、抖音、TikTok、B 站、快手、微博、闲鱼、淘宝、京东、X 执行操作并拿到结构化结果。
+  job_en: Operations staff or AI agents need to run actions across Xiaohongshu, Douyin, TikTok, Bilibili,
+    Kuaishou, Weibo, Xianyu, Taobao, JD and X in one flow and get structured results.
+  pain: 公开材料只有一句功能描述，无法还原具体用户任务、被替代的人工步骤与不解决的后果，痛点强度与刚性无从判断。
+  pain_en: The public material offers only a one-line feature description, so the concrete user task,
+    the manual step being replaced, and the consequence of not solving it cannot be reconstructed; pain
+    intensity and rigidity cannot be judged.
+  current_alternative: 公开材料未说明现有替代方式，无法确认用户当前是人工逐平台点击、分别写脚本，还是根本不处理该任务。
+  current_alternative_en: The public material does not state any current alternative, so it is unknown
+    whether users click through each platform manually, write separate scripts, or simply do not do this
+    task at all.
+  usage_reason: 缺少可引用的产品说明、使用反馈或案例，无法说明产品通过什么具体动作减少哪一步负担，因此无法解释用户为何会选择它。
+  usage_reason_en: With no citable product documentation, usage feedback or case study, there is no way
+    to say which step the product removes or why any user would choose it.

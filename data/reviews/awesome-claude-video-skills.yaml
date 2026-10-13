@@ -568,3 +568,47 @@
     searching and comparing video-skill repos and adds a security grade; but for video editors and short-video
     operators it provides no rendering, editing or finished-video delivery, so it cannot enter their daily
     workflow.'
+- id: req-full-awesome-claude-video-skills-2026-10-13
+  project_slug: awesome-claude-video-skills
+  level: full
+  reviewed_at: '2026-10-13T03:43:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是“给编码代理找视频技能包”的检索需求，痛点来自开发者挑仓库的筛选成本，而非剪辑师出片的刚性痛点；清单只做分类与安全标注，不交付成片，对目标岗位属于没有也行，价值关不成立。
+    evidence_ids:
+    - ev-bbe851d94ee5ee71
+    - ev-99fd6e4174419219
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该清单仓库的 README 与 issue/discussion，确认是否有用户报告用某个技能包实际渲染出成片并替代了原有剪辑流程。
+  market: ''
+  job: 视频剪辑师或短视频运营在需要批量产出成片时，先在本清单里按类型挑一个视频技能包，装进 Claude Code、Codex 等编码代理，由代理读取素材并调用工具渲染出视频。
+  job_en: A video editor or short-video operator who needs to produce clips at volume picks a video skill
+    from this list by type, installs it into Claude Code, Codex or another coding agent, and lets the
+    agent read the footage and call tools to render the video.
+  pain: 公开材料只说明清单按类型收录 180 个仓库并做安全分级，没有给出任何用户抱怨、旧流程耗时或返工代价；剪辑软件逐条拼接的负担是行业常识，但本产品是否真正减轻它未被公开证据支持。
+  pain_en: Public materials only say the list catalogs 180 repos by type with security grading; no user
+    complaint, old-workflow time cost or rework penalty is shown. The burden of cutting clip by clip in
+    an NLE is common knowledge, but this product's relief of it is not supported by public evidence.
+  current_alternative: 视频剪辑师目前用 Premiere、剪映、DaVinci 等剪辑软件手工拼接，或直接调用 Runway、可灵等生成式视频工具；本清单只是这些技能包的索引页，用户仍要自己挑、自己装、自己调通。
+  current_alternative_en: Editors today cut manually in Premiere, CapCut or DaVinci, or call generative
+    video tools such as Runway or Kling directly; this list is only an index of skill packages, and users
+    still pick, install and debug them themselves.
+  usage_reason: 推断：相较自己在 公开代码仓库 上逐个搜索视频技能包，清单通过分类和安全分级减少筛选步骤，因此会吸引想给编码代理加视频能力的开发者；但清单本身不交付成片，也不替代剪辑软件，对只想出片的剪辑师没有直接价值。
+  usage_reason_en: 'Inference: versus searching public code repository repo by repo, the list reduces
+    screening effort through type categories and security grading, so it appeals to developers adding
+    video capability to a coding agent; but the list itself delivers no finished video and does not replace
+    an NLE, so it offers little to an editor who just wants output.'

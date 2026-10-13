@@ -174,3 +174,57 @@
     the canvas keeps ideas, models and assets in one place and an agent connects them, removing the cross-tool
     copy-and-merge step; creators handling multi-model, multi-asset storyboarding would therefore choose
     it at that stage. Public material gives no user feedback, so the motive is a structural inference.'
+- id: req-full-beeftv-2-2026-10-13
+  project_slug: beeftv-2
+  level: full
+  reviewed_at: '2026-10-13T03:43:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频创作中生成、组织、加工分散、上下文丢失的需求，痛点是素材关系与过程无法保留、需在多工具间人工搬运；公开材料给出生成—组织—加工闭环与本地优先交付，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-ac16cb7bbecca25c
+    - ev-5790a370fe98dd46
+    - ev-ec8018873008b977
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库与官网的功能定位，未见用户评价、客户案例或持续采用数据；画布加 Agent 的强场景在结构上成立，但卡在感知与采用证据这一环，无法确认已进入日常工作流。
+    evidence_ids:
+    - ev-ec8018873008b977
+    - ev-6cdc89e306176e97
+  - gate: model
+    status: insufficient
+    reason: 官网仅说明开源、本地优先、可下载 macOS 或 Windows 桌面版，未披露定价与买方；可能的付费路径是 to C 创作者订阅或 to B 团队授权，这是判断而非已验证事实，也无融资叙事可判每日优鲜风险。
+    evidence_ids:
+    - ev-c544267fc9a9b934
+    - ev-754374c8d22facf1
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明画布与 Agent 的交付是否确定发生、生成结果由谁确认，也未给出人工审核边界；本地优先与开源降低数据外流风险，但交付确定性仍缺可核对证据。
+    evidence_ids:
+    - ev-1ff12b8d30beb166
+    - ev-39d1398990b47264
+  next_validation: 追踪 BeefTV 官方文档或 公开代码仓库 仓库的 issue/discussion，核对画布加 Agent 的具体输入、动作与交付物，以及是否出现用户实际使用与付费路径的公开记录。
+  market: ''
+  job: 视频创作者（个人或小团队）在分镜与素材整理阶段，把提示词、参考素材、生成模型与 Agent 放进同一块画布，用节点连线建立素材关系与生成流程，产出可继续加工、可复用的成片方案与素材编排结果。
+  job_en: Video creators (individuals or small teams) at the storyboarding and asset-organization stage
+    place prompts, reference assets, generation models and agents on one canvas, using nodes and links
+    to build asset relationships and generation flows, producing a deliverable cut plan and asset arrangement
+    that can be further processed and reused.
+  pain: 公开材料显示旧流程是分散的：生成、组织、加工分处不同工具，一次生成的结果难以保留过程与复用素材，裁切、标注、局部重绘、拆分、引用和组合需要人工在多处搬运汇总，创作上下文容易丢失。
+  pain_en: 'Public material shows the old flow is fragmented: generation, organization and processing
+    live in separate tools; a single generation''s process is hard to retain and assets hard to reuse;
+    cropping, annotation, inpainting, splitting, referencing and combining require manual shuttling and
+    merging, and creative context is easily lost.'
+  current_alternative: 剪辑师在时间轴软件里手工拼接素材，或分别调用多个生成模型再人工汇总；素材关系与创作上下文靠人脑或零散文件记录。
+  current_alternative_en: Editors assemble assets manually in timeline software, or call several generation
+    models separately and merge results by hand; asset relationships and creative context are kept in
+    the editor's head or in scattered files.
+  usage_reason: 推断：相较旧做法，BeefTV 把生成、组织、加工收敛到同一画布，用节点连线显式记录素材关系与生成流程，并保留过程、复用素材，使一次生成变成可演进的工作流，从而减少在多个工具间搬运与重新汇总的步骤；本地优先、开源、可下载桌面版，会让在意素材留在本地、希望流程可追溯的视频创作者在分镜与素材整理阶段选择它。
+  usage_reason_en: 'Inference: versus the old way, BeefTV converges generation, organization and processing
+    onto one canvas, explicitly records asset relationships and generation flows via nodes and links,
+    and retains process and reuses assets so one generation becomes an evolving workflow, cutting the
+    steps of shuttling and re-merging across tools; being open-source, local-first and downloadable as
+    a desktop app leads video creators who care about keeping assets local and flows traceable to cho'

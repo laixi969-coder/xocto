@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE5pRzdzVXZyb3o2
 summary: 欢瑞世纪：上半年公司AI短剧业务营收占比不足1%|投资风险|审计|投资者|风险|上线 新浪财经
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

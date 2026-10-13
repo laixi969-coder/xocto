@@ -594,3 +594,53 @@
     tasks and stays current, researchers could skip a round of cross-platform searching; but public evidence
     is only a description and stars, so the list''s content, update cadence, and real workflow adoption
     cannot be confirmed, leaving the choice motive unestablished.'
+- id: req-full-offensive-security-ai-models-2026-10-13
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-13T03:46:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是授权渗透测试中挑选可本地部署未审查模型的需求，痛点是通用模型拒答、逐个试装比对成本高；仓库简介与星标增长说明有人持续关注，但收录标准与部署交付未公开，属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-f29baa4e44a5472a
+    - ev-6b2fe833b4b0c70b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 625 增至 675，说明关注度上升，但星标只属规模与关注度证据，不能证明目标用户已把它留在选型工作流里；缺少 issue、discussion 或使用反馈来显示真实采用。
+    evidence_ids:
+    - ev-f29baa4e44a5472a
+    - ev-6b2fe833b4b0c70b
+  - gate: model
+    status: insufficient
+    reason: 这是开源清单仓库，公开材料未显示定价、赞助、商业支持或企业采购路径；谁付钱、以何种方式变现均无公开事实，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-f29baa4e44a5472a
+  - gate: truth
+    status: insufficient
+    reason: 仓库未公开收录标准、模型许可、部署文档与产出示例，无法核对交付能否稳定发生；同时未审查模型用于攻击性任务的安全与合规边界在公开材料中完全缺失。
+    evidence_ids:
+    - ev-f29baa4e44a5472a
+    - ev-6c95a5897c54f26a
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认收录标准、部署说明及是否有安全团队公开引用其选型流程。
+  market: ''
+  job: 安全研究员在获得客户书面授权的渗透测试或红队项目中，需要挑选可本地部署、未做安全对齐限制的模型，用来生成攻击面假设、辅助编写验证脚本并复核测试结果。
+  job_en: In an authorized penetration test or red-team engagement, a security researcher needs to pick
+    locally deployable, unaligned models to generate attack-surface hypotheses, assist in writing validation
+    scripts, and cross-check findings.
+  pain: 公开材料只给出仓库简介，未展示用户抱怨；但从任务结构看，通用商用模型对攻击性安全指令普遍拒答或降级回答，研究员只能逐个模型仓库试装、比对许可与显存要求，选型环节反复且不可复用，这是工作流推理而非用户口述。
+  pain_en: Public materials show only the repo description, not user complaints; structurally, general
+    commercial models tend to refuse or degrade offensive-security prompts, so researchers must trial-install
+    and compare licenses and VRAM needs model by model, making selection repetitive and non-reusable.
+    This is workflow inference, not user testimony.
+  current_alternative: 当前替代方式是研究员自行在 公开模型社区、公开代码仓库 与论文中零散检索未审查或安全微调模型，逐个下载试跑，或直接使用会拒答的通用商用 API。
+  current_alternative_en: Today researchers scatter-search public model community, public code repository,
+    and papers for uncensored or security-tuned models, download and trial each one, or fall back to refusal-prone
+    general commercial APIs.
+  usage_reason: 推断：相较逐个仓库试装，该清单把候选模型集中到一处，减少的是“先找到有哪些可用模型”这一步检索与比对负担，因此会在授权测试启动、需要本地可控模型时被研究员选用；但仓库未说明收录标准、部署方式与产出，实际减少多少步骤仍缺公开证据。
+  usage_reason_en: 'Inference: versus trial-installing repos one by one, the list centralizes candidates,
+    cutting the ''first find which models exist'' search-and-compare step, so researchers would pick it
+    when starting an authorized test needing locally controlled models; however the repo does not state
+    inclusion criteria, deployment, or outputs, so how much it actually saves lacks public evidence.'

@@ -1,0 +1,84 @@
+- id: req-initial-skills-hub-2026-10-13
+  project_slug: skills-hub
+  level: initial
+  reviewed_at: '2026-10-13T03:03:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理环境下技能分散、切换成本高的需求，痛点是重复配置与版本混乱，旧替代是手工目录加笔记，结构上成立。
+    evidence_ids:
+    - ev-0463384504064cc7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库一句描述与少量社区讨论，没有 issue、采用或团队使用证据，无法判断是否被留在日常开发流程。
+    evidence_ids:
+    - ev-0463384504064cc7
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费路径，是个人维护还是企业版不清；按席位或私有部署收费属推断，不是已验证事实。
+    evidence_ids:
+    - ev-0463384504064cc7
+  - gate: truth
+    status: insufficient
+    reason: 技能与具体代理运行时的兼容性、权限与安全边界未说明，能否稳定交付仍缺一环。
+    evidence_ids:
+    - ev-0463384504064cc7
+  next_validation: 收集该仓库的 issue 与 discussion，核验是否有团队级使用、技能与主流代理运行时的兼容范围及权限处理方式。
+  market: ''
+  job: 开发者在使用多个 AI 代理时，把散落在不同目录和工具里的代理技能集中起来，查看、启用与切换。
+  job_en: Developers using multiple AI agents gather agent skills scattered across directories and tools
+    to view, enable and switch between them.
+  pain: 技能文件散落各处、命名不一，换代理就要重新找和配，重复劳动且容易用错版本。
+  pain_en: Skill files are scattered with inconsistent naming, so switching agents means re-finding and
+    re-configuring them, duplicating work and risking wrong versions.
+  current_alternative: 手工在文件系统里维护技能目录，或用笔记和脚本自行记录哪个代理配了哪些技能。
+  current_alternative_en: Manually maintaining skill directories in the file system, or tracking which
+    agent has which skills via notes and scripts.
+  usage_reason: 推断：相较手工翻目录和记笔记，它把技能的查看与启停集中到一个界面，省掉切换代理时重新定位和配置的那一步，因此同时用多个代理、技能数量已多到记不住的开发者会先试用它。
+  usage_reason_en: 'Inference: versus manually browsing directories and keeping notes, it centralizes
+    viewing and toggling skills in one interface, removing the re-locating and re-configuring step when
+    switching agents, so developers juggling multiple agents and too many skills to remember will try
+    it first.'
+- id: req-full-skills-hub-2026-10-13
+  project_slug: skills-hub
+  level: full
+  reviewed_at: '2026-10-13T03:47:20Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决多代理技能分散管理，但全部证据是简历技能写作指南，与 AI 代理技能无关，无法还原用户任务、痛点与旧替代，需求结构无法成立。
+    evidence_ids:
+    - ev-1c60639f09e49bdf
+    - ev-a5beb1a69a629dae
+    - ev-a07a477347156a82
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该桌面应用的官方仓库或发布页，收集其 README、issue 与 discussion，核验技能与主流 AI 代理运行时的对接方式及是否有真实开发者使用记录。
+  market: ''
+  job: 开发者同时使用多个 AI 代理时，把散落在不同目录与工具中的代理技能文件集中到一处，查看、启用与切换，形成一份可复用的技能清单。
+  job_en: Developers using multiple AI agents gather agent skill files scattered across directories and
+    tools into one place to view, enable and switch them, producing a reusable skill inventory.
+  pain: 公开材料未提供任何关于技能分散、切换成本或版本混乱的用户痛点证据；现有证据全部是简历技能写作指南，与 AI 代理技能管理无关。
+  pain_en: Public materials provide no user-pain evidence about scattered skills, switching cost or version
+    confusion; all evidence is resume skill-writing guides unrelated to AI agent skill management.
+  current_alternative: 公开材料未记录开发者当前如何管理代理技能，无法确认手工目录、笔记或脚本等替代方式是否真实存在。
+  current_alternative_en: Public materials do not record how developers currently manage agent skills,
+    so manual directories, notes or scripts as alternatives cannot be confirmed.
+  usage_reason: 推断：若技能确实分散且数量多，集中查看与启停可省去切换代理时重新定位配置的一步；但缺少任何用户反馈或案例支持这一动机，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if skills are truly scattered and numerous, centralized viewing and toggling
+    could remove the re-locating step when switching agents; but no user feedback or case supports this
+    motive, so which users would choose it cannot be confirmed.'

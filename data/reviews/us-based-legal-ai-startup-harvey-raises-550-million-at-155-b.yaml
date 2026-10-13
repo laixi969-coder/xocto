@@ -1,0 +1,92 @@
+- id: req-initial-us-based-legal-ai-startup-harvey-raises-550-million-at-155-b-2026-10-13
+  project_slug: us-based-legal-ai-startup-harvey-raises-550-million-at-155-b
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师读大量合同与判例、产出初稿的需求，痛点是阅读耗时且易漏，旧做法是初级律师人工通读，结构上成立。
+    evidence_ids:
+    - ev-23abf130a6539aea
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资报道，没有客户案例或使用反馈，无法判断律所是否已把它留在日常流程里。
+    evidence_ids:
+    - ev-23abf130a6539aea
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方是律所还是企业法务只能推断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-23abf130a6539aea
+  - gate: truth
+    status: insufficient
+    reason: 法律输出需人工复核，材料未说明其准确性边界与责任划分，确定性交付无法核对。
+    evidence_ids:
+    - ev-23abf130a6539aea
+  next_validation: 收集 Harvey 官方客户案例或部署文档，确认其具体工作流、交付物与人工复核边界。
+  market: ''
+  job: 律所律师和企业法务在审阅合同、做尽职调查或检索判例时，需要把大量文档读成可用的初稿或结论。
+  job_en: Law firm lawyers and in-house counsel reviewing contracts, running due diligence or researching
+    case law need large document sets turned into usable drafts or conclusions.
+  pain: 这类文档阅读耗时且重复，人工逐份比对容易遗漏，交付时间被阅读量而不是判断力限制。
+  pain_en: Reading such documents is slow and repetitive, manual cross-checking misses items, and delivery
+    time is capped by reading volume rather than judgement.
+  current_alternative: 旧做法是初级律师或律师助理人工通读、做摘要和检索，再逐层上报复核。
+  current_alternative_en: The old way is junior lawyers or paralegals reading through documents, summarising
+    and searching, then escalating for layered review.
+  usage_reason: 推断：相较人工通读，它把第一遍阅读与摘要交给模型，律师从初稿开始改，省掉从零整理材料这一步；因此文档量大、人手紧的律所与法务团队会在尽调和合同审阅时选择它。
+  usage_reason_en: 'Inference: versus manual reading, it hands the first pass of reading and summarising
+    to a model so lawyers edit from a draft, removing the step of organising material from scratch; hence
+    document-heavy, thinly staffed firms and legal teams would pick it for due diligence and contract
+    review.'
+- id: req-full-us-based-legal-ai-startup-harvey-raises-550-million-at-155-b-2026-10-13
+  project_slug: us-based-legal-ai-startup-harvey-raises-550-million-at-155-b
+  level: full
+  reviewed_at: '2026-10-13T03:47:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师把大量合同、尽调与判例材料读成可用初稿或结论的需求，痛点是人工通读耗时、易漏且交付受阅读量限制；官网明确其面向律所与企业法务处理合同分析、尽调、合规与诉讼，旧替代为初级律师人工通读，属工作流结构推理。
+    evidence_ids:
+    - ev-25051a0129ff298e
+    - ev-9cb104c4229d66aa
+  - gate: consensus
+    status: insufficient
+    reason: 官网称逾 20 万名律师使用，属产品自述规模，未见客户案例、独立评价或留存复购数据，无法判断律所是否已把它留在日常流程，公开关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-9cb104c4229d66aa
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、计费方式与采购主体，买方是律所、企业法务还是按席位订阅只能推断，属判断而非已验证事实；但需求成立不因买方未核验而取消。
+    evidence_ids:
+    - ev-25051a0129ff298e
+  - gate: truth
+    status: insufficient
+    reason: 法律输出需人工复核，公开材料未说明模型准确性边界、幻觉处理与责任划分，交付确定性无法核对；官网仅称覆盖研究、起草到审阅全流程，未给出可验证的交付标准。
+    evidence_ids:
+    - ev-9cb104c4229d66aa
+  next_validation: 追踪 Harvey 官网客户案例页或部署文档，确认具体工作流、交付物与人工复核边界是否公开。
+  market: ''
+  job: 律所律师与企业法务在合同审阅、尽职调查、合规与诉讼检索中，需要把成百上千页合同、卷宗和判例材料读成可用的摘要、问答结论或初稿，再由律师复核定稿。
+  job_en: Law firm lawyers and in-house counsel handling contracts, due diligence, compliance and litigation
+    research need hundreds of pages of contracts, files and case law turned into usable summaries, Q&A
+    answers or drafts, then reviewed and finalised by a lawyer.
+  pain: 公开材料显示这类工作文档密集、重复度高：人工逐份通读与交叉比对耗时，交付节奏被阅读量而非判断力限制，且遗漏条款或判例的风险由律师承担。
+  pain_en: 'Public materials show this work is document-heavy and repetitive: manual reading and cross-checking
+    is slow, delivery pace is capped by reading volume rather than judgement, and the risk of missing
+    a clause or precedent falls on the lawyer.'
+  current_alternative: 旧做法是初级律师或律师助理人工通读、做摘要与检索，再逐层上报复核；部分人也会用通用聊天模型（ChatGPT、Gemini）临时处理，但缺少法律工作流与材料边界。
+  current_alternative_en: The old way is junior lawyers or paralegals reading, summarising and searching
+    manually, then escalating for layered review; some also use general chat models (ChatGPT, Gemini)
+    ad hoc, without legal workflow or material boundaries.
+  usage_reason: 推断：相较人工通读，Harvey 让模型先读入合同、尽调与判例材料并直接产出摘要、问答或初稿，律师从初稿开始改，省掉从零整理材料这一步；因此文档量大、人手紧的律所与法务团队会在尽调和合同审阅时选择它。官网称逾
+    20 万名律师使用，但缺少留存与复购证据，不能据此断言已长期嵌入工作流。
+  usage_reason_en: 'Inference: versus manual reading, Harvey has models read contracts, diligence and
+    case materials and produce summaries, answers or drafts so lawyers edit from a draft, removing the
+    step of organising material from scratch; hence document-heavy, thinly staffed firms and legal teams
+    would pick it for due diligence and contract review. The site claims 200,000+ lawyers use it, but
+    without retention or repeat-use evidence this cannot be asserted as long-term workflow embedding.'

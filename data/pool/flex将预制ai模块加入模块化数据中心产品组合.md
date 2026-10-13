@@ -1,6 +1,6 @@
 ---
 slug: flex将预制ai模块加入模块化数据中心产品组合
-name: Flex将预制AI模块加入模块化数据中心产品组合
+name: Flex
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ3FTYlFMbE83
 summary: Flex将预制AI模块加入模块化数据中心产品组合 Unite.AI
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Flex将预制AI模块加入模块化数据中心产品组合
+# Flex
 
 Flex将预制AI模块加入模块化数据中心产品组合 Unite.AI
 

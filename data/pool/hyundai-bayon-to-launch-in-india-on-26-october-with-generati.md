@@ -1,6 +1,6 @@
 ---
 slug: hyundai-bayon-to-launch-in-india-on-26-october-with-generati
-name: Hyundai BAYON to launch in India on 26 October with generative AI features
+name: Hyundai Bayon
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Hyundai BAYON to launch in India on 26 October with generative AI featu
   Dot Com
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Hyundai BAYON to launch in India on 26 October with generative AI features
+# Hyundai Bayon
 
 Hyundai BAYON to launch in India on 26 October with generative AI features Indian Television Dot Com
 

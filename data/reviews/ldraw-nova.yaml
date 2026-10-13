@@ -127,3 +127,52 @@
     file in LDraw-family tools, reducing the from-scratch placement and trial-and-error step; it would
     be chosen in situations where a hobbyist or designer needs a quickly obtainable editable draft rather
     than building from zero.'
+- id: req-full-ldraw-nova-2026-10-13
+  project_slug: ldraw-nova
+  level: full
+  reviewed_at: '2026-10-13T03:45:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是乐高玩家与创客从想法到可编辑积木模型的任务，痛点是手工逐块摆放的重复劳动与从造型到可拼搭结构的落差；这是工作流结构推理，公开材料仅有开源生成器说明，未提供用户抱怨或频率数据。
+    evidence_ids:
+    - ev-ef1145d523d1204b
+    - ev-dd952edf661bc8b5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 347 stars 属关注度证据，说明有人注意到该项目，但公开材料没有用户评价、issue 讨论或持续使用记录，无法判断它是否进入玩家日常工作流。
+    evidence_ids:
+    - ev-ef1145d523d1204b
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，公开材料未见定价页、赞助、付费或采购记录，钱可能来自 to C 爱好者捐赠或 to B 玩具设计工具授权，但均属判断而非已验证事实。
+    evidence_ids:
+    - ev-ef1145d523d1204b
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明生成结果是否保证可实际拼搭、是否处理零件合法性与结构稳定性，也未给出人工复核边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-ef1145d523d1204b
+  next_validation: 追踪 ldraw-nova 仓库的 issue、discussion 与 README 更新，确认是否有用户报告生成模型可实际拼搭、以及是否出现定价或赞助等付费路径。
+  market: ''
+  job: 乐高玩家、创客或玩具设计师在想要一个自定义乐高模型时，用自然语言描述想要的造型，让工具生成可继续在 LDraw 类编辑器里打开、逐块调整的模型文件，最终得到能实际拼搭或继续修改的搭建方案。
+  job_en: A LEGO hobbyist, maker, or toy designer who wants a custom LEGO model describes the desired
+    shape in natural language, has the tool generate a model file that can be opened and edited brick-by-brick
+    in an LDraw-style editor, and ends up with a buildable or further-editable design.
+  pain: 公开材料只说明这是开源乐高 AI 生成器，未给出用户抱怨或频率数据；从工作流结构推理，手工在 LDraw 类工具里逐块摆放一个完整模型是重复且耗时的机械劳动，从零构思造型到可拼搭结构之间存在明显落差，这是推断而非用户口述。
+  pain_en: Public materials only describe it as an open-source LEGO AI generator and give no user complaints
+    or frequency data; by workflow inference, placing bricks one by one in an LDraw-style tool is repetitive
+    manual labor, and there is a gap between an imagined shape and a buildable structure. This is inference,
+    not user testimony.
+  current_alternative: 旧做法是手工在 LDraw、Studio 等积木建模工具里逐块摆放，或直接购买官方套装、参考社区分享的现成图纸；公开材料未说明用户具体如何绕过这一步。
+  current_alternative_en: The old approach is placing bricks manually in LDraw, Studio, or similar brick-modeling
+    tools, or buying official sets and reusing community-shared instructions; public materials do not
+    show exactly how users work around this step.
+  usage_reason: 推断：相较逐块手工摆放，它把“从想法到初始积木布局”这一步交给生成模型完成，用户拿到的是可继续编辑的模型文件而非死图，因此想快速得到自定义模型草稿、再手工微调的乐高玩家与创客会在有明确造型想法时选择它；公开材料未提供用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with placing bricks by hand, it offloads the step from idea to
+    an initial brick layout to a generative model and returns an editable model file rather than a static
+    image, so LEGO hobbyists and makers who want a fast custom draft to refine by hand would choose it
+    when they have a concrete shape in mind; public materials provide no user feedback confirming this
+    motive.'

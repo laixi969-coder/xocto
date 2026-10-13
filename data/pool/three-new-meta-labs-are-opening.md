@@ -1,6 +1,6 @@
 ---
 slug: three-new-meta-labs-are-opening
-name: Three New Meta Labs Are Opening
+name: Meta Lab
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://meta.com/blog/meta-lab-new-locations-new-york-city-fifth-
 summary: ''
 first_seen: '2026-10-13T03:04:22Z'
 last_seen: '2026-10-13T03:04:22Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Three New Meta Labs Are Opening
+# Meta Lab
 
 _（源没给简介）_
 

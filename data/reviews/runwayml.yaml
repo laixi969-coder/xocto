@@ -1,0 +1,40 @@
+- id: req-initial-runwayml-2026-10-13
+  project_slug: runwayml
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频素材从零产出或快速改版的需求，痛点是拍摄与后期周期长、单条改版成本高，旧替代是实拍加剪辑或素材库，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 公开榜单显示访问量约 663 万且环比下降 20.52%，属规模与关注度证据，不能证明持续采用或团队已将其留在工作流。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 候选未提供定价页或付费路径，买方是个人创作者还是企业市场部不清；按席位或按产出收费属推断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 生成结果能否稳定达到可交付标准、版权与素材来源边界如何界定，公开材料未说明，交付确定性仍缺一环。
+    evidence_ids: []
+  next_validation: 收集 Runway 官方定价页与客户案例页面，核验其计费方式（按席位还是按产出）以及是否有企业级交付承诺。
+  market: ''
+  job: 视频创作者和广告制作人员在需要产出或修改视频素材时，把文本提示或参考图像交给模型，生成、续写或编辑出可进入剪辑流程的视频片段。
+  job_en: Video creators and ad producers hand text prompts or reference images to the model to generate,
+    extend or edit clips that can enter an editing pipeline.
+  pain: 传统拍摄与后期需要场地、演员、设备和数天周期，临时改一版素材成本高；不采用则只能接受长周期或放弃小批量创意测试。
+  pain_en: Traditional shooting and post-production require locations, talent, equipment and days of turnaround,
+    and revising one clip is costly; without it, teams accept long cycles or abandon small-batch creative
+    testing.
+  current_alternative: 实拍加后期剪辑、购买素材库授权，或用传统动效软件手工合成。
+  current_alternative_en: Live-action shooting with post-production, stock footage licensing, or manual
+    compositing in motion-graphics software.
+  usage_reason: 推断：相较实拍或素材库，它把“先出可看片段”这一步从数天压缩到一次生成，让广告和内容团队在提案阶段就能拿到可讨论的画面，因此预算有限、需要快速试多个创意方向的团队会在前期概念验证时选择它。
+  usage_reason_en: 'Inference: versus shooting or stock libraries, it compresses ''get a watchable clip''
+    from days to a single generation, letting ad and content teams discuss concrete visuals at the pitch
+    stage, so budget-constrained teams testing multiple creative directions choose it for early concept
+    validation.'

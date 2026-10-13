@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/502654.html
 summary: 游戏打到21:0，AI甚至不用再调用大模型了
 first_seen: '2026-10-13T03:04:22Z'
 last_seen: '2026-10-13T03:04:22Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

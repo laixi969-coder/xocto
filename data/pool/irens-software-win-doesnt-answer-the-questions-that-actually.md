@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeHJiTVBFMDFR
 summary: IREN's Software Win Doesn't Answer the Questions That Actually Matter ad-hoc-news.de
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

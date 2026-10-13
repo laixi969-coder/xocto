@@ -585,3 +585,44 @@
   usage_reason_en: 'Inference: compared with checking rules by hand, abide applies project rules as a
     constraint during generation, potentially reducing rework; without user feedback or adoption evidence,
     continued use cannot be confirmed.'
+- id: req-full-abide-2026-10-13
+  project_slug: abide
+  level: full
+  reviewed_at: '2026-10-13T03:42:18Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其约束编码代理遵守项目规则，但全部证据均为同名基督教冥想 App、词典释义与圣经词义文章，无一条指向该开发工具，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-ff29152209289200
+    - ev-4f02537d1a3b30a1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该编码代理工具自身的官方仓库 README 与 issue/discussion，确认其是否真实存在、如何接入编码代理以及规则约束是否确定性生效。
+  market: ''
+  job: 软件开发工程师在让编码代理修改已有代码库时，需要把项目既有的规则文件与代码约定交给代理，让代理产出的改动符合这些约定。
+  job_en: A software developer, when having a coding agent modify an existing codebase, needs to feed
+    the project's existing rule files and conventions to the agent so its changes comply with them.
+  pain: 公开材料只有一句产品简介，未说明代理偏离项目规则的具体代价、发生频率或开发者当前的绕过方式，痛点无法从证据还原。
+  pain_en: Public materials contain only a one-line product summary and do not state the concrete cost,
+    frequency, or current workarounds for agents deviating from project rules, so the pain cannot be reconstructed
+    from evidence.
+  current_alternative: 公开材料未提供任何关于开发者当前如何约束代理的替代做法信息。
+  current_alternative_en: Public materials provide no information on how developers currently constrain
+    agents as an alternative.
+  usage_reason: 推断：若产品能把项目规则作为约束施加在代理生成环节，可能减少事后逐条核对；但缺少任何用户反馈、采用或交付证据，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the product applies project rules as a constraint during agent generation,
+    it might reduce line-by-line post-hoc checking; but with no user feedback, adoption, or delivery evidence,
+    it cannot be said which users would choose it under what circumstances.'

@@ -1,0 +1,82 @@
+- id: req-initial-siena-ai-raises-17-million-series-a-to-expand-its-ai-platfor-2026-10-13
+  project_slug: siena-ai-raises-17-million-series-a-to-expand-its-ai-platfor
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决消费品牌客服高峰期重复咨询处理的需求，痛点是人力成本与响应速度，旧做法是人工坐席逐条回复。
+    evidence_ids:
+    - ev-0b45d15c27e20900
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户案例或公开采用数据，无法判断买方是否已形成稳定使用。
+    evidence_ids:
+    - ev-0b45d15c27e20900
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价与计费方式，买方付费路径只能推断为按对话量或坐席向品牌方收费。
+    evidence_ids:
+    - ev-0b45d15c27e20900
+  - gate: truth
+    status: insufficient
+    reason: 未见人工接管边界、回复准确率或交付确定性的公开材料，安全边界仍待核验。
+    evidence_ids:
+    - ev-0b45d15c27e20900
+  next_validation: 收集 Siena AI 官方定价页或公开客户案例，确认计费方式与人工接管流程。
+  market: ''
+  job: 消费品牌客服团队在售前售后咨询高峰期，处理来自邮件、聊天和社交渠道的重复性客户问题并给出回复。
+  job_en: Consumer-brand support teams handling repetitive pre- and post-sale customer questions across
+    email, chat and social channels during peak volume.
+  pain: 高峰期咨询量集中，人工坐席成本高且响应慢，重复问题占用大量人力。
+  pain_en: Inquiry volume concentrates at peaks; human agents are costly and slow, and repetitive questions
+    consume large amounts of labor.
+  current_alternative: 自建客服团队、外包客服中心或通用工单系统加人工回复。
+  current_alternative_en: In-house support teams, outsourced call centers, or generic ticketing systems
+    with manual replies.
+  usage_reason: 推断：相较自建或外包坐席，它直接读取客户消息并生成回复，减少人工逐条起草这一步，因此咨询量波动大的消费品牌会在高峰期选择它。
+  usage_reason_en: 'Inference: versus in-house or outsourced agents, it reads customer messages and drafts
+    replies directly, removing the manual per-message drafting step, so brands with volatile inquiry volume
+    would choose it at peaks.'
+- id: req-full-siena-ai-raises-17-million-series-a-to-expand-its-ai-platfor-2026-10-13
+  project_slug: siena-ai-raises-17-million-series-a-to-expand-its-ai-platfor
+  level: full
+  reviewed_at: '2026-10-13T03:47:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据仅指向 Siena 大学、OpenAI、Gemini 等无关页面，未包含任何关于该产品用户任务、痛点或替代方式的公开事实，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-d2882709b97cbae5
+    - ev-7f0250ef9a8e6f37
+    - ev-23ac87eb26fda77b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Siena AI 官网产品页与官方定价页，确认其客服自动化功能范围、计费方式与人工接管流程。
+  market: ''
+  job: 消费品牌客服团队在售前售后咨询高峰期，处理来自邮件、聊天和社交渠道的重复性客户问题并给出回复。
+  job_en: Consumer-brand support teams handling repetitive pre- and post-sale customer questions across
+    email, chat and social channels during peak volume.
+  pain: 公开证据中没有任何一条描述该产品的用户痛点、客服成本或响应延迟，无法确认痛点是否存在及其刚性。
+  pain_en: No public evidence describes this product's user pain, support cost, or response delay, so
+    the existence and rigidity of the pain cannot be confirmed.
+  current_alternative: 公开证据未提供任何关于当前替代方式的信息，无法确认用户现在如何绕过该问题。
+  current_alternative_en: Public evidence provides no information about current alternatives, so how users
+    currently work around the problem cannot be confirmed.
+  usage_reason: 公开证据未包含任何用户选择该产品的理由或采用行为，无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: Public evidence contains no reason users choose this product or any adoption behavior,
+    so which step it removes versus the old approach cannot be explained.

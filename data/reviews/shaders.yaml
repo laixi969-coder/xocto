@@ -249,3 +249,45 @@
   usage_reason: 材料未提供任何用户反馈或采用证据，无法解释开发者为何会选择它而非旧做法；仅凭仓库星标不能说明持续使用。
   usage_reason_en: The material provides no user feedback or adoption evidence, so it cannot explain why
     developers would choose it over the old approach; repository stars alone do not show sustained use.
+- id: req-full-shaders-2026-10-13
+  project_slug: shaders
+  level: full
+  reviewed_at: '2026-10-13T03:47:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决前端接入 WebGPU 着色器效果的任务，但候选材料未说明旧做法、卡点与不采用的后果，需求与痛点均无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-40eea3f885fcd6a8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该项目的官方文档或示例页，确认它接入 React/Vue/Svelte 等框架的具体步骤与交付物，并核对是否存在可复现的组件示例。
+  market: ''
+  job: 前端开发者在 React、Vue、Svelte、Solid、JS 或 Framer 项目中搭建页面或应用界面时，需要把 WebGPU 着色器视觉效果接入组件代码与渲染管线，交付可直接嵌入的组件。
+  job_en: Front-end developers building pages or app interfaces in React, Vue, Svelte, Solid, JS or Framer
+    need to wire WebGPU shader visual effects into component code and the rendering pipeline, delivering
+    embeddable components.
+  pain: 候选材料只给出组件库定位，未说明开发者此前实现同类着色器效果时卡在哪一步、失败或放弃的代价是什么，痛点无法从公开事实确认。
+  pain_en: The candidate material only states the component-library positioning; it does not say where
+    developers previously got stuck implementing comparable shader effects or what failure cost them,
+    so the pain cannot be confirmed from public facts.
+  current_alternative: 公开材料未描述旧做法，无法确认此前是手写 WebGL/GLSL 着色器、使用 three.js 等图形库，还是直接放弃该视觉效果。
+  current_alternative_en: The public material does not describe the prior approach, so it is unclear whether
+    developers hand-wrote WebGL/GLSL shaders, used a graphics library such as three.js, or simply skipped
+    the effect.
+  usage_reason: 材料未提供任何用户反馈或采用证据，无法解释开发者为何选择它而非旧做法；仅凭组件库定位不能说明持续使用，此处为推断而非事实。
+  usage_reason_en: The material provides no user feedback or adoption evidence, so it cannot explain why
+    developers would choose it over the old approach; component-library positioning alone does not show
+    sustained use, and this is inference, not fact.

@@ -1366,3 +1366,51 @@
   usage_reason_en: 'Inference: versus reading logs or restarting, it renders context composition, evolution,
     and compaction/pruning events directly in a panel and command output, removing the manual parsing
     step, so DSH users debugging long tasks and suspecting truncation would reach for it during diagnosis.'
+- id: req-full-dsh-context-2026-10-13
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-13T03:44:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩剪枝后关键信息静默丢失、用户无法定位的问题，痛点来自代理遗忘导致返工与排查成本；公开材料已说明输入为会话与工具输出、动作为可视化组成与演进事件、交付为面板与命令，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-29a5392dac0f0dd3
+    - ev-0f8712a7297cc852
+  - gate: consensus
+    status: insufficient
+    reason: 同生态 dsh-sieve 收藏数从 52 升至 107，说明 DSH 上下文管理方向有开发者关注，但这些数字属于邻近插件而非本产品，且无本产品的使用、留存或评价证据，无法证明目标用户会持续采用。
+    evidence_ids:
+    - ev-29a5392dac0f0dd3
+    - ev-a1fc92bad283354f
+  - gate: model
+    status: insufficient
+    reason: 未见本产品的定价页、付费主体或采购记录，钱可能来自开发者个人订阅或 DSH 生态内分发，但这是判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-0f8712a7297cc852
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只描述面板与命令能力，未见部署文档、可复现实测或安全与人工边界说明，无法确认上下文数据展示是否确定交付、是否触及敏感会话内容。
+    evidence_ids:
+    - ev-29a5392dac0f0dd3
+  next_validation: 追踪 dsh-context 在 npm 的官方包页面与仓库 README/issue/discussion，确认其是否公布安装方式、上下文面板的实际截图或演示、以及用户反馈中的具体使用场景。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或 AI 编码代理用户在长会话中处理工具输出、技能披露与多轮对话材料，需要看清当前上下文由哪些内容组成、哪些被压缩或剪枝丢弃，以便判断代理为何遗忘关键信息并调整上下文策略。
+  job_en: Developers and AI coding-agent users on DeepSeek Harness, working through long sessions of tool
+    output, skill disclosure and multi-turn material, need to see what the current context is composed
+    of and what compression or pruning dropped, so they can explain why the agent forgot key facts and
+    adjust context strategy.
+  pain: 长会话中工具输出不断堆积，上下文被压缩、剪枝后关键信息静默丢失，用户只能看到代理行为异常却无法定位是哪一步丢了什么，排查成本高且不可预期。
+  pain_en: In long sessions tool output piles up; after compression and pruning key facts vanish silently,
+    and the user sees only abnormal agent behavior without knowing which step dropped what, making diagnosis
+    costly and unpredictable.
+  current_alternative: 当前替代方式是直接阅读原始会话日志、凭经验猜测上下文被截断的位置，或使用 dsh-sieve 这类只做过滤与剪枝优化、不展示上下文组成与演进过程的插件。
+  current_alternative_en: Today users read raw session logs, guess where truncation happened, or use plugins
+    like dsh-sieve that only filter and prune tokens without showing context composition or evolution.
+  usage_reason: 推断：相较翻日志猜测，该插件通过 Context 面板与命令直接列出上下文组成、压缩与剪枝事件，把“哪一步丢了什么”从人工比对日志变成一次可视化查看，因此长会话调试或代理行为异常的用户会在排查遗忘问题时选择它。
+  usage_reason_en: 'Inference: versus guessing from raw logs, the plugin''s Context panel and command
+    list composition plus compression/pruning events, turning ''which step dropped what'' from manual
+    log diffing into one visual check, so users debugging long sessions or odd agent behavior would pick
+    it when chasing forgotten facts.'

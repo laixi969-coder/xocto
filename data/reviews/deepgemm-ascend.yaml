@@ -518,3 +518,52 @@
     matrix multiplication implementation used in DeepSeek training onto Ascend, so migrating teams can
     call it instead of rewriting, removing the kernel authoring and tuning step; the real gain depends
     on covered shapes and precision, not yet verified.'
+- id: req-full-deepgemm-ascend-2026-10-13
+  project_slug: deepgemm-ascend
+  level: full
+  reviewed_at: '2026-10-13T03:44:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决昇腾平台上矩阵乘法算子性能与精度这一具体任务，痛点是迁移时算子自研成本高、缺少可复用实现，不解决则训练推理耗时不可接受；这是从仓库定位与迁移工作流推出的结构判断，买方与付费路径尚不明确。
+    evidence_ids:
+    - ev-f80081f3e4c365f5
+    - ev-3aa27f2b405ffb47
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库描述与星标数（528 增至 573），没有昇腾用户的采用反馈、issue 讨论或客户案例，共识是否形成无法判断。
+    evidence_ids:
+    - ev-f80081f3e4c365f5
+    - ev-3aa27f2b405ffb47
+  - gate: model
+    status: insufficient
+    reason: 开源库无定价页，收入可能来自模型厂商生态投入或配套服务，这是判断而非已验证事实；公开材料未披露任何付费或采购路径。
+    evidence_ids:
+    - ev-f80081f3e4c365f5
+  - gate: truth
+    status: insufficient
+    reason: 仓库未公开性能对比、支持精度与昇腾硬件型号，交付确定性无法核对，承诺能否确定性兑现缺少可查证据。
+    evidence_ids:
+    - ev-f80081f3e4c365f5
+    - ev-6b1242887cf9b558
+  next_validation: 追踪该仓库 README、release notes 与 issue/discussion，确认其支持的昇腾型号、矩阵形状与精度范围，以及是否公开任何性能对比数据。
+  market: ''
+  job: 在昇腾 NPU 上做模型训练或推理的算子/AI 基础设施工程师，在把模型从 GPU 或其他平台迁移到昇腾时，需要让矩阵乘法这类核心算子跑得足够快且精度对齐，才能让整个训练或推理任务在可接受时间内完成。
+  job_en: Kernel and AI-infrastructure engineers running training or inference on Ascend NPUs, when migrating
+    models from GPU or other platforms, need core operations such as matrix multiplication to run fast
+    enough with aligned precision so the whole job finishes in acceptable time.
+  pain: 公开材料显示昇腾上的高性能算子此前主要依赖硬件厂商或团队自研，迁移团队缺少可直接复用的矩阵乘法实现，卡在算子性能与精度上；这是从仓库定位与迁移工作流推出的结构判断，尚无用户抱怨或案例直接佐证。
+  pain_en: Public material indicates high-performance Ascend kernels have mainly come from the vendor
+    or in-house work, so migrating teams lack a reusable matrix multiplication implementation and get
+    stuck on kernel performance and precision; this is a structural inference from the repo's positioning
+    and the migration workflow, not yet backed by user complaints or cases.
+  current_alternative: 使用硬件厂商提供的算子库（如 CANN 自带算子），或由团队自行编写并调优矩阵乘法算子。
+  current_alternative_en: Using the hardware vendor's kernel library (e.g. kernels shipped with CANN),
+    or writing and tuning matrix multiplication kernels in house.
+  usage_reason: 推断：相较团队自研算子，该库把 DeepSeek 训练中使用的矩阵乘法实现开源到昇腾平台，迁移团队可直接调用而非重写，减少的是算子编写与调优这一步；哪类用户会在什么情况下选择它，取决于其覆盖的矩阵形状、精度与昇腾型号，这些尚未核验。
+  usage_reason_en: 'Inference: compared with in-house kernel development, this library open-sources the
+    matrix multiplication implementation used in DeepSeek training onto the Ascend platform, so migrating
+    teams can call it instead of rewriting, removing the step of kernel authoring and tuning; which users
+    choose it and when depends on covered shapes, precision and Ascend models, which are not yet verified.'

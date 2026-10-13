@@ -591,3 +591,55 @@
     and return results directly, removing the paste-out / paste-back / run-manually middle steps; developers
     who already pay for ChatGPT, want to keep that subscription, and need a local execution loop would
     choose it in this situation.'
+- id: req-full-openchatx-mcp-2026-10-13
+  project_slug: openchatx-mcp
+  level: full
+  reviewed_at: '2026-10-13T03:46:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 ChatGPT 无法直接操作本机文件与命令行、用户需手工搬运模型输出到终端再回贴结果的需求，痛点来自能力边界而非偏好，不采用的代价是每轮任务都要人工往返。公开材料仅给出产品说明与仓库收藏，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-730222d85a0da2f9
+    - ev-4d61e3eeb93417ce
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 251 增至 261，说明有开发者持续关注，但收藏属关注度而非采用或留存证据；公开材料未见 issue、discussion 或用户评价说明谁在何种场景实际接入并重复使用，强场景是否成立仍无法判断。
+    evidence_ids:
+    - ev-730222d85a0da2f9
+    - ev-8f10047d6fc3062e
+    - ev-4d61e3eeb93417ce
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价页、赞助、付费插件或企业采购记录，买方是个人开发者自用还是团队采购无法判断；按开源惯例推断变现可能来自捐赠或托管服务，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-730222d85a0da2f9
+  - gate: truth
+    status: insufficient
+    reason: 让模型直接操作本机文件与命令行，权限边界、沙箱与人工确认环节是交付确定性的关键，公开材料只有一句功能描述，未见部署文档或安全说明，无法核验操作是否可控、失败是否可回滚。
+    evidence_ids:
+    - ev-730222d85a0da2f9
+  next_validation: 追踪该 公开代码仓库 仓库的 README、部署文档与 issue/discussion，确认权限边界、沙箱与人工确认机制，以及是否有用户描述实际接入场景与重复使用。
+  market: ''
+  job: 已付费使用 ChatGPT 的个人开发者或小团队，在需要让模型直接读写本机文件、调用本地命令行工具或把子任务转给自己部署的模型时，通过一条 MCP 连接把 ChatGPT 接到本机运行时，由模型发起操作并返回执行结果，最终拿到本机上的实际改动或工具输出。
+  job_en: Individual developers or small teams already paying for ChatGPT, when they need the model to
+    read/write local files, call local command-line tools, or hand subtasks to their own deployed models,
+    connect ChatGPT to a local runtime through one MCP connection; the model issues actions and returns
+    execution results, and the user ends up with actual local changes or tool output.
+  pain: ChatGPT 网页端只能产出文本，无法直接落到本机文件与命令行；用户要把模型给出的代码或命令手工复制到终端执行、再把报错贴回对话，多轮往返且容易出错。这是从产品能力与旧流程推导出的结构判断，不是用户口述。
+  pain_en: The ChatGPT web surface only produces text and cannot act on local files or the shell; users
+    must copy model output into a terminal, run it, and paste errors back into the conversation, creating
+    multi-round manual round-trips and error-prone handoffs. This is a structural inference from product
+    capability and the prior workflow, not user testimony.
+  current_alternative: 手工复制粘贴到终端执行、使用 Cursor/Claude Code 等自带本地执行能力的编码代理，或自行编写脚本把模型 API 与本机工具拼接起来。
+  current_alternative_en: Manual copy-paste into a terminal, coding agents with built-in local execution
+    such as Cursor or Claude Code, or self-written scripts wiring a model API to local tools.
+  usage_reason: 推断：相较手工复制粘贴，它把“模型输出→人工搬运→终端执行→回贴结果”这条链路压缩为一次 MCP 连接内的直接调用，用户不必离开对话即可让本机产生实际改动；因此已在为 ChatGPT
+    付费、又希望复用现有订阅而非再买一套编码代理的开发者，会在需要本机文件与命令行操作时选择它。
+  usage_reason_en: 'Inference: versus manual copy-paste, it collapses the chain of model output → human
+    transport → terminal execution → pasting results back into a single in-connection call, so the machine
+    changes without leaving the conversation; developers already paying for ChatGPT who want to reuse
+    that subscription instead of buying another coding agent would choose it when local file and shell
+    operations are needed.'

@@ -188,3 +188,53 @@
     grading and batch processing into an ~8MB local tool and preserves workflow metadata, removing the
     per-image step and the manual re-recording of parameters, so batch generators may pick it before delivery;
     no user feedback or retention evidence yet.'
+- id: req-full-tinyluma-2026-10-13
+  project_slug: tinyluma
+  level: full
+  reviewed_at: '2026-10-13T03:47:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量 AI 出图后的统一调色与元数据保留需求，痛点是不逐张处理就难以统一风格、导出易丢生成参数；旧替代为 Photoshop 批处理、Lightroom 预设或脚本，属工作流结构推理，尚无用户抱怨佐证。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+    - ev-ebfee04cbd5a96d4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 40 缓增至 47，只是关注度信号，公开材料没有创作者评价、案例或重复使用记录，无法说明它已进入日常交付流程。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+    - ev-6e676cfcdc1d87cd
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、许可证商业条款或付费路径，买方与收费方式均未知；这是判断而非已验证事实，不因此否定需求本身。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+  - gate: truth
+    status: insufficient
+    reason: 公开说明未给出支持格式清单、元数据保留范围与批量处理实测结果，也未说明人工复核边界，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-d2e772df9e8375aa
+    - ev-ebfee04cbd5a96d4
+  next_validation: 追踪该仓库 README 与 release 说明，核对支持的生成工具格式、元数据保留范围及批量处理实测结果。
+  market: ''
+  job: 用 Midjourney、Flux 或 ComfyUI 出图的创作者，在一次生成几十上百张候选图之后，需要对这些成批图片做统一调色与批量后期，并保留原始工作流元数据以便回溯和复用。
+  job_en: Creators generating images with Midjourney, Flux or ComfyUI need to uniformly color grade and
+    batch post-process dozens to hundreds of generated candidates while preserving original workflow metadata
+    for traceability and reuse.
+  pain: 公开材料只说明它是面向 AI 图像的批量后期工具并保留工作流元数据；由此可还原的痛点是逐张在通用修图软件里调色慢、且导出时容易丢失生成参数导致返工，但尚无用户抱怨或案例直接佐证这一痛点强度。
+  pain_en: Public material only states it is a batch post-processor for AI images that preserves workflow
+    metadata; the reconstructable pain is slow per-image grading in general retouching software and lost
+    generation parameters on export causing rework, but no user complaint or case directly corroborates
+    the intensity.
+  current_alternative: 旧做法是在 Photoshop 批处理、Lightroom 预设或自写脚本中逐张处理，元数据常在导出环节丢失；这是从产品定位反推的替代路径，非用户自述。
+  current_alternative_en: The old path is per-image handling via Photoshop batch actions, Lightroom presets
+    or custom scripts, with metadata often lost at export; this is inferred from the product positioning,
+    not user testimony.
+  usage_reason: 推断：相较逐张在通用修图软件处理，它把调色与批量处理收进约 8MB 的本地工具并保留工作流元数据，省去逐张操作与事后手动补记参数这两步，因此批量出图的创作者在成片交付前可能选它；尚无用户反馈或留存证据支持这一动机。
+  usage_reason_en: 'Inference: versus per-image work in general retouching software, it keeps grading
+    and batch processing in an ~8MB local tool while preserving workflow metadata, removing the per-image
+    step and the manual re-recording of parameters, so batch generators may pick it before delivery; no
+    user feedback or retention evidence supports this motive yet.'

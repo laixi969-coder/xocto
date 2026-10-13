@@ -1,0 +1,90 @@
+- id: req-initial-atticus-2026-10-13
+  project_slug: atticus
+  level: initial
+  reviewed_at: '2026-10-13T03:03:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是口述之后还要手动搬运再执行的问题，痛点具体、旧替代行为清楚，属于工作流推理而非采用证据。
+    evidence_ids:
+    - ev-6e746574129ba778
+  - gate: consensus
+    status: insufficient
+    reason: 只有一次社区讨论的热度，没有用户评价或重复使用记录，卡在感知与场景验证这一环。
+    evidence_ids:
+    - ev-6e746574129ba778
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；买方可能是个人订阅或开发者自建，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-6e746574129ba778
+  - gate: truth
+    status: insufficient
+    reason: 语音直接触发本机命令执行，误识别即误操作，公开材料未说明确认、权限或回滚机制。
+    evidence_ids:
+    - ev-6e746574129ba778
+  next_validation: 收集该仓库的 README、issue 与 release 说明，确认它支持的任务范围、是否需要人工确认执行结果，以及是否出现真实使用反馈。
+  market: ''
+  job: macOS 用户在不离开当前窗口的情况下，用口述代替键盘，把一段指令交给本机命令行工具执行，并直接拿到结果。
+  job_en: A macOS user, without leaving the current window, dictates an instruction to a local command-line
+    tool instead of typing it, and gets the result directly.
+  pain: 口述转写之后还要手动复制、切窗口、粘贴再执行，多出来的这几步让语音输入在真实工作里省不下时间；对需要长时间口述的人，键盘是瓶颈。
+  pain_en: After dictation the user still has to copy, switch windows, paste and run, so the extra steps
+    cancel the time voice input was supposed to save; for people who dictate at length, the keyboard is
+    the bottleneck.
+  current_alternative: 系统自带听写加手动粘贴，或 Whisper 类转写工具再自己复制到终端；也有人干脆继续打字。
+  current_alternative_en: Built-in dictation plus manual pasting, or a Whisper-style transcriber whose
+    output is copied into a terminal by hand; many simply keep typing.
+  usage_reason: 推断：相较「转写—复制—粘贴—执行」的旧流程，它把语音直接接到本机命令执行，省掉中间的手动搬运，因此长时间口述、又习惯用命令行处理材料的人会愿意试；但公开材料没有用户反馈或留存证据，是否真被留在日常流程里无法确认。
+  usage_reason_en: 'Inference: versus the old transcribe-copy-paste-run loop, it wires speech straight
+    into local command execution and removes the manual handoff, which is why heavy dictation users who
+    already work in a terminal would try it; there is no public user feedback or retention evidence, so
+    lasting workflow adoption cannot be confirmed.'
+- id: req-full-atticus-2026-10-13
+  project_slug: atticus
+  level: full
+  reviewed_at: '2026-10-13T03:43:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述的语音转命令产品与全部公开证据不符：证据只覆盖图书排版工具和残障福利申请服务，无法还原用户任务、痛点、旧替代与不采用的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-d859ac58640e67dd
+    - ev-281654e735667ae6
+    - ev-7243e985352fb47d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该语音助手项目的官方仓库或产品页（README、release、issue/discussion），确认其真实名称、支持的任务范围与是否需要人工确认执行结果，以替换当前指向
+    atticus.io / atticus.com 的错配证据。
+  market: ''
+  job: 公开材料未给出任何 macOS 语音助手场景：三条证据分别指向图书排版工具 Atticus（atticus.io）与残障/工伤/VA 福利申请服务 Atticus（atticus.com），没有任何一条描述「按住快捷键说话、交给本机
+    Claude 命令行执行」的任务、材料或交付物。
+  job_en: 'The public evidence contains no macOS voice-assistant scenario at all: the three sources point
+    to Atticus the book-formatting tool (atticus.io) and Atticus the disability/workers'' comp/VA benefits
+    service (atticus.com), none describing a hold-to-talk flow that hands speech to a local Claude CLI.'
+  pain: 无法从公开证据写出该语音助手用户的痛点：现有事实只说明「用一体化排版工具更快做出印刷版和电子书」以及「帮人应对复杂的政府与法律流程」，与口述指令、命令行执行无关。
+  pain_en: 'No pain for a voice-assistant user can be written from the public evidence: the facts only
+    say the tool formats print and ebooks faster and helps people navigate government and legal processes,
+    nothing about dictation or command execution.'
+  current_alternative: 公开材料未记录该语音助手用户的现有替代方式；可引用的旧做法只属于排版与福利申请两个不同产品（作者手工排版、申请人自行处理政府法律流程）。
+  current_alternative_en: The public material records no current alternative for a voice-assistant user;
+    the only citable old behaviors belong to two different products (authors formatting by hand, claimants
+    navigating government processes alone).
+  usage_reason: 无法给出使用理由：证据中没有用户反馈、客户案例或采用记录指向语音转命令这一动作，也没有任何可核对的结果改善，因此不能推断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: no user feedback, customer case or adoption record in
+    the evidence points to speech-to-command, and no checkable outcome improvement exists, so which users
+    would choose it and when cannot be inferred.'

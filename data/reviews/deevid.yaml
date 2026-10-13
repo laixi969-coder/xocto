@@ -1,0 +1,38 @@
+- id: req-initial-deevid-2026-10-13
+  project_slug: deevid
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它面向视频素材生成，但公开材料未说明替代了剪辑、外包还是模板中的哪一步，痛点无法还原。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有访问量与榜单位置，属于规模信号，不能证明用户已把它留在生产流程里。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成结果是否可直接投放、是否需人工返工，交付确定性未知。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页与客户案例，确认按什么计价以及成片是否可直接投放。
+  market: ''
+  job: 内容团队在需要为投放或社媒准备多条视频素材时，把文字或图片输入生成工具，得到可用的视频片段。
+  job_en: Content teams preparing multiple video assets for ads or social media feed text or images into
+    a generation tool and get usable video clips.
+  pain: 公开材料只有访问量和榜单排名，没有说明它替代了剪辑、外包还是模板套用中的哪一步，痛点无法从现有事实还原。
+  pain_en: Public material only has visit counts and board rankings; it does not say whether it replaces
+    editing, outsourcing or template reuse, so the pain cannot be reconstructed.
+  current_alternative: 团队目前用剪辑软件手工制作、外包给剪辑师，或套用现成模板批量出片。
+  current_alternative_en: Teams currently edit by hand in editing software, outsource to editors, or batch-produce
+    from existing templates.
+  usage_reason: 推断：相较手工剪辑或外包，它可能把出片环节压缩成一次生成，省去逐条剪辑的时间；但缺少用户反馈与案例，无法确认哪类团队会因此选择它。
+  usage_reason_en: 'Inference: compared with manual editing or outsourcing, it may compress production
+    into a single generation, saving per-clip editing time; without user feedback or cases, it is unclear
+    which teams would choose it.'

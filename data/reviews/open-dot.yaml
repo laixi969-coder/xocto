@@ -516,3 +516,57 @@
     execution on the user''s own Mac and wires in Composio connectors, removing the step of manually operating
     each app while making hands-on users who care about data staying local more willing to delegate machine
     chores; no public user feedback or case yet confirms this motive.'
+- id: req-full-open-dot-2026-10-13
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-13T03:46:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是让 Mac 用户把跨应用、跨外部服务的多步电脑任务交给本地自主代理执行；痛点在于手动逐步操作耗时易断，且云端代理需交出本机权限。公开材料仅给出定位与架构，未给用户抱怨，故为工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-78eca3e23312e31f
+    - ev-453cfb3133dc0f4b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 595 增至 630，说明有开发者关注，但星标属关注度而非持续采用；公开材料没有 issue、discussion、用户评价或客户案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-78eca3e23312e31f
+    - ev-1637f40b3bbc7a69
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未披露定价、付费路径或买方；可能来自 to C 订阅、企业支持或 to VC，但均属判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-78eca3e23312e31f
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺在本地自主执行并调用外部服务，但公开材料未说明交付边界、失败处理与人工确认环节；自主代理涉及本机权限与外部账号操作，安全与人工边界尚未核验。
+    evidence_ids:
+    - ev-453cfb3133dc0f4b
+    - ev-9e0fc8c5f00d5693
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际执行的任务类型、输入材料、交付结果与人工确认边界。
+  market: ''
+  job: 愿意自己动手的 Mac 用户，在需要让电脑上的重复操作（跨应用、跨外部服务的多步任务）自动跑完时，打开这个本地应用，把任务交给一个在本地自主运行的代理，由它调用 OpenAI 模型与 Composio
+    连接的外部服务执行，最后拿到完成结果或待确认的操作。
+  job_en: A hands-on Mac user who wants repetitive multi-step computer tasks (spanning apps and external
+    services) executed automatically opens this local app, hands the task to an agent running autonomously
+    on their own machine, which calls OpenAI models and Composio-connected external services, and receives
+    finished results or operations awaiting confirmation.
+  pain: 公开材料只给出定位，没有用户抱怨或旧流程描述；从工作流结构推理，痛点是用户必须在多个应用与外部服务之间手动搬运、逐步点击并串联操作，这类重复执行本身耗时且容易中断，而云端代理又要求把本机操作与账号权限交出去。
+  pain_en: Public material gives only positioning, no user complaints or legacy workflow; by workflow-structure
+    inference, the pain is that users must manually shuttle between multiple apps and external services,
+    clicking step by step to chain operations, which is time-consuming and fragile, while cloud agents
+    require handing over local machine control and account permissions.
+  current_alternative: 结构推理下的旧做法是用户自己在 Mac 上逐应用手动操作，或使用只能对话、不能真正在本地执行动作的聊天式助手，以及把任务交给云端代理。
+  current_alternative_en: Under structural inference, the old practice is the user manually operating
+    app by app on the Mac, or using chat assistants that only converse and cannot actually act locally,
+    or handing tasks to cloud agents.
+  usage_reason: 推断：相较手动逐应用操作，它把执行环节放到用户自己的 Mac 上由代理自主完成，并通过 Composio 连接外部服务，减少用户逐步点击与跨应用搬运的负担；愿意自己动手、在意本机数据与权限不外流的
+    Mac 用户会在需要自动化多步电脑任务时选择它。公开材料未提供用户反馈或留存证据，此判断为结构推理。
+  usage_reason_en: 'Inference: versus manual app-by-app operation, it moves execution onto the user''s
+    own Mac where the agent acts autonomously and reaches external services via Composio, cutting the
+    step-by-step clicking and cross-app shuttling; hands-on Mac users who care about keeping local data
+    and permissions on-device would choose it when automating multi-step computer tasks. Public material
+    offers no user feedback or retention evidence, so this is structural inference.'

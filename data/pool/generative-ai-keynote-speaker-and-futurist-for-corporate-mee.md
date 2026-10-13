@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQeDFHQnhsMlFR
 summary: GENERATIVE AI KEYNOTE SPEAKER AND FUTURIST FOR CORPORATE MEETINGS & VIRTUAL EVENTS ONLINE https://www.futuristsspeakers.com/
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

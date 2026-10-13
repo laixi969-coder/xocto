@@ -1,0 +1,81 @@
+- id: req-initial-yehuitang0316-2026-10-13
+  project_slug: yehuitang0316
+  level: initial
+  reviewed_at: '2026-10-13T03:03:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决代理运行中需要人工反复干预的问题，但公开材料说不清哪一步难受、不解决会失去什么，价值结构无法判断。
+    evidence_ids:
+    - ev-c376aa890640abc8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有用户评价或采用记录，无法判断是否有人真的把它放进工程流程。
+    evidence_ids:
+    - ev-c376aa890640abc8
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费路径信息，买方是个人开发者还是团队无法判断，这是未知而非已验证。
+    evidence_ids:
+    - ev-c376aa890640abc8
+  - gate: truth
+    status: insufficient
+    reason: 自我改进的边界、可回滚性和人工确认环节均未说明，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-c376aa890640abc8
+  next_validation: 收集该项目的官方说明或仓库文档，确认代理在哪个环节自我改进、如何回滚以及交付什么可核对结果。
+  market: ''
+  job: 开发者在让代理执行多步工程任务时，希望代理在运行中调整自己的做法，而不是每一步都靠人重新下指令。
+  job_en: A developer running a multi-step engineering task through an agent wants the agent to adjust
+    its own approach mid-run instead of re-instructing it at every step.
+  pain: 公开材料只有一句自述，没有说明现有代理在哪一步失败、失败代价多大，也没有用户抱怨或替代做法记录。
+  pain_en: Public material is a single self-description; it does not say where existing agents fail or
+    how costly that failure is, and no user complaints or workarounds are recorded.
+  current_alternative: 人工逐步重写提示、手动重跑失败步骤，或使用固定流程的代理编排。
+  current_alternative_en: Manually rewriting prompts step by step, re-running failed steps by hand, or
+    using fixed-flow agent orchestration.
+  usage_reason: 推断：如果自我改进确实减少了人工重下指令的次数，开发者会在长链路、可回滚的任务中选择它；但公开材料未给出任何减少负担的具体动作，这只是推断。
+  usage_reason_en: 'Inference: if self-improvement genuinely cuts the number of manual re-instructions,
+    developers would choose it for long-chain, rollback-friendly tasks; but public material gives no concrete
+    action that reduces effort, so this is inference only.'
+- id: req-full-yehuitang0316-2026-10-13
+  project_slug: yehuitang0316
+  level: full
+  reviewed_at: '2026-10-13T03:48:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决代理运行中需要人工反复干预的问题，但公开材料说不清哪一步难受、不解决会失去什么，价值结构无法判断。
+    evidence_ids:
+    - ev-c376aa890640abc8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该项目的官方说明或仓库文档，确认代理在哪个环节自我改进、如何回滚以及交付什么可核对结果。
+  market: ''
+  job: 开发者在让代理执行多步工程任务时，希望代理在运行中调整自己的做法，而不是每一步都靠人重新下指令。
+  job_en: A developer running a multi-step engineering task through an agent wants the agent to adjust
+    its own approach mid-run instead of re-instructing it at every step.
+  pain: 公开材料只有一句自述，没有说明现有代理在哪一步失败、失败代价多大，也没有用户抱怨或替代做法记录。
+  pain_en: Public material is a single self-description; it does not say where existing agents fail or
+    how costly that failure is, and no user complaints or workarounds are recorded.
+  current_alternative: 人工逐步重写提示、手动重跑失败步骤，或使用固定流程的代理编排。
+  current_alternative_en: Manually rewriting prompts step by step, re-running failed steps by hand, or
+    using fixed-flow agent orchestration.
+  usage_reason: 推断：如果自我改进确实减少了人工重下指令的次数，开发者会在长链路、可回滚的任务中选择它；但公开材料未给出任何减少负担的具体动作，这只是推断。
+  usage_reason_en: 'Inference: if self-improvement genuinely cuts the number of manual re-instructions,
+    developers would choose it for long-chain, rollback-friendly tasks; but public material gives no concrete
+    action that reduces effort, so this is inference only.'

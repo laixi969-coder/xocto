@@ -1,0 +1,39 @@
+- id: req-initial-mentimeter-2026-10-13
+  project_slug: mentimeter
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决现场提问回收慢、样本少、无法当场判断听众理解程度的需求，痛点具体且高频，旧做法明确。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 有 361 万月访问量说明规模存在，但环比下降 14.5%，且无留存或复购证据，共识强度无法确认。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或买方结构，to B 订阅是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 环节是否贴近第一性目标、承诺能否确定性交付，本次材料未说明 AI 具体做什么。
+    evidence_ids: []
+  next_validation: 抓取 Mentimeter 官方定价页与 AI 功能说明页，确认收费结构与 AI 在会中环节的具体动作。
+  market: ''
+  job: 培训师或会议主持人在现场演讲或课堂中，把提问与投票投到屏幕上，实时收集听众回答并当场展示结果。
+  job_en: Trainers or meeting hosts push questions and polls to a screen during a live talk or class,
+    collect audience answers in real time and display results on the spot.
+  pain: 现场提问靠举手或事后问卷，回收慢、样本少，主持人无法当场知道听众理解到哪一步。
+  pain_en: Live questioning relies on raised hands or post-event surveys, which are slow and thin, so
+    the host cannot tell on the spot where the audience stands.
+  current_alternative: 举手提问、纸质问卷、事后在线表单，或把问题留在聊天窗口里人工统计。
+  current_alternative_en: Raised hands, paper forms, post-event online surveys, or leaving questions in
+    a chat window and counting them by hand.
+  usage_reason: 推断：相较举手和事后问卷，它把回答入口放到听众手机上并当场汇总成图表，省掉人工点数与事后整理这一步，因此高频开课或办会的培训师与活动组织者会在需要即时反馈时选它。
+  usage_reason_en: 'Inference: versus raised hands and post-event surveys, it puts the answer entry on
+    audience phones and aggregates results into charts on the spot, removing the manual tally and after-the-fact
+    cleanup, so trainers and event organizers who run sessions frequently choose it when they need immediate
+    feedback.'

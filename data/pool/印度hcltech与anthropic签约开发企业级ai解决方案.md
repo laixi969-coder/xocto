@@ -1,6 +1,6 @@
 ---
 slug: 印度hcltech与anthropic签约开发企业级ai解决方案
-name: 印度HCLTech与Anthropic签约开发企业级AI解决方案
+name: HCLTech
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MS1hjTDlZM3Fn
 summary: 印度HCLTech与Anthropic签约开发企业级AI解决方案 维度网
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 印度HCLTech与Anthropic签约开发企业级AI解决方案
+# HCLTech
 
 印度HCLTech与Anthropic签约开发企业级AI解决方案 维度网
 

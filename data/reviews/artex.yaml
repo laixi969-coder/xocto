@@ -210,3 +210,47 @@
   usage_reason_en: With no user feedback or customer case tied to this product, there is no basis to explain
     which step it removes or which checkable result it improves versus the old approach; all available
     evidence points to unrelated same-name entities and cannot support adoption reasoning.
+- id: req-full-artex-2026-10-13
+  project_slug: artex
+  level: full
+  reviewed_at: '2026-10-13T03:43:04Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向同名无关主体（天花板涂料 Artex、再保险 Artex Risk、航空 ELT 的 ACR Artex），没有任何渗透测试用户的任务、痛点或替代行为记录，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-6d2a62d4753a1bc4
+    - ev-aee8ac7a8918d058
+    - ev-b2a64dc646f2dea1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度“agent+”攻防挑战赛官方获奖公示与项目仓库/技术文档，确认 ARTEX 的实际输入、交付物与部署方式。
+  market: ''
+  job: 安全团队在获得授权后，把目标网络或应用环境交给自主渗透测试系统，由 AI 代理执行探测与攻击链尝试，最终产出测试结果；但公开材料未说明输入格式、人工复核边界与交付物形态。
+  job_en: An authorized security team hands a target network or application environment to an autonomous
+    penetration-testing system, letting AI agents run reconnaissance and attack-chain attempts and produce
+    test results; public materials do not specify input format, human-review boundaries, or deliverable
+    form.
+  pain: 公开证据中没有任何用户痛点、抱怨或旧流程摩擦的记录；现有证据全部指向同名但无关的 Artex 商标（天花板涂料、再保险、航空 ELT），无法支持渗透测试场景下的痛点。
+  pain_en: No public evidence records any user pain, complaint, or friction in the old workflow; all available
+    evidence points to unrelated Artex trademarks (ceiling coating, reinsurance, aviation ELT) and cannot
+    support a penetration-testing pain point.
+  current_alternative: 公开材料未说明渗透测试工程师目前如何完成这项工作，也未说明该产品实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how penetration testers complete this job today,
+    nor what existing practice the product replaces.
+  usage_reason: 无法判断：现有证据与该项目无关，既无产品文档、客户案例，也无用户反馈，无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be determined: the available evidence is unrelated to this project, with no
+    product documentation, customer cases, or user feedback to explain which users would choose it and
+    when.'

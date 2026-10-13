@@ -782,3 +782,46 @@
   usage_reason_en: The public repository shows 1,995 stars and 253 forks, indicating developer attention
     rather than a reason for choosing it; without user feedback there is no causal account of why someone
     picks it over simply opening several assistant windows.
+- id: req-full-cindy-2026-10-13
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-10-13T03:43:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 cindy 仓库的 README、issue 与 discussion，确认是否有多助手切换的实际使用反馈与可复现的上下文保留结果。
+  market: ''
+  job: 独立开发者或小团队在同一个项目里同时使用多家编码助手（如 Claude Code、Cursor、Codex 等），需要在同一工作区里切换模型继续同一段任务，并保留上下文记忆与未完成的工作。
+  job_en: An indie developer or small team using several coding assistants (Claude Code, Cursor, Codex,
+    etc.) on one project needs to switch models inside a single workspace while continuing the same task,
+    keeping context memory and unfinished work intact.
+  pain: 公开材料只给出仓库简介与 1,995 收藏、253 复刻，没有用户抱怨或旧流程记录；从工作流结构推理，多助手并用时上下文分散在各家会话里，换模型要重新粘贴上下文、重建任务状态，属于重复劳动，但痛点强度与频率未被公开用户材料证实。
+  pain_en: Public material gives only the repo description plus 1,995 stars and 253 forks, with no user
+    complaints or old-workflow records; by workflow inference, running multiple assistants scatters context
+    across vendor sessions, so switching models means re-pasting context and rebuilding task state, though
+    pain intensity and frequency are not confirmed by public user material.
+  current_alternative: 按结构推断，用户目前在各家助手的独立会话或 IDE 插件之间手动复制粘贴上下文，或干脆锁定单一厂商；候选材料未提供替代行为的直接证据。
+  current_alternative_en: By structural inference, users currently copy-paste context between separate
+    vendor sessions or IDE plugins, or simply lock into one vendor; the candidate material gives no direct
+    evidence of these alternatives.
+  usage_reason: 推断：相较手动搬运上下文，它把多家模型收进同一工作区并保留记忆与任务状态，减少的是换模型时重新粘贴与重建任务这一步负担，因此同时使用多家助手、又不想丢上下文的开发者会在中途换模型时选择它；公开材料尚无用户反馈或案例支持这一动机。
+  usage_reason_en: 'Inference: versus manually moving context, it puts multiple models in one workspace
+    and preserves memory and task state, removing the re-paste-and-rebuild step when switching models,
+    so developers who use several assistants and do not want to lose context would pick it mid-task; public
+    material has no user feedback or case supporting this motive.'

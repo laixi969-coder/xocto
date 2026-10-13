@@ -245,3 +245,54 @@
     existing workflows via MCP, removing the upload step and the repeated prompt rewriting after moderation
     rejections, which appeals to creators whose prompts are often blocked or who avoid sending assets
     off-machine; stars rising from 53 to 83 shows attention, not sustained use.'
+- id: req-full-mcp-image-generator-uncensored-2026-10-13
+  project_slug: mcp-image-generator-uncensored
+  level: full
+  reviewed_at: '2026-10-13T03:45:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者在生成或修改图片时被云端内容审核拦截、以及提示词与素材需上传第三方的问题；uncensored 与 self-hosted 的公开定位直接对应这两类刚性痛点，不采用则只能反复改写提示词或放弃素材方向。这是基于产品定位与工作流的结构推理，尚无用户口述佐证。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-bbdd6a6827ffac74
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 53 升至 90 只反映关注度增长，属规模信号；公开材料没有用户评价、issue 或 discussion 说明使用者卡在感知、想象还是场景哪一环，无法据此判断共识是否形成。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-bbdd6a6827ffac74
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页与买方信息，钱可能来自自托管用户的自用替代或后续托管/API 服务，这是判断而非已验证事实；公开材料未披露任何付费或采购路径。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生：公开材料未说明部署文档、模型权重获取方式与出图成功率；uncensored 定位本身带来合规与安全边界不确定性，人工审核边界也未披露。
+    evidence_ids:
+    - ev-fae45ecf24a28f37
+    - ev-1563d977717ba26d
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认使用者实际用它替代了哪一步出图或修图工作，以及部署与出图是否可复现。
+  market: ''
+  job: 插画与视觉素材创作者、独立开发者或内容制作者在需要生成或修改图片、且不希望提示词与素材离开本机或受云端内容审核拦截时，把提示词交给自托管的 MCP 服务，由 Qwen-Image-2.1 出图并取回图片文件。
+  job_en: Illustrators, visual-asset creators, and indie developers who need to generate or edit images
+    without prompts and assets leaving their machine or being blocked by cloud content moderation submit
+    prompts to a self-hosted MCP server running Qwen-Image-2.1 and retrieve the resulting image files.
+  pain: 公开材料明确标注 uncensored 与 self-hosted，指向两类刚性痛点：一是云端出图服务对提示词的内容审核会直接拒绝或改写创作意图，二是提示词与素材需上传第三方带来的隐私与版权顾虑；不采用则只能反复改写提示词绕过审核或放弃该素材方向。
+  pain_en: 'The public material explicitly labels the project uncensored and self-hosted, pointing to
+    two rigid pains: cloud image services reject or rewrite creative intent through prompt moderation,
+    and uploading prompts and assets to third parties raises privacy and copyright concerns; without it,
+    users must repeatedly reword prompts to slip past filters or abandon the asset direction.'
+  current_alternative: 旧做法是使用云端出图服务（受审核策略约束、素材需上传）或本地直接跑开源扩散模型并自行搭建推理脚本与接口；前者被审核卡住，后者需要自己写胶水代码。
+  current_alternative_en: The old approach is either cloud image services (constrained by moderation policy,
+    assets uploaded) or running open diffusion models locally with self-written inference scripts and
+    interfaces; the former gets blocked by moderation, the latter requires writing glue code.
+  usage_reason: 推断：相较云端服务，它把出图动作放进本机 MCP 服务，省去提示词被审核拦截后反复改写这一步，也省去素材上传第三方；相较裸跑本地模型，它以 MCP 协议封装成可直接被客户端调用的服务，省去自建接口这一步。因此对审核敏感或数据不出本机的创作者会在需要生成/修图时选择它。
+  usage_reason_en: 'Inference: versus cloud services it moves generation into a local MCP server, removing
+    the step of repeatedly rewording prompts after moderation blocks, and removing third-party asset upload;
+    versus running a bare local model it wraps inference as an MCP-callable service, removing the step
+    of building your own interface. Creators sensitive to moderation or data egress would therefore choose
+    it when generating or editing images.'

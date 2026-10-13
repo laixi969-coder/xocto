@@ -178,3 +178,51 @@
     easing conventions to the coding agent as toolkit constraints, sparing engineers the step of translating
     design intent frame by frame into parameters; the material does not describe output code form or framework
     coverage, so the motive is structural reasoning, not user feedback.'
+- id: req-full-claude-motion-2026-10-13
+  project_slug: claude-motion
+  level: full
+  reviewed_at: '2026-10-13T03:43:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决动效实现中设计意图转代码、参数反复微调的需求，痛点在于设计师与前端来回沟通、手写缓动耗时；不解决则动效交付慢且跨框架写法不统一。公开材料仅一句定位，输入与交付形态未明，价值结构成立属工作流推理。
+    evidence_ids:
+    - ev-238c1734b064e734
+    - ev-685201b2d5f049b5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从198升至362，说明有开发者关注，但无 issue、discussion 或使用反馈，无法判断是否被持续用于真实项目；关注度不等于持续采用。
+    evidence_ids:
+    - ev-238c1734b064e734
+    - ev-7c8692ef22a8f874
+    - ev-eed72bf9f4f283aa
+    - ev-685201b2d5f049b5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何收费路径，买方与付费方式均属未知；这是判断而非已验证事实，不能因缺定价页取消真需求判定。
+    evidence_ids:
+    - ev-238c1734b064e734
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明产出代码能否直接上线、是否需人工逐项核对，也未涉及安全与人工边界，确定性交付无法评估。
+    evidence_ids:
+    - ev-238c1734b064e734
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认它接收的设计输入形式、产出的代码形态与框架适配范围，以及是否被用于真实项目。
+  market: ''
+  job: 前端或产品工程师在给网页、应用做动效时，把设计意图（时长、缓动、触发时机）交给编码代理，生成可运行的动画代码并反复调整参数。
+  job_en: Front-end or product engineers producing motion for web pages and apps hand design intent (duration,
+    easing, trigger timing) to a coding agent, generating runnable animation code and iterating on parameters.
+  pain: 动效实现依赖设计师与前端反复沟通，参数微调耗时，且不同框架写法不通用；公开材料只有一句定位，未说明具体痛点来源，此判断属工作流结构推理。
+  pain_en: Motion implementation depends on repeated designer-to-front-end handoffs, parameter tuning
+    is slow, and syntax differs across frameworks; the public material gives only a one-line positioning,
+    so this is workflow-structural inference.
+  current_alternative: 手写 CSS/JS 动画，或使用现成动效库再逐项改参数，或让通用编码代理直接生成动画代码。
+  current_alternative_en: Hand-writing CSS/JS animation, using an existing motion library and tuning parameters
+    item by item, or letting a general coding agent emit animation code directly.
+  usage_reason: 推断：若它把动效参数与缓动规范封装成编码代理可调用的工具包，工程师可省去把设计稿逐帧翻译成参数这一步，减少手写与反复试参；但材料未说明产出代码形态与框架适配范围，无法确认用户会因此选用。
+  usage_reason_en: 'Inference: if it packages motion parameters and easing conventions into a toolkit
+    a coding agent can call, engineers skip translating design frames into parameters by hand and reduce
+    manual trial-and-error; the material does not describe output code form or framework coverage, so
+    adoption cannot be confirmed.'

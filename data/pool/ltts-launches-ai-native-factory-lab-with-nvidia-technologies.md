@@ -1,6 +1,6 @@
 ---
 slug: ltts-launches-ai-native-factory-lab-with-nvidia-technologies
-name: LTTS launches AI-Native Factory lab with NVIDIA technologies
+name: LTTS
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxOT1l5Y2FZeDc4
 summary: LTTS launches AI-Native Factory lab with NVIDIA technologies Manufacturing Today India
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# LTTS launches AI-Native Factory lab with NVIDIA technologies
+# LTTS
 
 LTTS launches AI-Native Factory lab with NVIDIA technologies Manufacturing Today India
 

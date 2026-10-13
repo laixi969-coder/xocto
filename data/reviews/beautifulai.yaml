@@ -1,0 +1,39 @@
+- id: req-initial-beautifulai-2026-10-13
+  project_slug: beautifulai
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决赶时间做对外演示时逐页排版的问题，旧替代是手工套模板，痛点与替代行为清楚。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 只有访问量与其环比下降，属于规模与关注度证据，不能说明用户为何选择或是否持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未提供定价页或付费结构，买方可能是个人订阅或团队采购，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 生成稿的版式与内容准确性仍需人工确认，公开材料未说明核对与责任边界。
+    evidence_ids: []
+  next_validation: 收集该产品官方定价页与客户案例页，确认按席位还是按份计价、面向个人还是团队，以及是否有公开的持续使用或续费说明。
+  market: ''
+  job: 职场人士在汇报或提案截止前，把已有内容整理成一份能直接对外演示的幻灯片。
+  job_en: A professional, before a review or proposal deadline, turns existing content into a deck that
+    can be presented externally as is.
+  pain: 逐页调版式、对齐和配色耗时且不产生内容价值，赶时间时最容易出错，返工成本高。
+  pain_en: Adjusting layout, alignment and colour page by page is slow and adds no content value, and
+    under deadline it is where mistakes and rework happen.
+  current_alternative: PowerPoint 或 Keynote 模板加手工排版，或让同事帮忙美化。
+  current_alternative_en: PowerPoint or Keynote templates with manual formatting, or asking a colleague
+    to polish the deck.
+  usage_reason: 推断：相较手工套模板逐页调整，它把内容输入后直接产出排好版的成品，省掉版式调整这一步，因此时间紧、又必须对外交付的人会选它；公开材料没有用户反馈或留存数据，且访问量环比下降，是否仍被留在日常流程里无法确认。
+  usage_reason_en: 'Inference: versus manually applying templates page by page, it turns content input
+    into a laid-out deck and removes the formatting step, which is why time-pressed users with external
+    deliverables would choose it; there is no public user feedback or retention data and traffic declined
+    month over month, so continued workflow use cannot be confirmed.'

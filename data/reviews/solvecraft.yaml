@@ -142,3 +142,59 @@
     and trigger a timeline rebuild, removing the step of clicking through a GUI; models also save directly
     as 3MF/STL for a slicer, removing a format-conversion step. Small engineering teams or independent
     developers with tight budgets who want agents in the modeling '
+- id: req-full-solvecraft-2026-10-13
+  project_slug: solvecraft
+  level: full
+  reviewed_at: '2026-10-13T03:47:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决参数化建模被商业 CAD 高价与封闭接口锁住的问题：小团队负担不起授权，AI 代理无法直接操作模型，改一个参数要在图形界面反复手工点击。公开材料已能还原草图—约束—拉伸—改参重建—导出
+      3MF/STL 的旧流程与交付物，属工作流结构推理；痛点刚性来自改型迭代的必然性，但实际建模能力边界与代理完成度仍缺证据。
+    evidence_ids:
+    - ev-53731659b2db10fa
+    - ev-67837d53e2597fdb
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有仓库星标约 1,118 与第三方报道，属于关注度而非持续采用；没有用户评价、issue 讨论或客户案例说明谁在真实建模流程里反复使用它，因此无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-5ffd093f2ac998ef
+    - ev-67837d53e2597fdb
+  - gate: model
+    status: insufficient
+    reason: 项目为开源，公开材料未见定价页、托管服务报价或支持合同，钱可能来自企业定制、托管版或赞助，这是判断而非已验证事实；买方与付费路径在公开证据里尚不明确。
+    evidence_ids:
+    - ev-828e928242c2dc68
+    - ev-360d047ac2d99994
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明它能导出 3MF/STL 供切片软件打开，未见与真实制造流程对接的精度验证、装配约束完整性或 AI 代理确定性产出可加工模型的结果，交付确定性尚缺可核对证据。
+    evidence_ids:
+    - ev-67837d53e2597fdb
+    - ev-53731659b2db10fa
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有用户报告用 MCP 代理完成过真实零件建模并导出可加工文件。
+  market: ''
+  job: 机械工程师或工业设计师在需要改动零件尺寸、装配关系或向工厂交付前核对结构时，打开纯 Rust 写的参数化 CAD，在平面上画草图、加约束与尺寸、用拉伸和旋转生成实体，改一个参数让整条时间线重建，最后导出
+    3MF 或 STL 交给切片软件或加工方。
+  job_en: A mechanical engineer or industrial designer who needs to change a part dimension or assembly
+    relation, or verify structure before delivering to a factory, opens a pure-Rust parametric CAD, sketches
+    on a plane, adds constraints and dimensions, extrudes or revolves profiles into solids, changes one
+    parameter to rebuild the whole timeline, and exports 3MF or STL for a slicer or fabricator.
+  pain: 公开材料显示它定位为 Autodesk Fusion 的替代，说明痛点在于商业 CAD 授权成本与封闭性：小团队和独立开发者难以负担，且封闭工具不向 AI 代理开放操作接口，改一个参数要在图形界面里反复手工点击。这是从产品定位与功能结构推出的痛点，尚无用户抱怨原文佐证。
+  pain_en: 'Public material positions it as an alternative to Autodesk Fusion, implying the pain is commercial
+    CAD cost and lock-in: small teams and independent developers struggle to afford it, and closed tools
+    expose no interface for AI agents, so changing one parameter means repeated manual clicking in a GUI.
+    This pain is inferred from positioning and feature structure, not from quoted user complaints.'
+  current_alternative: 继续用 Autodesk Fusion 360、SolidWorks 等商业软件手工建模，或退到 FreeCAD 等开源工具；AI 环节靠人工把参数抄进对话框，模型文件再手动导出给切片软件。
+  current_alternative_en: Keep modeling by hand in Autodesk Fusion 360 or SolidWorks, or fall back to
+    open-source tools like FreeCAD; the AI step is done by manually copying parameters into a dialog,
+    then exporting the model file by hand for the slicer.
+  usage_reason: 推断：相较在商业软件里手工逐步改参数，它把草图—约束—拉伸—重建这条参数化时间线做成可被 MCP 调用的操作，代理能直接读参数、改尺寸并触发整条时间线重建，省掉人工在图形界面里逐项点击与重复导出这一步；因此预算有限、又想让
+    AI 代理参与建模的小型工程团队或独立开发者会在改型迭代时先试它。
+  usage_reason_en: 'Inference: versus manually stepping through parameter edits in commercial software,
+    it exposes the sketch-constrain-extrude-rebuild parametric timeline as MCP-callable operations, so
+    an agent can read parameters, change dimensions, and trigger a full timeline rebuild, removing the
+    step of clicking through a GUI and re-exporting by hand; small engineering teams or independent developers
+    with tight budgets who want agents in the modeling loop would try it first during design it'

@@ -1,0 +1,88 @@
+- id: req-initial-blokkily-2026-10-13
+  project_slug: blokkily
+  level: initial
+  reviewed_at: '2026-10-13T03:03:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编曲阶段重复搬运与对齐片段的问题，旧替代是手工拖拽或写脚本，痛点与替代行为具体。
+    evidence_ids:
+    - ev-81310428ae98d55e
+  - gate: consensus
+    status: insufficient
+    reason: 只有一次社区讨论的热度，缺少制作人评价或作品案例，卡在场景验证这一环。
+    evidence_ids:
+    - ev-81310428ae98d55e
+  - gate: model
+    status: insufficient
+    reason: 开源实验项目，未见定价或商业路径；买方可能是个人制作人或工作室，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-81310428ae98d55e
+  - gate: truth
+    status: insufficient
+    reason: 代理直接改动音频工程，误操作会破坏作品，公开材料未说明撤销、版本或人工确认机制。
+    evidence_ids:
+    - ev-81310428ae98d55e
+  next_validation: 收集该仓库的 README、issue 与 release 说明，确认 MCP 代理实际能执行哪些编辑动作、是否有撤销与版本保护，以及是否出现制作人的真实使用反馈。
+  market: ''
+  job: 音乐制作人需要把零散的循环片段排成完整编曲结构，并完成大量重复的复制、对齐与段落调整。
+  job_en: A music producer needs to arrange scattered loop patterns into a full structure and carry out
+    many repetitive copy, alignment and section edits.
+  pain: 编曲阶段大量操作是重复的片段搬运与对齐，手工做既枯燥又容易破坏节奏一致性。
+  pain_en: Much of the arrangement stage is repetitive moving and aligning of clips, which is tedious
+    by hand and easily breaks rhythmic consistency.
+  current_alternative: 在 Ableton、Logic 等成熟数字音频工作站里手工拖拽片段，或写脚本做批量处理。
+  current_alternative_en: Dragging clips by hand in established DAWs such as Ableton or Logic, or scripting
+    batch edits.
+  usage_reason: 推断：相较在成熟工作站里手工搬运片段，它把编曲结构作为第一等对象并允许代理参与操作，省掉重复拖拽这一步，因此做循环音乐、又愿意尝试新工具的制作人会试用；公开材料没有用户反馈或留存证据，是否进入稳定工作流无法确认。
+  usage_reason_en: 'Inference: versus dragging clips by hand in an established DAW, it treats arrangement
+    structure as the primary object and lets an agent operate on it, removing repetitive dragging, which
+    is why loop-based producers open to new tools would try it; there is no public user feedback or retention
+    evidence, so stable workflow adoption cannot be confirmed.'
+- id: req-full-blokkily-2026-10-13
+  project_slug: blokkily
+  level: full
+  reviewed_at: '2026-10-13T03:43:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编曲阶段重复搬运与对齐片段的问题，旧替代是手工拖拽或写脚本，痛点与替代行为具体，交付物是可继续编辑的编曲工程。
+    evidence_ids:
+    - ev-81310428ae98d55e
+  - gate: consensus
+    status: insufficient
+    reason: 只有一次社区讨论的热度，缺少制作人评价或作品案例，卡在场景验证这一环。
+    evidence_ids:
+    - ev-81310428ae98d55e
+  - gate: model
+    status: insufficient
+    reason: 开源实验项目，未见定价或商业路径；买方可能是个人制作人或工作室，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-81310428ae98d55e
+  - gate: truth
+    status: insufficient
+    reason: 代理直接改动音频工程，误操作会破坏作品，公开材料未说明撤销、版本或人工确认机制。
+    evidence_ids:
+    - ev-81310428ae98d55e
+  next_validation: 收集该仓库的 README、issue 与 release 说明，确认 MCP 代理实际能执行哪些编辑动作、是否有撤销与版本保护，以及是否出现制作人的真实使用反馈。
+  market: ''
+  job: 音乐制作人在搭建循环片段编曲时，需要把零散片段排成完整段落结构，并完成大量重复的复制、对齐与段落调整，最终交付可继续编辑的编曲工程。
+  job_en: A music producer arranging loop-based music needs to turn scattered clips into a full section
+    structure and carry out many repetitive copy, alignment and section edits, delivering an editable
+    arrangement project.
+  pain: 编曲阶段大量操作是重复的片段搬运与对齐，手工做既枯燥又容易破坏节奏一致性；现有 DAW 以轨道和片段为操作单位，结构层面的批量调整仍靠手工。
+  pain_en: Much of the arrangement stage is repetitive moving and aligning of clips, which is tedious
+    by hand and easily breaks rhythmic consistency; existing DAWs operate at track and clip level, so
+    structural batch edits remain manual.
+  current_alternative: 在 Ableton、Logic 等成熟数字音频工作站里手工拖拽片段，或写脚本做批量处理。
+  current_alternative_en: Dragging clips by hand in established DAWs such as Ableton or Logic, or scripting
+    batch edits.
+  usage_reason: 推断：相较在成熟工作站里手工搬运片段，它把编曲结构作为第一等对象并允许 MCP 代理参与操作，省掉重复拖拽这一步，因此做循环音乐、又愿意尝试新工具的制作人会试用；公开材料没有用户反馈或留存证据，是否进入稳定工作流无法确认。
+  usage_reason_en: 'Inference: versus dragging clips by hand in an established DAW, it treats arrangement
+    structure as the primary object and lets an MCP agent operate on it, removing repetitive dragging,
+    which is why loop-based producers open to new tools would try it; there is no public user feedback
+    or retention evidence, so stable workflow adoption cannot be confirmed.'

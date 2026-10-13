@@ -237,3 +237,54 @@
     agent-smith automatically switches models per task and provides a usage panel, removing the manual
     selection and reconciliation steps; its benchmark receipts let teams check routing results, so cost-worried
     engineering teams would choose it when wiring up coding assistants.'
+- id: req-full-agent-smith-2026-10-13
+  project_slug: agent-smith
+  level: full
+  reviewed_at: '2026-10-13T03:42:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码助手调用中模型选择与用量不可见导致的 token 超支，痛点由“Token 超支”标题与自适应路由、用量面板功能共同指向；旧做法是手动选模型、事后看账单，不解决的后果是成本失控。这是工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+    - ev-752672a26f62b7af
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 347 升至 510 后又回落至 234，说明有开发者关注但波动明显；无 issue、评价或客户案例，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+    - ev-752672a26f62b7af
+    - ev-1494f767473a7a60
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费或采购记录，买方是 to C 开发者还是 to B 工程团队无法确认；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  - gate: truth
+    status: insufficient
+    reason: 材料称有“带凭据的可复现基准”，但未披露对比口径、复现步骤与路由失败时的人工接管边界，交付是否确定发生无法核对。
+    evidence_ids:
+    - ev-d3663b87bdab8936
+  next_validation: 追踪该仓库 README 与 benchmark 目录，确认路由策略的对比口径、可复现步骤及是否披露实际用量或账单节省数据。
+  market: ''
+  job: AI 应用开发者或工程效能负责人在团队使用 Claude Code、Codex 等编码助手、月度 token 账单不可控时，接入 agent-smith 按任务自适应选择模型，并通过 Codex
+    用量面板查看消耗，最终拿到路由策略与用量视图。
+  job_en: An AI application developer or engineering productivity lead whose team uses coding assistants
+    like Claude Code and Codex and faces unpredictable monthly token bills plugs in agent-smith to route
+    tasks to models adaptively and view Codex usage, ending up with a routing policy and a usage view.
+  pain: 公开材料以“Token 超支”为标题，指向编码助手调用中模型选择与用量不可见导致的成本失控；但具体超支发生在哪个环节、此前如何发现，材料未展开，痛点强度只能由工作流结构推断。
+  pain_en: The public material headlines 'Token overspend', pointing to cost overruns from invisible model
+    choice and usage in coding-assistant calls; it does not detail where overspend occurs or how it was
+    previously detected, so pain intensity is inferred from workflow structure.
+  current_alternative: 旧做法是开发者手动为每次调用挑选模型，或事后查看平台账单与额度限制；公开材料未说明此前是否已有自建脚本或网关做路由。
+  current_alternative_en: The prior approach is developers manually picking a model per call, or checking
+    platform bills and quota limits after the fact; the public material does not say whether teams already
+    had self-built scripts or gateways for routing.
+  usage_reason: 推断：相较逐次手动选模型、事后看账单，它把模型选择收敛为按任务自动路由，并集中展示 Codex 用量，省去人工比对账单这一步；因此当团队编码助手调用量上升、成本开始失控时，工程效能负责人会考虑接入。目前缺少账单对比或留存数据，节省是否真实发生无法核对。
+  usage_reason_en: 'Inference: versus manually choosing a model per call and reviewing bills afterwards,
+    it collapses model choice into task-based automatic routing and centralizes Codex usage, removing
+    the step of manually reconciling bills; so when coding-assistant call volume rises and costs start
+    drifting, an engineering productivity lead would consider adopting it. Bill-comparison or retention
+    data is missing, so whether savings actually occur cannot be verified.'

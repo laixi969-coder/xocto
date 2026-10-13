@@ -133,3 +133,54 @@
     product puts multi-agent orchestration on the local desktop with direct read/write access to the codebase
     and preserved context, removing the code-shuttling step, so heavy local coders may try it; without
     user feedback or adoption evidence, long-term retention cannot be confirmed.'
+- id: req-full-stepfun-harness-2026-10-13
+  project_slug: stepfun-harness
+  level: full
+  reviewed_at: '2026-10-13T03:47:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在本机把编码任务交给多代理工作流并接入模型的需求，痛点是在编辑器与聊天窗口间搬运上下文、单代理难以并行拆解任务；公开材料只给功能清单，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-69e119d4954737e7
+    - ev-b4f85086f5e17625
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 51 降至 43，属关注度信号而非持续采用；无 issue、discussion 或用户反馈说明开发者已把它纳入日常工作流，强场景是否成立无法判断。
+    evidence_ids:
+    - ev-69e119d4954737e7
+    - ev-f6facb9381a31e97
+  - gate: model
+    status: insufficient
+    reason: 描述提到订阅与 API 接入，但未披露定价、计价单位与买方是个人开发者还是团队，付费路径属判断而非已验证事实，存在说不清谁付钱的风险。
+    evidence_ids:
+    - ev-69e119d4954737e7
+  - gate: truth
+    status: insufficient
+    reason: 无法确认多代理产出是否可确定性交付、人工复核边界在哪，也未说明与模型厂商官方编码工具的关系，承诺能否确定性交付缺少公开依据。
+    evidence_ids:
+    - ev-69e119d4954737e7
+    - ev-b4f85086f5e17625
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认它实际替代的编码步骤、交付边界，以及是否已有开发者持续使用。
+  market: ''
+  job: 开发者在本地桌面环境中处理自己的代码仓库时，把编码任务交给多代理工作流，通过订阅或 API 接入模型、用插件扩展能力，最终拿到可运行的代码产出。
+  job_en: Developers working on their own code repositories in a local desktop environment hand coding
+    tasks to multi-agent workflows, connect models via subscription or API, extend with plugins, and obtain
+    runnable code output.
+  pain: 公开材料只给出功能清单（订阅与 API、多代理工作流、插件、Mini），未说明开发者原先在哪一步手工做、耗时多久或出错代价，痛点强度只能从工作流结构推断：在编辑器与聊天窗口之间反复搬运上下文、单代理无法并行拆解任务。
+  pain_en: 'Public material only lists features (subscription and API, multi-agent workflows, plugins,
+    Mini); it does not state which step developers previously did by hand, how long it took, or what errors
+    cost. Pain intensity can only be inferred from workflow structure: repeatedly moving context between
+    editor and chat window, and a single agent being unable to split tasks in parallel.'
+  current_alternative: 开发者目前用 IDE 加命令行代理，或直接在通用聊天助手里贴代码来完成同类任务。
+  current_alternative_en: Developers currently use an IDE plus command-line agents, or paste code into
+    general chat assistants, for the same tasks.
+  usage_reason: 推断：相较在聊天窗口与编辑器之间反复复制粘贴，该产品把多代理编排、模型接入与插件放在本机桌面内直接读写代码库，省去上下文搬运这一步，因此重度本地编码的开发者可能试用；但仓库仅有
+    43–52 星标且无用户反馈或留存证据，无法确认已被长期留在工作流中。
+  usage_reason_en: 'Inference: compared with repeatedly copy-pasting between chat window and editor, this
+    product puts multi-agent orchestration, model access and plugins inside a local desktop that reads
+    and writes the codebase directly, removing the context-shuttling step, so heavy local coders may try
+    it; but the repo has only 43–52 stars and no user feedback or retention evidence, so long-term retention
+    cannot be confirmed.'

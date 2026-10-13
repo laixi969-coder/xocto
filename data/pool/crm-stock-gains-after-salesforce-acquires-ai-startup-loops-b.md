@@ -1,6 +1,6 @@
 ---
 slug: crm-stock-gains-after-salesforce-acquires-ai-startup-loops-b
-name: CRM Stock Gains After Salesforce Acquires AI Startup Loops, BofA Double Upgrade
+name: Salesforce
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQTRwd1NOT25N
 summary: CRM Stock Gains After Salesforce Acquires AI Startup Loops, BofA Double Upgrade TradingView
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# CRM Stock Gains After Salesforce Acquires AI Startup Loops, BofA Double Upgrade
+# Salesforce
 
 CRM Stock Gains After Salesforce Acquires AI Startup Loops, BofA Double Upgrade TradingView
 

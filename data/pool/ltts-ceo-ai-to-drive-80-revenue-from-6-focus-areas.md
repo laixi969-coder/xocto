@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOQmFQU3F2d0ow
 summary: 'LTTS CEO: AI to Drive 80% Revenue from 6 Focus Areas Rediff MoneyWiz'
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

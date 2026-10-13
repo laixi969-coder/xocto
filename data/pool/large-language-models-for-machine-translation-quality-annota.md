@@ -26,7 +26,7 @@ summary: 'Large Language Models (LLMs) are considered to be a more efficient and
   (MQM) and Error Span Annotation (ESA) by comparing their agreement with human…'
 first_seen: '2026-10-13T03:04:22Z'
 last_seen: '2026-10-13T03:04:22Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

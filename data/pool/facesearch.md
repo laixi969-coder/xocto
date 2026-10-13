@@ -8,12 +8,20 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://huggingface.co/spaces/UnFakePro/FaceSearch
 canonical_url: https://huggingface.co/spaces/UnFakePro/FaceSearch
 summary: Reverse Face Search, Find Anyone by Photo
 first_seen: '2026-08-22T08:40:48Z'
 last_seen: '2026-08-22T22:38:15Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:
@@ -22,6 +30,7 @@ sightings:
   seen_at: '2026-08-22T22:38:15Z'
   metrics:
     likes: 2
+  kind: product
 ---
 
 # FaceSearch

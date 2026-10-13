@@ -1,0 +1,44 @@
+- id: req-initial-openlogi-2026-10-13
+  project_slug: openlogi
+  level: initial
+  reviewed_at: '2026-08-23T14:11:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决官方套件过重、配置绑定账号的问题，但材料未给出痛点强度或旧替代行为的直接证据，需求强度未明。
+    evidence_ids:
+    - ev-feddf3abc3a19726
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页定位描述，无用户评价、采用或重复使用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-feddf3abc3a19726
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，钱可能来自买断或捐赠，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-feddf3abc3a19726
+  - gate: truth
+    status: insufficient
+    reason: 未说明支持哪些机型、配置能否与官方设置互通，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-feddf3abc3a19726
+  next_validation: 收集该产品的官方定价页或支持机型列表，确认配置项覆盖范围与是否收费。
+  market: ''
+  job: 罗技鼠标键盘用户在换设备或想改键位时，处理按键、手势与设备配置，要完成一套可用的自定义设置。
+  job_en: Logitech mouse and keyboard users changing devices or remapping keys handle buttons, gestures
+    and device settings to finish a usable custom configuration.
+  pain: 官方 Options+ 需要安装整套软件并绑定账号，改一个按键也要走完整套件；候选材料只有一句产品定位，没有用户抱怨或替代行为的直接证据。
+  pain_en: The official Options+ requires installing a full suite and binding an account, so even remapping
+    one button means going through the whole package; the candidate material offers only a one-line positioning
+    with no direct evidence of user complaints or workarounds.
+  current_alternative: 安装官方 Logitech Options+，或使用系统自带按键设置与外设自带板载配置。
+  current_alternative_en: Installing the official Logitech Options+, or using built-in system key settings
+    and on-device onboard profiles.
+  usage_reason: 推断：相比装整套官方套件并登录账号，它把配置留在本地，省掉账号绑定与后台常驻这一步，因此在意隐私或只想改键位的用户可能选择；材料未显示实际采用或留存。
+  usage_reason_en: 'Inference: compared with installing the full official suite and signing in, it keeps
+    configuration local, removing the account-binding and background-resident step, so privacy-conscious
+    users or those who only want to remap keys may choose it; the material shows no actual adoption or
+    retention.'

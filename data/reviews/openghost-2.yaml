@@ -89,3 +89,54 @@
     steps, letting users see directly which click went wrong; so users who need to audit desktop automation
     and work across multiple OSes would choose it in that situation. This causal link is structural reasoning,
     not yet backed by user feedback or cases.'
+- id: req-full-openghost-2-2026-10-13
+  project_slug: openghost-2
+  level: full
+  reviewed_at: '2026-10-13T03:46:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决桌面跨软件任务需人工逐步操作、脚本跨平台难维护且执行过程不透明的痛点；不采用则继续人工点击或分平台写脚本，出错难定位。公开材料已能还原输入任务、代理执行、绘图可视化的闭环，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+    - ev-375ae44ad64ccdc8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 254 增至 264 的关注度信号，属规模与关注度证据，不能证明用户持续采用或形成共识；缺少 issue、discussion 或使用反馈说明真实场景。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+    - ev-375ae44ad64ccdc8
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、托管服务或企业采购路径，钱可能来自 to C 捐赠、to B 支持或 to VC，均属判断而非已验证事实；付费路径尚未在公开材料中核验。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理在真实桌面任务中的交付确定性与安全边界，缺少可复现实测、部署文档或使用记录；绘图引擎能否准确反映实际执行步骤亦无公开验证。
+    evidence_ids:
+    - ev-e3b90bb941df9507
+    - ev-375ae44ad64ccdc8
+  next_validation: 追踪该仓库的 issue、discussion 与官方文档，确认它实际替代的桌面操作步骤、交付结果与安全边界。
+  market: ''
+  job: 桌面用户（开发者或需要跨软件操作的知识工作者）在 Windows、macOS 或 Linux 上，把一段自然语言任务交给代理，由代理调用浏览器工具与本地操作完成跨软件任务，并希望看到它解释与执行的过程。
+  job_en: Desktop users (developers or knowledge workers needing cross-application operations) on Windows,
+    macOS or Linux hand a natural-language task to an agent that drives browser tooling and local actions
+    to complete cross-application work, and want to see the process it explains.
+  pain: 公开材料只说明它自研代理引擎、浏览器工具和绘图引擎，未披露具体替代了哪一步人工操作、耗时或出错代价；可确认的痛点是桌面自动化过程不透明、出错后难以定位是哪一步操作失误，因此需要把推理与操作步骤可视化。
+  pain_en: Public material only states it builds its own agent engine, browser tooling and drawing engine;
+    it does not disclose which manual step is replaced, time cost or error cost. The identifiable pain
+    is that desktop automation is opaque and hard to debug when a step goes wrong, so visualizing reasoning
+    and action steps is needed.
+  current_alternative: 旧做法是人工在多个桌面软件间手动点击复制粘贴，或自行编写 AutoHotkey、AppleScript、Selenium、Playwright 等脚本；这些脚本跨平台需分别维护，且执行过程不可视、失败难定位。
+  current_alternative_en: The old way is manual clicking and copy-paste across desktop apps, or self-written
+    AutoHotkey, AppleScript, Selenium or Playwright scripts; these must be maintained per platform and
+    run opaquely, making failures hard to locate.
+  usage_reason: 推断：相较逐平台手写脚本或纯人工操作，它用自研代理引擎把任务拆成可执行步骤，并用绘图引擎把每一步画出来，用户出错时能直接看到是哪一步点错，因此需要审计或调试桌面自动化流程的用户会在跨平台任务中选择它；目前缺少用户反馈或案例佐证这一动机。
+  usage_reason_en: 'Inference: compared with per-platform hand-written scripts or pure manual operation,
+    it uses its own agent engine to break a task into executable steps and a drawing engine to render
+    each step, so users can see exactly which step misfired; users who need to audit or debug desktop
+    automation would therefore choose it for cross-platform tasks, though user feedback or cases supporting
+    this motive are missing.'

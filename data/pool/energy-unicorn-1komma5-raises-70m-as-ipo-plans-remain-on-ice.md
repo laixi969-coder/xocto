@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/energy-unicorn-1komma5-raises-e70m-as-
 summary: ''
 first_seen: '2026-10-13T03:04:22Z'
 last_seen: '2026-10-13T03:04:22Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -22,7 +22,7 @@ summary: 'Beverage Distribution Software: AI Innovations or Repackaged Technolog
   Group'
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

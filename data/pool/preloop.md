@@ -21,7 +21,7 @@ canonical_url: https://github.com/preloopdev/preloop
 summary: GitHub Actions locally in microvms and SSH/pause failures
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

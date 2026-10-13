@@ -1,0 +1,88 @@
+- id: req-initial-web-edit-01a0-2026-10-13
+  project_slug: web-edit-01a0
+  level: initial
+  reviewed_at: '2026-10-13T03:04:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是远程改敏感文件时不愿经过模型的问题，痛点具体，旧做法是 SSH 或贴进对话，结构上成立。
+    evidence_ids:
+    - ev-325a18509461e1f7
+  - gate: consensus
+    status: insufficient
+    reason: 只有作者自述的使用场景，没有其他用户采用、评价或重复使用的公开证据。
+    evidence_ids:
+    - ev-325a18509461e1f7
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、付费或企业采购路径，钱从哪来尚不清楚。
+    evidence_ids:
+    - ev-325a18509461e1f7
+  - gate: truth
+    status: insufficient
+    reason: 权限控制、审计与多人协作边界未说明，能否确定性交付敏感文件编辑仍待核验。
+    evidence_ids:
+    - ev-325a18509461e1f7
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有人实际部署并反馈权限控制或审计需求。
+  market: ''
+  job: 开发者在手机上用远程代理推进项目时，需要打开服务器文件夹里的凭据或配置文件，直接查看并修改内容，而不是让模型代读代写。
+  job_en: While pushing a project forward from a phone via a remote agent, a developer needs to open credential
+    or config files in a server folder and view or edit them directly, rather than having the model read
+    and write them.
+  pain: 把凭据送进大模型有泄露与不可控风险，而手机端又缺少顺手的文件编辑方式，来回切换设备或复制粘贴很麻烦。
+  pain_en: Sending credentials into an LLM carries leak and control risks, while phones lack a convenient
+    file editor, making device switching or copy-paste painful.
+  current_alternative: 用 SSH 或终端编辑器在手机上改文件，或把内容贴进对话让模型改，再手动回写。
+  current_alternative_en: Editing files over SSH or a terminal editor on the phone, or pasting content
+    into a chat for the model to edit and writing it back by hand.
+  usage_reason: 推断：它把编辑界面直接架在目标文件夹上，由代理启动、手机经 Tailscale 访问，省掉了把敏感内容复制进对话再回写这一步，因此在意凭据外泄、又常离开电脑的开发者会在远程改配置时选它。
+  usage_reason_en: 'Inference: it mounts the editing UI directly on the target folder, started by the
+    agent and reached from the phone over Tailscale, removing the step of pasting sensitive content into
+    chat and writing it back, so developers wary of credential leaks who often leave their desk would
+    pick it for remote config edits.'
+- id: req-full-web-edit-01a0-2026-10-13
+  project_slug: web-edit-01a0
+  level: full
+  reviewed_at: '2026-10-13T03:48:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决远程改敏感文件时不愿经过模型的问题，痛点具体，旧做法是 SSH 或贴进对话，结构上成立。
+    evidence_ids:
+    - ev-325a18509461e1f7
+  - gate: consensus
+    status: insufficient
+    reason: 只有作者自述的使用场景，没有其他用户采用、评价或重复使用的公开证据。
+    evidence_ids:
+    - ev-325a18509461e1f7
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、付费或企业采购路径，钱从哪来尚不清楚。
+    evidence_ids:
+    - ev-325a18509461e1f7
+  - gate: truth
+    status: insufficient
+    reason: 权限控制、审计与多人协作边界未说明，能否确定性交付敏感文件编辑仍待核验。
+    evidence_ids:
+    - ev-325a18509461e1f7
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有人实际部署并反馈权限控制或审计需求。
+  market: ''
+  job: 开发者在手机上通过 Codex Remote 等远程代理推进项目时，需要打开服务器文件夹里的凭据或配置文件，直接在浏览器里查看并修改内容，而不是让模型代读代写。
+  job_en: While pushing a project forward from a phone via a remote agent such as Codex Remote, a developer
+    needs to open credential or config files in a server folder and view or edit them directly in a browser,
+    rather than having the model read and write them.
+  pain: 把凭据内容送进大模型存在泄露与不可控风险，而手机端缺少顺手的文件编辑方式，来回切换设备或复制粘贴成本高。
+  pain_en: Sending credential content into an LLM carries leak and control risks, while phones lack a
+    convenient file editor, making device switching or copy-paste costly.
+  current_alternative: 用 SSH 或终端编辑器在手机上改文件，或把内容贴进对话让模型改再手动回写。
+  current_alternative_en: Editing files over SSH or a terminal editor on the phone, or pasting content
+    into a chat for the model to edit and writing it back by hand.
+  usage_reason: 推断：它把编辑界面直接架在目标文件夹上，由代理启动、手机经 Tailscale 访问，省掉了把敏感内容复制进对话再回写这一步，因此在意凭据外泄、又常离开电脑的开发者会在远程改配置时选它。
+  usage_reason_en: 'Inference: it mounts the editing UI directly on the target folder, started by the
+    agent and reached from the phone over Tailscale, removing the step of pasting sensitive content into
+    chat and writing it back, so developers wary of credential leaks who often leave their desk would
+    pick it for remote config edits.'

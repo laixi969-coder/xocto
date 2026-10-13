@@ -1,0 +1,81 @@
+- id: req-initial-muse-wonder-now-available-on-ai-gateway-2026-10-13
+  project_slug: muse-wonder-now-available-on-ai-gateway
+  level: initial
+  reviewed_at: '2026-10-13T03:04:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只说明模型可在网关调用，未写清它解决什么需求、什么痛点，也未说明替代哪一步旧流程。
+    evidence_ids:
+    - ev-90df80b7ead9f67c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有可归因到该模型的采用或关注证据。
+    evidence_ids:
+    - ev-90df80b7ead9f67c
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露定价、买方或任何付费路径。
+    evidence_ids:
+    - ev-90df80b7ead9f67c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验交付是否确定发生，也看不到人工边界与安全说明。
+    evidence_ids:
+    - ev-90df80b7ead9f67c
+  next_validation: 收集 Muse Wonder 的官方产品页或模型卡，确认其输入输出、定价与适用场景。
+  market: ''
+  job: 创作者或营销人员在需要产出图像、视频素材时，把提示词交给模型并取回生成结果。
+  job_en: Creators or marketers hand prompts to the model and receive generated image or video assets
+    when they need new material.
+  pain: 公开材料只说明该模型可在网关上调用，未说明它替代了哪一步旧流程或缓解了什么具体痛点。
+  pain_en: Public material only says the model is callable via the gateway; it does not say which old
+    step it replaces or what specific pain it relieves.
+  current_alternative: 现有做法可能是直接调用其他生成模型或使用通用生成工具，但候选材料未提供对比信息。
+  current_alternative_en: The current alternative may be calling other generative models or using general
+    generation tools, but the candidate material offers no comparison.
+  usage_reason: 无法判断：材料未披露定价、客户案例或使用数据，也没有说明相较旧做法的具体减负环节，因此不能给出选择理由。
+  usage_reason_en: 'Cannot be judged: the material discloses no pricing, customer cases or usage data,
+    and names no concrete step saved versus the old way, so no reason to choose it can be given.'
+- id: req-full-muse-wonder-now-available-on-ai-gateway-2026-10-13
+  project_slug: muse-wonder-now-available-on-ai-gateway
+  level: full
+  reviewed_at: '2026-10-13T03:45:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只说明模型可在网关调用，未写清它解决什么需求、什么痛点，也未说明替代哪一步旧流程，无法还原用户任务与不解决的后果。
+    evidence_ids:
+    - ev-c665cedc1615d29f
+    - ev-afdda2ef6ac17868
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Muse Wonder 的官方模型卡或 AI Gateway 文档，确认其输入输出格式、定价与适用场景。
+  market: ''
+  job: 创作者或营销人员在需要产出图像或视频素材时，把提示词交给经 AI Gateway 调用的生成模型，取回生成结果用于后续剪辑或投放。
+  job_en: Creators or marketers hand prompts to a generative model reachable through AI Gateway and receive
+    generated assets for later editing or delivery.
+  pain: 公开材料只说明该模型可在网关调用，未说明它替代了哪一步旧流程、缓解了什么具体痛点，也没有用户抱怨或替代行为可还原。
+  pain_en: Public material only says the model is callable via the gateway; it does not say which old
+    step it replaces or what specific pain it relieves, and offers no user complaints or workarounds to
+    reconstruct.
+  current_alternative: 推断：创作者目前可能直接调用其他生成模型或使用通用生成工具，但候选材料未提供任何对比信息。
+  current_alternative_en: 'Inference: creators likely call other generative models or use general generation
+    tools, but the candidate material offers no comparison.'
+  usage_reason: 无法判断：材料未披露定价、客户案例或使用数据，也没有说明相较旧做法的具体减负环节，因此不能给出选择理由。
+  usage_reason_en: 'Cannot be judged: the material discloses no pricing, customer cases or usage data,
+    and names no concrete step saved versus the old way, so no reason to choose it can be given.'

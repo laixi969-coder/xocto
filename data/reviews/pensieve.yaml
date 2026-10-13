@@ -1,0 +1,90 @@
+- id: req-initial-pensieve-2026-10-13
+  project_slug: pensieve
+  level: initial
+  reviewed_at: '2026-10-13T03:03:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决上下文散落、代理会话不可检索的问题，但材料未给出痛点强度或旧替代行为的直接证据，需求强度未明。
+    evidence_ids:
+    - ev-a7dcaaa486de947f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度而非持续采用，无法判断是否进入团队工作流。
+    evidence_ids:
+    - ev-a7dcaaa486de947f
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径，钱可能来自捐赠或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a7dcaaa486de947f
+  - gate: truth
+    status: insufficient
+    reason: 未说明索引范围、隐私边界与检索准确度，交付确定性缺少材料支持。
+    evidence_ids:
+    - ev-a7dcaaa486de947f
+  next_validation: 收集该仓库的 issue 与文档，确认索引范围、隐私边界以及检索结果是否被开发者重复使用。
+  market: ''
+  job: 开发者在接手旧项目或排查问题时，处理本地文件、git 仓库和 AI 代理会话记录，要完成一次能定位到人和来源的检索。
+  job_en: Developers taking over old projects or debugging handle local files, git repositories and AI
+    agent session logs to complete a search that locates both the person and the source.
+  pain: 上下文散在文件、仓库和代理会话三处，代理会话通常不被索引，找一段改动来源要来回切换工具；候选材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: Context is scattered across files, repositories and agent sessions, agent sessions are usually
+    not indexed, and tracing a change means switching tools back and forth; the candidate material gives
+    no direct evidence of user complaints or workarounds.
+  current_alternative: 用 grep、IDE 全局搜索和 git log 分别查，代理会话记录靠翻聊天历史或干脆不保存。
+  current_alternative_en: Searching separately with grep, IDE global search and git log, while agent session
+    logs are recovered by scrolling chat history or not kept at all.
+  usage_reason: 推断：相比在多个工具间分别检索，它把文件、仓库与代理会话放进同一本地索引，省掉切换与手动拼接来源这一步，因此接手旧项目或需要追溯代理产出的开发者可能选择；材料未显示实际采用或留存。
+  usage_reason_en: 'Inference: compared with searching across separate tools, it puts files, repositories
+    and agent sessions into one local index, removing the switching and manual stitching of sources, so
+    developers taking over projects or tracing agent output may choose it; the material shows no actual
+    adoption or retention.'
+- id: req-full-pensieve-2026-10-13
+  project_slug: pensieve
+  level: full
+  reviewed_at: '2026-10-13T03:46:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上下文散落、代理会话不可检索的问题，痛点具体：追溯改动要跨 grep、IDE 与 git log 切换，代理会话通常不被索引。旧替代行为明确，交付物是检索结果与归属信息，结构上成立，但属工作流推理而非用户口述。
+    evidence_ids:
+    - ev-a7dcaaa486de947f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标 56，属于关注度而非持续采用；缺少 issue、讨论或客户案例，无法判断是否已进入团队日常工作流。
+    evidence_ids:
+    - ev-a7dcaaa486de947f
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未见定价页或付费路径，钱可能来自捐赠或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a7dcaaa486de947f
+  - gate: truth
+    status: insufficient
+    reason: 未说明索引范围、隐私边界与检索准确度，本地索引能否确定性交付、安全边界如何，缺少部署文档与实测证据。
+    evidence_ids:
+    - ev-a7dcaaa486de947f
+  next_validation: 追踪 pensieve 仓库的 README、issue 与 discussion，核对索引范围、隐私边界以及是否有开发者公开反馈重复使用。
+  market: ''
+  job: 开发者在接手旧项目、排查改动来源或延续 AI 代理产出时，处理本地文件、git 仓库和代理会话记录，要完成一次能定位到文件、主题和归属人的本地检索。
+  job_en: Developers taking over old projects, tracing change origins or continuing AI agent output handle
+    local files, git repositories and agent session logs to complete a local search that locates the file,
+    topic and responsible person.
+  pain: 上下文散落在文件、仓库和代理会话三处，代理会话通常不被索引，追溯一段改动要来回切换 grep、IDE 搜索和 git log；候选材料未给出用户抱怨或替代行为的直接证据，痛点强度属结构推理。
+  pain_en: Context is scattered across files, repositories and agent sessions; agent sessions are usually
+    not indexed, and tracing a change means switching between grep, IDE search and git log; the candidate
+    material gives no direct evidence of user complaints or workarounds, so pain intensity is structural
+    inference.
+  current_alternative: 用 grep、IDE 全局搜索和 git log 分别查，代理会话记录靠翻聊天历史或干脆不保存。
+  current_alternative_en: Searching separately with grep, IDE global search and git log, while agent session
+    logs are recovered by scrolling chat history or not kept at all.
+  usage_reason: 推断：相比在多个工具间分别检索，它把文件、仓库与代理会话放进同一本地索引，省掉切换工具与手动拼接来源这一步，因此接手旧项目或需要追溯代理产出的开发者可能选择；材料未显示实际采用或留存。
+  usage_reason_en: 'Inference: compared with searching across separate tools, it puts files, repositories
+    and agent sessions into one local index, removing the step of switching tools and manually stitching
+    sources, so developers taking over projects or tracing agent output may choose it; the material shows
+    no actual adoption or retention.'

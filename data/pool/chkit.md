@@ -21,7 +21,7 @@ canonical_url: https://github.com/obsessiondb/chkit
 summary: Schema, migrations and backfills for ClickHouse (like Drizzle)
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

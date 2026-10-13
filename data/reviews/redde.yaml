@@ -1,0 +1,86 @@
+- id: req-initial-redde-2026-10-13
+  project_slug: redde
+  level: initial
+  reviewed_at: '2026-10-13T03:03:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在移动场景运行代理时难以监督与批准操作的问题，痛点具体，旧做法是桌面客户端或事后查看结果。
+    evidence_ids:
+    - ev-e0dc6c2426d86d48
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，没有采用、评价或持续使用证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-e0dc6c2426d86d48
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露定价、买方或收入方式，付费路径属于判断而非已验证事实。
+    evidence_ids:
+    - ev-e0dc6c2426d86d48
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理在移动端的交付确定性、安全边界与人工确认机制的实际效果。
+    evidence_ids:
+    - ev-e0dc6c2426d86d48
+  next_validation: 收集该项目的官方文档或定价页，确认支持的代理任务类型、批准机制与是否存在付费版本。
+  market: ''
+  job: 需要在移动或车内场景使用 AI 代理的用户，用语音或文字下达任务，并在代理执行时逐项批准其操作，最终得到完成的任务结果。
+  job_en: Users who need an AI agent on the move or in the car issue tasks by voice or text, approve each
+    action while the agent runs, and end up with completed task results.
+  pain: 在手机上运行代理时，用户难以监督其执行、担心越权操作，且多数客户端要求账号与追踪。
+  pain_en: Running an agent on a phone makes execution hard to supervise, raises fear of unauthorized
+    actions, and most clients require accounts and tracking.
+  current_alternative: 现有做法是在桌面端或网页端使用代理客户端，移动场景下只能查看结果，难以逐步批准。
+  current_alternative_en: Current practice is desktop or web agent clients, where mobile users can only
+    check results and rarely approve steps.
+  usage_reason: 推断：相较桌面客户端，它把代理执行过程搬到手机与车机，并让用户逐项批准操作，减少事后才发现越权动作的负担，因此需要在移动场景监督代理的用户会选它；候选材料未提供留存或付费证据。
+  usage_reason_en: 'Inference: unlike desktop clients it moves agent execution onto phone and car screens
+    and lets users approve each action, reducing the burden of discovering unauthorized actions after
+    the fact, so users who must supervise agents on the move would pick it; no retention or payment evidence
+    is provided.'
+- id: req-full-redde-2026-10-13
+  project_slug: redde
+  level: full
+  reviewed_at: '2026-10-13T03:46:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要描述的是移动端运行并逐项批准 AI 代理的任务，但全部公开证据指向同名的家庭燃料电池与支付服务，没有任何一条可归因到该产品，连用户任务与痛点都无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-54db155fd1f2d103
+    - ev-6d4e890afd199f78
+    - ev-1883e970d83e95f7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品自身的官网或应用商店页面（如 App Store 上架信息、官方文档或定价页），确认其真实功能范围、支持的代理类型与是否存在付费版本。
+  market: ''
+  job: 候选摘要称面向想在手机上使用 AI 代理的人：在通勤或车内用 iPhone、iPad 或 CarPlay 以语音或文字下达任务，查看代理执行过程并逐项批准操作，最终拿到完成的任务结果。
+  job_en: 'The candidate summary describes people who want to use an AI agent on their phone: issuing
+    tasks by voice or text on iPhone, iPad or CarPlay during commutes or in the car, watching the agent
+    work, approving each action, and receiving completed task results.'
+  pain: 公开证据中没有任何一条来自该项目本身，无法确认用户在移动端监督代理、逐项批准操作时究竟遇到什么困难，也无法确认痛点是否真实存在。
+  pain_en: None of the public evidence belongs to this project, so it is impossible to confirm what difficulty
+    users actually face when supervising an agent or approving actions on mobile, or whether the pain
+    exists at all.
+  current_alternative: 公开证据未提供任何关于用户当前如何完成该任务的替代方式信息。
+  current_alternative_en: The public evidence provides no information about how users currently accomplish
+    this task.
+  usage_reason: 缺少可归因到该产品的公开事实，无法说明用户为何会选择它而非现有做法；现有证据全部指向同名的家庭燃料电池与支付服务，与移动 AI 代理客户端无关。
+  usage_reason_en: There are no public facts attributable to this product to explain why a user would
+    choose it over existing practice; all available evidence points to unrelated same-named home fuel
+    cell and payment services.

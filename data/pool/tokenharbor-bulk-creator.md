@@ -22,7 +22,7 @@ summary: Bulk, end-to-end provisioning of Token Harbor (tokenharbor.ai) accounts
   temp-email.dev disposable inboxes. Playwright-driven, MIT, no CI.
 first_seen: '2026-10-13T03:03:58Z'
 last_seen: '2026-10-13T03:03:58Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

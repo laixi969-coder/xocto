@@ -596,3 +596,50 @@
     and assembly into one command, so users only supply a brief and footage, cutting per-video editing
     and copywriting steps; merchants or marketers without editing staff who need batches of vertical assets
     would pick it when racing a campaign deadline.'
+- id: req-full-brewreel-2026-10-13
+  project_slug: brewreel
+  level: full
+  reviewed_at: '2026-10-13T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小商家无剪辑文案能力却要做竖版投放素材的需求，痛点在于外包贵、自剪慢；开源可商用与广告法校验说明交付闭环可确定，但痛点强度属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-b5240a680ff85c83
+    - ev-9a4b8498408a895a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 138 升至 167，说明开发者社区持续关注；但收藏与复刻只属关注度证据，不能证明目标商家已把它留在工作流或持续使用。
+    evidence_ids:
+    - ev-b5240a680ff85c83
+    - ev-3f7628675c60114b
+  - gate: model
+    status: insufficient
+    reason: 开源可商用意味着代码免费，公开材料未见定价页、付费客户或采购记录；钱可能来自 to B 定制或 to VC，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b5240a680ff85c83
+  - gate: truth
+    status: insufficient
+    reason: 广告法校验结果仍需人工确认，说明合规边界未完全自动；公开材料未见部署文档或可复现实测，交付稳定性与人工边界尚缺证据。
+    evidence_ids:
+    - ev-b5240a680ff85c83
+  next_validation: 追踪 BrewReel 仓库的 issue、discussion 与 README 部署文档，确认是否有商家或营销团队公开报告实际出片流程与替代的旧做法。
+  market: ''
+  job: 小商家或营销人员手里只有一份产品简报和零散素材时，打开它把简报交给 AI，由 AI 挑选镜头、写文案并合成竖版宣传片，最终拿到一条可直接投放的成片；广告法校验结果仍需人工确认。
+  job_en: A small merchant or marketer with only a product brief and scattered footage opens the tool,
+    hands the brief to the AI, which selects shots, writes copy and assembles a vertical promo video,
+    ending with a ready-to-run cut; ad-law compliance results still need human confirmation.
+  pain: 小商家做竖版投放素材时缺剪辑与文案能力，外包或自剪成本高、周期长；公开材料未给出不解决的具体代价与频率，痛点强度属工作流结构推理。
+  pain_en: Small merchants lack editing and copywriting capacity for vertical ad assets; outsourcing or
+    self-editing is costly and slow. Public materials do not quantify the cost or frequency of leaving
+    it unsolved, so pain intensity is a workflow-structure inference.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；从任务结构推断，替代方式是人工剪辑软件、外包制作或套用模板，具体替代行为仍待核验。
+  current_alternative_en: Public materials do not state how users complete this job today; inferred alternatives
+    are manual editing software, outsourced production, or templates, but the actual substitute behavior
+    remains unverified.
+  usage_reason: 推断：相较人工剪辑或外包，它把“挑镜头、写文案、合成竖版成片”压缩为提交一份简报后一条命令出片，减少逐条剪辑与文案撰写步骤；缺少用户反馈或客户案例，动机尚未被事实支持。
+  usage_reason_en: 'Inference: versus manual editing or outsourcing, it compresses shot selection, copywriting
+    and vertical assembly into one command after submitting a brief, removing per-clip editing and copywriting
+    steps; without user feedback or customer cases, the motive is not yet fact-supported.'

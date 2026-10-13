@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNQW1kTWdWUzJ0
 summary: 博通(AVGO.US)CEO：AI的下一个瓶颈不是芯片是资本，但很多投资者“像赌徒” Moomoo
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

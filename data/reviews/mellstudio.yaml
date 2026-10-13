@@ -1,0 +1,79 @@
+- id: req-initial-mellstudio-2026-10-13
+  project_slug: mellstudio
+  level: initial
+  reviewed_at: '2026-10-13T03:04:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，公开材料只有一个名称，价值关无法成立。
+    evidence_ids:
+    - ev-83f7b3ba45f6e8bf
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且仅有 2 个点赞，无法说明任何采用或共识。
+    evidence_ids:
+    - ev-83f7b3ba45f6e8bf
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料未披露任何付费方或收费路径。
+    evidence_ids:
+    - ev-83f7b3ba45f6e8bf
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生或人工边界在哪。
+    evidence_ids:
+    - ev-83f7b3ba45f6e8bf
+  next_validation: 抓取该开源空间的 README 或应用说明页，确认它接收什么输入、输出什么交付物。
+  market: ''
+  job: 独立创作者在需要视觉素材时，把文字描述交给模型，得到图片或视频草稿。
+  job_en: Independent creators submit text descriptions to a model to obtain image or video drafts when
+    they need visual assets.
+  pain: 公开材料未说明它替代了哪一步旧流程，也看不出不采用会失去什么。
+  pain_en: Public material does not state which old step it replaces, nor what is lost by not adopting
+    it.
+  current_alternative: 公开材料未给出可识别的旧做法，无法确认现有替代方式。
+  current_alternative_en: Public material gives no identifiable prior practice, so the current alternative
+    cannot be confirmed.
+  usage_reason: 无法判断：缺少功能说明、输入输出示例与任何使用反馈，无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Cannot be judged: there is no feature description, input/output example or usage feedback
+    to show which step of burden it removes versus the old way.'
+- id: req-full-mellstudio-2026-10-13
+  project_slug: mellstudio
+  level: full
+  reviewed_at: '2026-10-13T03:45:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一个名称，连它解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-83f7b3ba45f6e8bf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Mellstudio 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 独立创作者在需要视觉素材时，把文字描述交给模型，得到图片或视频草稿。
+  job_en: Independent creators submit text descriptions to a model to obtain image or video drafts when
+    they need visual assets.
+  pain: 公开材料只有一个名称，未说明它替代了哪一步旧流程，也看不出不采用会失去什么。
+  pain_en: Public material contains only a name, does not state which old step it replaces, nor what is
+    lost by not adopting it.
+  current_alternative: 公开材料未给出可识别的旧做法，无法确认现有替代方式。
+  current_alternative_en: Public material gives no identifiable prior practice, so the current alternative
+    cannot be confirmed.
+  usage_reason: 无法判断：缺少功能说明、输入输出示例与任何使用反馈，无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Cannot be judged: there is no feature description, input/output example or usage feedback
+    to show which step of burden it removes versus the old way.'

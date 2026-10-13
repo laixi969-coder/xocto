@@ -1,0 +1,88 @@
+- id: req-initial-rea-tool-connects-claude-code-and-cursor-to-ghidra-and-ida-p-2-2026-10-13
+  project_slug: rea-tool-connects-claude-code-and-cursor-to-ghidra-and-ida-p-2
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逆向工程师读反汇编慢、依赖经验的问题，痛点刚性且旧流程明确；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-905d507baf43e791
+  - gate: consensus
+    status: insufficient
+    reason: 仅一条媒体报道，未见安全团队采用、社区讨论或重复使用证据，强场景存在但共识未形成。
+    evidence_ids:
+    - ev-905d507baf43e791
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，钱可能来自安全团队订阅或按样本计费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-905d507baf43e791
+  - gate: truth
+    status: insufficient
+    reason: AI 解读反汇编存在误判风险，人工复核边界与交付确定性在公开材料中未说明。
+    evidence_ids:
+    - ev-905d507baf43e791
+  next_validation: 收集 REA 官方仓库或产品页，确认其支持的输入格式、交付形态与是否公开定价。
+  market: ''
+  job: 逆向工程师在拿到可疑二进制样本时，需要先读懂 Ghidra 或 IDA Pro 的反汇编结果，判断样本行为并形成初步分析结论。
+  job_en: A reverse engineer receiving a suspicious binary must first read Ghidra or IDA Pro disassembly
+    to judge sample behavior and form a first-pass conclusion.
+  pain: 反汇编阅读耗时且依赖经验，人工逐段梳理调用关系与可疑逻辑是逆向流程中最慢的一环。
+  pain_en: Reading disassembly is slow and experience-dependent; manually tracing call relationships and
+    suspicious logic is the slowest step in the reverse-engineering workflow.
+  current_alternative: 目前主要靠人工在 Ghidra/IDA Pro 中阅读，或把片段复制到通用聊天助手再自行拼接结论。
+  current_alternative_en: Today this is done by hand inside Ghidra/IDA Pro, or by pasting fragments into
+    a general chat assistant and stitching conclusions together manually.
+  usage_reason: 推断：相较手工通读反汇编，它把反汇编结果直接接入编码助手，省去复制粘贴与上下文重建这一步，使逆向工程师在初筛样本时更快得到可核对的解读；是否被长期留在工作流中尚无公开证据。
+  usage_reason_en: 'Inference: versus reading disassembly manually, it wires disassembly output directly
+    into a coding assistant, removing the copy-paste and context-rebuilding step so engineers get a verifiable
+    interpretation faster during sample triage; no public evidence yet that it stays in the workflow long
+    term.'
+- id: req-full-rea-tool-connects-claude-code-and-cursor-to-ghidra-and-ida-p-2-2026-10-13
+  project_slug: rea-tool-connects-claude-code-and-cursor-to-ghidra-and-ida-p-2
+  level: full
+  reviewed_at: '2026-10-13T03:46:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逆向工程师读反汇编慢、依赖经验的问题，旧流程明确、不采用则初筛耗时；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-7ff562502b88d8e0
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库自述与合规声明，未见安全团队采用、社区讨论或重复使用证据，强场景存在但共识未形成。
+    evidence_ids:
+    - ev-7ff562502b88d8e0
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，钱可能来自安全团队订阅或按样本计费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7ff562502b88d8e0
+  - gate: truth
+    status: insufficient
+    reason: AI 解读反汇编存在误判风险，人工复核边界与交付确定性在公开材料中未说明。
+    evidence_ids:
+    - ev-7ff562502b88d8e0
+  next_validation: 追踪 REA 官方 公开代码仓库 仓库（morluto/rea）的 README、release 与 issue/discussion，确认支持的输入格式、交付形态与是否公开定价。
+  market: ''
+  job: 逆向工程师在拿到可疑二进制样本时，需要在 Ghidra 或 IDA Pro 中读懂反汇编、梳理函数调用与可疑逻辑，形成可继续核对的初步分析结论。
+  job_en: A reverse engineer receiving a suspicious binary must read disassembly in Ghidra or IDA Pro,
+    trace function calls and suspicious logic, and produce a first-pass analysis conclusion that can be
+    further verified.
+  pain: 反汇编阅读耗时且高度依赖经验，人工逐段梳理调用关系与可疑逻辑是逆向流程中最慢的一环；把片段复制到通用聊天助手又会丢失上下文、需要反复重建。
+  pain_en: Reading disassembly is slow and experience-dependent; manually tracing call relationships and
+    suspicious logic is the slowest step, and pasting fragments into a general chat assistant loses context
+    and forces repeated rebuilding.
+  current_alternative: 目前主要靠人工在 Ghidra/IDA Pro 中通读反汇编，或把片段复制到通用聊天助手再自行拼接结论。
+  current_alternative_en: Today this is done by hand inside Ghidra/IDA Pro, or by pasting fragments into
+    a general chat assistant and stitching conclusions together manually.
+  usage_reason: 推断：相较手工通读反汇编，REA 把 Ghidra/IDA Pro 的反汇编结果直接接入 Claude Code 与 Cursor，省去复制粘贴与上下文重建这一步，使逆向工程师在初筛样本时更快拿到可核对的解读；是否被长期留在工作流中尚无公开证据。
+  usage_reason_en: 'Inference: versus reading disassembly manually, REA wires Ghidra/IDA Pro disassembly
+    output directly into Claude Code and Cursor, removing the copy-paste and context-rebuilding step so
+    engineers get a verifiable interpretation faster during sample triage; no public evidence yet that
+    it stays in the workflow long term.'

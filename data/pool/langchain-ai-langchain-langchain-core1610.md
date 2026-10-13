@@ -1,6 +1,6 @@
 ---
 slug: langchain-ai-langchain-langchain-core1610
-name: 'langchain-ai/langchain: langchain-core==1.6.10'
+name: langchain-core
 builder: langchain-ai
 category: ''
 summary_zh: ''
@@ -26,7 +26,7 @@ summary: 'Changes since langchain-core==1.6.9
   feat(core,anthropic,openai): declare mid-conversation support in model profiles (#41180)'
 first_seen: '2026-10-13T03:03:58Z'
 last_seen: '2026-10-13T03:03:58Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -38,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# langchain-ai/langchain: langchain-core==1.6.10
+# langchain-core
 
 Changes since langchain-core==1.6.9
 

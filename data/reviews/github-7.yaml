@@ -1,0 +1,80 @@
+- id: req-initial-github-7-2026-10-13
+  project_slug: github-7
+  level: initial
+  reviewed_at: '2026-10-13T03:03:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多协议接入与功能扩展，但材料未说明用户旧流程的具体痛点与不采用代价，需求强度无法判断。
+    evidence_ids:
+    - ev-1414c7262152380c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 14 条社区评论与作者个人观点，没有可归因到该产品的采用或持续使用证据。
+    evidence_ids:
+    - ev-1414c7262152380c
+  - gate: model
+    status: insufficient
+    reason: 开源项目，材料未披露任何付费路径、买方或商业安排，无法判断收入来源。
+    evidence_ids:
+    - ev-1414c7262152380c
+  - gate: truth
+    status: insufficient
+    reason: 插件由用户自行开发，改坏底座的边界与安全责任在材料中未说明，交付确定性无从核对。
+    evidence_ids:
+    - ev-1414c7262152380c
+  next_validation: 收集 Magpie 仓库的 issue 与 discussion，核对用户实际提交的插件需求、报错与维护响应情况。
+  market: ''
+  job: 开发者在自建 AI 应用时，需要把多个模型或不同协议接到同一入口，并为自己缺的功能补插件。
+  job_en: Developers building AI applications need to route multiple models or protocols through one entry
+    point and add plugins for missing features.
+  pain: 候选材料只给出作者对插件式软件的个人判断，没有说明用户在旧做法下具体卡在哪一步、代价多大。
+  pain_en: The material only gives the author's personal view on plugin-based software, without stating
+    which step users are stuck on or what it costs.
+  current_alternative: 材料提到 CPA、sub2api 等同类网关，以及看源码写插件的做法，但未说明这些替代方式的实际使用情况。
+  current_alternative_en: The material mentions similar gateways such as CPA and sub2api and writing plugins
+    by reading source code, but does not describe actual usage of these alternatives.
+  usage_reason: 推断：相较等作者合并功能或直接改源码，用户可自行开发插件减少等待，但缺少任何采用或留存证据，无法确认这一理由成立。
+  usage_reason_en: 'Inference: users can write plugins themselves instead of waiting for maintainers or
+    patching source, but no adoption or retention evidence exists to confirm this reason.'
+- id: req-full-github-7-2026-10-13
+  project_slug: github-7
+  level: full
+  reviewed_at: '2026-10-13T03:44:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决多协议接入与功能扩展，但材料未说明用户旧流程的具体痛点与不采用代价，需求强度无法判断。
+    evidence_ids:
+    - ev-1414c7262152380c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Magpie 仓库的 issue 与 discussion，核对用户实际提交的插件需求、报错与维护响应情况。
+  market: ''
+  job: 开发者在自建 AI 应用时，需要把多个模型或不同协议接到同一入口，并在缺少某项功能时自行编写插件补上，最终得到一个可自托管的统一调用网关。
+  job_en: Developers building AI applications need to route multiple models or protocols through one entry
+    point and write plugins themselves for missing features, ending with a self-hostable unified gateway.
+  pain: 候选材料只给出作者对插件式软件的个人判断，没有说明用户在旧做法下具体卡在哪一步、代价多大，也没有可引用的用户抱怨或 workaround 记录。
+  pain_en: The material only gives the author's personal view on plugin-based software, without stating
+    which step users are stuck on or what it costs, and no citable user complaints or workarounds exist.
+  current_alternative: 材料提到 CPA、sub2api 等同类网关，以及看源码写插件的做法，但未说明这些替代方式的实际使用情况或用户为何要换。
+  current_alternative_en: The material mentions similar gateways such as CPA and sub2api and writing plugins
+    by reading source code, but does not describe actual usage of these alternatives or why users would
+    switch.
+  usage_reason: 推断：相较等作者合并功能或直接改源码，用户可自行开发插件减少等待，但缺少任何采用或留存证据，无法确认这一理由成立。
+  usage_reason_en: 'Inference: users can write plugins themselves instead of waiting for maintainers or
+    patching source, but no adoption or retention evidence exists to confirm this reason.'

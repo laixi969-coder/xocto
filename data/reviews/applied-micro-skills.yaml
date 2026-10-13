@@ -945,3 +945,40 @@
   usage_reason: 公开代码仓库有 48 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 48 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-applied-micro-skills-2026-10-13
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-10-13T03:42:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助研究者从数据到论文表并复现数字，但公开材料未说明用户当前卡在哪一步、不解决的代价或发生频率，无法还原具体旧流程与交付闭环。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找该仓库的 README、issue 或 discussion，确认研究者实际用它完成哪类复现任务、是否出现数字对不上或需要人工返工的反馈。
+  market: ''
+  job: 应用微观经济学研究者在处理实证数据、跑回归、生成论文表格时，需要把从数据到结果的流程复现出来。
+  job_en: Applied microeconomics researchers processing empirical data, running regressions and producing
+    paper tables need to reproduce the pipeline from data to results.
+  pain: 公开材料未说明研究者当前在复现、表格生成或数据流程中具体卡在哪一步，也未说明不解决的代价或发生频率。
+  pain_en: Public materials do not specify where researchers currently get stuck in reproduction, table
+    generation or data pipelines, nor the cost or frequency of leaving it unsolved.
+  current_alternative: 公开材料未说明研究者目前如何完成这项工作，也未说明它实际替代了什么工具或流程。
+  current_alternative_en: Public materials do not show how researchers complete this job today or what
+    tools or workflows it replaces.
+  usage_reason: 公开代码仓库有 48 个收藏，说明开发者注意到它；但缺少用户反馈或案例说明为何选择它，持续使用与付费均未核验。
+  usage_reason_en: Its public repository has 48 stars, showing developer attention; but there is no user
+    feedback or case explaining why they choose it, and repeat use and payment are unverified.

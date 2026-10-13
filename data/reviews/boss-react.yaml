@@ -1,0 +1,91 @@
+- id: req-initial-boss-react-2026-10-13
+  project_slug: boss-react
+  level: initial
+  reviewed_at: '2026-10-13T03:03:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者海投时逐条筛选与发起沟通的重复劳动，痛点具体且高频，旧做法是手动复制粘贴，结构上成立。
+    evidence_ids:
+    - ev-74d83e340e460a47
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 144 星标的开源关注度，没有用户反馈或采用数据说明求职者是否真的把它接入投递流程。
+    evidence_ids:
+    - ev-74d83e340e460a47
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是求职者个人，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-74d83e340e460a47
+  - gate: truth
+    status: challenged
+    reason: 自动投递触及招聘平台风控与账号安全边界，公开材料未说明如何合规操作，交付确定性存疑。
+    evidence_ids:
+    - ev-74d83e340e460a47
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认其岗位筛选逻辑、投递结果反馈方式以及对平台风控的处理说明。
+  market: ''
+  job: 求职者在集中找工作的阶段，面对 BOSS 直聘上大量岗位列表，需要完成筛选合适岗位并逐一发起沟通的投递任务。
+  job_en: During an intensive job hunt, a candidate faces a large set of listings on BOSS Zhipin and must
+    screen suitable roles and initiate contact with each one.
+  pain: 逐个浏览岗位、判断匹配度、复制打招呼话术是重复且耗时的机械动作，海投时尤其明显。
+  pain_en: Browsing each listing, judging fit, and copying a greeting message is repetitive, time-consuming
+    mechanical work, especially when applying at volume.
+  current_alternative: 求职者手动在平台上逐条筛选并复制粘贴打招呼语，或使用平台自带的批量投递功能。
+  current_alternative_en: Candidates manually screen listings and paste greeting messages one by one,
+    or use the platform's own bulk-apply feature.
+  usage_reason: 推断：相较手动逐条投递，它把筛选与发起沟通的重复动作交给自动流程，减少单次投递的操作步骤，因此海投量大的求职者会尝试；但公开材料未披露其筛选逻辑、投递成功率或账号安全处理，是否被长期留在工作流中缺少证据。
+  usage_reason_en: 'Inference: versus manual one-by-one applying, it delegates the repetitive screening
+    and outreach steps to an automated flow, cutting the per-application effort, so high-volume applicants
+    would try it; however the public material discloses no screening logic, success rate, or account-safety
+    handling, so there is no evidence it stays in the workflow long term.'
+- id: req-full-boss-react-2026-10-13
+  project_slug: boss-react
+  level: full
+  reviewed_at: '2026-10-13T03:43:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者海投时逐条筛选岗位并逐一发起沟通的重复劳动，痛点具体且高频，旧做法是手动复制粘贴打招呼语，结构上成立。
+    evidence_ids:
+    - ev-d6b394ad1841956b
+    - ev-bdb1cfa3046ea80f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 BOSS 直聘平台自身的匹配与对话说明，没有该仓库的用户反馈、采用数据或重复使用证据，无法判断求职者是否真的把它接入投递流程。
+    evidence_ids:
+    - ev-43f0f1b23aab8b50
+    - ev-a8a6d66b5febe08f
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，买方可能是求职者个人，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c46ec3a9eb8b14d7
+    - ev-2336a4b33fdfc5ff
+  - gate: truth
+    status: challenged
+    reason: 自动投递触及招聘平台风控与账号安全边界，公开材料未说明如何合规操作，交付确定性存疑。
+    evidence_ids:
+    - ev-57ff5dc55ab88e04
+    - ev-3b576d8ee323bcd5
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认其岗位筛选逻辑、投递结果反馈方式以及对平台风控的处理说明。
+  market: ''
+  job: 求职者在集中找工作的阶段，面对 BOSS 直聘上大量岗位列表，需要完成筛选合适岗位并逐一发起沟通的投递任务。
+  job_en: During an intensive job hunt, a candidate faces a large set of listings on BOSS Zhipin and must
+    screen suitable roles and initiate contact with each one.
+  pain: BOSS 直聘以实时对话和双边匹配为核心，求职者必须逐条浏览岗位、判断匹配度、复制打招呼话术再发起沟通，海投时这是重复且耗时的机械动作。
+  pain_en: Because BOSS Zhipin centers on real-time chat and two-sided matching, candidates must browse
+    each listing, judge fit, paste a greeting, and start a conversation one by one — repetitive, time-consuming
+    mechanical work when applying at volume.
+  current_alternative: 求职者手动在平台上逐条筛选并复制粘贴打招呼语，或使用平台自带的批量投递功能。
+  current_alternative_en: Candidates manually screen listings and paste greeting messages one by one,
+    or use the platform's own bulk-apply feature.
+  usage_reason: 推断：相较手动逐条投递，它把筛选与发起沟通的重复动作交给类似 coding agent 的自动流程，减少单次投递的操作步骤，因此海投量大的求职者会尝试；但公开材料未披露其筛选逻辑、投递结果反馈或账号安全处理，是否被长期留在工作流中缺少证据。
+  usage_reason_en: 'Inference: versus manual one-by-one applying, it delegates the repetitive screening
+    and outreach steps to a coding-agent-like automated flow, cutting per-application effort, so high-volume
+    applicants would try it; however the public material discloses no screening logic, result feedback,
+    or account-safety handling, so there is no evidence it stays in the workflow long term.'

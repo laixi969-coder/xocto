@@ -1,6 +1,6 @@
 ---
 slug: roboai-plans-alif-composites-with-10-million-square-meters-o
-name: Robo.ai Plans ALIF Composites with 10 Million Square Meters of Annual Capacity Targeted for 2027
+name: Robo.ai
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Robo.ai Plans ALIF Composites with 10 Million Square Meters of Annual C
   Morningstar
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Robo.ai Plans ALIF Composites with 10 Million Square Meters of Annual Capacity Targeted for 2027
+# Robo.ai
 
 Robo.ai Plans ALIF Composites with 10 Million Square Meters of Annual Capacity Targeted for 2027 Morningstar
 

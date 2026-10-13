@@ -1,0 +1,84 @@
+- id: req-initial-startup-stage-travelsnapai-turns-guest-video-reviews-into-bo-2026-10-13
+  project_slug: startup-stage-travelsnapai-turns-guest-video-reviews-into-bo
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决住宿方把住客视频评价转成预订转化素材的需求，痛点是素材零散且无人力整理，旧做法是手动剪辑或放弃。
+    evidence_ids:
+    - ev-057c26b3a37b320c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道标题，未见房东采用数据或客户案例，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-057c26b3a37b320c
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价与计费方式，买方付费路径只能推断为向房东或酒店按产出收费。
+    evidence_ids:
+    - ev-057c26b3a37b320c
+  - gate: truth
+    status: insufficient
+    reason: 未见视频处理质量、发布渠道或人工确认环节的公开材料，交付确定性仍待核验。
+    evidence_ids:
+    - ev-057c26b3a37b320c
+  next_validation: 收集 TravelSnap.AI 官方产品页或公开客户案例，确认视频处理流程与计费方式。
+  market: ''
+  job: 酒店或短租房东在住客离店后，收集住客视频评价并整理成可用于房源页和预订转化的内容。
+  job_en: Hotel or short-term rental hosts collecting guest video reviews after checkout and turning them
+    into content for listing pages and booking conversion.
+  pain: 住客视频素材零散、格式不一，房东缺少人力逐条剪辑整理，导致素材闲置。
+  pain_en: Guest video footage is scattered and inconsistent in format, and hosts lack the labor to edit
+    it one by one, leaving the material unused.
+  current_alternative: 房东手动剪辑，或只保留文字点评、放弃视频素材。
+  current_alternative_en: Hosts edit manually, or keep only text reviews and abandon the video footage.
+  usage_reason: 推断：相较手动剪辑或放弃视频，它直接接收住客视频并产出可发布的评价内容，减少逐条剪辑这一步，因此点评量大的短租房东会选择它。
+  usage_reason_en: 'Inference: versus manual editing or discarding footage, it ingests guest videos and
+    outputs publishable review content, removing the per-clip editing step, so hosts with high review
+    volume would choose it.'
+- id: req-full-startup-stage-travelsnapai-turns-guest-video-reviews-into-bo-2026-10-13
+  project_slug: startup-stage-travelsnapai-turns-guest-video-reviews-into-bo
+  level: full
+  reviewed_at: '2026-10-13T03:47:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决住宿方把住客视频评价转成预订转化素材的需求，痛点是素材零散、无人力逐条整理，旧做法是手动剪辑或放弃视频；这是从产品说明与任务结构作出的工作流推理，非用户采用数据。
+    evidence_ids:
+    - ev-057c26b3a37b320c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道标题，未见房东采用数据、客户案例或重复使用证据，无法判断是否形成稳定使用；公开关注度不能替代持续采用。
+    evidence_ids:
+    - ev-057c26b3a37b320c
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价与计费方式，买方付费路径只能推断为向房东或酒店按产出收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-057c26b3a37b320c
+  - gate: truth
+    status: insufficient
+    reason: 未见视频处理质量、发布渠道或人工确认环节的公开材料，交付确定性仍待核验；检索到的通用AI介绍页与该项目无关。
+    evidence_ids:
+    - ev-057c26b3a37b320c
+  next_validation: 追踪 TravelSnap.AI 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 酒店或短租房东在住客离店后，收集住客用手机拍摄的视频评价素材，把这些零散素材整理成可放到房源页、用于预订转化的评价内容。
+  job_en: After guest checkout, hotel or short-term rental hosts collect guest-shot video review footage
+    and turn this scattered material into review content usable on listing pages for booking conversion.
+  pain: 住客视频素材零散、格式不一，房东没有人力逐条剪辑整理，导致素材闲置，房源页仍以文字点评为主，缺少可转化的视频内容。
+  pain_en: Guest video footage is scattered and inconsistent in format, and hosts lack the labor to edit
+    it clip by clip, so the material sits unused and listing pages rely on text reviews without convertible
+    video content.
+  current_alternative: 房东手动剪辑，或只保留文字点评、放弃视频素材；也可能用通用剪辑工具自行处理。
+  current_alternative_en: Hosts edit manually, or keep only text reviews and abandon the video footage;
+    some may use general-purpose editing tools themselves.
+  usage_reason: 推断：相较手动逐条剪辑或直接放弃视频素材，它接收住客视频并直接产出可发布的评价内容，省去逐条剪辑这一步，因此点评量大、缺少剪辑人力的短租房东会在离店后集中处理素材时选择它。
+  usage_reason_en: 'Inference: versus manual clip-by-clip editing or discarding footage, it ingests guest
+    videos and outputs publishable review content directly, removing the per-clip editing step, so hosts
+    with high review volume and no editing staff would choose it when processing footage after checkout.'

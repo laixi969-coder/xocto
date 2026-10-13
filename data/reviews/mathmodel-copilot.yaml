@@ -227,3 +227,52 @@
     the steps of shuttling problem text and data between tools and manually checking whether code ran;
     teams under time pressure needing a reproducible record would therefore pick it once the problem is
     released.'
+- id: req-full-mathmodel-copilot-2026-10-13
+  project_slug: mathmodel-copilot
+  level: full
+  reviewed_at: '2026-10-13T03:45:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决限时数学建模竞赛中审题、选模型、跑代码、核验结果分散在多工具、易出错的需求，痛点刚性来自赛程不可延期与论文必须可提交；公开仓库说明已还原输入—动作—交付闭环，属工作流结构推理，尚无用户反馈佐证强度。
+    evidence_ids:
+    - ev-c18692209936235e
+    - ev-8f0db4bc72eafd92
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 40 升至 54，说明社区注意到该项目，但收藏属关注度证据，不能证明目标学生已将其纳入赛程工作流或持续使用；缺少 issue、discussion 或用户评价佐证真实采用。
+    evidence_ids:
+    - ev-c18692209936235e
+    - ev-8f0db4bc72eafd92
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或单位经济，无法判断收入来自学生订阅、高校采购还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-c18692209936235e
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺审题、模型比较、Python 运行与结果核验，但公开材料未说明核验标准、模型选择责任边界与人工确认环节，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-c18692209936235e
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与 README 更新，确认是否有参赛者公开描述在赛程中使用它替代了哪些旧流程，以及是否出现定价或高校采购信息。
+  market: ''
+  job: 参加国赛 CUMCM 或美赛 MCM/ICM 的学生（及指导教师）在拿到赛题后的 3–4 天赛程内，把题目文本与已有数据交给工具，完成审题拆解、候选模型比较、Python 代码运行与结果核验，最终产出可提交的论文素材。
+  job_en: Students (and coaches) in CUMCM or MCM/ICM take the problem statement and available data during
+    the 3–4 day contest window, and use the tool to decompose the problem, compare candidate models, run
+    Python code, verify results, and produce paper-ready material.
+  pain: 数学建模竞赛是限时高压任务：审题偏差、模型选错、代码跑不通或结果无法核验，都会直接导致论文无法完成；参赛者往往在建模、编程、写作三种角色间切换，缺乏可复现的流程记录。
+  pain_en: 'Mathematical modeling contests are time-boxed and high-stakes: misreading the problem, choosing
+    the wrong model, code that will not run, or unverifiable results can leave the paper unfinished; participants
+    juggle modeling, coding, and writing roles without a reproducible process record.'
+  current_alternative: 当前替代方式多为通用大模型对话、搜索引擎与论坛经验帖、MATLAB/Python 手工脚本，以及队友之间口头分工；这些做法缺少针对赛题的审题—建模—运行—核验闭环。
+  current_alternative_en: Current alternatives are general LLM chat, search engines and forum experience
+    posts, hand-written MATLAB/Python scripts, and verbal division of labor among teammates; none provides
+    a problem-specific decompose-model-run-verify loop.
+  usage_reason: 推断：相较通用对话工具，它把审题拆解、模型比较、Python 运行与结果核验串成一条可复现工作流，减少用户在多个工具间搬运题目与代码、以及手工核对结果的步骤，因此限时赛程中需要快速迭代模型的学生会优先选择它；但公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with general chat tools, it chains problem decomposition, model
+    comparison, Python execution, and result verification into one reproducible workflow, cutting the
+    steps of shuttling problem text and code between tools and manually checking outputs, so students
+    iterating under contest time pressure would prefer it; public materials do not yet contain user feedback
+    or cases confirming this motive.'

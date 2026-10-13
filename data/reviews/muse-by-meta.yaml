@@ -214,3 +214,90 @@
   usage_reason_en: 'Inference: if it can execute cross-app errands end to end and return a checkable result,
     users would pick it when they would rather not operate step by step by hand; however the material
     offers no user feedback, case or repeat-use evidence, so the motive cannot be stated as fact.'
+- id: req-initial-muse-by-meta-2026-10-13
+  project_slug: muse-by-meta
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用零散事务的执行需求，痛点是切换与手动搬运，旧替代行为明确存在；具体交付仍待核验。
+    evidence_ids:
+    - ev-f2318e7939cddb35
+    - ev-f7da6752828f2b66
+  - gate: consensus
+    status: insufficient
+    reason: 有媒体报道与社区讨论热度，但未见可归因到该产品的持续使用或采用数据，卡在感知与场景一环。
+    evidence_ids:
+    - ev-f2318e7939cddb35
+    - ev-d29ec4b70f9ba941
+  - gate: model
+    status: insufficient
+    reason: 未见官方定价页或付费路径披露，买方是个人订阅还是生态捆绑尚不清楚，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-d29ec4b70f9ba941
+  - gate: truth
+    status: insufficient
+    reason: 承诺能否确定性交付、安全与人工边界如何划定，公开材料未说明，需看官方文档与实测。
+    evidence_ids:
+    - ev-f7da6752828f2b66
+  next_validation: 收集Meta Muse官方产品页或帮助文档，确认其可执行的动作范围、数据接入方式与是否披露定价。
+  market: ''
+  job: 普通用户在一天中需要跨多个应用处理日程、查找资料、起草文字时，把零散任务交给一个代理去执行并取回结果。
+  job_en: An ordinary user, moving across several apps during the day, hands scattered tasks — scheduling,
+    looking things up, drafting text — to one agent and takes back the results.
+  pain: 这些事务分散在不同应用里，用户要反复切换、复制粘贴、自己记住上下文，单件不重但累积占用时间；不做的代价是事情被拖延或遗漏。
+  pain_en: These tasks are scattered across apps, forcing repeated switching, copy-pasting and manual
+    context keeping; each item is light but the accumulation costs time, and skipping them means delay
+    or omission.
+  current_alternative: 现在用户靠多个单点应用加手动操作，或用一个通用聊天助手逐条提问、自己把答案搬回原应用执行。
+  current_alternative_en: Today users rely on several single-purpose apps plus manual work, or ask a general
+    chat assistant item by item and carry answers back into the original app themselves.
+  usage_reason: 相较逐条提问再手动搬运，代理若能直接读取上下文并执行动作，省掉的是“把答案搬回原应用并手动操作”这一步；推断，公开材料尚未给出可核验的交付结果或留存证据。
+  usage_reason_en: Compared with asking item by item and moving answers by hand, an agent that reads context
+    and acts directly removes the step of carrying the answer back into the app and operating it manually;
+    this is inference, as public material shows no verifiable delivery outcome or retention evidence yet.
+- id: req-full-muse-by-meta-2026-10-13
+  project_slug: muse-by-meta
+  level: full
+  reviewed_at: '2026-10-13T03:45:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据只覆盖 Meta 账号、商业工具与公司介绍，未说明 Meta Muse 处理什么材料、执行什么动作、交付什么结果，连用户任务与痛点都无法还原，价值结构无从成立。
+    evidence_ids:
+    - ev-2e8d3526b8628620
+    - ev-619613c5fce0641e
+    - ev-e7115adeaa48190f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Meta 官方站点或帮助中心是否上线 Meta Muse 产品页，确认其输入材料、可执行动作、交付结果与是否披露定价。
+  market: ''
+  job: 公开材料未说明 Meta Muse 是什么产品、面向谁、在什么情况下处理什么材料、要完成什么任务；现有证据只覆盖 Meta 账号、商业工具与公司介绍，无法还原具体使用场景。
+  job_en: Public material does not state what Meta Muse is, who it serves, in what situation it handles
+    which material, or what task it completes; available evidence only covers Meta accounts, business
+    tools and company pages, so no concrete usage scenario can be reconstructed.
+  pain: 没有可引用的公开事实说明用户在使用中遇到什么痛点、痛点是否刚性、不解决会有什么后果；摘要中的“帮你把事情做完”是产品口号，不是痛点证据。
+  pain_en: No citable public fact describes what pain users hit, whether it is rigid, or what happens
+    if unsolved; the summary line 'gets things done' is a product slogan, not pain evidence.
+  current_alternative: 公开材料未披露用户现在用什么方式完成同类任务，也没有可观察的旧替代行为或 workaround 记录。
+  current_alternative_en: Public material discloses no current way users accomplish comparable tasks,
+    and no observable legacy alternative or workaround is recorded.
+  usage_reason: 无法给出使用理由：既没有产品能力说明，也没有用户反馈或客户案例支持任何选择动机，因此不能推断哪类用户会在什么情况下选用它。
+  usage_reason_en: 'No usage reason can be given: there is neither a product capability description nor
+    user feedback or customer cases supporting any adoption motive, so no user segment or situation can
+    be inferred.'

@@ -423,3 +423,57 @@
     with a CU ledger and auto-stop to bound quota, so developers who already have a Colab subscription
     and want low-cost open-model access without maintaining a deployment script would choose it when they
     need a local /v1 endpoint (inference from product capability versus the old workflow).
+- id: req-full-collabosm-2026-10-13
+  project_slug: collabosm
+  level: full
+  reviewed_at: '2026-10-13T03:43:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是开发者想用开源大模型却缺算力、又怕云 GPU 忘关机烧钱的需求；痛点在于本地跑不动 27B/125B、手动 Colab 每次重搭、按 token 计费不可控。公开说明已给出输入（自有
+      Colab 账号）、动作（租卡起服务、本地 /v1）与交付（可调用端点、费用预览、auto-stop），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-1167baee2c12b86d
+    - ev-304362f4f92d783e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 94 缓慢增至 98，说明有开发者关注并复刻，但公开材料没有 issue、discussion 或用户评价说明谁在什么场景持续使用、替代了哪套旧流程，因此只能算关注度，不能算采用共识。
+    evidence_ids:
+    - ev-1167baee2c12b86d
+    - ev-e34fc2685a0a4df4
+  - gate: model
+    status: insufficient
+    reason: 判断而非已验证事实：钱可能来自开发者自付 Colab 算力（to C）或团队采购（to B），但公开材料没有定价页、订阅或抽成说明，也没有付费与复购记录，付费路径尚未核验。
+    evidence_ids:
+    - ev-1167baee2c12b86d
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺费用预览、auto-stop、CU ledger 与实时 prefill/decode，但缺少部署文档、可复现实测或 issue 反馈来验证长会话稳定性、Colab 政策合规与人工边界，交付确定性尚未被公开证据确认。
+    evidence_ids:
+    - ev-304362f4f92d783e
+    - ev-02db393cd68fb533
+  next_validation: 追踪 collabosm 仓库的 README/部署文档与 issue、discussion，确认是否有用户报告实际部署场景、替代的旧流程以及费用与稳定性结果。
+  market: ''
+  job: 个人开发者或小团队在本地机器上打开 collabosm，用自己的 Google Colab 账号租一块 A100（40G 跑 Qwen 27B，80G 跑 Flash-Next 125B-A6B），把开源模型变成固定本地
+    /v1 端点，供 Codex 或任意 OpenAI 客户端在写代码、看图对话时直接调用。
+  job_en: An individual developer or small team opens collabosm locally, rents an A100 in their own Google
+    Colab account (40G for Qwen 27B, 80G for Flash-Next 125B-A6B), and turns the open model into a fixed
+    local /v1 endpoint that Codex or any OpenAI client calls while coding or chatting with images.
+  pain: 想用开源大模型做日常编码与图像对话，但本地显卡跑不动 27B/125B 级模型；直接买云 GPU 按小时计费，容易忘记关机而持续烧钱，且各家推理服务的接口不统一，切换客户端要改配置。
+  pain_en: Running 27B/125B-class open models for daily coding and image chat is out of reach on local
+    GPUs; renting cloud GPUs bills by the hour and is easy to leave running, and inference providers expose
+    inconsistent endpoints, so switching clients means reconfiguring.
+  current_alternative: 旧做法是手动写 Colab notebook 装环境、拉模型、开隧道，或直接订阅云端推理 API；前者每次都要重搭且没有费用预览和自动停机，后者按 token
+    计费、模型与数据不在自己账号内。
+  current_alternative_en: The old way is hand-writing a Colab notebook to install the stack, pull the
+    model and open a tunnel, or subscribing to a hosted inference API; the former must be rebuilt each
+    time with no cost preview or auto-stop, the latter bills per token and keeps the model and data outside
+    the user's own account.
+  usage_reason: 推断：相较手写 notebook，collabosm 把租卡、起服务、暴露本地 /v1 三步收进一个本地应用，启动前先显示费用，并用 CU ledger 与 auto-stop
+    减少忘记关机导致的持续扣费，因此在意成本、又想让 Codex 等客户端零改动接入开源模型的开发者会选它。
+  usage_reason_en: 'Inference: versus hand-rolled notebooks, collabosm folds renting the GPU, serving
+    the model and exposing a local /v1 into one local app, shows cost before start, and uses a CU ledger
+    plus auto-stop to cut the bill from forgotten sessions, so cost-conscious developers who want Codex
+    and other clients to use open models without reconfiguration would pick it.'

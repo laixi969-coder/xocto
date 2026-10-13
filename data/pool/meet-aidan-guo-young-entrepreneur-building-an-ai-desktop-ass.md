@@ -23,7 +23,7 @@ summary: Meet Aidan Guo, young entrepreneur building an AI desktop assistant, hi
   attracted abo The Economic Times
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

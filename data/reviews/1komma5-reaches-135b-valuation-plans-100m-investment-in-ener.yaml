@@ -1,0 +1,92 @@
+- id: req-initial-1komma5-reaches-135b-valuation-plans-100m-investment-in-ener-2026-10-13
+  project_slug: 1komma5-reaches-135b-valuation-plans-100m-investment-in-ener
+  level: initial
+  reviewed_at: '2026-10-13T03:04:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭能源资产运营中交易、计量与账单割裂、依赖人工对账的需求，痛点在结算与收益上刚性，交付为自动化运营结果。
+    evidence_ids:
+    - ev-b0ab356695852010
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示融资估值与投资计划，未见客户采用规模或持续使用证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-b0ab356695852010
+  - gate: model
+    status: insufficient
+    reason: 未披露Heartbeat的定价与收费方式，买方与付费路径只能推断为面向家庭能源客户或运营商，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b0ab356695852010
+  - gate: truth
+    status: insufficient
+    reason: 未见交付确定性、人工边界与安全责任的公开说明，也未披露实际运营结果，求真环节证据不足。
+    evidence_ids:
+    - ev-b0ab356695852010
+  next_validation: 收集1KOMMA5°官方Heartbeat产品页或客户案例，核验其自动化交易、计量与账单的实际交付范围与人工确认环节。
+  market: ''
+  job: 家庭能源运营商在管理分布式光伏、储能与热泵资产时，需要处理电力交易、计量与账单结算等材料，完成持续的能源运营与结算任务。
+  job_en: Home energy operators managing distributed solar, storage and heat pump assets must handle electricity
+    trading, metering and billing materials to complete ongoing energy operations and settlement tasks.
+  pain: 这些环节原本依赖人工或分散系统逐项处理，交易、计量与账单之间数据割裂，出错和延迟的代价直接体现在收益与合规上。
+  pain_en: These steps were previously handled manually or across fragmented systems, with data split
+    between trading, metering and billing, so errors and delays directly hit revenue and compliance.
+  current_alternative: 旧做法是人工在多个系统间核对电表数据、手工对账并分别处理交易与账单。
+  current_alternative_en: The old approach was manually reconciling meter data across multiple systems,
+    doing bookkeeping by hand and handling trading and billing separately.
+  usage_reason: 推断：相较人工跨系统对账，Heartbeat把交易、计量与账单放进同一自动化流程，减少逐项核对与手工对账这一步负担，因此拥有大量家庭能源资产的运营商在结算周期密集时会选择它。
+  usage_reason_en: 'Inference: compared with manual cross-system reconciliation, Heartbeat puts trading,
+    metering and billing into one automated flow, reducing the burden of item-by-item checking and manual
+    bookkeeping, so operators with large home energy fleets would choose it during dense settlement cycles.'
+- id: req-full-1komma5-reaches-135b-valuation-plans-100m-investment-in-ener-2026-10-13
+  project_slug: 1komma5-reaches-135b-valuation-plans-100m-investment-in-ener
+  level: full
+  reviewed_at: '2026-10-13T03:42:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭能源资产运营中交易、计量与账单割裂、依赖人工对账的需求，痛点落在结算收益与合规上，交付为自动化运营结果；属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-ef798f8e260878f3
+    - ev-c04fe37bb7b7274b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有1.35亿美元估值与2027年超1亿欧元投资计划，未见客户采用规模、持续使用或复购证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-01013a0f2393b74b
+    - ev-b07c97e5cb5d0371
+  - gate: model
+    status: insufficient
+    reason: 未披露Heartbeat定价与收费方式，买方只能推断为家庭能源客户或集团自身运营，属判断而非已验证事实，存在依赖融资叙事的风险。
+    evidence_ids:
+    - ev-01013a0f2393b74b
+    - ev-ef798f8e260878f3
+  - gate: truth
+    status: insufficient
+    reason: 未见交付确定性、人工确认边界与安全责任的公开说明，也未披露自动化交易与计量的实际运营结果，求真环节证据不足。
+    evidence_ids:
+    - ev-ef798f8e260878f3
+    - ev-c04fe37bb7b7274b
+  next_validation: 追踪1KOMMA5°官网Heartbeat产品页或公开客户案例，核验其自动化交易、计量与账单的实际交付范围、人工确认环节与收费方式。
+  market: ''
+  job: 拥有光伏、储能与热泵的家庭能源客户及1KOMMA5°自身运营团队，在结算周期内处理电表计量、电力交易与账单数据，完成家庭能源资产的持续运营与结算。
+  job_en: Home energy customers with solar, storage and heat pumps, plus 1KOMMA5°'s own operations team,
+    process meter, electricity trading and billing data within settlement cycles to run and settle home
+    energy assets continuously.
+  pain: 公开材料显示其业务覆盖安装、储能、充电与智能能源管理，交易、计量与账单分属不同环节，人工跨系统核对会带来延迟与结算差错，直接落在收益与合规上；这是从业务结构推出的痛点，非用户口述。
+  pain_en: Public materials show the business spans installation, storage, charging and smart energy management;
+    trading, metering and billing sit in separate steps, and manual cross-system reconciliation causes
+    delays and settlement errors that hit revenue and compliance; this is inferred from business structure,
+    not user statements.
+  current_alternative: 旧做法是家庭能源客户或运营商在多个系统间人工核对电表数据、手工对账，并分别处理电力交易与账单。
+  current_alternative_en: The old approach is for home energy customers or operators to manually reconcile
+    meter data across systems, do bookkeeping by hand, and handle electricity trading and billing separately.
+  usage_reason: 推断：相较人工跨系统对账，Heartbeat把交易、计量与账单纳入同一自动化流程，减少逐项核对与手工对账这一步负担，因此拥有大量家庭能源资产、结算周期密集的运营方会在该场景选择它；公开材料未提供用户反馈或留存证据，动机属结构推断。
+  usage_reason_en: 'Inference: versus manual cross-system reconciliation, Heartbeat puts trading, metering
+    and billing into one automated flow, cutting the item-by-item checking and manual bookkeeping step,
+    so operators with large home energy fleets in dense settlement cycles would choose it; public materials
+    give no user feedback or retention evidence, so the motive is structural inference.'

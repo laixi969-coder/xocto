@@ -84,3 +84,50 @@
     removing the first step of placing nodes and connectors from scratch so the architect only edits an
     existing sketch; for teams unwilling to hand internal documents to an external service, the local
     workspace is a concrete reason to pick it.'
+- id: req-full-architecture-canvas-2026-10-13
+  project_slug: architecture-canvas
+  level: full
+  reviewed_at: '2026-10-13T03:43:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把需求文档整理成架构图这一步手工劳动，痛点具体、旧做法明确，不采用就要继续手工拖拽和重画；本地工作区回应了内部材料外泄顾虑。属工作流结构推理。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从147增至150，只说明关注度上升，没有用户评价、团队采用或重复使用记录，无法判断架构师是否真把它放进日常流程。
+    evidence_ids:
+    - ev-88ceca0491baca88
+    - ev-d8f5974d942aa954
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，开源项目可能靠赞助或托管服务变现，这是判断不是已验证事实；买方与付费方式均未在公开材料中出现。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  - gate: truth
+    status: insufficient
+    reason: 生成图是否准确、是否需大量人工返工、Tavily 搜索是否引入错误节点，均无公开材料可核对，交付确定性尚未验证。
+    evidence_ids:
+    - ev-88ceca0491baca88
+  next_validation: 追踪该仓库的 issue 与 discussion，看用户是否报告生成图需要大量返工、是否已用于真实评审，以及是否出现定价或托管服务页面。
+  market: ''
+  job: 系统架构师在方案评审或技术设计前，把需求文档、接口说明和现有系统描述交给本地工作区，由模型读取后生成一张可继续编辑的 Excalidraw 架构图，供团队讨论和修改。
+  job_en: Before a design review, a system architect feeds requirement documents, interface notes and
+    existing system descriptions into a local workspace so the model reads them and produces an editable
+    Excalidraw architecture diagram for the team to discuss and revise.
+  pain: 手工在绘图工具里逐个拖拽方框和连线，材料一多就要反复对照文档，改一版图往往要重画一遍；把内部文档贴给外部聊天助手又担心材料外泄。
+  pain_en: Manually dragging boxes and connectors means constantly cross-checking documents as material
+    grows, and a revised version often means redrawing; pasting internal documents into an external chat
+    assistant raises leakage concerns.
+  current_alternative: 用 Excalidraw、draw.io、Visio 等工具手工绘制，或把文档贴给通用聊天助手要一段 Mermaid 代码再自己调。
+  current_alternative_en: Drawing by hand in Excalidraw, draw.io or Visio, or pasting documents into a
+    general chat assistant for Mermaid code and fixing it manually.
+  usage_reason: 推断：它把文档直接读成画布上的图形初稿，省掉从零摆放节点和连线的第一步，架构师只需在已有草图上增删；对不愿把内部文档交给外部服务的团队，本地工作区加 Excalidraw
+    可继续编辑是选择它的具体理由。
+  usage_reason_en: 'Inference: it reads documents straight into a first draft of shapes on the canvas,
+    removing the first step of placing nodes and connectors from scratch so the architect only edits an
+    existing sketch; for teams unwilling to hand internal documents to an external service, the local
+    workspace plus editable Excalidraw canvas is a concrete reason to pick it.'

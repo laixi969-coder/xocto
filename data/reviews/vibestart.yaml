@@ -330,3 +330,50 @@
     and verification steps before a new project starts, so full-stack developers who frequently open new
     repositories would choose it at kickoff; stars rising from 56 to 115 only shows growing attention,
     not sustained use.'
+- id: req-full-vibestart-2026-10-13
+  project_slug: vibestart
+  level: full
+  reviewed_at: '2026-10-13T03:48:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新项目开工前反复拼装类型、lint 与测试配置的需求，配置不一致会让智能体产出难验证；旧做法是复制模板手工补，属工作流结构推理，公开说明已能还原输入、动作与交付。
+    evidence_ids:
+    - ev-a2779b48e8e9cc6e
+    - ev-dfede98fc39533ba
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 68 升至 140，说明关注度在增长，但仅有星标与 fork 类指标，没有用户评价、issue 讨论或重复使用证据，尚不能证明形成采用共识。
+    evidence_ids:
+    - ev-a2779b48e8e9cc6e
+    - ev-dfede98fc39533ba
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库说明，没有定价页、托管服务或企业模板收费信息，钱可能来自 to C 开发者捐赠或 to B 托管，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a2779b48e8e9cc6e
+  - gate: truth
+    status: insufficient
+    reason: 说明称项目经过验证，但未披露验证方式、生成骨架的确定性边界与人工确认环节，交付是否稳定可核对仍缺公开依据。
+    evidence_ids:
+    - ev-a2779b48e8e9cc6e
+  next_validation: 追踪 vibestart 仓库的 issue 与 discussion，确认开发者是否在真实项目中重复使用该脚手架并提出配置或验证相关需求。
+  market: ''
+  job: 全栈开发者在启动新 TypeScript 项目时，需要选定前后端技术栈组合，并让生成的仓库自带类型检查、lint 与测试配置，使 AI 编码智能体能在规范骨架内直接写代码。
+  job_en: Full-stack developers starting a new TypeScript project need to pick a front-end/back-end stack
+    combination and get a repository that already ships type checking, lint, and test configuration, so
+    AI coding agents can write code inside a standardized skeleton.
+  pain: 公开说明指出新项目要自行拼装类型安全、lint 与测试，配置不一致时智能体产出的代码难以验证，开工前的配置与返工成本落在开发者身上。
+  pain_en: The public description indicates that new projects must assemble type safety, lint, and tests
+    by hand, and inconsistent setups make agent-generated code hard to verify, pushing setup and rework
+    cost onto the developer before work even starts.
+  current_alternative: 手动初始化仓库、复制旧项目模板，或使用通用脚手架再逐项补类型、lint 与测试配置。
+  current_alternative_en: Manually initializing a repository, copying an old project template, or using
+    generic scaffolding and then adding type, lint, and test configuration item by item.
+  usage_reason: 推断：相比复制旧模板再逐项补配置，它把类型安全、lint 与测试一次性写进生成结果，省掉开工前逐项配置与校验的步骤，因此频繁开新仓库、且依赖 AI 编码智能体的全栈开发者会在启动阶段选择它。
+  usage_reason_en: 'Inference: compared with copying an old template and patching configuration item by
+    item, it writes type safety, lint, and tests into the generated result at once, removing the item-by-item
+    setup and verification steps before kickoff, so full-stack developers who frequently open new repositories
+    and rely on AI coding agents would choose it at project start.'

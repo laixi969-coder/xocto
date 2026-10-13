@@ -1,6 +1,6 @@
 ---
 slug: deepseek-is-moving-to-lead-a-400-million-seed-round-for-a-ch
-name: DeepSeek is moving to lead a $400 million seed round for a Chinese robotics AI startup
+name: DeepSeek
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE5sWHNkbFVvb2V2
 summary: DeepSeek is moving to lead a $400 million seed round for a Chinese robotics AI startup Quartz
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# DeepSeek is moving to lead a $400 million seed round for a Chinese robotics AI startup
+# DeepSeek
 
 DeepSeek is moving to lead a $400 million seed round for a Chinese robotics AI startup Quartz
 

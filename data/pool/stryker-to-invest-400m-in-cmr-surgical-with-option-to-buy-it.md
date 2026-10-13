@@ -1,6 +1,6 @@
 ---
 slug: stryker-to-invest-400m-in-cmr-surgical-with-option-to-buy-it
-name: Stryker to invest $400m in CMR Surgical, with option to buy it outright
+name: Stryker
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/stryker-to-invest-400m-in-cmr-surgical
 summary: ''
 first_seen: '2026-10-13T03:04:22Z'
 last_seen: '2026-10-13T03:04:22Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Stryker to invest $400m in CMR Surgical, with option to buy it outright
+# Stryker
 
 _（源没给简介）_
 

@@ -214,3 +214,51 @@
   usage_reason_en: Compared with editing templates and styles page by page in a traditional CMS, it constrains
     layouts with design tokens and lets Claude edit pages over MCP, removing the step of syncing styles
     across pages; this is an inference from product capability, not yet confirmed by user feedback.
+- id: req-full-kaletacms-2026-10-13
+  project_slug: kaletacms
+  level: full
+  reviewed_at: '2026-10-13T03:45:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业站多页面改版时版式与内容反复同步的需求，痛点是手工改模板易破坏跨页一致性；旧做法是逐页调样式，不解决的后果是返工与上线延迟。这是工作流结构推理，公开材料尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-ab687c758239f7d0
+    - ev-91f5a0c530536f5f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标从 112 增至 114 的关注度信号，没有代理商采用、客户案例或重复使用记录，无法判断是否形成使用共识；星标只说明关注，不说明持续使用。
+    evidence_ids:
+    - ev-ab687c758239f7d0
+    - ev-91f5a0c530536f5f
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价页与买方，可能靠托管、支持或定制服务收费，这是判断而非已验证事实；现有证据中标注为 pricing 的条目实为音乐人页面，与该项目无关。
+    evidence_ids:
+    - ev-ad9ac37db77f9233
+    - ev-ac30e134a099c6bd
+  - gate: truth
+    status: insufficient
+    reason: AI 通过 MCP 改动页面的权限范围、人工确认与回滚机制未在公开材料中说明，交付是否确定发生无法核验；仓库描述只列出可视化搭建器、token 设计系统与 MCP 接入。
+    evidence_ids:
+    - ev-ab687c758239f7d0
+    - ev-91f5a0c530536f5f
+  next_validation: 追踪 kaletacms.com 官方文档与仓库 issue/discussion 中关于 MCP 改动页面的权限、人工确认与回滚流程说明，以及是否出现代理商客户案例或定价页。
+  market: ''
+  job: 建站服务商或中小企业网站运营者在搭建与维护企业站页面时，用可视化搭建器和设计 token 调整版式，并通过 MCP 让 Claude 参与页面或内容改动，产出可上线的页面。
+  job_en: A web agency or SMB site operator, building and maintaining business site pages, adjusts layouts
+    with the visual builder and design tokens and lets Claude take part in page or content edits over
+    MCP, producing publishable pages.
+  pain: 多站点改版要在模板、样式与内容之间反复同步，人工改一处容易破坏其他页面的版式一致性；这是从产品能力与建站工作流推出的结构判断，公开材料未含用户抱怨。
+  pain_en: Multi-site redesigns require repeated syncing between templates, styles and content, and a
+    manual change in one place easily breaks layout consistency elsewhere; this is a structural inference
+    from the product capability and web-building workflow, not a documented user complaint.
+  current_alternative: 用 WordPress 等 CMS 加插件手工改模板，或让前端逐个页面调整样式。
+  current_alternative_en: Using WordPress-style CMS with plugins to edit templates by hand, or having
+    front-end developers adjust styles page by page.
+  usage_reason: 相较在传统 CMS 里逐页改模板和样式，它用设计 token 统一约束版式并让 Claude 通过 MCP 直接改页面，减少跨页面同步样式这一步；推断同时维护多个企业站的代理商更可能因此选择它。
+  usage_reason_en: Compared with editing templates and styles page by page in a traditional CMS, it constrains
+    layouts with design tokens and lets Claude edit pages over MCP, removing the step of syncing styles
+    across pages; inference is that agencies maintaining several business sites would choose it for this.

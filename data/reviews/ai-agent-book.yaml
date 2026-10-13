@@ -979,3 +979,45 @@
     experiments into one path from concept to a running agent, cutting steps spent on framework selection
     and material assembly; public material only shows the repository exists with a star count, with no
     user feedback or repeat-use evidence, so long-term workflow retention cannot be confirmed.'
+- id: req-full-ai-agent-book-2026-10-13
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-10-13T03:42:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 与 issue/discussion，确认实验是否可复现、章节是否持续更新，以及是否出现企业培训或赞助等公开付费线索。
+  market: ''
+  job: AI 应用开发者或技术团队在准备把 LLM 助手从 demo 推进到可上线系统时，处理 Agent 架构、工具调用、记忆与评测等工程材料，要完成一份能照着搭出可运行 Agent 的设计与实现方案。
+  job_en: AI application developers or technical teams preparing to move an LLM assistant from demo to
+    shippable system work through Agent architecture, tool calling, memory and evaluation material to
+    produce a runnable design-and-implementation path for an Agent.
+  pain: 公开材料只给出书名与仓库定位，未提供用户抱怨或案例；从工作流结构推理，Agent 工程知识散落在论文、博客与零散仓库中，读者难以判断哪些设计能落地、哪些只是概念，试错成本高。
+  pain_en: Public material gives only the title and repository positioning, with no user complaints or
+    cases; by workflow inference, Agent engineering knowledge is scattered across papers, blogs and repos,
+    so readers struggle to tell which designs actually ship, raising trial-and-error cost.
+  current_alternative: 当前替代是零散阅读论文与英文博客、拼凑开源示例仓库，或直接照搬某个框架的官方文档，缺少成体系且带可跟做实验的中文教材。
+  current_alternative_en: The current alternative is reading scattered papers and English blogs, stitching
+    together open-source example repos, or copying a framework's official docs, with no systematic Chinese
+    textbook carrying follow-along experiments.
+  usage_reason: 推断：相较零散博客与框架文档，它把设计原理与工程实践组织成连续章节并配可跟做实验，读者可少一步自行筛选与拼接资料，因此正在做 Agent 落地选型或补工程短板的开发者会在需要系统路径时选择它。
+  usage_reason_en: 'Inference: versus scattered blogs and framework docs, it organizes design principles
+    and engineering practice into continuous chapters with follow-along experiments, saving readers a
+    step of filtering and stitching material, so developers doing Agent build-out or filling engineering
+    gaps would pick it when they need a systematic path.'

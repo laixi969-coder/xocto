@@ -125,3 +125,47 @@
   usage_reason: 月访问约 29.5 亿、媒体报道月活超 10 亿，说明用户为省去多工具切换持续回来使用，环比仅微降非一次性曝光。
   usage_reason_en: About 2.95 billion monthly visits and reported MAU above one billion show users keep
     returning to avoid switching tools; the slight decline is not a one-off spike fading.
+- id: req-initial-gemini-2026-10-13
+  project_slug: gemini
+  level: initial
+  reviewed_at: '2026-09-10T05:14:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决写作、查资料与备课中从零起步的耗时问题，痛点真实且高频，交付为可直接使用的草稿，结构上成立。
+    evidence_ids:
+    - ev-abb82d5128cc818c
+  - gate: consensus
+    status: supported
+    reason: 用户量一年翻番且月访问量达 29.5 亿次，说明使用面已形成规模；但环比下降 1.51%，增长动能需继续观察。
+    evidence_ids:
+    - ev-abb82d5128cc818c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与付费结构，买方可能是个人订阅或企业采购，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 学术场景下的引用准确性与事实核对仍需人工确认，公开材料未给出可核对的交付结果。
+    evidence_ids:
+    - ev-abb82d5128cc818c
+  next_validation: 收集谷歌官方定价页或教育场景客户案例，确认付费结构与交付结果。
+  market: ''
+  job: 学生、教师和知识工作者在写作业、备课、查资料或起草文档时，把问题、草稿或学习材料交给助手，要拿到可用的文字、解释或方案。
+  job_en: Students, teachers and knowledge workers hand a question, draft or study material to the assistant
+    while doing homework, lesson prep, research or drafting, and need usable text, explanations or plans
+    back.
+  pain: 没有它时，写作、查资料和整理材料要逐条搜索、自己组织语言，耗时且容易卡在起步阶段；非英语材料与学术引用尤其费劲。
+  pain_en: Without it, writing, research and material organization require searching item by item and
+    composing from scratch, which is slow and easy to stall at the start; non-English material and academic
+    citations are especially costly.
+  current_alternative: 旧做法是搜索引擎加人工整理，或使用其他通用聊天助手与翻译工具，再自己拼接成稿。
+  current_alternative_en: The old way is search engines plus manual assembly, or other general chat assistants
+    and translation tools stitched together by hand.
+  usage_reason: 相较逐条搜索再自己成文，它把提问到成稿压缩成一次对话，直接给出可编辑的草稿与解释，因此赶作业、备课或起草文档的人会在起步阶段选它；这是基于产品能力的推断，公开材料未给出留存或复购证据。
+  usage_reason_en: Compared with searching item by item and writing from scratch, it compresses question
+    to draft into one conversation and returns editable text and explanations, so people facing homework,
+    lesson prep or a blank document pick it at the starting step; this is inference from product capability,
+    as public material gives no retention or repeat-use evidence.

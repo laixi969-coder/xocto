@@ -1,0 +1,92 @@
+- id: req-initial-claude-migrate-2026-10-13
+  project_slug: claude-migrate
+  level: initial
+  reviewed_at: '2026-10-13T03:03:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决换号后本地会话上下文丢失的问题，痛点具体且不解决的代价是重复交代项目背景；属于工作流推理。
+    evidence_ids:
+    - ev-c17d90414e343ccf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论与极低互动量，无法判断是否有稳定人群反复遇到该问题。
+    evidence_ids:
+    - ev-c17d90414e343ccf
+  - gate: model
+    status: insufficient
+    reason: 开源工具未披露定价或付费路径，买方与收费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c17d90414e343ccf
+  - gate: truth
+    status: insufficient
+    reason: 未说明迁移的完整性、失败回滚与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-c17d90414e343ccf
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认支持的会话格式、迁移范围与失败处理方式。
+  market: ''
+  job: 开发者在更换或新增 Claude Code Desktop 账号时，需要把旧账号下积累的本地会话记录迁移到新账号，以便继续此前的编码上下文。
+  job_en: When developers change or add a Claude Code Desktop account, they need to move local session
+    records accumulated under the old account to the new one so they can continue prior coding context.
+  pain: 会话与账号绑定后，换号等于丢失历史上下文，用户要么手工翻找本地文件，要么重新交代项目背景，重复劳动且容易遗漏。
+  pain_en: Once sessions are bound to an account, switching accounts means losing historical context;
+    users must either dig through local files by hand or re-explain project background, duplicating work
+    and risking omissions.
+  current_alternative: 目前只能手工在本地文件系统里查找、复制或重命名会话文件，或干脆放弃旧会话重新开始。
+  current_alternative_en: Today the only options are manually locating, copying or renaming session files
+    in the local filesystem, or abandoning old sessions and starting over.
+  usage_reason: 推断：相比手工翻找本地文件，它把「定位旧会话—搬运—在新账号下可用」压缩成一次可执行动作，减少的是查找与试错这一步；因此频繁换号、换机的独立开发者或外包团队会在账号切换后选择它。公开材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with manually digging through local files, it compresses locating
+    old sessions, moving them and making them usable under the new account into one executable action,
+    removing the search-and-trial step; independent developers or outsourcing teams who frequently switch
+    accounts or machines would therefore pick it after an account change. The public material provides
+    no retention or repeat-use evidence.'
+- id: req-full-claude-migrate-2026-10-13
+  project_slug: claude-migrate
+  level: full
+  reviewed_at: '2026-10-13T03:43:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决换号后本地会话上下文丢失的问题，痛点具体且不解决的代价是重复交代项目背景；属于工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-c17d90414e343ccf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库自述与检索覆盖记录，未见用户评价、issue 或讨论，无法判断是否有稳定人群反复遇到该问题。
+    evidence_ids:
+    - ev-c17d90414e343ccf
+    - ev-b05cd407472e5aea
+  - gate: model
+    status: insufficient
+    reason: 开源工具未披露定价或付费路径，买方与收费方式均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c17d90414e343ccf
+  - gate: truth
+    status: insufficient
+    reason: 未说明迁移的完整性、失败回滚与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-c17d90414e343ccf
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认支持的会话格式、迁移范围与失败处理方式。
+  market: ''
+  job: 开发者在更换或新增 Claude Code Desktop 账号后，需要把旧账号下积累的本地会话记录迁移到新账号，以便在新账号下继续此前的编码上下文。
+  job_en: After changing or adding a Claude Code Desktop account, a developer needs to migrate local session
+    records accumulated under the old account to the new one so prior coding context can be resumed under
+    the new account.
+  pain: 会话记录与账号绑定，换号即等于丢失历史上下文；用户要么手工翻找本地文件，要么重新向模型交代项目背景，重复劳动且容易遗漏关键上下文。
+  pain_en: Session records are bound to an account, so switching accounts effectively loses historical
+    context; users must either dig through local files by hand or re-explain project background to the
+    model, duplicating work and risking lost context.
+  current_alternative: 目前只能手工在本地文件系统里查找、复制或重命名会话文件，或干脆放弃旧会话重新开始。
+  current_alternative_en: Today the only options are manually locating, copying or renaming session files
+    in the local filesystem, or abandoning old sessions and starting over.
+  usage_reason: 推断：相较手工翻找本地文件，它把「定位旧会话—搬运—在新账号下可用」压缩成一次可执行动作，减少查找与试错这一步；因此频繁换号或换机的独立开发者、外包团队会在账号切换后选择它。公开材料未提供留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with manually digging through local files, it compresses locating
+    old sessions, moving them and making them usable under the new account into one executable action,
+    removing the search-and-trial step; independent developers or outsourcing teams who frequently switch
+    accounts or machines would therefore pick it after an account change. The public material provides
+    no retention or repeat-use evidence.'

@@ -121,3 +121,44 @@
     layout step through template and page generation, so time-pressed founders or sales without design
     resources may choose it; public material offers no user feedback or retention evidence that it stays
     in the workflow.'
+- id: req-initial-pitch-2026-10-13
+  project_slug: pitch
+  level: initial
+  reviewed_at: '2026-09-24T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是提案幻灯片从零排版耗时的问题，痛点方向清楚，但公开材料只有一句模板宣传语，说不清 AI 具体替代哪一步、交付是否确定，价值结构无法判定。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 除访问量外没有用户评价、客户案例或社区讨论，无法判断使用者是否真的把它放进提案流程，关注度不等于持续采用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、按什么计价或买方是个人还是团队，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近提案工作的第一性目标、成稿能否确定性交付，也没有人工确认边界的说明。
+    evidence_ids: []
+  next_validation: 收集 Pitch 官方定价页与客户案例页面，确认其计价方式、AI 在提案流程中实际承担的动作以及是否有企业客户公开采用。
+  market: ''
+  job: 销售、市场或咨询人员在准备客户提案时，需要把零散的业务信息整理成一份结构完整、可直接演示的幻灯片。
+  job_en: Sales, marketing, or consulting staff preparing a client pitch need to turn scattered business
+    information into a complete, presentable slide deck.
+  pain: 手工排版和反复调整版式耗时，且非设计背景的人难以保证成稿的视觉一致性；这一痛点是否足够刚性，公开材料未提供用户抱怨或替代行为的证据。
+  pain_en: Manual layout and repeated formatting are time-consuming, and people without design backgrounds
+    struggle to keep a deck visually consistent; whether this pain is rigid enough is not supported by
+    public evidence of user complaints or workarounds.
+  current_alternative: 用 PowerPoint、Google Slides 或 Canva 的现成模板手工拼装，或把内容交给设计师、外包排版。
+  current_alternative_en: Assembling decks by hand from existing PowerPoint, Google Slides, or Canva templates,
+    or handing content to a designer or outsourced layout service.
+  usage_reason: 推断：相较从空白模板逐页排版，它把版式与结构交给模板加生成流程，减少手工调整版式这一步，因此没有设计资源、又要频繁出提案的团队可能选择它；但公开材料未说明 AI 具体生成什么、人工仍需确认哪一步，也没有用户反馈或客户案例支持这一动机。
+  usage_reason_en: 'Inference: compared with laying out every page from a blank template, it hands layout
+    and structure to templates plus a generation flow, removing the manual formatting step, so teams without
+    design resources that pitch frequently may choose it; however, the public material does not say what
+    the AI generates or what a human must still confirm, and no user feedback or customer case supports
+    this motive.'

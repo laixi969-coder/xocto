@@ -131,3 +131,51 @@
     one continuous generation pass and measures continuity with an oracle, removing the shot-by-shot alignment
     and rework step, so teams shipping launch films frequently would pick it near release deadlines; no
     retention or repeat-use evidence yet.'
+- id: req-full-onetake-2026-10-13
+  project_slug: onetake
+  level: full
+  reviewed_at: '2026-10-13T03:46:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布片与功能演示中分镜拼接、镜头跳切导致返工的问题，痛点来自可还原的旧剪辑流程，属工作流结构推理；谁付钱未在公开材料中说明。
+    evidence_ids:
+    - ev-e849333d4167da9b
+    - ev-b72be9871af5c08c
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星标从2144升至2226，说明开发者关注度上升，但无评论、采用案例或场景反馈，无法判断卡在感知、想象还是场景环节。
+    evidence_ids:
+    - ev-e849333d4167da9b
+    - ev-b72be9871af5c08c
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方是市场团队、制作公司还是开发者无法判断；这是判断，不是已验证事实，也未出现仅靠融资续命的迹象。
+    evidence_ids:
+    - ev-e849333d4167da9b
+  - gate: truth
+    status: insufficient
+    reason: 连续性由校验器衡量，但成片是否可用仍需人工确认，交付确定性与安全边界未核验，公开材料未说明人工介入的具体环节。
+    evidence_ids:
+    - ev-e849333d4167da9b
+    - ev-b72be9871af5c08c
+  next_validation: 抓取 onetake 开源仓库（onetakemotion.com 对应仓库）的 issue 与 discussion，确认实际使用者反馈的成片可用率与人工返工环节。
+  market: ''
+  job: 产品市场或增长团队在准备产品发布片与功能演示时，把脚本与素材交给它，由编码代理生成一条不切镜、每一拍承接上一拍、镜头连续推进的运动影片，人工再确认成片是否可用。
+  job_en: Product marketing or growth teams preparing launch films and feature demos hand scripts and
+    assets to a coding agent that generates one continuous, uncut motion film where each beat grows out
+    of the previous one, then a human confirms the cut is usable.
+  pain: 发布片与功能演示通常要反复分镜、逐段剪辑与拼接，镜头之间跳切造成观感断裂，重做成本高；这是从产品定位与旧剪辑流程推导出的工作流痛点，非用户口述。
+  pain_en: Launch films and demos usually require repeated storyboarding and clip-by-clip editing, and
+    cuts between shots break visual continuity, making rework costly; this is a workflow pain inferred
+    from the product positioning and the old editing process, not user testimony.
+  current_alternative: 旧做法是人工分镜后用剪辑软件逐段拼接，或使用通用视频生成工具再手工对齐镜头；公开材料未点名具体替代工具。
+  current_alternative_en: The old way is manual storyboarding and clip-by-clip editing, or using general
+    video-generation tools and aligning shots by hand; the public material does not name specific alternatives.
+  usage_reason: 推断：相较逐段拼接的旧流程，它把分镜与拼接合并为一次连续镜头生成，并用校验器衡量连续性，减少逐段对齐与返工这一步，因此赶发布节点、需要一条连贯演示片的团队会在该情况下选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus clip-by-clip stitching, it merges storyboarding and stitching into
+    one continuous generation pass and measures continuity with an oracle, removing the shot-by-shot alignment
+    and rework step, so teams facing a release deadline and needing one coherent demo film would choose
+    it in that situation; no retention or repeat-use evidence yet.'

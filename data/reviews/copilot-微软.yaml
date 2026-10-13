@@ -1,0 +1,39 @@
+- id: req-initial-copilot-微软-2026-10-13
+  project_slug: copilot-微软
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是从空白页起草和跨来源找材料的需求，痛点是重复劳动与质量不稳，旧做法是搜索加人工摘录。
+    evidence_ids: []
+  - gate: consensus
+    status: supported
+    reason: 公开访问量达 1.2112 亿，说明已有大规模使用，但这是规模证据，不能解释用户为何选择它。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出本产品的定价与买方结构，收入来自个人订阅还是企业采购不明；这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它在具体办公任务上的交付确定性、错误率与人工复核边界。
+    evidence_ids: []
+  next_validation: 收集 Microsoft Copilot 官方定价页与企业部署文档，确认按席位计费方式及企业采购路径。
+  market: ''
+  job: 知识工作者在写文档、查资料、整理会议材料时，把问题或原始材料交给助手，取回可继续编辑的草稿或答案。
+  job_en: Knowledge workers drafting documents, looking things up or organising meeting material hand
+    a question or raw material to the assistant and take back an editable draft or answer.
+  pain: 从空白页开始写、在多个来源间翻找、把零散记录整理成文，这些步骤重复且耗时，且质量不稳定。
+  pain_en: Starting from a blank page, hunting across sources and turning scattered notes into prose are
+    repetitive, time-consuming and uneven in quality.
+  current_alternative: 搜索引擎加人工摘录，或自己从模板和旧文档里复制改写。
+  current_alternative_en: Search engines plus manual excerpting, or copying and rewriting from templates
+    and old documents.
+  usage_reason: 推断：相比搜索加人工摘录，它把“找材料”和“起草”合并成一次对话，减少在多个页面间切换和从零起稿的那一步；公开材料未提供留存或复购证据，不能据此断言用户已长期留在工作流里。
+  usage_reason_en: 'Inference: versus search plus manual excerpting it merges finding material and drafting
+    into one exchange, removing the step of switching between pages and starting from scratch; public
+    material offers no retention or repeat-use evidence, so it cannot be claimed that users have kept
+    it in their workflow long term.'

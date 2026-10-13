@@ -1,0 +1,89 @@
+- id: req-initial-boulder-police-to-roll-out-ai-assistant-to-handle-non-emerge-2026-10-13
+  project_slug: boulder-police-to-roll-out-ai-assistant-to-handle-non-emerge
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是非紧急来电占用警力、市民等待的问题，痛点方向可推断，但候选材料未给出任何流程细节、误报后果或现有替代行为，价值结构无法确认。
+    evidence_ids:
+    - ev-e37bfa80b132542e
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条发布报道，没有市民、接线员或市议会的反应，也没有采购或试点范围，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-e37bfa80b132542e
+  - gate: model
+    status: insufficient
+    reason: 买方应是市政或警局预算，但候选材料未披露供应商、合同金额、计价方式，付费路径完全未知。
+    evidence_ids:
+    - ev-e37bfa80b132542e
+  - gate: truth
+    status: insufficient
+    reason: 非紧急呼叫涉及误报升级与责任归属，候选材料未说明转人工规则、录音留存或安全边界，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-e37bfa80b132542e
+  next_validation: 收集博尔德市警察局或市政官网关于该 AI 助手的官方公告或采购文件，确认供应商、上线时间、处理范围与转人工规则。
+  market: ''
+  job: 城市警察局的非紧急呼叫接线员在市民打来噪音、遗失、轻微纠纷等不需要出警的电话时，需要听清口述、记录要素并判断是否派单或转交其他部门。
+  job_en: A non-emergency call taker at a city police department answers calls about noise, lost property
+    or minor disputes that need no patrol response, and must capture the details and decide whether to
+    dispatch or refer.
+  pain: 候选材料没有写出接线员的具体痛点，只能从岗位结构推断：非紧急来电量大、内容重复、占用警力，且市民等待时间长。这是推断，不是报道中的事实。
+  pain_en: The candidate material states no specific pain point; it can only be inferred from the role
+    that non-emergency volume is high, repetitive and consumes police capacity while callers wait. This
+    is inference, not a reported fact.
+  current_alternative: 现状是由人工接线员接听并手工记录、分类、转派，或让市民走线上表单和市政热线。候选材料未描述现有流程细节。
+  current_alternative_en: Today a human call taker answers, writes down, classifies and routes the call,
+    or residents use web forms and municipal hotlines. The candidate material does not describe the existing
+    process.
+  usage_reason: 推断：如果 AI 能先完成身份与事项要素的采集并生成结构化工单，接线员就不必逐句手录，可以把时间放在判断与升级上，因此人手紧张、非紧急来电占比高的警局会考虑它。候选材料没有任何用户反馈或采用数据支持这一动机。
+  usage_reason_en: 'Inference: if the AI first collects identity and incident details and produces a structured
+    ticket, call takers no longer transcribe every sentence and can spend time on judgement and escalation,
+    so departments with thin staffing and a high non-emergency share would consider it. The candidate
+    material contains no user feedback or adoption data supporting this motive.'
+- id: req-full-boulder-police-to-roll-out-ai-assistant-to-handle-non-emerge-2026-10-13
+  project_slug: boulder-police-to-roll-out-ai-assistant-to-handle-non-emerge
+  level: full
+  reviewed_at: '2026-10-13T03:43:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它要解决非紧急来电占用警力、市民等待的问题，痛点方向可推断，但候选材料未给出任何流程细节、误报后果或现有替代行为，价值结构无法确认。
+    evidence_ids:
+    - ev-4d7069d8878ce784
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集博尔德市警察局或市政官网关于该 AI 助手的官方公告或采购文件，确认供应商、上线时间、处理范围与转人工规则。
+  market: ''
+  job: 博尔德市警察局的非紧急呼叫接线员在市民打来噪音投诉、财物遗失、轻微纠纷等不需出警的电话时，需要听清口述、手工记录要素并判断是否派单或转交其他部门。
+  job_en: A non-emergency call taker at the Boulder Police Department answers calls about noise, lost
+    property or minor disputes that need no patrol response, and must capture the details by hand and
+    decide whether to dispatch or refer.
+  pain: 候选材料未写出接线员或市民的任何具体痛点，只能从岗位结构推断非紧急来电量大、内容重复、占用警力且市民等待久；这是推断，不是报道中的事实。
+  pain_en: The candidate material states no specific pain point for call takers or residents; it can only
+    be inferred from the role that non-emergency volume is high, repetitive and consumes police capacity
+    while callers wait. This is inference, not a reported fact.
+  current_alternative: 现状是由人工接线员接听并手工记录、分类、转派，或让市民走线上表单和市政热线；候选材料未描述现有流程细节。
+  current_alternative_en: Today a human call taker answers, writes down, classifies and routes the call,
+    or residents use web forms and municipal hotlines. The candidate material does not describe the existing
+    process.
+  usage_reason: 推断：若 AI 能先完成事项要素采集并生成结构化工单，接线员就不必逐句手录，可把时间放在判断与升级上，因此人手紧张、非紧急来电占比高的警局会考虑它；候选材料没有任何用户反馈或采用数据支持这一动机。
+  usage_reason_en: 'Inference: if the AI first collects incident details and produces a structured ticket,
+    call takers no longer transcribe every sentence and can spend time on judgement and escalation, so
+    departments with thin staffing and a high non-emergency share would consider it. The candidate material
+    contains no user feedback or adoption data supporting this motive.'

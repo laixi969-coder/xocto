@@ -23,7 +23,7 @@ summary: '25-Year-Old Microsoft Engineer Quits Rs 1.9 Crore Job To Chase AI Star
   My Savings" NDTV'
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

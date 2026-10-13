@@ -417,3 +417,51 @@
     skips opening pages, aligning models and copying prices; it would therefore be chosen when a user
     already makes purchase decisions through an AI assistant and needs instant cross-shop quotes. This
     is an inference from product capability and task structure, not yet backed by user feedback.
+- id: req-full-torob-mcp-2026-10-13
+  project_slug: torob-mcp
+  level: full
+  reviewed_at: '2026-10-13T03:47:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决选购时跨店比价这一具体任务：同一商品价格分散、人工逐站核对耗时且易漏低价。只读、免 key、14 个工具把比价压缩为一次调用，交付物是可比较报价清单，属工作流结构推理；痛点刚性中等，尚无用户评价佐证。
+    evidence_ids:
+    - ev-458209716a8d414a
+    - ev-88da8d18b1d6db75
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 56 增至 65，说明开发者持续关注，但收藏与排名只属关注度，不能证明目标用户已把它留在比价工作流里；缺少 issue、discussion 或使用反馈说明谁在何种场景反复调用。
+    evidence_ids:
+    - ev-458209716a8d414a
+    - ev-88da8d18b1d6db75
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，钱可能来自 to C 订阅、to B 数据授权或 to VC，均属判断而非已验证事实；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-458209716a8d414a
+  - gate: truth
+    status: insufficient
+    reason: 只读、免 key 降低了误操作风险，但 Torob 数据授权、覆盖品类与更新频率未公开，交付能否稳定发生、价格是否实时可核对仍缺可复现证据。
+    evidence_ids:
+    - ev-458209716a8d414a
+    - ev-6d42ae3c94901718
+  next_validation: 追踪该 MCP 仓库的 README、issue 与 discussion，确认 Torob 数据授权、覆盖品类与更新频率，以及是否有真实调用场景记录。
+  market: ''
+  job: 消费者或接入它的 AI 助手在选购某件商品时，把商品关键词交给 Torob 的店铺数据，跨店搜索、比价并核对价格，最终拿到一份可比较的报价清单以决定在哪家下单。
+  job_en: A shopper, or an AI assistant wired to it, hands a product keyword to Torob's shop data to search,
+    compare and price-check across shops, ending with a comparable quote list for deciding where to buy.
+  pain: 同一商品分散在多家店铺，价格与库存需要逐个站点翻查，人工比价耗时且容易漏掉更低价；不解决的后果是买贵或反复切换页面核对。
+  pain_en: The same item is scattered across many shops, so prices and stock must be checked site by site;
+    manual comparison is slow and easily misses a cheaper listing, costing the buyer money or repeated
+    page switching.
+  current_alternative: 用户目前靠 Torob 网页或 App 手动搜索比价，或在多个店铺页面之间来回切换、复制价格自行对比；AI 助手此前没有可直接调用的比价工具。
+  current_alternative_en: Today users compare manually on Torob's site or app, or switch between shop
+    pages copying prices themselves; AI assistants previously had no directly callable price-comparison
+    tool.
+  usage_reason: 推断：相较手动逐站翻查，它把一次比价压缩为一次工具调用，只读、无需 API key，AI 助手可在对话中直接返回跨店价格结果，因此接入 MCP 的助手用户和做比价类工具的开发者在需要即时报价时会选它。
+  usage_reason_en: 'Inference: versus manual site-by-site checking, it compresses one comparison into
+    a single tool call, read-only and key-free, letting an AI assistant return cross-shop prices inside
+    the conversation, so assistant users and developers building comparison tools pick it when they need
+    an instant quote.'

@@ -1,11 +1,13 @@
 ---
 slug: zai-发布-glm-legal面向法律工作流的智能体模型
-name: Z.ai 发布 GLM-Legal：面向法律工作流的智能体模型
+name: GLM-Legal
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Z.ai 于 2026 年 10 月 12 日发布 GLM-Legal，定位为面向法律工作流的智能体模型。候选材料仅给出发布标题，未提供具体输入、动作、交付或定价细节，其作为独立法律应用产品的形态仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: Z.ai released GLM-Legal on October 12, 2026, positioned as an agent model for legal workflows.
+  The candidate material provides only a release headline, with no details on inputs, actions, deliverables,
+  or pricing, so its form as a standalone legal application remains unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOcjJoVVIwTTBJ
 summary: Z.ai 发布 GLM-Legal：面向法律工作流的智能体模型 Unite.AI
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Z.ai 发布 GLM-Legal：面向法律工作流的智能体模型
+# GLM-Legal
 
 Z.ai 发布 GLM-Legal：面向法律工作流的智能体模型 Unite.AI
 

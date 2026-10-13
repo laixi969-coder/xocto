@@ -1,0 +1,84 @@
+- id: req-initial-brow-2-2026-10-13
+  project_slug: brow-2
+  level: initial
+  reviewed_at: '2026-10-13T03:03:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号编码订阅下额度不可见、耗尽即中断的问题，旧做法是手动切换登录查看，痛点具体。
+    evidence_ids:
+    - ev-1f069f4a7d182bc7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 52 星标与 7 个未关闭 issue，缺少用户反馈说明开发者是否把它常驻使用。
+    evidence_ids:
+    - ev-1f069f4a7d182bc7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是个人开发者，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1f069f4a7d182bc7
+  - gate: truth
+    status: challenged
+    reason: 额度数据依赖厂商接口或本地读取，厂商限额政策变化会直接影响交付确定性，公开材料未说明。
+    evidence_ids:
+    - ev-1f069f4a7d182bc7
+  next_validation: 收集该仓库的 README 与 issue，确认额度数据的具体来源、刷新方式，以及厂商限额政策变化时的应对说明。
+  market: ''
+  job: 同时使用多个 Claude 账号的开发者，在编码过程中需要随时知道各账号的 5 小时与每周额度还剩多少、何时重置，以便决定用哪个账号继续。
+  job_en: A developer juggling several Claude accounts needs to know, while coding, how much of each account's
+    5-hour and weekly quota remains and when it resets, in order to decide which account to continue with.
+  pain: 额度耗尽会中断编码，而逐个账号登录查看剩余额度既费时又打断心流。
+  pain_en: Running out of quota interrupts coding, and checking remaining quota by logging into each account
+    is slow and breaks flow.
+  current_alternative: 开发者手动切换浏览器配置登录各账号查看用量，或凭记忆估算额度剩余。
+  current_alternative_en: Developers manually switch browser profiles to log into each account and check
+    usage, or estimate remaining quota from memory.
+  usage_reason: 推断：相较手动切换账号查看，它把多账号额度与重置时间集中显示在常驻的刘海区域，省去切换登录这一步，因此同时持有多个编码订阅的开发者会尝试；但公开材料未披露其数据来源是否稳定，也无留存或付费证据。
+  usage_reason_en: 'Inference: versus manually switching accounts to check, it surfaces multi-account
+    quotas and reset times in an always-visible notch area, removing the login-switching step, so developers
+    holding several coding subscriptions would try it; the public material shows no evidence on data-source
+    stability, retention, or payment.'
+- id: req-full-brow-2-2026-10-13
+  project_slug: brow-2
+  level: full
+  reviewed_at: '2026-10-13T03:43:34Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部是词典与百科对英文单词 brow 的释义，与多账号额度管理无关，无法还原用户任务、痛点、旧替代与不解决的后果，连需求都写不出来。
+    evidence_ids:
+    - ev-b0f3bb8eeb3cfec7
+    - ev-afa1a1520c7a89ea
+    - ev-49aa8dd93006a803
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 macOS 应用官网或 公开代码仓库 仓库的 README 与 issue，确认额度数据来源、刷新机制与厂商限额政策变化时的应对说明。
+  market: ''
+  job: 同时使用多个 Claude 账号的开发者，在编码过程中需要随时知道各账号的 5 小时与每周额度还剩多少、何时重置，以便决定用哪个账号继续。
+  job_en: A developer juggling several Claude accounts needs to know, while coding, how much of each account's
+    5-hour and weekly quota remains and when it resets, in order to decide which account to continue with.
+  pain: 公开材料未提供任何用户痛点、抱怨或 workaround 证据；现有证据全部是词典与百科对英文单词 brow 的释义，与产品任务无关。
+  pain_en: The public material provides no user pain, complaint, or workaround evidence; all available
+    evidence is dictionary and encyclopedia definitions of the English word 'brow', unrelated to the product
+    task.
+  current_alternative: 公开材料未记录任何现有替代方式；无法从证据还原开发者当前如何查看多账号额度。
+  current_alternative_en: The public material records no current alternative; it is impossible to reconstruct
+    from evidence how developers currently check multi-account quotas.
+  usage_reason: 无法判断：证据中没有任何产品能力、用户反馈或采用行为，无法解释用户为何会选择它。
+  usage_reason_en: 'Cannot be determined: the evidence contains no product capability, user feedback,
+    or adoption behavior to explain why a user would choose it.'

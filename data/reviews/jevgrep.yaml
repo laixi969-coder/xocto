@@ -703,3 +703,52 @@
     returning exact source excerpts instead of generated summaries, removing the step of guessing keywords
     and verifying summary fidelity, so engineers who know the behavior but not the symbol choose it when
     taking over an unfamiliar repository.'
+- id: req-full-jevgrep-2026-10-13
+  project_slug: jevgrep
+  level: full
+  reviewed_at: '2026-10-13T03:45:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是工程师在陌生代码库中按“代码做什么”定位文件与源码上下文的需求，痛点是关键词检索无法命中语义目标、需反复翻文件拼上下文；公开材料说明其与 rg 互补、返回精确源码片段而非生成摘要，交付物明确。这是工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-191d898cd7a38eb2
+    - ev-c11fdbe18e0f883b
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 收藏从 2,521 增至 2,638，说明开发者社区持续关注；但收藏与排名只属关注度证据，未见 issue、discussion 或客户案例证明目标用户已把它留在日常检索工作流中。
+    evidence_ids:
+    - ev-ebfa2f4cb3a1431d
+    - ev-feb06913d07d7db7
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济，钱可能来自开发者个人订阅或团队工具采购，但这是判断而非已验证事实；开源仓库形态下付费路径尚未核验。
+    evidence_ids:
+    - ev-ebfa2f4cb3a1431d
+  - gate: truth
+    status: insufficient
+    reason: 官网说明结果来自 2026 年 9 月 20 日一次未缓存开发运行、未使用生成式查询扩展，属原型级验证；检索召回是否稳定、人工判断边界如何，尚缺可复现的公开评测。
+    evidence_ids:
+    - ev-f9f75d98fe474649
+  next_validation: 追踪 jevgrep 官方仓库的 issue 与 discussion，确认是否有用户报告在真实仓库中持续使用、以及检索召回与人工判断边界的具体反馈。
+  market: ''
+  job: 软件工程师在接手或维护不熟悉的代码库时，需要先定位与某个行为相关的文件与源码片段，再把上下文交给编码智能体进行修改。
+  job_en: Software engineers maintaining an unfamiliar codebase need to locate files and source snippets
+    related to a behavior before handing context to a coding agent for modification.
+  pain: 在大型或陌生仓库中，按符号或字面量做文本检索往往无法命中“这段代码做什么”的语义目标，工程师需要反复打开文件、阅读、排除，才能拼出可交给智能体的上下文；公开材料指出若已知符号或字面量，普通文本搜索更快，说明语义检索针对的正是这类无法用关键词直接命中的场景。
+  pain_en: In large or unfamiliar repositories, text search by symbol or literal often misses the semantic
+    target of 'what this code does'; engineers must repeatedly open, read, and discard files to assemble
+    context for an agent. Public materials note that ordinary text search is faster when the symbol or
+    literal is known, indicating semantic search targets cases where keywords cannot directly hit.
+  current_alternative: 现有替代是 ripgrep 等精确文本搜索、IDE 全局搜索，以及让编码智能体自行遍历仓库或生成摘要；公开材料明确 JevGrep 与 rg 这类精确工具互补。
+  current_alternative_en: Current alternatives are exact text search such as ripgrep, IDE global search,
+    and letting coding agents traverse the repository or generate summaries; public materials explicitly
+    position JevGrep as complementary to exact tools like rg.
+  usage_reason: 推断：相较让智能体自行遍历或生成摘要，jevgrep 通过探索仓库层级、按内容预览筛选文件、再定位有用源码单元及周边上下文，直接返回带行号的精确源码片段，减少工程师手动翻文件与核对摘要是否忠实的那一步；当工程师只记得行为描述、不记得符号名时更可能选择它。
+  usage_reason_en: 'Inference: compared with letting an agent traverse the repo or generate a summary,
+    jevgrep explores the repository hierarchy, selects files via content previews, then identifies useful
+    source units and surrounding context, returning exact line-numbered snippets and removing the manual
+    step of opening files and checking whether a summary is faithful; engineers are more likely to choose
+    it when they remember the behavior but not the symbol name.'

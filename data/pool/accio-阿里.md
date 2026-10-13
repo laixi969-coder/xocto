@@ -8,13 +8,21 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.aicpb.com/product/ACCIO-阿里/webid1D6F37E71
 canonical_url: https://aicpb.com/product/ACCIO-阿里/webid1D6F37E71
 summary: Learn how to dropship on Depop legally. Master the clear rules, setup, fee math, SEO, and risk
   controls. A ban-safe guide built to scale.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-08-22T22:38:19Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:
@@ -31,6 +39,7 @@ sightings:
     - AI搜索榜
     - 出海总榜
     - 全球总榜
+  kind: product
 ---
 
 # ACCIO-阿里

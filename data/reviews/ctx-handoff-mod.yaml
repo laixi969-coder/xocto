@@ -237,3 +237,54 @@
     step and turning what the user taught Claude into project notes, so long-session developers would
     pick it when a task is interrupted by context limits; stars rising from 67 to 75/76 only show attention,
     not sustained use.'
+- id: req-full-ctx-handoff-mod-2026-10-13
+  project_slug: ctx-handoff-mod
+  level: full
+  reviewed_at: '2026-10-13T03:44:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话上下文写满后需手动重建会话、重新交代项目背景的重复负担，痛点随每次长任务刚性复现；公开仓库说明已给出输入（写满的会话）、动作（自动交接、保缓存、沉淀笔记）与交付（可继续会话+笔记），属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-b427177e2490ebae
+    - ev-731a714d8fe29afd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 67 升至 80，说明开发者社区已注意到该项目，但收藏与关注只属规模信号，公开材料没有 issue、discussion 或评价说明它被持续留在工作流里，强场景是否成立仍缺行为证据。
+    evidence_ids:
+    - ev-b427177e2490ebae
+    - ev-731a714d8fe29afd
+  - gate: model
+    status: insufficient
+    reason: 这是开源 Claude Code 模块，公开材料未见定价页、赞助、付费插件或企业采购路径，钱可能来自 to C 开发者捐赠或 to B 团队支持，但均属判断而非已验证事实，付费主体与单位经济未核验。
+    evidence_ids:
+    - ev-68ce2c75c6322f2b
+  - gate: truth
+    status: insufficient
+    reason: 自动交接与笔记生成能否稳定交付、笔记内容需人工确认的边界、以及缓存保持是否依赖特定 Claude Code 版本，公开材料均未给出可复现说明，交付确定性尚缺证据。
+    evidence_ids:
+    - ev-9c6c0cd2ad196224
+  next_validation: 追踪该 公开代码仓库 仓库的 README、release 与 issue/discussion，确认自动交接与笔记生成的实际交付边界、支持的 Claude Code
+    版本，以及是否出现付费或赞助入口。
+  market: ''
+  job: 使用 Claude Code 的开发者在一个任务聊到上下文写满时，需要把当前工作交接给新会话，同时保留项目背景、已教给 Claude 的约定，并让离开期间不丢失缓存状态，最终拿到可继续的会话和一份项目笔记。
+  job_en: A developer using Claude Code whose task has filled the context window needs to hand the work
+    off to a fresh conversation while preserving project background and the conventions already taught
+    to Claude, keeping the cache warm while away, and ending with a resumable session plus project notes.
+  pain: 长会话写满上下文后，开发者要么手动开新会话、重新交代项目背景与约定，要么在旧会话里硬撑导致回答质量下降；重复交代和上下文丢失是每次长任务都要付的摩擦成本。
+  pain_en: When a long session fills its context, the developer must either manually start a new conversation
+    and re-explain project background and conventions, or keep pushing in the old one at degraded quality;
+    re-briefing and lost context are recurring friction on every long task.
+  current_alternative: 公开材料未直接描述旧做法，但按 Claude Code 的既有工作流，替代方式是手动新建会话、粘贴或重述项目背景、重新说明约定，并自行整理笔记；这是工作流结构推理，不是用户口述。
+  current_alternative_en: Public materials do not describe the old workflow directly, but within Claude
+    Code's existing flow the alternative is manually opening a new session, pasting or restating project
+    background, re-explaining conventions, and writing notes by hand; this is workflow-structure inference,
+    not user testimony.
+  usage_reason: 推断：相较手动重建会话，该模块在上下文耗尽时自动完成交接、在离开期间保持缓存、并把教给 Claude 的内容沉淀为项目笔记，减少的是“重新交代背景”和“手动整理笔记”这两步；因此长任务频繁、上下文反复写满的
+    Claude Code 用户会在这种情况下选择它。
+  usage_reason_en: 'Inference: versus manually rebuilding a session, the mod automates the handoff when
+    context fills, keeps the cache warm while away, and distills what was taught to Claude into project
+    notes, removing the ''re-brief the background'' and ''hand-write notes'' steps; so Claude Code users
+    with frequent long tasks that repeatedly fill context would choose it in that situation.'

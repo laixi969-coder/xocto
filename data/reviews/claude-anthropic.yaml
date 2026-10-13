@@ -1,0 +1,42 @@
+- id: req-initial-claude-anthropic-2026-10-13
+  project_slug: claude-anthropic
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长材料通读与起草的负担，痛点高频且已有大规模使用，交付为可直接使用的文本或分析，需求结构成立。
+    evidence_ids: []
+  - gate: consensus
+    status: supported
+    reason: 公开访问量接近十亿量级，说明大量用户已把这类任务交给它，共识不卡在感知或场景。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 候选未提供定价与付费结构，买方是个人订阅还是企业采购无法从现有材料确认，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 长文档与代码场景下的错误率、人工复核边界与安全约束未在材料中说明，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 收集官方定价页与企业部署文档，确认按席位还是按用量计费以及企业采购路径。
+  market: ''
+  job: 律师、分析师、工程师等知识工作者在需要通读长文档、代码库或整理复杂材料时，把原文交给 Claude 对话，由它归纳、起草或改写，产出可直接使用的文本、代码或分析结论。
+  job_en: Knowledge workers such as lawyers, analysts and engineers who must read long documents, codebases
+    or complex material hand the source to Claude in conversation, which summarizes, drafts or rewrites
+    it into usable text, code or analysis.
+  pain: 长材料的人工通读与起草耗时且容易遗漏，用户需要反复在检索、阅读与写作之间切换；公开规模显示大量用户已把这类任务交给它，说明痛点是真实且高频的。
+  pain_en: Manually reading and drafting from long material is slow and error-prone, forcing users to
+    switch repeatedly between searching, reading and writing; the public scale shows many users already
+    delegate such tasks, indicating the pain is real and frequent.
+  current_alternative: 此前同类任务靠人工通读加搜索、模板与同事互审完成，或使用更早的通用助手；这些旧做法仍是许多团队的实际选择。
+  current_alternative_en: Previously such tasks were done by manual reading plus search, templates and
+    peer review, or with earlier general assistants; these older practices remain the actual choice for
+    many teams.
+  usage_reason: 相较逐段人工阅读与从零起草，它通过一次性接收长材料并直接产出归纳或初稿，减少的是检索与起稿这两步负担，因此需要处理大量文本的专业用户会在初稿与复核环节选择它；这是基于产品能力与任务的推断。
+  usage_reason_en: Compared with reading section by section and drafting from scratch, it takes in long
+    material at once and returns a summary or first draft, removing the retrieval and drafting steps,
+    so professional users facing heavy text volume would choose it for first drafts and review; this is
+    inference from capability and task.

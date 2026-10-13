@@ -237,3 +237,54 @@
     moving the ''wait for pipeline errors then fix'' or ''manually triage every alert'' step earlier and
     narrowing it to the changed lines, so developers using Claude Code / Codex who care about pre-push
     security checks would choose it before pushing.'
+- id: req-full-openqodex-2026-10-13
+  project_slug: openqodex
+  level: full
+  reviewed_at: '2026-10-13T03:46:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是提交前对改动行做安全与质量审查的需求，痛点在密钥、依赖问题进入仓库后回滚成本高；公开说明已能还原输入（改动行）、动作（多类扫描加独立复核）与交付（审查结论），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-42c3fdbe8046787e
+    - ev-2b53a1126882c25a
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 274 增至 634，说明开发者社区持续关注并把它加入工具链观察范围；但这是关注度证据，不能证明长期留存或团队级采用，故共识仅到初步成立。
+    evidence_ids:
+    - ev-42c3fdbe8046787e
+    - ev-2b53a1126882c25a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，谁付钱（个人开发者、团队还是企业安全预算）无法核验；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-2b53a1126882c25a
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生缺少可复现证据：误报率、人工确认比例、扫描覆盖边界与安全边界均未公开，无法确认审查结论是否可被直接采信。
+    evidence_ids:
+    - ev-42c3fdbe8046787e
+  next_validation: 追踪 openqodex 官方仓库的 issue 与 discussion，确认是否有团队级部署、误报反馈或与 CI 流程对接的公开记录。
+  market: ''
+  job: 使用 Claude Code 或 Codex 的开发者，在把本地改动推送到仓库之前，需要对自己改动的代码行完成 SAST、密钥泄露、依赖与 lint 检查，并得到一份可判断是否放行的审查结论。
+  job_en: Developers using Claude Code or Codex need to run SAST, secret, dependency and lint checks on
+    their own changed lines before pushing to the repository, and obtain a review conclusion they can
+    use to decide whether to ship.
+  pain: 公开材料显示痛点在流程位置：扫描与审查发生在 push 之前、只针对改动行，说明开发者此前要么依赖 push 后的 CI 或 PR 审查才发现问题，要么在本地手动拼装多个扫描工具；密钥与依赖问题一旦进入仓库，回滚与轮换成本高，这是结构推理而非用户口述。
+  pain_en: 'The public description locates the pain in workflow position: scanning and review happen before
+    push and only on changed lines, implying developers previously relied on post-push CI or PR review,
+    or manually stitched together multiple scanners; secrets and dependency issues that reach the repository
+    are costly to roll back and rotate. This is structural inference, not user testimony.'
+  current_alternative: 旧做法是 push 后由 CI 流水线或 PR 审查发现问题，或在本地分别运行 SAST、密钥扫描、依赖检查与 lint 工具，再自行汇总判断；公开材料未说明这些替代方式的具体使用比例。
+  current_alternative_en: The prior approach is to let CI pipelines or PR review catch issues after push,
+    or to run SAST, secret scanning, dependency checks and lint separately on the local machine and reconcile
+    the results manually; public materials do not state how widely these alternatives are used.
+  usage_reason: 推断：相较 push 后才发现问题或本地多工具手工汇总，它把扫描与一个独立复核进程合并到编码代理内、只针对改动行执行，减少了开发者切换工具和等待 CI 反馈的步骤，因此使用
+    Claude Code 或 Codex 且希望提交前自查的开发者会在推送前选择它；公开材料未提供误报率或人工确认比例，采用动机属推断。
+  usage_reason_en: 'Inference: compared with discovering issues only after push or manually aggregating
+    multiple local tools, it folds scanning plus a separate reviewer process into the coding agent and
+    runs only on changed lines, removing tool-switching and CI wait steps, so developers using Claude
+    Code or Codex who want a pre-push self-check would choose it; public materials give no false-positive
+    or manual-confirmation rates, so the adoption motive is inferred.'

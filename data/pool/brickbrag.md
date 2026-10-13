@@ -21,7 +21,7 @@ canonical_url: https://brickbrag.com
 summary: A multiplayer brick-building world in the browser
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

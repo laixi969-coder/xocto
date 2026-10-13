@@ -993,3 +993,47 @@
   usage_reason_en: Public materials give only a feature list, with no user feedback or cases showing which
     step it removes versus the old approach, so why users choose it cannot be explained; this is a factual
     gap, not an inferred conclusion.
+- id: req-full-ai-搜索-百度-2026-10-13
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-10-13T03:42:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度AI搜索官方页面是否上线独立定价或会员说明，以及是否公开客户案例、使用量或留存数据，用以核验付费路径与持续采用。
+  market: ''
+  job: 普通中文用户在PC端遇到需要多步查证、边查边写或边查边做图的复杂问题时，把问题、资料或草稿交给百度AI搜索，在同一页面完成检索、追问深挖、文字创作与图片生成，得到可直接使用的答案或素材。
+  job_en: Chinese-speaking PC users facing a multi-step question that requires searching, verifying, drafting,
+    or image-making hand the question, source material, or draft to Baidu AI Search and, on one page,
+    complete retrieval, follow-up digging, text creation, and image generation to obtain a usable answer
+    or asset.
+  pain: 旧式关键词搜索只返回链接列表，用户要自己逐条打开、比对、摘录，再切换到写作或做图工具；多步任务被拆散在多个标签页和工具之间，重复输入与来回搬运的成本高，且答案是否可信需要自己判断。
+  pain_en: Legacy keyword search returns a list of links, forcing users to open, compare, and excerpt
+    each one and then switch to separate writing or image tools; a multi-step task is fragmented across
+    tabs and tools, with high re-entry and copy-paste cost and no built-in way to judge answer reliability.
+  current_alternative: 当前替代方式是传统百度关键词搜索加人工打开网页摘录，再配合独立写作工具、图片生成工具或通用聊天机器人分步完成；部分用户也会直接使用其他对话式AI搜索产品。
+  current_alternative_en: The current alternative is classic Baidu keyword search plus manually opening
+    and excerpting pages, combined with separate writing tools, image generators, or general chatbots
+    done step by step; some users also go straight to other conversational AI search products.
+  usage_reason: 推断：相较旧做法，它把检索、追问深挖、写作与做图收进同一对话页，用户不必在搜索结果页、写作工具和绘图工具之间反复切换与复制粘贴，因此当任务本身需要边查边产出时，这类用户会优先选择它；公开材料尚未提供用户自述或留存数据来证实这一动机。
+  usage_reason_en: 'Inference: versus the old workflow, it folds retrieval, follow-up digging, writing,
+    and image-making into one conversational page, so users no longer switch and copy-paste among search
+    results, writing tools, and image tools; users whose task requires producing while researching would
+    therefore prefer it. Public materials do not yet provide user statements or retention data to confirm
+    this motive.'

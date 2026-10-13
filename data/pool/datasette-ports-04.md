@@ -1,6 +1,6 @@
 ---
 slug: datasette-ports-04
-name: datasette-ports 0.4
+name: datasette-ports
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +23,7 @@ summary: 'Release: datasette-ports 0.4 My plugin for detecting and listing all D
   the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette'
 first_seen: '2026-10-13T03:04:22Z'
 last_seen: '2026-10-13T03:04:22Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# datasette-ports 0.4
+# datasette-ports
 
 Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette
 

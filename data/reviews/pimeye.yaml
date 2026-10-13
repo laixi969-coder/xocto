@@ -1,0 +1,38 @@
+- id: req-initial-pimeye-2026-10-13
+  project_slug: pimeye
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决从一张脸反查公开来源这一具体任务，痛点是关键词检索做不到、人工翻找耗时，旧做法是以图搜图或平台内翻找，结构上成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 有公开访问规模但环比为负，且没有可归因到该产品的用户评价或客户案例说明持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方结构；面向个人、媒体机构还是调查公司收费无法确认，这是判断不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: challenged
+    reason: 人脸检索涉及隐私与误判风险，公开材料未说明命中结果如何人工复核、误报如何处理，交付确定性存疑。
+    evidence_ids: []
+  next_validation: 收集该产品的官方定价页与合规说明，确认检索范围、误报处理方式以及面向机构客户的付费路径。
+  market: ''
+  job: 调查人员或记者拿到一张人脸照片时，上传图片检索公开网络中出现同一张脸的页面，得到可继续核实的线索列表。
+  job_en: Investigators or journalists holding a face photo upload it to search public web pages containing
+    the same face and receive a lead list for further verification.
+  pain: 靠关键词和人工翻找无法从一张脸反查来源，图片被转载、裁剪后更难追溯，取证时间被拉长。
+  pain_en: Keyword search and manual browsing cannot trace a face back to its source, and reposted or
+    cropped images are even harder to trace, stretching evidence-gathering time.
+  current_alternative: 用通用搜索引擎的以图搜图，或在社交平台人工翻找，往往只能找到相似图而非同一人。
+  current_alternative_en: Using reverse image search in general search engines or manually browsing social
+    platforms, which usually returns similar images rather than the same person.
+  usage_reason: 推断：相较通用以图搜图只返回相似图，它按人脸特征检索并给出候选页面，把人工翻找变成逐条核实，因此做侵权取证与事实核查的人会在需要确认身份来源时选它。
+  usage_reason_en: 'Inference: unlike general reverse image search that returns similar images, it searches
+    by facial features and returns candidate pages, turning manual browsing into item-by-item verification,
+    which is why infringement and fact-checking users choose it when they need to confirm a source identity.'

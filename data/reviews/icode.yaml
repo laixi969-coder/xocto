@@ -472,3 +472,49 @@
   usage_reason: 由于公开证据与候选描述的产品完全对不上，无法说明哪类用户会因产品减少哪一步负担或改善哪项可核对结果而选择它；此处不作推断。
   usage_reason_en: Because the public evidence does not match the described product at all, no user type
     can be said to choose it for a specific reduced step or verifiable outcome; no inference is made here.
+- id: req-full-icode-2026-10-13
+  project_slug: icode
+  level: full
+  reviewed_at: '2026-10-13T03:44:58Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决离线 agent 执行本地代码的需求，但全部公开证据指向青少年编程教育与竞赛，未记录内网数据受限、无外网或离线 agent 受阻的痛点，也说不清用户任务与旧替代，价值结构无法成立。
+    evidence_ids:
+    - ev-5f116334f9bb3871
+    - ev-23e9dee68584bcc8
+    - ev-b7379371381bbfbe
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该离线开发平台官网或代码仓库的 README、部署文档与 issue/discussion，确认其真实产品定位、支持的任务类型与交付形态，以判断公开证据是否指向同一产品。
+  market: ''
+  job: 候选摘要声称开发者可在数据不能出内网或无稳定外网的环境中，把本地代码仓库与任务交给离线 agent 与工作流执行，并在终端界面取回结果；但公开证据全部指向面向青少年的编程教育与竞赛，没有任何材料描述这一离线开发任务。
+  job_en: The candidate summary claims developers in offline or data-restricted environments hand local
+    repositories and tasks to an offline agent and retrieve results in a TUI; however, all public evidence
+    points to youth coding education and competitions, with no material describing this offline development
+    job.
+  pain: 公开材料只说明青少年学习编程、参加竞赛和课后 STEM 课程，未记录任何关于内网数据不能外传、无外网环境或离线 agent 执行受阻的痛点。
+  pain_en: Public materials only describe children learning coding, competitions, and after-school STEM
+    classes; they record no pain about intranet data restrictions, offline environments, or blocked offline
+    agent execution.
+  current_alternative: 公开材料未说明目标用户当前如何完成离线 agent 执行任务，也未说明它替代了什么旧做法；现有证据描述的是线下编程课程与竞赛这一完全不同的替代。
+  current_alternative_en: Public materials do not show how target users currently complete offline agent
+    execution or what old practice it replaces; the available evidence describes offline coding classes
+    and competitions, an entirely different substitute.
+  usage_reason: 由于公开证据与候选摘要描述的产品不是同一事物，无法说明哪类用户会在什么情况下因何种具体动作选择它；缺少可归因到该离线开发产品的用户反馈、案例或使用记录。
+  usage_reason_en: Because the public evidence describes a different product than the candidate summary,
+    it is impossible to explain which users would choose it under what circumstances or through which
+    concrete action; attributable user feedback, cases, or usage records for this offline development
+    product are absent.

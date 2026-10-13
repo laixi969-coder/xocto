@@ -1,0 +1,82 @@
+- id: req-initial-ip-group-leads-4m-funding-for-ai-startup-matte-2026-10-13
+  project_slug: ip-group-leads-4m-funding-for-ai-startup-matte
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未写出，价值关无法成立，只能保留为观察线索。
+    evidence_ids:
+    - ev-472de122be4b1249
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有融资消息，没有用户采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-472de122be4b1249
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价、买方或收费方式，无法判断收入来源。
+    evidence_ids:
+    - ev-472de122be4b1249
+  - gate: truth
+    status: insufficient
+    reason: 未进入：没有产品说明与交付结果，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-472de122be4b1249
+  next_validation: 收集 Matte 官方产品页或官方发布，确认其面向的行业、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明 Matte 服务谁、在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not state whom Matte serves, in what situation, on what material, or to
+    complete what task.
+  pain: 公开材料未描述任何具体痛点，无法判断它替代了哪一步旧工作。
+  pain_en: Public material describes no specific pain point, so which old work step it replaces cannot
+    be judged.
+  current_alternative: 公开材料未提及现有替代方式。
+  current_alternative_en: Public material mentions no current alternative.
+  usage_reason: 推断：仅有融资事实，无法说明相较旧做法减少了哪一步负担，因此无法给出用户选择它的理由。
+  usage_reason_en: 'Inference: with only a funding fact, there is no way to say which step of burden it
+    removes versus the old approach, so no reason for users to choose it can be given.'
+- id: req-full-ip-group-leads-4m-funding-for-ai-startup-matte-2026-10-13
+  project_slug: ip-group-leads-4m-funding-for-ai-startup-matte
+  level: full
+  reviewed_at: '2026-10-13T03:44:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只显示 IP Group 领投 400 万英镑融资，未说明 Matte 解决什么需求、什么痛点，也未给出输入材料与交付结果，连用户任务都无法还原，价值关无法成立。
+    evidence_ids:
+    - ev-53353edfa181b7d3
+    - ev-9b4f10fdb4f5623a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Matte 官方产品页或官方发布（含官网定价与客户案例），确认其面向的行业、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明 Matte 服务谁、在什么情况下处理什么材料、要完成什么任务；现有证据只有 IP Group 领投 400 万英镑融资这一条，无法还原任何具体工作场景。
+  job_en: Public material does not state whom Matte serves, in what situation, on what material, or to
+    complete what task; the only evidence is a £4M funding round led by IP Group, which cannot reconstruct
+    any concrete work scenario.
+  pain: 公开材料未描述任何具体痛点，无法判断它替代了哪一步旧工作，也无法说明不采用会失去什么。
+  pain_en: Public material describes no specific pain point, so which old work step it replaces and what
+    is lost by not adopting it cannot be judged.
+  current_alternative: 公开材料未提及现有替代方式；检索到的证据多为词典释义、维基百科与通用 AI 介绍页，与 Matte 的实际工作流无关。
+  current_alternative_en: Public material mentions no current alternative; retrieved evidence is mostly
+    dictionary definitions, Wikipedia entries and generic AI overview pages unrelated to Matte's actual
+    workflow.
+  usage_reason: 推断：仅有融资事实，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法给出用户选择它的理由。
+  usage_reason_en: 'Inference: with only a funding fact, there is no way to say which step of burden it
+    removes or which checkable result it improves versus the old approach, so no reason for users to choose
+    it can be given.'

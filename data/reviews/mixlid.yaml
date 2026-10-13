@@ -1,0 +1,78 @@
+- id: req-initial-mixlid-2026-10-13
+  project_slug: mixlid
+  level: initial
+  reviewed_at: '2026-10-13T03:04:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，公开材料为空，价值关无法成立。
+    evidence_ids:
+    - ev-c6534c0584716ab2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有 3 个点赞，无法说明任何采用或共识。
+    evidence_ids:
+    - ev-c6534c0584716ab2
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料未披露任何付费方或收费路径。
+    evidence_ids:
+    - ev-c6534c0584716ab2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对识别准确率与人工复核边界。
+    evidence_ids:
+    - ev-c6534c0584716ab2
+  next_validation: 抓取该开源空间的 README 或模型卡，确认支持的语种范围、输入输出格式与评测结果。
+  market: ''
+  job: 开发者或研究者把多语种文本交给模型，判断其属于哪种语言。
+  job_en: Developers or researchers submit multilingual text to a model to determine which language it
+    is.
+  pain: 公开材料为空，无法说明谁在什么情况下因为语言判断出错而付出代价。
+  pain_en: Public material is empty, so it cannot show who pays a price when language detection goes wrong.
+  current_alternative: 公开材料未给出可识别的旧做法，无法确认现有替代方式。
+  current_alternative_en: Public material gives no identifiable prior practice, so the current alternative
+    cannot be confirmed.
+  usage_reason: 无法判断：缺少功能说明、支持语种与任何使用反馈，无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Cannot be judged: there is no feature description, supported-language list or usage
+    feedback to show which step of burden it removes versus the old way.'
+- id: req-full-mixlid-2026-10-13
+  project_slug: mixlid
+  level: full
+  reviewed_at: '2026-10-13T03:45:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料为空，连它解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-c6534c0584716ab2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 MixLID 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 开发者或研究者把多语种文本交给这个开源空间，判断文本属于哪种语言。
+  job_en: Developers or researchers submit multilingual text to this open-source space to determine which
+    language it is.
+  pain: 公开材料为空，无法说明谁在什么情况下因语言判断出错而付出代价，也看不出痛点强度。
+  pain_en: Public material is empty, so it cannot show who pays a price when language detection goes wrong,
+    nor how strong the pain is.
+  current_alternative: 公开材料未给出可识别的旧做法，无法确认现有替代方式。
+  current_alternative_en: Public material gives no identifiable prior practice, so the current alternative
+    cannot be confirmed.
+  usage_reason: 无法判断：缺少功能说明、支持语种与任何使用反馈，无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Cannot be judged: there is no feature description, supported-language list or usage
+    feedback to show which step of burden it removes versus the old way.'

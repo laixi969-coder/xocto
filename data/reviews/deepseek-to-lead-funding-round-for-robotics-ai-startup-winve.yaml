@@ -1,0 +1,79 @@
+- id: req-initial-deepseek-to-lead-funding-round-for-robotics-ai-startup-winve-2026-10-13
+  project_slug: deepseek-to-lead-funding-round-for-robotics-ai-startup-winve
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有融资与估值信息，价值关无法成立。
+    evidence_ids:
+    - ev-e3ca89e5548e6d38
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何用户或客户采用信号。
+    evidence_ids:
+    - ev-e3ca89e5548e6d38
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-e3ca89e5548e6d38
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-e3ca89e5548e6d38
+  next_validation: 收集 Winverse 官方产品页或技术文档，确认其机器人 AI 的具体交付物与目标客户。
+  market: ''
+  job: 公开材料未说明 Winverse 让谁在什么情况下处理什么材料、完成什么任务，无法还原具体工作流。
+  job_en: Public material does not say who at Winverse handles what material in what situation to complete
+    what task, so no concrete workflow can be reconstructed.
+  pain: 材料只提到机器人 AI 与融资估值，未描述任何用户痛点或旧流程中的具体困难。
+  pain_en: The material only mentions robotics AI and a funding valuation, describing no user pain or
+    concrete difficulty in an existing process.
+  current_alternative: 未披露，无法判断它替代了哪种现有做法。
+  current_alternative_en: Not disclosed; the existing practice it replaces cannot be identified.
+  usage_reason: 仅有融资报道，没有产品能力、用户反馈或采用证据，无法解释哪类用户会因什么原因选择它。
+  usage_reason_en: Only a funding report exists, with no product capability, user feedback or adoption
+    evidence, so it cannot explain which users would choose it and why.
+- id: req-full-deepseek-to-lead-funding-round-for-robotics-ai-startup-winve-2026-10-13
+  project_slug: deepseek-to-lead-funding-round-for-robotics-ai-startup-winve
+  level: full
+  reviewed_at: '2026-10-13T03:44:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只显示 DeepSeek 将领投约 4 亿美元估值融资，未说明 Winverse 让谁在什么工作节点处理什么材料、交付什么结果，连需求与痛点都无法写出，价值关无法成立。
+    evidence_ids:
+    - ev-1e75017b76fd52ee
+    - ev-d2f349e2bd0852e3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Winverse 官方产品页或技术文档（如 win-verse.net 或公司官网），确认其机器人 AI 的具体交付物、目标客户与使用流程。
+  market: ''
+  job: 公开材料未说明 Winverse 让谁在什么情况下处理什么材料、完成什么任务；仅知其为前腾讯视觉语言与具身智能科学家胡瀚创立的隐身机器人 AI 公司，无法还原具体工作流。
+  job_en: Public material does not say who at Winverse handles what material in what situation to complete
+    what task; it is only known as a stealth robotics AI startup founded by Hu Han, ex-Tencent vision-language
+    and embodied AI scientist, so no concrete workflow can be reconstructed.
+  pain: 材料只提到机器人 AI 与约 4 亿美元估值融资，未描述任何用户痛点或旧流程中的具体困难。
+  pain_en: The material only mentions robotics AI and a roughly $400 million valuation round, describing
+    no user pain or concrete difficulty in an existing process.
+  current_alternative: 未披露，无法判断它替代了哪种现有做法。
+  current_alternative_en: Not disclosed; the existing practice it replaces cannot be identified.
+  usage_reason: 仅有融资报道，没有产品能力、用户反馈或采用证据，无法解释哪类用户会因什么原因选择它。
+  usage_reason_en: Only a funding report exists, with no product capability, user feedback or adoption
+    evidence, so it cannot explain which users would choose it and why.

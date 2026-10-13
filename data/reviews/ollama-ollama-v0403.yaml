@@ -1,0 +1,99 @@
+- id: req-initial-ollama-ollama-v0403-2026-10-13
+  project_slug: ollama-ollama-v0403
+  level: initial
+  reviewed_at: '2026-10-13T03:03:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地运行模型并接入编码代理的需求，痛点是代码出域与 token 成本，旧做法是手工搭环境或直接用云 API，结构上成立。
+    evidence_ids:
+    - ev-4d130301de296b6b
+  - gate: consensus
+    status: insufficient
+    reason: 本次仅有版本发布与少量社区反应，没有采用规模、留存或付费证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-4d130301de296b6b
+    - ev-428754b45acf1c15
+  - gate: model
+    status: insufficient
+    reason: 开源项目本身无定价页，钱可能来自企业支持或托管服务，公开材料未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-4d130301de296b6b
+  - gate: truth
+    status: insufficient
+    reason: 本次改动只是提示与后台升级策略，未披露交付确定性、安全边界或人工确认环节，求真证据不足。
+    evidence_ids:
+    - ev-428754b45acf1c15
+  next_validation: 收集 Ollama 官方文档或仓库中关于本地模型与编码代理对接的部署说明及企业支持/托管定价页。
+  market: ''
+  job: 开发者在本地机器或内网环境中，需要让编码代理调用模型处理代码文件，同时不希望代码和提示词离开自己的设备。
+  job_en: A developer on a local machine or intranet needs a coding agent to call a model over code files
+    without code and prompts leaving the device.
+  pain: 云端模型调用意味着代码与提示词出域，且按 token 计费的成本随代理反复读写代码快速累积；本地跑模型可回避这两点，但配置与代理对接繁琐。
+  pain_en: Cloud model calls mean code and prompts leave the network, and per-token costs accumulate quickly
+    as an agent repeatedly reads and writes code; running locally avoids both but wiring it to an agent
+    is fiddly.
+  current_alternative: 直接调用云端模型 API，或自行用推理框架加脚本手工搭本地环境，再逐个适配代理。
+  current_alternative_en: Calling cloud model APIs directly, or hand-building a local setup with an inference
+    framework plus scripts and adapting each agent separately.
+  usage_reason: 推断：相较手工搭本地推理环境，它把模型拉取、运行和代理接入收敛成一条命令，省掉环境配置与逐代理适配这一步，因此对代码不能出域的团队和想压低 token 成本的个人开发者有吸引力。
+  usage_reason_en: 'Inference: versus hand-building a local inference setup, it collapses model pulling,
+    running and agent hookup into one command, removing environment setup and per-agent adaptation, which
+    appeals to teams whose code cannot leave the network and to individual developers cutting token costs.'
+- id: req-full-ollama-ollama-v0403-2026-10-13
+  project_slug: ollama-ollama-v0403
+  level: full
+  reviewed_at: '2026-10-13T03:46:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地运行开源模型并接入编码代理的需求，痛点是代码与提示词出域、token 成本累积，以及手工搭环境与逐代理适配繁琐；旧做法是云 API 或自建推理栈，不采用则要么代码出域要么配置成本高。此为工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-4c1e39c628720e52
+    - ev-2e11ff4ae1026d15
+    - ev-683b92c08948674f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网定位、下载页与仓库说明，本次改动为取消两处警告并暂停后台模型升级；没有采用规模、留存或复购证据，无法判断共识是否形成，也未发现可归因到该功能级的独立使用数据。
+    evidence_ids:
+    - ev-4c1e39c628720e52
+    - ev-adafa7b32e453649
+    - ev-cc40e58f7fceccd8
+  - gate: model
+    status: insufficient
+    reason: 开源项目本身无公开定价页，钱可能来自企业支持、托管云服务或纯社区维护，公开材料未披露任何付费路径与买方，属判断而非已验证事实；不因此取消真需求判定。
+    evidence_ids:
+    - ev-cc40e58f7fceccd8
+    - ev-e088f3e80871167a
+    - ev-ee07146efabbe66b
+  - gate: truth
+    status: insufficient
+    reason: 本次发布仅涉及连接器警告提示与嵌入请求的后台模型升级策略，未披露交付确定性、安全边界或人工确认环节；本地运行虽天然贴近代码不出域的第一性目标，但承诺能否确定性交付缺乏公开证据。
+    evidence_ids:
+    - ev-2e11ff4ae1026d15
+    - ev-3d9a5b604ee03c97
+  next_validation: 追踪 Ollama 官方文档与 公开代码仓库 仓库中关于本地模型与编码代理对接的部署说明，以及是否出现企业支持或托管服务的公开定价页。
+  market: ''
+  job: 开发者在本地机器或内网环境中，用 Ollama 拉取并运行 Kimi、GLM、DeepSeek、Qwen 等开源模型，再通过 `ollama launch claude`、`ollama launch
+    codex` 把编码代理接到本地模型上，处理代码文件与提示词。
+  job_en: A developer on a local machine or intranet pulls and runs open models such as Kimi, GLM, DeepSeek
+    and Qwen with Ollama, then hooks coding agents to the local model via `ollama launch claude` / `ollama
+    launch codex` to work over code files and prompts.
+  pain: 公开材料显示其定位是本地或云端运行开源模型；结构推理上，云端调用意味着代码与提示词出域、按 token 计费随代理反复读写代码累积，而自行搭本地推理环境并逐个适配代理又很繁琐。
+  pain_en: Public material positions it as running open models locally or in the cloud; structurally,
+    cloud calls mean code and prompts leave the network and per-token costs accumulate as an agent repeatedly
+    reads and writes code, while hand-building a local inference stack and adapting each agent is fiddly.
+  current_alternative: 直接调用云端模型 API；或自行用推理框架加脚本手工搭建本地环境，再逐个适配编码代理。
+  current_alternative_en: Calling cloud model APIs directly; or hand-building a local setup with an inference
+    framework plus scripts and adapting each coding agent separately.
+  usage_reason: 推断：相较手工搭本地推理环境，Ollama 把模型拉取、运行与代理接入收敛为一条命令，省掉环境配置和逐代理适配这一步；本次版本还取消了 Claude、Codex 连接器的警告提示，减少了接入时的干扰信息，因此代码不能出域的团队和想压低
+    token 成本的个人开发者会在本地跑代理时选择它。
+  usage_reason_en: 'Inference: versus hand-building a local inference setup, Ollama collapses model pulling,
+    running and agent hookup into one command, removing environment setup and per-agent adaptation; this
+    release also drops the Claude and Codex connector warnings, cutting noise during hookup, so teams
+    whose code cannot leave the network and individual developers cutting token costs would pick it for
+    local agent runs.'

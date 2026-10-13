@@ -173,3 +173,46 @@
   usage_reason: 材料未给出用户选择理由的任何依据，无法解释相较旧做法减少了哪一步负担或改善了哪项可核对结果。
   usage_reason_en: The material gives no basis for why users would choose it, so it cannot explain which
     step of burden is reduced or which checkable result improves versus the old approach.
+- id: req-full-scm-2-2026-10-13
+  project_slug: scm-2
+  level: full
+  reviewed_at: '2026-10-13T03:46:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据全部指向企业供应链管理概念，与本地照片视频检索无关，无法还原用户任务、痛点与替代方式，连需求本身都写不出来。
+    evidence_ids:
+    - ev-0151f06d507d0b21
+    - ev-36ad68da8f85edd8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官网或仓库 README，确认其实际功能定位、支持的媒体格式与索引方式，以排除与供应链管理 SCM 同名混淆。
+  market: ''
+  job: macOS 用户（影视后期剪辑师或素材量大的个人）在剪辑或整理前，面对本地文件夹里成百上千的照片与视频，需要按画面内容而非文件名找出某个镜头或某张照片。
+  job_en: A macOS user (post-production editor or individual with a large library), before editing or
+    organizing, faces hundreds or thousands of local photos and videos and needs to locate a specific
+    shot or photo by visual content rather than filename.
+  pain: 候选材料未提供任何关于该产品用户痛点的公开事实：现有证据全部指向企业供应链管理（SCM）概念，与本地影像检索无关，无法说明用户哪里难受。
+  pain_en: 'The candidate material provides no public facts about this product''s user pain: all evidence
+    points to enterprise supply-chain management (SCM) concepts, unrelated to local media retrieval, so
+    it cannot show where users hurt.'
+  current_alternative: 候选材料未提供该产品当前替代方式的公开事实；无法确认用户是靠文件名、系统相册、Spotlight 还是其他工具绕过。
+  current_alternative_en: The candidate material provides no public facts about the current alternative
+    for this product; it cannot be confirmed whether users work around it via filenames, system Photos,
+    Spotlight or other tools.
+  usage_reason: 候选材料未提供任何可归因到该产品的用户选择理由；现有证据描述的是企业供应链协同系统，无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: The candidate material provides no user choice rationale attributable to this product;
+    the existing evidence describes enterprise supply-chain collaboration systems and cannot explain which
+    users would choose it under what circumstances.

@@ -21,7 +21,7 @@ canonical_url: https://taylor.town/kk-ai-2026
 summary: Kevin Kelly's 2016 AI Predictions, 10 Years Later
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

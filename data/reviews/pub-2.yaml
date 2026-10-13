@@ -1,0 +1,80 @@
+- id: req-initial-pub-2-2026-10-13
+  project_slug: pub-2
+  level: initial
+  reviewed_at: '2026-10-13T03:03:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连解决什么需求、什么痛点都写不出来，只有一句研究主题，价值关不成立。
+    evidence_ids:
+    - ev-25cf025bdbf5c2b7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区讨论热度不构成采用证据。
+    evidence_ids:
+    - ev-25cf025bdbf5c2b7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，公开材料未披露任何付费路径。
+    evidence_ids:
+    - ev-d2b2a52ec52a2908
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付确定性与安全边界。
+    evidence_ids:
+    - ev-d2b2a52ec52a2908
+  next_validation: 收集 Sakana AI 官方页面或论文中关于该方法的具体输入、产出与评测结果的公开说明。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，只能推断为研究团队在模型能力迭代时评估自我改进方法。
+  job_en: The public material does not name a user or work step; it can only be inferred as a research
+    team evaluating self-improvement methods during model iteration.
+  pain: 材料未描述任何具体痛点，无法判断谁在什么情况下因何受损。
+  pain_en: The material describes no concrete pain, so it is impossible to tell who is hurt, when, or
+    why.
+  current_alternative: 材料未提及现有替代做法。
+  current_alternative_en: The material mentions no existing alternative.
+  usage_reason: 材料只有一句主题描述，无法说明相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With only a one-line topic description, it is impossible to say which step of the old
+    workflow it removes or which users would choose it under what circumstances.
+- id: req-full-pub-2-2026-10-13
+  project_slug: pub-2
+  level: full
+  reviewed_at: '2026-10-13T03:46:38Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连解决什么需求、什么痛点都写不出来，只有一句研究主题，且多数证据指向同名寿司店，价值关不成立。
+    evidence_ids:
+    - ev-c7bdea95773ee82b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 Sakana AI 官方页面或论文中关于该方法的具体输入、产出与评测结果的公开说明。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，只能推断为研究团队在模型能力迭代时评估递归自我改进方法，但谁、在什么情况下、处理什么材料、产出什么交付均未写明。
+  job_en: The public material names no user or work step; it can only be inferred as a research team evaluating
+    recursive self-improvement during model iteration, but who, when, with what material and what deliverable
+    are all unstated.
+  pain: 材料未描述任何具体痛点，无法判断谁在什么情况下因何受损；现有证据多为同名寿司店页面，与递归自我改进主题无关。
+  pain_en: The material describes no concrete pain, so it is impossible to tell who is hurt, when or why;
+    most evidence is same-name sushi restaurant pages unrelated to recursive self-improvement.
+  current_alternative: 材料未提及现有替代做法，无法说明研究团队此前如何做模型自我改进。
+  current_alternative_en: The material mentions no existing alternative, so how research teams previously
+    approached model self-improvement is unknown.
+  usage_reason: 材料只有一句主题描述，无法说明相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它；同名寿司店页面不能作为使用理由。
+  usage_reason_en: With only a one-line topic description, it is impossible to say which step of the old
+    workflow it removes or which users would choose it under what circumstances; same-name sushi pages
+    cannot serve as usage reason.

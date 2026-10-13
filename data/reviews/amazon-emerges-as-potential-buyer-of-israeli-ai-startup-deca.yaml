@@ -1,0 +1,83 @@
+- id: req-initial-amazon-emerges-as-potential-buyer-of-israeli-ai-startup-deca-2026-10-13
+  project_slug: amazon-emerges-as-potential-buyer-of-israeli-ai-startup-deca
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只给出收购估值，未说明它解决什么需求、什么痛点，无法判断价值是否成立。
+    evidence_ids:
+    - ev-77ab957865ba8568
+  - gate: consensus
+    status: insufficient
+    reason: 未见用户采用、客户案例或社区讨论，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-77ab957865ba8568
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，收购传闻属于资本事件，不能替代收入模式证据。
+    evidence_ids:
+    - ev-77ab957865ba8568
+  - gate: truth
+    status: insufficient
+    reason: 无法核对产品承诺与交付确定性，安全与人工边界亦无材料。
+    evidence_ids:
+    - ev-77ab957865ba8568
+  next_validation: 收集 Decart 官方产品页或技术文档，确认其实际产品形态、输入输出与使用方。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用 Decart、处理什么材料、要完成什么任务，无法还原具体工作节点。
+  job_en: Public material does not say who uses Decart, in what situation, with what material, or to complete
+    what task, so the concrete work step cannot be reconstructed.
+  pain: 公开材料未描述它解决什么用户痛点，只提到收购估值。
+  pain_en: Public material does not describe what user pain it solves, only the acquisition valuation.
+  current_alternative: 公开材料未说明用户目前用什么方式完成同一任务。
+  current_alternative_en: Public material does not say what users currently use to accomplish the same
+    task.
+  usage_reason: 推断：仅凭收购传闻无法解释用户为何选择它，缺少产品能力、旧流程替代与交付结果三环证据。
+  usage_reason_en: 'Inference: an acquisition rumor alone cannot explain why users would choose it; evidence
+    on product capability, replaced old workflow and deliverable outcome is missing.'
+- id: req-full-amazon-emerges-as-potential-buyer-of-israeli-ai-startup-deca-2026-10-13
+  project_slug: amazon-emerges-as-potential-buyer-of-israeli-ai-startup-deca
+  level: full
+  reviewed_at: '2026-10-13T03:42:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 材料只有收购估值与实时世界模型、实时编辑画布的能力描述，未出现任何用户任务、痛点、旧替代或不采用的后果，连需求与痛点都写不出来，无法形成价值结构判断。
+    evidence_ids:
+    - ev-74ee37d43691cc0b
+    - ev-a80255e89bc6992c
+    - ev-bb1a61ddcd2070bf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Decart 官方产品页与 platform.decart.ai 文档，确认 Lucy 与实时世界模型的具体输入输出、使用方与交付形态。
+  market: ''
+  job: 公开材料只说明 Decart 是构建实时世界模型的 AI 实验室，并提到 Lucy 面向企业、品牌、创作者与观众提供实时视频编辑画布；但没有任何材料说明具体是谁、在什么情况下、处理什么素材、要完成什么任务，工作节点无法还原。
+  job_en: Public material only says Decart is a frontier AI lab building real-time world models and that
+    Lucy offers enterprises, brands, creators and viewers a live video editing canvas; no material states
+    who, in what situation, with what material, or to complete what task, so the work step cannot be reconstructed.
+  pain: 公开材料未描述任何用户痛点或抱怨，只有收购估值与产品能力描述；产品能力本身不构成痛点证据，因此无法说出它替谁缓解了什么难受之处。
+  pain_en: Public material describes no user pain or complaint, only an acquisition valuation and product
+    capability statements; product capability is not pain evidence, so it cannot be said whose discomfort
+    it relieves.
+  current_alternative: 公开材料未说明用户目前用什么方式完成同一任务，也未出现旧流程、workaround 或替代工具的对比。
+  current_alternative_en: Public material does not say what users currently use for the same task, and
+    shows no old workflow, workaround or substitute-tool comparison.
+  usage_reason: 推断：仅凭实时世界模型与实时编辑画布的能力描述，无法解释相较旧做法减少了哪一步负担或改善了哪项可核对结果，缺少用户反馈、案例或采用行为支撑选择动机。
+  usage_reason_en: 'Inference: capability statements about real-time world models and a live editing canvas
+    cannot explain which step is reduced or which checkable result improves versus the old way; user feedback,
+    cases or adoption behavior supporting the choice motive are absent.'

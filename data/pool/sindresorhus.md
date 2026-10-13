@@ -21,7 +21,7 @@ canonical_url: https://sindresorhus.com/blog/swift-website
 summary: I rewrote my website in Swift
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

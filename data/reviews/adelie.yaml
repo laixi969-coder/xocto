@@ -1,0 +1,84 @@
+- id: req-initial-adelie-2026-10-13
+  project_slug: adelie
+  level: initial
+  reviewed_at: '2026-10-13T03:03:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决本地多智能体应用开发，但公开材料未说明替代了哪一步旧工作，痛点与旧流程无法还原。
+    evidence_ids:
+    - ev-db5cbd45f8ddc60c
+  - gate: consensus
+    status: insufficient
+    reason: 仅 43 星、2 次 fork，无用户评价或讨论，尚看不出场景共识卡在哪一环。
+    evidence_ids:
+    - ev-db5cbd45f8ddc60c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或买方，开源项目可能靠支持或托管收费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-db5cbd45f8ddc60c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也未见安全与人工边界说明。
+    evidence_ids:
+    - ev-db5cbd45f8ddc60c
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它替代的具体旧流程、输入输出与是否有外部团队实际使用。
+  market: ''
+  job: 应用开发者在本地环境搭建多智能体应用时，把开发任务交给多个本地智能体协作完成，需要拿到可运行的应用代码与编排结果。
+  job_en: Application developers building multi-agent apps locally hand development tasks to several local
+    agents that collaborate, expecting runnable application code and orchestration results.
+  pain: 公开材料只给出仓库自述，未说明它替代了哪一步旧工作、开发者原来如何完成同一任务，痛点无法从现有事实还原。
+  pain_en: Public material only gives the repository's self-description; it does not say which prior step
+    it replaces or how developers did this before, so the pain cannot be reconstructed from available
+    facts.
+  current_alternative: 开发者此前可能用云端智能体编排框架或手工串联脚本完成同类任务，但候选未提供对比证据。
+  current_alternative_en: Developers may previously have used cloud agent-orchestration frameworks or
+    hand-wired scripts, but the candidate provides no comparative evidence.
+  usage_reason: 推断：本地优先意味着代码与数据不出本机，对需要私有化交付的团队可能减少一步外部依赖；但缺少采用、留存或客户案例，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: local-first means code and data stay on the machine, which may remove one
+    external dependency for teams needing private delivery; but with no adoption, retention or customer
+    cases, it is unconfirmed that users would choose it for this reason.'
+- id: req-full-adelie-2026-10-13
+  project_slug: adelie
+  level: full
+  reviewed_at: '2026-10-13T03:42:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决本地多智能体协作开发应用，但公开材料只有一句仓库自述，未说明替代哪一步旧工作、痛点与不采用后果，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-78441ee0f1b364e7
+    - ev-52343748d7d8dc44
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Adelie 官方仓库 README 与 issue/discussion，确认它替代的具体旧流程、输入输出与是否有外部团队实际使用。
+  market: ''
+  job: 应用开发者在本地环境搭建多智能体应用时，把开发任务交给多个本地运行的智能体协作完成，期望拿到可运行的应用代码与编排结果。
+  job_en: Application developers building multi-agent apps locally hand development tasks to several locally
+    running agents that collaborate, expecting runnable application code and orchestration results.
+  pain: 公开材料只有一句仓库自述，未说明开发者原来如何完成同一任务、卡在哪一步、不解决会失去什么，痛点无法从现有事实还原。
+  pain_en: Public material offers only a one-line repository self-description; it does not say how developers
+    did this before, where they got stuck, or what is lost by not solving it, so the pain cannot be reconstructed
+    from available facts.
+  current_alternative: 开发者此前可能用云端智能体编排框架或手工串联脚本完成同类任务，但候选未提供任何对比证据。
+  current_alternative_en: Developers may previously have used cloud agent-orchestration frameworks or
+    hand-wired scripts, but the candidate provides no comparative evidence.
+  usage_reason: 推断：本地优先意味着代码与数据不出本机，对需要私有化交付的团队可能减少一步外部依赖；但缺少采用、留存或客户案例，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: local-first means code and data stay on the machine, which may remove one
+    external dependency for teams needing private delivery; but with no adoption, retention or customer
+    cases, it is unconfirmed that users would choose it for this reason.'

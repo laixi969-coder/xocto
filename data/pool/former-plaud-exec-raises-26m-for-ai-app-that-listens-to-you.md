@@ -24,7 +24,7 @@ summary: One of the core promises of AI is that the more it knows about a person
   context.
 first_seen: '2026-10-13T03:04:22Z'
 last_seen: '2026-10-13T03:04:22Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

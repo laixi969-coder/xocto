@@ -1,0 +1,87 @@
+- id: req-initial-codemind-2026-10-13
+  project_slug: codemind
+  level: initial
+  reviewed_at: '2026-10-13T03:03:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把整段编码任务交出去并拿回可用代码的需求，痛点是代理产出后的验收负担，旧做法是逐段补全加人工评审。
+    evidence_ids:
+    - ev-bd5b1aaff2ff46e9
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品描述，没有用户评价、客户案例或采用数据，无法判断开发者是否已把它放进日常流程。
+    evidence_ids:
+    - ev-bd5b1aaff2ff46e9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位还是按任务收费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-bd5b1aaff2ff46e9
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近真实工程目标、承诺能否确定性交付，以及人工复核边界如何设定。
+    evidence_ids:
+    - ev-bd5b1aaff2ff46e9
+  next_validation: 收集 Codemind 官方产品页或文档，确认它接入代码库的方式、人工复核环节与是否公布定价。
+  market: ''
+  job: 软件开发者把一段明确的编码任务交给代理执行，然后检查返回的代码能否直接进入项目。
+  job_en: A software developer hands a defined coding task to an agent, then checks whether the returned
+    code can go straight into the project.
+  pain: 写代码本身耗时，但更麻烦的是代理产出的代码需要逐行核对、跑测试、判断能不能合并，验收负担没有消失。
+  pain_en: Writing the code takes time, but the harder part is that agent output must be read line by
+    line, tested and judged mergeable, so the review burden does not disappear.
+  current_alternative: 开发者自己写，或用代码补全工具逐段生成后手工拼接，再靠本地测试和代码评审兜底。
+  current_alternative_en: Developers write it themselves, or generate it piecewise with completion tools
+    and stitch it by hand, relying on local tests and code review as the safety net.
+  usage_reason: 推断：相比逐段补全，它把“整段任务”作为输入单位，减少开发者反复描述上下文和拼接片段的那一步；但公开材料没有说明它如何降低验收成本，因此哪类团队会长期采用仍缺少证据。
+  usage_reason_en: 'Inference: versus piecewise completion it takes a whole task as the input unit, removing
+    the step where developers re-describe context and stitch fragments; but public material does not say
+    how it lowers review cost, so which teams would keep using it lacks evidence.'
+- id: req-full-codemind-2026-10-13
+  project_slug: codemind
+  level: full
+  reviewed_at: '2026-10-13T03:43:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把整段编码任务委派出去并拿回可运行代码的需求，痛点是代理产出后的验收负担；旧做法是逐段补全加人工评审。这是从产品承诺做的工作流结构推理，尚无用户行为佐证。
+    evidence_ids:
+    - ev-bd5b1aaff2ff46e9
+  - gate: consensus
+    status: insufficient
+    reason: 仅一句产品描述，没有用户评价、客户案例或采用数据，无法判断开发者是否已把它放进日常流程；公开关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-bd5b1aaff2ff46e9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位还是按任务收费不明；钱可能来自开发者个人订阅或团队采购，这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-bd5b1aaff2ff46e9
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近真实工程目标、承诺能否确定性交付，以及人工复核与安全边界如何设定；缺少文档与实测材料。
+    evidence_ids:
+    - ev-bd5b1aaff2ff46e9
+  next_validation: 追踪 Codemind 官方产品页或文档，确认其代码库接入方式、人工复核环节与是否公布定价。
+  market: ''
+  job: 软件开发者接到一段边界明确的编码任务（如新增接口、修一个 bug）时，把整段需求交给代理执行，再检查返回的代码能否直接进入项目。
+  job_en: A software developer with a well-scoped coding task (e.g. adding an endpoint, fixing a bug)
+    hands the whole requirement to an agent, then checks whether the returned code can go straight into
+    the project.
+  pain: 公开材料只承诺“拿回能跑的代码”，说明痛点在于代理产出后仍需逐行核对、跑测试、判断能否合并，验收负担并未消失；这是从产品承诺反推的工作流推理，尚无用户抱怨或案例佐证。
+  pain_en: The public claim only promises 'code that works', implying the pain is that agent output still
+    needs line-by-line reading, testing and merge judgement, so the review burden does not disappear;
+    this is workflow inference from the product claim, not user-reported evidence.
+  current_alternative: 开发者自己写，或用代码补全工具逐段生成后手工拼接，再靠本地测试与代码评审兜底。
+  current_alternative_en: Developers write it themselves, or generate piecewise with completion tools
+    and stitch by hand, relying on local tests and code review as the safety net.
+  usage_reason: 推断：相较逐段补全，它以“整段任务”为输入单位，减少开发者反复描述上下文、拼接片段的那一步，因此任务边界清晰、愿意承担验收成本的开发者会先试用；但公开材料未说明它如何降低验收成本，长期采用仍缺证据。
+  usage_reason_en: 'Inference: versus piecewise completion it takes a whole task as the input unit, removing
+    the step of re-describing context and stitching fragments, so developers with well-scoped tasks and
+    tolerance for review cost would try it first; but public material does not say how it lowers review
+    cost, so sustained adoption lacks evidence.'

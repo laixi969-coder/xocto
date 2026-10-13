@@ -1,0 +1,85 @@
+- id: req-initial-loops-融资-350-万美元种子轮推动-ai-搜索购物助手与零售数据互联-2026-10-13
+  project_slug: loops-融资-350-万美元种子轮推动-ai-搜索购物助手与零售数据互联
+  level: initial
+  reviewed_at: '2026-10-13T03:04:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决零售导购与商品数据打通，但候选材料未写出具体痛点、旧流程与交付结果，连需求都难以还原，价值关证据不足。
+    evidence_ids:
+    - ev-c4fed5efe5c11d0e
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条融资报道，没有客户案例、用户评价或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-c4fed5efe5c11d0e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自 to B 零售客户或 to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c4fed5efe5c11d0e
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近零售导购的第一性目标、承诺能否确定性交付，安全与人工边界也未提及。
+    evidence_ids:
+    - ev-c4fed5efe5c11d0e
+  next_validation: 收集 Loops 官方产品页或官方发布，确认其具体工作流、输入数据与交付结果，以及是否披露定价或客户案例。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，只能推断为零售商或电商运营在顾客选购商品时，处理商品与库存数据以给出导购结果，具体任务仍待核验。
+  job_en: The public material does not name the user or the work step; it can only be inferred that a
+    retailer or e-commerce operator handles product and inventory data to guide shoppers, and the concrete
+    task still needs verification.
+  pain: 候选材料没有描述任何具体痛点，只给出融资与功能方向，无法确认旧流程中哪一步难受。
+  pain_en: The candidate material describes no concrete pain point, only a funding event and a feature
+    direction, so it is impossible to confirm which step of the old workflow hurts.
+  current_alternative: 公开材料未说明现有替代方式，无法确认此前是人工选品、站内搜索还是第三方导购工具。
+  current_alternative_en: The public material does not state the current alternative, so it is unclear
+    whether this was manual merchandising, on-site search or a third-party shopping tool.
+  usage_reason: 缺少可核验的工作流与交付描述，无法解释相较旧做法减少了哪一步负担，因此不能给出使用理由。
+  usage_reason_en: Without a verifiable workflow and deliverable description, there is no way to explain
+    which step of the old approach is reduced, so no usage reason can be given.
+- id: req-full-loops-融资-350-万美元种子轮推动-ai-搜索购物助手与零售数据互联-2026-10-13
+  project_slug: loops-融资-350-万美元种子轮推动-ai-搜索购物助手与零售数据互联
+  level: full
+  reviewed_at: '2026-10-13T03:45:18Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料只给出融资与功能方向，未写出具体用户任务、痛点、旧流程与交付结果，连需求都难以还原，价值关不成立。
+    evidence_ids:
+    - ev-dfc54c1a5b439a89
+    - ev-939b0503ae8a1664
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Loops 官方产品页或官方发布（含定价页、客户案例、部署文档），确认其具体工作流、输入数据与交付结果。
+  market: ''
+  job: 公开材料只说明 Loops 在做 AI 搜索、购物助手与零售数据互联，未写明谁在什么节点打开它、处理哪些商品或库存数据、要完成什么任务，因此无法还原具体使用场景。
+  job_en: The public material only says Loops works on AI search, a shopping assistant and retail data
+    interconnection; it does not state who opens it at which step, what product or inventory data is handled,
+    or what task is completed, so no concrete job can be reconstructed.
+  pain: 候选材料未描述任何具体痛点，只给出融资与功能方向，无法确认旧流程中哪一步难受、频率多高、不解决会失去什么。
+  pain_en: The candidate material describes no concrete pain point, only a funding event and a feature
+    direction, so it is impossible to confirm which step of the old workflow hurts, how often, or what
+    is lost if unsolved.
+  current_alternative: 公开材料未说明现有替代方式，无法确认此前是人工选品、站内搜索、第三方导购工具还是零售商的商品数据中台。
+  current_alternative_en: The public material does not state the current alternative, so it is unclear
+    whether this was manual merchandising, on-site search, a third-party shopping tool or a retailer's
+    product data platform.
+  usage_reason: 缺少可核验的工作流、输入数据与交付结果描述，无法解释相较旧做法减少了哪一步负担或改善哪项可核对结果，因此不能给出使用理由。
+  usage_reason_en: Without a verifiable workflow, input data and deliverable description, there is no
+    way to explain which step of the old approach is reduced or which checkable result improves, so no
+    usage reason can be given.

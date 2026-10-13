@@ -1,12 +1,14 @@
 ---
 slug: australian-startup-funding-rose-80-in-q3-even-without-the-fi
-name: Australian startup funding rose 80% in Q3, even without the Firmus megaround, but big deals still
-  dominated
+name: Australian startup funding
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 澳大利亚创业融资在第三季度环比增长 80%，即使不计入 Firmus 的大额融资，大额交易仍占主导。融资回暖意味着当地 AI 与科技初创的可获得资本增加，可能加快产品交付与人才争夺，但资金集中在大额交易也意味着中小团队竞争压力上升（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: Australian startup funding rose 80% in Q3 even excluding the Firmus megaround, though large
+  deals still dominated. The funding rebound means more available capital for local AI and tech startups,
+  potentially accelerating product delivery and talent competition, while concentration in large deals
+  implies rising pressure on smaller teams (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +25,7 @@ summary: Australian startup funding rose 80% in Q3, even without the Firmus mega
   dominated Startup Daily
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Australian startup funding rose 80% in Q3, even without the Firmus megaround, but big deals still dominated
+# Australian startup funding
 
 Australian startup funding rose 80% in Q3, even without the Firmus megaround, but big deals still dominated Startup Daily
 

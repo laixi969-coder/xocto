@@ -1,0 +1,86 @@
+- id: req-initial-esp32-iphone-agent-2026-10-13
+  project_slug: esp32-iphone-agent
+  level: initial
+  reviewed_at: '2026-10-13T03:03:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决真机自动化门槛高的问题：以往需要 Mac、开发者账号或越狱，现在用廉价硬件桥接画面与触控，痛点具体且旧替代行为明确。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度而非持续采用证据，尚无团队把它留在测试流程中的公开记录。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径；谁付钱、按设备还是按任务收费属于判断，不是已验证事实。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  - gate: truth
+    status: insufficient
+    reason: 缺少稳定性、复现率与安全边界说明，模型误操作真机的风险与人工确认环节未在材料中交代。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  next_validation: 收集该仓库的 issue 与 discussion，确认真机操作稳定性、复现率及是否已有团队用于回归测试。
+  market: ''
+  job: 移动应用测试或自动化人员需要在真实 iPhone 上复现点击、滑动和界面观察流程，处理的是真机屏幕画面与触控输入，要完成可重复的设备操作任务。
+  job_en: Mobile app testers or automation engineers need to reproduce tap, swipe and screen-observation
+    flows on a real iPhone, working with on-device screen video and touch input to complete repeatable
+    device operations.
+  pain: 真机自动化通常依赖 Mac、开发者账号或越狱，硬件与授权成本高，小团队难以低成本搭起真机操作回路。
+  pain_en: Real-device automation usually requires a Mac, a developer account or a jailbreak, making hardware
+    and authorization costly for small teams to build a device-control loop.
+  current_alternative: 现有做法是购买 Mac 加真机做 Appium/XCTest 自动化，或使用云真机平台按次租用设备。
+  current_alternative_en: Current practice is buying a Mac plus devices for Appium/XCTest automation,
+    or renting devices per session from cloud device farms.
+  usage_reason: 推断：相较买 Mac 或租云真机，它用约 7 美元的 ESP32 同时提供画面与触控，省去开发者账号和越狱这一步，因此预算有限、需要频繁真机验证的小团队会在本地回归测试时选择它。
+  usage_reason_en: 'Inference: versus buying a Mac or renting cloud devices, it uses a roughly $7 ESP32
+    to supply both video and touch, removing the developer-account and jailbreak step, so budget-constrained
+    teams doing frequent on-device regression checks would pick it locally.'
+- id: req-full-esp32-iphone-agent-2026-10-13
+  project_slug: esp32-iphone-agent
+  level: full
+  reviewed_at: '2026-10-13T03:44:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决真机自动化门槛高的问题：以往需要 Mac、开发者账号或越狱，现在用廉价硬件桥接画面与触控，痛点具体且旧替代行为明确。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度而非持续采用证据，尚无团队把它留在测试流程中的公开记录。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径；谁付钱、按设备还是按任务收费属于判断，不是已验证事实。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  - gate: truth
+    status: insufficient
+    reason: 缺少稳定性、复现率与安全边界说明，模型误操作真机的风险与人工确认环节未在材料中交代。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  next_validation: 收集该仓库的 issue 与 discussion，确认真机操作稳定性、复现率及是否已有团队用于回归测试。
+  market: ''
+  job: 移动应用测试或自动化人员需要在真实 iPhone 上复现点击、滑动和界面观察流程，处理的是真机屏幕画面与触控输入，要完成可重复的设备操作任务。
+  job_en: Mobile app testers or automation engineers need to reproduce tap, swipe and screen-observation
+    flows on a real iPhone, working with on-device screen video and touch input to complete repeatable
+    device operations.
+  pain: 真机自动化通常依赖 Mac、开发者账号或越狱，硬件与授权成本高，小团队难以低成本搭起真机操作回路。
+  pain_en: Real-device automation usually requires a Mac, a developer account or a jailbreak, making hardware
+    and authorization costly for small teams to build a device-control loop.
+  current_alternative: 现有做法是购买 Mac 加真机做 Appium/XCTest 自动化，或使用云真机平台按次租用设备。
+  current_alternative_en: Current practice is buying a Mac plus devices for Appium/XCTest automation,
+    or renting devices per session from cloud device farms.
+  usage_reason: 推断：相较买 Mac 或租云真机，它用约 7 美元的 ESP32 同时提供画面与触控，省去开发者账号和越狱这一步，因此预算有限、需要频繁真机验证的小团队会在本地回归测试时选择它。
+  usage_reason_en: 'Inference: versus buying a Mac or renting cloud devices, it uses a roughly $7 ESP32
+    to supply both video and touch, removing the developer-account and jailbreak step, so budget-constrained
+    teams doing frequent on-device regression checks would pick it locally.'

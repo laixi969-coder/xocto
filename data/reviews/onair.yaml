@@ -85,3 +85,45 @@
     reception and decoding plus a spectrum analyser in one cross-platform interface, removing per-signal
     driver setup and window switching, so hobbyists or engineers monitoring several bands at once would
     try it first.'
+- id: req-full-onair-2026-10-13
+  project_slug: onair
+  level: full
+  reviewed_at: '2026-10-13T03:46:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多制式信号接收与解码分散在多个工具里的问题，痛点具体且旧替代行为明确，属于工作流推理。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，缺少用户评价、issue 讨论或采用案例，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  - gate: model
+    status: insufficient
+    reason: 开源免费项目，公开材料未显示付费路径或商业交付方式，买方与收费模式均未核验。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  - gate: truth
+    status: insufficient
+    reason: 未核验解码准确率、硬件兼容范围与人工确认边界，交付确定性仍待公开材料支持。
+    evidence_ids:
+    - ev-9e23f91612a96ace
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际报告的硬件兼容、解码失败与使用场景。
+  market: ''
+  job: 无线电爱好者与射频工程师在本地接入 SDR 硬件后，需要接收并解码电视、广播、航空、卫星与业余无线电信号，得到可读的频道、航迹或报文。
+  job_en: Radio hobbyists and RF engineers who connect SDR hardware locally need to receive and decode
+    TV, broadcast, aviation, satellite and ham signals into readable channels, tracks or messages.
+  pain: 过去要在多个命令行工具之间切换，每种制式单独配置，跨平台安装与驱动适配成本高，解码结果分散难以对照。
+  pain_en: Users previously switched among many command-line tools, configured each standard separately,
+    fought cross-platform driver setup, and kept decoded results scattered and hard to compare.
+  current_alternative: GQRX、SDR#、rtl_433、dump1090 等单一用途工具，或自行拼装脚本与驱动。
+  current_alternative_en: Single-purpose tools such as GQRX, SDR#, rtl_433 or dump1090, or self-assembled
+    scripts and drivers.
+  usage_reason: 推断：OnAir 把多种制式的接收与解码收进一个跨平台界面，用户不必为每种信号单独装工具和驱动，因此需要同时监听多个频段的爱好者或工程人员会先试它。
+  usage_reason_en: 'Inference: OnAir folds multi-standard reception and decoding into one cross-platform
+    interface, so users no longer install a separate tool and driver per signal, which is why hobbyists
+    or engineers monitoring several bands at once would try it first.'

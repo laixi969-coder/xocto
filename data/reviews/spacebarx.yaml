@@ -24,3 +24,45 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+- id: req-initial-spacebarx-2026-10-13
+  project_slug: spacebarx
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决笔记、任务与项目的整理需求，但公开材料未说明具体工作节点、输入材料与交付结果，痛点与不采用代价都无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-939d8adfb250ddc6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有一句产品定位，没有可归因到该产品的使用、评价或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-939d8adfb250ddc6
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未说明买方是个人、团队还是企业，也没有定价或付费路径信息，钱从哪来无法判断。
+    evidence_ids:
+    - ev-939d8adfb250ddc6
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近该工作的第一性目标、承诺能否确定性交付，也看不到安全与人工边界。
+    evidence_ids:
+    - ev-939d8adfb250ddc6
+  next_validation: 收集 SpacebarX 官方产品页或定价页，确认它是否用 AI 处理输入、具体交付物是什么以及按什么方式收费。
+  market: ''
+  job: 尚未确认：公开材料未说明谁在什么工作节点打开它、处理什么材料、要完成什么任务，只知是笔记、任务与项目的大纲录入。
+  job_en: 'Not yet established: public material does not say who opens it at which work step, with what
+    material, to finish what task; only that it is outlining for notes, tasks and projects.'
+  pain: 尚未确认：无法从现有材料判断用户原来在哪一步难受，也无法判断不采用会失去什么。
+  pain_en: 'Not yet established: current material does not show which step was painful before, nor what
+    is lost by not adopting it.'
+  current_alternative: 尚未确认：未说明用户此前用纸笔、文档、其他大纲工具还是任务软件完成同类整理。
+  current_alternative_en: 'Not yet established: it is unclear whether users previously used paper, documents,
+    other outliners or task tools for the same organizing work.'
+  usage_reason: 无法判断：材料只说明它是键盘优先的大纲工具，没有说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material only says it is a keyboard-first outliner and does
+    not show which step it removes versus the old way or which checkable result it improves, so user choice
+    cannot be explained.'

@@ -1,0 +1,95 @@
+- id: req-initial-monopulse-raises-over-2m-to-advance-electronic-warfare-resis-2026-10-13
+  project_slug: monopulse-raises-over-2m-to-advance-electronic-warfare-resis
+  level: initial
+  reviewed_at: '2026-10-13T03:04:22Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电子战干扰下侦察无人机失联、任务中断的问题，痛点在军方任务中刚性且不采用的代价明确；买方为国防采购方，公开材料未披露定价。
+    evidence_ids:
+    - ev-b832c9b94d0e746d
+  - gate: consensus
+    status: supported
+    reason: 立陶宛与丹麦军方已在使用其技术，并正在向其他北约市场扩展，属于可核验的采用信号，而非单纯关注度。
+    evidence_ids:
+    - ev-b832c9b94d0e746d
+  - gate: model
+    status: insufficient
+    reason: 公开材料只说明融资来源与投资方，未披露定价、单机收入或采购合同金额，钱从国防采购来是判断而非已验证事实。
+    evidence_ids:
+    - ev-b832c9b94d0e746d
+  - gate: truth
+    status: supported
+    reason: 产品贴近侦察任务的第一性目标，抗干扰与自主飞行是可核对的交付结果，且军方人员仍保留最终决策边界。
+    evidence_ids:
+    - ev-b832c9b94d0e746d
+  next_validation: 收集 Monopulse 官方产品页或北约采购公告中关于 Falcon MK3S 交付规格、客户合同或部署范围的公开材料。
+  market: ''
+  job: 军方侦察任务规划人员在通信与导航被干扰的战场环境下，处理无人机回传的传感与影像数据，完成目标识别与自主返航决策。
+  job_en: Military reconnaissance planners process sensor and imagery data returned by drones in jammed
+    communication and navigation environments to complete target identification and autonomous return
+    decisions.
+  pain: 电子战干扰会切断通信与导航信号，导致侦察无人机失联、任务中断甚至损失，操作方无法获得可用的战场信息。
+  pain_en: Electronic warfare jamming severs communication and navigation signals, causing reconnaissance
+    drones to lose contact, abort missions or be lost, leaving operators without usable battlefield information.
+  current_alternative: 依赖传统遥控链路与 GPS 导航的无人机，在干扰下需要人工切换备用频段或直接放弃任务，抗干扰能力靠加装硬件而非机载自主判断。
+  current_alternative_en: Drones relying on conventional remote-control links and GPS navigation require
+    manual frequency switching or mission abandonment under jamming, with resilience added through hardware
+    rather than onboard autonomous judgment.
+  usage_reason: 推断：相较旧做法在信号丢失后只能人工接管或弃机，Monopulse 通过机载传感器融合与计算机视觉在链路中断时维持通信或自主飞行，减少操作员在干扰瞬间的接管负担，因此面临电子战威胁的北约军方会在侦察与海上监视任务中选择它。
+  usage_reason_en: 'Inference: whereas the old approach allows only manual takeover or drone loss after
+    signal loss, Monopulse uses onboard sensor fusion and computer vision to maintain communication or
+    fly autonomously during link interruption, reducing the operator''s takeover burden at the moment
+    of jamming, so NATO militaries facing electronic warfare threats would choose it for reconnaissance
+    and maritime surveillance missions.'
+- id: req-full-monopulse-raises-over-2m-to-advance-electronic-warfare-resis-2026-10-13
+  project_slug: monopulse-raises-over-2m-to-advance-electronic-warfare-resis
+  level: full
+  reviewed_at: '2026-10-13T03:45:45Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电子战干扰下侦察无人机失联、任务中断的需求，痛点在军方任务中刚性且不采用代价明确；立陶宛与丹麦军方已使用，买方为国防采购方，公开材料未披露定价。
+    evidence_ids:
+    - ev-b832c9b94d0e746d
+  - gate: consensus
+    status: supported
+    reason: 公开材料称立陶宛与丹麦武装部队已使用其技术并正向其他北约市场扩展，属可核验的采用信号；但未披露使用频次或留存，故把握有限。
+    evidence_ids:
+    - ev-b832c9b94d0e746d
+  - gate: model
+    status: insufficient
+    reason: 公开材料只说明融资来源与投资方，未披露定价、单机收入或采购合同金额；钱来自国防采购方是判断而非已验证事实，存在依赖融资叙事的风险。
+    evidence_ids:
+    - ev-b832c9b94d0e746d
+  - gate: truth
+    status: supported
+    reason: 产品贴近侦察任务第一性目标，抗干扰与信号丢失后自主飞行是可核对的交付结果，且公开材料显示军方人员仍保留最终决策边界。
+    evidence_ids:
+    - ev-b832c9b94d0e746d
+  next_validation: 追踪 Monopulse 官网产品页或北约/立陶宛、丹麦国防采购公告中关于 Falcon MK3S 交付规格、客户合同或部署范围的公开材料。
+  market: ''
+  job: 北约军方侦察任务规划人员在电子战干扰、通信与导航信号被压制的情况下，使用 Monopulse 的 Falcon MK3S 侦察无人机平台处理机载传感与影像数据，完成目标识别、持续监视与信号丢失后的自主返航决策。
+  job_en: NATO military reconnaissance planners, when electronic warfare jams communication and navigation
+    signals, use Monopulse's Falcon MK3S reconnaissance drone platform to process onboard sensor and imagery
+    data and complete target identification, persistent surveillance and autonomous return decisions after
+    signal loss.
+  pain: 公开材料指出电子战环境下通信与导航信号会被干扰或压制，导致侦察无人机失联、任务中断；操作方拿不到可用的战场信息，且需人工切换频段或弃机，任务代价高。
+  pain_en: Public material states that in electronic warfare environments communication and navigation
+    signals can be disrupted or jammed, causing reconnaissance drones to lose contact and missions to
+    abort; operators get no usable battlefield information and must manually switch frequencies or abandon
+    the drone at high mission cost.
+  current_alternative: 依赖常规遥控链路与 GPS 导航的侦察无人机，干扰下靠人工切换备用频段、加装抗干扰硬件或直接放弃任务，抗干扰能力不在机载自主判断层。
+  current_alternative_en: Reconnaissance drones relying on conventional remote-control links and GPS navigation,
+    which under jamming require manual frequency switching, add-on anti-jam hardware, or outright mission
+    abandonment, with resilience not residing in onboard autonomous judgment.
+  usage_reason: 推断：相较旧做法在链路中断后只能人工接管或弃机，Monopulse 通过机载传感器融合、计算机视觉与 AI 在信号丢失时维持通信或自主飞行，减少操作员在干扰瞬间的接管与切换负担，因此面临电子战威胁的北约军方会在陆上侦察与海上监视任务中选择它。
+  usage_reason_en: 'Inference: whereas the old approach allows only manual takeover or drone loss after
+    link loss, Monopulse uses onboard sensor fusion, computer vision and AI to maintain communication
+    or fly autonomously when signals are lost, cutting the operator''s takeover and switching burden at
+    the moment of jamming, so NATO militaries facing electronic warfare threats would choose it for land
+    reconnaissance and maritime surveillance missions.'

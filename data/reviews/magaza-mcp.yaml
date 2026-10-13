@@ -281,3 +281,52 @@
     user''s behalf, cutting duplicate entry and switching steps, so Turkish-speaking small publishing
     teams syncing version and copy across both stores may choose it; public materials contain no user
     feedback confirming this motive.'
+- id: req-full-magaza-mcp-2026-10-13
+  project_slug: magaza-mcp
+  level: full
+  reviewed_at: '2026-10-13T03:45:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决双商店发布中同一版本信息重复录入与状态核对的痛点，发版频率高时摩擦刚性；公开仓库说明单一 MCP 入口同时接 App Store Connect 与 Google Play，可还原输入—动作—交付闭环，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+    - ev-325451e354f937dd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 84 缓慢升至 92，说明有开发者关注，但收藏与排名只属关注度证据，不能证明目标用户已把它留在发布工作流中；缺少 issue、discussion 或客户案例说明实际采用。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+    - ev-b733821b035c7276
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或采购记录，无法判断收入来自 to C 开发者、to B 发行团队还是仅靠开源维护；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-2507a7eeb1fc1880
+  - gate: truth
+    status: insufficient
+    reason: 仓库未公开说明覆盖哪些商店字段、提交失败如何处理、是否需人工复核，交付能否稳定发生与安全边界尚缺可复现证据；仅凭一句产品描述不足以确认承诺可确定性兑现。
+    evidence_ids:
+    - ev-325451e354f937dd
+  next_validation: 追踪 magaza-mcp 仓库的 README、issue 与 discussion，确认其实际覆盖的商店字段、提交失败处理方式与是否有开发者报告在真实发版中使用。
+  market: ''
+  job: 土耳其语开发者或小型发行团队在准备上架或更新应用时，需要同时处理 App Store Connect 和 Google Play 两套后台，核对并提交版本、文案与发布状态，最终让两个商店的发布动作落地。
+  job_en: Turkish-speaking developers or small publishing teams preparing an app launch or update must
+    work across both App Store Connect and Google Play backends, checking and submitting version, copy,
+    and release status so that the release action lands in both stores.
+  pain: 双商店后台彼此独立，同一版本信息要在两处重复录入与核对，状态不一致时容易漏改或错发；这种重复劳动在每次发版时都会出现，属于发布流程中的固定摩擦。
+  pain_en: The two store backends are separate, so the same release information must be entered and checked
+    twice; when statuses diverge, fields get missed or wrong releases go out. This duplication recurs
+    on every release and is a fixed friction in the publishing workflow.
+  current_alternative: 当前替代方式是分别登录 App Store Connect 与 Google Play 后台手工操作，或使用 fastlane 等脚本化发布工具；前者重复劳动，后者需要自行编写和维护脚本。
+  current_alternative_en: Today users either log into App Store Connect and Google Play separately and
+    work manually, or use scripted release tools such as fastlane, which require writing and maintaining
+    scripts.
+  usage_reason: 推断：相较手工双后台操作，它把两个商店的接口收敛到同一个 MCP 入口，由 AI 助手在一次会话中读取和提交两边的版本与状态，减少的是“切换后台并重复录入同一份发布信息”这一步；因此土耳其语小团队在频繁发版、又不想维护发布脚本时更可能选择它。
+  usage_reason_en: 'Inference: compared with manual dual-backend work, it consolidates both store APIs
+    behind one MCP entry point so an AI assistant can read and submit version and status on both sides
+    in one session, removing the step of switching backends and re-entering the same release information;
+    Turkish-speaking small teams releasing frequently without wanting to maintain release scripts are
+    therefore more likely to choose it.'

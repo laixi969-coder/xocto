@@ -1,0 +1,91 @@
+- id: req-initial-this-ai-startup-says-it-can-generate-permit-ready-blueprints-2026-10-13
+  project_slug: this-ai-startup-says-it-can-generate-permit-ready-blueprints
+  level: initial
+  reviewed_at: '2026-10-13T03:04:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决报建前图纸产出慢、规范核对靠人工的问题，痛点刚性且不采用会拖住开工，旧流程与替代方式清晰。
+    evidence_ids:
+    - ev-f27939e7198d4744
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品能力描述，没有客户案例、用户评价或采用规模，无法判断承包商是否真的把图纸送审。
+    evidence_ids:
+    - ev-f27939e7198d4744
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按份、按项目还是订阅收费均不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-f27939e7198d4744
+  - gate: truth
+    status: insufficient
+    reason: 生成图纸能否通过各地审图、出错时责任如何划分，公开材料未说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-f27939e7198d4744
+  next_validation: 收集 Blueprints AI 官方定价页或公开客户案例，确认其按什么计价、是否有承包商实际用其图纸通过审批的记录。
+  market: ''
+  job: 建筑承包商或小型设计工作室在报建前，拿到业主提供的现场照片、旧图纸 PDF 或手绘草图，需要产出可提交审批的合规施工蓝图。
+  job_en: A contractor or small design studio, before permit submission, receives site photos, old PDF
+    drawings, or hand sketches from the owner and needs to produce a code-compliant construction blueprint
+    ready for approval.
+  pain: 制图与规范核对依赖人工，周期长、按小时计费贵，且一处规范疏漏就会导致退件重做，直接拖住开工时间。
+  pain_en: Drafting and code checking are manual, slow, and billed hourly, and a single code omission
+    triggers rejection and rework, directly delaying the start of construction.
+  current_alternative: 雇制图员或结构工程师按小时画图，或使用 AutoCAD、SketchUp 等通用制图软件从零绘制，再人工对照当地规范逐条核对。
+  current_alternative_en: Hiring a drafter or structural engineer on hourly billing, or drawing from scratch
+    in general tools such as AutoCAD or SketchUp, then manually checking each item against local codes.
+  usage_reason: 推断：相较从零制图再人工查规范，它把照片、PDF 或草图直接转成图纸初稿，省掉的是第一版底图绘制这一步，让承包商在等工程师排期之前就能拿到可讨论的版本；因此工期紧、预算有限、项目标准化程度高的住宅改造承包商会先试用它。
+  usage_reason_en: 'Inference: compared with drafting from scratch and manually checking codes, it converts
+    a photo, PDF, or sketch directly into a first-pass drawing set, removing the step of drawing the base
+    plan, so a contractor can have a discussable version before an engineer is available; contractors
+    on tight schedules with limited budgets and standardized residential remodels are the ones likely
+    to try it first.'
+- id: req-full-this-ai-startup-says-it-can-generate-permit-ready-blueprints-2026-10-13
+  project_slug: this-ai-startup-says-it-can-generate-permit-ready-blueprints
+  level: full
+  reviewed_at: '2026-10-13T03:47:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决报建前图纸产出慢、规范核对靠人工的问题，痛点刚性且不采用会拖住开工，旧流程与替代方式清晰。
+    evidence_ids:
+    - ev-14559188345de198
+    - ev-5325212190783886
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品能力描述，没有客户案例、用户评价或采用规模，无法判断承包商是否真的把图纸送审。
+    evidence_ids:
+    - ev-14559188345de198
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按份、按项目还是订阅收费均不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-5325212190783886
+  - gate: truth
+    status: insufficient
+    reason: 生成图纸能否通过各地审图、出错时责任如何划分，公开材料未说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-14559188345de198
+  next_validation: 收集 Blueprints AI 官方定价页或公开客户案例，确认其按什么计价、是否有承包商实际用其图纸通过审批的记录。
+  market: ''
+  job: 建筑承包商或小型设计工作室在报建前，拿到业主提供的现场照片、旧图纸 PDF 或手绘草图时，需要把这些零散材料转成可提交审批的合规施工蓝图初稿，以便在等工程师排期之前推进项目。
+  job_en: A contractor or small design studio, before permit submission, receives site photos, old PDF
+    drawings, or hand sketches from the owner and needs to turn these scattered inputs into a code-compliant
+    construction blueprint draft so the project can move before an engineer is available.
+  pain: 制图与规范核对依赖人工，按小时计费且周期长；一处规范疏漏就会导致退件重做，直接拖住开工时间，而小型承包方往往没有常驻制图人员。
+  pain_en: Drafting and code checking are manual, hourly billed, and slow; a single code omission triggers
+    rejection and rework, directly delaying construction, and small contractors often have no in-house
+    drafter.
+  current_alternative: 雇制图员或结构工程师按小时画图，或用 AutoCAD、SketchUp 等通用制图软件从零绘制，再人工逐条对照当地规范核对。
+  current_alternative_en: Hiring a drafter or structural engineer on hourly billing, or drawing from scratch
+    in general tools such as AutoCAD or SketchUp, then manually checking each item against local codes.
+  usage_reason: 推断：相较从零制图再人工查规范，它把照片、PDF 或草图直接转成图纸初稿，省掉第一版底图绘制这一步，让承包商在等工程师排期前就拿到可讨论的版本；因此工期紧、预算有限、项目标准化程度高的住宅改造承包商会先试用它。
+  usage_reason_en: 'Inference: compared with drafting from scratch and manually checking codes, it converts
+    a photo, PDF, or sketch directly into a first-pass drawing set, removing the base-plan drafting step
+    so a contractor has a discussable version before an engineer is available; contractors on tight schedules
+    with limited budgets and standardized residential remodels are the ones likely to try it first.'

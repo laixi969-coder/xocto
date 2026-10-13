@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jd1ZyMThJMTJ2
 summary: 比尔·盖茨再发警告！AI安全进入刚需期 融资客提前布局这些股(名单) 东方财富
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

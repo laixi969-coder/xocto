@@ -22,7 +22,7 @@ summary: 19-Year-Old Zach Yadegari Raises $10 Million for AI Startup After 15 Un
   Startup Times
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

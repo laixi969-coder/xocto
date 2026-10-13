@@ -224,3 +224,54 @@
     the work of scraping, cleaning and maintaining fields across sources, so developers who need agents
     to answer local-activity queries in real time would choose it in that scenario; however, data sources,
     city coverage and calling method are undisclosed, and no user feedback or case confirms this c'
+- id: req-full-syncso-2026-10-13
+  project_slug: syncso
+  level: full
+  reviewed_at: '2026-10-13T03:47:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理获取城市本地活动实时信息的需求：时间、价格、预订链接与图片需结构化可用，否则代理只能自行抓取多站、字段不一且易过期，回答不可用。公开材料仅一句能力描述，痛点强度属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-33256b132333836e
+    - ev-5fade128814b5004
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 101 升至 301 后回落至 137，只反映关注度波动，不能证明开发者已把它留在工作流；缺少 issue、discussion 或使用反馈说明真实场景共识。
+    evidence_ids:
+    - ev-33256b132333836e
+    - ev-528d940d6a368271
+    - ev-5ca2b4146d5d9b53
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、调用配额或买方类型，无法判断收入来自开发者订阅、按调用计费还是数据授权；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-33256b132333836e
+  - gate: truth
+    status: insufficient
+    reason: 未说明数据来源、覆盖城市与更新频率，无法核对时间价格准确性、预订链接有效性及交付是否确定发生；安全与人工边界亦无公开说明。
+    evidence_ids:
+    - ev-33256b132333836e
+    - ev-5fade128814b5004
+  next_validation: 追踪 syncso 官方仓库 README 与文档，确认数据来源、覆盖城市、调用方式与是否公布定价或配额。
+  market: ''
+  job: 开发者在为旅行或本地生活类 AI 代理接入城市活动数据时，需要让代理在用户询问“今晚这座城市有什么可去”时，拿到带时间、价格、预订链接与图片的实时活动条目，并据此完成推荐或预订引导。
+  job_en: Developers wiring city-event data into travel or local-life AI agents need the agent, when a
+    user asks what is on in the city tonight, to receive real-time event entries with times, prices, booking
+    links and images, and to turn them into recommendations or booking hand-offs.
+  pain: 代理要回答本地活动问题，必须自己逐个抓取票务、场馆与活动页面，字段格式不一、时间与价格易过期、预订链接缺失，导致回答不可用或误导用户；公开材料只给出能力描述，未披露具体抱怨来源，痛点强度属工作流结构推理。
+  pain_en: To answer local-event questions an agent must scrape ticketing, venue and event pages one by
+    one; fields are inconsistent, times and prices go stale, booking links are missing, so answers become
+    unusable or misleading. The public material gives only a capability statement and no complaint source,
+    so pain intensity is a workflow inference.
+  current_alternative: 开发者目前多靠自行爬取活动与票务页面、拼接地图或票务平台接口，或让代理直接调用通用搜索；这些做法需要自己维护解析与更新逻辑，字段和时效性难以保证。
+  current_alternative_en: Developers today mostly scrape event and ticketing pages themselves, stitch
+    together map or ticketing APIs, or let the agent fall back to generic search; each requires maintaining
+    parsing and refresh logic, with weak guarantees on fields and freshness.
+  usage_reason: 推断：相较自行抓取或通用搜索，syncso 以单一接口直接返回带时间、价格、预订链接与图片的结构化城市活动条目，省去开发者逐站解析与字段对齐这一步，因此正在搭建本地活动问答或行程推荐代理的开发者，会在需要实时、可直接渲染的活动数据时选择它。
+  usage_reason_en: 'Inference: versus self-scraping or generic search, syncso returns structured city-event
+    entries with times, prices, booking links and images through a single interface, removing the per-site
+    parsing and field-alignment step, so developers building local-event Q&A or itinerary agents would
+    pick it when they need real-time, directly renderable event data.'

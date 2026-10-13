@@ -1,0 +1,83 @@
+- id: req-initial-e2e-2026-10-13
+  project_slug: e2e
+  level: initial
+  reviewed_at: '2026-10-13T03:03:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决三端测试脚本重复编写与维护的问题，痛点方向清楚；但公开材料只有一句框架定位，无法还原输入、动作与交付，价值结构尚不能判定。
+    evidence_ids:
+    - ev-b93dd431d11617af
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区讨论、8 个点赞，没有用户评价、案例或采用数据，无法判断是否有人真的把它放进测试流程。
+    evidence_ids:
+    - ev-b93dd431d11617af
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、商业版本或企业采购信息，买方与付费路径均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b93dd431d11617af
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理执行测试的确定性、失败重试与人工确认边界，也没有可复现的实测记录。
+    evidence_ids:
+    - ev-b93dd431d11617af
+  next_validation: 收集该仓库的 README、文档与 issue/discussion，确认它接收什么输入、在哪些环境执行、产出何种测试结果，以及是否已有团队公开使用。
+  market: ''
+  job: 测试工程师在版本发布前，为 Web、iOS、Android 三端编写并维护端到端测试脚本，确认关键流程没有回归。
+  job_en: QA engineers write and maintain end-to-end test scripts for web, iOS and Android before a release
+    to confirm key flows have not regressed.
+  pain: 三端脚本各写一遍、维护成本高，界面一改就要同步修多处，回归测试常被压缩或跳过。
+  pain_en: Scripts must be written once per platform and maintained in parallel; any UI change forces
+    edits in several places, so regression testing is often compressed or skipped.
+  current_alternative: 现有做法是各端分别使用 Appium、Detox、Playwright 等框架手写脚本，或由人工按用例逐条点测。
+  current_alternative_en: The current practice is hand-written scripts per platform using Appium, Detox
+    or Playwright, or manual click-through testing against a checklist.
+  usage_reason: 推断：若代理能直接接收测试意图并跨三端执行，团队可省去为每端分别编写和维护脚本这一步，把回归测试从“改脚本”变成“描述任务”。但公开材料只有一句框架定位，未说明输入、执行与结果形态，因此尚不能确认它真能减少这一步负担。
+  usage_reason_en: 'Inference: if agents can take a testing intent and execute it across three platforms,
+    teams could skip writing and maintaining a script per platform, turning regression testing from editing
+    scripts into describing tasks. But the public material is only a one-line positioning with no input,
+    execution or output detail, so it cannot yet be confirmed that this step is actually reduced.'
+- id: req-full-e2e-2026-10-13
+  project_slug: e2e
+  level: full
+  reviewed_at: '2026-10-13T03:44:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决三端测试脚本重复编写与维护的问题，痛点方向清楚；但公开材料只有一句框架定位，无法还原输入、动作与交付，价值结构尚不能判定。
+    evidence_ids:
+    - ev-25e86ebb53af44fb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、文档与 issue/discussion，确认它接收什么输入、在哪些环境执行、产出何种测试结果，以及是否已有团队公开使用。
+  market: ''
+  job: 测试工程师在版本发布前，为 Web、iOS、Android 三端编写并维护端到端测试脚本，确认关键流程没有回归。
+  job_en: QA engineers write and maintain end-to-end test scripts for web, iOS and Android before a release
+    to confirm key flows have not regressed.
+  pain: 三端脚本各写一遍、维护成本高，界面一改就要同步修多处，回归测试常被压缩或跳过。
+  pain_en: Scripts must be written once per platform and maintained in parallel; any UI change forces
+    edits in several places, so regression testing is often compressed or skipped.
+  current_alternative: 现有做法是各端分别使用 Appium、Detox、Playwright 等框架手写脚本，或由人工按用例逐条点测。
+  current_alternative_en: The current practice is hand-written scripts per platform using Appium, Detox
+    or Playwright, or manual click-through testing against a checklist.
+  usage_reason: 推断：若代理能直接接收测试意图并跨三端执行，团队可省去为每端分别编写和维护脚本这一步，把回归测试从“改脚本”变成“描述任务”。但公开材料只有一句框架定位，未说明输入、执行与结果形态，因此尚不能确认它真能减少这一步负担。
+  usage_reason_en: 'Inference: if agents can take a testing intent and execute it across three platforms,
+    teams could skip writing and maintaining a script per platform, turning regression testing from editing
+    scripts into describing tasks. But the public material is only a one-line positioning with no input,
+    execution or output detail, so it cannot yet be confirmed that this step is actually reduced.'

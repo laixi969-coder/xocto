@@ -1,0 +1,83 @@
+- id: req-initial-cube-forms-2026-10-13
+  project_slug: cube-forms
+  level: initial
+  reviewed_at: '2026-10-13T03:03:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把客户与线索信息采集进结构化表单的需求，痛点是人工录入慢且格式易错，旧做法是人工填写加事后清洗。
+    evidence_ids:
+    - ev-1b216b04a088fd65
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品描述，没有用户评价或客户案例，无法判断填写方是否真的愿意让代理代填。
+    evidence_ids:
+    - ev-1b216b04a088fd65
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按表单、按条线索还是按席位收费不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-1b216b04a088fd65
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理填写的数据准确性与人工复核边界，采集结果能否确定性交付未知。
+    evidence_ids:
+    - ev-1b216b04a088fd65
+  next_validation: 收集 Cube Forms 官方文档或演示，确认代理填写的字段校验、数据落库方式与是否公布定价。
+  market: ''
+  job: 运营或销售人员在需要收集客户与线索信息时，让代理代替人工填写表单，并回收可入库的结构化数据。
+  job_en: Operations or sales staff let an agent fill in forms on their behalf when collecting customer
+    and lead information, and take back structured data ready for storage.
+  pain: 人工逐项填表慢、字段格式常出错、重复信息多，后续还要清洗才能入库。
+  pain_en: Manual form filling is slow, field formats are often wrong and duplicates are common, so cleaning
+    is needed before the data can be stored.
+  current_alternative: 人工填写或复制粘贴，配合表格校验规则和事后人工去重。
+  current_alternative_en: Manual filling or copy-paste, combined with spreadsheet validation rules and
+    after-the-fact manual deduplication.
+  usage_reason: 推断：相比人工逐项录入，它让代理直接产出符合字段要求的记录，减少录入和格式返工那一步；但公开材料没有字段校验与去重能力的说明，哪类团队会采用仍缺少证据。
+  usage_reason_en: 'Inference: versus manual entry it has the agent produce records that already match
+    field requirements, removing the entry and format-rework step; but public material says nothing about
+    validation or deduplication, so which teams would adopt it lacks evidence.'
+- id: req-full-cube-forms-2026-10-13
+  project_slug: cube-forms
+  level: full
+  reviewed_at: '2026-10-13T03:44:05Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅一句“可被代理填写的表单”，未说明谁在什么情况下处理什么材料、要完成什么任务，也写不出具体痛点与旧替代方式，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-aca7022d5c0e6e5b
+    - ev-fec0179cd1aacc6c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Cube Forms 官网或产品页，确认其是否公布表单字段校验、数据落库方式与定价信息。
+  market: ''
+  job: 运营或销售人员在需要收集客户与线索信息时，让代理代替人工填写表单并回收结构化数据。
+  job_en: Operations or sales staff let an agent fill in forms on their behalf when collecting customer
+    and lead information, and take back structured data.
+  pain: 公开材料只有“可被代理填写的表单”一句，未说明人工录入慢、字段出错或重复信息等具体痛点，也没有用户抱怨或案例佐证。
+  pain_en: Public material offers only the phrase 'forms that can be filled by agents'; it names no concrete
+    pain such as slow manual entry, field errors or duplicates, and no user complaint or case supports
+    one.
+  current_alternative: 公开材料未披露当前替代方式，无法确认用户此前是人工填写、复制粘贴还是用其他表单工具。
+  current_alternative_en: Public material does not disclose the current alternative, so it is unknown
+    whether users previously filled forms manually, copy-pasted, or used other form tools.
+  usage_reason: 缺少字段校验、数据落库与人工确认环节的公开说明，无法解释代理代填相较旧做法减少哪一步负担，因此用户为何选择它只能存疑。
+  usage_reason_en: With no public detail on field validation, data storage or human confirmation, it is
+    impossible to explain which step the agent-filling removes versus the old way, so why users would
+    choose it remains unclear.

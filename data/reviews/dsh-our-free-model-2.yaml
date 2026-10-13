@@ -168,3 +168,44 @@
     call models without managing keys; however the source, cost bearer and sustainability of the free
     quota are undisclosed and there is no retention or repeat-use evidence, so long-term workflow placement
     cannot be confirmed.'
+- id: req-full-dsh-our-free-model-2-2026-10-13
+  project_slug: dsh-our-free-model-2
+  level: full
+  reviewed_at: '2026-10-13T03:44:28Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是多模型接入时注册与密钥配置的摩擦，但公开材料只有一句功能宣称，没有任何用户抱怨、issue 或反馈证明该摩擦是刚性痛点；省去一次性密钥配置属于锦上添花，不用它开发者仍可用官方免费额度或聚合服务，价值关不成立。
+    evidence_ids:
+    - ev-4bd960c40710b563
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认免费额度的实际来源、是否声明上游授权与速率限制，以及使用者报告的可用性变化。
+  market: ''
+  job: 使用 dsh 的开发者，在需要调用前沿模型处理代码或文本时，安装该插件后直接发起请求，省去逐平台注册账号与配置 API Key 的步骤。
+  job_en: A developer using dsh who needs frontier models for code or text tasks installs this plugin
+    and issues requests directly, skipping per-platform account registration and API key configuration.
+  pain: 公开材料只说明接入摩擦（注册、密钥、计费配置）被省去，但未提供任何用户抱怨、issue 或反馈证明这一摩擦构成刚性痛点；对多数开发者而言，申请一次 API Key 是一次性成本，而非持续负担。
+  pain_en: Public material only states that onboarding friction (sign-up, keys, billing setup) is removed,
+    but offers no user complaints, issues or feedback showing this friction is an acute pain; for most
+    developers obtaining an API key is a one-time cost, not an ongoing burden.
+  current_alternative: 逐平台注册并申请密钥、配置环境变量，或使用官方免费额度、付费模型聚合服务与本地开源模型。
+  current_alternative_en: Registering per platform and requesting keys, setting environment variables,
+    or using official free tiers, paid model aggregation services and local open-source models.
+  usage_reason: 推断：它把接入动作压缩为一次安装，省去密钥管理这一步，因此想零成本试多个模型的 dsh 用户会先装它；但免费额度的来源、成本承担方与合规边界均未公开，一旦上游收紧即无法交付，用户没有理由把它长期留在工作流里。
+  usage_reason_en: 'Inference: it compresses onboarding into a single install and removes key management,
+    so dsh users wanting to try several models at zero cost would install it first; however the source
+    of the free quota, who bears the cost and the compliance boundary are undisclosed, so delivery can
+    vanish if upstream tightens and users have no reason to keep it in their workflow.'

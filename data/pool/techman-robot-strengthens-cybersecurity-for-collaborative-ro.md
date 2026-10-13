@@ -1,6 +1,6 @@
 ---
 slug: techman-robot-strengthens-cybersecurity-for-collaborative-ro
-name: Techman Robot strengthens cybersecurity for collaborative robots in connected manufacturing environments
+name: Techman Robot
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Techman Robot strengthens cybersecurity for collaborative robots in con
   Today's Medical Developments
 first_seen: '2026-10-13T03:04:29Z'
 last_seen: '2026-10-13T03:04:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Techman Robot strengthens cybersecurity for collaborative robots in connected manufacturing environments
+# Techman Robot
 
 Techman Robot strengthens cybersecurity for collaborative robots in connected manufacturing environments Today's Medical Developments
 

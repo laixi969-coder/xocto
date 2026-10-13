@@ -21,7 +21,7 @@ canonical_url: https://yyhh.org/blog/2026/10/ai-is-a-tool
 summary: AI is a tool and using it well takes skill
 first_seen: '2026-10-13T03:03:54Z'
 last_seen: '2026-10-13T03:03:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
