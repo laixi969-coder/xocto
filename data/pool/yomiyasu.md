@@ -41,17 +41,17 @@ url: https://github.com/nanaism/yomiyasu
 canonical_url: https://github.com/nanaism/yomiyasu
 summary: AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill
 first_seen: '2026-09-30T11:49:32Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nanaism/yomiyasu
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 1862
-    forks: 42
+    stars: 1922
+    forks: 44
     open_issues: 0
   kind: product
 ---

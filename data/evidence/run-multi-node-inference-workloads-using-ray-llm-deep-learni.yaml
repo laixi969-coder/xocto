@@ -1,0 +1,18 @@
+- id: ev-7eb17080484b26e4
+  project_slug: run-multi-node-inference-workloads-using-ray-llm-deep-learni
+  url: https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/
+  title: Run multi-node inference workloads using Ray LLM Deep Learning Containers
+  published_at: '2026-10-12T15:50:14Z'
+  collected_at: '2026-10-13T03:04:22Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: This post shows how to deploy one large language model (LLM) across two GPU nodes on Amazon Elastic
+    Kubernetes Service (Amazon EKS) with the multi-node Ray LLM Deep Learning Containers . It uses separate
+    prefill and decode nodes behind one OpenAI-compatible endpoint. This kind of multi-node setup is common
+    for tensor, pipeline, and data parallelism, as well as prefill/decode disaggregation inference workloads.
+    In a previous post , we introduced the Ray Serve DLC and used it to stand up a small model behind
+    an HTTP endpoint on a single GPU node. You had a working inference endpoint, and the container keeps
+    the GPU stack compatible, including CUDA libraries, so you did not need to write boilerplate code.
+    Ray is a distributed compute framework, so Ray Serve deployments can span multiple nodes. Customers
+    use multi-node Ray Serve for several reasons. Some want to run foundation or open-weight models that
+    are too large for a single GPU. Others need more throughput than one replica can delive

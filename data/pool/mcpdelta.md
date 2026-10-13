@@ -35,7 +35,7 @@ summary: 'Delta MCP is a free app that sits between your AI apps and their MCP s
   task instead of one tool call per step, up to 24.1× fewer tokens in our benchmarks. Every change is
   recorded and undoable. Coming soon for macOS, Windows and Linux.'
 first_seen: '2026-10-07T17:53:23Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
@@ -50,9 +50,9 @@ sightings:
   kind: product
 - source: github
   url: https://www.mcpdelta.com
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 80
+    stars: 81
     forks: 11
     open_issues: 0
   kind: product

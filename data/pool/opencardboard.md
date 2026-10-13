@@ -34,18 +34,18 @@ url: https://github.com/rakesh0x/OpenCardboard
 canonical_url: https://github.com/rakesh0x/OpenCardboard
 summary: OpenCardboard — local-first chat-to-edit AI video editor. Your footage never leaves your machine.
 first_seen: '2026-10-04T09:23:43Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/rakesh0x/OpenCardboard
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 60
-    forks: 18
-    open_issues: 0
+    stars: 72
+    forks: 20
+    open_issues: 1
   kind: product
 ---
 

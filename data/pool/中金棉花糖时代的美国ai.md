@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzE0WEw4bFRsYXg4amdDY0
 canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzE0WEw4bFRsYXg4amdDY0R4bW9QY3Jsd3U4ZVZYdk91WGlUTmlseGRKTFhRd0U1Y3piZi11MFltOXRyT21sdzQ1WDVLVXU2STdCcmd4Nm16eUE0YzBHSE1VUGpocEVLdWlxUEQ5UHlIaXptb3EyWHliQUt1M3dHT2tPaw?oc=5
 summary: 中金：“棉花糖”时代的美国AI 新浪网
 first_seen: '2026-10-12T01:21:03Z'
-last_seen: '2026-10-12T01:21:03Z'
-status: rejected
+last_seen: '2026-10-13T03:04:29Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzE0WEw4bFRsYXg4amdDY0R4bW9QY3Jsd3U4ZVZYdk91WGlUTmlseGRKTFhRd0U1Y3piZi11MFltOXRyT21sdzQ1WDVLVXU2STdCcmd4Nm16eUE0YzBHSE1VUGpocEVLdWlxUEQ5UHlIaXptb3EyWHliQUt1M3dHT2tPaw?oc=5
   seen_at: '2026-10-12T01:21:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SdXA5YVIxT2s1alYyOU5qcmhUcHJFNTF4dUFwREZ5Qmh6Vm95MVFHcjdhakUxWEZaeXBVelRyZ2tORzJIWG5aN0ZuVkRBeGIzMkV3?oc=5
+  seen_at: '2026-10-13T03:04:29Z'
   metrics: {}
   kind: news
 ---

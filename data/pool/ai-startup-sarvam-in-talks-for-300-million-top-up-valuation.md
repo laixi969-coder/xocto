@@ -1,0 +1,42 @@
+---
+slug: ai-startup-sarvam-in-talks-for-300-million-top-up-valuation
+name: AI startup Sarvam in talks for $300 million top-up; valuation may double to $3 billion
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVDJoa25TWDVHMTBzMENRdkxoQ05Md0R6aURhU3hGVkViMi1pM0szUW1jbHcwRUhteUp0Mk02RzZaOXB0Z0RiSklVekd3TUhmejRlM3JvaWRLTTdCZVNjaERueUs1empoUHpQMGNVbkx6RDAxRVppZVBsVWZMWkNiQWxJSDk2elM3b3ZvNXJaOVZKZHlfMk01X191a3VfalN5NWJLdms0anhuTEVnRjRmV0FRUVBqdlpIRzUwelhKUGdYTi1EdGplU1E3NHlycC1qemxrLURJOTF6REU0aWFJTnk4c1Y5cFN4RHpoby1TR3phejlGY05HddIB6gFBVV95cUxQQkhDYXRkSFd1VkxDWFBuc0dfVmtuTTVoNGl6cFRtRnBBUE1WMng0WG9qbUZDMHJwa2lKenVNT09kX1FyTVBVNnJhSFZKOUpIeXJHX2RQZEdMaUgxOXFyV0gybm1RWjhTNmxBMjgwcDZJcTVrOEJXaUN0VkdBeDBqX2ZFVFNNM0ZzbkNlM3paY2FzZ2RfYVU2SGJEekEzdzRzN2dERm5rMTRENFJDUW1jRUdaVDRvN0xYOWpEdm90dlRENzNZOWlxZzBUSUNhVVRuNTg2aldOVzBRQ2UyTXdOdlNxenQ4cUlfSXc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVDJoa25TWDVHMTBzMENRdkxoQ05Md0R6aURhU3hGVkViMi1pM0szUW1jbHcwRUhteUp0Mk02RzZaOXB0Z0RiSklVekd3TUhmejRlM3JvaWRLTTdCZVNjaERueUs1empoUHpQMGNVbkx6RDAxRVppZVBsVWZMWkNiQWxJSDk2elM3b3ZvNXJaOVZKZHlfMk01X191a3VfalN5NWJLdms0anhuTEVnRjRmV0FRUVBqdlpIRzUwelhKUGdYTi1EdGplU1E3NHlycC1qemxrLURJOTF6REU0aWFJTnk4c1Y5cFN4RHpoby1TR3phejlGY05HddIB6gFBVV95cUxQQkhDYXRkSFd1VkxDWFBuc0dfVmtuTTVoNGl6cFRtRnBBUE1WMng0WG9qbUZDMHJwa2lKenVNT09kX1FyTVBVNnJhSFZKOUpIeXJHX2RQZEdMaUgxOXFyV0gybm1RWjhTNmxBMjgwcDZJcTVrOEJXaUN0VkdBeDBqX2ZFVFNNM0ZzbkNlM3paY2FzZ2RfYVU2SGJEekEzdzRzN2dERm5rMTRENFJDUW1jRUdaVDRvN0xYOWpEdm90dlRENzNZOWlxZzBUSUNhVVRuNTg2aldOVzBRQ2UyTXdOdlNxenQ4cUlfSXc?oc=5
+summary: AI startup Sarvam in talks for $300 million top-up; valuation may double to $3 billion The Economic
+  Times
+first_seen: '2026-10-13T03:04:29Z'
+last_seen: '2026-10-13T03:04:29Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVDJoa25TWDVHMTBzMENRdkxoQ05Md0R6aURhU3hGVkViMi1pM0szUW1jbHcwRUhteUp0Mk02RzZaOXB0Z0RiSklVekd3TUhmejRlM3JvaWRLTTdCZVNjaERueUs1empoUHpQMGNVbkx6RDAxRVppZVBsVWZMWkNiQWxJSDk2elM3b3ZvNXJaOVZKZHlfMk01X191a3VfalN5NWJLdms0anhuTEVnRjRmV0FRUVBqdlpIRzUwelhKUGdYTi1EdGplU1E3NHlycC1qemxrLURJOTF6REU0aWFJTnk4c1Y5cFN4RHpoby1TR3phejlGY05HddIB6gFBVV95cUxQQkhDYXRkSFd1VkxDWFBuc0dfVmtuTTVoNGl6cFRtRnBBUE1WMng0WG9qbUZDMHJwa2lKenVNT09kX1FyTVBVNnJhSFZKOUpIeXJHX2RQZEdMaUgxOXFyV0gybm1RWjhTNmxBMjgwcDZJcTVrOEJXaUN0VkdBeDBqX2ZFVFNNM0ZzbkNlM3paY2FzZ2RfYVU2SGJEekEzdzRzN2dERm5rMTRENFJDUW1jRUdaVDRvN0xYOWpEdm90dlRENzNZOWlxZzBUSUNhVVRuNTg2aldOVzBRQ2UyTXdOdlNxenQ4cUlfSXc?oc=5
+  seen_at: '2026-10-13T03:04:29Z'
+  metrics: {}
+  kind: news
+---
+
+# AI startup Sarvam in talks for $300 million top-up; valuation may double to $3 billion
+
+AI startup Sarvam in talks for $300 million top-up; valuation may double to $3 billion The Economic Times
+
+## 笔记
+
+

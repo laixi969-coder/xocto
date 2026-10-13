@@ -28,14 +28,15 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-10-11T01:02:09Z'
-status: watching
+last_seen: '2026-10-13T03:04:29Z'
+status: pending_filter
 sources:
 - producthunt
 - marketfeeds
 - newssearch
 - hackernews
 - trackedproducts
+- officialfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/muse-22
@@ -328,6 +329,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaTZaSmNwZHItZVAzM1Z3QTFyZlYtRzVCYUNUN09QbVM4MVVUZ1RQaVJuZEhFUzRfQUs2NzV6NFBwTEpGLWgzNTZ1dnBPdDRLVTlSWUV2RGxhM2tHUDh6c3V2MnROb25XcU40M2Y0eUJEX1NvMGFPTHVETFJYVmNQS2pNbGNoVDVTU2FqSHdwTnBrbGhSYzVDMWdyVE1tcmhyQ3d4TkdXT2piM1dmeVR4Wk9RVmpLOVlDaHZHNWhMZ3FRSUtJM01saS1YRm9JNThEZFVPOHFVejhpOEkwdnfSAeMBQVVfeXFMUHhYT1RnMmlBX1lHczFqb0FndDBaWkZjeHJWUzZjbjh1ZFpNaDZaREhRNXc2dkd4RTBFTmtuY2IzZ0VkSURWVUpEU1hxTlRaOUVCVzVHUmRMTDNNUWh6RFVxRHpGVk1PWWR4emViVzFBMnA4UktuUFplZjFxc0lNNjVxV3JUWnEwTGZXMkdqdjU0T0VQRlVZRXJ0RWFpcmFndGt2ZVVFZkQ3dHlHOWo1TC1HemRnRDlVUmFHcEhTeDctOHRnTmp6YzJDMnJybXhlVWpYMjFPYS1wOEN2djhuNTJocmM?oc=5
   seen_at: '2026-10-11T01:02:09Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://about.fb.com/news/2026/10/introducing-muse-wonder-models/
+  seen_at: '2026-10-13T03:04:22Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/
+  seen_at: '2026-10-13T03:04:22Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPd0xrNm9xTEp5RXRTODF1TGRnXzhqVVRvNEVIcE9kX19YRURLYU5LbXh4X2FJWjZFSlNTdVdrSjhGZnZIN1p0ampxVnJFYU14SW9xYWNPLUp5dmxMV0JtMGdTT2t5TlRfel9sa0tGM05lMGRUN2RXWmljUVRQci02TS1hWkZXYnZZbk9MUHJjNmt2dGZrR0NzcE1YTGdXZERqYW05cHRTbGhxVDZKMlJGUURWc0VZY3Bob0tjWW5aOERQd2M0cUVRZm9yQQ?oc=5
+  seen_at: '2026-10-13T03:04:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxON3liTXRlN0F2SDZPVEdJLTFXVG5ITEFYQWU3RnIwaGlQUUhFUklBRGZEVjRiUlB0cldfM01KMnVoTWJIblJ0VEt6WXlwZG1EQXFBckNHaUtsYkw2SXk1S0FtTkF5WVdZMkNjaHF2NlgyQ1hydmZqXzRQc2ZBeWs0N01aeDVZN09KMFU0OTJsSTFBNUhWWEkyWXF3bFJNb2JEbXRqNzQ4ZV83U1VIbTc0UmJXd9IBuAFBVV95cUxOempoVkJSMWU3empSZXZ4dFkwN3o5ZkdtM0dLclFSR1dDN0lHY1RMN0Z5dEw3eEpXU3NXMlRxeDNZbldlSU9aeUJIVDhja3dOVEZvaG9fOW5vNVZrakVEUV9vWGpYN3N2NlRUV1hPMFMyQkJWRzlKWnhMNW1fckg1d0xBeWJtb0xjYUk3S3FwckRjT0R0OFFsNFBUSGdRT3NvbE94YjRKQWgzcW14VXBVTy1HYlpXR3By?oc=5
+  seen_at: '2026-10-13T03:04:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNM0tlRjdoWThYVVZMUnZyTjRGM0JYRWNiQUtIV29KVDVZRnlWcWhFd25MYnF6TVF1ZlBrWk1fVXB3ZDd1WHNXUDkzYlN3bVR2eTZvcjB5UU5obGI5SG1BQ2FjYnkyQUhZeExlN2pOWms0eFd3cnBhMnpTMXdFT2RwS21uT3VibUdQX19UR2RqQ2czWkRwWWFMSV9HZWtTYUQy?oc=5
+  seen_at: '2026-10-13T03:04:29Z'
   metrics: {}
   kind: news
 ---

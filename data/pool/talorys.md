@@ -32,7 +32,7 @@ url: https://github.com/rociiu/talorys
 canonical_url: https://github.com/rociiu/talorys
 summary: A self-hosted personal AI agent on Cloudflare's free tier
 first_seen: '2026-10-11T01:01:01Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - hackernews
@@ -47,10 +47,10 @@ sightings:
   kind: news
 - source: github
   url: https://github.com/rociiu/talorys
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 752
-    forks: 57
+    stars: 907
+    forks: 79
     open_issues: 7
   kind: product
 ---

@@ -33,17 +33,17 @@ canonical_url: https://syncso.com
 summary: Let your agents understand what's happening locally, in real time — every experience across a
   city, with times, prices, booking links and images
 first_seen: '2026-09-23T23:27:35Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://syncso.com
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 189
-    forks: 8
+    stars: 137
+    forks: 5
     open_issues: 0
   kind: product
 ---

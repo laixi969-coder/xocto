@@ -20,17 +20,17 @@ url: https://github.com/MathiasDrizzy/lazymark
 canonical_url: https://github.com/MathiasDrizzy/lazymark
 summary: Lazy markdown notes, tasks and a Kanban board in your terminal. With a sleepy sloth.
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-11T01:01:22Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MathiasDrizzy/lazymark
-  seen_at: '2026-10-11T01:01:22Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 76
-    forks: 3
+    stars: 87
+    forks: 4
     open_issues: 0
   kind: product
 ---

@@ -28,18 +28,18 @@ summary: 'Creating realistic RL environments requires collaboration between rese
   domain experts across many dimensions: artifacts, environments tools, dynamism of the environment, reproducibility,
   and more. There is no open source framework for building these environments effectively. Until now.'
 first_seen: '2026-09-24T18:52:20Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.agentenvframework.com
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 238
-    forks: 22
-    open_issues: 27
+    stars: 253
+    forks: 23
+    open_issues: 28
   kind: product
 ---
 

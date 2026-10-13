@@ -39,17 +39,17 @@ canonical_url: https://github.com/Odyphus/MathModel-Copilot
 summary: 面向国赛 CUMCM、美赛 MCM/ICM 的数学建模 AI 助手与 Agent Skill：审题、模型比较、Python 运行、结果核验、论文辅助和团队协作。Mathematical
   modeling AI copilot for CUMCM and MCM/ICM, with reproducible workflows and a local workbench.
 first_seen: '2026-10-07T01:52:58Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Odyphus/MathModel-Copilot
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 50
-    forks: 0
+    stars: 54
+    forks: 1
     open_issues: 0
   kind: product
 ---

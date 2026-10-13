@@ -31,16 +31,16 @@ url: https://github.com/pi-pod/pipod
 canonical_url: https://github.com/pi-pod/pipod
 summary: 'pi pod: run pi coding-agent sessions in remote sandboxes, on a server you run yourself'
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-10T01:46:04Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/pi-pod/pipod
-  seen_at: '2026-10-10T01:46:04Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 159
+    stars: 160
     forks: 5
     open_issues: 5
   kind: product

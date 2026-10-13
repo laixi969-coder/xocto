@@ -1,7 +1,7 @@
 ---
 slug: ai-coding-agents-generate-more-code-but-not-more-software
 name: AI coding agents generate more code, but not more software
-builder: ''
+builder: gumby
 category: ''
 summary_zh: 哈佛大学研究人员利用覆盖数百家企业的工程分析数据发现，AI 编码工具虽能快速生成大量代码，但人工代码审查成为显著瓶颈，代码审查时间延长、拉取请求更易需要修改，企业软件产出和用工并未明显增加。这意味着
   AI 编码工具在代码生成环节的效率提升被下游审查环节吸收，短期内难以转化为整体交付效率或成本优势，竞争焦点可能转向审查与质量保障环节。
@@ -38,15 +38,23 @@ summary: Anyone who has even tangentially associated with computer programming k
   measures the granular output of engineering teams. That data encompasses 300 million individual "work
   events" (e.g., commits and pull requests) and issue management software data across more than
 first_seen: '2026-10-10T01:46:29Z'
-last_seen: '2026-10-10T01:46:29Z'
-status: market_context
+last_seen: '2026-10-13T03:03:54Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/
   seen_at: '2026-10-10T01:46:29Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/
+  seen_at: '2026-10-13T03:03:54Z'
+  metrics:
+    points: 314
+    comments: 275
   kind: news
 ---
 

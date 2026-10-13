@@ -33,17 +33,17 @@ canonical_url: https://okohedeki.github.io/scroll-studio-showcase
 summary: 'Scroll-driven websites from one YAML file: generated film, live 3D, data stories, maps. Runs
   locally, no API keys; Claude can drive it via MCP.'
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://okohedeki.github.io/scroll-studio-showcase/
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 44
-    forks: 4
+    stars: 48
+    forks: 5
     open_issues: 0
   kind: product
 ---

@@ -186,3 +186,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 为编码代理准备可编译目标语言的软件工程师'
+- id: ev-84926698eb53bfb1
+  project_slug: tov
+  url: https://tov.sh
+  title: Tov
+  published_at: '2026-09-29T16:39:23Z'
+  collected_at: '2026-10-13T03:03:58Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A TypeScript-shaped language built for coding agents. It compiles to small, fast native binaries.
+    | repository stars: 483'

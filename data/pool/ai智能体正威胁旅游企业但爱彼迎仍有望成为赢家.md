@@ -1,0 +1,41 @@
+---
+slug: ai智能体正威胁旅游企业但爱彼迎仍有望成为赢家
+name: AI智能体正威胁旅游企业，但爱彼迎仍有望成为赢家
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizgJBVV95cUxPQWVFVVVka2hDQU5qV2wzaV91djFSVTc2bG44S0o3SXZGdDhYckpMNzBjc0VoM2ZfOHUxS3ZhV0Z5Um9CQzd4Nnk4Q0llaWFJY1EwYUZIaDI0OU15WXZYbkZJQUc3d3EtZlpJVU5saUhIR2NfX2VsMUJjOWdyU2dWQVkyWkhUR1VpQktNZ2oybkZzZENSYzNsMjJCQXItSDFiSVFwRDBWejNJbjJUcFRxSGU3eHNNTUp2cnJjbl9jRWQ0WUkyZVM4Qk1DZTY4ekp5eXJGMkFLaU0xMGcxWVFpWTFXbFpOTE5ZNGdCcG9kY1JPdUlVOFJ2LVZ5eXhtN1YyMjFKd0hmR1pqTnBscV9qeWZLaEJYSW5JckhEZFJRVlNib0tLOVlzRDQ2RXdGUXRESmQya2dpYkFXZ3hHN1J3OV80ZVFPOVRtcW1ITEZB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizgJBVV95cUxPQWVFVVVka2hDQU5qV2wzaV91djFSVTc2bG44S0o3SXZGdDhYckpMNzBjc0VoM2ZfOHUxS3ZhV0Z5Um9CQzd4Nnk4Q0llaWFJY1EwYUZIaDI0OU15WXZYbkZJQUc3d3EtZlpJVU5saUhIR2NfX2VsMUJjOWdyU2dWQVkyWkhUR1VpQktNZ2oybkZzZENSYzNsMjJCQXItSDFiSVFwRDBWejNJbjJUcFRxSGU3eHNNTUp2cnJjbl9jRWQ0WUkyZVM4Qk1DZTY4ekp5eXJGMkFLaU0xMGcxWVFpWTFXbFpOTE5ZNGdCcG9kY1JPdUlVOFJ2LVZ5eXhtN1YyMjFKd0hmR1pqTnBscV9qeWZLaEJYSW5JckhEZFJRVlNib0tLOVlzRDQ2RXdGUXRESmQya2dpYkFXZ3hHN1J3OV80ZVFPOVRtcW1ITEZB?oc=5
+summary: AI智能体正威胁旅游企业，但爱彼迎仍有望成为赢家 华尔街日报中文网
+first_seen: '2026-10-13T03:04:29Z'
+last_seen: '2026-10-13T03:04:29Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgJBVV95cUxPQWVFVVVka2hDQU5qV2wzaV91djFSVTc2bG44S0o3SXZGdDhYckpMNzBjc0VoM2ZfOHUxS3ZhV0Z5Um9CQzd4Nnk4Q0llaWFJY1EwYUZIaDI0OU15WXZYbkZJQUc3d3EtZlpJVU5saUhIR2NfX2VsMUJjOWdyU2dWQVkyWkhUR1VpQktNZ2oybkZzZENSYzNsMjJCQXItSDFiSVFwRDBWejNJbjJUcFRxSGU3eHNNTUp2cnJjbl9jRWQ0WUkyZVM4Qk1DZTY4ekp5eXJGMkFLaU0xMGcxWVFpWTFXbFpOTE5ZNGdCcG9kY1JPdUlVOFJ2LVZ5eXhtN1YyMjFKd0hmR1pqTnBscV9qeWZLaEJYSW5JckhEZFJRVlNib0tLOVlzRDQ2RXdGUXRESmQya2dpYkFXZ3hHN1J3OV80ZVFPOVRtcW1ITEZB?oc=5
+  seen_at: '2026-10-13T03:04:29Z'
+  metrics: {}
+  kind: news
+---
+
+# AI智能体正威胁旅游企业，但爱彼迎仍有望成为赢家
+
+AI智能体正威胁旅游企业，但爱彼迎仍有望成为赢家 华尔街日报中文网
+
+## 笔记
+
+

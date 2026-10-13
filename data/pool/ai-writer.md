@@ -36,16 +36,16 @@ canonical_url: https://github.com/csadigital/ai-writer
 summary: ✨ Multilingual AI product copy from images. Responsive writing studio, translation, accounts,
   credits and automatic setup with optional Docker MySQL.
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/csadigital/ai-writer
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 48
+    stars: 54
     forks: 0
     open_issues: 0
   kind: product

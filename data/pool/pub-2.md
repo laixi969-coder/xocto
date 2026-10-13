@@ -22,17 +22,17 @@ url: https://pub.sakana.ai/mass/
 canonical_url: https://pub.sakana.ai/mass
 summary: Recursive self-improvement through collective intelligence
 first_seen: '2026-10-12T01:20:32Z'
-last_seen: '2026-10-12T01:20:32Z'
-status: market_context
+last_seen: '2026-10-13T03:03:54Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pub.sakana.ai/mass/
-  seen_at: '2026-10-12T01:20:32Z'
+  seen_at: '2026-10-13T03:03:54Z'
   metrics:
-    points: 52
-    comments: 20
+    points: 135
+    comments: 79
   kind: news
 ---
 

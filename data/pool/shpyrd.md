@@ -28,17 +28,17 @@ url: https://www.shpyrd.io
 canonical_url: https://shpyrd.io
 summary: A new type of cloud for AI era
 first_seen: '2026-10-12T01:20:32Z'
-last_seen: '2026-10-12T01:20:32Z'
+last_seen: '2026-10-13T03:03:54Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.shpyrd.io
-  seen_at: '2026-10-12T01:20:32Z'
+  seen_at: '2026-10-13T03:03:54Z'
   metrics:
-    points: 7
-    comments: 18
+    points: 8
+    comments: 22
   kind: product
 ---
 

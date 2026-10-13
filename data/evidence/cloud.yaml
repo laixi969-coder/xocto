@@ -92,3 +92,17 @@
   tier: independent
   fact: Adopting cloud to meet the rapid evolution of customer behaviour and expectations Amazon Web Services
     (AWS)
+- id: ev-0b650e07c9055b69
+  project_slug: cloud
+  url: https://machinelearning.apple.com/research/distributed-gpu-cloud
+  title: 'Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices'
+  published_at: '2026-10-12T00:00:00Z'
+  collected_at: '2026-10-13T03:04:22Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: The increasing demand for GPU-accelerated machine learning inference has exposed limitations in
+    centralized GPU infrastructures, including high cost, limited elasticity, and long wait times under
+    resource constraints. At the same time, modern Apple Silicon–based macOS devices are equipped with
+    powerful GPUs that remain largely idle during normal usage. This paper presents Minions, a dynamic
+    and distributed virtual GPU cloud that aggregates idle Apple Silicon GPUs across macOS devices to
+    execute large-scale machine learning inference workloads. Minions enables teams to leverage existing…

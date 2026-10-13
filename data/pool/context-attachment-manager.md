@@ -35,18 +35,18 @@ summary: 'Codex and Claude Code plugin (works in Claude Desktop): choose which p
   with your next message. Unchecked images become placeholders, the conversation goes on, and requests
   stay small.'
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/chipfighter/context-attachment-manager
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 232
-    forks: 13
-    open_issues: 0
+    stars: 233
+    forks: 15
+    open_issues: 1
   kind: product
 ---
 

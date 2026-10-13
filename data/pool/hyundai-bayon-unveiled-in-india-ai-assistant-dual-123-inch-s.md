@@ -1,0 +1,41 @@
+---
+slug: hyundai-bayon-unveiled-in-india-ai-assistant-dual-123-inch-s
+name: 'Hyundai Bayon unveiled in India: AI assistant, dual 12.3-inch screens and more'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNdUd4bEFDWnUyb3M5Yi11MjduSTBtMGlQSjVqd3lSZ19RMFIxRHMza2x2Si02WjI0aGQyZ09Ja0ZqLVVXeEJRdlIwamM3akRVMWpmd2lVdFotOVpaVlZDVU05WnFnSGl4WHg1VE1JRjJ0YUxsaURUVGtQbVctSzhLUlp2T2Uzd3FLWkVTeFh1bzhqb2hVS25vakVTUWhYRHdseE5TVEF4MWR5MjBVdHpCVUxqalBoQ3pfZHctc25WcDc0VGF3WWZKWmhyR09hODDSAdQBQVVfeXFMTXcxb2FPaGQtRHNUaW0tbUY3OGVRMXRaUWpiSnBlbEpOSFZqaWdSUnYtZXZUdThrbVJTdENTdmF2cklqSm9ySEtGaEY5cF96M1hLWWxGSWtrV2stUXNlYUVENFJyTDgxOGI0X2VqdlZOaEFtUEZQUVRXSDBpUmVKSG9VSTVsVzdCZnltV2NmZ3dvZEl2NVBXekRHWjEtV1haY0hLTWNONjlyUzFWU0dydUxMdmwtY0FLWFJUVVVnUFBJNUxOOE16VmJTM0dQQ0lqdzFSdE8?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNdUd4bEFDWnUyb3M5Yi11MjduSTBtMGlQSjVqd3lSZ19RMFIxRHMza2x2Si02WjI0aGQyZ09Ja0ZqLVVXeEJRdlIwamM3akRVMWpmd2lVdFotOVpaVlZDVU05WnFnSGl4WHg1VE1JRjJ0YUxsaURUVGtQbVctSzhLUlp2T2Uzd3FLWkVTeFh1bzhqb2hVS25vakVTUWhYRHdseE5TVEF4MWR5MjBVdHpCVUxqalBoQ3pfZHctc25WcDc0VGF3WWZKWmhyR09hODDSAdQBQVVfeXFMTXcxb2FPaGQtRHNUaW0tbUY3OGVRMXRaUWpiSnBlbEpOSFZqaWdSUnYtZXZUdThrbVJTdENTdmF2cklqSm9ySEtGaEY5cF96M1hLWWxGSWtrV2stUXNlYUVENFJyTDgxOGI0X2VqdlZOaEFtUEZQUVRXSDBpUmVKSG9VSTVsVzdCZnltV2NmZ3dvZEl2NVBXekRHWjEtV1haY0hLTWNONjlyUzFWU0dydUxMdmwtY0FLWFJUVVVnUFBJNUxOOE16VmJTM0dQQ0lqdzFSdE8?oc=5
+summary: 'Hyundai Bayon unveiled in India: AI assistant, dual 12.3-inch screens and more Business Today'
+first_seen: '2026-10-13T03:04:29Z'
+last_seen: '2026-10-13T03:04:29Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNdUd4bEFDWnUyb3M5Yi11MjduSTBtMGlQSjVqd3lSZ19RMFIxRHMza2x2Si02WjI0aGQyZ09Ja0ZqLVVXeEJRdlIwamM3akRVMWpmd2lVdFotOVpaVlZDVU05WnFnSGl4WHg1VE1JRjJ0YUxsaURUVGtQbVctSzhLUlp2T2Uzd3FLWkVTeFh1bzhqb2hVS25vakVTUWhYRHdseE5TVEF4MWR5MjBVdHpCVUxqalBoQ3pfZHctc25WcDc0VGF3WWZKWmhyR09hODDSAdQBQVVfeXFMTXcxb2FPaGQtRHNUaW0tbUY3OGVRMXRaUWpiSnBlbEpOSFZqaWdSUnYtZXZUdThrbVJTdENTdmF2cklqSm9ySEtGaEY5cF96M1hLWWxGSWtrV2stUXNlYUVENFJyTDgxOGI0X2VqdlZOaEFtUEZQUVRXSDBpUmVKSG9VSTVsVzdCZnltV2NmZ3dvZEl2NVBXekRHWjEtV1haY0hLTWNONjlyUzFWU0dydUxMdmwtY0FLWFJUVVVnUFBJNUxOOE16VmJTM0dQQ0lqdzFSdE8?oc=5
+  seen_at: '2026-10-13T03:04:29Z'
+  metrics: {}
+  kind: news
+---
+
+# Hyundai Bayon unveiled in India: AI assistant, dual 12.3-inch screens and more
+
+Hyundai Bayon unveiled in India: AI assistant, dual 12.3-inch screens and more Business Today
+
+## 笔记
+
+

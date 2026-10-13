@@ -32,17 +32,17 @@ url: https://yzg1226.github.io/mcd-party-officer/
 canonical_url: https://yzg1226.github.io/mcd-party-officer
 summary: 🍟 麦当劳门店派对成团调度 Skill — 把派对从「策划」推进到「办得成」：成团概率雷达 / 包场vs拼团 / 择日黄历 / 儿童营养指数 / 招募卡与邀请函
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://yzg1226.github.io/mcd-party-officer/
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 85
-    forks: 0
+    stars: 158
+    forks: 4
     open_issues: 0
   kind: product
 ---

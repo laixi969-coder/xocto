@@ -1,0 +1,42 @@
+---
+slug: indian-man-leaves-rs-19-crore-microsoft-job-now-earning-rs-5
+name: Indian man leaves Rs 1.9 crore Microsoft job, now earning Rs 5.4 lakh with his AI startup
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOLXZyanl6Yl84cGhpYjVWNXNiR05qWENJNHNlTUw4eENqUldVWjlsVk5CUXFkeVJqWHdFS3BXcVU2aC1xRFJlRzJKdEo1OTYweXVEZlVyR0o4cUM5Yi1Pem92eV9HandkaEtMZ2lXYWRYWVlpdE1vUUZ2OHRwSzlkSDg5TWJmU2NiRFQzUzU2T1IzOUo2WlgySjMxLWZZdjh4TTJ6TXlROURqcmlUYW02R2VSckE2dk9vVU9qemJLV3RHS29Xc085S3JPamU3bXF1M1FrWGozT0hsOGh1VmlYVEJQRDIwUdIB5gFBVV95cUxOLXZyanl6Yl84cGhpYjVWNXNiR05qWENJNHNlTUw4eENqUldVWjlsVk5CUXFkeVJqWHdFS3BXcVU2aC1xRFJlRzJKdEo1OTYweXVEZlVyR0o4cUM5Yi1Pem92eV9HandkaEtMZ2lXYWRYWVlpdE1vUUZ2OHRwSzlkSDg5TWJmU2NiRFQzUzU2T1IzOUo2WlgySjMxLWZZdjh4TTJ6TXlROURqcmlUYW02R2VSckE2dk9vVU9qemJLV3RHS29Xc085S3JPamU3bXF1M1FrWGozT0hsOGh1VmlYVEJQRDIwUQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOLXZyanl6Yl84cGhpYjVWNXNiR05qWENJNHNlTUw4eENqUldVWjlsVk5CUXFkeVJqWHdFS3BXcVU2aC1xRFJlRzJKdEo1OTYweXVEZlVyR0o4cUM5Yi1Pem92eV9HandkaEtMZ2lXYWRYWVlpdE1vUUZ2OHRwSzlkSDg5TWJmU2NiRFQzUzU2T1IzOUo2WlgySjMxLWZZdjh4TTJ6TXlROURqcmlUYW02R2VSckE2dk9vVU9qemJLV3RHS29Xc085S3JPamU3bXF1M1FrWGozT0hsOGh1VmlYVEJQRDIwUdIB5gFBVV95cUxOLXZyanl6Yl84cGhpYjVWNXNiR05qWENJNHNlTUw4eENqUldVWjlsVk5CUXFkeVJqWHdFS3BXcVU2aC1xRFJlRzJKdEo1OTYweXVEZlVyR0o4cUM5Yi1Pem92eV9HandkaEtMZ2lXYWRYWVlpdE1vUUZ2OHRwSzlkSDg5TWJmU2NiRFQzUzU2T1IzOUo2WlgySjMxLWZZdjh4TTJ6TXlROURqcmlUYW02R2VSckE2dk9vVU9qemJLV3RHS29Xc085S3JPamU3bXF1M1FrWGozT0hsOGh1VmlYVEJQRDIwUQ?oc=5
+summary: Indian man leaves Rs 1.9 crore Microsoft job, now earning Rs 5.4 lakh with his AI startup India
+  Today
+first_seen: '2026-10-13T03:04:29Z'
+last_seen: '2026-10-13T03:04:29Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOLXZyanl6Yl84cGhpYjVWNXNiR05qWENJNHNlTUw4eENqUldVWjlsVk5CUXFkeVJqWHdFS3BXcVU2aC1xRFJlRzJKdEo1OTYweXVEZlVyR0o4cUM5Yi1Pem92eV9HandkaEtMZ2lXYWRYWVlpdE1vUUZ2OHRwSzlkSDg5TWJmU2NiRFQzUzU2T1IzOUo2WlgySjMxLWZZdjh4TTJ6TXlROURqcmlUYW02R2VSckE2dk9vVU9qemJLV3RHS29Xc085S3JPamU3bXF1M1FrWGozT0hsOGh1VmlYVEJQRDIwUdIB5gFBVV95cUxOLXZyanl6Yl84cGhpYjVWNXNiR05qWENJNHNlTUw4eENqUldVWjlsVk5CUXFkeVJqWHdFS3BXcVU2aC1xRFJlRzJKdEo1OTYweXVEZlVyR0o4cUM5Yi1Pem92eV9HandkaEtMZ2lXYWRYWVlpdE1vUUZ2OHRwSzlkSDg5TWJmU2NiRFQzUzU2T1IzOUo2WlgySjMxLWZZdjh4TTJ6TXlROURqcmlUYW02R2VSckE2dk9vVU9qemJLV3RHS29Xc085S3JPamU3bXF1M1FrWGozT0hsOGh1VmlYVEJQRDIwUQ?oc=5
+  seen_at: '2026-10-13T03:04:29Z'
+  metrics: {}
+  kind: news
+---
+
+# Indian man leaves Rs 1.9 crore Microsoft job, now earning Rs 5.4 lakh with his AI startup
+
+Indian man leaves Rs 1.9 crore Microsoft job, now earning Rs 5.4 lakh with his AI startup India Today
+
+## 笔记
+
+

@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY0MwS2QxYUpWS2NfUnhsTG
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY0MwS2QxYUpWS2NfUnhsTGNUS3J0NDNWN3pVbm1pR0lpdGtTZF9aempaOGo0dXFBeUI0cGhQRTBOUGFST3hMY05jWmRFcjJteTRPRWJkeWNURGNYNzc3TkRvVXBrYWVVTEtOelFHeXhqUE03Z1JIRG8xZ3FLWXlBYi11M01pSXdK?oc=5
 summary: AI浪潮下中美两国融资市场的比较研究 搜狐网
 first_seen: '2026-10-10T01:46:37Z'
-last_seen: '2026-10-10T01:46:37Z'
-status: rejected
+last_seen: '2026-10-13T03:04:29Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY0MwS2QxYUpWS2NfUnhsTGNUS3J0NDNWN3pVbm1pR0lpdGtTZF9aempaOGo0dXFBeUI0cGhQRTBOUGFST3hMY05jWmRFcjJteTRPRWJkeWNURGNYNzc3TkRvVXBrYWVVTEtOelFHeXhqUE03Z1JIRG8xZ3FLWXlBYi11M01pSXdK?oc=5
   seen_at: '2026-10-10T01:46:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMic0FVX3lxTFBaUEUtQUM0ZFFHZjlDODl4UXZwTk0tNXlMY0NHVUllMjMwNGVWRmRfRHZCamlrSzFPRXNqYmNZVlh4U084TFFqZzVSbWQ4bGZyY1pJVzRpckpXRTBQT0dTOTcyb29UdC1jdGFkRk9uQlRvb1E?oc=5
+  seen_at: '2026-10-13T03:04:29Z'
   metrics: {}
   kind: news
 ---

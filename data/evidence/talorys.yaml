@@ -154,3 +154,14 @@
   tier: independent
   fact: 'Public-material coverage query for zh: AI 个人用户在需要记录待办、备忘和定时提醒时，把聊天、记忆、任务、笔记交给部署在自己 Cloudflare
     账号里的代理，由它按计划触发提醒 开发者或隐私敏感用户在不愿把个人数据交给第三方服务时，用一条命令把单用户代理部署到自己的云账号，自行保管数据'
+- id: ev-0c9e641b58e7d0e7
+  project_slug: talorys
+  url: https://github.com/rociiu/talorys
+  title: talorys
+  published_at: '2026-10-10T09:46:56Z'
+  collected_at: '2026-10-13T03:03:58Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled
+    reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user,
+    no telemetry. | repository stars: 907'

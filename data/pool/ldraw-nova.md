@@ -34,10 +34,11 @@ url: https://github.com/anteloc/ldraw-nova
 canonical_url: https://github.com/anteloc/ldraw-nova
 summary: Made an open-source Lego AI generator
 first_seen: '2026-10-02T20:00:15Z'
-last_seen: '2026-10-04T00:37:53Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - hackernews
+- github
 sightings:
 - source: hackernews
   url: https://github.com/anteloc/ldraw-nova
@@ -45,6 +46,14 @@ sightings:
   metrics:
     points: 141
     comments: 49
+  kind: product
+- source: github
+  url: https://github.com/anteloc/ldraw-nova
+  seen_at: '2026-10-13T03:03:58Z'
+  metrics:
+    stars: 347
+    forks: 32
+    open_issues: 4
   kind: product
 ---
 

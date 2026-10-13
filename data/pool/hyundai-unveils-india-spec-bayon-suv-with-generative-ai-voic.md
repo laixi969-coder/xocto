@@ -1,0 +1,41 @@
+---
+slug: hyundai-unveils-india-spec-bayon-suv-with-generative-ai-voic
+name: Hyundai unveils India-spec Bayon SUV with generative AI voice assistant
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSzloXzVaUmFhQlF3UFJfUTBySlNvQUpaTEtsRlNZbXZXOFpqMjBqbmFYa1hNWmYteHhvbjE4TEMtYkp3Q096ZGxsamoxQmp3UXk2YjJyZ3FhYjVSY2IyRWY3bHlkXzY0VldyU2ppcVlab1pnOWZ5bWFaNFczY2gzZDJjb2V2dndzT1YwLVVjVTlfMDZsT0liel9YR3pkTmlDMEtVWmxTdG1jUzZnRHk0NXpXRlFLeGNZZklKdzd3b0hhcklxSkNzV3ROYWFZeEtFejQ4WEJSR0NVblNleU400gHkAUFVX3lxTFBkR3U4UmhscnQ5YlV4TUtYZ3hpODJhLVdHd3BDTXdSU3AyeHdzS1hicE9UOGU2Rm5iTTEwLWlkbU9sdWlzRGtkSmRBUUxBTF9pY2dVSVZLRFpyT0tEc3RybTBUV0RyQlc2MTVINjdWaEc4ejZHYjFMLTdhRk9mNEhQTzVSUnBJN0pxeGRvdlVzS0w3clpuT3B5Ym5OLUJlYVRFVWlrV0o2d2Rfa1FCTy1Ec1dHMzc0R3NncjY1U0lfV1VfMTdvQkY4Qm9Pb1BRX05zMXNJRkNiMDFFOFJTa3EtSnZDTg?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSzloXzVaUmFhQlF3UFJfUTBySlNvQUpaTEtsRlNZbXZXOFpqMjBqbmFYa1hNWmYteHhvbjE4TEMtYkp3Q096ZGxsamoxQmp3UXk2YjJyZ3FhYjVSY2IyRWY3bHlkXzY0VldyU2ppcVlab1pnOWZ5bWFaNFczY2gzZDJjb2V2dndzT1YwLVVjVTlfMDZsT0liel9YR3pkTmlDMEtVWmxTdG1jUzZnRHk0NXpXRlFLeGNZZklKdzd3b0hhcklxSkNzV3ROYWFZeEtFejQ4WEJSR0NVblNleU400gHkAUFVX3lxTFBkR3U4UmhscnQ5YlV4TUtYZ3hpODJhLVdHd3BDTXdSU3AyeHdzS1hicE9UOGU2Rm5iTTEwLWlkbU9sdWlzRGtkSmRBUUxBTF9pY2dVSVZLRFpyT0tEc3RybTBUV0RyQlc2MTVINjdWaEc4ejZHYjFMLTdhRk9mNEhQTzVSUnBJN0pxeGRvdlVzS0w3clpuT3B5Ym5OLUJlYVRFVWlrV0o2d2Rfa1FCTy1Ec1dHMzc0R3NncjY1U0lfV1VfMTdvQkY4Qm9Pb1BRX05zMXNJRkNiMDFFOFJTa3EtSnZDTg?oc=5
+summary: Hyundai unveils India-spec Bayon SUV with generative AI voice assistant ET Auto
+first_seen: '2026-10-13T03:04:29Z'
+last_seen: '2026-10-13T03:04:29Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSzloXzVaUmFhQlF3UFJfUTBySlNvQUpaTEtsRlNZbXZXOFpqMjBqbmFYa1hNWmYteHhvbjE4TEMtYkp3Q096ZGxsamoxQmp3UXk2YjJyZ3FhYjVSY2IyRWY3bHlkXzY0VldyU2ppcVlab1pnOWZ5bWFaNFczY2gzZDJjb2V2dndzT1YwLVVjVTlfMDZsT0liel9YR3pkTmlDMEtVWmxTdG1jUzZnRHk0NXpXRlFLeGNZZklKdzd3b0hhcklxSkNzV3ROYWFZeEtFejQ4WEJSR0NVblNleU400gHkAUFVX3lxTFBkR3U4UmhscnQ5YlV4TUtYZ3hpODJhLVdHd3BDTXdSU3AyeHdzS1hicE9UOGU2Rm5iTTEwLWlkbU9sdWlzRGtkSmRBUUxBTF9pY2dVSVZLRFpyT0tEc3RybTBUV0RyQlc2MTVINjdWaEc4ejZHYjFMLTdhRk9mNEhQTzVSUnBJN0pxeGRvdlVzS0w3clpuT3B5Ym5OLUJlYVRFVWlrV0o2d2Rfa1FCTy1Ec1dHMzc0R3NncjY1U0lfV1VfMTdvQkY4Qm9Pb1BRX05zMXNJRkNiMDFFOFJTa3EtSnZDTg?oc=5
+  seen_at: '2026-10-13T03:04:29Z'
+  metrics: {}
+  kind: news
+---
+
+# Hyundai unveils India-spec Bayon SUV with generative AI voice assistant
+
+Hyundai unveils India-spec Bayon SUV with generative AI voice assistant ET Auto
+
+## 笔记
+
+

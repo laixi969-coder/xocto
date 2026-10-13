@@ -20,8 +20,8 @@ url: https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatg
 canonical_url: https://theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks
 summary: Accept 'bad things' in return for benefits of AI, says Sam Altman
 first_seen: '2026-10-05T12:56:18Z'
-last_seen: '2026-10-06T02:18:31Z'
-status: rejected
+last_seen: '2026-10-13T03:03:54Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 59
     comments: 113
+  kind: news
+- source: hackernews
+  url: https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules
+  seen_at: '2026-10-13T03:03:54Z'
+  metrics:
+    points: 68
+    comments: 75
   kind: news
 ---
 

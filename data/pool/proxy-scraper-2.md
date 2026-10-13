@@ -21,16 +21,16 @@ canonical_url: https://maximilianfeix.github.io/proxy-scraper
 summary: 'Free proxies that actually work: 700+ sources, every hit verified (honeypots, injected scripts,
   TLS), a live list every hour, a rotating proxy server and an MCP server for AI agents.'
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://maximilianfeix.github.io/proxy-scraper/
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 47
+    stars: 49
     forks: 10
     open_issues: 10
   kind: product

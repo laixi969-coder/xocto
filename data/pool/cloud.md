@@ -23,12 +23,13 @@ summary: "这个网站注册就送 15 美元额度，用来注册 Muse 只用几
   \ 也可以直接地址栏输入这个路径:  https://cloud.browser-use.com/browser\r\n- 点击右上角 “Launch & Open” ,   这时候会弹出一个浏览器窗口,\
   \ 地址栏输入 http://muse.ai ,  \r\n- 按正常流程注册即可\r\n- 结束后记得右上角关闭这个实例，确保安全"
 first_seen: '2026-09-25T04:43:34Z'
-last_seen: '2026-10-11T01:02:09Z'
-status: rejected
+last_seen: '2026-10-13T03:04:22Z'
+status: pending_filter
 sources:
 - v2ex
 - newssearch
 - marketfeeds
+- officialfeeds
 sightings:
 - source: v2ex
   url: https://cloud.browser-use.com
@@ -79,6 +80,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EejRuWUV4QUlPdmZWci1DcVcyTldMbFY5dzNUM28tQURaYWVIZWVSbzE4cC1MVWd1Q2JvZ0tCY1FuOHlmWEpVWnBCODNQQnlIZzJjcnlqMW5EU3Y3aFdv?oc=5
   seen_at: '2026-10-11T01:02:09Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://machinelearning.apple.com/research/distributed-gpu-cloud
+  seen_at: '2026-10-13T03:04:22Z'
   metrics: {}
   kind: news
 ---

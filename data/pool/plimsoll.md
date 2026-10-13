@@ -34,17 +34,17 @@ url: https://github.com/plimsollmark/plimsoll
 canonical_url: https://github.com/plimsollmark/plimsoll
 summary: a self-hosted sandbox for code your AI agent writes
 first_seen: '2026-10-12T01:20:32Z'
-last_seen: '2026-10-12T01:20:32Z'
+last_seen: '2026-10-13T03:03:54Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/plimsollmark/plimsoll
-  seen_at: '2026-10-12T01:20:32Z'
+  seen_at: '2026-10-13T03:03:54Z'
   metrics:
-    points: 6
-    comments: 2
+    points: 15
+    comments: 3
   kind: product
 ---
 

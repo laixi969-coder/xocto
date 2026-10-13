@@ -1,0 +1,19 @@
+- id: ev-5d1b8250efe16208
+  project_slug: accessing-openai-gpt-models-on-amazon-bedrock-with-global-cr
+  url: https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/
+  title: Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand,
+    Malaysia, Singapore, Indonesia, and Taiwan
+  published_at: '2026-10-12T17:52:22Z'
+  collected_at: '2026-10-13T03:04:22Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Single-Region inference can throttle when demand exceeds local capacity. Teams in Thailand, Malaysia,
+    Singapore, Indonesia, and Taiwan need access to the newest OpenAI models beyond that capacity. Amazon
+    Bedrock offers OpenAI GPT-6 Sol and GPT-6 Luna through global cross-Region inference from all five
+    AWS Regions, and GPT-6 Astra from Asia Pacific (Singapore). This post shows you how to configure the
+    call, set permissions, and monitor inference from your source Region. GPT-6 Sol, GPT-6 Luna, and GPT-6
+    Astra are all available through global cross-Region inference from the preceding Regions, on the bedrock-runtime
+    endpoint. See Cross-Region inference in the Amazon Bedrock User Guide. For the full list of source
+    and destination Regions in each profile, see Supported Regions and models for inference profiles .
+    In this post, we introduce the global cross-Region inference profiles and invoke them from Asia Pacific
+    (Singapore) using the Converse API, the OpenAI-compatible APIs, and coding cli

@@ -31,17 +31,17 @@ url: https://github.com/swimmingbrain/brainotes
 canonical_url: https://github.com/swimmingbrain/brainotes
 summary: handwritten notes on your lecture PDFs in a browser tab
 first_seen: '2026-10-12T01:20:32Z'
-last_seen: '2026-10-12T01:20:32Z'
+last_seen: '2026-10-13T03:03:54Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/swimmingbrain/brainotes
-  seen_at: '2026-10-12T01:20:32Z'
+  seen_at: '2026-10-13T03:03:54Z'
   metrics:
-    points: 7
-    comments: 0
+    points: 34
+    comments: 2
   kind: product
 ---
 

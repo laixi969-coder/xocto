@@ -36,16 +36,16 @@ summary: 'clodfarm (say it out loud): a farm of Claude Code agents. Plant a miss
   sub-agents, open the work, and pace themselves on each account''s real 5-hour and weekly usage. Steer
   it from the Claude app.'
 first_seen: '2026-09-25T00:48:32Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-13T03:03:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://clod.farm
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-13T03:03:58Z'
   metrics:
-    stars: 179
+    stars: 182
     forks: 56
     open_issues: 5
   kind: product
