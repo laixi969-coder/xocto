@@ -85,15 +85,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>Why this would be needed</h2>
-        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-10-12</p>
+        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-10-13</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">Use case</span>
-        <p class="product-lead">Developers or teams using coding agents run the agent inside a real Docker sandbox on multi-step code-change tasks, inspect structured artifacts at critical nodes, and only let it continue after human approval, ending with a reviewable, recoverable delivery workflow.</p>
-        <p>Today&#39;s alternatives are mostly running the agent unisolated locally or in CI, watching terminal output manually, relying on git diff and code review after the fact, or avoiding agents for multi-step tasks altogether.</p>
-        <p>Autonomous coding agents can make out-of-scope changes, drift, or produce untraceable intermediate results; post-hoc human review is costly and recovery after failure is hard. Public materials do not quantify the cost or frequency, so pain intensity is a workflow-structure inference.</p>
+        <p class="product-lead">Developers or teams using coding agents need to run the agent inside an isolated Docker sandbox, pause at critical nodes (e.g., before merge or deploy), and have a human review structured artifacts and approve before the agent continues, completing an auditable code delivery.</p>
+        <p>The old way is to let the agent run directly in a local terminal or CI, relying on manual watching, git branches, and post-hoc review; or to hand-roll isolation and approval with generic containers/sandbox scripts, without structured pause-and-approve nodes.</p>
+        <p>Coding agents execute commands and edit files directly in the main environment; mistakes or overreach are hard to roll back and there is no human checkpoint, so teams either babysit the agent or avoid letting it run unattended on important repos.</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
@@ -103,7 +103,7 @@
       <article class="product-panel">
         <span class="field-k">Reason to use it</span>
         <h3>Why users would choose it</h3>
-        <p>Inference: versus unisolated runs plus after-the-fact diff review, it runs the agent in a real Docker sandbox and pauses at critical nodes for human Approve, moving &#39;discover an out-of-scope change and roll back&#39; earlier into &#39;intercept during execution.&#39; Users who care about change control and recoverability would choose it for multi-step tasks; public materials contain no user feedback or customer case confirming this motive.</p>
+        <p>Inference: versus watching the screen or post-hoc review, it runs the agent in a Docker sandbox and forces a pause for Approve at critical nodes, turning &#39;discover the error afterward&#39; into &#39;block before execution,&#39; so teams sensitive to rollback cost and auditability would choose it for important-repo tasks; public materials do not yet confirm this motive via user feedback.</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">Where the easy answer breaks down</span>
@@ -115,7 +115,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">If this is your job</span>
-        <p><strong>Worth dissecting</strong>. Inference: versus unisolated runs plus after-the-fact diff review, it runs the agent in a real Docker sandbox and pauses at critical nodes for human Approve, moving &#39;discover an out-of-scope change and roll back&#39; earlier into &#39;intercept during execution.&#39; Users who care about change control and recoverability would choose it for multi-step tasks; public materials contain no user feedback or customer case confirming this motive.</p>
+        <p><strong>Worth dissecting</strong>. Inference: versus watching the screen or post-hoc review, it runs the agent in a Docker sandbox and forces a pause for Approve at critical nodes, turning &#39;discover the error afterward&#39; into &#39;block before execution,&#39; so teams sensitive to rollback cost and auditability would choose it for important-repo tasks; public materials do not yet confirm this motive via user feedback.</p>
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
@@ -131,7 +131,7 @@
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">Public fact</span><p>Runs a coding AI in an isolated box and pauses at critical steps until a person approves before it continues.</p></div>
-        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus unisolated runs plus after-the-fact diff review, it runs the agent in a real Docker sandbox and pauses at critical nodes for human Approve, moving &#39;discover an out-of-scope change and roll back&#39; earlier into &#39;intercept during execution.&#39; Users who care about change control and recoverability would choose it for multi-step tasks; public materials contain no user feedback or customer case confirming this motive.</p></div>
+        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus watching the screen or post-hoc review, it runs the agent in a Docker sandbox and forces a pause for Approve at critical nodes, turning &#39;discover the error afterward&#39; into &#39;block before execution,&#39; so teams sensitive to rollback cost and auditability would choose it for important-repo tasks; public materials do not yet confirm this motive via user feedback.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
       <div class="gate-audit">
@@ -340,7 +340,7 @@ product. Revisit in three months against the checks above.</p></article></div>
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Dev">
-        839 in AI + Dev →
+        860 in AI + Dev →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -392,9 +392,9 @@ product. Revisit in three months against the checks above.</p></article></div>
         <span class="pager-n">AnvilWiki</span>
       </a>
 
-      <a class="pager-item pager-next" href="../../p/buslens.html">
+      <a class="pager-item pager-next" href="../../p/atticus.html">
         <span class="pager-k">Next</span>
-        <span class="pager-n">Buslens</span>
+        <span class="pager-n">Atticus</span>
       </a>
     </div>
   </nav>
@@ -432,8 +432,8 @@ product. Revisit in three months against the checks above.</p></article></div>
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>2941 cases · 177 business reads</span>
-    <span class="gen">Data through 2026-10-12</span>
+    <span>3031 cases · 177 business reads</span>
+    <span class="gen">Data through 2026-10-13</span>
     <span>·</span>
     <a href="../../en/reports.html">Calls archive</a>
     <span>·</span>
