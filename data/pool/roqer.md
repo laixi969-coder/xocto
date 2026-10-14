@@ -36,18 +36,18 @@ canonical_url: https://github.com/S4US/Roqer
 summary: An open-source AI agent for Roblox Studio. Builds, scripts, and playtests in your place using
   your ChatGPT/Claude subscription or custom API.
 first_seen: '2026-09-25T11:33:22Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/S4US/Roqer
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-14T01:14:00Z'
   metrics:
-    stars: 131
+    stars: 135
     forks: 17
-    open_issues: 9
+    open_issues: 6
   kind: product
 ---
 

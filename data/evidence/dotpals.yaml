@@ -18,3 +18,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 使用编码代理的工程师在代理改完代码后核对测试是否真的通过'
+- id: ev-15a94fa0d9212b69
+  project_slug: dotpals
+  url: https://dotpals.vercel.app
+  title: dotpals
+  published_at: '2026-09-30T19:43:43Z'
+  collected_at: '2026-10-14T01:14:00Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'See what your coding agent actually did. A desktop pal and notch for Claude Code, Codex, Cursor,
+    Gemini CLI and any agent: test results read from the output, faked passes caught, Claude Code sent
+    back to fix what it broke, and an MCP server any AI tool can ask. | repository stars: 42'

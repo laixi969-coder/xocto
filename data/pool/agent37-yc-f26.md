@@ -29,17 +29,17 @@ url: https://news.ycombinator.com/item?id=50059096
 canonical_url: https://news.ycombinator.com/item?id=50059096
 summary: Low-cost agent sandboxes for running agents
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
+last_seen: '2026-10-14T01:13:55Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50059096
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 112
-    comments: 74
+    points: 157
+    comments: 114
   kind: product
 ---
 

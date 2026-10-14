@@ -1,0 +1,18 @@
+- id: ev-bb72f4ce04d82d3a
+  project_slug: manage-private-pricing-offers-for-amazon-bedrock-with-manage
+  url: https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/
+  title: Manage private pricing offers for Amazon Bedrock with managed entitlements
+  published_at: '2026-10-13T17:17:25Z'
+  collected_at: '2026-10-14T01:14:22Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Managing AI model access across dozens or hundreds of AWS accounts creates operational friction
+    when each workload account must subscribe and accept AWS Marketplace Private Pricing Offers (MPPOs)
+    individually. Amazon Bedrock with managed entitlements simplifies multi-account access to third-party
+    AI models so you can subscribe once from a central account and distribute access across your organization.
+    In this post, we show you two ways to activate AWS Marketplace Private Pricing Offer (MPPO) entitlements
+    in AWS License Manager. Use the lightweight script when you want a one-time, no-infrastructure fix
+    for received licenses you already trust. Use the CDK automation when you want ongoing event-driven
+    processing that verifies sellers, creates and activates distributed grants. Why automate grant activation
+    With AWS Marketplace Private Pricing Offers, you can negotiate custom rates for third-party models
+    on Amazon Bedrock. After an eligible private offer is accepted, AWS Marketplace creates

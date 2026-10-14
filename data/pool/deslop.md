@@ -1,0 +1,43 @@
+---
+slug: deslop
+name: Deslop
+builder: maharshi365
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://github.com/maharshi365/deslop
+canonical_url: https://github.com/maharshi365/deslop
+summary: Oxlint rules for AI-generated TypeScript
+first_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-14T01:13:55Z'
+status: pending_filter
+sources:
+- hackernews
+sightings:
+- source: hackernews
+  url: https://github.com/maharshi365/deslop
+  seen_at: '2026-10-14T01:13:55Z'
+  metrics:
+    points: 25
+    comments: 6
+  kind: product
+---
+
+# Deslop
+
+Oxlint rules for AI-generated TypeScript
+
+## 笔记
+
+

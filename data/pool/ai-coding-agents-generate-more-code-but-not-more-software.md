@@ -39,8 +39,8 @@ summary: Anyone who has even tangentially associated with computer programming k
   measures the granular output of engineering teams. That data encompasses 300 million individual "work
   events" (e.g., commits and pull requests) and issue management software data across more than
 first_seen: '2026-10-10T01:46:29Z'
-last_seen: '2026-10-13T03:03:54Z'
-status: market_context
+last_seen: '2026-10-14T01:13:55Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -52,10 +52,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 314
-    comments: 275
+    points: 359
+    comments: 299
   kind: news
 ---
 

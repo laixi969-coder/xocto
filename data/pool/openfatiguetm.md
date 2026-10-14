@@ -20,17 +20,17 @@ url: https://openfatigue.ai/
 canonical_url: https://openfatigue.ai
 summary: Open is the new closed
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
-status: rejected
+last_seen: '2026-10-14T01:13:55Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://openfatigue.ai/
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 202
-    comments: 46
+    points: 234
+    comments: 51
   kind: news
 ---
 

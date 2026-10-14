@@ -21,8 +21,8 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-10-12T01:21:03Z'
-status: rejected
+last_seen: '2026-10-14T01:14:23Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -105,6 +105,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMia0FVX3lxTE5rX3NjcFR6WHM3aWNkMEExQUluVlpJZ3NlaWlHY0Ftbjc5dHFjdGNGZ1VLdEY1TkVSZ1RkUWxIcW85aVc3MWx1NFoxXzR4cDhTeEhzQlhsTklPRGJjMVVobkNmMjliNDBvX1BZ?oc=5
   seen_at: '2026-10-12T01:21:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/
+  seen_at: '2026-10-14T01:14:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch
+  seen_at: '2026-10-14T01:14:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/
+  seen_at: '2026-10-14T01:14:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://news.crunchbase.com/fintech/building-next-generation-super-apps-okike-645-ventures/
+  seen_at: '2026-10-14T01:14:23Z'
   metrics: {}
   kind: news
 ---

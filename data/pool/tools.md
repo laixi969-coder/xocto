@@ -20,8 +20,8 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-10-13T03:04:22Z'
-status: rejected
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -119,6 +119,16 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/
   seen_at: '2026-10-13T03:04:22Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOTUh3RFp6MEczcWp2ZWFSenE1MjdBRHR2X21NSG1oeVFaMWNRVHZrMmZzeERSZUdrdzVRdExXOTFhMEwtemMyOURNd2ZPRTlqbDJqblE3NDg3Q3NZUzJuOTFmdVBpOFN5X2luSzRncF9vLWpaQXVkR1pWVDhZbWFTYllVZzFLd3VVcG5abktIZWtVTG8zdWw2MUpfc2JvMXppZnNRNHAyRTRpZEtKLVFaZUpNQQ?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNQjg3UGtnYloyNld0b2ZoWWhtMDMwOXgxRVNYOTRtcEpOSlNxY2pjNHpxUkk1cFRTR3FNWml6TUh1bE9ZRUpqTXBaX29yYzVMMWozREFqZGVLcWE3dGwtNnZzQjNwU0k3bmJwUTFRc3BMR1hXR1lsRjREcjFHbzI5OFhuMVpDcVRCX1A2cEcxWnB6dG9TbWpVbQ?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
   metrics: {}
   kind: news
 ---

@@ -41,7 +41,7 @@ canonical_url: https://bherbruck.github.io/solvecraft
 summary: An open-source, clean-room reimplementation of Autodesk Fusion 360 in pure Rust. Parametric 3D
   CAD for desktop, browser, and AI agents via MCP.
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: watching
 sources:
 - github
@@ -56,11 +56,11 @@ sightings:
   kind: product
 - source: github
   url: https://bherbruck.github.io/solidcraft/
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-14T01:14:00Z'
   metrics:
-    stars: 1118
-    forks: 113
-    open_issues: 131
+    stars: 1824
+    forks: 173
+    open_issues: 256
   kind: product
 ---
 

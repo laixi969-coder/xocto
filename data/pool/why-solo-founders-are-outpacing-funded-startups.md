@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX2tKSHRRSGtFVU9mWTZXQl
 canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX2tKSHRRSGtFVU9mWTZXQlhBNG81dldBbnBYcmo5LUN3dE4xYzh3STVTZXBsN1IwS2dxcG1ETDIwNmYwbVVkSU5kVVR5LXJ6OUhhSDVjODRnQVU0Q1FONmpyM3JfQ21pY3pVUi1lNl9iOWlucVJDbTVrb3BvYmVQbEpLQ2UwS1MyY2llV3BxSUc3Y082bzhPdFFFMXFvNnI3My1vYzVWMTQ?oc=5
 summary: Why Solo Founders Are Outpacing Funded Startups Akron Beacon Journal
 first_seen: '2026-10-13T03:04:29Z'
-last_seen: '2026-10-13T03:04:29Z'
-status: rejected
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX2tKSHRRSGtFVU9mWTZXQlhBNG81dldBbnBYcmo5LUN3dE4xYzh3STVTZXBsN1IwS2dxcG1ETDIwNmYwbVVkSU5kVVR5LXJ6OUhhSDVjODRnQVU0Q1FONmpyM3JfQ21pY3pVUi1lNl9iOWlucVJDbTVrb3BvYmVQbEpLQ2UwS1MyY2llV3BxSUc3Y082bzhPdFFFMXFvNnI3My1vYzVWMTQ?oc=5
   seen_at: '2026-10-13T03:04:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNVU1oYl9IeXYzQjZmdHItSVJKcVlxalhUOG1NNHEtaEdmWWNVR0dZTk1WSVNQY0k2Y0xNNEhreWk5bWF4VlFRcWZlcDhsc0ZHdHZiSmZEZ2psRENiM3VhUmYtUjItZnQ1RndTUHhyZ1pLWl9VQ3dTTmp0cm5ldVdxOE9WUEQ2ekU5dXpjYU9NYXFFWTc4RVMzTjZRb2w3MmlDeklPTw?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
   metrics: {}
   kind: news
 ---

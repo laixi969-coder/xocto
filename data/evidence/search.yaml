@@ -36,3 +36,37 @@
   tier: independent
   fact: Former OpenAI Researcher Issues Grim Warning, Says Only 5,000 People Have Access to Frontier AI
     While 2 Billion Use It as ‘Better Google Search’ TradingView
+- id: ev-8ce78818d6d3c025
+  project_slug: search
+  url: https://machinelearning.apple.com/research/mix-dont-tune
+  title: 'Mix, Don''t Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained
+    Settings'
+  published_at: '2026-10-13T00:00:00Z'
+  collected_at: '2026-10-14T01:14:22Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'For most languages of the world, language model pre-training operates in a data-constrained regime
+    where models must repeat their training data many times, degrading generalization. Two remedies exist:
+    aggressive hyperparameter tuning such as high weight decay, and mixing in data from a high-resource
+    auxiliary language to directly aid the low-resource target. While hyperparameter tuning regularizes
+    the model by shrinking weights to restrict network capacity, auxiliary data mixing uses a tunable
+    mixing ratio to expand the training distribution and diversify the training signal with new…'
+- id: ev-22a217b956c9351d
+  project_slug: search
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPTzE4bE5SV0V3SmN5SkZPX1FXZkd0Wll1a3BNcmlrTGJuSGcyeVlnSWpoakloZVlCNXB5OXdoS2RMeFFlT1dMVXRGU0Z5V1IwTEhYbG1DM2RISDhVYjZYeVdGQVFQRHpudVFWUURGelA0MzJUeDBXTjlpYlNjbkNUSVZtdmEwdnlyTGVmZXdUdEFQUDAtU090eGlPRQ?oc=5
+  title: IG Group Alumni Raise $1.2 Million for AI Search Startup
+  published_at: '2026-10-13T19:50:00Z'
+  collected_at: '2026-10-14T01:14:30Z'
+  source_kind: market_signal
+  tier: independent
+  fact: IG Group Alumni Raise $1.2 Million for AI Search Startup Finance Magnates
+- id: ev-cef6f83316f8c7df
+  project_slug: search
+  url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdVZrRTVWc3JJbm5tOXdOTFhVcnZsWm5jTXFBUGhkMGY0NmIzZlRvanJ3M3RMVURBQXdfM3VaaUxid2hKZnY4ZWpqajlRa1Q2WVNIcFVQTHpyclgtQzM2TU5nQ1B4Sng5YW9nVjdWSjJKX3BJemRtTWRiYWFLSDJCYTFxQUZCNFRKNUlqNVRJQXZvNzNMT0QyUi1nR3ZaZDlJeG42eTBXbzMwMnpiUExVU2NJVDZkaTdrWHUtVmhRd1R2dV9iOVJnWFdjenVVbkhEOXdONjh0am1RWEpFZVVPVUp3?oc=5
+  title: New Analysis Finds 26% Decline in Google Business Profile Interactions as AI Changes Local Search
+  published_at: '2026-10-13T11:48:08Z'
+  collected_at: '2026-10-14T01:14:30Z'
+  source_kind: pain
+  tier: independent
+  fact: New Analysis Finds 26% Decline in Google Business Profile Interactions as AI Changes Local Search
+    USA Today

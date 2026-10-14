@@ -23,17 +23,17 @@ url: https://www.anthropic.com/research/self-replicating-ai
 canonical_url: https://anthropic.com/research/self-replicating-ai
 summary: AI models may be capable of self-replicating without access to a datacenter
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
-status: market_context
+last_seen: '2026-10-14T01:13:55Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.anthropic.com/research/self-replicating-ai
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 78
-    comments: 95
+    points: 106
+    comments: 109
   kind: news
 ---
 

@@ -20,17 +20,17 @@ url: https://github.com/gonzaroman/IHMT-MEMORY
 canonical_url: https://github.com/gonzaroman/IHMT-MEMORY
 summary: Infinite Hierarchical Memory Tree for AI Agents
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
+last_seen: '2026-10-14T01:13:55Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/gonzaroman/IHMT-MEMORY
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 6
-    comments: 0
+    points: 8
+    comments: 2
   kind: product
 ---
 

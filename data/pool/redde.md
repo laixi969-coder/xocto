@@ -33,18 +33,18 @@ canonical_url: https://redde.goosehouse.org
 summary: iPhone, iPad and CarPlay client for the Hermes AI agent or any OpenAI-compatible model. Talk
   or type, watch it work, approve what it runs. No account, no tracking.
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://redde.goosehouse.org
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-14T01:14:00Z'
   metrics:
-    stars: 40
+    stars: 41
     forks: 2
-    open_issues: 9
+    open_issues: 7
   kind: product
 ---
 

@@ -36,16 +36,16 @@ summary: 'keys-Wasserman Slate AI Studio powered by TensorFold: an AI film studi
   Spark. Plan a film like a crew (Slate workflow by Sam Wasserman), render Qwen-Image-2.1 images Turbo
   and MiniMax H3 / FastH3 video with sound on TensorFold.'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/drowzeys/keys-Wasserman-Slate-AI-Studio-powered-by-TensorFold-Mac-DGXSpark
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-14T01:14:00Z'
   metrics:
-    stars: 95
+    stars: 98
     forks: 9
     open_issues: 3
   kind: product

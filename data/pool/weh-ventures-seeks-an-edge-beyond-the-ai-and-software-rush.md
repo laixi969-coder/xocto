@@ -1,0 +1,41 @@
+---
+slug: weh-ventures-seeks-an-edge-beyond-the-ai-and-software-rush
+name: WEH Ventures seeks an edge beyond the AI and software rush
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOMW5WdldjbURRbXJLTGNlVl90YjQ4bE41ck1ERDRENnRZdTgxaGQwNlVTbXFiUVlwV0NYWmgtcmVmY2VIbXNDU3VWWk9tREFyYk1qX2VQYnlOYk40M3Q1ck81TVFNX1pFMU9zczVGSzJRTE9ibE4xcmg1NmJnVHBtSmotaGgwNkphUVpqWHRJMDUwRGwybnZ0bk9MMHRIUWcxeTdSc0pKc2RmVFg2T25hYVhLSEF1RUw1aE5hdzJPOEJacHBKa0RQWnNxbEnSAdIBQVVfeXFMTUh1TDZfMnBBa0d2NFVyZ0Z0UktaQUNWRTRNalhRV1MwX2I3R2hNWElUVnlkc2lWQ3lsc1duYnN1bEk2Ry1HOGhSb2MtN21IdWR6TWd3Z1FsWk5yNVlvbC0zREVlZ2loMWNWOHg2SEV0Rkg3OHJvTUZqYWJ2T0dzZXI1b3hfQzR2VGtsUzJIeFgwR3gtNGRlaFREYVpDV0JmZ0hfUTVDS292WXo5a0tydmQyM0hobTBDU2UwZlMxOFlMNUJPNnpqcU4taTVGc0JCS0x3?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOMW5WdldjbURRbXJLTGNlVl90YjQ4bE41ck1ERDRENnRZdTgxaGQwNlVTbXFiUVlwV0NYWmgtcmVmY2VIbXNDU3VWWk9tREFyYk1qX2VQYnlOYk40M3Q1ck81TVFNX1pFMU9zczVGSzJRTE9ibE4xcmg1NmJnVHBtSmotaGgwNkphUVpqWHRJMDUwRGwybnZ0bk9MMHRIUWcxeTdSc0pKc2RmVFg2T25hYVhLSEF1RUw1aE5hdzJPOEJacHBKa0RQWnNxbEnSAdIBQVVfeXFMTUh1TDZfMnBBa0d2NFVyZ0Z0UktaQUNWRTRNalhRV1MwX2I3R2hNWElUVnlkc2lWQ3lsc1duYnN1bEk2Ry1HOGhSb2MtN21IdWR6TWd3Z1FsWk5yNVlvbC0zREVlZ2loMWNWOHg2SEV0Rkg3OHJvTUZqYWJ2T0dzZXI1b3hfQzR2VGtsUzJIeFgwR3gtNGRlaFREYVpDV0JmZ0hfUTVDS292WXo5a0tydmQyM0hobTBDU2UwZlMxOFlMNUJPNnpqcU4taTVGc0JCS0x3?oc=5
+summary: WEH Ventures seeks an edge beyond the AI and software rush ET Entrepreneur
+first_seen: '2026-10-14T01:14:30Z'
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOMW5WdldjbURRbXJLTGNlVl90YjQ4bE41ck1ERDRENnRZdTgxaGQwNlVTbXFiUVlwV0NYWmgtcmVmY2VIbXNDU3VWWk9tREFyYk1qX2VQYnlOYk40M3Q1ck81TVFNX1pFMU9zczVGSzJRTE9ibE4xcmg1NmJnVHBtSmotaGgwNkphUVpqWHRJMDUwRGwybnZ0bk9MMHRIUWcxeTdSc0pKc2RmVFg2T25hYVhLSEF1RUw1aE5hdzJPOEJacHBKa0RQWnNxbEnSAdIBQVVfeXFMTUh1TDZfMnBBa0d2NFVyZ0Z0UktaQUNWRTRNalhRV1MwX2I3R2hNWElUVnlkc2lWQ3lsc1duYnN1bEk2Ry1HOGhSb2MtN21IdWR6TWd3Z1FsWk5yNVlvbC0zREVlZ2loMWNWOHg2SEV0Rkg3OHJvTUZqYWJ2T0dzZXI1b3hfQzR2VGtsUzJIeFgwR3gtNGRlaFREYVpDV0JmZ0hfUTVDS292WXo5a0tydmQyM0hobTBDU2UwZlMxOFlMNUJPNnpqcU4taTVGc0JCS0x3?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
+  metrics: {}
+  kind: news
+---
+
+# WEH Ventures seeks an edge beyond the AI and software rush
+
+WEH Ventures seeks an edge beyond the AI and software rush ET Entrepreneur
+
+## 笔记
+
+

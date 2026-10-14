@@ -20,17 +20,17 @@ url: https://github.com/bherbruck/solidcraft
 canonical_url: https://github.com/bherbruck/solidcraft
 summary: Open-Source Parametric CAD in Rust (With MCP Support)
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
+last_seen: '2026-10-14T01:13:55Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/bherbruck/solidcraft
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 11
-    comments: 0
+    points: 133
+    comments: 45
   kind: product
 ---
 

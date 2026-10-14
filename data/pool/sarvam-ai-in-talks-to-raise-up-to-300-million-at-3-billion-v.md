@@ -1,0 +1,41 @@
+---
+slug: sarvam-ai-in-talks-to-raise-up-to-300-million-at-3-billion-v
+name: Sarvam AI in talks to raise up to $300 million at $3 billion valuation
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUHBFVVlISnVKVkVsS0dGN2FxRG0tYU81bE1oRmRVQXJWUjZ3blR1aTI1XzlDOXpTb3h6cjh2UmNRVlpmbGJOZGR4eGVyOGUtVUZxRVlmU05FUXZ0bnM4UmszanZWSEd2YXlzaTJGTXlWV0VfUUo2VGdJRG5OTDg3Zkp0b1ZrWkpHREt6NjdPNEI0QUs4VkRydHpyVDN4Sm4zS3p3U1dvRnlkeXVfb2JMWXQ1MDVHdXJFbGcwS0tsbEVCWGlDdkt6U2dSb2hEU2tUVzNSb252dEhwZ9IB3wFBVV95cUxNc0laT0xZd1ItT2VtQ0RsTnlrT3FJV3E5TlEwWXpKNk0weW94N2ZqQ3V3RjJnSmxEeUlEOHBqd3pKOXpBVkpiTS1NYnU1WEhvYmhzSExfcmRtekxGTDFseV9Pc2MtaTdPcHRSN2VoMkJtTjk3ajM4Zi1XRWhLcDZMQ1YtY3FfWjJtYzUwbFA3dGEwOVZCajBISE54WnJHQ1FoX1dpYmdPQ1RGeUVrLWNWQVNzX1k1T3ByRy1hT3RVUGZfdk02NHZrNUxXbTN0RnVfaFF3bDZYaUJxRGJWT0pV?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUHBFVVlISnVKVkVsS0dGN2FxRG0tYU81bE1oRmRVQXJWUjZ3blR1aTI1XzlDOXpTb3h6cjh2UmNRVlpmbGJOZGR4eGVyOGUtVUZxRVlmU05FUXZ0bnM4UmszanZWSEd2YXlzaTJGTXlWV0VfUUo2VGdJRG5OTDg3Zkp0b1ZrWkpHREt6NjdPNEI0QUs4VkRydHpyVDN4Sm4zS3p3U1dvRnlkeXVfb2JMWXQ1MDVHdXJFbGcwS0tsbEVCWGlDdkt6U2dSb2hEU2tUVzNSb252dEhwZ9IB3wFBVV95cUxNc0laT0xZd1ItT2VtQ0RsTnlrT3FJV3E5TlEwWXpKNk0weW94N2ZqQ3V3RjJnSmxEeUlEOHBqd3pKOXpBVkpiTS1NYnU1WEhvYmhzSExfcmRtekxGTDFseV9Pc2MtaTdPcHRSN2VoMkJtTjk3ajM4Zi1XRWhLcDZMQ1YtY3FfWjJtYzUwbFA3dGEwOVZCajBISE54WnJHQ1FoX1dpYmdPQ1RGeUVrLWNWQVNzX1k1T3ByRy1hT3RVUGZfdk02NHZrNUxXbTN0RnVfaFF3bDZYaUJxRGJWT0pV?oc=5
+summary: Sarvam AI in talks to raise up to $300 million at $3 billion valuation ET Enterprise AI
+first_seen: '2026-10-14T01:14:30Z'
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUHBFVVlISnVKVkVsS0dGN2FxRG0tYU81bE1oRmRVQXJWUjZ3blR1aTI1XzlDOXpTb3h6cjh2UmNRVlpmbGJOZGR4eGVyOGUtVUZxRVlmU05FUXZ0bnM4UmszanZWSEd2YXlzaTJGTXlWV0VfUUo2VGdJRG5OTDg3Zkp0b1ZrWkpHREt6NjdPNEI0QUs4VkRydHpyVDN4Sm4zS3p3U1dvRnlkeXVfb2JMWXQ1MDVHdXJFbGcwS0tsbEVCWGlDdkt6U2dSb2hEU2tUVzNSb252dEhwZ9IB3wFBVV95cUxNc0laT0xZd1ItT2VtQ0RsTnlrT3FJV3E5TlEwWXpKNk0weW94N2ZqQ3V3RjJnSmxEeUlEOHBqd3pKOXpBVkpiTS1NYnU1WEhvYmhzSExfcmRtekxGTDFseV9Pc2MtaTdPcHRSN2VoMkJtTjk3ajM4Zi1XRWhLcDZMQ1YtY3FfWjJtYzUwbFA3dGEwOVZCajBISE54WnJHQ1FoX1dpYmdPQ1RGeUVrLWNWQVNzX1k1T3ByRy1hT3RVUGZfdk02NHZrNUxXbTN0RnVfaFF3bDZYaUJxRGJWT0pV?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
+  metrics: {}
+  kind: news
+---
+
+# Sarvam AI in talks to raise up to $300 million at $3 billion valuation
+
+Sarvam AI in talks to raise up to $300 million at $3 billion valuation ET Enterprise AI
+
+## 笔记
+
+

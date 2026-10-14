@@ -1,0 +1,92 @@
+{
+  "company": {
+    "city": "London",
+    "country": "UK",
+    "description": "Alchera Technologies is a UK AI and data company, founded in 2016, that helps local authorities, highways operators and their advisors make decisions about road and bus networks.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "DB7D62B7-5199-4197-B28A-F6F4EB006F9E",
+    "investors": [
+      "British Business Bank’s South West Investment Fund (SWIF)",
+      "Maven Capital Partners"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Alchera Technologies",
+    "rounds": [
+      {
+        "amountEur": 3196780,
+        "date": "2026-10-13T00:00:00.000Z",
+        "id": "F38A145C-209A-4CD9-901B-042F5DA2E4C0",
+        "investors": [
+          "British Business Bank’s South West Investment Fund (SWIF)",
+          "Maven Capital Partners"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/F38A145C-209A-4CD9-901B-042F5DA2E4C0"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 51,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 14
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 3196780,
+    "url": "https://funding.tech.eu/companies/DB7D62B7-5199-4197-B28A-F6F4EB006F9E",
+    "website": "https://www.alcheratechnologies.com/"
+  },
+  "round": {
+    "amountEur": 3196780,
+    "amountEurStored": null,
+    "amountNative": 2700000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "DB7D62B7-5199-4197-B28A-F6F4EB006F9E",
+      "name": "Alchera Technologies",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "GBP",
+    "date": "2026-10-13",
+    "fx": {
+      "asOf": "2026-10-13",
+      "rate": 0.8446,
+      "source": "ECB"
+    },
+    "id": "F38A145C-209A-4CD9-901B-042F5DA2E4C0",
+    "investors": [
+      "British Business Bank’s South West Investment Fund (SWIF)",
+      "Maven Capital Partners"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Seed",
+    "url": "/deals/F38A145C-209A-4CD9-901B-042F5DA2E4C0"
+  }
+}

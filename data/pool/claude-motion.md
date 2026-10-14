@@ -33,17 +33,17 @@ url: https://github.com/whaleyxbt/claude-motion
 canonical_url: https://github.com/whaleyxbt/claude-motion
 summary: A motion design toolkit for coding agents.
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/whaleyxbt/claude-motion
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-14T01:14:00Z'
   metrics:
-    stars: 362
-    forks: 40
+    stars: 396
+    forks: 47
     open_issues: 0
   kind: product
 ---

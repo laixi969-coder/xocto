@@ -20,10 +20,11 @@ url: https://github.com/p10node/docflare-ai
 canonical_url: https://github.com/p10node/docflare-ai
 summary: Open-source docs chatbot on Cloudflare's free tier
 first_seen: '2026-10-08T17:52:55Z'
-last_seen: '2026-10-09T02:10:14Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: rejected
 sources:
 - hackernews
+- github
 sightings:
 - source: hackernews
   url: https://github.com/p10node/docflare-ai
@@ -31,6 +32,14 @@ sightings:
   metrics:
     points: 10
     comments: 0
+  kind: product
+- source: github
+  url: https://github.com/p10node/docflare-ai
+  seen_at: '2026-10-14T01:14:00Z'
+  metrics:
+    stars: 41
+    forks: 1
+    open_issues: 0
   kind: product
 ---
 

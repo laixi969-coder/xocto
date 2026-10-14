@@ -1,0 +1,52 @@
+---
+slug: spanish-fintech-id-finance-lands-545m-in-debt-and-equity
+name: Spanish fintech ID Finance lands €545M  in debt and equity
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://tech.eu/2026/10/13/spanish-fintech-id-finance-lands-545m-in-debt-and-equity/
+canonical_url: https://tech.eu/2026/10/13/spanish-fintech-id-finance-lands-545m-in-debt-and-equity
+summary: 'Spanish fintech ID Finance has raised €545 million in debt and equity, it said today, as it
+  looks to make its consumer fintech app Plazo Spain’s “go-to” credit platform. Barcelona-headquartered
+  ID Finance did not disclose the equity and debt split in the raise. It said international investors
+  Spice Expeditions, WashU, Kingsway Capital and global investment firm i80 Group were involved in the
+  financing round. It said the funding will be used to expand the product suite of its consumer fintech
+  app Plazo. Plazo combines payments, shopping rewards and short-term borrowing in a single app. It has
+  also expanded into BNPL as it looks to become Spain’s “go-to” consumer credit platform. ID Finance said
+  the funding marks one of the biggest rounds by a Spanish fintech in recent years. Alexander Dunaev,
+  co-founder of ID Finance, said: "This investment is a strong vote of confidence in Plazo and in the
+  model we''ve built to modernise consumer credit in Spain. Plazo tripled its portfolio in 2025 and reached
+  profitability, proving that responsible, AI-driven underwriting and a genuinely better product experience
+  can scale together. "'
+first_seen: '2026-10-14T01:14:23Z'
+last_seen: '2026-10-14T01:14:23Z'
+status: pending_filter
+sources:
+- marketfeeds
+sightings:
+- source: marketfeeds
+  url: https://tech.eu/2026/10/13/spanish-fintech-id-finance-lands-545m-in-debt-and-equity/
+  seen_at: '2026-10-14T01:14:23Z'
+  metrics: {}
+  kind: news
+---
+
+# Spanish fintech ID Finance lands €545M  in debt and equity
+
+Spanish fintech ID Finance has raised €545 million in debt and equity, it said today, as it looks to make its consumer fintech app Plazo Spain’s “go-to” credit platform. Barcelona-headquartered ID Finance did not disclose the equity and debt split in the raise. It said international investors Spice Expeditions, WashU, Kingsway Capital and global investment firm i80 Group were involved in the financing round. It said the funding will be used to expand the product suite of its consumer fintech app Plazo. Plazo combines payments, shopping rewards and short-term borrowing in a single app. It has also expanded into BNPL as it looks to become Spain’s “go-to” consumer credit platform. ID Finance said the funding marks one of the biggest rounds by a Spanish fintech in recent years. Alexander Dunaev, co-founder of ID Finance, said: "This investment is a strong vote of confidence in Plazo and in the model we've built to modernise consumer credit in Spain. Plazo tripled its portfolio in 2025 and reached profitability, proving that responsible, AI-driven underwriting and a genuinely better product experience can scale together. "
+
+## 笔记
+
+

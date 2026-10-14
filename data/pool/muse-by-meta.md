@@ -42,8 +42,8 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-10-13T03:04:29Z'
-status: queued
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
 sources:
 - producthunt
 - marketfeeds
@@ -368,6 +368,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNM0tlRjdoWThYVVZMUnZyTjRGM0JYRWNiQUtIV29KVDVZRnlWcWhFd25MYnF6TVF1ZlBrWk1fVXB3ZDd1WHNXUDkzYlN3bVR2eTZvcjB5UU5obGI5SG1BQ2FjYnkyQUhZeExlN2pOWms0eFd3cnBhMnpTMXdFT2RwS21uT3VibUdQX19UR2RqQ2czWkRwWWFMSV9HZWtTYUQy?oc=5
   seen_at: '2026-10-13T03:04:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder
+  seen_at: '2026-10-14T01:14:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZndsUjZ0VWJCYURXazdHZkd2NjNMRHRSMDM4RFdRVU9xNXhQX1FIZ2VOUUZXcnhrQXFlMFl2QktVbDZrSkhtTzQxaHowTEV3azFabVVHRV9xeUxyVXZKMlBKb3lLN0daeVk3Mk8yWE43R2RQUU1rN3JMM1F4RU1lRnNtUXdZcTUzSjdjUDRxUmRfLTI0dkZERlc5MnY4VmRXdVo0SGxNd2NoSi1uSmxJZXMxNzh5SHNNSUQ5bmh3TDQ1WmlPbWlVcmZkM3JIUmpaZ3NLWHZ6SDQ4enNyVHZ1aWRjRU90dFE?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
   metrics: {}
   kind: news
 ---

@@ -32,17 +32,17 @@ canonical_url: https://github.com/LosaLosSantos/aurelio-finance
 summary: 'Open-source personal finance app with an AI financial advisor: track your net worth, investments,
   ETFs, cash and debts on your own computer.'
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LosaLosSantos/aurelio-finance
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-14T01:14:00Z'
   metrics:
-    stars: 2930
-    forks: 380
+    stars: 3374
+    forks: 465
     open_issues: 0
   kind: product
 ---

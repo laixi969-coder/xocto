@@ -31,17 +31,17 @@ url: https://git.oiloil.org
 canonical_url: https://git.oiloil.org
 summary: 'Oil Git: a read-only Git GUI and diff viewer for macOS & Windows. 帮你看清 AI 改了什么。'
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://git.oiloil.org
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-14T01:14:00Z'
   metrics:
-    stars: 55
-    forks: 7
+    stars: 60
+    forks: 8
     open_issues: 1
   kind: product
 ---

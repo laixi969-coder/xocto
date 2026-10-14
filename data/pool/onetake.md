@@ -37,17 +37,17 @@ summary: 'Motion films that never cut to the next slide: every beat grows out of
   camera, continuity measured by an oracle. Product launch films and feature demos, made with a coding
   agent.'
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://onetakemotion.com
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-14T01:14:00Z'
   metrics:
-    stars: 2226
-    forks: 145
+    stars: 2297
+    forks: 147
     open_issues: 3
   kind: product
 ---

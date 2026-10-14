@@ -1,0 +1,18 @@
+- id: ev-cf3ec54071b8ff9b
+  project_slug: natural-language-security-queries-at-orca-security-using-ama
+  url: https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/
+  title: Natural language security queries at Orca Security using Amazon Bedrock
+  published_at: '2026-10-13T16:03:31Z'
+  collected_at: '2026-10-14T01:14:22Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Security analysts need fast answers about their cloud infrastructure without deep familiarity
+    with domain-specific query languages. Orca Security ’s tool covers over 900 cloud models (the resource
+    types Sonar tracks, such as an Amazon Elastic Compute Cloud (Amazon EC2) instance or an Amazon Simple
+    Storage Service (Amazon S3) bucket). Querying that data required precise model names, nested relationship
+    navigation, and selection from 18 operators (comparison functions like equals or contains used to
+    filter results). To solve this, Orca Security partnered with AWS to build Discovery AI, a natural
+    language query agent on Amazon Bedrock . Orca provides context-aware security for cloud, code, and
+    AI, and Sonar is its domain-specific query system where users search, filter, and explore across the
+    entire data graph. In this post, we share the architecture and results of Discovery AI, which converts
+    a natural language question into a Sonar query. As a result, Orca reduced query costs by 90 perc

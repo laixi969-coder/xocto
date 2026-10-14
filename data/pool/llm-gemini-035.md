@@ -1,0 +1,52 @@
+---
+slug: llm-gemini-035
+name: llm-gemini 0.35
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://simonwillison.net/2026/Oct/13/llm-gemini/
+canonical_url: https://simonwillison.net/2026/Oct/13/llm-gemini
+summary: 'Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made
+  available today via the Gemini API and for customers of their $100/month subscription plan. Here are
+  the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of
+  producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically
+  (and who have boasted about their pelicans before.) Here''s the "high" illustration, which cost me 17.166
+  cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output - the
+  same price as GPT-6 Sol, half the price of Claude Opus 5.5 and 1/5th the price of Claude Fable 5.1 and
+  GPT-6 Astra. But on December 1st Argon is set to double in price - so it will be the same price as Opus
+  5.5. Prices like this aren''t really comparable these days since what really matters is how many tokens
+  a model takes to achieve a goal within an agentic harness. One useful clue for that comes from Artificial
+  Analysis, who publish the total cost to run their benchmark using each model. Argon is looking very
+  good there'
+first_seen: '2026-10-14T01:14:23Z'
+last_seen: '2026-10-14T01:14:23Z'
+status: pending_filter
+sources:
+- marketfeeds
+sightings:
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Oct/13/llm-gemini/
+  seen_at: '2026-10-14T01:14:23Z'
+  metrics: {}
+  kind: news
+---
+
+# llm-gemini 0.35
+
+Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the "high" illustration, which cost me 17.166 cents: The pricing is interesting. At launch, Argon is $2/million input and $10/million output - the same price as GPT-6 Sol, half the price of Claude Opus 5.5 and 1/5th the price of Claude Fable 5.1 and GPT-6 Astra. But on December 1st Argon is set to double in price - so it will be the same price as Opus 5.5. Prices like this aren't really comparable these days since what really matters is how many tokens a model takes to achieve a goal within an agentic harness. One useful clue for that comes from Artificial Analysis, who publish the total cost to run their benchmark using each model. Argon is looking very good there
+
+## 笔记
+
+

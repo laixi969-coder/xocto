@@ -20,17 +20,17 @@ url: https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e
 canonical_url: https://linkedin.com/pulse/ai-tool-rich-hickey-kjl8e
 summary: '''AI'' Is Not a Tool by Rich Hickey'
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
-status: rejected
+last_seen: '2026-10-14T01:13:55Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 232
-    comments: 116
+    points: 302
+    comments: 175
   kind: news
 ---
 

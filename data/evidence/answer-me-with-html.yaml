@@ -112,3 +112,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 知识服务 开发者与知识工作者在需要把AI对复杂问题的长回答整理成可读材料时，让agent把回答渲染成一页HTML，直接得到可阅读、可分享的页面'
+- id: ev-d9e10569c85f50d5
+  project_slug: answer-me-with-html
+  url: https://github.com/QingYunA/answer-me-with-html
+  title: answer-me-with-html
+  published_at: '2026-10-13T08:37:20Z'
+  collected_at: '2026-10-14T01:13:55Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: Let Claude Code answer with a diagram page instead of a wall of text

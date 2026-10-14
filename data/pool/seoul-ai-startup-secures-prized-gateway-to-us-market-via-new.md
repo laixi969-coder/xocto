@@ -1,0 +1,41 @@
+---
+slug: seoul-ai-startup-secures-prized-gateway-to-us-market-via-new
+name: Seoul AI startup secures prized gateway to US market via New York program
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQU01NMXpFbXhUTDhyUnFDd0xGRmhleHMyb2w3RU1CVEZGckR1UmlHbkZMcXdPZUw1LVotOC1UNDMtNFNMX3NnY1ZXYXQ3eldMTEFXNDBNWXZXN2lwMGlUOEV3VUVNYk9PdHZDREM0SmMxeEVRS1RaSDNNX1VTcW96U0JDSG13ejZURzhKdUpNN1hjb1VMQTJLb2s1R09TSENmVnI3bnY1anlGRzRnZVFVdm9jQ29JWGVoNmtKZWg2X0pzYktwYXhGdVNn0gHPAUFVX3lxTE1hOFBTWnRuNDVVNWthbDhieXQzdVdDbElKZkJtc0ZaZ2I3S3REM0JGa1RrQmlBNWVGalpqVFhVY3BheGdWOFFhRk9KeElkM1JISjlFVWtON3JVUmtlZW5jWFhteVB4ZU5tMDdIaXlaSnJzaXRWR2dxUVItRWZXUGtLWlF5UXkyTHZOTkYwYzJTdXlpOGFfRmd4aGFOQTFSQzZ2UnVtV3BWb0Z4MGFNSGxDMzBYY1hBRVBTUU8zaF8yTzQ1alQwR040NEVtbUxwcw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQU01NMXpFbXhUTDhyUnFDd0xGRmhleHMyb2w3RU1CVEZGckR1UmlHbkZMcXdPZUw1LVotOC1UNDMtNFNMX3NnY1ZXYXQ3eldMTEFXNDBNWXZXN2lwMGlUOEV3VUVNYk9PdHZDREM0SmMxeEVRS1RaSDNNX1VTcW96U0JDSG13ejZURzhKdUpNN1hjb1VMQTJLb2s1R09TSENmVnI3bnY1anlGRzRnZVFVdm9jQ29JWGVoNmtKZWg2X0pzYktwYXhGdVNn0gHPAUFVX3lxTE1hOFBTWnRuNDVVNWthbDhieXQzdVdDbElKZkJtc0ZaZ2I3S3REM0JGa1RrQmlBNWVGalpqVFhVY3BheGdWOFFhRk9KeElkM1JISjlFVWtON3JVUmtlZW5jWFhteVB4ZU5tMDdIaXlaSnJzaXRWR2dxUVItRWZXUGtLWlF5UXkyTHZOTkYwYzJTdXlpOGFfRmd4aGFOQTFSQzZ2UnVtV3BWb0Z4MGFNSGxDMzBYY1hBRVBTUU8zaF8yTzQ1alQwR040NEVtbUxwcw?oc=5
+summary: Seoul AI startup secures prized gateway to US market via New York program The Korea Times
+first_seen: '2026-10-14T01:14:30Z'
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQU01NMXpFbXhUTDhyUnFDd0xGRmhleHMyb2w3RU1CVEZGckR1UmlHbkZMcXdPZUw1LVotOC1UNDMtNFNMX3NnY1ZXYXQ3eldMTEFXNDBNWXZXN2lwMGlUOEV3VUVNYk9PdHZDREM0SmMxeEVRS1RaSDNNX1VTcW96U0JDSG13ejZURzhKdUpNN1hjb1VMQTJLb2s1R09TSENmVnI3bnY1anlGRzRnZVFVdm9jQ29JWGVoNmtKZWg2X0pzYktwYXhGdVNn0gHPAUFVX3lxTE1hOFBTWnRuNDVVNWthbDhieXQzdVdDbElKZkJtc0ZaZ2I3S3REM0JGa1RrQmlBNWVGalpqVFhVY3BheGdWOFFhRk9KeElkM1JISjlFVWtON3JVUmtlZW5jWFhteVB4ZU5tMDdIaXlaSnJzaXRWR2dxUVItRWZXUGtLWlF5UXkyTHZOTkYwYzJTdXlpOGFfRmd4aGFOQTFSQzZ2UnVtV3BWb0Z4MGFNSGxDMzBYY1hBRVBTUU8zaF8yTzQ1alQwR040NEVtbUxwcw?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
+  metrics: {}
+  kind: news
+---
+
+# Seoul AI startup secures prized gateway to US market via New York program
+
+Seoul AI startup secures prized gateway to US market via New York program The Korea Times
+
+## 笔记
+
+

@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PYllmLS1SNHV1UkNrYnZERE
 canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PYllmLS1SNHV1UkNrYnZEREtod3VsWTlUUGZndFN0WmNLaXFNenlfbzdHczlNX0FHYkhwWlRmQW9UeE4weldvYlQzZVBfUHlnc2IzYVpaZHJwUURhQ3l3eQ?oc=5
 summary: AI基建融资推高长债收益率 美财政部或调整发债久期缓解市场压力 东方财富
 first_seen: '2026-10-13T03:04:29Z'
-last_seen: '2026-10-13T03:04:29Z'
-status: rejected
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9PYllmLS1SNHV1UkNrYnZEREtod3VsWTlUUGZndFN0WmNLaXFNenlfbzdHczlNX0FHYkhwWlRmQW9UeE4weldvYlQzZVBfUHlnc2IzYVpaZHJwUURhQ3l3eQ?oc=5
   seen_at: '2026-10-13T03:04:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BMGhSZFc4V0dDdWJJa29YNjVvUzhZRHBuUl8yLV91d04yUTVRc0FNdUQ3MUFLYU9teUdPbURMbE5WalBhaWNmOTR4U2VDYzAySk96a0ZmdW9jMzRW?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
   metrics: {}
   kind: news
 ---

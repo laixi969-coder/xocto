@@ -20,17 +20,17 @@ url: https://brickbrag.com/
 canonical_url: https://brickbrag.com
 summary: A multiplayer brick-building world in the browser
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
+last_seen: '2026-10-14T01:13:55Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://brickbrag.com/
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 38
-    comments: 11
+    points: 74
+    comments: 40
   kind: product
 ---
 

@@ -1,0 +1,18 @@
+- id: ev-3ecb8c490e5e3d30
+  project_slug: build-long-horizon-agents-with-grok-47-on-amazon-bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/
+  title: Build long-horizon agents with Grok 4.7 on Amazon Bedrock
+  published_at: '2026-10-13T15:52:20Z'
+  collected_at: '2026-10-14T01:14:22Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: SpaceXAI’s Grok 4.7 is now available on Amazon Bedrock, which offers a choice of foundation models
+    (FMs) from multiple providers. According to SpaceXAI, Grok 4.7 is trained to work longer on more difficult
+    tasks and knows when to check its own work. That matters most for agents, which carry a task through
+    many steps and must verify what they find along the way. An agent that works this way has to do more
+    than look things up. It has to form a candidate answer, check it against what it has learned, and
+    refine it until it fits. Grok 4.7 exposes a reasoning effort setting that controls how much deliberation
+    happens before each response, and for agent workloads a practical question is which level to run.
+    In this post, we build a tool-calling agent on Grok 4.7 and evaluate it on three tasks that require
+    search rather than lookup. The tasks are diagnosing a two-service outage from its alerts, scheduling
+    maintenance under interacting constraints, and choosing an optimal set of migrations under

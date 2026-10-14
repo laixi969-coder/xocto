@@ -20,17 +20,17 @@ url: https://github.com/creationsofm7/localtv-remote
 canonical_url: https://github.com/creationsofm7/localtv-remote
 summary: Use your phone as a Windows mouse and keyboard, without a phone app
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
+last_seen: '2026-10-14T01:13:55Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/creationsofm7/localtv-remote
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
     points: 5
-    comments: 0
+    comments: 3
   kind: product
 ---
 

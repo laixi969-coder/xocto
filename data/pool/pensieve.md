@@ -34,17 +34,17 @@ canonical_url: https://tedhaley.ca/pensieve
 summary: Local search across your files, git repos and AI agent sessions on your Mac. An MCP server gives
   your agents the best context, a 3D map shows your work by topic, and git blame shows who knows what.
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://tedhaley.ca/pensieve/
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-14T01:14:00Z'
   metrics:
-    stars: 56
-    forks: 4
+    stars: 64
+    forks: 5
     open_issues: 2
   kind: product
 ---

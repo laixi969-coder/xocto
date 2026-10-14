@@ -28,17 +28,17 @@ url: https://research.meta.ai/blog/muse-wonder
 canonical_url: https://research.meta.ai/blog/muse-wonder
 summary: ''
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
-status: watching
+last_seen: '2026-10-14T01:13:55Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://research.meta.ai/blog/muse-wonder
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 545
-    comments: 302
+    points: 658
+    comments: 373
   kind: news
 ---
 

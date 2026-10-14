@@ -34,7 +34,7 @@ url: https://claude.ai/directory/coffeetable
 canonical_url: https://claude.ai/directory/coffeetable
 summary: A new UX to discover books inside Claude
 first_seen: '2026-08-25T11:07:22Z'
-last_seen: '2026-08-26T04:53:28Z'
+last_seen: '2026-10-14T01:13:55Z'
 status: watching
 sources:
 - hackernews
@@ -45,6 +45,14 @@ sightings:
   metrics:
     points: 15
     comments: 10
+  kind: product
+- source: hackernews
+  url: https://claude.ai/artifact/BF6MjSg1RJBsp1ZZiQX6D2
+  seen_at: '2026-10-14T01:13:55Z'
+  metrics:
+    points: 7
+    comments: 5
+  kind: product
 ---
 
 # Coffeetable

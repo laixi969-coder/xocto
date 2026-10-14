@@ -20,11 +20,12 @@ url: https://space.bl2.net/
 canonical_url: https://space.bl2.net
 summary: Real-time Solar System with 526k asteroids and all tracked satellites
 first_seen: '2026-09-29T19:08:01Z'
-last_seen: '2026-10-07T01:32:55Z'
-status: rejected
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://space.bl2.net/
@@ -41,6 +42,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/10/06/nettle-raises-48m-to-expand-its-ai-workspace-for-insurers/
   seen_at: '2026-10-07T01:32:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS01GOElmdWM2ZE5fR213WVRPTFdSWVZZMjJlQmJPMUlKUlJPU1lsdHktZW5yN2VWdGl1LWhjXzBtdWpKdjgxajNnQTUyY2RoNFZoQUEySjdLcUxDbXhzMFpvX0FPd3R6ZzYzc3k4THB2WHZlN2pha1hlMEwzeWdIcmp5UUtGUDh3?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
   metrics: {}
   kind: news
 ---

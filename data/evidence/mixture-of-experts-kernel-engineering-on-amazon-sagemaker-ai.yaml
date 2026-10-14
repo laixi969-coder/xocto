@@ -1,0 +1,18 @@
+- id: ev-be1232aed83bc409
+  project_slug: mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai
+  url: https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/
+  title: Mixture-of-Experts kernel engineering on Amazon SageMaker AI
+  published_at: '2026-10-13T15:17:09Z'
+  collected_at: '2026-10-14T01:14:22Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Mixture-of-Experts (MoE) is a sparsely-activated architecture that scales large language model
+    (LLM) capacity while keeping per-token compute low. Because its operations account for a large share
+    of total compute time, inefficiencies there directly raise request latency and cost. Therefore, optimizing
+    MoE operations through kernel engineering offers the largest opportunity for performance gains. Fused
+    MoE is a key optimization technique for the MoE architecture. A fused MoE system merges token routing,
+    data shuffling, and specialized network calculations into a single batched operation on the GPU. This
+    replaces executing those routing and expert computations as separate, sequential loop operations.
+    While this provides latency advantages, it also brings complexity in kernel implementations and debugging
+    capability. High GPU utilization for this architecture requires hardware-specific optimizations. In
+    this post, we describe the different kernel optimizations we implemented for fused MoE

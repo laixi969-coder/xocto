@@ -20,10 +20,12 @@ url: https://modelmap.cc
 canonical_url: https://modelmap.cc
 summary: animated architecture of any HuggingFace models
 first_seen: '2026-08-18T23:57:36Z'
-last_seen: '2026-09-30T01:18:13Z'
-status: rejected
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
 sources:
 - hackernews
+- marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://modelmap.cc
@@ -45,6 +47,16 @@ sightings:
   metrics:
     points: 7
     comments: 0
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/
+  seen_at: '2026-10-14T01:14:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxNTTc2Z2lUZjIzemFoczkxQWJZSXlzS1FRR2VUSEQtUVBsSXRsYXRRbEI1M3VBVWphc0R4eGdJY3VfSHR1eXN0QnZXa2dYeGlmOS1qcTUzeE1VdXB0YWY1cVIzV04tLS1FRlZhd0I0QTVGY3FMNGxTM1hBSllGQ1dsQU1KS1pLOW1UellyaUw1U182YWg1dU1fQThfLUQwWkwzRWotSlB0UmRSa1FIcjVHbWZTMA?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
+  metrics: {}
   kind: news
 ---
 

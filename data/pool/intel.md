@@ -22,17 +22,17 @@ url: https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data
 canonical_url: https://intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html
 summary: Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
-status: market_context
+last_seen: '2026-10-14T01:13:55Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 92
-    comments: 36
+    points: 301
+    comments: 175
   kind: news
 ---
 

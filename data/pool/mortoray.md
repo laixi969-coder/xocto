@@ -20,17 +20,17 @@ url: https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/
 canonical_url: https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking
 summary: Why aren't AI companies being charged for hacking?
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
-status: rejected
+last_seen: '2026-10-14T01:13:55Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 312
-    comments: 333
+    points: 329
+    comments: 366
   kind: news
 ---
 

@@ -34,17 +34,17 @@ canonical_url: https://github.com/mariagorskikh/open-instinct
 summary: 'Open Instinct: an open-source Instinct. A personal agent you text on iMessage, with its own
   computer and a trusted network of other agents. Built on Pi, Inkbox, Maritime and Composio.'
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-14T01:14:00Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mariagorskikh/open-instinct
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-14T01:14:00Z'
   metrics:
-    stars: 317
-    forks: 67
+    stars: 325
+    forks: 68
     open_issues: 4
   kind: product
 ---

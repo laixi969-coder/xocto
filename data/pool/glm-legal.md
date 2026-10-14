@@ -20,17 +20,17 @@ url: https://z.ai/blog/glm-legal
 canonical_url: https://z.ai/blog/glm-legal
 summary: ''
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
+last_seen: '2026-10-14T01:13:55Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://z.ai/blog/glm-legal
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 460
-    comments: 259
+    points: 665
+    comments: 358
   kind: news
 ---
 

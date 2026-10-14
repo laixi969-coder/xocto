@@ -1,0 +1,41 @@
+---
+slug: 酒店业ai智能体应用指南发布-ai从对话走向执行
+name: 《酒店业AI智能体应用指南》发布 AI从对话走向执行
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiywJBVV95cUxNZnE3SGMyRE12RU84M1RlSXM1dlE5VHduTG1zazVsZk13eFh3d25GR0pfb0ozT2dvdHluUE16VzFXZlZFVlFfRFBqYUh1bGNvMU5wUTRRM3daSk02TVNpMFFqZFV3aFJMSUo5bE8zRUU3ZDJram1Xc3NzdUFMWkhvTk1mLUpkZVlWcGxFa21sc01mblhRZHlNZHFmMG90d1NERWlDb0pGTUxPeGZNNm9rYm5uUkJXLVFudFlVZjN5TUxYb2EwQ0hhOW9aa0ZqX0JabTZjM3VIMlNMaVVFczZjcmpUakM0c2ZwWk9EY014RzI0STNJcmRVdUpMenBxRDg3dTQ4ZXBuVl91Q0pqSGVEeGtpMTFYQTVjQ2gtSDhJR2p3ZEUxVHpQRVR1ZGhsNEt2dnZZZENYYzVIN1dYdUFNM19aX0V6YmNHQndN?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiywJBVV95cUxNZnE3SGMyRE12RU84M1RlSXM1dlE5VHduTG1zazVsZk13eFh3d25GR0pfb0ozT2dvdHluUE16VzFXZlZFVlFfRFBqYUh1bGNvMU5wUTRRM3daSk02TVNpMFFqZFV3aFJMSUo5bE8zRUU3ZDJram1Xc3NzdUFMWkhvTk1mLUpkZVlWcGxFa21sc01mblhRZHlNZHFmMG90d1NERWlDb0pGTUxPeGZNNm9rYm5uUkJXLVFudFlVZjN5TUxYb2EwQ0hhOW9aa0ZqX0JabTZjM3VIMlNMaVVFczZjcmpUakM0c2ZwWk9EY014RzI0STNJcmRVdUpMenBxRDg3dTQ4ZXBuVl91Q0pqSGVEeGtpMTFYQTVjQ2gtSDhJR2p3ZEUxVHpQRVR1ZGhsNEt2dnZZZENYYzVIN1dYdUFNM19aX0V6YmNHQndN?oc=5
+summary: 《酒店业AI智能体应用指南》发布 AI从对话走向执行 TTG China
+first_seen: '2026-10-14T01:14:30Z'
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywJBVV95cUxNZnE3SGMyRE12RU84M1RlSXM1dlE5VHduTG1zazVsZk13eFh3d25GR0pfb0ozT2dvdHluUE16VzFXZlZFVlFfRFBqYUh1bGNvMU5wUTRRM3daSk02TVNpMFFqZFV3aFJMSUo5bE8zRUU3ZDJram1Xc3NzdUFMWkhvTk1mLUpkZVlWcGxFa21sc01mblhRZHlNZHFmMG90d1NERWlDb0pGTUxPeGZNNm9rYm5uUkJXLVFudFlVZjN5TUxYb2EwQ0hhOW9aa0ZqX0JabTZjM3VIMlNMaVVFczZjcmpUakM0c2ZwWk9EY014RzI0STNJcmRVdUpMenBxRDg3dTQ4ZXBuVl91Q0pqSGVEeGtpMTFYQTVjQ2gtSDhJR2p3ZEUxVHpQRVR1ZGhsNEt2dnZZZENYYzVIN1dYdUFNM19aX0V6YmNHQndN?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
+  metrics: {}
+  kind: news
+---
+
+# 《酒店业AI智能体应用指南》发布 AI从对话走向执行
+
+《酒店业AI智能体应用指南》发布 AI从对话走向执行 TTG China
+
+## 笔记
+
+

@@ -20,8 +20,8 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-10-10T01:46:29Z'
-status: rejected
+last_seen: '2026-10-14T01:13:55Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -86,6 +86,13 @@ sightings:
   url: https://simonwillison.net/2026/Oct/9/built-using-my-voice/
   seen_at: '2026-10-10T01:46:29Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://blog.character.ai/an-update-on-character-ai/
+  seen_at: '2026-10-14T01:13:55Z'
+  metrics:
+    points: 287
+    comments: 268
   kind: news
 ---
 

@@ -33,17 +33,17 @@ url: https://github.com/andrewfader/blokkily
 canonical_url: https://github.com/andrewfader/blokkily
 summary: An experimental pattern-first DAW that supports MCP
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
+last_seen: '2026-10-14T01:13:55Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/andrewfader/blokkily
-  seen_at: '2026-10-13T03:03:54Z'
+  seen_at: '2026-10-14T01:13:55Z'
   metrics:
-    points: 22
-    comments: 12
+    points: 83
+    comments: 35
   kind: product
 ---
 

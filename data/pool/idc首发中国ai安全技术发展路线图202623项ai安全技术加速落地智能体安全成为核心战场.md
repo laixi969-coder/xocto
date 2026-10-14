@@ -1,0 +1,41 @@
+---
+slug: idc首发中国ai安全技术发展路线图202623项ai安全技术加速落地智能体安全成为核心战场
+name: IDC首发《中国AI安全技术发展路线图，2026》：23项AI安全技术加速落地，智能体安全成为核心战场
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1gJBVV95cUxOa25faWU2RGl6NGYtdjd4d1hwS1pDZFhyeVNSa0VkWk5RdTVLZEZnc0REbXVuVFNkSk1yc3lxZ1AtMDBwb0VLeUVvTGN0eFU0ZENRbDJmWXBRNkFYcy1fVFZ5ZnhpQkI5VGVNUXM2Zk01NVp1cWFwanJFaDlUZmxNTmlVbndVNmIzb1hYWUNpaXhVRjAxNVZhQlJQZFFLVzRrNktKMVJFMmdlYkM0V2ZHd1owcFBYbk03Vnp3b3NvZko4WTNDalVMc1dYMkY1VjZ2ZzZIb3EtRDN6V3N3WkM5R2JQVjNKT1NOd21jY0lxLXRENFZfdV95VmE1eFlHVUNxTVJ2U0xfSF80QnhZU0YtcGJwbjZlaUtBbXJveHZEeEVsRElKdFlyYTBaYzItVTJRS1d5VmNycHA1R3RtVGlPUWZTQUdJNVlvdndUbGduT1dIX0EyMkE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1gJBVV95cUxOa25faWU2RGl6NGYtdjd4d1hwS1pDZFhyeVNSa0VkWk5RdTVLZEZnc0REbXVuVFNkSk1yc3lxZ1AtMDBwb0VLeUVvTGN0eFU0ZENRbDJmWXBRNkFYcy1fVFZ5ZnhpQkI5VGVNUXM2Zk01NVp1cWFwanJFaDlUZmxNTmlVbndVNmIzb1hYWUNpaXhVRjAxNVZhQlJQZFFLVzRrNktKMVJFMmdlYkM0V2ZHd1owcFBYbk03Vnp3b3NvZko4WTNDalVMc1dYMkY1VjZ2ZzZIb3EtRDN6V3N3WkM5R2JQVjNKT1NOd21jY0lxLXRENFZfdV95VmE1eFlHVUNxTVJ2U0xfSF80QnhZU0YtcGJwbjZlaUtBbXJveHZEeEVsRElKdFlyYTBaYzItVTJRS1d5VmNycHA1R3RtVGlPUWZTQUdJNVlvdndUbGduT1dIX0EyMkE?oc=5
+summary: IDC首发《中国AI安全技术发展路线图，2026》：23项AI安全技术加速落地，智能体安全成为核心战场 IDC | Trusted Tech Intelligence
+first_seen: '2026-10-14T01:14:30Z'
+last_seen: '2026-10-14T01:14:30Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gJBVV95cUxOa25faWU2RGl6NGYtdjd4d1hwS1pDZFhyeVNSa0VkWk5RdTVLZEZnc0REbXVuVFNkSk1yc3lxZ1AtMDBwb0VLeUVvTGN0eFU0ZENRbDJmWXBRNkFYcy1fVFZ5ZnhpQkI5VGVNUXM2Zk01NVp1cWFwanJFaDlUZmxNTmlVbndVNmIzb1hYWUNpaXhVRjAxNVZhQlJQZFFLVzRrNktKMVJFMmdlYkM0V2ZHd1owcFBYbk03Vnp3b3NvZko4WTNDalVMc1dYMkY1VjZ2ZzZIb3EtRDN6V3N3WkM5R2JQVjNKT1NOd21jY0lxLXRENFZfdV95VmE1eFlHVUNxTVJ2U0xfSF80QnhZU0YtcGJwbjZlaUtBbXJveHZEeEVsRElKdFlyYTBaYzItVTJRS1d5VmNycHA1R3RtVGlPUWZTQUdJNVlvdndUbGduT1dIX0EyMkE?oc=5
+  seen_at: '2026-10-14T01:14:30Z'
+  metrics: {}
+  kind: news
+---
+
+# IDC首发《中国AI安全技术发展路线图，2026》：23项AI安全技术加速落地，智能体安全成为核心战场
+
+IDC首发《中国AI安全技术发展路线图，2026》：23项AI安全技术加速落地，智能体安全成为核心战场 IDC | Trusted Tech Intelligence
+
+## 笔记
+
+
