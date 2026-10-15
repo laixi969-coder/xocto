@@ -33,17 +33,17 @@ url: https://shaders.com
 canonical_url: https://shaders.com
 summary: WebGPU components for React, Vue, Svelte, Solid, JS & Framer
 first_seen: '2026-09-29T16:36:26Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://shaders.com
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
-    stars: 4763
-    forks: 197
+    stars: 4845
+    forks: 202
     open_issues: 0
   kind: product
 ---

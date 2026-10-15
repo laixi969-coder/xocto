@@ -20,7 +20,7 @@ url: https://docs.hypermass.io/docs/cli/
 canonical_url: https://docs.hypermass.io/docs/cli
 summary: Stream live open data in two commands
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:14:30Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
@@ -28,9 +28,9 @@ sources:
 sightings:
 - source: hackernews
   url: https://docs.hypermass.io/docs/cli/
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 9
+    points: 15
     comments: 1
   kind: product
 - source: newssearch

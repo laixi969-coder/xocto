@@ -106,3 +106,21 @@
     powerful GPUs that remain largely idle during normal usage. This paper presents Minions, a dynamic
     and distributed virtual GPU cloud that aggregates idle Apple Silicon GPUs across macOS devices to
     execute large-scale machine learning inference workloads. Minions enables teams to leverage existing…
+- id: ev-578cc3b143870f51
+  project_slug: cloud
+  url: https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/
+  title: How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock
+  published_at: '2026-10-14T13:53:33Z'
+  collected_at: '2026-10-15T00:32:31Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Critical cloud exposures pile up faster than security teams can close them. Cloud-native application
+    protection platforms (CNAPP), cloud providers, and posture scanners generate more findings than any
+    team can triage, and risk accumulates in the gap between detected and fixed. Most findings sit untouched,
+    not because they’re hard to fix. Someone must investigate context, identify the owner, confirm the
+    fix won’t break production, and then do it at a volume that outpaces headcount. In this post, we share
+    how Tamnoon built Tami, an agentic cloud remediation orchestrator on Amazon Bedrock , to close that
+    gap. Tami autonomously investigates findings ingested from CNAPP and cloud-native sources and assesses
+    whether remediation is safe. It then generates and orchestrates the fix with guardrails and governance
+    wherever a change touches a customer’s cloud. The approach drove an over 90 percent reduction in critical
+    cloud exposure in 90 days with zero production issues. About Tamnoon Tamnoon is

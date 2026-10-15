@@ -22,17 +22,17 @@ summary: I&#x27;ve been playing around with a new kind of isomorphic music keybo
   notation, and wanted some sheet music to learn some new music for it. The idea is to represent each
   note in 12-TET as a numbe…
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://music.xy.dev/
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 46
-    comments: 39
+    points: 80
+    comments: 76
   kind: product
 ---
 

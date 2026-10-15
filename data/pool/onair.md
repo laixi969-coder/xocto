@@ -38,18 +38,18 @@ summary: 'Free SDR receiver for macOS, Windows and Linux: digital TV (DVB-T/T2, 
   CW), digital voice, cell towers and a spectrum analyser. HackRF, RTL-SDR, Airspy, SDRplay, BladeRF,
   LimeSDR, Pluto, USRP.'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/adswill/OnAir
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
-    stars: 186
-    forks: 33
-    open_issues: 19
+    stars: 212
+    forks: 37
+    open_issues: 31
   kind: product
 ---
 

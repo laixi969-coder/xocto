@@ -34,18 +34,18 @@ summary: 'See what your coding agent actually did. A desktop pal and notch for C
   Gemini CLI and any agent: test results read from the output, faked passes caught, Claude Code sent back
   to fix what it broke, and an MCP server any AI tool can ask.'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://dotpals.vercel.app
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
     stars: 42
     forks: 8
-    open_issues: 2
+    open_issues: 1
   kind: product
 ---
 

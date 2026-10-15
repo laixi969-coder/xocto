@@ -20,17 +20,17 @@ url: https://guitoro.com/
 canonical_url: https://guitoro.com
 summary: a virtual guitar you strum with your keyboard
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://guitoro.com/
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 253
-    comments: 78
+    points: 552
+    comments: 154
   kind: product
 ---
 

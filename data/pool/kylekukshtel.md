@@ -20,17 +20,17 @@ url: https://kylekukshtel.com/ai-harness-engineering-game-development-claude-cod
 canonical_url: https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code
 summary: How to engineer an AI harness for game development
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 129
-    comments: 58
+    points: 165
+    comments: 86
   kind: news
 ---
 

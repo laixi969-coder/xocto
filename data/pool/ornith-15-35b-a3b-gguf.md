@@ -20,7 +20,7 @@ url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 summary: 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: rejected
 sources:
 - modelscope
@@ -169,10 +169,10 @@ sightings:
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/autotrust/JEV-35B
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    likes: 7
-    downloads: 370
+    likes: 13
+    downloads: 490
   kind: product
 ---
 

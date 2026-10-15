@@ -20,12 +20,13 @@ url: https://space.bl2.net/
 canonical_url: https://space.bl2.net
 summary: Real-time Solar System with 526k asteroids and all tracked satellites
 first_seen: '2026-09-29T19:08:01Z'
-last_seen: '2026-10-14T01:14:30Z'
+last_seen: '2026-10-15T00:32:38Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
 - newssearch
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://space.bl2.net/
@@ -47,6 +48,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS01GOElmdWM2ZE5fR213WVRPTFdSWVZZMjJlQmJPMUlKUlJPU1lsdHktZW5yN2VWdGl1LWhjXzBtdWpKdjgxajNnQTUyY2RoNFZoQUEySjdLcUxDbXhzMFpvX0FPd3R6ZzYzc3k4THB2WHZlN2pha1hlMEwzeWdIcmp5UUtGUDh3?oc=5
   seen_at: '2026-10-14T01:14:30Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://machinelearning.apple.com/research/tri-modal-masked-diffusion
+  seen_at: '2026-10-15T00:32:31Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://news.crunchbase.com/venture/september-2026-new-unicorns-semiconductors-ai-fintech-space/
+  seen_at: '2026-10-15T00:32:32Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxNSmdJRkVWT25MTUxHMDVhYmRBOFBSMWFnXzUyemtGTWhIN3JJcFRKcGgzR3Q3Q0NRRVpSUGozcDRzUmhCcUp0RzZoX1JEb3FmWDQwcVFqTmpCUEduSTU0WEd1VmZVRHk4M2FBZ0lsLTdRZFY0Y19PNFBpZWNkTnFTSU1rM0xjMy1Bc2IzVF92ZWxYOU8wRi0wM0FpSWVUZWQ0ZnU2RktJUQ?oc=5
+  seen_at: '2026-10-15T00:32:38Z'
   metrics: {}
   kind: news
 ---

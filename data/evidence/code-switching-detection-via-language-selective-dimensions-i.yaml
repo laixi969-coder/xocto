@@ -1,0 +1,14 @@
+- id: ev-a1c49b759f81a2e7
+  project_slug: code-switching-detection-via-language-selective-dimensions-i
+  url: https://machinelearning.apple.com/research/code-switching-detection
+  title: Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models
+  published_at: '2026-10-14T00:00:00Z'
+  collected_at: '2026-10-15T00:32:31Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Code-switching (CS), the alternation between languages within an utterance, is common in multilingual
+    speech but underrepresented in pretraining corpora. Increasing CS coverage requires finding relevant
+    utterances in large speech collections so that they can be included in training data. One way to find
+    such utterances is to transcribe the speech and detect language alternation in the text, but this
+    depends on obtaining accurate multilingual transcriptions. We propose a lightweight method that detects
+    CS directly from speech. It uses frame-level language information in pretrained speech…

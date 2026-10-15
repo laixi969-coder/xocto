@@ -21,17 +21,17 @@ canonical_url: https://pi-bolt.opensec.in
 summary: Pi, the coding agent, compiled ahead of time to native code. Starts 3× sooner than Pi on Bun
   and uses about a third of its CPU.
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://pi-bolt.opensec.in
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
-    stars: 318
-    forks: 12
+    stars: 329
+    forks: 13
     open_issues: 3
   kind: product
 ---

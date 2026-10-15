@@ -1,0 +1,95 @@
+{
+  "company": {
+    "city": "Helsinki",
+    "country": "Finland",
+    "description": "Ambio is a Helsinki-based startup building an AI-native end-to-end procurement solution for recycled plastics.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "537E2379-3F40-44FC-9F37-CA6CA98488DC",
+    "investors": [
+      "b2venture ",
+      "Lifeline Ventures",
+      "Montis Capital"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Ambio",
+    "rounds": [
+      {
+        "amountEur": 5100000,
+        "date": "2026-10-14T00:00:00.000Z",
+        "id": "062579BB-DD45-44B8-AC78-20964E3BEC02",
+        "investors": [
+          "b2venture ",
+          "Lifeline Ventures",
+          "Montis Capital"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/062579BB-DD45-44B8-AC78-20964E3BEC02"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 55,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 14
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 5100000,
+    "url": "https://funding.tech.eu/companies/537E2379-3F40-44FC-9F37-CA6CA98488DC",
+    "website": "https://www.ambiomaterials.com/"
+  },
+  "round": {
+    "amountEur": 5100000,
+    "amountEurStored": null,
+    "amountNative": 5100000,
+    "company": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "founded": null,
+      "id": "537E2379-3F40-44FC-9F37-CA6CA98488DC",
+      "name": "Ambio",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-10-14",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "062579BB-DD45-44B8-AC78-20964E3BEC02",
+    "investors": [
+      "Lifeline Ventures",
+      "b2venture",
+      "Montis Capital"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "eu-startups.com",
+      "tier": "established"
+    },
+    "stage": "Seed",
+    "url": "/deals/062579BB-DD45-44B8-AC78-20964E3BEC02"
+  }
+}

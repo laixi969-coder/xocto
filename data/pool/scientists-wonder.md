@@ -20,17 +20,17 @@ url: https://www.scientificamerican.com/article/scientists-worry-ai-is-stealing-
 canonical_url: https://scientificamerican.com/article/scientists-worry-ai-is-stealing-their-ideas
 summary: Is my AI stealing my ideas?
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.scientificamerican.com/article/scientists-worry-ai-is-stealing-their-ideas/
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 41
-    comments: 23
+    points: 49
+    comments: 26
   kind: news
 ---
 

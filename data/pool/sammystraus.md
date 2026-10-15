@@ -20,17 +20,17 @@ url: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded
 canonical_url: https://sammystraus.com
 summary: I posted to HN, and then my website was flooded with AI bot traffic
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 243
-    comments: 146
+    points: 341
+    comments: 183
   kind: news
 ---
 

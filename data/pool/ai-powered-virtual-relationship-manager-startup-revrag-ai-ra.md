@@ -1,0 +1,43 @@
+---
+slug: ai-powered-virtual-relationship-manager-startup-revrag-ai-ra
+name: AI-powered virtual relationship manager startup RevRag AI raises $2.5 million to expand into US
+  market
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWEhQTmhuR3lwWlhwM1lKeEsweUNCMlBJX25GNVFJRmstaHNrX0ZjOGdVUWVCQmJ5Q2twZHpFYm9Wb2dLcGJNSy1jcUdXYmVEcEk1OEdBRkVEN0E2Nk1fVkhmU0lIMUNWSXE1aDJ3dk1zNGxKNmV3bU1HOEFMcnZ0STNNZjJtYkdIYXd5bUozdzR3VlVfREo5elExYTlIMTd2U1ZENFZ6MW9UdjVST0ZraFRRYk13eFBqa052NmdMTUdJNDhrQ0UyQTdSTkNiVGtVcVc3aUpqVFRKbmgzcGUwWNIB4AFBVV95cUxPWEhQTmhuR3lwWlhwM1lKeEsweUNCMlBJX25GNVFJRmstaHNrX0ZjOGdVUWVCQmJ5Q2twZHpFYm9Wb2dLcGJNSy1jcUdXYmVEcEk1OEdBRkVEN0E2Nk1fVkhmU0lIMUNWSXE1aDJ3dk1zNGxKNmV3bU1HOEFMcnZ0STNNZjJtYkdIYXd5bUozdzR3VlVfREo5elExYTlIMTd2U1ZENFZ6MW9UdjVST0ZraFRRYk13eFBqa052NmdMTUdJNDhrQ0UyQTdSTkNiVGtVcVc3aUpqVFRKbmgzcGUwWA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWEhQTmhuR3lwWlhwM1lKeEsweUNCMlBJX25GNVFJRmstaHNrX0ZjOGdVUWVCQmJ5Q2twZHpFYm9Wb2dLcGJNSy1jcUdXYmVEcEk1OEdBRkVEN0E2Nk1fVkhmU0lIMUNWSXE1aDJ3dk1zNGxKNmV3bU1HOEFMcnZ0STNNZjJtYkdIYXd5bUozdzR3VlVfREo5elExYTlIMTd2U1ZENFZ6MW9UdjVST0ZraFRRYk13eFBqa052NmdMTUdJNDhrQ0UyQTdSTkNiVGtVcVc3aUpqVFRKbmgzcGUwWNIB4AFBVV95cUxPWEhQTmhuR3lwWlhwM1lKeEsweUNCMlBJX25GNVFJRmstaHNrX0ZjOGdVUWVCQmJ5Q2twZHpFYm9Wb2dLcGJNSy1jcUdXYmVEcEk1OEdBRkVEN0E2Nk1fVkhmU0lIMUNWSXE1aDJ3dk1zNGxKNmV3bU1HOEFMcnZ0STNNZjJtYkdIYXd5bUozdzR3VlVfREo5elExYTlIMTd2U1ZENFZ6MW9UdjVST0ZraFRRYk13eFBqa052NmdMTUdJNDhrQ0UyQTdSTkNiVGtVcVc3aUpqVFRKbmgzcGUwWA?oc=5
+summary: AI-powered virtual relationship manager startup RevRag AI raises $2.5 million to expand into
+  US market Indian Startup News
+first_seen: '2026-10-15T00:32:38Z'
+last_seen: '2026-10-15T00:32:38Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWEhQTmhuR3lwWlhwM1lKeEsweUNCMlBJX25GNVFJRmstaHNrX0ZjOGdVUWVCQmJ5Q2twZHpFYm9Wb2dLcGJNSy1jcUdXYmVEcEk1OEdBRkVEN0E2Nk1fVkhmU0lIMUNWSXE1aDJ3dk1zNGxKNmV3bU1HOEFMcnZ0STNNZjJtYkdIYXd5bUozdzR3VlVfREo5elExYTlIMTd2U1ZENFZ6MW9UdjVST0ZraFRRYk13eFBqa052NmdMTUdJNDhrQ0UyQTdSTkNiVGtVcVc3aUpqVFRKbmgzcGUwWNIB4AFBVV95cUxPWEhQTmhuR3lwWlhwM1lKeEsweUNCMlBJX25GNVFJRmstaHNrX0ZjOGdVUWVCQmJ5Q2twZHpFYm9Wb2dLcGJNSy1jcUdXYmVEcEk1OEdBRkVEN0E2Nk1fVkhmU0lIMUNWSXE1aDJ3dk1zNGxKNmV3bU1HOEFMcnZ0STNNZjJtYkdIYXd5bUozdzR3VlVfREo5elExYTlIMTd2U1ZENFZ6MW9UdjVST0ZraFRRYk13eFBqa052NmdMTUdJNDhrQ0UyQTdSTkNiVGtVcVc3aUpqVFRKbmgzcGUwWA?oc=5
+  seen_at: '2026-10-15T00:32:38Z'
+  metrics: {}
+  kind: news
+---
+
+# AI-powered virtual relationship manager startup RevRag AI raises $2.5 million to expand into US market
+
+AI-powered virtual relationship manager startup RevRag AI raises $2.5 million to expand into US market Indian Startup News
+
+## 笔记
+
+

@@ -20,17 +20,17 @@ url: https://wearing.nyc/
 canonical_url: https://wearing.nyc
 summary: What to Wear in NYC Today
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://wearing.nyc/
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
     points: 8
-    comments: 4
+    comments: 7
   kind: product
 ---
 

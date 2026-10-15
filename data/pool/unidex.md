@@ -22,18 +22,18 @@ summary: 'Pocket e-ink OS for the Waveshare ESP32-S3 1.54" board: class timetabl
   AI voice notes for Obsidian, a Pet that meets your friends'' Pets, name badges and one-button games.
   Install it from your browser, or join the waitlist: unidex-site.vercel.app'
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Forrest404/unidex
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
-    stars: 53
-    forks: 4
-    open_issues: 21
+    stars: 65
+    forks: 5
+    open_issues: 20
   kind: product
 ---
 

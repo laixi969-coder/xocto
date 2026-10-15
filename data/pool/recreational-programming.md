@@ -20,17 +20,17 @@ url: https://www.cphiri.dev/presentations/recreational-programming
 canonical_url: https://cphiri.dev/presentations/recreational-programming
 summary: ''
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.cphiri.dev/presentations/recreational-programming
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 40
-    comments: 9
+    points: 305
+    comments: 151
   kind: news
 ---
 

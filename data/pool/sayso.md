@@ -20,17 +20,17 @@ url: https://github.com/watzon/sayso
 canonical_url: https://github.com/watzon/sayso
 summary: free open source dictation for Mac, Windows, and Linux
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/watzon/sayso
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 14
-    comments: 7
+    points: 24
+    comments: 10
   kind: product
 ---
 

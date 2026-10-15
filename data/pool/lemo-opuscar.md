@@ -36,17 +36,17 @@ summary: 39 film styles, each a reusable style prompt plus a short film made ent
   Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 39 种影片风格：风格提示词
   + 纯代码样片 + 导演与技术指南
 first_seen: '2026-09-26T10:10:41Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://lemomo-ai.github.io/lemo-opuscar/
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
-    stars: 2183
-    forks: 235
+    stars: 2343
+    forks: 247
     open_issues: 0
   kind: product
 ---

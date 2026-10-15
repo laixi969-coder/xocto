@@ -22,17 +22,17 @@ url: https://github.com/anthropics/snix
 canonical_url: https://github.com/anthropics/snix
 summary: Mirror of Snix (git.snix.dev/snix/snix)
 first_seen: '2026-10-07T22:34:24Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/snix
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
     stars: 0
-    forks: 0
+    forks: 1
     open_issues: 0
   kind: product
 ---

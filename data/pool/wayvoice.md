@@ -28,18 +28,18 @@ canonical_url: https://github.com/pavlenkosa/wayvoice
 summary: Offline voice typing for Linux/Wayland. Press a hotkey, speak, and text appears in the active
   application. Local Whisper • GTK/libadwaita • No cloud required.
 first_seen: '2026-10-02T19:53:06Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/pavlenkosa/wayvoice
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
-    stars: 70
+    stars: 71
     forks: 0
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

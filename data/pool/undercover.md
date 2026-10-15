@@ -20,10 +20,11 @@ url: https://undercover.games/play
 canonical_url: https://undercover.games/play
 summary: Hire top talent through games
 first_seen: '2026-08-24T13:23:15Z'
-last_seen: '2026-08-25T22:45:07Z'
-status: rejected
+last_seen: '2026-10-15T00:32:32Z'
+status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://undercover.games/play
@@ -31,6 +32,12 @@ sightings:
   metrics:
     points: 6
     comments: 3
+  kind: product
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/
+  seen_at: '2026-10-15T00:32:32Z'
+  metrics: {}
+  kind: news
 ---
 
 # Undercover

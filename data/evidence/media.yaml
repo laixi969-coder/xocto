@@ -1,0 +1,31 @@
+- id: ev-3a88866b4abae2f4
+  project_slug: media
+  url: https://www.v2ex.com/t/1248818
+  title: 我让 Gemini 4 当高管、DeepSeek 当员工，开了一家软件公司
+  published_at: '2026-10-14T12:24:34Z'
+  collected_at: '2026-10-15T00:32:03Z'
+  source_kind: product
+  tier: independent
+  fact: "今天 **Gemini-4-Argon** 正式发布了，实测它的长程规划和调度决策能力强得让人后背发凉。\r\n既然模型大脑已经到了这个水位，再拿它当「聊天框里的个人助理」就太浪费了。\r\
+    \n\r\n我决定做一个为期 **7 天** 的公开实验：\r\n**给 Gemini 4 配齐一台 Mac 电脑、一个独立浏览器、一台专属手机，再配一群 DeepSeek 驱动的 AI 员工，让它替我运营一家软件公司。目标只有一个：7\
+    \ 天内从零做出一款知名付费软件的替代品，并直接免费开源。**\r\n\r\n![电脑与手机设备实拍图]( https://media.munk.sh/blog/day-01/machines.jpg)\r\
+    \n\r\n---\r\n\r\n## 一、1,000 美金预算：Gemini 当高管，DeepSeek 当员工\r\n\r\n跑多 Agent 最怕两件事：全用旗舰模型，两天烧穿预算；全用便宜模型，规划一团乱麻。\r\
+    \n这次实验里，我用自己写的本地运行时（**Munk AI**），把 **$1,000 美金 Token** 拆成了高低两档：\r\n\r\n- **800 美金给 Gemini 4 （公司高管\
+    \ / 总架构师 / 主力研发）**\r\n  负责守住公司全局记忆、拆解产品需求、攻坚核心代码、制定验收标准，并在关键路口向我的手机发请示。\r\n- **200 美金给 DeepSeek （高频专项员工：实机自测\
+    \ + 新媒体运营）**\r\n  - **跑实机自测**：桌面与手机 UI 验收要连续跑几十轮「看界面 → 点按钮 → 验状态」，非常吃上下文。底层把控件和 OCR 坐标算好后，交给 DeepSeek\
+    \ 跑既快又省钱，测出 Bug 立刻打回给 Gemini 修；\r\n  - **跑全网运营**：负责生成小红书配图、用脚本与 FFmpeg 剪辑宣传视频、再控制浏览器去各平台发帖和评论区互动。\r\
+    \n\r\n![Agent 设置页面截图]( https://media.munk.sh/blog/day-01/agents.png)\r\n\r\n---\r\n\r\n## 二、真手真脚：不止会写代码\r\
+    \n\r\n光会写代码那叫 IDE 插件，不叫软件公司。我交给了这家 AI 公司三样物理工具：\r\n\r\n1. **直接操控 Mac 电脑（ Computer Use ）**：就算原生桌面软件没有\
+    \ API ，它也能直接看懂屏幕界面、识别按钮并自己点按操"
+- id: ev-25c790379f9579bf
+  project_slug: media
+  url: https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/
+  title: Gudea leverages AI to help organizations prevent social media crises before they erupt
+  published_at: '2026-10-15T00:00:00Z'
+  collected_at: '2026-10-15T00:32:32Z'
+  source_kind: market_signal
+  tier: independent
+  fact: Every day, conversations unfold across social media and websites around the world. A seemingly
+    insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can
+    quickly snowball into a much larger public controversy. Gudea, a company that tracks how stories and
+    rumors spread online that describes itself as the “storm tracker for the internet,” […]

@@ -34,7 +34,7 @@ summary: "![social-preview|690x345]( https://image.dooo.ng/c/2026/10/04/6ac275d0
   \ 一键安装提示词\r\n\r\n最后求个 :star: **Star**，每一颗 Star 都是开发者继续维护迭代的动力！\r\n作为个人项目，测试场景以及 BUG 很难发掘\r\n这也是开源项目的意义，如果你遇到了\
   \ BUG 或者可优化项，请一定要提 Issue 或 PR :folded_hands:"
 first_seen: '2026-10-04T15:52:27Z'
-last_seen: '2026-10-14T01:14:23Z'
+last_seen: '2026-10-15T00:32:38Z'
 status: pending_filter
 sources:
 - v2ex
@@ -61,6 +61,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce
   seen_at: '2026-10-14T01:14:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxONHdGYUdBb1BPaDQ0YmtzckdoeFc4a2cxRTBWZmN3M1FzMk40Vy1vbDkxM3M2MWpxQnprU1A5WnhoMGdodmphMDByeVBaZmNlb2R2OWV3ZklQWnVmcEJhS2wydURZV1RsbWY1dnpvZjQ1dlgzTTdKaWhrSnVqQ2kwVlVoUjBwZFFEMDl3WE1BdkpnQzJ1QjZZR1Jvdll6Y2ZUbTdzeGEwal9wV21GYWgzN0dOa3V2TERka0NR?oc=5
+  seen_at: '2026-10-15T00:32:38Z'
   metrics: {}
   kind: news
 ---

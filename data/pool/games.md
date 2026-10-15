@@ -20,10 +20,11 @@ url: https://games.yanisfalaki.com/
 canonical_url: https://games.yanisfalaki.com
 summary: Two browser games set inside one real Gaussian-splat scan
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:32Z'
 status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://games.yanisfalaki.com/
@@ -32,6 +33,16 @@ sightings:
     points: 5
     comments: 0
   kind: product
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/
+  seen_at: '2026-10-15T00:32:32Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/
+  seen_at: '2026-10-15T00:32:32Z'
+  metrics: {}
+  kind: news
 ---
 
 # games

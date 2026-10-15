@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50073471
 canonical_url: https://news.ycombinator.com/item?id=50073471
 summary: LLM gateway for companies handling sensitive data
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50073471
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 33
-    comments: 16
+    points: 36
+    comments: 19
   kind: product
 ---
 

@@ -20,17 +20,17 @@ url: https://github.com/maharshi365/deslop
 canonical_url: https://github.com/maharshi365/deslop
 summary: Oxlint rules for AI-generated TypeScript
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/maharshi365/deslop
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 25
-    comments: 6
+    points: 32
+    comments: 7
   kind: product
 ---
 

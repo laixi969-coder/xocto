@@ -1,0 +1,43 @@
+---
+slug: small-language-models-vs-large-language-models-in-2026-costs
+name: 'Small Language Models vs Large Language Models in 2026: Costs, Performance and Seven Enterprise
+  Examples'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxNc29EUnV1NVRmemJmUENvWmFKV2JaQS1TTm1IOVc5eVpOaU9jR3RtUnFzaVRZQk5xTVZoUTdEVy1fWGNOa0ZpWjhIbk93MU5PbElRWDgzZ28zSng4MjFlcGZjajZGXzEzQ2ZDbmlVQl9mMEFuMlBhUHBOeGRfWFd0WmNrSGlmVXlEV1dpSTNXZzF0al9TWFMtZEstSWJxallMbEFtOXhYQUFJUFFDTHJ2d0llbDJoWEstcWo4dDBxeTNycURLVXNyNld6T3pod3BBSXUtc3RaMW02clFXOTgtV2g1Um1TTFZEenk4MGpTRTJKZ0EyR2fSAfYBQVVfeXFMTXNvRFJ1dTVUZnpiZlBDb1phSldiWkEtU05tSDlXOXlaTmlPY0d0bVJxc2lUWUJOcU1WaFE3RFctX1hjTmtGaVo4SG5PdzFOT2xJUVg4M2dvM0p4ODIxZXBmY2o2Rl8xM0NmQ25pVUJfZjBBbjJQYVBwTnhkX1hXdFpja0hpZlV5RFdXaUkzV2cxdGpfU1hTLWRLLUlicWpZTGxBbTl4WEFBSVBRQ0xydndJZWwyaFhLLXFqOHQwcXkzcnFES1VzcjZXek96aHdwQUl1LXN0WjFtNnJRVzk4LVdoNVJtU0xWRHp5ODBqU0UySmdBMkdn?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxNc29EUnV1NVRmemJmUENvWmFKV2JaQS1TTm1IOVc5eVpOaU9jR3RtUnFzaVRZQk5xTVZoUTdEVy1fWGNOa0ZpWjhIbk93MU5PbElRWDgzZ28zSng4MjFlcGZjajZGXzEzQ2ZDbmlVQl9mMEFuMlBhUHBOeGRfWFd0WmNrSGlmVXlEV1dpSTNXZzF0al9TWFMtZEstSWJxallMbEFtOXhYQUFJUFFDTHJ2d0llbDJoWEstcWo4dDBxeTNycURLVXNyNld6T3pod3BBSXUtc3RaMW02clFXOTgtV2g1Um1TTFZEenk4MGpTRTJKZ0EyR2fSAfYBQVVfeXFMTXNvRFJ1dTVUZnpiZlBDb1phSldiWkEtU05tSDlXOXlaTmlPY0d0bVJxc2lUWUJOcU1WaFE3RFctX1hjTmtGaVo4SG5PdzFOT2xJUVg4M2dvM0p4ODIxZXBmY2o2Rl8xM0NmQ25pVUJfZjBBbjJQYVBwTnhkX1hXdFpja0hpZlV5RFdXaUkzV2cxdGpfU1hTLWRLLUlicWpZTGxBbTl4WEFBSVBRQ0xydndJZWwyaFhLLXFqOHQwcXkzcnFES1VzcjZXek96aHdwQUl1LXN0WjFtNnJRVzk4LVdoNVJtU0xWRHp5ODBqU0UySmdBMkdn?oc=5
+summary: 'Small Language Models vs Large Language Models in 2026: Costs, Performance and Seven Enterprise
+  Examples InfotechLead'
+first_seen: '2026-10-15T00:32:38Z'
+last_seen: '2026-10-15T00:32:38Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxNc29EUnV1NVRmemJmUENvWmFKV2JaQS1TTm1IOVc5eVpOaU9jR3RtUnFzaVRZQk5xTVZoUTdEVy1fWGNOa0ZpWjhIbk93MU5PbElRWDgzZ28zSng4MjFlcGZjajZGXzEzQ2ZDbmlVQl9mMEFuMlBhUHBOeGRfWFd0WmNrSGlmVXlEV1dpSTNXZzF0al9TWFMtZEstSWJxallMbEFtOXhYQUFJUFFDTHJ2d0llbDJoWEstcWo4dDBxeTNycURLVXNyNld6T3pod3BBSXUtc3RaMW02clFXOTgtV2g1Um1TTFZEenk4MGpTRTJKZ0EyR2fSAfYBQVVfeXFMTXNvRFJ1dTVUZnpiZlBDb1phSldiWkEtU05tSDlXOXlaTmlPY0d0bVJxc2lUWUJOcU1WaFE3RFctX1hjTmtGaVo4SG5PdzFOT2xJUVg4M2dvM0p4ODIxZXBmY2o2Rl8xM0NmQ25pVUJfZjBBbjJQYVBwTnhkX1hXdFpja0hpZlV5RFdXaUkzV2cxdGpfU1hTLWRLLUlicWpZTGxBbTl4WEFBSVBRQ0xydndJZWwyaFhLLXFqOHQwcXkzcnFES1VzcjZXek96aHdwQUl1LXN0WjFtNnJRVzk4LVdoNVJtU0xWRHp5ODBqU0UySmdBMkdn?oc=5
+  seen_at: '2026-10-15T00:32:38Z'
+  metrics: {}
+  kind: news
+---
+
+# Small Language Models vs Large Language Models in 2026: Costs, Performance and Seven Enterprise Examples
+
+Small Language Models vs Large Language Models in 2026: Costs, Performance and Seven Enterprise Examples InfotechLead
+
+## 笔记
+
+

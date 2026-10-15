@@ -34,16 +34,16 @@ canonical_url: https://github.com/jeonjw85/kenfold
 summary: Self-hosted memory server for AI agents. Share context across Claude Code, Codex, OpenCode, and
   ChatGPT over MCP.
 first_seen: '2026-09-27T07:05:58Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jeonjw85/kenfold
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
-    stars: 65
+    stars: 66
     forks: 1
     open_issues: 0
   kind: product

@@ -43,10 +43,11 @@ summary: 'Named to Madrona''s 2026 Intelligent Applications 40 (Late stage). Vib
   with three Nordic-founded companies, ElevenLabs, Legora, and Lovable, reaching multi-billion-dollar
   valuations on the strength of their enterprise and U.S.'
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-09-10T16:51:24Z'
-status: queued
+last_seen: '2026-10-15T00:32:32Z'
+status: pending_filter
 sources:
 - ia40
+- marketfeeds
 sightings:
 - source: ia40
   url: https://lovable.dev/
@@ -55,6 +56,11 @@ sightings:
     stage: Late
     edition: '2026'
   kind: product
+- source: marketfeeds
+  url: https://sifted.eu/articles/how-i-got-hired-by-lovable/
+  seen_at: '2026-10-15T00:32:32Z'
+  metrics: {}
+  kind: news
 ---
 
 # Lovable

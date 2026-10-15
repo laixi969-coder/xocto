@@ -1,0 +1,41 @@
+---
+slug: enterprise-ai-deployment-in-2026-eight-companies-turning-pil
+name: 'Enterprise AI Deployment in 2026: Eight Companies Turning Pilots Into Business Results'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVEJNTXRsTWRfV25RZkRwbWVRbUktMUx5Nkp5bzN5dXJuN2dCRVdweWExX21sc1MwQ29WMFEydV95LTVzVnFzQ3UwXzA2aXVveDhQX0JIQnhDVW9ELUpCZ0hqd2x4em1pOVY2QzNyaFNqT3pqYnBhQ0h3ZnpnMWo0YzMwWHVCb1FOODlxTUp5MDBwYkJwSjFZRGFKNkx0dkg2Uzhpa1ExZ1k4WmZKX2lCWkRBR2d0TzNVRUpma1pocG45V1ZiYTFNODRTZ0ZhUUxwUTRqejV0QdIB3wFBVV95cUxQRWotTVlkSjYwbFNrY3otYlRIYnhzeUoyOWxSNkwwc1ZzcTdXbkNTRDVWdjBQa0F4ZmJNV2FsM1FJUTVidUNRREN4dnd0T1VvbVZvSkI0SVJMZEdsT0VVNzJkNHpJa293SDFMRzUxYTFXSmQ2aVo5Y3VQSHNTbl9hdGxudVA5Nm52Z3Z6NE9za1hYTi0tbDVBXzZvWnpvbDlfMktwUjVXUVUxVVBtVGpSQnBzTzNJemdGSkJTV3pQVUpkV1VIN0E3TGhjNG9idTBHNzlTbHVCNXgtQnhFT0hF?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVEJNTXRsTWRfV25RZkRwbWVRbUktMUx5Nkp5bzN5dXJuN2dCRVdweWExX21sc1MwQ29WMFEydV95LTVzVnFzQ3UwXzA2aXVveDhQX0JIQnhDVW9ELUpCZ0hqd2x4em1pOVY2QzNyaFNqT3pqYnBhQ0h3ZnpnMWo0YzMwWHVCb1FOODlxTUp5MDBwYkJwSjFZRGFKNkx0dkg2Uzhpa1ExZ1k4WmZKX2lCWkRBR2d0TzNVRUpma1pocG45V1ZiYTFNODRTZ0ZhUUxwUTRqejV0QdIB3wFBVV95cUxQRWotTVlkSjYwbFNrY3otYlRIYnhzeUoyOWxSNkwwc1ZzcTdXbkNTRDVWdjBQa0F4ZmJNV2FsM1FJUTVidUNRREN4dnd0T1VvbVZvSkI0SVJMZEdsT0VVNzJkNHpJa293SDFMRzUxYTFXSmQ2aVo5Y3VQSHNTbl9hdGxudVA5Nm52Z3Z6NE9za1hYTi0tbDVBXzZvWnpvbDlfMktwUjVXUVUxVVBtVGpSQnBzTzNJemdGSkJTV3pQVUpkV1VIN0E3TGhjNG9idTBHNzlTbHVCNXgtQnhFT0hF?oc=5
+summary: 'Enterprise AI Deployment in 2026: Eight Companies Turning Pilots Into Business Results InfotechLead'
+first_seen: '2026-10-15T00:32:38Z'
+last_seen: '2026-10-15T00:32:38Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVEJNTXRsTWRfV25RZkRwbWVRbUktMUx5Nkp5bzN5dXJuN2dCRVdweWExX21sc1MwQ29WMFEydV95LTVzVnFzQ3UwXzA2aXVveDhQX0JIQnhDVW9ELUpCZ0hqd2x4em1pOVY2QzNyaFNqT3pqYnBhQ0h3ZnpnMWo0YzMwWHVCb1FOODlxTUp5MDBwYkJwSjFZRGFKNkx0dkg2Uzhpa1ExZ1k4WmZKX2lCWkRBR2d0TzNVRUpma1pocG45V1ZiYTFNODRTZ0ZhUUxwUTRqejV0QdIB3wFBVV95cUxQRWotTVlkSjYwbFNrY3otYlRIYnhzeUoyOWxSNkwwc1ZzcTdXbkNTRDVWdjBQa0F4ZmJNV2FsM1FJUTVidUNRREN4dnd0T1VvbVZvSkI0SVJMZEdsT0VVNzJkNHpJa293SDFMRzUxYTFXSmQ2aVo5Y3VQSHNTbl9hdGxudVA5Nm52Z3Z6NE9za1hYTi0tbDVBXzZvWnpvbDlfMktwUjVXUVUxVVBtVGpSQnBzTzNJemdGSkJTV3pQVUpkV1VIN0E3TGhjNG9idTBHNzlTbHVCNXgtQnhFT0hF?oc=5
+  seen_at: '2026-10-15T00:32:38Z'
+  metrics: {}
+  kind: news
+---
+
+# Enterprise AI Deployment in 2026: Eight Companies Turning Pilots Into Business Results
+
+Enterprise AI Deployment in 2026: Eight Companies Turning Pilots Into Business Results InfotechLead
+
+## 笔记
+
+

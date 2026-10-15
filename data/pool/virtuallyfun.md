@@ -20,16 +20,16 @@ url: https://virtuallyfun.com/2026/10/13/windows-nt-3-1-mips-on-qemu/
 canonical_url: https://virtuallyfun.com/2026/10/13/windows-nt-3-1-mips-on-qemu
 summary: Windows NT 3.1 MIPS on QEMU
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://virtuallyfun.com/2026/10/13/windows-nt-3-1-mips-on-qemu/
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 20
+    points: 22
     comments: 2
   kind: news
 ---

@@ -20,8 +20,8 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-10-11T01:02:09Z'
-status: rejected
+last_seen: '2026-10-15T00:32:38Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -115,6 +115,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMingFBVV95cUxOdGFvVlU4LUVkb01CZHdLdHNKVEMtbFJtRkdFUDl6MGVneDVBb1Z2SVFzVHNiRVZLWUo2ZXFtVUk1WHpocUh5X3A4UllxdlpHVy1mRzlvUm5ubk8yeG9SZ3F1WTczYXVnc2E5Mkx1Ml9HeVVZaWI3Tk84Y3VuR3NnWXRPU1N2cjlfQ25nRE00ckZJQk5YM3B3bndLUHQ3QQ?oc=5
   seen_at: '2026-10-11T01:02:09Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free
+  seen_at: '2026-10-15T00:32:31Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQcDVWbnY0dl9hTHhSa0hWNEJnUVpfRkRtc0VTYXRCbHN5bWtZeGpEWjg1c2RQVmpxQ2JUZGQ4T1ZGQmp3X3pleHZjTTFHQ1JEdF9HZFRVUnN3ZTE0UDRJY2I0b1g4Mk0xb01mbnJFWlFGZTc3T0F6UElfa1hyajQ1TjFlUXl0UEpWU2tuZnhJcjdWQTlUSEpnd2N3?oc=5
+  seen_at: '2026-10-15T00:32:38Z'
   metrics: {}
   kind: news
 ---

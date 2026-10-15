@@ -20,17 +20,17 @@ url: https://parsimony.lasu.dev/
 canonical_url: https://parsimony.lasu.dev
 summary: an open-source benchmark for how much code AI models add
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://parsimony.lasu.dev/
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 42
-    comments: 4
+    points: 77
+    comments: 17
   kind: product
 ---
 

@@ -42,12 +42,13 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Early stage). Near
   with Cognition, CodeRabbit, and Zed, CRM with Clarify, quote-to-cash with Roadrunner, and design with
   Paper.
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-10-11T01:02:09Z'
+last_seen: '2026-10-15T00:32:32Z'
 status: pending_filter
 sources:
 - ia40
 - newssearch
 - hackernews
+- marketfeeds
 sightings:
 - source: ia40
   url: https://paper.design/
@@ -126,6 +127,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiekFVX3lxTE5IYmpsaGltSnVNVTM5ZktZUXlfVG1zSHlIODhlTmVVUWZGTE1xMEFnRGNndGoxcEZaSW5QT0RGZFJGUG1PWkl3SFFNbE5wT0UtVG50cDdXeUdDOHdiUDdLbWtWVWhmQTFFM3IzSnpWaVpwZms1dDVfQ2FR?oc=5
   seen_at: '2026-10-11T01:02:09Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/
+  seen_at: '2026-10-15T00:32:32Z'
   metrics: {}
   kind: news
 ---

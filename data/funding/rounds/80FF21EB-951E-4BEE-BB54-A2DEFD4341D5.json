@@ -1,0 +1,92 @@
+{
+  "company": {
+    "city": "London",
+    "country": "UK",
+    "description": "Obsero is a British AI Search platform and consultancy.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "7E122B3E-AB26-4CEB-815F-EA6E693E555D",
+    "investors": [
+      "Obsero’s own customers",
+      "SFC Capital"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Obsero",
+    "rounds": [
+      {
+        "amountEur": 1000000,
+        "date": "2026-10-14T00:00:00.000Z",
+        "id": "80FF21EB-951E-4BEE-BB54-A2DEFD4341D5",
+        "investors": [
+          "Obsero’s own customers",
+          "SFC Capital"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/80FF21EB-951E-4BEE-BB54-A2DEFD4341D5"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 51,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 14
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 1000000,
+    "url": "https://funding.tech.eu/companies/7E122B3E-AB26-4CEB-815F-EA6E693E555D",
+    "website": "https://obsero.ai/"
+  },
+  "round": {
+    "amountEur": 1000000,
+    "amountEurStored": null,
+    "amountNative": 1000000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "7E122B3E-AB26-4CEB-815F-EA6E693E555D",
+      "name": "Obsero",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-10-14",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "80FF21EB-951E-4BEE-BB54-A2DEFD4341D5",
+    "investors": [
+      "Obsero’s own customers",
+      "SFC Capital"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "eu-startups.com",
+      "tier": "established"
+    },
+    "stage": "Seed",
+    "url": "/deals/80FF21EB-951E-4BEE-BB54-A2DEFD4341D5"
+  }
+}

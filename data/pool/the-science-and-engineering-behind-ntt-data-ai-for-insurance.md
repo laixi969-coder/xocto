@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNa093RVhIUGRVX05ScmViSz
 canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNa093RVhIUGRVX05ScmViSzUzQzlxb2V5ZWxTU1kyRWkzZjk0cWxOY0NvdzZZdENFU3FmcXg4VEFQM1c5bVBuYWpiMnpKcm4xQkhoNDd0bFhIME4tcGdBblJfUDZLNnpUSE02Z3M0OHZJTHZ6N0ppT0tnN0Y0UWpnR0NSNzZ3a0FDRXRqNHNfbUxKS2plb3J0TkQwQjM4VkwxM2c?oc=5
 summary: The science and engineering behind NTT DATA AI for Insurance NTT Data
 first_seen: '2026-10-14T01:14:30Z'
-last_seen: '2026-10-14T01:14:30Z'
+last_seen: '2026-10-15T00:32:38Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNa093RVhIUGRVX05ScmViSzUzQzlxb2V5ZWxTU1kyRWkzZjk0cWxOY0NvdzZZdENFU3FmcXg4VEFQM1c5bVBuYWpiMnpKcm4xQkhoNDd0bFhIME4tcGdBblJfUDZLNnpUSE02Z3M0OHZJTHZ6N0ppT0tnN0Y0UWpnR0NSNzZ3a0FDRXRqNHNfbUxKS2plb3J0TkQwQjM4VkwxM2c?oc=5
   seen_at: '2026-10-14T01:14:30Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiogFBVV95cUxNUXE4cFRZMlRIRTBrWGN3VTExNG5pSEZIazBXdnJ2cWVWOW1lb255dldiN1QxR0hQX1NlcFpaWkZyWVlwNFJOYjg4WmNOUVZ0Sl8zWkdLb1hxNUM4eTlFSHlQVUVHR3RQOTVjNmtyVENuQmF4VEhXWUMxT29aUWhsWGFFX25vNkhUdkFHZTZUcXVUa1Z6U1RBYmJ6U0E1RFc0eVE?oc=5
+  seen_at: '2026-10-15T00:32:38Z'
   metrics: {}
   kind: news
 ---

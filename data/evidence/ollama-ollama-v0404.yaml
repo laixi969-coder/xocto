@@ -1,0 +1,19 @@
+- id: ev-2d67b179a06fcf5f
+  project_slug: ollama-ollama-v0404
+  url: https://github.com/ollama/ollama/releases/tag/v0.40.4
+  title: 'ollama/ollama: v0.40.4'
+  published_at: '2026-10-12T19:00:12Z'
+  collected_at: '2026-10-15T00:32:09Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## Decision models in the CLI\r\nDecision models can now be used directly from the terminal with\
+    \ `ollama run` — ask yes/no questions, classify text into labels, or score against a rubric:\r\n`ollama\
+    \ run nimble --ask \"Is a refund being requested?\" < ticket.txt`\r\n\r\n ## What's Changed\r\n  *\
+    \ Kev decision models are now supported by the MLX runner on Apple silicon\r\n  * `ollama launch`\
+    \ can now be used with usage credits without upgrading to a paid plan\r\n  * `ollama launch codex`\
+    \ now includes locally installed Ollama models in its model picker. Use `/model` within the Codex\
+    \ CLI to swap models.\r\n  * Improved inference performance by reusing verified manifests and already\
+    \ loaded models\r\n  * Added support for multimodal embeddings through llama-server\r\n  * Fixed loading\
+    \ multimodal embedding models with small context windows\r\n  * Improved Gemma 4 prefill performance\
+    \ on NVIDIA GPUs with the MLX runner\r\n  * MLX runner now clips long Laya states instead of rejecting\
+    \ them\r\n  * Improved speculative decodin"

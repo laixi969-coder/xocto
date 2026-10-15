@@ -36,12 +36,13 @@ url: https://www.hootsuite.com/platform/ai
 canonical_url: https://www.hootsuite.com/platform/ai
 summary: Wisdom is Hootsuite's social AI assistant, formerly known as OwlyWriter AI.
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-09-23T00:34:15Z'
-status: watching
+last_seen: '2026-10-15T00:32:38Z'
+status: pending_filter
 sources:
 - aicpb
 - official_web
 - hackernews
+- newssearch
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/OwlyWriter-AI-by-Hootsuite/webid1D6F37E31
@@ -70,6 +71,11 @@ sightings:
   metrics:
     points: 365
     comments: 509
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNanBnWHhtYldQWnh2aXBkQkR4UnFuenpHWGQ0OG1pbU5Gc181eWRSbVQ3MW9fanRWQVFEQUx6V0wxbUt0VlhsUkVBdzFramJhV0pjU1NmMkJ2VHFmbDl5VThkdFhNMGhaNF8zdmtBZi01cm4ycS1iRjdvTGVwZ01mUXhQYm1Ec2ltZmZuYTRnYURpMy1tQ2t5VU9qWFd4YzZZWGJjLTFMRlBlZGZ5dUZOdDV0MWJSRDJH?oc=5
+  seen_at: '2026-10-15T00:32:38Z'
+  metrics: {}
   kind: news
 ---
 

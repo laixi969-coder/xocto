@@ -33,16 +33,16 @@ url: https://github.com/aiskyhub/novel_to_comic
 canonical_url: https://github.com/aiskyhub/novel_to_comic
 summary: Novel to comic workflow and skills for Codex and AI coding assistants.
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-13T03:03:58Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/aiskyhub/novel_to_comic
-  seen_at: '2026-10-13T03:03:58Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
-    stars: 41
+    stars: 45
     forks: 8
     open_issues: 0
   kind: product

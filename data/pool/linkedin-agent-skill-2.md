@@ -35,17 +35,17 @@ canonical_url: https://github.com/avi691/linkedin-agent-skill
 summary: 'Eleven free Claude skills that run a LinkedIn account: posts off 21 hook formulas, comments,
   replies, profile score, weekly plan, and a humanizer that strips the AI fingerprint.'
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/avi691/linkedin-agent-skill
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
-    stars: 50
-    forks: 11
+    stars: 55
+    forks: 13
     open_issues: 4
   kind: product
 ---

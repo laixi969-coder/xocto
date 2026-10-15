@@ -20,17 +20,17 @@ url: https://github.com/bomfather/agent
 canonical_url: https://github.com/bomfather/agent
 summary: eBPF Runtime Security
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/bomfather/agent
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 5
-    comments: 0
+    points: 6
+    comments: 1
   kind: product
 ---
 

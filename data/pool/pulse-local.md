@@ -20,17 +20,17 @@ url: https://pulseos.finance
 canonical_url: https://pulseos.finance
 summary: a Mac budgeting app whose AI models run on your machine
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pulseos.finance
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 33
-    comments: 23
+    points: 112
+    comments: 70
   kind: product
 ---
 

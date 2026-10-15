@@ -1,0 +1,137 @@
+{
+  "company": {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "description": "AI-native automation platform that gives retail teams an AI workforce for day-to-day operations",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "335A8380-8EC1-49B2-B260-84159C217A95",
+    "investors": [
+      "Balderton Capital",
+      "Credo Ventures",
+      "David Singleton",
+      "Existing investors",
+      "Index Ventures",
+      "Kieran Flanagan",
+      "Northzone",
+      "Puzzle Ventures",
+      "Roy Reznik"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Duvo",
+    "rounds": [
+      {
+        "amountEur": 28584189,
+        "date": "2026-10-14T00:00:00.000Z",
+        "id": "77DB6907-D5F3-4BFF-B5DC-F201BF608C0D",
+        "investors": [
+          "Balderton Capital",
+          "Credo Ventures",
+          "Existing investors",
+          "Index Ventures",
+          "Northzone"
+        ],
+        "stage": "Series A",
+        "url": "https://funding.tech.eu/deals/77DB6907-D5F3-4BFF-B5DC-F201BF608C0D"
+      },
+      {
+        "amountEur": 12915447,
+        "date": "2025-12-02T00:00:00.000Z",
+        "id": "DA0CD3EC-DBF4-4944-9916-FC4B8D2BAF13",
+        "investors": [
+          "Credo Ventures",
+          "David Singleton",
+          "Index Ventures",
+          "Kieran Flanagan",
+          "Northzone",
+          "Puzzle Ventures",
+          "Roy Reznik"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/DA0CD3EC-DBF4-4944-9916-FC4B8D2BAF13"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "up",
+            "label": "€30M+ raised"
+          },
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 19
+      },
+      "heat": 85,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          }
+        ],
+        "score": 17
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 41499636,
+    "url": "https://funding.tech.eu/companies/335A8380-8EC1-49B2-B260-84159C217A95",
+    "website": "http://duvo.ai/"
+  },
+  "round": {
+    "amountEur": 28584189,
+    "amountEurStored": null,
+    "amountNative": 32000000,
+    "company": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "founded": null,
+      "id": "335A8380-8EC1-49B2-B260-84159C217A95",
+      "name": "Duvo",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-10-14",
+    "fx": {
+      "asOf": "2026-10-14",
+      "rate": 1.1195,
+      "source": "ECB"
+    },
+    "id": "77DB6907-D5F3-4BFF-B5DC-F201BF608C0D",
+    "investors": [
+      "Index Ventures",
+      "Balderton Capital",
+      "Credo Ventures",
+      "Northzone"
+    ],
+    "rawRoundType": "series a",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Series A",
+    "url": "/deals/77DB6907-D5F3-4BFF-B5DC-F201BF608C0D"
+  }
+}

@@ -31,17 +31,17 @@ canonical_url: https://github.com/GanyuanRan/Autoloom
 summary: 'AI coding with Aegis governance built into execution: baseline-aware changes, evidence-backed
   delivery. Free desktop client, your choice of model. 将哲科思维融入 AI 开发执行，让变更有依据、交付有证据。用创意编织现实。'
 first_seen: '2026-09-30T12:40:15Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-15T00:32:09Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/GanyuanRan/Autoloom
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-15T00:32:09Z'
   metrics:
-    stars: 360
-    forks: 8
+    stars: 337
+    forks: 10
     open_issues: 0
   kind: product
 ---

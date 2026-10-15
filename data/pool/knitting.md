@@ -20,16 +20,16 @@ url: https://js.knitting.run/
 canonical_url: https://js.knitting.run
 summary: A shared-memory concurrency runtime for Node.js,Bun,and Deno
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-15T00:32:05Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://js.knitting.run/
-  seen_at: '2026-10-14T01:13:55Z'
+  seen_at: '2026-10-15T00:32:05Z'
   metrics:
-    points: 8
+    points: 10
     comments: 4
   kind: product
 ---

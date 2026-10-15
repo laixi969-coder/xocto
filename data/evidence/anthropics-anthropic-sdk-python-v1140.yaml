@@ -1,0 +1,55 @@
+- id: ev-44b60e604c3260dd
+  project_slug: anthropics-anthropic-sdk-python-v1140
+  url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.14.0
+  title: 'anthropics/anthropic-sdk-python: v1.14.0'
+  published_at: '2026-10-14T17:13:08Z'
+  collected_at: '2026-10-15T00:32:09Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '### Features
+
+
+    * **api:** add execution_identity to Managed Agents agents
+
+    * **api:** add organization_type_not_supported error to spend limit lists
+
+    * **api:** add telemetry destination test endpoint
+
+    * **api:** add telemetry destinations to the Admin API
+
+    * **client:** add OpenTelemetry tracing for API calls, streaming and tool runs
+
+
+
+    ### Bug Fixes
+
+
+    * **api:** rename telemetry destination test response model
+
+    * **client:** close dropped streams without waiting for the collector
+
+    * **streaming:** pass unknown event types through the message stream helpers
+
+    * **streaming:** stop raising "Unexpected event order" for an event before message_start
+
+
+
+    ### Chores
+
+
+    * **docs:** correct prefill, thinking, fallback and model descriptions
+
+    * **docs:** document the scope required to assign the managed role
+
+    * **docs:** update model examples
+
+    * **internal:** narrow the tripwire test rule in the contributor guides
+
+
+
+    ### Documentation
+
+
+    * **api:** clarify when custom tool results can be sent
+
+    * **api:** say is_en'
