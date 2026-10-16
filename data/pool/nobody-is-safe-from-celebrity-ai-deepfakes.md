@@ -3,9 +3,14 @@ slug: nobody-is-safe-from-celebrity-ai-deepfakes
 name: Nobody is safe from celebrity AI deepfakes
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026 年 10 月，Instagram 上出现冒充演员 Mia Goth 的 AI 生成图片，该账号拥有超百万粉丝并带有蓝色认证标记，数日内扩散。这显示生成式 AI 深度伪造已能借助平台认证机制获得可信外观，对内容平台的身份核验、名人肖像权保护与
+  AI 内容标注提出更紧迫的合规与审核要求。
 inspiration: ''
-summary_en: ''
+summary_en: In October 2026, an AI-generated image impersonating actress Mia Goth spread on Instagram
+  from an account with over a million followers and a blue verified badge. This shows generative AI deepfakes
+  can gain a credible appearance by exploiting platform verification, raising more urgent compliance and
+  moderation demands for identity verification, celebrity likeness rights and AI content labelling on
+  content platforms.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -27,7 +32,7 @@ summary: 'In hindsight, the post on Instagram should have raised more red flags.
   checkmark. Within days, the image ra … Read the full story at The Verge.'
 first_seen: '2026-10-16T00:25:40Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:

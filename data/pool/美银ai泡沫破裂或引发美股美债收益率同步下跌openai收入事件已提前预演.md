@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qWFJtNW44Ym9m
 summary: 美银：AI泡沫破裂或引发美股、美债收益率同步下跌，OpenAI收入事件已提前预演 华尔街见闻
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

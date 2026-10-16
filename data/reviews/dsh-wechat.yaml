@@ -189,3 +189,53 @@
     the work of handling message routing and integration protocol, so developers who already run DeepSeek
     Harness and require communication to stay inside WeChat would pick it when moving the model into daily
     conversations. Stars rising from 82 to 142 only shows growing attention; without retent'
+- id: req-full-dsh-wechat-2026-10-16
+  project_slug: dsh-wechat
+  level: full
+  reviewed_at: '2026-10-16T01:21:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地模型缺少日常入口的需求：团队沟通在微信、模型只在终端或网页，来回切换是刚性摩擦，不接入就得另建客户端或放弃在微信内调用。仓库星标从 82 增至 194 表明持续关注，但无用户抱怨或采用记录，价值成立属工作流结构推理。
+    evidence_ids:
+    - ev-ce6a0407b7e5be49
+    - ev-4f161ed4f9d1d66f
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 82 增至 194 只说明开发者关注度上升，属规模与关注度证据，不能证明团队已把它放进日常工作流；公开材料没有 issue、discussion 或使用反馈说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-ce6a0407b7e5be49
+    - ev-4f161ed4f9d1d66f
+  - gate: model
+    status: insufficient
+    reason: 开源仓库没有定价页、付费路径或客户案例，钱可能来自部署与运维服务或纯社区维护，这是判断而非已验证事实；买方与收费方式在公开材料中均未出现。
+    evidence_ids:
+    - ev-ce6a0407b7e5be49
+  - gate: truth
+    status: insufficient
+    reason: 微信通道涉及平台规则与账号安全边界，候选材料未说明合规方式、支持的消息类型与人工确认环节，交付能否确定发生无法核对；仓库描述仅一句 WeChat channel for DeepSeek
+      Harness。
+    evidence_ids:
+    - ev-ce6a0407b7e5be49
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认支持的消息类型、部署步骤、微信侧合规说明以及是否有使用者反馈。
+  market: ''
+  job: 已自建或本地部署 DeepSeek Harness 的开发者或小团队，在团队日常沟通留在微信的情况下，把微信会话当作模型调用入口，处理日常问答或内部查询，希望不切换工具就能用上本地模型。
+  job_en: A developer or small team that already self-hosts or locally deploys DeepSeek Harness uses WeChat
+    conversations as the model entry point for everyday Q&A or internal lookups, hoping to use the local
+    model without switching tools.
+  pain: 本地模型通常只有命令行或网页界面，而团队沟通在微信里，来回切换或另建客户端增加摩擦；仓库星标从 82 增至 194 说明持续有开发者关注这一接入需求，但公开材料没有用户抱怨或采用记录，痛点强度属结构推理。
+  pain_en: Local models usually only expose a CLI or web UI while team communication lives in WeChat,
+    so switching back and forth or building another client adds friction; stars rising from 82 to 194
+    show sustained developer attention to this integration need, but the material offers no user complaints
+    or adoption records, so pain intensity is structural inference.
+  current_alternative: 直接在终端或网页界面调用本地模型，或使用现成云端聊天助手；也有团队自建机器人，但需要额外开发与维护。
+  current_alternative_en: Calling the local model from a terminal or web UI, or using an existing cloud
+    chat assistant; some teams build their own bot, which requires extra development and maintenance.
+  usage_reason: 推断：相较终端或网页调用，它把模型调用搬进用户已打开的微信会话，省掉切换应用这一步，因此对已部署本地模型、又要求沟通留在微信内的团队有吸引力。仓库星标持续增长只说明关注度，缺少留存或重复使用证据，无法确认是否被长期留在工作流中。
+  usage_reason_en: 'Inference: compared with terminal or web calls, it moves model invocation into the
+    WeChat conversation users already have open, removing the app-switching step, which appeals to teams
+    that already run a local model and require communication to stay inside WeChat. Rising stars only
+    indicate attention; without retention or repeat-use evidence, long-term workflow placement cannot
+    be confirmed.'

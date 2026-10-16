@@ -27,7 +27,7 @@ summary: Though movies about disruptive tech founders are nothing new, 2026 has 
   like Alex Gibney's Musk docume … Read the full story at The Verge.
 first_seen: '2026-10-16T00:25:40Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

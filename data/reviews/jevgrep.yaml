@@ -752,3 +752,49 @@
     source units and surrounding context, returning exact line-numbered snippets and removing the manual
     step of opening files and checking whether a summary is faithful; engineers are more likely to choose
     it when they remember the behavior but not the symbol name.'
+- id: req-full-jevgrep-2026-10-16
+  project_slug: jevgrep
+  level: full
+  reviewed_at: '2026-10-16T01:21:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是工程师在陌生代码库中定位与某行为相关文件的需求，痛点是 grep 需先猜关键词、反复试错，不解决则拖慢后续智能体改码；公开仓库说明已还原输入、动作与交付，属工作流结构推理。
+    evidence_ids:
+    - ev-ebfa2f4cb3a1431d
+    - ev-4e0348a93cab9a9d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 2,521 增至 2,722，说明开发者持续关注，但收藏只属关注度证据，未见用户反馈、issue 或案例证明它被留在日常工作流中。
+    evidence_ids:
+    - ev-ebfa2f4cb3a1431d
+    - ev-24480cbca6770c2c
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：作为开源 CLI，未见定价页、付费主体或采购记录，钱可能来自 to C 开发者或 to B 团队，但公开材料未核验任何付费路径。
+    evidence_ids:
+    - ev-ebfa2f4cb3a1431d
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明它用 Jev 发现相关文件并返回带行号片段，未见可复现的准确率、误报处理或人工确认边界，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-4e0348a93cab9a9d
+  next_validation: 追踪 jevgrep 仓库的 issue 与 discussion，确认是否有用户报告在真实仓库中用它替代 grep 并持续使用。
+  market: ''
+  job: 软件工程师在接手或维护不熟悉的代码库时，需要先定位与某个行为相关的文件与源码位置，再把上下文交给编码智能体去修改。
+  job_en: Software engineers taking over or maintaining an unfamiliar codebase need to locate the files
+    and source locations tied to a given behavior, then hand that context to a coding agent for edits.
+  pain: 传统 grep 只能按字面匹配，工程师往往要先猜关键词、反复试错才能找到相关文件；在大型或不熟悉的仓库里，这一步会拖慢后续让智能体动手改代码的整个流程。
+  pain_en: Plain grep matches literal strings, so engineers must guess keywords and iterate before finding
+    relevant files; in large or unfamiliar repos this step slows the whole downstream agent-edit workflow.
+  current_alternative: 当前替代方式是 grep、ripgrep、IDE 全局搜索，或直接让编码智能体自行探索仓库；这些做法依赖精确关键词或让智能体盲目扫描，定位相关文件这一步负担较重。
+  current_alternative_en: The current alternatives are grep, ripgrep, IDE-wide search, or letting the
+    coding agent explore the repo itself; these rely on exact keywords or blind agent scanning, making
+    file discovery a heavy step.
+  usage_reason: 推断：相较 grep 需要先猜关键词，jevgrep 让用户用“这段代码做什么”的自然语言描述直接检索，返回带行号的候选源码片段，从而省去反复试关键词这一步；经常接手陌生仓库、并配合编码智能体改代码的工程师会在这种场景下选择它。
+  usage_reason_en: 'Inference: unlike grep, which requires guessing keywords first, jevgrep lets users
+    query with a natural-language description of what the code does and returns candidate source snippets
+    with line numbers, removing the repeated keyword-guessing step; engineers who frequently take over
+    unfamiliar repos and pair with coding agents would choose it in that situation.'

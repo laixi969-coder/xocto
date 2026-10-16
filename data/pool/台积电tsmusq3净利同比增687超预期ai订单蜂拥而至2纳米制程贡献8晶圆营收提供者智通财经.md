@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9hSDJ1SDBidmoy
 summary: 台积电(TSM.US)Q3净利同比增68.7%超预期AI订单蜂拥而至、2纳米制程贡献8%晶圆营收提供者智通财经 英为财情 Investing.com
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

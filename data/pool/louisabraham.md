@@ -21,7 +21,7 @@ canonical_url: https://louisabraham.github.io/load-bearing
 summary: The load-bearing vocabulary of Claude
 first_seen: '2026-08-27T08:59:49Z'
 last_seen: '2026-08-28T06:07:17Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,7 @@ sightings:
   metrics:
     points: 433
     comments: 202
+  kind: product
 ---
 
 # louisabraham

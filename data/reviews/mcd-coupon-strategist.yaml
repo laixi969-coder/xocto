@@ -131,3 +131,49 @@
     and coupon rules and outputs one orderable combination, removing the manual enumeration step; price-sensitive
     users ordering several times a week get a definite answer even after campaigns change, so they would
     reach for it instead of searching guides.'
+- id: req-full-mcd-coupon-strategist-2026-10-16
+  project_slug: mcd-coupon-strategist
+  level: full
+  reviewed_at: '2026-10-16T01:22:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决点餐前算最优组合、避免为凑单多花钱的需求，痛点具体且高频；公开材料未说明门店菜单与券数据的来源，属证据边界，但任务、旧替代与不解决的后果可由产品说明还原，属工作流结构推理。
+    evidence_ids:
+    - ev-0556f1716edb1589
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 171 升至 342，说明开发者关注度在增长，但公开材料没有点餐者反馈或使用数据，无法证明它已进入日常点餐流程；关注度不等于持续采用。
+    evidence_ids:
+    - ev-0556f1716edb1589
+    - ev-ab824d0ee93a77eb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式；判断上可能向消费者订阅、向品牌方导流或按省下金额抽成，均非已验证事实，属判断而非公开事实。
+    evidence_ids:
+    - ev-0556f1716edb1589
+  - gate: truth
+    status: insufficient
+    reason: 交付依赖第三方麦当劳 MCP 接口与门店数据，规则或接口变动会直接影响方案准确性，公开材料未说明容错、更新频率与人工确认边界。
+    evidence_ids:
+    - ev-0556f1716edb1589
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认门店菜单与优惠券数据的实际来源、更新方式，以及是否有用户反馈其方案可直接下单。
+  market: ''
+  job: 价格敏感的麦当劳消费者在门店点餐前，把当前门店菜单、可用优惠券和满减/第二份半价规则交给这个 Skill，要算出一份可直接下单的最省组合，并识别哪些加购只是凑单陷阱。
+  job_en: A price-sensitive McDonald's customer, before ordering at a store, feeds the current store menu,
+    available coupons and threshold/second-item discount rules into this Skill to get one directly orderable
+    cheapest combination and to spot which add-ons are only threshold traps.
+  pain: 券、第二份半价与满减门槛叠加后人工比价很费神，且容易为凑门槛多买不需要的东西，反而多花钱；规则随门店和活动变化，旧攻略很快失效。
+  pain_en: Stacked coupons, second-item discounts and spend thresholds make manual comparison tedious,
+    and users often buy unneeded items just to hit a threshold, spending more; rules change by store and
+    campaign, so old guides go stale fast.
+  current_alternative: 自己心算或凭经验点单，或在社交平台搜别人整理的省钱攻略，规则一变就失效。
+  current_alternative_en: Mental math or habit-based ordering, or reading user-compiled money-saving guides
+    on social platforms that go stale when rules change.
+  usage_reason: 推断：相较自己心算或搜攻略，它直接读取门店菜单与券规则并输出一个可下单组合，省掉逐条比对券门槛这一步；对每周多次点单、对价格敏感的人，在规则更新后仍能拿到确定答案，因此会优先用它。
+  usage_reason_en: 'Inference: versus mental math or searching guides, it reads the store menu and coupon
+    rules and outputs one orderable combination, removing the step of checking each threshold by hand;
+    price-sensitive users ordering several times a week get a definite answer even after rules change,
+    so they would reach for it.'

@@ -24,3 +24,44 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+- id: req-initial-pluto-2026-10-16
+  project_slug: pluto
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有一句定位语，说不清谁在什么节点用它、解决什么具体痛点，价值关证据不足。
+    evidence_ids:
+    - ev-13234b749632e715
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供票数、评论或用户评价，共识关无法判断。
+    evidence_ids:
+    - ev-13234b749632e715
+  - gate: model
+    status: insufficient
+    reason: 没有定价、买方或收费方式信息，谁付钱无法判断，属未知而非失败。
+    evidence_ids:
+    - ev-13234b749632e715
+  - gate: truth
+    status: insufficient
+    reason: 无法核对代理回答是否可核验、交付是否确定发生，求真关证据不足。
+    evidence_ids:
+    - ev-13234b749632e715
+  next_validation: 抓取 Pluto 产品页的功能说明与定价页，确认代理接收哪些履历材料、向谁交付什么结果以及收费方式。
+  market: ''
+  job: 求职者或自由职业者在需要向招聘方或客户介绍自己时，把履历、项目经历整理成可被对方提问的代理，代替自己回答初步问题。
+  job_en: When introducing themselves to a recruiter or client, a job seeker or freelancer organises their
+    resume and project history into an agent that answers initial questions on their behalf.
+  pain: 材料没有说明旧方式哪里难受，也没有用户抱怨或采用行为，痛点强度无法从公开事实判断。
+  pain_en: The material does not say what hurts in the old way and gives no user complaints or adoption
+    behaviour, so pain intensity cannot be judged from public facts.
+  current_alternative: 公开材料未提供旧做法，常见替代可能是简历、个人主页或领英档案，但候选未证实。
+  current_alternative_en: No prior practice is given; common alternatives might be a resume, personal
+    site or LinkedIn profile, but the candidate does not confirm this.
+  usage_reason: 无法判断：材料只有一句定位语，没有说明相较简历或主页减少了哪一步负担，也没有用户反馈支持选择动机。
+  usage_reason_en: 'Cannot be judged: the material is a single positioning line, without saying which
+    step it removes versus a resume or homepage, and no user feedback supports the choice.'

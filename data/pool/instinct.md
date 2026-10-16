@@ -3,44 +3,34 @@ slug: instinct
 name: Instinct
 builder: Spear Street Technology
 category: 通用助手
-summary_zh: 个人用户通过短信或电话把预约车管所、发跟进邮件、联系商家客服这类琐事交给 Instinct，代理以文本对话接收指令，并可用自建邮箱注册账号、代发消息、处理客服往来；用户拿到的是事务被推进或办完的结果，涉及身份与付款的关键步骤仍需本人确认，具体边界待核验。
-inspiration: 趋势：个人代理从“回答问题”转向“替你出面办事”，短信入口把使用门槛压到几乎为零，说明通用代理的竞争点已从模型能力转到账号、身份与信任链。切入：不要做又一个全能助理，而是切某个必须反复与机构打交道的窄场景（如保险理赔跟进、政务预约、跨境账单争议），把“代你持续催办直到有结果”做成按结果收费的服务，并自建该场景所需的凭证与合规通道。
-summary_en: Individuals text or call Instinct to hand off chores such as booking a DMV appointment, sending
-  follow-up emails or chasing a merchant's support desk; the agent takes instructions in plain text and
-  can use its own email address to create accounts, send messages and handle support threads. The user
-  gets the errand moved forward or finished, with identity and payment steps still needing human confirmation;
-  exact boundaries remain unverified.
-inspiration_en: 'Trend: personal agents are shifting from answering questions to acting on your behalf,
-  and a text-message entry point drops the adoption barrier to near zero, so competition moves from model
-  quality to accounts, identity and trust chains. Wedge: skip the do-everything assistant and pick one
-  narrow chore that forces repeated contact with institutions (insurance claim follow-up, government appointments,
-  cross-border billing disputes), selling ''keep chasing until it is resolved'' as an outcome-priced service
-  with its own credential and compliance rails.'
+summary_zh: 个人在需要代办日常事务时，通过短信或电话联系 Instinct，它像人一样使用电话和电脑，替用户下单食材、订周末回家的火车票、买日用品、给朋友送花或找周末场地。用户拿到的是已执行的代办结果，但具体确认环节、失败处理和覆盖范围仍待核验。
+inspiration: 趋势：助手从“给建议”走向“替你打电话、替你下单”，把执行权交给模型，个人事务代办成为新战场。切入：先选一个高频、可核对、失败代价低的场景（如周末场地预订或生鲜补货）做深，按成功代办收费；不要从全品类通用助手正面打，那已被大厂入口占据。
+summary_en: When someone needs an everyday errand handled, they text or call Instinct, which uses a phone
+  and computer the way a person would to order ingredients, book a weekend train home, buy groceries,
+  send flowers or find a court. The user gets an executed errand, though confirmation steps, failure handling
+  and coverage still need verification.
+inspiration_en: 'Trend: assistants are moving from giving advice to making calls and placing orders, handing
+  execution to the model, and personal errand-running is becoming a new battleground. Entry: pick one
+  high-frequency, checkable, low-cost-of-failure task (weekend court booking or grocery restock) and charge
+  per completed errand; do not attack the all-purpose assistant head-on, where big-platform entry points
+  already sit.'
 priority_review: true
 project_type: new_application
-industries:
-- 个人生活服务
-- 行政事务代办
-industries_en:
-- personal life services
-- administrative errands
+industries: []
+industries_en: []
 jobs:
-- 个人用户
-- 日常事务代办
+- 个人事务代办（订食材、订票、订场地、送花等）
 jobs_en:
-- individual consumers
-- everyday errand handling
-regions:
-- 美国
-regions_en:
-- United States
+- Personal errands (ordering ingredients, booking travel, reserving courts, sending flowers)
+regions: []
+regions_en: []
 open_source: false
 url: https://instinct.com/
 canonical_url: https://instinct.com
 summary: A personal AI assistant accessed through text and phone calls.
 first_seen: '2026-08-29T03:43:29Z'
 last_seen: '2026-10-16T00:24:52Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 - marketfeeds

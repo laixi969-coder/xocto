@@ -1,0 +1,87 @@
+- id: req-initial-阶跃首款大模型原生智能体手机发布助力ai支付创新-2026-10-16
+  project_slug: 阶跃首款大模型原生智能体手机发布助力ai支付创新
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用操作步骤多、支付前重复填写的问题，旧替代是用户手动切换App并逐笔确认。
+    evidence_ids:
+    - ev-a985debf089bbded
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布信息，没有用户采用或持续使用证据。
+    evidence_ids:
+    - ev-a985debf089bbded
+  - gate: model
+    status: insufficient
+    reason: 买方可能是终端用户或与支付机构合作分成，材料未披露定价，属判断非事实。
+    evidence_ids:
+    - ev-a985debf089bbded
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明支付授权、风控与人工确认边界，交付确定性无法核验。
+    evidence_ids:
+    - ev-a985debf089bbded
+  next_validation: 收集STEPX Neo官方产品页或发布说明，核验智能体可执行的应用范围、支付授权流程与是否收费。
+  market: ''
+  job: 手机用户在需要下单、支付或跨应用操作时，用对话向设备上的智能体下达任务，由它代为执行并完成支付或应用内动作。
+  job_en: Phone users, when needing to order, pay or act across apps, give tasks conversationally to the
+    on-device agent, which executes them and completes payment or in-app actions.
+  pain: 跨应用操作步骤多、跳转繁琐，支付前的重复填写与确认耗时。
+  pain_en: Cross-app tasks involve many steps and jumps, and repeated filling and confirmation before
+    payment is time-consuming.
+  current_alternative: 旧做法是用户自己在多个App间切换、手动填写信息并逐笔确认支付。
+  current_alternative_en: The prior practice is switching among apps manually, filling in information
+    and confirming each payment by hand.
+  usage_reason: 推断：相较手动跨应用操作，它把多步点击压缩为一次对话指令并直接落到支付动作，减少跳转与重复填写；对高频下单、支付且愿意授权设备代操作的用户更有吸引力。
+  usage_reason_en: 'Inference: versus manual cross-app operation, it compresses multiple taps into one
+    conversational instruction that lands directly on a payment action, cutting jumps and repeated entry;
+    more attractive to frequent orderers and payers willing to authorize device-side execution.'
+- id: req-full-阶跃首款大模型原生智能体手机发布助力ai支付创新-2026-10-16
+  project_slug: 阶跃首款大模型原生智能体手机发布助力ai支付创新
+  level: full
+  reviewed_at: '2026-10-16T01:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨应用操作步骤多、支付前重复填写与逐笔确认的痛点，旧替代是用户手动切换App并逐笔确认；痛点刚性来自支付高频与操作繁琐，交付闭环为对话指令直达支付动作，属工作流结构推理。
+    evidence_ids:
+    - ev-a985debf089bbded
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，无用户采用、留存或重复使用证据，无法判断是否形成持续使用共识；公开关注度不能替代采用证据。
+    evidence_ids:
+    - ev-a985debf089bbded
+  - gate: model
+    status: insufficient
+    reason: 买方可能是终端购机用户或与支付机构合作分成，公开材料未披露定价与收费方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a985debf089bbded
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明智能体可执行的应用范围、支付授权、风控与人工确认边界，交付确定性与安全边界无法核验。
+    evidence_ids:
+    - ev-a985debf089bbded
+  next_validation: 追踪 STEPX Neo 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 手机用户在需要下单、支付或跨应用操作时，用对话向STEPX Neo上的设备侧智能体下达任务，由它代为执行并完成支付或应用内动作。
+  job_en: Phone users, when needing to order, pay or act across apps, give tasks conversationally to the
+    on-device agent on STEPX Neo, which executes them and completes payment or in-app actions.
+  pain: 跨应用操作步骤多、跳转繁琐，支付前重复填写与逐笔确认耗时；公开材料仅支持这一结构性痛点，尚无用户抱怨或行为数据佐证。
+  pain_en: Cross-app tasks involve many steps and jumps, and repeated filling and per-payment confirmation
+    is time-consuming; public material only supports this structural pain, with no user complaints or
+    behavioral data yet.
+  current_alternative: 旧做法是用户自己在多个App间切换、手动填写信息并逐笔确认支付。
+  current_alternative_en: The prior practice is switching among apps manually, filling in information
+    and confirming each payment by hand.
+  usage_reason: 推断：相较手动跨应用操作，它把多步点击压缩为一次对话指令并直接落到支付动作，减少跳转与重复填写；对高频下单、支付且愿意授权设备代操作的用户更有吸引力。公开材料未提供用户反馈或采用数据，此因果为基于产品能力的结构推理。
+  usage_reason_en: 'Inference: versus manual cross-app operation, it compresses multiple taps into one
+    conversational instruction that lands directly on a payment action, cutting jumps and repeated entry;
+    more attractive to frequent orderers and payers willing to authorize device-side execution. Public
+    material offers no user feedback or adoption data, so this causal link is structural reasoning from
+    product capability.'

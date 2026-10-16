@@ -982,3 +982,47 @@
   usage_reason: 公开代码仓库有 48 个收藏，说明开发者注意到它；但缺少用户反馈或案例说明为何选择它，持续使用与付费均未核验。
   usage_reason_en: Its public repository has 48 stars, showing developer attention; but there is no user
     feedback or case explaining why they choose it, and repeat use and payment are unverified.
+- id: req-full-applied-micro-skills-2026-10-16
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-10-16T01:19:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README/文档与 issue、discussion，确认是否公开复现审计的实测示例、支持的数据与 Stata 环境范围，以及是否出现付费或托管版本。
+  market: ''
+  job: 应用微观经济学研究者（博士生、青年教师、RA）在拿到 WRDS/行政数据后，用 Stata 或 LLM 流水线跑事件研究等回归，并把结果整理成可投稿的论文表格，同时要能复现每一个数字。
+  job_en: Applied-micro researchers (PhD students, junior faculty, RAs) take WRDS or administrative data,
+    run event studies and other regressions in Stata or LLM pipelines, produce publication-grade tables,
+    and must be able to reproduce every number.
+  pain: 公开材料指向的痛点是复现与制表环节：数据到回归到论文表之间大量手工脚本、版本与口径不一致，审稿或合作者要求复现时数字对不上，返工成本高且难以定位。
+  pain_en: 'The public description points to friction in reproducibility and table production: many hand-written
+    scripts between data, regressions and paper tables, inconsistent versions and specifications, and
+    numbers that fail to match when referees or coauthors ask for replication.'
+  current_alternative: 当前替代是研究者自己写并维护 Stata do-file、Python/R 脚本和手工制表流程，或依赖同事与代码附录零散传递；这些做法能跑通，但复现审计与表格生成没有标准化封装。
+  current_alternative_en: Today researchers maintain their own Stata do-files, Python/R scripts and manual
+    table workflows, or rely on ad-hoc code appendices shared with coauthors; these work but do not package
+    reproducibility auditing and table generation.
+  usage_reason: 推断：相较自维护脚本，它把复现审计、事件研究与出版级表格封装成可调用的 skill，研究者可在同一工作流里让 agent 检查数字是否复现并生成表格，减少手工比对与重跑这一步；因此正在用
+    Claude Code/Codex 做实证研究、又需要交付可复现结果的研究者会试用它。
+  usage_reason_en: 'Inference: versus self-maintained scripts, it packages reproducibility auditing, event
+    studies and publication-grade tables as callable skills, so a researcher can have the agent check
+    whether numbers reproduce and generate tables inside the same workflow, cutting the manual comparison
+    and re-run step; researchers already using Claude Code/Codex for empirical work who must deliver reproducible
+    results are the likely adopters.'

@@ -1,0 +1,82 @@
+- id: req-initial-sidelong-2026-10-16
+  project_slug: sidelong
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决模型怎么用的问题，但连使用者、使用节点和产出都写不出来，需求与痛点均未成形。
+    evidence_ids:
+    - ev-0491a1222a06027d
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，仅有少量社区讨论，不足以说明持续采用。
+    evidence_ids:
+    - ev-0491a1222a06027d
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，开源仓库的付费路径也未在材料中出现。
+    evidence_ids:
+    - ev-0491a1222a06027d
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对内容是否准确、可复现，也没有人工边界说明。
+    evidence_ids:
+    - ev-0491a1222a06027d
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它实际提供的内容形态、面向的具体任务以及是否被重复使用。
+  market: ''
+  job: 尚未确认：材料没有说明谁在什么情况下打开它、处理什么材料、要完成什么任务。
+  job_en: 'Not yet established: the material does not say who opens it, in what situation, with what material,
+    to finish what task.'
+  pain: 只能推断开发者缺少可靠的模型使用指引，但没有任何用户抱怨、替代做法或采用行为被公开，痛点强度无法判断。
+  pain_en: One can only infer that developers lack reliable guidance on using models, but no user complaint,
+    workaround or adoption behaviour is public, so pain intensity cannot be judged.
+  current_alternative: 未说明；常见做法可能是官方文档、博客或社区问答，但材料未提及，属推断。
+  current_alternative_en: Unstated; official docs, blog posts or community Q&A are plausible, but the
+    material does not mention them and this is inference.
+  usage_reason: 无法给出因果解释：材料没有说明它相较现有文档减少了哪一步负担或改善了哪项可核对结果，因此缺少用户选择它的理由。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    versus existing documentation or which checkable result it improves, so the reason a user would choose
+    it is missing.'
+- id: req-full-sidelong-2026-10-16
+  project_slug: sidelong
+  level: full
+  reviewed_at: '2026-10-16T01:24:00Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决模型怎么用的问题，但公开材料只有一句主题描述，使用者、使用节点、输入材料与产出结果都写不出来，需求与痛点均未成形，无法做结构推理。
+    evidence_ids:
+    - ev-a0f7ea1fea635d54
+    - ev-c277f29836179061
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库自身的 README、目录结构与 issue/discussion 页面，确认它实际提供的内容形态、面向的具体任务以及是否被重复使用。
+  market: ''
+  job: 尚未确认：公开材料只有一句主题描述“How to Use LLMs”，没有说明谁在什么情况下打开它、处理什么材料、要完成什么任务。
+  job_en: 'Not established: the only public material is the one-line topic ''How to Use LLMs'', with no
+    statement of who opens it, in what situation, with what material, to finish what task.'
+  pain: 无法写出具体痛点：没有任何用户抱怨、替代做法或采用行为被公开，只能推断开发者缺少模型使用指引，痛点强度无从判断。
+  pain_en: 'No concrete pain can be stated: no user complaint, workaround or adoption behaviour is public;
+    one can only infer that developers lack guidance on using models, so pain intensity cannot be judged.'
+  current_alternative: 未说明；官方文档、博客或社区问答是常见做法，但材料未提及，属推断。
+  current_alternative_en: Unstated; official docs, blog posts or community Q&A are plausible alternatives,
+    but the material does not mention them and this is inference.
+  usage_reason: 无法给出因果解释：材料没有说明它相较现有文档减少哪一步负担或改善哪项可核对结果，因此缺少用户选择它的理由。
+  usage_reason_en: 'No causal explanation is possible: the material does not say which step it removes
+    versus existing documentation or which checkable result it improves, so the reason a user would choose
+    it is missing.'

@@ -207,3 +207,47 @@
   usage_reason_en: 'No usage rationale can be inferred from the available evidence: the evidence chain
     contains no product description, user feedback or customer case, only word definitions, so no adoption
     causality can be established.'
+- id: req-initial-owlywriter-ai-by-hootsuite-2026-10-16
+  project_slug: owlywriter-ai-by-hootsuite
+  level: initial
+  reviewed_at: '2026-10-15T00:32:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多平台活动文案逐条改写与标签不一致的问题，旧做法是手写或外部生成后复制，痛点具体且不做的后果是排期受阻。
+    evidence_ids:
+    - ev-4c4e352782edfde9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有更名与平台页面归属，未见运营者评价或客户案例说明它已进入日常排期流程。
+    evidence_ids:
+    - ev-6005e59817da93af
+  - gate: model
+    status: insufficient
+    reason: 未读到 Wisdom 的独立定价页或席位/产出计费说明，买方与付费路径只能推断为 Hootsuite 订阅内的功能。
+    evidence_ids:
+    - ev-fbbc12e220ef4e87
+  - gate: truth
+    status: insufficient
+    reason: 无法核验生成内容是否需人工逐条确认、是否贴近各平台真实发布要求，交付确定性缺少公开材料。
+    evidence_ids:
+    - ev-50e03b6faa5fe344
+  next_validation: 收集 Hootsuite 官方 Wisdom 产品页或帮助文档，确认其输入、生成范围、人工确认环节与是否单独计价。
+  market: ''
+  job: 社媒运营或代运营人员在准备一次活动排期时，处理品牌调性、活动主题和各平台格式要求，要产出可直接排期的多平台帖子文案与话题标签。
+  job_en: A social media operator or agency staffer preparing a campaign schedule handles brand tone,
+    campaign themes and per-platform format rules to produce ready-to-schedule post copy and hashtags
+    across platforms.
+  pain: 同一活动要为多个平台改写语气、长度和标签，手工逐条写既慢又容易前后不一致；不做的后果是排期被文案卡住或内容质量参差。
+  pain_en: One campaign must be rewritten for tone, length and hashtags on each platform; writing each
+    by hand is slow and inconsistent, and skipping it stalls the schedule or yields uneven content.
+  current_alternative: 运营在文档或表格里手写文案，或另开通用聊天工具生成后再复制回排期后台，标签和格式仍需人工逐条调整。
+  current_alternative_en: Operators write copy by hand in docs or spreadsheets, or generate it in a general
+    chat tool and paste it back into the scheduler, still adjusting tags and formats manually.
+  usage_reason: 推断：相较在外部工具生成再复制回后台，Wisdom 在排期界面内直接接收活动主题并产出文案与标签，省掉跨工具搬运和格式重排这一步，因此已在用 Hootsuite 排期的运营在赶活动档期时会优先用它。
+  usage_reason_en: 'Inference: versus generating externally and pasting back, Wisdom takes the campaign
+    theme inside the scheduling interface and returns copy and hashtags, removing the cross-tool copy
+    and reformat step, so operators already scheduling in Hootsuite would reach for it under campaign
+    deadlines.'

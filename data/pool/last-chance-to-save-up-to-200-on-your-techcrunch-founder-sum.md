@@ -24,7 +24,7 @@ summary: Savings of up to $200 end October 16 for TechCrunch Founder Summit. The
   SoWa Power Station. Bring your toughest questions and make the day count for your business.
 first_seen: '2026-10-16T00:25:40Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

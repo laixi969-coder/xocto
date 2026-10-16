@@ -219,3 +219,53 @@
   usage_reason_en: 'Inference: it moves the layout step from the user into the model''s output, so the
     user receives a finished single page and skips copying and formatting, which is why people who often
     send complex conclusions to non-technical colleagues would try it first.'
+- id: req-full-answer-me-with-html-2-2026-10-16
+  project_slug: answer-me-with-html-2
+  level: full
+  reviewed_at: '2026-10-16T01:19:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复杂结论难以转成可读交付物的问题，痛点是排版这一步反复手工发生，不解决就只能转发难读的长对话；这是基于产品说明与旧流程的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-13314c994be89e30
+    - ev-9b3b1c7a0d541807
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 2,523 升至 3,450，说明开发者关注度存在，但没有公开评价、issue 或案例表明非开发者已把它放进日常工作流，关注度不等于持续采用。
+    evidence_ids:
+    - ev-13314c994be89e30
+    - ev-9b3b1c7a0d541807
+  - gate: model
+    status: insufficient
+    reason: 开源技能本身没有公开定价或付费路径，是否有人为版式模板、托管或企业集成付费尚不可知；这是判断而非已验证事实，买方可能是个人开发者或团队工具预算。
+    evidence_ids:
+    - ev-13314c994be89e30
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输出是否稳定、版式是否可控、人工确认环节如何安排，交付确定性缺少可核验依据，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-13314c994be89e30
+    - ev-9b3b1c7a0d541807
+  next_validation: 追踪该仓库的 issue 与 discussion，确认用户实际用它产出哪类页面、是否出现版式失控或需人工返工的反馈。
+  market: ''
+  job: 分析师、顾问或研究者在需要向同事或客户解释一个复杂问题时，把零散资料交给 AI，要求直接产出一页可打开、可分享的 HTML 说明页，而不是一段聊天文本。
+  job_en: Analysts, consultants or researchers explaining a complex question to colleagues or clients
+    hand scattered material to an AI and ask it to produce a single openable, shareable HTML explainer
+    page instead of a chat transcript.
+  pain: 公开材料只说明它是把复杂问题变成一页可读 HTML 的 agent skill；从工作流看，旧流程里聊天输出要经过复制、排版、截图才能变成能发出去的文档，这一步纯手工且反复发生，不解决就只能转发难以阅读的长对话。
+  pain_en: Public material only states it is an agent skill that turns hard questions into a readable
+    one-page HTML; structurally, the old flow requires copying, laying out and screenshotting chat output
+    before it can be sent, a manual step that repeats, and without it users can only forward an unreadable
+    long transcript.
+  current_alternative: 当前替代方式是把聊天输出粘进 Word、Notion 或 PPT 再手动排版，或直接转发一段对话记录。
+  current_alternative_en: The current alternative is pasting chat output into Word, Notion or slides and
+    formatting by hand, or forwarding a raw transcript.
+  usage_reason: 推断：相较手动排版，它把版式生成放进模型输出环节，用户拿到的是已成形的单页文件，省掉复制与排版这一步，因此经常需要把复杂结论发给非技术同事的人会在这种场景下选择它；仓库星标从
+    2,523 增至 3,450 只说明开发者关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manual formatting, it moves layout generation into the model''s
+    output so the user receives a finished single page and skips the copy-and-format step, which is why
+    people who often send complex conclusions to non-technical colleagues would choose it; stars rising
+    from 2,523 to 3,450 only show developer attention, not sustained use.'

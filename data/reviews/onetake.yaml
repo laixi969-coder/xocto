@@ -179,3 +179,43 @@
     one continuous generation pass and measures continuity with an oracle, removing the shot-by-shot alignment
     and rework step, so teams facing a release deadline and needing one coherent demo film would choose
     it in that situation; no retention or repeat-use evidence yet.'
+- id: req-full-onetake-2026-10-16
+  project_slug: onetake
+  level: full
+  reviewed_at: '2026-10-16T01:23:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决发布片分镜拼接与镜头跳切问题，但现有证据全部指向同名 CS2 服务器与 OneTake AI 视频编辑，无一条可归因到该产品，需求与痛点无法从公开事实还原。
+    evidence_ids:
+    - ev-b69fe95c13609313
+    - ev-4bad0349cb313fad
+    - ev-036dc889f9068502
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 onetake 官方产品页与仓库 README，确认其真实产品定位、输入输出与是否存在可归因的客户案例或定价页。
+  market: ''
+  job: 产品市场或增长团队在准备产品发布片与功能演示时，把脚本与素材交给它，用编码代理生成一条不切镜、镜头连续推进的运动影片。
+  job_en: Product marketing or growth teams preparing launch films and feature demos hand over scripts
+    and assets to generate a single continuous, uncut motion film via a coding agent.
+  pain: 公开材料未提供任何可归因到该产品的用户痛点、抱怨或旧流程描述，无法确认分镜拼接与镜头跳切是否构成真实痛点。
+  pain_en: Public material provides no product-attributable user pain, complaint, or legacy-workflow description,
+    so it cannot be confirmed that storyboard stitching and jump cuts constitute a real pain point.
+  current_alternative: 材料未说明当前替代方式；同名证据指向 CS2 服务器与 OneTake AI 视频编辑，均非该产品。
+  current_alternative_en: The material does not describe any current alternative; same-name evidence points
+    to CS2 servers and OneTake AI video editing, neither of which is this product.
+  usage_reason: 无法判断用户为何选择它：现有证据全部指向同名但不同的产品，缺少该产品自身的功能、交付或采用事实。
+  usage_reason_en: 'Cannot determine why users would choose it: all existing evidence points to same-name
+    but different products, lacking any fact about this product''s own capability, delivery, or adoption.'

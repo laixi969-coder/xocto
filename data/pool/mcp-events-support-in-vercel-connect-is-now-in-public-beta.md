@@ -1,6 +1,6 @@
 ---
 slug: mcp-events-support-in-vercel-connect-is-now-in-public-beta
-name: MCP Events support in Vercel Connect is now in public beta
+name: Vercel Connect
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/mcp-events-support-in-vercel-connect
 summary: ''
 first_seen: '2026-10-16T00:25:39Z'
 last_seen: '2026-10-16T00:25:39Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# MCP Events support in Vercel Connect is now in public beta
+# Vercel Connect
 
 _（源没给简介）_
 

@@ -21,7 +21,7 @@ canonical_url: https://github.com/TasnadiAttila/onlyfans-ai-creator-video-downlo
 summary: 'Creator media management suite: batch downloading, scheduled uploads, AI asset generation'
 first_seen: '2026-10-16T00:25:17Z'
 last_seen: '2026-10-16T00:25:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -1,0 +1,81 @@
+- id: req-initial-cmdround-2026-10-16
+  project_slug: cmdround
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决工程团队 AI 使用不可见的问题，但候选材料未说明具体痛点与不采用的后果，价值结构无法判定。
+    evidence_ids:
+    - ev-fd62b6795df31304
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、客户案例或采用数据说明谁真的需要这项评估。
+    evidence_ids:
+    - ev-fd62b6795df31304
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露定价、买方或付费路径，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-fd62b6795df31304
+  - gate: truth
+    status: insufficient
+    reason: 无法确认评估结果是否可核对、是否贴近该工作的第一性目标，交付确定性未知。
+    evidence_ids:
+    - ev-fd62b6795df31304
+  next_validation: 收集该产品官方页面或部署文档，确认它评估工程团队 AI 使用所依据的数据来源与交付形式。
+  market: ''
+  job: 研发负责人或工程管理者需要了解团队如何用 AI 写代码，在向上汇报或做工具采购决策时评估工程团队的 AI 使用情况。
+  job_en: Engineering leads or managers need to understand how their team uses AI to write code and assess
+    that usage when reporting upward or making tooling decisions.
+  pain: 候选材料未说明评估 AI 使用这一动作当前带来什么具体痛苦，也未说明不评估会失去什么。
+  pain_en: The candidate material does not say what specific pain assessing AI usage causes today, nor
+    what is lost by not assessing it.
+  current_alternative: 现有做法是靠代码评审、提交记录或口头汇报粗略判断团队的 AI 使用情况。
+  current_alternative_en: The current approach is to judge a team's AI usage roughly from code review,
+    commit history or verbal reports.
+  usage_reason: 推断：如果它能自动汇总工程师的 AI 使用并给出可汇报的评估结果，需要向管理层交代 AI 投入的研发负责人可能会选择它；但候选材料未给出任何功能细节、用户反馈或采用证据。
+  usage_reason_en: 'Inference: if it automatically aggregates engineers'' AI usage into a reportable assessment,
+    engineering leads who must justify AI spend may choose it; however the candidate material gives no
+    feature detail, user feedback or adoption evidence.'
+- id: req-full-cmdround-2026-10-16
+  project_slug: cmdround
+  level: full
+  reviewed_at: '2026-10-16T01:20:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决工程团队 AI 使用不可见的问题，但候选材料未说明具体痛点与不采用的后果，价值结构无法判定。
+    evidence_ids:
+    - ev-fd62b6795df31304
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官方页面或部署文档，确认它评估工程团队 AI 使用所依据的数据来源与交付形式。
+  market: ''
+  job: 研发负责人或工程管理者需要了解团队如何用 AI 写代码，在向上汇报或做工具采购决策时评估工程团队的 AI 使用情况。
+  job_en: Engineering leads or managers need to understand how their team uses AI to write code and assess
+    that usage when reporting upward or making tooling decisions.
+  pain: 候选材料未说明评估 AI 使用这一动作当前带来什么具体痛苦，也未说明不评估会失去什么。
+  pain_en: The candidate material does not say what specific pain assessing AI usage causes today, nor
+    what is lost by not assessing it.
+  current_alternative: 现有做法是靠代码评审、提交记录或口头汇报粗略判断团队的 AI 使用情况。
+  current_alternative_en: The current approach is to judge a team's AI usage roughly from code review,
+    commit history or verbal reports.
+  usage_reason: 推断：如果它能自动汇总工程师的 AI 使用并给出可汇报的评估结果，需要向管理层交代 AI 投入的研发负责人可能会选择它；但候选材料未给出任何功能细节、用户反馈或采用证据。
+  usage_reason_en: 'Inference: if it automatically aggregates engineers'' AI usage into a reportable assessment,
+    engineering leads who must justify AI spend may choose it; however the candidate material gives no
+    feature detail, user feedback or adoption evidence.'

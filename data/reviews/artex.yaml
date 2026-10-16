@@ -254,3 +254,52 @@
   usage_reason_en: 'Cannot be determined: the available evidence is unrelated to this project, with no
     product documentation, customer cases, or user feedback to explain which users would choose it and
     when.'
+- id: req-full-artex-2026-10-16
+  project_slug: artex
+  level: full
+  reviewed_at: '2026-10-16T01:19:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权渗透测试中探测与攻击链尝试依赖资深工程师手工执行、重复步骤耗时的问题，痛点刚性来自授权测试必须交付结果；公开事实仅有仓库定位与百度“agent+”攻防挑战赛冠军，输入格式、人工复核边界与交付物形态未披露，价值判断属工作流结构推理。
+    evidence_ids:
+    - ev-185f5ee39ddc005b
+    - ev-b4a5fc45468a1f5e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅给出“AI 自主渗透测试系统”与赛事冠军的定位描述，未见收藏、复刻、下载或讨论数据，无法判断安全从业者是否已把它纳入实际测试流程；赛事获奖只说明评审关注，不等于持续采用。
+    evidence_ids:
+    - ev-185f5ee39ddc005b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或采购路径，无法判断钱来自 to B 安全服务商、to G 采购还是 to VC；这是模式缺口而非需求不存在，需后续公开定价或采购记录核验。
+    evidence_ids:
+    - ev-56e21ed91a7e117c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理在授权边界内如何停止、人工复核在何处介入、误报与漏报如何处置，交付能否确定性发生缺乏可复现证据；渗透测试涉及授权与安全边界，这一环缺失影响承诺可信度。
+    evidence_ids:
+    - ev-b4a5fc45468a1f5e
+  next_validation: 追踪 https://公开代码仓库.com/mhtsec/ARTEX 的 README、部署文档与 issue/discussion，确认授权范围输入格式、人工复核边界与交付物形态是否公开。
+  market: ''
+  job: 渗透测试工程师或安全服务交付人员在获得客户书面授权的渗透测试项目中，把目标资产清单与授权范围交给这套 AI 自主渗透测试系统，由代理自动执行信息收集、漏洞探测与攻击链尝试，最终产出可交付的测试结果。
+  job_en: A penetration tester or security service delivery specialist, working on a client-authorized
+    penetration test, hands the target asset list and scope of authorization to this autonomous AI pentest
+    system, which runs reconnaissance, vulnerability probing and attack-chain attempts to produce a deliverable
+    test result.
+  pain: 授权渗透测试高度依赖资深工程师手工执行，重复的探测与验证步骤耗时，人力排期紧张时交付周期被拉长；公开材料只给出产品定位与赛事冠军事实，未披露具体耗时、漏报率或人力成本数据，因此痛点强度属工作流结构推理。
+  pain_en: Authorized pentests depend heavily on senior engineers doing manual reconnaissance and verification;
+    repetitive probing is time-consuming and delivery slips when staffing is tight. Public materials only
+    state the product positioning and the contest win, with no disclosed time, miss-rate or labor-cost
+    figures, so pain intensity is a workflow-structure inference.
+  current_alternative: 当前替代方式是资深渗透测试工程师手工使用扫描器、漏洞利用框架与自研脚本逐项探测，再人工整理报告；公开材料未说明本产品实际替代了哪一步或哪套工具链。
+  current_alternative_en: The current alternative is senior testers manually running scanners, exploitation
+    frameworks and in-house scripts step by step, then writing the report by hand; public materials do
+    not state which step or toolchain this product actually replaces.
+  usage_reason: 推断：相较人工逐项探测，该系统把信息收集、漏洞探测与攻击链尝试串成由 AI 代理自动执行的流程，减少工程师在重复探测步骤上的手工操作，因此排期紧张、需要快速完成授权测试的安全服务团队会在有明确授权范围的项目中选择它；公开材料尚无用户反馈或客户案例证实这一动机。
+  usage_reason_en: 'Inference: versus manual step-by-step probing, the system chains reconnaissance, vulnerability
+    probing and attack-chain attempts into an AI-agent-driven flow, cutting the engineer''s manual work
+    on repetitive probing steps, so security service teams under tight schedules would choose it for clearly
+    authorized engagements; no public user feedback or customer case yet confirms this motive.'

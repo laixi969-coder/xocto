@@ -1,11 +1,14 @@
 ---
 slug: ai-use-fuels-frustration-as-hong-kong-customer-service-compl
-name: AI use fuels frustration as Hong Kong customer service complaints top 2025 total
+name: Hong Kong customer service complaints
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年10月，香港客户服务投诉量超过2025年全年总量，报道将部分原因归于企业使用AI客服。这反映出AI客服在真实服务场景中的交付质量与用户接受度问题，可能影响企业对AI客服的采用节奏与合规要求。
 inspiration: ''
-summary_en: ''
+summary_en: In October 2026, Hong Kong customer service complaints surpassed the full-year 2025 total,
+  with the report attributing part of the rise to corporate use of AI in customer service. This points
+  to delivery-quality and user-acceptance issues for AI customer service in real deployments, potentially
+  affecting enterprise adoption pace and compliance expectations.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +25,7 @@ summary: AI use fuels frustration as Hong Kong customer service complaints top 2
   Morning Post
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# AI use fuels frustration as Hong Kong customer service complaints top 2025 total
+# Hong Kong customer service complaints
 
 AI use fuels frustration as Hong Kong customer service complaints top 2025 total South China Morning Post
 

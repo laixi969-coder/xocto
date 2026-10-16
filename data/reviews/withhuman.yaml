@@ -1,0 +1,84 @@
+- id: req-initial-withhuman-2026-10-16
+  project_slug: withhuman
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理自动执行错误动作难以回滚的需求，痛点在缺少统一审批与留痕，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-6148f9965374033d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，无用户评价、采用或讨论证据，是否被真实团队接入未知。
+    evidence_ids:
+    - ev-6148f9965374033d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径；买方是使用代理的团队还是平台方属判断，非已验证事实。
+    evidence_ids:
+    - ev-6148f9965374033d
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明审批如何与具体代理框架对接、是否可审计、人工边界如何设定，交付确定性待核验。
+    evidence_ids:
+    - ev-6148f9965374033d
+  next_validation: 收集该项目的官方仓库或文档，确认它支持哪些代理框架、审批记录是否可审计，以及是否有团队公开接入案例。
+  market: ''
+  job: 开发者在让 AI 代理执行写操作或调用外部系统时，需要在关键动作前插入人工确认，最终让流程可安全放行。
+  job_en: A developer letting an AI agent perform write actions or call external systems needs to insert
+    human confirmation before key actions so the flow can be safely released.
+  pain: 代理一旦自动执行错误动作，后果难以回滚；团队缺少统一的审批与留痕机制，只能靠口头约定或事后检查。
+  pain_en: Once an agent executes a wrong action, the consequences are hard to roll back; teams lack a
+    unified approval and audit mechanism and rely on verbal conventions or after-the-fact checks.
+  current_alternative: 在代码里手写确认逻辑、用人工复核脚本，或干脆不让代理碰写操作。
+  current_alternative_en: Hand-writing confirmation logic in code, using manual review scripts, or simply
+    not letting agents touch write actions.
+  usage_reason: 推断：相比每个项目自己写确认逻辑，它把审批抽成可复用的层，减少重复实现和漏审的负担，因此让代理接触生产系统的团队会选它。
+  usage_reason_en: 'Inference: versus writing confirmation logic per project, it abstracts approval into
+    a reusable layer, reducing duplicated implementation and missed reviews, so teams exposing agents
+    to production systems would pick it.'
+- id: req-full-withhuman-2026-10-16
+  project_slug: withhuman
+  level: full
+  reviewed_at: '2026-10-16T01:25:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理自动执行错误动作难以回滚的需求，痛点在缺少统一审批与留痕，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-6148f9965374033d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，无用户评价、采用或讨论证据，是否被真实团队接入未知。
+    evidence_ids:
+    - ev-6148f9965374033d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径；买方是使用代理的团队还是平台方属判断，非已验证事实。
+    evidence_ids:
+    - ev-6148f9965374033d
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明审批如何与具体代理框架对接、是否可审计、人工边界如何设定，交付确定性待核验。
+    evidence_ids:
+    - ev-6148f9965374033d
+  next_validation: 收集该项目的官方仓库或文档，确认它支持哪些代理框架、审批记录是否可审计，以及是否有团队公开接入案例。
+  market: ''
+  job: 开发者在让 AI 代理执行写操作或调用外部系统时，需要在关键动作前插入人工确认，最终让流程可安全放行。
+  job_en: A developer letting an AI agent perform write actions or call external systems needs to insert
+    human confirmation before key actions so the flow can be safely released.
+  pain: 代理一旦自动执行错误动作，后果难以回滚；团队缺少统一的审批与留痕机制，只能靠口头约定或事后检查。
+  pain_en: Once an agent executes a wrong action, the consequences are hard to roll back; teams lack a
+    unified approval and audit mechanism and rely on verbal conventions or after-the-fact checks.
+  current_alternative: 在代码里手写确认逻辑、用人工复核脚本，或干脆不让代理碰写操作。
+  current_alternative_en: Hand-writing confirmation logic in code, using manual review scripts, or simply
+    not letting agents touch write actions.
+  usage_reason: 推断：相比每个项目自己写确认逻辑，它把审批抽成可复用的层，减少重复实现和漏审的负担，因此让代理接触生产系统的团队会选它。
+  usage_reason_en: 'Inference: versus writing confirmation logic per project, it abstracts approval into
+    a reusable layer, reducing duplicated implementation and missed reviews, so teams exposing agents
+    to production systems would pick it.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiakFVX3lxTE4yel9wa09PcGdj
 summary: 国内智驾芯片龙头杀进AI服务器赛道！ TradingView
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

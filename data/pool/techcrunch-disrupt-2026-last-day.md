@@ -22,7 +22,7 @@ summary: Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leade
   and insights. Save 75% on your pass now.
 first_seen: '2026-10-16T00:25:40Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNeVFZdm1oeGJ1
 summary: 开源AI平台困境分析 - 积墨AI 积墨 AI
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

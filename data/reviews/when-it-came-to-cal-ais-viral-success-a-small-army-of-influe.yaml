@@ -1,0 +1,89 @@
+- id: req-initial-when-it-came-to-cal-ais-viral-success-a-small-army-of-influe-2026-10-16
+  project_slug: when-it-came-to-cal-ais-viral-success-a-small-army-of-influe
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是饮食记录太麻烦导致计划中断的问题，痛点刚性、旧替代行为明确，拍照确认即可交付可核对记录。
+    evidence_ids:
+    - ev-f5d52a15a7350b24
+  - gate: consensus
+    status: supported
+    reason: 两年超 3000 万美元收入与收购说明已有真实付费规模，但报道把增长归因于达人投放，采用是否可持续未披露。
+    evidence_ids:
+    - ev-f5d52a15a7350b24
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页与订阅结构，收入来自 C 端订阅还是其他方式属推断，付费路径细节待核验。
+    evidence_ids:
+    - ev-f5d52a15a7350b24
+  - gate: truth
+    status: insufficient
+    reason: 识别误差与份量估算偏差会直接影响记录可信度，公开材料未说明人工复核或纠错机制。
+    evidence_ids:
+    - ev-f5d52a15a7350b24
+  next_validation: 收集 Cal AI 官方定价页或 MyFitnessPal 收购后的产品页，核验订阅价格、计费方式与是否保留独立品牌。
+  market: ''
+  job: 减重或控糖的人在每餐前后需要把吃进去的食物转成可核对的热量与营养记录，用于当天调整下一餐。
+  job_en: People losing weight or managing blood sugar need each meal turned into a checkable calorie
+    and nutrient record they can act on for the next meal.
+  pain: 手工查食物库、称重、换算份量繁琐，坚持几天就放弃，记录断掉后整个饮食计划失效。
+  pain_en: Manually searching food databases, weighing and converting portions is tedious, so logging
+    stops within days and the whole diet plan collapses.
+  current_alternative: MyFitnessPal 等食物库应用逐项搜索录入，或干脆不记录、凭感觉吃。
+  current_alternative_en: Item-by-item entry in food-database apps such as MyFitnessPal, or not logging
+    at all and eating by feel.
+  usage_reason: 推断：拍照识别把「查库—称重—换算」三步合并成一次确认，用户不必先学会食物库分类就能留下记录，因此怕麻烦又想看到数字的减重人群会在每餐时选择它；公开材料未披露留存或复购数据。
+  usage_reason_en: 'Inference: photo recognition merges database search, weighing and conversion into
+    one confirmation, so users need not learn a food taxonomy to keep a log; hassle-averse dieters who
+    still want numbers would pick it at each meal. Public materials disclose no retention or repeat-purchase
+    data.'
+- id: req-full-when-it-came-to-cal-ais-viral-success-a-small-army-of-influe-2026-10-16
+  project_slug: when-it-came-to-cal-ais-viral-success-a-small-army-of-influe
+  level: full
+  reviewed_at: '2026-10-16T01:25:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决饮食记录太麻烦导致计划中断的问题，痛点刚性、旧替代行为明确，拍照确认即可交付可核对记录；但现有证据链未包含该产品自身的用户反馈或案例，价值判断主要依赖工作流结构推理。
+    evidence_ids:
+    - ev-4703d9e77b6be358
+    - ev-76fc823326d192cc
+  - gate: consensus
+    status: insufficient
+    reason: 候选摘要称两年超 3000 万美元收入并被收购，但当前证据集内没有可引用的产品级收入、付费或持续采用材料，公开关注度不能替代采用证据。
+    evidence_ids:
+    - ev-4703d9e77b6be358
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页与订阅结构，收入来自 C 端订阅还是其他方式属推断，付费路径细节待核验；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-76fc823326d192cc
+  - gate: truth
+    status: insufficient
+    reason: 识别误差与份量估算偏差会直接影响记录可信度，公开材料未说明人工复核或纠错机制，承诺能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-4703d9e77b6be358
+  next_validation: 收集 Cal AI 官方定价页或 MyFitnessPal 收购后的产品页，核验订阅价格、计费方式与是否保留独立品牌。
+  market: ''
+  job: 减重或控糖的人在每餐前后打开应用，对着餐盘拍照或输入食物，把这一餐转成可核对的热量与营养记录，用于当天调整下一餐。
+  job_en: People losing weight or managing blood sugar open the app around meals, photograph the plate
+    or type the food, and turn that meal into a checkable calorie and nutrient record they can act on
+    for the next meal.
+  pain: 手工查食物库、称重、换算份量繁琐，坚持几天就放弃，记录断掉后整个饮食计划失效；公开材料未提供用户抱怨或留存数据，此痛点为工作流结构推理。
+  pain_en: Manually searching food databases, weighing and converting portions is tedious, so logging
+    stops within days and the diet plan collapses; public materials provide no user complaints or retention
+    data, so this pain is a workflow inference.
+  current_alternative: MyFitnessPal 等食物库应用逐项搜索录入，或干脆不记录、凭感觉吃。
+  current_alternative_en: Item-by-item entry in food-database apps such as MyFitnessPal, or not logging
+    at all and eating by feel.
+  usage_reason: 推断：拍照识别把「查库—称重—换算」三步合并成一次确认，用户不必先学会食物库分类就能留下记录，因此怕麻烦又想看到数字的减重人群会在每餐时选择它；公开材料未披露留存或复购数据。
+  usage_reason_en: 'Inference: photo recognition merges database search, weighing and conversion into
+    one confirmation, so users need not learn a food taxonomy to keep a log; hassle-averse dieters who
+    still want numbers would pick it at each meal. Public materials disclose no retention or repeat-purchase
+    data.'

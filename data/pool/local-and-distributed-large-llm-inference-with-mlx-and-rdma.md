@@ -1,11 +1,14 @@
 ---
 slug: local-and-distributed-large-llm-inference-with-mlx-and-rdma
-name: Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio
+name: MLX
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Apple 于 2026 年 10 月发布研究，展示在 Mac Studio 上通过 MLX 与 RDMA 进行本地及分布式大模型推理。这意味着开发者可在 Apple 硬件上以本地或分布式方式运行大模型，可能降低对云端推理的依赖并影响推理成本结构（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: Apple published research in October 2026 demonstrating local and distributed large LLM inference
+  with MLX and RDMA on Mac Studio. This means developers can run large models locally or distributed on
+  Apple hardware, potentially reducing reliance on cloud inference and affecting inference cost structures
+  (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://machinelearning.apple.com/research/mlx-distributed-infere
 summary: ''
 first_seen: '2026-10-16T00:25:39Z'
 last_seen: '2026-10-16T00:25:39Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio
+# MLX
 
 _（源没给简介）_
 

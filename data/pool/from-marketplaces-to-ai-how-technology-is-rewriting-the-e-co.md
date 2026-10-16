@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiugFBVV95cUxQUGxIT2Zxa1Z4
 summary: 'From Marketplaces to AI: How Technology Is Rewriting the E-commerce Growth Playbook CXOToday.com'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -31,7 +31,7 @@ summary: In every conversation I have with enterprise leaders, they say the same
   for the decisions that need it. As agents take on higher stakes
 first_seen: '2026-10-16T00:25:39Z'
 last_seen: '2026-10-16T00:25:39Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

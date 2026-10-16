@@ -21,7 +21,7 @@ canonical_url: https://bls.gov/news.release/cpi.nr0.htm
 summary: CPI-U rises 7.2% annualized in September (3.7% YoY)
 first_seen: '2026-10-15T00:32:05Z'
 last_seen: '2026-10-16T00:25:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

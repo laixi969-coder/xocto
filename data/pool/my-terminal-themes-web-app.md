@@ -22,7 +22,7 @@ summary: Well, after 15 years of saying &quot;Someday I&#x27;ll turn this into a
   did it! I&#x27;ve been maintaining a popular repo of terminal themes at https:&#x2F;&#x2F;github.com&#x2F;mbadolato&#x2F;iT…
 first_seen: '2026-10-16T00:25:14Z'
 last_seen: '2026-10-16T00:25:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

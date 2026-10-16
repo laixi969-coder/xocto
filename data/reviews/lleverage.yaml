@@ -1,0 +1,83 @@
+- id: req-initial-lleverage-2026-10-16
+  project_slug: lleverage
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决实体经营者后台事务，但公开材料只有一句定位，说不出具体痛点与旧流程，价值关证据不足。
+    evidence_ids:
+    - ev-0a2e7161e8a0882f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且没有任何用户采用、评价或场景共识材料。
+    evidence_ids:
+    - ev-0a2e7161e8a0882f
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关证据不足，买方、定价与付费路径均未披露。
+    evidence_ids:
+    - ev-0a2e7161e8a0882f
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关证据不足，无法判断交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-0a2e7161e8a0882f
+  next_validation: 收集 Lleverage 官方产品页或文档，确认它接入哪些系统、AI 接收什么输入、产出什么交付物。
+  market: ''
+  job: 实体门店或小型仓储经营者，在每天处理订单、库存变动与对账时，需要把这些后台事务从手工表格和多个系统里整理出来并完成核对。
+  job_en: Owners of physical stores or small warehouses, while handling daily orders, inventory changes
+    and reconciliation, need to pull these back-office chores out of spreadsheets and multiple systems
+    and get them checked.
+  pain: 公开材料只给出“实体经济自主后台”一句定位，没有说明具体痛点、原来由谁手工做哪一步，无法确认痛点是刚性还是可有可无。
+  pain_en: Public material gives only the one-line positioning of an autonomous back office for the physical
+    economy, without naming the specific pain or which manual step it replaces, so whether the pain is
+    rigid cannot be confirmed.
+  current_alternative: 公开材料未披露现有替代方式，按常识推断可能是表格、记账软件或人工助理，但这是推断，不是已核验事实。
+  current_alternative_en: The current alternative is not disclosed; by inference it may be spreadsheets,
+    accounting software or a human assistant, but this is inference, not verified fact.
+  usage_reason: 无法判断用户为何会选择它：材料没有说明它通过什么具体动作减少哪一步负担，也没有任何采用或付费证据。
+  usage_reason_en: 'Cannot judge why a user would choose it: the material does not say which concrete
+    step it removes, and there is no adoption or payment evidence.'
+- id: req-full-lleverage-2026-10-16
+  project_slug: lleverage
+  level: full
+  reviewed_at: '2026-10-16T01:21:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决实体经营者后台事务，但公开材料只有一句定位，说不出具体痛点与旧流程，价值关证据不足。
+    evidence_ids:
+    - ev-0a2e7161e8a0882f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Lleverage 官方产品页或文档，确认它接入哪些系统、AI 接收什么输入、产出什么交付物。
+  market: ''
+  job: 实体门店或小型仓储经营者，在每天处理订单、库存变动与对账时，需要把这些后台事务从手工表格和多个系统里整理出来并完成核对。
+  job_en: Owners of physical stores or small warehouses, while handling daily orders, inventory changes
+    and reconciliation, need to pull these back-office chores out of spreadsheets and multiple systems
+    and get them checked.
+  pain: 公开材料只有“实体经济自主后台”一句定位，没有说明具体痛点、原来由谁手工做哪一步，无法确认痛点是刚性还是可有可无。
+  pain_en: Public material gives only the one-line positioning of an autonomous back office for the physical
+    economy, without naming the specific pain or which manual step it replaces, so whether the pain is
+    rigid cannot be confirmed.
+  current_alternative: 公开材料未披露现有替代方式，按常识推断可能是表格、记账软件或人工助理，但这是推断，不是已核验事实。
+  current_alternative_en: The current alternative is not disclosed; by inference it may be spreadsheets,
+    accounting software or a human assistant, but this is inference, not verified fact.
+  usage_reason: 无法判断用户为何会选择它：材料没有说明它通过什么具体动作减少哪一步负担，也没有任何采用或付费证据。
+  usage_reason_en: 'Cannot judge why a user would choose it: the material does not say which concrete
+    step it removes, and there is no adoption or payment evidence.'

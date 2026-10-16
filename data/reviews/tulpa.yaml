@@ -301,3 +301,44 @@
   usage_reason_en: 'Inference: if it truly turns local QQ/WeChat logs into a searchable, reminder-capable
     memory layer, it could remove manual scrolling and logging, so heavy follow-up users might try it;
     but there is no user feedback, adoption or retention evidence, so the choice motive cannot be confirmed.'
+- id: req-full-tulpa-2026-10-16
+  project_slug: tulpa
+  level: full
+  reviewed_at: '2026-10-16T01:24:42Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向同名超心理学概念 tulpa 的百科与社区介绍，未包含该产品任何功能说明、用户痛点或替代行为，无法还原用户任务与不解决的后果，价值结构无从成立。
+    evidence_ids:
+    - ev-39214a22ecb25a67
+    - ev-df42248b771c9170
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的官方仓库或发布页（README、issue、discussion），确认是否存在真实产品说明与用户使用报告，以替换当前全部指向同名超心理学概念的无关证据。
+  market: ''
+  job: 在 Windows 上同时使用 QQ 和微信跟进大量联系人的人（销售、招聘、社群运营），需要从历史聊天中找出谁待回复、哪条线索已冷，并把记录整理成可检索的工作区。
+  job_en: People on Windows who follow many contacts across QQ and WeChat (sales, recruiters, community
+    operators) need to find who is owed a reply and which lead went cold, and keep those records in a
+    searchable workspace.
+  pain: 公开证据中没有任何一条描述该产品的用户痛点、使用反馈或替代行为；现有证据全部是关于同名超心理学概念 tulpa 的百科与社区介绍，与聊天记录管理无关。
+  pain_en: No public evidence describes this product's user pain, feedback or workaround behavior; all
+    collected evidence concerns the parapsychological concept of tulpa, unrelated to chat-record management.
+  current_alternative: 公开材料未提供任何关于用户当前如何管理 QQ/微信跟进的信息，无法确认旧做法是手动翻找、表格登记还是其他方式。
+  current_alternative_en: Public material provides no information on how users currently manage QQ/WeChat
+    follow-ups, so the prior practice cannot be confirmed as manual scrolling, spreadsheets or otherwise.
+  usage_reason: 无法给出使用理由：现有证据未包含任何产品功能说明、用户评价或采用记录，无法说明它相较旧做法减少哪一步负担，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: the evidence contains no product description, user review
+    or adoption record, so it cannot be shown which step it removes versus the old practice or which users
+    would choose it.'

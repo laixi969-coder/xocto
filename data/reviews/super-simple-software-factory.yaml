@@ -745,3 +745,50 @@
     and calls agents only as bounded nodes, so step order and retries are guaranteed by code rather than
     prompts and developers need not re-align agent behaviour each run; developers who must fix an agent
     pipeline into an existing repo and want repeatable runs would choose it.'
+- id: req-full-super-simple-software-factory-2026-10-16
+  project_slug: super-simple-software-factory
+  level: full
+  reviewed_at: '2026-10-16T01:24:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理步骤顺序不可复现、流程无法在仓库中沉淀的痛点；确定性 Python 掌管编排、代理作为受约束节点，交付闭环可确定。这是基于产品说明与工作流结构的推理，尚无用户口述或采用数据佐证痛点强度。
+    evidence_ids:
+    - ev-96a9af4a617b99b0
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的只有仓库收藏数从 221 缓慢增至 233 的规模信号，属于关注度而非持续采用；没有 issue、discussion 或用户反馈说明谁在什么场景把它留在工作流里。
+    evidence_ids:
+    - ev-96a9af4a617b99b0
+    - ev-ba5dc781d5277cb2
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-7b01930e88227ea1
+  - gate: truth
+    status: insufficient
+    reason: 确定性 Python 编排加受约束代理节点在结构上贴近“可重复流程”这一第一性目标，但公开材料未给出可复现的部署文档或人工确认与安全边界说明，交付确定性仍待核验。
+    evidence_ids:
+    - ev-96a9af4a617b99b0
+  next_validation: 追踪该项目的官方仓库 README、issue 与 discussion，确认是否有开发者公开描述在真实仓库中部署该编排流程、替代了哪种旧做法。
+  market: ''
+  job: 开发者在已有代码仓库中，把编码代理的调用顺序固定成可重复流程：由确定性 Python 掌管编排图，编码代理作为受约束节点执行具体步骤，最终产出可重复运行的代理加代码工作流。
+  job_en: 'Developers working inside an existing repository fix the call order of coding agents into a
+    repeatable workflow: deterministic Python owns the orchestration graph, coding agents run as bounded
+    nodes, producing a rerunnable agent-plus-code workflow.'
+  pain: 编码代理每次运行结果不稳定、步骤顺序靠人临时指挥，同一任务难以在仓库里重复复现；不固定的后果是流程无法沉淀、无法交接、每次都要重新调教代理。
+  pain_en: Coding agents produce unstable results run to run and step order is improvised by hand, so
+    the same task cannot be reproduced inside the repository; the consequence is that the workflow cannot
+    be accumulated or handed over and the agent must be re-tuned each time.
+  current_alternative: 当前替代方式多为在 IDE 或终端里手工逐条提示代理、用脚本或 Makefile 串命令、或依赖代理自身的自主规划；这些做法缺少确定性编排层，顺序与边界仍由人或模型临场决定。
+  current_alternative_en: Today developers mostly prompt agents step by step in an IDE or terminal, chain
+    commands with scripts or Makefiles, or rely on the agent's own autonomous planning; these lack a deterministic
+    orchestration layer, so order and boundaries are still decided ad hoc by a human or the model.
+  usage_reason: 推断：相较手工逐条提示或让代理自主规划，它把编排逻辑从模型手里移到确定性 Python 图中，代理只在受约束节点内执行，从而减少“每次重排步骤、结果不可复现”这一步负担；因此需要在已有仓库中固化重复流程的开发者会在该场景选择它。
+  usage_reason_en: 'Inference: versus prompting step by step or letting the agent plan autonomously, it
+    moves orchestration out of the model into a deterministic Python graph where agents execute only inside
+    bounded nodes, removing the burden of re-sequencing steps and non-reproducible results; developers
+    who need a fixed repeatable workflow inside an existing repo would choose it in that situation.'

@@ -23,7 +23,7 @@ summary: NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manu
   Fabs NVIDIA Newsroom
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

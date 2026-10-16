@@ -1,0 +1,86 @@
+- id: req-initial-manulife-launches-ai-assistant-for-advisor-underwriting-quer-2026-10-16
+  project_slug: manulife-launches-ai-assistant-for-advisor-underwriting-quer
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决顾问核保查询等待久、无法即时答复的需求，痛点是逐条问人；由助手直接答复在结构上减少等待，属工作流推理。
+    evidence_ids:
+    - ev-1b0f5738cdc2b0ff
+  - gate: consensus
+    status: insufficient
+    reason: 仅见发布报道，没有顾问使用规模、满意度或持续使用证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-1b0f5738cdc2b0ff
+  - gate: model
+    status: insufficient
+    reason: 这是保险公司自建自用工具，买方即宏利自身，对外收费路径不存在；是否节省核保人力成本未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1b0f5738cdc2b0ff
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明助手依据哪些数据作答、错误答复如何拦截、是否需人工复核，交付确定性无法核对。
+    evidence_ids:
+    - ev-1b0f5738cdc2b0ff
+  next_validation: 收集宏利官方公告或顾问支持文档，确认该助手覆盖的核保问题范围、是否有人工复核环节及公开使用数据。
+  market: ''
+  job: 保险顾问在为客户推进保单、遇到核保规则或进度问题时，处理产品条款与个案信息，要尽快得到可用的核保答复以继续销售流程。
+  job_en: Insurance advisors advancing a client's policy, facing underwriting rule or status questions,
+    work with product terms and case information to get a usable underwriting answer quickly enough to
+    continue the sale.
+  pain: 核保问题需向核保或内勤逐条询问，等待时间长，顾问在客户面前无法即时答复。
+  pain_en: Underwriting questions must be asked one by one to underwriters or back office, causing long
+    waits and leaving advisors unable to answer in front of the client.
+  current_alternative: 打电话或发邮件给核保与内勤，或翻查条款手册与内部知识库。
+  current_alternative_en: Calling or emailing underwriters and back office, or searching policy manuals
+    and internal knowledge bases.
+  usage_reason: 推断：相较逐条询问人工，助手把核保规则与个案信息直接给出答复，减少的是“等内勤回话”这一步，因此顾问在客户现场或时效压力下会优先使用；公开材料未给出使用量或留存，不能认定已长期嵌入流程。
+  usage_reason_en: 'Inference: versus asking staff one by one, the assistant answers directly from underwriting
+    rules and case information, removing the ''wait for back office'' step, so advisors under time pressure
+    or in front of clients would use it first; no usage or retention data is public, so long-term embedding
+    cannot be claimed.'
+- id: req-full-manulife-launches-ai-assistant-for-advisor-underwriting-quer-2026-10-16
+  project_slug: manulife-launches-ai-assistant-for-advisor-underwriting-quer
+  level: full
+  reviewed_at: '2026-10-16T01:22:09Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有宏利官网登录页与AI通用介绍，未记录顾问核保查询的痛点、频率或现有替代行为，连需求与痛点都无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-bf02c620fee8ca4b
+    - ev-7661d8aa67d7cd8f
+    - ev-628273146b419c95
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪宏利官方新闻稿或顾问支持文档，确认该AI助手覆盖的核保问题范围、答复形式及是否设人工复核环节。
+  market: ''
+  job: 保险顾问在为客户推进保单、遇到核保规则或进度问题时，处理产品条款与个案信息，要尽快得到可用的核保答复以继续销售流程。
+  job_en: Insurance advisors advancing a client's policy, facing underwriting rule or status questions,
+    work with product terms and case information to get a usable underwriting answer quickly enough to
+    continue the sale.
+  pain: 公开材料未提供任何顾问抱怨、等待时长或核保查询积压的事实，痛点只能从岗位职责推测，无法确认其刚性。
+  pain_en: Public materials provide no advisor complaints, wait times, or underwriting query backlogs;
+    the pain can only be inferred from job duties and its rigidity cannot be confirmed.
+  current_alternative: 公开材料未记录顾问当前如何获取核保答复，打电话、发邮件或查手册均属推测，无证据支持。
+  current_alternative_en: Public materials do not record how advisors currently obtain underwriting answers;
+    calling, emailing, or checking manuals are all speculation without evidence.
+  usage_reason: 推断：若助手能直接给出核保规则与个案答复，可省去等待内勤回话这一步，但公开材料未说明其输入、答复形式与人工复核边界，无法判断顾问是否会实际采用。
+  usage_reason_en: 'Inference: if the assistant directly answers underwriting rules and case questions,
+    it could remove the wait for back-office replies, but public materials do not describe its inputs,
+    answer format, or human review boundary, so actual advisor adoption cannot be judged.'

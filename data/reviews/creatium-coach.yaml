@@ -1,0 +1,42 @@
+- id: req-initial-creatium-coach-2026-10-16
+  project_slug: creatium-coach
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决创作反馈不足的问题，但公开材料只有一句定位，说不清反馈依据什么标准、交付是否可核对，痛点刚性无法确认。
+    evidence_ids:
+    - ev-2f108f7dad2e747b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未过，且没有使用量或评价证据可判断共识。
+    evidence_ids:
+    - ev-2f108f7dad2e747b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未过，定价与付费方均未披露。
+    evidence_ids:
+    - ev-2f108f7dad2e747b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未过，反馈的准确性与人工确认边界无从核对。
+    evidence_ids:
+    - ev-2f108f7dad2e747b
+  next_validation: 收集该产品官方页面对输入素材类型、反馈形式与计费方式的说明，确认交付是否可核对。
+  market: ''
+  job: 多媒体创作者在作品完成度不高、需要外部意见时，把作品交给它，希望得到可执行的改进方向。
+  job_en: Multimedia creators whose work is not yet good enough hand it over hoping for actionable improvement
+    directions.
+  pain: 创作者常缺少及时、具体的反馈，只能靠同行零散意见或自己反复试错，改进方向不明确。
+  pain_en: Creators often lack timely, specific feedback, relying on scattered peer comments or repeated
+    trial and error, so the direction for improvement stays unclear.
+  current_alternative: 目前多靠同行互评、社群发帖求点评，或自己反复修改对比。
+  current_alternative_en: Today this is mostly peer review, posting in communities for comments, or repeated
+    self-revision and comparison.
+  usage_reason: 推断：相较零散的同行意见，它把点评集中到一次提交—反馈的流程里，减少找人求评这一步；但公开材料未说明反馈依据什么标准、是否可核对，因此是否会有人持续使用无法判断。
+  usage_reason_en: 'Inference: versus scattered peer comments, it concentrates critique into one submit-and-feedback
+    flow, removing the step of finding reviewers; but public material does not say what standard the feedback
+    follows or whether it is checkable, so sustained use cannot be judged.'

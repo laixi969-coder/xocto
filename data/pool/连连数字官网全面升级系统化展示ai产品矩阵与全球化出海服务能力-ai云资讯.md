@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PSV9tMHRVZWty
 summary: 连连数字官网全面升级系统化展示AI产品矩阵与全球化出海服务能力-AI云资讯 人工智能
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -88,3 +88,48 @@
   usage_reason_en: 'No usage reason can be given: all available evidence is dictionary or encyclopedia
     definitions of the novel, with no product description, finished-work sample, user feedback or adoption
     record to show which step is reduced or which verifiable result improves versus the old way.'
+- id: req-full-novel-to-comic-2026-10-16
+  project_slug: novel-to-comic
+  level: full
+  reviewed_at: '2026-10-16T01:22:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决小说改漫画的分镜与出图环节，但公开证据只有 novel 一词的词典与百科定义、Webnovel 读物列表页和一条检索式市场查询，没有任何产品说明、用户痛点陈述或现有替代行为，连要完成的任务与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-2e8525c14d16f0c6
+    - ev-2678e23a89d261e4
+    - ev-6324492a1d9fe54a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 novel_to_comic 仓库的 README 与示例输出目录，核对是否出现完整的分镜到成稿样例、画风一致性说明或用户提交的改编案例。
+  market: ''
+  job: 小说作者或漫画改编编辑在要把一部已完结的长篇文字小说改成漫画时，把小说文本交给工作流，由 AI 拆出分镜、生成画面并串成漫画页，最终拿到可继续修改的漫画稿。
+  job_en: A novelist or comic adaptation editor converting a finished long-form text novel into comics
+    feeds the text into the workflow, has AI split storyboards, generate panels and assemble comic pages,
+    ending with a revisable comic draft.
+  pain: 公开材料未提供任何关于小说改漫画流程痛点的用户陈述、抱怨或案例，无法确认人工分镜与逐格绘制的周期、成本或画风一致性问题是真实痛点。
+  pain_en: Public material contains no user statements, complaints or cases about the novel-to-comic workflow,
+    so it cannot confirm that manual storyboarding and panel-by-panel drawing cause real pain in cycle
+    time, cost or art-style consistency.
+  current_alternative: 公开材料未记录任何现有替代做法，既无人工编剧加外包画师的流程描述，也无通用图像工具逐张出图再拼接的可观察行为。
+  current_alternative_en: Public material records no existing alternative, neither a human-scriptwriter-plus-outsourced-artist
+    process nor observable use of general image tools to generate and stitch panels one by one.
+  usage_reason: 推断：若它能把分镜拆分与出图串成可重复执行的流程，可能省去逐格手工拼接，但公开证据只有词典与百科对 novel 一词的定义、Webnovel 的读物列表页和一条检索式市场查询，没有任何产品说明、用户反馈或成稿案例，无法说明哪类用户会因哪一步负担减轻而选择它。
+  usage_reason_en: 'Inference: if it chains storyboard splitting and image generation into a repeatable
+    flow it might remove manual panel-by-panel stitching, but public evidence is only dictionary and encyclopedia
+    definitions of the word novel, a Webnovel reading list page and a search-query market note, with no
+    product description, user feedback or finished-work case, so it cannot explain which users would choose
+    it for which reduced step.'

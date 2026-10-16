@@ -1,0 +1,81 @@
+- id: req-initial-superlocalmemory-2026-10-16
+  project_slug: superlocalmemory
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决跨会话记忆的保存与调用，但公开材料未说明具体痛点与不采用的后果，需求强度无法判断。
+    evidence_ids:
+    - ev-35f1b7fc3f656fb9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且缺少社区讨论或采用信号。
+    evidence_ids:
+    - ev-35f1b7fc3f656fb9
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，定价与买方均未披露。
+    evidence_ids:
+    - ev-35f1b7fc3f656fb9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，交付形态与安全边界无法核验。
+    evidence_ids:
+    - ev-35f1b7fc3f656fb9
+  next_validation: 收集该产品的官方说明或文档，确认记忆的输入、存储位置与调用方式。
+  market: ''
+  job: 开发者在构建需要跨会话记住用户上下文的智能体时，需要一处保存并调用这些记忆的组件。
+  job_en: Developers building agents that must remember user context across sessions need a component
+    to store and recall that memory.
+  pain: 公开材料只给出名称与关联模型，未说明记忆丢失或上下文断裂带来的具体后果，痛点无法还原。
+  pain_en: The public material gives only a name and associated models, without describing the concrete
+    cost of lost memory or broken context, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式，开发者可能自行拼接向量库或依赖模型自带上下文。
+  current_alternative_en: The public material does not describe existing alternatives; developers may
+    stitch together vector stores or rely on the model's own context window.
+  usage_reason: 推断：若它能把记忆保存在本地并跨会话调用，可能减少开发者自建存储与检索的那一步，但缺少功能细节与使用反馈，尚不能确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if it keeps memory local and recalls it across sessions, it may remove
+    the step of building storage and retrieval, but with no feature detail or usage feedback it is unclear
+    which users would choose it.'
+- id: req-full-superlocalmemory-2026-10-16
+  project_slug: superlocalmemory
+  level: full
+  reviewed_at: '2026-10-16T01:24:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决跨会话记忆的保存与调用，但公开材料未说明具体痛点与不采用的后果，需求强度无法判断。
+    evidence_ids:
+    - ev-35f1b7fc3f656fb9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 SuperLocalMemory 官方说明或仓库文档，确认记忆的输入、存储位置与调用方式。
+  market: ''
+  job: 开发者在构建需要跨会话记住用户上下文的智能体时，需要一处保存并调用这些记忆的组件。
+  job_en: Developers building agents that must remember user context across sessions need a component
+    to store and recall that memory.
+  pain: 公开材料只给出名称与关联模型，未说明记忆丢失或上下文断裂带来的具体后果，痛点无法还原。
+  pain_en: The public material gives only a name and associated models, without describing the concrete
+    cost of lost memory or broken context, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式，开发者可能自行拼接向量库或依赖模型自带上下文窗口。
+  current_alternative_en: The public material does not describe existing alternatives; developers may
+    stitch together vector stores or rely on the model's own context window.
+  usage_reason: 推断：若它能把记忆保存在本地并跨会话调用，可能减少开发者自建存储与检索那一步，但缺少功能细节与使用反馈，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if it keeps memory local and recalls it across sessions, it may remove
+    the step of building storage and retrieval, but with no feature detail or usage feedback it is unclear
+    which users would choose it.'

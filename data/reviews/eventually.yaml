@@ -24,3 +24,46 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+- id: req-initial-eventually-2026-10-16
+  project_slug: eventually
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是“收藏了却不看”的存量问题，痛点真实但强度偏弱，属于没有也行的一类，公开材料也未说明简报如何筛选。
+    evidence_ids:
+    - ev-e2413123412a71a9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、采用规模或社区讨论，无法判断是否有人真的把它放进日常阅读习惯。
+    evidence_ids:
+    - ev-e2413123412a71a9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，个人订阅还是团队采购不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e2413123412a71a9
+  - gate: truth
+    status: insufficient
+    reason: 依赖 X 书签接口与邮件送达，平台政策或接口变动会直接影响交付确定性，公开材料未说明应对方式。
+    evidence_ids:
+    - ev-e2413123412a71a9
+  next_validation: 收集 Eventually 官方定价页或产品页上的用户评价与使用数据，确认是否有人持续订阅并重复阅读。
+  market: ''
+  job: 经常在 X 上收藏帖子、但事后不再回看的个人用户，需要把散落的书签整理成一份能读完的定期简报。
+  job_en: Individual users who frequently bookmark posts on X but never revisit them need their scattered
+    bookmarks turned into a digestible periodic newsletter.
+  pain: 收藏动作成本极低，导致书签越积越多、几乎不再打开，收藏时的意图在事后完全丢失。
+  pain_en: Bookmarking is nearly costless, so bookmarks pile up and are rarely reopened, and the intent
+    behind each save is lost afterwards.
+  current_alternative: 用户目前靠 X 自带书签列表、浏览器书签、稍后读工具或手动复制到笔记软件来管理，多数情况下干脆不看。
+  current_alternative_en: Users currently rely on X's built-in bookmark list, browser bookmarks, read-later
+    tools or manual copying into note apps, and in most cases simply never revisit them.
+  usage_reason: 推断：相比自己翻书签列表，邮件简报把内容推到收件箱，省去了主动打开和筛选这一步，因此对已经习惯读邮件简报的人可能成立；但公开材料未说明筛选与摘要如何做，也没有留存或重复使用证据。
+  usage_reason_en: 'Inference: compared with scrolling a bookmark list, an emailed digest pushes content
+    into the inbox and removes the step of actively opening and filtering, which may work for people already
+    used to reading email digests; however, public material does not explain the filtering or summarization,
+    and there is no retention or repeat-use evidence.'

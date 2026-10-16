@@ -1,0 +1,87 @@
+- id: req-initial-graphicle-2026-10-16
+  project_slug: graphicle
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向代理理解代码库这一步，但材料未说明具体任务、旧做法与不采用的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-baa9585af923f7e0
+    - ev-23992673718a6a1b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有社区讨论热度，没有采用或复现证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-baa9585af923f7e0
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价、客户或付费路径信息，买方与收费方式未知。
+    evidence_ids:
+    - ev-baa9585af923f7e0
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验它是否贴近该工作的第一性目标，也无交付确定性与人工边界材料。
+    evidence_ids:
+    - ev-23992673718a6a1b
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认代码图与记忆的实际输入、输出及可复现效果。
+  market: ''
+  job: 开发者在让编码代理改动大型代码库时，需要先让代理掌握代码结构与历史，才能定位该改哪里。
+  job_en: Developers asking a coding agent to change a large codebase first need the agent to grasp code
+    structure and history so it can locate where to change.
+  pain: 材料只说明它是 Graphify 的 Rust 移植并带记忆，没有说明代理在大型代码库里具体失败在哪一步，痛点未被材料支持。
+  pain_en: The material only says it is a Rust port of Graphify with memory; it does not say which step
+    fails for agents in large codebases, so the pain is not supported by material.
+  current_alternative: 开发者目前多靠把相关文件手动喂给代理或依赖编辑器内置索引；这是从品类常识作出的推断，候选材料未提供。
+  current_alternative_en: Developers today mostly paste relevant files into the agent or rely on editor
+    built-in indexing; this is an inference from the category, not provided by the candidate material.
+  usage_reason: 若代码图与记忆确实能让代理少读无关文件、少走错目录，开发者就会在大型仓库里选它；但候选未给出任何可核对结果，该判断为推断。
+  usage_reason_en: If the code graph and memory really let an agent read fewer irrelevant files and take
+    fewer wrong turns, developers would pick it on large repositories; but the candidate gives no checkable
+    result, so this is an inference.
+- id: req-full-graphicle-2026-10-16
+  project_slug: graphicle
+  level: full
+  reviewed_at: '2026-10-16T01:21:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向代理理解代码库这一步，但材料未说明具体任务、旧做法与不采用的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-9f0d642f9ccfabfe
+    - ev-03039d2509244c32
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 公开代码仓库.com/graphicle-ai/graphicle 的 README 与 issue/discussion，确认代码图与记忆的实际输入、输出及可复现效果。
+  market: ''
+  job: 使用编码代理的开发者，在大型代码库中让代理定位改动位置时，需要把仓库结构、项目文档、历史决策与过往代理会话作为可引用的上下文交给代理，使其给出具体文件与行号。
+  job_en: Developers using coding agents on large repositories need to hand the agent repository structure,
+    project docs, past decisions and prior agent sessions as citable context so it can point to exact
+    files and lines.
+  pain: 公开材料只重复同一句产品描述（代码图、记忆、带引用的片段），没有说明代理在大型代码库中具体在哪一步失败、失败频率或代价，痛点未被材料支持。
+  pain_en: The public material only repeats one product description (code graph, memory, cited excerpts)
+    and never states which step fails for agents in large repositories, how often, or at what cost, so
+    the pain is unsupported.
+  current_alternative: 开发者目前多靠手动把相关文件粘贴给代理，或依赖编辑器与 IDE 内置索引；这是从品类常识作出的推断，候选材料未提供任何旧做法证据。
+  current_alternative_en: Developers today mostly paste relevant files into the agent or rely on editor/IDE
+    built-in indexing; this is inferred from the category, and the candidate provides no evidence of any
+    prior practice.
+  usage_reason: 若代码图与记忆确实能让代理少读无关文件、少走错目录，开发者会在大型仓库中选它；但候选未给出任何可核对结果，且证据链混入同名粒子物理 Python 包，该判断只能标为推断。
+  usage_reason_en: If the code graph and memory really let the agent read fewer irrelevant files and take
+    fewer wrong turns, developers would choose it on large repositories; but the candidate gives no checkable
+    result and its evidence chain is mixed with an unrelated particle-physics Python package, so this
+    is only an inference.

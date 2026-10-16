@@ -22,7 +22,7 @@ summary: The Nordics and NVIDIA Show What’s Possible When a Region Commits to 
   Blog
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,83 @@
+- id: req-initial-audimate-2026-10-16
+  project_slug: audimate
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能看出它想减少应用与助手之间的切换，但材料未说明具体任务、材料与交付，连痛点发生在哪一步都写不出来。
+    evidence_ids:
+    - ev-20fb79d40e08454c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，无使用、评价或采用信号，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-20fb79d40e08454c
+  - gate: model
+    status: insufficient
+    reason: 未见定价、买方或付费路径信息，钱从哪来无法判断。
+    evidence_ids:
+    - ev-20fb79d40e08454c
+  - gate: truth
+    status: insufficient
+    reason: 接入哪些应用、能读写哪些数据、人工确认边界均未披露，交付确定性无法核实。
+    evidence_ids:
+    - ev-20fb79d40e08454c
+  next_validation: 收集 Audimate 官方产品页或集成文档，确认支持的应用清单、可读写的数据范围与产出形式。
+  market: ''
+  job: 运营、销售或客服人员在 CRM、工单、邮件等业务应用里处理客户信息时，需要就地完成撰写、查询或整理，最终拿到的是应用内被更新或生成的内容。
+  job_en: Operations, sales or support staff handling customer information in CRM, ticketing or email
+    apps need to draft, look up or organize in place, and end up with content updated or generated inside
+    the app.
+  pain: 在应用与独立 AI 窗口之间来回复制粘贴，既慢又容易丢上下文，但材料没有说明这一痛点具体发生在哪一步、有多频繁。
+  pain_en: Copying and pasting between the app and a separate AI window is slow and loses context, but
+    the material does not say at which step or how often this pain occurs.
+  current_alternative: 现在多是把内容复制到通用聊天助手处理后再贴回业务应用，或使用应用自带的简单自动化规则。
+  current_alternative_en: Today people copy content into a general chat assistant and paste it back, or
+    use the simple automation rules built into the app.
+  usage_reason: 相较复制到外部助手再贴回，它把处理动作留在原应用内，省掉一次切换与粘贴，因此高频处理应用内文本的用户可能选择它；但材料未说明接入范围与产出形态，这是推断而非事实。
+  usage_reason_en: Compared with copying into an external assistant and pasting back, it keeps the action
+    inside the original app and removes one switch and paste, so users handling in-app text frequently
+    might choose it; however the material does not state integration scope or output form, so this is
+    inference, not fact.
+- id: req-full-audimate-2026-10-16
+  project_slug: audimate
+  level: full
+  reviewed_at: '2026-10-16T01:19:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅有一句产品定位，未说明具体任务、处理材料与交付结果，连痛点发生在哪一步都写不出来，无法还原旧流程与不解决的后果。
+    evidence_ids:
+    - ev-20fb79d40e08454c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Audimate 官方产品页或集成文档，确认支持的应用清单、可读写的数据范围与产出形式。
+  market: ''
+  job: 运营、销售或客服人员在 CRM、工单、邮件等业务应用里处理客户信息时，需要就地完成撰写、查询或整理，最终拿到的是应用内被更新或生成的内容。
+  job_en: Operations, sales or support staff handling customer information in CRM, ticketing or email
+    apps need to draft, look up or organize in place, ending up with content updated or generated inside
+    the app.
+  pain: 公开材料只有一句产品定位，未说明具体任务、处理什么材料、痛点发生在哪一步，连用户现在如何绕过都写不出来。
+  pain_en: The public material is a single positioning line; it does not state the concrete task, the
+    material handled, or at which step the pain occurs, so even the current workaround cannot be written.
+  current_alternative: 材料未披露，无法确认用户现在是把内容复制到通用聊天助手再贴回，还是使用应用自带自动化。
+  current_alternative_en: Not disclosed in the material; it cannot be confirmed whether users copy content
+    into a general chat assistant and paste back, or rely on built-in app automation.
+  usage_reason: 缺少接入应用清单、可读写数据范围与产出形态，无法说明它相较旧做法减少哪一步负担，因此无法给出用户选择它的因果解释。
+  usage_reason_en: With no integration list, readable/writable data scope or output form, it is impossible
+    to say which step of the old workflow it removes, so no causal reason for adoption can be given.

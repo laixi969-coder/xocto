@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5DdHM3clFFSEcy
 summary: Can’t reach Anthropic’s customer service? You’re not alone The San Francisco Standard
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

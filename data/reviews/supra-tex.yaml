@@ -1,0 +1,85 @@
+- id: req-initial-supra-tex-2026-10-16
+  project_slug: supra-tex
+  level: initial
+  reviewed_at: '2026-10-16T00:25:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决单图到带材质三维资产的生成问题，痛点在于手工建模与贴图耗时；但公开材料仅一句描述，属结构推理。
+    evidence_ids:
+    - ev-a9e87986e3f2bfdb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量点赞，缺少使用反馈或案例，无法判断美术是否已把它纳入流程。
+    evidence_ids:
+    - ev-a9e87986e3f2bfdb
+  - gate: model
+    status: insufficient
+    reason: 开源演示未披露定价与买方，钱可能来自后续托管或企业授权，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a9e87986e3f2bfdb
+  - gate: truth
+    status: insufficient
+    reason: 输出精度、拓扑可用性与是否需要人工修整均未说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-a9e87986e3f2bfdb
+  next_validation: 收集该演示页的模型说明或可复现实测，确认输出格式、精度与人工修整需求。
+  market: ''
+  job: 三维美术或独立游戏开发者在只有一张概念图或照片时，需要得到一个可继续编辑的带材质模型，用于场景或商品展示。
+  job_en: A 3D artist or indie game developer with only a concept image or photo needs an editable textured
+    model for a scene or product display.
+  pain: 从单图手工建模并绘制材质耗时，外包或自建都拖慢前期验证节奏。
+  pain_en: Hand-modeling and texturing from a single image is slow, and outsourcing or doing it in-house
+    both slow down early validation.
+  current_alternative: 现在多靠人工在建模软件里从零搭建，或购买现成素材再改。
+  current_alternative_en: Today people build from scratch in modeling software or buy stock assets and
+    modify them.
+  usage_reason: 推断：相较从零建模，它把单图直接转成带材质的资产，减少前期搭形与贴图的那一步，因此需要快速验证场景或商品外观的小团队会考虑试用。
+  usage_reason_en: 'Inference: compared with modeling from scratch, it turns a single image into a textured
+    asset, removing the early shaping and texturing step, so small teams validating a scene or product
+    look would consider trying it.'
+- id: req-full-supra-tex-2026-10-16
+  project_slug: supra-tex
+  level: full
+  reviewed_at: '2026-10-16T01:24:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决单图到带 PBR 材质三维资产的生成需求，痛点是手工建模与贴图耗时、拖慢前期验证；公开材料仅一句描述，属工作流结构推理。
+    evidence_ids:
+    - ev-a9e87986e3f2bfdb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有演示页一句产品说明，缺少使用反馈、案例或社区讨论，无法判断美术是否已把它纳入流程。
+    evidence_ids:
+    - ev-a9e87986e3f2bfdb
+  - gate: model
+    status: insufficient
+    reason: 开源演示未披露定价与买方，钱可能来自后续托管或企业授权，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a9e87986e3f2bfdb
+  - gate: truth
+    status: insufficient
+    reason: 输出格式、拓扑可用性与是否需要人工修整均未说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-a9e87986e3f2bfdb
+  next_validation: 追踪 Supra-Tex 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 三维美术或独立游戏开发者在只有一张概念图或照片时，需要得到一个可继续编辑的带 PBR 材质的模型，用于场景搭建或商品展示。
+  job_en: A 3D artist or indie game developer with only a concept image or photo needs an editable PBR-textured
+    model for scene building or product display.
+  pain: 从单图手工建模并绘制 PBR 材质耗时，外包或自建都拖慢前期验证节奏；不解决则概念到可看资产的周期被拉长。
+  pain_en: Hand-modeling and PBR texturing from a single image is slow, and outsourcing or doing it in-house
+    both slow down early validation; not solving it stretches the concept-to-viewable-asset cycle.
+  current_alternative: 现在多靠人工在建模软件里从零搭建，或购买现成素材再改。
+  current_alternative_en: Today people build from scratch in modeling software or buy stock assets and
+    modify them.
+  usage_reason: 推断：相较从零建模，它把单图直接转成带 PBR 材质的资产，减少前期搭形与贴图那一步，因此需要快速验证场景或商品外观的小团队会考虑试用；但输出格式与精度未公开，是否长期留在流程里仍缺一环。
+  usage_reason_en: 'Inference: compared with modeling from scratch, it turns a single image into a PBR-textured
+    asset, removing the early shaping and texturing step, so small teams validating a scene or product
+    look would consider trying it; output format and precision are undisclosed, so long-term retention
+    remains unverified.'

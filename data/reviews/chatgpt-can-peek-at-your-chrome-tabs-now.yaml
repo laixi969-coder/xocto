@@ -1,0 +1,90 @@
+- id: req-initial-chatgpt-can-peek-at-your-chrome-tabs-now-2026-10-16
+  project_slug: chatgpt-can-peek-at-your-chrome-tabs-now
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多标签页信息比对的需求，痛点是手动复制粘贴与来回切换，旧行为明确，交付为一份对比结论。
+    evidence_ids:
+    - ev-f45631ddab64a739
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一次功能升级与演示视频，没有采用规模、留存或用户反馈，无法判断是否形成稳定使用习惯。
+    evidence_ids:
+    - ev-f45631ddab64a739
+  - gate: model
+    status: insufficient
+    reason: ChatGPT 的付费路径已存在，但该扩展功能本身是否单独收费或拉动订阅，公开材料未说明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-f45631ddab64a739
+  - gate: truth
+    status: insufficient
+    reason: 读取浏览器标签页涉及权限与数据边界，公开材料未说明读取范围、留存与人工确认机制，交付确定性待核验。
+    evidence_ids:
+    - ev-f45631ddab64a739
+  next_validation: 收集 ChatGPT Chrome 扩展的官方帮助文档或权限说明页，核验其可读取的标签页范围、数据处理方式与是否需要用户逐次确认。
+  market: ''
+  job: 普通用户在浏览器中同时打开多个商品页或资料页时，需要助手读取这些已打开的标签页并比较内容，以完成选购或信息汇总。
+  job_en: Everyday users with several product or reference pages open in the browser need the assistant
+    to read those open tabs and compare them to finish a purchase decision or information summary.
+  pain: 旧做法要在多个标签页之间来回切换、手动复制粘贴关键信息，再自己整理成对比，步骤多且容易漏项。
+  pain_en: The old way means switching between tabs, copying key details by hand and assembling the comparison
+    yourself, which is many steps and easy to get wrong.
+  current_alternative: 手动复制粘贴到对话框，或使用浏览器自带的分组、书签和第三方比价插件。
+  current_alternative_en: Copying and pasting into a chat box by hand, or using browser tab groups, bookmarks
+    and third-party price-comparison extensions.
+  usage_reason: 推断：相较手动复制粘贴，扩展直接读取已打开的标签页，省去逐页摘录这一步，用户在多页比价或资料汇总时更可能选择它；但公开材料未给出留存或重复使用证据。
+  usage_reason_en: 'Inference: versus manual copy-paste, the extension reads open tabs directly and removes
+    the per-page extraction step, so users comparing several pages or gathering references are more likely
+    to choose it; public material gives no retention or repeat-use evidence.'
+- id: req-full-chatgpt-can-peek-at-your-chrome-tabs-now-2026-10-16
+  project_slug: chatgpt-can-peek-at-your-chrome-tabs-now
+  level: full
+  reviewed_at: '2026-10-16T01:20:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多标签页信息比对的需求，痛点是手动复制粘贴与来回切换，旧行为明确，交付为一份对比结论；这是工作流结构推理，公开材料未给留存证据。
+    evidence_ids:
+    - ev-a2aa8774e3117485
+    - ev-598ef0f823eb672c
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一次功能升级与演示视频，没有采用规模、留存或用户反馈，无法判断是否形成稳定使用习惯。
+    evidence_ids:
+    - ev-598ef0f823eb672c
+    - ev-feb9a3588175d51d
+  - gate: model
+    status: insufficient
+    reason: ChatGPT 的付费路径已存在，但该扩展功能本身是否单独收费或拉动订阅，公开材料未说明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a2aa8774e3117485
+    - ev-4d04e433eed3f878
+  - gate: truth
+    status: insufficient
+    reason: 读取浏览器标签页涉及权限与数据边界，公开材料未说明读取范围、留存与人工确认机制，交付确定性待核验。
+    evidence_ids:
+    - ev-b97f18c8cebf91ef
+    - ev-40a1af6dc60e8963
+  next_validation: 收集 ChatGPT Chrome 扩展的官方帮助文档或权限说明页，核验其可读取的标签页范围、数据处理方式与是否需要用户逐次确认。
+  market: ''
+  job: 已安装 ChatGPT Chrome 扩展的普通用户在浏览器中同时打开多个商品页或资料页（如候选沙发商品页）时，在 ChatGPT 网页版或桌面版中标记 Chrome，让助手读取这些已打开的标签页并比较内容，以完成选购或信息汇总。
+  job_en: Everyday users with the ChatGPT Chrome extension who have several product or reference pages
+    open (e.g. candidate sofa listings) tag Chrome inside the ChatGPT web or desktop app so the assistant
+    reads those open tabs and compares them to finish a purchase decision or information summary.
+  pain: 旧做法要在多个标签页之间来回切换、手动复制粘贴关键信息，再自己整理成对比，步骤多且容易漏项；不采用则多页比价与资料汇总只能靠人工逐页摘录。
+  pain_en: The old way means switching between tabs, copying key details by hand and assembling the comparison
+    yourself, which is many steps and easy to get wrong; without it, multi-page comparison and reference
+    gathering rely on manual per-page extraction.
+  current_alternative: 手动复制粘贴到对话框，或使用浏览器自带的分组、书签和第三方比价插件。
+  current_alternative_en: Copying and pasting into a chat box by hand, or using browser tab groups, bookmarks
+    and third-party price-comparison extensions.
+  usage_reason: 推断：相较手动复制粘贴，扩展直接读取已打开的标签页，省去逐页摘录这一步，用户在多页比价或资料汇总时更可能选择它；公开材料未给出留存或重复使用证据。
+  usage_reason_en: 'Inference: versus manual copy-paste, the extension reads open tabs directly and removes
+    the per-page extraction step, so users comparing several pages or gathering references are more likely
+    to choose it; public material gives no retention or repeat-use evidence.'

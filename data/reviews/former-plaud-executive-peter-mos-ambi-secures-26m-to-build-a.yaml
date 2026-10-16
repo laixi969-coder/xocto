@@ -1,0 +1,89 @@
+- id: req-initial-former-plaud-executive-peter-mos-ambi-secures-26m-to-build-a-2026-10-16
+  project_slug: former-plaud-executive-peter-mos-ambi-secures-26m-to-build-a
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是对话记录与事后整理的需求，痛点方向成立，但材料未说明接收什么、产出什么，无法确认交付是否确定发生。
+    evidence_ids:
+    - ev-2bd59e65285e72ed
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有用户评价、客户案例或采用数据，无法判断场景共识卡在哪一环。
+    evidence_ids:
+    - ev-2bd59e65285e72ed
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；2600万美元融资只说明资本支持，付费路径仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-2bd59e65285e72ed
+  - gate: truth
+    status: insufficient
+    reason: 常时在听的设备涉及隐私与人工边界，材料未说明数据留存、授权与人工确认机制，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-2bd59e65285e72ed
+  next_validation: 收集Ambi官方产品页或发布说明，确认其输入方式、交付产出与是否公布定价。
+  market: ''
+  job: 需要持续记录口头信息的人（如访谈者、销售、临床人员）在对话进行时或结束后，处理录音与笔记，要完成可回查的要点整理。
+  job_en: People who must continuously capture spoken information (interviewers, salespeople, clinicians)
+    handle recordings and notes during or after a conversation to produce reviewable summaries.
+  pain: 对话内容多且转瞬即逝，事后凭记忆补记容易遗漏与失真；现有做法要么全程手写，要么事后反复听录音。
+  pain_en: Conversations are dense and fleeting; reconstructing them from memory loses and distorts detail,
+    while current practice means either writing throughout or replaying recordings afterwards.
+  current_alternative: 手写笔记、手机录音后人工回听整理，或使用已有的录音转写工具。
+  current_alternative_en: Handwritten notes, phone recordings replayed and transcribed by hand, or existing
+    transcription tools.
+  usage_reason: 推断：若它能在对话中自动捕获并直接产出可核对的要点，用户可省去事后回听与逐段整理这一步，因此对话密集且整理成本高的人会试用；但材料未披露输入方式、交付形态与留存证据，无法确认这一环节是否真的被替代。
+  usage_reason_en: 'Inference: if it captures conversations automatically and outputs reviewable summaries,
+    users skip replaying and manually organising recordings, so people with conversation-heavy work would
+    try it; however the material discloses no input method, delivery form or retention evidence, so whether
+    that step is truly replaced cannot be confirmed.'
+- id: req-full-former-plaud-executive-peter-mos-ambi-secures-26m-to-build-a-2026-10-16
+  project_slug: former-plaud-executive-peter-mos-ambi-secures-26m-to-build-a
+  level: full
+  reviewed_at: '2026-10-16T01:21:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决对话密集者事后整理口头信息的任务，痛点是记录转瞬即逝、回听整理耗时且易失真，旧做法为手写或录音回听，不解决的后果是遗漏与失真。常时在听助手若自动捕获并产出要点可省去回听环节，属工作流结构推理；但输入方式与交付形态未披露，交付确定性仍待核验。
+    evidence_ids:
+    - ev-2bd59e65285e72ed
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有用户评价、客户案例或采用数据，无法判断场景共识卡在感知、想象、场景还是利益环节；2600万美元融资只说明资本关注，不能证明持续采用。
+    evidence_ids:
+    - ev-2bd59e65285e72ed
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱可能来自to C硬件订阅或to B团队采购，这是判断而非已验证事实；融资叙事存在每日优鲜风险，付费路径尚未核验。
+    evidence_ids:
+    - ev-2bd59e65285e72ed
+  - gate: truth
+    status: insufficient
+    reason: 常时在听的设备涉及隐私与人工边界，材料未说明数据留存、授权与人工确认机制，无法核对承诺能否确定性交付，也无法判断是否贴近该工作的第一性目标。
+    evidence_ids:
+    - ev-2bd59e65285e72ed
+  next_validation: 追踪Ambi官方产品页或发布说明，确认其输入方式、交付产出、数据留存与授权机制，以及是否公布定价。
+  market: ''
+  job: 访谈者、销售、咨询顾问等对话密集的从业者，在会议、访谈或日常对话进行中及结束后，处理口头信息与零散笔记，要完成可回查、可复用的要点整理。
+  job_en: Conversation-heavy practitioners such as interviewers, salespeople and consultants handle spoken
+    information and scattered notes during and after meetings, interviews or everyday conversations to
+    produce reviewable, reusable summaries.
+  pain: 对话内容密集且转瞬即逝，事后凭记忆补记会遗漏与失真；全程手写又占用注意力，事后回听录音逐段整理耗时且难以坚持。
+  pain_en: Conversations are dense and fleeting; reconstructing them from memory loses and distorts detail,
+    while writing throughout consumes attention and replaying recordings to organise them afterwards is
+    slow and hard to sustain.
+  current_alternative: 手写笔记、手机录音后人工回听整理，或使用已有的录音转写工具与通用AI助手。
+  current_alternative_en: Handwritten notes, phone recordings replayed and transcribed by hand, or existing
+    transcription tools and general-purpose AI assistants.
+  usage_reason: 推断：相较事后回听录音再逐段整理，常时在听的助手若能在对话中自动捕获并直接产出可核对的要点，用户可省去回听与手工分段这一步；因此对话密集、整理成本高的人会在会议或访谈场景选择它。但材料未披露输入方式、交付形态与留存证据，该替代关系仍属结构推理。
+  usage_reason_en: 'Inference: compared with replaying recordings and organising them segment by segment,
+    an always-listening assistant that captures conversations automatically and outputs reviewable summaries
+    could remove the replay and manual-segmentation step, so conversation-heavy users would choose it
+    for meetings or interviews. However the material discloses no input method, delivery form or retention
+    evidence, so this substitution remains structural reasoning.'

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/DedeProGames/kiyo-230m-chat
 summary: Streaming chat with Kiyo-230M-Instruct on ZeroGPU
 first_seen: '2026-10-16T00:25:38Z'
 last_seen: '2026-10-16T00:25:38Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

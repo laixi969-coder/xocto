@@ -3,12 +3,12 @@ slug: amazon-just-tripled-its-order-of-nvidia-chips-over-surging-d
 name: Amazon
 builder: ''
 category: ''
-summary_zh: 亚马逊宣布未来两年新增200万块英伟达GPU，采购量增至三倍，云厂商的AI算力需求仍在扩张；同期Alexa购物助手新增商品上新提醒与诈骗信息核验，把购物咨询与安全确认工作流进一步并入平台自有助手。
+summary_zh: 这是 Amazon 作为云与电商平台方的算力采购与平台功能更新：一边把数据中心 GPU 采购量扩大约两倍，一边把购物助手扩到上新提醒和消息真伪核验。它改变的是 AI 推理算力的供给与电商入口的竞争条件，不是某个独立新产品的发布。
 inspiration: ''
-summary_en: Amazon will add 2 million more Nvidia GPUs over the next two years, tripling its order, showing
-  that cloud AI compute demand keeps expanding. At the same time, its Alexa shopping assistant gained
-  'Update Me When' launch alerts and scam-message verification, folding shopping queries and safety checks
-  into the platform's own assistant.
+summary_en: 'This is Amazon acting as a cloud and retail platform: it roughly tripled its data-center
+  GPU order while extending its shopping assistant to launch alerts and message-authenticity checks. What
+  changes is inference-capacity supply and the competition for the shopping entry point, not the launch
+  of a standalone product.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +25,7 @@ summary: Amazon is adding another 2 million Nvidia GPU chips to its data centers
   But this extended partnerships stretches beyond buying more chips.
 first_seen: '2026-08-26T23:47:18Z'
 last_seen: '2026-09-23T00:34:44Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

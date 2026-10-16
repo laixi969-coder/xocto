@@ -1,0 +1,97 @@
+- id: req-initial-skills-2-2026-10-16
+  project_slug: skills-2
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决竞争情报与销售赋能材料靠人工拼凑、更新慢的痛点，旧流程和交付物都能说清，属于工作流推理。
+    evidence_ids:
+    - ev-0c1f8ecc5262cb66
+    - ev-fc044afd4fcf40cb
+    - ev-8dd4cf05c0f066e6
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星数从 76 增至 80 的关注度信号，没有用户评价或团队采用证据，无法判断是否进入日常工作流。
+    evidence_ids:
+    - ev-0c1f8ecc5262cb66
+    - ev-8dd4cf05c0f066e6
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价或付费路径，买方是销售赋能团队还是个人使用者无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8dd4cf05c0f066e6
+  - gate: truth
+    status: insufficient
+    reason: 技能包依赖代理客户端执行，产出是否经过人工确认、证据是否可追溯未说明，确定性交付待核验。
+    evidence_ids:
+    - ev-8dd4cf05c0f066e6
+  next_validation: 收集该仓库的 issue、discussion 或官方说明中关于实际使用与产出确认的记录。
+  market: ''
+  job: 竞争情报或销售赋能人员在为具体交易做准备时，处理竞品资料、赢单输单记录和定价信息，要产出一份能直接给销售用的 battlecard 或交易准备材料。
+  job_en: Competitive intelligence or sales enablement staff preparing for a specific deal work through
+    competitor material, win-loss records and pricing information to produce a battlecard or deal-prep
+    document sales can use directly.
+  pain: 这类材料通常靠人手工从多个来源拼凑，更新慢、每次交易都要重做，销售在客户现场拿不到最新口径。
+  pain_en: Such material is usually stitched together by hand from many sources, goes stale, must be redone
+    per deal, and sales lack current talking points in front of the customer.
+  current_alternative: 现有做法是人工整理竞品文档、维护静态 battlecard 表格，或购买竞争情报 SaaS 平台。
+  current_alternative_en: Today teams assemble competitor docs by hand, maintain static battlecard spreadsheets,
+    or buy competitive intelligence SaaS platforms.
+  usage_reason: 推断：它把 battlecard、赢单输单复盘等文档生成直接放进销售已经在用的代理客户端，用户不必在另一个 SaaS 界面里重新录入上下文，因此已经在用 Claude Code
+    或 Cursor 的 GTM 团队会在准备具体交易时选择它；但仓库只有约 80 星，尚无客户案例或付费证据。
+  usage_reason_en: 'Inference: it puts battlecard and win-loss document generation inside the agent client
+    sales teams already use, so users avoid re-entering context in another SaaS interface, which is why
+    GTM teams already on Claude Code or Cursor would pick it for a specific deal; but the repo has only
+    about 80 stars and no customer or payment evidence.'
+- id: req-full-skills-2-2026-10-16
+  project_slug: skills-2
+  level: full
+  reviewed_at: '2026-10-16T01:24:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决竞争情报与销售赋能材料靠人工拼凑、更新慢、每笔交易重做的痛点，输入、动作与交付物可还原，属工作流结构推理；谁付钱未披露，留待模式关。
+    evidence_ids:
+    - ev-232b33d64ad50d55
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有市场覆盖查询与简历技能类无关页面，没有用户评价、团队采用或持续使用证据，无法判断是否进入日常工作流。
+    evidence_ids:
+    - ev-232b33d64ad50d55
+    - ev-1d343f4445bbd6fb
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价或付费路径，买方是销售赋能团队还是个人使用者无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a534cb700254661b
+  - gate: truth
+    status: insufficient
+    reason: 技能包依赖代理客户端执行，产出是否经人工确认、证据是否可追溯未说明，确定性交付与安全边界待核验。
+    evidence_ids:
+    - ev-232b33d64ad50d55
+  next_validation: 追踪该 Agent Skills 项目的官方仓库或文档页，收集其 issue、discussion 与定价/客户案例说明，核验实际使用与产出确认记录。
+  market: ''
+  job: 竞争情报或销售赋能人员在为一场具体交易做准备时，处理竞品资料、赢单输单记录和定价信息，要产出一份销售能直接拿去见客户的 battlecard 或交易准备材料。
+  job_en: Competitive intelligence or sales enablement staff preparing for a specific deal work through
+    competitor material, win-loss records and pricing information to produce a battlecard or deal-prep
+    document a rep can take straight into a customer meeting.
+  pain: 这类材料靠人工从多个来源拼凑，更新慢、每笔交易都要重做，销售在客户现场拿不到最新口径；公开材料只给出产品能力描述，没有用户抱怨或采用数据，痛点强度属于工作流结构推理。
+  pain_en: Such material is stitched together by hand from many sources, goes stale, must be redone per
+    deal, and reps lack current talking points in front of the customer; public material only describes
+    product capability, with no user complaints or adoption data, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 现有做法是人工整理竞品文档、维护静态 battlecard 表格，或采购竞争情报 SaaS 平台。
+  current_alternative_en: Today teams assemble competitor docs by hand, maintain static battlecard spreadsheets,
+    or buy competitive intelligence SaaS platforms.
+  usage_reason: 推断：它把 battlecard、赢单输单复盘等文档生成直接放进销售已在用的 Claude Code、Cursor 等代理客户端，用户不必在另一个 SaaS 界面里重新录入上下文，因此已在用这些客户端的
+    GTM 团队在准备具体交易时会选择它；但公开材料没有客户案例、付费或重复使用证据，无法确认它已长期留在工作流里。
+  usage_reason_en: 'Inference: it puts battlecard and win-loss document generation inside the agent clients
+    sales teams already use (Claude Code, Cursor), so users avoid re-entering context in another SaaS
+    interface, which is why GTM teams already on those clients would pick it for a specific deal; but
+    public material has no customer case, payment or repeat-use evidence, so it cannot be confirmed as
+    staying in the workflow.'

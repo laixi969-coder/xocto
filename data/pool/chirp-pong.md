@@ -26,7 +26,7 @@ summary: 'Tool: Chirp Pong Another game experiment - I wanted to see if it was f
   pong Claude Opus 5.5 Extra in Claude Code . Tags: game-design , ai , generative-ai , llms , claude-code'
 first_seen: '2026-10-16T00:25:40Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

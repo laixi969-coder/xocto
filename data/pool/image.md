@@ -1,21 +1,35 @@
 ---
 slug: image
-name: Image
+name: Oh-My-CPA
 builder: WizisCool
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 自建或代理大模型 API 的个人开发者与小型团队，在需要查看调用量、费用和密钥授权时打开这个面板；它接收 CPA 代理的请求记录，做用量统计、定价换算、OAuth 与上游提供商管理，最终给出可核对的调用与成本视图，具体交付边界仍待核验。
+inspiration: 趋势是模型调用从单一官方账号转向多上游、多密钥的代理层，成本核算和授权管理随之变成独立环节。切入可考虑面向中小团队做代理层的用量对账与成本归集，或按调用量分成的托管运维；但该仓库本身是代理工具的前端面板，与卖
+  token 差价的聚合商相邻，需先确认它是否只是配套界面。
+summary_en: Individual developers and small teams running their own or proxied LLM API access open this
+  panel when they need to check call volume, cost and key authorization; it takes request logs from a
+  CPA proxy and produces usage statistics, pricing conversion, OAuth and upstream provider management,
+  yielding a checkable view of calls and cost, though the exact delivery boundary still needs verification.
+inspiration_en: The trend is that model access is shifting from a single official account to a proxy layer
+  with multiple upstreams and keys, making cost accounting and authorization a separate step. An entry
+  point could be usage reconciliation and cost attribution for small teams at that proxy layer, or managed
+  operations charged by volume; but this repo is a front-end panel for a proxy tool, adjacent to token-reselling
+  aggregators, so whether it is more than a companion UI must be confirmed first.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
-open_source: false
+project_type: open_source
+industries:
+- 软件与信息服务
+industries_en:
+- Software and IT services
+jobs:
+- API 网关运维与用量核算
+jobs_en:
+- API gateway operations and usage accounting
+regions:
+- 中国
+regions_en:
+- China
+open_source: true
 url: https://image.dooo.ng/c/2026/10/04/6ac275d062acf.png
 canonical_url: https://image.dooo.ng/c/2026/10/04/6ac275d062acf.png
 summary: "![social-preview|690x345]( https://image.dooo.ng/c/2026/10/04/6ac275d062acf.png)\r\n\r\n仓库地址:\
@@ -35,7 +49,7 @@ summary: "![social-preview|690x345]( https://image.dooo.ng/c/2026/10/04/6ac275d0
   \ BUG 或者可优化项，请一定要提 Issue 或 PR :folded_hands:"
 first_seen: '2026-10-04T15:52:27Z'
 last_seen: '2026-10-16T00:25:39Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 - newssearch
@@ -75,7 +89,7 @@ sightings:
   kind: news
 ---
 
-# Image
+# Oh-My-CPA
 
 ![social-preview|690x345]( https://image.dooo.ng/c/2026/10/04/6ac275d062acf.png)
 

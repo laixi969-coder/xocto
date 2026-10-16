@@ -1,0 +1,83 @@
+- id: req-initial-parallel-loop-raises-66-million-to-scale-enterprise-ai-workf-2026-10-16
+  project_slug: parallel-loop-raises-66-million-to-scale-enterprise-ai-workf
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有“企业 AI 工作流”这一句概括，价值关无法成立。
+    evidence_ids:
+    - ev-7ee2ff431f72611f
+  - gate: consensus
+    status: insufficient
+    reason: 除融资额外无采用、客户或使用数据，无法判断是否有真实场景共识。
+    evidence_ids:
+    - ev-7ee2ff431f72611f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，钱从哪来无法判断，属未知而非失败。
+    evidence_ids:
+    - ev-7ee2ff431f72611f
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工边界与安全约束的说明。
+    evidence_ids:
+    - ev-7ee2ff431f72611f
+  next_validation: 收集 Parallel Loop 官方产品页或定价页，确认其面向的具体企业流程、输入材料与交付物。
+  market: ''
+  job: 企业内部的流程负责人需要把跨部门的审批、数据搬运和跟进任务串起来并自动执行，但公开材料未说明具体是哪个流程、处理什么材料。
+  job_en: An internal process owner needs to chain and automate cross-department approvals, data handoffs
+    and follow-ups, but public material does not say which process or what material is involved.
+  pain: 公开材料没有描述任何具体痛点，只能推断企业跨部门流程存在手工搬运与跟进负担，这属于推断而非已披露事实。
+  pain_en: No concrete pain is described in public material; that enterprises suffer manual handoffs and
+    follow-up burden in cross-department processes is an inference, not a disclosed fact.
+  current_alternative: 公开材料未说明现有替代方式，常见旧做法可能是人工表格、邮件跟进或既有 BPM/自动化工具，但均未获材料支持。
+  current_alternative_en: Public material does not state the current alternative; common legacy options
+    might be spreadsheets, email follow-ups or existing BPM tools, but none is supported by the material.
+  usage_reason: 无法判断：材料未说明产品通过哪个具体动作减少哪一步负担，也未给出用户反馈或客户案例，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which concrete action removes which step
+    of burden, and gives no user feedback or customer case, so it cannot explain why users would choose
+    it.'
+- id: req-full-parallel-loop-raises-66-million-to-scale-enterprise-ai-workf-2026-10-16
+  project_slug: parallel-loop-raises-66-million-to-scale-enterprise-ai-workf
+  level: full
+  reviewed_at: '2026-10-16T01:23:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有“企业 AI 工作流”这一句概括，价值关无法成立。
+    evidence_ids:
+    - ev-28cbf2ddc1e442bf
+    - ev-c4a6d7f83801ea94
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Parallel Loop 官方产品页或定价页，确认其面向的具体企业流程、输入材料与交付物。
+  market: ''
+  job: 企业流程负责人需要在跨部门审批与数据流转中把任务串起来并自动执行，但公开材料未说明具体是哪个流程、处理什么材料、产出什么交付。
+  job_en: An enterprise process owner needs to chain and automate cross-department approvals and data
+    handoffs, but public material does not specify which process, what material, or what deliverable is
+    involved.
+  pain: 公开材料没有描述任何具体痛点，只能推断跨部门流程存在手工搬运与跟进负担，这属于推断而非已披露事实。
+  pain_en: No concrete pain is described in public material; that cross-department processes carry manual
+    handoff and follow-up burden is an inference, not a disclosed fact.
+  current_alternative: 公开材料未说明现有替代方式，常见旧做法可能是人工表格、邮件跟进或既有 BPM/自动化工具，但均未获材料支持。
+  current_alternative_en: Public material does not state the current alternative; common legacy options
+    might be spreadsheets, email follow-ups or existing BPM tools, but none is supported by the material.
+  usage_reason: 无法判断：材料未说明产品通过哪个具体动作减少哪一步负担，也未给出用户反馈或客户案例，因此不能解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which concrete action removes which step
+    of burden, and gives no user feedback or customer case, so it cannot explain why users would choose
+    it.'

@@ -327,3 +327,50 @@
     conventions into one reusable agent pass, cutting repeated manual adjustment, so freelancers with
     client-facing quality demands would try it; but with only 88→286 stars and no issues or usage feedback,
     repeated use in real delivery is unconfirmed.'
+- id: req-full-motionmaxxing-2026-10-16
+  project_slug: motionmaxxing
+  level: full
+  reviewed_at: '2026-10-16T01:22:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成素材观感廉价、节奏与图形规范不达标、无法直接交付的问题，痛点具体且刚性；公开描述已能还原输入（AI 粗糙视频）、动作（按动态设计规范处理）与交付（接近专业动效的成片），属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-ad6eaeba605dd945
+    - ev-30be111efbfebac1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 90 增至 689，说明开发者关注度上升，但无 issue、用户反馈或客户案例证明后期人员真的把它用于交付；关注度不等于持续采用。
+    evidence_ids:
+    - ev-ad6eaeba605dd945
+    - ev-30be111efbfebac1
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何定价或收费路径，是个人接单工具、团队内部流程还是未来商业化无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-ad6eaeba605dd945
+  - gate: truth
+    status: insufficient
+    reason: 动态设计的第一性目标是成片观感与规范一致，公开材料未说明它如何校验输出质量、人工需在哪一步介入，交付确定性无法核对。
+    evidence_ids:
+    - ev-ad6eaeba605dd945
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认它实际接收的输入、处理步骤以及是否有真实交付案例或用户反馈。
+  market: ''
+  job: 接单的短视频与广告后期人员或动态设计师，在拿到 AI 生成的粗糙视频素材后，需要把这些素材处理成观感接近专业动态设计、可直接交付客户的成片。
+  job_en: Freelance short-video and ad post-production editors or motion designers who receive rough AI-generated
+    footage and must turn it into a client-ready cut that looks professionally motion-designed.
+  pain: AI 生成视频观感廉价，节奏、转场与图形规范不达标，直接交付会被客户退回；人工逐段重做后期等于把生成省下的时间又还回去，这是公开描述中明确指向的痛点。
+  pain_en: AI-generated video looks cheap, with pacing, transitions and graphic conventions below standard,
+    so direct delivery risks client rejection; redoing post-production clip by clip gives back the time
+    generation saved, a pain the public description directly points to.
+  current_alternative: 人工在剪辑与动效软件里逐段调整，或放弃 AI 素材从头制作；公开材料未说明其他替代工具。
+  current_alternative_en: Adjusting clip by clip by hand in editing and motion software, or discarding
+    the AI footage and building from scratch; no other substitute tool is described in the public material.
+  usage_reason: 推断：相较人工逐段调参，它把“按动态设计规范修一遍”打包成一次可复用的 agent skill 动作，减少重复手工调整这一步负担；因此对成片观感有交付要求的接单后期人员会尝试它。但仓库仅有星标增长，无
+    issue、评价或交付案例，无法确认已被反复用于真实工作流。
+  usage_reason_en: 'Inference: compared with manual clip-by-clip tweaking, it packages polishing to motion-design
+    conventions into one reusable agent-skill pass, cutting the repeated manual adjustment step; editors
+    with client-facing quality demands would try it. But the repository only shows star growth, with no
+    issues, reviews or delivery cases, so repeated real-workflow use cannot be confirmed.'

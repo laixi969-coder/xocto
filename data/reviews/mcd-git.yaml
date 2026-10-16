@@ -1,0 +1,88 @@
+- id: req-initial-mcd-git-2026-10-16
+  project_slug: mcd-git
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把点餐包装成 git 操作的趣味需求，官方 App 已覆盖真实点餐与优惠，不用它不会失去什么，属看着挺好但没有也行。
+    evidence_ids:
+    - ev-a35b133311e31254
+    - ev-5e322b9c8820294e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标从 77 缓慢升至 83，属关注度而非持续采用，没有用户反馈或复购证据。
+    evidence_ids:
+    - ev-a35b133311e31254
+    - ev-4d14c7a9d6f2ccef
+    - ev-5e322b9c8820294e
+  - gate: model
+    status: insufficient
+    reason: 非官方参赛作品，无定价页与付费路径，买方不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-a35b133311e31254
+  - gate: truth
+    status: insufficient
+    reason: 依赖第三方 MCP Server 与下单接口，非官方身份带来可用性与合规边界不确定，承诺能否确定性交付未核验。
+    evidence_ids:
+    - ev-a35b133311e31254
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有开发者报告真实下单成功、重复使用或接口失效情况。
+  market: ''
+  job: 开发者在自己终端里，面对麦当劳 App 的菜单和优惠券，想完成一次点餐并顺手生成年度消费可视化。
+  job_en: A developer in their own terminal, facing the McDonald's app menu and coupons, wants to place
+    an order and also generate an annual spending visualization.
+  pain: 官方 App 的点餐流程本身已经足够短，用 git 语义点餐并没有消除任何一步真实负担，凑单省钱也只是把已有优惠券换个入口。
+  pain_en: The official app's ordering flow is already short; ordering through git semantics removes no
+    real step, and deal optimization just moves existing coupons to another entry point.
+  current_alternative: 直接用麦当劳官方 App 或小程序点餐，优惠券和凑单提示由官方页面给出。
+  current_alternative_en: Ordering directly through the official McDonald's app or mini program, with
+    coupons and bundle suggestions shown by the official page.
+  usage_reason: 推断：它吸引的是对命令行有偏好的开发者，用 git 语义点餐带来的是趣味和身份认同，而非更省时或更省钱的可核对结果；缺少留存或重复使用证据，无法说明它进入了日常点餐流程。
+  usage_reason_en: 'Inference: it appeals to developers who prefer the command line, and git-semantic
+    ordering delivers novelty and identity rather than a verifiable time or cost saving; with no retention
+    or repeat-use evidence, it cannot be shown to have entered a daily ordering routine.'
+- id: req-full-mcd-git-2026-10-16
+  project_slug: mcd-git
+  level: full
+  reviewed_at: '2026-10-16T01:22:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把点餐包装成 git 操作的趣味需求，官方 App 已覆盖真实点餐与优惠，不用它不会失去什么，属看着挺好但没有也行。
+    evidence_ids:
+    - ev-a35b133311e31254
+    - ev-5e322b9c8820294e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有开发者报告真实下单成功、重复使用或接口失效情况。
+  market: ''
+  job: 开发者在自己的终端里，面对麦当劳菜单与优惠券，想完成一次点餐，并把历史订单渲染成 3D 汉堡天际线或年度小票。
+  job_en: A developer in their own terminal, facing the McDonald's menu and coupons, wants to place an
+    order and render order history as a 3D burger skyline or annual receipt.
+  pain: 官方 App 或小程序已把点餐、优惠券和凑单提示放在同一入口，用 git 语义点餐并未消除任何真实步骤；凑单省钱只是把已有优惠换个入口，不解决新的负担。
+  pain_en: The official app or mini program already puts ordering, coupons and bundle suggestions in one
+    entry point; git-semantic ordering removes no real step, and deal optimization merely moves existing
+    coupons to another entry point.
+  current_alternative: 直接用麦当劳官方 App 或小程序点餐，优惠券与凑单提示由官方页面给出；年度消费可视化可用官方账单或第三方记账工具。
+  current_alternative_en: Ordering directly through the official McDonald's app or mini program, with
+    coupons and bundle suggestions shown by the official page; annual spending visualization can come
+    from official statements or third-party expense trackers.
+  usage_reason: 推断：它吸引的是偏好命令行的开发者，git 语义点餐带来的是趣味和身份认同，而非更省时或更省钱的可核对结果；仓库仅有星标从 77 升至 83 的关注度证据，缺少留存或重复使用证据，无法说明它进入了日常点餐流程。
+  usage_reason_en: 'Inference: it appeals to developers who prefer the command line, and git-semantic
+    ordering delivers novelty and identity rather than a verifiable time or cost saving; the repo only
+    shows stars rising from 77 to 83 as attention evidence, with no retention or repeat-use evidence,
+    so it cannot be shown to have entered a daily ordering routine.'

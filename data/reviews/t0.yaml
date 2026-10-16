@@ -1,0 +1,89 @@
+- id: req-initial-t0-2026-10-16
+  project_slug: t0
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业自建时间序列预测的需求，痛点是外部 API 的数据外传与成本，旧替代行为清楚。
+    evidence_ids:
+    - ev-d931fb9382441706
+    - ev-2e21cea27e52a349
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条仓库说明和 14 点社区关注，没有下游采用、复现或生产使用证据。
+    evidence_ids:
+    - ev-d931fb9382441706
+  - gate: model
+    status: insufficient
+    reason: 开源权重本身不直接收费，钱可能来自部署服务或企业版，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d931fb9382441706
+  - gate: truth
+    status: insufficient
+    reason: 自称 SOTA 但未提供评测细节与基线对比，预测精度和交付确定性无法核对。
+    evidence_ids:
+    - ev-d931fb9382441706
+    - ev-2e21cea27e52a349
+  next_validation: 收集 T0 仓库的评测说明或与现有预测基线的公开对比结果。
+  market: ''
+  job: 零售、能源或运维团队的分析人员，在需要预测销量、负荷或设备指标时，用历史数据训练或微调模型，产出可用的预测结果。
+  job_en: Analysts in retail, energy or operations who need to forecast sales, load or equipment metrics
+    train or fine-tune a model on historical data to produce usable predictions.
+  pain: 旧做法依赖商业预测软件或外部 API，成本高且要把业务数据交出去；自建模型又缺现成权重和工程能力。
+  pain_en: The old way relies on commercial forecasting software or external APIs, which cost money and
+    require handing over business data, while building from scratch needs weights and engineering capacity.
+  current_alternative: 商业预测 SaaS、云厂商预测 API、Excel 或统计模型，以及自研小模型。
+  current_alternative_en: Commercial forecasting SaaS, cloud forecasting APIs, Excel or statistical models,
+    and in-house small models.
+  usage_reason: 推断：相较外部预测 API，开源权重让团队把数据留在自己环境里，省掉数据外传和按调用付费这一步；但缺少与现有基线的公开对比，是否被长期采用仍缺一环。
+  usage_reason_en: 'Inference: compared with external forecasting APIs, open weights keep data in-house
+    and remove data-sharing and per-call billing; without public comparisons against existing baselines,
+    sustained adoption remains unverified.'
+- id: req-full-t0-2026-10-16
+  project_slug: t0
+  level: full
+  reviewed_at: '2026-10-16T01:24:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业自建时间序列预测的需求，痛点是外部 API 的数据外传与成本，旧替代行为清楚。
+    evidence_ids:
+    - ev-d931fb9382441706
+    - ev-2e21cea27e52a349
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条仓库说明和 14 点社区关注，没有下游采用、复现或生产使用证据。
+    evidence_ids:
+    - ev-d931fb9382441706
+  - gate: model
+    status: insufficient
+    reason: 开源权重本身不直接收费，钱可能来自部署服务或企业版，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d931fb9382441706
+  - gate: truth
+    status: insufficient
+    reason: 自称 SOTA 但未提供评测细节与基线对比，预测精度和交付确定性无法核对。
+    evidence_ids:
+    - ev-d931fb9382441706
+    - ev-2e21cea27e52a349
+  next_validation: 收集 T0 仓库的评测说明或与现有预测基线的公开对比结果。
+  market: ''
+  job: 零售、能源或运维团队的分析人员，在需要预测销量、负荷或设备指标时，用历史数据训练或微调模型，产出可用的预测结果。
+  job_en: Analysts in retail, energy or operations who need to forecast sales, load or equipment metrics
+    train or fine-tune a model on historical data to produce usable predictions.
+  pain: 旧做法依赖商业预测软件或外部 API，成本高且要把业务数据交出去；自建模型又缺现成权重和工程能力，不解决则预测能力受制于外部供应商。
+  pain_en: The old way relies on commercial forecasting software or external APIs, which cost money and
+    require handing over business data, while building from scratch needs weights and engineering capacity;
+    not solving it leaves forecasting capability captive to external vendors.
+  current_alternative: 商业预测 SaaS、云厂商预测 API、Excel 或统计模型，以及自研小模型。
+  current_alternative_en: Commercial forecasting SaaS, cloud forecasting APIs, Excel or statistical models,
+    and in-house small models.
+  usage_reason: 推断：相较外部预测 API，开源权重让团队把数据留在自己环境里，省掉数据外传和按调用付费这一步；但缺少与现有基线的公开对比，是否被长期采用仍缺一环。
+  usage_reason_en: 'Inference: compared with external forecasting APIs, open weights keep data in-house
+    and remove data-sharing and per-call billing; without public comparisons against existing baselines,
+    sustained adoption remains unverified.'

@@ -1,0 +1,90 @@
+- id: req-initial-hippos-helpers-how-insurer-holds-ai-agents-to-human-standard-2026-10-16
+  project_slug: hippos-helpers-how-insurer-holds-ai-agents-to-human-standard
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决保险答复环节的质量与合规任务，痛点是量大、依赖个人经验且出错有赔付风险；旧行为明确，但部署细节未披露。
+    evidence_ids:
+    - ev-3a2a4d2ddc92e91f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道标题与主题，无采用范围、客户案例或内部使用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-3a2a4d2ddc92e91f
+  - gate: model
+    status: insufficient
+    reason: 候选未说明这是自建能力还是采购产品，也未披露定价或采购路径，付费方只能推断为保险公司自身预算。
+    evidence_ids:
+    - ev-3a2a4d2ddc92e91f
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 AI 代理的答复准确率、人工复核边界与合规审查方式，交付确定性未知。
+    evidence_ids:
+    - ev-3a2a4d2ddc92e91f
+  next_validation: 收集 Hippo 官方或监管披露材料中关于 AI 代理在理赔或客服环节的部署范围与人工复核机制的说明。
+  market: ''
+  job: 保险公司理赔与客服人员在客户提交保单咨询或理赔请求时，处理保单、理赔材料与沟通记录，完成答复并保证符合合规与质量要求。
+  job_en: Insurance claims and service staff handle policy, claims materials and communication records
+    when customers submit policy inquiries or claims requests, producing responses that meet compliance
+    and quality requirements.
+  pain: 答复量大且受合规约束，人工逐条处理耗时，质量依赖个人经验，出错或口径不一致会带来监管与赔付风险。
+  pain_en: Response volume is high and compliance-bound; manual handling is slow, quality depends on individual
+    experience, and errors or inconsistent wording create regulatory and payout risk.
+  current_alternative: 由客服或理赔人员按话术手册和内部知识库人工答复，辅以质检抽样和主管复核。
+  current_alternative_en: Service or claims staff answer manually using script manuals and internal knowledge
+    bases, with quality sampling and supervisor review as backup.
+  usage_reason: 推断：相较人工按手册逐条答复再抽样质检，若 AI 代理按人工标准生成答复并留下可审查记录，可减少逐条撰写和事后抽检的负担，因此合规要求明确、答复量大的保险公司会在答复环节选择它；候选未提供部署细节，此判断基于报道主题的结构推理。
+  usage_reason_en: 'Inference: compared with manual script-based answering plus sampling review, if AI
+    agents generate responses against human standards and leave auditable records, they reduce the burden
+    of writing each reply and of after-the-fact sampling, so insurers with clear compliance requirements
+    and high response volume would choose it at the response step; the candidate gives no deployment detail,
+    so this rests on structural reasoning about the report''s subject.'
+- id: req-full-hippos-helpers-how-insurer-holds-ai-agents-to-human-standard-2026-10-16
+  project_slug: hippos-helpers-how-insurer-holds-ai-agents-to-human-standard
+  level: full
+  reviewed_at: '2026-10-16T01:21:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部为词典站、河马百科、Hippo 保险报价页与通用 AI 介绍，未出现任何保险答复环节的用户任务、痛点或旧替代行为，连需求与痛点都无法写出，价值关不成立。
+    evidence_ids:
+    - ev-47eb02ed7f4b89c6
+    - ev-c2ce917b582e9093
+    - ev-2ae2ff2f47427fc5
+    - ev-c04891b7accebc72
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Digital Insurance 原始报道全文及其引用的 Hippo 官方或监管披露材料，确认 AI 代理在理赔或客服环节的实际部署范围、输入材料与人工复核机制。
+  market: ''
+  job: 候选材料未提供任何可核验的产品或流程信息，无法确认谁在什么情况下处理什么材料、要完成什么任务；标题暗示保险公司内部人员把答复环节交给 AI 代理，但具体输入、动作与交付均未披露。
+  job_en: The candidate provides no verifiable product or process information, so it is impossible to
+    confirm who handles what materials under what circumstances to complete what task; the title hints
+    that insurer staff hand the response step to AI agents, but inputs, actions and deliverables are undisclosed.
+  pain: 公开证据中没有用户痛点、抱怨、workaround 或客户案例；现有证据为词典站、河马百科、Hippo 保险报价页与 AI 通用介绍，均与保险答复环节的痛点无关。
+  pain_en: The public evidence contains no user pain, complaints, workarounds or customer cases; the evidence
+    consists of a thesaurus site, a hippopotamus encyclopedia entry, Hippo's insurance quote page and
+    generic AI explainers, none of which relate to pain in the insurance response step.
+  current_alternative: 无法从公开材料还原当前替代方式；候选未说明人工答复流程、话术手册、知识库或质检机制，也无旧行为证据。
+  current_alternative_en: The current alternative cannot be reconstructed from public materials; the candidate
+    does not describe manual response workflows, script manuals, knowledge bases or quality review, and
+    there is no evidence of prior behavior.
+  usage_reason: 无法给出使用理由：证据中不存在该产品的能力描述、部署方式或用户反馈，无法解释相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'No usage reason can be given: the evidence contains no product capability description,
+    deployment method or user feedback, so it cannot explain which step''s burden is reduced or which
+    checkable result improves versus the old approach.'

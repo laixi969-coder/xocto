@@ -296,3 +296,51 @@
     versus running a bare local model it wraps inference as an MCP-callable service, removing the step
     of building your own interface. Creators sensitive to moderation or data egress would therefore choose
     it when generating or editing images.'
+- id: req-full-mcp-image-generator-uncensored-2026-10-16
+  project_slug: mcp-image-generator-uncensored
+  level: full
+  reviewed_at: '2026-10-16T01:22:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者在本地生成或修改图片的需求，痛点可推断为云端出图的内容审核拦截与素材外传顾虑，不采用则敏感题材或私有素材无法出图；自托管 MCP 形态使交付闭环可确定，但这是工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-8d94f450c18f35fb
+    - ev-ca3f489728d12c31
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 71 升至 97 只反映关注度，公开材料没有用户评价、issue 或使用场景说明，无法判断共识卡在感知、想象、场景还是利益哪一环。
+    evidence_ids:
+    - ev-8d94f450c18f35fb
+    - ev-ca3f489728d12c31
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页与买方信息，钱可能来自自托管用户、后续托管服务或捐赠，属推断而非已验证事实；未发现用户付费路径，需警惕仅靠关注度续命的每日优鲜风险。
+    evidence_ids:
+    - ev-ca3f489728d12c31
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也未说明安全与人工审核边界；无审核定位本身带来合规不确定性，与第一性出图目标贴近但承诺边界不清。
+    evidence_ids:
+    - ev-8d94f450c18f35fb
+  next_validation: 追踪该仓库的 issue 与 discussion，确认使用者实际用它替代了哪一步出图或修图工作，以及是否出现付费或托管需求。
+  market: ''
+  job: 插画与视觉素材创作者在需要生成或修改图片时，把提示词交给自托管的 MCP 服务，由 Qwen-Image-2.1 模型出图并取回图片文件，用于后续创作或交付。
+  job_en: Illustration and visual-asset creators submit prompts to a self-hosted MCP server running Qwen-Image-2.1
+    to generate or edit images and retrieve the resulting files for downstream creative work.
+  pain: 公开材料只说明它提供无审核的图像生成与编辑，未记录使用者此前被哪一步卡住；可推断的痛点是云端出图服务的内容审核会拦截部分提示词，且图片需上传到第三方，创作者在敏感题材或私有素材上无法完成出图。
+  pain_en: The public material only states it offers uncensored generation and editing; the inferable
+    pain is that cloud image services' content moderation blocks certain prompts and requires uploading
+    images to a third party, leaving creators unable to complete outputs for sensitive subjects or private
+    assets.
+  current_alternative: 公开材料未给出替代做法；结构上可推断的旧做法是使用带审核的云端出图服务（如主流在线生图产品），或改用其他开源模型自行搭建脚本，或退回手工修图。
+  current_alternative_en: The public material gives no alternative; structurally the prior approach would
+    be moderated cloud image services, hand-rolled scripts around other open models, or falling back to
+    manual editing.
+  usage_reason: 推断：相较云端出图服务，它把模型跑在本地、以 MCP 服务形式接入既有工作流，省去上传素材到第三方和绕过审核的步骤，因此对内容审核敏感或需处理私有素材的创作者会在本地部署后选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus cloud image services, it runs the model locally and plugs into existing
+    workflows as an MCP server, removing the step of uploading assets to a third party and working around
+    moderation, so creators sensitive to review or handling private assets would choose it after self-hosting;
+    public material has no user feedback confirming this motive.'

@@ -255,3 +255,45 @@
   usage_reason: 无法判断：证据中没有产品页面、文档或用户反馈说明它通过什么具体动作减少哪一步负担，因此不能解释哪类用户会在什么情况下选择它。
   usage_reason_en: 'Cannot be judged: no product page, documentation or user feedback shows which concrete
     step it removes, so it is impossible to explain which users would choose it and when.'
+- id: req-full-shipyard-2026-10-16
+  project_slug: shipyard
+  level: full
+  reviewed_at: '2026-10-16T01:23:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据链中没有任何一条与编码代理工作区管理相关，全部指向实体船厂与品牌营销公司，无法还原用户任务、痛点、旧替代与不解决的后果，连需求本身都写不出来。
+    evidence_ids:
+    - ev-70e1fd0de6a73fcd
+    - ev-13b939536315f348
+    - ev-2b59a8f47074b779
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索该编码代理桌面应用的官方仓库或官网，收集其 README、部署文档与 issue/discussion，确认多代理 worktree 编排的实际交付流程与失败处理方式。
+  market: ''
+  job: 开发者在本机开发机上并行运行多个编码代理，需要把每个代理的代码改动、分支与终端会话分开管理，最后合并成可提交的改动。
+  job_en: Developers running multiple coding agents on local dev boxes need to keep each agent's code
+    changes, branches and terminal sessions separate, then merge them into committable changes.
+  pain: 公开证据中没有任何一条描述该产品用户的任务、抱怨或绕过做法；现有证据全部指向布鲁克林海军船厂、GMD 修船厂和一家品牌营销公司，与编码代理工作区管理无关。
+  pain_en: None of the public evidence describes this product's users, their complaints or workarounds;
+    every item points to the Brooklyn Navy Yard, a dry-dock repair firm and a brand marketing agency,
+    unrelated to coding-agent workspace management.
+  current_alternative: 公开材料未记录任何现有替代方式；无法确认用户目前是手工开多个终端与 git worktree，还是串行等待单个代理。
+  current_alternative_en: No current alternative is documented in the public material; it is unknown whether
+    users hand-manage multiple terminals and git worktrees or run one agent serially.
+  usage_reason: 无法给出使用理由：没有该产品的官方说明、文档、定价或用户反馈可引用，无法说明它相较旧做法减少哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: there is no citable official description, documentation,
+    pricing or user feedback for this product, so it is impossible to say which step it removes versus
+    the old way or which users would choose it and when.'

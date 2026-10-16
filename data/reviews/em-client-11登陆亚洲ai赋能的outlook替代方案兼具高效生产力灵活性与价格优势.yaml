@@ -1,0 +1,93 @@
+- id: req-initial-em-client-11登陆亚洲ai赋能的outlook替代方案兼具高效生产力灵活性与价格优势-2026-10-16
+  project_slug: em-client-11登陆亚洲ai赋能的outlook替代方案兼具高效生产力灵活性与价格优势
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号邮件与日程分散、订阅成本高这一具体需求，痛点在高频办公动作上刚性存在，旧替代行为明确；但AI具体动作未披露。
+    evidence_ids:
+    - ev-a29ffa132d2b9006
+  - gate: consensus
+    status: insufficient
+    reason: 只有进入亚洲市场的发布信息，没有用户评价、迁移案例或采用数据，无法判断用户是否真的从Outlook切换过来。
+    evidence_ids:
+    - ev-a29ffa132d2b9006
+  - gate: model
+    status: insufficient
+    reason: 候选材料未给出定价页或计费方式，买方可能是个人订阅或中小企业采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a29ffa132d2b9006
+  - gate: truth
+    status: insufficient
+    reason: AI能力边界、本地化交付与人工确认环节均未披露，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-a29ffa132d2b9006
+  next_validation: 收集eM Client 11官方定价页与AI功能说明文档，核对计费方式与AI实际执行的动作。
+  market: ''
+  job: 企业行政、销售或自由职业者在每天处理多账号邮件、日历和客户往来时，需要把分散的收件箱与日程集中到一个客户端里完成收发、排期与跟进。
+  job_en: Corporate admin staff, salespeople or freelancers handling multiple mail accounts, calendars
+    and client correspondence each day need to consolidate scattered inboxes and schedules into one client
+    to send, schedule and follow up.
+  pain: 多账号切换、跨设备同步和订阅制办公套件的持续费用，让中小团队和个人在邮件这一高频动作上反复付出时间与预算。
+  pain_en: Switching between accounts, syncing across devices and the recurring cost of subscription office
+    suites make email, a high-frequency action, repeatedly expensive in time and budget for small teams
+    and individuals.
+  current_alternative: 继续使用Outlook或系统自带邮件客户端，靠手动规则、文件夹和第三方插件拼凑多账号管理。
+  current_alternative_en: Staying on Outlook or the built-in mail client, patching multi-account management
+    with manual rules, folders and third-party add-ons.
+  usage_reason: 推断：若该版本确实把AI用在邮件归类、回复草拟或日程提取上，用户可省去逐封阅读与手动建规则这一步，因此对不愿承担订阅制办公套件费用、又需要多账号集中管理的中小团队更有吸引力；但候选材料未给出AI具体动作，此判断为结构推理。
+  usage_reason_en: 'Inference: if this version really applies AI to mail triage, reply drafting or schedule
+    extraction, users skip reading each message and building rules by hand, which appeals to small teams
+    that want consolidated multi-account management without subscription suite costs; the candidate material
+    does not specify the AI action, so this is structural reasoning.'
+- id: req-full-em-client-11登陆亚洲ai赋能的outlook替代方案兼具高效生产力灵活性与价格优势-2026-10-16
+  project_slug: em-client-11登陆亚洲ai赋能的outlook替代方案兼具高效生产力灵活性与价格优势
+  level: full
+  reviewed_at: '2026-10-16T01:21:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号邮件与日程分散、订阅成本高这一具体需求，痛点在高频办公动作上刚性存在，旧替代行为明确；但AI具体动作未披露。
+    evidence_ids:
+    - ev-b8945978c547e315
+    - ev-9c7842daadab2aa4
+  - gate: consensus
+    status: insufficient
+    reason: 只有进入亚洲市场的发布信息，没有用户评价、迁移案例或采用数据，无法判断用户是否真的从Outlook切换过来。
+    evidence_ids:
+    - ev-3611b71f611df878
+    - ev-599f0c86323e0c6f
+  - gate: model
+    status: insufficient
+    reason: 候选材料未给出定价页或计费方式，买方可能是个人订阅或中小企业采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9c7842daadab2aa4
+  - gate: truth
+    status: insufficient
+    reason: AI能力边界、本地化交付与人工确认环节均未披露，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-b8945978c547e315
+  next_validation: 收集eM Client 11官方定价页与AI功能说明文档，核对计费方式与AI实际执行的动作。
+  market: ''
+  job: 企业行政、销售或自由职业者在每天处理多个邮箱账号、日历与客户往来时，打开桌面客户端把分散的收件箱和日程集中到一处，完成收发、排期与跟进。
+  job_en: Corporate admin staff, salespeople or freelancers handling multiple mail accounts, calendars
+    and client correspondence daily open a desktop client to consolidate scattered inboxes and schedules
+    into one place for sending, scheduling and follow-up.
+  pain: 多账号切换、跨设备同步以及订阅制办公套件的持续费用，让中小团队和个人在邮件这一高频动作上反复付出时间与预算；候选材料未披露AI具体接收什么材料、执行哪一步。
+  pain_en: Switching between accounts, syncing across devices and the recurring cost of subscription office
+    suites make email, a high-frequency action, repeatedly expensive in time and budget for small teams
+    and individuals; the candidate material does not disclose what the AI ingests or which step it performs.
+  current_alternative: 继续使用Outlook或系统自带邮件客户端，靠手动规则、文件夹和第三方插件拼凑多账号管理。
+  current_alternative_en: Staying on Outlook or the built-in mail client, patching multi-account management
+    with manual rules, folders and third-party add-ons.
+  usage_reason: 推断：相较Outlook的订阅制与手动规则，eM Client以一次性或较低成本的桌面客户端把多账号邮件、日历、联系人集中到同一界面，减少逐账号切换与手动建规则这一步，因此对不愿承担订阅套件费用、又需要多账号集中管理的中小团队和个人更有吸引力；但候选材料未给出AI具体动作，此为结构推理。
+  usage_reason_en: 'Inference: versus Outlook''s subscription and manual rules, eM Client consolidates
+    multi-account mail, calendar and contacts into one desktop interface, removing the step of switching
+    accounts and building rules by hand, which appeals to small teams and individuals who want consolidated
+    multi-account management without subscription suite costs; the candidate material does not specify
+    the AI action, so this is structural reasoning.'

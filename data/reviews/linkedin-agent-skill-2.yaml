@@ -93,3 +93,54 @@
     of redesigning prompts and polishing sentence by sentence, so B2B sellers or personal-brand operators
     posting frequently would pick it when producing at volume; with only 40 stars there is no user feedback
     proving the content actually works.'
+- id: req-full-linkedin-agent-skill-2-2026-10-16
+  project_slug: linkedin-agent-skill-2
+  level: full
+  reviewed_at: '2026-10-16T01:22:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决持续产出 LinkedIn 内容耗时且易被识别为 AI 的问题，旧做法是手工写或通用工具生成后改写；痛点刚性来自账号活跃度直接影响 B2B 获客与个人品牌，交付物为可直接发布的文案，属工作流结构推理。
+    evidence_ids:
+    - ev-96fc7f32c52626cb
+    - ev-acaeb07fa0e54ea8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 40 增至 66 属关注度信号，无用户评价、issue 或案例说明生成内容真能带来互动或持续使用，采用共识尚未形成。
+    evidence_ids:
+    - ev-96fc7f32c52626cb
+    - ev-acaeb07fa0e54ea8
+  - gate: model
+    status: insufficient
+    reason: 项目以免费开源 Claude 技能形式发布，未见定价页、付费路径或代运营收费事实；钱可能来自后续付费模板或服务，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-96fc7f32c52626cb
+  - gate: truth
+    status: insufficient
+    reason: 去 AI 痕迹与钩子公式的实际效果无公开测试、反馈或可复现结果，交付质量与安全边界无法核对，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-96fc7f32c52626cb
+    - ev-b32cec064e1e82e2
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认使用者对生成内容效果、去 AI 痕迹与持续使用的公开反馈。
+  market: ''
+  job: 个人品牌运营者或 B2B 销售在需要维持 LinkedIn 账号活跃度时，处理自己的选题、行业话题与互动对象，用这组 Claude 技能生成帖子、评论、回复和每周计划，并去掉 AI 痕迹，最终交付可直接发布的文案，发布与互动仍由本人完成。
+  job_en: Personal-brand operators or B2B sellers keeping a LinkedIn account active take their own topics,
+    industry themes and interaction targets, use this Claude skill pack to generate posts, comments, replies
+    and a weekly plan, and strip AI fingerprints, delivering publish-ready copy while publishing and engagement
+    stay manual.
+  pain: 持续产出符合平台调性的帖子和评论很耗时，钩子、评论角度和回复都要反复构思；通用 AI 生成的文本又容易被识别，影响账号可信度与专业形象。
+  pain_en: Continuously producing on-tone posts and comments is time-consuming, with hooks, comment angles
+    and replies all needing repeated drafting; generic AI text is also easily spotted, hurting account
+    credibility and professional image.
+  current_alternative: 自己写或套用模板，用通用聊天工具生成后再手工改写，或购买代运营服务；也有人干脆降低发帖频率。
+  current_alternative_en: Writing by hand or from templates, generating with a general chat tool and rewriting
+    manually, paying for a managed service, or simply posting less often.
+  usage_reason: 推断：相较通用聊天工具每次都要重写提示词、再手工去 AI 味，它把 21 条钩子公式、评论回复、资料评分和每周计划固化成可复用流程，并内置 humanizer 一步去掉 AI
+    痕迹，减少重复构思与改写步骤，因此高频发帖的 B2B 销售或个人品牌运营者会在需要稳定产出时选择它；但仓库仅 40→66 星，尚无用户反馈证明内容效果。
+  usage_reason_en: 'Inference: versus a general chat tool where prompts must be rewritten and AI tone
+    manually removed each time, it fixes 21 hook formulas, comment replies, profile scoring and a weekly
+    plan into a reusable flow with a built-in humanizer, cutting repeated drafting and rewriting, so frequent-posting
+    B2B sellers or personal-brand operators would pick it when they need steady output; with only 40→66
+    stars there is no user feedback proving content effectiveness.'

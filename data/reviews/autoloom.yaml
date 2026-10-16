@@ -461,3 +461,55 @@
     and evidence recording into the same step as AI execution, cutting the after-the-fact tracing step,
     so teams under review or audit constraints would choose it when introducing AI code changes; this
     is an inference from product capability, not yet supported by user feedback.
+- id: req-full-autoloom-2026-10-16
+  project_slug: autoloom
+  level: full
+  reviewed_at: '2026-10-16T01:19:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI改代码后变更依据与验收证据缺失的需求，痛点具体且与评审、审计后果挂钩；旧做法是人工写说明、翻diff，属工作流结构推理，公开材料未给用户反馈。
+    evidence_ids:
+    - ev-458466ba9d48dbb6
+    - ev-69ca5ec9e7066934
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标在337至859间波动，属关注度证据，没有团队采用、持续使用或评审流程落地的记录，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-458466ba9d48dbb6
+    - ev-1d665117bf37f471
+    - ev-69ca5ec9e7066934
+  - gate: model
+    status: insufficient
+    reason: 客户端免费且未披露定价，买方可能是受审计约束的开发团队或企业采购，但收费路径与付费方属判断而非已验证事实，存在只靠关注度续命的风险。
+    evidence_ids:
+    - ev-458466ba9d48dbb6
+    - ev-67290790446ff1a3
+  - gate: truth
+    status: insufficient
+    reason: 未说明治理规则如何配置、证据以什么形式产出、能否被评审方采信，交付确定性与人工边界缺少公开材料支持，需看文档与issue。
+    evidence_ids:
+    - ev-458466ba9d48dbb6
+    - ev-40a5dc52caafdf67
+  next_validation: 追踪该仓库的README、文档与issue/discussion，确认变更证据的实际产出形式、治理规则配置方式，以及是否有团队在评审流程中采用。
+  market: ''
+  job: 开发团队在让AI修改既有代码库时，需要留下变更依据与验收证据，于是用该桌面客户端记录变更前基线与交付证据，完成可追溯、可评审的代码变更。
+  job_en: When letting AI modify an existing codebase, a development team needs to leave change rationale
+    and acceptance evidence, so it uses this desktop client to record pre-change baselines and delivery
+    evidence, producing traceable, reviewable code changes.
+  pain: AI批量改动代码后，团队难以说清每一步改了什么、依据是什么；评审、验收或审计时缺少可核对材料，只能靠人工回忆和翻diff，不记录就留下责任与合规缺口。
+  pain_en: After AI edits code in bulk, teams struggle to say what each step changed and on what basis;
+    reviews, acceptance or audits lack checkable material, forcing reliance on memory and diff reading,
+    and leaving accountability and compliance gaps when nothing is recorded.
+  current_alternative: 旧做法是人工写提交说明、翻看diff，或用通用版本控制与代码评审流程事后补记录，治理规则靠人自觉执行。
+  current_alternative_en: The old way is writing commit messages by hand, reading diffs, or patching records
+    afterwards through generic version control and code review, with governance rules enforced only by
+    human discipline.
+  usage_reason: 相较人工补写提交说明和翻diff，它把基线与证据记录嵌入AI执行的同一步，减少事后追溯与补材料这一步，因此受评审、审计或交付验收约束的团队在引入AI改代码时会选择它。这是基于产品能力与工作流结构的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with manually writing commit messages and reading diffs, it embeds baseline
+    and evidence recording into the same step as AI execution, cutting the after-the-fact tracing and
+    backfilling step, so teams under review, audit or delivery-acceptance constraints would choose it
+    when introducing AI code changes. This is an inference from product capability and workflow structure,
+    not yet backed by user feedback.

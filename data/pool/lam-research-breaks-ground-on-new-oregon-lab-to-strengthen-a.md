@@ -23,7 +23,7 @@ summary: Lam Research Breaks Ground on New Oregon Lab to Strengthen AI Chip Manu
   thelec.net
 first_seen: '2026-08-27T08:03:13Z'
 last_seen: '2026-09-01T14:56:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

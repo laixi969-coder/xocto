@@ -1,0 +1,81 @@
+- id: req-initial-ternary-bonsai-2-hermes-webgpu-2026-10-16
+  project_slug: ternary-bonsai-2-hermes-webgpu
+  level: initial
+  reviewed_at: '2026-10-16T00:25:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是浏览器内本地推理这一需求，痛点指向数据不出设备与免安装，但公开材料未给出具体使用场景，需求强度无法确认。
+    evidence_ids:
+    - ev-7a7615f91f934d92
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区点赞，没有可归因到该项目的使用、留存或讨论证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-7a7615f91f934d92
+  - gate: model
+    status: insufficient
+    reason: 开源演示项目，未见定价、付费方或商业路径，钱从哪来完全未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7a7615f91f934d92
+  - gate: truth
+    status: insufficient
+    reason: 浏览器内运行量化模型在能力与稳定性上是否满足真实任务，公开材料未提供可复现的交付结果。
+    evidence_ids:
+    - ev-7a7615f91f934d92
+  next_validation: 收集该 Space 的官方说明或仓库 README，确认它支持的具体任务、输入材料类型与输出交付形式。
+  market: ''
+  job: 开发者或隐私敏感团队在需要让 agent 处理不便上传的本地材料时，打开浏览器页面运行模型，完成一次对话或文档处理任务。
+  job_en: A developer or privacy-sensitive team opens a browser page to run the model and complete a chat
+    or document task on local material that cannot be uploaded.
+  pain: 云端推理要把材料发到第三方，本地部署又要装环境、配显卡，两者都有摩擦；但公开材料未说明具体是谁在什么场景下被卡住。
+  pain_en: Cloud inference requires sending material to a third party, while local deployment needs environment
+    setup and GPU configuration; the public material does not say who is actually blocked in which scenario.
+  current_alternative: 用云端 API 调用模型，或本地装 Ollama 一类运行时；也有人直接用网页版通用助手。
+  current_alternative_en: Calling a cloud model API, running a local runtime such as Ollama, or simply
+    using a web-based general assistant.
+  usage_reason: 推断：相较云端 API，它在浏览器内完成推理，材料不出设备，省掉上传与本地安装两步；但缺少使用数据与场景证据，尚不能确认哪类用户会持续选择它。
+  usage_reason_en: 'Inference: versus a cloud API it runs inference in the browser so material never leaves
+    the device, removing upload and local-install steps; without usage data or scenario evidence it is
+    unclear which users would keep choosing it.'
+- id: req-full-ternary-bonsai-2-hermes-webgpu-2026-10-16
+  project_slug: ternary-bonsai-2-hermes-webgpu
+  level: full
+  reviewed_at: '2026-10-16T01:24:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是浏览器内本地推理这一需求，痛点指向数据不出设备与免安装，但公开材料未给出具体使用场景，需求强度无法确认。
+    evidence_ids:
+    - ev-7a7615f91f934d92
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该 Space 的官方说明或仓库 README，确认它支持的具体任务、输入材料类型与输出交付形式。
+  market: ''
+  job: 开发者或隐私敏感团队在需要让 agent 处理不便上传的本地材料时，打开浏览器页面运行模型，完成一次对话或文档处理任务。
+  job_en: A developer or privacy-sensitive team opens a browser page to run the model and complete a chat
+    or document task on local material that cannot be uploaded.
+  pain: 云端推理要把材料发到第三方，本地部署又要装环境、配显卡，两者都有摩擦；但公开材料未说明具体是谁在什么场景下被卡住。
+  pain_en: Cloud inference requires sending material to a third party, while local deployment needs environment
+    setup and GPU configuration; the public material does not say who is actually blocked in which scenario.
+  current_alternative: 用云端 API 调用模型，或本地装 Ollama 一类运行时；也有人直接用网页版通用助手。
+  current_alternative_en: Calling a cloud model API, running a local runtime such as Ollama, or simply
+    using a web-based general assistant.
+  usage_reason: 推断：相较云端 API，它在浏览器内完成推理，材料不出设备，省掉上传与本地安装两步；但缺少使用数据与场景证据，尚不能确认哪类用户会持续选择它。
+  usage_reason_en: 'Inference: versus a cloud API it runs inference in the browser so material never leaves
+    the device, removing upload and local-install steps; without usage data or scenario evidence it is
+    unclear which users would keep choosing it.'

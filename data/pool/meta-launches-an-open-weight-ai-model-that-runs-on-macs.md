@@ -1,11 +1,12 @@
 ---
 slug: meta-launches-an-open-weight-ai-model-that-runs-on-macs
-name: Meta launches an open-weight AI model that runs on Macs
+name: Muse Spark Open
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Meta 与 Apple 联合发布的开放权重模型，可在 Apple 芯片 Mac 上本地运行，属于模型层发布而非独立应用。
 inspiration: ''
-summary_en: ''
+summary_en: An open-weight model released by Meta with Apple that runs locally on Apple silicon Macs;
+  a model-layer release rather than a standalone application.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Meta and Apple have teamed up for the launch of the social media giant'
   Open, which will run locally on Apple silicon.
 first_seen: '2026-10-16T00:25:40Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Meta launches an open-weight AI model that runs on Macs
+# Muse Spark Open
 
 Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.
 

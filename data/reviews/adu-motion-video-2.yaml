@@ -1,0 +1,90 @@
+- id: req-initial-adu-motion-video-2-2026-10-16
+  project_slug: adu-motion-video-2
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频动画包装贵、慢、模板难复用的问题，旧做法是外包或自学动效软件，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-9c8e8c5a9d0a6395
+    - ev-ec91d7f3af6904cb
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星标从 304 升到 333，属关注度信号，没有创作者反馈或成片案例说明它被持续使用。
+    evidence_ids:
+    - ev-9c8e8c5a9d0a6395
+    - ev-ec91d7f3af6904cb
+  - gate: model
+    status: insufficient
+    reason: 开源模板未披露收费方式，买方可能是个人创作者或小型制作团队，付费路径未公开，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-9c8e8c5a9d0a6395
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成动画的成品质量与人工返工比例，交付确定性缺少材料。
+    evidence_ids:
+    - ev-ec91d7f3af6904cb
+  next_validation: 查看该模板仓库的 issue 或 discussion，确认创作者实际使用中出现的失败环节与返工情况。
+  market: ''
+  job: 口播或知识讲解类视频创作者在需要动画包装时，处理模板文件并交给 AI 助手，生成可直接用于成片的动画片段。
+  job_en: Talking-head or explainer video creators, when they need animated packaging, handle template
+    files and hand them to an AI assistant to generate animated segments usable in the final video.
+  pain: 动画包装要么外包贵且慢，要么自己学动效软件，模板格式不通用导致复用困难。
+  pain_en: Animated packaging is either expensive and slow to outsource or requires learning motion software,
+    and non-portable template formats make reuse hard.
+  current_alternative: 外包动效制作，或自己用剪辑与动效软件手工搭建模板。
+  current_alternative_en: Outsourcing motion design, or hand-building templates in editing and motion
+    software.
+  usage_reason: 推断：相较外包或自学动效软件，它把模板变成可直接发给助手的开放格式，省去从零搭建动画这一步，因此高频出片、预算有限的口播创作者会尝试。
+  usage_reason_en: 'Inference: compared with outsourcing or learning motion software, it turns templates
+    into an open format you can hand to an assistant, removing the build-from-scratch step, so frequent,
+    budget-limited talking-head creators would try it.'
+- id: req-full-adu-motion-video-2-2026-10-16
+  project_slug: adu-motion-video-2
+  level: full
+  reviewed_at: '2026-10-16T01:18:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播与知识讲解视频的动画包装需求，痛点是外包贵慢、自学动效软件门槛高、模板格式不通用难复用；旧做法是外包或手工搭建，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-9c8e8c5a9d0a6395
+    - ev-ec91d7f3af6904cb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 304 升到 333，属关注度信号，没有创作者反馈或成片案例说明它被持续使用，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-9c8e8c5a9d0a6395
+    - ev-ec91d7f3af6904cb
+  - gate: model
+    status: insufficient
+    reason: 开源模板未披露收费方式，买方可能是个人创作者或小型制作团队，付费路径未公开，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-9c8e8c5a9d0a6395
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成动画的成品质量与人工返工比例，交付确定性缺少可复现材料，安全与人工边界也未说明。
+    evidence_ids:
+    - ev-ec91d7f3af6904cb
+  next_validation: 查看该模板仓库的 issue 或 discussion，确认创作者实际使用中出现的失败环节与返工情况。
+  market: ''
+  job: 口播或知识讲解类视频创作者在需要动画包装时，把 MotionGit 上的 .motion 模板下载后发给自己的 AI 助手，由助手生成代码级动画片段，用于成片。
+  job_en: Talking-head or explainer video creators, when they need animated packaging, download .motion
+    templates from MotionGit and hand them to their AI assistant to generate code-level animated segments
+    for the final video.
+  pain: 动画包装要么外包贵且慢，要么自己学动效软件；模板格式不通用导致复用困难，每次出片都要从零搭建动画。
+  pain_en: Animated packaging is either expensive and slow to outsource or requires learning motion software;
+    non-portable template formats make reuse hard, forcing creators to rebuild animations from scratch
+    for each video.
+  current_alternative: 外包动效制作，或自己用剪辑与动效软件手工搭建模板。
+  current_alternative_en: Outsourcing motion design, or hand-building templates in editing and motion
+    software.
+  usage_reason: 推断：相较外包或自学动效软件，它把模板变成可直接发给助手的开放 .motion 格式，省去从零搭建动画这一步，因此高频出片、预算有限的口播创作者会在需要动画包装时选择它。
+  usage_reason_en: 'Inference: compared with outsourcing or learning motion software, it turns templates
+    into an open .motion format that can be handed directly to an assistant, removing the build-from-scratch
+    step, so frequent, budget-limited talking-head creators would choose it when they need animated packaging.'

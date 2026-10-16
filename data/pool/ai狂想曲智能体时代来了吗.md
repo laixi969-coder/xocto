@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE13TTNaUGxrNV9S
 summary: AI狂想曲：智能体时代来了吗？ 上海新闻
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

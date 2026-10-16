@@ -22,7 +22,7 @@ summary: Profound (tryprofound.com) 前后台 1:1 学习复刻 · Next.js 16 / R
   for learning only, not affiliated with Profound Inc.
 first_seen: '2026-10-15T00:32:09Z'
 last_seen: '2026-10-16T00:25:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

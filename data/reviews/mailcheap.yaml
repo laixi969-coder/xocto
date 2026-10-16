@@ -1,0 +1,88 @@
+- id: req-initial-mailcheap-2026-10-16
+  project_slug: mailcheap
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者为沉睡订阅者付费的需求，痛点是名单越大账单越重，旧做法是按订阅人数分档付费。
+    evidence_ids:
+    - ev-447cababf16e0f27
+    - ev-af0b70f5b299e259
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 930 增至 1052，说明有关注，但没有用户评价或持续使用证据支撑共识。
+    evidence_ids:
+    - ev-447cababf16e0f27
+    - ev-af0b70f5b299e259
+  - gate: model
+    status: supported
+    reason: 按实际发送邮件量计费，买方是发送通讯的创作者或团队，付费路径清晰，但具体价格未披露。
+    evidence_ids:
+    - ev-af0b70f5b299e259
+  - gate: truth
+    status: supported
+    reason: 交付物是实际发出的邮件，结果可核对，自托管与托管两条路径的边界仍需确认。
+    evidence_ids:
+    - ev-af0b70f5b299e259
+  next_validation: 查看 mailcheap 官方定价页，确认按发送量计费的具体档位与自托管支持范围。
+  market: ''
+  job: 独立创作者与小型内容团队在定期向订阅者发送邮件通讯时，需要把内容发出去并管理订阅名单，同时控制发送成本。
+  job_en: Independent creators and small content teams, when regularly sending newsletters to subscribers,
+    need to get the content out, manage the subscriber list and control sending cost.
+  pain: 按订阅者总数计费的旧模式让创作者为大量不打开邮件的沉睡订阅者持续付费，名单越大账单越重。
+  pain_en: The old per-subscriber pricing model makes creators keep paying for many dormant subscribers
+    who never open, so the bigger the list the heavier the bill.
+  current_alternative: 旧做法是使用按订阅人数分档计费的通讯平台，为整份名单付月费，即使其中多数人不再阅读。
+  current_alternative_en: The old way is using newsletter platforms priced by subscriber tiers, paying
+    a monthly fee for the whole list even though most no longer read it.
+  usage_reason: 推断：它把计费口径从订阅者总数改成实际发送量，直接减少为沉睡名单付费这一步，因此名单大但打开率低的创作者会优先考虑它。
+  usage_reason_en: 'Inference: it changes the billing basis from total subscribers to actual sends, directly
+    removing the step of paying for dormant names, so creators with large but low-open lists would consider
+    it first.'
+- id: req-full-mailcheap-2026-10-16
+  project_slug: mailcheap
+  level: full
+  reviewed_at: '2026-10-16T01:22:09Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者为沉睡订阅者付费的需求，痛点是名单越大账单越重，旧做法是按订阅人数分档付费；这是从产品说明与旧计费结构作出的工作流推理，尚无用户评价佐证。
+    evidence_ids:
+    - ev-447cababf16e0f27
+    - ev-af0b70f5b299e259
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 930 增至 1052，说明有关注度，但没有用户评价、案例或持续使用证据支撑共识，关注度不能等同于采用。
+    evidence_ids:
+    - ev-447cababf16e0f27
+    - ev-af0b70f5b299e259
+  - gate: model
+    status: supported
+    reason: 按实际发送邮件量计费，买方是发送通讯的创作者或团队，付费路径清晰；具体价格档位未在公开材料披露，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-af0b70f5b299e259
+  - gate: truth
+    status: supported
+    reason: 交付物是实际发出的邮件，结果可核对，自托管与托管两条路径并存；但自托管支持范围与安全边界仍需确认。
+    evidence_ids:
+    - ev-af0b70f5b299e259
+  next_validation: 查看 mailcheap 官方定价页，确认按发送量计费的具体档位与自托管支持范围。
+  market: ''
+  job: 独立创作者与小型内容团队在定期向订阅者发送邮件通讯时，需要把内容发出去、管理订阅名单，同时控制发送成本。
+  job_en: Independent creators and small content teams, when regularly sending newsletters to subscribers,
+    need to deliver the content, manage the subscriber list, and control sending cost.
+  pain: 按订阅者总数计费的旧模式让创作者为大量不打开邮件的沉睡订阅者持续付费，名单越大账单越重。
+  pain_en: The old per-subscriber pricing model makes creators keep paying for many dormant subscribers
+    who never open, so the bigger the list the heavier the bill.
+  current_alternative: 旧做法是使用按订阅人数分档计费的通讯平台（如 beehiiv 一类），为整份名单付月费，即使其中多数人不再阅读。
+  current_alternative_en: The old way is using newsletter platforms priced by subscriber tiers (such as
+    beehiiv and the like), paying a monthly fee for the whole list even though most no longer read it.
+  usage_reason: 推断：它把计费口径从订阅者总数改成实际发送量，直接减少为沉睡名单付费这一步，因此名单大但打开率低的创作者会优先考虑它；自托管选项还让在意数据归属的团队多一条路径。
+  usage_reason_en: 'Inference: it changes the billing basis from total subscribers to actual sends, directly
+    removing the step of paying for dormant names, so creators with large but low-open lists would consider
+    it first; the self-host option adds a path for teams that care about data ownership.'

@@ -1,0 +1,87 @@
+- id: req-initial-客户银行将部署palantir的foundry及人工智能平台以提升客户体验-2026-10-16
+  project_slug: 客户银行将部署palantir的foundry及人工智能平台以提升客户体验
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决银行客户数据分散、服务决策难审计的需求，痛点刚性来自监管与客户体验双重压力；买方为银行，公开材料未披露定价。
+    evidence_ids:
+    - ev-1014a9e68ce4b226
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一家银行部署的报道，未见其他金融机构采用或行业共识证据。
+    evidence_ids:
+    - ev-1014a9e68ce4b226
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露该部署的合同金额、计价方式或收入确认，付费路径仍属推断。
+    evidence_ids:
+    - ev-1014a9e68ce4b226
+  - gate: truth
+    status: insufficient
+    reason: 未见部署范围、上线时间与人工复核边界的说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-1014a9e68ce4b226
+  next_validation: 查找客户银行或 Palantir 官方发布的部署公告或案例页，确认部署范围、上线时间与计价方式。
+  market: ''
+  job: 银行运营与客户体验团队在客户数据分散于多个系统、服务流程割裂时，处理客户与交易数据，要完成客户体验改善与合规可追溯的服务决策。
+  job_en: Bank operations and customer experience teams, when customer data sits across multiple systems
+    and service workflows are fragmented, work with customer and transaction data to deliver improved
+    customer experience and auditable service decisions.
+  pain: 客户数据分散、模型输出难以审计，导致服务决策慢且难以向监管解释；公开材料未给出该银行此前的具体替代做法。
+  pain_en: Scattered customer data and hard-to-audit model output slow service decisions and complicate
+    regulatory explanation; public material does not state the bank's prior alternative.
+  current_alternative: 公开材料未说明客户银行此前使用何种工具或人工流程，替代方案仍待核验。
+  current_alternative_en: Public material does not describe what tools or manual processes Customers Bank
+    used before; the prior alternative remains unverified.
+  usage_reason: 推断：相较银行自建数据管道与模型团队，Foundry 把数据接入、权限与模型运行放在同一平台，减少跨系统拼接与合规举证的工作量，因此需要可审计 AI 决策的银行会考虑它。
+  usage_reason_en: 'Inference: compared with building data pipelines and model teams in-house, Foundry
+    places data onboarding, permissions and model execution on one platform, cutting cross-system stitching
+    and compliance evidence work, so banks needing auditable AI decisions would consider it.'
+- id: req-full-客户银行将部署palantir的foundry及人工智能平台以提升客户体验-2026-10-16
+  project_slug: 客户银行将部署palantir的foundry及人工智能平台以提升客户体验
+  level: full
+  reviewed_at: '2026-10-16T01:25:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决银行客户数据分散、服务决策难审计的需求，痛点刚性来自监管与客户体验双重压力；买方为银行，公开材料未披露定价。
+    evidence_ids:
+    - ev-4ac04d7c9da63d87
+    - ev-897205967fecec7c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一家银行部署的报道，未见其他金融机构采用或行业共识证据。
+    evidence_ids:
+    - ev-4ac04d7c9da63d87
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露该部署的合同金额、计价方式或收入确认，付费路径仍属推断。
+    evidence_ids:
+    - ev-897205967fecec7c
+  - gate: truth
+    status: insufficient
+    reason: 未见部署范围、上线时间与人工复核边界的说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-4ac04d7c9da63d87
+  next_validation: 查找客户银行或 Palantir 官方发布的部署公告或案例页，确认部署范围、上线时间与计价方式。
+  market: ''
+  job: 银行运营与客户体验团队在客户数据分散于多个系统、服务流程割裂的情况下，处理内部客户与交易数据，要完成客户体验改善与可审计的服务决策。
+  job_en: Bank operations and customer experience teams, when customer data sits across multiple systems
+    and service workflows are fragmented, work with internal customer and transaction data to deliver
+    improved customer experience and auditable service decisions.
+  pain: 客户数据分散、模型输出难以审计，导致服务决策慢且难以向监管解释；公开材料未给出该银行此前的具体替代做法。
+  pain_en: Scattered customer data and hard-to-audit model output slow service decisions and complicate
+    regulatory explanation; public material does not state the bank's prior alternative.
+  current_alternative: 公开材料未说明客户银行此前使用何种工具或人工流程，替代方案仍待核验。
+  current_alternative_en: Public material does not describe what tools or manual processes Customers Bank
+    used before; the prior alternative remains unverified.
+  usage_reason: 推断：相较银行自建数据管道与模型团队，Foundry 把数据接入、权限与模型运行放在同一平台，减少跨系统拼接与合规举证的工作量，因此需要可审计 AI 决策的银行会考虑它。
+  usage_reason_en: 'Inference: compared with building data pipelines and model teams in-house, Foundry
+    places data onboarding, permissions and model execution on one platform, cutting cross-system stitching
+    and compliance evidence work, so banks needing auditable AI decisions would consider it.'

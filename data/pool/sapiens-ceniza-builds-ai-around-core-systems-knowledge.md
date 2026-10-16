@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxOWFdIWVlYMGhI
 summary: Sapiens’ Ceniza Builds AI Around Core Systems’ Knowledge Insurance Innovation Reporter
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1037,3 +1037,45 @@
     results, writing tools, and image tools; users whose task requires producing while researching would
     therefore prefer it. Public materials do not yet provide user statements or retention data to confirm
     this motive.'
+- id: req-full-ai-搜索-百度-2026-10-16
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-10-16T01:19:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度官方 AI 搜索产品页与更新日志，确认是否出现可归因到该功能的用户使用数据、留存说明或独立第三方评测。
+  market: ''
+  job: 普通 PC 用户在百度搜索框里提出一个需要多步查证或需要产出文字、图片的复杂问题，希望在同一页面里边问边追问，并顺手完成写作或配图。
+  job_en: An ordinary PC user poses a complex question in the Baidu search box that needs multi-step verification
+    or text/image output, and wants to keep asking follow-ups and finish writing or illustration on the
+    same page.
+  pain: 公开材料只给出功能清单（灵感探索、智能文字创作、图片创作、AI 阅读、智能体），没有用户抱怨、旧流程描述或不采用代价；从结构推理看，用户原本已可用搜索加多个标签页加独立 AI 工具完成同样任务，缺少它并不会失去什么。
+  pain_en: Public materials only list features (inspiration exploration, text creation, image creation,
+    AI reading, agents) with no user complaints, old-workflow description, or cost of not adopting; structurally,
+    users can already do the same with search plus multiple tabs plus standalone AI tools, so nothing
+    is lost without it.
+  current_alternative: 百度搜索本身加多个标签页、独立 AI 对话工具（如通用聊天助手）以及各类写作、绘图工具的组合。
+  current_alternative_en: Baidu search itself plus multiple tabs, standalone AI chat tools, and separate
+    writing and image-generation tools.
+  usage_reason: 推断：把对话式追问、写作和做图收进同一搜索页，可省去在搜索页与独立 AI 工具之间切换、复制粘贴上下文的步骤，因此习惯在百度内完成检索的 PC 用户可能顺手试用；但公开材料未提供任何用户反馈或留存证据，无法确认这是真实选择动机。
+  usage_reason_en: 'Inference: folding conversational follow-ups, writing, and image generation into one
+    search page removes the step of switching between search and standalone AI tools and re-pasting context,
+    so PC users who already search inside Baidu may try it casually; however, no public user feedback
+    or retention evidence confirms this as a real choice motive.'

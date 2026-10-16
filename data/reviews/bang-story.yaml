@@ -537,3 +537,55 @@
     between tools and stitching segments, so solo creators with only a story idea and no production crew
     would choose it to test-produce multiple story videos quickly; public materials contain no user feedback
     confirming this motive.'
+- id: req-full-bang-story-2026-10-16
+  project_slug: bang-story
+  level: full
+  reviewed_at: '2026-10-16T01:19:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是故事类视频从创意到脚本、配图、成片的前期制作需求，痛点是个人创作者手工写稿找图周期长、难以稳定更新；公开说明已能还原输入创意到输出视频的闭环，属工作流结构推理，尚无用户抱怨或耗时数据佐证强度。
+    evidence_ids:
+    - ev-bdaedae65c436ba2
+    - ev-5d553fb55df2176d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 73 增至 145，说明开发者社区持续关注并有人复刻，但收藏与关注属规模信号，不能证明目标创作者已把它留在日常出片流程；缺少 issue、discussion 或用户评价说明真实使用场景。
+    evidence_ids:
+    - ev-bdaedae65c436ba2
+    - ev-eed8637f7eac97b9
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费方式或买方说明，无法判断收入来自个人订阅、按量生成还是其他；这是商业证据缺口，不反推需求不存在，但付费路径目前只能标为判断而非已验证事实。
+    evidence_ids:
+    - ev-bdaedae65c436ba2
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明成片质量、是否需逐段人工确认、生成失败如何处理以及版权与安全边界，交付能否稳定发生缺少可复现证据；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-bdaedae65c436ba2
+    - ev-c2a5c67537edc8e5
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认是否有创作者公开描述实际出片流程、生成耗时与人工修改环节，作为交付确定性的公开证据。
+  market: ''
+  job: 做 YouTube 故事类视频的个人创作者或小团队，在只有一个故事创意、没有现成脚本和素材的情况下，打开桌面应用输入创意，让 AI 依次产出脚本、配图和视频，最终拿到可上传的成片文件。
+  job_en: An individual creator or small team making YouTube story videos, starting from only a story
+    idea with no script or assets, opens the desktop app, enters the idea, and has AI produce script,
+    images and video in sequence to obtain an uploadable finished file.
+  pain: 故事类视频的瓶颈在前期：从创意到可拍/可剪的脚本、分镜和配图需要大量手工写作与找图，单条视频准备周期长，个人创作者难以稳定产出；公开材料只说明产品把这段流程自动化，未给出用户抱怨、耗时或放弃率数据，痛点强度属工作流结构推理。
+  pain_en: 'The bottleneck in story videos is upstream: turning an idea into a shootable/editable script,
+    storyboard and images requires heavy manual writing and asset hunting, so per-video prep is long and
+    solo creators struggle to publish consistently; public materials only show the product automates this
+    stage, with no user complaints, time or abandonment data, so pain intensity is a workflow-structure
+    inference.'
+  current_alternative: 旧做法是创作者自己写脚本、用图库或绘图工具找配图、再用剪辑软件逐段拼接，或把脚本、配音、画面分别外包给不同工具和人；公开材料未说明它具体替代了哪一套组合。
+  current_alternative_en: The old way is for the creator to write the script, source images from stock
+    or drawing tools, and assemble segments in an editor, or to outsource script, voice and visuals to
+    separate tools and people; public materials do not say which specific stack it replaces.
+  usage_reason: 推断：相较手工写稿加逐段找图拼接，它把脚本、图片、视频三步串成一次输入后的连续产出，减少的是跨工具切换和逐段素材准备这两步负担，因此只有故事创意、缺少制作人力的个人创作者会在需要稳定更新时选择它；公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus manual scripting plus segment-by-segment asset assembly, it chains
+    script, images and video into one continuous output after a single input, removing the cross-tool
+    switching and per-segment asset prep steps, so solo creators with only an idea and no production capacity
+    would pick it when they need steady uploads; public materials contain no user feedback or case confirming
+    this motive.'

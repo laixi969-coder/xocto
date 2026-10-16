@@ -211,3 +211,56 @@
   usage_reason: 无法判断：材料未说明它相较手动跨应用操作减少了哪一步负担或改善了哪项可核对结果，因此不能解释用户为何选择它。
   usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus manual cross-app
     work or which checkable result it improves, so it cannot explain why users would choose it.'
+- id: req-full-open-instinct-2026-10-16
+  project_slug: open-instinct
+  level: full
+  reviewed_at: '2026-10-16T01:23:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人用户把手机上的指令落到一台自有计算机上执行、并跨代理协作完成事务的需求；痛点是手机与桌面执行之间的断点及多应用手动搬运。公开材料仅有仓库简介，痛点与旧流程属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+    - ev-9a4aff5f18265dda
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 280 升至 340，仅反映关注度增长；没有 issue 讨论、使用反馈或采用案例，无法判断共识卡在感知、想象、场景还是利益环节。
+    evidence_ids:
+    - ev-fac6fae7d41dd31e
+    - ev-8b76e1ecdc6eb26f
+    - ev-d1e256da8fe85210
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、买方或收费路径，to C 订阅、to B 部署还是纯社区项目均无法确认；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-fa85c761c212ddba
+    - ev-830821c33e2fd557
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明代理执行任务的成功率、失败回退、人工确认与安全边界，交付能否确定性发生无法核对；仅凭简介不能认定承诺可兑现。
+    evidence_ids:
+    - ev-9a4aff5f18265dda
+    - ev-1eeb7beb77722c2f
+  next_validation: 追踪 open-instinct 仓库 README 与 issue/discussion，确认它实际能完成的任务类型、自有计算机的执行环境、失败回退与人工确认方式。
+  market: ''
+  job: 个人用户在手机上用 iMessage 给一个个人代理发消息，让它在一台属于自己的计算机上执行跨应用任务，并与其他代理协作完成事项。
+  job_en: An individual texts a personal agent over iMessage so it executes cross-app tasks on a computer
+    of its own and coordinates with other agents to finish errands.
+  pain: 公开材料只给出仓库简介，未描述用户原先如何处理这些事务、卡在哪一步、不解决会失去什么；痛点只能从任务结构推断：手机端下达指令与桌面端执行之间存在断点，用户需自己在多个应用间搬运与操作。
+  pain_en: 'The public material is only a repository blurb and does not describe how users handled these
+    tasks before, where they got stuck, or what they lose; the pain can only be inferred from task structure:
+    a gap between issuing instructions on mobile and executing on a desktop, forcing users to shuttle
+    between apps themselves.'
+  current_alternative: 候选未提供旧做法信息；按任务结构推断，用户此前是在多个 App 间手动操作，或使用单一聊天式助手但无法在自己的一台计算机上落地执行。这是推断，不是材料事实。
+  current_alternative_en: The candidate gives no prior-practice information; by task-structure inference
+    users previously worked manually across multiple apps, or used a single chat assistant that could
+    not execute on a computer of their own. This is inference, not a material fact.
+  usage_reason: 推断：相较手动跨应用操作，它把入口收敛到用户已在用的 iMessage，由代理在自己的计算机上执行并调用其他代理，减少用户自己在应用间搬运与逐步操作这一环节；因此习惯用手机发消息、又需要桌面级执行能力的个人用户会在有跨应用事务时选择它。仓库星标从
+    280 增至 340 只说明关注度，不构成采用或留存证据。
+  usage_reason_en: 'Inference: versus manual cross-app work, it collapses the entry point into iMessage
+    that users already use, with the agent executing on its own computer and calling other agents, removing
+    the step where users shuttle and operate app by app; so individuals who habitually text from their
+    phone yet need desktop-level execution would choose it for cross-app errands. Stars rising from 280
+    to 340 indicate attention only, not adoption or retention.'

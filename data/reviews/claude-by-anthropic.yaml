@@ -656,3 +656,47 @@
     conversational delivery merge the ''split into rounds and stitch by hand'' step into one submission
     and one usable output, so developers and writers handling long codebases or documents would choose
     it in that situation; public materials do not yet show retention or repeat-purchase evidence.'
+- id: req-full-claude-by-anthropic-2026-10-16
+  project_slug: claude-by-anthropic
+  level: full
+  reviewed_at: '2026-10-16T01:20:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“Anthropic 的对话助手，主攻写代码、长文和复杂推理，靠用得深来收费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官方定价页与客户案例页面，确认计费单位、付费主体及公开的交付结果描述。
+  market: ''
+  job: 写代码、处理长文档和复杂推理的用户（开发者、分析师、写作者），在需要产出可交付文本或代码时，把材料与问题交给对话助手，要求得到可用的代码、长文或推理结论。
+  job_en: Users doing coding, long-document work, and hard reasoning (developers, analysts, writers) hand
+    materials and questions to a chat assistant when they need deliverable code, long-form text, or a
+    reasoned conclusion.
+  pain: 公开材料只说明它主攻写代码、长文和复杂推理并按深度使用收费，未提供用户抱怨、不采用代价或频率的公开证据；痛点强度目前只能从任务本身（长文与代码产出耗时、需要反复修改）作结构推理，不能当作已核验事实。
+  pain_en: Public materials only state that it targets coding, long writing, and hard reasoning and bills
+    for heavy use; there is no public evidence of user complaints, cost of non-adoption, or frequency.
+    Pain intensity is only a structural inference from the task itself (long writing and code output are
+    time-consuming and need iteration), not a verified fact.
+  current_alternative: 公开材料未说明用户当前如何完成这些任务，也未说明它实际替代了什么（通用搜索、其他对话助手或人工撰写均属推测）。
+  current_alternative_en: Public materials do not show how users complete these tasks today or what it
+    actually replaces (general search, other chat assistants, or manual writing are all speculation).
+  usage_reason: 推断：相较通用搜索或人工起草，它把长文与代码的生成、修改放在同一对话里连续完成，减少在多个工具间搬运材料的步骤，因此需要长上下文连续推理的用户会在写代码或长文时选择它；公开记录仅有
+    mau 39.81M、环比 10.79% 的规模与关注度数据，不能证明留存或付费，也不能作为选择理由。
+  usage_reason_en: 'Inference: versus general search or manual drafting, it keeps generation and revision
+    of long text and code in one continuous conversation, cutting the step of moving material between
+    tools, so users needing long-context reasoning would pick it for coding or long writing; the only
+    public record is 39.81M MAU and 10.79% MoM, which is scale and attention, not retention, payment,
+    or a reason for choice.'

@@ -21,7 +21,7 @@ canonical_url: https://currentaffairs.org/news/why-were-banning-ai
 summary: Why We're Banning AI
 first_seen: '2026-10-16T00:25:14Z'
 last_seen: '2026-10-16T00:25:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

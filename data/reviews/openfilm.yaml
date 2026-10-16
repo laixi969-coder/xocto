@@ -135,3 +135,54 @@
     in real time, so users can revise clip by clip in one place or just tell the agent what to change,
     skipping the rerun-the-whole-clip and re-import-into-editor steps; short-video or ad creators who
     iterate on drafts would try it first.'
+- id: req-full-openfilm-2026-10-16
+  project_slug: openfilm
+  level: full
+  reviewed_at: '2026-10-16T01:23:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决脚本到成片之间缺少可回改中间产物、改一处要重跑整段的需求，痛点刚性来自反复改稿；旧替代是生成工具加人工剪辑，属工作流结构推理。
+    evidence_ids:
+    - ev-81c85859625652d8
+    - ev-947ce335a9a20c0e
+    - ev-81f164aa656bc5a6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 293 升至 414 只说明关注度增长，缺少创作者评价、成片案例或重复使用证据，无法判断是否被持续留在工作流里。
+    evidence_ids:
+    - ev-310b1c2a014d0694
+    - ev-cbf8ef60b58b68c2
+    - ev-3c0213f13fd5d13b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未显示定价页或付费路径，买方与收费方式未核验；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-81c85859625652d8
+    - ev-947ce335a9a20c0e
+  - gate: truth
+    status: insufficient
+    reason: examples 仓库显示可打开、播放、修改并渲染 MP4，但未核验生成质量、可编辑粒度与人工确认边界，交付确定性缺少公开材料支持。
+    evidence_ids:
+    - ev-81f164aa656bc5a6
+    - ev-19f5ee675e967e0b
+  next_validation: 追踪 openfilm/examples 仓库新增成片案例与 openfilm 仓库 issue/discussion，确认生成片段的可编辑粒度、渲染结果与是否有创作者重复使用。
+  market: ''
+  job: 内容创作者或剪辑师在已有 Codex、Claude Code 等编程智能体的工作环境里，把脚本或素材交给代理生成一部片子，再在浏览器本地剪辑器 Studio 里逐段查看、修改并渲染成 MP4。
+  job_en: Content creators or editors working inside an existing coding-agent environment (Codex, Claude
+    Code, etc.) hand a script or footage to the agent to produce a film, then open it in the browser-based
+    local Studio editor to inspect, revise clip by clip, and render to MP4.
+  pain: 生成式视频工具通常只给一次性成片，改一处就要重跑整段，脚本到成片之间缺少可回改的中间产物；创作者被迫在生成工具与剪辑软件之间来回搬运。
+  pain_en: Generative video tools typically return a one-shot finished clip, so changing one part means
+    rerunning the whole segment, and there is no revisable intermediate artifact between script and final
+    cut; creators are forced to shuttle files between generation tools and editing software.
+  current_alternative: Runway、可灵等生成工具配合 Premiere/剪映等人工剪辑软件，或让编码代理写脚本后手工拼接素材。
+  current_alternative_en: Generation tools such as Runway or Kling combined with manual editors like Premiere
+    or CapCut, or having a coding agent write scripts and stitching footage by hand.
+  usage_reason: 推断：openfilm 把片子写成网页并让 Studio 实时显示成形过程，用户可在同一处逐段改动或直接对代理说改哪里，省去在生成工具与剪辑软件之间导出、重跑整段的搬运步骤，因此需要反复改稿的短视频或广告创作者会在已有编码代理的环境里先试它。
+  usage_reason_en: 'Inference: openfilm writes the film as a web page and lets Studio show it forming
+    in real time, so users can revise clip by clip in one place or just tell the agent what to change,
+    removing the export-and-rerun shuttle between generation tools and editors; short-video or ad creators
+    who iterate on drafts inside an existing coding-agent setup would try it first.'

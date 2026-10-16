@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/notchling-lives-in-your-notch
 summary: A little creature that lives in your MacBook notch
 first_seen: '2026-08-26T10:17:12Z'
 last_seen: '2026-09-01T14:55:58Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

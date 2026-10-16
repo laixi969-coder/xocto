@@ -22,7 +22,7 @@ summary: Swedish fintech startup secures $5 million pre-seed to build AI-powered
   ArcticStartup
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

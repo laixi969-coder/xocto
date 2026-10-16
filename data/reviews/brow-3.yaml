@@ -1,0 +1,89 @@
+- id: req-initial-brow-3-2026-10-16
+  project_slug: brow-3
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号额度不可见导致编码中断的问题，痛点具体，替代行为是手动查用量页，属于工作流推理。
+    evidence_ids:
+    - ev-b9efe1330e5ca8f1
+    - ev-bbf05e5419a19e54
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量开源关注度，没有用户评价或采用证据，是否形成共识无法判断。
+    evidence_ids:
+    - ev-b9efe1330e5ca8f1
+    - ev-bbf05e5419a19e54
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，开源项目如何获得收入尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b9efe1330e5ca8f1
+  - gate: truth
+    status: insufficient
+    reason: 额度读取依赖平台接口，准确性、稳定性与账号安全边界均未公开，交付确定性待核验。
+    evidence_ids:
+    - ev-b9efe1330e5ca8f1
+    - ev-bbf05e5419a19e54
+  next_validation: 收集 brow 仓库的 issue 与 README，确认额度读取方式、支持的账号数量与是否依赖非公开接口。
+  market: ''
+  job: 同时使用多个 Claude 账号的开发者，在编码过程中需要随时知道各账号的 5 小时与每周额度还剩多少、何时重置，以决定用哪个账号继续。
+  job_en: Developers running multiple Claude accounts need to know each account's remaining 5-hour and
+    weekly quota and reset time while coding, in order to pick which account to continue with.
+  pain: 额度用尽会中断编码，开发者只能靠反复打开网页或试错来确认剩余额度，切换账号还要重新登录。
+  pain_en: Running out of quota interrupts coding, and developers must repeatedly open web pages or guess
+    to check remaining quota, while switching accounts means logging in again.
+  current_alternative: 手动打开各账号的用量页面查看，或凭经验估计何时会触顶，账号切换靠浏览器手动登录。
+  current_alternative_en: Manually opening each account's usage page, or estimating when the limit will
+    hit, with account switching done by hand in the browser.
+  usage_reason: 推断：它把额度与重置时间直接放在常驻可见的刘海区域，省去反复打开用量页面这一步，并让每个账号在独立浏览器配置中登录，减少切换时的重复登录；因此重度多账号编码的开发者会在额度接近耗尽时选择它。
+  usage_reason_en: 'Inference: it places quota and reset time in an always-visible notch area, removing
+    the step of repeatedly opening usage pages, and signs each account into its own browser profile, cutting
+    repeated logins when switching; developers heavily using multiple accounts would therefore pick it
+    when quota nears exhaustion.'
+- id: req-full-brow-3-2026-10-16
+  project_slug: brow-3
+  level: full
+  reviewed_at: '2026-10-16T01:20:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号额度不可见导致编码中断的问题，痛点具体，替代行为是手动查用量页，属于工作流结构推理。
+    evidence_ids:
+    - ev-586e79daff96a1a5
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品自述与检索覆盖查询，没有用户评价或采用证据，是否形成共识无法判断。
+    evidence_ids:
+    - ev-586e79daff96a1a5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方与收入方式均不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-586e79daff96a1a5
+  - gate: truth
+    status: insufficient
+    reason: 额度读取依赖平台接口，准确性、稳定性与账号安全边界均未公开，交付确定性待核验。
+    evidence_ids:
+    - ev-586e79daff96a1a5
+  next_validation: 收集 brow 官方产品页或仓库 README 与 issue，确认额度读取方式、支持的账号数量与是否依赖非公开接口。
+  market: ''
+  job: 同时使用多个 Claude 账号的开发者，在编码过程中需要随时知道各账号的 5 小时与每周额度还剩多少、何时重置，以决定用哪个账号继续。
+  job_en: Developers running multiple Claude accounts need to know each account's remaining 5-hour and
+    weekly quota and reset time while coding, in order to pick which account to continue with.
+  pain: 额度用尽会中断编码，开发者只能靠反复打开网页或试错来确认剩余额度，切换账号还要重新登录。
+  pain_en: Running out of quota interrupts coding, and developers must repeatedly open web pages or guess
+    to check remaining quota, while switching accounts means logging in again.
+  current_alternative: 手动打开各账号的用量页面查看，或凭经验估计何时会触顶，账号切换靠浏览器手动登录。
+  current_alternative_en: Manually opening each account's usage page, or estimating when the limit will
+    hit, with account switching done by hand in the browser.
+  usage_reason: 推断：它把额度与重置时间直接放在常驻可见的刘海区域，省去反复打开用量页面这一步，并让每个账号在独立浏览器配置中登录，减少切换时的重复登录；因此重度多账号编码的开发者会在额度接近耗尽时选择它。
+  usage_reason_en: 'Inference: it places quota and reset time in an always-visible notch area, removing
+    the step of repeatedly opening usage pages, and signs each account into its own browser profile, cutting
+    repeated logins when switching; developers heavily using multiple accounts would therefore pick it
+    when quota nears exhaustion.'

@@ -22,7 +22,7 @@ summary: Customer service complaints top 3,078 cases as of Sept, surpassing last
   (HK)
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

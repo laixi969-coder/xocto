@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHh4TDlvMXJq
 summary: 科大讯飞亮相AI & Digital Bridge 2026论坛 展示全栈人工智能解决方案 哈通社
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

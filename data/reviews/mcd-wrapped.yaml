@@ -1,0 +1,86 @@
+- id: req-initial-mcd-wrapped-2026-10-16
+  project_slug: mcd-wrapped
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把消费记录做成可分享回顾的需求，痛点偏娱乐性，不做也没有实质损失，属于看着有趣但没有也行。
+    evidence_ids:
+    - ev-25ae554844743f67
+    - ev-75bedcd72cf738db
+    - ev-0ba4847b529f7151
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库收藏数从 89 增至 176，属于关注度信号，不能证明持续采用或分享行为。
+    evidence_ids:
+    - ev-25ae554844743f67
+    - ev-0ba4847b529f7151
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明数据来源、是否收费或由谁付费，买方与付费路径均不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0ba4847b529f7151
+  - gate: truth
+    status: insufficient
+    reason: 无法核验订单数据如何接入、方言播报是否自动生成，以及输出是否可确定性交付。
+    evidence_ids:
+    - ev-0ba4847b529f7151
+  next_validation: 收集该仓库 README 与 issue/discussion，确认订单数据接入方式、是否收费及实际输出样例。
+  market: ''
+  job: 个人用户想回顾自己一段时间在某连锁快餐品牌的消费记录，把零散订单整理成一份可分享的年度回顾内容。
+  job_en: An individual wants to review their own spending at a fast-food chain over a period and turn
+    scattered orders into a shareable annual recap.
+  pain: 订单分散在平台或会员系统里，用户自己很难汇总成有叙事感的回顾；但这类回顾属于娱乐性内容，不做也没有实质损失。
+  pain_en: Orders are scattered across platforms or loyalty systems and are hard for users to assemble
+    into a narrative recap; yet such recaps are entertainment, and skipping them costs nothing material.
+  current_alternative: 用户此前主要靠平台自带的年度账单或手动截图拼图来回顾消费。
+  current_alternative_en: Users previously relied on platform-provided annual bills or manually stitched
+    screenshots to review spending.
+  usage_reason: 推断：它把订单数据直接转成带方言播报的回顾内容，省去用户自己汇总和排版的步骤，因此愿意尝鲜分享的用户会在年末或品牌营销节点使用它；目前没有留存或复购证据。
+  usage_reason_en: 'Inference: it converts order data directly into a recap with dialect voice-over, removing
+    the user''s own aggregation and layout work, so novelty-seeking sharers may use it around year-end
+    or brand campaigns; no retention or repeat-use evidence exists yet.'
+- id: req-full-mcd-wrapped-2026-10-16
+  project_slug: mcd-wrapped
+  level: full
+  reviewed_at: '2026-10-16T01:22:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把麦当劳消费记录做成可分享回顾的需求，痛点偏娱乐性，不做也没有实质损失，属于看着有趣但没有也行。
+    evidence_ids:
+    - ev-25ae554844743f67
+    - ev-75bedcd72cf738db
+    - ev-0ba4847b529f7151
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库 README 与 issue/discussion，确认订单数据接入方式、是否收费及实际输出样例。
+  market: ''
+  job: 个人用户在年末或品牌营销节点，整理自己一段时间的麦当劳订单记录，把它变成一份带方言播报、可分享的消费回顾内容。
+  job_en: Around year-end or brand campaign moments, an individual assembles their own McDonald's order
+    history into a shareable spending recap with dialect voice-over.
+  pain: 订单散落在平台或会员系统里，用户自己汇总成有叙事感的回顾很费事；但这类回顾属于娱乐性内容，不做也没有实质损失，属于看着有趣但没有也行。
+  pain_en: Orders are scattered across platforms or loyalty systems and are laborious for users to assemble
+    into a narrative recap; yet such recaps are entertainment, and skipping them costs nothing material.
+  current_alternative: 用户此前主要靠平台自带的年度账单、手动截图拼图或第三方年度总结模板来回顾消费。
+  current_alternative_en: Users previously relied on platform-provided annual bills, manually stitched
+    screenshots, or third-party year-in-review templates to review spending.
+  usage_reason: 推断：它把订单数据直接转成带方言播报的回顾内容，省去用户自己汇总和排版的步骤，因此愿意尝鲜分享的用户会在年末或品牌营销节点使用它；目前没有留存或复购证据。
+  usage_reason_en: 'Inference: it converts order data directly into a recap with dialect voice-over, removing
+    the user''s own aggregation and layout work, so novelty-seeking sharers may use it around year-end
+    or brand campaigns; no retention or repeat-use evidence exists yet.'

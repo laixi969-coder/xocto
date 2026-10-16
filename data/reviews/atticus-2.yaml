@@ -1,0 +1,90 @@
+- id: req-initial-atticus-2-2026-10-16
+  project_slug: atticus-2
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决双手被占用或频繁切换应用时无法快速执行操作的问题，痛点来自注意力被打断；但支持范围与误操作代价未说明，买方也不清楚。
+    evidence_ids:
+    - ev-37a72a7bbed1c35e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，无下载、留存或用户评价，无法判断是否形成持续使用。
+    evidence_ids:
+    - ev-37a72a7bbed1c35e
+  - gate: model
+    status: insufficient
+    reason: 未见定价、付费路径或企业采购信息，钱可能来自个人订阅或团队席位，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-37a72a7bbed1c35e
+  - gate: truth
+    status: insufficient
+    reason: 权限边界、误操作回退与人工确认机制均未披露，交付能否确定发生无法核实。
+    evidence_ids:
+    - ev-37a72a7bbed1c35e
+  next_validation: 收集 Atticus 官方产品页或文档，确认支持的应用与动作清单、权限范围及误操作回退方式。
+  market: ''
+  job: Mac 用户在双手被占用或频繁切换应用时，需要不离开当前工作界面就完成打开文件、切换窗口、执行命令等操作，最终拿到的是电脑上已经完成的动作。
+  job_en: Mac users whose hands are busy or who switch apps constantly need to open files, switch windows
+    or run commands without leaving the current screen, and end up with an action already performed on
+    the computer.
+  pain: 键盘快捷键和鼠标操作要求手离开当前任务，跨应用操作还要记住各家的快捷方式，切换成本高且打断注意力。
+  pain_en: Keyboard shortcuts and mouse work require leaving the current task, and cross-app actions demand
+    memorizing each app's shortcuts, so switching is costly and breaks attention.
+  current_alternative: 现在靠系统快捷键、Spotlight、脚本工具或通用语音助手，前者要记组合键，后者多数只返回文字而不真正执行操作。
+  current_alternative_en: Today people rely on system shortcuts, Spotlight, scripting tools or general
+    voice assistants; the former require memorizing key combinations and the latter mostly return text
+    instead of actually performing actions.
+  usage_reason: 相较记快捷键或手动点菜单，它把“说出意图”直接映射为系统动作，省掉查找入口和切换窗口的步骤，因此双手被占用或频繁跨应用操作的用户会先试；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with memorizing shortcuts or clicking through menus, it maps a spoken intent
+    directly to a system action, removing the step of finding the entry point and switching windows, so
+    users with busy hands or heavy cross-app work would try it first; this is an inference from product
+    capability, not user feedback.
+- id: req-full-atticus-2-2026-10-16
+  project_slug: atticus-2
+  level: full
+  reviewed_at: '2026-10-16T01:19:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称其把 Mac 语音转为系统操作，但所引证据全部指向图书排版软件 atticus.io 与哲学家 Atticus 的维基条目，无一条描述该语音控制产品，需求与痛点均无法从公开事实写出。
+    evidence_ids:
+    - ev-295e8d90773fbcec
+    - ev-212da8376f67308f
+    - ev-3bec5a09b9ec0030
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Atticus 语音控制 Mac 产品的官方页面或文档（如 atticus.io 产品页、App Store 条目、部署文档），确认其真实产品定位、支持的应用与动作清单及权限范围。
+  market: ''
+  job: 候选摘要称 Mac 用户在双手被占用或频繁切换应用时按住一个键说话，让 Atticus 把语音转成系统操作指令并执行，最终拿到电脑上被完成的动作；但所引证据中没有任何一条描述该语音控制 Mac
+    的产品，任务对象无法从公开材料确认。
+  job_en: The candidate summary claims Mac users hold a key and speak so Atticus turns speech into system
+    actions and performs them, ending with an action done on the computer; however no cited evidence describes
+    such a voice-control Mac product, so the task cannot be confirmed from public material.
+  pain: 公开证据未提供任何关于语音操作 Mac 的痛点描述：没有用户抱怨、没有旧流程记录、没有跨应用切换成本的公开陈述，因此无法写出可引用的痛点。
+  pain_en: 'The public evidence offers no pain description for voice-controlling a Mac: no user complaints,
+    no record of the old workflow, no public statement about cross-app switching cost, so no citable pain
+    can be written.'
+  current_alternative: 证据中出现的替代物是 Atticus 写作排版软件（atticus.io）与公元二世纪哲学家 Atticus 的维基条目，二者都不是语音控制 Mac 的现有替代方式，真实替代路径在材料中缺失。
+  current_alternative_en: The alternatives appearing in the evidence are the Atticus book-formatting software
+    (atticus.io) and a Wikipedia entry on the 2nd-century philosopher Atticus; neither is a current alternative
+    for voice-controlling a Mac, and the real substitute path is absent from the material.
+  usage_reason: 由于没有任何一条证据描述该语音控制产品的能力、输入输出或交付结果，无法解释用户为何会在什么情况下选择它；现有证据指向的是图书排版工具与古代哲学人物，与候选摘要所述产品不对应。
+  usage_reason_en: Because no evidence describes this voice-control product's capability, input-output
+    or delivered result, there is no way to explain why or when a user would choose it; the available
+    evidence points to a book-formatting tool and an ancient philosopher, not the product in the summary.

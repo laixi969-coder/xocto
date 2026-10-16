@@ -1,0 +1,87 @@
+- id: req-initial-人形机器人最尴尬的事长了一双腿却只能定住干活-2026-10-16
+  project_slug: 人形机器人最尴尬的事长了一双腿却只能定住干活
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是机器人移动中稳定出力的需求，痛点真实，但公开材料只有演示视频，说不清具体工位、交付形态与人工介入边界。
+    evidence_ids:
+    - ev-5595b7ce85c4f013
+  - gate: consensus
+    status: insufficient
+    reason: 只有一篇媒体报道描述演示画面，没有客户、集成商或开发者采用信号，无法判断行业是否已形成共识。
+    evidence_ids:
+    - ev-5595b7ce85c4f013
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式；人形机器人整机与集成项目通常由研发预算或产业客户支付，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5595b7ce85c4f013
+  - gate: truth
+    status: insufficient
+    reason: 演示视频无法核对跨本体适配是否可复现，也没有安全边界与失败处理说明，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-5595b7ce85c4f013
+  next_validation: 收集源策未来官方发布页或技术文档，核验其全身智能模型支持的本体清单、数据采集方式与是否有客户部署说明。
+  market: ''
+  job: 人形机器人研发团队在需要机器人边走边完成抓取、按压、搬运等全身动作时，处理自采的全身交互数据与本体控制策略，要完成让同一模型在不同机器人本体上稳定执行全身任务。
+  job_en: Humanoid robotics teams, when a robot must grasp, press or carry while moving, work with self-collected
+    full-body interaction data and body-control policies to make one model reliably execute whole-body
+    tasks across different robot bodies.
+  pain: 公开演示里机器人干活时大多先站定锁定身体，双腿只起到把机器人送到任务面前的作用，导致人形结构的高成本换不来移动中出力的能力。
+  pain_en: In public demos robots usually lock their stance before working, so legs only deliver the robot
+    to the task and the high cost of a humanoid form buys no ability to exert force while moving.
+  current_alternative: 行业普遍用轮式底盘加固定工位机械臂，或让人形机器人先站稳再执行上肢动作，全身协调多靠分模块策略拼接。
+  current_alternative_en: The common alternative is a wheeled base with a fixed-station arm, or a humanoid
+    that stabilizes before moving its upper body, with whole-body coordination stitched from separate
+    module policies.
+  usage_reason: 推断：若自采全身交互数据真能让一套模型适配多种本体，团队可省去为每个本体单独采集与调参的环节，在需要移动中出力的工位优先试用；但公开材料只有演示视频，没有客户案例、定价或重复使用证据，尚不能确认团队已把它留在工作流里。
+  usage_reason_en: 'Inference: if self-collected whole-body data really lets one model adapt across bodies,
+    teams could skip per-body data collection and tuning and would trial it first at workstations requiring
+    force while moving; however only demo footage is public, with no customer cases, pricing or repeat-use
+    evidence, so sustained adoption cannot be confirmed.'
+- id: req-full-人形机器人最尴尬的事长了一双腿却只能定住干活-2026-10-16
+  project_slug: 人形机器人最尴尬的事长了一双腿却只能定住干活
+  level: full
+  reviewed_at: '2026-10-16T01:25:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 推断：它解决人形机器人移动与操作割裂、无法在非平地稳定出力的痛点。通过S0高频运控与S1长程智能基模协同，将末端追踪误差收窄至约2厘米并支持高差作业，工作流结构闭环成立。
+    evidence_ids:
+    - ev-f7b67a9a9af38281
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅展示实验室与特定场景演示，未见第三方机器人本体厂商或集成商的规模化采购与真实反馈，行业认知仍停留在技术演示阶段。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 官方尚未披露商业授权、定价方案或计费模式。商业化收入预期来自具身机器人整机厂研发采购或产业工况集成预算，属于路径推断而非验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 演示视频展示了不同构型的动作协同，但跨本体适配的泛化复现率、长程任务的抗扰动稳定性以及安全接管边界均缺乏公开量化数据核验。
+    evidence_ids: []
+  next_validation: 收集源策未来官方发布的技术文档或开发者接入说明，核验其S0/S1模型对外支持的本体清单与客户真实部署案例。
+  market: ''
+  job: 具身智能与机器人研发团队在人形机器人需要边移动边进行抓取、搬运或登高等作业时，处理全身姿态与末端执行协调控制，以完成在人类工作环境中稳定连续操作的任务。
+  job_en: Embodied AI and robotics teams, when humanoid robots need to grasp, carry, or climb while moving,
+    handle whole-body posture and end-effector coordination to perform stable continuous tasks in human
+    environments.
+  pain: 传统双足控制多局限于平地且通行与操作割裂，机器人必须站定才能伸手，且全身大幅动作时末端跟踪误差大，高成本双足无法在非平整动态场景下稳定出力。
+  pain_en: Traditional bipedal control is confined to flat terrain with locomotion disconnected from manipulation,
+    forcing robots to stand still before acting, while large-body movements suffer high end-effector error
+    and cannot exert stable force.
+  current_alternative: 普遍采用平地轮式底盘加固定机械臂，或通过步态与上肢模块化拼接让人形机器人站稳后再操作，辅以开源控制基线（如 SONIC）进行分段控制。
+  current_alternative_en: Commonly relying on wheeled bases with fixed arms, or modularly stitching gait
+    and manipulation so humanoids freeze before working, aided by open-source baselines like SONIC for
+    segmented control.
+  usage_reason: 推断：相较旧方案通行与操作割裂且误差达10厘米，该方案通过S0基模将末端误差收窄至约2厘米并支持高差地形，结合S1大脑规划长程任务，让团队无需为每个本体单独切分控制动作即可完成动态交付。
+  usage_reason_en: 'Inference: compared to modular methods with ~10cm error and frozen stances, this approach
+    cuts end-effector error to ~2cm across varied terrain via the S0 controller and plans tasks via S1,
+    enabling dynamic whole-body manipulation without per-body custom segmentation.'

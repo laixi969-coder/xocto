@@ -778,3 +778,56 @@
     returns editable SVG rather than raster output, removing the ''redraw into vector'' and ''manually
     browse references'' steps, so designers and startup brand leads already using Claude/Codex agents
     pick it for early concept work.'
+- id: req-full-logo-design-skill-2026-10-16
+  project_slug: logo-design-skill
+  level: full
+  reviewed_at: '2026-10-16T01:22:04Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把品牌需求转成可用 SVG 标志这一具体任务，痛点在手工绘制与位图生成器之间反复返工；仓库说明已给出输入、动作与交付闭环，属工作流结构推理，痛点刚性与交付确定性成立。
+    evidence_ids:
+    - ev-63331dac317a7ef9
+    - ev-242dbcbd9f8b4208
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 2,449 持续升至 3,444，说明开发者社区持续关注并把它纳入代理技能清单；但这是关注度证据，公开材料未见目标设计师的持续使用或评价，故共识仅部分成立。
+    evidence_ids:
+    - ev-63331dac317a7ef9
+    - ev-13193924540fa517
+  - gate: model
+    status: insufficient
+    reason: 这是开源 skill，公开材料未见定价页、付费主体或商业条款；谁付钱尚不可知，属商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-63331dac317a7ef9
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定产出合规 SVG、以及人工确认与品牌合规边界，公开材料只有功能描述，缺可复现实测或 issue 记录佐证。
+    evidence_ids:
+    - ev-242dbcbd9f8b4208
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有设计师或初创团队报告实际用它产出并交付 logo 的案例与返工情况。
+  market: ''
+  job: 品牌设计师或初创公司品牌负责人在需要产出可用的标志方案时，把品牌需求交给 Claude、Gemini CLI、Codex 等 AI 代理，由该 skill 按内置设计原则、流程与 SVG 规范生成标志，并调用测试工具与
+    1400+ 标志参考库比对，最终拿到可用的 SVG 标志文件。
+  job_en: A brand designer or startup brand lead who needs a usable logo hands the brief to an AI agent
+    (Claude, Gemini CLI, Codex) running this skill, which applies built-in design principles, process
+    and SVG craft to generate marks, cross-checks them against a 1,400+ logo reference library and testing
+    tools, and returns usable SVG logo files.
+  pain: 标志设计是高频但耗时的重复劳动：从草图到可交付的矢量文件要反复调整曲线、网格与可缩放性，非设计背景的初创负责人更难独立产出规范 SVG；公开材料未给出不采用的具体代价与频率，此判断为工作流结构推理。
+  pain_en: 'Logo work is frequent but slow: turning a concept into a deliverable vector file means repeated
+    curve, grid and scalability fixes, and non-designer startup leads struggle to produce spec-compliant
+    SVG on their own. Public materials do not quantify the cost or frequency of leaving this unsolved;
+    this is workflow-structure inference.'
+  current_alternative: 旧做法是设计师在 Illustrator/Figma 中手工绘制并反复导出，或使用在线 AI logo 生成器输出位图/模板化标志；初创负责人则外包给自由设计师或购买模板。
+  current_alternative_en: The old path is manual drawing and repeated export in Illustrator/Figma, or
+    online AI logo generators that output raster or template marks; startup leads otherwise outsource
+    to freelance designers or buy templates.
+  usage_reason: 相较手工绘制或模板生成器，该 skill 把设计原则、SVG 规范与参考库直接嵌入代理工作流，代理在生成阶段即按矢量规范产出并自检，减少“先出图再返工转矢量”的步骤；推断经常出
+    logo 且已在用 AI 代理的设计师或初创负责人会因此选择它，但公开材料未提供用户反馈或留存证据。
+  usage_reason_en: Compared with manual drawing or template generators, the skill embeds design principles,
+    SVG craft and a reference library directly into the agent workflow, so the agent produces and self-checks
+    vector-compliant output at generation time, cutting the 'draft then rework into vector' step. This
+    is inferred to attract designers or startup leads who produce logos often and already use AI agents,
+    but public materials provide no user feedback or retention evidence.

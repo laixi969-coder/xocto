@@ -1,0 +1,89 @@
+- id: req-initial-forest-2026-10-16
+  project_slug: forest
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长周期研究中证据丢失、错误累积与目标漂移的问题，替代的是人工在笔记本、文献工具与写作之间手动对齐。
+    evidence_ids:
+    - ev-1fadc328c07b01ef
+    - ev-cbe6f44f9791c6a2
+    - ev-f71ca8224db80611
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 199 增至 235，说明有开发者关注，但没有用户评价或实验室采用案例，关注度不等于持续使用。
+    evidence_ids:
+    - ev-1fadc328c07b01ef
+    - ev-cbe6f44f9791c6a2
+    - ev-f71ca8224db80611
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，可能来自实验室经费、机构采购或云服务；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-1fadc328c07b01ef
+  - gate: truth
+    status: insufficient
+    reason: 自动运行实验并生成论文，涉及实验安全、数据真实性与学术诚信边界，公开材料未说明人工审核与责任划分。
+    evidence_ids:
+    - ev-1fadc328c07b01ef
+  next_validation: 收集 forest 仓库的 issue 与 discussion，确认是否有实验室实际运行实验并报告可复现结果。
+  market: ''
+  job: 从事长周期课题的科研人员，在文献、假设、实验记录与论文写作之间来回切换时，需要把每一步的证据链保留下来。
+  job_en: Research scientists on long-horizon projects need to preserve the evidence chain across literature,
+    hypotheses, experiment records and paper writing as they switch between them.
+  pain: 研究周期长，证据容易散落、错误会累积、目标会漂移，事后很难追溯某个结论到底基于哪次实验或哪篇文献。
+  pain_en: Over long research cycles evidence scatters, errors compound and goals drift, making it hard
+    to trace which experiment or paper a conclusion actually rests on.
+  current_alternative: 目前靠实验记录本、文献管理软件、脚本与人工整理，论文写作与实验记录之间靠人手动对齐。
+  current_alternative_en: Today this relies on lab notebooks, reference managers, scripts and manual organization,
+    with paper writing and experiment records aligned by hand.
+  usage_reason: 推断：相比分散的笔记本与文献工具，forest 把假设、实验与结论挂在同一张可分支的图谱上，每条结论直接指向证据，减少了事后回溯“这个数字从哪来”的负担，因此对需要留痕的长周期课题有吸引力；公开材料未提供实验室采用或付费证据。
+  usage_reason_en: 'Inference: compared with scattered notebooks and reference tools, forest puts hypotheses,
+    experiments and conclusions on one branchable graph where each claim points to its evidence, reducing
+    the burden of tracing where a number came from, which appeals to long-horizon projects needing an
+    audit trail; public material provides no lab adoption or payment evidence.'
+- id: req-full-forest-2026-10-16
+  project_slug: forest
+  level: full
+  reviewed_at: '2026-10-16T01:21:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称解决长周期科研中证据丢失与目标漂移，但所附证据全是森林生态学条目和同名专注 App，无任何科研 agent 的用户任务、痛点或替代方式材料，无法还原需求。
+    evidence_ids:
+    - ev-1aec327fb111f8e3
+    - ev-c4128092ad481804
+    - ev-76406569cbf3746a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 forest 科研 agent 的官方产品页或仓库 README，确认其真实功能范围、输入输出与是否有实验室使用记录。
+  market: ''
+  job: 候选摘要称科研人员在长周期研究中把想法、文献、假设、实验与结果交给 forest 处理，但所附证据全部指向森林生态学条目与同名专注 App，无法还原任何具体科研工作流。
+  job_en: The candidate summary claims researchers hand ideas, literature, hypotheses, experiments and
+    results to forest, but every attached evidence item points to forest ecology entries or a same-named
+    focus app, so no concrete research workflow can be reconstructed.
+  pain: 公开证据未提供任何关于证据丢失、错误累积或目标漂移的用户痛点材料，无法确认该痛点真实存在及其强度。
+  pain_en: The public evidence contains no material on evidence loss, compounding errors or goal drift,
+    so the pain point's existence and intensity cannot be confirmed.
+  current_alternative: 证据中未出现科研人员当前使用的替代方式，仅有森林生态学定义与专注 App 说明。
+  current_alternative_en: No current alternative used by researchers appears in the evidence, only forest
+    ecology definitions and a focus app description.
+  usage_reason: 无法判断：证据与所述科研 agent 产品不匹配，缺少任何可归因到该产品的功能、用户或采用材料，因此无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the evidence does not match the described research agent product
+    and contains no product-attributable capability, user or adoption material, so no reason for choosing
+    it can be explained.'

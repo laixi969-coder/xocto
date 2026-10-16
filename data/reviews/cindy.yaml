@@ -825,3 +825,41 @@
     and preserves memory and task state, removing the re-paste-and-rebuild step when switching models,
     so developers who use several assistants and do not want to lose context would pick it mid-task; public
     material has no user feedback or case supporting this motive.'
+- id: req-full-cindy-2026-10-16
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-10-16T01:20:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 cindy 官方仓库的 README、issue 或 discussion，核验其声明的多模型切换与记忆保留在真实任务中的具体行为与已知限制。
+  market: ''
+  job: 开发者把不同厂商的写代码助手收进同一工作区，在任务中途切换模型，同时保留记忆与任务上下文。
+  job_en: Developers put coding assistants from different vendors in one workspace so they can switch
+    models mid-task without losing memory or work context.
+  pain: 公开材料只给出产品定位，未说明用户当前在切换模型时具体丢失什么、发生频率与不解决的代价，痛点强度无法从公开事实确认。
+  pain_en: Public material only states the product positioning; it does not show what users actually lose
+    when switching models, how often, or the cost of leaving it unsolved, so pain intensity cannot be
+    confirmed from public facts.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作，也未说明它实际替代了哪些工具或流程。
+  current_alternative_en: Public materials do not show how users complete this job today or which tools
+    or workflows it actually replaces.
+  usage_reason: 公开代码仓库有 1,995 个收藏、253 次复刻，说明开发者正在关注或试用；但这是关注度证据，不能解释用户为何选择它，也不能证明持续使用。
+  usage_reason_en: Its public repository has 1,995 stars and 253 forks, showing developer attention; but
+    this is attention evidence, not a reason users choose it, and does not prove repeat use.

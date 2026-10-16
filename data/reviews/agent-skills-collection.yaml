@@ -1022,3 +1022,46 @@
   usage_reason_en: The public repository's 209 stars and 4 forks only show developer attention, not why
     anyone chooses it; installation requiring antivirus off and elevated privileges adds trust cost, so
     the inference is that most will watch rather than keep it in their workflow.
+- id: req-full-agent-skills-collection-2026-10-16
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-10-16T01:18:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让开发者为 LLM agent 加装模块化技能，但公开材料只有产品自述与仓库收藏数，没有用户任务、痛点后果或旧替代行为的可引用事实，连需求与痛点都难以还原，故价值关无法成立。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的公开 issue、discussion 与 README 安装文档，确认是否存在用户报告的具体安装摩擦、技能不兼容或替代手写工具函数的实际使用记录。
+  market: ''
+  job: 开发者或 AI 助手使用者想给基于 LLM 的 agent 加装模块化技能，在本地或自托管环境里把技能包接入自己的 agent 工作流，完成原本需要自己写提示、写工具函数或拼脚本才能实现的任务。
+  job_en: A developer or LLM-agent user wants to add modular skills to an LLM-based agent, wiring skill
+    packages into a local or self-hosted agent workflow to accomplish tasks that would otherwise require
+    hand-written prompts, tool functions, or glue scripts.
+  pain: 公开材料只给出产品自述与仓库收藏数，没有用户抱怨、issue、评价或案例说明安装摩擦、技能不兼容或维护成本带来的具体后果；因此痛点强度、发生频率和不采用代价都无法从公开事实确认。
+  pain_en: Public materials only offer the product's own description and repository star count; no user
+    complaints, issues, reviews, or cases document the concrete consequences of install friction, skill
+    incompatibility, or maintenance cost, so pain intensity, frequency, and cost of non-adoption cannot
+    be confirmed from public facts.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的旧做法是自行编写提示词与工具函数、直接使用框架自带工具，或从零搭建技能脚本，但这些替代路径均无公开证据支撑。
+  current_alternative_en: Public materials do not state how users currently do this job; the structurally
+    inferable alternatives are writing prompts and tool functions by hand, using framework built-ins,
+    or building skill scripts from scratch, but none of these paths is backed by public evidence.
+  usage_reason: 推断：若技能包真能免去逐个手写工具函数与提示词，开发者会在搭建 agent 时选择它；但公开证据只有 209 个收藏、4 次复刻，属于关注度而非采用或留存证据，无法说明用户为何持续选用。
+  usage_reason_en: 'Inference: if the skill packages genuinely remove the need to hand-write each tool
+    function and prompt, developers would pick it when assembling an agent; however, the only public evidence
+    is 209 stars and 4 forks, which is attention rather than adoption or retention evidence and cannot
+    explain sustained choice.'

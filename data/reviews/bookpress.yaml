@@ -1,0 +1,81 @@
+- id: req-initial-bookpress-2026-10-16
+  project_slug: bookpress
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决自建站点的运行开销问题，但公开材料未说明替代了哪一步旧工作、兼容性如何，痛点强度无法确认。
+    evidence_ids:
+    - ev-d9d17a0558f89190
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有采用、评价或案例证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-d9d17a0558f89190
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费路径或买方，开源项目的商业来源无法判断。
+    evidence_ids:
+    - ev-d9d17a0558f89190
+  - gate: truth
+    status: insufficient
+    reason: 是否贴近建站第一性目标、能否确定性交付可运行站点，公开材料未给出可核验结果。
+    evidence_ids:
+    - ev-d9d17a0558f89190
+  next_validation: 收集 BookPress 官方仓库或官网的兼容性说明与部署文档，确认它能否运行现有 WordPress 主题与插件。
+  market: ''
+  job: 网站开发者与内容发布者在自建或迁移 WordPress 站点时，需要让站点在更低成本的运行环境下跑起来，并保持原有内容可用。
+  job_en: Web developers and publishers building or migrating WordPress sites need the site to run in
+    a cheaper runtime while keeping existing content usable.
+  pain: PHP 与 MySQL 栈的部署和服务器开销对个人与小团队是持续负担，但公开材料没有说明 BookPress 具体减轻了哪一步。
+  pain_en: The PHP and MySQL stack imposes ongoing deployment and server cost on individuals and small
+    teams, but the public material does not say which step BookPress actually relieves.
+  current_alternative: 继续使用官方 WordPress，或改用静态站点生成器、其他 CMS 重新搭建。
+  current_alternative_en: Keep using official WordPress, or rebuild with a static site generator or another
+    CMS.
+  usage_reason: 推断：若它能在保留内容的前提下降低运行开销，对自建站的小团队会有吸引力；但兼容性、迁移路径与交付结果均未公开，尚不足以判断用户是否会选择它。
+  usage_reason_en: 'Inference: if it lowers runtime cost while preserving content, it could appeal to
+    small self-hosting teams; but compatibility, migration path and deliverable are undisclosed, so user
+    choice cannot yet be judged.'
+- id: req-full-bookpress-2026-10-16
+  project_slug: bookpress
+  level: full
+  reviewed_at: '2026-10-16T01:19:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决自建站点的运行开销问题，但公开材料未说明替代了哪一步旧工作、兼容性如何，痛点强度无法确认。
+    evidence_ids:
+    - ev-d9d17a0558f89190
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 BookPress 官方仓库或官网的兼容性说明与部署文档，确认它能否运行现有 WordPress 主题与插件。
+  market: ''
+  job: 网站开发者与内容发布者在自建或迁移 WordPress 站点时，需要让站点在更低成本的运行环境下跑起来，并保持原有内容可用。
+  job_en: Web developers and publishers building or migrating WordPress sites need the site to run in
+    a cheaper runtime while keeping existing content usable.
+  pain: PHP 与 MySQL 栈的部署和服务器开销对个人与小团队是持续负担，但公开材料没有说明 BookPress 具体减轻了哪一步。
+  pain_en: The PHP and MySQL stack imposes ongoing deployment and server cost on individuals and small
+    teams, but the public material does not say which step BookPress actually relieves.
+  current_alternative: 继续使用官方 WordPress，或改用静态站点生成器、其他 CMS 重新搭建。
+  current_alternative_en: Keep using official WordPress, or rebuild with a static site generator or another
+    CMS.
+  usage_reason: 推断：若它能在保留内容的前提下降低运行开销，对自建站的小团队会有吸引力；但兼容性、迁移路径与交付结果均未公开，尚不足以判断用户是否会选择它。
+  usage_reason_en: 'Inference: if it lowers runtime cost while preserving content, it could appeal to
+    small self-hosting teams; but compatibility, migration path and deliverable are undisclosed, so user
+    choice cannot yet be judged.'

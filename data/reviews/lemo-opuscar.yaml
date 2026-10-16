@@ -702,3 +702,54 @@
     plus code demo, so users only swap the story and reuse the same style, skipping repeated parameter
     tuning and animation recoding; creators without video models or wanting reproducible style would choose
     it when producing multiple same-style shorts.'
+- id: req-full-lemo-opuscar-2026-10-16
+  project_slug: lemo-opuscar
+  level: full
+  reviewed_at: '2026-10-16T01:21:55Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是无视频模型时仍要产出风格化短片的需求，痛点是风格确定与执行之间的落差；仓库以43种风格提示词加纯代码样片给出可确定交付，属工作流结构推理，公开材料未给不采用代价。
+    evidence_ids:
+    - ev-c072bf9cc0ce989b
+    - ev-a921f8372144a3bb
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏数从1585持续升至2468，说明开发者社区持续关注并把它纳入收藏；但公开材料未显示目标创作者的实际使用与留存，关注度不等于持续采用。
+    evidence_ids:
+    - ev-c072bf9cc0ce989b
+    - ev-1b891ab410069d2d
+    - ev-a921f8372144a3bb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、付费主体或采购记录，谁付钱只能推断为使用 Claude Code 的创作者或内容团队自付；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-c072bf9cc0ce989b
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明为纯代码样片、无视频模型，但公开材料未给出成片交付的稳定性、人工确认环节与安全边界，交付确定性尚缺可复现证据。
+    evidence_ids:
+    - ev-c072bf9cc0ce989b
+    - ev-af3884adad5a651a
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认是否有用户公开贴出用其风格提示词产出的成片与工作流记录。
+  market: ''
+  job: 短片创作者或品牌内容团队在需要产出风格化短片时，先选定一种影片风格，把自己的故事素材交给 Claude Code 代理，由它按该风格的提示词与纯代码样片生成一段可播放的成片。
+  job_en: A short-film creator or brand content team, needing a stylized short film, picks one of the
+    film styles, hands their own story material to a Claude Code agent, and has it generate a playable
+    short film following that style's prompt and code-only demo.
+  pain: 公开材料显示该仓库定位为“no video model”的短片技能，即用户没有视频生成模型或拍摄预算时，仍要拿到风格统一的成片；痛点在于风格选择与执行之间的落差，但公开证据未给出不采用的具体代价与频率，属结构推理。
+  pain_en: Public materials frame it as a short-film skill with 'no video model', i.e. users without a
+    video model or shoot budget still need a stylistically consistent film; the pain is the gap between
+    style choice and execution, though public evidence gives no concrete cost or frequency of not adopting
+    it — this is structural inference.
+  current_alternative: 旧做法是自行编写分镜与提示词、逐个镜头调试视频模型，或直接外包拍摄与剪辑；仓库以 43 种风格提示词加纯代码样片替代从零摸索风格这一步。
+  current_alternative_en: The old way is hand-writing storyboards and prompts, tuning video models shot
+    by shot, or outsourcing shooting and editing; the repo replaces the from-scratch style search with
+    43 style prompts plus code-only demo films.
+  usage_reason: 推断：相较自行拼提示词或外包，用户可直接选用已附样片的风格提示词，省去从零确定视觉风格与验证可行性的一步，因此缺视频模型或预算、又需要快速出风格化样片的创作者会在起步阶段选择它。
+  usage_reason_en: 'Inference: versus assembling prompts by hand or outsourcing, users can pick a style
+    prompt already paired with a demo film, skipping the step of defining and validating a visual style
+    from scratch, so creators lacking a video model or budget who need a stylized sample quickly would
+    choose it at the outset.'

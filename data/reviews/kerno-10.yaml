@@ -1,0 +1,82 @@
+- id: req-initial-kerno-10-2026-10-16
+  project_slug: kerno-10
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决发布前运行时缺陷定位，痛点真实；但公开材料只有一句定位语，说不清输入、动作与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-90cd6f6ec92386db
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有可归因到该产品的使用、评价或采用证据，只有一条产品页定位描述。
+    evidence_ids:
+    - ev-90cd6f6ec92386db
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料未披露定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-90cd6f6ec92386db
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近排查工作的第一性目标，也看不到安全与人工边界。
+    evidence_ids:
+    - ev-90cd6f6ec92386db
+  next_validation: 收集 Kerno 官方产品页或文档，确认它读取哪些运行时输入、输出什么交付物，以及是否披露定价。
+  market: ''
+  job: 后端工程师在版本发布前，面对运行中的服务与日志，要定位并确认运行时缺陷。
+  job_en: Before a release, backend engineers work from running services and logs to locate and confirm
+    runtime defects.
+  pain: 运行时缺陷往往只在真实流量下出现，人工翻日志复现慢，发布前排查压力集中。
+  pain_en: Runtime defects often surface only under real traffic; manually reading logs to reproduce them
+    is slow and concentrates pressure before release.
+  current_alternative: 人工读日志、加断点复现，或依赖现有 APM 与告警规则。
+  current_alternative_en: Reading logs by hand, adding breakpoints to reproduce, or relying on existing
+    APM and alert rules.
+  usage_reason: 推断：若它能直接读取运行时状态并给出缺陷定位，可省去人工翻日志与复现这一步；但公开材料只有一句定位描述，无法确认它比现有 APM 少做哪一步，因此尚不能断言用户会选它。
+  usage_reason_en: 'Inference: if it reads runtime state directly and returns a fault location, it could
+    remove the manual log-reading and reproduction step; but the public material is a single positioning
+    line, so which step it saves versus existing APM cannot be confirmed, and user choice cannot yet be
+    asserted.'
+- id: req-full-kerno-10-2026-10-16
+  project_slug: kerno-10
+  level: full
+  reviewed_at: '2026-10-16T01:21:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决发布前运行时缺陷定位，但公开材料只有一句定位语，未说明输入、动作、交付与不解决的后果，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-90cd6f6ec92386db
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Kerno 官方产品页或文档，确认它读取哪些运行时输入、输出什么交付物，以及是否披露定价与客户案例。
+  market: ''
+  job: 后端工程师在版本发布前，面对运行中的后端服务与日志，要定位并确认运行时缺陷，再决定是否放行发布。
+  job_en: Before a release, backend engineers work from running backend services and logs to locate and
+    confirm runtime defects before deciding whether to ship.
+  pain: 公开材料只有一句定位语，未说明运行时缺陷的排查痛点、频率或不解决的后果，无法确认痛点是否刚性。
+  pain_en: The public material is a single positioning line; it does not state the pain of runtime-defect
+    triage, its frequency, or the cost of not solving it, so the rigidity of the pain cannot be confirmed.
+  current_alternative: 公开材料未披露现有替代方式，无法确认用户此前是人工读日志复现，还是依赖 APM 与告警规则。
+  current_alternative_en: The public material does not disclose the current alternative, so it is unknown
+    whether users previously reproduced issues by reading logs by hand or relied on APM and alert rules.
+  usage_reason: 公开材料未说明产品读取什么输入、输出什么交付物，无法解释它相较旧做法减少哪一步负担，因此不能判断用户为何选择它。
+  usage_reason_en: The public material does not state what inputs the product reads or what deliverable
+    it returns, so which step it removes versus the old approach cannot be explained, and why users would
+    choose it cannot be judged.

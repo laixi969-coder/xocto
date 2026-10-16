@@ -288,3 +288,55 @@
     runs only on changed lines, removing tool-switching and CI wait steps, so developers using Claude
     Code or Codex who want a pre-push self-check would choose it; public materials give no false-positive
     or manual-confirmation rates, so the adoption motive is inferred.'
+- id: req-full-openqodex-2026-10-16
+  project_slug: openqodex
+  level: full
+  reviewed_at: '2026-10-16T01:23:19Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是推送前对本次改动做安全与质量检查这一需求：开发者面对 diff 新增行，旧做法是等 CI 全仓扫描或人工审查，误报多、范围大，要自己筛。产品把扫描限定在改动行并由独立审查进程逐条复核，交付闭环清晰，属工作流推理；公开材料未给误报率或人工确认比例。
+    evidence_ids:
+    - ev-31dfb4cbcfecb646
+    - ev-12ffcf92e5992b67
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 508 持续增至 715，说明开发者社区持续关注并把它加入工具链；但收藏只属关注度证据，不能证明持续使用或付费，也未见用户评价说明具体采用场景。
+    evidence_ids:
+    - ev-31dfb4cbcfecb646
+    - ev-886b02931064a4b7
+    - ev-12ffcf92e5992b67
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、买方或收费方式，无法判断钱来自 to B 团队采购、to C 订阅还是仅靠融资与赞助；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-31dfb4cbcfecb646
+  - gate: truth
+    status: insufficient
+    reason: 无法核验扫描与独立审查进程的误报率、是否需人工确认，以及'无需其他 API key'在真实仓库中的确定性交付；缺少 issue、discussion 或可复现实测来验证安全与人工边界。
+    evidence_ids:
+    - ev-31dfb4cbcfecb646
+    - ev-2b53a1126882c25a
+  next_validation: 追踪 openqodex 仓库的 issue 与 discussion，确认误报率、人工确认比例及团队部署场景。
+  market: ''
+  job: 开发者在把改动推送到仓库前，需要对自己本次改动的代码行做安全与质量检查，处理的是 diff 中的新增行，要完成的任务是在推送前拿到针对改动行的 SAST、密钥、依赖与 lint 发现并逐条复核。
+  job_en: Before pushing, a developer needs to check the lines they changed, working on the diff's added
+    lines, to obtain SAST, secret, dependency and lint findings scoped to those lines and have each finding
+    reviewed.
+  pain: 推送前的检查通常依赖 CI 或人工审查，扫描结果常带大量误报且覆盖整个仓库而非本次改动，开发者要自己筛掉噪音；公开材料未提供误报率或人工确认比例，痛点强度只能从工作流结构推断。
+  pain_en: Pre-push checks usually rely on CI or manual review, whose findings are noisy and cover the
+    whole repo rather than the change, forcing developers to filter noise themselves; public material
+    gives no false-positive rate or manual-confirmation ratio, so pain intensity is inferred from workflow
+    structure.
+  current_alternative: CI 流水线里的 SAST/lint 扫描、人工 code review、或开发者自行运行本地扫描工具。
+  current_alternative_en: SAST/lint scans in the CI pipeline, manual code review, or developers running
+    local scanning tools themselves.
+  usage_reason: 推断：相较等 CI 跑完整仓库扫描再人工筛误报，openqodex 把扫描范围收窄到本次改动的代码行，并用独立审查进程逐条复核每个扫描发现，减少开发者从全量告警中挑出与本次改动相关项这一步；因此在意推送前拦截密钥与依赖问题的开发者会在提交前选择它。仓库收藏从
+    508 增至 715 说明关注度上升，但无留存或复购证据证明已长期留在工作流。
+  usage_reason_en: 'Inference: instead of waiting for a whole-repo CI scan and manually filtering false
+    positives, openqodex narrows scanning to the changed lines and uses a separate reviewer process to
+    check each finding, removing the step of picking change-relevant items out of full-repo alerts; developers
+    who want to catch secrets and dependency issues before pushing would choose it. Stars rising from
+    508 to 715 shows attention, but no retention or repeat-use evidence proves it is embedded in'

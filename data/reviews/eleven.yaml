@@ -1,0 +1,83 @@
+- id: req-initial-eleven-2026-10-16
+  project_slug: eleven
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有代理读写修补二进制的能力描述。
+    evidence_ids:
+    - ev-41360e138b71ad81
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仓库关注度只说明被看到，不构成采用证据。
+    evidence_ids:
+    - ev-41360e138b71ad81
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，开源项目无收费路径材料。
+    evidence_ids:
+    - ev-41360e138b71ad81
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对逆向结论是否确定交付。
+    evidence_ids:
+    - ev-41360e138b71ad81
+  next_validation: 抓取该仓库 README 与 issue，确认目标用户、输入样本类型与产出交付物。
+  market: ''
+  job: 资料未说明具体使用者与任务，无法确认谁在什么情况下处理什么二进制或应用、要完成什么逆向结论。
+  job_en: The material does not identify a specific user or task, so it is impossible to confirm who handles
+    what binary or app under what circumstances to reach what reverse-engineering conclusion.
+  pain: 资料未描述痛点，只给出代理读取、重命名、修补二进制与内核的能力描述。
+  pain_en: The material describes no pain point, only a capability of agents reading, renaming and patching
+    binaries and kernels.
+  current_alternative: 资料未提及现有替代方式，无法判断此前是用 IDA、Ghidra 还是其他工具完成同类工作。
+  current_alternative_en: The material mentions no existing alternative, so it is impossible to judge
+    whether the prior approach used IDA, Ghidra or other tools for comparable work.
+  usage_reason: 缺少输入、动作与交付描述，无法解释用户为何选择它而非旧做法；此处不作推断。
+  usage_reason_en: With no description of input, action or deliverable, there is no basis to explain why
+    a user would choose it over the old approach; no inference is made here.
+- id: req-full-eleven-2026-10-16
+  project_slug: eleven
+  level: full
+  reviewed_at: '2026-10-16T01:20:58Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决什么需求、什么痛点都写不出来，只有代理读写修补二进制的能力描述；所引证据实为《怪奇物语》角色、数字 11 与 ElevenLabs 语音平台，与逆向工程无关，无法还原用户任务与旧替代。
+    evidence_ids:
+    - ev-e8ae6ec8a33038bc
+    - ev-b7829fa208f57bdd
+    - ev-0db08a403808b59d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该项目的官方仓库 README、发布说明与 issue/discussion，确认目标用户、输入样本类型、产出交付物与人工复核方式。
+  market: ''
+  job: 资料未说明具体使用者与任务，无法确认谁在什么情况下处理什么二进制、安卓应用或 GPU 内核，要完成什么逆向结论。
+  job_en: The material does not identify a specific user or task, so it is impossible to confirm who handles
+    what binary, Android app or GPU kernel under what circumstances to reach what reverse-engineering
+    conclusion.
+  pain: 资料未描述痛点，只给出代理读取、重命名、修补二进制与内核的能力描述，无法还原哪里难受、频率多高、不解决会怎样。
+  pain_en: The material describes no pain point, only a capability of agents reading, renaming and patching
+    binaries and kernels; it cannot reconstruct where the friction is, how often it occurs, or what happens
+    if unsolved.
+  current_alternative: 资料未提及现有替代方式，无法判断此前是用 IDA、Ghidra、Frida 还是人工流程完成同类工作。
+  current_alternative_en: The material mentions no existing alternative, so it is impossible to judge
+    whether the prior approach used IDA, Ghidra, Frida or manual workflows for comparable work.
+  usage_reason: 缺少输入、动作与交付描述，无法解释用户为何选择它而非旧做法；此处不作推断。
+  usage_reason_en: With no description of input, action or deliverable, there is no basis to explain why
+    a user would choose it over the old approach; no inference is made here.

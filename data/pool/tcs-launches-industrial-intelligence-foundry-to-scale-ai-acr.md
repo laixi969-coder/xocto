@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQZHIySDh0YTN4
 summary: TCS Launches Industrial Intelligence Foundry to Scale AI Across Manufacturing Konsulteer
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,87 @@
+- id: req-initial-reelbird-2026-10-16
+  project_slug: reelbird
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Mac 上录制与剪辑演示视频的需求，痛点在于现有工具按席位订阅且素材需上传第三方。
+    evidence_ids:
+    - ev-e4f044a7c209e98a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页描述，没有可归因到该产品的下载、留存或团队采用证据。
+    evidence_ids:
+    - ev-e4f044a7c209e98a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明托管、支持或增值服务的收费方式，买方与定价属判断而非已验证事实。
+    evidence_ids:
+    - ev-e4f044a7c209e98a
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 在录制或剪辑中的具体作用，也未说明导出质量与人工确认边界。
+    evidence_ids:
+    - ev-e4f044a7c209e98a
+  next_validation: 收集 Reelbird 仓库的 README 与 release 说明，确认其录制、剪辑、导出能力范围以及是否包含 AI 环节。
+  market: ''
+  job: 产品与教学人员在 Mac 上录制演示或课程视频，需要剪辑并导出可分享的成片。
+  job_en: Product and teaching staff record demo or course videos on Mac and need to edit and export a
+    shareable cut.
+  pain: Loom 等工具按席位订阅，素材上传到第三方，剪辑与导出受套餐限制。
+  pain_en: Tools like Loom charge per seat, upload footage to a third party, and gate editing and export
+    behind plan limits.
+  current_alternative: 使用 Loom、Screen Studio 等订阅制录屏工具，或 QuickTime 加手工剪辑。
+  current_alternative_en: Using subscription screen recorders such as Loom or Screen Studio, or QuickTime
+    plus manual editing.
+  usage_reason: 推断：相较订阅制录屏工具，开源本地版本让素材留在自己机器上并免去按席位付费，因此对数据外流敏感或人数较多的团队更可能选择它。
+  usage_reason_en: 'Inference: versus subscription recorders, an open-source local build keeps footage
+    on the user''s machine and avoids per-seat fees, so teams sensitive to data leaving their control
+    or with many seats are more likely to choose it.'
+- id: req-full-reelbird-2026-10-16
+  project_slug: reelbird
+  level: full
+  reviewed_at: '2026-10-16T01:23:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Mac 上录制并剪辑演示或课程视频、产出可分享成片的需求；痛点来自订阅制录屏工具按席位收费、素材上传第三方、剪辑导出受套餐限制，不采用则持续付费或素材外流。这是基于产品定位与旧替代的工作流结构推理，尚无用户抱怨或采用数据佐证。
+    evidence_ids:
+    - ev-e4f044a7c209e98a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句定位描述，没有可归因到该产品的下载、收藏、留存或团队采用证据，无法判断是否形成使用共识；公开关注度也不能替代持续采用。
+    evidence_ids:
+    - ev-e4f044a7c209e98a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明托管、支持或增值服务的收费方式，买方与定价属判断而非已验证事实；可能来自 to C 个人或 to B 团队，但均未核验。
+    evidence_ids:
+    - ev-e4f044a7c209e98a
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 在录制或剪辑中的具体作用，也未说明导出质量、本地处理边界与人工确认环节，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-e4f044a7c209e98a
+  next_validation: 收集 Reelbird 仓库的 README 与 release 说明，确认其录制、剪辑、导出能力范围以及是否包含 AI 环节。
+  market: ''
+  job: 产品与教学人员在 Mac 上录制产品演示或课程讲解，需要把原始录屏剪辑成可直接分享给同事、客户或学员的成片。
+  job_en: Product and teaching staff record product demos or course walkthroughs on Mac and need to turn
+    raw screen capture into a shareable cut for colleagues, clients, or students.
+  pain: 公开材料只给出定位描述，未披露用户抱怨；可确认的痛点是订阅制录屏工具按席位收费、素材需上传第三方，且剪辑与导出受套餐限制，对人数多或素材敏感的团队构成持续成本与控制权问题。
+  pain_en: Public material only states the positioning and discloses no user complaints; the identifiable
+    pain is that subscription recorders charge per seat, upload footage to a third party, and gate editing
+    and export behind plan limits, a recurring cost and control problem for larger or footage-sensitive
+    teams.
+  current_alternative: 使用 Loom、Screen Studio 等订阅制录屏工具，或用 QuickTime 录屏后手工剪辑。
+  current_alternative_en: Using subscription recorders such as Loom or Screen Studio, or recording with
+    QuickTime and editing manually.
+  usage_reason: 推断：相较订阅制工具，开源本地版本把录制与剪辑留在本机、免去按席位付费，因此对素材外流敏感或席位较多的团队，会在需要快速产出演示成片时选择它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus subscription tools, an open-source local build keeps recording and
+    editing on the machine and removes per-seat fees, so teams sensitive to footage leaving their control
+    or with many seats would pick it when they need a demo cut quickly; public material has no user feedback
+    confirming this motive.'

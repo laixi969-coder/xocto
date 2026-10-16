@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ2NqUDZVdWhR
 summary: Fed's Goolsbee warns the AI spending boom is now pushing broad inflation Startup Fortune
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

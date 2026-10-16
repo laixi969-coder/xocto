@@ -1,11 +1,15 @@
 ---
 slug: reuters-4
-name: reuters
+name: Character.ai
 builder: toomuchtodo
 category: ''
-summary_zh: ''
+summary_zh: Character.ai 申请破产并以 2000 万美元出售部分资产，是角色对话类消费 AI 产品的一次经营结局，说明该品类在算力与内容成本压力下的商业可持续性受到考验；对 AI
+  应用的含义是，靠用户情感陪伴获取规模并不自动带来可覆盖推理成本的收入结构（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: Character.ai's bankruptcy filing and $20M partial asset sale mark an operating endpoint for
+  consumer character-chat AI, showing the category's commercial sustainability under compute and content
+  cost pressure; the implication for AI applications is that scale from emotional companionship does not
+  automatically produce revenue covering inference cost (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://reuters.com/legal/litigation/characterai-files-bankruptcy
 summary: Character.ai files for bankruptcy, agrees to sell some assets for $20M
 first_seen: '2026-10-14T01:13:55Z'
 last_seen: '2026-10-16T00:25:14Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -41,7 +45,7 @@ sightings:
   kind: news
 ---
 
-# reuters
+# Character.ai
 
 Character.ai files for bankruptcy, agrees to sell some assets for $20M
 

@@ -1,0 +1,46 @@
+- id: req-initial-kru-2026-10-16
+  project_slug: kru
+  level: initial
+  reviewed_at: '2026-09-10T05:13:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理执行任务时凭据必须可用又不能明文暴露的问题，旧做法是写进环境变量或配置文件，不解决的后果是密钥随日志和上下文外泄，痛点刚性明确。
+    evidence_ids:
+    - ev-861bd922f765863d
+    - ev-b1d04a4a87221232
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有星标与 fork，说明开发者有关注，但没有 issue、讨论或用户反馈证明它已进入日常代理工作流。
+    evidence_ids:
+    - ev-861bd922f765863d
+    - ev-b1d04a4a87221232
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价或托管付费路径，买方可能是自建团队或未来的团队版采购；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-861bd922f765863d
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与不暴露明文的承诺需要看实现与部署文档才能核对，人工确认边界与安全模型尚未核验。
+    evidence_ids:
+    - ev-861bd922f765863d
+    - ev-b1d04a4a87221232
+  next_validation: 抓取该仓库的 README 与 issue/discussion，核对凭据调用实现、部署方式与是否有团队采用反馈。
+  market: ''
+  job: 开发者在让 AI 代理执行需要登录或调用外部接口的任务时，需要把密码、API key、SSH 身份和 TOTP 交给代理使用。
+  job_en: Developers running AI agents on tasks that require logins or external API calls must give the
+    agent passwords, API keys, SSH identities and TOTP.
+  pain: 旧做法把密钥写进环境变量或配置文件，明文会进入模型上下文与日志，一旦代理被滥用或日志泄露，凭据直接暴露。
+  pain_en: The old approach writes secrets into environment variables or config files, so plaintext enters
+    model context and logs; if the agent is misused or logs leak, credentials are exposed directly.
+  current_alternative: 把密钥放进 .env 或配置文件、用系统钥匙串手动取用，或干脆不给代理凭据、由人代跑这一步。
+  current_alternative_en: Putting secrets in .env or config files, pulling them manually from the OS keychain,
+    or withholding credentials from the agent and having a human run that step.
+  usage_reason: 推断：相较把明文写进环境变量，kru 让代理通过本地 MCP 接口取用凭据、隐藏明文不进模型上下文，省掉“为让代理跑通而临时降级密钥管理”这一步，因此已在跑代理自动化又不愿交出生产密钥的开发团队会在接入新代理任务时选它。
+  usage_reason_en: 'Inference: versus writing plaintext into environment variables, kru lets the agent
+    fetch credentials through a local MCP interface with hidden plaintext kept out of model context, removing
+    the step of temporarily downgrading secret handling to get an agent working, so teams already running
+    agent automation who will not hand over production keys would pick it when wiring a new agent task.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE00Q0FyWlA1OTVD
 summary: AI智能体进车间，能做些什么？ 中国钢铁新闻网
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxOWkVjYkItOUM5
 summary: Global ETF AI Assistant Launch｜Power Your AI With Expert ETF Research MacroMicro
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

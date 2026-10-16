@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/ubuntu
 summary: GNOME 51, Rust coreutils, and a refreshed Linux desktop
 first_seen: '2026-10-16T00:25:14Z'
 last_seen: '2026-10-16T00:25:14Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

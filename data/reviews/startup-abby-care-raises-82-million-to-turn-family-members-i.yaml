@@ -1,0 +1,83 @@
+- id: req-initial-startup-abby-care-raises-82-million-to-turn-family-members-i-2026-10-16
+  project_slug: startup-abby-care-raises-82-million-to-turn-family-members-i
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭照护无偿、难以被支付方承认的问题，把照护劳动转为可结算报酬，痛点刚性且旧替代行为明确。
+    evidence_ids:
+    - ev-e69fc13f0696f284
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资事实，没有照护家庭采用、留存或支付方合作证据，共识卡在支付方认可这一环。
+    evidence_ids:
+    - ev-e69fc13f0696f284
+  - gate: model
+    status: insufficient
+    reason: 买方可能是保险或政府支付方，也可能是家庭自付，候选未披露定价与结算方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e69fc13f0696f284
+  - gate: truth
+    status: insufficient
+    reason: 照护记录能否被支付方确定性认可、人工审核边界如何，候选均未说明。
+    evidence_ids:
+    - ev-e69fc13f0696f284
+  next_validation: 收集 Abby Care 官方定价或支付方合作公告，确认照护记录如何被保险结算及收费方式。
+  market: ''
+  job: 家庭成员在长期照护亲属、又需要收入来源时，处理照护时长、服务记录与报销材料，要完成把照护工作转为可结算报酬的流程。
+  job_en: A family member providing long-term care to a relative while needing income handles care hours,
+    service records and reimbursement paperwork to convert that care into payable compensation.
+  pain: 照护劳动长期无偿且难以被支付方承认，家庭同时承受收入损失与照护负担；候选未给出具体痛点数据，但结构上这一缺口明确。
+  pain_en: Care work is long unpaid and hard for payers to recognize, leaving families with both lost
+    income and care burden; the candidate gives no specific pain data, but the structural gap is clear.
+  current_alternative: 旧做法是家庭自行承担无偿照护，或通过照护机构雇佣外部护工并由机构向保险结算，家庭成员本人难以进入结算链条。
+  current_alternative_en: The old way is unpaid family care, or hiring outside aides through an agency
+    that bills insurers, with family members themselves unable to enter the billing chain.
+  usage_reason: 推断：若平台能把照护记录整理成支付方认可的凭证并完成结算，家庭可跳过自行与保险交涉这一步，直接获得报酬；候选未提供采用或留存证据，长期使用尚不能确认。
+  usage_reason_en: 'Inference: if the platform turns care records into payer-accepted evidence and completes
+    settlement, families skip negotiating with insurers themselves and get paid directly; the candidate
+    offers no adoption or retention evidence, so long-term use cannot be confirmed.'
+- id: req-full-startup-abby-care-raises-82-million-to-turn-family-members-i-2026-10-16
+  project_slug: startup-abby-care-raises-82-million-to-turn-family-members-i
+  level: full
+  reviewed_at: '2026-10-16T01:24:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据中无一条描述照护家庭的任务、痛点或旧替代行为，仅融资标题与同名无关产品页面，连需求与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-47fe1db2007e3480
+    - ev-ab0d2c8fc3e8a79b
+    - ev-a3cbc14bbf33746c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Fortune 该篇报道原文及 Abby Care 官网（helloabby.com 之外的官方域名）产品页与客户案例，确认其照护登记与结算流程的真实描述。
+  market: ''
+  job: 家庭成员在长期照护亲属、同时需要收入来源时，处理照护时长、服务记录与报销材料，试图把照护工作登记为可结算的有偿服务。
+  job_en: A family member providing long-term care to a relative while needing income handles care hours,
+    service records and reimbursement paperwork to register that care as billable paid work.
+  pain: 公开证据中没有一条描述照护家庭的痛点、抱怨或旧做法，只有融资标题与同名无关产品页面，无法确认照护劳动无偿、报销困难等痛点是否被真实材料支持。
+  pain_en: No public evidence describes caregivers' pain, complaints or workarounds; only a funding headline
+    and unrelated same-name product pages exist, so it cannot be confirmed that unpaid care or reimbursement
+    difficulty is supported by real material.
+  current_alternative: 公开材料未提供任何现有替代方式的信息，无法说明家庭此前如何绕过这一问题。
+  current_alternative_en: Public material provides no information on existing alternatives, so how families
+    previously worked around this problem cannot be stated.
+  usage_reason: 无法判断：证据链中没有任何可归因到 Abby Care 的产品说明、客户案例或使用反馈，无法解释用户为何会选择它。
+  usage_reason_en: 'Cannot be determined: the evidence chain contains no product description, customer
+    case or user feedback attributable to Abby Care, so why users would choose it cannot be explained.'

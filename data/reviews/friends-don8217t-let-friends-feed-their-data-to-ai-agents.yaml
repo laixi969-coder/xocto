@@ -1,0 +1,93 @@
+- id: req-initial-friends-don8217t-let-friends-feed-their-data-to-ai-agents-2026-10-16
+  project_slug: friends-don8217t-let-friends-feed-their-data-to-ai-agents
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是手机端查信息、起草回复、整理联系人这一高频任务，痛点是手动检索与措辞耗时，且第三方数据未经同意被采集带来真实隐私风险；不用的代价是继续手工翻找。
+    evidence_ids:
+    - ev-c0819675073a67e2
+  - gate: consensus
+    status: supported
+    reason: 发布一个月内下载数百万次并登上苹果 App Store 榜首，说明普通用户已在真实场景中采用；但公开材料未说明这些下载是否转化为持续使用。
+    evidence_ids:
+    - ev-c0819675073a67e2
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、订阅方式或企业采购路径，买方是个人用户还是 Meta 生态内变现尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c0819675073a67e2
+  - gate: truth
+    status: challenged
+    reason: 报道指出助理会采集朋友、家人等第三方信息且未经其同意，授权与撤回边界不清，交付的确定性在隐私合规层面存在缺口。
+    evidence_ids:
+    - ev-c0819675073a67e2
+  next_validation: 收集 Meta 官方 Muse 隐私政策与数据授权说明页面，核验第三方联系人数据的采集范围、同意与撤回机制。
+  market: ''
+  job: 普通手机用户在需要快速查信息、起草回复或整理联系人时，把通讯录、聊天与社交关系交给 Meta Muse，由它检索并生成可直接使用的答复或整理结果。
+  job_en: Everyday phone users who need to look up information, draft replies or organise contacts hand
+    their address books, chats and social relationships to Meta Muse, which retrieves and produces ready-to-use
+    replies or organised results.
+  pain: 手动翻聊天记录、回忆联系人背景、逐条起草回复耗时；同时把朋友和家人的信息交给助理会带来未经同意的隐私暴露，用户缺少可撤回的授权手段。
+  pain_en: Manually scrolling chat history, recalling contact context and drafting replies one by one
+    is slow; handing friends' and family members' information to an assistant also creates privacy exposure
+    without their consent, and users lack a revocable authorisation mechanism.
+  current_alternative: 用户此前靠系统通讯录、聊天搜索、备忘录和手动打字完成同样任务，隐私顾虑则靠不使用或事后删除记录来回避。
+  current_alternative_en: Users previously relied on the system address book, chat search, notes and manual
+    typing for the same tasks, and avoided privacy concerns by not using such tools or deleting records
+    afterwards.
+  usage_reason: 推断：相较手动翻找和逐条起草，Muse 直接读取通讯录与聊天上下文并生成可发送的回复，省掉检索与组织语言这一步；已下载数百万次并登顶 App Store 说明大量用户在真实场景中选择它，但第三方同意机制与长期留存仍缺少公开证据。
+  usage_reason_en: 'Inference: compared with manual searching and drafting, Muse reads contacts and chat
+    context directly and produces sendable replies, removing the retrieval and wording step; millions
+    of downloads and a top App Store ranking show many users choose it in real scenarios, though third-party
+    consent mechanics and long-term retention lack public evidence.'
+- id: req-full-friends-don8217t-let-friends-feed-their-data-to-ai-agents-2026-10-16
+  project_slug: friends-don8217t-let-friends-feed-their-data-to-ai-agents
+  level: full
+  reviewed_at: '2026-10-16T01:21:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手机端查信息、起草回复、整理联系人这一高频任务，痛点是手动检索与措辞耗时，且第三方数据未经同意被采集带来真实隐私风险；不用的代价是继续手工翻找。此为工作流结构推理，公开材料未给出用户自述痛点。
+    evidence_ids:
+    - ev-339aba787fc505c7
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道称发布一个月内下载数百万次并登顶苹果 App Store，属规模与关注度证据；但现有证据链未包含该下载数据条目，也未说明是否转化为持续使用，故不能据此判定共识成立。
+    evidence_ids:
+    - ev-339aba787fc505c7
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露 Muse 的定价、订阅方式或企业采购路径，买方是个人用户还是 Meta 生态内变现尚不清楚；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-339aba787fc505c7
+    - ev-836b8465c39fe3d4
+  - gate: truth
+    status: challenged
+    reason: 报道指出助理会采集朋友、家人等第三方信息且未经其同意，授权与撤回边界不清，交付的确定性在隐私合规层面存在缺口；公开材料未见同意与撤回机制说明。
+    evidence_ids:
+    - ev-339aba787fc505c7
+  next_validation: 追踪 Meta Muse 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 普通手机用户在需要查信息、起草回复或整理联系人时，把通讯录、聊天记录与社交关系交给 Meta Muse，由助理检索上下文并生成可直接发送的回复或整理结果。
+  job_en: Everyday phone users who need to look something up, draft a reply or organise contacts hand
+    their address book, chat logs and social relationships to Meta Muse, which retrieves context and produces
+    a sendable reply or organised result.
+  pain: 手动翻聊天记录、回忆联系人背景、逐条起草回复耗时；同时把朋友、家人等第三方信息交给助理会带来未经其同意的隐私暴露，用户缺少可撤回的授权手段。
+  pain_en: Manually scrolling chat history, recalling contact context and drafting replies one by one
+    is slow; handing third parties' information to an assistant also creates privacy exposure without
+    their consent, and users lack a revocable authorisation mechanism.
+  current_alternative: 用户此前靠系统通讯录、聊天搜索、备忘录和手动打字完成同样任务，隐私顾虑则靠不使用此类工具或事后删除记录来回避。
+  current_alternative_en: Users previously relied on the system address book, chat search, notes and manual
+    typing for the same tasks, and avoided privacy concerns by not using such tools or deleting records
+    afterwards.
+  usage_reason: 推断：相较手动翻找和逐条起草，Muse 直接读取通讯录与聊天上下文并生成可发送的回复，省掉检索与组织语言这一步；公开报道称其发布一个月内下载数百万次并登顶苹果 App Store，说明大量用户在真实场景中选择它，但第三方同意机制与长期留存仍缺少公开证据。
+  usage_reason_en: 'Inference: compared with manual searching and drafting, Muse reads contacts and chat
+    context directly and produces sendable replies, removing the retrieval and wording step; public coverage
+    reports millions of downloads and a top App Store ranking within a month, showing many users choose
+    it in real scenarios, though third-party consent mechanics and long-term retention lack public evidence.'

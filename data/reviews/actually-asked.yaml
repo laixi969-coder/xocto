@@ -1,0 +1,84 @@
+- id: req-initial-actually-asked-2026-10-16
+  project_slug: actually-asked
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决重复客户问题占用人工客服、静态 FAQ 不更新的痛点，旧做法是人工逐条回复，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-20111b92f98a8f16
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、客户案例或采用数据，无法判断品牌方是否真的把它放进答疑流程。
+    evidence_ids:
+    - ev-20111b92f98a8f16
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或采购信息，买方可能是品牌市场或客服部门，但付费路径未公开，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-20111b92f98a8f16
+  - gate: truth
+    status: insufficient
+    reason: 无法核对答案准确性由谁把关、内容更新是否自动，承诺能否确定性交付缺少材料。
+    evidence_ids:
+    - ev-20111b92f98a8f16
+  next_validation: 收集该产品的官方定价页或客户案例页，确认按什么计价以及是否有品牌方公开使用。
+  market: ''
+  job: 品牌方客服或市场人员在客户反复询问相同问题时，把已有问答材料整理成一个对外可访问的答疑页，让访客自行得到答案。
+  job_en: When customers keep asking the same questions, brand support or marketing staff turn existing
+    Q&A material into a public answer page so visitors can get answers themselves.
+  pain: 重复问题占用人工客服时间，官网 FAQ 静态且长期不更新，访客问不到答案就流失。
+  pain_en: Repeated questions consume human support time, static website FAQs go stale, and visitors who
+    cannot find answers leave.
+  current_alternative: 人工客服逐条回复，或维护一份长期不更新的静态 FAQ 页面。
+  current_alternative_en: Human agents replying one by one, or maintaining a static FAQ page that is rarely
+    updated.
+  usage_reason: 推断：相较人工逐条回复或静态 FAQ，它把已有问答直接变成可自助回答的页面，省去每次重复回复这一步，因此客服人力紧张、售前咨询量大的品牌会尝试它。
+  usage_reason_en: 'Inference: compared with replying one by one or a static FAQ, it turns existing Q&A
+    directly into a self-answering page, removing the repeated-reply step, so brands with thin support
+    staffing and heavy pre-sales questions would try it.'
+- id: req-full-actually-asked-2026-10-16
+  project_slug: actually-asked
+  level: full
+  reviewed_at: '2026-10-16T01:18:48Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决重复咨询占用客服、静态 FAQ 不更新的问题，但全部证据是词典释义页，没有任何品牌方痛点、旧替代行为或采用记录，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-27d6c602e8cd0ae8
+    - ev-8dfa4f935e299761
+    - ev-3a7de110576cf48e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或发布页，确认是否存在真实产品说明、定价页或客户案例，以替换当前仅有的词典释义证据。
+  market: ''
+  job: 品牌方客服或市场人员在客户反复询问相同问题时，把已有问答材料整理成一个对外可访问的答疑页，让访客自行得到答案。
+  job_en: When customers keep asking the same questions, brand support or marketing staff turn existing
+    Q&A material into a public answer page so visitors can get answers themselves.
+  pain: 公开证据中没有任何品牌方或客服人员的抱怨、工单压力、FAQ 维护成本或访客流失记录，痛点只能从产品描述反推，无法确认其真实存在与强度。
+  pain_en: No public evidence shows brand or support staff complaints, ticket pressure, FAQ maintenance
+    cost, or visitor drop-off; the pain can only be inferred from the product description and its reality
+    and intensity cannot be confirmed.
+  current_alternative: 公开材料未记录品牌方当前用什么方式处理重复咨询，人工逐条回复或静态 FAQ 只是推测，没有可引用的旧替代行为。
+  current_alternative_en: Public material does not record how brands currently handle repeated inquiries;
+    one-by-one human replies or a static FAQ are only guesses, with no citable prior behavior.
+  usage_reason: 推断：若产品真能把已有问答转成可自助回答的页面，客服人力紧张、售前咨询量大的品牌可能尝试；但缺少任何用户反馈或采用证据，无法说明谁会在什么情况下真正选择它。
+  usage_reason_en: 'Inference: if the product truly turns existing Q&A into a self-answering page, brands
+    with thin support staffing and heavy pre-sales questions might try it; but with no user feedback or
+    adoption evidence, it is impossible to say who would actually choose it and when.'

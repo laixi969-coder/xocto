@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1RUaUZveWRT
 summary: Alternatives and AI in focus for advisors at wirehouses in Q3. InvestmentNews
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

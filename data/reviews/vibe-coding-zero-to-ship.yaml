@@ -1,0 +1,88 @@
+- id: req-initial-vibe-coding-zero-to-ship-2026-10-16
+  project_slug: vibe-coding-zero-to-ship
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新手用 AI 代理做项目时不知如何从想法走到上线的需求，痛点在部署、安全与数据步骤缺失，结构上成立。
+    evidence_ids:
+    - ev-e7482ab12c0c733c
+    - ev-7e4f7ae0cbb3c046
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库星标从 50 增至 59，无用户评价或采用证据，是否真被纳入工作流未知。
+    evidence_ids:
+    - ev-e7482ab12c0c733c
+    - ev-7e4f7ae0cbb3c046
+  - gate: model
+    status: insufficient
+    reason: 开源技能包，未见定价或付费路径；买方可能是个人开发者或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7e4f7ae0cbb3c046
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明技能覆盖的具体代理、步骤是否可复现、安全环节由谁确认，交付确定性待核验。
+    evidence_ids:
+    - ev-e7482ab12c0c733c
+  next_validation: 收集该仓库的 README 与 issue，确认技能包支持哪些 AI 编程代理、步骤清单是否可复现，以及是否有用户报告实际用它完成上线。
+  market: ''
+  job: 没有工程背景的独立开发者在用 AI 代理做项目时，需要按步骤处理数据、Git、安全与部署，最终把项目真正上线。
+  job_en: An indie developer without an engineering background using an AI agent needs to step through
+    data, Git, security and deployment to actually ship a project.
+  pain: 代理能生成代码，但新手不知道上线前还要做哪些步骤，容易卡在部署、密钥管理和安全检查上。
+  pain_en: Agents can generate code, but newcomers don't know what steps precede launch and get stuck
+    on deployment, key management and security checks.
+  current_alternative: 零散搜索教程、看视频或反复问聊天助手，步骤不成体系，容易漏掉安全与部署环节。
+  current_alternative_en: Scattered tutorials, videos or repeated chatbot questions, with no systematic
+    steps, easily missing security and deployment.
+  usage_reason: 推断：相比零散教程，它把上线前的步骤固化成代理可执行的技能，减少新手自己拼凑流程和漏步骤的负担，因此刚用代理做第一个项目的人会选它。
+  usage_reason_en: 'Inference: versus scattered tutorials, it fixes pre-launch steps into agent-executable
+    skills, reducing the burden of assembling a process and missing steps, so first-time agent users would
+    pick it.'
+- id: req-full-vibe-coding-zero-to-ship-2026-10-16
+  project_slug: vibe-coding-zero-to-ship
+  level: full
+  reviewed_at: '2026-10-16T01:24:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新手用 AI 代理做项目时不知如何从想法走到上线的需求，痛点在部署、安全与数据步骤缺失，结构上成立。
+    evidence_ids:
+    - ev-e7482ab12c0c733c
+    - ev-7e4f7ae0cbb3c046
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库星标从 50 增至 59，无用户评价或采用证据，是否真被纳入工作流未知。
+    evidence_ids:
+    - ev-e7482ab12c0c733c
+    - ev-7e4f7ae0cbb3c046
+  - gate: model
+    status: insufficient
+    reason: 开源技能包，未见定价或付费路径；买方可能是个人开发者或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7e4f7ae0cbb3c046
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明技能覆盖的具体代理、步骤是否可复现、安全环节由谁确认，交付确定性待核验。
+    evidence_ids:
+    - ev-e7482ab12c0c733c
+  next_validation: 收集该仓库的 README 与 issue，确认技能包支持哪些 AI 编程代理、步骤清单是否可复现，以及是否有用户报告实际用它完成上线。
+  market: ''
+  job: 没有工程背景的独立开发者或新手，在用 AI 编程代理做第一个项目时，需要按可执行步骤处理数据、Git、安全、部署与上线，把想法真正发布出去。
+  job_en: A non-engineer indie developer or newcomer using an AI coding agent on a first project needs
+    executable steps for data, Git, security, deployment and launch to actually ship the idea.
+  pain: 代理能生成代码，但新手不知道上线前还缺哪些环节，容易卡在部署、密钥管理和安全检查上，反复试错。
+  pain_en: Agents can write code, but newcomers don't know which pre-launch steps are missing and get
+    stuck on deployment, key management and security checks, retrying repeatedly.
+  current_alternative: 零散搜索教程、看视频或反复问聊天助手，步骤不成体系，容易漏掉安全与部署环节。
+  current_alternative_en: Scattered tutorials, videos or repeated chatbot questions, with no systematic
+    steps, easily missing security and deployment.
+  usage_reason: 推断：相较零散教程，它把上线前步骤固化成代理可执行的技能清单，减少新手自己拼流程和漏步骤的负担，因此刚用代理做第一个项目的人会选它。
+  usage_reason_en: 'Inference: versus scattered tutorials, it fixes pre-launch steps into an agent-executable
+    skill list, cutting the burden of assembling a process and missing steps, so first-time agent users
+    would pick it.'

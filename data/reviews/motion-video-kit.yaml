@@ -677,3 +677,51 @@
     sound specs and Three.js patterns into loadable skills and auto-checks quality via an independent
     critic loop, cutting one step of trial-and-error and review, so creators or marketing teams needing
     a stable quality floor for business videos would choose it in a Claude Code workflow.'
+- id: req-full-motion-video-kit-2026-10-16
+  project_slug: motion-video-kit
+  level: full
+  reviewed_at: '2026-10-16T01:22:40Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成商业宣传片缺乏统一质量基准的需求：动效节奏、音效与画面质感易散乱，创作者需反复自检返工，不解决则成片达不到发布级。技能包把 28 部发布片的动效原则、音效规范与独立评审循环固化为可复用流程，交付脚本与画面素材，属工作流结构推理。
+    evidence_ids:
+    - ev-e379cbd2404c94fc
+    - ev-df5f9a0171e0bf27
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 1074 持续升至 1116，说明开发者社区持续关注并把它纳入 Claude Code 工作流；但收藏属关注度证据，不能证明目标营销团队已长期采用或复购，强场景共识仍待客户案例补足。
+    evidence_ids:
+    - ev-e379cbd2404c94fc
+    - ev-4d542299a8f198c5
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库，未见定价页、付费路径或买方身份；钱可能来自 to C 创作者订阅或 to B 团队授权，但这是判断而非已验证事实，商业证据档因此停留在初步成立。
+    evidence_ids:
+    - ev-e379cbd2404c94fc
+  - gate: truth
+    status: insufficient
+    reason: 技能包承诺以独立评审循环保证质量，但公开材料未给出可复现的成片对比、人工修改量或失败案例，交付能否稳定达到发布级、以及人工与安全边界仍缺公开证据。
+    evidence_ids:
+    - ev-e379cbd2404c94fc
+  next_validation: 追踪 motion-video-kit 仓库的 issue、discussion 与 README 更新，确认是否出现真实成片案例、使用反馈或付费/授权说明。
+  market: ''
+  job: 做商业宣传片的创作者或营销团队在 Claude Code 里加载这套技能包，把产品卖点、发布节奏与品牌调性等材料转成动效脚本、音效方案与 Three.js 画面代码，最终交付一支可对外发布的商业宣传片。
+  job_en: Creators or marketing teams making business promo videos load this skill kit in Claude Code,
+    turning product selling points, launch cadence and brand tone into motion scripts, sound design and
+    Three.js scene code, and deliver a publishable business promo video.
+  pain: 公开说明显示它针对的是 AI 生成商业视频缺乏统一质量基准的问题：动效节奏、音效与画面质感容易散乱，创作者需要反复自检和返工；不解决的后果是成片达不到发布级水准，需大量人工重做。
+  pain_en: 'The public description targets the lack of a consistent quality bar in AI-generated business
+    video: motion rhythm, sound and visual polish drift, forcing repeated self-review and rework; left
+    unsolved, the output falls short of launch-grade quality and needs heavy manual redo.'
+  current_alternative: 旧做法是创作者凭个人经验在通用 AI 视频工具或剪辑软件里逐条调参、手动比对参考片，或外包给动效团队；技能包把 28 部发布片的动效原则、音效规范与评审循环固化成可复用流程。
+  current_alternative_en: The old way is creators hand-tuning generic AI video tools or editors by personal
+    experience, manually comparing reference films, or outsourcing to motion teams; the kit codifies motion
+    principles from 28 launch films, sound specs and a critic loop into a reusable workflow.
+  usage_reason: 推断：相较逐条手动调参，它把动效原则、音效规范与独立评审循环直接注入 Claude Code 的生成过程，减少创作者自己总结参考片规律和逐帧自检的步骤，因此缺少专职动效人员、又需要发布级商业片的营销团队会在赶发布节点时选择它。
+  usage_reason_en: 'Inference: versus manual per-shot tuning, it injects motion principles, sound specs
+    and an independent critic loop directly into Claude Code''s generation, cutting the steps of distilling
+    reference-film rules and frame-by-frame self-review, so marketing teams without dedicated motion staff
+    but needing launch-grade video pick it near release deadlines.'

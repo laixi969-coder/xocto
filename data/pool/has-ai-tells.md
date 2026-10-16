@@ -21,7 +21,7 @@ canonical_url: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=
 summary: ''
 first_seen: '2026-10-15T00:32:05Z'
 last_seen: '2026-10-16T00:25:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

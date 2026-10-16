@@ -1,0 +1,77 @@
+- id: req-initial-dreamscale-labs-2026-10-16
+  project_slug: dreamscale-labs
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句云端运行机器人模型的定位。
+    evidence_ids:
+    - ev-0af276f0ae2afc62
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或关注度证据。
+    evidence_ids:
+    - ev-0af276f0ae2afc62
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费路径均无材料。
+    evidence_ids:
+    - ev-0af276f0ae2afc62
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-0af276f0ae2afc62
+  next_validation: 抓取 Dreamscale Labs 官方产品页或文档，确认其输入数据、输出交付与目标用户。
+  market: ''
+  job: 资料未说明具体使用者与任务，无法确认谁在什么情况下处理什么机器人材料、要完成什么。
+  job_en: The material does not identify a specific user or task, so it is impossible to confirm who handles
+    what robotics material under what circumstances to complete what.
+  pain: 资料未描述任何痛点，只给出云端运行机器人模型的定位。
+  pain_en: The material describes no pain point, only a positioning of running robot models in the cloud.
+  current_alternative: 资料未提及现有替代方式，无法判断用户此前如何完成同类任务。
+  current_alternative_en: The material mentions no existing alternative, so it is impossible to judge
+    how users previously completed comparable tasks.
+  usage_reason: 缺少输入、动作与交付的任何描述，无法解释用户为何会选择它而非旧做法；此处不作推断。
+  usage_reason_en: With no description of input, action or deliverable, there is no basis to explain why
+    a user would choose it over the old approach; no inference is made here.
+- id: req-full-dreamscale-labs-2026-10-16
+  project_slug: dreamscale-labs
+  level: full
+  reviewed_at: '2026-10-16T01:20:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句云端运行机器人模型的定位。
+    evidence_ids:
+    - ev-d09bfdf2f7ec660c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 Dreamscale Labs 官方产品页或文档，确认其输入数据、输出交付与目标用户。
+  market: ''
+  job: 资料未说明具体使用者与任务，无法确认谁在什么情况下处理什么机器人材料、要完成什么。
+  job_en: The material does not identify a specific user or task, so it is impossible to confirm who handles
+    what robotics material under what circumstances to complete what.
+  pain: 资料未描述任何痛点，只给出云端运行机器人模型的定位。
+  pain_en: The material describes no pain point, only a positioning of running robot models in the cloud.
+  current_alternative: 资料未提及现有替代方式，无法判断用户此前如何完成同类任务。
+  current_alternative_en: The material mentions no existing alternative, so it is impossible to judge
+    how users previously completed comparable tasks.
+  usage_reason: 缺少输入、动作与交付的任何描述，无法解释用户为何会选择它而非旧做法；此处不作推断。
+  usage_reason_en: With no description of input, action or deliverable, there is no basis to explain why
+    a user would choose it over the old approach; no inference is made here.

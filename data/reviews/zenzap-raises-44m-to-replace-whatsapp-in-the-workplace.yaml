@@ -1,0 +1,98 @@
+- id: req-initial-zenzap-raises-44m-to-replace-whatsapp-in-the-workplace-2026-10-16
+  project_slug: zenzap-raises-44m-to-replace-whatsapp-in-the-workplace
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决客户对话散落在个人聊天软件、交接靠截图的问题，痛点刚性来自留痕与人员流动，旧替代行为明确；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-c5f9e222464a1ff8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户案例、用户评价或采用数据，无法判断团队是否真的把工作沟通迁走。
+    evidence_ids:
+    - ev-c5f9e222464a1ff8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，to B 席位费或按对话量收费都只是推断，尚无付费路径证据。
+    evidence_ids:
+    - ev-c5f9e222464a1ff8
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 在对话中具体做什么、人工如何确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-c5f9e222464a1ff8
+  next_validation: 收集 Zenzap 官方定价页或公开客户案例，确认其计费方式与真实部署团队。
+  market: ''
+  job: 中小团队负责人或客户对接人，在同事与客户混用个人聊天软件沟通时，需要把报价、文件、进度确认留在可交接、可追溯的工作通道里，避免人员离职或换机后对话丢失。
+  job_en: A small-team lead or client-facing staffer who, when colleagues and clients mix personal chat
+    apps, needs quotes, files and progress confirmations kept in a handover-ready, traceable work channel
+    so conversations are not lost when someone leaves or changes device.
+  pain: 个人聊天软件里工作与私事混在一起，客户资料散落在个人账号，交接靠截图和转发，出问题时无法还原谁在何时确认了什么。
+  pain_en: Work and private life mix in personal chat apps, client material sits in personal accounts,
+    handover relies on screenshots and forwards, and when something goes wrong nobody can reconstruct
+    who confirmed what and when.
+  current_alternative: 继续用 WhatsApp 群加人工转发、截图存档，或另开表格和邮件补记录；部分团队改用 Slack、Teams 等通用协作工具，但客户侧不愿安装。
+  current_alternative_en: Continuing with WhatsApp groups plus manual forwarding and screenshot archiving,
+    or patching records with spreadsheets and email; some teams move to Slack or Teams, but clients resist
+    installing them.
+  usage_reason: 推断：相较继续用个人聊天软件，它把客户对话收进工作专用通道，减少事后靠截图补记录这一步，因此需要向客户留痕又要多人接手的团队会在客户沟通量上升、或出现交接纠纷时选择它。
+  usage_reason_en: 'Inference: compared with staying on personal chat apps, it pulls client conversations
+    into a work-specific channel and removes the step of reconstructing records from screenshots, so teams
+    that must keep client records and hand work between people would choose it when client volume rises
+    or a handover dispute occurs.'
+- id: req-full-zenzap-raises-44m-to-replace-whatsapp-in-the-workplace-2026-10-16
+  project_slug: zenzap-raises-44m-to-replace-whatsapp-in-the-workplace
+  level: full
+  reviewed_at: '2026-10-16T01:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决客户对话散落在个人聊天软件、交接靠截图的问题，痛点刚性来自留痕与人员流动，旧替代行为明确；AI 代理在群聊中连接工具执行动作的交付闭环可还原，属工作流结构推理；买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-3ffd5ef5023d97d5
+    - ev-31aae21740e267aa
+    - ev-ceca6d17dd85dcd2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道与官方产品说明，没有客户案例、用户评价或采用数据，无法判断团队是否真的把工作沟通迁走并持续使用。
+    evidence_ids:
+    - ev-3ffd5ef5023d97d5
+    - ev-ceca6d17dd85dcd2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，to B 席位费或按对话量收费都只是推断，尚无付费路径证据；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-31aae21740e267aa
+  - gate: truth
+    status: insufficient
+    reason: 材料说明代理有治理与权限控制，但未说明 AI 在对话中具体执行哪些动作、人工如何确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-3ffd5ef5023d97d5
+    - ev-31aae21740e267aa
+  next_validation: 收集 Zenzap 官方定价页或公开客户案例，确认其计费方式与真实部署团队。
+  market: ''
+  job: 中小团队负责人或客户对接人，在同事与客户混用 WhatsApp 等个人聊天软件沟通时，需要把报价、文件、进度确认和任务留在可交接、可追溯的工作通道里，并在群聊中让 AI 代理连接业务工具执行更新记录、发报告、标记问题等动作。
+  job_en: A small-team lead or client-facing staffer who, when colleagues and clients mix WhatsApp-style
+    personal chat apps, needs quotes, files, progress confirmations and tasks kept in a handover-ready,
+    traceable work channel, and who brings AI agents into group chats to connect business tools and update
+    records, send reports or flag issues.
+  pain: 工作与私事混在同一账号，客户资料散落在个人设备，交接靠截图和转发，出问题时无法还原谁在何时确认了什么；同时群聊里的待办、记录更新和报告仍要人工切到别的工具里补做。
+  pain_en: Work and private life share one account, client material sits on personal devices, handover
+    relies on screenshots and forwards, and nobody can reconstruct who confirmed what and when; meanwhile
+    to-dos, record updates and reports in the chat still have to be redone by hand in other tools.
+  current_alternative: 继续用 WhatsApp 群加人工转发、截图存档，或另开表格和邮件补记录；部分团队改用 Slack、Teams 等通用协作工具，但客户侧不愿安装。
+  current_alternative_en: Continuing with WhatsApp groups plus manual forwarding and screenshot archiving,
+    or patching records with spreadsheets and email; some teams move to Slack or Teams, but clients resist
+    installing them.
+  usage_reason: 推断：相较继续用个人聊天软件，它把客户与同事对话收进工作专用通道，并把 AI 代理放进群聊直接连接业务工具执行更新记录、发报告、标记问题，减少事后靠截图补记录和人工跨工具搬运这一步，因此需要向客户留痕、又要多人接手的团队会在客户沟通量上升或出现交接纠纷时选择它。
+  usage_reason_en: 'Inference: compared with staying on personal chat apps, it pulls client and colleague
+    conversations into a work-specific channel and puts AI agents inside group chats to connect business
+    tools and update records, send reports or flag issues, removing the step of reconstructing records
+    from screenshots and manually moving work between tools, so teams that must keep client records and
+    hand work between people would choose it when client volume rises or a handover dispute occurs'

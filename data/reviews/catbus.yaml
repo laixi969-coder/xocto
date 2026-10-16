@@ -245,3 +245,44 @@
   usage_reason: 缺少可引用的产品说明、使用反馈或案例，无法说明产品通过什么具体动作减少哪一步负担，因此无法解释用户为何会选择它。
   usage_reason_en: With no citable product documentation, usage feedback or case study, there is no way
     to say which step the product removes or why any user would choose it.
+- id: req-full-catbus-2026-10-16
+  project_slug: catbus
+  level: full
+  reviewed_at: '2026-10-16T01:20:04Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有一句功能描述，无法还原具体用户任务、旧流程中被替代的步骤与不解决的后果，连需求与痛点都写不出来，价值关不成立。
+    evidence_ids:
+    - ev-867f53a0550ae090
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或仓库 README 与 issue/discussion，确认实际支持的动作清单、失败处理方式与是否有团队在生产环境使用。
+  market: ''
+  job: 运营人员或 AI Agent 需要在同一流程里跨小红书、抖音、TikTok、B 站、快手、微博、闲鱼、淘宝、京东、X 执行操作并拿到结构化结果。
+  job_en: Operations staff or AI agents need to run actions across Xiaohongshu, Douyin, TikTok, Bilibili,
+    Kuaishou, Weibo, Xianyu, Taobao, JD and X in one flow and get structured results.
+  pain: 公开材料只有一句功能描述，无法还原具体用户任务、旧流程中哪一步被替代、失败如何处理，因此痛点无法从证据中确认。
+  pain_en: The public material contains only a one-line feature description; it cannot reconstruct the
+    concrete user task, which step of the old workflow is replaced, or how failures are handled, so the
+    pain point cannot be confirmed from evidence.
+  current_alternative: 公开材料未说明当前替代方式；无法从证据确认用户此前是人工逐平台点击、分别写脚本，还是根本不做跨平台操作。
+  current_alternative_en: The public material does not state the current alternative; evidence cannot
+    confirm whether users previously clicked platform by platform, wrote separate scripts, or did not
+    do cross-platform operations at all.
+  usage_reason: 公开材料未提供用户选择理由；无法从证据说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能判断用户为何会采用它。
+  usage_reason_en: The public material provides no reason for user choice; evidence cannot show which
+    step of the old approach is reduced or which verifiable result improves, so why users would adopt
+    it cannot be judged.

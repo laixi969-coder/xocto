@@ -505,3 +505,45 @@
     container sessions, terminal, files, Git and usage records into one browser interface, removing the
     step of hand-building isolation and stitching logs, so individual developers and small teams that
     need to audit agent execution or run agents remotely on a server would pick it.'
+- id: req-full-agentbox-2026-10-16
+  project_slug: agentbox
+  level: full
+  reviewed_at: '2026-10-16T01:19:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 全部证据指向澳大利亚房地产 CRM 等同名产品，没有一条描述该自托管编码代理工作区的用户任务、痛点或旧替代行为，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-1717a62443f189f7
+    - ev-dcba133602bd0ff9
+    - ev-ec67a620eec48a26
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该自托管浏览器工作区自身的官方仓库 README、部署文档与 issue/discussion，确认其容器会话隔离与用量记录是否可复现。
+  market: ''
+  job: 开发者本应在本地或服务器上运行 Claude Code、Codex CLI 等命令行编码代理，并管理多个会话、文件改动与用量记录。
+  job_en: Developers are supposed to run command-line coding agents such as Claude Code and Codex CLI
+    locally or on a server, managing multiple sessions, file changes and usage records.
+  pain: 公开证据中没有任何一条描述该工作区的用户任务、痛点或使用行为，无法确认会话分散、环境复用困难等痛点是否真实存在。
+  pain_en: No piece of public evidence describes the user task, pain or usage behavior of this workspace,
+    so it is impossible to confirm whether pains such as scattered sessions or hard-to-reuse environments
+    actually exist.
+  current_alternative: 公开材料未提供任何关于开发者当前如何运行与管理编码代理会话的替代做法信息。
+  current_alternative_en: The public material provides no information on how developers currently run
+    and manage coding-agent sessions.
+  usage_reason: 推断：若产品真能把容器会话、终端、文件与 Git 收进同一浏览器界面，可能省去自建隔离环境这一步；但现有证据全部指向房地产 CRM 等同名产品，无法支持任何采用动机。
+  usage_reason_en: 'Inference: if the product really consolidates container sessions, terminal, files
+    and Git into one browser interface it might remove the step of hand-building isolation; but all current
+    evidence points to same-named products such as a real-estate CRM and cannot support any adoption motive.'

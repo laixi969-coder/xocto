@@ -124,3 +124,42 @@
   usage_reason: 无法给出使用理由：证据中没有该产品的功能说明、输入输出、用户反馈或采用记录，任何选择动机都只能靠猜测，因此不作推断。
   usage_reason_en: 'No usage reason can be given: the evidence contains no product description, input/output,
     user feedback, or adoption record, so any motive would be pure guesswork and is not inferred.'
+- id: req-full-artex-ko-plus-2026-10-16
+  project_slug: artex-ko-plus
+  level: full
+  reviewed_at: '2026-10-16T01:19:33Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据未提供韩语安全团队的具体痛点、现有替代流程或采用行为，无法还原用户任务与不解决的后果，需求结构不成立。
+    evidence_ids:
+    - ev-80c0ce580037b841
+    - ev-88cbbc979602ea6c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认 AI 事故响应功能的具体输入、输出与 AGPL 商用授权说明。
+  market: ''
+  job: 安全分析师在收到入侵告警后，处理韩语环境下的日志与告警材料，要完成攻击链梳理与韩语事故响应报告。
+  job_en: After an intrusion alert, a security analyst works with Korean-language logs and alerts to reconstruct
+    the attack chain and produce a Korean incident-response report.
+  pain: 公开证据未提供任何韩语安全团队在告警到成文之间遇到的具体痛点、耗时或漏项记录，无法确认该任务存在刚性痛点。
+  pain_en: The public evidence provides no record of specific pain, time cost, or missed steps Korean
+    security teams face between alert and write-up, so no rigid pain point can be confirmed.
+  current_alternative: 公开证据未显示安全分析师当前用什么方式完成韩语事故响应报告，无法确认旧替代流程。
+  current_alternative_en: The public evidence does not show how analysts currently produce Korean incident-response
+    reports, so the existing alternative workflow cannot be confirmed.
+  usage_reason: 公开证据中没有任何用户反馈或客户案例说明选择理由；仅凭产品功能描述无法推断用户为何会采用它，因此使用理由无法成立。
+  usage_reason_en: No user feedback or customer case in the public evidence explains the choice; product
+    feature descriptions alone cannot establish why users would adopt it, so no usage reason can be supported.

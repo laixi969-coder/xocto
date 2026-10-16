@@ -84,3 +84,49 @@
   usage_reason_en: 'Inference: unlike generic agent clients it puts a usage ledger, budgets and on-demand
     tool loading into the on-device agent, reducing the burden of runaway or over-budget long tasks, so
     Android users running long tasks would pick it; no retention or payment evidence is provided.'
+- id: req-full-rikkahub-agent-pure-2026-10-16
+  project_slug: rikkahub-agent-pure
+  level: full
+  reviewed_at: '2026-10-16T01:23:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设备端代理长跑失控与用量不可控的需求，痛点是任务中途超支或崩掉且无法预设上限；旧做法是通用客户端事后看消耗。这是从产品能力与旧流程作出的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-54f6b33bc66492d0
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库星标从40升至45的关注度变化，属规模信号，不能说明持续采用；缺少用户评价、issue 讨论或案例来定位共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-54f6b33bc66492d0
+    - ev-8a383a98cb1a9b30
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露定价、买方或收入方式，开源仓库加 QQ 群只显示分发渠道；钱可能来自 to C 捐赠或 to B 定制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-54f6b33bc66492d0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对预算闸门、冷记忆与专家子代理在真实长任务中的交付确定性，也未说明工具调用与人工确认的安全边界，承诺能否确定性兑现缺少公开材料。
+    evidence_ids:
+    - ev-54f6b33bc66492d0
+  next_validation: 追踪该仓库 releases 与 issue/discussion 中关于用量账本、预算上限与长任务实际表现的公开记录，确认交付确定性。
+  market: ''
+  job: 在安卓设备上跑长时间 AI 代理任务的用户（如用 Shizuku/Termux/MCP 串联工具调用的开发者），在需要连续执行链式工作流时，要完成一次不中断、不超预算的任务执行。
+  job_en: Users running long AI agent tasks on Android (e.g. developers chaining tool calls via Shizuku/Termux/MCP)
+    need to complete an uninterrupted, budget-bounded run of a chained workflow.
+  pain: 长时间运行的设备端代理容易中途失控、工具调用与上下文消耗不可预期，用户无法在运行前设定上限、运行中掌握用量，事后才发现超支或任务崩掉。
+  pain_en: Long-running on-device agents easily drift out of control, with unpredictable tool-call and
+    context consumption; users cannot set a ceiling before the run or track usage during it, and only
+    discover overspend or a broken run afterwards.
+  current_alternative: 旧做法是用通用安卓代理客户端或直接跑 Termux 脚本，没有用量账本与预算闸门，工具全量加载、上下文靠人工清理，消耗只能事后回看。
+  current_alternative_en: 'The old way is a generic Android agent client or raw Termux scripts: no usage
+    ledger or budget gate, all tools loaded at once, context cleaned up by hand, and consumption only
+    visible after the fact.'
+  usage_reason: 推断：相较通用客户端，它把用量账本与预算上限、按需工具加载、冷记忆放进设备端代理本身，用户不必在长任务中途手动盯消耗或重启会话，因此跑长链式任务的安卓用户会在需要受控长跑时选它；候选材料未提供留存或付费证据。
+  usage_reason_en: 'Inference: unlike a generic client, it puts the usage ledger, budget ceiling, on-demand
+    tool loading and cold memory inside the on-device agent, so users need not babysit consumption or
+    restart sessions mid-run; Android users running long chained tasks would pick it when they need a
+    bounded long run. No retention or payment evidence is provided.'

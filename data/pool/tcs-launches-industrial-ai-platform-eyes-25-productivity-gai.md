@@ -1,11 +1,15 @@
 ---
 slug: tcs-launches-industrial-ai-platform-eyes-25-productivity-gai
-name: TCS launches industrial AI platform, eyes 25% productivity gains
+name: TCS Industrial Intelligence Foundry
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: TCS 于 2026 年 10 月 15 日发布面向制造业的工业 AI 平台 Industrial Intelligence Foundry，并称目标为 25% 的生产率提升。公开材料只给出发布与目标数字，未披露具体模块、客户、定价或交付方式，因此这是大型
+  IT 服务商把 AI 能力打包进工业场景的供给侧动作，而非可独立评估的产品。
 inspiration: ''
-summary_en: ''
+summary_en: On 15 October 2026 TCS launched Industrial Intelligence Foundry, an industrial AI platform
+  aimed at manufacturing, with a stated target of 25% productivity gains. Public material gives only the
+  launch and the target figure, with no disclosed modules, customers, pricing or delivery model, so this
+  is a supply-side move by a large IT services firm rather than an independently assessable product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQbGRxVVVYUDRi
 summary: TCS launches industrial AI platform, eyes 25% productivity gains The Hindu
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# TCS launches industrial AI platform, eyes 25% productivity gains
+# TCS Industrial Intelligence Foundry
 
 TCS launches industrial AI platform, eyes 25% productivity gains The Hindu
 

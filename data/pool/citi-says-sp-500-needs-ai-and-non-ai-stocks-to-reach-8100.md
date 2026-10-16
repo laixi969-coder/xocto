@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CTEVtdXRONjJj
 summary: Citi Says S&P 500 Needs AI and Non-AI Stocks to Reach 8,100 BeInCrypto
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

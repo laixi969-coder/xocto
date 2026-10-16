@@ -24,3 +24,45 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-fireredaudio-2026-10-16
+  project_slug: fireredaudio
+  level: initial
+  reviewed_at: '2026-08-28T06:07:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决配音与音频后期中“改一句就要重录整段”的返工问题，痛点具体且可核对，替代的是人工重录与逐段剪辑。
+    evidence_ids:
+    - ev-43e6bc8ec60a4c08
+  - gate: consensus
+    status: insufficient
+    reason: 仅有演示空间与少量点赞，没有用户评价或采用数据，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-43e6bc8ec60a4c08
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与商用授权，买方可能是个人创作者或制作团队；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-43e6bc8ec60a4c08
+  - gate: truth
+    status: insufficient
+    reason: 声音克隆涉及肖像与声音授权边界，公开材料未说明合规与人工审核机制。
+    evidence_ids:
+    - ev-43e6bc8ec60a4c08
+  next_validation: 收集 FireRedAudio 的官方模型卡或仓库文档，确认商用授权条款与语音编辑的输入输出规格。
+  market: ''
+  job: 做短视频、有声书或本地化配音的创作者，在需要改一句台词或换一个音色时，要重新录制或重新剪辑整段音频。
+  job_en: Creators making short video, audiobooks or localized dubbing must re-record or re-edit an entire
+    audio segment when one line changes or a voice needs swapping.
+  pain: 传统配音流程里，改一句台词意味着重新约配音、重录、重新对齐时间轴，返工成本远高于改动本身。
+  pain_en: In traditional voiceover workflows, changing one line means rebooking talent, re-recording
+    and re-aligning the timeline, so rework costs far more than the change itself.
+  current_alternative: 目前靠人工重录、专业音频软件逐段剪辑，或使用零散的 TTS 与变声工具拼接。
+  current_alternative_en: Today this is handled by manual re-recording, segment-by-segment editing in
+    professional audio software, or stitching together scattered TTS and voice-conversion tools.
+  usage_reason: 推断：把克隆、音色设计和语音编辑放在同一入口，用户改一句台词时不必重录整段，只需对目标片段做编辑，因此对频繁返工的配音与本地化团队有吸引力；公开材料未提供客户案例或付费证据。
+  usage_reason_en: 'Inference: putting cloning, voice design and speech editing in one place means a changed
+    line can be edited in place instead of re-recording the whole take, which appeals to dubbing and localization
+    teams with frequent rework; public material provides no customer cases or payment evidence.'

@@ -21,7 +21,7 @@ canonical_url: https://github.com/decdn/decdn
 summary: a peer-to-peer CDN where every piece is BLAKE3-verified
 first_seen: '2026-10-16T00:25:14Z'
 last_seen: '2026-10-16T00:25:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

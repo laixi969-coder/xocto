@@ -1,0 +1,85 @@
+- id: req-initial-navige-2026-10-16
+  project_slug: navige
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 agent 运行成本失控的问题，但公开材料只有一句成本削减口号，说不清具体任务、介入环节与交付结果，需求强度无法判定。
+    evidence_ids:
+    - ev-74364e3cae7f7807
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有一条产品页说明，没有采用、评价或客户案例，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-74364e3cae7f7807
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页或买方信息，无法判断钱来自 to B 团队预算还是其他方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-74364e3cae7f7807
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近成本治理的第一性目标，也无法判断限额或拦截动作能否确定性交付。
+    evidence_ids:
+    - ev-74364e3cae7f7807
+  next_validation: 抓取 Navige 官方产品页或定价页，确认它读取的用量数据来源、介入动作与计费方式。
+  market: ''
+  job: 运行 AI agent 的团队在 agent 持续调用模型、账单开始不可预期时，处理调用量与费用数据，要完成的任务是把失控支出压回预算内。
+  job_en: A team running AI agents, when continuous model calls make the bill unpredictable, works with
+    call-volume and cost data to bring runaway spending back inside budget.
+  pain: 候选只给出“失控支出”这一说法，没有说明是超预算、重复调用还是无法归因到具体任务，痛点强度无法从公开材料确认。
+  pain_en: The candidate only says 'runaway spending' and does not specify whether the problem is budget
+    overrun, duplicate calls, or inability to attribute cost to a task, so pain intensity cannot be confirmed
+    from public material.
+  current_alternative: 公开材料未说明现有替代方式，按结构推断可能是云厂商账单、自建日志统计或人工盯用量，均未获证据支持。
+  current_alternative_en: Public material does not state the current alternative; structurally it could
+    be cloud billing, self-built log counting, or manual usage watching, none of which is supported by
+    evidence.
+  usage_reason: 无法写出因果：候选没有说明它读取什么数据、在哪一步介入、减少哪一步人工负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal account is possible: the candidate does not say what data it reads, where
+    it intervenes, or which manual step it removes, so it is impossible to say which users would choose
+    it and when.'
+- id: req-full-navige-2026-10-16
+  project_slug: navige
+  level: full
+  reviewed_at: '2026-10-16T01:22:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 agent 运行成本失控的问题，但公开材料只有一句成本削减口号，说不清具体任务、介入环节与交付结果，需求强度无法判定。
+    evidence_ids:
+    - ev-74364e3cae7f7807
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 Navige 官方产品页或定价页，确认它读取的用量数据来源、介入动作与计费方式。
+  market: ''
+  job: 运行 AI agent 的团队在 agent 持续调用模型、账单开始不可预期时，处理调用量与费用数据，要完成的任务是把失控支出压回预算内。
+  job_en: A team running AI agents, when continuous model calls make the bill unpredictable, works with
+    call-volume and cost data to bring runaway spending back inside budget.
+  pain: 候选只给出“失控支出”这一说法，没有说明是超预算、重复调用还是无法归因到具体任务，痛点强度无法从公开材料确认。
+  pain_en: The candidate only says 'runaway spending' and does not specify whether the problem is budget
+    overrun, duplicate calls, or inability to attribute cost to a task, so pain intensity cannot be confirmed
+    from public material.
+  current_alternative: 公开材料未说明现有替代方式，按结构推断可能是云厂商账单、自建日志统计或人工盯用量，均未获证据支持。
+  current_alternative_en: Public material does not state the current alternative; structurally it could
+    be cloud billing, self-built log counting, or manual usage watching, none of which is supported by
+    evidence.
+  usage_reason: 无法写出因果：候选没有说明它读取什么数据、在哪一步介入、减少哪一步人工负担，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal account is possible: the candidate does not say what data it reads, where
+    it intervenes, or which manual step it removes, so it is impossible to say which users would choose
+    it and when.'

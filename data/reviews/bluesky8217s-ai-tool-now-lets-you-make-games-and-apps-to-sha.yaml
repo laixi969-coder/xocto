@@ -1,0 +1,91 @@
+- id: req-initial-bluesky8217s-ai-tool-now-lets-you-make-games-and-apps-to-sha-2026-10-16
+  project_slug: bluesky8217s-ai-tool-now-lets-you-make-games-and-apps-to-sha
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社区运营者想做互动小工具却不会写代码、也不值得走完整开发流程的需求，痛点来自活动有明确时间点；买方是谁未说明。
+    evidence_ids:
+    - ev-e601a207397d1416
+  - gate: consensus
+    status: insufficient
+    reason: 只有记者一次生成投票的体验，没有社区运营者持续使用或分享后回访的证据。
+    evidence_ids:
+    - ev-e601a207397d1416
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露 Attie 的定价或与 Bluesky 账号体系的关系，付费路径属于判断而非已验证事实。
+    evidence_ids:
+    - ev-e601a207397d1416
+  - gate: truth
+    status: insufficient
+    reason: 生成的小应用能否稳定运行、内容审核与滥用边界如何，候选材料均未说明。
+    evidence_ids:
+    - ev-e601a207397d1416
+  next_validation: 收集 Attie 官方页面或帮助文档，核对生成应用的托管方式、可用范围与是否收费。
+  market: ''
+  job: 社区运营者在组织话题讨论、投票或活动时，需要一个小工具让成员参与，但自己不会写代码，也不想为一次活动走完整开发流程。
+  job_en: When organizing a discussion, poll or event, a community operator needs a small tool for members
+    to participate in, but cannot write code and does not want a full development cycle for a one-off
+    activity.
+  pain: 现成模板改不动、找开发者成本高、周期长，导致很多互动想法在活动开始前就被放弃。
+  pain_en: Off-the-shelf templates cannot be adapted, and hiring a developer is costly and slow, so many
+    interaction ideas are dropped before the event even starts.
+  current_alternative: 用平台自带投票功能、套用现成模板，或找开发者写一个小页面。
+  current_alternative_en: Using the platform's built-in poll feature, adapting an existing template, or
+    asking a developer to build a small page.
+  usage_reason: 推断：相较套模板或找人开发，Attie 把“描述需求”直接变成可分享的网页应用，省掉的是把想法翻译成需求文档再等交付这一环，因此临时起意的社区活动主办方会先试它；但报道未给出生成结果的稳定性与长期维护方式，是否会被反复使用仍待核验。
+  usage_reason_en: 'Inference: compared with adapting a template or hiring a developer, Attie turns a
+    described need directly into a shareable web app, removing the step of translating an idea into a
+    spec and waiting for delivery, which is why organizers of ad-hoc community activities would try it
+    first; the report gives no stability or long-term maintenance of the output, so repeated use remains
+    unverified.'
+- id: req-full-bluesky8217s-ai-tool-now-lets-you-make-games-and-apps-to-sha-2026-10-16
+  project_slug: bluesky8217s-ai-tool-now-lets-you-make-games-and-apps-to-sha
+  level: full
+  reviewed_at: '2026-10-16T01:19:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社区运营者想做投票、小游戏、仪表盘却不会写代码、也不值得为一次活动走完整开发流程的需求，痛点来自活动有明确时间点；报道称简单投票需数分钟生成，属工作流结构推理，谁付钱未说明。
+    evidence_ids:
+    - ev-3b22462069b4956e
+  - gate: consensus
+    status: insufficient
+    reason: 只有记者一次生成投票的体验和 Attie 官网展示的少量示例，没有社区运营者持续使用、分享后回访或重复生成的公开证据，关注度不能替代采用。
+    evidence_ids:
+    - ev-3b22462069b4956e
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露 Attie 的定价、与 Bluesky 账号体系的关系或任何付费路径，钱可能来自 to C 订阅或平台补贴，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-d1b9b3c9b82d530b
+  - gate: truth
+    status: insufficient
+    reason: 生成的小应用能否稳定运行、托管在何处、内容审核与滥用边界如何，候选材料均未说明，交付确定性缺少公开依据。
+    evidence_ids:
+    - ev-8ec876ad0211485c
+  next_validation: 追踪 Attie 官方页面或 Bluesky 帮助文档，核对生成应用的托管方式、可用范围、内容审核规则与是否收费。
+  market: ''
+  job: 社区运营者或普通用户在 Bluesky 上组织话题投票、小游戏或数据仪表盘时，把一句自然语言提示交给 Attie，生成一个可分享为独立网页的小应用，让社区成员直接参与。
+  job_en: When a community operator or ordinary user on Bluesky wants a poll, mini-game or dashboard for
+    a topic, they hand a one-line prompt to Attie, which generates a small app shareable as its own website
+    so community members can participate directly.
+  pain: 公开报道只支持一个痛点：不会写代码的人想做互动小工具时，要么用平台自带投票这类固定形态，要么找人开发；报道称一个简单投票需数分钟生成，说明旧路径在活动时间点前存在等待与门槛，但缺少用户抱怨或放弃行为的直接证据。
+  pain_en: 'Public reporting supports only one pain point: people who cannot code either accept fixed
+    formats like the platform''s built-in poll or find a developer; the report says a simple poll took
+    a few minutes to generate, implying a wait and a barrier before an event deadline, but direct user
+    complaints or abandonment evidence is absent.'
+  current_alternative: 平台自带投票功能、套用现成模板，或找开发者写一个小页面；报道未说明这些替代方式的具体使用情况。
+  current_alternative_en: The platform's built-in poll feature, adapting an existing template, or asking
+    a developer to build a small page; the report does not describe actual usage of these alternatives.
+  usage_reason: 推断：相较套模板或找人开发，Attie 把描述需求直接变成可分享的网页应用，省掉把想法写成需求文档再等交付这一步，因此临时起意的社区活动主办方会先试它；报道未给出生成结果的稳定性、维护方式或重复使用证据，不能声称用户已长期留在工作流里。
+  usage_reason_en: 'Inference: compared with adapting a template or hiring a developer, Attie turns a
+    described need directly into a shareable web app, removing the step of writing a spec and waiting
+    for delivery, so organizers of ad-hoc community activities would try it first; the report gives no
+    stability, maintenance or repeat-use evidence, so long-term workflow retention cannot be claimed.'

@@ -1,0 +1,91 @@
+- id: req-initial-solvera-raises-63m-to-scale-the-ai-native-engineering-firm-2026-10-16
+  project_slug: solvera-raises-63m-to-scale-the-ai-native-engineering-firm
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决建筑机电设计中多专业协调与反复改图的负担，旧做法是按小时请顾问或自购软件自行出图，痛点刚性且交付可核对。
+    evidence_ids:
+    - ev-d9f11b61c14dafb4
+  - gate: consensus
+    status: insufficient
+    reason: 尚无客户案例或采用数据，无法判断工程团队是否已把这类服务纳入常规流程。
+    evidence_ids:
+    - ev-d9f11b61c14dafb4
+  - gate: model
+    status: insufficient
+    reason: 明确不按软件授权或小时收费，但公开材料未给出具体定价与付费客户，收入路径仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-d9f11b61c14dafb4
+  - gate: truth
+    status: insufficient
+    reason: 人类工程师负责判断与关键决策，但哪些任务由 AI 完成、人工确认节点如何设置未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-d9f11b61c14dafb4
+  next_validation: 收集 Solvera 官方定价或服务说明页，确认按项目还是按交付收费、以及客户案例或部署文档。
+  market: ''
+  job: 建筑项目的机电工程团队在需求与约束确定后，要协调多专业设计、反复改图，并产出可施工的协调图纸。
+  job_en: MEP engineering teams on construction projects must coordinate multi-discipline designs, repeatedly
+    revise drawings and produce coordinated construction-ready documents once requirements and constraints
+    are set.
+  pain: 多专业要求复杂、需要跨专业协调，且设计在施工过程中不断调整，人工反复改图与对齐耗时且易出错。
+  pain_en: Requirements are complex across disciplines, coordination spans multiple specialties, and designs
+    keep changing during construction, so manual revision and alignment are slow and error-prone.
+  current_alternative: 由工程顾问公司按小时或按项目提供人工设计服务，或采购软件授权后由内部工程师自行完成。
+  current_alternative_en: Engineering consultancies provide manual design services by the hour or project,
+    or firms buy software licences and have in-house engineers do the work.
+  usage_reason: 相较按小时采购顾问或自购软件再自行出图，Solvera 以服务形式直接交付协调完成的施工就绪设计，把多专业对齐与改图这一步从客户内部转移到交付方；推断，因为公开材料未给出客户案例或重复使用证据。
+  usage_reason_en: Compared with buying consultants by the hour or licensing software and producing drawings
+    in-house, Solvera delivers coordinated construction-ready designs as a service, moving multi-discipline
+    alignment and drawing revision out of the client; this is inference, as no customer case or repeat-use
+    evidence is public.
+- id: req-full-solvera-raises-63m-to-scale-the-ai-native-engineering-firm-2026-10-16
+  project_slug: solvera-raises-63m-to-scale-the-ai-native-engineering-firm
+  level: full
+  reviewed_at: '2026-10-16T01:24:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决建筑机电设计中多专业协调与反复改图的负担，旧做法是按小时请顾问或自购软件自行出图，痛点刚性且交付物可核对；此为工作流结构推理，尚无客户案例佐证。
+    evidence_ids:
+    - ev-d9f11b61c14dafb4
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与产品定位，没有客户案例、采用数据或工程团队反馈，无法判断这类服务是否已被纳入常规设计流程。
+    evidence_ids:
+    - ev-d9f11b61c14dafb4
+  - gate: model
+    status: insufficient
+    reason: 明确不按软件授权或小时收费，改为按工程服务交付，但公开材料未给出具体定价与付费客户，收入路径仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-d9f11b61c14dafb4
+  - gate: truth
+    status: insufficient
+    reason: 人类工程师负责判断与关键决策，但哪些任务由 AI 完成、人工确认节点如何设置、出错责任如何划分均未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-d9f11b61c14dafb4
+  next_validation: 追踪 Solvera 官网的服务与定价说明页或公开客户案例，确认按项目还是按交付收费、AI 与人工的分工边界及实际交付结果。
+  market: ''
+  job: 建筑项目的机电（MEP）工程团队在需求与约束确定后，需要协调暖通、给排水、电气等多专业设计，反复改图，并产出可施工的协调图纸。
+  job_en: MEP engineering teams on construction projects must coordinate HVAC, plumbing and electrical
+    disciplines, repeatedly revise designs, and produce coordinated construction-ready drawings once requirements
+    and constraints are fixed.
+  pain: 多专业要求复杂、跨专业协调量大，且设计在施工过程中不断调整，人工反复改图与对齐耗时且易出错；公开材料未给出具体工时或返工率数据。
+  pain_en: Requirements are complex across disciplines, coordination spans multiple specialties, and designs
+    keep changing during construction, so manual revision and alignment are slow and error-prone; no public
+    data on hours or rework rates.
+  current_alternative: 由工程顾问公司按小时或按项目提供人工设计服务，或采购软件授权后由内部工程师自行完成出图与协调。
+  current_alternative_en: Engineering consultancies provide manual design services by the hour or by project,
+    or firms license software and have in-house engineers produce and coordinate drawings themselves.
+  usage_reason: 相较按小时采购顾问或自购软件再自行出图，Solvera 以端到端工程服务形式直接交付协调完成的施工就绪设计，把多专业对齐与改图这一步从客户内部转移到交付方，并由其自建操作系统让
+    AI 代理承担部分任务、人类工程师保留判断；这是基于产品说明与工作流结构的推断，公开材料尚无客户案例或重复使用证据。
+  usage_reason_en: Compared with buying consultants by the hour or licensing software and drawing in-house,
+    Solvera delivers coordinated construction-ready designs as an end-to-end engineering service, moving
+    multi-discipline alignment and drawing revision out of the client, with its own operating system letting
+    AI agents take on part of the tasks while human engineers keep judgement; this is inference from product
+    description and workflow structure, as no customer case or repeat-use evidence i

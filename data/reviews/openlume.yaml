@@ -1,0 +1,92 @@
+- id: req-initial-openlume-2026-10-16
+  project_slug: openlume
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是把技术概念讲清楚这一需求，痛点真实，但公开材料只有一句描述，无法确认输入、交付与人工确认环节，价值结构尚不完整。
+    evidence_ids:
+    - ev-88207ba084f8af27
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有用户评价或采用证据说明谁在什么场景下持续使用。
+    evidence_ids:
+    - ev-88207ba084f8af27
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-88207ba084f8af27
+  - gate: truth
+    status: insufficient
+    reason: 无法核验动画讲解是否准确、是否需人工校对，交付确定性未知。
+    evidence_ids:
+    - ev-88207ba084f8af27
+  next_validation: 收集 openlume 官方示例页或文档，确认输入形式、可编辑程度与交付格式。
+  market: ''
+  job: 技术支持或培训人员需要向不懂技术的同事或学员解释一个技术概念，手头只有文字说明或文档，要产出一段能看懂、能追问的讲解材料。
+  job_en: A support or training person needs to explain a technical concept to non-technical colleagues
+    or trainees, starting from text notes or documents, and must produce an explanation that can be understood
+    and questioned.
+  pain: 把技术概念讲清楚通常要手工画图、录屏或写长文，反复被追问时还要重做，成本高且难以复用。
+  pain_en: Explaining a technical concept clearly usually means hand-drawing diagrams, recording screens
+    or writing long text, and follow-up questions force rework, making it costly and hard to reuse.
+  current_alternative: 手工画流程图或示意图、录屏讲解、写长文档，或直接口头答疑。
+  current_alternative_en: Hand-drawn flowcharts or diagrams, screen recordings, long written documents,
+    or simply answering verbally.
+  usage_reason: 推断：如果生成的动画确实能被中途打断追问，用户就不必先画图再录屏，省掉制作讲解素材这一步；但公开材料只有一句产品描述，没有用户反馈或案例证明它真的减少了这一步负担。
+  usage_reason_en: 'Inference: if the generated animation can truly be interrupted for follow-up questions,
+    users would skip drawing diagrams and recording screens, removing the step of producing explainer
+    assets; however public material offers only a one-line description with no user feedback or cases
+    proving that burden is actually reduced.'
+- id: req-full-openlume-2026-10-16
+  project_slug: openlume
+  level: full
+  reviewed_at: '2026-10-16T01:23:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把技术概念讲清楚这一需求：支持或培训人员手头只有文字材料，却要产出能被追问的讲解。旧做法是手工画图、录屏或写长文，被追问就要重做，代价高且难复用。产品以'提问即生成可打断动画'完成交付，结构上闭环，属工作流推理；公开材料仅一句描述，无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-88207ba084f8af27
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品一句话描述与一条市场覆盖检索记录，没有用户评价、客户案例或采用数据说明谁在什么场景下持续使用；无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-88207ba084f8af27
+    - ev-85c2faa6def64d32
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱来自 to C 个人订阅、to B 培训采购还是 to VC；这是判断而非已验证事实，不因此否定需求成立。
+    evidence_ids:
+    - ev-88207ba084f8af27
+  - gate: truth
+    status: insufficient
+    reason: 无法核验生成动画的技术准确性、是否需人工校对，以及'可打断追问'是否真能确定性交付；缺少部署文档或可复现实测，安全与人工边界未知。
+    evidence_ids:
+    - ev-88207ba084f8af27
+  next_validation: 追踪 openlume 官网示例页与文档，确认输入形式、可编辑程度、交付格式及是否披露定价或客户案例。
+  market: ''
+  job: 技术支持工程师或培训讲师在向不懂技术的同事、学员解释某个技术概念时，手头只有文字笔记或文档，需要产出一段能播放、能被中途追问的动画讲解。
+  job_en: A support engineer or trainer explaining a technical concept to non-technical colleagues or
+    trainees, starting from text notes or documents, needs to produce a playable animated explainer that
+    can be interrupted with follow-up questions.
+  pain: 把技术概念讲清楚通常要手工画图、录屏或写长文，被追问时还要重做，制作成本高且难以复用；公开材料只给出产品一句话描述，未提供用户抱怨或案例来量化这一痛点的强度。
+  pain_en: Explaining a technical concept clearly usually requires hand-drawing diagrams, screen recording
+    or writing long text, and follow-up questions force rework, making it costly and hard to reuse; public
+    material offers only a one-line product description with no user complaints or cases quantifying the
+    pain.
+  current_alternative: 手工画流程图或示意图、录屏讲解、写长文档，或直接口头答疑。
+  current_alternative_en: Hand-drawn flowcharts or diagrams, screen recordings, long written documents,
+    or simply answering verbally.
+  usage_reason: 推断：相较先画图再录屏的旧做法，openlume 把'提问→生成动画'合成一步，并允许在播放中打断追问，省掉重做讲解素材这一步；因此需要反复向不同对象解释同一概念的支持或培训人员，在时间紧、追问多的情况下会优先选它。公开材料尚无用户反馈或案例证实这一步负担确实被减少。
+  usage_reason_en: 'Inference: compared with drawing diagrams then recording screens, openlume collapses
+    ''ask a question → get an animation'' into one step and allows interrupting mid-playback for follow-ups,
+    removing the rework of rebuilding explainer assets; support or training staff who repeatedly explain
+    the same concept to different audiences, under time pressure and frequent follow-ups, would prefer
+    it. Public material has no user feedback or cases confirming that burden is actually reduced'

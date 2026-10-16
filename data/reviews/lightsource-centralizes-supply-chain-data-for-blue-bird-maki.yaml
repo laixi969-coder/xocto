@@ -1,0 +1,89 @@
+- id: req-initial-lightsource-centralizes-supply-chain-data-for-blue-bird-maki-2026-10-16
+  project_slug: lightsource-centralizes-supply-chain-data-for-blue-bird-maki
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决采购寻源时数据分散、决策慢的需求，痛点是每次决策都要人工汇总；客户案例给出决策加快 2 天的结果，属工作流推理加单一客户事实。
+    evidence_ids:
+    - ev-b3157a78246d8c0c
+  - gate: consensus
+    status: insufficient
+    reason: 仅见一个客户案例，没有公开的采用规模、复购或同行跟进证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b3157a78246d8c0c
+  - gate: model
+    status: insufficient
+    reason: 买方是制造商采购部门这一点可推断，但定价、按什么计价、是否按结果收费均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b3157a78246d8c0c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 具体处理什么、人工在哪一步确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-b3157a78246d8c0c
+  next_validation: 收集 LightSource 官方定价页或部署文档，确认其按什么计价以及 AI 在寻源流程中具体承担哪一步。
+  market: ''
+  job: 商用车制造商的采购与寻源人员，在评估零部件供应商与报价时，处理分散在多套系统和表格里的供应链数据，要完成一次可比较、可追溯的采购决策。
+  job_en: Sourcing and procurement staff at a commercial vehicle manufacturer, evaluating component suppliers
+    and quotes, work with supply chain data scattered across systems and spreadsheets to reach a comparable,
+    traceable sourcing decision.
+  pain: 数据分散导致每次决策都要人工汇总与核对，决策周期被拉长；公开报道称该客户此前决策慢约 2 天。
+  pain_en: Scattered data forces manual aggregation and cross-checking before every decision, lengthening
+    the cycle; the report says this customer's decisions were about 2 days slower.
+  current_alternative: 用电子表格、邮件和多个供应商门户人工拼接数据，再开会拍板。
+  current_alternative_en: Manually stitching data from spreadsheets, email and multiple supplier portals,
+    then deciding in a meeting.
+  usage_reason: 推断：相较人工拼接表格，集中化的数据层把交期、报价与供应商信息放在同一处比较，减少的是“先汇总再判断”这一步，因此采购周期长、供应商数量多的制造商采购团队会在评估阶段选择它；该客户案例支持提速结果，但未披露是否长期留用。
+  usage_reason_en: 'Inference: versus manually stitching spreadsheets, a consolidated data layer puts
+    lead times, quotes and supplier information side by side, removing the ''aggregate first, then judge''
+    step, so procurement teams at manufacturers with long cycles and many suppliers would choose it during
+    evaluation; the customer case supports the speed result but does not show long-term retention.'
+- id: req-full-lightsource-centralizes-supply-chain-data-for-blue-bird-maki-2026-10-16
+  project_slug: lightsource-centralizes-supply-chain-data-for-blue-bird-maki
+  level: full
+  reviewed_at: '2026-10-16T01:21:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决寻源评估时供应链数据分散、决策慢的需求，痛点是每次决策都要人工跨系统汇总核对；客户案例给出决策加快约 2 天的结果，属工作流结构推理加单一客户事实。
+    evidence_ids:
+    - ev-b3157a78246d8c0c
+  - gate: consensus
+    status: insufficient
+    reason: 仅见 Blue Bird 一个客户案例，没有公开的采用规模、复购或同行跟进证据，无法判断采购团队间共识是否形成。
+    evidence_ids:
+    - ev-b3157a78246d8c0c
+  - gate: model
+    status: insufficient
+    reason: 买方为制造商采购部门可推断，但定价、计价方式与是否按结果收费均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b3157a78246d8c0c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 具体接收什么数据、执行哪一步动作、人工在何处确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-b3157a78246d8c0c
+  next_validation: 追踪 LightSource 官网的定价页或部署文档，确认其计价方式以及 AI 在寻源流程中具体承担哪一步、人工确认点在哪里。
+  market: ''
+  job: 商用车制造商 Blue Bird 的采购与寻源人员，在评估零部件供应商与报价时，处理分散在多套系统与电子表格中的供应链数据，要完成一次可比较、可追溯的寻源决策。
+  job_en: Sourcing and procurement staff at commercial vehicle maker Blue Bird, evaluating component suppliers
+    and quotes, work with supply chain data scattered across multiple systems and spreadsheets to reach
+    a comparable, traceable sourcing decision.
+  pain: 供应商交期、报价与资质数据分散在不同系统与表格，每次评估都要人工汇总核对，公开报道称该客户此前寻源决策慢约 2 天。
+  pain_en: Supplier lead-time, quote and qualification data sit in different systems and spreadsheets,
+    so every evaluation requires manual aggregation and cross-checking; the report says this customer's
+    sourcing decisions were about 2 days slower.
+  current_alternative: 用电子表格、邮件和多个供应商门户人工拼接数据，再开会比对拍板。
+  current_alternative_en: Manually stitching data from spreadsheets, email and multiple supplier portals,
+    then comparing and deciding in a meeting.
+  usage_reason: 推断：相较人工拼接表格，集中化数据层把交期、报价与供应商信息放在同一处比对，减少的是“先汇总再判断”这一步，因此供应商数量多、寻源周期长的制造商采购团队会在评估阶段选择它；该客户案例支持提速结果，但未披露是否长期留用。
+  usage_reason_en: 'Inference: versus manually stitching spreadsheets, a consolidated data layer places
+    lead times, quotes and supplier information side by side, removing the ''aggregate first, then judge''
+    step, so procurement teams at manufacturers with many suppliers and long sourcing cycles would choose
+    it during evaluation; the customer case supports the speed result but does not show long-term retention.'

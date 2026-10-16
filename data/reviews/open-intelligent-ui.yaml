@@ -1,0 +1,87 @@
+- id: req-initial-open-intelligent-ui-2026-10-16
+  project_slug: open-intelligent-ui
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决把模型回答变成可操作界面的需求，但公开材料未说明旧流程的具体负担与不做的后果，痛点刚性无法判断。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有仓库关注度，没有用户评价或采用案例，无法判断场景是否被真实感知。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+  - gate: model
+    status: insufficient
+    reason: 未进入：开源项目未披露任何收费或商业路径，买方与付费方式未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对渲染结果是否确定交付，也没有安全与人工边界说明。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+  next_validation: 查看该仓库的 README 与 issue/discussion，确认它实际支持的组件类型、接入步骤与已知限制。
+  market: ''
+  job: 应用开发者在做对话式产品时，需要把模型返回的文本变成用户能直接点击、填写或操作的地图、图表和工具界面。
+  job_en: App developers building conversational products need model text to become maps, charts and tools
+    users can click, fill in or operate directly.
+  pain: 公开材料只描述“回答以交互 UI 流式呈现”，没有说明开发者此前如何手工拼装组件、耗时多少或哪里出错，痛点强度无法确认。
+  pain_en: The material only says answers stream as interactive UI; it does not show how developers previously
+    assembled components by hand, how long it took, or where it broke, so pain intensity is unconfirmed.
+  current_alternative: 现有替代是开发者自行用前端框架把模型输出解析成组件，公开材料未说明本方案减少了哪一步具体负担。
+  current_alternative_en: The current alternative is developers parsing model output into components with
+    their own frontend stack; the material does not show which concrete step this reduces.
+  usage_reason: 推断：若它把输出到组件的解析与渲染封装成可复用层，开发者可能省去自建渲染管线的工作；但缺少使用反馈或案例，无法确认这是真实选择理由。
+  usage_reason_en: 'Inference: if it packages output-to-component parsing and rendering into a reusable
+    layer, developers might skip building their own rendering pipeline. Without usage feedback or cases,
+    this cannot be confirmed as a real reason to choose it.'
+- id: req-full-open-intelligent-ui-2026-10-16
+  project_slug: open-intelligent-ui
+  level: full
+  reviewed_at: '2026-10-16T01:23:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决对话式产品把模型文本变成可操作界面的需求，痛点是开发者需自行解析输出并拼装地图、图表、工具组件，重复且易错；不做的后果是回答只能停留在纯文本。这是工作流结构推理，公开材料未给出耗时或出错数据。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 391 星，属关注度证据，只能说明有人注意到它；没有用户评价、案例或讨论说明开发者是否真的把它接入对话式产品，场景是否被真实感知无法判断。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费或商业路径，钱可能来自托管服务、企业支持或纯社区维护，买方与付费方式未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明渲染结果是否确定交付、支持哪些组件类型、接入步骤与已知限制，也没有安全与人工边界说明，无法核对承诺能否稳定兑现。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+  next_validation: 查看该仓库的 README 与 issue/discussion，确认它实际支持的组件类型、接入步骤与已知限制。
+  market: ''
+  job: 应用开发者在构建对话式产品时，需要把模型返回的文本流转换成用户能直接点击、填写或操作的地图、图表、绘图和工具界面，而不是让用户读一段文字再自己动手。
+  job_en: App developers building conversational products need model text streams to become maps, charts,
+    drawings and tools users can click, fill in or operate directly, instead of reading prose and acting
+    manually.
+  pain: 公开材料只说明回答以交互 UI 流式呈现，没有说明开发者此前手工拼装组件耗时多少或哪里出错；痛点强度属于工作流结构推理，尚无用户抱怨或案例佐证。
+  pain_en: The material only says answers stream as interactive UI; it does not show how long hand-assembling
+    components took or where it broke, so pain intensity is a workflow inference without user complaints
+    or cases.
+  current_alternative: 现有替代是开发者自行用前端框架解析模型输出并拼装组件，或直接返回纯文本让用户自己操作。
+  current_alternative_en: The current alternative is developers parsing model output into components with
+    their own frontend stack, or returning plain text and leaving the work to users.
+  usage_reason: 推断：若它把输出到组件的解析与渲染封装成可复用层，开发者可省去自建渲染管线这一步，因此正在做对话式产品、又不想从零写渲染层的开发者会在原型或上线阶段选择它；但缺少使用反馈或案例，无法确认这是真实选择理由。
+  usage_reason_en: 'Inference: if it packages output-to-component parsing and rendering into a reusable
+    layer, developers skip building their own rendering pipeline, so those building conversational products
+    without wanting to write a renderer from scratch would pick it at prototype or launch stage. Without
+    usage feedback or cases, this cannot be confirmed as a real reason to choose it.'

@@ -1,0 +1,96 @@
+- id: req-initial-7天几百元开一家店用千问办公电商版立省启动资金5万元-2026-10-16
+  project_slug: 7天几百元开一家店用千问办公电商版立省启动资金5万元
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决开店筹备这一具体任务，但材料未说明旧流程、痛点与不采用的后果，价值结构无法成立。
+    evidence_ids:
+    - ev-c5250e886500ffc9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无真实商家采用或复购证据。
+    evidence_ids:
+    - ev-c5250e886500ffc9
+  - gate: model
+    status: insufficient
+    reason: 未进入：报道未披露定价页与买方，无法判断钱从哪来。
+    evidence_ids:
+    - ev-c5250e886500ffc9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对开店结果是否确定交付，也无人工复核边界说明。
+    evidence_ids:
+    - ev-c5250e886500ffc9
+  next_validation: 收集千问办公电商版官方产品页或定价页，确认其具体功能范围、计费方式与是否有公开商家案例。
+  market: ''
+  job: 小微创业者在筹备开网店时，面对选品、店铺搭建、商品上架和客服话术等材料，要在有限预算内把店铺开起来并开始卖货。
+  job_en: When preparing to open an online store, a micro-entrepreneur works through product selection,
+    store setup, listings and customer-service scripts, and must get the store live and selling on a limited
+    budget.
+  pain: 报道只给出省钱省时的结论，未说明原来哪一步最费钱、失败代价是什么，痛点无法从公开事实还原。
+  pain_en: The report only states the money-and-time saving conclusion and does not say which step was
+    most costly or what failure cost, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未披露现有替代方式，按常识推断可能是代运营服务或自己逐步摸索，但这是推断，未经材料支持。
+  current_alternative_en: The public material does not disclose the current alternative; by inference
+    it may be agency operation services or self-teaching step by step, but this is inference and not supported
+    by the material.
+  usage_reason: 无法判断：材料未说明 AI 具体完成哪一步、交付什么可核对结果，因此不能解释卖家为何选择它而非代运营。
+  usage_reason_en: 'Cannot be judged: the material does not say which step the AI completes or what verifiable
+    result it delivers, so it cannot explain why a seller would choose it over an agency.'
+- id: req-full-7天几百元开一家店用千问办公电商版立省启动资金5万元-2026-10-16
+  project_slug: 7天几百元开一家店用千问办公电商版立省启动资金5万元
+  level: full
+  reviewed_at: '2026-10-16T01:18:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决小微创业者开店筹备中选品、搭建、上架与话术材料分散处理的需求，痛点在于启动资金与运营人手有限；公开事实显示该版本提供跨平台经营看板、趋势洞察与卖点分析、素材批量生成、跨平台ROI优化，能还原输入—动作—交付闭环，属工作流结构推理，尚无商家案例佐证。
+    evidence_ids:
+    - ev-b44804073b05b668
+    - ev-ebae5490885376fb
+    - ev-d71216e9098d022d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示2026年10月14日发布并开启邀测、近期全量上线，未披露真实商家采用、留存或复购数据，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-ebae5490885376fb
+    - ev-d71216e9098d022d
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价页与计费方式，买方可能是小微卖家或电商服务商，但钱从哪来属判断而非已验证事实，需官方定价页确认。
+    evidence_ids:
+    - ev-b44804073b05b668
+    - ev-d71216e9098d022d
+  - gate: truth
+    status: insufficient
+    reason: 产品定位为独立第三方电商Agent并面向所有平台，但报道未说明AI具体接收什么、产出哪些可交付物，也无人工复核边界，开店结果能否确定交付无法核对。
+    evidence_ids:
+    - ev-b44804073b05b668
+    - ev-d71216e9098d022d
+  next_validation: 追踪千问办公电商版官方产品页或定价页，确认其具体功能范围、计费方式与是否公布真实商家案例。
+  market: ''
+  job: 小微创业者在筹备开网店阶段，手上只有有限的启动预算和零散的选品想法，需要把选品、店铺搭建、商品上架和客服话术这些材料整理成可上线的店铺并开始卖货。
+  job_en: At the store-preparation stage, a micro-entrepreneur with a limited launch budget and only scattered
+    product ideas must turn product selection, store setup, listings and customer-service scripts into
+    a live store that can start selling.
+  pain: 公开报道只给出“7天几百元开店、立省5万元启动资金”的结论，未说明原来哪一步最费钱、失败代价是什么，痛点只能从开店筹备这一任务结构推断，缺少商家自述或案例佐证。
+  pain_en: Public reports only state the conclusion of opening a store in seven days for a few hundred
+    yuan and saving 50,000 yuan in launch capital; they do not say which step was most costly or what
+    failure costs, so the pain can only be inferred from the task structure of store preparation, without
+    merchant accounts or cases.
+  current_alternative: 公开材料未披露现有替代方式；按开店筹备的常见流程推断，可能是代运营服务、模板化建站工具或自己逐步摸索，但这是结构推理，未经材料支持。
+  current_alternative_en: The public material does not disclose the current alternative; by inference
+    from typical store-preparation workflows it may be agency operation services, template storefront
+    tools, or self-teaching step by step, but this is structural inference and not supported by the material.
+  usage_reason: 推断：相较代运营或自己摸索，千问办公电商版把跨平台经营看板、趋势洞察与卖点分析、素材批量生成、跨平台ROI优化集中到一个可切换的“电商经营”模式里，减少卖家在多个工具和平台之间来回搬运素材、手工比价选品的步骤，因此预算有限、缺少运营人手的小微卖家在筹备期会尝试它；但报道未说明AI具体接收什么、产出哪些可交付物，也无真实商家案例，这一因果仍属推断。
+  usage_reason_en: 'Inference: compared with agency operation or self-teaching, Qianwen Office E-commerce
+    Edition consolidates cross-platform dashboards, trend and selling-point analysis, batch material generation
+    and cross-platform ROI optimization into one switchable ''e-commerce operation'' mode, reducing the
+    steps of moving materials between tools and manually comparing products; therefore budget-constrained
+    micro-sellers without operations staff may try it during preparation. However, the rep'

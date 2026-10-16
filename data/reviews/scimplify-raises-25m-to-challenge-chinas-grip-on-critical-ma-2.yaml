@@ -1,0 +1,93 @@
+- id: req-initial-scimplify-raises-25m-to-challenge-chinas-grip-on-critical-ma-2-2026-10-16
+  project_slug: scimplify-raises-25m-to-challenge-chinas-grip-on-critical-ma-2
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决关键材料寻源与替代供应商筛选的需求，痛点是供应商分散、文件格式不一导致人工比对慢且易漏，不采用会在供应中断时缺少备选。
+    evidence_ids:
+    - ev-2455180ffdcbe026
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与方向报道，未见客户采用、复购或行业口碑证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-2455180ffdcbe026
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方是化工企业还是贸易商，也未说明按结果还是按席位收费，付费路径属推断。
+    evidence_ids:
+    - ev-2455180ffdcbe026
+  - gate: truth
+    status: insufficient
+    reason: 未见交付结果、准确率或人工复核边界的公开说明，承诺能否确定性交付无法核验。
+    evidence_ids:
+    - ev-2455180ffdcbe026
+  next_validation: 收集 Scimplify 官方产品页或客户案例，确认其 AI 在关键材料寻源中具体处理的数据、交付物与计费方式。
+  market: ''
+  job: 化工与新材料企业的采购或寻源人员，在需要为某种关键材料寻找替代供应商或核验合规资质时，处理供应商名录、规格书与合规文件，要完成合格供应商筛选与材料替代方案确认。
+  job_en: Procurement or sourcing staff at chemicals and advanced materials firms, when they need to find
+    alternative suppliers for a critical material or verify compliance credentials, work through supplier
+    lists, spec sheets and compliance documents to complete qualified-supplier screening and material
+    substitution decisions.
+  pain: 关键材料的供应商分散、规格与合规文件格式不一，人工比对耗时且容易漏项；一旦供应中断，替代方案往往要临时从头找起。
+  pain_en: Suppliers of critical materials are fragmented and spec and compliance documents come in inconsistent
+    formats, making manual comparison slow and error-prone; when supply is disrupted, substitution options
+    often have to be rebuilt from scratch under time pressure.
+  current_alternative: 目前多依赖采购人员的个人供应商网络、Excel 台账、邮件询价与第三方咨询报告，跨区域寻源尤其依赖人脉与线下关系。
+  current_alternative_en: Today this relies on buyers' personal supplier networks, spreadsheets, email
+    quotations and third-party consulting reports, with cross-region sourcing especially dependent on
+    relationships and offline contacts.
+  usage_reason: 推断：若产品能把供应商规格与合规文件结构化比对，采购人员可省去逐份人工核对与初步筛选这一步，从而在供应中断或替代评估时更快得到候选名单；公开材料未给出客户案例或留存数据，因此这仍是基于任务结构的判断。
+  usage_reason_en: 'Inference: if the product can structurally compare supplier specs and compliance documents,
+    buyers could skip the step of manually checking and pre-screening each file, reaching a candidate
+    list faster during supply disruption or substitution review; no customer cases or retention data are
+    public, so this remains a task-structure judgment.'
+- id: req-full-scimplify-raises-25m-to-challenge-chinas-grip-on-critical-ma-2-2026-10-16
+  project_slug: scimplify-raises-25m-to-challenge-chinas-grip-on-critical-ma-2
+  level: full
+  reviewed_at: '2026-10-16T01:23:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决关键材料寻源与替代供应商筛选的需求，痛点是供应商分散、规格与合规文件格式不一导致人工比对慢且易漏，不采用会在供应中断时缺少备选；公开材料仅确认融资与方向，流程细节属工作流结构推理。
+    evidence_ids:
+    - ev-2455180ffdcbe026
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与方向报道，未见客户采用、复购或行业口碑证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-2455180ffdcbe026
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、买方是化工企业还是贸易商，也未说明按结果还是按席位收费，付费路径属推断而非已验证事实。
+    evidence_ids:
+    - ev-2455180ffdcbe026
+  - gate: truth
+    status: insufficient
+    reason: 未见交付结果、准确率或人工复核边界的公开说明，承诺能否确定性交付无法核验。
+    evidence_ids:
+    - ev-2455180ffdcbe026
+  next_validation: 收集 Scimplify 官方产品页或客户案例，确认其 AI 在关键材料寻源中具体处理的数据、交付物与计费方式。
+  market: ''
+  job: 化工与新材料企业的采购或寻源人员，在关键材料供应受限或需要替代来源时，处理供应商名录、规格书与合规文件，要完成合格供应商筛选与材料替代方案确认。
+  job_en: Procurement or sourcing staff at chemicals and advanced materials firms, when supply of a critical
+    material is constrained or an alternative source is needed, work through supplier lists, spec sheets
+    and compliance documents to complete qualified-supplier screening and material substitution decisions.
+  pain: 关键材料供应商分散、规格与合规文件格式不一，人工比对耗时且易漏项；供应中断时替代方案往往要临时从头找起，采购人员缺少可快速复核的候选清单。
+  pain_en: Suppliers of critical materials are fragmented and spec and compliance documents come in inconsistent
+    formats, making manual comparison slow and error-prone; when supply is disrupted, substitution options
+    often have to be rebuilt from scratch, leaving buyers without a quickly reviewable candidate list.
+  current_alternative: 目前多依赖采购人员的个人供应商网络、Excel 台账、邮件询价与第三方咨询报告，跨区域寻源尤其依赖人脉与线下关系。
+  current_alternative_en: Today this relies on buyers' personal supplier networks, spreadsheets, email
+    quotations and third-party consulting reports, with cross-region sourcing especially dependent on
+    relationships and offline contacts.
+  usage_reason: 推断：若产品能把供应商规格与合规文件结构化比对，采购人员可省去逐份人工核对与初步筛选这一步，在供应中断或替代评估时更快得到候选名单；公开材料未给出客户案例或留存数据，因此这仍是基于任务结构的判断。
+  usage_reason_en: 'Inference: if the product can structurally compare supplier specs and compliance documents,
+    buyers could skip the step of manually checking and pre-screening each file, reaching a candidate
+    list faster during supply disruption or substitution review; no customer cases or retention data are
+    public, so this remains a task-structure judgment.'

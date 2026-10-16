@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/Banaxi-Tech/KV1-Demo
 summary: ''
 first_seen: '2026-10-16T00:25:38Z'
 last_seen: '2026-10-16T00:25:38Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://meta.com/blog/doja-cat-ma-vie-tour-ray-ban-meta-documenta
 summary: ''
 first_seen: '2026-10-16T00:25:39Z'
 last_seen: '2026-10-16T00:25:39Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

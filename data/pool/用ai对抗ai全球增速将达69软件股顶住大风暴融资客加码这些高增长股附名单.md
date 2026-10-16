@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vMzJmcFl0UWZq
 summary: “用AI对抗AI”，全球增速将达69%！软件股顶住大风暴，融资客加码这些高增长股（附名单） 证券时报网
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

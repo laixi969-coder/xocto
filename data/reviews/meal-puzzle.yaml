@@ -1,0 +1,91 @@
+- id: req-initial-meal-puzzle-2026-10-16
+  project_slug: meal-puzzle
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人点餐时组合与分摊算不清的需求，痛点具体且高频，不采用会导致反复确认和算错钱。
+    evidence_ids:
+    - ev-b15f11455306ae37
+    - ev-65f630f795cba23e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库收藏数从 112 增至 115，属关注度信号，不能证明持续采用或真实点餐行为。
+    evidence_ids:
+    - ev-b15f11455306ae37
+    - ev-65f630f795cba23e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明是否收费、由谁付费，也未说明核价数据来源，买方与付费路径不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-65f630f795cba23e
+  - gate: truth
+    status: insufficient
+    reason: 无法核验官方核价是否实时准确、菜单数据是否合规获取，以及分摊结果能否确定性交付。
+    evidence_ids:
+    - ev-65f630f795cba23e
+  next_validation: 收集该仓库 README 与 issue/discussion，确认菜单与核价数据来源、是否收费及实际组合输出样例。
+  market: ''
+  job: 一群同事或朋友在聚餐点餐时，需要把每个人想吃的单品凑成一桌并算清各自该付多少钱。
+  job_en: A group of colleagues or friends ordering a shared meal needs to combine everyone's desired
+    items into one table and work out what each person owes.
+  pain: 多人点餐时口味分散、总价和分摊容易算错，反复口头确认耗时且容易起争执。
+  pain_en: With many diners, preferences diverge and totals and splits are easy to miscalculate; repeated
+    verbal confirmation is slow and prone to friction.
+  current_alternative: 此前靠口头商量、在点餐小程序里反复加减，再用计算器或聊天记录手动分摊。
+  current_alternative_en: Previously done by talking it through, repeatedly adding and removing items
+    in an ordering mini-app, then splitting manually with a calculator or chat messages.
+  usage_reason: 推断：它把每个人的心愿直接合成一桌并给出官方核价与按人分餐，省去反复加减和手动分摊这一步，因此团体聚餐的组织者会在下单前使用它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: it merges each person''s wishes into one table with official pricing and
+    a per-person split, removing the repeated add-remove and manual splitting step, so group organizers
+    may use it before placing an order; no retention or repeat-use evidence yet.'
+- id: req-full-meal-puzzle-2026-10-16
+  project_slug: meal-puzzle
+  level: full
+  reviewed_at: '2026-10-16T01:22:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多人聚餐点餐时组合与分摊算不清的需求，痛点具体且高频，不采用会导致反复确认和算错钱；这是基于产品说明与旧流程的结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-b15f11455306ae37
+    - ev-65f630f795cba23e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库收藏数从 112 增至 115，属关注度信号，不能证明持续采用或真实点餐行为，也未发现用户评价或客户案例。
+    evidence_ids:
+    - ev-b15f11455306ae37
+    - ev-65f630f795cba23e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明是否收费、由谁付费，也未说明核价数据来源；买方与付费路径不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-65f630f795cba23e
+  - gate: truth
+    status: insufficient
+    reason: 无法核验官方核价是否实时准确、菜单数据是否合规获取，以及分摊结果能否确定性交付，承诺兑现边界不清。
+    evidence_ids:
+    - ev-65f630f795cba23e
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认菜单与核价数据来源、是否收费及实际组合输出样例。
+  market: ''
+  job: 一群同事或朋友在聚餐点餐时，把每个人想吃的麦当劳单品汇总，拼成一桌可下单的组合，并算出各自应付金额。
+  job_en: A group of colleagues or friends ordering a shared McDonald's meal pools each person's desired
+    items into one orderable combination and works out what each person owes.
+  pain: 公开材料显示其定位为把每个人想吃的拼成一桌并做官方核价与按人分餐；多人点餐时口味分散、总价与分摊需反复口头确认，容易算错或起争执。
+  pain_en: Public material positions it as merging each person's wishes into one table with official pricing
+    and per-person splitting; with many diners, preferences diverge and totals and splits need repeated
+    verbal confirmation, which is error-prone and can cause friction.
+  current_alternative: 此前靠口头商量，在麦当劳点餐小程序或柜台里反复加减单品，再用计算器或聊天记录手动分摊。
+  current_alternative_en: Previously done by talking it through, repeatedly adding and removing items
+    in the McDonald's ordering mini-app or at the counter, then splitting manually with a calculator or
+    chat messages.
+  usage_reason: 推断：相较反复加减和手动分摊的旧做法，它把各人心愿直接合成一桌并给出官方核价与按人分餐，减少逐项核对与手动算账这一步，因此团体聚餐的组织者会在下单前使用它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: versus repeated add-remove and manual splitting, it merges individual wishes
+    into one table with official pricing and a per-person split, removing the item-by-item reconciliation
+    and manual arithmetic step, so group organizers may use it before ordering; no retention or repeat-use
+    evidence yet.'

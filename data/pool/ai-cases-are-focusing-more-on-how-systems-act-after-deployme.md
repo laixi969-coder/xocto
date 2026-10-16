@@ -22,7 +22,7 @@ summary: 'AI cases are focusing more on how systems act after deployment: J.S. H
   Lawyer'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

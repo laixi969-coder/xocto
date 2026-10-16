@@ -22,7 +22,7 @@ summary: Rice Lake Company Receives $253K as Wisconsin Invests in AI, Advanced M
   DrydenWire.com
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

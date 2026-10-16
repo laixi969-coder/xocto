@@ -1,0 +1,88 @@
+- id: req-initial-拍照和翻译救不了-ai-眼镜千问-2218-元起推新硬件要抢现实世界里的上下文-2026-10-16
+  project_slug: 拍照和翻译救不了-ai-眼镜千问-2218-元起推新硬件要抢现实世界里的上下文
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决双手被占用时获取眼前信息的需求，但公开材料只有一句定位描述，未说明具体任务、识别范围与交付结果，痛点刚性无法判断。
+    evidence_ids:
+    - ev-26ae3a2986f29e09
+  - gate: consensus
+    status: insufficient
+    reason: 仅有单篇报道，无用户评价、采用或复购信息，无法判断是否形成共识。
+    evidence_ids:
+    - ev-26ae3a2986f29e09
+  - gate: model
+    status: insufficient
+    reason: 报道提到2218元起售价，但未说明硬件之外的订阅或服务收费，买方与付费路径不清，属判断而非已验证事实。
+    evidence_ids:
+    - ev-26ae3a2986f29e09
+  - gate: truth
+    status: insufficient
+    reason: 未披露识别准确率、隐私处理与人工确认边界，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-26ae3a2986f29e09
+  next_validation: 收集千问 AI 眼镜官方产品页或发布材料，核对识别范围、响应方式、隐私处理与是否含订阅收费。
+  market: ''
+  job: 普通消费者在通勤、旅行或现场作业时，用眼镜拍摄眼前场景并获取实时信息。
+  job_en: Everyday users capture the scene in front of them through glasses to get real-time information
+    while commuting, traveling or working on site.
+  pain: 双手被占用或不便掏手机时，查信息、记录现场、识别物体都要中断当前动作；公开材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: When both hands are busy or taking out a phone is awkward, looking up information, recording
+    a scene or identifying objects interrupts the current action; public materials give no direct evidence
+    of user complaints or workarounds.
+  current_alternative: 用手机拍照、翻译应用或语音助手，事后手动查询和记录。
+  current_alternative_en: Using a phone camera, translation apps or voice assistants, then looking up
+    and recording manually afterwards.
+  usage_reason: 推断：若眼镜能在不掏手机的情况下直接识别眼前场景并回话，可省去掏手机、解锁、打开应用这几步，双手被占用的现场人员可能因此选择它；但公开材料未说明识别准确率与响应延迟，也无用户反馈支持。
+  usage_reason_en: 'Inference: if the glasses can identify the scene and respond without taking out a
+    phone, they remove the steps of pulling out, unlocking and opening an app, which may lead hands-busy
+    field users to choose them; however, public materials do not state recognition accuracy or latency,
+    and no user feedback supports this.'
+- id: req-full-拍照和翻译救不了-ai-眼镜千问-2218-元起推新硬件要抢现实世界里的上下文-2026-10-16
+  project_slug: 拍照和翻译救不了-ai-眼镜千问-2218-元起推新硬件要抢现实世界里的上下文
+  level: full
+  reviewed_at: '2026-10-16T01:25:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决双手被占用时获取眼前信息的需求，但公开材料只有一句定位描述与起售价，未说明具体任务、识别范围与交付结果，痛点刚性无法判断。
+    evidence_ids:
+    - ev-69e03c8eb8261044
+    - ev-f70b3ca948d6c3d6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 千问 AI 眼镜 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 普通消费者在通勤、旅行或现场作业时，戴上千问 AI 眼镜，用摄像头和语音采集眼前的画面与声音，由模型识别场景并返回实时信息或提示。
+  job_en: Everyday users wear Qianwen AI glasses while commuting, traveling or working on site, using
+    the camera and voice to capture the scene and sound around them so a model can identify the situation
+    and return real-time information or prompts.
+  pain: 公开材料只给出产品定位与 2218 元起售价，没有说明用户具体在什么场合遇到什么困难、现有做法哪里不够用，也没有用户抱怨或替代行为的直接证据，痛点刚性无法判断。
+  pain_en: Public materials only give a product positioning and a starting price of 2,218 yuan; they do
+    not state what specific difficulty users face in which situations, where current practices fall short,
+    or any direct evidence of user complaints or workarounds, so pain rigidity cannot be judged.
+  current_alternative: 用手机拍照、翻译应用或语音助手，事后手动查询和记录；公开材料未描述用户实际如何绕过这一需求。
+  current_alternative_en: Using a phone camera, translation apps or voice assistants, then looking up
+    and recording manually afterwards; public materials do not describe how users actually work around
+    this need.
+  usage_reason: 推断：若眼镜能在不掏手机的情况下直接识别眼前场景并回话，可省去掏手机、解锁、打开应用这几步，双手被占用的现场人员可能因此选择它；但公开材料未说明识别准确率、响应延迟与人工确认环节，也无用户反馈支持，无法确认用户会持续使用。
+  usage_reason_en: 'Inference: if the glasses can identify the scene and respond without taking out a
+    phone, they remove the steps of pulling out, unlocking and opening an app, which may lead hands-busy
+    field users to choose them; however, public materials do not state recognition accuracy, latency or
+    human confirmation, and no user feedback supports this, so sustained use cannot be confirmed.'

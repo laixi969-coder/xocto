@@ -1,0 +1,99 @@
+- id: req-initial-airsup-lab-2026-10-16
+  project_slug: airsup-lab
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是复杂机械难以接触、难以展示内部结构的问题，痛点真实；但公开材料未说明是否含 AI 环节，也未给出具体交付与使用场景，价值结构尚不完整。
+    evidence_ids:
+    - ev-0c7893cc3619d451
+    - ev-c0a191a45eeb66d1
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库 41 星、8 次 fork，无用户评价、课程采用或社区讨论，无法判断教师与学习者是否真的把它放进教学流程。
+    evidence_ids:
+    - ev-0c7893cc3619d451
+    - ev-c0a191a45eeb66d1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；教学机构采购、个人订阅或开源赞助均属推断，尚无已验证的付费路径。
+    evidence_ids:
+    - ev-0c7893cc3619d451
+  - gate: truth
+    status: insufficient
+    reason: 无法核对模型是否贴近真实机械结构、物理模拟是否可信，也未说明人工校对边界，交付确定性待核验。
+    evidence_ids:
+    - ev-0c7893cc3619d451
+  next_validation: 收集该项目的官方说明或仓库 README，确认是否包含 AI 生成环节、模型数据来源与可交付形态。
+  market: ''
+  job: 工程或物理教师、机械爱好者在讲解或自学聚变反应堆、猛禽3发动机等复杂机械时，需要把实体结构逐层拆开观察，目前只能在浏览器里打开这些程序化模型来理解构造。
+  job_en: Engineering or physics instructors and mechanical hobbyists explaining or self-studying complex
+    machines such as fusion reactors or Raptor 3 engines need to take the physical structure apart layer
+    by layer, and currently can only open these procedural models in the browser to understand the construction.
+  pain: 真实机械昂贵、危险或根本接触不到，静态图片和视频无法展示内部层级关系，学习者难以建立结构认知。
+  pain_en: Real machines are expensive, dangerous or simply inaccessible, and static images or videos
+    cannot show internal layer relationships, making it hard for learners to build structural understanding.
+  current_alternative: 教科书剖面图、拆解视频、实体模型或专业 CAD/仿真软件；前者不可交互，后者学习与采购成本高。
+  current_alternative_en: Textbook cutaway diagrams, teardown videos, physical models or professional
+    CAD/simulation software; the former are not interactive, the latter carry high learning and procurement
+    costs.
+  usage_reason: 推断：相较看剖面图或视频，它让用户在浏览器里直接逐层拆开模型，省去安装专业仿真软件或购买实体模型的步骤，因此工程教学与科普场景的用户可能选择它；但公开材料未显示任何 AI
+    环节、付费路径或重复使用证据。
+  usage_reason_en: 'Inference: compared with reading cutaways or watching videos, it lets users disassemble
+    models layer by layer directly in the browser, removing the step of installing professional simulation
+    software or buying physical models, so users in engineering teaching and science communication may
+    choose it; however, public material shows no AI step, payment path or repeat-use evidence.'
+- id: req-full-airsup-lab-2026-10-16
+  project_slug: airsup-lab
+  level: full
+  reviewed_at: '2026-10-16T01:19:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复杂机械难以接触、内部结构难以逐层展示的问题，痛点在于实体昂贵危险、剖面图与视频不可交互；浏览器内程序化拆解可确定交付，属工作流结构推理，公开材料未显示 AI 环节与付费路径。
+    evidence_ids:
+    - ev-0c7893cc3619d451
+    - ev-c0a191a45eeb66d1
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库星标从 40 增至 41，无用户评价、课程采用或社区讨论，无法判断教师与学习者是否真的把它放进教学或自学流程，关注度不等于持续采用。
+    evidence_ids:
+    - ev-0c7893cc3619d451
+    - ev-c0a191a45eeb66d1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；教学机构采购、个人订阅或开源赞助均属推断，尚无已验证的付费路径，这是判断而非事实。
+    evidence_ids:
+    - ev-0c7893cc3619d451
+  - gate: truth
+    status: insufficient
+    reason: 无法核对模型是否贴近真实机械结构、物理模拟是否可信，也未说明人工校对边界与安全提示，交付确定性仍待公开材料佐证。
+    evidence_ids:
+    - ev-0c7893cc3619d451
+    - ev-c0a191a45eeb66d1
+  next_validation: 追踪 airsup.ai/lab 官方页面或仓库 README 的更新，确认是否披露模型数据来源、物理模拟可信度说明与可交付形态（含是否含 AI 生成环节）。
+  market: ''
+  job: 工程或物理教师、机械爱好者在课堂讲解或自学聚变反应堆、猛禽3发动机、F1赛车等复杂机械时，需要在浏览器中把这些对象逐层拆开，观察内部层级与结构关系，以完成结构认知或讲解任务。
+  job_en: Engineering or physics instructors and mechanical hobbyists, when teaching or self-studying
+    complex machines such as fusion reactors, Raptor 3 engines or F1 cars, need to take these objects
+    apart layer by layer in the browser to observe internal hierarchy and structure, completing a structural-understanding
+    or explanation task.
+  pain: 真实机械昂贵、危险或根本接触不到，教科书剖面图与拆解视频是静态或单向的，无法让学习者按自己的节奏逐层展开内部结构，结构认知难以建立。
+  pain_en: Real machines are expensive, dangerous or simply inaccessible; textbook cutaways and teardown
+    videos are static or one-way and cannot let learners expand internal structure layer by layer at their
+    own pace, so structural understanding is hard to build.
+  current_alternative: 教科书剖面图、拆解视频、实体教学模型，或专业 CAD/仿真软件；前者不可交互，后者学习与采购成本高。
+  current_alternative_en: Textbook cutaways, teardown videos, physical teaching models, or professional
+    CAD/simulation software; the former are not interactive, the latter carry high learning and procurement
+    costs.
+  usage_reason: 推断：相较看剖面图或视频，它把逐层拆解动作直接放进浏览器，用户无需安装专业仿真软件或购买实体模型即可按自己节奏展开结构，因此工程教学与科普场景的用户会在需要讲清或看懂内部层级时选择它；公开材料尚无用户评价或重复使用证据。
+  usage_reason_en: 'Inference: compared with reading cutaways or watching videos, it puts the layer-by-layer
+    disassembly action directly in the browser, so users can expand structure at their own pace without
+    installing professional simulation software or buying physical models; users in engineering teaching
+    and science communication would choose it when they need to explain or understand internal hierarchy.
+    Public material still lacks user reviews or repeat-use evidence.'

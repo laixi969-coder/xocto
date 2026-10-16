@@ -1,0 +1,81 @@
+- id: req-initial-startup-spotlight-zeacon-aims-to-turn-website-visitors-into-2026-10-16
+  project_slug: startup-spotlight-zeacon-aims-to-turn-website-visitors-into
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决商品页说服力不足，但候选未写清具体流失环节、旧流程与交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-7156f8a1366a2492
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有一篇创业报道，没有商家采用、转化提升或复购证据。
+    evidence_ids:
+    - ev-7156f8a1366a2492
+  - gate: model
+    status: insufficient
+    reason: 未进入：未披露定价与收费方式，无法判断按席位还是按成交收费。
+    evidence_ids:
+    - ev-7156f8a1366a2492
+  - gate: truth
+    status: insufficient
+    reason: 未进入：没有转化率、播放到下单的归因数据，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-7156f8a1366a2492
+  next_validation: 收集 Zeacon 官方定价页或客户案例，核对视频生成输入、投放位置与转化归因数据。
+  market: ''
+  job: 独立站运营者在访客进入商品页但未下单时，处理商品图文素材，要完成一段能推动下单的讲解视频。
+  job_en: A DTC operator, when visitors reach a product page without buying, works from product copy and
+    images to produce an explainer video that drives purchase.
+  pain: 候选只给出“把访客变成买家”的目标，未说明访客流失的具体环节、旧做法耗时或转化损失，痛点无法确认。
+  pain_en: The candidate states only the goal of turning visitors into buyers, without the specific drop-off
+    step, time cost of the old approach or conversion loss, so the pain cannot be confirmed.
+  current_alternative: 旧做法是运营者自己拍摄或外包商品视频，或依赖静态图文与评价；候选未说明新方案替代了其中哪一步。
+  current_alternative_en: The old way is operators shooting or outsourcing product video, or relying on
+    static copy and reviews; the candidate does not say which step the new approach replaces.
+  usage_reason: 推断：若工具能直接从商品页素材生成讲解视频，运营者可跳过拍摄与剪辑环节；但候选没有转化对比或客户案例，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the tool generates explainer video directly from product page assets,
+    operators could skip shooting and editing; however, the candidate offers no conversion comparison
+    or customer case to confirm users would choose it for that reason.'
+- id: req-full-startup-spotlight-zeacon-aims-to-turn-website-visitors-into-2026-10-16
+  project_slug: startup-spotlight-zeacon-aims-to-turn-website-visitors-into
+  level: full
+  reviewed_at: '2026-10-16T01:24:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决商品页说服力不足，但候选未写清具体流失环节、旧流程与交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-7156f8a1366a2492
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Zeacon 官方定价页或客户案例，核对视频生成输入、投放位置与转化归因数据。
+  market: ''
+  job: 独立站运营者在访客已进入商品页却未下单时，处理现有商品图文素材，要产出一段能解释商品并推动下单的讲解视频。
+  job_en: A DTC operator, when visitors reach a product page without buying, works from existing product
+    copy and images to produce an explainer video that explains the product and drives purchase.
+  pain: 公开材料只给出“把访客变成买家”的目标，未说明访客流失发生在哪一步、旧做法耗时多少或转化损失多大，痛点无法确认。
+  pain_en: Public material states only the goal of turning visitors into buyers, without the specific
+    drop-off step, time cost of the old approach or conversion loss, so the pain cannot be confirmed.
+  current_alternative: 旧做法是运营者自行拍摄或外包商品视频，或依赖静态图文与评价；候选未说明新方案替代了其中哪一步。
+  current_alternative_en: The old way is operators shooting or outsourcing product video, or relying on
+    static copy and reviews; the candidate does not say which step the new approach replaces.
+  usage_reason: 推断：若工具能直接从商品页素材生成讲解视频，运营者可跳过拍摄与剪辑环节；但候选没有转化对比或客户案例，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the tool generates explainer video directly from product page assets,
+    operators could skip shooting and editing; however, the candidate offers no conversion comparison
+    or customer case to confirm users would choose it for that reason.'

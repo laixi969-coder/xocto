@@ -27,7 +27,7 @@ summary: President Donald Trump posted a series of photos on Truth Social showin
   in angle and detail; the reflection i … Read the full story at The Verge.
 first_seen: '2026-10-16T00:25:40Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

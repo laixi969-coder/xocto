@@ -1,0 +1,93 @@
+- id: req-initial-vilnius-based-holo-raises-5m-to-bring-ai-powered-marketing-t-2026-10-16
+  project_slug: vilnius-based-holo-raises-5m-to-bring-ai-powered-marketing-t
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决没有营销岗的小企业主从零做渠道规划和内容素材的需求，痛点是缺人缺时间导致营销断档，旧做法是零散发帖或外包，结构上成立。
+    evidence_ids:
+    - ev-b147ba0d22dbd3c0
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有融资与产品说明，没有客户案例、用户评价或采用数据，无法判断小企业主是否真的把计划与素材用起来。
+    evidence_ids:
+    - ev-b147ba0d22dbd3c0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与计费方式，买方是小企业主还是通过渠道分销尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b147ba0d22dbd3c0
+  - gate: truth
+    status: insufficient
+    reason: 素材需用户逐条审阅批准后才发布，人工边界清楚；但生成内容能否带来可核对结果、是否贴近真实获客目标，公开材料未提供。
+    evidence_ids:
+    - ev-b147ba0d22dbd3c0
+  next_validation: 收集 Holo 官方定价页或公开客户案例，确认计费方式与是否有小企业持续使用的证据。
+  market: ''
+  job: 没有营销岗的小企业主在需要持续获客时，要处理自家网站、产品信息和品牌素材，产出一份可执行的营销计划以及广告、社媒、邮件和 SEO 内容，并决定哪些先发。
+  job_en: A small business owner with no marketing hire, needing steady customer acquisition, must work
+    from their own website, product information and brand assets to produce an executable marketing plan
+    plus ads, social posts, emails and SEO content, and decide what to publish first.
+  pain: 这类经营者通常既不会做渠道规划，也没有时间逐条写素材，营销往往停在做完一个页面或发几条帖子，缺少把目标、渠道和内容串起来的环节。
+  pain_en: Such operators typically cannot do channel planning and have no time to write assets one by
+    one, so marketing stalls after a landing page or a few posts, with nothing linking goals, channels
+    and content together.
+  current_alternative: 现状多是老板自己零散发帖、临时找自由职业者或代运营，或分别订阅文案、排期、邮件等单点工具，再由自己拼接。
+  current_alternative_en: Today they mostly post sporadically themselves, hire freelancers or agencies
+    ad hoc, or subscribe to separate copywriting, scheduling and email tools and stitch them together.
+  usage_reason: 相较零散发帖或分别买工具，Holo 把「读网站—出计划—生成素材—排期—人工批准后发布」串成一条链，省掉在多个工具间搬运品牌信息和反复交代背景的步骤；推断没有营销人手、又需要持续产出内容的小企业主会因此选择它，但公开材料未显示留存或复购证据。
+  usage_reason_en: Compared with sporadic posting or buying separate tools, Holo chains reading the website,
+    producing a plan, generating assets, scheduling and publishing after human approval, removing the
+    step of moving brand information between tools and re-explaining context; the inference is that owners
+    with no marketing staff who need steady output would choose it, though public materials show no retention
+    or repeat-use evidence.
+- id: req-full-vilnius-based-holo-raises-5m-to-bring-ai-powered-marketing-t-2026-10-16
+  project_slug: vilnius-based-holo-raises-5m-to-bring-ai-powered-marketing-t
+  level: full
+  reviewed_at: '2026-10-16T01:24:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决没有营销岗的小企业主从零做渠道规划和内容素材的需求，痛点是缺人缺时间导致营销断档，旧做法是零散发帖或外包，结构上成立。
+    evidence_ids:
+    - ev-7fcc13a670973145
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有融资与产品说明，没有客户案例、用户评价或采用数据，无法判断小企业主是否真的把计划与素材用起来。
+    evidence_ids:
+    - ev-7fcc13a670973145
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与计费方式，买方是小企业主还是通过渠道分销尚不清楚，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7fcc13a670973145
+  - gate: truth
+    status: insufficient
+    reason: 素材需用户逐条审阅批准后才发布，人工边界清楚；但生成内容能否带来可核对结果、是否贴近真实获客目标，公开材料未提供。
+    evidence_ids:
+    - ev-7fcc13a670973145
+  next_validation: 收集 Holo 官方定价页或公开客户案例，确认计费方式与是否有小企业持续使用的证据。
+  market: ''
+  job: 没有专职营销人员的小企业主或一人公司经营者，在需要持续获客时，把自己已有的网站、产品服务信息和品牌调性交给系统，产出一份可执行的营销计划以及广告、社媒帖、邮件和 SEO 内容，并逐条审阅批准后发布到已连接渠道。
+  job_en: A small business owner or solo operator with no dedicated marketer, needing steady customer
+    acquisition, hands over their existing website, product/service information and brand tone to produce
+    an executable marketing plan plus ads, social posts, emails and SEO content, then reviews, approves
+    and publishes each item to connected channels.
+  pain: 这类经营者既不会做渠道规划，也没有时间逐条写素材，营销常停在做完一个页面或发几条帖子，缺少把经营目标、渠道选择和内容产出串起来的环节，导致获客动作断档。
+  pain_en: Such operators cannot do channel planning and have no time to write assets one by one, so marketing
+    stalls after a landing page or a few posts, with nothing linking business goals, channel choices and
+    content output, leaving acquisition efforts broken.
+  current_alternative: 现状多是老板自己零散发帖、临时找自由职业者或代运营，或分别订阅文案、排期、邮件等单点工具再由自己拼接。
+  current_alternative_en: Today they mostly post sporadically themselves, hire freelancers or agencies
+    ad hoc, or subscribe to separate copywriting, scheduling and email tools and stitch them together.
+  usage_reason: 相较零散发帖或分别买工具，Holo 通过读取网站自动提取品牌调性与产品信息，把「出计划—生成素材—排期—人工批准后发布」串成一条链，省掉在多个工具间搬运品牌信息和反复交代背景的步骤；推断没有营销人手、又需要持续产出内容的小企业主会因此选择它，但公开材料未显示留存或复购证据。
+  usage_reason_en: Compared with sporadic posting or buying separate tools, Holo reads the website to
+    extract brand tone and product information automatically, chaining plan generation, asset creation,
+    scheduling and post-approval publishing, removing the step of moving brand information between tools
+    and re-explaining context; the inference is that owners with no marketing staff who need steady output
+    would choose it, though public materials show no retention or repeat-use evidence.

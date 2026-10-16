@@ -1,0 +1,94 @@
+- id: req-initial-graphicle-2-2026-10-16
+  project_slug: graphicle-2
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向为编码代理提供代码图与记忆这一步，但材料未说明具体任务、旧做法与不采用的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-0d684eabe3b2f550
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有仓库星标等关注度指标，没有采用或复现证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-0d684eabe3b2f550
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价、客户或付费路径信息，买方与收费方式未知。
+    evidence_ids:
+    - ev-0d684eabe3b2f550
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验它是否贴近该工作的第一性目标，也无交付确定性与人工边界材料。
+    evidence_ids:
+    - ev-0d684eabe3b2f550
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认代码图与记忆的实际输入、输出及可复现效果。
+  market: ''
+  job: 开发者在 Claude Code、Codex、Cursor 等客户端里让代理改代码时，需要给代理提供代码结构与历史记忆。
+  job_en: Developers letting agents edit code inside Claude Code, Codex, Cursor and similar clients need
+    to supply code structure and history memory to those agents.
+  pain: 材料只说明它同时提供代码图与记忆，没有说明开发者现在具体卡在哪一步、不解决会失去什么，痛点未被材料支持。
+  pain_en: The material only says it provides code graph and memory together; it does not say which step
+    developers are stuck on or what is lost if unsolved, so the pain is not supported by material.
+  current_alternative: 开发者目前多依赖各客户端自带的索引或手动挑选文件；这是从品类常识作出的推断，候选材料未提供。
+  current_alternative_en: Developers today mostly rely on each client's built-in indexing or manually
+    pick files; this is an inference from the category, not provided by the candidate material.
+  usage_reason: 若一个程序能同时给多个代理客户端提供代码图与记忆，开发者就不必为每个客户端各配一套；但候选未给出可核对结果，该判断为推断。
+  usage_reason_en: If one program can serve code graph and memory to several agent clients at once, developers
+    would not configure a separate setup per client; but the candidate gives no checkable result, so this
+    is an inference.
+- id: req-full-graphicle-2-2026-10-16
+  project_slug: graphicle-2
+  level: full
+  reviewed_at: '2026-10-16T01:21:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理缺少仓库级代码结构与历史上下文、开发者需反复手动投喂文件的问题；不解决的后果是代理改动与仓库结构不符、引用不可核对。公开仓库说明已给出输入（仓库、文档、决策、历史会话）、动作（建代码图与记忆）与交付（带文件行号的引用片段），据此可作工作流结构推理成立，但无用户抱怨或采用数据。
+    evidence_ids:
+    - ev-81578369e0c812b7
+    - ev-f17e2c8e55a929c8
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库自述的产品能力，没有采用、复现、issue 讨论或用户评价，无法判断共识卡在感知、想象、场景还是利益环节；同名的粒子物理 graphicle 包与该项目无关，不能作为共识证据。
+    evidence_ids:
+    - ev-81578369e0c812b7
+    - ev-e727255b19541e48
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、许可证、托管或企业采购方式，买方是个人开发者、团队还是 to VC 无法确认；这是判断而非已验证事实，但按公开证据它仍是一个可自托管的 Rust 程序，付费路径未核验。
+    evidence_ids:
+    - ev-f17e2c8e55a929c8
+    - ev-81578369e0c812b7
+  - gate: truth
+    status: insufficient
+    reason: 代码图与记忆贴近代理改代码的第一性目标，但公开材料未说明索引如何随仓库变更更新、引用是否可复现、多客户端下记忆是否一致，也无安全与人工边界说明，交付确定性无法核验。
+    evidence_ids:
+    - ev-81578369e0c812b7
+  next_validation: 抓取 公开代码仓库.com/graphicle-ai/graphicle 的 README、release 与 issue/discussion，确认代码图与记忆的实际输入输出、索引更新方式及是否有可复现的引用示例。
+  market: ''
+  job: 使用 Claude Code、Codex、Cursor 等 MCP 客户端的开发者在让编码代理修改一个已有仓库时，需要把仓库的代码结构、项目文档、历史决策和过往代理会话作为可引用的上下文交给代理，让代理在正确文件与行号上完成改动。
+  job_en: Developers using MCP clients such as Claude Code, Codex and Cursor, when letting a coding agent
+    modify an existing repository, need to hand the agent the repo's code structure, project docs, past
+    decisions and prior agent sessions as citable context so the agent edits the right files and lines.
+  pain: 代理只看到被手动挑选或客户端自带索引覆盖的片段，跨文件调用关系、项目决策与历史会话上下文缺失，导致代理给出与仓库实际结构不符的改动，开发者要反复贴文件、纠正幻觉引用；公开材料只给出产品能力描述，未提供用户抱怨或采用数据，痛点强度属工作流结构推理。
+  pain_en: Agents see only manually picked snippets or whatever the client's own index covers, so cross-file
+    call relations, project decisions and prior session context are missing, producing edits that mismatch
+    the repo and forcing developers to re-paste files and correct hallucinated references; the public
+    material only states product capability, not user complaints or adoption data, so pain intensity is
+    a workflow-structure inference.
+  current_alternative: 开发者目前依赖各客户端自带的仓库索引、手动挑选并粘贴文件、或自行维护 CLAUDE.md/规则文件与笔记；这是从品类与工作流常识作出的推断，候选材料未直接描述旧做法。
+  current_alternative_en: Developers today rely on each client's built-in repo indexing, manually picking
+    and pasting files, or hand-maintaining CLAUDE.md/rule files and notes; this is inferred from category
+    and workflow common sense, not directly described in the candidate material.
+  usage_reason: 推断：相较每个客户端各配一套索引、每次会话重新贴文件，Graphicle 用一个 Rust 程序把仓库映射成代码图并记住文档、决策与历史会话，再以带文件与行号引用的片段返回给代理，减少的是开发者手动挑选与粘贴上下文这一步，并让代理引用可核对到具体行；哪类用户会因此选择它尚无公开反馈支持。
+  usage_reason_en: 'Inference: versus configuring an index per client and re-pasting files each session,
+    Graphicle uses one Rust program to map the repo into a code graph and remember docs, decisions and
+    past sessions, returning cited excerpts with exact files and lines; this removes the manual pick-and-paste
+    step and makes agent references checkable to a line, though no public feedback yet shows which users
+    choose it.'

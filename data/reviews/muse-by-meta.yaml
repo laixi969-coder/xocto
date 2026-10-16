@@ -301,3 +301,85 @@
   usage_reason_en: 'No usage reason can be given: there is neither a product capability description nor
     user feedback or customer cases supporting any adoption motive, so no user segment or situation can
     be inferred.'
+- id: req-initial-muse-by-meta-2026-10-16
+  project_slug: muse-by-meta
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决个人事务代办，但材料未写出具体任务、痛点与旧做法，连需求与痛点都难以还原，价值关无法成立。
+    evidence_ids:
+    - ev-8b30d6f18942af51
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且材料没有可归因到该产品的使用或采用证据。
+    evidence_ids:
+    - ev-8b30d6f18942af51
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径在材料中均未出现。
+    evidence_ids:
+    - ev-8b30d6f18942af51
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，交付是否确定发生、人工边界如何均无材料支持。
+    evidence_ids:
+    - ev-8b30d6f18942af51
+  next_validation: 收集 Meta Muse 官方产品页或发布说明，确认其具体输入、执行动作、交付结果与是否公布定价。
+  market: ''
+  job: 材料未说明具体使用者与场景，只能推断为个人用户在需要代办日常事务时向通用智能体提出请求，但处理什么材料、完成什么任务均未提供。
+  job_en: The material does not state a concrete user or scenario; it can only be inferred that an individual
+    asks a general agent to handle daily errands, but what material is processed and what task is completed
+    are not given.
+  pain: 候选材料未描述任何具体痛点，也未说明用户现在如何绕过这些事务，因此无法判断不采用会失去什么。
+  pain_en: The candidate material describes no specific pain point and no current workaround, so it is
+    impossible to judge what is lost by not adopting it.
+  current_alternative: 材料未提及现有替代方式，无法确认用户此前是用人工、其他助手还是脚本完成同类事务。
+  current_alternative_en: No current alternative is mentioned, so it is unclear whether users previously
+    handled such tasks manually, with another assistant or with scripts.
+  usage_reason: 缺少功能、输入、交付与定价信息，无法说明它相较旧做法减少了哪一步负担；此处不作推断。
+  usage_reason_en: With no feature, input, delivery or pricing information, there is no basis to say which
+    step of the old process it removes; no inference is made here.
+- id: req-full-muse-by-meta-2026-10-16
+  project_slug: muse-by-meta
+  level: full
+  reviewed_at: '2026-10-16T01:22:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决个人事务代办，但材料未写出具体任务、痛点与旧做法，连需求与痛点都难以还原，价值关无法成立。
+    evidence_ids:
+    - ev-d43f8013ccbc0774
+    - ev-0a0d53f5eee6684d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Meta 官方渠道（about.meta.com 或 Meta Newsroom）是否发布 Muse 的产品说明页或发布公告，确认其具体输入、执行动作、交付结果与是否公布定价。
+  market: ''
+  job: 材料只给出“个人通用智能体替用户把事情办完”这一句定位，未说明谁在什么情况下打开它、处理什么材料、要完成什么任务，因此无法还原具体使用场景。
+  job_en: The material offers only the positioning of a personal general agent that gets things done;
+    it does not state who opens it, in what situation, with what material, or to complete what task, so
+    no concrete job can be reconstructed.
+  pain: 候选材料未描述任何具体痛点，也未说明用户现在如何绕过这些事务，无法判断不采用会失去什么。
+  pain_en: The candidate material describes no specific pain point and no current workaround, so it is
+    impossible to judge what is lost by not adopting it.
+  current_alternative: 材料未提及现有替代方式，无法确认用户此前是用人工、其他助手还是脚本完成同类事务。
+  current_alternative_en: No current alternative is mentioned, so it is unclear whether users previously
+    handled such tasks manually, with another assistant or with scripts.
+  usage_reason: 缺少功能、输入、交付与定价信息，无法说明它相较旧做法减少了哪一步负担；此处不作推断。
+  usage_reason_en: With no feature, input, delivery or pricing information, there is no basis to say which
+    step of the old process it removes; no inference is made here.

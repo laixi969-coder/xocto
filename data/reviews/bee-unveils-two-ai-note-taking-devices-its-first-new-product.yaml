@@ -1,0 +1,90 @@
+- id: req-initial-bee-unveils-two-ai-note-taking-devices-its-first-new-product-2026-10-16
+  project_slug: bee-unveils-two-ai-note-taking-devices-its-first-new-product
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口头内容留不下来、事后补记又慢又漏的需求，痛点刚性来自会议、问诊等场景的记录义务；买方是谁在候选材料中未说明。
+    evidence_ids:
+    - ev-221a7aec4dc94b30
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布消息，没有用户评价、复购或持续佩戴的证据，无法判断是否已进入日常习惯。
+    evidence_ids:
+    - ev-221a7aec4dc94b30
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露定价、订阅或硬件售卖方式，钱从哪来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-221a7aec4dc94b30
+  - gate: truth
+    status: insufficient
+    reason: 录音场景涉及他人知情与数据归属，候选材料未说明合规与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-221a7aec4dc94b30
+  next_validation: 收集 Bee 官方产品页或发布说明，核对两款设备的型号、定价、上市时间与录音数据处理方式。
+  market: ''
+  job: 个人用户在会议、课堂、问诊或带看等口头场景中，需要把当场说的话变成事后能查、能用的记录，而不是靠回忆补写。
+  job_en: In spoken settings such as meetings, classes, consultations or viewings, an individual needs
+    what was said to become a record that can be searched and used later, instead of being reconstructed
+    from memory.
+  pain: 口头内容转瞬即逝，事后补记既慢又漏；手机录音能存下来，但翻找和整理成可用文本仍要人再做一遍。
+  pain_en: Spoken content disappears quickly, and reconstructing it later is slow and lossy; phone recordings
+    survive but still require a person to search and rewrite them into usable text.
+  current_alternative: 手机录音加事后手动整理、纸笔速记，或雇人做会议纪要。
+  current_alternative_en: Phone recordings plus manual write-up afterwards, pen-and-paper shorthand, or
+    paying someone to take minutes.
+  usage_reason: 推断：相较手机录音后手动整理，随身设备把采集这一步从“记得按下录音”变成持续在场，省掉的是事后重听与转写这一环，因此高频开会、问诊或带看的人会优先考虑；但候选材料未给出转写准确率、隐私处理与订阅方式，实际减负程度仍待核验。
+  usage_reason_en: 'Inference: compared with recording on a phone and writing it up manually, a worn device
+    turns capture from ''remember to press record'' into continuous presence, removing the replay-and-transcribe
+    step, which is why people in frequent meetings, consultations or viewings would consider it; the candidate
+    material gives no transcription accuracy, privacy handling or subscription terms, so the actual reduction
+    in effort remains unverified.'
+- id: req-full-bee-unveils-two-ai-note-taking-devices-its-first-new-product-2026-10-16
+  project_slug: bee-unveils-two-ai-note-taking-devices-its-first-new-product
+  level: full
+  reviewed_at: '2026-10-16T01:19:52Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料只有一条发布标题，未给出用户任务细节、痛点、现有替代或交付形式；证据中 Bee 相关条目实为昆虫学词条，无法还原需求结构，价值关不成立。
+    evidence_ids:
+    - ev-9edfad905b0790d5
+    - ev-e2f395f869edaf47
+    - ev-4a5d8340f59dce71
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Bee 官方产品页或 Amazon 官方发布说明，核对两款设备的型号、定价、上市时间与录音数据处理方式。
+  market: ''
+  job: 候选材料只给出标题式描述：个人用户在会议、课堂或日常对话中佩戴 Bee 设备，把口头内容转成可回看的记录；但设备型号、价格、上市时间、采集与转写流程均未披露，无法还原谁在什么情况下处理什么材料、完成什么任务。
+  job_en: 'The candidate material offers only a headline-level description: an individual wears a Bee
+    device during meetings, classes or daily conversations to turn spoken content into reviewable notes;
+    device models, price, launch timing, and the capture-and-transcription flow are all undisclosed, so
+    the who/when/what-material/what-task chain cannot be reconstructed.'
+  pain: 候选材料未提供任何用户痛点证据：没有用户反馈、抱怨、workaround 或客户案例，只有一条发布标题；无法说明口头内容留不下来这件事对谁构成刚性负担。
+  pain_en: 'The candidate material provides no user-pain evidence: no user feedback, complaints, workarounds
+    or customer cases, only a launch headline; it cannot show for whom losing spoken content is a rigid
+    burden.'
+  current_alternative: 候选材料未记录任何现有替代行为，既没有手机录音加手动整理，也没有纸笔速记或雇人做纪要的公开描述；替代方式只能靠推测，不能作为判断依据。
+  current_alternative_en: The candidate material records no existing alternative behavior — no phone-recording-plus-manual-writeup,
+    no pen-and-paper shorthand, no paid minute-taking; any alternative would be speculation and cannot
+    ground the judgment.
+  usage_reason: 无法给出使用理由：候选材料未说明产品通过什么具体动作减少哪一步负担，也未给出任何用户选择它的公开证据；现有证据中关于 Bee 的条目实际是昆虫学词条，与产品无关。
+  usage_reason_en: 'No usage reason can be given: the candidate material does not state which step the
+    product removes through what concrete action, nor any public evidence of users choosing it; the Bee
+    entries in the evidence set are entomology articles unrelated to the product.'

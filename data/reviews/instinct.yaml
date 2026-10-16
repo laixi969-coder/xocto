@@ -137,3 +137,99 @@
     the ''initiate and keep following up'' step; the user only confirms identity and payment. This is
     an inference from product capability versus the old workflow: individuals who outsource errands and
     accept delegated account handling choose it during busy periods.'
+- id: req-initial-instinct-2026-10-16
+  project_slug: instinct
+  level: initial
+  reviewed_at: '2026-10-16T00:24:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是个人琐事代办：订食材、订票、买日用品、送花、找场地，痛点是多 App 切换与必须打电话的环节，旧行为是自己逐个操作或托人，结构上成立。
+    evidence_ids:
+    - ev-1a91c76470df11fb
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网自述，没有用户评价、客户案例或使用规模，无法判断是否已形成持续使用习惯。
+    evidence_ids:
+    - ev-1a91c76470df11fb
+  - gate: model
+    status: insufficient
+    reason: 官网未披露定价、计费方式或买方，是判断而非已验证事实；个人订阅、按次代办或平台抽成均有可能。
+    evidence_ids:
+    - ev-1a91c76470df11fb
+  - gate: truth
+    status: insufficient
+    reason: 下单、预订、支付授权与失败回滚的确定性交付方式未说明，人工确认边界不清，需看官方文档或实测。
+    evidence_ids:
+    - ev-1a91c76470df11fb
+  next_validation: 收集 Instinct 官方定价页或帮助文档，确认代办范围、支付授权方式与失败处理流程。
+  market: ''
+  job: 个人用户在周末或临时需要时，把订食材、订火车票、买日用品、送花、找场地这类琐事交给 Instinct，通过短信或电话下达，由它代为完成下单和预订。
+  job_en: An individual, at weekends or on short notice, hands chores such as ordering ingredients, booking
+    a train ticket, buying groceries, sending flowers or finding a court to Instinct by text or phone,
+    and it places the order or booking on their behalf.
+  pain: 这些琐事分散在多个 App 和电话里，每件都要自己切换、比价、填信息、跟进，单件耗时短但累计占用注意力，且常常卡在必须打电话或走网页流程的环节。
+  pain_en: These chores are scattered across apps and phone calls; each one requires switching, comparing,
+    filling forms and following up, so the per-item time is short but the attention cost accumulates,
+    and many stall at steps that require a call or a web flow.
+  current_alternative: 用户自己逐个打开外卖、生鲜、铁路、票务或场地预订 App 手动操作，或请家人朋友、助理代劳；部分场景只能打电话完成。
+  current_alternative_en: Users open delivery, grocery, rail, ticketing or venue-booking apps one by one
+    and do it manually, or ask family, friends or a human assistant; some steps can only be done by phone.
+  usage_reason: 推断：相较自己逐个 App 操作，Instinct 把“打开哪个应用、填哪些字段、打哪个电话”这一步收进一次短信或通话，用户只需说清要什么，由它代为执行并回报结果；因此会在琐事集中、自己没空逐个处理时被选择。这一判断来自产品能力与任务结构，尚无公开的用户采用或留存证据。
+  usage_reason_en: 'Inference: compared with operating each app oneself, Instinct folds the step of choosing
+    which app, which fields and which phone number into a single text or call, so the user only states
+    what they want and it executes and reports back; it would therefore be chosen when chores pile up
+    and the user has no time to handle each one. This rests on product capability and task structure,
+    with no public adoption or retention evidence yet.'
+- id: req-full-instinct-2026-10-16
+  project_slug: instinct
+  level: full
+  reviewed_at: '2026-10-16T01:21:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人琐事代办需求：订食材、订票、买日用品、送花、找场地、争议账单、预约挂号，痛点是多 App 切换与必须打电话的环节，旧行为是自己逐个操作或托人，不解决则注意力持续被占用，结构上成立。
+    evidence_ids:
+    - ev-4669ba53e8e94bfe
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网自述与一篇报道称其仍处 private access 并引发隐私担忧，没有用户评价、客户案例或使用规模，无法判断是否形成持续使用习惯。
+    evidence_ids:
+    - ev-4669ba53e8e94bfe
+    - ev-cc6439141000e688
+  - gate: model
+    status: insufficient
+    reason: 官网未披露定价、计费方式或买方，个人订阅、按次代办或平台抽成均有可能，这是判断而非已验证事实；谁付钱尚不清楚。
+    evidence_ids:
+    - ev-4669ba53e8e94bfe
+  - gate: truth
+    status: insufficient
+    reason: 下单、预订、支付授权与失败回滚的确定性交付方式未说明，人工确认边界不清；报道已提出隐私与安全担忧，需看官方文档或实测。
+    evidence_ids:
+    - ev-cc6439141000e688
+  next_validation: 追踪 Instinct 官网定价页或帮助文档，确认代办范围、支付授权方式、失败处理流程与隐私安全说明。
+  market: ''
+  job: 个人用户在周末或临时需要时，把订食材、订火车票、买日用品、送花、找周末场地这类琐事，通过短信或电话交给 Instinct，由它像人一样使用电话和电脑代为完成下单与预订，用户拿到已执行的代办结果。
+  job_en: An individual, at weekends or on short notice, hands chores such as ordering groceries, booking
+    a train ticket, buying daily goods, sending flowers or finding a weekend venue to Instinct by text
+    or phone; it uses a phone and computer the way a person would to place the order or booking, and the
+    user receives the executed result.
+  pain: 这些琐事分散在多个 App 和必须打电话的环节里，每件都要自己切换、比价、填信息、跟进，单件耗时短但注意力成本累积；账单争议、预约挂号等还卡在只能打电话或走网页流程的步骤上。
+  pain_en: These chores are scattered across apps and steps that require a phone call; each one demands
+    switching, comparing, filling forms and following up, so per-item time is short but attention cost
+    accumulates, and tasks like disputing a bill or scheduling an appointment stall at steps only doable
+    by phone or web flow.
+  current_alternative: 用户自己逐个打开外卖、生鲜、铁路、票务或场地预订 App 手动操作，或请家人朋友、人工助理代劳；部分场景只能打电话完成。
+  current_alternative_en: Users open delivery, grocery, rail, ticketing or venue-booking apps one by one
+    and operate them manually, or ask family, friends or a human assistant; some steps can only be completed
+    by phone.
+  usage_reason: 推断：相较自己逐个 App 操作或托人，Instinct 把“打开哪个应用、填哪些字段、打哪个电话”收进一次短信或通话，用户只需说清要什么，由它代为执行并回报结果，因此会在琐事集中、自己没空逐个处理时被选择。该判断来自产品能力与任务结构，尚无公开的用户采用或留存证据。
+  usage_reason_en: 'Inference: compared with operating each app oneself or asking someone else, Instinct
+    folds the step of choosing which app, which fields and which phone number into a single text or call,
+    so the user only states what they want and it executes and reports back; it would therefore be chosen
+    when chores pile up and the user has no time to handle each one. This rests on product capability
+    and task structure, with no public adoption or retention evidence yet.'

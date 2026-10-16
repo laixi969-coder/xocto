@@ -24,3 +24,46 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+- id: req-initial-gitnexus-akon-labs-2026-10-16
+  project_slug: gitnexus-akon-labs
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决代理接入代码库这一步，但材料只有一句定位，无法确认具体任务、旧做法与不采用的后果，价值结构尚不能成立。
+    evidence_ids:
+    - ev-3e5877b1f2cad1ed
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有一条产品页定位描述，没有采用、讨论或复现证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-3e5877b1f2cad1ed
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页、客户或付费路径信息，买方与收费方式均未知。
+    evidence_ids:
+    - ev-3e5877b1f2cad1ed
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验它是否贴近编码代理运行的第一性目标，也无交付确定性与人工边界材料。
+    evidence_ids:
+    - ev-3e5877b1f2cad1ed
+  next_validation: 抓取该项目的官方仓库 README 与 issue/discussion，确认它实际接收什么输入、执行什么动作、交付什么结果。
+  market: ''
+  job: 开发者在为编码代理搭建运行环境时，需要把代理接入代码库与工具链，让代理能读写代码并完成开发任务。
+  job_en: Developers setting up a runtime for coding agents need to wire the agent into a codebase and
+    toolchain so it can read and write code and complete development tasks.
+  pain: 公开材料只有一句定位描述，无法确认代理接入代码库时具体卡在哪一步、原来由谁手工完成，因此痛点尚未被材料支持。
+  pain_en: Public material is a single positioning line, so it is not possible to confirm which step blocks
+    agents from a codebase or who did that step manually before; the pain is not yet supported by material.
+  current_alternative: 开发者目前通常自行拼接代理框架、检索脚本与工具调用配置；这是从品类常识作出的推断，候选材料未提供。
+  current_alternative_en: Developers today typically assemble agent frameworks, retrieval scripts and
+    tool-call configuration by hand; this is an inference from the category, not provided by the candidate
+    material.
+  usage_reason: 若它确实把代理接入代码库所需的检索、工具调用与上下文管理收敛成一个可复用内核，开发者就不必为每个项目重写这套胶水代码；但候选未给出任何功能细节，该因果链目前只是推断。
+  usage_reason_en: If it truly collapses the retrieval, tool-calling and context management needed to
+    connect an agent to a codebase into one reusable kernel, developers would not rewrite that glue per
+    project; but the candidate gives no functional detail, so this causal chain is only an inference.

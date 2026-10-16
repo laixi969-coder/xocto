@@ -1,0 +1,92 @@
+- id: req-initial-ricursive-intelligence-is-betting-on-ai-designed-chips-to-he-2026-10-16
+  project_slug: ricursive-intelligence-is-betting-on-ai-designed-chips-to-he
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能看出它想加速芯片设计迭代，具体痛点、频率与不采用代价均无材料支持。
+    evidence_ids:
+    - ev-1eadbd56f3f2a554
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值未成立，且无客户采用或公开使用数据。
+    evidence_ids:
+    - ev-1eadbd56f3f2a554
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值未成立，买方与收费方式均未披露。
+    evidence_ids:
+    - ev-1eadbd56f3f2a554
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值未成立，无法核对设计结果能否确定性交付及人工边界。
+    evidence_ids:
+    - ev-1eadbd56f3f2a554
+  next_validation: 检索 Ricursive Intelligence 官方页面或技术文档，确认其输入、单轮迭代产出与验证方式。
+  market: ''
+  job: 芯片设计工程师在电路设计迭代时，处理设计任务与上一轮结果，要完成下一版芯片设计方案的产出。
+  job_en: Chip design engineers, during circuit design iterations, handle design tasks and prior-round
+    results to produce the next version of a chip design.
+  pain: 材料只说明目标是自动化并加速芯片设计流程，未给出具体痛点描述或耗时数据。
+  pain_en: The material only states the goal of automating and accelerating chip design; it gives no specific
+    pain description or time data.
+  current_alternative: 材料未提及现有替代做法，按行业常识推断为人工使用 EDA 工具逐轮迭代（推断）。
+  current_alternative_en: The material mentions no existing alternative; by industry common sense it is
+    inferred to be manual iteration with EDA tools (inference).
+  usage_reason: 缺少可核对的迭代结果与交付形态，无法说明相较人工 EDA 迭代减少了哪一步负担，也无法判断哪类团队会在什么情况下选择它。
+  usage_reason_en: With no checkable iteration results or deliverable form, it cannot be shown which step's
+    burden is reduced versus manual EDA iteration, nor which teams would choose it in what situation.
+- id: req-full-ricursive-intelligence-is-betting-on-ai-designed-chips-to-he-2026-10-16
+  project_slug: ricursive-intelligence-is-betting-on-ai-designed-chips-to-he
+  level: full
+  reviewed_at: '2026-10-16T01:23:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决芯片设计迭代中布局、布线、验证反复人工试错、周期长的问题，目标是自动化并加速设计流程以缓解算力危机；创始团队来自 Google Brain，产品覆盖 floorplanning、placement、routing、verification，交付闭环可还原。痛点刚性与交付确定性属工作流结构推理，尚无用户口述或耗时数据。
+    evidence_ids:
+    - ev-bfdde35676d11d02
+    - ev-49ff900801ac0cfd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有公司成立与产品方向，未见客户采用、公开使用数据或评价；关注度与融资叙事不能替代持续采用证据，因此无法判断是否形成共识。
+    evidence_ids:
+    - ev-bfdde35676d11d02
+    - ev-49ff900801ac0cfd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、收费方式与买方类型，只能推断钱可能来自芯片设计公司或 EDA 客户的 to B 采购；这是判断而非已验证事实，也无融资续命证据。
+    evidence_ids:
+    - ev-bfdde35676d11d02
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺从每轮迭代学习并改进下一版设计，但公开材料未说明输入格式、交付物形态、验证方式与人工确认边界，无法核对设计结果能否确定性交付。
+    evidence_ids:
+    - ev-bfdde35676d11d02
+    - ev-49ff900801ac0cfd
+  next_validation: 追踪 Ricursive Intelligence 官网或技术文档，确认其输入格式、单轮迭代产出物与验证/人工确认流程。
+  market: ''
+  job: 芯片设计团队（含 EDA 工程师）在电路设计迭代阶段，把设计任务与上一轮布局/布线/验证结果交给该 AI，产出下一版芯片设计方案（floorplanning、placement、routing、verification），以缩短单轮设计周期。
+  job_en: Chip design teams (including EDA engineers), during circuit design iterations, feed a design
+    task and prior-round layout/routing/verification results into the AI to produce the next chip design
+    version (floorplanning, placement, routing, verification), shortening each design cycle.
+  pain: 公开材料只给出目标——用更高效的 AI 芯片设计缓解算力危机，并称要自动化、加速芯片设计流程；具体哪一步最耗时、迭代频率与不采用代价均未披露，痛点强度属结构推理而非用户口述。
+  pain_en: Public material only states the goal—more efficient AI chip design to ease the compute crisis—and
+    the aim to automate and accelerate chip design; which step is most time-consuming, iteration frequency,
+    and the cost of not adopting are undisclosed, so pain intensity is structural inference, not user
+    testimony.
+  current_alternative: 公开材料未描述现有做法；按行业结构推断，团队目前依赖人工使用传统 EDA 工具逐轮完成布局、布线、验证并反复迭代（推断）。
+  current_alternative_en: Public material does not describe the current practice; by industry structure
+    it is inferred that teams rely on manual iteration with conventional EDA tools for placement, routing
+    and verification (inference).
+  usage_reason: 推断：相较人工逐轮调用 EDA 工具，该产品把设计任务直接转为布局/布线/验证方案并从每轮结果学习，减少人工反复试错与手工调参这一步负担；因此迭代密集、算力受限的芯片设计团队在需要快速收敛多版方案时会选择它。缺少客户案例或实测结果，动机为推断。
+  usage_reason_en: 'Inference: versus manually driving EDA tools each round, the product turns a design
+    task directly into placement/routing/verification proposals and learns from each round''s results,
+    reducing manual trial-and-error and hand-tuning; thus iteration-heavy, compute-constrained chip design
+    teams would choose it when they need to converge on multiple design versions quickly. Lacking customer
+    cases or measured results, the motive is inference.'

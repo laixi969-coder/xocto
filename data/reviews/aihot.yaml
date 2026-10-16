@@ -673,3 +673,50 @@
     find-filter-layout into an automated output after swapping sources and selection criteria, so editors
     or operators building an industry hotspot site would choose it for steady daily publishing; no user
     feedback or retention evidence is provided.'
+- id: req-full-aihot-2026-10-16
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-16T01:19:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决行业资讯编辑每日出稿的需求：公开材料显示 AIhot 每日聚合全球 AI 产品、行业、论文与技巧热点并按北京时间时间轴整理，对应人工翻多信源、逐条筛选再排版的重复劳动；不解决则每天重复手工流程，交付物是可发布的日报页面，结构上成立（工作流推理）。
+    evidence_ids:
+    - ev-7c92bed0739b165d
+    - ev-b7c5b53eccde7234
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明日报每天 08:00 发布与聚合范围，未见产品级持续使用、复刻、订阅或公开用户评价，无法确认目标编辑已把它留在日常流程里。
+    evidence_ids:
+    - ev-b7c5b53eccde7234
+    - ev-e8ba8c5cdf21debe
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，钱可能来自自建站点的编辑团队订阅或托管服务，但这是判断而非已验证事实；公开材料中标注为 pricing 的条目实际只是日报发布说明。
+    evidence_ids:
+    - ev-1d1f73129fe16fe7
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明信源配置方式、筛选规则可调范围与自动生成页面的实际形态，交付能否稳定发生、以及人工复核边界尚缺可复现证据。
+    evidence_ids:
+    - ev-7c92bed0739b165d
+  next_validation: 追踪 AIHOT 官方站点与仓库的部署文档、issue/discussion，确认信源配置与筛选规则的实际交付形态及是否有团队持续使用。
+  market: ''
+  job: 行业资讯编辑或运营者在每天固定时间要出稿时，面对多个分散信源，需要挑出当天值得看的条目并排版成一份可发布的日报页面。
+  job_en: An industry news editor or operator producing a daily issue at a fixed time must scan scattered
+    sources, pick the day's worthwhile items, and lay them out as a publishable daily page.
+  pain: 公开材料显示 AIhot 每日聚合全球 AI 产品、行业、论文与技巧热点并按北京时间时间轴整理，说明人工翻多个信源、逐条筛选再排版是重复且耗时的固定动作；不解决的后果是每天都要重复这套手工流程，但公开材料未给出具体耗时或频率数字。
+  pain_en: Public materials show AIhot aggregates global AI product, industry, paper, and tip hotspots
+    daily on a Beijing-time timeline, indicating that manually scanning many sources, filtering items,
+    and laying them out is a repetitive fixed chore; the consequence of not solving it is repeating that
+    manual flow daily, though no concrete time or frequency figures are public.
+  current_alternative: 编辑手动打开多个信源网站、逐条浏览筛选，再用排版工具或 CMS 手工拼成日报。
+  current_alternative_en: Editors manually open multiple source sites, browse and filter item by item,
+    then assemble the daily issue by hand in a layout tool or CMS.
+  usage_reason: 推断：AIHOT 按配置的信源抓取内容并按精选标准筛出条目、自动生成日报页面，把“逐站浏览—人工挑选—排版成页”压缩为一次配置后的自动产出，因此需要每天稳定出稿、又不想重复手工筛选排版的编辑或运营者会选它；公开材料未提供用户留存或付费证据。
+  usage_reason_en: 'Inference: AIHOT fetches from configured sources, filters by selection criteria, and
+    auto-generates the daily page, compressing browse-each-site, hand-pick, and lay-out into one configured
+    automated output, so editors or operators who must publish daily without repeating manual filtering
+    and layout would choose it; no public retention or payment evidence is available.'

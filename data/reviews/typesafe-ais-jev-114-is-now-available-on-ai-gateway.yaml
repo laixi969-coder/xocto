@@ -1,0 +1,82 @@
+- id: req-initial-typesafe-ais-jev-114-is-now-available-on-ai-gateway-2026-10-16
+  project_slug: typesafe-ais-jev-114-is-now-available-on-ai-gateway
+  level: initial
+  reviewed_at: '2026-10-16T00:25:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能看出它降低了接入步骤，未说明解决什么用户任务与痛点。
+    evidence_ids:
+    - ev-b58c220d9632b993
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：无采用或使用反馈证据，上架不等于被使用。
+    evidence_ids:
+    - ev-b58c220d9632b993
+  - gate: model
+    status: insufficient
+    reason: 未进入：无定价与买方信息，收费路径不明。
+    evidence_ids:
+    - ev-b58c220d9632b993
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验该版本在具体任务上的确定性交付。
+    evidence_ids:
+    - ev-b58c220d9632b993
+  next_validation: 查阅 AI Gateway 上该条目的官方说明或 TypeSafe AI 文档，确认 Jev 1.14 的具体能力与调用方式。
+  market: ''
+  job: 开发者需要在既有网关的密钥与计费体系下接入并试用新的模型版本。
+  job_en: Developers need to integrate and trial a new model version under an existing gateway's key and
+    billing setup.
+  pain: 新增模型供应商通常意味着新的合同、密钥与计费流程。
+  pain_en: Adding a model vendor usually means new contracts, keys and billing flows.
+  current_alternative: 单独对接供应商 API，自行处理密钥与结算。
+  current_alternative_en: Integrating vendor APIs separately and handling keys and settlement in-house.
+  usage_reason: 推断：经由网关上架可省去单独对接与结算的一步，但公开材料未说明该版本解决什么任务，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: gateway listing can remove a separate integration and settlement step,
+    but public material does not say which task the version solves, so why users choose it is unconfirmed.'
+- id: req-full-typesafe-ais-jev-114-is-now-available-on-ai-gateway-2026-10-16
+  project_slug: typesafe-ais-jev-114-is-now-available-on-ai-gateway
+  level: full
+  reviewed_at: '2026-10-16T01:25:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 公开事实表明产品面向软件自动化中的决策任务，试图解决通用模型输出难以直接对接代码类型的痛点（工作流推理），结构上交付目标明确。
+    evidence_ids:
+    - ev-7d52660ca40d1c67
+    - ev-05002bdaa9a9da92
+  - gate: consensus
+    status: insufficient
+    reason: 除官网早期测试及网关上架外，公开材料中缺少开发者实际接入反馈、社区讨论或调用规模数据，共识卡在场景验证阶段。
+    evidence_ids:
+    - ev-05002bdaa9a9da92
+  - gate: model
+    status: insufficient
+    reason: 公开事实未披露 Jev 1.14 在 AI Gateway 或官网的实际计费单价、按量扣费逻辑与商业结算方式，变现路径属于判断而非事实。
+    evidence_ids:
+    - ev-e24fec1a4ec03d4c
+  - gate: truth
+    status: insufficient
+    reason: 作为面向软件决策的自动化基础设施，公开文档尚未披露该版本在复杂业务状态下的结构约束边界与交付确定性评测。
+    evidence_ids:
+    - ev-7d52660ca40d1c67
+  next_validation: 追踪 TypeSafe AI 官方文档的 API 参数规范、定价页面及 AI Gateway 上的实际调用扣费与用量规则。
+  market: ''
+  job: 后端或系统开发者在构建自动化软件决策流时，需要输入系统运行状态并获得类型安全的确定性结构化决策以供代码直接调用。
+  job_en: Backend or systems developers building automated software decision flows need to supply system
+    state and receive type-safe, deterministic structured decisions directly usable by code.
+  pain: 通用大模型输出格式不稳定且缺乏类型保障，需编写脆弱的解析胶水代码与重试逻辑，一旦结构断裂将导致自动化服务中断。
+  pain_en: General LLM outputs suffer from schema instability and lack type safety, requiring brittle
+    parsing glue code and retries; schema mismatches crash automated services.
+  current_alternative: 调用通用模型 API 搭配 JSON Schema、Pydantic 验证器，或者依靠多次提示词工程与格式化补丁重试。
+  current_alternative_en: Calling general LLM APIs with JSON Schema or Pydantic validators, combined with
+    prompt engineering and formatting retry loops.
+  usage_reason: 推断：相较自行解析通用大模型文本的旧做法，Jev 通过原生支持状态输入与类型化提问直接输出结构化结果，免去手写类型对齐与校验的负担；但目前缺乏公开复购与工作流长期留存事实。
+  usage_reason_en: 'Inference: Compared to manually parsing LLM outputs, Jev natively processes state
+    and typed queries to emit code-ready structured responses, cutting validation boilerplate; however,
+    long-term retention and production adoption remain unverified.'

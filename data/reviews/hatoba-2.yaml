@@ -1,0 +1,93 @@
+- id: req-initial-hatoba-2-2026-10-16
+  project_slug: hatoba-2
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向 SSH 排障与配置同步这一步，但材料未说明具体任务、旧做法与不采用的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-515fd169136d50b0
+    - ev-2880f3774b7ce77b
+    - ev-2627a6aa7af86c64
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有仓库星标与 issue 数量，没有采用或复现证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-2627a6aa7af86c64
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价、客户或付费路径信息，买方与收费方式未知。
+    evidence_ids:
+    - ev-515fd169136d50b0
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验助手是否贴近排障的第一性目标，也无交付确定性与人工边界材料。
+    evidence_ids:
+    - ev-2880f3774b7ce77b
+  next_validation: 抓取该项目的官方文档或仓库 README，确认 AI 助手在 SSH 会话中实际接收什么输入、执行什么动作、输出什么结果。
+  market: ''
+  job: 运维与后端工程师在通过 SSH 登录服务器排查故障时，需要看懂命令输出，并在多台机器之间同步连接配置。
+  job_en: Ops and backend engineers logging into servers over SSH to diagnose faults need to make sense
+    of command output and keep connection settings in sync across machines.
+  pain: 材料只说明客户端带 AI 助手与加密同步，没有说明工程师现在具体卡在哪一步、不解决会失去什么，痛点未被材料支持。
+  pain_en: The material only says the client has an AI assistant and encrypted sync; it does not say which
+    step engineers are stuck on or what is lost if unsolved, so the pain is not supported by material.
+  current_alternative: 工程师目前多使用传统 SSH 客户端并自行保存配置，遇到报错时另开搜索或聊天窗口查询；这是从品类常识作出的推断，候选材料未提供。
+  current_alternative_en: Engineers today mostly use traditional SSH clients with self-managed configs
+    and open a separate search or chat window when an error appears; this is an inference from the category,
+    not provided by the candidate material.
+  usage_reason: 若助手能在同一窗口里解释当前命令输出，工程师就不必把报错复制到别处再回来，同步也省去手工维护配置；但候选未给出可核对结果，该判断为推断。
+  usage_reason_en: If the assistant can explain the current command output in the same window, engineers
+    would not copy errors elsewhere and come back, and sync would remove manual config upkeep; but the
+    candidate gives no checkable result, so this is an inference.
+- id: req-full-hatoba-2-2026-10-16
+  project_slug: hatoba-2
+  level: full
+  reviewed_at: '2026-10-16T01:21:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SSH 排障时看懂命令输出与多机配置同步的需求，痛点是另开窗口查报错、手工维护配置，旧做法是传统客户端加自行搜索，结构上成立。
+    evidence_ids:
+    - ev-515fd169136d50b0
+    - ev-2627a6aa7af86c64
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 67 增至 92 的关注度信号，没有用户评价、案例或重复使用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-515fd169136d50b0
+    - ev-2880f3774b7ce77b
+    - ev-2627a6aa7af86c64
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是个人工程师或团队采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2627a6aa7af86c64
+  - gate: truth
+    status: insufficient
+    reason: 未核验 AI 助手在 SSH 会话中实际接收什么输入、执行什么动作、输出什么结果，交付确定性与人工边界仍缺证据。
+    evidence_ids:
+    - ev-515fd169136d50b0
+  next_validation: 抓取该项目的官方文档或仓库 README，确认 AI 助手在 SSH 会话中实际接收什么输入、执行什么动作、输出什么结果。
+  market: ''
+  job: 运维与后端工程师在通过 SSH 登录生产服务器排查故障时，需要看懂命令输出，并在多台机器之间同步连接配置。
+  job_en: Ops and backend engineers logging into production servers over SSH to diagnose faults need to
+    make sense of command output and keep connection settings in sync across machines.
+  pain: SSH 排障时命令输出晦涩，工程师需另开搜索或聊天窗口查询；多机连接配置靠手工维护，换机或换人就要重新对齐。
+  pain_en: SSH troubleshooting output is cryptic, forcing engineers to open a separate search or chat
+    window; multi-machine connection configs are maintained by hand, so switching machines or people requires
+    realignment.
+  current_alternative: 传统 SSH 客户端（如 PuTTY、Termius、iTerm2）自行保存配置，遇到报错时另开浏览器或聊天窗口查询；这是从品类常识作出的推断，候选材料未提供。
+  current_alternative_en: Traditional SSH clients (PuTTY, Termius, iTerm2) with self-managed configs,
+    opening a separate browser or chat window when an error appears; this is an inference from the category,
+    not provided by the candidate material.
+  usage_reason: 推断：相较手动维护配置并另开窗口查报错，它把 AI 助手放进同一 SSH 会话解释输出，并用用户自己的 Cloudflare 账号做端到端加密同步，省掉复制报错到别处和手工同步配置两步，因此多机运维、重视配置私密的工程师会在排障时选择它。
+  usage_reason_en: 'Inference: versus manually maintaining configs and opening a separate window for errors,
+    it places an AI assistant inside the same SSH session to explain output and uses the user''s own Cloudflare
+    account for end-to-end encrypted sync, removing the copy-error-elsewhere and manual-config-sync steps,
+    so engineers managing multiple machines who value config privacy would choose it for troubleshooting.'

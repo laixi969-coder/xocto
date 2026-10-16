@@ -1,7 +1,6 @@
 ---
 slug: zenatech-extends-use-of-tillerstacks-orsa-ai-software-and-pl
-name: ZenaTech Extends Use of Tillerstack’s Orsa+ AI Software and Plans Healthcare Teaching Applications
-  Combined with Stacklens™ Smart Glasses
+name: ZenaTech
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: ZenaTech Extends Use of Tillerstack’s Orsa+ AI Software and Plans Hea
   Combined with Stacklens™ Smart Glasses TradingView
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# ZenaTech Extends Use of Tillerstack’s Orsa+ AI Software and Plans Healthcare Teaching Applications Combined with Stacklens™ Smart Glasses
+# ZenaTech
 
 ZenaTech Extends Use of Tillerstack’s Orsa+ AI Software and Plans Healthcare Teaching Applications Combined with Stacklens™ Smart Glasses TradingView
 

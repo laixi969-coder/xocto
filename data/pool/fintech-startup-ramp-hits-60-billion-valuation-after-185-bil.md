@@ -1,6 +1,6 @@
 ---
 slug: fintech-startup-ramp-hits-60-billion-valuation-after-185-bil
-name: Fintech startup Ramp hits $60 billion valuation after $1.85 billion funding round
+name: Ramp
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxNeXdicGhYM2VP
 summary: Fintech startup Ramp hits $60 billion valuation after $1.85 billion funding round Reuters
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Fintech startup Ramp hits $60 billion valuation after $1.85 billion funding round
+# Ramp
 
 Fintech startup Ramp hits $60 billion valuation after $1.85 billion funding round Reuters
 

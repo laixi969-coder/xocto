@@ -1,6 +1,6 @@
 ---
 slug: microsoft-reveals-next-gen-maia-300-custom-ai-chip-for-wides
-name: Microsoft Reveals Next-Gen Maia 300 Custom AI Chip For Widespread Deployment
+name: Maia 300
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTE11NVBQdVpMelli
 summary: Microsoft Reveals Next-Gen Maia 300 Custom AI Chip For Widespread Deployment TIKR.com
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Microsoft Reveals Next-Gen Maia 300 Custom AI Chip For Widespread Deployment
+# Maia 300
 
 Microsoft Reveals Next-Gen Maia 300 Custom AI Chip For Widespread Deployment TIKR.com
 

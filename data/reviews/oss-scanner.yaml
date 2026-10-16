@@ -248,3 +248,46 @@
   usage_reason_en: 'No causal explanation is possible: materials do not show which concrete step the product
     removes or which checkable result it improves, so it is impossible to say which users would choose
     it and when.'
+- id: req-full-oss-scanner-2026-10-16
+  project_slug: oss-scanner
+  level: full
+  reviewed_at: '2026-10-16T01:23:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选材料只有仓库名与星标、fork、issue 数量，未说明扫描对象、执行动作与交付物，连用户任务和痛点都无法还原，价值结构无从判断。
+    evidence_ids:
+    - ev-e5b454b5e70a735a
+    - ev-6e2bd1de7cc71489
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/anthropics/oss-scanner 的 README、issue 与 discussion，确认扫描输入、执行动作与交付物，以及是否有维护者描述实际使用场景。
+  market: ''
+  job: 开源维护者在处理代码仓库时可能打开它，让工具扫描仓库中的代码或依赖材料并输出问题清单；但候选材料只给出仓库名与星标、fork、issue 数量，AI 具体接收什么、执行什么动作、最终交付什么，均未说明。
+  job_en: An open-source maintainer may open it while handling a code repository, letting the tool scan
+    code or dependency material and output a problem list; but the candidate material only gives the repo
+    name plus star, fork, and issue counts, and does not state what the AI receives, what action it performs,
+    or what it finally delivers.
+  pain: 公开材料未说明维护者当前在扫描或审查仓库时具体卡在哪一步、不解决会有什么后果，也没有用户抱怨或 workaround 证据，痛点无法还原。
+  pain_en: Public materials do not state which step maintainers are stuck on when scanning or reviewing
+    repositories, nor the consequence of leaving it unsolved, and there is no user complaint or workaround
+    evidence, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明维护者目前用什么方式完成仓库扫描或依赖审查，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not state how maintainers currently perform repository scanning
+    or dependency review, nor what prior practice it replaces.
+  usage_reason: 由于输入、动作与交付均未披露，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: Because the input, action, and delivery are all undisclosed, it is impossible to say
+    which step's burden is reduced or which checkable result is improved versus the old approach, so there
+    is no explanation of why users would choose it.

@@ -32,7 +32,7 @@ summary: By Eric Francia How would you handle a junior employee questioning the 
   you
 first_seen: '2026-10-16T00:25:40Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,84 @@
+- id: req-initial-clova-2026-10-16
+  project_slug: clova
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决单一对手方邮件被淹没的问题，但候选材料未说明具体痛点、频率与不采用的后果，价值结构无法判定。
+    evidence_ids:
+    - ev-7c607b28cbb1e935
+    - ev-e3d2e14da3462f42
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，没有用户评价或采用证据说明谁在什么场景下真的需要它。
+    evidence_ids:
+    - ev-7c607b28cbb1e935
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露定价、买方或付费路径，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-7c607b28cbb1e935
+  - gate: truth
+    status: insufficient
+    reason: 无法确认它是否贴近该工作的第一性目标，也无法确认交付是否确定发生，AI 在其中的角色未说明。
+    evidence_ids:
+    - ev-7c607b28cbb1e935
+  next_validation: 收集该产品官方定价页或公开使用数据，确认单一发件人收件箱的付费方式与实际使用情况。
+  market: ''
+  job: 需要长期跟进单一对手方的人（如独立律师、货代、自由职业者）在与某一位客户或某个项目对接人往来时，处理该对象的邮件并完成回复与归档。
+  job_en: People who track a single counterpart over time (solo lawyers, freight forwarders, freelancers)
+    handle and reply to mail from one client or project contact and file it away.
+  pain: 候选材料只说明收件箱只接受一个发件人，未说明这解决了什么具体痛苦，也未说明不采用会失去什么。
+  pain_en: The candidate material only states that an inbox accepts one sender; it does not say what specific
+    pain this solves or what is lost without it.
+  current_alternative: 现有做法是用通用邮箱的过滤器、标签或文件夹把某个发件人的邮件单独归拢。
+  current_alternative_en: The current approach is to use filters, labels or folders in a general mailbox
+    to gather one sender's mail separately.
+  usage_reason: 推断：如果单一发件人收件箱能省掉在通用邮箱里配置和维护过滤规则这一步，需要长期跟进单一对手方的人可能会在管理某个客户或项目往来时选择它；但候选材料未给出任何用户反馈或采用证据，无法确认这一动机。
+  usage_reason_en: 'Inference: if a single-sender inbox removes the step of configuring and maintaining
+    filter rules in a general mailbox, people tracking one counterpart may choose it when managing one
+    client or project; however the candidate material gives no user feedback or adoption evidence to confirm
+    this motive.'
+- id: req-full-clova-2026-10-16
+  project_slug: clova
+  level: full
+  reviewed_at: '2026-10-16T01:20:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决单一对手方邮件被淹没的问题，但候选材料未说明具体痛点、频率与不采用的后果，价值结构无法判定。
+    evidence_ids:
+    - ev-e3d2e14da3462f42
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官方定价页或公开使用数据，确认单一发件人收件箱的付费方式与实际使用情况。
+  market: ''
+  job: 独立律师、货代或自由职业者在长期跟进某一位客户或某个项目对接人时，处理该对象的邮件并完成回复与归档。
+  job_en: Solo lawyers, freight forwarders or freelancers who track one client or project contact over
+    time handle and reply to that counterpart's mail and file it away.
+  pain: 候选材料只说明收件箱只接受一个发件人，未说明这解决了什么具体痛苦，也未说明不采用会失去什么。
+  pain_en: The candidate material only states that an inbox accepts one sender; it does not say what specific
+    pain this solves or what is lost without it.
+  current_alternative: 现有做法是用通用邮箱的过滤器、标签或文件夹把某个发件人的邮件单独归拢。
+  current_alternative_en: The current approach is to use filters, labels or folders in a general mailbox
+    to gather one sender's mail separately.
+  usage_reason: 推断：如果单一发件人收件箱能省掉在通用邮箱里配置和维护过滤规则这一步，需要长期跟进单一对手方的人可能会在管理某个客户或项目往来时选择它；但候选材料未给出任何用户反馈或采用证据，无法确认这一动机。
+  usage_reason_en: 'Inference: if a single-sender inbox removes the step of configuring and maintaining
+    filter rules in a general mailbox, people tracking one counterpart may choose it when managing one
+    client or project; however the candidate material gives no user feedback or adoption evidence to confirm
+    this motive.'

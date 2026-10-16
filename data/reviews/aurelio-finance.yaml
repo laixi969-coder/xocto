@@ -228,3 +228,50 @@
     and debts in one local view and has the AI advisor answer asset questions directly, removing item-by-item
     consolidation and self-calculation; that is why privacy-conscious individual investors who still want
     on-demand answers about their position would pick it when reviewing their assets.'
+- id: req-full-aurelio-finance-2026-10-16
+  project_slug: aurelio-finance
+  level: full
+  reviewed_at: '2026-10-16T01:19:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地汇总多类资产并随时询问资产状况的需求，痛点是云端隐私顾虑与手工汇总费时；仓库星标从1555增至3474显示持续关注，但导入方式与AI建议边界仍属结构推理。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+    - ev-8099daa4307dfdcd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从1555增至3474，属关注度而非持续使用；没有可归因到该产品的留存、复购或付费证据，无法确认用户已长期留在工作流里。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+    - ev-8099daa4307dfdcd
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页，钱可能来自捐赠、托管或增值服务，属判断而非已验证事实；买方与付费路径在公开材料中尚不清晰。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+  - gate: truth
+    status: insufficient
+    reason: AI顾问的建议边界、数据准确性与人工确认环节，公开材料未说明；本地存储实现与导入方式也待核验，交付确定性尚未被公开证据支持。
+    evidence_ids:
+    - ev-7027dde53c3a8b77
+  next_validation: 收集该仓库 README 与 issue/discussion，确认支持的数据导入方式、AI 顾问输出边界与本地存储实现。
+  market: ''
+  job: 在意隐私的个人投资者在自己的电脑上，把净值、投资、ETF、现金与债务等分散账户数据汇总成一份本地财务视图，并在需要时向内置 AI 顾问询问资产状况。
+  job_en: Privacy-conscious individual investors consolidate scattered net worth, investments, ETFs, cash
+    and debt data into a locally stored financial view on their own computer, and ask the built-in AI
+    advisor about their position when needed.
+  pain: 公开材料支持两点痛点：把账户数据交给云端聚合平台存在隐私顾虑；用表格手工汇总多类资产费时且难以持续更新。产品说明本身不构成采用证据，痛点强度属工作流结构推理。
+  pain_en: 'Public material supports two pains: handing account data to cloud aggregators raises privacy
+    concerns, and manually consolidating multiple asset types in spreadsheets is time-consuming and hard
+    to keep current. The product description is not adoption evidence; pain intensity is a workflow inference.'
+  current_alternative: 用 Excel 或记账软件手工汇总，或使用云端资产聚合服务（如把账户连到在线理财平台）。
+  current_alternative_en: Manual consolidation in Excel or bookkeeping software, or using cloud asset-aggregation
+    services that link accounts online.
+  usage_reason: 推断：相较手工表格，它把多类资产放进同一本地视图，并由 AI 顾问直接回答资产问题，省去逐项整理与自行计算这一步；因此不愿上传账户数据、又想随时问资产状况的个人投资者会在盘点资产时选择它。
+  usage_reason_en: 'Inference: versus manual spreadsheets, it places multiple asset types in one local
+    view and has the AI advisor answer asset questions directly, removing item-by-item consolidation and
+    self-calculation; that is why privacy-conscious individual investors who want on-demand answers about
+    their position would choose it when reviewing assets.'

@@ -179,3 +179,50 @@
     instant counterparts so a session can start without waiting for teammates, which is why players wanting
     an on-demand voice role-play session would choose it; retention and repeat-play evidence is not yet
     public.'
+- id: req-full-scam-with-your-friends-web-2026-10-16
+  project_slug: scam-with-your-friends-web
+  level: full
+  reviewed_at: '2026-10-16T01:23:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决想随时玩语音角色扮演却凑不齐真人对手的需求，痛点是缺少可即时响应的对话对手，属于娱乐价值；这是从产品输入—动作—交付闭环作出的工作流结构推理，公开材料未给出玩家采用数据。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星数从 228 缓慢升至 231，说明有开发者关注，但没有玩家持续游玩、口碑或社区讨论证据，共识卡在场景认知与采用环节。
+    evidence_ids:
+    - ev-9400001e3021a20f
+    - ev-c98934884d31c9a7
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，钱可能来自托管、内容或赞助，这是判断而非已验证事实；公开材料也未说明谁付费。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  - gate: truth
+    status: insufficient
+    reason: 语音 AI 对话质量、延迟与每日配额机制能否长期留住玩家，公开材料未给出可核对结果，也未说明安全与人工边界。
+    evidence_ids:
+    - ev-9400001e3021a20f
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认玩家对语音 AI 对话质量、延迟和重复游玩意愿的公开反馈。
+  market: ''
+  job: 玩家与朋友组队，在浏览器里打开 3D 办公室，扮演呼叫中心客服，用语音与 AI 扮演的客户对话，完成每日配额任务。
+  job_en: Players team up with friends in a browser-based 3D office, role-play call-center agents, talk
+    by voice to AI-played customers, and hit daily quotas.
+  pain: 公开材料显示该游戏依赖语音对话与真人队友配合，而想玩这类语音角色扮演时往往凑不齐能即时响应、愿意配合演出的真人对手，传统联机游戏需要约时间、固定队友，单人剧情又缺少即兴对话的对手戏。
+  pain_en: Public materials show the game depends on voice dialogue and human teammates, yet players wanting
+    this kind of voice role-play often cannot assemble real counterparts who respond on demand; traditional
+    online games require scheduling and fixed teammates, while single-player stories lack an improvised
+    dialogue partner.
+  current_alternative: 现有替代是约固定朋友联机玩其他语音游戏、玩单人剧情游戏，或看直播和视频代替亲自参与；公开材料未显示用户当前如何完成这一具体任务。
+  current_alternative_en: Current alternatives are scheduling fixed friends for other voice games, playing
+    single-player story games, or watching streams and videos instead of participating; public materials
+    do not show how users complete this specific job today.
+  usage_reason: 推断：相较约真人联机，AI 客户可随时充当对话对手，玩家不必等队友凑齐就能开局，因此想随时开一局语音角色扮演的玩家会选它；但留存与重复游玩证据尚未公开。
+  usage_reason_en: 'Inference: compared with scheduling real people, AI customers can serve as dialogue
+    counterparts at any time, so players can start without waiting for teammates, which is why players
+    wanting an on-demand voice role-play session would choose it; retention and repeat-play evidence is
+    not yet public.'

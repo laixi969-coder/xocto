@@ -1,0 +1,90 @@
+- id: req-initial-muster-2026-10-16
+  project_slug: muster
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多会话并行时“哪个在等我”的定位问题，痛点来自会话空转与注意力切换，旧做法是手动轮询终端。
+    evidence_ids:
+    - ev-5c1e83c5f66aa825
+    - ev-8bf3beee1ad6091a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标与产品页自述，没有用户评价或团队采用证据，尚看不出共识卡在哪一环。
+    evidence_ids:
+    - ev-5c1e83c5f66aa825
+    - ev-8bf3beee1ad6091a
+  - gate: model
+    status: insufficient
+    reason: 免费开源，未见定价页或付费路径；买方可能是个人开发者或团队席位，属判断而非已验证事实。
+    evidence_ids:
+    - ev-5c1e83c5f66aa825
+  - gate: truth
+    status: insufficient
+    reason: 未核验它是否真能准确识别各会话的等待状态，以及一键应答是否会造成误发，人工边界不清。
+    evidence_ids:
+    - ev-5c1e83c5f66aa825
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认多会话等待状态识别与一键应答的实际使用反馈。
+  market: ''
+  job: 同时运行多个编码智能体的开发者，在多个会话并行等待输入时，需要判断哪个会话卡住并尽快把回答发回去，让任务继续推进。
+  job_en: A developer running several coding agents at once must tell which parallel session is blocked
+    and send the reply back quickly so the task keeps moving.
+  pain: 并行会话一多，等待中的会话会空转，人却在终端窗口之间来回找，注意力被打断，任务被拖慢。
+  pain_en: With many parallel sessions, waiting agents idle while the person hunts across terminal windows,
+    breaking attention and slowing tasks.
+  current_alternative: 靠手动切换终端标签、系统通知或凭记忆轮询各个会话。
+  current_alternative_en: Manually switching terminal tabs, relying on system notifications, or polling
+    sessions from memory.
+  usage_reason: 推断：相较手动轮询，它把“哪个会话在等我”集中到一个常驻菜单栏视图，并用一次按键完成应答，省掉定位窗口这一步；常跑多会话的开发者会因此选它。
+  usage_reason_en: 'Inference: versus manual polling, it concentrates ''which session is waiting'' into
+    one always-visible menu bar view and answers with a single keystroke, removing the window-hunting
+    step; developers who routinely run many sessions would pick it for that.'
+- id: req-full-muster-2026-10-16
+  project_slug: muster
+  level: full
+  reviewed_at: '2026-10-16T01:22:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多会话并行时“哪个在等我”的定位问题，痛点来自会话空转与注意力切换，旧做法是手动轮询终端；但现有证据多为词典释义，产品级事实仅来自摘要，属工作流结构推理。
+    evidence_ids:
+    - ev-e0334a47fcc3354f
+    - ev-5c54d507fd27e50b
+  - gate: consensus
+    status: insufficient
+    reason: 现有证据为词典与百科释义，没有用户评价、开发者讨论或团队采用记录，看不出共识卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-349a067bcf303199
+    - ev-671cbdcff5372389
+  - gate: model
+    status: insufficient
+    reason: 摘要称免费开源，未见定价页或付费路径；买方可能是个人开发者或团队席位，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a9c8ba2853604fe1
+    - ev-0f8be868577f4cfd
+  - gate: truth
+    status: insufficient
+    reason: 未核验它能否准确识别各会话等待状态，一键应答是否会造成误发，人工确认边界不清。
+    evidence_ids:
+    - ev-a42775fb0350a864
+    - ev-bbbdffe75764347b
+  next_validation: 收集该开源仓库的 issue 与 discussion，确认多会话等待状态识别与一键应答的实际使用反馈。
+  market: ''
+  job: 同时跑多个 Claude Code、Codex、Cursor 会话的 Mac 开发者，在多个智能体会话并行等待输入时，需要判断哪个会话卡住并尽快把回答发回去，让任务继续推进。
+  job_en: A Mac developer running several Claude Code, Codex and Cursor sessions at once must tell which
+    parallel session is blocked and send the reply back quickly so the task keeps moving.
+  pain: 并行会话一多，等待输入的会话会空转，人却在多个终端窗口之间来回找，注意力被打断，任务被拖慢。
+  pain_en: With many parallel sessions, waiting agents idle while the person hunts across terminal windows,
+    breaking attention and slowing tasks.
+  current_alternative: 靠手动切换终端标签、系统通知或凭记忆轮询各个会话。
+  current_alternative_en: Manually switching terminal tabs, relying on system notifications, or polling
+    sessions from memory.
+  usage_reason: 推断：相较手动轮询，它把“哪个会话在等我”集中到一个常驻菜单栏视图，并用一次按键完成应答，省掉定位窗口这一步；常跑多会话的开发者会因此选它。
+  usage_reason_en: 'Inference: versus manual polling, it concentrates ''which session is waiting'' into
+    one always-visible menu bar view and answers with a single keystroke, removing the window-hunting
+    step; developers who routinely run many sessions would pick it for that.'

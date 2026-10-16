@@ -1,12 +1,14 @@
 ---
 slug: open-from-data-center-to-desktop-nvidia-expands-nemotron-fam
-name: 'Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super
-  VL and Bolt Models'
+name: NVIDIA Nemotron 3.5
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: NVIDIA 于 2026 年 10 月 15 日发布 Nemotron 3.5 系列开源模型：Super VL 为 1200 亿参数多模态模型，面向常驻智能体任务；Bolt 74B-A9B
+  与 Bolt E4B 面向本地与边缘设备部署。这是模型供给层变化，不是独立应用产品。
 inspiration: ''
-summary_en: ''
+summary_en: 'On Oct 15, 2026 NVIDIA released the Nemotron 3.5 open model family: Super VL, a 120B-parameter
+  multimodal model for always-on agents, and Bolt 74B-A9B and Bolt E4B for local and edge deployment.
+  This is a model-supply change, not a standalone application product.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -34,7 +36,7 @@ summary: 'NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-param
   tool use, multistep business workflows, and visual understanding — comparable with'
 first_seen: '2026-10-16T00:25:39Z'
 last_seen: '2026-10-16T00:25:39Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -45,7 +47,7 @@ sightings:
   kind: news
 ---
 
-# Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models
+# NVIDIA Nemotron 3.5
 
 NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized for intelligence per GB for fast conversational agents. Super VL and Bolt 74B-A9B are available now, with Bolt E4B coming Oct. 23. The three open models together cover the full range of agent deployments, from large enterprise servers down to edge devices and local hardware. Any organization that wants to run agents on NVIDIA infrastructure now has an open, optimized model for their tier, without having to choose between capability and deployability. Super VL and Bolt join the Nemotron family alongside Lightning and Ultra. Lightning, released in August, handles high-throughput workloads; Ultra handles the hardest reasoning tasks; and Bolt brings intelligence to the edge. Nemotron 3.5 Super VL: Frontier Accuracy at One-Fifth the Size Super VL, built in collaboration with the Nemotron Coalition , delivers leading accuracy on multimodal agentic tasks — instruction following, tool use, multistep business workflows, and visual understanding — comparable with
 

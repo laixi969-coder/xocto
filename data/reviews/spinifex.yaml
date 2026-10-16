@@ -24,3 +24,47 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-spinifex-2026-10-16
+  project_slug: spinifex
+  level: initial
+  reviewed_at: '2026-09-10T05:13:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据不出机房或压云成本时继续使用 AWS 接口的需求，痛点是迁移重写成本高，旧做法是公有云或自建私有云。
+    evidence_ids:
+    - ev-2e4689cff207a9f1
+    - ev-2bc29ac9dc054138
+  - gate: consensus
+    status: insufficient
+    reason: 公开信号为少量社区讨论与版本发布记录，尚无机构在生产中依赖它的公开证据。
+    evidence_ids:
+    - ev-2e4689cff207a9f1
+    - ev-2bc29ac9dc054138
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页，钱可能来自企业支持或托管服务，属判断而非已验证事实。
+    evidence_ids:
+    - ev-2bc29ac9dc054138
+  - gate: truth
+    status: insufficient
+    reason: 兼容云 API 贴近第一性目标，但兼容完整度、性能与长期运维成本在公开材料中未说明。
+    evidence_ids:
+    - ev-2bc29ac9dc054138
+  next_validation: 收集 Spinifex 官方文档与版本说明，确认 11 项兼容服务的覆盖范围、已知不兼容项与生产部署案例。
+  market: ''
+  job: 基础设施工程师在数据不能出机房或要压云账单时，需要让现有依赖 AWS 接口的脚本和工具在自有硬件上继续跑。
+  job_en: Infrastructure engineers whose data cannot leave the premises or who must cut cloud bills need
+    existing scripts and tools that depend on AWS APIs to keep running on their own hardware.
+  pain: 重写脚本或改用私有云意味着大量迁移工作与重新培训，云账单和合规要求又逼着团队必须换环境。
+  pain_en: Rewriting scripts or switching to a private cloud means heavy migration work and retraining,
+    while cloud bills and compliance requirements force a change of environment.
+  current_alternative: 继续用公有云、自建 OpenStack 类私有云，或逐个服务找开源替代再改脚本。
+  current_alternative_en: Staying on public cloud, building an OpenStack-style private cloud, or finding
+    open-source replacements per service and rewriting scripts.
+  usage_reason: 推断：相较自建私有云要重写脚本，Spinifex 保持 AWS CLI 不变并已覆盖 11 项兼容服务，省掉迁移改写这一步，因此受合规或成本约束的基础设施团队会关注它。
+  usage_reason_en: 'Inference: compared with a self-built private cloud that requires rewriting scripts,
+    Spinifex keeps the AWS CLI unchanged and already covers 11 compatible services, removing the migration
+    rewrite step, so compliance- or cost-constrained infrastructure teams would pay attention.'

@@ -1,0 +1,86 @@
+- id: req-initial-微星发布紧凑型ai智能体主机edgemesa-n-ai本地最大运行200b大模型-2026-10-16
+  project_slug: 微星发布紧凑型ai智能体主机edgemesa-n-ai本地最大运行200b大模型
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据不能出内网却要跑大模型的需求，痛点来自合规与自建成本；买方为有本地部署需求的企业，公开材料未披露定价。
+    evidence_ids:
+    - ev-3816c550c940f8fe
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，未见企业采购或部署案例，行业共识证据不足。
+    evidence_ids:
+    - ev-3816c550c940f8fe
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露售价、销售渠道或服务收费方式，付费路径仍属推断。
+    evidence_ids:
+    - ev-3816c550c940f8fe
+  - gate: truth
+    status: insufficient
+    reason: 200B 参数运行能力来自报道转述，未见独立实测或官方规格文档，交付确定性无法核对。
+    evidence_ids:
+    - ev-3816c550c940f8fe
+  next_validation: 查找微星官方产品页或规格文档，确认支持的模型规模、内存配置与售价。
+  market: ''
+  job: 数据与 IT 团队在数据不能出内网、又需要运行较大模型时，处理内部文档与业务数据，要完成本地推理部署并保证数据不外流。
+  job_en: Data and IT teams, when data cannot leave the internal network yet larger models are needed,
+    work with internal documents and business data to complete local inference deployment while keeping
+    data in-house.
+  pain: 云端推理存在数据外流与合规顾虑，自建 GPU 服务器成本与运维门槛高；公开材料未给出具体用户痛点陈述。
+  pain_en: Cloud inference raises data egress and compliance concerns, while self-built GPU servers carry
+    high cost and operations burden; public material gives no specific user pain statement.
+  current_alternative: 公开材料未说明用户此前使用何种本地或云端推理方案，替代方案仍待核验。
+  current_alternative_en: Public material does not state which local or cloud inference setup users used
+    before; the prior alternative remains unverified.
+  usage_reason: 推断：相较自建 GPU 服务器或使用公有云 API，这台主机把算力与模型运行打包成可放置于内网的设备，减少机房改造与合规审批环节，因此对数据外流敏感的团队会考虑它。
+  usage_reason_en: 'Inference: compared with self-built GPU servers or public cloud APIs, this host packages
+    compute and model execution into a device that can sit inside the intranet, cutting data-center rework
+    and compliance approval steps, so teams sensitive to data egress would consider it.'
+- id: req-full-微星发布紧凑型ai智能体主机edgemesa-n-ai本地最大运行200b大模型-2026-10-16
+  project_slug: 微星发布紧凑型ai智能体主机edgemesa-n-ai本地最大运行200b大模型
+  level: full
+  reviewed_at: '2026-10-16T01:25:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据链中仅有微星官网首页、下载页与通用 AI 科普页，无 EdgeMesa N AI+ 产品页、规格或用户痛点陈述；需求与痛点无法从公开事实还原，仅剩标题转述。
+    evidence_ids:
+    - ev-8d35687db51973e4
+    - ev-e7fbc1fd046e5b11
+    - ev-32fef9a20b560a58
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪微星官方 EdgeMesa N AI+ 产品页或规格文档，确认支持的模型规模、内存配置、售价与部署方式。
+  market: ''
+  job: 数据与 IT 团队在数据不能出内网、又需要运行较大模型时，处理内部文档与业务数据，要完成本地推理部署并保证数据不外流。
+  job_en: Data and IT teams, when data cannot leave the internal network yet larger models are needed,
+    work with internal documents and business data to complete local inference deployment while keeping
+    data in-house.
+  pain: 公开材料未给出任何用户痛点陈述，仅有一句发布标题转述；云端推理的合规顾虑与自建 GPU 成本均属编辑推测，无证据支撑。
+  pain_en: Public material contains no user pain statement, only a paraphrased launch headline; cloud-inference
+    compliance concerns and self-built GPU costs are editorial speculation without evidence.
+  current_alternative: 公开材料未说明用户此前使用何种本地或云端推理方案，替代方案无任何证据。
+  current_alternative_en: Public material does not state which local or cloud inference setup users used
+    before; the prior alternative has no evidence.
+  usage_reason: 推断：若产品确如标题所述可在紧凑主机上运行 200B 模型，对数据外流敏感的团队可能因免去机房改造与合规审批而考虑它；但该能力与交付形态均无官方规格或实测支撑，无法确认用户为何选择。
+  usage_reason_en: 'Inference: if the product truly runs 200B models on a compact host as the headline
+    claims, teams sensitive to data egress might consider it to avoid data-center rework and compliance
+    approval; but neither the capability nor the delivery form is backed by official specs or testing,
+    so why users would choose it cannot be confirmed.'

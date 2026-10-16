@@ -1,0 +1,94 @@
+- id: req-initial-from-slush-to-sustainable-materials-ambio-raises-51m-for-ai-2026-10-16
+  project_slug: from-slush-to-sustainable-materials-ambio-raises-51m-for-ai
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是制造企业为特定牌号寻找再生塑料时供给碎片化、质量不可预测的问题，痛点是逐家询价与送样耗时且结果不确定，不采用则继续依赖人脉与经验选材。
+    evidence_ids:
+    - ev-86a0e416d41147cb
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明完成 510 万欧元种子轮与投资方名单，未披露实际采用客户、采购量或行业口碑，无法判断共识是否形成。
+    evidence_ids:
+    - ev-86a0e416d41147cb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价方式、抽佣比例或订阅费用，买方应为制造企业采购方，但收入路径属于判断而非已验证事实。
+    evidence_ids:
+    - ev-86a0e416d41147cb
+  - gate: truth
+    status: insufficient
+    reason: 平台承诺覆盖从材料发现到长期交付，但公开材料未说明质检责任划分、批次一致性如何保证以及人工复核边界。
+    evidence_ids:
+    - ev-86a0e416d41147cb
+  next_validation: 收集 Ambio 官方产品页或定价页，核验其收费方式、质检责任划分与已披露的客户或交付案例。
+  market: ''
+  job: 制造企业的采购与可持续材料负责人在为特定应用寻找符合牌号要求的再生塑料时，处理分散的回收商报价、样品与质检数据，完成从选材、取样到长期供货的采购决策。
+  job_en: Procurement and sustainable-materials leads at manufacturers sourcing recycled plastics for
+    a specific application handle scattered recycler quotes, samples and quality data to complete sourcing
+    decisions from material selection and sampling to long-term supply.
+  pain: 供给高度碎片化、质量不可预测、定价低效，欧盟约 5 万家用塑企业对应约 1500 家回收企业，采购方难以在众多牌号中找到合适材料并确认批次质量。
+  pain_en: 'Supply is highly fragmented, quality unpredictable and pricing inefficient: roughly 50,000
+    EU plastics users face about 1,500 recyclers, making it hard for buyers to find the right grade and
+    confirm batch quality.'
+  current_alternative: 此前采购方靠展会、行业人脉、邮件询价和逐家送样检测来寻找再生塑料供应商，质量判断依赖零散的经验与人工比对。
+  current_alternative_en: Buyers previously found recyclers through trade fairs, industry contacts, email
+    quotes and sample-by-sample lab testing, with quality judgement resting on scattered experience and
+    manual comparison.
+  usage_reason: 推断：相较逐家询价与送样，Ambio 把材料发现、取样与长期交付放进同一采购流程，减少在碎片化供给中反复筛选和比对的步骤；对需要为特定牌号找到稳定再生料来源的采购方，这种可追溯的选材路径比单纯比价更有价值，但公开材料未给出客户案例或复购数据。
+  usage_reason_en: 'Inference: compared with quoting and sampling supplier by supplier, Ambio puts material
+    discovery, sampling and long-term delivery into one procurement flow, cutting the repeated screening
+    and comparison across fragmented supply; for buyers needing a stable recycled feedstock for a given
+    grade, a traceable selection path beats pure price comparison, though no customer cases or repeat-purchase
+    data are public.'
+- id: req-full-from-slush-to-sustainable-materials-ambio-raises-51m-for-ai-2026-10-16
+  project_slug: from-slush-to-sustainable-materials-ambio-raises-51m-for-ai
+  level: full
+  reviewed_at: '2026-10-16T01:21:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决制造企业为特定牌号寻找再生塑料时供给碎片化、质量不可预测的问题，痛点是逐家询价与送样耗时且结果不确定，不采用则继续依赖人脉与经验选材；此为工作流结构推理。
+    evidence_ids:
+    - ev-86a0e416d41147cb
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明完成510万欧元种子轮与投资方名单，未披露实际采用客户、采购量或行业口碑，无法判断共识是否形成。
+    evidence_ids:
+    - ev-86a0e416d41147cb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价方式、抽佣比例或订阅费用，买方应为制造企业采购方，但收入路径属于判断而非已验证事实。
+    evidence_ids:
+    - ev-86a0e416d41147cb
+  - gate: truth
+    status: insufficient
+    reason: 平台承诺覆盖从材料发现到长期交付，但公开材料未说明质检责任划分、批次一致性如何保证以及人工复核边界。
+    evidence_ids:
+    - ev-86a0e416d41147cb
+  next_validation: 收集 Ambio 官方产品页或定价页，核验其收费方式、质检责任划分与已披露的客户或交付案例。
+  market: ''
+  job: 制造企业的采购与可持续材料负责人在为特定应用寻找符合牌号要求的再生塑料时，处理分散的回收商报价、样品与质检数据，完成从选材、取样到长期供货的采购决策。
+  job_en: Procurement and sustainable-materials leads at manufacturers sourcing recycled plastics for
+    a specific application handle scattered recycler quotes, samples and quality data to complete sourcing
+    decisions from material selection and sampling to long-term supply.
+  pain: 供给高度碎片化、质量不可预测、定价低效：欧盟约5万家用塑企业对应约1500家回收企业，再生塑料有上千种变体，采购方难以在众多牌号中找到合适材料并确认批次质量。
+  pain_en: 'Supply is highly fragmented, quality unpredictable and pricing inefficient: roughly 50,000
+    EU plastics users face about 1,500 recyclers, and with thousands of plastic variations buyers struggle
+    to find the right grade and confirm batch quality.'
+  current_alternative: 此前采购方靠展会、行业人脉、邮件询价和逐家送样检测来寻找再生塑料供应商，质量判断依赖零散经验与人工比对。
+  current_alternative_en: Buyers previously found recyclers through trade fairs, industry contacts, email
+    quotes and sample-by-sample lab testing, with quality judgement resting on scattered experience and
+    manual comparison.
+  usage_reason: 推断：相较逐家询价与送样，Ambio 把材料发现、取样与长期交付放进同一采购流程，减少在碎片化供给中反复筛选比对的步骤；对需要为特定牌号找到稳定再生料来源的采购方，这种可追溯的选材路径比单纯比价更有价值，但公开材料未给出客户案例或复购数据。
+  usage_reason_en: 'Inference: compared with quoting and sampling supplier by supplier, Ambio puts material
+    discovery, sampling and long-term delivery into one procurement flow, cutting repeated screening and
+    comparison across fragmented supply; for buyers needing a stable recycled feedstock for a given grade,
+    a traceable selection path beats pure price comparison, though no customer cases or repeat-purchase
+    data are public.'

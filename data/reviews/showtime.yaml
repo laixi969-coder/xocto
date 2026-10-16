@@ -332,3 +332,43 @@
     cutting and exporting into a one-sentence prompt plus local rendering, removing the editing-software
     learning and operation steps, so developers needing quick demo videos may choose it; however, no user
     feedback or repeat-use evidence is provided.'
+- id: req-full-showtime-2026-10-16
+  project_slug: showtime
+  level: full
+  reviewed_at: '2026-10-16T01:23:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决开发者做演示视频耗时的问题，但现有证据全部指向同名电视网，未给出旧流程、用户抱怨或替代行为，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-6131e043160ec7e2
+    - ev-4ba827e08ec6d062
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官方仓库或官网的 README、issue 与 discussion，确认其实际支持的视频类型、渲染流程与用户使用记录。
+  market: ''
+  job: 开发者或内容创作者在需要为项目演示或产品说明制作短视频时，用一句话描述视频，由编码代理编排、本机渲染出成片。
+  job_en: Developers or content creators who need a demo or explainer video for a project describe it
+    in one sentence, and a coding agent directs while the local machine renders the video.
+  pain: 公开材料未提供任何用户抱怨、替代行为或采用证据；现有证据全部指向同名电视网 Showtime，与本地视频工作室产品无关，无法还原真实痛点。
+  pain_en: The public material provides no user complaints, workarounds, or adoption evidence; all available
+    evidence points to the unrelated TV network Showtime, so the real pain point cannot be reconstructed.
+  current_alternative: 无法从现有证据确认；候选材料未记录开发者当前如何制作演示视频。
+  current_alternative_en: Cannot be confirmed from available evidence; the candidate material does not
+    record how developers currently produce demo videos.
+  usage_reason: 无法判断用户为何选择它；现有证据与产品无关，缺少用户反馈、案例或重复使用记录，不能以功能描述代替采用动机。
+  usage_reason_en: Cannot determine why users would choose it; the available evidence is unrelated to
+    the product, and there is no user feedback, case study, or repeat-use record to substitute for adoption
+    motivation.

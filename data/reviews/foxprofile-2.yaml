@@ -135,3 +135,50 @@
     and proxies self-hosted and exposes REST API and MCP directly for AI agents, removing per-account
     manual setup and third-party session hosting, which appeals to teams that care about data ownership
     and batch session dispatch; public material shows no retention or payment evidence yet.'
+- id: req-full-foxprofile-2-2026-10-16
+  project_slug: foxprofile-2
+  level: full
+  reviewed_at: '2026-10-16T01:21:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号会话互相污染与手工配置代理 Cookie 的痛点，旧做法是付费反检测软件或虚拟机加手工清理，不采用会面临封号与串号风险，价值结构成立。
+    evidence_ids:
+    - ev-06df36e5bf304794
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 61 升至 114，属于关注度而非持续采用；没有用户评价、客户案例或部署反馈说明谁真正把它放进日常工作流。
+    evidence_ids:
+    - ev-06df36e5bf304794
+    - ev-25522054138ae4e8
+  - gate: model
+    status: insufficient
+    reason: 开源免费，未见定价页或托管服务收费；买方可能是自建团队或未来的托管订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-06df36e5bf304794
+  - gate: truth
+    status: insufficient
+    reason: 反检测用途涉及平台条款与合规边界，公开材料未说明使用限制、人工审核环节或误封后的处理方式，交付确定性待核验。
+    evidence_ids:
+    - ev-06df36e5bf304794
+  next_validation: 收集该仓库的 issue、discussion 与 release 说明，确认是否有真实用户报告将其用于多账号运营或 AI 代理调度，以及是否出现托管或付费版本。
+  market: ''
+  job: 跨境电商多店铺运营、广告投放或数据采集人员，需要在同一台机器上同时维持多个互不关联的账号会话，处理登录、Cookie 与代理配置；自动化工程师则要为 AI 代理批量调度带独立指纹与代理的浏览器会话。
+  job_en: Cross-border e-commerce multi-store operators, ad buyers or data collectors who must keep several
+    unrelated account sessions alive on one machine, handling logins, cookies and proxy configuration;
+    automation engineers also need to batch-dispatch browser sessions with independent fingerprints and
+    proxies for AI agents.
+  pain: 账号环境互相污染会导致封号或数据串号，手工切换浏览器、清理 Cookie、逐个配代理既慢又易出错，商业反检测软件按账号收费且会话数据要托管给第三方。
+  pain_en: Cross-contaminated account environments cause bans or mixed-up data; manually switching browsers,
+    clearing cookies and configuring proxies one by one is slow and error-prone, while commercial anti-detect
+    tools charge per account and require hosting session data with a third party.
+  current_alternative: GoLogin、MoreLogin 等付费反检测浏览器，或多开虚拟机、独立设备与手工清理 Cookie 的土办法。
+  current_alternative_en: Paid anti-detect browsers such as GoLogin and MoreLogin, or makeshift setups
+    with multiple VMs, separate devices and manual cookie clearing.
+  usage_reason: 推断：相较付费反检测软件，它把档案、指纹、Cookie 与代理放在本机自托管，并直接暴露 REST API 与 MCP 供 AI 代理调用，省去逐账号手工配置和把会话数据托管给第三方的步骤，因此对在意数据归属、又要批量调度会话的团队更有吸引力；公开材料尚未给出留存或付费证据。
+  usage_reason_en: 'Inference: versus paid anti-detect software, it keeps profiles, fingerprints, cookies
+    and proxies self-hosted and exposes REST API and MCP directly for AI agents, removing per-account
+    manual setup and third-party session hosting, which appeals to teams that care about data ownership
+    and batch session dispatch; public material shows no retention or payment evidence yet.'

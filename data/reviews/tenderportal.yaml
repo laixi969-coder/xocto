@@ -1,0 +1,88 @@
+- id: req-initial-tenderportal-2026-10-16
+  project_slug: tenderportal
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投标方找政府招标信息的需求，痛点是信息分散、更新慢、易漏标，旧替代行为清楚。
+    evidence_ids:
+    - ev-267e5577e3206197
+    - ev-5626eaf3a430778c
+  - gate: consensus
+    status: insufficient
+    reason: 只有 11 点、2 条评论的社区关注，没有投标方使用或中标案例说明实际价值。
+    evidence_ids:
+    - ev-267e5577e3206197
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费证据，买方可能是中小企业订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-267e5577e3206197
+  - gate: truth
+    status: insufficient
+    reason: 宣称覆盖全球 25 万条招标，但数据来源、更新频率和 AI 筛选准确度未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-267e5577e3206197
+    - ev-5626eaf3a430778c
+  next_validation: 收集 tenderportal 官方定价页或数据覆盖说明，确认更新频率与是否按行业订阅收费。
+  market: ''
+  job: 建筑、物流或 IT 外包公司的商务人员，在寻找可投项目时，从各国政府网站收集招标公告并筛选出匹配自身资质的标的。
+  job_en: Business development staff at construction, logistics or IT outsourcing firms collect tender
+    notices from government sites and screen those matching their qualifications.
+  pain: 旧做法要逐个政府网站翻找、订阅邮件或买本地招标服务，信息分散、更新慢，容易漏标。
+  pain_en: The old way means trawling individual government sites, subscribing to mailing lists or buying
+    local tender services, with scattered, slow updates and missed bids.
+  current_alternative: 各国政府招标网站、本地招标信息中介、行业邮件订阅和人工盯标。
+  current_alternative_en: National government tender portals, local tender intermediaries, industry mailing
+    lists and manual monitoring.
+  usage_reason: 推断：相较逐站翻找，聚合检索把分散公告收进一个可筛选入口，省掉跨站搜索这一步，对依赖政府订单的中小企业是选择理由；但缺少更新频率与命中率证据，是否长期使用仍缺一环。
+  usage_reason_en: 'Inference: compared with trawling sites, aggregated search puts scattered notices
+    into one filterable entry point, removing the cross-site search step, which is why contract-dependent
+    SMEs would choose it; without update-frequency and hit-rate evidence, sustained use remains unverified.'
+- id: req-full-tenderportal-2026-10-16
+  project_slug: tenderportal
+  level: full
+  reviewed_at: '2026-10-16T01:24:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投标方找政府招标信息的需求，痛点是信息分散、更新慢、易漏标，旧替代行为清楚。
+    evidence_ids:
+    - ev-267e5577e3206197
+    - ev-5626eaf3a430778c
+  - gate: consensus
+    status: insufficient
+    reason: 只有 11 点、2 条评论的社区关注，没有投标方使用或中标案例说明实际价值。
+    evidence_ids:
+    - ev-267e5577e3206197
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费证据，买方可能是中小企业订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-267e5577e3206197
+  - gate: truth
+    status: insufficient
+    reason: 宣称覆盖全球 25 万条招标，但数据来源、更新频率和 AI 筛选准确度未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-267e5577e3206197
+    - ev-5626eaf3a430778c
+  next_validation: 收集 tenderportal 官方定价页或数据覆盖说明，确认更新频率与是否按行业订阅收费。
+  market: ''
+  job: 建筑、物流或 IT 外包公司的商务人员，在寻找可投项目时，从各国政府网站收集招标公告并筛选出匹配自身资质的标的。
+  job_en: Business development staff at construction, logistics or IT outsourcing firms collect tender
+    notices from government sites and screen those matching their qualifications.
+  pain: 旧做法要逐个政府网站翻找、订阅邮件或买本地招标服务，信息分散、更新慢，容易漏标。
+  pain_en: The old way means trawling individual government sites, subscribing to mailing lists or buying
+    local tender services, with scattered, slow updates and missed bids.
+  current_alternative: 各国政府招标网站、本地招标信息中介、行业邮件订阅和人工盯标。
+  current_alternative_en: National government tender portals, local tender intermediaries, industry mailing
+    lists and manual monitoring.
+  usage_reason: 推断：相较逐站翻找，聚合检索把分散公告收进一个可筛选入口，省掉跨站搜索这一步，对依赖政府订单的中小企业是选择理由；但缺少更新频率与命中率证据，是否长期使用仍缺一环。
+  usage_reason_en: 'Inference: compared with trawling sites, aggregated search puts scattered notices
+    into one filterable entry point, removing the cross-site search step, which is why contract-dependent
+    SMEs would choose it; without update-frequency and hit-rate evidence, sustained use remains unverified.'

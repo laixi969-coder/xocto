@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/eu-inc-open-letter-european-commission
 summary: ''
 first_seen: '2026-10-16T00:25:40Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,89 @@
+- id: req-initial-sophos-cuts-threat-investigation-time-with-ai-agents-2026-10-16
+  project_slug: sophos-cuts-threat-investigation-time-with-ai-agents
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决告警初筛与调查耗时，但候选只有标题，未写清具体痛点、旧流程与交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-1afe56766cf51cdc
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有报道标题，没有安全团队采用、部署范围或评价证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-1afe56766cf51cdc
+  - gate: model
+    status: insufficient
+    reason: 未进入：候选未披露买方、定价或收费方式，无法判断钱来自安全预算还是托管服务费。
+    evidence_ids:
+    - ev-1afe56766cf51cdc
+  - gate: truth
+    status: insufficient
+    reason: 未进入：没有调查耗时、误报率或人工复核边界等可核对结果，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-1afe56766cf51cdc
+  next_validation: 收集 Sophos 官方关于该 AI 代理的发布页或客户案例，确认产品名、部署方式与调查耗时对比数据。
+  market: ''
+  job: 安全运营中心分析师在告警量超过人工处理能力时，面对告警队列、日志与威胁情报，要完成事件定级与调查结论。
+  job_en: A SOC analyst facing more alerts than humans can handle works through alert queues, logs and
+    threat intelligence to produce incident triage and investigation conclusions.
+  pain: 告警疲劳与调查耗时是行业长期抱怨，但本候选未提供任何具体痛点、耗时或误报数据，无法确认它替代了哪一步人工动作。
+  pain_en: Alert fatigue and slow investigation are long-standing complaints, but this candidate gives
+    no specific pain, time or false-positive data, so the replaced manual step cannot be confirmed.
+  current_alternative: 旧做法是分析师手工翻日志、串联告警并写调查记录，或使用既有 SIEM/SOAR 规则与剧本；候选未说明新方案与这些做法的差别。
+  current_alternative_en: The old way is analysts manually reading logs, correlating alerts and writing
+    investigation notes, or using existing SIEM/SOAR rules and playbooks; the candidate does not describe
+    how the new approach differs.
+  usage_reason: 推断：若代理能自动完成告警关联与初筛，分析师可跳过逐条翻日志这一步，直接复核结论；但候选没有客户案例、耗时对比或采用证据，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if agents automate alert correlation and triage, analysts could skip reading
+    logs one by one and review conclusions directly; however, the candidate offers no customer case, time
+    comparison or adoption evidence to confirm this causal link.'
+- id: req-full-sophos-cuts-threat-investigation-time-with-ai-agents-2026-10-16
+  project_slug: sophos-cuts-threat-investigation-time-with-ai-agents
+  level: full
+  reviewed_at: '2026-10-16T01:24:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决告警初筛与威胁调查耗时这一需求，痛点是分析师逐条翻日志、手工串联告警；不解决的后果是调查积压与响应延迟。候选标题已给出耗时被压缩的公开事实，但具体旧流程与交付形态仍属工作流结构推理，非量化验证。
+    evidence_ids:
+    - ev-1afe56766cf51cdc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道标题，没有安全团队采用、部署范围、分析师评价或重复使用证据，无法判断共识卡在感知、场景还是利益环节，也不能声称已进入日常工作流。
+    evidence_ids:
+    - ev-1afe56766cf51cdc
+  - gate: model
+    status: insufficient
+    reason: 候选未披露买方、定价或收费方式，无法判断钱来自企业安全预算、托管检测服务费还是订阅制；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-1afe56766cf51cdc
+  - gate: truth
+    status: insufficient
+    reason: 没有调查耗时、误报率、人工复核边界或安全责任划分等可核对结果，承诺能否确定性交付未知，需官方发布页或客户案例佐证。
+    evidence_ids:
+    - ev-1afe56766cf51cdc
+  next_validation: 追踪 Sophos 官方关于该 AI 代理的发布页或客户案例，确认产品名、部署方式、调查耗时对比数据与人工复核边界。
+  market: ''
+  job: 安全运营中心分析师在告警量超过人工处理能力时，面对告警队列、终端与网络日志、威胁情报，要完成事件定级、关联与可复核的调查结论。
+  job_en: A SOC analyst facing more alerts than humans can handle works through alert queues, endpoint
+    and network logs and threat intelligence to produce incident triage, correlation and reviewable investigation
+    conclusions.
+  pain: 公开事实仅支持标题级结论：威胁调查耗时被压缩。行业长期存在的告警疲劳、逐条翻日志与手工串联告警的负担，在本候选材料中未被具体数据证实，属于结构推理而非已核验痛点。
+  pain_en: Public evidence supports only a headline-level claim that threat investigation time is cut.
+    The long-standing alert fatigue and manual log-reading burden are structural inference here, not verified
+    pain data in this candidate.
+  current_alternative: 旧做法是分析师手工翻日志、串联告警并撰写调查记录，或依赖既有 SIEM/SOAR 规则与剧本；候选未说明新方案与这些做法的具体差别。
+  current_alternative_en: The old way is analysts manually reading logs, correlating alerts and writing
+    investigation notes, or relying on existing SIEM/SOAR rules and playbooks; the candidate does not
+    describe how the new approach differs.
+  usage_reason: 推断：若 AI 代理先完成告警关联与初筛并交回可复核线索，分析师可跳过逐条翻日志这一步，直接复核结论，因此告警积压严重、人手不足的安全团队会在调查环节选择它；但候选没有客户案例、耗时对比或采用证据，这一因果尚未被公开材料确认。
+  usage_reason_en: 'Inference: if AI agents do first-pass correlation and triage and hand back reviewable
+    leads, analysts could skip reading logs one by one and review conclusions directly, so understaffed
+    teams with alert backlogs would choose it for investigation; however, no customer case, time comparison
+    or adoption evidence confirms this causal link.'

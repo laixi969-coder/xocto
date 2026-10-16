@@ -1,0 +1,93 @@
+- id: req-initial-frink-2026-10-16
+  project_slug: frink
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理触发与落地之间的手工搬运：工单、报错、定时任务原本要人复制上下文并盯执行，现在由流程接上代理并在改动前确认，旧行为明确、不做的代价是重复劳动与漏触发。
+    evidence_ids:
+    - ev-22782b90103ac183
+    - ev-3b25bd86583251ac
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库的星标与分支数，属于关注度而非持续采用；没有团队把它留在日常研发流程的公开证据，卡在场景感知一环。
+    evidence_ids:
+    - ev-22782b90103ac183
+    - ev-3b25bd86583251ac
+  - gate: model
+    status: insufficient
+    reason: 开源本地运行，未见定价页或付费路径；买方可能是自建研发流程的工程团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-22782b90103ac183
+  - gate: truth
+    status: insufficient
+    reason: 改动前确认的设计贴近“代理不越权”的第一性要求，但缺少真实仓库上的执行结果与安全边界材料，交付确定性尚未核验。
+    evidence_ids:
+    - ev-3b25bd86583251ac
+  next_validation: 收集该开源仓库的 issue / discussion 与官方文档，确认是否有团队在真实工单或线上报错流程中重复使用并给出执行结果。
+  market: ''
+  job: 软件工程师在收到工单、线上报错或定时任务时，把代码仓库交给 AI 编码代理，让代理定位并修改代码，改动前先确认再落地。
+  job_en: Software engineers hand a repository to AI coding agents when a ticket, production error or
+    schedule fires, letting the agent locate and modify code with confirmation before changes land.
+  pain: 编码代理目前多在对话窗口里手动触发，工程师要自己复制上下文、盯住执行、再手工把改动搬回仓库，重复且容易漏掉触发源。
+  pain_en: Coding agents are mostly triggered manually inside chat windows, so engineers copy context,
+    babysit execution and hand-carry changes back into the repository, which is repetitive and easy to
+    drop.
+  current_alternative: 工程师手动在 Claude Code、Codex 等终端或 IDE 里粘贴工单与报错信息，或自己写脚本调用代理，再人工审查提交。
+  current_alternative_en: Engineers manually paste tickets and errors into Claude Code, Codex or an IDE,
+    or write their own scripts to call agents, then review and commit by hand.
+  usage_reason: 推断：相较手工粘贴与自写脚本，它把触发源（工单、报错、webhook、定时）直接接到代理执行，并在改动前插入确认步骤，省掉搬运上下文和盯执行这两步，因此事件源密集、又要求人工把关的团队会先试它。
+  usage_reason_en: 'Inference: versus manual pasting and homegrown scripts, it wires trigger sources (tickets,
+    errors, webhooks, schedules) straight into agent execution and inserts a confirmation step before
+    changes, removing context shuttling and babysitting, so teams with dense event sources that still
+    want human sign-off would try it first.'
+- id: req-full-frink-2026-10-16
+  project_slug: frink
+  level: full
+  reviewed_at: '2026-10-16T01:21:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是编码代理触发与落地之间的手工搬运：工单、报错、定时任务原本要人复制上下文并盯执行，现在由可视化流程接上代理并在改动前确认，旧行为明确、不做的代价是重复劳动与漏触发。
+    evidence_ids:
+    - ev-22782b90103ac183
+    - ev-3b25bd86583251ac
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标（42→45）这类关注度信号，没有团队把它留在日常研发流程的公开证据，卡在场景感知一环，无法确认持续采用。
+    evidence_ids:
+    - ev-22782b90103ac183
+    - ev-3b25bd86583251ac
+  - gate: model
+    status: insufficient
+    reason: 开源本地运行，未见定价页或付费路径；买方可能是自建研发流程的工程团队，但这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-22782b90103ac183
+  - gate: truth
+    status: insufficient
+    reason: 改动前确认的设计贴近“代理不越权”的第一性要求，但缺少真实仓库上的执行结果与安全边界材料，交付确定性尚未核验。
+    evidence_ids:
+    - ev-3b25bd86583251ac
+  next_validation: 收集该开源仓库的 issue / discussion 与官方文档，确认是否有团队在真实工单或线上报错流程中重复使用并给出执行结果。
+  market: ''
+  job: 软件工程师在收到工单、线上报错、webhook 或定时任务触发时，把代码仓库交给 Claude Code、Codex 等编码代理，让代理定位并修改代码，改动落地前先请求人工确认。
+  job_en: Software engineers hand a repository to coding agents like Claude Code and Codex when a ticket,
+    production error, webhook or schedule fires, letting the agent locate and modify code with human confirmation
+    before changes land.
+  pain: 编码代理目前多在对话窗口里手动触发，工程师要自己复制工单与报错上下文、盯住执行过程、再手工把改动搬回仓库；触发源分散时容易漏掉，重复搬运占用工程师时间。
+  pain_en: Coding agents are mostly triggered manually inside chat windows, so engineers copy ticket and
+    error context, babysit execution and hand-carry changes back into the repository; scattered trigger
+    sources get dropped and the shuttling eats engineer time.
+  current_alternative: 工程师手动在 Claude Code、Codex 等终端或 IDE 里粘贴工单与报错信息，或自己写脚本调用代理，再人工审查并提交。
+  current_alternative_en: Engineers manually paste tickets and errors into Claude Code, Codex or an IDE,
+    or write their own scripts to call agents, then review and commit by hand.
+  usage_reason: 推断：相较手工粘贴与自写脚本，它把工单、报错、webhook、定时等触发源直接接到代理执行，并在改动前插入确认步骤，省掉搬运上下文和盯执行两步；因此事件源密集、又要求人工把关的团队会在收到工单或线上报错时先试它。
+  usage_reason_en: 'Inference: versus manual pasting and homegrown scripts, it wires tickets, errors,
+    webhooks and schedules straight into agent execution and inserts a confirmation step before changes,
+    removing context shuttling and babysitting; so teams with dense event sources that still want human
+    sign-off would try it first when a ticket or production error arrives.'

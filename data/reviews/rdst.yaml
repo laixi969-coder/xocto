@@ -1,0 +1,84 @@
+- id: req-initial-rdst-2026-10-16
+  project_slug: rdst
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据库查询性能回退的发现与定位需求，痛点在于回退常在用户投诉后才暴露，人工比对慢日志成本高。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该产品的采用、留存或团队使用证据。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明托管服务、支持合同或按实例收费等付费路径，买方与定价属判断而非已验证事实。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+  - gate: truth
+    status: insufficient
+    reason: 本地 agent 的权限范围、误报率与人工确认边界未在公开材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+  next_validation: 收集 RDST 仓库的 README、issue 与 discussion，确认其安装方式、告警输出形式以及是否有团队在生产环境使用的公开记录。
+  market: ''
+  job: 数据库工程师在版本发布或流量变化后，需要判断 Postgres/MySQL 的查询是否变慢，并定位是哪条查询、哪次改动造成的。
+  job_en: After a release or traffic shift, database engineers must judge whether Postgres/MySQL queries
+    have slowed and identify which query and change caused it.
+  pain: 性能回退往往在用户投诉后才被发现，人工比对慢日志和执行计划耗时且容易漏掉偶发查询。
+  pain_en: Regressions are often found only after user complaints, and manually comparing slow logs and
+    execution plans is slow and misses intermittent queries.
+  current_alternative: 依赖数据库自带慢查询日志、APM 面板或自建脚本定期巡检，再人工比对历史执行计划。
+  current_alternative_en: Relying on built-in slow query logs, APM dashboards or self-written scripts
+    for periodic checks, then manually comparing historical execution plans.
+  usage_reason: 推断：相较事后翻慢日志，常驻本地 agent 能在回退出现时直接指出受影响的查询，省去人工比对历史执行计划这一步，因此没有专职 DBA 但数据库是核心依赖的团队更可能采用。
+  usage_reason_en: 'Inference: versus digging through slow logs after the fact, a resident local agent
+    can point at the affected queries when a regression appears, removing the manual plan-comparison step,
+    so teams without a dedicated DBA but with a database-critical product are more likely to adopt it.'
+- id: req-full-rdst-2026-10-16
+  project_slug: rdst
+  level: full
+  reviewed_at: '2026-10-16T01:23:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据库查询性能回退的发现与定位需求，痛点在于回退常在用户投诉后才暴露，人工比对慢日志成本高；属工作流结构推理。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该产品的采用、留存或团队使用证据。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明托管服务、支持合同或按实例收费等付费路径，买方与定价属判断而非已验证事实。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+  - gate: truth
+    status: insufficient
+    reason: 本地 agent 的权限范围、误报率与人工确认边界未在公开材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+  next_validation: 收集 RDST 仓库的 README、issue 与 discussion，确认其安装方式、告警输出形式以及是否有团队在生产环境使用的公开记录。
+  market: ''
+  job: 数据库工程师在版本发布或流量变化后，需要判断 Postgres/MySQL 的查询是否变慢，并定位是哪条查询、哪次改动造成的。
+  job_en: After a release or traffic shift, database engineers must judge whether Postgres/MySQL queries
+    have slowed and identify which query and change caused it.
+  pain: 性能回退往往在用户投诉后才被发现，人工比对慢日志和执行计划耗时且容易漏掉偶发查询。
+  pain_en: Regressions are often found only after user complaints, and manually comparing slow logs and
+    execution plans is slow and misses intermittent queries.
+  current_alternative: 依赖数据库自带慢查询日志、APM 面板或自建脚本定期巡检，再人工比对历史执行计划。
+  current_alternative_en: Relying on built-in slow query logs, APM dashboards or self-written scripts
+    for periodic checks, then manually comparing historical execution plans.
+  usage_reason: 推断：相较事后翻慢日志，常驻本地 agent 能在回退出现时直接指出受影响的查询，省去人工比对历史执行计划这一步，因此没有专职 DBA 但数据库是核心依赖的团队更可能采用。
+  usage_reason_en: 'Inference: versus digging through slow logs after the fact, a resident local agent
+    can point at the affected queries when a regression appears, removing the manual plan-comparison step,
+    so teams without a dedicated DBA but with a database-critical product are more likely to adopt it.'

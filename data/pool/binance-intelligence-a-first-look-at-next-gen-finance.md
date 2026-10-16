@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPSVg5ajllcTg3
 summary: 'Binance Intelligence: A First Look At Next-Gen Finance Binance'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

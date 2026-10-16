@@ -1414,3 +1414,52 @@
     list composition plus compression/pruning events, turning ''which step dropped what'' from manual
     log diffing into one visual check, so users debugging long sessions or odd agent behavior would pick
     it when chasing forgotten facts.'
+- id: req-full-dsh-context-2026-10-16
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-16T01:20:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩剪枝后用户看不见丢了什么、只能等模型遗忘才发现的痛点；不解决的后果是反复重发与排查成本，当前替代是手动翻记录或纯裁剪插件。这是基于产品能力与工作流的结构推理，公开用户反馈尚缺。
+    evidence_ids:
+    - ev-ce71b7b1a98db1f4
+    - ev-3f27a22732e71b3f
+  - gate: consensus
+    status: insufficient
+    reason: 同生态的 dsh-sieve 仓库收藏从 73 增至 109，说明 DSH 插件生态有开发者关注，但这些数字属于相邻项目且只是关注度，不能证明 dsh-context 本身被持续使用。
+    evidence_ids:
+    - ev-ce71b7b1a98db1f4
+    - ev-333213b9c3e46874
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，钱可能来自开发者个人订阅或后续企业支持，但公开材料无法核验；这是模式缺口，不是需求不存在。
+    evidence_ids:
+    - ev-3f27a22732e71b3f
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺透视上下文组成与演进，但公开材料未给出可复现的交付验证、准确率或人工边界说明，无法确认展示结果与实际上下文状态一致。
+    evidence_ids:
+    - ev-ce71b7b1a98db1f4
+  next_validation: 追踪 dsh-context 在 npm 或代码仓库的官方 README、issue 与 discussion，确认是否有用户报告用它定位到具体上下文丢失事件及部署方式。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者或重度用户在长会话中处理工具输出、技能披露与多轮对话材料，需要看清当前上下文由哪些内容组成、压缩与剪枝丢掉了什么，以便判断关键信息是否还在、要不要重发或调整提示。
+  job_en: Developers or heavy users of DeepSeek Harness working in long sessions with tool outputs, skill
+    disclosures and multi-turn material need to see what the current context is composed of and what compression
+    or pruning dropped, so they can judge whether key facts survive and whether to resend or adjust prompts.
+  pain: 长会话中上下文被压缩、剪枝和工具输出挤占后，用户无法直接看到哪些内容被丢弃，只能等模型答错或遗忘关键信息才发现，排查成本高且不可预期。
+  pain_en: Once context is compressed, pruned and crowded by tool outputs in long sessions, users cannot
+    directly see what was dropped; they only discover it when the model errs or forgets a key fact, making
+    diagnosis costly and unpredictable.
+  current_alternative: 当前替代方式是凭经验猜测上下文状态、手动翻看会话记录、反复重发关键信息，或依赖 dsh-sieve 这类只做裁剪与 token 优化的插件，但后者不提供组成与演进的可视化。
+  current_alternative_en: Today users guess at context state from experience, manually scroll session
+    logs, repeatedly resend key facts, or rely on pruning/token-optimization plugins like dsh-sieve, which
+    do not visualize composition or evolution.
+  usage_reason: 推断：相较手动翻记录或纯裁剪插件，它通过 Context 面板与命令直接展示上下文组成、压缩与剪枝事件，把“猜哪里丢了”变成“看到哪一步丢了”，因此长会话调试或依赖工具输出的
+    DSH 用户会在排查遗忘问题时选择它。
+  usage_reason_en: 'Inference: versus scrolling logs or pure pruning plugins, its Context panel and command
+    surface composition plus compression/pruning events, turning ''guess what was dropped'' into ''see
+    which step dropped it'', so DSH users debugging long sessions or relying on tool outputs would pick
+    it when chasing forgetting issues.'

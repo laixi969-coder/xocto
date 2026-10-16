@@ -1,0 +1,80 @@
+- id: req-initial-revrag-ai-raises-25-mn-seed-funding-led-by-accion-ventures-c-2026-10-16
+  project_slug: revrag-ai-raises-25-mn-seed-funding-led-by-accion-ventures-c
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有融资事实，价值关无法成立。
+    evidence_ids:
+    - ev-99cd0c38c2d5bcd1
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无采用或关注度证据可判断共识。
+    evidence_ids:
+    - ev-99cd0c38c2d5bcd1
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-99cd0c38c2d5bcd1
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-99cd0c38c2d5bcd1
+  next_validation: 检索 RevRag AI 官方产品页或文档，确认其具体输入、动作与交付物。
+  market: ''
+  job: 公开材料未说明具体使用者与任务，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the specific user or task, so who handles what material in
+    what situation to complete what task cannot be confirmed.
+  pain: 材料未描述任何具体痛点，只给出融资事实。
+  pain_en: The material describes no specific pain point, only the funding fact.
+  current_alternative: 材料未提及现有替代做法。
+  current_alternative_en: The material mentions no existing alternative practice.
+  usage_reason: 缺少产品功能、输入输出与旧流程描述，无法解释相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: With no description of product function, inputs/outputs or the old process, it is impossible
+    to explain which step's burden is reduced versus the old way, or which users would choose it in what
+    situation.
+- id: req-full-revrag-ai-raises-25-mn-seed-funding-led-by-accion-ventures-c-2026-10-16
+  project_slug: revrag-ai-raises-25-mn-seed-funding-led-by-accion-ventures-c
+  level: full
+  reviewed_at: '2026-10-16T01:23:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有 RevRag AI 获 250 万美元种子轮融资这一事实，未说明用户任务、痛点、现有替代与交付结果，连解决什么需求都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-99cd0c38c2d5bcd1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 RevRag AI 官方产品页或文档，确认其具体输入材料、执行动作与交付物，以判断用户任务与痛点是否成立。
+  market: ''
+  job: 公开材料只披露 RevRag AI 获得 250 万美元种子轮融资，未说明谁在什么销售或客服工作节点打开它、AI 接收什么材料、执行什么动作、交付什么结果，因此无法写出具体使用者与任务。
+  job_en: Public material only discloses that RevRag AI raised a $2.5M seed round; it does not say who
+    opens it at which sales or support work step, what material the AI receives, what action it performs,
+    or what deliverable it produces, so no specific user or task can be stated.
+  pain: 材料未描述任何具体痛点，只给出融资事实，无法判断销售运营或客户支持环节中哪里难受、频率多高、不解决会失去什么。
+  pain_en: The material describes no specific pain point, only the funding fact, so it is impossible to
+    judge where sales-ops or support work hurts, how often, or what is lost if unsolved.
+  current_alternative: 材料未提及现有替代做法，无法确认团队目前是用人工、表格、通用大模型还是其他工具完成该任务。
+  current_alternative_en: The material mentions no existing alternative, so it cannot be confirmed whether
+    teams currently use manual work, spreadsheets, general-purpose LLMs, or other tools for this task.
+  usage_reason: 缺少产品功能、输入输出与旧流程描述，无法解释相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它；现有证据仅为融资报道，不能作为使用理由。
+  usage_reason_en: With no description of product function, inputs/outputs, or the old process, it is
+    impossible to explain which step's burden is reduced versus the old way, or which users would choose
+    it in what situation; the only evidence is a funding report, which cannot serve as a usage reason.

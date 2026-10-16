@@ -1,0 +1,86 @@
+- id: req-initial-ai-healthcare-startup-confido-health-raises-125-million-in-f-2026-10-16
+  project_slug: ai-healthcare-startup-confido-health-raises-125-million-in-f
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都未在公开材料中出现，只能推断医疗沟通场景，价值关证据不足。
+    evidence_ids:
+    - ev-5c9403bb8342d9f5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，没有客户、采用或使用规模证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-5c9403bb8342d9f5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，to B 还是 to C 只能猜测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-5c9403bb8342d9f5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工确认边界，求真检查缺少材料。
+    evidence_ids:
+    - ev-5c9403bb8342d9f5
+  next_validation: 收集 Confido Health 官方产品页或部署文档，确认其面向的具体医疗工作环节、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者与任务，只能推断为诊所或医疗机构中负责患者预约、随访与保险问询沟通的岗位，在接待与回访环节处理患者信息并完成沟通任务。
+  job_en: Public material does not name the user or task; it can only be inferred as a clinic or provider
+    role handling patient scheduling, follow-up and insurance inquiries, processing patient information
+    during intake and outreach.
+  pain: 材料未披露任何痛点描述，无法确认是排班压力、人力短缺还是保险沟通成本；痛点本身尚未被公开事实支持。
+  pain_en: No pain point is disclosed, so it is unclear whether the pressure is scheduling load, staffing
+    shortage or insurance communication cost; the pain itself is not yet supported by public facts.
+  current_alternative: 材料未说明现有替代方式，按行业常识推断为人工电话、纸质或电子排班表与人工保险核对，但这是推断而非已核验事实。
+  current_alternative_en: No current alternative is stated; by industry convention it is inferred to be
+    manual phone calls, paper or electronic schedules and manual insurance checks, but this is inference,
+    not verified fact.
+  usage_reason: 由于产品功能、输入材料与交付结果均未公开，无法说明它相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它；缺少的是产品级公开说明这一环。
+  usage_reason_en: Because the product's functions, inputs and deliverables are undisclosed, it is impossible
+    to say which step of the old process it removes or which users would choose it under what conditions;
+    the missing link is a product-level public description.
+- id: req-full-ai-healthcare-startup-confido-health-raises-125-million-in-f-2026-10-16
+  project_slug: ai-healthcare-startup-confido-health-raises-125-million-in-f
+  level: full
+  reviewed_at: '2026-10-16T01:19:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只显示医疗健康 AI 初创公司完成 1250 万美元融资，未披露使用者、输入材料、执行动作与交付结果，连解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-5a8c6689de5b96a1
+    - ev-89934d45cfeb0050
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Confido Health 官方产品页或部署文档，确认其面向的具体医疗工作环节、输入材料与交付结果。
+  market: ''
+  job: 公开材料只说明这是一家医疗健康 AI 初创公司并完成 1250 万美元融资，未披露谁在哪个工作节点打开、AI 接收什么材料、执行什么动作、交付什么结果，因此无法写出具体使用场景。
+  job_en: Public material only states this is an AI healthcare startup that raised $12.5 million; it does
+    not disclose who opens it at which work step, what material the AI receives, what action it performs,
+    or what it delivers, so no concrete job can be written.
+  pain: 材料未披露任何痛点描述，无法确认是排班压力、人力短缺还是保险沟通成本；痛点本身尚未被公开事实支持。
+  pain_en: No pain point is disclosed, so it is unclear whether the pressure is scheduling load, staffing
+    shortage or insurance communication cost; the pain itself is not yet supported by public facts.
+  current_alternative: 材料未说明现有替代方式，按行业常识推断为人工电话、纸质或电子排班表与人工保险核对，但这是推断而非已核验事实。
+  current_alternative_en: No current alternative is stated; by industry convention it is inferred to be
+    manual phone calls, paper or electronic schedules and manual insurance checks, but this is inference,
+    not verified fact.
+  usage_reason: 由于产品功能、输入材料与交付结果均未公开，无法说明它相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它；缺少的是产品级公开说明这一环。
+  usage_reason_en: Because the product's functions, inputs and deliverables are undisclosed, it is impossible
+    to say which step of the old process it removes or which users would choose it under what conditions;
+    the missing link is a product-level public description.

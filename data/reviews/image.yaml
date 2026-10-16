@@ -1,0 +1,85 @@
+- id: req-initial-image-2026-10-16
+  project_slug: image
+  level: initial
+  reviewed_at: '2026-10-16T00:25:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多上游 API 调用分散、用量与费用难合并核对的问题，痛点具体；但公开材料只说明它是 CPA 代理的前端面板，是否替代了独立旧流程仍不清楚。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库自述的开发时长、PR 与 commit 数量，属于开发活跃度，不是用户采用或持续使用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；买方可能是自建代理的开发者或团队，但这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 它贴近代理运维这一具体环节，但公开材料未说明交付是否确定发生，也未提供部署文档或实测结果。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，确认它是否独立于 CPA 代理提供可复现的用量与成本核对交付。
+  market: ''
+  job: 自建或代理大模型 API 的个人开发者与小型团队，在月底或调用异常时打开面板，处理 CPA 代理产生的请求记录，要完成用量、费用与密钥授权的核对。
+  job_en: Individual developers and small teams running their own or proxied LLM API access open the panel
+    at month-end or when calls look abnormal, working through request logs produced by a CPA proxy to
+    reconcile usage, cost and key authorization.
+  pain: 多上游、多密钥的调用分散在不同后台，费用与用量难以合并核对，出问题时定位成本高。
+  pain_en: Calls spread across multiple upstreams and keys sit in separate back offices, so usage and
+    cost are hard to reconcile together and hard to trace when something breaks.
+  current_alternative: 直接登录各家上游控制台逐个查看，或用表格手工汇总调用量与账单。
+  current_alternative_en: Logging into each upstream console separately, or manually tallying call volume
+    and bills in a spreadsheet.
+  usage_reason: 推断：相较逐个登录上游后台，它把请求记录、定价换算和密钥授权集中到一个面板，减少手工汇总这一步；但公开材料只说明它是 CPA 代理的前端面板，未提供用户反馈或持续使用证据，因此尚不能确认用户会长期留在工作流里。
+  usage_reason_en: 'Inference: compared with logging into each upstream console, it centralizes request
+    logs, pricing conversion and key authorization in one panel, removing a manual tallying step; however,
+    public material only describes it as a front-end panel for a CPA proxy and offers no user feedback
+    or repeat-use evidence, so long-term retention in the workflow cannot be confirmed.'
+- id: req-full-image-2026-10-16
+  project_slug: image
+  level: full
+  reviewed_at: '2026-10-16T01:21:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自建或代理大模型 API 的个人开发者与小型团队，在需要查看调用量、费用和密钥授权时打开这个面板；它接收 CPA 代理的请求记录，做用量统计、定价换算、OAuth
+      与上游提供商管理”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，确认它是否独立于 CPA 代理提供可复现的用量与成本核对交付。
+  market: ''
+  job: 自建或代理大模型 API 的个人开发者与小型团队，在月底对账或调用异常时打开面板，处理 CPA 代理产生的请求记录，要完成用量、费用与密钥授权的核对。
+  job_en: Individual developers and small teams running their own or proxied LLM API access open the panel
+    at month-end or when calls look abnormal, working through request logs produced by a CPA proxy to
+    reconcile usage, cost and key authorization.
+  pain: 多上游、多密钥的调用分散在不同后台，费用与用量难以合并核对，出问题时定位成本高；这是从产品定位与代理运维流程推出的结构判断，公开材料未提供用户抱怨原文。
+  pain_en: Calls spread across multiple upstreams and keys sit in separate back offices, so usage and
+    cost are hard to reconcile and hard to trace when something breaks; this is a structural inference
+    from the product positioning and proxy-ops workflow, not a quoted user complaint.
+  current_alternative: 直接登录各家上游控制台逐个查看，或用表格手工汇总调用量与账单；官方 CPAMC 面板只覆盖基础管理，缺少请求记录与统计。
+  current_alternative_en: Logging into each upstream console separately, or manually tallying call volume
+    and bills in a spreadsheet; the official CPAMC panel covers only basic management without request
+    logging and statistics.
+  usage_reason: 推断：相较逐个登录上游后台，它把请求记录、定价换算、OAuth 与提供商管理集中到一个面板，减少手工汇总这一步；仓库自述在保留官方 CPAMC 体验上新增请求记录与统计，并已有社区
+    Bug 报告与 PR 反馈，但缺少留存或复购证据，长期留在工作流中尚不能确认。
+  usage_reason_en: 'Inference: compared with logging into each upstream console, it centralizes request
+    logs, pricing conversion, OAuth and provider management in one panel, removing a manual tallying step;
+    the repo states it adds request logging and statistics on top of the official CPAMC experience and
+    has community bug reports and PRs, but retention or repeat-use evidence is absent, so long-term workflow
+    stickiness cannot be confirmed.'

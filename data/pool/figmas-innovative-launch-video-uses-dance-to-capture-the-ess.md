@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxNZHI4MXE3MW53
 summary: Figma’s Innovative Launch Video Uses Dance to Capture the Essence of Design freeyork
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -22,7 +22,7 @@ summary: Embracing All Creation (Plugin Suite) — Dedicated to the Harmonious C
   DSH Plugins / 揽尽万象（插件整合包） —— 致力于让数百个DSH插件和谐共存
 first_seen: '2026-10-14T01:14:00Z'
 last_seen: '2026-10-16T00:25:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

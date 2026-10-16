@@ -1,0 +1,90 @@
+- id: req-initial-typesafe-2-2026-10-16
+  project_slug: typesafe-2
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能推测它想解决模型输出不符合类型约束的问题，但公开材料未说明具体输入、动作与交付。
+    evidence_ids:
+    - ev-e7e84f7083052844
+    - ev-c11b20567ed37582
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：社区讨论热度属关注度证据，不能证明开发者已将其留在工作流。
+    evidence_ids:
+    - ev-e7e84f7083052844
+  - gate: model
+    status: insufficient
+    reason: 未进入：无定价页与买方信息，收费路径不明。
+    evidence_ids:
+    - ev-e7e84f7083052844
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验其承诺的类型安全交付是否确定性发生。
+    evidence_ids:
+    - ev-e7e84f7083052844
+  next_validation: 查阅 TypeSafe AI 官方文档或 Jev 1.14.0 发布说明，确认其输入输出流程与是否替代了具体的人工校验步骤。
+  market: ''
+  job: 开发者在强类型代码库中让模型生成或修改代码时，需要产出能通过类型检查与编译的结果。
+  job_en: Developers using models to generate or modify code in strongly typed codebases need output that
+    passes type checking and compilation.
+  pain: 模型输出常不符合类型约束，需要人工逐处修正。
+  pain_en: Model output often violates type constraints and must be fixed by hand.
+  current_alternative: 人工审查并改写模型生成的代码，或依赖编辑器与编译器的报错反复调整。
+  current_alternative_en: Manually reviewing and rewriting model-generated code, or iterating on editor
+    and compiler errors.
+  usage_reason: 推断：若该工具能在生成阶段就约束输出符合类型，可省去逐处修正；但公开材料未说明其具体动作，无法确认减少的是哪一步负担。
+  usage_reason_en: 'Inference: if the tool constrains output to satisfy types at generation time, it could
+    remove per-site fixes; but public material does not describe its concrete action, so which burden
+    it removes is unconfirmed.'
+- id: req-full-typesafe-2-2026-10-16
+  project_slug: typesafe-2
+  level: full
+  reviewed_at: '2026-10-16T01:24:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把模型输出接入代码时格式不可控的问题：Jev 接收状态与带类型问题、返回代码可直接使用的结构化答案，痛点在于自由文本需额外解析校验、格式漂移导致下游出错。公开材料未给用户抱怨或返工数据，此判断为工作流结构推理。
+    evidence_ids:
+    - ev-e131f7e0b1716f71
+    - ev-300e6667ebf5b486
+  - gate: consensus
+    status: insufficient
+    reason: 官网仅称 Jev 处于 early access，控制台只有 Google 登录入口，未见开发者讨论、采用案例或重复使用证据，无法判断是否已进入工作流。
+    evidence_ids:
+    - ev-300e6667ebf5b486
+    - ev-195703540a064b04
+  - gate: model
+    status: insufficient
+    reason: 公开材料无定价页、无买方与采购信息；按产品形态推断可能向接入模型的开发者或团队按用量收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b60923995dba35a7
+    - ev-195703540a064b04
+  - gate: truth
+    status: insufficient
+    reason: 文档称返回结构化答案，但未说明类型系统覆盖范围、失败回退与人工边界，承诺能否确定性交付无法核验。
+    evidence_ids:
+    - ev-e131f7e0b1716f71
+  next_validation: 追踪 TypeSafe 官方文档与 Jev 发布说明，确认其输入输出流程、类型约束范围与是否提供可复现的示例或客户案例。
+  market: ''
+  job: 开发者在把模型接入自动化或软件决策流程时，向 Jev 发送状态与带类型的问题，需要拿到代码可直接使用的结构化答案，而不是再手工解析自由文本。
+  job_en: Developers wiring a model into automation or in-software decision flows send state and typed
+    questions to Jev and need structured answers their code can consume directly, instead of hand-parsing
+    free text.
+  pain: 公开材料只说明 Jev 返回结构化答案，未给出用户抱怨、返工记录或失败案例；痛点来自结构推理：自由文本输出需要额外解析与校验，格式漂移会让下游代码出错。
+  pain_en: 'Public material only states that Jev returns structured answers; it gives no user complaints,
+    rework logs, or failure cases. The pain is structural inference: free-text output needs extra parsing
+    and validation, and format drift breaks downstream code.'
+  current_alternative: 开发者自行写解析与校验代码，或在提示词里约束格式后仍靠人工检查；公开材料未展示任何现有替代流程的细节。
+  current_alternative_en: Developers write their own parsing and validation code, or constrain format
+    via prompts and still check by hand; public material shows no detail of any existing alternative workflow.
+  usage_reason: 推断：相较自行解析自由文本，Jev 以“发送状态与带类型问题、返回结构化答案”的方式把格式约束前移到模型侧，可能省去下游解析与逐处修正；但公开材料未说明具体动作与可核对结果，哪类用户会因此选择它仍属推断。
+  usage_reason_en: 'Inference: versus hand-parsing free text, Jev moves format constraints to the model
+    side by taking state and typed questions and returning structured answers, potentially removing downstream
+    parsing and per-site fixes; but public material does not describe the concrete action or a checkable
+    result, so which users would choose it remains inference.'

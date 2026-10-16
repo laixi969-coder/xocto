@@ -1,0 +1,83 @@
+- id: req-initial-speech-to-decisions-with-granite-2026-10-16
+  project_slug: speech-to-decisions-with-granite
+  level: initial
+  reviewed_at: '2026-10-16T00:25:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决实时通话中当场判断意图与风险的需求，痛点是回听录音来不及，旧做法是人工听记或事后转写复盘。
+    evidence_ids:
+    - ev-5deb97b79b5e5de7
+  - gate: consensus
+    status: insufficient
+    reason: 公开信号仅约 4 个点赞，属演示级关注，没有坐席或团队持续使用的证据。
+    evidence_ids:
+    - ev-5deb97b79b5e5de7
+  - gate: model
+    status: insufficient
+    reason: 作为模型演示空间没有定价与买方信息，钱可能来自 IBM 云服务或企业授权，属判断而非已验证事实。
+    evidence_ids:
+    - ev-5deb97b79b5e5de7
+  - gate: truth
+    status: insufficient
+    reason: 实时判断贴近第一性目标，但判断准确率、误判责任与人工复核边界在公开材料中未说明。
+    evidence_ids:
+    - ev-5deb97b79b5e5de7
+  next_validation: 收集该演示空间的模型卡与说明文档，确认判断维度、延迟表现以及是否提供可接入通话系统的接口。
+  market: ''
+  job: 客服或销售人员在通话进行中，需要一边听客户说话一边判断对方意图与风险，并当场决定下一步怎么回应。
+  job_en: Support or sales staff on a live call must judge the caller's intent and risk while listening
+    and decide the next response on the spot.
+  pain: 实时通话里没有时间回听录音，事后整理只能补救，判断依赖个人经验，新人容易漏掉关键信号。
+  pain_en: There is no time to replay a recording mid-call, post-hoc review only remediates, judgment
+    depends on individual experience, and newcomers miss key signals.
+  current_alternative: 靠坐席自己听和记，或通话结束后用转写工具整理录音再复盘。
+  current_alternative_en: Agents listen and take notes themselves, or use transcription tools after the
+    call to review recordings.
+  usage_reason: 推断：相较先转写再离线分析，这个演示让模型直接对语音流给出判断，省掉转写与等待这一步，因此需要当场决策的通话场景团队会关注它。
+  usage_reason_en: 'Inference: compared with transcribe-then-analyze offline, this demo has the model
+    judge the speech stream directly, removing the transcription and waiting step, so teams needing on-the-spot
+    decisions in calls would pay attention.'
+- id: req-full-speech-to-decisions-with-granite-2026-10-16
+  project_slug: speech-to-decisions-with-granite
+  level: full
+  reviewed_at: '2026-10-16T01:24:18Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据仅为词典对 speech 的定义，未出现任何关于实时语音判断需求、痛点或现有替代做法的公开事实，连用户要解决什么、哪里难受都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-7a19d2a03b0be09b
+    - ev-d9e294b88448770e
+    - ev-2bec63d33d52f09a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 IBM Granite 官方模型卡与演示空间说明文档，确认该演示的判断维度、输出形式及是否提供可接入通话系统的接口。
+  market: ''
+  job: 会议或客服场景中的业务人员，在通话进行时处理实时语音流，需要当场得到判断结论而不是事后整理录音。
+  job_en: Business staff in meetings or customer-support calls handle a live speech stream and need an
+    on-the-spot judgment rather than post-hoc recording review.
+  pain: 公开证据中没有出现任何关于实时通话判断痛点、漏判后果或现有绕行做法的材料，无法确认用户在哪里难受。
+  pain_en: The public evidence contains no material on live-call judgment pain, missed-signal consequences,
+    or existing workarounds, so where users hurt cannot be confirmed.
+  current_alternative: 公开材料未描述当前替代方式，无法确认是人工听记、事后转写还是其他做法。
+  current_alternative_en: The public material does not describe any current alternative, so it is unknown
+    whether users rely on manual note-taking, post-call transcription, or something else.
+  usage_reason: 无法判断：证据只包含词典对 speech 的定义，没有任何产品能力、交付动作或用户选择动机的公开事实，因此不能说明用户为何会选它。
+  usage_reason_en: 'Cannot be judged: the evidence only contains dictionary definitions of speech, with
+    no public facts about product capability, delivery action, or user motivation, so why a user would
+    choose it cannot be explained.'

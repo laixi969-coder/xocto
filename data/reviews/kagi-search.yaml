@@ -1,0 +1,39 @@
+- id: req-initial-kagi-search-2026-10-16
+  project_slug: kagi-search
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决广告结果干扰检索、行为被追踪的问题，旧行为是人工跳过广告位或交叉比对多个免费工具，痛点对高频检索者刚性。
+    evidence_ids: []
+  - gate: consensus
+    status: supported
+    reason: 付费订阅加公开访问规模说明已有用户为无广告检索付费，但公开材料未提供留存或复购数据。
+    evidence_ids: []
+  - gate: model
+    status: supported
+    reason: to C 订阅是明确的付费路径，用户直接为检索结果付费；具体价格档位未在材料中给出，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 排序机制、索引来源与结果可追溯性未在材料中说明，承诺能否确定性交付无法核对。
+    evidence_ids: []
+  next_validation: 收集 Kagi Search 官方定价页与订阅档位说明，核对付费路径与交付边界。
+  market: ''
+  job: 研究人员与知识工作者在需要查证资料、又不想被广告结果干扰时，输入查询词，需要拿到一份干净且可追溯的检索结果页来完成后续写作或决策。
+  job_en: Researchers and knowledge workers, when verifying material without ad-laden results getting
+    in the way, enter a query and need a clean, traceable results page to finish later writing or decisions.
+  pain: 广告驱动的搜索结果把商业内容排在前面，用户要花时间甄别，且检索行为被追踪。
+  pain_en: Ad-driven results rank commercial content first, forcing users to spend time filtering, and
+    search behavior is tracked.
+  current_alternative: 继续用免费广告搜索并自行跳过广告位，或叠加多个免费检索工具交叉比对。
+  current_alternative_en: Staying with free ad-supported search and skipping ad slots manually, or cross-checking
+    several free lookup tools.
+  usage_reason: 事实：产品以付费订阅提供无广告搜索结果，访问量显示已有规模；相较免费广告搜索需要人工跳过广告位，它直接交付无广告结果页，因此对结果质量敏感、愿为无广告付费的用户会订阅；但缺少留存与复购公开证据，不能断言已长期留在工作流。
+  usage_reason_en: 'Fact: the product offers ad-free search results via paid subscription and visit volume
+    shows scale; unlike free ad-supported search where users skip ad slots manually, it delivers an ad-free
+    results page directly, so quality-sensitive users willing to pay for no ads would subscribe; retention
+    and repeat-purchase evidence is missing, so long-term workflow presence cannot be claimed.'

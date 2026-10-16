@@ -1,0 +1,39 @@
+- id: req-initial-aipptcom-像素绽放-2026-10-16
+  project_slug: aipptcom-像素绽放
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决海外职场人做汇报时排版与结构耗时的问题，旧行为是手动套模板或外包设计，交付为可编辑文稿。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有访问量与环比增长，属规模与关注度证据；缺少用户评价或客户案例支撑持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与付费方式，个人订阅还是企业采购无法确认，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 生成内容的数据准确性与人工复核边界未说明，缺少可核对的交付结果证据。
+    evidence_ids: []
+  next_validation: 收集 AiPPT.com 官方定价页与客户案例，确认出海版本的收费方式与人工复核要求。
+  market: ''
+  job: 海外市场、销售与咨询人员在准备客户提案或数据分析汇报时，手上是零散数据与要点，需要在有限时间内产出结构完整、可继续修改的演示文稿。
+  job_en: Overseas marketing, sales and consulting staff preparing client pitches or data-analysis reviews,
+    holding scattered data and points, need a structurally complete and further editable deck within limited
+    time.
+  pain: 从空白页搭结构、配图表、逐页排版重复且耗时，临近交付时最容易被版式拖住。
+  pain_en: Building structure from a blank page, charting and laying out each slide is repetitive and
+    slow; near delivery, layout is what drags.
+  current_alternative: 手动使用 PowerPoint、Google Slides 模板，或购买模板包、外包给设计。
+  current_alternative_en: Manually using PowerPoint or Google Slides templates, buying template packs,
+    or outsourcing to a designer.
+  usage_reason: 推断：相较手动套模板，它由主题或数据直接生成大纲与图表页，省掉结构设计与排版两步，让非设计背景的汇报者在截止前拿到可编辑初稿。
+  usage_reason_en: 'Inference: versus manually applying templates, it generates the outline and chart
+    pages directly from a topic or data, removing structure design and layout, so non-design presenters
+    get an editable draft before the deadline.'

@@ -1,0 +1,89 @@
+- id: req-initial-squadra-2026-10-16
+  project_slug: squadra
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行编码时任务与证据散落、难以还原的问题，痛点来自真实协作工序；但公开材料未展示实际使用反馈，属工作流推理。
+    evidence_ids:
+    - ev-3a4dbb6e03615c92
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标数，缺少社区讨论、issue 或用户评价，无法判断开发者是否已把它纳入日常流程。
+    evidence_ids:
+    - ev-3a4dbb6e03615c92
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业路径，钱可能来自企业定制或托管服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3a4dbb6e03615c92
+  - gate: truth
+    status: insufficient
+    reason: 缺少可复现实测与安全审计细节，承诺的独立复核与证据绑定能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-3a4dbb6e03615c92
+  next_validation: 收集该仓库的 issue、discussion 或 README 中的使用说明与实测记录，确认多代理协调与证据留存是否可复现。
+  market: ''
+  job: 研发小组在同时使用多个编码代理处理同一代码库时，需要把任务分派、测试结果和复核结论汇总成一份可追溯记录，以便交付或复盘。
+  job_en: When a small engineering team runs several coding agents on the same codebase, it needs task
+    assignment, test results and review conclusions consolidated into one traceable record for delivery
+    or retrospective.
+  pain: 多个代理窗口各自为战，任务状态、测试证据和复核意见散落在不同会话里，出问题时难以还原是谁在哪一步做了什么。
+  pain_en: Multiple agent windows work in isolation, so task state, test evidence and review comments
+    scatter across sessions, making it hard to reconstruct who did what at which step when something breaks.
+  current_alternative: 目前多靠人工在聊天工具或文档里手动记录任务与结论，或干脆不记录，依赖开发者记忆。
+  current_alternative_en: Today teams mostly log tasks and conclusions by hand in chat tools or documents,
+    or skip logging and rely on developer memory.
+  usage_reason: 推断：相较手工在文档里拼记录，它把任务、确认、预检和测试证据绑定在同一条目下，减少事后翻找会话还原过程的那一步，因此同时跑多个编码代理、又需要对交付负责的小团队会考虑使用。
+  usage_reason_en: 'Inference: compared with manually assembling notes in documents, it binds tasks, acknowledgements,
+    prechecks and test evidence to one entry, removing the step of digging through sessions afterwards,
+    so small teams running several coding agents and accountable for delivery would consider it.'
+- id: req-full-squadra-2026-10-16
+  project_slug: squadra
+  level: full
+  reviewed_at: '2026-10-16T01:24:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行编码时任务与证据散落、难以还原的需求，痛点来自真实协作工序，不解决的后果是交付无法核对；公开材料未展示使用反馈，属工作流结构推理。
+    evidence_ids:
+    - ev-3a4dbb6e03615c92
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标数，缺少 issue、discussion 或用户评价，无法判断开发者是否已把它纳入日常流程；星标只属关注度，不构成持续采用证据。
+    evidence_ids:
+    - ev-3a4dbb6e03615c92
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或商业路径，钱可能来自企业定制、托管服务或支持合同，这是判断而非已验证事实，买方与付费方式仍不清。
+    evidence_ids:
+    - ev-3a4dbb6e03615c92
+  - gate: truth
+    status: insufficient
+    reason: 缺少可复现实测与安全审计细节，承诺的独立复核、来源绑定证据与并行测试能否确定性交付尚未核验，人工确认边界也未说明。
+    evidence_ids:
+    - ev-3a4dbb6e03615c92
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认多代理协调、来源绑定证据与独立复核是否可复现，以及是否出现企业定制或托管服务的公开线索。
+  market: ''
+  job: 小团队开发者同时开着 Claude、Codex、Cursor 等多个编码代理窗口处理同一代码库时，需要把任务分派、确认、预检、并行测试结果和独立复核结论汇总成一份可追溯的本地记录，用于交付与复盘。
+  job_en: When developers on a small team run several coding-agent windows (Claude, Codex, Cursor) against
+    the same codebase, they need task assignment, acknowledgements, prechecks, parallel test results and
+    independent review conclusions consolidated into one traceable local record for delivery and retrospective.
+  pain: 多个代理窗口各自为战，任务状态、测试证据与复核意见散落在不同会话中，出问题时难以还原谁在哪一步做了什么，交付时缺少可核对的证据链。
+  pain_en: Multiple agent windows work in isolation, so task state, test evidence and review comments
+    scatter across sessions; when something breaks it is hard to reconstruct who did what at which step,
+    and delivery lacks a checkable evidence chain.
+  current_alternative: 目前多靠人工在聊天工具或文档里手动记录任务与结论，或干脆不记录、依赖开发者记忆；也有人只用单个代理窗口串行处理以回避协调问题。
+  current_alternative_en: Today teams mostly log tasks and conclusions by hand in chat tools or documents,
+    or skip logging and rely on developer memory; some avoid the problem by running a single agent window
+    serially.
+  usage_reason: 推断：相较手工在文档里拼记录，它把任务、确认、预检、并行测试与来源绑定证据挂在同一条目下，省去事后翻找多个会话还原过程的那一步，因此同时跑多个编码代理、又需对交付负责的小团队会在这种情况下选择它。
+  usage_reason_en: 'Inference: compared with manually assembling notes in documents, it binds tasks, acknowledgements,
+    prechecks, parallel tests and source-bound proofs to one entry, removing the step of digging through
+    multiple sessions afterwards, so small teams running several coding agents and accountable for delivery
+    would choose it in that situation.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE42Tjh5d2tUZ3BD
 summary: 美债收益率飙升，美国经济与股市还能撑多久？AI或成最脆弱一环 华尔街见闻
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

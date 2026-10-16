@@ -1,0 +1,87 @@
+- id: req-initial-财跃星辰ai小财神正式入驻阶跃智能体手机stepx-neo-2026-10-16
+  project_slug: 财跃星辰ai小财神正式入驻阶跃智能体手机stepx-neo
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决财经信息分散、筛选耗时的问题，痛点刚性中等，旧替代是人工浏览多个来源。
+    evidence_ids:
+    - ev-59fc845e44a781a7
+    - ev-6323a8612694c700
+  - gate: consensus
+    status: insufficient
+    reason: 只有入驻硬件的发布信息，没有用户采用或持续使用证据。
+    evidence_ids:
+    - ev-59fc845e44a781a7
+    - ev-6323a8612694c700
+  - gate: model
+    status: insufficient
+    reason: 买方可能是券商或财富管理机构，但材料未披露定价与采购方式，属判断非事实。
+    evidence_ids:
+    - ev-59fc845e44a781a7
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明财经信息的来源、时效与人工复核边界，交付确定性无法核验。
+    evidence_ids:
+    - ev-6323a8612694c700
+  next_validation: 收集AI小财神官方产品页或STEPX Neo应用说明，核验其数据来源、输出形态与是否收费。
+  market: ''
+  job: 个人投资者或理财顾问在需要快速理解行情与财经资讯时，把财经问题或材料交给AI小财神，得到整理后的信息或问答结果。
+  job_en: Individual investors or advisors, when needing to quickly understand markets and financial news,
+    hand financial questions or materials to AI Xiaocaishen and get organized information or answers.
+  pain: 财经信息分散、更新快，人工筛选与阅读耗时，且需要区分事实与观点。
+  pain_en: Financial information is scattered and fast-moving; manual filtering and reading is time-consuming
+    and requires separating fact from opinion.
+  current_alternative: 旧做法是自行浏览财经网站、券商App或资讯推送，人工整理要点。
+  current_alternative_en: The prior practice is browsing finance sites, brokerage apps or news feeds and
+    manually summarizing key points.
+  usage_reason: 推断：相较自行翻找多个财经来源，它把提问到信息整理压缩为一次对话，减少跨来源检索这一步；对需要快速了解行情的个人投资者和需要准备客户材料的顾问更有吸引力。
+  usage_reason_en: 'Inference: versus searching multiple finance sources manually, it compresses question-to-summary
+    into one conversation, removing the cross-source retrieval step; more attractive to investors needing
+    quick market reads and advisors preparing client materials.'
+- id: req-full-财跃星辰ai小财神正式入驻阶跃智能体手机stepx-neo-2026-10-16
+  project_slug: 财跃星辰ai小财神正式入驻阶跃智能体手机stepx-neo
+  level: full
+  reviewed_at: '2026-10-16T01:25:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据只有一条入驻STEPX Neo的发布消息，未说明用户任务、痛点、旧替代与不解决的后果；财经信息分散属行业常识推断，非本项目证据，价值结构无法成立。
+    evidence_ids:
+    - ev-59fc845e44a781a7
+    - ev-6323a8612694c700
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪财跃星辰或STEPX Neo官方产品页与应用说明，核验AI小财神的数据来源、输出形态、是否收费及是否有公开用户案例。
+  market: ''
+  job: 个人投资者或理财顾问在需要看行情、读财经资讯或整理理财材料时，打开入驻在STEPX Neo上的AI小财神，把财经问题或材料交给它，得到信息整理或问答结果。
+  job_en: Individual investors or advisors, when checking markets, reading financial news or organizing
+    wealth-management materials, open AI Xiaocaishen embedded in STEPX Neo and hand financial questions
+    or materials to it for organized information or answers.
+  pain: 公开材料只说明产品入驻了STEPX Neo，没有用户抱怨、使用反馈或旧流程描述；财经信息分散、筛选耗时属于行业常识推断，不是本项目证据支持的痛点。
+  pain_en: Public material only states the product is embedded in STEPX Neo; there is no user complaint,
+    usage feedback or described old workflow. Scattered, time-consuming financial information filtering
+    is an industry-common inference, not project-evidenced pain.
+  current_alternative: 公开材料未披露用户此前用什么方式完成同类任务；券商App、财经网站或通用大模型问答只是外部常识，不能归因到本项目。
+  current_alternative_en: Public material does not disclose what users previously used for the same task;
+    brokerage apps, finance sites or general LLM chat are external common knowledge and cannot be attributed
+    to this project.
+  usage_reason: 推断：若它能把提问到信息整理压缩为一次对话，可能减少跨来源检索这一步，但公开材料未给出任何用户选择它的动机、使用场景或可核对结果，因此无法确认用户会因何采用。
+  usage_reason_en: 'Inference: if it compresses question-to-summary into one conversation it may remove
+    a cross-source retrieval step, but public material gives no user motivation, scenario or checkable
+    outcome, so why users would adopt it cannot be confirmed.'

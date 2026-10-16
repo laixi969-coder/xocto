@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxQVXkxbUhIZWxD
 summary: Citroën Unveils Electric 2 CV Concept, Eyes Launch By 2028 BW Auto World
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

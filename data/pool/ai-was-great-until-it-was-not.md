@@ -21,7 +21,7 @@ canonical_url: https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-
 summary: AI was great until it was not
 first_seen: '2026-10-16T00:25:14Z'
 last_seen: '2026-10-16T00:25:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

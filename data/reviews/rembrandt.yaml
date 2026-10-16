@@ -252,3 +252,44 @@
   usage_reason_en: It is impossible to infer why users would choose this product from existing evidence;
     all cited evidence is unrelated to photo post-processing, and product capability and delivery quality
     lack public support.
+- id: req-full-rembrandt-2026-10-16
+  project_slug: rembrandt
+  level: full
+  reviewed_at: '2026-10-16T01:23:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决摄影师交付前的 RAW 处理与蒙版调整，但公开证据全部指向十七世纪画家伦勃朗，未提供任何用户痛点、旧替代或采用行为，无法还原需求结构。
+    evidence_ids:
+    - ev-edf82091d0006f83
+    - ev-7213bfff8d7e1beb
+    - ev-a0680290cf7f8eda
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Rembrandt 项目官方仓库或官网的 README、release 说明与 issue/discussion，确认其实际 AI 编辑能力、支持的 RAW 格式与输出交付方式。
+  market: ''
+  job: 独立摄影师或小型工作室在交付客户成片前，处理 RAW 素材并做蒙版局部调整，最终输出可交付的图片文件。
+  job_en: Independent photographers or small studios process RAW files and make masked local adjustments
+    before delivering client images, producing final image files.
+  pain: 公开材料未提供任何用户痛点、抱怨或旧流程摩擦的证据；现有证据全部指向十七世纪画家伦勃朗，与照片后期工作无关。
+  pain_en: Public materials provide no user pain, complaint, or workflow friction evidence; all collected
+    evidence refers to the 17th-century painter Rembrandt, unrelated to photo post-processing.
+  current_alternative: 公开材料未说明用户目前用什么工具完成 RAW 处理与蒙版局部调整，也未说明它替代了什么。
+  current_alternative_en: Public materials do not show what tools users currently use for RAW processing
+    and masked local adjustments, nor what this replaces.
+  usage_reason: 无法从现有证据说明用户为何选择它；所有引用证据均与摄影后期任务无关，缺少产品能力、用户反馈或采用行为的任何公开支持。
+  usage_reason_en: No evidence explains why users would choose it; all cited evidence is unrelated to
+    photo post-processing, lacking any public support for product capability, user feedback, or adoption
+    behavior.

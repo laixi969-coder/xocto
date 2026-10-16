@@ -23,7 +23,7 @@ summary: 'Physical AI in Manufacturing: How computer vision, robotics and edge a
   the real w The Economic Times'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

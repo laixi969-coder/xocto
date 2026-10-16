@@ -377,3 +377,52 @@
     item, it writes type safety, lint, and tests into the generated result at once, removing the item-by-item
     setup and verification steps before kickoff, so full-stack developers who frequently open new repositories
     and rely on AI coding agents would choose it at project start.'
+- id: req-full-vibestart-2026-10-16
+  project_slug: vibestart
+  level: full
+  reviewed_at: '2026-10-16T01:24:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新项目开工前反复拼装类型、lint 与测试配置的需求，痛点在于配置不统一会让 AI 智能体产出难验证、返工成本高；旧做法是复制旧模板手工补配置。公开材料仅产品说明与星标，交付闭环属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-06724cb1e1e10313
+    - ev-73ec9100b1653c6b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 86 增至 163，说明有持续关注，但无用户评价、案例或重复使用证据，无法确认开发者已把它留在日常工作流，采用共识尚未形成。
+    evidence_ids:
+    - ev-06724cb1e1e10313
+    - ev-73ec9100b1653c6b
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价页或付费路径，是否靠托管、企业模板或赞助收费属推断而非已验证事实；谁付钱尚不清楚，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-06724cb1e1e10313
+  - gate: truth
+    status: insufficient
+    reason: 产品称生成“经过验证”的项目，但公开材料未说明验证方式、覆盖范围与人工确认边界，交付确定性无法核对，也未涉及安全与人工边界说明。
+    evidence_ids:
+    - ev-06724cb1e1e10313
+  next_validation: 追踪 vibestart 仓库的 issue 与 discussion，确认开发者是否在真实项目中重复使用该脚手架并提出配置或验证相关需求。
+  market: ''
+  job: 全栈开发者在启动新 TypeScript 项目时，需要选定前后端技术栈组合，并拿到一个已配好类型检查、lint 与测试、便于 AI 编码智能体接手继续写代码的仓库骨架。
+  job_en: Full-stack developers starting a new TypeScript project need to pick a front-end/back-end stack
+    combination and obtain a repository skeleton already configured with type checking, lint, and tests
+    so AI coding agents can continue writing code inside it.
+  pain: 公开材料支持的痛点是：新项目开工前要手工拼装类型、lint 与测试配置，配置不统一会让 AI 智能体生成的代码难以验证，返工成本高；这是从产品说明与工作流结构推出的，尚无用户抱怨或案例直接佐证。
+  pain_en: 'The pain supported by public material: before a new project starts, type, lint, and test configuration
+    must be assembled by hand, and inconsistent setups make agent-generated code hard to verify, raising
+    rework cost; this is inferred from the product description and workflow structure, not from user complaints
+    or cases.'
+  current_alternative: 手工初始化仓库、复制旧项目模板，或使用通用脚手架（如 create-* 类工具）再自行补类型、lint 与测试配置。
+  current_alternative_en: Manually initializing a repository, copying an old project template, or using
+    generic scaffolding (create-* style tools) and then adding type, lint, and test configuration by hand.
+  usage_reason: 推断：相较复制旧模板再逐项补配置，它把类型安全、lint 与测试一次性写进生成结果，省掉新项目开工前的配置与校验步骤，因此频繁开新仓库、且依赖 AI 编码智能体的全栈开发者会在启动阶段选择它；公开材料未提供用户反馈或重复使用证据，此因果为结构推理。
+  usage_reason_en: 'Inference: compared with copying an old template and patching configuration item by
+    item, it writes type safety, lint, and tests into the generated result at once, removing the setup
+    and verification steps before a new project starts, so full-stack developers who frequently open new
+    repositories and rely on AI coding agents would choose it at kickoff; public material offers no user
+    feedback or repeat-use evidence, so this causal link is structural reasoning.'

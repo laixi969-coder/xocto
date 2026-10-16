@@ -570,3 +570,60 @@
     step-by-step clicking and cross-app shuttling; hands-on Mac users who care about keeping local data
     and permissions on-device would choose it when automating multi-step computer tasks. Public material
     offers no user feedback or retention evidence, so this is structural inference.'
+- id: req-full-open-dot-2026-10-16
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-16T01:23:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是让 Mac 用户把跨应用操作交给本地自主代理执行，痛点是此前需手动逐应用切换、且云端代理要求交出凭据；不采用则继续耗人力或承担数据外泄风险。公开材料仅给出定位与依赖，交付边界未说明，故为工作流结构推理。
+    evidence_ids:
+    - ev-9e0fc8c5f00d5693
+    - ev-1a7190bce6e6c125
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 616 缓慢升至 650，说明有持续关注，但星标只属关注度，不能证明采用或持续使用；公开材料没有 issue、discussion、用户评价或客户案例，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-9e0fc8c5f00d5693
+    - ev-d36a65690009dcb4
+    - ev-1a7190bce6e6c125
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费方式或买方身份，只能推断钱可能来自愿意自托管的 Mac 技术用户（to C）或后续企业授权（to B）；这是判断而非已验证事实，也未出现仅靠融资续命的叙事。
+    evidence_ids:
+    - ev-9e0fc8c5f00d5693
+    - ev-99b9a85cad43fd8b
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近“让电脑替人办事”的第一性目标，但公开材料未说明代理自主执行时的人工确认边界、失败回滚与安全限制，交付是否确定发生无法核验，需看部署文档与 issue 才能判断。
+    evidence_ids:
+    - ev-9e0fc8c5f00d5693
+    - ev-ca3d520c694bc47a
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认代理实际执行的任务类型、输入材料、人工确认环节与交付结果，以核验交付确定性。
+  market: ''
+  job: 愿意自己动手的 Mac 用户（多为开发者或技术爱好者）在需要让电脑替自己完成跨应用操作时，打开这个本地应用，把任务交给一个在自有机器上自主运行的代理，由它调用 OpenAI 模型与 Composio
+    连接的外部服务执行，最后拿到完成结果或待确认操作。
+  job_en: A hands-on Mac user (typically a developer or technical tinkerer) who wants the computer to
+    carry out cross-app operations opens this local app, hands a task to an agent running autonomously
+    on their own machine, which calls OpenAI models and Composio-connected external services, and receives
+    the finished result or a pending confirmation.
+  pain: 公开材料只给出定位与依赖（Mac 应用、OpenAI + Composio），未描述任何用户抱怨或旧流程；可确认的痛点是结构性的：跨应用操作此前要用户自己在多个服务间手动切换、逐步点击，且把账号权限交给云端代理会带来数据与凭据外泄顾虑。
+  pain_en: 'Public material gives only the positioning and dependencies (Mac app, OpenAI + Composio) and
+    no user complaint or legacy workflow; the identifiable pain is structural: cross-app operations previously
+    required the user to switch between services and click step by step, and handing account credentials
+    to a cloud agent raises data- and credential-exposure concerns.'
+  current_alternative: 当前替代方式推断为：用户自己在各应用间手动操作，或使用云端托管的通用代理/自动化脚本（如 Zapier 类连接器、浏览器自动化），前者费时，后者需把凭据与数据交给第三方。
+  current_alternative_en: 'The current alternative is inferred to be: the user manually operating across
+    apps, or using cloud-hosted general agents/automation scripts (e.g. Zapier-style connectors, browser
+    automation) — the former is time-consuming, the latter requires handing credentials and data to a
+    third party.'
+  usage_reason: 推断：相较手动逐应用操作或云端代理，它把执行放在用户自己的 Mac 上，代理自主运行并直接调用 OpenAI 与 Composio 连接的外部服务，减少用户逐步点击与切换应用的负担，并让凭据留在本地；因此在意数据留在本机、又愿意自行配置的
+    Mac 技术用户会在需要跨应用代办时选择它。
+  usage_reason_en: 'Inference: versus manual per-app operation or a cloud agent, it runs execution on
+    the user''s own Mac, with the agent operating autonomously and calling OpenAI plus Composio-connected
+    external services directly, cutting the step-by-step clicking and app switching while keeping credentials
+    local; hence Mac technical users who care about data staying on-device and are willing to self-configure
+    would choose it for cross-app errands.'

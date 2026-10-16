@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxNNDJObUY5bHVs
 summary: 'Abacus AI Honest Review: Key Criticisms, Facts & What Users Should Know KDnuggets'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

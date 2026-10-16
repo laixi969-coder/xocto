@@ -1,0 +1,39 @@
+- id: req-initial-aipptcn-像素绽放-2026-10-16
+  project_slug: aipptcn-像素绽放
+  level: initial
+  reviewed_at: '2026-08-22T22:38:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决临近汇报时排版耗时、结构难搭的问题，旧行为是手动套模板，痛点刚性且交付为可编辑文稿。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有访问量规模与环比下降，属关注度证据；缺少用户评价或客户案例说明为何持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价与付费方式，买方是个人订阅还是企业采购无法确认，属判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 生成内容的数据准确性与人工复核边界未在材料中说明，缺少可核对的交付结果证据。
+    evidence_ids: []
+  next_validation: 收集 AiPPT.cn 官方定价页与客户案例，确认按份、按席位还是企业采购收费及人工复核要求。
+  market: ''
+  job: 市场、销售与运营人员在准备客户提案、周报或项目汇报时，手上只有零散要点和数据，需要在短时间内产出一份结构完整、可继续修改的演示文稿。
+  job_en: Marketing, sales and operations staff preparing client pitches, weekly reports or project reviews,
+    holding only scattered points and data, need a structurally complete and further editable deck within
+    a short time.
+  pain: 从空白页搭大纲、找模板、逐页排版耗时且重复，临近汇报时最容易卡在排版而不是内容上。
+  pain_en: Building an outline from a blank page, hunting templates and laying out each slide is slow
+    and repetitive; near a deadline the bottleneck is layout, not content.
+  current_alternative: 手动使用 PowerPoint 或 WPS 模板，或购买设计模板包、请设计同事帮忙排版。
+  current_alternative_en: Manually using PowerPoint or WPS templates, buying template packs, or asking
+    a designer colleague to lay out slides.
+  usage_reason: 推断：相较从模板库逐页套用，它直接由主题或数据生成大纲与页面结构，省掉“先想结构再排版”这一步，让时间紧、设计能力有限的汇报者能在截止前拿到可编辑初稿。
+  usage_reason_en: 'Inference: versus applying templates page by page, it generates the outline and page
+    structure directly from a topic or data, removing the ''design the structure then lay it out'' step
+    so time-pressed presenters with limited design skill get an editable draft before the deadline.'

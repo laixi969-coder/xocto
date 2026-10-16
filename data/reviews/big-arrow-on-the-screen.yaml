@@ -227,3 +227,54 @@
     on command, marks are click-through and self-dismissing, removing the manual cleanup and tool-switching
     step, so developers who frequently screen-share or record walkthroughs would pick it when they need
     instant pointing; public material has no user feedback confirming this motive.'
+- id: req-full-big-arrow-on-the-screen-2026-10-16
+  project_slug: big-arrow-on-the-screen
+  level: full
+  reviewed_at: '2026-10-16T01:19:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决讲解时指向屏幕位置的需求：口头描述坐标易让对方找不到，鼠标圈画打断操作且需手动擦除，截图标注要离开当前屏幕多一步编辑。产品用一条 CLI 让已在场的 AI 代理直接落笔、点击穿透并自动消失，省去擦除与切换工具。这是基于公开功能说明的工作流结构推理，尚无用户评价佐证痛点强度。
+    evidence_ids:
+    - ev-f059982174f73010
+    - ev-7ca5901266500a70
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 627 增至 752 只反映关注度，不能证明持续采用；公开材料未见用户评价、issue 或 discussion 说明真实讲解场景中的使用与留存，因此共识卡在缺少采用证据这一环。
+    evidence_ids:
+    - ev-f059982174f73010
+    - ev-bd087fa3d239aef4
+  - gate: model
+    status: insufficient
+    reason: MIT 开源、未披露定价页与买方，付费路径不明确；可能来自 to C 开发者捐赠或 to B 团队集成，但均属判断而非已验证事实，故模式关证据不足。
+    evidence_ids:
+    - ev-f059982174f73010
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明标注可点击穿透并自动消失，未提供在真实讲解中稳定出现、不遮挡操作或误标位置的实测与人工确认边界，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-f059982174f73010
+    - ev-8611ab9a1e3d9415
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认实际讲解场景中标注的稳定性、误标处理与重复使用情况。
+  market: ''
+  job: 开发者在向他人演示或讲解 Mac 上的界面、代码或操作流程时，让 AI 代理（Claude Code、Codex）通过一条 CLI 命令在屏幕上画出箭头、方框和文字，指向正在说明的位置，标注可点击穿透并自动消失。
+  job_en: While demoing or walking through a Mac UI, code, or workflow, a developer has an AI agent (Claude
+    Code, Codex) draw arrows, boxes, and text on screen via one CLI command to point at what is being
+    explained; the overlay is click-through and disappears on its own.
+  pain: 讲解时口头描述“左上角那个按钮”“第三行这里”容易让对方找不到位置，鼠标圈画会打断操作、留下痕迹且需要手动擦除；截图后加标注则要离开当前屏幕、多一步编辑再贴回，讲解节奏被打断。
+  pain_en: Verbal pointing ("that button top-left", "this third line") makes the audience hunt for the
+    spot; mouse circling interrupts the action, leaves marks, and must be erased by hand; screenshot-then-annotate
+    forces leaving the live screen, editing, and pasting back, breaking the walkthrough's rhythm.
+  current_alternative: 用鼠标或触控板现场圈画、截图后用标注工具加箭头再贴回、口头描述坐标位置，或干脆共享屏幕让对方自己找。
+  current_alternative_en: Circling live with mouse or trackpad, screenshotting and annotating with an
+    arrow tool before pasting back, describing positions verbally, or just screen-sharing and letting
+    the audience find it themselves.
+  usage_reason: 推断：相较鼠标圈画或截图标注，它把“标注”这一步交给已经在场的 AI 代理，用一条 CLI 命令直接在当前屏幕上落笔，且标注点击穿透、自动消失，省去手动擦除和切换截图工具的步骤；因此正在用
+    Claude Code / Codex 做演示或讲解的 Mac 开发者，会在需要即时指向屏幕位置时选择它。
+  usage_reason_en: 'Inference: versus mouse circling or screenshot annotation, it hands the marking step
+    to the AI agent already in the session, drawing on the live screen with one CLI command, and the overlay
+    is click-through and self-erasing, removing manual cleanup and tool switching; so Mac developers already
+    running Claude Code / Codex during demos or walkthroughs would pick it when they need to point at
+    a screen location in the moment.'

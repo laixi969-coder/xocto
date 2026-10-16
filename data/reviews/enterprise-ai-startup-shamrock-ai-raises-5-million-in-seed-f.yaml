@@ -1,0 +1,81 @@
+- id: req-initial-enterprise-ai-startup-shamrock-ai-raises-5-million-in-seed-f-2026-10-16
+  project_slug: enterprise-ai-startup-shamrock-ai-raises-5-million-in-seed-f
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，只有企业AI定位与融资事实，价值关不成立。
+    evidence_ids:
+    - ev-4c9c6ab9e280e16c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有用户采用或场景共识证据。
+    evidence_ids:
+    - ev-4c9c6ab9e280e16c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-4c9c6ab9e280e16c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性。
+    evidence_ids:
+    - ev-4c9c6ab9e280e16c
+  next_validation: 收集Shamrock AI官方产品页或客户案例，确认其面向的具体工作流程与交付结果。
+  market: ''
+  job: 候选材料未说明具体使用者与工作节点，无法写出谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: The candidate material does not identify the user or work step, so it is impossible to state
+    who handles what material in which situation to complete which task.
+  pain: 材料未披露它替代哪一步旧流程或解决什么具体痛点，只能确认存在企业AI这一宽泛定位。
+  pain_en: The material does not disclose which old workflow it replaces or which concrete pain it addresses;
+    only a broad enterprise AI positioning can be confirmed.
+  current_alternative: 未知，候选材料未提及现有替代做法。
+  current_alternative_en: Unknown; the candidate material mentions no current alternative practice.
+  usage_reason: 无法判断：仅有融资事实，没有产品功能、使用场景或用户反馈，无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: only a funding fact exists, with no product features, usage scenarios
+    or user feedback to explain why a user would choose it.'
+- id: req-full-enterprise-ai-startup-shamrock-ai-raises-5-million-in-seed-f-2026-10-16
+  project_slug: enterprise-ai-startup-shamrock-ai-raises-5-million-in-seed-f
+  level: full
+  reviewed_at: '2026-10-16T01:21:02Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只有企业AI定位与500万美元种子轮融资，未披露谁在什么工作节点处理什么材料、替代哪一步旧流程、交付什么结果，连需求与痛点都写不出来，价值关不成立。
+    evidence_ids:
+    - ev-f879940540796dca
+    - ev-65442f1f6718b08f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Shamrock AI 官方产品页或客户案例（如 shamrock.ai 官网、Endiya Partners 投资组合页），确认其面向的具体工作流程、输入材料与交付结果。
+  market: ''
+  job: 候选材料只说明这是一家面向企业的AI初创公司并完成500万美元种子轮，未披露谁在什么工作节点打开它、AI接收什么材料、执行什么动作、交付什么结果，因此无法写出具体使用场景。
+  job_en: The candidate material only states that this is an enterprise-facing AI startup that closed
+    a $5M seed round; it does not disclose who opens it at which work step, what material the AI ingests,
+    what action it performs, or what output it delivers, so no concrete job can be stated.
+  pain: 公开材料未披露它替代哪一步旧流程、解决什么具体痛点，只能确认存在企业AI这一宽泛定位，连需求和痛点都写不出来。
+  pain_en: The public material does not disclose which old workflow step it replaces or which concrete
+    pain it addresses; only a broad enterprise AI positioning can be confirmed, and neither the need nor
+    the pain can be articulated.
+  current_alternative: 未知，候选材料未提及任何现有替代做法或旧流程。
+  current_alternative_en: Unknown; the candidate material mentions no current alternative practice or
+    legacy workflow.
+  usage_reason: 无法判断：仅有融资事实，没有产品功能、使用场景或用户反馈，无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: only a funding fact exists, with no product features, usage scenarios
+    or user feedback to explain why a user would choose it.'

@@ -728,3 +728,61 @@
     it parses MCP configs directly and emits SARIF into CI, turning a one-off manual review into a repeatable
     per-change check, so security or platform engineers who must gate third-party MCP servers in their
     release flow would pick it before integration.'
+- id: req-full-mcp-audit-tool-2026-10-16
+  project_slug: mcp-audit-tool
+  level: full
+  reviewed_at: '2026-10-16T01:22:28Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决第三方 MCP 服务器接入 AI 代理前的安全审查需求：配置与工具描述可被投毒或事后篡改，人工审读难以覆盖且通用 SAST/SCA 不识别 MCP 语义，不查则代理可能以企业凭据执行非预期动作。公开材料未给事故频率与损失，痛点刚性属工作流结构推理。
+    evidence_ids:
+    - ev-4dee2b7c85711e5a
+    - ev-d004e02775ad5a2d
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 168 增至 311，说明英文生态开发者持续关注并把它加入工具清单；但公开材料没有 issue、discussion 或客户案例说明谁在何种场景实际部署、替代了哪一步旧流程，因此关注度成立而持续采用未核验。
+    evidence_ids:
+    - ev-4dee2b7c85711e5a
+    - ev-acc65d1b32403a82
+    - ev-06b75a4c6842471f
+    - ev-620d87016d41287e
+    - ev-166b8924aa65e617
+    - ev-d004e02775ad5a2d
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源仓库与收藏数，没有定价页、付费客户、采购记录或赞助信息，无法判断钱来自企业安全预算、平台团队自建还是纯社区维护；这是商业证据缺口，不反推问题不存在。
+    evidence_ids:
+    - ev-4dee2b7c85711e5a
+    - ev-d004e02775ad5a2d
+  - gate: truth
+    status: insufficient
+    reason: 产品说明称输出 SARIF 并适配 CI，但公开材料未提供可复现的扫描结果、误报率或规则覆盖清单，也未说明发现风险后放行决策的人工边界，交付确定性尚缺公开验证。
+    evidence_ids:
+    - ev-4dee2b7c85711e5a
+    - ev-acc65d1b32403a82
+  next_validation: 追踪该仓库的 README、release 说明与 issue/discussion，确认是否有企业团队公开描述在 CI 中部署该工具并替代人工 MCP 配置审查的具体记录。
+  market: ''
+  job: 安全工程师或平台工程师在把第三方 MCP 服务器接入自家 AI 代理前，打开这个命令行工具，让它读取代理的 MCP 配置文件，扫描工具投毒、rug pull、硬编码密钥、命令注入与依赖供应链风险，产出可接入
+    CI 的 SARIF 报告，再据此决定是否放行。
+  job_en: A security or platform engineer, before wiring a third-party MCP server into the company's AI
+    agent, runs this CLI against the agent's MCP config to scan for tool poisoning, rug pulls, hardcoded
+    secrets, command injection and supply-chain risk, and gets a CI-ready SARIF report to decide whether
+    to approve the server.
+  pain: MCP 服务器以配置形式直接进入代理的工具调用链，第三方工具描述与依赖可在接入后变更，投毒或 rug pull 一旦发生，代理会以企业凭据执行非预期动作；公开材料未给出事故频率或损失金额，痛点强度来自工作流结构推理。
+  pain_en: MCP servers enter the agent's tool-call chain through config, and third-party tool descriptions
+    or dependencies can change after onboarding; a poisoning or rug-pull event lets the agent act with
+    corporate credentials. Public materials give no incident frequency or loss figures, so severity is
+    inferred from workflow structure.
+  current_alternative: 当前替代是人工逐条阅读 MCP 配置与工具描述、依赖清单，或依赖通用 SAST/SCA 与代码评审流程；这些工具不识别 MCP 特有的工具投毒与 rug pull
+    语义，公开材料未显示已有专门替代品。
+  current_alternative_en: Today teams read MCP configs and tool descriptions by hand, or lean on generic
+    SAST/SCA and code review; those tools do not model MCP-specific tool poisoning or rug pulls, and public
+    materials show no dedicated substitute.
+  usage_reason: 相较人工逐条审读配置，它把 MCP 配置作为输入自动枚举工具与依赖并输出 SARIF，使安全工程师能把检查挂进 CI，在合并前而非接入后发现问题；这是基于产品能力与工作流的结构推理，尚无用户反馈或案例证实。
+  usage_reason_en: Versus manual config review, it takes the MCP config as input, enumerates tools and
+    dependencies automatically and emits SARIF, so a security engineer can gate the check in CI and catch
+    issues before merge rather than after onboarding; this is structural inference from product capability,
+    not confirmed by user feedback or cases.

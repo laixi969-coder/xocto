@@ -235,3 +235,54 @@
     research, design, prototype, development, testing and release in one install, cutting per-stage restatement
     and manual chaining, so solo developers or small teams starting a 0-to-1 project and wanting a fixed
     agent flow are more likely to pick it; public materials do not yet confirm this motive via user feedback.'
+- id: req-full-silentagenthub-2026-10-16
+  project_slug: silentagenthub
+  level: full
+  reviewed_at: '2026-10-16T01:24:04Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立开发者用编码代理做 0-1 项目时流程漂移、阶段衔接与产出规范靠手工维护的痛点；不采用则需反复重述需求并逐段纠偏，返工成本自担。这是基于产品说明与旧替代行为的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+    - ev-9deeda099dd51276
+  - gate: consensus
+    status: supported
+    reason: 公开仓库收藏从 104 增至 199，说明有开发者持续关注并把它纳入工具视野；但收藏属关注度证据，不能证明已长期留在工作流或形成付费共识。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+    - ev-0d9bdfcce96c6f73
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费路径或买方描述，无法判断 to C 订阅还是 to B 授权；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-18c740e7bb6392b5
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、代理产出质量与人工确认边界，公开材料只有功能描述，缺可复现的实测或用户反馈佐证。
+    evidence_ids:
+    - ev-9deeda099dd51276
+  next_validation: 追踪 SilentAgentHub 仓库的 README、issue 与 discussion，确认是否有用户公开描述实际部署场景、替代的旧流程与产出质量反馈。
+  market: ''
+  job: 独立开发者或小团队在把一个 0-1 想法落地时，把需求、研究、设计、原型、开发、测试、发布各阶段的规则、Skills 与 Hooks 装进编码代理，让代理按这套流程产出代码与文档，自己负责确认与发布。
+  job_en: Solo developers or small teams taking a 0-to-1 idea to delivery install stage-by-stage rules,
+    Skills and Hooks (requirements, research, design, prototype, development, testing, release) into a
+    coding agent so it produces code and docs along that pipeline, while they retain confirmation and
+    release duties.
+  pain: 编码代理在长流程里容易跑偏：阶段边界不清、上下文丢失、产出物格式不统一，用户要反复重述需求并逐段纠偏，返工成本落在自己身上。
+  pain_en: 'Coding agents drift in long pipelines: stage boundaries blur, context is lost and artifacts
+    come out in inconsistent formats, so users repeatedly restate requirements and correct each segment,
+    absorbing the rework cost themselves.'
+  current_alternative: 目前多靠手工维护提示词、把规则写进 CLAUDE.md/AGENTS.md 之类的项目说明文件，或依赖代理自带的默认行为，阶段衔接与产出规范由用户自己拼。
+  current_alternative_en: Today users hand-maintain prompts, write rules into project instruction files
+    such as CLAUDE.md/AGENTS.md, or rely on the agent's defaults, stitching stage handoffs and output
+    conventions together themselves.
+  usage_reason: 推断：相较手工拼提示词，它把七个阶段的规则、Skills 与 Hooks 一次性装进代理，用户不必每阶段重写约束，代理按固定流程产出代码与文档，减少重述与纠偏步骤；因此正在用编码代理做
+    0-1 项目、又苦于流程漂移的独立开发者会尝试它。
+  usage_reason_en: 'Inference: versus hand-assembled prompts, it installs rules, Skills and Hooks for
+    all seven stages into the agent at once, so users need not rewrite constraints per stage and the agent
+    emits code and docs along a fixed pipeline, cutting restatement and correction steps; solo developers
+    already using coding agents on 0-to-1 projects and frustrated by pipeline drift are the ones likely
+    to try it.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQM01XYzVuYzZJ
 summary: 'FTSE 100 Stock Sage Group (LSE:SGE): What Its Latest Voting Rights Notice Means Kalkine Media'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

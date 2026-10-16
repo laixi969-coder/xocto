@@ -24,3 +24,44 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-planseats-2026-10-16
+  project_slug: planseats
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知是拖拽座位图工具，说不清排座位时具体痛在哪、不解决会失去什么，价值关证据不足。
+    evidence_ids:
+    - ev-ad99d913a5c2c53d
+  - gate: consensus
+    status: insufficient
+    reason: 仅一条社区提交、5 点 0 评论，没有用户评价或采用行为，共识关无法判断。
+    evidence_ids:
+    - ev-ad99d913a5c2c53d
+  - gate: model
+    status: insufficient
+    reason: 没有定价页、买方或收费方式信息，钱从哪来无法判断，属未知而非失败。
+    evidence_ids:
+    - ev-ad99d913a5c2c53d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 在流程中承担哪一步、交付是否确定发生，求真关证据不足。
+    evidence_ids:
+    - ev-ad99d913a5c2c53d
+  next_validation: 抓取 planseats 官网的功能说明与定价页，确认 AI 在座位排布中承担的具体动作、交付物和收费方式。
+  market: ''
+  job: 婚礼策划师在宾客名单确定后，把宾客按亲疏、家庭和忌口关系分配到各桌，产出可交给酒店和新人确认的座位图。
+  job_en: After the guest list is fixed, a wedding planner assigns guests to tables by closeness, family
+    and dietary needs, producing a seating chart the venue and couple can confirm.
+  pain: 候选材料没有说明排座位时具体卡在哪一步，也没有用户抱怨或旧做法描述，痛点强度无法从公开事实判断。
+  pain_en: The candidate does not say which step of seating arrangement is painful, and gives no user
+    complaints or old-workflow description, so pain intensity cannot be judged from public facts.
+  current_alternative: 公开材料未提供旧做法，常见替代可能是纸笔、表格或通用设计工具，但候选未证实。
+  current_alternative_en: No prior practice is given; common alternatives might be pen and paper, spreadsheets
+    or generic design tools, but the candidate does not confirm this.
+  usage_reason: 无法判断：材料只给出拖拽式座位图这一功能描述，没有说明相较旧做法减少了哪一步负担，也没有用户反馈支持选择动机。
+  usage_reason_en: 'Cannot be judged: the material only describes a drag-and-drop seating chart feature,
+    without saying which step it removes versus the old way, and no user feedback supports the choice.'

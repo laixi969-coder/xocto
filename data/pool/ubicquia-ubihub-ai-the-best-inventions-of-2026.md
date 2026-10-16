@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQY2M2a09ibFZ5
 summary: 'Ubicquia UbiHub AI+: The Best Inventions of 2026 Time Magazine'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

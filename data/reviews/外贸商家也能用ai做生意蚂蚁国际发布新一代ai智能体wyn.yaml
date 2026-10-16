@@ -1,0 +1,87 @@
+- id: req-initial-外贸商家也能用ai做生意蚂蚁国际发布新一代ai智能体wyn-2026-10-16
+  project_slug: 外贸商家也能用ai做生意蚂蚁国际发布新一代ai智能体wyn
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决外贸商家跨境询盘、订单与沟通的处理需求，痛点是多语言多平台人工处理慢，旧做法为人工加翻译工具，结构上成立。
+    evidence_ids:
+    - ev-18dbbf350e28493f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，无用户采用、评价或持续使用证据，共识关证据不足。
+    evidence_ids:
+    - ev-18dbbf350e28493f
+  - gate: model
+    status: insufficient
+    reason: 材料未说明买方与收费方式，可能来自蚂蚁国际生态的支付或交易抽成，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-18dbbf350e28493f
+  - gate: truth
+    status: insufficient
+    reason: 具体输入、动作与交付结果未披露，承诺能否确定性交付无法核验。
+    evidence_ids:
+    - ev-18dbbf350e28493f
+  next_validation: 收集蚂蚁国际Wyn的官方产品页或文档，核验其面向外贸商家的具体输入、执行动作与交付结果。
+  market: ''
+  job: 外贸商家在跨境交易中处理询盘、订单与客户沟通材料，需要完成从接单到成交的经营任务。
+  job_en: Foreign-trade merchants handle inquiries, orders and customer communication materials in cross-border
+    transactions, needing to complete the business task from taking an order to closing a deal.
+  pain: 跨境经营涉及多语言沟通、多平台订单与对账，人工处理环节多、响应慢，材料未给出具体痛点数据。
+  pain_en: The old approach is merchants or hired staff handling inquiries and orders one by one with
+    translation tools, spreadsheets and chat apps.
+  current_alternative: 旧做法是商家自行或雇人用翻译工具、表格与聊天软件逐条处理询盘和订单。
+  current_alternative_en: The old approach is merchants or hired staff handling inquiries and orders one
+    by one with translation tools, spreadsheets and chat apps.
+  usage_reason: 推断：相较人工逐条处理，智能体可在一个入口内接收订单与沟通材料并直接产出经营动作，减少跨工具切换与重复录入，因此外贸商家在询盘密集或人手不足时会选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: compared with manual one-by-one handling, the agent can receive orders
+    and communication materials in one entry point and directly produce business actions, reducing tool
+    switching and re-entry, so foreign-trade merchants short on staff or facing dense inquiries may choose
+    it; no retention or repeat-use evidence yet.'
+- id: req-full-外贸商家也能用ai做生意蚂蚁国际发布新一代ai智能体wyn-2026-10-16
+  project_slug: 外贸商家也能用ai做生意蚂蚁国际发布新一代ai智能体wyn
+  level: full
+  reviewed_at: '2026-10-16T01:25:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称解决外贸商家跨境订单与沟通需求，但全部证据均为同名无关条目（威尔士姓氏、骑行服品牌）或通用AI科普，无任何Wyn产品说明、用户痛点或替代行为，无法还原其输入、动作与交付，价值结构无从判断。
+    evidence_ids:
+    - ev-c427e56398026cd8
+    - ev-30f454f24ac36b6c
+    - ev-12b70675fa52aa42
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪蚂蚁国际官方渠道（antgroup.com 或蚂蚁国际新闻页）发布的 Wyn 产品页或文档，核验其面向外贸商家的具体输入、执行动作与交付结果。
+  market: ''
+  job: 外贸商家在跨境交易中处理询盘、订单与客户沟通材料，需要完成从接单到成交的经营任务。
+  job_en: Foreign-trade merchants handle inquiries, orders and customer communication materials in cross-border
+    transactions, needing to complete the business task from taking an order to closing a deal.
+  pain: 跨境经营涉及多语言沟通、多平台订单与对账，人工处理环节多、响应慢；但现有证据中没有任何关于Wyn产品本身、其用户痛点或使用行为的公开材料。
+  pain_en: Cross-border operations involve multilingual communication, multi-platform orders and reconciliation,
+    with many manual steps and slow response; however, none of the available evidence contains any public
+    material about the Wyn product itself, its users' pain points, or usage behavior.
+  current_alternative: 旧做法是商家自行或雇人用翻译工具、表格与聊天软件逐条处理询盘和订单；此为结构推理，非来自Wyn相关证据。
+  current_alternative_en: The old approach is merchants or hired staff handling inquiries and orders one
+    by one with translation tools, spreadsheets and chat apps; this is structural inference, not from
+    Wyn-related evidence.
+  usage_reason: 推断：若智能体能在一个入口内接收订单与沟通材料并直接产出经营动作，可减少跨工具切换与重复录入，因此人手不足的外贸商家可能选择它；但现有证据未包含任何Wyn产品说明、用户反馈或采用记录，无法确认该因果链。
+  usage_reason_en: 'Inference: if the agent can receive orders and communication materials in one entry
+    point and directly produce business actions, it could reduce tool switching and re-entry, so foreign-trade
+    merchants short on staff might choose it; but the available evidence contains no Wyn product description,
+    user feedback or adoption record, so this causal chain cannot be confirmed.'

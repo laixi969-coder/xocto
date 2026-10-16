@@ -1,6 +1,6 @@
 ---
 slug: anthropics-anthropic-sdk-python-v1150
-name: 'anthropics/anthropic-sdk-python: v1.15.0'
+name: Anthropic Python SDK
 builder: anthropics
 category: ''
 summary_zh: ''
@@ -48,7 +48,7 @@ summary: '### Features
   * **api:** note that some models need a beta header to use speed'
 first_seen: '2026-10-16T00:25:17Z'
 last_seen: '2026-10-16T00:25:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -60,7 +60,7 @@ sightings:
   kind: news
 ---
 
-# anthropics/anthropic-sdk-python: v1.15.0
+# Anthropic Python SDK
 
 ### Features
 

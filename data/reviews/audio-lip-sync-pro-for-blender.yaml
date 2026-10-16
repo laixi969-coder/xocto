@@ -1,0 +1,86 @@
+- id: req-initial-audio-lip-sync-pro-for-blender-2026-10-16
+  project_slug: audio-lip-sync-pro-for-blender
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决对白密集角色口型制作耗时、外包沟通成本高的问题，痛点来自动画交付周期；买方可能是工作室或个人创作者，尚未核验。
+    evidence_ids:
+    - ev-8584c4faedd9d0ed
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，无下载、评价或工作室采用记录，无法判断是否形成持续使用。
+    evidence_ids:
+    - ev-8584c4faedd9d0ed
+  - gate: model
+    status: insufficient
+    reason: 未见定价、授权方式或按量计费信息，钱可能来自插件授权或工作室采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8584c4faedd9d0ed
+  - gate: truth
+    status: insufficient
+    reason: 支持的绑定与表情系统、生成质量与人工修正量均未披露，交付能否确定发生无法核实。
+    evidence_ids:
+    - ev-8584c4faedd9d0ed
+  next_validation: 收集该插件的官方页面或 Blender 扩展市场条目，确认支持的绑定系统、定价方式与生成结果样例。
+  market: ''
+  job: 三维动画师和角色绑定师在 Blender 里为对白密集的角色制作口型时，需要把配音音频转成与语音对齐的面部动画，最终拿到可继续调整的口型动画。
+  job_en: 3D animators and character riggers producing lip sync for dialogue-heavy characters in Blender
+    need to turn voice audio into speech-aligned facial animation, ending up with lip-sync animation they
+    can keep editing.
+  pain: 逐帧手 K 口型耗时且枯燥，外包口型制作又要来回沟通修改，交付周期被拉长。
+  pain_en: Hand-keying lip sync frame by frame is slow and tedious, and outsourcing it means back-and-forth
+    revisions that stretch delivery time.
+  current_alternative: 现在靠动画师手动打关键帧，或把口型环节外包给专门团队，也有通用语音驱动工具但需要额外导入导出。
+  current_alternative_en: Today animators key frames by hand, outsource lip sync to specialist teams,
+    or use generic audio-driven tools that require extra import and export.
+  usage_reason: 相较逐帧手 K 或外包，它在 Blender 内直接由音频生成面部动画，省掉手工打关键帧和跨软件导入导出的步骤，因此对白密集、返工频繁的动画团队会优先试它；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with hand-keying or outsourcing, it generates facial animation from audio
+    inside Blender, removing manual keyframing and cross-software import/export steps, so animation teams
+    with dense dialogue and frequent rework would try it first; this is an inference from product capability,
+    not user feedback.
+- id: req-full-audio-lip-sync-pro-for-blender-2026-10-16
+  project_slug: audio-lip-sync-pro-for-blender
+  level: full
+  reviewed_at: '2026-10-16T01:19:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 现有证据全部是 audio.com 与 Wikipedia 的音频条目，未描述 Blender 口型制作的具体任务、材料与交付，痛点与旧替代都无法还原。
+    evidence_ids:
+    - ev-a612f1e17a2a6fc0
+    - ev-f0d31324b3d569ba
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该插件在 Blender 扩展市场或官方页面的条目，确认支持的绑定系统、定价方式与生成结果样例。
+  market: ''
+  job: 三维动画师和角色绑定师在 Blender 里为对白密集的角色制作口型时，需要把配音音频转成与语音对齐的面部动画，最终拿到可继续调整的口型动画。
+  job_en: 3D animators and character riggers producing lip sync for dialogue-heavy characters in Blender
+    need to turn voice audio into speech-aligned facial animation, ending up with lip-sync animation they
+    can keep editing.
+  pain: 公开证据全部指向 audio.com 与 Wikipedia 的音频条目，没有任何一条描述 Blender 口型制作耗时或外包沟通成本，痛点无法从现有材料写出。
+  pain_en: All public evidence points to audio.com and the Wikipedia Audio entry; none describes Blender
+    lip-sync production time or outsourcing communication cost, so the pain cannot be written from the
+    material.
+  current_alternative: 材料未披露动画师现在如何做口型，无法确认是逐帧手 K、外包还是使用通用语音驱动工具。
+  current_alternative_en: The material does not disclose how animators currently do lip sync, so it cannot
+    be confirmed whether they hand-key, outsource, or use generic audio-driven tools.
+  usage_reason: 缺少支持的绑定与表情系统、生成质量与人工修正量，无法说明它相较旧做法减少哪一步负担，因此无法给出用户选择它的因果解释。
+  usage_reason_en: With no supported rig or expression system, generation quality or manual correction
+    volume, it is impossible to say which step of the old workflow it removes, so no causal reason for
+    adoption can be given.

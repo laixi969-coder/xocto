@@ -184,3 +184,53 @@
     onto one always-on clock screen, removing the repeated-lookup step, so developers running several
     accounts who dislike window-switching may try it; retention, repeat-purchase and payment evidence
     are missing, and the hardware form limits spread.'
+- id: req-full-token-tv-2026-10-16
+  project_slug: token-tv
+  level: full
+  reviewed_at: '2026-10-16T01:24:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号额度分散、超限后才发现的需求，痛点在长时编码中会打断工作流，旧做法是逐个登录后台查询；产品把用量集中到常亮屏幕，交付动作明确，属工作流结构推理，公开材料未给数据来源与刷新方式。
+    evidence_ids:
+    - ev-4883106c347313a8
+    - ev-a5125b58df75a1b3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 54 增至 70 左右，说明有开发者关注并收藏，但公开材料没有用户反馈、issue 讨论或持续使用证据，无法判断是否形成稳定共识。
+    evidence_ids:
+    - ev-4883106c347313a8
+    - ev-27f4f10e93b91072
+  - gate: model
+    status: insufficient
+    reason: 开源硬件项目，未见定价页或付费路径，买方可能是自购硬件的开发者或后续 to B 授权，但这是判断而非已验证事实，收入模式尚未核验。
+    evidence_ids:
+    - ev-a5125b58df75a1b3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对用量数据是否准确、刷新是否及时、账号授权是否合规，交付确定性不清楚；零刷固件降低了上手门槛，但未证明结果可稳定复现。
+    evidence_ids:
+    - ev-a5125b58df75a1b3
+    - ev-27f4f10e93b91072
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认用量数据来源、刷新频率、账号授权方式，以及是否出现用户反馈或复购/付费线索。
+  market: ''
+  job: 同时使用 Claude、Codex 等多个 AI 编码账号的开发者，在长时间编码、需要随时掌握各账号额度余量时，处理分散在各平台后台的用量数据，要完成把多账号用量集中显示在一块常亮桌面设备上、以便在接近限额前调整使用的任务。
+  job_en: A developer running several Claude and Codex accounts, while coding for long stretches and needing
+    to track each account's quota, works on usage data scattered across separate dashboards and needs
+    to surface multi-account usage on one always-on desk device so they can adjust before hitting limits.
+  pain: 多账号额度分散在各平台后台，需要反复登录逐个查看，往往在超限或限流后才发现，打断正在进行的编码；公开材料未说明数据来源与刷新方式，痛点强度来自工作流结构推理而非用户反馈。
+  pain_en: Quota across accounts is scattered across separate dashboards requiring repeated logins, and
+    overruns or throttling are often discovered only after they interrupt ongoing coding; the public material
+    does not state the data source or refresh method, so pain intensity is a workflow inference rather
+    than user feedback.
+  current_alternative: 开发者目前逐个登录各平台后台查看用量，或干脆不监控、等被限流后再处理；也有人用浏览器标签页或第三方用量插件替代。
+  current_alternative_en: Developers currently log into each platform dashboard to check usage, or skip
+    monitoring and deal with throttling after it happens; some use browser tabs or third-party usage plugins
+    instead.
+  usage_reason: 推断：相较逐个登录后台，它把多账号用量集中到一块约 5 美元、无需刷固件的常亮时钟屏幕上，省去反复查询这一步，因此同时开多个账号、桌面常驻的开发者会在编码时选择它；但缺少留存、复购与付费证据，硬件形态也限制扩散。
+  usage_reason_en: 'Inference: versus logging into each dashboard, it puts multi-account usage onto a
+    ~$5 always-on clock screen with no firmware flashing, removing the repeated-lookup step, so developers
+    running several accounts at a desk may choose it while coding; retention, repeat-purchase and payment
+    evidence are missing, and the hardware form limits spread.'

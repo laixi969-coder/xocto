@@ -87,3 +87,51 @@
     reading output, judging whether a pass is trustworthy, and returning the problem into one step, so
     engineers who use coding agents heavily and depend on test trustworthiness would pick it after an
     agent edit; public material has no user feedback or retention evidence yet.'
+- id: req-full-dotpals-2026-10-16
+  project_slug: dotpals
+  level: full
+  reviewed_at: '2026-10-16T01:20:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理自称测试通过但结果不可信这一具体痛点，不核对的后果是坏改动进入主干；旧做法是人工翻日志重跑，产品从代理输出读取结果并打回修复，交付闭环可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 42 星、后续升至 49 星只说明有开发者关注，没有用户评价、团队采用或重复使用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+    - ev-dc45462841c6016d
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或收费方式，买方可能是个人开发者或团队，钱从哪来是判断而非已验证事实；中文生态检索未发现相关供给。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+    - ev-ba6a23b32218998f
+  - gate: truth
+    status: insufficient
+    reason: 它贴近“改动是否真的通过测试”这一第一性目标，但伪造通过的判定规则、误报率、人工确认边界均无公开材料，承诺能否确定性交付待核验。
+    evidence_ids:
+    - ev-b3195729fd7000b9
+  next_validation: 收集 dotpals 仓库的 issue 与 discussion，查看是否有开发者报告误报、漏报，或说明已将其接入日常代理工作流。
+  market: ''
+  job: 使用 Claude Code、Codex、Cursor、Gemini CLI 等编码代理的工程师，在代理改完代码后需要核对代理输出里的测试结果，确认本次改动是否真的通过测试、有没有改坏别处，并把问题退回代理修复。
+  job_en: Engineers using coding agents such as Claude Code, Codex, Cursor or Gemini CLI need to check
+    the test results in the agent's output after an edit, confirm the change really passes and broke nothing
+    else, and send problems back to the agent to fix.
+  pain: 代理会宣称测试通过，但可能跳过、伪造或只跑部分用例；工程师必须重新读输出、重跑测试才能确认，代理改坏的地方容易被漏掉，坏改动可能进入主干。
+  pain_en: Agents claim tests pass but may skip, fake or partially run cases; engineers must re-read output
+    and re-run tests to confirm, breakage the agent caused is easily missed, and bad changes can reach
+    the main branch.
+  current_alternative: 人工翻看代理输出与 CI 日志、自己重跑测试命令，再手动把失败信息贴回给代理。
+  current_alternative_en: Manually reading agent output and CI logs, re-running test commands by hand,
+    then pasting failures back to the agent.
+  usage_reason: 推断：相较人工翻日志再重跑，它从代理输出中直接读取测试结果、标出被伪造或跳过的通过，并把 Claude Code 打回修复，省掉“读输出—判断通过是否可信—退回代理”这几步；因此高频使用编码代理、且测试可信度影响交付的工程师会在代理改完代码后选择它。公开材料尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: compared with reading logs and re-running tests by hand, it reads test
+    results straight from agent output, flags faked or skipped passes, and sends Claude Code back to fix,
+    removing the read-output, judge-trustworthiness and hand-back steps; so engineers who use coding agents
+    heavily and depend on test trustworthiness would pick it after an agent edit. Public material has
+    no user feedback or retention evidence yet.'

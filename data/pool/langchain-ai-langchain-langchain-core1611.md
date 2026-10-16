@@ -1,6 +1,6 @@
 ---
 slug: langchain-ai-langchain-langchain-core1611
-name: 'langchain-ai/langchain: langchain-core==1.6.11'
+name: LangChain
 builder: langchain-ai
 category: ''
 summary_zh: ''
@@ -26,7 +26,7 @@ summary: 'Changes since langchain-core==1.6.10
   feat(core): accept address inside LangChainTracer (#41006)'
 first_seen: '2026-10-16T00:25:17Z'
 last_seen: '2026-10-16T00:25:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -38,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# langchain-ai/langchain: langchain-core==1.6.11
+# LangChain
 
 Changes since langchain-core==1.6.10
 

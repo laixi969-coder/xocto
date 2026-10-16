@@ -21,7 +21,7 @@ canonical_url: https://github.com/awslabs/aidlc-workflows
 summary: Adaptive workflow steering rules for AI coding agents
 first_seen: '2026-10-16T00:25:14Z'
 last_seen: '2026-10-16T00:25:14Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

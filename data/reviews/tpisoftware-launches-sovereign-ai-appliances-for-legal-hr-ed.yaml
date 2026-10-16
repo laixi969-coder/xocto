@@ -1,0 +1,81 @@
+- id: req-initial-tpisoftware-launches-sovereign-ai-appliances-for-legal-hr-ed-2026-10-16
+  project_slug: tpisoftware-launches-sovereign-ai-appliances-for-legal-hr-ed
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决受监管机构数据不出内网的审阅与问答需求，但公开材料未说明具体输入、动作与交付。
+    evidence_ids:
+    - ev-5e9b08fd3d334852
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：无客户案例、部署实例或使用反馈，无法判断场景共识。
+    evidence_ids:
+    - ev-5e9b08fd3d334852
+  - gate: model
+    status: insufficient
+    reason: 未进入：无定价、无采购路径信息，买方与收费方式均不明。
+    evidence_ids:
+    - ev-5e9b08fd3d334852
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核验本地部署是否真能确定性交付，也无安全与人工复核边界说明。
+    evidence_ids:
+    - ev-5e9b08fd3d334852
+  next_validation: 查找 TPIsoftware 官方产品页或新闻稿，确认该一体机的产品名称、部署文档与是否披露客户案例。
+  market: ''
+  job: 律所、HR 部门与学校在内网处理合同、员工档案和学籍材料时，需要在不外传数据的前提下完成审阅、问答与整理。
+  job_en: Law firms, HR departments and schools need to review, query and organize contracts, employee
+    records and enrollment materials on internal networks without sending data out.
+  pain: 受监管机构不能把敏感材料交给公有云模型，人工逐份处理又慢。
+  pain_en: Regulated institutions cannot hand sensitive materials to public cloud models, while manual
+    processing is slow.
+  current_alternative: 人工逐份阅读，或使用未接入业务系统的通用聊天工具并承担合规风险。
+  current_alternative_en: Reading documents one by one manually, or using generic chat tools disconnected
+    from business systems while bearing compliance risk.
+  usage_reason: 推断：若设备真能本地跑通合同与档案处理，机构会因数据不出内网而选择它；但公开材料只有标题，无法确认其是否替代了具体旧流程。
+  usage_reason_en: 'Inference: if the appliance truly runs contract and record processing locally, institutions
+    would choose it to keep data on-premises; but public material is headline-only, so whether it replaces
+    a concrete old workflow is unconfirmed.'
+- id: req-full-tpisoftware-launches-sovereign-ai-appliances-for-legal-hr-ed-2026-10-16
+  project_slug: tpisoftware-launches-sovereign-ai-appliances-for-legal-hr-ed
+  level: full
+  reviewed_at: '2026-10-16T01:24:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想解决受监管机构数据不出内网的审阅与问答需求，但公开材料未说明具体输入、动作与交付，痛点强度与不采用后果均无法还原。
+    evidence_ids:
+    - ev-5e9b08fd3d334852
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找 TPIsoftware 官方产品页或新闻稿，确认该一体机的产品名称、部署文档与是否披露客户案例。
+  market: ''
+  job: 法务合规、HR 与教务人员在内网处理合同、员工档案、课程与政策材料时，需要在不外传数据的前提下完成审阅、问答与文本整理。
+  job_en: Legal/compliance, HR and academic staff need to review, query and organize contracts, employee
+    records, course and policy materials on internal networks without sending data out.
+  pain: 公开材料只有发布标题，未说明这些机构当前具体卡在哪一步、人工处理耗时多少、不采用会付出什么代价，痛点强度无法还原。
+  pain_en: Public material is headline-only; it does not state which step these institutions are stuck
+    on, how long manual handling takes, or the cost of not adopting, so pain intensity cannot be reconstructed.
+  current_alternative: 公开材料未披露现有替代方式，只能推测为人工逐份阅读或使用未接入业务系统的通用聊天工具。
+  current_alternative_en: Public material does not disclose current alternatives; only manual per-document
+    reading or generic chat tools disconnected from business systems can be inferred.
+  usage_reason: 推断：若设备真能在本地跑通合同与档案处理，机构会因数据不出内网而选择它；但公开材料只有标题，无法确认其是否替代了具体旧流程。
+  usage_reason_en: 'Inference: if the appliance truly runs contract and record processing locally, institutions
+    would choose it to keep data on-premises; but public material is headline-only, so whether it replaces
+    a concrete old workflow is unconfirmed.'

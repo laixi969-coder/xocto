@@ -24,3 +24,45 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+- id: req-initial-kraa-20-2026-10-16
+  project_slug: kraa-20
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决草稿到发布之间的搬运与排版，痛点方向成立，但公开材料只有一句“文本编辑器与发布平台”，无法确认 AI 具体做了什么、交付是否确定。
+    evidence_ids:
+    - ev-c013ac6cd911ada0
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页自述外没有用户评价、案例或使用数据，无法判断写作者是否真的把发布环节交给它。
+    evidence_ids:
+    - ev-c013ac6cd911ada0
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方是个人作者还是团队无法判断；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-c013ac6cd911ada0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对发布结果是否确定发生、人工是否仍需确认，也看不到与编辑器第一性目标的贴合程度。
+    evidence_ids:
+    - ev-c013ac6cd911ada0
+  next_validation: 抓取 Kraa 官方产品页或定价页，确认编辑到发布的具体动作、交付形态与收费方式。
+  market: ''
+  job: 写作者在完成初稿后，需要把稿件从编辑器搬到发布渠道并完成排版上线。
+  job_en: After finishing a draft, a writer must move the text from the editor to a publishing channel
+    and format it for release.
+  pain: 草稿到上线之间要切换工具、重复排版，这一步耗时且容易出错；但公开材料未说明 Kraa 2.0 具体消除了哪一步。
+  pain_en: Moving from draft to live requires switching tools and reformatting, which costs time and invites
+    errors; the public material does not say which step Kraa 2.0 actually removes.
+  current_alternative: 用通用文本编辑器写作，再手动复制到博客、newsletter 或社交平台排版发布。
+  current_alternative_en: Writing in a general text editor, then manually copying into a blog, newsletter
+    or social platform to format and publish.
+  usage_reason: 推断：如果编辑与发布确实在同一处完成，作者可省掉导出与二次排版这一步，因此常发内容、又不想维护发布流程的独立作者会尝试它；但公开材料未给出任何用户反馈或采用证据，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if editing and publishing truly happen in one place, authors skip export
+    and reformatting, so independent writers who publish often and do not want to maintain a publishing
+    pipeline would try it; no user feedback or adoption evidence is public, so this causal claim is unconfirmed.'

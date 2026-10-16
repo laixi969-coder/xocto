@@ -1,0 +1,94 @@
+- id: req-initial-decompwtf-2026-10-16
+  project_slug: decompwtf
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逆向与移植中手工反编译耗时且需逐段验证的问题，痛点刚性且交付有字节一致这一可核对标准；属工作流推理。
+    evidence_ids:
+    - ev-17d94045354b40ff
+    - ev-801d4ef3dc0298d3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 209 增至 355 说明关注度上升，但缺少使用反馈或案例，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-17d94045354b40ff
+    - ev-801d4ef3dc0298d3
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与付费方，可能靠支持或托管服务变现，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-17d94045354b40ff
+  - gate: truth
+    status: insufficient
+    reason: 字节一致这一验收标准清晰，但反编译的合法边界与人工确认流程未公开说明。
+    evidence_ids:
+    - ev-17d94045354b40ff
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际还原的项目类型、字节一致验收的复现情况与人工复核流程。
+  market: ''
+  job: 游戏移植或遗留软件维护的开发者，在需要还原自己拥有软件的原始逻辑时，处理本地二进制文件，要产出可编译且行为一致的 C 源码。
+  job_en: Developers doing game porting or legacy software maintenance process local binaries when they
+    need to recover the original logic of software they own, aiming to produce compilable C source with
+    matching behavior.
+  pain: 手工反编译耗时极长，且必须逐段验证行为一致，是移植和维护中最费人力的环节。
+  pain_en: Manual decompilation takes very long and requires segment-by-segment behavior verification,
+    making it the most labor-intensive part of porting and maintenance.
+  current_alternative: 目前靠人工使用反编译工具逐函数还原，再手工比对编译结果。
+  current_alternative_en: Today this is done by hand with decompiler tools, restoring function by function
+    and manually comparing compiled output.
+  usage_reason: 推断：相较人工逐函数还原，它让代理直接产出可编译的 C 并用字节一致作为验收条件，减少反复比对这一步，因此做移植或维护的开发者会在还原阶段选择它；但公开材料未显示持续使用或付费证据。
+  usage_reason_en: 'Inference: versus manual function-by-function restoration, it has the agent produce
+    compilable C with byte-identical output as the acceptance condition, removing repeated comparison
+    work, so porting or maintenance developers would use it at the recovery stage; sustained use or payment
+    is not publicly evidenced.'
+- id: req-full-decompwtf-2026-10-16
+  project_slug: decompwtf
+  level: full
+  reviewed_at: '2026-10-16T01:20:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决匹配式反编译耗时以年计、需逐段验证的还原需求，痛点刚性且交付有字节一致这一可核对标准；属工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-271bddebbcbd8039
+    - ev-ac93ec7903bebd7b
+  - gate: consensus
+    status: insufficient
+    reason: 社区存在反编译进度看板与成品陈列站，说明场景真实，但缺少该产品自身的用户反馈或案例，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-271bddebbcbd8039
+    - ev-ac93ec7903bebd7b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与付费方，可能走开源加支持或托管服务，这是判断而非已验证事实；谁付钱尚不清楚。
+    evidence_ids:
+    - ev-1c56afe6e82d1e17
+  - gate: truth
+    status: insufficient
+    reason: 字节一致验收标准清晰，但反编译的合法边界、仅限自有游戏的前提与人工复核流程未在公开材料中说明。
+    evidence_ids:
+    - ev-271bddebbcbd8039
+  next_validation: 追踪 decomp.wtf 官网或仓库的 README、issue 与 discussion，确认其字节一致验收的复现记录、支持的游戏范围与人工复核流程。
+  market: ''
+  job: 做游戏移植或遗留软件维护的开发者，在自己拥有合法副本的前提下，把本地游戏二进制交给本地运行的 AI 代理，要产出编译后字节完全一致的 C 源码，用于还原原始逻辑与后续移植。
+  job_en: Developers doing game porting or legacy software maintenance hand a local game binary to a locally
+    running AI agent, aiming to produce C source that compiles to byte-identical output, so they can recover
+    original logic and port it.
+  pain: 匹配式反编译被公开描述为极其困难、耗时以年计、需要多名贡献者协作的苦活，逐函数还原后还要反复比对编译结果，是移植与维护中最费人力的环节。
+  pain_en: Matching decompilation is publicly described as brutally difficult and time-consuming, on the
+    scale of years with multiple contributors; function-by-function restoration is followed by repeated
+    compiled-output comparison, the most labor-intensive part of porting and maintenance.
+  current_alternative: 目前靠人工使用反编译工具逐函数还原，再手工比对编译结果；社区用 decomp.dev 这类进度看板集中追踪匹配进度，并有 recomp.gg 这类已反编译游戏陈列站。
+  current_alternative_en: Today it is done by hand with decompiler tools, restoring function by function
+    and manually comparing compiled output; the community tracks matching progress on boards like decomp.dev
+    and shelves finished results on sites like recomp.gg.
+  usage_reason: 推断：相较人工逐函数还原再手工比对，它让本地代理直接产出可编译的 C，并以字节完全一致作为可核对的验收条件，省掉反复比对这一步，因此做移植或维护的开发者会在还原阶段选择它；公开材料尚未显示持续使用或付费证据。
+  usage_reason_en: 'Inference: versus manual function-by-function restoration plus hand comparison, it
+    has a local agent emit compilable C with byte-identical output as a checkable acceptance condition,
+    removing the repeated comparison step, so porting or maintenance developers would pick it at the recovery
+    stage; sustained use or payment is not yet publicly evidenced.'

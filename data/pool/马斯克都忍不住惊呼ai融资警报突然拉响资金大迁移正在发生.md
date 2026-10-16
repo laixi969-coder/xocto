@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JWFg4TU9na01j
 summary: 马斯克都忍不住惊呼！AI融资警报突然拉响，资金大迁移正在发生？ TradingView
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

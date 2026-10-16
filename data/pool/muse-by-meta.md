@@ -3,47 +3,32 @@ slug: muse-by-meta
 name: Meta Muse
 builder: Meta
 category: 通用助手
-summary_zh: 普通用户在需要跨应用处理日程、检索资料或起草文字时打开它，把自然语言任务交给代理执行；公开材料只说明它是“帮你把事情做完”的个人AI代理，具体接收哪些数据、执行哪些动作、交付什么结果仍待核验。
-inspiration: 趋势是个人代理从聊天框走向代执行，大厂同时入场说明入口之争已开始；切入不在通用代理本身，而在被代理调用的垂直环节——例如把某类高频事务（报销、预约、对账）做成代理可直接调用的确定性交付，按结果收费。
-summary_en: An ordinary user opens it when handling schedules, retrieving material or drafting text across
-  apps, handing natural-language tasks to an agent; public material only describes it as a personal AI
-  agent that 'gets things done', so what data it takes in, what actions it performs and what it delivers
-  still need verification.
-inspiration_en: The trend is personal agents moving from chat to execution, and simultaneous big-tech
-  entry shows the gateway race has started; the opening is not the general agent itself but the vertical
-  steps it calls — turning a high-frequency task such as expense filing, booking or reconciliation into
-  a deterministic deliverable an agent can invoke, priced per outcome.
+summary_zh: 面向个人用户的通用智能体，宣称替用户把事情办完；但候选材料只给出这一句定位，谁在什么工作节点打开它、AI 接收什么材料、执行哪些动作、最终交付什么，均未提供，具体流程与交付仍待核验。
+inspiration: 趋势是个人智能体从演示走向日常任务代办，大厂开始把资源从企业侧挪向个人侧。切入不在通用代办本身，而在被大厂忽略的垂直旧流程：例如房产经纪的带看记录整理、跨境卖家的多平台订单核对，把代办能力绑到一条可核对结果的行业链路里收费。
+summary_en: A consumer-facing general agent that claims to get things done for the user; the candidate
+  material offers only this positioning, with no detail on who opens it at which work step, what material
+  the AI receives, what actions it performs or what it delivers, so the concrete workflow and output remain
+  unverified.
+inspiration_en: The trend is personal agents moving from demos into everyday task handling, with large
+  vendors shifting resources from enterprise to consumer. The opening is not generic task handling but
+  vertical legacy workflows big vendors ignore, such as turning property-agent viewing notes into records
+  or reconciling multi-platform orders for cross-border sellers, charging against a checkable industry
+  outcome.
 priority_review: true
 project_type: new_application
-industries:
-- 软件与互联网服务
-- 消费电子
-- 媒体与内容
-industries_en:
-- Software and internet services
-- Consumer electronics
-- Media and content
-jobs:
-- 个人事务与日程处理
-- 跨应用信息检索与整理
-- 日常写作与内容草稿
-jobs_en:
-- Personal task and schedule handling
-- Cross-app information retrieval and organizing
-- Everyday writing and content drafting
-regions:
-- 美国
-- 全球
-regions_en:
-- United States
-- Global
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
 open_source: false
 url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - marketfeeds

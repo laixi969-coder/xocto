@@ -228,3 +228,50 @@
     inside the reading view so readers can question the current article in place, removing the window-switch
     and paste step; researchers who must screen many subscribed articles quickly would try it inside DeepSeek
     Harness.'
+- id: req-full-qiaomu-rss-dsh-2026-10-16
+  project_slug: qiaomu-rss-dsh
+  level: full
+  reviewed_at: '2026-10-16T01:23:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订阅源多、逐篇阅读耗时的问题，痛点具体：读者要在大量 RSS 文章中快速判断相关性并提取要点，旧做法是通用阅读器加手工摘录或另开对话窗口。公开材料仅有仓库标题与星数，交付闭环属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 40 缓慢升至 44，属关注度信号，不能证明研究者已长期用它伴读；公开材料没有用户反馈、案例或重复使用证据，强场景只能从任务结构推断。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+    - ev-4ff7651e83cab9d0
+  - gate: model
+    status: insufficient
+    reason: 开源项目无公开定价，付费路径可能是托管服务或定制信息源，这是判断而非已验证事实；公开材料未说明谁付钱，也未出现采购或订阅记录。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 伴读的解读是否准确、是否贴近筛选信息的第一性目标，也缺少可复现测试与安全人工边界说明；公开材料只给出仓库标题与星数。
+    evidence_ids:
+    - ev-e1ba0d43da7e74af
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认它支持的订阅格式、AI 对话能力边界以及是否有用户反馈或使用记录。
+  market: ''
+  job: 内容研究者或行业分析师在跟踪多个 RSS 订阅源时，在 DeepSeek Harness 中打开该阅读器，逐篇处理订阅文章，并就当前文章与原生 AI 对话提问，以完成信息筛选与要点提取。
+  job_en: A content researcher or industry analyst tracking multiple RSS feeds opens this reader inside
+    DeepSeek Harness, works through subscribed articles, and asks the native AI questions about the current
+    article to screen information and extract key points.
+  pain: 订阅源多、单篇长，人工逐篇读完再判断相关性耗时，且容易漏掉关键信息；公开材料只给出仓库标题与星数，未提供用户抱怨或使用反馈，痛点强度属工作流结构推理。
+  pain_en: Many feeds and long articles make reading each item to judge relevance slow and prone to missing
+    key information; public material only gives the repository title and star count, with no user complaints
+    or feedback, so pain intensity is a workflow inference.
+  current_alternative: 用通用 RSS 阅读器或浏览器标签页逐篇阅读，再手工摘录要点，或把正文复制到另一个 AI 对话窗口提问。
+  current_alternative_en: Reading item by item in a general RSS reader or browser tabs, taking notes by
+    hand, or copying article text into a separate AI chat window to ask questions.
+  usage_reason: 推断：相较通用阅读器加另开对话窗口的旧做法，它把 AI 对话直接嵌在阅读界面内，读者无需复制正文、切换窗口即可就当前文章提问，省去搬运文本这一步；因此需要快速筛选大量订阅文章的研究者会在
+    DeepSeek Harness 环境中尝试它。
+  usage_reason_en: 'Inference: versus a general reader plus a separate chat window, it embeds AI dialogue
+    in the reading view so readers can question the current article without copying text or switching
+    windows, removing the text-shuttling step; researchers screening many subscribed articles inside DeepSeek
+    Harness would try it.'

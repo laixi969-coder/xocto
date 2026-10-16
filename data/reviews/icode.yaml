@@ -518,3 +518,48 @@
     it is impossible to explain which users would choose it under what circumstances or through which
     concrete action; attributable user feedback, cases, or usage records for this offline development
     product are absent.
+- id: req-full-icode-2026-10-16
+  project_slug: icode
+  level: full
+  reviewed_at: '2026-10-16T01:21:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向少儿编程教育机构 ICode.org 与 iCode School，与离线 agent 开发平台无任何对应；无法写出该产品解决什么需求、什么痛点，价值关不成立。
+    evidence_ids:
+    - ev-5ab1622f83b458e7
+    - ev-baea38bacb7b1409
+    - ev-9bf8f287902758be
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: xOcto 下一轮应定位该产品自身的官方仓库或官网（如 公开代码仓库 仓库 README、release、issue/discussion），确认其真实名称与离线 agent
+    能力，再判断需求；当前证据与产品错配，不能作为判断依据。
+  market: ''
+  job: 候选摘要描述的是开发者在离线或数据不能外传的环境中，把本地代码仓库与任务交给离线 agent 与工作流执行，并在终端界面取回结果；但公开证据中没有任何一条来自该产品本身。
+  job_en: The candidate summary describes developers in offline or data-restricted environments handing
+    local repositories and tasks to an offline agent and workflow, retrieving results in a terminal UI;
+    however, no public evidence belongs to this product.
+  pain: 公开证据全部指向少儿编程教育机构 ICode.org 与 iCode School，未记录任何关于离线 agent 执行、内网数据合规或终端工作流的痛点，无法写出该产品所针对的用户痛点。
+  pain_en: All public evidence points to the youth coding-education organizations ICode.org and iCode
+    School; none records pain around offline agent execution, intranet data compliance, or terminal workflows,
+    so the product's user pain cannot be stated.
+  current_alternative: 公开材料只显示少儿编程课程、竞赛与线下 STEM 教学，未说明开发者今天用什么方式在离线环境完成 agent 任务，替代方式无法还原。
+  current_alternative_en: Public materials only show youth coding classes, competitions, and offline STEM
+    teaching; they do not show how developers currently run agent tasks offline, so the alternative cannot
+    be reconstructed.
+  usage_reason: 由于证据与产品完全错配，无法说明任何用户会在什么情况下选择它；这不是缺定价页或买方，而是连需求与痛点都缺少可引用事实。
+  usage_reason_en: Because the evidence is entirely mismatched with the product, no user situation for
+    choosing it can be stated; this is not a missing pricing page or buyer, but a lack of any citable
+    fact about need or pain.

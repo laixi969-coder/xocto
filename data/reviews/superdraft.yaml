@@ -1,0 +1,86 @@
+- id: req-initial-superdraft-2026-10-16
+  project_slug: superdraft
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决触达时机判断与内容起草的问题，痛点在于漏跟进和错误打扰；但公开材料仅一句描述，属结构推理。
+    evidence_ids:
+    - ev-ff78627e9991b0aa
+  - gate: consensus
+    status: insufficient
+    reason: 缺少用户评价、采用数据或客户案例，无法判断营销人员是否已把它放进日常流程。
+    evidence_ids:
+    - ev-ff78627e9991b0aa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自 to B 订阅或按发送量计费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ff78627e9991b0aa
+  - gate: truth
+    status: insufficient
+    reason: 不清楚它读取哪些客户数据、是否自动发送，交付确定性与人工边界尚未核验。
+    evidence_ids:
+    - ev-ff78627e9991b0aa
+  next_validation: 收集该产品的官方定价页或客户案例，确认它读取的数据源、产出形态与计费方式。
+  market: ''
+  job: 客户成功或营销人员在维护一批客户时，需要判断哪些客户此刻值得发一封邮件，并快速写出合适内容。
+  job_en: Customer success or marketing staff maintaining a book of customers need to judge which accounts
+    deserve an email right now and quickly write suitable content.
+  pain: 触达时机靠人盯数据或凭感觉，容易漏掉该跟进的人，也容易在错误时间打扰客户。
+  pain_en: Timing relies on someone watching data or on gut feel, so follow-ups get missed and customers
+    get disturbed at the wrong moment.
+  current_alternative: 现在多靠人工在 CRM 里筛条件、设固定节奏的群发，或手动逐个查看客户动态。
+  current_alternative_en: Today teams filter conditions in a CRM, run fixed-cadence bulk sends, or manually
+    check each account's activity.
+  usage_reason: 推断：相较人工筛条件和固定节奏群发，它把触发判断前置到信号层并直接给出可发送内容，减少逐个排查客户动态的那一步，因此客户量大、跟进人手不足的团队会考虑使用。
+  usage_reason_en: 'Inference: compared with manual filtering and fixed-cadence blasts, it moves the trigger
+    decision to the signal layer and hands over sendable content, removing the step of checking each account,
+    so teams with many accounts and thin follow-up staff would consider it.'
+- id: req-full-superdraft-2026-10-16
+  project_slug: superdraft
+  level: full
+  reviewed_at: '2026-10-16T01:24:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决触达时机判断与内容起草的需求，痛点是漏跟进和错误打扰；公开材料仅一句定位，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-ff78627e9991b0aa
+  - gate: consensus
+    status: insufficient
+    reason: 缺少用户评价、采用数据或客户案例，无法判断营销人员是否已把它放进日常流程，关注度不能替代持续采用。
+    evidence_ids:
+    - ev-ff78627e9991b0aa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自 to B 订阅或按发送量计费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ff78627e9991b0aa
+  - gate: truth
+    status: insufficient
+    reason: 不清楚它读取哪些客户数据、产出是草稿还是直接发送，交付确定性与人工边界尚未核验。
+    evidence_ids:
+    - ev-ff78627e9991b0aa
+  next_validation: 追踪 Superdraft 官方定价页或客户案例，确认其读取的数据源、产出形态与计费方式。
+  market: ''
+  job: 客户成功或营销人员在维护一批客户账号时，需要判断哪些客户此刻值得发一封邮件，并快速写出合适的触达内容。
+  job_en: Customer success or marketing staff maintaining a book of accounts need to judge which accounts
+    deserve an email right now and quickly write suitable outreach content.
+  pain: 触达时机靠人盯数据或凭感觉，容易漏掉该跟进的客户，也容易在错误时间打扰客户；公开材料只给出产品定位，痛点强度属工作流结构推理。
+  pain_en: Timing relies on someone watching data or on gut feel, so follow-ups get missed and customers
+    get disturbed at the wrong moment; the public material only states the product positioning, so pain
+    intensity is a workflow-structure inference.
+  current_alternative: 现在多靠人工在 CRM 里筛条件、设固定节奏群发，或逐个手动查看客户动态。
+  current_alternative_en: Today teams filter conditions in a CRM, run fixed-cadence bulk sends, or manually
+    check each account's activity.
+  usage_reason: 推断：相较人工筛条件和固定节奏群发，它把触发判断前置到客户信号层并直接产出可发送内容，减少逐个排查客户动态那一步，因此客户量大、跟进人手不足的团队会考虑使用；公开材料未提供用户反馈，动机属推断。
+  usage_reason_en: 'Inference: compared with manual filtering and fixed-cadence blasts, it moves the trigger
+    decision to the signal layer and hands over sendable content, removing the step of checking each account,
+    so teams with many accounts and thin follow-up staff would consider it; no user feedback is public,
+    so the motive is inferred.'

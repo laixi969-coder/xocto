@@ -1,0 +1,94 @@
+- id: req-initial-jevcrawl-2026-10-16
+  project_slug: jevcrawl
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Agent 取网页答案时每页都产生模型调用、命中答案页不稳定的问题，旧做法是通用爬虫拼接或让模型边爬边找。
+    evidence_ids:
+    - ev-00556c90223e4507
+    - ev-0991fd6bfdcbbfa7
+  - gate: consensus
+    status: insufficient
+    reason: 有开源关注度与讨论，但缺少用户评价或客户案例说明它已被放进日常工作流。
+    evidence_ids:
+    - ev-00556c90223e4507
+    - ev-4d41d3f058cec597
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方与付费路径不明；按抓取量或按答案条数收费只是推断。
+    evidence_ids:
+    - ev-0991fd6bfdcbbfa7
+  - gate: truth
+    status: insufficient
+    reason: 2 倍命中率与 10 倍成本优势来自项目自述，缺少独立复现与失败场景说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-0991fd6bfdcbbfa7
+    - ev-4d41d3f058cec597
+  next_validation: 收集 Jevcrawl 仓库 issue 与讨论，核对命中率与成本对比是否被独立复现。
+  market: ''
+  job: AI Agent 开发者在让 Agent 回答需要网页事实的问题时，需要处理目标站点页面，取回包含答案的那一页并交给模型，以完成回答且不让抓取成本失控。
+  job_en: AI agent developers, when an agent must answer questions needing web facts, work through target
+    site pages to retrieve the page holding the answer and hand it to the model, completing the answer
+    without letting crawl cost run away.
+  pain: 让大模型边爬边找答案，每次抓取都产生模型调用费用，且命中答案页不稳定，长尾站点尤其费钱。
+  pain_en: Letting a large model crawl and search at once incurs model-call cost on every fetch and hits
+    the answer page inconsistently, especially on long-tail sites.
+  current_alternative: 用通用爬虫框架自行拼接抓取与解析，或直接让大模型在循环里浏览网页。
+  current_alternative_en: Stitching a general crawler framework with parsing, or letting a large model
+    browse pages inside the loop.
+  usage_reason: 推断：相较让模型在爬取循环里边走边判断，它把抓取与定位答案页做成不含模型的确定性步骤，省掉每页的模型调用，因此抓取量大、对单次答案成本敏感的 Agent 团队会在长尾站点取数时选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: unlike letting a model judge inside the crawl loop, it makes fetching and
+    answer-page location a deterministic, model-free step, removing per-page model calls, so agent teams
+    with high fetch volume and cost sensitivity would pick it for long-tail sites; no retention or repeat-use
+    evidence yet.'
+- id: req-full-jevcrawl-2026-10-16
+  project_slug: jevcrawl
+  level: full
+  reviewed_at: '2026-10-16T01:21:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Agent 取网页答案时每页都产生模型调用、命中答案页不稳定的问题，旧做法是通用爬虫拼接或让模型边爬边找。
+    evidence_ids:
+    - ev-00556c90223e4507
+    - ev-0991fd6bfdcbbfa7
+  - gate: consensus
+    status: insufficient
+    reason: 有开源关注度与讨论，但缺少用户评价或客户案例说明它已被放进日常工作流。
+    evidence_ids:
+    - ev-00556c90223e4507
+    - ev-4d41d3f058cec597
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方与付费路径不明；按抓取量或按答案条数收费只是推断。
+    evidence_ids:
+    - ev-0991fd6bfdcbbfa7
+  - gate: truth
+    status: insufficient
+    reason: 2 倍命中率与 10 倍成本优势来自项目自述，缺少独立复现与失败场景说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-0991fd6bfdcbbfa7
+    - ev-4d41d3f058cec597
+  next_validation: 收集 Jevcrawl 仓库 issue 与讨论，核对命中率与成本对比是否被独立复现。
+  market: ''
+  job: AI Agent 开发者在让 Agent 回答需要网页事实的问题时，需要处理目标站点页面，取回包含答案的那一页并交给模型，以完成回答且不让抓取成本失控。
+  job_en: AI agent developers, when an agent must answer questions needing web facts, work through target
+    site pages to retrieve the page holding the answer and hand it to the model, completing the answer
+    without letting crawl cost run away.
+  pain: 让大模型边爬边找答案，每次抓取都产生模型调用费用，且命中答案页不稳定，长尾站点尤其费钱。
+  pain_en: Letting a large model crawl and search at once incurs model-call cost on every fetch and hits
+    the answer page inconsistently, especially on long-tail sites.
+  current_alternative: 用通用爬虫框架自行拼接抓取与解析，或直接让大模型在循环里浏览网页。
+  current_alternative_en: Stitching a general crawler framework with parsing, or letting a large model
+    browse pages inside the loop.
+  usage_reason: 推断：相较让模型在爬取循环里边走边判断，它把抓取与定位答案页做成不含模型的确定性步骤，省掉每页的模型调用，因此抓取量大、对单次答案成本敏感的 Agent 团队会在长尾站点取数时选择它；尚无留存或复购证据。
+  usage_reason_en: 'Inference: unlike letting a model judge inside the crawl loop, it makes fetching and
+    answer-page location a deterministic, model-free step, removing per-page model calls, so agent teams
+    with high fetch volume and cost sensitivity would pick it for long-tail sites; no retention or repeat-use
+    evidence yet.'

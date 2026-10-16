@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5XN2hFcHJMV2ox
 summary: 中国人工智能加入“失控”大军：腾讯AI被指越界操作 纽约时报中文网
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

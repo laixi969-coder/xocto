@@ -1,0 +1,90 @@
+- id: req-initial-ailearningguide-2026-10-16
+  project_slug: ailearningguide
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自学 AI 时“看得懂跑不通”的问题，痛点具体且不解决的代价是长期停留在概念层；交付为可交互实验，属工作流推理。
+    evidence_ids:
+    - ev-b5e1a7b2807e9435
+    - ev-03e1136fd06c1395
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与实验数量，缺少课程采用、学员完成率或教师采购等公开证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-03e1136fd06c1395
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；判断可能来自课程授权或企业培训采购，但这是推断，不是已验证事实。
+    evidence_ids:
+    - ev-b5e1a7b2807e9435
+  - gate: truth
+    status: insufficient
+    reason: 实验内容与真实模型机制是否一致、是否需人工核对结论，公开材料未说明；缺少可复现实测与安全边界描述。
+    evidence_ids:
+    - ev-03e1136fd06c1395
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认 51 个实验的具体输入输出、是否被课程或培训机构采用。
+  market: ''
+  job: 想转岗或入门 AI 的工程师与学生在自学时，面对论文、教程和框架文档，需要真正跑通并理解模型内部机制，而不是只记住概念。
+  job_en: Engineers and students entering or switching into AI, studying alone with papers, tutorials
+    and framework docs, need to actually run and understand model internals rather than memorise concepts.
+  pain: 纯阅读教程容易停留在概念层，本地从零搭实验环境成本高、报错多，学习反馈慢，很多人卡在“看得懂但跑不通”。
+  pain_en: Reading tutorials keeps learners at the concept level; building lab environments locally is
+    costly and error-prone, feedback is slow, and many get stuck at 'understand it but cannot run it'.
+  current_alternative: 看视频课程、读博客与论文、在 Colab 或本地手动拼装 notebook，或报名付费训练营。
+  current_alternative_en: Video courses, blog posts and papers, hand-assembling notebooks in Colab or
+    locally, or paying for a bootcamp.
+  usage_reason: 推断：相较自己拼环境，它把 51 个实验预先封装成可交互桌面应用，省掉环境配置与调试这一步，让学习者在几分钟内看到参数变化对模型行为的影响，因此适合自学时间碎片化、又需要动手验证的转岗人群。
+  usage_reason_en: 'Inference: versus assembling environments themselves, it packages 51 labs into an
+    interactive desktop app, removing the setup-and-debug step so learners see parameter effects within
+    minutes, which suits career-switchers with fragmented study time who need hands-on verification.'
+- id: req-full-ailearningguide-2026-10-16
+  project_slug: ailearningguide
+  level: full
+  reviewed_at: '2026-10-16T01:19:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自学 AI 时“看得懂跑不通”的需求，痛点是不动手就停在概念层、自建环境成本高；交付为 51 个可交互实验，属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-b5e1a7b2807e9435
+    - ev-03e1136fd06c1395
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 152 增至 186 与实验数量，缺少课程采用、学员完成率或教师采购等公开证据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-b5e1a7b2807e9435
+    - ev-03e1136fd06c1395
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价页或付费路径；钱可能来自课程授权或企业培训采购，但这是判断而非已验证事实，也未发现 to C 订阅证据。
+    evidence_ids:
+    - ev-b5e1a7b2807e9435
+  - gate: truth
+    status: insufficient
+    reason: 实验内容与真实模型机制是否一致、结论是否需人工核对，公开材料未说明；缺少可复现实测与安全边界描述，交付确定性尚未核验。
+    evidence_ids:
+    - ev-03e1136fd06c1395
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认 51 个实验的具体输入输出、是否被课程或培训机构采用，以及是否出现定价或授权说明。
+  market: ''
+  job: 想转岗或入门 AI 的工程师与自学者，在自学机器学习基础、Transformer、RAG、智能体、微调与量化等主题时，面对论文、教程和框架文档，需要亲手调参并观察模型行为，把抽象机制变成自己跑出来的结论。
+  job_en: Engineers and self-learners entering or switching into AI, studying ML fundamentals, transformers,
+    RAG, agents, fine-tuning and quantization, need to tweak parameters and observe model behaviour themselves,
+    turning abstract mechanisms into conclusions they ran themselves.
+  pain: 公开材料只说明它提供 51 个交互实验，未直接记录用户抱怨；从工作流看，纯读教程容易停在概念层，本地从零搭环境报错多、反馈慢，学习者常卡在“看得懂但跑不通”，这是结构推理而非用户口述。
+  pain_en: Public material only documents 51 interactive labs, not user complaints; structurally, reading
+    alone keeps learners at the concept level, and building environments locally is error-prone with slow
+    feedback, so many stall at 'understand it but cannot run it' — this is inference, not user testimony.
+  current_alternative: 看视频课程、读博客与论文、在 Colab 或本地手动拼装 notebook，或报名付费训练营。
+  current_alternative_en: Video courses, blog posts and papers, hand-assembling notebooks in Colab or
+    locally, or paying for a bootcamp.
+  usage_reason: 推断：相较自己拼环境，它把 51 个实验预封装成可交互桌面应用，省掉环境配置与调试这一步，让学习者在几分钟内看到参数变化对模型行为的影响，因此自学时间碎片化、又需要动手验证的转岗人群会在这种情况下选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus assembling environments themselves, it packages 51 labs into an
+    interactive desktop app, removing the setup-and-debug step so learners see parameter effects within
+    minutes; career-switchers with fragmented study time who need hands-on verification would choose it
+    in that situation. No retention or repeat-use evidence is public.'

@@ -24,3 +24,48 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+- id: req-initial-sendra-2026-10-16
+  project_slug: sendra
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决设计稿到可投递 HTML 的转换需求，痛点真实，但公开材料未说明 AI 具体介入哪一步，也未给出旧流程耗时或用户抱怨证据，价值结构尚不能确认。
+    evidence_ids:
+    - ev-fd4ca70d504aa1b2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有产品页一句描述，没有用户评价、客户案例或社区讨论，无法判断是否有人已在用。
+    evidence_ids:
+    - ev-fd4ca70d504aa1b2
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料未披露定价、买方类型或收费方式，to C 还是 to B 无法判断，也未说明是否按导出量收费。
+    evidence_ids:
+    - ev-fd4ca70d504aa1b2
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对导出结果是否真能在各客户端确定性渲染，也未说明人工校对边界，交付确定性待核验。
+    evidence_ids:
+    - ev-fd4ca70d504aa1b2
+  next_validation: 收集 Sendra 官方产品页或定价页，确认其是否使用模型处理设计稿到 HTML 的转换、按什么计价，以及是否提供导出邮件的客户端渲染说明或客户案例。
+  market: ''
+  job: 邮件营销设计师或独立站运营者在准备营销邮件时，先在 Figma 里完成视觉稿，再需要把它变成能在 Gmail、Outlook 等客户端正常渲染的 HTML 邮件，用于群发投放。
+  job_en: An email marketing designer or independent store operator prepares a campaign by finishing a
+    visual draft in Figma, then needs it turned into HTML email that renders correctly in Gmail, Outlook
+    and other clients for bulk sending.
+  pain: 设计稿到可投递 HTML 之间通常要手工切图、写表格布局并逐客户端测试，反复返工；但公开材料没有说明 Sendra 是否用模型处理这一转换，也没给出用户抱怨或替代行为的证据。
+  pain_en: Moving from design file to sendable HTML usually means manual slicing, table-based layout coding
+    and per-client testing with repeated rework; however the public material does not say whether Sendra
+    uses a model for this conversion, nor does it show user complaints or workaround evidence.
+  current_alternative: 现有做法是设计师手工切图写 HTML、使用邮件模板市场买模板，或依赖 Mailchimp、Klaviyo 等平台自带的拖拽编辑器。
+  current_alternative_en: Today designers hand-code HTML from slices, buy templates from email template
+    marketplaces, or rely on the drag-and-drop editors built into Mailchimp, Klaviyo and similar platforms.
+  usage_reason: 推断：若导出确实能省掉手工切图与逐客户端调试，设计师会在改版频繁、需要保持品牌视觉一致的场景下选择它；但公开材料未说明 AI 具体介入哪一步，也未提供用户反馈或留存证据，因此选择动机目前只是结构推断。
+  usage_reason_en: 'Inference: if the export genuinely removes manual slicing and per-client debugging,
+    designers would pick it when revisions are frequent and brand visuals must stay consistent; but the
+    public material does not say which step AI handles and offers no user feedback or retention evidence,
+    so the motivation remains a structural inference only.'

@@ -1,0 +1,42 @@
+- id: req-initial-channelos-2026-10-16
+  project_slug: channelos
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决本地影音库缺少连续观看体验的问题，但公开材料未说明 AI 承担什么动作，痛点强度无法确认。
+    evidence_ids:
+    - ev-dee2cd7ce29a37cf
+  - gate: consensus
+    status: insufficient
+    reason: 没有采用、评价或案例证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-dee2cd7ce29a37cf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是否面向家庭订阅或硬件捆绑均不清楚。
+    evidence_ids:
+    - ev-dee2cd7ce29a37cf
+  - gate: truth
+    status: insufficient
+    reason: 频道编排是否贴近观看第一性目标、能否确定性交付，公开材料未给出可核验结果。
+    evidence_ids:
+    - ev-dee2cd7ce29a37cf
+  next_validation: 收集 ChannelOS 官方页面对频道编排方式、AI 角色与定价的说明。
+  market: ''
+  job: 拥有本地影音库的家庭用户，在客厅或电脑前把散落的本地视频整理成可连续播放的频道式节目单。
+  job_en: Households with local media libraries turning scattered local videos into continuously playable
+    channel-style schedules on a TV or computer.
+  pain: 本地文件需要逐个挑选才能播放，缺少像电视一样打开就有的连续观看体验；但公开材料未说明这一痛点是否被真实用户提出。
+  pain_en: Local files must be picked one by one, lacking a TV-like continuous experience that starts
+    on opening; but the public material does not show this pain being raised by real users.
+  current_alternative: 使用 Plex、Jellyfin 等媒体服务器手动挑选播放，或直接打开文件夹逐个播放。
+  current_alternative_en: Using media servers such as Plex or Jellyfin to pick items manually, or opening
+    folders and playing files one by one.
+  usage_reason: 推断：若频道编排能自动完成，用户可省去逐个挑选这一步，获得打开即看的体验；但 AI 是否参与、编排质量如何均未公开，尚不足以判断用户是否会选择它。
+  usage_reason_en: 'Inference: if channel scheduling is automatic, users skip the step of picking items
+    one by one and get a start-watching experience; but whether AI is involved and how good the scheduling
+    is are undisclosed, so user choice cannot yet be judged.'

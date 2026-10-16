@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE9LZnU3SHdSdnp4
 summary: 热点对话：全域AI——汽车正在迈向统一智能体吗？_车市动态 中金在线
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

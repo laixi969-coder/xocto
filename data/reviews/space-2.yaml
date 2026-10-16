@@ -1,0 +1,87 @@
+- id: req-initial-space-2-2026-10-16
+  project_slug: space-2
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 与用户代码在自有环境中的隔离执行需求，痛点是越权与数据污染，旧做法是自建容器或人工审查，结构上成立。
+    evidence_ids:
+    - ev-afcef51d30d11a3d
+  - gate: consensus
+    status: insufficient
+    reason: 公开信号只有仓库星标与 issue 数，属于关注度而非持续采用，尚无团队在生产中依赖它的公开证据。
+    evidence_ids:
+    - ev-afcef51d30d11a3d
+  - gate: model
+    status: insufficient
+    reason: 开源项目本身无定价页，钱可能来自云托管、企业支持或内部降本，属判断而非已验证事实。
+    evidence_ids:
+    - ev-afcef51d30d11a3d
+  - gate: truth
+    status: insufficient
+    reason: 隔离执行贴近第一性目标，但沙箱逃逸边界、资源配额与人工介入规则在公开材料中未说明。
+    evidence_ids:
+    - ev-afcef51d30d11a3d
+  next_validation: 收集 SPACE 仓库的部署文档与 issue/discussion，确认隔离边界、运行时支持范围与是否有外部团队在生产中使用。
+  market: ''
+  job: 平台工程师在把 agent 接入真实业务时，需要让 agent 生成的代码和用户提交的代码在受控环境里执行，并拿到可回收的结果。
+  job_en: Platform engineers wiring agents into real business flows need agent-generated and user-submitted
+    code to run in a controlled environment and return retrievable results.
+  pain: 直接在自有服务器上跑模型生成的代码，一旦越权或死循环就可能污染生产环境、泄露数据，团队只能靠人工审查或干脆不让 agent 执行代码。
+  pain_en: Running model-generated code directly on own servers risks polluting production or leaking
+    data on privilege escalation or infinite loops, so teams either review by hand or block code execution
+    entirely.
+  current_alternative: 自建容器加脚本、用云厂商的通用沙箱服务，或干脆限制 agent 只能输出代码文本由人复制执行。
+  current_alternative_en: Self-built containers plus scripts, generic cloud sandbox services, or restricting
+    agents to emitting code text that a human copies and runs.
+  usage_reason: 推断：相较自建容器脚本，SPACE 把运行时做成可插拔并直接面向 agent 调用，团队不必自己维护隔离、回收与多语言运行时这一整套，因此正在把 agent 推向生产的平台团队会在需要执行不可信代码时选它。
+  usage_reason_en: 'Inference: compared with self-built container scripts, SPACE makes runtimes pluggable
+    and aimed directly at agent invocation, so teams avoid maintaining isolation, cleanup and multi-language
+    runtimes themselves; platform teams pushing agents to production would pick it when untrusted code
+    must run.'
+- id: req-full-space-2-2026-10-16
+  project_slug: space-2
+  level: full
+  reviewed_at: '2026-10-16T01:24:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部为 NASA、Space.com、Wikipedia 的太空主题内容，与 agent 代码隔离执行无关，无法还原用户任务、痛点、旧替代与不采用的后果，价值结构无从成立。
+    evidence_ids:
+    - ev-d06ee80c884a0c6e
+    - ev-26926f5589194bab
+    - ev-1294e202da82a0b1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 SPACE 项目官网或代码仓库的 README、部署文档与 issue/discussion，确认其隔离执行边界、运行时支持范围及是否有外部团队在生产中使用。
+  market: ''
+  job: 平台或后端工程师在自建 agent 执行环境时，把 agent 生成的代码与用户提交的代码交给 SPACE，由可插拔运行时在隔离沙箱中执行并回收结果。
+  job_en: Platform or backend engineers building their own agent execution environment hand agent-generated
+    and user-submitted code to SPACE, which runs it in isolated sandboxes via pluggable runtimes and returns
+    results.
+  pain: 公开材料未提供任何用户痛点、抱怨或 workaround 证据；现有证据条目全部指向 NASA、Space.com、Wikipedia 的太空主题内容，与 agent 代码隔离执行无关，无法确认痛点存在及其刚性。
+  pain_en: No public evidence of user pain, complaints, or workarounds is provided; all evidence items
+    point to NASA, Space.com, and Wikipedia space-themed content unrelated to agent code isolation, so
+    the pain and its rigidity cannot be confirmed.
+  current_alternative: 公开材料未记录任何现有替代方式；自建容器、通用云沙箱或人工复制执行等只能作为结构猜测，缺乏可引用的公开事实支撑。
+  current_alternative_en: No current alternatives are documented in the public material; self-built containers,
+    generic cloud sandboxes, or manual copy-and-run remain structural guesses without citable public facts.
+  usage_reason: 无法从现有证据说明用户为何选择它：证据条目与产品主题完全错配，既无用户反馈也无客户案例，任何使用理由都只能是无依据的推断。
+  usage_reason_en: 'No evidence explains why users would choose it: the evidence items are entirely mismatched
+    with the product topic, with no user feedback or customer cases, so any usage reason would be unsupported
+    inference.'

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/cobalt-10
 summary: Your Kobo can run apps now
 first_seen: '2026-08-26T11:11:37Z'
 last_seen: '2026-08-28T06:07:17Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:
@@ -29,6 +29,7 @@ sightings:
   url: https://www.producthunt.com/products/cobalt-10
   seen_at: '2026-08-28T06:07:17Z'
   metrics: {}
+  kind: product
 ---
 
 # Cobalt

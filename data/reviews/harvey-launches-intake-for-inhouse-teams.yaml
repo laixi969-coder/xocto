@@ -1,0 +1,90 @@
+- id: req-initial-harvey-launches-intake-for-inhouse-teams-2026-10-16
+  project_slug: harvey-launches-intake-for-inhouse-teams
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业法务请求接收与分流的任务，痛点是请求散落、人工分派易漏单；旧行为明确，但功能细节未披露，属结构推理。
+    evidence_ids:
+    - ev-0d55edc7de37bf34
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，无客户案例、使用数据或法务人员反馈，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-0d55edc7de37bf34
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、计费方式或买方采购路径，钱从哪来只能推断为企业法务预算，非已验证事实。
+    evidence_ids:
+    - ev-0d55edc7de37bf34
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 AI 接收的材料范围、分派准确性与人工复核边界，交付确定性未知。
+    evidence_ids:
+    - ev-0d55edc7de37bf34
+  next_validation: 收集 Harvey 官方产品页或发布文档中关于 Intake 的输入材料、处理动作与交付结果说明。
+  market: ''
+  job: 企业法务人员在业务部门提交合同、合规或咨询请求时，处理邮件、表单等零散请求材料，完成接收、分类并分派给合适的法务人员。
+  job_en: In-house legal staff handle scattered email and form requests when business teams submit contract,
+    compliance or advisory requests, receiving, classifying and routing them to the right lawyer.
+  pain: 请求散落在邮件和表单中，靠人工阅读判断类型和优先级，容易漏单、重复沟通，响应时间不可控。
+  pain_en: Requests are scattered across email and forms and are read manually to judge type and priority,
+    so items get missed, communication repeats and response time is unpredictable.
+  current_alternative: 法务人员手工翻邮件、用共享表格或工单系统登记，再凭经验分派；部分团队由助理或 paralegal 做前置筛选。
+  current_alternative_en: Lawyers manually scan email, log items in shared spreadsheets or ticketing tools
+    and route by experience; some teams use assistants or paralegals for front-line screening.
+  usage_reason: 推断：相较手工翻邮件和表格登记，若该产品能在请求进入时自动读取内容并完成分类与分派，可减少法务人员逐条阅读和登记这一步负担，因此请求量大、业务部门多的企业法务团队会在入口环节选择它；候选未提供功能细节，此判断基于产品定位的结构推理。
+  usage_reason_en: 'Inference: compared with manually scanning email and logging in spreadsheets, if the
+    product reads incoming requests and classifies and routes them automatically, it removes the step
+    of reading and logging each item one by one, so in-house teams with high request volume and many business
+    units would choose it at the intake step; the candidate gives no feature detail, so this rests on
+    structural reasoning about the product''s positioning.'
+- id: req-full-harvey-launches-intake-for-inhouse-teams-2026-10-16
+  project_slug: harvey-launches-intake-for-inhouse-teams
+  level: full
+  reviewed_at: '2026-10-16T01:21:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业法务请求接收与分流的任务，痛点是请求散落、人工分派易漏单；旧行为明确，但功能细节未披露，属结构推理。
+    evidence_ids:
+    - ev-558352f430287d28
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道与平台级律师使用规模，无 Intake 客户案例或法务人员反馈，无法判断该模块是否形成采用共识。
+    evidence_ids:
+    - ev-558352f430287d28
+    - ev-5cdf8eb5859aab27
+  - gate: model
+    status: insufficient
+    reason: 候选未披露 Intake 定价、计费方式或买方采购路径，钱从哪来只能推断为企业法务预算，非已验证事实。
+    evidence_ids:
+    - ev-558352f430287d28
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 AI 接收的材料范围、分派准确性与人工复核边界，交付确定性未知。
+    evidence_ids:
+    - ev-5cdf8eb5859aab27
+  next_validation: 收集 Harvey 官方产品页或发布文档中关于 Intake 的输入材料、处理动作与交付结果说明。
+  market: ''
+  job: 企业法务人员在业务部门通过邮件、表单等渠道发来合同、合规或咨询请求时，处理这些零散请求材料，完成接收、分类并分派给合适的法务人员。
+  job_en: In-house legal staff handle scattered email and form requests when business teams submit contract,
+    compliance or advisory requests, receiving, classifying and routing them to the right lawyer.
+  pain: 请求散落在邮件和表单中，靠人工阅读判断类型与优先级，容易漏单、重复沟通，响应时间不可控；候选材料未披露该产品具体接收什么材料、执行哪些动作。
+  pain_en: Requests are scattered across email and forms and are read manually to judge type and priority,
+    so items get missed, communication repeats and response time is unpredictable; the candidate does
+    not disclose what materials the product ingests or what actions it performs.
+  current_alternative: 法务人员手工翻邮件、用共享表格或工单系统登记，再凭经验分派；部分团队由助理或 paralegal 做前置筛选。
+  current_alternative_en: Lawyers manually scan email, log items in shared spreadsheets or ticketing tools
+    and route by experience; some teams use assistants or paralegals for front-line screening.
+  usage_reason: 推断：相较手工翻邮件和表格登记，若该产品能在请求进入时自动读取内容并完成分类与分派，可减少法务人员逐条阅读和登记这一步负担，因此请求量大、业务部门多的企业法务团队会在入口环节选择它；候选未提供功能细节，此判断基于产品定位的结构推理。
+  usage_reason_en: 'Inference: compared with manually scanning email and logging in spreadsheets, if the
+    product reads incoming requests and classifies and routes them automatically, it removes the step
+    of reading and logging each item one by one, so in-house teams with high request volume and many business
+    units would choose it at the intake step; the candidate gives no feature detail, so this rests on
+    structural reasoning about the product''s positioning.'

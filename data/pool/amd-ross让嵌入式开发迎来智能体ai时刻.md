@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE1Ob3pGSGZYbzNE
 summary: AMD Ross，让嵌入式开发迎来“智能体AI”时刻 电子工程专辑
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

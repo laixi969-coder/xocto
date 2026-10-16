@@ -1,0 +1,93 @@
+- id: req-initial-macpaw-launches-eney-the-proactive-ai-assistant-that-lives-o-2026-10-16
+  project_slug: macpaw-launches-eney-the-proactive-ai-assistant-that-lives-o
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决日常琐事分散在多应用、需反复手动操作的需求，痛点是切换与重复劳动；跨设备主动执行在结构上减少这一步，属工作流推理。
+    evidence_ids:
+    - ev-dbf36c2ce788b66c
+  - gate: consensus
+    status: insufficient
+    reason: 发布稿只说明产品上线，没有采用规模、评价或持续使用证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-dbf36c2ce788b66c
+  - gate: model
+    status: insufficient
+    reason: MacPaw 作为付费软件厂商有既有分发渠道，但 Eney 的定价与收费方式未披露，买方与付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-dbf36c2ce788b66c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明助手能确定完成哪些任务、失败或需人工确认时如何处理，交付确定性无法核对。
+    evidence_ids:
+    - ev-dbf36c2ce788b66c
+  next_validation: 收集 Eney 官方定价页与支持文档，确认其收费方式以及哪些日常任务能确定性完成、哪些需用户确认。
+  market: ''
+  job: Mac 与 iPhone 用户在日常处理琐事时，面对分散在多个应用里的待办与操作，要完成跨设备的任务执行而不必逐个应用手动操作。
+  job_en: Mac and iPhone users handling daily chores, facing to-dos and actions spread across multiple
+    apps, want cross-device task execution without manually operating each app.
+  pain: 日常琐事分散在多个应用，用户要反复切换并手动完成重复操作，时间被切碎。
+  pain_en: Daily chores are spread across apps, forcing repeated switching and manual repetition that
+    fragments the user's time.
+  current_alternative: 逐个打开系统应用或第三方工具手动完成，或使用单一平台的语音助手。
+  current_alternative_en: Opening system or third-party apps one by one to do it manually, or using a
+    single-platform voice assistant.
+  usage_reason: 推断：相较逐个应用手动操作，Eney 由用户给出任务后主动跨设备执行，减少的是“找到应用再一步步点”的环节，因此日常琐事多、同时用 Mac 与 iPhone 的用户会在重复性任务上尝试它；公开材料未给出留存或复购证据，不能认定已进入长期工作流。
+  usage_reason_en: 'Inference: versus manually operating app by app, Eney executes cross-device once the
+    user states a task, removing the ''find the app and click through'' step, so users with many daily
+    chores across Mac and iPhone would try it for repetitive tasks; no retention or repeat-use evidence
+    is public, so long-term workflow adoption cannot be claimed.'
+- id: req-full-macpaw-launches-eney-the-proactive-ai-assistant-that-lives-o-2026-10-16
+  project_slug: macpaw-launches-eney-the-proactive-ai-assistant-that-lives-o
+  level: full
+  reviewed_at: '2026-10-16T01:22:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决日常琐事分散在多应用、需反复手动切换与重复操作的需求，痛点是切换混乱与时间被切碎；官方称由助手主动查找信息、连接应用并在任务堆积前完成，结构上减少“找应用再逐步点”的环节，属工作流推理。
+    evidence_ids:
+    - ev-69d75e23cddb5f81
+    - ev-80cf89c8bb3ab74e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官方产品页与发布表述，没有采用规模、用户评价或持续使用证据，是否形成使用共识无法判断；公开关注度不能替代采用证据。
+    evidence_ids:
+    - ev-69d75e23cddb5f81
+    - ev-80cf89c8bb3ab74e
+  - gate: model
+    status: insufficient
+    reason: MacPaw 是既有付费软件厂商，具备分发渠道，但 Eney 的定价与收费方式未在公开材料披露，买方与付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-db0dd72bd0b605dc
+    - ev-80cf89c8bb3ab74e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明助手能确定性完成哪些任务、失败或需人工确认时如何处理，也未给出安全与权限边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-69d75e23cddb5f81
+    - ev-80cf89c8bb3ab74e
+  next_validation: 追踪 Eney 官方定价页与支持文档，确认收费方式，以及哪些日常任务能确定性完成、哪些需用户确认或受权限限制。
+  market: ''
+  job: Mac 与 iPhone 用户在日常处理琐事时，面对分散在多个应用里的待办、文件与回复，要完成跨设备的任务执行，而不必逐个应用手动切换操作。
+  job_en: Mac and iPhone users handling daily chores, facing to-dos, files and replies scattered across
+    multiple apps, want cross-device task execution without manually switching app by app.
+  pain: 公开材料称用户面对的是“在工具与标签页之间切换的混乱”，日常琐事分散在多个应用，需反复切换并手动完成重复操作，时间被切碎。
+  pain_en: 'Public material describes ''the chaos of switching between tools and tabs'': daily chores
+    are spread across apps, forcing repeated switching and manual repetition that fragments the user''s
+    time.'
+  current_alternative: 逐个打开系统应用或第三方工具手动完成，或使用单一平台的语音助手与通用聊天助手。
+  current_alternative_en: Opening system or third-party apps one by one to do it manually, or using a
+    single-platform voice assistant or a general chat assistant.
+  usage_reason: 推断：相较逐个应用手动操作，Eney 由用户给出任务后主动跨 Mac 与 iPhone 查找信息、连接已接入应用并执行，减少的是“先找应用再一步步点”的环节，因此日常琐事多、同时使用
+    Mac 与 iPhone 的用户会在重复性任务上尝试它；公开材料未给出留存或复购证据，不能认定已进入长期工作流。
+  usage_reason_en: 'Inference: versus manually operating app by app, Eney proactively finds information,
+    connects connected apps and executes across Mac and iPhone once the user states a task, removing the
+    ''find the app then click through'' step, so users with many daily chores on both devices would try
+    it for repetitive tasks; no retention or repeat-use evidence is public, so long-term workflow adoption
+    cannot be claimed.'

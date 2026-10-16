@@ -1,6 +1,6 @@
 ---
 slug: axon-targets-25-to-30-ai-capacity-gains-by-the-end-of-2026
-name: Axon Targets 25% to 30% AI Capacity Gains by the End of 2026
+name: Axon
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sLURZYVF4UUt1
 summary: Axon Targets 25% to 30% AI Capacity Gains by the End of 2026 www.tokenpost.com
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Axon Targets 25% to 30% AI Capacity Gains by the End of 2026
+# Axon
 
 Axon Targets 25% to 30% AI Capacity Gains by the End of 2026 www.tokenpost.com
 

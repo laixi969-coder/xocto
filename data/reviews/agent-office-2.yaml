@@ -230,3 +230,52 @@
     output and matching issue/PR into one visual surface, removing the step of switching windows and aligning
     verbally; teams that routinely run several coding agents in parallel would choose it when they must
     watch several agents at once, as inference.
+- id: req-full-agent-office-2-2026-10-16
+  project_slug: agent-office-2
+  level: full
+  reviewed_at: '2026-10-16T01:18:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时状态分散、进度不可见的需求，痛点来自真实并行工作流，交付是可视化协作面板；但公开材料只有仓库描述与星标，用户任务与旧替代由工作流结构推理得出，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+    - ev-13ed2269d68c0b6e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 696 升至 749，属关注度证据，不能证明团队持续使用或工作流留存；公开材料未见用户评价、issue 讨论或客户案例说明谁在什么场景下反复使用。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+    - ev-31284a2f57ffb3b9
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费路径、企业采购或赞助方式，钱从哪来仍是判断而非已验证事实；也未发现定价页或商业授权信息。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+  - gate: truth
+    status: insufficient
+    reason: 语音沟通与多代理调度能否确定性交付、失败时如何回退，公开材料未给出可核验结果；仓库描述只说明功能存在，未说明边界与安全处理。
+    evidence_ids:
+    - ev-983bc850e7e3054b
+    - ev-a81c26c8736b377f
+  next_validation: 收集该仓库的 README 部署文档与 issue/discussion，确认多代理调度、语音协作的实际交付边界、失败回退方式及是否有用户报告持续使用。
+  market: ''
+  job: 开发团队负责人在同时并行运行多个 Claude Code 编码代理时，需要把分散在各终端里的代理状态、代码改动与 公开代码仓库 issue/PR 进度集中到一处，判断哪个代理卡住、哪份改动可以合并。
+  job_en: An engineering team lead running several Claude Code agents in parallel needs to gather scattered
+    terminal agent states, code changes and public code repository issue/PR progress into one place to
+    judge which agent is stuck and which change can be merged.
+  pain: 多个代理并行时终端窗口互相覆盖，进度、冲突和失败任务只能靠人来回切换查看，容易漏掉失败任务或产生重复改动；公开材料只给出产品能力描述，未提供用户抱怨或采用数据，痛点强度属工作流结构推理。
+  pain_en: With several agents in parallel, terminal windows overwrite each other and progress, conflicts
+    and failed tasks can only be checked by switching back and forth, so failures or duplicate edits are
+    easily missed; public material only describes product capability, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 当前多代理协作多靠多个终端标签页、tmux 分屏加人工口头同步，或干脆串行执行以降低混乱。
+  current_alternative_en: Today multi-agent work mostly relies on multiple terminal tabs, tmux panes plus
+    manual verbal sync, or simply running agents serially to reduce chaos.
+  usage_reason: 相较终端分屏加人工同步，它把每个代理的状态、实时终端输出和对应 issue/PR 放进同一 3D 可视界面，减少来回切换窗口和口头对齐这一步；推断经常并行跑多个编码代理的小团队会在这种场景下选择它，公开材料尚无用户反馈证实该动机。
+  usage_reason_en: Compared with split terminals plus manual sync, it places each agent's state, live
+    terminal output and matching issue/PR into one 3D visual surface, removing the step of switching windows
+    and aligning verbally; teams that routinely run several coding agents in parallel would choose it
+    in that situation, as inference, since no user feedback confirms the motive.

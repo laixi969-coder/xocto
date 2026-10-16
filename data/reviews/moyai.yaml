@@ -258,3 +258,52 @@
   usage_reason: 无法判断：现有证据全部指向东京 Moyai 雕像与 Moai 表情符号，与编码代理产品无关，缺少任何可归因到该产品的功能、用户或采用事实。
   usage_reason_en: 'Cannot be determined: all available evidence concerns the Tokyo Moyai statue and the
     Moai emoji, unrelated to a coding agent product, with no attributable feature, user or adoption facts.'
+- id: req-full-moyai-2026-10-16
+  project_slug: moyai
+  level: full
+  reviewed_at: '2026-10-16T01:22:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长耗时编码任务占用开发者时间、且难以自托管的问题：批量重构、依赖升级、补测试需在自有环境反复运行，旧做法是人工排队或绑定单一云端代理，不解决的后果是主线被打断且数据与模型选择受制。属工作流结构推理。
+    evidence_ids:
+    - ev-915e608b1ceb810f
+    - ev-0f5b0b039c0a94b8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标 261→265、无分叉或用户评价、客户案例，公开材料只显示关注度缓慢累积，无法判断是否形成团队采用共识或强场景。
+    evidence_ids:
+    - ev-915e608b1ceb810f
+    - ev-f6bdb0655df92289
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方可能是自建团队或企业，属判断而非已验证事实；无融资叙事，暂无每日优鲜风险。
+    evidence_ids:
+    - ev-915e608b1ceb810f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未提供任务成功率、人工复核边界或安全隔离说明，交付确定性无法核对；自托管后台代理的权限边界仍待公开文档确认。
+    evidence_ids:
+    - ev-915e608b1ceb810f
+  next_validation: 追踪该仓库的 issue 与 discussion，核对是否有团队报告实际任务完成率、自托管部署方式与人工复核流程。
+  market: ''
+  job: 软件工程师在维护既有代码库时，需要处理批量重构、依赖升级、补测试、修缺陷等长耗时且重复的编码任务，把改动交给自托管后台代理执行，再取回代码变更自行复核合并。
+  job_en: Software engineers maintaining an existing codebase need to handle long-running, repetitive
+    coding work such as bulk refactors, dependency upgrades, test coverage and bug fixes, handing the
+    changes to a self-hosted background agent and retrieving the resulting diffs for their own review
+    and merge.
+  pain: 这类任务单次耗时长、打断主线开发，且必须在自有环境反复运行；现有做法要么人工排队逐个执行，要么依赖单一厂商的云端代理，难以自托管或更换模型，数据与成本都受平台约束。
+  pain_en: Such tasks are long-running, interrupt main development and must be run repeatedly in one's
+    own environment; current practice is either manual queuing or relying on a single vendor's cloud agent,
+    with little self-hosting or model choice, leaving data and cost constrained by that platform.
+  current_alternative: 工程师手动在终端或编辑器里逐个执行任务，或使用单一厂商的云端编码代理，任务排队与模型选择受平台限制。
+  current_alternative_en: Engineers run tasks one by one in a terminal or editor, or use a single vendor's
+    cloud coding agent, with queuing and model choice constrained by that platform.
+  usage_reason: 推断：相较手动逐个执行或绑定单一厂商，它把任务放到自托管后台并允许切换 100 多个模型提供方，减少等待与厂商锁定这一步负担，因此在意数据留在自有环境、又想控制模型成本的团队会优先试用；仓库星标从
+    261 增至 265 只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: compared with running tasks manually or being tied to one vendor, it moves
+    work to a self-hosted background and allows switching among 100+ providers, removing the waiting and
+    lock-in step, so teams that want data kept in-house and model cost control are likely to try it first;
+    the star count rising from 261 to 265 only indicates attention, not sustained use.'

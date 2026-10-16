@@ -1,0 +1,90 @@
+- id: req-initial-rabot-energy-secures-50m-to-transform-homes-into-a-virtual-p-2026-10-16
+  project_slug: rabot-energy-secures-50m-to-transform-homes-into-a-virtual-p
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决动态电价下家庭无法逐时优化充放电、只能多付电费的需求，痛点刚性来自电价波动本身，交付是自动调度与账单变化。
+    evidence_ids:
+    - ev-6bc960b986e20fcd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与产品描述，没有客户数量、留存或复购数据，无法判断家庭是否长期留在该调度流程里。
+    evidence_ids:
+    - ev-6bc960b986e20fcd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与收费方式，买方可能是家庭订阅或电力零售商分成，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6bc960b986e20fcd
+  - gate: truth
+    status: insufficient
+    reason: 15% 节省为公司自述，缺少独立核验的账单结果与电池调度安全边界说明。
+    evidence_ids:
+    - ev-6bc960b986e20fcd
+  next_validation: 收集 Rabot Energy 官方定价页或 Rabot Flow 客户案例，核验家庭实际电费节省与收费方式。
+  market: ''
+  job: 家庭用电用户在签下动态电价并装上家用电池后，需要处理逐时电价、光伏出力与电池电量这些材料，完成自动充放电与卖电回网，以压低每月电费。
+  job_en: A household on a dynamic tariff with a home battery must handle hourly prices, solar output
+    and battery state to automate charging, discharging and selling back, in order to lower the monthly
+    bill.
+  pain: 动态电价下价格逐时变化，人工盯着价格表决定何时充电放电既费时又容易错过低价窗口，不采用就只能按固定电价多付钱。
+  pain_en: Under dynamic tariffs prices move hourly; manually watching the price table to time charging
+    is time-consuming and misses cheap windows, and not adopting means paying more on a flat tariff.
+  current_alternative: 目前多数家庭靠固定电价合同、手动定时充电，或干脆不装电池，把用电时间交给习惯而不是价格。
+  current_alternative_en: Most households today use a flat-rate contract, charge on manual timers, or
+    skip a battery entirely, leaving timing to habit rather than price.
+  usage_reason: 相较手动定时或固定电价，它把电价、光伏与电池数据接进同一套自动调度，省掉用户每天判断何时充放电这一步，并让电池在高价时段放电卖电；因此已装电池、电价波动大的家庭会选它，但节省幅度目前只有公司自述，属推断。
+  usage_reason_en: Compared with manual timers or a flat tariff, it feeds price, solar and battery data
+    into one automated schedule, removing the daily decision of when to charge and letting the battery
+    discharge into high prices; households with a battery in volatile markets would choose it, though
+    the savings figure is company-stated and the reasoning is inference.
+- id: req-full-rabot-energy-secures-50m-to-transform-homes-into-a-virtual-p-2026-10-16
+  project_slug: rabot-energy-secures-50m-to-transform-homes-into-a-virtual-p
+  level: full
+  reviewed_at: '2026-10-16T01:23:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决动态电价下家庭无法逐时优化充放电、只能多付电费的需求，痛点刚性来自电价波动本身，交付是自动调度与账单变化；属工作流结构推理。
+    evidence_ids:
+    - ev-6bc960b986e20fcd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有融资与产品描述，没有客户数量、留存或复购数据，无法判断家庭是否长期留在该调度流程里。
+    evidence_ids:
+    - ev-6bc960b986e20fcd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与收费方式，买方可能是家庭订阅或电力零售商分成，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6bc960b986e20fcd
+  - gate: truth
+    status: insufficient
+    reason: 15% 节省为公司自述，缺少独立核验的账单结果与电池调度安全边界说明。
+    evidence_ids:
+    - ev-6bc960b986e20fcd
+  next_validation: 收集 Rabot Energy 官方定价页或 Rabot Flow 客户案例，核验家庭实际电费节省与收费方式。
+  market: ''
+  job: 已签动态电价并装有家用电池的家庭用户，在电价逐时波动、光伏出力变化的情况下，处理电价曲线、光伏发电与电池电量数据，完成自动充放电与择时卖电回网，以压低每月电费。
+  job_en: A household on a dynamic tariff with a home battery, facing hourly price swings and variable
+    solar output, must handle price curves, solar generation and battery state to automate charging, discharging
+    and timed sell-back in order to lower the monthly bill.
+  pain: 动态电价下价格逐时变化，人工盯价格表决定何时充电放电既费时又容易错过低价窗口；不采用就只能按固定电价多付钱，或让电池闲置。
+  pain_en: Under dynamic tariffs prices move hourly; manually watching the price table to time charging
+    is time-consuming and misses cheap windows, and not adopting means overpaying on a flat tariff or
+    leaving the battery idle.
+  current_alternative: 多数家庭靠固定电价合同、手动定时充电，或干脆不装电池，把用电时间交给习惯而不是价格。
+  current_alternative_en: Most households use a flat-rate contract, charge on manual timers, or skip a
+    battery entirely, leaving timing to habit rather than price.
+  usage_reason: 推断：相较手动定时或固定电价，它把电价、光伏与电池数据接进同一套自动调度，省掉用户每天判断何时充放电这一步，并让电池在高价时段放电卖电；因此已装电池、电价波动大的家庭会选它。15%
+    节省为公司自述，尚无独立账单核验。
+  usage_reason_en: 'Inference: versus manual timers or a flat tariff, it feeds price, solar and battery
+    data into one automated schedule, removing the daily decision of when to charge and letting the battery
+    discharge into high prices; households with a battery in volatile markets would choose it. The 15%
+    saving is company-stated and not independently verified.'

@@ -1,0 +1,78 @@
+- id: req-initial-dub-anything-2026-10-16
+  project_slug: dub-anything
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句按本人音色配音的能力描述。
+    evidence_ids:
+    - ev-8925a40fcbee3647
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有少量社区讨论，不构成采用证据。
+    evidence_ids:
+    - ev-8925a40fcbee3647
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，开源项目无收费路径材料。
+    evidence_ids:
+    - ev-8925a40fcbee3647
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对配音交付是否确定发生。
+    evidence_ids:
+    - ev-8925a40fcbee3647
+  next_validation: 抓取该仓库 README 与 issue，确认输入素材类型、输出格式与人工校对环节。
+  market: ''
+  job: 资料未说明具体使用者与任务，无法确认谁在什么情况下处理什么视频素材、要完成什么配音交付。
+  job_en: The material does not identify a specific user or task, so it is impossible to confirm who handles
+    what video material under what circumstances to deliver what dubbing output.
+  pain: 资料未描述痛点，只给出按演员本人音色配音的能力描述。
+  pain_en: The material describes no pain point, only a capability of dubbing in each actor's own voice.
+  current_alternative: 资料未提及现有替代方式，无法判断此前是找配音演员、用通用 TTS 还是别的做法。
+  current_alternative_en: The material mentions no existing alternative, so it is impossible to judge
+    whether the prior approach was hiring voice actors, using generic TTS, or something else.
+  usage_reason: 缺少输入、动作与交付描述，无法解释用户为何选择它而非旧做法；此处不作推断。
+  usage_reason_en: With no description of input, action or deliverable, there is no basis to explain why
+    a user would choose it over the old approach; no inference is made here.
+- id: req-full-dub-anything-2026-10-16
+  project_slug: dub-anything
+  level: full
+  reviewed_at: '2026-10-16T01:21:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决什么需求、什么痛点都写不出来，只有一句按本人音色配音的能力描述，没有用户任务、旧替代或不采用的后果，无法形成价值判断。
+    evidence_ids:
+    - ev-8925a40fcbee3647
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该仓库 README 与 issue，确认输入素材类型、输出格式与人工校对环节。
+  market: ''
+  job: 资料未说明具体使用者与任务，无法确认谁在什么情况下处理什么视频素材、要完成什么配音交付。
+  job_en: The material does not identify a specific user or task, so it is impossible to confirm who handles
+    what video material under what circumstances to deliver what dubbing output.
+  pain: 资料未描述痛点，只给出按演员本人音色配音的能力描述，无法判断谁在什么环节难受。
+  pain_en: The material describes no pain point, only a capability of dubbing in each actor's own voice,
+    so it is impossible to judge who suffers at which step.
+  current_alternative: 资料未提及现有替代方式，无法判断此前是找配音演员、用通用 TTS 还是别的做法。
+  current_alternative_en: The material mentions no existing alternative, so it is impossible to judge
+    whether the prior approach was hiring voice actors, using generic TTS, or something else.
+  usage_reason: 缺少输入、动作与交付描述，无法解释用户为何选择它而非旧做法；此处不作推断。
+  usage_reason_en: With no description of input, action or deliverable, there is no basis to explain why
+    a user would choose it over the old approach; no inference is made here.

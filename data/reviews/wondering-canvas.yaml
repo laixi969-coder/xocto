@@ -24,3 +24,45 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+- id: req-initial-wondering-canvas-2026-10-16
+  project_slug: wondering-canvas
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决比较多套对话方案时反复重开与复制粘贴的需求，痛点在上下文丢失与对比成本，结构上成立。
+    evidence_ids:
+    - ev-933a625e11f2a3ba
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，无用户评价或采用证据，是否形成稳定使用习惯未知。
+    evidence_ids:
+    - ev-933a625e11f2a3ba
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径；买方是个人用户还是团队属判断，非已验证事实。
+    evidence_ids:
+    - ev-933a625e11f2a3ba
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明并行对话如何计费、是否依赖单一模型、结果能否导出复用，交付确定性待核验。
+    evidence_ids:
+    - ev-933a625e11f2a3ba
+  next_validation: 收集该产品的官方页面或定价说明，确认并行对话的计费方式、支持的模型范围以及结果能否导出复用。
+  market: ''
+  job: 研究或写作的人在需要比较多套方案时，同时发起多路对话，最终从并排结果里挑出可用的一份。
+  job_en: A researcher or writer comparing several options runs multiple chat threads at once and picks
+    a usable one from the side-by-side results.
+  pain: 单线程对话里比较不同答案要反复重开、复制粘贴，容易丢失上下文，对比成本高。
+  pain_en: Comparing answers in a single thread requires reopening and copy-pasting, easily losing context
+    and making comparison costly.
+  current_alternative: 开多个浏览器标签或窗口分别对话，再手动把结果拼到一起比较。
+  current_alternative_en: Opening multiple browser tabs or windows for separate chats and manually assembling
+    results to compare.
+  usage_reason: 推断：相比多标签手动对照，它把多路对话放在同一画布上并排呈现，减少复制粘贴和上下文丢失，因此常做方案对比的人会选它。
+  usage_reason_en: 'Inference: versus manually cross-checking across tabs, it presents parallel threads
+    side by side on one canvas, reducing copy-pasting and context loss, so people who often compare options
+    would pick it.'

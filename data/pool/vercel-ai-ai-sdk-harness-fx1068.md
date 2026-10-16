@@ -25,7 +25,7 @@ summary: '### Patch Changes
   and unlocking additional capabilities'
 first_seen: '2026-10-16T00:25:17Z'
 last_seen: '2026-10-16T00:25:17Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

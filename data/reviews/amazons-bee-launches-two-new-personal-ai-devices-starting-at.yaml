@@ -1,0 +1,84 @@
+- id: req-initial-amazons-bee-launches-two-new-personal-ai-devices-starting-at-2026-10-16
+  project_slug: amazons-bee-launches-two-new-personal-ai-devices-starting-at
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决对话后整理待办与要点的需求，痛点是漏记承诺、事后补记耗时；旧做法是手机录音加手动整理，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-c2c7b3f7f3667c83
+  - gate: consensus
+    status: insufficient
+    reason: 只有发布信息，没有用户评价、采用规模或使用场景反馈，无法判断是否形成共识。
+    evidence_ids:
+    - ev-c2c7b3f7f3667c83
+  - gate: model
+    status: insufficient
+    reason: 公开了 74.99 美元起售价，说明有硬件付费路径，但订阅、分成或企业采购等持续收入方式未披露。
+    evidence_ids:
+    - ev-c2c7b3f7f3667c83
+  - gate: truth
+    status: insufficient
+    reason: 摘要准确率、隐私处理与人工确认边界均未披露，交付确定性无法核对。
+    evidence_ids:
+    - ev-c2c7b3f7f3667c83
+  next_validation: 收集 Bee 官方产品页或支持文档，核对摘要准确率说明、隐私与录音同意机制以及是否提供订阅定价。
+  market: ''
+  job: 个人用户在日常会议、通话或线下交谈中，用随身设备录下对话，事后需要整理成待办与要点。
+  job_en: Individual users record meetings, calls or in-person conversations with a wearable device and
+    later need them turned into to-dos and key points.
+  pain: 对话结束后靠回忆或手写笔记整理，容易漏掉承诺事项，事后补记耗时且不完整。
+  pain_en: After a conversation, people reconstruct it from memory or handwritten notes, often missing
+    commitments, and backfilling later is slow and incomplete.
+  current_alternative: 手机录音加事后手动整理，或纸笔笔记，或干脆不记录。
+  current_alternative_en: Phone recording plus manual cleanup afterwards, pen-and-paper notes, or simply
+    not recording at all.
+  usage_reason: 相较手机录音后手动回听整理，随身设备在对话当下完成采集并直接输出摘要与待办，省掉回听和逐条摘录这一步；推断经常开会或面谈、需要留痕的人会因此选择它，但公开材料未给出留存或复购证据。
+  usage_reason_en: Compared with recording on a phone and manually replaying it, the wearable captures
+    during the conversation and outputs summaries and to-dos directly, removing the replay-and-transcribe
+    step; by inference, people in frequent meetings or interviews who need a record would choose it, though
+    no retention or repeat-purchase evidence is public.
+- id: req-full-amazons-bee-launches-two-new-personal-ai-devices-starting-at-2026-10-16
+  project_slug: amazons-bee-launches-two-new-personal-ai-devices-starting-at
+  level: full
+  reviewed_at: '2026-10-16T01:19:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据链中 Bee 相关条目全部是蜜蜂昆虫学内容，其余为通用 AI 定义与竞品首页，没有任何该产品的用户任务、痛点或旧替代事实，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-8e70c86639a8f4d6
+    - ev-b1c71c855ef84349
+    - ev-a73035e807039bcb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Bee 官方产品页或 Amazon 商品页，核对摘要准确率说明、录音同意与隐私机制、以及是否提供订阅定价。
+  market: ''
+  job: 个人用户在会议、通话或线下交谈时，用随身可穿戴设备或吸附手机的录音器采集对话，事后需要得到可核对的摘要与待办清单。
+  job_en: Individual users capture conversations during meetings, calls or in-person talks with a wearable
+    or phone-attached recorder, and later need checkable summaries and to-do lists.
+  pain: 公开材料只给出产品功能描述，没有任何用户抱怨、漏记承诺、事后补记耗时或旧替代行为的证据，无法确认痛点真实存在及其强度。
+  pain_en: Public material only describes product features; there is no evidence of user complaints, missed
+    commitments, time-consuming backfilling, or existing workarounds, so the pain's existence and intensity
+    cannot be confirmed.
+  current_alternative: 公开材料未提供任何关于用户当前如何记录对话的替代方式证据，无法判断旧做法是什么。
+  current_alternative_en: Public material provides no evidence of how users currently record conversations,
+    so the existing alternative cannot be determined.
+  usage_reason: 缺少用户反馈或采用证据，无法解释用户为何会选择它；产品功能本身不能作为使用理由。
+  usage_reason_en: Without user feedback or adoption evidence, there is no basis to explain why users
+    would choose it; product features alone cannot serve as a usage reason.

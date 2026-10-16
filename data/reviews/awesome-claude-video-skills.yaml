@@ -612,3 +612,47 @@
     screening effort through type categories and security grading, so it appeals to developers adding
     video capability to a coding agent; but the list itself delivers no finished video and does not replace
     an NLE, so it offers little to an editor who just wants output.'
+- id: req-full-awesome-claude-video-skills-2026-10-16
+  project_slug: awesome-claude-video-skills
+  level: full
+  reviewed_at: '2026-10-16T01:19:47Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决的是编码代理用户挑选视频技能包的筛选成本，但公开材料只有清单自述的 180 个仓库与安全分级，没有用户抱怨、失败代价或人工返工证据；不装这份清单，用户仍可直接用剪辑软件或成品
+      AI 视频工具，属于没有也行。
+    evidence_ids:
+    - ev-cfe3df5a0b2696d0
+    - ev-860b192e6b9b225a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该清单仓库的 issue 与 discussion，确认是否有视频剪辑师或短视频运营报告实际用某个技能包完成渲染、替代了哪一步旧流程，以及是否出现重复使用。
+  market: ''
+  job: 视频剪辑师或短视频运营在需要批量产出成片时，先在这份清单里按类型挑一个视频技能包，装进 Claude Code、Codex 等编码代理，由代理读取素材并调用工具渲染出视频。
+  job_en: A video editor or short-video operator who needs to produce clips at volume picks a video skill
+    from this list by type, installs it into a coding agent such as Claude Code or Codex, and lets the
+    agent read the assets and call tools to render the video.
+  pain: 公开材料只说明清单按类型收录 180 个仓库并做安全分级，没有给出任何用户抱怨、失败案例或人工返工代价；剪辑软件逐条拼接的负担是行业常识，不是该项目被公开证实的痛点。
+  pain_en: Public materials only say the list catalogs 180 repos by type with security grading; no user
+    complaint, failure case, or manual rework cost is shown. The burden of clip-by-clip editing in NLE
+    software is industry common sense, not a pain this project has publicly evidenced.
+  current_alternative: 旧做法是在 Premiere、剪映等剪辑软件里手动拼接素材，或直接使用 Runway、CapCut 等成品化 AI 视频工具；清单本身不渲染视频，只是把第三方仓库分类并标注安全等级。
+  current_alternative_en: The old way is manual assembly in Premiere, CapCut, or similar NLEs, or using
+    finished AI video tools like Runway or CapCut. The list itself does not render video; it only categorizes
+    third-party repos and labels their security grade.
+  usage_reason: 推断：编码代理用户可能因为不想逐个搜索和评估视频类技能包，而用这份带安全分级的清单省掉筛选步骤；但公开材料没有任何用户反馈或案例说明他们真的这样做了，也没有留存或复购证据。
+  usage_reason_en: 'Inference: coding-agent users might use this security-graded list to skip searching
+    and vetting video skill packages one by one. But no public feedback or case shows they actually do,
+    and there is no retention or repeat-use evidence.'

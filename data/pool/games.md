@@ -21,7 +21,7 @@ canonical_url: https://games.yanisfalaki.com
 summary: Two browser games set inside one real Gaussian-splat scan
 first_seen: '2026-10-14T01:13:55Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - marketfeeds

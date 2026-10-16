@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxPemRPM2gzdjAt
 summary: Scottsdale AI startup raises $6M to scale sales agents for small businesses The Business Journals
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

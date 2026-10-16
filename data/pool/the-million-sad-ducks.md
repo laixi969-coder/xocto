@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/the-million-sad-ducks
 summary: $1 makes one of them permanently happy
 first_seen: '2026-08-25T12:51:25Z'
 last_seen: '2026-08-28T06:07:17Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:
@@ -29,6 +29,7 @@ sightings:
   url: https://www.producthunt.com/products/the-million-sad-ducks
   seen_at: '2026-08-28T06:07:17Z'
   metrics: {}
+  kind: product
 ---
 
 # The Million Sad Ducks

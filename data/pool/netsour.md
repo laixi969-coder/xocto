@@ -21,7 +21,7 @@ canonical_url: https://github.com/thegoodduck/NetSour
 summary: the modular packet analyzer TUI
 first_seen: '2026-08-26T20:08:01Z'
 last_seen: '2026-08-28T06:07:17Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,7 @@ sightings:
   metrics:
     points: 5
     comments: 0
+  kind: product
 ---
 
 # NetSour

@@ -1,0 +1,43 @@
+- id: req-initial-computable-gpu-index-cgi-2026-10-16
+  project_slug: computable-gpu-index-cgi
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决算力买方缺少公开比价基准的问题，痛点在于报价分散、口径不一导致预算与谈判失准；这是工作流推理，尚无采用数据。
+    evidence_ids:
+    - ev-90af84857a12d0a7
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句产品定位，没有使用量、订阅或行业引用，无法判断买方是否已形成共识。
+    evidence_ids:
+    - ev-90af84857a12d0a7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费方，指数可能靠赞助或数据服务变现，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-90af84857a12d0a7
+  - gate: truth
+    status: insufficient
+    reason: 数据来源、更新频率与准确性校验方式均未公开，指数能否确定性交付尚不可核对。
+    evidence_ids:
+    - ev-90af84857a12d0a7
+  next_validation: 收集该指数官方仓库或页面上的数据来源说明、更新频率与许可条款，确认价格口径与可复现性。
+  market: ''
+  job: 算力采购方或训练团队在编制 GPU 预算、比较不同供应商报价时，需要处理各家零散的算力价格信息，得出一个可参照的价格水平。
+  job_en: Compute buyers or training teams compiling GPU budgets and comparing vendor quotes need to turn
+    scattered per-vendor compute prices into a reference price level.
+  pain: GPU 报价分散在各家云厂商和算力市场，口径不一，买方缺少公开、可追溯的比价基准，谈判和预算容易失准。
+  pain_en: GPU quotes are scattered across clouds and compute marketplaces with inconsistent units, leaving
+    buyers without a public, traceable benchmark, so negotiation and budgeting easily go off.
+  current_alternative: 目前多靠人工收集报价表、销售口头报价或内部历史采购价，缺少统一口径的公开参照。
+  current_alternative_en: Today this is mostly manual quote collection, verbal sales quotes or internal
+    historical purchase prices, without a unified public reference.
+  usage_reason: 推断：相较人工拼凑报价表，它把价格汇成一个公开指数，减少逐家询价和口径换算这一步，因此做算力预算或采购谈判的人会先看它建立基准；但指数是否被持续采用、由谁付费尚无公开证据。
+  usage_reason_en: 'Inference: versus manually assembling quote sheets, it consolidates prices into a
+    public index, removing the step of asking each vendor and normalizing units, so budget owners and
+    procurement negotiators would check it first for a baseline; sustained adoption and who pays are not
+    publicly evidenced.'

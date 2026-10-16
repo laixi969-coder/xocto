@@ -127,3 +127,45 @@
   usage_reason_en: 'Inference: OnAir folds multi-standard reception and decoding into one cross-platform
     interface, so users no longer install a separate tool and driver per signal, which is why hobbyists
     or engineers monitoring several bands at once would try it first.'
+- id: req-full-onair-2026-10-16
+  project_slug: onair
+  level: full
+  reviewed_at: '2026-10-16T01:23:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选文本描述的是 SDR 接收解码能力，但所引证据全部指向飞行模拟经济平台 OnAir 与阿联酋航空机上 Wi-Fi，与所述需求无关，无法还原用户任务、痛点或旧替代，价值关不成立。
+    evidence_ids:
+    - ev-b2da382644dd279d
+    - ev-4da48a1e0f168610
+    - ev-b69e603bd4bbe8d1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 SDR 解码产品官网或仓库的 README、issue 与 discussion，确认其实际功能范围、支持硬件与用户报告的使用场景。
+  market: ''
+  job: 无线电爱好者或射频工程师在本地接入 HackRF、RTL-SDR 等 SDR 硬件后，需要接收并解码数字电视、DAB+、FM、ADS-B、ACARS、GNSS 与业余无线电等信号，得到可读的频道、航迹或报文。
+  job_en: Radio hobbyists or RF engineers who connect SDR hardware such as HackRF or RTL-SDR locally need
+    to receive and decode DVB, DAB+, FM, ADS-B, ACARS, GNSS and ham signals into readable channels, tracks
+    or messages.
+  pain: 公开材料未提供任何用户痛点、抱怨或旧流程描述，无法确认多制式解码分散、驱动适配困难等痛点是否真实存在。
+  pain_en: The public material provides no user pain points, complaints or legacy workflow descriptions,
+    so it cannot be confirmed whether pains such as fragmented multi-standard decoding or driver setup
+    friction actually exist.
+  current_alternative: 公开材料未提及用户当前使用的替代工具或绕过方式。
+  current_alternative_en: The public material does not mention any current alternative tools or workarounds
+    used by users.
+  usage_reason: 公开材料未说明用户为何选择该产品，无法给出相较旧做法的具体因果解释。
+  usage_reason_en: The public material does not explain why users would choose this product, so no concrete
+    causal explanation relative to legacy approaches can be given.

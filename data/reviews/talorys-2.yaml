@@ -1,0 +1,84 @@
+- id: req-initial-talorys-2-2026-10-16
+  project_slug: talorys-2
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人助理数据自持的需求，痛点是托管助手的隐私与迁移限制，旧替代行为明确。
+    evidence_ids:
+    - ev-37e0a11a1b4b3ee0
+  - gate: consensus
+    status: insufficient
+    reason: 有 1,145 星和 101 次 fork，属关注度信号，但没有用户反馈说明日常使用与留存。
+    evidence_ids:
+    - ev-37e0a11a1b4b3ee0
+  - gate: model
+    status: insufficient
+    reason: 开源免费，钱可能来自托管服务或支持，属判断而非已验证事实。
+    evidence_ids:
+    - ev-37e0a11a1b4b3ee0
+  - gate: truth
+    status: insufficient
+    reason: 依赖用户自己的 Cloudflare 账号，部署后维护、模型调用成本与安全边界未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-37e0a11a1b4b3ee0
+  next_validation: 收集 talorys 仓库的 issue 或 discussion，确认部署后的实际使用反馈与维护问题。
+  market: ''
+  job: 在意数据归属的个人或小团队，在需要记录待办、笔记和定时提醒时，把助手部署到自己的云账号里，用它处理日常事务。
+  job_en: Individuals or small teams who care about data ownership deploy the assistant into their own
+    cloud account to handle to-dos, notes and scheduled reminders.
+  pain: 旧做法用厂商托管的助手，聊天记录和记忆存在别人服务器上，无法迁移，也难确认数据如何使用。
+  pain_en: The old way uses vendor-hosted assistants where chats and memory sit on someone else's servers,
+    cannot be migrated, and data use is hard to verify.
+  current_alternative: 厂商托管的通用助手、自建脚本加笔记软件，或手动使用日历和待办应用。
+  current_alternative_en: Vendor-hosted general assistants, self-built scripts plus note apps, or manually
+    using calendars and to-do apps.
+  usage_reason: 推断：相较托管助手，一条命令部署到自有账号省掉了数据托管和迁移顾虑，对在意隐私的用户是选择理由；但缺少留存与日常使用证据，是否长期留在工作流仍缺一环。
+  usage_reason_en: 'Inference: compared with hosted assistants, one-command deployment into one''s own
+    account removes data-hosting and migration concerns, which is why privacy-minded users would pick
+    it; lacking retention and daily-use evidence, long-term workflow presence remains unverified.'
+- id: req-full-talorys-2-2026-10-16
+  project_slug: talorys-2
+  level: full
+  reviewed_at: '2026-10-16T01:24:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人助理数据自持的需求，痛点是托管助手的隐私与迁移限制，旧替代行为明确。
+    evidence_ids:
+    - ev-37e0a11a1b4b3ee0
+  - gate: consensus
+    status: insufficient
+    reason: 有 1,145 星和 101 次 fork，属关注度信号，但没有用户反馈说明日常使用与留存。
+    evidence_ids:
+    - ev-37e0a11a1b4b3ee0
+  - gate: model
+    status: insufficient
+    reason: 开源免费，钱可能来自托管服务或支持，属判断而非已验证事实。
+    evidence_ids:
+    - ev-37e0a11a1b4b3ee0
+  - gate: truth
+    status: insufficient
+    reason: 依赖用户自己的 Cloudflare 账号，部署后维护、模型调用成本与安全边界未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-37e0a11a1b4b3ee0
+  next_validation: 收集 talorys 仓库的 issue 或 discussion，确认部署后的实际使用反馈与维护问题。
+  market: ''
+  job: 在意数据归属的个人或小团队，在需要记录待办、笔记和定时提醒时，把助手部署到自己的 Cloudflare 账号里，用它处理日常事务。
+  job_en: Individuals or small teams who care about data ownership deploy the assistant into their own
+    Cloudflare account to handle to-dos, notes and scheduled reminders.
+  pain: 旧做法用厂商托管的助手，聊天记录和记忆存在别人服务器上，无法迁移，也难确认数据如何使用。
+  pain_en: The old way uses vendor-hosted assistants where chats and memory sit on someone else's servers,
+    cannot be migrated, and data use is hard to verify.
+  current_alternative: 厂商托管的通用助手、自建脚本加笔记软件，或手动使用日历和待办应用。
+  current_alternative_en: Vendor-hosted general assistants, self-built scripts plus note apps, or manually
+    using calendars and to-do apps.
+  usage_reason: 推断：相较托管助手，一条命令部署到自有账号省掉了数据托管和迁移顾虑，对在意隐私的用户是选择理由；但缺少留存与日常使用证据，是否长期留在工作流仍缺一环。
+  usage_reason_en: 'Inference: compared with hosted assistants, one-command deployment into one''s own
+    account removes data-hosting and migration concerns, which is why privacy-minded users would pick
+    it; lacking retention and daily-use evidence, long-term workflow presence remains unverified.'

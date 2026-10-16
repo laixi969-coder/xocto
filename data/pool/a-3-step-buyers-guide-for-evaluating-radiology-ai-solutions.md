@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHNjNldPUW44
 summary: A 3-step buyer’s guide for evaluating radiology AI solutions Radiology Business
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

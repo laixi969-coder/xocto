@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFAtQVRBaFQyRXp6
 summary: 'Tencent, ByteDance, and Alibaba: Competing for the Next Game-Changing AI Entry Point 36Kr'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

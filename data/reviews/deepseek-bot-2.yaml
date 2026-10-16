@@ -89,3 +89,50 @@
     layer and group-chat state management, so developers who need to quickly validate a multi-bot workflow
     would choose it at the prototype stage; without user feedback or cases, long-term adoption cannot
     be confirmed.'
+- id: req-full-deepseek-bot-2-2026-10-16
+  project_slug: deepseek-bot-2
+  level: full
+  reviewed_at: '2026-10-16T01:20:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多机器人长期协作编排需求：开发者要让多个 bot 常驻并互发消息、进群讨论，旧做法需自建通信层与进程管理，不解决则协作流程难以稳定运行；这是工作流结构推理，公开材料未给出用户痛点原话。
+    evidence_ids:
+    - ev-13823006afdb2ab7
+    - ev-bd1385649a2965f9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 1,418 升至 2,034，属关注度信号，不能证明开发者已把它留在日常工作流；缺少 issue、discussion 或客户案例说明实际使用场景。
+    evidence_ids:
+    - ev-13823006afdb2ab7
+    - ev-bd1385649a2965f9
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价页、付费路径或商业主体，钱可能来自 to C 开发者捐赠或 to B 支持服务，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-13823006afdb2ab7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对协作结果是否确定交付、是否需人工确认，也未见安全边界或部署文档说明，承诺能否确定性兑现尚不明确。
+    evidence_ids:
+    - ev-13823006afdb2ab7
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者实际用它完成的具体任务、协作结果与部署方式。
+  market: ''
+  job: 开发者在搭建多智能体协作流程时，把多个长期存活的机器人接入 DeepSeek Harness，让它们互发消息、进入群聊，最终得到一套可自行部署的机器人协作框架。
+  job_en: Developers building multi-agent collaboration flows connect several long-lived bots to the DeepSeek
+    Harness, let them message each other and join group chats, and end up with a self-deployable bot collaboration
+    framework.
+  pain: 公开材料只说明机器人可长期存活并互相通信，未说明替代了哪一步旧工作、谁在什么情况下少做什么，痛点只能从工作流结构推断：自建常驻进程与消息路由需要额外维护通信层。
+  pain_en: 'Public material only states bots are long-lived and can message each other; it does not say
+    which old step is replaced or who stops doing what, so the pain is inferred from workflow structure:
+    self-built long-running processes and message routing require maintaining an extra communication layer.'
+  current_alternative: 开发者目前多用单次调用的 agent 脚本、LangChain 类编排库或自建消息队列来拼多机器人协作。
+  current_alternative_en: Developers currently stitch multi-bot collaboration with one-shot agent scripts,
+    orchestration libraries like LangChain, or self-built message queues.
+  usage_reason: 推断：相较自己拼编排代码，它把机器人常驻、互发消息和群聊做成现成结构，省去搭建通信层这一步，因此需要多机器人长期协作的开发者会在自建成本过高时选择它；但缺少用户反馈或案例，无法确认实际采用。
+  usage_reason_en: 'Inference: compared with hand-rolling orchestration code, it packages long-lived bots,
+    bot-to-bot messages and group chats into a ready structure, saving the step of building a communication
+    layer, so developers needing long-running multi-bot collaboration may choose it when self-building
+    costs too much; without user feedback or cases, actual adoption is unconfirmed.'

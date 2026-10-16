@@ -24,3 +24,45 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+- id: req-initial-ticket-fairy-cli-2026-10-16
+  project_slug: ticket-fairy-cli
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决票务后台批量操作的问题，痛点是网页表单逐条点击与表格往返，旧行为明确，结构上成立。
+    evidence_ids:
+    - ev-bd34423ca67f00d8
+  - gate: consensus
+    status: insufficient
+    reason: 未见可归因到该工具的使用、客户或讨论证据，是否被票务运营者接受无法判断。
+    evidence_ids:
+    - ev-bd34423ca67f00d8
+  - gate: model
+    status: insufficient
+    reason: 未见定价或收费方式，买方可能是主办方也可能是票务平台，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bd34423ca67f00d8
+  - gate: truth
+    status: insufficient
+    reason: 支持的命令范围、权限与写操作安全边界未说明，能否确定性交付批量操作无法核对。
+    evidence_ids:
+    - ev-bd34423ca67f00d8
+  next_validation: 收集该产品的官方文档或定价页，确认支持的命令清单、权限范围与是否按处理量收费。
+  market: ''
+  job: 活动主办方的票务运营人员在多场次开票或改价时，需要批量创建票种、调整价格并核对订单，而不是在后台页面逐条点击。
+  job_en: Ticketing operations staff at event organizers need to bulk-create ticket types, adjust prices
+    and reconcile orders across multiple sessions, instead of clicking item by item in an admin console.
+  pain: 票务后台以网页表单为主，批量操作靠人工重复点击或导出表格再处理，场次多时容易出错且耗时。
+  pain_en: Ticketing backends are mostly web forms, so bulk work means repeated manual clicking or exporting
+    spreadsheets, which is slow and error-prone when there are many sessions.
+  current_alternative: 在票务后台网页里逐条操作，或导出 CSV 用表格处理后再导回。
+  current_alternative_en: Operating item by item in the ticketing web console, or exporting CSV, editing
+    in a spreadsheet and importing back.
+  usage_reason: 推断：相较网页后台逐条点击，它把建票、改价、查订单变成可脚本化调用，省掉重复点击与表格往返的一步，因此场次密集、需要批量改价的主办方运营人员会选它。
+  usage_reason_en: 'Inference: versus clicking through the web console, it turns ticket creation, repricing
+    and order lookup into scriptable calls, removing repeated clicking and spreadsheet round-trips, so
+    operations staff at organizers with dense schedules would choose it.'

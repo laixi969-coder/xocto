@@ -1,11 +1,13 @@
 ---
 slug: ollama-ollama-v0405
-name: 'ollama/ollama: v0.40.5'
+name: Ollama
 builder: ollama
 category: ''
-summary_zh: ''
+summary_zh: Ollama 是本地运行开源大模型的工具，开发者用一条命令拉取并运行模型。本次更新让它在本地直接跑 Nemotron 3.5 Super/Bolt 这类视觉语言模型，并新增云端决策模型调用通道。
 inspiration: ''
-summary_en: ''
+summary_en: Ollama is a tool for running open-source large models locally, letting developers pull and
+  run a model with a single command. This release lets it run vision-language models such as Nemotron
+  3.5 Super/Bolt locally and adds a cloud channel for decision models.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -35,7 +37,7 @@ summary: "## NVIDIA Nemotron 3.5 Super\r\n\r\n[NVIDIA Nemotron 3.5 Super](https:
   \ Changelog**: https://github.com/ollama/ollama/compare/v0.40.4...v0.40.5"
 first_seen: '2026-10-16T00:25:17Z'
 last_seen: '2026-10-16T00:25:17Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -47,7 +49,7 @@ sightings:
   kind: news
 ---
 
-# ollama/ollama: v0.40.5
+# Ollama
 
 ## NVIDIA Nemotron 3.5 Super
 

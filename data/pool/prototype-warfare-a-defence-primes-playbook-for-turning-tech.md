@@ -34,7 +34,7 @@ summary: 'At Tech.eu, I spend a lot of time talking to startups in sectors such 
   he'
 first_seen: '2026-10-16T00:25:40Z'
 last_seen: '2026-10-16T00:25:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

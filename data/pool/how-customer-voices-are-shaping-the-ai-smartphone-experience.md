@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLVduSWs0WEFv
 summary: How Customer Voices Are Shaping the Ai+ Smartphone Experience Deccan Chronicle
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

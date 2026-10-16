@@ -1,0 +1,86 @@
+- id: req-initial-小米顺为入局数说故事营收狂奔3年多累计亏损近4亿-2026-10-16
+  project_slug: 小米顺为入局数说故事营收狂奔3年多累计亏损近4亿
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌持续跟踪平台口碑、替代人工调研的需求，痛点来自样本有限与更新滞后；买方为品牌方，公开材料未披露定价。
+    evidence_ids:
+    - ev-1c0f3dcb9f733b52
+  - gate: consensus
+    status: insufficient
+    reason: 仅有投资与营收亏损报道，未见客户采用规模或行业共识证据。
+    evidence_ids:
+    - ev-1c0f3dcb9f733b52
+  - gate: model
+    status: insufficient
+    reason: 报道只给出营收增长与累计亏损，未披露客户付费结构或续约情况，付费路径仍属推断。
+    evidence_ids:
+    - ev-1c0f3dcb9f733b52
+  - gate: truth
+    status: insufficient
+    reason: 未见交付结果与人工复核边界的说明，分析结论的确定性无法核对。
+    evidence_ids:
+    - ev-1c0f3dcb9f733b52
+  next_validation: 查找数说故事官方客户案例页或招股/融资文件，确认客户数量、付费方式与续约数据。
+  market: ''
+  job: 品牌营销与消费者洞察团队在需要跟踪社交与电商平台口碑时，处理公开评论文本，要完成品牌舆情判断与竞品对比结论。
+  job_en: Brand marketing and consumer insight teams, when tracking sentiment on social and e-commerce
+    platforms, process public comment text to produce brand sentiment judgments and competitor comparisons.
+  pain: 人工调研周期长、样本有限，平台文本量大且变化快，难以持续跟踪；公开材料未给出具体客户痛点陈述。
+  pain_en: Manual research is slow and limited in sample, while platform text is voluminous and fast-changing,
+    making continuous tracking hard; public material gives no specific customer pain statement.
+  current_alternative: 公开材料未说明客户此前使用何种调研或监测工具，替代方案仍待核验。
+  current_alternative_en: Public material does not state which research or monitoring tools clients used
+    before; the prior alternative remains unverified.
+  usage_reason: 推断：相较人工问卷与零散爬取，数说故事把多平台文本采集与分析流程打包，减少数据清洗与人工编码环节，因此需要持续舆情跟踪的消费品牌会考虑它。
+  usage_reason_en: 'Inference: compared with manual surveys and ad-hoc scraping, DataStory packages multi-platform
+    text collection and analysis, cutting data cleaning and manual coding, so consumer brands needing
+    continuous sentiment tracking would consider it.'
+- id: req-full-小米顺为入局数说故事营收狂奔3年多累计亏损近4亿-2026-10-16
+  project_slug: 小米顺为入局数说故事营收狂奔3年多累计亏损近4亿
+  level: full
+  reviewed_at: '2026-10-16T01:25:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌持续跟踪社交与电商口碑、替代人工调研的需求，痛点来自样本有限与更新滞后；买方为品牌方，公开材料未披露定价，属工作流结构推理。
+    evidence_ids:
+    - ev-1c0f3dcb9f733b52
+  - gate: consensus
+    status: insufficient
+    reason: 仅有投资与营收亏损报道，未见客户采用规模、行业共识或持续使用证据，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-1c0f3dcb9f733b52
+  - gate: model
+    status: insufficient
+    reason: 报道只给出营收增长与累计亏损，未披露客户付费结构或续约情况，to B 付费路径仍属推断而非已验证事实。
+    evidence_ids:
+    - ev-1c0f3dcb9f733b52
+  - gate: truth
+    status: insufficient
+    reason: 未见交付结果与人工复核边界的说明，分析结论的确定性无法核对，安全与人工边界也未披露。
+    evidence_ids:
+    - ev-1c0f3dcb9f733b52
+  next_validation: 追踪数说故事官网客户案例页或融资/招股文件，核实客户数量、付费方式与续约数据。
+  market: ''
+  job: 品牌营销与消费者洞察团队在需要判断社交与电商平台上的消费者口碑时，把公开评论文本交给数说故事的分析流程，产出品牌舆情与竞品对比结论。
+  job_en: Brand marketing and consumer insight teams, when judging consumer sentiment across social and
+    e-commerce platforms, feed public comment text into DataStory's analysis pipeline to produce brand
+    sentiment and competitor comparison conclusions.
+  pain: 平台文本量大、变化快，人工调研周期长且样本有限，难以持续跟踪口碑变化；公开材料只给出营收与亏损报道，未提供具体客户痛点陈述。
+  pain_en: Platform text is voluminous and fast-changing, while manual research is slow and sample-limited,
+    making continuous sentiment tracking hard; public material only reports revenue and losses, with no
+    specific customer pain statement.
+  current_alternative: 公开材料未说明客户此前使用何种调研或监测工具，替代方案仍属推断。
+  current_alternative_en: Public material does not state which research or monitoring tools clients used
+    before; the prior alternative remains an inference.
+  usage_reason: 推断：相较人工问卷与零散爬取，数说故事把多平台文本采集与分析打包成流程，减少数据清洗与人工编码环节，因此需要持续舆情跟踪的消费品牌会考虑它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with manual surveys and ad-hoc scraping, DataStory packages multi-platform
+    text collection and analysis, cutting data cleaning and manual coding, so consumer brands needing
+    continuous sentiment tracking would consider it; no user feedback or case yet confirms this motive.'

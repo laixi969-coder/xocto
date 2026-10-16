@@ -1,0 +1,85 @@
+- id: req-initial-fwrd-2026-10-16
+  project_slug: fwrd
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决短信只留在个人手机、他人看不到的问题，痛点存在但候选只有一句转发说明，无法确认替代了哪一步旧工作。
+    evidence_ids:
+    - ev-53ccc0bd4fe28276
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条产品页描述，没有用户评价、采用或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-53ccc0bd4fe28276
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-53ccc0bd4fe28276
+  - gate: truth
+    status: insufficient
+    reason: 无法确认是否依赖 AI、投递是否确定发生、隐私与人工边界如何处理，交付确定性未核验。
+    evidence_ids:
+    - ev-53ccc0bd4fe28276
+  next_validation: 收集 Fwrd 官方产品页或定价页，确认其是否使用 AI、支持哪些消息通道、如何计费以及是否有客户案例。
+  market: ''
+  job: iPhone 用户或小团队在收到短信后，需要把消息同步到 Slack、Discord 或 Telegram 频道，让同事或家人看到并跟进。
+  job_en: An iPhone user or small team needs incoming SMS synced into Slack, Discord or Telegram channels
+    so colleagues or family can see and follow up.
+  pain: 短信只落在个人手机上，其他人看不到，需要手动复制粘贴或口头转述，容易漏掉和延迟。
+  pain_en: SMS lands only on one person's phone, others cannot see it, and manual copy-paste or verbal
+    relay causes misses and delays.
+  current_alternative: 手动截图或复制短信发到群里，或使用运营商/第三方短信转发服务。
+  current_alternative_en: Manually screenshotting or copying SMS into a group chat, or using carrier/third-party
+    SMS forwarding services.
+  usage_reason: 推断：若它能把 iPhone 短信自动投递到指定频道，就省掉每次手动复制转发这一步，需要多人共享短信的客服或销售小团队会在收到客户短信时选择它；但候选资料未说明是否依赖 AI、是否稳定投递，因此无法确认用户会长期使用。
+  usage_reason_en: 'Inference: if it automatically delivers iPhone SMS into a chosen channel, it removes
+    the manual copy-and-forward step, so small support or sales teams sharing SMS would pick it when customer
+    texts arrive; the candidate material does not say whether AI is involved or whether delivery is reliable,
+    so long-term use cannot be confirmed.'
+- id: req-full-fwrd-2026-10-16
+  project_slug: fwrd
+  level: full
+  reviewed_at: '2026-10-16T01:21:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决短信只留在个人手机、他人看不到的问题，但候选证据全部指向时尚电商 FWRD 的商品与设计师页面，与短信转发产品无关，无法确认需求、痛点与旧替代。
+    evidence_ids:
+    - ev-eed8bf73630970a4
+    - ev-49aa40e5bf59968a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Fwrd 官方产品页或定价页，确认其是否使用 AI、支持哪些消息通道、如何计费以及是否有客户案例。
+  market: ''
+  job: iPhone 用户或小团队在收到客户或家人短信后，需要把消息同步到 Slack、Discord 或 Telegram 频道，让同事或家人看到并跟进。
+  job_en: An iPhone user or small team needs incoming SMS synced into Slack, Discord or Telegram channels
+    so colleagues or family can see and follow up.
+  pain: 公开材料只有一句转发说明，无法确认短信只落在个人手机上造成漏接、延迟或转述成本这一痛点是否真实存在，也无法确认用户当前如何绕过。
+  pain_en: The public material offers only a one-line forwarding description, so it cannot confirm whether
+    the pain of SMS landing on one phone causing misses, delays or relay costs actually exists, nor how
+    users currently work around it.
+  current_alternative: 公开材料未说明用户现在用什么替代，无法确认是手动截图转发、运营商短信转发还是其他工具。
+  current_alternative_en: The public material does not state what users currently use instead, so it is
+    unclear whether that is manual screenshot forwarding, carrier SMS forwarding or another tool.
+  usage_reason: 推断：若它能把 iPhone 短信自动投递到指定频道，就省掉手动复制转发这一步，需要多人共享短信的客服或销售小团队会在收到客户短信时选择它；但候选资料未说明是否依赖 AI、是否稳定投递，因此无法确认用户会长期使用。
+  usage_reason_en: 'Inference: if it automatically delivers iPhone SMS into a chosen channel, it removes
+    the manual copy-and-forward step, so small support or sales teams sharing SMS would pick it when customer
+    texts arrive; the candidate material does not say whether AI is involved or whether delivery is reliable,
+    so long-term use cannot be confirmed.'

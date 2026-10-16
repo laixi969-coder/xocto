@@ -1,6 +1,6 @@
 ---
 slug: anthropic-q3-revenue-surges-45-to-168-billion-as-ai-startup
-name: Anthropic Q3 revenue surges 45% to $16.8 billion as AI startup gears up for $2 trillion IPO
+name: Anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Anthropic Q3 revenue surges 45% to $16.8 billion as AI startup gears up
   Economic Times
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic Q3 revenue surges 45% to $16.8 billion as AI startup gears up for $2 trillion IPO
+# Anthropic
 
 Anthropic Q3 revenue surges 45% to $16.8 billion as AI startup gears up for $2 trillion IPO The Economic Times
 

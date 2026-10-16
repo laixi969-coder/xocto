@@ -1,0 +1,95 @@
+- id: req-initial-lucian-uxui-prompt-2026-10-16
+  project_slug: lucian-uxui-prompt
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决挑组件样式再转成代码或提示词的需求，痛点是文档与编辑器之间反复对照，旧做法是手写样式。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+    - ev-02340b19578fd50e
+    - ev-14c84c1f32aa865f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 68 增至 107，说明有关注，但没有用户评价或持续使用证据支撑共识。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+    - ev-14c84c1f32aa865f
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且未见定价，买方与付费路径不明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-14c84c1f32aa865f
+  - gate: truth
+    status: supported
+    reason: 交付物是可直接复制的提示词或代码，结果可核对，人工仍需自行确认样式是否合适。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+  next_validation: 查看该仓库的 issue 与 discussion，确认是否有用户反馈把它用于实际项目而非仅收藏。
+  market: ''
+  job: 前端开发者与产品设计师在搭建界面时，需要从大量 UI 元素里挑出合适的样式，并把它变成可用的代码或提示词。
+  job_en: Front-end developers and product designers, while building interfaces, need to pick suitable
+    styles from many UI elements and turn them into usable code or prompts.
+  pain: 挑选组件样式通常要在文档、截图和代码之间来回对照，再手写或改写代码，这一步重复且耗时。
+  pain_en: Choosing component styles usually means cross-referencing docs, screenshots and code, then
+    hand-writing or rewriting code, a repetitive and time-consuming step.
+  current_alternative: 旧做法是翻组件库文档、看设计稿截图，再手动把样式写成代码，或直接向模型描述想要的效果。
+  current_alternative_en: The old way is browsing component-library docs, looking at design screenshots,
+    then manually writing the style into code, or describing the desired look to a model.
+  usage_reason: 推断：它把“先看效果再写代码”合并成一次实时预览加复制，省掉在文档与编辑器之间来回对照的一步，因此赶界面进度的前端与设计师会先试它。
+  usage_reason_en: 'Inference: it merges see-the-result and write-the-code into one live preview plus
+    copy, removing the back-and-forth between docs and editor, so front-end developers and designers on
+    a deadline would try it first.'
+- id: req-full-lucian-uxui-prompt-2026-10-16
+  project_slug: lucian-uxui-prompt
+  level: full
+  reviewed_at: '2026-10-16T01:22:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决搭界面时挑控件样式并转成提示词或代码的需求，痛点是预览、文档与编辑器三处反复对照再手写；旧做法是翻文档看截图后手写样式。这是从产品说明与任务结构作出的推理，非用户口述。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+    - ev-02340b19578fd50e
+    - ev-14c84c1f32aa865f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 68 增至 107，只说明关注度上升，属规模信号；没有用户评价、issue 或案例说明它被持续用于实际项目，无法据此判断共识。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+    - ev-14c84c1f32aa865f
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且未见定价页，买方与付费路径在公开材料中不明；可能靠赞助、托管或引流到付费服务，但这是判断不是已验证事实，故不判 challenged。
+    evidence_ids:
+    - ev-14c84c1f32aa865f
+  - gate: truth
+    status: supported
+    reason: 交付物是可直接复制的提示词或代码，结果可当场核对；但样式是否适配目标项目仍需人工确认，产品未承诺自动完成集成，人工边界清晰。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+  next_validation: 追踪该仓库的 issue 与 discussion 区，确认是否有用户反馈把它用于实际项目而非仅收藏，以核验持续使用与共识。
+  market: ''
+  job: 前端开发者与产品设计师在搭建界面、需要快速确定某个控件长什么样时，浏览约 200 个可实时交互的 UI 元素，试出合适样式后复制成 AI 提示词或可用代码，再放进自己的项目。
+  job_en: Front-end developers and product designers building an interface need to settle how a given
+    control should look; they browse ~200 live interactive UI elements, try the fit, then copy it as an
+    AI prompt or working code into their project.
+  pain: 公开材料只说明元素可实时试看并复制为提示词或代码，未提供用户抱怨或反馈；可确认的痛点是选样式与产出代码分处两处，需在预览页、文档与编辑器之间反复对照，这一步重复且打断搭建节奏。
+  pain_en: Public material only states that elements can be tried live and copied as prompts or code,
+    with no user complaints or feedback; the verifiable pain is that style selection and code output live
+    in separate places, forcing repeated cross-referencing between preview, docs and editor, a repetitive
+    step that breaks building flow.
+  current_alternative: 旧做法是翻组件库文档或设计稿截图挑样式，再手写或改写 CSS/组件代码，或直接向模型描述想要的效果让它生成。
+  current_alternative_en: The old way is browsing component-library docs or design screenshots to pick
+    a style, then hand-writing or rewriting CSS/component code, or describing the desired look to a model
+    and letting it generate.
+  usage_reason: 推断：相较翻文档再手写，它把“看效果”和“拿产物”压成一次实时预览加复制，省掉在文档与编辑器之间来回对照并重写样式的那一步，因此赶界面进度、又需要提示词或代码产物的前端与设计师会在选控件样式时先试它。
+  usage_reason_en: 'Inference: versus browsing docs then hand-writing, it compresses see-the-result and
+    get-the-artifact into one live preview plus copy, removing the step of cross-referencing docs and
+    editor and rewriting the style, so front-end developers and designers on a deadline who need a prompt
+    or code artifact would try it first when picking a control style.'

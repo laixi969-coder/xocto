@@ -907,3 +907,53 @@
     module loading), reducing the burden of modifying the entire assistant chain; developers watching
     the repo (stars rising from 151 to 175) are evaluating or trialing a pluginized local assistant, though
     public materials provide no retention or repeat-use evidence.'
+- id: req-full-deepseek-harness-2026-10-16
+  project_slug: deepseek-harness
+  level: full
+  reviewed_at: '2026-10-16T01:20:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在本地运行助手时按任务替换工具、记忆与界面的需求，痛点在于封闭助手难以按需替换单个组件；公开证据仅显示组件为 Harness 内部插件，痛点强度属工作流结构推理，尚无用户抱怨或频率数据。
+    evidence_ids:
+    - ev-ef244db2a2c375b3
+    - ev-1f9a240004e6f44e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 170 增至 180、另一组件稳定在 14，说明有开发者关注，但公开材料没有用户评价、issue 讨论或持续采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-ef244db2a2c375b3
+    - ev-517f8bf37a44e10f
+    - ev-af1155d548a126b8
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径，无法判断钱来自 to C、to B 还是 to VC；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-ef244db2a2c375b3
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明组件为内部插件，未提供部署文档、可复现交付结果或人工与安全边界证据，交付能否稳定发生尚不可核验。
+    evidence_ids:
+    - ev-1f9a240004e6f44e
+    - ev-51f8badd4e158c96
+  next_validation: 追踪 DeepSeek Harness 官方文档或仓库 issue/discussion，确认插件化本地助手在何种具体任务中被部署、替代了哪条旧流程。
+  market: ''
+  job: 开发者或技术用户在本地电脑上运行 DeepSeek 助手时，需要把助手的工具调用、记忆存储和交互界面按自己的任务替换成不同插件，以完成定制化的本地助手搭建。
+  job_en: Developers or technical users running the DeepSeek assistant on their own machine need to swap
+    the assistant's tool calls, memory storage, and interface as plugins to fit their own task, completing
+    a customized local assistant setup.
+  pain: 公开材料只说明组件是 DeepSeek Harness 内部使用的插件（如 dsh-libreoffice-kit、dsh-node-addon-require-builtin），未提供用户抱怨、不采用代价或频率的公开证据；痛点强度属于工作流结构推理，而非用户口述。
+  pain_en: Public materials only state the components are internal plugins used by DeepSeek Harness (e.g.,
+    dsh-libreoffice-kit, dsh-node-addon-require-builtin); there is no public user complaint, cost-of-not-adopting,
+    or frequency evidence. Pain intensity is a workflow-structure inference, not user testimony.
+  current_alternative: 公开材料未说明用户当前如何完成这项工作；结构上可推断的旧做法是直接使用封闭式助手或自行拼装脚本，但这一替代路径缺少公开证据支撑。
+  current_alternative_en: Public materials do not state how users currently complete this job; the structurally
+    inferable alternative is using a closed assistant or hand-rolling scripts, but this replacement path
+    lacks public evidence.
+  usage_reason: 推断：相较封闭助手或自行拼装脚本，插件化拆分让用户能替换单个工具或界面组件而不重写整个助手，从而减少定制本地助手时的重复搭建负担；仓库收藏数从 170 增至 180 说明有开发者关注，但尚无留存或复购证据证明其已长期留在工作流中。
+  usage_reason_en: 'Inference: versus a closed assistant or hand-rolled scripts, plugin decomposition
+    lets users replace a single tool or UI component without rebuilding the whole assistant, reducing
+    repeated setup burden for a customized local assistant; stars rising from 170 to 180 show developer
+    attention, but no retention or repeat-use evidence shows it is already a long-term part of the workflow.'

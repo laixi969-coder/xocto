@@ -1,11 +1,13 @@
 ---
 slug: huggingface-transformers-release-v5200
-name: 'huggingface/transformers: Release v5.20.0'
+name: Hugging Face Transformers
 builder: huggingface
 category: ''
-summary_zh: ''
+summary_zh: 这是模型库框架的一次版本更新，不是独立产品：它把 Meta 的 Muse Spark Open 多模态模型接入既有加载与推理接口，让使用该框架的开发者能直接调用这一模型。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a version update of a model-library framework rather than a standalone product: it
+  wires Meta''s Muse Spark Open multimodal model into existing loading and inference interfaces so developers
+  using the framework can call it directly.'
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -237,7 +239,7 @@ summary: "# Release v5.20.0\r\n\r\n\r\n## New Model additions\r\n\r\n### Muse Sp
   \n    * [Model] Add PP-DocLayoutV4 Model Support (#48387)"
 first_seen: '2026-10-16T00:25:17Z'
 last_seen: '2026-10-16T00:25:17Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -249,7 +251,7 @@ sightings:
   kind: news
 ---
 
-# huggingface/transformers: Release v5.20.0
+# Hugging Face Transformers
 
 # Release v5.20.0
 

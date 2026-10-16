@@ -284,3 +284,52 @@
     export in a single UI, removing the step of shuttling masks and audio between tools, so post artists
     who need to test a replacement quickly without a reshoot would pick it for character- or prop-swap
     shots.'
+- id: req-full-genjustsu-open-source-workflow-2026-10-16
+  project_slug: genjustsu-open-source-workflow
+  level: full
+  reviewed_at: '2026-10-16T01:21:24Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是成片素材中人物或物体替换的需求，痛点是逐帧抠像与跟踪耗时易返工，不解决只能重拍或接受穿帮；公开说明已能还原输入、自动遮罩、生成、带原声导出的闭环，属工作流结构推理，痛点刚性与交付可确定。
+    evidence_ids:
+    - ev-12bd0002a6cf56c1
+    - ev-1406f950d1fa6027
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 173 增至 913，说明开发者持续关注并把它纳入候选工具；但公开材料没有用户评价或案例说明它已长期留在生产工作流，采用强度仍属关注度而非留存证据。
+    evidence_ids:
+    - ev-12bd0002a6cf56c1
+    - ev-b6aadacd3537eac1
+  - gate: model
+    status: insufficient
+    reason: 这是开源工作流，公开材料未给出定价、付费主体或商业交付路径；谁付钱尚不清楚，只能判断可能由使用 Seedance 等生成服务的后期团队或自建流程的工作室承担算力与集成成本，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1406f950d1fa6027
+  - gate: truth
+    status: insufficient
+    reason: 公开说明承诺自动遮罩与带原声导出，但缺少可复现的生成质量、失败率与人工边界证据，交付能否稳定发生尚未核验；本地 Web UI 与人工复核环节降低了误用风险，但不足以证明结果确定。
+    evidence_ids:
+    - ev-12bd0002a6cf56c1
+    - ev-7bdcf4df0b10248d
+  next_validation: 追踪该仓库的 issue 与 discussion，确认用户实际部署中遮罩质量、生成失败率与带原声导出的可复现结果。
+  market: ''
+  job: 视频后期与特效人员拿到一段已拍摄的成片素材，需要在保留原声和原有镜头运动的前提下，把画面中指定的人物或物体替换成新形象，并逐帧确认遮罩与生成结果后导出可交付片段。
+  job_en: Post-production and VFX artists take already-shot footage and must replace a designated character
+    or object with a new one while keeping the original audio and camera motion, reviewing masks and generated
+    frames before exporting a deliverable clip.
+  pain: 传统替换依赖逐帧手工抠像、Roto 和跟踪，人物边缘、头发与遮挡关系处理耗时且易返工；不解决则只能重拍、放弃替换或接受明显穿帮，直接拖慢交付周期。
+  pain_en: Conventional replacement relies on frame-by-frame rotoscoping, keying and tracking; hair, edges
+    and occlusion are slow and error-prone, and leaving it unsolved means reshoots, abandoned shots or
+    visible artifacts that delay delivery.
+  current_alternative: 公开材料未直接描述用户原有做法，按任务结构推断，替代方式是 After Effects、Nuke 等工具中的手工 Roto、抠像与跟踪，或外包给特效团队，以及直接用通用视频生成模型但缺少遮罩控制。
+  current_alternative_en: Public materials do not describe the prior workflow directly; structurally the
+    alternatives are manual roto, keying and tracking in After Effects or Nuke, outsourcing to a VFX team,
+    or generic video generation models without mask control.
+  usage_reason: 推断：相较手工逐帧抠像，它用深度图、SAM 分割与人脸网格自动生成候选遮罩，把最耗时的圈选步骤变成人工复核，并在同一本地界面里预览生成、带原声导出，因此处理替换镜头频率较高的后期与特效人员会在需要保留原声和镜头运动时选择它。
+  usage_reason_en: 'Inference: versus manual frame-by-frame roto, it auto-generates candidate masks from
+    depth maps, SAM segmentation and face meshes, turning the most time-consuming selection step into
+    human review, and previews generations and exports with original audio in one local UI, so artists
+    handling frequent replacement shots would choose it when audio and camera motion must be preserved.'

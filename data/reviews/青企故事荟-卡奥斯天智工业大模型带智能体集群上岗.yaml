@@ -1,0 +1,85 @@
+- id: req-initial-青企故事荟-卡奥斯天智工业大模型带智能体集群上岗-2026-10-16
+  project_slug: 青企故事荟-卡奥斯天智工业大模型带智能体集群上岗
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决工业异常处置与排产依赖资深经验、跨工序协调慢的痛点，痛点结构成立；但公开材料只有一句报道，无法确认具体工序、输入与交付，价值判断证据不足。
+    evidence_ids:
+    - ev-afa20ff465590c33
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇地方媒体报道，未见客户名单、部署工厂数量或一线工程师反馈，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-afa20ff465590c33
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方是工厂还是集团采购、按项目还是按年收费；钱可能来自 to B 制造企业，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-afa20ff465590c33
+  - gate: truth
+    status: insufficient
+    reason: 无法核验智能体输出是否被现场采纳、是否需人工兜底以及出错后的责任边界，交付确定性未知。
+    evidence_ids:
+    - ev-afa20ff465590c33
+  next_validation: 收集卡奥斯天智工业大模型的官方产品页或客户案例页，确认已部署工厂、具体工序与交付结果。
+  market: ''
+  job: 工厂工艺或运维工程师在产线出现异常或需要调整排产时，处理设备数据与工单，要给出可执行的处置或排程方案。
+  job_en: A factory process or maintenance engineer, when a line fault occurs or scheduling needs adjustment,
+    handles equipment data and work orders to produce an executable disposition or schedule.
+  pain: 工业现场的诊断与排产依赖少数资深工程师经验，跨工序协调慢，异常处置滞后会直接造成停线与损耗。
+  pain_en: Diagnosis and scheduling on the shop floor depend on a few senior engineers' experience; cross-process
+    coordination is slow and delayed fault handling directly causes downtime and losses.
+  current_alternative: 目前多由资深工程师凭经验判断，配合 MES/SCADA 报表和人工电话协调，或采购传统工业软件做规则化排程。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：若智能体能直接读取产线数据并给出可采纳的处置建议，可省去工程师逐项翻报表、跨工序电话确认的步骤；但公开材料未给出客户案例或采纳率，无法确认用户是否真的把它留在工作流里。
+  usage_reason_en: 'Inference: if the agents can read line data directly and produce adoptable dispositions,
+    they remove the step of engineers paging through reports and phoning across processes; however, no
+    customer case or adoption rate is public, so it is unconfirmed whether users keep it in their workflow.'
+- id: req-full-青企故事荟-卡奥斯天智工业大模型带智能体集群上岗-2026-10-16
+  project_slug: 青企故事荟-卡奥斯天智工业大模型带智能体集群上岗
+  level: full
+  reviewed_at: '2026-10-16T01:25:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决工业异常处置与排产依赖资深经验、跨工序协调慢的问题，但公开材料只有一句报道标题，未呈现具体工序、输入数据、交付形态或用户抱怨，连需求与痛点都只能靠行业常识补全，无法形成项目自身的价值判断。
+    evidence_ids:
+    - ev-afa20ff465590c33
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪卡奥斯官方产品页或客户案例页，确认天智工业大模型已部署的工厂、具体工序与交付结果。
+  market: ''
+  job: 工厂工艺或运维工程师在产线出现设备异常、需要调整工艺参数或重排生产计划时，处理产线实时数据与工单信息，要产出一份可执行的处置方案或排程建议并交现场确认。
+  job_en: A factory process or maintenance engineer, when a line fault occurs or process parameters need
+    adjustment or scheduling must be redone, handles real-time line data and work orders to produce an
+    executable disposition or scheduling recommendation for on-site confirmation.
+  pain: 公开材料仅有一句报道标题，未呈现任何一线工程师的抱怨、停线损失数字或跨工序协调耗时的具体描述；工业诊断与排产依赖资深经验这一痛点属于行业常识性推理，不是该项目证据支持的痛点。
+  pain_en: Public material is limited to a single report headline; it shows no frontline engineer complaint,
+    downtime-loss figure, or concrete description of cross-process coordination delay. The pain of experience-dependent
+    diagnosis and scheduling is industry common sense, not pain supported by this project's evidence.
+  current_alternative: 公开材料未说明用户当前如何完成该任务，也未说明它替代的是资深工程师经验判断、MES/SCADA 报表加电话协调，还是传统规则化排程软件。
+  current_alternative_en: Public material does not state how users currently complete this job, nor whether
+    it replaces senior-engineer judgment, MES/SCADA reports plus phone coordination, or conventional rule-based
+    scheduling software.
+  usage_reason: 推断：若智能体集群能直接读取产线数据并输出可采纳的处置建议，可省去工程师逐项翻报表、跨工序电话确认的步骤；但公开材料没有客户案例、采纳率或重复使用证据，无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the agent cluster can read line data directly and output adoptable dispositions,
+    it removes the step of engineers paging through reports and phoning across processes; however, no
+    customer case, adoption rate, or repeat-use evidence is public, so which users would choose it and
+    when cannot be confirmed.'

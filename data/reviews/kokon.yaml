@@ -1,0 +1,85 @@
+- id: req-initial-kokon-2026-10-16
+  project_slug: kokon
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决本地按描述改图、免配环境的问题，痛点可辨；但公开材料只有仓库描述，输入输出与人工确认环节无法还原。
+    evidence_ids:
+    - ev-c4dc0a0315157ea9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有仓库星标与分支数，属关注度，不能证明修图师已把它留在工作流里。
+    evidence_ids:
+    - ev-c4dc0a0315157ea9
+  - gate: model
+    status: insufficient
+    reason: 未进入：开源仓库未披露定价或收费方式，买方与付费路径不明。
+    evidence_ids:
+    - ev-c4dc0a0315157ea9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对本地修图的确定性交付与人工复核边界。
+    evidence_ids:
+    - ev-c4dc0a0315157ea9
+  next_validation: 查看 kokon 官网或仓库文档，确认支持的照片类型、输出格式与是否披露定价或付费方式。
+  market: ''
+  job: 摄影师或修图师在本地电脑上，面对待修改的照片，要按描述完成指定修改并拿到成品图。
+  job_en: Photographers or retouchers on their own computer work from photos needing changes to complete
+    a described edit and get the finished image.
+  pain: 云端修图要上传素材并按量付费，手动图层操作对非专业用户门槛高，本地跑模型又要自己配 Python 环境。
+  pain_en: Cloud editing requires uploading assets and paying by usage, manual layer work is hard for
+    non-experts, and running models locally means configuring a Python environment yourself.
+  current_alternative: 使用云端修图服务，或在 Photoshop 等软件里手动分层调整。
+  current_alternative_en: Using cloud editing services, or adjusting layers manually in software such
+    as Photoshop.
+  usage_reason: 推断：它用一个安装包免去配环境，并让用户用一句话代替图层操作，可能省去搭环境和手动抠改这两步；但公开材料没有用户反馈，无法确认修图师会持续使用。
+  usage_reason_en: 'Inference: one installer removes environment setup and a single sentence replaces
+    layer work, potentially saving both the setup and manual masking steps; but no user feedback is public,
+    so sustained use by retouchers cannot be confirmed.'
+- id: req-full-kokon-2026-10-16
+  project_slug: kokon
+  level: full
+  reviewed_at: '2026-10-16T01:21:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决本地按描述改图、免配环境的问题，但公开材料只有产品自述，没有用户任务、抱怨或替代行为的可引用事实，连需求和痛点都无法从证据还原，故不成立。
+    evidence_ids:
+    - ev-f3d997d18fc2c821
+    - ev-5e17fa18fca73a49
+    - ev-d81f8d0c5c7692e2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 kokon 官方仓库或官网的 README/部署文档，确认其支持的照片类型、输出格式、GPU 要求与是否披露定价或付费方式。
+  market: ''
+  job: 摄影师或修图师在本地 Windows 或 Mac 上，面对待修改的照片，用一句自然语言描述想要的修改，由本机 GPU 上的 Qwen-Image 2.1 执行，最终拿到改好的图片。
+  job_en: A photographer or retoucher on a local Windows or Mac machine takes a photo needing changes,
+    describes the edit in one sentence, and has Qwen-Image 2.1 on the local GPU produce the finished image.
+  pain: 公开材料只给出产品自述（本地、免 Python、免云、带 MCP），没有任何用户抱怨、workaround 或客户案例说明修图师在本地按描述改图时具体卡在哪一步，痛点无法从公开事实还原。
+  pain_en: The public material only contains the product's own description (local, no Python, no cloud,
+    MCP server); no user complaints, workarounds, or customer cases show where retouchers actually get
+    stuck when editing locally by description, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未记录目标用户当前用什么替代（云端修图、Photoshop 手动图层，或自行配置本地模型），只能从产品定位反推，缺少可引用的替代行为证据。
+  current_alternative_en: The public material records no current alternative used by the target user (cloud
+    editing, manual Photoshop layers, or self-configured local models); it can only be inferred from positioning,
+    with no citable substitute-behavior evidence.
+  usage_reason: 推断：若产品如其自述，一个安装包免去配 Python 环境、一句话代替图层操作，可能省去搭环境和手动抠改两步；但没有任何用户反馈或案例支持这一因果，无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the product works as described, one installer removes Python setup and
+    one sentence replaces layer work, potentially saving the setup and manual masking steps; but no user
+    feedback or case supports this causal chain, so which users would choose it and when cannot be confirmed.'

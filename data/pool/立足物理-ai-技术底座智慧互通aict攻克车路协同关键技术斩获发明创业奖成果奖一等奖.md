@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBvclgzY0VQaGFw
 summary: 立足物理 AI 技术底座，智慧互通（AICT）攻克车路协同关键技术，斩获发明创业奖成果奖一等奖 凤凰网
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

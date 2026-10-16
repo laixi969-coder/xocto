@@ -314,3 +314,52 @@
     lets the AI assistant issue asset search and fetch requests during coding, removing the step of switching
     windows and importing by hand; however, asset source, format and licensing are undisclosed, so the
     degree of burden reduction cannot yet be verified.'
+- id: req-full-3d-asset-server-2026-10-16
+  project_slug: 3d-asset-server
+  level: full
+  reviewed_at: '2026-10-16T01:18:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是在编码会话内直接取用 3D 资产、免去切到素材站搜索再手工导入的需求；痛点在于资产获取与建模流程割裂。公开材料仅一句描述，痛点强度与旧流程耗时属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-84bcdd0afba10218
+    - ev-0a71a901faa5c575
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 272 增至 308，说明开源关注度上升，但这是规模与关注度证据，不能证明用户已把它留在工作流；缺少 issue、discussion 或用户反馈支持持续采用。
+    evidence_ids:
+    - ev-84bcdd0afba10218
+    - ev-2dc5450606cea8a0
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价页、付费或采购记录，无法判断钱来自 to C 开发者、to B 工作室还是 to VC；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-84bcdd0afba10218
+  - gate: truth
+    status: insufficient
+    reason: 资产来源、支持格式、授权范围与人工确认边界均未披露，无法核对返回的 3D 资产能否确定性地交付给下游流程使用。
+    evidence_ids:
+    - ev-84bcdd0afba10218
+    - ev-0a71a901faa5c575
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认 3D 资产的实际来源、支持格式、授权方式与 MCP 调用示例。
+  market: ''
+  job: 3D 美术师或游戏开发者在搭建场景、需要批量取用模型资产时，让 AI 编码助手通过 MCP 调用该服务，由它接收资产检索或获取请求并返回 3D 资产数据，交付给下游建模或场景搭建流程。
+  job_en: A 3D artist or game developer assembling a scene asks an AI coding assistant to call this service
+    over MCP; it receives asset search or fetch requests and returns 3D asset data to the downstream modeling
+    or scene-assembly workflow.
+  pain: 公开材料只给出“3d assets api and mcp”一句描述，未说明资产来源、格式与授权范围，因此无法还原此前由谁、用什么工具、花多久完成资产获取，痛点强度只能靠工作流结构推断。
+  pain_en: The public material only gives the phrase '3d assets api and mcp' and does not state asset
+    source, format or licensing, so who previously fetched assets, with what tools and how long it took
+    cannot be reconstructed; pain intensity rests on workflow-structure inference.
+  current_alternative: 公开材料未描述现有替代方式；按工作流结构推断，用户此前多半是在素材站手工搜索下载模型再导入项目，或自建内部资产管线。
+  current_alternative_en: The public material does not describe existing alternatives; by workflow-structure
+    inference, users most likely searched asset marketplaces manually, downloaded models and imported
+    them, or maintained an in-house asset pipeline.
+  usage_reason: 推断：相较切到素材站搜索再手动导入，该服务让 AI 助手在编码会话内直接发起资产检索与获取请求并拿到数据，省去切换工具与手工搬运这一步；但资产来源、格式与授权未披露，这一步负担是否真被减少仍待核验。
+  usage_reason_en: 'Inference: compared with searching an asset marketplace and importing manually, the
+    service lets the AI assistant issue asset search and fetch requests inside the coding session and
+    receive data directly, removing the tool-switching and manual-transfer step; however, asset source,
+    format and licensing are undisclosed, so whether that burden is truly reduced remains unverified.'

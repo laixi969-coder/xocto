@@ -1,0 +1,89 @@
+- id: req-initial-resimind-2026-10-16
+  project_slug: resimind
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学与代数推导不可校验、已验证规则无法复用的问题，痛点在于错误步骤会被继续沿用。
+    evidence_ids:
+    - ev-438681460da8eda5
+    - ev-8d1aa13190609747
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数一周内从 113 增至 132，属关注度信号，没有可归因到该项目的持续采用或团队使用证据。
+    evidence_ids:
+    - ev-438681460da8eda5
+    - ev-8d1aa13190609747
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明托管、企业支持或按解题计费的路径，买方与定价属判断而非已验证事实。
+    evidence_ids:
+    - ev-438681460da8eda5
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明校验由谁执行、错误规则如何回滚，以及人工确认在流程中的位置。
+    evidence_ids:
+    - ev-438681460da8eda5
+  next_validation: 收集 resimind 仓库的 README 与 open challenge 说明，确认校验机制、规则复用方式以及是否有外部使用者提交结果。
+  market: ''
+  job: 研究或工程人员在求解数学与代数问题时，需要让 agent 给出可校验的推导，并把已验证的规则留待复用。
+  job_en: Researchers or engineers solving math and algebra problems need an agent to produce checkable
+    derivations and keep verified rules for reuse.
+  pain: 通用 agent 的推导无法核对，错误步骤会被当作结论继续使用，重复求解时又要从头再来。
+  pain_en: General agents produce derivations that cannot be checked, wrong steps get reused as conclusions,
+    and repeated solving starts from scratch.
+  current_alternative: 使用通用大模型求解后人工逐步核对，或依赖符号计算软件手工搭建规则。
+  current_alternative_en: Solving with general LLMs and checking each step by hand, or building rules
+    manually in symbolic computation software.
+  usage_reason: 推断：相较通用模型加人工核对，它把校验通过的规则存下来复用，减少重复核对同一步推导的负担，因此对推导可审计性有要求的数学或工程团队更可能采用。
+  usage_reason_en: 'Inference: versus a general model plus manual checking, it stores verified rules for
+    reuse, cutting the burden of re-checking the same derivation, so math or engineering teams that need
+    auditable derivations are more likely to adopt it.'
+- id: req-full-resimind-2026-10-16
+  project_slug: resimind
+  level: full
+  reviewed_at: '2026-10-16T01:23:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学与代数推导不可校验、已验证规则无法复用的问题，痛点在于错误步骤会被继续沿用；仓库自述的校验记忆与代数修复技能构成可还原的输入—动作—交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-438681460da8eda5
+    - ev-8d1aa13190609747
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数一周内从 113 增至 132，仅属关注度信号，公开材料没有可归因到该项目的持续采用、团队使用或用户反馈证据。
+    evidence_ids:
+    - ev-438681460da8eda5
+    - ev-8d1aa13190609747
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明托管、企业支持或按解题计费的路径，买方与定价属判断而非已验证事实。
+    evidence_ids:
+    - ev-438681460da8eda5
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明校验由谁执行、错误规则如何回滚，以及人工确认在流程中的位置，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-438681460da8eda5
+  next_validation: 收集 resimind 仓库 README 与 open challenge 说明，确认校验机制、规则复用方式以及是否有外部使用者提交结果。
+  market: ''
+  job: 研究或工程人员在求解数学与代数问题时，需要让 agent 给出可逐步核对的推导，并把校验通过的规则留存下来供后续同类问题复用。
+  job_en: Researchers or engineers solving math and algebra problems need an agent to produce step-checkable
+    derivations and keep verified rules for reuse on later problems.
+  pain: 公开材料显示通用 agent 的推导过程不可校验，错误步骤会被当作结论继续沿用；重复求解同类问题时规则无法沉淀，只能从头再来。
+  pain_en: Public materials indicate general agents produce unverifiable derivations, wrong steps get
+    carried forward as conclusions, and rules cannot accumulate across repeated problems, forcing a restart
+    each time.
+  current_alternative: 用通用大模型求解后人工逐步核对，或在符号计算软件里手工搭建与维护规则。
+  current_alternative_en: Solving with a general LLM and checking each step by hand, or manually building
+    and maintaining rules inside symbolic computation software.
+  usage_reason: 推断：相较通用模型加人工逐步核对，它把校验通过的规则写入记忆并复用，减少重复核对同一步推导的负担，因此对推导可审计性有要求的数学或工程团队更可能选择它。
+  usage_reason_en: 'Inference: versus a general model plus manual step checking, it writes verified rules
+    into memory for reuse, cutting the burden of re-checking the same derivation, so math or engineering
+    teams needing auditable derivations are more likely to choose it.'

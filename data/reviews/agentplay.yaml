@@ -1,0 +1,82 @@
+- id: req-initial-agentplay-2026-10-16
+  project_slug: agentplay
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理多步执行后中间步骤难还原、排查靠翻日志的问题，旧做法是读原始日志或重跑，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-c0fb0c28ecfd02f5
+  - gate: consensus
+    status: insufficient
+    reason: 只有 210 星标这一关注度信号，没有开发者反馈或使用案例说明它被持续用于复盘。
+    evidence_ids:
+    - ev-c0fb0c28ecfd02f5
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是工程团队，付费路径未公开，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-c0fb0c28ecfd02f5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对回放是否忠实还原代理行为、支持哪些代理，交付确定性缺少材料。
+    evidence_ids:
+    - ev-c0fb0c28ecfd02f5
+  next_validation: 查看该仓库的 README 与 issue，确认它支持哪些编码代理以及回放与真实会话的一致程度。
+  market: ''
+  job: 开发者在编码代理完成多步任务后，处理会话记录，回放成地图与时间线以定位代理出错的那一步。
+  job_en: After a coding agent completes a multi-step task, developers handle the session record and replay
+    it as a map and timeline to locate the step where the agent went wrong.
+  pain: 代理多步执行后只看到最终代码，中间哪一步走偏难以还原，排查靠翻原始日志。
+  pain_en: After multi-step agent runs only the final code is visible, the step that went wrong is hard
+    to reconstruct, and debugging means reading raw logs.
+  current_alternative: 翻看原始会话日志，或凭记忆重跑一遍任务。
+  current_alternative_en: Reading raw session logs, or re-running the task from memory.
+  usage_reason: 推断：相较翻原始日志，它把会话直接渲染成地图与时间线，省去逐条比对日志这一步，因此频繁调试编码代理的开发者会尝试。
+  usage_reason_en: 'Inference: compared with reading raw logs, it renders the session directly as a map
+    and timeline, removing the line-by-line log comparison step, so developers frequently debugging coding
+    agents would try it.'
+- id: req-full-agentplay-2026-10-16
+  project_slug: agentplay
+  level: full
+  reviewed_at: '2026-10-16T01:19:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理多步执行后中间步骤难还原、排查靠翻日志的问题，旧做法是读原始日志或重跑，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-c0fb0c28ecfd02f5
+  - gate: consensus
+    status: insufficient
+    reason: 只有 210 星标这一关注度信号，没有开发者反馈或使用案例说明它被持续用于复盘。
+    evidence_ids:
+    - ev-c0fb0c28ecfd02f5
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是工程团队，付费路径未公开，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-c0fb0c28ecfd02f5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对回放是否忠实还原代理行为、支持哪些代理，交付确定性缺少材料。
+    evidence_ids:
+    - ev-c0fb0c28ecfd02f5
+  next_validation: 查看该仓库的 README 与 issue，确认它支持哪些编码代理以及回放与真实会话的一致程度。
+  market: ''
+  job: 开发者在编码代理完成多步任务后，处理会话记录，回放成地图与时间线以定位代理出错的那一步。
+  job_en: After a coding agent completes a multi-step task, developers handle the session record and replay
+    it as a map and timeline to locate the step where the agent went wrong.
+  pain: 代理多步执行后只看到最终代码，中间哪一步走偏难以还原，排查靠翻原始日志。
+  pain_en: After multi-step agent runs only the final code is visible, the step that went wrong is hard
+    to reconstruct, and debugging means reading raw logs.
+  current_alternative: 翻看原始会话日志，或凭记忆重跑一遍任务。
+  current_alternative_en: Reading raw session logs, or re-running the task from memory.
+  usage_reason: 推断：相较翻原始日志，它把会话直接渲染成地图与时间线，省去逐条比对日志这一步，因此频繁调试编码代理的开发者会尝试。
+  usage_reason_en: 'Inference: compared with reading raw logs, it renders the session directly as a map
+    and timeline, removing the line-by-line log comparison step, so developers frequently debugging coding
+    agents would try it.'

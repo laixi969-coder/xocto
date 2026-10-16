@@ -1,6 +1,6 @@
 ---
 slug: tcs-launches-industrial-intelligence-foundry-to-accelerate-a
-name: TCS launches Industrial Intelligence Foundry to accelerate AI-led autonomy and engineering
+name: Tata Consultancy Services Industrial Intelligence Foundry
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: TCS launches Industrial Intelligence Foundry to accelerate AI-led auton
   Consultancy Services
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# TCS launches Industrial Intelligence Foundry to accelerate AI-led autonomy and engineering
+# Tata Consultancy Services Industrial Intelligence Foundry
 
 TCS launches Industrial Intelligence Foundry to accelerate AI-led autonomy and engineering Tata Consultancy Services
 

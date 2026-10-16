@@ -1,0 +1,85 @@
+- id: req-initial-sygal-2026-10-16
+  project_slug: sygal
+  level: initial
+  reviewed_at: '2026-10-16T00:25:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把 PDF、扫描件、网页转成可编辑 Markdown 的需求，痛点是手工重打或上传敏感文件，旧替代行为明确。
+    evidence_ids:
+    - ev-afcaac3b262a8f02
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条产品说明和少量社区讨论，没有用户评价或采用数据说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-afcaac3b262a8f02
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费证据，买方可能是个人或企业私有部署，属判断而非已验证事实。
+    evidence_ids:
+    - ev-afcaac3b262a8f02
+  - gate: truth
+    status: insufficient
+    reason: 本地处理与隐私边界是卖点，但转换准确率、支持格式和人工校对量都未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-afcaac3b262a8f02
+  next_validation: 收集 Sygal 官方定价页或部署文档，确认是否按处理量或私有部署收费，以及支持的格式范围。
+  market: ''
+  job: 律师、财税或研究岗位的人拿到合同、票据、扫描件或网页资料时，需要把它们变成可编辑、可检索的 Markdown 文本，再放进笔记、知识库或下游流程。
+  job_en: Lawyers, finance staff or researchers who receive contracts, invoices, scans or web pages need
+    them turned into editable, searchable Markdown text for notes, knowledge bases or downstream pipelines.
+  pain: 旧做法要么手工重打，要么用云端转换服务，把敏感文件上传给第三方；格式错乱后还要逐段校对。
+  pain_en: The old way is retyping by hand or using cloud converters that upload sensitive files to a
+    third party, then correcting broken formatting line by line.
+  current_alternative: 手工复制粘贴、OCR 软件、云端 PDF 转 Markdown 服务，或干脆不转换直接读原文件。
+  current_alternative_en: Manual copy-paste, OCR software, cloud PDF-to-Markdown services, or simply reading
+    the original file without conversion.
+  usage_reason: 推断：相较云端转换，本地处理省掉了上传敏感文件这一步，对不能外传材料的岗位是选择理由；但转换准确率和批量能力没有公开证据，是否长期留在工作流里仍缺一环。
+  usage_reason_en: 'Inference: compared with cloud conversion, local processing removes the step of uploading
+    sensitive files, which is the reason privacy-bound roles would choose it; conversion accuracy and
+    batch capability lack public evidence, so long-term retention remains unverified.'
+- id: req-full-sygal-2026-10-16
+  project_slug: sygal
+  level: full
+  reviewed_at: '2026-10-16T01:24:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把 PDF、扫描件、网页转成可编辑 Markdown 的需求，痛点是手工重打或上传敏感文件，旧替代行为明确。
+    evidence_ids:
+    - ev-afcaac3b262a8f02
+  - gate: consensus
+    status: insufficient
+    reason: 只有一条产品说明和少量社区讨论，没有用户评价或采用数据说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-afcaac3b262a8f02
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或付费证据，买方可能是个人或企业私有部署，属判断而非已验证事实。
+    evidence_ids:
+    - ev-afcaac3b262a8f02
+  - gate: truth
+    status: insufficient
+    reason: 本地处理与隐私边界是卖点，但转换准确率、支持格式和人工校对量都未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-afcaac3b262a8f02
+  next_validation: 收集 Sygal 官方定价页或部署文档，确认是否按处理量或私有部署收费，以及支持的格式范围。
+  market: ''
+  job: 律师、财税或研究岗位的人拿到合同、票据、扫描件或网页资料时，需要把它们变成可编辑、可检索的 Markdown 文本，再放进笔记、知识库或下游流程。
+  job_en: Lawyers, finance staff or researchers who receive contracts, invoices, scans or web pages need
+    them turned into editable, searchable Markdown text for notes, knowledge bases or downstream pipelines.
+  pain: 旧做法要么手工重打，要么用云端转换服务把敏感文件上传给第三方；格式错乱后还要逐段校对，不解决则隐私与时间成本双高。
+  pain_en: The old way is retyping by hand or using cloud converters that upload sensitive files to a
+    third party, then correcting broken formatting line by line; not solving it leaves both privacy and
+    time costs high.
+  current_alternative: 手工复制粘贴、OCR 软件、云端 PDF 转 Markdown 服务，或干脆不转换直接读原文件。
+  current_alternative_en: Manual copy-paste, OCR software, cloud PDF-to-Markdown services, or simply reading
+    the original file without conversion.
+  usage_reason: 推断：相较云端转换，本地处理省掉了上传敏感文件这一步，对不能外传材料的岗位是选择理由；但转换准确率和批量能力没有公开证据，是否长期留在工作流里仍缺一环。
+  usage_reason_en: 'Inference: compared with cloud conversion, local processing removes the step of uploading
+    sensitive files, which is the reason privacy-bound roles would choose it; conversion accuracy and
+    batch capability lack public evidence, so long-term retention remains unverified.'

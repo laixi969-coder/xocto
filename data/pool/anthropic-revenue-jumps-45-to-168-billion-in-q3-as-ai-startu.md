@@ -1,6 +1,6 @@
 ---
 slug: anthropic-revenue-jumps-45-to-168-billion-in-q3-as-ai-startu
-name: Anthropic revenue jumps 45% to $16.8 billion in Q3 as AI startup eyes IPO
+name: Anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdHJ2bTNqTGQ2
 summary: Anthropic revenue jumps 45% to $16.8 billion in Q3 as AI startup eyes IPO Fortune India
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic revenue jumps 45% to $16.8 billion in Q3 as AI startup eyes IPO
+# Anthropic
 
 Anthropic revenue jumps 45% to $16.8 billion in Q3 as AI startup eyes IPO Fortune India
 

@@ -1,0 +1,87 @@
+- id: req-initial-german-ai-startup-elevatry-secures-3-million-to-automate-pro-2026-10-16
+  project_slug: german-ai-startup-elevatry-secures-3-million-to-automate-pro
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决采购询价与比价的人工整理问题，但材料未给出痛点、输入材料与交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-88f3969886616eb7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，未见采购人员采用、评价或客户案例，共识卡在场景未被公开描述这一环。
+    evidence_ids:
+    - ev-88f3969886616eb7
+  - gate: model
+    status: insufficient
+    reason: 买方与收费方式均未披露；按采购软件惯例推断可能为 to B 订阅，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-88f3969886616eb7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 输出是否贴近采购第一性目标、承诺能否确定性交付，人工复核边界也未说明。
+    evidence_ids:
+    - ev-88f3969886616eb7
+  next_validation: 收集 Elevatry 官方产品页或部署文档，确认其 AI 在采购流程中接收的具体材料、执行动作与交付结果。
+  market: ''
+  job: 采购专员在收到多家供应商报价、需要比价并推进下单时，处理询价单、报价邮件与合同条款，要完成供应商筛选与采购决策。
+  job_en: A procurement specialist receiving quotes from multiple suppliers, comparing them and pushing
+    toward a purchase order, handling RFQs, quote emails and contract terms to complete supplier selection
+    and the purchasing decision.
+  pain: 候选材料未给出任何痛点描述，只能推断采购比价与询价整理通常依赖人工邮件与表格，耗时且易漏项；该痛点未获材料支持。
+  pain_en: The candidate material gives no pain description; it can only be inferred that quote comparison
+    and RFQ consolidation usually rely on manual email and spreadsheets, which is slow and error-prone;
+    this pain is not supported by the material.
+  current_alternative: 公开材料未说明现有替代方式，按常理推断为人工邮件往来、Excel 比价表或既有采购系统；此为推断，非材料事实。
+  current_alternative_en: The material does not state the current alternative; by inference it is manual
+    email threads, Excel comparison sheets or existing procurement systems; this is inference, not a material
+    fact.
+  usage_reason: 材料未披露产品具体动作与交付结果，无法说明它相较旧做法减少了哪一步负担；仅能确认其定位为采购工作流自动化，因此为何被选择仍缺少可核验依据。
+  usage_reason_en: The material discloses neither the product's concrete actions nor its deliverable,
+    so it cannot be shown which step it removes versus the old approach; only its positioning as procurement
+    workflow automation is confirmed, leaving the reason for adoption unverified.
+- id: req-full-german-ai-startup-elevatry-secures-3-million-to-automate-pro-2026-10-16
+  project_slug: german-ai-startup-elevatry-secures-3-million-to-automate-pro
+  level: full
+  reviewed_at: '2026-10-16T01:21:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决采购询价与比价的人工整理问题，但材料未给出痛点、输入材料与交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-88f3969886616eb7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Elevatry 官方产品页或部署文档，确认其 AI 在采购流程中接收的具体材料、执行动作与交付结果。
+  market: ''
+  job: 采购专员在收到多家供应商报价、需要比价并推进下单时，处理询价单、报价邮件与合同条款，要完成供应商筛选与采购决策。
+  job_en: A procurement specialist receiving quotes from multiple suppliers, comparing them and pushing
+    toward a purchase order, handling RFQs, quote emails and contract terms to complete supplier selection
+    and the purchasing decision.
+  pain: 候选材料未给出任何痛点描述，只能推断采购比价与询价整理通常依赖人工邮件与表格，耗时且易漏项；该痛点未获材料支持。
+  pain_en: The candidate material gives no pain description; it can only be inferred that quote comparison
+    and RFQ consolidation usually rely on manual email and spreadsheets, which is slow and error-prone;
+    this pain is not supported by the material.
+  current_alternative: 公开材料未说明现有替代方式，按常理推断为人工邮件往来、Excel 比价表或既有采购系统；此为推断，非材料事实。
+  current_alternative_en: The material does not state the current alternative; by inference it is manual
+    email threads, Excel comparison sheets or existing procurement systems; this is inference, not a material
+    fact.
+  usage_reason: 材料未披露产品具体动作与交付结果，无法说明它相较旧做法减少了哪一步负担；仅能确认其定位为采购工作流自动化，因此为何被选择仍缺少可核验依据。
+  usage_reason_en: The material discloses neither the product's concrete actions nor its deliverable,
+    so it cannot be shown which step it removes versus the old approach; only its positioning as procurement
+    workflow automation is confirmed, leaving the reason for adoption unverified.

@@ -1,0 +1,87 @@
+- id: req-initial-keys-wasserman-slate-ai-studio-powered-by-tensorfold-built-w-2026-10-16
+  project_slug: keys-wasserman-slate-ai-studio-powered-by-tensorfold-built-w
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决本地短片从规划到渲染的割裂，痛点可辨；但公开材料只有仓库描述，输入、动作与交付细节无法还原。
+    evidence_ids:
+    - ev-ee879ed03f022f14
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有仓库星标与分支数，属关注度，不能证明创作者已把它留在工作流里。
+    evidence_ids:
+    - ev-ee879ed03f022f14
+  - gate: model
+    status: insufficient
+    reason: 未进入：开源仓库未披露定价或收费方式，买方与付费路径不明。
+    evidence_ids:
+    - ev-ee879ed03f022f14
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对本地渲染的确定性交付与人工确认边界。
+    evidence_ids:
+    - ev-ee879ed03f022f14
+  next_validation: 查看该仓库的 README 与 issue / discussion，确认实际渲染流程、依赖环境与是否有人报告成功产出成片。
+  market: ''
+  job: 独立影视创作者在本地机器上，面对剧本与分镜设想，要产出带声音的可剪辑短片片段。
+  job_en: Independent filmmakers on local machines work from scripts and shot ideas to produce editable
+    short-film clips with sound.
+  pain: 云端生成工具按量计费且素材需上传，本地拼装图像与视频模型又要自己搭环境，规划与渲染割裂。
+  pain_en: Cloud generation tools bill by usage and require uploading footage, while assembling image
+    and video models locally means building the environment yourself, splitting planning from rendering.
+  current_alternative: 分别使用云端出图、出视频服务，或自行在本地配置开源模型脚本。
+  current_alternative_en: Using separate cloud image and video services, or hand-configuring open-source
+    model scripts locally.
+  usage_reason: 推断：它把规划、出图、出带声视频串成一条本地流水线，可能省去在多个工具间搬运素材与自建环境这一步；但公开材料未给出实际使用反馈，无法确认创作者会持续采用。
+  usage_reason_en: 'Inference: it chains planning, image generation and sound-bearing video into one local
+    pipeline, potentially removing the step of moving assets between tools and building the environment;
+    but no actual usage feedback is public, so sustained adoption cannot be confirmed.'
+- id: req-full-keys-wasserman-slate-ai-studio-powered-by-tensorfold-built-w-2026-10-16
+  project_slug: keys-wasserman-slate-ai-studio-powered-by-tensorfold-built-w
+  level: full
+  reviewed_at: '2026-10-16T01:21:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让独立创作者在本地完成从分镜规划到带声视频渲染的短片制作，但公开证据全部指向同名无关的 Slate 汽车与杂志页面，没有任何该产品的功能说明、用户痛点或替代行为，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-211b59974f2cafc9
+    - ev-959a25d249c974b6
+    - ev-88414d76d7e93cbd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 TensorFold 或 Sam Wasserman 官方渠道发布的 Slate AI Studio 产品页与 README，确认其实际输入、渲染流程、依赖环境与是否公开成片产出示例。
+  market: ''
+  job: 独立影视创作者在 Mac 或 NVIDIA DGX Spark 本地机器上，面对剧本与分镜设想，要按 Slate 工作流规划镜头，再用 Qwen-Image-2.1 出图、MiniMax H3
+    出带声视频，最终拿到可剪辑的片段。
+  job_en: Independent filmmakers on local Mac or NVIDIA DGX Spark machines work from scripts and shot
+    ideas to plan shots in a Slate-style crew workflow, generate images with Qwen-Image-2.1 and sound-bearing
+    video with MiniMax H3, and end up with editable clips.
+  pain: 公开材料未提供任何用户痛点、抱怨或替代行为的证据；现有证据全部指向同名但无关的 Slate 汽车、Slate 杂志等页面，无法还原创作者在本地规划与渲染短片时具体卡在哪一步。
+  pain_en: No public evidence of user pain, complaints, or workaround behavior exists; all collected evidence
+    points to unrelated same-named Slate entities (an EV, a magazine), so it is impossible to reconstruct
+    where creators actually get stuck when planning and rendering short films locally.
+  current_alternative: 公开材料未记录任何现有替代方式；无法确认创作者目前是用云端出图出视频服务、自行配置开源模型脚本，还是其他做法。
+  current_alternative_en: No current alternative is documented in the public material; it cannot be confirmed
+    whether creators use cloud image/video services, hand-configured open-source model scripts, or something
+    else.
+  usage_reason: 无法给出使用理由：公开证据中没有该产品的功能说明、用户反馈或客户案例，无法说明它相较任何旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: the public evidence contains no product description,
+    user feedback, or customer case for this product, so it cannot be shown which step it removes relative
+    to any prior practice, or which users would choose it under what circumstances.'

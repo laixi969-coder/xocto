@@ -1,0 +1,82 @@
+- id: req-initial-ai-startup-parallel-loop-launches-with-66m-seed-funding-2026-10-16
+  project_slug: ai-startup-parallel-loop-launches-with-66m-seed-funding
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连解决什么需求、什么痛点都写不出来，价值关证据不足。
+    evidence_ids:
+    - ev-932594887fd43995
+  - gate: consensus
+    status: insufficient
+    reason: 仅有成立与融资消息，没有客户或采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-932594887fd43995
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，钱从哪来只能猜测，属判断而非已验证事实。
+    evidence_ids:
+    - ev-932594887fd43995
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也看不到人工边界，求真检查缺少材料。
+    evidence_ids:
+    - ev-932594887fd43995
+  next_validation: 收集 Parallel Loop 官方产品页或发布说明，确认其面向的具体工作环节、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明使用者与任务，无法写出谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not name the user or task, so it is impossible to state who handles what
+    material under what conditions to complete what task.
+  pain: 材料未披露任何痛点描述，无法确认它试图解决什么问题。
+  pain_en: No pain point is disclosed, so it is impossible to confirm what problem it attempts to solve.
+  current_alternative: 材料未说明现有替代方式，无法判断它替代了哪一步旧做法。
+  current_alternative_en: No current alternative is stated, so it is impossible to judge which legacy
+    step it replaces.
+  usage_reason: 由于产品功能、输入材料与交付结果均未公开，无法说明它相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它；缺少的是产品级公开说明这一环。
+  usage_reason_en: Because the product's functions, inputs and deliverables are undisclosed, it is impossible
+    to say which step of the old process it removes or which users would choose it under what conditions;
+    the missing link is a product-level public description.
+- id: req-full-ai-startup-parallel-loop-launches-with-66m-seed-funding-2026-10-16
+  project_slug: ai-startup-parallel-loop-launches-with-66m-seed-funding
+  level: full
+  reviewed_at: '2026-10-16T01:19:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有 660 万美元种子轮融资这一条事实，未披露产品功能、输入材料、交付结果与用户痛点，连解决什么需求都写不出来，无法形成价值结构判断。
+    evidence_ids:
+    - ev-d56b256107b78a1d
+    - ev-fd455e736d3c186b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Parallel Loop 官方产品页或发布说明（含官网定价与部署文档），确认其面向的具体工作环节、输入材料与交付结果。
+  market: ''
+  job: 公开材料只说明这是一家以 660 万美元种子轮成立的 AI 初创公司，未披露谁在什么工作节点打开它、AI 接收什么材料、执行什么动作、交付什么结果，因此无法写出具体使用场景。
+  job_en: Public material only states this is an AI startup launched with a $6.6M seed round; it does
+    not disclose who opens it at which work step, what material the AI receives, what action it performs,
+    or what it delivers, so no concrete job can be stated.
+  pain: 材料未披露任何用户痛点、抱怨或旧流程摩擦，无法确认它试图缓解什么问题。
+  pain_en: No user pain, complaint, or legacy-process friction is disclosed, so it is impossible to confirm
+    what problem it attempts to alleviate.
+  current_alternative: 材料未说明现有替代方式，无法判断它替代了哪一步旧做法或哪类工具。
+  current_alternative_en: No current alternative is stated, so it is impossible to judge which legacy
+    step or tool category it replaces.
+  usage_reason: 由于产品功能、输入材料与交付结果均未公开，无法说明它相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它；缺少的是产品级公开说明这一环。
+  usage_reason_en: Because the product's functions, inputs and deliverables are undisclosed, it is impossible
+    to say which step of the old process it removes or which users would choose it under what conditions;
+    the missing link is a product-level public description.

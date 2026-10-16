@@ -1,6 +1,6 @@
 ---
 slug: 恒生活grabot新品480-air登陆海外市场-以双重创新服务全球客户
-name: 恒生活GRABOT新品480 Air登陆海外市场 以双重创新服务全球客户
+name: 恒生活GRABOT 480 Air
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTFAtcXlYal9tSWFL
 summary: 恒生活GRABOT新品480 Air登陆海外市场 以双重创新服务全球客户 中华网
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 恒生活GRABOT新品480 Air登陆海外市场 以双重创新服务全球客户
+# 恒生活GRABOT 480 Air
 
 恒生活GRABOT新品480 Air登陆海外市场 以双重创新服务全球客户 中华网
 

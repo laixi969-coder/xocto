@@ -22,7 +22,7 @@ summary: 'Oticon Hearing Aids Review 2026: Features, Prices, and Models The Nati
   (NCOA)'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

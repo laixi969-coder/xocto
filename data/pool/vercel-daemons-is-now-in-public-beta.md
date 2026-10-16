@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/vercel-daemons-is-now-in-public-beta
 summary: ''
 first_seen: '2026-10-16T00:25:39Z'
 last_seen: '2026-10-16T00:25:39Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

@@ -1,0 +1,96 @@
+- id: req-initial-exclusive-chariot-raises-10m-to-help-consumers-fight-back-ag-2026-10-16
+  project_slug: exclusive-chariot-raises-10m-to-help-consumers-fight-back-ag
+  level: initial
+  reviewed_at: '2026-10-16T00:25:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决消费者索赔无门、律所无法批量处理个人仲裁的需求，痛点在合同禁止集体诉讼时是刚性的，交付物是可直接提交的索赔材料。
+    evidence_ids:
+    - ev-cb461734d1e119d5
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明与律所合作，未给出已服务律所数量、案件量或消费者采用数据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-cb461734d1e119d5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，按案件、按成功结果还是按席位收费不明；买方推测为律所，属判断而非已验证事实。
+    evidence_ids:
+    - ev-cb461734d1e119d5
+  - gate: truth
+    status: insufficient
+    reason: 索赔涉及法律合规与个人信息，公开材料未说明 AI 输出的复核机制、错误索赔的责任边界与人工介入方式。
+    evidence_ids:
+    - ev-cb461734d1e119d5
+  next_validation: 收集 Chariot Claims 官方定价页或客户案例页，确认其收费方式与已合作律所、已处理索赔量的公开数据。
+  market: ''
+  job: 消费者在怀疑自己被隐藏收费、隐私侵权或难以取消的订阅损害时，需要判断能否索赔并凑齐证据；律所案件运营人员则要在同一时间处理成千上万件个人索赔，逐件收集信息和提交材料。
+  job_en: Consumers who suspect they were harmed by hidden fees, privacy violations or hard-to-cancel
+    subscriptions need to judge whether they can claim and assemble evidence; law firm case operations
+    staff must meanwhile process thousands of individual claims at once, gathering information and filing
+    each one.
+  pain: 集体诉讼常被合同条款挡在门外，个人仲裁又要求逐人提交；消费者不知道流程，律所也没有批量处理数千件小额索赔的产能，导致大量索赔因材料不全或无人跟进而放弃。
+  pain_en: Class actions are often blocked by contract terms while individual arbitration requires filing
+    person by person; consumers do not know the process and firms lack the capacity to handle thousands
+    of small claims, so many claims are abandoned for lack of paperwork or follow-up.
+  current_alternative: 消费者自己上网搜索和解公告、手工填写表格或干脆放弃；律所靠人工筛查线索、电话或邮件逐个联系当事人并手工整理材料。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：相较消费者自行搜索和律所人工逐件跟进，该产品把“识别潜在案件、找到受影响人群、收集索赔信息”合并成一条可批量执行的流水线，减少律所在线索筛选和材料收集上的手工环节，因此处理小额高频索赔的律所会在案件量超过人工产能时选择它。公开材料未披露留存或复购数据，长期使用尚无证据。
+  usage_reason_en: 'Inference: compared with consumers searching on their own and firms following up case
+    by case, the product merges case identification, claimant outreach and information collection into
+    one batchable pipeline, cutting manual lead screening and document gathering — so firms handling high-volume,
+    low-value claims would choose it when case volume exceeds manual capacity. No retention or repeat-use
+    data is disclosed, so long-term use is not evidenced.'
+- id: req-full-exclusive-chariot-raises-10m-to-help-consumers-fight-back-ag-2026-10-16
+  project_slug: exclusive-chariot-raises-10m-to-help-consumers-fight-back-ag
+  level: full
+  reviewed_at: '2026-10-16T01:21:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决消费者索赔无门、律所无法批量处理个人仲裁的需求；合同禁止集体诉讼时痛点刚性，交付物是可直接提交的索赔材料。这是基于公开产品说明的工作流结构推理，尚无用户采用数据。
+    evidence_ids:
+    - ev-cbefb99d761a91fe
+    - ev-15fc5c6501928418
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明与律所合作，未给出已服务律所数量、案件量或消费者采用数据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-cbefb99d761a91fe
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，按案件、按成功结果还是按席位收费不明；买方推测为律所，属判断而非已验证事实。
+    evidence_ids:
+    - ev-15fc5c6501928418
+  - gate: truth
+    status: insufficient
+    reason: 索赔涉及法律合规与个人信息，公开材料未说明 AI 输出的复核机制、错误索赔的责任边界与人工介入方式。
+    evidence_ids:
+    - ev-cbefb99d761a91fe
+  next_validation: 收集 Chariot Claims 官方定价页或客户案例页，确认其收费方式与已合作律所、已处理索赔量的公开数据。
+  market: ''
+  job: 消费者在怀疑自己遭遇隐私侵权、隐藏收费或难以取消的订阅时，需要判断自己能否索赔并凑齐证据材料；律所案件运营人员则要在同一时间处理成千上万件个人索赔，逐件识别当事人、收集信息并提交材料。
+  job_en: Consumers who suspect privacy violations, hidden fees or hard-to-cancel subscriptions need to
+    judge whether they can claim and assemble evidence; law firm case operations staff must meanwhile
+    process thousands of individual claims at once, identifying claimants, gathering information and filing
+    each one.
+  pain: 企业合同条款常禁止消费者加入集体诉讼，个人仲裁又要求逐人提交；消费者不知道流程、凑不齐材料，律所也缺乏批量处理数千件小额索赔的产能，导致大量索赔因材料不全或无人跟进而放弃。
+  pain_en: Corporate contract terms often bar consumers from joining class actions while individual arbitration
+    requires person-by-person filing; consumers do not know the process or how to assemble paperwork,
+    and firms lack capacity to handle thousands of small claims, so many claims are abandoned.
+  current_alternative: 消费者自行搜索和解公告、手工填表或干脆放弃；律所靠人工筛查线索、电话或邮件逐个联系当事人并手工整理材料。
+  current_alternative_en: Consumers search settlement notices themselves, fill forms by hand or simply
+    give up; firms manually screen leads, contact claimants one by one by phone or email and compile documents
+    by hand.
+  usage_reason: 推断：相较消费者自行搜索和律所人工逐件跟进，该产品把识别潜在案件、找到受影响人群、收集索赔信息合并为一条可批量执行的流水线，减少律所在线索筛选与材料收集上的手工环节，因此当小额高频索赔量超过人工产能时，处理此类案件的律所会选择它。公开材料未披露留存或复购数据，长期使用尚无证据。
+  usage_reason_en: 'Inference: compared with consumers searching on their own and firms following up case
+    by case, the product merges case identification, claimant outreach and information collection into
+    one batchable pipeline, cutting manual lead screening and document gathering — so firms handling high-volume,
+    low-value claims would choose it when volume exceeds manual capacity. No retention or repeat-use data
+    is disclosed, so long-term use is not evidenced.'

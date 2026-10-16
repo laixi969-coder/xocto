@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQV2lvUk9mT1I1
 summary: Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth TradingView
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

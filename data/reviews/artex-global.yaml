@@ -1,0 +1,92 @@
+- id: req-initial-artex-global-2026-10-16
+  project_slug: artex-global
+  level: initial
+  reviewed_at: '2026-10-16T00:25:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权渗透测试中重复探测与验证耗工时的问题，痛点刚性且旧替代行为明确；买方与授权责任仍不清。
+    evidence_ids:
+    - ev-36fb99a82074a4ca
+    - ev-034ae638e2f30ca2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数增长，属关注度证据，不能证明安全团队已把它纳入常规测试流程。
+    evidence_ids:
+    - ev-034ae638e2f30ca2
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页或商业交付路径，钱可能来自企业自建或服务化，属判断而非已验证事实。
+    evidence_ids:
+    - ev-36fb99a82074a4ca
+  - gate: truth
+    status: challenged
+    reason: 自主攻击行为的安全边界、授权校验与误伤责任在公开材料中未见说明，交付确定性存疑。
+    evidence_ids:
+    - ev-36fb99a82074a4ca
+  next_validation: 收集该仓库的 README、部署文档与 issue/discussion，确认授权范围校验机制与可复现的测试输出格式。
+  market: ''
+  job: 安全工程师在获得客户书面授权的渗透测试项目中，把目标系统或资产清单交给框架，由 AI 代理执行探测与攻击链尝试，最终要拿到可复核的漏洞结果与测试记录。
+  job_en: In a client-authorized penetration-testing engagement, a security engineer hands target systems
+    or an asset list to the framework, AI agents attempt probing and attack chains, and the engineer needs
+    reviewable vulnerability findings and test records.
+  pain: 人工渗透测试耗时长、依赖资深人员，中小客户预算下往往只能做一次浅测；重复的探测与验证步骤占掉大量工时。
+  pain_en: Manual penetration testing is slow and depends on senior specialists, so smaller clients often
+    get only one shallow test; repetitive probing and verification consume much of the hours.
+  current_alternative: 目前主要靠人工渗透测试服务、扫描器加人工验证，或干脆不做定期测试。
+  current_alternative_en: Today this is mainly manual penetration-testing services, scanners plus human
+    verification, or simply skipping periodic testing.
+  usage_reason: 相较扫描器只报疑似问题、人工再逐条验证，它让代理直接跑完探测到验证的链条，减少安全工程师在重复步骤上的工时，因此预算有限但需要定期测试的团队会先试用；这是基于产品能力的推断，尚无客户案例或留存证据。
+  usage_reason_en: Compared with scanners that only flag suspected issues and humans verifying each one,
+    it lets agents run the chain from probing to verification, cutting engineer hours on repetitive steps,
+    so budget-constrained teams needing periodic testing would try it first; this is inference from capability,
+    with no customer case or retention evidence yet.
+- id: req-full-artex-global-2026-10-16
+  project_slug: artex-global
+  level: full
+  reviewed_at: '2026-10-16T01:19:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权渗透测试中重复探测与验证耗工时的问题，痛点刚性且旧替代行为明确；买方与授权责任仍不清。
+    evidence_ids:
+    - ev-cf88595f24be39a1
+    - ev-900a679bfcbb0a3e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库自述与赛事冠军头衔，属关注度与荣誉证据，未见安全团队把它纳入常规测试流程的采用记录。
+    evidence_ids:
+    - ev-cf88595f24be39a1
+  - gate: model
+    status: insufficient
+    reason: AGPL-3.0 开源项目未见定价页或商业交付路径，钱可能来自企业自建或服务化，属判断而非已验证事实。
+    evidence_ids:
+    - ev-aaf31c122f0dbb98
+  - gate: truth
+    status: challenged
+    reason: 自主攻击行为的安全边界、授权校验与误伤责任在公开材料中未见说明，交付确定性存疑。
+    evidence_ids:
+    - ev-900a679bfcbb0a3e
+  next_validation: 追踪该仓库 README、部署文档与 issue/discussion，确认授权范围校验机制与可复现的测试输出格式。
+  market: ''
+  job: 安全工程师在获得客户书面授权的渗透测试项目中，把目标系统或资产清单交给这套 AI 自主渗透测试框架，由代理执行探测与攻击链尝试，最终要产出可复核的漏洞结果与测试记录。
+  job_en: In a client-authorized penetration-testing engagement, a security engineer hands target systems
+    or an asset list to this AI autonomous pentest framework, agents attempt probing and attack chains,
+    and the engineer must produce reviewable vulnerability findings and test records.
+  pain: 公开材料只说明它是 AI 自主渗透测试系统并获百度 agent+ 攻防挑战赛冠军，未给出用户抱怨或工时数据；从任务结构看，人工渗透测试依赖资深人员、重复探测与验证占大量工时，中小预算客户往往只能做一次浅测。
+  pain_en: Public material only states it is an AI autonomous pentest system and a Baidu agent+ challenge
+    winner, with no user complaints or hour data; structurally, manual pentesting depends on senior specialists
+    and repetitive probing and verification consume much of the hours, so smaller budgets often buy only
+    one shallow test.
+  current_alternative: 人工渗透测试服务、扫描器加人工逐条验证，或干脆不做定期测试。
+  current_alternative_en: Manual penetration-testing services, scanners plus human line-by-line verification,
+    or simply skipping periodic testing.
+  usage_reason: 相较扫描器只报疑似问题、再由工程师逐条复现验证，它让代理直接跑完探测到验证的链条，减少安全工程师在重复步骤上的工时，因此预算有限但需定期测试的团队会先试用；这是基于产品能力的推断，尚无客户案例或留存证据。
+  usage_reason_en: Compared with scanners that only flag suspected issues and engineers reproducing each
+    one, it lets agents run the chain from probing to verification, cutting engineer hours on repetitive
+    steps, so budget-constrained teams needing periodic testing would try it first; this is inference
+    from capability, with no customer case or retention evidence yet.

@@ -1,0 +1,83 @@
+- id: req-initial-3ddx-launches-ai-dental-implant-planning-2026-10-16
+  project_slug: 3ddx-launches-ai-dental-implant-planning
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决种植术前规划这一具体任务，但材料未说明痛点、旧流程与不采用的后果，价值结构无法成立。
+    evidence_ids:
+    - ev-77571d34fab32b85
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无任何诊所采用或医生反馈证据。
+    evidence_ids:
+    - ev-77571d34fab32b85
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-77571d34fab32b85
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生，也无安全与人工复核边界说明。
+    evidence_ids:
+    - ev-77571d34fab32b85
+  next_validation: 收集 3DDX 官方产品页或发布公告，确认其输入影像类型、输出方案文件格式与是否提供定价或诊所案例。
+  market: ''
+  job: 口腔种植医生在术前规划阶段，面对患者的 CBCT 影像与口扫数据，要确定种植体位置、角度和型号，形成可执行的手术方案。
+  job_en: At the pre-surgical planning stage, an implant dentist works from a patient's CBCT scans and
+    intraoral scans to fix implant position, angle and model and produce an executable surgical plan.
+  pain: 候选材料只给出发布标题，未说明医生原来手工做哪一步、耗时多久或出错代价，痛点无法从公开事实还原。
+  pain_en: The candidate material gives only a launch headline and does not say which step dentists did
+    by hand, how long it took, or the cost of error, so the pain cannot be reconstructed from public facts.
+  current_alternative: 公开材料未披露现有替代方式，按行业常识推断可能是种植规划软件加医生手工测量，但这是推断，未经材料支持。
+  current_alternative_en: The public material does not disclose the current alternative; by inference
+    it may be planning software plus manual measurement by the dentist, but this is inference and not
+    supported by the material.
+  usage_reason: 无法判断：材料未说明 AI 接收什么、输出什么、减少哪一步负担，因此不能解释医生为何选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say what the AI takes in, what it returns,
+    or which step''s burden it removes, so it cannot explain why a dentist would choose it.'
+- id: req-full-3ddx-launches-ai-dental-implant-planning-2026-10-16
+  project_slug: 3ddx-launches-ai-dental-implant-planning
+  level: full
+  reviewed_at: '2026-10-16T01:18:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决种植术前规划这一具体任务，但公开材料只有发布标题，未说明医生原手工流程、痛点强度与不采用的后果，需求与痛点均无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-77571d34fab32b85
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 3DDX 官方产品页或 DrBicuspid 后续报道，确认其输入影像类型、输出方案文件格式，以及是否披露定价或诊所客户案例。
+  market: ''
+  job: 口腔种植医生在术前规划阶段，面对患者的 CBCT 影像与口内扫描数据，要确定种植体位置、角度与型号，形成可执行的手术方案。
+  job_en: At the pre-surgical planning stage, an implant dentist works from a patient's CBCT and intraoral
+    scans to fix implant position, angle and model and produce an executable surgical plan.
+  pain: 公开材料只有一句发布标题，未说明医生原先手工完成哪一步、耗时多久、误差或返工代价如何，痛点无法从公开事实还原。
+  pain_en: The public material is only a launch headline; it does not say which step dentists previously
+    did by hand, how long it took, or the cost of error or rework, so the pain cannot be reconstructed
+    from public facts.
+  current_alternative: 公开材料未披露现有替代方式；按行业结构推断可能是种植规划软件加医生手工测量与逐层阅片，但这是推断，未经材料支持。
+  current_alternative_en: The public material does not disclose the current alternative; by structural
+    inference it may be planning software plus manual measurement and slice-by-slice reading by the dentist,
+    but this is inference, not supported by the material.
+  usage_reason: 无法判断：材料未说明 AI 接收哪些影像、输出什么方案文件、减少哪一步负担，因此不能解释哪类医生会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which images the AI takes in, what plan
+    file it returns, or which step''s burden it removes, so it cannot explain which dentists would choose
+    it and when.'

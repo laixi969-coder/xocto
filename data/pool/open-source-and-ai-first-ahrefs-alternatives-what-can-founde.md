@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTE5LWUFzTnM0T2xa
 summary: 'Open-Source and AI-First Ahrefs Alternatives: What Can Founders Actually Replace? NextBigWhat'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

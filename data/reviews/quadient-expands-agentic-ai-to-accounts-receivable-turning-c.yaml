@@ -1,0 +1,90 @@
+- id: req-initial-quadient-expands-agentic-ai-to-accounts-receivable-turning-c-2026-10-16
+  project_slug: quadient-expands-agentic-ai-to-accounts-receivable-turning-c
+  level: initial
+  reviewed_at: '2026-10-16T00:25:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决应收邮件分诊与催收跟进的需求，痛点是漏跟进、回款慢；旧做法是人工读信建单，结构上成立。
+    evidence_ids:
+    - ev-0639434fbf57fdb1
+    - ev-9d1bfe2477189b3a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布公告，未见客户采用规模或持续使用证据，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-0639434fbf57fdb1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露该功能的定价与买方付费方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9d1bfe2477189b3a
+  - gate: truth
+    status: insufficient
+    reason: 邮件转动作的准确率、人工复核边界与误催收风险未见说明，交付确定性待核验。
+    evidence_ids:
+    - ev-0639434fbf57fdb1
+  next_validation: 收集 Quadient 官方产品页或新闻稿中关于该应收 AI 功能的定价、部署方式与客户案例说明。
+  market: ''
+  job: 应收账款或财务共享中心的专员，在客户就账单、付款或争议发来邮件时，需要把这些非结构化来信转成催收、对账或回复等具体处理动作，并推进回款。
+  job_en: A receivables or finance shared-services specialist, when customers email about invoices, payments
+    or disputes, needs to turn these unstructured messages into concrete actions such as collection, reconciliation
+    or reply, and push collection forward.
+  pain: 应收邮件分散在个人邮箱，靠人工逐封阅读判断意图，容易漏掉到期款项或争议，跟进节奏依赖个人记忆，回款周期被拉长。
+  pain_en: Receivables emails sit in individual inboxes and are read one by one to judge intent, so due
+    payments or disputes get missed, follow-up depends on personal memory, and collection cycles stretch.
+  current_alternative: 目前多靠人工在邮箱和 ERP/财务系统之间来回切换，用表格或 CRM 备注记录跟进状态，或使用规则式邮件分类工具。
+  current_alternative_en: Today this is mostly manual switching between inbox and ERP/finance systems,
+    tracking follow-up in spreadsheets or CRM notes, or using rule-based email classification tools.
+  usage_reason: 相较人工逐封阅读并手工建跟进项，它直接读取客户邮件并生成对应处理动作，省去从读信到建单这一步；推断：应收量大、邮件来源分散的财务团队会在催收压力集中时选择它。
+  usage_reason_en: 'Compared with reading each email manually and creating follow-up items by hand, it
+    reads customer emails and generates the corresponding actions, removing the step from reading to ticket
+    creation. Inference: finance teams with high receivables volume and scattered email sources would
+    choose it when collection pressure concentrates.'
+- id: req-full-quadient-expands-agentic-ai-to-accounts-receivable-turning-c-2026-10-16
+  project_slug: quadient-expands-agentic-ai-to-accounts-receivable-turning-c
+  level: full
+  reviewed_at: '2026-10-16T01:23:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决应收邮件分诊与催收跟进的需求，痛点是漏跟进、回款慢；旧做法是人工读信建单，结构上成立。
+    evidence_ids:
+    - ev-4372118486586f8d
+    - ev-64b505a80b9e8491
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布公告，未见客户采用规模或持续使用证据，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-4372118486586f8d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露该功能的定价与买方付费方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-64b505a80b9e8491
+  - gate: truth
+    status: insufficient
+    reason: 邮件转动作的准确率、人工复核边界与误催收风险未见说明，交付确定性待核验。
+    evidence_ids:
+    - ev-4372118486586f8d
+  next_validation: 收集 Quadient 官方产品页或新闻稿中关于该应收 AI 功能的定价、部署方式与客户案例说明。
+  market: ''
+  job: 应收账款或财务共享中心的专员，在客户就账单、付款或争议发来邮件时，需要把这些非结构化来信转成催收、对账或回复等具体处理动作，并推进回款。
+  job_en: A receivables or finance shared-services specialist, when customers email about invoices, payments
+    or disputes, needs to turn these unstructured messages into concrete actions such as collection, reconciliation
+    or reply, and push collection forward.
+  pain: 应收邮件分散在个人邮箱，靠人工逐封阅读判断意图，容易漏掉到期款项或争议，跟进节奏依赖个人记忆，回款周期被拉长。
+  pain_en: Receivables emails sit in individual inboxes and are read one by one to judge intent, so due
+    payments or disputes get missed, follow-up depends on personal memory, and collection cycles stretch.
+  current_alternative: 目前多靠人工在邮箱和 ERP/财务系统之间来回切换，用表格或 CRM 备注记录跟进状态，或使用规则式邮件分类工具。
+  current_alternative_en: Today this is mostly manual switching between inbox and ERP/finance systems,
+    tracking follow-up in spreadsheets or CRM notes, or using rule-based email classification tools.
+  usage_reason: 相较人工逐封阅读并手工建跟进项，它直接读取客户邮件并生成对应处理动作，省去从读信到建单这一步；推断：应收量大、邮件来源分散的财务团队会在催收压力集中时选择它。
+  usage_reason_en: 'Compared with reading each email manually and creating follow-up items by hand, it
+    reads customer emails and generates the corresponding actions, removing the step from reading to ticket
+    creation. Inference: finance teams with high receivables volume and scattered email sources would
+    choose it when collection pressure concentrates.'

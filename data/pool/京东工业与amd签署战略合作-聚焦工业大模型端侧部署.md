@@ -1,6 +1,6 @@
 ---
 slug: 京东工业与amd签署战略合作-聚焦工业大模型端侧部署
-name: 京东工业与AMD签署战略合作 聚焦工业大模型端侧部署
+name: 京东工业
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GdVJUN2ZBTXcz
 summary: 京东工业与AMD签署战略合作 聚焦工业大模型端侧部署 QQ News
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-16T00:25:46Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 京东工业与AMD签署战略合作 聚焦工业大模型端侧部署
+# 京东工业
 
 京东工业与AMD签署战略合作 聚焦工业大模型端侧部署 QQ News
 
