@@ -20,7 +20,7 @@ url: https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agree
 canonical_url: https://reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13
 summary: Character.ai files for bankruptcy, agrees to sell some assets for $20M
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
@@ -34,10 +34,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 168
-    comments: 167
+    points: 172
+    comments: 173
   kind: news
 ---
 

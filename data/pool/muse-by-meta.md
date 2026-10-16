@@ -42,7 +42,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-10-14T01:14:30Z'
+last_seen: '2026-10-16T00:25:46Z'
 status: pending_filter
 sources:
 - producthunt
@@ -378,6 +378,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxOZndsUjZ0VWJCYURXazdHZkd2NjNMRHRSMDM4RFdRVU9xNXhQX1FIZ2VOUUZXcnhrQXFlMFl2QktVbDZrSkhtTzQxaHowTEV3azFabVVHRV9xeUxyVXZKMlBKb3lLN0daeVk3Mk8yWE43R2RQUU1rN3JMM1F4RU1lRnNtUXdZcTUzSjdjUDRxUmRfLTI0dkZERlc5MnY4VmRXdVo0SGxNd2NoSi1uSmxJZXMxNzh5SHNNSUQ5bmh3TDQ1WmlPbWlVcmZkM3JIUmpaZ3NLWHZ6SDQ4enNyVHZ1aWRjRU90dFE?oc=5
   seen_at: '2026-10-14T01:14:30Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx
+  seen_at: '2026-10-16T00:25:40Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlY2tLT1l5UG9RVVptR0p3UUpBbjNkYTJQWlZrajkzZHYwODBmMWNzeHhnU0JDZnhWRkVKYmE1ZktxT0dRd1dSUkNaVnF2bnVLbmFJTA?oc=5
+  seen_at: '2026-10-16T00:25:46Z'
   metrics: {}
   kind: news
 ---

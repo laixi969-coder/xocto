@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-10-15T00:32:38Z'
+last_seen: '2026-10-16T00:25:46Z'
 status: pending_filter
 sources:
 - hackernews
@@ -67,6 +67,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQelM3Z25aSFNXUkp1SnNUOXNoZzJkYWJwV2pWZ0hjMEFjRHZ4Q21LYjJObFhhSENKVVAtZTdmUFpxalM0TUxqMjRzUlJOVkhZc1E4VHRMb1F1UEZBV1FuUzRMS3AxZUVILWw1VFBqaHFJTnNaaWFEZnRzREZfUDZneHNlMDNrQ2ZNcnlVVjRlNHVMdE9kdzFTQVgwV2tJTFNGZkVIOURhNVphMnExT1phYm16NA?oc=5
   seen_at: '2026-10-15T00:32:38Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://deepmind.google/blog/accelerating-antimicrobial-discovery/
+  seen_at: '2026-10-16T00:25:39Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://machinelearning.apple.com/research/selection-structured-reasoning
+  seen_at: '2026-10-16T00:25:39Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipgFBVV95cUxPbXVUVnkwX1c5NkxfTDhwc2c5RzFPOXhNXzBMeHZVMHFTdnRiSjk5aWNaekVmQnlVM0VubXoxbWlkZ2xyWHV4QzlaVVpKcUdaT2xWQjUyeDVwRzBsRXNKZUJVajVBcm9xeWNEMFh5akxGQVNSSjl0ai1PbDJxM2JqTzZudUI1RkdFVk1ZN0ZrcmVpMzA1TjF5YkFXXzFLaXkwb2VuQTN3?oc=5
+  seen_at: '2026-10-16T00:25:46Z'
   metrics: {}
   kind: news
 ---

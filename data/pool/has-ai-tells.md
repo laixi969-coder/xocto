@@ -20,17 +20,17 @@ url: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1
 canonical_url: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1
 summary: ''
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 69
-    comments: 72
+    points: 134
+    comments: 114
   kind: news
 ---
 

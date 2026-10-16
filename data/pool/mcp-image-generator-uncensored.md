@@ -32,17 +32,17 @@ url: https://github.com/hypersniper05/MCP-Image-Generator-Uncensored
 canonical_url: https://github.com/hypersniper05/MCP-Image-Generator-Uncensored
 summary: Self-hosted MCP server for image generation and editing with the uncensored Qwen-Image-2.1 model
 first_seen: '2026-10-06T14:54:31Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/hypersniper05/MCP-Image-Generator-Uncensored
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 96
-    forks: 15
+    stars: 97
+    forks: 17
     open_issues: 0
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome
 canonical_url: https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary
 summary: AI is mass decompiling games. That's both awesome and scary
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 94
-    comments: 147
+    points: 108
+    comments: 163
   kind: news
 ---
 

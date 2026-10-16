@@ -21,18 +21,18 @@ canonical_url: https://frink.dev
 summary: Fine-tuned automation for everyone. Flows that run Claude Code and Codex on tickets, errors,
   webhooks or a schedule. Open source, runs locally on macOS and Linux.
 first_seen: '2026-10-15T00:32:09Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://frink.dev
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 42
+    stars: 45
     forks: 5
-    open_issues: 25
+    open_issues: 29
   kind: product
 ---
 

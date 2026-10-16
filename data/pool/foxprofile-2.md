@@ -44,17 +44,17 @@ summary: 'Free, open-source anti-detect browser profile manager: per-profile fin
   proxy, Camoufox and Chrome engines, desktop app, REST API and MCP server for AI agents. Self-hosted
   alternative to GoLogin / MoreLogin.'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/chienbm98/foxprofile/releases/latest
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 85
-    forks: 51
+    stars: 114
+    forks: 59
     open_issues: 7
   kind: product
 ---

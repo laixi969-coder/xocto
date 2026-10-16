@@ -35,18 +35,18 @@ canonical_url: https://github.com/onehumanbeing/esp32-iphone-agent
 summary: 'Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible
   vision model. No Mac, no developer account, no jailbreak.'
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/onehumanbeing/esp32-iphone-agent
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 2076
-    forks: 277
-    open_issues: 3
+    stars: 2433
+    forks: 325
+    open_issues: 4
   kind: product
 ---
 

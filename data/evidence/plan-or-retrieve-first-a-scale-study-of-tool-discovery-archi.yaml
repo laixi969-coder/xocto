@@ -1,0 +1,14 @@
+- id: ev-91f8d4dfa76fd69a
+  project_slug: plan-or-retrieve-first-a-scale-study-of-tool-discovery-archi
+  url: https://machinelearning.apple.com/research/plan-retrieve-tool-discovery
+  title: Plan or Retrieve First? A Scale Study of Tool Discovery Architectures
+  published_at: '2026-10-15T00:00:00Z'
+  collected_at: '2026-10-16T00:25:39Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Tool-augmented LLM agents discover relevant APIs from large registries before planning execution,
+    yet finite context windows prohibit injecting all tool definitions into a single prompt. The dominant
+    approach, which we term Retrieve-then-Plan (RtP), embeds the user query and retrieves similar tools
+    via approximate nearest-neighbor search. We study an alternative Plan-then-Retrieve (PtR) paradigm
+    in which the LLM first generates Abstract Tool Stubs (hypothesized function signatures describing
+    needed capabilities) which then serve as retrieval queries against the registry. Evaluating on…

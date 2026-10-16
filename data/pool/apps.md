@@ -21,7 +21,7 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-10-14T01:14:23Z'
+last_seen: '2026-10-16T00:25:40Z'
 status: pending_filter
 sources:
 - hackernews
@@ -125,6 +125,11 @@ sightings:
 - source: marketfeeds
   url: https://news.crunchbase.com/fintech/building-next-generation-super-apps-okike-645-ventures/
   seen_at: '2026-10-14T01:14:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/
+  seen_at: '2026-10-16T00:25:40Z'
   metrics: {}
   kind: news
 ---

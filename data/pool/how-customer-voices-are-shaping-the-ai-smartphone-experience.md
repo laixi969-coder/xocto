@@ -1,0 +1,41 @@
+---
+slug: how-customer-voices-are-shaping-the-ai-smartphone-experience
+name: How Customer Voices Are Shaping the Ai+ Smartphone Experience
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLVduSWs0WEFvcTVwRVBDTnd5ZDVYak1jQVhBOENxVW1La0libVNNZUQxVmJOUTRlOU15clNJSTV2OVhRSUJVX3FlY3dEckdDOS15dTdtTW1SNXdHUmdQR3VsOHNwd1pfcnJLRGNyN253aWFLMVdkQVlvMmZsV2FZeVAwcmt2ZDRXdTRPaHFIay10bjRrSkJPZzY2UlFhN25SS2FXdzVsazluX2ZyNTU2T1JYckNtR1dRRmxIWHp4S2M0Sk01Q3hBS9IByAFBVV95cUxQLVduSWs0WEFvcTVwRVBDTnd5ZDVYak1jQVhBOENxVW1La0libVNNZUQxVmJOUTRlOU15clNJSTV2OVhRSUJVX3FlY3dEckdDOS15dTdtTW1SNXdHUmdQR3VsOHNwd1pfcnJLRGNyN253aWFLMVdkQVlvMmZsV2FZeVAwcmt2ZDRXdTRPaHFIay10bjRrSkJPZzY2UlFhN25SS2FXdzVsazluX2ZyNTU2T1JYckNtR1dRRmxIWHp4S2M0Sk01Q3hBSw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLVduSWs0WEFvcTVwRVBDTnd5ZDVYak1jQVhBOENxVW1La0libVNNZUQxVmJOUTRlOU15clNJSTV2OVhRSUJVX3FlY3dEckdDOS15dTdtTW1SNXdHUmdQR3VsOHNwd1pfcnJLRGNyN253aWFLMVdkQVlvMmZsV2FZeVAwcmt2ZDRXdTRPaHFIay10bjRrSkJPZzY2UlFhN25SS2FXdzVsazluX2ZyNTU2T1JYckNtR1dRRmxIWHp4S2M0Sk01Q3hBS9IByAFBVV95cUxQLVduSWs0WEFvcTVwRVBDTnd5ZDVYak1jQVhBOENxVW1La0libVNNZUQxVmJOUTRlOU15clNJSTV2OVhRSUJVX3FlY3dEckdDOS15dTdtTW1SNXdHUmdQR3VsOHNwd1pfcnJLRGNyN253aWFLMVdkQVlvMmZsV2FZeVAwcmt2ZDRXdTRPaHFIay10bjRrSkJPZzY2UlFhN25SS2FXdzVsazluX2ZyNTU2T1JYckNtR1dRRmxIWHp4S2M0Sk01Q3hBSw?oc=5
+summary: How Customer Voices Are Shaping the Ai+ Smartphone Experience Deccan Chronicle
+first_seen: '2026-10-16T00:25:46Z'
+last_seen: '2026-10-16T00:25:46Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLVduSWs0WEFvcTVwRVBDTnd5ZDVYak1jQVhBOENxVW1La0libVNNZUQxVmJOUTRlOU15clNJSTV2OVhRSUJVX3FlY3dEckdDOS15dTdtTW1SNXdHUmdQR3VsOHNwd1pfcnJLRGNyN253aWFLMVdkQVlvMmZsV2FZeVAwcmt2ZDRXdTRPaHFIay10bjRrSkJPZzY2UlFhN25SS2FXdzVsazluX2ZyNTU2T1JYckNtR1dRRmxIWHp4S2M0Sk01Q3hBS9IByAFBVV95cUxQLVduSWs0WEFvcTVwRVBDTnd5ZDVYak1jQVhBOENxVW1La0libVNNZUQxVmJOUTRlOU15clNJSTV2OVhRSUJVX3FlY3dEckdDOS15dTdtTW1SNXdHUmdQR3VsOHNwd1pfcnJLRGNyN253aWFLMVdkQVlvMmZsV2FZeVAwcmt2ZDRXdTRPaHFIay10bjRrSkJPZzY2UlFhN25SS2FXdzVsazluX2ZyNTU2T1JYckNtR1dRRmxIWHp4S2M0Sk01Q3hBSw?oc=5
+  seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+---
+
+# How Customer Voices Are Shaping the Ai+ Smartphone Experience
+
+How Customer Voices Are Shaping the Ai+ Smartphone Experience Deccan Chronicle
+
+## 笔记
+
+

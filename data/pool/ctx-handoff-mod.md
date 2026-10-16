@@ -32,17 +32,17 @@ canonical_url: https://github.com/cablate/ctx-handoff-mod
 summary: 'Claude Code mod: hands off to a fresh conversation when context fills up, keeps the cache warm
   while you''re away, and turns what you teach Claude into project notes'
 first_seen: '2026-10-02T21:33:58Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cablate/ctx-handoff-mod
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 82
-    forks: 7
+    stars: 102
+    forks: 9
     open_issues: 0
   kind: product
 ---

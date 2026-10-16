@@ -1,0 +1,41 @@
+---
+slug: tcs-launches-industrial-ai-platform-eyes-25-productivity-gai
+name: TCS launches industrial AI platform, eyes 25% productivity gains
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQbGRxVVVYUDRiTVpRNDFlUE9JWWdnWnVfWmE3VVdzVHFCYW9hUHk0NGpLdkN1THN5aHEyU3Q4LXlYaUdMaTBmRFp2QnFBdEtybFpZZnpCUHYwZi1fQktGZjE1R2pNbXFlS0xYdWNvX2E1ZWF0VUlFd0pvWUtNY1VqTUZWVXlBOTNYNlBTQ1hCckI3VzlJOHNsdm5ZVDhnangwMWpzVVpzaWx4eWdVSy1hVHpxR3hyVndqdEpuTlpxWHZVNUM4c2NjLTN30gHKAUFVX3lxTFBsZHFVVVhQNGJNWlE0MWVQT0lZZ2dadV9aYTdVV3NUcUJhb2FQeTQ0akt2Q3VMc3locTJTdDgteVhpR0xpMGZEWnZCcUF0S3JsWllmekJQdjBmLV9CS0ZmMTVHak1tcWVLTFh1Y29fYTVlYXRVSUV3Sm9ZS01jVWpNRlZVeUE5M1g2UFNDWEJyQjdXOUk4c2x2bllUOGdqeDAxanNVWnNpbHh5Z1VLLWFUenFHeHJWd2p0Sm5OWnFYdlU1QzhzY2MtM3c?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQbGRxVVVYUDRiTVpRNDFlUE9JWWdnWnVfWmE3VVdzVHFCYW9hUHk0NGpLdkN1THN5aHEyU3Q4LXlYaUdMaTBmRFp2QnFBdEtybFpZZnpCUHYwZi1fQktGZjE1R2pNbXFlS0xYdWNvX2E1ZWF0VUlFd0pvWUtNY1VqTUZWVXlBOTNYNlBTQ1hCckI3VzlJOHNsdm5ZVDhnangwMWpzVVpzaWx4eWdVSy1hVHpxR3hyVndqdEpuTlpxWHZVNUM4c2NjLTN30gHKAUFVX3lxTFBsZHFVVVhQNGJNWlE0MWVQT0lZZ2dadV9aYTdVV3NUcUJhb2FQeTQ0akt2Q3VMc3locTJTdDgteVhpR0xpMGZEWnZCcUF0S3JsWllmekJQdjBmLV9CS0ZmMTVHak1tcWVLTFh1Y29fYTVlYXRVSUV3Sm9ZS01jVWpNRlZVeUE5M1g2UFNDWEJyQjdXOUk4c2x2bllUOGdqeDAxanNVWnNpbHh5Z1VLLWFUenFHeHJWd2p0Sm5OWnFYdlU1QzhzY2MtM3c?oc=5
+summary: TCS launches industrial AI platform, eyes 25% productivity gains The Hindu
+first_seen: '2026-10-16T00:25:46Z'
+last_seen: '2026-10-16T00:25:46Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQbGRxVVVYUDRiTVpRNDFlUE9JWWdnWnVfWmE3VVdzVHFCYW9hUHk0NGpLdkN1THN5aHEyU3Q4LXlYaUdMaTBmRFp2QnFBdEtybFpZZnpCUHYwZi1fQktGZjE1R2pNbXFlS0xYdWNvX2E1ZWF0VUlFd0pvWUtNY1VqTUZWVXlBOTNYNlBTQ1hCckI3VzlJOHNsdm5ZVDhnangwMWpzVVpzaWx4eWdVSy1hVHpxR3hyVndqdEpuTlpxWHZVNUM4c2NjLTN30gHKAUFVX3lxTFBsZHFVVVhQNGJNWlE0MWVQT0lZZ2dadV9aYTdVV3NUcUJhb2FQeTQ0akt2Q3VMc3locTJTdDgteVhpR0xpMGZEWnZCcUF0S3JsWllmekJQdjBmLV9CS0ZmMTVHak1tcWVLTFh1Y29fYTVlYXRVSUV3Sm9ZS01jVWpNRlZVeUE5M1g2UFNDWEJyQjdXOUk4c2x2bllUOGdqeDAxanNVWnNpbHh5Z1VLLWFUenFHeHJWd2p0Sm5OWnFYdlU1QzhzY2MtM3c?oc=5
+  seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+---
+
+# TCS launches industrial AI platform, eyes 25% productivity gains
+
+TCS launches industrial AI platform, eyes 25% productivity gains The Hindu
+
+## 笔记
+
+

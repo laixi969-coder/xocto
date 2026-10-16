@@ -1,0 +1,42 @@
+---
+slug: anthropic-q3-revenue-surges-45-to-168-billion-as-ai-startup
+name: Anthropic Q3 revenue surges 45% to $16.8 billion as AI startup gears up for $2 trillion IPO
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxQX29xT3Z3a3pWQlVWRFFzN0gtR24teDkyUXYtYzVSUHZrbzVwLUtabXlpNmJJQUh5dmx0M05qbUlMTC0zdERsSFVZTDE4bFNmak01QTNTY0U4d1VhT040dmQ2cWZFLVJmamZsREh4dVhLR2FQUXQxTW9na0dtRlUxbTVCV3Y2RXIzalhaOUFmb054VUJJeHhEV2hOMkJiZlhwRWZmWHlIdjA0TEZYbnhJTVl3ZV9oeWpHUkxhTWtoRGYxZGk2UDFuTGYwNDh5ZjROTnNRQ20xaTFvN05rVHZJaW8yRm9LVWxpSWtUS1ZR0gHzAUFVX3lxTE80LXJZcTROMXplZGJJLXB4R1EtRExocy1ENzZfT2J6ckQxNnBGSVJXZmRsSUtoMTR1OFhsY2FzeHc1U2Z5YW45WVJUQXlOa1hBLTZ0MHlCdUVMczZEc0R1TkEzUmJRckhBQ2ZLLU5ia25sSEV0RTNVTm9mOG8xSnBOV05vTHRCcDZ0a1RzLU02WHZaVTdkTEt6NnVHTjU3NkM0Z1NHQ3FnSUZLUTJTQ2N4Nnc3LUtKRzRZMmQ0Ui1MNld1c1c3cHdYay1yZ0drZG9CNDZfUmFlUkpCa21iVXVtbENaOFQtWENYWkdDQk44WlBMZw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxQX29xT3Z3a3pWQlVWRFFzN0gtR24teDkyUXYtYzVSUHZrbzVwLUtabXlpNmJJQUh5dmx0M05qbUlMTC0zdERsSFVZTDE4bFNmak01QTNTY0U4d1VhT040dmQ2cWZFLVJmamZsREh4dVhLR2FQUXQxTW9na0dtRlUxbTVCV3Y2RXIzalhaOUFmb054VUJJeHhEV2hOMkJiZlhwRWZmWHlIdjA0TEZYbnhJTVl3ZV9oeWpHUkxhTWtoRGYxZGk2UDFuTGYwNDh5ZjROTnNRQ20xaTFvN05rVHZJaW8yRm9LVWxpSWtUS1ZR0gHzAUFVX3lxTE80LXJZcTROMXplZGJJLXB4R1EtRExocy1ENzZfT2J6ckQxNnBGSVJXZmRsSUtoMTR1OFhsY2FzeHc1U2Z5YW45WVJUQXlOa1hBLTZ0MHlCdUVMczZEc0R1TkEzUmJRckhBQ2ZLLU5ia25sSEV0RTNVTm9mOG8xSnBOV05vTHRCcDZ0a1RzLU02WHZaVTdkTEt6NnVHTjU3NkM0Z1NHQ3FnSUZLUTJTQ2N4Nnc3LUtKRzRZMmQ0Ui1MNld1c1c3cHdYay1yZ0drZG9CNDZfUmFlUkpCa21iVXVtbENaOFQtWENYWkdDQk44WlBMZw?oc=5
+summary: Anthropic Q3 revenue surges 45% to $16.8 billion as AI startup gears up for $2 trillion IPO The
+  Economic Times
+first_seen: '2026-10-16T00:25:46Z'
+last_seen: '2026-10-16T00:25:46Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxQX29xT3Z3a3pWQlVWRFFzN0gtR24teDkyUXYtYzVSUHZrbzVwLUtabXlpNmJJQUh5dmx0M05qbUlMTC0zdERsSFVZTDE4bFNmak01QTNTY0U4d1VhT040dmQ2cWZFLVJmamZsREh4dVhLR2FQUXQxTW9na0dtRlUxbTVCV3Y2RXIzalhaOUFmb054VUJJeHhEV2hOMkJiZlhwRWZmWHlIdjA0TEZYbnhJTVl3ZV9oeWpHUkxhTWtoRGYxZGk2UDFuTGYwNDh5ZjROTnNRQ20xaTFvN05rVHZJaW8yRm9LVWxpSWtUS1ZR0gHzAUFVX3lxTE80LXJZcTROMXplZGJJLXB4R1EtRExocy1ENzZfT2J6ckQxNnBGSVJXZmRsSUtoMTR1OFhsY2FzeHc1U2Z5YW45WVJUQXlOa1hBLTZ0MHlCdUVMczZEc0R1TkEzUmJRckhBQ2ZLLU5ia25sSEV0RTNVTm9mOG8xSnBOV05vTHRCcDZ0a1RzLU02WHZaVTdkTEt6NnVHTjU3NkM0Z1NHQ3FnSUZLUTJTQ2N4Nnc3LUtKRzRZMmQ0Ui1MNld1c1c3cHdYay1yZ0drZG9CNDZfUmFlUkpCa21iVXVtbENaOFQtWENYWkdDQk44WlBMZw?oc=5
+  seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+---
+
+# Anthropic Q3 revenue surges 45% to $16.8 billion as AI startup gears up for $2 trillion IPO
+
+Anthropic Q3 revenue surges 45% to $16.8 billion as AI startup gears up for $2 trillion IPO The Economic Times
+
+## 笔记
+
+

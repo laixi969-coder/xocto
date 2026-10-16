@@ -1,0 +1,41 @@
+---
+slug: apple-prepares-to-debut-first-ai-features-in-china-in-decemb
+name: Apple prepares to debut first AI features in China in December after delay
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxOajN0UThHQlAyMHFMNXk4NkUzQXhtZ2NoLUQwZnIwS2h0alJ1Ui0tbHlhdng2ZzNfLXBZaUdXMFBFeWdiM3hxYVBucTRIRl9iTkJQSThoY084TDk5N3RCeWlSbTBCYjNMazh2d291SU5SNkVqbk9FLXRSRFlfRlpPMmxGbUpRYkluRWhxNjQ0bXJGcTU4MVk3SFVCQ3V1SWJCaU16SUFFWWw0NEo3SjVDUlZ5RzdzRUxqLTVCOHpOcnFibjI1VTNnSUM4b3hYM3dUWVlMdUlaVzJZU2FfZ2NpMmdHaWFDeXhV0gHoAUFVX3lxTE5qM3RROEdCUDIwcUw1eTg2RTNBeG1nY2gtRDBmcjBLaHRqUnVSLS1seWF2eDZnM18tcFlpR1cwUEV5Z2IzeHFhUG5xNEhGX2JOQlBJOGhjTzhMOTk3dEJ5aVJtMEJiM0xrOHZ3b3VJTlI2RWpuT0UtdFJEWV9GWk8ybEZtSlFiSW5FaHE2NDRtckZxNTgxWTdIVUJDdXVJYkJpTXpJQUVZbDQ0SjdKNUNSVnlHN3NFTGotNUI4ek5ycWJuMjVVM2dJQzhveFgzd1RZWUx1SVpXMllTYV9nY2kyZ0dpYUN5eFU?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxOajN0UThHQlAyMHFMNXk4NkUzQXhtZ2NoLUQwZnIwS2h0alJ1Ui0tbHlhdng2ZzNfLXBZaUdXMFBFeWdiM3hxYVBucTRIRl9iTkJQSThoY084TDk5N3RCeWlSbTBCYjNMazh2d291SU5SNkVqbk9FLXRSRFlfRlpPMmxGbUpRYkluRWhxNjQ0bXJGcTU4MVk3SFVCQ3V1SWJCaU16SUFFWWw0NEo3SjVDUlZ5RzdzRUxqLTVCOHpOcnFibjI1VTNnSUM4b3hYM3dUWVlMdUlaVzJZU2FfZ2NpMmdHaWFDeXhV0gHoAUFVX3lxTE5qM3RROEdCUDIwcUw1eTg2RTNBeG1nY2gtRDBmcjBLaHRqUnVSLS1seWF2eDZnM18tcFlpR1cwUEV5Z2IzeHFhUG5xNEhGX2JOQlBJOGhjTzhMOTk3dEJ5aVJtMEJiM0xrOHZ3b3VJTlI2RWpuT0UtdFJEWV9GWk8ybEZtSlFiSW5FaHE2NDRtckZxNTgxWTdIVUJDdXVJYkJpTXpJQUVZbDQ0SjdKNUNSVnlHN3NFTGotNUI4ek5ycWJuMjVVM2dJQzhveFgzd1RZWUx1SVpXMllTYV9nY2kyZ0dpYUN5eFU?oc=5
+summary: Apple prepares to debut first AI features in China in December after delay Business Standard
+first_seen: '2026-10-16T00:25:46Z'
+last_seen: '2026-10-16T00:25:46Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxOajN0UThHQlAyMHFMNXk4NkUzQXhtZ2NoLUQwZnIwS2h0alJ1Ui0tbHlhdng2ZzNfLXBZaUdXMFBFeWdiM3hxYVBucTRIRl9iTkJQSThoY084TDk5N3RCeWlSbTBCYjNMazh2d291SU5SNkVqbk9FLXRSRFlfRlpPMmxGbUpRYkluRWhxNjQ0bXJGcTU4MVk3SFVCQ3V1SWJCaU16SUFFWWw0NEo3SjVDUlZ5RzdzRUxqLTVCOHpOcnFibjI1VTNnSUM4b3hYM3dUWVlMdUlaVzJZU2FfZ2NpMmdHaWFDeXhV0gHoAUFVX3lxTE5qM3RROEdCUDIwcUw1eTg2RTNBeG1nY2gtRDBmcjBLaHRqUnVSLS1seWF2eDZnM18tcFlpR1cwUEV5Z2IzeHFhUG5xNEhGX2JOQlBJOGhjTzhMOTk3dEJ5aVJtMEJiM0xrOHZ3b3VJTlI2RWpuT0UtdFJEWV9GWk8ybEZtSlFiSW5FaHE2NDRtckZxNTgxWTdIVUJDdXVJYkJpTXpJQUVZbDQ0SjdKNUNSVnlHN3NFTGotNUI4ek5ycWJuMjVVM2dJQzhveFgzd1RZWUx1SVpXMllTYV9nY2kyZ0dpYUN5eFU?oc=5
+  seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+---
+
+# Apple prepares to debut first AI features in China in December after delay
+
+Apple prepares to debut first AI features in China in December after delay Business Standard
+
+## 笔记
+
+

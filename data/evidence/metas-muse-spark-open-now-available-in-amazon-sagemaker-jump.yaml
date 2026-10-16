@@ -1,0 +1,18 @@
+- id: ev-84381cc0d822de95
+  project_slug: metas-muse-spark-open-now-available-in-amazon-sagemaker-jump
+  url: https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/
+  title: Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart
+  published_at: '2026-10-15T17:43:35Z'
+  collected_at: '2026-10-16T00:25:39Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Muse Spark Open, Meta’s coding-optimized open-weight model, is now available in Amazon SageMaker
+    JumpStart , the machine learning (ML) hub of Amazon SageMaker AI . The model was trained on real developer
+    workflows, such as multi-file refactors and long debugging sessions, and it supports a context window
+    of 1 million tokens. You can deploy it to a SageMaker AI endpoint in your own AWS account in a few
+    steps, without managing the serving infrastructure yourself. SageMaker JumpStart offers two variants:
+    BF16 ( Muse-Spark-Open-816B-A42B ) and NVFP4 quantized ( Muse-Spark-Open-816B-A42B-NVFP4 ). In this
+    post, we introduce Muse Spark Open and show you how to deploy the model with Amazon SageMaker Studio
+    and the SageMaker Python SDK , send it a first inference request, and clean up. Overview of Muse Spark
+    Open Meta describes Muse Spark Open as a coding-optimized model trained for agentic coding workflows,
+    with a focus on first-attempt accuracy, tool calling, and understanding of large codeba'

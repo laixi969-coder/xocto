@@ -29,3 +29,22 @@
     insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can
     quickly snowball into a much larger public controversy. Gudea, a company that tracks how stories and
     rumors spread online that describes itself as the “storm tracker for the internet,” […]
+- id: ev-6167aaa8f577a33d
+  project_slug: media
+  url: https://www.v2ex.com/t/1249156
+  title: 70 美金的 Beyond Compare，我让 Gemini 4 和 DeepSeek 造个开源免费版（Day 2）
+  published_at: '2026-10-15T13:18:45Z'
+  collected_at: '2026-10-16T00:25:11Z'
+  source_kind: product
+  tier: independent
+  fact: "昨天发帖请大家提名最想平替的付费软件。今天交 Day 2 的账单和最终选题。\r\n\r\n### 1. 为什么定下 Beyond Compare ？\r\n\r\n昨晚到今天，AI 员工把\
+    \ 6 个平台的 134 条评论全抓回来了（ V2EX 占了 118 条）。\r\n\r\n除去提名重写 Windows 11 、SAP 、MATLAB 和微信的老哥，呼声最高的实用工具就是 **Beyond\
+    \ Compare**。\r\n\r\n大家苦它久矣：**Pro 版买断要 70 美金（约 500 元）**，跨大版本升级还要交半价。而 Mac 上的开源替代品 Meld 长期断更卡顿，KDiff3\
+    \ 的界面还停在二十年前。\r\n\r\n除了评论区提名，AI 还去外网盲测了一圈，把取消买断改收 108 美金年费的录屏软件 `Screen Studio` 也拉进了决赛圈。\r\n不过内部圆桌吵了两轮后，我还是在手机上拍板了\
+    \ **Beyond Compare**，开源项目定名 **`OpenCompare`**。\r\n\r\n![选品圆桌：两波调研 + 三席位两轮互搏的分工图]( https://media.munk.sh/blog/day-02/round-table.png)\r\
+    \n\r\n原因很简单：一是听劝，兑现评论区最高票；二是它零外部依赖，做完直接丢测试文件夹、冲突代码和乱序表格进去，机器自己就能跑完桌面实机验收。\r\n\r\n### 2. 5 个研发日，只做哪\
+    \ 4 件事？\r\n\r\n去掉首尾，写代码加自测只有 5 天。为了不搞出个半吊子玩具，我们砍掉了十六进制对比、远端挂载和容易误删文件的双向同步，只死磕最常用的 4 个功能：\r\n\r\n1.\
+    \ **双文件夹极速对比**：按大小、修改时间和哈希秒级比对，一键过滤出差异文件。\r\n2. **代码双栏对比与三向合并**：遇到 Git 冲突时，摆清三方冲突块，点一下就能采纳并导出。\r\n\
+    3. **千行 CSV 按主键列对齐对比**：这是普通编辑器内置 Diff 最抓瞎的地方。两份乱序表格，指定一列当主键（比如订单号），自动拉齐每一行并高亮改过的单元格。\r\n4. **JSON\
+    \ / YAML 语义对比 + 手机扫码看报告**：忽略缩进和键顺序噪音；桌边那台测试手机扫个码，就能在手机上翻看变更摘要。\r\n\r\n### 3. 今日 Token 账单与一次断流\r\n\r\
+    \n昨天有 V 友提醒注意 Gemini 4 的 To"

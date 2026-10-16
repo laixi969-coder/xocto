@@ -1,0 +1,104 @@
+{
+  "company": {
+    "city": "Stockholm",
+    "country": "Sweden",
+    "description": "Matters is developing an AI-powered consumer banking platform to help users manage spending, increase savings and improve financial wellbeing through personalised guidance and a subscription-based model.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "6B0E4AB7-8FE4-42F9-B19F-257F5E190061",
+    "investors": [
+      "Douglas Stark",
+      "Jakob Johansson",
+      "Johan Bladh",
+      "Knut Frängsmyr",
+      "Patrik Tran",
+      "Per Widerstrom"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Matters",
+    "rounds": [
+      {
+        "amountEur": 4466280,
+        "date": "2026-10-15T00:00:00.000Z",
+        "id": "E77363C0-24FB-4503-9C83-DA945B86E5CF",
+        "investors": [
+          "Douglas Stark",
+          "Jakob Johansson",
+          "Johan Bladh",
+          "Knut Frängsmyr",
+          "Patrik Tran",
+          "Per Widerstrom"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/E77363C0-24FB-4503-9C83-DA945B86E5CF"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 64,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 4466280,
+    "url": "https://funding.tech.eu/companies/6B0E4AB7-8FE4-42F9-B19F-257F5E190061",
+    "website": "https://matters.inc/"
+  },
+  "round": {
+    "amountEur": 4466280,
+    "amountEurStored": null,
+    "amountNative": 5000000,
+    "company": {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "founded": null,
+      "id": "6B0E4AB7-8FE4-42F9-B19F-257F5E190061",
+      "name": "Matters",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-10-15",
+    "fx": {
+      "asOf": "2026-10-14",
+      "rate": 1.1195,
+      "source": "ECB"
+    },
+    "id": "E77363C0-24FB-4503-9C83-DA945B86E5CF",
+    "investors": [
+      "Knut Frängsmyr",
+      "Per Widerstrom",
+      "Johan Bladh",
+      "Jakob Johansson",
+      "Patrik Tran",
+      "Douglas Stark"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/E77363C0-24FB-4503-9C83-DA945B86E5CF"
+  }
+}

@@ -20,7 +20,7 @@ url: https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-trigge
 canonical_url: https://404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet
 summary: '"Torturing" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet'
 first_seen: '2026-10-04T08:02:33Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
@@ -34,10 +34,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 62
-    comments: 87
+    points: 65
+    comments: 101
   kind: news
 ---
 

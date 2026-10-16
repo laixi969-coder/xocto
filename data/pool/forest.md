@@ -23,17 +23,17 @@ summary: FOREST is a research agent for long-horizon science, where evidence get
   results, revises paths, and builds a full paper—all in an editable graph you can inspect, branch, redirect,
   with claims and figures linked to evidence
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mikamikasuki/forest
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 220
-    forks: 21
+    stars: 235
+    forks: 24
     open_issues: 17
   kind: product
 ---

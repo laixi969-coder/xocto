@@ -22,16 +22,16 @@ summary: Agent Skills for competitive GTM work - battlecards, win-loss, position
   deal prep and sales enablement. Installs into Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI and
   any Agent Skills client. Works standalone; uses live evidence when LMTY is connected.
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://lmty.com
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 78
+    stars: 80
     forks: 2
     open_issues: 0
   kind: product

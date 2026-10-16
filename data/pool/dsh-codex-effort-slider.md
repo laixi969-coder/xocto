@@ -20,18 +20,18 @@ url: https://github.com/Microqian2th/dsh-codex-effort-slider
 canonical_url: https://github.com/Microqian2th/dsh-codex-effort-slider
 summary: Codex 风格的推理等级滑条（DeepSeek Harness 插件）：可拖动连续滑条 + 高档位渐变星尘特效
 first_seen: '2026-10-04T12:33:41Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Microqian2th/dsh-codex-effort-slider
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 114
-    forks: 5
-    open_issues: 6
+    stars: 124
+    forks: 6
+    open_issues: 4
   kind: product
 ---
 

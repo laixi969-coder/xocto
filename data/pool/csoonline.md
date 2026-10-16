@@ -20,17 +20,17 @@ url: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-front
 canonical_url: https://csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html
 summary: Containment and monitoring failures are to blame for AI hacking reports: experts
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 820
-    comments: 442
+    points: 939
+    comments: 611
   kind: news
 ---
 

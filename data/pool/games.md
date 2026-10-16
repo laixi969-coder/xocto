@@ -20,7 +20,7 @@ url: https://games.yanisfalaki.com/
 canonical_url: https://games.yanisfalaki.com
 summary: Two browser games set inside one real Gaussian-splat scan
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-15T00:32:32Z'
+last_seen: '2026-10-16T00:25:40Z'
 status: pending_filter
 sources:
 - hackernews
@@ -41,6 +41,11 @@ sightings:
 - source: marketfeeds
   url: https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/
   seen_at: '2026-10-15T00:32:32Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/
+  seen_at: '2026-10-16T00:25:40Z'
   metrics: {}
   kind: news
 ---

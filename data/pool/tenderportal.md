@@ -20,17 +20,17 @@ url: https://tenderportal.io/
 canonical_url: https://tenderportal.io
 summary: Every open government tender in the world (Over 250k)
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tenderportal.io/
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 9
-    comments: 1
+    points: 11
+    comments: 2
   kind: product
 ---
 

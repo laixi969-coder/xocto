@@ -32,17 +32,17 @@ url: https://github.com/Leonxlnx/cinetic
 canonical_url: https://github.com/Leonxlnx/cinetic
 summary: Cinematic launch films and motion design from code, directed by your coding agent.
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Leonxlnx/cinetic
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 212
-    forks: 17
+    stars: 228
+    forks: 19
     open_issues: 1
   kind: product
 ---

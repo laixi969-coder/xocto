@@ -20,17 +20,17 @@ url: https://github.com/graphicle-ai/graphicle
 canonical_url: https://github.com/graphicle-ai/graphicle
 summary: a Rust port of Graphify with memory for coding agents
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/graphicle-ai/graphicle
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 40
-    comments: 11
+    points: 47
+    comments: 13
   kind: product
 ---
 

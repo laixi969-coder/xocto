@@ -20,17 +20,17 @@ url: https://typesafe.ai/blog/jev-1-14
 canonical_url: https://typesafe.ai/blog/jev-1-14
 summary: We’re releasing Jev 1.14.0 along with experimental features for dreamers
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://typesafe.ai/blog/jev-1-14
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 151
-    comments: 53
+    points: 329
+    comments: 116
   kind: news
 ---
 

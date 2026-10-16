@@ -20,17 +20,17 @@ url: https://github.com/c3cvld7aag/fujiang-dsh
 canonical_url: https://github.com/c3cvld7aag/fujiang-dsh
 summary: 富江DSH完美破甲｜富江破甲 DSH 本地插件，内置提示词规则，支持 Windows 一键安装、环境自动准备与一键卸载，全中文使用说明。
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/c3cvld7aag/fujiang-dsh
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 83
-    forks: 13
+    stars: 94
+    forks: 17
     open_issues: 2
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://petal.live/
 canonical_url: https://petal.live
 summary: open-source CoScreen/ScreenHero finally free
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://petal.live/
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 107
-    comments: 27
+    points: 211
+    comments: 40
   kind: product
 ---
 

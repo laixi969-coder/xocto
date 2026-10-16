@@ -1,0 +1,41 @@
+---
+slug: anthropic-revenue-jumps-45-to-168-billion-in-q3-as-ai-startu
+name: Anthropic revenue jumps 45% to $16.8 billion in Q3 as AI startup eyes IPO
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdHJ2bTNqTGQ2c2dQUlpzbV9iY1BnVGlxV3Q3UVM5cVZCVzBla2FydzFkSVZHczJPbTVfaW9mX3NqcTNyTXpjUlotd09ZYlZLVEgzSlBLZmlhQkZ3ZDZwRUFCaVZMdXRBSWxjSUZwenJuTmRqNUdjZi1yUDkzWnNhdUgtRm9waFVWY2FLLU5LWmhhRl8tZ3JNYTkySXFySllPRlJMUXlSYndFN0hRTWZzN0VseHVpT3Q40gHGAUFVX3lxTE0wNklFdnl1bEZfeGFQV3JSbTQzUkJXY3oxSGVxdFQ4OFFnQXpJbDM4OXA1azh2OGhqcjdlOWhBUjVoSFp6OTFwUlRvaGRnUlJnMzRLbzIyMlUwQ3k3MTZjMjdLMWVWc1h6ejMyUEdENE9jVU9iSEpnRXV4QzVwa0RibWFVbkYwMFcyY1Y1c2thQXFSSVE1ZVc3ejhaSmZZMFc4WmQwNUk1a3V0RlhjQVVfQkFiTjNOV1lvOEFETzRkNWdyeGtkQQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdHJ2bTNqTGQ2c2dQUlpzbV9iY1BnVGlxV3Q3UVM5cVZCVzBla2FydzFkSVZHczJPbTVfaW9mX3NqcTNyTXpjUlotd09ZYlZLVEgzSlBLZmlhQkZ3ZDZwRUFCaVZMdXRBSWxjSUZwenJuTmRqNUdjZi1yUDkzWnNhdUgtRm9waFVWY2FLLU5LWmhhRl8tZ3JNYTkySXFySllPRlJMUXlSYndFN0hRTWZzN0VseHVpT3Q40gHGAUFVX3lxTE0wNklFdnl1bEZfeGFQV3JSbTQzUkJXY3oxSGVxdFQ4OFFnQXpJbDM4OXA1azh2OGhqcjdlOWhBUjVoSFp6OTFwUlRvaGRnUlJnMzRLbzIyMlUwQ3k3MTZjMjdLMWVWc1h6ejMyUEdENE9jVU9iSEpnRXV4QzVwa0RibWFVbkYwMFcyY1Y1c2thQXFSSVE1ZVc3ejhaSmZZMFc4WmQwNUk1a3V0RlhjQVVfQkFiTjNOV1lvOEFETzRkNWdyeGtkQQ?oc=5
+summary: Anthropic revenue jumps 45% to $16.8 billion in Q3 as AI startup eyes IPO Fortune India
+first_seen: '2026-10-16T00:25:46Z'
+last_seen: '2026-10-16T00:25:46Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdHJ2bTNqTGQ2c2dQUlpzbV9iY1BnVGlxV3Q3UVM5cVZCVzBla2FydzFkSVZHczJPbTVfaW9mX3NqcTNyTXpjUlotd09ZYlZLVEgzSlBLZmlhQkZ3ZDZwRUFCaVZMdXRBSWxjSUZwenJuTmRqNUdjZi1yUDkzWnNhdUgtRm9waFVWY2FLLU5LWmhhRl8tZ3JNYTkySXFySllPRlJMUXlSYndFN0hRTWZzN0VseHVpT3Q40gHGAUFVX3lxTE0wNklFdnl1bEZfeGFQV3JSbTQzUkJXY3oxSGVxdFQ4OFFnQXpJbDM4OXA1azh2OGhqcjdlOWhBUjVoSFp6OTFwUlRvaGRnUlJnMzRLbzIyMlUwQ3k3MTZjMjdLMWVWc1h6ejMyUEdENE9jVU9iSEpnRXV4QzVwa0RibWFVbkYwMFcyY1Y1c2thQXFSSVE1ZVc3ejhaSmZZMFc4WmQwNUk1a3V0RlhjQVVfQkFiTjNOV1lvOEFETzRkNWdyeGtkQQ?oc=5
+  seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+---
+
+# Anthropic revenue jumps 45% to $16.8 billion in Q3 as AI startup eyes IPO
+
+Anthropic revenue jumps 45% to $16.8 billion in Q3 as AI startup eyes IPO Fortune India
+
+## 笔记
+
+

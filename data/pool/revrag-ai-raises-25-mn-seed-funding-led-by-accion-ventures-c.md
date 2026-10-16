@@ -1,0 +1,41 @@
+---
+slug: revrag-ai-raises-25-mn-seed-funding-led-by-accion-ventures-c
+name: RevRag AI raises $2.5 mn seed funding led by Accion Ventures, Cedar Hill Capital
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYTlpWkhOX3FHcXl3c09fbmJxTEtvUlRLbk1ONE5rb05Ib3JtUkRPRjFTQkZodFl0dW93cHZhNW9vdzJSb0xDT2RLdUhBSHpISXZ6NEQ5LXZmczhKSC00TkxaanRtaDlEd2ZnczhYdHA0bWs5NWNHbWlhblJaUmhLdl9jNTd1TWN5UFNhQlU2d0JKTTNuZ1FJZTg5TlcwQ3lGNEp6ZXMyT2Z4Nks3dVoxQkU4VVRTY3piTDZwVm81U3pjeGVVYlhaMnlQUnBRaGRaSkh2OHVyYmRJVmZrSW1kOTNZdkg2Z9IB6wFBVV95cUxNbzltQUpzWHdvYnlBVWZwOEtuVHZ2bG0xRjFvOThyTGhET0d6M0pDelNEc0ctY3FMMVBrUndzWlFhUTRqdDNndzVZR1V2dnMxVFR6QTM1OVVRV0YzYUo4Y3p1ODlBaHhpbmNrbXJScThtLWt3YTM0R2xzYTY0NUNNeng5dnF5eVAzeUhJTkl0OTNrYjJTbmliTTUxY1NWVWM4VTVVaFFIdEhwd1BQWHk1cFZKSHlScElBRlZHeHNub2s1dXpZNWtpdTFYeUNYSkdZSUxOUEdwWXBSd1doVjNMcTlLd0ZQYno0RWs4?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYTlpWkhOX3FHcXl3c09fbmJxTEtvUlRLbk1ONE5rb05Ib3JtUkRPRjFTQkZodFl0dW93cHZhNW9vdzJSb0xDT2RLdUhBSHpISXZ6NEQ5LXZmczhKSC00TkxaanRtaDlEd2ZnczhYdHA0bWs5NWNHbWlhblJaUmhLdl9jNTd1TWN5UFNhQlU2d0JKTTNuZ1FJZTg5TlcwQ3lGNEp6ZXMyT2Z4Nks3dVoxQkU4VVRTY3piTDZwVm81U3pjeGVVYlhaMnlQUnBRaGRaSkh2OHVyYmRJVmZrSW1kOTNZdkg2Z9IB6wFBVV95cUxNbzltQUpzWHdvYnlBVWZwOEtuVHZ2bG0xRjFvOThyTGhET0d6M0pDelNEc0ctY3FMMVBrUndzWlFhUTRqdDNndzVZR1V2dnMxVFR6QTM1OVVRV0YzYUo4Y3p1ODlBaHhpbmNrbXJScThtLWt3YTM0R2xzYTY0NUNNeng5dnF5eVAzeUhJTkl0OTNrYjJTbmliTTUxY1NWVWM4VTVVaFFIdEhwd1BQWHk1cFZKSHlScElBRlZHeHNub2s1dXpZNWtpdTFYeUNYSkdZSUxOUEdwWXBSd1doVjNMcTlLd0ZQYno0RWs4?oc=5
+summary: RevRag AI raises $2.5 mn seed funding led by Accion Ventures, Cedar Hill Capital ET Entrepreneur
+first_seen: '2026-10-16T00:25:46Z'
+last_seen: '2026-10-16T00:25:46Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYTlpWkhOX3FHcXl3c09fbmJxTEtvUlRLbk1ONE5rb05Ib3JtUkRPRjFTQkZodFl0dW93cHZhNW9vdzJSb0xDT2RLdUhBSHpISXZ6NEQ5LXZmczhKSC00TkxaanRtaDlEd2ZnczhYdHA0bWs5NWNHbWlhblJaUmhLdl9jNTd1TWN5UFNhQlU2d0JKTTNuZ1FJZTg5TlcwQ3lGNEp6ZXMyT2Z4Nks3dVoxQkU4VVRTY3piTDZwVm81U3pjeGVVYlhaMnlQUnBRaGRaSkh2OHVyYmRJVmZrSW1kOTNZdkg2Z9IB6wFBVV95cUxNbzltQUpzWHdvYnlBVWZwOEtuVHZ2bG0xRjFvOThyTGhET0d6M0pDelNEc0ctY3FMMVBrUndzWlFhUTRqdDNndzVZR1V2dnMxVFR6QTM1OVVRV0YzYUo4Y3p1ODlBaHhpbmNrbXJScThtLWt3YTM0R2xzYTY0NUNNeng5dnF5eVAzeUhJTkl0OTNrYjJTbmliTTUxY1NWVWM4VTVVaFFIdEhwd1BQWHk1cFZKSHlScElBRlZHeHNub2s1dXpZNWtpdTFYeUNYSkdZSUxOUEdwWXBSd1doVjNMcTlLd0ZQYno0RWs4?oc=5
+  seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+---
+
+# RevRag AI raises $2.5 mn seed funding led by Accion Ventures, Cedar Hill Capital
+
+RevRag AI raises $2.5 mn seed funding led by Accion Ventures, Cedar Hill Capital ET Entrepreneur
+
+## 笔记
+
+

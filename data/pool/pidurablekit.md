@@ -33,17 +33,17 @@ url: https://github.com/finnvoor/PiDurableKit
 canonical_url: https://github.com/finnvoor/PiDurableKit
 summary: 'Durable AI agents for Apple platforms: pi-durable on JavaScriptCore with a Swift API'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-12T01:20:35Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/finnvoor/PiDurableKit
-  seen_at: '2026-10-12T01:20:35Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 231
-    forks: 21
+    stars: 257
+    forks: 22
     open_issues: 4
   kind: product
 ---

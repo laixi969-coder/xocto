@@ -1,0 +1,42 @@
+---
+slug: customer-service-ai-agents-in-2026-enterprise-examples-and-h
+name: 'Customer Service AI Agents in 2026: Enterprise Examples and How to Measure Cost per Resolution'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWUtIWEQ3anE4SzlGN1RiNHJsZzNHTDFLdnp1MjhWVHZTakdtdDdyMVZsRDB4VWZwOTFfZnY2NVQ0WVF6bmhDek1Ib2ZrQnFWTjYzT0lLUGc3Y0ItSW5NOG15a3FlR3JSNTdRRENwdmo4NUhqTHRFb0llSF9IQ2hkckNuLXRXbDJVMUdJdFZQYU0yYW9NTkgtUEF3amtmdG1ZOEVSMFBtT2JrNDhDTUJVLW51Q09KVVU0N2Zld3Q4RV85Sl96NG53TFFxaUhzSk8zRmZ1S2gyYjZlZllCUjdFNGFR0gHqAUFVX3lxTE02MlJXNWJvM0FrLTNzTm1jcndSa2dWSkhBbUtDVTlpdXZ2ZWRBMDVidVM3S2hGZm1jYk9rSGpLZmExNTlfaTVJTk9LXy1xM1lxcHJWN3JqRnQ2NURRbUF2akxZaktTbzZlNE1jRDhmdXZEc0JTbW5iODJIWVdNMUdKQ2ZaV0pUam03TEJ1eEdFaklnUUItcVd4YWRhallqTVJjdXU1M0tVZ1QxN1QtalJmbEdjeC1raUQ0aUg3N0VaVzVfM2V3MzQ5TW9UWEVzMmZfeFFFYmtDMDFZTUxfQ0JKQm5YeXFiNmlLQQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWUtIWEQ3anE4SzlGN1RiNHJsZzNHTDFLdnp1MjhWVHZTakdtdDdyMVZsRDB4VWZwOTFfZnY2NVQ0WVF6bmhDek1Ib2ZrQnFWTjYzT0lLUGc3Y0ItSW5NOG15a3FlR3JSNTdRRENwdmo4NUhqTHRFb0llSF9IQ2hkckNuLXRXbDJVMUdJdFZQYU0yYW9NTkgtUEF3amtmdG1ZOEVSMFBtT2JrNDhDTUJVLW51Q09KVVU0N2Zld3Q4RV85Sl96NG53TFFxaUhzSk8zRmZ1S2gyYjZlZllCUjdFNGFR0gHqAUFVX3lxTE02MlJXNWJvM0FrLTNzTm1jcndSa2dWSkhBbUtDVTlpdXZ2ZWRBMDVidVM3S2hGZm1jYk9rSGpLZmExNTlfaTVJTk9LXy1xM1lxcHJWN3JqRnQ2NURRbUF2akxZaktTbzZlNE1jRDhmdXZEc0JTbW5iODJIWVdNMUdKQ2ZaV0pUam03TEJ1eEdFaklnUUItcVd4YWRhallqTVJjdXU1M0tVZ1QxN1QtalJmbEdjeC1raUQ0aUg3N0VaVzVfM2V3MzQ5TW9UWEVzMmZfeFFFYmtDMDFZTUxfQ0JKQm5YeXFiNmlLQQ?oc=5
+summary: 'Customer Service AI Agents in 2026: Enterprise Examples and How to Measure Cost per Resolution
+  InfotechLead'
+first_seen: '2026-10-16T00:25:46Z'
+last_seen: '2026-10-16T00:25:46Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWUtIWEQ3anE4SzlGN1RiNHJsZzNHTDFLdnp1MjhWVHZTakdtdDdyMVZsRDB4VWZwOTFfZnY2NVQ0WVF6bmhDek1Ib2ZrQnFWTjYzT0lLUGc3Y0ItSW5NOG15a3FlR3JSNTdRRENwdmo4NUhqTHRFb0llSF9IQ2hkckNuLXRXbDJVMUdJdFZQYU0yYW9NTkgtUEF3amtmdG1ZOEVSMFBtT2JrNDhDTUJVLW51Q09KVVU0N2Zld3Q4RV85Sl96NG53TFFxaUhzSk8zRmZ1S2gyYjZlZllCUjdFNGFR0gHqAUFVX3lxTE02MlJXNWJvM0FrLTNzTm1jcndSa2dWSkhBbUtDVTlpdXZ2ZWRBMDVidVM3S2hGZm1jYk9rSGpLZmExNTlfaTVJTk9LXy1xM1lxcHJWN3JqRnQ2NURRbUF2akxZaktTbzZlNE1jRDhmdXZEc0JTbW5iODJIWVdNMUdKQ2ZaV0pUam03TEJ1eEdFaklnUUItcVd4YWRhallqTVJjdXU1M0tVZ1QxN1QtalJmbEdjeC1raUQ0aUg3N0VaVzVfM2V3MzQ5TW9UWEVzMmZfeFFFYmtDMDFZTUxfQ0JKQm5YeXFiNmlLQQ?oc=5
+  seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+---
+
+# Customer Service AI Agents in 2026: Enterprise Examples and How to Measure Cost per Resolution
+
+Customer Service AI Agents in 2026: Enterprise Examples and How to Measure Cost per Resolution InfotechLead
+
+## 笔记
+
+

@@ -20,17 +20,17 @@ url: https://clova.email/
 canonical_url: https://clova.email
 summary: I wrote an email app that accepts only one sender per inbox
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://clova.email/
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 73
-    comments: 57
+    points: 108
+    comments: 92
   kind: product
 ---
 

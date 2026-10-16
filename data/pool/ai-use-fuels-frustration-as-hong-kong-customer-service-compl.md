@@ -1,0 +1,42 @@
+---
+slug: ai-use-fuels-frustration-as-hong-kong-customer-service-compl
+name: AI use fuels frustration as Hong Kong customer service complaints top 2025 total
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVDRLejcyd2hybUhFTEJhTlhDSW1UenoyWHRLaWU0X09LLUNXS2swdTFQZVBfVTlwTWlKWUx5MnNtWTcxV2F1eW55ZzNPTGxoMXNaa1U0cW1HN1ZWemdGckNZaEZuT2ppNnE4SFpNbXNWVFVBWV9JdFNaSS05ajJmLWxhRGptWVo5M09JeUprX0FJaUhrc0M5RHBrQURTX2prNDVydjEtM2ZoVnJ6aEVVQjJnRDFjakx6eEFfd21JWFA4RmtUeXNIWDF0dXp2R1lfcmQ40gHTAUFVX3lxTFBnY0ZPekRMWFBlODNsUTZNZ0M0czVGZGl3S181cXVGNUFQRjh2M0RyY2ZHY1dINkhESzZwZS1DWFFQNVFkVHFycTQ1T2loQUYzdjhuLW8zdy1rWU9MNVNrdGVSYWRfamwxWkxRRmMtc25NYTQySzh1OC13a05JMVNPNkhFNUNVdmVRX3hINmVIcWFRZDk3RzNwZEd2WFp4NFpXbWhYVnU1aGpvbXJTYXpkSUVrUENJbVRuNmFYWWlxVjRhTTE1RVJwQS1iMXRmeFFvT1E?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVDRLejcyd2hybUhFTEJhTlhDSW1UenoyWHRLaWU0X09LLUNXS2swdTFQZVBfVTlwTWlKWUx5MnNtWTcxV2F1eW55ZzNPTGxoMXNaa1U0cW1HN1ZWemdGckNZaEZuT2ppNnE4SFpNbXNWVFVBWV9JdFNaSS05ajJmLWxhRGptWVo5M09JeUprX0FJaUhrc0M5RHBrQURTX2prNDVydjEtM2ZoVnJ6aEVVQjJnRDFjakx6eEFfd21JWFA4RmtUeXNIWDF0dXp2R1lfcmQ40gHTAUFVX3lxTFBnY0ZPekRMWFBlODNsUTZNZ0M0czVGZGl3S181cXVGNUFQRjh2M0RyY2ZHY1dINkhESzZwZS1DWFFQNVFkVHFycTQ1T2loQUYzdjhuLW8zdy1rWU9MNVNrdGVSYWRfamwxWkxRRmMtc25NYTQySzh1OC13a05JMVNPNkhFNUNVdmVRX3hINmVIcWFRZDk3RzNwZEd2WFp4NFpXbWhYVnU1aGpvbXJTYXpkSUVrUENJbVRuNmFYWWlxVjRhTTE1RVJwQS1iMXRmeFFvT1E?oc=5
+summary: AI use fuels frustration as Hong Kong customer service complaints top 2025 total South China
+  Morning Post
+first_seen: '2026-10-16T00:25:46Z'
+last_seen: '2026-10-16T00:25:46Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVDRLejcyd2hybUhFTEJhTlhDSW1UenoyWHRLaWU0X09LLUNXS2swdTFQZVBfVTlwTWlKWUx5MnNtWTcxV2F1eW55ZzNPTGxoMXNaa1U0cW1HN1ZWemdGckNZaEZuT2ppNnE4SFpNbXNWVFVBWV9JdFNaSS05ajJmLWxhRGptWVo5M09JeUprX0FJaUhrc0M5RHBrQURTX2prNDVydjEtM2ZoVnJ6aEVVQjJnRDFjakx6eEFfd21JWFA4RmtUeXNIWDF0dXp2R1lfcmQ40gHTAUFVX3lxTFBnY0ZPekRMWFBlODNsUTZNZ0M0czVGZGl3S181cXVGNUFQRjh2M0RyY2ZHY1dINkhESzZwZS1DWFFQNVFkVHFycTQ1T2loQUYzdjhuLW8zdy1rWU9MNVNrdGVSYWRfamwxWkxRRmMtc25NYTQySzh1OC13a05JMVNPNkhFNUNVdmVRX3hINmVIcWFRZDk3RzNwZEd2WFp4NFpXbWhYVnU1aGpvbXJTYXpkSUVrUENJbVRuNmFYWWlxVjRhTTE1RVJwQS1iMXRmeFFvT1E?oc=5
+  seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+---
+
+# AI use fuels frustration as Hong Kong customer service complaints top 2025 total
+
+AI use fuels frustration as Hong Kong customer service complaints top 2025 total South China Morning Post
+
+## 笔记
+
+

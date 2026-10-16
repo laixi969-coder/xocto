@@ -20,16 +20,16 @@ url: https://github.com/jumpersun/meal-puzzle
 canonical_url: https://github.com/jumpersun/meal-puzzle
 summary: 套餐拼图 · 把每个人想吃的拼成一桌：真实麦当劳菜单、心愿组合、官方核价与按人分餐。
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jumpersun/meal-puzzle
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 112
+    stars: 115
     forks: 5
     open_issues: 0
   kind: product

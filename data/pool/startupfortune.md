@@ -20,17 +20,17 @@ url: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-cent
 canonical_url: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote
 summary: Banks are now trying to offload the AI data center debt they just underwrote
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-16T00:25:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/
-  seen_at: '2026-10-15T00:32:05Z'
+  seen_at: '2026-10-16T00:25:14Z'
   metrics:
-    points: 262
-    comments: 204
+    points: 378
+    comments: 272
   kind: news
 ---
 

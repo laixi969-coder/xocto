@@ -1,0 +1,43 @@
+---
+slug: currentaffairs
+name: currentaffairs
+builder: vinyl7
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://www.currentaffairs.org/news/why-were-banning-ai
+canonical_url: https://currentaffairs.org/news/why-were-banning-ai
+summary: Why We're Banning AI
+first_seen: '2026-10-16T00:25:14Z'
+last_seen: '2026-10-16T00:25:14Z'
+status: pending_filter
+sources:
+- hackernews
+sightings:
+- source: hackernews
+  url: https://www.currentaffairs.org/news/why-were-banning-ai
+  seen_at: '2026-10-16T00:25:14Z'
+  metrics:
+    points: 218
+    comments: 176
+  kind: news
+---
+
+# currentaffairs
+
+Why We're Banning AI
+
+## 笔记
+
+

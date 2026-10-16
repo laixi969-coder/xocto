@@ -38,17 +38,17 @@ url: https://github.com/cv-cat/catbus
 canonical_url: https://github.com/cv-cat/catbus
 summary: 一个命令操作小红书、抖音、TikTok、B 站、快手、微博、闲鱼、淘宝、京东、X：统一的命令与 JSON 输出，给人和 AI Agent 用
 first_seen: '2026-09-27T15:19:34Z'
-last_seen: '2026-10-15T00:32:09Z'
+last_seen: '2026-10-16T00:25:17Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cv-cat/catbus
-  seen_at: '2026-10-15T00:32:09Z'
+  seen_at: '2026-10-16T00:25:17Z'
   metrics:
-    stars: 400
-    forks: 113
+    stars: 419
+    forks: 121
     open_issues: 8
   kind: product
 ---
