@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "company_id": "e3c700d0-971b-5f2f-b260-31b6e7b7a4c0",
+  "round_fingerprint": "4345d46f866cd69e798fe15a0be2a3b767a6726142fd343a3ea3231fee389d77",
+  "last_attempt": "2026-10-16",
+  "status": "blocked",
+  "gaps": [
+    "official_website",
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/founder-raises-5m-next-act-ai-marketing-startup-marklo-herrin/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "The startup has now raised $5 million in seed funding, it tells Crunchbase News exclusively.",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "fingerprint": "3c2cc1211cf5391352e735c184d60cb00eb451e08f9469e3077581ff4aadbce0"
+}
