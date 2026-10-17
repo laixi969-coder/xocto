@@ -1,0 +1,92 @@
+- id: req-initial-dottr-2026-10-17
+  project_slug: dottr
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同起草与风险审阅依赖人工、周期长的问题，痛点刚性且交付物是可签署合同；买方是否付费尚未核验。
+    evidence_ids:
+    - ev-a6bcd8f71b4510f0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品发布描述，没有用户评价、采用或复购证据，无法判断是否形成持续使用。
+    evidence_ids:
+    - ev-a6bcd8f71b4510f0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按份收费或席位收费均为推断，尚无已验证付费路径。
+    evidence_ids:
+    - ev-a6bcd8f71b4510f0
+  - gate: truth
+    status: insufficient
+    reason: 风险标记的准确性与人工复核边界未说明，合同场景对错误容忍度低，交付确定性待核验。
+    evidence_ids:
+    - ev-a6bcd8f71b4510f0
+  next_validation: 收集 Dottr 官方定价页或公开客户案例，确认其收费方式与合同风险标记的实际交付结果。
+  market: ''
+  job: 法务或业务负责人在处理销售、采购合同时，把条款草稿和风险点整理成可签署的合同文件并推进签署。
+  job_en: A legal or business owner handling sales or procurement contracts turns clause drafts and risk
+    points into a signable contract and pushes it to signature.
+  pain: 合同起草和风险审阅依赖法务或外部律师，周期长、按小时计费，业务方常因等审阅而拖延成交。
+  pain_en: Contract drafting and risk review depend on in-house or outside lawyers, are slow and billed
+    hourly, and business teams often stall deals waiting for review.
+  current_alternative: 把模板发给法务或外部律师逐条修改，或用通用文档模板自行改写后人工核对风险条款。
+  current_alternative_en: Sending templates to legal or outside counsel for clause-by-clause edits, or
+    self-editing generic templates and manually checking risky clauses.
+  usage_reason: 推断：相较等法务排期逐条改稿，它把起草、风险标记和签署推进串成一次动作，减少业务方等待审阅和反复传文件的那一步，因此没有常驻法务的中小企业业务负责人会在标准合同场景下选择它。
+  usage_reason_en: 'Inference: versus waiting for legal to edit clause by clause, it chains drafting,
+    risk flagging and signing into one action, removing the wait-and-forward step, so business owners
+    at SMEs without in-house counsel would pick it for standard contracts.'
+- id: req-full-dottr-2026-10-17
+  project_slug: dottr
+  level: full
+  reviewed_at: '2026-10-17T01:10:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同审阅依赖法务、周期长且签署追催靠人工的问题，痛点刚性、交付物是可签署合同；公开材料已还原邮件抄送—审阅—标记风险—追签的闭环，属工作流结构推理，买方是否付费尚未核验。
+    evidence_ids:
+    - ev-2d4fb29c3e0862f4
+    - ev-0f7b5b08015832b3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官网与 LinkedIn 的产品自述，没有用户评价、采用或复购证据，无法判断是否形成持续使用；LinkedIn 161 关注者属关注度，不能证明用户已将其留在工作流里。
+    evidence_ids:
+    - ev-0f7b5b08015832b3
+    - ev-2d4fb29c3e0862f4
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按份收费或席位收费均为推断，尚无已验证付费路径；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-a459112dc0c57fa9
+    - ev-1bd9d204f2ff68a6
+  - gate: truth
+    status: insufficient
+    reason: 风险标记的准确性与人工复核边界未说明，合同场景对错误容忍度低，交付确定性待核验；邮件抄送入口能否稳定处理复杂条款也无公开验证。
+    evidence_ids:
+    - ev-2d4fb29c3e0862f4
+    - ev-6fabcedb5b940c49
+  next_validation: 追踪 Dottr 官方定价页或公开客户案例，确认其收费方式与合同风险标记的实际交付结果。
+  market: ''
+  job: 没有常驻法务的中小企业业务或法务负责人在处理销售、采购合同时，把收到的合同草稿或条款要点通过邮件抄送给 Dottr，由它生成审阅意见、标出风险条款并追催各方签署，最终交付一份可签署的合同。
+  job_en: A business or legal owner at an SME without in-house counsel, handling sales or procurement
+    contracts, Ccs Dottr on the contract email so it reviews the draft, flags risky clauses and chases
+    signatures, delivering a signable contract.
+  pain: 合同审阅依赖法务或外部律师，排期慢、按小时计费，业务方常因等审阅而拖延成交；风险条款散落在邮件与附件中，签署进度靠人工追催，容易漏签或拖期。
+  pain_en: Contract review depends on in-house or outside counsel, is slow and billed hourly, and business
+    teams stall deals waiting; risky clauses are scattered across emails and attachments, and signature
+    chasing is manual, so deals slip or go unsigned.
+  current_alternative: 把模板发给法务或外部律师逐条修改，或用通用模板自行改写后人工核对风险条款，再靠邮件和电话逐个追催签署。
+  current_alternative_en: Sending templates to legal or outside counsel for clause-by-clause edits, self-editing
+    generic templates and manually checking risky clauses, then chasing signatures one by one by email
+    and phone.
+  usage_reason: 推断：相较等法务排期逐条改稿并人工追签，它把合同审阅、风险标记和签署追催收进一次邮件抄送动作，减少业务方等待审阅、反复传文件和逐个催签的那几步，因此没有常驻法务的中小企业业务负责人会在标准销售或采购合同场景下选择它。
+  usage_reason_en: 'Inference: versus waiting for legal to edit clause by clause and manually chasing
+    signatures, it folds review, risk flagging and signature chasing into a single email Cc, removing
+    the wait, file-forwarding and one-by-one chasing steps, so business owners at SMEs without in-house
+    counsel would pick it for standard sales or procurement contracts.'

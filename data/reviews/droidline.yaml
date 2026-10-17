@@ -1,0 +1,86 @@
+- id: req-initial-droidline-2026-10-17
+  project_slug: droidline
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决真机自动化依赖 ADB、线缆和本地环境、多设备难并行的问题，痛点具体且交付是可复现的执行结果。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标 153 与描述，缺少 issue、讨论或用户采用证据，无法判断是否进入持续工作流。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露商业定价或付费路径，设备供给与托管是否收费尚不明确。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  - gate: truth
+    status: insufficient
+    reason: 真机执行的稳定性、设备兼容范围与代理操作的失败处理未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  next_validation: 收集 Droidline 仓库的 issue 与讨论，确认真机执行稳定性、设备兼容范围及是否存在托管收费。
+  market: ''
+  job: 移动端测试或自动化工程师在真机上重复执行回归任务、批量跑多台设备，或让代理操作手机完成一段流程。
+  job_en: Mobile QA or automation engineers repeating regression tasks on real phones, running batches
+    of devices, or letting an agent operate a phone through a flow.
+  pain: 真机自动化依赖 ADB、USB 线缆和本地环境配置，多设备并行和远程执行难以稳定复现，重复操作消耗大量人工。
+  pain_en: Real-device automation depends on ADB, USB cables and local setup; parallel multi-device and
+    remote runs are hard to reproduce, and repeated actions consume much manual effort.
+  current_alternative: 用 ADB 脚本、Appium 加本地设备农场，或人工在每台手机上重复点击验证。
+  current_alternative_en: ADB scripts, Appium with a local device farm, or people manually tapping through
+    each phone to verify.
+  usage_reason: 推断：相较逐台配置 ADB 与线缆的旧做法，它把设备控制收敛成 Python、Node.js、CLI 或 HTTP 调用，省去环境搭建和插拔设备这一步，因此需要多机并行回归或让代理跑重复流程的移动团队会选它。
+  usage_reason_en: 'Inference: versus configuring ADB and cables per device, it collapses device control
+    into Python, Node.js, CLI or HTTP calls, removing setup and cable-swapping, so mobile teams needing
+    parallel regression or agent-run repetitive flows would choose it.'
+- id: req-full-droidline-2026-10-17
+  project_slug: droidline
+  level: full
+  reviewed_at: '2026-10-17T01:10:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决真机自动化依赖 ADB、线缆和本地环境、多设备难并行的问题，痛点具体且交付是可复现的执行结果。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标 153 与描述，缺少 issue、讨论或用户采用证据，无法判断是否进入持续工作流。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露商业定价或付费路径，设备供给与托管是否收费尚不明确。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  - gate: truth
+    status: insufficient
+    reason: 真机执行的稳定性、设备兼容范围与代理操作的失败处理未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  next_validation: 收集 Droidline 仓库的 issue 与 discussion，确认真机执行稳定性、设备兼容范围及是否存在托管收费。
+  market: ''
+  job: 移动端测试或自动化工程师在需要真机验证时，用 Python、Node.js、CLI、HTTP 或 Appium 客户端把重复操作写成脚本，在真实手机上批量执行或让 AI 代理操作其中一台设备，拿到可复现的执行结果。
+  job_en: Mobile QA or automation engineers who need real-device verification write repeated actions as
+    scripts via Python, Node.js, CLI, HTTP or Appium clients, run them across real phones or let an AI
+    agent operate one device, and obtain reproducible execution results.
+  pain: 真机自动化依赖 ADB、USB 线缆和本地环境配置，多设备并行与远程执行难以稳定复现，重复点击验证消耗大量人工时间。
+  pain_en: Real-device automation depends on ADB, USB cables and local environment setup; parallel multi-device
+    and remote runs are hard to reproduce, and repeated tap-through verification consumes much manual
+    time.
+  current_alternative: 用 ADB 脚本、Appium 加本地设备农场，或人工在每台手机上重复点击验证。
+  current_alternative_en: ADB scripts, Appium with a local device farm, or people manually tapping through
+    each phone to verify.
+  usage_reason: 推断：相较逐台配置 ADB 与线缆的旧做法，它把设备控制收敛成 Python、Node.js、CLI 或 HTTP 调用，省去环境搭建和插拔设备这一步，因此需要多机并行回归或让代理跑重复流程的移动团队会选它。
+  usage_reason_en: 'Inference: versus configuring ADB and cables per device, it collapses device control
+    into Python, Node.js, CLI or HTTP calls, removing setup and cable-swapping, so mobile teams needing
+    parallel regression or agent-run repetitive flows would choose it.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtSzFmV01sOXJk
 summary: AI智能体重构电商安全格局：从一刀切拦截走向风险动态治理 doit.com.cn
 first_seen: '2026-08-28T02:50:50Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

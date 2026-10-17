@@ -1463,3 +1463,58 @@
     surface composition plus compression/pruning events, turning ''guess what was dropped'' into ''see
     which step dropped it'', so DSH users debugging long sessions or relying on tool outputs would pick
     it when chasing forgetting issues.'
+- id: req-full-dsh-context-2026-10-17
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-17T01:10:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文被压缩剪枝后关键信息静默丢失、用户无法定位的问题；同生态 dsh-sieve 把上下文工程与 token 优化独立成插件并给出离线回放 36% 载荷缩减，说明该摩擦在
+      DSH 用户中真实存在。谁付钱未在公开材料确认，属模式关缺口。
+    evidence_ids:
+    - ev-a1fc92bad283354f
+    - ev-da18e605c4800eec
+  - gate: consensus
+    status: insufficient
+    reason: 同生态 dsh-sieve 收藏数从 107 增至 110、dsh-tool-todo-plus 从 41 增至 73，说明 DSH 插件生态有持续关注，但这些数字属于邻近项目而非本产品，且收藏不等于持续采用，本产品自身采用证据缺失。
+    evidence_ids:
+    - ev-a1fc92bad283354f
+    - ev-ef4881db8cf0e1cc
+    - ev-251b9791d1b92ac8
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或采购记录，DSH 插件生态目前以开源免费分发为主，钱可能来自 to C 开发者捐赠或 to B 支持，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a1fc92bad283354f
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺透视上下文组成与演进，但公开材料未提供可复现的实测结果、部署文档或安全与人工边界说明，交付能否确定发生尚缺证据。
+    evidence_ids:
+    - ev-a1fc92bad283354f
+  next_validation: 追踪 dsh-context 在 npm 或代码仓库的官方 README、issue 与 discussion，确认其上下文面板的实际输出样例、是否被 DSH 用户在日常长会话中重复使用，以及是否出现付费或赞助入口。
+  market: ''
+  job: DeepSeek Harness 的开发者或重度用户在长会话中处理工具输出、技能说明与多轮对话材料，需要看清当前上下文由哪些内容组成、哪些被压缩或剪枝丢弃，以便判断模型为何遗忘关键信息并调整上下文策略。
+  job_en: DeepSeek Harness developers and heavy users working in long sessions with tool outputs, skill
+    descriptions and multi-turn material need to see what the current context is composed of and what
+    was dropped by compaction or pruning, so they can explain why the model forgot key facts and adjust
+    their context strategy.
+  pain: 长会话中上下文被压缩、剪枝后关键信息静默丢失，用户只能看到模型答错却无法定位是哪一步丢的；同生态的 dsh-sieve 已把上下文工程与 token 优化当作独立问题处理，说明这类摩擦在
+    DSH 用户中真实存在。
+  pain_en: In long sessions, compaction and pruning silently drop key facts; users only see a wrong answer
+    and cannot locate which step lost the information. The existence of dsh-sieve in the same ecosystem,
+    treating context engineering and token optimization as a standalone problem, shows this friction is
+    real for DSH users.
+  current_alternative: 当前替代方式是直接阅读原始会话日志、凭经验猜测上下文何时被压缩，或安装 dsh-sieve 这类只做剪枝与 token 节省、不提供组成与演进可视化的插件。
+  current_alternative_en: Today users read raw session logs, guess by experience when context was compacted,
+    or install plugins like dsh-sieve that only prune and save tokens without visualizing composition
+    and evolution.
+  usage_reason: 相较翻日志或凭经验猜测，该插件通过 Context 面板与 Context 命令把上下文组成、压缩、剪枝事件直接呈现出来，省去用户逐条比对原始日志定位丢失点的步骤，因此长会话调试或排查模型遗忘问题的
+    DSH 用户会在需要解释上下文变化时选择它；这是基于产品能力与任务结构的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with reading logs or guessing, the plugin surfaces context composition and
+    compaction/pruning events through a Context panel and command, removing the step of manually diffing
+    raw logs to locate what was dropped. DSH users debugging long sessions or investigating model forgetting
+    would therefore choose it when they need to explain context changes; this is an inference from product
+    capability and task structure, not yet confirmed by user feedback.

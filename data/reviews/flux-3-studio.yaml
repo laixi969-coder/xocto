@@ -1,0 +1,87 @@
+- id: req-initial-flux-3-studio-2026-10-17
+  project_slug: flux-3-studio
+  level: initial
+  reviewed_at: '2026-10-17T00:30:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成与编辑分散、模型与 LoRA 需手工搬运的问题，痛点在于反复切换工具；买方与付费方式未披露。
+    evidence_ids:
+    - ev-38869e78bda22fd9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量收藏，无使用反馈或讨论，无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-38869e78bda22fd9
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费方式，是否有人付费或托管收费均不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-38869e78bda22fd9
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成结果能否稳定达到交付规格，人工筛选与版权边界也未说明。
+    evidence_ids:
+    - ev-38869e78bda22fd9
+  next_validation: 查看该开源工作台的仓库说明与 issue/discussion，确认操作步骤、输出规格与是否有实际使用反馈。
+  market: ''
+  job: 设计师或内容运营在批量出图时，把提示词与参考图交给工作台，调用模型与 LoRA 完成生成和局部编辑，产出可交付的图片。
+  job_en: A designer or content operator doing batch image production feeds prompts and reference images
+    into the workspace, calls models and LoRAs to generate and locally edit, and produces deliverable
+    images.
+  pain: 生成与编辑分散在不同工具里，模型、LoRA 与提示词需要反复切换和手工搬运；公开材料未提供用户抱怨，此痛点由工作流结构推断。
+  pain_en: Generation and editing sit in separate tools, forcing repeated switching and manual shuttling
+    of models, LoRAs and prompts; the material offers no user complaints, so this pain is inferred from
+    workflow structure.
+  current_alternative: 旧做法是在多个模型页面、本地脚本与修图软件之间来回切换，手工管理 LoRA 与提示词；候选资料未直接描述这些替代方式，属推断。
+  current_alternative_en: The old approach is switching among model pages, local scripts and retouching
+    software while manually managing LoRAs and prompts; the candidate material does not describe these
+    alternatives directly, so this is inference.
+  usage_reason: 推断：相较在多个工具间搬运素材，它把生成、编辑与 LoRA 调用收进同一界面，减少一次导出再导入的步骤，因此需要固定风格批量出图的电商与广告团队会先试用。
+  usage_reason_en: 'Inference: compared with shuttling assets between tools, it folds generation, editing
+    and LoRA calls into one interface, removing an export-then-import step, so e-commerce and advertising
+    teams needing consistent-style batch output would try it first.'
+- id: req-full-flux-3-studio-2026-10-17
+  project_slug: flux-3-studio
+  level: full
+  reviewed_at: '2026-10-17T01:10:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选资料只列模块名，未说明谁在什么情况下处理什么材料、要完成什么任务，也无可引用的用户痛点或旧替代行为，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-89dac6e194465eb7
+    - ev-046fbbf95a59b207
+    - ev-8046f3dedf3ccc0e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源工作台的官方仓库 README、release 说明与 issue/discussion，确认其实际输入、操作步骤、输出规格与是否有真实使用反馈。
+  market: ''
+  job: 候选资料未说明具体使用者、触发情境与输入材料，只列出模型、编辑、LoRA 库与提示词助手等模块名，无法还原谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: The candidate material does not identify a specific user, triggering situation or input material;
+    it only lists module names such as models, editing, LoRA library and prompt helper, so it cannot reconstruct
+    who handles what material under what circumstances to complete what task.
+  pain: 公开证据中没有任何用户痛点、抱怨或 workaround 描述，无法说明现有做法哪里难受、不解决会失去什么。
+  pain_en: The public evidence contains no user pain, complaint or workaround description, so it cannot
+    show where the current approach hurts or what is lost if unsolved.
+  current_alternative: 候选资料未描述用户当前用什么方式完成同类出图与编辑任务，无法确认旧替代方式。
+  current_alternative_en: The candidate material does not describe how users currently complete comparable
+    generation and editing tasks, so the prior alternative cannot be confirmed.
+  usage_reason: 缺少用户反馈、客户案例或可观察采用行为，无法解释哪类用户会因哪个具体动作选择它；现有证据仅指向同名但无关的 Flux 概念、PCB 工具与屏幕色温软件。
+  usage_reason_en: 'With no user feedback, customer case or observable adoption behavior, it cannot explain
+    which users would choose it for which concrete action; the evidence only points to unrelated same-name
+    items: the Flux concept, a PCB tool and a screen-color software.'

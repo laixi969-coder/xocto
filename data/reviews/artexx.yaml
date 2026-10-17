@@ -90,3 +90,49 @@
     one, it lets agents chain probing to verification in one run, cutting staff time on repetitive steps,
     so thinly staffed teams needing periodic exercises would try it first; this is inference from capability,
     with no customer case or retention evidence yet.
+- id: req-full-artexx-2026-10-17
+  project_slug: artexx
+  level: full
+  reviewed_at: '2026-10-17T01:09:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权攻防演练中重复探测与验证耗工时的问题，旧替代行为明确；买方与授权责任仍不清。
+    evidence_ids:
+    - ev-f4f57f8cf5c15b16
+    - ev-b87c1cda508bc349
+  - gate: consensus
+    status: insufficient
+    reason: 星数从六百余升至一千二百余，属关注度证据，不能证明安全团队已持续使用。
+    evidence_ids:
+    - ev-f4f57f8cf5c15b16
+    - ev-b87c1cda508bc349
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或商业交付路径，收入可能来自企业自建或服务化，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b87c1cda508bc349
+  - gate: truth
+    status: challenged
+    reason: 自主攻击的授权校验、安全边界与误伤责任在公开材料中未见说明，交付确定性存疑。
+    evidence_ids:
+    - ev-f4f57f8cf5c15b16
+  next_validation: 收集该项目的官方演示页与仓库文档，确认授权范围校验方式与一次测试的可复现输出样例。
+  market: ''
+  job: 安全团队在授权攻防演练或内部自查时，把自有系统交给这套 AI 代理，由代理自动完成探测与攻击尝试，最终要拿到可复核的漏洞结论用于整改。
+  job_en: During authorized exercises or internal self-checks, a security team hands its own systems to
+    AI agents that attempt probing and attacks, and needs reviewable vulnerability conclusions for remediation.
+  pain: 攻防演练依赖资深人员排期，覆盖面和频次受限，重复探测与逐条复现占用大量工时；公开材料只说明这是自主渗透测试系统，未提供用户抱怨或工时数据。
+  pain_en: Exercises depend on senior staff scheduling, limiting coverage and frequency, while repetitive
+    probing and one-by-one reproduction consume many hours; public material only describes an autonomous
+    pentest system, with no user complaints or time data.
+  current_alternative: 目前靠人工渗透测试、开源扫描器加人工验证，或外包安全服务。
+  current_alternative_en: Today this relies on manual penetration testing, open-source scanners plus human
+    verification, or outsourced security services.
+  usage_reason: 相较扫描器只给疑似清单、人工逐条复现，它让代理把探测到验证串成一次运行，减少安全人员在重复步骤上的投入，因此人手有限但需定期演练的团队会先试用；这是基于产品能力的推断，尚无客户案例或留存证据。
+  usage_reason_en: Compared with scanners producing suspected-issue lists that humans reproduce one by
+    one, it lets agents chain probing to verification in one run, cutting staff time on repetitive steps,
+    so thinly staffed teams needing periodic exercises would try it first; this is inference from capability,
+    with no customer case or retention evidence yet.

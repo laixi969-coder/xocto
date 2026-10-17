@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/503504.html
 summary: 未来十年共创1000个AI课题
 first_seen: '2026-10-17T00:31:00Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

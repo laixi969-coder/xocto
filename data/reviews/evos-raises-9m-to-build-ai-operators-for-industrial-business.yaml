@@ -1,0 +1,81 @@
+- id: req-initial-evos-raises-9m-to-build-ai-operators-for-industrial-business-2026-10-17
+  project_slug: evos-raises-9m-to-build-ai-operators-for-industrial-business
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料未说明它解决什么需求、什么痛点，无法还原旧流程与交付。
+    evidence_ids:
+    - ev-40ea90aca0b21b5b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资标题，无客户采用或场景共识证据。
+    evidence_ids:
+    - ev-40ea90aca0b21b5b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，付费路径不明。
+    evidence_ids:
+    - ev-40ea90aca0b21b5b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付确定性与人工边界，材料仅支持融资事实。
+    evidence_ids:
+    - ev-40ea90aca0b21b5b
+  next_validation: 检索 Evos 官方产品页或客户案例，确认其接管的具体运营环节与交付结果。
+  market: ''
+  job: 工业企业在日常运营调度中，把订单、库存或运输数据交给 AI 代理，由其执行运营操作并输出处理结果。
+  job_en: Industrial businesses hand order, inventory or shipping data to an AI operator during daily
+    operations, which executes operational tasks and returns processed results.
+  pain: 候选材料只有融资事实，未说明工业企业当前在哪一步受阻、由谁手工处理，痛点强度无法确认。
+  pain_en: The candidate only states the funding fact, without describing where industrial firms are currently
+    blocked or who handles the work manually, so pain intensity cannot be confirmed.
+  current_alternative: 候选未提供现有替代方式的信息。
+  current_alternative_en: The candidate provides no information on current alternatives.
+  usage_reason: 材料未披露产品替代了哪一步旧操作或改善哪项可核对结果，无法给出使用理由。
+  usage_reason_en: The material does not disclose which legacy step the product replaces or which verifiable
+    result it improves, so no usage reason can be given.
+- id: req-full-evos-raises-9m-to-build-ai-operators-for-industrial-business-2026-10-17
+  project_slug: evos-raises-9m-to-build-ai-operators-for-industrial-business
+  level: full
+  reviewed_at: '2026-10-17T01:10:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只有融资标题，未说明工业企业当前在哪一步受阻、由谁手工处理、不解决的后果，也未还原旧流程与交付闭环，需求与痛点均无法写出。
+    evidence_ids:
+    - ev-a9e0de8d2fcf8086
+    - ev-6e4e061c89e73e1a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索 Evos 官网产品页或官方客户案例，确认其接管的具体运营环节、输入数据与交付结果。
+  market: ''
+  job: 工业企业运营人员在日常调度中，把订单、库存或运输数据交给 AI 运营代理，由其代为执行运营操作并返回处理结果；具体接管哪一步、人工如何复核，公开材料未说明。
+  job_en: Industrial operations staff hand order, inventory or shipping data to an AI operator during
+    daily scheduling, which executes operational tasks and returns results; which step it takes over and
+    how humans review it are not stated in public material.
+  pain: 公开材料只有融资标题，未说明工业企业当前在哪一步受阻、由谁手工处理、出错或延误的后果是什么，痛点强度无法还原。
+  pain_en: Public material contains only a funding headline; it does not say where industrial firms are
+    currently blocked, who handles the work manually, or what errors or delays cost, so pain intensity
+    cannot be reconstructed.
+  current_alternative: 候选未提供现有替代方式的信息，无法判断旧做法是人工排产、ERP 模块还是外包调度。
+  current_alternative_en: The candidate provides no information on current alternatives, so it is impossible
+    to tell whether the legacy approach is manual scheduling, ERP modules, or outsourced dispatch.
+  usage_reason: 材料未披露产品替代了哪一步旧操作、减少哪项负担或改善哪项可核对结果，无法给出用户选择它的因果解释。
+  usage_reason_en: The material does not disclose which legacy step the product replaces, which burden
+    it reduces, or which verifiable result it improves, so no causal reason for adoption can be given.

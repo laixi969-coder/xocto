@@ -1,0 +1,86 @@
+- id: req-initial-ps5lm-2026-10-17
+  project_slug: ps5lm
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把闲置主机算力用于本地推理的需求，痛点偏爱好者而非刚性生产任务，不用它也有 PC 与云端替代。
+    evidence_ids:
+    - ev-39c42106c7a8a6a2
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度说明有人关注，但没有采用、留存或复购证据支撑持续使用。
+    evidence_ids:
+    - ev-39c42106c7a8a6a2
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、付费路径或商业交付方式，买方不清。
+    evidence_ids:
+    - ev-39c42106c7a8a6a2
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明可用模型规模、性能与越狱合规边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-39c42106c7a8a6a2
+  next_validation: 查看该仓库的 README 与 issue/discussion，确认支持的模型规模、实测性能与已知限制。
+  market: ''
+  job: 已越狱 PS5 的玩家或本地推理爱好者，在不想调用云端 API、又想让手头主机跑模型时，用 llama.cpp 加载 GGUF 模型，在主机上直接得到本地生成的文本输出。
+  job_en: A jailbroken-PS5 owner or local-inference hobbyist who wants to run a model on the console without
+    calling a cloud API loads a GGUF model via llama.cpp and gets locally generated text output on the
+    device.
+  pain: 想本地跑模型的人通常需要额外购置显卡或开发板；把已有主机闲置算力用起来可以省下这笔硬件支出，但越狱本身有风险与门槛。
+  pain_en: People who want local inference usually must buy a GPU or dev board; reusing an existing console's
+    idle compute avoids that hardware spend, though jailbreaking carries risk and friction.
+  current_alternative: 旧做法是在 PC 或开发板上装 llama.cpp、Ollama 等本地推理环境，或直接使用云端 API。
+  current_alternative_en: The old route is installing llama.cpp or Ollama on a PC or dev board, or simply
+    using a cloud API.
+  usage_reason: 推断：它把本地推理搬到已有主机上，省去额外购置推理硬件的步骤，因此会吸引已越狱、且在意离线与零 API 成本的玩家尝试；但缺少留存与重复使用证据，尚不能说明它进入稳定工作流。
+  usage_reason_en: 'Inference: it moves local inference onto hardware users already own, removing the
+    step of buying inference hardware, which attracts jailbroken-console owners who care about offline
+    use and zero API cost; without retention or repeat-use evidence it cannot be said to sit in a stable
+    workflow.'
+- id: req-full-ps5lm-2026-10-17
+  project_slug: ps5lm
+  level: full
+  reviewed_at: '2026-10-17T01:12:58Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把闲置主机算力用于本地推理的需求，痛点偏爱好者而非刚性生产任务，不用它也有 PC 与云端替代，属于没有也行。
+    evidence_ids:
+    - ev-39c42106c7a8a6a2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查看该仓库 README 与 issue/discussion，确认支持的模型规模、实测性能与已知限制。
+  market: ''
+  job: 已越狱 PS5 的玩家或本地推理爱好者，在不想调用云端 API、又想让手头主机跑模型时，用 llama.cpp 加载 GGUF 模型，在主机上直接得到本地生成的文本输出。
+  job_en: A jailbroken-PS5 owner or local-inference hobbyist who wants to run a model on the console without
+    calling a cloud API loads a GGUF model via llama.cpp and gets locally generated text output on the
+    device.
+  pain: 想本地跑模型的人通常需要额外购置显卡或开发板；把已有主机闲置算力用起来可以省下这笔硬件支出，但越狱本身有风险与门槛，且主机算力并非为推理设计。
+  pain_en: People who want local inference usually must buy a GPU or dev board; reusing an existing console's
+    idle compute avoids that hardware spend, though jailbreaking carries risk and friction, and console
+    compute is not designed for inference.
+  current_alternative: 旧做法是在 PC 或开发板上装 llama.cpp、Ollama 等本地推理环境，或直接使用云端 API。
+  current_alternative_en: The old route is installing llama.cpp or Ollama on a PC or dev board, or simply
+    using a cloud API.
+  usage_reason: 推断：它把本地推理搬到已有主机上，省去额外购置推理硬件的步骤，因此会吸引已越狱、且在意离线与零 API 成本的玩家尝试；但缺少留存与重复使用证据，尚不能说明它进入稳定工作流。
+  usage_reason_en: 'Inference: it moves local inference onto hardware users already own, removing the
+    step of buying inference hardware, which attracts jailbroken-console owners who care about offline
+    use and zero API cost; without retention or repeat-use evidence it cannot be said to sit in a stable
+    workflow.'

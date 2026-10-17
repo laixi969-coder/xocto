@@ -1,0 +1,86 @@
+- id: req-initial-tetriz-harness-2026-10-17
+  project_slug: tetriz-harness
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决团队经验转成代理配置的问题，但公开材料未说明谁在什么节点打开、处理什么材料、交付什么，痛点与旧流程都写不出来。
+    evidence_ids:
+    - ev-5299c0abb69d0edc
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且无任何采用、评价或使用数据可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-5299c0abb69d0edc
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料未披露定价、买方或收费方式，无法判断钱从哪一方来。
+    evidence_ids:
+    - ev-5299c0abb69d0edc
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近该工作的第一性目标，也无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-5299c0abb69d0edc
+  next_validation: 抓取该产品官方页面的功能说明或文档，确认它接收什么输入、产出什么交付物，以及是否已有团队使用案例。
+  market: ''
+  job: 工程团队在把内部经验交给 AI 编码代理时，需要把团队已积累的做法整理成代理可用的配置，让成员拿到统一的代理设置。
+  job_en: When handing internal experience to AI coding agents, engineering teams need to turn accumulated
+    practice into agent-usable configuration so members get a consistent agent setup.
+  pain: 公开材料只给出一句定位，未说明团队现在如何手工维护代理配置、这一步耗时多少、出错后果是什么，痛点强度无法判断。
+  pain_en: The public material gives only a one-line positioning and does not say how teams currently
+    maintain agent configuration by hand, how long it takes, or what failure costs, so pain intensity
+    cannot be judged.
+  current_alternative: 推断为团队各自维护提示词与规则文件、靠文档或口头传递，但公开材料未描述任何现有替代行为。
+  current_alternative_en: Inferred as each member maintaining their own prompts and rule files, passed
+    along via docs or word of mouth, but no existing alternative behaviour is described in the public
+    material.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担，因为公开材料未交代输入、动作与交付；仅凭一句定位不足以判断用户为何选择它。
+  usage_reason_en: Cannot explain which step of burden is reduced versus the old way, because the public
+    material does not describe input, action or deliverable; a one-line positioning is not enough to judge
+    why users would choose it.
+- id: req-full-tetriz-harness-2026-10-17
+  project_slug: tetriz-harness
+  level: full
+  reviewed_at: '2026-10-17T01:13:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决团队经验转成代理配置的问题，但公开材料未说明谁在什么节点打开、处理什么材料、交付什么，痛点与旧流程都写不出来。
+    evidence_ids:
+    - ev-5299c0abb69d0edc
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该产品官方页面的功能说明或文档，确认它接收什么输入、产出什么交付物，以及是否已有团队使用案例。
+  market: ''
+  job: 工程团队在把内部经验、规范或踩坑记录交给 AI 编码代理时，需要把这些做法整理成代理可用的配置，让成员拿到统一的代理设置。
+  job_en: When handing internal experience, conventions or pitfall notes to AI coding agents, engineering
+    teams need to turn these practices into agent-usable configuration so members get a consistent agent
+    setup.
+  pain: 公开材料只有一句定位，未说明团队现在如何手工维护代理配置、这一步耗时多少、出错后果是什么，痛点强度无法判断。
+  pain_en: The public material offers only a one-line positioning and does not say how teams currently
+    maintain agent configuration by hand, how long it takes, or what failure costs, so pain intensity
+    cannot be judged.
+  current_alternative: 推断为团队各自维护提示词与规则文件、靠文档或口头传递，但公开材料未描述任何现有替代行为。
+  current_alternative_en: Inferred as each member maintaining their own prompts and rule files, passed
+    along via docs or word of mouth, but no existing alternative behaviour is described in the public
+    material.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担，因为公开材料未交代输入、动作与交付；仅凭一句定位不足以判断用户为何选择它。
+  usage_reason_en: Cannot explain which step of burden is reduced versus the old way, because the public
+    material does not describe input, action or deliverable; a one-line positioning is not enough to judge
+    why users would choose it.

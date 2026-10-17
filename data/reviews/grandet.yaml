@@ -1,0 +1,86 @@
+- id: req-initial-grandet-2026-10-17
+  project_slug: grandet
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是同一模型跨供应商价差大、比价与接入费时的需求，痛点具体且已有开发者用脚投票的迹象。
+    evidence_ids:
+    - ev-57d5e6231bb0f5d1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 218 星与少量 fork，说明有开发者关注，但没有使用反馈或案例证明它被持续放进接入流程。
+    evidence_ids:
+    - ev-57d5e6231bb0f5d1
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价或收费路径，钱可能来自托管服务、企业版或节省分成，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-57d5e6231bb0f5d1
+  - gate: truth
+    status: challenged
+    reason: 价格来自 1,800 多家含中转商的挂牌价，中转商本身可能虚标或随时失效，比价结果的可信度与责任边界未说明。
+    evidence_ids:
+    - ev-57d5e6231bb0f5d1
+  next_validation: 查看 Grandet 仓库的 issue 与 discussion，确认价格数据更新机制以及用户对中转商可靠性的反馈。
+  market: ''
+  job: AI 应用开发者或后端工程师在给产品接入某个模型时，需要决定走哪家供应商，并在成本与稳定性之间做取舍。
+  job_en: An AI application developer or backend engineer wiring a model into a product needs to decide
+    which provider to route through, trading off cost against reliability.
+  pain: 同一模型在官方、推理平台和中转商之间价差大且经常变动，逐个查价、比价、切换接入方式很费时，选错还会影响稳定性。
+  pain_en: The same model is priced very differently across official, inference and relay providers and
+    prices change often; checking, comparing and switching integrations is time-consuming, and a bad pick
+    hurts reliability.
+  current_alternative: 目前靠人工查各家定价页、看社区汇总表，或直接固定用一家供应商，很少持续比价。
+  current_alternative_en: Today this is manual price-page checking, community comparison sheets, or simply
+    locking into one provider with little ongoing comparison.
+  usage_reason: 推断：相较人工查价再改代码，它把比价和接入合成一步，开发者只需指定模型即可拿到最低价连接，因此对推理成本敏感、模型切换频繁的团队会在新项目接入或成本优化时选择它。
+  usage_reason_en: 'Inference: versus manually checking prices and editing code, it merges comparison
+    and connection into one step, so developers who are cost-sensitive and switch models often would pick
+    it when starting a new integration or cutting inference spend.'
+- id: req-full-grandet-2026-10-17
+  project_slug: grandet
+  level: full
+  reviewed_at: '2026-10-17T01:10:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决同一模型跨官方、推理与中转商价差大、比价与接入费时的需求，痛点具体；公开说明已还原输入模型、比价、直连的闭环，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-57d5e6231bb0f5d1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 218 星说明有开发者关注，但公开材料没有使用反馈、案例或重复调用证据，无法确认它被持续放进接入流程，关注度不等于采用。
+    evidence_ids:
+    - ev-57d5e6231bb0f5d1
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价或收费路径，钱可能来自托管服务、企业版或节省分成，这是判断不是已验证事实；谁付钱尚未在公开材料中核验。
+    evidence_ids:
+    - ev-57d5e6231bb0f5d1
+  - gate: truth
+    status: challenged
+    reason: 价格来自 1,800 多家含中转商的挂牌价，中转商可能虚标或随时失效，比价结果的可信度、更新频率与责任边界均未说明，交付确定性存疑。
+    evidence_ids:
+    - ev-57d5e6231bb0f5d1
+  next_validation: 查看 Grandet 仓库的 issue 与 discussion，确认价格数据更新机制以及用户对中转商可靠性的反馈。
+  market: ''
+  job: AI 应用开发者或后端工程师在给产品接入某个模型时，需要决定走哪家供应商，并在成本与稳定性之间做取舍。
+  job_en: An AI application developer or backend engineer wiring a model into a product needs to decide
+    which provider to route through, trading off cost against reliability.
+  pain: 同一模型在官方、推理平台和中转商之间价差大且经常变动，逐个查价、比价、切换接入方式很费时，选错还会影响稳定性。
+  pain_en: The same model is priced very differently across official, inference and relay providers and
+    prices change often; checking, comparing and switching integrations is time-consuming, and a bad pick
+    hurts reliability.
+  current_alternative: 目前靠人工查各家定价页、看社区汇总表，或直接固定用一家供应商，很少持续比价。
+  current_alternative_en: Today this is manual price-page checking, community comparison sheets, or simply
+    locking into one provider with little ongoing comparison.
+  usage_reason: 推断：相较人工查价再改代码，它把比价和接入合成一步，开发者只需指定模型即可拿到最低价连接，因此对推理成本敏感、模型切换频繁的团队会在新项目接入或成本优化时选择它。
+  usage_reason_en: 'Inference: versus manually checking prices and editing code, it merges comparison
+    and connection into one step, so developers who are cost-sensitive and switch models often would pick
+    it when starting a new integration or cutting inference spend.'

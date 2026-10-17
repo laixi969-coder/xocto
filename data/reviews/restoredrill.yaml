@@ -24,3 +24,48 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-restoredrill-2026-10-17
+  project_slug: restoredrill
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决备份可用性无法确认的问题，痛点发生在数据丢失这一高代价后果上，旧做法是人工恢复演练或不做演练。
+    evidence_ids:
+    - ev-cffda55bba124ef1
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量中等，但没有团队持续演练、替换现有流程或付费采用的公开证据。
+    evidence_ids:
+    - ev-cffda55bba124ef1
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或企业采购信息，钱可能来自托管服务或支持合同，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cffda55bba124ef1
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明验证覆盖哪些恢复场景、失败如何报告、是否需人工确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-cffda55bba124ef1
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它验证哪些恢复场景、如何报告失败，以及是否有团队把它纳入例行演练。
+  market: ''
+  job: 运维与数据库工程师在备份策略上线或例行演练时，面对 Postgres 备份文件，要确认这些备份在需要时真的能恢复。
+  job_en: SRE and database engineers, during backup rollout or routine drills, work with Postgres backup
+    files to confirm those backups can actually be restored when needed.
+  pain: 备份任务显示成功并不等于可恢复，恢复失败往往在真正出事时才暴露，代价是数据丢失与业务中断；这是从工具定位推导的痛点，材料未提供事故案例。
+  pain_en: A successful backup job does not mean a restorable backup, and restore failure often surfaces
+    only during a real incident, costing data loss and downtime; this pain is inferred from the tool's
+    positioning, not from incident cases in the material.
+  current_alternative: 现有做法是人工定期把备份恢复到测试库、依赖备份软件的校验报告，或干脆不做演练；这是行业通行做法的推断。
+  current_alternative_en: Current practice is manually restoring backups into a test database, trusting
+    backup software verification reports, or skipping drills altogether; this is an inference about common
+    practice.
+  usage_reason: 相较人工搭测试库恢复，它把恢复验证变成可重复执行的一步，直接给出备份能否还原的结论，因此需要定期恢复演练的运维团队会在备份上线或合规检查前选择它；这属于基于产品能力的推断。
+  usage_reason_en: Compared with manually standing up a test database, it turns restore verification into
+    a repeatable step that directly reports whether a backup can be restored, so operations teams needing
+    periodic drills may adopt it before backup rollout or compliance checks; this is an inference from
+    product capability.

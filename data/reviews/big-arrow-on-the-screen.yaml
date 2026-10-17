@@ -278,3 +278,50 @@
     is click-through and self-erasing, removing manual cleanup and tool switching; so Mac developers already
     running Claude Code / Codex during demos or walkthroughs would pick it when they need to point at
     a screen location in the moment.'
+- id: req-full-big-arrow-on-the-screen-2026-10-17
+  project_slug: big-arrow-on-the-screen
+  level: full
+  reviewed_at: '2026-10-17T01:09:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决讲解时指向屏幕位置的需求：口头描述让观众找不到焦点，鼠标圈画打断节奏，截图标注要事后补做。仓库说明提供一键 CLI、点击穿透、自动消失的交付闭环，属工作流结构推理，痛点刚性中等但交付可确定。
+    evidence_ids:
+    - ev-8611ab9a1e3d9415
+    - ev-7ca5901266500a70
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 672 增至 770 属关注度证据，能说明有人关注，但缺少用户评价、issue 或客户案例来证明它被持续留在演示工作流里。
+    evidence_ids:
+    - ev-8611ab9a1e3d9415
+    - ev-bc05ef5ae8495f13
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且未披露定价页，买方与付费路径不清；可能靠捐赠、赞助或作为引流工具，这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-8611ab9a1e3d9415
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺点击穿透与自动消失，但未见部署文档或实测记录核对标注在真实讲解中是否稳定出现、是否遮挡操作，人工确认边界不明。
+    evidence_ids:
+    - ev-8611ab9a1e3d9415
+    - ev-abc41b7c1bc7337a
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认实际使用场景、标注在讲解中的稳定性以及是否有人报告持续使用。
+  market: ''
+  job: 开发者在用 Claude Code 或 Codex 做演示、讲解或录屏时，让 AI 代理在 Mac 屏幕上直接画出箭头、方框和文字，指向正在说明的界面位置。
+  job_en: Developers running Claude Code or Codex demos or walkthroughs let the AI agent draw arrows,
+    boxes and text directly on the Mac screen to point at the UI location being explained.
+  pain: 讲解时口头描述位置容易让观众找不到焦点，鼠标圈画会打断讲解节奏且难以精确指向，截图后加标注又需要离开当前屏幕、事后补做。
+  pain_en: Verbal position descriptions leave the audience hunting for focus, mouse circling interrupts
+    the narration and is imprecise, and screenshot-then-annotate forces leaving the live screen and doing
+    it after the fact.
+  current_alternative: 讲解者用鼠标临时圈画、截图后加标注，或纯口头描述位置。
+  current_alternative_en: Presenters circle with the mouse on the fly, annotate screenshots afterwards,
+    or describe positions verbally.
+  usage_reason: 推断：相较鼠标圈画或截图标注，它让 AI 代理在讲解当下直接落笔，标注可点击穿透且自动消失，省去离开屏幕、事后补标注这一步；经常做 AI 编码演示或录屏的开发者会在需要实时指向界面位置时选择它。
+  usage_reason_en: 'Inference: versus mouse circling or screenshot annotation, it lets the AI agent draw
+    at the moment of explanation, with click-through marks that vanish on their own, removing the leave-the-screen
+    and post-annotate step; developers who frequently demo or record AI coding sessions would pick it
+    when they need to point at UI locations in real time.'

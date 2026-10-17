@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE01STJ3SUUxV291
 summary: Muse走红撞上美股财报季 AI资本开支或迎来重新评估 财联社
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

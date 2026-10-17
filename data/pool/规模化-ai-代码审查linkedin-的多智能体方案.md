@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tMFpJcWhVcmlD
 summary: 规模化 AI 代码审查：LinkedIn 的多智能体方案 InfoQ-CN
 first_seen: '2026-08-28T07:37:17Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

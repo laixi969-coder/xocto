@@ -1023,3 +1023,47 @@
     in real Docker sandboxes, exchanges structured artifacts and forces human Approve at critical nodes,
     cutting the rollback and after-the-fact review step; developers already using coding agents who need
     reviewable, recoverable delivery are the likely adopters.'
+- id: req-full-approving-2026-10-17
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-10-17T01:09:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的部署文档与 issue/discussion，确认是否公开沙箱隔离边界、审批卡点的实际运行记录以及自托管部署的可复现步骤。
+  market: ''
+  job: 使用编码代理的工程团队在让 AI 修改真实代码库时，需要把代理放进隔离的 Docker 沙箱运行，在关键节点暂停等待人工批准，并保留可回滚、可审查的交付记录。
+  job_en: Engineering teams using coding agents need to run the agent in an isolated Docker sandbox when
+    it edits a real codebase, pause at critical nodes for human approval, and keep a reviewable, recoverable
+    delivery record.
+  pain: 编码代理直接在主仓库执行命令会带来不可控的破坏与难以审查的改动，团队缺少结构化产物和人工卡点，出问题后难以定位与回滚。公开材料只描述产品机制，未提供用户事故或抱怨，因此痛点强度属工作流结构推理。
+  pain_en: A coding agent running commands directly in the main repo can cause uncontrolled damage and
+    hard-to-review diffs; teams lack structured artifacts and human checkpoints, making failures hard
+    to locate and roll back. Public materials describe only the mechanism, not user incidents, so pain
+    intensity is a workflow inference.
+  current_alternative: 旧做法是让代理直接在本地或 CI 里跑命令，靠人工盯屏、git 分支与事后 code review 兜底，或用通用 CI 流水线加脚本做隔离。
+  current_alternative_en: The old way is letting the agent run commands locally or in CI, relying on a
+    human watching the screen, git branches and after-the-fact code review, or a generic CI pipeline with
+    scripts for isolation.
+  usage_reason: 推断：相较人工盯屏加事后 review，它把代理放进真实 Docker 沙箱、以结构化产物交换结果，并在关键节点强制暂停等人批准，从而减少事后追查改动来源和回滚失败步骤的负担；因此让编码代理接触生产级代码库、又必须保留人工审批与可恢复记录的团队会在该情境下选择它。公开材料无用户反馈，故为推断。
+  usage_reason_en: 'Inference: versus watching the screen plus after-the-fact review, it runs the agent
+    in a real Docker sandbox, exchanges structured artifacts, and forces a pause for human approval at
+    critical nodes, cutting the burden of tracing change provenance and rolling back failed steps; teams
+    that let coding agents touch production-grade repos while requiring human approval and recoverable
+    records would choose it. No user feedback is public, so this is an inference.'

@@ -130,3 +130,51 @@
     tool loading and cold memory inside the on-device agent, so users need not babysit consumption or
     restart sessions mid-run; Android users running long chained tasks would pick it when they need a
     bounded long run. No retention or payment evidence is provided.'
+- id: req-full-rikkahub-agent-pure-2026-10-17
+  project_slug: rikkahub-agent-pure
+  level: full
+  reviewed_at: '2026-10-17T01:13:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决安卓端长时间代理任务失控与用量不可控的需求，痛点是超支与中断，旧做法是通用客户端事后查看消耗；这是基于产品说明与工作流结构的推理，非用户采用数据。
+    evidence_ids:
+    - ev-54f6b33bc66492d0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从40升至48，仅属关注度证据，不能证明持续采用；无用户评价、issue 或案例说明共识卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-54f6b33bc66492d0
+    - ev-56c01461ed7ce777
+  - gate: model
+    status: insufficient
+    reason: 候选材料未披露定价、买方或收入方式，开源项目可能靠捐赠或社区维护；to C 或 to B 付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-54f6b33bc66492d0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对预算上限、冷记忆与专家子代理在真实长任务中的交付确定性，以及 Shizuku/Termux 高权限下的安全与人工确认边界。
+    evidence_ids:
+    - ev-54f6b33bc66492d0
+  next_validation: 追踪该仓库 releases 与 issue/discussion，核对用量账本、预算上限与长任务交付的实际表现及用户反馈。
+  market: ''
+  job: 在安卓设备上运行长时间 AI 代理任务的用户（如用 Shizuku/Termux/MCP 串联工具调用的开发者），在需要控制用量与预算的情况下，处理链式工作流与工具调用，完成可长期运行且不失控的任务执行。
+  job_en: Users running long AI agent tasks on Android (e.g. developers chaining tool calls via Shizuku/Termux/MCP)
+    need to handle chained workflows and tool calls while controlling usage and budget, completing task
+    runs that survive long sessions without going out of control.
+  pain: 长时间运行的设备端代理容易中途失控、token 与工具调用消耗不可预期，用户难以在执行前设定上限、在执行中掌握用量，事后才发现超支或任务中断。
+  pain_en: Long-running on-device agents easily go off the rails mid-run, with unpredictable token and
+    tool-call consumption; users cannot set limits before execution or track usage during it, and only
+    discover overspend or aborted tasks afterwards.
+  current_alternative: 现有做法是使用通用安卓代理客户端（如原版 rikkahub），缺少用量账本与预算约束，工具全量加载，只能事后查看消耗，长任务靠人工盯着。
+  current_alternative_en: Current practice is generic Android agent clients (such as the upstream rikkahub)
+    without a usage ledger or budget limits, with all tools loaded at once, consumption visible only after
+    the fact, and long tasks watched manually.
+  usage_reason: 推断：相较通用客户端事后查看消耗，它把用量账本与预算上限、按需工具加载、专家子代理与冷记忆直接放进设备端代理，减少长任务中途超支或上下文膨胀导致中断这一步负担，因此跑长链工作流的安卓用户会在需要预算约束时选它；候选材料未提供留存或付费证据。
+  usage_reason_en: 'Inference: unlike generic clients that only show consumption after the fact, it puts
+    a usage ledger with budget caps, on-demand tool loading, expert sub-agents and cold memory directly
+    into the on-device agent, removing the burden of mid-run overspend or context bloat aborting long
+    tasks, so Android users running long chains would pick it when budget constraints matter; no retention
+    or payment evidence is provided.'

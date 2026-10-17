@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE83aDV4UDF3S1ZZ
 summary: 腾讯云声明：AI智能体越狱事件属意外，与混元无关，已加强控制与监控 凤凰网
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

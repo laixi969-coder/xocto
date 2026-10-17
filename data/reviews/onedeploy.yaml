@@ -1,0 +1,81 @@
+- id: req-initial-onedeploy-2026-10-17
+  project_slug: onedeploy
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只知它托管应用，说不清替代哪一步旧工作与不用的后果，价值关未过。
+    evidence_ids:
+    - ev-ce6af2a0de1fc0af
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有 24 点与 11 条评论，无采用证据。
+    evidence_ids:
+    - ev-ce6af2a0de1fc0af
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，定价与买方均未披露。
+    evidence_ids:
+    - ev-ce6af2a0de1fc0af
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，备份与证书的交付确定性无法判断。
+    evidence_ids:
+    - ev-ce6af2a0de1fc0af
+  next_validation: 收集 OneDeploy 官网的定价与支持应用清单，确认托管范围、备份与 TLS 的实际交付方式。
+  market: ''
+  job: 独立开发者或小团队在把开源应用放到线上给用户使用时，要完成部署、备份和证书配置，让服务稳定可访问。
+  job_en: Independent developers or small teams putting an open-source app online for users must complete
+    deployment, backups and certificate setup so the service stays reachable.
+  pain: 候选材料只说明它托管应用并带备份与 TLS，没有说明用户现在具体卡在哪一步、失败会付出什么代价，痛点无法从公开事实还原。
+  pain_en: The material only says it hosts apps with backups and TLS, not where users get stuck or what
+    failure costs them, so the pain cannot be reconstructed from public facts.
+  current_alternative: 可能自行租用云主机并手工配置，或使用其他托管平台，但候选未给出任何替代行为的描述。
+  current_alternative_en: Possibly renting a cloud host and configuring it by hand, or using another hosting
+    platform, but the candidate describes no alternative behaviour.
+  usage_reason: 推断：若它确实把备份与证书一并处理，开发者会在不想自己维护服务器时试用；但缺少具体动作与结果证据，无法说明为何被持续选择。
+  usage_reason_en: 'Inference: if it really handles backups and certificates together, developers might
+    try it when they do not want to maintain servers; without concrete action or outcome evidence, there
+    is no basis to say why it would be chosen repeatedly.'
+- id: req-full-onedeploy-2026-10-17
+  project_slug: onedeploy
+  level: full
+  reviewed_at: '2026-10-17T01:12:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只知它托管开源应用并带夜间备份与 TLS，说不清替代哪一步旧工作、不用的后果是什么，用户任务与痛点无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-ce6af2a0de1fc0af
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 OneDeploy 官网的定价页与支持应用清单，确认托管范围、备份与 TLS 的实际交付方式。
+  market: ''
+  job: 独立开发者或小团队在把开源应用放到线上给用户使用时，要完成部署、夜间备份和 TLS 证书配置，让服务稳定可访问。
+  job_en: Independent developers or small teams putting an open-source app online for users must complete
+    deployment, nightly backups and TLS certificate setup so the service stays reachable.
+  pain: 候选材料只有一句产品说明，没有说明用户现在具体卡在哪一步、失败会付出什么代价，痛点无法从公开事实还原。
+  pain_en: The candidate offers only a one-line product description and does not say where users get stuck
+    or what failure costs them, so the pain cannot be reconstructed from public facts.
+  current_alternative: 可能自行租用云主机手工配置，或使用其他托管平台，但候选未给出任何替代行为的描述。
+  current_alternative_en: Possibly renting a cloud host and configuring it by hand, or using another hosting
+    platform, but the candidate describes no alternative behaviour.
+  usage_reason: 推断：若它确实把备份与证书一并处理，开发者会在不想自己维护服务器时试用；但缺少具体动作与结果证据，无法说明为何被持续选择。
+  usage_reason_en: 'Inference: if it really handles backups and certificates together, developers might
+    try it when they do not want to maintain servers; without concrete action or outcome evidence, there
+    is no basis to say why it would be chosen repeatedly.'

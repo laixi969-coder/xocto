@@ -177,3 +177,51 @@
     measured ElevenLabs v4, ffmpeg and whisper parameters into a repeatable procedure, cutting trial-and-error
     and manual editing, so voice-character or companion-content creators consult it when they need stable
     continuous speech; no sustained-use or payment evidence appears.'
+- id: req-full-ai-voice-breath-kiss-water-2-2026-10-17
+  project_slug: ai-voice-breath-kiss-water-2
+  level: full
+  reviewed_at: '2026-10-17T01:08:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 语音角色成品不自然、听众出戏的问题，痛点具体到重复语句、音调跳变、呼吸与话量，旧做法是反复试听与手工剪辑，不解决则成品无法直接发布；这是基于公开实测记录的工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 40 缓慢升至 52，属关注度而非采用证据；未见用户评价、issue 或复现记录，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+    - ev-f60abd1b527f06aa
+  - gate: model
+    status: insufficient
+    reason: 公开材料只有开源实测记录，无定价页与买方信息；钱可能来自内容创作者自用或服务化交付，这是判断而非已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明参数流程在他人设备与素材上能否稳定复现，也未涉及语音克隆授权、安全与人工审核边界，交付确定性尚未核验。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+  next_validation: 追踪该仓库的 issue/discussion 与后续提交，确认外部创作者是否复现参数流程并用于实际发布。
+  market: ''
+  job: 做 AI 语音角色或情感陪伴内容的创作者，在拿到配音脚本与 ElevenLabs 生成的语音素材后，用 ffmpeg 与 whisper 逐条排查并调整重复语句、音调跳变、呼吸节奏与话量，最终交付一段可发布的自然连续语音。
+  job_en: Creators building AI voice characters or companion content take a dubbing script and ElevenLabs-generated
+    voice assets, then use ffmpeg and whisper to inspect and adjust doubled lines, pitch jumps, breathing
+    rhythm and speech volume, delivering a publishable stretch of natural continuous speech.
+  pain: 公开材料点名的痛点是合成语音一句话说两遍、音调一截一截跳、喘气多而不演、话量不均、内容重样；这些缺陷直接暴露在成品里，让角色显得假、听众出戏，而创作者此前只能靠反复试听和手工剪辑去猜。
+  pain_en: 'The public material names concrete defects: lines spoken twice, pitch jumping in steps, breathing
+    that is excessive rather than performed, uneven speech volume and repetitive content. These show up
+    directly in the finished audio, making the character feel fake and breaking immersion, while creators
+    previously had to guess through repeated listening and manual editing.'
+  current_alternative: 旧做法是反复试听、手工剪辑音频、逐条重生成语音，靠个人经验试参数，耗时且难以稳定复现。
+  current_alternative_en: The old way is repeated listening, manual audio editing and clip-by-clip regeneration,
+    tuning parameters by personal experience, which is slow and hard to reproduce consistently.
+  usage_reason: 推断：相较逐条重生成与手工剪辑，它把 ElevenLabs v4、ffmpeg、whisper 的实测参数和处理步骤固定成可照做的流程，创作者据此直接定位并修掉重复语句、音调跳变与呼吸节奏问题，减少试听和重生成轮次；因此做语音角色或陪伴内容、且需要稳定产出的人会在调音阶段参考它。材料未显示持续使用或付费证据。
+  usage_reason_en: 'Inference: compared with clip-by-clip regeneration and manual editing, it fixes measured
+    ElevenLabs v4, ffmpeg and whisper parameters and steps into a repeatable procedure, letting creators
+    locate and fix doubled lines, pitch jumps and breathing rhythm directly and cutting listening and
+    regeneration rounds; creators producing voice-character or companion content who need stable output
+    would consult it at the tuning stage. No sustained-use or payment evidence appears.'

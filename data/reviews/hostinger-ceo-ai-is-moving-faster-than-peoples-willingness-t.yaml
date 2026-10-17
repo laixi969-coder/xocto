@@ -1,0 +1,101 @@
+- id: req-initial-hostinger-ceo-ai-is-moving-faster-than-peoples-willingness-t-2026-10-17
+  project_slug: hostinger-ceo-ai-is-moving-faster-than-peoples-willingness-t
+  level: initial
+  reviewed_at: '2026-10-17T00:31:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非技术创业者把生意搬到线上时被服务器配置和建站细节卡住的问题，旧流程有明确的手工步骤和外包成本，痛点刚性且交付物是可访问站点。
+    evidence_ids:
+    - ev-b519761f7a3bfa58
+  - gate: consensus
+    status: insufficient
+    reason: 采访只给出 CEO 对采用意愿落后于技术的判断，没有客户案例、使用数据或第三方评价，无法确认非技术用户是否真的按这条路径完成上线。
+    evidence_ids:
+    - ev-b519761f7a3bfa58
+  - gate: model
+    status: insufficient
+    reason: Hostinger 已有托管订阅这一付费路径，但本次材料未披露 AI 建站功能的定价、计费方式或转化数据，买方与收入结构属于判断而非已验证事实。
+    evidence_ids:
+    - ev-b519761f7a3bfa58
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 生成内容是否需要人工复核、出错时站点与合规责任如何界定，交付的确定性缺少可核对依据。
+    evidence_ids:
+    - ev-b519761f7a3bfa58
+  next_validation: 收集 Hostinger 官方 AI 建站功能的定价页或产品文档，确认计费方式、包含的生成范围与人工确认环节。
+  market: ''
+  job: 非技术创业者和小微企业主在要把一个生意放到线上时，处理域名、主机、建站模板和商品信息这些材料，目标是在不雇开发者的前提下拿到一个能收款、能对外访问的站点。
+  job_en: Non-technical founders and small-business owners putting a business online handle domains, hosting,
+    site templates and product information, aiming to end up with a reachable, payment-capable site without
+    hiring a developer.
+  pain: 旧流程里装 WordPress 要上传文件、建数据库、逐项配置，出错就整站打不开；不会技术的人只能雇人或者放弃上线，时间与金钱成本都落在最不懂技术的人身上。
+  pain_en: In the old workflow, installing WordPress meant uploading files, creating a database and configuring
+    each item, and one mistake could take the whole site down; people without technical skill had to hire
+    someone or give up on launching, with the time and money cost falling on those least equipped to handle
+    it.
+  current_alternative: 当前替代是托管主机的一键安装、外包给建站工作室或自由开发者，以及用通用建站 SaaS 自己拖拽模板；这些方式要么仍要自己判断配置，要么把改动交到别人手里、按次付费。
+  current_alternative_en: Current alternatives are one-click installs on managed hosting, outsourcing
+    to a site studio or freelance developer, and drag-and-drop templates in generic site-building SaaS;
+    these either still require the user to judge configuration or hand changes to someone else on a per-job
+    basis.
+  usage_reason: 推断：相较一键安装后仍要自己选主题、配插件、写文案，Hostinger 把生成与托管放在同一账户里，用户描述生意即可得到可访问站点，省掉的是“装完之后还要找人做内容与配置”这一步；因此已经付过托管费、又不想再雇人的小商家会在首次上线或改版时选它。
+  usage_reason_en: 'Inference: compared with a one-click install that still leaves the user choosing themes,
+    configuring plugins and writing copy, Hostinger keeps generation and hosting in one account so a described
+    business yields a reachable site, removing the step of finding someone to do content and configuration
+    after install; small merchants already paying for hosting who do not want to hire again would choose
+    it at first launch or a redesign.'
+- id: req-full-hostinger-ceo-ai-is-moving-faster-than-peoples-willingness-t-2026-10-17
+  project_slug: hostinger-ceo-ai-is-moving-faster-than-peoples-willingness-t
+  level: full
+  reviewed_at: '2026-10-17T01:11:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非技术创业者把生意搬到线上时被服务器配置与建站细节卡住的问题，公开材料还原了上传文件、建数据库、逐项配置的旧流程与雇人成本，交付物是可访问站点，痛点刚性、交付可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-72e1e863b1eadbd8
+    - ev-7a53cf2a3bcf5b60
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 CEO 关于采用意愿落后于技术的判断与官网自述，没有客户案例、第三方评价或使用数据，无法确认非技术用户是否真按这条路径完成上线并持续使用。
+    evidence_ids:
+    - ev-72e1e863b1eadbd8
+    - ev-7a53cf2a3bcf5b60
+  - gate: model
+    status: insufficient
+    reason: 官网已给出含免费域名、SSL、邮箱与 30 天退款的托管订阅，付费路径存在；但 AI 建站功能的定价、计费方式与转化数据未披露，买方与收入结构属判断而非已验证事实。
+    evidence_ids:
+    - ev-7a53cf2a3bcf5b60
+    - ev-72e1e863b1eadbd8
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 生成内容是否需人工复核、出错时站点与合规责任如何界定，也未给出部署文档或可复现实测，交付确定性缺少可核对依据。
+    evidence_ids:
+    - ev-72e1e863b1eadbd8
+  next_validation: 追踪 Hostinger 官方 AI 建站功能的定价页或产品文档，确认计费方式、生成范围与人工确认环节。
+  market: ''
+  job: 非技术创业者与小微企业主在要把一门生意放到线上时，处理域名、主机、站点模板与商品信息这些材料，目标是在不雇开发者的前提下拿到一个可访问、能对外营业的站点。
+  job_en: Non-technical founders and small-business owners putting a business online handle domains, hosting,
+    site templates and product information, aiming to end up with a reachable, operating site without
+    hiring a developer.
+  pain: 公开材料明确描述旧流程：装 WordPress 要上传文件、建数据库、逐项配置，不会技术的人只能雇人或放弃上线；CEO 也承认技术跑得比用户采用意愿快，说明门槛仍真实存在。
+  pain_en: 'Public material describes the old workflow explicitly: installing WordPress meant uploading
+    files, creating a database and configuring each item, so non-technical people had to hire someone
+    or give up; the CEO also concedes technology is moving faster than people''s willingness to adopt,
+    so the barrier is real.'
+  current_alternative: 当前替代是托管主机的一键安装、外包给建站工作室或自由开发者，以及用通用建站 SaaS 自己拖拽模板；这些方式要么仍要自己判断配置，要么把改动交到别人手里按次付费。
+  current_alternative_en: Current alternatives are one-click installs on managed hosting, outsourcing
+    to a site studio or freelance developer, and drag-and-drop templates in generic site-building SaaS;
+    these either still require the user to judge configuration or hand changes to someone else on a per-job
+    basis.
+  usage_reason: 推断：相较一键安装后仍要自己选主题、配插件、写文案，Hostinger 把生成与托管放在同一账户里，用户描述生意即可得到可访问站点，省掉的是“装完之后还要找人做内容与配置”这一步；因此已付托管费、又不想再雇人的小商家会在首次上线或改版时选它。
+  usage_reason_en: 'Inference: compared with a one-click install that still leaves the user choosing themes,
+    configuring plugins and writing copy, Hostinger keeps generation and hosting in one account so a described
+    business yields a reachable site, removing the step of finding someone to do content and configuration
+    after install; small merchants already paying for hosting who do not want to hire again would choose
+    it at first launch or a redesign.'

@@ -129,3 +129,48 @@
   usage_reason_en: 'Inference: versus buying a Mac or renting cloud devices, it uses a roughly $7 ESP32
     to supply both AirPlay video and USB HID touch, removing the developer-account and jailbreak step,
     so budget-constrained teams doing frequent on-device checks would pick it locally.'
+- id: req-full-esp32-iphone-agent-2026-10-17
+  project_slug: esp32-iphone-agent
+  level: full
+  reviewed_at: '2026-10-17T01:10:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决真机自动化门槛高的问题：以往需要 Mac、开发者账号或越狱，现在用约 7 美元硬件桥接画面与触控，痛点具体、旧替代行为明确，属工作流结构推理。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 767 增至 2853，属关注度而非持续采用；尚无团队把它留在测试流程或回归用例中的公开记录。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+    - ev-7eaf7abbeab1cd47
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，谁付钱、按设备还是按任务收费属判断而非已验证事实，也未出现企业采购或支持服务记录。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  - gate: truth
+    status: insufficient
+    reason: 缺少稳定性、复现率与安全边界说明，模型误操作真机的风险与人工确认环节未在公开材料中交代。
+    evidence_ids:
+    - ev-14de1c1329c0d0d1
+  next_validation: 追踪该仓库的 issue 与 discussion，确认真机操作稳定性、复现率及是否已有团队将其用于回归测试。
+  market: ''
+  job: 移动应用测试或自动化工程师在需要复现真机点击、滑动与界面观察流程时，处理的是真实 iPhone 的屏幕画面与触控输入，要完成可重复的真机操作任务。
+  job_en: Mobile app testers or automation engineers reproducing tap, swipe and screen-observation flows
+    on a real iPhone, working with on-device screen video and touch input to complete repeatable device
+    operations.
+  pain: 真机自动化通常依赖 Mac、开发者账号或越狱，硬件与授权成本高，小团队难以低成本搭起真机操作回路；云真机按次租用又难以长期高频使用。
+  pain_en: Real-device automation usually requires a Mac, a developer account or a jailbreak, so hardware
+    and authorization costs are high for small teams; cloud device farms charge per session and are hard
+    to use at high frequency.
+  current_alternative: 现有做法是购买 Mac 加真机跑 Appium/XCTest 自动化，或使用云真机平台按次租用设备。
+  current_alternative_en: Current practice is buying a Mac plus devices for Appium/XCTest automation,
+    or renting devices per session from cloud device farms.
+  usage_reason: 推断：相较买 Mac 或租云真机，它用约 7 美元的 ESP32 同时提供 AirPlay 画面与 USB HID 触控，省去开发者账号和越狱这一步，因此预算有限、需要频繁本地真机验证的小团队会在回归测试时选择它。
+  usage_reason_en: 'Inference: versus buying a Mac or renting cloud devices, it uses a roughly $7 ESP32
+    to supply both AirPlay video and USB HID touch, removing the developer-account and jailbreak step,
+    so budget-constrained teams doing frequent local on-device regression checks would pick it.'

@@ -1,0 +1,89 @@
+- id: req-initial-trueloyal-puts-loyalty-program-data-inside-any-ai-assistant-2026-10-17
+  project_slug: trueloyal-puts-loyalty-program-data-inside-any-ai-assistant
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决忠诚度运营取数要排队等报表的需求，痛点是数据分散且业务人员不会查询，结构上成立。
+    evidence_ids:
+    - ev-3cae28599404bccc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇报道标题，未见客户采用、评价或社区讨论，共识环节卡在感知与场景验证。
+    evidence_ids:
+    - ev-3cae28599404bccc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自品牌方按数据源或查询量付费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3cae28599404bccc
+  - gate: truth
+    status: insufficient
+    reason: 接入哪些数据源、答案是否可核对、人工确认边界均未披露，交付确定性无法判断。
+    evidence_ids:
+    - ev-3cae28599404bccc
+  next_validation: 收集 TrueLoyal 官方产品页或定价页，确认接入的数据源类型、计价方式与是否披露客户案例。
+  market: ''
+  job: 零售或品牌的忠诚度运营人员在需要查看会员积分、兑换与活动效果时，向 AI 助手提问取数，替代等待数据团队出报表。
+  job_en: Loyalty operations staff at retailers or brands ask an AI assistant for member points, redemption
+    and campaign performance instead of waiting for a data team report.
+  pain: 忠诚度数据分散在多个系统，业务人员不会写查询，取数要排队等报表，决策被拖慢。
+  pain_en: Loyalty data sits across multiple systems, business staff cannot write queries, and data pulls
+    queue behind report requests, slowing decisions.
+  current_alternative: 向数据团队提需求、等 BI 报表，或自己导出表格手工汇总。
+  current_alternative_en: Requesting from the data team and waiting for BI reports, or exporting spreadsheets
+    and aggregating manually.
+  usage_reason: 推断：相较等报表的旧做法，业务人员直接在助手内提问即可拿到会员与活动数据，省去提需求、排队和手工汇总这几步，因此忠诚度运营或会员营销团队在临时复盘活动时会选择它；公开材料未提供用户反馈或客户案例，动机仍属推断。
+  usage_reason_en: 'Inference: compared with waiting for reports, staff can ask inside the assistant and
+    get member and campaign data, removing the request, queue and manual aggregation steps, so loyalty
+    or membership marketing teams would choose it for ad hoc campaign reviews; no user feedback or customer
+    cases are public, so the motivation remains an inference.'
+- id: req-full-trueloyal-puts-loyalty-program-data-inside-any-ai-assistant-2026-10-17
+  project_slug: trueloyal-puts-loyalty-program-data-inside-any-ai-assistant
+  level: full
+  reviewed_at: '2026-10-17T01:13:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决忠诚度运营取数要排队等报表的需求，痛点是数据分散、业务人员不会查询、临时复盘被拖慢；不解决的后果是决策滞后，旧替代是提需求等 BI 或手工导表，结构推理成立。
+    evidence_ids:
+    - ev-3cae28599404bccc
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇报道标题说明产品定位，未见客户采用、用户评价或社区讨论，共识环节卡在感知与场景验证，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-3cae28599404bccc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自品牌方按数据源或查询量付费，这是判断而非已验证事实，公开材料无采购或付费记录。
+    evidence_ids:
+    - ev-3cae28599404bccc
+  - gate: truth
+    status: insufficient
+    reason: 接入哪些数据源、答案是否可核对、人工确认边界均未披露，交付确定性无法判断，也未说明与通用助手的差异。
+    evidence_ids:
+    - ev-3cae28599404bccc
+  next_validation: 追踪 TrueLoyal 官方产品页或定价页，确认接入的数据源类型、计价方式与是否披露客户案例。
+  market: ''
+  job: 零售或品牌的忠诚度运营人员在需要复盘会员积分、兑换与活动效果时，把忠诚度计划数据接入日常使用的 AI 助手，直接提问取数，替代向数据团队提需求等报表。
+  job_en: Loyalty operations staff at retailers or brands, when reviewing member points, redemption and
+    campaign performance, connect loyalty program data into the AI assistant they already use and ask
+    questions directly instead of filing a request and waiting for a data team report.
+  pain: 忠诚度数据分散在多个系统，业务人员不会写查询，取数要排队等报表，临时复盘和活动调整被拖慢；公开材料只给出这一痛点方向，未提供用户抱怨或案例佐证。
+  pain_en: Loyalty data sits across multiple systems, business staff cannot write queries, and data pulls
+    queue behind report requests, slowing ad hoc reviews and campaign adjustments; public material only
+    indicates this pain direction without user complaints or cases.
+  current_alternative: 向数据团队提需求、等 BI 报表，或自己从后台导出表格手工汇总。
+  current_alternative_en: Filing requests with the data team and waiting for BI reports, or exporting
+    spreadsheets from the backend and aggregating manually.
+  usage_reason: 推断：相较等报表的旧做法，产品把忠诚度数据接入用户已在用的 AI 助手，业务人员用自然语言提问即可拿到会员与活动数据，省去提需求、排队和手工汇总这几步，因此忠诚度运营或会员营销团队在临时复盘活动时会选择它；公开材料未提供用户反馈或客户案例，动机仍属推断。
+  usage_reason_en: 'Inference: compared with waiting for reports, the product puts loyalty data inside
+    the AI assistant users already use, so staff can ask in natural language and get member and campaign
+    data, removing the request, queue and manual aggregation steps; loyalty or membership marketing teams
+    would choose it for ad hoc campaign reviews. No user feedback or customer cases are public, so the
+    motivation remains an inference.'

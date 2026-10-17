@@ -282,3 +282,45 @@
   usage_reason_en: Without user feedback or customer cases, there is no explanation of which step Bops
     reduces or which checkable result it improves versus the old approach; adoption motive cannot be inferred
     from feature descriptions alone.
+- id: req-full-bops-2026-10-17
+  project_slug: bops
+  level: full
+  reviewed_at: '2026-10-17T01:09:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图让 AI 机器人代发邮件、打电话、操作网页系统，但公开证据全是同名冰淇淋店、TikTok 标签和无关 Reddit 版块，没有任何运营或行政人员对这类事务的痛点、频率或替代行为，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-ac60a59bca0abc2c
+    - ev-39fa4d0d0d0a53d3
+    - ev-f63b207766c7726f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bops.bot 官网的定价页、客户案例或部署文档，确认是否存在真实运营/行政团队使用该产品并替代原有流程的公开记录。
+  market: ''
+  job: 小团队运营或行政人员把需要发邮件、打电话、在网页系统里操作的日常事务交给 Bops 的多个 AI 机器人，每个机器人有自己的电脑、邮箱和电话号码，期望这些事务被代为执行。
+  job_en: Ops or admin staff at small teams hand off routine tasks that require sending email, making
+    calls, and operating web systems to Bops' AI bots, each with its own computer, email address, and
+    phone number, expecting the work to be carried out on their behalf.
+  pain: 公开证据中没有出现任何运营或行政人员对这类事务的抱怨、耗时描述或既有替代行为，无法确认痛点是否存在及其刚性。
+  pain_en: The public evidence contains no complaints, time-cost descriptions, or existing workarounds
+    from ops or admin staff about such tasks, so the pain point and its rigidity cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前如何完成这些事务，也未说明 Bops 实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently complete these tasks or what
+    old approach Bops actually replaces.
+  usage_reason: 缺少用户反馈或客户案例，无法解释相较旧做法 Bops 减少了哪一步负担或改善了哪项可核对结果；现有证据与产品能力无关。
+  usage_reason_en: Without user feedback or customer cases, there is no explanation of which step Bops
+    reduces or which checkable result it improves versus the old approach; the available evidence is unrelated
+    to the product's capability.

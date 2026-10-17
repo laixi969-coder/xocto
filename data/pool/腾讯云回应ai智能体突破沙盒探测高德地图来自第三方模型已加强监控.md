@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ1ZIVV9oRkYt
 summary: 腾讯云回应AI智能体突破沙盒探测高德地图：来自第三方模型，已加强监控 搜狐
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -139,3 +139,51 @@
     building Persian-language agent apps would pick it first when they need Iranian local services; there
     is no public call volume, integration case or retention evidence, so long-term reliance cannot be
     confirmed.'
+- id: req-full-awesome-iran-mcp-2026-10-17
+  project_slug: awesome-iran-mcp
+  level: full
+  reviewed_at: '2026-10-17T01:09:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理无法访问伊朗本地平台数据的问题：开发者要让代理查询商品、价格与预订信息，而这些平台没有代理接口，旧做法是逐个平台写爬虫，痛点与替代行为具体，属工作流结构推理。
+    evidence_ids:
+    - ev-d1a9c4128ca4ff65
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 65 增至 109，属关注度而非采用证据；公开材料未见调用方、集成案例或开发者讨论，无法判断是否形成稳定使用共识。
+    evidence_ids:
+    - ev-d1a9c4128ca4ff65
+    - ev-3a13591ff843a2ab
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业路径；钱可能来自商家接入费、按调用分成或赞助，这是判断不是已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-d1a9c4128ca4ff65
+  - gate: truth
+    status: insufficient
+    reason: 接口涉及本地平台账号、支付与个人数据，公开材料未说明鉴权方式、人工确认边界与合规约束，承诺能否确定性交付尚不可核对。
+    evidence_ids:
+    - ev-d1a9c4128ca4ff65
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认各 MCP 服务器实际覆盖的动作范围、鉴权方式，以及是否有外部项目声明接入使用。
+  market: ''
+  job: 做波斯语/伊朗市场 AI 代理应用的开发者，在需要让代理查询 Digikala、Snappfood、Jabama、MrBilit、Paziresh24、Taaghche 等伊朗本地平台的商品、价格（托曼计价）、外卖、出行、医疗预约和电子书信息时，把这些站点接成代理可调用的
+    MCP 工具，完成查询与预订类任务。
+  job_en: Developers building Persian-language/Iranian-market agent apps need their agents to query products,
+    prices (in Toman), food delivery, travel, medical appointments and ebooks on Iranian platforms such
+    as Digikala, Snappfood, Jabama, MrBilit, Paziresh24 and Taaghche, by wiring these sites into agent-callable
+    MCP tools to complete lookup and booking tasks.
+  pain: 这些伊朗本地平台没有面向 AI 代理的接口，代理要么完全查不到，要么只能靠逐个平台写爬虫和手工拼装，价格、库存与预约状态无法稳定获取，开发者每接一个平台都要重复适配一遍。
+  pain_en: These Iranian platforms have no agent-facing interfaces, so agents either cannot reach them
+    at all or rely on per-platform scrapers and hand-built glue; prices, stock and booking status are
+    unreliable, and developers must re-adapt for every platform they add.
+  current_alternative: 开发者自己为每个平台写爬虫或脚本，或让代理直接给出不准确的通用回答；也可以放弃接入这些本地平台。
+  current_alternative_en: Developers write one-off scrapers or scripts per platform, let the agent answer
+    generically and inaccurately, or give up on integrating these local platforms.
+  usage_reason: 推断：相较逐个平台自建爬虫，它把 19 个服务的 308 个工具统一成代理可直接调用的 MCP 接口，省掉每个平台单独适配这一步，因此做波斯语市场代理应用的开发者会优先接入；公开材料只有仓库星标（65→109），没有调用量、集成案例或留存证据，是否被长期留在工作流里无法确认。
+  usage_reason_en: 'Inference: versus building a scraper per platform, it unifies 308 tools across 19
+    services into agent-callable MCP interfaces and removes per-platform adaptation, so developers building
+    Persian-language agent apps would adopt it first; public material shows only repository stars (65→109),
+    with no call volume, integration cases or retention evidence, so long-term reliance cannot be confirmed.'

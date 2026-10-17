@@ -1026,3 +1026,48 @@
     whether numbers reproduce and generate tables inside the same workflow, cutting the manual comparison
     and re-run step; researchers already using Claude Code/Codex for empirical work who must deliver reproducible
     results are the likely adopters.'
+- id: req-full-applied-micro-skills-2026-10-17
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-10-17T01:09:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README/发布说明与 issue、discussion，确认是否公开可复现的端到端示例（同一数据在不同环境产出相同论文表）及维护者声明的适用版本与人工复核边界。
+  market: ''
+  job: 应用微观经济学研究者（博士生、青年教师、RA）在拿到 WRDS/行政数据后，用 Stata 或 Python 跑事件研究、LLM 流水线等实证分析，最终产出可投稿的论文表格，并让合作者或审稿人能复现出同样的数字。
+  job_en: Applied-micro researchers (PhD students, junior faculty, RAs) take WRDS or administrative data,
+    run event studies and LLM pipelines in Stata or Python, and produce publication-grade tables whose
+    numbers a coauthor or referee can reproduce.
+  pain: 实证研究的痛点集中在复现与制表环节：数据清洗、样本筛选、回归设定和表格格式散落在脚本、日志与手工复制中，换台机器或换个人跑就出不来同一组数字；期刊与期刊的复现要求又要求把这条链路讲清楚。公开材料只给出产品能力，未提供用户抱怨或失败案例，因此痛点强度属工作流结构推理。
+  pain_en: 'The friction sits in reproduction and table-making: cleaning, sample filters, regression specs
+    and table formatting are scattered across scripts, logs and manual copy-paste, so a different machine
+    or person cannot reproduce the same numbers, while journals increasingly demand a reproducible chain.
+    Public materials show only product capability, not user complaints, so pain intensity is a workflow
+    inference.'
+  current_alternative: 旧做法是研究者自己维护 Stata do-file、R/Python 脚本、日志和手工排版的 LaTeX 表格，靠个人经验与口头交接保证复现；部分人用模板仓库或复制师兄师姐的代码。
+  current_alternative_en: The old way is self-maintained Stata do-files, R/Python scripts, logs and hand-formatted
+    LaTeX tables, with reproduction guaranteed by personal habit and verbal handoff; some reuse template
+    repos or a labmate's code.
+  usage_reason: 推断：相较手工维护脚本与表格，它把复现审计、LLM 流水线方法、事件研究与 WRDS/Stata 操作封装成可调用的技能，让研究者在同一套流程里从数据走到论文表，减少重新拼装脚本和核对数字的步骤；因此正在写实证论文、需要向合作者或期刊交付可复现结果的研究者会在该情境下选择它。公开材料尚无用户反馈或客户案例，故这是基于产品能力与任务结构的推断。
+  usage_reason_en: 'Inference: versus hand-maintained scripts and tables, it packages reproducibility
+    auditing, LLM-pipeline methods, event studies and WRDS/Stata operations into callable skills, letting
+    a researcher go from data to paper tables in one flow and cutting the steps of reassembling scripts
+    and re-checking numbers; researchers writing empirical papers who must hand reproducible results to
+    coauthors or journals would choose it in that situation. No user feedback or customer cases are '

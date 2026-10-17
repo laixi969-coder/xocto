@@ -1,0 +1,43 @@
+- id: req-initial-thunderphone-2026-10-17
+  project_slug: thunderphone
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业电话客服需要持续人力覆盖、重复来电占用坐席的问题，旧做法是自建坐席或定制语音项目，任务与痛点可还原。
+    evidence_ids:
+    - ev-08186e6d08038bb4
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句定位，没有客户案例、评价或使用数据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-08186e6d08038bb4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，推断钱可能来自按通话量或按结果计费的企业客户，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-08186e6d08038bb4
+  - gate: truth
+    status: insufficient
+    reason: 无法核对语音代理在真实通话中的交付确定性、人工转接边界与合规处理，公开材料未涉及。
+    evidence_ids:
+    - ev-08186e6d08038bb4
+  next_validation: 抓取该产品官方定价页或客户案例，确认按什么计价、是否有企业实际部署与人工转接机制。
+  market: ''
+  job: 企业在需要接听或外呼电话、又不想全靠人工坐席时，用自助方式搭建 AI 电话代理，最终拿到可接打电话的代理。
+  job_en: When companies need to answer or place calls without staffing every seat, they build AI phone
+    agents in a self-serve way and end up with agents that can handle calls.
+  pain: 电话客服需要持续排班、培训与人力覆盖，重复来电占用坐席时间；公开材料未给出具体耗时或成本数据，痛点强度属结构推理。
+  pain_en: Phone support requires continuous scheduling, training and staffing coverage, and repeat calls
+    consume agent time; the public material gives no specific time or cost figures, so pain intensity
+    is structural inference.
+  current_alternative: 推断为自建呼叫中心加人工坐席，或采购定制化语音机器人项目；公开材料未描述具体替代方式。
+  current_alternative_en: Inferred as in-house call centres with human agents, or bespoke voice-bot projects;
+    the public material does not describe the specific alternative.
+  usage_reason: 推断：相较自建坐席或定制项目，自助搭建把配置电话代理的动作从工程与外包环节移到业务方自己完成，减少一次定制交付的等待；哪类用户会选它、是否长期留在工作流中，公开材料未提供证据。
+  usage_reason_en: 'Inference: versus in-house seats or bespoke projects, self-serve building moves agent
+    configuration from engineering and outsourcing to the business side, removing one custom-delivery
+    wait; which users choose it and whether it stays in their workflow is not evidenced publicly.'

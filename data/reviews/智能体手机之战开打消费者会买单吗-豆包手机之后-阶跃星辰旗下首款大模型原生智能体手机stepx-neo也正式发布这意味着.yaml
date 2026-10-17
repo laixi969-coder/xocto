@@ -1,0 +1,94 @@
+- id: req-initial-智能体手机之战开打消费者会买单吗-豆包手机之后-阶跃星辰旗下首款大模型原生智能体手机stepx-neo也正式发布这意味着-2026-10-17
+  project_slug: 智能体手机之战开打消费者会买单吗-豆包手机之后-阶跃星辰旗下首款大模型原生智能体手机stepx-neo也正式发布这意味着
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨应用手动操作的琐碎负担，但公开材料未说明具体动作、交付与不采用的后果，痛点刚性无法判断。
+    evidence_ids:
+    - ev-97cef89ef3496b05
+  - gate: consensus
+    status: insufficient
+    reason: 报道只称智能体手机之战开启，未给出消费者认知、购买意愿或实际采用数据，共识卡在感知与场景环节。
+    evidence_ids:
+    - ev-97cef89ef3496b05
+  - gate: model
+    status: insufficient
+    reason: 未披露售价、出货量或商业模式，买方是换机消费者还是渠道商无法判断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-97cef89ef3496b05
+  - gate: truth
+    status: insufficient
+    reason: 无法核对智能体能否确定性完成跨应用任务，也未说明安全与人工确认边界，交付确定性存疑。
+    evidence_ids:
+    - ev-97cef89ef3496b05
+  next_validation: 收集 STEPX Neo 官方产品页或发布会材料，核对智能体可调起的应用范围、交付结果与售价。
+  market: ''
+  job: 手机用户在通勤、出差或购物时，需要在多个 App 之间切换完成订票、比价、整理通知等任务，希望由一个设备级智能体代为执行并给出结果。
+  job_en: While commuting, travelling or shopping, phone users must switch among multiple apps to book,
+    compare prices or triage notifications, and want a device-level agent to execute and return the result.
+  pain: 跨应用操作要反复切换、重复输入，步骤琐碎且容易中断；但公开材料没有说明这些痛点是否强到让用户换机，也没有任何用户抱怨或采用证据。
+  pain_en: Cross-app work means constant switching and re-entering, which is fragmented and easily interrupted;
+    yet public material does not show the pain is strong enough to trigger a device switch, and there
+    is no user complaint or adoption evidence.
+  current_alternative: 用户目前自己在各 App 内手动操作，或使用手机自带语音助手、快捷指令和第三方自动化工具完成部分步骤。
+  current_alternative_en: Users currently operate each app manually, or use built-in voice assistants,
+    shortcuts and third-party automation tools for parts of the flow.
+  usage_reason: 推断：若设备级智能体能直接调起各应用并完成跨应用动作，用户可省去逐 App 手动操作这一步，因此对高频跨应用任务的重度用户有吸引力；但报道未给出功能细节、售价或留存证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if a device-level agent can directly invoke apps and complete cross-app
+    actions, users skip the step of manually operating each app, which appeals to heavy users of frequent
+    cross-app tasks; however the report gives no feature detail, pricing or retention evidence, so selection
+    cannot be confirmed.'
+- id: req-full-智能体手机之战开打消费者会买单吗-豆包手机之后-阶跃星辰旗下首款大模型原生智能体手机stepx-neo也正式发布这意味着-2026-10-17
+  project_slug: 智能体手机之战开打消费者会买单吗-豆包手机之后-阶跃星辰旗下首款大模型原生智能体手机stepx-neo也正式发布这意味着
+  level: full
+  reviewed_at: '2026-10-17T01:14:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手机用户跨应用订票、比价、整理消息时反复切换与重复输入的琐碎负担，痛点刚性来自高频日常任务；公开材料确认发布与全栈定价3999元，但具体动作与交付细节仍属工作流结构推理。
+    evidence_ids:
+    - ev-1d3c4830e4365b27
+    - ev-542dd88549a39a0d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只确认STEPX品牌与Neo发布、全栈定价3999元及10月16日开售，未给出消费者认知、购买意愿或实际采用数据，共识卡在感知与场景环节。
+    evidence_ids:
+    - ev-1d3c4830e4365b27
+    - ev-542dd88549a39a0d
+  - gate: model
+    status: insufficient
+    reason: 全栈定价3999元与12个月每月百亿Token的Token Plan显示买方是换机消费者，属判断而非已验证付费事实；出货量、渠道分成与复购路径未披露。
+    evidence_ids:
+    - ev-542dd88549a39a0d
+  - gate: truth
+    status: insufficient
+    reason: 无法核对智能体能否确定性完成跨应用任务，也未说明安全与人工确认边界；仅确认Step AOS、Step Studio与Token Plan的整合定价，交付确定性待核验。
+    evidence_ids:
+    - ev-542dd88549a39a0d
+    - ev-1d3c4830e4365b27
+  next_validation: 追踪 STEPX 官网或发布会材料中 STEPX Neo 的智能体可调起应用范围、交付结果示例与人工确认边界说明。
+  market: ''
+  job: 手机用户在通勤、出差或购物等场景下，需要在多个 App 之间切换完成订票、比价、整理通知等日常任务，希望由设备级智能体代为执行跨应用操作并返回结果。
+  job_en: While commuting, travelling or shopping, phone users must switch among multiple apps to book,
+    compare prices or triage notifications, and want a device-level agent to execute cross-app actions
+    and return results.
+  pain: 跨应用操作要反复切换、重复输入，步骤琐碎且容易中断；公开材料只确认了发布与全栈定价，没有用户抱怨或采用数据，痛点刚性属工作流结构推理。
+  pain_en: Cross-app work means constant switching and re-entering, which is fragmented and easily interrupted;
+    public material only confirms the launch and full-stack pricing, with no user complaints or adoption
+    data, so pain rigidity is a workflow inference.
+  current_alternative: 用户目前自己在各 App 内手动操作，或使用手机自带语音助手、快捷指令和第三方自动化工具完成部分步骤。
+  current_alternative_en: Users currently operate each app manually, or use built-in voice assistants,
+    shortcuts and third-party automation tools for parts of the flow.
+  usage_reason: 推断：相较逐 App 手动操作，STEPX Neo 以 Step AOS 与 Step 系列模型在设备层调起应用并执行跨应用动作，省去用户逐个打开、重复输入这一步；对高频跨应用任务的重度用户，在已购机且
+    Token Plan 覆盖额度的情况下会优先选择它，但公开材料未给出功能细节与留存证据。
+  usage_reason_en: 'Inference: compared with manual per-app operation, STEPX Neo uses Step AOS and Step-series
+    models to invoke apps at the device layer and execute cross-app actions, removing the step of opening
+    and re-entering in each app; heavy users of frequent cross-app tasks who already own the device and
+    have Token Plan coverage would prefer it, though public material gives no feature detail or retention
+    evidence.'

@@ -88,3 +88,48 @@
   usage_reason_en: 'Inference: versus recording on a phone and organizing later, it compresses capture
     into one button press on the device and lands directly in Obsidian, removing the manual transfer step,
     so students who write often and want to avoid phone distraction would pick it in class.'
+- id: req-full-unidex-2026-10-17
+  project_slug: unidex
+  level: full
+  reviewed_at: '2026-10-17T01:14:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学生课堂记录与课表随身查看的需求，痛点具体：手机分心、手写慢、笔记事后要搬运；公开说明已能还原输入—动作—交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-c5ffacebc6d18b7d
+    - ev-f4a4d2fb47c41539
+    - ev-dea0e53bf3a5cd7a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标从 53 增至 70，属关注度信号，未见用户评价、客户案例或持续使用证据，卡在感知与场景验证环节。
+    evidence_ids:
+    - ev-c5ffacebc6d18b7d
+    - ev-0590271a802e5135
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径；硬件成本与是否收费均未披露，买方是学生个人还是学校属判断而非已验证事实。
+    evidence_ids:
+    - ev-c5ffacebc6d18b7d
+  - gate: truth
+    status: insufficient
+    reason: 语音转写准确度、Obsidian 同步是否确定性交付、离线能力均未在材料中说明，安全与人工确认边界待核验。
+    evidence_ids:
+    - ev-f4a4d2fb47c41539
+  next_validation: 收集该仓库 README、issue 与 discussion，确认语音转写与 Obsidian 同步的实际流程、是否离线运行及是否有真实用户使用反馈。
+  market: ''
+  job: 学生在课堂或自习时，用随身 Waveshare ESP32-S3 墨水屏设备查看与日历同步的课表，并口述笔记，最终把笔记同步进 Obsidian 整理。
+  job_en: A student in class or self-study uses a pocket Waveshare ESP32-S3 e-ink device to check a calendar-synced
+    timetable and dictate notes, ending with notes synced into Obsidian.
+  pain: 课堂上掏手机记笔记容易分心，手写又慢；课表散落在教务系统与日历里，随身查看不便，笔记事后还要手动搬运。
+  pain_en: Pulling out a phone to take notes in class is distracting and handwriting is slow; timetables
+    are scattered across school systems and calendars, and notes must be manually moved afterward.
+  current_alternative: 用手机备忘录或录音 App 记录，事后手动整理进 Obsidian；课表靠截图或日历 App 查看。
+  current_alternative_en: Recording in phone memo or voice apps and manually organizing into Obsidian
+    later; checking timetables via screenshots or calendar apps.
+  usage_reason: 推断：相较手机录音后手动整理，它把记录压缩成设备上的一次按键并直接落到 Obsidian，省去事后搬运这一步，因此常写笔记又不想被手机打断的学生会在课堂场景选择它。
+  usage_reason_en: 'Inference: versus recording on a phone and organizing later, it compresses capture
+    into one button press on the device and lands directly in Obsidian, removing the manual transfer step,
+    so students who write often and want to avoid phone distraction would pick it in class.'

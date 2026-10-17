@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOU0JZd01CdElE
 summary: 两大巨头入局！DeepSeek融资引爆AI圈|AI大模型|幻方量化|宁德时代|国资|模型 手机新浪网
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

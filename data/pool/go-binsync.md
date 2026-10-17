@@ -21,7 +21,7 @@ canonical_url: https://github.com/wjordan/go-binsync
 summary: Go binary patches up to 67× smaller than bsdiff
 first_seen: '2026-08-27T19:47:54Z'
 last_seen: '2026-08-28T06:07:17Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,7 @@ sightings:
   metrics:
     points: 5
     comments: 0
+  kind: product
 ---
 
 # go-binsync

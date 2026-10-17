@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DNEVuQUtsQzFr
 summary: 2026企业AI落地指南：FDE真实实践，数睿数据引领“AI价值交付”范式 砍柴网
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

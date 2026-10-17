@@ -1,0 +1,84 @@
+- id: req-initial-grablo-spot-2026-10-17
+  project_slug: grablo-spot
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是事后从长录像中定位特定人物或车辆的需求，人工回看慢且易漏，痛点具体；但检索准确率与部署门槛未核验。
+    evidence_ids:
+    - ev-6e71247038ee8e17
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、客户案例或采用数据，无法判断安防人员是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-6e71247038ee8e17
+  - gate: model
+    status: insufficient
+    reason: 标注为免费，但未说明按摄像头路数、存储还是检索量计费，买方是门店、物业还是集成商也不清楚，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-6e71247038ee8e17
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否本地部署、数据是否出设备、误检时人工如何复核，安防场景对隐私与误报边界要求高，这些缺口影响能否确定性交付。
+    evidence_ids:
+    - ev-6e71247038ee8e17
+  next_validation: 收集 Grablo Spot 官方定价页或部署文档，确认按什么计价、是否支持本地部署以及误检复核流程。
+  market: ''
+  job: 安防值班人员或门店店长在发生丢件、纠纷或事故后，需要从数小时甚至数天的监控录像里找出某个特定人物或车辆出现的片段。
+  job_en: A security operator or store manager, after a theft, dispute or incident, needs to locate the
+    clips where a specific person or vehicle appears within hours or days of footage.
+  pain: 人工拖时间轴逐段回看极慢，关键片段容易漏掉，事后取证往往已经错过时效。
+  pain_en: Manually scrubbing the timeline is extremely slow, key clips are easily missed, and evidence
+    is often gathered too late.
+  current_alternative: 目前多靠人工回放、按时间点猜测，或使用需要专门安装配置的传统 NVR 与视频分析软件。
+  current_alternative_en: Today this is mostly manual playback and guessing at timestamps, or traditional
+    NVR and video analytics software that requires dedicated installation and configuration.
+  usage_reason: 推断：相较人工逐段回看，它把检索动作从“拖时间轴”换成“描述要找的人或车”，直接跳过定位片段这一步，因此已有摄像头但缺少专职监控人力的门店和物业会在事后取证时选择它。
+  usage_reason_en: 'Inference: versus manual scrubbing, it replaces timeline dragging with describing
+    the person or vehicle to find, skipping the clip-location step, so stores and property managers with
+    cameras but no dedicated monitoring staff would pick it for after-the-fact evidence gathering.'
+- id: req-full-grablo-spot-2026-10-17
+  project_slug: grablo-spot
+  level: full
+  reviewed_at: '2026-10-17T01:10:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是事后从长录像中定位特定人物或车辆的需求，人工回看慢且易漏，痛点具体；但检索准确率与部署门槛未核验。
+    evidence_ids:
+    - ev-6e71247038ee8e17
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、客户案例或采用数据，无法判断安防人员是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-6e71247038ee8e17
+  - gate: model
+    status: insufficient
+    reason: 标注为免费，但未说明按摄像头路数、存储还是检索量计费，买方是门店、物业还是集成商也不清楚，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-6e71247038ee8e17
+  - gate: truth
+    status: insufficient
+    reason: 未说明是否本地部署、数据是否出设备、误检时人工如何复核，安防场景对隐私与误报边界要求高，这些缺口影响能否确定性交付。
+    evidence_ids:
+    - ev-6e71247038ee8e17
+  next_validation: 收集 Grablo Spot 官方定价页或部署文档，确认按什么计价、是否支持本地部署以及误检复核流程。
+  market: ''
+  job: 安防值班人员或门店店长在发生丢件、纠纷或事故后，需要从数小时甚至数天的监控录像里找出某个特定人物或车辆出现的片段。
+  job_en: A security operator or store manager, after a theft, dispute or incident, needs to locate the
+    clips where a specific person or vehicle appears within hours or days of footage.
+  pain: 人工拖时间轴逐段回看极慢，关键片段容易漏掉，事后取证往往已经错过时效。
+  pain_en: Manually scrubbing the timeline is extremely slow, key clips are easily missed, and evidence
+    is often gathered too late.
+  current_alternative: 目前多靠人工回放、按时间点猜测，或使用需要专门安装配置的传统 NVR 与视频分析软件。
+  current_alternative_en: Today this is mostly manual playback and guessing at timestamps, or traditional
+    NVR and video analytics software that requires dedicated installation and configuration.
+  usage_reason: 推断：相较人工逐段回看，它把检索动作从“拖时间轴”换成“描述要找的人或车”，直接跳过定位片段这一步，因此已有摄像头但缺少专职监控人力的门店和物业会在事后取证时选择它。
+  usage_reason_en: 'Inference: versus manual scrubbing, it replaces timeline dragging with describing
+    the person or vehicle to find, skipping the clip-location step, so stores and property managers with
+    cameras but no dedicated monitoring staff would pick it for after-the-fact evidence gathering.'

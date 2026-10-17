@@ -24,3 +24,47 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-filiz-2026-10-17
+  project_slug: filiz
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它是面向软件工程师的简历工具，无法说清用户在哪个节点卡住、不解决会失去什么，需求与痛点均未还原。
+    evidence_ids:
+    - ev-e20aaf0f157f9a03
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条低热度社区提交，无评论、无用户反馈，无法判断是否卡在感知、场景或利益环节。
+    evidence_ids:
+    - ev-e20aaf0f157f9a03
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；面向个人求职者还是招聘方均不明，付费路径无法判断。
+    evidence_ids:
+    - ev-e20aaf0f157f9a03
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近简历工作的第一性目标，也无交付确定性或人工确认边界的说明。
+    evidence_ids:
+    - ev-e20aaf0f157f9a03
+  next_validation: 抓取 filiz.app 官方页面，确认其输入材料、生成内容、交付形态与是否公开定价。
+  market: ''
+  job: 软件工程师在准备投递时，把分散在多个项目、仓库和过往岗位里的经历，整理成一份能通过筛选的简历。
+  job_en: A software engineer preparing to apply compiles experience scattered across projects, repositories
+    and past roles into a resume that can pass screening.
+  pain: 公开材料没有说明工程师在写简历时具体卡在哪一步，也没有用户抱怨、替代行为或采用证据，痛点无法从现有事实还原。
+  pain_en: The public material does not say which step engineers get stuck on when writing a resume, and
+    there are no user complaints, workarounds or adoption evidence, so the pain cannot be reconstructed
+    from available facts.
+  current_alternative: 公开材料未提及用户此前用什么方式写简历，常见替代（通用模板站、文档软件、他人代改）属于推断，未被候选证据支持。
+  current_alternative_en: The material does not mention what users used before; common alternatives (generic
+    template sites, word processors, help from others) are inference and are not supported by the candidate
+    evidence.
+  usage_reason: 无法给出因果解释：候选资料只有一句产品定位，既没有说明它相较旧做法减少了哪一步负担，也没有任何用户反馈或案例支持选择动机。
+  usage_reason_en: 'No causal explanation can be given: the candidate material is a single positioning
+    line, stating neither which step of the old process it removes nor any user feedback or case supporting
+    the choice.'

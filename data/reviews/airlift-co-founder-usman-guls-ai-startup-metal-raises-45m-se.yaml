@@ -1,0 +1,77 @@
+- id: req-initial-airlift-co-founder-usman-guls-ai-startup-metal-raises-45m-se-2026-10-17
+  project_slug: airlift-co-founder-usman-guls-ai-startup-metal-raises-45m-se
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连它解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-a97b3b64b2dbc5c5
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且无场景证据。
+    evidence_ids:
+    - ev-a97b3b64b2dbc5c5
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，买方与付费路径均未知。
+    evidence_ids:
+    - ev-a97b3b64b2dbc5c5
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，交付确定性无从判断。
+    evidence_ids:
+    - ev-a97b3b64b2dbc5c5
+  next_validation: 收集 Metal 官方产品页或种子轮公告，确认其目标客户、处理的具体材料与交付结果。
+  market: ''
+  job: 公开材料未说明 Metal 服务谁、在什么情况下处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: Public material does not say who Metal serves, in what situation, with what materials, or to
+    complete what task, so the job cannot be reconstructed.
+  pain: 公开材料未披露它针对的具体痛点，无法判断是刚性还是可选。
+  pain_en: Public material does not disclose the specific pain point, so whether it is rigid or optional
+    cannot be judged.
+  current_alternative: 公开材料未说明用户现在用什么方式完成同一件事。
+  current_alternative_en: Public material does not describe how users currently accomplish the same task.
+  usage_reason: 仅有融资事实，缺少产品能力与旧流程对比，无法解释用户为何选择它；这是判断，不是已验证事实。
+  usage_reason_en: Only the funding fact is available; without product capability or an old-workflow comparison,
+    why users would choose it cannot be explained; this is a judgment, not a verified fact.
+- id: req-full-airlift-co-founder-usman-guls-ai-startup-metal-raises-45m-se-2026-10-17
+  project_slug: airlift-co-founder-usman-guls-ai-startup-metal-raises-45m-se
+  level: full
+  reviewed_at: '2026-10-17T01:08:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连它解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-c87504960cd2bb81
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Metal 官方产品页或种子轮公告，确认其目标客户、处理的具体材料与交付结果。
+  market: ''
+  job: 公开材料未说明 Metal 服务谁、在什么情况下处理什么材料、要完成什么任务，使用场景无法还原。
+  job_en: Public material does not say who Metal serves, in what situation, with what materials, or to
+    complete what task, so the job cannot be reconstructed.
+  pain: 公开材料未披露它针对的具体痛点，无法判断是刚性还是可选。
+  pain_en: Public material does not disclose the specific pain point, so whether it is rigid or optional
+    cannot be judged.
+  current_alternative: 公开材料未说明用户现在用什么方式完成同一件事。
+  current_alternative_en: Public material does not describe how users currently accomplish the same task.
+  usage_reason: 仅有融资事实，缺少产品能力与旧流程对比，无法解释用户为何选择它；这是判断，不是已验证事实。
+  usage_reason_en: Only the funding fact is available; without product capability or an old-workflow comparison,
+    why users would choose it cannot be explained; this is a judgment, not a verified fact.

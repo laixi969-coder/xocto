@@ -24,7 +24,7 @@ summary: Amulya Vishwanath, who spent seven years leading product marketing for 
   that robotics, powered by a general foundation model, is about to have […]
 first_seen: '2026-10-17T00:31:00Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

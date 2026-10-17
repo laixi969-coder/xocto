@@ -1,0 +1,91 @@
+- id: req-initial-signwith-2026-10-17
+  project_slug: signwith
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决签署合同这类具体任务，但公开材料只有一句按份付费，说不清原来谁在什么情况下怎么做、卡在哪一步，痛点无法还原。
+    evidence_ids:
+    - ev-fd13c41a9165ee95
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：公开材料没有用户评价、客户案例或采用行为，无法判断谁已经认可这一方式。
+    evidence_ids:
+    - ev-fd13c41a9165ee95
+  - gate: model
+    status: insufficient
+    reason: 未进入：按份收费是唯一线索，买方是个人还是企业、是否已有实际付费均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-fd13c41a9165ee95
+  - gate: truth
+    status: insufficient
+    reason: 未进入：签署的法律效力、身份核验方式与人工确认边界均未说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-fd13c41a9165ee95
+  next_validation: 收集 SignWith 官方定价页或产品文档，确认按份计价的适用范围、签署法律效力与身份核验方式。
+  market: ''
+  job: 自由职业者或小团队负责人在需要签署合同、授权书等文件时，上传待签文档、指定签署方，完成一次电子签名并拿到已签署文件。
+  job_en: A freelancer or small-team lead who needs to sign a contract or authorization document uploads
+    the file, names the signers, completes one e-signature and receives the signed document.
+  pain: 公开材料只给出按份付费这一句，没有说明签署前要处理什么材料、卡在哪一步、不采用会失去什么，因此痛点无法从现有事实还原。
+  pain_en: The public material gives only the per-document pricing line; it does not say what material
+    must be handled before signing, where the friction is, or what is lost by not adopting, so the pain
+    cannot be reconstructed from available facts.
+  current_alternative: 公开材料未说明现有替代方式，按常识可能是年费制电子签名服务或打印后手写签署，但这两点均属推断，未经材料支持。
+  current_alternative_en: The public material does not state the current alternative; by common practice
+    it may be an annual-subscription e-signature service or printing and signing by hand, but both are
+    inference, not supported by the material.
+  usage_reason: 推断：若签署流程确实能按份完成且具备法律效力，低签署频次的用户会比年费席位制少付一笔固定成本，从而在偶尔签一份文件时选择它；但公开材料未说明 AI 具体做了什么、身份核验与法律效力如何保证，因此这一理由尚未被事实支持。
+  usage_reason_en: 'Inference: if the signing flow really completes per document and is legally valid,
+    low-frequency signers would avoid a fixed annual seat cost and choose it for the occasional document;
+    however the material does not say what AI does, nor how identity verification and legal validity are
+    assured, so this reason is not yet fact-supported.'
+- id: req-full-signwith-2026-10-17
+  project_slug: signwith
+  level: full
+  reviewed_at: '2026-10-17T01:13:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是低签署频次用户完成一次电子签名并拿到已签署文件的需求，痛点是年费席位制为偶尔一份文件承担固定订阅成本；按份计价直接对应这一结构，属工作流推理，公开材料仅一句定位，尚未有用户反馈佐证。
+    evidence_ids:
+    - ev-fd13c41a9165ee95
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品定位一句话，没有用户评价、客户案例或采用行为，无法判断谁已经认可按份签署这一方式，共识尚未形成。
+    evidence_ids:
+    - ev-fd13c41a9165ee95
+  - gate: model
+    status: insufficient
+    reason: 按份收费是唯一线索，买方是个人还是企业、单价与是否已有实际付费均未披露，钱可能来自 to C 自由职业者或 to B 小团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-fd13c41a9165ee95
+  - gate: truth
+    status: insufficient
+    reason: 签署的法律效力、身份核验方式与人工确认边界均未说明，承诺能否确定性交付无法核对，安全与合规边界缺少可复现的公开证据。
+    evidence_ids:
+    - ev-fd13c41a9165ee95
+  next_validation: 收集 SignWith 官方定价页或产品文档，确认按份计价的适用范围、签署法律效力与身份核验方式。
+  market: ''
+  job: 自由职业者或小团队负责人在需要签署合同、授权书等文件时，上传待签文档并指定签署方，完成一次电子签名并拿到已签署文件。
+  job_en: A freelancer or small-team lead who needs to sign a contract or authorization document uploads
+    the file, names the signers, completes one e-signature and receives the signed document.
+  pain: 公开材料只给出按份付费这一句，未说明签署前要处理什么材料、卡在哪一步；但低签署频次用户面对年费席位制电子签名服务时，为偶尔一份文件承担固定订阅成本，这一结构性痛点可从按份计价定位推断。
+  pain_en: The public material gives only the per-document pricing line and does not say what material
+    must be handled before signing or where the friction is; however, for low-frequency signers facing
+    annual seat-based e-signature services, paying a fixed subscription for an occasional document is
+    a structural pain inferable from the per-document positioning.
+  current_alternative: 公开材料未说明现有替代方式；按行业常识可能是年费席位制电子签名服务或打印后手写签署，这两点均属推断，未经材料支持。
+  current_alternative_en: Public material does not state the current alternative; by industry practice
+    it may be an annual seat-based e-signature service or printing and signing by hand, both inference
+    rather than supported fact.
+  usage_reason: 推断：相较年费席位制旧做法，按份计价把固定订阅成本换成单次支出，低签署频次的自由职业者或小团队在偶尔签一份合同时会因此选择它；但公开材料未说明 AI 具体介入环节、身份核验与法律效力如何保证，这一理由尚未被事实支持。
+  usage_reason_en: 'Inference: compared with annual seat-based services, per-document pricing replaces
+    a fixed subscription with a one-off cost, so low-frequency freelancers or small teams signing an occasional
+    contract would choose it; however the material does not say what AI does or how identity verification
+    and legal validity are assured, so this reason is not yet fact-supported.'

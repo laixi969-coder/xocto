@@ -1,0 +1,80 @@
+- id: req-initial-parallax-2026-10-17
+  project_slug: parallax
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多代理分散、状态难查的需求，痛点结构成立，但公开材料只有一句定位，无法确认替代了哪一步旧操作。
+    evidence_ids:
+    - ev-f1438d7ce241f1fb
+  - gate: consensus
+    status: insufficient
+    reason: 没有采用、评价或社区讨论证据，无法判断开发者是否真的把它作为日常入口。
+    evidence_ids:
+    - ev-f1438d7ce241f1fb
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方说明，个人开发者还是团队付费无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f1438d7ce241f1fb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对集中查看后能否可靠控制代理、是否有人工确认边界，交付确定性未核验。
+    evidence_ids:
+    - ev-f1438d7ce241f1fb
+  next_validation: 收集 Parallax 官方产品页或文档，确认它集中管理编码代理的具体动作、支持范围与是否公布定价。
+  market: ''
+  job: 开发者在同时使用多个编码代理时，打开一个统一界面查看各代理的会话与状态，以便决定继续哪一个。
+  job_en: A developer using several coding agents at once opens one interface to view each agent's session
+    and state in order to decide which to continue.
+  pain: 代理分散在不同工具和窗口里，状态与进度要逐个切换查看，容易漏掉某个代理的失败或停滞。
+  pain_en: Agents live in different tools and windows, so status and progress must be checked one by one,
+    and a failed or stalled agent is easily missed.
+  current_alternative: 现在靠多个 IDE 窗口、终端或各代理自带界面分别查看，再凭记忆判断哪个还在跑。
+  current_alternative_en: Today people check separate IDE windows, terminals or each agent's own interface,
+    and rely on memory to know which one is still running.
+  usage_reason: 推断：若它把多个编码代理的会话集中到一个界面，就省掉了逐个窗口切换查看状态这一步，同时跑多个代理的开发者会因此选择它；但公开材料只有一句定位，集中后能做什么未核验。
+  usage_reason_en: 'Inference: if it gathers several coding agents'' sessions into one interface, it removes
+    the step of switching windows to check status, which is why developers running multiple agents would
+    pick it; but public material is one positioning line and what the consolidation enables is unverified.'
+- id: req-full-parallax-2026-10-17
+  project_slug: parallax
+  level: full
+  reviewed_at: '2026-10-17T01:12:47Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决多编码代理分散、状态难查的问题，但公开材料只有一句定位语，无法还原输入、动作、交付与不解决的后果，连需求和痛点都写不实。
+    evidence_ids:
+    - ev-284a01c49c56c41f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Parallax 官方产品页或文档，确认它集中管理编码代理的具体动作、支持范围与是否公布定价。
+  market: ''
+  job: 开发者同时运行多个编码代理时，打开一个统一界面查看各代理的会话与状态，以决定继续哪一个。
+  job_en: A developer running several coding agents at once opens one interface to view each agent's session
+    and state in order to decide which to continue.
+  pain: 公开材料只有一句定位语，无法确认代理分散带来的具体痛点、频率与不解决的后果。
+  pain_en: Public material is a single positioning line, so the specific pain, frequency and cost of leaving
+    multi-agent sprawl unsolved cannot be confirmed.
+  current_alternative: 公开材料未说明当前替代方式，无法确认开发者现在靠多窗口、终端还是各代理自带界面分别查看。
+  current_alternative_en: Public material does not describe the current alternative, so it is unknown
+    whether developers check separate windows, terminals or each agent's own interface.
+  usage_reason: 公开材料未提供任何用户反馈或采用证据，无法说明用户为何选择它；缺少可引用的产品说明，连推断依据都不足。
+  usage_reason_en: No user feedback or adoption evidence is public, so why users would choose it cannot
+    be stated; there is not even a citable product description to base an inference on.

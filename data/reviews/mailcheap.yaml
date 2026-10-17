@@ -86,3 +86,51 @@
   usage_reason_en: 'Inference: it changes the billing basis from total subscribers to actual sends, directly
     removing the step of paying for dormant names, so creators with large but low-open lists would consider
     it first; the self-host option adds a path for teams that care about data ownership.'
+- id: req-full-mailcheap-2026-10-17
+  project_slug: mailcheap
+  level: full
+  reviewed_at: '2026-10-17T01:11:30Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者为沉睡订阅者付费的需求，痛点是名单越大账单越重，旧做法按订阅人数分档计费；公开定价页把“按发送量而非订阅者计费”写成核心卖点，属工作流结构推理，尚无用户抱怨或采用数据佐证。
+    evidence_ids:
+    - ev-df9fee837af20e56
+    - ev-7d1d1f8ff0b92c9f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品自述与定价页，没有用户评价、客户案例或持续使用证据，无法判断创作者是否已把它留在常规发送流程里，关注度不等于共识。
+    evidence_ids:
+    - ev-7d1d1f8ff0b92c9f
+    - ev-6ff9813f666ff650
+  - gate: model
+    status: supported
+    reason: 定价页给出 $19/月含 20,000 封、所有功能全档位开放，买方是发送通讯的创作者或小型团队，按发送量付费路径清晰；这是公开定价事实，但尚无实际付费或采购记录佐证。
+    evidence_ids:
+    - ev-df9fee837af20e56
+    - ev-741f3a98df3039bf
+  - gate: truth
+    status: insufficient
+    reason: 交付物是实际发出的邮件，结果可核对，但公开材料未说明自托管与托管服务的投递保障、退信处理和人工边界，承诺能否确定性交付仍缺部署文档或运行数据支撑。
+    evidence_ids:
+    - ev-7d1d1f8ff0b92c9f
+    - ev-6ff9813f666ff650
+  next_validation: 追踪 mailcheap.ai 官方定价页与文档更新，确认按发送量计费的具体档位、自托管支持范围及投递保障说明。
+  market: ''
+  job: 独立创作者与小型内容团队在定期向订阅者发送邮件通讯时，需要把内容发出去、维护订阅名单，并在名单增长时控制发送成本。
+  job_en: Independent creators and small content teams, when regularly sending newsletters to subscribers,
+    need to deliver the content, maintain the subscriber list, and control sending cost as the list grows.
+  pain: 公开定价页明确以“按发送邮件付费，而非按订阅者付费”为卖点，指向的痛点是旧平台按订阅人数分档计费，名单越大账单越重，其中大量沉睡订阅者不打开邮件却仍被计费。
+  pain_en: The public pricing page explicitly sells 'pay per email, not per subscriber', pointing to the
+    pain that legacy platforms bill by subscriber tiers, so the bigger the list the heavier the bill while
+    many dormant subscribers never open.
+  current_alternative: 旧做法是使用按订阅人数分档计费的通讯平台，为整份名单付月费；另一条替代是自建或自托管邮件发送栈，但需要自行处理投递与运维。
+  current_alternative_en: The old way is subscriber-tier newsletter platforms charging a monthly fee for
+    the whole list; another alternative is self-hosting a sending stack, which requires handling deliverability
+    and operations oneself.
+  usage_reason: 推断：它把计费口径从订阅者总数改为实际发送量，并给出 $19/月 含 20,000 封的档位，直接去掉“为不活跃名单付月费”这一步；名单大但打开率低的创作者在续费或扩名单时会优先比较它。
+  usage_reason_en: 'Inference: it shifts the billing basis from total subscribers to actual sends, with
+    a $19/month tier covering 20,000 emails, removing the step of paying monthly for inactive names; creators
+    with large but low-open lists would compare it first at renewal or list expansion.'

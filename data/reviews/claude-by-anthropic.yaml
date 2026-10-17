@@ -700,3 +700,45 @@
     tools, so users needing long-context reasoning would pick it for coding or long writing; the only
     public record is 39.81M MAU and 10.79% MoM, which is scale and attention, not retention, payment,
     or a reason for choice.'
+- id: req-full-claude-by-anthropic-2026-10-17
+  project_slug: claude-by-anthropic
+  level: full
+  reviewed_at: '2026-10-17T01:09:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“Anthropic 的对话助手，主攻写代码、长文和复杂推理，靠用得深来收费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官方定价页与客户案例页面，确认订阅档位、企业采购方式及公开交付结果。
+  market: ''
+  job: 开发者、写作者与研究人员在需要写代码、处理长文档或做复杂推理时，把材料与问题交给 Claude，要求它产出可用的代码、文稿或分析结论。
+  job_en: Developers, writers, and researchers hand code, long documents, or hard reasoning problems to
+    Claude and expect usable code, drafts, or analysis back.
+  pain: 公开材料只说明它擅长写代码、长文与复杂推理并按深度使用计费，未提供用户抱怨、不采用代价或频率的用户侧证据；痛点强度目前只能从任务本身推断。
+  pain_en: Public materials only state that it is strong at coding, long writing, and hard reasoning and
+    bills for heavy use; there is no user-side evidence of complaints, cost of not adopting, or frequency,
+    so pain intensity is inferred from the task itself.
+  current_alternative: 公开材料未说明用户此前用什么完成同类任务，可推断的旧做法是通用搜索引擎、IDE 补全或人工撰写，但缺少可引用的替代行为证据。
+  current_alternative_en: Public materials do not show what users used before for the same job; the inferable
+    alternatives are general search, IDE autocomplete, or manual writing, but citable substitution evidence
+    is missing.
+  usage_reason: 推断：相较搜索或补全式工具，Claude 以长上下文对话承接整段代码与长文，用户可在同一会话里迭代修改，因此需要处理长材料并反复调整的开发者与写作者会在该场景选择它；公开记录仅有
+    mau 39.81M、环比 10.79%，属规模与关注度证据，不能证明留存或付费。
+  usage_reason_en: 'Inference: unlike search or autocomplete tools, Claude carries whole code files and
+    long documents through a long-context conversation so users can iterate in one session, which is why
+    developers and writers handling long materials would choose it; the public record only shows 39.81M
+    MAU and 10.79% MoM, which is scale and attention, not retention or payment.'

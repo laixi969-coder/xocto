@@ -1,0 +1,81 @@
+- id: req-initial-nani-2026-10-17
+  project_slug: nani
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决跨语言沟通中听不懂的问题，但材料只有一句宣传语，连输入、动作、交付都写不出，痛点刚性无法判断。
+    evidence_ids:
+    - ev-a0873537d3066df9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：仅有一条产品页文案，没有用户评价、采用或场景描述可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-a0873537d3066df9
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露定价、买方或收费方式，无法判断钱可能来自哪一方。
+    evidence_ids:
+    - ev-a0873537d3066df9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近口译工作的第一性目标，也无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-a0873537d3066df9
+  next_validation: 抓取该产品官方页面或应用商店说明，确认其输入形式（麦克风音频还是文本）、输出形式（字幕还是语音）与是否有人工确认环节。
+  market: ''
+  job: 尚未确认：材料未说明谁在什么情况下打开它、处理什么音频或文本材料、要完成什么具体任务。
+  job_en: 'Unconfirmed: the material does not state who opens it, in what situation, with what audio or
+    text material, or to complete what task.'
+  pain: 只能从宣传语推断是跨语言沟通中听不懂或不便暴露语言能力的尴尬，但没有任何用户抱怨、案例或行为证据支持。
+  pain_en: Only inferable from the tagline as the awkwardness of not understanding or not wanting to reveal
+    language ability in cross-language talk, with no user complaint, case, or behavioural evidence.
+  current_alternative: 公开材料未提及现有替代方式，无法判断用户此前是用人工口译、翻译软件还是会议内置字幕。
+  current_alternative_en: The public material names no current alternative, so it is impossible to tell
+    whether users previously relied on human interpreters, translation apps, or built-in meeting captions.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step of the old routine it removes
+    or which checkable result it improves, so it also cannot say which users would choose it and when.'
+- id: req-full-nani-2026-10-17
+  project_slug: nani
+  level: full
+  reviewed_at: '2026-10-17T01:12:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决跨语言会议中听不懂的问题，但材料只有一句宣传语，输入、动作、交付与不采用的后果都写不出，痛点刚性无从判断，连需求与痛点都尚未成形。
+    evidence_ids:
+    - ev-951275781536a181
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 NANI??? 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 材料未说明谁在什么情况下打开它、处理什么音频或文本材料、要完成什么具体任务；仅能从宣传语推断是跨语言会议中需要即时听懂对方发言的人。
+  job_en: The material does not state who opens it, in what situation, with what audio or text material,
+    or to complete what task; only inferable from the tagline as someone in a cross-language meeting who
+    needs to understand the other side in real time.
+  pain: 只能从宣传语推断跨语言沟通中听不懂、或不愿让在场他人察觉语言短板的尴尬，但没有任何用户抱怨、案例或行为证据支持这一痛点。
+  pain_en: Only inferable from the tagline as the awkwardness of not understanding, or not wanting others
+    present to notice a language gap, in cross-language talk, with no user complaint, case, or behavioural
+    evidence supporting it.
+  current_alternative: 公开材料未提及任何现有替代方式，无法判断用户此前是用人工口译、翻译软件还是会议内置字幕。
+  current_alternative_en: The public material names no current alternative, so it is impossible to tell
+    whether users previously relied on human interpreters, translation apps, or built-in meeting captions.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step of the old routine it removes
+    or which checkable result it improves, so it also cannot say which users would choose it and when.'

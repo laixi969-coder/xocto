@@ -1,0 +1,85 @@
+- id: req-initial-earshot-2026-10-17
+  project_slug: earshot
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理无法处理音频这一具体缺口，痛点明确，旧行为是手动转写或另接接口。
+    evidence_ids:
+    - ev-c785a7330926a2d6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数据，缺少用户评价或采用证据，共识是否形成无法判断。
+    evidence_ids:
+    - ev-c785a7330926a2d6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露商业化或付费路径，买方与收费方式不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-c785a7330926a2d6
+  - gate: truth
+    status: insufficient
+    reason: 支持的音频任务范围、准确度与人工确认边界未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-c785a7330926a2d6
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认支持的音频任务、接入方式及是否有开发者实际使用反馈。
+  market: ''
+  job: 开发者在调试或运行编码代理时，需要让代理感知声音输入并据此审查或生成音频，最终得到可核对的音频处理结果。
+  job_en: Developers debugging or running coding agents need the agent to perceive sound input and review
+    or produce audio, ending with a checkable audio result.
+  pain: 编码代理目前主要处理文本，遇到音频相关任务时无法直接听取或核验声音，开发者需手动转写或另接工具。
+  pain_en: Coding agents mostly handle text today; for audio tasks they cannot directly hear or verify
+    sound, forcing developers to transcribe manually or wire in other tools.
+  current_alternative: 开发者通常手动转写音频、调用独立语音识别接口，或干脆跳过音频环节。
+  current_alternative_en: Developers typically transcribe audio manually, call separate speech-recognition
+    APIs, or skip the audio step entirely.
+  usage_reason: 推断：相较手动转写或另接接口，它让代理直接听取并审查音频，减少一次格式转换与工具切换，因此适合在代理工作流中需要处理声音的开发者。
+  usage_reason_en: 'Inference: versus manual transcription or separate APIs, it lets the agent hear and
+    review audio directly, removing a format-conversion and tool-switch step, fitting developers handling
+    sound inside agent workflows.'
+- id: req-full-earshot-2026-10-17
+  project_slug: earshot
+  level: full
+  reviewed_at: '2026-10-17T01:10:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理无法直接处理音频这一具体缺口：代理只能读文本，遇到声音任务需手动转写或另接接口，不解决则音频环节被跳过或额外耗工；这是从产品说明与旧流程作出的工作流结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-c785a7330926a2d6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标 325 这一关注度信号，缺少用户评价、issue 讨论或采用案例，无法判断开发者是否已把它纳入日常代理工作流。
+    evidence_ids:
+    - ev-c785a7330926a2d6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或商业化路径，买方与收费方式不明；可能走 to C 开发者或 to B 团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c785a7330926a2d6
+  - gate: truth
+    status: insufficient
+    reason: 支持的音频任务范围、准确度、CPU-only 下的性能边界与人工确认环节均未披露，交付能否确定性发生尚缺公开依据。
+    evidence_ids:
+    - ev-c785a7330926a2d6
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认支持的音频任务、接入方式，以及是否有开发者实际使用反馈或案例。
+  market: ''
+  job: 开发者在调试或运行编码代理时，需要让代理直接听取音频输入（如语音、提示音、环境声），据此审查或生成声音，并得到可核对的音频处理结果。
+  job_en: Developers debugging or running coding agents need the agent to directly hear audio input (speech,
+    tones, ambient sound), review or generate sound from it, and end with a checkable audio result.
+  pain: 编码代理当前主要处理文本，遇到音频任务时无法直接听取或核验声音，开发者只能手动转写、另接语音识别接口或跳过音频环节，多一次格式转换与工具切换。
+  pain_en: Coding agents mostly handle text today; for audio tasks they cannot directly hear or verify
+    sound, so developers must transcribe manually, wire in separate speech APIs, or skip the audio step,
+    adding a format-conversion and tool-switch burden.
+  current_alternative: 开发者通常手动转写音频、调用独立语音识别接口，或干脆跳过音频环节。
+  current_alternative_en: Developers typically transcribe audio manually, call separate speech-recognition
+    APIs, or skip the audio step entirely.
+  usage_reason: 推断：相较手动转写或另接接口，它让代理直接听取并审查音频，省去一次格式转换与工具切换，因此适合在代理工作流中需要处理声音的开发者；但尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus manual transcription or separate APIs, it lets the agent hear and
+    review audio directly, removing a format-conversion and tool-switch step, fitting developers handling
+    sound inside agent workflows; no user feedback or case yet confirms this motive.'

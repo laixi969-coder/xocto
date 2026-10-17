@@ -40,7 +40,7 @@ summary: 苹果官网 2026 年的 iPhone Duo 已售罄！发货日期排到明�
   之家） 高通赢得与 Arm 授权纠纷关键裁决，2 美元赔偿背后或涉及数十亿美元利益 美国特拉华州陪审团近日就高通与 Arm 之间持续多年的授权纠纷作出裁决，认定 Arm
 first_seen: '2026-10-17T00:31:00Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

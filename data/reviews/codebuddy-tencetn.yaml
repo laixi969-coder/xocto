@@ -309,3 +309,52 @@
     IDE, standalone app or terminal, removing a switching and typing step; developers who work in a terminal
     or separate window may choose it because of that entry coverage. Without user feedback or cases, the
     motive is inferred.'
+- id: req-full-codebuddy-tencetn-2026-10-17
+  project_slug: codebuddy-tencetn
+  level: full
+  reviewed_at: '2026-10-17T01:09:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决写代码、改代码、排查报错时的补全与诊断需求，痛点在于手动查文档、逐行补全与人工 review 的负担；公开材料只给出功能说明，痛点强度与不采用代价属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-081c9f18577cef48
+    - ev-871ab3bf5b84130b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品自述，未见开发者评价、部署记录或持续使用数据；插件、IDE、CLI 三形态说明覆盖多种工作流，但无法据此判断是否形成采用共识。
+    evidence_ids:
+    - ev-1e838cce4ec1233a
+    - ev-871ab3bf5b84130b
+  - gate: model
+    status: insufficient
+    reason: 证据中无定价页、无付费主体与单位经济信息；按腾讯云产品线结构推理，买方可能是 to B 云客户或 to C 开发者，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6092c5af5a72190b
+    - ev-8713c0cf18391836
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明生成代码的准确率、人工复核边界与安全合规处理；交付能否稳定发生缺少可复现证据，无法确认承诺的确定性。
+    evidence_ids:
+    - ev-871ab3bf5b84130b
+    - ev-2a5c0af4196f57ac
+  next_validation: 追踪 CodeBuddy 官网定价页与腾讯云客户案例页，确认付费主体、计费方式及公开的部署或使用结果。
+  market: ''
+  job: 开发者（含腾讯云上的团队）在写代码、改代码、排查报错时，在插件、独立 IDE 或命令行里处理源码与报错信息，要完成补全、生成、诊断与优化代码的任务。
+  job_en: Developers, including teams on Tencent Cloud, handle source code and error messages inside a
+    plugin, standalone IDE, or CLI while writing, editing, and debugging code, to complete code completion,
+    generation, diagnosis, and optimization.
+  pain: 公开材料只说明它提供技术对话、代码补全、代码诊断和优化能力，未给出用户抱怨、频率或不采用的代价；痛点强度属工作流结构推理，尚无用户反馈佐证。
+  pain_en: Public materials only state that it offers technical chat, code completion, code diagnosis,
+    and optimization; they give no user complaints, frequency, or cost of not adopting. Pain intensity
+    is a workflow inference, not yet backed by user feedback.
+  current_alternative: 公开材料未说明用户当前用什么替代；按工作流结构推理，旧做法是手动查文档、搜索报错、逐行补全与人工 review，或使用其他 AI 编码助手。
+  current_alternative_en: Public materials do not state what users use today; by workflow inference, the
+    old way is manual doc lookup, error searching, line-by-line completion and human review, or another
+    AI coding assistant.
+  usage_reason: 推断：相较手动查文档与逐行补全，CodeBuddy 在编辑器内直接给出补全、诊断与优化建议，省去切换到浏览器检索报错这一步；插件、IDE、CLI 三种形态让习惯不同工具的开发者无需更换工作环境即可使用。
+  usage_reason_en: 'Inference: versus manual doc lookup and line-by-line completion, CodeBuddy gives completion,
+    diagnosis, and optimization suggestions inside the editor, removing the step of switching to a browser
+    to search errors; its plugin, IDE, and CLI forms let developers keep their existing tooling.'

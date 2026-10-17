@@ -1,0 +1,83 @@
+- id: req-initial-ai-startup-rapidcanvas-snags-29m-series-b-2026-10-17
+  project_slug: ai-startup-rapidcanvas-snags-29m-series-b
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，价值关不成立。
+    evidence_ids:
+    - ev-90b624edd37d1d3f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有融资标题，无采用或关注信号可判断。
+    evidence_ids:
+    - ev-90b624edd37d1d3f
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无材料支持。
+    evidence_ids:
+    - ev-90b624edd37d1d3f
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无交付结果或人工边界信息。
+    evidence_ids:
+    - ev-90b624edd37d1d3f
+  next_validation: 检索 RapidCanvas 官网产品页与官方 B 轮融资公告，确认其具体工作流、目标用户与定价方式。
+  market: ''
+  job: 候选资料未说明谁在什么情况下使用它、处理什么材料、要完成什么任务。
+  job_en: The candidate material does not state who uses it, in what situation, with what material, or
+    to complete what task.
+  pain: 候选资料未提供任何用户痛点或旧流程描述，无法判断它替代了哪一步工作。
+  pain_en: The candidate material provides no user pain point or legacy workflow, so which step it replaces
+    cannot be judged.
+  current_alternative: 候选资料未说明现有替代方式。
+  current_alternative_en: The candidate material does not describe any current alternative.
+  usage_reason: 无法判断：仅有融资事实，缺少产品能力、使用场景与交付结果，无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: only the funding fact is available, with no product capability,
+    usage scenario or deliverable to explain why a user would choose it.'
+- id: req-full-ai-startup-rapidcanvas-snags-29m-series-b-2026-10-17
+  project_slug: ai-startup-rapidcanvas-snags-29m-series-b
+  level: full
+  reviewed_at: '2026-10-17T01:08:38Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 官网仅称企业可在既有数据上构建部署 AI agent、数周上生产，未说明谁在什么工作节点处理什么材料、替代哪一步旧流程，也无可核对交付结果，连需求与痛点都写不出。
+    evidence_ids:
+    - ev-b44c445aeea4dbe0
+    - ev-70913df900ea883f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 RapidCanvas 官网的客户案例页与定价页，确认其具体工作流、目标用户、交付结果与付费方式。
+  market: ''
+  job: 公开材料只说明 RapidCanvas 是面向企业的 agentic AI 平台，让企业基于既有数据与系统构建、部署、治理和运营 AI agent；谁在哪个具体工作节点打开它、处理什么材料、拿到什么交付均未说明，无法还原具体任务。
+  job_en: Public material only says RapidCanvas is an enterprise agentic AI platform for building, deploying,
+    governing and operating AI agents on existing data and systems; it does not state who opens it at
+    which work step, with what material, or what deliverable they get, so the concrete task cannot be
+    reconstructed.
+  pain: 官网只给出“数周而非数月上生产”的笼统承诺，未描述任何具体旧流程、卡点或用户抱怨，无法确认它替代了哪一步工作。
+  pain_en: The site only offers a generic promise of reaching production AI in weeks rather than months,
+    with no concrete legacy workflow, bottleneck or user complaint, so which step it replaces cannot be
+    confirmed.
+  current_alternative: 公开材料未说明企业此前用什么方式完成同类任务，无法识别现有替代方式。
+  current_alternative_en: Public material does not describe how enterprises previously accomplished the
+    same task, so no current alternative can be identified.
+  usage_reason: 无法判断：仅有平台定位与融资事实，缺少具体使用场景、输入材料与可核对交付结果，无法解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: only a platform positioning and funding fact are available, with
+    no concrete usage scenario, input material or checkable deliverable to explain which users would choose
+    it and when.'

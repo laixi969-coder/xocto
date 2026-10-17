@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE41T0FMeHl1ZHVh
 summary: 问AI“给我推荐新婚家电”，结果清一色都是竞争对手的产品……高管会议“炸锅” 매일경제
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

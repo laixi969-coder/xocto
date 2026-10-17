@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1SWswZ21pSEhu
 summary: 光电智造｜7mm金刚石片杀入GPU散热：AI芯片的"热痛点"终于有解了？ 电子工程专辑
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

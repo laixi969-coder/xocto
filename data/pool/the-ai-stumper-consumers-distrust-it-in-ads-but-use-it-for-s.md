@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNk9zN0NCWEUw
 summary: 'The AI Stumper: Consumers Distrust It In Ads, But Use It For Shopping 10/16/2026 MediaPost'
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

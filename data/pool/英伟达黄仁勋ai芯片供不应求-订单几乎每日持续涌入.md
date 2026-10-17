@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE85VFNtMVJvTVdB
 summary: 英伟达黄仁勋：AI芯片供不应求 订单几乎每日持续涌入 新浪网
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

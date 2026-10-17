@@ -1,0 +1,86 @@
+- id: req-initial-coop-anything-2026-10-17
+  project_slug: coop-anything
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决单人游戏无法联机、个人改不动的痛点，需求具体，但缺少旧流程耗时与不采用后果的公开事实。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库 53 星、5 个 fork，没有玩家反馈或成功联机案例，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或收费方式；买方可能是玩家或模组作者，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+  - gate: truth
+    status: insufficient
+    reason: 代理改包与联机的承诺可核验，但版权边界、反作弊风险与人工确认环节未见说明。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+  next_validation: 收集该仓库的 README、示例游戏清单与 issue 讨论，确认是否有代理成功产出可玩联机版本的记录。
+  market: ''
+  job: 想让某款单人游戏能和朋友联机的玩家或模组作者，把 AI 代理指向游戏文件，完成逆向、改动、测试与打包。
+  job_en: A player or mod author who wants a single-player game to work with friends points an AI agent
+    at the game files to reverse-engineer, patch, test and package it.
+  pain: 给单人游戏加联机原本需要懂逆向和网络同步，个人往往做不动或半途放弃。
+  pain_en: Adding multiplayer to a single-player game normally requires reverse-engineering and network
+    sync skills, which individuals often cannot finish.
+  current_alternative: 在模组社区找现成联机补丁，或自己啃代码、看教程慢慢改。
+  current_alternative_en: Looking for an existing multiplayer patch in mod communities, or grinding through
+    code and tutorials alone.
+  usage_reason: 推断：它把逆向、改动、测试、打包串成代理可执行的一步，省掉个人啃代码这一环，因此有联机诉求的玩家和模组作者会试用；公开材料未给出实际完成联机的案例。
+  usage_reason_en: 'Inference: it chains reverse engineering, patching, testing and packaging into steps
+    an agent can run, removing the solo code-grinding stage, so players and mod authors wanting multiplayer
+    may try it; public material shows no completed multiplayer case.'
+- id: req-full-coop-anything-2026-10-17
+  project_slug: coop-anything
+  level: full
+  reviewed_at: '2026-10-17T01:09:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决单人游戏无法联机、个人改不动的需求：加联机原本需要逆向与网络同步能力，个人常半途放弃，只能等社区补丁。旧做法是找现成补丁或自己啃代码，不解决的后果是始终无法与朋友共玩。这是基于产品说明与工作流的结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库 53 星与一句产品描述，没有玩家反馈或成功联机案例，无法判断共识卡在感知、想象、场景还是利益环节。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或收费方式；买方可能是玩家或模组作者，这是判断而非已验证事实，也未出现仅靠融资续命的叙事。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+  - gate: truth
+    status: insufficient
+    reason: 代理改包与联机的承诺可核验，但版权边界、反作弊风险、代理产出的人工确认环节均无说明，交付能否确定性发生尚不能确认。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+  next_validation: 追踪该仓库 README、示例游戏清单与 issue 讨论，确认是否有代理成功产出可玩联机版本的公开记录。
+  market: ''
+  job: 想让某款单人游戏能和朋友联机的玩家或模组作者，把 AI 代理指向游戏文件，由代理完成逆向、改动、测试与打包，产出可在线或分屏共玩的版本。
+  job_en: A player or mod author who wants a single-player game playable with friends points an AI agent
+    at the game files so it reverse-engineers, patches, tests and packages a version playable online or
+    in splitscreen.
+  pain: 公开说明指向的任务是给单人游戏加联机，这原本需要逆向与网络同步能力，个人往往做不动或半途放弃，只能等社区现成补丁。
+  pain_en: The stated task is adding multiplayer to a single-player game, which normally requires reverse-engineering
+    and network sync skills that individuals often cannot finish, leaving them waiting for community patches.
+  current_alternative: 在模组社区找现成联机补丁，或自己啃代码、看教程逐步修改。
+  current_alternative_en: Looking for an existing multiplayer patch in mod communities, or grinding through
+    code and tutorials alone.
+  usage_reason: 推断：它把逆向、改动、测试、打包串成代理可执行的一条链，省掉个人啃代码和自建同步逻辑这一步，因此有明确联机诉求又缺逆向能力的玩家或模组作者会在社区无现成补丁时选择它；公开材料未给出实际完成联机的案例或重复使用证据。
+  usage_reason_en: 'Inference: it chains reverse engineering, patching, testing and packaging into one
+    agent-runnable pipeline, removing the solo code-grinding and hand-built sync logic, so players or
+    mod authors with a concrete multiplayer wish but no reverse-engineering skill would pick it when no
+    community patch exists; public material shows no completed multiplayer case or repeat-use evidence.'

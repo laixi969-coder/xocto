@@ -1,0 +1,86 @@
+- id: req-initial-肾母细胞瘤ai智能体20在渝发布-护航患儿全周期诊疗-2026-10-17
+  project_slug: 肾母细胞瘤ai智能体20在渝发布-护航患儿全周期诊疗
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决罕见儿科肿瘤全周期资料分散、随访难的问题，痛点结构上存在，但材料未说明替代了哪一步手工工作，也未给出交付物。
+    evidence_ids:
+    - ev-52b9efdaf4e50855
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇发布报道，未见医院采用、医生评价或科室落地信息，无法判断临床端是否形成使用共识。
+    evidence_ids:
+    - ev-52b9efdaf4e50855
+  - gate: model
+    status: insufficient
+    reason: 未披露开发方、采购方或收费方式；医院采购、科研经费或政府项目均属推断，尚无公开付费路径。
+    evidence_ids:
+    - ev-52b9efdaf4e50855
+  - gate: truth
+    status: insufficient
+    reason: 医疗场景对准确性与责任边界要求高，但材料未提及临床验证、数据来源或医生复核机制，交付确定性无法核对。
+    evidence_ids:
+    - ev-52b9efdaf4e50855
+  next_validation: 检索该智能体的官方发布页或开发方公告，确认其功能范围、落地医院与临床验证材料。
+  market: ''
+  job: 儿科肿瘤医生在患儿确诊肾母细胞瘤后，需要整理影像、病理与分期资料并安排手术、化疗和长期随访，希望有一个工具把全周期诊疗信息串起来。
+  job_en: After a child is diagnosed with Wilms tumor, pediatric oncologists must organize imaging, pathology,
+    and staging materials and plan surgery, chemotherapy, and long-term follow-up, wanting a tool that
+    links the full care cycle.
+  pain: 儿童肾母细胞瘤属罕见病，病例分散、随访周期长，医生需要反复手工汇总多来源资料；但候选材料未说明该智能体具体替代了哪一步手工工作。
+  pain_en: Pediatric Wilms tumor is rare, cases are scattered and follow-up is long, so clinicians repeatedly
+    compile materials from multiple sources by hand; the candidate material does not say which manual
+    step the agent replaces.
+  current_alternative: 现有做法通常是医院信息系统加人工整理病历、多学科会诊讨论和纸质或表格随访记录。
+  current_alternative_en: Current practice is typically a hospital information system plus manual chart
+    compilation, multidisciplinary case discussions, and paper or spreadsheet follow-up records.
+  usage_reason: 推断：若该智能体能自动汇总病例与随访节点，医生可省去跨系统手工整理这一步，从而在门诊或会诊前更快拿到完整病程；但公开材料未给出功能细节或使用反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if the agent automatically consolidates case data and follow-up milestones,
+    clinicians could skip manual cross-system compilation and get a complete disease course faster before
+    clinic or case review; however, no functional detail or user feedback is public, so this causal link
+    is unconfirmed.'
+- id: req-full-肾母细胞瘤ai智能体20在渝发布-护航患儿全周期诊疗-2026-10-17
+  project_slug: 肾母细胞瘤ai智能体20在渝发布-护航患儿全周期诊疗
+  level: full
+  reviewed_at: '2026-10-17T01:14:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决罕见儿科肿瘤全周期资料分散、随访难的问题，但公开材料只有一句发布报道，未说明替代哪一步手工工作、输入输出与交付物，连需求与痛点都难以还原，价值结构无法成立。
+    evidence_ids:
+    - ev-52b9efdaf4e50855
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 肾母细胞瘤AI智能体2.0 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 儿科肿瘤医生在患儿确诊肾母细胞瘤后，需要整理影像、病理与分期资料，安排手术、化疗并长期随访，希望有一个工具把全周期诊疗信息串起来。
+  job_en: After a child is diagnosed with Wilms tumor, pediatric oncologists must organize imaging, pathology,
+    and staging materials, plan surgery and chemotherapy, and conduct long-term follow-up, wanting a tool
+    that links the full care cycle.
+  pain: 公开材料只有一句发布报道，未说明该智能体替代了哪一步手工工作、输入什么材料、输出什么交付物，也未给出医生痛点或使用反馈。
+  pain_en: The public material is a single release report; it does not state which manual step the agent
+    replaces, what materials it takes in, what it delivers, or any clinician pain point or user feedback.
+  current_alternative: 公开材料未描述现有替代方式；按工作流结构推理，通常为医院信息系统加人工整理病历、多学科会诊和表格随访记录。
+  current_alternative_en: The public material does not describe current alternatives; by workflow inference
+    it is typically a hospital information system plus manual chart compilation, multidisciplinary case
+    review, and spreadsheet follow-up records.
+  usage_reason: 推断：若该智能体能自动汇总病例与随访节点，医生可省去跨系统手工整理这一步；但公开材料未给出功能细节、交付形式或使用反馈，无法确认这一因果，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the agent automatically consolidates case data and follow-up milestones,
+    clinicians could skip manual cross-system compilation; however, no functional detail, delivery format,
+    or user feedback is public, so this causal link and the choice scenario cannot be confirmed.'

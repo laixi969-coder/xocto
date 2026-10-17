@@ -83,3 +83,56 @@
   usage_reason_en: 'The task is: operations or research staff gathering data across sites, business staff
     repeatedly filling web forms Public materials do not yet explain why users choose this product over
     their existing approach.'
+- id: req-full-openbua-2026-10-17
+  project_slug: openbua
+  level: full
+  reviewed_at: '2026-10-17T01:12:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨站查资料与重复填表的人工摩擦：用户需在已登录浏览器里逐页检索、复制、录入，旧做法是手工操作或自建爬虫脚本。公开仓库说明代理在已认证浏览器内读取网页、执行检索与填表并回传结果，输入—动作—交付闭环可还原，痛点刚性属工作流结构推理；谁付钱未在公开材料出现。
+    evidence_ids:
+    - ev-7ebf5c35c03b293a
+    - ev-f31e2f629573003d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 45 增至 47，说明有开发者关注，但公开材料没有用户评价、issue 讨论或客户案例说明谁在什么场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-7ebf5c35c03b293a
+    - ev-e47728673139c422
+    - ev-f31e2f629573003d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，开源仓库本身不构成收入路径；这是商业证据缺口，不反推问题不存在，钱可能来自 to C 订阅或 to B 部署，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7ebf5c35c03b293a
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺在已登录浏览器内自动检索与填表，但公开材料未说明表单提交前的人工确认、验证码处理与误操作回滚边界，交付能否稳定发生缺少可复现证据。
+    evidence_ids:
+    - ev-7ebf5c35c03b293a
+    - ev-f31e2f629573003d
+  next_validation: 追踪 OpenBUA 仓库的 issue 与 discussion，确认是否有用户报告在具体跨站取数或填表场景中部署、替代了哪种旧流程。
+  market: ''
+  job: 运营或研究人员在需要跨多个已登录网站查资料、填表单时，在已登录的 Chrome 里运行 OpenBUA 扩展，由代理读取网页、执行检索与表单填写并实时回传结果，最终得到整理好的网页数据或已提交的表单。
+  job_en: Operations or research staff, working across multiple logged-in sites, run the OpenBUA Chrome
+    extension inside their authenticated browser so an agent reads pages, performs searches and fills
+    forms, streaming results back as organized web data or submitted forms.
+  pain: 跨站资料收集与重复表单填写需要人工逐页打开、复制粘贴、重复登录并手工录入，步骤琐碎且易错；公开材料只给出产品能力，未提供用户抱怨、频率或错误代价的量化证据，因此痛点强度属工作流结构推理。
+  pain_en: Cross-site data gathering and repetitive form filling require manually opening pages, copy-pasting,
+    re-authenticating and re-typing, which is tedious and error-prone; public materials only state product
+    capability, not user complaints, frequency or error cost, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 旧做法是人工在浏览器里逐站检索、复制到表格，或使用通用爬虫、RPA 脚本和浏览器自动化工具；这些方案通常需要单独处理登录态、页面改版和验证码，公开材料未说明
+    OpenBUA 具体替代了哪一种。
+  current_alternative_en: The old approach is manual per-site browsing and copy-paste into spreadsheets,
+    or generic scrapers, RPA scripts and browser automation tools, which typically require separate handling
+    of login state, page changes and CAPTCHAs; public materials do not say which one OpenBUA replaces.
+  usage_reason: 推断：相较手工逐页操作或另建爬虫脚本，OpenBUA 直接在用户已登录的浏览器内运行，省去导出 Cookie、重新配置登录态和单独维护脚本的步骤，因此需要跨站取数或批量填表的运营、研究人员在已有账号环境下更可能选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus manual page-by-page work or building a separate scraper, OpenBUA
+    runs inside the user''s already-authenticated browser, removing the steps of exporting cookies, reconfiguring
+    login state and maintaining scripts, so operations or research staff doing cross-site data pulls or
+    bulk form filling in existing accounts are more likely to choose it; no user feedback or case yet
+    confirms this motive.'

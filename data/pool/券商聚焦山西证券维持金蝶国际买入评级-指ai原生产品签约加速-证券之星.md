@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE95QUdFeHdqQTJR
 summary: 【券商聚焦】山西证券维持金蝶国际买入评级 指AI原生产品签约加速-证券之星 证券之星
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

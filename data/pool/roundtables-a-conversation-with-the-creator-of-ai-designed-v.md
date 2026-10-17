@@ -24,7 +24,7 @@ summary: Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanfor
   next. Join senior AI reporter…
 first_seen: '2026-10-09T00:08:24Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

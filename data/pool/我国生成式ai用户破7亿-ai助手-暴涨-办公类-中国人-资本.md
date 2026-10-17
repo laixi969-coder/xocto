@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQTHRrdEZhVi1h
 summary: 我国生成式AI用户破7亿|AI助手|暴涨|办公类|中国人|资本 finance.sina.com.cn
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

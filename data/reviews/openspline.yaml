@@ -90,3 +90,52 @@
     step and keeping voice data on-premise; teams with an existing voice pipeline that value deployment
     autonomy may choose it, but with only 67 stars there is no feedback or case showing long-term workflow
     retention.'
+- id: req-full-openspline-2026-10-17
+  project_slug: openspline
+  level: full
+  reviewed_at: '2026-10-17T01:12:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决语音助手缺少可视化形象的需求，痛点是自建唇形同步与实时渲染的额外工程，旧替代为自建管线或闭源云服务，不采用则语音产品缺少形象层；此为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-5b60a75901a45c8a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 67 增至 73，属关注度而非采用证据；公开材料没有客户案例、评价或讨论说明哪类团队真的接入并持续使用。
+    evidence_ids:
+    - ev-5b60a75901a45c8a
+    - ev-471efd5cb8a9d3d5
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，钱可能来自 to B 支持、托管服务或 to VC，均属判断而非已验证事实；中文生态检索未发现对应供给。
+    evidence_ids:
+    - ev-5b60a75901a45c8a
+    - ev-b0e012ffe51075ec
+  - gate: truth
+    status: insufficient
+    reason: 实时延迟、画质与本地部署门槛未核验，承诺能否确定性交付未知；仓库无 issue 或文档说明安全与人工边界。
+    evidence_ids:
+    - ev-5b60a75901a45c8a
+  next_validation: 追踪 openspline 仓库的 issue 与 discussion，确认实际接入案例、延迟表现与本地部署要求。
+  market: ''
+  job: 已有可用语音对话链路的开发者或产品团队，在客服、教学或陪伴场景中需要给语音助手配上实时对口型的虚拟形象，把语音输出变成可同步播放的虚拟人视频。
+  job_en: Developers or product teams with a working voice conversation pipeline need to give their assistant
+    a realtime lip-synced avatar for customer service, teaching or companion scenarios, turning voice
+    output into synchronized avatar video.
+  pain: 公开材料只说明产品用少量代码在本地生成实时虚拟形象视频；据此可推断自建唇形同步与实时渲染需处理音频对齐、渲染性能与部署环境，是语音链路之外的一整块额外工程，但尚无用户抱怨或案例直接证实这一痛点强度。
+  pain_en: Public material only states the product generates realtime avatar video locally in a few lines
+    of code; it can be inferred that building lip-sync and realtime rendering in-house means handling
+    audio alignment, rendering performance and deployment, an extra engineering effort beyond the voice
+    pipeline, though no user complaint or case directly confirms this pain.
+  current_alternative: 自行搭建唇形同步与渲染管线，或采购闭源虚拟人服务并接受其云端依赖。
+  current_alternative_en: Building a lip-sync and rendering pipeline in-house, or buying a closed avatar
+    service and accepting its cloud dependency.
+  usage_reason: 推断：对已有语音链路的团队，用少量代码在本地接入可省掉从零搭建同步与渲染这一步，并避免把语音数据送到外部服务，因此需要本地化、低接入成本的语音产品团队会尝试它；但仓库仅 67→73
+    星，无用户反馈或案例证明其被长期留在工作流。
+  usage_reason_en: 'Inference: for teams with an existing voice pipeline, a few lines of local integration
+    removes the step of building sync and rendering from scratch and avoids sending voice data to an external
+    service, so teams needing local, low-integration-cost voice products would try it; however the repo
+    has only 67→73 stars and no feedback or cases show long-term retention.'

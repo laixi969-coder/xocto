@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxOekwtMDYtVEFn
 summary: AI-powered quality inspection at global scale Siemens
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

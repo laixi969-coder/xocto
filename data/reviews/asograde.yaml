@@ -24,3 +24,46 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-asograde-2026-10-17
+  project_slug: asograde
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上架前选词这一具体任务，选错词会浪费投放预算，旧做法是经验加免费工具手工比对，结构上成立。
+    evidence_ids:
+    - ev-8205b2a8a7fda0b0
+  - gate: consensus
+    status: insufficient
+    reason: 仅 5 分、0 评论，属关注度信号，不能说明开发者已把它纳入工作流。
+    evidence_ids:
+    - ev-8205b2a8a7fda0b0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按工具订阅或按报告收费只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-8205b2a8a7fda0b0
+  - gate: truth
+    status: insufficient
+    reason: 未说明数据来源口径与结果可核对方式，交付确定性无法验证。
+    evidence_ids:
+    - ev-8205b2a8a7fda0b0
+  next_validation: 收集 ASOGrade 官网定价页或产品文档，核验其数据来源、报告形态与收费方式。
+  market: ''
+  job: 独立 App 开发者在准备上架或优化商店页面时，处理关键词与投放需求数据，筛选值得投入的 App Store 关键词。
+  job_en: Indie app developers preparing a launch or optimizing a store page work through keyword and
+    ad-demand data to pick App Store keywords worth targeting.
+  pain: 上架前选词直接决定曝光与获客成本，选错词意味着投放预算打水漂；材料只给出定位，未提供用户抱怨或案例，痛点为工作流推理。
+  pain_en: Keyword choice before launch directly shapes visibility and acquisition cost, and wrong picks
+    waste ad budget; the material gives only positioning, with no user complaints or cases, so the pain
+    is workflow inference.
+  current_alternative: 开发者通常靠经验、免费关键词工具或 Apple Search Ads 后台手工比对，材料未说明其具体替代对象。
+  current_alternative_en: Developers typically rely on intuition, free keyword tools or manual comparison
+    in the Apple Search Ads console; the material does not name the specific alternative.
+  usage_reason: 推断：相较手工在多个免费工具间比对，它把 Apple Search Ads 的需求数据直接用于选词，可能减少跨工具核对这一步，因此准备上架、预算有限的独立开发者会试用；材料未给出用户反馈，动机属推断。
+  usage_reason_en: 'Inference: versus manually comparing several free tools, it applies Apple Search Ads
+    demand data directly to keyword choice, potentially removing the cross-tool checking step, so budget-limited
+    indie developers preparing a launch may try it; no user feedback is given, so the motive is inferred.'

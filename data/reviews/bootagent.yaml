@@ -854,3 +854,49 @@
   usage_reason: 公开代码仓库有 88 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 88 stars and 5 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-bootagent-2026-10-17
+  project_slug: bootagent
+  level: full
+  reviewed_at: '2026-10-17T01:09:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“新电脑到手，把常用的AI助手一次配好，不用再逐个改设置”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 BootAgent 公开仓库的 README、release 与 issue/discussion，确认是否出现配置失败处理、密钥安全说明及真实用户在新机初始化场景的复现记录。
+  market: ''
+  job: 开发者或重度 AI 工具用户在拿到一台新机器（或重装系统）时，需要把常用的多个 AI 助手/CLI 工具一次性配置成可用状态，处理的是各工具分散的配置文件与凭据，要完成的任务是让新机器直接进入可重复使用的
+    AI 工作环境。
+  job_en: A developer or heavy AI-tool user who gets a fresh machine (or reinstalls) needs to configure
+    several AI assistants/CLI tools into a working state at once, handling each tool's scattered config
+    files and credentials, so the new machine becomes a repeatable, ready-to-use AI work environment.
+  pain: 痛点是逐个手工编辑各工具专属配置文件、重复输入密钥与参数，步骤分散且容易漏配或配错；换机、重装或团队统一环境时这种重复劳动会反复发生。公开材料只给出产品定位，未提供用户抱怨或频率数据，因此痛点强度属工作流结构推理。
+  pain_en: The pain is hand-editing each tool's own config file and re-entering keys and parameters, a
+    scattered process that is easy to miss or misconfigure; it recurs on every machine change, reinstall,
+    or team-wide environment setup. Public materials only state the product positioning, with no user
+    complaints or frequency data, so pain intensity is a workflow-structure inference.
+  current_alternative: 当前替代方式是手工逐个编辑各工具配置文件、复制粘贴密钥，或自写 shell 脚本、dotfiles 仓库与手动安装文档来拼装环境。
+  current_alternative_en: The current alternative is hand-editing each tool's config, copy-pasting keys,
+    or assembling the environment with self-written shell scripts, dotfiles repos, and manual install
+    docs.
+  usage_reason: 推断：相较手工逐文件配置或自写脚本，它把多工具的配置收敛为一次可重复执行的初始化动作，减少了逐个查找配置路径、重复填密钥这一步负担，并让新机器结果可复现；因此经常换机、重装或需要统一团队环境的开发者会在新机初始化时选择它。公开仓库
+    88 收藏、5 复刻只说明开发者关注，尚不能证明持续使用。
+  usage_reason_en: 'Inference: versus hand-editing files or writing one''s own scripts, it collapses multi-tool
+    setup into one repeatable initialization action, removing the step of locating each config path and
+    re-entering keys, and making the fresh-machine result reproducible; so developers who frequently change
+    machines, reinstall, or standardize team environments would pick it at machine setup. The 88 stars
+    and 5 forks only show developer attention, not sustained use.'

@@ -87,3 +87,45 @@
     the step of repeatedly opening usage pages, and signs each account into its own browser profile, cutting
     repeated logins when switching; developers heavily using multiple accounts would therefore pick it
     when quota nears exhaustion.'
+- id: req-full-brow-3-2026-10-17
+  project_slug: brow-3
+  level: full
+  reviewed_at: '2026-10-17T01:09:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决多账号额度不可见的问题，但全部证据均为 brow 一词的词典释义页，没有任何材料说明额度耗尽会中断编码、开发者如何绕过，需求与痛点均无法从公开事实还原。
+    evidence_ids:
+    - ev-f7d2d46a013463ee
+    - ev-8235aff744075d48
+    - ev-508227974fb5bfa0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 brow 的官方产品页或 公开代码仓库 仓库 README 与 issue，确认额度读取方式、支持的账号数量及是否依赖非公开接口。
+  market: ''
+  job: 同时使用多个 Claude 账号的开发者，在编码过程中需要随时知道各账号的 5 小时与每周额度还剩多少、何时重置，以决定用哪个账号继续。
+  job_en: Developers running multiple Claude accounts need to know each account's remaining 5-hour and
+    weekly quota and reset time while coding, in order to pick which account to continue with.
+  pain: 公开证据中没有任何材料描述额度耗尽中断编码、反复查用量页或切换账号重复登录的实际痛点，全部证据条目均为词典释义页，无法支撑痛点存在。
+  pain_en: No public evidence describes quota exhaustion interrupting coding, repeatedly checking usage
+    pages, or repeated logins when switching accounts; all evidence items are dictionary definition pages
+    and cannot support the existence of the pain.
+  current_alternative: 公开材料未记录开发者当前如何查看额度或切换账号，无法确认存在可观察的旧替代行为。
+  current_alternative_en: Public materials do not record how developers currently check quota or switch
+    accounts, so no observable prior workaround can be confirmed.
+  usage_reason: 无法判断：证据中没有产品页面、用户反馈或使用记录，无法说明相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be determined: there is no product page, user feedback, or usage record in
+    the evidence to explain which step of the old workflow it removes, or which users would choose it
+    under what circumstances.'

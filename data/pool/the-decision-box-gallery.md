@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/vllm-sr/Decision-Box
 summary: Find one figure in a crowded masterpiece, live on Decision 3
 first_seen: '2026-10-17T00:30:59Z'
 last_seen: '2026-10-17T00:30:59Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

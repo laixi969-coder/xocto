@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MUVF3Rzk4Q0ty
 summary: BSI出席2026世界机器人大会：共建AI 与机器人融合时代的信任生态 美通社
 first_seen: '2026-08-28T05:59:00Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

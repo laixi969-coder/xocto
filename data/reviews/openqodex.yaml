@@ -340,3 +340,48 @@
     check each finding, removing the step of picking change-relevant items out of full-repo alerts; developers
     who want to catch secrets and dependency issues before pushing would choose it. Stars rising from
     508 to 715 shows attention, but no retention or repeat-use evidence proves it is embedded in'
+- id: req-full-openqodex-2026-10-17
+  project_slug: openqodex
+  level: full
+  reviewed_at: '2026-10-17T01:12:43Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决提交前对改动行做安全与质量扫描并复核发现的需求，痛点是密钥与漏洞入库后修复代价高、CI 扫描反馈滞后且误报需人工分诊；公开说明已还原输入（改动行）、动作（扫描加独立复核）与交付（逐条结论），属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-6214c067f349d7e4
+    - ev-2b53a1126882c25a
+  - gate: consensus
+    status: supported
+    reason: 仓库收藏从 568 增至 729，说明英文生态开发者持续关注并收藏该工具；但公开材料未显示实际安装量、留存或团队采用，故共识仅到关注层，未到持续使用层。
+    evidence_ids:
+    - ev-6214c067f349d7e4
+    - ev-ba1088f1c9b3ef74
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费主体或单位经济，谁付钱（个人开发者、工程团队还是企业安全预算）尚不可知；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-6214c067f349d7e4
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、误报率与人工确认比例、以及安全边界（扫描结果是否外传）尚无公开可复现证据，需仓库 issue 或文档佐证。
+    evidence_ids:
+    - ev-2b53a1126882c25a
+  next_validation: 追踪 openqodex 仓库的 issue 与 discussion，确认实际部署方式、误报反馈与是否出现团队级采用或付费线索。
+  market: ''
+  job: 开发者在把本地改动推送到仓库前，需要对自己改动的代码行完成 SAST、密钥、依赖与 lint 扫描，并逐条确认扫描发现是否真实，再决定是否提交。
+  job_en: Before pushing local changes, a developer needs to run SAST, secret, dependency and lint scans
+    on the changed lines, verify each finding, and decide whether to commit.
+  pain: 密钥、依赖漏洞和注入类缺陷一旦随提交进入仓库，修复成本与泄露后果远高于提交前拦截；而传统扫描器在 CI 或全量仓库上跑，反馈滞后且对改动行误报多，开发者要人工逐条排查。
+  pain_en: Secrets, dependency flaws and injection defects cost far more to fix after they land in the
+    repo than before; classic scanners run in CI or over the whole repo, so feedback is late and noisy
+    on changed lines, forcing manual triage.
+  current_alternative: 当前替代是 CI 阶段的 SAST/密钥扫描、pre-commit 钩子、IDE 插件，或干脆依赖人工 code review 与事后安全审计。
+  current_alternative_en: Today's alternatives are CI-stage SAST/secret scanning, pre-commit hooks, IDE
+    plugins, or relying on manual code review and after-the-fact security audits.
+  usage_reason: 推断：相较 CI 事后扫描，它把扫描与独立 AI 复核放进编码代理、只针对本次改动行，开发者无需另配 API key 即可在推送前拿到逐条复核结论，减少等待 CI 与人工分诊的步骤，因此会在本地提交前使用它的开发者会选择它。
+  usage_reason_en: 'Inference: versus post-hoc CI scanning, it runs scanners plus a separate AI reviewer
+    inside the coding agent on only the changed lines, with no extra API key, so developers get per-finding
+    review before pushing and skip waiting on CI and manual triage.'

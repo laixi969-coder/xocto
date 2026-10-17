@@ -563,3 +563,46 @@
   usage_reason_en: Because the evidence is entirely mismatched with the product, no user situation for
     choosing it can be stated; this is not a missing pricing page or buyer, but a lack of any citable
     fact about need or pain.
+- id: req-full-icode-2026-10-17
+  project_slug: icode
+  level: full
+  reviewed_at: '2026-10-17T01:11:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向少儿编程课程与竞赛（icodeschool.com、icode.org.cn），与候选摘要所称的离线 agent 开发平台无任何对应；连要解决的需求和痛点都无法从公开材料还原，价值关不成立。
+    evidence_ids:
+    - ev-f29b267e696a1957
+    - ev-410f637139360878
+    - ev-08e1864dea583ecf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或代码仓库的 README、部署文档与 issue/discussion，确认其是否真实存在离线 agent 执行能力及目标用户，而非与同名少儿编程机构混淆。
+  market: ''
+  job: 候选摘要声称开发者可在数据不能出内网或无稳定外网的环境中，把本地代码仓库与任务交给离线 agent 与工作流执行，并在终端界面取回结果；但公开证据中没有任何材料描述这一任务、输入材料或交付物。
+  job_en: The candidate summary claims developers in air-gapped or data-restricted environments hand local
+    repositories and tasks to an offline agent/workflow and retrieve results in a TUI; however, no public
+    evidence describes this task, its inputs, or deliverables.
+  pain: 公开证据未记录任何与离线 agent 执行相关的痛点、频率或不解决的后果；现有材料只涉及少儿编程课程与竞赛，无法支撑该痛点。
+  pain_en: Public evidence records no pain, frequency, or consequence tied to offline agent execution;
+    the available material concerns kids' coding classes and competitions only, so the claimed pain is
+    unsupported.
+  current_alternative: 公开材料未说明开发者目前如何完成离线 agent 任务，也未记录任何被替代的旧做法或 workaround。
+  current_alternative_en: Public materials do not show how developers currently perform offline agent
+    tasks, nor any replaced practice or workaround.
+  usage_reason: 由于公开证据中不存在该产品的功能、用户或使用记录，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果；任何使用理由都只能是推断且缺乏依据。
+  usage_reason_en: Because no public evidence covers this product's capabilities, users, or usage, no
+    step-reduction or verifiable outcome versus the old approach can be stated; any usage reason would
+    be unsupported inference.

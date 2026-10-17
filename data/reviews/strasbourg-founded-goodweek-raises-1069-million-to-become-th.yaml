@@ -1,0 +1,86 @@
+- id: req-initial-strasbourg-founded-goodweek-raises-1069-million-to-become-th-2026-10-17
+  project_slug: strasbourg-founded-goodweek-raises-1069-million-to-become-th
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中小企业无人专职管理、任务漏跟的问题，旧替代行为明确，属工作流推理。
+    evidence_ids:
+    - ev-8488fb36fb9c0d9b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，缺少客户采用与持续使用证据。
+    evidence_ids:
+    - ev-8488fb36fb9c0d9b
+  - gate: model
+    status: insufficient
+    reason: 买方与收费方式未披露，是判断而非已验证事实。
+    evidence_ids:
+    - ev-8488fb36fb9c0d9b
+  - gate: truth
+    status: insufficient
+    reason: 管理动作的准确性与人工确认边界未披露。
+    evidence_ids:
+    - ev-8488fb36fb9c0d9b
+  next_validation: Goodweek 官方产品页或定价页，说明面向的中小企业类型、收费方式与客户案例。
+  market: ''
+  job: 中小企业主或管理者在日常经营中，处理排班、任务跟进与客户沟通等经营材料，要推进当天必须完成的经营事项。
+  job_en: SMB owners or managers handling scheduling, task follow-up and customer communication during
+    daily operations need to push forward the operational items that must be done that day.
+  pain: 没有专职管理层，经营者被琐事占满，任务容易漏跟、排班靠临时协调。
+  pain_en: With no dedicated management layer, owners are consumed by chores, tasks slip and scheduling
+    is coordinated ad hoc.
+  current_alternative: 靠微信群、表格和纸质记录人工跟进，或临时找人代管。
+  current_alternative_en: Manual follow-up via chat groups, spreadsheets and paper records, or hiring
+    someone temporarily to cover.
+  usage_reason: 推断：相较靠聊天群和表格人工盯任务，它把经营信息直接转成分派与提醒，省掉逐条催办这一步，因此人手有限的中小企业主会在日常经营中选用；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually tracking tasks in chat groups and spreadsheets,
+    it turns operational information directly into assignments and reminders, removing the step of chasing
+    each item, so owners with limited staff would adopt it in daily operations; no retention or repeat-use
+    evidence was disclosed.'
+- id: req-full-strasbourg-founded-goodweek-raises-1069-million-to-become-th-2026-10-17
+  project_slug: strasbourg-founded-goodweek-raises-1069-million-to-become-th
+  level: full
+  reviewed_at: '2026-10-17T01:13:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中小企业无人专职管理、任务漏跟的问题，旧替代行为明确，属工作流推理。
+    evidence_ids:
+    - ev-8488fb36fb9c0d9b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，缺少客户采用与持续使用证据。
+    evidence_ids:
+    - ev-8488fb36fb9c0d9b
+  - gate: model
+    status: insufficient
+    reason: 买方与收费方式未披露，是判断而非已验证事实。
+    evidence_ids:
+    - ev-8488fb36fb9c0d9b
+  - gate: truth
+    status: insufficient
+    reason: 管理动作的准确性与人工确认边界未披露。
+    evidence_ids:
+    - ev-8488fb36fb9c0d9b
+  next_validation: Goodweek 官方产品页或定价页，说明面向的中小企业类型、收费方式与客户案例。
+  market: ''
+  job: 中小企业主或管理者在日常经营中，处理排班、任务跟进与客户沟通等经营材料，要推进当天必须完成的经营事项。
+  job_en: SMB owners or managers handling scheduling, task follow-up and customer communication during
+    daily operations need to push forward the operational items that must be done that day.
+  pain: 没有专职管理层，经营者被琐事占满，任务容易漏跟、排班靠临时协调。
+  pain_en: With no dedicated management layer, owners are consumed by chores, tasks slip and scheduling
+    is coordinated ad hoc.
+  current_alternative: 靠微信群、表格和纸质记录人工跟进，或临时找人代管。
+  current_alternative_en: Manual follow-up via chat groups, spreadsheets and paper records, or hiring
+    someone temporarily to cover.
+  usage_reason: 推断：相较靠聊天群和表格人工盯任务，它把经营信息直接转成分派与提醒，省掉逐条催办这一步，因此人手有限的中小企业主会在日常经营中选用；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually tracking tasks in chat groups and spreadsheets,
+    it turns operational information directly into assignments and reminders, removing the step of chasing
+    each item, so owners with limited staff would adopt it in daily operations; no retention or repeat-use
+    evidence was disclosed.'

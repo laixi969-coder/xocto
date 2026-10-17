@@ -381,3 +381,55 @@
     point, reducing switching between backends and duplicate entry, so Turkish-speaking developers or
     small publishing teams may choose it when they need to handle version and copy on both stores together;
     this is inferred from product capability and task structure, not confirmed by user feedback or'
+- id: req-full-magaza-mcp-2026-10-17
+  project_slug: magaza-mcp
+  level: full
+  reviewed_at: '2026-10-17T01:11:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决双商店发布中同一版本与文案需在两套后台分别录入核对的重复劳动，痛点来自双后台操作的结构性摩擦；公开仓库说明一个 MCP 服务器接入 App Store Connect 与 Google
+      Play，交付为两边的读取与提交动作，属工作流结构推理，尚无用户抱怨或出错代价的直接证据。
+    evidence_ids:
+    - ev-9a809a1d047d23b3
+    - ev-fadffb1f52cd5ea5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏数从 90 缓慢升至 97，说明有开发者关注，但公开材料没有 issue、discussion 或客户案例显示目标用户已把它放进日常发布流程，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-9a809a1d047d23b3
+    - ev-c1d4d0de11ab5bd3
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未披露定价、付费主体或商业路径；谁付钱、按什么单位收费均属未知，这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-9a809a1d047d23b3
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只说明接入两个商店，未说明覆盖哪些字段、提交是否需人工复核、失败如何回滚，交付能否确定性发生尚缺可复现证据。
+    evidence_ids:
+    - ev-9a809a1d047d23b3
+    - ev-beb0fe49f16485a6
+  next_validation: 追踪 magaza-mcp 仓库的 README、issue 与 discussion，确认它实际覆盖的商店字段、提交是否需人工复核，以及是否有开发者公开描述用它替代双后台手工发布。
+  market: ''
+  job: 土耳其语开发者或小型发行团队在准备上架或更新应用时，需要同时处理 App Store Connect 和 Google Play 两套后台，读取并提交版本、文案与状态，最终完成两边的发布动作。
+  job_en: Turkish-speaking developers or small publishing teams preparing an app launch or update must
+    work across both App Store Connect and Google Play backends, reading and submitting version, copy,
+    and status data to complete the release on both sides.
+  pain: 双后台操作意味着同一份版本与文案要在两处分别录入和核对，状态不一致时需反复切换排查；公开材料只说明产品把两个商店接到同一入口，未给出用户抱怨、频率或出错代价的直接证据，痛点强度属结构推理。
+  pain_en: Dual-backend work means the same version and copy must be entered and checked in two places,
+    and status mismatches force repeated context switching; public materials only show the product unifies
+    both stores into one entry point, with no direct user complaints, frequency, or error-cost evidence,
+    so pain intensity is structural inference.
+  current_alternative: 当前替代方式是分别登录 App Store Connect 与 Google Play 后台手工操作，或使用各自独立的 API 脚本与第三方发布工具；公开材料未说明用户此前具体用哪种方式。
+  current_alternative_en: The current alternative is logging into App Store Connect and Google Play separately
+    and working manually, or using separate API scripts and third-party release tools; public materials
+    do not specify which approach users previously used.
+  usage_reason: 推断：相较分别登录两个后台手工核对，该 MCP 服务器把两个商店的接口收敛到同一入口，由 AI 助手代为读取和提交，减少的是在两套界面间切换与重复录入这一步负担；土耳其语开发者或小团队在需要同时维护双商店版本与文案时会因此选择它。
+  usage_reason_en: 'Inference: compared with logging into two backends and checking manually, this MCP
+    server converges both store APIs into one entry point where an AI assistant reads and submits on the
+    user''s behalf, removing the step of switching between two interfaces and re-entering the same data;
+    Turkish-speaking developers or small teams maintaining both stores'' versions and copy would choose
+    it for this reason.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxPNTRMOXNFdDZD
 summary: Over 40% of Americans have felt duped by AI ads before, new survey suggests New York Post
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

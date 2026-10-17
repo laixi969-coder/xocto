@@ -1,0 +1,82 @@
+- id: req-initial-基元律动宣布开发者入驻超30万开启双11预售福利-2026-10-17
+  project_slug: 基元律动宣布开发者入驻超30万开启双11预售福利
+  level: initial
+  reviewed_at: '2026-10-17T00:31:00Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未写出，无法还原旧流程与交付结果，价值关证据不足。
+    evidence_ids:
+    - ev-4988ca80618f92fa
+  - gate: consensus
+    status: insufficient
+    reason: 30万开发者入驻是规模信号，但材料未说明这些开发者是否持续使用或付费，共识关证据不足。
+    evidence_ids:
+    - ev-4988ca80618f92fa
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、计费方式或买方，无法判断收入来自开发者订阅、调用量还是其他来源。
+    evidence_ids:
+    - ev-4988ca80618f92fa
+  - gate: truth
+    status: insufficient
+    reason: 无法确认它是否贴近开发者第一性目标、承诺能否确定性交付，求真关证据不足。
+    evidence_ids:
+    - ev-4988ca80618f92fa
+  next_validation: 收集基元律动官方产品页或文档，确认其具体功能、计费方式与开发者实际使用场景。
+  market: ''
+  job: 候选材料未说明开发者具体在什么情况下、处理什么材料、要完成什么任务，只提到开发者入驻这一事实。
+  job_en: The material does not state under what circumstances developers use it, what material they handle,
+    or what task they complete; it only mentions developer sign-ups.
+  pain: 材料未描述任何具体痛点，无法判断开发者原来卡在哪一步。
+  pain_en: No concrete pain point is described, so it is impossible to tell which step previously blocked
+    developers.
+  current_alternative: 材料未提及开发者此前用什么方式完成同类工作。
+  current_alternative_en: The material does not mention what developers previously used to do comparable
+    work.
+  usage_reason: 仅有入驻规模与预售福利，属于关注度证据，不能解释开发者为何选择它；缺少具体功能、替代步骤与交付结果，无法形成使用理由。
+  usage_reason_en: Only sign-up scale and a presale offer are given, which are attention signals and cannot
+    explain why developers choose it; without concrete features, replaced steps or deliverables, no usage
+    reason can be formed.
+- id: req-full-基元律动宣布开发者入驻超30万开启双11预售福利-2026-10-17
+  project_slug: 基元律动宣布开发者入驻超30万开启双11预售福利
+  level: full
+  reviewed_at: '2026-10-17T01:14:20Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料只给出30万开发者入驻与双11预售福利，未说明开发者要完成什么任务、卡在哪一步、原来如何绕过，也无可还原的输入—动作—交付闭环，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-4988ca80618f92fa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪基元律动官网产品页与开发者文档，确认其具体功能、输入输出与计费方式，以还原可核验的使用场景。
+  market: ''
+  job: 材料只说明基元律动（Token Rhythm）面向开发者并有超30万开发者入驻，未交代开发者在什么情况下、处理什么材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The material only states that Token Rhythm targets developers and has over 300,000 developer
+    sign-ups; it does not specify under what circumstances developers use it, what material they handle,
+    or what task they complete, so no concrete job can be reconstructed.
+  pain: 公开材料未描述任何具体痛点，无法判断开发者原来卡在哪一步、不解决会有什么后果。
+  pain_en: The public material describes no concrete pain point, so it is impossible to tell which step
+    previously blocked developers or what the consequence of not solving it would be.
+  current_alternative: 材料未提及开发者此前用什么方式完成同类工作，也没有可对照的旧流程。
+  current_alternative_en: The material does not mention what developers previously used to do comparable
+    work, and offers no old workflow for comparison.
+  usage_reason: 仅有30万开发者入驻与双11预售福利，属于规模与关注度信号，不能解释开发者为何选择它；缺少具体功能、被替代的步骤与交付结果，无法形成使用理由。
+  usage_reason_en: Only 300,000 developer sign-ups and a Double 11 presale offer are given, which are
+    scale and attention signals and cannot explain why developers choose it; without concrete features,
+    replaced steps or deliverables, no usage reason can be formed.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQWTV5NS1MZHZC
 summary: Amazon's New Gadgets Include An AI Assistant That's Always Listening To You BGR
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

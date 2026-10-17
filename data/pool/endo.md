@@ -21,7 +21,7 @@ canonical_url: https://github.com/longsurf-ai/endo
 summary: A Higher-Order Harness
 first_seen: '2026-10-17T00:30:22Z'
 last_seen: '2026-10-17T00:30:22Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

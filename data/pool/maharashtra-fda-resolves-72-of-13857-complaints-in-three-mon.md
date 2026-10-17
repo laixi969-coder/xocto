@@ -1,12 +1,16 @@
 ---
 slug: maharashtra-fda-resolves-72-of-13857-complaints-in-three-mon
-name: Maharashtra FDA resolves 72% of 13,857 complaints in three months; AI filters out over 11,000 invalid
-  submissions
+name: Maharashtra FDA
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是印度马哈拉施特拉邦食品药品管理局的监管流程变化：该机构在三个月内处理了 13,857 件投诉中的 72%，并用 AI 过滤掉超过 11,000 件无效提交。它说明公共监管机构开始把
+  AI 用在投诉初筛环节，减少人工分拣无效材料的负担；但这是政府机构内部流程，不是可独立购买的产品，具体 AI 由谁提供、如何部署均未披露。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a regulatory-process change at India''s Maharashtra Food and Drug Administration:
+  the agency resolved 72% of 13,857 complaints in three months and used AI to filter out more than 11,000
+  invalid submissions. It shows a public regulator applying AI to complaint triage, cutting manual sorting
+  of invalid filings; it is an internal government workflow, not an independently purchasable product,
+  and the AI vendor and deployment details are undisclosed.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +27,7 @@ summary: Maharashtra FDA resolves 72% of 13,857 complaints in three months; AI f
   invalid submissions The Hindu
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# Maharashtra FDA resolves 72% of 13,857 complaints in three months; AI filters out over 11,000 invalid submissions
+# Maharashtra FDA
 
 Maharashtra FDA resolves 72% of 13,857 complaints in three months; AI filters out over 11,000 invalid submissions The Hindu
 

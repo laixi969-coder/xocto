@@ -82,3 +82,52 @@
   usage_reason_en: 'Inference: versus digging through slow logs after the fact, a resident local agent
     can point at the affected queries when a regression appears, removing the manual plan-comparison step,
     so teams without a dedicated DBA but with a database-critical product are more likely to adopt it.'
+- id: req-full-rdst-2026-10-17
+  project_slug: rdst
+  level: full
+  reviewed_at: '2026-10-17T01:13:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布或流量变化后查询性能回退的发现与定位需求，痛点是回退常在投诉后才暴露、人工比对慢日志与执行计划成本高；这是基于产品说明与工作流的结构推理，尚无用户抱怨或事故记录佐证。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+    - ev-4e3a608f5b3e57fd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有仓库自述，未发现可归因到该产品的采用、留存或团队使用记录，中文生态检索也未发现相关讨论，共识强度无法判断。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+    - ev-1a7cd9795bb7c511
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明托管服务、支持合同或按实例收费等付费路径，买方与定价属判断而非已验证事实；开源本地 agent 的变现方式仍不明确。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+  - gate: truth
+    status: insufficient
+    reason: 本地 agent 的数据库权限范围、误报率与人工确认边界未在公开材料中说明，能否确定性交付回退结论仍待核验。
+    evidence_ids:
+    - ev-09a2980f2ce7cbb5
+    - ev-4e3a608f5b3e57fd
+  next_validation: 追踪 RDST 仓库的 README、issue 与 discussion，确认安装方式、告警输出形式，以及是否有团队在生产环境使用的公开记录。
+  market: ''
+  job: 数据库工程师在版本发布或流量结构变化后，面对 Postgres/MySQL 实例中成百上千条查询，需要判断哪些查询的执行表现发生了回退，并定位到具体查询与改动。
+  job_en: After a release or traffic-mix change, database engineers facing hundreds of queries on Postgres/MySQL
+    instances must determine which queries regressed and trace them to a specific query and change.
+  pain: 公开材料只说明它监控查询回退，未给出用户抱怨或事故记录；从工作流看，回退通常在用户投诉或延迟告警后才暴露，而慢查询日志与执行计划需要人工逐条比对，偶发查询容易漏掉，这是结构推理而非用户口述。
+  pain_en: Public material only states it watches for query regressions, with no user complaints or incident
+    records; structurally, regressions surface only after user complaints or latency alerts, and slow
+    logs plus execution plans must be compared by hand, easily missing intermittent queries — this is
+    inference, not user testimony.
+  current_alternative: 依赖数据库自带慢查询日志、APM 面板或自建脚本定期巡检，再人工比对历史执行计划与查询统计。
+  current_alternative_en: Relying on built-in slow query logs, APM dashboards, or self-written periodic
+    scripts, then manually comparing historical execution plans and query statistics.
+  usage_reason: 推断：相较事后翻慢日志并逐条比对执行计划，常驻本地 agent 持续观察查询表现并在回退出现时直接标出受影响查询，省去人工筛选与历史比对这一步，因此数据库是核心依赖但缺少专职
+    DBA 的团队更可能在发布后选择它。
+  usage_reason_en: 'Inference: versus digging through slow logs and comparing plans one by one after the
+    fact, a resident local agent continuously watches query behavior and flags affected queries when a
+    regression appears, removing the manual filtering and historical comparison step, so teams with a
+    database-critical product but no dedicated DBA are more likely to adopt it after a release.'

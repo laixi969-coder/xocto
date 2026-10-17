@@ -1,0 +1,89 @@
+- id: req-initial-opencode-rust-2026-10-17
+  project_slug: opencode-rust
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只知它是本地编码代理，说不清替代哪一步旧工作与不用的后果，价值关未过。
+    evidence_ids:
+    - ev-4056edbab8a99a94
+    - ev-4d792dce251fff82
+    - ev-4b291d8a0599e0d7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，星数从 62 增至 72，属关注度而非采用证据。
+    evidence_ids:
+    - ev-4056edbab8a99a94
+    - ev-4d792dce251fff82
+    - ev-4b291d8a0599e0d7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，开源项目无定价或付费路径披露。
+    evidence_ids:
+    - ev-4056edbab8a99a94
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，代理实际改动代码的确定性无法判断。
+    evidence_ids:
+    - ev-4b291d8a0599e0d7
+  next_validation: 收集该仓库的 issue 与 release 说明，确认本地代理实际支持的编码任务与免 Docker 部署的可复现步骤。
+  market: ''
+  job: 有代码保密或离线要求的开发者在本地机器上要跑起 AI 编码代理，完成代码修改任务，且不依赖 Docker。
+  job_en: Developers with code-confidentiality or offline requirements need to run an AI coding agent
+    on a local machine to complete code changes without relying on Docker.
+  pain: 候选材料只说明它是 Rust 写的本地代理且不需要 Docker，没有说明用户现在卡在哪一步、不解决会失去什么，痛点无法从公开事实还原。
+  pain_en: The material only says it is a Rust local agent that needs no Docker, not where users get stuck
+    or what they lose, so the pain cannot be reconstructed from public facts.
+  current_alternative: 可能使用其他编码代理或容器化部署方式，但候选未给出任何替代行为的描述。
+  current_alternative_en: Possibly other coding agents or container-based deployment, but the candidate
+    describes no alternative behaviour.
+  usage_reason: 推断：若它确实免去 Docker 依赖，受限环境里的开发者会在本地部署时试用；但缺少具体动作与结果证据，无法说明为何被持续选择。
+  usage_reason_en: 'Inference: if it truly removes the Docker dependency, developers in restricted environments
+    might try it for local deployment; without concrete action or outcome evidence, there is no basis
+    to say why it would be chosen repeatedly.'
+- id: req-full-opencode-rust-2026-10-17
+  project_slug: opencode-rust
+  level: full
+  reviewed_at: '2026-10-17T01:12:37Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只知它是 Rust 本地编码代理且免 Docker，说不清替代哪一步旧工作、不用的后果与交付结果，免 Docker 属部署偏好而非刚性痛点，价值关未过。
+    evidence_ids:
+    - ev-4056edbab8a99a94
+    - ev-4d792dce251fff82
+    - ev-4b291d8a0599e0d7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 release 说明，确认本地代理实际支持的编码任务与免 Docker 部署的可复现步骤。
+  market: ''
+  job: 有代码保密或离线要求的后端开发者在本地机器上启动 AI 编码代理，处理自有代码库的修改任务，且不希望依赖 Docker 运行环境。
+  job_en: Backend developers with code-confidentiality or offline requirements start an AI coding agent
+    on a local machine to handle code changes in their own repositories without depending on a Docker
+    runtime.
+  pain: 公开材料只说明它是 Rust 写的本地代理、免 Docker，没有说明用户当前卡在哪一步、不解决会失去什么；免 Docker 本身是部署偏好，不是可核对的痛点。
+  pain_en: Public material only states it is a Rust local agent that needs no Docker; it does not say
+    where users currently get stuck or what they lose. Avoiding Docker is a deployment preference, not
+    a verifiable pain.
+  current_alternative: 可能使用其他编码代理或容器化部署方式，但候选材料未给出任何替代行为的描述。
+  current_alternative_en: Possibly other coding agents or container-based deployment, but the candidate
+    material describes no alternative behaviour.
+  usage_reason: 推断：若它确实免去 Docker 依赖，受限环境里的开发者可能在本地部署时试用；但缺少具体动作与结果证据，无法说明为何被持续选择。
+  usage_reason_en: 'Inference: if it truly removes the Docker dependency, developers in restricted environments
+    might try it for local deployment; without concrete action or outcome evidence, there is no basis
+    to say why it would be chosen repeatedly.'

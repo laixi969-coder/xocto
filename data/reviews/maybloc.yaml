@@ -1,0 +1,85 @@
+- id: req-initial-maybloc-2026-10-17
+  project_slug: maybloc
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是多人音频转写中说话人区分与准确率的问题，痛点真实存在，但公开材料只有一句 SOTA 声明，说不清输入、输出与交付形态，价值结构无法还原。
+    evidence_ids:
+    - ev-b1471ff39654871b
+  - gate: consensus
+    status: insufficient
+    reason: 除一条产品社区条目外没有用户评价、客户案例或采用迹象，无法判断是否有人真的把它放进工作流。
+    evidence_ids:
+    - ev-b1471ff39654871b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式或买方类型，按份收费还是按席位收费无从判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b1471ff39654871b
+  - gate: truth
+    status: insufficient
+    reason: SOTA 声明没有给出评测集、对比基线或可复现样例，无法核对承诺能否确定性交付，也看不到人工校对边界。
+    evidence_ids:
+    - ev-b1471ff39654871b
+  next_validation: 收集 Maybloc 官方页面或文档，确认其输入格式、是否输出带说话人标签与时间戳的稿件、评测基准与定价页。
+  market: ''
+  job: 会议记录者、播客制作人或取证人员拿到一段多人交替发言的录音，需要把它整理成能分清谁说了什么、可归档或可引用的文字稿。
+  job_en: A meeting note-taker, podcast producer or evidence handler has a recording of several people
+    speaking in turn and needs it turned into a transcript that shows who said what and can be archived
+    or cited.
+  pain: 多人音频里说话人重叠、串音和口音会让通用转写出错，人工回听逐句核对耗时，且错误在需要留档的场景里代价高。
+  pain_en: Overlapping speech, crosstalk and accents make general transcription error-prone, and manually
+    re-listening line by line is slow, with mistakes costly wherever records must be kept.
+  current_alternative: 目前多用通用转写服务或人工听打，再靠人工补说话人标签和时间戳。
+  current_alternative_en: Today people mostly use general transcription services or human typists, then
+    add speaker labels and timestamps by hand.
+  usage_reason: 推断：如果它确实在多说话人音频上把说话人区分和词错率同时做好，用户就不必再回听整段录音去补标签，可直接拿到可归档的稿件；但公开材料只有一句 SOTA 声明，没有评测、样例或定价，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if it really improves both speaker separation and word error rate on multi-speaker
+    audio, users would no longer need to re-listen to the whole recording to add labels and could get
+    an archivable transcript directly; however the public material is a single SOTA claim with no benchmark,
+    sample or pricing, so it is unconfirmed that this step is actually reduced.'
+- id: req-full-maybloc-2026-10-17
+  project_slug: maybloc
+  level: full
+  reviewed_at: '2026-10-17T01:11:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决的是多人音频转写中说话人区分与准确率的问题，痛点真实存在，但公开材料只有一句 SOTA 声明，说不清输入、输出与交付形态，价值结构无法还原。
+    evidence_ids:
+    - ev-b1471ff39654871b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Maybloc 官方页面或文档，确认其输入格式、是否输出带说话人标签与时间戳的稿件、评测基准与定价页。
+  market: ''
+  job: 会议记录者、播客制作人或取证人员拿到一段多人交替发言的录音，需要把它整理成能分清谁说了什么、可归档或可引用的文字稿。
+  job_en: A meeting note-taker, podcast producer or evidence handler has a recording of several people
+    speaking in turn and needs it turned into a transcript that shows who said what and can be archived
+    or cited.
+  pain: 多人音频里说话人重叠、串音和口音会让通用转写出错，人工回听逐句核对耗时，且错误在需要留档的场景里代价高。
+  pain_en: Overlapping speech, crosstalk and accents make general transcription error-prone, and manually
+    re-listening line by line is slow, with mistakes costly wherever records must be kept.
+  current_alternative: 目前多用通用转写服务或人工听打，再靠人工补说话人标签和时间戳。
+  current_alternative_en: Today people mostly use general transcription services or human typists, then
+    add speaker labels and timestamps by hand.
+  usage_reason: 推断：如果它确实在多说话人音频上把说话人区分和词错率同时做好，用户就不必再回听整段录音去补标签，可直接拿到可归档的稿件；但公开材料只有一句 SOTA 声明，没有评测、样例或定价，无法确认这一步负担是否真的被减少。
+  usage_reason_en: 'Inference: if it really improves both speaker separation and word error rate on multi-speaker
+    audio, users would no longer need to re-listen to the whole recording to add labels and could get
+    an archivable transcript directly; however the public material is a single SOTA claim with no benchmark,
+    sample or pricing, so it is unconfirmed that this step is actually reduced.'

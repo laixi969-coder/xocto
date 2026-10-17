@@ -88,3 +88,53 @@
   usage_reason_en: 'Inference: compared with outsourcing or learning motion software, it turns templates
     into an open .motion format that can be handed directly to an assistant, removing the build-from-scratch
     step, so frequent, budget-limited talking-head creators would choose it when they need animated packaging.'
+- id: req-full-adu-motion-video-2-2026-10-17
+  project_slug: adu-motion-video-2
+  level: full
+  reviewed_at: '2026-10-17T01:08:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播与知识讲解视频的动画包装需求，痛点是外包贵慢、自学动效软件门槛高、模板格式不通用难以复用；旧替代为外包或手工搭建，不解决则每期从零做动画。属工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-9c8e8c5a9d0a6395
+    - ev-ec91d7f3af6904cb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 304 升至 333，仅属关注度信号，无创作者反馈、成片案例或重复使用证据，无法判断是否进入稳定工作流。
+    evidence_ids:
+    - ev-9c8e8c5a9d0a6395
+    - ev-ec91d7f3af6904cb
+    - ev-3af85d5ba0a1681c
+  - gate: model
+    status: insufficient
+    reason: 模板以开放格式公开下载，未披露收费方式；买方可能是个人创作者或小型制作团队，付费路径未公开，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9c8e8c5a9d0a6395
+  - gate: truth
+    status: insufficient
+    reason: 无法核对助手生成动画的成品质量、失败率与人工返工比例，交付确定性缺少公开材料支撑。
+    evidence_ids:
+    - ev-ec91d7f3af6904cb
+    - ev-3af85d5ba0a1681c
+  next_validation: 追踪 MotionGit 上 @adunext 模板页与对应仓库的 issue/discussion，收集创作者实际使用中出现的失败环节、返工情况与是否重复取用模板的公开记录。
+  market: ''
+  job: 口播或知识讲解类视频创作者在需要给成片加动画包装时，从 MotionGit 下载 .motion 模板文件，直接发给自己的 AI 助手，由助手生成代码级动画片段，再拼进最终视频。
+  job_en: Talking-head or explainer video creators who need animated packaging for a finished video download
+    a .motion template from MotionGit, hand the file to their own AI assistant, and have it generate code-level
+    animated segments to assemble into the final video.
+  pain: 动画包装要么外包给动效师，贵且排期慢；要么自己学 After Effects 一类软件，学习成本高；模板格式不通用，换工具就复用不了，导致每期视频都要从零搭动画。
+  pain_en: Animated packaging is either outsourced to motion designers (costly, slow turnaround) or requires
+    learning tools like After Effects; non-portable template formats mean every episode rebuilds animation
+    from scratch.
+  current_alternative: 外包动效制作，或自己用剪辑与动效软件手工搭建模板，或直接放弃动画包装只做纯口播。
+  current_alternative_en: Outsourcing motion design, hand-building templates in editing and motion software,
+    or dropping animated packaging entirely and shipping plain talking-head video.
+  usage_reason: 推断：相较外包或自学动效软件，它把模板做成开放 .motion 格式，用户只需把文件发给已有助手即可生成动画，省去从零搭建和跨工具转换这一步；因此高频出片、预算有限、已用
+    AI 助手的口播与知识讲解创作者会在需要包装时选择它。
+  usage_reason_en: 'Inference: versus outsourcing or learning motion software, it ships templates as an
+    open .motion format that users hand to an assistant they already use, removing the build-from-scratch
+    and cross-tool conversion step; so frequent, budget-limited talking-head and explainer creators already
+    using an AI assistant would pick it when packaging is needed.'

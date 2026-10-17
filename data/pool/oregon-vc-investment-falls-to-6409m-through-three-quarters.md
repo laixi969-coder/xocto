@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNWHNtM1Z0OU9n
 summary: Oregon VC investment falls to $640.9M through three quarters The Business Journals
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

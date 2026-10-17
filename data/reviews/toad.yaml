@@ -1,0 +1,91 @@
+- id: req-initial-toad-2026-10-17
+  project_slug: toad
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决远程操作自有设备时的登录与命令执行负担，但材料只有一句描述，说不清具体工作节点、输入材料与交付结果，痛点强度无法判断。
+    evidence_ids:
+    - ev-41f6409518670df6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：公开材料没有用户评价、采用或讨论证据，无法判断是否有人真的把 agent 指向自有机器。
+    evidence_ids:
+    - ev-41f6409518670df6
+  - gate: model
+    status: insufficient
+    reason: 未进入：没有定价页、客户案例或采购信息，买方与付费路径均未披露，无法判断钱从哪来。
+    evidence_ids:
+    - ev-41f6409518670df6
+  - gate: truth
+    status: insufficient
+    reason: 未进入：agent 操作真实机器的权限边界、失败处理与人工确认环节均未说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-41f6409518670df6
+  next_validation: 收集 Toad 官方产品页或文档，确认它支持的连接方式、权限控制与是否公布定价。
+  market: ''
+  job: 个人开发者或小团队在需要操作自己名下的服务器、家用主机等设备时，把 AI agent 指向这些机器，让它代为执行命令或任务，并拿到机器上的执行结果。
+  job_en: An individual developer or small team, needing to operate servers or home hosts they own, points
+    an AI agent at those machines so it runs commands or tasks and returns the execution result on the
+    machine.
+  pain: 远程操作自有设备通常要在终端、SSH 配置和多个主机之间来回切换，重复输入命令；候选材料没有说明这一步具体难在哪里，痛点强度无法从现有事实确认。
+  pain_en: Operating owned machines remotely usually means switching between terminals, SSH configs and
+    multiple hosts and retyping commands; the candidate material does not state what specifically hurts
+    here, so pain intensity cannot be confirmed from available facts.
+  current_alternative: 现有做法是 SSH、终端脚本或现成的远程运维工具，由人自己登录并逐条执行命令。
+  current_alternative_en: The current approach is SSH, terminal scripts or existing remote-ops tooling,
+    where a person logs in and runs commands one by one.
+  usage_reason: 推断：如果它能把“登录主机—找命令—执行—核对输出”压缩成一次指向机器的自然语言指令，用户会在管理多台自有设备、且愿意让 agent 触碰生产环境时选择它；但候选材料只有一句产品描述，没有说明权限控制、失败回滚或与现有
+    SSH 流程的差别，因此选择理由尚不成立。
+  usage_reason_en: 'Inference: if it compresses "log into host, find command, execute, check output" into
+    one natural-language instruction aimed at a machine, users managing several owned devices who accept
+    an agent touching production would choose it; but the candidate offers only one product line, with
+    no permission control, rollback or contrast with existing SSH workflows, so the reason to choose is
+    not yet established.'
+- id: req-full-toad-2026-10-17
+  project_slug: toad
+  level: full
+  reviewed_at: '2026-10-17T01:13:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决远程操作自有设备时的登录与命令执行负担，但材料只有一句描述，说不清具体工作节点、输入材料与交付结果，痛点强度无法判断。
+    evidence_ids:
+    - ev-ec18f751fdc89654
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Toad 官方产品页或文档，确认它支持的连接方式、权限控制与是否公布定价。
+  market: ''
+  job: 个人开发者或小团队在需要操作自己名下的服务器、家用主机等设备时，把 AI agent 指向这些机器，让它代为执行命令或任务，并拿到机器上的执行结果。
+  job_en: An individual developer or small team, needing to operate servers or home hosts they own, points
+    an AI agent at those machines so it runs commands or tasks and returns the execution result on the
+    machine.
+  pain: 远程操作自有设备通常要在终端、SSH 配置和多个主机之间来回切换，重复输入命令；候选材料没有说明这一步具体难在哪里，痛点强度无法从现有事实确认。
+  pain_en: Operating owned machines remotely usually means switching between terminals, SSH configs and
+    multiple hosts and retyping commands; the candidate material does not state what specifically hurts
+    here, so pain intensity cannot be confirmed from available facts.
+  current_alternative: 现有做法是 SSH、终端脚本或现成的远程运维工具，由人自己登录并逐条执行命令。
+  current_alternative_en: The current approach is SSH, terminal scripts or existing remote-ops tooling,
+    where a person logs in and runs commands one by one.
+  usage_reason: 推断：如果它能把“登录主机—找命令—执行—核对输出”压缩成一次指向机器的自然语言指令，用户会在管理多台自有设备、且愿意让 agent 触碰生产环境时选择它；但候选材料只有一句产品描述，没有说明权限控制、失败回滚或与现有
+    SSH 流程的差别，因此选择理由尚不成立。
+  usage_reason_en: 'Inference: if it compresses "log into host, find command, execute, check output" into
+    one natural-language instruction aimed at a machine, users managing several owned devices who accept
+    an agent touching production would choose it; but the candidate offers only one product line, with
+    no permission control, rollback or contrast with existing SSH workflows, so the reason to choose is
+    not yet established.'

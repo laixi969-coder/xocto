@@ -225,3 +225,48 @@
     packages virtual-camera capture, glyph tracking, two fframes passes, an SkSL shader and sound synthesis
     into one reproducible pipeline, cutting frame-by-frame alignment and separate scoring steps, so post-production
     people making agent demos would try it; the repo has no user cases or retention evidence yet.'
+- id: req-full-ff-tracking-2026-10-17
+  project_slug: ff-tracking
+  level: full
+  reviewed_at: '2026-10-17T01:10:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理屏幕录制素材需要字形跟踪与重新配音的问题，旧做法是在通用剪辑软件里逐帧手工处理，痛点具体、不处理则素材无法成片；这是基于公开功能说明的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 222 升至 445，说明有持续关注，但公开材料没有用户评价、案例或采用记录，无法判断后期人员是否已把它纳入常规流程。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+    - ev-024441525171e48a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何收费、赞助或服务模式，钱可能来自 to C 开发者捐赠或 to B 定制，均属判断而非已验证事实，无定价页不等于需求不成立。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只描述两遍 fframes、一个 SkSL 着色器与声音合成，未说明输入格式、输出规格与人工确认边界，承诺能否确定性交付仍缺可核对依据。
+    evidence_ids:
+    - ev-bdfcf94f5ee88eab
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认输入输出规格、依赖环境，以及是否有使用者贴出实际成片或反馈。
+  market: ''
+  job: 视频剪辑师或视觉特效师在制作 AI 代理演示、教程或特效短片时，处理代理屏幕录制素材，要完成字形跟踪、画面合成与音效制作，输出可用的成片素材。
+  job_en: A video editor or VFX artist producing an AI agent demo, tutorial or effects short works with
+    agent screen recordings to complete glyph tracking, compositing and sound design into usable footage.
+  pain: 代理屏幕录制里的文字与界面元素需要逐帧跟踪并重新配音，手工在通用剪辑软件里做既慢又容易错位；不处理则素材只是原始录屏，无法直接用于成片。
+  pain_en: Text and UI elements in agent screen recordings need frame-by-frame tracking and re-scoring;
+    doing this by hand in general editors is slow and drifts, and skipping it leaves raw screen capture
+    unusable as finished footage.
+  current_alternative: 在 After Effects 等软件里手动搭建跟踪与合成，或直接使用未加工的屏幕录制。
+  current_alternative_en: Manual tracking and compositing in tools like After Effects, or shipping raw
+    screen recordings.
+  usage_reason: 推断：它把虚拟摄影机拍摄、字形跟踪、两遍 fframes 处理、SkSL 着色器与声音合成打包成一条可复现管线，省去在通用剪辑软件里逐步搭建跟踪与配音的环节，因此做代理演示素材的后期人员会尝试它；仓库尚无用户案例或留存证据。
+  usage_reason_en: 'Inference: it packages virtual-camera capture, glyph tracking, two fframes passes,
+    an SkSL shader and sound synthesis into one reproducible pipeline, removing the step of building tracking
+    and scoring by hand in general editors, so post-production people making agent demos would try it;
+    the repo has no user cases or retention evidence yet.'

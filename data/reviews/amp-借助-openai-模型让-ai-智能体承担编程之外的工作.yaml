@@ -1,0 +1,86 @@
+- id: req-initial-amp-借助-openai-模型让-ai-智能体承担编程之外的工作-2026-10-17
+  project_slug: amp-借助-openai-模型让-ai-智能体承担编程之外的工作
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知道它做编程之外的工作，具体任务、输入材料与交付物均未说明，连解决什么需求都难以还原，价值关证据不足。
+    evidence_ids:
+    - ev-dd562aaa950a2087
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道标题，没有用户评价或采用数据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-dd562aaa950a2087
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或收费方式，无法判断钱来自团队订阅还是按结果计费。
+    evidence_ids:
+    - ev-dd562aaa950a2087
+  - gate: truth
+    status: insufficient
+    reason: 无法核对非编码任务的产出准确性与人工复核边界，也无法判断是否贴近工程工作的第一性目标。
+    evidence_ids:
+    - ev-dd562aaa950a2087
+  next_validation: 收集 Amp 官方文档或定价页，确认它支持的非编码任务类型、接入系统与收费方式。
+  market: ''
+  job: 工程团队在编码之外，需要处理依赖评估、事故复盘、发布说明等重复性文字与整理工作。
+  job_en: Beyond coding, engineering teams need to handle repetitive writing and organising work such
+    as dependency assessment, incident post-mortems and release notes.
+  pain: 这类工作挤占工程师时间且容易被拖延，但本批材料没有说明具体是哪些任务、由谁在做、耗时多少，痛点强度无法确认。
+  pain_en: Such work eats engineer time and is easily deferred, but this batch does not say which tasks,
+    who does them or how long they take, so pain intensity cannot be confirmed.
+  current_alternative: 现有做法是工程师手工整理，或把材料贴进通用对话助手再自行改写。
+  current_alternative_en: Current practice is engineers assembling these documents by hand, or pasting
+    material into a general chat assistant and rewriting it themselves.
+  usage_reason: 推断：若智能体能直接读取仓库与工单材料并产出可用的复盘或说明草稿，工程师可省去从零起草这一步；但材料未说明它接入哪些系统、产出是否可直接使用，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the agent can read repo and ticket material and produce usable post-mortem
+    or release-note drafts, engineers could skip drafting from scratch; but the material does not say
+    which systems it connects to or whether output is directly usable, so selection by users cannot yet
+    be confirmed.'
+- id: req-full-amp-借助-openai-模型让-ai-智能体承担编程之外的工作-2026-10-17
+  project_slug: amp-借助-openai-模型让-ai-智能体承担编程之外的工作
+  level: full
+  reviewed_at: '2026-10-17T01:08:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 材料只有一句“让智能体承担编程之外的工作”，未说明具体任务、输入材料、交付物与不解决的后果，连解决什么需求、什么痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-9374880c1ceb91db
+    - ev-02b630f97b6ca728
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Amp 官方产品页或文档，确认它支持的非编码任务类型、接入系统与交付方式（是否需人工复核）。
+  market: ''
+  job: 工程团队在已有编码智能体的前提下，把编码之外的重复性工作（如依赖评估、事故复盘、发布说明等文字与整理任务）交给智能体处理。
+  job_en: Engineering teams that already use coding agents want to hand repetitive non-coding work (such
+    as dependency assessment, incident post-mortems and release notes) to an agent.
+  pain: 公开材料只给出“让智能体承担编程之外的工作”这一句定位，没有说明具体是哪些任务、由谁执行、耗时多少、不解决会有什么后果，痛点强度无法还原。
+  pain_en: The public material only gives the positioning line 'agents take on work beyond coding'; it
+    does not say which tasks, who performs them, how long they take, or what happens if unsolved, so pain
+    intensity cannot be reconstructed.
+  current_alternative: 公开材料未披露现有替代方式；按工作流结构推断，工程师目前手工整理这些材料，或贴进通用对话助手后自行改写。
+  current_alternative_en: The public material does not disclose current alternatives; by workflow inference,
+    engineers assemble such material by hand or paste it into a general chat assistant and rewrite it
+    themselves.
+  usage_reason: 推断：若智能体能直接读取仓库与工单材料并产出可用的复盘或说明草稿，工程师可省去从零起草这一步；但材料未说明它接入哪些系统、产出是否可直接使用，因此无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the agent can read repo and ticket material and produce usable post-mortem
+    or release-note drafts, engineers could skip drafting from scratch; but the material does not say
+    which systems it connects to or whether output is directly usable, so which users would choose it
+    and when cannot be confirmed.'

@@ -23,7 +23,7 @@ summary: Rising Customer Service Complaints Highlight Need for Traders to Streng
   Consumers Consumer Council Launches Complaint Handling ePlatform to Enhance Resolution Efficiency 消費者委員會
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

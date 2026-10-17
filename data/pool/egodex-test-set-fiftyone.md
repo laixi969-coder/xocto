@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/harpreetsahota/egodex-fiftyone
 summary: Egocentric manipulation with 3D skeleton annotations
 first_seen: '2026-08-27T18:18:21Z'
 last_seen: '2026-08-28T06:07:41Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:
@@ -30,6 +30,7 @@ sightings:
   seen_at: '2026-08-28T06:07:41Z'
   metrics:
     likes: 2
+  kind: product
 ---
 
 # EgoDex Test Set — FiftyOne

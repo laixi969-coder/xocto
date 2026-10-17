@@ -306,3 +306,50 @@
   usage_reason_en: 'No evidence-backed adoption reason can be given: the evidence contains no user feedback,
     customer case or usage record, so it cannot show which step is reduced versus the old approach, and
     no checkable causal choice can be stated.'
+- id: req-full-invisible-playwright-mcp-2026-10-17
+  project_slug: invisible-playwright-mcp
+  level: full
+  reviewed_at: '2026-10-17T01:11:13Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向 Invisible Technologies 企业服务、词典释义与隐形字符工具，与该 MCP 项目无关，无法还原它解决什么需求、痛点是否刚性，价值关不成立。
+    evidence_ids:
+    - ev-8fa6bdbcc8d6dd7a
+    - ev-fd7df90237a909c3
+    - ev-fd59fe89dc736ced
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 MCP 项目自身的官方仓库 README、issue 与 discussion，确认其反检测能力说明、被目标站点封禁的记录及是否有企业采用或付费支持。
+  market: ''
+  job: 数据采集或自动化测试工程师在目标站点启用反爬与验证码、常规脚本被拦截时，把该 MCP 服务接入 AI 代理，让代理在反检测 Firefox 上打开页面、点击并抓取，产出可用的页面数据或操作结果。
+  job_en: A data-collection or automation-testing engineer, when a target site enables anti-bot and captcha
+    defenses that block ordinary scripts, wires this MCP server into an AI agent so the agent browses,
+    clicks and scrapes on stealth Firefox to produce usable page data or action results.
+  pain: 公开材料中没有任何该产品自身的用户痛点、抱怨或 workaround 记录；现有证据只涉及 Invisible Technologies 的企业后台自动化服务、词典释义和隐形字符生成器，均与该
+    MCP 项目无关，无法据此确认被拦截后的具体损失。
+  pain_en: No user pain, complaint or workaround record for this product itself appears in the public
+    material; the evidence only covers Invisible Technologies' enterprise back-office automation, a dictionary
+    entry and an invisible-character generator, none related to this MCP project, so the concrete cost
+    of being blocked cannot be confirmed.
+  current_alternative: 公开材料未记录该项目的用户当前如何绕过反爬；只能从任务结构推断可能自建 Selenium/Playwright 加代理池与指纹补丁，或购买商业采集接口，但这是推理而非有引用的事实。
+  current_alternative_en: The public material does not record how this project's users currently bypass
+    anti-bot defenses; one can only infer from task structure that they may self-build Selenium/Playwright
+    with proxy pools and fingerprint patches, or buy commercial scraping APIs, but this is inference,
+    not cited fact.
+  usage_reason: 缺少该产品自身的功能说明、文档或用户反馈，无法说明它相较旧做法具体减少哪一步负担或改善哪项可核对结果，因此不能给出有依据的使用理由。
+  usage_reason_en: With no product-specific documentation, feature description or user feedback, there
+    is no way to state which step it removes or which checkable result it improves versus the old approach,
+    so no evidence-based usage reason can be given.

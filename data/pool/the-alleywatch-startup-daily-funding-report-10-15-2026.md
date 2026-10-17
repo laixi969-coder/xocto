@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOOE1Wckh6QXRZ
 summary: 'The AlleyWatch Startup Daily Funding Report: 10/15/2026 AlleyWatch'
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

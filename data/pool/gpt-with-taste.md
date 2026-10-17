@@ -22,7 +22,7 @@ summary: Better judgment. Better taste. Less ceremony. System instructions and s
   GPT in Codex.
 first_seen: '2026-10-17T00:30:30Z'
 last_seen: '2026-10-17T00:30:30Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

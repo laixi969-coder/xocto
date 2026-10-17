@@ -273,3 +273,51 @@
     into parameters by hand; front-end/product engineers iterating on motion would pick it when they need
     runnable animation code fast. Output quality and framework coverage are not documented, so the motive
     is structural inference.'
+- id: req-full-claude-motion-2026-10-17
+  project_slug: claude-motion
+  level: full
+  reviewed_at: '2026-10-17T01:09:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决动效实现中设计意图到可运行代码的翻译与反复调参问题，痛点在于设计师与前端来回沟通、逐帧比对参数、跨框架重写；不采用则每次改动都要重跑一遍。仓库定位与持续增长的 star 说明有开发者关注，但输入输出细节未披露，价值判断为工作流结构推理。
+    evidence_ids:
+    - ev-7c8692ef22a8f874
+    - ev-d51c6604fec15119
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 290 增至 445，说明持续有关注度，但公开材料没有 issue、discussion、使用反馈或客户案例，无法判断是否被真实项目持续采用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-7c8692ef22a8f874
+    - ev-d51c6604fec15119
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何定价、付费或采购路径，买方是个人开发者、团队还是企业均未知；这是判断而非已验证事实，但不足以否定需求本身。
+    evidence_ids:
+    - ev-7c8692ef22a8f874
+  - gate: truth
+    status: insufficient
+    reason: 材料只有一句定位，未说明接收的设计输入形式、产出的代码形态、是否需人工逐项核对，以及动效代码能否直接上线；确定性交付与人工边界无法评估。
+    evidence_ids:
+    - ev-7c8692ef22a8f874
+    - ev-eed72bf9f4f283aa
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认它接收的设计输入形式、产出的代码形态，以及是否有真实项目采用记录。
+  market: ''
+  job: 前端或产品工程师在给网页、应用实现动效时，把设计师给出的动效意图（时长、缓动、位移、层级）转成可运行的动画代码，并在评审后反复微调参数直至上线。
+  job_en: 'Front-end or product engineers implementing motion for web pages and apps: turning a designer''s
+    motion intent (duration, easing, offsets, layering) into runnable animation code, then repeatedly
+    tuning parameters through review until ship.'
+  pain: 动效实现依赖设计师与前端来回沟通，参数靠肉眼逐帧比对，改一次时长或缓动就要重跑一遍；不同框架（CSS/JS/动效库）写法不通用，同一效果要重写。
+  pain_en: Motion implementation depends on back-and-forth between designer and front-end, parameters
+    are matched frame by frame by eye, and any change to duration or easing forces a re-run; syntax differs
+    across CSS/JS/motion libraries so the same effect must be rewritten.
+  current_alternative: 手写 CSS/JS 关键帧，或引入现成动效库后逐项改参数；也有人直接抄 CodePen/示例片段再改。
+  current_alternative_en: Hand-writing CSS/JS keyframes, or adopting an existing motion library and adjusting
+    parameters item by item; some copy CodePen/snippet examples and edit them.
+  usage_reason: 推断：若该工具包能让编码代理按设计意图直接产出可运行的动效代码，工程师可省去把设计稿逐帧翻译成参数这一步，并在同一处迭代时长与缓动；因此会在需要快速产出并反复调参的动效任务中被选用。材料未披露产出质量与框架覆盖，采用动机属结构推理。
+  usage_reason_en: 'Inference: if the toolkit lets a coding agent emit runnable motion code from design
+    intent, engineers skip translating design frames into parameters by hand and iterate duration/easing
+    in one place; that is why it would be chosen for motion tasks needing fast output and repeated tuning.
+    Output quality and framework coverage are undisclosed, so the motive is structural reasoning.'

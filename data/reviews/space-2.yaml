@@ -85,3 +85,43 @@
   usage_reason_en: 'No evidence explains why users would choose it: the evidence items are entirely mismatched
     with the product topic, with no user feedback or customer cases, so any usage reason would be unsupported
     inference.'
+- id: req-full-space-2-2026-10-17
+  project_slug: space-2
+  level: full
+  reviewed_at: '2026-10-17T01:13:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向 NASA、Space.com 与维基百科的太空主题内容，与 agent 代码隔离执行无关，无法还原用户任务、痛点与旧替代，需求结构无从判断。
+    evidence_ids:
+    - ev-110eb7c292b16fbe
+    - ev-592b3aff55c3b333
+    - ev-cd1d6fb8c866f1cd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 SPACE 项目官网或仓库的 README、部署文档与 issue/discussion，确认其是否真实提供 agent 代码隔离执行能力及隔离边界。
+  market: ''
+  job: 平台或后端工程师在自建 agent 执行环境时，需要把 agent 生成的代码与用户提交的代码放进隔离环境运行并回收结果。
+  job_en: Platform or backend engineers building their own agent execution environment need agent-generated
+    and user-submitted code to run in an isolated environment with retrievable results.
+  pain: 公开材料未提供任何关于该产品用户痛点的证据；现有证据全部指向 NASA、Space.com 与维基百科的太空主题内容，与 agent 代码隔离执行无关。
+  pain_en: No public evidence describes user pain for this product; all available evidence points to NASA,
+    Space.com and Wikipedia space-themed content, unrelated to isolated agent code execution.
+  current_alternative: 公开材料未记录任何现有替代方式；无法从证据中还原旧流程。
+  current_alternative_en: No current alternative is documented in the public material; the prior workflow
+    cannot be reconstructed from the evidence.
+  usage_reason: 公开材料未提供任何用户选择该产品的理由；无法从证据中推断采用动机。
+  usage_reason_en: No public material offers a reason users would choose this product; adoption motivation
+    cannot be inferred from the evidence.

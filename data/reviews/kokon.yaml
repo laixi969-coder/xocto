@@ -83,3 +83,50 @@
   usage_reason_en: 'Inference: if the product works as described, one installer removes Python setup and
     one sentence replaces layer work, potentially saving the setup and manual masking steps; but no user
     feedback or case supports this causal chain, so which users would choose it and when cannot be confirmed.'
+- id: req-full-kokon-2026-10-17
+  project_slug: kokon
+  level: full
+  reviewed_at: '2026-10-17T01:11:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地按描述改图的需求：痛点是不想上传素材、不想按量付费、又不想自配 Python 环境，旧做法是云端修图或手动图层。仓库描述已还原输入（照片+一句话）、动作（本机 GPU 跑
+      Qwen-Image 2.1）与交付（改好的图），属工作流结构推理；痛点刚性中等，交付可确定。
+    evidence_ids:
+    - ev-b9f73bee361777ea
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 108 星只反映关注度，不能证明修图师已把它留在工作流；公开材料没有用户评价、案例或重复使用记录，无法判断强场景是否形成。
+    evidence_ids:
+    - ev-b9f73bee361777ea
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或收费方式，买方与付费路径不明；可能走 to C 个人订阅或 to B 团队授权，但这是判断而非已验证事实，也无融资叙事可依。
+    evidence_ids:
+    - ev-b9f73bee361777ea
+  - gate: truth
+    status: insufficient
+    reason: 无法核对本地修图的确定性交付与人工复核边界：公开材料未说明支持的照片类型、输出格式、失败重试与安全边界，MCP 供 AI 代理调用时的权限范围也未披露。
+    evidence_ids:
+    - ev-b9f73bee361777ea
+  next_validation: 追踪 kokon 官网或仓库文档，确认支持的照片类型、输出格式、是否披露定价或付费方式，以及 MCP 调用的权限边界。
+  market: ''
+  job: 摄影师或修图师在本地 Windows 或 Mac 上，面对待修改的照片素材，用一句话描述想要的改动，由本机 GPU 上的 Qwen-Image 2.1 执行修图，最终拿到改好的成品图。
+  job_en: Photographers or retouchers on a local Windows or Mac machine take photos needing changes, describe
+    the desired edit in one sentence, and have Qwen-Image 2.1 run on the local GPU to produce the finished
+    image.
+  pain: 公开材料支持的痛点是：云端修图要上传素材并按量付费，本地跑模型又要自己配 Python 环境；手动图层操作对非专业用户门槛高。素材外传与按量计费是摄影师可感知的负担。
+  pain_en: 'The public material supports these pains: cloud editing requires uploading assets and paying
+    by usage, while running models locally means configuring a Python environment yourself; manual layer
+    work is hard for non-experts. Asset off-boarding and metered billing are tangible burdens for photographers.'
+  current_alternative: 使用云端修图服务，或在 Photoshop 等软件里手动分层调整，或自行搭建本地 Python 推理环境。
+  current_alternative_en: Using cloud editing services, adjusting layers manually in software such as
+    Photoshop, or setting up a local Python inference environment by hand.
+  usage_reason: 推断：相较云端服务，它把素材留在本机、省去上传与按量付费；相较自建本地环境，一个安装包免去配 Python 这一步；相较手动图层，一句话描述替代逐层抠改。因此在意素材不出本机、又不想折腾环境的摄影师或修图师会在本地批量改图时选择它。公开材料尚无用户反馈，持续使用未被证实。
+  usage_reason_en: 'Inference: versus cloud services it keeps assets on-device, removing upload and metered
+    billing; versus self-hosted setups one installer removes the Python configuration step; versus manual
+    layers a single sentence replaces layer-by-layer masking. So photographers or retouchers who care
+    about assets never leaving the machine and dislike environment tinkering would pick it for local batch
+    edits. No user feedback is public, so sustained use is unproven.'

@@ -1,0 +1,85 @@
+- id: req-initial-pomerado-2026-10-17
+  project_slug: pomerado
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无接口站点取数要自建并维护爬虫的问题，痛点具体；买方与付费方式未在材料中出现。
+    evidence_ids:
+    - ev-c8b26a1bd4547d4b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句产品说明，未见用户评价、客户案例或采用记录。
+    evidence_ids:
+    - ev-c8b26a1bd4547d4b
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，to B 还是 to C 无法判断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-c8b26a1bd4547d4b
+  - gate: truth
+    status: insufficient
+    reason: “更快更可靠”为自述，未见可复现测试、成功率或合规说明。
+    evidence_ids:
+    - ev-c8b26a1bd4547d4b
+  next_validation: 收集该产品的官方定价页与文档，核对按什么计价以及是否披露抓取成功率或合规边界。
+  market: ''
+  job: 需要网页数据的开发者或运营人员，在目标站点没有开放接口时，把网址交给工具并要拿到可调用的结构化数据。
+  job_en: A developer or operator needing web data from a site without an open API hands over the URL
+    and expects callable structured data.
+  pain: 没有接口就只能自己写爬虫并长期维护，页面改版或反爬升级后脚本立刻失效。
+  pain_en: Without an API you must write and maintain your own scraper, and any page redesign or anti-bot
+    upgrade breaks the script.
+  current_alternative: 自建爬虫脚本、购买现成数据集，或雇人手工复制页面内容。
+  current_alternative_en: Self-built scraper scripts, buying existing datasets, or paying people to copy
+    page content by hand.
+  usage_reason: 推断：相较自建并维护爬虫，它把页面直接转成可调用接口，省去写解析与持续修补脚本这一步，因此缺少爬虫人力、又依赖少数固定站点的团队会选它。
+  usage_reason_en: 'Inference: versus building and maintaining scrapers, it turns pages directly into
+    callable interfaces, removing the parsing and constant patching step, so teams without scraping staff
+    that depend on a few fixed sites would pick it.'
+- id: req-full-pomerado-2026-10-17
+  project_slug: pomerado
+  level: full
+  reviewed_at: '2026-10-17T01:12:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无开放接口站点取数要自建并维护爬虫的问题，痛点具体且反复发生；不采用就得持续投入解析与修补脚本。买方与付费方式未在材料中出现，属结构推理而非采用事实。
+    evidence_ids:
+    - ev-c8b26a1bd4547d4b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句产品说明，未见用户评价、客户案例或采用记录，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-c8b26a1bd4547d4b
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或收费方式，to B 还是 to C 无法判断；按调用量还是订阅收费属判断，不是已验证事实。
+    evidence_ids:
+    - ev-c8b26a1bd4547d4b
+  - gate: truth
+    status: insufficient
+    reason: “更快更可靠”为自述，未见可复现测试、成功率数据或合规与反爬边界说明，交付确定性尚未核验。
+    evidence_ids:
+    - ev-c8b26a1bd4547d4b
+  next_validation: 追踪 Pomerado 官方定价页与开发者文档，核对按什么计价、是否披露抓取成功率与合规边界。
+  market: ''
+  job: 需要网页数据的开发者或运营人员，在目标站点没有开放接口时，把网址交给 Pomerado，由它把页面转成可调用的 API 并执行浏览器操作，最终拿到可编程调用的结构化数据。
+  job_en: A developer or operator who needs web data from a site without an open API hands the URL to
+    Pomerado, which turns the page into a callable API and performs browser actions, so they end up with
+    programmatically callable structured data.
+  pain: 目标站点没有开放接口时，只能自己写爬虫并长期维护；页面改版、登录态变化或反爬升级都会让脚本失效，取数工作反复返工。
+  pain_en: When the target site has no open API, you must write and maintain your own scraper; page redesigns,
+    session changes, or anti-bot upgrades break the script and force repeated rework.
+  current_alternative: 自建爬虫脚本、购买现成数据集，或雇人手工复制页面内容。
+  current_alternative_en: Self-built scraper scripts, buying existing datasets, or paying people to copy
+    page content by hand.
+  usage_reason: 推断：相较自建并维护爬虫，它把页面直接转成可调用接口，省去写解析逻辑与持续修补脚本这一步，因此缺少爬虫人力、又依赖少数固定站点的团队会在需要稳定取数时选择它。
+  usage_reason_en: 'Inference: versus building and maintaining scrapers, it turns pages directly into
+    callable interfaces, removing the parsing logic and constant script patching step, so teams without
+    scraping staff that depend on a few fixed sites would choose it when they need steady data access.'

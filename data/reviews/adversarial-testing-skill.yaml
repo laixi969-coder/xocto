@@ -1034,3 +1034,46 @@
   usage_reason: 公开代码仓库有 43 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验，无法解释用户为何选择它。
   usage_reason_en: Its public repository has 43 stars, showing developer attention; repeat use and payment
     are not verified, so why users would choose it cannot be explained.
+- id: req-full-adversarial-testing-skill-2026-10-17
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-10-17T01:08:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让两个 AI 对打来测你的产品：一个读源码，一个蒙着眼当黑客”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue / discussion 与 README 更新，确认是否有开发者报告实际跑出的漏洞案例、复现步骤与重复使用记录，以核验交付确定性。
+  market: ''
+  job: 开发者在发布前或安全评审前，把自家代码库交给一个读源码的 AI 与一个只看接口/行为的盲测 AI 互相对打，产出可复现的漏洞与失败用例清单，用于修复或补充测试。
+  job_en: Before release or a security review, a developer feeds their codebase to a source-reading AI
+    and a blind black-box AI that attack each other, producing a reproducible list of vulnerabilities
+    and failing cases to fix or turn into tests.
+  pain: 人工安全测试与红队成本高、周期长，普通开发者写不出足够对抗性的用例；单模型自测容易与自己的假设同源，漏掉真实攻击路径，漏测的后果是上线后才发现漏洞。
+  pain_en: Manual security testing and red-teaming are costly and slow, and ordinary developers cannot
+    write sufficiently adversarial cases; a single model testing its own code shares its own assumptions
+    and misses real attack paths, so gaps surface only after release.
+  current_alternative: 当前替代是人工渗透测试与安全评审、SAST/DAST 扫描器、以及让单个 LLM 直接审代码或写测试；这些要么贵、要么只做模式匹配、要么缺少对抗性视角。
+  current_alternative_en: Today's alternatives are manual pentests and security reviews, SAST/DAST scanners,
+    or asking a single LLM to review code or write tests; these are either expensive, pattern-matching
+    only, or lack an adversarial perspective.
+  usage_reason: 推断：相较单模型自审或纯扫描器，它把“读源码的白盒视角”和“不看源码的盲测攻击视角”拆成两个角色互相出题，开发者只需提供代码库即可拿到对抗性用例，省去自己设计攻击场景这一步；关注该仓库的开发者属于会为省下红队设计成本而试用它的群体。
+  usage_reason_en: 'Inference: versus single-model self-review or pure scanners, it splits a source-reading
+    white-box role and a blind black-box attacker into two agents that challenge each other, so a developer
+    only supplies the codebase and gets adversarial cases, skipping the step of designing attack scenarios
+    themselves; developers watching this repo are the group likely to try it to avoid that red-team design
+    cost.'

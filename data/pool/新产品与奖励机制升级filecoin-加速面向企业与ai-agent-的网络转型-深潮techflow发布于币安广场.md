@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oMXcwc3ZjMDZh
 summary: 新产品与奖励机制升级：Filecoin 加速面向企业与AI Agent 的网络转型| 深潮TechFlow发布于币安广场 Binance
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,85 @@
+- id: req-initial-neophyte-2026-10-17
+  project_slug: neophyte
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决新用户引导流程难被反复检查的问题，但材料只有一句定位，输入、动作与交付都写不出，痛点刚性无法判断。
+    evidence_ids:
+    - ev-d979380deb703ce4
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有一条产品页文案，没有用户评价或采用记录可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-d979380deb703ce4
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露定价、买方或收费方式，无法判断钱可能来自哪一方。
+    evidence_ids:
+    - ev-d979380deb703ce4
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对代理走查结果是否贴近真实新用户行为，也无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-d979380deb703ce4
+  next_validation: 抓取该产品官方页面或演示视频，确认代理执行注册与引导的具体步骤、可覆盖的产品类型与最终交付形式。
+  market: ''
+  job: 尚未确认：材料未说明谁在什么情况下使用、代理接收什么目标产品信息、要产出什么交付物。
+  job_en: 'Unconfirmed: the material does not state who uses it, in what situation, what target-product
+    information the agent receives, or what deliverable it produces.'
+  pain: 只能推断是真人新用户测试招募慢、成本高、难以重复，但没有任何团队抱怨、案例或使用记录支持。
+  pain_en: Only inferable as the slow, costly, hard-to-repeat nature of recruiting real new users for
+    testing, with no team complaint, case, or usage record to support it.
+  current_alternative: 公开材料未提及现有替代方式，无法判断此前是用真人可用性测试、团队内部互测还是录屏工具自查。
+  current_alternative_en: The public material names no current alternative, so it is unclear whether teams
+    previously used human usability tests, internal dogfooding, or screen-recording self-checks.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step of the old routine it removes
+    or which checkable result it improves, so it also cannot say which users would choose it and when.'
+- id: req-full-neophyte-2026-10-17
+  project_slug: neophyte
+  level: full
+  reviewed_at: '2026-10-17T01:12:11Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决新用户引导流程难被反复走查的问题，但公开证据全是 neophyte 一词的词典与植物学释义，与产品无关；输入、动作、交付与不采用的后果都写不出，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-0b6851b92c5bce20
+    - ev-81a380b97f54cd98
+    - ev-58cc0737f7409e16
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Neophyte 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 尚未确认：材料只给出“让 AI 代理注册并走完某产品引导流程”一句定位，未说明谁在什么情况下使用、代理接收什么目标产品信息、要产出录屏、报告还是问题清单。
+  job_en: 'Unconfirmed: the material gives only a one-line positioning about an AI agent signing up and
+    completing a product''s onboarding, without stating who uses it, in what situation, what target-product
+    input the agent receives, or whether the output is a recording, report, or issue list.'
+  pain: 只能推断为真人新用户测试招募慢、成本高、难以重复，但公开证据全是 neophyte 一词的词典与植物学释义，没有任何增长或体验团队抱怨、案例或使用记录支持这一痛点。
+  pain_en: Only inferable as the slow, costly, hard-to-repeat nature of recruiting real new users for
+    testing, but the public evidence consists entirely of dictionary and botany definitions of the word
+    'neophyte', with no growth or UX team complaint, case, or usage record supporting this pain.
+  current_alternative: 公开材料未提及任何现有替代方式，无法判断此前是用真人可用性测试、团队内部互测还是录屏工具自查，因此旧流程的输入与交付都写不出。
+  current_alternative_en: The public material names no current alternative, so it is unclear whether teams
+    previously used human usability tests, internal dogfooding, or screen-recording self-checks; the old
+    routine's inputs and deliverables cannot be written out.
+  usage_reason: 无法判断：材料未说明代理相较旧做法减少哪一步负担或改善哪项可核对结果，且现有证据与产品无关，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step the agent removes or which
+    checkable result it improves versus the old routine, and the available evidence is unrelated to the
+    product, so it cannot say which users would choose it and when.'

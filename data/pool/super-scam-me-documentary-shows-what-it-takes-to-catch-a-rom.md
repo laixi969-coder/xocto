@@ -32,7 +32,7 @@ summary: If you got a DM from an unverified Jon Bon Jovi account after commentin
   losses each year. Read full article Comments
 first_seen: '2026-10-17T00:31:00Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

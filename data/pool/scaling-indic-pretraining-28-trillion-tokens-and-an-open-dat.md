@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/nvidia/scaling-indic-pretraining
 summary: ''
 first_seen: '2026-10-17T00:30:59Z'
 last_seen: '2026-10-17T00:30:59Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

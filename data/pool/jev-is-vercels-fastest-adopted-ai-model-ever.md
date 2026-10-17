@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-
 summary: The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.
 first_seen: '2026-10-17T00:31:00Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

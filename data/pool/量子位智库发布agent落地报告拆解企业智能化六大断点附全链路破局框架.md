@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/503614.html
 summary: Agent究竟该如何深入业务毛细血管？
 first_seen: '2026-10-17T00:31:00Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

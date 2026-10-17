@@ -163,3 +163,50 @@
   usage_reason: 公开证据中没有任何用户反馈或客户案例说明选择理由；仅凭产品功能描述无法推断用户为何会采用它，因此使用理由无法成立。
   usage_reason_en: No user feedback or customer case in the public evidence explains the choice; product
     feature descriptions alone cannot establish why users would adopt it, so no usage reason can be supported.
+- id: req-full-artex-ko-plus-2026-10-17
+  project_slug: artex-ko-plus
+  level: full
+  reviewed_at: '2026-10-17T01:09:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据只显示上游 ARTEX 是 AI 自主渗透测试系统且已闭源停更，社区以源码备份延续；没有任何韩语事故响应功能、输入输出或用户痛点的公开事实，需求与痛点均无法从证据还原。
+    evidence_ids:
+    - ev-9ab7f066aa918caa
+    - ev-ce01320eda5b0ac3
+    - ev-306df20d384f22dd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认是否真实存在韩语事故响应功能及其输入输出，并核对上游 AGPL 分支的商用授权说明。
+  market: ''
+  job: 安全分析师在收到入侵告警后，需要把韩语环境下的日志与告警材料整理成攻击链判断和事故响应报告，交给内部或客户。
+  job_en: After an intrusion alert, a security analyst must turn Korean-language logs and alerts into
+    an attack-chain judgement and incident-response report for internal or client use.
+  pain: 公开材料只说明上游 ARTEX 是 AI 自主渗透测试系统并已闭源停更，未提供任何韩语安全团队在告警到成文之间耗时、漏步骤或语言搬运的痛点证据；该痛点目前是编辑推断，不是公开事实。
+  pain_en: Public material only shows upstream ARTEX is an AI autonomous penetration-testing system that
+    has gone closed-source and stopped updating; there is no public evidence of Korean security teams
+    losing time, missing steps, or shuttling languages between alert and report. That pain is editorial
+    inference, not a public fact.
+  current_alternative: 公开材料显示上游 ARTEX 已闭源停更，社区以源码备份仓库（Hinln/ARTEX，基于 v0.3.15）延续；韩语团队实际替代方式（英文 SIEM/EDR
+    加人工翻译，或厂商模板）在证据中并未出现。
+  current_alternative_en: Public material shows upstream ARTEX went closed-source and stopped updating,
+    with the community continuing via a source-backup repo (Hinln/ARTEX, based on v0.3.15); the actual
+    Korean-team alternative (English SIEM/EDR plus manual translation, or vendor templates) does not appear
+    in the evidence.
+  usage_reason: 推断：若它真把韩语界面与事故响应步骤并入同一条流程，可减少告警到成文之间的翻译与拼接环节；但公开证据只覆盖渗透测试工具的备份与升级说明，没有任何韩语事故响应功能、输入输出或用户选择的证据，因此无法确认哪类用户会因何选择它。
+  usage_reason_en: 'Inference: if it truly folds a Korean interface and response steps into one flow,
+    it could cut translation and assembly between alert and write-up; but the public evidence only covers
+    a pentest tool''s backup and upgrade notes, with no evidence of a Korean incident-response capability,
+    its inputs/outputs, or user choice, so which users would pick it and why cannot be confirmed.'

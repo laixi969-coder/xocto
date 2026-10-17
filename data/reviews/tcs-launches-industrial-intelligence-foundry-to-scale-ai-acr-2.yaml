@@ -1,0 +1,85 @@
+- id: req-initial-tcs-launches-industrial-intelligence-foundry-to-scale-ai-acr-2-2026-10-17
+  project_slug: tcs-launches-industrial-intelligence-foundry-to-scale-ai-acr-2
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只知它用于扩大工程与制造环节的 AI 应用，说不出具体工序、旧做法和不解决的后果，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-09921466f1cc8c14
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且没有客户采用或使用反馈可判断共识。
+    evidence_ids:
+    - ev-09921466f1cc8c14
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立；也未披露定价、买方或收费方式。
+    evidence_ids:
+    - ev-09921466f1cc8c14
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立；交付物与验收标准均未公开。
+    evidence_ids:
+    - ev-09921466f1cc8c14
+  next_validation: 收集 TCS 官方发布或客户案例中关于 Industrial Intelligence Foundry 的具体工序、交付物与验收指标的公开材料。
+  market: ''
+  job: 制造企业的工程或生产团队要把 AI 用到具体工序上，需要有人把现场数据、系统与模型接起来并交付可用结果。
+  job_en: An engineering or production team at a manufacturer wants AI applied to a specific process and
+    needs someone to connect shop-floor data, systems and models and deliver a usable result.
+  pain: 公开材料只说明该平台用于扩大工程与制造环节的 AI 应用，没有说明具体是哪道工序、原来由谁手工完成、不解决会有什么后果，痛点无法还原。
+  pain_en: Public material only says the platform scales AI across engineering and manufacturing; it does
+    not say which process, who did it manually before, or what goes wrong if unsolved, so the pain cannot
+    be reconstructed.
+  current_alternative: 无法从公开材料确认现有替代方式，可能是企业内部 IT 团队、其他系统集成商或既有工业软件厂商。
+  current_alternative_en: The current alternative cannot be confirmed from public material; it may be
+    internal IT teams, other systems integrators, or incumbent industrial software vendors.
+  usage_reason: 推断：若它能把现场数据接入与模型部署打包成一次交付，制造企业可省去自建集成团队的一步；但缺少工序、交付物与验收标准，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it packages shop-floor data integration and model deployment into one
+    delivery, manufacturers could skip building an integration team; but with no process, deliverable
+    or acceptance criteria, it is unclear which users would choose it and when.'
+- id: req-full-tcs-launches-industrial-intelligence-foundry-to-scale-ai-acr-2-2026-10-17
+  project_slug: tcs-launches-industrial-intelligence-foundry-to-scale-ai-acr-2
+  level: full
+  reviewed_at: '2026-10-17T01:13:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只知它用于扩大工程与制造环节的 AI 应用，说不出具体工序、旧做法和不解决的后果，需求与痛点均无法还原。
+    evidence_ids:
+    - ev-aa5a2486a61405a2
+    - ev-773b1d5fc92359e5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 TCS 官方发布或客户案例中关于 Industrial Intelligence Foundry 的具体工序、交付物与验收指标的公开材料。
+  market: ''
+  job: 制造企业的工程或生产团队要把 AI 落到某道具体工序上，需要有人把现场数据、既有系统与模型接起来，并交付可用的结果。
+  job_en: An engineering or production team at a manufacturer wants AI applied to a specific process and
+    needs someone to connect shop-floor data, existing systems and models and deliver a usable result.
+  pain: 公开材料只有“扩大工程与制造环节 AI 应用”的发布表述，没有说明是哪道工序、原来由谁完成、不解决会有什么后果，痛点无法还原。
+  pain_en: Public material only states the platform scales AI across engineering and manufacturing; it
+    does not say which process, who did it before, or what goes wrong if unsolved, so the pain cannot
+    be reconstructed.
+  current_alternative: 公开材料未披露现有替代方式，可能为企业内部 IT 团队、其他系统集成商或既有工业软件厂商，但无证据确认。
+  current_alternative_en: Public material does not disclose the current alternative; it may be internal
+    IT teams, other systems integrators, or incumbent industrial software vendors, but no evidence confirms
+    this.
+  usage_reason: 推断：若它把现场数据接入与模型部署打包成一次交付，制造企业可省去自建集成团队的一步；但缺少工序、交付物与验收标准，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it packages shop-floor data integration and model deployment into one
+    delivery, manufacturers could skip building an integration team; but with no process, deliverable
+    or acceptance criteria, it is unclear which users would choose it and when.'

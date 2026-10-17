@@ -24,3 +24,45 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-proval-2026-10-17
+  project_slug: proval
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自建代码平台团队评审排队慢、外部服务不能用的问题，痛点具体；买方与付费路径未在材料中出现。
+    evidence_ids:
+    - ev-368e49cf9870ff52
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区讨论记录，未见用户评价或团队采用证据。
+    evidence_ids:
+    - ev-368e49cf9870ff52
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或商业支持方式，钱从哪来无法判断。
+    evidence_ids:
+    - ev-368e49cf9870ff52
+  - gate: truth
+    status: insufficient
+    reason: 未见评审准确率、误报率或与人工评审的对照材料，交付质量无法核对。
+    evidence_ids:
+    - ev-368e49cf9870ff52
+  next_validation: 收集该仓库的 issue / discussion 与部署文档，核对实际评审效果、误报情况和自托管部署要求。
+  market: ''
+  job: 使用自建 GitLab、Forgejo 或 公开代码仓库 的团队，在合并请求提交时处理代码改动，要拿到可复核的评审意见。
+  job_en: A team on self-hosted GitLab, Forgejo or public code repository handles code changes at merge-request
+    time and needs reviewable comments.
+  pain: 人工评审排队慢、资深工程师时间被占，而外部评审服务又因代码不能出内网而用不了。
+  pain_en: Human review queues are slow and consume senior engineers' time, while external review services
+    are unusable because code cannot leave the intranet.
+  current_alternative: 靠同事人工评审，或使用必须把代码上传到第三方的托管评审服务。
+  current_alternative_en: Rely on colleagues for manual review, or use hosted review services that require
+    uploading code to a third party.
+  usage_reason: 推断：相较人工首轮评审或上传代码到外部服务，它在自有环境内直接对改动生成评审意见，省去排队等待且不违反内网要求，因此有合规约束的研发团队会选它。
+  usage_reason_en: 'Inference: versus a manual first pass or uploading code to an external service, it
+    generates review comments inside the team''s own environment, removing the queue and the compliance
+    breach, so teams under such constraints would pick it.'

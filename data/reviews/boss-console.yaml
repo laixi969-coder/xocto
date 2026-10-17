@@ -1,0 +1,84 @@
+- id: req-initial-boss-console-2026-10-17
+  project_slug: boss-console
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决常驻代理的管理问题，但公开材料只有一句定位，说不清谁在什么节点用它、处理什么、拿到什么交付，痛点与旧替代均未呈现。
+    evidence_ids:
+    - ev-abf1aba250645910
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：除一句产品定位外，没有用户评价、社区讨论或采用信号可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-abf1aba250645910
+  - gate: model
+    status: insufficient
+    reason: 未进入：公开材料未披露定价、买方类型或收费方式，无法判断钱可能来自哪一方。
+    evidence_ids:
+    - ev-abf1aba250645910
+  - gate: truth
+    status: insufficient
+    reason: 未进入：没有交付确定性、人工边界或安全约束的任何说明，无法核对承诺能否兑现。
+    evidence_ids:
+    - ev-abf1aba250645910
+  next_validation: 收集 BOSS Console 官方产品页或文档，确认它管理代理的具体输入、动作与交付物，以及是否披露定价或客户案例。
+  market: ''
+  job: 尚未明确：公开材料只说明它是常驻代理的控制台，没有写清哪类用户在什么情况下、处理什么材料、要完成什么任务。
+  job_en: 'Not yet clear: the public material only says it is a console for always-on agents, without
+    specifying which user, in what situation, handling what material, to complete what task.'
+  pain: 可推断常驻代理长期运行后需要有人查看状态与产出，但公开材料没有给出任何用户抱怨、替代做法或采用行为来支持这一痛点。
+  pain_en: It can be inferred that long-running agents need someone to check status and output, but the
+    public material offers no user complaint, workaround or adoption behavior to support this pain.
+  current_alternative: 公开材料未提及用户此前用什么方式管理常驻代理，无法确认旧做法是脚本、云平台面板还是人工巡检。
+  current_alternative_en: The public material does not mention how users previously managed always-on
+    agents, so it is unclear whether the old approach was scripts, cloud dashboards or manual checks.
+  usage_reason: 推断：如果用户同时运行多个常驻代理，集中控制台可能减少逐个查看的负担；但缺少功能细节与使用证据，无法说明它相较旧做法具体省掉哪一步。
+  usage_reason_en: 'Inference: if a user runs several always-on agents, a central console might reduce
+    the burden of checking each one; but with no feature detail or usage evidence, it is impossible to
+    say which step it removes versus the old approach.'
+- id: req-full-boss-console-2026-10-17
+  project_slug: boss-console
+  level: full
+  reviewed_at: '2026-10-17T01:09:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决常驻代理的管理问题，但公开材料只有一句定位，说不清谁在什么节点用它、处理什么材料、拿到什么交付，痛点与旧替代均未呈现，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-61ee01e61142b732
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 BOSS Console 官方产品页或仓库 README/文档，确认它管理常驻代理的具体输入、动作与交付物，以及是否披露定价或客户案例。
+  market: ''
+  job: 公开材料只给出“面向常驻 AI 代理的微型操作系统”一句定位，未说明是哪类用户、在什么情况下、处理什么输入材料、要完成什么任务，因此无法还原具体使用场景。
+  job_en: The public material gives only a one-line positioning as 'a tiny OS for your always-on agents'
+    and does not state which user, in what situation, handling what input material, to complete what task,
+    so no concrete usage scenario can be reconstructed.
+  pain: 可推断常驻代理长期运行后需要有人查看状态与产出，但公开材料没有任何用户抱怨、替代做法或采用行为来支撑这一痛点，痛点强度与刚性均无依据。
+  pain_en: It can be inferred that long-running agents need someone to check status and output, but the
+    public material contains no user complaint, workaround or adoption behavior to support this pain,
+    leaving its intensity and rigidity unsupported.
+  current_alternative: 公开材料未提及用户此前用什么方式管理常驻代理，无法确认旧做法是自写脚本、云平台面板还是人工巡检。
+  current_alternative_en: The public material does not mention how users previously managed always-on
+    agents, so it is unclear whether the old approach was custom scripts, cloud dashboards or manual checks.
+  usage_reason: 推断：若用户同时运行多个常驻代理，集中控制台可能减少逐个查看的负担；但缺少功能细节、输入输出说明与使用证据，无法说明它相较旧做法具体省掉哪一步，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if a user runs several always-on agents, a central console might reduce
+    the burden of checking each one; but with no feature detail, input/output description or usage evidence,
+    it is impossible to say which step it removes versus the old approach, or which users would choose
+    it under what circumstances.'

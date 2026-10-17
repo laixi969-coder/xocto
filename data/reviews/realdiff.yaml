@@ -24,3 +24,47 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-realdiff-2026-10-17
+  project_slug: realdiff
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨语言改动中行为变化难以从文本 diff 判断的问题，痛点具体且发生在合并前这一明确节点，旧做法是人工读码加测试。
+    evidence_ids:
+    - ev-70801ce6e3cf07e3
+  - gate: consensus
+    status: insufficient
+    reason: 社区有一定讨论，但没有团队采用、持续使用或替换现有评审流程的公开证据，共识仍停在关注层面。
+    evidence_ids:
+    - ev-70801ce6e3cf07e3
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、企业版或采购记录，钱可能来自开源赞助或后续商业版，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-70801ce6e3cf07e3
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明行为差异如何判定、误报如何处理、是否需人工确认，交付的确定性无法核对。
+    evidence_ids:
+    - ev-70801ce6e3cf07e3
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认六种语言的支持范围、行为差异的判定方式与误报处理，以及是否有团队在评审流程中持续使用。
+  market: ''
+  job: 后端与平台工程师在评审跨语言拉取请求时，面对代码改动，要判断合并后运行时行为是否发生变化。
+  job_en: Backend and platform engineers reviewing cross-language pull requests must judge whether runtime
+    behavior changes after merge.
+  pain: 静态 diff 只显示文本改动，行为变化要靠人读代码或跑测试推断，跨语言改动时这一步负担更重；这是从工具定位推导的痛点，材料未提供用户抱怨。
+  pain_en: A static diff only shows textual changes, so behavioral change must be inferred by reading
+    code or running tests, a heavier burden for cross-language edits; this pain is inferred from the tool's
+    positioning, not from user complaints in the material.
+  current_alternative: 现有做法是人工阅读 diff、依赖单元测试与集成测试，或合并后靠监控发现回归；这是行业通行做法的推断。
+  current_alternative_en: Current practice is manually reading diffs, relying on unit and integration
+    tests, or catching regressions via post-merge monitoring; this is an inference about common practice.
+  usage_reason: 相较只读文本 diff，它在合并前直接给出改动前后的运行时行为差异，把“行为是否变了”从人工推断变成可核对的结果，因此行为回归代价高的团队会在评审阶段选择它；这属于基于产品能力的推断。
+  usage_reason_en: Compared with reading a text diff, it produces a before-and-after runtime behavior
+    difference before merge, turning whether behavior changed from human inference into a checkable result,
+    so teams with costly behavioral regressions may adopt it at review time; this is an inference from
+    product capability.

@@ -1,0 +1,83 @@
+- id: req-initial-beenext-lotus-lead-2m-pre-seed-for-ai-startup-miracly-2026-10-17
+  project_slug: beenext-lotus-lead-2m-pre-seed-for-ai-startup-miracly
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未披露，无法还原用户任务与旧替代，价值关证据不足。
+    evidence_ids:
+    - ev-a5a0d9611009ffc3
+    - ev-614aaa563bcb487f
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资消息，没有场景共识或采用信号，无法判断卡在感知、想象还是场景环节。
+    evidence_ids:
+    - ev-a5a0d9611009ffc3
+  - gate: model
+    status: insufficient
+    reason: 买方与收费方式未披露，to C、to B 还是 to VC 无法判断，属未知而非已验证。
+    evidence_ids:
+    - ev-614aaa563bcb487f
+  - gate: truth
+    status: insufficient
+    reason: 没有交付结果、安全边界或人工确认信息，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-a5a0d9611009ffc3
+  next_validation: 收集 Miracly 官方产品页或应用商店页面，确认其目标用户、输入材料与产出交付。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开 Miracly、处理什么材料、要完成什么任务；无法还原具体使用场景。
+  job_en: Public material does not say who opens Miracly, in what situation, with what material, to finish
+    what task; the concrete use scenario cannot be reconstructed.
+  pain: 材料未披露它针对的具体痛点，只给出融资事实，无法判断用户不采用会失去什么。
+  pain_en: The material discloses no specific pain point, only the funding fact, so what a user loses
+    by not adopting it cannot be judged.
+  current_alternative: 未披露它替代的旧做法或现有替代工具。
+  current_alternative_en: The legacy practice or existing alternative it replaces is not disclosed.
+  usage_reason: 缺少产品功能、输入输出与旧流程对比，无法解释用户为何选择它；仅融资额不构成使用理由。
+  usage_reason_en: Without product features, inputs/outputs or a comparison with the old process, there
+    is no explanation of why a user would choose it; a funding amount alone is not a usage reason.
+- id: req-full-beenext-lotus-lead-2m-pre-seed-for-ai-startup-miracly-2026-10-17
+  project_slug: beenext-lotus-lead-2m-pre-seed-for-ai-startup-miracly
+  level: full
+  reviewed_at: '2026-10-17T01:09:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未披露，无法还原用户任务、旧替代与不采用后果，价值结构无从判断。
+    evidence_ids:
+    - ev-a5a0d9611009ffc3
+    - ev-614aaa563bcb487f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Miracly 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 公开材料未说明谁在什么情况下打开 Miracly、处理什么材料、要完成什么任务；仅知其为 AI 初创公司，具体使用场景无法还原。
+  job_en: Public material does not say who opens Miracly, in what situation, with what material, or to
+    finish what task; it is only known as an AI startup, so the concrete use scenario cannot be reconstructed.
+  pain: 材料只披露 Beenext 与 Lotus 领投 200 万美元 pre-seed 的融资事实，未说明它针对哪类用户的哪个痛点，无法判断不采用会失去什么。
+  pain_en: The material only discloses the funding fact of a $2m pre-seed led by Beenext and Lotus, without
+    stating which user pain point it targets, so what a non-adopter loses cannot be judged.
+  current_alternative: 未披露它替代的旧做法或现有替代工具；检索到的 Gemini、ChatGPT、Perplexity 等通用 AI 助手只是市场背景，不能证明是 Miracly
+    的替代品。
+  current_alternative_en: The legacy practice or existing alternative it replaces is not disclosed; the
+    Gemini, ChatGPT and Perplexity results are only market background and cannot be shown to be substitutes
+    for Miracly.
+  usage_reason: 缺少产品功能、输入输出与旧流程对比，无法解释用户为何选择它；融资额与投资方不构成使用理由，也无法说明它相较旧做法减少了哪一步负担。
+  usage_reason_en: Without product features, inputs/outputs or a comparison with the old process, there
+    is no explanation of why a user would choose it; the funding amount and investors are not a usage
+    reason and do not show which step of the old practice it reduces.

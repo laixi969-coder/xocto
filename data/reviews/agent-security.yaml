@@ -92,3 +92,52 @@
     and detects secrets before the tool call happens, removing the after-the-fact investigation step,
     so teams already running coding agents in production and needing local compliance records would try
     it; stars rising from 69 to 100 only shows growing attention, not sustained use.'
+- id: req-full-agent-security-2026-10-17
+  project_slug: agent-security
+  level: full
+  reviewed_at: '2026-10-17T01:08:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理自动执行命令可能泄密或越权、事后难追溯的问题，旧做法是人工审查与事后翻日志，缺少执行前拦截；公开材料仅描述产品能力，痛点刚性属工作流结构推理。
+    evidence_ids:
+    - ev-9e282935c5c4eee6
+    - ev-cedb663b891c010b
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 69 升到 106 属关注度信号，没有团队采用案例、部署反馈或 issue 讨论说明它已进入实际工作流，也未发现中文生态覆盖。
+    evidence_ids:
+    - ev-9e282935c5c4eee6
+    - ev-212270d7e3b569de
+    - ev-0f31ca1852d01b16
+  - gate: model
+    status: insufficient
+    reason: 开源本地工具未披露商业版本或定价，买方可能是工程团队或安全部门，付费路径未公开，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-cedb663b891c010b
+  - gate: truth
+    status: insufficient
+    reason: 无法核对策略拦截的漏报与误报情况，以及本地部署是否覆盖真实代理行为，交付确定性缺少材料。
+    evidence_ids:
+    - ev-2008a3db129ef7dc
+  next_validation: 查看该仓库的 issue 与部署文档，确认策略拦截在真实代理工作流中的漏报与误报记录。
+  market: ''
+  job: 工程团队在让编码代理修改文件、执行命令或调用外部工具前，需要在本机对代理的工具调用请求做策略校验、密钥检测并留下可审计记录。
+  job_en: Engineering teams, before coding agents modify files, run commands or call external tools, need
+    to validate the agent's tool-call requests against policy, detect secrets and keep an auditable on-device
+    record.
+  pain: 代理自动执行命令可能泄露密钥或做出越权操作，事后难以追溯是哪条指令、哪次调用放行的；公开材料只给出产品能力描述，未提供用户抱怨或事故案例，痛点强度属工作流结构推理。
+  pain_en: Agents running commands automatically can leak secrets or take unauthorized actions, and afterwards
+    it is hard to trace which instruction or call allowed it; public material only describes product capability,
+    with no user complaints or incident cases, so pain intensity is a workflow-structure inference.
+  current_alternative: 靠人工审查代理输出、事后翻日志排查，或在代理配置里手工限制命令白名单，缺少执行前的统一拦截点。
+  current_alternative_en: Manually reviewing agent output, digging through logs afterwards, or hand-maintaining
+    command allowlists in agent config, with no unified pre-execution interception point.
+  usage_reason: 推断：相较事后翻日志或手工维护白名单，它在工具调用发生前按策略拦截并检测密钥，省去事后排查与逐代理改配置这两步，因此已在生产环境跑编码代理的团队会尝试；公开材料未提供用户反馈或客户案例，动机为推断而非事实。
+  usage_reason_en: 'Inference: compared with digging through logs afterwards or hand-maintaining allowlists,
+    it intercepts by policy and detects secrets before the tool call happens, removing the after-the-fact
+    investigation and per-agent config editing steps, so teams already running coding agents in production
+    would try it; public material offers no user feedback or customer cases, so the motive is inferred,
+    not factual.'

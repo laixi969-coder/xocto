@@ -91,3 +91,51 @@
     and outputs one orderable combination, removing the step of comparing rules and re-editing the cart;
     this is an inference from product capability and task structure, and price-sensitive frequent McDonald's
     customers are more likely to choose it when large coupons are available.
+- id: req-full-mcd-saver-strategist-2026-10-17
+  project_slug: mcd-saver-strategist
+  level: full
+  reviewed_at: '2026-10-17T01:11:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决点餐前凑券比价的需求，痛点是券规则分散、人工试算易漏更省组合，社区攻略与 App 内反复加减是已存在的旧替代行为；这是工作流结构推理，尚无用户评价佐证。
+    evidence_ids:
+    - ev-381541fc1e926994
+    - ev-08ee73f8d84ea39e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 104 增至 470 只反映关注度，属规模信号；没有用户评价、复购或持续使用证据，无法判断是否形成稳定使用习惯。
+    evidence_ids:
+    - ev-381541fc1e926994
+    - ev-08ee73f8d84ea39e
+    - ev-d9abb3cccd0d26cf
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或付费路径，买方可能是消费者订阅、品牌方或比赛主办方，属判断而非已验证事实；仅有参赛作品身份，无收入线索。
+    evidence_ids:
+    - ev-08ee73f8d84ea39e
+  - gate: truth
+    status: insufficient
+    reason: 券源获取方式、是否依赖非公开接口、核销与结算能否确定性交付均未说明，且用户仍需自行在官方渠道下单，交付闭环存在缺口。
+    evidence_ids:
+    - ev-381541fc1e926994
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认优惠券数据来源、是否依赖官方授权接口，以及是否有用户反馈实际省下金额。
+  market: ''
+  job: 价格敏感的麦当劳常客在门店或外卖下单前，面对菜单和一堆限时优惠券，要决定怎么组合点单才能花最少的钱吃到想吃的餐。
+  job_en: A price-sensitive frequent McDonald's customer, before ordering in-store or via delivery, faces
+    a menu plus a pile of limited-time coupons and must decide how to combine the order to eat what they
+    want for the least money.
+  pain: 优惠券规则分散、叠加条件复杂，人工逐条试算耗时且容易漏掉更省的组合，多花几十元是常态；公开材料以巨无霸套餐 ¥47→¥21.9 的算例说明价差空间。
+  pain_en: Coupon rules are scattered and stacking conditions complex; manual trial-and-error is slow
+    and easily misses the cheapest combination, routinely costing tens of yuan extra; the public material
+    cites a Big Mac meal dropping from ¥47 to ¥21.9 to show the price gap.
+  current_alternative: 靠小红书、贴吧等社区里别人分享的凑单攻略，或自己在点餐 App 里反复加减商品试算。
+  current_alternative_en: Relying on stacking guides shared by others on communities like Xiaohongshu
+    and Tieba, or repeatedly adding and removing items in the ordering app to test totals.
+  usage_reason: 相较翻攻略再手动试算，它直接拉取菜单与全部可用券并给出一个可照点的组合，省掉逐条比对规则和反复加减商品这一步；这是基于产品能力与任务结构的推断，常点麦当劳且对价格敏感的用户在大额券可用时更可能选择它。
+  usage_reason_en: Versus reading guides and testing manually, it pulls the menu and all available coupons
+    and returns one orderable combination, removing the step of comparing rules and re-editing the cart;
+    this is an inference from product capability and task structure, and price-sensitive frequent McDonald's
+    customers are more likely to use it when large coupons are available.

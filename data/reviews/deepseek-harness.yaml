@@ -957,3 +957,43 @@
     lets users replace a single tool or UI component without rebuilding the whole assistant, reducing
     repeated setup burden for a customized local assistant; stars rising from 170 to 180 show developer
     attention, but no retention or repeat-use evidence shows it is already a long-term part of the workflow.'
+- id: req-full-deepseek-harness-2026-10-17
+  project_slug: deepseek-harness
+  level: full
+  reviewed_at: '2026-10-17T01:10:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让开发者在本地把助手工具、记忆与界面拆成可替换插件，但公开材料只给出插件形态与内部组件仓库收藏数，未说明用户当前如何完成该任务、痛点强度与不解决的后果，无法还原具体旧流程与交付闭环。
+    evidence_ids:
+    - ev-517f8bf37a44e10f
+    - ev-51f8badd4e158c96
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 DeepSeek Harness 官方文档与仓库 issue/discussion，确认插件化本地助手的实际部署方式、被替代的旧流程与用户使用场景。
+  market: ''
+  job: 开发者在自己电脑上运行 DeepSeek 助手，把助手的工具、记忆与界面按需替换成插件，以完成本地可控的助手定制任务。
+  job_en: A developer runs the DeepSeek assistant on their own machine and swaps its tools, memory, and
+    interface as plugins to complete a locally controlled assistant customization task.
+  pain: 公开材料只说明存在可替换插件这一形态，未说明用户当前在本地助手定制上遇到的具体摩擦、发生频率或不解决的后果。
+  pain_en: Public materials only show that swappable plugins exist; they do not state the specific friction,
+    frequency, or consequence users face today in local assistant customization.
+  current_alternative: 公开材料未说明用户目前如何完成本地助手定制，也未说明它实际替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently accomplish local assistant
+    customization or what prior practice it replaces.
+  usage_reason: 公开证据仅有内部组件仓库的收藏数变化（如 dsh-libreoffice-kit 从 173 升至 181），属于关注度信号，不能解释用户为何选择它或是否持续使用；采用动机为推断，缺少用户反馈或案例支持。
+  usage_reason_en: Public evidence is limited to star counts on internal component repositories (e.g.,
+    dsh-libreoffice-kit rising from 173 to 181), which is an attention signal and cannot explain why users
+    choose it or whether they keep using it; adoption motive is inferred, lacking user feedback or cases.

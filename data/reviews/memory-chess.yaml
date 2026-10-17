@@ -1,0 +1,86 @@
+- id: req-initial-memory-chess-2026-10-17
+  project_slug: memory-chess
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决棋局记忆训练这一任务，但材料未说明不采用会失去什么、现有做法哪里难受，痛点无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-11b72ec49d2c71ae
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、采用或重复使用证据，无法判断共识卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-11b72ec49d2c71ae
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或收费方式，无法判断钱来自 to C 订阅、培训机构采购还是其他路径。
+    evidence_ids:
+    - ev-11b72ec49d2c71ae
+  - gate: truth
+    status: insufficient
+    reason: 无法核对记忆训练是否贴近棋力提升的第一性目标，也未说明人工确认或判定对错的边界。
+    evidence_ids:
+    - ev-11b72ec49d2c71ae
+  next_validation: 收集该产品的官方说明或应用商店页面，确认 AI 在记忆训练中具体接收什么输入、如何判定对错并给出反馈。
+  market: ''
+  job: 国际象棋学习者在自己练习或课后复盘时，面对一个棋局局面，需要凭记忆把棋子摆回原位，以训练对局面的记忆。
+  job_en: A chess learner, during solo practice or post-lesson review, faces a board position and must
+    rebuild it from memory to train recall of positions.
+  pain: 候选材料没有说明记忆棋局失败会带来什么具体后果，也没有说明现有做法哪里难受，痛点无法从材料中还原。
+  pain_en: The candidate material does not state what concrete consequence follows from failing to recall
+    a position, nor what is painful about current practice, so the pain point cannot be reconstructed
+    from the material.
+  current_alternative: 材料未提及现有替代方式；按常识推断，学习者可能用实体棋盘、棋谱书或通用棋类应用自行摆子复现，但这是推断，不是材料事实。
+  current_alternative_en: The material mentions no current alternative; by common-sense inference, learners
+    may use a physical board, a notation book, or a general chess app to set up and reproduce positions,
+    but this is inference, not a material fact.
+  usage_reason: 材料只说明可以观察局面后凭记忆重建，未说明相较自行摆子复现减少了哪一步负担或改善了哪项可核对结果，因此无法给出使用理由；这是事实缺口，不是否定需求。
+  usage_reason_en: The material only says a position can be studied and rebuilt from memory; it does not
+    say which step is reduced or which checkable result improves versus setting up pieces manually, so
+    no usage reason can be given; this is a factual gap, not a denial of demand.
+- id: req-full-memory-chess-2026-10-17
+  project_slug: memory-chess
+  level: full
+  reviewed_at: '2026-10-17T01:11:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决棋局记忆训练这一任务，但材料只有一句功能描述，未说明不采用会失去什么、现有做法哪里难受，痛点与刚性均无法还原，价值关证据不足。
+    evidence_ids:
+    - ev-a02c9e4cb1da4b51
+    - ev-6efa6364db85c81b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品的官方说明或应用商店页面，确认 AI 在记忆训练中具体接收什么输入、如何判定对错并给出反馈，以及是否披露定价与买方。
+  market: ''
+  job: 国际象棋学习者在自己练习或课后复盘时，面对一个棋局局面，需要先观察再凭记忆把棋子摆回原位，以训练对局面的记忆。
+  job_en: A chess learner, during solo practice or post-lesson review, faces a board position and must
+    study it then rebuild it from memory to train recall of positions.
+  pain: 候选材料只给出一句功能描述，未说明记忆棋局失败会造成什么具体后果，也未说明现有做法哪里难受，痛点无法从材料还原。
+  pain_en: The candidate material gives only a one-line feature description; it does not state what concrete
+    consequence follows from failing to recall a position, nor what is painful about current practice,
+    so the pain cannot be reconstructed.
+  current_alternative: 材料未提及任何现有替代方式；按常识推断，学习者可能用实体棋盘、棋谱书或通用棋类应用自行摆子复现，但这是推断，不是材料事实。
+  current_alternative_en: The material mentions no current alternative; by common-sense inference, learners
+    may use a physical board, a notation book, or a general chess app to set up and reproduce positions,
+    but this is inference, not a material fact.
+  usage_reason: 材料只说明可观察局面后凭记忆重建，未说明相较自行摆子复现减少了哪一步负担或改善了哪项可核对结果，因此无法给出使用理由；这是事实缺口，不是否定需求。
+  usage_reason_en: The material only says a position can be studied and rebuilt from memory; it does not
+    say which step is reduced or which checkable result improves versus setting up pieces manually, so
+    no usage reason can be given; this is a factual gap, not a denial of demand.

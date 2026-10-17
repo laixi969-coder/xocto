@@ -24,3 +24,47 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-pwnpad-2026-10-17
+  project_slug: pwnpad
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决硬件攻防实操练习的环境搭建问题，但材料未说明具体痛点、旧流程与不解决的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-75902c71009a8e57
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区少量关注，没有课程采购、学员采用或重复使用的公开证据，共识卡在场景未被描述清楚。
+    evidence_ids:
+    - ev-75902c71009a8e57
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、机构采购或按课程收费的任何公开信息，买方与付费路径均属未知。
+    evidence_ids:
+    - ev-75902c71009a8e57
+  - gate: truth
+    status: insufficient
+    reason: 无法判断练习结果是否可核对、是否贴近真实硬件攻防目标，安全边界与人工确认环节也未披露。
+    evidence_ids:
+    - ev-75902c71009a8e57
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认它支持哪些硬件目标、练习如何评分，以及是否有课程或机构采用记录。
+  market: ''
+  job: 硬件安全学习者与安全工程师在准备嵌入式或硬件攻防练习时，面对真实设备与固件材料，要完成从信息收集到漏洞利用的实操任务。
+  job_en: Hardware security learners and engineers preparing embedded or hardware offense exercises work
+    with real devices and firmware material to complete hands-on tasks from reconnaissance to exploitation.
+  pain: 公开材料只说明它是为实操学习而建的平台，没有说明学习者原来卡在哪一步、失败代价是什么，痛点无法从现有事实还原。
+  pain_en: The public material only says it is a platform built for practical learning; it does not say
+    where learners previously got stuck or what failure cost them, so the pain cannot be reconstructed
+    from available facts.
+  current_alternative: 常见替代是自购开发板、跟随博客教程或参加线下实验室课程；这是行业通行做法的推断，候选材料未提供任何替代行为的证据。
+  current_alternative_en: Common alternatives are buying development boards, following blog tutorials,
+    or attending physical lab courses; this is an inference about common practice, and the candidate provides
+    no evidence of actual substitute behavior.
+  usage_reason: 若平台把设备准备、靶场搭建与练习评分预先打包，学习者可省去自行采购与配置环境这一步，因此高校课程或企业内训方可能选择它；这属于基于产品定位的推断，缺少用户反馈或案例支持。
+  usage_reason_en: If the platform pre-packages device setup, range provisioning and exercise scoring,
+    learners skip buying and configuring their own environment, which may lead course or corporate training
+    buyers to choose it; this is an inference from positioning, lacking user feedback or case evidence.

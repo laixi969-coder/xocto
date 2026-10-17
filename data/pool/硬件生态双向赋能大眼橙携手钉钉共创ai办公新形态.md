@@ -1,6 +1,6 @@
 ---
 slug: 硬件生态双向赋能大眼橙携手钉钉共创ai办公新形态
-name: “硬件+生态”双向赋能，大眼橙携手钉钉共创AI办公新形态
+name: 大眼橙
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNdVJ5T0xlUVpB
 summary: “硬件+生态”双向赋能，大眼橙携手钉钉共创AI办公新形态 搜狐
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# “硬件+生态”双向赋能，大眼橙携手钉钉共创AI办公新形态
+# 大眼橙
 
 “硬件+生态”双向赋能，大眼橙携手钉钉共创AI办公新形态 搜狐
 

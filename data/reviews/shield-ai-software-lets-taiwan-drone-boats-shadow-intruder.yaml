@@ -1,0 +1,87 @@
+- id: req-initial-shield-ai-software-lets-taiwan-drone-boats-shadow-intruder-2026-10-17
+  project_slug: shield-ai-software-lets-taiwan-drone-boats-shadow-intruder
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是无人艇自主跟踪海上目标、避免人员随船风险的需求，痛点结构成立；但公开报道只有一句使用描述，未说明交付结果与失败后果，价值判断只能算结构推理。
+    evidence_ids:
+    - ev-43be3095fa21198a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇报道提到台湾无人艇使用该软件，没有采购方、部署数量或重复使用证据，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-43be3095fa21198a
+  - gate: model
+    status: insufficient
+    reason: 报道未披露合同金额、计价方式或买方预算，钱来自国防采购还是合作研发无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-43be3095fa21198a
+  - gate: truth
+    status: insufficient
+    reason: 自主跟踪在通信受限与目标机动时的可靠性、误判风险以及人工接管边界均未在公开材料中说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-43be3095fa21198a
+  next_validation: 收集 Shield AI 官方或台湾方面公开的该无人艇项目部署文档或采购公告，核对软件版本、部署数量与人工接管规则。
+  market: ''
+  job: 台湾方面的海上巡逻人员在近海发现不明闯入船只时，需要让无人艇持续跟踪并尾随该目标，同时避免人员随船进入风险水域。
+  job_en: Taiwanese maritime patrol personnel who spot an unidentified intruding vessel near shore need
+    an unmanned boat to keep tracking and shadowing the target while keeping people out of risky waters.
+  pain: 人工遥控无人艇跟踪移动目标需要持续注意力与稳定通信，一旦信号中断或操作员疲劳，跟踪就会丢失；派人随船则把人员置于风险中。
+  pain_en: Manually remote-controlling a boat to track a moving target demands sustained attention and
+    a stable link; a dropped signal or tired operator loses the track, and putting people aboard exposes
+    them to risk.
+  current_alternative: 旧做法是操作员用遥控台全程手动驾驶无人艇，或直接派有人船只跟随目标；公开材料未说明此前是否已有其他自主跟踪方案。
+  current_alternative_en: The prior practice is an operator manually driving the boat from a remote console,
+    or sending a crewed vessel to follow the target; public material does not say whether another autonomous
+    tracking option existed before.
+  usage_reason: 推断：若软件确实能让无人艇在通信受限时自行保持对目标的跟踪，操作员就从“全程手动驾驶”变为“设定目标后监控”，减少持续操控这一步负担；但公开报道未给出操作流程、失败率或客户反馈，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the software really lets the boat hold a track autonomously under limited
+    communications, the operator shifts from continuous manual driving to setting a target and monitoring,
+    removing the step of constant control; however, the report gives no workflow, failure rate, or customer
+    feedback, so user choice cannot yet be confirmed.'
+- id: req-full-shield-ai-software-lets-taiwan-drone-boats-shadow-intruder-2026-10-17
+  project_slug: shield-ai-software-lets-taiwan-drone-boats-shadow-intruder
+  level: full
+  reviewed_at: '2026-10-17T01:13:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是无人艇自主跟踪海上目标、避免人员随船风险的需求，痛点结构成立；但公开报道只有一句使用描述，未说明交付结果与失败后果，价值判断只能算结构推理。
+    evidence_ids:
+    - ev-11ac79025df33c46
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Shield AI 官方或台湾方面公开的该无人艇项目部署文档或采购公告，核对软件版本、部署数量与人工接管规则。
+  market: ''
+  job: 台湾方面的海上巡逻人员在近海发现不明闯入船只时，需要让无人艇持续跟踪并尾随该目标，同时避免人员随船进入风险水域。
+  job_en: Taiwanese maritime patrol personnel who spot an unidentified intruding vessel near shore need
+    an unmanned boat to keep tracking and shadowing the target while keeping people out of risky waters.
+  pain: 人工遥控无人艇跟踪移动目标需要持续注意力与稳定通信，一旦信号中断或操作员疲劳，跟踪就会丢失；派人随船则把人员置于风险中。
+  pain_en: Manually remote-controlling a boat to track a moving target demands sustained attention and
+    a stable link; a dropped signal or tired operator loses the track, and putting people aboard exposes
+    them to risk.
+  current_alternative: 旧做法是操作员用遥控台全程手动驾驶无人艇，或直接派有人船只跟随目标；公开材料未说明此前是否已有其他自主跟踪方案。
+  current_alternative_en: The prior practice is an operator manually driving the boat from a remote console,
+    or sending a crewed vessel to follow the target; public material does not say whether another autonomous
+    tracking option existed before.
+  usage_reason: 推断：若软件确实能让无人艇在通信受限时自行保持对目标的跟踪，操作员就从“全程手动驾驶”变为“设定目标后监控”，减少持续操控这一步负担；但公开报道未给出操作流程、失败率或客户反馈，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the software really lets the boat hold a track autonomously under limited
+    communications, the operator shifts from continuous manual driving to setting a target and monitoring,
+    removing the step of constant control; however, the report gives no workflow, failure rate, or customer
+    feedback, so user choice cannot yet be confirmed.'

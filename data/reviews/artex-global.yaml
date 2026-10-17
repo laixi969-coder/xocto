@@ -90,3 +90,56 @@
     one, it lets agents run the chain from probing to verification, cutting engineer hours on repetitive
     steps, so budget-constrained teams needing periodic testing would try it first; this is inference
     from capability, with no customer case or retention evidence yet.
+- id: req-full-artex-global-2026-10-17
+  project_slug: artex-global
+  level: full
+  reviewed_at: '2026-10-17T01:08:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权渗透测试中重复探测与验证耗工时、资深人力不足的问题，痛点刚性且旧替代行为明确（人工服务、扫描器加人工验证、上游停更后靠备份仓库续用）；交付闭环为输入目标、代理执行、产出可复核结果，属工作流结构推理。
+    evidence_ids:
+    - ev-fd95381fd81ef450
+    - ev-5e63297f8eda94ca
+    - ev-349b07a9468f81fa
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有百度“agent+”攻防挑战赛冠军与社区备份仓库分享，属关注度与荣誉证据，未见安全团队把它纳入常规测试流程的采用或复购记录。
+    evidence_ids:
+    - ev-5e63297f8eda94ca
+    - ev-fd95381fd81ef450
+  - gate: model
+    status: insufficient
+    reason: 上游已闭源停更、无对外版本与维护支持，公开材料未见定价页或商业交付路径；钱可能来自企业自建部署或安全服务化，属判断而非已验证事实。
+    evidence_ids:
+    - ev-fd95381fd81ef450
+    - ev-349b07a9468f81fa
+  - gate: truth
+    status: challenged
+    reason: 自主攻击行为的安全边界、授权范围校验与误伤责任在公开材料中仅见免责声明，未见可核验的授权校验机制或确定性交付说明，交付确定性存疑。
+    evidence_ids:
+    - ev-fd95381fd81ef450
+    - ev-349b07a9468f81fa
+  next_validation: 追踪该备份仓库的 README、部署文档与 issue/discussion，确认授权范围校验机制与可复现的测试输出格式。
+  market: ''
+  job: 安全工程师在获得客户书面授权的渗透测试项目中，把目标系统或资产清单交给这套 AI 自主渗透测试框架，由代理执行探测与攻击链尝试，最终要拿到可复核的漏洞结果与测试记录。
+  job_en: In a client-authorized penetration-testing engagement, a security engineer hands target systems
+    or an asset list to this AI autonomous pentest framework, agents attempt probing and attack chains,
+    and the engineer needs reviewable vulnerability findings and test records.
+  pain: 人工渗透测试耗时长、依赖资深人员，重复的探测与验证步骤占掉大量工时；中小客户预算下往往只能做一次浅测，覆盖面和频次都受限。
+  pain_en: Manual penetration testing is slow and depends on senior specialists; repetitive probing and
+    verification consume much of the hours, so smaller clients often get only one shallow test with limited
+    coverage and frequency.
+  current_alternative: 目前主要靠人工渗透测试服务、扫描器加人工逐条验证，或干脆不做定期测试；上游 ARTEX 已闭源停更，社区只能靠 公开代码仓库 备份仓库与源码快照继续使用。
+  current_alternative_en: Today this is mainly manual pentest services, scanners plus human verification
+    of each finding, or skipping periodic testing; upstream ARTEX has gone closed-source and stopped updating,
+    so the community relies on public code repository backup repos and source snapshots.
+  usage_reason: 相较扫描器只报疑似问题、人工再逐条验证，它让代理直接跑完从探测到验证的链条，减少安全工程师在重复步骤上的工时；同时备份仓库保留了 Postgres 数据卷、./data 与
+    ./skills，升级只换程序不动数据、重启即迁移，降低了停更后自建维护的迁移负担。因此预算有限但需定期测试、且愿意自行部署的团队会先试用；这是基于产品能力与仓库说明的推断，尚无客户案例或留存证据。
+  usage_reason_en: Compared with scanners that only flag suspected issues and humans verifying each one,
+    it lets agents run the chain from probing to verification, cutting engineer hours on repetitive steps;
+    the backup repo also preserves the Postgres data volume, ./data and ./skills, so upgrades swap only
+    the program and migrate on restart, lowering the migration burden of self-hosting after upstream stopped.
+    So budget-constrained teams needing periodic testing and willing to self-deploy would

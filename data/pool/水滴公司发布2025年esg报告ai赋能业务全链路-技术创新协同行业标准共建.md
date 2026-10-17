@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OSHExanRWXzg5
 summary: 水滴公司发布2025年ESG报告：AI赋能业务全链路 技术创新协同行业标准共建 搜狐网
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

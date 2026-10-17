@@ -1,0 +1,88 @@
+- id: req-initial-ai-video-editor-cooked-2026-10-17
+  project_slug: ai-video-editor-cooked
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播剪辑靠手工反复调、风格模仿需逐条对照的需求，旧做法是手动对照参考视频或套通用模板。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有星标与分支，但无创作者评价或采用案例，无法判断共识卡在感知、想象还是场景。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价，买方是个人创作者还是剪辑服务商属推断，非已验证事实。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  - gate: truth
+    status: insufficient
+    reason: 模仿他人风格涉及授权与合规边界，且成片质量能否稳定交付缺少实测证据。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  next_validation: 抓取该仓库的 README 与 issue/discussion，确认它实际接收的素材格式、剪辑输出范围以及是否有创作者实际使用反馈。
+  market: ''
+  job: 做口播视频的创作者在剪辑节点，处理自己录制的口播素材，要完成把视频剪成接近某位创作者风格的成片。
+  job_en: A creator making talking-head videos at the editing node handles their own recorded talking-head
+    footage, to complete a finished video cut close to a specific creator's style.
+  pain: 口播剪辑的节奏、字幕与转场靠手工反复调，风格模仿需要逐条对照参考视频，耗时且难稳定。
+  pain_en: Pacing, subtitles and transitions in talking-head editing are tuned by hand repeatedly, and
+    imitating a style requires comparing against reference videos clip by clip, which is slow and hard
+    to keep consistent.
+  current_alternative: 旧做法是剪辑师手动对照参考视频逐段调整，或套用通用剪辑模板。
+  current_alternative_en: The old way is for an editor to manually adjust segment by segment against reference
+    videos, or to apply generic editing templates.
+  usage_reason: 推断：相较手动逐段对照参考视频，它把目标风格作为参数交给编码代理执行剪辑，省掉逐条比对与手动调参这一步，因此想稳定输出某种风格的口播创作者会试用；仓库未提供留存或付费证据。
+  usage_reason_en: 'Inference: versus manually comparing against reference videos segment by segment,
+    it passes the target style as a parameter to a coding agent that performs the edit, removing the step
+    of clip-by-clip comparison and manual tuning, so talking-head creators wanting consistent style output
+    would try it; the repository provides no retention or payment evidence.'
+- id: req-full-ai-video-editor-cooked-2026-10-17
+  project_slug: ai-video-editor-cooked
+  level: full
+  reviewed_at: '2026-10-17T01:08:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播剪辑靠手工反复调、风格模仿需逐条对照的需求，旧做法是手动对照参考视频或套通用模板，不解决则每条成片都要重复比对调参。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 68 星标，但无创作者评价或采用案例，无法判断共识卡在感知、想象还是场景。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价，买方是个人创作者还是剪辑服务商属推断，非已验证事实。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  - gate: truth
+    status: insufficient
+    reason: 模仿他人风格涉及授权与合规边界，且成片质量能否稳定交付缺少实测证据。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  next_validation: 抓取该仓库的 README 与 issue/discussion，确认它实际接收的素材格式、剪辑输出范围以及是否有创作者实际使用反馈。
+  market: ''
+  job: 做口播视频的创作者在剪辑节点，处理自己录制的口播素材，要完成把视频剪成接近某位创作者风格的成片。
+  job_en: A creator making talking-head videos at the editing node handles their own recorded talking-head
+    footage, to complete a finished video cut close to a specific creator's style.
+  pain: 口播剪辑的节奏、字幕与转场靠手工反复调，风格模仿需要逐条对照参考视频，耗时且难稳定。
+  pain_en: Pacing, subtitles and transitions in talking-head editing are tuned by hand repeatedly, and
+    imitating a style requires comparing against reference videos clip by clip, which is slow and hard
+    to keep consistent.
+  current_alternative: 旧做法是剪辑师手动对照参考视频逐段调整，或套用通用剪辑模板。
+  current_alternative_en: The old way is for an editor to manually adjust segment by segment against reference
+    videos, or to apply generic editing templates.
+  usage_reason: 推断：相较手动逐段对照参考视频，它把目标风格作为参数交给编码代理执行剪辑，省掉逐条比对与手动调参这一步，因此想稳定输出某种风格的口播创作者会试用；仓库未提供留存或付费证据。
+  usage_reason_en: 'Inference: versus manually comparing against reference videos segment by segment,
+    it passes the target style as a parameter to a coding agent that performs the edit, removing the step
+    of clip-by-clip comparison and manual tuning, so talking-head creators wanting consistent style output
+    would try it; the repository provides no retention or payment evidence.'

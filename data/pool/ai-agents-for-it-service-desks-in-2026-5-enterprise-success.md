@@ -23,7 +23,7 @@ summary: 'AI Agents for IT Service Desks in 2026: 5 Enterprise Success Stories o
   Resolution and Automation InfotechLead'
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

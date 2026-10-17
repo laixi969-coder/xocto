@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTFB2dl9hZjR5ZWlK
 summary: AI基建遭遇压力测试，市场如何定价联想集团？_产业资讯 中金在线
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

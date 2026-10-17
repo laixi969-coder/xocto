@@ -275,3 +275,53 @@
     in the reading view so readers can question the current article without copying text or switching
     windows, removing the text-shuttling step; researchers screening many subscribed articles inside DeepSeek
     Harness would try it.'
+- id: req-full-qiaomu-rss-dsh-2026-10-17
+  project_slug: qiaomu-rss-dsh
+  level: full
+  reviewed_at: '2026-10-17T01:12:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订阅源多、逐篇通读耗时且易漏关键信息的需求，痛点具体；旧做法是通用阅读器加手工摘录或另开对话窗口，不采用则筛选成本高。公开材料仅有仓库标题与星数，交付闭环属工作流结构推理。
+    evidence_ids:
+    - ev-b90179e918f738ee
+    - ev-9ccf6dc2926a99e8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 41 缓慢升至 45，属关注度信号，不能证明研究者已长期用它伴读；公开材料没有用户反馈、案例或重复使用记录，强场景只能从任务结构推断。
+    evidence_ids:
+    - ev-b90179e918f738ee
+    - ev-010c022900035cd2
+  - gate: model
+    status: insufficient
+    reason: 开源项目无公开定价页，付费路径可能是托管服务或定制信息源，这是判断而非已验证事实；谁付钱、按什么计费在公开材料中均未出现，也未发现采购记录。
+    evidence_ids:
+    - ev-8580975a179d45e3
+    - ev-4ff7651e83cab9d0
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 伴读的解读是否准确、是否贴近筛选信息的第一性目标，也缺少可复现测试与安全边界说明；公开材料只有标题与星数，交付确定性尚未被验证。
+    evidence_ids:
+    - ev-9ccf6dc2926a99e8
+    - ev-9a3a203f0e78c465
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认支持的订阅格式、AI 对话能力、实际使用反馈与是否出现付费或托管部署信息。
+  market: ''
+  job: 内容研究者或行业分析师在跟踪多个 RSS 订阅源时，在 DeepSeek Harness 中打开该阅读器，处理订阅源推送的长篇文章，边读边向原生 AI 提问，完成信息筛选与要点提取。
+  job_en: A content researcher or industry analyst tracking multiple RSS feeds opens this reader inside
+    DeepSeek Harness, works through long articles pushed by feeds, and asks the native AI questions while
+    reading to screen information and extract key points.
+  pain: 公开材料只给出仓库标题与星数，未提供用户抱怨或案例；从任务结构看，订阅源多、单篇长，逐篇通读再判断相关性耗时且易漏关键信息，这是工作流推理而非用户口述。
+  pain_en: Public material only gives the repo title and star count, with no user complaints or cases;
+    structurally, many feeds and long items make reading each one to judge relevance slow and easy to
+    miss key points, which is workflow inference rather than user testimony.
+  current_alternative: 用通用 RSS 阅读器或浏览器标签页逐篇阅读，再把正文复制到另一个 AI 对话窗口提问，或手工摘录要点。
+  current_alternative_en: Reading item by item in a general RSS reader or browser tabs, then copying text
+    into a separate AI chat window to ask questions, or taking notes by hand.
+  usage_reason: 推断：相较复制正文到独立对话窗口的旧做法，它把 AI 对话嵌在阅读界面内，读者可就当前文章直接提问，省去切换窗口与粘贴正文这一步；因此需要快速筛选大量订阅文章的研究者会在
+    DeepSeek Harness 环境下选择它。
+  usage_reason_en: 'Inference: compared with copying text into a separate chat window, it embeds AI dialogue
+    in the reading view so readers can question the current article directly, skipping window switching
+    and pasting; researchers who must screen many subscribed articles inside DeepSeek Harness would choose
+    it.'

@@ -1,0 +1,81 @@
+- id: req-initial-harness-by-autonomous-2026-10-17
+  project_slug: harness-by-autonomous
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是多编码代理跨机器运行时状态不可见、失败难回溯的需求，痛点具体；但支持范围与接管机制未核验。
+    evidence_ids:
+    - ev-73fb244362c5d302
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价或采用数据，无法判断工程师是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-73fb244362c5d302
+  - gate: model
+    status: insufficient
+    reason: 未见定价与买方信息，钱可能来自团队席位或按代理数计费，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-73fb244362c5d302
+  - gate: truth
+    status: insufficient
+    reason: 未说明代理出错时人工如何接管、权限边界与回滚方式，这些决定它能否在真实研发流程里确定性交付。
+    evidence_ids:
+    - ev-73fb244362c5d302
+  next_validation: 查看 Harness by Autonomous 官方文档，确认支持的编码代理清单、权限边界与失败回滚机制。
+  market: ''
+  job: 软件工程师或研发负责人在同时运行多个编码代理、分布在不同机器上时，需要知道每个代理在做什么、是否卡住、结果是否可用。
+  job_en: A software engineer or engineering lead running several coding agents across different machines
+    needs to know what each agent is doing, whether it is stuck, and whether its output is usable.
+  pain: 代理分散在多个终端和机器上，状态不可见，容易重复劳动或漏掉失败任务，出问题也难以回溯。
+  pain_en: Agents are scattered across terminals and machines, status is invisible, work gets duplicated
+    or failed tasks are missed, and problems are hard to trace back.
+  current_alternative: 目前靠多个终端窗口、日志文件和人工切换来盯住各个代理。
+  current_alternative_en: Today this is handled with multiple terminal windows, log files and manual switching
+    to keep an eye on each agent.
+  usage_reason: 推断：相较逐个终端切换查看，它把多代理状态收进一个控制台，减少盯守和排查失败任务这一步，因此已同时使用多个编码代理的团队会在并行任务变多时选择它。
+  usage_reason_en: 'Inference: versus switching between terminals, it gathers multi-agent status into
+    one console, cutting the step of watching and diagnosing failed tasks, so teams already running several
+    coding agents would pick it as parallel work grows.'
+- id: req-full-harness-by-autonomous-2026-10-17
+  project_slug: harness-by-autonomous
+  level: full
+  reviewed_at: '2026-10-17T01:10:57Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅有一句产品口号，未说明用户任务、痛点、当前替代方式或不解决的后果，无法还原任何具体工作流，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-c7813983976ead93
+    - ev-7836c90f565db4ff
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查看 Harness by Autonomous 官方文档或产品页，确认其支持的具体编码代理清单、用户任务描述与失败回滚机制。
+  market: ''
+  job: 软件工程师或研发负责人在同时运行多个编码代理、分布在不同机器上时，需要知道每个代理在做什么、是否卡住、结果是否可用。
+  job_en: A software engineer or engineering lead running several coding agents across different machines
+    needs to know what each agent is doing, whether it is stuck, and whether its output is usable.
+  pain: 公开材料未提供任何关于该产品用户痛点的可引用事实，无法确认代理分散、状态不可见等痛点是否真实存在。
+  pain_en: The public materials provide no citable facts about user pain points for this product, so it
+    is impossible to confirm whether pains such as scattered agents or invisible status actually exist.
+  current_alternative: 公开材料未说明用户当前用什么方式替代，无法确认旧做法。
+  current_alternative_en: The public materials do not describe what users currently use as an alternative,
+    so the old approach cannot be confirmed.
+  usage_reason: 公开材料未提供任何用户选择该产品的理由或采用证据，无法解释用户为何会使用它。
+  usage_reason_en: The public materials provide no reason why users would choose this product or any adoption
+    evidence, so it is impossible to explain why users would use it.

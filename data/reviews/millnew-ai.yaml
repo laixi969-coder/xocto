@@ -24,3 +24,45 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-millnew-ai-2026-10-17
+  project_slug: millnew-ai
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决时间序列预测难以解释的问题，痛点真实，但候选只有一句说明，说不清替代了哪一步旧流程。
+    evidence_ids:
+    - ev-577f5458d5f11b3c
+  - gate: consensus
+    status: insufficient
+    reason: 仅 5 个点赞、1 条评论，无用户反馈或采用证据，无法判断是否有人持续使用。
+    evidence_ids:
+    - ev-577f5458d5f11b3c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是团队内部工具还是对外收费产品无法判断，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-577f5458d5f11b3c
+  - gate: truth
+    status: insufficient
+    reason: 解释结果是否可靠、是否需要人工复核，候选未说明，金融场景下的确定性交付无法核对。
+    evidence_ids:
+    - ev-577f5458d5f11b3c
+  next_validation: 收集该项目的官方说明或仓库文档，确认支持的模型类型、解释输出形态与是否有真实使用案例。
+  market: ''
+  job: 数据科学家或风控分析师在时间序列模型上线前，需要说明某个预测由哪些因素驱动，于是把模型和数据交给工具生成解释。
+  job_en: A data scientist or risk analyst, before a time-series model goes live, needs to explain which
+    factors drove a prediction, so they feed the model and data into a tool to generate explanations.
+  pain: 时间序列模型的特征归因比图像文本更难，手工排查耗时且难以复现；但候选未说明具体替代了哪一步现有做法。
+  pain_en: Feature attribution for time-series models is harder than for images or text, and manual investigation
+    is slow and hard to reproduce; the candidate does not say which existing step it replaces.
+  current_alternative: 直接用 Captum、SHAP 等库写脚本，或由分析师手工做特征对比。
+  current_alternative_en: Writing scripts directly with Captum, SHAP and similar libraries, or having
+    analysts compare features by hand.
+  usage_reason: 推断：若它把本地大模型与 Captum 串成一条可复现的解释流程，用户可省去自己搭脚本和写解释文字这一步，因此需要向他人说明预测依据的团队可能试用；候选无客户案例或使用数据，无法确认。
+  usage_reason_en: 'Inference: if it chains local LLMs and Captum into a reproducible explanation flow,
+    users skip building scripts and writing explanation text themselves, so teams that must justify predictions
+    may try it; the candidate has no customer case or usage data to confirm.'

@@ -269,3 +269,52 @@
     output so the user receives a finished single page and skips the copy-and-format step, which is why
     people who often send complex conclusions to non-technical colleagues would choose it; stars rising
     from 2,523 to 3,450 only show developer attention, not sustained use.'
+- id: req-full-answer-me-with-html-2-2026-10-17
+  project_slug: answer-me-with-html-2
+  level: full
+  reviewed_at: '2026-10-17T01:08:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复杂结论难以转成可读交付物的问题，痛点是拿到大段对话后仍需手工复制排版才能发出，不解决就只能转发难读的对话记录；这是基于产品说明与旧流程的结构推理，非用户口述。
+    evidence_ids:
+    - ev-4b3abad1200bc4d9
+    - ev-2d6da13c2445f280
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从2760升至3517，说明开发者关注度持续存在，但公开材料没有非开发者把它放进日常工作流的采用证据，关注度不等于持续使用。
+    evidence_ids:
+    - ev-4b3abad1200bc4d9
+    - ev-577c58fa8bd92502
+  - gate: model
+    status: insufficient
+    reason: 开源技能本身没有公开定价或付费路径，是否有人为版式模板或托管服务付费尚未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4b3abad1200bc4d9
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输出是否稳定、版式是否可控、人工确认环节如何安排，交付确定性缺少可核对证据。
+    evidence_ids:
+    - ev-4b3abad1200bc4d9
+    - ev-9b3b1c7a0d541807
+  next_validation: 追踪该仓库的 issue 与 discussion，确认用户实际用它产出哪类页面、是否出现版式失控或需要人工返工的反馈。
+  market: ''
+  job: 分析师、顾问或研究者在需要向同事或客户解释一个复杂问题时，把零散资料交给 AI，要求直接产出一页可打开、可分享的 HTML 说明页，而不是一段聊天文本。
+  job_en: Analysts, consultants or researchers explaining a complex question to colleagues or clients
+    hand scattered material to an AI and ask it to produce a single openable, shareable HTML explainer
+    page instead of a chat transcript.
+  pain: 公开材料只说明它是把复杂问题变成一页可读 HTML 的技能，未提供用户抱怨或返工记录；从工作流看，旧做法是拿到大段对话后自己复制、排版、截图才能发出去，这一步纯手工且反复发生，不解决就只能转发难以阅读的对话记录。
+  pain_en: Public material only describes a skill that turns hard questions into a readable one-page HTML;
+    no user complaints or rework reports are provided. Structurally, the old way requires copying, laying
+    out and screenshotting a long transcript before it can be sent, a manual step that repeats, and without
+    it users can only forward an unreadable transcript.
+  current_alternative: 把聊天输出粘进 Word、Notion 或 PPT 再手动排版，或直接转发一段难以阅读的对话记录。
+  current_alternative_en: Pasting chat output into Word, Notion or slides and formatting by hand, or forwarding
+    an unreadable transcript.
+  usage_reason: 推断：相较手动排版，它把版式生成放进模型输出环节，用户拿到的是已成形的单页文件，省掉复制与排版这一步，因此经常要把复杂结论发给非技术同事的人会在需要交付说明页时选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: versus manual formatting, it moves layout generation into the model''s
+    output so the user receives a finished single page and skips the copy-and-format step, which is why
+    people who often send complex conclusions to non-technical colleagues would choose it when a deliverable
+    page is needed; no retention or repeat-use evidence is provided.'

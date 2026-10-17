@@ -611,3 +611,51 @@
     and approval in one decision layer, removing the step of releasing each action by hand; inference
     is that multi-agent teams needing audit trails would choose it as flows grow complex, though public
     material offers no customer cases or continued-use evidence.
+- id: req-full-dsh-jev-plugin-2026-10-17
+  project_slug: dsh-jev-plugin
+  level: full
+  reviewed_at: '2026-10-17T01:10:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理执行中选择与审批缺乏统一判断的问题，痛点来自人工逐次放行与事后难追溯；旧做法是自写规则或人工审批，不解决则流程变复杂后放行判断不可复核。此为工作流结构推理，公开材料未提供用户抱怨或案例。
+    evidence_ids:
+    - ev-0237d38ab77c2928
+    - ev-ecef69d5c2afd9d4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 203 缓慢升至 207，属早期关注度而非采用证据；没有用户反馈、issue 讨论或客户案例说明它已进入实际代理流程，无法判断强场景是否形成。
+    evidence_ids:
+    - ev-0237d38ab77c2928
+    - ev-ecef69d5c2afd9d4
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价页、买方或付费路径，钱可能来自 to C 开发者或 to B 团队，但这是判断而非已验证事实；仅凭星标无法确认收入来源。
+    evidence_ids:
+    - ev-ecef69d5c2afd9d4
+  - gate: truth
+    status: insufficient
+    reason: 把审批交给决策层后，判断依据是否可复核、出错时人工如何接管、安全边界在哪，公开材料均未说明；承诺能否确定性交付尚无法核对。
+    evidence_ids:
+    - ev-0237d38ab77c2928
+    - ev-ecef69d5c2afd9d4
+  next_validation: 追踪该插件仓库的 README、部署文档与 issue/discussion，确认决策层是否输出可复核的审批依据及人工接管方式。
+  market: ''
+  job: 在 DeepSeek Harness 上编排多个代理的开发者，在代理执行任务前需要决定由哪个代理执行、执行中监督、出错后纠错，并在放行动作前完成审批，最终拿到一条受监督的代理执行链路。
+  job_en: Developers orchestrating multiple agents on DeepSeek Harness must decide which agent executes,
+    supervise during execution, correct errors, and approve before actions are released, ending with a
+    supervised agent execution chain.
+  pain: 公开材料只说明插件承担选择、监督、纠错与审批，未提供用户抱怨或案例；从工作流结构看，多代理流程中放行判断若靠人工逐次盯守，会拖慢执行且出错后难以追溯是哪一步判断失准。
+  pain_en: Public material only states the plugin handles selection, supervision, correction and approval,
+    with no user complaints or cases; structurally, if release decisions in multi-agent flows rely on
+    manual watching, execution slows and post-error tracing of which judgment failed becomes hard.
+  current_alternative: 开发者自己写路由与审批规则、人工逐次放行，或依赖代理框架自带的简单路由。
+  current_alternative_en: Developers write their own routing and approval rules, release actions manually
+    one by one, or rely on simple routing built into agent frameworks.
+  usage_reason: 相较自写规则与人工逐次放行，该插件把选择与审批集中到一个决策层，减少每次动作都要人工判断这一步；推断需要审计留痕的多代理开发者会在流程变复杂时选择它，但公开材料没有客户案例或持续使用证据，动机属推断。
+  usage_reason_en: Compared with self-written rules and manual per-action release, the plugin centralizes
+    selection and approval in one decision layer, cutting the step of human judgment on every action;
+    inference is that multi-agent developers needing audit trails would choose it as flows grow complex,
+    though public material offers no customer cases or continued-use evidence.

@@ -21,7 +21,7 @@ canonical_url: https://github.com/bbodi/tinywm
 summary: a scrolling window manager for macOS, inspired by Niri
 first_seen: '2026-10-17T00:30:22Z'
 last_seen: '2026-10-17T00:30:22Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

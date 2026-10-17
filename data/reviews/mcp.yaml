@@ -1,0 +1,86 @@
+- id: req-initial-mcp-2026-10-17
+  project_slug: mcp
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决长视频原话难检索的问题，痛点真实但强度未明，公开材料只给出功能描述，未说明谁在什么频率下使用。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库 56 星，属关注度而非采用证据，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是内容团队或研究机构，属判断而非已验证事实。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  - gate: truth
+    status: insufficient
+    reason: 检索范围、字幕覆盖与引用准确性均未披露，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  next_validation: 收集 Arcmira 官方定价页或客户案例，确认检索范围、交付格式与是否已有付费使用。
+  market: ''
+  job: 内容研究者或市场分析师在需要核实某位嘉宾在长视频里说过什么时，检索 YouTube 字幕并定位带时间戳的原话、提及品牌与赞助信息。
+  job_en: Content researchers or market analysts verifying what a guest said in a long video search YouTube
+    transcripts to locate timestamped quotes, brand mentions and sponsorship disclosures.
+  pain: 长视频与播客没有可检索文本，人工逐段听写或翻字幕找一句原话耗时且容易漏掉赞助与提及。
+  pain_en: Long videos and podcasts have no searchable text, so manually listening or scrubbing subtitles
+    for one quote is slow and easily misses sponsorships and mentions.
+  current_alternative: 人工拖进度条听、看 YouTube 自带字幕搜索，或用通用转录工具导出全文后自行检索。
+  current_alternative_en: Manually scrubbing the timeline, using YouTube's built-in caption search, or
+    exporting a full transcript with a generic transcription tool and searching it by hand.
+  usage_reason: 推断：相较人工听写，它把字幕直接变成可检索索引并返回带时间戳的引用，省掉定位与摘录这一步，因此需要出处的尽调与选题人员会在核查原话时选择它；公开材料未见留存或付费证据。
+  usage_reason_en: 'Inference: versus manual listening, it turns captions into a searchable index and
+    returns timestamped citations, removing the locate-and-excerpt step, so diligence and editorial users
+    who need sources would pick it when verifying quotes; no retention or payment evidence appears in
+    public material.'
+- id: req-full-mcp-2026-10-17
+  project_slug: mcp
+  level: full
+  reviewed_at: '2026-10-17T01:11:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频原话难检索的问题，痛点真实且刚性，公开材料已说明检索字幕并返回带时间戳引用，交付可确定。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库 56 星，属关注度而非采用证据，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是内容团队或研究机构，属判断而非已验证事实。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  - gate: truth
+    status: insufficient
+    reason: 检索范围、字幕覆盖与引用准确性均未披露，交付能否确定发生无法核对。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  next_validation: 收集 Arcmira 官方定价页或客户案例，确认检索范围、交付格式与是否已有付费使用。
+  market: ''
+  job: 内容研究者或市场分析师在需要核实某位嘉宾在长视频里说过什么时，检索 YouTube 字幕并定位带时间戳的原话、提及品牌与赞助信息。
+  job_en: Content researchers or market analysts verifying what a guest said in a long video search YouTube
+    transcripts to locate timestamped quotes, brand mentions and sponsorship disclosures.
+  pain: 长视频与播客没有可检索文本，人工逐段听写或翻字幕找一句原话耗时且容易漏掉赞助与提及。
+  pain_en: Long videos and podcasts have no searchable text, so manually listening or scrubbing subtitles
+    for one quote is slow and easily misses sponsorships and mentions.
+  current_alternative: 人工拖进度条听、看 YouTube 自带字幕搜索，或用通用转录工具导出全文后自行检索。
+  current_alternative_en: Manually scrubbing the timeline, using YouTube's built-in caption search, or
+    exporting a full transcript with a generic transcription tool and searching it by hand.
+  usage_reason: 推断：相较人工听写，它把字幕直接变成可检索索引并返回带时间戳的引用，省掉定位与摘录这一步，因此需要出处的尽调与选题人员会在核查原话时选择它；公开材料未见留存或付费证据。
+  usage_reason_en: 'Inference: versus manual listening, it turns captions into a searchable index and
+    returns timestamped citations, removing the locate-and-excerpt step, so diligence and editorial users
+    who need sources would pick it when verifying quotes; no retention or payment evidence appears in
+    public material.'

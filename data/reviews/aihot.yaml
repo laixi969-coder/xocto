@@ -720,3 +720,53 @@
     auto-generates the daily page, compressing browse-each-site, hand-pick, and lay-out into one configured
     automated output, so editors or operators who must publish daily without repeating manual filtering
     and layout would choose it; no public retention or payment evidence is available.'
+- id: req-full-aihot-2026-10-17
+  project_slug: aihot
+  level: full
+  reviewed_at: '2026-10-17T01:08:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决行业资讯编辑每日跨多信源筛选并排版日报的需求，痛点是人工翻找耗时易漏；公开材料显示其每天 08:00 发布精编日报并强调一分钟速览，旧做法为手动挑选排版，不做的后果是出稿慢或漏热点。此为工作流结构推理，尚无用户口述代价。
+    evidence_ids:
+    - ev-b7c5b53eccde7234
+    - ev-e8ba8c5cdf21debe
+    - ev-9dc2a0da839c3d07
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 7,887 星，说明开发者社区注意到该框架，但未见目标编辑群体的持续使用、复刻部署或口碑反馈，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-9dc2a0da839c3d07
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济；开源框架可能靠托管、定制或赞助变现，但公开材料未披露，谁付钱仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-1d1f73129fe16fe7
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明抓取与筛选规则、日报交付是否稳定发生，以及人工审核与信源合规边界，承诺能否确定性交付尚缺可复现证据。
+    evidence_ids:
+    - ev-e8ba8c5cdf21debe
+  next_validation: 追踪 AIHOT 官方仓库的 README、issue 与 discussion，确认是否有编辑或运营者公开部署案例、信源配置方式与日报交付稳定性。
+  market: ''
+  job: 行业资讯编辑或运营者每天要在固定发布时点前，从多个 AI 信源（产品、行业、论文、技巧）中翻找并挑出当天值得看的条目，排版成一份可发布的日报站点。
+  job_en: An industry news editor or operator must, before a fixed daily publish time, scan multiple AI
+    sources (products, industry, papers, tips), pick the day's worthwhile items, and lay them out as a
+    publishable daily digest site.
+  pain: 公开材料显示 AIHOT 每天 08:00（北京时间）发布精编日报，并强调“一分钟看懂 AI 圈”，说明痛点是人工跨信源筛选与按时间轴整理耗时且易漏；但公开证据未给出漏报或延误的具体代价与频率，属结构推理。
+  pain_en: Public materials show AIHOT publishes a curated digest daily at 08:00 Beijing time and stresses
+    'understand the AI world in one minute', implying the pain is time-consuming manual cross-source filtering
+    and timeline ordering; public evidence does not quantify the cost or frequency of misses, so this
+    is structural inference.
+  current_alternative: 编辑目前靠人工逐个翻看多个信源、凭经验挑选条目再手动排版成日报；公开材料未描述更具体的旧工具链。
+  current_alternative_en: Editors currently scan multiple sources by hand, pick items by judgment, and
+    manually lay out the digest; public materials do not describe a more specific legacy toolchain.
+  usage_reason: 推断：相较人工逐源翻找，AIHOT 按配置信源抓取并按精选标准筛出条目、自动生成日报页面，省去逐条浏览与排版两步；因此想自建行业热点站的编辑或运营者会在需要每日稳定出稿时选择它。仓库
+    7,887 星说明有开发者关注，但不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manual source-by-source scanning, AIHOT fetches from configured
+    sources, filters by curation criteria, and auto-generates the digest page, removing the browse-and-layout
+    steps; editors or operators wanting their own industry hotspot site would choose it when they need
+    reliable daily output. The 7,887 stars show developer attention but are not evidence of sustained
+    use.'

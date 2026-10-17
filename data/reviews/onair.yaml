@@ -169,3 +169,47 @@
   usage_reason: 公开材料未说明用户为何选择该产品，无法给出相较旧做法的具体因果解释。
   usage_reason_en: The public material does not explain why users would choose this product, so no concrete
     causal explanation relative to legacy approaches can be given.
+- id: req-full-onair-2026-10-17
+  project_slug: onair
+  level: full
+  reviewed_at: '2026-10-17T01:12:30Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称统一接收解码多制式信号，但公开证据全是飞行模拟经济平台与机场停车内容，与 SDR 解码无关，用户任务、痛点与旧替代均无法从证据还原，价值关不成立。
+    evidence_ids:
+    - ev-2306d756805aca9c
+    - ev-f2f8ec9001e75afc
+    - ev-a68c1a5e8b1e89b6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OnAir 官网或仓库的发布说明与 issue 列表，确认其是否真实存在 SDR 接收解码功能及支持硬件清单。
+  market: ''
+  job: 无线电爱好者或射频工程师在本地接上 HackRF、RTL-SDR 等硬件后，要接收并解码数字电视、DAB+、FM、ADS-B、ACARS、GNSS 与业余无线电信号，得到可读的频道、航迹或报文。
+  job_en: Radio hobbyists or RF engineers who connect HackRF, RTL-SDR and similar hardware locally need
+    to receive and decode DTV, DAB+, FM, ADS-B, ACARS, GNSS and ham signals into readable channels, tracks
+    or messages.
+  pain: 公开证据里没有任何用户抱怨、issue 或 workaround 描述，无法还原用户当前卡在哪一步、失败会付出什么代价；多制式工具分散只是从功能清单反推的猜测，不是被证实的痛点。
+  pain_en: The public evidence contains no user complaints, issues or workarounds, so it is impossible
+    to reconstruct where users get stuck or what failure costs them; the claim that multi-standard tools
+    are scattered is only a guess inferred from a feature list, not a verified pain.
+  current_alternative: 候选材料未给出任何旧替代行为的描述；GQRX、SDR#、dump1090 等只是同类工具的常识列举，不是证据支持的当前做法。
+  current_alternative_en: The candidate provides no description of prior alternative behaviour; GQRX,
+    SDR#, dump1090 and similar are only common-knowledge listings of peer tools, not evidence-backed current
+    practice.
+  usage_reason: 推断：若它真能把多制式接收与解码收进一个跨平台界面，需要同时监听多个频段的爱好者可能试用；但缺少具体动作、交付结果与采用证据，无法说明为何会被持续选择。
+  usage_reason_en: 'Inference: if it truly folds multi-standard reception and decoding into one cross-platform
+    interface, hobbyists monitoring several bands might try it; but with no concrete action, delivery
+    outcome or adoption evidence, there is no basis to say why it would be chosen repeatedly.'

@@ -1,0 +1,82 @@
+- id: req-initial-who-europe-launches-ai-assistant-to-support-alcohol-screenin-2026-10-17
+  project_slug: who-europe-launches-ai-assistant-to-support-alcohol-screenin
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决筛查访谈重复耗时、依赖受训人员的问题，痛点刚性且旧流程明确，属工作流推理。
+    evidence_ids:
+    - ev-f0825f9a54e6b81b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，未见使用机构、部署范围或一线反馈。
+    evidence_ids:
+    - ev-f0825f9a54e6b81b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明由谁付费、是否嵌入既有公共卫生预算，属判断而非已验证事实。
+    evidence_ids:
+    - ev-f0825f9a54e6b81b
+  - gate: truth
+    status: insufficient
+    reason: 未见筛查准确性评估、人工复核边界与隐私处理说明。
+    evidence_ids:
+    - ev-f0825f9a54e6b81b
+  next_validation: 收集 WHO 欧洲办事处官网关于该助手的发布页或评估文档，确认部署范围、使用机构与准确性评估。
+  market: ''
+  job: 基层医护或公共卫生人员在开展酒精使用筛查访谈时，需要按既定量表完成一次结构化问询并记录结果。
+  job_en: Primary care or public health staff conducting alcohol-use screening interviews need to complete
+    a structured inquiry against an established instrument and record the result.
+  pain: 筛查访谈重复、耗时，且依赖受训人员；人手不足时容易漏问或问得不一致。
+  pain_en: Screening interviews are repetitive, time-consuming and depend on trained staff; with thin
+    staffing, questions get skipped or asked inconsistently.
+  current_alternative: 此前由受训医护按纸质或电子量表逐条口头询问并手工记录。
+  current_alternative_en: Previously trained staff asked items one by one from paper or electronic instruments
+    and recorded answers by hand.
+  usage_reason: 推断：相较人工逐条问询，助手可承担引导对话与整理记录这一步，减少受训人员的重复劳动，因此人手紧张的基层筛查场景更可能采用；公开材料尚未给出实际使用反馈。
+  usage_reason_en: 'Inference: versus manual item-by-item interviewing, the assistant can carry the conversation-guidance
+    and record-keeping step, cutting repetitive work for trained staff, so staffing-constrained primary
+    screening settings are more likely to adopt it; public material gives no actual usage feedback yet.'
+- id: req-full-who-europe-launches-ai-assistant-to-support-alcohol-screenin-2026-10-17
+  project_slug: who-europe-launches-ai-assistant-to-support-alcohol-screenin
+  level: full
+  reviewed_at: '2026-10-17T01:14:10Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据仅为 WHO 健康主题页、联合国机构介绍与通用 AI 概念页，未包含该助手的任何产品说明、筛查流程或痛点材料，无法还原用户任务与旧替代方式。
+    evidence_ids:
+    - ev-3fe74bccaff81e4c
+    - ev-f36d28753c5914c2
+    - ev-9e49f239f3508fd6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 WHO 欧洲办事处官网关于该酒精筛查 AI 助手的发布页或评估文档，确认其功能范围、部署机构与使用方式。
+  market: ''
+  job: 基层医护或公共卫生人员在酒精使用筛查访谈中，按既定量表逐条问询并记录结果。
+  job_en: Primary care or public health staff conduct alcohol-use screening interviews, asking items from
+    an established instrument and recording results.
+  pain: 公开证据未提供任何关于筛查访谈耗时、漏问或人员不足的痛点材料，无法确认痛点存在及其强度。
+  pain_en: Public evidence provides no material on screening-interview burden, skipped items, or staffing
+    shortages, so the pain and its intensity cannot be confirmed.
+  current_alternative: 公开证据未说明此前使用何种替代方式（纸质量表、电子量表或口头问询）。
+  current_alternative_en: Public evidence does not state the prior alternative (paper instrument, electronic
+    instrument, or verbal inquiry).
+  usage_reason: 公开证据未包含产品说明、使用反馈或采用案例，无法解释用户为何会选择它而非旧做法。
+  usage_reason_en: Public evidence contains no product description, usage feedback, or adoption case,
+    so it cannot explain why users would choose it over the old approach.

@@ -24,3 +24,46 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-statemediafmradio-2026-10-17
+  project_slug: statemediafmradio
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决值班人员离开屏幕时漏看 issue 变化的问题，但公开材料没有说明播报相比现有通知方式省掉了哪一步，痛点强度无法判断。
+    evidence_ids:
+    - ev-770a8caa821cc3a1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区关注且无讨论，没有用户评价、团队采用或重复使用证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-770a8caa821cc3a1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方是团队自建、企业采购还是开源社区捐赠，付费路径完全未知，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-770a8caa821cc3a1
+  - gate: truth
+    status: insufficient
+    reason: 无法核验播报内容是否准确、是否会误报或漏报，也没有人工确认边界与安全说明。
+    evidence_ids:
+    - ev-770a8caa821cc3a1
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它接入哪些工单系统、播报内容如何生成，以及是否有团队实际部署的记录。
+  market: ''
+  job: 工程团队的值班人员在轮班期间，需要持续掌握组织内 issue 的状态变化，以便及时响应或转交。
+  job_en: On-call engineers during a shift need to keep track of issue status changes inside their organization
+    so they can respond or hand off in time.
+  pain: 公开材料只说明它把 issue 更新做成私有电台，没有说明不看屏幕听播报相比看仪表盘或收邮件到底省掉了哪一步、减少了哪种实际损失。
+  pain_en: The public material only says it turns issue updates into a private radio; it does not say
+    which step is saved or which concrete loss is reduced compared with watching a dashboard or reading
+    email.
+  current_alternative: 现有做法通常是工单系统通知、邮件、聊天群机器人提醒或值班人员定时刷新列表。
+  current_alternative_en: Current practice is usually ticketing notifications, email, chat-bot alerts,
+    or on-call staff refreshing lists on a schedule.
+  usage_reason: 推断：如果播报能覆盖值班人员离开屏幕的时段，可能减少漏看高优先级 issue 的情况；但公开材料没有用户反馈或采用证据支持这一动机，因此只能作为推断。
+  usage_reason_en: 'Inference: if the broadcast covers periods when on-call staff are away from the screen,
+    it may reduce missed high-priority issues; but no user feedback or adoption evidence supports this
+    motive, so it remains an inference.'

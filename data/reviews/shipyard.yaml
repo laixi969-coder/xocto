@@ -297,3 +297,50 @@
   usage_reason_en: 'No usage reason can be given: there is no citable official description, documentation,
     pricing or user feedback for this product, so it is impossible to say which step it removes versus
     the old way or which users would choose it and when.'
+- id: req-full-shipyard-2026-10-17
+  project_slug: shipyard
+  level: full
+  reviewed_at: '2026-10-17T01:13:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时工作区互相覆盖、改动来源不清的痛点，旧做法是手工切分支和终端，属于具体旧工作流；但公开材料只有产品能力描述，痛点强度为工作流结构推理，尚无用户抱怨或采用证据。
+    evidence_ids:
+    - ev-c8815233b4eed024
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 314 星这一关注度信号，没有用户评价、issue 讨论或团队采用案例说明谁在持续使用，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-c8815233b4eed024
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能来自开发者自付或团队采购，这是判断而非已验证事实；公开材料未见付费或采购记录。
+    evidence_ids:
+    - ev-c8815233b4eed024
+  - gate: truth
+    status: insufficient
+    reason: 编排与自动化能否确定性交付、代理出错时的人工边界如何划定，公开材料未说明，无法核对交付结果与安全边界。
+    evidence_ids:
+    - ev-c8815233b4eed024
+  next_validation: 追踪该仓库的 issue、discussion 与官方文档，确认多代理编排的实际交付流程、失败处理与是否已有团队付费使用。
+  market: ''
+  job: 开发者在本地开发机上并行运行多个编码代理时，打开这个桌面应用，把每个代理放进独立的 git worktree 和终端，处理同一仓库的多份代码改动与终端会话，最终要拿到互不覆盖、可分别验收合并的代码改动。
+  job_en: Developers running multiple coding agents in parallel on local dev boxes open this desktop app
+    to place each agent in its own git worktree and terminal, handling multiple sets of code changes and
+    terminal sessions in one repo, and end up with non-overwriting changes that can be reviewed and merged
+    separately.
+  pain: 多个代理同时改同一份工作区会互相覆盖、上下文串味，开发者只能手工切分支、复制粘贴，难以判断哪份改动来自哪个任务；公开材料只给出产品能力描述，未提供用户抱怨或采用数据，痛点强度属工作流结构推理。
+  pain_en: Several agents editing the same workspace overwrite each other and mix context, forcing developers
+    to hand-switch branches and paste text, with no clear link between a change and the task that produced
+    it; public material only describes product capability, so pain intensity is a workflow-structure inference.
+  current_alternative: 手工开多个终端和 git worktree，或一次只跑一个代理、串行等待。
+  current_alternative_en: Manually opening several terminals and git worktrees, or running one agent at
+    a time and waiting serially.
+  usage_reason: 推断：相较手工建 worktree、切目录、搬运上下文，它把每个代理放进独立 worktree 和终端并统一编排，省掉手工建分支与切换这几步，因此并行任务变多、手工切换开始出错的开发者会在这种情况下选择它；仓库
+    314 星只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: compared with manually creating worktrees, switching directories and moving
+    context, it places each agent in its own worktree and terminal under one orchestration layer, removing
+    the manual branch-creation and switching steps, so developers pick it once parallel tasks multiply
+    and hand-switching starts causing mistakes; the 314 stars only indicate attention, not sustained use.'

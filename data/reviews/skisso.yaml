@@ -1,0 +1,87 @@
+- id: req-initial-skisso-2026-10-17
+  project_slug: skisso
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决线上界面改动如何回到设计系统这一任务，但公开材料只有一句功能描述，说不清旧流程谁在做、卡在哪一步。
+    evidence_ids:
+    - ev-89fb905052c7cae8
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有用户评价、客户案例或采用行为，无法判断设计或工程侧是否已经认可这种交接方式。
+    evidence_ids:
+    - ev-89fb905052c7cae8
+  - gate: model
+    status: insufficient
+    reason: 未进入：买方是设计团队还是工程团队、按席位还是按项目收费均未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-89fb905052c7cae8
+  - gate: truth
+    status: insufficient
+    reason: 未进入：差异能否被工程直接采用、AI 改动是否需人工复核均未说明，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-89fb905052c7cae8
+  next_validation: 收集 Skisso 官方产品文档或演示，确认改动差异的交付形式以及工程侧能否直接采用。
+  market: ''
+  job: 产品设计师或前端工程师在线上界面已经运行、需要按设计系统改动时，直接在运行中的 UI 上编辑，并把改动差异交给工程侧。
+  job_en: A product designer or front-end engineer, when a live interface is running and needs a change
+    under the design system, edits directly on the running UI and hands the diff to engineering.
+  pain: 公开材料只有一句编辑线上 UI 并交接差异，没有说明原来设计与前端如何对稿、卡在哪一步、不采用会失去什么，痛点无法从现有事实还原。
+  pain_en: The public material says only that you edit the live UI and hand off the diff; it does not
+    say how design and front-end previously reconciled changes, where the friction was, or what is lost
+    without it, so the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式，按常识可能是设计稿加人工标注再交前端实现，但这一点属推断，未经材料支持。
+  current_alternative_en: The public material does not state the current alternative; by common practice
+    it may be static mocks with manual annotation handed to front-end for implementation, but this is
+    inference, not supported by the material.
+  usage_reason: 推断：若改动差异能被工程直接采用，设计师就不必先在静态稿里画一遍、再由前端翻译成代码，从而省掉一次对稿；但公开材料未说明 AI 具体做了什么、差异以什么形式交付，因此这一理由尚未被事实支持。
+  usage_reason_en: 'Inference: if the diff can be adopted directly by engineering, designers would skip
+    drawing it in a static mock first and having front-end translate it into code, saving one reconciliation
+    round; however the material does not say what AI does or in what form the diff is delivered, so this
+    reason is not yet fact-supported.'
+- id: req-full-skisso-2026-10-17
+  project_slug: skisso
+  level: full
+  reviewed_at: '2026-10-17T01:13:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决线上界面改动如何回到设计系统这一任务，但公开材料只有一句功能描述，说不清旧流程谁在做、卡在哪一步、不采用会失去什么，痛点无法还原。
+    evidence_ids:
+    - ev-89fb905052c7cae8
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Skisso 官方产品文档或演示页，确认改动差异的交付形式以及工程侧能否直接采用。
+  market: ''
+  job: 产品设计师或前端工程师在线上界面已运行、需要按设计系统改动时，直接在运行中的 UI 上编辑，并把改动差异交给工程侧。
+  job_en: A product designer or front-end engineer, when a live interface is running and needs a change
+    under the design system, edits directly on the running UI and hands the diff to engineering.
+  pain: 公开材料只有一句功能描述，没有说明原来设计与前端如何对稿、卡在哪一步、不采用会失去什么，痛点无法从现有事实还原。
+  pain_en: The public material offers only a one-line feature description; it does not say how design
+    and front-end previously reconciled changes, where the friction was, or what is lost without it, so
+    the pain cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式；按常见做法可能是静态设计稿加人工标注再交前端实现，但这一点属推断，未经材料支持。
+  current_alternative_en: The material does not state the current alternative; by common practice it may
+    be static mocks with manual annotation handed to front-end, but this is inference, not supported by
+    the material.
+  usage_reason: 推断：若改动差异能被工程直接采用，设计师可省掉先在静态稿里画一遍、再由前端翻译成代码的一次对稿；但公开材料未说明 AI 具体做什么、差异以什么形式交付，该理由尚未被事实支持。
+  usage_reason_en: 'Inference: if the diff can be adopted directly by engineering, designers would skip
+    drawing it in a static mock and having front-end translate it into code, saving one reconciliation
+    round; however the material does not say what the AI does or in what form the diff is delivered, so
+    this reason is not yet fact-supported.'

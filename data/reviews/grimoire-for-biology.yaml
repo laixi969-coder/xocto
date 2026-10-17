@@ -1,0 +1,81 @@
+- id: req-initial-grimoire-for-biology-2026-10-17
+  project_slug: grimoire-for-biology
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它解决什么需求、什么痛点都写不出来，仅有名称与链接，价值关无法成立。
+    evidence_ids:
+    - ev-220c51baccf55c2c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，仅有少量社区讨论点数，不构成采用证据。
+    evidence_ids:
+    - ev-220c51baccf55c2c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无定价或买方信息。
+    evidence_ids:
+    - ev-220c51baccf55c2c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付是否确定。
+    evidence_ids:
+    - ev-220c51baccf55c2c
+  next_validation: 打开 grimoire.bio 官方页面，确认它面向的具体科研任务、输入材料与产出形式。
+  market: ''
+  job: 推测面向生物信息或实验室科研人员，但资料未说明他们在哪个具体节点、处理什么材料、要完成什么任务。
+  job_en: Presumably aimed at bioinformatics or lab scientists, but the material does not say at which
+    step, with what material, or to complete what task.
+  pain: 资料未提供任何痛点描述，无法判断它缓解的是文献检索、数据分析还是实验记录中的哪一环。
+  pain_en: The material provides no pain description, so it is impossible to tell whether it eases literature
+    search, data analysis or lab record keeping.
+  current_alternative: 未知，资料未说明研究人员现在用什么方式完成对应工作。
+  current_alternative_en: Unknown; the material does not say how researchers currently accomplish the
+    corresponding work.
+  usage_reason: 无法判断：没有功能、流程或用户反馈信息，无法解释哪类用户会在什么情况下选择它而非现有做法。
+  usage_reason_en: 'Cannot be judged: with no feature, workflow or user feedback information, there is
+    no way to explain which users would choose it over existing practice.'
+- id: req-full-grimoire-for-biology-2026-10-17
+  project_slug: grimoire-for-biology
+  level: full
+  reviewed_at: '2026-10-17T01:10:58Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部来自巫术手册与幻想文学条目，未出现任何生物学或科研任务描述，连它解决什么需求、什么痛点都写不出来，价值关无法成立。
+    evidence_ids:
+    - ev-9e61218251d2db9c
+    - ev-8171d5a1bfa6cf87
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 grimoire.bio 官方页面与仓库 README，确认其面向的具体科研任务、输入材料与产出形式。
+  market: ''
+  job: 候选资料只给出名称与链接，未说明谁在什么工作节点打开它、AI 接收什么材料、产出什么结果；无法还原生物信息或实验室科研人员要完成的具体任务。
+  job_en: The candidate material gives only a name and links; it does not say who opens it at which work
+    step, what material the AI receives, or what it outputs, so the concrete task of a bioinformatics
+    or lab researcher cannot be reconstructed.
+  pain: 公开证据中没有任何痛点描述，无法判断它缓解的是文献检索、序列分析还是实验记录中的哪一环，也无法判断痛点是否刚性。
+  pain_en: No pain description exists in the public evidence, so it is impossible to tell whether it eases
+    literature search, sequence analysis or lab record keeping, nor whether the pain is rigid.
+  current_alternative: 未知。资料未说明研究人员现在用什么方式完成对应工作，也没有 workaround 或旧流程记录。
+  current_alternative_en: Unknown. The material does not say how researchers currently accomplish the
+    corresponding work, and records no workaround or legacy process.
+  usage_reason: 无法判断。没有功能、流程或用户反馈信息，无法解释哪类用户会在什么情况下选择它而非现有做法；现有证据全部指向同名巫术手册概念，与生物学科研任务无关。
+  usage_reason_en: 'The task is: Bioinformatics Researcher, Lab Scientist Public materials do not yet
+    explain why users choose this product over their existing approach.'

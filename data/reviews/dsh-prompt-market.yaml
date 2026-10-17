@@ -138,3 +138,50 @@
     and manual-copy step, so DeepSeek Harness users with frequent recurring queries would choose it when
     reusing prompts; the star count rising from 54 to 81 only shows growing attention, not that it has
     been retained in the workflow.'
+- id: req-full-dsh-prompt-market-2026-10-17
+  project_slug: dsh-prompt-market
+  level: full
+  reviewed_at: '2026-10-17T01:10:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决提示词复用要离开对话框、去外部笔记翻找再手工粘贴的摩擦，痛点随重复提问反复出现，不解决就每次多付切换与复制成本；插件把浏览、搜索、收藏、写入输入框收进对话框一步完成，交付物是填好提示词的输入框，可确定发生。以上为工作流结构推理，候选材料无用户抱怨或采用数据。
+    evidence_ids:
+    - ev-d912bba031da5bf0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 54 升至 89，说明有开发者关注，但候选材料没有用户评价、issue 或 discussion，无法判断共识卡在感知、想象、场景还是利益哪一环，关注度也不能当作持续采用。
+    evidence_ids:
+    - ev-d912bba031da5bf0
+    - ev-b2b36cc0c507ed38
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价、付费入口或买方身份，钱可能来自 to C 打赏、to B 定制或纯 to VC 叙事，均无公开证据；这是判断，不是已验证事实，但不足以取消真需求判定。
+    evidence_ids:
+    - ev-d912bba031da5bf0
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺选中即写入输入框、数据只存本机，交付边界清晰；但提示词库的来源、质量与人工筛选边界未公开，零后端也意味着无服务端质量兜底，承诺能否稳定兑现无法核验。
+    evidence_ids:
+    - ev-d912bba031da5bf0
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认提示词来源与筛选方式，并查看是否有用户反馈的实际使用或重复使用记录。
+  market: ''
+  job: 使用 DeepSeek Harness 的用户在对话框内准备一次提问时，需要从自己积累或收藏的提示词里挑出一条，填入输入框再发送。
+  job_en: A DeepSeek Harness user preparing a query needs to pick one prompt from their accumulated or
+    saved set and insert it into the composer before sending.
+  pain: 提示词复用要离开对话框，去笔记、文档或书签里翻找再手工复制粘贴，重复提问时这一步反复发生；候选材料只给出产品功能描述，没有用户抱怨或反馈，痛点强度属结构推理。
+  pain_en: Reusing prompts requires leaving the composer, digging through notes, documents or bookmarks
+    and copying by hand; this repeats on every recurring query. The candidate material only describes
+    product features, with no user complaints or feedback, so pain intensity is structural inference.
+  current_alternative: 把提示词存在笔记软件、文档或浏览器书签里，提问时切出对话框手工复制粘贴；或每次重新手打。
+  current_alternative_en: Keeping prompts in note apps, documents or browser bookmarks and copying them
+    by hand after leaving the composer; or retyping them each time.
+  usage_reason: 推断：相较切出对话框翻笔记再复制，该插件把浏览、搜索、收藏和写入输入框放在对话框内一步完成，省掉切换应用与手工粘贴这一步，因此高频复用固定提示词的 DeepSeek Harness
+    用户会在重复提问时选择它；候选材料未提供留存或重复使用证据，无法确认它已被长期留在工作流里。
+  usage_reason_en: 'Inference: compared with leaving the composer to search notes and copy, the plugin
+    puts browsing, search, saving and insertion into the composer in one step, removing app switching
+    and manual pasting, so DeepSeek Harness users who reuse fixed prompts frequently would choose it for
+    repeated queries; the candidate material provides no retention or repeat-use evidence, so it cannot
+    be confirmed as staying in the workflow long term.'

@@ -1,0 +1,85 @@
+- id: req-initial-gbrain-tools-2026-10-17
+  project_slug: gbrain-tools
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从公开材料写出，仅有一句“给 AI 用的密码管理器”，价值关证据不足。
+    evidence_ids:
+    - ev-fda8075071ee55ea
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且无采用或评价数据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-fda8075071ee55ea
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关证据不足，公开材料未说明买方是个人开发者还是企业安全团队。
+    evidence_ids:
+    - ev-fda8075071ee55ea
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关证据不足，无法核对凭据交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-fda8075071ee55ea
+  next_validation: 收集 GBrain Tools 官方页面或文档中关于凭据存储、授权与撤销机制的具体说明。
+  market: ''
+  job: 公开材料未说明具体使用者与情境，仅能确认它面向让 AI 使用凭据的场景，要处理的材料与任务未描述。
+  job_en: Public material does not state the specific user or situation; it only indicates a scenario
+    where AI uses credentials, without describing the material or task.
+  pain: 无法从现有事实确认它缓解了哪种具体痛苦，例如密钥泄露风险或授权管理负担均未被材料支持。
+  pain_en: Existing facts do not establish which concrete pain it relieves; risks such as key leakage
+    or authorization overhead are not supported by the material.
+  current_alternative: 公开材料未提及现有替代做法，无法判断用户此前如何向 AI 提供凭据。
+  current_alternative_en: No existing alternative is mentioned, so how users previously supplied credentials
+    to AI cannot be determined.
+  usage_reason: 现有证据只有一句定位描述，缺少存储方式、授权动作与交付结果，无法解释哪类用户为何选择它；此处不作推断。
+  usage_reason_en: The only evidence is a one-line positioning statement lacking storage method, authorization
+    action and deliverable, so why any user would choose it cannot be explained; no inference is made
+    here.
+- id: req-full-gbrain-tools-2026-10-17
+  project_slug: gbrain-tools
+  level: full
+  reviewed_at: '2026-10-17T01:10:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 材料只给出「团队共用一个大脑、同步到各家 AI」的定位与摄取会议、邮件、推文的功能描述，未说明谁在什么节点处理什么材料、交付什么结果，也写不出不解决的后果，需求与痛点均无法成立。
+    evidence_ids:
+    - ev-55a19c947b3f49ec
+    - ev-5547c77e40da67d3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 gbrain.io 与 gbrain.homes 官方页面及 garrytan/gbrain 仓库 README、issue 与 discussion，确认具体使用场景、摄取材料类型与交付结果。
+  market: ''
+  job: 公开材料只给出「团队共同提示、把同一个大脑同步到 ChatGPT、Claude、Cursor」这一层描述，未说明谁在什么工作节点、处理什么材料、要交付什么结果，因此具体使用场景无法写出。
+  job_en: Public material only describes a team prompting together and syncing one brain to ChatGPT, Claude
+    or Cursor; it does not state who acts at which work step, with what material, to deliver what result,
+    so no concrete job can be written.
+  pain: 材料提到「每个人各自提示、各自笔记、各自登录」，暗示上下文与凭据分散，但未说明这种分散造成什么可核对后果，痛点强度无法确认。
+  pain_en: The material mentions everyone prompting alone with their own notes and sign-ins, hinting at
+    scattered context and credentials, but no verifiable consequence is stated, so pain intensity cannot
+    be confirmed.
+  current_alternative: 公开材料未描述用户在采用前如何共享上下文或凭据，只能看到「各自笔记、各自登录」这一现状描述，旧替代流程不可还原。
+  current_alternative_en: Public material does not describe how users shared context or credentials before
+    adoption; only the status quo of separate notes and sign-ins appears, so the prior workflow cannot
+    be reconstructed.
+  usage_reason: 现有事实只有定位句与知识图谱、记忆摄取的功能描述，缺少授权动作、交付结果与采用反馈，无法解释哪类用户为何选择它；此处不作推断。
+  usage_reason_en: Available facts are only a positioning line plus feature descriptions of knowledge
+    graph and memory ingestion, lacking authorization actions, deliverables and adoption feedback, so
+    why any user would choose it cannot be explained; no inference is made.

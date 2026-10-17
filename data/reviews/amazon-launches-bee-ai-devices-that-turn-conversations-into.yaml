@@ -1,0 +1,87 @@
+- id: req-initial-amazon-launches-bee-ai-devices-that-turn-conversations-into-2026-10-17
+  project_slug: amazon-launches-bee-ai-devices-that-turn-conversations-into
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它想把对话变成任务，但材料未说明输入、输出与人工确认环节，连解决什么需求都只能靠标题推测，价值关证据不足。
+    evidence_ids:
+    - ev-921a6ae6ac1d2454
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，没有用户评价、采用数据或场景描述，无法判断共识卡在感知、想象还是场景。
+    evidence_ids:
+    - ev-921a6ae6ac1d2454
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、买方或收费方式，无法判断钱来自消费者硬件购买还是订阅，属未核验。
+    evidence_ids:
+    - ev-921a6ae6ac1d2454
+  - gate: truth
+    status: insufficient
+    reason: 无法核对任务生成是否准确、是否需要人工确认，以及录音场景下的隐私与安全边界。
+    evidence_ids:
+    - ev-921a6ae6ac1d2454
+  next_validation: 收集亚马逊官方产品页或发布公告，确认 Bee 的设备形态、功能边界、定价与上市地区。
+  market: ''
+  job: 个人用户在会议、通话或日常交谈结束后，需要把口头提到的承诺和待办整理成可追踪的任务清单。
+  job_en: After meetings, calls or everyday conversations, an individual needs to turn verbally mentioned
+    commitments and to-dos into a trackable task list.
+  pain: 口头约定容易漏记，事后靠回忆补记既费时又不可靠；但本批材料没有说明现有用户为此付出多大代价，痛点强度无法确认。
+  pain_en: Spoken commitments are easily missed and reconstructing them from memory afterwards is slow
+    and unreliable; however this batch gives no evidence of how much cost existing users bear, so pain
+    intensity cannot be confirmed.
+  current_alternative: 现有做法是手写笔记、手机备忘录、录音后回听，或使用手机上的语音转写与会议记录工具。
+  current_alternative_en: Current practice is handwritten notes, phone memos, replaying recordings, or
+    phone-based transcription and meeting-note tools.
+  usage_reason: 推断：如果设备能在对话现场直接采集并自动生成结构化任务，用户可省去事后回听录音和手工誊写这一步；但材料未说明它是否真的自动生成任务、是否回写既有任务系统，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the device captures conversations on the spot and automatically produces
+    structured tasks, users could skip replaying recordings and retyping notes; but the material does
+    not say whether tasks are truly generated automatically or written back into existing task systems,
+    so selection by users cannot yet be confirmed.'
+- id: req-full-amazon-launches-bee-ai-devices-that-turn-conversations-into-2026-10-17
+  project_slug: amazon-launches-bee-ai-devices-that-turn-conversations-into
+  level: full
+  reviewed_at: '2026-10-17T01:08:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 标题称把对话转成任务，但本批证据全是亚马逊登录页、首页与通用 AI 词条，未说明输入音频、输出形态与人工确认，连解决什么需求都只能靠标题推测，价值关证据不足。
+    evidence_ids:
+    - ev-4f9979aa78079bef
+    - ev-853fc3cfa4355fd5
+    - ev-4abcea95c0c3dabd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪亚马逊官方产品页或新闻稿，确认 Bee 的设备形态、输入音频、输出形态、定价与上市地区。
+  market: ''
+  job: 个人用户在会议、通话或日常交谈结束后，需要把口头提到的承诺与待办整理成可追踪的任务清单。
+  job_en: After meetings, calls or everyday conversations, an individual needs to turn verbally mentioned
+    commitments and to-dos into a trackable task list.
+  pain: 口头约定容易漏记，事后靠回忆补记既费时又不可靠；但本批材料没有任何用户抱怨、workaround 或客户案例，痛点强度与频率无法确认。
+  pain_en: Spoken commitments are easily missed and reconstructing them from memory afterwards is slow
+    and unreliable; however this batch contains no user complaints, workarounds or customer cases, so
+    pain intensity and frequency cannot be confirmed.
+  current_alternative: 手写笔记、手机备忘录、录音后回听，或手机上的语音转写与会议记录工具。
+  current_alternative_en: Handwritten notes, phone memos, replaying recordings, or phone-based transcription
+    and meeting-note tools.
+  usage_reason: 推断：若设备能在对话现场直接采集并自动生成结构化任务，用户可省去事后回听录音和手工誊写这一步；但材料未说明输入音频、处理位置、输出形态与是否回写既有任务系统，因此无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if the device captures conversations on the spot and automatically produces
+    structured tasks, users could skip replaying recordings and retyping notes; but the material does
+    not state the audio input, processing location, output form or whether tasks are written back into
+    existing task systems, so user selection cannot be confirmed.'

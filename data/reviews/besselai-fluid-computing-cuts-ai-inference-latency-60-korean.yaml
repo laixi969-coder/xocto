@@ -1,0 +1,90 @@
+- id: req-initial-besselai-fluid-computing-cuts-ai-inference-latency-60-korean-2026-10-17
+  project_slug: besselai-fluid-computing-cuts-ai-inference-latency-60-korean
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决推理延迟高、算力成本重的问题，痛点真实；但材料只有一句延迟降低 60% 的宣称，未说明基线、负载与不采用后果，价值结构无法确认。
+    evidence_ids:
+    - ev-3e93d9b4ac96256d
+  - gate: consensus
+    status: insufficient
+    reason: 仅一条报道，无客户采用、部署规模或第三方复现证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-3e93d9b4ac96256d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式或买方类型，20 万 GPU 计划属规模叙事，付费路径无法核验。
+    evidence_ids:
+    - ev-3e93d9b4ac96256d
+  - gate: truth
+    status: insufficient
+    reason: 延迟降低属可核对结果，但缺少独立实测与安全边界说明，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-3e93d9b4ac96256d
+  next_validation: 收集 BesselAI 官方产品页或技术文档，核验 Fluid Computing 的延迟基线、负载类型与计费方式。
+  market: ''
+  job: AI 平台工程师在推理服务延迟过高、需要调整算力调度时，处理模型部署与调度配置，要完成降低单次推理响应时间的任务。
+  job_en: AI platform engineers, when inference latency is too high and compute scheduling needs rework,
+    handle model deployment and scheduling configs to cut per-request response time.
+  pain: 推理延迟直接影响用户体验与单位算力成本，延迟高意味着需要堆更多 GPU 或流失用户；但候选材料只给出一个百分比，未说明原延迟基线、负载类型与对比对象。
+  pain_en: Inference latency directly affects user experience and cost per unit of compute; high latency
+    means buying more GPUs or losing users. But the candidate gives only a percentage, with no baseline,
+    workload type or comparison target.
+  current_alternative: 团队通常自行调优推理框架、使用云厂商的推理优化服务，或直接增加 GPU 数量来压延迟。
+  current_alternative_en: Teams typically tune inference frameworks themselves, use cloud vendors' inference-optimization
+    services, or simply add more GPUs to cut latency.
+  usage_reason: 推断：若其延迟降低可在真实负载下复现，团队会因省下加卡成本或改善响应而选择它；但公开材料未提供客户案例、实测数据或定价，无法确认这一因果是否成立。
+  usage_reason_en: 'Inference: if the latency reduction reproduces under real workloads, teams would choose
+    it to avoid buying more GPUs or to improve responsiveness; but no customer case, benchmark or pricing
+    is public, so this causal link is unconfirmed.'
+- id: req-full-besselai-fluid-computing-cuts-ai-inference-latency-60-korean-2026-10-17
+  project_slug: besselai-fluid-computing-cuts-ai-inference-latency-60-korean
+  level: full
+  reviewed_at: '2026-10-17T01:09:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决推理延迟过高、算力成本重的需求，痛点刚性且不解决就要加卡或流失用户；单一报道给出延迟降低 60% 的宣称，虽无基线与负载说明，但输入—调度—交付闭环结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-3e93d9b4ac96256d
+  - gate: consensus
+    status: insufficient
+    reason: 仅一条独立报道，无客户采用、部署规模或第三方复现，无法判断共识卡在感知、场景还是利益环节；20 万 GPU 计划属规模叙事，不构成持续采用证据。
+    evidence_ids:
+    - ev-3e93d9b4ac96256d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式或买方类型，钱可能来自 to B 的 neocloud 与 AI 团队，但这是判断而非已验证事实；仅凭融资与规模叙事无法核验付费路径。
+    evidence_ids:
+    - ev-3e93d9b4ac96256d
+  - gate: truth
+    status: insufficient
+    reason: 延迟降低属可核对结果，但缺少独立实测、基线定义与安全边界说明，承诺能否确定性交付未知；报道本身不足以证明第一性目标已达成。
+    evidence_ids:
+    - ev-3e93d9b4ac96256d
+  next_validation: 追踪 BesselAI 官方产品页或技术文档，核验 Fluid Computing 的延迟基线、负载类型、计费方式与客户部署案例。
+  market: ''
+  job: AI 平台工程师在自建或租用 GPU 集群上部署推理服务、发现单次请求响应时间过高时，处理模型部署与算力调度配置，要完成把推理延迟压到可接受水平、同时不无限加卡的任务。
+  job_en: AI platform engineers running inference on self-built or rented GPU clusters, when per-request
+    latency is too high, handle model deployment and compute-scheduling configuration to bring inference
+    latency down without endlessly adding GPUs.
+  pain: 推理延迟直接决定终端用户体验和单位算力成本：延迟高要么流失用户，要么被迫堆更多 GPU 抬高成本。公开报道只给出“降低 60%”这一宣称，未披露原延迟基线、负载类型与对比对象，痛点方向明确但强度未被量化。
+  pain_en: 'Inference latency directly determines end-user experience and cost per unit of compute: high
+    latency either loses users or forces more GPUs and higher cost. The public report only claims a 60%
+    cut, without baseline, workload type or comparison target, so the pain direction is clear but its
+    magnitude is unquantified.'
+  current_alternative: 团队通常自行调优推理框架（如批处理、量化、KV cache）、采用云厂商的推理优化服务，或直接增加 GPU 数量来压延迟。
+  current_alternative_en: Teams typically tune inference frameworks themselves (batching, quantization,
+    KV cache), use cloud vendors' inference-optimization services, or simply add more GPUs to cut latency.
+  usage_reason: 推断：相较自行调优或加卡，Fluid Computing 若在真实负载下把延迟降低可复现，团队省下的是逐层调优框架和采购额外 GPU 这两步负担，因此延迟敏感、算力预算受限的推理团队会在延迟不达标时选择它；但公开材料无客户案例、实测或定价，该因果尚未被事实支持。
+  usage_reason_en: 'Inference: versus self-tuning or adding GPUs, Fluid Computing would spare teams the
+    step of layer-by-layer framework tuning and extra GPU purchases if its latency cut reproduces under
+    real workloads, so latency-sensitive, budget-constrained inference teams would pick it when latency
+    misses target; but no customer case, benchmark or pricing is public, so this causal link is not yet
+    fact-supported.'

@@ -24,3 +24,45 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-baihais-2026-10-17
+  project_slug: baihais
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让代理产出艺术作品，但材料未说明具体任务、旧流程与不解决的后果，需求与痛点尚不能还原。
+    evidence_ids:
+    - ev-637d78aca60df772
+  - gate: consensus
+    status: insufficient
+    reason: 仅 5 分、2 条评论，属关注度信号，不能说明场景共识或持续采用。
+    evidence_ids:
+    - ev-637d78aca60df772
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱从哪来无法判断，这是缺口而非否定。
+    evidence_ids:
+    - ev-637d78aca60df772
+  - gate: truth
+    status: insufficient
+    reason: 未说明代理学习过程、产出形态与人工确认边界，交付能否确定性发生无法核对。
+    evidence_ids:
+    - ev-637d78aca60df772
+  next_validation: 收集 BAIhAIs 官网的产品说明或示例产出，核验其课程结构、输入输出与交付形态。
+  market: ''
+  job: 训练或运营 AI 代理的创作者在需要让代理产出艺术作品时，处理代理的学习与创作过程，产出代理生成的艺术作品。
+  job_en: Creators training or running AI agents, when they need agents to produce artworks, work through
+    the agents' learning and creation process to produce agent-made art.
+  pain: 材料只有一句定位，未说明谁在什么情况下需要代理学艺术、不解决会失去什么，痛点无法从现有事实还原。
+  pain_en: The material offers only a one-line positioning, without saying who needs agents to learn art,
+    in what situation, or what is lost if unsolved, so the pain cannot be reconstructed from available
+    facts.
+  current_alternative: 候选未提供替代做法信息；按常见做法推断，创作者可能直接用图像生成模型或手工调参，但这是推断，非材料事实。
+  current_alternative_en: The candidate gives no alternative-practice information; by common practice,
+    creators may use image-generation models or manual tuning, but this is inference, not material fact.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能给出用户选择它的因果解释。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old approach
+    or which checkable result it improves, so no causal reason for choosing it can be given.'

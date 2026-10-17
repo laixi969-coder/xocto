@@ -204,3 +204,44 @@
   usage_reason_en: 'Inference: if agent-written code in this language compiles more reliably with more
     readable errors than the old build chain, teams would choose it when distributing native binaries;
     no adoption or feedback evidence currently supports this.'
+- id: req-full-tov-2026-10-17
+  project_slug: tov
+  level: full
+  reviewed_at: '2026-10-17T01:13:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决代理产出到原生二进制的编译问题，但公开材料未说明旧流程卡在哪一步、不采用会失去什么，需求与痛点无法还原。
+    evidence_ids:
+    - ev-309f5d5a10b6b639
+    - ev-64c1e171b586fbff
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue 与 discussion，确认开发者实际遇到的编译失败与代理写码问题是否被反复提出。
+  market: ''
+  job: 软件工程师在让编码代理生成并交付可运行程序时，需要一种代理能稳定写出、又能编译成体积小、启动快的原生二进制的目标语言。
+  job_en: Software engineers who let coding agents generate and ship runnable programs need a target language
+    agents can write reliably and that compiles to small, fast-starting native binaries.
+  pain: 公开材料只给出语言定位与仓库星数，没有说明代理写这门语言时哪一步出错、旧构建链哪里卡住，痛点无法从现有事实还原。
+  pain_en: The public material only states the language positioning and repository stars; it does not
+    say where agents fail when writing it or where the old build chain stalls, so the pain cannot be reconstructed
+    from available facts.
+  current_alternative: 现有替代方式可能是让代理直接写 TypeScript 或 Go 等成熟语言，再走既有构建链；候选未提供对比事实。
+  current_alternative_en: The existing alternative may be having agents write mature languages such as
+    TypeScript or Go and using established build chains; the candidate provides no comparison facts.
+  usage_reason: 推断：若代理生成该语言代码的编译成功率与错误可读性优于旧构建链，团队会在需要分发原生二进制的场景选择它；目前缺少任何采用或反馈证据支持这一判断。
+  usage_reason_en: 'Inference: if agent-written code in this language compiles more reliably with more
+    readable errors than the old build chain, teams would choose it when distributing native binaries;
+    no adoption or feedback evidence currently supports this.'

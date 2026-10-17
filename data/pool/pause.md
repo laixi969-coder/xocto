@@ -21,7 +21,7 @@ canonical_url: https://joinpause.co
 summary: weekly curated 1:1 coffee matches for London professionals
 first_seen: '2026-08-27T13:45:06Z'
 last_seen: '2026-08-28T06:07:17Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,7 @@ sightings:
   metrics:
     points: 23
     comments: 18
+  kind: product
 ---
 
 # Pause

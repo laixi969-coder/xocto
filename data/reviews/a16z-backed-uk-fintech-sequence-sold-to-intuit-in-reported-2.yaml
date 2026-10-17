@@ -1,0 +1,89 @@
+- id: req-initial-a16z-backed-uk-fintech-sequence-sold-to-intuit-in-reported-2-2026-10-17
+  project_slug: a16z-backed-uk-fintech-sequence-sold-to-intuit-in-reported-2
+  level: initial
+  reviewed_at: '2026-10-17T00:31:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决初创公司账单、收款与收入确认的手工对账痛点，旧流程与不采用后果清晰，属工作流推理。
+    evidence_ids:
+    - ev-2e8c7c90f6a36a32
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出客户名单与收购事实，没有用户评价或采用规模数据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-2e8c7c90f6a36a32
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方为初创公司财务部门属推断，付费路径尚未核验。
+    evidence_ids:
+    - ev-2e8c7c90f6a36a32
+  - gate: truth
+    status: insufficient
+    reason: 缺少交付准确率、人工复核边界与留存复购证据，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-2e8c7c90f6a36a32
+  next_validation: 检索 Intuit 官方公告或 Sequence 官网定价与客户案例页面，确认收购后产品是否继续独立销售及计费方式。
+  market: ''
+  job: 初创公司的财务或运营人员在月末或收款节点，处理合同、用量记录与付款流水，要完成开票、催收和收入确认。
+  job_en: Finance or operations staff at startups handle contracts, usage records and payment flows at
+    month-end or collection points to issue invoices, chase payment and recognize revenue.
+  pain: 用量计费与订阅混合时，人工在表格和支付系统之间对账容易出错，回款周期被拉长，收入数据无法及时支撑决策。
+  pain_en: When usage-based and subscription billing mix, manual reconciliation between spreadsheets and
+    payment systems is error-prone, collection cycles stretch, and revenue data cannot support timely
+    decisions.
+  current_alternative: 财务人员用电子表格加支付网关后台手工开票、对账和催收，或使用传统计费软件再人工补录。
+  current_alternative_en: Finance staff manually invoice, reconcile and chase payment using spreadsheets
+    plus a payment gateway dashboard, or use legacy billing software with manual data entry.
+  usage_reason: 推断：相较表格加支付后台的手工流程，它把合同与用量数据直接转成账单并自动发起收款，减少月末逐笔核对与补录这一步，因此用量计费复杂、财务人手有限的初创团队会在账单量增长后选择它。
+  usage_reason_en: 'Inference: compared with spreadsheets plus a payment dashboard, it turns contract
+    and usage data directly into invoices and initiates collection automatically, removing the line-by-line
+    month-end reconciliation and re-entry step, so startups with complex usage billing and thin finance
+    teams adopt it once invoice volume grows.'
+- id: req-full-a16z-backed-uk-fintech-sequence-sold-to-intuit-in-reported-2-2026-10-17
+  project_slug: a16z-backed-uk-fintech-sequence-sold-to-intuit-in-reported-2
+  level: full
+  reviewed_at: '2026-10-17T01:08:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决初创公司用量计费与订阅混合下的开票、催收与收入确认手工对账痛点，旧流程与不采用后果清晰，属工作流结构推理；公开材料未含用户原话。
+    evidence_ids:
+    - ev-4d51da11b70c0a39
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有客户名单与收购事实，没有用户评价、采用规模或持续使用数据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-4d51da11b70c0a39
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方为初创公司财务部门属推断；被 Intuit 收购后是否继续独立销售与收费，公开材料未说明。
+    evidence_ids:
+    - ev-4d51da11b70c0a39
+  - gate: truth
+    status: insufficient
+    reason: 缺少交付准确率、人工复核边界与留存复购证据，AI 自动开票与收款能否确定性交付仍无法从公开材料核验。
+    evidence_ids:
+    - ev-4d51da11b70c0a39
+  next_validation: 追踪 Intuit 官方公告与 Sequence 官网（getsequence.io）的定价页及客户案例页，确认收购后产品是否继续独立销售、计费方式与公开客户使用结果。
+  market: ''
+  job: 初创公司的财务或运营人员在月末结账或收款节点，处理合同、用量记录与付款流水，要完成开票、催收和收入确认，拿到可对账的账单与收入视图。
+  job_en: Finance or operations staff at startups, at month-end close or collection points, handle contracts,
+    usage records and payment flows to issue invoices, chase payment and recognize revenue, ending with
+    a reconcilable billing and revenue view.
+  pain: 用量计费与订阅混合时，人工在表格与支付后台之间逐笔对账容易出错，回款周期被拉长，收入数据滞后无法支撑决策；这是从产品定位与旧流程推导的结构性痛点，尚无用户原话佐证。
+  pain_en: When usage-based and subscription billing mix, manual line-by-line reconciliation between spreadsheets
+    and payment dashboards is error-prone, collection cycles stretch, and revenue data lags behind decisions;
+    this is a structural pain inferred from product positioning and the legacy workflow, not user testimony.
+  current_alternative: 财务人员用电子表格加支付网关后台手工开票、对账和催收，或使用传统计费软件再人工补录数据。
+  current_alternative_en: Finance staff manually invoice, reconcile and chase payment with spreadsheets
+    plus a payment gateway dashboard, or use legacy billing software with manual re-entry.
+  usage_reason: 推断：相较表格加支付后台的手工流程，它把合同与用量数据直接转成账单并自动发起收款，省掉月末逐笔核对与补录这一步，因此用量计费复杂、财务人手有限的初创团队会在账单量增长后选择它；公开材料未提供用户反馈或留存证据。
+  usage_reason_en: 'Inference: versus spreadsheets plus a payment dashboard, it converts contract and
+    usage data directly into invoices and initiates collection automatically, removing the line-by-line
+    month-end reconciliation and re-entry step, so startups with complex usage billing and thin finance
+    teams adopt it as invoice volume grows; public materials provide no user feedback or retention evidence.'

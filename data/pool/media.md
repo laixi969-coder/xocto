@@ -1,20 +1,35 @@
 ---
 slug: media
-name: Media
+name: Munk AI
 builder: chaxiu
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 独立开发者 chaxiu 在公开实验中打开自研本地运行时 Munk AI，把 Gemini 4 当作规划与核心编码角色、DeepSeek 当作高频执行角色，让它们围绕「做出 Beyond
+  Compare 免费开源替代品」这一目标拆需求、写代码、自测并汇报；目前公开的交付物是实验日志与需求池，OpenCompare 本身是否成型、代码是否可运行仍待核验。
+inspiration: 趋势是把多模型编排从「聊天框里的助手」推向「有预算、有角色、有验收标准的虚拟团队」，模型分工与成本分层成为新的组织变量。切入可以放在需要长期跑、按结果验收的软件交付环节，例如给外包团队或独立开发者做「按可运行版本收费」的代理式开发服务；但这类实验目前靠个人公开日志驱动，能否沉淀为可重复交付的流程尚未证明。
+summary_en: In a public experiment, independent developer chaxiu runs a self-built local runtime, Munk
+  AI, assigning Gemini 4 to planning and core coding and DeepSeek to high-frequency execution, so they
+  break down requirements, write code, self-test and report against the goal of building a free open-source
+  alternative to Beyond Compare; the only public deliverables so far are experiment logs and a requirement
+  pool, and whether OpenCompare itself works remains unverified.
+inspiration_en: The trend is multi-model orchestration moving from a chat-box assistant toward a virtual
+  team with a budget, roles and acceptance criteria, making model division of labour and cost tiering
+  a new organisational variable. An entry point is long-running, outcome-verified software delivery, for
+  example an agentic development service billed per runnable release for outsourcing teams or solo developers;
+  so far this is driven by one person's public log, and repeatable delivery is unproven.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 软件开发
+industries_en:
+- Software development
+jobs:
+- 独立开发者或小团队负责人
+jobs_en:
+- Independent developer or small-team lead
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: https://media.munk.sh/blog/day-01/machines.jpg
 canonical_url: https://media.munk.sh/blog/day-01/machines.jpg
@@ -39,7 +54,7 @@ summary: "今天 **Gemini-4-Argon** 正式发布了，实测它的长程规划�
   \ **Day 2** 正式揭晓最终选定的目标软件并开工写代码！"
 first_seen: '2026-10-15T00:32:03Z'
 last_seen: '2026-10-17T00:30:21Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 - marketfeeds
@@ -69,7 +84,7 @@ sightings:
   kind: product
 ---
 
-# Media
+# Munk AI
 
 今天 **Gemini-4-Argon** 正式发布了，实测它的长程规划和调度决策能力强得让人后背发凉。
 既然模型大脑已经到了这个水位，再拿它当「聊天框里的个人助理」就太浪费了。

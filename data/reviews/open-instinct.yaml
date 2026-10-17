@@ -264,3 +264,45 @@
     the step where users shuttle and operate app by app; so individuals who habitually text from their
     phone yet need desktop-level execution would choose it for cross-app errands. Stars rising from 280
     to 340 indicate attention only, not adoption or retention.'
+- id: req-full-open-instinct-2026-10-17
+  project_slug: open-instinct
+  level: full
+  reviewed_at: '2026-10-17T01:12:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决个人事务跨应用执行的需求，但公开材料只有仓库简介与星标，未说明旧流程、卡点与不解决的后果，痛点无法还原，价值结构不成立。
+    evidence_ids:
+    - ev-9a4aff5f18265dda
+    - ev-8b76e1ecdc6eb26f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 open-instinct 仓库 README 与 issue/discussion，确认它实际能完成的任务类型、执行环境与交付确认方式。
+  market: ''
+  job: 个人用户在手机上通过 iMessage 给个人代理发消息，让它在自己的一台计算机上执行任务，并与其他代理协作完成事项。
+  job_en: Individual users text a personal agent on iMessage so it executes tasks on its own computer
+    and coordinates with other agents to complete errands.
+  pain: 公开材料只有仓库简介与星标数，未说明用户原来如何处理这些事务、卡在哪一步、不解决会失去什么；痛点无法从公开事实还原，只能看出这是开发者对个人代理形态的兴趣。
+  pain_en: The public material is only a repository blurb and star counts; it does not say how users handled
+    these tasks before, where they got stuck, or what they lose by not solving it, so the pain cannot
+    be reconstructed from public facts.
+  current_alternative: 公开材料未提供旧做法信息；按结构推断，用户可能自己在多个 App 间手动操作，或使用现有通用助手，但这是推断而非材料事实。
+  current_alternative_en: The public material gives no prior-practice information; by structural inference
+    users may handle it manually across apps or use existing general assistants, but this is inference,
+    not a material fact.
+  usage_reason: 无法解释用户为何选择它：材料未说明相较手动跨应用操作减少了哪一步负担或改善了哪项可核对结果，仅有仓库星标增长，属于关注度而非采用理由。
+  usage_reason_en: 'Cannot explain why users would choose it: the material does not say which step it
+    removes versus manual cross-app work or which checkable result it improves; star growth is attention,
+    not a usage reason.'

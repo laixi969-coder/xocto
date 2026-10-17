@@ -697,3 +697,56 @@
     in one place, removing the ''first find which models exist'' search-and-compare step so authorized
     testers who need local, offline inference can shortlist from a single entry point; the star count
     rising from 660 to 686 shows attention, not sustained use.'
+- id: req-full-offensive-security-ai-models-2026-10-17
+  project_slug: offensive-security-ai-models
+  level: full
+  reviewed_at: '2026-10-17T01:12:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权渗透测试中筛选可本地部署未审查/安全微调模型的需求，痛点是通用云端模型拒答且上传目标数据违反授权保密，替代方式是逐个仓库试错；这是从仓库定位与任务闭环作出的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-1a4ca7500f93db52
+    - ev-6b2fe833b4b0c70b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 664 持续增至 690，说明英文生态持续有关注，但星标只属关注度证据，不能证明目标用户已把它留在工作流；中文生态检索未发现对应项目，场景共识尚未核验。
+    evidence_ids:
+    - ev-1a4ca7500f93db52
+    - ev-4b8d5069df2ccd49
+    - ev-bbff981a1de96ab9
+  - gate: model
+    status: insufficient
+    reason: 这是开源清单仓库，公开材料未见定价页、赞助、商业授权或企业采购路径，谁付钱无法核验；判断上最可能由安全团队以内部人力或开源维护方式承担成本，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1a4ca7500f93db52
+  - gate: truth
+    status: insufficient
+    reason: 公开证据只有仓库简介与星标，未说明收录哪些模型、如何部署、产出什么结果，也未给出授权使用与安全边界说明，交付能否确定性发生尚缺可复现材料。
+    evidence_ids:
+    - ev-1a4ca7500f93db52
+    - ev-8b169b450c0634b9
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认收录模型清单、部署说明及是否有授权测试场景的使用反馈。
+  market: ''
+  job: 安全研究员或红队在获得客户书面授权的渗透测试中，需要挑选可本地部署、未做安全对齐或已针对网络安全任务微调的模型，用自有硬件跑攻击面验证与漏洞复现，而不把目标信息交给云端闭源模型。
+  job_en: A security researcher or red teamer, holding written client authorization for a penetration
+    test, needs to pick locally deployable models that are uncensored or fine-tuned for cybersecurity
+    tasks, run attack-surface validation and exploit reproduction on their own hardware, without sending
+    target data to closed cloud models.
+  pain: 通用云端模型对攻击性安全提示普遍拒答或限流，且把客户目标信息上传第三方违反授权与保密约束；研究员只能逐个仓库试模型、翻论文和论坛，筛选与本地部署成本高，选错模型会拖慢授权窗口内的验证进度。
+  pain_en: General cloud models routinely refuse or throttle offensive-security prompts, and uploading
+    client target data to a third party violates authorization and confidentiality constraints; researchers
+    must try repositories one by one and dig through papers and forums, so selection and local deployment
+    are costly and a wrong pick slows validation inside the authorized window.
+  current_alternative: 目前靠研究员自己零散收集 公开模型社区 模型卡、论文、Reddit 与 Discord 讨论，逐个下载试跑，或直接用被拒答的通用云端模型绕过提示词。
+  current_alternative_en: Today researchers hand-collect public model community model cards, papers, Reddit
+    and Discord threads, download and test models one by one, or work around refusals from general cloud
+    models with prompt tricks.
+  usage_reason: 推断：相较逐个仓库试错，该清单把未审查与安全微调模型集中到一处，减少“先找到候选”这一步的检索负担，使需要本地部署、合规留痕的授权测试者能在同一入口比对候选再自行部署；仓库星标从
+    664 增至 690 只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus trial-and-error across repositories, the list aggregates uncensored
+    and security-tuned models in one place, cutting the search step of finding candidates so authorized
+    testers who need local deployment and audit trails can compare options at one entry point before deploying
+    themselves; the star count rising from 664 to 690 shows attention, not sustained use.'

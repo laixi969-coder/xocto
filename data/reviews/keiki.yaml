@@ -1,0 +1,45 @@
+- id: req-initial-keiki-2026-10-17
+  project_slug: keiki
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它生成面向客户的代理，未说明原来谁用什么方式接待客户、不解决会怎样，连需求与痛点都写不具体，价值关证据不足。
+    evidence_ids:
+    - ev-29427b219481bde9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立。材料无用户评价、客户案例或采用信号，无法判断卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-29427b219481bde9
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立。买方与付费路径均未披露，to B 订阅或按接待量计费都只是猜测，不是已验证事实。
+    evidence_ids:
+    - ev-29427b219481bde9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立。渠道覆盖、资料接入与人工接管边界均未披露，无法判断承诺能否确定性交付。
+    evidence_ids:
+    - ev-29427b219481bde9
+  next_validation: 抓取 Keiki 官方产品页或文档，确认支持的投放渠道清单、业务资料接入方式与人工接管机制。
+  market: ''
+  job: 中小企业或独立站运营者在需要对外接待客户咨询时，把自家产品与政策资料交给 Keiki，生成一个能回答客户问题的对话代理并投放到客户所在的渠道，完成售前答疑或初步分流。
+  job_en: An SMB or independent-store operator who needs to receive inbound customer questions hands its
+    product and policy material to Keiki, generates a conversational agent that answers customers, and
+    places it on the channels where customers are, to handle pre-sales Q&A or initial triage.
+  pain: 候选材料只给出一句定位，没有说明客户原来靠什么方式接待（人工客服、表单、FAQ 页面），也没有说明不解决的后果，因此痛点强度无法从公开事实判断。
+  pain_en: The candidate material gives only a one-line positioning; it does not say what the customer
+    previously used to receive inquiries (human agents, forms, FAQ pages) or what happens if the problem
+    is unsolved, so pain intensity cannot be judged from public facts.
+  current_alternative: 公开材料未披露替代方式；按常见做法推断，可能是人工客服、在线表单或静态 FAQ 页面，但这是推断，不是已核验事实。
+  current_alternative_en: The public material does not disclose the alternative; by common practice it
+    is inferred to be human agents, web forms, or static FAQ pages, but this is inference, not verified
+    fact.
+  usage_reason: 无法给出因果解释：材料没有说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，也没有渠道清单、接入方式或人工接管说明，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation can be given: the material does not say which step of the old
+    process it removes or which checkable result it improves, and gives no channel list, ingestion method,
+    or human handoff description, so it is impossible to say which users would choose it and when.'

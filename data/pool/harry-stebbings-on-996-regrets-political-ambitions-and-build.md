@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/harry-stebbings-podcast
 summary: ''
 first_seen: '2026-10-17T00:31:00Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

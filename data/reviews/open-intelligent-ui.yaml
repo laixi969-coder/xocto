@@ -85,3 +85,52 @@
     layer, developers skip building their own rendering pipeline, so those building conversational products
     without wanting to write a renderer from scratch would pick it at prototype or launch stage. Without
     usage feedback or cases, this cannot be confirmed as a real reason to choose it.'
+- id: req-full-open-intelligent-ui-2026-10-17
+  project_slug: open-intelligent-ui
+  level: full
+  reviewed_at: '2026-10-17T01:12:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把模型文本流变成可交互界面的需求，痛点是开发者自建解析与流式渲染管线成本高、不解决则对话产品只能显示纯文本；这是基于公开功能说明的工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+    - ev-5cde63515b7ab7cf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从391升至462只说明关注度增长，属于规模信号；公开材料没有用户评价、采用案例或场景反馈，无法判断开发者是否在真实工作流中感知并复用该场景。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+    - ev-5cde63515b7ab7cf
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、收费或商业路径，买方与付费方式未知；这是判断而非已验证事实，但价值关已成立，不因此取消真需求判定。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明渲染结果是否确定交付、支持哪些组件边界，也没有安全与人工边界说明，无法核对承诺能否稳定兑现。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+    - ev-5cde63515b7ab7cf
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认实际支持的组件类型、接入步骤与已知限制，作为交付确定性的公开证据。
+  market: ''
+  job: 应用开发者在构建对话式产品时，需要把模型返回的文本流转换成用户可直接点击、填写或操作的地图、图片、图表、绘图和工具界面，而不是只显示一段文字。
+  job_en: App developers building conversational products need to turn streamed model text into maps,
+    photos, charts, drawings and working tools that users can click, fill in or operate, rather than plain
+    text.
+  pain: 公开材料显示模型回答默认是纯文本，开发者要自己解析输出、匹配组件、处理流式渲染与交互状态；不解决则对话产品只能停留在聊天框，用户无法在回答里直接操作数据或工具。
+  pain_en: Public material shows model answers default to plain text, so developers must parse output,
+    map it to components and handle streaming plus interaction state; without solving this, a conversational
+    product stays a chat box and users cannot act on data or tools inside the answer.
+  current_alternative: 现有替代是开发者用自有前端框架手工把模型输出解析成组件并自建流式渲染管线，或直接放弃交互界面只展示文本。
+  current_alternative_en: The current alternative is developers hand-parsing model output into components
+    with their own frontend stack and building a streaming render pipeline, or giving up and showing text
+    only.
+  usage_reason: 推断：相较自建解析与渲染管线，它把输出到组件的映射和流式渲染封装成可复用层，开发者可省去从零拼装组件与处理流式状态这一步，因此正在做对话式应用、又想让回答可交互的开发者会在搭建阶段选择它。
+  usage_reason_en: 'Inference: versus building a parsing and rendering pipeline from scratch, it packages
+    output-to-component mapping and streaming rendering into a reusable layer, letting developers skip
+    assembling components and handling stream state, so developers building conversational apps who want
+    interactive answers would pick it at build time.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQa294N0NXclpX
 summary: AI will decide who gets hired, and who gets left behind Education Times
 first_seen: '2026-08-28T05:39:20Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

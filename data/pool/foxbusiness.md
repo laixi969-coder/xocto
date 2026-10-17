@@ -1,6 +1,6 @@
 ---
 slug: foxbusiness
-name: foxbusiness
+name: Tesla Roadster
 builder: nsoonhui
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://foxbusiness.com/technology/teslas-new-roadster-makes-flyi
 summary: Tesla's new Roadster makes a flying debut, hitting 60 MPH in under a second
 first_seen: '2026-10-17T00:30:22Z'
 last_seen: '2026-10-17T00:30:22Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# foxbusiness
+# Tesla Roadster
 
 Tesla's new Roadster makes a flying debut, hitting 60 MPH in under a second
 

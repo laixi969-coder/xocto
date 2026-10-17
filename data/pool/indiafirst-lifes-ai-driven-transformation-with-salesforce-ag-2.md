@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQVENtaERES2Rs
 summary: IndiaFirst Life’s AI-Driven Transformation with Salesforce Agentforce SMEStreet
 first_seen: '2026-08-28T06:29:37Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

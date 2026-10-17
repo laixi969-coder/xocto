@@ -1,6 +1,6 @@
 ---
 slug: corporate-spend-platform-ramp-raises-185b-at-60b-valuation
-name: Corporate Spend Platform Ramp Raises $1.85B at $60B Valuation
+name: Ramp
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XX3ZYR1QyUVlo
 summary: Corporate Spend Platform Ramp Raises $1.85B at $60B Valuation Wowtale
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Corporate Spend Platform Ramp Raises $1.85B at $60B Valuation
+# Ramp
 
 Corporate Spend Platform Ramp Raises $1.85B at $60B Valuation Wowtale
 

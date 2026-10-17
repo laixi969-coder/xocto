@@ -1,0 +1,96 @@
+- id: req-initial-sullivan-cromwell-brings-legal-expertise-into-agreement-revi-2026-10-17
+  project_slug: sullivan-cromwell-brings-legal-expertise-into-agreement-revi
+  level: initial
+  reviewed_at: '2026-10-17T00:30:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同草案审阅中逐条找风险条款的需求，痛点是资深律师通读耗时且易漏，旧做法是人工通读加模板比对，结构上成立。
+    evidence_ids:
+    - ev-f46cf375f1d30ee2
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有合作双方的产品说明，没有律师使用反馈、采用范围或重复使用证据，无法判断是否进入日常工作流。
+    evidence_ids:
+    - ev-f46cf375f1d30ee2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式或买方结构；律所自建工具可能作为服务能力而非独立收费产品，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-f46cf375f1d30ee2
+  - gate: truth
+    status: insufficient
+    reason: 条款识别准确率、误报漏报和律师复核边界均未公开，交付确定性无法核对。
+    evidence_ids:
+    - ev-f46cf375f1d30ee2
+  next_validation: 收集 Sullivan & Cromwell 或 OpenAI 官方页面中关于 Agreement Analyzer 的部署范围、条款识别准确率或律师使用反馈的公开材料。
+  market: ''
+  job: 交易律师或企业法务在收到对方发来的合同草案后，需要逐条找出偏离本方立场的条款，决定哪些必须修改、哪些可以接受。
+  job_en: A deal lawyer or in-house counsel receives a counterparty's draft contract and must find clauses
+    that deviate from their side's position, deciding what must be changed and what is acceptable.
+  pain: 合同审阅依赖资深律师逐份通读，条款清单靠记忆和既往模板比对，耗时且容易漏掉隐藏在长文本里的风险点；初级律师缺少判断依据。
+  pain_en: Contract review depends on senior lawyers reading every draft, comparing clauses from memory
+    and past templates; it is slow and risks missing risks buried in long text, while junior lawyers lack
+    a basis for judgment.
+  current_alternative: 目前主要靠资深律师人工通读、内部条款清单和既往交易模板比对，辅以通用大模型做摘要，但摘要不针对本方立场，也不产出可谈判的修改意见。
+  current_alternative_en: Today this is mostly manual reading by senior lawyers, internal clause checklists
+    and past deal templates, plus general LLM summarization that is not tuned to the client's position
+    and does not produce negotiable redlines.
+  usage_reason: 推断：相较人工通读加通用摘要，它把审阅动作前移到条款级标注，律师不必先读完再判断，而是从被标出的问题条款开始复核，减少通读整份协议的负担；有大量标准化交易文本的律所法务团队更可能选择它。
+  usage_reason_en: 'Inference: versus manual reading plus generic summarization, it moves the work to
+    clause-level flagging, so lawyers start from flagged clauses rather than reading everything first,
+    cutting the burden of full-document review; firms and legal teams with high volumes of standardized
+    deal text are the likeliest adopters.'
+- id: req-full-sullivan-cromwell-brings-legal-expertise-into-agreement-revi-2026-10-17
+  project_slug: sullivan-cromwell-brings-legal-expertise-into-agreement-revi
+  level: full
+  reviewed_at: '2026-10-17T01:13:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同草案审阅中逐条定位风险条款的需求，痛点是资深律师通读耗时且易漏、初级律师缺判断依据，旧做法是人工通读加模板比对；这是从审阅任务结构推出的判断，公开材料尚无律师抱怨或耗时数据。
+    evidence_ids:
+    - ev-a3004debecbb761c
+    - ev-5006c5b4fdda4dcc
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有合作双方的产品说明与检索覆盖记录，没有律师使用反馈、采用范围或重复使用证据，无法判断它是否已进入日常审阅工作流。
+    evidence_ids:
+    - ev-5006c5b4fdda4dcc
+    - ev-058386b0ded132aa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式或买方结构；律所自建工具可能作为服务能力而非独立收费产品，钱可能来自律所内部预算或客户服务费，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-058386b0ded132aa
+    - ev-def46b315ef06096
+  - gate: truth
+    status: insufficient
+    reason: 条款识别准确率、误报漏报率与律师复核边界均未公开，交付能否确定性发生无法核对；法律场景对错误容忍度低，这一环缺失最影响把握。
+    evidence_ids:
+    - ev-9cba34e3999cdfe8
+    - ev-4efc9d1a3cdc4e04
+  next_validation: 追踪 Sullivan & Cromwell 或 OpenAI 官方页面中关于 Agreement Analyzer 的部署范围、条款识别准确率或律师使用反馈的公开材料。
+  market: ''
+  job: 律所交易团队或企业法务在收到对方发来的合同草案后，把协议文本交给工具，由模型逐条标出有问题的条款，律师据此决定哪些条款需要修改或谈判，最终交付仍由律师确认。
+  job_en: A law firm deal team or in-house counsel receives a counterparty's draft contract, feeds the
+    agreement text into the tool, and the model flags problematic clauses; lawyers then decide what to
+    redline or negotiate, with the final deliverable still confirmed by a lawyer.
+  pain: 合同审阅依赖资深律师逐份通读，条款判断靠记忆与既往模板比对，长文本中隐藏的风险点容易漏掉，初级律师也缺少可参照的判断依据；这是从审阅任务结构推出的痛点，公开材料未提供律师抱怨或耗时数据。
+  pain_en: Contract review depends on senior lawyers reading each draft end to end, judging clauses from
+    memory and past templates; risks buried in long text are easily missed and junior lawyers lack a reference
+    basis. This pain is inferred from the review task structure; public materials provide no lawyer complaints
+    or time data.
+  current_alternative: 目前主要靠资深律师人工通读、内部条款清单和既往交易模板比对，辅以通用大模型做摘要；但通用摘要不针对本方立场，也不产出可谈判的修改意见。
+  current_alternative_en: Today this is mostly manual reading by senior lawyers, internal clause checklists
+    and past deal templates, plus general LLM summarization; generic summaries are not tuned to the client's
+    position and do not produce negotiable redlines.
+  usage_reason: 推断：相较人工通读加通用摘要，它把审阅动作前移到条款级标注，律师不必先读完再判断，而是从被标出的问题条款开始复核，减少通读整份协议的负担；有大量标准化交易文本的律所交易团队更可能选择它。
+  usage_reason_en: 'Inference: versus manual reading plus generic summarization, it moves the work to
+    clause-level flagging, so lawyers start from flagged clauses rather than reading everything first,
+    cutting the burden of full-document review; deal teams handling high volumes of standardized transaction
+    text are the likeliest adopters.'

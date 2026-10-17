@@ -1065,3 +1065,43 @@
     function and prompt, developers would pick it when assembling an agent; however, the only public evidence
     is 209 stars and 4 forks, which is attention rather than adoption or retention evidence and cannot
     explain sustained choice.'
+- id: req-full-agent-skills-collection-2026-10-17
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-10-17T01:08:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的公开 issue/discussion 与 README 安装说明，确认是否仍要求关闭杀毒或管理员权限，以及是否有用户报告实际接入 agent 工作流的使用记录。
+  market: ''
+  job: 开发者或 AI 助手使用者想给基于 LLM 的 agent 加装模块化技能，在本地或自托管环境中把技能包接入自己的 agent 工作流，完成特定任务扩展。
+  job_en: Developers or AI-assistant users want to add modular skills to an LLM-based agent, wiring skill
+    packages into their own local or self-hosted agent workflow to extend task coverage.
+  pain: 公开材料只给出产品自述，没有用户抱怨、issue 或案例说明不装技能会损失什么；安装环节要求关闭杀毒并以管理员权限运行安装包，反而给使用者带来安全与信任负担，而非消除既有痛点。
+  pain_en: Public materials contain only the product's own description; no user complaints, issues, or
+    cases show what is lost without these skills. The install flow asks users to disable antivirus and
+    run a setup file as administrator, adding a security and trust burden rather than removing an existing
+    pain.
+  current_alternative: 开发者通常直接用官方插件机制、MCP 服务器、函数调用或自行编写脚本接入 agent，无需关闭杀毒或提权安装。
+  current_alternative_en: Developers typically wire agents via official plugin mechanisms, MCP servers,
+    function calling, or self-written scripts, without disabling antivirus or elevated installs.
+  usage_reason: 推断：209 个收藏、4 次复刻只说明开发者注意到该仓库，属于关注度而非采用动机；安装需关杀毒、提权，且没有留存、复购或客户案例证据，无法说明哪类用户会在什么情况下选择它而非官方插件机制。
+  usage_reason_en: 'Inference: 209 stars and 4 forks only show developer attention, not adoption motive;
+    with antivirus-disabling, elevated installs, and no retention, repeat-use, or customer-case evidence,
+    it is unclear which users would choose it over official plugin mechanisms.'

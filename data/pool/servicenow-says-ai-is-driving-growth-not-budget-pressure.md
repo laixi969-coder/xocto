@@ -26,7 +26,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmRFbzJVc3c4
 summary: ServiceNow Says AI Is Driving Growth, Not Budget Pressure TradingView
 first_seen: '2026-08-28T00:02:47Z'
 last_seen: '2026-10-02T01:42:23Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/mahithtanay/breast-cancer-classifie
 summary: ''
 first_seen: '2026-08-27T21:21:04Z'
 last_seen: '2026-08-28T06:07:41Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:
@@ -30,6 +30,7 @@ sightings:
   seen_at: '2026-08-28T06:07:41Z'
   metrics:
     likes: 2
+  kind: product
 ---
 
 # Breast Cancer Classifier Demo

@@ -1,0 +1,90 @@
+- id: req-initial-media-2026-10-17
+  project_slug: media
+  level: initial
+  reviewed_at: '2026-10-17T00:30:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多代理开发中预算与规划失衡、人工反复对齐的问题，痛点真实；但公开材料只到实验日志，OpenCompare 是否交付、流程能否复用均未核验。
+    evidence_ids:
+    - ev-190736aacb841e72
+  - gate: consensus
+    status: insufficient
+    reason: 讨论集中在社区评论，属于关注度而非持续采用；没有客户案例或团队把该运行时留在日常开发流程中的证据。
+    evidence_ids:
+    - ev-190736aacb841e72
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露 Munk AI 的定价、买方或收费方式，只有作者自付的 1000 美元 Token 预算，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-190736aacb841e72
+  - gate: truth
+    status: insufficient
+    reason: 目标是把知名付费软件做成免费开源替代品，交付确定性依赖模型长程规划能力，公开材料尚未给出可运行版本或验收结果。
+    evidence_ids:
+    - ev-190736aacb841e72
+  next_validation: 收集 Munk AI 的官方仓库或产品页，核验 OpenCompare 是否已产出可运行版本、代码提交与 issue 讨论情况。
+  market: ''
+  job: 独立开发者或小团队负责人在预算有限、需要同时推进需求拆解、编码和自测时，处理产品需求与代码库，要完成一个可运行、可验收的软件版本。
+  job_en: An independent developer or small-team lead with a limited budget, handling product requirements
+    and a codebase while pushing requirement breakdown, coding and self-testing forward, aiming to deliver
+    a runnable, reviewable software release.
+  pain: 多代理开发容易两头失衡：全用旗舰模型两天烧穿预算，全用便宜模型规划混乱；人工还要反复对齐方案、返工和盯进度。
+  pain_en: 'Multi-agent development easily tips to one extreme: all flagship models burn the budget in
+    two days, all cheap models produce chaotic planning, and humans still spend time aligning plans, reworking
+    and chasing progress.'
+  current_alternative: 开发者自己用单一模型加脚本手工编排，或直接雇人、外包，靠人工评审和版本管理控制质量。
+  current_alternative_en: Developers hand-orchestrate a single model with scripts, or hire people or outsource,
+    controlling quality through manual review and version management.
+  usage_reason: 推断：相较手工编排，Munk AI 把预算按角色分层并写入系统提示词，让规划、编码、自测各自绑定模型与验收标准，减少人工在模型切换和进度对齐上的操作；但公开材料只到实验日志，尚无重复使用或交付结果证据。
+  usage_reason_en: 'Inference: versus manual orchestration, Munk AI tiers the budget by role and writes
+    it into system prompts, binding planning, coding and self-testing to specific models and acceptance
+    criteria, cutting manual model-switching and progress-alignment work; public material stops at experiment
+    logs, with no evidence of repeated use or delivered results.'
+- id: req-full-media-2026-10-17
+  project_slug: media
+  level: full
+  reviewed_at: '2026-10-17T01:11:50Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是作者自设的 7 天实验任务，痛点来自自述的模型预算与编排失衡，而非公开可核验的用户刚性需求；替代品是否成型、流程能否复用均无证据，属于自嗨式实验叙事。
+    evidence_ids:
+    - ev-d7d6b21ba0e56efe
+    - ev-3b1c81c7f1c2f63b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Munk AI 官方仓库或产品页，核验 OpenCompare 是否已产出可运行版本、代码提交与 issue 讨论情况。
+  market: ''
+  job: 独立开发者 chaxiu 在 7 天公开实验中，用自研本地运行时 Munk AI 调度 Gemini 4 与 DeepSeek，处理产品调研、需求拆解、编码与实机自测材料，要完成一款付费软件的开源替代品并开源发布。
+  job_en: In a 7-day public experiment, independent developer chaxiu uses the self-built local runtime
+    Munk AI to orchestrate Gemini 4 and DeepSeek, handling product research, requirement breakdown, coding
+    and on-device self-testing material, aiming to ship an open-source replacement for a paid software
+    product.
+  pain: 公开材料只说明多 Agent 全用旗舰模型会烧穿预算、全用便宜模型规划混乱，这是作者自述的编排成本问题；对普通开发者而言，是否必须让 AI 运营一家公司、是否必须 7 天做出替代品，均无公开需求证据。
+  pain_en: Public material only states that running all flagship models burns budget and all cheap models
+    produce chaotic planning — a self-described orchestration cost issue; there is no public evidence
+    that ordinary developers need an AI to run a company or must ship a replacement in 7 days.
+  current_alternative: 开发者用单一模型加脚本手工编排，或直接雇人、外包，靠人工评审和版本管理控制质量；也可用现成的多 Agent 框架自行搭建。
+  current_alternative_en: Developers hand-orchestrate a single model with scripts, or hire people or outsource,
+    controlling quality via manual review and version management; they can also build on existing multi-agent
+    frameworks.
+  usage_reason: 推断：Munk AI 把预算按角色分层并写入系统提示词，让规划、编码、自测绑定不同模型与验收标准，减少人工切换模型和对齐进度；但公开材料只有 Day 1 实验日志，无重复使用、交付结果或他人采用证据，选择动机无法确认为事实。
+  usage_reason_en: 'Inference: Munk AI tiers budget by role and writes it into system prompts, binding
+    planning, coding and self-testing to different models and acceptance criteria, cutting manual model-switching
+    and progress alignment; but public material is only a Day 1 experiment log, with no evidence of repeated
+    use, delivered results or third-party adoption, so the choice motive cannot be confirmed as fact.'

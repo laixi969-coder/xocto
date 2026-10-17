@@ -179,3 +179,49 @@
     the re-login and anti-bot workaround step, so operators or researchers who must batch-operate web
     apps inside their own account session would choose it when facing login-gated repetitive tasks; account-security
     and platform-term risks are not yet addressed in public material.'
+- id: req-full-agent-chrome-relay-2026-10-17
+  project_slug: agent-chrome-relay
+  level: full
+  reviewed_at: '2026-10-17T01:08:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理无法进入已登录网页后台、重复操作只能人工完成的问题，痛点具体且旧替代行为明确；账号安全边界仍待核验。
+    evidence_ids:
+    - ev-12d780897c3cf1af
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标这一关注度信号，没有用户评价、客户案例或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-12d780897c3cf1af
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明收费方式或买方；可能走 to B 私有部署或 to VC，属判断而非已验证事实。
+    evidence_ids:
+    - ev-12d780897c3cf1af
+  - gate: truth
+    status: challenged
+    reason: 让代理以用户身份操作已登录账号，涉及凭据安全、平台条款与误操作边界，公开材料未见权限隔离或人工确认机制。
+    evidence_ids:
+    - ev-12d780897c3cf1af
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认是否说明权限隔离、人工确认环节及实际使用场景。
+  market: ''
+  job: 运营、投放或研究人员在需要让 AI 代理在自己已登录的网页后台里完成点击、填表、抓取等重复操作时，打开 agent-chrome-relay，让代理接管本人已登录的 Chrome 后台标签页执行网页动作，拿到代理在真实账号会话中完成的操作结果。
+  job_en: Operations, ads or research staff who need an AI agent to perform repetitive clicks, form fills
+    and scraping inside their own signed-in web back office open agent-chrome-relay, letting the agent
+    take over their signed-in Chrome background tabs and receiving the results of actions completed inside
+    the real account session.
+  pain: 现有代理拿不到登录态，被验证码和反爬拦截；要么要求用户交出账号凭据或另开无头浏览器，导致真实后台任务跑不通，只能退回人工逐步点选。
+  pain_en: Existing agents lack the login state and get blocked by captchas and anti-bot checks; or they
+    require handing over credentials or a separate headless browser, so real back-office tasks fail and
+    users fall back to manual step-by-step clicking.
+  current_alternative: 人工在浏览器里逐步点选，或使用需要重新登录、易被风控拦截的自动化脚本与云端代理。
+  current_alternative_en: Manual step-by-step clicking in the browser, or automation scripts and cloud
+    agents that must re-authenticate and are easily blocked by risk controls.
+  usage_reason: 推断：相较重新登录或另开无头浏览器的旧做法，它复用用户本人已登录的 Chrome 后台标签页，省去重新认证和绕过风控这一步，因此需要在自己账号会话内批量操作网页的运营或研究人员会优先试用；账号安全与平台条款风险尚未在公开材料中说明。
+  usage_reason_en: 'Inference: versus re-logging in or spinning up a headless browser, it reuses the user''s
+    own signed-in Chrome background tabs, removing the re-authentication and anti-bot workaround step,
+    so operators or researchers who must batch-operate web apps inside their own account session would
+    try it first; account-security and platform-term risks are not yet addressed in public material.'

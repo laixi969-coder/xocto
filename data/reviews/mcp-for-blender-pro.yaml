@@ -1,0 +1,93 @@
+- id: req-initial-mcp-for-blender-pro-2026-10-17
+  project_slug: mcp-for-blender-pro
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非程序员美术师在 Blender 中做脚本与几何节点改动门槛高的问题，旧做法是查文档手写或找人代做，痛点具体。
+    evidence_ids:
+    - ev-0fd2d7e22814b0ff
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 248 星属关注度，未见用户评价或案例说明它已进入日常建模流程。
+    evidence_ids:
+    - ev-0fd2d7e22814b0ff
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价或商业路径，付费方可能是工作室或插件订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0fd2d7e22814b0ff
+  - gate: truth
+    status: insufficient
+    reason: 哪些操作可自动执行、出错后如何回滚与人工确认边界均未披露，交付确定性无法核对。
+    evidence_ids:
+    - ev-0fd2d7e22814b0ff
+  next_validation: 收集该仓库的 issue 与 discussion，确认实际可自动完成的 Blender 操作范围与用户反馈。
+  market: ''
+  job: 3D 美术师或独立设计师在 Blender 里搭建场景时，用对话描述要改的模型、几何节点或脚本，由 AI 生成并执行 bpy 操作，最终得到改好的场景文件。
+  job_en: 3D artists or independent designers building scenes in Blender describe the model, geometry
+    nodes or script changes in chat, and the AI generates and runs bpy operations, ending with a modified
+    scene file.
+  pain: Blender 的脚本与几何节点门槛高，非程序员美术师要反复查文档、试错，才能完成一次批量或参数化改动。
+  pain_en: Blender scripting and geometry nodes have a high barrier, so non-programmer artists must repeatedly
+    consult docs and trial-and-error to complete one batch or parametric change.
+  current_alternative: 查文档手写 Python、在论坛找现成脚本、或雇技术美术代做。
+  current_alternative_en: Reading docs to hand-write Python, finding existing scripts on forums, or hiring
+    a technical artist to do it.
+  usage_reason: 推断：相较手写脚本，它把自然语言描述直接转成可执行的 bpy 操作并在场景里运行，省掉查文档与调试这一步，因此不写代码的独立美术师在需要批量或参数化改动时会选择它；公开材料未见留存或付费证据。
+  usage_reason_en: 'Inference: versus hand-writing scripts, it converts natural-language descriptions
+    directly into executable bpy operations run in the scene, removing the doc-reading and debugging step,
+    so non-coding independent artists would pick it for batch or parametric changes; no retention or payment
+    evidence appears in public material.'
+- id: req-full-mcp-for-blender-pro-2026-10-17
+  project_slug: mcp-for-blender-pro
+  level: full
+  reviewed_at: '2026-10-17T01:11:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非程序员美术师在 Blender 中做脚本与几何节点改动门槛高的问题，旧做法是查文档手写、论坛找脚本或雇技术美术代做，痛点具体且不解决则改动被推迟或外包；交付闭环为自然语言→bpy
+      执行→场景文件，属工作流结构推理。
+    evidence_ids:
+    - ev-0fd2d7e22814b0ff
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 248 星只反映开发者关注度，未见用户评价、案例或复现记录说明它已进入日常建模流程，也未见强场景被公开确认。
+    evidence_ids:
+    - ev-0fd2d7e22814b0ff
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价页或商业路径，付费方可能是工作室订阅或插件买断，属判断而非已验证事实；无融资叙事，暂不构成每日优鲜风险。
+    evidence_ids:
+    - ev-0fd2d7e22814b0ff
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只列出多模型接入与场景工具，未披露哪些操作可自动执行、出错后如何回滚、人工确认边界在哪，交付确定性无法核对。
+    evidence_ids:
+    - ev-0fd2d7e22814b0ff
+  next_validation: 追踪该仓库的 issue 与 discussion，核对实际可自动完成的 Blender 操作范围、失败回滚方式与用户反馈。
+  market: ''
+  job: 3D 美术师或独立设计师在 Blender 里搭建或修改场景时，面对需要批量调整、参数化生成或几何节点改动的模型与脚本，用自然语言描述意图，由 AI 生成并执行 bpy 操作，最终得到改好的场景文件。
+  job_en: 3D artists or independent designers building or revising scenes in Blender, facing models and
+    scripts that need batch adjustments, parametric generation or geometry-node changes, describe their
+    intent in natural language so the AI generates and runs bpy operations, ending with a modified scene
+    file.
+  pain: Blender 的 Python 脚本与几何节点门槛高，非程序员美术师要反复查文档、试错才能完成一次批量或参数化改动；不解决的后果是这类改动被推迟、外包或干脆放弃，场景只能停留在手工逐项调整。
+  pain_en: Blender's Python scripting and geometry nodes have a high barrier, so non-programmer artists
+    must repeatedly consult docs and trial-and-error to complete a single batch or parametric change;
+    the consequence of not solving it is that such changes get deferred, outsourced or abandoned, leaving
+    the scene at manual item-by-item adjustment.
+  current_alternative: 查官方文档手写 Python、在论坛或 公开代码仓库 找现成脚本、购买付费插件，或雇技术美术代做。
+  current_alternative_en: Reading official docs to hand-write Python, finding ready-made scripts on forums
+    or public code repository, buying paid add-ons, or hiring a technical artist to do it.
+  usage_reason: 推断：相较手写脚本或找现成脚本，它把自然语言描述直接转成在场景中执行的 bpy 操作，省掉查文档、改参数与调试这一步；因此不写代码、又需要批量或参数化改动的独立美术师，在赶场景迭代时会选择它。公开材料未见留存或付费证据，动机属结构推断。
+  usage_reason_en: 'Inference: versus hand-writing scripts or hunting for ready-made ones, it turns natural-language
+    descriptions directly into bpy operations executed in the scene, removing the doc-reading, parameter-tweaking
+    and debugging step; so independent artists who do not code but need batch or parametric changes would
+    pick it during scene iteration. No retention or payment evidence appears in public material, so the
+    motive is a structural inference.'

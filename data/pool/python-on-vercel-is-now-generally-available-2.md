@@ -1,11 +1,13 @@
 ---
 slug: python-on-vercel-is-now-generally-available-2
-name: Python on Vercel is now generally available
+name: Vercel
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Vercel 是一个前端与全栈应用的托管部署平台；本次变化是平台新增对 Python 运行时的正式支持，开发者可在同一平台部署 Python 服务与 AI 相关脚本。具体计费方式与运行限制仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: Vercel is a hosting and deployment platform for front-end and full-stack applications; this
+  change adds generally available Python runtime support, letting developers deploy Python services and
+  AI-related scripts on the same platform. Billing details and runtime limits remain unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://vercel.com/changelog/python-on-vercel-is-now-generally-av
 summary: ''
 first_seen: '2026-10-17T00:30:59Z'
 last_seen: '2026-10-17T00:30:59Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Python on Vercel is now generally available
+# Vercel
 
 _（源没给简介）_
 

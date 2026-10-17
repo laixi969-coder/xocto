@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/doyt
 summary: The Dynamic Island to-do app you don't have to open
 first_seen: '2026-10-17T00:30:22Z'
 last_seen: '2026-10-17T00:30:22Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

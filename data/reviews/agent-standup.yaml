@@ -132,3 +132,49 @@
     one local animated panel, removing the per-window check step and directly flagging who waits on whom
     and who needs the human, so developers running several agents would pick it as parallel tasks grow;
     retention or repeat-use evidence is currently missing.'
+- id: req-full-agent-standup-2026-10-17
+  project_slug: agent-standup
+  level: full
+  reviewed_at: '2026-10-17T01:08:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决并行编码会话状态分散、人需反复巡检的问题，旧做法是逐个窗口查看，痛点具体且可核对；这是从产品说明与任务结构作出的工作流推理。
+    evidence_ids:
+    - ev-f35abb2e96321129
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 150 增至 227，说明有开发者关注，但无评价、案例或讨论，场景共识强度未知。
+    evidence_ids:
+    - ev-f35abb2e96321129
+    - ev-d513b8c2c725e6dc
+  - gate: model
+    status: insufficient
+    reason: 本地运行、零 token，未见定价页或买方信息，收费路径是判断而非已验证事实。
+    evidence_ids:
+    - ev-f35abb2e96321129
+  - gate: truth
+    status: insufficient
+    reason: 只读状态面板风险较低，但未见交付确定性与人工接管边界的说明，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-f35abb2e96321129
+  next_validation: 追踪该项目仓库的 issue/discussion 与发布说明，确认是否有开发者持续在多智能体工作流中使用并反馈。
+  market: ''
+  job: 同时运行 Claude Code、Codex、Mistral Vibe 等多个编码智能体会话的开发者，在多个任务并行推进时，需要判断哪个会话在跑、哪个卡住、哪个在等自己确认，以便决定先处理哪一个。
+  job_en: Developers running several coding-agent sessions (Claude Code, Codex, Mistral Vibe) in parallel
+    need to tell which session is running, which is stuck and which is waiting on their confirmation,
+    so they can decide what to handle first.
+  pain: 并行会话把状态分散在多个终端与编辑器窗口里，人要在窗口间来回切换才能发现被阻塞的会话，注意力成为瓶颈；不处理的后果是等待确认的会话空转、任务排队变长。
+  pain_en: Parallel sessions scatter state across terminals and editor windows, forcing people to switch
+    back and forth to notice blocked sessions, making attention the bottleneck; the cost of not solving
+    it is idle sessions waiting on confirmation and longer task queues.
+  current_alternative: 旧做法是逐个切换终端或编辑器标签查看输出，或凭记忆跟踪各会话进度。
+  current_alternative_en: The prior approach is switching between terminal or editor tabs to read output,
+    or tracking session progress from memory.
+  usage_reason: 推断：相较逐个窗口巡检，它把分散的会话状态汇总成一个本地动画面板，省去来回切换这一步，并直接标出谁在等谁、谁需要人处理，因此同时开多个智能体的开发者会在并行任务变多时选择它；目前缺少留存或重复使用证据。
+  usage_reason_en: 'Inference: versus inspecting each window, it aggregates scattered session state into
+    one local animated panel, removing the tab-switching step and directly flagging who waits on whom
+    and who needs the human, so developers running several agents would pick it as parallel tasks grow;
+    retention or repeat-use evidence is currently missing.'

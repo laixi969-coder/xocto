@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxObUt5dkZQUzZI
 summary: Account Opening Wins Change The Bull Case For Alkami Stock (ALKT)? Simply Wall Street
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

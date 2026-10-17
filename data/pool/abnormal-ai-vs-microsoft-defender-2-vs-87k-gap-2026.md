@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE9aaktEenIyQmFl
 summary: 'Abnormal AI vs Microsoft Defender: $2 vs $87K Gap [2026] https://tech-insider.org/'
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

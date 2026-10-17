@@ -22,7 +22,7 @@ summary: How Prudential, Coca-Cola Singapore and Grab are using AI in Singapore 
   Board (EDB)
 first_seen: '2026-09-29T08:19:57Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

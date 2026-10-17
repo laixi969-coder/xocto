@@ -336,3 +336,54 @@
     in one headless pass, so creators do not have to redo the same lyric animation; individuals or small
     studios making fan music videos would therefore choose it when they need consistent style and multi-ratio
     output.'
+- id: req-full-vocaloid-style-mv-pipeline-2026-10-17
+  project_slug: vocaloid-style-mv-pipeline
+  level: full
+  reviewed_at: '2026-10-17T01:14:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手绘歌词 MV 的逐帧动画与歌词运动手工负担，痛点是风格一致性难保证、横竖版需分别重做，旧做法是手工绘制或整支外包；这是工作流结构推理，公开材料未含用户抱怨或返工数据。
+    evidence_ids:
+    - ev-6fdb61ae8e08c049
+    - ev-6de78f59d77875fd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 93 增至 149，说明开发者持续关注，但公开材料没有用户评价、复刻或重复使用证据，无法判断是否形成稳定共识。
+    evidence_ids:
+    - ev-6fdb61ae8e08c049
+    - ev-a29c94ce6ee7f35f
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或收费方式，买方可能是个人创作者、同人社团或工作室；这是判断，不是已验证事实，也未发现融资叙事。
+    evidence_ids:
+    - ev-6fdb61ae8e08c049
+    - ev-910caf94f115c396
+  - gate: truth
+    status: insufficient
+    reason: 管线依赖 AI 插画与 Blender 卡通渲染，成片效果仍需人工确认歌词运动与画面，公开材料未给出可核对的交付结果或安全边界说明。
+    evidence_ids:
+    - ev-6fdb61ae8e08c049
+    - ev-c5abef208d2b162c
+  next_validation: 追踪该仓库的 issue、discussion 与示例成片链接，确认管线实际产出的 MV 效果、人工确认环节与是否出现重复使用者。
+  market: ''
+  job: 制作 Vocaloid 风格手绘歌词 MV 的独立创作者或小工作室，在拿到歌词与插画素材后，需要把它们合成为带歌词运动与卡通渲染的成片，并同时输出 16:9 与 9:16 版本。
+  job_en: Independent creators or small studios making Vocaloid-style hand-drawn lyric music videos who,
+    after obtaining lyrics and illustration assets, need to combine them into a finished cut with lyric
+    motion and toon rendering, output in both 16:9 and 9:16.
+  pain: 手绘歌词 MV 的逐帧动画与歌词运动原本靠手工完成，风格一致性难保证，横竖两版还要分别重做一遍；公开材料未给出用户抱怨或返工数据，痛点强度属工作流结构推理。
+  pain_en: Frame-by-frame animation and lyric motion for hand-drawn lyric music videos were originally
+    done by hand, style consistency was hard to guarantee, and horizontal and vertical versions had to
+    be redone separately; public material gives no user complaints or rework data, so pain intensity is
+    a workflow-structure inference.
+  current_alternative: 旧做法是手工逐帧绘制与合成，或把整支 MV 外包给动画团队；公开材料未描述创作者具体使用哪套软件组合。
+  current_alternative_en: The prior approach was hand-drawing and compositing frame by frame, or outsourcing
+    the whole music video to an animation team; public material does not describe which specific software
+    stack creators used.
+  usage_reason: 推断：相较逐帧手绘，它用确定性动画引擎与歌词运动模板生成同一段歌词动画，并一次渲染出横竖两版，创作者不必为每个比例重做动画；因此需要稳定风格与多比例输出的同人 MV 作者会在赶稿时选择它。
+  usage_reason_en: 'Inference: versus frame-by-frame hand drawing, it generates the same lyric animation
+    via a deterministic engine and lyric-motion templates and renders both ratios in one pass, so creators
+    need not redo animation per aspect ratio; fan-MV authors needing consistent style and multi-ratio
+    output would choose it under deadline.'

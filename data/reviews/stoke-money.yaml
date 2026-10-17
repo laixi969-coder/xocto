@@ -1,0 +1,84 @@
+- id: req-initial-stoke-money-2026-10-17
+  project_slug: stoke-money
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决收入不固定人群判断未来几个月能否覆盖固定支出的需求，痛点是判断滞后，现有替代是手工表格推算，结构上成立。
+    evidence_ids:
+    - ev-3b49481619a47c76
+  - gate: consensus
+    status: insufficient
+    reason: 社区有一定讨论量，但没有用户评价或持续使用证据说明它已进入日常财务流程，共识尚未形成。
+    evidence_ids:
+    - ev-3b49481619a47c76
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与收费方式，买方是个人订阅还是银行渠道合作无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3b49481619a47c76
+  - gate: truth
+    status: insufficient
+    reason: 现金流预测的准确度、数据来源与是否给出误导性建议均无法核验，也没有人工确认边界说明。
+    evidence_ids:
+    - ev-3b49481619a47c76
+  next_validation: 收集该产品官网的定价页与账户连接说明，确认它读取哪些数据源、预测如何生成以及是否公开收费方式。
+  market: ''
+  job: 收入不固定的个人用户在做月度安排时，需要判断未来几个月现金流能否覆盖固定支出，以便决定是否削减开支或接活。
+  job_en: Individuals with irregular income need to judge, when planning a month, whether cash flow in
+    the coming months can cover fixed expenses, so they can decide whether to cut spending or take on
+    more work.
+  pain: 现有记账工具大多只呈现已经发生的支出，用户仍要自己把账单和订阅摊到表格里推算未来，判断滞后且容易算错。
+  pain_en: Most existing budgeting tools only show spending that already happened, so users still spread
+    bills and subscriptions across a spreadsheet to project forward, which is late and error-prone.
+  current_alternative: 用电子表格手工建模，或依赖银行 App 的账单提醒与月度汇总。
+  current_alternative_en: Manual spreadsheet modeling, or relying on bank app bill reminders and monthly
+    summaries.
+  usage_reason: 推断：相较手工表格，它把收支数据直接汇成一条未来现金流曲线，省掉了逐月手工推算这一步，因此收入波动、需要提前判断能否覆盖固定支出的人会优先试用它。
+  usage_reason_en: 'Inference: compared with a manual spreadsheet, it turns income and expense data directly
+    into a forward cash flow curve, removing the step of projecting month by month, so people with fluctuating
+    income who need early warning about fixed expenses would try it first.'
+- id: req-full-stoke-money-2026-10-17
+  project_slug: stoke-money
+  level: full
+  reviewed_at: '2026-10-17T01:13:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其为个人现金流预测应用，但全部证据指向 Stoke Space 火箭公司或词典释义，无一条能说明用户任务、痛点或现有替代，需求与痛点均无法写出。
+    evidence_ids:
+    - ev-22207f564f221e32
+    - ev-6316f0b57f56c676
+    - ev-e240a99e3a7c69ec
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检索 Stoke Money 官方产品页或应用商店条目，确认其是否存在、读取哪些账户数据以及是否公开定价。
+  market: ''
+  job: 公开材料未提供任何关于 Stoke Money 这一个人现金流预测产品的说明，无法确认谁在什么情况下处理哪些账户或账单材料、要完成什么任务。
+  job_en: Public materials provide no description of Stoke Money as a personal cash-flow forecasting product,
+    so it is impossible to confirm who handles which accounts or bills, in what situation, to complete
+    what task.
+  pain: 没有可引用的公开事实说明目标用户的痛点；现有证据全部指向 Stoke Space 火箭公司或词典释义，与个人理财无关。
+  pain_en: No citable public fact describes the target user's pain; all available evidence points to the
+    rocket company Stoke Space or a dictionary definition, unrelated to personal finance.
+  current_alternative: 无法确认，因为没有任何关于该产品用户现有做法的公开材料。
+  current_alternative_en: Cannot be determined, because there is no public material about how users of
+    this product currently handle the task.
+  usage_reason: 无法给出使用理由：没有产品页面、功能说明或用户反馈可引用，任何关于用户为何选择它的说法都会是编造。
+  usage_reason_en: 'No usage reason can be given: there is no product page, feature description, or user
+    feedback to cite, so any claim about why users would choose it would be fabricated.'

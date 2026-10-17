@@ -1057,3 +1057,48 @@
   usage_reason: 公开代码仓库有 221 个收藏、21 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 221 stars and 21 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-ai-agent-book-2026-10-17
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-10-17T01:08:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、release 与 issue/discussion，确认实验是否可复现、内容更新频率及是否出现课程或赞助等付费入口。
+  market: ''
+  job: AI 应用开发者或技术团队在准备把 LLM 助手从 demo 推进到可上线系统时，需要处理提示编排、工具调用、记忆、评测与部署等材料，要完成的任务是获得一套可照着复现的设计原理与工程实验路径，而不是零散博客片段。
+  job_en: AI application developers or technical teams moving an LLM assistant from demo to shippable
+    system need to work through prompt orchestration, tool calling, memory, evaluation and deployment
+    material, and must obtain a reproducible design-principles-plus-engineering-experiment path rather
+    than scattered blog fragments.
+  pain: 公开材料显示该领域知识更新快、工程细节分散，开发者常需在多个博客、论文与示例仓库之间自行拼接，缺少从原理到可运行实验的连贯路径；不解决的后果是选型与实现反复试错、把时间花在重复踩坑上。这是基于任务结构和工作流缺口的推理，不是用户口述。
+  pain_en: Public material shows the field moves fast and engineering detail is scattered, so developers
+    must stitch together blogs, papers and sample repos themselves, lacking a coherent path from principles
+    to runnable experiments; the consequence is repeated trial-and-error in selection and implementation.
+    This is structural inference from the task, not user testimony.
+  current_alternative: 当前替代是零散技术博客、论文、官方框架文档、付费课程与个人示例仓库，用户自行拼装学习路径。
+  current_alternative_en: The current alternative is scattered technical blogs, papers, official framework
+    docs, paid courses and personal sample repos, with users assembling their own learning path.
+  usage_reason: 推断：相较自行拼装博客与示例，该书把原理讲解与可跟着做的实验放在同一份开源材料里，减少“先找资料再拼环境”的一步负担，因此正在做 Agent 落地、需要连贯实验路径的开发者会在准备阶段选择它；仓库
+    221 收藏、21 复刻只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus stitching blogs and samples together, the book puts principle explanations
+    and follow-along experiments in one open-source artifact, removing the step of first gathering material
+    and then wiring an environment, so developers shipping agents who need a coherent experiment path
+    would pick it at the preparation stage; 221 stars and 21 forks show attention only, not sustained
+    use.'

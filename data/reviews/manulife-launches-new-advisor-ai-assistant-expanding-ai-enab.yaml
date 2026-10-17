@@ -1,0 +1,90 @@
+- id: req-initial-manulife-launches-new-advisor-ai-assistant-expanding-ai-enab-2026-10-17
+  project_slug: manulife-launches-new-advisor-ai-assistant-expanding-ai-enab
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决顾问准备核保材料时漏项、口径不符导致退回重做的痛点，旧做法是人工翻手册与邮件往返，交付物明确。
+    evidence_ids:
+    - ev-66213a076502a697
+    - ev-637207fd42057e08
+  - gate: consensus
+    status: insufficient
+    reason: 仅见发布报道，未见顾问实际使用量、采用范围或反馈，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-66213a076502a697
+  - gate: model
+    status: insufficient
+    reason: 这是宏利内部面向自有顾问的工具，公开材料未披露定价或对外销售路径，买方与收费方式不明。
+    evidence_ids:
+    - ev-66213a076502a697
+    - ev-637207fd42057e08
+  - gate: truth
+    status: insufficient
+    reason: 未披露核保建议的准确率、责任边界与人工复核要求，交付确定性无法核验。
+    evidence_ids:
+    - ev-637207fd42057e08
+  next_validation: 查找宏利官方新闻稿或顾问端产品说明，确认 Advisor AI Assistant 的具体功能范围、覆盖顾问数量与是否对外提供。
+  market: ''
+  job: 保险顾问在为客户投保、需要准备和提交核保材料时，处理客户健康与财务资料及核保要求，要完成材料齐备、符合核保口径的提交。
+  job_en: An insurance advisor preparing and submitting underwriting materials for a client's policy application
+    handles client health and financial documents plus underwriting requirements, aiming to submit complete,
+    compliant materials.
+  pain: 核保材料要求细碎且随产品条款变化，顾问常因漏项或口径不符被退回重做，拖长承保周期并影响客户体验。
+  pain_en: Underwriting requirements are granular and vary by product terms, so advisors often get materials
+    returned for missing items or mismatched criteria, lengthening the underwriting cycle and hurting
+    client experience.
+  current_alternative: 顾问通常靠内部核保手册、邮件往返核保部门或资深同事经验逐条核对，属于人工比对。
+  current_alternative_en: Advisors typically check item by item against internal underwriting manuals,
+    email back-and-forth with the underwriting department, or senior colleagues' experience, all manual
+    comparison.
+  usage_reason: 推断：相较人工翻手册和邮件往返，该助手在顾问提交前直接对客户资料与核保要求做一次核对并给出支持信息，减少被退回重做的那一步；经常处理复杂健康告知的顾问会在准备材料阶段选择它。公开材料未披露留存或复购数据。
+  usage_reason_en: 'Inference: compared with manually reading manuals and emailing back and forth, the
+    assistant checks client materials against underwriting requirements before submission and returns
+    support information, removing the rework step; advisors handling complex health disclosures would
+    use it at the material-preparation stage. Public material discloses no retention or repeat-use data.'
+- id: req-full-manulife-launches-new-advisor-ai-assistant-expanding-ai-enab-2026-10-17
+  project_slug: manulife-launches-new-advisor-ai-assistant-expanding-ai-enab
+  level: full
+  reviewed_at: '2026-10-17T01:11:29Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅有一句发布摘要，未披露顾问核保材料准备的具体痛点、旧替代方式与不解决的后果，无法还原用户任务与交付闭环，价值结构不成立。
+    evidence_ids:
+    - ev-091aaa73b9cfef14
+    - ev-04d2185fe60c909a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Manulife Advisor AI Assistant 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 宏利保险顾问在为客户投保、准备核保材料时，处理客户健康与财务资料及核保要求，要完成材料齐备、符合核保口径的提交。
+  job_en: A Manulife insurance advisor preparing underwriting materials for a client's policy application
+    handles client health and financial documents plus underwriting requirements, aiming to submit complete,
+    compliant materials.
+  pain: 公开材料只说明这是面向顾问的核保支持工具，未披露顾问在核保材料准备中的具体痛点、退回率或耗时，无法确认痛点刚性。
+  pain_en: Public material only states this is an advisor-facing underwriting support tool; it discloses
+    no specific advisor pain, return rate, or time cost in underwriting material preparation, so pain
+    rigidity cannot be confirmed.
+  current_alternative: 公开材料未披露顾问当前如何准备核保材料，无法确认旧替代方式（如内部手册、邮件往返核保部门）。
+  current_alternative_en: Public material does not disclose how advisors currently prepare underwriting
+    materials, so the prior alternative (e.g., internal manuals, emailing the underwriting department)
+    cannot be confirmed.
+  usage_reason: 公开材料未说明产品通过什么具体动作减少哪一步负担，也未提供用户反馈或客户案例，无法解释用户为何选择它。
+  usage_reason_en: Public material does not explain what concrete action reduces which step's burden,
+    and provides no user feedback or customer case, so why users would choose it cannot be explained.

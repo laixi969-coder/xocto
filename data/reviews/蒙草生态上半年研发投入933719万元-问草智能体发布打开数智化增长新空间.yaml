@@ -155,3 +155,47 @@
   usage_reason: 蒙草生态作为上市公司发布智能体，可能吸引关注，但具体采用情况尚未核验。
   usage_reason_en: As a listed company, Mengcao Ecology's agent release may attract attention, but specific
     adoption is unverified.
+- id: req-initial-蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间-2026-10-17
+  project_slug: 蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间
+  level: initial
+  reviewed_at: '2026-09-01T14:56:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决草业专家稀缺下的即时咨询需求，痛点具体；但公开材料未说明输入材料、输出交付物与人工确认方式，价值闭环尚不完整。
+    evidence_ids:
+    - ev-2256494886384ebf
+    - ev-e34efba73398196c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有地方媒体报道，未见使用者评价、采用规模或重复使用证据，共识环节无法判断。
+    evidence_ids:
+    - ev-2256494886384ebf
+    - ev-e34efba73398196c
+  - gate: model
+    status: insufficient
+    reason: 买方可能是地方生态治理项目或草业机构，但公开材料未披露定价、采购或收费方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e34efba73398196c
+  - gate: truth
+    status: insufficient
+    reason: 草业建议涉及生态与生产后果，公开材料未说明准确率、数据来源与人工复核边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-2256494886384ebf
+  next_validation: 收集“问草”智能体的官方产品页或部署文档，确认其输入材料、输出交付物、数据来源与人工复核流程。
+  market: ''
+  job: 草业技术人员或草原治理人员在现场遇到草种选择、病虫害或退化草原修复问题时，处理草情与治理材料，需要得到可执行的处置建议。
+  job_en: Forage technicians or grassland managers facing seed selection, pest or degraded-grassland restoration
+    questions on site, working with grass-condition and treatment material, need actionable handling advice.
+  pain: 草业专家稀缺、经验集中在少数人手里，基层人员遇到具体问题缺少可即时查询的权威判断依据。
+  pain_en: Forage experts are scarce and experience sits with few people, leaving frontline staff without
+    an authoritative reference when specific problems arise.
+  current_alternative: 以往靠请教专家、翻阅技术手册或凭经验判断，响应慢且口径不一。
+  current_alternative_en: Previously they consulted experts, read technical manuals or relied on experience,
+    which is slow and inconsistent.
+  usage_reason: 推断：若智能体能直接回答具体草情问题，可省去等待专家回复这一步；但公开材料未说明其输入、输出与准确率，尚不能确认用户会持续选用。
+  usage_reason_en: 'Inference: if the agent answers specific forage questions directly, it removes the
+    wait for an expert reply; however public material does not describe inputs, outputs or accuracy, so
+    sustained use cannot be confirmed.'

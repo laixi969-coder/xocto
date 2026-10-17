@@ -1,0 +1,82 @@
+- id: req-initial-nudgebox-2026-10-17
+  project_slug: nudgebox
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连它替代哪一步旧工作、用户不用的后果都写不出来，价值关未过。
+    evidence_ids:
+    - ev-a2d2b8d0fa4ec46a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或评价信号。
+    evidence_ids:
+    - ev-a2d2b8d0fa4ec46a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，定价与买方均未披露。
+    evidence_ids:
+    - ev-a2d2b8d0fa4ec46a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性无法判断。
+    evidence_ids:
+    - ev-a2d2b8d0fa4ec46a
+  next_validation: 收集 Nudgebox 官方定价页或文档，确认推送的接入方式、计费口径与是否依赖自有 App。
+  market: ''
+  job: 没有 App 的独立产品运营者在需要召回用户或提醒活动时，要把一条通知送到用户设备上，完成一次触达。
+  job_en: Independent product operators without an app need to deliver a notification to user devices
+    to recall users or announce an event, completing one touchpoint.
+  pain: 候选材料只有一句产品说明，没有说明用户现在卡在哪一步、不解决会失去什么，痛点无法从公开事实还原。
+  pain_en: The candidate material is a single product line and does not say where users are stuck or what
+    they lose by not solving it, so the pain cannot be reconstructed from public facts.
+  current_alternative: 可能用邮件、短信、社群消息或自建 App 推送，但候选未给出任何替代行为的描述。
+  current_alternative_en: Possibly email, SMS, community messages or a self-built app push, but the candidate
+    describes no alternative behaviour at all.
+  usage_reason: 推断：若它真能免去开发 App 就完成推送，运营者会在只做一次活动提醒时试用；但缺少具体动作与结果证据，无法说明为何被持续选择。
+  usage_reason_en: 'Inference: if it truly delivers push without building an app, operators might try
+    it for a one-off campaign reminder; without concrete action or outcome evidence, there is no basis
+    to say why it would be chosen repeatedly.'
+- id: req-full-nudgebox-2026-10-17
+  project_slug: nudgebox
+  level: full
+  reviewed_at: '2026-10-17T01:12:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅一句“无需 App 发推送”，未说明用户当前卡在哪一步、不解决会失去什么，也无替代行为；无 App 场景下推送渠道本就稀缺，但公开事实不足以还原痛点与交付闭环。
+    evidence_ids:
+    - ev-a2d2b8d0fa4ec46a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Nudgebox 官方定价页或文档，确认推送接入方式、计费口径与是否依赖自有 App。
+  market: ''
+  job: 没有移动应用的独立产品运营者在需要召回用户或通知活动时，要把一条提醒送到用户设备上，完成一次触达。
+  job_en: Independent product operators without a mobile app need to deliver a reminder to user devices
+    to recall users or announce an event, completing one touchpoint.
+  pain: 公开材料只有一句产品说明，未说明用户当前卡在哪一步、不解决会失去什么；无 App 场景下推送渠道本就稀缺，但候选未给出任何痛点或替代行为的公开事实。
+  pain_en: The public material is a single product line and does not say where users are stuck or what
+    they lose; push channels are scarce without an app, but the candidate offers no public fact about
+    pain or workarounds.
+  current_alternative: 可能用邮件、短信、社群消息或自建 App 推送，但候选未给出任何替代行为的描述。
+  current_alternative_en: Possibly email, SMS, community messages or a self-built app push, but the candidate
+    describes no alternative behaviour at all.
+  usage_reason: 推断：若它真能免去开发 App 就完成推送，运营者会在只做一次活动提醒时试用；但缺少具体动作、到达率与结果证据，无法说明为何被持续选择。
+  usage_reason_en: 'Inference: if it truly delivers push without building an app, operators might try
+    it for a one-off campaign reminder; without concrete action, delivery-rate or outcome evidence, there
+    is no basis to say why it would be chosen repeatedly.'

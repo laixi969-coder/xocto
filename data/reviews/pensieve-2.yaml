@@ -1,0 +1,88 @@
+- id: req-initial-pensieve-2-2026-10-17
+  project_slug: pensieve-2
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本机资料按语义检索并供代理调用的需求，旧做法是按文件名搜索和手工复制，痛点与替代行为都具体。
+    evidence_ids:
+    - ev-e4cf5518f7d0f0fe
+    - ev-ec9328549addcf25
+    - ev-6fdcb5eca0a78ba6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库关注度，未见用户评价或采用案例，无法判断是否被持续使用。
+    evidence_ids:
+    - ev-e4cf5518f7d0f0fe
+    - ev-6fdcb5eca0a78ba6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价或商业路径，钱来自个人捐赠、企业支持还是托管服务无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e4cf5518f7d0f0fe
+  - gate: truth
+    status: insufficient
+    reason: 无法核对索引是否覆盖全部文件类型、权限与隐私边界如何处理，交付确定性未核验。
+    evidence_ids:
+    - ev-ec9328549addcf25
+    - ev-6fdcb5eca0a78ba6
+  next_validation: 查看 pensieve 仓库的 README 与 issue/discussion，确认索引范围、权限处理方式以及是否提供付费或托管版本。
+  market: ''
+  job: Mac 用户在自己或 AI 代理需要引用本机资料时，用自然语言描述要找的内容，从本地文件中取回相关材料再交给代理使用。
+  job_en: A Mac user, or their AI agent, describes in natural language what is needed and retrieves relevant
+    material from local files to pass to the agent.
+  pain: 本机文件靠文件名和文件夹记忆查找，关键词对不上就找不到；代理要读本地上下文时也缺少可调用的检索入口。
+  pain_en: Local files are found by remembering names and folders, and a mismatched keyword means nothing
+    is found; agents also lack a callable retrieval entry point for local context.
+  current_alternative: 现在用系统聚焦搜索或第三方文件名搜索，靠人工整理目录，代理侧则手动复制粘贴文件内容。
+  current_alternative_en: Today people use system spotlight or third-party filename search, tidy folders
+    by hand, and manually copy file contents for agents.
+  usage_reason: 推断：相较按文件名搜索，它按语义取回内容，省掉了回忆文件名和手工整理目录这一步，需要频繁从本机资料取上下文再交给代理的 Mac 用户会因此选择它；但公开材料未说明索引范围与权限处理。
+  usage_reason_en: 'Inference: compared with filename search, it retrieves content by meaning, removing
+    the step of recalling filenames and tidying folders, which is why Mac users who often pull local context
+    for agents would pick it; but public material does not describe indexing scope or permission handling.'
+- id: req-full-pensieve-2-2026-10-17
+  project_slug: pensieve-2
+  level: full
+  reviewed_at: '2026-10-17T01:12:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决 Mac 本机资料按语义检索并供代理调用，但全部证据是同名《哈利·波特》虚构道具与无关的 AI 批改工具，既无用户痛点也无旧替代行为，需求与痛点均写不出来。
+    evidence_ids:
+    - ev-458efb834ebe69bd
+    - ev-21eb20cd333d1a5c
+    - ev-32368c4f36aec1f9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 pensieve 官方仓库或官网的 README、issue/discussion 与定价页，确认其是否真实存在、索引范围与权限处理方式。
+  market: ''
+  job: Mac 用户在自己或 AI 代理需要引用本机资料时，用自然语言描述要找的内容，从本地文件中取回相关材料再交给代理使用。
+  job_en: A Mac user, or their AI agent, describes in natural language what is needed and retrieves relevant
+    material from local files to pass to the agent.
+  pain: 公开证据中没有任何一条描述 Mac 用户本机检索的真实痛点，现有材料只重复《哈利·波特》虚构道具与一个同名 AI 批改工具，无法确认用户在哪一步难受。
+  pain_en: No public evidence describes a real pain point in Mac local search; the material only repeats
+    a fictional Harry Potter item and an unrelated same-named AI grading tool, so where users struggle
+    cannot be confirmed.
+  current_alternative: 公开材料未提供任何关于本机文件检索旧做法的可引用事实，无法说明用户现在用什么方式绕过。
+  current_alternative_en: Public material provides no citable fact about existing local-file search workarounds,
+    so how users currently cope cannot be stated.
+  usage_reason: 推断：若产品真能按语义取回本机内容并供代理调用，可省去回忆文件名与手工复制这一步；但现有证据全部指向同名虚构道具和无关批改工具，无法支撑任何采用因果。
+  usage_reason_en: 'Inference: if the product truly retrieves local content by meaning for agents, it
+    would remove the step of recalling filenames and copying by hand; but all current evidence points
+    to a same-named fictional item and an unrelated grading tool, supporting no adoption causality.'

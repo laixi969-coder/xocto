@@ -23,7 +23,7 @@ summary: Luxshare Precision Reports 40.2% Revenue Growth in First Half 2026; Bus
   Expansion TradingView
 first_seen: '2026-08-28T00:00:00Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

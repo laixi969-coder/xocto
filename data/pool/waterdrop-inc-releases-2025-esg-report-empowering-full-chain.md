@@ -23,7 +23,7 @@ summary: 'Waterdrop Inc. Releases 2025 ESG Report: Empowering Full-Chain Busines
   an Inclusive, Diverse Healthcare Ecosystem PR Newswire'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

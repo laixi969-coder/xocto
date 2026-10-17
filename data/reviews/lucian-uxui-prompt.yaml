@@ -93,3 +93,48 @@
     get-the-artifact into one live preview plus copy, removing the step of cross-referencing docs and
     editor and rewriting the style, so front-end developers and designers on a deadline who need a prompt
     or code artifact would try it first when picking a control style.'
+- id: req-full-lucian-uxui-prompt-2026-10-17
+  project_slug: lucian-uxui-prompt
+  level: full
+  reviewed_at: '2026-10-17T01:11:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决搭界面时挑组件样式并转成代码或提示词的需求，痛点是文档与编辑器反复对照、手写样式；旧替代是翻文档加手写，不解决则重复耗时。属工作流结构推理，非用户口述。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+    - ev-d0022da5c0df18be
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 68 增至 158，说明有关注度，但无用户评价、issue 或持续使用证据，无法确认共识已形成。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+    - ev-d0022da5c0df18be
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且未见定价页，买方与付费路径不明；这是判断而非已验证事实，但开源项目可先靠社区采用积累。
+    evidence_ids:
+    - ev-d0022da5c0df18be
+  - gate: truth
+    status: supported
+    reason: 交付物是可直接复制的提示词或代码，结果可核对；人工仍需自行确认样式是否合适，安全与人工边界清晰。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有用户反馈将其用于实际项目而非仅收藏。
+  market: ''
+  job: 前端开发者与产品设计师在搭建界面时，需要从大量 UI 元素中挑出合适样式，并把它转成可直接使用的代码或 AI 提示词。
+  job_en: Front-end developers and product designers, while building interfaces, need to pick suitable
+    styles from many UI elements and turn them into directly usable code or AI prompts.
+  pain: 公开材料只说明提供约 200（后扩至 400）个可实时预览元素并支持复制为提示词或代码；痛点在于挑样式与转成代码之间需要反复对照，但缺少用户抱怨或 workaround 的直接证据。
+  pain_en: Public material only states ~200 (later 400) live-preview elements copyable as prompts or code;
+    the pain of cross-referencing style selection and code conversion is inferred, with no direct user
+    complaint or workaround evidence.
+  current_alternative: 旧做法是翻组件库文档、看设计稿截图，再手写样式代码，或直接向模型描述想要的效果。
+  current_alternative_en: The old way is browsing component-library docs, viewing design screenshots,
+    then hand-writing style code, or describing the desired look to a model.
+  usage_reason: 推断：相较旧做法，它把“先看效果再写代码”合并为一次实时预览加复制，省掉在文档与编辑器之间来回对照的一步，因此赶界面进度的前端与设计师会先试它。
+  usage_reason_en: 'Inference: versus the old way, it merges see-the-result and write-the-code into one
+    live preview plus copy, removing the back-and-forth between docs and editor, so front-end developers
+    and designers on a deadline would try it first.'

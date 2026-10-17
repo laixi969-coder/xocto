@@ -1,0 +1,87 @@
+- id: req-initial-npctalk-2026-10-17
+  project_slug: npctalk
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模组作者给 NPC 配语音的需求，痛点是改台词就要重录，旧做法成本高；结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-f8480b6ca4a8b757
+  - gate: consensus
+    status: insufficient
+    reason: 仅 79 星、7 个 fork，没有用户评价或模组作者采用案例，无法判断是否形成共识。
+    evidence_ids:
+    - ev-f8480b6ca4a8b757
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，开源项目可能靠托管服务或赞助，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-f8480b6ca4a8b757
+  - gate: truth
+    status: insufficient
+    reason: 语音质量、延迟与游戏内接入的确定性交付均未核验，也未见人工确认环节说明。
+    evidence_ids:
+    - ev-f8480b6ca4a8b757
+  next_validation: 收集该仓库的 issue 与 discussion，确认模组作者实际接入 GTA V 示例后的语音质量与集成反馈。
+  market: ''
+  job: 游戏模组开发者在为 GTA V 这类开放世界游戏制作剧情模组时，需要给原本只有字幕或固定语音的 NPC 配上可变的台词语音，最终交付一个能直接装进游戏运行的语音模组。
+  job_en: Game mod developers building story mods for open-world titles such as GTA V need to give NPCs
+    that previously had only subtitles or fixed audio variable spoken lines, delivering a voice mod that
+    installs and runs in the game.
+  pain: 过去要么自己录台词、要么找配音、要么只用字幕，录音成本高且改一句台词就要重录，模组迭代被卡在音频制作上。
+  pain_en: Previously they recorded lines themselves, hired voice actors, or shipped subtitles only; recording
+    is costly and every script change forces a re-record, so mod iteration stalls on audio production.
+  current_alternative: 手工录音、找配音演员、复用游戏原版语音文件，或干脆只做字幕不做语音。
+  current_alternative_en: Manual recording, hiring voice actors, reusing the game's original audio files,
+    or shipping subtitles with no voice at all.
+  usage_reason: 推断：相较逐句录音，它把语音生成放在自托管服务里，模组作者改台词后重新生成即可，省掉重录和剪辑这一步，因此频繁改剧本的模组作者会在做剧情模组时选它。
+  usage_reason_en: 'Inference: compared with recording line by line, it puts voice generation in a self-hosted
+    server so authors can regenerate after script edits, removing the re-record and edit step; mod authors
+    who revise scripts often would pick it for story mods.'
+- id: req-full-npctalk-2026-10-17
+  project_slug: npctalk
+  level: full
+  reviewed_at: '2026-10-17T01:12:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模组作者给 NPC 配可变语音的需求，痛点是改台词就要重录、音频制作卡住迭代；仓库给出自托管语音服务与完整 GTA V 示例，交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-f8480b6ca4a8b757
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 79 星，无用户评价、模组作者采用案例或讨论记录，无法判断是否在模组社区形成使用共识。
+    evidence_ids:
+    - ev-f8480b6ca4a8b757
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，开源项目可能靠托管服务、赞助或后续商业版，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f8480b6ca4a8b757
+  - gate: truth
+    status: insufficient
+    reason: 语音质量、延迟与游戏内接入的确定性交付均未核验，也未见人工确认或安全边界说明。
+    evidence_ids:
+    - ev-f8480b6ca4a8b757
+  next_validation: 收集该仓库的 issue 与 discussion，确认模组作者实际接入 GTA V 示例后的语音质量与集成反馈。
+  market: ''
+  job: 游戏模组开发者在为 GTA V 这类开放世界游戏制作剧情模组时，需要给原本只有字幕或固定语音的 NPC 配上可变的台词语音，最终交付一个能装进游戏运行的语音 NPC 模组。
+  job_en: Game mod developers building story mods for open-world titles such as GTA V need to give NPCs
+    that previously had only subtitles or fixed audio variable spoken lines, delivering a voice NPC mod
+    that installs and runs in the game.
+  pain: 公开仓库说明其目标是让任意游戏里的 NPC 开口说话，旧做法是自录台词、找配音或只做字幕；改一句台词就要重录或重剪，模组迭代被音频制作卡住。
+  pain_en: The public repository states its goal is making any NPC in any game talk back; the old path
+    is self-recording, hiring voice actors, or subtitles only, so every script edit forces a re-record
+    or re-edit and mod iteration stalls on audio production.
+  current_alternative: 手工录音、找配音演员、复用游戏原版语音文件，或干脆只做字幕不做语音。
+  current_alternative_en: Manual recording, hiring voice actors, reusing the game's original audio files,
+    or shipping subtitles with no voice at all.
+  usage_reason: 推断：相较逐句录音，它把语音合成放进自托管服务，并给 AI 编码代理提供技能与工具，模组作者改台词后重新生成即可，省掉重录与剪辑这一步，因此频繁改剧本的模组作者在做剧情模组时会选它。
+  usage_reason_en: 'Inference: compared with recording line by line, it puts voice synthesis in a self-hosted
+    server and gives AI coding agents skills and tools, so authors regenerate after script edits instead
+    of re-recording and re-editing; mod authors who revise scripts often would pick it for story mods.'

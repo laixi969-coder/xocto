@@ -336,3 +336,53 @@
     auto-triggers a handoff when context fills, keeps the cache warm while away, and turns what the user
     taught Claude into project notes, removing the re-explanation step; long-session developers would
     choose it when a task is unfinished but context is full, with notes still needing human confirmation.'
+- id: req-full-ctx-handoff-mod-2026-10-17
+  project_slug: ctx-handoff-mod
+  level: full
+  reviewed_at: '2026-10-17T01:09:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话上下文写满后需手动重开会话、重述项目背景的重复劳动，痛点来自上下文窗口硬限制且不解决会丢失已教给 Claude 的约定；公开仓库说明已还原输入、动作与交付，属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-9c6c0cd2ad196224
+    - ev-4239989b089ffad0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 76 增至 110 说明社区关注度上升，但收藏与排名只属规模或关注度证据，不能证明目标开发者已持续使用或把它留在工作流里；缺少 issue、discussion 或用户反馈佐证强场景。
+    evidence_ids:
+    - ev-9c6c0cd2ad196224
+    - ev-ed5bef0fe057bc2a
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是商业证据缺口，不反推问题不存在，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9c6c0cd2ad196224
+  - gate: truth
+    status: insufficient
+    reason: 自动交接与缓存保持能否稳定交付、笔记内容需人工确认的边界，公开材料只有功能描述，缺少可复现实测或部署文档；安全与人工边界尚未核验。
+    evidence_ids:
+    - ev-9c6c0cd2ad196224
+    - ev-731a714d8fe29afd
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有开发者报告在真实长会话中部署、替代了手动重开会话的旧流程。
+  market: ''
+  job: 使用 Claude Code 的开发者在一个编码任务持续到上下文窗口写满时，需要把当前任务、已交代的项目背景和已教给 Claude 的约定，延续到新会话中继续推进，而不是从头重述。
+  job_en: A developer using Claude Code whose coding task runs until the context window fills up needs
+    to carry the current task, previously stated project context, and conventions taught to Claude into
+    a fresh session and keep working, instead of restating everything from scratch.
+  pain: 长会话写满上下文后，旧做法要手动开新会话并重新交代项目背景与约定，重复劳动且容易丢失已教给 Claude 的上下文；离开期间缓存失效还会带来额外等待与重算成本。
+  pain_en: When a long session fills the context window, the old approach requires manually opening a
+    new session and restating project background and conventions, duplicating work and risking loss of
+    context already taught to Claude; cache expiry during absence adds waiting and recomputation cost.
+  current_alternative: 当前替代方式是开发者手动新建会话、重新粘贴或复述项目背景与约定，并自行维护项目笔记；公开材料未说明是否已有同类自动交接工具被广泛使用。
+  current_alternative_en: The current alternative is manually starting a new session, re-pasting or restating
+    project background and conventions, and maintaining project notes by hand; public materials do not
+    show a widely used equivalent auto-handoff tool.
+  usage_reason: 推断：相较手动重开会话并重述背景，该模块在上下文耗尽时自动把工作交接给新会话，并在用户离开期间保持缓存，减少重新交代这一步负担；把用户教给 Claude 的内容整理成项目笔记，可核对的结果是会话可继续且笔记可复用，但笔记仍需人工确认。因此长会话开发者会在上下文写满、需要中断后继续时选择它。
+  usage_reason_en: 'Inference: versus manually reopening a session and restating context, the mod automatically
+    hands work off to a fresh conversation when context fills up and keeps the cache warm while the user
+    is away, removing the restatement step; it also turns what the user taught Claude into project notes,
+    with the checkable result being a continuable session and reusable notes, though notes still need
+    human confirmation. Long-session developers would choose it when context fills and they'

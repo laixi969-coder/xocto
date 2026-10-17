@@ -1,6 +1,6 @@
 ---
 slug: rapidcanvas-获-2900-万美元-b-轮融资扩大企业-ai-交付规模
-name: RapidCanvas 获 2900 万美元 B 轮融资，扩大企业 AI 交付规模
+name: RapidCanvas
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNRVNxQ3VOZEZr
 summary: RapidCanvas 获 2900 万美元 B 轮融资，扩大企业 AI 交付规模 Unite.AI
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# RapidCanvas 获 2900 万美元 B 轮融资，扩大企业 AI 交付规模
+# RapidCanvas
 
 RapidCanvas 获 2900 万美元 B 轮融资，扩大企业 AI 交付规模 Unite.AI
 

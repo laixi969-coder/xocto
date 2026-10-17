@@ -24,3 +24,44 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-nanointerpret-2026-10-17
+  project_slug: nanointerpret
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决可解释性实验难复现的问题，但材料只有一句定位，输入、动作与交付都写不出，痛点刚性无法判断。
+    evidence_ids:
+    - ev-fe8029ef6bbd2c96
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：只有一条低热度社区提交，没有讨论、issue 或采用记录可判断共识卡在哪一环。
+    evidence_ids:
+    - ev-fe8029ef6bbd2c96
+  - gate: model
+    status: insufficient
+    reason: 未进入：材料未披露定价、买方或收费方式，无法判断钱可能来自哪一方。
+    evidence_ids:
+    - ev-fe8029ef6bbd2c96
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对它是否贴近可解释性研究的第一性目标，也无法判断实验结论是否可复现。
+    evidence_ids:
+    - ev-fe8029ef6bbd2c96
+  next_validation: 抓取该项目的代码仓库 README 与 issue/discussion，确认它支持的模型范围、可复现的实验步骤与产出形式。
+  market: ''
+  job: 尚未确认：材料未说明谁在什么情况下打开它、对哪个模型或哪类数据做实验、要产出什么结果。
+  job_en: 'Unconfirmed: the material does not state who opens it, in what situation, on which model or
+    data, or to produce what result.'
+  pain: 只能推断是复现可解释性实验成本高、脚本零散，但没有任何研究者抱怨、issue 或使用记录支持。
+  pain_en: Only inferable as the high cost and scattered scripts of reproducing interpretability experiments,
+    with no researcher complaint, issue, or usage record to support it.
+  current_alternative: 公开材料未提及现有替代方式，无法判断此前是用论文附带脚本、TransformerLens 类库还是自建 notebook。
+  current_alternative_en: The public material names no current alternative, so it is unclear whether people
+    previously used paper-supplied scripts, libraries such as TransformerLens, or self-built notebooks.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say which step of the old routine it removes
+    or which checkable result it improves, so it also cannot say which users would choose it and when.'

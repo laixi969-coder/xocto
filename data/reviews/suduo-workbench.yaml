@@ -1,0 +1,88 @@
+- id: req-initial-suduo-workbench-2026-10-17
+  project_slug: suduo-workbench
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代码不能出内网的团队使用编码助手的需求，痛点是云端助手要求外送代码，现有替代是手工搬运需求，结构上成立。
+    evidence_ids:
+    - ev-280bf5a11d869102
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有一定关注度但无 issue 讨论，没有团队采用或重复使用证据，是否形成使用共识无法判断。
+    evidence_ids:
+    - ev-280bf5a11d869102
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与授权方式，买方是团队自建还是商业授权无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-280bf5a11d869102
+  - gate: truth
+    status: insufficient
+    reason: 需求到代码改动的准确度、是否强制人工评审、以及本地模型与外部工具的安全边界均无法核验。
+    evidence_ids:
+    - ev-280bf5a11d869102
+  next_validation: 收集该仓库的 README、release 说明与 issue，确认需求到代码改动的具体流程、人工评审环节与授权收费方式。
+  market: ''
+  job: 研发团队在自托管环境里，把需求条目交给本地运行的编码工具，产出可评审的代码改动，同时避免代码离开内网。
+  job_en: Engineering teams in a self-hosted environment hand requirement items to locally running coding
+    tools to produce reviewable code changes while keeping code inside their network.
+  pain: 现有云端编码助手要求把代码或上下文送出内网，对代码外流敏感的团队要么放弃使用，要么在需求文档与助手之间来回搬运。
+  pain_en: Existing cloud coding assistants require sending code or context outside the network, so teams
+    sensitive to code leakage either give them up or shuttle back and forth between requirement documents
+    and the assistant.
+  current_alternative: 用云端编码助手配合手工复制需求，或让成员各自在本地终端里跑命令行工具。
+  current_alternative_en: Using cloud coding assistants with manual copying of requirements, or having
+    members run command-line tools in their own local terminals.
+  usage_reason: 推断：相较云端助手加手工搬运，它把需求条目与本地编码工具放在同一自托管工作台里，省掉了复制需求与切换环境这一步，因此对代码外流敏感、又想让团队统一用编码工具的研发团队会选择它。
+  usage_reason_en: 'Inference: compared with cloud assistants plus manual copying, it puts requirement
+    items and local coding tools in one self-hosted workbench, removing the step of copying requirements
+    and switching environments, so engineering teams sensitive to code leakage that still want a shared
+    coding tool would choose it.'
+- id: req-full-suduo-workbench-2026-10-17
+  project_slug: suduo-workbench
+  level: full
+  reviewed_at: '2026-10-17T01:13:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代码不能出内网的团队使用编码助手的需求，痛点是云端助手要求外送代码，现有替代是手工搬运需求，结构上成立。
+    evidence_ids:
+    - ev-280bf5a11d869102
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有一定关注度但无 issue 讨论，没有团队采用或重复使用证据，是否形成使用共识无法判断。
+    evidence_ids:
+    - ev-280bf5a11d869102
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与授权方式，买方是团队自建还是商业授权无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-280bf5a11d869102
+  - gate: truth
+    status: insufficient
+    reason: 需求到代码改动的准确度、是否强制人工评审、以及本地模型与外部工具的安全边界均无法核验。
+    evidence_ids:
+    - ev-280bf5a11d869102
+  next_validation: 收集该仓库的 README、release 说明与 issue，确认需求到代码改动的具体流程、人工评审环节与授权收费方式。
+  market: ''
+  job: 研发团队在自托管环境里，把需求条目交给本地运行的编码工具，产出可评审的代码改动，同时避免代码离开内网。
+  job_en: Engineering teams in a self-hosted environment hand requirement items to locally running coding
+    tools to produce reviewable code changes while keeping code inside their network.
+  pain: 现有云端编码助手要求把代码或上下文送出内网，对代码外流敏感的团队要么放弃使用，要么在需求文档与助手之间来回搬运。
+  pain_en: Existing cloud coding assistants require sending code or context outside the network, so teams
+    sensitive to code leakage either give them up or shuttle back and forth between requirement documents
+    and the assistant.
+  current_alternative: 用云端编码助手配合手工复制需求，或让成员各自在本地终端里跑命令行工具。
+  current_alternative_en: Using cloud coding assistants with manual copying of requirements, or having
+    members run command-line tools in their own local terminals.
+  usage_reason: 推断：相较云端助手加手工搬运，它把需求条目与本地编码工具放在同一自托管工作台里，省掉了复制需求与切换环境这一步，因此对代码外流敏感、又想让团队统一用编码工具的研发团队会选择它。
+  usage_reason_en: 'Inference: compared with cloud assistants plus manual copying, it puts requirement
+    items and local coding tools in one self-hosted workbench, removing the step of copying requirements
+    and switching environments, so engineering teams sensitive to code leakage that still want a shared
+    coding tool would choose it.'

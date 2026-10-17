@@ -1,0 +1,89 @@
+- id: req-initial-dj-reinier-zonneveld-launches-ai-music-startup-gaslab-with-1-2026-10-17
+  project_slug: dj-reinier-zonneveld-launches-ai-music-startup-gaslab-with-1
+  level: initial
+  reviewed_at: '2026-10-17T00:31:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权曲库无法追溯使用与分成的需求，痛点是权利人失去控制权和议价依据；买方与结算规模尚未公开。
+    evidence_ids:
+    - ev-ae8412709a0f9bf5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有创始人背景与投资人名单，没有音乐人或厂牌公开表示已接入并持续使用。
+    evidence_ids:
+    - ev-ae8412709a0f9bf5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，按生成量、按授权曲库还是按分成抽佣均属判断，不是已验证事实。
+    evidence_ids:
+    - ev-ae8412709a0f9bf5
+  - gate: truth
+    status: insufficient
+    reason: 归属算法是否可被独立核验、分成能否确定性到账，公开材料未说明，存在承诺无法交付的风险。
+    evidence_ids:
+    - ev-ae8412709a0f9bf5
+  next_validation: 收集GasLab官方定价或授权条款页面，确认其归属与分成机制的具体计费与结算方式。
+  market: ''
+  job: 独立厂牌版权运营和电子音乐人在把自有曲库授权给AI音乐训练时，需要确认哪些作品被使用、被生成成什么，并据此拿到署名和分成。
+  job_en: Independent label rights operators and electronic artists licensing their catalogues for AI
+    music training need to know which works were used, in what generated output, and to receive credit
+    and payment accordingly.
+  pain: 现有授权只能签一份笼统协议，权利人无法追溯自己的作品影响了哪首生成曲，分成缺乏可核对依据，谈判时也没有议价筹码。
+  pain_en: 'Today licensing is a blanket deal: rights holders cannot trace which generated track their
+    work influenced, royalties lack a verifiable basis, and they have no leverage in negotiation.'
+  current_alternative: 权利人目前靠人工谈判、按曲库打包收取一次性授权费，或干脆拒绝授权并依赖诉讼与平台下架维权。
+  current_alternative_en: Rights holders currently rely on manual negotiation, one-off blanket catalogue
+    fees, or refusing to license and relying on litigation and platform takedowns.
+  usage_reason: 推断：相较一次性打包授权，GasLab把归属信息绑定到每一次生成，权利人能直接看到被引用的作品并据此结算，因此拥有可授权曲库、又担心失去控制权的独立厂牌和音乐人，会在需要向AI方开放素材时选择它作为可审计的中间层。
+  usage_reason_en: 'Inference: unlike a one-off blanket licence, GasLab binds attribution to each generation
+    so rights holders can see the referenced works and settle on that basis; labels and artists with licensable
+    catalogues who fear losing control would pick it as an auditable intermediary when opening their material
+    to AI.'
+- id: req-full-dj-reinier-zonneveld-launches-ai-music-startup-gaslab-with-1-2026-10-17
+  project_slug: dj-reinier-zonneveld-launches-ai-music-startup-gaslab-with-1
+  level: full
+  reviewed_at: '2026-10-17T01:10:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决授权曲库无法追溯使用与分成的需求，痛点是权利人失去控制权和议价依据；买方与结算规模尚未公开。
+    evidence_ids:
+    - ev-ae8412709a0f9bf5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有创始人背景与投资人名单，没有音乐人或厂牌公开表示已接入并持续使用。
+    evidence_ids:
+    - ev-ae8412709a0f9bf5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，按生成量、按授权曲库还是按分成抽佣均属判断，不是已验证事实。
+    evidence_ids:
+    - ev-ae8412709a0f9bf5
+  - gate: truth
+    status: insufficient
+    reason: 归属算法是否可被独立核验、分成能否确定性到账，公开材料未说明，存在承诺无法交付的风险。
+    evidence_ids:
+    - ev-ae8412709a0f9bf5
+  next_validation: 收集GasLab官方定价或授权条款页面，确认其归属与分成机制的具体计费与结算方式。
+  market: ''
+  job: 独立厂牌版权运营者与电子音乐人在把自有曲库授权给AI音乐训练时，需要知道哪些作品被用于训练、影响了哪首生成曲，并据此拿到署名与分成。
+  job_en: Independent label rights operators and electronic artists licensing their catalogues for AI
+    music training need to know which works were used in training, which generated track they shaped,
+    and to receive credit and payment on that basis.
+  pain: 公开材料指出，权利人目前只能签一份笼统授权协议，看不到自己的素材被哪首生成曲使用，分成缺少可核对依据，谈判时也没有议价筹码。
+  pain_en: Public material states that rights holders currently sign a blanket deal with no visibility
+    into which generated track used their material, leaving royalties without a verifiable basis and no
+    leverage in negotiation.
+  current_alternative: 权利人目前靠人工谈判、按曲库打包收取一次性授权费，或干脆拒绝授权并依赖诉讼与平台下架维权。
+  current_alternative_en: Rights holders currently rely on manual negotiation, one-off blanket catalogue
+    fees, or refusing to license and relying on litigation and platform takedowns.
+  usage_reason: 推断：相较一次性打包授权，GasLab把归属信息绑定到每一次生成，权利人能直接看到被引用的作品并据此结算，因此拥有可授权曲库、又担心失去控制权的独立厂牌和音乐人，会在向AI方开放素材时选择它作为可审计的中间层。
+  usage_reason_en: 'Inference: unlike a one-off blanket licence, GasLab binds attribution to each generation
+    so rights holders can see the referenced works and settle on that basis; labels and artists with licensable
+    catalogues who fear losing control would pick it as an auditable intermediary when opening their material
+    to AI.'

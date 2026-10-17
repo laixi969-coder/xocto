@@ -91,3 +91,57 @@
     it places an AI assistant inside the same SSH session to explain output and uses the user''s own Cloudflare
     account for end-to-end encrypted sync, removing the copy-error-elsewhere and manual-config-sync steps,
     so engineers managing multiple machines who value config privacy would choose it for troubleshooting.'
+- id: req-full-hatoba-2-2026-10-17
+  project_slug: hatoba-2
+  level: full
+  reviewed_at: '2026-10-17T01:11:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SSH 排障时看懂命令输出、并在多机间同步连接配置的需求；痛点在于终端与外部查询窗口来回切换、配置手工维护易不一致，不解决会拖慢故障定位。公开材料仅说明产品带 AI 助手与自托管
+      Cloudflare 加密同步，未说明助手输入输出，故价值结构成立属工作流推理。
+    evidence_ids:
+    - ev-515fd169136d50b0
+    - ev-2880f3774b7ce77b
+    - ev-2627a6aa7af86c64
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 67 增至 97，说明有开发者关注，但星标只属关注度证据，不能证明持续采用；材料没有 issue、discussion 或用户评价说明共识卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-515fd169136d50b0
+    - ev-d920da2b41a1359d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未给出定价页、付费版本或客户采购记录，买方与收费方式未知；按开源客户端常见路径，钱可能来自捐赠、托管增值或后续商业版，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-515fd169136d50b0
+    - ev-2880f3774b7ce77b
+  - gate: truth
+    status: insufficient
+    reason: 无法核验 AI 助手是否贴近排障第一性目标：材料未说明它接收什么输入、执行什么动作、输出什么结果，也无交付确定性与人工边界说明；自托管 Cloudflare 同步在数据路径上方向合理，但缺可复现验证。
+    evidence_ids:
+    - ev-2627a6aa7af86c64
+    - ev-d920da2b41a1359d
+  next_validation: 抓取 Hatoba 官方文档或仓库 README，确认 AI 助手在 SSH 会话中实际接收什么输入、执行什么动作、输出什么结果，以及同步的部署与数据路径说明。
+  market: ''
+  job: 运维与后端工程师在通过 SSH 登录生产或测试服务器排查故障时，面对满屏命令输出与报错，需要快速判断问题出在哪，并把多台机器的连接配置保持一致。
+  job_en: Ops and backend engineers logging into production or test servers over SSH to diagnose faults
+    must quickly judge where the problem lies from dense command output and errors, while keeping connection
+    settings consistent across machines.
+  pain: 公开材料只说明客户端带 AI 助手与端到端加密同步，未说明助手接收什么输入、执行什么动作；痛点只能从工作流结构推断：排障时工程师要在终端与外部搜索或聊天窗口之间来回复制报错，配置靠手工维护，容易不一致。
+  pain_en: 'Public material only states the client has an AI assistant and end-to-end encrypted sync,
+    without saying what the assistant takes in or does; the pain can only be inferred from workflow structure:
+    during diagnosis engineers shuttle error text between the terminal and an external search or chat
+    window, and configs are maintained by hand, easily drifting out of sync.'
+  current_alternative: 工程师目前多用传统 SSH 客户端（如系统终端、PuTTY、Termius 等）并自行保存配置，遇到报错时另开浏览器或聊天窗口查询；这是从品类常识作出的推断，候选材料未提供。
+  current_alternative_en: Engineers today mostly use traditional SSH clients (system terminal, PuTTY,
+    Termius, etc.) with self-managed configs and open a separate browser or chat window when an error
+    appears; this is an inference from the category, not provided by the candidate material.
+  usage_reason: 推断：若助手能在同一会话窗口内解释当前命令输出，工程师就省去把报错复制到别处再切回终端这一步；同步走用户自己的 Cloudflare 账号，省去手工维护多机配置，并让配置数据不经过第三方服务器。因此在意排障速度与配置隐私的工程师会在多机排障场景下选择它。
+  usage_reason_en: 'Inference: if the assistant can explain the current command output inside the same
+    session window, engineers skip copying errors elsewhere and switching back to the terminal; sync through
+    the user''s own Cloudflare account removes manual multi-machine config upkeep and keeps config data
+    off third-party servers. Engineers who care about diagnosis speed and config privacy would therefore
+    choose it in multi-machine troubleshooting.'

@@ -564,3 +564,157 @@
   source_kind: open_source
   tier: behavioural
   fact: 'ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0) | repository stars: 191'
+- id: ev-628cdf1f34b9ad45
+  project_slug: artex-ko-plus
+  url: https://github.com/mhtsec/ARTEX
+  title: 'GitHub - mhtsec/ARTEX: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目'
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: pain
+  tier: independent
+  fact: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目. Contribute to mhtsec/ARTEX development by creating an account
+    on GitHub.
+- id: ev-d9f92d5fb690a343
+  project_slug: artex-ko-plus
+  url: https://github.com/Hinln/ARTEX
+  title: 'GitHub - Hinln/ARTEX: ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 ...'
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: pain
+  tier: independent
+  fact: 升级只换程序、不动数据：Postgres 数据卷 pgdata 、./data （jwt.key / SQLite 等）、./skills 都会保留。 数据库迁移无需手动执行 —— artex
+    每次启动会幂等重跑 schema.sql （含 ADD COLUMN / CREATE INDEX IF NOT EXISTS），即“重启即迁移”。 升级前仍建议先备份 ./data 与数据库。
+- id: ev-6773fb3d7139f49f
+  project_slug: artex-ko-plus
+  url: https://yunpan.plus/t/31379-1-1
+  title: ARTEX 渗透工具闭源停更，GitHub 备份仓库地址分享 - 云栈社区
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: pain
+  tier: independent
+  fact: ARTEX 的设计初衷是用于授权范围内的 安全风险测试，帮助企业和组织提升防护能力。 作者强烈谴责一切未授权、违反法律法规的使用行为，并明确不承担相关责任。 ARTEX 项目不再更新，转为闭源，后续不会对外发布任何版本或维护支持。
+- id: ev-85544b8e73a57ec3
+  project_slug: artex-ko-plus
+  url: https://github.com/mhtsec/ARTEX
+  title: 'GitHub - mhtsec/ARTEX: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目'
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: workaround
+  tier: independent
+  fact: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目. Contribute to mhtsec/ARTEX development by creating an account
+    on GitHub.
+- id: ev-306df20d384f22dd
+  project_slug: artex-ko-plus
+  url: https://github.com/Hinln/ARTEX
+  title: 'GitHub - Hinln/ARTEX: ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 ...'
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: workaround
+  tier: independent
+  fact: 升级只换程序、不动数据：Postgres 数据卷 pgdata 、./data （jwt.key / SQLite 等）、./skills 都会保留。 数据库迁移无需手动执行 —— artex
+    每次启动会幂等重跑 schema.sql （含 ADD COLUMN / CREATE INDEX IF NOT EXISTS），即“重启即迁移”。 升级前仍建议先备份 ./data 与数据库。
+- id: ev-9ab7f066aa918caa
+  project_slug: artex-ko-plus
+  url: https://yunpan.plus/t/31379-1-1
+  title: ARTEX 渗透工具闭源停更，GitHub 备份仓库地址分享 - 云栈社区
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: workaround
+  tier: independent
+  fact: ARTEX 的设计初衷是用于授权范围内的 安全风险测试，帮助企业和组织提升防护能力。 作者强烈谴责一切未授权、违反法律法规的使用行为，并明确不承担相关责任。 ARTEX 项目不再更新，转为闭源，后续不会对外发布任何版本或维护支持。
+- id: ev-ce01320eda5b0ac3
+  project_slug: artex-ko-plus
+  url: https://github.com/mhtsec/ARTEX
+  title: 'GitHub - mhtsec/ARTEX: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目'
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: customer_case
+  tier: independent
+  fact: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目. Contribute to mhtsec/ARTEX development by creating an account
+    on GitHub.
+- id: ev-0275d659bab604fe
+  project_slug: artex-ko-plus
+  url: https://github.com/Hinln/ARTEX
+  title: 'GitHub - Hinln/ARTEX: ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 ...'
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 升级只换程序、不动数据：Postgres 数据卷 pgdata 、./data （jwt.key / SQLite 等）、./skills 都会保留。 数据库迁移无需手动执行 —— artex
+    每次启动会幂等重跑 schema.sql （含 ADD COLUMN / CREATE INDEX IF NOT EXISTS），即“重启即迁移”。 升级前仍建议先备份 ./data 与数据库。
+- id: ev-b7734311c0379be3
+  project_slug: artex-ko-plus
+  url: https://yunpan.plus/t/31379-1-1
+  title: ARTEX 渗透工具闭源停更，GitHub 备份仓库地址分享 - 云栈社区
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: customer_case
+  tier: independent
+  fact: ARTEX 的设计初衷是用于授权范围内的 安全风险测试，帮助企业和组织提升防护能力。 作者强烈谴责一切未授权、违反法律法规的使用行为，并明确不承担相关责任。 ARTEX 项目不再更新，转为闭源，后续不会对外发布任何版本或维护支持。
+- id: ev-8ba938d26a7597bf
+  project_slug: artex-ko-plus
+  url: https://github.com/mhtsec/ARTEX
+  title: 'GitHub - mhtsec/ARTEX: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目'
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: pricing
+  tier: independent
+  fact: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目. Contribute to mhtsec/ARTEX development by creating an account
+    on GitHub.
+- id: ev-d1a29078c04fa9f1
+  project_slug: artex-ko-plus
+  url: https://github.com/Hinln/ARTEX
+  title: 'GitHub - Hinln/ARTEX: ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 ...'
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: pricing
+  tier: independent
+  fact: 升级只换程序、不动数据：Postgres 数据卷 pgdata 、./data （jwt.key / SQLite 等）、./skills 都会保留。 数据库迁移无需手动执行 —— artex
+    每次启动会幂等重跑 schema.sql （含 ADD COLUMN / CREATE INDEX IF NOT EXISTS），即“重启即迁移”。 升级前仍建议先备份 ./data 与数据库。
+- id: ev-23b858b23af4e13f
+  project_slug: artex-ko-plus
+  url: https://yunpan.plus/t/31379-1-1
+  title: ARTEX 渗透工具闭源停更，GitHub 备份仓库地址分享 - 云栈社区
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: pricing
+  tier: independent
+  fact: ARTEX 的设计初衷是用于授权范围内的 安全风险测试，帮助企业和组织提升防护能力。 作者强烈谴责一切未授权、违反法律法规的使用行为，并明确不承担相关责任。 ARTEX 项目不再更新，转为闭源，后续不会对外发布任何版本或维护支持。
+- id: ev-71346adbb1e6f5aa
+  project_slug: artex-ko-plus
+  url: https://github.com/mhtsec/ARTEX
+  title: 'GitHub - mhtsec/ARTEX: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目'
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: retention
+  tier: independent
+  fact: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目. Contribute to mhtsec/ARTEX development by creating an account
+    on GitHub.
+- id: ev-850a8239b467972a
+  project_slug: artex-ko-plus
+  url: https://github.com/Hinln/ARTEX
+  title: 'GitHub - Hinln/ARTEX: ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 ...'
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: retention
+  tier: independent
+  fact: 升级只换程序、不动数据：Postgres 数据卷 pgdata 、./data （jwt.key / SQLite 等）、./skills 都会保留。 数据库迁移无需手动执行 —— artex
+    每次启动会幂等重跑 schema.sql （含 ADD COLUMN / CREATE INDEX IF NOT EXISTS），即“重启即迁移”。 升级前仍建议先备份 ./data 与数据库。
+- id: ev-9095151689b3359b
+  project_slug: artex-ko-plus
+  url: https://yunpan.plus/t/31379-1-1
+  title: ARTEX 渗透工具闭源停更，GitHub 备份仓库地址分享 - 云栈社区
+  published_at: ''
+  collected_at: '2026-10-17T00:59:57Z'
+  source_kind: retention
+  tier: independent
+  fact: ARTEX 的设计初衷是用于授权范围内的 安全风险测试，帮助企业和组织提升防护能力。 作者强烈谴责一切未授权、违反法律法规的使用行为，并明确不承担相关责任。 ARTEX 项目不再更新，转为闭源，后续不会对外发布任何版本或维护支持。
+- id: ev-2fa7279f94e936f9
+  project_slug: artex-ko-plus
+  url: https://www.bing.com/search?format=rss&q=AI+%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8+%E8%BD%AF%E4%BB%B6%E4%B8%8EIT%E6%9C%8D%E5%8A%A1+%E5%AE%89%E5%85%A8%E5%88%86%E6%9E%90%E5%B8%88%E5%9C%A8%E6%94%B6%E5%88%B0%E5%85%A5%E4%BE%B5%E5%91%8A%E8%AD%A6%E5%90%8E%EF%BC%8C%E7%94%A8%E9%9F%A9%E8%AF%AD%E6%9D%90%E6%96%99%E6%A2%B3%E7%90%86%E6%94%BB%E5%87%BB%E9%93%BE%E5%B9%B6%E6%92%B0%E5%86%99%E4%BA%8B%E6%95%85%E5%93%8D%E5%BA%94%E6%8A%A5%E5%91%8A
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-10-17T01:03:58Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 信息安全 软件与IT服务 安全分析师在收到入侵告警后，用韩语材料梳理攻击链并撰写事故响应报告'

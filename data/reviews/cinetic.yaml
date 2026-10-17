@@ -138,3 +138,53 @@
     the multi-step flow of scripting, storyboarding, keyframing and rendering into briefing a coding agent
     and reviewing the cut, cutting frame-by-frame adjustment and outsourcing coordination work; with no
     user feedback or case, which users would choose it cannot be confirmed.'
+- id: req-full-cinetic-2026-10-17
+  project_slug: cinetic
+  level: full
+  reviewed_at: '2026-10-17T01:09:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌发布片与动效的短周期制作需求，痛点是手工逐帧与外包排期耗时；公开仓库说明已给出输入（编码智能体按代码生成）与交付（可播放影片），旧流程与不采用后果由工作流结构推理得出，属结构推理而非用户采用证据。
+    evidence_ids:
+    - ev-d01526a58dccd8d8
+    - ev-22652d5c297e52ee
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从149升至235，属关注度而非持续采用；未见用户评价、客户案例或工作流留存证据，无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-d01526a58dccd8d8
+    - ev-22652d5c297e52ee
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方是品牌方、制作公司还是个人创作者无法判断；这是判断，不是已验证事实，但不足以取消价值关结论。
+    evidence_ids:
+    - ev-d01526a58dccd8d8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成结果是否达到可交付成片标准，也未说明人工审片与安全边界；仓库简介未披露渲染链路与质量门槛。
+    evidence_ids:
+    - ev-d01526a58dccd8d8
+  next_validation: 追踪该仓库 README、示例输出与 issue/discussion，确认输入形式、渲染链路及是否有真实成片交付案例。
+  market: ''
+  job: 品牌方或小型制作团队在需要发布片、产品动效等短周期动态影像时，把创意需求交给编码智能体，由它按代码方式生成电影感画面与动效，产出可播放的影片素材。
+  job_en: Brands or small production teams needing short-cycle motion assets such as launch films and
+    product motion hand a creative brief to a coding agent that generates cinematic footage and motion
+    graphics from code into playable film assets.
+  pain: 公开材料只有仓库一句话简介与星标数，没有说明原来由谁、用什么工具、花多久完成同一支片子，也没有用户抱怨或替代行为记录；痛点强度只能从工作流结构推断，缺少用户侧证据。
+  pain_en: Public material offers only a one-line repository description and star count, with no account
+    of who previously made the same film, with which tools, or how long it took, and no recorded user
+    complaints or workarounds; pain intensity can only be inferred from workflow structure, lacking user-side
+    evidence.
+  current_alternative: 按工作流结构推断，同类物料目前由剪辑师与动效设计师在专业软件中手工完成，或外包给制作公司；这是推断，候选材料未提供任何替代方式的证据。
+  current_alternative_en: By workflow-structure inference, such assets are currently made manually by
+    editors and motion designers in professional software, or outsourced to production houses; this is
+    inference, as the candidate material provides no evidence of alternatives.
+  usage_reason: 推断：相较手工逐帧调整或外包排期，它把“写脚本—分镜—关键帧—渲染”的多步流程压缩为向编码智能体描述需求并审片，减少的是逐帧调整与跨工具切换的负担，因此缺少动效人力、又需要快速出片头或发布短片的品牌与小型制作团队会在短周期场景下选择它；缺少用户反馈或案例，无法确认实际采用。
+  usage_reason_en: 'Inference: versus manual frame-by-frame adjustment or outsourced scheduling, it compresses
+    the multi-step flow of scripting, storyboarding, keyframing and rendering into briefing a coding agent
+    and reviewing the cut, cutting frame-by-frame adjustment and cross-tool switching; brands and small
+    production teams lacking motion-design staff but needing quick title or launch clips would choose
+    it in short-cycle scenarios, though with no user feedback or case, actual adoption canno'

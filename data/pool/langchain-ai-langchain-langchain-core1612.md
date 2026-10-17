@@ -1,6 +1,6 @@
 ---
 slug: langchain-ai-langchain-langchain-core1612
-name: 'langchain-ai/langchain: langchain-core==1.6.12'
+name: langchain-core
 builder: langchain-ai
 category: ''
 summary_zh: ''
@@ -26,7 +26,7 @@ summary: 'Changes since langchain-core==1.6.11
   fix(core): propagate extras on content-block-start events (#41272)'
 first_seen: '2026-10-17T00:30:30Z'
 last_seen: '2026-10-17T00:30:30Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -38,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# langchain-ai/langchain: langchain-core==1.6.12
+# langchain-core
 
 Changes since langchain-core==1.6.11
 

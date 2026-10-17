@@ -1,0 +1,92 @@
+- id: req-initial-gitsuapp-2026-10-17
+  project_slug: gitsuapp
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决 公开代码仓库 原生排期弱、团队被迫二次录入的问题，痛点结构成立；但候选只有一句定位，无法确认 AI 具体动作与交付，价值判断缺一环。
+    evidence_ids:
+    - ev-754e85d2274281e8
+  - gate: consensus
+    status: insufficient
+    reason: 仅 5 分、8 条评论的社区讨论，规模过小，无法说明研发团队是否真的把这类工具纳入日常流程。
+    evidence_ids:
+    - ev-754e85d2274281e8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；按团队或仓库订阅是常见路径，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-754e85d2274281e8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能确定性同步 公开代码仓库 状态、AI 输出是否需人工复核，交付边界不明。
+    evidence_ids:
+    - ev-754e85d2274281e8
+  next_validation: 抓取 Gitsu.app 官方定价页或产品文档，确认其收费方式以及 AI 在 issue 排期中的具体动作。
+  market: ''
+  job: 研发团队在 公开代码仓库 上管理需求与迭代时，把散落的 issue、状态和负责人整理成可排期的开发计划。
+  job_en: Engineering teams managing requirements and iterations on public code repository, turning scattered
+    issues, statuses and assignees into a schedulable development plan.
+  pain: 公开代码仓库 Projects 的视图和排期能力弱于专业项目管理工具，团队要么忍受粗糙看板，要么把 issue 手工搬到另一套系统，产生重复录入和状态不同步。
+  pain_en: public code repository Projects offers weaker views and scheduling than dedicated project tools,
+    so teams either tolerate a rough board or manually copy issues into another system, causing duplicate
+    entry and out-of-sync status.
+  current_alternative: 继续用 公开代码仓库 Projects 自带看板，或购买 Linear、Jira 等独立项目管理工具并手工同步 issue。
+  current_alternative_en: Keep using the built-in public code repository Projects board, or buy standalone
+    tools such as Linear or Jira and sync issues by hand.
+  usage_reason: 推断：若它确实直接读取 公开代码仓库 Projects 数据并生成排期视图，用户省掉的是把 issue 复制到另一套工具并持续同步这一步，因此已在 公开代码仓库 上工作、又不愿再加一套席位的团队会试用；但候选材料只有一句定位描述，AI
+    具体做什么、是否减少该步骤均未证实。
+  usage_reason_en: 'Inference: if it truly reads public code repository Projects data and generates a
+    scheduling view, users skip copying issues into another tool and keeping them in sync, so teams already
+    on public code repository that resist another seat would try it; but the candidate holds only a one-line
+    positioning statement, and what AI does or whether that step is removed is unverified.'
+- id: req-full-gitsuapp-2026-10-17
+  project_slug: gitsuapp
+  level: full
+  reviewed_at: '2026-10-17T01:10:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 公开代码仓库 Projects 排期视图弱、团队被迫二次录入的需求，痛点具体且刚性；但候选只有一句定位，AI 具体动作与交付边界未说明，属工作流结构推理。
+    evidence_ids:
+    - ev-754e85d2274281e8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句产品定位，没有用户评价、客户案例或采用数据，无法判断研发团队是否真把它纳入日常排期流程。
+    evidence_ids:
+    - ev-754e85d2274281e8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；按团队或仓库订阅是常见路径，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-754e85d2274281e8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能确定性同步 公开代码仓库 状态、AI 输出是否需人工复核，交付边界不明。
+    evidence_ids:
+    - ev-754e85d2274281e8
+  next_validation: 抓取 Gitsu.app 官方定价页或产品文档，确认其收费方式以及 AI 在 issue 排期中的具体动作。
+  market: ''
+  job: 已在 公开代码仓库 上管理代码与 issue 的研发团队，在需要排期和跟踪迭代时，把 公开代码仓库 Projects 里的 issue、状态和负责人作为输入，生成类似 Linear 的项目视图与排期，最终交付一块可直接推进的开发看板。
+  job_en: An engineering team already managing code and issues on public code repository, when it needs
+    to schedule and track iterations, takes the issues, statuses and assignees in public code repository
+    Projects as input and produces a Linear-like project view and schedule, delivering a board it can
+    act on directly.
+  pain: 公开代码仓库 Projects 的视图与排期能力弱于专业项目管理工具，团队要么忍受粗糙看板，要么把 issue 手工搬到 Linear、Jira 并持续同步，产生重复录入与状态不同步。
+  pain_en: public code repository Projects offers weaker views and scheduling than dedicated project tools,
+    so teams either tolerate a rough board or manually copy issues into Linear or Jira and keep syncing,
+    causing duplicate entry and out-of-sync status.
+  current_alternative: 继续用 公开代码仓库 Projects 自带看板，或购买 Linear、Jira 等独立工具并手工同步 issue。
+  current_alternative_en: Keep using the built-in public code repository Projects board, or buy standalone
+    tools such as Linear or Jira and sync issues by hand.
+  usage_reason: 推断：若它确实直接读取 公开代码仓库 Projects 数据并生成排期视图，用户省掉的是把 issue 复制到另一套工具并持续同步这一步，因此已在 公开代码仓库 上工作、又不愿再加一套席位的团队会试用；但候选材料只有一句定位描述，AI
+    具体介入哪一步、是否自动拆分或改写任务均未证实。
+  usage_reason_en: 'Inference: if it truly reads public code repository Projects data and generates a
+    scheduling view, users skip copying issues into another tool and keeping them in sync, so teams already
+    on public code repository that resist another seat would try it; but the candidate holds only a one-line
+    positioning statement, and what AI does or whether it splits or rewrites tasks is unverified.'

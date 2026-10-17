@@ -21,7 +21,7 @@ canonical_url: https://csfor.fun
 summary: Play a 5 minutes match of CS 1.6 1v1 while you wait for your agent
 first_seen: '2026-10-17T00:30:22Z'
 last_seen: '2026-10-17T00:30:22Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

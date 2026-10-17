@@ -1,0 +1,89 @@
+- id: req-initial-conch-agent-2026-10-17
+  project_slug: conch-agent
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多模型入口分散与数据自持的需求，痛点真实但非刚性，缺少旧流程耗时与不采用后果的公开事实。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库 52 星与一句产品描述，没有用户评价、客户案例或采用规模，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+  - gate: model
+    status: insufficient
+    reason: 开源自托管，未见定价页或付费路径；买方可能是自付的开发者或企业内网团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+  - gate: truth
+    status: insufficient
+    reason: 统一入口与自托管承诺可核验，但多模型凭证管理、安全边界与人工确认环节未见文档说明。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+  next_validation: 收集该仓库的 README 与部署文档，确认支持的模型凭证管理方式、数据存放位置与是否有企业自托管案例。
+  market: ''
+  job: 已为多个模型付费的个人开发者或小团队，在需要把对话和数据留在自己服务器时，打开一个自托管应用统一调用这些模型。
+  job_en: An individual developer or small team already paying for several models opens one self-hosted
+    app to call them uniformly while keeping conversations and data on their own server.
+  pain: 多个模型各有入口和订阅，切换与记录分散；对数据敏感的人不愿把内容交给第三方托管。
+  pain_en: Each model has its own entry point and subscription, so switching and records are scattered;
+    data-sensitive users do not want content hosted by a third party.
+  current_alternative: 分别打开各家网页或客户端，或自己写脚本调用各家 API。
+  current_alternative_en: Opening each vendor's web app or client separately, or writing their own scripts
+    against each vendor's API.
+  usage_reason: 推断：它把多个已付费模型收进一个自托管入口，省去逐个切换和自建胶水代码这一步，因此在意数据归属又已多订阅的开发者会试用；但公开材料未给出留存或重复使用证据。
+  usage_reason_en: 'Inference: it puts several already-paid models behind one self-hosted entry point,
+    removing the step of switching between them and writing glue code, so developers who care about data
+    ownership and already hold multiple subscriptions may try it; public material gives no retention or
+    repeat-use evidence.'
+- id: req-full-conch-agent-2026-10-17
+  project_slug: conch-agent
+  level: full
+  reviewed_at: '2026-10-17T01:09:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型入口分散与数据自持的需求：用户已为多个模型付费，却要逐个切换客户端、记录分散，且不愿内容托管在第三方。旧做法是分别开各家客户端或自写脚本，不解决的后果是切换成本与数据外流持续存在。这是基于产品说明与工作流的结构推理，非用户采用数据。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 52 星与一句产品描述，没有用户评价、客户案例或采用规模，无法判断共识卡在感知、想象、场景还是利益环节。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+  - gate: model
+    status: insufficient
+    reason: 开源自托管，未见定价页或付费路径；买方可能是自付订阅的开发者或需内网部署的企业团队，这是判断而非已验证事实，也未出现仅靠融资续命的叙事。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+  - gate: truth
+    status: insufficient
+    reason: 统一入口与自托管承诺可核验，但多模型凭证如何保管、数据存放位置、安全边界与人工确认环节均无文档说明，交付确定性尚不能确认。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+  next_validation: 追踪该仓库 README 与部署文档，确认支持的模型凭证管理方式、数据存放位置，以及是否列出企业自托管部署案例。
+  market: ''
+  job: 已为 Claude Code、Codex、Copilot、Gemini、Ollama 等多个模型付费的个人开发者或小团队，在需要把对话记录与凭证留在自己服务器时，部署一个自托管应用，从桌面、手机或
+    Telegram 统一发起对话。
+  job_en: An individual developer or small team already paying for Claude Code, Codex, Copilot, Gemini
+    and Ollama deploys one self-hosted app to start conversations from desktop, phone or Telegram while
+    keeping records and credentials on their own server.
+  pain: 公开说明显示用户已同时为多个模型付费，却要分别打开各家客户端或网页，切换与历史记录分散；对数据敏感者不愿把内容交给第三方托管。
+  pain_en: The public description shows users already pay for several models yet must open each vendor's
+    client or web app separately, scattering switching and history; data-sensitive users do not want content
+    hosted by a third party.
+  current_alternative: 分别打开各家网页或客户端，或自己写脚本调用各家 API 并自建转发层。
+  current_alternative_en: Opening each vendor's web app or client separately, or writing their own scripts
+    against each vendor's API and building a relay layer.
+  usage_reason: 推断：它把多个已付费模型收进一个自托管入口，省去逐个切换客户端和自写胶水代码这两步，因此已多订阅且在意数据归属的开发者会在需要跨设备（桌面、手机、Telegram）继续同一批对话时选择它；公开材料尚无留存或重复使用证据。
+  usage_reason_en: 'Inference: it puts several already-paid models behind one self-hosted entry point,
+    removing the steps of switching clients and writing glue code, so developers holding multiple subscriptions
+    who care about data ownership would pick it when continuing the same conversations across desktop,
+    phone and Telegram; public material shows no retention or repeat-use evidence.'

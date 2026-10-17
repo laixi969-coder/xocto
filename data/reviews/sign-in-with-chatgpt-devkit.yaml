@@ -672,3 +672,49 @@
     handling and UI adaptation, and the login entry aligns with product design faster; teams building
     React apps that want ChatGPT users to sign in directly would therefore try it when adding login. Stars
     rising from 37 to 50 indicates attention only, not sustained use.'
+- id: req-full-sign-in-with-chatgpt-devkit-2026-10-17
+  project_slug: sign-in-with-chatgpt-devkit
+  level: full
+  reviewed_at: '2026-10-17T01:13:32Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是第三方应用接入 ChatGPT 账号登录的接入任务，但公开材料只有仓库描述与星标数，未说明开发者当前如何自建 OAuth、卡在哪一步、不采用会失去什么，权限范围与商用条款也未披露，痛点刚性无法还原，属自嗨拼凑。
+    evidence_ids:
+    - ev-a496e553ac9c30a4
+    - ev-185812828afff577
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、issue 与 discussion，确认权限范围、商用条款以及是否有开发者公开报告实际接入场景。
+  market: ''
+  job: 第三方应用开发者要在自己的 Web 应用里加入 ChatGPT 账号登录入口，处理的是身份认证与账号绑定材料，需要完成从授权跳转到会话建立的接入任务。
+  job_en: A third-party app developer wants to add a ChatGPT account sign-in entry to their own web app,
+    handling identity and account-linking material to complete the flow from authorization redirect to
+    session establishment.
+  pain: 公开材料只有仓库描述与星标数，没有说明开发者当前接入身份登录时卡在哪一步、不采用会失去什么；账号权限范围、商用条款与数据边界均未披露，痛点无法从现有事实还原。
+  pain_en: Public material contains only the repository description and star counts; it does not show
+    where developers currently get stuck when integrating identity sign-in or what is lost by not adopting
+    it, and account permission scope, commercial terms and data boundaries are undisclosed, so the pain
+    cannot be reconstructed.
+  current_alternative: 公开材料未说明现有替代方式；按行业常识可能是 OAuth 自建、Google/Apple 等既有身份提供商或直接复用 OpenAI 账号体系，但这些均属推断，未经材料支持。
+  current_alternative_en: Public material does not state the current alternative; by industry practice
+    it may be self-built OAuth, existing identity providers such as Google or Apple, or reusing the OpenAI
+    account system, but these are inference, not supported by the material.
+  usage_reason: 推断：若该套件能省去自建 OAuth 与账号绑定逻辑，开发者会在需要 ChatGPT 账号体系的应用中选择它；但公开材料未说明权限范围、商用条款与交付确定性，且仓库星标从
+    42 缓慢增至 51 只反映关注度，不能解释用户为何选择或持续使用。
+  usage_reason_en: 'Inference: if the kit removes the need to build OAuth and account-linking logic, developers
+    would choose it for apps that need the ChatGPT account system; however the material does not state
+    permission scope, commercial terms or delivery certainty, and the repository''s slow star growth from
+    42 to 51 reflects attention only, not why users choose or keep using it.'

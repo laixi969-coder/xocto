@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxQX3ViZzVrUDFY
 summary: 苹果携手阿里百度落地 AI？本土化智能体如何打通端侧履约 openinstall
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

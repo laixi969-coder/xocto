@@ -24,3 +24,44 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-fuelup-2026-10-17
+  project_slug: fuelup
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从公开材料写出，仅有一句付费驱动虚拟赛车的描述，价值关证据不足。
+    evidence_ids:
+    - ev-b0edb459c9f5c12a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足，且仅有少量社区讨论，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-b0edb459c9f5c12a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关证据不足，公开材料未说明买方是个人打赏、品牌赞助还是其他来源。
+    evidence_ids:
+    - ev-b0edb459c9f5c12a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关证据不足，无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-b0edb459c9f5c12a
+  next_validation: 收集 fuelup 官方页面或公开说明中关于付费机制、使用场景与交付结果的具体描述。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境与要完成的材料处理任务，仅能确认存在一个“付费即前进”的虚拟赛车。
+  job_en: Public material does not state the specific user, situation or material-processing task; it
+    only confirms a virtual race car that advances when someone pays.
+  pain: 无法从现有事实确认它缓解了哪种具体痛苦或收益缺口，付费动机与不采用的后果均未说明。
+  pain_en: Existing facts do not establish which concrete pain or gain gap it relieves; neither the payment
+    motive nor the cost of not using it is described.
+  current_alternative: 公开材料未提及任何现有替代做法，无法判断用户此前如何完成同类事情。
+  current_alternative_en: No existing alternative is mentioned in public material, so how users previously
+    handled a comparable task cannot be determined.
+  usage_reason: 现有证据只有一句产品描述，缺少输入、动作、交付与使用场景，无法解释哪类用户为何选择它；此处不作推断。
+  usage_reason_en: The only evidence is a one-line description lacking input, action, deliverable and
+    scenario, so why any user would choose it cannot be explained; no inference is made here.

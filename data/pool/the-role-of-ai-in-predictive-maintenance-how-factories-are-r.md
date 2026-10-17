@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM3lJeHdTQmEw
 summary: 'The Role of AI in Predictive Maintenance: How Factories Are Reducing Downtime Analytics Insight'
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

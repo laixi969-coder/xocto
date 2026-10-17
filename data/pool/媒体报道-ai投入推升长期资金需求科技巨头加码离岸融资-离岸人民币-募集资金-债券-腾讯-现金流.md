@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxOTWFKWEJmRGtj
 summary: 媒体报道| AI投入推升长期资金需求科技巨头加码离岸融资|离岸人民币|募集资金|债券|腾讯|现金流 finance.sina.com.cn
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

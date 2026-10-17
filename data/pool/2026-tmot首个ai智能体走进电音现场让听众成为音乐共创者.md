@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/503611.html
 summary: 10月17日至18日，顶尖电音节The Magic of Tomorrowland 2026将在上海举行。
 first_seen: '2026-10-17T00:31:00Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

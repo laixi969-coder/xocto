@@ -32,7 +32,7 @@ summary: 'Tool: LaTeX renderer Inspired by Paul Ford and Aboard Foundary''s new 
   library from a CDN (consider WebAssembly too). If loaded without'
 first_seen: '2026-10-17T00:31:00Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

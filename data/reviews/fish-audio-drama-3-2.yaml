@@ -1,0 +1,88 @@
+- id: req-initial-fish-audio-drama-3-2-2026-10-17
+  project_slug: fish-audio-drama-3-2
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决对白配音中逐句调整语气与节奏的需求，痛点是一次生成难以按句修改、重录成本高；买方与付费方式未披露。
+    evidence_ids:
+    - ev-5f5c8a5f7c72cc0a
+  - gate: consensus
+    status: insufficient
+    reason: 只有产品定位描述，无用户评价或案例，无法判断卡在感知、想象还是场景环节。
+    evidence_ids:
+    - ev-5f5c8a5f7c72cc0a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方可能是制作团队或独立创作者，属判断而非已验证事实。
+    evidence_ids:
+    - ev-5f5c8a5f7c72cc0a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对可导演控制是否真能确定性交付成片级音轨，人工终审边界也未说明。
+    evidence_ids:
+    - ev-5f5c8a5f7c72cc0a
+  next_validation: 抓取 Fish Audio 官方产品页或文档，确认可调参数、导出格式、计费方式与是否有客户案例。
+  market: ''
+  job: 配音导演或有声内容制作人在录制对白时，把剧本台词交给工具，逐句调整语气、情绪与节奏，产出可用于成片的配音音轨。
+  job_en: A voice director or audio producer hands script lines to the tool during dubbing and adjusts
+    tone, emotion and pacing line by line to produce voice tracks usable in the final cut.
+  pain: 对白配音需要反复试音与重录，一次生成的结果难以按句修改；公开材料未提供用户抱怨或采用数据，此痛点由工作流结构推断。
+  pain_en: Dialogue dubbing requires repeated takes and re-records, and one-shot generated audio is hard
+    to revise line by line; the material offers no user complaints or adoption data, so this pain is inferred
+    from workflow structure.
+  current_alternative: 旧做法是请配音演员进棚录制，或使用只能一次性生成、难以逐句控制的语音工具；候选资料未直接描述这些替代方式，属推断。
+  current_alternative_en: The old approach is hiring voice actors for studio recording, or using voice
+    tools that generate in one shot and are hard to control line by line; the candidate material does
+    not describe these alternatives directly, so this is inference.
+  usage_reason: 推断：相较整段重录或换人重配，它把修改粒度降到单句，导演可在同一场戏里反复调整语气而不必重新组织录制，因此需要多角色、多轮修改的短剧与有声书团队会优先试用。
+  usage_reason_en: 'Inference: compared with re-recording whole segments or replacing a voice actor, it
+    lowers revision granularity to a single line, letting a director re-tune delivery within the same
+    scene without re-organising a session, so short-drama and audiobook teams needing multiple characters
+    and repeated revision would try it first.'
+- id: req-full-fish-audio-drama-3-2-2026-10-17
+  project_slug: fish-audio-drama-3-2
+  level: full
+  reviewed_at: '2026-10-17T01:10:40Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据全部是鱼类百科与鱼类科普页面，与配音工具无关；公开材料无法还原用户任务、痛点、现有替代或不采用的后果，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-a4739a7a39f70e2f
+    - ev-bc311e8f5ae02f0f
+    - ev-5a8e557cd983541b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 Fish Audio 官方产品页或文档，确认该工具是否真实存在、可调参数、导出格式、计费方式与客户案例。
+  market: ''
+  job: 配音导演或有声内容制作人在录制对白时，把剧本台词交给工具，逐句调整语气、情绪与节奏，产出可用于成片的配音音轨。
+  job_en: A voice director or audio producer hands script lines to the tool during dubbing and adjusts
+    tone, emotion and pacing line by line to produce voice tracks usable in the final cut.
+  pain: 公开证据中没有一条描述配音环节的痛点、用户抱怨或现有替代行为；候选资料仅给出“可导演而非仅生成”的定位，无法据此还原用户任务中的具体受阻环节。
+  pain_en: No public evidence describes any dubbing pain point, user complaint or existing workaround;
+    the candidate material only offers the positioning 'directable, not just generated', which is insufficient
+    to reconstruct a concrete blocked step in the user's task.
+  current_alternative: 公开证据未记录任何现有替代方式（如配音演员进棚、一次性生成语音工具或人工剪辑拼接），因此无法说明用户现在如何绕过该问题。
+  current_alternative_en: Public evidence records no current alternative (such as studio voice actors,
+    one-shot voice generation tools, or manual editing), so it cannot be shown how users currently work
+    around the problem.
+  usage_reason: 无法给出使用理由：证据链中没有任何用户反馈、客户案例或可核对结果，无法解释相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No usage reason can be given: the evidence chain contains no user feedback, customer
+    case or verifiable outcome, so it cannot explain which step of burden is reduced versus the old approach,
+    nor which users would choose it under what circumstances.'

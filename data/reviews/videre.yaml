@@ -1,0 +1,87 @@
+- id: req-initial-videre-2026-10-17
+  project_slug: videre
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决本地照片视频的整理与归档需求，但公开材料只有一句简介，说不清替代了哪一步旧工作、痛点强度如何，价值结构尚不能判定。
+    evidence_ids:
+    - ev-4f46864823f04d49
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有可归因到该产品的采用、留存或重复使用证据，共识环节无法判断。
+    evidence_ids:
+    - ev-4f46864823f04d49
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价、买方或收费方式，是开源项目还是商业产品尚不明确，模式关未进入。
+    evidence_ids:
+    - ev-4f46864823f04d49
+  - gate: truth
+    status: insufficient
+    reason: 无法核验它是否调用模型、处理哪些元数据、交付是否确定发生，求真检查缺少材料。
+    evidence_ids:
+    - ev-4f46864823f04d49
+  next_validation: 收集该开源仓库的 README、issue 与 discussion，确认它实际执行的文件操作、是否使用模型，以及是否有用户报告把它留在日常归档流程中。
+  market: ''
+  job: 个人或摄影爱好者在本地硬盘、相机存储卡或手机导出目录里整理大量照片与视频时，需要批量重命名、去重、按时间或地点归档，最终得到一套可检索的本地媒体库。
+  job_en: Individuals or photography enthusiasts organizing large photo and video collections from local
+    drives, camera cards, or phone exports need batch renaming, deduplication, and time- or location-based
+    filing to end up with a searchable local media library.
+  pain: 素材分散在多个目录、命名混乱、重复文件多，手工整理耗时且容易漏掉；但公开材料没有说明用户当前具体卡在哪一步。
+  pain_en: Material is scattered across directories with messy names and duplicates, making manual organizing
+    slow and error-prone; however, the public material does not specify which step users actually get
+    stuck on.
+  current_alternative: 手工建文件夹、按日期重命名，或使用 Lightroom、Digikam、ExifTool 等既有工具。
+  current_alternative_en: Manually creating folders and renaming by date, or using existing tools such
+    as Lightroom, Digikam, or ExifTool.
+  usage_reason: 推断：命令行方式可能让习惯脚本的用户把归档规则固化下来，减少逐次手工重命名；但公开材料未说明它相较 ExifTool 等旧做法具体省掉哪一步，也未提供采用或留存证据。
+  usage_reason_en: 'Inference: a CLI may let script-comfortable users codify filing rules and cut repeated
+    manual renaming; but the public material does not say which step it removes versus tools like ExifTool,
+    nor does it provide adoption or retention evidence.'
+- id: req-full-videre-2026-10-17
+  project_slug: videre
+  level: full
+  reviewed_at: '2026-10-17T01:14:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决本地照片视频的整理归档需求，但公开材料只有一句简介，既无用户痛点、旧替代行为，也无交付闭环描述，连需求和痛点都写不实，价值结构无法判定。
+    evidence_ids:
+    - ev-51ba486b008b8a41
+    - ev-57117ce4ad9ff793
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该 Rust CLI 的公开仓库 README、issue 与 discussion，确认它实际执行的文件操作、是否使用模型，以及是否有用户报告把它留在日常归档流程中。
+  market: ''
+  job: 个人或摄影爱好者在本地硬盘、相机存储卡或手机导出目录里积累大量照片与视频时，需要批量重命名、去重、按时间或地点归档，最终得到一套可检索的本地媒体库。
+  job_en: Individuals or photography enthusiasts with large photo and video collections on local drives,
+    camera cards, or phone exports need batch renaming, deduplication, and time- or location-based filing
+    to produce a searchable local media library.
+  pain: 公开材料只有一句产品简介，没有任何用户抱怨、workaround 或案例说明素材分散、命名混乱、重复文件带来的具体卡点，痛点强度无法从公开事实还原。
+  pain_en: The public material contains only a one-line product description; no user complaints, workarounds,
+    or cases document the specific pain of scattered files, messy naming, or duplicates, so pain intensity
+    cannot be reconstructed from public facts.
+  current_alternative: 公开材料未记录用户当前用什么方式整理素材，只能从任务结构推测可能的手工建文件夹、按日期重命名，或 Lightroom、Digikam、ExifTool 等既有工具，但无证据支持。
+  current_alternative_en: The public material does not record what users currently use; only structural
+    inference suggests manual folder creation, date-based renaming, or existing tools like Lightroom,
+    Digikam, or ExifTool, with no supporting evidence.
+  usage_reason: 无法回答：公开材料未说明它相较旧做法减少哪一步负担或改善哪项可核对结果，也没有采用、留存或用户反馈证据，因此不能给出用户为何选择它的因果解释。
+  usage_reason_en: 'Cannot answer: the public material does not state which step it removes versus the
+    old approach or which verifiable result it improves, and there is no adoption, retention, or user-feedback
+    evidence, so no causal reason for choosing it can be given.'

@@ -627,3 +627,54 @@
     external services directly, cutting the step-by-step clicking and app switching while keeping credentials
     local; hence Mac technical users who care about data staying on-device and are willing to self-configure
     would choose it for cross-app errands.'
+- id: req-full-open-dot-2026-10-17
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-17T01:12:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是 Mac 用户把电脑上的多步操作交给本地自主代理执行的需求，痛点在于手动逐步点击与跨服务切换；公开材料说明代理在本地自主运行并调用 OpenAI 与 Composio，交付闭环可还原，属工作流结构推理，用户抱怨与采用数据尚未公开。
+    evidence_ids:
+    - ev-b9c55539925168e8
+    - ev-1a7190bce6e6c125
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 625 增至 653，说明有开发者关注，但公开材料没有用户评价、讨论或持续采用证据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-b9c55539925168e8
+    - ev-66e336553447b3d1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、客户案例或采购记录，谁付钱、按什么方式付费均未说明；这是判断而非已验证事实，开源仓库本身不构成付费路径。
+    evidence_ids:
+    - ev-b9c55539925168e8
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理执行哪些具体任务、交付边界与人工确认环节，能否确定性交付以及安全与人工边界如何设置均无法核验。
+    evidence_ids:
+    - ev-b9c55539925168e8
+  next_validation: 追踪 open-dot 仓库的 README、issue 与 discussion，确认它实际执行的任务类型、输入材料、交付结果与人工确认边界。
+  market: ''
+  job: 愿意自己动手的 Mac 用户在自己的电脑上打开 open-dot，把需要在本地机器上完成的电脑操作交给一个自主运行的代理，由它调用 OpenAI 模型与 Composio 连接的外部服务去执行，最后拿到完成的任务结果或待确认的操作。
+  job_en: A hands-on Mac user opens open-dot on their own computer and hands off computer-side tasks to
+    an autonomous agent running locally, which calls OpenAI models and Composio-connected external services
+    to execute the work, returning finished results or operations awaiting confirmation.
+  pain: 公开材料只说明它是本地自主运行的 Mac 个人代理，未给出用户抱怨或旧流程描述；从工作流结构推理，痛点是用户需要在多步电脑操作与外部服务之间手动切换、逐步点击，代理化执行可减少这类逐步操作负担。
+  pain_en: Public material only describes a locally running autonomous Mac personal agent and gives no
+    user complaints or legacy workflow; by workflow-structure inference, the pain is that users must manually
+    switch between multi-step computer operations and external services, and agentic execution can reduce
+    that step-by-step burden.
+  current_alternative: 公开材料未说明用户此前用什么方式完成同类任务；结构上可推断的旧做法是用户自己在 Mac 上手动逐步操作，并在各外部服务之间切换。
+  current_alternative_en: Public material does not state how users previously did comparable tasks; the
+    structurally inferable alternative is users manually operating step by step on their Mac and switching
+    between external services.
+  usage_reason: 推断：相较手动逐步操作，open-dot 通过让代理在本地自主运行并调用 OpenAI 与 Composio 连接的外部服务，把用户原本需要自己逐步点击和跨服务切换的动作交给代理执行，因此愿意自己动手配置的
+    Mac 用户会在需要把电脑上的多步任务整体交出去时选择它；公开材料尚未给出用户反馈或客户案例来证实这一动机。
+  usage_reason_en: 'Inference: compared with manual step-by-step operation, open-dot lets an agent run
+    autonomously locally and call OpenAI plus Composio-connected external services, moving the clicking
+    and cross-service switching the user used to do onto the agent, so hands-on Mac users would choose
+    it when they want to hand off a multi-step computer task wholesale; public material does not yet provide
+    user feedback or customer cases confirming this motive.'

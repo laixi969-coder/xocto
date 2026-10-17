@@ -1,0 +1,94 @@
+- id: req-initial-腾讯盯上了字节的摇钱树-2026-10-17
+  project_slug: 腾讯盯上了字节的摇钱树
+  level: initial
+  reviewed_at: '2026-10-17T00:31:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决免费短剧持续供给与开头留人的需求，痛点是断档即流失、人工试错慢；买方为平台与制作方，公开材料未披露具体付费方。
+    evidence_ids:
+    - ev-dd58601e4da9328b
+  - gate: consensus
+    status: insufficient
+    reason: 报道只说明绿泡泡短剧处于早期爬坡，未给出其自身用户规模、留存或制作方采用数据，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-dd58601e4da9328b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、分账比例或采购方式，钱可能来自平台广告分成或制作方付费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dd58601e4da9328b
+  - gate: truth
+    status: insufficient
+    reason: 候选未说明 AI 在选本、生成或分发中的具体动作与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-dd58601e4da9328b
+  next_validation: 收集绿泡泡短剧官方小程序或腾讯官方渠道公布的制作方合作、分账规则或 AI 参与环节说明。
+  market: ''
+  job: 短剧制作方和平台运营在微信内上线免费短剧时，需要持续产出可连播的剧集并靠广告回收成本，要完成的是稳定供给与留存观看。
+  job_en: Short-drama producers and platform operators launching free dramas inside WeChat need a continuous
+    supply of binge-watchable episodes monetized by ads, aiming at stable supply and retained viewing.
+  pain: 免费短剧靠时长和广告变现，供给一旦断档或前几集不抓人，用户立刻流失；人工选本、拍摄和剪辑周期长，试错成本高。
+  pain_en: Free short drama monetizes on watch time and ads; if supply breaks or the first episodes fail
+    to hook, users leave immediately, while manual selection, shooting and editing are slow and costly
+    to iterate.
+  current_alternative: 此前腾讯以十分剧场走会员分账的横屏精品路线，并在微信内小范围试水火星短剧社等小程序；制作方则依赖人工编剧、外包拍摄与剪辑。
+  current_alternative_en: Tencent previously ran the membership-revenue horizontal premium route via Shifen
+    Theater and small WeChat trials such as Huoxing Short Drama Club; producers rely on manual writing
+    plus outsourced shooting and editing.
+  usage_reason: 推断：相较人工逐集打磨，若把选题、分镜和初剪交给 AI 批量化处理，制作方能以更低成本更快试出可连播的开头，从而在广告变现下更快验证哪类题材留得住人；缺少留存与付费证据，尚不能确认已被长期采用。
+  usage_reason_en: 'Inference: versus polishing every episode by hand, batching topic selection, storyboarding
+    and first cuts through AI lets producers test binge-watchable openings faster and cheaper, so they
+    can validate under ad monetization which genres retain viewers; retention and payment evidence is
+    missing, so long-term adoption cannot be confirmed.'
+- id: req-full-腾讯盯上了字节的摇钱树-2026-10-17
+  project_slug: 腾讯盯上了字节的摇钱树
+  level: full
+  reviewed_at: '2026-10-17T01:14:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决微信内免费短剧的连续观看与制作方多渠道发行需求，痛点是断档或开头不抓人即流失、制作方被单一平台议价；微信14亿月活与红果1.68亿日活、125分钟人均时长说明时长争夺刚性，但绿泡泡自身留存未披露，属工作流结构推理。
+    evidence_ids:
+    - ev-dd58601e4da9328b
+  - gate: consensus
+    status: insufficient
+    reason: 报道只称绿泡泡处于早期爬坡，未给出其自身日活、留存或制作方采用数据；单日7101组投放与入口升级属关注度证据，不能证明持续使用，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-dd58601e4da9328b
+  - gate: model
+    status: insufficient
+    reason: 公开材料给出单用户有效观看时长不低于10分钟、优质新剧最高100%收入激励的分账门槛，但未披露绿泡泡自身定价或采购方式，钱可能来自微信广告分成或制作方让利，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dd58601e4da9328b
+  - gate: truth
+    status: insufficient
+    reason: 候选未说明AI在选本、生成或分发中具体承担哪一步，仅提到灰度期用AI仿真人短剧《影后芽芽》验证效果，人工确认边界与交付确定性无法核对。
+    evidence_ids:
+    - ev-dd58601e4da9328b
+  next_validation: 追踪微信开放平台或绿泡泡短剧官方公众号后续公布的分账结算数据、制作方合作案例与AI参与环节说明。
+  market: ''
+  job: 微信用户在微信内（发现页入口、视频号挂载或搜索剧名）打开绿泡泡短剧小程序，处理的是免费短剧剧集内容，要完成的是不下载新 App、不付费即可连续刷完整部短剧；上游短剧制作方则要把成片投放到该渠道获取分账收入。
+  job_en: WeChat users open the Lupao short-drama mini program inside WeChat (discover-page entry, Channels
+    link, or title search) to binge-watch free short dramas without downloading a new app or paying; upstream
+    producers place finished dramas on this channel to earn revenue share.
+  pain: 公开材料显示免费短剧靠广告变现，用户对开头不抓人或供给断档会立刻流失；制作方此前高度依赖红果单一发行渠道，平台掌握绝对议价权，且真人剧拍摄剪辑周期长、独家爆款储备不足。
+  pain_en: Public material shows free short dramas monetize on ads, so users churn instantly when openings
+    fail to hook or supply breaks; producers previously depended on Hongguo as a single distribution channel
+    with the platform holding pricing power, while live-action shooting and editing cycles are long and
+    exclusive hits are scarce.
+  current_alternative: 用户此前在红果短剧独立 App 上刷免费短剧，或在腾讯视频、爱奇艺等长视频平台看会员付费的横屏精品短剧；制作方此前主要绑定红果等单一平台发行，靠人工编剧、外包拍摄剪辑产出内容。
+  current_alternative_en: Users previously watched free short dramas on the standalone Hongguo app, or
+    paid for membership-based horizontal premium dramas on Tencent Video, iQiyi and similar platforms;
+    producers mainly distributed through a single platform such as Hongguo, relying on manual writing
+    plus outsourced shooting and editing.
+  usage_reason: 推断：相较下载独立 App 或买会员，绿泡泡把入口嵌进微信（搜索即用、悬浮小窗边看边回消息、视频号一键跳转），并用好友观看行为驱动的「朋友在看」和地区榜替代纯算法买量分发，减少了用户下载与付费这一步，也让制作方多一个不绑定单一平台的发行渠道；公开材料未给出留存或复购数据，尚不能确认已被长期留在工作流里。
+  usage_reason_en: 'Inference: versus downloading a standalone app or buying membership, Lupao embeds
+    the entry in WeChat (search-to-use, floating window for replying while watching, one-tap jump from
+    Channels) and replaces pure algorithmic paid-traffic distribution with friend-view-driven ''friends
+    watching'' and regional charts, removing the download and payment step for users and giving producers
+    a second non-exclusive distribution channel; public material provides no retention or repeat-use da'

@@ -92,3 +92,55 @@
     past sessions, returning cited excerpts with exact files and lines; this removes the manual pick-and-paste
     step and makes agent references checkable to a line, though no public feedback yet shows which users
     choose it.'
+- id: req-full-graphicle-2-2026-10-17
+  project_slug: graphicle-2
+  level: full
+  reviewed_at: '2026-10-17T01:11:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理跨会话丢失仓库结构与历史决策、需反复摸索代码的问题；痛点在于代理改错文件与重复踩坑，旧做法是各客户端自带索引加手动粘贴上下文。公开材料只给能力描述，属工作流结构推理，未验证痛点强度。
+    evidence_ids:
+    - ev-f17e2c8e55a929c8
+    - ev-46ae17c7b844ccd6
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标 195 只反映关注度，不能证明持续采用；公开材料没有用户评价、issue 讨论或复现案例，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-ffaf0f77077836c0
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、客户名单或付费路径，买方是个人开发者还是团队无法确认；按能力推断可能走 to C 订阅或 to B 团队授权，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f17e2c8e55a929c8
+  - gate: truth
+    status: insufficient
+    reason: 代码图与记忆贴近代理改代码这一第一性目标，但公开材料未说明索引准确性、上下文注入边界与人工复核方式，交付确定性无法核验。
+    evidence_ids:
+    - ev-f17e2c8e55a929c8
+    - ev-46ae17c7b844ccd6
+  next_validation: 抓取 公开代码仓库.com/graphicle-ai/graphicle 的 README、release 与 issue/discussion，确认代码图与记忆的实际输入输出、MCP
+    接入方式及是否有用户报告的可复现效果。
+  market: ''
+  job: 使用 Claude Code、Codex、Cursor 或任意 MCP 客户端的开发者在让编码代理修改一个中大型仓库时，需要把仓库的代码结构、项目文档、历史决策和过往会话上下文喂给代理，让代理在正确的文件和行号上做修改。
+  job_en: Developers using Claude Code, Codex, Cursor or any MCP client, when letting a coding agent modify
+    a mid-to-large repository, need to feed the agent the repo's code structure, project docs, past decisions
+    and prior session context so the agent edits the right files and lines.
+  pain: 编码代理每次会话都要重新摸索仓库结构，跨文件依赖、既有决策和上次会话结论容易丢失，导致代理改错文件、重复提问或重复踩坑；公开材料只给出产品能力描述，未提供用户抱怨或采用数据，痛点强度属工作流结构推理。
+  pain_en: Coding agents re-discover repo structure each session; cross-file dependencies, prior decisions
+    and last session's conclusions get lost, so agents edit wrong files, re-ask or repeat mistakes. Public
+    material only states product capability, with no user complaints or adoption data, so pain intensity
+    is a workflow-structure inference.
+  current_alternative: 开发者目前依赖各客户端自带的仓库索引与上下文窗口，或手动挑选文件、粘贴文档和会话摘要；这是从品类常识作出的推断，候选材料未直接描述旧做法。
+  current_alternative_en: Developers today rely on each client's built-in repo indexing and context window,
+    or manually pick files and paste docs and session summaries; this is inferred from the category, not
+    directly described in the candidate material.
+  usage_reason: 推断：相较每个客户端各自索引、手动粘贴上下文，Graphicle 用一个 Rust 程序把仓库映射成代码图并记住文档、决策与历史会话，向代理返回带文件与行号引用的片段，减少开发者手动挑选和重复交代上下文这一步；因此同时使用多个
+    MCP 客户端、且仓库跨文件依赖较重的开发者会在这种情况下选择它。公开材料未给出可核对的效果数据。
+  usage_reason_en: 'Inference: versus per-client indexing and manual context pasting, Graphicle uses one
+    Rust program to map the repo into a code graph and remember docs, decisions and past sessions, returning
+    cited excerpts with exact files and lines, removing the manual file-picking and re-explaining step;
+    so developers running multiple MCP clients on a repo with heavy cross-file dependencies would choose
+    it in that situation. No checkable outcome data is given publicly.'

@@ -1,0 +1,86 @@
+- id: req-initial-wipro-to-acquire-20-stake-in-flarreai-to-expand-insurance-fo-2026-10-17
+  project_slug: wipro-to-acquire-20-stake-in-flarreai-to-expand-insurance-fo
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决理赔核保材料量大、人工逐份阅读核对耗时的问题，旧流程明确，属工作流推理。
+    evidence_ids:
+    - ev-bdb3ac9a16f382b3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有入股报道，未见保险客户名单、部署案例或一线使用反馈。
+    evidence_ids:
+    - ev-bdb3ac9a16f382b3
+  - gate: model
+    status: supported
+    reason: 买方为保险公司，且大型 IT 服务商以入股绑定，说明存在企业付费路径；具体定价未披露。
+    evidence_ids:
+    - ev-bdb3ac9a16f382b3
+  - gate: truth
+    status: insufficient
+    reason: 未见核保理赔准确性、人工复核边界与合规审计材料。
+    evidence_ids:
+    - ev-bdb3ac9a16f382b3
+  next_validation: 收集 FLARRE.AI 官网的保险客户案例或产品文档，确认实际部署的理赔核保环节与交付结果。
+  market: ''
+  job: 保险理赔或核保人员在处理保单、报案与理赔材料时，需要完成资料核对与流程推进。
+  job_en: Insurance claims or underwriting staff handling policies, claim reports and claim documents
+    need to verify materials and move the process forward.
+  pain: 理赔与核保材料格式杂、量大，人工逐份阅读与核对耗时，且容易在环节间积压。
+  pain_en: Claims and underwriting materials are varied and voluminous; reading and checking them by hand
+    is slow and work piles up between steps.
+  current_alternative: 此前由理赔或核保人员逐份阅读材料、手工录入并流转到下一环节。
+  current_alternative_en: Previously claims or underwriting staff read each document, keyed data by hand
+    and routed it to the next step.
+  usage_reason: 推断：相较人工逐份阅读录入，代理可先读取材料并推进核保或理赔环节，减少资料整理这一步的人工负担，因此材料量大的保险公司更可能采用；公开材料未给出客户使用反馈。
+  usage_reason_en: 'Inference: versus manual document reading and keying, agents can first read materials
+    and advance underwriting or claims steps, cutting the manual burden of document assembly, so insurers
+    with high document volume are more likely to adopt it; public material gives no customer usage feedback.'
+- id: req-full-wipro-to-acquire-20-stake-in-flarreai-to-expand-insurance-fo-2026-10-17
+  project_slug: wipro-to-acquire-20-stake-in-flarreai-to-expand-insurance-fo
+  level: full
+  reviewed_at: '2026-10-17T01:14:15Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决理赔核保材料量大、人工逐份阅读核对耗时且案件易积压的问题，旧流程与交付环节明确，属工作流结构推理；公开材料未给出客户使用反馈。
+    evidence_ids:
+    - ev-bdb3ac9a16f382b3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 Wipro 入股报道，未见保险客户名单、部署案例或一线使用反馈，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-bdb3ac9a16f382b3
+  - gate: model
+    status: supported
+    reason: 买方为保险公司，大型 IT 服务商以入股绑定，说明存在企业付费路径；具体定价与合同金额未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-bdb3ac9a16f382b3
+  - gate: truth
+    status: insufficient
+    reason: 未见核保理赔准确性、人工复核边界与合规审计材料，无法确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-bdb3ac9a16f382b3
+  next_validation: 追踪 FLARRE.AI 官网或 Wipro 公告中的保险客户案例与部署文档，确认实际落地的理赔核保环节、人工复核点与交付结果。
+  market: ''
+  job: 保险公司的理赔专员或核保人员在收到保单、报案记录与理赔材料时，需要逐份读取并核对信息，把案件推进到核保结论或理赔处理结果。
+  job_en: Claims specialists or underwriters at insurers receive policies, claim reports and claim documents,
+    must read and verify each item, and advance the case to an underwriting decision or claims outcome.
+  pain: 理赔与核保材料格式杂、单量大，人工逐份阅读、录入与流转耗时长，案件容易在环节之间积压；公开材料未给出具体耗时或积压数据。
+  pain_en: Claims and underwriting materials are heterogeneous and high-volume; manual reading, keying
+    and routing is slow and cases pile up between steps; public material gives no specific time or backlog
+    figures.
+  current_alternative: 此前由理赔或核保人员逐份阅读材料、手工录入关键字段，再流转到下一处理环节。
+  current_alternative_en: Previously claims or underwriting staff read each document, keyed key fields
+    by hand, then routed it to the next processing step.
+  usage_reason: 推断：相较人工逐份阅读录入，代理先读取材料并推进核保或理赔环节，可减少资料整理与初步核对这一步的人工负担，因此材料量大的保险公司在案件积压时更可能选择它；公开材料未提供客户使用反馈。
+  usage_reason_en: 'Inference: versus manual reading and keying, agents first read materials and advance
+    underwriting or claims steps, cutting the manual burden of document assembly and initial checking,
+    so insurers with high document volume and case backlogs are more likely to choose it; public material
+    provides no customer usage feedback.'

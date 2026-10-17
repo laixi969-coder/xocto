@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOckNoTklPcDFu
 summary: 本地AI会议助手崛起：端侧智能正在重新定义AI产品的未来方向 积墨 AI
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,84 @@
+- id: req-initial-stockholm-startup-matters-raises-5m-pre-seed-to-build-an-ai-2026-10-17
+  project_slug: stockholm-startup-matters-raises-5m-pre-seed-to-build-an-ai
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决银行业务办理繁琐、客服等待长的问题，旧替代行为明确，属工作流推理。
+    evidence_ids:
+    - ev-f18e5de038fbc55c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资消息，缺少用户采用与口碑证据。
+    evidence_ids:
+    - ev-f18e5de038fbc55c
+  - gate: model
+    status: insufficient
+    reason: 买方与收费方式未披露，银行牌照与合规路径也未说明，属判断。
+    evidence_ids:
+    - ev-f18e5de038fbc55c
+  - gate: truth
+    status: insufficient
+    reason: 资金安全、人工边界与交付确定性均未披露。
+    evidence_ids:
+    - ev-f18e5de038fbc55c
+  next_validation: Matters 官方产品页或监管牌照公告，说明业务范围、收费方式与合规主体。
+  market: ''
+  job: 个人或小企业用户在办理开户、转账、账务查询等银行业务时，处理账户与交易材料，要完成一笔可确认落地的银行业务。
+  job_en: Individuals or small businesses handling account opening, transfers and balance queries work
+    with account and transaction material to complete a banking task that reliably goes through.
+  pain: 传统网银菜单繁琐、跨产品跳转多，遇到问题只能排队等人工客服。
+  pain_en: Traditional online banking is menu-heavy with many cross-product jumps, and problems mean queuing
+    for human support.
+  current_alternative: 使用传统网银或手机银行 App 逐项操作，必要时去网点或打客服电话。
+  current_alternative_en: Using traditional online or mobile banking step by step, and going to a branch
+    or calling support when needed.
+  usage_reason: 推断：相较在网银菜单里逐项点击，它把请求直接转成账户操作与答复，省掉找入口和填表这一步，因此对高频办理简单银行业务的用户有吸引力；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with clicking through online banking menus, it turns a request
+    directly into account operations and replies, removing the find-the-entry and fill-the-form step,
+    which appeals to users doing simple banking tasks frequently; no retention or repeat-use evidence
+    was disclosed.'
+- id: req-full-stockholm-startup-matters-raises-5m-pre-seed-to-build-an-ai-2026-10-17
+  project_slug: stockholm-startup-matters-raises-5m-pre-seed-to-build-an-ai
+  level: full
+  reviewed_at: '2026-10-17T01:13:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决个人银行业务办理繁琐的问题，但公开证据只有词典释义、通用 AI 介绍与融资标题，没有任何本项目产品说明、用户痛点或替代行为，连需求与痛点都无法还原。
+    evidence_ids:
+    - ev-c7a5af27bd8bafe9
+    - ev-42cc91f53ee714c3
+    - ev-11552c405a9c3269
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Matters 官网产品页与瑞典金融监管局（FI）牌照登记，确认其业务范围、交付方式与合规主体。
+  market: ''
+  job: 个人用户在办理开户、转账、账务查询等银行业务时，处理账户与交易材料，要完成一笔可确认落地的银行业务。
+  job_en: Individuals handling account opening, transfers and balance queries work with account and transaction
+    material to complete a banking task that reliably goes through.
+  pain: 公开证据中没有任何关于该产品用户痛点的材料，无法说明用户在哪一步难受、频率多高、不解决会失去什么。
+  pain_en: No public evidence describes this product's user pain, so it is impossible to say where users
+    struggle, how often, or what they lose by not solving it.
+  current_alternative: 公开材料未提供该产品的替代方式信息；传统网银、手机银行或柜台属于一般性推测，无本项目证据支持。
+  current_alternative_en: Public material provides no alternative-behavior information for this product;
+    traditional online banking, mobile apps or branches are generic speculation without project evidence.
+  usage_reason: 无法判断用户为何选择它：现有证据只有词典释义、AI 通用介绍与融资标题，未说明产品如何完成交付或减少哪一步负担。
+  usage_reason_en: 'Cannot explain why users would choose it: available evidence is dictionary definitions,
+    generic AI explainers and a funding headline, with no description of how the product delivers or which
+    step it removes.'

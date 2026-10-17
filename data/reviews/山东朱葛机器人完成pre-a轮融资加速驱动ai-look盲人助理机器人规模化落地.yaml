@@ -1,0 +1,81 @@
+- id: req-initial-山东朱葛机器人完成pre-a轮融资加速驱动ai-look盲人助理机器人规模化落地-2026-10-17
+  project_slug: 山东朱葛机器人完成pre-a轮融资加速驱动ai-look盲人助理机器人规模化落地
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点未写出，无法还原旧替代方式与交付结果，价值关证据不足。
+    evidence_ids:
+    - ev-cf9685f8deff8eba
+  - gate: consensus
+    status: insufficient
+    reason: 材料只有融资信息，没有视障用户采用、试用或机构采购的证据，共识关证据不足。
+    evidence_ids:
+    - ev-cf9685f8deff8eba
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价、补贴渠道或买方是个人、机构还是政府，收入路径无法判断。
+    evidence_ids:
+    - ev-cf9685f8deff8eba
+  - gate: truth
+    status: insufficient
+    reason: 无法确认机器人在真实场景中的可靠性与人工边界，求真关证据不足。
+    evidence_ids:
+    - ev-cf9685f8deff8eba
+  next_validation: 收集山东朱葛机器人官方产品页或公开客户案例，确认 AI LOOK 的具体使用场景、交付形式与采购方。
+  market: ''
+  job: 候选材料未说明视障用户在什么情况下、处理什么材料、要完成什么任务，只提到盲人助理机器人这一品类。
+  job_en: The material does not state under what circumstances visually impaired users use it, what material
+    they handle, or what task they complete; it only names the assistant-robot category.
+  pain: 材料未描述视障用户的具体痛点，也未说明现有辅助方式哪里不够。
+  pain_en: No concrete pain point of visually impaired users is described, nor where existing assistance
+    falls short.
+  current_alternative: 材料未提及视障用户此前依赖导盲犬、盲杖或他人协助等哪种方式。
+  current_alternative_en: The material does not mention whether users previously relied on guide dogs,
+    canes or human assistance.
+  usage_reason: 仅有融资与规模化落地表述，属于资金信号，不能解释视障用户为何选择它；缺少具体任务、替代步骤与可核对结果，无法形成使用理由。
+  usage_reason_en: Only funding and scaling statements are given, which are capital signals and cannot
+    explain why visually impaired users choose it; without concrete tasks, replaced steps or verifiable
+    outcomes, no usage reason can be formed.
+- id: req-full-山东朱葛机器人完成pre-a轮融资加速驱动ai-look盲人助理机器人规模化落地-2026-10-17
+  project_slug: 山东朱葛机器人完成pre-a轮融资加速驱动ai-look盲人助理机器人规模化落地
+  level: full
+  reviewed_at: '2026-10-17T01:14:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点未写出，无法还原旧替代方式与交付结果，价值关证据不足。
+    evidence_ids:
+    - ev-cf9685f8deff8eba
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集山东朱葛机器人官方产品页或公开客户案例，确认 AI LOOK 的具体使用场景、交付形式与采购方。
+  market: ''
+  job: 材料未说明视障用户在什么情况下、处理什么材料、要完成什么任务，只提到盲人助理机器人这一品类。
+  job_en: The material does not state under what circumstances visually impaired users use it, what material
+    they handle, or what task they complete; it only names the assistant-robot category.
+  pain: 材料未描述视障用户的具体痛点，也未说明现有辅助方式哪里不够。
+  pain_en: No concrete pain point of visually impaired users is described, nor where existing assistance
+    falls short.
+  current_alternative: 材料未提及视障用户此前依赖导盲犬、盲杖或他人协助等哪种方式。
+  current_alternative_en: The material does not mention whether users previously relied on guide dogs,
+    canes or human assistance.
+  usage_reason: 仅有融资与规模化落地表述，属于资金信号，不能解释视障用户为何选择它；缺少具体任务、替代步骤与可核对结果，无法形成使用理由。
+  usage_reason_en: Only funding and scaling statements are given, which are capital signals and cannot
+    explain why visually impaired users choose it; without concrete tasks, replaced steps or verifiable
+    outcomes, no usage reason can be formed.

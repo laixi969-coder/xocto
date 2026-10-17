@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9YeFhwd01YSVhE
 summary: 美国银行：实际收益率攀升与AI波动构成威胁，建议维持避险立场 提供者 Investing.com 英为财情 Investing.com
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

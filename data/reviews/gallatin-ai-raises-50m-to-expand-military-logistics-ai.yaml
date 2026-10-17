@@ -1,0 +1,84 @@
+- id: req-initial-gallatin-ai-raises-50m-to-expand-military-logistics-ai-2026-10-17
+  project_slug: gallatin-ai-raises-50m-to-expand-military-logistics-ai
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决军事后勤调度需求，但公开材料未说明具体痛点、输入与交付，无法判断痛点刚性与交付确定性。
+    evidence_ids:
+    - ev-edff4e5236757781
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户、合同或使用方公开确认，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-edff4e5236757781
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方合同或收入结构，无法判断钱来自 to G 采购还是其他路径，属判断而非已验证事实。
+    evidence_ids:
+    - ev-edff4e5236757781
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其是否贴近后勤第一性目标、承诺能否确定性交付，以及安全与人工边界如何设定。
+    evidence_ids:
+    - ev-edff4e5236757781
+  next_validation: 收集 Gallatin AI 官方产品页或政府合同公告，确认其具体后勤环节、客户与交付方式。
+  market: ''
+  job: 军事后勤人员需要在部署、调拨或补给场景下，处理物资、运输与库存数据，完成调度与补给安排。
+  job_en: Military logistics personnel need to handle supplies, transport, and inventory data during deployment,
+    allocation, or resupply scenarios to complete scheduling and supply arrangements.
+  pain: 公开材料未说明具体痛点，只能推断军事后勤存在多源数据、时效压力与人工协调负担；缺少可引用的用户抱怨或案例。
+  pain_en: Public materials do not state the specific pain; one can only infer multi-source data, time
+    pressure, and manual coordination burdens in military logistics, with no citable user complaints or
+    cases.
+  current_alternative: 公开材料未披露现有替代方式，可能为人工排程、既有后勤信息系统或承包商服务，均属推断。
+  current_alternative_en: Public materials do not disclose current alternatives; manual scheduling, existing
+    logistics information systems, or contractor services are inferences only.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因为产品功能、输入与交付均未公开；缺少这一环，无法判断用户为何选择它。
+  usage_reason_en: It is impossible to say which step of burden is reduced or which verifiable result
+    improves versus the old approach, because product functions, inputs, and deliverables are not public;
+    without this link, why users would choose it cannot be judged.
+- id: req-full-gallatin-ai-raises-50m-to-expand-military-logistics-ai-2026-10-17
+  project_slug: gallatin-ai-raises-50m-to-expand-military-logistics-ai
+  level: full
+  reviewed_at: '2026-10-17T01:10:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决军事后勤调度需求，但公开材料未说明具体痛点、输入与交付，无法判断痛点刚性与交付确定性。
+    evidence_ids:
+    - ev-482ab774a879aeff
+    - ev-9e5ec060a49737c2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Gallatin AI 官方产品页或政府合同公告，确认其具体后勤环节、客户与交付方式。
+  market: ''
+  job: 军事后勤人员需要在部署、调拨或补给场景下，处理物资、运输与库存数据，完成调度与补给安排。
+  job_en: Military logistics personnel need to handle supplies, transport, and inventory data during deployment,
+    allocation, or resupply scenarios to complete scheduling and supply arrangements.
+  pain: 公开材料未说明具体痛点，只能推断军事后勤存在多源数据、时效压力与人工协调负担；缺少可引用的用户抱怨或案例。
+  pain_en: Public materials do not state the specific pain; one can only infer multi-source data, time
+    pressure, and manual coordination burdens in military logistics, with no citable user complaints or
+    cases.
+  current_alternative: 公开材料未披露现有替代方式，可能为人工排程、既有后勤信息系统或承包商服务，均属推断。
+  current_alternative_en: Public materials do not disclose current alternatives; manual scheduling, existing
+    logistics information systems, or contractor services are inferences only.
+  usage_reason: 无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果，因为产品功能、输入与交付均未公开；缺少这一环，无法判断用户为何选择它。
+  usage_reason_en: It is impossible to say which step of burden is reduced or which verifiable result
+    improves versus the old approach, because product functions, inputs, and deliverables are not public;
+    without this link, why users would choose it cannot be judged.

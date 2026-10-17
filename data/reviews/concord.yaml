@@ -24,3 +24,44 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-concord-2026-10-17
+  project_slug: concord
+  level: initial
+  reviewed_at: '2026-08-28T06:07:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多代理并行时上下文搬运与冲突的问题，痛点具体，但缺少旧流程耗时与不采用后果的公开事实。
+    evidence_ids:
+    - ev-1cb12f50c5614c08
+  - gate: consensus
+    status: insufficient
+    reason: 仅见 9 分、3 条评论的社区讨论，没有用户反馈或案例，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-1cb12f50c5614c08
+  - gate: model
+    status: insufficient
+    reason: 开源 MCP 服务，未见定价或付费路径；买方可能是自付工程师或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1cb12f50c5614c08
+  - gate: truth
+    status: insufficient
+    reason: 代理互传的承诺可核验，但消息格式、冲突处理与人工确认边界未见文档说明。
+    evidence_ids:
+    - ev-1cb12f50c5614c08
+  next_validation: 收集该仓库的 README 与 issue 讨论，确认代理间传递的消息格式、冲突处理方式与是否有团队实际使用记录。
+  market: ''
+  job: 同时开着 Claude Code、Codex 和 Cursor 的软件工程师，在多个代理并行改同一份代码时，需要把上下文和结论从一个代理传到另一个。
+  job_en: A software engineer running Claude Code, Codex and Cursor at the same time needs to carry context
+    and conclusions from one agent to another while they edit the same code in parallel.
+  pain: 代理之间互不知情，工程师要手工复制粘贴上下文，容易漏掉改动或产生冲突。
+  pain_en: The agents do not know about each other, so the engineer copies context by hand and can miss
+    changes or create conflicts.
+  current_alternative: 在多个终端或编辑器窗口之间手动复制粘贴提示与结果。
+  current_alternative_en: Manually copying prompts and results between several terminal or editor windows.
+  usage_reason: 推断：它把代理间传话变成一次 MCP 调用，省掉人工搬运上下文这一步，因此同时跑多个代理的工程师会试用；公开材料未提供采用或留存证据。
+  usage_reason_en: 'Inference: it turns agent-to-agent handoff into one MCP call, removing the manual
+    context-carrying step, so engineers running several agents may try it; public material provides no
+    adoption or retention evidence.'

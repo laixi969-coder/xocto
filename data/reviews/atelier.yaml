@@ -1,0 +1,84 @@
+- id: req-initial-atelier-2026-10-17
+  project_slug: atelier
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时产出分散、人工来回核对这一具体任务，旧做法是手工切换终端，结构上成立。
+    evidence_ids:
+    - ev-7f348eb5afece422
+  - gate: consensus
+    status: insufficient
+    reason: 候选未提供任何采用、评论或使用数据，无法判断开发者是否已形成使用习惯。
+    evidence_ids:
+    - ev-7f348eb5afece422
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，按席位或按项目收费只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-7f348eb5afece422
+  - gate: truth
+    status: insufficient
+    reason: 未说明代理权限、冲突处理与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-7f348eb5afece422
+  next_validation: 收集 Atelier 官方产品页或文档，核验其如何接管多代理产出、权限边界与收费方式。
+  market: ''
+  job: 使用 AI 编码代理的开发者在一个项目里同时运行多个代理时，处理代码产出与评审，把代理的工作收拢到统一工作台里推进。
+  job_en: Developers using AI coding agents run several agents on one project, handling code output and
+    review, and pull the agents' work into a single studio to move it forward.
+  pain: 多个代理并行改同一项目时，产出分散在不同会话与终端，人工需要来回切换核对，容易漏掉冲突；材料未提供用户抱怨，痛点为工作流推理。
+  pain_en: When several agents edit one project in parallel, output scatters across sessions and terminals,
+    forcing manual switching and review and risking missed conflicts; the material gives no user complaints,
+    so the pain is workflow inference.
+  current_alternative: 开发者通常在多个终端、编辑器窗口或代理自带界面之间手工切换来跟踪各代理改动。
+  current_alternative_en: Developers typically switch manually among terminals, editor windows or each
+    agent's own interface to track changes.
+  usage_reason: 推断：相较在多个终端间手工切换，它把各代理的产出集中到一个工作台，可能减少来回核对这一步，因此同时跑多个代理的开发者会试用；材料未给出用户反馈，动机属推断。
+  usage_reason_en: 'Inference: versus manually switching among terminals, it centralizes agents'' output
+    in one studio, potentially removing the back-and-forth checking step, so developers running several
+    agents may try it; no user feedback is given, so the motive is inferred.'
+- id: req-full-atelier-2026-10-17
+  project_slug: atelier
+  level: full
+  reviewed_at: '2026-10-17T01:09:04Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选仅有一句定位语，证据全部是词典、维基与无关沙龙帖，既无产品说明也无用户任务与痛点描述，无法还原需求与旧替代。
+    evidence_ids:
+    - ev-f2837086714acb2c
+    - ev-a6d4332f2b205580
+    - ev-d3d03f2b244a3194
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Atelier 官方产品页或文档，核验其如何接管多代理产出、权限边界与收费方式。
+  market: ''
+  job: 使用 AI 编码代理的开发者在一个项目里同时运行多个代理时，处理各代理产出的代码与改动，把它们收拢到统一工作台里查看、评审并推进。
+  job_en: Developers running several AI coding agents on one project handle the code and diffs each agent
+    produces, pulling that work into a single studio to review and advance it.
+  pain: 公开材料只给出“你的 AI 编码代理工作的 studio”这一句定位，没有任何用户抱怨、旧流程描述或采用行为，无法确认多代理产出分散是否构成真实痛点。
+  pain_en: The public material offers only the one-line positioning 'the studio your AI coding agents
+    work in', with no user complaints, old-workflow description or adoption behavior, so it cannot be
+    confirmed that scattered multi-agent output is a real pain.
+  current_alternative: 公开材料未描述开发者现在用什么方式跟踪多个代理的改动，无法确认旧替代方式。
+  current_alternative_en: The public material does not describe how developers currently track multiple
+    agents' changes, so the existing alternative cannot be confirmed.
+  usage_reason: 缺少产品页面、文档或用户反馈，无法说明它相较旧做法减少哪一步负担，因此无法给出用户选择它的因果解释。
+  usage_reason_en: With no product page, documentation or user feedback, it is impossible to say which
+    step of the old workflow it removes, so no causal reason for choosing it can be given.

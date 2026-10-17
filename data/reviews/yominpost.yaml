@@ -91,3 +91,50 @@
     a pre-publish risk gate and OAuth publishing into one pipeline, cutting the copy-and-recheck step;
     inferred that operators posting across platforms who worry about compliance would pick it for daily
     posting.
+- id: req-full-yominpost-2026-10-17
+  project_slug: yominpost
+  level: full
+  reviewed_at: '2026-10-17T01:14:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多平台分发时逐平台改写与发布前合规检查的需求，痛点具体且不采用会有删帖封号代价；这是从任务结构推出的判断，买方是谁公开材料未说明。
+    evidence_ids:
+    - ev-3b5ed80dd05ebcc1
+    - ev-257fec558533228e
+    - ev-0885c61ed237f329
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库星数从 52 增至 80，属关注度信号，未见用户评价或客户案例说明谁在持续使用，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-3b5ed80dd05ebcc1
+    - ev-40eca65c1a5ba754
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费路径，钱可能来自自托管个人用户或团队订阅，这是判断不是已验证事实，也未出现融资叙事。
+    evidence_ids:
+    - ev-0885c61ed237f329
+  - gate: truth
+    status: insufficient
+    reason: 发布前风险闸门与人工确认边界未说明，交付能否确定性发生、安全与人工边界如何划分缺少公开材料支持。
+    evidence_ids:
+    - ev-3b5ed80dd05ebcc1
+  next_validation: 追踪该项目官网或仓库的定价页与部署文档，确认是否按发布条数或账号收费，以及风险闸门的人工确认边界。
+  market: ''
+  job: 社交媒体运营者每天要把同一份素材（文案、图片）分发到多个平台时，需要按各平台格式改写、做发布前合规检查，并完成真实发布动作。
+  job_en: A social media operator distributing the same material (copy, images) to multiple platforms
+    daily must rewrite per platform format, run a pre-publish compliance check, and actually publish.
+  pain: 逐平台手工改写与检查耗时且易漏掉某平台规则，发布前风险靠人记忆，出错代价是删帖或封号；这是从多平台分发任务结构推出的痛点，公开材料未提供用户抱怨原文。
+  pain_en: Manual per-platform rewriting and checking is slow and easily misses a platform's rules; pre-publish
+    risk relies on memory and mistakes cost deletions or bans; this is inferred from the multi-platform
+    distribution task structure, not from quoted user complaints.
+  current_alternative: 人工逐平台改写，或用通用写作助手生成后手动复制到各平台发布，风险检查靠经验。
+  current_alternative_en: Rewriting per platform by hand, or generating with a general writing assistant
+    and manually copying to each platform, checking risk by experience.
+  usage_reason: 相较人工逐平台改写再手动发布，它把格式路由、自我批评、发布前风险闸门与 OAuth 发布串成一条流水线，减少逐平台复制与重复检查这一步；推断经常多平台发帖又担心合规的运营者会在日常发帖时选择它。
+  usage_reason_en: Versus manual per-platform rewriting and posting, it chains format routing, self-critique,
+    a pre-publish risk gate and OAuth publishing into one pipeline, cutting the copy-and-recheck step;
+    inferred that operators posting across platforms who worry about compliance would pick it for daily
+    posting.

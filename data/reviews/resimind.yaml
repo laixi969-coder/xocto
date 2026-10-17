@@ -87,3 +87,51 @@
   usage_reason_en: 'Inference: versus a general model plus manual step checking, it writes verified rules
     into memory for reuse, cutting the burden of re-checking the same derivation, so math or engineering
     teams needing auditable derivations are more likely to choose it.'
+- id: req-full-resimind-2026-10-17
+  project_slug: resimind
+  level: full
+  reviewed_at: '2026-10-17T01:13:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学与代数推导不可逐步校验、已验证规则无法复用的问题，痛点在于错误步骤被继续沿用且重复核对成本高；仓库说明已给出校验记忆、MCP 数学工具与代数修复技能，可还原输入—校验—留存—复用闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-438681460da8eda5
+    - ev-8d1aa13190609747
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 113 增至 132 再到 158，只是关注度信号，公开材料没有可归因到该项目的持续采用、团队使用或外部提交结果，无法判断共识是否形成。
+    evidence_ids:
+    - ev-438681460da8eda5
+    - ev-8d1aa13190609747
+    - ev-2916a7b3ba7978b2
+  - gate: model
+    status: insufficient
+    reason: 开源仓库，公开材料未说明托管服务、企业支持或按解题计费的路径，谁付钱属判断而非已验证事实；中文生态检索也未发现采购或付费记录。
+    evidence_ids:
+    - ev-438681460da8eda5
+    - ev-e3023e9e788dc9b1
+  - gate: truth
+    status: insufficient
+    reason: 公开说明未交代校验由谁执行、错误规则如何回滚、人工确认在流程中的位置，也未说明代数修复技能在何种边界下会拒绝交付，确定性交付尚不可核对。
+    evidence_ids:
+    - ev-438681460da8eda5
+    - ev-2916a7b3ba7978b2
+  next_validation: 追踪 resimind 仓库 README 与 open challenge 页面，确认校验机制、规则复用方式以及是否有外部使用者提交可复现的解题结果。
+  market: ''
+  job: 研究或工程人员在求解数学与代数问题时，需要让 agent 给出可逐步校验的推导，并把校验通过的规则留存下来供后续同类问题复用。
+  job_en: Researchers or engineers solving math and algebra problems need an agent to produce step-checkable
+    derivations and to keep verified rules for reuse on later problems.
+  pain: 通用大模型给出的推导无法逐步核对，错误步骤容易被当成结论继续沿用；同类问题重复求解时又要从零重建规则，人工核对成本反复发生。
+  pain_en: General LLM derivations cannot be checked step by step, wrong steps get carried forward as
+    conclusions, and repeated problems force rules to be rebuilt from scratch, so manual checking cost
+    recurs.
+  current_alternative: 用通用大模型求解后人工逐步核对，或依赖符号计算软件手工搭建与维护规则。
+  current_alternative_en: Solving with general LLMs and checking each step by hand, or manually building
+    and maintaining rules inside symbolic computation software.
+  usage_reason: 推断：相较通用模型加人工逐步核对，它把校验通过的规则写入可复用记忆，下一次同类推导不必重新核对同一步，因此对推导可审计性有要求的数学或工程使用者会在重复求解场景选择它。
+  usage_reason_en: 'Inference: versus a general model plus manual step checking, it writes verified rules
+    into reusable memory so the same step need not be re-checked next time, so math or engineering users
+    who need auditable derivations would pick it in repeated-solving situations.'

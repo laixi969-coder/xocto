@@ -22,7 +22,7 @@ summary: Replit CEO Amjad Masad envisions a future of “self-driving companies,
   day-to-day tasks and people focus on higher-level decisions.
 first_seen: '2026-10-17T00:31:00Z'
 last_seen: '2026-10-17T00:31:00Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

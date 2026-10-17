@@ -22,7 +22,7 @@ summary: 'Stocktwits AI Roundup: AI Chip Selloff Deepens, CoreWeave Debt Concern
   Launch TradingView'
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

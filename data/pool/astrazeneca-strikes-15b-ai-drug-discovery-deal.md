@@ -1,6 +1,6 @@
 ---
 slug: astrazeneca-strikes-15b-ai-drug-discovery-deal
-name: AstraZeneca Strikes $1.5B AI Drug Discovery Deal
+name: AstraZeneca
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQZVJTU2VpQ056
 summary: AstraZeneca Strikes $1.5B AI Drug Discovery Deal Innovation Village
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AstraZeneca Strikes $1.5B AI Drug Discovery Deal
+# AstraZeneca
 
 AstraZeneca Strikes $1.5B AI Drug Discovery Deal Innovation Village
 

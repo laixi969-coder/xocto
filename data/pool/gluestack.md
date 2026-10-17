@@ -21,7 +21,7 @@ canonical_url: https://gluestack.io
 summary: Open-Source UI Components for React and React Native
 first_seen: '2026-08-27T11:34:41Z'
 last_seen: '2026-08-28T06:07:17Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,7 @@ sightings:
   metrics:
     points: 7
     comments: 2
+  kind: product
 ---
 
 # Gluestack

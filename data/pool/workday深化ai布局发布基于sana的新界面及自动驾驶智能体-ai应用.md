@@ -1,11 +1,14 @@
 ---
 slug: workday深化ai布局发布基于sana的新界面及自动驾驶智能体-ai应用
-name: Workday深化AI布局：发布基于Sana的新界面及自动驾驶智能体-AI应用
+name: Workday
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年10月，Workday 宣布推出基于 Sana 技术的全新交互界面及自动驾驶智能体。该举措标志着头部企业管理软件开始将自治型代理和新型知识界面深度内置于核心 HR 与财务系统，推断单点外挂式
+  AI 效率工具在大型企业客户中的生存空间将面临原生功能的直接挤压。
 inspiration: ''
-summary_en: ''
+summary_en: In October 2026, Workday introduced a new user interface powered by Sana alongside autonomous
+  agents. This move directly embeds agentic workflows and unified search into core enterprise HR and finance
+  platforms, likely increasing competitive pressure on standalone workplace AI tools.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTFBTWHYtMGJkSXVM
 summary: Workday深化AI布局：发布基于Sana的新界面及自动驾驶智能体-AI应用 至顶网
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Workday深化AI布局：发布基于Sana的新界面及自动驾驶智能体-AI应用
+# Workday
 
 Workday深化AI布局：发布基于Sana的新界面及自动驾驶智能体-AI应用 至顶网
 

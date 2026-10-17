@@ -1,0 +1,91 @@
+- id: req-initial-enterprise-ai-startup-rapidcanvas-nets-29-mn-to-expand-gtm-t-2026-10-17
+  project_slug: enterprise-ai-startup-rapidcanvas-nets-29-mn-to-expand-gtm-t
+  level: initial
+  reviewed_at: '2026-10-17T00:31:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未在材料中说明，无法还原旧流程与交付结果。
+    evidence_ids:
+    - ev-3f99f21b898c8d49
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资标题，无客户采用、评价或场景共识证据。
+    evidence_ids:
+    - ev-3f99f21b898c8d49
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断付费路径。
+    evidence_ids:
+    - ev-3f99f21b898c8d49
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付确定性与人工边界，材料仅支持融资事实。
+    evidence_ids:
+    - ev-3f99f21b898c8d49
+  next_validation: 检索 RapidCanvas 官方产品页与定价页，确认其具体交付物、目标买方与收费方式。
+  market: ''
+  job: 企业数据团队在缺少数据科学家时，把业务数据交给平台自动生成预测模型并部署到业务流程中。
+  job_en: Enterprise data teams without data scientists hand business data to the platform to auto-generate
+    predictive models and deploy them into business processes.
+  pain: 候选材料仅给出融资事实，未说明具体痛点、旧流程或用户抱怨，无法确认需求刚性。
+  pain_en: The candidate only states the funding fact, with no described pain point, legacy workflow or
+    user complaint, so demand rigidity cannot be confirmed.
+  current_alternative: 候选未提供现有替代方式的信息。
+  current_alternative_en: The candidate provides no information on current alternatives.
+  usage_reason: 材料未披露产品如何减少某一步负担或改善可核对结果，无法给出使用理由；这是事实缺口，不是判断。
+  usage_reason_en: The material does not disclose how the product reduces a specific step's burden or
+    improves a verifiable result, so no usage reason can be given; this is a factual gap, not a judgment.
+- id: req-full-enterprise-ai-startup-rapidcanvas-nets-29-mn-to-expand-gtm-t-2026-10-17
+  project_slug: enterprise-ai-startup-rapidcanvas-nets-29-mn-to-expand-gtm-t
+  level: full
+  reviewed_at: '2026-10-17T01:10:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业缺少数据科学家时无法把业务数据变成可部署预测模型的需求，痛点是自建生产级 AI 需数月且依赖 PhD 人才，旧做法是自建团队或定制咨询；官方称平台加专家可在数周内到生产，属工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-ccd438b85776ddbe
+    - ev-cf4617e40918bee2
+  - gate: consensus
+    status: insufficient
+    reason: 官方页面说明平台能力与人工监督定位，但公开材料没有客户案例、用户评价或可归因到该产品的采用与持续使用证据，无法判断场景共识是否形成。
+    evidence_ids:
+    - ev-ccd438b85776ddbe
+    - ev-cf4617e40918bee2
+  - gate: model
+    status: insufficient
+    reason: 公开材料只显示登录入口与平台定位，未披露定价、买方类型或收费方式；按企业 AI 平台常见路径推断钱可能来自 to B 企业采购，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ae96a0d659ddf8c6
+    - ev-7ca20d0659aee18a
+  - gate: truth
+    status: insufficient
+    reason: 官方称软件配垂直专家与 PhD 数据科学家、数周内到生产，但公开材料未给出交付验收标准、人工复核边界或安全合规细节，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-ccd438b85776ddbe
+    - ev-cf4617e40918bee2
+  next_validation: 追踪 RapidCanvas 官网客户案例页与定价页，确认其公开的交付物、买方类型、收费方式及人工复核边界。
+  market: ''
+  job: 企业数据团队在缺少数据科学家的情况下，把业务数据交给 RapidCanvas，由平台完成特征处理与模型训练，并把预测或智能体部署进业务流程，最终拿到可用的预测结果。
+  job_en: Enterprise data teams lacking data scientists hand business data to RapidCanvas, which handles
+    feature processing and model training and deploys predictions or agents into business processes to
+    obtain usable predictive results.
+  pain: 公开材料显示企业自建生产级 AI 需要数月且依赖 PhD 数据科学家，而多数业务团队没有这类人手，模型长期停在实验阶段无法进入业务流程。
+  pain_en: Public materials state that reaching production AI takes months and depends on PhD data scientists;
+    most business teams lack that staffing, so models stall in experimentation and never enter business
+    processes.
+  current_alternative: 旧做法是企业自建数据科学团队、用通用建模工具从特征工程做起，或采购传统 BI 与定制咨询项目；公开材料未给出这些替代方式的具体成本对比。
+  current_alternative_en: The legacy path is building an in-house data science team, using general modeling
+    tools from feature engineering onward, or buying traditional BI and bespoke consulting projects; public
+    materials give no cost comparison for these alternatives.
+  usage_reason: 推断：相较自建团队从特征处理起步，RapidCanvas 把特征处理、模型训练与部署收进同一平台，并配垂直专家和 PhD 数据科学家做人工监督，减少企业自己搭建建模与上线链路这一步，因此缺少数据科学家的企业数据团队会在需要把预测结果接入业务流程时选择它。
+  usage_reason_en: 'Inference: compared with an in-house team starting from feature processing, RapidCanvas
+    folds feature processing, model training and deployment into one platform with vertical experts and
+    PhD data scientists providing human oversight, removing the step of building the modeling and launch
+    pipeline in-house; enterprise data teams without data scientists would therefore choose it when predictions
+    must be wired into business processes.'

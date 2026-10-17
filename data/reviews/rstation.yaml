@@ -1,0 +1,85 @@
+- id: req-initial-rstation-2026-10-17
+  project_slug: rstation
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多代理调研产出分散的问题，但材料未说明具体工作节点、旧流程与不解决的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-970ddf11ec6268ff
+  - gate: consensus
+    status: insufficient
+    reason: 社区有一定关注，但没有团队采用、持续使用或替换现有研究流程的公开证据，共识卡在场景未被描述清楚。
+    evidence_ids:
+    - ev-970ddf11ec6268ff
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、席位或按项目收费的任何公开信息，买方与付费路径均属未知。
+    evidence_ids:
+    - ev-970ddf11ec6268ff
+  - gate: truth
+    status: insufficient
+    reason: 无法判断多代理产出如何被核对、错误如何被发现、人工确认环节在哪里，交付确定性无法核对。
+    evidence_ids:
+    - ev-970ddf11ec6268ff
+  next_validation: 收集该产品官网的定价页与文档，确认共享研究空间的具体输入输出、代理产出如何汇总与复核，以及是否有团队公开的采用案例。
+  market: ''
+  job: 研究团队与知识工作者在同时运行多个 AI 代理做调研时，面对分散在各处的检索结果与笔记，要把它们汇总成可共享的研究结论。
+  job_en: Research teams and knowledge workers running several AI agents at once, working with scattered
+    search results and notes, must consolidate them into shareable research conclusions.
+  pain: 材料只给出“共享研究实验室”这一句描述，没有说明多代理产出汇总时具体卡在哪一步、不解决会失去什么，痛点无法从现有事实还原。
+  pain_en: The material only offers the phrase shared research lab; it does not say where consolidating
+    multi-agent output actually breaks down or what is lost if unsolved, so the pain cannot be reconstructed
+    from available facts.
+  current_alternative: 常见替代是共享文档、笔记工具或各自保存代理输出后人工合并；这是行业通行做法的推断，候选材料未提供替代行为证据。
+  current_alternative_en: Common alternatives are shared documents, note tools, or saving agent output
+    separately and merging by hand; this is an inference about common practice, and the candidate provides
+    no evidence of substitute behavior.
+  usage_reason: 若它把多个代理的检索与笔记收敛到同一处并保留可复核的痕迹，团队可省去跨工具手工合并这一步，因此以报告交付的研究团队可能选择它；这属于基于产品定位的推断，缺少用户反馈或案例支持。
+  usage_reason_en: If it converges multiple agents' searches and notes into one place with reviewable
+    traces, teams skip manual cross-tool merging, which may lead report-delivering research teams to choose
+    it; this is an inference from positioning, lacking user feedback or case evidence.
+- id: req-full-rstation-2026-10-17
+  project_slug: rstation
+  level: full
+  reviewed_at: '2026-10-17T01:13:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多代理调研产出分散的问题，但材料未说明具体工作节点、旧流程与不解决的后果，价值结构无法确认。
+    evidence_ids:
+    - ev-970ddf11ec6268ff
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集该产品官网的定价页与文档，确认共享研究空间的具体输入输出、代理产出如何汇总与复核，以及是否有团队公开的采用案例。
+  market: ''
+  job: 研究团队与知识工作者在同时运行多个 AI 代理做调研时，处理分散在各处的检索结果与笔记，要把它们汇总成可共享的研究结论。
+  job_en: Research teams and knowledge workers running several AI agents at once, working with scattered
+    search results and notes, must consolidate them into shareable research conclusions.
+  pain: 候选材料只有“共享研究实验室”一句，未说明多代理产出汇总时具体卡在哪一步、不解决会失去什么，痛点无法从公开事实还原。
+  pain_en: The candidate material offers only the phrase 'shared research lab'; it does not say where
+    consolidating multi-agent output actually breaks down or what is lost if unsolved, so the pain cannot
+    be reconstructed from public facts.
+  current_alternative: 常见替代是共享文档、笔记工具或各自保存代理输出后人工合并；这是行业通行做法的推断，候选材料未提供替代行为证据。
+  current_alternative_en: Common alternatives are shared documents, note tools, or saving agent output
+    separately and merging by hand; this is an inference about common practice, and the candidate provides
+    no evidence of substitute behavior.
+  usage_reason: 若它把多个代理的检索与笔记收敛到同一处并保留可复核的痕迹，团队可省去跨工具手工合并这一步，因此以报告交付的研究团队可能选择它；这属于基于产品定位的推断，缺少用户反馈或案例支持。
+  usage_reason_en: If it converges multiple agents' searches and notes into one place with reviewable
+    traces, teams skip manual cross-tool merging, which may lead report-delivering research teams to choose
+    it; this is an inference from positioning, lacking user feedback or case evidence.

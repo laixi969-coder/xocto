@@ -74,3 +74,49 @@
   usage_reason: 用户增长近9倍表明市场关注度高，可能因AI能显著提升办公效率。
   usage_reason_en: Nearly 9x user growth indicates high market interest, possibly because AI can significantly
     improve office efficiency.
+- id: req-initial-观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍能赢得市场吗-2-2026-10-17
+  project_slug: 观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍能赢得市场吗-2
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公与家庭场景中信息、待办和设备分散、用户需手动切换执行的需求，痛点具体且不采用会持续产生重复劳动，属工作流推理。
+    evidence_ids:
+    - ev-c2265e464519077b
+    - ev-3f314714e33adc76
+    - ev-8a7423070603cd2d
+  - gate: consensus
+    status: insufficient
+    reason: 报道称用户增长近9倍，但未给出统计口径、时间区间与留存，无法判断是持续采用还是一次曝光带来的短期增长。
+    evidence_ids:
+    - ev-482e4e4e09e6b7df
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费方或采购方式，买方可能来自C端硬件购买或B端办公采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c2265e464519077b
+  - gate: truth
+    status: insufficient
+    reason: 接入小度硬件后设备控制类动作的确定性交付、误操作边界与人工确认机制在公开材料中未见说明。
+    evidence_ids:
+    - ev-3f314714e33adc76
+  next_validation: 收集百度搭子官方产品页或小度硬件页面，核验其任务范围、设备控制权限与是否公布定价或订阅方式。
+  market: ''
+  job: 办公人员或家庭成员在需要查资料、安排日程、控制家中设备时，用自然语言向百度搭子提出请求，由它处理文档、日程与设备指令，完成一次问答、一项操作或一条待办。
+  job_en: An office worker or household member asks Baidu Dazi in natural language to look up information,
+    schedule items or control home devices, and it handles documents, calendars and device commands to
+    complete an answer, an action or a to-do.
+  pain: 信息与设备分散在多个应用和硬件里，用户要自己切换、复述需求并手动执行后续动作，重复劳动多且容易漏掉。
+  pain_en: Information and devices are scattered across apps and hardware, so users switch contexts, restate
+    requests and execute follow-up actions manually, creating repetitive work and missed items.
+  current_alternative: 用户现在用系统自带语音助手、单独打开搜索或办公软件、手动操作智能音箱与家电，或分别使用各家聊天助手。
+  current_alternative_en: Users currently rely on built-in voice assistants, open search or office apps
+    separately, operate smart speakers and appliances by hand, or use separate chat assistants.
+  usage_reason: 相较逐个打开应用和手动操作设备，它把指令理解与设备执行放在同一入口，减少用户复述需求和在多个界面间搬运信息的那一步；推断在办公与家庭双场景下，需要频繁跨应用处理待办的人会优先选择它。
+  usage_reason_en: Compared with opening each app and operating devices manually, it puts instruction
+    understanding and device execution in one entry point, removing the step of restating requests and
+    moving information across interfaces; by inference, people who frequently handle to-dos across apps
+    in office and home settings would choose it first.

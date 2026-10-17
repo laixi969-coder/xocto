@@ -1,0 +1,87 @@
+- id: req-initial-palomino-2026-10-17
+  project_slug: palomino
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决并行编码代理的运行与查看需求，痛点结构成立，但公开材料只有一句定位，无法确认它替代了哪一步旧操作，价值判断只能停在结构推理。
+    evidence_ids:
+    - ev-2b58680d16155e16
+  - gate: consensus
+    status: insufficient
+    reason: 除产品页定位外没有采用、评价或社区讨论证据，无法判断开发者是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-2b58680d16155e16
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方说明，钱来自个人开发者还是团队无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2b58680d16155e16
+  - gate: truth
+    status: insufficient
+    reason: 无法核对并行隔离是否可靠、结果是否可复现，也看不到人工确认边界，承诺能否确定性交付未核验。
+    evidence_ids:
+    - ev-2b58680d16155e16
+  next_validation: 收集 Palomino 官方产品页或文档，确认它如何启动、隔离并汇总并行编码代理的输出，以及是否公布定价。
+  market: ''
+  job: 开发者在需要同时推进多个编码任务时，打开一个工作区让多个编码代理并行运行，并查看它们各自的产出。
+  job_en: A developer who needs to push several coding tasks forward at once opens a workspace to run
+    multiple coding agents in parallel and review their individual outputs.
+  pain: 多个代理并行时，进程互相干扰、输出散落各处，人工要在多个终端之间来回切换并手工汇总，缺少统一的运行与查看位置。
+  pain_en: When agents run in parallel, processes interfere with each other and outputs scatter, forcing
+    manual switching between terminals and hand-consolidation, with no single place to run and inspect
+    them.
+  current_alternative: 现在多用多个终端窗口、tmux 会话或本地脚本手工启动和切换代理，再靠人工复制粘贴汇总结果。
+  current_alternative_en: Today people mostly use multiple terminal windows, tmux sessions or local scripts
+    to launch and switch agents by hand, then copy and paste results together manually.
+  usage_reason: 推断：若它确实把并行代理的启动、隔离与输出集中到一个界面，就省掉了在多个终端间切换和手工汇总这一步，同时跑多个编码任务的开发者会因此选择它；但公开材料只有一句定位，具体动作与交付未核验。
+  usage_reason_en: 'Inference: if it truly centralizes launching, isolating and viewing parallel agents
+    in one interface, it removes the step of switching between terminals and consolidating by hand, which
+    is why developers running several coding tasks would pick it; but public material is a single positioning
+    line and the concrete actions and delivery are unverified.'
+- id: req-full-palomino-2026-10-17
+  project_slug: palomino
+  level: full
+  reviewed_at: '2026-10-17T01:12:48Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决并行编码代理的运行与查看需求，但公开证据全部是马匹毛色与房车品牌等无关内容，无法确认痛点、旧替代与交付，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-d68e31c814f406ff
+    - ev-41d267157bf6d05b
+    - ev-404d4b31baca706a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Palomino 官方产品页或仓库 README，确认它如何启动、隔离并汇总并行编码代理的输出，以及是否公布定价。
+  market: ''
+  job: 开发者需要在同一台机器上并行推进多个编码任务时，打开一个工作区让多个编码代理同时运行，并查看、汇总它们各自的产出。
+  job_en: A developer pushing several coding tasks at once opens a workspace to run multiple coding agents
+    in parallel and review and consolidate their individual outputs.
+  pain: 公开材料只有一句定位，无法确认并行代理时进程干扰、输出散落、需在多个终端间切换并手工汇总等痛点是否真实存在，也看不到用户抱怨或绕过行为。
+  pain_en: Public material is a single positioning line; it cannot confirm whether process interference,
+    scattered outputs, terminal switching and manual consolidation are real pains, and no user complaints
+    or workarounds are visible.
+  current_alternative: 公开材料未说明旧做法；按工作流结构推断，可能用多个终端窗口、tmux 会话或本地脚本手工启动和切换代理再人工汇总，但无证据支持。
+  current_alternative_en: Public material does not describe the old way; by workflow inference it might
+    be multiple terminal windows, tmux sessions or local scripts launched and switched by hand then consolidated
+    manually, but no evidence supports this.
+  usage_reason: 无法给出使用理由：现有证据全部指向马匹毛色、房车品牌等无关内容，没有可归因到该编码代理工作区的产品说明、用户反馈或采用行为，缺少判断用户为何选择它的任何一环。
+  usage_reason_en: 'No usage reason can be given: all available evidence points to unrelated horse coat
+    colors and RV brands, with no product description, user feedback or adoption behavior attributable
+    to this coding-agent workspace, so the chain explaining why users would choose it is missing.'

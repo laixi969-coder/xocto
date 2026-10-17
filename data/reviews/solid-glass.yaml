@@ -94,3 +94,51 @@
     designers avoid adapting a general component library item by item, which is why indie developers and
     small teams building AI interfaces quickly would adopt it; but the repo shows only star growth, with
     no adoption or payment evidence.'
+- id: req-full-solid-glass-2026-10-17
+  project_slug: solid-glass
+  level: full
+  reviewed_at: '2026-10-17T01:13:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 应用界面缺少统一规范、团队重复定样式与交互的问题，旧做法与交付物可还原，属工作流结构推理；星数从 230 增至 1373 仅为关注度，非采用证据。
+    evidence_ids:
+    - ev-ae3fa49b11272dfb
+    - ev-7725701e4ecae8b6
+    - ev-9a00cfe7142b0d1a
+  - gate: consensus
+    status: insufficient
+    reason: 星数从 230 快速增至 1373 说明关注度上升，但没有采用、评价或复购证据，不能证明已进入长期工作流。
+    evidence_ids:
+    - ev-ae3fa49b11272dfb
+    - ev-9a00cfe7142b0d1a
+  - gate: model
+    status: insufficient
+    reason: 开源设计系统未披露任何收费方式，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9a00cfe7142b0d1a
+  - gate: truth
+    status: insufficient
+    reason: 样式与规范类交付确定性较高，但材料未说明组件覆盖范围与可访问性等边界，实际落地效果仍待核验。
+    evidence_ids:
+    - ev-9a00cfe7142b0d1a
+  next_validation: 收集该仓库的 issue、discussion 或官方文档中关于组件覆盖范围与实际项目采用的公开记录。
+  market: ''
+  job: 前端或产品设计师在搭建 AI 应用界面、需要统一视觉与交互规范时，处理组件样式、材质与交互规则，要产出一套可直接复用的界面规范。
+  job_en: A front-end or product designer building an AI application interface and needing consistent
+    visual and interaction rules works through component styles, materials and interaction patterns to
+    produce a directly reusable interface spec.
+  pain: AI 应用界面缺少成熟范式，团队每次从零定样式与交互，重复劳动且体验不一致；不采用就要持续承担自建规范的时间成本。
+  pain_en: AI application interfaces lack established patterns, so teams define styles and interactions
+    from scratch each time, duplicating work and producing inconsistent experiences; not adopting it means
+    carrying the ongoing cost of building a spec in-house.
+  current_alternative: 现有做法是套用通用设计系统或组件库（如通用 UI 库），再自行改造出 AI 场景需要的材质与交互样式。
+  current_alternative_en: Today teams adopt a general-purpose design system or component library and then
+    adapt it themselves for AI-scenario materials and interactions.
+  usage_reason: 推断：相较自行改造通用组件库，它把 AI 场景的材质与触感规则预先定好，设计师省去逐项定义样式与交互这一步，因此正在快速搭 AI 界面的独立开发者和小团队会直接引入；但仓库仅有星数增长，缺少采用与付费证据。
+  usage_reason_en: 'Inference: compared with adapting a general component library, it predefines the material
+    and tactile rules for AI scenarios, sparing designers the step of defining styles and interactions
+    item by item, which is why indie developers and small teams building AI interfaces quickly would adopt
+    it; but the repo shows only star growth, with no adoption or payment evidence.'

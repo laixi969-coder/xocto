@@ -1,0 +1,98 @@
+- id: req-initial-solidcraft-2-2026-10-17
+  project_slug: solidcraft-2
+  level: initial
+  reviewed_at: '2026-10-17T00:30:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决参数化零件建模与批量改参数这一具体任务，痛点来自商业套件授权与自动化受限，旧做法是人工重复建模，结构上成立。
+    evidence_ids:
+    - ev-fe2b6593e5136c7a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有星标与分支等关注度信号，但没有用户评价或客户案例，无法判断工程团队是否已把它放进实际建模流程。
+    evidence_ids:
+    - ev-fe2b6593e5136c7a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明商业版本、支持服务或企业部署的收费路径，钱从哪来属判断而非已验证事实。
+    evidence_ids:
+    - ev-fe2b6593e5136c7a
+  - gate: truth
+    status: insufficient
+    reason: 未说明内核精度、与既有 CAD 文件格式的兼容性以及人工复核边界，工业场景下承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-fe2b6593e5136c7a
+  next_validation: 收集 SolidCraft 仓库的 issue 与讨论，确认内核精度、文件格式兼容性以及是否有工程团队报告实际建模使用。
+  market: ''
+  job: 机械或工业设计工程师在需要建立或修改参数化零件模型时，在桌面或网页端编辑参数化三维模型，并通过 MCP 把建模动作接入自动化流程，最终拿到可继续修改的模型文件。
+  job_en: A mechanical or industrial design engineer, when a parametric part model must be built or modified,
+    edits parametric 3D models on desktop or web, wires modeling actions into automated flows through
+    MCP, and ends up with a model file that can keep being edited.
+  pain: 参数化建模长期依赖少数商业套件，授权成本与自动化调用受限；需要批量改参数或批量出图的团队只能靠人工重复操作，这是从开源替代与自动化接口这一事实推出的结构性痛点。
+  pain_en: Parametric modeling has long depended on a few commercial suites with licensing cost and limited
+    automated calls; teams needing batch re-parameterization or batch output must repeat work by hand,
+    a structural pain inferred from the open-source alternative and automation interface.
+  current_alternative: 公开材料未直接说明替代方式，按常识是商业参数化 CAD 套件加人工重复建模，这一点属推断，未经材料支持。
+  current_alternative_en: The material does not state the alternative directly; by common practice it
+    is commercial parametric CAD suites plus manual repeated modeling, which is inference, not supported
+    by the material.
+  usage_reason: 推断：相较商业套件按席位授权、自动化受接口限制的旧做法，它把参数化建模开放为可自建部署并通过 MCP 调用的能力，需要批量生成或批量改参数零件的团队因此可以少做一轮人工重复建模；但公开材料未说明
+    AI 具体介入哪一步，也未提供客户案例或留存证据。
+  usage_reason_en: 'Inference: against commercial suites licensed per seat with limited automation interfaces,
+    it exposes parametric modeling as self-deployable capability callable through MCP, so teams needing
+    batch part generation or re-parameterization can skip a round of manual repeated modeling; however
+    the material does not say which step AI performs, and gives no customer cases or retention evidence.'
+- id: req-full-solidcraft-2-2026-10-17
+  project_slug: solidcraft-2
+  level: full
+  reviewed_at: '2026-10-17T01:13:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决参数化零件建模与批量改参数这一具体任务，痛点来自商业套件授权成本与自动化接口受限，旧做法是人工重复建模；开源替代加 MCP 自动化接口使交付闭环可还原，属工作流结构推理，公开材料未给用户抱怨原文。
+    evidence_ids:
+    - ev-b851d7b109a62583
+    - ev-c6ab9e4694eb551b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库一周内约 2000 星、186 分支，属关注度信号；公开材料没有用户评价或客户案例，无法判断工程团队是否已把它放进实际建模流程，也未说明强场景落在哪一环。
+    evidence_ids:
+    - ev-c7db753d383f7992
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明商业版本、支持服务或企业部署的收费路径；钱可能来自 to B 支持与托管，也可能纯靠社区，这是判断而非已验证事实，需防只靠关注度续命。
+    evidence_ids:
+    - ev-9e62a07eaaf79192
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明几何内核精度、与既有 CAD 文件格式的兼容性以及人工复核边界，工业场景下承诺能否确定性交付无法核对，安全与人工边界亦未披露。
+    evidence_ids:
+    - ev-c6ab9e4694eb551b
+  next_validation: 追踪 SolidCraft 仓库的 issue 与 discussion，确认几何内核精度、与既有 CAD 文件格式的兼容性，以及是否有工程团队报告实际建模使用。
+  market: ''
+  job: 机械或工业设计工程师在需要建立或修改参数化零件模型时，在桌面或网页端用约束草图、实体特征、可编辑时间轴、参数与装配完成建模，并通过 MCP 把建模动作接入自动化流程，最终拿到可继续修改的参数化模型文件。
+  job_en: A mechanical or industrial design engineer, when a parametric part model must be built or modified,
+    uses constrained sketches, solid features, an editable timeline, parameters and assemblies on desktop
+    or web, wires modeling actions into automated flows through MCP, and ends up with a parametric model
+    file that can keep being edited.
+  pain: 参数化建模长期集中在少数商业套件，授权成本高、自动化调用受限；需要批量改参数或批量出图的团队只能人工重复建模。这是从开源替代与 MCP 自动化接口这一公开事实推出的结构性痛点，公开材料未给出用户抱怨原文。
+  pain_en: Parametric modeling has long been concentrated in a few commercial suites with high licensing
+    cost and restricted automated calls; teams needing batch re-parameterization or batch output must
+    repeat modeling by hand. This is a structural pain inferred from the public facts of an open-source
+    alternative and an MCP automation interface; the material gives no verbatim user complaint.
+  current_alternative: 公开材料未直接写明替代方式；按工作流结构推断是商业参数化 CAD 套件（按席位授权）加人工重复建模，或脚本化二次开发。此为推断，非材料支持的事实。
+  current_alternative_en: The material does not state the alternative directly; by workflow inference
+    it is commercial parametric CAD suites licensed per seat plus manual repeated modeling, or scripted
+    secondary development. This is inference, not a material-supported fact.
+  usage_reason: 推断：相较商业套件按席位授权、自动化受接口限制的旧做法，它把参数化建模开放为可自建部署、可通过 MCP 被代理调用的能力，需要批量生成或批量改参数零件的团队因此可少做一轮人工重复建模。公开材料未说明
+    AI 具体介入哪一步，也无客户案例或留存证据，故选择动机为推断而非事实。
+  usage_reason_en: 'Inference: against commercial suites licensed per seat with restricted automation
+    interfaces, it exposes parametric modeling as self-deployable capability callable by agents through
+    MCP, so teams needing batch part generation or re-parameterization can skip a round of manual repeated
+    modeling. The material does not say which step AI performs and gives no customer cases or retention
+    evidence, so the choice motive is inference, not fact.'

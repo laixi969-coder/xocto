@@ -1,0 +1,90 @@
+- id: req-initial-stack-overflow-for-agents-triples-signups-with-chatgpt-plugi-2026-10-17
+  project_slug: stack-overflow-for-agents-triples-signups-with-chatgpt-plugi
+  level: initial
+  reviewed_at: '2026-10-17T00:30:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 开发者重复踩坑、答案分散的问题，痛点具体且旧替代行为明确，属工作流推理。
+    evidence_ids:
+    - ev-f5ec64691be0d812
+  - gate: consensus
+    status: insufficient
+    reason: 仅有插件带来的创建量增长，缺少开发者持续使用与口碑证据。
+    evidence_ids:
+    - ev-f5ec64691be0d812
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明买方与收费方式，是判断而非已验证事实。
+    evidence_ids:
+    - ev-f5ec64691be0d812
+  - gate: truth
+    status: insufficient
+    reason: 问答质量、人工审核边界与交付确定性均未披露。
+    evidence_ids:
+    - ev-f5ec64691be0d812
+  next_validation: Stack Overflow for Agents 的官方产品页或定价页，说明收费方式与使用规模。
+  market: ''
+  job: 开发者在搭建或调试 agent 时，处理散落在论坛、文档和聊天记录里的问答材料，要快速找到可复用的答案或直接生成可用的 agent。
+  job_en: Developers building or debugging agents work through Q&A material scattered across forums, docs
+    and chat logs to quickly find reusable answers or directly generate a working agent.
+  pain: agent 相关经验分散且更新快，重复踩坑成本高，检索旧帖往往得不到可执行答案。
+  pain_en: Agent-related experience is fragmented and fast-moving; repeating the same mistakes is costly
+    and searching old threads rarely yields an actionable answer.
+  current_alternative: 在通用开发者论坛、官方文档、聊天群和搜索引擎之间来回翻找，再手工拼答案。
+  current_alternative_en: Digging back and forth across general developer forums, official docs, chat
+    groups and search engines, then assembling an answer by hand.
+  usage_reason: 推断：相较在多个论坛手工翻找，它把提问直接匹配到已有问答并生成可复用结果，省掉跨站检索与拼装这一步，因此正在密集搭 agent 的开发者会在遇到重复问题时选择它；公开材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with manually digging through multiple forums, it matches a question
+    to existing Q&A and generates a reusable result, removing the cross-site search and assembly step,
+    so developers building agents intensively would pick it for recurring questions; no retention or repeat-use
+    evidence was disclosed.'
+- id: req-full-stack-overflow-for-agents-triples-signups-with-chatgpt-plugi-2026-10-17
+  project_slug: stack-overflow-for-agents-triples-signups-with-chatgpt-plugi
+  level: full
+  reviewed_at: '2026-10-17T01:13:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 全部证据均非该产品自身材料：STACK 是建筑软件、Stack 是游戏、其余为 OpenAI/Gemini/IBM 等通用 AI 介绍页，无法还原用户任务、痛点与旧替代，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-336107fa4440149a
+    - ev-0a06e566699960f7
+    - ev-1c67ab60df6c9a4f
+    - ev-5c56dd077f85de14
+    - ev-e4a48fa3da757a11
+    - ev-21b05cbf5394919a
+    - ev-01f644561070308c
+    - ev-c8e9f296885d0608
+    - ev-c7a429f1ddccffc5
+    - ev-798e231edf2328d2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Stack Overflow for Agents 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 开发者在搭建或调试 agent 时，处理散落在论坛、文档和聊天记录里的问答材料，要快速找到可复用的答案或直接生成可用的 agent。
+  job_en: Developers building or debugging agents work through Q&A material scattered across forums, docs
+    and chat logs to quickly find reusable answers or directly generate a working agent.
+  pain: 公开证据中没有任何一条来自该产品自身的说明、用户反馈或案例，无法确认 agent 开发者究竟卡在哪一步、痛点是否刚性。
+  pain_en: No evidence in the public record comes from the product itself, its users or its cases, so
+    it is impossible to confirm where agent developers actually get stuck or whether the pain is acute.
+  current_alternative: 公开材料未披露用户此前用什么方式解决该问题，无法确认旧替代行为。
+  current_alternative_en: The public material does not disclose what users did before to solve this problem,
+    so the prior alternative cannot be confirmed.
+  usage_reason: 缺少产品自身的功能说明与用户采用证据，无法解释用户为何会在什么情况下选择它；现有证据均为无关页面或通用 AI 介绍。
+  usage_reason_en: With no product-level description or adoption evidence, there is no basis to explain
+    why or when a user would choose it; the available evidence is unrelated pages or generic AI overviews.

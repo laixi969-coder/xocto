@@ -1,0 +1,85 @@
+- id: req-initial-lovable-growth-tools-2026-10-17
+  project_slug: lovable-growth-tools
+  level: initial
+  reviewed_at: '2026-10-17T00:30:22Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它把增长工作放进同一对话，未说明原来谁用什么工具做拉新、不解决会怎样，需求与痛点写不具体，价值关证据不足。
+    evidence_ids:
+    - ev-3c03218fb0b6dc6b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立。材料无用户评价、客户案例或采用信号，无法判断卡在感知、场景还是利益哪一环。
+    evidence_ids:
+    - ev-3c03218fb0b6dc6b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立。是否单独收费、按席位还是按产出计价均未披露，买方与付费路径无法判断。
+    evidence_ids:
+    - ev-3c03218fb0b6dc6b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立。功能细节与交付结果未披露，无法判断承诺能否确定性交付，也无法判断人工确认边界。
+    evidence_ids:
+    - ev-3c03218fb0b6dc6b
+  next_validation: 抓取 Lovable 官方发布说明或定价页，确认 Growth Tools 的具体功能范围、交付物与是否单独计费。
+  market: ''
+  job: 用 Lovable 做出应用的独立开发者或创始人在上线后需要获取用户时，在同一个对话界面里处理增长任务，完成从构建到拉新的衔接。
+  job_en: An indie developer or founder who built an app with Lovable and now needs users handles growth
+    tasks inside the same chat interface, connecting building to acquisition.
+  pain: 材料只有一句定位，没有说明上线后拉新原来由谁、用什么工具、花多久完成，也没有说明不解决的后果，痛点强度无法从公开事实判断。
+  pain_en: The material offers only a one-line positioning; it does not say who previously did post-launch
+    acquisition, with what tools, or how long it took, nor the consequence of not solving it, so pain
+    intensity cannot be judged from public facts.
+  current_alternative: 公开材料未披露替代方式；按常见做法推断，可能是另购营销工具或人工投放，但这是推断，不是已核验事实。
+  current_alternative_en: The public material does not disclose the alternative; by common practice it
+    is inferred to be separate marketing tools or manual campaign work, but this is inference, not verified
+    fact.
+  usage_reason: 无法给出因果解释：材料没有说明它在增长环节具体执行什么动作、减少哪一步负担或改善哪项可核对结果，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation can be given: the material does not say what specific action
+    it performs in the growth step, which burden it removes, or which checkable result it improves, so
+    it is impossible to say which users would choose it and when.'
+- id: req-full-lovable-growth-tools-2026-10-17
+  project_slug: lovable-growth-tools
+  level: full
+  reviewed_at: '2026-10-17T01:11:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知它把增长工作放进同一对话，未说明原来谁用什么工具做拉新、不解决会怎样，需求与痛点写不具体，价值关证据不足。
+    evidence_ids:
+    - ev-7a309b0fc067ec6d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取 Lovable 官方发布说明或定价页，确认 Growth Tools 的具体功能范围、交付物与是否单独计费。
+  market: ''
+  job: 用 Lovable 做出应用或网站的独立开发者与初创创始人，在上线后需要拉用户时，希望在同一个对话界面里继续处理增长任务，把构建与获客衔接起来。
+  job_en: Indie developers and startup founders who built an app or site with Lovable and now need users
+    want to handle growth tasks in the same chat interface, connecting building to acquisition.
+  pain: 公开材料只有一句定位，没有说明上线后拉新原来由谁、用什么工具、花多久完成，也没有说明不解决的后果，痛点强度无法从公开事实判断。
+  pain_en: The public material offers only a one-line positioning; it does not say who previously did
+    post-launch acquisition, with what tools, or how long it took, nor the consequence of not solving
+    it, so pain intensity cannot be judged from public facts.
+  current_alternative: 公开材料未披露替代方式；按常见做法推断，可能是另购营销工具或人工投放，但这是推断，不是已核验事实。
+  current_alternative_en: The public material does not disclose the alternative; by common practice it
+    is inferred to be separate marketing tools or manual campaign work, but this is inference, not verified
+    fact.
+  usage_reason: 无法给出因果解释：材料没有说明它在增长环节具体执行什么动作、减少哪一步负担或改善哪项可核对结果，因此无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'No causal explanation can be given: the material does not say what specific action
+    it performs in the growth step, which burden it removes, or which checkable result it improves, so
+    it is impossible to say which users would choose it and when.'

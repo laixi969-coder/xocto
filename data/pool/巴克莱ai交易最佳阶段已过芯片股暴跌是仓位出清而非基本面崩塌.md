@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PeGNVWHNGQk9D
 summary: 巴克莱：AI交易“最佳阶段”已过，芯片股暴跌是仓位出清而非基本面崩塌 华尔街见闻
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-17T00:31:16Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -344,3 +344,57 @@
     workflows as an MCP server, removing the step of uploading assets to a third party and working around
     moderation, so creators sensitive to review or handling private assets would choose it after self-hosting;
     public material has no user feedback confirming this motive.'
+- id: req-full-mcp-image-generator-uncensored-2026-10-17
+  project_slug: mcp-image-generator-uncensored
+  level: full
+  reviewed_at: '2026-10-17T01:11:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是创作者在云端出图服务被审核拦截、素材须上传第三方的问题，痛点来自内容审核与数据外流，属刚性约束；自托管 MCP 出图能确定返回图片文件。此为工作流结构推理，仓库仅提供能力描述，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-d582f2f7a8c6aa14
+    - ev-ca3f489728d12c31
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 80 增至 99，只反映关注度累积，没有用户评价、issue 或案例说明谁在什么场景下采用，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-d582f2f7a8c6aa14
+    - ev-c276691d18c4c751
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页与买方信息，钱可能来自自托管用户捐赠或后续托管服务，属推断而非已验证事实；公开材料未披露任何付费路径。
+    evidence_ids:
+    - ev-d582f2f7a8c6aa14
+  - gate: truth
+    status: insufficient
+    reason: 无审核定位本身带来合规与安全边界不确定性，公开材料未说明交付是否确定发生、是否有人工审核兜底，也未提供部署文档佐证可复现性。
+    evidence_ids:
+    - ev-d582f2f7a8c6aa14
+    - ev-bbdd6a6827ffac74
+  next_validation: 追踪该仓库的 issue 与 discussion，确认使用者实际用它替代了哪一步出图或修图工作，以及是否出现部署与合规反馈。
+  market: ''
+  job: 插画与视觉素材创作者、需要出图的内容制作者，在本地或自有服务器上部署该 MCP 服务后，把提示词交给它，由 Qwen-Image-2.1 模型生成或编辑图片并取回图片文件，用于插画、素材或内容配图。
+  job_en: Illustrators and visual-asset creators who need images deploy this MCP server locally or on
+    their own hardware, submit prompts to the Qwen-Image-2.1 model for generation or editing, and retrieve
+    image files for illustration, assets, or content visuals.
+  pain: 公开材料明确标注为 uncensored，指向的是主流云端出图服务对提示词的内容审核拦截：创作者在需要生成特定题材或风格时被拒答、被改写提示词，且素材必须上传到第三方平台，存在数据外流与合规顾虑。
+  pain_en: 'The repository explicitly labels itself uncensored, pointing at content-moderation refusals
+    in mainstream cloud image services: creators get blocked or prompt-rewritten when generating certain
+    subjects or styles, and assets must be uploaded to a third party, raising data-egress and compliance
+    concerns.'
+  current_alternative: 旧做法是使用 Midjourney、DALL·E、Stable Diffusion 云端 API 等托管出图服务，受其审核策略约束；或自行搭建 ComfyUI/SD
+    WebUI 等本地工作流，但需要单独配置模型、接口与调用链路。
+  current_alternative_en: The old approach is hosted image services such as Midjourney, DALL·E, or cloud
+    Stable Diffusion APIs, which are bound by their moderation policies; alternatively users assemble
+    local ComfyUI/SD WebUI workflows, which require separately wiring models, interfaces, and invocation
+    chains.
+  usage_reason: 相较云端托管服务，它把出图能力封装成 MCP server 在本地运行，提示词与图片不离开自有环境，绕开第三方审核拦截；相较自建 ComfyUI 工作流，它以 MCP 协议直接接入已有
+    AI 客户端，省去单独搭建调用链路这一步。因此对审核敏感或数据不能外流的创作者，会在需要生成被云端拒绝的题材时选择它。此为基于产品能力与任务的结构推断，尚无用户反馈佐证。
+  usage_reason_en: Versus hosted cloud services, it packages generation as a locally run MCP server so
+    prompts and images never leave the user's environment, bypassing third-party moderation; versus self-built
+    ComfyUI workflows, it plugs into existing AI clients via the MCP protocol, removing the step of wiring
+    a separate invocation chain. Creators sensitive to moderation or data egress would therefore pick
+    it when generating subjects cloud services refuse. This is structural inference from pro

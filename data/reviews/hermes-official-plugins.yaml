@@ -93,3 +93,48 @@
     and delivered as a one-install catalog, removing the per-service API reading, auth handling and ongoing
     maintenance step, so users who already deployed the agent and need several external services would
     install official plugins rather than write their own.'
+- id: req-full-hermes-official-plugins-2026-10-17
+  project_slug: hermes-official-plugins
+  level: full
+  reviewed_at: '2026-10-17T01:11:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自托管代理接入外部服务的连接与维护需求，痛点是逐个处理鉴权、服务一多难维护，旧做法是自写脚本或拼装自动化平台；这是工作流结构推理，公开材料未含用户采用数据。
+    evidence_ids:
+    - ev-1e32d648b0f4204c
+    - ev-b5d6922319e9e6e0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明代理开源、MIT 免费与插件目录存在，没有插件安装量、采用或留存证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-1e32d648b0f4204c
+  - gate: model
+    status: insufficient
+    reason: 代理本体 MIT 免费，插件目录未披露定价；付费方可能是代理订阅者或插件开发者，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6d067c6ea73b15b8
+  - gate: truth
+    status: insufficient
+    reason: 未核验插件调用权限边界、鉴权方式与失败处理，交付能否确定性发生仍缺公开证据。
+    evidence_ids:
+    - ev-b5d6922319e9e6e0
+  next_validation: 收集 Hermes Agent 官方插件目录的文档或仓库 issue，确认插件调用权限、鉴权方式与失败处理说明。
+  market: ''
+  job: 已在自己机器上部署 Hermes Agent 的个人用户或开发者，在需要让代理操作 Home Assistant 设备或 Spotify 播放时，通过官方插件目录把外部服务接入代理，完成跨服务的自动化调用。
+  job_en: An individual user or developer who has self-hosted Hermes Agent needs the agent to operate
+    Home Assistant devices or Spotify playback, and connects these external services through the official
+    plugin catalog to complete cross-service automated calls.
+  pain: 自建连接器要逐个读 API、处理鉴权并长期维护，服务一多就难以为继；不接入的后果是代理只能停在对话层，无法真正操作外部服务。
+  pain_en: Self-built connectors require reading each API, handling auth and maintaining them over time,
+    which becomes unmanageable as services multiply; without integration the agent stays at the chat layer
+    and cannot actually operate external services.
+  current_alternative: 自己写脚本或连接器，或用 Zapier、IFTTT 这类自动化平台拼装流程。
+  current_alternative_en: Writing scripts or connectors yourself, or assembling flows on automation platforms
+    such as Zapier or IFTTT.
+  usage_reason: 推断：相较自建连接器，官方插件由 Nous Research 维护并提供一次安装的目录，省掉逐个处理鉴权与维护这一步，因此已部署该代理、需要接入多个外部服务的用户会优先装官方插件。
+  usage_reason_en: 'Inference: versus self-built connectors, official plugins are maintained by Nous Research
+    and offered as a one-install catalog, removing the per-service auth and maintenance step, so users
+    who already deployed the agent and need several external services would install official plugins first.'
