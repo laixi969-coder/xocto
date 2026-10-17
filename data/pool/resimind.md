@@ -33,16 +33,16 @@ canonical_url: https://github.com/1105216375-alt/resimind
 summary: Neuro-symbolic agents with verified memory. MCP math tools, an algebra repair Skill, and an open
   challenge. Verify solutions, learn checked rules, and reuse.
 first_seen: '2026-10-15T00:32:09Z'
-last_seen: '2026-10-16T00:25:17Z'
+last_seen: '2026-10-17T00:30:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/1105216375-alt/resimind
-  seen_at: '2026-10-16T00:25:17Z'
+  seen_at: '2026-10-17T00:30:30Z'
   metrics:
-    stars: 132
+    stars: 158
     forks: 0
     open_issues: 0
   kind: product

@@ -35,16 +35,16 @@ canonical_url: https://bops.bot
 summary: 'Bops: a team of AI bots that run your business ops, each with its own computer, email and phone
   number. bops.bot'
 first_seen: '2026-10-06T14:45:00Z'
-last_seen: '2026-10-16T00:25:17Z'
+last_seen: '2026-10-17T00:30:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://bops.bot
-  seen_at: '2026-10-16T00:25:17Z'
+  seen_at: '2026-10-17T00:30:30Z'
   metrics:
-    stars: 317
+    stars: 320
     forks: 80
     open_issues: 20
   kind: product

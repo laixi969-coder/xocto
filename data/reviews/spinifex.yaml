@@ -24,6 +24,21 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+  job: 基础设施工程师在需要数据不出机房或控制云成本时，处理既有 AWS 脚本与配置，要在自有硬件上跑起兼容服务而不改命令行工具
+  job_en: Infrastructure engineers needing data to stay on-premises or to control cloud cost handle existing
+    AWS scripts and configs, and must run compatible services on their own hardware without changing CLI
+    tooling
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：基础设施工程师在需要数据不出机房或控制云成本时，处理既有 AWS 脚本与配置，要在自有硬件上跑起兼容服务而不改命令行工具；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Infrastructure engineers needing data to stay on-premises or to control
+    cloud cost handle existing AWS scripts and configs, and must run compatible services on their own
+    hardware without changing CLI tooling Public materials do not yet explain why users choose this product
+    over their existing approach.'
 - id: req-initial-spinifex-2026-10-16
   project_slug: spinifex
   level: initial

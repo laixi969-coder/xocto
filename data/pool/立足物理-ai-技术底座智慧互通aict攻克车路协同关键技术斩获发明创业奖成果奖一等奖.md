@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBvclgzY0VQaGFweUYwOWg2Nm
 canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBvclgzY0VQaGFweUYwOWg2NmVOcUVxVGZkUU5hdmtzNTJFeWtKeno1RnVhZlc3Zy1xeUlJTFdZWURLQVN1LWVqaWtTZFY?oc=5
 summary: 立足物理 AI 技术底座，智慧互通（AICT）攻克车路协同关键技术，斩获发明创业奖成果奖一等奖 凤凰网
 first_seen: '2026-10-16T00:25:46Z'
-last_seen: '2026-10-16T00:25:46Z'
-status: rejected
+last_seen: '2026-10-17T00:31:16Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBvclgzY0VQaGFweUYwOWg2NmVOcUVxVGZkUU5hdmtzNTJFeWtKeno1RnVhZlc3Zy1xeUlJTFdZWURLQVN1LWVqaWtTZFY?oc=5
   seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5odF9OVVNnUHd3SFBFcEZrWGNzUU51akNXZnpjcWxFWk92X2JJR0VOWkZSeWVoYzRJeE42ZzJicWFtX0Q5RV9SMk9fRDNXMXV6aGhjYk50VTk2cjFHNEE?oc=5
+  seen_at: '2026-10-17T00:31:16Z'
   metrics: {}
   kind: news
 ---

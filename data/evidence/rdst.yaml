@@ -16,3 +16,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 数据库工程师在版本发布或流量变化后排查 Postgres/MySQL 查询性能回退'
+- id: ev-4e3a608f5b3e57fd
+  project_slug: rdst
+  url: https://github.com/readysettech/rdst
+  title: RDST
+  published_at: '2026-10-15T18:09:01Z'
+  collected_at: '2026-10-17T00:30:22Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: A local agent that watches Postgres/MySQL for query regressions

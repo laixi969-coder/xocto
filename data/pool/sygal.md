@@ -35,17 +35,17 @@ url: https://sygal.app
 canonical_url: https://sygal.app
 summary: Convert PDFs, scans and web pages to Markdown, locally
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-16T00:25:14Z'
+last_seen: '2026-10-17T00:30:22Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://sygal.app
-  seen_at: '2026-10-16T00:25:14Z'
+  seen_at: '2026-10-17T00:30:22Z'
   metrics:
-    points: 32
-    comments: 9
+    points: 44
+    comments: 15
   kind: product
 ---
 

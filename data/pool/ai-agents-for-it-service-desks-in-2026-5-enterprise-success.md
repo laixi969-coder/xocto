@@ -1,0 +1,43 @@
+---
+slug: ai-agents-for-it-service-desks-in-2026-5-enterprise-success
+name: 'AI Agents for IT Service Desks in 2026: 5 Enterprise Success Stories on Cost Savings, Ticket Resolution
+  and Automation'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMigAJBVV95cUxNemJzLXVoaUVmSnNMNjZjbndvRkhFcGN6LXk2NW9jUzl1cy1XR21JWUNnaUdXenFTblluTG5zZ0YxVTRJaDJwaEg3dkszaGxBYVhSZllyMl9JUTR1NHhhcUVkR0toVWh0ZHZ0TUdBaExGWFhfYVdhZHI2NF9iSkY5dTFRY1NVQTg5Zl9aSHk0VVRubndNOFZvdE5nVXdZVGQyekFINFRQUURaY05xUVZSeG1qY2l2U25SYXdMLXRMZ3Rndzk4SUlueFNSYkl2c3phZE93alhtUlZhU29OeXBRVkpDSW1YOW9wMWd5WXhtd20ycC1ycGZXWkQzVTlnUG9C0gGIAkFVX3lxTE9kT3lnODUzZnAtZi1FODljc1Vvekc0N0FzUlZxVTNzWG1KRS1nS1RidkwweDJSX3VDSkdLSTlNakx4S3hKREN2MUlQX0gzTVh2SVc5MDlZd2FZcEZ6RGQ0eWYwYzV2NEhqdUhDOHdYbHNGWkhlMnlLLTRYTUNDdWFid1NDNFVhcnhFYnZBNlhRTGl2d2QtVmtvUW81U2o3LTZ4NWZwNXU5RDhBQ0R6c2hhOERIVDRZMTRRcnFDV2lOLTVjU0VndXcwOWlVU3dZbW40c3FFTk9QbWVNRnpnTVJpOUl6bDRpc1ZLV1RjelZBak8wcktZQVZkWFJSRVdJSUZxbTlLQXB1ag?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMigAJBVV95cUxNemJzLXVoaUVmSnNMNjZjbndvRkhFcGN6LXk2NW9jUzl1cy1XR21JWUNnaUdXenFTblluTG5zZ0YxVTRJaDJwaEg3dkszaGxBYVhSZllyMl9JUTR1NHhhcUVkR0toVWh0ZHZ0TUdBaExGWFhfYVdhZHI2NF9iSkY5dTFRY1NVQTg5Zl9aSHk0VVRubndNOFZvdE5nVXdZVGQyekFINFRQUURaY05xUVZSeG1qY2l2U25SYXdMLXRMZ3Rndzk4SUlueFNSYkl2c3phZE93alhtUlZhU29OeXBRVkpDSW1YOW9wMWd5WXhtd20ycC1ycGZXWkQzVTlnUG9C0gGIAkFVX3lxTE9kT3lnODUzZnAtZi1FODljc1Vvekc0N0FzUlZxVTNzWG1KRS1nS1RidkwweDJSX3VDSkdLSTlNakx4S3hKREN2MUlQX0gzTVh2SVc5MDlZd2FZcEZ6RGQ0eWYwYzV2NEhqdUhDOHdYbHNGWkhlMnlLLTRYTUNDdWFid1NDNFVhcnhFYnZBNlhRTGl2d2QtVmtvUW81U2o3LTZ4NWZwNXU5RDhBQ0R6c2hhOERIVDRZMTRRcnFDV2lOLTVjU0VndXcwOWlVU3dZbW40c3FFTk9QbWVNRnpnTVJpOUl6bDRpc1ZLV1RjelZBak8wcktZQVZkWFJSRVdJSUZxbTlLQXB1ag?oc=5
+summary: 'AI Agents for IT Service Desks in 2026: 5 Enterprise Success Stories on Cost Savings, Ticket
+  Resolution and Automation InfotechLead'
+first_seen: '2026-10-17T00:31:16Z'
+last_seen: '2026-10-17T00:31:16Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigAJBVV95cUxNemJzLXVoaUVmSnNMNjZjbndvRkhFcGN6LXk2NW9jUzl1cy1XR21JWUNnaUdXenFTblluTG5zZ0YxVTRJaDJwaEg3dkszaGxBYVhSZllyMl9JUTR1NHhhcUVkR0toVWh0ZHZ0TUdBaExGWFhfYVdhZHI2NF9iSkY5dTFRY1NVQTg5Zl9aSHk0VVRubndNOFZvdE5nVXdZVGQyekFINFRQUURaY05xUVZSeG1qY2l2U25SYXdMLXRMZ3Rndzk4SUlueFNSYkl2c3phZE93alhtUlZhU29OeXBRVkpDSW1YOW9wMWd5WXhtd20ycC1ycGZXWkQzVTlnUG9C0gGIAkFVX3lxTE9kT3lnODUzZnAtZi1FODljc1Vvekc0N0FzUlZxVTNzWG1KRS1nS1RidkwweDJSX3VDSkdLSTlNakx4S3hKREN2MUlQX0gzTVh2SVc5MDlZd2FZcEZ6RGQ0eWYwYzV2NEhqdUhDOHdYbHNGWkhlMnlLLTRYTUNDdWFid1NDNFVhcnhFYnZBNlhRTGl2d2QtVmtvUW81U2o3LTZ4NWZwNXU5RDhBQ0R6c2hhOERIVDRZMTRRcnFDV2lOLTVjU0VndXcwOWlVU3dZbW40c3FFTk9QbWVNRnpnTVJpOUl6bDRpc1ZLV1RjelZBak8wcktZQVZkWFJSRVdJSUZxbTlLQXB1ag?oc=5
+  seen_at: '2026-10-17T00:31:16Z'
+  metrics: {}
+  kind: news
+---
+
+# AI Agents for IT Service Desks in 2026: 5 Enterprise Success Stories on Cost Savings, Ticket Resolution and Automation
+
+AI Agents for IT Service Desks in 2026: 5 Enterprise Success Stories on Cost Savings, Ticket Resolution and Automation InfotechLead
+
+## 笔记
+
+

@@ -56,3 +56,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 使用 DeepSeek Harness 的用户在对话框内撰写提示词时，浏览、搜索并插入已收藏的提示词，完成一次提问准备'
+- id: ev-b2b36cc0c507ed38
+  project_slug: dsh-prompt-market
+  url: https://github.com/yi-yezhiqiu/dsh-prompt-market
+  title: dsh-prompt-market
+  published_at: '2026-10-06T04:34:23Z'
+  collected_at: '2026-10-17T00:30:30Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DeepSeek Harness 提示词市场插件：对话框内一键浏览、搜索、收藏提示词，选中即写入输入框。零后端、免构建、数据只存本机。 | A prompt marketplace for
+    DSH: browse, search and insert prompts straight into the composer. | repository stars: 89'

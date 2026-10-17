@@ -1,0 +1,43 @@
+---
+slug: maharashtra-fda-resolves-72-of-13857-complaints-in-three-mon
+name: Maharashtra FDA resolves 72% of 13,857 complaints in three months; AI filters out over 11,000 invalid
+  submissions
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMijAJBVV95cUxQeDBQUWE1NVFISGVjaHlPYjdzVHI2dkFRX2FFZjI1ekJjdnVlREowWnZocURBT1dLR2Z6LVVzemlvYVV0VS1ycXFpZFdjQTRuTVBIVkdSQl9IM2RMMGZDSzBEcWtoYVMydWI1Qm82bWJ5M0Nsci1FY3VHTmZDR3dfT0w4cmdaUFI1ZzM4TjdsSXpxN05ROXkxSzd4VG1WZVE1WHdFbmFHS1FhUDl5Q0pfblBUaVI1VTRnSEdKbEhvWnFVU3J1UHFJQ2JJQU8zLXVpZnVKTnU0RGxHZ1d5U2xiRC1xZ25aNUJEcXAyYllsUmxXSTlUclV4T1NEUnh6aVh3bXNXdUNCM1BKQm0x0gGTAkFVX3lxTE56d3V4ZDN2SGp6RjVRMU56SGNkdXV3bVJtcEowaUE0VWtBek9qX2RsT0xSRkdDVTJyVjJHd1FiTnkxcFlZNmpCOEpvOVpBV25HRXk1dU9sTEVBWDQ3NXRTaGI1QU5DWGFoLWFnV3YwclFqWmNMTnNJMm5OZU83NFRnSDBFWTRhdTZfMUNqTG05Q2RveFdvQno4d3hsTE13Z0VTRllFN0drYkVIU3ZuU3NISlhBTE8wRFhwX3FMSTdITDZtRTFKNEU4TXRqa21jWjFzTkI3OHNIVmJRek13ZXg5Sk9WMkV2NWVZd054Qjd4SHk4dFNQdlNZQk1uUVNWd2NBNjFQNzdxVVdoQ3pqSWY3a3M0?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMijAJBVV95cUxQeDBQUWE1NVFISGVjaHlPYjdzVHI2dkFRX2FFZjI1ekJjdnVlREowWnZocURBT1dLR2Z6LVVzemlvYVV0VS1ycXFpZFdjQTRuTVBIVkdSQl9IM2RMMGZDSzBEcWtoYVMydWI1Qm82bWJ5M0Nsci1FY3VHTmZDR3dfT0w4cmdaUFI1ZzM4TjdsSXpxN05ROXkxSzd4VG1WZVE1WHdFbmFHS1FhUDl5Q0pfblBUaVI1VTRnSEdKbEhvWnFVU3J1UHFJQ2JJQU8zLXVpZnVKTnU0RGxHZ1d5U2xiRC1xZ25aNUJEcXAyYllsUmxXSTlUclV4T1NEUnh6aVh3bXNXdUNCM1BKQm0x0gGTAkFVX3lxTE56d3V4ZDN2SGp6RjVRMU56SGNkdXV3bVJtcEowaUE0VWtBek9qX2RsT0xSRkdDVTJyVjJHd1FiTnkxcFlZNmpCOEpvOVpBV25HRXk1dU9sTEVBWDQ3NXRTaGI1QU5DWGFoLWFnV3YwclFqWmNMTnNJMm5OZU83NFRnSDBFWTRhdTZfMUNqTG05Q2RveFdvQno4d3hsTE13Z0VTRllFN0drYkVIU3ZuU3NISlhBTE8wRFhwX3FMSTdITDZtRTFKNEU4TXRqa21jWjFzTkI3OHNIVmJRek13ZXg5Sk9WMkV2NWVZd054Qjd4SHk4dFNQdlNZQk1uUVNWd2NBNjFQNzdxVVdoQ3pqSWY3a3M0?oc=5
+summary: Maharashtra FDA resolves 72% of 13,857 complaints in three months; AI filters out over 11,000
+  invalid submissions The Hindu
+first_seen: '2026-10-17T00:31:16Z'
+last_seen: '2026-10-17T00:31:16Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAJBVV95cUxQeDBQUWE1NVFISGVjaHlPYjdzVHI2dkFRX2FFZjI1ekJjdnVlREowWnZocURBT1dLR2Z6LVVzemlvYVV0VS1ycXFpZFdjQTRuTVBIVkdSQl9IM2RMMGZDSzBEcWtoYVMydWI1Qm82bWJ5M0Nsci1FY3VHTmZDR3dfT0w4cmdaUFI1ZzM4TjdsSXpxN05ROXkxSzd4VG1WZVE1WHdFbmFHS1FhUDl5Q0pfblBUaVI1VTRnSEdKbEhvWnFVU3J1UHFJQ2JJQU8zLXVpZnVKTnU0RGxHZ1d5U2xiRC1xZ25aNUJEcXAyYllsUmxXSTlUclV4T1NEUnh6aVh3bXNXdUNCM1BKQm0x0gGTAkFVX3lxTE56d3V4ZDN2SGp6RjVRMU56SGNkdXV3bVJtcEowaUE0VWtBek9qX2RsT0xSRkdDVTJyVjJHd1FiTnkxcFlZNmpCOEpvOVpBV25HRXk1dU9sTEVBWDQ3NXRTaGI1QU5DWGFoLWFnV3YwclFqWmNMTnNJMm5OZU83NFRnSDBFWTRhdTZfMUNqTG05Q2RveFdvQno4d3hsTE13Z0VTRllFN0drYkVIU3ZuU3NISlhBTE8wRFhwX3FMSTdITDZtRTFKNEU4TXRqa21jWjFzTkI3OHNIVmJRek13ZXg5Sk9WMkV2NWVZd054Qjd4SHk4dFNQdlNZQk1uUVNWd2NBNjFQNzdxVVdoQ3pqSWY3a3M0?oc=5
+  seen_at: '2026-10-17T00:31:16Z'
+  metrics: {}
+  kind: news
+---
+
+# Maharashtra FDA resolves 72% of 13,857 complaints in three months; AI filters out over 11,000 invalid submissions
+
+Maharashtra FDA resolves 72% of 13,857 complaints in three months; AI filters out over 11,000 invalid submissions The Hindu
+
+## 笔记
+
+

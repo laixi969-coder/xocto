@@ -33,16 +33,16 @@ url: https://github.com/SilentLake-Tech-SkillHub/SilentAgentHub
 canonical_url: https://github.com/SilentLake-Tech-SkillHub/SilentAgentHub
 summary: 一站式 Coding Agent 插件：从需求、研究、设计、原型到开发、测试、发布的全流程规则、Skills 与 Hooks，助力任何 0-1 的想法
 first_seen: '2026-09-28T16:41:16Z'
-last_seen: '2026-10-16T00:25:17Z'
+last_seen: '2026-10-17T00:30:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SilentLake-Tech-SkillHub/SilentAgentHub
-  seen_at: '2026-10-16T00:25:17Z'
+  seen_at: '2026-10-17T00:30:30Z'
   metrics:
-    stars: 199
+    stars: 202
     forks: 0
     open_issues: 13
   kind: product

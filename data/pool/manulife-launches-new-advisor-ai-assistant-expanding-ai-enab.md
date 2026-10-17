@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNNlhSNGE1Sjg2
 summary: Manulife launches new Advisor AI Assistant, expanding AI-enabled underwriting support for advisors
   Yahoo! Finance Canada
 first_seen: '2026-10-15T00:32:38Z'
-last_seen: '2026-10-15T00:32:38Z'
+last_seen: '2026-10-17T00:31:16Z'
 status: pending_filter
 sources:
 - newssearch
@@ -29,6 +29,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNNlhSNGE1Sjg2SlNveloybzZYWTJ2TDJORElRcEFUakMyRVRWdFNKUUlHUjhXMXV2WmhNVVlmSGgtQnFWUS1VVHpuSWRuLWJLNS1LNVNWaG4tUzd4TTdXNWxhXzcwLU5DRXdQZ3dYelRTbjFQU0ZhZy1jclFIYkVJSjhDS3luV2YwaFAwZlpzRS0?oc=5
   seen_at: '2026-10-15T00:32:38Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVdwVl91QnNRUVlGVHAzY254eDRFVEZicUtIbXQwVno0MVlwVHd5QXlIM1V0ZXRsZElPT0JGNmtTQWZhaHUxTmR1Q2owRXJjTGRfN0tEYjJBVUE5RGU3UnV5NTYwaWxKenRNU1htZE9tbG1vTklkal9wNEF2MkVTMUxHVFdRZFBGRkNJSWtaOHc5eHA2aGV4R1l3OTNQYWhaX3NMMA?oc=5
+  seen_at: '2026-10-17T00:31:16Z'
   metrics: {}
   kind: news
 ---

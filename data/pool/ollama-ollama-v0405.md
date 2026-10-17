@@ -36,16 +36,16 @@ summary: "## NVIDIA Nemotron 3.5 Super\r\n\r\n[NVIDIA Nemotron 3.5 Super](https:
   * @willietran made their first contribution in https://github.com/ollama/ollama/pull/18986\r\n\r\n**Full\
   \ Changelog**: https://github.com/ollama/ollama/compare/v0.40.4...v0.40.5"
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-16T00:25:17Z'
-status: market_context
+last_seen: '2026-10-17T00:30:30Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.40.5
-  seen_at: '2026-10-16T00:25:17Z'
+  seen_at: '2026-10-17T00:30:30Z'
   metrics:
-    reactions: 11
+    reactions: 18
   kind: news
 ---
 

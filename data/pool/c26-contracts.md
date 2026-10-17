@@ -20,17 +20,17 @@ url: https://www.cppstories.com/2026/cpp26_contracts/
 canonical_url: https://cppstories.com/2026/cpp26_contracts
 summary: Introduction to Preconditions and Postconditions
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-16T00:25:14Z'
-status: rejected
+last_seen: '2026-10-17T00:30:22Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.cppstories.com/2026/cpp26_contracts/
-  seen_at: '2026-10-16T00:25:14Z'
+  seen_at: '2026-10-17T00:30:22Z'
   metrics:
-    points: 125
-    comments: 114
+    points: 145
+    comments: 171
   kind: news
 ---
 

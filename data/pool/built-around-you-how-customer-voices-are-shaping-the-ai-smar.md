@@ -1,0 +1,41 @@
+---
+slug: built-around-you-how-customer-voices-are-shaping-the-ai-smar
+name: 'Built Around You: How Customer Voices Are Shaping the Ai+ Smartphone Experience'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk9nMFRxbjEtNmZhVnJXVzZMQTJZRmoxeXRDVjYwOS1iTXpIeDhOaXNHc2FvbnNrcng0SjA1UTRGdTJBZFlmbDZmZExoWkZJYkV3UXJiZFFMVjBBWVJ6eU9VMTlaQTFKU3MtMm43VGlNUEtzbHY1LUNWZjhLQUVUMHBtRGtKdWZoMmdwRHh6YzBwcUREdEZ4OGxsT0MwNXZFcHU4S2lZbEhaRy1SYTI5SlozR1E5d0k5bGxQWVhaLWdzcUxQTTZhUmVwMU5aSHVjdFMyWExKSlFIeG1XQzdvYnoyUdIB4wFBVV95cUxNWk9nMFRxbjEtNmZhVnJXVzZMQTJZRmoxeXRDVjYwOS1iTXpIeDhOaXNHc2FvbnNrcng0SjA1UTRGdTJBZFlmbDZmZExoWkZJYkV3UXJiZFFMVjBBWVJ6eU9VMTlaQTFKU3MtMm43VGlNUEtzbHY1LUNWZjhLQUVUMHBtRGtKdWZoMmdwRHh6YzBwcUREdEZ4OGxsT0MwNXZFcHU4S2lZbEhaRy1SYTI5SlozR1E5d0k5bGxQWVhaLWdzcUxQTTZhUmVwMU5aSHVjdFMyWExKSlFIeG1XQzdvYnoyUQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk9nMFRxbjEtNmZhVnJXVzZMQTJZRmoxeXRDVjYwOS1iTXpIeDhOaXNHc2FvbnNrcng0SjA1UTRGdTJBZFlmbDZmZExoWkZJYkV3UXJiZFFMVjBBWVJ6eU9VMTlaQTFKU3MtMm43VGlNUEtzbHY1LUNWZjhLQUVUMHBtRGtKdWZoMmdwRHh6YzBwcUREdEZ4OGxsT0MwNXZFcHU4S2lZbEhaRy1SYTI5SlozR1E5d0k5bGxQWVhaLWdzcUxQTTZhUmVwMU5aSHVjdFMyWExKSlFIeG1XQzdvYnoyUdIB4wFBVV95cUxNWk9nMFRxbjEtNmZhVnJXVzZMQTJZRmoxeXRDVjYwOS1iTXpIeDhOaXNHc2FvbnNrcng0SjA1UTRGdTJBZFlmbDZmZExoWkZJYkV3UXJiZFFMVjBBWVJ6eU9VMTlaQTFKU3MtMm43VGlNUEtzbHY1LUNWZjhLQUVUMHBtRGtKdWZoMmdwRHh6YzBwcUREdEZ4OGxsT0MwNXZFcHU4S2lZbEhaRy1SYTI5SlozR1E5d0k5bGxQWVhaLWdzcUxQTTZhUmVwMU5aSHVjdFMyWExKSlFIeG1XQzdvYnoyUQ?oc=5
+summary: 'Built Around You: How Customer Voices Are Shaping the Ai+ Smartphone Experience The Tribune'
+first_seen: '2026-10-17T00:31:16Z'
+last_seen: '2026-10-17T00:31:16Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk9nMFRxbjEtNmZhVnJXVzZMQTJZRmoxeXRDVjYwOS1iTXpIeDhOaXNHc2FvbnNrcng0SjA1UTRGdTJBZFlmbDZmZExoWkZJYkV3UXJiZFFMVjBBWVJ6eU9VMTlaQTFKU3MtMm43VGlNUEtzbHY1LUNWZjhLQUVUMHBtRGtKdWZoMmdwRHh6YzBwcUREdEZ4OGxsT0MwNXZFcHU4S2lZbEhaRy1SYTI5SlozR1E5d0k5bGxQWVhaLWdzcUxQTTZhUmVwMU5aSHVjdFMyWExKSlFIeG1XQzdvYnoyUdIB4wFBVV95cUxNWk9nMFRxbjEtNmZhVnJXVzZMQTJZRmoxeXRDVjYwOS1iTXpIeDhOaXNHc2FvbnNrcng0SjA1UTRGdTJBZFlmbDZmZExoWkZJYkV3UXJiZFFMVjBBWVJ6eU9VMTlaQTFKU3MtMm43VGlNUEtzbHY1LUNWZjhLQUVUMHBtRGtKdWZoMmdwRHh6YzBwcUREdEZ4OGxsT0MwNXZFcHU4S2lZbEhaRy1SYTI5SlozR1E5d0k5bGxQWVhaLWdzcUxQTTZhUmVwMU5aSHVjdFMyWExKSlFIeG1XQzdvYnoyUQ?oc=5
+  seen_at: '2026-10-17T00:31:16Z'
+  metrics: {}
+  kind: news
+---
+
+# Built Around You: How Customer Voices Are Shaping the Ai+ Smartphone Experience
+
+Built Around You: How Customer Voices Are Shaping the Ai+ Smartphone Experience The Tribune
+
+## 笔记
+
+

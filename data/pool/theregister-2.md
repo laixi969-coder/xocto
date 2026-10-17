@@ -20,7 +20,7 @@ url: https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people
 canonical_url: https://theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368
 summary: AI models don't kill people – people kill people
 first_seen: '2026-09-13T13:33:34Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-17T00:30:22Z'
 status: pending_filter
 sources:
 - hackernews
@@ -72,6 +72,13 @@ sightings:
   metrics:
     points: 74
     comments: 88
+  kind: news
+- source: hackernews
+  url: https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471
+  seen_at: '2026-10-17T00:30:22Z'
+  metrics:
+    points: 176
+    comments: 65
   kind: news
 ---
 

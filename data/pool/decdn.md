@@ -20,16 +20,16 @@ url: https://github.com/decdn/decdn
 canonical_url: https://github.com/decdn/decdn
 summary: a peer-to-peer CDN where every piece is BLAKE3-verified
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-16T00:25:14Z'
+last_seen: '2026-10-17T00:30:22Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/decdn/decdn
-  seen_at: '2026-10-16T00:25:14Z'
+  seen_at: '2026-10-17T00:30:22Z'
   metrics:
-    points: 9
+    points: 11
     comments: 1
   kind: product
 ---

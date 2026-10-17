@@ -80,3 +80,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 软件工程师在终端里修改代码库并跑测试'
+- id: ev-23c2563e4f0a32cd
+  project_slug: codeagent
+  url: https://github.com/Harvil1/codeAgent
+  title: codeAgent
+  published_at: '2026-10-02T05:15:41Z'
+  collected_at: '2026-10-17T00:30:30Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'CodeAgent is an open-source coding agent that lives in your terminal. It understands your repository,
+    plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the
+    task is done — all with a transparent, extensible tool loop. | repository stars: 814'

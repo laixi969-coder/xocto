@@ -20,16 +20,16 @@ url: https://github.com/rlshaw-ml/BlastLoop
 canonical_url: https://github.com/rlshaw-ml/BlastLoop
 summary: a structure-first coding method for AI agents
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-16T00:25:14Z'
+last_seen: '2026-10-17T00:30:22Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/rlshaw-ml/BlastLoop
-  seen_at: '2026-10-16T00:25:14Z'
+  seen_at: '2026-10-17T00:30:22Z'
   metrics:
-    points: 12
+    points: 14
     comments: 1
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://www.currentaffairs.org/news/why-were-banning-ai
 canonical_url: https://currentaffairs.org/news/why-were-banning-ai
 summary: Why We're Banning AI
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-16T00:25:14Z'
-status: rejected
+last_seen: '2026-10-17T00:30:22Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.currentaffairs.org/news/why-were-banning-ai
-  seen_at: '2026-10-16T00:25:14Z'
+  seen_at: '2026-10-17T00:30:22Z'
   metrics:
-    points: 218
-    comments: 176
+    points: 254
+    comments: 201
   kind: news
 ---
 

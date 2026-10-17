@@ -32,17 +32,17 @@ summary: Coordinate Claude, Codex and Cursor windows with shared tasks, acknowle
   forecast work. Track progress, decisions and evidence in a bilingual local dashboard, with MCP plugins.
   Browse skills and verified security audits.
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-16T00:25:17Z'
+last_seen: '2026-10-17T00:30:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dagoSte/squadra
-  seen_at: '2026-10-16T00:25:17Z'
+  seen_at: '2026-10-17T00:30:30Z'
   metrics:
-    stars: 227
-    forks: 1
+    stars: 238
+    forks: 2
     open_issues: 0
   kind: product
 ---

@@ -21,14 +21,19 @@ canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOMDN5X2ZfNEo2
 summary: How Prudential, Coca-Cola Singapore and Grab are using AI in Singapore Singapore Economic Development
   Board (EDB)
 first_seen: '2026-09-29T08:19:57Z'
-last_seen: '2026-09-30T01:18:52Z'
-status: rejected
+last_seen: '2026-10-17T00:31:16Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOMDN5X2ZfNEo2a0xDeURNdHBnRmdORjEyWS1KQVZNNURybFBCZGRXNl8zcWNXSDNaVExEUHc1cDE2RDVicEhxV0NObTBBcFRLWmROWFVBQ09IU3RsZC1odHBLYmdkY01nUmVXNWg0TTJ2RXdDWDdZLWhoRnFqTENuRU9VVnEtbk5OX0g1cEVIV2FsaG00VWZlS0s5QjBCNUNYNENPa3VVa0FuUHRWTzRPUkNEcw?oc=5
   seen_at: '2026-09-30T01:18:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNTEw2bk5FTHBCQmdGcmNoeGtFOXU1Q3kzQ2lWODNmV01Ncm8xak5YVFg3eEhyQ2pONV9iOXh1TkJoQ0wxaEFjYkhaTjV4dXFGVU5oeTEtRGppdmVqbjJpTGhLcEhKZHhJWW1ROHJqTnVURGNYQ2JxSmFvTlUySFJZX3dWQnpDbHR6NEptRkFGZEdHeEZsMjFmMzVGZUhzVUpRbXd6LWtVby12ODVwVVJr?oc=5
+  seen_at: '2026-10-17T00:31:16Z'
   metrics: {}
   kind: news
 ---

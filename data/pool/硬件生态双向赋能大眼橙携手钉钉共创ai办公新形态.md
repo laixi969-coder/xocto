@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNdVJ5T0xlUVpBcW05LTBDUT
 canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNdVJ5T0xlUVpBcW05LTBDUTRXc2JJNTNBdW9JNG1FaEVPeFBWQ2p3VldTa0txaVBjN3JhWE9ZdDdwVXJYRVFaQ1J1dGVneUR3cFNiNnZjLU9STUg0RW1EcGtVeWZDWmVhZjlXeDBXaWd2UEI0LWFCZHhGNFV2SzFmQ1JzUjFyYkRnUFZfbA?oc=5
 summary: “硬件+生态”双向赋能，大眼橙携手钉钉共创AI办公新形态 搜狐
 first_seen: '2026-10-16T00:25:46Z'
-last_seen: '2026-10-16T00:25:46Z'
-status: rejected
+last_seen: '2026-10-17T00:31:16Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNdVJ5T0xlUVpBcW05LTBDUTRXc2JJNTNBdW9JNG1FaEVPeFBWQ2p3VldTa0txaVBjN3JhWE9ZdDdwVXJYRVFaQ1J1dGVneUR3cFNiNnZjLU9STUg0RW1EcGtVeWZDWmVhZjlXeDBXaWd2UEI0LWFCZHhGNFV2SzFmQ1JzUjFyYkRnUFZfbA?oc=5
   seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMia0FVX3lxTE50ME9CX1YwUTRFTHByOVhIX091M2JsNGRJcWxtZ3NtbW0tdWkzeXloSlI0OE11SkdZcjhxTkVlb3RyTUNYTmlLZ1Q3NmRCSFhabUtOZDRhMVdtZ0g3aXZEZ3ozLXdGdUFHS1hj?oc=5
+  seen_at: '2026-10-17T00:31:16Z'
   metrics: {}
   kind: news
 ---

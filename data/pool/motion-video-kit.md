@@ -34,16 +34,16 @@ canonical_url: https://github.com/echris6/motion-video-kit
 summary: 'Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion
   principles from 28 launch films, quality bar, sound design, business offers, Three.js patterns, scripts'
 first_seen: '2026-09-27T14:11:14Z'
-last_seen: '2026-10-16T00:25:17Z'
+last_seen: '2026-10-17T00:30:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/echris6/motion-video-kit
-  seen_at: '2026-10-16T00:25:17Z'
+  seen_at: '2026-10-17T00:30:30Z'
   metrics:
-    stars: 1116
+    stars: 1125
     forks: 102
     open_issues: 0
   kind: product

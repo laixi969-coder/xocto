@@ -1,0 +1,41 @@
+---
+slug: the-role-of-ai-in-predictive-maintenance-how-factories-are-r
+name: 'The Role of AI in Predictive Maintenance: How Factories Are Reducing Downtime'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM3lJeHdTQmEwdUFnNFdQczhyMS0tUFFoZG0wM2V6bi0wSkE5T3VBYXpmdmJHWDF5UTZpc2hxc0J0Z1prQm45OHFvTXl6c2ZxUHN2X3Rnc1E0bEdJMFRfdlBTTnMzdGJtZHlGaXZLSG0wb2Q2aWdnTEJBLXh0RVk5OVdoU18xUWlaYWktTFVLTHRWTGFRX0h4ZnNEY2ltR3o0M3lzOXEtNkRkWTBxM3Z2bEtseG92WHZ4MUxxWUNVWFJ1anNkdzIxZGM5a19BUUxJN3FLWTQ4bDNUeFXSAdsBQVVfeXFMTTN5SXh3U0JhMHVBZzRXUHM4cjEtLVBRaGRtMDNlem4tMEpBOU91QWF6ZnZiR1gxeVE2aXNocXNCdGdaa0JuOThxb015enNmcVBzdl90Z3NRNGxHSTBUX3ZQU05zM3RibWR5Rml2S0htMG9kNmlnZ0xCQS14dEVZOTlXaFNfMVFpWmFpLUxVS0x0VkxhUV9IeGZzRGNpbUd6NDN5czlxLTZEZFkwcTN2dmxLbHhvdlh2eDFMcVlDVVhSdWpzZHcyMWRjOWtfQVFMSTdxS1k0OGwzVHhV?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM3lJeHdTQmEwdUFnNFdQczhyMS0tUFFoZG0wM2V6bi0wSkE5T3VBYXpmdmJHWDF5UTZpc2hxc0J0Z1prQm45OHFvTXl6c2ZxUHN2X3Rnc1E0bEdJMFRfdlBTTnMzdGJtZHlGaXZLSG0wb2Q2aWdnTEJBLXh0RVk5OVdoU18xUWlaYWktTFVLTHRWTGFRX0h4ZnNEY2ltR3o0M3lzOXEtNkRkWTBxM3Z2bEtseG92WHZ4MUxxWUNVWFJ1anNkdzIxZGM5a19BUUxJN3FLWTQ4bDNUeFXSAdsBQVVfeXFMTTN5SXh3U0JhMHVBZzRXUHM4cjEtLVBRaGRtMDNlem4tMEpBOU91QWF6ZnZiR1gxeVE2aXNocXNCdGdaa0JuOThxb015enNmcVBzdl90Z3NRNGxHSTBUX3ZQU05zM3RibWR5Rml2S0htMG9kNmlnZ0xCQS14dEVZOTlXaFNfMVFpWmFpLUxVS0x0VkxhUV9IeGZzRGNpbUd6NDN5czlxLTZEZFkwcTN2dmxLbHhvdlh2eDFMcVlDVVhSdWpzZHcyMWRjOWtfQVFMSTdxS1k0OGwzVHhV?oc=5
+summary: 'The Role of AI in Predictive Maintenance: How Factories Are Reducing Downtime Analytics Insight'
+first_seen: '2026-10-17T00:31:16Z'
+last_seen: '2026-10-17T00:31:16Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxNM3lJeHdTQmEwdUFnNFdQczhyMS0tUFFoZG0wM2V6bi0wSkE5T3VBYXpmdmJHWDF5UTZpc2hxc0J0Z1prQm45OHFvTXl6c2ZxUHN2X3Rnc1E0bEdJMFRfdlBTTnMzdGJtZHlGaXZLSG0wb2Q2aWdnTEJBLXh0RVk5OVdoU18xUWlaYWktTFVLTHRWTGFRX0h4ZnNEY2ltR3o0M3lzOXEtNkRkWTBxM3Z2bEtseG92WHZ4MUxxWUNVWFJ1anNkdzIxZGM5a19BUUxJN3FLWTQ4bDNUeFXSAdsBQVVfeXFMTTN5SXh3U0JhMHVBZzRXUHM4cjEtLVBRaGRtMDNlem4tMEpBOU91QWF6ZnZiR1gxeVE2aXNocXNCdGdaa0JuOThxb015enNmcVBzdl90Z3NRNGxHSTBUX3ZQU05zM3RibWR5Rml2S0htMG9kNmlnZ0xCQS14dEVZOTlXaFNfMVFpWmFpLUxVS0x0VkxhUV9IeGZzRGNpbUd6NDN5czlxLTZEZFkwcTN2dmxLbHhvdlh2eDFMcVlDVVhSdWpzZHcyMWRjOWtfQVFMSTdxS1k0OGwzVHhV?oc=5
+  seen_at: '2026-10-17T00:31:16Z'
+  metrics: {}
+  kind: news
+---
+
+# The Role of AI in Predictive Maintenance: How Factories Are Reducing Downtime
+
+The Role of AI in Predictive Maintenance: How Factories Are Reducing Downtime Analytics Insight
+
+## 笔记
+
+

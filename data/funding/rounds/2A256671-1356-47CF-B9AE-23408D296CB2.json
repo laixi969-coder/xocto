@@ -1,0 +1,85 @@
+{
+  "company": {
+    "city": "Paris",
+    "country": "France",
+    "description": "Entalpic is an AI-driven materials discovery company, fostering greener and smarter industrial processes.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "F1E73F33-4AEA-4D2F-B67E-05DF2E617B37",
+    "investors": [
+      "Nvidia"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Entalpic",
+    "rounds": [
+      {
+        "amountEur": null,
+        "date": "2026-10-14T00:00:00.000Z",
+        "id": "2A256671-1356-47CF-B9AE-23408D296CB2",
+        "investors": [
+          "Nvidia"
+        ],
+        "stage": "Growth/Late",
+        "url": "https://funding.tech.eu/deals/2A256671-1356-47CF-B9AE-23408D296CB2"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "medium",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 37,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 12
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 0,
+    "url": "https://funding.tech.eu/companies/F1E73F33-4AEA-4D2F-B67E-05DF2E617B37",
+    "website": "https://entalpic.ai/"
+  },
+  "round": {
+    "amountEur": null,
+    "amountEurStored": null,
+    "amountNative": null,
+    "company": {
+      "city": "Paris",
+      "country": "France",
+      "founded": null,
+      "id": "F1E73F33-4AEA-4D2F-B67E-05DF2E617B37",
+      "name": "Entalpic",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "none",
+    "currency": "",
+    "date": "2026-10-14",
+    "fx": null,
+    "id": "2A256671-1356-47CF-B9AE-23408D296CB2",
+    "investors": [
+      "Nvidia"
+    ],
+    "rawRoundType": "growth equity",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Growth/Late",
+    "url": "/deals/2A256671-1356-47CF-B9AE-23408D296CB2"
+  }
+}

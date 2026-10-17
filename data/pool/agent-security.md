@@ -32,16 +32,16 @@ canonical_url: https://solongate.com
 summary: Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect
   secrets, and audit actions on-device.
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-16T00:25:17Z'
+last_seen: '2026-10-17T00:30:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://solongate.com
-  seen_at: '2026-10-16T00:25:17Z'
+  seen_at: '2026-10-17T00:30:30Z'
   metrics:
-    stars: 100
+    stars: 106
     forks: 13
     open_issues: 0
   kind: product

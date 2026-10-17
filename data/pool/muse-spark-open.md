@@ -24,16 +24,16 @@ canonical_url: https://research.meta.ai/blog/muse-spark-open
 summary: https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope... https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B
   https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x…
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-16T00:25:14Z'
-status: market_context
+last_seen: '2026-10-17T00:30:22Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://research.meta.ai/blog/muse-spark-open
-  seen_at: '2026-10-16T00:25:14Z'
+  seen_at: '2026-10-17T00:30:22Z'
   metrics:
-    points: 71
+    points: 72
     comments: 1
   kind: news
 ---

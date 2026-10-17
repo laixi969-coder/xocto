@@ -20,17 +20,17 @@ url: https://proa.so/
 canonical_url: https://proa.so
 summary: A Rust web framework with fast SSR and multi-target rendering
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-16T00:25:14Z'
+last_seen: '2026-10-17T00:30:22Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://proa.so/
-  seen_at: '2026-10-16T00:25:14Z'
+  seen_at: '2026-10-17T00:30:22Z'
   metrics:
-    points: 88
-    comments: 25
+    points: 104
+    comments: 34
   kind: product
 ---
 

@@ -36,16 +36,16 @@ summary: Open-source autonomous AI browser agent Chrome extension running locall
   browser. Researches web data, fills forms, automates workflows, and streams live results using active
   logins.
 first_seen: '2026-09-28T19:05:49Z'
-last_seen: '2026-10-09T02:10:18Z'
+last_seen: '2026-10-17T00:30:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AliSharjeell/OpenBUA
-  seen_at: '2026-10-09T02:10:18Z'
+  seen_at: '2026-10-17T00:30:30Z'
   metrics:
-    stars: 46
+    stars: 47
     forks: 1
     open_issues: 0
   kind: product

@@ -20,17 +20,17 @@ url: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/
 canonical_url: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware
 summary: Using AI to reverse engineer hardware
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-16T00:25:14Z'
-status: rejected
+last_seen: '2026-10-17T00:30:22Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/
-  seen_at: '2026-10-16T00:25:14Z'
+  seen_at: '2026-10-17T00:30:22Z'
   metrics:
-    points: 93
-    comments: 104
+    points: 243
+    comments: 235
   kind: news
 ---
 

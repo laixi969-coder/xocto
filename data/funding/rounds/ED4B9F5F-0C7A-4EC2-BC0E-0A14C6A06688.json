@@ -1,0 +1,124 @@
+{
+  "company": {
+    "city": "Istanbul",
+    "country": "Türkiye",
+    "description": "a startup that offers optimized agents for brands",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "77CD2C5F-E5DA-4A81-BB10-C8C905D90F05",
+    "investors": [
+      "a16z Speedrun",
+      "Alumni Ventures",
+      "Connecticut Innovations",
+      "Monday Capital",
+      "NTT DoCoMo"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Loops AI",
+    "rounds": [
+      {
+        "amountEur": 3110282,
+        "date": "2026-10-16T00:00:00.000Z",
+        "id": "ED4B9F5F-0C7A-4EC2-BC0E-0A14C6A06688",
+        "investors": [
+          "a16z Speedrun",
+          "Alumni Ventures",
+          "Connecticut Innovations",
+          "Monday Capital",
+          "NTT DoCoMo"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/ED4B9F5F-0C7A-4EC2-BC0E-0A14C6A06688"
+      },
+      {
+        "amountEur": null,
+        "date": "2025-12-10T00:00:00.000Z",
+        "id": "D6BEC90C-CE3B-4D15-87F8-A7A88938B012",
+        "investors": [
+          "a16z Speedrun"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/D6BEC90C-CE3B-4D15-87F8-A7A88938B012"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "medium",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 11
+      },
+      "heat": 51,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 14
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 3110282,
+    "url": "https://funding.tech.eu/companies/77CD2C5F-E5DA-4A81-BB10-C8C905D90F05",
+    "website": "https://loopsai.com/"
+  },
+  "round": {
+    "amountEur": 3110282,
+    "amountEurStored": null,
+    "amountNative": 3500000,
+    "company": {
+      "city": "Istanbul",
+      "country": "Türkiye",
+      "founded": null,
+      "id": "77CD2C5F-E5DA-4A81-BB10-C8C905D90F05",
+      "name": "Loops AI",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-10-16",
+    "fx": {
+      "asOf": "2026-10-16",
+      "rate": 1.1253,
+      "source": "ECB"
+    },
+    "id": "ED4B9F5F-0C7A-4EC2-BC0E-0A14C6A06688",
+    "investors": [
+      "Alumni Ventures",
+      "Connecticut Innovations",
+      "NTT DoCoMo",
+      "Monday Capital",
+      "a16z Speedrun"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "webrazzi.com",
+      "tier": "established"
+    },
+    "stage": "Seed",
+    "url": "/deals/ED4B9F5F-0C7A-4EC2-BC0E-0A14C6A06688"
+  }
+}

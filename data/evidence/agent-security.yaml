@@ -37,3 +37,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 信息安全 工程团队在让编码代理执行工具调用前，配置策略并审计其在本机上的动作'
+- id: ev-212270d7e3b569de
+  project_slug: agent-security
+  url: https://solongate.com
+  title: agent-security
+  published_at: '2026-09-27T10:48:40Z'
+  collected_at: '2026-10-17T00:30:30Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect
+    secrets, and audit actions on-device. | repository stars: 106'

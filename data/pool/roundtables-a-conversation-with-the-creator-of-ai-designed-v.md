@@ -23,14 +23,19 @@ summary: Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanfor
   blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be
   next. Join senior AI reporter…
 first_seen: '2026-10-09T00:08:24Z'
-last_seen: '2026-10-09T02:10:47Z'
-status: rejected
+last_seen: '2026-10-17T00:31:00Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/
   seen_at: '2026-10-09T02:10:47Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/
+  seen_at: '2026-10-17T00:31:00Z'
   metrics: {}
   kind: news
 ---

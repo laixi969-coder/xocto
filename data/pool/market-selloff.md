@@ -20,17 +20,17 @@ url: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-a
 canonical_url: https://reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15
 summary: rising rates test AI data centre deal boom
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-16T00:25:14Z'
-status: rejected
+last_seen: '2026-10-17T00:30:22Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/
-  seen_at: '2026-10-16T00:25:14Z'
+  seen_at: '2026-10-17T00:30:22Z'
   metrics:
-    points: 68
-    comments: 78
+    points: 73
+    comments: 90
   kind: news
 ---
 

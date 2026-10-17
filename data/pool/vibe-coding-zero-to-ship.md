@@ -34,16 +34,16 @@ canonical_url: https://github.com/daoyi2026/vibe-coding-zero-to-ship
 summary: A beginner foundation skill for AI coding agents — from product idea, data and Git to security,
   deployment and launch.
 first_seen: '2026-10-15T00:32:09Z'
-last_seen: '2026-10-16T00:25:17Z'
+last_seen: '2026-10-17T00:30:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/daoyi2026/vibe-coding-zero-to-ship
-  seen_at: '2026-10-16T00:25:17Z'
+  seen_at: '2026-10-17T00:30:30Z'
   metrics:
-    stars: 59
+    stars: 70
     forks: 0
     open_issues: 1
   kind: product

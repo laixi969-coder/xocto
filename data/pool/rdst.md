@@ -28,17 +28,17 @@ url: https://github.com/readysettech/rdst
 canonical_url: https://github.com/readysettech/rdst
 summary: A local agent that watches Postgres/MySQL for query regressions
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-16T00:25:14Z'
+last_seen: '2026-10-17T00:30:22Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/readysettech/rdst
-  seen_at: '2026-10-16T00:25:14Z'
+  seen_at: '2026-10-17T00:30:22Z'
   metrics:
     points: 6
-    comments: 1
+    comments: 2
   kind: product
 ---
 

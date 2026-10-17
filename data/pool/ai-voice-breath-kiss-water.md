@@ -20,17 +20,17 @@ url: https://github.com/sanqianzilanyue/ai-voice-breath-kiss-water
 canonical_url: https://github.com/sanqianzilanyue/ai-voice-breath-kiss-water
 summary: ''
 first_seen: '2026-09-30T21:00:41Z'
-last_seen: '2026-10-16T00:25:17Z'
+last_seen: '2026-10-17T00:30:30Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sanqianzilanyue/ai-voice-breath-kiss-water
-  seen_at: '2026-10-16T00:25:17Z'
+  seen_at: '2026-10-17T00:30:30Z'
   metrics:
-    stars: 234
-    forks: 25
+    stars: 235
+    forks: 26
     open_issues: 0
   kind: product
 ---

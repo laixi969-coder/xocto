@@ -1,0 +1,18 @@
+- id: ev-747245da8959e495
+  project_slug: latex-renderer
+  url: https://simonwillison.net/2026/Oct/15/latex/
+  title: LaTeX renderer
+  published_at: '2026-10-15T02:07:28Z'
+  collected_at: '2026-10-17T00:31:00Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'Tool: LaTeX renderer Inspired by Paul Ford and Aboard Foundary''s new web app Tiny Little Office
+    , which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder,
+    Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner). Tiny
+    Little Office''s signature trick is to store all of the document data in the #fragment section of
+    the URL, so every document created using it becomes a bookmarkable and shareable link. It also has
+    an llms.txt file telling agents how to construct URLs that will render as documents. Claude used that
+    file to generate this link to a deck that explains how the URL format works: Tiny Little Office inspired
+    me to have Claude Code (Opus 5.5 Extra) build a similar tool that works with LaTeX. Here''s the sequence
+    of prompts I used: I want a tool where you can link to it with a fragment hash #code-here and it treats
+    that code as LaTeX and renders it really effectively. It should also support a prefix which'
