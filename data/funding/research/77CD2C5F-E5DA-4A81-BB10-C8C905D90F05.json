@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "company_id": "77CD2C5F-E5DA-4A81-BB10-C8C905D90F05",
+  "round_fingerprint": "0c8571fd7a6d7c40c766915310ffd15e8fcf99b3ad5e7c706e989ae9c6030f3b",
+  "last_attempt": "2026-10-17",
+  "status": "blocked",
+  "gaps": [
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/ED4B9F5F-0C7A-4EC2-BC0E-0A14C6A06688",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "a startup that offers optimized agents for brands",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "url": "https://loopsai.com/",
+      "kind": "retrieval_gap",
+      "role": "overview",
+      "checked_on": "2026-10-17",
+      "status": "unavailable",
+      "text": "",
+      "error": "ValueError: Page has no usable product text or is a parked/challenge page"
+    }
+  ],
+  "fingerprint": "ea962ffa7d374dfd2360125a2cb1730b6ec2b7cc2869fdc7aac11504879e17c3"
+}
