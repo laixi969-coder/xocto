@@ -1,0 +1,43 @@
+- id: req-initial-adsctl-2026-10-18
+  project_slug: adsctl
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投放运营日常巡检、报告整理和上线易错难回退的问题，旧流程是手动后台操作，痛点具体。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数，缺少投放团队实际使用或客户案例，无法判断是否形成共识。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是代运营或中小投放团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+  - gate: truth
+    status: insufficient
+    reason: 回滚与确定性监控是贴近投放安全目标的设计，但缺少实测与权限边界说明。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+  next_validation: 收集该仓库的 issue、discussion 或文档中关于 Meta 接口权限与回滚机制的实际使用记录。
+  market: ''
+  job: 投放运营在管理 Meta 广告账户时，用命令行或 AI 代理执行账户监控、生成洞察报告并发起可回滚的广告活动。
+  job_en: Ad operations staff use a command line or AI agent to monitor Meta ad accounts, generate insight
+    reports, and launch recoverable campaigns.
+  pain: 日常账户巡检和报告整理重复且耗时，上线操作一旦出错难以回退，人工逐项核对负担重。
+  pain_en: Routine account checks and report assembly are repetitive and slow, and launch mistakes are
+    hard to undo, forcing heavy manual cross-checking.
+  current_alternative: 运营人员在 Meta 广告后台手动巡检、导出数据做表、逐项点击上线，出错后靠人工回滚。
+  current_alternative_en: Staff manually check the Meta Ads Manager, export data into spreadsheets, click
+    through launches, and roll back by hand when something breaks.
+  usage_reason: 推断：相较手动巡检与点击上线，它把监控、报告和上线封装成可被代理调用的确定性动作并保留回滚，减少重复核对与误操作后的返工，因此中小投放团队或代运营会在日常账户维护时选择它。
+  usage_reason_en: 'Inference: versus manual checks and click-through launches, it packages monitoring,
+    reporting, and launches into deterministic agent-callable actions with rollback, cutting repetitive
+    checks and rework after mistakes, so small ad teams or agencies would pick it for routine account
+    upkeep.'

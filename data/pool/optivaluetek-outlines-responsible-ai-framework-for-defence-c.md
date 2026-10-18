@@ -22,7 +22,7 @@ summary: OptiValueTek Outlines Responsible AI Framework for Defence, Critical In
   IT Voice Media
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

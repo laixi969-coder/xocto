@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxObE1hcnZDcV8y
 summary: 'Onto Innovation vs. PDF Solutions: Which Chip Stock is the Better Buy? TradingView'
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

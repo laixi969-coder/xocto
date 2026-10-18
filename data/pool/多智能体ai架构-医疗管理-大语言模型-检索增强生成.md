@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OQlIwRHBjRWhX
 summary: 多智能体AI架构|医疗管理|大语言模型|检索增强生成 手机新浪网
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

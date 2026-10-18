@@ -25,3 +25,182 @@
   source_kind: market_signal
   tier: first_party
   fact: 'Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console'
+- id: ev-c38d49b7799288d2
+  project_slug: ps5lm
+  url: https://github.com/abhi245y/PS5LM
+  title: 'GitHub - abhi245y/PS5LM: llama.cpp on a jailbroken PS5: run any GGUF ...'
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: pain
+  tier: independent
+  fact: 'PS5LM was created by Mert Cobanov (cobanov/PS5LM, ps5lm.cobanov.dev): the llama.cpp port, the
+    payload, its model library and the research all come from there. This fork, by me, adds the native
+    GPU app, named PS5LM Plus to tell it apart from the original, offered back upstream in cobanov/PS5LM#12.'
+- id: ev-e0d1a7cdc75e0931
+  project_slug: ps5lm
+  url: https://github.com/cobanov/PS5LM
+  title: 'GitHub - cobanov/PS5LM: llama.cpp on a jailbroken PS5: run any GGUF ...'
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: pain
+  tier: independent
+  fact: 'Earlier PS5 LLM work hand-writes GPU kernels for one model at a time. PS5LM ports llama.cpp itself,
+    so every architecture and every quantization llama.cpp supports comes along: Qwen, Llama, Mistral,
+    Gemma, from 1-bit to 8-bit. Qwen 3.8''s smallest open model is 27B, and only the 2 to 3 bit quants
+    fit in the console''s memory, which llama.cpp already has.'
+- id: ev-0955c30c92fd9f88
+  project_slug: ps5lm
+  url: https://homebrew.page/app/PPSA99575/
+  title: PS5LM — PS5 Homebrew Store
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: pain
+  tier: independent
+  fact: 'PS5LM, llama.cpp on the PS5 GPU, as its own app (PPSA99575), with a new screen made for the TV
+    and decision models powered by Ollaya. Install: unzip ps5lm-app-v0.9.0.zip and copy the PPSA99575
+    folder to /data/homebrew over FTP; ShadowMountPlus puts PS5LM on the home screen.'
+- id: ev-ae99f8cca7b40727
+  project_slug: ps5lm
+  url: https://github.com/abhi245y/PS5LM
+  title: 'GitHub - abhi245y/PS5LM: llama.cpp on a jailbroken PS5: run any GGUF ...'
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'PS5LM was created by Mert Cobanov (cobanov/PS5LM, ps5lm.cobanov.dev): the llama.cpp port, the
+    payload, its model library and the research all come from there. This fork, by me, adds the native
+    GPU app, named PS5LM Plus to tell it apart from the original, offered back upstream in cobanov/PS5LM#12.'
+- id: ev-3899fd8c70f03948
+  project_slug: ps5lm
+  url: https://github.com/cobanov/PS5LM
+  title: 'GitHub - cobanov/PS5LM: llama.cpp on a jailbroken PS5: run any GGUF ...'
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'Earlier PS5 LLM work hand-writes GPU kernels for one model at a time. PS5LM ports llama.cpp itself,
+    so every architecture and every quantization llama.cpp supports comes along: Qwen, Llama, Mistral,
+    Gemma, from 1-bit to 8-bit. Qwen 3.8''s smallest open model is 27B, and only the 2 to 3 bit quants
+    fit in the console''s memory, which llama.cpp already has.'
+- id: ev-33ed92be3bbf81bd
+  project_slug: ps5lm
+  url: https://homebrew.page/app/PPSA99575/
+  title: PS5LM — PS5 Homebrew Store
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'PS5LM, llama.cpp on the PS5 GPU, as its own app (PPSA99575), with a new screen made for the TV
+    and decision models powered by Ollaya. Install: unzip ps5lm-app-v0.9.0.zip and copy the PPSA99575
+    folder to /data/homebrew over FTP; ShadowMountPlus puts PS5LM on the home screen.'
+- id: ev-92e3adf8a61e0325
+  project_slug: ps5lm
+  url: https://github.com/abhi245y/PS5LM
+  title: 'GitHub - abhi245y/PS5LM: llama.cpp on a jailbroken PS5: run any GGUF ...'
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'PS5LM was created by Mert Cobanov (cobanov/PS5LM, ps5lm.cobanov.dev): the llama.cpp port, the
+    payload, its model library and the research all come from there. This fork, by me, adds the native
+    GPU app, named PS5LM Plus to tell it apart from the original, offered back upstream in cobanov/PS5LM#12.'
+- id: ev-50d3df51f70628d1
+  project_slug: ps5lm
+  url: https://github.com/cobanov/PS5LM
+  title: 'GitHub - cobanov/PS5LM: llama.cpp on a jailbroken PS5: run any GGUF ...'
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'Earlier PS5 LLM work hand-writes GPU kernels for one model at a time. PS5LM ports llama.cpp itself,
+    so every architecture and every quantization llama.cpp supports comes along: Qwen, Llama, Mistral,
+    Gemma, from 1-bit to 8-bit. Qwen 3.8''s smallest open model is 27B, and only the 2 to 3 bit quants
+    fit in the console''s memory, which llama.cpp already has.'
+- id: ev-59ebdee95a09fe50
+  project_slug: ps5lm
+  url: https://homebrew.page/app/PPSA99575/
+  title: PS5LM — PS5 Homebrew Store
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'PS5LM, llama.cpp on the PS5 GPU, as its own app (PPSA99575), with a new screen made for the TV
+    and decision models powered by Ollaya. Install: unzip ps5lm-app-v0.9.0.zip and copy the PPSA99575
+    folder to /data/homebrew over FTP; ShadowMountPlus puts PS5LM on the home screen.'
+- id: ev-34d8ff0eb1366502
+  project_slug: ps5lm
+  url: https://github.com/abhi245y/PS5LM
+  title: 'GitHub - abhi245y/PS5LM: llama.cpp on a jailbroken PS5: run any GGUF ...'
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'PS5LM was created by Mert Cobanov (cobanov/PS5LM, ps5lm.cobanov.dev): the llama.cpp port, the
+    payload, its model library and the research all come from there. This fork, by me, adds the native
+    GPU app, named PS5LM Plus to tell it apart from the original, offered back upstream in cobanov/PS5LM#12.'
+- id: ev-b88aac6aacfb94cc
+  project_slug: ps5lm
+  url: https://github.com/cobanov/PS5LM
+  title: 'GitHub - cobanov/PS5LM: llama.cpp on a jailbroken PS5: run any GGUF ...'
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'Earlier PS5 LLM work hand-writes GPU kernels for one model at a time. PS5LM ports llama.cpp itself,
+    so every architecture and every quantization llama.cpp supports comes along: Qwen, Llama, Mistral,
+    Gemma, from 1-bit to 8-bit. Qwen 3.8''s smallest open model is 27B, and only the 2 to 3 bit quants
+    fit in the console''s memory, which llama.cpp already has.'
+- id: ev-f41d25fcb3d742a4
+  project_slug: ps5lm
+  url: https://homebrew.page/app/PPSA99575/
+  title: PS5LM — PS5 Homebrew Store
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'PS5LM, llama.cpp on the PS5 GPU, as its own app (PPSA99575), with a new screen made for the TV
+    and decision models powered by Ollaya. Install: unzip ps5lm-app-v0.9.0.zip and copy the PPSA99575
+    folder to /data/homebrew over FTP; ShadowMountPlus puts PS5LM on the home screen.'
+- id: ev-d46d2a784bd4aa4e
+  project_slug: ps5lm
+  url: https://github.com/abhi245y/PS5LM
+  title: 'GitHub - abhi245y/PS5LM: llama.cpp on a jailbroken PS5: run any GGUF ...'
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: retention
+  tier: independent
+  fact: 'PS5LM was created by Mert Cobanov (cobanov/PS5LM, ps5lm.cobanov.dev): the llama.cpp port, the
+    payload, its model library and the research all come from there. This fork, by me, adds the native
+    GPU app, named PS5LM Plus to tell it apart from the original, offered back upstream in cobanov/PS5LM#12.'
+- id: ev-bdbead8ba44c6f0e
+  project_slug: ps5lm
+  url: https://github.com/cobanov/PS5LM
+  title: 'GitHub - cobanov/PS5LM: llama.cpp on a jailbroken PS5: run any GGUF ...'
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: retention
+  tier: independent
+  fact: 'Earlier PS5 LLM work hand-writes GPU kernels for one model at a time. PS5LM ports llama.cpp itself,
+    so every architecture and every quantization llama.cpp supports comes along: Qwen, Llama, Mistral,
+    Gemma, from 1-bit to 8-bit. Qwen 3.8''s smallest open model is 27B, and only the 2 to 3 bit quants
+    fit in the console''s memory, which llama.cpp already has.'
+- id: ev-2e614cd00c975e8e
+  project_slug: ps5lm
+  url: https://homebrew.page/app/PPSA99575/
+  title: PS5LM — PS5 Homebrew Store
+  published_at: ''
+  collected_at: '2026-10-18T00:29:14Z'
+  source_kind: retention
+  tier: independent
+  fact: 'PS5LM, llama.cpp on the PS5 GPU, as its own app (PPSA99575), with a new screen made for the TV
+    and decision models powered by Ollaya. Install: unzip ps5lm-app-v0.9.0.zip and copy the PPSA99575
+    folder to /data/homebrew over FTP; ShadowMountPlus puts PS5LM on the home screen.'
+- id: ev-9595ccd90808039d
+  project_slug: ps5lm
+  url: https://www.bing.com/search?format=rss&q=AI+%E6%B6%88%E8%B4%B9%E7%94%B5%E5%AD%90+%E6%B8%B8%E6%88%8F+%E4%B8%BB%E6%9C%BA%E7%8E%A9%E5%AE%B6%E5%9C%A8%E8%B6%8A%E7%8B%B1%E7%9A%84+PS5+%E4%B8%8A%E5%8A%A0%E8%BD%BD%E6%9C%AC%E5%9C%B0+GGUF+%E6%A8%A1%E5%9E%8B%EF%BC%8C%E7%A6%BB%E7%BA%BF%E8%BF%90%E8%A1%8C%E5%AF%B9%E8%AF%9D%E6%88%96%E7%94%9F%E6%88%90%E4%BB%BB%E5%8A%A1%EF%BC%8C%E9%AA%8C%E8%AF%81%E4%B8%BB%E6%9C%BA%E8%83%BD%E5%90%A6%E4%BD%9C%E4%B8%BA%E6%9C%AC%E5%9C%B0%E6%8E%A8%E7%90%86%E8%AE%BE%E5%A4%87
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-10-18T00:30:31Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 消费电子 游戏 主机玩家在越狱的 PS5 上加载本地 GGUF 模型，离线运行对话或生成任务，验证主机能否作为本地推理设备'

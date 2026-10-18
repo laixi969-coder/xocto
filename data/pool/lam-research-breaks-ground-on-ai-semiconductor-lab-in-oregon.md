@@ -1,6 +1,6 @@
 ---
 slug: lam-research-breaks-ground-on-ai-semiconductor-lab-in-oregon
-name: Lam Research breaks ground on AI semiconductor lab in Oregon
+name: Lam Research
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxOTDBldFZQRVdS
 summary: Lam Research breaks ground on AI semiconductor lab in Oregon Manufacturing Dive
 first_seen: '2026-08-28T22:35:10Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Lam Research breaks ground on AI semiconductor lab in Oregon
+# Lam Research
 
 Lam Research breaks ground on AI semiconductor lab in Oregon Manufacturing Dive
 

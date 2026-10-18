@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNY19kRVBzclJ2
 summary: Anthropic's Jack Clark Tells the IMF AI Could Push US GDP to $44 Trillion Startup Fortune
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

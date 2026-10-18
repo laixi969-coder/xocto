@@ -1,0 +1,42 @@
+- id: req-initial-unyra-2026-10-18
+  project_slug: unyra
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决零散资料难以组织成学习路径的问题，痛点具体，交付为可复习内容；但内容准确性仍需人工确认。
+    evidence_ids:
+    - ev-491eaa14df399c33
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，缺少用户评价或使用反馈，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-491eaa14df399c33
+  - gate: model
+    status: insufficient
+    reason: 开源项目，付费路径未披露；可能靠捐赠、增值服务或自用，属判断而非已验证事实。
+    evidence_ids:
+    - ev-491eaa14df399c33
+  - gate: truth
+    status: insufficient
+    reason: 本地优先与学习路径的承诺能否稳定交付，缺少实测与文档说明。
+    evidence_ids:
+    - ev-491eaa14df399c33
+  next_validation: 收集该仓库的 README 与 issue/discussion，核验实际输入格式、学习路径产出形态与本地处理边界。
+  market: ''
+  job: 自学者在准备理解一个新主题、手头有零散本地资料时，把材料交给桌面应用，由它生成探索式学习路径与讲解，最终得到可复习的学习内容。
+  job_en: A self-learner with scattered local materials hands them to a desktop app to generate exploratory
+    learning paths and explanations, ending with reviewable study content.
+  pain: 零散资料难以组织成有顺序的学习路径，自学者常要自己拼凑大纲和讲解，理解与复习之间缺少衔接。
+  pain_en: Scattered materials are hard to organize into an ordered learning path; self-learners often
+    assemble outlines and explanations themselves, with little bridge between understanding and review.
+  current_alternative: 用通用聊天助手逐段提问、自己整理笔记，或依赖现成课程与教材。
+  current_alternative_en: Asking a general chat assistant piece by piece, organizing notes manually, or
+    relying on existing courses and textbooks.
+  usage_reason: 推断：相较逐段向通用助手提问再手工整理，它把本地资料一次性作为输入并直接产出带路径的讲解，减少用户自己搭大纲这一步；对资料私密、希望本地处理的自学者更有吸引力。
+  usage_reason_en: 'Inference: versus asking a general assistant piece by piece and organizing manually,
+    it takes local materials as one input and directly produces path-based explanations, removing the
+    step of building an outline; more attractive to self-learners who want private, local processing.'

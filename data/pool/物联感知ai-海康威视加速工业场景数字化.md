@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMic0FVX3lxTE84djQxNGhhYUxQ
 summary: 物联感知+AI 海康威视加速工业场景数字化 浙江新闻
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

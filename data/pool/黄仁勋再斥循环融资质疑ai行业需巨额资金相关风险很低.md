@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE4zVzVSNmxUYndv
 summary: 黄仁勋再斥“循环融资”质疑：AI行业需巨额资金，相关风险很低！ 财联社
 first_seen: '2026-08-28T08:56:12Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

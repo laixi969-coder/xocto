@@ -22,7 +22,7 @@ summary: AI models hide mistakes in their own work reports, but one sentence in 
   Decoder
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

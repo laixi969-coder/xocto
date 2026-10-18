@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcF9ESzNEVmNG
 summary: Marvell Stock Leads 3 Cash Flow Picks in AI Infrastructure simplywall.st
 first_seen: '2026-08-30T07:37:02Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-sourclip-20-2026-10-18
+  project_slug: sourclip-20
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决文献分散、手工摘录耗时且易丢出处的问题，痛点具体；但具体整理动作与交付未说明。
+    evidence_ids:
+    - ev-b1278a7b7869f5c4
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有用户评价或使用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-b1278a7b7869f5c4
+  - gate: model
+    status: insufficient
+    reason: 未见定价或付费路径，买方可能是学生或研究团队，属推断而非已验证事实。
+    evidence_ids:
+    - ev-b1278a7b7869f5c4
+  - gate: truth
+    status: insufficient
+    reason: 引用准确性、人工确认环节和交付格式均未披露，交付确定性无法核对。
+    evidence_ids:
+    - ev-b1278a7b7869f5c4
+  next_validation: 收集 Sourclip 官方产品页或文档，确认其接收的材料类型、整理与引用流程及是否提供定价。
+  market: ''
+  job: 研究人员或学生在做文献调研时，把资料放进以 Gemini Notebook 为基础的研究工作区，整理笔记并汇总成可引用的研究材料。
+  job_en: Researchers or students doing literature review put sources into a research workspace built
+    around Gemini Notebook, organize notes, and assemble citable research material.
+  pain: 文献多、来源散，手工摘录和整理耗时，且容易丢失出处。
+  pain_en: Many sources are scattered, manual excerpting and organizing is time-consuming, and citations
+    are easily lost.
+  current_alternative: 用笔记软件手工摘录、在文档里整理，或直接用通用对话助手逐篇提问。
+  current_alternative_en: Manual excerpting in note apps, organizing in documents, or asking a general
+    chat assistant about each paper.
+  usage_reason: 推断：把资料集中到一个工作区并围绕其整理，可减少在多个工具间搬运摘录的步骤，适合需要成批处理文献的研究者；但整理质量、引用准确性和交付格式尚无公开证据。
+  usage_reason_en: 'Inference: gathering sources into one workspace and organizing around them cuts the
+    step of moving excerpts between tools, which suits researchers handling many papers; organizing quality,
+    citation accuracy, and output format have no public evidence yet.'

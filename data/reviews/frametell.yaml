@@ -1,0 +1,43 @@
+- id: req-initial-frametell-2026-10-18
+  project_slug: frametell
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决讲解视频脚本、配音、剪辑多环节重复劳动的问题，痛点具体；买方与付费路径尚不清楚。
+    evidence_ids:
+    - ev-02b4b9b0546bf903
+    - ev-ba0f0aa2932048b6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数变化，缺少用户评价或客户案例，无法判断使用共识。
+    evidence_ids:
+    - ev-02b4b9b0546bf903
+    - ev-ba0f0aa2932048b6
+  - gate: model
+    status: insufficient
+    reason: 未见定价或收费方式，商业模式无法核验，属判断而非事实。
+    evidence_ids:
+    - ev-02b4b9b0546bf903
+  - gate: truth
+    status: insufficient
+    reason: 代理编排能否稳定交付可用成片、人工需确认到哪一步，公开材料未说明。
+    evidence_ids:
+    - ev-ba0f0aa2932048b6
+  next_validation: 收集 frametell 官方文档或示例成片，核验分镜控制、导出规格与人工确认环节。
+  market: ''
+  job: 市场或培训人员把已有想法和素材交给 AI 导演代理，生成讲解视频，用于对外说明或课程讲解。
+  job_en: Marketing or training staff hand existing ideas and materials to an AI director agent to produce
+    explainer videos for external communication or course narration.
+  pain: 讲解视频要写脚本、配音、找画面再剪辑，流程长且重复，非专业团队难以稳定产出。
+  pain_en: Explainer videos require scripting, voiceover, sourcing visuals and editing; the long repetitive
+    process is hard for non-specialist teams to sustain.
+  current_alternative: 用剪辑软件手工制作，或外包给视频制作团队。
+  current_alternative_en: Hand-producing in editing software or outsourcing to a video production team.
+  usage_reason: 推断：代理直接接收素材并编排成片，省去脚本、配音与剪辑之间的多次交接，适合需要批量产出讲解视频的培训与营销人员。
+  usage_reason_en: 'Inference: the agent takes materials directly and arranges a finished video, removing
+    repeated handoffs between scripting, voiceover and editing, suiting training and marketing staff who
+    need explainer videos at volume.'

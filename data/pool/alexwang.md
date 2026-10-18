@@ -21,7 +21,7 @@ canonical_url: https://alexwang.ai/posts/associative-memory
 summary: You could have invented transformers from memory
 first_seen: '2026-10-17T00:30:22Z'
 last_seen: '2026-10-18T00:03:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

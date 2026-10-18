@@ -1,0 +1,42 @@
+- id: req-initial-salience-2026-10-18
+  project_slug: salience
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决线上排查时请求与响应分散、定位慢的问题，旧做法是翻日志与监控，痛点具体；买方与付费路径未披露。
+    evidence_ids:
+    - ev-fc867ce94fea34bd
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品说明，没有采用、评价或案例说明谁在持续使用。
+    evidence_ids:
+    - ev-fc867ce94fea34bd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，是判断而非已验证事实；也无融资叙事可判断风险。
+    evidence_ids:
+    - ev-fc867ce94fea34bd
+  - gate: truth
+    status: insufficient
+    reason: AI 具体执行什么动作、交付是日志视图还是诊断结论均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-fc867ce94fea34bd
+  next_validation: 收集 Salience 官方产品页或定价页，确认 AI 在请求分析中的具体动作、交付形式与收费方式。
+  market: ''
+  job: 网站运营或开发人员在线上出现异常时，需要逐个查看访问者请求和服务器响应，定位是哪一步出错。
+  job_en: When a live site misbehaves, operators or developers need to inspect each visitor request and
+    server response to locate the failing step.
+  pain: 请求与响应分散在日志和监控里，排查要来回切换，定位慢且容易漏掉个别失败请求。
+  pain_en: Requests and responses are scattered across logs and monitoring, so diagnosis means switching
+    back and forth, is slow and misses individual failed requests.
+  current_alternative: 旧做法是翻服务器日志、用通用监控面板或浏览器开发者工具逐条比对。
+  current_alternative_en: The old way is reading server logs, using generic monitoring dashboards or browser
+    dev tools to compare entries one by one.
+  usage_reason: 推断：它把请求与对应响应放在同一视图里呈现，省去在日志和监控之间来回切换比对这一步；独立站和小团队在缺少专职运维时会选择它。公开材料未给出用户反馈或留存证据。
+  usage_reason_en: 'Inference: it presents each request alongside its response in one view, removing the
+    back-and-forth comparison between logs and monitoring; independent stores and small teams without
+    dedicated ops would pick it. No user feedback or retention evidence is public.'

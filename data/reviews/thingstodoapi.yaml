@@ -1,0 +1,39 @@
+- id: req-initial-thingstodoapi-2026-10-18
+  project_slug: thingstodoapi
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决了旅游开发者缺乏开箱即用结构化活动数据的痛点，替代自建爬虫具有明确结构价值。
+    evidence_ids:
+    - ev-60e012dd3265ee79
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区发布记录，缺少实际调用规模、生产环境采用案例及开发者反馈。
+    evidence_ids:
+    - ev-60e012dd3265ee79
+  - gate: model
+    status: insufficient
+    reason: 未见公开的按调用量或按月订阅定价页面，商业变现路径尚未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 数据源覆盖范围、更新频率与接口可用性边界仍待技术文档核验。
+    evidence_ids: []
+  next_validation: 官方 API 文档及按调用计费的定价策略页面
+  market: ''
+  job: 开发者在构建旅游规划、出行推荐应用或 AI 旅行代理时，需要调取结构化的本地游玩与待办活动数据。
+  job_en: Developers building travel planners or AI trip agents needing to retrieve structured local activities
+    and points of interest.
+  pain: 自行爬取和维护各城市游玩数据成本高、格式散乱且极易失效，缺少开箱即用的轻量接口。
+  pain_en: Scraping and maintaining destination activity datasets is costly and fragile, lacking lightweight
+    out-of-the-box APIs.
+  current_alternative: 集成 Google Places、Tripadvisor 等大厂重型商业 API，或自建爬虫与人工整理。
+  current_alternative_en: Using heavyweight enterprise APIs like Google Places or maintaining bespoke
+    web scrapers.
+  usage_reason: 推断开发者通过调用专门的活动待办接口，省去自行抓取和解析非结构化点评网页的开发周期，直接获得格式化输出。
+  usage_reason_en: Inferred to bypass raw web scraping and heavy directory pricing by offering streamlined
+    structured activity endpoints.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LLWxFWjNxcDM3
 summary: 百度超级智能体“西进”：一场大会如何搅动西北AI生态 每日经济新闻
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

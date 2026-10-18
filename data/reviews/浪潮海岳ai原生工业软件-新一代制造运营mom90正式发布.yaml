@@ -1,0 +1,44 @@
+- id: req-initial-浪潮海岳ai原生工业软件-新一代制造运营mom90正式发布-2026-10-18
+  project_slug: 浪潮海岳ai原生工业软件-新一代制造运营mom90正式发布
+  level: initial
+  reviewed_at: '2026-10-18T00:04:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决制造运营中数据分散、异常协调费力的问题，但公开材料只有发布标题，无法确认具体任务与交付。
+    evidence_ids:
+    - ev-673275e49ab61107
+  - gate: consensus
+    status: insufficient
+    reason: 未见客户案例、上线工厂或用户反馈，无法判断制造企业是否认可其 AI 原生定位。
+    evidence_ids:
+    - ev-673275e49ab61107
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、实施方式与买方决策链，按项目收费还是按席位收费无法确认，属判断而非事实。
+    evidence_ids:
+    - ev-673275e49ab61107
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 是否贴近制造运营的第一性目标、承诺能否确定性交付，以及人工复核边界。
+    evidence_ids:
+    - ev-673275e49ab61107
+  next_validation: 收集浪潮海岳 MOM9.0 官方产品页或发布稿，确认其 AI 具体功能、部署客户、定价与交付方式。
+  market: ''
+  job: 制造企业的生产与运营人员在排产、工单、质量与设备数据之间做协调，需要把车间实时情况转成可执行的运营决策；MOM9.0 具体接管哪一步仍待核验。
+  job_en: Production and operations staff at manufacturers coordinate scheduling, work orders, quality
+    and equipment data, needing shop-floor conditions turned into actionable operations decisions; which
+    step MOM9.0 takes over remains unverified.
+  pain: 制造运营数据分散在设备、工单与质量系统中，异常发现和跨部门协调依赖人工汇总；这是对制造运营场景的推断，公开材料未给出具体痛点。
+  pain_en: Manufacturing operations data is scattered across equipment, work-order and quality systems,
+    so anomaly detection and cross-team coordination rely on manual aggregation; this is inferred from
+    the domain, as no specific pain is public.
+  current_alternative: 现有做法是使用传统 MES/MOM 系统加人工报表与会议协调，异常靠班组长和经验判断。
+  current_alternative_en: The current approach is traditional MES/MOM systems plus manual reports and
+    meetings, with anomalies handled by shift leaders and experience.
+  usage_reason: 若它能把车间数据直接转成排产调整或异常处置建议，就省去运营人员手工汇总报表再开会确认的一步；这是基于产品定位的推断，缺少功能说明与客户案例。
+  usage_reason_en: If it turns shop-floor data directly into scheduling adjustments or exception-handling
+    suggestions, it removes the step of manually aggregating reports before meetings; this is inferred
+    from positioning, lacking feature detail and customer cases.

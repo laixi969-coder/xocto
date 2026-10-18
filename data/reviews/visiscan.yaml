@@ -1,0 +1,42 @@
+- id: req-initial-visiscan-2026-10-18
+  project_slug: visiscan
+  level: initial
+  reviewed_at: '2026-08-31T00:37:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌无法核对自身在 AI 搜索回答中曝光的问题，交付为可见度报告，痛点具体。
+    evidence_ids:
+    - ev-a907702591eeab71
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，缺少用户评价或采用数据，共识未形成。
+    evidence_ids:
+    - ev-a907702591eeab71
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，买方与收费方式未披露；可能按次或订阅，属判断而非事实。
+    evidence_ids:
+    - ev-a907702591eeab71
+  - gate: truth
+    status: insufficient
+    reason: 扫描口径、覆盖哪些 AI 来源与报告可复现性缺少说明。
+    evidence_ids:
+    - ev-a907702591eeab71
+  next_validation: 核验该产品官网的定价页与报告样例，确认扫描覆盖的 AI 来源与收费方式。
+  market: ''
+  job: 品牌或营销负责人在担心内容在 AI 搜索回答中是否被提及时，用工具对品牌做可见度扫描，最终得到一份可见度报告。
+  job_en: A brand or marketing owner worried about whether content appears in AI search answers runs a
+    visibility scan, ending with a visibility report.
+  pain: AI 回答不透明，品牌难以知道自己在生成式搜索里是否被提及，缺少可核对的检查手段。
+  pain_en: AI answers are opaque; brands struggle to know whether they are mentioned in generative search
+    and lack a checkable way to inspect it.
+  current_alternative: 人工在多个 AI 助手里逐个提问、凭印象判断，或沿用传统 SEO 排名工具。
+  current_alternative_en: Manually querying several AI assistants and judging by impression, or relying
+    on traditional SEO ranking tools.
+  usage_reason: 推断：相较人工逐个提问凭印象判断，它把多来源查询收敛为一次扫描并输出报告，减少重复提问与主观判断；对需要定期检查品牌在 AI 回答中曝光的营销人员更有吸引力。
+  usage_reason_en: 'Inference: versus manually querying assistants and judging by impression, it consolidates
+    multi-source queries into one scan and a report, reducing repeated questioning and subjective judgment;
+    more attractive to marketers who need periodic checks of brand exposure in AI answers.'

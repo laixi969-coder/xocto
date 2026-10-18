@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQSDdKRlp5UW1x
 summary: Consumer Goods Software Solutions in AWS Marketplace Amazon Web Services (AWS)
 first_seen: '2026-08-29T15:37:06Z'
 last_seen: '2026-10-15T00:32:38Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

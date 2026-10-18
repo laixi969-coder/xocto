@@ -1,6 +1,6 @@
 ---
 slug: persistent-announces-4876m-revenue-in-q2-fy27-with-200-y-o-y
-name: Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth
+name: Persistent Systems
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxQV2lvUk9mT1I1
 summary: Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth TradingView
 first_seen: '2026-10-16T00:25:46Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth
+# Persistent Systems
 
 Persistent Announces $487.6M Revenue in Q2 FY27 with 20.0% Y-o-Y Growth TradingView
 

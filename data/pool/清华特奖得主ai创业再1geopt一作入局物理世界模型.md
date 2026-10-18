@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/503880.html
 summary: 从搭载物理建模能力的世界模型切入
 first_seen: '2026-10-18T00:04:10Z'
 last_seen: '2026-10-18T00:04:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

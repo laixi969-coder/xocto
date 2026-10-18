@@ -1,6 +1,6 @@
 ---
 slug: nvidia-与半导体领军企业携手推进-ai-在芯片设计与制造领域的应用助力实现-ai-定义的晶圆厂
-name: NVIDIA 与半导体领军企业携手推进 AI 在芯片设计与制造领域的应用，助力实现 AI 定义的晶圆厂
+name: NVIDIA
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1ha0cwd2tNQzcz
 summary: NVIDIA 与半导体领军企业携手推进 AI 在芯片设计与制造领域的应用，助力实现 AI 定义的晶圆厂 新浪网
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# NVIDIA 与半导体领军企业携手推进 AI 在芯片设计与制造领域的应用，助力实现 AI 定义的晶圆厂
+# NVIDIA
 
 NVIDIA 与半导体领军企业携手推进 AI 在芯片设计与制造领域的应用，助力实现 AI 定义的晶圆厂 新浪网
 

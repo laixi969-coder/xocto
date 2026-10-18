@@ -1,0 +1,42 @@
+- id: req-initial-muxin-2026-10-18
+  project_slug: muxin
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多机分散管理的问题，痛点是在终端和远程桌面间切换、日志文件难汇总，旧做法是 SSH 加各机工具。
+    evidence_ids:
+    - ev-46a9e93acb1f0438
+  - gate: consensus
+    status: insufficient
+    reason: 有 277 个星标和 42 个分支，但无用户评价或采用案例说明实际使用场景。
+    evidence_ids:
+    - ev-46a9e93acb1f0438
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径，买方与收费方式不明。
+    evidence_ids:
+    - ev-46a9e93acb1f0438
+  - gate: truth
+    status: insufficient
+    reason: 未见权限控制、安全边界或部署文档的公开材料，跨机操作的确定性待核验。
+    evidence_ids:
+    - ev-46a9e93acb1f0438
+  next_validation: 收集官方文档或仓库 issue 中关于权限控制与部署方式的说明，确认跨机操作的安全边界。
+  market: ''
+  job: 开发者或运维人员要在多台 Mac、Linux、Windows 机器上查看代理会话、文件、日志和代码仓库并操作。
+  job_en: A developer or operator needs to view and act on agent sessions, files, logs and repositories
+    across several Mac, Linux and Windows machines.
+  pain: 多机之间来回切换终端和远程桌面，日志与文件分散，代理跑在哪台机器上难以追踪。
+  pain_en: Switching terminals and remote desktops between machines scatters logs and files, and it is
+    hard to track which machine an agent is running on.
+  current_alternative: SSH、远程桌面、各机器自带的终端和文件同步工具分别使用。
+  current_alternative_en: SSH, remote desktop, and each machine's own terminal and file-sync tools used
+    separately.
+  usage_reason: 推断：它把多台机器的会话、桌面、文件和日志收进一个应用并开放 MCP 接口，省掉逐台切换终端和手工汇总日志的步骤，因此需要让代理跨机执行任务的开发者会选它。
+  usage_reason_en: 'Inference: it gathers sessions, desktops, files and logs from several machines into
+    one app with an MCP interface, removing per-machine terminal switching and manual log gathering, so
+    developers running agents across machines would pick it.'

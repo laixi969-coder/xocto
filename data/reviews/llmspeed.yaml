@@ -1,0 +1,42 @@
+- id: req-initial-llmspeed-2026-10-18
+  project_slug: llmspeed
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地推理硬件选型时跑分不可比的问题，痛点刚性且不采用会买错设备；买方是采购硬件的开发者或小团队。
+    evidence_ids:
+    - ev-4b331a950f447a1a
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度较高，但未见用户反馈说明它替代了原有选型流程。
+    evidence_ids:
+    - ev-4b331a950f447a1a
+  - gate: model
+    status: insufficient
+    reason: 未见定价或收费方式，买方可能是个人开发者，付费路径不明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-4b331a950f447a1a
+  - gate: truth
+    status: insufficient
+    reason: 测速口径、模型覆盖和结果可复现性均未核验，无法确认交付是否确定发生。
+    evidence_ids:
+    - ev-4b331a950f447a1a
+  next_validation: 收集 Llmspeed 官方页面或文档中关于测速方法、支持模型与是否提供可复现报告的说明。
+  market: ''
+  job: 开发者在采购本地推理硬件前，用同一模型对比不同显卡或整机的生成速度，决定买哪套配置。
+  job_en: Developers compare token generation speed across GPUs or machines with the same model before
+    buying local inference hardware.
+  pain: 硬件选错代价高，而现有跑分来自不同模型、量化和驱动设置，无法直接比较，只能靠论坛经验猜测。
+  pain_en: Wrong hardware is costly, and existing benchmarks use different models, quantization and drivers,
+    so they cannot be compared directly; buyers guess from forum anecdotes.
+  current_alternative: 翻论坛帖子、看零散跑分视频，或买回来再测。
+  current_alternative_en: Reading forum threads, watching scattered benchmark videos, or buying first
+    and testing afterwards.
+  usage_reason: 推断：它把同一模型放到候选配置上直接测速，省去用户自己搭环境、对齐参数再对比的那一步，因此正在做采购决策的开发者会在下单前用它。
+  usage_reason_en: 'Inference: it runs the same model on candidate configurations directly, removing the
+    step of setting up environments and aligning parameters before comparison, so developers making a
+    purchase decision use it before ordering.'

@@ -1,0 +1,42 @@
+- id: req-initial-kapwing-2026-10-18
+  project_slug: kapwing
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 视频镜头语言难以用文字稳定表达的问题，痛点是反复生成筛选，旧做法是改写提示词抽卡。
+    evidence_ids:
+    - ev-64e3ac0d04fa9057
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，未见创作者或客户明确反馈该控制方式被持续采用。
+    evidence_ids:
+    - ev-64e3ac0d04fa9057
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明该功能的定价与付费路径，买方可能是创作者或营销团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-64e3ac0d04fa9057
+  - gate: truth
+    status: insufficient
+    reason: 镜头参数能否稳定兑现分镜意图、人工仍需筛选多少，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-64e3ac0d04fa9057
+  next_validation: 收集 Kapwing 官方定价页或客户案例，确认镜头控制功能的计费方式与实际交付效果。
+  market: ''
+  job: 短视频创作者和营销团队在生成 AI 视频前，需要把镜头机位与运动方式写进提示词，以得到符合分镜的可控画面。
+  job_en: Short-video creators and marketing teams need to write camera position and movement into prompts
+    before generating AI video to get controllable footage matching the storyboard.
+  pain: 纯文本提示词难以稳定表达镜头语言，用户往往反复生成再筛选，浪费生成次数与时间。
+  pain_en: Plain-text prompts express camera language poorly, so users regenerate and filter repeatedly,
+    wasting generations and time.
+  current_alternative: 在通用视频生成工具里反复改写提示词、多次抽卡后人工挑选可用片段。
+  current_alternative_en: Repeatedly rewriting prompts in general video generation tools and manually
+    picking usable clips after many generations.
+  usage_reason: 推断：相较反复试提示词，它把机位与运动拆成可选参数，减少“改词—重生成—再筛选”的循环，因此需要按分镜控制镜头的广告与短剧团队会在生成前选择它。
+  usage_reason_en: 'Inference: compared with trial-and-error prompting, it breaks camera position and
+    motion into selectable parameters, cutting the rewrite-regenerate-filter loop, so ad and short-drama
+    teams needing storyboard-level camera control would choose it before generating.'

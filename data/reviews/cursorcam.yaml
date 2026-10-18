@@ -1,0 +1,42 @@
+- id: req-initial-cursorcam-2026-10-18
+  project_slug: cursorcam
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决演示视频制作耗时、改版后需重录的痛点，旧做法是人工录屏加剪辑，结构上成立。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标，缺少用户评价或客户案例说明谁在持续使用。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费路径，买方可能是开发者个人或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+  - gate: truth
+    status: insufficient
+    reason: 能否稳定处理登录态和复杂交互、交付是否确定，公开材料未说明。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+  next_validation: 收集该仓库的 issue 与讨论，确认登录态、复杂交互下的录制成功率与失败处理方式。
+  market: ''
+  job: 开发者在向客户或团队展示网页应用时，需要一段能看清操作路径的演示视频，原本要自己录屏、剪辑并加放大效果。
+  job_en: When showing a web app to clients or teammates, developers need a demo video that makes the
+    interaction path clear, which normally means recording, editing and adding zoom effects themselves.
+  pain: 人工录屏加剪辑耗时，且每次界面改动都要重录；演示视频又直接影响客户理解和成交。
+  pain_en: Manual recording and editing is time-consuming, must be redone after every UI change, and demo
+    videos directly affect client understanding and closing.
+  current_alternative: 开发者用录屏软件手动操作，再在剪辑软件里加放大和字幕，或干脆不提供视频。
+  current_alternative_en: Developers operate screen recorders manually, then add zooms and captions in
+    editing software, or skip video entirely.
+  usage_reason: 推断：代理直接点击页面并输出带点击放大的 MP4，省去录屏和剪辑两步，开发者只需检查成品；适合频繁改版、需要反复出演示的独立开发者和小团队。
+  usage_reason_en: 'Inference: the agent clicks through the page and outputs an MP4 with zoomed clicks,
+    removing the record and edit steps so developers only review the result; suits indie developers and
+    small teams who ship changes often and need repeated demos.'

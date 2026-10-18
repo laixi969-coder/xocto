@@ -1,6 +1,6 @@
 ---
 slug: anthropic向黑石集团提供逾10收益率支撑600亿美元ai芯片融资计划-提供者-investingcom
-name: Anthropic向黑石集团提供逾10%收益率，支撑600亿美元AI芯片融资计划 提供者 Investing.com
+name: Anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiakFVX3lxTE9VSDU1T0VxRFQ4
 summary: Anthropic向黑石集团提供逾10%收益率，支撑600亿美元AI芯片融资计划 提供者 Investing.com 英为财情 Investing.com
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic向黑石集团提供逾10%收益率，支撑600亿美元AI芯片融资计划 提供者 Investing.com
+# Anthropic
 
 Anthropic向黑石集团提供逾10%收益率，支撑600亿美元AI芯片融资计划 提供者 Investing.com 英为财情 Investing.com
 

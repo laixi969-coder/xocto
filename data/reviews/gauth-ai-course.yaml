@@ -1,0 +1,40 @@
+- id: req-initial-gauth-ai-course-2026-10-18
+  project_slug: gauth-ai-course
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决现成课程不覆盖具体主题、自学缺测验的问题，痛点具体；买方与付费路径尚不清楚。
+    evidence_ids:
+    - ev-5f8ec4a428f11b74
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，缺少用户评价或采用数据，无法判断使用共识。
+    evidence_ids:
+    - ev-5f8ec4a428f11b74
+  - gate: model
+    status: insufficient
+    reason: 未见定价或收费方式，商业模式无法核验，属判断而非事实。
+    evidence_ids:
+    - ev-5f8ec4a428f11b74
+  - gate: truth
+    status: insufficient
+    reason: 生成课程的内容准确性与测验有效性公开材料未说明，交付确定性存疑。
+    evidence_ids:
+    - ev-5f8ec4a428f11b74
+  next_validation: 收集 Gauth AI Course 官方页面或课程示例，核验课程来源、测验机制与内容准确性说明。
+  market: ''
+  job: 学生或自学者在需要学习某主题时，观看 AI 生成的课程并做随堂测验，或自己创建课程。
+  job_en: Students or self-learners watch AI-generated courses and take quizzes on a topic, or create
+    their own course.
+  pain: 现成课程未必覆盖具体主题，自学缺少配套测验来检验掌握程度。
+  pain_en: Existing courses may not cover a specific topic, and self-study lacks matching quizzes to check
+    mastery.
+  current_alternative: 在视频平台找现成课程，或自己整理资料自学。
+  current_alternative_en: Finding existing courses on video platforms or self-studying from gathered materials.
+  usage_reason: 推断：按主题生成课程并配测验，省去在多个平台找课和自出题的一步，适合需要针对性学习的学生。
+  usage_reason_en: 'Inference: generating a course with quizzes per topic removes the step of searching
+    multiple platforms and writing one''s own questions, suiting students needing targeted study.'

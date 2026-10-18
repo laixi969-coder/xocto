@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1SUW5oeTZFTnhG
 summary: AMD智能体PC落地真实工作流：究竟改变了什么 驱动之家
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

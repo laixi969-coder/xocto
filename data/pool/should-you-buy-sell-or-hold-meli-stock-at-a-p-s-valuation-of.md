@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPTjRjcHRSRENq
 summary: Should You Buy, Sell or Hold MELI Stock at a P/S Valuation of 1.83X? TradingView
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

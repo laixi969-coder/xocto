@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE80c1RtaUM5dDJZ
 summary: AI智能体频频“越狱”：网络安全迎来范式重构时刻！ finance.sina.com.cn
 first_seen: '2026-08-29T08:24:00Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

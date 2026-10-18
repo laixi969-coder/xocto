@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/akhaliq/moss-image-4-step-turbo
 summary: ''
 first_seen: '2026-10-18T00:04:08Z'
 last_seen: '2026-10-18T00:04:08Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

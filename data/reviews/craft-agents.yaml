@@ -1,0 +1,41 @@
+- id: req-initial-craft-agents-2026-10-18
+  project_slug: craft-agents
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未写出，只有一句交互体验宣传语，价值关无法成立。
+    evidence_ids:
+    - ev-be89ef31b8b75748
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无任何采用或讨论证据。
+    evidence_ids:
+    - ev-be89ef31b8b75748
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均未披露。
+    evidence_ids:
+    - ev-be89ef31b8b75748
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生，也无人工边界说明。
+    evidence_ids:
+    - ev-be89ef31b8b75748
+  next_validation: 收集 Craft Agents 官方产品页或文档，确认其具体输入材料、执行动作、交付物与是否公布定价。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法还原用户在处理什么材料、要完成什么任务。
+  job_en: The public material names no specific user or work step, so it is impossible to reconstruct
+    what material is handled or what task is completed.
+  pain: 只有“代理体验不好”这一隐含抱怨，未说明旧做法在哪一步耗时或出错。
+  pain_en: Only an implied complaint about poor agent UX is present; the material does not say which step
+    of the old approach is slow or error-prone.
+  current_alternative: 未披露；按品类推断，用户可能仍在命令行或通用聊天界面里手动串联代理步骤，但这是推断。
+  current_alternative_en: Not disclosed; by category inference, users may still chain agent steps manually
+    in a terminal or general chat interface, but this is inference.
+  usage_reason: 无法判断。缺少具体输入、动作与交付，无法说明相较旧做法减少了哪一步负担。
+  usage_reason_en: Cannot be judged. With no concrete input, action or deliverable, there is no basis
+    to say which step of the old approach it relieves.

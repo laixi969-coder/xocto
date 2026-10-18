@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPV01NcFJ1dEVY
 summary: 【关注】团区委| 举办政企智能体AI落地分享会|Agent|杭州市|浙江省|实战|数字化 finance.sina.com.cn
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

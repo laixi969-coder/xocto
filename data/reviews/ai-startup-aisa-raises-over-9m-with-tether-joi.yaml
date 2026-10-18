@@ -1,0 +1,40 @@
+- id: req-initial-ai-startup-aisa-raises-over-9m-with-tether-joi-2026-10-18
+  project_slug: ai-startup-aisa-raises-over-9m-with-tether-joi
+  level: initial
+  reviewed_at: '2026-10-18T00:04:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未披露，无法还原旧流程与交付结果。
+    evidence_ids:
+    - ev-3117d7074caba6c7
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资报道，没有用户采用、客户案例或社区讨论证据。
+    evidence_ids:
+    - ev-3117d7074caba6c7
+  - gate: model
+    status: insufficient
+    reason: 买方、收费方式与付费路径均未披露，无法判断钱从哪来。
+    evidence_ids:
+    - ev-3117d7074caba6c7
+  - gate: truth
+    status: insufficient
+    reason: 无法核对承诺能否确定性交付，也看不到人工边界与安全说明。
+    evidence_ids:
+    - ev-3117d7074caba6c7
+  next_validation: 收集 AIsa 官方产品页或官方发布材料，确认其具体功能、目标用户与交付物。
+  market: ''
+  job: 公开材料未说明具体使用者、使用情境、处理材料与要完成的任务，无法还原工作节点。
+  job_en: Public material does not identify the user, situation, material handled or task to complete,
+    so the work step cannot be reconstructed.
+  pain: 材料未披露它解决什么痛点，也未说明不采用会失去什么。
+  pain_en: The material discloses neither the pain it solves nor what is lost without it.
+  current_alternative: 材料未说明用户现在用什么旧办法完成同类任务。
+  current_alternative_en: The material does not say what old method users currently use for the same task.
+  usage_reason: 仅有融资事实，无法说明相较旧做法减少了哪一步负担或改善了哪项可核对结果；缺少产品能力与使用场景这一环。
+  usage_reason_en: Only a funding fact is available, so it cannot show which step burden is reduced or
+    which checkable result improves versus the old method; the product capability and use-case link is
+    missing.

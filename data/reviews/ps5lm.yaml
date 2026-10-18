@@ -84,3 +84,46 @@
     step of buying inference hardware, which attracts jailbroken-console owners who care about offline
     use and zero API cost; without retention or repeat-use evidence it cannot be said to sit in a stable
     workflow.'
+- id: req-initial-ps5lm-2026-10-18
+  project_slug: ps5lm
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决在游戏机上离线跑模型的需求，但痛点主要来自极客尝鲜，不用也不会失去关键能力，刚性不足。
+    evidence_ids:
+    - ev-39c42106c7a8a6a2
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度较高，但属于关注度信号，不能证明持续采用或强场景。
+    evidence_ids:
+    - ev-39c42106c7a8a6a2
+    - ev-d83a98590cc7766b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径，买方与收费方式不明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-39c42106c7a8a6a2
+  - gate: truth
+    status: insufficient
+    reason: 仅说明能在越狱主机上运行，速度、稳定性与安全边界未披露，交付确定性待核验。
+    evidence_ids:
+    - ev-39c42106c7a8a6a2
+  next_validation: 收集该仓库的 issue 与 discussion，核验实际推理速度、可用模型规模与稳定性反馈。
+  market: ''
+  job: 越狱 PS5 的玩家在主机上加载本地 GGUF 模型，离线运行对话或生成任务，验证主机能否作为本地推理设备。
+  job_en: Jailbroken PS5 owners load local GGUF models on the console to run offline chat or generation
+    tasks and test whether it can serve as a local inference device.
+  pain: 想在游戏机上离线跑模型的人缺少现成方案，只能自己折腾环境；但这一需求主要来自极客尝鲜，日常使用频率和刚性都低。
+  pain_en: People who want to run models offline on a console lack a ready-made option and must tinker
+    themselves; but the need comes mostly from hobbyist curiosity, with low frequency and low rigidity.
+  current_alternative: 在 PC 或笔记本上用 llama.cpp、Ollama 等本地推理工具，或直接用云端模型服务。
+  current_alternative_en: Using local inference tools such as llama.cpp or Ollama on a PC or laptop, or
+    calling cloud model services directly.
+  usage_reason: 推断：它把本地推理搬到已有主机上，省去另购 PC 的硬件成本，因此会吸引愿意越狱、追求离线与折腾乐趣的极客在尝鲜场景下试用；但缺少持续使用证据，日常价值尚不明确。
+  usage_reason_en: 'Inference: it moves local inference onto an existing console, saving the hardware
+    cost of a separate PC, so it appeals to jailbreak-willing hobbyists seeking offline use and tinkering
+    fun in trial scenarios; there is no evidence of sustained use, so everyday value remains unclear.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE03dWU0LW5YRk5u
 summary: At Anthropic, Junior Jobs Are Shrinking www.trendingtopics.eu
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

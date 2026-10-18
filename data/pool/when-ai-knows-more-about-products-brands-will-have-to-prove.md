@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTVfSE1KZ3hW
 summary: When AI Knows More About Products, Brands Will Have to Prove More AsiaTechDaily
 first_seen: '2026-08-30T07:00:00Z'
 last_seen: '2026-09-01T14:56:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -23,7 +23,7 @@ summary: India’s AI funding momentum gathers pace as startups draw bigger grow
   LinkedIn
 first_seen: '2026-08-29T05:37:39Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

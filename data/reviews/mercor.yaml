@@ -1,0 +1,43 @@
+- id: req-initial-mercor-2026-10-18
+  project_slug: mercor
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决通用基准无法覆盖真实职业任务的问题，但材料未给出输入、动作与交付，痛点强度无法判断。
+    evidence_ids:
+    - ev-33e59376b56c3915
+    - ev-dba8c49a3da30ea1
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度只反映关注度，没有客户采用或重复使用证据。
+    evidence_ids:
+    - ev-33e59376b56c3915
+  - gate: model
+    status: insufficient
+    reason: 买方应为需要专家评估的企业，但定价与付费路径未披露，属判断而非事实。
+    evidence_ids:
+    - ev-dba8c49a3da30ea1
+  - gate: truth
+    status: insufficient
+    reason: 自有研究结论未经第三方复核，交付确定性与人工边界缺少材料。
+    evidence_ids:
+    - ev-33e59376b56c3915
+  next_validation: 收集 Mercor 官网的定价页或客户案例，确认其按任务匹配专家的交付物与计价方式。
+  market: ''
+  job: 企业在需要特定领域专家标注数据或评估模型输出时，通过平台匹配并按任务雇佣专业人员完成评估与数据生产（具体流程仍待核验）。
+  job_en: When enterprises need domain experts to label data or evaluate model outputs, they match and
+    hire professionals per task through the platform (exact workflow still to be verified).
+  pain: 材料只说明现有 AI 基准覆盖不足，未描述企业因此遇到的具体困难；只能推断通用基准难以反映真实职业任务。
+  pain_en: The materials only say existing AI benchmarks cover tasks poorly, without describing the concrete
+    difficulty enterprises face; it can only be inferred that generic benchmarks fail to reflect real
+    occupational tasks.
+  current_alternative: 材料未说明现有替代方式；常见做法是使用通用众包标注或公开基准（推断）。
+  current_alternative_en: The materials do not state current alternatives; common practice would be generic
+    crowdsourced labeling or public benchmarks (inference).
+  usage_reason: 本次材料是研究结论而非产品动作或客户案例，无法说明相较旧做法减少了哪一步负担；这是判断缺口。
+  usage_reason_en: This material is a research finding, not a product action or customer case, so it cannot
+    show which step is reduced versus the old way; this is a judgment gap.

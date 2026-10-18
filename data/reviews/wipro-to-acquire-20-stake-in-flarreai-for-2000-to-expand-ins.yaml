@@ -1,0 +1,42 @@
+- id: req-initial-wipro-to-acquire-20-stake-in-flarreai-for-2000-to-expand-ins-2026-10-18
+  project_slug: wipro-to-acquire-20-stake-in-flarreai-for-2000-to-expand-ins
+  level: initial
+  reviewed_at: '2026-10-18T00:04:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知面向保险的 AI 能力，未说明解决哪一步具体任务与痛点，价值结构无法还原。
+    evidence_ids:
+    - ev-819e73ed996b1baf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有入股报道，没有保险客户采用、试点或使用反馈。
+    evidence_ids:
+    - ev-819e73ed996b1baf
+  - gate: model
+    status: insufficient
+    reason: 买方可能是保险机构或 Wipro 自身，付费路径与计价方式均未披露，属判断而非事实。
+    evidence_ids:
+    - ev-819e73ed996b1baf
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也未见人工复核边界与安全说明。
+    evidence_ids:
+    - ev-819e73ed996b1baf
+  next_validation: 收集 FLARRE.AI 官方产品页或 Wipro 公告，确认其处理的保险环节、交付物与客户案例。
+  market: ''
+  job: 保险机构在处理保单、核保或理赔材料时，希望用 AI 完成其中一步判断或信息处理；具体岗位与环节未披露。
+  job_en: An insurance organization handling policies, underwriting or claims materials wants AI to complete
+    one judgment or information-processing step; the specific role and step were not disclosed.
+  pain: 公开材料只说明面向保险的 AI 能力，未说明原来哪一步人工处理最痛、耗时多少或出错后果。
+  pain_en: Public material only mentions insurance-focused AI capability; it does not say which manual
+    step was most painful, how long it took or what errors cost.
+  current_alternative: 保险机构现有的做法可能是人工审阅材料或使用传统规则系统，但候选未提供可核对的旧流程描述。
+  current_alternative_en: Insurers may currently rely on manual review or traditional rules systems, but
+    the candidate provides no verifiable description of the old process.
+  usage_reason: 无法判断用户为何选择它：材料未说明产品通过什么具体动作减少哪一步负担，也未提供客户使用反馈；Wipro 入股属于资本动作，不能证明用户采用。
+  usage_reason_en: 'Why users would choose it cannot be determined: the material does not say which step
+    the product reduces through what action, and no customer feedback is provided; Wipro''s stake is a
+    capital action, not evidence of user adoption.'

@@ -21,7 +21,7 @@ canonical_url: https://github.com/donutbrowser/donutbrowser
 summary: the most private anti-detect browser
 first_seen: '2026-10-18T00:03:44Z'
 last_seen: '2026-10-18T00:03:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

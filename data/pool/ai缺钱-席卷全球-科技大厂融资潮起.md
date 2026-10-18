@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE1BYUdPOTUtTVho
 summary: AI缺钱 席卷全球 科技大厂融资潮起 中华网
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

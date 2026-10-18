@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUHpwSExJQUt1
 summary: India AI funding hits second gear Moneycontrol.com
 first_seen: '2026-08-29T07:18:14Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

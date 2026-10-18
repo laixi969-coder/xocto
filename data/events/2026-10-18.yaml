@@ -237,8 +237,10 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日，Forgemesh 发布 Pay-per-Crawl，让 AI 爬虫按页以 USDC 付费，宣称覆盖 10 种技术栈；目前仅有少量社区讨论，尚无定价、客户或采用数据。
+  summary_en: On 17 October 2026, Forgemesh published Pay-per-Crawl, which makes AI crawlers pay per page
+    in USDC and claims support for 10 stacks; so far there is only limited community discussion, with
+    no pricing, customer or adoption data.
   evidence_ids:
   - ev-fcceb53ef6829aa2
   homepage: true
@@ -432,8 +434,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Kapwing 上线面向 AI 视频提示词的镜头控制与运动参数页面，让用户在生成视频前指定机位与运动方式。
+  summary_en: Kapwing launched a page for camera controls and motion parameters in AI video prompts, letting
+    users specify camera position and movement before generating video.
   evidence_ids:
   - ev-64e3ac0d04fa9057
   homepage: true
@@ -588,8 +591,8 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 公开报道称亚马逊在英国仓库使用 AI 监控工会活动风险。
+  summary_en: Public reporting states that Amazon uses AI to monitor union-activity risk in UK warehouses.
   evidence_ids:
   - ev-9c9487f49b8be8fe
   homepage: true
@@ -614,8 +617,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: DeepSeek 发布 V4.1 Flash 1017 模型，模型页与 API 文档同步上线。
+  summary_en: DeepSeek released the V4.1 Flash 1017 model, with its model page and API documentation going
+    live.
   evidence_ids:
   - ev-b19f69deab65e848
   homepage: true
@@ -627,8 +631,10 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Black Forest Labs 于 2026 年 10 月 16 日发布 FLUX 3 Image Klein 图像模型，社区讨论热度较高。这是模型层发布，不是独立应用产品；候选材料未给出定价、授权方式或下游应用接入情况。
+  summary_en: Black Forest Labs released the FLUX 3 Image Klein image model on 16 October 2026, drawing
+    notable community discussion. This is a model-layer release rather than an independent application;
+    the candidate material gives no pricing, licensing terms or downstream integration.
   evidence_ids:
   - ev-b004da9964de65ee
   homepage: true
@@ -653,8 +659,8 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 于 2026 年 6 月被授予最高级别的垃圾级信用评级。
+  summary_en: Anthropic was assigned the highest junk credit rating in June 2026.
   evidence_ids:
   - ev-d548cce4144fc19d
   homepage: true
@@ -679,8 +685,10 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日，Mercor 发布劳动指数基准地图，称美国工作时间中约 90% 用于现有 AI 基准覆盖不佳的任务；该结论为其自有研究，未附第三方复核。
+  summary_en: On 16 October 2026 Mercor published a labor-index benchmark map stating that about 90% of
+    US working hours go to tasks poorly covered by existing AI benchmarks; the finding is its own research
+    without third-party review.
   evidence_ids:
   - ev-dba8c49a3da30ea1
   homepage: true
@@ -705,8 +713,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: MapQuest 于 2026 年 10 月新增功能，在地图上显示社区内 Flock 摄像头的位置。
+  summary_en: MapQuest added a feature in October 2026 that shows the locations of Flock cameras in users'
+    neighborhoods on its maps.
   evidence_ids:
   - ev-6ba7dbfeb15dbad8
   homepage: true
@@ -718,8 +727,8 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: C++26 新增调试头文件，相关技术文章介绍了该头文件的用法。
+  summary_en: C++26 adds a new debugging header, described in a technical article covering its usage.
   evidence_ids:
   - ev-0c91320eafb3a5e0
   homepage: true
@@ -731,8 +740,10 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 越狱 PS5 的玩家在主机上通过 llama.cpp 加载任意 GGUF 模型，让游戏机离线跑本地推理；目前公开材料只说明能跑起来，具体速度、可用模型规模和实际交付流程仍待核验。
+  summary_en: Jailbroken PS5 owners load arbitrary GGUF models through llama.cpp to run local inference
+    on the console; public material only shows it runs, while speed, usable model sizes and the actual
+    delivery flow remain unverified.
   evidence_ids:
   - ev-d83a98590cc7766b
   homepage: true
@@ -3152,8 +3163,9 @@
   signals:
   - release
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: OpenAI Python SDK v3.35.0 新增带类型的 Live sideband 事件，并为 Agents 增加 ultrafast 服务层级。
+  summary_en: OpenAI Python SDK v3.35.0 adds typed Live sideband events and an ultrafast service tier
+    for Agents.
   evidence_ids:
   - ev-11bedbf728516640
   homepage: true
@@ -3165,8 +3177,9 @@
   signals:
   - release
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: Ollama 发布 v0.40.6，新增 GGUF q2_0 张量与文件类型支持，修复 Windows 孤儿 runner 问题，并在 Ollama 云中上线 clef。
+  summary_en: Ollama released v0.40.6, adding GGUF q2_0 tensor and file type support, fixing orphaned
+    runners on Windows, and launching clef in Ollama's cloud.
   evidence_ids:
   - ev-326d73d84193e226
   homepage: true
@@ -3178,8 +3191,14 @@
   signals:
   - update
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月15日，llama.cpp 发布 v0.7.0：新增 LiliCorr 投机解码与 GLM5-Next 的 MTP 支持，并加入把 MoE 专家权重留在主机内存的 GPU
+    缓存选项（--moe-cache-mib），官方称专家卸载场景下解码最高约 2.2 倍加速；同时支持 K2 Horizon、Prism Bonsai 2 27B、EmbeddingGemma-2、LiquidAI
+    d1/d1-omni、MiniCPM-V 4.7、Nemotron Super 3.5 VL 等一批新模型，服务端重构了聊天会话 API。
+  summary_en: 'On 15 October 2026, llama.cpp released v0.7.0: it adds LiliCorr speculative decoding and
+    MTP support for GLM5-Next, plus a GPU cache option that keeps MoE expert weights in host memory (--moe-cache-mib),
+    which the release claims gives up to roughly 2.2x faster decoding when experts are offloaded; it also
+    adds support for K2 Horizon, Prism Bonsai 2 27B, EmbeddingGemma-2, LiquidAI d1/d1-omni, MiniCPM-V
+    4.7, Nemotron Super 3.5 VL and other models, and refactors the server chat session API.'
   evidence_ids:
   - ev-f1ea1a18761a6926
   homepage: true
@@ -3203,8 +3222,10 @@
   discovered_at: '2026-10-18T00:04:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 于 2026 年 10 月 16 日发布客户案例：Benefit Street Partners 的 Anant Kumar 使用 Codex 做代码审查，并用于比较贷款估值、分析信贷协议，以加快内部问询的回复速度。案例未披露使用人数、节省时长或付费金额。
+  summary_en: 'On 16 October 2026 OpenAI published a customer story: Anant Kumar at Benefit Street Partners
+    uses Codex for code review and to compare loan valuations and analyze credit agreements, speeding
+    up internal follow-ups. The story discloses no user counts, time saved or spend.'
   evidence_ids:
   - ev-68523f42e1547ec6
   homepage: true
@@ -3215,8 +3236,8 @@
   discovered_at: '2026-10-18T00:04:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AI Gateway 的日志新增会话亲和性（session affinity）展示。
+  summary_en: AI Gateway logs now display session affinity.
   evidence_ids:
   - ev-8cc29652d367fbe2
   homepage: true
@@ -3227,8 +3248,9 @@
   discovered_at: '2026-10-18T00:04:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: DeepSeek V4.1 Flash 1017 已接入 AI Gateway，开发者可通过该网关调用该模型。
+  summary_en: DeepSeek V4.1 Flash 1017 is now available on AI Gateway, letting developers call the model
+    through the gateway.
   evidence_ids:
   - ev-dc3328f709fb5c01
   homepage: true
@@ -3239,8 +3261,9 @@
   discovered_at: '2026-10-18T00:04:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Elorian AI 的 Glimpse 于 2026 年 10 月上线 AI Gateway，可通过该网关调用。
+  summary_en: Elorian AI's Glimpse became available on AI Gateway in October 2026, making it callable
+    through the gateway.
   evidence_ids:
   - ev-9d311ce10111ce10
   homepage: true
@@ -3251,8 +3274,11 @@
   discovered_at: '2026-10-18T00:04:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: NVIDIA RTX Spark 笔记本正式上市，起售价 2,399 美元，搭载 Blackwell RTX GPU 与 Grace CPU，最高 1 petaflop AI 算力、128GB
+    统一内存；华硕、戴尔、惠普、联想、微软、微星首批出货，后续还有更多机型。
+  summary_en: NVIDIA RTX Spark laptops are now available starting at $2,399, combining a Blackwell RTX
+    GPU and Grace CPU with up to 1 petaflop of AI compute and up to 128GB of unified memory; ASUS, Dell,
+    HP, Lenovo, Microsoft and MSI are among the first vendors shipping, with more systems to follow.
   evidence_ids:
   - ev-ec5fe958c35b5a22
   homepage: true
@@ -3287,8 +3313,9 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 网易首个AI原生语音Agent“网易叭哥说”上线，并启动“用户荣誉联创计划”，投入10万元征集产品建议，不设专业学历门槛。
+  summary_en: NetEase launched its first AI-native voice agent, NetEase Bage Shuo, together with a user
+    co-creation program offering RMB 100,000 for product suggestions with no major or degree requirements.
   evidence_ids:
   - ev-8d95e516d69e82da
   homepage: true
@@ -3299,8 +3326,10 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 优必选发布Thinker-WM具身世界模型，采用多模态统一表征，单模型实现六大能力，并在三大具身世界模型基准评测中均排名第一。
+  summary_en: UBTECH released Thinker-WM, an embodied world model using unified multimodal representation
+    that delivers six capabilities in a single model and ranked first on all three major embodied world
+    model benchmarks.
   evidence_ids:
   - ev-6291f83494eed46d
   homepage: true
@@ -3311,8 +3340,9 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 范式智能联合北京睿思智联宣布开源一站式生产级AI部署平台“模域ModelSphere”正式上线。
+  summary_en: Fanshi Intelligence and Beijing Ruisi Zhilian announced the launch of ModelSphere, an open-source
+    one-stop production-grade AI deployment platform.
   evidence_ids:
   - ev-1ca79051a01c8373
   homepage: true
@@ -3335,8 +3365,9 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 四川具身科技获得超1亿元融资，产品9.8万元起售，并计划冲刺万台量产。
+  summary_en: Sichuan Embodied Technology raised over RMB 100 million, prices its product from RMB 98,000,
+    and targets mass production of 10,000 units.
   evidence_ids:
   - ev-4a7f8a91d2af0bd6
   homepage: true
@@ -3371,8 +3402,11 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日有报道称谷歌发布 Gemini 4，并推出 API 限时半价。这是模型发布与价格调整，不是独立应用产品；对 AI 应用意味着推理成本短期可能下降、模型选择竞争加剧，但报道未提供可核验的基准数据或定价细则，具体影响仍待核验。
+  summary_en: On October 16, 2026, a report said Google released Gemini 4 with a limited-time half-price
+    API. This is a model release and pricing change, not a standalone application; for AI applications
+    it may mean lower short-term inference costs and sharper model competition, but the report gives no
+    verifiable benchmark data or pricing details, so the concrete impact remains unverified.
   evidence_ids:
   - ev-b66b394722a675e8
   homepage: true
@@ -3383,8 +3417,12 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 苹果首款折叠屏 iPhone Duo 于 10 月 16 日开启预购，在约 70 个国家和地区同步开售，多市场数分钟内售罄，官网交付时间排至 2027 年 1 月底；供应链消息称铰链良率与产能爬坡受限，分析师将今年出货预测下调至
+    500 万至 600 万台。
+  summary_en: Apple's first foldable iPhone Duo opened pre-orders on October 16 across about 70 countries
+    and regions, selling out within minutes in multiple markets with delivery dates pushed to late January
+    2027; supply-chain reports cite hinge yield and capacity ramp constraints, and analysts cut this year's
+    shipment forecast to 5-6 million units.
   evidence_ids:
   - ev-42acc000a8f904a7
   homepage: true
@@ -3395,8 +3433,12 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日前后，Meta 发布开放权重模型 Muse Spark Open：总参数 816B、激活 42B 的 MoE，Artificial Analysis 智能指数
+    39，为美国开放权重模型最高，比 NVIDIA Nemotron 3.5 Super VL 的 26 高 13 分；支持文本、图像、视频、音频输入，输出文本，BF16 权重约 1.6TB。
+  summary_en: 'Around 16 October 2026, Meta released the open-weights model Muse Spark Open: an 816B-total,
+    42B-active MoE scoring 39 on the Artificial Analysis Intelligence Index, the highest for a US open-weights
+    model and 13 points above NVIDIA Nemotron 3.5 Super VL at 26; it accepts text, image, video and audio
+    and outputs text, with BF16 weights around 1.6TB.'
   evidence_ids:
   - ev-3e579f69a0d36426
   homepage: true
@@ -3407,8 +3449,9 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Meta 发布开放权重模型 Muse Spark Open，Reflection 发布 Beam，Mistral 公布 Mistral Large 4 得分。
+  summary_en: Meta released the open-weight model Muse Spark Open, Reflection released Beam, and Mistral
+    announced a Mistral Large 4 score.
   evidence_ids:
   - ev-fb7643c3717395ce
   homepage: true
@@ -3419,8 +3462,9 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Meta 删除条款中涉及抓取与 AI 训练的表述，并称网页抓取方式未改变。
+  summary_en: Meta removed terms language concerning scraping and AI training, saying its web crawling
+    approach did not change.
   evidence_ids:
   - ev-f8d453e4618517c2
   homepage: true
@@ -3431,8 +3475,9 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic于2026年10月披露，其员工构成在过去一年明显变化，初级岗位占比下降，员工会议时间增加。
+  summary_en: Anthropic disclosed in October 2026 that its workforce composition shifted markedly over
+    the past year, with fewer junior roles and more meeting time.
   evidence_ids:
   - ev-74596b4e7ce5945a
   homepage: true
@@ -3443,8 +3488,9 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Replit CEO Masad 表示，OpenAI 已取代 Anthropic 成为平台默认模型供应商，Claude 仍对客户开放。
+  summary_en: Replit CEO Masad said OpenAI replaced Anthropic as the platform's default model provider,
+    while Claude remains available to customers.
   evidence_ids:
   - ev-f1a9eec2661b7af0
   homepage: true
@@ -3467,8 +3513,10 @@
   discovered_at: '2026-10-18T00:04:10Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 多家网站开始拦截自主 AI 代理：Yelp 仅允许付费数据授权的代理访问，达美航空阻止代理订票，Meta Muse、xAI Grok、OpenAI Dots 和 Instinct 的用户均报告任务受阻。
+  summary_en: 'Multiple websites began blocking autonomous AI agents: Yelp only allows agents with paid
+    data licensing, Delta Air Lines blocks agents from booking tickets, and users of Meta Muse, xAI Grok,
+    OpenAI Dots and Instinct all reported blocked tasks.'
   evidence_ids:
   - ev-d2cc1d343a404e12
   homepage: true
@@ -3479,8 +3527,8 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 理想汽车 i6 2026 款采用新的 AI 助手外观设计，并支持 NFC 玩具。
+  summary_en: The 2026 Li Auto i6 features a new AI assistant look and NFC toy support.
   evidence_ids:
   - ev-36c244ef1cccbe1f
   homepage: true
@@ -3491,8 +3539,11 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 据 The Star 报道，Apple 准备于 2026 年 12 月在中国上线首批 AI 功能。这是平台级功能落地的时间表变化，而非独立产品发布；具体功能清单、合作模型方与可用范围在候选材料中未披露，相关影响仍待核验。
+  summary_en: The Star reports that Apple plans to debut its first AI features in China in December 2026.
+    This is a platform-level rollout schedule change rather than an independent product launch; the specific
+    feature list, model partners and availability scope are not disclosed in the candidate material and
+    remain to be verified.
   evidence_ids:
   - ev-327d67e8cc9c872d
   homepage: true
@@ -3503,8 +3554,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Intuit 宣布以 2 亿美元收购 AI 金融科技初创公司 Sequence，用于自动化收入管理。
+  summary_en: Intuit announced it will acquire AI fintech startup Sequence for $200 million to automate
+    revenue management.
   evidence_ids:
   - ev-9a4b2df3fa14e850
   homepage: true
@@ -3515,8 +3567,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日有报道称，AI 创业公司 AIsa 获得超过 900 万美元融资，Tether 参与其中；报道未提供产品功能、客户、收入或定价细节。
+  summary_en: A report dated 17 October 2026 said AI startup AIsa raised over $9 million with Tether participating;
+    the report gave no product features, customers, revenue or pricing details.
   evidence_ids:
   - ev-3117d7074caba6c7
   homepage: true
@@ -3527,8 +3580,8 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AI 视频创作初创公司 Clueso 完成 1000 万美元融资。
+  summary_en: Clueso, an AI video creation startup, raised $10 million in funding.
   evidence_ids:
   - ev-27a51bab96e025cd
   homepage: true
@@ -3539,8 +3592,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 美国芯片初创公司 Bolt Graphics 正寻求 1 亿美元融资，并避开 AI 芯片主战场，转而与英伟达和 AMD 竞争。
+  summary_en: US chip startup Bolt Graphics is seeking $100 million in funding and sidestepping the AI
+    battlefield to take on Nvidia and AMD.
   evidence_ids:
   - ev-ed18b026cb0d3d50
   homepage: true
@@ -3575,8 +3629,8 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: RapidCanvas 完成 2900 万美元融资，用于为企业开发定制 AI 应用。
+  summary_en: RapidCanvas raised $29M to develop custom AI applications for enterprises.
   evidence_ids:
   - ev-8946f9aa61bffd15
   homepage: true
@@ -3599,8 +3653,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日报道称，RapidCanvas 完成 2900 万美元融资，由 Vertex Ventures SEA & India 领投；本轮资金将用于何处、已有客户与收入情况，材料未披露。
+  summary_en: A report dated 17 October 2026 says RapidCanvas raised $29 million led by Vertex Ventures
+    SEA & India; the materials do not disclose use of proceeds, existing customers or revenue.
   evidence_ids:
   - ev-838d7bb21b3bec95
   homepage: true
@@ -3611,8 +3666,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Meta 更新商业账户条款，使商业账户默认纳入 AI 数据抓取范围。
+  summary_en: Meta updated its business account terms so that business accounts are opted into AI data
+    scraping by default.
   evidence_ids:
   - ev-b60bbcb19709ca89
   homepage: true
@@ -3635,8 +3691,10 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月15日，ZenaTech 宣布扩大使用 Tillerstack 的 Orsa+ AI 软件，并计划将医疗教学应用与 Stacklens 智能眼镜结合；具体客户、部署规模与收费方式未披露。
+  summary_en: On 15 October 2026, ZenaTech announced expanded use of Tillerstack's Orsa+ AI software and
+    plans to combine healthcare teaching applications with Stacklens smart glasses; specific customers,
+    deployment scale and pricing were not disclosed.
   evidence_ids:
   - ev-ac2a40a0fd04f4a4
   homepage: true
@@ -3671,8 +3729,11 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: FF EAI Robotics (FFR) 与 FF 联合在美国发布具身 AI 人形机器人 FF Nova，定价低于 2,500 美元，同时推出 FF Nova Mini、Physical
+    AI Spark 课程计划、Nova 强化学习开发者计划并启动开发者社区招募。
+  summary_en: FF EAI Robotics (FFR) and FF jointly launched FF Nova, an embodied AI humanoid robot priced
+    below $2,500 in the U.S., alongside FF Nova Mini, the Physical AI Spark curriculum program, the Nova
+    reinforcement learning developer program and developer community recruitment.
   evidence_ids:
   - ev-4c38c1898d37112d
   homepage: true
@@ -3695,8 +3756,8 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Druid AI 于 2026 年 10 月预告将在 Symbiosis 5 活动上展示产品更新。
+  summary_en: Druid AI said in October 2026 that it will showcase product updates at the Symbiosis 5 event.
   evidence_ids:
   - ev-7ca79580e7a77833
   homepage: true
@@ -3707,8 +3768,10 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日报道称，Wipro 拟以 2,000 美元收购 FLARRE.AI 20% 股权，以扩展面向保险业务的 AI 能力；交易金额与股权比例均来自该报道，具体业务整合方式未披露。
+  summary_en: A report on 16 October 2026 said Wipro plans to acquire a 20% stake in FLARRE.AI for $2,000
+    to expand insurance-focused AI capabilities; the amount and stake come from that report, and how the
+    businesses would be integrated was not disclosed.
   evidence_ids:
   - ev-819e73ed996b1baf
   homepage: true
@@ -3767,8 +3830,10 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日公开的一场分享中，Apollo的Jack McDonald与Rowspace的Michael Manapat称，AI代理把原本需要3天的投资组合构建压缩到几分钟；除这一说法外，未披露客户数、定价或付费数据。
+  summary_en: In a talk published on 16 October 2026, Jack McDonald of Apollo and Michael Manapat of Rowspace
+    said AI agents cut portfolio builds that previously took three days down to minutes; beyond this claim,
+    no customer counts, pricing or payment data were disclosed.
   evidence_ids:
   - ev-161e500da16ea99d
   homepage: true
@@ -3779,8 +3844,8 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: Persistent 公布 2027 财年第二季度营收 4.876 亿美元，同比增长 20.0%。
+  summary_en: Persistent reported Q2 FY27 revenue of $487.6 million, up 20.0% year over year.
   evidence_ids:
   - ev-b96395a1d7730d5f
   homepage: true
@@ -3791,8 +3856,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026 年 10 月，欧洲创始人就“EU Inc”倡议公开表达担忧，称现行制度正在扼杀该倡议。
+  summary_en: In October 2026, European founders publicly raised alarm over the 'EU Inc' initiative, saying
+    current rules are killing it.
   evidence_ids:
   - ev-e39163d0c57c7089
   homepage: true
@@ -3815,8 +3881,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: SpaceX 对乌克兰无人机使用的 Starlink 服务实施限速，乌方怀疑此举系有意为之。
+  summary_en: SpaceX throttled Starlink service used by Ukraine's drones, and Kyiv suspects the move was
+    deliberate.
   evidence_ids:
   - ev-f5109899b1c6e84f
   homepage: true
@@ -3839,8 +3906,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Adobe 与 NVIDIA 宣布深化 AI 合作，以加速创意工具和云端视频处理工作。
+  summary_en: Adobe and NVIDIA announced a deepened AI partnership to accelerate creative tools and cloud
+    video work.
   evidence_ids:
   - ev-708120200f987886
   homepage: true
@@ -3947,8 +4015,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Deezer 于 2026 年 10 月上线 AI 生成歌曲过滤功能，用于区分平台上的 AI 生成音乐。
+  summary_en: Deezer added a filter for AI-generated songs in October 2026 to distinguish AI-generated
+    music on its platform.
   evidence_ids:
   - ev-d3a7969857e815f8
   homepage: true
@@ -3959,8 +4028,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月，花旗、美国银行与摩根大通等银行集体对面向储户的AI Agent设防。
+  summary_en: In October 2026, banks including Citi, Bank of America and JPMorgan collectively took defensive
+    measures against AI agents serving depositors.
   evidence_ids:
   - ev-ec297baff5eabba0
   homepage: true
@@ -3995,8 +4065,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月，AI漫剧进入超长篇连载阶段，系列IP增至41个，单季爆款收入约100万至200万元。
+  summary_en: In October 2026, AI-generated comic dramas entered a super-long serialization phase, with
+    series IP rising to 41 and single-season hit revenue of about RMB 1–2 million.
   evidence_ids:
   - ev-8ad901c131f54d31
   homepage: true
@@ -4019,8 +4090,8 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: DeepSeek 发布 AI 模型更新，并向所有用户开放搜索 API。
+  summary_en: DeepSeek released an AI model update and opened its search API to all users.
   evidence_ids:
   - ev-0c88610b58d39aca
   homepage: true
@@ -4055,8 +4126,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 威尔高前三季度业绩爆发，AI服务器电源PCB订单放量。
+  summary_en: Wilgao reported a surge in performance for the first three quarters, with AI server power
+    PCB orders ramping up.
   evidence_ids:
   - ev-5b4b4af88838976d
   homepage: true
@@ -4079,8 +4151,8 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AI抛售潮蔓延至债市，叠加110美元油价，华尔街承压。
+  summary_en: The AI selloff spread to the bond market, and with oil at $110, Wall Street came under pressure.
   evidence_ids:
   - ev-3db17e600dca907d
   homepage: true
@@ -4103,8 +4175,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Meta为Facebook用户提供AI驱动的推荐定制工具，允许用户调整个性化推荐算法。
+  summary_en: Meta is providing Facebook users with an AI-driven recommendation customization tool that
+    lets users adjust personalized recommendation algorithms.
   evidence_ids:
   - ev-6d7f6e56324b4ec9
   homepage: true
@@ -4115,8 +4188,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 统计显示2026年前9个月全球共发生约4000起AI融资事件，报道聚焦资金流向。
+  summary_en: A tally shows roughly 4,000 AI funding rounds globally in the first nine months of 2026,
+    with reporting focused on where the money went.
   evidence_ids:
   - ev-d061c9acb88c3be7
   homepage: true
@@ -4139,8 +4213,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 向黑石集团提供逾 10% 收益率，以支撑一项 600 亿美元的 AI 芯片融资计划。
+  summary_en: Anthropic is offering Blackstone a yield above 10% to support a $60 billion AI chip financing
+    plan.
   evidence_ids:
   - ev-36146b8ec1881bc0
   homepage: true
@@ -4175,8 +4250,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: DeepSeek 于 2026 年 10 月推出新模型，报道称用户为 AI 支付的费用进一步降低。
+  summary_en: DeepSeek launched a new model in October 2026, with reports saying the amount users pay
+    for AI has fallen further.
   evidence_ids:
   - ev-b839ec1f270028ec
   homepage: true
@@ -4211,8 +4287,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 百度智能云联合政产学各方，推动智能体进入西北产业一线。
+  summary_en: Baidu AI Cloud, together with government, industry and academia, is accelerating the deployment
+    of AI agents in frontline industries in northwest China.
   evidence_ids:
   - ev-025fd24898368a7c
   homepage: true
@@ -4223,8 +4300,10 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日报道称，云南昆明举办“WPS Comate 组织级 AI 办公峰会”，企业与高校在会上分享智能体落地实践；除会议举办与分享主题外，未披露具体客户、部署规模、定价或使用数据。
+  summary_en: A 17 October 2026 report says an 'organisational AI office summit' for WPS Comate was held
+    in Kunming, Yunnan, where companies and universities shared agent deployment practices; beyond the
+    event and its themes, no specific customers, deployment scale, pricing or usage data were disclosed.
   evidence_ids:
   - ev-55adf3b5d6925539
   homepage: true
@@ -4247,8 +4326,10 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 信通院联合联想、AIIA数据委员会共同发布《面向智能体能力构建的高质量数据集建设指南（2026年）》，提出行业高质量数据集建设的总体框架、关键方法和实施路径。
+  summary_en: CAICT, together with Lenovo and the AIIA Data Committee, jointly released the 2026 Guidelines
+    for Building High-Quality Datasets for Agent Capabilities, proposing an overall framework, key methods
+    and implementation paths for industry high-quality dataset construction.
   evidence_ids:
   - ev-c9558e319855d4ce
   homepage: true
@@ -4259,8 +4340,8 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AMD发布Ross，定位为面向嵌入式开发全流程的智能体AI产品。
+  summary_en: AMD released Ross, positioned as agentic AI for the full embedded development workflow.
   evidence_ids:
   - ev-20850db98175ccdf
   homepage: true
@@ -4283,8 +4364,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic于2026年10月发布内部就业报告，称智能体工时达到人类的6倍。
+  summary_en: Anthropic released an internal employment report in October 2026 stating agent working hours
+    reached six times human hours.
   evidence_ids:
   - ev-83ef323bfc2afd4b
   homepage: true
@@ -4295,8 +4377,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: NVIDIA 宣布与半导体领军企业合作，将 AI 应用于芯片设计与制造，推进 AI 定义的晶圆厂。
+  summary_en: NVIDIA announced a collaboration with leading semiconductor companies to apply AI in chip
+    design and manufacturing toward AI-defined fabs.
   evidence_ids:
   - ev-37779fb5e0bd4153
   homepage: true
@@ -4319,8 +4402,11 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日报道称，基于确定性网络的智能体互联平台AXP在南京发布，被称为行业首个此类平台。材料只有发布事实，未给出运营方、接入的智能体数量、客户或定价，因此只能作为早期信号观察。
+  summary_en: A 2026-10-17 report said AXP, an agent-interconnection platform built on deterministic networking,
+    was launched in Nanjing and described as the industry's first of its kind. The material contains only
+    the launch fact, with no operator, number of connected agents, customers or pricing, so it is only
+    an early signal to watch.
   evidence_ids:
   - ev-d16a4db7d7e4ab64
   homepage: true
@@ -4355,8 +4441,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AXP 发布确定性网络，宣称可接入百万级智能体，作为 AI 通信底座。
+  summary_en: AXP released a deterministic network it says can connect millions of agents, positioning
+    it as an AI communications foundation.
   evidence_ids:
   - ev-009a80486dbe4e06
   homepage: true
@@ -4367,8 +4454,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 花旗与美国银行出手限制智能体访问客户账户，以避免银行存款大量流失。
+  summary_en: Citigroup and Bank of America restricted agent access to customer accounts to avoid large
+    deposit outflows.
   evidence_ids:
   - ev-86337a79a112dc78
   homepage: true
@@ -4379,8 +4467,10 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日，河泊创新发布家庭智能体 HarborNavi；公开材料仅给出产品名与发布事实，未披露功能细节、定价、客户或使用数据。
+  summary_en: On 17 October 2026, Hebo Innovation released HarborNavi, a home agent; public material gives
+    only the product name and the release fact, with no disclosed features, pricing, customers or usage
+    data.
   evidence_ids:
   - ev-04b8afa605627b43
   homepage: true
@@ -4415,8 +4505,10 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日报道称华为云与深演智能签约深化合作，加速 AI 营销解决方案落地。这是合作签约公告，未披露合同金额、客户名单或交付结果，商业影响仍待核验。
+  summary_en: On October 17, 2026, a report said Huawei Cloud and DeepZero signed a deeper cooperation
+    to accelerate AI marketing solutions. This is a partnership announcement with no disclosed contract
+    value, customer list or delivery results, so the commercial impact remains unverified.
   evidence_ids:
   - ev-2ea21df0a9de309e
   homepage: true
@@ -4439,8 +4531,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 京东工业就工业AI从采购到工厂现场的落地进展接受对话。
+  summary_en: JD Industrial discussed the progress of industrial AI deployment from procurement to the
+    factory floor.
   evidence_ids:
   - ev-fe725986dd54e7bb
   homepage: true
@@ -4451,8 +4544,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: ABB 推出面向服装分拣的视觉 Physical AI 模块，并配套 AI Robot Trainer 以降低机器人部署门槛。
+  summary_en: ABB launched a vision-based Physical AI module for garment sorting, paired with AI Robot
+    Trainer to lower the barrier to robot deployment.
   evidence_ids:
   - ev-bbdca616cf851928
   homepage: true
@@ -4463,8 +4557,8 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 客户银行将部署Palantir的Foundry及人工智能平台，以提升客户体验。
+  summary_en: Customers Bank will deploy Palantir's Foundry and AI platform to improve customer experience.
   evidence_ids:
   - ev-bbbceda956e2d411
   homepage: true
@@ -4475,8 +4569,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 报道称苹果与Meta合作推动大模型在设备本地运行，AI竞争焦点从模型能力转向交付能力。
+  summary_en: Apple and Meta are reported to be collaborating to run large models locally on devices,
+    shifting AI competition from model capability toward delivery capability.
   evidence_ids:
   - ev-be4587f38076e919
   homepage: true
@@ -4487,8 +4582,12 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日，NVIDIA 推出开源模型 Nemotron 3.5，定位 AI 智能体与边缘端部署。这是模型层面的发布，不是独立应用产品；对应用侧的含义是边缘与智能体场景多了一个可自托管的模型选项，可能压低这类部署的模型成本，但候选未给出参数、许可条款、基准或采用数据，成本与竞争影响仍属推断。
+  summary_en: On October 16, 2026, NVIDIA released the open model Nemotron 3.5, positioned for AI agents
+    and edge deployment. This is a model-level release rather than a standalone application; for application
+    builders it adds a self-hostable model option for edge and agent scenarios and may lower model costs
+    there, but the candidate gives no parameters, license terms, benchmarks or adoption data, so cost
+    and competitive impact remain inference.
   evidence_ids:
   - ev-c8ef9cbd4bba3973
   homepage: true
@@ -4511,8 +4610,10 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日，浪潮海岳发布新一代制造运营软件 MOM9.0，称其为 AI 原生工业软件；公开材料未给出客户、定价、部署规模或上线效果数据。
+  summary_en: On 17 October 2026, Inspur Haili released MOM9.0, a new-generation manufacturing operations
+    suite it calls AI-native industrial software; public material gives no customers, pricing, deployment
+    scale or outcome data.
   evidence_ids:
   - ev-673275e49ab61107
   homepage: true
@@ -4523,8 +4624,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 智慧互通宣布在物理AI技术底座上攻克车路协同关键技术，并获发明创业奖成果奖一等奖。
+  summary_en: AICT announced breakthroughs in vehicle-road collaboration technology built on its physical
+    AI foundation, and received a first prize in the Invention and Entrepreneurship Award.
   evidence_ids:
   - ev-fa713cbf6249783b
   homepage: true
@@ -4535,8 +4637,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 南方基金智能理财伙伴“AI梦”累计近8万人体验、超18万次提问，并持续升级。
+  summary_en: Southern Asset Management's intelligent wealth companion AI Meng has drawn nearly 80,000
+    users and over 180,000 questions, and continues to be upgraded.
   evidence_ids:
   - ev-0540360605bb44b8
   homepage: true
@@ -4547,8 +4650,9 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 阿里云宣布其虚拟数字人产品将退市，并公布迁移替代方案。
+  summary_en: Alibaba Cloud announced that its virtual digital human product will be discontinued and
+    published a migration and replacement plan.
   evidence_ids:
   - ev-c6c89fd850292d82
   homepage: true
@@ -4607,8 +4711,10 @@
   discovered_at: '2026-10-18T00:04:17Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 15分钟科技以退役军人驻点结合AI调度，承接社区入户“最后一米”服务，将业务从卖商品转向守服务。
+  summary_en: 15 Minute Technology combines veteran-staffed on-site stations with AI scheduling to cover
+    the community last-meter home-entry service, shifting its business from selling goods to guarding
+    services.
   evidence_ids:
   - ev-7e742d199246b7f1
   homepage: true

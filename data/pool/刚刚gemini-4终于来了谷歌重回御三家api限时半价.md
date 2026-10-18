@@ -1,11 +1,12 @@
 ---
 slug: 刚刚gemini-4终于来了谷歌重回御三家api限时半价
-name: 刚刚，Gemini 4终于来了：谷歌重回御三家，API限时半价
+name: Gemini 4
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 模型厂商发布新模型并调整 API 价格，属于基础层供给变化，不是独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: A model vendor releasing a new model and adjusting API pricing is a supply-side change at
+  the infrastructure layer, not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://qbitai.com/2026/10/503701.html
 summary: 谷歌就是季节性气候模型公司
 first_seen: '2026-10-18T00:04:10Z'
 last_seen: '2026-10-18T00:04:10Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 刚刚，Gemini 4终于来了：谷歌重回御三家，API限时半价
+# Gemini 4
 
 谷歌就是季节性气候模型公司
 

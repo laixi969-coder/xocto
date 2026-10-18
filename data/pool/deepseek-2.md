@@ -21,7 +21,7 @@ canonical_url: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017
 summary: DeepSeek v4.1 Flash 1017
 first_seen: '2026-10-18T00:03:44Z'
 last_seen: '2026-10-18T00:03:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

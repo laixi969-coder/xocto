@@ -1,6 +1,6 @@
 ---
 slug: ollama-ollama-v0406
-name: 'ollama/ollama: v0.40.6'
+name: Ollama
 builder: ollama
 category: ''
 summary_zh: ''
@@ -25,7 +25,7 @@ summary: "## What's Changed\r\n* win: prevent orphaned runners by @dhiltgen in h
   \n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.5...v0.40.6-rc0"
 first_seen: '2026-10-18T00:03:49Z'
 last_seen: '2026-10-18T00:03:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# ollama/ollama: v0.40.6
+# Ollama
 
 ## What's Changed
 * win: prevent orphaned runners by @dhiltgen in https://github.com/ollama/ollama/pull/18500

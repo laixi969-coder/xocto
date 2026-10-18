@@ -21,7 +21,7 @@ canonical_url: https://urpiano.com
 summary: Play a Free Virtual Piano Keyboard
 first_seen: '2026-10-18T00:03:44Z'
 last_seen: '2026-10-18T00:03:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

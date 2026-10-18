@@ -1,0 +1,42 @@
+- id: req-initial-sider-code-2026-10-18
+  project_slug: sider-code
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决网页小改动反馈链长、非技术人员无法自己动手的问题，痛点具体；但改动能否落地交付未说明。
+    evidence_ids:
+    - ev-4992853e0802fafb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，没有用户评价、使用量或客户案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-4992853e0802fafb
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是营销团队或独立站卖家，属推断而非已验证事实。
+    evidence_ids:
+    - ev-4992853e0802fafb
+  - gate: truth
+    status: insufficient
+    reason: 改写结果能否保存、上线及人工确认边界未披露，交付确定性无法核对。
+    evidence_ids:
+    - ev-4992853e0802fafb
+  next_validation: 收集 Sider Code 官方产品页或文档，确认改写结果能否保存、导出或发布到正式站点，以及是否提供定价。
+  market: ''
+  job: 网站运营或前端人员在需要临时改动页面文案、布局或样式时，用自然语言描述修改，由扩展改写网页并查看结果。
+  job_en: Website operators or front-end staff describe copy, layout, or style changes in plain language
+    when a page needs a temporary edit, and the extension rewrites the page for review.
+  pain: 小改动通常要经过提需求、排期、改代码、再预览，反馈链条长；非技术人员无法自己动手。
+  pain_en: Small changes usually go through requests, scheduling, code edits, and previews, a long feedback
+    loop; non-technical staff cannot do it themselves.
+  current_alternative: 用浏览器开发者工具手动改样式、找前端同事改代码，或用可视化建站工具重做页面。
+  current_alternative_en: Manually editing styles in browser dev tools, asking a front-end colleague to
+    change code, or rebuilding the page in a visual site builder.
+  usage_reason: 推断：用户只需描述改动，扩展直接在当前页面执行改写，省去提需求和改代码两步，适合营销人员临时试改落地页文案与版式；但改动能否保存上线、是否需人工确认尚无公开证据。
+  usage_reason_en: 'Inference: users only describe the change and the extension applies it to the current
+    page, skipping the request and code-edit steps, which suits marketers testing landing-page copy and
+    layout; whether edits can be saved and shipped, or need human sign-off, has no public evidence yet.'

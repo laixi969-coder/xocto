@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/503865.html
 summary: VLA解决“能干”，世界模型解决“想清楚再干”
 first_seen: '2026-10-18T00:04:10Z'
 last_seen: '2026-10-18T00:04:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

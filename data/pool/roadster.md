@@ -21,7 +21,7 @@ canonical_url: https://roadster.pavlin.dev
 summary: Fly a Tesla Roadster over parked Teslas before the air runs out
 first_seen: '2026-10-18T00:03:44Z'
 last_seen: '2026-10-18T00:03:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

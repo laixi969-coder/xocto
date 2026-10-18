@@ -1,0 +1,42 @@
+- id: req-initial-pay-per-crawl-2026-10-18
+  project_slug: pay-per-crawl
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容方被 AI 爬虫抓取后无法追踪与收费的痛点，旧做法只有 robots.txt 和封禁，按页结算在结构上成立。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有内容方采用、抓取方接受或结算成功的公开证据。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，买方可能是内容方或抓取方，收入路径尚不明确，属判断而非已验证事实。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+  - gate: truth
+    status: insufficient
+    reason: 按页计费能否被主流抓取方遵守、USDC 结算是否可落地，均缺少可核验材料。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+  next_validation: 收集 Pay-per-Crawl 官方文档或定价页，确认其接入方式、计费单位与是否有内容方或抓取方的公开采用案例。
+  market: ''
+  job: 网站运营者或内容出版方在发现 AI 爬虫批量抓取原创页面时，需要决定是否放行、如何按页计价并向抓取方收款。
+  job_en: Website operators or publishers, upon finding AI crawlers bulk-scraping original pages, need
+    to decide whether to allow access and how to price per page and collect payment from crawlers.
+  pain: 原创内容被模型抓取后难以追踪和收费，内容方只能靠 robots.txt 或封禁被动防守，损失无法量化。
+  pain_en: Once original content is scraped by models it is hard to trace and charge for; content owners
+    can only defend passively via robots.txt or blocking, and losses cannot be quantified.
+  current_alternative: 旧做法是 robots.txt 声明、IP 封禁、付费墙或与平台单独谈判授权，缺少按次可结算的机制。
+  current_alternative_en: The old approach is robots.txt declarations, IP blocking, paywalls or one-off
+    licensing talks with platforms, lacking a per-fetch settleable mechanism.
+  usage_reason: 推断：相较 robots.txt 只能声明意愿，它把每次抓取转成按页计价的 USDC 结算记录，减少内容方逐家谈判和事后追账的负担，因此有独家内容且已被抓取的站点会尝试。
+  usage_reason_en: 'Inference: unlike robots.txt, which only states intent, it turns each crawl into a
+    per-page USDC settlement record, reducing the burden of negotiating with each crawler and chasing
+    payments afterwards, so sites with exclusive content already being scraped would try it.'

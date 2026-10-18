@@ -1,0 +1,41 @@
+- id: req-initial-framefields-2026-10-18
+  project_slug: framefields
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决重复画面手工搭建与数据变化后难以自动重渲染的问题，痛点具体；买方与付费路径尚不清楚。
+    evidence_ids:
+    - ev-94ed680ada420a95
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数，缺少用户评价或采用案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-94ed680ada420a95
+  - gate: model
+    status: insufficient
+    reason: 未见定价或收费方式，钱从哪来无法核验，属判断而非事实。
+    evidence_ids:
+    - ev-94ed680ada420a95
+  - gate: truth
+    status: insufficient
+    reason: 代码化渲染能否稳定交付成片、与剪辑软件结果是否一致，公开材料未说明。
+    evidence_ids:
+    - ev-94ed680ada420a95
+  next_validation: 收集 framefields 官方文档或示例仓库，核验输入格式、导出规格与是否有可复现的成片案例。
+  market: ''
+  job: 视频工程师或前端开发者在需要把数据或代码生成动态视频时，用代码描述画面并交给浏览器渲染，得到可嵌入网页的视频片段。
+  job_en: Video engineers or frontend developers who need to turn data or code into motion video describe
+    the scene in code and render it in the browser to get an embeddable clip.
+  pain: 传统剪辑软件里手工搭建重复画面费时，且难以随数据变化自动重渲染。
+  pain_en: Building repetitive scenes by hand in editing software is slow and hard to re-render automatically
+    when data changes.
+  current_alternative: 用 After Effects 等剪辑软件手工制作，或写脚本调用 ffmpeg 拼接。
+  current_alternative_en: Hand-building in editing software such as After Effects, or scripting ffmpeg
+    to stitch clips.
+  usage_reason: 推断：把画面写成代码后可直接在浏览器渲染，省去在剪辑软件里逐步搭建和导出的一步，适合需要随数据反复重渲染的开发者。
+  usage_reason_en: 'Inference: writing scenes as code and rendering in the browser removes the step-by-step
+    assembly and export in editing software, suiting developers who re-render as data changes.'

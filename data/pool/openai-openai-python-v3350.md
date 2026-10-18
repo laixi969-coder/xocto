@@ -1,6 +1,6 @@
 ---
 slug: openai-openai-python-v3350
-name: 'openai/openai-python: v3.35.0'
+name: OpenAI Python SDK
 builder: openai
 category: ''
 summary_zh: ''
@@ -40,7 +40,7 @@ summary: '## [3.35.0](https://github.com/openai/openai-python/compare/v3.34.0...
   ([309916e](https://github.com/openai/openai-python/commit/309916eb877132359ca2e37b0340a060580e39ee))'
 first_seen: '2026-10-18T00:03:49Z'
 last_seen: '2026-10-18T00:03:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -52,7 +52,7 @@ sightings:
   kind: news
 ---
 
-# openai/openai-python: v3.35.0
+# OpenAI Python SDK
 
 ## [3.35.0](https://github.com/openai/openai-python/compare/v3.34.0...v3.35.0) (2026-10-17)
 

@@ -1,0 +1,42 @@
+- id: req-initial-crewtower-mod-for-claude-code-2026-10-18
+  project_slug: crewtower-mod-for-claude-code
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码时频繁调用代理需切换窗口的摩擦，痛点具体且高频，但强度仅为推断。
+    evidence_ids:
+    - ev-b20284b8158081bf
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品描述，无用户评价或采用数据，无法判断是否形成使用习惯。
+    evidence_ids:
+    - ev-b20284b8158081bf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方；推断可能面向个人开发者一次性购买或订阅，属判断非事实。
+    evidence_ids:
+    - ev-b20284b8158081bf
+  - gate: truth
+    status: insufficient
+    reason: 依附单一模型与 macOS 硬件形态，交付确定性受上游接口变化影响，未见说明。
+    evidence_ids:
+    - ev-b20284b8158081bf
+  next_validation: 收集 CrewTower Mod 官方页面或更新日志，确认其支持的 Claude Code 调用方式、定价与是否公布用户使用反馈。
+  market: ''
+  job: 开发者在写代码过程中需要频繁向 Claude Code 提问或下达修改指令，并查看返回结果。
+  job_en: While writing code, developers frequently need to ask Claude Code questions or issue change
+    instructions and read the returned results.
+  pain: 每次调用都要切出当前编辑上下文，到终端或侧栏面板操作，打断编码节奏；这是从产品定位推断的痛点。
+  pain_en: Each invocation requires leaving the current editing context for a terminal or side panel,
+    interrupting coding rhythm; this pain is inferred from the product positioning.
+  current_alternative: 在终端里运行 Claude Code，或在编辑器内置面板中切换标签页对话。
+  current_alternative_en: Running Claude Code in a terminal, or switching tabs to a built-in editor panel
+    for the conversation.
+  usage_reason: 推断：把调用入口常驻在屏幕顶部刘海，减少一次窗口切换动作，使开发者在不离开当前代码视图时就能发起提问；是否真的减少打断尚无用户反馈支持。
+  usage_reason_en: 'Inference: keeping the invocation entry in the screen-top notch removes one window-switch
+    action, letting developers ask questions without leaving the current code view; whether this actually
+    reduces interruption is not yet supported by user feedback.'

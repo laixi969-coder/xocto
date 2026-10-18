@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxOLWZncDMzMEdp
 summary: Win with AI that knows no limits NetApp
 first_seen: '2026-08-29T21:24:26Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

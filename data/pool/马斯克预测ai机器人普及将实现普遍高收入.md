@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxPa3d2Q19HNmtD
 summary: 马斯克预测AI机器人普及将实现普遍高收入 新浪网
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

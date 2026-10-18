@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zSXNUX3Jjd3Rq
 summary: 真正的AI原生产品，核心是解决过往技术无法实现的痛点， 带来效率层面的量级式提升#一分钟精选视频扶持计划# 微博
 first_seen: '2026-08-30T12:14:04Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

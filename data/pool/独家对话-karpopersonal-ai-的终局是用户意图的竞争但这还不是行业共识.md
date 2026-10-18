@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iMWlqUUZDV25F
 summary: 独家对话 Karpo：Personal AI 的终局，是用户意图的「竞争」，但这还不是行业共识 智源社区
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

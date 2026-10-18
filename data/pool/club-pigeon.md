@@ -21,7 +21,7 @@ canonical_url: https://clubpigeon.lol
 summary: A multiplayer pigeon park with SNES-style minigames
 first_seen: '2026-10-18T00:03:44Z'
 last_seen: '2026-10-18T00:03:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

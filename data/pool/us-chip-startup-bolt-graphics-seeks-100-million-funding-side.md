@@ -1,7 +1,6 @@
 ---
 slug: us-chip-startup-bolt-graphics-seeks-100-million-funding-side
-name: US chip startup Bolt Graphics seeks $100 million funding, sidesteps AI battlefield to take on Nvidia
-  and AMD
+name: Bolt Graphics
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: US chip startup Bolt Graphics seeks $100 million funding, sidesteps AI 
   Nvidia and AMD BigGo Finance
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# US chip startup Bolt Graphics seeks $100 million funding, sidesteps AI battlefield to take on Nvidia and AMD
+# Bolt Graphics
 
 US chip startup Bolt Graphics seeks $100 million funding, sidesteps AI battlefield to take on Nvidia and AMD BigGo Finance
 

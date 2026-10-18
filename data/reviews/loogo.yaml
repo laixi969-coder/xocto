@@ -1,0 +1,40 @@
+- id: req-initial-loogo-2026-10-18
+  project_slug: loogo
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 找厕所需求真实但强度低，通用地图已能覆盖，产品未说明 AI 带来哪一步不可替代的改善。
+    evidence_ids:
+    - ev-8465f3c63e612679
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，无用户反馈或采用信号。
+    evidence_ids:
+    - ev-8465f3c63e612679
+  - gate: model
+    status: insufficient
+    reason: 未见定价或买方，公共数据类产品付费路径不明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-8465f3c63e612679
+  - gate: truth
+    status: insufficient
+    reason: 数据来源、覆盖城市与更新机制均未提供，交付确定性无法核验。
+    evidence_ids:
+    - ev-8465f3c63e612679
+  next_validation: 收集 LooGo 官方产品页或应用商店页面中关于数据来源、覆盖城市与 AI 具体作用的说明。
+  market: ''
+  job: 出行者在陌生街区需要上厕所时，用手机查找附近公共卫生间并导航过去。
+  job_en: Travelers in an unfamiliar neighborhood search for and navigate to a nearby public restroom.
+  pain: 陌生地点找厕所耗时且焦虑，地图应用结果常缺开放时间或已关闭。
+  pain_en: Finding a restroom in an unfamiliar place is slow and stressful, and map results often lack
+    opening hours or are closed.
+  current_alternative: 用通用地图应用搜索“公共厕所”，或询问店员。
+  current_alternative_en: Searching 'public toilet' in a general map app, or asking shop staff.
+  usage_reason: 推断：若它把开放时间与可用性做成结构化结果，用户可省去在地图里逐条点开确认的那一步；但材料未说明 AI 的具体动作，选择理由尚不成立。
+  usage_reason_en: 'Inference: if it structures opening hours and availability, users skip opening each
+    map result to confirm; but the material does not describe what the AI does, so the reason to choose
+    it is not yet established.'

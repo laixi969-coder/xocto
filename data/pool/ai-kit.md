@@ -24,7 +24,7 @@ summary: 'AI-KIT is a practical starter kit for development: ChatGPT/Codex, Clau
   readiness, and clean project templates.'
 first_seen: '2026-10-18T00:03:49Z'
 last_seen: '2026-10-18T00:03:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -1,0 +1,41 @@
+- id: req-initial-dsh-bilibili-reply-2026-10-18
+  project_slug: dsh-bilibili-reply
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决被 @ 后需看完视频再写带时间戳评论的耗时问题，旧做法是人工观看加手写。
+    evidence_ids:
+    - ev-cdb8fb9c82e26991
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标，缺少创作者实际使用或反馈证据。
+    evidence_ids:
+    - ev-cdb8fb9c82e26991
+  - gate: model
+    status: insufficient
+    reason: 开源技能无定价，付费路径未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-cdb8fb9c82e26991
+  - gate: truth
+    status: insufficient
+    reason: 自动回复是否符合平台规则、内容是否需人工确认，公开材料未说明。
+    evidence_ids:
+    - ev-cdb8fb9c82e26991
+  next_validation: 收集该仓库的 issue 与讨论，确认自动回复的触发方式、平台合规性与人工审核环节。
+  market: ''
+  job: B 站创作者或运营在被 @ 时，需要快速回一条贴合视频内容、能定位到具体时间点的评论。
+  job_en: When mentioned on Bilibili, creators or operators need to quickly post a comment that fits the
+    video content and points to a specific moment.
+  pain: 人工要先看完视频再写带时间戳的评论，耗时且难以规模化回应。
+  pain_en: Manually watching the video before writing a timestamped comment is slow and hard to scale
+    across many mentions.
+  current_alternative: 创作者自己看视频后手写评论，或忽略 @ 不回复。
+  current_alternative_en: Creators watch the video and write the comment themselves, or ignore the mention.
+  usage_reason: 推断：代理直接读视频并生成带可跳转时间戳的评论，省去观看和定位时间点这一步；适合被 @ 频繁、需要维持互动的中小创作者。
+  usage_reason_en: 'Inference: the agent reads the video and produces a comment with jumpable timestamps,
+    removing the watch-and-locate step; suits small creators with frequent mentions who need to keep interactions
+    up.'

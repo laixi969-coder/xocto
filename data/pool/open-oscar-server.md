@@ -28,7 +28,7 @@ canonical_url: https://github.com/mk6i/open-oscar-server
 summary: open-source server compatible with AIM and ICQ clients
 first_seen: '2026-08-30T00:33:35Z'
 last_seen: '2026-08-31T00:37:17Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

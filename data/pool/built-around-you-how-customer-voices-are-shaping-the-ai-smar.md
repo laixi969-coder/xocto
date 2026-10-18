@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk9nMFRxbjEt
 summary: 'Built Around You: How Customer Voices Are Shaping the Ai+ Smartphone Experience The Tribune'
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,41 @@
+- id: req-initial-mcd-saver-strategist-2-2026-10-18
+  project_slug: mcd-saver-strategist-2
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决点餐时优惠券组合比价费时易漏的问题，痛点具体且不采用会多花钱；买方是消费者，也可能延伸到餐饮会员运营。
+    evidence_ids:
+    - ev-1ded220feafb550d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库关注度较高，但未见用户反馈说明它已进入日常点餐流程。
+    evidence_ids:
+    - ev-1ded220feafb550d
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见收费方式，买方与付费路径不明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-1ded220feafb550d
+  - gate: truth
+    status: insufficient
+    reason: 优惠券数据来源、更新频率与算错时的责任边界未核验，交付确定性待确认。
+    evidence_ids:
+    - ev-1ded220feafb550d
+  next_validation: 收集该仓库 README 或 issue 中关于优惠券数据来源、更新方式与实测省钱结果的说明。
+  market: ''
+  job: 消费者在麦当劳点餐前，把菜单和手上可用优惠券交给助手，算出最省钱的点餐组合再下单。
+  job_en: Consumers hand the McDonald's menu and available coupons to an assistant to compute the cheapest
+    order combination before buying.
+  pain: 优惠券规则多且组合复杂，人工比价费时且容易漏掉更省的搭配。
+  pain_en: Coupon rules are numerous and combinations complex; manual comparison is slow and easily misses
+    cheaper pairings.
+  current_alternative: 自己翻优惠券页面逐条比对，或凭经验点单。
+  current_alternative_en: Browsing coupon pages one by one, or ordering from habit.
+  usage_reason: 推断：它把菜单与全部可用券一起拉取并直接算出组合价，省去用户逐条比对券规则的那一步，因此在意省钱的常客会在点餐前使用。
+  usage_reason_en: 'Inference: it pulls the menu and all available coupons together and computes the combined
+    price, removing the step of comparing coupon rules one by one, so cost-conscious regulars use it before
+    ordering.'

@@ -1,0 +1,41 @@
+- id: req-initial-vectorify-2026-10-18
+  project_slug: vectorify
+  level: initial
+  reviewed_at: '2026-08-31T00:37:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决位图放大失真与手工描摹耗时的问题，交付为可编辑 SVG，痛点具体。
+    evidence_ids:
+    - ev-cbfc747517c93f1e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，缺少用户评价或采用数据，无法判断共识。
+    evidence_ids:
+    - ev-cbfc747517c93f1e
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，买方与收费方式未披露；可能按次或订阅，属判断而非事实。
+    evidence_ids:
+    - ev-cbfc747517c93f1e
+  - gate: truth
+    status: insufficient
+    reason: 转换质量、复杂图形还原度与人工修整需求缺少实测。
+    evidence_ids:
+    - ev-cbfc747517c93f1e
+  next_validation: 核验该产品官网的定价页与示例输出，确认转换质量与收费方式。
+  market: ''
+  job: 设计师或营销人员在拿到位图 logo、图标等素材、需要可缩放矢量文件时，把图片交给工具转换为 SVG，最终得到可编辑矢量图。
+  job_en: A designer or marketer with bitmap logos or icons needing scalable vector files hands the image
+    to the tool for SVG conversion, ending with an editable vector.
+  pain: 位图放大失真，手工在矢量软件里描摹耗时且依赖技巧，非专业用户难以完成。
+  pain_en: Bitmaps blur when scaled, and manual tracing in vector software is time-consuming and skill-dependent,
+    hard for non-experts.
+  current_alternative: 在 Illustrator 等软件里手工描摹，或使用通用在线转换工具。
+  current_alternative_en: Manual tracing in software such as Illustrator, or generic online converters.
+  usage_reason: 推断：相较手工描摹，它把上传图片到产出 SVG 压缩为一步自动动作，减少描点与调曲线的工作；对需要快速拿到可编辑矢量、又缺乏描摹技能的设计或营销人员更有吸引力。
+  usage_reason_en: 'Inference: versus manual tracing, it compresses upload-to-SVG into one automatic step,
+    cutting point placement and curve tuning; more attractive to design or marketing users who need an
+    editable vector quickly without tracing skills.'

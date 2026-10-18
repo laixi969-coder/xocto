@@ -1,0 +1,42 @@
+- id: req-initial-reason-network-2026-10-18
+  project_slug: reason-network
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行改同一代码库时的冲突与重复劳动，旧做法是人工拆分与合并，痛点具体；买方与付费路径尚未披露。
+    evidence_ids:
+    - ev-08d75e6cbca029ca
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库关注度，没有团队采用、评价或案例说明谁在什么场景下持续使用。
+    evidence_ids:
+    - ev-08d75e6cbca029ca
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明收费方式与买方，是判断而非已验证事实；也无融资叙事可判断风险。
+    evidence_ids:
+    - ev-08d75e6cbca029ca
+  - gate: truth
+    status: insufficient
+    reason: 协调后如何合并、冲突如何处理、人工在哪确认均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-08d75e6cbca029ca
+  next_validation: 收集 Reason Network 官方文档或仓库 README 中关于多代理协调、冲突处理与人工确认步骤的说明。
+  market: ''
+  job: 软件团队在多个编码代理并行修改同一代码库时，需要让各代理的动作彼此可见并收敛成可用的改动。
+  job_en: Software teams need the actions of multiple parallel coding agents on one codebase to be mutually
+    visible and converged into usable changes.
+  pain: 多个代理各自改代码会互相覆盖、重复劳动，团队要人工比对和合并，返工成本高。
+  pain_en: Parallel agents overwrite each other and duplicate work, forcing the team to manually diff
+    and merge, which drives rework cost.
+  current_alternative: 旧做法是人工拆分任务、逐个代理串行执行，再靠版本控制和代码评审手工合并。
+  current_alternative_en: The old way is to split tasks by hand, run agents one at a time, and merge manually
+    through version control and code review.
+  usage_reason: 推断：它让代理之间直接通信来协调动作，省去团队手工拆分任务和逐轮比对合并这一步；已在并行使用多个代理的团队在冲突频繁时会选择它。公开材料未给出留存或客户案例。
+  usage_reason_en: 'Inference: it lets agents communicate directly to coordinate actions, removing the
+    manual task-splitting and round-by-round merge step; teams already running several agents in parallel
+    would pick it when conflicts are frequent. No retention or customer evidence is public.'

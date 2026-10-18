@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNSkw1SmVkVWNa
 summary: Seattle startup ElastixAI grabs office space in Westlake The Business Journals
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

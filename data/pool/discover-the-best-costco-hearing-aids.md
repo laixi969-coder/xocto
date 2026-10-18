@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNY3g3Y0hFd0tJ
 summary: Discover the Best Costco Hearing Aids The National Council on Aging (NCOA)
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://github.com/Kapendev/parin
 summary: A 2D game engine between raylib and Godot, written in Dlang
 first_seen: '2026-10-18T00:03:44Z'
 last_seen: '2026-10-18T00:03:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

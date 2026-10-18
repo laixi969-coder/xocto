@@ -3,13 +3,12 @@ slug: ggerganov-llamacpp-v070
 name: llama.cpp
 builder: ggerganov
 category: ''
-summary_zh: 这是本地推理引擎 llama.cpp 的一次版本更新，面向自行部署开源模型的开发者：他们原本受限于显存装不下大模型，需要降精度或换更小模型；该版本把 MoE 专家权重放到主机内存缓存并支持投机解码，让同一台机器在卸载专家时解码更快，交付物仍是可自行编译运行的推理服务。
+summary_zh: 这是本地推理引擎 llama.cpp 的版本更新，不是独立应用产品。它面向自行部署模型、在本地或自有服务器上跑推理的开发者与运维人员，本次改动集中在解码加速、MoE 专家内存管理和新模型适配，具体交付仍以代码仓库为准。
 inspiration: ''
-summary_en: 'This is a release of the local inference engine llama.cpp, aimed at developers who self-host
-  open models: they previously had to cut precision or switch to smaller models when weights did not fit
-  in VRAM; this version caches MoE expert weights in host memory and adds speculative decoding, so the
-  same machine decodes faster when experts are offloaded, and the deliverable remains a self-compiled
-  inference service.'
+summary_en: This is a version update of the local inference engine llama.cpp, not a standalone application
+  product. It targets developers and operators who deploy models themselves on local machines or their
+  own servers; this release focuses on decoding speedups, MoE expert memory management and new model support,
+  with the code repository as the concrete deliverable.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -323,7 +322,7 @@ summary: "## Overview\r\n\r\nllama.cpp v0.7.0 adds the LiliCorr speculative deco
   \ updates (#29974)"
 first_seen: '2026-10-16T00:25:17Z'
 last_seen: '2026-10-18T00:03:49Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:

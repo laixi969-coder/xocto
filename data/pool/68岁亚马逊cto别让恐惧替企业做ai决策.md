@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/503815.html
 summary: 经验没有压缩算法
 first_seen: '2026-10-18T00:04:10Z'
 last_seen: '2026-10-18T00:04:10Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-orbia-2026-10-18
+  project_slug: orbia
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决生成视频三维一致性缺少统一判断标准的问题，痛点结构成立，但评测维度与交付形式未公开，价值强度待核验。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量开源关注，未见研究者或团队采用与讨论的公开证据。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+  - gate: model
+    status: insufficient
+    reason: 未见定价、付费方或商业交付路径，买方可能是研究机构或影视游戏团队，属推断。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+  - gate: truth
+    status: insufficient
+    reason: 基准是否贴近实际三维场景需求、评分能否确定性复现，公开材料不足。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+  next_validation: 收集 Orbia 官方项目页或仓库文档中关于评测维度、数据集与评分方法的说明，以核验其交付是否可复现。
+  market: ''
+  job: 视频生成模型研究者或视觉特效团队在评估生成片段能否用于三维场景搭建时，用 Orbia 对片段做三维世界一致性评测，得到可比较的评分。
+  job_en: Video-generation researchers or VFX teams use Orbia to benchmark 3D world consistency of generated
+    clips and get comparable scores when judging whether clips can be used for 3D scene building.
+  pain: 生成视频在镜头切换后常出现空间与物体不一致，团队缺少统一标准判断能否直接用于三维场景，只能靠人工逐帧目检。
+  pain_en: Generated videos often break spatial and object consistency across shots, and teams lack a
+    shared standard to judge 3D usability, relying on manual frame-by-frame inspection.
+  current_alternative: 人工逐帧检查、内部自建脚本，或直接凭观感决定是否采用生成片段。
+  current_alternative_en: Manual frame-by-frame review, in-house scripts, or deciding adoption by visual
+    impression alone.
+  usage_reason: 推断：相较人工目检，Orbia 用统一基准对生成片段打分，减少逐帧比对这一步，让团队在选片时有可比较的依据；是否被持续使用尚无公开证据。
+  usage_reason_en: 'Inference: versus manual inspection, Orbia scores clips on a shared benchmark, removing
+    the frame-by-frame comparison step and giving teams comparable grounds for clip selection; no public
+    evidence of sustained use yet.'

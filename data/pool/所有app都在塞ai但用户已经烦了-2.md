@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tdURkQ2xDWjFI
 summary: 所有App都在塞AI，但用户已经烦了 东方财富
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,42 @@
+- id: req-initial-managed-ai-execution-startup-rapidcanvas-raises-29-million-l-2026-10-18
+  project_slug: managed-ai-execution-startup-rapidcanvas-raises-29-million-l
+  level: initial
+  reviewed_at: '2026-10-18T00:04:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决企业缺少数据科学人员时难以产出分析结果的问题，但材料未给出输入、动作与交付，痛点强度无法判断。
+    evidence_ids:
+    - ev-838d7bb21b3bec95
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，没有客户采用、用户评价或重复使用证据。
+    evidence_ids:
+    - ev-838d7bb21b3bec95
+  - gate: model
+    status: insufficient
+    reason: 买方应为有数据需求的企业，但定价、合同与付费路径均未披露，属判断而非事实。
+    evidence_ids:
+    - ev-838d7bb21b3bec95
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生、人工复核边界在哪，承诺与结果之间缺少材料。
+    evidence_ids:
+    - ev-838d7bb21b3bec95
+  next_validation: 收集 RapidCanvas 官网的产品页或客户案例，确认其输入材料、交付物与是否披露定价。
+  market: ''
+  job: 企业数据团队在缺少数据科学家时，把内部表格与业务数据交给平台，生成预测或分析流程并交付业务部门（具体流程仍待核验）。
+  job_en: Enterprise data teams without data scientists hand internal tables and business data to a platform
+    to produce predictive or analytical workflows for business units (exact workflow still to be verified).
+  pain: 材料未描述具体痛点，只能推断：缺少数据科学人员的企业难以把已有数据转成可用的分析或预测结果。
+  pain_en: The materials describe no specific pain; it can only be inferred that enterprises lacking data
+    scientists struggle to turn existing data into usable analysis or predictions.
+  current_alternative: 材料未说明现有替代方式；常见做法是外包给咨询或数据服务商，或由业务人员用表格手工分析（推断）。
+  current_alternative_en: The materials do not state current alternatives; common practice would be outsourcing
+    to consultancies or data service providers, or manual spreadsheet analysis by business staff (inference).
+  usage_reason: 材料只给出融资事实，没有产品动作、交付结果或用户反馈，无法说明相较旧做法减少了哪一步负担；这是判断缺口，不是已验证事实。
+  usage_reason_en: The materials give only a funding fact, with no product action, delivery result or
+    user feedback, so they cannot show which step is reduced versus the old way; this is a judgment gap,
+    not a verified fact.

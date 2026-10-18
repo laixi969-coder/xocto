@@ -1,0 +1,38 @@
+- id: req-initial-spiralens-2026-10-18
+  project_slug: spiralens
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 黄金比例辅助属于弱需求，系统相机自带网格与后期裁剪已满足多数用户，独立工具价值刚性不足。
+    evidence_ids:
+    - ev-50c719b8d088ee2b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立
+    evidence_ids: []
+  next_validation: 官方定价策略与独立用户留存数据
+  market: ''
+  job: 手机拍摄者在现场取景构图时，需要调整机位和角度以拍出符合美学比例的照片。
+  job_en: Mobile photographers aiming to align camera angle and position to aesthetic composition standards
+    while capturing scenes.
+  pain: 非专业用户难以凭肉眼快速找到符合黄金比例的拍摄机位，导致成片构图松散。
+  pain_en: Casual photographers struggle to identify golden ratio framing visually, resulting in poorly
+    composed photos.
+  current_alternative: 手机系统相机自带的九宫格网格线，或拍摄后导入后期软件手动裁剪二次构图。
+  current_alternative_en: Built-in camera rule-of-thirds grid lines, or post-capture manual cropping in
+    photo editing apps.
+  usage_reason: 推断该产品通过实时屏幕指示替代凭感觉手持微调，但在系统自带网格普及的情况下，独立下载相机的动机较弱。
+  usage_reason_en: Inferred to guide framing via directional prompts instead of trial-and-error, though
+    default grid lines limit standalone conversion.

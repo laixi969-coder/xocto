@@ -1,0 +1,43 @@
+- id: req-initial-河泊创新发布-harbornavi-家庭智能体-2026-10-18
+  project_slug: 河泊创新发布-harbornavi-家庭智能体
+  level: initial
+  reviewed_at: '2026-10-18T00:04:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决家庭事务分散、协调费力的需求，但公开材料只有发布标题，无法确认具体任务与交付，价值判断缺依据。
+    evidence_ids:
+    - ev-04b8afa605627b43
+  - gate: consensus
+    status: insufficient
+    reason: 未见用户评价、客户案例或采用信号，无法判断家庭用户是否认可这一形态。
+    evidence_ids:
+    - ev-04b8afa605627b43
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，家庭订阅还是与家电厂商合作分成均无法确认，属判断而非事实。
+    evidence_ids:
+    - ev-04b8afa605627b43
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近家庭协调的第一性目标、承诺能否确定性交付，以及设备控制的安全边界。
+    evidence_ids:
+    - ev-04b8afa605627b43
+  next_validation: 收集 HarborNavi 官方产品页或发布稿，确认其具体功能、输入材料、交付形式与定价。
+  market: ''
+  job: 家庭成员在居家场景中处理家务安排、设备控制与日常提醒等信息，需要把分散事项汇总成可执行的家庭日程；具体输入与交付仍待核验。
+  job_en: Household members handling chores, device control and daily reminders at home need scattered
+    items turned into an actionable family schedule; exact inputs and deliverables remain unverified.
+  pain: 家庭事务分散在多个设备 App、聊天记录和口头约定中，容易遗漏和重复沟通；这是从产品定位作出的推断，公开材料未给出用户痛点描述。
+  pain_en: Household affairs are scattered across device apps, chat logs and verbal agreements, causing
+    omissions and repeated coordination; this is inferred from positioning, as no user pain description
+    is public.
+  current_alternative: 现有做法是分别使用各家电厂商 App、家庭群聊和纸质或手机备忘录手工协调。
+  current_alternative_en: The current approach is coordinating manually across appliance-maker apps, family
+    group chats and paper or phone notes.
+  usage_reason: 若它能把多来源的家庭事项汇总为一份可执行日程并主动提醒，就省去家庭成员逐个 App 查看和反复确认的一步；这是基于产品定位的推断，缺少功能说明与使用证据。
+  usage_reason_en: If it consolidates household items from multiple sources into one actionable schedule
+    with proactive reminders, it removes the step of checking each app and reconfirming; this is inferred
+    from positioning, lacking feature detail and usage evidence.

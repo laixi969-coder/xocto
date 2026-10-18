@@ -1,6 +1,6 @@
 ---
 slug: axp发布确定性网络接入百万级智能体ai通信底座开始换挡
-name: AXP发布：确定性网络接入百万级智能体，AI通信底座开始“换挡”
+name: AXP
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTkEybVQxRWxx
 summary: AXP发布：确定性网络接入百万级智能体，AI通信底座开始“换挡” 搜狐
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AXP发布：确定性网络接入百万级智能体，AI通信底座开始“换挡”
+# AXP
 
 AXP发布：确定性网络接入百万级智能体，AI通信底座开始“换挡” 搜狐
 

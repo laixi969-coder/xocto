@@ -78,3 +78,47 @@
   usage_reason: AI 代理可自动处理标准流程，减少人工干预，提高响应速度。
   usage_reason_en: AI agents can automate standard processes, reduce manual intervention, and improve
     response speed.
+- id: req-initial-rootstock-deploys-procurement-and-sales-ai-agents-in-summer-2026-10-18
+  project_slug: rootstock-deploys-procurement-and-sales-ai-agents-in-summer
+  level: initial
+  reviewed_at: '2026-08-31T00:37:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决制造企业采购与销售环节单据录入与比对的重复劳动，痛点结构成立；但具体交付是否确定仍缺材料，属工作流推理。
+    evidence_ids:
+    - ev-1d4d0bcf763fce2a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布描述，没有客户案例、用户评价或使用数据，无法判断采购与销售团队是否真的采用。
+    evidence_ids:
+    - ev-1d4d0bcf763fce2a
+  - gate: model
+    status: insufficient
+    reason: 候选未披露定价、计费方式或买方采购路径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-1d4d0bcf763fce2a
+  - gate: truth
+    status: insufficient
+    reason: 无法核验代理在采购与销售中的准确率、人工复核边界与出错后果，交付确定性未知。
+    evidence_ids:
+    - ev-1d4d0bcf763fce2a
+  next_validation: 收集 Rootstock Software 官方 Summer 2026 发布说明或客户案例页，核验采购与销售 AI 代理的具体动作、人工复核边界与是否有客户采用。
+  market: ''
+  job: 制造企业的采购与销售人员在 ERP 中处理供应商报价、采购需求和客户订单，完成比价、下单与报价录入。
+  job_en: Procurement and sales staff at manufacturers handle supplier quotes, purchase requirements,
+    and customer orders in the ERP to compare prices, place orders, and enter quotes.
+  pain: 这些环节依赖人工逐条读取报价单和订单并录入系统，重复且易错；候选材料未给出具体痛点数据，此为工作流推理。
+  pain_en: These steps rely on staff manually reading quotes and orders and entering them into the system,
+    which is repetitive and error-prone; the candidate material gives no specific pain data, so this is
+    workflow inference.
+  current_alternative: 现有做法是采购和销售人员在 ERP 中手工录入、比对报价与订单，或使用规则化的单据识别工具。
+  current_alternative_en: The current approach is for procurement and sales staff to manually enter and
+    compare quotes and orders in the ERP, or use rule-based document recognition tools.
+  usage_reason: 推断：若代理能直接读取报价单与订单并在 ERP 中生成采购或销售记录，可省去人工逐条录入和比对这一步，因此单据量大的制造企业采购与销售团队可能选择它；候选材料未提供用户反馈或采用证据。
+  usage_reason_en: 'Inference: if the agents can read quotes and orders directly and generate procurement
+    or sales records in the ERP, they remove the manual step of entering and comparing each item, so procurement
+    and sales teams at document-heavy manufacturers may choose it; the candidate material provides no
+    user feedback or adoption evidence.'

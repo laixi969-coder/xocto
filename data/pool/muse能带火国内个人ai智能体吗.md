@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BbWZGVlRKdTFq
 summary: Muse能带火国内个人AI智能体吗？ ThePaper.cn
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

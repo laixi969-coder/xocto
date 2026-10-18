@@ -1,0 +1,42 @@
+- id: req-initial-行业首个基于确定性网络的智能体互联平台axp在南京正式发布-2026-10-18
+  project_slug: 行业首个基于确定性网络的智能体互联平台axp在南京正式发布
+  level: initial
+  reviewed_at: '2026-10-18T00:04:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只能推断它解决多智能体通信稳定性问题，缺少具体使用场景与不解决的后果。
+    evidence_ids:
+    - ev-d16a4db7d7e4ab64
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，没有接入方、使用规模或社区讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-d16a4db7d7e4ab64
+  - gate: model
+    status: insufficient
+    reason: 运营方、买方与计价方式均未披露，商业模式无法判断。
+    evidence_ids:
+    - ev-d16a4db7d7e4ab64
+  - gate: truth
+    status: insufficient
+    reason: “确定性网络”如何保证交付、人工边界在哪，材料未说明，承诺无法核对。
+    evidence_ids:
+    - ev-d16a4db7d7e4ab64
+  next_validation: 查找AXP的官方产品页或发布方文档，核对运营主体、接入的智能体或客户数量以及计价方式。
+  market: ''
+  job: 企业技术团队在多个智能体需要协同完成跨系统任务时，要保证消息与指令稳定送达。
+  job_en: Enterprise technology teams must ensure messages and commands arrive reliably when multiple
+    agents coordinate across systems.
+  pain: 推断：多智能体协作中通信不稳定会导致任务中断或结果不一致，但材料未给出具体故障或损失案例。
+  pain_en: 'Inference: unstable communication in multi-agent coordination can interrupt tasks or cause
+    inconsistent results, but the material gives no concrete failure or loss case.'
+  current_alternative: 现有做法多为软件层的编排框架或消息队列，材料未说明AXP相较这些做法的差异。
+  current_alternative_en: Current practice is mostly software-layer orchestration frameworks or message
+    queues; the material does not explain how AXP differs from these.
+  usage_reason: 推断：若确定性网络能保证跨系统指令的稳定送达，对时延敏感场景的团队可能采用；但材料没有使用方、场景或结果，无法确认选择动机。
+  usage_reason_en: 'Inference: if deterministic networking guarantees stable delivery of cross-system
+    commands, teams in latency-sensitive settings might adopt it; but the material has no users, scenarios
+    or results, so the choice motive cannot be confirmed.'

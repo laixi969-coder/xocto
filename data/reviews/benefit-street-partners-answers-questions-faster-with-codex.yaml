@@ -1,0 +1,43 @@
+- id: req-initial-benefit-street-partners-answers-questions-faster-with-codex-2026-10-18
+  project_slug: benefit-street-partners-answers-questions-faster-with-codex
+  level: initial
+  reviewed_at: '2026-10-18T00:04:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决信贷分析人员比对估值、逐条读协议的重复劳动，痛点刚性且交付可核对；买方为机构内部团队。
+    evidence_ids:
+    - ev-68523f42e1547ec6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有厂商发布的单一客户案例，未见团队规模、使用频次或独立评价。
+    evidence_ids:
+    - ev-68523f42e1547ec6
+  - gate: model
+    status: insufficient
+    reason: 案例未披露采购方式与金额；推断为机构按席位或按 API 用量付费，非已验证事实。
+    evidence_ids:
+    - ev-68523f42e1547ec6
+  - gate: truth
+    status: insufficient
+    reason: 协议条款比对涉及合规与准确性，人工复核边界在材料中未说明。
+    evidence_ids:
+    - ev-68523f42e1547ec6
+  next_validation: 收集该机构或同类信贷公司公开披露的 Codex 部署文档、用量或后续客户案例，以核验是否形成重复使用。
+  market: ''
+  job: 私募信贷或信贷机构的分析人员在收到内部问询时，需要比对多笔贷款的估值并逐条阅读信贷协议，产出可回复的结论。
+  job_en: Analysts at private credit or lending firms, when receiving internal questions, must compare
+    valuations across loans and read credit agreements clause by clause to produce a reply.
+  pain: 协议文本长、条款分散，人工逐条比对耗时且容易漏项；问询往往有回复时限。
+  pain_en: Agreements are long with scattered clauses, so manual line-by-line comparison is slow and error-prone,
+    while follow-ups carry reply deadlines.
+  current_alternative: 此前由分析人员手工翻阅 PDF 协议、在表格里逐笔比对估值，再口头或邮件回复。
+  current_alternative_en: Previously analysts paged through PDF agreements by hand, compared valuations
+    row by row in spreadsheets, and replied by email or verbally.
+  usage_reason: 推断：Codex 直接读取协议与估值数据并生成比对脚本和条款摘要，把“翻文档、抄条款”这一步交给模型，分析人员只做复核，因此在有回复时限的问询场景下会被选用；案例未给出留存或复购证据。
+  usage_reason_en: 'Inference: Codex reads agreements and valuation data directly and drafts comparison
+    scripts and clause summaries, moving the paging-and-copying step to the model so analysts only review,
+    which is why it would be chosen under reply deadlines; the story gives no retention or repeat-use
+    evidence.'

@@ -1,0 +1,41 @@
+- id: req-initial-draper-2026-10-18
+  project_slug: draper
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只写分步验证、规划、启动，未说明具体交付与旧流程，痛点强度无法判断。
+    evidence_ids:
+    - ev-dc5922c445520787
+  - gate: consensus
+    status: insufficient
+    reason: 无用户评价或采用数据，无法判断是否有人持续使用。
+    evidence_ids:
+    - ev-dc5922c445520787
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dc5922c445520787
+  - gate: truth
+    status: insufficient
+    reason: 无法确认其验证结论是否可核对、交付是否确定。
+    evidence_ids:
+    - ev-dc5922c445520787
+  next_validation: 收集该产品官网或产品页的完整功能说明与示例产出，确认每一步交付什么可核对结果。
+  market: ''
+  job: 初次创业者要把一个想法推进成可执行的生意，需要完成验证、规划和启动这几步。
+  job_en: A first-time founder needs to move an idea into an executable business by completing validation,
+    planning and launch steps.
+  pain: 初次创业者缺少方法和结构，容易在验证和规划上走弯路；但候选材料未说明具体痛点强度。
+  pain_en: First-time founders lack method and structure and often go astray in validation and planning,
+    though the candidate does not show how strong this pain is.
+  current_alternative: 创业课程、顾问、通用聊天助手或自己查资料。
+  current_alternative_en: Startup courses, advisors, general chat assistants or self-directed research.
+  usage_reason: 推断：分步流程可能比通用聊天更有结构，但材料未说明它具体减少哪一步负担或产出什么可核对结果，因此选择理由尚不成立。
+  usage_reason_en: 'Inference: a stepwise flow may be more structured than generic chat, but the material
+    does not show which step it removes or what checkable result it produces, so the reason to choose
+    it is not yet established.'

@@ -1,6 +1,6 @@
 ---
 slug: amd-ross发布智能体ai重塑嵌入式开发全流程
-name: AMD Ross发布：智能体AI重塑嵌入式开发全流程
+name: AMD Ross
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFA1eVpBNjlMdlk4
 summary: AMD Ross发布：智能体AI重塑嵌入式开发全流程 存储在线
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AMD Ross发布：智能体AI重塑嵌入式开发全流程
+# AMD Ross
 
 AMD Ross发布：智能体AI重塑嵌入式开发全流程 存储在线
 

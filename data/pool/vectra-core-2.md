@@ -22,7 +22,7 @@ summary: ⚡ In-Memory Vector Search Engine & HNSW ANN Graph in Java 21 Loom. Su
   8-bit scalar quantization (SQ8), 16,000+ QPS.
 first_seen: '2026-10-18T00:03:49Z'
 last_seen: '2026-10-18T00:03:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTE5oN3NqWDdvSnM4
 summary: 'AI''s Reality Check: From Demo to Deployment VARIndia'
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

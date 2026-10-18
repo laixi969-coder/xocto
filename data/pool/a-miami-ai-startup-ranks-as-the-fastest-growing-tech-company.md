@@ -22,7 +22,7 @@ summary: A Miami AI startup ranks as the fastest-growing tech company by percent
   Journals
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

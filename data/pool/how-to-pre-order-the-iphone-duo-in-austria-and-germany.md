@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ2tkQ2ZhZG9I
 summary: How to Pre-Order the iPhone Duo in Austria and Germany www.trendingtopics.eu
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

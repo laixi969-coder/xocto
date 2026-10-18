@@ -1,0 +1,46 @@
+- id: req-initial-sparky-2026-10-18
+  project_slug: sparky
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决敏感资料不敢上传云端、自建本地模型门槛高的问题，痛点具体；但运行效果未说明。
+    evidence_ids:
+    - ev-413cae6d3847029c
+    - ev-1cd654da3eda0f0f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 43 星、无 issue，属关注度而非持续采用证据，无法判断使用共识。
+    evidence_ids:
+    - ev-413cae6d3847029c
+    - ev-1cd654da3eda0f0f
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见收费或服务路径，买方可能是个人或机构，属推断而非已验证事实。
+    evidence_ids:
+    - ev-413cae6d3847029c
+  - gate: truth
+    status: insufficient
+    reason: 硬件门槛、模型效果和人工确认边界未披露，交付确定性无法核对。
+    evidence_ids:
+    - ev-413cae6d3847029c
+    - ev-1cd654da3eda0f0f
+  next_validation: 收集 sparky 仓库的 README 与 issue/discussion，确认最低硬件要求、实际运行效果及是否有付费或支持服务。
+  market: ''
+  job: 对数据隐私敏感的个人用户在 Windows 电脑上处理文档、图片或代码时，用本地模型完成问答、检索和生成，避免资料上传云端。
+  job_en: Privacy-sensitive individual users on Windows handle documents, images, or code with local models
+    for Q&A, retrieval, and generation, avoiding uploading material to the cloud.
+  pain: 云端助手要求上传资料，涉及合同、病历等敏感内容时用户不敢用；自行部署本地模型又要配环境、选模型。
+  pain_en: Cloud assistants require uploading material, which users avoid for sensitive content such as
+    contracts or medical records; self-hosting local models means configuring environments and choosing
+    models.
+  current_alternative: 使用云端通用助手，或自己装 Ollama 等工具手动配置模型和界面。
+  current_alternative_en: Using cloud general assistants, or manually setting up tools such as Ollama
+    with models and interfaces.
+  usage_reason: 推断：一行安装并按电脑配置自动选模型，省去自行配环境和挑模型的门槛，让不愿上传资料的用户能在本机处理文档；但实际运行效果与硬件门槛尚无公开证据。
+  usage_reason_en: 'Inference: a one-line install that picks models for the PC''s specs removes the setup
+    and model-selection barrier, letting users who will not upload material process documents locally;
+    actual performance and hardware requirements have no public evidence yet.'

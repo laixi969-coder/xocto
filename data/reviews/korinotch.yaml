@@ -1,0 +1,42 @@
+- id: req-initial-korinotch-2026-10-18
+  project_slug: korinotch
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图把刘海变成命令入口，但材料未说清替代哪一步旧操作、不解决会失去什么。
+    evidence_ids:
+    - ev-9e9582390ad4330e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，无用户反馈或采用信号。
+    evidence_ids:
+    - ev-9e9582390ad4330e
+  - gate: model
+    status: insufficient
+    reason: 未见定价与买方信息，付费路径无法判断。
+    evidence_ids:
+    - ev-9e9582390ad4330e
+  - gate: truth
+    status: insufficient
+    reason: 未说明 AI 具体承担什么动作，交付是否确定无法核对。
+    evidence_ids:
+    - ev-9e9582390ad4330e
+  next_validation: 收集 Korinotch 官方产品页或更新日志，确认其具体功能、AI 承担的动作与定价方式。
+  market: ''
+  job: MacBook 用户在专注工作时，希望从刘海区域快速触发常用操作并查看状态，减少切换窗口。
+  job_en: MacBook users want to trigger common actions and check status from the notch while focusing,
+    reducing window switching.
+  pain: 公开材料只给出“把刘海变成命令中心”的一句话，未说明具体替代了哪一步旧操作或带来何种可核对收益。
+  pain_en: Public material only gives the one-liner of turning the notch into a command center, without
+    stating which old step it replaces or what verifiable gain it brings.
+  current_alternative: 使用系统菜单栏、快捷键或第三方启动器完成同类操作。
+  current_alternative_en: Using the system menu bar, keyboard shortcuts or third-party launchers for the
+    same actions.
+  usage_reason: 推断：若刘海区域能减少一次窗口切换，重度多任务用户可能尝试；但现有材料未说明具体动作与结果，选择理由尚不成立。
+  usage_reason_en: 'Inference: if the notch area saves a window switch, heavy multitaskers might try it;
+    but current material does not describe the concrete action or result, so the reason to choose it is
+    not yet established.'

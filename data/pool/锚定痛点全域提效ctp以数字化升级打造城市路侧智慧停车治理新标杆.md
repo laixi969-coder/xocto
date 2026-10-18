@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xS085eXhqbFdn
 summary: 锚定痛点，全域提效：CTP以数字化升级，打造城市路侧智慧停车治理新标杆 凤凰网财经
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-ai-agents-cut-3-day-portfolio-builds-to-minutes-jack-mcdonal-2026-10-18
+  project_slug: ai-agents-cut-3-day-portfolio-builds-to-minutes-jack-mcdonal
+  level: initial
+  reviewed_at: '2026-10-18T00:04:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决组合构建中数据汇总与首轮试算耗时长的问题，痛点刚性且交付可核对，但公开材料仅有一场分享的说法。
+    evidence_ids:
+    - ev-161e500da16ea99d
+  - gate: consensus
+    status: insufficient
+    reason: 只有合作方在公开分享中的表述，未见独立客户案例或使用规模，无法判断买方共识。
+    evidence_ids:
+    - ev-161e500da16ea99d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方结构，钱从哪来只能推断为机构订阅或按项目收费。
+    evidence_ids:
+    - ev-161e500da16ea99d
+  - gate: truth
+    status: insufficient
+    reason: 组合方案涉及资金决策，人工复核边界与结果准确性尚无公开材料说明。
+    evidence_ids:
+    - ev-161e500da16ea99d
+  next_validation: 查找 Rowspace 官方产品页或定价页，确认其输入数据范围、交付形态与计费方式。
+  market: ''
+  job: 投资机构分析师在季度组合复盘或新基金配置时，处理持仓、风险与市场数据，产出可讨论的组合方案。
+  job_en: Investment analysts at asset managers process holdings, risk and market data during quarterly
+    portfolio reviews or new fund allocations to produce a discussable portfolio proposal.
+  pain: 组合构建涉及多源数据汇总与反复试算，原流程以天计，分析师大量时间花在搬运和整理而非判断上。
+  pain_en: Portfolio construction involves aggregating multi-source data and repeated trial calculations;
+    the original process takes days, with analysts spending much time on moving and tidying data rather
+    than judgment.
+  current_alternative: 分析师用电子表格、内部数据平台和人工试算搭建组合，再经多轮会议修改。
+  current_alternative_en: Analysts build portfolios with spreadsheets, internal data platforms and manual
+    trial calculations, then revise through multiple meetings.
+  usage_reason: 推断：代理直接读取持仓与市场数据并生成组合初稿，省去分析师手工汇总和首轮试算这一步，因此需要频繁做组合复盘的中小资管团队会在时间紧、数据源固定的复盘中选用它；该动机来自产品能力推断，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: the agents read holdings and market data directly and generate a draft
+    portfolio, removing the manual aggregation and first-round trial calculation step, so small asset-management
+    teams doing frequent portfolio reviews would choose it when time is tight and data sources are fixed;
+    this motive is inferred from product capability, not supported by user feedback.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uaGFkUDlmeGl1
 summary: Anthropic也要付10%高息 AI债市怎么了？ 手机网易网
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

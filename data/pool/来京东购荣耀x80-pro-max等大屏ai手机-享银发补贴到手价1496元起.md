@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5a1c0TWc3TTdB
 summary: 来京东购荣耀X80 Pro max等大屏AI手机 享“银发补贴”到手价1496元起 驱动之家
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

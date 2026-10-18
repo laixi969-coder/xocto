@@ -1,0 +1,42 @@
+- id: req-initial-unfenced-2-2026-10-18
+  project_slug: unfenced-2
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决购地者核实地块是否接壤公共土地的需求，痛点具体、旧做法明确；但 AI 环节与数据来源未披露。
+    evidence_ids:
+    - ev-0418dfeb8de564f8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句定位，没有用户评价、成交或采用证据，无法判断买家是否已依赖它做决策。
+    evidence_ids:
+    - ev-0418dfeb8de564f8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与收费方式，买方可能是购地者或经纪方，属判断而非已验证事实。
+    evidence_ids:
+    - ev-0418dfeb8de564f8
+  - gate: truth
+    status: insufficient
+    reason: 无法核对边界数据是否准确、是否有人工复核，接壤判断出错会直接影响购地决策。
+    evidence_ids:
+    - ev-0418dfeb8de564f8
+  next_validation: 收集 Unfenced 官方产品页或挂牌数据说明，核对边界数据来源、AI 处理环节与收费方式。
+  market: ''
+  job: 购地者在筛选待售地块时，需要确认地块是否真正与公共土地接壤，以便判断狩猎、休闲等用途是否成立。
+  job_en: Land buyers screening listings need to confirm whether a parcel actually borders public land,
+    to judge whether hunting or recreation use holds.
+  pain: 挂牌描述常含糊或夸大接壤情况，买家要自己查地籍图与公共土地边界，判断成本高且容易买错。
+  pain_en: Listing descriptions are often vague or exaggerate adjacency, forcing buyers to check cadastral
+    maps and public land boundaries themselves, which is costly and error-prone.
+  current_alternative: 买家自行查阅县地籍系统、公共土地地图与地图工具，或委托地产经纪与测量人员核实。
+  current_alternative_en: Buyers consult county cadastral systems, public land maps and mapping tools
+    themselves, or ask agents and surveyors to verify.
+  usage_reason: 推断：它把接壤判断前置到挂牌筛选环节，省去买家跨多个地籍与地图系统逐块核对边界的一步，因此狩猎或休闲购地者会在初筛时选用；尚无用户反馈或成交证据。
+  usage_reason_en: 'Inference: it moves the adjacency check into listing screening, removing the step
+    of cross-checking boundaries across cadastral and mapping systems parcel by parcel, so hunting or
+    recreation buyers would use it in early screening; no user feedback or transaction evidence yet.'

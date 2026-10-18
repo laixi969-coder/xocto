@@ -21,7 +21,7 @@ canonical_url: https://invader.gg
 summary: an indie iOS podcast player that never phones home
 first_seen: '2026-08-27T12:34:59Z'
 last_seen: '2026-08-28T06:07:17Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,7 @@ sightings:
   metrics:
     points: 5
     comments: 0
+  kind: product
 ---
 
 # Invader

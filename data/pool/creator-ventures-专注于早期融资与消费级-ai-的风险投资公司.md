@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPMDRxbElvT25C
 summary: Creator Ventures – 专注于早期融资与消费级 AI 的风险投资公司 quasa.io
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

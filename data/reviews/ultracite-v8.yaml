@@ -1,0 +1,42 @@
+- id: req-initial-ultracite-v8-2026-10-18
+  project_slug: ultracite-v8
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理产出代码的风格与检查收尾问题，痛点具体、旧做法明确；但规则集与集成方式未公开，交付确定性待核。
+    evidence_ids:
+    - ev-10063c874e9fbcfd
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一句产品定位，没有用户评价、采用或社区讨论证据，无法判断开发者是否已把它纳入流程。
+    evidence_ids:
+    - ev-10063c874e9fbcfd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、开源许可与付费路径，买方可能是团队或仓库所有者，属判断而非已验证事实。
+    evidence_ids:
+    - ev-10063c874e9fbcfd
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真正贴合代理产出的第一性目标，也未见安全与人工确认边界说明。
+    evidence_ids:
+    - ev-10063c874e9fbcfd
+  next_validation: 收集 Ultracite 官方仓库或文档页，核对规则集、与编码代理的集成方式及许可与定价信息。
+  market: ''
+  job: 开发者在 AI 编码代理生成或修改代码后，需要统一代码风格并排查格式与静态检查问题，以便把改动合入项目。
+  job_en: Developers need to unify code style and catch formatting and lint issues after AI coding agents
+    generate or modify code, so changes can be merged into the project.
+  pain: 代理产出的代码风格不一致、格式与静态检查问题多，人工逐处修正耗时，且容易在合入前漏检。
+  pain_en: Agent-generated code is stylistically inconsistent and full of formatting and lint issues;
+    fixing each by hand is slow and easy to miss before merge.
+  current_alternative: 开发者手动运行 ESLint、Prettier 等工具并逐条修正告警，或依赖代理自行遵守风格约定。
+  current_alternative_en: Developers manually run tools such as ESLint and Prettier and fix warnings one
+    by one, or rely on the agent to follow style conventions itself.
+  usage_reason: 推断：它把格式化和静态检查作为一步动作施加在代理产出上，省去开发者逐个文件跑工具、逐条改告警的环节，因此使用编码代理的团队在合入前会选用它；尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: it applies formatting and lint checks as one action on agent output, removing
+    the step of running tools file by file and fixing warnings one by one, so teams using coding agents
+    would pick it before merging; no user feedback or retention evidence yet.'

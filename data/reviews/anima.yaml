@@ -1,0 +1,42 @@
+- id: req-initial-anima-2026-10-18
+  project_slug: anima
+  level: initial
+  reviewed_at: '2026-10-18T00:03:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生物模型制作门槛高、静态图难展示动态过程的问题，旧流程是绘图或手工建模。
+    evidence_ids:
+    - ev-bc11ca2ea9327ce6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，缺少教师或科研人员的实际使用反馈。
+    evidence_ids:
+    - ev-bc11ca2ea9327ce6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费与买方，教学或科普采购属推断而非已验证事实。
+    evidence_ids:
+    - ev-bc11ca2ea9327ce6
+  - gate: truth
+    status: insufficient
+    reason: 科学准确性是贴近科研目标的关键，但材料未说明模型校验与人工确认边界。
+    evidence_ids:
+    - ev-bc11ca2ea9327ce6
+  next_validation: 收集该开源项目的文档或 issue 中关于生成模型的科学准确性校验与使用场景记录。
+  market: ''
+  job: 生物科研或教学人员在讲解或检验生物学模型时，用自然语言描述模型，得到可交互的生物学模型用于演示或探索。
+  job_en: Biology researchers or teachers describe a model in plain English to get an interactive biology
+    model for demonstration or exploration.
+  pain: 制作可交互的生物模型通常需要建模或编程技能，静态图难以展示动态过程，讲解和检验成本高。
+  pain_en: Building interactive biology models usually needs modeling or coding skills, and static diagrams
+    poorly show dynamic processes, making explanation and testing costly.
+  current_alternative: 用绘图软件画静态示意图，或用专业建模工具手工搭建，门槛高、迭代慢。
+  current_alternative_en: Drawing static diagrams in illustration software or hand-building in specialized
+    modeling tools, which are high-threshold and slow to iterate.
+  usage_reason: 推断：相较画静态图或手工建模，它把自然语言描述直接转成可交互模型，省去建模或编程这一步，因此生物教师或科研人员在需要快速演示动态过程时会选择它。
+  usage_reason_en: 'Inference: versus static diagrams or manual modeling, it turns plain-English descriptions
+    directly into interactive models, skipping the modeling or coding step, so biology teachers or researchers
+    would pick it when they need to quickly demonstrate dynamic processes.'

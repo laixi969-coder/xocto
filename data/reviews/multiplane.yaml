@@ -1,0 +1,42 @@
+- id: req-initial-multiplane-2026-10-18
+  project_slug: multiplane
+  level: initial
+  reviewed_at: '2026-10-18T00:03:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决网页动画稳定转成带特效视频的需求，痛点是不一致渲染和手工补特效，旧做法是录屏加剪辑。
+    evidence_ids:
+    - ev-697faa6a9be7a01b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 59 个星标，没有用户评价或采用案例说明谁在什么场景使用。
+    evidence_ids:
+    - ev-697faa6a9be7a01b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、付费或商业交付路径，买方与收费方式不明。
+    evidence_ids:
+    - ev-697faa6a9be7a01b
+  - gate: truth
+    status: insufficient
+    reason: 未见成片样例、渲染耗时或人工校对边界的公开材料，交付确定性待核验。
+    evidence_ids:
+    - ev-697faa6a9be7a01b
+  next_validation: 收集仓库 README 或 issue 中的成片样例与渲染耗时说明，确认交付是否可复现。
+  market: ''
+  job: 视频制作者或代理开发者已有网页动画脚本，需要把它稳定导出成带运动模糊和景深的成片视频。
+  job_en: A video producer or agent developer already has web-page animation scripts and needs to export
+    them reliably into finished video with motion blur and depth of field.
+  pain: 网页动画转视频通常要逐帧截图再拼接，运动模糊和景深得手工补，重复渲染结果还不一致。
+  pain_en: Turning web animations into video usually means frame-by-frame capture and stitching, with
+    motion blur and depth of field added by hand, and repeated renders that do not match.
+  current_alternative: 用录屏或逐帧截图加剪辑软件拼接，或自己写无头浏览器脚本。
+  current_alternative_en: Screen recording or frame-by-frame capture stitched in an editor, or hand-written
+    headless browser scripts.
+  usage_reason: 推断：它把确定性校验、按剪辑点的运动模糊和景深层内置进渲染流程，省掉逐帧截图后手工补特效和反复对齐的步骤，因此需要可复现出片的开发者会选它。
+  usage_reason_en: 'Inference: it builds determinism checks, cut-aware motion blur and a depth layer into
+    the render pipeline, removing manual effect work and re-alignment after frame capture, so developers
+    needing reproducible output would pick it.'

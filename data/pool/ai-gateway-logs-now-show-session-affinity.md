@@ -1,6 +1,6 @@
 ---
 slug: ai-gateway-logs-now-show-session-affinity
-name: AI Gateway logs now show session affinity
+name: AI Gateway
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/ai-gateway-logs-now-show-session-aff
 summary: ''
 first_seen: '2026-10-18T00:04:09Z'
 last_seen: '2026-10-18T00:04:09Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI Gateway logs now show session affinity
+# AI Gateway
 
 _（源没给简介）_
 

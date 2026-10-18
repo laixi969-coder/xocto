@@ -21,7 +21,7 @@ canonical_url: https://starskirmish.com/bench/v0-2
 summary: Gemini 4 Argon plays StarCraft
 first_seen: '2026-10-17T00:30:22Z'
 last_seen: '2026-10-18T00:03:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

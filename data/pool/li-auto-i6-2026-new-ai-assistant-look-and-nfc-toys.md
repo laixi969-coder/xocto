@@ -1,6 +1,6 @@
 ---
 slug: li-auto-i6-2026-new-ai-assistant-look-and-nfc-toys
-name: Li Auto i6 2026 — New AI Assistant Look and NFC Toys
+name: Li Auto i6
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNZHUtS1NsT19q
 summary: Li Auto i6 2026 — New AI Assistant Look and NFC Toys eletric-vehicles.com
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Li Auto i6 2026 — New AI Assistant Look and NFC Toys
+# Li Auto i6
 
 Li Auto i6 2026 — New AI Assistant Look and NFC Toys eletric-vehicles.com
 

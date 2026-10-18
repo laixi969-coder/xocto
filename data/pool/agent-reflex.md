@@ -21,7 +21,7 @@ canonical_url: https://github.com/RUC-NLPIR/Agent-Reflex
 summary: 'Official code for Agent-Reflex: Teaching Language Agents to Act Reflectively'
 first_seen: '2026-10-18T00:03:49Z'
 last_seen: '2026-10-18T00:03:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

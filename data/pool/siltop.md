@@ -21,7 +21,7 @@ canonical_url: https://github.com/CLoaKY233/siltop
 summary: I got tired of btop not seeing my Mac's chip, so I built siltop
 first_seen: '2026-10-18T00:03:44Z'
 last_seen: '2026-10-18T00:03:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

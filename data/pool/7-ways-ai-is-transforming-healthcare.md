@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOR1ljZDRGcm1z
 summary: 7 ways AI is transforming healthcare World Economic Forum
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

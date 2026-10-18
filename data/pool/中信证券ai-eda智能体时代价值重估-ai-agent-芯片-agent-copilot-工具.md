@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4gRBVV95cUxOdWRaTll3ZWk4
 summary: 中信证券：AI EDA“智能体时代”价值重估|AI Agent|芯片|Agent|Copilot|工具 finance.sina.com.cn
 first_seen: '2026-10-17T00:31:16Z'
 last_seen: '2026-10-18T00:04:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

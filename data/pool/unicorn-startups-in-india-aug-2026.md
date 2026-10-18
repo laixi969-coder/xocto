@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNczNJbkhDdFQt
 summary: Unicorn startups in India (Aug, 2026) Tracxn
 first_seen: '2026-08-28T09:57:00Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

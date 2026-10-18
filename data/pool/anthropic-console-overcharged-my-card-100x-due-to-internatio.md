@@ -23,7 +23,7 @@ summary: I am a LegalTech Attorney leading a developer team from Costa Rica. Whi
   UX failure that has pl…
 first_seen: '2026-10-17T00:30:22Z'
 last_seen: '2026-10-18T00:03:44Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,46 @@
+- id: req-initial-synera-showcases-ai-driven-efficiency-gains-in-automotive-en-2026-10-18
+  project_slug: synera-showcases-ai-driven-efficiency-gains-in-automotive-en
+  level: initial
+  reviewed_at: '2026-08-31T00:37:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多学科仿真流程手工串联、迭代慢的问题，痛点刚性且交付可确定；买方与付费路径尚不清晰。
+    evidence_ids:
+    - ev-7337d52d71aafaa9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道标题，未见客户名单、用户评价或行业采用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-7337d52d71aafaa9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计价方式或采购模式，无法判断收入来源与可重复交付。
+    evidence_ids:
+    - ev-7337d52d71aafaa9
+  - gate: truth
+    status: insufficient
+    reason: 未披露效率提升的量化结果与人工确认边界，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-7337d52d71aafaa9
+  next_validation: 收集 Synera 官方客户案例页或产品文档，确认具体汽车客户、被自动化的仿真环节与量化收益。
+  market: ''
+  job: 汽车工程团队在概念与详细设计阶段处理多学科仿真与设计参数，需要把反复手工串联的仿真流程压缩成可复用的自动化流程。
+  job_en: Automotive engineering teams handling multi-disciplinary simulation and design parameters during
+    concept and detailed design need to turn repeatedly hand-chained simulation steps into reusable automated
+    workflows.
+  pain: 多学科仿真工具各自独立，工程师需手工搬运参数、反复启动仿真并汇总结果，迭代慢且易出错；不解决的后果是设计周期拉长、验证成本上升。
+  pain_en: Multi-disciplinary simulation tools are siloed; engineers manually move parameters, repeatedly
+    launch simulations and consolidate results, making iteration slow and error-prone. The consequence
+    is longer design cycles and higher validation cost.
+  current_alternative: 工程师用脚本、电子表格和人工操作在多个仿真软件之间串联流程，或依赖内部自建脚本库。
+  current_alternative_en: Engineers chain workflows across multiple simulation tools with scripts, spreadsheets
+    and manual operations, or rely on in-house script libraries.
+  usage_reason: 推断：相较手工串联脚本，Synera 把仿真工具与参数接入同一条可复用流程并按设定自动执行，减少重复搬运参数和重复启动仿真的步骤，因此仿真密集的工程团队在需要反复迭代同一类设计时会选择它；公开材料尚未给出客户采用与留存证据。
+  usage_reason_en: 'Inference: compared with hand-written chaining scripts, Synera connects simulation
+    tools and parameters into one reusable workflow executed automatically, reducing repeated parameter
+    transfer and simulation relaunch steps, so simulation-heavy engineering teams would choose it when
+    iterating the same design type repeatedly; public material does not yet show customer adoption or
+    retention evidence.'

@@ -1,0 +1,42 @@
+- id: req-initial-华为云与深演智能签约深化合作加速ai营销解决方案落地-2026-10-18
+  project_slug: 华为云与深演智能签约深化合作加速ai营销解决方案落地
+  level: initial
+  reviewed_at: '2026-10-18T00:04:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决营销团队受众筛选与投放决策耗时的问题，痛点具体，替代的是人工报表与外包服务。
+    evidence_ids:
+    - ev-2ea21df0a9de309e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有合作签约公告，未见客户采用或使用反馈。
+    evidence_ids:
+    - ev-2ea21df0a9de309e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、合同金额或收费方式，买方与付费路径不清。
+    evidence_ids:
+    - ev-2ea21df0a9de309e
+  - gate: truth
+    status: insufficient
+    reason: 未见交付结果或效果数据，承诺能否确定性交付无法核验。
+    evidence_ids:
+    - ev-2ea21df0a9de309e
+  next_validation: 收集深演智能官网或华为云合作页上的客户案例与定价/收费方式说明。
+  market: ''
+  job: 营销团队在投放与客户运营中处理人群与投放数据，需要完成受众筛选与营销决策。
+  job_en: Marketing teams process audience and campaign data during advertising and customer operations
+    to complete audience targeting and marketing decisions.
+  pain: 营销决策依赖人工经验与多源数据拼接，受众筛选与投放优化耗时且难以复用。
+  pain_en: Marketing decisions rely on manual experience and stitching multiple data sources; audience
+    targeting and campaign optimization are slow and hard to reuse.
+  current_alternative: 人工分析报表、外包营销服务或通用投放平台。
+  current_alternative_en: Manual report analysis, outsourced marketing services, or generic ad platforms.
+  usage_reason: 推断：相较人工拼接报表，它把人群与投放数据交给 AI 做受众筛选与决策支持，减少人工整理与试错环节，因此营销团队在投放优化时会考虑使用；实际效果与付费路径尚未公开。
+  usage_reason_en: 'Inference: compared with manually stitching reports, it hands audience and campaign
+    data to AI for targeting and decision support, reducing manual preparation and trial-and-error, so
+    marketing teams may consider it for campaign optimization; actual results and payment paths are not
+    public.'

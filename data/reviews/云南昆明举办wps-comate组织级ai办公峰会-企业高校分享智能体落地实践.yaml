@@ -1,0 +1,44 @@
+- id: req-initial-云南昆明举办wps-comate组织级ai办公峰会-企业高校分享智能体落地实践-2026-10-18
+  project_slug: 云南昆明举办wps-comate组织级ai办公峰会-企业高校分享智能体落地实践
+  level: initial
+  reviewed_at: '2026-10-18T00:04:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公材料跨文件整理与流转的人工负担，痛点具体且不处理会延迟审批归档；但本次仅有会议报道，未给出具体交付结果。
+    evidence_ids:
+    - ev-55adf3b5d6925539
+  - gate: consensus
+    status: insufficient
+    reason: 报道只说明企业与高校在会上分享实践，未披露采用方数量、使用频率或持续使用证据。
+    evidence_ids:
+    - ev-55adf3b5d6925539
+  - gate: model
+    status: insufficient
+    reason: 未披露组织级部署的定价、采购方式或付费方，买方结构只能推断为企业与高校信息化部门。
+    evidence_ids:
+    - ev-55adf3b5d6925539
+  - gate: truth
+    status: insufficient
+    reason: 缺少智能体输出准确率、人工复核边界与安全合规说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-55adf3b5d6925539
+  next_validation: 收集 WPS Comate 官方产品页或组织级部署文档，核对其输入材料、交付结果与定价方式。
+  market: ''
+  job: 企业行政、法务或高校教务人员在日常办公中处理大量文档、表格与审批材料，需要把跨文件的整理、汇总与流转交给智能体完成并拿到可用结果。
+  job_en: Enterprise admin, legal or university academic staff handling large volumes of documents, spreadsheets
+    and approval materials need agents to consolidate, summarise and route them across files and return
+    usable output.
+  pain: 这类材料分散在多个文件与系统里，人工逐份阅读、摘录和搬运耗时且易错；不处理的后果是审批与归档延迟。
+  pain_en: Such materials are scattered across files and systems, so reading, extracting and re-keying
+    them by hand is slow and error-prone; the cost of not solving it is delayed approvals and filing.
+  current_alternative: 目前多靠人工在办公套件里逐份复制粘贴，或使用通用对话助手把文本贴进贴出，再人工核对格式与字段。
+  current_alternative_en: Today this is mostly manual copy-paste inside office suites, or pasting text
+    into general chat assistants and then manually checking formats and fields.
+  usage_reason: 推断：相较把内容贴进通用助手再手工搬回，嵌入办公套件的智能体可直接读取原始文档与表格并在同一环境产出结果，减少一次导出与回填；但本次材料未给出客户案例或使用数据，实际留存无法确认。
+  usage_reason_en: 'Inference: compared with pasting content into a general assistant and moving it back
+    by hand, a suite-embedded agent can read the original documents and spreadsheets and produce output
+    in the same environment, removing one export-and-rekey step; this material provides no customer cases
+    or usage data, so retention cannot be confirmed.'

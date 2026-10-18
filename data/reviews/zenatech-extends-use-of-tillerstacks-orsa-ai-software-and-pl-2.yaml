@@ -1,0 +1,42 @@
+- id: req-initial-zenatech-extends-use-of-tillerstacks-orsa-ai-software-and-pl-2-2026-10-18
+  project_slug: zenatech-extends-use-of-tillerstacks-orsa-ai-software-and-pl-2
+  level: initial
+  reviewed_at: '2026-10-18T00:04:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知计划结合医疗教学与智能眼镜，未说明具体任务与痛点，价值结构无法还原。
+    evidence_ids:
+    - ev-ac2a40a0fd04f4a4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有公司公告，没有教学机构采用、试点或使用反馈。
+    evidence_ids:
+    - ev-ac2a40a0fd04f4a4
+  - gate: model
+    status: insufficient
+    reason: 买方可能是医学院、医院或 ZenaTech 自身，付费路径与计价方式均未披露，属判断而非事实。
+    evidence_ids:
+    - ev-ac2a40a0fd04f4a4
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付是否确定发生，也未见人工复核边界与安全说明。
+    evidence_ids:
+    - ev-ac2a40a0fd04f4a4
+  next_validation: 收集 ZenaTech 官方公告或 Orsa+ 产品文档，确认医疗教学场景的具体功能、部署客户与收费方式。
+  market: ''
+  job: 医疗教学人员在课堂或实训中，需要借助智能眼镜与 AI 软件完成演示和材料处理；具体岗位与环节未披露。
+  job_en: Healthcare instructors in class or training need smart glasses and AI software to deliver demonstrations
+    and process materials; the specific role and step were not disclosed.
+  pain: 公开材料只说明计划结合医疗教学与智能眼镜，未说明原来教学或实训中哪一步最费时、出错后果如何。
+  pain_en: Public material only mentions plans to combine healthcare teaching with smart glasses; it does
+    not say which teaching or training step was most time-consuming or what errors cost.
+  current_alternative: 现有做法可能是传统授课演示与人工记录，但候选未提供可核对的旧流程描述。
+  current_alternative_en: Current practice may be conventional classroom demonstrations and manual note-taking,
+    but the candidate provides no verifiable description of the old process.
+  usage_reason: 无法判断用户为何选择它：材料未说明产品通过什么具体动作减少哪一步负担，也未提供教学机构使用反馈；扩大使用属于公司公告，不能证明终端用户采用。
+  usage_reason_en: 'Why users would choose it cannot be determined: the material does not say which step
+    the product reduces through what action, and no feedback from teaching institutions is provided; expanded
+    use is a company announcement, not evidence of end-user adoption.'

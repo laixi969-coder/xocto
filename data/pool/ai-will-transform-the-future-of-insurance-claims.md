@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxQUDZJWkxza0Q1
 summary: AI will transform the future of insurance claims Deloitte
 first_seen: '2026-08-28T14:55:10Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
