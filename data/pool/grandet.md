@@ -31,18 +31,18 @@ summary: 'Find the cheapest API for any model and connect it from your AI agent:
   anonymous MCP server, backed by listed prices from 1,800+ official, inference and relay providers on
   grandet.ai.'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-17T00:30:30Z'
+last_seen: '2026-10-18T00:03:49Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://grandet.ai
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-18T00:03:49Z'
   metrics:
-    stars: 218
-    forks: 9
-    open_issues: 2
+    stars: 287
+    forks: 24
+    open_issues: 3
   kind: product
 ---
 

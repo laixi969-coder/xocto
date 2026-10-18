@@ -16,3 +16,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-d83a98590cc7766b
+  project_slug: ps5lm
+  url: https://github.com/cobanov/PS5LM
+  title: PS5LM
+  published_at: '2026-10-16T18:32:35Z'
+  collected_at: '2026-10-18T00:03:44Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console'

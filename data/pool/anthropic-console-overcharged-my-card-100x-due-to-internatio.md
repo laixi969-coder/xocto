@@ -22,17 +22,17 @@ summary: I am a LegalTech Attorney leading a developer team from Costa Rica. Whi
   onto my Anthropic API account (claude.com), I experienced a critical internationalization (i18n) and
   UX failure that has pl…
 first_seen: '2026-10-17T00:30:22Z'
-last_seen: '2026-10-17T00:30:22Z'
-status: rejected
+last_seen: '2026-10-18T00:03:44Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50121562
-  seen_at: '2026-10-17T00:30:22Z'
+  seen_at: '2026-10-18T00:03:44Z'
   metrics:
-    points: 86
-    comments: 32
+    points: 88
+    comments: 36
   kind: news
 ---
 

@@ -21,25 +21,25 @@ canonical_url: https://strandsagents.com/docs/labs
 summary: A small, fast decision model, or system one model, for agentic workflows. Pick between options
   or rate on a scale faster than an LLM, with a calibrated confidence on every decision.
 first_seen: '2026-09-29T16:36:38Z'
-last_seen: '2026-10-17T00:30:30Z'
+last_seen: '2026-10-18T00:03:49Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://strandsagents.com/docs/labs/
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-18T00:03:49Z'
   metrics:
-    stars: 658
-    forks: 87
-    open_issues: 41
+    stars: 662
+    forks: 89
+    open_issues: 42
   kind: product
 - source: github
   url: https://strandsagents.com
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-18T00:03:49Z'
   metrics:
-    stars: 418
-    forks: 22
+    stars: 432
+    forks: 25
     open_issues: 47
   kind: product
 ---

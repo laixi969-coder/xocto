@@ -20,16 +20,16 @@ url: https://github.com/Moshik21/weatherdeck
 canonical_url: https://github.com/Moshik21/weatherdeck
 summary: a read-only status board for AI coding agent lanes
 first_seen: '2026-10-17T00:30:22Z'
-last_seen: '2026-10-17T00:30:22Z'
+last_seen: '2026-10-18T00:03:44Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Moshik21/weatherdeck
-  seen_at: '2026-10-17T00:30:22Z'
+  seen_at: '2026-10-18T00:03:44Z'
   metrics:
-    points: 8
+    points: 9
     comments: 0
   kind: product
 ---

@@ -20,16 +20,16 @@ url: https://demo-disc.pixelnest.io/
 canonical_url: https://demo-disc.pixelnest.io
 summary: A WebGL hommage to PS1 demo discs
 first_seen: '2026-10-17T00:30:22Z'
-last_seen: '2026-10-17T00:30:22Z'
+last_seen: '2026-10-18T00:03:44Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://demo-disc.pixelnest.io/
-  seen_at: '2026-10-17T00:30:22Z'
+  seen_at: '2026-10-18T00:03:44Z'
   metrics:
-    points: 6
+    points: 7
     comments: 0
   kind: product
 ---

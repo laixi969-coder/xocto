@@ -22,10 +22,11 @@ summary: deepseek-harness for vscode .A native VS Code coding-agent extension fo
   workbench with session   management, streaming Markdown, slash commands, plugin center, and zero-deployment
   runtime — no WebUI   served, no Harness setup
 first_seen: '2026-08-13T18:35:49Z'
-last_seen: '2026-09-02T00:14:35Z'
+last_seen: '2026-10-18T00:03:44Z'
 status: rejected
 sources:
 - github
+- hackernews
 sightings:
 - source: github
   url: https://marketplace.visualstudio.com/items?itemName=skymecode.deepseek-harness-for-vscode
@@ -34,6 +35,13 @@ sightings:
     stars: 132
     forks: 5
     open_issues: 2
+  kind: product
+- source: hackernews
+  url: https://marketplace.visualstudio.com/items?itemName=Suwapat.logcallstack
+  seen_at: '2026-10-18T00:03:44Z'
+  metrics:
+    points: 6
+    comments: 0
   kind: product
 ---
 

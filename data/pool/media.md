@@ -53,7 +53,7 @@ summary: "今天 **Gemini-4-Argon** 正式发布了，实测它的长程规划�
   \ 3 个备选立项方案发到我手机上等我拍板。**\r\n\r\n大家平时有什么「明明功能简单、却非要收高价买断或订阅」的怨念软件？**欢迎在评论区提名！** 我会让 AI 员工去抓评论区的高赞提名一起纳入评估，明天\
   \ **Day 2** 正式揭晓最终选定的目标软件并开工写代码！"
 first_seen: '2026-10-15T00:32:03Z'
-last_seen: '2026-10-17T00:30:21Z'
+last_seen: '2026-10-18T00:03:42Z'
 status: watching
 sources:
 - v2ex
@@ -81,6 +81,12 @@ sightings:
   seen_at: '2026-10-17T00:30:21Z'
   metrics:
     comments: 4
+  kind: product
+- source: v2ex
+  url: https://media.munk.sh/blog/day-04/Deepseek.png
+  seen_at: '2026-10-18T00:03:42Z'
+  metrics:
+    comments: 8
   kind: product
 ---
 

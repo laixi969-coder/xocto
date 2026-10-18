@@ -34,17 +34,17 @@ url: https://stoke.money
 canonical_url: https://stoke.money
 summary: Personal finance app built around a cash flow forecast
 first_seen: '2026-10-17T00:30:22Z'
-last_seen: '2026-10-17T00:30:22Z'
+last_seen: '2026-10-18T00:03:44Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://stoke.money
-  seen_at: '2026-10-17T00:30:22Z'
+  seen_at: '2026-10-18T00:03:44Z'
   metrics:
-    points: 21
-    comments: 17
+    points: 31
+    comments: 20
   kind: product
 ---
 

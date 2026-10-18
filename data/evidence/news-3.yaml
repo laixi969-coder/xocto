@@ -52,3 +52,18 @@
   source_kind: customer_case
   tier: independent
   fact: Market news Halifax
+- id: ev-5f7303ec8b851dcc
+  project_slug: news-3
+  url: https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites
+  title: Meta removes language that may have allowed it to scrape news sites
+  published_at: '2026-10-17T15:04:36Z'
+  collected_at: '2026-10-18T00:04:10Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'After backlash, Meta is updating its terms again to remove language that suggested it could scrape
+    content from sites, including news sites, to train its AI. Specifically, the following language no
+    longer appears on the commercial terms page : … Meta may use any content from such domains, web pages,
+    or URLs to provide, develop, improve, research, train, and maintain the integrity of, the Meta Company
+    Products, services, and features provided under these Commercial Terms and any other applicable supplemental
+    terms. Many, including Neiman Lab and James Grimmelmann, a professor of digital and information law
+    at Cornell, interpreted it as an … Read the full story at The Verge.'

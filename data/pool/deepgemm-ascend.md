@@ -41,17 +41,17 @@ canonical_url: https://github.com/deepseek-ai/DeepGEMM-Ascend
 summary: 'DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend
   NPUs'
 first_seen: '2026-09-29T15:49:55Z'
-last_seen: '2026-10-17T00:30:30Z'
+last_seen: '2026-10-18T00:03:49Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/deepseek-ai/DeepGEMM-Ascend
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-18T00:03:49Z'
   metrics:
-    stars: 583
-    forks: 48
+    stars: 586
+    forks: 49
     open_issues: 11
   kind: product
 ---

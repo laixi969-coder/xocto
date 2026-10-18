@@ -297,3 +297,18 @@
   tier: independent
   fact: Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers
     to any question.
+- id: ev-69f783ef41ea0da3
+  project_slug: media
+  url: https://www.v2ex.com/t/1249671
+  title: DeepSeek-V4.1-Flash-1017 发布了，今晚我让它通宵写代码（Day 4）
+  published_at: '2026-10-17T16:25:08Z'
+  collected_at: '2026-10-18T00:03:42Z'
+  source_kind: product
+  tier: independent
+  fact: "今天是挑战第 4 天，正好赶上 `DeepSeek-V4.1-Flash-1017` 发布。\r\n\r\n看官方刚放出的评测跑分，代码与 Agent 几项指标都很猛，已经逼近 GPT\
+    \ 和 Claude 第一梯队了。\r\n\r\n![DeepSeek 新版本官方跑分对比]( https://media.munk.sh/blog/day-04/Deepseek.png)\r\n\
+    \r\n原本在我的 AI 公司里，Gemini 4 当高管和主力研发，DeepSeek 只负责打下手。既然新模型这么强，今晚我决定给它升职，让它承担核心研发任务，自己挂机通宵跑一夜。\r\n\r\n\
+    开源仓库已经建好，目前是空仓，后续各位可以去实时盯进度：\r\nhttps://github.com/chaxiu/OpenCompare\r\n\r\n有任何想要的功能或 Bug 反馈，欢迎直接在仓库里提\
+    \ Issue ，我的 AI 员工会定时巡检收集。\r\n\r\n如果 DeepSeek 主导写出来的版本我不满意，明天就换回 Gemini 4 推倒重跑。\r\n\r\n这两天评论区新增的需求，我也让\
+    \ Gemini 排到 P1 了，到时候看 DeepSeek-V4.1-Flash-1017 能做到什么程度吧。\r\n\r\n![命令]( https://media.munk.sh/blog/day-04/start-prompt.png)\r\
+    \n\r\nPS：原本打算睡觉时开个 B 站无人直播，让大家实时围观它通宵写代码，但查了下挂机无人直播有封号风险。委屈各位明天直接看它交出来的版本和实测数据了。"

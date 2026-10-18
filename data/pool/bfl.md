@@ -20,17 +20,17 @@ url: https://bfl.ai/blog/flux-3-image-klein
 canonical_url: https://bfl.ai/blog/flux-3-image-klein
 summary: FLUX 3 Image Klein
 first_seen: '2026-10-17T00:30:22Z'
-last_seen: '2026-10-17T00:30:22Z'
+last_seen: '2026-10-18T00:03:44Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://bfl.ai/blog/flux-3-image-klein
-  seen_at: '2026-10-17T00:30:22Z'
+  seen_at: '2026-10-18T00:03:44Z'
   metrics:
-    points: 96
-    comments: 24
+    points: 206
+    comments: 57
   kind: news
 ---
 

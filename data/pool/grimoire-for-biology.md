@@ -33,16 +33,16 @@ url: https://grimoire.bio
 canonical_url: https://grimoire.bio
 summary: ''
 first_seen: '2026-10-17T00:30:22Z'
-last_seen: '2026-10-17T00:30:22Z'
+last_seen: '2026-10-18T00:03:44Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://grimoire.bio
-  seen_at: '2026-10-17T00:30:22Z'
+  seen_at: '2026-10-18T00:03:44Z'
   metrics:
-    points: 9
+    points: 10
     comments: 2
   kind: product
 ---

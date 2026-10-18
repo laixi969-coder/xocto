@@ -20,17 +20,17 @@ url: https://pressaudit.org/midterms-2026
 canonical_url: https://pressaudit.org/midterms-2026
 summary: 2026 Midterms Tracker blends polls and Kalshi/Poymarket odds
 first_seen: '2026-10-17T00:30:22Z'
-last_seen: '2026-10-17T00:30:22Z'
+last_seen: '2026-10-18T00:03:44Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pressaudit.org/midterms-2026
-  seen_at: '2026-10-17T00:30:22Z'
+  seen_at: '2026-10-18T00:03:44Z'
   metrics:
-    points: 10
-    comments: 4
+    points: 12
+    comments: 6
   kind: product
 ---
 

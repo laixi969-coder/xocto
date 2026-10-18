@@ -1,0 +1,41 @@
+---
+slug: 行业首个基于确定性网络的智能体互联平台axp在南京正式发布
+name: 行业首个基于确定性网络的智能体互联平台AXP在南京正式发布
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiowJBVV95cUxQc3NZc1ZtbTF4dWFTM2V4UFM1ZHBReFpJUms4YkxRUVdpZTU5U2VrWVU2aWMwZkkwWWtqNGlZM25vSFpWTXVSLWFVejhoR0dBTzRsSFhrMWp6Q2EzcmRPVy1ENHRPcmJUN0E4MWJQVlRXLUlmajB3WmI5eEpSLXl5c1VlNW9kTFd2eWhnNUVZTlYxUnExUU1MRElvSXVydU9TMzh1WS1ZWXZSZlJ2YW5YVEt6QWNmNzYwbkhTRHR3c0k1VnVTNVpNN01lRHVwTnBkajVNU0ZUZktjQmpOTHNBaE9pU0RDNFQyVFVqU0ZRUmxQZXo0RWtnZEVFQU1PUjRHT1dPcEJoMXFYa2VCTTdhejBFVHcwZVozWUV5anRjZTdMbUk?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiowJBVV95cUxQc3NZc1ZtbTF4dWFTM2V4UFM1ZHBReFpJUms4YkxRUVdpZTU5U2VrWVU2aWMwZkkwWWtqNGlZM25vSFpWTXVSLWFVejhoR0dBTzRsSFhrMWp6Q2EzcmRPVy1ENHRPcmJUN0E4MWJQVlRXLUlmajB3WmI5eEpSLXl5c1VlNW9kTFd2eWhnNUVZTlYxUnExUU1MRElvSXVydU9TMzh1WS1ZWXZSZlJ2YW5YVEt6QWNmNzYwbkhTRHR3c0k1VnVTNVpNN01lRHVwTnBkajVNU0ZUZktjQmpOTHNBaE9pU0RDNFQyVFVqU0ZRUmxQZXo0RWtnZEVFQU1PUjRHT1dPcEJoMXFYa2VCTTdhejBFVHcwZVozWUV5anRjZTdMbUk?oc=5
+summary: 行业首个基于确定性网络的智能体互联平台AXP在南京正式发布 新浪财经
+first_seen: '2026-10-18T00:04:17Z'
+last_seen: '2026-10-18T00:04:17Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiowJBVV95cUxQc3NZc1ZtbTF4dWFTM2V4UFM1ZHBReFpJUms4YkxRUVdpZTU5U2VrWVU2aWMwZkkwWWtqNGlZM25vSFpWTXVSLWFVejhoR0dBTzRsSFhrMWp6Q2EzcmRPVy1ENHRPcmJUN0E4MWJQVlRXLUlmajB3WmI5eEpSLXl5c1VlNW9kTFd2eWhnNUVZTlYxUnExUU1MRElvSXVydU9TMzh1WS1ZWXZSZlJ2YW5YVEt6QWNmNzYwbkhTRHR3c0k1VnVTNVpNN01lRHVwTnBkajVNU0ZUZktjQmpOTHNBaE9pU0RDNFQyVFVqU0ZRUmxQZXo0RWtnZEVFQU1PUjRHT1dPcEJoMXFYa2VCTTdhejBFVHcwZVozWUV5anRjZTdMbUk?oc=5
+  seen_at: '2026-10-18T00:04:17Z'
+  metrics: {}
+  kind: news
+---
+
+# 行业首个基于确定性网络的智能体互联平台AXP在南京正式发布
+
+行业首个基于确定性网络的智能体互联平台AXP在南京正式发布 新浪财经
+
+## 笔记
+
+

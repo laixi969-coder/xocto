@@ -322,16 +322,16 @@ summary: "## Overview\r\n\r\nllama.cpp v0.7.0 adds the LiliCorr speculative deco
   \ when Require Docker is disabled (#30008)\r\n8345f3339 hexagon: matmul and flash-atten scalability\
   \ updates (#29974)"
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-17T00:30:30Z'
-status: market_context
+last_seen: '2026-10-18T00:03:49Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ggml-org/llama.cpp/releases/tag/v0.7.0
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-18T00:03:49Z'
   metrics:
-    reactions: 18
+    reactions: 23
   kind: news
 ---
 

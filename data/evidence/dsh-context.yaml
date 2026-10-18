@@ -2863,3 +2863,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-f338e36990ae4154
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-tool-todo-plus
+  title: dsh-tool-todo-plus
+  published_at: '2026-10-03T03:06:04Z'
+  collected_at: '2026-10-18T00:03:49Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DeepSeek Harness 任务清单插件：官方 todo_write 的增强 fork —— 优先级标签、完整清单渲染、可拖动的会话内浮动任务面板（位置记忆 / 双击复位 / 当前动作显示）
+    | repository stars: 85'

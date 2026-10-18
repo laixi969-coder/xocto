@@ -39,16 +39,16 @@ canonical_url: https://openspline.dev
 summary: Give a face to your voice AI in 5 lines of code. Generate realtime avatar video connected to
   your voice AI locally
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-17T00:30:30Z'
+last_seen: '2026-10-18T00:03:49Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.openspline.dev/
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-18T00:03:49Z'
   metrics:
-    stars: 73
+    stars: 80
     forks: 1
     open_issues: 3
   kind: product

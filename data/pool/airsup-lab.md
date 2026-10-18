@@ -42,16 +42,16 @@ canonical_url: https://airsup.ai/lab
 summary: 'Machines you can take apart in your browser: fusion reactor, Raptor 3, Cybertruck, humanoid,
   black hole, fighter jet engine, F1 car, drone. Three.js, procedural, real physics.'
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-17T00:30:30Z'
+last_seen: '2026-10-18T00:03:49Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.airsup.ai/lab
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-18T00:03:49Z'
   metrics:
-    stars: 43
+    stars: 44
     forks: 8
     open_issues: 0
   kind: product

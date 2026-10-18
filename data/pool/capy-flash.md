@@ -24,17 +24,17 @@ url: https://github.com/ValerioDolci/capy-flash
 canonical_url: https://github.com/ValerioDolci/capy-flash
 summary: a 125B MoE model on two 16 GB consumer GPUs
 first_seen: '2026-10-17T00:30:22Z'
-last_seen: '2026-10-17T00:30:22Z'
+last_seen: '2026-10-18T00:03:44Z'
 status: market_context
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/ValerioDolci/capy-flash
-  seen_at: '2026-10-17T00:30:22Z'
+  seen_at: '2026-10-18T00:03:44Z'
   metrics:
-    points: 6
-    comments: 0
+    points: 7
+    comments: 2
   kind: product
 ---
 

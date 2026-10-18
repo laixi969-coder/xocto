@@ -33,16 +33,16 @@ url: https://rstation.ai/
 canonical_url: https://rstation.ai
 summary: A shared research lab for your AI agents
 first_seen: '2026-10-17T00:30:22Z'
-last_seen: '2026-10-17T00:30:22Z'
+last_seen: '2026-10-18T00:03:44Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://rstation.ai/
-  seen_at: '2026-10-17T00:30:22Z'
+  seen_at: '2026-10-18T00:03:44Z'
   metrics:
-    points: 50
+    points: 57
     comments: 19
   kind: product
 ---

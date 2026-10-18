@@ -32,17 +32,17 @@ summary: CodeAgent is an open-source coding agent that lives in your terminal. I
   plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the task
   is done — all with a transparent, extensible tool loop.
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-17T00:30:30Z'
+last_seen: '2026-10-18T00:03:49Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Harvil1/codeAgent
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-18T00:03:49Z'
   metrics:
-    stars: 814
-    forks: 67
+    stars: 884
+    forks: 68
     open_issues: 0
   kind: product
 ---

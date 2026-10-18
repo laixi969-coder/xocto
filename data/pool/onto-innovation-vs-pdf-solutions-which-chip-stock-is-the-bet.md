@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxObE1hcnZDcV8yX0dhNzBhUz
 canonical_url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxObE1hcnZDcV8yX0dhNzBhUzFqQXVibkY2c09DdUtZTGxQYU5aR0ozRjI3ZkxKMHgycno4b1VtZHkwRXI4b2lTbWdXbzRXUFFFWmlSdnpWeVFnaV91LTBBM2pzdU1xTDNzZnA3TVpxVlMyWFlka1UyYThkckxxeGgzdUxHMFhZQ1lGbncwWVl6UmZDbUlSRzJiei12REhJc0lJOHlGODZhRnVhS0t2aFh6U0ZORWIta1MzX0hLcDcyZkk?oc=5
 summary: 'Onto Innovation vs. PDF Solutions: Which Chip Stock is the Better Buy? TradingView'
 first_seen: '2026-10-16T00:25:46Z'
-last_seen: '2026-10-16T00:25:46Z'
-status: rejected
+last_seen: '2026-10-18T00:04:17Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxObE1hcnZDcV8yX0dhNzBhUzFqQXVibkY2c09DdUtZTGxQYU5aR0ozRjI3ZkxKMHgycno4b1VtZHkwRXI4b2lTbWdXbzRXUFFFWmlSdnpWeVFnaV91LTBBM2pzdU1xTDNzZnA3TVpxVlMyWFlka1UyYThkckxxeGgzdUxHMFhZQ1lGbncwWVl6UmZDbUlSRzJiei12REhJc0lJOHlGODZhRnVhS0t2aFh6U0ZORWIta1MzX0hLcDcyZkk?oc=5
   seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNMHVuT09LdlFWVDkybEMxaTBXSkRRd2x2YXBKeHktVDdCQlVNWHdVUUdNNjNjdHlyNDlQaDdGa2RTd0VLU21ibW1ZRTViV1FBTDk4alRiU00wbFlLdFYwaE5oMU45UGhlenR5X1I4a2U5WEplQmhWYlZaN0c3VjZmWkx0cXduYnA5SkF3UXlFeFQ3bFNUTndEQmhKeTVmR0poX1RjcFljdk9CY3lvU3NVOExiZm5mTlF4VDA5OGRrUQ?oc=5
+  seen_at: '2026-10-18T00:04:17Z'
   metrics: {}
   kind: news
 ---
