@@ -141,3 +141,50 @@
     the app-switching and file-hunting step so developers see the before/after comparison in place and
     immediately decide whether to iterate; developers who frequently change UI code and already run a
     coding agent in the terminal would pick it during review.'
+- id: req-full-claude-show-your-work-2026-10-19
+  project_slug: claude-show-your-work
+  level: full
+  reviewed_at: '2026-10-19T00:42:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理产出图像视频后终端无法查看、评审被迫中断的问题，痛点具体且旧替代行为明确；谁付钱尚未在公开材料中出现，留待模式关判断。
+    evidence_ids:
+    - ev-9cf975e1b3000946
+    - ev-d60177cede1707f7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从192升至237属关注度而非持续采用，没有用户评价或团队采用记录说明它已进入日常工作流。
+    evidence_ids:
+    - ev-9cf975e1b3000946
+    - ev-9996153ec63daac1
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价或商业路径，钱可能来自赞助、托管服务或企业支持，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9cf975e1b3000946
+  - gate: truth
+    status: insufficient
+    reason: 依赖 kitty 图形协议，兼容性边界与视觉对比是否可靠尚未核验，也未说明人工确认环节如何留痕。
+    evidence_ids:
+    - ev-9cf975e1b3000946
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者实际反馈的终端兼容问题与视觉评审使用场景。
+  market: ''
+  job: 使用 Claude Code 的开发者在前端或界面改动完成后，需要在终端内查看代理生成的截图、录屏与 Playwright 前后对比，判断改动是否达到预期并决定是否继续迭代。
+  job_en: Developers using Claude Code, after a front-end or UI change, need to view agent-generated screenshots,
+    recordings and Playwright before/after comparisons inside the terminal to judge whether the change
+    meets expectations and decide whether to iterate.
+  pain: 编码代理产出的是图像和视频，终端默认只显示文本，开发者必须切到浏览器或文件管理器逐个打开产物肉眼比对，评审流程被打断，视觉回归容易漏看。
+  pain_en: Coding agents output images and video while the terminal shows only text, forcing developers
+    to switch to a browser or file manager and open artifacts one by one for eyeball comparison, interrupting
+    review and risking missed visual regressions.
+  current_alternative: 旧做法是离开终端，用系统图片查看器、视频播放器或浏览器手动打开截图和录屏，再凭肉眼比对前后版本。
+  current_alternative_en: The old way is to leave the terminal and manually open screenshots and recordings
+    in a system image viewer, video player or browser, then compare versions by eye.
+  usage_reason: 推断：它把图像与视频渲染直接放进 Claude Code 终端，省掉切换应用和逐个找文件这一步，让开发者在同一处看到前后对比后立即决定是否继续迭代，因此常做界面改动且已用编码代理的开发者会在评审环节选择它。
+  usage_reason_en: 'Inference: it renders images and video directly inside the Claude Code terminal, removing
+    the app-switching and file-hunting step so developers see the before/after comparison in place and
+    immediately decide whether to iterate; developers who frequently change UI code and already use a
+    coding agent would pick it during review.'

@@ -1067,3 +1067,45 @@
     critical nodes, cutting the burden of tracing change provenance and rolling back failed steps; teams
     that let coding agents touch production-grade repos while requiring human approval and recoverable
     records would choose it. No user feedback is public, so this is an inference.'
+- id: req-full-approving-2026-10-19
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-10-19T00:42:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 README、部署文档与 issue/discussion，确认 Docker 沙箱隔离机制、批准节点配置方式与可复现的交付记录。
+  market: ''
+  job: 开发者在本地或自托管环境中，把编码代理要执行的代码修改交给平台，在 Docker 沙箱里运行，并在关键节点由人批准后才继续，最终要拿到可复核、可回滚的交付结果。
+  job_en: A developer hands code changes for a coding agent to the platform, runs them in Docker sandboxes,
+    and requires human approval at critical nodes before continuing, aiming for reviewable and recoverable
+    delivery results.
+  pain: 编码代理直接改仓库时，越权操作、不可回滚的改动和缺少人工检查点会让开发者不敢放手；逐条盯日志、手工回滚又占掉大量时间。
+  pain_en: When coding agents edit repositories directly, overreach, non-revertible changes and missing
+    human checkpoints make developers reluctant to delegate; watching logs line by line and rolling back
+    manually consumes much time.
+  current_alternative: 目前多靠本地终端直接跑代理、人工逐条审 diff、git 分支隔离，或干脆不让代理碰关键仓库。
+  current_alternative_en: Today this is mostly running agents directly in a local terminal, manually reviewing
+    each diff, isolating with git branches, or simply keeping agents away from critical repositories.
+  usage_reason: 相较在本地终端直接跑代理、事后人工审 diff，它把执行放进 Docker 沙箱并在关键节点强制暂停等人批准，减少事后逐条排查越权改动和手工回滚的负担，因此需要让代理改生产相关代码又要求可审计的开发者会先试用；这是基于产品能力的推断，尚无客户案例或留存证据。
+  usage_reason_en: Compared with running agents directly in a local terminal and reviewing diffs afterward,
+    it puts execution in Docker sandboxes and forces pauses for human approval at critical nodes, cutting
+    the burden of post-hoc hunting for overreach and manual rollback, so developers who need agents to
+    touch production-adjacent code with auditability would try it first; this is inference from capability,
+    with no customer case or retention evidence yet.

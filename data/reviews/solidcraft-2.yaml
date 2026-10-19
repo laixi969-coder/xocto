@@ -96,3 +96,58 @@
     MCP, so teams needing batch part generation or re-parameterization can skip a round of manual repeated
     modeling. The material does not say which step AI performs and gives no customer cases or retention
     evidence, so the choice motive is inference, not fact.'
+- id: req-full-solidcraft-2-2026-10-19
+  project_slug: solidcraft-2
+  level: full
+  reviewed_at: '2026-10-19T00:45:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决参数化零件建模与改尺寸后自动重建这一具体任务，痛点来自商业套件授权成本与自动化调用受限，旧做法是 Fusion 360 等套件加人工重复建模；产品以草图、约束、特征时间线加
+      MCP 完成交付，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-ebe174c76f91a079
+    - ev-9e66b7c7aaac283e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网与仓库的功能描述，没有用户评价、客户案例或工程团队实际建模使用的记录，无法判断它是否已进入真实设计流程。
+    evidence_ids:
+    - ev-09845e21315a93b1
+    - ev-ebe174c76f91a079
+  - gate: model
+    status: insufficient
+    reason: 项目为开源且免费下载，公开材料未说明商业版本、支持服务或企业部署的收费路径；钱可能来自 to B 支持服务或 to VC，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-df857081b337550f
+    - ev-0b874b9c491ea1bb
+  - gate: truth
+    status: insufficient
+    reason: 未说明几何内核精度、与既有 CAD 文件格式的兼容性以及 AI 建模的人工复核边界，工业场景下承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-ebe174c76f91a079
+    - ev-9e66b7c7aaac283e
+  next_validation: 追踪 SolidCraft 仓库的 issue 与 discussion，确认几何内核精度、与 Fusion 360 等格式的兼容性，以及是否有工程团队报告实际建模使用。
+  market: ''
+  job: 机械或工业设计工程师在需要建立或修改参数化零件模型时，在桌面或浏览器中通过草图、约束和特征时间线构建实体，改动尺寸后模型自动重建，并可通过内置 MCP 让 AI 代理参与建模，最终得到可继续编辑的参数化模型文件。
+  job_en: A mechanical or industrial design engineer, when a parametric part model must be created or
+    modified, builds solids from sketches, constraints and a feature timeline on desktop or in the browser,
+    changes a dimension and watches the model rebuild, and can let AI agents model through the built-in
+    MCP server, ending with a parametric model file that stays editable.
+  pain: 参数化建模长期集中在少数商业套件上，授权成本高、自动化调用受限；需要反复改尺寸、批量重建或把建模接入自动化流程的工程师，只能靠人工重复操作或受制于套件接口，这是从开源替代与 MCP 自动化接口推出的结构性痛点。
+  pain_en: Parametric modeling has long concentrated in a few commercial suites with high licensing cost
+    and limited automated calls; engineers who must repeatedly change dimensions, rebuild in batches or
+    wire modeling into automated flows are left with manual repetition or suite interface limits, a structural
+    pain inferred from the open-source alternative and the MCP automation interface.
+  current_alternative: 公开材料称其为 Autodesk Fusion 360 的净室重实现，说明旧做法是使用 Fusion 360 等商业参数化 CAD 套件；具体团队是否另用免费工具或脚本替代，材料未说明。
+  current_alternative_en: The material describes it as a clean-room reimplementation of Autodesk Fusion
+    360, indicating the old practice is commercial parametric CAD suites such as Fusion 360; whether teams
+    also use free tools or scripts is not stated.
+  usage_reason: 推断：相较按席位授权、自动化受接口限制的商业套件，它把草图—约束—特征时间线这套参数化建模动作开放为可自建部署、可在浏览器直接运行、并可通过 MCP 被 AI 代理调用的能力，需要批量改参数或把建模接入自动化流程的工程师因此可少做一轮人工重复建模；公开材料未说明
+    AI 具体执行哪一步，也无客户案例或留存证据。
+  usage_reason_en: 'Inference: against per-seat commercial suites with limited automation interfaces,
+    it exposes the sketch-constrain-feature-timeline modeling loop as self-deployable, browser-runnable
+    capability callable by AI agents through MCP, so engineers needing batch re-parameterization or modeling
+    inside automated flows can skip a round of manual repetition; the material does not say which step
+    AI performs and offers no customer cases or retention evidence.'

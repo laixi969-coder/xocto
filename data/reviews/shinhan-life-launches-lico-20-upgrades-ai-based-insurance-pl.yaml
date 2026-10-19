@@ -1,0 +1,84 @@
+- id: req-initial-shinhan-life-launches-lico-20-upgrades-ai-based-insurance-pl-2026-10-19
+  project_slug: shinhan-life-launches-lico-20-upgrades-ai-based-insurance-pl
+  level: initial
+  reviewed_at: '2026-10-19T00:14:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决保险咨询中人工比对条款、生成保障方案的需求，痛点是耗时与漏项，旧流程清晰可辨。
+    evidence_ids:
+    - ev-d9890f2176b93882
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，未见规划师或客户的实际使用反馈与采用规模。
+    evidence_ids:
+    - ev-d9890f2176b93882
+  - gate: model
+    status: insufficient
+    reason: 由保司自建，买方可能是保司自身，但候选未披露定价、收费方式或外部客户。
+    evidence_ids:
+    - ev-d9890f2176b93882
+  - gate: truth
+    status: insufficient
+    reason: 未见方案准确性、人工复核边界或合规审核的公开说明，交付确定性待核验。
+    evidence_ids:
+    - ev-d9890f2176b93882
+  next_validation: 收集新韩人寿 LICO 2.0 的官方产品页或发布说明，核对其输入项、交付形式与是否对外部客户开放。
+  market: ''
+  job: 保险规划师或客户在咨询时，依据家庭结构、收入与已有保单材料，产出一份保障方案并核对条款是否匹配。
+  job_en: During consultations, insurance planners or clients use household structure, income and existing
+    policy materials to produce a coverage plan and check whether terms match.
+  pain: 人工比对多家产品条款耗时且易漏项，客户难以判断保障缺口；不解决会导致方案偏差或反复修改。
+  pain_en: Manually comparing terms across products is slow and error-prone, and clients struggle to see
+    coverage gaps; unresolved, this leads to misaligned plans and repeated revisions.
+  current_alternative: 规划师依靠表格、产品手册与经验逐条比对，客户自行阅读条款或依赖代理人推荐。
+  current_alternative_en: Planners compare line by line using spreadsheets, product manuals and experience;
+    clients read terms themselves or rely on agent recommendations.
+  usage_reason: 推断：相较手工比对，系统按客户输入直接生成并调整方案，减少逐条查条款这一步，使规划师在咨询现场能更快给出可复核的保障建议，因此面向高频咨询的保险规划场景会被选择。
+  usage_reason_en: 'Inference: versus manual comparison, the system generates and adjusts plans directly
+    from client inputs, removing the line-by-line term lookup step so planners can give a reviewable recommendation
+    faster during consultations, which is why high-frequency advisory settings would choose it.'
+- id: req-full-shinhan-life-launches-lico-20-upgrades-ai-based-insurance-pl-2026-10-19
+  project_slug: shinhan-life-launches-lico-20-upgrades-ai-based-insurance-pl
+  level: full
+  reviewed_at: '2026-10-19T00:45:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 现有证据均为 ESPR 数字产品护照、通用 AI 介绍等无关材料，未包含 LICO 2.0 的产品说明、用户痛点或旧流程，无法还原其解决的需求与交付闭环。
+    evidence_ids:
+    - ev-a14b2340c8f39481
+    - ev-f82dcd466033598a
+    - ev-fa9d54313a626d86
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪新韩人寿官网或官方新闻稿中 LICO 2.0 的产品说明页，核对输入项、交付形式与是否对外部客户开放。
+  market: ''
+  job: 保险规划师或客户在咨询时，依据家庭结构、收入与已有保单材料，产出一份保障方案并核对条款是否匹配。
+  job_en: During consultations, insurance planners or clients use household structure, income and existing
+    policy materials to produce a coverage plan and check whether terms match.
+  pain: 公开材料未提供任何关于 LICO 2.0 的用户痛点、旧流程或使用反馈；仅凭标题无法确认人工比对条款耗时或漏项是否为其所解决的问题。
+  pain_en: The public materials provide no user pain, legacy workflow, or usage feedback for LICO 2.0;
+    the title alone cannot confirm whether slow or error-prone manual term comparison is the problem it
+    addresses.
+  current_alternative: 公开材料未说明规划师当前如何完成保障方案生成与条款核对，无法确认旧替代方式。
+  current_alternative_en: The public materials do not describe how planners currently generate coverage
+    plans and check terms, so the current alternative cannot be confirmed.
+  usage_reason: 公开材料未提供产品能力、输入输出或使用场景细节，无法推断用户为何会选择它；缺少可引用的产品说明或客户案例。
+  usage_reason_en: The public materials provide no product capability, input/output, or usage-scenario
+    detail, so it cannot be inferred why users would choose it; citable product descriptions or customer
+    cases are missing.

@@ -1,0 +1,42 @@
+- id: req-initial-biodsh-2026-10-19
+  project_slug: biodsh
+  level: initial
+  reviewed_at: '2026-09-20T00:09:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非计算背景科研人员运行生物信息分析的配置与脚本负担，结构上成立；分析正确性待核验。
+    evidence_ids:
+    - ev-697b2bf1756ec29a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 40 星关注度，缺少用户评价或实验室采用案例。
+    evidence_ids:
+    - ev-697b2bf1756ec29a
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是实验室或机构，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-697b2bf1756ec29a
+  - gate: truth
+    status: insufficient
+    reason: 离线模式与技能商店的实际分析结果、合规与人工复核边界无公开证据。
+    evidence_ids:
+    - ev-697b2bf1756ec29a
+  next_validation: 收集 BioDSH 仓库文档或 issue 中实际分析任务示例与结果复核说明。
+  market: ''
+  job: 临床医生或湿实验室科学家在需要运行生物信息分析时，通过桌面代理执行分析任务并获取结果。
+  job_en: Clinicians or wet-lab scientists who need to run bioinformatics analyses use a desktop agent
+    to execute analysis tasks and obtain results.
+  pain: 生物信息分析依赖命令行工具与脚本，非计算背景的科研人员上手成本高，重复配置环境耗时。
+  pain_en: Bioinformatics analysis relies on command-line tools and scripts; researchers without a computing
+    background face high setup cost and repeated environment configuration.
+  current_alternative: 科研人员手动编写并运行脚本、配置环境，或依赖生物信息分析同事与外包服务。
+  current_alternative_en: Researchers write and run scripts manually, configure environments, or rely
+    on bioinformatics colleagues and outsourced services.
+  usage_reason: 推断：相较手动配置环境与写脚本，桌面代理通过一键安装和技能商店直接执行分析步骤，减少环境配置这一步；缺乏计算支持的湿实验室团队会因此选择它。
+  usage_reason_en: 'Inference: versus manual environment setup and scripting, the desktop agent executes
+    analysis steps directly via one-click install and a skill store, removing the setup step; wet-lab
+    teams lacking computing support would choose it.'

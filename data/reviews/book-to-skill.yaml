@@ -260,3 +260,42 @@
   usage_reason_en: 'Inference: if book content becomes a skill callable while coding, it could remove
     repeated searching inside a PDF; but public material gives no usage scenario or retention evidence,
     so why users choose it cannot be confirmed.'
+- id: req-full-book-to-skill-2026-10-19
+  project_slug: book-to-skill
+  level: full
+  reviewed_at: '2026-10-19T00:42:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图把技术书 PDF 转成编码时可调用的技能，但公开材料未说明原查阅流程中哪一步费时、不解决有何后果，需求与痛点均无法还原，价值结构缺依据。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认转换流程、实际使用场景与产出质量是否有公开记录。
+  market: ''
+  job: 工程师在学习某本技术书时，把该书 PDF 转成可在 Claude Code 编码会话中调用的技能，以便在写代码时查阅书中方法与参考。
+  job_en: While studying a technical book, an engineer converts its PDF into a Claude Code skill callable
+    inside coding sessions, so the book's methods and references can be consulted while writing code.
+  pain: 公开材料只说明可把 PDF 转成技能，未说明原先查阅技术书时哪一步费时、出错或反复发生，痛点无法从证据还原。
+  pain_en: Public material only states that a PDF can be turned into a skill; it does not show which step
+    of consulting a technical book is slow, error-prone, or recurring, so the pain cannot be reconstructed
+    from evidence.
+  current_alternative: 工程师在 PDF 阅读器里搜索关键词，或把笔记手工整理进文档、粘贴进对话。
+  current_alternative_en: Engineers search keywords in a PDF reader, or manually organize notes into documents
+    and paste them into a chat.
+  usage_reason: 推断：若书的内容能变成编码时可直接调用的技能，可省去在 PDF 中反复检索并复制粘贴的步骤；但公开材料未给出使用场景、用户反馈或留存证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if book content becomes a skill callable while coding, it could remove
+    repeated searching and copy-pasting inside a PDF; but public material gives no usage scenario, user
+    feedback, or retention evidence, so why users choose it cannot be confirmed.'

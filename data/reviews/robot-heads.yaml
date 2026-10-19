@@ -210,3 +210,44 @@
   usage_reason_en: 'Inference: versus building status animation from scratch, it ships ready React components
     and animation, skipping the design and implementation step, so developers building agent demos or
     early products would adopt it when they need users to quickly grasp agent state.'
+- id: req-full-robot-heads-2026-10-19
+  project_slug: robot-heads
+  level: full
+  reviewed_at: '2026-10-19T00:45:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决代理状态可视化需求，但公开材料只有组件描述与星标增长，没有用户反馈证明状态不可见造成实际损失；转圈或文字已能交代进度，属于看着有趣但不用也行。
+    evidence_ids:
+    - ev-975f07677df617f1
+    - ev-336fbb6f67b3c6b9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue 或 discussion，确认是否有团队报告把它接入真实代理产品并长期使用。
+  market: ''
+  job: 做 AI 代理界面的前端开发者，在向用户展示代理运行状态时，要把内部状态映射成可理解的界面元素，嵌入 React 页面。
+  job_en: Front-end developers building AI agent interfaces need to map internal agent state into understandable
+    UI elements and embed them in a React page.
+  pain: 代理状态抽象且变化快，自建状态动画成本高；但公开材料只说明组件能显示 LED 表情，没有用户反馈或案例证明状态不可见造成了实际损失。
+  pain_en: Agent state is abstract and fast-changing, and building status animation is costly; but public
+    material only shows LED faces, with no user feedback or case showing that invisible state causes real
+    loss.
+  current_alternative: 自己写加载动画或状态文字，复用通用 UI 库的进度组件，或直接用文本日志展示代理步骤。
+  current_alternative_en: Hand-writing loading animations or status text, reusing generic progress components,
+    or simply showing agent steps as text logs.
+  usage_reason: 推断：它用现成动画组件省掉自绘状态动画的一步，但状态展示并非刚性任务，转圈或文字已能交代进度，因此更可能被当作演示装饰而非工作流必需。
+  usage_reason_en: 'Inference: it saves the step of hand-drawing status animation via ready components,
+    but status display is not a rigid task—a spinner or text already conveys progress—so it is more likely
+    decorative than workflow-essential.'

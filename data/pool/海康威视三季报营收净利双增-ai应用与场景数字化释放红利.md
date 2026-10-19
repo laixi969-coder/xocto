@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BUFNvTmwtcWIw
 summary: 海康威视三季报：营收净利双增 AI应用与场景数字化释放红利 东方财富
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

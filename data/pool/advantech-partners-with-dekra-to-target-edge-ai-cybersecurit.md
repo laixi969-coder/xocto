@@ -1,6 +1,6 @@
 ---
 slug: advantech-partners-with-dekra-to-target-edge-ai-cybersecurit
-name: Advantech Partners with DEKRA to Target Edge AI Cybersecurity Compliance Opportunities
+name: Advantech
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Advantech Partners with DEKRA to Target Edge AI Cybersecurity Complianc
   Finance
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Advantech Partners with DEKRA to Target Edge AI Cybersecurity Compliance Opportunities
+# Advantech
 
 Advantech Partners with DEKRA to Target Edge AI Cybersecurity Compliance Opportunities BigGo Finance
 

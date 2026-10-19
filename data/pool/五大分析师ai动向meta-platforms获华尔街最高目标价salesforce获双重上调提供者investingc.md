@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTFBWbVdHYUl3aUl0
 summary: 五大分析师AI动向：Meta Platforms获华尔街最高目标价；Salesforce获双重上调提供者Investing.com 英为财情 Investing.com
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

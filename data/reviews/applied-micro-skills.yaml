@@ -1071,3 +1071,52 @@
     a researcher go from data to paper tables in one flow and cutting the steps of reassembling scripts
     and re-checking numbers; researchers writing empirical papers who must hand reproducible results to
     coauthors or journals would choose it in that situation. No user feedback or customer cases are '
+- id: req-full-applied-micro-skills-2026-10-19
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-10-19T00:42:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有研究者报告在真实数据上复现表格的成功案例及使用频率。
+  market: ''
+  job: 应用微观经济学研究者（博士生、助理教授或研究助理）在拿到 WRDS 等受限数据、需要跑事件研究或面板回归并产出可投稿的论文表格时，用 Claude Code 或 Codex 的 skill
+    把取数、Stata 回归、表格排版和数字复现串成一条可重跑的流程。
+  job_en: Applied microeconomics researchers (PhD students, assistant professors, or RAs) who have obtained
+    restricted data such as WRDS and need to run event studies or panel regressions and produce submission-ready
+    paper tables use Claude Code or Codex skills to chain data extraction, Stata regressions, table formatting,
+    and numeric reproduction into one rerunnable pipeline.
+  pain: 公开说明指向的痛点是：从原始数据到出版级表格之间步骤琐碎且易错，回归结果与论文表格中的数字需要反复手工核对，复现审计往往靠人肉重跑；一旦数据或代码版本变动，表格数字与正文不一致的返工代价高。这是从产品能力与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: The stated pain is that the path from raw data to publication-grade tables is fiddly and error-prone,
+    numbers in regression output and paper tables need repeated manual reconciliation, and reproducibility
+    audits are typically done by hand; when data or code versions change, reworking inconsistent numbers
+    is costly. This is inferred from product capability and workflow structure, not yet backed by user
+    complaints or cases.
+  current_alternative: 研究者目前通常自己写 Stata do 文件与 Python/R 脚本，用 estout、outreg2 等命令手工导出表格，再在 Word 或 LaTeX
+    中逐项核对；复现检查靠重跑脚本和人工比对，WRDS 取数则依赖个人脚本或机构模板。
+  current_alternative_en: Researchers today typically write their own Stata do-files and Python/R scripts,
+    export tables manually with commands such as estout or outreg2, then reconcile each number in Word
+    or LaTeX; reproducibility checks rely on rerunning scripts and manual comparison, while WRDS extraction
+    depends on personal scripts or institutional templates.
+  usage_reason: 推断：相较手工 do 文件加逐项核对，该 skill 把取数、回归、表格生成和复现审计封装为可重复调用的动作，减少的是“表格数字与回归输出对不上时逐格排查”这一步负担，并让复现结果可被脚本核对；因此正在写实证论文、需要反复改设定并重出表格的研究者会在改模型或换样本时选择它。公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with hand-written do-files plus item-by-item checking, the skill
+    packages data extraction, regressions, table generation, and reproducibility auditing into repeatable
+    actions, reducing the burden of cell-by-cell debugging when table numbers disagree with regression
+    output and making reproduction checkable by script; researchers writing empirical papers who repeatedly
+    change specifications and regenerate tables would therefore choose it when altering models'

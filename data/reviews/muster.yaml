@@ -130,3 +130,45 @@
   usage_reason_en: 'Inference: if the product really concentrates ''which session is waiting'' into an
     always-visible menu bar and answers with one keystroke, it removes the window-hunting step; but without
     user feedback or cases supporting this motive, it is unconfirmed which users would choose it and when.'
+- id: req-full-muster-2026-10-19
+  project_slug: muster
+  level: full
+  reviewed_at: '2026-10-19T00:44:21Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据全部是词典与维基对 muster 一词的解释，以及一条泛化市场检索，没有任何关于多会话编码等待、用户痛点或旧替代的公开事实，无法写出可引用的需求与痛点。
+    evidence_ids:
+    - ev-c2426ba4c006a150
+    - ev-46d1fb77fe28a175
+    - ev-e59fe2e347af088b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 README、issue 与 discussion，确认多会话等待状态识别与一键应答的实际使用反馈。
+  market: ''
+  job: 同时运行多个 Claude Code、Codex、Cursor 会话的 Mac 开发者，在多个终端会话并行等待输入时，需要判断哪个会话卡住并把回答发回去，让任务继续推进。
+  job_en: A Mac developer running several Claude Code, Codex and Cursor sessions at once must tell which
+    parallel session is blocked and send the reply back so the task keeps moving.
+  pain: 公开材料只有产品自述，没有用户抱怨、评价或案例说明并行会话等待会造成什么具体损失，痛点强度无法从证据确认。
+  pain_en: Public material contains only the product's own description; no user complaints, reviews or
+    cases show what parallel-session waiting actually costs, so pain intensity cannot be confirmed from
+    evidence.
+  current_alternative: 公开材料未记录开发者当前如何轮询或切换终端会话，旧替代行为缺少证据。
+  current_alternative_en: Public material does not record how developers currently poll or switch terminal
+    sessions; the old workaround lacks evidence.
+  usage_reason: 推断：若产品真能把等待状态集中到菜单栏并一键应答，可省去切换窗口定位会话这一步；但缺少用户反馈或案例支持这一动机，仅为结构推断。
+  usage_reason_en: 'Inference: if the product truly centralizes waiting states in the menu bar with one-keystroke
+    replies, it removes the window-switching step; but no user feedback or case supports this motive,
+    so it remains structural inference.'

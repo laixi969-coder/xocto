@@ -25,7 +25,7 @@ summary: Between October 12 and October 17, 2026, as many as 27 Indian startups 
   AI, EV, Electronics, Sportstech, Foodtech, Deeptech, E Instagram
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

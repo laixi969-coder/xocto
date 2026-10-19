@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPUEVtdEU3a2Ft
 summary: 'AI Sales Coaching Platforms for Insurance: 11 Compared on a Buyer’s Checklist FindArticles'
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

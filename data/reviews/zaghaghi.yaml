@@ -1,0 +1,83 @@
+- id: req-initial-zaghaghi-2026-10-19
+  project_slug: zaghaghi
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决自然场景与动物行为的快速生成，但公开材料未说清替代哪一步旧工作，痛点强度不明。
+    evidence_ids:
+    - ev-e4d97dbd2004ec58
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 7 分、0 评论的社区讨论，无法判断是否有强场景共识。
+    evidence_ids:
+    - ev-e4d97dbd2004ec58
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或买方，钱可能来自开发者自用或素材销售，属判断而非事实。
+    evidence_ids:
+    - ev-e4d97dbd2004ec58
+  - gate: truth
+    status: insufficient
+    reason: 无法核验交付是否确定发生，也未见安全或人工边界说明。
+    evidence_ids:
+    - ev-e4d97dbd2004ec58
+  next_validation: 收集该项目的公开仓库或文档，确认其是否开源、AI 参与的具体环节及是否有可复现的浏览器演示。
+  market: ''
+  job: 独立游戏开发者在原型阶段需要快速搭出可探索的自然场景与野生动物行为，用于验证玩法或对外演示。
+  job_en: Indie game developers need to quickly build explorable natural scenes and wildlife behavior
+    during prototyping to validate gameplay or demo externally.
+  pain: 手工制作生态场景与动物行为成本高、周期长；但公开材料未说明该项目替代了哪一步具体手工工作。
+  pain_en: Hand-building ecosystem scenes and animal behavior is costly and slow; but public materials
+    do not say which specific manual step this project replaces.
+  current_alternative: 通用游戏引擎加手工建模与动画，或购买现成素材包。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：实时合成可省去部分离线烘焙与手工摆放，但缺少用户反馈或案例证明开发者会因此选用它。
+  usage_reason_en: 'Inference: real-time synthesis could save some offline baking and manual placement,
+    but there is no user feedback or case showing developers would choose it for that reason.'
+- id: req-full-zaghaghi-2026-10-19
+  project_slug: zaghaghi
+  level: full
+  reviewed_at: '2026-10-19T00:45:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图用 Rust 实时合成森林野生动物与场景，产出可玩浏览器演示；但公开材料未说清替代哪一步旧工作、痛点强度与不解决的后果，需求结构无法还原。
+    evidence_ids:
+    - ev-24e3b05b276f5f89
+    - ev-d02fcf9c91ec74e5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目公开仓库或官网，确认是否开源、AI 参与的具体环节，以及是否存在可复现的浏览器演示与部署文档。
+  market: ''
+  job: 独立游戏开发者在原型阶段，需要把森林野生动物行为与可探索场景做成可直接在浏览器里游玩的演示，用于验证玩法或对外展示。
+  job_en: Indie game developers in the prototyping stage need to turn forest wildlife behavior and explorable
+    scenes into a playable browser demo, to validate gameplay or show it externally.
+  pain: 公开材料只说明项目由 Rust 实时合成森林野生动物与场景，未说明它替代了手工建模、动画还是引擎脚本中的哪一步，也未给出开发者现有流程中的具体耗时或返工痛点。
+  pain_en: Public materials only state that the project synthesizes forest wildlife and scenes live in
+    Rust; they do not say which step of manual modeling, animation, or engine scripting it replaces, nor
+    give concrete time cost or rework pain in developers' current workflow.
+  current_alternative: 公开材料未展示开发者当前如何完成该任务；可观察的同类旧做法是通用游戏引擎加手工建模与动画，或购买现成素材包，但这些并非该项目自身证据。
+  current_alternative_en: Public materials do not show how developers currently complete this job; observable
+    comparable old approaches are general game engines with manual modeling and animation, or buying asset
+    packs, but these are not evidence about this project itself.
+  usage_reason: 推断：若实时合成真能省去离线烘焙与手工摆放，开发者会在需要快速产出浏览器演示时试用；但缺少用户反馈或案例，无法确认这一因果成立。
+  usage_reason_en: 'Inference: if live synthesis really removes offline baking and manual placement, developers
+    would try it when they need a quick browser demo; but without user feedback or cases, this causal
+    link cannot be confirmed.'

@@ -21,7 +21,7 @@ canonical_url: https://instantjsonformatter.com
 summary: secure JSON Formatter with side-by-side JSON diffing
 first_seen: '2026-10-19T00:13:33Z'
 last_seen: '2026-10-19T00:13:33Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

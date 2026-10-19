@@ -1,11 +1,14 @@
 ---
 slug: consumers-turn-to-ai-for-shopping-advice-despite-trust-falli
-name: Consumers Turn to AI for Shopping Advice Despite Trust Falling Below 40%
+name: AI shopping advice
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 材料称消费者在信任度低于40%的情况下仍转向AI获取购物建议，但未给出调查机构、样本与时间，具体变化主体不明；若成立，意味着AI导购在低信任下仍被采用，对电商转化与信任机制设计提出新要求（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: The material says consumers turn to AI for shopping advice even as trust falls below 40%,
+  but it names no research body, sample, or date, so the specific actor and change are unclear; if valid,
+  it implies AI shopping guidance is adopted despite low trust, raising new demands on e-commerce conversion
+  and trust design (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQaWFfM0h3YXhL
 summary: Consumers Turn to AI for Shopping Advice Despite Trust Falling Below 40% Analytics Insight
 first_seen: '2026-08-30T18:00:00Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Consumers Turn to AI for Shopping Advice Despite Trust Falling Below 40%
+# AI shopping advice
 
 Consumers Turn to AI for Shopping Advice Despite Trust Falling Below 40% Analytics Insight
 

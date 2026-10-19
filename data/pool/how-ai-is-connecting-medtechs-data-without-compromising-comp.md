@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxPZEZ4TFdTQU0t
 summary: How AI Is Connecting MedTech’s Data Without Compromising Compliance MedCity News
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

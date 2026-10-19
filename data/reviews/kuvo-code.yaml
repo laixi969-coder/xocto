@@ -1,0 +1,84 @@
+- id: req-initial-kuvo-code-2026-10-19
+  project_slug: kuvo-code
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理分散、切换模型需反复配置的问题，痛点具体；但交互与交付细节未披露，确定性待核验。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+  - gate: consensus
+    status: insufficient
+    reason: 仅 46 星、6 次 fork，属早期关注度，不能证明持续采用或形成共识。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或商业路径；买方可能是个人开发者或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+  - gate: truth
+    status: insufficient
+    reason: 编码工具赛道拥挤、开源替代多，差异化与安全边界未说明，承诺能否确定性交付未明。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+  next_validation: 收集该仓库 README 与 issue 讨论，核验支持的模型范围、实际交互流程与是否有团队协作或审计能力。
+  market: ''
+  job: macOS 开发者在需要让编码代理执行任务时，通过 kuvo-code 原生外壳接入任意模型，在 opencode 引擎上运行代理并查看产出。
+  job_en: macOS developers running coding agents use the kuvo-code native harness to connect any model
+    on the opencode engine and review agent output.
+  pain: 编码代理分散在不同命令行与工具中，切换模型或统一查看代理产出需要反复配置，缺少统一外壳。
+  pain_en: Coding agents are scattered across CLIs and tools, so switching models or reviewing agent output
+    uniformly requires repeated setup and lacks a unified harness.
+  current_alternative: 直接在终端运行各家编码代理 CLI，或使用单一厂商绑定的编辑器插件。
+  current_alternative_en: Running each vendor's coding agent CLI in the terminal, or using a single-vendor
+    editor plugin.
+  usage_reason: 推断：相较在多个终端与插件间切换，它用一个原生外壳统一接入任意模型并运行 opencode 引擎，省去逐工具配置这一步，因此需要跨模型对比或统一管理代理的 macOS 开发者会试用。
+  usage_reason_en: 'Inference: versus switching among terminals and plugins, it unifies any model behind
+    one native harness on the opencode engine, removing per-tool setup, so macOS developers comparing
+    models or managing agents centrally would try it.'
+- id: req-full-kuvo-code-2026-10-19
+  project_slug: kuvo-code
+  level: full
+  reviewed_at: '2026-10-19T00:43:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理分散、切换模型需反复配置的问题，痛点具体；但交互与交付细节未披露，确定性待核验。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+  - gate: consensus
+    status: insufficient
+    reason: 仅 46 星、6 次 fork，属早期关注度，不能证明持续采用或形成共识。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或商业路径；买方可能是个人开发者或团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+  - gate: truth
+    status: insufficient
+    reason: 编码工具赛道拥挤、开源替代多，差异化与安全边界未说明，承诺能否确定性交付未明。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+  next_validation: 收集该仓库 README 与 issue 讨论，核验支持的模型范围、实际交互流程与是否有团队协作或审计能力。
+  market: ''
+  job: macOS 上的开发者在需要让编码代理执行任务时，通过 kuvo-code 这一原生外壳接入任意模型，在 opencode 引擎上运行代理并查看产出。
+  job_en: macOS developers running coding agents use the kuvo-code native harness to connect any model
+    on the opencode engine and review agent output.
+  pain: 编码代理分散在不同命令行与工具中，切换模型或统一查看代理产出需要反复配置，缺少统一外壳。
+  pain_en: Coding agents are scattered across CLIs and tools, so switching models or reviewing agent output
+    uniformly requires repeated setup and lacks a unified harness.
+  current_alternative: 直接在终端运行各家编码代理 CLI，或使用单一厂商绑定的编辑器插件。
+  current_alternative_en: Running each vendor's coding agent CLI in the terminal, or using a single-vendor
+    editor plugin.
+  usage_reason: 推断：相较在多个终端与插件间切换，它用一个原生外壳统一接入任意模型并运行 opencode 引擎，省去逐工具配置这一步，因此需要跨模型对比或统一管理代理的 macOS 开发者会试用。
+  usage_reason_en: 'Inference: versus switching among terminals and plugins, it unifies any model behind
+    one native harness on the opencode engine, removing per-tool setup, so macOS developers comparing
+    models or managing agents centrally would try it.'

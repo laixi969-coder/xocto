@@ -78,3 +78,56 @@
   usage_reason_en: 'The task is: Brand or marketing leads who find AI assistants not recommending their
     product use the tool to diagnose causes, revise materials and content, then recheck recommendations
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-geo-doctor-2026-10-19
+  project_slug: geo-doctor
+  level: full
+  reviewed_at: '2026-10-19T00:43:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌在 AI 助手品类回答中不被推荐却不知原因、缺少改法的问题，任务明确、输入输出可闭环；但公开材料只有产品自述，痛点强度与不采用代价属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-c600706d890ea39a
+    - ev-36ff5c5fcfcb74bd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 47 增至 92，说明开发者社区有关注，但这是关注度而非目标营销用户的持续采用；缺少 issue、discussion 或使用反馈证明强场景存在。
+    evidence_ids:
+    - ev-c600706d890ea39a
+    - ev-36ff5c5fcfcb74bd
+  - gate: model
+    status: insufficient
+    reason: 开源 skill 无定价页，谁付费、按什么单位收费均未公开；可能路径是 to B 品牌营销团队或 to VC，但这是判断而非已验证事实，存在靠关注度而非付费续命的风险。
+    evidence_ids:
+    - ev-c600706d890ea39a
+  - gate: truth
+    status: insufficient
+    reason: 诊断依据与复查口径未公开，无法确认改资料后 AI 推荐结果能否稳定改善；不同模型回答随机性大，交付确定性缺可复现证据，人工与安全边界也未说明。
+    evidence_ids:
+    - ev-c600706d890ea39a
+    - ev-36ff5c5fcfcb74bd
+  next_validation: 追踪 geo-doctor 仓库的 issue 与 discussion，确认是否有营销用户报告具体部署场景、改前改后的 AI 推荐结果对比及复查口径。
+  market: ''
+  job: 品牌或营销负责人在 AI 助手（豆包、DeepSeek、ChatGPT、Claude）回答品类问题时未推荐自家产品的情况下，把该 skill 装进 AI 助手，输入品牌资料与目标问题，诊断不被推荐的原因，改写资料与内容后再复查推荐结果。
+  job_en: When AI assistants (Doubao, DeepSeek, ChatGPT, Claude) fail to recommend their product in category
+    answers, brand or marketing leads install this skill into an AI assistant, feed in brand materials
+    and target questions, diagnose why they are not recommended, revise materials and content, then recheck
+    the recommendation results.
+  pain: AI 助手已成为用户获取品类推荐的新入口，品牌方发现自己在回答中缺席却不知道原因，也缺少可操作的改法；公开材料只给出产品定位，未提供用户抱怨或案例，痛点强度属工作流结构推理。
+  pain_en: AI assistants have become a new entry point for category recommendations; brands find themselves
+    absent from answers without knowing why and lack actionable fixes. Public materials only state the
+    product positioning, with no user complaints or cases, so pain intensity is a workflow-structural
+    inference.
+  current_alternative: 旧做法是人工反复向各 AI 助手提问、凭经验猜测原因，再零散修改官网与内容后手动复查；公开材料未说明用户此前具体如何操作，此为结构推理。
+  current_alternative_en: The old approach is to repeatedly query each AI assistant manually, guess causes
+    from experience, make scattered edits to the website and content, then manually recheck; public materials
+    do not describe the prior workflow, so this is a structural inference.
+  usage_reason: 推断：相较人工逐平台试问与凭经验改稿，该 skill 把诊断、改资料、写内容、复查串成同一助手内的固定动作，减少在多个 AI 助手间重复提问和手工比对结果的步骤，因此当品牌在
+    AI 回答中缺席且需要可执行改法时，营销负责人会尝试它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: compared with manually probing each platform and editing by experience,
+    the skill chains diagnosis, material revision, content writing and rechecking into fixed actions inside
+    one assistant, cutting repeated cross-assistant querying and manual result comparison. Marketing leads
+    whose brand is absent from AI answers and who need actionable fixes would try it; no user feedback
+    yet confirms this motive.'

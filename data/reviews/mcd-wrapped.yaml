@@ -127,3 +127,46 @@
   usage_reason_en: 'Inference: it converts order data directly into a recap with dialect voice-over, removing
     the user''s own aggregation and layout work, so novelty-seeking sharers may use it around year-end
     or brand campaigns; no retention or repeat-use evidence exists yet.'
+- id: req-full-mcd-wrapped-2026-10-19
+  project_slug: mcd-wrapped
+  level: full
+  reviewed_at: '2026-10-19T00:44:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是把麦当劳消费记录做成可分享回顾的需求，痛点偏娱乐性，不做也没有实质损失，属于看着有趣但没有也行；数据来源与交付形态也未在公开材料中说明。
+    evidence_ids:
+    - ev-25ae554844743f67
+    - ev-75bedcd72cf738db
+    - ev-0ba4847b529f7151
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README 与 issue/discussion，确认订单数据接入方式、是否收费及实际输出样例。
+  market: ''
+  job: 个人消费者在年末或品牌营销节点，整理自己一段时间在麦当劳的零散订单与会员消费记录，生成一份带方言播报、可分享的消费回顾内容。
+  job_en: Around year-end or brand campaign moments, an individual consumer assembles their scattered
+    McDonald's orders and loyalty records into a shareable spending recap with dialect voice-over.
+  pain: 订单分散在点餐平台与会员系统，用户自己汇总、排版成有叙事感的回顾很费事；但这类回顾属于娱乐性内容，不做也没有实质损失，痛点刚性不足。
+  pain_en: Orders are scattered across ordering platforms and loyalty systems, making manual aggregation
+    and narrative layout tedious; yet such recaps are entertainment, and skipping them costs nothing material,
+    so the pain is not rigid.
+  current_alternative: 用户此前主要靠平台自带的年度账单、手动截图拼图或社交平台模板来回顾消费。
+  current_alternative_en: Users previously relied on platform-provided annual bills, manually stitched
+    screenshots, or social-media templates to review spending.
+  usage_reason: 推断：它把订单数据直接转成带方言播报的回顾内容，省去用户自己汇总和排版的步骤，因此愿意尝鲜分享的用户会在年末或品牌营销节点试用；目前没有留存、复购或分享行为证据，无法确认用户会长期留在工作流里。
+  usage_reason_en: 'Inference: it converts order data directly into a recap with dialect voice-over, removing
+    the user''s own aggregation and layout work, so novelty-seeking sharers may try it around year-end
+    or brand campaigns; there is no retention, repeat-use, or sharing evidence, so long-term workflow
+    presence is unconfirmed.'

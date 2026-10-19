@@ -1,0 +1,88 @@
+- id: req-initial-esp32-thinks-2026-10-19
+  project_slug: esp32-thinks
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自制语音硬件要分别对接识别、对话与合成的痛点，旧做法是逐个调试开源组件，结构上成立。
+    evidence_ids:
+    - ev-b0803ba9b1fe4eae
+    - ev-081803ddd1226bd7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数，缺少用户评价或实际使用反馈，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-081803ddd1226bd7
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径，买方与收费方式不明。
+    evidence_ids:
+    - ev-b0803ba9b1fe4eae
+  - gate: truth
+    status: insufficient
+    reason: 未见识别准确率、离线能力或交付确定性的公开材料，承诺能否兑现待核验。
+    evidence_ids:
+    - ev-b0803ba9b1fe4eae
+  next_validation: 收集该仓库的 issue 与 discussion，查看用户对识别准确率、离线运行和部署难度的实际反馈。
+  market: ''
+  job: 硬件爱好者在自制 ESP32 语音设备上，处理语音输入并要完成免手操作的问答或设备控制。
+  job_en: Hobbyists on a self-built ESP32 voice device process spoken input to complete hands-free Q&A
+    or device control.
+  pain: 现成语音助手绑定厂商、难以改造，自建语音链路要分别对接识别、对话与合成，调试成本高。
+  pain_en: Off-the-shelf voice assistants are vendor-locked and hard to modify, while a self-built pipeline
+    requires separately wiring recognition, chat and synthesis with high debugging cost.
+  current_alternative: 用现成智能音箱，或自己拼开源语音组件并逐个调试。
+  current_alternative_en: Using a ready-made smart speaker, or assembling open-source voice components
+    and debugging each one.
+  usage_reason: 推断：它把唤醒、识别、对话、合成打包成开箱即用的固件，减少爱好者逐个对接模型与调流的步骤，因此会在想快速做出可改语音硬件时被选用。
+  usage_reason_en: 'Inference: it packages wake word, recognition, chat and synthesis into out-of-the-box
+    firmware, cutting the step of wiring each model and pipeline by hand, so hobbyists pick it when they
+    want a quickly working, modifiable voice device.'
+- id: req-full-esp32-thinks-2026-10-19
+  project_slug: esp32-thinks
+  level: full
+  reviewed_at: '2026-10-19T00:43:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自制 ESP32 语音设备要分别对接识别、对话与合成的需求，痛点是厂商锁定与管线调试成本高，旧做法是逐个拼开源组件；开箱固件与可换模型使交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-b0803ba9b1fe4eae
+    - ev-081803ddd1226bd7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 103 增至 222 只反映关注度，缺少用户评价、issue 或案例说明是否形成稳定使用，无法判断共识是否成立。
+    evidence_ids:
+    - ev-b0803ba9b1fe4eae
+    - ev-081803ddd1226bd7
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页或付费路径，钱可能来自爱好者自购硬件或后续服务，但公开材料未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b0803ba9b1fe4eae
+  - gate: truth
+    status: insufficient
+    reason: 未见识别准确率、离线能力或部署确定性的公开材料，承诺能否兑现缺少可核对结果，需看 issue 与文档实测反馈。
+    evidence_ids:
+    - ev-b0803ba9b1fe4eae
+  next_validation: 追踪该仓库的 issue 与 discussion，收集用户对识别准确率、离线运行和部署难度的实际反馈。
+  market: ''
+  job: 硬件爱好者在自制 ESP32 语音设备上，通过唤醒词或旋钮发起语音输入，把语音交给可替换的识别、对话与合成模型，完成免手操作的问答或设备控制任务。
+  job_en: Hobbyists on a self-built ESP32 voice device trigger spoken input via wake word or knob, route
+    it through swappable STT, chat and TTS models, and complete hands-free Q&A or device control.
+  pain: 现成智能音箱绑定厂商、难以改造；自建语音链路要分别对接识别、对话与合成并逐个调试，爱好者要花大量时间在管线拼接而非设备本身。
+  pain_en: Ready-made smart speakers are vendor-locked and hard to modify; a self-built voice pipeline
+    requires separately wiring and debugging STT, chat and TTS, so hobbyists spend time on plumbing rather
+    than the device itself.
+  current_alternative: 购买现成智能音箱，或自行拼装开源语音组件并逐个调试对接。
+  current_alternative_en: Buying a ready-made smart speaker, or assembling open-source voice components
+    and debugging each integration by hand.
+  usage_reason: 推断：它把唤醒词、识别、对话、合成打包成开箱即用固件并支持任意 OpenAI 兼容模型混搭，减少爱好者逐个对接模型与调流的步骤，因此想快速做出可改语音硬件的用户会在自建场景选择它。
+  usage_reason_en: 'Inference: it packages wake word, STT, chat and TTS into out-of-the-box firmware with
+    mix-and-match OpenAI-compatible models, cutting the step of wiring each model and pipeline by hand,
+    so users wanting a quickly working, modifiable voice device choose it for self-built setups.'

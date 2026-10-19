@@ -84,3 +84,52 @@
     agent-runnable pipeline, removing the solo code-grinding and hand-built sync logic, so players or
     mod authors with a concrete multiplayer wish but no reverse-engineering skill would pick it when no
     community patch exists; public material shows no completed multiplayer case or repeat-use evidence.'
+- id: req-full-coop-anything-2026-10-19
+  project_slug: coop-anything
+  level: full
+  reviewed_at: '2026-10-19T00:42:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决单人游戏无官方联机、个人改不动的需求，痛点具体且刚性；代理把逆向、改动、测试、打包串成可执行流程，交付形态可确定，但旧流程耗时与不采用后果仅有产品说明，属工作流结构推理。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+    - ev-bbc77318c65d8d44
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 53 增至 406，说明关注度上升，但公开材料没有玩家反馈、成功联机案例或 issue 讨论，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+    - ev-bbc77318c65d8d44
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价或收费方式；买方可能是玩家、模组作者或平台方，这是判断而非已验证事实，尚无付费或采购记录。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+  - gate: truth
+    status: challenged
+    reason: 代理改包与联机的承诺可核验，但公开材料未说明版权边界、反作弊风险与人工确认环节，交付能否稳定复现仍缺证据。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+    - ev-bbc77318c65d8d44
+  next_validation: 追踪该仓库 README、示例游戏清单与 issue/discussion，确认是否有代理成功产出可玩联机版本的公开记录。
+  market: ''
+  job: 想让某款单人游戏与朋友联机的玩家或模组作者，在缺少官方联机模式时，把 AI 代理指向游戏文件，完成逆向、改动、测试与打包，最终产出可在线或分屏共玩的版本。
+  job_en: A player or mod author who wants to play a single-player game with friends points an AI agent
+    at the game files to reverse-engineer, patch, test and package a version that can be played online
+    or in splitscreen when no official co-op mode exists.
+  pain: 给单人游戏加联机通常要懂逆向工程与网络同步，个人往往做不动或半途放弃；公开材料只给出产品承诺，未提供旧流程耗时或放弃率数据，痛点强度属工作流结构推理。
+  pain_en: Adding multiplayer to a single-player game usually requires reverse-engineering and network-sync
+    skills, which individuals often cannot finish; public material only states the product promise, so
+    pain intensity is a workflow-structure inference.
+  current_alternative: 在模组社区找现成联机补丁，或自己啃代码、看教程慢慢改；多数单人游戏没有官方联机选项。
+  current_alternative_en: Looking for an existing multiplayer patch in mod communities, or grinding through
+    code and tutorials alone; most single-player games ship no official co-op option.
+  usage_reason: 推断：相较自己啃代码或等社区补丁，它把逆向、改动、测试、打包串成代理可执行并可通过 playbook 分享的流程，省掉个人从零摸索逆向与同步这一环，因此有明确联机诉求的玩家和模组作者会在找不到现成补丁时试用；公开材料尚无完成联机的案例或留存证据。
+  usage_reason_en: 'Inference: versus grinding code alone or waiting for a community patch, it chains
+    reverse engineering, patching, testing and packaging into an agent-runnable, playbook-shareable flow,
+    removing the from-scratch reverse-engineering and sync stage, so players and mod authors with a concrete
+    co-op goal may try it when no patch exists; public material shows no completed co-op case or retention
+    evidence.'

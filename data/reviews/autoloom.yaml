@@ -560,3 +560,51 @@
     and evidence recording into the same step as AI execution, cutting the after-the-fact tracing step,
     so teams under review or audit constraints would choose it when introducing AI code changes. This
     is an inference from product capability, not yet supported by user feedback.
+- id: req-full-autoloom-2026-10-19
+  project_slug: autoloom
+  level: full
+  reviewed_at: '2026-10-19T00:42:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 改代码后变更依据与验收证据缺失的需求，痛点具体：评审时说不清改了什么、依据何在，旧做法是人工写说明翻 diff。产品把基线与证据记录嵌入执行步骤，交付可确定，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-67290790446ff1a3
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标在 337 至 1007 之间波动，属关注度证据，没有团队采用、持续使用或评审流程接入的记录，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-67290790446ff1a3
+    - ev-840be95928044e59
+    - ev-3e949a43316b7ae5
+  - gate: model
+    status: insufficient
+    reason: 产品为免费桌面客户端、模型自选，未披露定价或收费路径；买方可能是受审计约束的开发团队，但这是判断而非已验证事实，存在靠关注度而非付费续命的风险。
+    evidence_ids:
+    - ev-67290790446ff1a3
+  - gate: truth
+    status: insufficient
+    reason: 未公开治理规则如何配置、证据以何形式产出、评审方是否采信；承诺的“证据-backed delivery”能否确定性交付缺少文档与实测支持。
+    evidence_ids:
+    - ev-67290790446ff1a3
+  next_validation: 追踪 Autoloom 仓库的 README、文档与 issue/discussion，确认变更证据的实际产出形式、治理规则配置方式，以及是否有团队在评审流程中采用。
+  market: ''
+  job: 开发团队在让 AI 修改既有代码库时，打开 Autoloom 桌面客户端，处理变更前后的代码与执行记录，要完成一次可追溯、可向评审方交代依据的代码变更与验收。
+  job_en: When letting AI modify an existing codebase, a development team opens the Autoloom desktop client,
+    works with pre/post-change code and execution records, and must complete a traceable code change and
+    acceptance that can be justified to reviewers.
+  pain: AI 改动代码后，团队难以说清改了哪一步、依据是什么；评审和验收时缺少可核对材料，只能靠人工回忆和翻 diff 补记录。这是从产品说明与旧流程推出的痛点，尚无用户抱怨原文佐证。
+  pain_en: After AI edits code, teams struggle to explain which step changed and on what basis; reviews
+    and acceptance lack checkable material, forcing manual recall and diff reading. This pain is inferred
+    from the product description and the old workflow, not from quoted user complaints.
+  current_alternative: 旧做法是人工写提交说明、翻看 diff，或依赖通用版本控制与代码评审流程事后补记录；AI 编码工具本身通常只产出代码，不产出变更依据。
+  current_alternative_en: The old way is writing commit messages by hand, reading diffs, or patching records
+    afterward through generic version control and code review; AI coding tools typically output code but
+    not change rationale.
+  usage_reason: 相较人工补写提交说明和翻 diff，它把基线与证据记录放进 AI 执行的同一步，减少事后追溯这一步，因此受评审或审计约束的团队会在引入 AI 改代码时选择它。这是基于产品能力的推断，尚无用户反馈证实。
+  usage_reason_en: Compared with manually writing commit messages and reading diffs, it puts baseline
+    and evidence recording into the same step as AI execution, cutting the after-the-fact tracing step,
+    so teams under review or audit constraints would choose it when introducing AI code changes. This
+    is an inference from product capability, not confirmed by user feedback.

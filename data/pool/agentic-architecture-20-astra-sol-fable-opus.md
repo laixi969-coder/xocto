@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNRkpVcGJQaUc3
 summary: 'Agentic Architecture 2.0: Astra/Sol – Fable/Opus Parametric Architecture'
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

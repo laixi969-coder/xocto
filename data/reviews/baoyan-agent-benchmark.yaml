@@ -1,0 +1,93 @@
+- id: req-initial-baoyan-agent-benchmark-2026-10-19
+  project_slug: baoyan-agent-benchmark
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决升学场景中 AI 建议质量难比较的痛点，旧做法是凭经验与口碑判断，结构上成立；评测是否贴近真实任务仍待核验。
+    evidence_ids:
+    - ev-2d64a3e344f16404
+    - ev-b7ca558bd07279bf
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 336 增至 599，属关注度信号，不能证明机构或学生持续采用；缺少使用反馈。
+    evidence_ids:
+    - ev-2d64a3e344f16404
+    - ev-b7ca558bd07279bf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径；推断可能面向升学咨询机构或 agent 厂商，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3f204f13f1300e76
+  - gate: truth
+    status: insufficient
+    reason: 评测任务设计、评分可靠性与是否被实际用于选型均无公开材料支持。
+    evidence_ids:
+    - ev-2d64a3e344f16404
+    - ev-c775d4fa900e6ad6
+  next_validation: 收集该仓库的公开 issue/discussion 或使用方说明，核验评测任务设计与是否被升学机构实际用于 agent 选型。
+  market: ''
+  job: 保研申请学生与升学顾问在规划申请与准备材料时，用基准测试评估 AI agent 在保研咨询与申请规划任务上的表现，以判断能否依赖其建议。
+  job_en: Baoyan applicants and admissions advisors evaluating AI agents on Baoyan advising and application-planning
+    tasks to judge whether to rely on their suggestions.
+  pain: 升学规划信息不对称、决策后果重，AI agent 建议质量参差，缺少可比较的评测依据；不采用则只能凭感觉判断 agent 是否可靠。
+  pain_en: Admissions planning has asymmetric information and high-stakes decisions, AI agent advice varies
+    in quality, and there is no comparable evaluation basis; without it, users can only judge agent reliability
+    by feel.
+  current_alternative: 靠个人经验、论坛帖子和咨询机构口碑判断 AI 建议是否可信。
+  current_alternative_en: Judging AI advice credibility through personal experience, forum posts and consulting-firm
+    reputation.
+  usage_reason: 推断：相较凭感觉判断，它提供针对保研咨询与申请规划任务的统一评测，让顾问或学生在选型时多一个可比较的依据，因此关注 agent 可靠性的升学从业者会先看评测结果。
+  usage_reason_en: 'Inference: compared with judging by feel, it offers a unified evaluation for Baoyan
+    advising and application-planning tasks, giving advisors or students a comparable basis for selection,
+    so admissions practitioners concerned about agent reliability would check the results first.'
+- id: req-full-baoyan-agent-benchmark-2026-10-19
+  project_slug: baoyan-agent-benchmark
+  level: full
+  reviewed_at: '2026-10-19T00:42:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决保研规划中 AI agent 建议质量难比较、决策后果重的痛点，旧做法靠经验与口碑判断，基准测试提供统一评测依据，结构上成立；评测任务是否贴近真实申请仍属推理，需核验。
+    evidence_ids:
+    - ev-2d64a3e344f16404
+    - ev-b7ca558bd07279bf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 336 增至 599，只是关注度信号，不能证明学生或机构持续采用；缺少使用反馈、issue 讨论或客户案例说明谁在什么场景使用。
+    evidence_ids:
+    - ev-2d64a3e344f16404
+    - ev-b7ca558bd07279bf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径；推断钱可能来自升学咨询机构或 agent 厂商的评测服务，但这是判断而非已验证事实，存在开源项目难变现的风险。
+    evidence_ids:
+    - ev-3f204f13f1300e76
+  - gate: truth
+    status: insufficient
+    reason: 评测任务设计、评分可靠性与是否被实际用于 agent 选型均无公开材料支持，交付确定性尚不能核对。
+    evidence_ids:
+    - ev-2d64a3e344f16404
+    - ev-c775d4fa900e6ad6
+  next_validation: 追踪该仓库的公开 issue/discussion 与 README 评测任务说明，核验评测设计及是否有升学机构公开引用其选型结果。
+  market: ''
+  job: 保研申请学生或升学顾问在规划申请、准备材料时，面对多个 AI agent 给出的保研咨询与申请规划建议，需要用统一基准测试比较其表现，以决定是否依赖某个 agent 的建议。
+  job_en: A Baoyan applicant or admissions advisor, while planning applications and preparing materials,
+    faces advice from multiple AI agents and needs a unified benchmark to compare their performance before
+    deciding whether to rely on one.
+  pain: 保研规划信息不对称、决策后果重，AI agent 建议质量参差且缺少可比较依据；不解决则只能凭个人感觉或机构口碑判断 agent 是否可靠，选错建议可能影响申请结果。
+  pain_en: Baoyan planning has asymmetric information and high-stakes outcomes; AI agent advice varies
+    in quality with no comparable basis, so without it users judge reliability by feel or firm reputation,
+    and a wrong recommendation can affect application results.
+  current_alternative: 靠个人经验、论坛帖子和咨询机构口碑判断 AI 建议是否可信，或直接试用单个 agent 凭主观感受取舍。
+  current_alternative_en: Judging AI advice credibility through personal experience, forum posts and consulting-firm
+    reputation, or trying a single agent and deciding by subjective feel.
+  usage_reason: 推断：相较凭感觉或口碑判断，它把保研咨询与申请规划任务做成统一评测，让顾问或学生在选型时多一个可横向比较的依据，因此关注 agent 可靠性的升学从业者会先看评测结果。
+  usage_reason_en: 'Inference: compared with judging by feel or reputation, it turns Baoyan advising and
+    application-planning tasks into a unified evaluation, giving advisors or students a comparable basis
+    for selection, so admissions practitioners concerned about agent reliability would check results first.'

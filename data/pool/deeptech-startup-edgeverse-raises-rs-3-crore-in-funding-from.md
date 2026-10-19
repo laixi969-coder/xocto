@@ -1,6 +1,6 @@
 ---
 slug: deeptech-startup-edgeverse-raises-rs-3-crore-in-funding-from
-name: Deeptech startup Edgeverse raises Rs 3 crore in funding from GVFL
+name: Edgeverse
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQRzFmSVNCMW1Y
 summary: Deeptech startup Edgeverse raises Rs 3 crore in funding from GVFL Indian Startup News
 first_seen: '2026-08-29T11:40:21Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Deeptech startup Edgeverse raises Rs 3 crore in funding from GVFL
+# Edgeverse
 
 Deeptech startup Edgeverse raises Rs 3 crore in funding from GVFL Indian Startup News
 

@@ -21,7 +21,7 @@ canonical_url: https://vals.ai/blogs/impossible-refund
 summary: How Far Will AI Assistants Go for a Refund They Can't Get?
 first_seen: '2026-10-19T00:13:33Z'
 last_seen: '2026-10-19T00:13:33Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

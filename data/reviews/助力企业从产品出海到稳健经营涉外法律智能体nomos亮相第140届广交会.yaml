@@ -1,0 +1,84 @@
+- id: req-initial-助力企业从产品出海到稳健经营涉外法律智能体nomos亮相第140届广交会-2026-10-19
+  project_slug: 助力企业从产品出海到稳健经营涉外法律智能体nomos亮相第140届广交会
+  level: initial
+  reviewed_at: '2026-10-19T00:14:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决涉外合同与合规检索的需求，但公开材料未说明AI接收什么、交付什么，旧流程无法还原。
+    evidence_ids:
+    - ev-6ef175b40dce36d9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有展会亮相报道，无客户案例、使用量或评价，无法判断采用共识。
+    evidence_ids:
+    - ev-6ef175b40dce36d9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断收入来自企业订阅、按份收费还是服务费。
+    evidence_ids:
+    - ev-6ef175b40dce36d9
+  - gate: truth
+    status: insufficient
+    reason: 法律意见的责任边界与人工复核环节未说明，交付确定性未明。
+    evidence_ids:
+    - ev-6ef175b40dce36d9
+  next_validation: 收集Nomos官方产品页或客户案例，确认其输入文件、输出交付物、人工复核环节与收费方式。
+  market: ''
+  job: 出海企业的法务或外贸负责人在准备出口合同与合规审查时，需要处理涉外条款和法规材料并形成可执行意见。具体流程仍待核验。
+  job_en: Legal or export managers at going-global firms need to handle cross-border clauses and regulatory
+    material and produce actionable advice when preparing export contracts and compliance reviews. The
+    exact workflow is unverified.
+  pain: 涉外法律检索与合同审阅依赖专业律师，成本高、周期长；公开材料未说明Nomos具体减轻哪一步。
+  pain_en: Cross-border legal research and contract review depend on specialist lawyers, costing time
+    and money; public material does not say which step Nomos relieves.
+  current_alternative: 现有做法可能是聘请涉外律师或使用通用检索与翻译工具；公开材料未给出可核对的替代流程。
+  current_alternative_en: The current approach may be hiring cross-border lawyers or using general search
+    and translation tools; public material gives no verifiable alternative workflow.
+  usage_reason: 推断：若Nomos能把合同或法规材料直接转成条款风险提示，企业可省去初筛环节再交律师确认；但缺少输入、产出与使用反馈，无法确认。
+  usage_reason_en: 'Inference: if Nomos turns contracts or regulatory material directly into clause-risk
+    flags, firms could skip initial screening before lawyer review; but inputs, outputs and usage feedback
+    are missing, so this is unconfirmed.'
+- id: req-full-助力企业从产品出海到稳健经营涉外法律智能体nomos亮相第140届广交会-2026-10-19
+  project_slug: 助力企业从产品出海到稳健经营涉外法律智能体nomos亮相第140届广交会
+  level: full
+  reviewed_at: '2026-10-19T00:45:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决出海企业涉外合同与合规处理的需求，但公开材料未说明接收什么材料、输出合同意见还是合规清单、人工如何复核，痛点强度与交付闭环无法还原，连需求与痛点都难以具体写出。
+    evidence_ids:
+    - ev-c1d5888d6348332e
+    - ev-0a864ed422de65d7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Nomos 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 出海企业的法务或外贸负责人在准备出口合同、目标市场合规审查时，需要处理涉外条款与法规材料并形成可执行意见；公开材料未说明Nomos接收哪些文件、输出何种交付物。
+  job_en: Legal or export staff at going-global firms need to process cross-border clauses and regulatory
+    material and produce actionable advice when preparing export contracts and market compliance reviews;
+    public material does not state which documents Nomos ingests or what it delivers.
+  pain: 公开材料仅称其面向涉外法律场景，未说明具体痛点：是检索慢、律师费高还是条款风险漏检，均无可核对描述。
+  pain_en: Public material only says it targets foreign-related legal scenarios; it does not specify the
+    pain—slow research, high lawyer fees, or missed clause risks—in any verifiable way.
+  current_alternative: 公开材料未给出可核对的旧做法；按任务结构推断可能是聘请涉外律师或使用通用检索与翻译工具，但无证据支持。
+  current_alternative_en: Public material gives no verifiable prior practice; by task structure it may
+    be hiring cross-border lawyers or using general search and translation tools, but no evidence supports
+    this.
+  usage_reason: 无法判断：缺少输入文件、输出交付物与人工复核环节的公开说明，无法解释相较旧做法减少哪一步负担，因此不构成使用理由。
+  usage_reason_en: 'Cannot be determined: public material lacks inputs, deliverables and human-review
+    steps, so it cannot explain which step is relieved versus the old approach; this is not a usage reason.'

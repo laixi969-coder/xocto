@@ -1,0 +1,88 @@
+- id: req-initial-阶跃终端原生智能体手机stepx-neo先行版发售可灵ai新一代模型kling-40正式上线-一周未来商业-2026-10-19
+  project_slug: 阶跃终端原生智能体手机stepx-neo先行版发售可灵ai新一代模型kling-40正式上线-一周未来商业
+  level: initial
+  reviewed_at: '2026-10-19T00:14:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 系统级意图代办切中跨 App 重复操作痛点，工作流结构推断成立。
+    evidence_ids:
+    - ev-765165807063d05d
+  - gate: consensus
+    status: insufficient
+    reason: 仅为先行版发售新闻，缺少公开预订量、用户口碑与持续使用数据。
+    evidence_ids:
+    - ev-765165807063d05d
+  - gate: model
+    status: insufficient
+    reason: 先行版硬件销售定价与后续云端模型服务收费模式尚未公开完整披露。
+    evidence_ids:
+    - ev-765165807063d05d
+  - gate: truth
+    status: insufficient
+    reason: 端侧模型功耗、跨应用 UI 操作的确定性交付与系统权限边界仍待真机核验。
+    evidence_ids:
+    - ev-765165807063d05d
+  next_validation: 官方公布的 STEPX Neo 先行版规格参数、定价详情及真实用户上手交互评测。
+  market: ''
+  job: 移动端用户在日常生活与办公场景下，面对碎片化跨应用操作，需要由端侧原生智能体自动代劳完成服务调用或信息查询任务。
+  job_en: Mobile users facing fragmented cross-app tasks need an on-device native agent to automate service
+    invocation and information retrieval.
+  pain: 传统智能手机需要用户在多个独立 App 之间手动跳转、复制粘贴及重复交互，跨应用长流程耗时费力且缺乏自动化执行能力。
+  pain_en: Traditional smartphones require manual navigation and copy-pasting across isolated apps, making
+    long multi-step workflows tedious.
+  current_alternative: 手动打开对应 App 操作，或使用系统级语音助手（如 Siri、小爱同学）进行基础系统指令设置与简单问答。
+  current_alternative_en: Manually operating standalone apps or using legacy voice assistants for basic
+    system toggles and simple queries.
+  usage_reason: 推断用户选择系统级智能体手机是为了摆脱孤岛式 App 手动交互，期望通过系统权限直接跨应用代办复杂事务，减少重复点击步骤。
+  usage_reason_en: Users are inferred to seek an agent-native device to bypass isolated app barriers and
+    let deep system permissions execute complex tasks automatically.
+- id: req-full-阶跃终端原生智能体手机stepx-neo先行版发售可灵ai新一代模型kling-40正式上线-一周未来商业-2026-10-19
+  project_slug: 阶跃终端原生智能体手机stepx-neo先行版发售可灵ai新一代模型kling-40正式上线-一周未来商业
+  level: full
+  reviewed_at: '2026-10-19T00:45:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决日常手机用户跨应用长流程需手动跳转、复制粘贴的需求，痛点在于孤立App间重复操作耗时易断；公开材料仅确认先行版发售与终端原生智能体定位，交付闭环细节未披露，故价值判断为工作流结构推理，非用户采用事实。
+    evidence_ids:
+    - ev-765165807063d05d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有先行版发售的媒体汇总报道，未见预订量、真实上手评价或持续使用反馈；公开关注度不能替代采用共识，强场景是否成立尚缺用户侧证据。
+    evidence_ids:
+    - ev-765165807063d05d
+  - gate: model
+    status: insufficient
+    reason: 先行版硬件售价与后续智能体服务是否订阅收费均未公开；按消费电子一次性硬件销售推断买方为终端消费者，但这是判断而非已验证的付费路径。
+    evidence_ids:
+    - ev-765165807063d05d
+  - gate: truth
+    status: insufficient
+    reason: 端侧模型功耗、跨应用UI操作的确定性交付、系统权限与人工确认边界均未在公开材料中说明；能否稳定完成长链路任务尚缺真机实测或部署文档佐证。
+    evidence_ids:
+    - ev-765165807063d05d
+  next_validation: 追踪STEPX Neo官方产品页与先行版规格/定价公告，以及首批真实用户上手评测中对跨应用任务完成率与失败场景的描述。
+  market: ''
+  job: 日常手机用户在通勤、办公或生活事务中，面对订票、比价、跨应用填表等需要多个App来回切换的碎片化任务，希望用一句语音或意图指令让系统级智能体代为完成跨应用操作并拿到结果。
+  job_en: Everyday smartphone users handling fragmented multi-app tasks such as booking, price comparison,
+    or cross-app form filling want to issue one voice or intent command and have a system-level agent
+    complete the cross-app operations and return the result.
+  pain: 公开材料仅说明产品定位为终端原生智能体，未披露用户抱怨或使用数据；从工作流结构推断，旧流程需在多个孤立App间手动跳转、复制粘贴、重复输入，长链路任务耗时且易中断，这是结构性痛点而非已证实的用户口述。
+  pain_en: Public material only states the agent-native positioning and discloses no user complaints or
+    usage data; by workflow inference, the old process requires manual switching, copy-pasting, and re-entering
+    data across isolated apps, making long tasks slow and error-prone. This is a structural pain, not
+    confirmed user testimony.
+  current_alternative: 手动逐个打开App操作，或使用Siri、小爱同学等传统语音助手完成设闹钟、查天气等基础系统指令与简单问答，复杂跨应用流程仍靠人工。
+  current_alternative_en: Manually opening each app in turn, or using legacy voice assistants such as
+    Siri or Xiaoai for basic system toggles and simple Q&A, while complex cross-app flows remain manual.
+  usage_reason: 推断：相较手动逐App操作，系统级智能体凭终端权限直接读取界面并代执行跨应用步骤，省去用户逐屏点击与复制粘贴这一环；对频繁处理多App长流程、又不愿自己逐步操作的用户，在需要一次性完成订票或信息汇总时可能选择它。该动机为结构推理，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus manual app-by-app operation, a system-level agent with terminal
+    permissions can read the UI and execute cross-app steps directly, removing the per-screen tapping
+    and copy-pasting burden; users who frequently run long multi-app flows and prefer not to step through
+    them may choose it when completing a booking or information roundup in one go. This motive is structural
+    inference without user feedback support.'

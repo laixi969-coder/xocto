@@ -78,3 +78,55 @@
   usage_reason_en: 'The task is: Video producers or agent developers render web-page animation scripts
     into finished videos with motion blur and depth of field Public materials do not yet explain why users
     choose this product over their existing approach.'
+- id: req-full-multiplane-2026-10-19
+  project_slug: multiplane
+  level: full
+  reviewed_at: '2026-10-19T00:44:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决网页动画脚本导出成片的需求，痛点是逐帧确定性、剪辑点运动模糊与景深合成需手工补齐；公开说明已能还原输入、动作与交付闭环，属工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-697faa6a9be7a01b
+    - ev-5ca44264c2a86079
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库显示收藏从 59 增至 75，说明开发者社区有关注；但无 issue、讨论或客户案例表明目标用户已把它留在出片流程中，关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-697faa6a9be7a01b
+    - ev-5ca44264c2a86079
+  - gate: model
+    status: insufficient
+    reason: 这是开源本地渲染器，公开材料未见定价、付费主体或商业授权路径；钱可能来自开发者自用或后续托管服务，但属判断而非已验证事实，无法确认单位经济。
+    evidence_ids:
+    - ev-697faa6a9be7a01b
+  - gate: truth
+    status: insufficient
+    reason: 确定性校验与运动模糊是产品自述能力，公开材料缺少可复现的渲染结果、性能数据与人工校对边界说明，交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-697faa6a9be7a01b
+    - ev-5ca44264c2a86079
+  next_validation: 追踪 Multiplane 仓库的 issue 与 discussion，确认是否有开发者报告实际渲染场景、替代的旧流程与可复现的成片结果。
+  market: ''
+  job: 给 AI 代理搭流程的开发者或做网页动画的视频制作者，在已有由 render(t) 驱动的网页动画脚本、需要导出成片时，用 Multiplane 在本地无头渲染成视频，并得到确定性校验、按剪辑点的运动模糊和带累积景深的
+    3D 层。
+  job_en: Agent developers or web-animation video producers who already have render(t)-driven web-page
+    animation scripts use Multiplane to headlessly render them locally into video, with determinism checks,
+    cut-aware motion blur, and a 3D layer with accumulated depth of field.
+  pain: 公开说明显示，网页动画要变成可交付视频，需要额外处理逐帧确定性、剪辑点运动模糊和景深合成；这些环节在通用录屏或浏览器截帧流程里要手工补齐，且难以保证同一脚本重复渲染结果一致。
+  pain_en: The public description implies that turning web animation into deliverable video requires extra
+    handling of frame determinism, cut-aware motion blur, and depth-of-field compositing; generic screen
+    capture or browser frame-grabbing workflows require manual workarounds and rarely guarantee identical
+    output across repeated renders.
+  current_alternative: 当前替代方式推断为：用浏览器录屏、Puppeteer/Playwright 截帧后拼接，或在 After Effects 等剪辑软件里手工补运动模糊与景深；公开材料未给出用户实际替代行为的直接描述。
+  current_alternative_en: The inferred current alternative is screen recording in a browser, frame-grabbing
+    with Puppeteer/Playwright and stitching, or manually adding motion blur and depth of field in editing
+    tools such as After Effects; public materials do not directly describe actual user substitution behavior.
+  usage_reason: 推断：相较录屏或截帧拼接，它把每个镜头当作普通网页由 render(t) 驱动，在本地一次渲染中完成确定性校验、按剪辑点加运动模糊和 3D 景深，减少手工补帧与合成步骤；因此已有网页动画脚本、需要可重复成片的开发者会在批量出片时选择它。
+  usage_reason_en: 'Inference: compared with screen recording or frame-grabbing and stitching, it treats
+    each shot as a plain web page driven by render(t) and completes determinism checks, cut-aware motion
+    blur, and 3D depth of field in one local render, reducing manual frame-fixing and compositing steps;
+    developers with existing web-animation scripts who need repeatable finished video would therefore
+    choose it for batch output.'

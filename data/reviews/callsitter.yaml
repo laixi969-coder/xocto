@@ -1,0 +1,84 @@
+- id: req-initial-callsitter-2026-10-19
+  project_slug: callsitter
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决骚扰与诈骗电话打断用户、挂断后仍被反复拨打的问题，痛点具体，替代行为是手动挂断或拦截。
+    evidence_ids:
+    - ev-3e79c78584c4eaa6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有用户反馈说明它被持续用于日常接听。
+    evidence_ids:
+    - ev-3e79c78584c4eaa6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露付费路径，买方可能是个人用户或电信、反诈服务方，属判断而非已验证事实。
+    evidence_ids:
+    - ev-3e79c78584c4eaa6
+  - gate: truth
+    status: insufficient
+    reason: 电话线路接入方式、对话生成与合规边界均未公开，交付能否确定发生尚不清楚。
+    evidence_ids:
+    - ev-3e79c78584c4eaa6
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认电话线路接入方式、对话生成流程和实际使用反馈。
+  market: ''
+  job: 手机用户在接到陌生推销或诈骗电话时，让自动应答机器人接听并拖住对方，自己不必花时间应付。
+  job_en: When a phone user gets an unsolicited sales or scam call, an automated answering bot takes the
+    call and stalls the caller so the user does not spend time on it.
+  pain: 骚扰和诈骗电话打断工作与休息，人工挂断后仍会被反复拨打，处理这些通话是纯负担。
+  pain_en: Nuisance and scam calls interrupt work and rest, and manually hanging up does not stop repeat
+    calls, so handling them is pure overhead.
+  current_alternative: 用户通常手动挂断、拉黑号码，或依赖运营商和手机系统的骚扰拦截。
+  current_alternative_en: Users typically hang up manually, block numbers, or rely on carrier and phone-system
+    spam filters.
+  usage_reason: 推断：相较手动挂断，机器人直接接听并用对话拖住来电者，省去用户亲自应对这一步；但接入方式与合规边界未公开，选择动机尚缺用户反馈支持。
+  usage_reason_en: 'Inference: compared with hanging up manually, the bot answers and keeps the caller
+    talking, removing the step of the user responding personally; integration and compliance boundaries
+    are undisclosed, and user feedback on why people choose it is missing.'
+- id: req-full-callsitter-2026-10-19
+  project_slug: callsitter
+  level: full
+  reviewed_at: '2026-10-19T00:42:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决骚扰与诈骗电话打断用户、挂断后仍被反复拨打的问题，痛点具体，替代行为是手动挂断或拦截。
+    evidence_ids:
+    - ev-3e79c78584c4eaa6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有用户反馈说明它被持续用于日常接听。
+    evidence_ids:
+    - ev-3e79c78584c4eaa6
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露付费路径，买方可能是个人用户或电信、反诈服务方，属判断而非已验证事实。
+    evidence_ids:
+    - ev-3e79c78584c4eaa6
+  - gate: truth
+    status: insufficient
+    reason: 电话线路接入方式、对话生成与合规边界均未公开，交付能否确定发生尚不清楚。
+    evidence_ids:
+    - ev-3e79c78584c4eaa6
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认电话线路接入方式、对话生成流程和实际使用反馈。
+  market: ''
+  job: 手机用户接到陌生推销或诈骗电话时，让自动应答机器人接听并拖住对方，自己不必花时间应付。
+  job_en: When a phone user receives an unsolicited sales or scam call, an automated answering bot takes
+    the call and stalls the caller so the user does not have to spend time on it.
+  pain: 骚扰和诈骗电话打断工作与休息，人工挂断后仍可能被反复拨打，接听与应对这些通话是纯负担。
+  pain_en: Nuisance and scam calls interrupt work and rest, and manually hanging up may not stop repeat
+    calls, so answering and handling them is pure overhead.
+  current_alternative: 用户通常手动挂断、拉黑号码，或依赖运营商和手机系统的骚扰拦截。
+  current_alternative_en: Users typically hang up manually, block numbers, or rely on carrier and phone-system
+    spam filters.
+  usage_reason: 推断：相较手动挂断，机器人直接接听并用对话拖住来电者，省去用户亲自应对这一步；但接入方式与合规边界未公开，选择动机尚缺用户反馈支持。
+  usage_reason_en: 'Inference: compared with hanging up manually, the bot answers and keeps the caller
+    talking, removing the step of the user responding personally; integration and compliance boundaries
+    are undisclosed, and user feedback on why people choose it is missing.'

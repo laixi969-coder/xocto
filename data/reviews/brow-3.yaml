@@ -129,3 +129,47 @@
   usage_reason_en: 'Cannot be determined: there is no product page, user feedback, or usage record in
     the evidence to explain which step of the old workflow it removes, or which users would choose it
     under what circumstances.'
+- id: req-full-brow-3-2026-10-19
+  project_slug: brow-3
+  level: full
+  reviewed_at: '2026-10-19T00:42:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决多账号额度不可见导致编码中断的问题，但公开证据只有词典释义与检索占位，没有任何用户抱怨、工单或绕过行为，痛点刚性与不采用后果均无法从公开事实确认，属于自嗨拼凑。
+    evidence_ids:
+    - ev-09b4d2088a6648cc
+    - ev-21071486092b3a39
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 brow 官网或 公开代码仓库 仓库的 README 与 issue，确认额度读取方式、是否依赖非公开接口，以及是否有用户反馈或使用记录。
+  market: ''
+  job: 同时使用多个 Claude 账号的开发者，在编码过程中需要随时知道各账号的 5 小时与每周额度还剩多少、何时重置，以决定用哪个账号继续编码。
+  job_en: Developers running multiple Claude accounts need to know each account's remaining 5-hour and
+    weekly quota and reset time while coding, in order to decide which account to continue with.
+  pain: 额度用尽会中断编码，开发者只能反复打开用量页面或凭经验估计何时触顶，切换账号还要重新登录；但公开材料未提供任何用户抱怨、工单或讨论来证明这一痛点真实存在。
+  pain_en: Running out of quota interrupts coding, and developers must repeatedly open usage pages or
+    guess when the limit will hit, while switching accounts means logging in again; however, no public
+    user complaint, ticket, or discussion supports that this pain actually exists.
+  current_alternative: 手动打开各账号的用量页面查看，或凭经验估计何时触顶，账号切换靠浏览器手动登录；公开材料未记录开发者已采取此类绕过行为。
+  current_alternative_en: Manually opening each account's usage page, or estimating when the limit will
+    hit, with account switching done by hand in the browser; public materials do not record developers
+    already taking such workarounds.
+  usage_reason: 推断：它把额度与重置时间常驻显示在刘海区域，省去反复打开用量页面这一步，并让每个账号在独立浏览器配置中登录，减少切换时的重复登录；但该收益仅来自产品功能描述，缺少用户反馈或案例支持，且多账号本身可能违反平台条款，因此选择动机无法确认为事实。
+  usage_reason_en: 'Inference: it keeps quota and reset time visible in the notch, removing the step of
+    repeatedly opening usage pages, and signs each account into its own browser profile, cutting repeated
+    logins when switching; but this benefit comes only from the product description, lacks user feedback
+    or cases, and multi-account use may itself violate platform terms, so the adoption motive cannot be
+    confirmed as fact.'

@@ -1,0 +1,87 @@
+- id: req-initial-microsoft-launches-copilot-for-legal-with-ai-skills-for-cont-2026-10-19
+  project_slug: microsoft-launches-copilot-for-legal-with-ai-skills-for-cont
+  level: initial
+  reviewed_at: '2026-10-19T00:14:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同审阅与法律检索的重复手工劳动，痛点刚性且交付可核对；买方与定价未披露。
+    evidence_ids:
+    - ev-74054e6c24e8bc59
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布标题，无客户案例、使用数据或法律从业者的公开反馈。
+    evidence_ids:
+    - ev-74054e6c24e8bc59
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方是律所还是企业法务，付费路径无法核验。
+    evidence_ids:
+    - ev-74054e6c24e8bc59
+  - gate: truth
+    status: insufficient
+    reason: 未说明审阅结果如何校验、错误责任归属与人工复核边界。
+    evidence_ids:
+    - ev-74054e6c24e8bc59
+  next_validation: 收集 Microsoft Copilot for Legal 的官方产品页或发布公告，核对其功能范围、定价与可用地区。
+  market: ''
+  job: 律所律师或企业法务在收到待审合同或需要检索法律依据时，处理合同文本与研究材料，完成条款审阅与研究结论。
+  job_en: Law-firm lawyers or in-house counsel handle contract text and research materials when a contract
+    needs review or legal authority must be found, completing clause review and research conclusions.
+  pain: 合同审阅与法律检索是重复且耗时的手工工作，遗漏条款或检索不全有实质风险；这是从任务结构推断，公开材料未给出用户抱怨。
+  pain_en: Contract review and legal research are repetitive, time-consuming manual work where missed
+    clauses or incomplete research carry real risk; this is inferred from task structure, as public materials
+    give no user complaints.
+  current_alternative: 律师逐条人工阅读合同、手动检索法规与判例，或使用通用聊天助手做零散问答。
+  current_alternative_en: Lawyers read contracts clause by clause, search statutes and cases manually,
+    or use general chat assistants for ad-hoc Q&A.
+  usage_reason: 推断：相较逐条人工阅读与手动检索，它把合同文本与检索问题直接交给带法律技能的助手，减少初筛与资料整理这一步，因此处理大量合同或人手不足的法务团队会优先试用；实际采用与留存尚无公开证据。
+  usage_reason_en: 'Inference: versus clause-by-clause manual reading and manual search, it hands contract
+    text and research questions to a legal-skilled assistant, cutting the first-pass screening and material-gathering
+    step, so teams facing high contract volume or thin staffing would try it first; adoption and retention
+    evidence is not public.'
+- id: req-full-microsoft-launches-copilot-for-legal-with-ai-skills-for-cont-2026-10-19
+  project_slug: microsoft-launches-copilot-for-legal-with-ai-skills-for-cont
+  level: full
+  reviewed_at: '2026-10-19T00:44:16Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅有发布标题，无官方产品说明、法律技能细节或用户痛点材料；合同审阅与检索的任务结构可推测，但无法确认具体需求与痛点强度，价值关证据不足。
+    evidence_ids:
+    - ev-4d7c47ba0f18ee9b
+    - ev-1a276703120fa3de
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Microsoft 官方 Copilot for Legal 产品页或发布公告，核对合同审阅与法律研究技能的功能范围、可用地区与定价。
+  market: ''
+  job: 律所律师或企业法务在收到待审合同或需要检索法律依据时，处理合同文本与研究材料，产出条款审阅意见与研究结论，并需人工复核。
+  job_en: Law-firm lawyers or in-house counsel handle contract text and research materials when a contract
+    needs review or legal authority must be found, producing clause-review opinions and research conclusions
+    subject to human review.
+  pain: 公开证据中没有该产品的官方说明、用户抱怨或客户案例，无法确认合同审阅与法律检索的具体痛点强度；只能从任务结构推测重复阅读与检索耗时，但缺少可引用事实。
+  pain_en: Public evidence contains no official product description, user complaints, or customer cases
+    for this product, so the specific pain intensity of contract review and legal research cannot be confirmed;
+    repetition and search time can only be inferred from task structure, without citable facts.
+  current_alternative: 公开材料未说明律师当前如何完成合同审阅与法律检索；通用聊天助手页面仅说明其可回答问题与写作，不能证明被用于法律工作流。
+  current_alternative_en: Public materials do not state how lawyers currently complete contract review
+    and legal research; general chat-assistant pages only say they answer questions and write, which does
+    not show use in legal workflows.
+  usage_reason: 无法判断：现有证据均为通用 AI 助手或 AI 定义页面，没有该产品的功能说明、法律技能细节或用户反馈，无法说明相较旧做法减少了哪一步负担，因此不能给出采用理由。
+  usage_reason_en: 'Cannot be determined: all available evidence is generic AI-assistant or AI-definition
+    pages, with no product description, legal-skill detail, or user feedback, so no step saved versus
+    the old practice can be identified and no adoption reason can be given.'

@@ -1,0 +1,84 @@
+- id: req-initial-shipyard-2-2026-10-19
+  project_slug: shipyard-2
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多编码代理并行时分支与终端分散、需手工核对的问题，旧做法是多个终端加脚本，痛点具体；但交付确定性未核验。
+    evidence_ids:
+    - ev-1c4a9cc4dc5853d9
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库 321 星与 36 次分叉，属关注度，不能说明开发者已把它留在工作流。
+    evidence_ids:
+    - ev-1c4a9cc4dc5853d9
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径，买方与收费方式不明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-1c4a9cc4dc5853d9
+  - gate: truth
+    status: insufficient
+    reason: 未见代理运行结果的可复现实测或安全边界说明，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-1c4a9cc4dc5853d9
+  next_validation: 收集该仓库的 issue 与 discussion，查看开发者对多代理编排实际使用与故障的反馈。
+  market: ''
+  job: 开发者在本地开发机上并行运行多个编码代理，处理代码分支、终端与自动化任务，并需要统一编排与查看结果。
+  job_en: Developers run multiple coding agents on local dev boxes across worktrees, terminals and automations
+    and need unified orchestration and result review.
+  pain: 多个代理并行时，分支、终端和自动化分散，开发者要手工切换与核对，容易漏掉某个代理的产出或冲突。
+  pain_en: With parallel agents, branches, terminals and automations scatter, forcing manual switching
+    and checking and risking missed outputs or conflicts.
+  current_alternative: 开发者目前靠多个终端窗口、手工 git worktree 和脚本自行拼凑，或只跑单个代理。
+  current_alternative_en: Developers currently stitch together multiple terminal windows, manual git worktrees
+    and scripts, or run a single agent.
+  usage_reason: 推断：它把分支、终端与自动化收进一个桌面应用统一编排，减少开发者在多个窗口间切换和手工核对代理产出的步骤，因此并行跑代理的开发者会在任务变多时选择它；尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: it consolidates branches, terminals and automations into one desktop app
+    for orchestration, cutting window switching and manual output checking, so developers running parallel
+    agents may choose it as tasks multiply; no user feedback or retention evidence yet.'
+- id: req-full-shipyard-2-2026-10-19
+  project_slug: shipyard-2
+  level: full
+  reviewed_at: '2026-10-19T00:45:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全是同名无关页面（熟食店、词典释义、造船厂百科），没有该产品自身的功能说明、文档或用户反馈，连它解决什么需求、什么痛点都无法从公开事实还原，价值关不成立。
+    evidence_ids:
+    - ev-41f1f7fdcda5130b
+    - ev-38328051f18cb538
+    - ev-0b9d6aad6c7dda28
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或代码仓库（如 公开代码仓库 仓库页、README 与 issue/discussion），确认其真实功能范围与开发者实际使用反馈。
+  market: ''
+  job: 开发者在本地开发机上并行运行多个编码代理，处理代码分支、终端与自动化任务，并需要统一编排与查看结果。
+  job_en: Developers run multiple coding agents on local dev boxes across worktrees, terminals and automations
+    and need unified orchestration and result review.
+  pain: 公开证据中没有该产品自身的说明、文档或用户反馈，无法确认多代理并行时分支与终端分散究竟造成何种可核对损失；候选摘要描述的是产品能力，不能当作痛点证据。
+  pain_en: No first-party description, docs or user feedback exists in the public evidence, so the concrete
+    cost of scattered branches and terminals across parallel agents cannot be confirmed; the candidate
+    summary describes product capability, not pain evidence.
+  current_alternative: 公开材料未提供开发者当前如何管理多代理并行的替代做法，无法确认旧流程是多个终端、手工 worktree 还是只跑单个代理。
+  current_alternative_en: The public material does not show how developers currently manage parallel agents,
+    so the old workflow (multiple terminals, manual worktrees, or a single agent) cannot be confirmed.
+  usage_reason: 缺少产品自身页面、文档或用户反馈，无法说明它相较旧做法减少哪一步负担；现有证据均为同名无关页面，不能支持使用理由。
+  usage_reason_en: Without first-party pages, docs or user feedback, it is impossible to say which step
+    it removes versus the old approach; all current evidence is unrelated same-name pages and cannot support
+    a usage reason.

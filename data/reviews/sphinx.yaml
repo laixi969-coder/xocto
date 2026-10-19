@@ -1,0 +1,84 @@
+- id: req-initial-sphinx-2026-10-19
+  project_slug: sphinx
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成代码未被理解就上线的问题，旧做法是人工评审或直接信任，痛点具体；题目与拦截机制仍待核验。
+    evidence_ids:
+    - ev-7e09b37d4ae6fd43
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 240 分与 83 条评论，属关注度，不能证明开发者已长期使用。
+    evidence_ids:
+    - ev-7e09b37d4ae6fd43
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方与收费方式不明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-7e09b37d4ae6fd43
+  - gate: truth
+    status: insufficient
+    reason: 未见题目生成质量与误拦截的实测，承诺能否确定性交付缺证据。
+    evidence_ids:
+    - ev-7e09b37d4ae6fd43
+  next_validation: 收集该产品的官方文档或可复现实测，确认题目生成方式与答错后的拦截行为。
+  market: ''
+  job: 开发者在把 AI 生成的代码合并上线前，用这个钩子被提问代码逻辑，确认自己理解后再提交。
+  job_en: Developers about to ship AI-generated code are quizzed on its logic by a hook before committing.
+  pain: AI 生成的代码开发者未必读懂，直接上线会带来隐藏缺陷与责任不清。
+  pain_en: Developers may not understand AI-generated code, and shipping it directly brings hidden defects
+    and unclear accountability.
+  current_alternative: 目前靠人工代码评审、自读 diff 或直接信任 AI 输出。
+  current_alternative_en: Teams currently rely on manual code review, self-reading diffs or simply trusting
+    AI output.
+  usage_reason: 推断：它在提交前用提问强制开发者复述代码逻辑，把“是否读懂”变成一道可拦截的检查，减少未经理解就上线的步骤，因此重视代码责任的团队会在 AI 生成代码占比上升时选择它；尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: it forces developers to restate code logic via questions before commit,
+    turning understanding into a blocking check and cutting the step of shipping without comprehension,
+    so accountability-focused teams may adopt it as AI-generated code grows; no user feedback or retention
+    evidence yet.'
+- id: req-full-sphinx-2026-10-19
+  project_slug: sphinx
+  level: full
+  reviewed_at: '2026-10-19T00:45:26Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向古埃及神话生物与 Sphinx 文档生成器，没有一条能说明该钩子解决什么用户任务、痛点为何刚性，连需求与痛点都无法写出。
+    evidence_ids:
+    - ev-5b4d4b9b679bc1f8
+    - ev-226fb6edca3680de
+    - ev-ad2087cce69d64d9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或代码仓库的 README、部署文档与 issue/discussion，确认题目生成方式、答错拦截行为及是否有真实用户使用记录。
+  market: ''
+  job: 开发者在把 AI 生成的代码合并上线前，触发这个钩子，被提问代码逻辑，确认自己理解后再提交。
+  job_en: Before merging AI-generated code, a developer triggers this hook, is quizzed on the code's logic,
+    and confirms understanding before committing.
+  pain: 公开材料没有提供任何关于该产品痛点的证据；现有证据全部指向同名的古埃及神话生物和 Sphinx 文档生成器，与“AI 代码理解检查”无关。
+  pain_en: No public evidence describes this product's pain point; all collected evidence refers to the
+    Egyptian mythological creature or the Sphinx documentation generator, unrelated to an AI-code comprehension
+    check.
+  current_alternative: 公开材料未提供该产品所替代的旧做法；无法从证据中还原现有工作流。
+  current_alternative_en: No public evidence describes the prior practice this product replaces; the existing
+    workflow cannot be reconstructed from the evidence.
+  usage_reason: 无法判断用户为何选择它：没有产品页面、文档、用户反馈或案例，现有证据与产品功能无关，任何使用动机都只能是凭空推测。
+  usage_reason_en: 'Cannot determine why users would choose it: there is no product page, documentation,
+    user feedback, or case study, and the collected evidence is unrelated to the product, so any usage
+    motive would be pure speculation.'

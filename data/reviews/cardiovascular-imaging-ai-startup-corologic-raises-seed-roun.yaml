@@ -1,0 +1,85 @@
+- id: req-initial-cardiovascular-imaging-ai-startup-corologic-raises-seed-roun-2026-10-19
+  project_slug: cardiovascular-imaging-ai-startup-corologic-raises-seed-roun
+  level: initial
+  reviewed_at: '2026-10-19T00:14:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决心血管影像阅片与报告耗时的问题，但公开材料只有融资标题，无法确认具体任务与交付。
+    evidence_ids:
+    - ev-d8e64663384cfb30
+  - gate: consensus
+    status: insufficient
+    reason: 仅见投资方名称，无医院采用、医生评价或临床使用证据。
+    evidence_ids:
+    - ev-d8e64663384cfb30
+  - gate: model
+    status: insufficient
+    reason: 买方可能是医院影像科或心血管专科，但无定价、采购或付费路径材料，属判断而非事实。
+    evidence_ids:
+    - ev-d8e64663384cfb30
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其影像输入、准确性与人工复核边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-d8e64663384cfb30
+  next_validation: 收集 Corologic 官方产品页或临床验证/监管材料，确认其处理的影像类型、交付物与人工复核流程。
+  market: ''
+  job: 心血管影像科医生在阅片时处理冠脉等影像，需要完成病灶识别与报告初稿；Corologic 的具体输入与交付仍待核验。
+  job_en: Cardiovascular imaging physicians reviewing coronary and related scans need to identify lesions
+    and draft reports; Corologic's specific inputs and deliverables remain to be verified.
+  pain: 公开材料未说明它缓解哪一步负担；从工作流结构推断，心血管影像阅片专业门槛高、报告耗时长，但这一痛点是否为其所解决尚无材料支持。
+  pain_en: The public material does not state which step's burden it relieves; by workflow inference,
+    cardiovascular image reading is highly specialized and report writing is time-consuming, but there
+    is no material support that this is the pain it addresses.
+  current_alternative: 医生手工阅片并撰写报告，或使用通用放射影像 AI 工具；Corologic 与这些旧做法的差异未披露。
+  current_alternative_en: Physicians read scans and write reports manually, or use general radiology AI
+    tools; how Corologic differs from these existing practices is not disclosed.
+  usage_reason: 推断：若其 AI 能在阅片时自动标出病灶并生成报告初稿，可减少医生逐帧判读与打字的时间，心血管专科医生可能在阅片量大的情况下选择它；但缺少产品说明与用户反馈，此因果尚未被事实支持。
+  usage_reason_en: 'Inference: if its AI can flag lesions and draft reports during reading, it could cut
+    physicians'' frame-by-frame review and typing time, and cardiovascular specialists might choose it
+    under high reading volumes; but without product documentation or user feedback, this causal link is
+    not yet factually supported.'
+- id: req-full-cardiovascular-imaging-ai-startup-corologic-raises-seed-roun-2026-10-19
+  project_slug: cardiovascular-imaging-ai-startup-corologic-raises-seed-roun
+  level: full
+  reviewed_at: '2026-10-19T00:42:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决心血管影像阅片与报告耗时的问题，但公开材料只有融资标题，无法确认具体任务与交付。
+    evidence_ids:
+    - ev-d8e64663384cfb30
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Corologic 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 心血管影像科医生在阅片时处理冠脉等影像，需要完成病灶识别与报告初稿；Corologic 的具体输入与交付仍待核验。
+  job_en: Cardiovascular imaging physicians reviewing coronary and related scans need to identify lesions
+    and draft reports; Corologic's specific inputs and deliverables remain to be verified.
+  pain: 公开材料未说明它缓解哪一步负担；从工作流结构推断，心血管影像阅片专业门槛高、报告耗时长，但这一痛点是否为其所解决尚无材料支持。
+  pain_en: The public material does not state which step's burden it relieves; by workflow inference,
+    cardiovascular image reading is highly specialized and report writing is time-consuming, but there
+    is no material support that this is the pain it addresses.
+  current_alternative: 医生手工阅片并撰写报告，或使用通用放射影像 AI 工具；Corologic 与这些旧做法的差异未披露。
+  current_alternative_en: Physicians read scans and write reports manually, or use general radiology AI
+    tools; how Corologic differs from these existing practices is not disclosed.
+  usage_reason: 推断：若其 AI 能在阅片时自动标出病灶并生成报告初稿，可减少医生逐帧判读与打字的时间，心血管专科医生可能在阅片量大的情况下选择它；但缺少产品说明与用户反馈，此因果尚未被事实支持。
+  usage_reason_en: 'Inference: if its AI can flag lesions and draft reports during reading, it could cut
+    physicians'' frame-by-frame review and typing time, and cardiovascular specialists might choose it
+    under high reading volumes; but without product documentation or user feedback, this causal link is
+    not yet factually supported.'

@@ -134,3 +134,48 @@
   usage_reason_en: 'Inference: versus scattered tutorials, it fixes pre-launch steps into an agent-executable
     skill list, reducing the burden of assembling a process and deciding the next step, so first-time
     agent users lacking engineering experience would pick it at the launch stage.'
+- id: req-full-vibe-coding-zero-to-ship-2026-10-19
+  project_slug: vibe-coding-zero-to-ship
+  level: full
+  reviewed_at: '2026-10-19T00:45:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决新手用 AI 代理从想法走到上线的需求，痛点在数据、Git、安全与部署步骤缺失导致项目停摆；这是基于产品说明的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-e7482ab12c0c733c
+    - ev-7e4f7ae0cbb3c046
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 50 增至 78 仅说明关注度上升，未见用户评价、issue 或案例说明技能被纳入实际工作流，强场景是否成立仍缺行为证据。
+    evidence_ids:
+    - ev-e7482ab12c0c733c
+    - ev-0d37310728cd50a2
+  - gate: model
+    status: insufficient
+    reason: 开源技能包未见定价或付费路径，潜在买方可能是个人开发者或小团队，属判断而非已验证事实，尚无收入或采购记录。
+    evidence_ids:
+    - ev-7e4f7ae0cbb3c046
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明支持哪些代理、步骤清单是否可复现、安全环节由谁确认，交付确定性无法从公开事实核对。
+    evidence_ids:
+    - ev-e7482ab12c0c733c
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认技能包支持的 AI 编程代理范围、步骤清单可复现性，以及是否有用户报告实际用它完成部署上线。
+  market: ''
+  job: 没有工程背景的独立开发者或新手，在用 AI 编程代理把产品想法做成可上线项目时，需要处理数据、Git、安全、部署与发布等材料，最终让代理按步骤把项目真正上线。
+  job_en: A non-engineering indie developer or newcomer using an AI coding agent to turn a product idea
+    into a shippable project must handle data, Git, security, deployment and release materials so the
+    agent can step through to launch.
+  pain: 代理能生成代码，但新手不清楚上线前还缺哪些步骤，容易卡在密钥管理、安全检查与部署配置上，导致项目停在本地无法交付。
+  pain_en: Agents can generate code, but newcomers don't know which pre-launch steps are missing and get
+    stuck on key management, security checks and deployment config, leaving projects stranded locally.
+  current_alternative: 零散搜索教程、看视频或反复追问聊天助手，步骤不成体系，安全与部署环节常被漏掉。
+  current_alternative_en: Scattered tutorials, videos or repeated chatbot questions, with no systematic
+    steps, so security and deployment are often skipped.
+  usage_reason: 推断：相较零散教程，它把上线前步骤固化为代理可执行的技能，减少新手自己拼流程和漏步骤的负担，因此刚用代理做第一个项目、需要走到部署上线的人会选它。
+  usage_reason_en: 'Inference: versus scattered tutorials, it fixes pre-launch steps into agent-executable
+    skills, reducing the burden of assembling a process and missing steps, so first-time agent users who
+    need to reach deployment would pick it.'

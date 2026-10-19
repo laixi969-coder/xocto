@@ -1,0 +1,84 @@
+- id: req-initial-bee-frontier-and-bee-eclipse-2026-10-19
+  project_slug: bee-frontier-and-bee-eclipse
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决对话与待办遗忘的问题，但材料未说明具体使用节点、输入与交付，痛点强度无法判断。
+    evidence_ids:
+    - ev-7a7e99b681b4200c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，无用户评价、采用或持续使用证据。
+    evidence_ids:
+    - ev-7a7e99b681b4200c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，硬件与订阅模式均无法确认。
+    evidence_ids:
+    - ev-7a7e99b681b4200c
+  - gate: truth
+    status: insufficient
+    reason: 记忆准确性、隐私边界与人工确认环节均无公开材料支持。
+    evidence_ids:
+    - ev-7a7e99b681b4200c
+  next_validation: 收集 Bee 官方产品页或发布说明，确认设备形态、记忆检索方式与定价。
+  market: ''
+  job: 日常用户在手边需要记录对话或待办时，通过腕上或手机设备采集语音并形成个人记忆，供之后回顾。
+  job_en: Everyday users who need to capture conversations or to-dos at hand record voice via a wrist
+    or phone device into personal memory for later recall.
+  pain: 对话和待办容易遗忘，需要随手记录；但候选材料未说明具体痛点强度与现有替代。
+  pain_en: Conversations and to-dos are easily forgotten and need quick capture, but the candidate does
+    not state pain intensity or existing alternatives.
+  current_alternative: 用户可能用手机备忘录、录音或笔记应用记录，具体替代方式未在材料中说明。
+  current_alternative_en: Users may use phone notes, voice recording or note apps; the specific alternative
+    is not stated in the material.
+  usage_reason: 推断：若设备能免手采集并自动整理记忆，可减少手动记录这一步；但公开材料未给出使用反馈或案例，选择动机无法确认。
+  usage_reason_en: 'Inference: if the device captures hands-free and organizes memory automatically, it
+    removes the manual note-taking step; but no user feedback or cases are public, so the choice motive
+    cannot be confirmed.'
+- id: req-full-bee-frontier-and-bee-eclipse-2026-10-19
+  project_slug: bee-frontier-and-bee-eclipse
+  level: full
+  reviewed_at: '2026-10-19T00:42:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选证据全部是无关页面（枪击记录、Disney+、Bing 测验、超市门店），没有一条说明 Bee 的输入、动作、交付或用户痛点，连需求与痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-dce6fea492925bea
+    - ev-88d922493b053aa7
+    - ev-c543187ca2c2426e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Amazon 官方 Bee 产品页与发布说明，确认设备形态、记忆检索方式、隐私处理与定价。
+  market: ''
+  job: 日常用户在走路、开会或临时想起待办时，用腕上或手机设备采集语音，把对话与待办沉淀为可回顾的个人记忆。
+  job_en: Everyday users, while walking, in meetings, or when a to-do comes to mind, capture voice via
+    a wrist or phone device and turn conversations and to-dos into personal memory they can recall later.
+  pain: 公开材料只有一句产品定位，未说明遗忘发生在什么场景、造成什么后果，也未给出用户抱怨或行为证据，痛点强度无法从证据判断。
+  pain_en: The public material offers only a one-line product positioning; it does not state where forgetting
+    occurs or what consequences follow, nor any user complaints or behavioral evidence, so pain intensity
+    cannot be judged from evidence.
+  current_alternative: 材料未记录用户现在用什么替代，只能推测为手机备忘录、录音或笔记应用，属于推断而非公开事实。
+  current_alternative_en: The material records no current substitute; phone notes, voice recording, or
+    note apps are only an inference, not a public fact.
+  usage_reason: 推断：若设备能免手采集并自动整理记忆，可省去手动记笔记这一步；但公开材料没有用户反馈、案例或使用数据，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the device captures hands-free and organizes memory automatically, it
+    removes the manual note-taking step; but there is no public user feedback, case, or usage data to
+    confirm which users would choose it for that reason.'

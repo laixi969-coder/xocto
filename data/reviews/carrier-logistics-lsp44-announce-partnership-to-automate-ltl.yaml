@@ -1,0 +1,88 @@
+- id: req-initial-carrier-logistics-lsp44-announce-partnership-to-automate-ltl-2026-10-19
+  project_slug: carrier-logistics-lsp44-announce-partnership-to-automate-ltl
+  level: initial
+  reviewed_at: '2026-10-19T00:14:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决零担货运识别与分拣的人工核对负担，但公开材料只有合作标题，无法确认具体任务与交付。
+    evidence_ids:
+    - ev-bfa857ac11950f04
+  - gate: consensus
+    status: insufficient
+    reason: 仅见合作公告，无承运商采用、使用反馈或效果数据。
+    evidence_ids:
+    - ev-bfa857ac11950f04
+  - gate: model
+    status: insufficient
+    reason: 买方可能是零担承运商或物流平台，但无定价、合同或付费路径材料，属判断而非事实。
+    evidence_ids:
+    - ev-bfa857ac11950f04
+  - gate: truth
+    status: insufficient
+    reason: 无法核验识别准确率、覆盖货类与人工复核边界，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-bfa857ac11950f04
+  next_validation: 收集 Carrier Logistics 或 LSP44 官方合作说明或产品文档，确认自动化识别的输入数据、准确率与部署方式。
+  market: ''
+  job: 零担货运调度或运营人员在处理运单与货物信息时，需要完成货物识别与分拣归类；合作中 AI 的具体输入与交付仍待核验。
+  job_en: LTL dispatch or operations staff processing shipment and cargo information need to identify
+    and classify freight; the specific AI inputs and deliverables in the partnership remain to be verified.
+  pain: 公开材料未说明它缓解哪一步负担；从工作流结构推断，零担货运识别与分拣依赖人工核对、易出错且耗时，但这一痛点是否为其所解决尚无材料支持。
+  pain_en: The public material does not state which step's burden it relieves; by workflow inference,
+    LTL freight identification and sorting rely on manual checks, are error-prone and time-consuming,
+    but there is no material support that this is the pain it addresses.
+  current_alternative: 运营人员手工核对运单与货物信息完成识别分拣，或依赖既有物流系统规则；合作与这些旧做法的差异未披露。
+  current_alternative_en: Operations staff manually check shipment and cargo information to identify and
+    sort freight, or rely on rules in existing logistics systems; how the partnership differs from these
+    practices is not disclosed.
+  usage_reason: 推断：若自动化识别能在运单处理时直接给出货物归类，可减少人工逐单核对与分拣错误，零担承运商可能在单量大、人工核对成本高时选择它；但缺少技术说明与客户案例，此因果尚未被事实支持。
+  usage_reason_en: 'Inference: if automated identification can directly classify freight during shipment
+    processing, it could reduce manual per-shipment checks and sorting errors, and LTL carriers might
+    choose it when volumes are high and manual checking is costly; but without technical documentation
+    or customer cases, this causal link is not yet factually supported.'
+- id: req-full-carrier-logistics-lsp44-announce-partnership-to-automate-ltl-2026-10-19
+  project_slug: carrier-logistics-lsp44-announce-partnership-to-automate-ltl
+  level: full
+  reviewed_at: '2026-10-19T00:42:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决零担货运识别与分拣的人工核对负担，但公开材料只有合作标题，无法确认具体任务与交付。
+    evidence_ids:
+    - ev-45514fa1da5b9e35
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 Carrier Logistics 或 LSP44 官方合作说明或产品文档，确认自动化识别的输入数据、准确率与部署方式。
+  market: ''
+  job: 零担货运调度或运营人员在处理运单与货物信息时，需要完成货物识别与分拣归类；但合作中 AI 的具体输入与交付仍无公开材料说明。
+  job_en: LTL dispatch or operations staff processing shipment and cargo information need to identify
+    and classify freight; however, no public material explains the specific AI inputs and deliverables
+    in the partnership.
+  pain: 公开材料只有合作标题，未说明它缓解哪一步负担；从工作流结构推断，零担货运识别与分拣依赖人工核对、易出错且耗时，但这一痛点是否为其所解决尚无材料支持。
+  pain_en: The public material is only a partnership headline and does not state which step's burden it
+    relieves; by workflow inference, LTL freight identification and sorting rely on manual checks, are
+    error-prone and time-consuming, but there is no material support that this is the pain it addresses.
+  current_alternative: 运营人员手工核对运单与货物信息完成识别分拣，或依赖既有物流系统规则；合作与这些旧做法的差异未披露。
+  current_alternative_en: Operations staff manually check shipment and cargo information to identify and
+    sort freight, or rely on rules in existing logistics systems; how the partnership differs from these
+    practices is not disclosed.
+  usage_reason: 推断：若自动化识别能在运单处理时直接给出货物归类，可减少人工逐单核对与分拣错误，零担承运商可能在单量大、人工核对成本高时选择它；但缺少技术说明与客户案例，此因果尚未被事实支持。
+  usage_reason_en: 'Inference: if automated identification can directly classify freight during shipment
+    processing, it could reduce manual per-shipment checks and sorting errors, and LTL carriers might
+    choose it when volumes are high and manual checking is costly; but without technical documentation
+    or customer cases, this causal link is not yet factually supported.'

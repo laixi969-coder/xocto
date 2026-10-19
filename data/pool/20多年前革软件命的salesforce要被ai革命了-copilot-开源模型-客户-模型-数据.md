@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPTktmcmFRV0ti
 summary: 20多年前革软件命的Salesforce，要被AI革命了？|Copilot|开源模型|客户|模型|数据 新浪财经
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

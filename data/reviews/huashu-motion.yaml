@@ -1,0 +1,89 @@
+- id: req-initial-huashu-motion-2026-10-19
+  project_slug: huashu-motion
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线前缺宣传片、外包贵且修改靠文字描述的负担，痛点具体；成片质量与授权未核验。
+    evidence_ids:
+    - ev-969f68b117d176b9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有星标与分支，但无 issue、用户评价或使用案例，无法判断是否形成持续使用。
+    evidence_ids:
+    - ev-969f68b117d176b9
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式与买方，按成片还是按工具收费不明，商业路径只能推断。
+    evidence_ids:
+    - ev-969f68b117d176b9
+  - gate: truth
+    status: insufficient
+    reason: 配乐与素材的商用授权、渲染依赖与人工确认边界未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-969f68b117d176b9
+  next_validation: 收集 huashu-motion 仓库 README 与 issue/discussion 中关于成片示例、依赖模型、商用授权与使用反馈的公开内容。
+  market: ''
+  job: 独立开发者或小团队市场人员在产品上线前需要一支宣传片时，让编码 agent 读取产品信息生成带配乐的视频，再指着画面逐帧提出修改。
+  job_en: Independent developers or small marketing teams who need a launch video before shipping let
+    a coding agent read product information to generate a scored video, then point at frames to request
+    revisions.
+  pain: 宣传片通常要写脚本、找剪辑与动效外包，周期以周计且修改靠文字描述，小团队赶上线时既贵又慢。
+  pain_en: Launch videos usually require scripting plus outsourced editing and motion design, take weeks,
+    and revisions rely on written descriptions, making them costly and slow for small teams on a ship
+    deadline.
+  current_alternative: 旧做法是找剪辑或动效外包按项目报价，或用通用视频模板工具自行拼素材。
+  current_alternative_en: The old way is hiring editors or motion designers per project, or assembling
+    assets in generic video template tools.
+  usage_reason: 推断：相较外包按文字来回改片，它让 agent 直接读产品信息出片，并支持指着画面定位修改，省去写修改说明与等待返工的环节，因此赶上线的小团队会先试。
+  usage_reason_en: 'Inference: compared with outsourcing and revising via written notes, it lets the agent
+    read product information to produce the film and supports pointing at frames to locate changes, skipping
+    revision briefs and rework waiting, so small teams on a launch deadline would try it first.'
+- id: req-full-huashu-motion-2026-10-19
+  project_slug: huashu-motion
+  level: full
+  reviewed_at: '2026-10-19T00:43:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决上线前缺宣传片、外包贵且修改靠文字描述的负担，痛点具体；成片质量、渲染时长与商用授权未核验，属工作流结构推理。
+    evidence_ids:
+    - ev-969f68b117d176b9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 288 星标，但无 issue、用户评价或使用案例，无法判断是否形成持续使用；星标只属关注度证据。
+    evidence_ids:
+    - ev-969f68b117d176b9
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式与买方，按成片还是按工具收费不明，商业路径只能推断，属判断而非已验证事实。
+    evidence_ids:
+    - ev-969f68b117d176b9
+  - gate: truth
+    status: insufficient
+    reason: 配乐与素材的商用授权、渲染依赖与人工确认边界未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-969f68b117d176b9
+  next_validation: 收集 huashu-motion 仓库 README 与 issue/discussion 中关于成片示例、依赖模型、商用授权与使用反馈的公开内容。
+  market: ''
+  job: 独立开发者或小团队市场人员在产品上线前需要一支带配乐的宣传片时，让编码 agent 读取产品信息生成视频，再指着具体画面提出修改。
+  job_en: Independent developers or small marketing teams who need a scored launch video before shipping
+    let a coding agent read product information to generate a video, then point at specific frames to
+    request revisions.
+  pain: 宣传片通常要写脚本、找剪辑与动效外包，周期以周计，修改靠文字描述来回返工；小团队赶上线时既贵又慢，且难以精确表达要改哪一帧。
+  pain_en: Launch videos usually require scripting plus outsourced editing and motion design, take weeks,
+    and revisions rely on written descriptions and back-and-forth rework; small teams on a ship deadline
+    find this costly and slow, and cannot precisely express which frame to change.
+  current_alternative: 旧做法是找剪辑或动效外包按项目报价，或用通用视频模板工具自行拼素材、配乐。
+  current_alternative_en: The old way is hiring editors or motion designers per project, or assembling
+    assets and music in generic video template tools.
+  usage_reason: 推断：相较外包按文字来回改片，它让 agent 直接读产品信息出片，并支持指着画面定位修改，省去写修改说明与等待返工的环节；因此赶上线、缺剪辑资源的小团队会先试用。
+  usage_reason_en: 'Inference: compared with outsourcing and revising via written notes, it lets the agent
+    read product information to produce the film and supports pointing at frames to locate changes, skipping
+    revision briefs and rework waiting; small teams on a launch deadline without editing resources would
+    try it first.'

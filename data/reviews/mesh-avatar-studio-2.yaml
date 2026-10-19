@@ -222,3 +222,48 @@
     and motion binding in one pass via the agent and local editor, removing the steps of redrawing occluded
     parts and binding bones individually; VTubers and indie developers without animation backgrounds who
     need their own character would pick it when launching a new avatar.'
+- id: req-full-mesh-avatar-studio-2-2026-10-19
+  project_slug: mesh-avatar-studio-2
+  level: full
+  reviewed_at: '2026-10-19T00:44:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决插画转可动虚拟形象时手工切层与逐块绑定的高门槛问题，痛点具体且刚性；但绑定精度与遮挡补画效果未公开，属工作流结构推理而非用户采用证据。
+    evidence_ids:
+    - ev-02b845f10bb48261
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从657升至811，显示开发者关注度上升，但无创作者使用反馈或作品案例证明它被持续用于出片。
+    evidence_ids:
+    - ev-02b845f10bb48261
+    - ev-8965b0a41de1ce3e
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页；可能靠托管服务或定制绑定收费，这是判断而非已验证事实，付费方与路径均未公开。
+    evidence_ids:
+    - ev-02b845f10bb48261
+  - gate: truth
+    status: insufficient
+    reason: 本地编辑器加编码代理能否稳定产出可直播的绑定结果，公开材料未给出可复现验证或导出格式说明。
+    evidence_ids:
+    - ev-02b845f10bb48261
+  next_validation: 追踪该仓库的 issue/discussion 与示例导出文件，核验绑定结果能否直接用于常见直播或游戏引擎。
+  market: ''
+  job: 插画师或虚拟主播手上有一张角色插画，要把它变成能被面部或动作实时驱动的 2D 网格虚拟形象，用于直播或游戏。
+  job_en: An illustrator or VTuber has a character illustration and needs it turned into a 2D mesh avatar
+    that can be driven in real time by face or motion for streaming or games.
+  pain: 传统流程要在专业软件里手动切层、补画被遮挡部位、逐块绑定骨骼，对非动画专业的人门槛高、耗时长；不解决就只能放弃自有形象或长期外包。
+  pain_en: The traditional route requires manual layer slicing, redrawing occluded parts and binding bones
+    piece by piece in professional software, which is slow and steep for non-animators; without a fix
+    they must abandon their own character or keep outsourcing.
+  current_alternative: 在专业绑定软件里手工切图与绑定，或外包给绑定师，或直接买现成模型。
+  current_alternative_en: Hand-slicing and rigging in professional software, outsourcing to a rigger,
+    or buying a ready-made model.
+  usage_reason: 推断：相比手工切层与逐块绑定，它把切图、网格化和动作绑定交给编码代理与本地编辑器一次完成，省掉补画遮挡部位和逐块绑骨这两步；对没有动画背景、又需要自有角色形象的虚拟主播和独立开发者，会在出新角色时选它。
+  usage_reason_en: 'Inference: versus manual slicing and piece-by-piece rigging, it handles slicing, meshing
+    and motion binding in one pass via the coding agent and local editor, removing the steps of redrawing
+    occluded parts and binding bones individually; VTubers and indie developers without animation backgrounds
+    who need their own character would pick it when launching a new avatar.'

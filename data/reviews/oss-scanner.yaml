@@ -331,3 +331,43 @@
   usage_reason: 由于输入、动作与交付物均未公开，无法解释相较旧做法减少了哪一步负担，也无法判断哪类用户会在什么情况下选择它。
   usage_reason_en: Because the input, action, and deliverable are not public, it is impossible to explain
     which step of the old workflow it reduces or which users would choose it under what circumstances.
+- id: req-full-oss-scanner-2026-10-19
+  project_slug: oss-scanner
+  level: full
+  reviewed_at: '2026-10-19T00:44:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有仓库名与星标、fork、issue 数量，未说明扫描的输入、动作、交付物，也未说明维护者的具体痛点与不采用后果，无法还原需求结构。
+    evidence_ids:
+    - ev-8a6b0171b2e84fe3
+    - ev-ea41aa1f6b4d7929
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/anthropics/oss-scanner 的 README、issue 与 discussion，确认扫描输入、输出交付物及维护者实际使用场景。
+  market: ''
+  job: 开源维护者在处理代码仓库时，打开该工具扫描仓库中的代码或依赖材料，并据此获得问题清单；但公开材料未说明输入、动作与交付物。
+  job_en: Open-source maintainers open the tool while working on a code repository to scan code or dependency
+    materials and obtain an issue list; public materials do not specify the input, action, or deliverable.
+  pain: 公开材料只给出仓库名与星标、fork、issue 数量，未说明维护者在扫描中遇到的具体痛点、发生频率或不采用后果。
+  pain_en: Public materials only provide the repository name and star, fork, and issue counts; they do
+    not state the specific pain, frequency, or consequence of not adopting the tool.
+  current_alternative: 公开材料未说明维护者目前如何完成代码或依赖扫描，也未说明该工具替代了哪一步旧流程。
+  current_alternative_en: Public materials do not state how maintainers currently perform code or dependency
+    scanning, nor which prior step this tool replaces.
+  usage_reason: 推断：若它能自动扫描仓库并输出问题清单，可能减少人工排查负担；但公开材料未说明具体动作与可核对结果，无法解释用户为何选择它。
+  usage_reason_en: 'Inference: if it automatically scans repositories and outputs an issue list, it could
+    reduce manual inspection effort; however, public materials do not describe the specific action or
+    verifiable result, so user choice cannot be explained.'

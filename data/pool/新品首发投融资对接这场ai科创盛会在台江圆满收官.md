@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiakFVX3lxTFBGdG5QSzBJMnRi
 summary: 新品首发+投融资对接！这场AI科创盛会在台江圆满收官 fznews.com.cn
 first_seen: '2026-08-30T15:14:31Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

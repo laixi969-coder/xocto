@@ -22,7 +22,7 @@ summary: Google search scraper with a real browser and your own proxy. Self-host
   with an HTTP API and an MCP server.
 first_seen: '2026-10-19T00:13:37Z'
 last_seen: '2026-10-19T00:13:37Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

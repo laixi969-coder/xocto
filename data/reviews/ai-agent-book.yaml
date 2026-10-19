@@ -1102,3 +1102,45 @@
     and then wiring an environment, so developers shipping agents who need a coherent experiment path
     would pick it at the preparation stage; 221 stars and 21 forks show attention only, not sustained
     use.'
+- id: req-full-ai-agent-book-2026-10-19
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-10-19T00:42:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 release 记录，核对读者是否按实验复现、维护者是否随框架版本更新内容。
+  market: ''
+  job: AI 应用开发者或技术学习者，在准备把大模型助手做成可运行系统时，需要处理设计原理、工程实现与实验代码，完成从理解 Agent 架构到能自己搭出可运行原型的任务。
+  job_en: AI application developers or technical learners preparing to turn an LLM assistant into a working
+    system need to work through design principles, engineering practice and lab code to go from understanding
+    agent architecture to building a runnable prototype.
+  pain: 公开材料只给出教材与实验的定位，未展示用户抱怨；从工作流结构推理，Agent 工程知识分散在论文、博客与零散示例中，读者难以把原理与可运行代码对应起来，缺少可跟随的实验会拉长从理解到落地的距离。
+  pain_en: Public material only states the textbook-plus-labs positioning and shows no user complaints;
+    by workflow inference, agent engineering knowledge is scattered across papers, blogs and isolated
+    examples, so readers struggle to map principles onto runnable code, and the absence of followable
+    labs lengthens the path from understanding to implementation.
+  current_alternative: 读者目前多靠零散博客、论文、官方框架文档与自行拼凑的示例代码学习，缺少成体系且带实验的教材。
+  current_alternative_en: Readers currently rely on scattered blog posts, papers, official framework docs
+    and self-assembled sample code, without a systematic textbook that ships with labs.
+  usage_reason: 推断：相较在博客与论文间自行拼接，该书把设计原理、工程实践与可跟随实验放在同一份开源材料里，读者可少做一步资料筛选与示例搭建，因此正在学习 Agent 开发、需要动手实验的人会在自学或课程场景下选择它。
+  usage_reason_en: 'Inference: compared with stitching together blogs and papers, the book puts design
+    principles, engineering practice and followable labs in one open-source resource, saving readers a
+    step of source filtering and example setup, so people learning agent development who need hands-on
+    labs would choose it for self-study or coursework.'

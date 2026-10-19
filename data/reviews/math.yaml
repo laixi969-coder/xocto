@@ -358,3 +358,46 @@
   usage_reason_en: With no description, documentation, or usage data, there is no basis to explain why
     a user would choose it over the old approach; stars and forks reflect attention only and cannot serve
     as a usage reason.
+- id: req-full-math-2026-10-19
+  project_slug: math
+  level: full
+  reviewed_at: '2026-10-19T00:44:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅有仓库名与星标、fork 数，未说明谁在什么情况下处理哪类数学材料、要完成什么任务，也写不出痛点与不解决的后果，价值关无法成立。
+    evidence_ids:
+    - ev-f848ecb44d026c71
+    - ev-2d3e1a83ae2bd92a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该仓库的 README、目录结构与最近提交记录，确认它是评测集、形式化证明工具还是训练代码，并据此判断具体任务与交付物。
+  market: ''
+  job: 公开材料只显示 OpenAI 名下一个名为 math 的代码仓库及其星标、fork 数，未说明谁在什么情况下处理哪类数学材料、要完成什么任务，无法还原具体使用场景。
+  job_en: The public material only shows a code repository named math under OpenAI with star and fork
+    counts; it does not state who handles what kind of math material in what situation or what task they
+    aim to complete, so no concrete usage scenario can be reconstructed.
+  pain: 候选材料没有描述任何用户痛点，也没有说明现有数学学习或计算做法在哪里卡住；所附 Math is Fun、Mathway 等页面是外部替代品介绍，不是该仓库用户的抱怨或需求证据。
+  pain_en: The candidate material describes no user pain point and does not say where current math learning
+    or computation practice breaks down; the attached Math is Fun and Mathway pages are external alternative
+    descriptions, not evidence of this repository's users' complaints or needs.
+  current_alternative: 无法判断该仓库对应的现有替代方式，因为材料未说明它解决什么问题；Mathway 的拍照解题与 Math is Fun 的讲解游戏属于外部站点能力，不能归因到该仓库。
+  current_alternative_en: The current alternative for this repository cannot be identified because the
+    material does not say what problem it addresses; Mathway's photo-based solving and Math is Fun's explanations
+    and games are external site capabilities and cannot be attributed to this repository.
+  usage_reason: 缺少功能说明、文档与使用数据，无法解释用户为何会选择它而非旧做法；星标与 fork 只反映关注度，不能作为使用理由，也无法判断它是否被留在工作流中。
+  usage_reason_en: With no description, documentation, or usage data, there is no basis to explain why
+    a user would choose it over the old approach; stars and forks only reflect attention, cannot serve
+    as a usage reason, and do not show it is retained in any workflow.

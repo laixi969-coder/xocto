@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxOVTk5S0ZOeGxO
 summary: 管理AI代理：亚洲企业的下一个挑战 - 新闻和统计 IndexBox
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

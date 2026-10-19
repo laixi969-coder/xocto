@@ -560,3 +560,47 @@
   usage_reason_en: 'No checkable usage reason can be given: the available evidence neither describes the
     asset-generation-to-launch flow nor provides any user feedback or case, so any claim about why users
     choose it would be pure speculation.'
+- id: req-full-dioramas-2026-10-19
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-19T00:43:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决三维发布页素材与编排成本高的问题，但全部公开证据是实体微缩景观、博物馆模型与Etsy手作，未触及三维网页制作的任务、痛点或旧替代，需求结构无法从公开事实还原。
+    evidence_ids:
+    - ev-910a3a1d2287724d
+    - ev-7367b30ba6caec42
+    - ev-f570ffbc3a19510b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该框架官方仓库的 README、issue 与 discussion，确认是否有团队用它交付真实商业三维站点，以及素材生成到部署的实际步骤与限制。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理AI生成的三维素材与网页代码，要交付一个可交互、可上线的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store, when building a product launch page,
+    work with AI-generated 3D assets and web code to deliver an interactive, deployable 3D showcase site.
+  pain: 公开材料没有给出该产品用户的具体痛点陈述；现有证据全部是实体微缩景观、博物馆立体模型和Etsy手作摆件的介绍，与三维网页制作无关，无法据此确认三维发布页的素材成本、周期或交付压力。
+  pain_en: The public material contains no user pain statement for this product; all evidence describes
+    physical miniature dioramas, museum models and Etsy handcrafted displays, unrelated to 3D web pages,
+    so asset cost, cycle time or delivery pressure for 3D launch pages cannot be confirmed.
+  current_alternative: 公开材料未记录目标用户当前的替代做法；证据只显示人们购买或参观实体微缩景观，不能说明三维网页制作者今天用什么方式完成同类任务。
+  current_alternative_en: The public material does not record what the target users currently do instead;
+    the evidence only shows people buying or visiting physical dioramas, not how 3D web page builders
+    accomplish the same task today.
+  usage_reason: 推断：若它真能把AI素材生成与三维站点编排放进同一框架，可能省去分别找建模与前端的两段外包；但没有任何用户反馈、案例或采用记录支持这一动机，且现有证据与产品任务完全错位，因此无法确认哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if it truly combines AI asset generation and 3D site orchestration in one
+    framework, it might remove two separate outsourcing steps for modeling and front-end; but no user
+    feedback, case or adoption record supports this motive, and the existing evidence is entirely misaligned
+    with the product''s task, so it is impossible to confirm which users would choose it and when.'

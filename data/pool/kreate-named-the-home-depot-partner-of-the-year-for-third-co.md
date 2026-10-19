@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVkMybWM4SDY5
 summary: Kreate Named The Home Depot Partner of the Year for Third Consecutive Year StreetInsider
 first_seen: '2026-10-18T00:04:17Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

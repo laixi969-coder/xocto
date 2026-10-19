@@ -80,3 +80,53 @@
     generated video can be used for 3D scene building use Orbia to benchmark 3D world consistency of generated
     clips and obtain comparable scores Public materials do not yet explain why users choose this product
     over their existing approach.'
+- id: req-full-orbia-2026-10-19
+  project_slug: orbia
+  level: full
+  reviewed_at: '2026-10-19T00:44:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成视频能否当作连贯三维世界使用的判断需求，痛点是几何漂移与空间断裂难以目检、缺少可比评分导致下游返工；公开页面标题与基准定位支持这一任务，属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+    - ev-17f36ca186decb83
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库仅有 41 至 42 个收藏，说明研究者社区已注意到该基准，但没有 issue、讨论或客户案例显示目标用户持续把它用于模型选型或素材验收，采用深度无法确认。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+    - ev-17f36ca186decb83
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、商业授权或采购记录，付费方可能是模型团队、VFX 工作室或学术机构，收入路径尚属判断而非已验证事实；这是商业证据缺口，不否定评测需求本身。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只给出基准主题，评测维度、数据集构成与评分可复现性未披露，无法核对交付是否稳定发生，也未见人工复核与安全边界说明。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+    - ev-17f36ca186decb83
+  next_validation: 追踪 Orbia 官方项目页与代码仓库的 README、评测维度说明及 issue/discussion，确认基准覆盖哪些三维一致性指标、是否被外部团队引用为模型选型依据。
+  market: ''
+  job: 视频生成模型研究者或视觉特效团队在拿到一段生成视频、准备判断它能否作为连贯三维场景继续搭建或合成时，用 Orbia 对片段做三维世界一致性基准评测，得到可横向比较的评分。
+  job_en: When researchers of video-generation models or VFX teams have a generated clip and need to decide
+    whether it can serve as a coherent 3D scene for further building or compositing, they use Orbia to
+    benchmark its 3D world consistency and obtain comparable scores.
+  pain: 生成视频在镜头运动或视角变化下常出现几何漂移、物体穿模和空间关系断裂，仅凭肉眼逐帧检查难以判断能否当作三维世界复用；缺少统一评分时，不同模型或片段之间无法横向比较，返工成本落在下游场景搭建环节。
+  pain_en: Generated videos often drift geometrically, intersect objects, or break spatial relations across
+    camera moves; eyeballing frames cannot reliably tell whether a clip is reusable as a 3D world, and
+    without a common score different models or clips cannot be compared, pushing rework onto downstream
+    scene building.
+  current_alternative: 当前替代是人工逐帧目检、凭经验判断，或用通用视频质量指标与零散的三维重建检查拼凑评估，缺少针对“三维世界一致性”这一特定目标的公开可比基准。
+  current_alternative_en: Today teams rely on manual frame-by-frame inspection, experience-based judgment,
+    or ad hoc combinations of generic video-quality metrics and isolated 3D reconstruction checks, with
+    no public comparable benchmark aimed specifically at 3D world consistency.
+  usage_reason: 推断：相较人工目检，Orbia 把“这段视频能否当三维世界用”转成一次可复现的基准评测并输出可比较评分，省去逐帧比对和自建评测脚本的步骤，使模型研究者在选型、VFX 团队在决定是否采用某段生成素材时能直接依据分数取舍。
+  usage_reason_en: 'Inference: versus manual inspection, Orbia turns ''can this clip be used as a 3D world''
+    into a reproducible benchmark run with comparable scores, removing frame-by-frame comparison and self-built
+    evaluation scripts, so model researchers choosing between generators and VFX teams deciding whether
+    to adopt a clip can decide directly from the score.'

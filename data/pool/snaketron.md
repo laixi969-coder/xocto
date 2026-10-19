@@ -21,7 +21,7 @@ canonical_url: https://snaketron.io
 summary: Competitive multiplayer Snake. Back after 14 years
 first_seen: '2026-08-30T15:23:52Z'
 last_seen: '2026-08-31T00:37:17Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

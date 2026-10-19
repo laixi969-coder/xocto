@@ -83,3 +83,45 @@
   usage_reason_en: 'Inference: versus manual transcription or separate APIs, it lets the agent hear and
     review audio directly, removing a format-conversion and tool-switch step, fitting developers handling
     sound inside agent workflows; no user feedback or case yet confirms this motive.'
+- id: req-full-earshot-2026-10-19
+  project_slug: earshot
+  level: full
+  reviewed_at: '2026-10-19T00:43:18Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选声称让编码代理具备听觉，但所引证据全部指向同名摇滚乐队官网与维基，未出现任何产品说明、开发者痛点或旧流程事实，需求与痛点无法从公开材料还原。
+    evidence_ids:
+    - ev-d1ceec763f2363fe
+    - ev-12b6bc4a329b37ab
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源项目在代码托管平台的仓库 README 与 issue/discussion，确认其真实产品定位、支持的音频任务与接入方式。
+  market: ''
+  job: 使用编码代理的开发者，在调试或运行代理、需要处理声音材料时，希望代理能听取并审查音频，最终得到可核对的音频处理结果。
+  job_en: Developers using coding agents, when debugging or running an agent that must handle sound material,
+    want the agent to hear and review audio and end with a checkable audio result.
+  pain: 公开材料只描述“让编码代理具备听觉”的产品口号，未给出任何开发者抱怨、旧流程受阻或音频任务失败的具体事实，无法确认痛点真实存在及其强度。
+  pain_en: Public material only states the slogan of giving coding agents hearing; it offers no developer
+    complaint, blocked legacy workflow, or failed audio task, so the pain's existence and intensity cannot
+    be confirmed.
+  current_alternative: 公开材料未披露开发者当前如何处理代理的音频任务，无法确认是手动转写、调用独立语音接口还是直接跳过。
+  current_alternative_en: Public material does not disclose how developers currently handle audio tasks
+    for agents, so it is unknown whether they transcribe manually, call separate speech APIs, or skip
+    the step.
+  usage_reason: 推断：若产品真能让代理直接听取并审查音频，可省去一次转写与工具切换；但缺少接入方式、支持任务与用户反馈，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the product truly lets an agent hear and review audio directly, it could
+    remove a transcription and tool-switch step; but with no integration method, supported tasks, or user
+    feedback, it is unclear which users would choose it and when.'

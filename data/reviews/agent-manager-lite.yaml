@@ -1,0 +1,90 @@
+- id: req-initial-agent-manager-lite-2026-10-19
+  project_slug: agent-manager-lite
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多客户端切换时账号与登录态混乱的痛点，旧做法是手动登出登录或改配置，任务明确。
+    evidence_ids:
+    - ev-7553e922e293d04a
+  - gate: consensus
+    status: insufficient
+    reason: 253 星只说明关注度，仓库无 issue 或讨论，无法判断开发者是否持续使用。
+    evidence_ids:
+    - ev-7553e922e293d04a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露任何收费或商业路径，买方与变现方式不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7553e922e293d04a
+  - gate: truth
+    status: insufficient
+    reason: 按实例管理账号涉及各客户端服务条款与凭据安全，公开材料未说明存储方式与合规边界。
+    evidence_ids:
+    - ev-7553e922e293d04a
+  next_validation: 查看该仓库的 issue、discussion 与 README，确认账号凭据的存储方式及是否已有团队协作或审计功能。
+  market: ''
+  job: 同时使用多个 AI 编程客户端与编辑器的开发者，在切换 Codex、Cursor 等实例时管理各自的账号与登录状态。
+  job_en: Developers running several AI coding clients and editors manage each instance's account and
+    login state when switching between Codex, Cursor and others.
+  pain: 多个客户端各自保存登录态，切换时反复登录或改配置，账号与实例对应关系容易混乱。
+  pain_en: Each client keeps its own login state, so switching means repeated logins or config edits,
+    and the mapping between accounts and instances easily gets confused.
+  current_alternative: 开发者手动登出再登录、复制配置文件，或干脆只用一个客户端。
+  current_alternative_en: Developers manually log out and back in, copy config files, or simply stick
+    to one client.
+  usage_reason: 推断：相较手动登出登录和改配置，它按实例统一管理账号与登录状态，减少切换客户端时的重复登录步骤，因此同时挂多个 AI 编程客户端的开发者会尝试它；仓库尚无 issue 或用户反馈说明长期使用情况。
+  usage_reason_en: 'Inference: versus manual logout/login and config edits, it manages accounts and login
+    state per instance, cutting repeated logins when switching clients, so developers running several
+    AI coding clients would try it; the repository has no issues or user feedback showing long-term use
+    yet.'
+- id: req-full-agent-manager-lite-2026-10-19
+  project_slug: agent-manager-lite
+  level: full
+  reviewed_at: '2026-10-19T00:41:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多客户端切换时账号与登录态混乱的需求，旧做法是手动登出登录或改配置，任务与不解决的后果可还原；但仅确认支持 Codex，其余客户端仍在评估，属工作流结构推理，无用户反馈佐证。
+    evidence_ids:
+    - ev-7553e922e293d04a
+  - gate: consensus
+    status: insufficient
+    reason: 253 星只说明关注度，仓库无 issue、讨论或用户评价，无法判断开发者是否持续使用或已将其留在工作流中。
+    evidence_ids:
+    - ev-7553e922e293d04a
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、赞助或商业路径，买方与变现方式不明；这是判断而非已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-7553e922e293d04a
+  - gate: truth
+    status: insufficient
+    reason: 按实例管理账号涉及各客户端服务条款与凭据安全，公开材料未说明凭据存储方式、加密与合规边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-7553e922e293d04a
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认账号凭据的存储方式、已支持客户端清单及是否出现团队协作或审计功能。
+  market: ''
+  job: 同时使用 Codex、Cursor 等多个 AI 编程客户端与编辑器的开发者，在切换不同实例时，需要分别处理各客户端的账号与登录状态，完成登录、切换和保持可用。
+  job_en: Developers who use several AI coding clients and editors such as Codex and Cursor need to handle
+    each client's account and login state when switching between instances, completing login, switching
+    and keeping them usable.
+  pain: 公开材料只说明它按实例管理账号，未给出用户抱怨或案例；从工作流推理，多个客户端各自保存登录态，切换时需反复登出登录或改配置，账号与实例对应关系容易混乱，这是结构推理而非用户口述。
+  pain_en: Public material only says it manages accounts per instance, with no user complaints or cases;
+    by workflow inference, each client keeps its own login state, so switching means repeated logout/login
+    or config edits and the account-to-instance mapping easily gets confused. This is structural inference,
+    not user testimony.
+  current_alternative: 开发者手动登出再登录、复制或修改配置文件，或干脆只保留一个客户端；这些旧做法在公开材料中未被直接记录，属推断。
+  current_alternative_en: Developers manually log out and back in, copy or edit config files, or simply
+    keep one client; these old practices are not directly documented in public material and are inferred.
+  usage_reason: 推断：相较手动登出登录和改配置，它按实例统一管理账号与登录状态，减少切换客户端时的重复登录步骤，因此同时挂多个 AI 编程客户端的开发者会尝试它；仓库尚无 issue 或用户反馈说明长期使用，253
+    星只代表关注度。
+  usage_reason_en: 'Inference: versus manual logout/login and config edits, it manages accounts and login
+    state per instance, cutting repeated logins when switching clients, so developers running several
+    AI coding clients would try it; the repository has no issues or user feedback showing long-term use,
+    and 253 stars only indicate attention.'

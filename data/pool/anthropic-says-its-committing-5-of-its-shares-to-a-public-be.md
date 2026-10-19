@@ -1,6 +1,6 @@
 ---
 slug: anthropic-says-its-committing-5-of-its-shares-to-a-public-be
-name: Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’
+name: Anthropic
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5
 summary: Anthropic said that it will commit 5% of its shares to the fund.
 first_seen: '2026-10-19T00:13:57Z'
 last_seen: '2026-10-19T00:13:57Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’
+# Anthropic
 
 Anthropic said that it will commit 5% of its shares to the fund.
 

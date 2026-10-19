@@ -1,0 +1,85 @@
+- id: req-initial-frameweaver-2026-10-19
+  project_slug: frameweaver
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成、剪辑、配音与字幕分散多工具、素材反复搬运的痛点，旧做法是手动导出导入。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数，缺少用户评价或实际使用反馈。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径，买方与收费方式不明。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  - gate: truth
+    status: insufficient
+    reason: 未见生成质量与工作流完整度的公开材料，交付确定性待核验。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  next_validation: 收集该仓库的 issue 与文档，查看生成质量、支持格式与工作流完整度的实际反馈。
+  market: ''
+  job: 视频创作者在本地工作区处理素材，完成场景生成、剪辑、旁白与字幕，产出成片。
+  job_en: Video creators process footage in a local workspace to complete scene generation, editing, narration
+    and subtitles and produce a finished video.
+  pain: 生成、剪辑、配音与字幕分散在多个工具，素材反复导出导入，管理成本高。
+  pain_en: Generation, editing, dubbing and subtitles are scattered across tools, forcing repeated export/import
+    and high asset-management cost.
+  current_alternative: 用通用剪辑软件加多个生成与配音工具，手动搬运素材。
+  current_alternative_en: Using a generic editor plus several generation and dubbing tools, moving assets
+    by hand.
+  usage_reason: 推断：它把生成、剪辑、旁白与字幕收进同一本地工作区，减少跨工具导出导入这一步，因此会在素材多、想少切换工具时被选用。
+  usage_reason_en: 'Inference: it gathers generation, editing, narration and subtitles into one local
+    workspace, cutting cross-tool export/import, so it is chosen when creators have many assets and want
+    fewer tool switches.'
+- id: req-full-frameweaver-2026-10-19
+  project_slug: frameweaver
+  level: full
+  reviewed_at: '2026-10-19T00:43:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频创作者把生成、剪辑、旁白与字幕分散在多工具、素材反复搬运的痛点，旧做法是手动导出导入；本地一体化交付路径清晰，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 59 星这一关注度信号，缺少用户评价、issue 讨论或客户案例，无法判断创作者是否形成稳定使用共识。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价、赞助或商业授权信息，买方与收费方式不明；这是判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只列功能清单，未见生成质量、支持格式、渲染稳定性或人工边界的实测与文档，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 README/文档更新，核对生成质量、支持格式与渲染稳定性的实际反馈。
+  market: ''
+  job: 视频创作者在本地工作区处理拍摄或生成的素材，完成 AI 场景生成、时间线剪辑、旁白与字幕，最终导出成片。
+  job_en: Video creators process shot or generated footage in a local workspace, complete AI scene generation,
+    timeline editing, narration and subtitles, and export a finished video.
+  pain: 公开说明显示生成、剪辑、旁白、字幕与混音被放在同一工作区，反向说明旧流程中这些环节分散在多个工具，素材需反复导出导入，且云端处理带来上传与隐私负担。
+  pain_en: The public description places generation, editing, narration, subtitles and mixing in one workspace,
+    implying that in the old workflow these steps were scattered across tools with repeated export/import
+    and cloud upload/privacy burdens.
+  current_alternative: 通用剪辑软件（如 Premiere、DaVinci）配合独立的 AI 生成、配音与字幕工具，手动搬运素材；或使用云端一体化平台。
+  current_alternative_en: A generic editor (e.g. Premiere, DaVinci) plus separate AI generation, dubbing
+    and subtitle tools with manual asset transfer; or a cloud-based all-in-one platform.
+  usage_reason: 推断：它把场景生成、时间线、旁白与字幕收进同一本地工作区，减少跨工具导出导入和上传云端这一步，因此素材多、在意本地处理与隐私的创作者会在需要一站式成片时选择它。
+  usage_reason_en: 'Inference: it gathers scene generation, timeline, narration and subtitles into one
+    local workspace, removing cross-tool export/import and cloud upload steps, so creators with many assets
+    who value local processing and privacy would choose it for one-stop finishing.'

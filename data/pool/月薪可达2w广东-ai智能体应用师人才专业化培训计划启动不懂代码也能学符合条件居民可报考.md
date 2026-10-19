@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE85a3VFSjA5U29w
 summary: 月薪可达2w+，广东 “AI智能体应用师人才专业化培训计划”启动，不懂代码也能学，符合条件居民可报考 新浪网
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

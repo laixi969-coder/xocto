@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBkRkF1WmRCb1Iw
 summary: 重阳节来京东MaLL体验大屏AI手机 60岁以上用户购机享至高100元“银发补贴” 搜狐网
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -678,3 +678,57 @@
     and cross-service switching the user used to do onto the agent, so hands-on Mac users would choose
     it when they want to hand off a multi-step computer task wholesale; public material does not yet provide
     user feedback or customer cases confirming this motive.'
+- id: req-full-open-dot-2026-10-19
+  project_slug: open-dot
+  level: full
+  reviewed_at: '2026-10-19T00:44:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求是让 Mac 上的跨应用、跨外部服务操作由本地代理自主执行；痛点是用户需在多应用间手动搬运与盯守，旧做法是自行逐步操作或分步调用聊天助手。公开材料仅给出定位，任务链条与交付闭环属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-1637f40b3bbc7a69
+    - ev-ca3d520c694bc47a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 630 增至 659，只能说明关注度上升，不能证明持续采用；公开材料没有 issue、discussion、用户评价或客户案例说明谁在什么场景下反复使用。
+    evidence_ids:
+    - ev-1637f40b3bbc7a69
+    - ev-3496f0a6eacb5f2f
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、付费或采购路径；钱可能来自 to C 个人订阅或 to B 团队授权，但这是判断而非已验证事实，公开材料也未见融资叙事。
+    evidence_ids:
+    - ev-1637f40b3bbc7a69
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明代理执行哪些具体操作、失败如何回滚、哪些动作需人工确认，交付确定性与安全边界无法核对；仅凭“自主运行”定位不足以证明结果可靠。
+    evidence_ids:
+    - ev-1637f40b3bbc7a69
+    - ev-ca3d520c694bc47a
+  next_validation: 追踪 open-dot 仓库的 README、issue 与 discussion，确认它实际执行的任务类型、输入材料、人工确认环节与失败处理方式。
+  market: ''
+  job: 愿意自己动手的 Mac 用户，在需要让电脑上的重复操作（跨应用、跨外部服务）自动跑完时，打开 open-dot，把任务交给本地自主运行的代理，由它调用 OpenAI 模型与 Composio
+    连接的外部服务执行，最后拿到完成结果或待确认操作。
+  job_en: A hands-on Mac user who wants repetitive on-computer, cross-app and cross-service operations
+    to run automatically opens open-dot, hands the task to a locally running autonomous agent that calls
+    OpenAI models and Composio-connected external services, and receives finished results or operations
+    awaiting confirmation.
+  pain: 公开材料只给出产品定位，没有用户抱怨或旧流程描述；从工作流结构推理，痛点是用户要在多个本地应用与外部服务之间手动搬运、逐步点击，任务链条长且需要人守着。这是推理，不是用户口述。
+  pain_en: Public material only gives the product positioning, with no user complaints or legacy-workflow
+    description; by workflow-structure inference, the pain is that users must manually shuttle between
+    multiple local apps and external services, clicking step by step through long task chains that require
+    supervision. This is inference, not user testimony.
+  current_alternative: 旧做法是用户自己在 Mac 上逐个应用操作，或把任务拆成若干步分别交给聊天式助手，再手工把结果搬回目标应用；公开材料未说明它替代的具体工具。
+  current_alternative_en: The legacy approach is for users to operate each Mac app themselves, or split
+    the task across chat-style assistants and manually carry results back into the target app; public
+    material does not name the specific tool being replaced.
+  usage_reason: 推断：相较用户自己逐步点击或分步调用聊天助手，它把“调用模型—连接外部服务—在本机执行”串成一个自主闭环，减少用户逐步搬运与盯守的负担；愿意自己动手、且任务跨多个外部服务的
+    Mac 用户会在这种情形下选择它。公开材料尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: compared with clicking through steps manually or calling a chat assistant
+    piecemeal, it chains model calls, external-service connections and local execution into one autonomous
+    loop, reducing the burden of shuttling and supervising each step; hands-on Mac users whose tasks span
+    multiple external services would choose it in that situation. Public material has no user feedback
+    or case confirming this motive.'

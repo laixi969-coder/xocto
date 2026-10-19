@@ -21,7 +21,7 @@ canonical_url: https://cpd.gov.ua/en/report/analytical-report-when-bots-go-silen
 summary: Russian Bot Activity Collapses by 84% After Strikes on Yandex Data Centers
 first_seen: '2026-10-19T00:13:33Z'
 last_seen: '2026-10-19T00:13:33Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -80,3 +80,43 @@
   usage_reason_en: 'The task is: Software teams coordinating and merging changes when multiple coding
     agents work on the same codebase in parallel Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-reason-network-2026-10-19
+  project_slug: reason-network
+  level: full
+  reviewed_at: '2026-10-19T00:44:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称其为编码代理协作层，但所引证据全部是 Reason 音乐软件与 Reason 杂志等同名无关网站，未出现任何编码代理协作的用户任务、痛点或旧替代行为，无法还原需求结构。
+    evidence_ids:
+    - ev-5f79f8c610b4b396
+    - ev-0028e1d670a9940a
+    - ev-2b5efdf9dab0850f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Reason Network 官方仓库或产品页的 README、issue 与 discussion，确认其是否真实存在并记录用户协调并行编码代理的具体流程与痛点。
+  market: ''
+  job: 软件团队在多名编码代理并行修改同一代码库时，需要协调各代理的改动并汇总为可合并的结果。
+  job_en: Software teams coordinating and merging changes when multiple coding agents modify the same
+    codebase in parallel.
+  pain: 公开材料未提供任何用户痛点、抱怨或旧流程摩擦的描述；候选摘要只说明产品让代理互相通信，未说明不协调会导致什么具体后果。
+  pain_en: Public materials provide no user pain, complaint, or description of friction in the old workflow;
+    the summary only says agents talk to each other, without stating the concrete consequence of not coordinating.
+  current_alternative: 公开材料未说明用户目前如何协调并行代理改动，例如人工合并、分支隔离或现有代理编排工具。
+  current_alternative_en: Public materials do not describe how users currently coordinate parallel agent
+    changes, such as manual merging, branch isolation, or existing agent orchestration tools.
+  usage_reason: 无法从公开事实说明用户为何会选择它：缺少具体动作、可核对结果与适用用户情境，现有证据仅指向同名无关网站。
+  usage_reason_en: 'Public facts cannot explain why users would choose it: no specific action, verifiable
+    result, or user context is given; existing evidence points only to unrelated same-name websites.'

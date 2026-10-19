@@ -22,7 +22,7 @@ summary: Chutes & Ladders—Centene names new CIO; Elevance Health taps new beha
   Healthcare
 first_seen: '2026-08-31T07:00:00Z'
 last_seen: '2026-09-01T14:56:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

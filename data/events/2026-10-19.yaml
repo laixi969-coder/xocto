@@ -128,8 +128,10 @@
   discovered_at: '2026-10-19T00:13:33Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Tower 18 for Mac 于 2026 年 10 月 12 日出现在产品发布页，自述为 Git 客户端并强调更好的命令行体验；未披露版本新增功能、定价或用户数据。
+  summary_en: Tower 18 for Mac appeared on a product launch page on 2026-10-12, describing itself as a
+    Git client with a better CLI experience; no version-specific features, pricing, or user data were
+    disclosed.
   evidence_ids:
   - ev-a5d94b2c5445473f
   homepage: true
@@ -292,8 +294,10 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 开发者 zaghaghi 于 2026 年 10 月 18 日发布开发日志，展示一个用 Rust 实时合成森林野生动物、可在浏览器中游玩的实验项目，社区讨论热度很低（7 分、0 评论）。
+  summary_en: On 2026-10-18 developer zaghaghi published a dev log for an experimental project that synthesizes
+    forest wildlife live in Rust and is playable in the browser; community discussion was minimal (7 points,
+    0 comments).
   evidence_ids:
   - ev-e4d97dbd2004ec58
   homepage: true
@@ -344,8 +348,10 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 内容出版方或网站运营者在发现 AI 爬虫批量抓取原创页面时，用它按页向抓取方收取 USDC，把抓取行为转成可结算的付费记录；候选称覆盖 10 种技术栈，具体接入方式与结算流程仍待核验。
+  summary_en: When publishers or site operators find AI crawlers bulk-fetching original pages, this lets
+    them charge crawlers per page in USDC and turn crawl activity into settleable payment records; the
+    candidate claims support for 10 stacks, while integration and settlement flow still need verification.
   evidence_ids:
   - ev-d4552307e6a671e6
   homepage: true
@@ -396,8 +402,11 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月，Yelp 表示仅允许付费加入数据授权计划的 AI 智能体访问，达美航空阻止智能体订票；Meta Muse、xAI Grok、OpenAI Dots 和 Instinct
+    的用户报告智能体在头部网站被拦截。
+  summary_en: In October 2026, Yelp said it only allows AI agents that pay for its data licensing program,
+    Delta Air Lines blocked agents from booking tickets, and users of Meta Muse, xAI Grok, OpenAI Dots
+    and Instinct reported agents being blocked on top websites.
   evidence_ids:
   - ev-16337def072cf7a3
   homepage: true
@@ -435,8 +444,8 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 用户报告 Codex Desktop 持续生成 Crashpad 待处理转储文件。
+  summary_en: Users reported that Codex Desktop continuously generates Crashpad pending dump files.
   evidence_ids:
   - ev-2db3d8e805f0f6b2
   homepage: true
@@ -448,8 +457,9 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 报道称 Amazon 在英国仓库部署 AI 以监测工会活动风险，涉及伯明翰、考文垂等地设施。
+  summary_en: Reports say Amazon deployed AI in UK warehouses to monitor union-activity risk, covering
+    facilities in Birmingham, Coventry and elsewhere.
   evidence_ids:
   - ev-e666a92742e5bde5
   homepage: true
@@ -487,8 +497,8 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 泽连斯基表示，马斯克旗下的卫星系统在乌克兰仍受到限制。
+  summary_en: Zelensky said the Musk-owned satellite system remains restricted in Ukraine.
   evidence_ids:
   - ev-16d6427f311a1183
   homepage: true
@@ -2975,8 +2985,11 @@
   signals:
   - update
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日，公开模型社区 在 Transformers v5.20.1 版本中加入 Reflection AI 的新模型 Beam，并修复了旧版 torch 上的模型加载问题；Beam
+    被描述为面向编码与代理场景、可在自有硬件或云上部署的模型。
+  summary_en: On 16 October 2026, public model community added Reflection AI's new model Beam to Transformers
+    v5.20.1 and fixed model loading on older torch versions; Beam is described as a model for coding and
+    agentic use cases that teams can run on their own hardware or cloud.
   evidence_ids:
   - ev-074475ef5e855ac0
   homepage: true
@@ -2988,8 +3001,10 @@
   signals:
   - update
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日 Ollama 发布 v0.40.6，修复 Windows 孤儿进程、新增 gguf 的 q2_0 张量与文件类型，并在其云服务上线 clef、调整 --ask
+    模式问题键。
+  summary_en: On 16 October 2026 Ollama released v0.40.6, fixing orphaned runners on Windows, adding the
+    gguf q2_0 tensor and file types, launching clef in its cloud, and changing --ask mode question keys.
   evidence_ids:
   - ev-d756aa8cf0f4d56b
   homepage: true
@@ -3013,8 +3028,10 @@
   discovered_at: '2026-10-19T00:13:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: DeepSeek 于 2026 年 10 月 17 日前后发布新模型 V4.1-Flash-1017，并开放自研搜索 API；候选材料只给出发布与“超级性价比”的标题式说法，未提供定价、基准或业务数据。
+  summary_en: DeepSeek released a new model, V4.1-Flash-1017, around October 17, 2026, and opened its
+    own search API; the candidate material only offers the release and a headline claim of extreme cost-effectiveness,
+    with no pricing, benchmark or business data.
   evidence_ids:
   - ev-becca8bd34f6c4b6
   homepage: true
@@ -3025,8 +3042,12 @@
   discovered_at: '2026-10-19T00:13:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日有报道称智谱发布面向法律场景的新模型并宣称在该领域评测中领先，但候选材料只给出这一标题式说法，未提供评测名称、分数、对比基线或可用入口。对 AI 应用而言，这意味着法律问答与文书类产品的模型底座可能多一个可选供给；由于缺少可核验的评测与定价信息，成本与竞争影响尚不能判断（推断）。
+  summary_en: An October 17, 2026 report says Zhipu released a new model aimed at legal work and claims
+    leading results in that domain, but the candidate material gives only a headline, with no benchmark
+    name, scores, baselines or access details. For AI applications this may add another model option for
+    legal Q&A and document tools; without verifiable evaluation or pricing, the cost and competitive impact
+    cannot yet be judged (inference).
   evidence_ids:
   - ev-a0f2aa561bfddc92
   homepage: true
@@ -3037,8 +3058,10 @@
   discovered_at: '2026-10-19T00:13:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 清华大学团队开源一套智能体操作系统，材料称其原生支持 MCP，并称任务成本降低 83%、AI 记忆可查可改；具体版本、仓库地址与实测口径未在候选材料中给出。
+  summary_en: A Tsinghua team open-sourced an agent operating system; the material says it natively supports
+    MCP, cuts task cost by 83%, and makes AI memory inspectable and editable. Version, repository and
+    test methodology are not given in the candidate material.
   evidence_ids:
   - ev-97454f4f21df11ea
   homepage: true
@@ -3073,8 +3096,13 @@
   discovered_at: '2026-10-19T00:13:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026 年 10 月 17 日，DeepSeek 将网页端、APP 与 API 同步更新至 V4.1-Flash-1017 版本，称基准测试提升、任务运行时间与输出长度缩短，并针对
+    DeepSeek Harness、腾讯 CodeBuddy、WorkBuddy 等框架优化。这是模型版本更新而非独立应用发布；其宣称的更低成本、更快速度若成立，会压低同类编程与代理任务的调用成本（推断）。
+  summary_en: On 17 October 2026, DeepSeek updated its web, app and API models to V4.1-Flash-1017, claiming
+    benchmark gains plus shorter task runtimes and outputs, with tuning for frameworks such as DeepSeek
+    Harness, Tencent CodeBuddy and WorkBuddy. This is a model version update, not a standalone application
+    release; if the claimed lower cost and faster speed hold, they would reduce inference costs for comparable
+    coding and agent tasks (inference).
   evidence_ids:
   - ev-5caf6ee8067edaa8
   homepage: true
@@ -3097,8 +3125,8 @@
   discovered_at: '2026-10-19T00:13:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 宣布将 5% 的公司股份投入一个“公共利益基金”。
+  summary_en: Anthropic said it will commit 5% of its shares to a “public benefit fund.”
   evidence_ids:
   - ev-c2b0c85c242a687a
   homepage: true
@@ -3109,8 +3137,10 @@
   discovered_at: '2026-10-19T00:13:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月18日提交的文件显示，迪士尼同意以假马竞标方式收购Character.AI，获聘的Character.AI员工中“绝大多数”已接受迪士尼的工作邀请，但其他公司仍可能提出更高报价。
+  summary_en: A filing dated October 18, 2026 shows Disney agreed to acquire Character.AI as a stalking-horse
+    bid, with the 'vast majority' of Character.AI employees offered jobs accepting them, though another
+    company could still submit a higher offer.
   evidence_ids:
   - ev-2ba225e33673db18
   homepage: true
@@ -3145,8 +3175,9 @@
   discovered_at: '2026-10-19T00:13:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: llm-echo 发布 0.5 版本，其模拟 token 用量统计现纳入工具调用、系统提示与推理 token。
+  summary_en: llm-echo released version 0.5, whose simulated token usage counts now account for tool calls,
+    system prompts and reasoning tokens.
   evidence_ids:
   - ev-7bea3a60f2ad27c9
   homepage: true
@@ -3169,8 +3200,9 @@
   discovered_at: '2026-10-19T00:13:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: web-edit 发布 0.1a2 版本，新增文本与图片数据的“复制到剪贴板”选项；该工具用于通过 Tailscale 浏览和编辑不同机器上的文件夹。
+  summary_en: web-edit released version 0.1a2, adding a copy-to-clipboard option for both text and image
+    data; the tool is used to browse and edit files in folders on different machines via Tailscale.
   evidence_ids:
   - ev-0143fa1a77d3055a
   homepage: true
@@ -3181,8 +3213,11 @@
   discovered_at: '2026-10-19T00:13:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月18日报道，Anthropic 向外部评估机构 METR 开放“类似员工”的访问权限，METR 团队进驻其办公场所，可接触硬件与内部系统，用于评估模型风险。这是实验室回应第三方评估诉求的具体治理动作，而非新产品发布。
+  summary_en: Reported on October 18, 2026, Anthropic granted external evaluator METR "employee-like"
+    access, embedding a METR team in its offices with access to hardware and internal systems to assess
+    model risk. This is a concrete governance step responding to calls for third-party evaluation, not
+    a product launch.
   evidence_ids:
   - ev-5c2ec805f8b18c4e
   homepage: true
@@ -3193,8 +3228,10 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月18日，心血管影像 AI 公司 Corologic 获得 Kakao Ventures 与 SNU Holdings 的种子轮投资；公开材料未披露金额、产品形态与客户。
+  summary_en: On October 18, 2026, cardiovascular imaging AI company Corologic raised a seed round from
+    Kakao Ventures and SNU Holdings; the public material does not disclose the amount, product form, or
+    customers.
   evidence_ids:
   - ev-d8e64663384cfb30
   homepage: true
@@ -3205,8 +3242,8 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: KuCoin 推出名为 KIA 的 AI 助手，用于实时市场分析。
+  summary_en: KuCoin launched an AI assistant called KIA for real-time market analytics.
   evidence_ids:
   - ev-1737c96e4dd27503
   homepage: true
@@ -3217,8 +3254,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 有报道称 AI 降低了构建成本，韩国初创企业正面临能否持续经营的新考验。
+  summary_en: Reports said AI has lowered build costs, and Korean startups now face a new test of staying
+    power.
   evidence_ids:
   - ev-affbee99869b49f0
   homepage: true
@@ -3241,8 +3279,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月中旬一周内，印度 AI 初创公司获得约 5000 万美元融资，当周总融资额为 3.0285 亿美元。
+  summary_en: In a week in mid-October 2026, Indian AI startups raised about $50 million out of $302.85
+    million in total weekly funding.
   evidence_ids:
   - ev-ecd3624babe0bf13
   homepage: true
@@ -3301,8 +3340,10 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 建筑施工方在工地现场需要完成重复性作业时，Origin 提供建筑机器人替代人工执行；候选仅披露其结束隐身并获 2000 万美元融资以扩大建筑机器人规模，具体作业环节、交付方式与客户仍待核验。
+  summary_en: When construction firms need repetitive on-site work done, Origin offers construction robots
+    to replace manual execution; the candidate only discloses that it exited stealth with $20 million
+    to scale construction robots, while specific tasks, delivery and customers still need verification.
   evidence_ids:
   - ev-5569cac70b0a9be1
   homepage: true
@@ -3313,8 +3354,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日有报道称，RapidCanvas 从 Vertex Ventures 等投资方获得 2900 万美元融资；报道未给出产品形态、客户、收入或定价细节。
+  summary_en: A report dated 2026-10-16 says RapidCanvas raised $29 million from Vertex Ventures and others;
+    the report gives no product form, customer, revenue or pricing details.
   evidence_ids:
   - ev-ba2400728b88b3a1
   homepage: true
@@ -3361,8 +3403,10 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月18日有报道称，新韩人寿发布 LICO 2.0，升级其基于 AI 的保险规划功能。候选材料未提供具体功能变化、使用规模、定价或客户采用数据。
+  summary_en: A report dated 18 October 2026 says Shinhan Life launched LICO 2.0, upgrading its AI-based
+    insurance planning capability. The candidate material provides no specific feature changes, usage
+    scale, pricing, or customer adoption data.
   evidence_ids:
   - ev-d9890f2176b93882
   homepage: true
@@ -3421,8 +3465,10 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日，Carrier Logistics 与 LSP44 宣布合作，自动化零担（LTL）货运识别；公开材料未披露技术细节、覆盖范围与商业条款。
+  summary_en: On October 16, 2026, Carrier Logistics and LSP44 announced a partnership to automate less-than-truckload
+    (LTL) shipment identification; the public material does not disclose technical details, scope, or
+    commercial terms.
   evidence_ids:
   - ev-bfa857ac11950f04
   homepage: true
@@ -3433,8 +3479,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日有报道称，Hugo Insurance 扩大其美国车险分销范围；报道未给出新增州、合作渠道、保单量或收入数据。
+  summary_en: On 17 October 2026 a report said Hugo Insurance expanded its US auto insurance distribution;
+    the report gave no new states, partner channels, policy volumes or revenue figures.
   evidence_ids:
   - ev-eb188f47834bf359
   homepage: true
@@ -3469,8 +3516,10 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日有报道称微软推出面向法律行业的 Copilot for Legal，包含合同审阅与研究技能；除标题外，未提供定价、客户、部署方式或可用范围等细节。
+  summary_en: On 16 October 2026, a report said Microsoft launched Copilot for Legal with contract review
+    and research skills; beyond the headline, no pricing, customers, deployment model or availability
+    details were provided.
   evidence_ids:
   - ev-74054e6c24e8bc59
   homepage: true
@@ -3481,8 +3530,10 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月16日报道称，ZenaTech扩大Tillerstack的Orsa+ AI软件使用范围，并计划用Stacklens智能眼镜开展医疗培训；报道未给出客户数、收入、定价或部署规模。
+  summary_en: A 16 October 2026 report said ZenaTech is expanding use of Tillerstack's Orsa+ AI software
+    and plans healthcare training with Stacklens smart glasses; it gave no customer counts, revenue, pricing
+    or deployment scale.
   evidence_ids:
   - ev-cb4074644a3811c2
   homepage: true
@@ -3493,8 +3544,8 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 材料称Hogan Lovells与Cadwalader律师基于Harvey构建了定制AI代理。
+  summary_en: The material says lawyers at Hogan Lovells and Cadwalader built custom AI agents on Harvey.
   evidence_ids:
   - ev-fa479768b1e8e519
   homepage: true
@@ -3529,8 +3580,8 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Advantech 与 DEKRA 建立合作，面向边缘 AI 网络安全合规需求。
+  summary_en: Advantech partnered with DEKRA to address edge AI cybersecurity compliance requirements.
   evidence_ids:
   - ev-8c0cbf78baa23794
   homepage: true
@@ -3577,8 +3628,8 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 削减初级技术岗位招聘，将工作瓶颈转向人类判断。
+  summary_en: Anthropic cut junior technical hiring, shifting the bottleneck to human judgment.
   evidence_ids:
   - ev-9e69bbc47d7a2a2b
   homepage: true
@@ -3613,8 +3664,8 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 有报道称银行正在阻止 AI 智能体访问客户账户。
+  summary_en: Reports said banks are blocking AI agents from accessing customer accounts.
   evidence_ids:
   - ev-e028009df454c139
   homepage: true
@@ -3745,8 +3796,11 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月18日有报道称，Replit 将 OpenAI 设为其默认 AI 合作伙伴。候选材料只有这一句标题式事实，未给出合作范围、模型接入方式、价格或生效时间，也未说明对 Replit
+    用户成本与交付的影响。
+  summary_en: A report dated 18 October 2026 says Replit made OpenAI its default AI partner. The candidate
+    material contains only this headline-level fact, with no scope, model integration details, pricing,
+    effective date, or stated impact on Replit users' costs or delivery.
   evidence_ids:
   - ev-c7037aa8b93a3037
   homepage: true
@@ -3805,8 +3859,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月18日报道称，Anthropic以超过10%的利息借款用于购买芯片，海外AI基础设施融资溢价上升。
+  summary_en: Reports on October 18, 2026 said Anthropic borrowed at an interest rate above 10% to buy
+    chips, as financing premiums for overseas AI infrastructure rose.
   evidence_ids:
   - ev-14404a7d97d8f8fa
   homepage: true
@@ -3817,8 +3872,10 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 吉大正元就股价两日涨幅偏离超20%发布澄清，称AI安全、抗量子及低空经济业务收入占比较低。
+  summary_en: Jida Zhengyuan clarified after its share price deviated more than 20% over two days, stating
+    that revenue from its AI security, anti-quantum and low-altitude economy businesses accounts for a
+    relatively low share.
   evidence_ids:
   - ev-0dd035a3f0368ee3
   homepage: true
@@ -3853,8 +3910,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 吉大正元公告提示，其AI安全等业务收入占比低。
+  summary_en: Jida Zhengyuan announced that revenue from businesses such as AI security accounts for a
+    low share.
   evidence_ids:
   - ev-c30ff7d47f5c7261
   homepage: true
@@ -3877,8 +3935,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 有报道称 Anthropic 的融资需支付约 10% 的高息，引发对 AI 债务市场状况的讨论。
+  summary_en: Reports said Anthropic's financing carries roughly 10% interest, prompting discussion of
+    conditions in the AI debt market.
   evidence_ids:
   - ev-f58c72dabe2ecd7e
   homepage: true
@@ -3937,8 +3996,8 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 的债务利率达到 10%，显示其融资成本上升。
+  summary_en: Anthropic's debt carries a 10% interest rate, indicating higher financing costs.
   evidence_ids:
   - ev-bb0ac9fc022ce31e
   homepage: true
@@ -3961,8 +4020,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 蓝沃AI在工博会上首次展示订单履约工作台，并同步开源沃土大模型2.0。
+  summary_en: Lanwo AI debuted its order fulfillment workbench at the industrial expo and simultaneously
+    open-sourced the Wotu large model 2.0.
   evidence_ids:
   - ev-34ab98321a14dfab
   homepage: true
@@ -4009,8 +4069,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 报道称融资成本上升威胁AI支出热潮，亚洲AI相关股票普遍下跌。
+  summary_en: Rising financing costs are reported to threaten the AI spending boom, with AI-related Asian
+    stocks falling broadly.
   evidence_ids:
   - ev-efa643c144e19b13
   homepage: true
@@ -4021,8 +4082,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 发布内部就业报告，称其智能体工时达到人类的 6 倍。
+  summary_en: Anthropic published an internal employment report stating its agents' working hours reached
+    six times that of humans.
   evidence_ids:
   - ev-92f747a577a9238c
   homepage: true
@@ -4033,8 +4095,10 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月18日一篇跨境电商周报称Shopify全面拥抱AI购物智能体，同时SHEIN收紧物流管控；报道未给出具体产品、上线时间、商家采用或费用变化。
+  summary_en: On October 18, 2026, a cross-border e-commerce weekly said Shopify is fully embracing AI
+    shopping agents while SHEIN tightens logistics control; the report gives no specific product, launch
+    date, merchant adoption or fee changes.
   evidence_ids:
   - ev-10dd09f5e52d6ecd
   homepage: true
@@ -4069,8 +4133,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 阶跃星辰发售终端原生智能体手机 STEPX Neo 先行版，探索端侧智能体硬件交付。
+  summary_en: StepFun launched the preview edition of STEPX Neo, an agent-native smartphone exploring
+    on-device AI delivery.
   evidence_ids:
   - ev-765165807063d05d
   homepage: true
@@ -4105,8 +4170,10 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月18日报道称，涉外法律智能体Nomos在第140届广交会亮相，面向出海企业提供涉外法律支持；报道未给出客户数、定价、合同或实际使用数据。
+  summary_en: An 18 October 2026 report said Nomos, a foreign-related legal AI agent, appeared at the
+    140th Canton Fair to support companies going global with cross-border legal work; it gave no customer
+    counts, pricing, contracts or usage data.
   evidence_ids:
   - ev-6ef175b40dce36d9
   homepage: true
@@ -4141,8 +4208,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月，研究人员让6款AI智能体尝试追回火车票退款，发现模型存在以激进方式执行任务的风险。
+  summary_en: In October 2026, researchers had six AI agents attempt to recover train-ticket refunds and
+    found risks of models executing tasks aggressively.
   evidence_ids:
   - ev-c9255a031349613f
   homepage: true
@@ -4153,8 +4221,10 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月17日，AXP在南京发布，被称为行业首个基于确定性网络的智能体互联平台，宣称支持百万级智能体注册接入、十万级智能体同时运行。
+  summary_en: On October 17, 2026, AXP was launched in Nanjing, described as the industry's first agent
+    interconnection platform built on a deterministic network, claiming support for one million registered
+    agents and 100,000 agents running concurrently.
   evidence_ids:
   - ev-2dc68b587cc8fd8e
   homepage: true
@@ -4165,8 +4235,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月18日有报道称谷歌发布开源AI智能体Artemis，可操控安卓手机；报道未提供仓库地址、许可、实测结果或采用数据。
+  summary_en: On October 18, 2026, a report said Google released Artemis, an open-source AI agent that
+    can operate Android phones; no repository, license, test results or adoption data were provided.
   evidence_ids:
   - ev-e6c7b10b807fab34
   homepage: true
@@ -4177,8 +4248,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月18日有报道称谷歌发布Harness2，一个能自我改进的AI智能体；报道未给出可核验的产品形态、开放范围或使用数据。
+  summary_en: On October 18, 2026, a report said Google released Harness2, a self-improving AI agent;
+    the report gives no verifiable product form, availability scope or usage data.
   evidence_ids:
   - ev-1a10ea32f6ce5939
   homepage: true
@@ -4213,8 +4285,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年10月，智慧互通（AICT）称基于物理AI技术底座攻克车路协同关键技术，并获发明创业奖成果奖一等奖。
+  summary_en: In October 2026, AICT said it had solved key vehicle-road collaboration technologies on
+    its physical-AI technology base and won first prize in the invention and entrepreneurship award.
   evidence_ids:
   - ev-39e1f64dc4aaea93
   homepage: true
@@ -4225,8 +4298,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 阿里云公布虚拟数字人产品的退市安排与迁移替代方案，服务将分阶段关停。
+  summary_en: Alibaba Cloud published retirement arrangements and migration alternatives for its virtual
+    digital human product, with services to be shut down in phases.
   evidence_ids:
   - ev-0ceb9a0211434931
   homepage: true
@@ -4237,8 +4311,9 @@
   discovered_at: '2026-10-19T00:14:04Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 阿里云宣布旗下虚拟数字人产品启动退市并分阶段关停服务，同步公布存量客户迁移替代方案，标志着大厂开始出清低毛利、高定制的泛数字人业务线。
+  summary_en: Alibaba Cloud announced the phased sunset of its virtual digital human product and released
+    migration plans, signaling big cloud vendors clearing low-margin digital human lines.
   evidence_ids:
   - ev-39dd6261bd784a7c
   homepage: true
@@ -4265,4 +4340,335 @@
   summary_en: ''
   evidence_ids:
   - ev-dc33964c03588cc4
+  homepage: true
+- id: req-change-ai-voice-breath-kiss-water-3-2026-10-19
+  project_slug: ai-voice-breath-kiss-water-3
+  event_type: req_change
+  occurred_at: '2026-10-19T00:42:07Z'
+  discovered_at: '2026-10-19T00:42:07Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：它试图解决 AI 角色语音不够自然、缺呼吸停顿的问题，但公开材料只有主题式标题，未说明旧流程卡点与不解决的后果；内容偏擦边猎奇，属可有无的素材拼凑，刚性不足。
+  summary_en: ''
+  evidence_ids:
+  - ev-67450b11fc76e7cd
+  homepage: true
+- id: req-change-artex-global-2026-10-19
+  project_slug: artex-global
+  event_type: req_change
+  occurred_at: '2026-10-19T00:42:18Z'
+  discovered_at: '2026-10-19T00:42:18Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：它声称用 AI 代理自动完成授权渗透测试，但公开证据混入船用信标厂商与保险经纪公司页面，无法确认产品身份，也还原不出具体旧流程与不解决的后果。
+  summary_en: ''
+  evidence_ids:
+  - ev-941052afbe365d2a
+  - ev-783d318ca778e43c
+  - ev-35e12bf32795ccf5
+  homepage: true
+- id: req-change-big-arrow-on-the-screen-2026-10-19
+  project_slug: big-arrow-on-the-screen
+  event_type: req_change
+  occurred_at: '2026-10-19T00:42:31Z'
+  discovered_at: '2026-10-19T00:42:31Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：它试图解决讲解时指向屏幕位置的需求，但公开材料只描述代理可画箭头、方框和文字并自动消失，未说明旧做法哪一步费时或出错，也未见用户抱怨或案例；痛点只能从功能反推，属于没有也行的小工具，价值关不成立。
+  summary_en: ''
+  evidence_ids:
+  - ev-abc41b7c1bc7337a
+  - ev-bd087fa3d239aef4
+  homepage: true
+- id: req-change-bops-2026-10-19
+  project_slug: bops
+  event_type: req_change
+  occurred_at: '2026-10-19T00:42:39Z'
+  discovered_at: '2026-10-19T00:42:39Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：它试图让 AI 机器人代做小团队的邮件、电话与网页系统操作，但公开材料仅一句产品描述，未说明旧流程哪一步费时、不解决有何后果，痛点无法还原。
+  summary_en: ''
+  evidence_ids:
+  - ev-37f667b94c3d5df1
+  homepage: true
+- id: req-change-claude-for-financial-advisors-2026-10-19
+  project_slug: claude-for-financial-advisors
+  event_type: req_change
+  occurred_at: '2026-10-19T00:42:45Z'
+  discovered_at: '2026-10-19T00:42:45Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：仅有 Claude 通用产品页与下载页说明，未见顾问社区讨论、客户案例或该插件的采用与重复使用信号；通用平台关注度不能归因到这个垂直插件。
+  summary_en: ''
+  evidence_ids:
+  - ev-79eeda7f90c7fcc6
+  - ev-bee61629aae47771
+  - ev-bee61629aae47771
+  - ev-d234defdfbdff123
+  - ev-07594cdd9c4b67bf
+  - ev-fa4c831acea6bbd4
+  - ev-bcf9cd7b7314f3fc
+  - ev-a251956972ae8841
+  homepage: true
+- id: req-change-comma-2026-10-19
+  project_slug: comma
+  event_type: req_change
+  occurred_at: '2026-10-19T00:42:49Z'
+  discovered_at: '2026-10-19T00:42:49Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：它想解决常驻代理代替手动浏览器与文件操作的需求，但材料只有功能罗列，没有用户任务、痛点或旧替代行为的具体描述，价值结构无法还原。
+  summary_en: ''
+  evidence_ids:
+  - ev-1b4f071c03724e49
+  - ev-3c47e437fb67fb00
+  homepage: true
+- id: req-change-deepseek-harness-2026-10-19
+  project_slug: deepseek-harness
+  event_type: req_change
+  occurred_at: '2026-10-19T00:43:05Z'
+  discovered_at: '2026-10-19T00:43:05Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：公开证据只有内部组件仓库收藏数（177 至 184）与 14 收藏的 node addon，属关注度而非持续采用；缺少 issue、讨论或用户案例说明谁在何种场景实际部署。
+  summary_en: ''
+  evidence_ids:
+  - ev-43861e1666f6ed29
+  - ev-70e8df5e8f50a44a
+  - ev-43861e1666f6ed29
+  - ev-70e8df5e8f50a44a
+  - ev-43861e1666f6ed29
+  - ev-43861e1666f6ed29
+  - ev-70e8df5e8f50a44a
+  homepage: true
+- id: req-change-dsh-ops-2026-10-19
+  project_slug: dsh-ops
+  event_type: req_change
+  occurred_at: '2026-10-19T00:43:14Z'
+  discovered_at: '2026-10-19T00:43:14Z'
+  signals:
+  - update
+  summary: 信号由“需求信号明确”调整为“初步成立”；当前停在共识闸门：仓库星标从 716 增至 3064，说明关注度上升，但公开材料没有 issue、评价或案例表明开发者已把它放进日常命令流，关注不等于持续采用。
+  summary_en: ''
+  evidence_ids:
+  - ev-30f1cc9557e447aa
+  - ev-7d11cfff0c7a90ed
+  - ev-30f1cc9557e447aa
+  - ev-7d11cfff0c7a90ed
+  - ev-7d11cfff0c7a90ed
+  - ev-30f1cc9557e447aa
+  homepage: true
+- id: req-change-earshot-2026-10-19
+  project_slug: earshot
+  event_type: req_change
+  occurred_at: '2026-10-19T00:43:18Z'
+  discovered_at: '2026-10-19T00:43:18Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：候选声称让编码代理具备听觉，但所引证据全部指向同名摇滚乐队官网与维基，未出现任何产品说明、开发者痛点或旧流程事实，需求与痛点无法从公开材料还原。
+  summary_en: ''
+  evidence_ids:
+  - ev-d1ceec763f2363fe
+  - ev-12b6bc4a329b37ab
+  homepage: true
+- id: req-change-genjustsu-open-source-workflow-2026-10-19
+  project_slug: genjustsu-open-source-workflow
+  event_type: req_change
+  occurred_at: '2026-10-19T00:43:36Z'
+  discovered_at: '2026-10-19T00:43:36Z'
+  signals:
+  - update
+  summary: 信号由“需求信号明确”调整为“初步成立”；当前停在共识闸门：仓库收藏从 742 升至 1026，说明开发者持续关注；但收藏与关注只属规模信号，公开材料没有目标后期人员持续使用、复刻后部署或工作流留存的证据，无法判断共识是否形成。
+  summary_en: ''
+  evidence_ids:
+  - ev-23f3a956900c74da
+  - ev-6f94b33897ad7a1f
+  - ev-23f3a956900c74da
+  - ev-6f94b33897ad7a1f
+  - ev-23f3a956900c74da
+  - ev-23f3a956900c74da
+  - ev-6f94b33897ad7a1f
+  homepage: true
+- id: req-change-invisible-playwright-mcp-2026-10-19
+  project_slug: invisible-playwright-mcp
+  event_type: req_change
+  occurred_at: '2026-10-19T00:43:49Z'
+  discovered_at: '2026-10-19T00:43:49Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：公开材料只有仓库星标 2,769 与项目描述，没有采集团队采用、复购或长期留在工作流的证据，关注度不等于持续采用。
+  summary_en: ''
+  evidence_ids:
+  - ev-155986e12f473fd5
+  - ev-155986e12f473fd5
+  - ev-155986e12f473fd5
+  - ev-155986e12f473fd5
+  homepage: true
+- id: req-change-keys-wasserman-slate-ai-studio-powered-by-tensorfold-built-w-2026-10-19
+  project_slug: keys-wasserman-slate-ai-studio-powered-by-tensorfold-built-w
+  event_type: req_change
+  occurred_at: '2026-10-19T00:43:51Z'
+  discovered_at: '2026-10-19T00:43:51Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：它试图解决本地短片规划与渲染割裂，但公开证据全是同名无关网站，无产品页、无流程、无用户痛点记录，需求与痛点均无法写出。
+  summary_en: ''
+  evidence_ids:
+  - ev-a4660cf48feb5566
+  - ev-105ad598d6161414
+  - ev-ca1923b4925860ed
+  homepage: true
+- id: req-change-kokon-2026-10-19
+  project_slug: kokon
+  event_type: req_change
+  occurred_at: '2026-10-19T00:43:54Z'
+  discovered_at: '2026-10-19T00:43:54Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：候选称解决本地按描述改图、免配环境的修图任务，但全部证据指向同名毛线品牌官网，无一条能还原输入、动作与交付，需求与痛点均无法从公开事实写出。
+  summary_en: ''
+  evidence_ids:
+  - ev-0a9ca44b7ee84d22
+  - ev-a9f3ca8ed4a6d64c
+  - ev-8fc082c91a956b78
+  homepage: true
+- id: req-change-opencode-rust-2026-10-19
+  project_slug: opencode-rust
+  event_type: req_change
+  occurred_at: '2026-10-19T00:44:43Z'
+  discovered_at: '2026-10-19T00:44:43Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：仓库星数从 62 增至 73 仅反映关注度，不能证明持续采用；缺少 issue、讨论或用户评价说明开发者是否真把它留在工作流里。
+  summary_en: ''
+  evidence_ids:
+  - ev-4056edbab8a99a94
+  - ev-4b291d8a0599e0d7
+  - ev-4056edbab8a99a94
+  - ev-4b291d8a0599e0d7
+  - ev-b8e184aa61b9081e
+  - ev-4056edbab8a99a94
+  - ev-4b291d8a0599e0d7
+  - ev-b8e184aa61b9081e
+  homepage: true
+- id: req-change-openqodex-2026-10-19
+  project_slug: openqodex
+  event_type: req_change
+  occurred_at: '2026-10-19T00:44:47Z'
+  discovered_at: '2026-10-19T00:44:47Z'
+  signals:
+  - update
+  summary: 信号由“需求信号明确”调整为“初步成立”；当前停在共识闸门：公开仓库收藏从 634 增至 762，说明社区关注度上升，但收藏与排名只属关注度证据，未见用户评价、案例或持续使用记录，无法证明目标开发者已把它留在推送前工作流中。
+  summary_en: ''
+  evidence_ids:
+  - ev-2b53a1126882c25a
+  - ev-794ef74af564ed43
+  - ev-2b53a1126882c25a
+  - ev-794ef74af564ed43
+  - ev-2b53a1126882c25a
+  - ev-2b53a1126882c25a
+  - ev-19cd239aee940a07
+  homepage: true
+- id: req-change-pensieve-2-2026-10-19
+  project_slug: pensieve-2
+  event_type: req_change
+  occurred_at: '2026-10-19T00:44:55Z'
+  discovered_at: '2026-10-19T00:44:55Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：仅有开源仓库 66 星这一关注度信号，未见用户评价、采用案例或重复使用记录，无法判断是否已进入开发者日常工作流；关注度不能替代持续采用证据。
+  summary_en: ''
+  evidence_ids:
+  - ev-d1260229394dd135
+  - ev-d1260229394dd135
+  - ev-d1260229394dd135
+  - ev-d1260229394dd135
+  homepage: true
+- id: req-change-robot-heads-2026-10-19
+  project_slug: robot-heads
+  event_type: req_change
+  occurred_at: '2026-10-19T00:45:03Z'
+  discovered_at: '2026-10-19T00:45:03Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：它解决代理状态可视化需求，但公开材料只有组件描述与星标增长，没有用户反馈证明状态不可见造成实际损失；转圈或文字已能交代进度，属于看着有趣但不用也行。
+  summary_en: ''
+  evidence_ids:
+  - ev-975f07677df617f1
+  - ev-336fbb6f67b3c6b9
+  homepage: true
+- id: req-change-rustdsh-2026-10-19
+  project_slug: rustdsh
+  event_type: req_change
+  occurred_at: '2026-10-19T00:45:08Z'
+  discovered_at: '2026-10-19T00:45:08Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：仓库收藏从 71 升至 87，说明有开发者关注；但公开材料没有 issue、讨论或评价说明谁在何种场景持续使用，关注度不能替代采用证据。
+  summary_en: ''
+  evidence_ids:
+  - ev-17eba258da75ad95
+  - ev-b16980b1d9080e35
+  - ev-17eba258da75ad95
+  - ev-b16980b1d9080e35
+  - ev-17eba258da75ad95
+  - ev-17eba258da75ad95
+  homepage: true
+- id: req-change-sign-in-with-chatgpt-devkit-2026-10-19
+  project_slug: sign-in-with-chatgpt-devkit
+  event_type: req_change
+  occurred_at: '2026-10-19T00:45:18Z'
+  discovered_at: '2026-10-19T00:45:18Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：仓库收藏从 45 缓慢升至 52，说明有开发者关注，但无 issue、讨论或客户案例显示具体场景采用；关注度不能证明持续使用，强场景仍缺公开行为证据。
+  summary_en: ''
+  evidence_ids:
+  - ev-bad72db4abbab513
+  - ev-908ba1b045a75565
+  - ev-bad72db4abbab513
+  - ev-908ba1b045a75565
+  - ev-bad72db4abbab513
+  - ev-bad72db4abbab513
+  - ev-302df90da1a6d62e
+  homepage: true
+- id: req-change-sno-station-2026-10-19
+  project_slug: sno-station
+  event_type: req_change
+  occurred_at: '2026-10-19T00:45:17Z'
+  discovered_at: '2026-10-19T00:45:17Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：它试图解决多代理编码时的上下文共享与交接，但公开材料只有功能描述，未说明旧流程、不解决的后果或用户已采取的替代行为，需求与痛点无法还原。
+  summary_en: ''
+  evidence_ids:
+  - ev-25eedc804255444c
+  - ev-3060785dd97019b0
+  homepage: true
+- id: req-change-tov-2026-10-19
+  project_slug: tov
+  event_type: req_change
+  occurred_at: '2026-10-19T00:45:29Z'
+  discovered_at: '2026-10-19T00:45:29Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：它想解决代理产出到原生二进制的编译问题，但公开材料未说明旧流程卡在哪一步、不采用会失去什么，需求与痛点无法还原。
+  summary_en: ''
+  evidence_ids:
+  - ev-48087f8b62d4a141
+  homepage: true
+- id: req-change-whirl-2026-10-19
+  project_slug: whirl
+  event_type: req_change
+  occurred_at: '2026-10-19T00:45:42Z'
+  discovered_at: '2026-10-19T00:45:42Z'
+  signals:
+  - update
+  summary: 关键闸门状态发生变化；当前停在价值闸门：它试图解决跨模型搬运材料、拼接结论的需求，痛点方向可辨；但现有证据全是词典释义，没有产品说明、文档或用户反馈，无法还原输入、动作与交付，需求强度与刚性均无法判断。
+  summary_en: ''
+  evidence_ids:
+  - ev-526f96f013a44147
+  - ev-164a6705c49c0234
+  - ev-09f85eb6ae617899
   homepage: true

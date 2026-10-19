@@ -79,3 +79,55 @@
   usage_reason_en: 'The task is: Ad operations staff managing Meta ad accounts use a command line or AI
     agent to run routine monitoring, generate insight reports, and launch recoverable campaigns Public
     materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-adsctl-2026-10-19
+  project_slug: adsctl
+  level: full
+  reviewed_at: '2026-10-19T00:41:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Meta 投放运营跨账户重复监控、出报告和上线活动的需求，痛点在于手工后台操作易漏检、误上线且花费真实；产品以确定性命令和可回滚上线交付。这是基于公开功能说明与投放工作流的结构推理，尚无用户抱怨或案例佐证痛点强度。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+    - ev-32533901b62d19c3
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库说明与 51→58 的星标变化，属关注度而非持续采用；没有 issue、discussion 或用户反馈说明谁在何种场景实际部署并替代旧流程，强场景是否成立仍缺一环。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+    - ev-32533901b62d19c3
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、付费主体或收入路径；可能来自投放团队或代理商的 to B 订阅，也可能是开源免费加服务，这是判断而非已验证事实，单位经济完全未知。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+  - gate: truth
+    status: insufficient
+    reason: 可回滚上线与确定性监控是核心承诺，但公开材料没有部署文档、实测记录或失败回滚案例，无法核对它是否真能稳定交付并守住人工与安全边界。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+    - ev-32533901b62d19c3
+  next_validation: 追踪 adsctl 仓库的 issue 与 discussion，确认是否有投放团队报告实际部署、替代了哪段旧流程以及回滚是否被真实触发。
+  market: ''
+  job: Meta 广告投放运营人员每天面对多个广告账户，需要定时拉取投放数据、判断异常并生成洞察报告，还要把调整后的广告活动重新上线；他们希望用命令行或 AI 代理批量执行这些重复动作，并在出错时回滚。
+  job_en: Meta ad operations staff managing multiple ad accounts need to pull performance data on a schedule,
+    detect anomalies, produce insight reports, and relaunch adjusted campaigns; they want to run these
+    repetitive actions in batch via a CLI or AI agent and roll back on error.
+  pain: 公开说明显示产品针对的是账户监控、报告生成和活动上线三段重复操作；这类工作频率高、跨账户重复，手工在广告后台逐项点击容易漏检和误操作，上线动作一旦出错影响真实花费。这是从产品能力与投放工作流推出的判断，尚无用户抱怨或案例直接佐证。
+  pain_en: 'The public description targets three repetitive steps: account monitoring, report generation,
+    and campaign launch. Such work recurs across accounts, and manual clicking in the ad console risks
+    missed checks and mis-launches that spend real budget. This is inferred from product capability and
+    the ad-ops workflow, not from user complaints or cases.'
+  current_alternative: 旧做法是投放人员在 Meta 广告管理后台手工查看各账户指标、导出数据做表、再逐条重建或调整广告活动；部分团队会自建脚本调用 Meta Marketing API，但需自行处理鉴权、幂等和回滚。
+  current_alternative_en: The old way is for operators to check each account's metrics in Meta Ads Manager,
+    export data into spreadsheets, then manually rebuild or adjust campaigns; some teams write their own
+    scripts against the Meta Marketing API but must handle auth, idempotency, and rollback themselves.
+  usage_reason: 推断：相较手工后台操作或自建脚本，它把监控、报告和上线封装成确定性命令，并让上线动作可回滚，减少逐账户重复点击和自建脚本维护鉴权与回滚的成本；因此管理多个 Meta 账户、已在用命令行或
+    AI 代理的投放团队会在日常巡检和批量上线时选择它。仓库 51→58 星只说明关注度，不构成采用证据。
+  usage_reason_en: 'Inference: versus manual console work or self-built scripts, it packages monitoring,
+    reporting, and launch into deterministic commands with recoverable launches, cutting per-account clicking
+    and the cost of maintaining auth and rollback in custom scripts. Teams managing multiple Meta accounts
+    that already use CLIs or AI agents would pick it for routine checks and batch launches. The 51→58
+    star count reflects attention only, not adoption.'

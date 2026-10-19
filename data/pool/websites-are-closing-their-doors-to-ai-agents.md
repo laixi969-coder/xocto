@@ -3,15 +3,14 @@ slug: websites-are-closing-their-doors-to-ai-agents
 name: AI agents blocked by websites
 builder: evolve2k
 category: ''
-summary_zh: 2026 年 10 月，Meta Muse、xAI Grok、OpenAI Dots 和 Instinct 等自主 AI 代理的用户报告称，这些代理在访问主要网站执行任务时遭到拦截；Yelp
-  只允许付费加入其数据授权计划的 AI 代理，达美航空则阻止代理订票。这一变化意味着依赖开放网页执行任务的 AI 应用面临更高的数据授权成本和交付不确定性，网站运营方开始以付费授权和访问限制重新划分与代理生态的边界。
+summary_zh: 2026年10月，Yelp 表示只允许付费加入其数据授权计划的 AI 智能体访问，达美航空则阻止 AI 智能体订票；Meta Muse、xAI Grok、OpenAI Dots 与
+  Instinct 的用户报告智能体在头部网站执行任务时被拦截。这意味着面向消费者的自主智能体在网页端的可用范围受平台授权与反爬策略约束，交付可靠性下降，数据授权成本成为竞争变量（推断）。
 inspiration: ''
-summary_en: In October 2026, users of autonomous AI agents such as Meta's Muse, xAI's Grok, OpenAI's Dots
-  and Instinct reported blocks preventing the agents from performing tasks across major websites; Yelp
-  only allows AI agents that pay for its data licensing program, and Delta Air Lines is preventing agents
-  from booking tickets. The shift means AI applications that rely on the open web face higher data-licensing
-  costs and delivery uncertainty, as site operators redraw the boundary with the agent ecosystem through
-  paid licensing and access restrictions.
+summary_en: In October 2026, Yelp said it only allows AI agents that pay for its data licensing program,
+  and Delta Air Lines blocked agents from booking tickets; users of Meta Muse, xAI Grok, OpenAI Dots and
+  Instinct reported agents being blocked on top websites. This means consumer-facing autonomous agents
+  face platform licensing and anti-bot constraints on the open web, reducing delivery reliability, with
+  data licensing costs becoming a competitive variable (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -33,7 +32,7 @@ summary: Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, In
   is preventing them from booking ticket … Read the full story at The Verge.
 first_seen: '2026-10-18T00:04:10Z'
 last_seen: '2026-10-19T00:13:33Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - hackernews

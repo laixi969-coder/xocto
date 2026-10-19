@@ -324,3 +324,43 @@
   usage_reason_en: Without user feedback or customer cases, there is no explanation of which step Bops
     reduces or which checkable result it improves versus the old approach; the available evidence is unrelated
     to the product's capability.
+- id: req-full-bops-2026-10-19
+  project_slug: bops
+  level: full
+  reviewed_at: '2026-10-19T00:42:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图让 AI 机器人代做小团队的邮件、电话与网页系统操作，但公开材料仅一句产品描述，未说明旧流程哪一步费时、不解决有何后果，痛点无法还原。
+    evidence_ids:
+    - ev-37f667b94c3d5df1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bops.bot 官网的定价页与客户案例，确认谁在何种强场景部署、替代了哪一步人工流程。
+  market: ''
+  job: 小团队的运营或行政人员在处理日常事务时，把需要发邮件、打电话、在网页系统里操作的任务交给 Bops 的多个 AI 机器人，每个机器人有自己的电脑、邮箱和电话号码，最终产出是这些事务被代为执行。
+  job_en: Operations or admin staff at a small team hand routine tasks that require emailing, calling,
+    and operating web systems to Bops' AI bots, each with its own computer, email, and phone number, so
+    those tasks get executed on their behalf.
+  pain: 公开材料只有一句产品描述，未说明运营人员在这些事务上具体卡在哪一步、耗时多少或出错后果，痛点无法从证据还原。
+  pain_en: Public material is a single product description; it does not show where ops staff get stuck,
+    how much time is spent, or what errors cost, so the pain cannot be reconstructed from evidence.
+  current_alternative: 运营人员自己手动处理邮件与电话，或外包给人工助理、使用传统 RPA 与自动化脚本。
+  current_alternative_en: Ops staff handle email and calls manually, or outsource to human assistants,
+    or use traditional RPA and automation scripts.
+  usage_reason: 推断：若机器人能独立持有邮箱与电话并直接操作系统，可省去人工逐条收发与录入的步骤；但公开材料未给出用户反馈或部署案例，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if bots can hold their own email and phone and operate systems directly,
+    it could remove manual per-item sending and data entry; but public material gives no user feedback
+    or deployment cases, so why users choose it cannot be confirmed.'

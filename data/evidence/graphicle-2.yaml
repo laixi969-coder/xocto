@@ -415,3 +415,154 @@
   tier: behavioural
   fact: 'Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor
     and any MCP client. | repository stars: 294'
+- id: ev-a65a4b70efd48c0c
+  project_slug: graphicle-2
+  url: https://graphicle.readthedocs.io/en/latest/
+  title: graphicle 0.4 documentation
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: workaround
+  tier: independent
+  fact: graphicle is a package to represent and manipulate particle physics data, with first class support
+    for network-based analysis. Tutorials are on the way, but for now, the API reference contains documentation
+    of the provided routines and their use cases.
+- id: ev-b3c162820eb1f273
+  project_slug: graphicle-2
+  url: https://github.com/graphicle-ai/graphicle
+  title: 'GitHub - Graphicle-AI/graphicle: Code graph and memory for your coding ...'
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'Graphicle maps your repository into a code graph, remembers your project''s docs, decisions and
+    past agent sessions, and gives your coding agent cited excerpts from both: the exact files and lines.'
+- id: ev-45783fed33f56ced
+  project_slug: graphicle-2
+  url: https://github.com/jacanchaplais/graphicle
+  title: 'GitHub - jacanchaplais/graphicle: Utilities for representing high ...'
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: workaround
+  tier: independent
+  fact: Graphicle really shines with its composite data structures. These can be used to filter and query
+    heterogeneous particle data records simultaneously, either using user provided boolean masks, or MaskArray
+    instances produced with routines in the select module. Additionally, routines in the calculate and
+    transform modules take composite data structures to standardise useful calculations which ...
+- id: ev-57c199e38773a85b
+  project_slug: graphicle-2
+  url: https://graphicle.readthedocs.io/en/latest/
+  title: graphicle 0.4 documentation
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: customer_case
+  tier: independent
+  fact: graphicle is a package to represent and manipulate particle physics data, with first class support
+    for network-based analysis. Tutorials are on the way, but for now, the API reference contains documentation
+    of the provided routines and their use cases.
+- id: ev-51c5b03fb5c7606d
+  project_slug: graphicle-2
+  url: https://github.com/graphicle-ai/graphicle
+  title: 'GitHub - Graphicle-AI/graphicle: Code graph and memory for your coding ...'
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'Graphicle maps your repository into a code graph, remembers your project''s docs, decisions and
+    past agent sessions, and gives your coding agent cited excerpts from both: the exact files and lines.'
+- id: ev-657211266a2202d4
+  project_slug: graphicle-2
+  url: https://github.com/jacanchaplais/graphicle
+  title: 'GitHub - jacanchaplais/graphicle: Utilities for representing high ...'
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Graphicle really shines with its composite data structures. These can be used to filter and query
+    heterogeneous particle data records simultaneously, either using user provided boolean masks, or MaskArray
+    instances produced with routines in the select module. Additionally, routines in the calculate and
+    transform modules take composite data structures to standardise useful calculations which ...
+- id: ev-ddc1a94ab6a07282
+  project_slug: graphicle-2
+  url: https://graphicle.readthedocs.io/en/latest/
+  title: graphicle 0.4 documentation
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: pricing
+  tier: independent
+  fact: graphicle is a package to represent and manipulate particle physics data, with first class support
+    for network-based analysis. Tutorials are on the way, but for now, the API reference contains documentation
+    of the provided routines and their use cases.
+- id: ev-835652314ba3edc6
+  project_slug: graphicle-2
+  url: https://github.com/graphicle-ai/graphicle
+  title: 'GitHub - Graphicle-AI/graphicle: Code graph and memory for your coding ...'
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'Graphicle maps your repository into a code graph, remembers your project''s docs, decisions and
+    past agent sessions, and gives your coding agent cited excerpts from both: the exact files and lines.'
+- id: ev-f6c6a7f89553ece2
+  project_slug: graphicle-2
+  url: https://github.com/jacanchaplais/graphicle
+  title: 'GitHub - jacanchaplais/graphicle: Utilities for representing high ...'
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: pricing
+  tier: independent
+  fact: Graphicle really shines with its composite data structures. These can be used to filter and query
+    heterogeneous particle data records simultaneously, either using user provided boolean masks, or MaskArray
+    instances produced with routines in the select module. Additionally, routines in the calculate and
+    transform modules take composite data structures to standardise useful calculations which ...
+- id: ev-363225cc99f1a997
+  project_slug: graphicle-2
+  url: https://graphicle.readthedocs.io/en/latest/
+  title: graphicle 0.4 documentation
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: retention
+  tier: independent
+  fact: graphicle is a package to represent and manipulate particle physics data, with first class support
+    for network-based analysis. Tutorials are on the way, but for now, the API reference contains documentation
+    of the provided routines and their use cases.
+- id: ev-e0577546c262b97c
+  project_slug: graphicle-2
+  url: https://github.com/graphicle-ai/graphicle
+  title: 'GitHub - Graphicle-AI/graphicle: Code graph and memory for your coding ...'
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: retention
+  tier: independent
+  fact: 'Graphicle maps your repository into a code graph, remembers your project''s docs, decisions and
+    past agent sessions, and gives your coding agent cited excerpts from both: the exact files and lines.'
+- id: ev-682ae69eb628135f
+  project_slug: graphicle-2
+  url: https://github.com/jacanchaplais/graphicle
+  title: 'GitHub - jacanchaplais/graphicle: Utilities for representing high ...'
+  published_at: ''
+  collected_at: '2026-10-19T00:37:08Z'
+  source_kind: retention
+  tier: independent
+  fact: Graphicle really shines with its composite data structures. These can be used to filter and query
+    heterogeneous particle data records simultaneously, either using user provided boolean masks, or MaskArray
+    instances produced with routines in the select module. Additionally, routines in the calculate and
+    transform modules take composite data structures to standardise useful calculations which ...
+- id: ev-e81367c3d32d9ff6
+  project_slug: graphicle-2
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%BD%AF%E4%BB%B6%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%9C%8D%E5%8A%A1+%E5%BC%80%E5%8F%91%E8%80%85%E5%9C%A8+Claude+Code%E3%80%81Codex%E3%80%81Cursor+%E7%AD%89%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%87%8C%E5%B7%A5%E4%BD%9C%E6%97%B6%EF%BC%8C%E9%9C%80%E8%A6%81%E4%B8%BA%E4%BB%A3%E7%90%86%E6%8F%90%E4%BE%9B%E4%BB%A3%E7%A0%81%E5%9B%BE%E4%B8%8E%E8%AE%B0%E5%BF%86
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-10-19T00:38:46Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 软件与信息服务 开发者在 Claude Code、Codex、Cursor 等客户端里工作时，需要为代理提供代码图与记忆'
+- id: ev-8f3ea8b1c821ed49
+  project_slug: graphicle-2
+  url: https://chatgpt.com/
+  title: 'ChatGPT: Chat, Work, Create & Code with AI'
+  published_at: ''
+  collected_at: '2026-10-19T00:38:46Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place.
+    Get started for free or download the app.

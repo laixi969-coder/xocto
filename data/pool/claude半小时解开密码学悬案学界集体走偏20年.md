@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/10/503910.html
 summary: 谜底指向时间
 first_seen: '2026-10-19T00:13:57Z'
 last_seen: '2026-10-19T00:13:57Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

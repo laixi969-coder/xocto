@@ -76,3 +76,46 @@
   usage_reason: 缺少输入、动作与交付描述，无法解释用户为何选择它而非旧做法；此处不作推断。
   usage_reason_en: With no description of input, action or deliverable, there is no basis to explain why
     a user would choose it over the old approach; no inference is made here.
+- id: req-full-dub-anything-2026-10-19
+  project_slug: dub-anything
+  level: full
+  reviewed_at: '2026-10-19T00:43:19Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开事实仅显示可在浏览器免费给电影片段配本人声音并保留原配乐，未描述用户身份、痛点、失败后果或采用行为；从任务结构看属于娱乐玩梗，不用它也能用录音加剪辑完成，缺乏刚性，属玛蒂尔德风险。
+    evidence_ids:
+    - ev-77f57fa8e94f8f38
+    - ev-106bc26c660cba3e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 app.dub-off.com 的产品页与公开更新日志，确认是否出现付费档位、输出格式说明或用户作品/评价，以判断是否存在真实重复使用。
+  market: ''
+  job: 普通观众或短视频爱好者打开浏览器，在 Dub-Off 里挑选一段著名电影片段，逐句录下自己的台词，保留原片配乐，生成一段自己配音的剪辑。
+  job_en: A casual viewer or short-video hobbyist opens a browser, picks a famous movie scene on Dub-Off,
+    records each line in their own voice over the film's original music, and produces a self-dubbed clip.
+  pain: 公开材料只说明可以免费在浏览器里给电影片段配自己的声音，没有描述任何具体痛点、失败成本或用户抱怨；从任务结构看，这更接近娱乐性玩梗，而非必须完成的配音交付。
+  pain_en: The public material only states that users can dub movie scenes in their own voice for free
+    in a browser; it describes no specific pain, failure cost, or user complaint. Structurally this looks
+    closer to entertainment/parody than a dubbing deliverable that must get done.
+  current_alternative: 公开材料未提及替代方式；结构上同类需求此前可用手机录音加剪辑软件、通用 TTS 或直接发布原声片段来满足，但这些均为推断，无引用支持。
+  current_alternative_en: The public material mentions no alternative; structurally, similar needs could
+    previously be met with phone recording plus editing software, generic TTS, or simply posting the original
+    clip, but these are inferences without citation.
+  usage_reason: 推断：相较自己找片段、录音再对齐音轨，它把选片、逐句录音和保留原配乐合并在一个浏览器页面里，省去剪辑对齐这一步，因此可能吸引想快速做趣味配音短视频的轻度用户；但公开材料没有用户反馈或案例支持这一动机。
+  usage_reason_en: 'Inference: compared with sourcing a clip, recording, and aligning audio tracks manually,
+    it combines scene selection, line-by-line recording, and retention of the original score in one browser
+    page, removing the editing-alignment step, which may attract casual users wanting a quick novelty
+    dubbing clip; however, no user feedback or case supports this motive in the public material.'

@@ -138,3 +138,49 @@
   usage_reason_en: 'Inference: versus self-built connectors, official plugins are maintained by Nous Research
     and offered as a one-install catalog, removing the per-service auth and maintenance step, so users
     who already deployed the agent and need several external services would install official plugins first.'
+- id: req-full-hermes-official-plugins-2026-10-19
+  project_slug: hermes-official-plugins
+  level: full
+  reviewed_at: '2026-10-19T00:43:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自部署代理接入外部服务的连接与维护需求，痛点是逐个处理鉴权、服务一多难维护，旧做法是自写脚本或拼装自动化平台；这是工作流结构推理，公开材料仅支持代理自托管与插件目录存在。
+    evidence_ids:
+    - ev-da5884056d937a7e
+    - ev-ce1308951b1f9ad2
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有代理自托管、持久记忆与消息网关说明，未见插件目录的安装量、采用或留存证据；Hermès 时尚官网条目与本产品无关，不能作为共识依据。
+    evidence_ids:
+    - ev-da5884056d937a7e
+  - gate: model
+    status: insufficient
+    reason: 官方插件本身未披露定价，付费方可能是代理订阅者或插件开发者，这是判断而非已验证事实；现有证据未给出任何收费路径。
+    evidence_ids:
+    - ev-e8b38c57f34cfb8c
+  - gate: truth
+    status: insufficient
+    reason: 未核验插件调用权限边界、鉴权方式与失败处理，交付能否确定性发生仍缺证据；公开页面只说明代理能力，未说明插件级安全约束。
+    evidence_ids:
+    - ev-da5884056d937a7e
+  next_validation: 追踪 Hermes Agent 官方插件目录或仓库文档，确认插件调用权限、鉴权方式与失败处理说明。
+  market: ''
+  job: 个人用户或开发者在自己部署的 Hermes Agent 中，需要把 Home Assistant、Spotify 等外部服务接入，让代理在对话中直接调用这些服务完成跨服务操作。
+  job_en: An individual user or developer running a self-hosted Hermes Agent needs to connect external
+    services such as Home Assistant and Spotify so the agent can invoke them directly from conversation
+    to complete cross-service actions.
+  pain: 自建连接器要逐个读 API、处理鉴权并持续维护，服务一多就难以为继；不接入则代理只能停在对话层，无法真正操作外部服务。
+  pain_en: Self-built connectors require reading each API, handling auth and ongoing maintenance, which
+    becomes unmanageable as services multiply; without integration the agent stays at the chat layer and
+    cannot actually operate external services.
+  current_alternative: 自己写脚本或连接器，或用 Zapier、IFTTT 这类自动化平台拼装流程。
+  current_alternative_en: Writing scripts or connectors yourself, or assembling flows on automation platforms
+    such as Zapier or IFTTT.
+  usage_reason: 推断：相较自建连接器，官方插件目录由 Nous Research 维护、一次安装即可接入，省掉逐个处理鉴权与维护这一步，因此已部署该代理、需要接入多个外部服务的用户会优先装官方插件。
+  usage_reason_en: 'Inference: versus self-built connectors, the official plugin catalog is maintained
+    by Nous Research and installs in one step, removing the per-service auth and maintenance burden, so
+    users who already deployed the agent and need several external services would install official plugins
+    first.'

@@ -225,3 +225,50 @@
     own signed-in Chrome background tabs, removing the re-authentication and anti-bot workaround step,
     so operators or researchers who must batch-operate web apps inside their own account session would
     try it first; account-security and platform-term risks are not yet addressed in public material.'
+- id: req-full-agent-chrome-relay-2026-10-19
+  project_slug: agent-chrome-relay
+  level: full
+  reviewed_at: '2026-10-19T00:41:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理无法进入已登录网页后台、重复操作只能人工完成的问题，痛点具体且旧替代行为明确；账号安全边界仍待核验。
+    evidence_ids:
+    - ev-5895265fa41da739
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从256缓慢增至291这一关注度信号，没有用户评价、客户案例或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-5895265fa41da739
+    - ev-1c95bcb8a0b5cbe0
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明收费方式或买方；可能走to B私有部署或to VC，属判断而非已验证事实。
+    evidence_ids:
+    - ev-5895265fa41da739
+  - gate: truth
+    status: challenged
+    reason: 让代理以用户身份操作已登录账号，涉及凭据安全、平台条款与误操作边界，公开材料未见权限隔离或人工确认机制。
+    evidence_ids:
+    - ev-5895265fa41da739
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认是否说明权限隔离、人工确认环节及实际使用场景。
+  market: ''
+  job: 开发者或运营、研究人员在需要让 AI 代理操作自己已登录的网页后台时，把代理接到本人已登录的 Chrome 后台标签页，处理点击、填表、抓取等网页材料，完成原本要人工逐步操作的重复任务。
+  job_en: Developers, operators or researchers who need an AI agent to act inside their own signed-in
+    web back office connect the agent to their signed-in Chrome background tabs, handling clicks, form
+    fills and scraping so repetitive tasks that were done manually get completed.
+  pain: 公开说明只支持一个结构性痛点：代理要进入真实账号会话才能操作后台，而旧做法要么拿不到登录态、被验证码和风控挡住，要么要求交出凭据或另开无头浏览器，导致真实后台任务跑不通。这是工作流推理，尚无用户抱怨或案例佐证。
+  pain_en: 'The public description supports only a structural pain: an agent must enter a real account
+    session to operate a back office, while old approaches either lack login state and get blocked by
+    captchas and risk controls, or require handing over credentials or a separate headless browser, so
+    real tasks fail. This is workflow inference, not yet backed by user complaints or cases.'
+  current_alternative: 人工在浏览器里逐步点选；或使用需重新登录、易被风控拦截的自动化脚本与云端代理。
+  current_alternative_en: Manual step-by-step clicking in the browser; or automation scripts and cloud
+    agents that must re-authenticate and are easily blocked by risk controls.
+  usage_reason: 推断：它复用用户本人已登录的 Chrome 后台标签页，省去重新登录和绕过风控这一步，因此需要在自己账号会话内批量操作网页的运营或研究人员会优先试用；账号安全与平台条款风险尚未在公开材料中说明。
+  usage_reason_en: 'Inference: by reusing the user''s own signed-in Chrome background tabs it removes
+    the re-login and anti-bot workaround step, so operators or researchers who must batch-operate web
+    apps inside their own account session would try it first; account-security and platform-term risks
+    are not yet addressed in public material.'

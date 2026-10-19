@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4OU56UUxzdkZr
 summary: Startup Statistics 2026 [By Countries, Funding & Success Rates] DemandSage
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/louhp106/Gamelton-T1-demo
 summary: ''
 first_seen: '2026-08-30T21:12:35Z'
 last_seen: '2026-08-31T00:37:40Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

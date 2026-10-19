@@ -24,7 +24,7 @@ summary: '### Patch Changes
   - 2c90e90: fix(provider/minimax): send a default `16:9` ratio for MiniMax-H3 text-to-video'
 first_seen: '2026-08-30T20:18:55Z'
 last_seen: '2026-08-31T00:37:21Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTFB4YTFHRXZaU0ZI
 summary: 'Fintech Startups: $28.6B H1 Funding and 7 Recent Rounds AI Funding Tracker'
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

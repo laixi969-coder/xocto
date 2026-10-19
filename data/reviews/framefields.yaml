@@ -77,3 +77,52 @@
   usage_reason_en: 'The task is: Video engineers or frontend developers who need to turn data or code
     into motion video describe the scene in code and render it in the browser to get an embeddable clip
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-framefields-2026-10-19
+  project_slug: framefields
+  level: full
+  reviewed_at: '2026-10-19T00:43:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据或代码驱动动态画面难以参数化、导出与网页嵌入割裂的需求；痛点刚性来自可复现渲染，交付闭环为代码输入到浏览器 WebGPU 输出片段。此为工作流结构推理，公开材料尚无用户抱怨或频率证据。
+    evidence_ids:
+    - ev-94ed680ada420a95
+    - ev-4e5d26c1a4d1d161
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 418 增至 420，说明开发者有初步关注，但收藏与复刻属关注度证据，不能证明目标用户持续使用或形成强场景共识。
+    evidence_ids:
+    - ev-94ed680ada420a95
+    - ev-4e5d26c1a4d1d161
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济；开源项目可能走托管或支持收费，但这是判断而非已验证事实，买方路径尚未核验。
+    evidence_ids:
+    - ev-94ed680ada420a95
+  - gate: truth
+    status: insufficient
+    reason: 导出规格、浏览器兼容范围与人工确认环节未见公开文档，交付能否稳定发生缺可复现证据；中文生态亦未检索到相关部署材料。
+    evidence_ids:
+    - ev-a60bd129695d04fa
+    - ev-1e9f85afadcab16c
+  next_validation: 追踪 framefields 官方文档与仓库 issue/discussion，确认导出规格、浏览器兼容范围及是否有真实项目部署记录。
+  market: ''
+  job: 前端开发者或视频工程师在需要把数据或代码驱动的动态画面嵌入网页时，用代码描述场景，由浏览器 WebGPU 直接渲染成视频片段，而不必在剪辑软件里手工搭建再导出。
+  job_en: Frontend developers or video engineers who need data- or code-driven motion visuals embedded
+    in a web page describe the scene in code and let the browser's WebGPU render it into a clip, instead
+    of building and exporting it by hand in an editor.
+  pain: 公开材料只给出代码优先、WebGPU 原生渲染的定位；从工作流结构推断，痛点是数据驱动画面在传统剪辑软件里难以参数化复用、导出与网页嵌入链路割裂，但公开证据未给出用户抱怨或频率。
+  pain_en: Public material only states a code-first, native-WebGPU positioning; by workflow inference
+    the pain is that data-driven visuals are hard to parameterize and reuse in traditional editors and
+    the export-to-web-embed chain is fragmented, though public evidence gives no user complaints or frequency.
+  current_alternative: 推断旧做法是 After Effects、Remotion 等剪辑或代码合成工具手工搭建后导出视频再嵌入，或直接用 Canvas/WebGL 手写渲染；公开材料未说明它实际替代了哪一种。
+  current_alternative_en: The inferred old approach is hand-building in editors or code-compositing tools
+    such as After Effects or Remotion and exporting a file to embed, or hand-writing Canvas/WebGL rendering;
+    public material does not say which it replaces.
+  usage_reason: 推断：相较剪辑软件导出再嵌入，它把画面定义留在代码里、由浏览器原生 WebGPU 渲染，省去手工搭建与格式转换一步，使需要参数化、可复现动态画面的前端开发者会在网页内直接生成片段时选择它；这是结构推理，非用户反馈。
+  usage_reason_en: 'Inference: versus exporting from an editor and re-embedding, it keeps the scene definition
+    in code and renders natively via WebGPU, removing the manual build and format-conversion step, so
+    frontend developers needing parameterized, reproducible motion visuals would pick it to generate clips
+    in-page; this is structural reasoning, not user feedback.'

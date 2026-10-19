@@ -84,3 +84,51 @@
     returns timestamped citations, removing the locate-and-excerpt step, so diligence and editorial users
     who need sources would pick it when verifying quotes; no retention or payment evidence appears in
     public material.'
+- id: req-full-mcp-2026-10-19
+  project_slug: mcp
+  level: full
+  reviewed_at: '2026-10-19T00:44:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长视频原话与赞助提及难检索的需求，痛点是人工听写耗时易漏；产品以字幕索引返回带时间戳引用，交付闭环可确定，属工作流结构推理，公开材料仅功能描述。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库星标从 56 增至 84，属关注度而非采用证据，未见用户评价或客户案例说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+    - ev-2809364350f25efc
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是内容团队、研究机构或开发者，属判断而非已验证事实；星标增长不构成收入证据。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  - gate: truth
+    status: insufficient
+    reason: 检索范围、字幕覆盖语种与引用准确性均未披露，能否确定性交付带时间戳原话无法核对，需部署文档或实测佐证。
+    evidence_ids:
+    - ev-16c14a218a6cc21b
+  next_validation: 追踪 Arcmira 官网定价页与客户案例，确认检索范围、字幕覆盖语种、交付格式及是否已有付费使用。
+  market: ''
+  job: 内容研究者或市场分析师在核实某位嘉宾在长视频或播客中说过什么时，处理 YouTube 字幕材料，要完成的任务是定位带时间戳的原话、提及品牌与赞助片段，并形成可回跳核对的引用清单。
+  job_en: Content researchers or market analysts verifying what a guest said in a long video or podcast
+    work from YouTube transcript material to locate timestamped quotes, brand mentions and sponsorship
+    segments, and produce a citation list that can be jumped back to for checking.
+  pain: 长视频与播客缺少可检索文本，人工拖进度条听或翻字幕找一句原话耗时且易漏；赞助与品牌提及散落在整段音频里，核对出处时反复回跳，公开材料只给出功能描述，痛点强度属工作流结构推理。
+  pain_en: Long videos and podcasts lack searchable text, so scrubbing the timeline or scanning captions
+    for one quote is slow and error-prone; sponsorship and brand mentions are scattered across the audio
+    and checking sources requires repeated jumping back. Public material only describes features, so pain
+    intensity is a workflow-structure inference.
+  current_alternative: 人工拖进度条听、用 YouTube 自带字幕搜索，或用通用转录工具导出全文后自行检索与摘录。
+  current_alternative_en: Manually scrubbing the timeline, using YouTube's built-in caption search, or
+    exporting a full transcript with a generic transcription tool and searching and excerpting by hand.
+  usage_reason: 推断：相较人工听写与全文导出后自行检索，它把字幕直接变成可检索索引，并以一次检索返回带时间戳的原话、提及与赞助片段，省掉定位与摘录这一步，因此需要出处的尽调与选题人员会在核查原话时选择它；公开材料未见留存或付费证据。
+  usage_reason_en: 'Inference: versus manual listening and exporting a full transcript to search by hand,
+    it turns captions into a searchable index and returns timestamped quotes, mentions and sponsorship
+    segments in one query, removing the locate-and-excerpt step, so diligence and editorial users who
+    need sources would pick it when verifying quotes; no retention or payment evidence appears in public
+    material.'

@@ -86,3 +86,47 @@
   usage_reason_en: 'Inference: versus staying on Pi under Bun, it shortens startup and lowers CPU by compiling
     ahead of time to native code, so developers who restart agents often on tight machines would pick
     it.'
+- id: req-full-pi-bolt-2026-10-19
+  project_slug: pi-bolt
+  level: full
+  reviewed_at: '2026-10-19T00:44:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理冷启动慢、占 CPU 高的问题，痛点具体且可核对；这是从产品说明与旧流程作出的工作流推理，买方与付费路径未在材料中出现。
+    evidence_ids:
+    - ev-940020bf11e12319
+    - ev-d2fb8bfcd9c2139f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数从 318 增至 366 的关注度信号，未见用户评价、团队采用或重复使用记录，无法判断是否进入日常工作流。
+    evidence_ids:
+    - ev-940020bf11e12319
+    - ev-d80520584a017207
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、赞助或商业交付方式；钱可能来自开发者自用或社区赞助，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-940020bf11e12319
+  - gate: truth
+    status: insufficient
+    reason: 启动快 3 倍、CPU 约三分之一均为项目自述，未见独立复现或基准测试材料，交付确定性尚缺外部核对。
+    evidence_ids:
+    - ev-940020bf11e12319
+  next_validation: 收集该仓库的 issue / discussion 与独立基准测试，核对启动时间与 CPU 占用的可复现结果。
+  market: ''
+  job: 开发者在本地对代码仓库启动编码代理 Pi，等待其加载完成后再开始改代码，需要让代理尽快进入可交互状态。
+  job_en: A developer starts the Pi coding agent against a local repository and waits for it to load before
+    editing code, needing the agent to become interactive as soon as possible.
+  pain: 代理冷启动慢、占用 CPU 高，会拖慢本机其他工作；频繁重启代理时等待被反复放大，这是公开说明中可核对的具体负担。
+  pain_en: Slow cold start and high CPU use slow the rest of the machine, and the wait repeats every time
+    the agent restarts, a concrete burden stated in the public description.
+  current_alternative: 继续用 Bun 上运行的 Pi，或换用其他更轻的编码代理，忍受启动等待与资源占用。
+  current_alternative_en: Keep running Pi on Bun, or switch to a lighter coding agent, and tolerate the
+    startup wait and resource use.
+  usage_reason: 推断：相较继续用 Bun 版 Pi，它通过提前编译成原生代码直接缩短启动时间并降低 CPU 占用，因此频繁重启代理、机器资源紧张的开发者会选它；该动机来自产品能力推理，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus staying on Pi under Bun, it shortens startup and lowers CPU by compiling
+    ahead of time to native code, so developers who restart agents often on tight machines would pick
+    it; this motive is inferred from product capability, not user feedback.'

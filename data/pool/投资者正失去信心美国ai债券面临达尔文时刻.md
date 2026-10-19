@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RQUpJRnhVdjdD
 summary: 投资者正失去信心，美国AI债券面临“达尔文时刻” 观察者网
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

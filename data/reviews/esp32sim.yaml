@@ -1,0 +1,87 @@
+- id: req-initial-esp32sim-2026-10-19
+  project_slug: esp32sim
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无板卡时无法验证固件、采购与接线耗时的痛点，旧做法是买板本地烧录。
+    evidence_ids:
+    - ev-ee61521a3830f347
+    - ev-c7af8ebe7f640021
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，缺少用户持续使用或评价证据。
+    evidence_ids:
+    - ev-c7af8ebe7f640021
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径，买方与收费方式不明。
+    evidence_ids:
+    - ev-ee61521a3830f347
+  - gate: truth
+    status: insufficient
+    reason: 未见支持外设范围与仿真保真度的公开材料，交付确定性待核验。
+    evidence_ids:
+    - ev-ee61521a3830f347
+  next_validation: 收集该仓库的 issue 与文档，查看支持的外设范围与仿真保真度说明。
+  market: ''
+  job: 嵌入式开发者在没有实体板卡时，把 ESP32 固件放进浏览器运行，完成调试与验证。
+  job_en: Embedded developers run ESP32 firmware in the browser without physical boards to complete debugging
+    and validation.
+  pain: 没有板卡就无法验证固件，采购与接线耗时，团队协作时难以共享运行环境。
+  pain_en: Without boards firmware cannot be validated, purchasing and wiring take time, and teams struggle
+    to share a run environment.
+  current_alternative: 购买实体开发板并本地烧录，或使用桌面端模拟器。
+  current_alternative_en: Buying physical dev boards and flashing locally, or using desktop simulators.
+  usage_reason: 推断：它把固件运行搬进浏览器，省去采购板卡和本地搭建环境这一步，因此会在教学、评审或快速验证时被选用。
+  usage_reason_en: 'Inference: it moves firmware execution into the browser, removing board purchasing
+    and local environment setup, so it is chosen for teaching, review or quick validation.'
+- id: req-full-esp32sim-2026-10-19
+  project_slug: esp32sim
+  level: full
+  reviewed_at: '2026-10-19T00:43:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决无板卡时无法验证 ESP32 固件、采购与接线耗时的需求，旧做法是买板本地烧录或桌面模拟器；这是从产品定位与任务闭环作出的工作流结构推理，尚无用户抱怨原文佐证。
+    evidence_ids:
+    - ev-ee61521a3830f347
+    - ev-c7af8ebe7f640021
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库发布与重复采集的同一句描述，没有用户评价、issue 讨论或采用案例，无法判断开发者是否已把它纳入日常调试流程。
+    evidence_ids:
+    - ev-ee61521a3830f347
+    - ev-c7af8ebe7f640021
+  - gate: model
+    status: insufficient
+    reason: 公开材料只显示开源仓库，未见定价、赞助或商业服务路径，钱可能来自 to C 开发者或 to B 团队，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ee61521a3830f347
+  - gate: truth
+    status: insufficient
+    reason: 未披露支持的外设范围、仿真保真度与人工确认边界，浏览器内运行结果能否替代真实板卡验证仍不确定。
+    evidence_ids:
+    - ev-ee61521a3830f347
+    - ev-c7af8ebe7f640021
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认支持的外设清单、仿真保真度说明及是否有实际使用反馈。
+  market: ''
+  job: 嵌入式开发者在没有实体 ESP32 板卡或板卡不在手边时，把已编译的固件放进浏览器运行，完成上电行为、外设交互与调试验证任务。
+  job_en: Embedded developers without a physical ESP32 board at hand run compiled firmware in the browser
+    to validate boot behavior, peripheral interaction and debugging.
+  pain: 没有板卡就无法验证固件，采购与接线耗时，团队协作时难以共享同一运行环境；这是从产品定位推导的结构性痛点，公开材料未给出用户抱怨原文。
+  pain_en: Without a board firmware cannot be validated, purchasing and wiring take time, and teams struggle
+    to share one run environment; this is a structural pain inferred from the product positioning, not
+    quoted user complaints.
+  current_alternative: 购买实体开发板并本地烧录，或使用桌面端模拟器（如 QEMU/ESP-IDF 自带仿真）。
+  current_alternative_en: Buying physical dev boards and flashing locally, or using desktop simulators
+    such as QEMU or ESP-IDF's built-in emulation.
+  usage_reason: 推断：它把固件执行搬进浏览器，省去采购板卡和本地搭建工具链这一步，因此会在教学、代码评审或快速验证时被选用；仓库尚无用户评价或留存证据。
+  usage_reason_en: 'Inference: it moves firmware execution into the browser, removing board purchasing
+    and local toolchain setup, so it is chosen for teaching, code review or quick validation; the repo
+    has no user reviews or retention evidence yet.'

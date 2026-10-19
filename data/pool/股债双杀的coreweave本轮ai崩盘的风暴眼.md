@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6WmVZNV8xZ2hX
 summary: “股债双杀”的CoreWeave——本轮AI崩盘的“风暴眼” 华尔街见闻
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

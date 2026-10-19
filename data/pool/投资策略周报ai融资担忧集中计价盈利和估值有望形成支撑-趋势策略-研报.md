@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE03N1VCV1RvTVN5
 summary: 投资策略周报：AI融资担忧集中计价，盈利和估值有望形成支撑_趋势策略_研报 证券之星
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

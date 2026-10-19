@@ -89,3 +89,52 @@
     into agent steps with prompts and templates, removing the step of re-deriving the process, so operators
     onboarding a new store or colleague would start from it; the repository provides no retention or payment
     evidence.'
+- id: req-full-ai-cross-border-ecommerce-agent-toolkit-2026-10-19
+  project_slug: ai-cross-border-ecommerce-agent-toolkit
+  level: full
+  reviewed_at: '2026-10-19T00:41:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨境运营 SOP 靠个人经验、换人换店要重讲的需求，痛点是流程散落与标准不统一，旧做法是自建文档；仓库仅给出工具箱定位，交付闭环属工作流结构推理。
+    evidence_ids:
+    - ev-3e7bc44365712bee
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 298 增至 388 只说明关注度上升，无用户评价、采用案例或讨论，无法判断共识卡在感知、场景还是利益。
+    evidence_ids:
+    - ev-3e7bc44365712bee
+    - ev-8ec93458730964e9
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方是店铺、服务商还是个人运营者属推断，非已验证事实。
+    evidence_ids:
+    - ev-3e7bc44365712bee
+  - gate: truth
+    status: insufficient
+    reason: 提示词与模板能否在真实店铺稳定产出可核对结果，缺少实测、部署文档与交付结果证据，人工确认点也未公开。
+    evidence_ids:
+    - ev-3e7bc44365712bee
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认 7 个工作流各自的输入输出、人工确认点，以及是否有真实店铺使用反馈或付费服务。
+  market: ''
+  job: 跨境电商运营或店铺运营专员在接手新店铺、上新或交接班时，处理商品信息、平台规则与历史运营素材，要把选品、上架、广告、客服等日常动作按统一 SOP 跑完并复用到新店或新同事。
+  job_en: A cross-border e-commerce operator or store operations specialist, when taking over a new store,
+    launching listings or handing over shifts, handles product information, platform rules and historical
+    operational assets, to run daily actions such as selection, listing, advertising and customer service
+    to a unified SOP and reuse it for a new store or colleague.
+  pain: 运营 SOP 长期靠个人经验和口头传授，换人换店就要重讲一遍，动作容易漏、标准不统一；公开材料只给出工具箱定位，未提供用户抱怨或案例，痛点强度属工作流结构推理。
+  pain_en: Operations SOPs rely on personal experience and verbal handover, so changing staff or stores
+    means re-explaining everything, with steps easily missed and standards inconsistent; public material
+    only gives the toolkit positioning without user complaints or cases, so pain intensity is a workflow-structure
+    inference.
+  current_alternative: 旧做法是运营自己整理文档、表格和聊天记录，或直接带新人上手，流程散落在个人手里，没有可复用的标准件。
+  current_alternative_en: The old way is for operators to assemble their own documents, spreadsheets and
+    chat logs, or onboard newcomers directly, leaving the process scattered across individuals with no
+    reusable standard components.
+  usage_reason: 推断：相较自己从零整理文档，它把运营环节预先拆成带提示词和模板的 7 个代理步骤，省掉重新梳理流程这一步，因此带新店或新人的运营者会先拿它当起点；仓库未提供留存、复购或付费证据，不能声称已长期留在工作流里。
+  usage_reason_en: 'Inference: versus assembling documents from scratch, it pre-splits operations steps
+    into seven agent steps with prompts and templates, removing the step of re-deriving the process, so
+    operators onboarding a new store or colleague would start from it; the repository provides no retention,
+    repeat-use or payment evidence, so it cannot be claimed to be long-term embedded in workflows.'

@@ -1,0 +1,93 @@
+- id: req-initial-awesome-reverse-engineered-2026-10-19
+  project_slug: awesome-reverse-engineered
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者复现闭源行为时重复逆向、成果分散的痛点，旧做法是零散搜索，结构上成立；索引质量与可用性仍待核验。
+    evidence_ids:
+    - ev-45e7c4d1622de3a2
+    - ev-36f1768fb216fca6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有约 42 星标，属关注度信号，不能证明持续采用；缺少用户反馈或案例。
+    evidence_ids:
+    - ev-36f1768fb216fca6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径；推断可能面向开发者订阅或团队授权，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-45e7c4d1622de3a2
+  - gate: truth
+    status: insufficient
+    reason: 索引是否准确、是否持续维护、agent skill 实际交付质量均无公开材料支持。
+    evidence_ids:
+    - ev-45e7c4d1622de3a2
+    - ev-36f1768fb216fca6
+  next_validation: 收集该站点的公开使用反馈或仓库 issue/discussion，核验索引准确性与 agent skill 的实际交付效果。
+  market: ''
+  job: 开发者在需要复现闭源应用、协议或文件格式行为时，检索已有的逆向工程开源实现，以决定复用还是自行重做。
+  job_en: Developers searching existing reverse-engineered open-source implementations of closed apps,
+    protocols or file formats to decide whether to reuse or rebuild.
+  pain: 逆向工程成果分散在各处，重复造轮子耗时且容易踩同样的坑；不采用则要自己从零摸索协议或格式。
+  pain_en: Reverse-engineering results are scattered, so rebuilding wastes time and repeats the same pitfalls;
+    without it, developers must figure out protocols or formats from scratch.
+  current_alternative: 靠搜索引擎、公开代码仓库 关键词检索、个人收藏或社区帖子零散查找。
+  current_alternative_en: Scattered searching via search engines, public code repository keyword queries,
+    personal bookmarks or community posts.
+  usage_reason: 推断：相较零散搜索，它把约 1.2 万个逆向工程工具集中到一个可检索索引并每晚刷新，减少逐个平台翻找的步骤，因此需要快速判断“是否已有人做过”的开发者会先来这里查。
+  usage_reason_en: 'Inference: compared with scattered searching, it consolidates roughly 12,000 reverse-engineering
+    tools into one searchable index refreshed nightly, cutting the step of hunting across platforms, so
+    developers who need to quickly judge whether someone has already done it would check here first.'
+- id: req-full-awesome-reverse-engineered-2026-10-19
+  project_slug: awesome-reverse-engineered
+  level: full
+  reviewed_at: '2026-10-19T00:42:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者复现闭源行为时重复逆向、成果分散的痛点，旧做法是跨平台零散搜索；产品以可检索索引集中约 1.2 万个工具并每晚刷新，交付为候选仓库清单，结构上成立，属工作流推理，索引质量仍待核验。
+    evidence_ids:
+    - ev-45e7c4d1622de3a2
+    - ev-36f1768fb216fca6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有约 42 个仓库星标，属关注度信号，不能证明持续采用；缺少用户反馈、案例或重复使用证据，无法判断开发者是否已将其留在工作流中。
+    evidence_ids:
+    - ev-36f1768fb216fca6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径；推断可能面向开发者订阅、团队授权或赞助，但这是判断而非已验证事实，公开材料说不清谁付钱。
+    evidence_ids:
+    - ev-45e7c4d1622de3a2
+  - gate: truth
+    status: insufficient
+    reason: 索引是否准确、是否持续维护、agent skill 实际交付质量均无公开材料支持；仅凭每晚刷新声明无法确认候选仓库可用，交付确定性尚未核验。
+    evidence_ids:
+    - ev-45e7c4d1622de3a2
+    - ev-36f1768fb216fca6
+  next_validation: 追踪该站点仓库的公开 issue/discussion 与独立开发者评价，核验索引准确性和 agent skill 的实际交付效果。
+  market: ''
+  job: 开发者在需要复现某个闭源应用、API、设备协议或文件格式的行为时，处理的是自己手头的逆向目标与零散检索结果，要完成的任务是快速判断是否已有可复用的开源实现，从而决定复用还是自行重做。
+  job_en: When developers need to reproduce the behavior of a closed app, API, device protocol or file
+    format, they work from their own reverse-engineering target and scattered search results, and must
+    quickly judge whether a reusable open-source implementation already exists, deciding whether to reuse
+    or rebuild.
+  pain: 逆向成果分散在代码托管、论坛和个人收藏中，重复逆向同一目标既耗时又容易踩同样的坑；不解决则开发者只能从零摸索协议或格式，重复造轮子。
+  pain_en: Reverse-engineering results are scattered across code hosts, forums and personal bookmarks;
+    redoing the same target wastes time and repeats the same pitfalls. Without a solution, developers
+    must figure out protocols or formats from scratch and rebuild the wheel.
+  current_alternative: 靠搜索引擎、公开代码仓库关键词检索、个人收藏或社区帖子零散查找，再逐个仓库核对可用性。
+  current_alternative_en: Scattered searching via search engines, keyword queries on public code repositories,
+    personal bookmarks or community posts, then checking each repository for usability.
+  usage_reason: 推断：相较逐个平台零散搜索，它把约 1.2 万个逆向工程工具集中到一个可检索索引并每晚刷新，减少跨平台翻找这一步负担，因此需要快速判断“是否已有人做过”的开发者会先来这里查；索引准确性与实际复用效果尚无用户反馈支持。
+  usage_reason_en: 'Inference: compared with scattered searching across platforms, it consolidates roughly
+    12,000 reverse-engineering tools into one searchable index refreshed nightly, cutting the step of
+    hunting across platforms, so developers who need to quickly judge whether someone has already done
+    it would check here first; index accuracy and actual reuse outcomes are not yet supported by user
+    feedback.'

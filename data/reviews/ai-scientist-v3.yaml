@@ -86,3 +86,50 @@
     agents into a flow that executes experiments automatically, removing the step of repeatedly hand-writing
     and dispatching experiment code, so labs with many directions and limited hands would try it first;
     the repository provides no sustained-use or payment evidence.'
+- id: req-full-ai-scientist-v3-2026-10-19
+  project_slug: ai-scientist-v3
+  level: full
+  reviewed_at: '2026-10-19T00:42:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决科研人员实验代码编写与反复试跑耗时、探索方向多于人力的需求，旧做法是研究者手写脚本跑实验；这是从仓库定位与科研工作流推出的结构判断，非用户采用数据。
+    evidence_ids:
+    - ev-2a18cdf6c7a16bb4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从304增至368，说明有开发者关注，但无研究者评价、复现记录或采用案例，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-2a18cdf6c7a16bb4
+    - ev-99104d477ee6f31d
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价，买方可能是高校实验室、科研机构或研究者个人，属推断而非已验证事实；中文生态检索未发现对应供给。
+    evidence_ids:
+    - ev-2a18cdf6c7a16bb4
+    - ev-84836b9740b68096
+  - gate: truth
+    status: insufficient
+    reason: 自动产出的实验结果能否被复核、人工判断边界在哪，缺少实测与交付结果证据；仓库标题只说明编排编码代理，未证明结论可靠性。
+    evidence_ids:
+    - ev-2a18cdf6c7a16bb4
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认代理编排的实验流程、产出物形式，以及是否有研究者实际复现或引用。
+  market: ''
+  job: 科研人员在形成假设、编写实验代码、跑实验并整理结果的研究节点，处理实验脚本与数据，要完成一轮可复核的科学探索。
+  job_en: A researcher at the node of forming hypotheses, writing experiment code, running experiments
+    and organizing results handles experiment scripts and data, to complete one round of checkable scientific
+    exploration.
+  pain: 实验代码编写与反复试跑占用大量时间，探索方向多而人力有限，一轮实验周期长；公开材料只给出仓库定位，痛点强度属工作流结构推理。
+  pain_en: Writing experiment code and repeated trial runs consume large amounts of time, exploration
+    directions outnumber available hands, and one experiment round takes long; public material only gives
+    the repository positioning, so pain intensity is a workflow-structural inference.
+  current_alternative: 旧做法是研究者自己写脚本、手动跑实验并整理结果，或让研究生承担重复性实验工作。
+  current_alternative_en: The old way is for researchers to write scripts themselves, run experiments
+    manually and organize results, or to have graduate students take on repetitive experiment work.
+  usage_reason: 推断：相较研究者逐个手写脚本并调度实验，它把编码代理编排成自动执行实验的流程，省掉反复手写与调度实验代码这一步，因此探索方向多、人力有限的实验室会先试用；仓库未提供持续使用或付费证据。
+  usage_reason_en: 'Inference: versus a researcher hand-writing and dispatching each script, it orchestrates
+    coding agents into a flow that executes experiments automatically, removing the step of repeatedly
+    hand-writing and dispatching experiment code, so labs with many directions and limited hands would
+    try it first; the repository provides no sustained-use or payment evidence.'

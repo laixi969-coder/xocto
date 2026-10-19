@@ -1,11 +1,14 @@
 ---
 slug: huggingface-transformers-release-v5201
-name: 'huggingface/transformers: Release v5.20.1'
+name: Transformers
 builder: huggingface
 category: ''
-summary_zh: ''
+summary_zh: 这是开源模型加载库的版本更新，不是独立产品；它把 Reflection AI 的 Beam 模型纳入支持范围，并修复旧版 torch 的加载问题。对应用方而言，可自托管的前沿编码模型多了一个接入选项，但成本与采用影响尚无材料支持。
 inspiration: ''
-summary_en: ''
+summary_en: This is a version update to an open-source model-loading library, not a standalone product;
+  it adds support for Reflection AI's Beam model and fixes loading on older torch versions. For application
+  builders it adds one more self-hostable frontier coding model option, but the material does not support
+  claims about cost or adoption impact.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -33,7 +36,7 @@ summary: "# Release v5.20.1\r\n\r\nSpecial surprise including the new model Beam
   \n\r\n**Full Changelog**: https://github.com/huggingface/transformers/compare/v5.20.0...v5.20.1"
 first_seen: '2026-10-17T00:30:30Z'
 last_seen: '2026-10-19T00:13:37Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -45,7 +48,7 @@ sightings:
   kind: news
 ---
 
-# huggingface/transformers: Release v5.20.1
+# Transformers
 
 # Release v5.20.1
 

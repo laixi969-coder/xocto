@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE1pOGlWSEhscENW
 summary: 分析师：AI融资担忧之际，这两只股票值得买入 提供者 Investing.com 英为财情 Investing.com
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -353,3 +353,48 @@
   usage_reason_en: With no product-specific documentation, feature description or user feedback, there
     is no way to state which step it removes or which checkable result it improves versus the old approach,
     so no evidence-based usage reason can be given.
+- id: req-full-invisible-playwright-mcp-2026-10-19
+  project_slug: invisible-playwright-mcp
+  level: full
+  reviewed_at: '2026-10-19T00:43:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受保护站点上 AI 代理无法完成浏览与抓取的需求，痛点是脚本被风控拦截后反复修补指纹与代理、任务中断；旧做法是自建反检测浏览器或买采集接口，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-155986e12f473fd5
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标 2,769 与项目描述，没有采集团队采用、复购或长期留在工作流的证据，关注度不等于持续采用。
+    evidence_ids:
+    - ev-155986e12f473fd5
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价与买方，可能靠托管服务或支持收费，这是判断而非已验证事实；谁付钱尚不清晰。
+    evidence_ids:
+    - ev-155986e12f473fd5
+  - gate: truth
+    status: challenged
+    reason: 绕过反爬与验证码可能违反目标站点条款或当地法规，交付的合规确定性存疑，产品未公开使用边界与安全说明。
+    evidence_ids:
+    - ev-155986e12f473fd5
+  next_validation: 追踪该仓库 issue 与 discussion 中关于被目标站点封禁、合规限制或企业采用的具体公开记录。
+  market: ''
+  job: 数据采集或自动化测试工程师在目标站点启用反爬与验证码、常规 Playwright 脚本被拦截时，把该 MCP 服务接入 AI 代理，让代理在反检测 Firefox 上打开页面、点击并抓取，产出可用的页面数据或操作结果。
+  job_en: A data-collection or automation-testing engineer, when a target site enables anti-bot and captcha
+    defenses that block ordinary Playwright scripts, connects this MCP server to an AI agent so the agent
+    browses, clicks and scrapes on stealth Firefox and returns usable page data or action results.
+  pain: 公开材料显示其定位是“undetected by anti-bots and captchas”，即脚本被风控拦截后需反复改指纹、代理与等待逻辑，任务中断且人工介入成本高；这是从产品定位与工作流推出的痛点，非用户口述。
+  pain_en: Public material positions it as 'undetected by anti-bots and captchas', implying that once
+    scripts are blocked by risk controls, teams must repeatedly patch fingerprints, proxies and wait logic,
+    breaking tasks and raising manual cost; this is inferred from positioning and workflow, not user testimony.
+  current_alternative: 自建 Playwright/Selenium 加代理池与指纹补丁，或购买商业采集接口、雇人手工复制数据。
+  current_alternative_en: Self-built Playwright/Selenium with proxy pools and fingerprint patches, or
+    buying commercial scraping APIs, or paying people to copy data by hand.
+  usage_reason: 相较自建脚本要自己维护反检测浏览器与指纹，它把反检测 Firefox 封装在 MCP 接口后，代理可直接调用同一套浏览动作，减少每次被拦后重写绕过逻辑这一步；推断长期跑受保护站点的采集团队会因此选择它，尚无用户反馈证实。
+  usage_reason_en: Compared with self-built scripts that require maintaining an anti-detect browser and
+    fingerprints, it wraps stealth Firefox behind an MCP interface so agents call the same browsing actions,
+    removing the step of rewriting bypass logic after each block; inference is that teams scraping protected
+    sites long-term would choose it, with no user feedback yet confirming this.

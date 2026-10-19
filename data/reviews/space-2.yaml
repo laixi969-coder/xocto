@@ -125,3 +125,45 @@
   usage_reason: 公开材料未提供任何用户选择该产品的理由；无法从证据中推断采用动机。
   usage_reason_en: No public material offers a reason users would choose this product; adoption motivation
     cannot be inferred from the evidence.
+- id: req-full-space-2-2026-10-19
+  project_slug: space-2
+  level: full
+  reviewed_at: '2026-10-19T00:45:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 所引证据全部是 NASA、Space.com 与维基百科“Space”词条，与 agent 代码隔离执行无关，无法还原用户任务、痛点与旧替代，价值结构无法成立。
+    evidence_ids:
+    - ev-b9162eee9d435f6c
+    - ev-d8dd20d1fa21afbd
+    - ev-bdbce19faddab4d7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 SPACE 项目官网或仓库 README、部署文档与 issue/discussion，确认其隔离执行能力、运行时支持范围及是否有外部团队实际接入。
+  market: ''
+  job: 平台工程师在自建 agent 执行环境时，需要把 agent 生成的代码和用户提交的代码放进隔离环境运行，并回收执行结果。
+  job_en: Platform engineers building agent execution environments need to run agent-generated and user-submitted
+    code in isolated environments and retrieve execution results.
+  pain: 公开证据中没有一条能说明该产品用户的具体痛点：所引材料全部是 NASA、Space.com 和维基百科“Space”词条，与 agent 代码执行无关，无法确认越权、数据污染或人工审查负担是否真实存在。
+  pain_en: 'No public evidence describes this product''s user pain: all cited items are NASA, Space.com
+    and the Wikipedia ''Space'' article, unrelated to agent code execution, so privilege escalation, data
+    contamination or manual review burden cannot be confirmed.'
+  current_alternative: 公开材料未提供任何关于旧做法的信息；自建容器、通用云沙箱或人工复制执行都只是推测，没有证据支持。
+  current_alternative_en: Public material provides no information on prior practice; self-built containers,
+    generic cloud sandboxes or manual copy-and-run are only speculation without supporting evidence.
+  usage_reason: 无法判断用户为何选择它：现有证据与产品功能完全错配，既无用户反馈也无客户案例，缺少从旧做法到该产品的选择链条。
+  usage_reason_en: 'Why users would choose it cannot be determined: the available evidence is entirely
+    mismatched with the product, with no user feedback or customer cases, leaving no chain from prior
+    practice to this product.'

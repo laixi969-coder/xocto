@@ -80,3 +80,53 @@
     hand local documents to a desktop app, which generates exploratory learning paths and explanations,
     producing reviewable study material that the user must still verify Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-unyra-2026-10-19
+  project_slug: unyra
+  level: full
+  reviewed_at: '2026-10-19T00:45:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自学者把零散本地资料转成可复习学习内容的需求，痛点是缺少结构、需自行梳理并反复切换阅读与整理；本地优先还回应资料不外传的顾虑。公开材料仅证明产品定位与任务闭环，痛点强度属工作流结构推理，尚无用户反馈或量化数据。
+    evidence_ids:
+    - ev-491eaa14df399c33
+    - ev-0277f31737ce3182
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从41升至46，说明有开发者关注，但收藏与复刻只反映关注度，不能证明目标自学者持续使用或把它留在学习流程中；缺少issue、讨论或用户评价说明真实使用场景。
+    evidence_ids:
+    - ev-491eaa14df399c33
+    - ev-0277f31737ce3182
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价、付费主体或采购路径；作为开源桌面应用，钱可能来自个人订阅、开源赞助或后续to B授权，但这只是判断而非已验证事实，单位经济无法核算。
+    evidence_ids:
+    - ev-491eaa14df399c33
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺生成学习路径与讲解，但公开材料未展示输入格式、生成质量、可复现交付或人工核对边界；学习内容准确性仍需用户自判，交付确定性缺少可核对证据。
+    evidence_ids:
+    - ev-491eaa14df399c33
+    - ev-0277f31737ce3182
+  next_validation: 追踪 unyra 仓库的 README、issue 与 discussion，确认实际支持的输入格式、生成交付形态及是否有用户报告真实学习场景使用。
+  market: ''
+  job: 自学者在准备理解一个新主题、手头已有零散本地文档时，把这些材料交给本地优先的桌面应用，由它生成探索式学习路径与讲解，最终得到可复习的学习材料。
+  job_en: A self-learner preparing to understand a new topic with scattered local documents hands those
+    materials to a local-first desktop app, which generates an exploratory learning path and explanations,
+    producing reviewable study material.
+  pain: 零散本地资料缺少组织与讲解，自学者需要自己梳理结构、判断先学什么，并反复在阅读与整理之间切换；公开材料只支持这一任务摩擦，未给出频率或后果的量化数据。
+  pain_en: Scattered local materials lack structure and explanation, so the self-learner must organize
+    them, decide what to learn first, and switch repeatedly between reading and note-taking; public materials
+    support this task friction but give no quantified frequency or consequence.
+  current_alternative: 公开材料未说明具体旧做法；从任务结构推断，替代方式是自学者手动阅读原始文档、自行做笔记或提纲，或把材料粘贴进通用聊天工具逐段提问。
+  current_alternative_en: Public materials do not name the prior workflow; inferred from the task structure,
+    the alternative is manually reading source documents, writing one's own notes or outline, or pasting
+    material into a general chat tool and asking section by section.
+  usage_reason: 推断：相较手动整理或通用聊天工具逐段提问，该应用把本地文档直接作为输入，一次生成学习路径与讲解，减少“先自己搭结构、再逐段提问”的步骤；本地优先意味着材料不必先上传到第三方服务，因此在意资料留在本机的自学者会在准备新主题时选择它。这是工作流结构推理，尚无用户反馈证实。
+  usage_reason_en: 'Inference: compared with manual outlining or asking a general chat tool section by
+    section, the app takes local documents as direct input and generates a learning path and explanations
+    in one pass, removing the step of building structure first and then querying piecemeal; local-first
+    means materials need not be uploaded to a third-party service, so self-learners who want their materials
+    to stay on their machine would choose it when preparing a new topic. This is workflow-stru'

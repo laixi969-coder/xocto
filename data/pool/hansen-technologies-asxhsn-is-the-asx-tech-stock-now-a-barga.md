@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPNEZVNFBxRGR0
 summary: 'Hansen Technologies (ASX:HSN): Is the ASX Tech Stock Now a Bargain? Kalkine Media'
 first_seen: '2026-08-31T06:06:00Z'
 last_seen: '2026-09-01T14:56:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

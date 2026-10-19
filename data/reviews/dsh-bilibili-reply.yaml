@@ -77,3 +77,47 @@
   usage_reason_en: 'The task is: Bilibili creators or community operators have the AI read a video when
     mentioned and auto-reply with a comment carrying jumpable timestamps Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-dsh-bilibili-reply-2026-10-19
+  project_slug: dsh-bilibili-reply
+  level: full
+  reviewed_at: '2026-10-19T00:43:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决被@后自动回带时间戳评论的任务，但公开材料只描述功能，未说明手动回评的耗时、频率或不回应的后果；该动作低频且可忽略，属于没有也行的便利，痛点刚性不足。
+    evidence_ids:
+    - ev-cdb8fb9c82e26991
+    - ev-a9a79bc19451e33f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 README 更新，确认是否有真实创作者部署使用、替代了何种手动回评流程，以及是否涉及平台审核与人工确认环节。
+  market: ''
+  job: B站创作者或运营在视频评论区被@时，需要处理被@视频的内容，让AI读懂视频并自动回一条带可跳转时间戳的评论，以完成回应互动、维持评论区活跃的任务。
+  job_en: When mentioned in a Bilibili video comment thread, a creator or community operator needs the
+    AI to read the referenced video and auto-post a reply comment with jumpable timestamps, so as to respond
+    and keep the comment section active.
+  pain: 公开材料只说明产品能自动回评论，未给出创作者被@后手动回评的具体耗时、频率或不回应的后果；从工作流看，被@回评是低频、轻量的社交动作，不解决也不会造成刚性损失，痛点强度缺乏公开证据。
+  pain_en: Public materials only state that the tool auto-replies; they give no evidence of the time cost,
+    frequency, or consequence of manual replies when mentioned. Structurally, replying to an @ is a low-frequency,
+    lightweight social action with no rigid loss if left undone.
+  current_alternative: 公开材料未说明现有替代方式；按工作流推断，创作者通常手动看视频、写评论或直接忽略@，平台本身也提供评论与时间戳功能，替代成本很低。
+  current_alternative_en: Public materials do not describe existing alternatives; by workflow inference,
+    creators typically watch the video and reply manually or simply ignore the mention, and the platform
+    already offers comments and timestamps at low cost.
+  usage_reason: 推断：它通过自动读视频并生成带时间戳的评论，省去手动观看和撰写回复这一步；但由于被@回评本身低频且可忽略，省下的负担有限，公开材料也没有用户反馈或案例说明哪类用户会在什么情况下优先选择它，因此选择动机不成立。
+  usage_reason_en: 'Inference: it saves the step of manually watching and drafting a reply by auto-reading
+    the video and generating a timestamped comment. But since replying to mentions is low-frequency and
+    skippable, the saved burden is limited, and no public feedback or case shows which users would prefer
+    it, so the adoption motive is not established.'

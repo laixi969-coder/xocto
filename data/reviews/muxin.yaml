@@ -81,3 +81,52 @@
   usage_reason_en: 'The task is: Developers or operators view agent sessions, desktops, files, logs and
     code repositories across multiple Mac, Linux and Windows machines Public materials do not yet explain
     why users choose this product over their existing approach.'
+- id: req-full-muxin-2026-10-19
+  project_slug: muxin
+  level: full
+  reviewed_at: '2026-10-19T00:44:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多机开发者在一个入口查看代理会话、桌面、文件、日志与仓库的需求，痛点是跨系统切换与上下文拼接；旧做法为逐台 SSH、远程桌面和日志工具。公开材料仅给出产品定位与 312 星仓库，未量化耗时或出错代价，故价值成立属工作流结构推理。
+    evidence_ids:
+    - ev-1b6798ae67132d99
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库记录 312 个星标，说明开发者社区已注意到该项目，但星标只属关注度，未见 issue、讨论或评价显示目标用户持续把它留在多机工作流中，也未见强场景采用证据。
+    evidence_ids:
+    - ev-1b6798ae67132d99
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或采购记录，无法判断收入来自个人开发者订阅、团队席位还是开源赞助；这是模式缺口而非需求不存在，钱从哪来仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-1b6798ae67132d99
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明跨机访问的权限边界、凭据管理、审计日志与人工确认机制，也未提供可复现部署文档，因此无法核对它能否确定性交付“安全地跨机操作”这一承诺。
+    evidence_ids:
+    - ev-1b6798ae67132d99
+  next_validation: 追踪 muxin.dev 仓库的 issue 与 discussion，以及官网是否上线定价页或部署文档，确认权限边界与付费路径的公开说明。
+  market: ''
+  job: 开发者或运维人员在同时管理多台 Mac、Linux、Windows 机器时，需要在一个应用里查看各机的代理会话、桌面、文件、日志和 公开代码仓库 仓库，并让 AI 代理通过 MCP 服务器接入这些机器完成操作。
+  job_en: Developers or operators managing several Mac, Linux and Windows machines need one app to view
+    agent sessions, desktops, files, logs and public code repository repositories across them, and to
+    let AI agents reach those machines through an MCP server.
+  pain: 多机环境下，会话、文件、日志和仓库分散在不同系统与终端里，用户要在 SSH、远程桌面、日志工具和代码托管页面之间反复切换并手工拼接上下文；公开材料只给出产品定位，未量化切换耗时或出错代价，痛点强度属工作流结构推理。
+  pain_en: Across multiple machines, sessions, files, logs and repositories are scattered across systems
+    and terminals, forcing users to switch among SSH, remote desktop, log tools and code hosting pages
+    and stitch context by hand; public material states the positioning but does not quantify switching
+    cost or error cost, so pain intensity is a workflow-structure inference.
+  current_alternative: 旧做法是分别用 SSH、各平台远程桌面、tail 日志、文件同步工具和 公开代码仓库 网页逐台查看，再靠人工记忆把多机状态串起来；公开材料未说明用户实际替代了哪一套组合。
+  current_alternative_en: The incumbent approach is to use SSH, per-platform remote desktops, tail-based
+    log viewing, file sync tools and the public code repository web UI machine by machine, then reconstruct
+    multi-machine state from memory; public material does not show which combination users actually replace.
+  usage_reason: 推断：相较逐台 SSH 和远程桌面切换，它把多机会话、桌面、文件、日志与仓库收进一个入口，并让 AI 代理经 MCP 直接访问这些机器，减少的是“逐台登录再拼上下文”这一步；因此同时维护多台异构机器、又在跑
+    AI 代理会话的开发者会在需要跨机排查或操作时选择它。该动机尚无用户反馈或案例佐证。
+  usage_reason_en: 'Inference: compared with switching between per-machine SSH and remote desktops, it
+    consolidates multi-machine sessions, desktops, files, logs and repositories into one entry point and
+    lets AI agents reach those machines via MCP, removing the step of logging in machine by machine and
+    reassembling context; developers running AI agent sessions across heterogeneous machines would therefore
+    choose it when they need cross-machine inspection or operations. This motive is not yet bac'

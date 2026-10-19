@@ -317,3 +317,51 @@
     no longer hand-trim logs before handing results to the model, which is why Windows dsh users who run
     many commands and watch token bills would try it first; stars rising from 173 to 2,568 only shows
     attention, with no retention or payment evidence yet.'
+- id: req-full-dsh-ops-2026-10-19
+  project_slug: dsh-ops
+  level: full
+  reviewed_at: '2026-10-19T00:43:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Windows 上 dsh 用户跑命令后 shell 输出过长、token 消耗高的问题，痛点在长会话中真实存在，旧做法是手工裁剪或写过滤脚本；这是基于产品说明的工作流推理，谁付钱尚不清楚。
+    evidence_ids:
+    - ev-30f1cc9557e447aa
+    - ev-7d11cfff0c7a90ed
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 716 增至 3064，说明关注度上升，但公开材料没有 issue、评价或案例表明开发者已把它放进日常命令流，关注不等于持续采用。
+    evidence_ids:
+    - ev-30f1cc9557e447aa
+    - ev-7d11cfff0c7a90ed
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价、赞助或商业版路径，钱可能来自开源赞助或后续收费，这是判断而非已验证事实；也没有客户采购记录。
+    evidence_ids:
+    - ev-7d11cfff0c7a90ed
+  - gate: truth
+    status: insufficient
+    reason: 工具与 dsh 宿主强绑定，若宿主内置输出压缩，独立价值会被吸收；压缩是否丢失关键报错信息、是否可配置，公开材料均未说明。
+    evidence_ids:
+    - ev-30f1cc9557e447aa
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认输出压缩的具体规则、可配置性，以及是否有使用者报告实际节省的 token 量或压缩后丢失信息的案例。
+  market: ''
+  job: 在 Windows 上用 dsh 的开发者，在让模型执行 Bash、PowerShell 7 或 Rust 命令并读取输出时，需要把冗长的 shell 输出压缩成可继续推理的上下文，完成一次命令—反馈—再推理的循环。
+  job_en: A developer using dsh on Windows runs Bash, PowerShell 7 or Rust commands through the model,
+    then must compress verbose shell output into context the model can keep reasoning over, completing
+    one command-feedback-reasoning loop.
+  pain: shell 输出冗长，整段塞进上下文会快速消耗 token 并推高单次任务成本，长会话中尤其明显；公开材料只说明工具旨在减少 token 消耗与任务耗时，未给出具体压缩规则或节省量。
+  pain_en: Shell output is verbose; feeding it whole into context burns tokens fast and raises per-task
+    cost, especially in long sessions. Public material only states the toolkit aims to cut token usage
+    and task time, without compression rules or measured savings.
+  current_alternative: 手工裁剪输出、只贴关键行、写自定义过滤脚本，或干脆少跑几条命令。
+  current_alternative_en: Manually trimming output, pasting only key lines, writing custom filter scripts,
+    or simply running fewer commands.
+  usage_reason: 推断：它把命令执行与输出压缩合并为一步，开发者不必再手工裁剪日志就能把结果交回模型，因此常跑命令行、在意 token 账单的 Windows dsh 用户会先试用；仓库星标从
+    716 增至 3064 只说明关注度上升，尚无留存或付费证据。
+  usage_reason_en: 'Inference: it merges command execution and output compression into one step, so developers
+    no longer hand-trim logs before returning results to the model, which is why Windows dsh users who
+    run many commands and watch token bills would try it first; stars rising from 716 to 3,064 only show
+    attention, with no retention or payment evidence.'

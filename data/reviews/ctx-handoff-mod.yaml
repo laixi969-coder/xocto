@@ -386,3 +386,56 @@
     is away, removing the restatement step; it also turns what the user taught Claude into project notes,
     with the checkable result being a continuable session and reusable notes, though notes still need
     human confirmation. Long-session developers would choose it when context fills and they'
+- id: req-full-ctx-handoff-mod-2026-10-19
+  project_slug: ctx-handoff-mod
+  level: full
+  reviewed_at: '2026-10-19T00:42:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Claude Code 长会话上下文写满后任务中断、需手动重述项目背景的痛点；仓库说明显示其自动交接新会话并沉淀项目笔记，旧做法是手动复制背景重开会话。这是基于产品说明与工作流的结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-731a714d8fe29afd
+    - ev-4239989b089ffad0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 80 增至 112，说明开发者社区持续关注；但收藏与关注只反映规模与兴趣，缺少 issue、讨论或用户反馈证明它被长期留在工作流中，也未发现中文生态对应项目。
+    evidence_ids:
+    - ev-731a714d8fe29afd
+    - ev-9dd1ae6a13f49a93
+    - ev-7a89e04d35544b55
+  - gate: model
+    status: insufficient
+    reason: 这是开源模块，公开材料未见定价、赞助或商业授权路径；钱可能来自开发者个人或团队自用，也可能靠捐赠，属判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-731a714d8fe29afd
+  - gate: truth
+    status: insufficient
+    reason: 交接内容与项目笔记仍需人工确认，公开材料未给出交接准确率、缓存保持效果或失败边界的可复现证据，交付确定性尚缺实测支撑。
+    evidence_ids:
+    - ev-731a714d8fe29afd
+    - ev-3743a499cfab90c8
+  next_validation: 追踪该仓库的 issue 与 discussion，确认开发者是否报告上下文交接的实际使用场景、失败案例与重复使用情况。
+  market: ''
+  job: 使用 Claude Code 的开发者在一个编码任务把上下文窗口写满时，需要把当前任务状态、已交代的项目背景和已教给 Claude 的约定交接给一个新会话，让编码工作不中断地继续。
+  job_en: A developer using Claude Code whose context window fills mid-task needs to hand off the current
+    task state, project background, and taught conventions to a fresh conversation so coding continues
+    without interruption.
+  pain: 上下文写满后，旧会话无法继续承载任务；开发者要么手动开新会话并重新交代项目背景与约定，要么在旧会话里硬撑导致输出质量下降。重复交代和状态丢失是长会话中的真实摩擦，公开仓库说明直接针对这一环节。
+  pain_en: When context fills, the old session can no longer carry the task; the developer must manually
+    open a new conversation and restate project background and conventions, or keep pushing in a degraded
+    session. Repeated restatement and lost state are real friction in long sessions, and the repository
+    description targets exactly this step.
+  current_alternative: 当前替代是手动新建会话并重新粘贴项目背景、约定和任务状态，或依赖 Claude Code 自带的上下文压缩/摘要继续在旧会话里推进。
+  current_alternative_en: The current alternative is manually starting a new conversation and re-pasting
+    project background, conventions, and task state, or relying on Claude Code's built-in context compaction/summary
+    to keep going in the old session.
+  usage_reason: 推断：相较手动重述，该模块在上下文耗尽时自动生成交接并转入新会话，把用户原本要做的“复制背景—开新会话—重新交代”合并为一次自动动作，同时把教给 Claude 的内容沉淀为项目笔记；因此正在跑长编码任务、频繁撞上下文上限的
+    Claude Code 用户会在会话即将写满时选择它。
+  usage_reason_en: 'Inference: versus manual restatement, the module automatically produces a handoff
+    and moves to a fresh conversation when context is exhausted, collapsing the copy-background, open-new-session,
+    and re-explain steps into one automatic action while persisting taught content as project notes; thus
+    Claude Code users running long coding tasks and repeatedly hitting the context limit would choose
+    it as a session nears full.'

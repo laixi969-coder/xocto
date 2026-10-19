@@ -87,3 +87,53 @@
   usage_reason_en: 'Inference: if it truly removes the Docker dependency, developers in restricted environments
     might try it for local deployment; without concrete action or outcome evidence, there is no basis
     to say why it would be chosen repeatedly.'
+- id: req-full-opencode-rust-2026-10-19
+  project_slug: opencode-rust
+  level: full
+  reviewed_at: '2026-10-19T00:44:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决私有代码环境下本地运行 AI 编码代理的需求，痛点是容器化部署增加环境负担且代码不宜上云；免 Docker 的单二进制交付使任务闭环可确定，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-4056edbab8a99a94
+    - ev-4b291d8a0599e0d7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 62 增至 73 仅反映关注度，不能证明持续采用；缺少 issue、讨论或用户评价说明开发者是否真把它留在工作流里。
+    evidence_ids:
+    - ev-4056edbab8a99a94
+    - ev-4b291d8a0599e0d7
+    - ev-b8e184aa61b9081e
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、赞助或商业支持路径，谁付钱无法从公开材料判断；这是判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-4056edbab8a99a94
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明代理能改哪些代码、如何验证改动、人工确认边界在哪，交付确定性无法核对；免 Docker 部署步骤也缺可复现文档。
+    evidence_ids:
+    - ev-4b291d8a0599e0d7
+    - ev-b8e184aa61b9081e
+  next_validation: 追踪该仓库的 issue、release 说明与 README 部署文档，确认本地代理实际支持的编码任务、免 Docker 启动步骤及用户反馈。
+  market: ''
+  job: 有代码保密或离线要求的后端开发者，在本地机器上处理私有代码库时，用 opencode-rust 的 CLI/TUI/HTTP 服务启动 AI 编码代理，完成代码修改任务，且不依赖 Docker。
+  job_en: Backend developers with code-confidentiality or offline constraints run an AI coding agent via
+    opencode-rust's CLI/TUI/HTTP server on their local machine to modify private code, without relying
+    on Docker.
+  pain: 公开材料只说明它是 Rust 写的本地代理且免 Docker，未给出用户抱怨或案例；从工作流结构推理，痛点在于容器化部署代理增加环境准备与权限负担，私有代码又不宜交给云端代理，二者叠加使本地起步成本高。
+  pain_en: Public material only states it is a Rust local agent needing no Docker, with no user complaints
+    or cases; by workflow inference, the pain is that container-based agent deployment adds environment
+    and permission overhead while private code cannot go to cloud agents, raising the cost of getting
+    started locally.
+  current_alternative: 旧做法是使用需要 Docker 的编码代理、云端托管编码助手，或自行拼装脚本调用模型 API；候选材料未描述具体替代行为，此为结构推理。
+  current_alternative_en: The old way is Docker-dependent coding agents, cloud-hosted coding assistants,
+    or hand-rolled scripts calling model APIs; the candidate describes no concrete alternative, so this
+    is structural inference.
+  usage_reason: 推断：相较需要 Docker 的旧做法，它用单个 Rust 二进制直接提供 CLI、TUI 与 HTTP 服务，省去容器镜像拉取与守护进程配置这一步，使受限环境或离线机器上的开发者能在本地直接启动代理；缺少用户反馈，动机未经事实确认。
+  usage_reason_en: 'Inference: versus Docker-dependent tools, a single Rust binary exposing CLI, TUI and
+    HTTP server removes the image-pull and daemon-configuration step, letting developers on restricted
+    or offline machines start the agent locally; without user feedback this motive is unconfirmed.'

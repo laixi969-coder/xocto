@@ -134,3 +134,48 @@
   usage_reason_en: 'Inference: versus manually applying templates, it fixes style as named templates and
     has the agent execute cutting and mixing directly, removing the per-clip alignment step, so creators
     or agency operators with a fixed style and daily voice-over output would choose it for batch production.'
+- id: req-full-heditor-2026-10-19
+  project_slug: heditor
+  level: full
+  reviewed_at: '2026-10-19T00:43:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播素材到竖屏成片的重复剪辑与混音需求，痛点在于风格靠人记、逐条对齐耗时，旧做法是手动套模板或外包，结构上成立。
+    evidence_ids:
+    - ev-101b4ffca527d850
+    - ev-50c9ac2055b7eb63
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 53 增至 79 的关注度信号，没有用户评价、案例或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-101b4ffca527d850
+    - ev-82147bfd526e9420
+  - gate: model
+    status: insufficient
+    reason: 开源技能未披露定价或付费路径，买方可能是个人创作者或代运营团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-50c9ac2055b7eb63
+  - gate: truth
+    status: insufficient
+    reason: 未核验成片质量、风格一致性以及人工复核边界，交付能否确定性发生仍缺证据。
+    evidence_ids:
+    - ev-101b4ffca527d850
+  next_validation: 收集该仓库的 issue、discussion 或 README 示例，确认实际产出的竖屏成片样例与人工复核环节。
+  market: ''
+  job: 短视频剪辑师或内容运营拿到一段口播素材后，需要按固定命名风格剪成竖屏成片并完成口播优先混音，以便当天发布。
+  job_en: A short-form editor or content operator takes a voice-over clip and must cut it into a vertical
+    finished video in a fixed named style with voice-first mixing, so it can be published the same day.
+  pain: 竖屏剪辑与混音是重复手工步骤，风格靠人记，换人或批量出片就要重新对齐口播与画面；不解决的后果是发布节奏卡在剪辑环节。
+  pain_en: Vertical cutting and mixing are repetitive manual steps; style lives in people's heads, and
+    handoffs or batch output require realigning voice-over to visuals, stalling publishing cadence at
+    the editing step.
+  current_alternative: 在剪映、Premiere 等图形界面里手动套模板、逐条对齐口播与画面，或外包给剪辑师。
+  current_alternative_en: Manually applying templates and aligning voice-over to visuals in CapCut or
+    Premiere, or outsourcing to a freelance editor.
+  usage_reason: 推断：相较手动套模板，它把风格固化为命名模板并由 AI 代理直接执行剪辑与混音，省掉逐条对齐这一步，因此固定风格、日更口播的创作者或代运营团队会在批量出片时选择它。
+  usage_reason_en: 'Inference: versus manually applying templates, it fixes style as named templates and
+    has the AI agent execute cutting and mixing directly, removing the per-clip alignment step, so creators
+    or agency operators with a fixed style and daily voice-over output would choose it for batch production.'

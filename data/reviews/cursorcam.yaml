@@ -78,3 +78,53 @@
   usage_reason_en: 'The task is: Developers or product teams demoing a web app to clients or teammates
     ask an AI agent to click through the page and return a demo video with zoomed clicks Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-cursorcam-2026-10-19
+  project_slug: cursorcam
+  level: full
+  reviewed_at: '2026-10-19T00:42:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把网页操作路径转成可对外播放演示视频的需求，痛点是手动录屏后逐段加缩放、改版即重录的返工；公开说明已能还原输入（点击路径）、动作（代理点击并放大）与交付（MP4），属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+    - ev-c703f0d928a44545
+  - gate: consensus
+    status: insufficient
+    reason: 仓库约 58–60 星、少量复刻，说明开发者社区注意到它，但公开材料没有用户评价、issue 讨论或重复使用记录，无法判断是否形成稳定场景共识；关注度不等于持续采用。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+    - ev-c703f0d928a44545
+  - gate: model
+    status: insufficient
+    reason: 公开页面未给出定价、付费主体或调用成本结构；可能来自开发者个人订阅或团队工具采购，但这是判断而非已验证事实，单位经济与买方均未核验。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+  - gate: truth
+    status: insufficient
+    reason: 说明称可配合任意 AI 代理或独立 CLI 使用，但公开材料未展示失败处理、登录态页面、录制稳定性与人工确认边界，交付能否确定性发生尚缺可复现证据。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+    - ev-c703f0d928a44545
+  next_validation: 追踪 cursorcam 仓库的 issue、discussion 与 README 更新，确认是否有用户报告实际录制场景、失败处理与重复使用。
+  market: ''
+  job: 开发者或产品团队在向客户、投资人演示网页应用，或为文档录制操作流程时，需要把一段可复现的点击路径变成带点击放大效果的 MP4 演示视频，而不是自己手动录屏再剪辑。
+  job_en: Developers or product teams demoing a web app to clients or investors, or recording walkthroughs
+    for docs, need a reproducible click path turned into an MP4 demo video with zoomed clicks, instead
+    of manually screen-recording and editing.
+  pain: 公开说明只给出产品能力，未提供用户抱怨；从工作流结构推理，手动录屏需要反复重录、后期加缩放与光标高亮，页面状态或点击顺序一变就要重做，交付一段可对外播放的演示视频存在重复劳动与返工成本。
+  pain_en: Public materials state product capability, not user complaints; by workflow inference, manual
+    screen recording requires repeated retakes plus post-editing for zoom and cursor emphasis, and any
+    change in page state or click order forces a redo, creating rework cost in delivering a shareable
+    demo video.
+  current_alternative: 旧做法是人工用录屏工具逐次点击录制，再在剪辑软件里加缩放、光标与字幕；或干脆用截图和文字说明代替视频。公开材料未说明它具体替代了哪款工具。
+  current_alternative_en: The old way is manual screen recording of each click, then adding zoom, cursor
+    and captions in an editor, or replacing video with screenshots and text. Public materials do not name
+    which tool it replaces.
+  usage_reason: 推断：相较手动录屏加后期，它把“点击路径”直接交给 AI 代理执行并自动生成带点击放大的成片，省去重录与逐段加缩放这两步；因此需要频繁产出演示视频、又不想维护剪辑流程的开发者会在改版后重录演示时选择它。这是结构推理，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus manual recording plus editing, it hands the click path to an AI
+    agent and auto-produces a video with zoomed clicks, removing the retake and per-segment zoom steps;
+    developers who produce demo videos often and do not want to maintain an editing pipeline would choose
+    it when re-recording after a UI change. This is structural reasoning, not yet backed by user feedback.'

@@ -21,7 +21,7 @@ canonical_url: https://legendofhyrule.com
 summary: The Zelda timeline to catch up before the Ocarina of Time remake
 first_seen: '2026-10-19T00:13:33Z'
 last_seen: '2026-10-19T00:13:33Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

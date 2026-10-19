@@ -1,0 +1,85 @@
+- id: req-initial-3am-super-intelligence-2026-10-19
+  project_slug: 3am-super-intelligence
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生产事故中信息分散、人工排查慢的痛点，交付是事故结论与修复验证，旧流程明确存在。
+    evidence_ids:
+    - ev-b3d93a8ab5fd2cd9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、客户案例或采用数据，无法判断工程师是否真的把它放进事故流程。
+    evidence_ids:
+    - ev-b3d93a8ab5fd2cd9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与计费方式，按事故还是按席位收费不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b3d93a8ab5fd2cd9
+  - gate: truth
+    status: insufficient
+    reason: 事故排查涉及生产系统权限与误判风险，公开材料未说明接入范围、人工确认边界与安全措施。
+    evidence_ids:
+    - ev-b3d93a8ab5fd2cd9
+  next_validation: 收集该产品官方页面或文档，确认其可接入的监控与日志源、人工确认环节及定价方式。
+  market: ''
+  job: 值班工程师在线上生产事故发生时，把告警、日志与报错信息交给工具，完成排查、定位根因并验证修复。
+  job_en: On-call engineers hand alerts, logs and error traces to the tool during a live production incident
+    to investigate, locate root cause and verify a fix.
+  pain: 事故发生时信息散落在多个监控与日志系统，人工逐条比对耗时，停机每分钟都在造成损失，且排查质量依赖当班者经验。
+  pain_en: During an incident, information is scattered across monitoring and log systems; manual cross-checking
+    is slow, downtime costs money every minute, and investigation quality depends on who is on call.
+  current_alternative: 工程师手动翻看日志平台、监控面板和工单，凭经验串联线索，必要时拉群协作。
+  current_alternative_en: Engineers manually scan log platforms, dashboards and tickets, string clues
+    together by experience, and pull colleagues into a chat when needed.
+  usage_reason: 推断：相较人工逐条翻日志，它把告警、日志与报错一次性交给模型做串联排查并给出修复验证，减少工程师在信息收集与线索拼接上的步骤，因此缺少专职 SRE 的团队在夜间或突发事故时更可能选择它；公开材料尚无用户反馈或客户案例支持这一动机。
+  usage_reason_en: 'Inference: versus manually scanning logs, it feeds alerts, logs and errors to a model
+    in one pass for chained investigation and fix verification, cutting the information-gathering and
+    clue-stitching steps, so teams without dedicated SREs are more likely to pick it during night or sudden
+    incidents; public material has no user feedback or customer case supporting this motive yet.'
+- id: req-full-3am-super-intelligence-2026-10-19
+  project_slug: 3am-super-intelligence
+  level: full
+  reviewed_at: '2026-10-19T00:41:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向同名乐队与歌曲，没有任何材料说明该产品解决什么需求、痛点为何刚性、交付是否可确定，连用户任务都无法从证据中还原。
+    evidence_ids:
+    - ev-e3558b81a3b62632
+    - ev-4200c6ee0b35931a
+    - ev-8d91b90e6e2656ef
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或产品文档页面，确认其是否真实存在、接入哪些监控与日志源，以及是否披露人工确认环节与定价方式。
+  market: ''
+  job: 值班工程师在生产事故发生时，把告警、日志与报错材料交给工具，完成排查、定位根因并验证修复。
+  job_en: On-call engineers hand alerts, logs and error traces to the tool during a production incident
+    to investigate, locate root cause and verify a fix.
+  pain: 公开证据中没有任何材料描述该产品用户的具体痛点、事故处理负担或不采用它的后果；现有证据全部指向同名乐队与歌曲，无法支持生产事故排查这一任务。
+  pain_en: No public evidence describes the product's users' specific pain, incident-handling burden,
+    or consequences of not adopting it; all evidence points to a same-named band and song, so it cannot
+    support the incident-investigation task.
+  current_alternative: 公开材料未提供任何关于旧做法的信息；无法确认工程师当前如何排查生产事故。
+  current_alternative_en: Public material provides no information about existing practices; it is impossible
+    to confirm how engineers currently investigate production incidents.
+  usage_reason: 无法判断用户为何会选择它：现有证据与产品功能无关，缺少产品页面、文档或用户反馈说明其具体动作与可核对结果。
+  usage_reason_en: 'Cannot determine why users would choose it: existing evidence is unrelated to the
+    product''s function, and there is no product page, documentation or user feedback describing its concrete
+    actions or verifiable results.'

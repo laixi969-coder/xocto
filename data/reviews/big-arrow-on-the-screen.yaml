@@ -325,3 +325,47 @@
     at the moment of explanation, with click-through marks that vanish on their own, removing the leave-the-screen
     and post-annotate step; developers who frequently demo or record AI coding sessions would pick it
     when they need to point at UI locations in real time.'
+- id: req-full-big-arrow-on-the-screen-2026-10-19
+  project_slug: big-arrow-on-the-screen
+  level: full
+  reviewed_at: '2026-10-19T00:42:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决讲解时指向屏幕位置的需求，但公开材料只描述代理可画箭头、方框和文字并自动消失，未说明旧做法哪一步费时或出错，也未见用户抱怨或案例；痛点只能从功能反推，属于没有也行的小工具，价值关不成立。
+    evidence_ids:
+    - ev-abc41b7c1bc7337a
+    - ev-bd087fa3d239aef4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue 或 discussion，确认是否有用户描述真实讲解场景中标注替代了哪一步旧做法，以及是否出现重复使用或留存反馈。
+  market: ''
+  job: 开发者在向他人演示或讲解 Mac 上的界面、代码或操作流程时，需要让 AI 代理在屏幕上直接画出箭头、方框和文字，指向正在说明的位置，以便观众跟上讲解节奏。
+  job_en: While demoing or walking through a Mac interface, code, or workflow, a developer needs an AI
+    agent to draw arrows, boxes, and text directly on the screen pointing at what is being explained so
+    the audience can follow along.
+  pain: 公开材料只说明代理可以在屏幕上标注并自动消失，没有说明讲解时原来哪一步费时、出错或造成观众理解障碍；痛点只能从功能反推，缺少用户抱怨或案例支撑。
+  pain_en: Public material only says the agent can annotate the screen and vanish automatically; it does
+    not say which step of explaining was slow, error-prone, or caused audience confusion. The pain can
+    only be inferred from the feature, with no user complaints or cases.
+  current_alternative: 讲解者用鼠标圈画、截图后加标注、口头描述位置，或使用系统自带标注工具；这些做法在公开材料中未被对比或抱怨。
+  current_alternative_en: Presenters circle with the mouse, annotate screenshots afterwards, describe
+    positions verbally, or use built-in annotation tools; none of these are compared or complained about
+    in the public material.
+  usage_reason: 推断：若代理能按讲解内容自动在屏幕上画出箭头并自动消失，可省去手动圈画或截图加标注的动作；但公开材料没有用户反馈或案例说明这一动作确实构成负担，也没有留存或重复使用证据，因此无法确认用户为何选择它。
+  usage_reason_en: 'Inference: if the agent can automatically draw arrows on screen per the explanation
+    and vanish by itself, it could remove the manual circling or screenshot-annotation step; but public
+    material has no user feedback or cases showing that step is actually burdensome, nor retention or
+    repeat-use evidence, so why users choose it cannot be confirmed.'

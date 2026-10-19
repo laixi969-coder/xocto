@@ -177,3 +177,50 @@
     plugin lets developers adjust or compress tasks before exhaustion without switching windows, so heavy
     long-session Claude Code users would install it; the repository shows only star counts, with no retention
     or team adoption evidence.'
+- id: req-full-claude-code-mods-2026-10-19
+  project_slug: claude-code-mods
+  level: full
+  reviewed_at: '2026-10-19T00:42:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长编码会话中上下文与用量不可见、耗尽才发现的问题，痛点具体且不采用的代价是任务中断，旧替代是切窗口或凭经验估计；这是基于产品能力与旧流程的结构推理。
+    evidence_ids:
+    - ev-b5022b0469b5d649
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 242 增至 277 只说明有开发者关注，没有 issue 讨论、安装量或团队采用证据，共识强度未知。
+    evidence_ids:
+    - ev-b5022b0469b5d649
+    - ev-b1e9bbdbd453fca4
+  - gate: model
+    status: insufficient
+    reason: 判断：这是开源插件，未见收费或赞助路径，买方与付费方式均未核验，可能靠社区维护而非商业收入。
+    evidence_ids:
+    - ev-b5022b0469b5d649
+  - gate: truth
+    status: insufficient
+    reason: 插件依赖 Claude Code 的 hooks 接口，官方接口变动会直接影响可用性，兼容范围与维护承诺未在材料中说明。
+    evidence_ids:
+    - ev-b5022b0469b5d649
+  next_validation: 查看该仓库的 issue 与 discussion，确认是否有开发者报告长期使用、兼容性问题和维护者回应节奏。
+  market: ''
+  job: 使用 Claude Code 的开发者，在长时间编码会话中处理代码与对话上下文，需要随时知道上下文还剩多少、额度用到哪里，并在同一终端里完成代码审查与文件预览。
+  job_en: Developers using Claude Code who, during long coding sessions, work with code and conversation
+    context and need to know how much context remains and how much quota is used, while doing code review
+    and file preview in the same terminal.
+  pain: 上下文写满或额度耗尽往往在报错时才被发现，开发者被迫中断任务去别处查用量，长会话里反复丢失节奏；这是从产品能力与旧流程推出的结构判断，公开材料未直接记录用户抱怨。
+  pain_en: Running out of context or quota is often discovered only when an error appears, forcing developers
+    to interrupt the task and check usage elsewhere, repeatedly losing rhythm in long sessions; this is
+    a structural inference from product capability and the old workflow, not a directly recorded user
+    complaint.
+  current_alternative: 目前靠官方命令行输出、另开窗口查用量，或凭经验估计上下文剩余，缺少常驻可见的状态。
+  current_alternative_en: Today developers rely on official CLI output, a separate window for usage, or
+    experience-based guesses about remaining context, with no persistent visible status.
+  usage_reason: 推断：插件通过 hooks 把上下文条和用量计直接画在提示行上方，开发者不必切窗口就能在耗尽前调整任务或压缩上下文，因此高频长会话的 Claude Code 用户会装它；仓库仅有星标数，没有留存或团队采用证据。
+  usage_reason_en: 'Inference: via hooks, the plugin draws the context bar and usage meter directly above
+    the prompt, letting developers adjust or compress tasks before exhaustion without switching windows,
+    so heavy long-session Claude Code users would install it; the repository shows only star counts, with
+    no retention or team adoption evidence.'

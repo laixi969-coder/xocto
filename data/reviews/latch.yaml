@@ -1,0 +1,81 @@
+- id: req-initial-latch-2026-10-19
+  project_slug: latch
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件屏蔽易被一键绕过、专注难维持的问题，痛点具体；但屏蔽机制与实体钥匙交付细节未披露。
+    evidence_ids:
+    - ev-ceac313f6c519dc2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，无用户评价或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-ceac313f6c519dc2
+  - gate: model
+    status: insufficient
+    reason: 未见定价；买方可能是个人消费者买硬件加订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ceac313f6c519dc2
+  - gate: truth
+    status: insufficient
+    reason: 候选未显示 AI 能力，与本期 AI 应用主题关联弱；实体钥匙的履约与留存未明。
+    evidence_ids:
+    - ev-ceac313f6c519dc2
+  next_validation: 收集 Latch 官方产品页或定价页，核验屏蔽机制、实体钥匙的交付方式与是否包含 AI 功能。
+  market: ''
+  job: 容易分心的用户在需要专注时，用 Latch 屏蔽应用，必须走到放置实体钥匙的位置才能解锁，完成一次专注时段。
+  job_en: Easily distracted users block apps with Latch during focus sessions and must walk to a physical
+    key to unlock, completing a focus period.
+  pain: 软件屏蔽工具可一键关闭或绕过，冲动解锁成本太低，专注难以维持。
+  pain_en: Software blockers can be disabled or bypassed in one click, so the cost of impulsive unlocking
+    is too low to sustain focus.
+  current_alternative: 系统自带屏幕时间限制、第三方应用屏蔽软件，或靠意志力自我约束。
+  current_alternative_en: Built-in screen time limits, third-party app blockers, or willpower alone.
+  usage_reason: 推断：相较可一键关闭的软件屏蔽，它把解锁变成需要走到实体钥匙的物理动作，抬高冲动解锁成本，因此反复破功的学生或远程办公者会尝试。
+  usage_reason_en: 'Inference: versus one-click software blockers, it turns unlocking into a physical
+    walk to a key, raising the cost of impulsive unlocking, so students or remote workers who repeatedly
+    break focus would try it.'
+- id: req-full-latch-2026-10-19
+  project_slug: latch
+  level: full
+  reviewed_at: '2026-10-19T00:43:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据全部指向同名门锁公司 DOOR 与机械锁词条，无任何材料证明存在应用屏蔽加实体钥匙的专注产品，需求与痛点无法从公开事实还原。
+    evidence_ids:
+    - ev-7e8bda2d14e9cfe4
+    - ev-9bc446846c1a71c2
+    - ev-9b95dad2181e49ad
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Latch 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 容易分心的用户在需要专注时，用 Latch 屏蔽应用，必须走到放置实体钥匙的位置才能解锁，完成一次专注时段。
+  job_en: Easily distracted users block apps with Latch during focus sessions and must walk to a physical
+    key to unlock, completing a focus period.
+  pain: 软件屏蔽工具可一键关闭或绕过，冲动解锁成本太低，专注难以维持。
+  pain_en: Software blockers can be disabled or bypassed in one click, so the cost of impulsive unlocking
+    is too low to sustain focus.
+  current_alternative: 系统自带屏幕时间限制、第三方应用屏蔽软件，或靠意志力自我约束。
+  current_alternative_en: Built-in screen time limits, third-party app blockers, or willpower alone.
+  usage_reason: 推断：相较可一键关闭的软件屏蔽，它把解锁变成需要走到实体钥匙的物理动作，抬高冲动解锁成本，因此反复破功的学生或远程办公者会尝试。
+  usage_reason_en: 'Inference: versus one-click software blockers, it turns unlocking into a physical
+    walk to a key, raising the cost of impulsive unlocking, so students or remote workers who repeatedly
+    break focus would try it.'

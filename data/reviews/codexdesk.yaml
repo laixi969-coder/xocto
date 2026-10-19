@@ -79,3 +79,55 @@
   usage_reason: 用户要完成的任务是：软件开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Software developers Public materials do not yet explain why users choose
     this product over their existing approach.'
+- id: req-full-codexdesk-2026-10-19
+  project_slug: codexdesk
+  level: full
+  reviewed_at: '2026-10-19T00:42:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者运行 AI 编码代理时终端、仓库与代理会话分散、需反复切换对照的需求；痛点是多步任务中漏看输出或误判改动，属工作流结构推理，公开材料未给用户抱怨，但任务与交付闭环可还原。
+    evidence_ids:
+    - ev-a186dce8e54b6209
+    - ev-4c56370d6447d321
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅有 222 至 223 个收藏的公开记录，说明社区注意到该项目，但无 issue、讨论或评价显示目标开发者已把它纳入日常编码代理工作流，持续采用未核验。
+    evidence_ids:
+    - ev-a186dce8e54b6209
+    - ev-4c56370d6447d321
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或商业模式，无法判断收入来自开发者个人订阅还是团队采购；这是商业证据缺口，不否定已识别的需求。
+    evidence_ids:
+    - ev-a186dce8e54b6209
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只写到“桌面伴侣”，未说明它如何接入 Codex 会话、是否读写本地仓库、权限与安全边界如何，交付能否稳定发生尚缺可复现证据。
+    evidence_ids:
+    - ev-a186dce8e54b6209
+    - ev-4c56370d6447d321
+  next_validation: 追踪 CodexDesk 仓库的 README、issue 与 discussion，确认它接入哪些编码代理、如何呈现仓库改动，以及是否有开发者描述替代了原有终端加
+    IDE 的流程。
+  market: ''
+  job: 开发者在本地仓库中让 Codex 等 AI 编码代理执行多步任务时，需要同时查看终端输出、仓库改动和代理会话状态，并在这些窗口之间切换以推进和审查任务。
+  job_en: While running multi-step tasks through AI coding agents such as Codex in a local repository,
+    developers need to watch terminal output, repository changes and agent session state, switching among
+    these views to advance and review the work.
+  pain: 公开材料只写到“桌面伴侣”这一层，未给出用户抱怨；从工作流结构推断，终端、仓库与代理会话分散在不同界面，开发者需反复切换并手动对照改动，容易漏看代理输出或误判代码变更。
+  pain_en: Public materials stop at the 'desktop companion' level and show no user complaints; inferred
+    from workflow structure, terminal, repository and agent sessions are split across interfaces, forcing
+    repeated switching and manual cross-checking of changes, which risks missed agent output or misread
+    diffs.
+  current_alternative: 开发者目前通常直接在终端运行编码代理，配合 IDE 的源代码管理和独立终端标签页来回切换；公开材料未说明 CodexDesk 具体替代了哪套组合。
+  current_alternative_en: Developers today typically run coding agents directly in a terminal, switching
+    between the IDE's source control view and separate terminal tabs; public materials do not specify
+    which exact combination CodexDesk replaces.
+  usage_reason: 推断：若 CodexDesk 把代理会话、终端输出与仓库改动收进同一桌面窗口，可减少在终端与 IDE 之间切换、手动对照 diff 的一步；经常在本地跑多步编码代理任务、又需要即时审查改动的开发者会在这种情形下尝试它。该动机尚无用户反馈或案例佐证。
+  usage_reason_en: 'Inference: if CodexDesk consolidates agent sessions, terminal output and repository
+    changes into one desktop window, it removes the step of switching between terminal and IDE and manually
+    cross-checking diffs; developers who frequently run multi-step coding-agent tasks locally and need
+    to review changes promptly would try it in that situation. This motive is not yet backed by user feedback
+    or cases.'

@@ -144,3 +144,52 @@
     cited excerpts with exact files and lines, removing the manual file-picking and re-explaining step;
     so developers running multiple MCP clients on a repo with heavy cross-file dependencies would choose
     it in that situation. No checkable outcome data is given publicly.'
+- id: req-full-graphicle-2-2026-10-19
+  project_slug: graphicle-2
+  level: full
+  reviewed_at: '2026-10-19T00:43:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理缺少仓库级结构与历史记忆的需求：开发者需反复手动挑文件、重述决策，不解决则代理在残缺上下文下改错代码。公开说明给出输入（仓库、文档、会话）、动作（建代码图与记忆）与交付（带文件行号的引用），属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-51c5b03fb5c7606d
+    - ev-835652314ba3edc6
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库自述与文档，未见 issue、讨论、用户评价或复现记录说明开发者是否真的把它接入日常代理工作流；关注度不等于持续采用，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-51c5b03fb5c7606d
+  - gate: model
+    status: insufficient
+    reason: 公开材料无定价页、许可证收费条款或客户采购记录，买方可能是使用编码代理的个体开发者或团队，但钱从哪来属判断而非已验证事实；也无融资叙事可判每日优鲜风险。
+    evidence_ids:
+    - ev-835652314ba3edc6
+  - gate: truth
+    status: insufficient
+    reason: 代码图与记忆贴近代理改代码的第一性目标，但公开材料未说明索引准确性、大仓库性能、记忆过期处理与人工确认边界，交付确定性无法核对。
+    evidence_ids:
+    - ev-51c5b03fb5c7606d
+  next_validation: 追踪 Graphicle-AI/graphicle 仓库的 issue、discussion 与 README 更新，确认代码图与记忆的实际输入输出、可复现效果及是否出现定价或客户案例。
+  market: ''
+  job: 使用 Claude Code、Codex、Cursor 等编码代理的开发者，在让代理修改一个已有仓库时，需要把仓库结构、项目文档、历史决策和过往会话上下文交给代理，使代理能定位到具体文件与行并据此改代码。
+  job_en: Developers using coding agents such as Claude Code, Codex or Cursor, when asking an agent to
+    modify an existing repository, need to hand the agent repository structure, project docs, past decisions
+    and prior session context so the agent can locate exact files and lines and edit accordingly.
+  pain: 公开材料称代理常缺少仓库级结构与历史记忆，开发者需反复手动挑文件、重述决策；若不解决，代理会基于不完整上下文改动，产生返工与错误引用。此痛点由产品说明与工作流推理得出，尚无用户抱怨或案例直接佐证。
+  pain_en: Public material says agents lack repository-level structure and history memory, forcing developers
+    to repeatedly pick files and restate decisions; unsolved, agents edit on incomplete context, causing
+    rework and wrong citations. This pain comes from product description plus workflow inference, not
+    yet from user complaints or cases.
+  current_alternative: 开发者目前依赖各客户端自带的仓库索引、手动 @ 文件、在提示里粘贴文档，或维护 CLAUDE.md/规则文件；这些是品类常识推断，候选材料未直接描述。
+  current_alternative_en: Developers today rely on each client's built-in repo indexing, manually @-mentioning
+    files, pasting docs into prompts, or maintaining CLAUDE.md/rule files; this is category inference,
+    not directly described in the candidate material.
+  usage_reason: 推断：相较每个客户端各配一套索引与手工粘贴上下文，Graphicle 用一个 Rust 程序把代码图与记忆统一供给多个 MCP 客户端，并返回带文件与行号的引用，减少开发者逐次挑文件、重述决策的步骤；因此同时使用多个编码代理、且仓库较大的开发者会在跨客户端切换时选择它。该因果为结构推理，尚无采用或留存证据。
+  usage_reason_en: 'Inference: versus configuring indexing per client and pasting context by hand, Graphicle
+    uses one Rust program to serve code graph and memory to multiple MCP clients and returns citations
+    with exact files and lines, cutting the step of picking files and restating decisions each time; developers
+    using several coding agents on a large repo would choose it when switching clients. This causal chain
+    is structural reasoning, with no adoption or retention evidence yet.'

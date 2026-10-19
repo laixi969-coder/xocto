@@ -1,6 +1,6 @@
 ---
 slug: web-edit-01a2
-name: web-edit 0.1a2
+name: web-edit
 builder: ''
 category: ''
 summary_zh: ''
@@ -25,7 +25,7 @@ summary: 'Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for
   the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek'
 first_seen: '2026-10-19T00:13:57Z'
 last_seen: '2026-10-19T00:13:57Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -36,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# web-edit 0.1a2
+# web-edit
 
 Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a "copy to clipboard" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek
 

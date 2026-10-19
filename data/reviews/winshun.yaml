@@ -196,3 +196,52 @@
     history behind one double-Ctrl entry, removing the step of switching tools and digging through folders;
     Chinese-language office users would therefore choose it for frequent file and old-content lookup (inference,
     based on the product description and the V2EX launch post).
+- id: req-full-winshun-2026-10-19
+  project_slug: winshun
+  level: full
+  reviewed_at: '2026-10-19T00:45:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Windows 上找文件、文档正文与剪贴板旧内容慢且分散的需求，痛点高频刚性；V2EX 帖显示作者已按反馈迭代，替代行为明确为 Everything/Listary，价值结构成立属工作流推理。
+    evidence_ids:
+    - ev-1c05ab70ddcab843
+    - ev-7196469f463db9ff
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 278 增至 442，说明关注度上升，但公开材料只有作者自述与功能说明，缺少用户评价、重复使用或留存证据，不能证明已进入持续工作流。
+    evidence_ids:
+    - ev-7196469f463db9ff
+    - ev-53709c5efdeb106e
+  - gate: model
+    status: insufficient
+    reason: 产品免费开源，公开材料未给出定价、捐赠、企业定制或托管版收入路径；钱可能来自 to C 付费版或 to B 定制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-7196469f463db9ff
+  - gate: truth
+    status: insufficient
+    reason: AI 助手 MCP 环节的具体动作、索引隐私与本地数据边界公开材料未说明，全文索引与剪贴板历史涉及敏感数据，交付确定性待核验。
+    evidence_ids:
+    - ev-1c05ab70ddcab843
+  next_validation: 追踪该仓库 issue 与 discussion 区，收集用户实际使用场景、AI 助手 MCP 接入方式与索引隐私处理的公开记录。
+  market: ''
+  job: Windows 办公人员在写报告或整理资料时，需要从本机大量文件、Word/Excel/PDF 正文和刚复制过的内容中快速定位并打开或粘贴目标，双击 Ctrl 唤起搜索框完成这一步。
+  job_en: Windows office workers writing reports or organizing materials need to locate and open or paste
+    a target from many local files, Word/Excel/PDF body text, or recently copied content, invoking a search
+    box with double-Ctrl to finish that step.
+  pain: 系统自带搜索慢且不支持拼音与文档正文，剪贴板历史入口分散，找一份文件或一段旧内容要反复翻目录、切换工具，打断当前写作或整理动作。
+  pain_en: Built-in search is slow and supports neither pinyin nor document body text, clipboard history
+    entries are scattered, and finding a file or an old snippet means repeatedly digging through folders
+    and switching tools, interrupting the current writing or organizing task.
+  current_alternative: 此前依赖 Windows 自带搜索、Everything、Listary 或手动翻目录，剪贴板靠 Win+V；V2EX 帖也明确把它定位为 Everything
+    与 Listary 的替代。
+  current_alternative_en: Previously this relied on Windows built-in search, Everything, Listary or manual
+    folder browsing, with Win+V for clipboard; the V2EX post explicitly positions it as an alternative
+    to Everything and Listary.
+  usage_reason: 相较系统搜索与 Everything，它把拼音检索、Office/PDF 全文与剪贴板历史收进同一个双击 Ctrl 入口，省掉切换工具与逐层翻目录这一步，因此中文办公用户会在高频找文件时选择它（推断，尚无用户反馈或留存证据）。
+  usage_reason_en: Compared with system search and Everything, it puts pinyin lookup, Office/PDF full
+    text and clipboard history behind one double-Ctrl entry, removing the step of switching tools and
+    digging through folders, so Chinese-language office users would choose it for frequent file lookup
+    (inference; no user feedback or retention evidence yet).

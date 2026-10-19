@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE5JYkp2dUVFb2p4
 summary: ​国内AI基础设施头部公司有哪些？看联想集团等企业如何支撑AI训练与推理 中华网
 first_seen: '2026-08-31T06:49:10Z'
 last_seen: '2026-09-12T00:19:17Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

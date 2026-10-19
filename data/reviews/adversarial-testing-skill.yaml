@@ -1077,3 +1077,47 @@
     only supplies the codebase and gets adversarial cases, skipping the step of designing attack scenarios
     themselves; developers watching this repo are the group likely to try it to avoid that red-team design
     cost.'
+- id: req-full-adversarial-testing-skill-2026-10-19
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-10-19T00:41:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让两个 AI 对打来测你的产品：一个读源码，一个蒙着眼当黑客”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue、discussion 与 release 记录，确认是否有用户报告实际发现的漏洞、误报率及重复使用场景。
+  market: ''
+  job: 安全工程师或独立开发者在发布前需要审查自己产品的攻击面：他们手上有源码和可运行的产品，要让一个读源码的 AI 与一个不看源码、只按黑盒方式攻击的 AI 对打，产出可复现的漏洞与修复线索。
+  job_en: 'A security engineer or solo developer needs to review their product''s attack surface before
+    release: holding source code and a runnable product, they want a source-reading AI and a blind black-box
+    attacking AI to play against each other and produce reproducible vulnerabilities and fix leads.'
+  pain: 公开材料只给出产品形态，未提供用户抱怨或案例；从工作流结构推理，人工渗透测试成本高、排期长，单人开发者常只能靠自查清单，容易漏掉跨模块的越权与注入路径，且缺少第二视角复核。
+  pain_en: Public materials give only the product form, with no user complaints or cases; by workflow-structure
+    inference, manual penetration testing is costly and slow to schedule, solo developers often rely on
+    self-check lists, cross-module privilege-escalation and injection paths get missed, and there is no
+    second-perspective review.
+  current_alternative: 旧做法是人工渗透测试外包、SAST/DAST 扫描器、漏洞赏金平台，或开发者自己按 OWASP 清单逐项手测；这些方式要么贵、要么只覆盖静态规则、要么需要外部人员介入。
+  current_alternative_en: The old ways are outsourced manual penetration testing, SAST/DAST scanners,
+    bug-bounty platforms, or the developer manually walking an OWASP checklist; these are either expensive,
+    limited to static rules, or require outside people.
+  usage_reason: 推断：相较人工渗透测试，它把“读源码找可疑路径”和“不看源码模拟攻击”拆成两个 AI 角色并行对打，省去等待外部测试排期与人工构造攻击载荷的步骤；相较纯扫描器，它多了一层黑盒攻击视角来验证可达性。因此会在发布前自查、缺少安全预算的小团队场景中被选择。
+  usage_reason_en: 'Inference: versus manual pentesting, it splits ''read source to find suspicious paths''
+    and ''attack without seeing source'' into two AI roles playing in parallel, removing the wait for
+    external test scheduling and manual payload construction; versus pure scanners, it adds a black-box
+    attack perspective to verify reachability. Hence it would be chosen by small teams doing pre-release
+    self-checks without a security budget.'

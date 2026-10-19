@@ -225,3 +225,51 @@
     locate and fix doubled lines, pitch jumps and breathing rhythm directly and cutting listening and
     regeneration rounds; creators producing voice-character or companion content who need stable output
     would consult it at the tuning stage. No sustained-use or payment evidence appears.'
+- id: req-full-ai-voice-breath-kiss-water-2-2026-10-19
+  project_slug: ai-voice-breath-kiss-water-2
+  level: full
+  reviewed_at: '2026-10-19T00:42:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 语音角色不自然、听众出戏的问题，公开材料列出重复语句、音调跳变、呼吸不自然、话量不均等具体缺陷，旧做法是反复试听与手工剪辑，不处理会直接影响发布质量，属工作流结构推理。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 从 40 缓慢增至 53，只说明关注度，未见用户评价、issue 或采用案例，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+    - ev-cbd7bc17c78e4565
+  - gate: model
+    status: insufficient
+    reason: 这是开源实测记录，未见定价、付费或服务化交付，钱可能来自内容创作者自行采用或后续咨询，属判断而非已验证事实。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+  - gate: truth
+    status: insufficient
+    reason: 材料称全是实测，但未说明参数流程能否被外部创作者稳定复现，也未涉及人工审核与安全边界，交付确定性缺公开核验。
+    evidence_ids:
+    - ev-cf14b579a565f26c
+  next_validation: 追踪该 公开代码仓库 仓库的 issue、discussion 与后续更新，确认是否有外部创作者复现参数流程并用于实际发布。
+  market: ''
+  job: 做 AI 语音角色或情感陪伴内容的创作者，在拿到 ElevenLabs 生成的配音素材后，用 ffmpeg 与 whisper 处理重复语句、音调跳变、呼吸节奏和话量，交付一段可直接用于角色对话的连续语音。
+  job_en: Creators building AI voice characters or companion content take ElevenLabs-generated voice assets
+    and use ffmpeg and whisper to fix repeated lines, pitch jumps, breathing rhythm and speech volume,
+    delivering continuous speech usable in character dialogue.
+  pain: 公开材料列出合成语音的具体缺陷：一句话说两遍、音调一截一截跳、喘气多而不自然、话量不均、内容重复。这些问题直接让角色显得假、听众出戏，属于发布前必须处理的刚性质量问题。
+  pain_en: 'The public material names concrete synthesis defects: lines spoken twice, pitch jumping in
+    steps, breathing that is excessive and unnatural, uneven speech volume and repetitive content. These
+    make the character feel fake and break immersion, a must-fix quality issue before publishing.'
+  current_alternative: 旧做法是创作者反复试听、手工剪辑音频、逐条重新生成，靠耳朵和经验判断哪里重复、哪里音调断裂，耗时且难以稳定复现。
+  current_alternative_en: The old way is repeated listening, manual audio editing and clip-by-clip regeneration,
+    judging by ear and experience where lines repeat or pitch breaks, which is slow and hard to reproduce
+    consistently.
+  usage_reason: 推断：它把实测过的参数与处理步骤写成可照做的流程，创作者不必从零试听和逐条重生成，而是按步骤定位重复语句、修正音调跳变、调整呼吸与话量，减少反复试错这一步，因此做语音角色或陪伴内容的人会参考它；材料未显示持续使用或付费证据。
+  usage_reason_en: 'Inference: it records measured parameters and processing steps as a followable workflow,
+    so creators do not start from zero listening and clip-by-clip regeneration but locate repeated lines,
+    correct pitch jumps and adjust breathing and volume step by step, cutting the trial-and-error burden;
+    that is why voice-character or companionship creators would consult it. No sustained-use or payment
+    evidence appears.'

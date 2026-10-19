@@ -325,3 +325,50 @@
     in the reading view so readers can question the current article directly, skipping window switching
     and pasting; researchers who must screen many subscribed articles inside DeepSeek Harness would choose
     it.'
+- id: req-full-qiaomu-rss-dsh-2026-10-19
+  project_slug: qiaomu-rss-dsh
+  level: full
+  reviewed_at: '2026-10-19T00:44:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订阅源多、逐篇阅读耗时且需另开窗口问 AI 的问题，痛点具体；旧做法是通用阅读器加手工摘录，产品把对话嵌入阅读界面，交付路径可确定，属工作流结构推理。
+    evidence_ids:
+    - ev-8580975a179d45e3
+    - ev-9ccf6dc2926a99e8
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 42 缓慢增至 45，仅属关注度信号；没有用户评价、issue 或案例说明研究者已长期用它伴读，强场景存在但采用证据缺失。
+    evidence_ids:
+    - ev-8580975a179d45e3
+    - ev-8d3bf767b8e2da6a
+  - gate: model
+    status: insufficient
+    reason: 开源项目无公开定价，付费路径可能是托管服务或定制信息源，这是判断而非已验证事实；谁付钱、按什么计费均未披露。
+    evidence_ids:
+    - ev-8580975a179d45e3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对 AI 伴读的解读是否准确、是否贴近筛选信息的第一性目标，也未见人工复核边界说明，缺少可复现测试与部署文档。
+    evidence_ids:
+    - ev-8580975a179d45e3
+    - ev-4ff7651e83cab9d0
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认支持的订阅格式、AI 对话能力及实际使用反馈。
+  market: ''
+  job: 跟踪多个订阅源的内容研究者或行业分析师，在 DeepSeek Harness 中打开 RSS 阅读器，处理订阅源推送的长篇文章，要完成快速判断相关性并提取要点的信息筛选任务。
+  job_en: A content researcher or industry analyst tracking multiple feeds opens the RSS reader inside
+    DeepSeek Harness, processes long articles pushed by feeds, and must quickly judge relevance and extract
+    key points.
+  pain: 订阅源多、文章长，逐篇通读再判断相关性耗时，关键信息容易漏掉；若把正文复制到另一个 AI 对话窗口，阅读与提问被切成两段，切换成本高。
+  pain_en: Many feeds and long articles make reading each one to judge relevance slow, and key information
+    is easily missed; copying text into a separate AI chat window splits reading and questioning into
+    two steps with high switching cost.
+  current_alternative: 用通用 RSS 阅读器或浏览器标签页逐篇阅读，再手工摘录要点；需要 AI 辅助时把正文复制到独立对话窗口。
+  current_alternative_en: Reading item by item in a general RSS reader or browser tabs, then taking notes
+    by hand; when AI help is needed, copying the text into a separate chat window.
+  usage_reason: 推断：它把 AI 对话直接嵌在阅读界面，读者可就当前文章在同一屏提问，省去复制正文到另一个对话窗口的一步；因此需要快速筛选大量订阅文章的研究者会在阅读长文时选择它。
+  usage_reason_en: 'Inference: it embeds AI dialogue in the reading view so readers can question the current
+    article on the same screen, skipping the step of copying text into a separate chat window; researchers
+    screening many subscribed articles would choose it when reading long pieces.'

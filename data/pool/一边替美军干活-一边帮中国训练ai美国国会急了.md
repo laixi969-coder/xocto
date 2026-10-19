@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LalplUHplby1p
 summary: 一边替美军干活 一边帮中国训练AI？美国国会急了 文学城
 first_seen: '2026-08-30T20:14:36Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

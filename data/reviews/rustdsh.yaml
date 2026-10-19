@@ -373,3 +373,51 @@
   usage_reason: 用户要完成的任务是：开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。
   usage_reason_en: 'The task is: Developers. Public materials do not yet explain why users choose this
     product over their existing approach.'
+- id: req-full-rustdsh-2026-10-19
+  project_slug: rustdsh
+  level: full
+  reviewed_at: '2026-10-19T00:45:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在本地用 DeepSeek Harness 跑 agent 时的配置与权限痛点：迁移说明显示需重配模型与命令，受约束工具针对 agent 写操作风险；不解决则切换成本高、误写难控。这是工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-17eba258da75ad95
+    - ev-b16980b1d9080e35
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 71 升至 87，说明有开发者关注；但公开材料没有 issue、讨论或评价说明谁在何种场景持续使用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-17eba258da75ad95
+    - ev-b16980b1d9080e35
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、赞助或商业授权，谁付钱无法从公开材料判断；这是商业证据缺口，不否定需求本身。
+    evidence_ids:
+    - ev-17eba258da75ad95
+  - gate: truth
+    status: insufficient
+    reason: 公开说明提到受约束 agent 工具与本地面板，但缺部署文档、可复现实测与人工确认边界说明，交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-17eba258da75ad95
+  next_validation: 追踪 rustdsh 仓库的 issue 与 discussion，确认开发者实际部署场景、替代的旧流程及受约束工具的人工确认边界。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者在本机项目目录中启动 agent 会话，输入命令行指令，让受约束的 agent 工具读写项目文件，并在本地面板查看执行结果。
+  job_en: Developers using DeepSeek Harness launch an agent session in a local project directory, issue
+    command-line instructions, let guarded agent tools read and write project files, and review results
+    in a local dashboard.
+  pain: 公开说明只给出迁移路径与受约束工具，未提供用户抱怨或案例；从结构推理看，痛点是切换 agent 工具时需重配模型与命令、直接放开 agent 写权限风险高、执行结果分散在终端难以核对。
+  pain_en: Public materials show only a migration path and guarded tools, with no user complaints or cases;
+    by structural inference the pain is reconfiguring models and commands when switching agent tools,
+    the risk of unguarded agent writes, and results scattered across terminals.
+  current_alternative: 公开材料指向 Claude Code、Codex 等既有 agent 命令行工具，以及用户自行配置 DeepSeek Harness 的手工方式；这是从迁移说明推断，不是用户自述。
+  current_alternative_en: Public materials point to existing agent CLIs such as Claude Code and Codex,
+    plus manual DeepSeek Harness setup; this is inferred from the migration note, not user statements.
+  usage_reason: 推断：相较手工配置或直接使用无约束 agent，它用 Rust 启动器把模型设置、命令入口和受约束工具收进一次启动，减少切换工具时的重配步骤，并让写操作经过护栏，因此正在迁移到
+    DeepSeek Harness 且在意本地执行可控性的开发者会试用。
+  usage_reason_en: 'Inference: versus manual setup or unguarded agents, the Rust launcher folds model
+    setup, command entry and guarded tools into one start, cutting reconfiguration when switching tools
+    and routing writes through guardrails, so developers migrating to DeepSeek Harness who care about
+    local control would try it.'

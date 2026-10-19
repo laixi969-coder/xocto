@@ -138,3 +138,49 @@
   usage_reason_en: 'Inference: versus the old way, it merges see-the-result and write-the-code into one
     live preview plus copy, removing the back-and-forth between docs and editor, so front-end developers
     and designers on a deadline would try it first.'
+- id: req-full-lucian-uxui-prompt-2026-10-19
+  project_slug: lucian-uxui-prompt
+  level: full
+  reviewed_at: '2026-10-19T00:44:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决搭界面时挑组件样式并转成代码或提示词的需求，痛点是文档、截图与编辑器反复对照后手写样式；公开说明支持实时预览加复制，属工作流结构推理，痛点刚性中等。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+    - ev-d0022da5c0df18be
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 68 增至 191、元素由 200 扩到 400，说明关注度上升；但无用户评价、issue 或案例证明它被持续用于实际项目，共识仅停留在关注层。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+    - ev-5ff3e2b20316c138
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且未见定价页，买方与付费路径不明；可能靠赞助或后续增值，但这是判断不是已验证事实，暂无收入证据。
+    evidence_ids:
+    - ev-5ff3e2b20316c138
+  - gate: truth
+    status: supported
+    reason: 交付物是可直接复制的提示词或可运行代码，结果可当场核对；但样式是否契合项目仍需人工判断，产品不替代设计决策。
+    evidence_ids:
+    - ev-d0022da5c0df18be
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有用户反馈将其用于实际项目而非仅收藏。
+  market: ''
+  job: 前端开发者与产品设计师在搭建界面时，面对大量候选 UI 元素，需要先看到真实交互效果，再把它转成可用的 AI 提示词或可运行代码。
+  job_en: Front-end developers and product designers building an interface need to see real interactive
+    behavior of many candidate UI elements, then turn the chosen one into a usable AI prompt or runnable
+    code.
+  pain: 公开材料显示元素可实时预览并复制为提示词或代码；据此推断，旧流程要在组件文档、设计稿截图与编辑器之间反复对照，再手写或改写样式，重复且易走样。
+  pain_en: Public material shows elements can be previewed live and copied as prompts or code; inferred
+    from this, the old flow requires cross-referencing component docs, design screenshots and the editor,
+    then hand-writing or rewriting styles, which is repetitive and error-prone.
+  current_alternative: 旧做法是翻组件库文档、看设计稿截图，再手动把样式写成代码，或直接向模型口头描述想要的效果。
+  current_alternative_en: The old way is browsing component-library docs, looking at design screenshots,
+    then manually writing the style into code, or verbally describing the desired look to a model.
+  usage_reason: 推断：它把“先看效果”和“拿到可用产物”合并为一次实时预览加复制，省掉在文档与编辑器之间来回对照并手写样式这一步，因此赶界面进度的前端与设计师会在挑样式时先试它。
+  usage_reason_en: 'Inference: it merges seeing the result and getting a usable artifact into one live
+    preview plus copy, removing the back-and-forth between docs and editor and the manual style writing,
+    so front-end developers and designers on a deadline would try it first when picking styles.'

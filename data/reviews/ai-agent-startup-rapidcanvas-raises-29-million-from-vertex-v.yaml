@@ -1,0 +1,81 @@
+- id: req-initial-ai-agent-startup-rapidcanvas-raises-29-million-from-vertex-v-2026-10-19
+  project_slug: ai-agent-startup-rapidcanvas-raises-29-million-from-vertex-v
+  level: initial
+  reviewed_at: '2026-10-19T00:14:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道只写融资，未说明解决什么需求、替代哪一步旧工作，价值结构无法还原。
+    evidence_ids:
+    - ev-ba2400728b88b3a1
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：缺少具体场景与使用者描述，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-ba2400728b88b3a1
+  - gate: model
+    status: insufficient
+    reason: 未进入：买方、定价与付费路径均未披露，融资不等于收入。
+    evidence_ids:
+    - ev-ba2400728b88b3a1
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生及人工边界。
+    evidence_ids:
+    - ev-ba2400728b88b3a1
+  next_validation: 收集 RapidCanvas 官方产品页或客户案例，确认其处理的具体材料、交付物与使用部门。
+  market: ''
+  job: 公开材料未说明具体使用者、触发情境、处理材料与要完成的任务；只能确认它被描述为面向企业的 AI agent 创业公司。
+  job_en: Public material does not identify the user, trigger situation, input material or task; it only
+    describes the company as an enterprise AI agent startup.
+  pain: 报道未写出它替代哪一步旧工作或解决什么具体痛点，无法判断痛点强度。
+  pain_en: The report does not state which legacy step it replaces or what specific pain it solves, so
+    pain intensity cannot be judged.
+  current_alternative: 未披露；无法确认用户此前用手工、表格、外包还是其他软件完成同一任务。
+  current_alternative_en: Not disclosed; it is unknown whether users previously did the task manually,
+    in spreadsheets, via outsourcing or with other software.
+  usage_reason: 缺少产品能力与工作流描述，无法解释相较旧做法减少了哪一步负担；融资额只说明关注度，不构成使用理由。
+  usage_reason_en: Without product capability or workflow description, there is no explanation of which
+    step burden is reduced versus the old way; the funding amount shows attention only, not a reason to
+    use it.
+- id: req-full-ai-agent-startup-rapidcanvas-raises-29-million-from-vertex-v-2026-10-19
+  project_slug: ai-agent-startup-rapidcanvas-raises-29-million-from-vertex-v
+  level: full
+  reviewed_at: '2026-10-19T00:42:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道只写融资，未说明解决什么需求、替代哪一步旧工作，价值结构无法还原。
+    evidence_ids:
+    - ev-ba2400728b88b3a1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 RapidCanvas 官方产品页或客户案例，确认其处理的具体材料、交付物与使用部门。
+  market: ''
+  job: 公开材料只说明 RapidCanvas 是面向企业的 AI agent 创业公司，未写明谁在什么工作节点打开它、输入什么材料、要完成什么任务。
+  job_en: Public material only describes RapidCanvas as an enterprise AI agent startup; it does not state
+    who opens it at which work step, what material is input, or what task is completed.
+  pain: 报道未写出它替代哪一步旧工作或解决什么具体痛点，无法判断痛点强度与不采用的后果。
+  pain_en: The report does not state which legacy step it replaces or what specific pain it solves, so
+    pain intensity and the consequence of not adopting it cannot be judged.
+  current_alternative: 未披露；无法确认用户此前用手工、表格、外包还是其他软件完成同一任务。
+  current_alternative_en: Not disclosed; it is unknown whether users previously did the task manually,
+    in spreadsheets, via outsourcing or with other software.
+  usage_reason: 缺少产品能力与工作流描述，无法解释相较旧做法减少了哪一步负担；2900 万美元融资只说明关注度，不构成使用理由。
+  usage_reason_en: Without product capability or workflow description, there is no explanation of which
+    step burden is reduced versus the old way; the $29 million funding shows attention only, not a reason
+    to use it.

@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9PeEhVcDhYNGY2
 summary: 攻克多核 NPU 架构痛点，云天励飞核心专利斩获中国专利金奖 电子工程专辑
 first_seen: '2026-08-31T05:15:00Z'
 last_seen: '2026-09-01T14:56:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

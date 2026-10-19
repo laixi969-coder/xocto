@@ -1,6 +1,6 @@
 ---
 slug: 吉大正元公告提示ai安全等业务收入占比低-低空经济-经济-产业-数据-公开信息
-name: 吉大正元公告提示AI安全等业务收入占比低|低空经济|经济|产业|数据|公开信息
+name: 吉大正元
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOaW5XWEM2QU5V
 summary: 吉大正元公告提示AI安全等业务收入占比低|低空经济|经济|产业|数据|公开信息 新浪财经
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 吉大正元公告提示AI安全等业务收入占比低|低空经济|经济|产业|数据|公开信息
+# 吉大正元
 
 吉大正元公告提示AI安全等业务收入占比低|低空经济|经济|产业|数据|公开信息 新浪财经
 

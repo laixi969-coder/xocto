@@ -1,0 +1,92 @@
+- id: req-initial-bashcut-2-2026-10-19
+  project_slug: bashcut-2
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量剪辑、字幕和配音的重复手动操作痛点，代理可执行与界面相同的动作，结构上成立；具体交付稳定性待核验。
+    evidence_ids:
+    - ev-337b2d5a4a4e2847
+    - ev-e57ccb9ea9d0b96c
+    - ev-abd71da65a193199
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数从 64 增至 73 的关注度信号，缺少用户评价或客户案例说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-337b2d5a4a4e2847
+    - ev-abd71da65a193199
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价、买方或付费路径，钱可能来自个人剪辑师或内容团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-abd71da65a193199
+  - gate: truth
+    status: insufficient
+    reason: 代理操作成片的质量、人工复核边界与确定性交付尚无公开证据，需核验实际产出。
+    evidence_ids:
+    - ev-337b2d5a4a4e2847
+  next_validation: 收集 BashCut 官方文档或仓库 issue/discussion 中代理驱动剪辑的实际产出示例与人工复核流程说明。
+  market: ''
+  job: 视频剪辑师或内容运营在已有素材上需要完成分层剪辑、字幕和配音时，让编码代理通过 CLI 或 MCP 驱动时间线并产出成片。
+  job_en: A video editor or content operator with existing footage needs layered cuts, captions and voiceover,
+    and lets a coding agent drive the timeline via CLI or MCP to produce a finished cut.
+  pain: 重复的剪辑、字幕和配音操作需要逐项手动点击，批量任务耗时且难以脚本化；代理可把这些步骤变成可重复执行的命令。
+  pain_en: Repetitive cutting, captioning and voiceover require manual clicking item by item; batch tasks
+    are slow and hard to script, while an agent can turn these steps into repeatable commands.
+  current_alternative: 剪辑师在传统非线性编辑软件里手动操作，或用脚本与模板半自动化，批量任务仍需人工逐步完成。
+  current_alternative_en: Editors work manually in traditional non-linear editors or semi-automate with
+    scripts and templates, still finishing batch tasks step by step by hand.
+  usage_reason: 推断：相较手动逐项点击，代理通过 CLI 或 MCP 直接执行时间线、字幕和配音操作，减少重复点击这一步；需要批量出片且能接受人工复核的团队会因此选择它。
+  usage_reason_en: 'Inference: versus manual clicking, the agent executes timeline, caption and voiceover
+    operations directly via CLI or MCP, removing the repetitive-click step; teams needing batch output
+    who accept human review would choose it.'
+- id: req-full-bashcut-2-2026-10-19
+  project_slug: bashcut-2
+  level: full
+  reviewed_at: '2026-10-19T00:42:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量剪辑、字幕和配音的重复手动操作痛点，代理可执行与界面相同的动作，把逐项点击变成可重复命令，结构上成立；成片质量与人工复核边界仍属推理。
+    evidence_ids:
+    - ev-337b2d5a4a4e2847
+    - ev-e57ccb9ea9d0b96c
+    - ev-abd71da65a193199
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标仅从 64 增至 73，属关注度信号，缺少用户评价或客户案例说明谁在什么场景持续使用，无法证明已进入工作流。
+    evidence_ids:
+    - ev-337b2d5a4a4e2847
+    - ev-abd71da65a193199
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价、买方或付费路径；推断钱可能来自个人剪辑师或内容团队订阅，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-abd71da65a193199
+  - gate: truth
+    status: insufficient
+    reason: 代理操作成片的质量、人工复核边界与确定性交付尚无公开证据，需核验实际产出示例与失败处理方式。
+    evidence_ids:
+    - ev-337b2d5a4a4e2847
+  next_validation: 追踪 BashCut 官方文档或仓库 issue/discussion 中代理驱动剪辑的实际产出示例与人工复核流程说明。
+  market: ''
+  job: 视频剪辑师或内容运营在已有素材上需要完成分层剪辑、字幕和配音时，让 Claude Code、Codex 等编码代理通过 bashcut CLI 或 MCP 驱动时间线，产出可复核的成片。
+  job_en: A video editor or content operator with existing footage needs layered cuts, captions and voiceover,
+    and lets coding agents like Claude Code or Codex drive the timeline via the bashcut CLI or MCP to
+    produce a reviewable cut.
+  pain: 重复的剪辑、字幕和配音操作需逐项手动点击，批量任务耗时且难以脚本化；不解决则每条视频都要人工逐步完成，规模化产出受限。
+  pain_en: Repetitive cutting, captioning and voiceover require manual clicking item by item; batch tasks
+    are slow and hard to script, so without a fix every video is finished step by step by hand and scaled
+    output is limited.
+  current_alternative: 剪辑师在传统非线性编辑软件里手动操作，或用脚本与模板半自动化，批量任务仍需人工逐步完成。
+  current_alternative_en: Editors work manually in traditional non-linear editors or semi-automate with
+    scripts and templates, still finishing batch tasks step by step by hand.
+  usage_reason: 推断：相较手动逐项点击，代理通过 CLI 或 MCP 直接执行时间线、字幕和配音操作，减少重复点击这一步；需要批量出片且能接受人工复核的团队会因此选择它。
+  usage_reason_en: 'Inference: versus manual clicking, the agent executes timeline, caption and voiceover
+    operations directly via CLI or MCP, removing the repetitive-click step; teams needing batch output
+    who accept human review would choose it.'

@@ -1,0 +1,42 @@
+- id: req-initial-happy-shrimp-2026-10-19
+  project_slug: happy-shrimp
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决缺原创配乐时从零作曲或翻曲库的负担，痛点具体且交付可试听；但生成质量与版权归属未核验。
+    evidence_ids:
+    - ev-9d7f9987456d6255
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句介绍，无用户评价、使用量或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-9d7f9987456d6255
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方，按次生成还是订阅收费不明，商业路径只能推断。
+    evidence_ids:
+    - ev-9d7f9987456d6255
+  - gate: truth
+    status: insufficient
+    reason: 生成歌曲的版权归属、商用授权与人工筛选边界均未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-9d7f9987456d6255
+  next_validation: 收集 Happy Shrimp 官方产品页或文档中关于生成流程、版权与商用授权、计费方式的公开说明。
+  market: ''
+  job: 独立音乐人或短视频创作者在需要一段原创配乐或歌曲小样时，把一句创意描述交给它生成歌曲，再自行试听筛选可用片段。
+  job_en: Independent musicians or short-video creators who need an original soundtrack or song demo hand
+    a one-line idea to it, get generated songs, and audition the usable clips themselves.
+  pain: 原创配乐要么自己作曲编曲耗时，要么购买版权曲库受限于风格与授权范围，临时需求往往赶不上发布节奏。
+  pain_en: Original scoring either takes hours of composing and arranging, or relies on licensed libraries
+    limited by style and license scope, and ad-hoc needs often miss the publishing schedule.
+  current_alternative: 旧做法是自建曲库、购买版权音乐授权，或找作曲外包按条付费，周期以天计。
+  current_alternative_en: The old way is building an in-house library, buying licensed music, or outsourcing
+    composition per track, with turnaround measured in days.
+  usage_reason: 推断：相较翻曲库或外包作曲，它把一句描述直接变成可试听的歌曲小样，省去沟通需求与等待交付的环节，因此赶发布节奏的短视频创作者会先试它。
+  usage_reason_en: 'Inference: compared with browsing libraries or outsourcing composition, it turns one
+    description directly into auditionable song demos, skipping brief-writing and delivery waiting, so
+    short-video creators on a publishing deadline would try it first.'

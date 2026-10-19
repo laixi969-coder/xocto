@@ -25,7 +25,7 @@ summary: 'Inline rendering with document​.currentScript Lean Rada describes a 
   get a tiny template language: The year is <script>$(new Date().getFullYear())</script> Tags: javascript'
 first_seen: '2026-10-19T00:13:57Z'
 last_seen: '2026-10-19T00:13:57Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

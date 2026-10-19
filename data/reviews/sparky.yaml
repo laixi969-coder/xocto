@@ -84,3 +84,45 @@
   usage_reason_en: 'The task is: Privacy-sensitive individual users on Windows handle documents, images,
     or code with local models for Q&A, retrieval, and generation, avoiding uploading material to the cloud
     Public materials do not yet explain why users choose this product over their existing approach.'
+- id: req-full-sparky-2026-10-19
+  project_slug: sparky
+  level: full
+  reviewed_at: '2026-10-19T00:45:24Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部指向沃尔玛购物助手与 NFPA 儿童消防网站，与本产品无关；无法从证据还原本产品的用户任务、痛点与旧替代，连需求与痛点都写不出来。
+    evidence_ids:
+    - ev-7c396aebf84f54ac
+    - ev-d9b378232bf1a172
+    - ev-d9014c5ab4f88ecc
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 sparky 本产品的官方仓库或官网 README、issue 与 discussion，确认其真实功能、安装方式与用户反馈，排除同名产品混淆。
+  market: ''
+  job: 对数据隐私敏感的个人用户在 Windows 电脑上处理文档、图片或代码时，用本地模型完成问答、检索和生成，避免资料上传云端。
+  job_en: Privacy-sensitive individual users on Windows handle documents, images, or code with local models
+    for Q&A, retrieval, and generation, avoiding uploading material to the cloud.
+  pain: 公开材料未提供任何属于该产品的用户痛点、抱怨或替代行为记录；现有证据全部指向沃尔玛购物助手 Sparky 与 NFPA 儿童消防网站，与本产品无关。
+  pain_en: Public materials contain no user pain, complaint, or workaround evidence attributable to this
+    product; all evidence points to Walmart's shopping assistant Sparky and the NFPA kids' fire-safety
+    site, unrelated to this product.
+  current_alternative: 公开材料未说明目标用户当前如何完成本地隐私 AI 任务，也未说明本产品替代了什么旧做法。
+  current_alternative_en: Public materials do not show how target users currently complete local private
+    AI tasks, nor what old approach this product replaces.
+  usage_reason: 无法从现有证据判断用户为何选择它：证据链中的产品均为同名异质产品，缺少本产品的功能说明、用户反馈或案例，无法建立使用因果。
+  usage_reason_en: 'No basis exists to explain why users would choose it: the evidence chain covers same-name
+    but unrelated products, lacking this product''s feature descriptions, user feedback, or cases, so
+    no usage causality can be established.'

@@ -642,3 +642,50 @@
     generation and in-game testing into continuous model-executable actions, cutting tool-switching and
     repeated trial and error, so individual modders lacking a full toolchain may try it; this is an inference
     from capability, not user feedback.
+- id: req-full-universal-modder-2026-10-19
+  project_slug: universal-modder
+  level: full
+  reviewed_at: '2026-10-19T00:45:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模组制作中逆向、素材生成与游戏内测试分散、依赖个人经验的问题，不采用就要反复试错；交付物是可安装模组，痛点刚性来自流程碎片化，但公开材料只有仓库描述，属工作流结构推理。
+    evidence_ids:
+    - ev-b44ac62c1957a3a2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有代码托管平台星标从 7118 增至 8344，属关注度证据，不能说明模组作者已把它留在日常工作流；缺少 issue、讨论或用户案例佐证持续使用。
+    evidence_ids:
+    - ev-b44ac62c1957a3a2
+    - ev-12f5aecb920d7004
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，钱可能来自个人自用、工作室定制或 fal 调用分成，这是判断而非已验证事实；公开材料无采购或订阅记录。
+    evidence_ids:
+    - ev-b44ac62c1957a3a2
+  - gate: truth
+    status: insufficient
+    reason: 逆向与素材生成涉及游戏厂商条款与版权边界，公开材料未说明合规约束、人工确认环节与失败回退，交付确定性尚无法从仓库描述核实。
+    evidence_ids:
+    - ev-b44ac62c1957a3a2
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有模组作者报告实际完成并安装模组的公开使用记录。
+  market: ''
+  job: 个人模组作者或小型游戏团队在准备为某款 PC 游戏制作改动时，把游戏资源与代码文件交给 Claude Code，要完成结构侦察、逆向分析、图像/3D/音频素材生成、游戏内测试，并产出可安装模组与展示视频。
+  job_en: An individual modder or small game team preparing to modify a PC game hands game assets and
+    code files to Claude Code to complete structural recon, reverse engineering, image/3D/audio asset
+    generation, in-game testing, and produce an installable mod plus showcase video.
+  pain: 逆向、素材制作与游戏内验证分散在反编译工具、解包工具和图像音频软件中，流程高度依赖个人经验，改动能否跑通往往要反复试错；公开材料未给出用户抱怨或量化耗时，痛点是工作流结构推理。
+  pain_en: Reverse engineering, asset creation and in-game validation are scattered across decompilers,
+    unpackers and image/audio software, with the process highly dependent on personal experience and repeated
+    trial and error; public materials give no user complaints or quantified time cost, so the pain is
+    a workflow-structure inference.
+  current_alternative: 目前多靠作者手工使用反编译、资源解包工具与图像音频软件，逐环节拼接完成，流程与经验高度个人化。
+  current_alternative_en: Today authors mostly use decompilers, asset unpackers and image/audio software
+    by hand, stitching each step together, with the process and know-how highly personal.
+  usage_reason: 相较手工逐环节拼接，它把侦察、逆向、素材生成与游戏内测试串成模型可执行的连续动作，减少在工具之间搬运和重复试错的步骤，因此缺少完整工具链的个人模组作者会尝试它；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with stitching each step by hand, it chains recon, reverse engineering, asset
+    generation and in-game testing into continuous model-executable actions, cutting tool-switching and
+    repeated trial and error, so individual modders lacking a full toolchain may try it; this is an inference
+    from capability, not user feedback.

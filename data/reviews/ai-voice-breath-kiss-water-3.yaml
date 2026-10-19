@@ -81,3 +81,44 @@
   usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能给出用户选择它的因果解释。
   usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old approach
     or which checkable result it improves, so no causal reason for choosing it can be given.'
+- id: req-full-ai-voice-breath-kiss-water-3-2026-10-19
+  project_slug: ai-voice-breath-kiss-water-3
+  level: full
+  reviewed_at: '2026-10-19T00:42:07Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决 AI 角色语音不够自然、缺呼吸停顿的问题，但公开材料只有主题式标题，未说明旧流程卡点与不解决的后果；内容偏擦边猎奇，属可有无的素材拼凑，刚性不足。
+    evidence_ids:
+    - ev-67450b11fc76e7cd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion 是否披露输入格式、生成流程与产出音频样例，以核验交付形态与真实使用反馈。
+  market: ''
+  job: 做 AI 陪伴角色语音的创作者，在给角色录/生成台词时，处理台词文本与呼吸、喘息、重复念白等声音细节，产出可直接用于角色语音的音频片段。
+  job_en: Creators producing AI companion character voices handle dialogue text plus breath, gasp and
+    repeated-line details to deliver audio clips usable directly as character voice.
+  pain: 公开材料只给出“气贴着话、床上的喘、一句念两遍”这类主题标签，没有说明创作者此前卡在哪一步、不解决会失去什么；从结构推理看，通用 TTS 念白偏平、缺呼吸与停顿，需人工剪辑拼接，但这是推断而非材料事实。
+  pain_en: Public material only gives thematic labels such as breath-against-speech and repeated lines,
+    without saying where creators got stuck or what is lost if unsolved; structurally, generic TTS sounds
+    flat and lacks breath and pauses, requiring manual splicing, but this is inference, not material fact.
+  current_alternative: 候选未提供替代做法；按常见做法推断，创作者会用通用 TTS 生成念白后人工剪辑、叠加呼吸音效，或直接真人配音，均为推断。
+  current_alternative_en: The candidate gives no alternative practice; by common practice, creators would
+    use generic TTS then manually edit and layer breath effects, or use human voice actors, all inferred.
+  usage_reason: 无法给出因果解释：材料未说明它相较旧做法减少哪一步负担或改善哪项可核对结果，仓库仅以主题式标题组织素材，且内容偏情色擦边，难以判断哪类用户会在什么情况下选择它，推断其价值更多是猎奇而非稳定工作流需求。
+  usage_reason_en: 'No causal reason can be given: the material does not say which step it removes versus
+    the old approach or which checkable result it improves; the repo only organizes material under thematic
+    titles with borderline erotic content, so it is hard to say which users would choose it and when,
+    suggesting novelty value rather than a stable workflow need.'

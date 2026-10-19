@@ -171,3 +171,55 @@
     widgets and themes directly, removing the steps of sourcing assets and tuning layout, so power users
     who enjoy tinkering may try it; the material does not show whether generated results are reliably
     usable or repeatedly used.'
+- id: req-full-omalauncher-2026-10-19
+  project_slug: omalauncher
+  level: full
+  reviewed_at: '2026-10-19T00:44:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决安卓用户改造主屏时手动摆放图标、小组件与主题来源分散的需求，痛点在于改造费时且难复现；公开材料说明代理生成小组件与主题、proot 免 root 跑 Linux，交付闭环可还原，但痛点强度属工作流结构推理，缺用户抱怨证据。
+    evidence_ids:
+    - ev-365614a02464296f
+    - ev-75fc6bf339443b26
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 Google Play 上架与 公开代码仓库 仓库说明，属发布与关注度证据，未见下载量、评价或重复使用数据，无法判断用户是否把它留在日常桌面。
+    evidence_ids:
+    - ev-d61f329c6c0d6f5b
+    - ev-997b1cc024102e60
+  - gate: model
+    status: insufficient
+    reason: 公开材料只说明可从 Google Play 获取，未见定价页或付费路径；钱可能来自应用商店付费、捐赠或后续服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6e658fc8fe69b5cc
+    - ev-64a2516c30656f09
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明代理生成的小组件能否稳定安装运行、是否需要人工确认，也未给出 Linux 窗口与安卓任务切换的失败边界，交付确定性缺材料支持。
+    evidence_ids:
+    - ev-571a264553f75043
+    - ev-bae219fe17c94dc6
+  next_validation: 追踪 Google Play 商店页的下载量、评分与用户评论，确认代理生成的小组件能否稳定运行以及用户是否重复使用。
+  market: ''
+  job: 喜欢折腾桌面的安卓用户在换机或想改造主屏时，处理图标、小组件、Omarchy 主题和可选的 Arch Linux 环境，要完成一套自己满意、能日常使用的主屏布局。
+  job_en: Android users who enjoy tinkering with their home screen, when switching phones or reworking
+    the launcher, handle icons, widgets, Omarchy themes and an optional Arch Linux environment to finish
+    a home-screen layout they are satisfied with and can use daily.
+  pain: 公开材料显示现有做法需要手动摆放图标与小组件、主题和小组件来源分散；不解决的后果是改造桌面费时且难以复现，但材料未给出用户抱怨或替代行为的直接证据，痛点强度属结构推理。
+  pain_en: Public material shows the current approach requires manual icon and widget placement with scattered
+    theme and widget sources; the consequence is time-consuming, hard-to-reproduce customization, but
+    the material gives no direct user complaints or workaround evidence, so pain intensity is a structural
+    inference.
+  current_alternative: 使用 Nova 等第三方启动器逐个摆放图标、下载主题包，或干脆用系统默认桌面；想跑 Linux 则需 root 或另备设备。
+  current_alternative_en: Using third-party launchers such as Nova to place icons one by one, downloading
+    theme packs, or keeping the stock launcher; running Linux requires root or a separate device.
+  usage_reason: 推断：相比逐个手动摆放和找素材，它让代理直接生成小组件与主题，并以 proot 免 root 方式把 Linux 窗口作为独立安卓任务打开，省掉找素材、调布局和 root
+    的步骤，因此愿意折腾桌面的极客用户会在换机或改造主屏时尝试；材料未显示生成结果稳定可用或重复使用。
+  usage_reason_en: 'Inference: compared with manual placement and sourcing assets, it lets agents generate
+    widgets and themes directly and opens Linux windows as separate Android tasks via proot without root,
+    removing the steps of sourcing assets, tuning layout and rooting, so tinkering power users may try
+    it when switching phones or reworking the home screen; the material does not show reliably usable
+    output or repeated use.'

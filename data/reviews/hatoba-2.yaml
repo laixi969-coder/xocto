@@ -145,3 +145,51 @@
     the user''s own Cloudflare account removes manual multi-machine config upkeep and keeps config data
     off third-party servers. Engineers who care about diagnosis speed and config privacy would therefore
     choose it in multi-machine troubleshooting.'
+- id: req-full-hatoba-2-2026-10-19
+  project_slug: hatoba-2
+  level: full
+  reviewed_at: '2026-10-19T00:43:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SSH 排障时读懂命令输出、以及多机连接配置同步的需求；旧做法是终端加外部搜索、手工维护配置，不解决则排障变慢、配置易漂移。公开材料仅给产品能力，未记录用户抱怨，故痛点为工作流结构推理。
+    evidence_ids:
+    - ev-515fd169136d50b0
+    - ev-2627a6aa7af86c64
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 67 增至 124，说明有开发者关注，但无 issue、讨论或用户评价说明他们卡在感知、场景还是利益哪一环，也未见持续采用证据。
+    evidence_ids:
+    - ev-515fd169136d50b0
+    - ev-594c344fa69abb47
+  - gate: model
+    status: insufficient
+    reason: 开源桌面客户端，未见定价页、付费客户或采购记录；钱可能来自 to C 开发者订阅或 to B 团队授权，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-515fd169136d50b0
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 助手接收什么输入、执行什么动作、输出什么结果，无法核验其是否贴近排障第一性目标，也缺人工确认边界与交付确定性材料。
+    evidence_ids:
+    - ev-2880f3774b7ce77b
+    - ev-2627a6aa7af86c64
+  next_validation: 抓取 Hatoba 仓库 README 与 issue/discussion，确认 AI 助手在 SSH 会话中实际接收的输入、执行的动作与输出结果，以及是否有用户反馈其排障效果。
+  market: ''
+  job: 运维与后端工程师在通过 SSH 登录多台服务器排查故障时，需要读懂命令输出、定位问题，并让各机器的连接配置保持一致。
+  job_en: Ops and backend engineers logging into multiple servers over SSH to diagnose faults need to
+    interpret command output, locate the problem, and keep connection settings consistent across machines.
+  pain: SSH 排障时命令输出晦涩，工程师常需切到搜索或聊天窗口查解释；多机连接配置靠手工维护容易漂移。公开材料只给出产品能力，未直接记录用户抱怨，痛点强度属工作流推理。
+  pain_en: SSH troubleshooting output is opaque, so engineers often switch to search or chat windows for
+    explanations; multi-machine connection settings drift when maintained by hand. Public material only
+    states product capabilities, not user complaints, so pain intensity is a workflow inference.
+  current_alternative: 传统 SSH 客户端（如 PuTTY、Termius、系统终端）加手工保存配置，遇到报错另开浏览器搜索或聊天工具查询；这是从品类常识作出的推断。
+  current_alternative_en: Traditional SSH clients (PuTTY, Termius, system terminal) with manually saved
+    configs, plus a separate browser search or chat tool when an error appears; this is an inference from
+    category norms.
+  usage_reason: 推断：助手若能在同一会话窗口解释当前命令输出，工程师就不必复制报错到别处再切回；通过用户自己的 Cloudflare 账号做端到端加密同步，则省去逐台手工维护连接配置。因此常跨多机排障、又在意配置私密性的工程师会在这种场景下选择它。
+  usage_reason_en: 'Inference: if the assistant explains current command output inside the same session
+    window, engineers need not copy errors elsewhere and switch back; end-to-end encrypted sync through
+    the user''s own Cloudflare account removes per-machine manual config upkeep. Engineers who troubleshoot
+    across many machines and care about config privacy would choose it in that situation.'

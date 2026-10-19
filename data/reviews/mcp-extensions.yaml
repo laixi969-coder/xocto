@@ -784,3 +784,54 @@
     of leaving the chat and moving context by hand; developers who want their service embedded in the
     user''s existing conversation flow without building a separate entry point would choose it when end
     users must use the capability without a jump. This is inferred from product capability and '
+- id: req-full-mcp-extensions-2026-10-19
+  project_slug: mcp-extensions
+  level: full
+  reviewed_at: '2026-10-19T00:44:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决第三方开发者把已有服务接入 ChatGPT 对话、让用户在会话内直接完成操作的需求；痛点是独立应用被迫让用户跳出对话、重复登录，能力在对话场景被切断。公开材料仅有仓库定位与收藏数，旧流程摩擦与不采用后果属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-f276d9f08e91c9f4
+    - ev-2ea5cc15238e7d75
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库收藏从约 1034 增至 1084 的关注度变化，属规模信号，不能证明开发者已持续部署或用户已长期使用；缺少 issue、discussion 或客户案例说明谁在何种场景采用。
+    evidence_ids:
+    - ev-f276d9f08e91c9f4
+    - ev-2ea5cc15238e7d75
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露审核规则、计费方式与分成结构，谁付钱（开发者、SaaS 厂商还是 OpenAI 侧抽成）无法确认；这是判断而非已验证事实，不反推需求不存在。
+    evidence_ids:
+    - ev-f276d9f08e91c9f4
+  - gate: truth
+    status: insufficient
+    reason: 扩展能否确定性交付、审核通过率、权限与安全边界均无公开文档或可复现实测支撑；仓库仅给出定位描述，缺少部署与运行证据。
+    evidence_ids:
+    - ev-f276d9f08e91c9f4
+    - ev-029550169c925657
+  next_validation: 追踪 openai/mcp-extensions 仓库的 README、issue 与 discussion，确认扩展的审核流程、权限边界与是否有开发者公开的部署案例。
+  market: ''
+  job: 第三方开发者或 SaaS 团队在已有 Web 服务或 API 的前提下，按 OpenAI 的扩展规范把功能封装成 ChatGPT 内可调用的插件，让终端用户在对话中直接完成查询、下单或操作，而不必跳出对话另开网页。
+  job_en: Third-party developers or SaaS teams with an existing web service or API package their functionality
+    into a ChatGPT-invocable extension per OpenAI's spec, so end users can query, transact, or act directly
+    inside the conversation instead of leaving it for another site.
+  pain: 公开材料只给出仓库定位，未提供开发者抱怨或用户反馈；从工作流结构推理，痛点是分发与触达：独立应用要用户离开对话、记住网址、重复登录，功能在对话场景里被切断，开发者缺少在 ChatGPT 内直接交付能力的通道。
+  pain_en: 'Public materials give only the repository positioning, with no developer complaints or user
+    feedback; by workflow inference the pain is distribution and reach: standalone apps force users to
+    leave the conversation, remember a URL, and re-authenticate, so capability is severed in conversational
+    contexts and developers lack a channel to deliver inside ChatGPT.'
+  current_alternative: 旧做法是自建网站或 App、发布独立 API 由用户自行集成，或依赖早期 ChatGPT 插件与自定义 GPT 等既有接入方式；公开材料未说明这些替代的具体摩擦与迁移成本。
+  current_alternative_en: The prior approach is building a standalone site or app, publishing an API for
+    users to integrate themselves, or relying on earlier ChatGPT plugins and custom GPTs; public materials
+    do not detail the friction or migration cost of these alternatives.
+  usage_reason: 推断：相较让用户跳出对话访问独立站点，该机制让开发者的功能以原生形态出现在对话内，减少用户切换页面与重复登录的一步，因此已有 API 且用户高频在 ChatGPT 内工作的
+    SaaS 团队会在希望缩短“想到即用”路径时选择它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus sending users out to a standalone site, the mechanism surfaces a
+    developer''s capability natively inside the conversation, removing the page-switch and re-login step,
+    so SaaS teams with an existing API whose users work heavily inside ChatGPT would choose it to shorten
+    the intent-to-use path; no user feedback yet confirms this motive.'

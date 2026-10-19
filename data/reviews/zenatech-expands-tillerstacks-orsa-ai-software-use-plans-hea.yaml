@@ -1,0 +1,89 @@
+- id: req-initial-zenatech-expands-tillerstacks-orsa-ai-software-use-plans-hea-2026-10-19
+  project_slug: zenatech-expands-tillerstacks-orsa-ai-software-use-plans-hea
+  level: initial
+  reviewed_at: '2026-10-19T00:14:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决现场影像整理与培训评估的需求，但公开材料未说明AI接收什么、交付什么，痛点与旧流程无法还原。
+    evidence_ids:
+    - ev-cb4074644a3811c2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有扩大使用的报道，无客户名单、部署数量或用户反馈，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-cb4074644a3811c2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方类型或收费方式，无法判断收入来自软件订阅、硬件还是服务。
+    evidence_ids:
+    - ev-cb4074644a3811c2
+  - gate: truth
+    status: insufficient
+    reason: 无法核对Orsa+的输入、产出与人工确认边界，交付确定性未明。
+    evidence_ids:
+    - ev-cb4074644a3811c2
+  next_validation: 收集Tillerstack Orsa+的官方产品页或部署文档，确认其输入材料、输出交付物与收费方式。
+  market: ''
+  job: 无人机服务运营人员在现场作业后整理巡检影像与记录，需要形成可交付的检查结果；医疗培训组织者需要准备教学材料并评估学员操作。具体流程仍待核验。
+  job_en: Drone-service operators need to turn inspection imagery and records from field work into a deliverable
+    result; healthcare training organisers need to prepare materials and assess trainee performance. The
+    exact workflow is unverified.
+  pain: 现场作业产生的影像与记录整理耗时，培训评估依赖人工观察；但公开材料未说明Orsa+具体减轻哪一步。
+  pain_en: Organising imagery and records from field work is time-consuming, and training assessment relies
+    on manual observation; public material does not say which step Orsa+ relieves.
+  current_alternative: 现有做法可能是人工整理巡检记录、用通用软件做培训材料；公开材料未给出可核对的替代流程。
+  current_alternative_en: The current approach may be manual inspection-record sorting and general software
+    for training materials; public material gives no verifiable alternative workflow.
+  usage_reason: 推断：若Orsa+能把现场影像直接转成结构化检查记录，用户可省去事后手工整理；但缺少输入、产出与使用反馈，无法确认这一因果。
+  usage_reason_en: 'Inference: if Orsa+ turns field imagery directly into structured inspection records,
+    users could skip manual post-hoc sorting; but inputs, outputs and usage feedback are missing, so this
+    causal link is unconfirmed.'
+- id: req-full-zenatech-expands-tillerstacks-orsa-ai-software-use-plans-hea-2026-10-19
+  project_slug: zenatech-expands-tillerstacks-orsa-ai-software-use-plans-hea
+  level: full
+  reviewed_at: '2026-10-19T00:45:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道标题只称扩大Orsa+使用并计划Stacklens医疗培训，未说明输入材料、处理动作与交付物，巡检记录整理和培训评估的痛点强度与旧流程无法还原，需求结构尚不能成立。
+    evidence_ids:
+    - ev-cb4074644a3811c2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪Tillerstack官网Orsa+产品页或ZenaTech投资者关系公告，确认其输入材料、输出交付物、部署客户与收费方式。
+  market: ''
+  job: 无人机服务运营人员在现场巡检后处理影像与飞行记录，需形成可交付的检查结果；医疗培训组织者在课程中用智能眼镜记录学员操作并给出评估。公开材料未说明谁在哪个节点打开Orsa+、输入什么材料、输出什么交付物。
+  job_en: Drone-service operators process inspection imagery and flight records after field work to produce
+    a deliverable result; healthcare training organisers use smart glasses to record trainee performance
+    and give feedback. Public material does not specify who opens Orsa+ at which step, what inputs it
+    takes, or what it delivers.
+  pain: 公开材料只有一句“扩大Orsa+使用、计划Stacklens医疗培训”的报道标题，未描述巡检记录整理耗时、培训评估依赖人工观察等具体痛点，也未说明不解决会失去什么。产品能力描述不能替代痛点证据。
+  pain_en: Public material is limited to a headline about expanding Orsa+ use and planning Stacklens healthcare
+    training; it does not describe concrete pain such as time spent sorting inspection records or manual-observation-based
+    training assessment, nor the consequence of not solving it. Product capability descriptions cannot
+    substitute for pain evidence.
+  current_alternative: 公开材料未给出可核对的旧做法；只能推测为人工整理巡检影像与记录、用通用表格或视频回放做培训评估，这属于推断而非事实。
+  current_alternative_en: Public material gives no verifiable prior practice; one can only infer manual
+    sorting of inspection imagery and records, or general spreadsheets and video review for training assessment.
+    This is inference, not fact.
+  usage_reason: 推断：若Orsa+能把现场影像直接转成结构化检查记录，可省去事后手工整理；若Stacklens能在操作时同步记录并回放，可减少培训评估的人工观察。但输入、产出、人工确认边界与使用反馈均缺失，无法确认这一因果，也无法判断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if Orsa+ converted field imagery directly into structured inspection records,
+    post-hoc manual sorting could be skipped; if Stacklens recorded and replayed operations in real time,
+    manual observation in training assessment could be reduced. But inputs, outputs, human-confirmation
+    boundaries and usage feedback are all missing, so this causal link and the choice situation for any
+    user type cannot be confirmed.'

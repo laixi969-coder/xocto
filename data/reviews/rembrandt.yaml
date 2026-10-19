@@ -334,3 +334,44 @@
   usage_reason_en: No inference about why users would choose it is possible from current evidence; all
     cited evidence is unrelated to product functionality, lacking verifiable product capability, user
     feedback, or adoption behavior.
+- id: req-full-rembrandt-2026-10-19
+  project_slug: rembrandt
+  level: full
+  reviewed_at: '2026-10-19T00:45:00Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决摄影师 RAW 后期与蒙版调整任务，但公开证据全是十七世纪画家伦勃朗的传记与作品目录，未记录任何后期痛点、旧流程或不解决的后果，无法还原需求结构。
+    evidence_ids:
+    - ev-1955e0abcc74a074
+    - ev-0ff8410cbceeae96
+    - ev-73ef84c3dc111b92
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Rembrandt 项目自身的官方仓库 README、release 说明与 issue/discussion，确认其 AI 蒙版编辑能力、输入输出格式与真实用户反馈，替换当前误抓的画家资料。
+  market: ''
+  job: 独立摄影师或小型工作室在交付客户成片前，处理 RAW 素材并做蒙版局部调整，最终输出可交付的图片文件。
+  job_en: Independent photographers or small studios processing RAW files and making masked local adjustments
+    before delivering client images, then exporting deliverable image files.
+  pain: 公开材料没有记录摄影师在 RAW 后期中的具体痛点、耗时或返工代价；现有证据全部指向十七世纪画家伦勃朗，与图像后期工作无关。
+  pain_en: Public materials record no specific pain, time cost, or rework burden in RAW post-processing;
+    all evidence points to the 17th-century painter Rembrandt and is unrelated to photo post-processing.
+  current_alternative: 公开材料未说明用户当前使用 Lightroom、Capture One 或其他工具完成该任务，也未说明替代行为。
+  current_alternative_en: Public materials do not show whether users currently rely on Lightroom, Capture
+    One, or other tools, nor any substitution behavior.
+  usage_reason: 无法从公开证据判断用户为何选择它；现有证据是画家传记与作品目录，不能支持本地 AI 编辑的采用理由，相关判断只能标为推断且缺乏依据。
+  usage_reason_en: Public evidence cannot explain why users would choose it; the evidence consists of
+    painter biographies and artwork catalogs, which cannot support adoption of local AI editing, so any
+    such claim would be unsupported inference.

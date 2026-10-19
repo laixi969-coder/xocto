@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPV2hlbEhLZzNy
 summary: AI改变HR行业？北森纪伟国称“未来是真人与硅基HR共存的时代” 搜狐网
 first_seen: '2026-08-30T23:40:00Z'
 last_seen: '2026-08-31T00:37:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,82 @@
+- id: req-initial-physical-ai-startup-origin-emerges-from-stealth-with-20-mill-2026-10-19
+  project_slug: physical-ai-startup-origin-emerges-from-stealth-with-20-mill
+  level: initial
+  reviewed_at: '2026-10-19T00:14:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工地缺工与重复作业人力成本问题，旧做法是人工班组，痛点具体；具体作业环节与交付仍待核验。
+    evidence_ids:
+    - ev-5569cac70b0a9be1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资与结束隐身报道，未见客户采用或现场部署案例，共识未形成。
+    evidence_ids:
+    - ev-5569cac70b0a9be1
+  - gate: model
+    status: insufficient
+    reason: 推断：收入可能来自向施工方按作业量或设备租赁收费，但无定价与付费记录，属判断非事实。
+    evidence_ids:
+    - ev-5569cac70b0a9be1
+  - gate: truth
+    status: insufficient
+    reason: 机器人现场作业的安全边界与确定性交付缺公开证据，融资不证明交付能力。
+    evidence_ids:
+    - ev-5569cac70b0a9be1
+  next_validation: 收集 Origin 官方产品页或客户案例，确认其具体承担的施工工序、部署方式与是否有施工方实际使用记录。
+  market: ''
+  job: 建筑施工方在工地现场需要完成重复性作业时，用机器人替代人工执行，以缓解人力不足并扩大作业规模。
+  job_en: Construction firms, facing repetitive on-site work, use robots instead of manual labor to ease
+    labor shortages and scale output.
+  pain: 建筑工地长期缺工、重复作业人力成本高，工期压力下人工难以稳定扩产。
+  pain_en: Construction sites face chronic labor shortages and high cost of repetitive manual work, making
+    stable scaling hard under schedule pressure.
+  current_alternative: 雇佣人工班组、外包劳务或半自动化机械。
+  current_alternative_en: Hiring manual crews, subcontracting labor, or semi-automated machinery.
+  usage_reason: 推断：相较人工班组，机器人可承担重复工序并稳定出工，减少对临时招工的依赖，因此缺工或工期紧的承包商会先评估试用。
+  usage_reason_en: 'Inference: versus manual crews, robots can take on repetitive tasks and deliver steady
+    output, reducing reliance on ad-hoc hiring, so contractors short on labor or time would evaluate them
+    first.'
+- id: req-full-physical-ai-startup-origin-emerges-from-stealth-with-20-mill-2026-10-19
+  project_slug: physical-ai-startup-origin-emerges-from-stealth-with-20-mill
+  level: full
+  reviewed_at: '2026-10-19T00:44:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选仅披露结束隐身与 2000 万美元融资，未说明具体施工工序、现场痛点与交付方式；所引证据均为 EA 游戏平台 Origin 或通用 AI 页面，与建筑机器人无关，无法还原用户任务与旧替代。
+    evidence_ids:
+    - ev-6da3051576c738a6
+    - ev-8726e15470571490
+    - ev-00e427a89a35380d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Origin 建筑机器人官网产品页与客户案例，确认其承担的具体施工工序、部署方式及施工方实际使用记录。
+  market: ''
+  job: 建筑施工方在工地现场需要完成重复性作业时，评估用建筑机器人替代人工班组执行，以缓解缺工并扩大作业规模。
+  job_en: Construction firms, when repetitive on-site work must be done, evaluate construction robots
+    to replace manual crews, easing labor shortages and scaling output.
+  pain: 公开材料仅称其结束隐身并融资 2000 万美元以扩大建筑机器人规模，未披露具体工序、现场痛点或用户抱怨，无法确认痛点刚性。
+  pain_en: Public material only says it exited stealth with $20M to scale construction robots; it discloses
+    no specific task, on-site pain, or user complaint, so pain rigidity cannot be confirmed.
+  current_alternative: 公开材料未说明施工方现在用什么替代，人工班组、外包劳务或半自动化机械均属推断，无引用支持。
+  current_alternative_en: Public material does not state what firms use today; manual crews, subcontracting,
+    or semi-automated machinery are inference without citation.
+  usage_reason: 推断：若机器人能承担重复工序并稳定出工，缺工或工期紧的承包商会评估试用；但无客户案例或反馈支持该动机，仅为结构推理。
+  usage_reason_en: 'Inference: if robots handle repetitive tasks with steady output, contractors short
+    on labor or time would evaluate them; no case or feedback supports this motive, so it is structural
+    reasoning only.'

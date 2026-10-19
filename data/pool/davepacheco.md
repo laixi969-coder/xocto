@@ -21,7 +21,7 @@ canonical_url: https://davepacheco.net/blog/2025/developing-for-debugging-dns-pr
 summary: Developing for Debugging (2025)
 first_seen: '2026-10-19T00:13:33Z'
 last_seen: '2026-10-19T00:13:33Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

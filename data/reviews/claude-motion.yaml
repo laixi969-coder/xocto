@@ -321,3 +321,52 @@
     intent, engineers skip translating design frames into parameters by hand and iterate duration/easing
     in one place; that is why it would be chosen for motion tasks needing fast output and repeated tuning.
     Output quality and framework coverage are undisclosed, so the motive is structural reasoning.'
+- id: req-full-claude-motion-2026-10-19
+  project_slug: claude-motion
+  level: full
+  reviewed_at: '2026-10-19T00:42:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工程师把设计意图转成可运行动效代码、并反复调时长与缓动的需求；手写动画与逐项改库参数是现有替代，不解决则沟通与试错成本持续存在。材料仅一句定位，输入输出细节未披露，故这是工作流结构推理而非采用证据。
+    evidence_ids:
+    - ev-685201b2d5f049b5
+    - ev-fa6a0da6c5606f80
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 362 升至 476，说明有开发者关注；但无 issue、讨论或使用反馈，无法判断是否被真实项目持续采用，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-685201b2d5f049b5
+    - ev-e06b0d6703705681
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、赞助或商业授权，买方与付费方式未知；这是判断而非已验证事实，开源工具包也可能长期无直接收入路径。
+    evidence_ids:
+    - ev-685201b2d5f049b5
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明产出的动画代码能否直接上线、适配哪些框架、是否需人工逐项核对，确定性交付与安全边界无法评估。
+    evidence_ids:
+    - ev-685201b2d5f049b5
+    - ev-fa6a0da6c5606f80
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认它接收的设计输入形式、产出的代码形态与框架适配范围，以及是否有真实项目使用反馈。
+  market: ''
+  job: 前端或产品工程师在给网页、应用实现动效时，把设计师给出的时长、缓动、位移等设计意图交给编码代理，产出可运行的动画代码，再按预览反复微调参数。
+  job_en: Front-end or product engineers implementing motion on web pages and apps hand design intent
+    (duration, easing, offsets) to a coding agent, get runnable animation code, and iterate on parameters
+    against a preview.
+  pain: 动效实现要在设计稿与代码之间来回翻译，时长和缓动只能逐项手调，跨框架写法不通用，沟通与试错成本落在工程师身上。
+  pain_en: Motion work requires back-and-forth translation between design files and code; duration and
+    easing are tuned item by item, syntax differs across frameworks, and the iteration cost lands on engineers.
+  current_alternative: 手写 CSS/JS 动画，或引入 Framer Motion、GSAP 等动效库后逐项改参数，再靠浏览器预览反复试。
+  current_alternative_en: Hand-writing CSS/JS animation, or adopting motion libraries such as Framer Motion
+    or GSAP and adjusting parameters item by item with browser previews.
+  usage_reason: 推断：若该工具包把动效参数与代码模板封装成编码代理可直接调用的动作，工程师可省去从设计稿逐帧翻译成参数这一步，并在同一处调整时长与缓动；因此正在用编码代理写前端、又需要可控动效的工程师会在实现动效时尝试它。仓库星标从
+    362 增至 476 只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: if the toolkit packages motion parameters and code templates as actions
+    a coding agent can call directly, engineers skip translating design frames into parameters by hand
+    and tune duration and easing in one place; engineers already using coding agents for front-end work
+    who need controllable motion would try it. Stars rising from 362 to 476 indicate attention only, not
+    sustained use.'

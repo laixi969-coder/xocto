@@ -1,0 +1,82 @@
+- id: req-initial-meetpaw-2026-10-19
+  project_slug: meetpaw
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图减少发起会议的设置步骤，但材料只有一句描述，无法确认具体动作与交付。
+    evidence_ids:
+    - ev-ece20d942fb39221
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户评价、采用数据或讨论，无法判断高频开会人群是否真的需要菜单栏入口。
+    evidence_ids:
+    - ev-ece20d942fb39221
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方与收费方式无法从公开材料判断。
+    evidence_ids:
+    - ev-ece20d942fb39221
+  - gate: truth
+    status: insufficient
+    reason: AI 在会议发起中的具体作用、链接生成是否可靠均缺少文档或实测支持。
+    evidence_ids:
+    - ev-ece20d942fb39221
+  next_validation: 收集 MeetPaw 官方产品页或文档，核验其 AI 具体执行的动作、会议链接生成方式与是否披露定价。
+  market: ''
+  job: Mac 用户需要在菜单栏快速发起即时会议，而不必打开日历或会议应用逐项设置。
+  job_en: Mac users need to start an instant meeting from the menu bar without opening a calendar or meeting
+    app to configure it step by step.
+  pain: 发起会议前要在日历或会议应用里逐项设置，步骤多且打断当前工作。
+  pain_en: Starting a meeting requires step-by-step setup in a calendar or meeting app, which is multi-step
+    and interrupts current work.
+  current_alternative: 用户通常打开日历或 Zoom、Meet 等会议应用创建链接再分享。
+  current_alternative_en: Users typically open a calendar or a meeting app such as Zoom or Meet to create
+    a link and then share it.
+  usage_reason: 推断：菜单栏一键发起可省去打开应用和逐项设置的步骤，高频开会的人可能因此选择它；但材料未说明 AI 具体做什么，也缺少用户反馈证明持续使用。
+  usage_reason_en: 'Inference: one-click launch from the menu bar saves opening an app and configuring
+    steps, which may appeal to people who meet often; but the material does not say what the AI does,
+    and there is no user feedback showing repeated use.'
+- id: req-full-meetpaw-2026-10-19
+  project_slug: meetpaw
+  level: full
+  reviewed_at: '2026-10-19T00:44:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图减少发起会议的设置步骤，但材料只有一句描述，无法确认具体动作与交付，连需求与痛点都难以写实。
+    evidence_ids:
+    - ev-ece20d942fb39221
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 MeetPaw 官方产品页或文档，核验其 AI 具体执行的动作、会议链接生成方式与是否披露定价。
+  market: ''
+  job: Mac 用户需要在菜单栏快速发起即时会议，而不必打开日历或会议应用逐项设置。
+  job_en: Mac users need to start an instant meeting from the menu bar without opening a calendar or meeting
+    app to configure it step by step.
+  pain: 发起会议前要在日历或会议应用里逐项设置，步骤多且打断当前工作；但公开材料只有一句产品描述，无法确认具体动作与交付，痛点强度未明。
+  pain_en: Starting a meeting requires step-by-step setup in a calendar or meeting app, which is multi-step
+    and interrupts current work; but the public material is only a one-line description, so the specific
+    actions and delivery cannot be confirmed and pain intensity is unclear.
+  current_alternative: 用户通常打开日历或 Zoom、Meet 等会议应用创建链接再分享。
+  current_alternative_en: Users typically open a calendar or a meeting app such as Zoom or Meet to create
+    a link and then share it.
+  usage_reason: 推断：菜单栏一键发起可省去打开应用和逐项设置的步骤，高频开会的人可能因此选择它；但材料未说明 AI 具体做什么，也缺少用户反馈证明持续使用。
+  usage_reason_en: 'Inference: one-click launch from the menu bar saves opening an app and configuring
+    steps, which may appeal to people who meet often; but the material does not say what the AI does,
+    and there is no user feedback showing repeated use.'

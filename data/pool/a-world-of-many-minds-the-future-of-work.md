@@ -32,7 +32,7 @@ summary: 'Good morning from London. What a week! Read to the end to find out wha
   of these AI minds might be very narrow'
 first_seen: '2026-10-19T00:13:57Z'
 last_seen: '2026-10-19T00:13:57Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

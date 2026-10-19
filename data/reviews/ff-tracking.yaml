@@ -270,3 +270,50 @@
     an SkSL shader and sound synthesis into one reproducible pipeline, removing the step of building tracking
     and scoring by hand in general editors, so post-production people making agent demos would try it;
     the repo has no user cases or retention evidence yet.'
+- id: req-full-ff-tracking-2026-10-19
+  project_slug: ff-tracking
+  level: full
+  reviewed_at: '2026-10-19T00:43:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理屏幕录制素材需逐帧跟踪字形并重新配音的需求，旧做法是在 After Effects 手工跟踪合成；这是从管线输入—动作—交付作出的工作流结构推理，尚无用户抱怨原文佐证。
+    evidence_ids:
+    - ev-01d945256fc50536
+    - ev-556525d07c573191
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 343 增至 466 只说明关注度，没有用户评价、issue 讨论或采用案例，无法判断后期人员是否已把它纳入常规流程。
+    evidence_ids:
+    - ev-9d0d56c5d3a3bec7
+    - ev-bafc93a8cc895ab0
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露任何收费、赞助或服务模式，钱可能来自 to C 后期个人或 to B 工作室，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-01d945256fc50536
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明输入格式、输出规格与人工确认边界，承诺能否确定性交付成片素材仍不确定。
+    evidence_ids:
+    - ev-01d945256fc50536
+    - ev-556525d07c573191
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认输入输出规格、依赖环境及是否有实际使用反馈。
+  market: ''
+  job: 视频剪辑师或视觉特效师在制作 AI 代理演示、教程或特效短片时，处理代理屏幕录制素材，要完成字形跟踪、画面合成与音效制作。
+  job_en: A video editor or VFX artist producing an AI agent demo, tutorial or effects short works with
+    agent screen recordings to complete glyph tracking, compositing and sound design.
+  pain: 代理屏幕录制里的文字与界面元素需要逐帧跟踪和重新配音，手工在通用剪辑软件里做既慢又容易错位；这是从产品管线推导的结构性痛点，公开材料未给出用户抱怨原文。
+  pain_en: Text and UI elements in agent screen recordings need frame-by-frame tracking and re-scoring;
+    doing this by hand in general editors is slow and prone to drift; this is a structural pain inferred
+    from the pipeline, not quoted user complaints.
+  current_alternative: 在 After Effects 等软件里手动做跟踪与合成，或直接使用未加工的屏幕录制。
+  current_alternative_en: Manual tracking and compositing in tools like After Effects, or shipping raw
+    screen recordings.
+  usage_reason: 推断：它把跟踪、两遍 fframes 处理、SkSL 着色器与声音合成打包成一条可复现管线，减少在通用剪辑软件里逐步搭建跟踪与配音的负担，因此做代理演示素材的后期人员会尝试它；仓库星标增长只说明关注度，尚无用户案例或留存证据。
+  usage_reason_en: 'Inference: it packages tracking, two fframes passes, an SkSL shader and sound synthesis
+    into one reproducible pipeline, cutting the work of building tracking and scoring step by step in
+    general editors, so post-production people making agent demos would try it; star growth only shows
+    attention, with no user cases or retention evidence yet.'

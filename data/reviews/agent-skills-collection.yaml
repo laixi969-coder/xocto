@@ -1105,3 +1105,44 @@
   usage_reason_en: 'Inference: 209 stars and 4 forks only show developer attention, not adoption motive;
     with antivirus-disabling, elevated installs, and no retention, repeat-use, or customer-case evidence,
     it is unclear which users would choose it over official plugin mechanisms.'
+- id: req-full-agent-skills-collection-2026-10-19
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-10-19T00:41:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue/discussion 与 README 安装说明，确认是否有用户报告实际使用场景、安全顾虑或替代方案，以及是否出现官方签名安装包。
+  market: ''
+  job: 开发者或 AI 助手使用者想给基于 LLM 的智能体增加模块化技能，在本地或自建环境中处理安装包、配置权限并让助手调用这些技能完成任务。
+  job_en: Developers or LLM-agent users want to add modular skills to an LLM-based agent, handling installers
+    and permissions in a local or self-hosted environment so the assistant can invoke those skills to
+    complete tasks.
+  pain: 公开材料只给出“模块化技能合集”的定位，没有用户反馈或案例说明缺少这些技能会造成什么具体损失；相反，安装要求关闭杀毒并以管理员权限运行安装包，本身给用户带来安全与信任负担。
+  pain_en: Public materials only state a 'modular skill collection' positioning; no user feedback or case
+    shows what concrete loss occurs without these skills. Instead, installation requiring antivirus disabled
+    and administrator privileges creates a security and trust burden for users.
+  current_alternative: 用户可直接使用模型自带工具调用、官方插件或自行编写少量脚本，无需关闭杀毒或提权安装第三方合集；公开材料未说明本产品替代了哪条具体旧流程。
+  current_alternative_en: Users can use built-in tool calling, official plugins, or write a few scripts
+    themselves without disabling antivirus or elevating privileges to install a third-party collection;
+    public materials do not show which concrete prior workflow this replaces.
+  usage_reason: 推断：开发者可能因合集省去逐个寻找技能而试用，但安装需关杀毒、提权，且无留存或复购证据，难以证明用户会长期留在工作流中；209 收藏只反映关注度。
+  usage_reason_en: 'Inference: developers may try it because a collection saves searching for skills one
+    by one, but installation requires disabling antivirus and elevation, and there is no retention or
+    repeat-use evidence; 209 stars only reflect attention.'

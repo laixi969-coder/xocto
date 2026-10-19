@@ -128,3 +128,47 @@
   usage_reason_en: 'No usage reason can be given: the evidence contains no product description, user feedback
     or customer case for this product, so it is impossible to say which step it removes versus the old
     approach or which users would choose it in what situation.'
+- id: req-full-keys-wasserman-slate-ai-studio-powered-by-tensorfold-built-w-2026-10-19
+  project_slug: keys-wasserman-slate-ai-studio-powered-by-tensorfold-built-w
+  level: full
+  reviewed_at: '2026-10-19T00:43:51Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决本地短片规划与渲染割裂，但公开证据全是同名无关网站，无产品页、无流程、无用户痛点记录，需求与痛点均无法写出。
+    evidence_ids:
+    - ev-a4660cf48feb5566
+    - ev-105ad598d6161414
+    - ev-ca1923b4925860ed
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 TensorFold 官网或 公开代码仓库 仓库的 README 与 issue/discussion，确认 Slate AI Studio 的实际产品页、渲染流程与是否有人报告成功产出成片。
+  market: ''
+  job: 独立影视创作者在 Mac 或 NVIDIA DGX Spark 上，面对剧本与分镜设想，要规划镜头并渲染出带声音、可剪辑的短片片段。
+  job_en: Independent filmmakers on a Mac or NVIDIA DGX Spark work from a script and shot ideas to plan
+    shots and render sound-bearing, editable short-film clips.
+  pain: 公开材料未提供任何创作者抱怨、工作流记录或客户案例；只能从摘要推断云端按量计费、素材上传与本地自建模型环境之间存在割裂，痛点本身缺乏可引用证据。
+  pain_en: No creator complaints, workflow records or customer cases are public; only the summary hints
+    at friction between metered cloud generation, asset uploads and self-built local model environments,
+    so the pain itself lacks citable evidence.
+  current_alternative: 公开证据未记录创作者当前如何完成该任务；摘要提及的替代是分别使用云端出图与出视频服务，或自行在本地配置开源模型脚本，但无引用支持。
+  current_alternative_en: Public evidence does not record how creators currently do this; the summary's
+    alternatives are separate cloud image and video services or hand-configuring open-source model scripts,
+    but nothing cited supports this.
+  usage_reason: 推断：若它真能把规划、出图、出带声视频串成一条本地流水线，可省去在多个工具间搬运素材与自建环境；但公开证据全是同名无关网站（活动场地、Slate 杂志），无产品页、无使用反馈，无法说明哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if it truly chains planning, image generation and sound-bearing video into
+    one local pipeline, it could remove moving assets between tools and building the environment; but
+    all public evidence is unrelated same-name sites (an event space, Slate magazine), with no product
+    page or usage feedback, so it cannot be said which users would choose it.'

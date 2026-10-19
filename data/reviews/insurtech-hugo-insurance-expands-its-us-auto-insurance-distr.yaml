@@ -1,0 +1,83 @@
+- id: req-initial-insurtech-hugo-insurance-expands-its-us-auto-insurance-distr-2026-10-19
+  project_slug: insurtech-hugo-insurance-expands-its-us-auto-insurance-distr
+  level: initial
+  reviewed_at: '2026-10-19T00:14:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决车险比价与投保的摩擦，但公开材料未说明 AI 具体改写了哪一步，价值结构只能部分还原。
+    evidence_ids:
+    - ev-eb188f47834bf359
+  - gate: consensus
+    status: insufficient
+    reason: 仅有渠道扩张报道，没有用户采用、评价或合作方反馈。
+    evidence_ids:
+    - ev-eb188f47834bf359
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、佣金结构或买方付费路径，无法判断收入来源。
+    evidence_ids:
+    - ev-eb188f47834bf359
+  - gate: truth
+    status: insufficient
+    reason: 无法核验报价与保单交付是否确定发生，也未见 AI 环节的第一方说明。
+    evidence_ids:
+    - ev-eb188f47834bf359
+  next_validation: 收集 Hugo Insurance 官方产品页或合作渠道页面，确认其 AI 环节、覆盖州与报价交付方式。
+  market: ''
+  job: 个人车主在续保或换车险时，处理多家保险公司的报价与投保材料，完成比价和投保。
+  job_en: Individual car owners renewing or switching auto insurance handle quotes and application materials
+    from several insurers to compare and buy.
+  pain: 逐家询价和重复填写信息耗时，且难以横向比较条款；这是车险购买的常见摩擦（推断）。
+  pain_en: Requesting quotes one by one and re-entering details is slow, and terms are hard to compare
+    side by side; this is a common friction in auto insurance buying (inference).
+  current_alternative: 直接联系保险公司、通过独立代理人或比价网站完成询价与投保。
+  current_alternative_en: Contacting insurers directly, or using independent agents or comparison sites
+    to get quotes and buy.
+  usage_reason: 若其线上流程能一次收集信息并返回多家报价，可减少重复填表这一步；但公开材料未说明 AI 具体动作，也未给出用户反馈，因此用户为何选择它仍属推断。
+  usage_reason_en: If its online flow collects details once and returns multiple quotes, it removes the
+    repeated form-filling step; but public material does not describe the AI action or user feedback,
+    so why users choose it remains inference.
+- id: req-full-insurtech-hugo-insurance-expands-its-us-auto-insurance-distr-2026-10-19
+  project_slug: insurtech-hugo-insurance-expands-its-us-auto-insurance-distr
+  level: full
+  reviewed_at: '2026-10-19T00:43:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决车险比价与投保摩擦，但公开材料只支持按天计费降低低频车主保费这一价值点，未说明 AI 改写了哪一步，也未证明比价填表是刚性痛点，价值结构不成立。
+    evidence_ids:
+    - ev-693ba622c0de4d83
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Hugo Insurance 官网（withhugo.com）的定价与覆盖州页面，确认按天计费条款、AI 环节说明及保单交付方式。
+  market: ''
+  job: 个人车主在续保或换车险时，需要处理多家保险公司的报价与投保材料，完成比价和投保；Hugo 以线上分销承接这一购买流程。
+  job_en: Individual car owners renewing or switching auto insurance need to handle quotes and application
+    materials from multiple insurers to compare and buy; Hugo handles this purchase flow through online
+    distribution.
+  pain: 公开材料仅有一条用户评价提到按天付费让保险变得可负担，指向低频用车车主的保费负担，而非比价填表摩擦；逐家询价耗时属于推断，缺少公开抱怨或行为证据。
+  pain_en: The only public user quote mentions pay-by-day making insurance affordable, pointing to premium
+    burden for low-mileage drivers rather than quote-comparison friction; the claim that requesting quotes
+    one by one is slow is inference without public complaint or behavioral evidence.
+  current_alternative: 直接联系保险公司、通过独立代理人或比价网站询价投保；低频用车车主可能选择按里程或按天计费产品。
+  current_alternative_en: Contacting insurers directly, or using independent agents or comparison sites;
+    low-mileage owners may choose mileage- or day-based products.
+  usage_reason: 推断：若按天计费确实降低低频用车车主的保费，这类用户会因可负担而选择它；但公开材料未说明 AI 具体改写了哪一步，也未给出留存或复购证据，无法确认它已进入工作流。
+  usage_reason_en: 'Inference: if pay-by-day pricing genuinely lowers premiums for low-mileage owners,
+    such users would choose it for affordability; but public material does not describe which step AI
+    rewrites, nor retention or repeat-use evidence, so it cannot be confirmed as part of the workflow.'

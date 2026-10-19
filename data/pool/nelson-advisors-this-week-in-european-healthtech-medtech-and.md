@@ -22,7 +22,7 @@ summary: 'Nelson Advisors: This Week in European HealthTech, MedTech and Health 
   https://www.healthcare.digital/'
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

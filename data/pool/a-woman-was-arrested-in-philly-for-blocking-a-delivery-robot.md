@@ -27,7 +27,7 @@ summary: Carolyn Marvin was arrested and charged with disorderly conduct after b
   robots have become a common sight on the … Read the full story at The Verge.
 first_seen: '2026-10-19T00:13:57Z'
 last_seen: '2026-10-19T00:13:57Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

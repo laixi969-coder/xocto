@@ -86,3 +86,50 @@
   usage_reason_en: 'Inference: if the product truly retrieves local content by meaning for agents, it
     would remove the step of recalling filenames and copying by hand; but all current evidence points
     to a same-named fictional item and an unrelated grading tool, supporting no adoption causality.'
+- id: req-full-pensieve-2-2026-10-19
+  project_slug: pensieve-2
+  level: full
+  reviewed_at: '2026-10-19T00:44:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本机资料按语义检索并供 AI 代理调用的需求：文件、仓库、会话、工单散落，靠文件名搜索和手工粘贴取上下文，代理缺少可调用入口。旧替代与不解决的后果具体，交付闭环可还原，属工作流结构推理；索引范围与权限处理未公开。
+    evidence_ids:
+    - ev-d1260229394dd135
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库 66 星这一关注度信号，未见用户评价、采用案例或重复使用记录，无法判断是否已进入开发者日常工作流；关注度不能替代持续采用证据。
+    evidence_ids:
+    - ev-d1260229394dd135
+  - gate: model
+    status: insufficient
+    reason: 公开材料只显示开源仓库，未见定价页、托管服务或企业支持路径；钱可能来自个人开发者订阅或团队授权，这是判断而非已验证事实，付费方与付费意愿均未核验。
+    evidence_ids:
+    - ev-d1260229394dd135
+  - gate: truth
+    status: challenged
+    reason: 产品承诺把本机文件、会话与工单交给代理，但公开材料未说明索引覆盖哪些类型、权限与隐私边界如何划定、敏感内容是否外发；这些直接决定交付能否确定性发生，目前无法核对。
+    evidence_ids:
+    - ev-d1260229394dd135
+  next_validation: 追踪 pensieve.tools 官网与仓库 README、issue/discussion，核对索引覆盖范围、权限与隐私处理方式，以及是否出现付费或托管版本。
+  market: ''
+  job: Mac 用户或其所用的 AI 编码代理在需要引用本机上下文时，用自然语言描述要找的内容，从本机文件、仓库、代理会话、工单与消息中取回相关材料，再交给代理继续工作。
+  job_en: A Mac user or their AI coding agent, needing local context, describes in natural language what
+    is needed and retrieves relevant material from local files, repos, agent sessions, tickets and messages
+    to hand to the agent.
+  pain: 本机资料散落在文件、仓库、会话与工单中，靠文件名和目录记忆查找，关键词对不上就找不到；代理要读本地上下文时缺少可调用的检索入口，只能人工复制粘贴。
+  pain_en: Local material is scattered across files, repos, sessions and tickets; finding it depends on
+    remembering names and folders, and a mismatched keyword yields nothing. Agents also lack a callable
+    retrieval entry point and rely on manual copy-paste.
+  current_alternative: 系统聚焦搜索或第三方文件名搜索，加上人工整理目录；给代理喂上下文时手动复制粘贴文件内容或会话记录。
+  current_alternative_en: System Spotlight or third-party filename search plus manual folder tidying;
+    feeding agents context by manually copying file contents or session logs.
+  usage_reason: 推断：相较按文件名搜索再手工复制，它通过本地 MCP 服务把文件、仓库、会话、工单与消息统一按语义取回并直接供代理调用，省掉回忆文件名、整理目录和逐次粘贴这几步；频繁给编码代理补本机上下文的
+    Mac 开发者会在这种场景下选择它。公开材料未说明索引范围与权限边界。
+  usage_reason_en: 'Inference: compared with filename search plus manual copying, its local MCP server
+    retrieves files, repos, sessions, tickets and messages by meaning and exposes them directly to agents,
+    removing the steps of recalling filenames, tidying folders and pasting each time; Mac developers who
+    often feed local context to coding agents would choose it in that situation. Public material does
+    not describe indexing scope or permission boundaries.'

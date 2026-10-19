@@ -412,3 +412,49 @@
     lets the AI assistant issue asset search and fetch requests during coding/assembly, removing the step
     of switching sites and hand-carrying files; however, asset source, format and licensing are undisclosed,
     so whether that burden is actually reduced remains unverified.'
+- id: req-full-3d-asset-server-2026-10-19
+  project_slug: 3d-asset-server
+  level: full
+  reviewed_at: '2026-10-19T00:41:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 3D 美术师/开发者在场景搭建中批量取用模型资产的需求，痛点是从素材站到引擎的手工搜索导入打断建模节奏；公开材料仅一句描述，痛点与交付闭环属工作流结构推理，资产来源与授权仍缺。
+    evidence_ids:
+    - ev-f9381f3b76807453
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 288 升至 317 只说明开源关注度，没有用户反馈、issue 讨论或采用案例，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-f9381f3b76807453
+    - ev-e69f5d85cccf7c6b
+  - gate: model
+    status: insufficient
+    reason: 公开材料没有定价、付费或采购信息，买方与收费方式均不明；这是判断而非已验证事实，开源项目可能靠赞助或后续商业化。
+    evidence_ids:
+    - ev-f9381f3b76807453
+  - gate: truth
+    status: insufficient
+    reason: 资产来源、支持格式、授权范围与人工确认边界均未披露，无法核对交付是否确定发生，也无法判断是否贴近建模第一性目标。
+    evidence_ids:
+    - ev-f9381f3b76807453
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认 3D 资产的实际来源、支持格式、授权方式与调用示例。
+  market: ''
+  job: 3D 美术师或游戏开发者在搭建场景、需要批量取用模型资产时，让 AI 编码助手通过 MCP 检索并获取 3D 资产，用于后续建模或场景搭建。
+  job_en: A 3D artist or game developer building a scene asks an AI coding assistant to look up and fetch
+    3D assets through MCP for later modeling or scene assembly.
+  pain: 公开材料仅给出“3D assets api and mcp”一句，未说明资产获取原本由谁、用什么工具、花多久完成，痛点只能从工作流结构推断：在素材站与引擎之间反复切换、手动下载导入会打断建模节奏。
+  pain_en: 'The public material only gives the phrase ''3d assets api and mcp''; it does not say who previously
+    fetched assets, with what tools, or how long it took. The pain can only be inferred from workflow
+    structure: switching between asset marketplaces and the engine and importing manually interrupts modeling
+    flow.'
+  current_alternative: 公开材料未说明现有替代方式；按工作流推断，用户此前多在素材站手工搜索下载、再导入引擎或 DCC 工具，或自建资产管线。
+  current_alternative_en: The public material does not describe existing alternatives; by workflow inference,
+    users previously searched and downloaded manually from asset marketplaces, then imported into an engine
+    or DCC tool, or built their own asset pipeline.
+  usage_reason: 推断：若助手能在编码过程中直接调用接口取到资产，可省去切到素材站搜索再手动导入的一步；但资产来源、格式与授权未披露，这一步负担是否真被减少仍待核验。
+  usage_reason_en: 'Inference: if the assistant can call the API to fetch assets during coding, it may
+    remove the step of searching an asset marketplace and importing manually; however, asset source, format
+    and licensing are not disclosed, so whether that burden is actually reduced remains to be checked.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMie0FVX3lxTE9RT0gxVUpiT0Q1
 summary: 'China’s Tech Curbs: A Wake-Up Call for India VARIndia'
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

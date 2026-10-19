@@ -40,3 +40,92 @@
   usage_reason_en: 'Inference: unlike robots.txt, which only states intent, it turns each crawl into a
     per-page USDC settlement record, reducing the burden of negotiating with each crawler and chasing
     payments afterwards, so sites with exclusive content already being scraped would try it.'
+- id: req-initial-pay-per-crawl-2026-10-19
+  project_slug: pay-per-crawl
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容被模型抓取却无法逐页计量收费的问题，旧做法是 robots.txt 或人工授权，痛点具体；买方是否为内容方尚待确认。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+    - ev-2bcf6214bcdd7898
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，未见内容方采用或客户案例，强场景存在但共识未形成。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+  - gate: model
+    status: insufficient
+    reason: 推断：收入可能来自向抓取方按页抽成或向内容方收服务费，但无定价页与付费记录，属判断非事实。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+  - gate: truth
+    status: insufficient
+    reason: 按页计费依赖抓取方自愿付费，能否确定性交付与结算仍缺公开证据。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+    - ev-d4552307e6a671e6
+  next_validation: 收集 Pay-per-Crawl 官方文档或定价页，确认按页计费的接入方式、结算流程与是否有内容方实际接入案例。
+  market: ''
+  job: 内容出版方和网站运营者在发现 AI 爬虫批量抓取原创页面时，要决定放行还是拦截，并把抓取量转成可向抓取方收取的费用记录。
+  job_en: Publishers and site operators, on finding AI crawlers bulk-fetching original pages, must decide
+    whether to allow or block and convert crawl volume into billable records charged to the crawler.
+  pain: 旧做法是 robots.txt 一刀切或人工谈授权，抓取量无法逐页计量，内容方既拿不到钱也说不清被用了多少。
+  pain_en: The old approach is blanket robots.txt rules or manual licensing talks; crawl volume cannot
+    be metered per page, so content owners neither get paid nor can quantify usage.
+  current_alternative: robots.txt、付费墙、Cloudflare 类反爬与人工授权合同。
+  current_alternative_en: robots.txt, paywalls, anti-bot services such as Cloudflare, and manual licensing
+    contracts.
+  usage_reason: 推断：相较一刀切拦截或人工谈判，它把每次抓取直接记成按页应付的 USDC 账单，省掉事后统计与对账这一步，因此已在和模型厂商谈条款的内容方会先试用。
+  usage_reason_en: 'Inference: versus blanket blocking or manual negotiation, it records each crawl directly
+    as a per-page USDC charge, removing the post-hoc counting and reconciliation step, so content owners
+    already negotiating with model vendors would try it first.'
+- id: req-full-pay-per-crawl-2026-10-19
+  project_slug: pay-per-crawl
+  level: full
+  reviewed_at: '2026-10-19T00:44:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容被模型抓取却无法逐页计量收费的问题，旧做法是 robots.txt 或人工授权，痛点具体；买方是否为内容方尚待确认。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+    - ev-2bcf6214bcdd7898
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，未见内容方采用或客户案例，强场景存在但共识未形成。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+  - gate: model
+    status: insufficient
+    reason: 推断：收入可能来自向抓取方按页抽成或向内容方收服务费，但无定价页与付费记录，属判断非事实。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+  - gate: truth
+    status: insufficient
+    reason: 按页计费依赖抓取方自愿付费，能否确定性交付与结算仍缺公开证据。
+    evidence_ids:
+    - ev-fcceb53ef6829aa2
+    - ev-d4552307e6a671e6
+  next_validation: 收集 Pay-per-Crawl 官方文档或定价页，确认按页计费的接入方式、结算流程与是否有内容方实际接入案例。
+  market: ''
+  job: 内容出版方或网站运营者在发现 AI 爬虫批量抓取原创页面时，要决定放行还是拦截，并把抓取量转成可向抓取方按页收取 USDC 的结算记录。
+  job_en: Publishers or site operators, upon detecting AI crawlers bulk-fetching original pages, must
+    decide whether to allow or block and turn crawl volume into per-page USDC billing records chargeable
+    to the crawler.
+  pain: 旧做法是 robots.txt 一刀切或人工谈授权，抓取量无法逐页计量，内容方既拿不到钱，也说不清被用了多少。
+  pain_en: The old approach is blanket robots.txt rules or manual licensing talks; crawl volume cannot
+    be metered per page, so content owners neither get paid nor can quantify usage.
+  current_alternative: robots.txt、付费墙、Cloudflare 类反爬服务与人工授权合同。
+  current_alternative_en: robots.txt, paywalls, anti-bot services such as Cloudflare, and manual licensing
+    contracts.
+  usage_reason: 推断：相较一刀切拦截或人工谈判，它把每次抓取直接记成按页应付的 USDC 账单，省掉事后统计与对账这一步，因此已在和模型厂商谈条款的内容方会先试用。
+  usage_reason_en: 'Inference: versus blanket blocking or manual negotiation, it records each crawl directly
+    as a per-page USDC charge, removing the post-hoc counting and reconciliation step, so content owners
+    already negotiating with model vendors would try it first.'

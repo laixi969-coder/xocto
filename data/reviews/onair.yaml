@@ -213,3 +213,47 @@
   usage_reason_en: 'Inference: if it truly folds multi-standard reception and decoding into one cross-platform
     interface, hobbyists monitoring several bands might try it; but with no concrete action, delivery
     outcome or adoption evidence, there is no basis to say why it would be chosen repeatedly.'
+- id: req-full-onair-2026-10-19
+  project_slug: onair
+  level: full
+  reviewed_at: '2026-10-19T00:44:35Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向同名飞行模拟平台与航空 Wi-Fi，未出现该 SDR 产品的用户任务、痛点或旧替代行为，连需求与痛点都无法写出，价值关不成立。
+    evidence_ids:
+    - ev-b6e57dcb2c07b27d
+    - ev-80daae4333090c49
+    - ev-1ae6b6c7b8b9a3d4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 OnAir SDR 产品官网或代码仓库的 README、issue 与 discussion，确认其真实功能、支持硬件与用户报告的使用场景。
+  market: ''
+  job: 无线电爱好者或射频工程师在本地接入 HackRF、RTL-SDR 等 SDR 硬件后，需要接收并解码数字电视、DAB+、FM、ADS-B、ACARS、GNSS 与业余无线电信号，得到可读的频道、航迹或报文。
+  job_en: Radio hobbyists or RF engineers who connect SDR hardware such as HackRF or RTL-SDR locally need
+    to receive and decode digital TV, DAB+, FM, ADS-B, ACARS, GNSS and ham signals into readable channels,
+    tracks or messages.
+  pain: 公开证据中没有一条描述该 SDR 产品的用户痛点、旧流程或抱怨；现有证据全部指向同名但无关的飞行模拟经济平台与阿联酋航空机上 Wi-Fi，无法支持任何痛点陈述。
+  pain_en: None of the public evidence describes a user pain, old workflow or complaint for this SDR product;
+    all evidence points to an unrelated flight-simulator economy platform and Emirates in-flight Wi-Fi,
+    so no pain statement can be supported.
+  current_alternative: 候选摘要提到多制式接收，但公开证据未记录用户当前用什么工具替代，无法确认 GQRX、SDR#、dump1090 等旧做法是否真实存在。
+  current_alternative_en: The candidate summary mentions multi-standard reception, but the public evidence
+    records no current substitute, so it cannot be confirmed that tools like GQRX, SDR#, or dump1090 are
+    actually used.
+  usage_reason: 无法判断：证据与产品不匹配，既没有用户反馈也没有可核对的能力说明，不能推断用户为何选择它。
+  usage_reason_en: 'Cannot be determined: the evidence does not match the product, and with neither user
+    feedback nor verifiable capability descriptions, there is no basis to infer why users would choose
+    it.'

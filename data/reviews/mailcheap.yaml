@@ -134,3 +134,48 @@
   usage_reason_en: 'Inference: it shifts the billing basis from total subscribers to actual sends, with
     a $19/month tier covering 20,000 emails, removing the step of paying monthly for inactive names; creators
     with large but low-open lists would compare it first at renewal or list expansion.'
+- id: req-full-mailcheap-2026-10-19
+  project_slug: mailcheap
+  level: full
+  reviewed_at: '2026-10-19T00:44:02Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者向订阅者发通讯并管理名单的需求，痛点是按订阅总数计费导致为沉睡订阅者持续付费、名单越大账单越重；旧做法是按人数分档付月费。这是基于公开定价口径与产品说明的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-40b09a5683ab46f9
+    - ev-d123f4a2114bb343
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有 1,233 星标，说明存在关注度，但公开材料没有用户评价、客户案例或持续使用证据，无法确认创作者已把它留在工作流里。
+    evidence_ids:
+    - ev-d123f4a2114bb343
+  - gate: model
+    status: supported
+    reason: 官网写明按实际发送邮件量计费、每月 19 美元起，买方是发送通讯的创作者或小型团队，付费路径清晰；但尚无公开付费或采购记录，属判断而非已验证事实。
+    evidence_ids:
+    - ev-40b09a5683ab46f9
+  - gate: truth
+    status: insufficient
+    reason: 交付物是实际发出的邮件，结果可核对；但公开材料未说明送达率、退信处理与自托管运维边界，承诺能否确定性交付仍缺部署文档或实测支撑。
+    evidence_ids:
+    - ev-d123f4a2114bb343
+    - ev-40b09a5683ab46f9
+  next_validation: 追踪 mailcheap.ai 官网定价页与部署文档，确认按发送量计费的具体档位、送达率说明及自托管支持范围。
+  market: ''
+  job: 独立创作者与小型内容团队在定期向订阅名单发送邮件通讯时，需要把内容送达活跃读者、管理订阅名单，并把发送成本控制在可承受范围内。
+  job_en: Independent creators and small content teams, when regularly sending newsletters to their subscriber
+    list, need to deliver content to active readers, manage the subscriber list, and keep sending costs
+    affordable.
+  pain: 公开材料称按订阅者总数计费的平台让创作者为沉睡订阅者持续付费；名单越大账单越重，而实际打开和阅读的只是其中一部分。
+  pain_en: Public materials state that per-subscriber platforms make creators keep paying for dormant
+    subscribers; the bigger the list, the heavier the bill, while only a portion actually opens and reads.
+  current_alternative: 旧做法是使用 beehiiv、Mailchimp 等按订阅人数分档计费的通讯平台，为整份名单付月费，即使多数人不再阅读。
+  current_alternative_en: The old way is using newsletter platforms like beehiiv and Mailchimp priced
+    by subscriber tiers, paying a monthly fee for the whole list even though most no longer read it.
+  usage_reason: 推断：它把计费口径从订阅者总数改成实际发送量，并给出自托管选项，直接减少为沉睡名单付费这一步；因此名单大但打开率低的创作者会在续费或迁移时优先考虑它。
+  usage_reason_en: 'Inference: it changes the billing basis from total subscribers to actual sends and
+    offers a self-host option, directly removing the step of paying for dormant names; so creators with
+    large but low-open lists would consider it first when renewing or migrating.'

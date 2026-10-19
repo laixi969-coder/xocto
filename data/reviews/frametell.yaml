@@ -79,3 +79,53 @@
   usage_reason_en: 'The task is: Marketing or training staff hand existing ideas and materials to an AI
     director agent to produce explainer videos for external communication or course narration Public materials
     do not yet explain why users choose this product over their existing approach.'
+- id: req-full-frametell-2026-10-19
+  project_slug: frametell
+  level: full
+  reviewed_at: '2026-10-19T00:43:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决讲解视频制作依赖剪辑技能、素材到分镜组织耗时的需求；痛点刚性来自说明与课程视频的持续产出，交付闭环为素材输入到 AI 导演组织成片。此为工作流结构推理，公开材料尚无用户抱怨证据。
+    evidence_ids:
+    - ev-02b4b9b0546bf903
+    - ev-5994d2d42e30c296
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 173 经 212 增至 245，显示关注度上升，但收藏与复刻属关注度证据，不能证明目标用户持续使用或形成强场景共识。
+    evidence_ids:
+    - ev-02b4b9b0546bf903
+    - ev-ba0f0aa2932048b6
+    - ev-5994d2d42e30c296
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价页、付费主体或单位经济；本地优先、可接任意模型意味着可能按软件或托管收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5994d2d42e30c296
+  - gate: truth
+    status: insufficient
+    reason: 分镜控制、导出规格与人工确认环节未见公开文档，AI 导演成片能否稳定交付缺可复现证据；中文生态亦未检索到相关部署材料。
+    evidence_ids:
+    - ev-faafc033294c119e
+    - ev-712b8526b3accd76
+  next_validation: 追踪 frametell 官方文档与仓库 issue/discussion，确认分镜控制、导出规格及是否有真实讲解视频产出案例。
+  market: ''
+  job: 市场或培训人员把已有的想法、讲稿和素材交给 AI 导演代理，组织成分镜与旁白，产出用于对外说明或课程讲解的讲解视频。
+  job_en: Marketing or training staff hand existing ideas, scripts and materials to an AI director agent
+    that organizes shots and narration into an explainer video for external communication or course narration.
+  pain: 公开材料只给出 AI 导演代理、本地优先、可接任意模型的定位；从工作流结构推断，痛点是讲解视频制作依赖剪辑技能与外包周期，素材到成片的分镜组织耗时，但公开证据未给出用户抱怨或频率。
+  pain_en: Public material only states an AI-director-agent, local-first, any-model positioning; by workflow
+    inference the pain is that explainer video production depends on editing skill and outsourcing cycles
+    and shot organization from raw material is slow, though public evidence gives no user complaints or
+    frequency.
+  current_alternative: 推断旧做法是用通用 AI 视频工具或剪辑软件手工拼分镜、外包制作团队，或套用模板工具；公开材料未说明它实际替代了哪一种。
+  current_alternative_en: The inferred old approach is hand-assembling shots in general AI video tools
+    or editors, outsourcing to production teams, or using template tools; public material does not say
+    which it replaces.
+  usage_reason: 推断：相较手工拼分镜或外包，它由 AI 导演代理把想法与素材直接组织成讲解视频，省去分镜编排与初剪一步，使缺剪辑技能、需快速产出说明或课程视频的市场与培训人员会在素材已备、要出成片时选择它；这是结构推理，非用户反馈。
+  usage_reason_en: 'Inference: versus hand-assembling shots or outsourcing, the AI director agent organizes
+    ideas and material directly into an explainer video, removing the shot-planning and rough-cut step,
+    so marketing and training staff lacking editing skill who need a quick explainer or course video would
+    pick it when material is ready; this is structural reasoning, not user feedback.'

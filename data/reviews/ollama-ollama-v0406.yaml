@@ -1,0 +1,93 @@
+- id: req-initial-ollama-ollama-v0406-2026-10-19
+  project_slug: ollama-ollama-v0406
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自托管开源模型的拉取、运行与进程管理，痛点具体且交付可核对。
+    evidence_ids:
+    - ev-326d73d84193e226
+  - gate: consensus
+    status: insufficient
+    reason: 仅有版本发布与少量反应数，无采用规模或用户反馈材料。
+    evidence_ids:
+    - ev-326d73d84193e226
+  - gate: model
+    status: insufficient
+    reason: 开源项目，云服务上线 clef 但未披露定价与付费路径。
+    evidence_ids:
+    - ev-326d73d84193e226
+  - gate: truth
+    status: insufficient
+    reason: 未说明云服务的数据边界与本地部署的安全责任划分。
+    evidence_ids:
+    - ev-326d73d84193e226
+  next_validation: 收集 Ollama 官方文档中云服务 clef 的说明与定价页，核对托管推理的计费与数据边界。
+  market: ''
+  job: 开发者在本地或自有服务器上部署开源模型时，处理模型文件与运行进程，完成模型拉取、启动与命令行调用。
+  job_en: Developers deploying open models locally or on their own servers handle model files and runner
+    processes to pull, start and query models from the command line.
+  pain: 自托管模型需要处理格式兼容、进程管理与环境差异，出错时排查成本高；这是从发布内容推断。
+  pain_en: Self-hosted models involve format compatibility, process management and environment differences,
+    with costly debugging when things break; inferred from the release content.
+  current_alternative: 手动配置推理框架、编译依赖并自行编写启动脚本，或直接调用云端模型 API。
+  current_alternative_en: Manually configuring inference frameworks, compiling dependencies and writing
+    launch scripts, or calling cloud model APIs directly.
+  usage_reason: 推断：相较手动配置推理框架与启动脚本，它用一条命令完成模型拉取与运行，本次还修复 Windows 孤儿进程并新增量化格式支持，减少环境调试这一步，因此需要在内网跑开源模型的开发者会选它；长期留存无公开数据。
+  usage_reason_en: 'Inference: versus manual framework setup and launch scripts, it pulls and runs models
+    with one command, and this release fixes Windows orphaned runners and adds a quantization format,
+    cutting environment debugging, so developers running open models on intranets choose it; long-term
+    retention data is not public.'
+- id: req-full-ollama-ollama-v0406-2026-10-19
+  project_slug: ollama-ollama-v0406
+  level: full
+  reviewed_at: '2026-10-19T00:44:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自托管开源模型的拉取、运行与进程管理需求，痛点具体：格式兼容与跨平台进程问题会直接阻断本地推理；交付可核对，一条命令即可得到可调用服务。属工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-c49c2e77588cf59e
+    - ev-afa0dd3777ae19c9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网定位与百科介绍，说明产品存在与用途，但没有采用规模、用户评价或持续使用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-c49c2e77588cf59e
+    - ev-afa0dd3777ae19c9
+  - gate: model
+    status: insufficient
+    reason: 开源项目本体免费，发布说明提到云服务 clef 上线，但公开材料未披露托管推理的定价与付费路径，钱从哪来仍是判断而非事实。
+    evidence_ids:
+    - ev-ccbb11ecd8baf67a
+    - ev-afa0dd3777ae19c9
+  - gate: truth
+    status: insufficient
+    reason: 本地部署与云托管并存，但公开材料未说明云服务的数据边界、安全责任划分与人工介入边界，承诺能否确定性交付尚不可核对。
+    evidence_ids:
+    - ev-afa0dd3777ae19c9
+    - ev-c49c2e77588cf59e
+  next_validation: 追踪 Ollama 官网云服务 clef 的定价页与数据边界说明，核对托管推理的计费方式与本地/云端责任划分。
+  market: ''
+  job: 开发者在本地机器或自有 GPU 服务器上部署开源大模型时，处理模型文件、量化格式与运行进程，要完成模型拉取、启动、命令行提问，并对外提供可调用的本地模型服务。
+  job_en: When deploying open models on a local machine or self-owned GPU server, developers handle model
+    files, quantization formats and runner processes to pull, start, query from the CLI, and expose a
+    callable local model service.
+  pain: 自托管模型要处理格式兼容、进程管理与跨平台环境差异，Windows 上孤儿进程和量化格式缺失会让调试成本上升；这是从发布说明与产品定位推断的结构性痛点，非用户口述。
+  pain_en: Self-hosting involves format compatibility, process management and cross-platform environment
+    differences; orphaned runners on Windows and missing quantization formats raise debugging cost. This
+    is a structural inference from release notes and product positioning, not user testimony.
+  current_alternative: 手动配置推理框架、编译依赖、自行编写启动脚本，或直接调用云端模型 API 放弃本地部署。
+  current_alternative_en: Manually configuring inference frameworks, compiling dependencies and writing
+    launch scripts, or abandoning local deployment for cloud model APIs.
+  usage_reason: 推断：相较手动配置推理框架与启动脚本，它用一条命令完成拉取与运行，本次修复 Windows 孤儿进程并新增 q2_0 量化格式，减少环境调试与进程清理这两步负担，因此需要在内网或自有
+    GPU 上跑开源模型的开发者会在本地部署场景选择它；长期留存无公开数据。
+  usage_reason_en: 'Inference: versus manual framework setup and launch scripts, it pulls and runs models
+    with one command; this release fixes Windows orphaned runners and adds the q2_0 quantization format,
+    cutting environment debugging and process cleanup, so developers running open models on intranets
+    or own GPUs choose it for local deployment; long-term retention data is not public.'

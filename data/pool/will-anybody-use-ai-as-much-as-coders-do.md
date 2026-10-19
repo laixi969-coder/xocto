@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNY2pJZU4wRUJF
 summary: Will anybody use AI as much as coders do? The Economist
 first_seen: '2026-08-30T19:51:28Z'
 last_seen: '2026-09-01T14:56:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

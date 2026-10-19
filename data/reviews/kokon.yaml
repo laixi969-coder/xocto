@@ -130,3 +130,48 @@
     layers a single sentence replaces layer-by-layer masking. So photographers or retouchers who care
     about assets never leaving the machine and dislike environment tinkering would pick it for local batch
     edits. No user feedback is public, so sustained use is unproven.'
+- id: req-full-kokon-2026-10-19
+  project_slug: kokon
+  level: full
+  reviewed_at: '2026-10-19T00:43:54Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称解决本地按描述改图、免配环境的修图任务，但全部证据指向同名毛线品牌官网，无一条能还原输入、动作与交付，需求与痛点均无法从公开事实写出。
+    evidence_ids:
+    - ev-0a9ca44b7ee84d22
+    - ev-a9f3ca8ed4a6d64c
+    - ev-8fc082c91a956b78
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 kokon 修图产品的官方仓库或官网 README/部署文档，确认其输入照片类型、输出格式与本地 GPU 运行要求，以核对证据是否被同名毛线品牌污染。
+  market: ''
+  job: 摄影师或修图师在本地 Windows 或 Mac 上，面对待修改的照片，用一句话描述修改意图，由本机 GPU 上的 Qwen-Image 2.1 执行，拿到改好的成品图。
+  job_en: A photographer or retoucher on a local Windows or Mac machine takes a photo needing changes,
+    describes the edit in one sentence, has Qwen-Image 2.1 run it on the local GPU, and gets the finished
+    image.
+  pain: 公开材料未提供任何用户痛点证据；候选摘要提到的云端上传、按量付费与配 Python 环境门槛，均无对应证据条目支撑，无法确认这是真实用户抱怨。
+  pain_en: No user-pain evidence is provided in the public materials; the cloud-upload, usage-based pricing
+    and Python-setup friction mentioned in the candidate summary have no supporting evidence entries,
+    so they cannot be confirmed as real user complaints.
+  current_alternative: 公开证据中没有任何关于修图师当前如何改图的记录；候选摘要所称云端修图服务或 Photoshop 手动分层，均无证据条目支持。
+  current_alternative_en: The public evidence contains no record of how retouchers currently edit photos;
+    the cloud editing services or manual Photoshop layer work cited in the candidate summary have no supporting
+    evidence entries.
+  usage_reason: 推断：若产品真能用一个安装包免去配环境、用一句话代替图层操作，可能省去搭环境和手动抠改两步；但现有证据全部指向同名毛线品牌，无法核对产品能力，也无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the product truly removes environment setup with one installer and replaces
+    layer work with a sentence, it could save the setup and manual masking steps; but all current evidence
+    points to a same-named yarn brand, so product capability cannot be checked and no user segment can
+    be confirmed to choose it on that basis.'

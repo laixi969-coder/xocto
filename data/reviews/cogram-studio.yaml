@@ -1,0 +1,42 @@
+- id: req-initial-cogram-studio-2026-10-19
+  project_slug: cogram-studio
+  level: initial
+  reviewed_at: '2026-08-31T00:37:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决图纸与模型同步核对的负担，但公开材料只有一句定位，无法确认 AI 具体接手哪一步、交付什么，价值结构尚不能判定。
+    evidence_ids:
+    - ev-4bbb05ee62431a8a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论且无评论，没有设计师采用、案例或重复使用的公开证据。
+    evidence_ids:
+    - ev-4bbb05ee62431a8a
+  - gate: model
+    status: insufficient
+    reason: 未披露买方、定价或收费方式；设计院、建筑事务所或软件订阅方均有可能，属推断。
+    evidence_ids:
+    - ev-4bbb05ee62431a8a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对智能体改动是否可确定交付、是否需人工复核，以及出错时责任边界。
+    evidence_ids:
+    - ev-4bbb05ee62431a8a
+  next_validation: 收集 Cogram Studio 官方产品页或文档，确认 AI 在 CAD/BIM 流程中具体执行的动作、输入格式与交付结果。
+  market: ''
+  job: 建筑设计师在方案或深化阶段处理 CAD 图纸与 BIM 模型，需要修改构件并核对图纸一致性；公开材料未说明 AI 具体接手哪一步。
+  job_en: Architects handle CAD drawings and BIM models in schematic or detailed design, editing components
+    and checking drawing consistency; public material does not say which step the AI takes over.
+  pain: 图纸与模型之间的改动同步和一致性核对通常靠人工反复比对，容易遗漏；这是从行业常识推断，候选材料未提供用户痛点描述。
+  pain_en: Keeping drawings and models in sync and checking consistency is usually manual and error-prone;
+    this is inferred from industry practice, as the candidate provides no user pain description.
+  current_alternative: 现有做法是设计师在 CAD/BIM 软件中手工修改，再由他人或自己逐张核对图纸；候选未提供替代方案的具体信息。
+  current_alternative_en: The current approach is manual editing in CAD/BIM software followed by drawing-by-drawing
+    checks; the candidate gives no specifics on alternatives.
+  usage_reason: 推断：若智能体能直接对模型构件执行修改并回写图纸，可省去设计师手工同步与逐张比对这一步；但公开材料未说明它实际执行什么动作，因此该理由尚未被事实支持。
+  usage_reason_en: 'Inference: if the agent can directly edit model components and write back to drawings,
+    it would remove the manual sync-and-compare step; however, public material does not describe the actual
+    actions, so this reason is not yet fact-supported.'

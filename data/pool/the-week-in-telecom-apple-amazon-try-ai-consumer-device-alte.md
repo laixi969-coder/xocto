@@ -22,7 +22,7 @@ summary: 'The week in telecom: Apple, Amazon try AI consumer device alternatives
   crashes Telecompaper'
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

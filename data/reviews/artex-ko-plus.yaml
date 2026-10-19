@@ -210,3 +210,46 @@
     it could cut translation and assembly between alert and write-up; but the public evidence only covers
     a pentest tool''s backup and upgrade notes, with no evidence of a Korean incident-response capability,
     its inputs/outputs, or user choice, so which users would pick it and why cannot be confirmed.'
+- id: req-full-artex-ko-plus-2026-10-19
+  project_slug: artex-ko-plus
+  level: full
+  reviewed_at: '2026-10-19T00:42:15Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决韩语安全团队把告警整理成事故响应报告的需求，但公开证据只有上游 ARTEX 的渗透测试项目说明，未给出韩语版输入、AI 动作、交付物或任何用户痛点反馈，痛点刚性与交付确定性均无法成立。
+    evidence_ids:
+    - ev-80a289d487151c3e
+    - ev-78dcea400da87398
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该韩语分支仓库的 README 与 issue/discussion，确认其相对上游 ARTEX 的实际改动、AI 事故响应输入输出与 AGPL 商用授权说明。
+  market: ''
+  job: 安全分析师在收到入侵告警后，处理韩语日志与告警材料，梳理攻击链并撰写事故响应报告；但公开证据未给出具体输入格式、AI 动作与交付物。
+  job_en: After an intrusion alert, a security analyst handles Korean-language logs and alerts to reconstruct
+    the attack chain and write an incident-response report; public evidence does not specify the input
+    format, AI actions, or deliverable.
+  pain: 公开材料没有给出韩语安全团队在告警到成文之间耗时、漏步骤或翻译负担的任何用户反馈或案例，痛点只能从语言界面推断，强度无法确认。
+  pain_en: Public material contains no user feedback or case showing Korean security teams losing time,
+    missing steps, or struggling with translation between alert and report; the pain is inferred from
+    a language interface and its intensity is unconfirmed.
+  current_alternative: 公开证据未描述现有替代方式；按工作流推断，分析师会用英文 SIEM/EDR 出告警后手工翻译整理，或使用厂商模板，但这些均未被材料证实。
+  current_alternative_en: Public evidence does not describe current alternatives; by workflow inference
+    analysts would use English SIEM/EDR alerts and manually translate them, or rely on vendor templates,
+    but none of this is confirmed by the material.
+  usage_reason: 推断：若韩语界面与事故响应步骤确实合并在一处，可减少翻译与拼接环节；但公开证据未说明 AI 具体动作、输出质量或是否被安全团队重复使用，因此无法确认用户会因何选择它。
+  usage_reason_en: 'Inference: if the Korean interface and response steps are genuinely combined, translation
+    and assembly steps could shrink; but public evidence does not describe the AI actions, output quality,
+    or repeated use by security teams, so why users would choose it cannot be confirmed.'

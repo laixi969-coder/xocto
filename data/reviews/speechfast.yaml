@@ -1,0 +1,84 @@
+- id: req-initial-speechfast-2026-10-19
+  project_slug: speechfast
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决录音转文字时的隐私与订阅成本问题，旧做法是云端转写或手工打字，痛点具体；具体流程与交付仍待核验。
+    evidence_ids:
+    - ev-5c62a601348554ca
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，无评分、评论或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-5c62a601348554ca
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，是否收费、按什么计价不明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-5c62a601348554ca
+  - gate: truth
+    status: insufficient
+    reason: 未见转写准确率、支持语言与导出格式的实测或文档，交付确定性缺证据。
+    evidence_ids:
+    - ev-5c62a601348554ca
+  next_validation: 收集该产品的官方定价页或功能文档，确认是否收费及转写语言、导出格式。
+  market: ''
+  job: Mac 用户在处理访谈录音、会议记录或口述草稿时，用本地转写把音频变成文字，再自行整理成文档。
+  job_en: Mac users transcribe interviews, meeting recordings or dictated drafts locally into text and
+    then edit them into documents.
+  pain: 录音转文字若走云端，涉及隐私顾虑与订阅成本，长音频手工打字又耗时。
+  pain_en: Cloud transcription raises privacy concerns and subscription costs, while typing long audio
+    by hand is slow.
+  current_alternative: 用户目前用云端转写服务、系统听写功能或手工打字整理录音。
+  current_alternative_en: Users currently rely on cloud transcription services, system dictation or manual
+    typing of recordings.
+  usage_reason: 推断：它把 Whisper 模型放在本机运行，音频不出设备即可得到文字，减少上传等待与隐私顾虑这一步，因此对录音敏感的 Mac 用户会在离线场景选择它；尚无用户评价或留存证据。
+  usage_reason_en: 'Inference: it runs Whisper on-device so audio stays local while producing text, removing
+    the upload wait and privacy concern step, so privacy-sensitive Mac users may choose it offline; no
+    user reviews or retention evidence yet.'
+- id: req-full-speechfast-2026-10-19
+  project_slug: speechfast
+  level: full
+  reviewed_at: '2026-10-19T00:45:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决录音转文字时的隐私与订阅成本问题，旧做法是云端转写或手工打字，痛点具体；但批量、导出格式与校对环节公开材料未提供，交付细节仍属工作流推理。
+    evidence_ids:
+    - ev-5c62a601348554ca
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，无评分、评论或采用数据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-5c62a601348554ca
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，是否收费、按什么计价不明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-5c62a601348554ca
+  - gate: truth
+    status: insufficient
+    reason: 未见转写准确率、支持语言与导出格式的实测或文档，交付确定性缺证据。
+    evidence_ids:
+    - ev-5c62a601348554ca
+  next_validation: 收集 SpeechFast 官方定价页或功能文档，确认是否收费及转写语言、导出格式。
+  market: ''
+  job: Mac 用户在处理访谈录音、会议记录或口述草稿时，把音频文件交给本地 Whisper 转成可编辑文字，再自行整理成文档。
+  job_en: Mac users take interview recordings, meeting notes or dictated drafts and run them through local
+    Whisper to get editable text, then edit it into documents.
+  pain: 云端转写需要上传音频，带来隐私顾虑与订阅成本；长音频手工打字又耗时，用户希望音频不出设备就能得到文字。
+  pain_en: Cloud transcription requires uploading audio, raising privacy concerns and subscription costs,
+    while manually typing long audio is slow; users want text without audio leaving the device.
+  current_alternative: 用户目前用云端转写服务、macOS 系统听写功能或手工打字整理录音。
+  current_alternative_en: Users currently rely on cloud transcription services, macOS system dictation,
+    or manual typing of recordings.
+  usage_reason: 推断：它把 Whisper 模型放在本机运行，音频不出设备即可得到文字，省去上传等待与隐私顾虑这一步，因此对录音敏感的 Mac 用户会在离线或保密场景选择它；尚无用户评价或留存证据。
+  usage_reason_en: 'Inference: it runs Whisper on-device so audio stays local while producing text, removing
+    the upload wait and privacy concern step, so privacy-sensitive Mac users may choose it offline or
+    in confidential settings; no user reviews or retention evidence yet.'

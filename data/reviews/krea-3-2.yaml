@@ -1,0 +1,92 @@
+- id: req-initial-krea-3-2-2026-10-19
+  project_slug: krea-3-2
+  level: initial
+  reviewed_at: '2026-10-19T00:13:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决改图反复小改时等待久、操作繁琐的问题，痛点具体；但 8 秒宣称与编辑类型未实测，交付确定性待核验。
+    evidence_ids:
+    - ev-ec1e6a13db3036b9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，无用户评价、采用或留存证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-ec1e6a13db3036b9
+  - gate: model
+    status: insufficient
+    reason: 未见定价与计费方式；买方可能是个人创作者或营销团队订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ec1e6a13db3036b9
+  - gate: truth
+    status: insufficient
+    reason: 速度与画质宣称来自产品页，缺少可复现实测；通用图像模型竞争激烈，差异化是否成立未明。
+    evidence_ids:
+    - ev-ec1e6a13db3036b9
+  next_validation: 收集 Krea 官方定价页与可复现的编辑实测，核验 2K 编辑的实际耗时、输入限制与计费方式。
+  market: ''
+  job: 设计师或营销内容制作者在需要快速修改图片素材时，把原图交给 Krea 3 做 2K 级编辑，数秒内拿到修改结果再人工确认。
+  job_en: Designers or marketing content creators needing quick image edits feed source images to Krea
+    3 for 2K-level edits and get results within seconds for human review.
+  pain: 传统改图要么手动在图像软件里逐处修，要么提交生成任务后等待较久，反复小改时等待和操作成本高。
+  pain_en: Traditional retouching means manual edits in image software or long waits after submitting
+    generation jobs, making repeated small revisions costly in time and effort.
+  current_alternative: Photoshop 等图像软件手动修图，或使用其他图像生成/编辑模型提交任务后等待。
+  current_alternative_en: Manual retouching in Photoshop-like software, or submitting jobs to other image
+    generation/editing models and waiting.
+  usage_reason: 推断：相较手动逐处修图或等待批处理任务，它把一次 2K 编辑压到数秒返回，减少反复小改时的等待与操作步骤，因此需要高频微调素材的设计与营销人员会优先试用。
+  usage_reason_en: 'Inference: versus manual retouching or waiting on batch jobs, it returns a 2K edit
+    in seconds, cutting wait and steps during repeated small revisions, so designers and marketers doing
+    frequent tweaks would try it first.'
+- id: req-full-krea-3-2-2026-10-19
+  project_slug: krea-3-2
+  level: full
+  reviewed_at: '2026-10-19T00:43:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决改图反复小改时等待久、操作繁琐的问题，痛点具体；但 8 秒宣称与编辑类型未实测，交付确定性待核验。
+    evidence_ids:
+    - ev-d78b2b12fcb84dbb
+    - ev-0ba6e1c81021d3c8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页对生成、编辑、增强能力的描述，无用户评价、采用或留存证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-61ac7eda51626d59
+    - ev-5f72ff752dfeae2b
+  - gate: model
+    status: insufficient
+    reason: 页面提到免费与每日生成额度，但未见明确订阅价格与计费方式；买方可能是个人创作者或营销团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-dd2fda959136546e
+    - ev-b604b073771623d6
+  - gate: truth
+    status: insufficient
+    reason: 速度与画质宣称来自产品页，缺少可复现实测；通用图像模型竞争激烈，差异化是否成立未明。
+    evidence_ids:
+    - ev-3bec02b72e4b0aa1
+    - ev-97ea8d8201d9bd0d
+  next_validation: 收集 Krea 官方定价页与可复现的 2K 编辑实测，核验实际耗时、输入限制与计费方式。
+  market: ''
+  job: 设计师或营销内容制作者在赶活动物料或客户改稿时，把已有原图交给 Krea 3 做 2K 级局部修改，在数秒内拿到可预览的修改图，再人工判断是否采用或继续微调。
+  job_en: Designers or marketing content creators under campaign or client-revision deadlines feed an
+    existing image to Krea 3 for 2K-level local edits, receive a revised preview within seconds, then
+    manually judge whether to adopt it or iterate again.
+  pain: 公开材料只说明 Krea 提供生成、编辑与增强能力，未披露具体编辑类型与用户抱怨；从工作流结构推理，反复小改时手动逐处修图或提交生成任务后等待，会拖慢改稿节奏，这是可识别的痛点，但缺少用户原话佐证。
+  pain_en: Public materials only state that Krea offers generate, edit and enhance capabilities, without
+    disclosing edit types or user complaints; by workflow inference, manual spot retouching or waiting
+    on generation jobs during repeated small revisions slows the revision loop, an identifiable pain but
+    without user quotes.
+  current_alternative: Photoshop 等图像软件手动修图，或使用其他图像生成/编辑模型提交任务后等待结果。
+  current_alternative_en: Manual retouching in Photoshop-like software, or submitting jobs to other image
+    generation/editing models and waiting for results.
+  usage_reason: 推断：相较手动逐处修图或等待批处理任务，Krea 3 宣称把一次 2K 编辑压到 8 秒内返回，减少反复小改时的等待与操作步骤；因此需要高频微调素材的设计与营销人员会在赶稿场景下优先试用。该因果来自产品能力与任务结构，尚无用户反馈或实测支持。
+  usage_reason_en: 'Inference: versus manual spot retouching or waiting on batch jobs, Krea 3 claims to
+    return a 2K edit within 8 seconds, cutting wait and steps during repeated small revisions; designers
+    and marketers doing frequent tweaks would therefore try it first under deadline. This causal link
+    comes from product capability and task structure, not yet from user feedback or testing.'

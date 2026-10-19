@@ -1,0 +1,83 @@
+- id: req-initial-mcpet-2026-10-19
+  project_slug: mcpet
+  level: initial
+  reviewed_at: '2026-10-19T00:13:37Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决长任务中查看进度与午间选餐的小麻烦，但不用它也能看终端和外卖 App，痛点刚性不足。
+    evidence_ids:
+    - ev-6c2edbde5ae59fd4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数，没有用户评价或使用讨论说明开发者是否真的需要这个陪伴入口。
+    evidence_ids:
+    - ev-6c2edbde5ae59fd4
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径，买方与收入模式无法从公开材料判断。
+    evidence_ids:
+    - ev-6c2edbde5ae59fd4
+  - gate: truth
+    status: insufficient
+    reason: 提醒与券信息是否准确、进度同步是否可靠，均缺少可复现实测或文档说明。
+    evidence_ids:
+    - ev-6c2edbde5ae59fd4
+  next_validation: 收集该仓库的 issue、discussion 或 README 中的使用说明与用户反馈，核验提醒与进度同步是否被实际使用。
+  market: ''
+  job: 开发者在长时间跑编码任务时，需要一边盯项目进度和 token 余额，一边在午间决定吃什么、用哪张券。
+  job_en: While running long coding tasks, developers need to watch project progress and token balance
+    while deciding at midday what to eat and which coupon to use.
+  pain: 长任务期间频繁切换窗口查看进度和余额会打断专注；午间选餐和比券是低价值但反复出现的小决策。
+  pain_en: Switching windows to check progress and balance during long tasks breaks focus; choosing lunch
+    and comparing coupons is a low-value but recurring small decision.
+  current_alternative: 开发者通常直接看终端或 IDE 输出、查平台用量页，吃饭靠外卖 App 或同事招呼。
+  current_alternative_en: Developers typically watch terminal or IDE output, check platform usage pages,
+    and rely on delivery apps or colleagues for lunch.
+  usage_reason: 推断：它把进度、余额和用餐提醒放进桌面常驻角色，省去切换窗口和打开外卖 App 的步骤；但缺少用户反馈或案例证明这些提醒被持续使用，需求刚性不足。
+  usage_reason_en: 'Inference: it puts progress, balance and meal reminders into an always-on desktop
+    character, saving window switches and delivery-app opens; but there is no user feedback or case showing
+    these reminders are used repeatedly, so the need is not clearly rigid.'
+- id: req-full-mcpet-2026-10-19
+  project_slug: mcpet
+  level: full
+  reviewed_at: '2026-10-19T00:44:13Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决长任务中查看进度与午间选餐的小麻烦，但不用它也能看终端和外卖 App，痛点非刚性，属于看着有趣但没有也行的陪伴装饰。
+    evidence_ids:
+    - ev-6c2edbde5ae59fd4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 discussion，核验提醒和进度同步是否被实际使用及是否有用户反馈。
+  market: ''
+  job: 开发者在长时间运行编码任务时，会在桌面角落打开这个麦当劳主题 AI 搭子，让它同步项目进度与 token 余额，并在 11:30 提醒吃饭、汇报最划算的券。
+  job_en: While running long coding tasks, developers keep this McDonald's-themed AI companion in a desktop
+    corner to surface project progress and token balance, and at 11:30 to remind them to eat and report
+    the best coupon.
+  pain: 长任务期间切换窗口查看进度和余额会打断专注；午间选餐和比券是低价值但反复出现的小决策。公开材料只给出功能描述，没有用户抱怨或行为证据证明这两类痛点足够强。
+  pain_en: Switching windows to check progress and balance during long tasks breaks focus; choosing lunch
+    and comparing coupons is a low-value but recurring small decision. The public material only describes
+    features, with no user complaints or behavioral evidence that these pains are strong.
+  current_alternative: 开发者通常直接看终端或 IDE 输出、查平台用量页，吃饭靠外卖 App 或同事招呼。
+  current_alternative_en: Developers typically watch terminal or IDE output, check platform usage pages,
+    and rely on delivery apps or colleagues for lunch.
+  usage_reason: 推断：它把进度、余额和用餐提醒放进桌面常驻角色，省去切换窗口和打开外卖 App 的步骤；但缺少用户反馈或案例证明这些提醒被持续使用，且不看它也不会造成明显损失，因此需求刚性不足。
+  usage_reason_en: 'Inference: it puts progress, balance and meal reminders into an always-on desktop
+    character, saving window switches and delivery-app opens; but there is no user feedback or case showing
+    these reminders are used repeatedly, and skipping it causes no clear loss, so the need is not rigid.'

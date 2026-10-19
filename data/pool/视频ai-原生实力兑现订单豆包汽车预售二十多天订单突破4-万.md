@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE5EV0tOT0RYdUVq
 summary: 【视频】AI 原生实力兑现订单！豆包汽车预售二十多天订单突破4 万 车家号
 first_seen: '2026-10-19T00:14:04Z'
 last_seen: '2026-10-19T00:14:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
