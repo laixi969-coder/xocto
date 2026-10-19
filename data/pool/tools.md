@@ -20,8 +20,8 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-10-18T00:04:17Z'
-status: rejected
+last_seen: '2026-10-19T00:13:57Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -164,6 +164,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNWjBSWldGUmxBQ3B3ZFFrZEFDUUw0aENkUUtFb05ZejEzWk5oSG9yb3VLQm5yaVg1a0tDdF9FNkliVHFCOVpNN09TT0ZoYWRHUDNLUXFlc1NjR3lHWkluc2hnMTRKTTFBUm1VRWpZYTB2TUs4VENrM2Y4aS0zMThUUGZoc3pPWkgyenNPbTVTSHA?oc=5
   seen_at: '2026-10-18T00:04:17Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Oct/18/llm-tools-datasette/
+  seen_at: '2026-10-19T00:13:57Z'
   metrics: {}
   kind: news
 ---

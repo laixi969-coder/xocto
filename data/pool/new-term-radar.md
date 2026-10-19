@@ -36,16 +36,16 @@ canonical_url: https://github.com/zhuyansen/new-term-radar
 summary: 'Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging
   Face, GitHub and sitemaps before keyword tools list them.'
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zhuyansen/new-term-radar
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 1080
+    stars: 1108
     forks: 422
     open_issues: 2
   kind: product

@@ -36,16 +36,16 @@ canonical_url: https://github.com/mrsarac/ff-tracking
 summary: A virtual camera films an AI agent's screen while a tracker locks onto every glyph. Two fframes
   passes, one SkSL shader, all sound synthesized.
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mrsarac/ff-tracking
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 461
+    stars: 466
     forks: 26
     open_issues: 0
   kind: product

@@ -2882,3 +2882,24 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-17502f12f8027467
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-tool-todo-plus
+  title: dsh-tool-todo-plus
+  published_at: '2026-10-03T03:06:04Z'
+  collected_at: '2026-10-19T00:13:37Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DeepSeek Harness 任务清单插件：官方 todo_write 的增强 fork —— 优先级标签、完整清单渲染、可拖动的会话内浮动任务面板（位置记忆 / 双击复位 / 当前动作显示）
+    | repository stars: 93'
+- id: ev-0a1f6e7bdfb665f2
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-sieve
+  title: dsh-sieve
+  published_at: '2026-10-04T12:30:42Z'
+  collected_at: '2026-10-19T00:13:37Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'dsh-sieve: context engineering & token optimization plugin for DeepSeek Harness (DSH) — tool
+    output filtering, context pruning, progressive skill disclosure. 36% smaller payload in offline replay.
+    DSH 上下文管理与 token 优化节省插件。 | repository stars: 109'

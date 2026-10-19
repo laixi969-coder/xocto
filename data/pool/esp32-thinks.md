@@ -21,16 +21,16 @@ canonical_url: https://github.com/raullenchai/esp32-thinks
 summary: 'A multi-model Muse: personal AI voice assistant on ESP32 - wake word or knob, any OpenAI-compatible
   brain (STT/chat/TTS mix-and-match), streaming replies, out of the box. Built on muse-gadget-sdk.'
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/raullenchai/esp32-thinks
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 103
+    stars: 222
     forks: 5
     open_issues: 0
   kind: product

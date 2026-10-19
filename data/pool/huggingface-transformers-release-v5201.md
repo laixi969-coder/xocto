@@ -32,16 +32,16 @@ summary: "# Release v5.20.1\r\n\r\nSpecial surprise including the new model Beam
   \ (#49652) by @naveecode \r\n- Make DtensorShardOperation work on torch 2.6 and 2.7 (#49657) by @hazelxue\r\
   \n\r\n**Full Changelog**: https://github.com/huggingface/transformers/compare/v5.20.0...v5.20.1"
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-17T00:30:30Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huggingface/transformers/releases/tag/v5.20.1
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    reactions: 3
+    reactions: 9
   kind: news
 ---
 

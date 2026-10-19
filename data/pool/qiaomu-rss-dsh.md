@@ -37,16 +37,16 @@ canonical_url: https://github.com/joeseesun/qiaomu-rss-dsh
 summary: 在 DeepSeek Harness 中阅读 RSS，与原生 AI 对话伴读文章 | RSS reading with native AI companion for DeepSeek
   Harness
 first_seen: '2026-09-30T02:15:59Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/joeseesun/qiaomu-rss-dsh
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 44
+    stars: 45
     forks: 4
     open_issues: 0
   kind: product

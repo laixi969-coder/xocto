@@ -36,17 +36,17 @@ summary: Open source AI code review for Claude Code and Codex, before you push. 
   dependencies, lint) on the lines you changed, then a separate reviewer process that checks every scanner
   finding and is given every changed line. No other API key.
 first_seen: '2026-10-02T06:19:06Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://qodex.ai/openqodex
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 751
-    forks: 59
+    stars: 762
+    forks: 64
     open_issues: 42
   kind: product
 ---

@@ -37,16 +37,16 @@ canonical_url: https://hamzafer.github.io/claude-code-mods
 summary: 'Claude Code mods: plugins built on hooks that add live lines above the prompt, guards, panes
   and games. Context bar, usage meter, Codex review watch, Markdown preview, Spotify now playing and more.'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://hamzafer.github.io/claude-code-mods/
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 267
+    stars: 277
     forks: 27
     open_issues: 15
   kind: product

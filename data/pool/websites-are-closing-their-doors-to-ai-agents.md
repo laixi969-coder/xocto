@@ -1,7 +1,7 @@
 ---
 slug: websites-are-closing-their-doors-to-ai-agents
 name: AI agents blocked by websites
-builder: ''
+builder: evolve2k
 category: ''
 summary_zh: 2026 年 10 月，Meta Muse、xAI Grok、OpenAI Dots 和 Instinct 等自主 AI 代理的用户报告称，这些代理在访问主要网站执行任务时遭到拦截；Yelp
   只允许付费加入其数据授权计划的 AI 代理，达美航空则阻止代理订票。这一变化意味着依赖开放网页执行任务的 AI 应用面临更高的数据授权成本和交付不确定性，网站运营方开始以付费授权和访问限制重新划分与代理生态的边界。
@@ -32,15 +32,23 @@ summary: Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, In
   TechCrunch that it only allows AI agents that pay for its data licensing program, while Delta Air Lines
   is preventing them from booking ticket … Read the full story at The Verge.
 first_seen: '2026-10-18T00:04:10Z'
-last_seen: '2026-10-18T00:04:10Z'
-status: market_context
+last_seen: '2026-10-19T00:13:33Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web
   seen_at: '2026-10-18T00:04:10Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web
+  seen_at: '2026-10-19T00:13:33Z'
+  metrics:
+    points: 133
+    comments: 125
   kind: news
 ---
 

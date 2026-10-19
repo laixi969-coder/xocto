@@ -35,17 +35,17 @@ url: https://github.com/Fazmin/AILearningGuide
 canonical_url: https://github.com/Fazmin/AILearningGuide
 summary: A desktop app that teaches you how modern AI works by letting you play with it.
 first_seen: '2026-10-15T00:32:09Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Fazmin/AILearningGuide
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 196
-    forks: 15
+    stars: 203
+    forks: 17
     open_issues: 3
   kind: product
 ---

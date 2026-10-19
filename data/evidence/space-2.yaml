@@ -505,3 +505,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 云计算 平台工程师在自建 agent 执行环境时，处理不可信代码与工具调用，需要隔离运行并回收结果'
+- id: ev-9b9c035a6034572e
+  project_slug: space-2
+  url: https://github.com/perplexityai/SPACE
+  title: SPACE
+  published_at: '2026-10-01T18:43:46Z'
+  collected_at: '2026-10-19T00:13:37Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Sandboxed Platform for Agentic Code Execution: pluggable-runtime sandboxes for running agent
+    and user code in isolation. | repository stars: 1,543'

@@ -24,16 +24,16 @@ summary: "## What's Changed\r\n* win: prevent orphaned runners by @dhiltgen in h
   \ identifiers for --ask mode question keys by @jberg5 in https://github.com/ollama/ollama/pull/19041\r\
   \n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.5...v0.40.6-rc0"
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-18T00:03:49Z'
-status: rejected
+last_seen: '2026-10-19T00:13:37Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.40.6
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    reactions: 15
+    reactions: 21
   kind: news
 ---
 

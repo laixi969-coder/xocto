@@ -250,3 +250,14 @@
   source_kind: customer_case
   tier: independent
   fact: The Hidden Bottleneck Keeping Health AI Tools Out of Hospitals Bioengineer.org
+- id: ev-0236965adb1f165a
+  project_slug: tools
+  url: https://simonwillison.net/2026/Oct/18/llm-tools-datasette/
+  title: llm-tools-datasette 0.1.1
+  published_at: '2026-10-18T23:43:09Z'
+  collected_at: '2026-10-19T00:13:57Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that
+    this would break any plugins which used https without directly depending on it. llm-tools-datasette
+    was one of those plugins, now fixed. Tags: datasette , llm'

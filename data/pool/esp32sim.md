@@ -20,17 +20,17 @@ url: https://github.com/mikroverk/esp32sim
 canonical_url: https://github.com/mikroverk/esp32sim
 summary: Run ESP32 firmware in the browser
 first_seen: '2026-10-18T00:03:44Z'
-last_seen: '2026-10-18T00:03:44Z'
+last_seen: '2026-10-19T00:13:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/mikroverk/esp32sim
-  seen_at: '2026-10-18T00:03:44Z'
+  seen_at: '2026-10-19T00:13:33Z'
   metrics:
-    points: 111
-    comments: 11
+    points: 191
+    comments: 41
   kind: product
 ---
 

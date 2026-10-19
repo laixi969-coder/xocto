@@ -1,0 +1,42 @@
+---
+slug: physical-ai-startup-origin-emerges-from-stealth-with-20-mill
+name: Physical AI startup Origin emerges from stealth with $20 million to scale construction robots
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUUNNTXB0OEt1YkdBazladGpodEZnSTlnWkhFaktnaFM5dVpqRm5vS0NDMmp5ZkVTRjRuc2Ywc1FpMDdfWmF2RF9pQmphWk1uVHBnbU40WUZyeUYzOWFOajJkVmlHTXpOYXQzb21HTnlvTUVTTUJJVlBVYXpmUlZVNTRzVFBLWEtaSnlmVnh5ZDNXcGxoa05YVHFHak12d2hjWUdXRER3MGdWN0RLOU5MSjI1cXY4Mzk2RVBvY0ZLX1NrSzlNRUN0NXlPSFNkMFJCX1ZnNFJR0gHWAUFVX3lxTE9RQ01NcHQ4S3ViR0FrOVp0amh0RmdJOWdaSEVqS2doUzl1WmpGbm9LQ0MyanlmRVNGNG5zZjBzUWkwN19aYXZEX2lCamFaTW5UcGdtTjRZRnJ5RjM5YU5qMmRWaUdNek5hdDNvbUdOeW9NRVNNQklWUFVhemZSVlU1NHNUUEtYS1pKeWZWeHlkM1dwbGhrTlhUcUdqTXZ3aGNZR1dERHcwZ1Y3REs5TkxKMjVxdjgzOTZFUG9jRktfU2tLOU1FQ3Q1eU9IU2QwUkJfVmc0UlE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUUNNTXB0OEt1YkdBazladGpodEZnSTlnWkhFaktnaFM5dVpqRm5vS0NDMmp5ZkVTRjRuc2Ywc1FpMDdfWmF2RF9pQmphWk1uVHBnbU40WUZyeUYzOWFOajJkVmlHTXpOYXQzb21HTnlvTUVTTUJJVlBVYXpmUlZVNTRzVFBLWEtaSnlmVnh5ZDNXcGxoa05YVHFHak12d2hjWUdXRER3MGdWN0RLOU5MSjI1cXY4Mzk2RVBvY0ZLX1NrSzlNRUN0NXlPSFNkMFJCX1ZnNFJR0gHWAUFVX3lxTE9RQ01NcHQ4S3ViR0FrOVp0amh0RmdJOWdaSEVqS2doUzl1WmpGbm9LQ0MyanlmRVNGNG5zZjBzUWkwN19aYXZEX2lCamFaTW5UcGdtTjRZRnJ5RjM5YU5qMmRWaUdNek5hdDNvbUdOeW9NRVNNQklWUFVhemZSVlU1NHNUUEtYS1pKeWZWeHlkM1dwbGhrTlhUcUdqTXZ3aGNZR1dERHcwZ1Y3REs5TkxKMjVxdjgzOTZFUG9jRktfU2tLOU1FQ3Q1eU9IU2QwUkJfVmc0UlE?oc=5
+summary: Physical AI startup Origin emerges from stealth with $20 million to scale construction robots
+  Indian Startup News
+first_seen: '2026-10-19T00:14:04Z'
+last_seen: '2026-10-19T00:14:04Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUUNNTXB0OEt1YkdBazladGpodEZnSTlnWkhFaktnaFM5dVpqRm5vS0NDMmp5ZkVTRjRuc2Ywc1FpMDdfWmF2RF9pQmphWk1uVHBnbU40WUZyeUYzOWFOajJkVmlHTXpOYXQzb21HTnlvTUVTTUJJVlBVYXpmUlZVNTRzVFBLWEtaSnlmVnh5ZDNXcGxoa05YVHFHak12d2hjWUdXRER3MGdWN0RLOU5MSjI1cXY4Mzk2RVBvY0ZLX1NrSzlNRUN0NXlPSFNkMFJCX1ZnNFJR0gHWAUFVX3lxTE9RQ01NcHQ4S3ViR0FrOVp0amh0RmdJOWdaSEVqS2doUzl1WmpGbm9LQ0MyanlmRVNGNG5zZjBzUWkwN19aYXZEX2lCamFaTW5UcGdtTjRZRnJ5RjM5YU5qMmRWaUdNek5hdDNvbUdOeW9NRVNNQklWUFVhemZSVlU1NHNUUEtYS1pKeWZWeHlkM1dwbGhrTlhUcUdqTXZ3aGNZR1dERHcwZ1Y3REs5TkxKMjVxdjgzOTZFUG9jRktfU2tLOU1FQ3Q1eU9IU2QwUkJfVmc0UlE?oc=5
+  seen_at: '2026-10-19T00:14:04Z'
+  metrics: {}
+  kind: news
+---
+
+# Physical AI startup Origin emerges from stealth with $20 million to scale construction robots
+
+Physical AI startup Origin emerges from stealth with $20 million to scale construction robots Indian Startup News
+
+## 笔记
+
+

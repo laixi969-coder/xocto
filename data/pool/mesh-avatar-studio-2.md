@@ -31,18 +31,18 @@ url: https://shinshin86.github.io/mesh-avatar-studio/
 canonical_url: https://shinshin86.github.io/mesh-avatar-studio
 summary: Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://shinshin86.github.io/mesh-avatar-studio/
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 790
-    forks: 90
-    open_issues: 1
+    stars: 811
+    forks: 92
+    open_issues: 2
   kind: product
 ---
 

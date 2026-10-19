@@ -32,17 +32,17 @@ canonical_url: https://ui.oiloil.org
 summary: 'UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare
   them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。'
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://ui.oiloil.org
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 1692
-    forks: 96
+    stars: 1752
+    forks: 98
     open_issues: 0
   kind: product
 ---

@@ -29,17 +29,17 @@ canonical_url: https://kokon.app
 summary: Edit photos by describing the change, on your own GPU. One installer, no Python, no cloud. Qwen-Image
   2.1 for Windows and Mac, with an MCP server for AI agents.
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://kokon.app
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 118
-    forks: 13
+    stars: 132
+    forks: 14
     open_issues: 12
   kind: product
 ---

@@ -30,16 +30,16 @@ url: https://pensieve.tools
 canonical_url: https://pensieve.tools
 summary: Search everything on your Mac by meaning, for you and your AI agents.
 first_seen: '2026-10-15T00:32:09Z'
-last_seen: '2026-10-17T00:30:30Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://pensieve.tools
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 65
+    stars: 66
     forks: 6
     open_issues: 1
   kind: product

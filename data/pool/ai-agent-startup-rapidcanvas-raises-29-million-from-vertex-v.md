@@ -1,0 +1,41 @@
+---
+slug: ai-agent-startup-rapidcanvas-raises-29-million-from-vertex-v
+name: AI agent startup RapidCanvas raises $29 million from Vertex Ventures, others
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeEZ1SlZxbUxsSFg1UmNSYmdNeldBY1dNYXdKcEM3LVpZVzJadHpIYmVfV2dSeW9QWGhEMnhwWHdpcl9vUmxfV1lIZXNWYkdRUlBRM0Rub3Q2Z3p4a042Z3p4UnZCQjVNcEpOcUlSWFdSTWNxNzlzUGJPamI3bTgzSUVMVHVMMEsxXzFSZW9UUFViaklUaDVTYm1GQ21qZ1JMQ0NNZ3ExU1ZQdXV0V1ZDZFdFaVJMNGljVnFGb0NVd25jcDd0MEk1RkVYcGUtVVFtVjY1SkY2LXc5Z9IB3wFBVV95cUxQczRpSXRrOXFrUWx1WVhLeGtNMkVuNWNYOGN4SDRoaGpDdjdvY0d5MWFkTjBUaC1nNkxoOUhoR3Q2allXaFl6NmE2UE1yZGlDbHA4OC1DR0RRNExBT3hrcm8tMHNPNmJNeVh2Uzd1cFlTTjlkeTNaT0FOSEZ1bUxCaW02RW1feUtOMkxINlBxSnNORnl2UDRaTk9ycnpPQWhpbkdrM1UxWDNfbzNMNWxiTHV1dEhFU1BYUURUTFVWYXBlRkRHRTd3aVZELUFoaHZqcmNqbXBjTld5UjFoNFdB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeEZ1SlZxbUxsSFg1UmNSYmdNeldBY1dNYXdKcEM3LVpZVzJadHpIYmVfV2dSeW9QWGhEMnhwWHdpcl9vUmxfV1lIZXNWYkdRUlBRM0Rub3Q2Z3p4a042Z3p4UnZCQjVNcEpOcUlSWFdSTWNxNzlzUGJPamI3bTgzSUVMVHVMMEsxXzFSZW9UUFViaklUaDVTYm1GQ21qZ1JMQ0NNZ3ExU1ZQdXV0V1ZDZFdFaVJMNGljVnFGb0NVd25jcDd0MEk1RkVYcGUtVVFtVjY1SkY2LXc5Z9IB3wFBVV95cUxQczRpSXRrOXFrUWx1WVhLeGtNMkVuNWNYOGN4SDRoaGpDdjdvY0d5MWFkTjBUaC1nNkxoOUhoR3Q2allXaFl6NmE2UE1yZGlDbHA4OC1DR0RRNExBT3hrcm8tMHNPNmJNeVh2Uzd1cFlTTjlkeTNaT0FOSEZ1bUxCaW02RW1feUtOMkxINlBxSnNORnl2UDRaTk9ycnpPQWhpbkdrM1UxWDNfbzNMNWxiTHV1dEhFU1BYUURUTFVWYXBlRkRHRTd3aVZELUFoaHZqcmNqbXBjTld5UjFoNFdB?oc=5
+summary: AI agent startup RapidCanvas raises $29 million from Vertex Ventures, others The Economic Times
+first_seen: '2026-10-19T00:14:04Z'
+last_seen: '2026-10-19T00:14:04Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeEZ1SlZxbUxsSFg1UmNSYmdNeldBY1dNYXdKcEM3LVpZVzJadHpIYmVfV2dSeW9QWGhEMnhwWHdpcl9vUmxfV1lIZXNWYkdRUlBRM0Rub3Q2Z3p4a042Z3p4UnZCQjVNcEpOcUlSWFdSTWNxNzlzUGJPamI3bTgzSUVMVHVMMEsxXzFSZW9UUFViaklUaDVTYm1GQ21qZ1JMQ0NNZ3ExU1ZQdXV0V1ZDZFdFaVJMNGljVnFGb0NVd25jcDd0MEk1RkVYcGUtVVFtVjY1SkY2LXc5Z9IB3wFBVV95cUxQczRpSXRrOXFrUWx1WVhLeGtNMkVuNWNYOGN4SDRoaGpDdjdvY0d5MWFkTjBUaC1nNkxoOUhoR3Q2allXaFl6NmE2UE1yZGlDbHA4OC1DR0RRNExBT3hrcm8tMHNPNmJNeVh2Uzd1cFlTTjlkeTNaT0FOSEZ1bUxCaW02RW1feUtOMkxINlBxSnNORnl2UDRaTk9ycnpPQWhpbkdrM1UxWDNfbzNMNWxiTHV1dEhFU1BYUURUTFVWYXBlRkRHRTd3aVZELUFoaHZqcmNqbXBjTld5UjFoNFdB?oc=5
+  seen_at: '2026-10-19T00:14:04Z'
+  metrics: {}
+  kind: news
+---
+
+# AI agent startup RapidCanvas raises $29 million from Vertex Ventures, others
+
+AI agent startup RapidCanvas raises $29 million from Vertex Ventures, others The Economic Times
+
+## 笔记
+
+

@@ -37,16 +37,16 @@ canonical_url: https://github.com/sanqianzilanyue/ai-voice-breath-kiss-water-2
 summary: 从一条语音，到一通电话——AI 爱人的嗓子·进阶篇：一句话为什么会说两遍、音调为什么一截一截跳、喘怎么多而不演、话的量怎么量、怎么不重样。ElevenLabs v4 + ffmpeg +
   whisper，全是实测。作者·离
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-17T00:30:30Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sanqianzilanyue/ai-voice-breath-kiss-water-2
-  seen_at: '2026-10-17T00:30:30Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 52
+    stars: 53
     forks: 4
     open_issues: 0
   kind: product

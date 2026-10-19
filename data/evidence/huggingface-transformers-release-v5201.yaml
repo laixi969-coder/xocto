@@ -16,3 +16,21 @@
     \n\r\n\r\n## Some real patch fixes\r\n\r\nWe broke loading models on older torch versions :cry: should\
     \ be fixed now. But here is the full list of fixes\r\n\r\n- Fix HunYuan-VL image assignment during\
     \ batched generation (#49557) by @Arnav66692\r\n- Fix DeepGEMM Mega MoE under expert"
+- id: ev-074475ef5e855ac0
+  project_slug: huggingface-transformers-release-v5201
+  url: https://github.com/huggingface/transformers/releases/tag/v5.20.1
+  title: 'huggingface/transformers: Release v5.20.1'
+  published_at: '2026-10-16T13:02:29Z'
+  collected_at: '2026-10-19T00:13:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "# Release v5.20.1\r\n\r\nSpecial surprise including the new model Beam from Reflection AI :partying_face:\
+    \ \r\n\r\n<img width=\"2912\" height=\"1440\" alt=\"Gemini_Generated_Image_ox4hjlox4hjlox4h\" src=\"\
+    https://github.com/user-attachments/assets/bfc7ff16-4340-490c-925c-b1512e4ceb32\" />\r\n\r\nBeam is\
+    \ a token-efficient, frontier-scale model focused on coding and agentic use cases. It is built for\
+    \ teams that want to run a powerful model on their own hardware, infrastructure, or cloud, and customize\
+    \ it to their specific needs.\r\n\r\n**Links:** [Documentation](https://huggingface.co/docs/transformers/main/en/model_doc/beam)\r\
+    \n* Fix small bug in auto mappings (#49664) by @yonigozlan in [#49664](https://github.com/huggingface/transformers/pull/49664)\r\
+    \n\r\n\r\n## Some real patch fixes\r\n\r\nWe broke loading models on older torch versions :cry: should\
+    \ be fixed now. But here is the full list of fixes\r\n\r\n- Fix HunYuan-VL image assignment during\
+    \ batched generation (#49557) by @Arnav66692\r\n- Fix DeepGEMM Mega MoE under expert"

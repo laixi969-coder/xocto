@@ -21,18 +21,18 @@ canonical_url: https://bashcut.birchapps.com
 summary: 'Native macOS video editor that coding agents can drive: everything the UI does, Claude Code
   and Codex can do through the bashcut CLI or MCP server. Layered timeline, captions, voiceover, plugins.'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://bashcut.birchapps.com
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 66
+    stars: 73
     forks: 21
-    open_issues: 6
+    open_issues: 3
   kind: product
 ---
 

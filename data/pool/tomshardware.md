@@ -20,8 +20,8 @@ url: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for
 canonical_url: https://tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg
 summary: US Customs supervisor busted for stealing hardware from Homeland Security PCs
 first_seen: '2026-09-13T13:24:28Z'
-last_seen: '2026-09-27T00:36:16Z'
-status: rejected
+last_seen: '2026-10-19T00:13:33Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -52,6 +52,13 @@ sightings:
   metrics:
     points: 136
     comments: 367
+  kind: news
+- source: hackernews
+  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model
+  seen_at: '2026-10-19T00:13:33Z'
+  metrics:
+    points: 153
+    comments: 161
   kind: news
 ---
 

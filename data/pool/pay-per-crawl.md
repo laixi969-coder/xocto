@@ -37,17 +37,17 @@ url: https://forgemesh.io/blog/pay-per-crawl-every-stack
 canonical_url: https://forgemesh.io/blog/pay-per-crawl-every-stack
 summary: make AI crawlers pay per page in USDC, for 10 stacks
 first_seen: '2026-10-18T00:03:44Z'
-last_seen: '2026-10-18T00:03:44Z'
-status: watching
+last_seen: '2026-10-19T00:13:33Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://forgemesh.io/blog/pay-per-crawl-every-stack
-  seen_at: '2026-10-18T00:03:44Z'
+  seen_at: '2026-10-19T00:13:33Z'
   metrics:
-    points: 5
-    comments: 1
+    points: 9
+    comments: 3
   kind: news
 ---
 

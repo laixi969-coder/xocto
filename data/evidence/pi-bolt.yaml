@@ -66,3 +66,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 开发者本地启动编码代理并等待其加载时，处理代码仓库与依赖，需要让代理尽快进入可交互状态'
+- id: ev-f60deb334a994b9a
+  project_slug: pi-bolt
+  url: https://pi-bolt.opensec.in
+  title: Pi-Bolt
+  published_at: '2026-10-02T18:35:24Z'
+  collected_at: '2026-10-19T00:13:37Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Pi, the coding agent, compiled ahead of time to native code. Starts 3× sooner than Pi on Bun
+    and uses about a third of its CPU. | repository stars: 369'

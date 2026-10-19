@@ -27,18 +27,18 @@ url: https://tov.sh
 canonical_url: https://tov.sh
 summary: A TypeScript-shaped language built for coding agents. It compiles to small, fast native binaries.
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-19T00:13:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://tov.sh
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-19T00:13:37Z'
   metrics:
-    stars: 717
-    forks: 28
-    open_issues: 53
+    stars: 723
+    forks: 29
+    open_issues: 60
   kind: product
 ---
 

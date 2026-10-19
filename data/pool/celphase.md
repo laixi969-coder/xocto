@@ -20,17 +20,17 @@ url: https://celphase.github.io/duck-pond/
 canonical_url: https://celphase.github.io/duck-pond
 summary: High-quality duck audio synthesizer
 first_seen: '2026-10-18T00:03:44Z'
-last_seen: '2026-10-18T00:03:44Z'
+last_seen: '2026-10-19T00:13:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://celphase.github.io/duck-pond/
-  seen_at: '2026-10-18T00:03:44Z'
+  seen_at: '2026-10-19T00:13:33Z'
   metrics:
-    points: 71
-    comments: 22
+    points: 167
+    comments: 43
   kind: product
 ---
 
