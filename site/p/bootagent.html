@@ -84,15 +84,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-17</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-19</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者或重度 AI 工具用户在拿到一台新机器（或重装系统）时，需要把常用的多个 AI 助手/CLI 工具一次性配置成可用状态，处理的是各工具分散的配置文件与凭据，要完成的任务是让新机器直接进入可重复使用的 AI 工作环境。</p>
-        <p>当前替代方式是手工逐个编辑各工具配置文件、复制粘贴密钥，或自写 shell 脚本、dotfiles 仓库与手动安装文档来拼装环境。</p>
-        <p>痛点是逐个手工编辑各工具专属配置文件、重复输入密钥与参数，步骤分散且容易漏配或配错；换机、重装或团队统一环境时这种重复劳动会反复发生。公开材料只给出产品定位，未提供用户抱怨或频率数据，因此痛点强度属工作流结构推理。</p>
+        <p class="product-lead">开发者拿到一台新电脑时，把常用的 AI 编码助手及其配置一次性装好并保持可重复，避免逐个手工编辑各工具专属配置文件。</p>
+        <p>开发者按各工具文档手工编辑配置文件，或维护自己的 dotfiles 与安装脚本。</p>
+        <p>公开材料只说明可免去逐个改配置文件，未说明配置出错的具体代价、发生频率或后果，痛点强度无法从证据还原。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -102,19 +102,19 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：相较手工逐文件配置或自写脚本，它把多工具的配置收敛为一次可重复执行的初始化动作，减少了逐个查找配置路径、重复填密钥这一步负担，并让新机器结果可复现；因此经常换机、重装或需要统一团队环境的开发者会在新机初始化时选择它。公开仓库 88 收藏、5 复刻只说明开发者关注，尚不能证明持续使用。</p>
+        <p>推断：若一次命令即可把多个 AI 助手的配置写成可重复状态，可省去逐工具查文档改配置的步骤；但公开材料未给出使用场景或用户反馈，无法确认用户为何选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>追踪 BootAgent 公开仓库的 README、release 与 issue/discussion，确认是否出现配置失败处理、密钥安全说明及真实用户在新机初始化场景的复现记录。</p>
+        <p>追踪该仓库 README 与 issue/discussion，确认支持哪些 AI 助手、配置复现方式与用户实际使用反馈。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：相较手工逐文件配置或自写脚本，它把多工具的配置收敛为一次可重复执行的初始化动作，减少了逐个查找配置路径、重复填密钥这一步负担，并让新机器结果可复现；因此经常换机、重装或需要统一团队环境的开发者会在新机初始化时选择它。公开仓库 88 收藏、5 复刻只说明开发者关注，尚不能证明持续使用。</p>
+        <p><strong>值得拆解</strong>。推断：若一次命令即可把多个 AI 助手的配置写成可重复状态，可省去逐工具查文档改配置的步骤；但公开材料未给出使用场景或用户反馈，无法确认用户为何选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -126,8 +126,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>新电脑到手，把常用的AI助手一次配好，不用再逐个改设置</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：相较手工逐文件配置或自写脚本，它把多工具的配置收敛为一次可重复执行的初始化动作，减少了逐个查找配置路径、重复填密钥这一步负担，并让新机器结果可复现；因此经常换机、重装或需要统一团队环境的开发者会在新机初始化时选择它。公开仓库 88 收藏、5 复刻只说明开发者关注，尚不能证明持续使用。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪 BootAgent 公开仓库的 README、release 与 issue/discussion，确认是否出现配置失败处理、密钥安全说明及真实用户在新机初始化场景的复现记录。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若一次命令即可把多个 AI 助手的配置写成可重复状态，可省去逐工具查文档改配置的步骤；但公开材料未给出使用场景或用户反馈，无法确认用户为何选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库 README 与 issue/discussion，确认支持哪些 AI 助手、配置复现方式与用户实际使用反馈。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -223,7 +223,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 938 个 →
+        AI + 开发 共 949 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -315,8 +315,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>3309 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-10-18</span>
+    <span>3347 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-10-19</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

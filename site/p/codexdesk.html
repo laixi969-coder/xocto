@@ -83,37 +83,37 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-25</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-19</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">软件开发者</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="product-lead">开发者在本地仓库中让 Codex 等 AI 编码代理执行多步任务时，需要同时查看终端输出、仓库改动和代理会话状态，并在这些窗口之间切换以推进和审查任务。</p>
+        <p>开发者目前通常直接在终端运行编码代理，配合 IDE 的源代码管理和独立终端标签页来回切换；公开材料未说明 CodexDesk 具体替代了哪套组合。</p>
+        <p>公开材料只写到“桌面伴侣”这一层，未给出用户抱怨；从工作流结构推断，终端、仓库与代理会话分散在不同界面，开发者需反复切换并手动对照改动，容易漏看代理输出或误判代码变更。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
+        <h3>需求有依据</h3>
         <p>趋势是编码代理从命令行走向常驻桌面入口，代理会话本身开始被当成需要管理的对象。切入不在再造一个代理，而在代理跑起来之后的环节：谁来看住多个并行会话、谁来审阅代理改动的代码、谁把结果交回团队流程；面向已用代理写代码的小团队，卖点可以是会话与改动的可追溯，而不是模型能力。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>用户要完成的任务是：软件开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。</p>
+        <p>推断：若 CodexDesk 把代理会话、终端输出与仓库改动收进同一桌面窗口，可减少在终端与 IDE 之间切换、手动对照 diff 的一步；经常在本地跑多步编码代理任务、又需要即时审查改动的开发者会在这种情形下尝试它。该动机尚无用户反馈或案例佐证。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p>
+        <p>追踪 CodexDesk 仓库的 README、issue 与 discussion，确认它接入哪些编码代理、如何呈现仓库改动，以及是否有开发者描述替代了原有终端加 IDE 的流程。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。用户要完成的任务是：软件开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。</p>
+        <p><strong>值得试用</strong>。推断：若 CodexDesk 把代理会话、终端输出与仓库改动收进同一桌面窗口，可减少在终端与 IDE 之间切换、手动对照 diff 的一步；经常在本地跑多步编码代理任务、又需要即时审查改动的开发者会在这种情形下尝试它。该动机尚无用户反馈或案例佐证。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -124,38 +124,47 @@
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>开发者在本地用 AI 编码代理跑任务时，需要把终端、仓库和代理会话来回切换，CodexDesk 试图把这些编码代理的工作流收进一个桌面窗口里。它具体接收哪些输入、产出什么交付物，公开材料只写到“桌面伴侣”这一层，具体流程或交付仍待核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>用户要完成的任务是：软件开发者；现有材料尚未说明，用户相较原有做法为什么会选择它。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决开发者运行 AI 编码代理时终端、仓库与代理会话分散、需反复切换对照的需求；痛点是多步任务中漏看输出或误判改动，属工作流结构推理，公开材料未给用户抱怨，但任务与交付闭环可还原。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若 CodexDesk 把代理会话、终端输出与仓库改动收进同一桌面窗口，可减少在终端与 IDE 之间切换、手动对照 diff 的一步；经常在本地跑多步编码代理任务、又需要即时审查改动的开发者会在这种情形下尝试它。该动机尚无用户反馈或案例佐证。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪 CodexDesk 仓库的 README、issue 与 discussion，确认它接入哪些编码代理、如何呈现仓库改动，以及是否有开发者描述替代了原有终端加 IDE 的流程。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“开发者在本地用 AI 编码代理跑任务时，需要把终端、仓库和代理会话来回切换，CodexDesk 试图把这些编码代理的工作流收进一个桌面窗口里”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决开发者运行 AI 编码代理时终端、仓库与代理会话分散、需反复切换对照的需求；痛点是多步任务中漏看输出或误判改动，属工作流结构推理，公开材料未给用户抱怨，但任务与交付闭环可还原。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/BinaryDeliverer/CodexDesk" target="_blank" rel="noopener">CodexDesk · 2026-09-23 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 223 个收藏、48 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。</p>
+          <p>仓库仅有 222 至 223 个收藏的公开记录，说明社区注意到该项目，但无 issue、讨论或评价显示目标开发者已把它纳入日常编码代理工作流，持续采用未核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/BinaryDeliverer/CodexDesk" target="_blank" rel="noopener">CodexDesk · 2026-09-23 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。</p>
+          <p>公开材料未披露定价、付费主体或商业模式，无法判断收入来自开发者个人订阅还是团队采购；这是商业证据缺口，不否定已识别的需求。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。</p>
+          <p>公开材料只写到“桌面伴侣”，未说明它如何接入 Codex 会话、是否读写本地仓库、权限与安全边界如何，交付能否稳定发生尚缺可复现证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/BinaryDeliverer/CodexDesk" target="_blank" rel="noopener">CodexDesk · 2026-09-23 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -249,7 +258,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 938 个 →
+        AI + 开发 共 949 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -341,8 +350,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>3309 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-10-18</span>
+    <span>3347 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-10-19</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

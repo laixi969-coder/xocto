@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html#webpage", "@type": "WebPage", "description": "For people running long AI agent tasks on Android: they handle chained workflows and tool calls and need to control usage and budget. The project adds\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "rikkahub-agent-pure", "url": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html"}, {"@id": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-10-18", "datePublished": "2026-10-13", "description": "For people running long AI agent tasks on Android: they handle chained workflows and tool calls and need to control usage and budget. The project adds a usage ledger and budgets, on-demand tools, expert sub-agents and cold memory to an on-device agent, so users end up with long-running task execution bounded by budget; the exact delivery form and human confirmation steps still need checking.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html#webpage"}, "name": "rikkahub-agent-pure", "url": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html", "name": "rikkahub-agent-pure", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=09d24ad54337">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html#webpage", "@type": "WebPage", "description": "For people running long AI agent tasks on Android: they handle chained workflows and tool calls and need to control usage and budget. The project adds\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "rikkahub-agent-pure", "url": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html"}, {"@id": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-10-19", "datePublished": "2026-10-13", "description": "For people running long AI agent tasks on Android: they handle chained workflows and tool calls and need to control usage and budget. The project adds a usage ledger and budgets, on-demand tools, expert sub-agents and cold memory to an on-device agent, so users end up with long-running task execution bounded by budget; the exact delivery form and human confirmation steps still need checking.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html#webpage"}, "name": "rikkahub-agent-pure", "url": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/rikkahub-agent-pure.html", "name": "rikkahub-agent-pure", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=09d24ad54337">
 <link rel="stylesheet" href="../../funding.css?v=09d24ad54337">
 <script>
   (function () {
@@ -74,7 +74,7 @@
     <dl class="product-kv desk-stats">
       <div><dt>Team / maker</dt><dd>wuyhong715</dd></div>
       <div><dt>First tracked here</dt><dd class="num">2026-10-13</dd></div>
-      <div><dt>Last updated here</dt><dd class="num">2026-10-18</dd></div>
+      <div><dt>Last updated here</dt><dd class="num">2026-10-19</dd></div>
     </dl>
   </header>
 
@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>Why this would be needed</h2>
-        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-10-17</p>
+        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-10-19</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">Use case</span>
-        <p class="product-lead">Users running long AI agent tasks on Android (e.g. developers chaining tool calls via Shizuku/Termux/MCP) need to handle chained workflows and tool calls while controlling usage and budget, completing task runs that survive long sessions without going out of control.</p>
-        <p>Current practice is generic Android agent clients (such as the upstream rikkahub) without a usage ledger or budget limits, with all tools loaded at once, consumption visible only after the fact, and long tasks watched manually.</p>
-        <p>Long-running on-device agents easily go off the rails mid-run, with unpredictable token and tool-call consumption; users cannot set limits before execution or track usage during it, and only discover overspend or aborted tasks afterwards.</p>
+        <p class="product-lead">Users running long AI agent tasks on Android, when they need chained workflows and tool calls to run to completion, handle multi-step tasks and tool outputs to finish one uninterrupted, on-budget run.</p>
+        <p>The old way is generic Android agent clients or Termux with manually wired tools and after-the-fact consumption checks, lacking budget caps and cold memory, so long runs need manual watching and restarts.</p>
+        <p>The public description only states the positioning: long runs break and usage/cost are unpredictable; no user complaints or cases directly support pain intensity, so this is structural inference.</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">Reason to use it</span>
         <h3>Why users would choose it</h3>
-        <p>Inference: unlike generic clients that only show consumption after the fact, it puts a usage ledger with budget caps, on-demand tool loading, expert sub-agents and cold memory directly into the on-device agent, removing the burden of mid-run overspend or context bloat aborting long tasks, so Android users running long chains would pick it when budget constraints matter; no retention or payment evidence is provided.</p>
+        <p>Inference: versus the old way it puts a usage ledger, budgets, on-demand tool loading and cold memory into the on-device agent, removing the step of rerunning after over-budget or lost-context failures, so Android users with chained tasks would pick it for unattended long runs; no retention or payment evidence yet.</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">Where the easy answer breaks down</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">If this is your job</span>
-        <p><strong>Worth trying</strong>. Inference: unlike generic clients that only show consumption after the fact, it puts a usage ledger with budget caps, on-demand tool loading, expert sub-agents and cold memory directly into the on-device agent, removing the burden of mid-run overspend or context bloat aborting long tasks, so Android users running long chains would pick it when budget constraints matter; no retention or payment evidence is provided.</p>
+        <p><strong>Worth trying</strong>. Inference: versus the old way it puts a usage ledger, budgets, on-demand tool loading and cold memory into the on-device agent, removing the step of rerunning after over-budget or lost-context failures, so Android users with chained tasks would pick it for unattended long runs; no retention or payment evidence yet.</p>
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
@@ -125,7 +125,7 @@
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">Public fact</span><p>For people running long AI agent tasks on Android: they handle chained workflows and tool calls and need to control usage and budget. The project adds a usage ledger and budgets, on-demand tools, expert sub-agents and cold memory to an on-device agent, so users end up with long-running task execution bounded by budget; the exact delivery form and human confirmation steps still need checking.</p></div>
-        <div><span class="field-k">Workflow reasoning</span><p>Inference: unlike generic clients that only show consumption after the fact, it puts a usage ledger with budget caps, on-demand tool loading, expert sub-agents and cold memory directly into the on-device agent, removing the burden of mid-run overspend or context bloat aborting long tasks, so Android users running long chains would pick it when budget constraints matter; no retention or payment evidence is provided.</p></div>
+        <div><span class="field-k">Workflow reasoning</span><p>Inference: versus the old way it puts a usage ledger, budgets, on-demand tool loading and cold memory into the on-device agent, removing the step of rerunning after over-budget or lost-context failures, so Android users with chained tasks would pick it for unattended long runs; no retention or payment evidence yet.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
       <div class="gate-audit">
@@ -142,6 +142,9 @@
             <strong>Insufficient evidence</strong>
           </div>
           <p>The assessment is recorded; an English explanation is pending.</p>
+          <div class="gate-links" aria-label="Evidence confidence">
+            <a href="https://github.com/wuyhong715/rikkahub-agent-pure/releases/latest" target="_blank" rel="noopener">rikkahub-agent-pure · 2026-10-01 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -173,12 +176,12 @@
       <div class="field">
         <span class="field-k">English ecosystem · English-language market</span>
         <p>Local supply: Emerging<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-10-18</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-10-19</p>
       </div>
       <div class="field">
         <span class="field-k">Chinese ecosystem · CN</span>
         <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-10-18</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-10-19</p>
       </div>
     </div>
   </section>
@@ -249,7 +252,7 @@ Public information is limited; this view will update as more evidence appears.  
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        512 in AI + Productivity →
+        516 in AI + Productivity →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -341,8 +344,8 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>3309 cases · 177 business reads</span>
-    <span class="gen">Data through 2026-10-18</span>
+    <span>3347 cases · 177 business reads</span>
+    <span class="gen">Data through 2026-10-19</span>
     <span>·</span>
     <a href="../../en/reports.html">Calls archive</a>
     <span>·</span>
