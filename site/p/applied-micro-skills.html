@@ -84,15 +84,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-19</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-20</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">应用微观经济学研究者（博士生、助理教授或研究助理）在拿到 WRDS 等受限数据、需要跑事件研究或面板回归并产出可投稿的论文表格时，用 Claude Code 或 Codex 的 skill 把取数、Stata 回归、表格排版和数字复现串成一条可重跑的流程。</p>
-        <p>研究者目前通常自己写 Stata do 文件与 Python/R 脚本，用 estout、outreg2 等命令手工导出表格，再在 Word 或 LaTeX 中逐项核对；复现检查靠重跑脚本和人工比对，WRDS 取数则依赖个人脚本或机构模板。</p>
-        <p>公开说明指向的痛点是：从原始数据到出版级表格之间步骤琐碎且易错，回归结果与论文表格中的数字需要反复手工核对，复现审计往往靠人肉重跑；一旦数据或代码版本变动，表格数字与正文不一致的返工代价高。这是从产品能力与工作流结构推出的判断，尚无用户抱怨或案例直接佐证。</p>
+        <p class="product-lead">应用微观经济学研究者（博士生、助理教授、RA）在拿到 WRDS 等受限数据后，用 Stata 做事件研究或回归，并把结果整理成可投稿的论文表格，同时要能复现每一个数字。</p>
+        <p>研究者自己写 Stata do 文件、手工整理 LaTeX 表、靠个人笔记和邮件传递复现步骤，或使用现成的复现包模板。</p>
+        <p>从原始数据到论文表要跨数据授权、清洗、回归、制表多道手工环节，任何一步脚本或版本不一致都会让复现失败；审稿与期刊复现要求会直接卡住发表。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -102,7 +102,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>推断：相较手工 do 文件加逐项核对，该 skill 把取数、回归、表格生成和复现审计封装为可重复调用的动作，减少的是“表格数字与回归输出对不上时逐格排查”这一步负担，并让复现结果可被脚本核对；因此正在写实证论文、需要反复改设定并重出表格的研究者会在改模型或换样本时选择它。公开材料尚无用户反馈证实这一动机。</p>
+        <p>推断：它把复现审计、事件研究、WRDS/Stata 调用和出版级表格封装成 Claude Code/Codex 可直接调用的技能，减少研究者逐条重写脚本和手工对表的一步；当研究者需要在投稿前自查复现或接手他人数据时，会倾向选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -114,7 +114,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。推断：相较手工 do 文件加逐项核对，该 skill 把取数、回归、表格生成和复现审计封装为可重复调用的动作，减少的是“表格数字与回归输出对不上时逐格排查”这一步负担，并让复现结果可被脚本核对；因此正在写实证论文、需要反复改设定并重出表格的研究者会在改模型或换样本时选择它。公开材料尚无用户反馈证实这一动机。</p>
+        <p><strong>值得拆解</strong>。推断：它把复现审计、事件研究、WRDS/Stata 调用和出版级表格封装成 Claude Code/Codex 可直接调用的技能，减少研究者逐条重写脚本和手工对表的一步；当研究者需要在投稿前自查复现或接手他人数据时，会倾向选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -130,8 +130,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来</p></div>
-        <div><span class="field-k">工作流推理</span><p>推断：相较手工 do 文件加逐项核对，该 skill 把取数、回归、表格生成和复现审计封装为可重复调用的动作，减少的是“表格数字与回归输出对不上时逐格排查”这一步负担，并让复现结果可被脚本核对；因此正在写实证论文、需要反复改设定并重出表格的研究者会在改模型或换样本时选择它。公开材料尚无用户反馈证实这一动机。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 issue、discussion 与 README 更新，确认是否有研究者报告在真实数据上复现表格的成功案例及使用频率。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：它把复现审计、事件研究、WRDS/Stata 调用和出版级表格封装成 Claude Code/Codex 可直接调用的技能，减少研究者逐条重写脚本和手工对表的一步；当研究者需要在投稿前自查复现或接手他人数据时，会倾向选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库 README 与 issue/discussion，确认是否已有研究者报告复现审计或制表的实际使用结果。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -318,7 +318,7 @@ eventstudy2 验证到浮点精度）、<code>wrds</code>（WRDS 查询模式：C
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 949 个 →
+        AI + 开发 共 967 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -370,9 +370,9 @@ eventstudy2 验证到浮点精度）、<code>wrds</code>（WRDS 查询模式：C
         <span class="pager-n">What We Tell AI</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/cctv-camera-database.html">
+      <a class="pager-item pager-next" href="../p/awesome-reverse-engineered.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">cctv-camera-database</span>
+        <span class="pager-n">awesome-reverse-engineered</span>
       </a>
     </div>
   </nav>
@@ -410,8 +410,8 @@ eventstudy2 验证到浮点精度）、<code>wrds</code>（WRDS 查询模式：C
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>3347 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-10-19</span>
+    <span>3414 个案例 · 178 份生意判断</span>
+    <span class="gen">数据截至 2026-10-20</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

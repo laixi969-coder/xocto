@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/deepep-ascend.html#webpage", "@type": "WebPage", "description": "Engineers running distributed training or inference on Ascend NPU clusters previously had to handle inter-card communication and collective tuning the\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "DeepEP-Ascend", "url": "https://xocto.vercel.app/en/p/deepep-ascend.html"}, {"@id": "https://xocto.vercel.app/en/p/deepep-ascend.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-10-19", "datePublished": "2026-09-30", "description": "Engineers running distributed training or inference on Ascend NPU clusters previously had to handle inter-card communication and collective tuning themselves; this library takes communication requests from training or inference frameworks and performs high-performance communication on Ascend hardware, delivering a communication capability callable directly by those pipelines, though supported scope and performance figures still need verification.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/deepep-ascend.html#webpage"}, "name": "DeepEP-Ascend", "url": "https://xocto.vercel.app/en/p/deepep-ascend.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/deepep-ascend.html", "name": "DeepEP-Ascend", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=09d24ad54337">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/deepep-ascend.html#webpage", "@type": "WebPage", "description": "Engineers running distributed training or inference on Ascend NPU clusters previously had to handle inter-card communication and collective tuning the\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "DeepEP-Ascend", "url": "https://xocto.vercel.app/en/p/deepep-ascend.html"}, {"@id": "https://xocto.vercel.app/en/p/deepep-ascend.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-10-20", "datePublished": "2026-09-30", "description": "Engineers running distributed training or inference on Ascend NPU clusters previously had to handle inter-card communication and collective tuning themselves; this library takes communication requests from training or inference frameworks and performs high-performance communication on Ascend hardware, delivering a communication capability callable directly by those pipelines, though supported scope and performance figures still need verification.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/deepep-ascend.html#webpage"}, "name": "DeepEP-Ascend", "url": "https://xocto.vercel.app/en/p/deepep-ascend.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/deepep-ascend.html", "name": "DeepEP-Ascend", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=09d24ad54337">
 <link rel="stylesheet" href="../../funding.css?v=09d24ad54337">
 <script>
   (function () {
@@ -74,7 +74,7 @@
     <dl class="product-kv desk-stats">
       <div><dt>Team / maker</dt><dd>deepseek-ai</dd></div>
       <div><dt>First tracked here</dt><dd class="num">2026-09-30</dd></div>
-      <div><dt>Last updated here</dt><dd class="num">2026-10-19</dd></div>
+      <div><dt>Last updated here</dt><dd class="num">2026-10-20</dd></div>
     </dl>
   </header>
 
@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>Why this would be needed</h2>
-        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-10-19</p>
+        <p class="note">Start inside the user&#39;s day · Public facts + observable behavior · 2026-10-20</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">Use case</span>
-        <p class="product-lead">AI infrastructure engineers deploying distributed training or inference on Ascend NPU clusters must handle inter-card and collective communication when wiring a training framework to a multi-card cluster, so that a training run or inference service can run and reach acceptable throughput.</p>
+        <p class="product-lead">AI infrastructure engineers deploying distributed training or inference on Ascend NPU clusters must handle inter-card and collective communication tuning when wiring a training framework or inference service onto a multi-card cluster, so that a training run or inference service can run at acceptable throughput.</p>
         <p>Using the hardware vendor&#39;s bundled collective communication library, or writing and modifying communication implementations by hand with manual benchmarking and tuning.</p>
-        <p>The communication layer in the Ascend ecosystem has mainly come from the hardware vendor; model-side teams hitting communication bottlenecks lacked implementations aligned with their own training frameworks and often had to write or modify low-level communication code and repeatedly benchmark and tune it.</p>
+        <p>Public material only states this is a high-performance communication library for Ascend NPUs; by workflow inference, Ascend communication implementations have long depended on the hardware vendor, so model-side teams hitting communication bottlenecks lacked ready implementations aligned with their own training frameworks and often had to write or modify low-level communication code with repeated benchmarking and tuning.</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
@@ -142,6 +142,9 @@
             <strong>Insufficient evidence</strong>
           </div>
           <p>The assessment is recorded; an English explanation is pending.</p>
+          <div class="gate-links" aria-label="Evidence confidence">
+            <a href="https://github.com/deepseek-ai/DeepEP-Ascend" target="_blank" rel="noopener">DeepEP-Ascend · 2026-09-30 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -173,12 +176,12 @@
       <div class="field">
         <span class="field-k">English ecosystem · English-language market</span>
         <p>Local supply: Emerging<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-10-19</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-10-20</p>
       </div>
       <div class="field">
         <span class="field-k">Chinese ecosystem · CN</span>
         <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-10-19</p>
+        <p class="note">Public coverage has been recorded for this market. · 2026-10-20</p>
       </div>
     </div>
   </section>
@@ -249,7 +252,7 @@ Public information is limited; this view will update as more evidence appears.  
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=Infrastructure">
-        416 in Infrastructure →
+        424 in Infrastructure →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -341,8 +344,8 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>3347 cases · 177 business reads</span>
-    <span class="gen">Data through 2026-10-19</span>
+    <span>3414 cases · 178 business reads</span>
+    <span class="gen">Data through 2026-10-20</span>
     <span>·</span>
     <a href="../../en/reports.html">Calls archive</a>
     <span>·</span>

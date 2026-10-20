@@ -83,37 +83,37 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-01</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-20</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">短视频创作者、AI 视频提示词工程师需要从参考视频反推提示词。</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作，可能手动分析或使用其他工具。</p>
-        <p>手动分析视频特征并编写提示词耗时且不准确。</p>
+        <p class="product-lead">短视频创作者或 AI 视频提示词工程师拿到一段想复刻的舞蹈短视频时，需要把画面拆成抽帧、清晰度、节奏卡点等可描述要素，再写成能喂给 AI 视频生成模型的提示词，以便产出风格和节奏相近的新视频。</p>
+        <p>旧做法是人工反复暂停、截图、记录画面与节拍，再凭经验手写提示词，或直接照搬他人现成提示词模板；公开材料未说明用户此前具体使用哪种替代方式。</p>
+        <p>公开材料只说明工具做抽帧、清晰度与节奏卡点分析，未给出用户抱怨或损失数据；从工作流结构推理，用户面对参考视频时需逐帧观察并凭经验把画面语言转成提示词，这一步反复且依赖个人描述能力，卡点节奏尤其难用文字准确表达。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
+        <h3>需求有依据</h3>
         <p>趋势是 AI 视频生成从文本提示走向参考视频驱动，反推提示词成为新需求。切入点是为舞蹈教学、短视频创作者提供从参考视频到提示词的转换工具，可考虑按生成次数或订阅收费。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>公开代码仓库有 134 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p>推断：相较人工逐帧记录再手写提示词，该工具把抽帧、清晰度判断和节奏卡点提取合并为一次本地处理并直接输出可复用提示词，减少了手动截图与凭记忆描述节拍这一步；因此需要批量复刻舞蹈类参考视频的创作者会在拿到素材后先跑一遍它。生成效果仍需自行验证，公开材料没有用户反馈证明其长期留在工作流中。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p>
+        <p>追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有用户报告反推提示词的实际生成效果、使用频率或复刻场景。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。公开代码仓库有 134 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p><strong>值得试用</strong>。推断：相较人工逐帧记录再手写提示词，该工具把抽帧、清晰度判断和节奏卡点提取合并为一次本地处理并直接输出可复用提示词，减少了手动截图与凭记忆描述节拍这一步；因此需要批量复刻舞蹈类参考视频的创作者会在拿到素材后先跑一遍它。生成效果仍需自行验证，公开材料没有用户反馈证明其长期留在工作流中。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -124,38 +124,41 @@
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>本地工具：用户导入一段舞蹈短视频，它抽帧、分析清晰度和节奏卡点，反推出可用于 AI 视频生成的提示词。交付是可直接复用的提示词，但生成效果仍需用户自行验证。</p></div>
-        <div><span class="field-k">工作流推理</span><p>公开代码仓库有 134 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决的是把参考舞蹈视频转成可复用 AI 视频提示词的需求，痛点在人工逐帧观察与凭经验描述节奏卡点这一步；公开仓库说明抽帧、清晰度、节奏卡点与 Agent Skill 的交付闭环，属工作流结构推理，尚无用户抱怨或损失数据。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较人工逐帧记录再手写提示词，该工具把抽帧、清晰度判断和节奏卡点提取合并为一次本地处理并直接输出可复用提示词，减少了手动截图与凭记忆描述节拍这一步；因此需要批量复刻舞蹈类参考视频的创作者会在拿到素材后先跑一遍它。生成效果仍需自行验证，公开材料没有用户反馈证明其长期留在工作流中。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有用户报告反推提示词的实际生成效果、使用频率或复刻场景。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“本地工具：用户导入一段舞蹈短视频，它抽帧、分析清晰度和节奏卡点，反推出可用于 AI 视频生成的提示词。交付是可直接复用的提示词，但生成效果仍需用户自行验证”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决的是把参考舞蹈视频转成可复用 AI 视频提示词的需求，痛点在人工逐帧观察与凭经验描述节奏卡点这一步；公开仓库说明抽帧、清晰度、节奏卡点与 Agent Skill 的交付闭环，属工作流结构推理，尚无用户抱怨或损失数据。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，共识闸门未进入。</p>
+          <p>仓库收藏从 134 缓慢增至 139，说明有开发者关注，但公开材料没有 issue、讨论或用户评价说明谁在什么场景持续使用，关注度不能替代采用证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/CattleZ/dance-video-to-prompt" target="_blank" rel="noopener">dance-video-to-prompt · 2026-08-17 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，模式闸门未进入。</p>
+          <p>这是本地开源工具，未见定价页、付费主体或采购记录；钱可能来自创作者订阅或 to B 内容团队，但均为判断而非已验证事实，公开材料也未说明维护者如何变现。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，求真闸门未进入。</p>
+          <p>公开材料未给出反推提示词后实际生成效果的对照、可复现评测或人工校验边界，交付是否稳定达到用户预期仍缺证据；本地处理本身不构成效果保证。</p>
         </article>
       </div>
     </details>
@@ -249,7 +252,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%88%9B%E4%BD%9C">
-        AI + 创作 共 388 个 →
+        AI + 创作 共 397 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -341,8 +344,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>3347 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-10-19</span>
+    <span>3414 个案例 · 178 份生意判断</span>
+    <span class="gen">数据截至 2026-10-20</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

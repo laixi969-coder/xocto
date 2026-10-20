@@ -85,15 +85,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-19</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-10-20</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者在本地或自托管环境中，把编码代理要执行的代码修改交给平台，在 Docker 沙箱里运行，并在关键节点由人批准后才继续，最终要拿到可复核、可回滚的交付结果。</p>
-        <p>目前多靠本地终端直接跑代理、人工逐条审 diff、git 分支隔离，或干脆不让代理碰关键仓库。</p>
-        <p>编码代理直接改仓库时，越权操作、不可回滚的改动和缺少人工检查点会让开发者不敢放手；逐条盯日志、手工回滚又占掉大量时间。</p>
+        <p class="product-lead">使用编码代理的开发者或小团队在让 AI 改代码时，需要把代理放进隔离环境运行，并在合并、部署等关键节点由人审阅产物后批准继续。</p>
+        <p>开发者手动在本地或 CI 里跑代理、靠 git 分支和代码评审兜底，或用通用 agent 框架自行拼装沙箱与审批。</p>
+        <p>编码代理直接改仓库或跑命令时，出错难回滚、过程不可见，团队不敢让它碰生产代码；缺少可审阅的中间产物和人工闸门是主要障碍。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -103,7 +103,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>相较在本地终端直接跑代理、事后人工审 diff，它把执行放进 Docker 沙箱并在关键节点强制暂停等人批准，减少事后逐条排查越权改动和手工回滚的负担，因此需要让代理改生产相关代码又要求可审计的开发者会先试用；这是基于产品能力的推断，尚无客户案例或留存证据。</p>
+        <p>推断：它把 Docker 沙箱、结构化产物交换和关键节点人工 Approve 做成可自托管流程，减少团队自行搭建隔离与审批链的一步；当团队想让编码代理参与交付又必须保留人工把关时，会选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -115,7 +115,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。相较在本地终端直接跑代理、事后人工审 diff，它把执行放进 Docker 沙箱并在关键节点强制暂停等人批准，减少事后逐条排查越权改动和手工回滚的负担，因此需要让代理改生产相关代码又要求可审计的开发者会先试用；这是基于产品能力的推断，尚无客户案例或留存证据。</p>
+        <p><strong>值得拆解</strong>。推断：它把 Docker 沙箱、结构化产物交换和关键节点人工 Approve 做成可自托管流程，减少团队自行搭建隔离与审批链的一步；当团队想让编码代理参与交付又必须保留人工把关时，会选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -131,8 +131,8 @@
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
         <div><span class="field-k">公开事实</span><p>让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续</p></div>
-        <div><span class="field-k">工作流推理</span><p>相较在本地终端直接跑代理、事后人工审 diff，它把执行放进 Docker 沙箱并在关键节点强制暂停等人批准，减少事后逐条排查越权改动和手工回滚的负担，因此需要让代理改生产相关代码又要求可审计的开发者会先试用；这是基于产品能力的推断，尚无客户案例或留存证据。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的 README、部署文档与 issue/discussion，确认 Docker 沙箱隔离机制、批准节点配置方式与可复现的交付记录。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：它把 Docker 沙箱、结构化产物交换和关键节点人工 Approve 做成可自托管流程，减少团队自行搭建隔离与审批链的一步；当团队想让编码代理参与交付又必须保留人工把关时，会选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该仓库的部署文档与 issue/discussion，确认是否有团队报告在真实交付中使用沙箱与人工批准节点。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -321,7 +321,7 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 949 个 →
+        AI + 开发 共 967 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -413,8 +413,8 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>3347 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-10-19</span>
+    <span>3414 个案例 · 178 份生意判断</span>
+    <span class="gen">数据截至 2026-10-20</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

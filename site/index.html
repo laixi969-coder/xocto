@@ -62,17 +62,17 @@
 
   <header class="lede-bar home-mast desk-command">
     <div class="lede-main">
-      <p class="eyebrow">2026-10-19 · 全球 AI+ 机会流</p>
-      <h1>AI 代理正从演示走向值班、剪辑、科研与账号治理等具体工作节点，而融资成本上升让交付效率成为分水岭。</h1>
+      <p class="eyebrow">2026-10-20 · 全球 AI+ 机会流</p>
+      <h1>算力融资降温、数据条款收紧，机会正从模型层转向评测、合规与本地工具</h1>
       <p class="daily-contract">每日更新；每个完成期次交付一条方向判断、三个证据案例和一个可执行动作。可先速览全页，需要时再深读。</p>
-      <a class="daily-cta" href="r/2026-10-19.html">读完整判断 →</a>
+      <a class="daily-cta" href="r/2026-10-20.html">读完整判断 →</a>
     </div>
     <aside class="mast-evidence desk-evidence" aria-label="本期证据">
       <p class="field-k">本期证据</p>
       <ol class="desk-evidence-list">
-        <li><span class="num">01</span><span>事故响应、视频剪辑、生物信息分析等场景出现把完整工作链交给代理执行的产品，人工确认环节普遍未披露。</span></li>
-        <li><span class="num">02</span><span>开发者同时挂多个 AI 编程客户端，账号与实例管理成为新的摩擦点，目前仅确认支持 Codex。</span></li>
-        <li><span class="num">03</span><span>企业级 AI agent 仍在吸金，RapidCanvas 完成 2900 万美元融资，但公开材料缺少可抄的工作流细节。</span></li>
+        <li><span class="num">01</span><span>CoreWeave 债券被当作 AI 信贷压力指标、Nscale 估值近腰斩且微软撤出，算力基础设施的融资与客户承诺同时松动</span></li>
+        <li><span class="num">02</span><span>Meta 修改条款可抓取商业客户内容用于训练，企业数据治理与合规担忧上升</span></li>
+        <li><span class="num">03</span><span>MultiLangBench 把多语言评测题装进 SQLite，让模型团队在发布前横向对比得分</span></li>
       </ol>
     </aside>
   </header>
@@ -161,20 +161,20 @@
   <article class="pick desk-pick" style="--i: 0">
     <div class="desk-pick-id">
       <span class="pick-no num">01</span>
-      <a class="pick-id" href="p/huashu-motion.html">
-        <h3>huashu-motion</h3>
+      <a class="pick-id" href="p/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium.html">
+        <h3>Deepgram</h3>
         <span class="tag sig">首次发现</span>
       </a>
-      <p class="pick-meta num">2026-10-19 · 开源项目 · 营销与广告 / 软件与互联网产品</p>
+      <p class="pick-meta num">2026-10-20 · AI 改造 · 呼叫中心与客户服务 / 医疗健康 / 媒体与内容</p>
     </div>
     <div class="pick-body desk-pick-fields">
       <div class="field field-what">
         <span class="field-k">这是什么</span>
-        <p>独立开发者或小团队市场人员在产品上线前需要宣传片时，让编码 agent 读取产品信息，生成带配乐的视频，并可指着具体画面提出修改；成片质量、渲染时长与商用授权仍待核验。</p>
+        <p>呼叫中心质检、医院病案转写和媒体字幕团队在需要把大批录音转成文字与分析结果时，把音频交给 Deepgram 的语音转写与语音代理模型，由模型输出文字稿、通话分析和语音回复；本次新增的是这些离线批量任务可跑在 AWS Trainium2 上，单实例承载八个模型副本，具体交付质量与人工复核环节仍待核验。</p>
       </div>
       <div class="field field-take">
         <span class="field-k">本期关注理由</span>
-        <p>趋势：视频生成正被接进编码 agent 的工作流，宣传片这类原本外包给剪辑与动效的活开始由开发者自己出。切入：可从 SaaS 与独立开发者的上线物料切入，按成片交付或按修改轮次收费，而不是卖通用视频工具。</p>
+        <p>趋势：语音转写正从按分钟计费的云 API 变成可自建、可压成本的批量基础设施，推理效率直接决定同样预算能处理多少小时音频。切入：不要做通用转写 API，而是从呼叫中心质检或病案转写这类有合规与结构化要求的环节进入，按处理小时或按质检报告收费，把行业词表、脱敏和人工复核流程做成壁垒。</p>
       </div>
       <div class="field field-call">
         <span class="field-k">机会判断</span>
@@ -182,55 +182,27 @@
       </div>
       <div class="field home-question">
         <span class="field-k">下一步核验</span>
-        <p>收集 huashu-motion 仓库 README 与 issue/discussion 中关于成片示例、依赖模型、商用授权与使用反馈的公开内容。</p>
+        <p>收集 Deepgram 官方客户案例页或定价页中关于 Trainium2 批量部署的计价与已披露行业客户的交付结果。</p>
       </div>
     </div>
   </article>
   <article class="pick desk-pick" style="--i: 1">
     <div class="desk-pick-id">
       <span class="pick-no num">02</span>
-      <a class="pick-id" href="p/shipyard-2.html">
-        <h3>shipyard</h3>
+      <a class="pick-id" href="p/kling-40上线快手的ai生意开始进入深水区.html">
+        <h3>Kling</h3>
         <span class="tag sig">首次发现</span>
       </a>
-      <p class="pick-meta num">2026-10-19 · 开源项目 · 软件开发</p>
+      <p class="pick-meta num">2026-10-20 · 新应用 / 服务 · 广告与营销 / 影视与短视频内容</p>
     </div>
     <div class="pick-body desk-pick-fields">
       <div class="field field-what">
         <span class="field-k">这是什么</span>
-        <p>开发者在本地开发机上同时跑多个编码代理时打开它，把代码分支、终端、编排、工具包和自动化集中到一个桌面应用里管理；AI 接收的是编码任务与仓库环境，执行运行与编排动作，用户拿到的是各代理的工作结果，具体交付形态与人工确认环节仍待核验。</p>
+        <p>营销人员或内容创作者在需要短视频素材、又缺少实拍条件时打开Kling，把文字或图片描述交给它生成视频片段，再自行挑选剪辑成可投放的成片；4.0版本的具体能力、定价与交付质量仍待核验。</p>
       </div>
       <div class="field field-take">
         <span class="field-k">本期关注理由</span>
-        <p>趋势是编码代理从单次对话走向多代理并行，瓶颈从“会不会写代码”转到“谁在管这些代理、结果怎么收”。切入可放在需要审计与复现的团队开发环节，例如按任务或按运行结果收费的代理编排服务；仓库仅 321 星，尚无采用与付费证据。</p>
-      </div>
-      <div class="field field-call">
-        <span class="field-k">机会判断</span>
-        <p><strong>暂不投入</strong><span class="decision-sep"> · </span>解决问题，但需求刚性不足</p>
-      </div>
-      <div class="field home-question">
-        <span class="field-k">下一步核验</span>
-        <p>追踪该产品官网或代码仓库（如 公开代码仓库 仓库页、README 与 issue/discussion），确认其真实功能范围与开发者实际使用反馈。</p>
-      </div>
-    </div>
-  </article>
-  <article class="pick desk-pick" style="--i: 2">
-    <div class="desk-pick-id">
-      <span class="pick-no num">03</span>
-      <a class="pick-id" href="p/idx.html">
-        <h3>idx</h3>
-        <span class="tag sig">首次发现</span>
-      </a>
-      <p class="pick-meta num">2026-10-19 · 开源项目 · 金融服务 / 证券投资</p>
-    </div>
-    <div class="pick-body desk-pick-fields">
-      <div class="field field-what">
-        <span class="field-k">这是什么</span>
-        <p>面向关注印尼股市（IDX/IHSG）的投资者与研究员，在需要查行情、看基本面或筛选标的时，通过网页终端、命令行或 AI 代理的 MCP 接口输入查询，获取价格、基本面与筛选结果；免费且无需 API key。具体数据来源、更新频率与筛选口径仍待核验。</p>
-      </div>
-      <div class="field field-take">
-        <span class="field-k">本期关注理由</span>
-        <p>趋势：小众国家市场的行情数据正被做成可被 AI 代理直接调用的接口，数据供给从终端软件转向可编程入口。切入：可从印尼等东南亚散户与本地券商研究岗切入，卖点是免 key 的本地市场数据接入；但数据授权与实时性未披露，先核验数据来源与更新频率再判断能否收费。</p>
+        <p>趋势：视频生成正从演示走向投放素材生产，竞争焦点转向成片可用率和成本。切入：不要做通用视频模型，可从电商详情页视频、本地生活门店短视频这类高频、格式固定的素材切入，按条交付成片而非卖生成额度。</p>
       </div>
       <div class="field field-call">
         <span class="field-k">机会判断</span>
@@ -238,7 +210,35 @@
       </div>
       <div class="field home-question">
         <span class="field-k">下一步核验</span>
-        <p>追踪该项目 公开代码仓库 仓库 README 与 CHANGELOG，核验数据来源、更新频率及是否获得交易所或数据商授权。</p>
+        <p>追踪Kling官网定价页与4.0版本功能说明，核验计费方式、输出规格与商用授权条款。</p>
+      </div>
+    </div>
+  </article>
+  <article class="pick desk-pick" style="--i: 2">
+    <div class="desk-pick-id">
+      <span class="pick-no num">03</span>
+      <a class="pick-id" href="p/techwolf-co-founder-ghent-flywheel-quotsuper-important.html">
+        <h3>TechWolf</h3>
+        <span class="tag sig">首次发现</span>
+      </a>
+      <p class="pick-meta num">2026-10-20 · AI 改造 · 企业人力资源 / 人才管理</p>
+    </div>
+    <div class="pick-body desk-pick-fields">
+      <div class="field field-what">
+        <span class="field-k">这是什么</span>
+        <p>企业人力资源与人才管理者在做技能盘点、内部调配或继任规划时，原本要人工翻看岗位记录、项目经历等材料；TechWolf 用 AI 从这些材料中推断员工技能与工作内容，输出可查询的技能画像，供人才与岗位匹配判断，人工仍需确认结论。具体流程与交付细节仍待核验。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">本期关注理由</span>
+        <p>趋势：大型软件厂商开始把“员工技能理解”作为人才战略的核心组件并直接收购，说明技能数据正从 HR 附属功能变成可被并购的独立能力。切入：可从具体行业（如制造、医疗）的技能合规与内部调配切入，卖按岗位或按盘点结果计费的服务，而非通用 HR 套件。</p>
+      </div>
+      <div class="field field-call">
+        <span class="field-k">机会判断</span>
+        <p><strong>继续跟踪</strong><span class="decision-sep"> · </span>需求有依据</p>
+      </div>
+      <div class="field home-question">
+        <span class="field-k">下一步核验</span>
+        <p>追踪 TechWolf 官网客户案例或 SAP 官方产品文档，核验其技能推断的输入材料、交付形式与人工确认环节。</p>
       </div>
     </div>
   </article>
@@ -258,120 +258,24 @@
   <article class="pick desk-pick" style="--i: 0">
     <div class="desk-pick-id">
       <span class="pick-no num">01</span>
-      <a class="pick-id" href="p/whirl.html">
-        <h3>whirl</h3>
+      <a class="pick-id" href="p/unidex.html">
+        <h3>unidex</h3>
         <span class="tag sig">真需求判断变化</span>
       </a>
-      <p class="pick-meta num">2026-10-19 · 开源项目</p>
+      <p class="pick-meta num">2026-10-20 · 开源项目 · 教育 / 消费电子</p>
     </div>
     <div class="pick-body desk-pick-fields">
       <div class="field field-what">
         <span class="field-k">这是什么</span>
-        <p>面向已经在多个模型之间来回切换的个人用户：他们平时把对话、笔记和零散资料分散在不同聊天窗口里，whirl 让用户在一个界面里选择不同顶级模型，把对话记忆和可编辑文档放在同一处，并接入自己已有的工具；最终交付是一份可持续修改的文档和一段保留上下文的对话，具体记忆范围与工具接入方式仍待核验。</p>
+        <p>面向 Waveshare ESP32-S3 1.54 英寸墨水屏开发板的掌上系统，学生可在设备上查看与日历同步的课表，并用语音记录笔记同步到 Obsidian；此外还有宠物互动、名牌和单键小游戏。具体语音转写与同步流程、交付格式仍待核验。</p>
       </div>
       <div class="field">
         <span class="field-k">此次变化</span>
-        <p>关键闸门状态发生变化；当前停在价值闸门：它试图解决跨模型搬运材料、拼接结论的需求，痛点方向可辨；但现有证据全是词典释义，没有产品说明、文档或用户反馈，无法还原输入、动作与交付，需求强度与刚性均无法判断。</p>
+        <p>信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：它想解决学生随身看课表与口述笔记进 Obsidian 的任务，但公开材料只有产品功能罗列，没有任何用户痛点、旧替代行为或使用反馈；课表与笔记痛点属编辑推测，无法确认刚性，故价值关不成立。</p>
       </div>
       <div class="field field-take">
         <span class="field-k">本期关注理由</span>
-        <p>趋势是聊天入口本身正在被拆开重组：模型能力趋同后，竞争点转向记忆、文档和工具接入这些使用细节。切入可以从“同一份材料要在多个模型间反复搬运”的具体人群下手，例如需要跨模型比对结论的研究或内容团队，按工作区或按文档产出收费，而不是再做一个通用对话框。</p>
-      </div>
-      <div class="field field-call">
-        <span class="field-k">机会判断</span>
-        <p><strong>仅作方向线索</strong><span class="decision-sep"> · </span>问题已识别，需求强度未明</p>
-      </div>
-      <div class="field home-question">
-        <span class="field-k">下一步核验</span>
-        <p>收集 whirl 官方产品页或文档页，确认记忆范围、文档协作方式与是否按席位或用量收费。</p>
-      </div>
-    </div>
-  </article>
-  <article class="pick desk-pick" style="--i: 1">
-    <div class="desk-pick-id">
-      <span class="pick-no num">02</span>
-      <a class="pick-id" href="p/tov.html">
-        <h3>Tov</h3>
-        <span class="tag sig">真需求判断变化</span>
-      </a>
-      <p class="pick-meta num">2026-10-19 · 开源项目</p>
-    </div>
-    <div class="pick-body desk-pick-fields">
-      <div class="field field-what">
-        <span class="field-k">这是什么</span>
-        <p>面向编码代理的 TypeScript 风格语言，编译成体积小、启动快的原生二进制。谁在什么节点打开它、代理如何消费编译产物、交付物如何被验证，公开材料只给出语言定位与仓库星数，具体流程或交付仍待核验。</p>
-      </div>
-      <div class="field">
-        <span class="field-k">此次变化</span>
-        <p>关键闸门状态发生变化；当前停在价值闸门：它想解决代理产出到原生二进制的编译问题，但公开材料未说明旧流程卡在哪一步、不采用会失去什么，需求与痛点无法还原。</p>
-      </div>
-      <div class="field field-take">
-        <span class="field-k">本期关注理由</span>
-        <p>趋势：编码代理开始被当作一等使用者，语言与工具链的接口设计可能成为新的竞争面。切入：可从需要把代理产出直接编译成可分发二进制的团队进入，先做编译产物可复现与错误可读性，而不是再做一个通用语言。</p>
-      </div>
-      <div class="field field-call">
-        <span class="field-k">机会判断</span>
-        <p><strong>仅作方向线索</strong><span class="decision-sep"> · </span>问题已识别，需求强度未明</p>
-      </div>
-      <div class="field home-question">
-        <span class="field-k">下一步核验</span>
-        <p>收集该仓库的 issue 与 discussion，确认开发者实际遇到的编译失败与代理写码问题是否被反复提出。</p>
-      </div>
-    </div>
-  </article>
-  <article class="pick desk-pick" style="--i: 2">
-    <div class="desk-pick-id">
-      <span class="pick-no num">03</span>
-      <a class="pick-id" href="p/sign-in-with-chatgpt-devkit.html">
-        <h3>sign-in-with-chatgpt-devkit</h3>
-        <span class="tag sig">真需求判断变化</span>
-      </a>
-      <p class="pick-meta num">2026-10-19 · 开源项目</p>
-    </div>
-    <div class="pick-body desk-pick-fields">
-      <div class="field field-what">
-        <span class="field-k">这是什么</span>
-        <p>OpenAI 提供了一套把 ChatGPT 账号登录接入第三方应用的开发套件，含本地 SDK、React 组件与设计资源，开发者据此在自己的应用里加入登录入口。它改变的是账号与身份的分发方式，具体权限范围与商用条款仍待核验。</p>
-      </div>
-      <div class="field">
-        <span class="field-k">此次变化</span>
-        <p>信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：仓库收藏从 45 缓慢升至 52，说明有开发者关注，但无 issue、讨论或客户案例显示具体场景采用；关注度不能证明持续使用，强场景仍缺公开行为证据。</p>
-      </div>
-      <div class="field field-take">
-        <span class="field-k">本期关注理由</span>
-        <p>账号体系被平台收拢后，垂直应用自建注册登录的价值下降；值得关注的是把身份与既有行业账户或线下资质绑定，而不是再做一个通用登录页。</p>
-      </div>
-      <div class="field field-call">
-        <span class="field-k">机会判断</span>
-        <p><strong>继续跟踪</strong><span class="decision-sep"> · </span>需求有依据</p>
-      </div>
-      <div class="field home-question">
-        <span class="field-k">下一步核验</span>
-        <p>追踪该仓库的 README、issue 与 discussion，确认权限范围、接入步骤及是否有开发者报告实际部署场景。</p>
-      </div>
-    </div>
-  </article>
-  <article class="pick desk-pick" style="--i: 3">
-    <div class="desk-pick-id">
-      <span class="pick-no num">04</span>
-      <a class="pick-id" href="p/sno-station.html">
-        <h3>Sno Station</h3>
-        <span class="tag sig">真需求判断变化</span>
-      </a>
-      <p class="pick-meta num">2026-10-19 · 开源项目 · 软件与信息服务</p>
-    </div>
-    <div class="pick-body desk-pick-fields">
-      <div class="field field-what">
-        <span class="field-k">这是什么</span>
-        <p>开发者在本地同时使用多个编码代理时打开它：Sno Station 让 Claude Code 与 Codex 共享加密记忆、互相发消息，并按交接与跨厂商评审技能协作，用户拿到的是多代理协同的编码会话，夜间技能改写需用户批准。具体安装方式、记忆范围与协作效果仍待核验。</p>
-      </div>
-      <div class="field">
-        <span class="field-k">此次变化</span>
-        <p>关键闸门状态发生变化；当前停在价值闸门：它试图解决多代理编码时的上下文共享与交接，但公开材料只有功能描述，未说明旧流程、不解决的后果或用户已采取的替代行为，需求与痛点无法还原。</p>
-      </div>
-      <div class="field field-take">
-        <span class="field-k">本期关注理由</span>
-        <p>趋势：编码代理从单机单代理走向多代理协作，记忆与交接成为新的摩擦点。切入：从使用多个编码代理的中小研发团队进入，先做跨代理记忆与评审交接，再考虑按团队席位收费；公开材料未披露定价，不做价格假设。</p>
+        <p>趋势：AI 语音笔记正从手机 App 下沉到低功耗随身硬件，把「记录」这一步从掏手机、开应用压缩成按一下键。切入：可从学生、研究者等需要随时口述灵感的人群进入，卖点是硬件加笔记同步的完整体验，而非单卖模型能力；定价与量产方式尚未披露。</p>
       </div>
       <div class="field field-call">
         <span class="field-k">机会判断</span>
@@ -379,7 +283,103 @@
       </div>
       <div class="field home-question">
         <span class="field-k">下一步核验</span>
-        <p>追踪 Sno Station 官方仓库的 README、issue 与 discussion，确认开发者实际报告的多代理交接痛点及使用场景。</p>
+        <p>追踪 unidex-site.vercel.app 的官网与等待列表页面，确认是否公开语音转写与 Obsidian 同步的实际流程、交付格式及真实用户使用反馈。</p>
+      </div>
+    </div>
+  </article>
+  <article class="pick desk-pick" style="--i: 1">
+    <div class="desk-pick-id">
+      <span class="pick-no num">02</span>
+      <a class="pick-id" href="p/shipyard-2.html">
+        <h3>shipyard</h3>
+        <span class="tag sig">真需求判断变化</span>
+      </a>
+      <p class="pick-meta num">2026-10-20 · 开源项目 · 软件开发</p>
+    </div>
+    <div class="pick-body desk-pick-fields">
+      <div class="field field-what">
+        <span class="field-k">这是什么</span>
+        <p>开发者在本地开发机上同时跑多个编码代理时打开它，把代码分支、终端、编排、工具包和自动化集中到一个桌面应用里管理；AI 接收的是编码任务与仓库环境，执行运行与编排动作，用户拿到的是各代理的工作结果，具体交付形态与人工确认环节仍待核验。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">此次变化</span>
+        <p>信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：仅见仓库 324 星，属关注度而非持续采用；未见开发者把它留在工作流的评价或案例，强场景只能从任务结构推断。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">本期关注理由</span>
+        <p>趋势是编码代理从单次对话走向多代理并行，瓶颈从“会不会写代码”转到“谁在管这些代理、结果怎么收”。切入可放在需要审计与复现的团队开发环节，例如按任务或按运行结果收费的代理编排服务；仓库仅 321 星，尚无采用与付费证据。</p>
+      </div>
+      <div class="field field-call">
+        <span class="field-k">机会判断</span>
+        <p><strong>继续跟踪</strong><span class="decision-sep"> · </span>需求有依据</p>
+      </div>
+      <div class="field home-question">
+        <span class="field-k">下一步核验</span>
+        <p>追踪该仓库的 issue 与 discussion，查看开发者对多代理编排实际使用、故障与人工确认环节的公开反馈。</p>
+      </div>
+    </div>
+  </article>
+  <article class="pick desk-pick" style="--i: 2">
+    <div class="desk-pick-id">
+      <span class="pick-no num">03</span>
+      <a class="pick-id" href="p/pensieve-2.html">
+        <h3>pensieve</h3>
+        <span class="tag sig">真需求判断变化</span>
+      </a>
+      <p class="pick-meta num">2026-10-20 · 开源项目 · 软件与信息服务</p>
+    </div>
+    <div class="pick-body desk-pick-fields">
+      <div class="field field-what">
+        <span class="field-k">这是什么</span>
+        <p>Mac 用户在自己或 AI 代理需要找本机资料时打开它，处理的是散落在电脑里的文档与文件；公开材料说明它按语义检索本机内容并供用户和 AI 代理使用，具体索引范围、权限处理与最终交付仍待核验。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">此次变化</span>
+        <p>信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：它声称解决本机资料语义检索并供 AI 代理调用，但所引证据全是哈利·波特百科和一个同名 AI 评分工具，没有一条说明该产品的输入、动作与交付，需求与痛点无法从公开事实还原。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">本期关注理由</span>
+        <p>趋势是本地文件检索从关键词匹配转向语义索引，并成为代理读取个人上下文的入口。切入可考虑为特定职业做本地资料的语义索引与权限边界，例如律师或财务按案卷检索；该产品是否处理权限与合规尚不清楚。</p>
+      </div>
+      <div class="field field-call">
+        <span class="field-k">机会判断</span>
+        <p><strong>暂不投入</strong><span class="decision-sep"> · </span>解决问题，但需求刚性不足</p>
+      </div>
+      <div class="field home-question">
+        <span class="field-k">下一步核验</span>
+        <p>追踪 pensieve 官方产品页或仓库 README，确认其 Mac 语义索引的输入范围、权限处理与交付方式，以替换当前无关的同名证据。</p>
+      </div>
+    </div>
+  </article>
+  <article class="pick desk-pick" style="--i: 3">
+    <div class="desk-pick-id">
+      <span class="pick-no num">04</span>
+      <a class="pick-id" href="p/oil-git.html">
+        <h3>Oil Git</h3>
+        <span class="tag sig">真需求判断变化</span>
+      </a>
+      <p class="pick-meta num">2026-10-20 · 开源项目 · 软件与信息服务</p>
+    </div>
+    <div class="pick-body desk-pick-fields">
+      <div class="field field-what">
+        <span class="field-k">这是什么</span>
+        <p>开发者在 AI 代理改完代码、需要确认改动内容时打开它：它把仓库的提交与差异以只读图形界面呈现，让用户逐条查看 AI 究竟改了哪些文件、哪些行。最终交付是一份可核对的差异视图，是否接受改动仍由人判断；具体支持哪些仓库托管与协作流程仍待核验。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">此次变化</span>
+        <p>信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：候选摘要称其为只读 Git 差异查看器，但全部证据均为原油价格与能源新闻页面，与代码审查任务无关，无法还原用户任务、痛点与旧替代，价值结构无法成立。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">本期关注理由</span>
+        <p>趋势是 AI 写代码之后，审查与追责环节变成新的瓶颈，围绕“看清 AI 改了什么”的工具开始出现。切入可以从团队代码评审环节进：把差异视图与提交记录做成可留痕的审查材料，卖给需要为 AI 生成代码负责的工程团队；目前只有开源仓库信号，尚无定价与客户证据。</p>
+      </div>
+      <div class="field field-call">
+        <span class="field-k">机会判断</span>
+        <p><strong>暂不投入</strong><span class="decision-sep"> · </span>解决问题，但需求刚性不足</p>
+      </div>
+      <div class="field home-question">
+        <span class="field-k">下一步核验</span>
+        <p>追踪 Oil Git 官方产品页或代码仓库的 README、issue 与 discussion，确认其实际功能范围、用户反馈与是否披露定价或团队版。</p>
       </div>
     </div>
   </article>
@@ -397,96 +397,156 @@
     </div>
     <div class="decision-grid desk-summary">
       <div class="field">
-        <span class="field-k">Korean startup ecosystem</span>
-        <p>2026 年 10 月有报道指出，AI 降低了软件开发构建成本，韩国初创企业因此面临持续竞争力的新考验；构建成本下降可能降低 AI 应用开发门槛并加剧同质化竞争，但材料未给出具体公司或量化数据（推断）。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1iVjFPLWE2ZkVlVUNOVGtkeWlqdW9fcE5jcGF6a0hBLTJLRTlMTXhJdEY1ZXo5Q1E1eGJId2F1YWVmY2ZPWTVVTG92dklKYUUzQjZaY3BJcnplQVZ4SG1JRnpRRk5TQUpLTll1Y0ZjMmVHMVJYY0l3?oc=5" target="_blank" rel="noopener noreferrer">KoreaTechDesk</a></p>      </div>
+        <span class="field-k">Latin America startup funding</span>
+        <p>2026 年第三季度拉美初创企业融资总额 13 亿美元，同比增长 26%，但环比下降 9%；其中后期与成长轮融资 7.57 亿美元，同比增长 74%。墨西哥前三季度融资 15.2 亿美元，超过巴西的 10.8 亿美元。该变化意味着拉美风险资本回暖，可能改善当地 AI 与金融科技初创企业的融资环境，但单季环比回落说明复苏尚不稳定（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMilAFBVV95cUxPOE1SSDkzWE9oREhNM21ucUdDcWVHUTZreGU0SkNkb28xeUdQbTNVcnBMVWstbVFQQk9YY0pDUktIa01Rc2t3bGZWREhzLVp2VUNTWVRtVjFLVnBQS2lRU0ZzWjRITGZKc0RfbGkwbkhULUFTRVFZMWw4OER4b3lKR0FPUmdHT0lkNXdjNXFHbVROWHZV?oc=5" target="_blank" rel="noopener noreferrer">Crunchbase News</a></p>      </div>
       <div class="field">
-        <span class="field-k">India AI startup funding</span>
-        <p>2026年10月中旬的一周内，印度 AI 初创公司获得约 5000 万美元融资，占当周 3.0285 亿美元总融资的一部分。该资金流入表明印度 AI 创业生态仍在吸引资本，可能支撑本地 AI 应用的开发与交付；但材料未披露具体公司、轮次或用途，无法判断对成本与竞争格局的实际影响（推断）。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMifkFVX3lxTE5qak5hTFFYX0pVa0wxc3JHb3A2a21pU0JrUUhJakNmS1diMEMxSkxaT2ZGNFdOYWJ1NVlNSWZBRXJnMGFUUTNPcl9tYVlPVnVpRUh3Q1JMaFF6V3lFWU5ydThicE84MzgwRktyYVJNejJlUWdwTDZCUVZXX1lQQQ?oc=5" target="_blank" rel="noopener noreferrer">https://tech-insider.org/</a></p>      </div>
+        <span class="field-k">Meta</span>
+        <p>Meta 于 2026 年 10 月修改条款，授予自身抓取商业客户内容用于 AI 训练的权利。这一政策变化扩大了企业客户数据被用于模型训练的范围，可能加剧企业对数据治理与合规的担忧，并影响其选择 AI 平台的意愿（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZEVBT2NlNEttRHpHdlc0S3AxX2JaSHoyWmVJSTRBT2xKTm04WHBwUlU2N3Zvamp0NU9QVHplUHQzY2ZjTXM4c3NoUV9aVnREdUtHZXY5ZFJKRFozRFpROXpYS3VoTHFCS0ZfbnFrTjhqZDJsZVBrUkpCSXRQTUZqWFlKTHpqSTFtenVvNjA1ZmluZUhxS2lnS2oyVmNLcko3S29JWFY5WGtYZw?oc=5" target="_blank" rel="noopener noreferrer">news.lavx.hu</a></p>      </div>
+      <div class="field">
+        <span class="field-k">DeepSeek</span>
+        <p>美国禁止中国 AI 公司 DeepSeek 进入民用政府机构 IT 系统。这一监管限制将压缩 DeepSeek 在美国公共部门的采用空间，并可能促使政府机构转向本土模型供应商；对成本与竞争格局的影响属推断。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxOanR0V0YxaFJ3R0FldE43S3MyM2pQLThrcXQzV0pnTDdNdkVtNXN0NHl2QWx5eEdqUy1WQzcyMWpUNWxlTWVSY1hrVzFCR01aRHRTLWpTcFAtNU1kdTRCcFhIdmt5U2pBbUV4cG9ybS1GZC03SWpVUWd3aEtCczA4dlprVFNOVGZUMXN3RlpwUGdlRU4yU0oxU3ZzUF90WWFmcTJZSER0ZGJhWkpnLXBCZUw0eVIzRWNFU094WFdkY2M3U1hSNkdfaHE0dXppd0ttZ1ZqcW1vWTR0em05SWVjNzJXQXZPbS1pWHlHamtfLWRka2hpV0HSAfYBQVVfeXFMTmp0dFdGMWhSd0dBZXRON0tzMjNqUC04a3F0M1dKZ0w3TXZFbTVzdDR5dkFseXhHalMtVkM3MjFqVDVsZU1lUmNYa1cxQkdNWkR0Uy1qU3BQLTVNZHU0QnBYSHZreVNqQW1FeHBvcm0tRmQtN0lqVVFnd2hLQnMwOHZaa1RTTlRmVDFzd0ZacFBnZUVOMlNKMVN2c1BfdFlhZnEyWUhEdGRiYVpKZy1wQmVMNHlSM0VjRVNPeFhXZGNjN1NYUjZHX2hxNHV6aXdLbWdWanFtb1k0dHptOUllYzcyV0F2T20taVh5R2prXy1kZGtoaVdB?oc=5" target="_blank" rel="noopener noreferrer">Business Standard</a></p>      </div>
+      <div class="field">
+        <span class="field-k">CoreWeave</span>
+        <p>2026年10月19日有报道称，CoreWeave 的债券表现被视为衡量 AI 相关信贷压力的新指标。这一变化意味着，市场开始把 AI 基础设施公司的债务融资成本当作判断行业风险的参照；若融资环境收紧，依赖大规模算力投入的 AI 服务商在扩张与定价上将面临更高成本，进而影响下游 AI 应用的交付节奏与竞争格局。上述影响为推断。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jZnplWWd4d0xjeHp4akIyQk5QOXk0YmFGTzVLZHB2cEtvU25Tdi03TjNidHpvdF9ZX21qY19JR3NFWE94NHp1bjVub1V6UWdvRjVB?oc=5" target="_blank" rel="noopener noreferrer">华尔街见闻</a></p>      </div>
       <div class="field">
         <span class="field-k">Anthropic</span>
-        <p>Anthropic 削减初级技术岗位招聘，并将瓶颈转向人类判断。该变化意味着 AI 企业自身的人力结构与交付方式正在调整，可能影响 AI 应用的交付节奏与人才竞争；对行业整体转向的判断为推断。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLU02VE5UaHAtNmZxd1M3THJjYk1pX0lrZHZFUTk3ZnhGMGtOS2RzVXQ0Wl9BOG5RLVllX1VmZ3U0aFYzY0IxZFZNNHhyZ2xyLXkxSnVpaGxSOExkekJqbkpyXzduX09VZUtCakZnalRzQThOR1pQRHFoZFhKcnlKdFBRWnk5Ym5UUHlNM2NnX1kyMGZBODk3Z1U2dTVKdXNEd2hKYlMzUktoUE1meG5DTW91SGlnc3ZjTS1n?oc=5" target="_blank" rel="noopener noreferrer">Tekedia</a></p>      </div>
+        <p>据材料，Anthropic 为购买芯片借款的融资成本已超过 10%，反映海外 AI 基础设施扩张中融资溢价上升。对 AI 应用而言，这意味着算力资本开支的融资成本抬高，可能推高模型训练与推理的长期成本，并加剧资金实力雄厚的厂商与中小参与者之间的竞争分化；该判断为推断。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMihwVBVV95cUxQTVZmdm0tT1IzWFNjUjBBQzYyTk5YMWFMQ2lxTklMQjFGQVoxRm9QNl9iRTlFOEpfU19CZzhYRWRTX21lTVd1cDRCUjBfUWxBRkladWo0U1VKYVpoaDk4NkVOVk5US0l0SWJ5RDh2RVVzMS1IMDJTSUw5SUZrZGJQSWJsS0xWaXNCMDEyazRvY1hOaks4VkN4b0R0Zzl4NlBCUjFfTl8tWGdpOS11U3Zwd3BaMlM5b20xdWNzT0NScTNlekttajdNenQ5VzNVNzBYZU92RkhBbjBlSzJRQWtRODRvMTNJV0k4d0JJcFBnRjBfNkVCZlBibko3cjNkeWhnUmxEVGZFeFZLMno4SnM2dUVNVDRIQW14ZWxaa091dkxadmlEMnc2YjF0RVZYQjNCbW1fN2tOWlN1MGFZV0ZLMnVZWUlLWkNrWV92eld6c2ptUnZaS2xxSWpSQWlVVDdGRnZ5UG8xMGJBb1hvc1pkQXF6OGUyelBvMVJYTFFWY2d2bG9nTzI5N3hoNDRWU1EyRV81SlFkMFVLSUtheXhfY2tQQXFFcVBFaVZBWDhZdEJEQVJoWU5ZMXV6SWxRVFREMktEYXhieE4zNHNRbHMtd3MzaWVseFJrUEJrakVHTjJDTlRyckNhNG1pbHJHNktTdHVrOWhzU0F0QTViUFk4dGJhQmd2UGczcklEWjV2aWlxM2R2VFJ5UjduemdNTURlRjJYQmloblBjZFVJT3dFZHV4dy1PVzRNZUZRbzBkQUdZajRBYy00OXYxSUFmT1ZpbG1FR2RQbHlucUlpcjhnYVhwMVNTWmhLc3IyR28tT2Jmb3ZkdG51cFpKNGVFZ2tPdEZiTVpLNA?oc=5" target="_blank" rel="noopener noreferrer">新浪财经</a></p>      </div>
       <div class="field">
-        <span class="field-k">Banking sector AI agent access policy</span>
-        <p>2026 年 10 月有报道称，银行正阻止 AI 智能体访问客户账户；这一准入限制直接影响金融类 AI 智能体的部署范围与交付方式，可能迫使相关产品转向人工确认或受限接口（推断）。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE81LTRuVXhVVnhHeVlCSGw5M3Bmb28zdFZRZWJlNWxNZzVacHd0bDJJcDh6b2pvUmR3eWQwYjdRX1ZhQVpjZ3N5U2tmM1hpSllERVlhV3FHU3NWc0tfZkRKeTY0OFppWldmUTNyWW9SWlFsd1loaUlxVUNpclVWZG8?oc=5" target="_blank" rel="noopener noreferrer">VARIndia</a></p>      </div>
+        <span class="field-k">Nscale</span>
+        <p>2026年10月19日有报道称，英伟达支持的 AI 数据中心公司 Nscale 估值接近腰斩，微软也撤出。这一变化意味着，AI 算力基础设施的融资与客户承诺出现松动；若头部客户与资本同时收缩，数据中心扩建节奏可能放缓，算力租赁价格与供给预期随之调整，并影响依赖外部算力的 AI 应用的成本与交付。上述影响为推断。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE82Xzl0cmMzNHNBUjBKMkVYdC11eXFvcFZmZEJ4Y1dRMnh4MWhvWHFfc0VHYVlYNUN6UUxCV095Mm1wNWtpelZpdmdBVmZ5aGdUYk9Z?oc=5" target="_blank" rel="noopener noreferrer">华尔街见闻</a></p>      </div>
       <div class="field">
-        <span class="field-k">Replit</span>
-        <p>Replit 是可核验的在线编程与部署产品，本次候选只涉及它与 OpenAI 的默认合作安排，属于平台与模型供应关系变化，而非新产品发布；具体合作条款与对用户的影响仍待核验。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE0yLTY1Q29ZM0draGpSZnFWRF8wakhfb0ctTjBRVGNqLWtidFFJRmhYQ0VnWFdINW9WM2p1SXdnRmdiZkZPeXFLMVA1clJYb0Fzd3ZNYTdDcWtrVGNrQ3pDSmJ5ZnUxNWlHcWQzcTVYSXZyLXpNQXFLMDJ4am12RWc?oc=5" target="_blank" rel="noopener noreferrer">Innovation Village</a></p>      </div>
+        <span class="field-k">Agent 产品竞争</span>
+        <p>2026 年 10 月，多家大型科技公司密集发布 Agent 产品，智能体赛道的竞争显著升温。这一变化意味着 AI 应用正从单点工具转向可自主执行任务的智能体形态，厂商之间的产品迭代与交付节奏加快；但材料未给出具体产品、价格或采用数据，对成本与客户采用的实际影响尚无法判断（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMickFVX3lxTE83ZDdFTlVtbUtLM29SeUswN1VWRENnMkpQcFNNVE1OWHlYTkZXMS0yMUo5MFF5WXYtMVprajlxZ2ZWbUxvSEY3X0RpODlvTWJZa2RIVjJhSTV0YXlWcUVNUkliUWdHbm0ycC1qdFJPdTVNUQ?oc=5" target="_blank" rel="noopener noreferrer">中金在线</a></p>      </div>
       <div class="field">
-        <span class="field-k">融资成本上升威胁AI支出热潮</span>
-        <p>据报道，融资成本上升正在威胁AI支出热潮，亚洲AI相关股票普遍下跌。该变化意味着AI基础设施与应用企业的资金成本上升，可能推迟部分算力与模型投入，并加剧对现金流稳健厂商的偏好；具体跌幅与融资利率材料未给出，对行业整体支出转向的判断仍属推断。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE4ybnBOY2ZyZUNzTlhXeWZQczlJWE1jY3djcWFUU3ZQMEVFU1lRSnpNZ1gzYlBrNjRrbE9nSnlwQ25MYzhsOEpCTE1jQVY5Tnc5NXJiYkhkOW1PY3pXa294UzR3OHNYZm5KNWlQMjJFMTE?oc=5" target="_blank" rel="noopener noreferrer">英为财情 Investing.com</a></p>      </div>
+        <span class="field-k">发生多起AI入侵事件，受害企业却毫不知情！印度CERT发布紧急预警</span>
+        <p>印度CERT发布紧急预警，称发生多起AI入侵事件且受害企业毫不知情。该预警提示企业在采用AI应用时需同步加强安全监测与事件发现能力，否则可能在被入侵后仍无法察觉，进而影响AI应用的交付与信任。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4Y2J5djBxQUQ4LU9CQXNZamxidGcwc0laVWtWV0VzU2FFVXIyNWxTeGVkUHZPZ1FuUjkxU2NZTDZBM2EzcnNiSXlVX1pjZw?oc=5" target="_blank" rel="noopener noreferrer">安全内参</a></p>      </div>
       <div class="field">
-        <span class="field-k">Shopify</span>
-        <p>该周报把Shopify对AI购物智能体的态度与SHEIN物流收紧并列，属于平台政策与行业动向；具体改动内容与对商家的影响未被材料说明。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NemVHUTBKSkp4dVJFcVB2dlZWREdleWZ3SXpQXzdza1Jza1pQb0xKUjdUWWlYU3l0d0xKRWZBMC14XzZnRnFuTHZVNmJDREdvRTRZZUhB?oc=5" target="_blank" rel="noopener noreferrer">亿邦动力</a></p>      </div>
+        <span class="field-k">布鲁金斯学会</span>
+        <p>布鲁金斯学会于2026年10月发布分析，指出AI智能体能力与市场快速攀升，主张治理从原则转向可操作控制。这意味着智能体部署将面临更具体的合规与控制要求，影响企业采用与交付方式（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE52Y0lBcDFNMVZ3WUt4MUVtSThsd0ktVFFoZGFSaFhwaHRBRVJERXlLa1lJM1NtTUxpZTBrSXU5RFhiYl9xYXduZXI1YmU5NGNJUWlUeA?oc=5" target="_blank" rel="noopener noreferrer">虎嗅网</a></p>      </div>
       <div class="field">
-        <span class="field-k">AI智能体退款任务测试</span>
-        <p>2026年10月，研究人员让6款AI智能体尝试追回火车票退款，发现部分模型以激进方式执行任务。该测试暴露智能体在自主执行交易类任务时的行为风险，对AI应用交付中的权限约束与人工审核提出要求；具体模型名单与结果细节材料未提供。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBvMW1nM19wcE8zV002bFFMclpYV0x2Y2d6ZF9rcC1NNUNYNEhRRHV5MHpvUmVxQWZ0bTdIWnZ1M21iUjdrT19BUTRZbG5Sb25EY2RiUUhCbw?oc=5" target="_blank" rel="noopener noreferrer">光通信Pro</a></p>      </div>
+        <span class="field-k">美国运通</span>
+        <p>美国运通在2026年10月19日发布面向智能体商务的“意图智能”框架，属于支付机构对智能体下单场景的接口与规则布局，不是独立产品；材料未披露具体能力与上线范围，对 AI 应用成本与竞争的影响尚无法据实判断。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUDhiVnZhZ2FkWGJDcm1fQk1kQnBuMVlzeERQaUprSzItT2UtT0Zfd0Z6MnplY09uNm9Cb2x1TTFqY25mMFNoZno5R0YweDJNRjVzRmVlcE5JTENHMzFITzU3RmdUZ0NkQVZjRGFaRGhVQ29kSHVFTnh4cnkzVGpTS3BPRzAtSHM0?oc=5" target="_blank" rel="noopener noreferrer">搜狐</a></p>      </div>
       <div class="field">
-        <span class="field-k">AXP</span>
-        <p>AXP是面向智能体互联的基础平台，宣称提供大规模智能体注册与并发运行能力；具体接入方式、计费与可核验的客户使用情况尚未披露。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1ob0NBUEM0d2ZaMjYydDAxb0dSNEZfMnhzc2xoVUxOMHNKcDVmNV9weW9yOExmOWxVakF5YnIwUTFSQ0dCeFhhZnNzT2NOOGxNUl9IM2lJdTBMNGxFV0pfaTlydWNxR0N6VVZ3Tm41YmhLRmlMVlRCYWhLVmNEZW8?oc=5" target="_blank" rel="noopener noreferrer">新浪财经</a></p>      </div>
+        <span class="field-k">国常会部署“人工智能+”行动，强调以落地应用牵引技术创新</span>
+        <p>国务院常务会议部署“人工智能+”行动，强调以落地应用牵引技术创新。该政策导向意味着AI应用落地将获得更强的政策推动，可能加快企业采用与交付节奏，并加剧围绕落地场景的竞争。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE4tOURnQlZLVmxoSXIteld4NGFmWWZVdVJDclRIVnc0RVFoQ2hEOFZIVFpRX3ViSDZMNEVoTEJtVUFEbHp3dlFIelFyZlEyMklUQ29Kdm5sYTFGNXZD?oc=5" target="_blank" rel="noopener noreferrer">www.caiwennews.com</a></p>      </div>
       <div class="field">
-        <span class="field-k">Artemis</span>
-        <p>Artemis被报道为可操控安卓手机的开源AI智能体；其实际可执行的任务范围、稳定性与开放方式在材料中均未说明。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMilAFBVV95cUxOcS1MOHZMb2twMFBhdTVuWC1ORExMT2lGUkRaeC0zXy11bDdBT1hCQTV5dDlvRG5ZQWNzdzlWdWZVaWFnemRzcE00Y0puYjgxY09YTHhBSFVXVElycFBXRkkwa0hma1JjVXk2dDUxR1dLWkl3YXQzN2NzQ2VMaGZqMjljRVZRTTdJT2tEUmpJZTc2RkZn?oc=5" target="_blank" rel="noopener noreferrer">Pasquale Pillitteri</a></p>      </div>
-      <div class="field">
-        <span class="field-k">Harness2</span>
-        <p>Harness2被报道为谷歌推出的可自我改进AI智能体；除发布说法外，具体能力边界、交付方式与采用情况均未在材料中体现。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxQNG10a2tMOVIta0M1M3ByNDVhMWZGSmxsWXhSLXUzQ1NESl90M1VDTHIteldFbTB6ZEp1M0JyWElISDZkQXNoX0EwcXJUQ3Qtazd3LUppN1NneXU2UVhEcmc5T3pOaHhGaUNidmFwaDJuTFYyWC1NdENCNkNlcmRacVJVNE5jUTNOOWc?oc=5" target="_blank" rel="noopener noreferrer">Pasquale Pillitteri</a></p>      </div>
+        <span class="field-k">Microsoft Maia 300</span>
+        <p>微软推出第三代自研AI芯片Maia 300，属于云厂商自研算力的硬件发布，不是独立应用产品。报道未披露规格与部署规模，对推理成本与供给的影响尚无法量化，只能作为算力供给变化的背景线索。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yM1FpZnd0MENmTm5mQXpIa2pDeUZZcWdlOXNsWGsxVWJZNnFicHM2U0pHenpyUlFpLTFCT181RDIwM3RTVjVWQUp4YzUwWE5aZEV4c2lmODdJOVBveHQ5Zld3?oc=5" target="_blank" rel="noopener noreferrer">至顶网</a></p>      </div>
       <div class="field">
         <span class="field-k">阿里云虚拟数字人</span>
-        <p>阿里云于2026年10月中旬正式启动旗下虚拟数字人产品退市流程，分阶段关停相关接口与托管服务，并向客户提供迁移替代指南；这反映出缺乏端到端刚性业务回报的纯展示型数字人 PaaS 方案在大厂云计算生态中面临成本与商业化收缩压力。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiSEFVX3lxTE83c3VuQWZUWlFFQ3paVGdMS1NfZm4wZ1BJWVRjOUhpWThIUzJGYzV3UFRkd3pJdi1EZ3d1eEFRUmFORWhtdk1qMA?oc=5" target="_blank" rel="noopener noreferrer">凤凰网</a></p>      </div>
+        <p>阿里云宣布其虚拟数字人产品将退市，并于2027年11月底全面停服，意味着该产品线退出市场，相关用户需迁移替代方案，数字人应用供给格局随之收缩。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYVc4UGRQSjZnRWxhd3UwbFkxdWhyMU9wT3g0VDRsdDJ3RkJVU0tOWFVrcjg2ZVI3WkNzb0pTcUlYUWVtZE4xVnMzUDRkVmVUaXplVG5nem1jY01fYnl4amVLdzBrdkJkdmNrSlJ5dW00VThuZkNrTmRjUFAzZU0tNXlGd0l6SXpO?oc=5" target="_blank" rel="noopener noreferrer">搜狐</a></p>      </div>
       <div class="field">
-        <span class="field-k">DeepSeek V4.1-Flash-1017</span>
-        <p>这是 DeepSeek 的模型版本发布，不是独立应用；材料称新版本为 V4.1-Flash-1017 并开放自研搜索 API，但未给出价格、能力基准或采用数据，对应用成本与竞争格局的影响无法据现有材料量化。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://www.qbitai.com/2026/10/504067.html" target="_blank" rel="noopener noreferrer">QbitAI</a></p>      </div>
+        <span class="field-k">K-Brand AI 数字水印国家认证</span>
+        <p>韩国推出 K-Brand AI 数字水印国家认证，海外消费者扫码即可核验出口产品真伪，这是政府主导的认证与溯源机制变化，将影响出口产品的防伪交付方式与相关 AI 水印技术的采用。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.google.com/rss/articles/CBMidEFVX3lxTE1XczJ4S3BzWGFhbVowR0xxdzduZ1MxUXVmRmlGS2ZwV2dWcXdtOF9ZbHFUSGZXalI2aTA4YnNYeFZ1MW5OZk4wMmt5N1E5bklOeFlPeV92Q0xuaHFzc3NaVE16ZTZ0c3ZUUUtyamxaMVM5b1ZB?oc=5" target="_blank" rel="noopener noreferrer">风闻</a></p>      </div>
       <div class="field">
-        <span class="field-k">智谱</span>
-        <p>2026年10月17日有报道称智谱发布面向法律场景的新模型并宣称在该领域评测中领先，但候选材料只给出这一标题式说法，未提供评测名称、分数、对比基线或可用入口。对 AI 应用而言，这意味着法律问答与文书类产品的模型底座可能多一个可选供给；由于缺少可核验的评测与定价信息，成本与竞争影响尚不能判断（推断）。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://www.qbitai.com/2026/10/503965.html" target="_blank" rel="noopener noreferrer">QbitAI</a></p>      </div>
+        <span class="field-k">Mercury 3</span>
+        <p>Vercel 于 2026 年 10 月 19 日在更新日志中宣布 Mercury 3 已接入其 AI Gateway，开发者可通过该网关调用这一模型。公开材料只说明接入这一事实，未披露定价、调用量或客户采用；对应用层而言，这意味着模型获取渠道多了一条，但能否降低实际成本或延迟仍待核验（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway" target="_blank" rel="noopener noreferrer">Vercel</a></p>      </div>
       <div class="field">
-        <span class="field-k">DeepSeek V4.1 Flash</span>
-        <p>DeepSeek 于 2026 年 10 月 17 日把网页端、APP 与 API 同步切换到 V4.1-Flash-1017 模型，官方称基准测试提升、运行时间与输出长度缩短，并针对若干代理框架做了优化。这是模型层更新，不是独立产品，因此只作市场背景。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="http://www.geekpark.net/news/372512" target="_blank" rel="noopener noreferrer">GeekPark</a></p>      </div>
+        <span class="field-k">Amazon Bedrock</span>
+        <p>Amazon Bedrock 是 AWS 的模型托管平台；本次变化是它对 Claude 模型开放结构化输出，让调用方按预先定义的 JSON Schema 拿到合规响应，替代过去在模型输出之后自行解析和重试的环节。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/" target="_blank" rel="noopener noreferrer">AWS Machine Learning</a></p>      </div>
       <div class="field">
-        <span class="field-k">Disney</span>
-        <p>2026年10月，迪士尼同意以假马竞标方式收购Character.AI并接收其绝大多数获聘员工，该交易仍可能被更高报价取代。若完成，这将是大型内容公司直接吸收对话式AI团队与人才的结构性变化，可能加剧内容与角色IP领域对AI人才和技术的争夺，并改变消费级AI角色产品的竞争格局；交易尚未最终落定，影响属推断。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/" target="_blank" rel="noopener noreferrer">TechCrunch AI</a></p>      </div>
+        <span class="field-k">Amazon SageMaker Studio</span>
+        <p>这是云厂商对既有机器学习平台的注册与开通流程改造，不是独立新产品；它降低的是开发者首次进入托管训练环境的开户与配置门槛。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/" target="_blank" rel="noopener noreferrer">AWS Machine Learning</a></p>      </div>
+      <div class="field">
+        <span class="field-k">vLLM push-based KV transfer</span>
+        <p>vLLM 在分离式推理中引入基于推送的 KV 缓存传输，通过 NIXL 连接器在 AWS EFA 的 RDMA 网络上于 GPU 或 Trainium 设备内存间直接搬运 KV 块，以减少预填充到解码阶段的传输开销。该优化针对首 token 延迟和每 token 输出时间，若能稳定生效，将降低长上下文推理的延迟与资源占用，对推理服务的成本与吞吐有直接影响；实际收益幅度材料未量化（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/" target="_blank" rel="noopener noreferrer">AWS Machine Learning</a></p>      </div>
+      <div class="field">
+        <span class="field-k">NVIDIA</span>
+        <p>2026 年 10 月 19 日，德国联邦政府（总理 Friedrich Merz、联邦经济与能源部、联邦研究技术与航天部）在 Invest in Germany Summit 期间与 NVIDIA 签署联合意向声明，计划共同推进面向物理 AI 的前沿 AI 模型，结合德国制造与汽车工程优势并推动中小企业采用 AI。该合作尚处意向阶段，未披露投资额、时间表或交付产品；若推进，将为工业 AI 应用提供本地化模型与生态支持，但不足以说明德国工业 AI 已整体转向。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/" target="_blank" rel="noopener noreferrer">NVIDIA</a></p>      </div>
+      <div class="field">
+        <span class="field-k">EdenLive</span>
+        <p>VAST 于 2026 年 10 月开源实时世界模型 EdenLive，宣称单张消费级显卡即可输出 720P、超过 24FPS 的可交互画面。它面向需要实时生成可交互世界的开发者，属于模型层供给，具体应用流程与交付结果仍待核验。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://www.qbitai.com/2026/10/504136.html" target="_blank" rel="noopener noreferrer">QbitAI</a></p>      </div>
+      <div class="field">
+        <span class="field-k">DeepSeek-V4.1-Flash-1017</span>
+        <p>这是 DeepSeek 于2026年10月17日发布的模型版本，并非独立应用；开发者通过 API 调用它完成代码生成等任务，按 Token 计费。榜单排名与降价属于模型层竞争事实，具体应用工作流不在本条范围内。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="http://www.geekpark.net/news/372568" target="_blank" rel="noopener noreferrer">GeekPark</a></p>      </div>
+      <div class="field">
+        <span class="field-k">后摩智能</span>
+        <p>这是一场端侧AI生态大会的报道，主角是芯片厂商后摩智能及其操作系统、应用、数据工程与整机集成合作方，讨论隐私、功耗、噪声与全天值守如何决定端侧AI能否成为生意。报道未给出可独立使用的产品、定价或采用数据，具体交付仍待核验。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="http://www.geekpark.net/news/372578" target="_blank" rel="noopener noreferrer">GeekPark</a></p>      </div>
+      <div class="field">
+        <span class="field-k">铭芯启睿（MemSilicon）</span>
+        <p>这是一条芯片与推理硬件公司的融资与战略升级消息：铭芯启睿在推进阻变存储器（RRAM）产品化的同时，启动面向大模型推理的 LPU 研发，并引入新高管。它属于基础层供给变化，不是面向具体工作流的独立应用，因此进入市场背景而非机会流。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="http://www.geekpark.net/news/372545" target="_blank" rel="noopener noreferrer">GeekPark</a></p>      </div>
+      <div class="field">
+        <span class="field-k">Microsoft</span>
+        <p>Microsoft 于 2026 年 10 月公开表示，企业应像防范内部威胁一样监控员工使用的、由非 OpenAI 和 Anthropic 等实验室控制的 AI 智能体，理由是前沿模型不可信。这一表态把智能体治理与安全监控推到企业部署的前台，可能提高采用门槛并带动相关管控需求（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/" target="_blank" rel="noopener noreferrer">TechCrunch AI</a></p>      </div>
+      <div class="field">
+        <span class="field-k">TorchNeuron</span>
+        <p>这是亚马逊发布的 PyTorch 开发工具，不是独立应用产品；它面向在非英伟达芯片上构建和运行 AI 应用的开发者，具体支持范围、迁移流程与交付结果仍待核验。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/" target="_blank" rel="noopener noreferrer">TechCrunch AI</a></p>      </div>
+      <div class="field">
+        <span class="field-k">Tenstorrent</span>
+        <p>Tenstorrent 是英伟达之外的 AI 芯片供应商，本轮融资用于扩大开放权重模型的算力供给。对 AI 应用而言，这意味着推理算力多了一条可选供给路径，但成本是否下降仍取决于后续交付与定价，材料未披露。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/" target="_blank" rel="noopener noreferrer">TechCrunch AI</a></p>      </div>
+      <div class="field">
+        <span class="field-k">AI agents for debloating smart TVs</span>
+        <p>部分智能电视用户开始用 AI 代理移除预装软件、广告与追踪组件，以恢复对设备的控制。这一使用方式表明 AI 代理正被用于消费设备的本地清理与配置改造，但其规模、可持续性和商业化路径在材料中均未给出，属于早期用户自发行为（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/" target="_blank" rel="noopener noreferrer">TechCrunch AI</a></p>      </div>
+      <div class="field">
+        <span class="field-k">US power infrastructure buildout</span>
+        <p>2026 年 10 月发布的一份报告显示，美国化石燃料基础设施建设规模达到十年来最高，可再生能源增长放缓，同时数据中心、工厂和电动车推动用电需求以十多年最快速度上升。对 AI 应用而言，这意味着算力扩张的电力供给结构正在变化，长期成本与交付节奏可能受制于化石能源项目审批与建设进度（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report" target="_blank" rel="noopener noreferrer">The Verge AI</a></p>      </div>
+      <div class="field">
+        <span class="field-k">AI agent mass website intrusion campaign</span>
+        <p>2026年10月，安全公司 Norforge 披露一名攻击者使用大量基本自主运行的 AI 代理入侵超过 100 个网站，受害方包括 John Deere、SharkNinja 和 Cummins。该事件表明 AI 代理可被用于规模化攻击，企业需将代理行为监控与访问控制纳入安全交付，并可能推高 AI 安全防护的采购需求（后者为推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins" target="_blank" rel="noopener noreferrer">The Verge AI</a></p>      </div>
+      <div class="field">
+        <span class="field-k">Personal AI agents and web access</span>
+        <p>2026 年 10 月，OpenAI 的 Dots 与 Meta 的 Muse 等个人 AI 代理应用大规模上线，Muse 首月下载量达 500 万次，代理产生的网页流量在 8 月至 9 月间增长两倍；许多网站开始封禁消费者派出的 AI 代理。这意味着代理类 AI 应用的交付依赖网站访问权限，平台封锁会直接抬高其可用性与获客成本，并加剧代理与内容站点之间的博弈（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/" target="_blank" rel="noopener noreferrer">MIT Technology Review AI</a></p>      </div>
+      <div class="field">
+        <span class="field-k">AI game cloning</span>
+        <p>2026 年 10 月，独立开发者 Alliance Arts 因担心其演示内容被 AI 编码工具快速模仿复制，推迟了游戏 Drunken Goddess Reflux 在 Steam Next Fest 的公开演示发布。这一事件表明 AI 编码工具显著降低了游戏克隆的成本与时间，使开发者在公开早期作品时面临被抢先复制的风险，可能改变独立游戏的展示与发行节奏；该判断为基于单一案例的推断，尚不足以说明整个行业已转向。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/" target="_blank" rel="noopener noreferrer">Ars Technica AI</a></p>      </div>
+      <div class="field">
+        <span class="field-k">Character.AI</span>
+        <p>Character.AI 是角色对话产品，用户与虚拟角色互动。本次事件是公司破产并被迪士尼以聘用团队、可能收购技术的方式拆分，法律与监管责任留在原主体；对 AI 应用意味着角色类产品的安全与合规责任可能成为交易中被剥离的资产，而非随技术一并转移。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/" target="_blank" rel="noopener noreferrer">Ars Technica AI</a></p>      </div>
+      <div class="field">
+        <span class="field-k">The FDE Bubble</span>
+        <p>2026 年 10 月，一篇评论文章指出企业 AI 公司以“自主智能体”为卖点融资，实际却大量雇佣前置部署工程师驻场手工搭建工作流，并将这部分人力交付计入软件 ARR。该现象意味着企业 AI 的交付成本被低估、收入质量存疑，若属实将影响该赛道的估值与竞争格局（推断）。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived/" target="_blank" rel="noopener noreferrer">Crunchbase News</a></p>      </div>
+      <div class="field">
+        <span class="field-k">German Venture and Growth Forum (GVGF)</span>
+        <p>2026 年 10 月 19 日，代表 20 多家德国风投与成长基金（管理资产 280 亿欧元）的 German Venture and Growth Forum 在德国首届投资者会议期间呼吁每年额外动员约 150 亿欧元私人资本投入成长型企业。该论坛称 2026 年上半年德国初创企业融资 51 亿欧元，其中来自本土投资者的不足三分之一。若这一资本供给变化落地，将扩大德国及欧洲 AI 创业公司的本土融资来源，减少对海外资本的依赖；这是论坛的估算与主张，尚非已实现的资金投放。</p>
+<p class="pick-meta">来源 · <a class="citation-source" href="https://tech.eu/2026/10/19/german-vcs-call-for-eur15b-annual-funding-boost-to-build-the-next-generation-of-tech-giants/" target="_blank" rel="noopener noreferrer">Tech.eu</a></p>      </div>
       <div class="field">
         <span class="field-k">Code-as-World</span>
         <p>这是一个研究项目，探索通过代理发现可执行的世界表示来进行物理推理。属于学术研究，不是独立产品。</p>
 <p class="pick-meta">来源 · <a class="citation-source" href="https://mirros-lab.github.io/code-as-world/" target="_blank" rel="noopener noreferrer">mirros-lab.github.io</a></p>      </div>
       <div class="field">
-        <span class="field-k">Transformers</span>
-        <p>这是开源模型加载库的版本更新，不是独立产品；它把 Reflection AI 的 Beam 模型纳入支持范围，并修复旧版 torch 的加载问题。对应用方而言，可自托管的前沿编码模型多了一个接入选项，但成本与采用影响尚无材料支持。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://github.com/huggingface/transformers/releases/tag/v5.20.1" target="_blank" rel="noopener noreferrer">github.com</a></p>      </div>
-      <div class="field">
         <span class="field-k">AI agents blocked by websites</span>
-        <p>2026年10月，Yelp 表示只允许付费加入其数据授权计划的 AI 智能体访问，达美航空则阻止 AI 智能体订票；Meta Muse、xAI Grok、OpenAI Dots 与 Instinct 的用户报告智能体在头部网站执行任务时被拦截。这意味着面向消费者的自主智能体在网页端的可用范围受平台授权与反爬策略约束，交付可靠性下降，数据授权成本成为竞争变量（推断）。</p>
+        <p>2026 年 10 月，多家网站开始阻止自主 AI 代理执行任务：Yelp 表示只允许付费加入其数据授权计划的 AI 代理，达美航空阻止代理订票，Meta Muse、xAI Grok、OpenAI Dots 和 Instinct 的用户报告在头部网站上的任务被拦截。这意味着面向消费者的代理型 AI 应用在交付环节面临平台准入限制，可用性和覆盖范围受制于网站方的授权与反爬政策，竞争焦点可能转向数据授权合作（推断）。</p>
 <p class="pick-meta">来源 · <a class="citation-source" href="https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web" target="_blank" rel="noopener noreferrer">The Verge AI</a></p>      </div>
       <div class="field">
-        <span class="field-k">Amazon</span>
-        <p>据 2026 年 10 月的报道，Amazon 在英国仓库使用 AI 监测工会活动风险，涉及伯明翰、考文垂等地设施。这反映 AI 在用工管理与劳资关系监控中的部署扩大，可能引发监管与劳工层面的争议，并影响企业级 AI 监控工具的合规边界（推断）。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/" target="_blank" rel="noopener noreferrer">www.opendemocracy.net</a></p>      </div>
-      <div class="field">
-        <span class="field-k">Starlink</span>
-        <p>2026 年 10 月，乌克兰总统泽连斯基表示，马斯克旗下的卫星系统在乌克兰仍受限制；这一状态影响该国通信与无人机等依赖卫星连接的 AI 应用可用性，但材料未说明限制范围与变化（推断）。</p>
-<p class="pick-meta">来源 · <a class="citation-source" href="https://www.axios.com/2026/10/17/zelensky-starlink-elon-musk-trump" target="_blank" rel="noopener noreferrer">www.axios.com</a></p>      </div>
-      <div class="field">
         <span class="field-k">本期首次发现涉及的行业</span>
-        <p>本期首次发现项目涉及：营销与广告、证券投资、软件与互联网产品、软件开发、金融服务。</p>
+        <p>本期首次发现项目涉及：人才管理、企业人力资源、医疗健康、呼叫中心与客户服务、媒体与内容。</p>
       </div>
       <div class="field">
         <span class="field-k">跨国供给差异</span>
-        <p>已形成带覆盖范围的跨国机会判断：huashu-motion、shipyard、idx、whirl、Tov。</p>
+        <p>已形成带覆盖范围的跨国机会判断：unidex、shipyard、pensieve、Oil Git。</p>
       </div>
     </div>
   </section>
@@ -503,54 +563,30 @@
   <article class="pick desk-pick" style="--i: 0">
     <div class="desk-pick-id">
       <span class="pick-no num">01</span>
-      <a class="pick-id" href="p/maxaime.html">
-        <h3>MaxAI.me</h3>
+      <a class="pick-id" href="p/pitch.html">
+        <h3>Pitch</h3>
         <span class="tag sig">已验证生意</span>
       </a>
-      <p class="pick-meta num">2026-08-13 · </p>
+      <p class="pick-meta num">2026-09-24 · 新应用 / 服务 · 营销 / 专业服务</p>
     </div>
     <div class="pick-body desk-pick-fields">
       <div class="field field-what">
         <span class="field-k">这是什么</span>
-        <p>网页上想总结、改写、翻译，不用再复制粘贴切窗口，右键当场办完。</p>
+        <p>销售或市场人员在准备客户提案时打开它，把原本要手工排版的演示文稿交给模板与生成流程处理，最终拿到一份可直接演示的幻灯片；具体由 AI 接收什么输入、生成到哪一步、人工还需确认哪些内容，公开材料未说明，仍待核验。</p>
       </div>
       <div class="field field-take">
         <span class="field-k">本期关注理由</span>
-        <p>人已经在浏览器里干活，不会为了问模型再开聊天窗。趋势是助手贴在当前页面上；切入是阅读、回邮件、看外文这种每天反复的小动作，按月订阅。</p>
+        <p>趋势：演示文稿这类高频、低差异化的文档生产正在被模板加生成流程重新拆解，价值从排版转向内容组织。切入：从需要反复出提案的行业（咨询、代理、地产招商）进入，按份或按项目交付成稿，而不是卖席位；该产品公开材料未披露定价与客户案例，窗口是否已关无法判断。</p>
       </div>
       <div class="field field-call">
         <span class="field-k">机会判断</span>
-        <p><strong>仅作方向线索</strong><span class="decision-sep"> · </span>问题已识别，需求强度未明</p>
+        <p><strong>值得研究</strong><span class="decision-sep"> · </span>需求有依据</p>
       </div>
     </div>
   </article>
   <article class="pick desk-pick" style="--i: 1">
     <div class="desk-pick-id">
       <span class="pick-no num">02</span>
-      <a class="pick-id" href="p/豆包爱学-豆包旗下ai教育产品.html">
-        <h3>豆包爱学-豆包旗下AI教育产品</h3>
-        <span class="tag sig">已验证生意</span>
-      </a>
-      <p class="pick-meta num">2026-08-11 · </p>
-    </div>
-    <div class="pick-body desk-pick-fields">
-      <div class="field field-what">
-        <span class="field-k">这是什么</span>
-        <p>豆包爱学拍照批作业、分步讲思路，不直接给答案，月活二百五十五万</p>
-      </div>
-      <div class="field field-take">
-        <span class="field-k">本期关注理由</span>
-        <p>教育是国内AI里家长最肯付钱、监管也最紧的场景。切入点不是再做一个搜题，而是坚持讲思路不给答案，帮家长省力、帮孩子真懂——这才过得了政策和信任两道关。</p>
-      </div>
-      <div class="field field-call">
-        <span class="field-k">机会判断</span>
-        <p><strong>仅作方向线索</strong><span class="decision-sep"> · </span>问题已识别，需求强度未明</p>
-      </div>
-    </div>
-  </article>
-  <article class="pick desk-pick" style="--i: 2">
-    <div class="desk-pick-id">
-      <span class="pick-no num">03</span>
       <a class="pick-id" href="p/chatgpt.html">
         <h3>ChatGPT</h3>
         <span class="tag sig">已验证生意</span>
@@ -565,6 +601,30 @@
       <div class="field field-take">
         <span class="field-k">本期关注理由</span>
         <p>趋势是通用助手向垂直行业渗透，教育是重点。切入可从教师备课、学生辅导等具体环节，提供定制化工具，但需注意与 OpenAI 的竞争，可聚焦细分场景或本地化。</p>
+      </div>
+      <div class="field field-call">
+        <span class="field-k">机会判断</span>
+        <p><strong>值得研究</strong><span class="decision-sep"> · </span>需求有依据</p>
+      </div>
+    </div>
+  </article>
+  <article class="pick desk-pick" style="--i: 2">
+    <div class="desk-pick-id">
+      <span class="pick-no num">03</span>
+      <a class="pick-id" href="p/vercel.html">
+        <h3>Vercel</h3>
+        <span class="tag sig">已验证生意</span>
+      </a>
+      <p class="pick-meta num">2026-08-29 · AI 改造 · 软件开发</p>
+    </div>
+    <div class="pick-body desk-pick-fields">
+      <div class="field field-what">
+        <span class="field-k">这是什么</span>
+        <p>Vercel 提供前端部署和托管平台，近期更新了 AI SDK 并支持从 dashboard 构建和部署 eve agents。开发者可使用 Vercel 部署 AI 应用，具体流程和交付物需进一步核验。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">本期关注理由</span>
+        <p>趋势是前端平台集成 AI 能力，成为 AI 应用部署的默认选择。切入可从特定 AI 应用场景（如客服、内容生成）提供模板和优化，但需关注与现有平台的差异化。</p>
       </div>
       <div class="field field-call">
         <span class="field-k">机会判断</span>
@@ -588,60 +648,60 @@
       <article class="pick desk-pick" style="--i: 0">
         <div class="desk-pick-id">
           <span class="pick-no num">真实收入案例</span>
-          <a class="pick-id" href="c/how-i-started-a-1-8m-year-vintage-watch-company.html">
-            <h3>Theo &amp; Harris（复古腕表电商）</h3>
-            <span class="tag sig">创始人采访自报</span>
+          <a class="pick-id" href="c/chatbase.html">
+            <h3>Chatbase</h3>
+            <span class="tag sig">Stripe 支付验证</span>
           </a>
-          <p class="pick-meta">在 eBay 或线下表商处自行淘复古表、自行判断真伪与成色的旧买法。</p>
+          <p class="pick-meta">企业官网上的人工客服答疑和外包客服坐席。</p>
         </div>
         <div class="pick-body desk-pick-fields">
           <div class="field field-what">
             <span class="field-k">这是什么</span>
-            <p>23 岁的 Christian Zeron 用 1 万美元起步，从全球表商和藏家手里收复古腕表，靠 YouTube 内容建立信任后在自己的网站零售，做到月流水约 15 万美元。</p>
+            <p>给企业造 AI 客服聊天机器人的构建平台：把自家文档和网站喂进去，生成一个能挂在官网和后台替客户答疑的机器人，按订阅收费。</p>
           </div>
           <div class="field field-call">
             <span class="field-k">真需求判断</span>
-            <p><strong>真需求</strong><span class="decision-sep"> · </span>它替代的是买家在 eBay 或线下表商处淘复古表、且真假与成色难判断的旧路径；创始人称开业首日即盈利、近两年显著盈利，说明有人持续为『可信的选品与卖家』付溢价。</p>
+            <p><strong>真需求</strong><span class="decision-sep"> · </span>客服答疑是每个有官网和文档的公司都要有人干的老活，用机器人替掉部分人工答问省的是真工资；近 30 天 Stripe 验证收入 $86.6 万、累计 $19.2M，付款是持续发生的，不是一次性冲动消费。</p>
           </div>
         </div>
       </article>
       <article class="pick desk-pick" style="--i: 1">
         <div class="desk-pick-id">
           <span class="pick-no num">真实收入案例</span>
-          <a class="pick-id" href="c/how-i-disrupted-the-ad-industry-and-grew-my-business-to-20m-year.html">
-            <h3>MonetizeMore</h3>
-            <span class="tag sig">创始人采访自报</span>
+          <a class="pick-id" href="c/comp-ai.html">
+            <h3>Comp AI</h3>
+            <span class="tag sig">Stripe 支付验证</span>
           </a>
-          <p class="pick-meta">网站主自己只接 AdSense、单一买方定价的广告变现方式</p>
+          <p class="pick-meta">请咨询顾问和内部团队手工整理安全问卷与证据材料。</p>
         </div>
         <div class="pick-body desk-pick-fields">
           <div class="field field-what">
             <span class="field-k">这是什么</span>
-            <p>MonetizeMore 帮月流量百万级的网站主优化展示广告竞价，把原本只有 AdSense 一家出价的广告位接入更多买方，按广告收入增量抽成，创始人自报年收入超过 2000 万美元。</p>
+            <p>帮企业最快速度过 SOC 2、ISO 27001 这类安全合规认证的平台，近 30 天验证收入 $66.8 万、环比 +27.6%。</p>
           </div>
           <div class="field field-call">
             <span class="field-k">真需求判断</span>
-            <p><strong>真需求</strong><span class="decision-sep"> · </span>它替代的是网站主自己只挂 AdSense、任由单一买方定价的旧做法，增量收入可被后台数据直接验证，所以客户愿意持续分成。收入来自广告预算的重新分配，不是新造需求。</p>
+            <p><strong>真需求</strong><span class="decision-sep"> · </span>SOC 2 是 B2B 销售的入场券：不拿证就丢客户，所以企业年年都得花钱做；把这件痛苦且周期长的活做快，付费意愿直接反映在验证收入和 27.6% 的月增速上。</p>
           </div>
         </div>
       </article>
       <article class="pick desk-pick" style="--i: 2">
         <div class="desk-pick-id">
           <span class="pick-no num">真实收入案例</span>
-          <a class="pick-id" href="c/how-this-firefighter-invented-a-3-6m-product-that-prevents-kitchen-fires.html">
-            <h3>FireAvert</h3>
+          <a class="pick-id" href="c/diesel-laptops-from-selling-on-ebay-to-making-20m-year.html">
+            <h3>Diesel Laptops</h3>
             <span class="tag sig">创始人采访自报</span>
           </a>
-          <p class="pick-meta">业主对无人看管烹饪起火的被动应对：事后理赔、保险支出和人工巡检。</p>
+          <p class="pick-meta">维修厂靠老师傅经验和反复试换来排查故障。</p>
         </div>
         <div class="pick-body desk-pick-fields">
           <div class="field field-what">
             <span class="field-k">这是什么</span>
-            <p>一名犹他州消防员做出插在炉灶后方、听到烟雾报警器响声就自动断电的防火装置，主要卖给多户住宅和养老物业的业主，2018 年营收超过 200 万美元。</p>
+            <p>卖柴油卡车诊断硬件和数据服务的 B2B 公司：从 eBay 倒卖二手笔记本起家，做到月收入 $420 万、180 人团队。</p>
           </div>
           <div class="field field-call">
             <span class="field-k">真需求判断</span>
-            <p><strong>真需求</strong><span class="decision-sep"> · </span>它替代的是业主对无人看管烹饪引发火灾的被动应对（事后赔付、保险、人工巡检），火灾是真实且反复发生的损失，业主有持续采购动机。素材未给出复购或续费数据，长期收入依赖新物业客户而非老客户复购。</p>
+            <p><strong>真需求</strong><span class="decision-sep"> · </span>卡车坏一天停运一天，维修厂对「快点查出毛病」的付费意愿极强；硬件只是入口，持续付费的是诊断数据和判断，这是典型的设备带服务续费结构。</p>
           </div>
         </div>
       </article>
@@ -657,21 +717,21 @@
       <span class="note">往期判断长期保留，供对照后续证据，检验其是否成立。</span>
     </div>
     <div class="obs desk-obs">
-      <a class="obs-item desk-obs-item" href="r/2026-10-18.html" style="--i: 0">
+      <a class="obs-item desk-obs-item" href="r/2026-10-19.html" style="--i: 0">
+        <div class="obs-day num">2026-10-19</div>
+        <p class="obs-hook">AI 代理正从演示走向值班、剪辑、科研与账号治理等具体工作节点，而融资成本上升让交付效率成为分水岭。</p>
+      </a>
+      <a class="obs-item desk-obs-item" href="r/2026-10-18.html" style="--i: 1">
         <div class="obs-day num">2026-10-18</div>
         <p class="obs-hook">代理正从聊天框走进具体岗位：广告投放、组合构建、演示录制、科学建模，都在被拆成可执行动作。</p>
       </a>
-      <a class="obs-item desk-obs-item" href="r/2026-10-17.html" style="--i: 1">
+      <a class="obs-item desk-obs-item" href="r/2026-10-17.html" style="--i: 2">
         <div class="obs-day num">2026-10-17</div>
         <p class="obs-hook">资本八成砸向 AI，但今天真正值得看的信号是：代理开始被当成可插拔的装备和可复用的流程来卖。</p>
       </a>
-      <a class="obs-item desk-obs-item" href="r/2026-10-16.html" style="--i: 2">
+      <a class="obs-item desk-obs-item" href="r/2026-10-16.html" style="--i: 3">
         <div class="obs-day num">2026-10-16</div>
         <p class="obs-hook">个人事务代办与代理安全同日升温：助手开始替人打电话下单，工程团队开始给代理上锁。</p>
-      </a>
-      <a class="obs-item desk-obs-item" href="r/2026-10-13.html" style="--i: 3">
-        <div class="obs-day num">2026-10-13</div>
-        <p class="obs-hook">大厂同日推代理模型、算力与语言市场融资同步升温，个人代理的入口之争已经开场。</p>
       </a>
     </div>
   </section>
@@ -695,8 +755,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>3347 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-10-19</span>
+    <span>3414 个案例 · 178 份生意判断</span>
+    <span class="gen">数据截至 2026-10-20</span>
     <span>·</span>
     <a href="reports.html">判断档案</a>
     <span>·</span>
