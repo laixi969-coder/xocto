@@ -1,0 +1,86 @@
+- id: req-initial-sketch-a-series-2026-10-20
+  project_slug: sketch-a-series
+  level: initial
+  reviewed_at: '2026-10-20T01:06:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决连续画面起草时逐帧手绘或反复改提示词的负担，痛点具体且交付是可见的下一帧草稿；但导出与编辑闭环未公开。
+    evidence_ids:
+    - ev-667c453f715b527c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区点赞，没有用户评价或使用场景描述，无法判断作者群体是否形成共识。
+    evidence_ids:
+    - ev-667c453f715b527c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；可能由独立作者按项目付费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-667c453f715b527c
+  - gate: truth
+    status: insufficient
+    reason: 续画是否稳定、能否导出到现有绘画软件、人工修改边界如何，均无公开材料，交付确定性未核验。
+    evidence_ids:
+    - ev-667c453f715b527c
+  next_validation: 收集该演示页的更新说明或仓库文档，确认是否提供导出格式与编辑流程。
+  market: ''
+  job: 插画师或漫画作者在起草分镜或连续画面时，边画线稿边让模型续画下一帧，以快速得到可继续修改的连续画面草稿。
+  job_en: An illustrator or comic artist drafting storyboards or sequential frames draws a line and lets
+    the model continue the next frame, to quickly obtain a revisable sequence draft.
+  pain: 连续画面需要一帧帧手绘或反复改提示词重出图，前后帧难以保持一致，起草阶段耗时且容易断掉节奏。
+  pain_en: Sequential frames must be drawn one by one or regenerated through repeated prompt edits, consistency
+    across frames is hard, and drafting is slow and breaks rhythm.
+  current_alternative: 手绘逐帧草稿，或用文生图工具逐张生成再手工拼接对齐。
+  current_alternative_en: Hand-drawing each frame, or generating images one at a time with text-to-image
+    tools and manually aligning them.
+  usage_reason: 推断：相较逐张写提示词再挑图，它把模型接在笔迹之后直接续画，省掉描述画面和反复重出的步骤，让作者在起草阶段保持连续作画节奏；哪类用户会长期采用尚缺公开反馈。
+  usage_reason_en: 'Inference: compared with writing prompts per image and picking results, it attaches
+    the model directly after the stroke to continue drawing, skipping the describe-and-regenerate step
+    and keeping a continuous drafting rhythm; which users adopt it long term lacks public feedback.'
+- id: req-full-sketch-a-series-2026-10-20
+  project_slug: sketch-a-series
+  level: full
+  reviewed_at: '2026-10-20T01:45:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决连续画面起草时逐帧手绘或反复改提示词的负担，痛点具体且交付是可见的下一帧草稿；但导出与编辑闭环未公开。
+    evidence_ids:
+    - ev-667c453f715b527c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区点赞，没有用户评价或使用场景描述，无法判断作者群体是否形成共识。
+    evidence_ids:
+    - ev-667c453f715b527c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；可能由独立作者按项目付费，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-667c453f715b527c
+  - gate: truth
+    status: insufficient
+    reason: 续画是否稳定、能否导出到现有绘画软件、人工修改边界如何，均无公开材料，交付确定性未核验。
+    evidence_ids:
+    - ev-667c453f715b527c
+  next_validation: 收集该演示页的更新说明或仓库文档，确认是否提供导出格式与编辑流程。
+  market: ''
+  job: 插画师或漫画作者在起草分镜或连续画面时，面对已画出的线稿，让模型顺着笔迹续画下一帧，以快速得到可继续修改的连续画面草稿。
+  job_en: An illustrator or comic artist drafting storyboards or sequential frames, working from an existing
+    line drawing, has the model continue the next frame along the stroke to quickly obtain a revisable
+    sequence draft.
+  pain: 连续画面需要逐帧手绘，或用文生图工具反复改提示词重出图，前后帧难以保持一致，起草阶段耗时且容易打断作画节奏。
+  pain_en: Sequential frames must be hand-drawn frame by frame or regenerated through repeated prompt
+    edits with text-to-image tools; consistency across frames is hard, and drafting is slow and breaks
+    the drawing rhythm.
+  current_alternative: 手绘逐帧草稿，或用文生图工具逐张生成再手工拼接对齐。
+  current_alternative_en: Hand-drawing each frame, or generating images one at a time with text-to-image
+    tools and manually aligning them.
+  usage_reason: 推断：相较逐张写提示词再挑图，它把模型接在笔迹之后直接续画，省掉描述画面和反复重出的步骤，让作者在起草阶段保持连续作画节奏；哪类用户会长期采用尚缺公开反馈。
+  usage_reason_en: 'Inference: compared with writing prompts per image and picking results, it attaches
+    the model directly after the stroke to continue drawing, skipping the describe-and-regenerate step
+    and keeping a continuous drafting rhythm; which users adopt it long term lacks public feedback.'

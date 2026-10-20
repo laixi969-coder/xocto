@@ -130,3 +130,54 @@
     into a reproducible benchmark run with comparable scores, removing frame-by-frame comparison and self-built
     evaluation scripts, so model researchers choosing between generators and VFX teams deciding whether
     to adopt a clip can decide directly from the score.'
+- id: req-full-orbia-2026-10-20
+  project_slug: orbia
+  level: full
+  reviewed_at: '2026-10-20T01:44:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生成视频能否当作连贯三维世界复用的判定需求，痛点是视角变化下几何漂移、缺少统一可比判据；公开仓库标题与基准定位支持这一任务，但痛点强度属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+    - ev-bf0537a8ac658b7f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 41 增至 45，说明有研究者关注，但收藏不等于持续采用；公开材料未见谁在论文或制作流程中实际使用该基准，共识环节缺少采用证据。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+    - ev-17f36ca186decb83
+    - ev-bf0537a8ac658b7f
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：基准类项目可能由研究者免费使用、靠论文引用或机构赞助维持，公开材料未披露定价、付费方或任何收费路径，商业闭环无法确认。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有标题与仓库，未说明评测维度、数据集、评分是否可复现，也未说明人工复核与安全边界，交付能否稳定发生尚缺可核对文档。
+    evidence_ids:
+    - ev-00254fd44c085dbe
+    - ev-17f36ca186decb83
+  next_validation: 追踪 Orbia 官网与代码仓库的评测文档、数据集说明及 issue/discussion，确认评测维度、可复现性与是否有外部团队实际引用该基准。
+  market: ''
+  job: 视频生成模型研究者或视觉特效团队在拿到一段生成视频、准备判断它能否作为连贯三维场景复用时，用 Orbia 对片段做三维世界一致性基准评测，得到可横向比较的评分。
+  job_en: Researchers of video-generation models or VFX teams, holding a generated video clip and deciding
+    whether it can be reused as a coherent 3D scene, use Orbia to benchmark its 3D world consistency and
+    obtain comparable scores.
+  pain: 公开材料只给出基准标题与仓库，未展示用户抱怨；从任务结构推断，痛点是生成视频在视角变化下几何与外观漂移，团队缺少统一可比的判据，只能靠肉眼逐帧检查，难以在模型版本或供应商之间做取舍。
+  pain_en: Public material shows only a benchmark title and repository, with no user complaints; inferred
+    from the task structure, the pain is that generated video drifts in geometry and appearance across
+    viewpoints, and teams lack a shared comparable criterion, forcing frame-by-frame eyeballing and making
+    model or vendor comparison hard.
+  current_alternative: 研究者目前多靠人工逐帧观看、自建小规模评测脚本或引用各自论文中的指标，缺少公开统一的三维一致性基准。
+  current_alternative_en: Researchers currently rely on manual frame-by-frame viewing, self-built small
+    evaluation scripts, or metrics reported in individual papers, without a shared public 3D-consistency
+    benchmark.
+  usage_reason: 推断：相较人工逐帧检查，Orbia 把评测收敛为一次提交片段、输出可比较评分的动作，减少自建评测脚本与主观判断这一步，因此正在选型或撰写对比实验的研究者会在需要横向比较多个生成模型时选用它；公开材料尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual frame-by-frame inspection, Orbia collapses evaluation into
+    submitting a clip and receiving a comparable score, removing the need to build evaluation scripts
+    and rely on subjective judgment, so researchers comparing multiple generative models would choose
+    it; public material has no user feedback confirming this motive.'

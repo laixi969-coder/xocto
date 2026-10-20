@@ -126,3 +126,55 @@
     in code and renders natively via WebGPU, removing the manual build and format-conversion step, so
     frontend developers needing parameterized, reproducible motion visuals would pick it to generate clips
     in-page; this is structural reasoning, not user feedback.'
+- id: req-full-framefields-2026-10-20
+  project_slug: framefields
+  level: full
+  reviewed_at: '2026-10-20T01:43:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把数据或代码变成可嵌入网页动态视频的需求，痛点是手工剪辑导出后数据一变就要重做、视频与页面状态脱节。公开事实仅有产品定位与仓库星标，旧流程与后果属工作流结构推理，尚无用户抱怨或案例佐证强度。
+    evidence_ids:
+    - ev-94ed680ada420a95
+    - ev-30037635ab129281
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 418 增至 436，说明开发者社区有初步关注；但没有 issue、讨论或评价显示目标用户在何种场景持续使用，关注度不能替代采用共识。
+    evidence_ids:
+    - ev-94ed680ada420a95
+    - ev-30037635ab129281
+  - gate: model
+    status: insufficient
+    reason: 公开材料无定价页、无付费或采购记录，谁付钱（前端团队、视频工具厂商还是个人开发者）无法确认；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-94ed680ada420a95
+  - gate: truth
+    status: insufficient
+    reason: 输入格式、导出规格与人工确认环节未公开，WebGPU 浏览器兼容性与渲染结果能否稳定交付缺可复现证据；中文生态检索亦未发现对应供给。
+    evidence_ids:
+    - ev-94ed680ada420a95
+    - ev-a60bd129695d04fa
+  next_validation: 追踪 framefields 仓库的 README、issue 与 discussion，确认实际输入格式、导出规格及是否有团队在具体场景中部署使用。
+  market: ''
+  job: 前端开发者或视频工程师在需要把数据、代码或参数变化生成可嵌入网页的动态视频时，用代码描述画面，由浏览器 WebGPU 直接渲染出片段，而不是在剪辑软件里手工搭建时间线再导出。
+  job_en: Frontend developers or video engineers who need to turn data, code, or parameter changes into
+    embeddable motion video describe the scene in code and let the browser's WebGPU render the clip directly,
+    instead of hand-building a timeline in editing software and exporting.
+  pain: 公开材料只给出产品定位，未提供用户抱怨或案例；从工作流结构推理，旧做法要在剪辑软件里手工摆放关键帧、导出成文件再嵌回网页，数据一变就要重做，且视频与页面数据状态脱节。这是推理，不是用户口述。
+  pain_en: Public materials give only the product positioning, with no user complaints or cases; by workflow
+    inference, the old path requires hand-placing keyframes in editing software, exporting a file, and
+    re-embedding it in the page, so any data change forces a redo and the video drifts from the page's
+    data state. This is inference, not user testimony.
+  current_alternative: 传统剪辑软件手工搭建与导出、服务端渲染管线，或在前端用 canvas/WebGL 自行拼装动画；公开材料未说明它具体替代哪一种。
+  current_alternative_en: Hand-building and exporting in traditional editing software, server-side rendering
+    pipelines, or assembling animation manually with canvas/WebGL on the frontend; public materials do
+    not say which one it replaces.
+  usage_reason: 推断：相较手工剪辑导出，代码描述画面让同一份数据直接驱动渲染，省去关键帧摆放与导出再嵌入这一步，数据更新时无需重剪；因此需要数据驱动、可嵌入网页视频的前端开发者会在做动态图表或参数化片段时选择它。仓库
+    418→436 星仅说明关注度，不是持续使用证据。
+  usage_reason_en: 'Inference: versus manual editing and export, describing the scene in code lets the
+    same data drive rendering directly, removing the keyframe-placement and export-then-embed step so
+    data updates need no re-edit; frontend developers needing data-driven, embeddable web video would
+    therefore choose it for animated charts or parameterized clips. The 418→436 stars only show attention,
+    not sustained use.'

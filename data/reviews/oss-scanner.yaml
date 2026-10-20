@@ -371,3 +371,45 @@
   usage_reason_en: 'Inference: if it automatically scans repositories and outputs an issue list, it could
     reduce manual inspection effort; however, public materials do not describe the specific action or
     verifiable result, so user choice cannot be explained.'
+- id: req-full-oss-scanner-2026-10-20
+  project_slug: oss-scanner
+  level: full
+  reviewed_at: '2026-10-20T01:44:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选材料只有仓库名与星标、fork、issue 数量，未说明扫描对象、执行动作、交付物及不解决的后果，无法还原用户任务与痛点，价值结构无法判断。
+    evidence_ids:
+    - ev-ea41aa1f6b4d7929
+    - ev-6d62581e424d4caf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 https://公开代码仓库.com/anthropics/oss-scanner 的 README、issue 与 discussion，确认扫描输入、输出交付物及维护者实际使用反馈。
+  market: ''
+  job: 开源维护者在处理代码仓库时，可能打开该工具扫描仓库代码或依赖材料，并据此整理问题清单；但公开材料未说明输入、动作与交付物。
+  job_en: An open-source maintainer may open this tool while working on a code repository to scan code
+    or dependency materials and produce an issue list; public materials do not specify the inputs, actions,
+    or deliverables.
+  pain: 公开材料只给出仓库名与星标、fork、issue 数量，未说明维护者在扫描或依赖检查中具体卡在哪一步、不解决会有什么后果。
+  pain_en: Public materials only provide the repository name and star, fork, and issue counts; they do
+    not state which step of scanning or dependency checking maintainers struggle with or what happens
+    if it is left unsolved.
+  current_alternative: 公开材料未说明维护者目前用什么方式完成同类扫描，例如手工检查、现有静态分析工具或 CI 流水线。
+  current_alternative_en: Public materials do not state how maintainers currently perform comparable scanning,
+    such as manual checks, existing static-analysis tools, or CI pipelines.
+  usage_reason: 公开材料未说明产品通过什么具体动作减少哪一步负担，因此无法判断哪类用户会在什么情况下选择它；星标增长只反映关注度，不能解释使用动机。
+  usage_reason_en: Public materials do not explain which concrete action reduces which step's burden,
+    so it is impossible to judge which users would choose it and when; star growth reflects attention
+    only and does not explain usage motivation.

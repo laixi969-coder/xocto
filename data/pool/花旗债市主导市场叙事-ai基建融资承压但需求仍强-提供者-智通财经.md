@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE0tbUpmbk1YMkU5
 summary: 花旗：债市主导市场叙事 AI基建融资承压但需求仍强 提供者 智通财经 英为财情 Investing.com
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -131,3 +131,55 @@
     one assistant, cutting repeated cross-assistant querying and manual result comparison. Marketing leads
     whose brand is absent from AI answers and who need actionable fixes would try it; no user feedback
     yet confirms this motive.'
+- id: req-full-geo-doctor-2026-10-20
+  project_slug: geo-doctor
+  level: full
+  reviewed_at: '2026-10-20T01:43:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决品牌在生成式 AI 推荐中缺席却不知原因的需求，痛点是新入口失位且旧 SEO 无法直接作用；产品以诊断—改写—复查闭环交付，属工作流结构推理，痛点刚性与交付确定性尚缺用户案例佐证。
+    evidence_ids:
+    - ev-c600706d890ea39a
+    - ev-36ff5c5fcfcb74bd
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库仅有 47 至 92 个收藏的波动，属关注度而非持续采用；没有 issue、discussion 或客户案例说明谁在何种场景反复使用，共识卡在场景与采用证据一环。
+    evidence_ids:
+    - ev-c600706d890ea39a
+    - ev-f7d3a658b9c5a315
+  - gate: model
+    status: insufficient
+    reason: 开源 skill 未见定价页或付费路径，钱可能来自 to B 品牌营销预算或 to VC，但均属判断而非已验证事实；谁付钱、按什么单位收费尚不明确。
+    evidence_ids:
+    - ev-c600706d890ea39a
+  - gate: truth
+    status: insufficient
+    reason: 诊断依据与复查口径未公开，无法核对改写后推荐结果是否稳定改善；模型回答本身随机波动，交付确定性与人工边界缺少可复现证据。
+    evidence_ids:
+    - ev-c600706d890ea39a
+    - ev-36ff5c5fcfcb74bd
+  next_validation: 追踪 geo-doctor 仓库的 issue 与 discussion，确认是否有用户报告具体品牌场景下的诊断与复查结果。
+  market: ''
+  job: 品牌或营销负责人在用豆包、DeepSeek、ChatGPT、Claude 询问品类推荐时发现自家产品缺席，于是把该 skill 装进 AI 助手，输入自家资料与内容，查清未被推荐的原因，改完资料和内容后再复查推荐结果。
+  job_en: A brand or marketing lead who finds their product missing when asking Doubao, DeepSeek, ChatGPT
+    or Claude for category recommendations installs this skill into an AI assistant, feeds in their materials
+    and content, diagnoses why they are not recommended, revises the materials and content, then rechecks
+    the recommendation result.
+  pain: AI 助手正成为用户获取品类推荐的入口，品牌方却看不到模型为何不提及自己，也缺少可操作的诊断与改写路径；不处理的后果是在这条新入口上持续缺席，而旧 SEO 方法无法直接作用于生成式回答。
+  pain_en: AI assistants are becoming an entry point for category recommendations, yet brands cannot see
+    why a model omits them and lack an actionable diagnosis-and-rewrite path; leaving it unsolved means
+    staying absent from this new entry point, and legacy SEO methods do not directly act on generative
+    answers.
+  current_alternative: 当前替代方式多为人工反复向各模型提问、凭经验猜测原因，再零散修改官网与内容；也有团队用通用 SEO 或内容工具间接应对，但缺少针对生成式推荐结果的诊断—改写—复查闭环。
+  current_alternative_en: 'The current alternative is largely manual: repeatedly querying each model,
+    guessing causes by experience, and making scattered edits to the website and content; some teams use
+    generic SEO or content tools indirectly, but lack a diagnose-rewrite-recheck loop aimed at generative
+    recommendation results.'
+  usage_reason: 推断：相较人工逐模型试问和凭经验改稿，该 skill 把诊断、改写建议与复查串成同一助手内的连续动作，减少在多个模型间来回切换和自行归纳原因的步骤，因此当品牌在 AI 回答中缺席且需要快速定位并修正时，营销负责人会尝试它。
+  usage_reason_en: 'Inference: compared with manually probing each model and editing by intuition, the
+    skill chains diagnosis, rewrite suggestions and rechecking into one continuous action inside the same
+    assistant, cutting the back-and-forth across models and the need to infer causes oneself; so a marketing
+    lead whose brand is absent from AI answers and needs fast localization and correction would try it.'

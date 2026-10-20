@@ -1,0 +1,86 @@
+- id: req-initial-techwolf-co-founder-ghent-flywheel-quotsuper-important-2026-10-20
+  project_slug: techwolf-co-founder-ghent-flywheel-quotsuper-important
+  level: initial
+  reviewed_at: '2026-10-20T01:06:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业技能盘点与人才匹配的需求，痛点是信息分散、人工汇总耗时且口径不一，旧替代是表格与访谈，结构上成立。
+    evidence_ids:
+    - ev-49c06e3834cdd5e1
+  - gate: consensus
+    status: insufficient
+    reason: SAP 收购表明大厂认可该能力，但公开材料未给出客户采用规模或持续使用证据。
+    evidence_ids:
+    - ev-49c06e3834cdd5e1
+  - gate: model
+    status: insufficient
+    reason: 买方为企业 HR 部门，但定价、合同与交付方式未在材料中披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-49c06e3834cdd5e1
+  - gate: truth
+    status: insufficient
+    reason: 技能推断依赖数据质量与人工确认边界，材料未说明准确性与交付确定性。
+    evidence_ids:
+    - ev-49c06e3834cdd5e1
+  next_validation: 收集 TechWolf 官方客户案例或产品文档，核验其技能推断的输入材料、交付形式与人工确认环节。
+  market: ''
+  job: 企业人力资源与人才管理者在盘点员工技能、规划内部调配或继任时，需要从岗位记录、项目经历等材料中梳理技能图谱，完成人才与岗位的匹配判断。
+  job_en: HR and talent managers, when auditing employee skills or planning internal mobility and succession,
+    need to map skills from job records and project histories to match people to roles.
+  pain: 技能信息散落在岗位记录、项目经历和主管记忆中，人工盘点耗时且口径不一，导致内部调配和继任判断依赖印象。
+  pain_en: Skill information is scattered across job records, project histories and managers' memory;
+    manual audits are slow and inconsistent, so mobility and succession decisions rely on impressions.
+  current_alternative: 旧做法是 HR 用表格、访谈和主管评估手工汇总技能，或依赖通用 HR 系统里静态的岗位描述。
+  current_alternative_en: The old approach is HR manually aggregating skills via spreadsheets, interviews
+    and manager assessments, or relying on static job descriptions in generic HR systems.
+  usage_reason: 推断：相较手工汇总，TechWolf 从既有岗位与项目材料中自动推断技能并生成可查询画像，减少逐条整理这一步，使 HR 在盘点或调配时能直接比对候选人与岗位；SAP 将其纳入人才战略也表明买方认可该环节价值。
+  usage_reason_en: 'Inference: compared with manual aggregation, TechWolf automatically infers skills
+    from existing job and project materials and produces a queryable profile, removing the step of compiling
+    entries one by one so HR can directly compare candidates to roles during audits or mobility; SAP folding
+    it into its talent strategy also indicates buyer recognition of this step''s value.'
+- id: req-full-techwolf-co-founder-ghent-flywheel-quotsuper-important-2026-10-20
+  project_slug: techwolf-co-founder-ghent-flywheel-quotsuper-important
+  level: full
+  reviewed_at: '2026-10-20T01:45:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业技能盘点与人才匹配的需求，痛点是技能信息散落在岗位记录、项目经历与主管记忆中，人工汇总耗时且口径不一；旧替代是表格、访谈与静态岗位描述，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-49c06e3834cdd5e1
+  - gate: consensus
+    status: insufficient
+    reason: SAP 收购表明大厂认可该能力方向，但公开材料未给出客户采用规模、持续使用或留存证据，关注度不能替代采用。
+    evidence_ids:
+    - ev-49c06e3834cdd5e1
+  - gate: model
+    status: insufficient
+    reason: 买方推断为企业 HR 部门或 SAP 生态客户，但定价、合同与交付方式未在材料中披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-49c06e3834cdd5e1
+  - gate: truth
+    status: insufficient
+    reason: 技能推断依赖数据质量与人工确认边界，材料未说明准确率、误判处理与交付确定性，第一性目标贴近度仍缺可核对结果。
+    evidence_ids:
+    - ev-49c06e3834cdd5e1
+  next_validation: 追踪 TechWolf 官网客户案例或 SAP 官方产品文档，核验其技能推断的输入材料、交付形式与人工确认环节。
+  market: ''
+  job: 企业人力资源与人才管理者在盘点员工技能、规划内部调配或继任时，需要从岗位记录、项目经历等材料中梳理技能图谱，完成人才与岗位的匹配判断。
+  job_en: HR and talent managers, when auditing employee skills or planning internal mobility and succession,
+    need to map skills from job records and project histories to match people to roles.
+  pain: 技能信息散落在岗位记录、项目经历和主管记忆中，人工盘点耗时且口径不一，导致内部调配和继任判断依赖印象。
+  pain_en: Skill information is scattered across job records, project histories and managers' memory;
+    manual audits are slow and inconsistent, so mobility and succession decisions rely on impressions.
+  current_alternative: 旧做法是 HR 用表格、访谈和主管评估手工汇总技能，或依赖通用 HR 系统里静态的岗位描述。
+  current_alternative_en: The old approach is HR manually aggregating skills via spreadsheets, interviews
+    and manager assessments, or relying on static job descriptions in generic HR systems.
+  usage_reason: 推断：相较手工汇总，TechWolf 从既有岗位与项目材料中自动推断技能并生成可查询画像，减少逐条整理这一步，使 HR 在盘点或调配时能直接比对候选人与岗位；SAP 将其纳入人才战略也表明买方认可该环节价值。
+  usage_reason_en: 'Inference: compared with manual aggregation, TechWolf automatically infers skills
+    from existing job and project materials and produces a queryable profile, removing the step of compiling
+    entries one by one so HR can directly compare candidates to roles during audits or mobility; SAP folding
+    it into its talent strategy also indicates buyer recognition of this step''s value.'

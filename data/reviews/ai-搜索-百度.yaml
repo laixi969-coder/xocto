@@ -1157,3 +1157,43 @@
     reading summaries, writing and image generation on one page, removing the copy-paste and tool-switching
     step; students and office users who need to research and draft in one flow would choose it. Public
     materials provide no retention or payment evidence, so the motive is structural reasoning.'
+- id: req-full-ai-搜索-百度-2026-10-20
+  project_slug: ai-搜索-百度
+  level: full
+  reviewed_at: '2026-10-20T01:42:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度 AI 搜索官方产品页与更新日志，确认其是否公开具体使用场景、用户案例或与普通搜索的差异说明。
+  market: ''
+  job: 普通用户在 PC 端遇到需要多轮追问的复杂问题或写作、做图任务时，把问题交给百度 AI 搜索，希望在同一页面完成检索、追问与内容产出。
+  job_en: On desktop, ordinary users with a complex question or a writing/image task hand it to Baidu
+    AI Search, expecting search, follow-up and content output to happen on one page.
+  pain: 公开材料只重复“一站式解决复杂问题、激发超级生产力”的营销表述，没有说明用户在旧搜索流程中具体卡在哪一步、损失多少时间或得到什么错误结果；痛点无法从证据中还原。
+  pain_en: Public material only repeats marketing claims about one-stop problem solving and super productivity;
+    it does not show which step of the old search flow users get stuck on, what time they lose, or what
+    wrong result they get, so the pain cannot be reconstructed from evidence.
+  current_alternative: 用户当前可用普通百度搜索结果页、其他对话式 AI 助手或直接在文档工具里写作；公开材料未说明本产品相较这些旧做法减少了哪一步。
+  current_alternative_en: Users can already use ordinary Baidu results, other conversational AI assistants,
+    or write directly in document tools; public material does not show which step this product removes
+    versus those alternatives.
+  usage_reason: 推断：把搜索、追问与写作做图放在同一页，理论上省去在搜索页与文档工具间切换复制的一步；但公开材料没有用户反馈或案例说明这一动作真的被选择，访问量只能说明关注度，不能解释选择原因。
+  usage_reason_en: 'Inference: putting search, follow-up and writing on one page could remove the step
+    of copying between a search tab and a document tool, but no public user feedback or case shows this
+    choice actually happens; traffic only shows attention, not the reason for choosing it.'

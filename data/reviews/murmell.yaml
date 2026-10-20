@@ -1,0 +1,44 @@
+- id: req-initial-murmell-2026-10-20
+  project_slug: murmell
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理长任务中断与多人交接的需求，本地会话关闭即断是具体痛点。
+    evidence_ids:
+    - ev-949fdc800147275a
+    - ev-5be120f363d48cdf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论与一次产品页描述，未见用户反馈或团队采用证据。
+    evidence_ids:
+    - ev-949fdc800147275a
+    - ev-5be120f363d48cdf
+  - gate: model
+    status: insufficient
+    reason: 未见定价页，买方可能是开发团队订阅，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5be120f363d48cdf
+  - gate: truth
+    status: insufficient
+    reason: 云端运行代理的持久性、权限与人工审阅边界公开材料未说明。
+    evidence_ids:
+    - ev-949fdc800147275a
+  next_validation: 收集 Murmell 官方定价页或部署文档，确认云端代理任务的持久运行与团队协作机制。
+  market: ''
+  job: 开发者在让编码代理跑长任务时，需要任务在关掉笔记本后继续，并让同事查看和接手代理产出。
+  job_en: When running long coding-agent tasks, a developer needs the task to continue after closing the
+    laptop and colleagues to review and take over agent output.
+  pain: 本地代理会话一关就中断，长任务无法持续；多人之间交接代理产出缺少共享载体。
+  pain_en: A local agent session breaks when closed, so long tasks cannot continue; there is no shared
+    place to hand off agent output among people.
+  current_alternative: 在本地终端跑代理并保持机器开着，或用聊天工具粘贴代理输出交接。
+  current_alternative_en: Running agents in a local terminal with the machine kept on, or pasting agent
+    output into chat tools for handoff.
+  usage_reason: 推断：相较本地会话，云端画布让代理任务脱离单机持续运行，并让多人看到同一份产出，省去手动复制粘贴交接这一步。
+  usage_reason_en: 'Inference: versus a local session, a cloud canvas lets agent tasks keep running off
+    a single machine and lets multiple people see the same output, removing the manual copy-paste handoff
+    step.'

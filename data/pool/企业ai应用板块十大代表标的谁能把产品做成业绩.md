@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQVGlGY2ZkNmJL
 summary: 企业AI应用板块十大代表标的：谁能把产品做成业绩？ 新浪网
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

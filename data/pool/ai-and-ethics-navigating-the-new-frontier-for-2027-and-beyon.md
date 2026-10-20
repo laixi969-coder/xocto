@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNTF84a3hFZWgw
 summary: 'AI and Ethics: Navigating the New Frontier for 2027 and Beyond CMSWire'
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -366,3 +366,50 @@
     user receives a finished single page and skips copying and formatting, which is why people who often
     send complex conclusions to non-technical colleagues would try it first; stars rising from 3,163 to
     3,696 only show attention, not sustained workflow use.'
+- id: req-full-answer-me-with-html-2-2026-10-20
+  project_slug: answer-me-with-html-2
+  level: full
+  reviewed_at: '2026-10-20T01:42:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复杂结论难以转成可读交付物的问题，痛点是排版这一步反复手工发生，不解决则结论无法直接发给他人；从输入资料到输出单页 HTML 的闭环清楚，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-d5e80ef83e673d2a
+    - ev-6b0463aaa3a60f04
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 3303 增至 3915，说明开发者关注度上升，但公开材料没有非开发者把它放进日常工作流的证据，也没有 issue 或评价说明使用场景。
+    evidence_ids:
+    - ev-d5e80ef83e673d2a
+    - ev-b3bf81970755ef53
+  - gate: model
+    status: insufficient
+    reason: 开源技能本身无公开定价或付费路径，是否有人为模板或托管服务付费尚未核验；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-577c58fa8bd92502
+  - gate: truth
+    status: insufficient
+    reason: 输出是否稳定、版式是否可控、人工确认环节如何安排均无公开材料，交付确定性只能从产品说明推断，缺少可复现结果。
+    evidence_ids:
+    - ev-0353eb345b77e810
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际用它产出哪类页面、是否出现版式失控或需要人工返工的反馈。
+  market: ''
+  job: 分析师、顾问或研究者在需要向同事或客户解释一个复杂问题时，把零散资料交给 AI Agent，要求直接产出一页可打开、可分享的 HTML 说明页。
+  job_en: Analysts, consultants or researchers explaining a complex question to colleagues or clients
+    hand scattered material to an AI agent and ask it to produce a single openable, shareable HTML explainer
+    page.
+  pain: 旧做法是拿到大段聊天文本后自己复制、排版、截图才能发出去，这一步纯手工且反复发生；公开材料未量化耗时，但任务链条清楚显示排版是交付前的必经负担。
+  pain_en: The old way is to copy, lay out and screenshot a long chat transcript before it can be sent,
+    a purely manual step that repeats; public material does not quantify the time, but the task chain
+    clearly shows layout is a mandatory burden before delivery.
+  current_alternative: 当前替代方式是把聊天输出粘进 Word、Notion 或 PPT 手动排版，或直接转发一段难以阅读的对话记录。
+  current_alternative_en: The current alternative is pasting chat output into Word, Notion or slides and
+    formatting by hand, or forwarding an unreadable transcript.
+  usage_reason: 推断：它把排版动作从用户手里移到 Agent 输出环节，用户拿到的是已成形的单页文件，省掉复制与排版；因此经常要把复杂结论发给非技术同事的人会在需要交付说明页时选择它。星标增长只说明开发者关注，不构成持续使用证据。
+  usage_reason_en: 'Inference: it moves layout from the user into the agent''s output, so the user receives
+    a finished single page and skips copying and formatting; people who often send complex conclusions
+    to non-technical colleagues would choose it when a deliverable page is needed. Star growth only shows
+    developer attention, not sustained use.'

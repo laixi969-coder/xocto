@@ -257,3 +257,47 @@
   usage_reason_en: 'Cannot be determined: the evidence does not match the product, and with neither user
     feedback nor verifiable capability descriptions, there is no basis to infer why users would choose
     it.'
+- id: req-full-onair-2026-10-20
+  project_slug: onair
+  level: full
+  reviewed_at: '2026-10-20T01:44:43Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称解决多制式 SDR 接收解码分散的问题，但所引证据全部是飞行模拟经济平台与机场停车预订，与该产品无关，需求与痛点无公开事实支撑。
+    evidence_ids:
+    - ev-f89ce6beef8ede10
+    - ev-9f7cb908eefb5d49
+    - ev-9f42e30e8a8740a1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 SDR 产品官网或仓库的 README、发布说明与 issue，确认其真实功能范围与用户反馈，替换当前错配的飞行模拟与停车证据。
+  market: ''
+  job: 无线电爱好者或射频工程师在本地接上 HackRF、RTL-SDR 等硬件后，打开软件接收并解码数字电视、DAB+、FM、ADS-B、ACARS、GNSS 与业余无线电信号，得到可读的频道、航迹或报文。
+  job_en: Radio hobbyists or RF engineers who connect HackRF, RTL-SDR and similar hardware locally open
+    the software to receive and decode digital TV, DAB+, FM, ADS-B, ACARS, GNSS and ham signals into readable
+    channels, tracks or messages.
+  pain: 候选摘要称过去要在多个单一用途工具间切换、每种制式单独配置驱动；但所引证据全部指向飞行模拟经济平台与机场停车预订，与该 SDR 产品无关，痛点无公开事实支撑。
+  pain_en: The candidate summary claims users previously switched among single-purpose tools and configured
+    drivers per standard; but all cited evidence points to a flight-simulator economy platform and airport
+    parking booking, unrelated to this SDR product, so the pain has no public factual support.
+  current_alternative: GQRX、SDR#、rtl_433、dump1090 等单一用途工具，或自行拼装脚本与驱动。
+  current_alternative_en: Single-purpose tools such as GQRX, SDR#, rtl_433 or dump1090, or self-assembled
+    scripts and drivers.
+  usage_reason: 推断：若真能把多制式接收解码收进一个跨平台界面，可省去逐种装工具和驱动；但现有证据描述的是飞行模拟经济与停车预订，无法归因到该 SDR 产品，选择理由不成立。
+  usage_reason_en: 'Inference: if it truly folded multi-standard reception and decoding into one cross-platform
+    interface, it would save installing a tool and driver per standard; but the available evidence describes
+    a flight-simulator economy and parking booking, cannot be attributed to this SDR product, so the reason
+    to choose it does not hold.'

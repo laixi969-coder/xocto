@@ -88,3 +88,54 @@
     state per instance, cutting repeated logins when switching clients, so developers running several
     AI coding clients would try it; the repository has no issues or user feedback showing long-term use,
     and 253 stars only indicate attention.'
+- id: req-full-agent-manager-lite-2026-10-20
+  project_slug: agent-manager-lite
+  level: full
+  reviewed_at: '2026-10-20T01:41:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 AI 编程客户端切换时账号、密钥与配置各自为政、反复登录的痛点；旧做法是手动登出登录或改配置，不解决则切换成本高且易错。仓库说明已支持 Codex、Claude Code
+      CLI 与 Claude Desktop 的实例、账号、密钥、配置、会话与代理管理，交付闭环可还原，属工作流结构推理。
+    evidence_ids:
+    - ev-a8f93137a418e209
+    - ev-7553e922e293d04a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 253 增至 357 只反映关注度，未见 issue、discussion 或用户评价说明开发者是否持续把它留在切换工作流中，采用强度无法确认。
+    evidence_ids:
+    - ev-a8f93137a418e209
+    - ev-7553e922e293d04a
+  - gate: model
+    status: insufficient
+    reason: 公开材料为开源仓库，未披露定价、赞助或商业授权，谁付钱尚不明确；这是判断而非已验证事实，不因此否定需求。
+    evidence_ids:
+    - ev-a8f93137a418e209
+  - gate: truth
+    status: insufficient
+    reason: 按实例托管多客户端账号与供应商密钥，涉及凭据存储方式、各客户端服务条款与安全边界，公开说明未交代这些，交付确定性与合规性仍待核验。
+    evidence_ids:
+    - ev-a8f93137a418e209
+    - ev-7553e922e293d04a
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认账号与供应商密钥的存储方式、是否声明合规边界，以及是否有用户报告持续使用。
+  market: ''
+  job: 同时使用 Codex、Claude Code CLI、Claude Desktop 等多个 AI 编程客户端与编辑器的 macOS 开发者，在切换不同实例时，需要为每个实例分别处理账号、供应商密钥、独立配置、会话与代理，并保持它们互不干扰。
+  job_en: macOS developers running several AI coding clients and editors such as Codex, Claude Code CLI
+    and Claude Desktop need to keep each instance's account, provider keys, isolated config, sessions
+    and proxy separate and intact when switching between them.
+  pain: 每个客户端各自保存登录态和配置，切换实例时往往要重复登录、改配置或复制密钥，账号与实例的对应关系容易混乱，多账号或多供应商场景下尤其容易出错。
+  pain_en: Each client keeps its own login state and config, so switching instances often means repeated
+    logins, config edits or copying keys, and the mapping between accounts and instances easily gets confused,
+    especially with multiple accounts or providers.
+  current_alternative: 开发者手动登出再登录、复制或改写配置文件、分别维护各客户端的密钥，或者干脆只固定使用一个客户端。
+  current_alternative_en: Developers manually log out and back in, copy or rewrite config files, maintain
+    keys separately per client, or simply stick to one client.
+  usage_reason: 推断：相较手动登出登录和逐个改配置，它把账号、供应商密钥、独立配置、会话与代理按实例集中管理，减少切换客户端时的重复登录与配置复制步骤，因此同时挂多个 AI 编程客户端的
+    macOS 开发者会在切换场景下选择它；仓库尚无 issue 或用户反馈证明长期留存。
+  usage_reason_en: 'Inference: versus manual logout/login and per-client config edits, it centralizes
+    accounts, provider keys, isolated configs, sessions and proxies per instance, cutting repeated logins
+    and config copying when switching clients, so macOS developers running several AI coding clients would
+    pick it in switching scenarios; the repository has no issues or user feedback proving long-term retention
+    yet.'

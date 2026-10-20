@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/cooldock-2
 summary: A smart second Dock for your Mac with 160+ live widgets.
 first_seen: '2026-10-20T01:06:26Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -1,0 +1,83 @@
+- id: req-initial-深兰科技发布影视智能体操作系统dfagent-签约电影-2026-10-20
+  project_slug: 深兰科技发布影视智能体操作系统dfagent-签约电影
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只知发布影视智能体操作系统并签约电影，未说明解决什么具体任务与痛点，价值关无法成立。
+    evidence_ids:
+    - ev-5236e97736fde4b6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无用户采用或行业共识证据。
+    evidence_ids:
+    - ev-5236e97736fde4b6
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-5236e97736fde4b6
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对交付是否确定发生，也无安全与人工边界说明。
+    evidence_ids:
+    - ev-5236e97736fde4b6
+  next_validation: 收集 DFAgent 官方产品页或签约电影项目的公开说明，确认它替代的具体制作环节与交付物。
+  market: ''
+  job: 影视制片方在剧本开发与前期筹备阶段处理剧本、分镜和制作资料，用智能体完成拆解与筹备任务，具体流程待核验。
+  job_en: Film producers handling scripts, storyboards and production materials during script development
+    and pre-production, using agents to break down and prepare tasks; the specific workflow is to be verified.
+  pain: 材料只说明发布了影视智能体操作系统并签约电影，未说明它替代哪一步人工、解决什么具体痛点。
+  pain_en: The material only states that a film and television agent operating system was released and
+    a film project signed; it does not say which manual step it replaces or what specific pain it addresses.
+  current_alternative: 影视筹备通常由制片、统筹等人员手工拆解剧本、编制筹备清单，材料未说明 DFAgent 相较这一旧做法的差异。
+  current_alternative_en: Film preparation is typically done by producers and coordinators manually breaking
+    down scripts and building preparation lists; the material does not describe how DFAgent differs from
+    this old practice.
+  usage_reason: 无法判断：材料未披露具体动作、交付物或可核对结果，无法说明相较手工筹备减少了哪一步负担（推断）。
+  usage_reason_en: 'Cannot be determined: the material discloses no specific actions, deliverables or
+    checkable results, so it cannot show which step of manual preparation is reduced (inference).'
+- id: req-full-深兰科技发布影视智能体操作系统dfagent-签约电影-2026-10-20
+  project_slug: 深兰科技发布影视智能体操作系统dfagent-签约电影
+  level: full
+  reviewed_at: '2026-10-20T01:46:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料只说明发布影视智能体操作系统DFAgent并签约电影，未说明它替代哪一步人工、解决什么具体痛点，无法还原输入、动作与交付闭环，价值关不能成立。
+    evidence_ids:
+    - ev-5236e97736fde4b6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪深兰科技官网或DFAgent官方产品页，确认其替代的具体制作环节、输入材料与交付物。
+  market: ''
+  job: 影视制片方在剧本开发与前期筹备阶段，处理剧本、分镜和制作资料，用智能体完成拆解与筹备任务；具体输入、动作与交付物在公开材料中未说明。
+  job_en: Film producers working on scripts, storyboards and production materials during script development
+    and pre-production, using agents to complete breakdown and preparation tasks; the specific inputs,
+    actions and deliverables are not described in public materials.
+  pain: 公开材料只说明深兰科技发布影视智能体操作系统DFAgent并签约电影，未说明它替代哪一步人工、解决什么具体痛点，因此无法确认痛点是否存在及其刚性。
+  pain_en: Public materials only state that DeepBlue Technology released the film and television agent
+    operating system DFAgent and signed a film project; they do not say which manual step it replaces
+    or what specific pain it addresses, so the existence and rigidity of the pain cannot be confirmed.
+  current_alternative: 影视筹备通常由制片、统筹等人员手工拆解剧本、编制筹备清单；材料未说明DFAgent相较这一旧做法的差异。
+  current_alternative_en: Film preparation is typically done by producers and coordinators manually breaking
+    down scripts and building preparation lists; the material does not describe how DFAgent differs from
+    this old practice.
+  usage_reason: 无法判断：材料未披露具体动作、交付物或可核对结果，无法说明相较手工筹备减少了哪一步负担（推断）。
+  usage_reason_en: 'Cannot be determined: the material discloses no specific actions, deliverables or
+    checkable results, so it cannot show which step of manual preparation is reduced (inference).'

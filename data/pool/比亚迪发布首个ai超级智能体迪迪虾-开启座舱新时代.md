@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE1zZS16MU1yamdJ
 summary: 比亚迪发布首个AI超级智能体迪迪虾 开启座舱新时代 新浪财经
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,45 @@
+- id: req-initial-understanding-chatgpt-work-2026-10-20
+  project_slug: understanding-chatgpt-work
+  level: initial
+  reviewed_at: '2026-08-31T00:37:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨文件与程序完成多步任务的需求，痛点是材料搬运和手动运行步骤多；买方与付费路径尚不清楚。
+    evidence_ids:
+    - ev-2f399dd3e386571f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇独立技术评论描述产品形态，未见用户采用规模或社区共识证据。
+    evidence_ids:
+    - ev-2f399dd3e386571f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、席位或按结果收费方式，钱从哪一方来只能推断。
+    evidence_ids:
+    - ev-2f399dd3e386571f
+  - gate: truth
+    status: insufficient
+    reason: 评论指出产品形态令人困惑且分两个版本，交付确定性与人工边界尚未核验。
+    evidence_ids:
+    - ev-2f399dd3e386571f
+  next_validation: 收集 OpenAI 官方 ChatGPT Work 定价页与企业部署文档，核验其计费方式与桌面版权限边界。
+  market: ''
+  job: 知识工作者和办公团队在处理本地文档、脚本与多步任务时，让 ChatGPT Work 读取材料并执行动作，拿到整理结果或程序输出后再人工核对。
+  job_en: Knowledge workers and office teams handling local documents, scripts and multi-step tasks ask
+    ChatGPT Work to read materials and execute actions, then review the organized output or program results
+    themselves.
+  pain: 旧做法要在聊天窗口、文件管理器和脚本环境之间来回切换，把材料复制粘贴、手动运行程序再拼装结果，步骤多且容易漏。
+  pain_en: The old way means switching between chat windows, file managers and script environments, copying
+    material, running programs by hand and stitching results together, which is many steps and easy to
+    get wrong.
+  current_alternative: 此前用户用普通对话助手加本地脚本、办公软件手工完成，或分别使用编码代理与文档工具。
+  current_alternative_en: Previously users combined a plain chat assistant with local scripts and office
+    software by hand, or used a coding agent and document tools separately.
+  usage_reason: 推断：相较复制粘贴加手动运行，ChatGPT Work 直接读取文件并执行程序，减少了搬运材料和逐步运行这一环，因此需要跨文件与程序完成多步任务的知识工作者会在桌面端选择它；公开材料未给出留存或付费证据。
+  usage_reason_en: 'Inference: compared with copy-paste plus manual execution, ChatGPT Work reads files
+    and runs programs directly, removing the step of moving material and running each piece, so knowledge
+    workers with multi-step file-and-program tasks would choose the desktop version; public material gives
+    no retention or payment evidence.'

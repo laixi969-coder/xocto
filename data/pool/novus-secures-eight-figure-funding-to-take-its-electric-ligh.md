@@ -32,7 +32,7 @@ summary: Mobility company NOVUS has closed a double-digit million funding round,
   you could identify with. You also wanted to impress the girl in the next
 first_seen: '2026-10-20T01:06:54Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

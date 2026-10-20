@@ -184,3 +184,53 @@
     by Nous Research and installs in one step, removing the per-service auth and maintenance burden, so
     users who already deployed the agent and need several external services would install official plugins
     first.'
+- id: req-full-hermes-official-plugins-2026-10-20
+  project_slug: hermes-official-plugins
+  level: full
+  reviewed_at: '2026-10-20T01:43:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自部署代理接入外部服务的连接与维护需求，痛点是逐个处理鉴权、服务一多难维护，不接入则代理停在对话层；旧做法是自写脚本或拼装自动化平台，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-d30ca595fbcb97ea
+    - ev-753f65467394eeb2
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有代理本体与桌面端说明，未见插件目录的采用、留存或开发者讨论证据；Hermès 官网条目与本产品无关，不能作为共识依据。
+    evidence_ids:
+    - ev-d30ca595fbcb97ea
+    - ev-753f65467394eeb2
+  - gate: model
+    status: insufficient
+    reason: 代理本体以 MIT 免费发布，插件目录未披露定价；付费方可能是代理订阅者或插件开发者，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-09aaedd9586026ea
+    - ev-4d5f7d3290b44f2f
+  - gate: truth
+    status: insufficient
+    reason: 未核验插件调用权限边界、鉴权方式与失败处理，代理操作智能家居和播放服务的安全与人工确认边界仍缺公开说明。
+    evidence_ids:
+    - ev-d30ca595fbcb97ea
+    - ev-753f65467394eeb2
+  next_validation: 追踪 Hermes Agent 官方文档或插件目录页面，确认插件鉴权方式、调用权限边界与失败处理说明。
+  market: ''
+  job: 已在自己机器上部署 Hermes Agent 的个人用户或开发者，在需要让代理操作 Home Assistant 设备或 Spotify 播放时，通过官方插件目录把外部服务接入代理，使代理能调用这些服务完成跨服务操作。
+  job_en: An individual user or developer who has self-hosted Hermes Agent needs the agent to operate
+    Home Assistant devices or Spotify playback, and connects those external services through the official
+    plugin catalog so the agent can invoke them for cross-service tasks.
+  pain: 自建连接器要逐个读 API、处理鉴权并长期维护，服务一多就难以为继；不接入则代理只能停在对话层，无法真正操作外部服务。这是从产品能力与旧流程推出的结构判断，尚无用户抱怨或案例佐证。
+  pain_en: Self-built connectors require reading each API, handling auth and maintaining them over time,
+    which becomes unmanageable as services multiply; without integration the agent stays at the chat layer
+    and cannot actually operate external services. This is a structural inference from product capability
+    and the old workflow, not yet backed by user complaints or cases.
+  current_alternative: 自己写脚本或连接器，或用 Zapier、IFTTT 等自动化平台拼装流程，再手动把凭据交给代理。
+  current_alternative_en: Writing scripts or connectors yourself, or assembling flows on automation platforms
+    such as Zapier or IFTTT, then manually handing credentials to the agent.
+  usage_reason: 推断：相较自建连接器，官方维护的插件目录把鉴权与接入封装成一次安装，省掉逐个读 API、配凭据和维护这一步，因此已部署该代理、需要接入多个外部服务的用户会先装官方插件而非自己写。
+  usage_reason_en: 'Inference: versus self-built connectors, the officially maintained catalog packages
+    auth and connection into a single install, removing the per-service API reading, credential setup
+    and maintenance step, so users who already deployed the agent and need several external services would
+    install official plugins rather than write their own.'

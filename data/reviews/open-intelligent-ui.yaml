@@ -188,3 +188,54 @@
     building conversational products that need map/chart/tool answers would pick it when prototyping or
     shipping interactive responses. Stars rising from 391 to 538 indicate attention only, not a reason
     for adoption.'
+- id: req-full-open-intelligent-ui-2026-10-20
+  project_slug: open-intelligent-ui
+  level: full
+  reviewed_at: '2026-10-20T01:44:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决对话式产品把模型文本流变成可点击地图、图表和工具界面的需求；旧做法是开发者自建解析与渲染管线，不解决则回答停留在纯文本、用户需自行复制到其他工具。这是工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+    - ev-e5f4a750a6acc41d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 391 增至 656 只反映关注度，没有用户评价、采用案例或讨论记录说明开发者是否在真实项目中接入，场景感知强度无法确认。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+    - ev-e5f4a750a6acc41d
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、商业授权或企业支持路径，买方可能是自建应用的开发者或采购团队，但钱从哪来属判断而非已验证事实。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持的组件范围、流式渲染的确定性、失败回退与人工确认边界，无法核对交付是否稳定发生。
+    evidence_ids:
+    - ev-85c59537ee6629f6
+    - ev-e5f4a750a6acc41d
+  next_validation: 追踪该仓库 README 与 issue/discussion，核对实际支持的组件类型、接入步骤、已知限制及开发者反馈。
+  market: ''
+  job: 应用开发者在构建对话式产品时，需要把模型返回的文本流转换成地图、图片、图表、绘图和可操作工具等界面组件，让终端用户能直接点击、填写或操作，而不是只读一段文字。
+  job_en: App developers building conversational products need to turn streamed model text into UI components
+    such as maps, images, charts, drawings and working tools so end users can click, fill in or operate
+    them instead of only reading text.
+  pain: 公开材料只说明回答以交互 UI 流式呈现，未展示开发者此前手工解析模型输出、拼装组件、处理流式渲染与状态同步的具体耗时和出错点；痛点强度属于工作流结构推理，尚无用户抱怨或案例佐证。
+  pain_en: The public material only says answers stream as interactive UI; it does not show the concrete
+    time cost or failure points of developers manually parsing model output, assembling components and
+    handling streaming render and state sync. Pain intensity is workflow-structural inference, not backed
+    by user complaints or cases.
+  current_alternative: 开发者自行用前端框架解析模型输出并逐类映射到组件，或退回纯文本加少量固定卡片；公开材料未说明本方案具体省掉哪一步。
+  current_alternative_en: Developers parse model output with their own frontend stack and map it to components
+    type by type, or fall back to plain text with a few fixed cards; the material does not show which
+    concrete step this saves.
+  usage_reason: 推断：若它把输出到组件的解析与流式渲染封装成可复用层，开发者接入对话式产品时可省去自建渲染管线这一步，因此正在做多轮对话且需要富交互回答的开发者会在原型或上线阶段选择它；仓库星标从
+    391 增至 656 只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: if it packages output-to-component parsing and streaming render into a
+    reusable layer, developers building conversational products can skip building their own rendering
+    pipeline, so developers doing multi-turn chat with rich interactive answers would choose it at prototype
+    or launch stage; stars rising from 391 to 656 only show attention, not sustained use.'

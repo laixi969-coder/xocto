@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5sT0dNTEluS3pf
 summary: Insurers Expand AI Use Beyond Traditional Underwriting ইন্স্যুরেন্স নিউজ বিডি
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

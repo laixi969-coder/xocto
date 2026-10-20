@@ -224,3 +224,50 @@
     and cold memory into the on-device agent, removing the step of rerunning after over-budget or lost-context
     failures, so Android users with chained tasks would pick it for unattended long runs; no retention
     or payment evidence yet.'
+- id: req-full-rikkahub-agent-pure-2026-10-20
+  project_slug: rikkahub-agent-pure
+  level: full
+  reviewed_at: '2026-10-20T01:45:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决安卓端长时代理任务断链与用量不可控的需求，痛点具体：链式工具调用消耗不可预期、中断后需重跑。旧做法是通用客户端事后看消耗。这是从功能说明做的工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-7153824ed87330e6
+    - ev-66743e778f7c100c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 star 从 41 缓慢增至 51 的关注度信号，属规模证据；没有 issue、评价或采用记录说明谁在什么场景持续使用，共识卡在场景验证一环。
+    evidence_ids:
+    - ev-7153824ed87330e6
+    - ev-66743e778f7c100c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、赞助或买方，开源仓库加 QQ 群只表明社区分发；钱可能来自个人开发者捐赠或后续商业化，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-66743e778f7c100c
+  - gate: truth
+    status: insufficient
+    reason: 无法核对预算上限、冷记忆与子代理在真实长任务中的交付确定性，也未见人工确认与安全边界说明；Shizuku/Termux 权限面较大，需实测。
+    evidence_ids:
+    - ev-7153824ed87330e6
+  next_validation: 追踪该仓库的 issue 与 discussion，确认用量账本、预算上限与长任务交付在真实使用中的表现与反馈。
+  market: ''
+  job: 在安卓手机上通过 Shizuku/Termux/MCP 跑长时间 AI 代理任务的用户，在需要连续执行链式工作流与多次工具调用时，要完成一次不中断、不超预算的任务执行。
+  job_en: Users running long AI agent tasks on Android via Shizuku/Termux/MCP need to complete an uninterrupted,
+    budget-bounded run while executing chained workflows and repeated tool calls.
+  pain: 公开说明只给出产品定位：长任务容易中断、工具与子代理调用带来的用量不可预期。这是从功能描述推出的痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: 'The public description only states the positioning: long runs break down and usage from tool
+    and sub-agent calls is unpredictable. This pain is inferred from the feature description, not directly
+    evidenced by user complaints or cases.'
+  current_alternative: 旧做法是在通用安卓代理客户端里直接跑长任务，事后才看消耗，缺少预算上限与冷记忆，长链任务中断后需重来。
+  current_alternative_en: The old way is running long tasks directly in a generic Android agent client,
+    checking consumption only afterwards, with no budget cap or cold memory, so a broken long chain must
+    restart.
+  usage_reason: 推断：相较通用客户端，它把用量账本与预算、按需工具加载、冷记忆放进设备端代理，减少长任务中途超支或断链后重跑这一步负担，因此跑长链任务的安卓用户会在需要控制成本时选它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: versus generic clients it puts a usage ledger, budgets, on-demand tool
+    loading and cold memory into the on-device agent, removing the burden of mid-run overspend or restarting
+    a broken chain, so Android users running long chains would pick it when cost control matters; no retention
+    or payment evidence yet.'

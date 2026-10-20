@@ -321,3 +321,51 @@
     without waiting for enough real people; browser plus self-hosting lowers install and deployment barriers,
     so players wanting an on-demand voice role-play session would try it. Repository stars only show developer
     attention, not sustained play.'
+- id: req-full-scam-with-your-friends-web-2026-10-20
+  project_slug: scam-with-your-friends-web
+  level: full
+  reviewed_at: '2026-10-20T01:45:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决想随时玩语音合作角色扮演却凑不齐真人的需求，痛点是缺少即时响应的对手戏和开局门槛；开源说明已给出浏览器、3D办公室、语音与配额闭环，属工作流结构推理，娱乐价值成立。
+    evidence_ids:
+    - ev-3a76dab157886cd5
+    - ev-faae968c8f63b984
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从228缓慢增至237，仅说明开发者关注，没有玩家持续游玩、口碑或重复开局证据；共识卡在场景认知与体验质量尚未被公开反馈确认。
+    evidence_ids:
+    - ev-3a76dab157886cd5
+    - ev-068cbad682b30ef9
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、托管收费或赞助路径，钱可能来自自托管服务、内容或捐赠；这是判断而非已验证事实，买方与付费路径均未公开。
+    evidence_ids:
+    - ev-3a76dab157886cd5
+  - gate: truth
+    status: insufficient
+    reason: 语音AI对话质量、延迟、配额机制能否支撑重复游玩，公开材料未给出可核对结果；自托管到Cloudflare降低部署门槛，但体验确定性仍缺实测。
+    evidence_ids:
+    - ev-3a76dab157886cd5
+    - ev-faae968c8f63b984
+  next_validation: 追踪该开源仓库的issue与discussion，收集玩家对语音AI对话质量、延迟和重复开局意愿的公开反馈。
+  market: ''
+  job: 玩家与朋友在浏览器中组队，进入3D呼叫中心办公室，用语音与AI扮演的客户对话，完成每日配额任务，获得合作角色扮演的娱乐体验。
+  job_en: Players team up with friends in a browser, enter a 3D call-center office, talk by voice to AI-played
+    customers, and hit daily quotas for a cooperative role-play experience.
+  pain: 想玩需要真人对手戏的语音角色扮演时，凑齐固定队友、约时间、装客户端都是门槛；单人剧情又缺少即兴互动和合作笑料。公开材料只说明产品形态，痛点强度属工作流推理。
+  pain_en: Voice role-play needs human counterparts; gathering fixed teammates, scheduling, and installing
+    clients are barriers, while single-player stories lack improvised interaction and co-op humor. Public
+    materials show the product form; pain intensity is a workflow inference.
+  current_alternative: 约朋友联机传统多人游戏、玩单人剧情游戏，或看直播和视频代替亲自参与；这些都需要排期或缺少语音即兴对手戏。
+  current_alternative_en: Scheduling friends for traditional multiplayer games, playing single-player
+    stories, or watching streams and videos instead of participating; these require scheduling or lack
+    improvised voice counterparts.
+  usage_reason: 推断：AI客户可随时充当对手戏，玩家打开浏览器即可与朋友开局，省去约真人、装客户端和等匹配的步骤；因此想随时开一局语音合作角色扮演的玩家会在朋友在线时选择它。仓库星标从228增至237只说明开发者关注，不能证明持续游玩。
+  usage_reason_en: 'Inference: AI customers provide counterparts on demand, so players can start with
+    friends in a browser, skipping scheduling real people, installing clients, and matchmaking; players
+    wanting an on-demand co-op voice role-play session would choose it when friends are online. Stars
+    rising from 228 to 237 only show developer attention, not sustained play.'

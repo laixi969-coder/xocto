@@ -21,7 +21,7 @@ canonical_url: https://johnzanussi.com/weather
 summary: My Personal Weather Station
 first_seen: '2026-10-20T01:06:26Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

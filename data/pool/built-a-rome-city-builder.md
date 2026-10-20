@@ -21,7 +21,7 @@ canonical_url: https://tiberava.pages.dev
 summary: ''
 first_seen: '2026-10-15T00:32:05Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

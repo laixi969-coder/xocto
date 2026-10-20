@@ -1,0 +1,83 @@
+- id: req-initial-deep-review谷歌推出ai技术文档审核智能体-人工智能-2026-10-20
+  project_slug: deep-review谷歌推出ai技术文档审核智能体-人工智能
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决技术文档发布前审校依赖人工、周期长且易漏的痛点，任务具体；但智能体实际动作未公开。
+    evidence_ids:
+    - ev-1b74014fc8970909
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，未见团队采用、用户评价或使用数据。
+    evidence_ids:
+    - ev-1b74014fc8970909
+  - gate: model
+    status: insufficient
+    reason: 由谷歌推出，但公开材料未说明是否独立收费、包含在何种产品中或面向哪些客户。
+    evidence_ids:
+    - ev-1b74014fc8970909
+  - gate: truth
+    status: insufficient
+    reason: 无法核对审核准确率、误报情况与人工复核边界。
+    evidence_ids:
+    - ev-1b74014fc8970909
+  next_validation: 收集谷歌官方关于 Deep Review 的产品文档或发布说明，确认其具体功能、可用范围与是否披露使用效果。
+  market: ''
+  job: 技术写作者或开发者在发布技术文档前，需要审核内容准确性、一致性与完整性，避免错误进入正式文档。
+  job_en: Before releasing technical documentation, technical writers or developers need to check accuracy,
+    consistency and completeness so errors do not reach the published docs.
+  pain: 文档审校依赖同行抽空评审，周期长且容易漏掉不一致或过时内容。
+  pain_en: Documentation review depends on colleagues finding time to review, which is slow and easily
+    misses inconsistencies or outdated content.
+  current_alternative: 人工同行评审、编辑逐段通读，或依赖拼写与链接检查工具。
+  current_alternative_en: Manual peer review, editors reading section by section, or relying on spelling
+    and link checkers.
+  usage_reason: 推断：若 Deep Review 能在发布前自动通读文档并指出错误或不一致，写作者可省去等待同行评审的一步；但公开材料未说明其具体动作，该理由为结构推断。
+  usage_reason_en: 'Inference: if Deep Review reads the docs before release and flags errors or inconsistencies,
+    writers skip waiting for peer review; public material does not describe its actions, so this is structural
+    inference.'
+- id: req-full-deep-review谷歌推出ai技术文档审核智能体-人工智能-2026-10-20
+  project_slug: deep-review谷歌推出ai技术文档审核智能体-人工智能
+  level: full
+  reviewed_at: '2026-10-20T01:42:56Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅有发布标题，未说明文档审校的具体痛点、不解决的后果与产品交付动作，连需求与痛点都无法从公开事实还原，价值结构不成立。
+    evidence_ids:
+    - ev-ed88c40cad37361e
+    - ev-9365a8334dedf688
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪谷歌官方博客或开发者文档中关于 Deep Review 的产品说明页，确认其输入、审核动作、交付结果与可用范围。
+  market: ''
+  job: 技术写作者或开发者在发布技术文档前，处理待发布的技术文档，要完成准确性、一致性与完整性审核，避免错误进入正式文档。
+  job_en: Before releasing technical documentation, technical writers or developers handle draft docs
+    and need to check accuracy, consistency and completeness so errors do not reach the published version.
+  pain: 公开材料只有发布标题，未说明文档审校中具体哪里难受、错误漏出会造成什么后果，也未给出任何用户抱怨或案例；痛点无法从证据还原。
+  pain_en: Public material is only a launch headline; it does not describe what specifically hurts in
+    doc review, what consequences follow from missed errors, or any user complaint or case, so the pain
+    cannot be reconstructed from evidence.
+  current_alternative: 公开材料未描述现有替代方式；只能从任务结构推断可能依赖人工同行评审或拼写、链接检查工具，但无证据支持。
+  current_alternative_en: Public material does not describe current alternatives; one can only infer manual
+    peer review or spelling/link checkers from the task structure, without supporting evidence.
+  usage_reason: 无法判断用户为何选择它：公开材料未说明 Deep Review 接收什么输入、执行什么审核动作、交付什么结果，也没有用户反馈或案例；缺少这一环，使用理由只能留空。
+  usage_reason_en: 'Cannot determine why users would choose it: public material does not state what input
+    Deep Review takes, what review actions it performs, or what it delivers, and there is no user feedback
+    or case; without this link, the usage reason cannot be filled.'

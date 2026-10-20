@@ -191,3 +191,53 @@
     into a daily automatic list, removing the repeated 'is there a new term today' search, so SEO or content-matrix
     operators would pick it before planning topics; this is inference from product capability, and star
     growth only shows attention, not sustained use.
+- id: req-full-new-term-radar-2026-10-20
+  project_slug: new-term-radar
+  level: full
+  reviewed_at: '2026-10-20T01:44:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容运营抢新词时间差的需求，痛点是关键词工具收录滞后导致失去先发内容位，旧行为是人工翻平台或等工具更新；产品以每日抓取输出清单完成交付，属工作流结构推理，公开材料尚无用户抱怨。
+    evidence_ids:
+    - ev-b797d7095e0c5679
+    - ev-25640038751f0cef
+    - ev-2df528e4f8dfad3c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 867 升至 1,131，说明有人关注，但无评价、案例或 issue 说明清单被放进日常选题流程，强场景存在而采用共识未核验。
+    evidence_ids:
+    - ev-b797d7095e0c5679
+    - ev-55e0da9001ea38f1
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、订阅或服务收费，钱可能来自 to B 订阅或定制服务，这是判断而非已验证事实，付费路径尚未在公开材料中出现。
+    evidence_ids:
+    - ev-2df528e4f8dfad3c
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未给出清单准确率、误报率与人工筛选边界，无法核对“抢在关键词工具之前”的承诺能否确定性交付，交付质量仍缺可复现实测。
+    evidence_ids:
+    - ev-2df528e4f8dfad3c
+  next_validation: 抓取该仓库的 issue 或 discussion，确认用户对词表准确率、误报与人工筛选负担的实际反馈。
+  market: ''
+  job: 做内容选题或关键词布局的增长运营，在每天排选题前处理 X、公开模型社区、公开代码仓库 与站点地图上新冒出的模型、产品与仓库名称，要完成的任务是在关键词工具收录前拿到一份可用的新词清单并决定写什么。
+  job_en: Growth operators doing content topics or keyword planning, before daily topic selection, work
+    with new model, product and repo names emerging on X, public model community, public code repository
+    and sitemaps, to obtain a usable new-term list before keyword tools index them and decide what to
+    write.
+  pain: 新词从出现到被关键词工具收录存在时间差，晚一步就失去先发内容位；公开材料只给出产品定位，未提供用户抱怨或误报反馈，痛点强度属工作流结构推理。
+  pain_en: There is a lag between a term appearing and keyword tools indexing it, and being late loses
+    the first-mover content slot; public material only gives the product positioning, with no user complaints
+    or false-positive feedback, so pain intensity is workflow-structural inference.
+  current_alternative: 旧做法是人工逐个刷社交平台、代码托管与站点地图，或等关键词工具更新后再补写，候选描述正是针对这一滞后。
+  current_alternative_en: The old way is manually scanning social platforms, code hosting and sitemaps
+    one by one, or waiting for keyword tools to update before writing; the candidate description targets
+    exactly this lag.
+  usage_reason: 相较人工逐平台翻找，它把抓取与去重做成每日自动清单，省掉的是“今天有没有新词”这一步重复检索，因此做 SEO 或内容矩阵的运营会在排选题前选择它；这是基于产品能力的推断，仓库星标增长只说明关注度，不证明持续使用。
+  usage_reason_en: Compared with manually scanning each platform, it turns scraping and deduplication
+    into a daily automatic list, removing the repeated 'is there a new term today' search, so SEO or content-matrix
+    operators would pick it before planning topics; this is inference from product capability, and star
+    growth only shows attention, not sustained use.

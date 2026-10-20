@@ -1,0 +1,86 @@
+- id: req-initial-othello-raises-8m-to-close-the-gap-between-sales-software-an-2026-10-20
+  project_slug: othello-raises-8m-to-close-the-gap-between-sales-software-an
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决成交通话与销售软件之间的记录断点，痛点结构可推断，但材料未说明具体动作与交付，价值无法确认。
+    evidence_ids:
+    - ev-d9466d60256691ae
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，无客户案例、用户评价或采用数据，无法判断销售团队是否已把它纳入流程。
+    evidence_ids:
+    - ev-d9466d60256691ae
+  - gate: model
+    status: insufficient
+    reason: 买方应为 B2B 销售团队，但材料未披露定价、计费方式或付费客户，付费路径未核验。
+    evidence_ids:
+    - ev-d9466d60256691ae
+  - gate: truth
+    status: insufficient
+    reason: 无法判断其输出是否贴近成交记录的第一性目标，也无人工确认边界与交付确定性材料。
+    evidence_ids:
+    - ev-d9466d60256691ae
+  next_validation: 收集 Othello 官方产品页或定价页，确认它接收什么通话材料、输出什么 CRM 记录以及按什么计费。
+  market: ''
+  job: 销售代表在成交通话结束后，需要把通话内容整理成 CRM 记录和跟进事项；材料未说明 Othello 具体如何介入这一步。
+  job_en: After a closing call, a sales rep needs to turn the conversation into CRM records and follow-up
+    items; the material does not say how Othello intervenes in this step.
+  pain: 销售软件与成交通话之间存在断点，通话内容回填 CRM 依赖人工，容易遗漏或延迟；这是从标题推断，材料未给出用户抱怨。
+  pain_en: A gap exists between sales software and the closing call, and backfilling the CRM from calls
+    relies on manual work that can be missed or delayed; this is inferred from the headline, not from
+    user complaints.
+  current_alternative: 销售代表手动记笔记并在通话后自行录入 CRM，或使用现有通话记录工具；材料未说明具体替代对象。
+  current_alternative_en: Sales reps take manual notes and enter them into the CRM after the call, or
+    use existing call-recording tools; the material does not name the specific alternative.
+  usage_reason: 推断：若它能自动把成交通话转成 CRM 记录，可省去通话后手工整理与录入这一步；但材料未给出产品动作、用户反馈或采用证据，选择理由无法核实。
+  usage_reason_en: 'Inference: if it automatically turns closing calls into CRM records, it could remove
+    the manual post-call sorting and entry step; but the material gives no product action, user feedback
+    or adoption evidence, so the reason to choose it cannot be verified.'
+- id: req-full-othello-raises-8m-to-close-the-gap-between-sales-software-an-2026-10-20
+  project_slug: othello-raises-8m-to-close-the-gap-between-sales-software-an
+  level: full
+  reviewed_at: '2026-10-20T01:45:00Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决成交通话内容回填 CRM 的断点，但公开材料只有融资标题，未说明输入材料、产品动作与交付结果，连需求与痛点都只能从标题推断，无法形成结构判断。
+    evidence_ids:
+    - ev-08a6929beea41caf
+    - ev-7d6ab565fcb9a63d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Othello 官方产品页或定价页，确认它接收什么通话材料、输出什么 CRM 记录以及按什么方式计费。
+  market: ''
+  job: 销售代表在成交通话结束后，需要把通话中的承诺、异议和下一步整理成 CRM 记录与跟进事项；公开材料未说明 Othello 具体接收什么通话材料、由谁操作、输出什么记录。
+  job_en: After a closing call, a sales rep needs to turn commitments, objections and next steps into
+    CRM records and follow-ups; the public material does not say what call material Othello ingests, who
+    operates it, or what record it outputs.
+  pain: 标题暗示销售软件与成交通话之间存在断点，通话内容回填依赖人工；但公开材料没有用户抱怨、旧流程细节或遗漏后果，痛点只能从标题推断，无法确认刚性。
+  pain_en: The headline hints at a gap between sales software and the closing call, with manual backfilling;
+    but there are no user complaints, old-workflow details or consequences of omission, so the pain is
+    only inferred from a headline and its rigidity cannot be confirmed.
+  current_alternative: 销售代表通话后手写笔记并自行录入 CRM，或使用现有通话记录与转录工具；材料未点名具体替代对象，也未说明旧做法哪一步最费时。
+  current_alternative_en: Sales reps take notes by hand and enter them into the CRM themselves, or use
+    existing call-recording and transcription tools; the material names no specific alternative and does
+    not say which step of the old practice is most costly.
+  usage_reason: 推断：若产品能自动把成交通话转成 CRM 记录，可省去通话后手工整理与录入；但公开材料没有产品动作、用户反馈或采用证据，无法说明哪类用户会因哪项可核对结果而选择它。
+  usage_reason_en: 'Inference: if the product automatically turns closing calls into CRM records, it could
+    remove manual post-call sorting and entry; but there is no product action, user feedback or adoption
+    evidence, so it cannot be said which users would choose it for which checkable result.'

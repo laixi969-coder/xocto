@@ -23,7 +23,7 @@ canonical_url: https://macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-st
 summary: Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio
 first_seen: '2026-08-31T12:41:22Z'
 last_seen: '2026-09-02T00:14:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

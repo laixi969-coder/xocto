@@ -1,21 +1,34 @@
 ---
 slug: github-10
-name: Github
+name: zcode-mobile-android
 builder: houjinxin
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 同时开多台开发机跑编码代理的程序员，原来要在多个窗口或远程桌面之间来回切换，才能看进度、批权限、补指令。这个非官方 Android 客户端扫码绑定多台桌面后，由手机本地起一个群控台网页，PC
+  浏览器打开即可把各机器的 ZCode 会话排成单屏、双列或四宫格；用户拿到的是一个多机会话总览页，凭据只存本机，具体稳定性与官方兼容性仍待核验。
+inspiration: 趋势是编码代理从单机单会话走向多机并行，管理这些会话本身成了新负担。切入可放在“代理运行看板”这一层：先服务同时维护多台机器的小型开发团队，按机器数或席位向团队收费，而不是再做一个编码代理。
+summary_en: Programmers running coding agents on several machines previously had to switch between windows
+  or remote desktops to check progress, approve permissions and add instructions. This unofficial Android
+  client binds multiple desktops by QR code, serves a control console from the phone, and lets a PC browser
+  arrange each machine's ZCode sessions in single, dual or quad layouts; the user gets a multi-machine
+  session overview, with credentials kept on the device, while stability and official compatibility remain
+  unverified.
+inspiration_en: 'The trend is coding agents moving from one machine and one session to many parallel sessions,
+  which makes managing them a new burden. The opening is a session dashboard layer: serve small teams
+  running several machines first and charge per machine or seat, rather than building another coding agent.'
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: open_source
+industries:
+- 软件开发
+industries_en:
+- software development
+jobs:
+- 同时维护多台开发机的程序员在办公室、家中和云主机上并行运行编码代理时，需要在一个界面里查看各会话进度、批准权限并补充指令
+jobs_en:
+- Programmers running coding agents across several office, home and cloud machines need one view to check
+  each session's progress, approve permissions and add instructions
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://github.com/woshihoujinxin/zcode-mobile-android
 canonical_url: https://github.com/woshihoujinxin/zcode-mobile-android
 summary: "四台机器，一个页面，零次切窗。\r\n\r\n我有四台机器在跑 ZCode：公司台式、家里笔记本、云主机、Mac mini。\r\n\r\n以前最烦的不是看不到进度，而是看不过来。每台机器一个窗口，切来切去，上下文全断。想看眼\
@@ -29,7 +42,7 @@ summary: "四台机器，一个页面，零次切窗。\r\n\r\n我有四台机�
   \ \r\nGitee： https://gitee.com/houjinxin/zcode-mobile-android\r\n\r\n最近 GLM 降智严重，大家可以在本地配置好别的模型，推荐 DS"
 first_seen: '2026-10-20T01:06:24Z'
 last_seen: '2026-10-20T01:06:24Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 sightings:
@@ -41,7 +54,7 @@ sightings:
   kind: product
 ---
 
-# Github
+# zcode-mobile-android
 
 四台机器，一个页面，零次切窗。
 

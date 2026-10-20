@@ -1,6 +1,6 @@
 ---
 slug: xspark-ai融资数亿触觉模型成功率超基线24倍
-name: Xspark AI融资数亿，触觉模型成功率超基线2.4倍
+name: Xspark AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE12VURlVWx0QmV6
 summary: Xspark AI融资数亿，触觉模型成功率超基线2.4倍 汽车之家
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Xspark AI融资数亿，触觉模型成功率超基线2.4倍
+# Xspark AI
 
 Xspark AI融资数亿，触觉模型成功率超基线2.4倍 汽车之家
 

@@ -160,3 +160,44 @@
   usage_reason: 缺少输入、动作与交付描述，无法解释用户为何选择它而非旧做法；此处不作推断。
   usage_reason_en: With no description of input, action or deliverable, there is no basis to explain why
     a user would choose it over the old approach; no inference is made here.
+- id: req-full-eleven-2026-10-20
+  project_slug: eleven
+  level: full
+  reviewed_at: '2026-10-20T01:43:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据只有代理读写修补二进制的能力描述，未说明谁在什么情况下处理什么材料、要完成什么逆向任务，也写不出痛点与旧替代，无法形成价值结构判断。
+    evidence_ids:
+    - ev-94d1a4df9885ae7d
+    - ev-5a7938bc956b9975
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取该产品官方仓库 README 与 issue/discussion，确认目标用户、输入样本类型、代理动作与产出交付物。
+  market: ''
+  job: 资料未说明具体使用者与任务；从摘要只能推测逆向工程师或安全分析人员在处理二进制、安卓应用或 GPU 内核时，借助 ACP 代理完成读取、重命名与修补，但谁在什么情况下使用、产出如何交付均无公开材料支持。
+  job_en: The material identifies no specific user or task; the summary only suggests that reverse engineers
+    or security analysts might use an ACP agent to read, rename and patch binaries, Android apps or GPU
+    kernels, but who uses it under what circumstances and how output is delivered is unsupported by public
+    material.
+  pain: 公开证据未描述任何痛点，只给出代理读取、重命名、修补二进制与内核的能力描述；能力说明不等于用户痛点证据。
+  pain_en: The public evidence describes no pain point, only a capability of agents reading, renaming
+    and patching binaries and kernels; a capability statement is not evidence of user pain.
+  current_alternative: 资料未提及现有替代方式，无法判断此前是用 IDA、Ghidra、Frida 还是手工脚本完成同类逆向工作。
+  current_alternative_en: The material mentions no existing alternative, so it is impossible to judge
+    whether prior work used IDA, Ghidra, Frida or manual scripts for comparable reverse engineering.
+  usage_reason: 缺少输入样本、代理动作与交付物描述，无法解释用户为何选择它而非旧做法；此处不作推断。
+  usage_reason_en: With no description of input samples, agent actions or deliverables, there is no basis
+    to explain why a user would choose it over the old approach; no inference is made here.

@@ -1144,3 +1144,47 @@
     principles, engineering practice and followable labs in one open-source resource, saving readers a
     step of source filtering and example setup, so people learning agent development who need hands-on
     labs would choose it for self-study or coursework.'
+- id: req-full-ai-agent-book-2026-10-20
+  project_slug: ai-agent-book
+  level: full
+  reviewed_at: '2026-10-20T01:41:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该教材 公开代码仓库 仓库的 issue、discussion 与 release 记录，确认读者是否按章节完成实验、报告复现问题及维护者更新频率。
+  market: ''
+  job: 正在构建 AI Agent 的开发者或技术学习者，在需要把「助手如何规划、调用工具、记忆与评测」从零散博客和论文整理成可运行系统时，处理教材章节与配套实验代码，要完成从原理理解到可复现工程实现的任务。
+  job_en: Developers or technical learners building AI agents, when they need to turn scattered blog posts
+    and papers on planning, tool use, memory and evaluation into a runnable system, work through textbook
+    chapters and companion experiment code to move from principle understanding to a reproducible engineering
+    implementation.
+  pain: 公开材料显示该教材面向 AI Agent 设计与工程实践，说明痛点是原理与落地之间的断层：读者知道概念却缺少可跟着做的实验路径，需自行拼凑论文、框架文档与示例代码，理解与验证成本高。这是基于产品定位与章节结构的推理，尚无用户抱怨原文。
+  pain_en: 'Public materials show the book targets AI agent design and engineering practice, implying
+    the pain is a gap between principles and shipping: readers know concepts but lack a follow-along experiment
+    path, having to stitch together papers, framework docs and sample code at high comprehension and verification
+    cost. This is inferred from product positioning and structure, not from quoted user complaints.'
+  current_alternative: 当前替代是零散的技术博客、论文、框架官方文档与 公开代码仓库 示例仓库，读者自行串联阅读并手写 demo；公开材料未提供用户对比评价。
+  current_alternative_en: Current alternatives are scattered technical blogs, papers, framework documentation
+    and public code repository sample repos, which readers chain together and hand-write demos from; public
+    materials provide no user comparison reviews.
+  usage_reason: 相较自行拼凑博客与论文，该教材把设计原理与配套实验放在同一份开源材料中，读者可沿章节顺序直接运行实验，减少“先找资料再拼示例”的检索与组装步骤；推断关注 Agent 工程实践的开发者会因此选择它，但尚无留存或复购证据。
+  usage_reason_en: Compared with stitching blogs and papers together, the book puts design principles
+    and companion experiments in one open-source package, letting readers run experiments in chapter order
+    and cutting the search-and-assemble step; developers focused on agent engineering would plausibly
+    choose it, though no retention or repeat-use evidence exists.

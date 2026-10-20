@@ -138,3 +138,51 @@
     into seven agent steps with prompts and templates, removing the step of re-deriving the process, so
     operators onboarding a new store or colleague would start from it; the repository provides no retention,
     repeat-use or payment evidence, so it cannot be claimed to be long-term embedded in workflows.'
+- id: req-full-ai-cross-border-ecommerce-agent-toolkit-2026-10-20
+  project_slug: ai-cross-border-ecommerce-agent-toolkit
+  level: full
+  reviewed_at: '2026-10-20T01:41:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨境运营 SOP 靠个人经验、换人换店要重讲的需求，痛点是流程散落与标准不统一，旧做法是自建文档；这是从仓库说明做出的工作流结构推理，非用户采用证据。
+    evidence_ids:
+    - ev-3e7bc44365712bee
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 298 增至 434，说明关注度上升，但无用户评价、采用案例或讨论，无法判断共识卡在感知、场景还是利益。
+    evidence_ids:
+    - ev-3e7bc44365712bee
+    - ev-d19f101253b8e0f0
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方是店铺、服务商还是个人运营者属推断，非已验证事实。
+    evidence_ids:
+    - ev-3e7bc44365712bee
+  - gate: truth
+    status: insufficient
+    reason: 提示词与模板能否在真实店铺稳定产出可核对结果，缺少实测、交付结果与人工确认点证据。
+    evidence_ids:
+    - ev-3e7bc44365712bee
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认 7 个工作流各自的输入输出、人工确认点，以及是否有真实店铺使用反馈或付费服务。
+  market: ''
+  job: 跨境电商运营或店铺运营专员在选品、上架、广告投放或客服等日常节点，处理商品信息、平台规则与运营素材，要把原本靠个人经验执行的运营 SOP 按统一标准跑完，并复用到新店铺或新同事。
+  job_en: A cross-border e-commerce operator or store operations specialist at daily nodes such as product
+    selection, listing, ad buying or customer service handles product information, platform rules and
+    operational assets, to run the operations SOP to a consistent standard and reuse it for a new store
+    or colleague.
+  pain: 运营 SOP 长期散落在个人经验、文档和聊天记录里，换人换店就要重讲一遍，动作容易漏、标准不统一，新人上手慢。
+  pain_en: Operations SOPs are scattered across personal experience, documents and chat logs; changing
+    staff or stores means re-explaining everything, steps get missed, standards diverge and onboarding
+    is slow.
+  current_alternative: 旧做法是运营自己整理文档、表格和聊天记录，或直接带新人上手，流程留在个人手里，没有可复用的代理步骤。
+  current_alternative_en: The old way is for operators to assemble their own documents, spreadsheets and
+    chat logs, or to onboard newcomers directly, leaving the process with individuals and no reusable
+    agent steps.
+  usage_reason: 推断：相较自己从零整理文档，它把运营环节预先拆成带提示词和模板的代理步骤，省掉重新梳理流程这一步，因此带新店或新人的运营者会先拿它当起点；仓库未提供留存或付费证据。
+  usage_reason_en: 'Inference: versus assembling documents from scratch, it pre-splits operations steps
+    into agent steps with prompts and templates, removing the step of re-deriving the process, so operators
+    onboarding a new store or colleague would start from it; the repository provides no retention or payment
+    evidence.'

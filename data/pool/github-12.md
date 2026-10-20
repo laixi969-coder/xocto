@@ -1,21 +1,39 @@
 ---
 slug: github-12
-name: Github
+name: Lyra
 builder: jonny6015
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 生活
+summary_zh: 自建曲库的 NAS 用户在整理多年积累的本地音乐时打开 Lyra，它从 QQ 音乐、网易云音乐和 LRCLIB 抓取歌词写入内嵌标签与 .lrc 文件，按 MusicBrainz
+  逐字段补齐标签并标出冲突，按“艺人/专辑/音轨号-曲名”生成路径，并按音频一致或标题艺人时长相近归类重复文件。用户拿到的是先预览、可批量采纳和撤销的改动清单，删除进回收站，最终是否写入仍由用户确认。
+inspiration: 本地曲库整理长期靠 MusicBrainz Picard、beets 等工具加手工核对，痛点是批量写入后不知道改了什么。趋势是个人媒体库这类“存量资产维护”开始被做成可预览、可撤销的批处理流程；切入可从家庭
+  NAS、播客与有声书收藏者这类人群入手，卖点是对每一次改动负责而不是一键覆盖，具体收费方式尚未披露。
+summary_en: 'NAS owners with self-built libraries open Lyra when tidying years of local music: it pulls
+  lyrics from QQ Music, NetEase Cloud Music and LRCLIB into embedded tags and .lrc files, fills tags field
+  by field from MusicBrainz while flagging conflicts, generates artist/album/track-number-title paths,
+  and groups duplicates by identical audio or similar title, artist and duration. Users get a previewable
+  change list with batch accept and undo, deletions go to a recycle bin, and the user still confirms what
+  is written.'
+inspiration_en: Local library cleanup has long meant MusicBrainz Picard or beets plus manual checking,
+  with the pain that batch writes leave you unsure what changed. The trend is that maintaining existing
+  personal media assets is being turned into previewable, undoable batch workflows; the entry point is
+  home NAS owners and podcast or audiobook collectors, sold on accountability for each change rather than
+  one-click overwrite, with pricing not disclosed.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: open_source
+industries:
+- 数字音乐收藏与家庭媒体库
+- 个人媒体资产管理
+industries_en:
+- Personal music collections and home media libraries
+- Personal media asset management
+jobs:
+- 拥有多年本地曲库的 NAS 用户在整理收藏时，需要为大量音频文件补齐歌词与标签、统一目录结构并找出重复文件，同时要能核对并撤销每一次改动
+jobs_en:
+- NAS owners with years of local music need to fill in lyrics and tags, normalize folder structure and
+  find duplicates across many audio files, while being able to review and undo every change
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://github.com/astralwaveorg/lyra
 canonical_url: https://github.com/astralwaveorg/lyra
 summary: "项目地址： https://github.com/astralwaveorg/lyra\r\n文档： https://github.com/astralwaveorg/lyra/tree/main/docs\r\
@@ -35,7 +53,7 @@ summary: "项目地址： https://github.com/astralwaveorg/lyra\r\n文档： htt
   \r\n觉得有用的话点个 Star 就好。"
 first_seen: '2026-10-20T01:06:24Z'
 last_seen: '2026-10-20T01:06:24Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 sightings:
@@ -47,7 +65,7 @@ sightings:
   kind: product
 ---
 
-# Github
+# Lyra
 
 项目地址： https://github.com/astralwaveorg/lyra
 文档： https://github.com/astralwaveorg/lyra/tree/main/docs

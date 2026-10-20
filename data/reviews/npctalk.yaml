@@ -131,3 +131,52 @@
   usage_reason_en: 'Inference: compared with recording line by line, it puts voice generation in a self-hosted
     server so authors can regenerate after script edits, removing the re-record and edit step; mod authors
     who revise scripts often would pick it for story mods.'
+- id: req-full-npctalk-2026-10-20
+  project_slug: npctalk
+  level: full
+  reviewed_at: '2026-10-20T01:44:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模组作者给 NPC 配可变语音的需求，痛点是改台词就要重录、固定语音无法实时对话；自托管语音加 AI 代理工具可把改稿到出声的环节缩短，属工作流结构推理，公开事实支持任务与旧替代。
+    evidence_ids:
+    - ev-97050daf64ad2480
+    - ev-bccb260942f4d9be
+  - gate: consensus
+    status: insufficient
+    reason: 仅有项目自述与一篇媒体报道，未见模组作者的评价、采用案例或社区讨论，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-97050daf64ad2480
+    - ev-bccb260942f4d9be
+  - gate: model
+    status: insufficient
+    reason: 仓库与官网未披露定价或付费路径，开源项目可能靠托管语音服务或赞助变现，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-a4ec3e8d5d2c84c7
+  - gate: truth
+    status: insufficient
+    reason: 语音质量、延迟与游戏内接入的确定性交付均未核验，也未见人工确认环节说明；报道中的响应时间只是单方描述。
+    evidence_ids:
+    - ev-bccb260942f4d9be
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认模组作者实际接入 GTA V 示例后的语音质量、延迟与集成反馈。
+  market: ''
+  job: 游戏模组开发者在为 GTA V 等开放世界游戏制作剧情或角色模组时，需要给原本只有字幕或固定语音的 NPC 配上可随脚本变化的对白语音，最终交付一个能装进游戏、NPC 能实时回话的语音模组。
+  job_en: Game mod developers building story or character mods for open-world titles such as GTA V need
+    to give NPCs that previously had only subtitles or fixed audio script-variable spoken dialogue, delivering
+    a voice mod that installs into the game and lets NPCs respond in real time.
+  pain: 旧做法要么自己录台词、要么请配音、要么只做字幕；录音成本高，改一句台词就要重录重剪，模组迭代被卡在音频制作这一步，且固定语音无法支撑实时对话。
+  pain_en: The old way is to record lines yourself, hire voice actors, or ship subtitles only; recording
+    is costly and every script change forces a re-record and re-edit, so mod iteration stalls on audio
+    production, and fixed audio cannot support real-time conversation.
+  current_alternative: 手工录音、聘请配音演员、复用游戏原版语音文件，或干脆只做字幕不做语音。
+  current_alternative_en: Manual recording, hiring voice actors, reusing the game's original audio files,
+    or shipping subtitles with no voice at all.
+  usage_reason: 推断：相较逐句录音，它把语音合成放在自托管服务里，并给 AI 编码代理提供技能与工具，模组作者改完台词重新生成即可，省掉重录与剪辑这一步；公开报道称 GTA V 模组响应时间
+    1.15–2.2 秒，因此频繁改剧本、想要 NPC 实时回话的模组作者会在做剧情模组时选它。
+  usage_reason_en: 'Inference: compared with recording line by line, it puts voice synthesis in a self-hosted
+    server and gives AI coding agents skills and tools, so authors regenerate after script edits, removing
+    the re-record and edit step; public coverage reports 1.15–2.2 second response times for the GTA V
+    mod, so authors who revise scripts often and want NPCs to reply in real time would pick it for story
+    mods.'

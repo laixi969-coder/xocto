@@ -1,6 +1,6 @@
 ---
 slug: ixl-buys-noredink-some-ai-feedback-goes-straight-to-students
-name: 'IXL buys NoRedInk: some AI feedback goes straight to students'
+name: IXL Learning
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE5aOGtickN5UGdK
 summary: 'IXL buys NoRedInk: some AI feedback goes straight to students Techi'
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# IXL buys NoRedInk: some AI feedback goes straight to students
+# IXL Learning
 
 IXL buys NoRedInk: some AI feedback goes straight to students Techi
 

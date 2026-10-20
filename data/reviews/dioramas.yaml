@@ -604,3 +604,46 @@
     framework, it might remove two separate outsourcing steps for modeling and front-end; but no user
     feedback, case or adoption record supports this motive, and the existing evidence is entirely misaligned
     with the product''s task, so it is impossible to confirm which users would choose it and when.'
+- id: req-full-dioramas-2026-10-20
+  project_slug: dioramas
+  level: full
+  reviewed_at: '2026-10-20T01:43:04Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部是实体微缩模型的制作教程与百科介绍，与三维网页产品无关；无法从这些材料还原目标用户的任务、痛点、旧替代与不解决的后果，连需求本身都写不实。
+    evidence_ids:
+    - ev-209549cb6a1b9023
+    - ev-ca7d78769e64e3ee
+    - ev-bcb17d443abb3bad
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 dioramas 官方仓库的 README 与 issue/discussion，确认是否有团队用它交付真实商业站点，以及素材生成到上线的步骤与人工确认环节。
+  market: ''
+  job: 品牌或独立站的前端与设计人员在制作产品发布页时，处理三维素材与网页代码，要完成一个可交互的三维展示站点。
+  job_en: Front-end and design staff at a brand or independent store building a product launch page work
+    with 3D assets and web code to produce an interactive 3D showcase site.
+  pain: 公开材料没有提供任何关于三维发布页制作痛点的用户陈述、抱怨或案例；现有证据全部是实体微缩模型（diorama）的制作教程与百科介绍，与三维网页产品无关，无法确认用户具体卡在哪一步。
+  pain_en: The public material contains no user statements, complaints or cases about the pain of building
+    3D launch pages; all evidence concerns physical diorama craft tutorials and encyclopedia entries,
+    unrelated to a 3D web product, so the specific user pain point cannot be confirmed.
+  current_alternative: 公开材料未记录目标用户当前的替代做法；实体微缩模型教程不能作为三维网页制作的替代方式证据。
+  current_alternative_en: The public material does not record the target users' current alternatives;
+    physical diorama tutorials cannot serve as evidence of alternatives for 3D web page production.
+  usage_reason: 推断：若产品能把AI素材生成与三维站点编排放进同一框架，可能省去分别外包建模与前端的两段流程；但没有任何用户反馈或案例支持这一动机，公开证据也未说明素材生成到上线的具体步骤，因此无法判断用户为何会选择它。
+  usage_reason_en: 'Inference: if the product puts AI asset generation and 3D site orchestration into
+    one framework, it might remove two separate outsourcing steps for modeling and front-end; but no user
+    feedback or case supports this motive, and the public evidence does not describe the steps from asset
+    generation to launch, so why users would choose it cannot be judged.'

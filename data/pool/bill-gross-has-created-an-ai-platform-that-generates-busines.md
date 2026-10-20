@@ -22,7 +22,7 @@ summary: Bill Gross has created an AI platform that generates business ideas and
   startups NEWS.am TECH
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

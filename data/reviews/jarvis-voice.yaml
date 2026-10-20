@@ -1,0 +1,85 @@
+- id: req-initial-jarvis-voice-2026-10-20
+  project_slug: jarvis-voice
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口述转文字后仍需手动整理的问题，旧做法是系统听写或录音转写再粘贴，痛点具体。
+    evidence_ids:
+    - ev-3a4f80f7f5d9e81e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 42 星、1 个 issue，缺少用户评价或持续使用证据，尚不能说明已进入工作流。
+    evidence_ids:
+    - ev-3a4f80f7f5d9e81e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价或付费方，商业路径是判断不是已验证事实。
+    evidence_ids:
+    - ev-3a4f80f7f5d9e81e
+  - gate: truth
+    status: insufficient
+    reason: 识别准确率、隐私处理与多语言支持未在材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-3a4f80f7f5d9e81e
+  next_validation: 收集 JarvisVoice 官网的定价页与用户评价，确认是否有付费或持续使用证据。
+  market: ''
+  job: macOS 用户在写邮件、填表或记笔记时，需要把口述内容直接变成当前应用里可用的文字。
+  job_en: macOS users writing emails, forms or notes need spoken content turned directly into usable text
+    in the current app.
+  pain: 系统听写准确率有限、不会整理语气与格式，用户还要手动修改。
+  pain_en: Built-in dictation is limited in accuracy and does not tidy tone or format, forcing manual
+    edits.
+  current_alternative: 使用 macOS 自带听写，或先录音再用其他工具转写再粘贴。
+  current_alternative_en: Using macOS built-in dictation, or recording first and transcribing with another
+    tool before pasting.
+  usage_reason: 推断：JarvisVoice 常驻菜单栏自动收音，并把语音交给大模型整理后写入当前输入框，减少听写后手动改写的步骤，因此频繁口述的办公用户会尝试它。
+  usage_reason_en: 'Inference: JarvisVoice stays in the menu bar, captures speech automatically and has
+    a large model tidy it into the active input field, cutting post-dictation rewriting, so office users
+    who dictate often would try it.'
+- id: req-full-jarvis-voice-2026-10-20
+  project_slug: jarvis-voice
+  level: full
+  reviewed_at: '2026-10-20T01:43:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口述转文字后仍需手动整理的问题，旧做法是系统听写或录音转写再粘贴，痛点具体；但识别准确率与交付边界仅由产品说明支撑，属工作流结构推理。
+    evidence_ids:
+    - ev-3a4f80f7f5d9e81e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 42 星，缺少用户评价、issue 讨论或持续使用证据，尚不能说明已进入工作流；关注度不等于采用。
+    evidence_ids:
+    - ev-3a4f80f7f5d9e81e
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价、订阅或付费方，商业路径是判断不是已验证事实；也未显示是否依赖用户自带的模型 API 密钥。
+    evidence_ids:
+    - ev-3a4f80f7f5d9e81e
+  - gate: truth
+    status: insufficient
+    reason: 识别准确率、隐私与音频处理方式、多语言支持及语音指令边界未在材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-3a4f80f7f5d9e81e
+  next_validation: 追踪 JarvisVoice 官网或仓库 README 的定价与隐私说明，并查看仓库 issue／discussion 中用户对识别准确率与持续使用的公开反馈。
+  market: ''
+  job: macOS 用户在写邮件、填表或记笔记时，打开菜单栏程序口述内容，需要把说的话直接变成当前应用里可用的文字，并让 AI 整理成合适语气与格式。
+  job_en: macOS users writing emails, filling forms or taking notes dictate through a menu-bar app and
+    need their speech turned directly into usable text in the active app, with AI tidying tone and format.
+  pain: 系统听写准确率有限、不会整理语气与格式，口述后仍要手动改写；先录音再转写再粘贴则多出跨工具搬运步骤。
+  pain_en: Built-in dictation has limited accuracy and does not tidy tone or format, so users still hand-edit;
+    recording first and transcribing elsewhere adds cross-tool copy-paste steps.
+  current_alternative: 使用 macOS 自带听写，或先录音再用其他转写工具生成文本后粘贴到目标应用。
+  current_alternative_en: Using macOS built-in dictation, or recording first and transcribing with another
+    tool before pasting into the target app.
+  usage_reason: 推断：相较系统听写后手动改写，JarvisVoice 常驻菜单栏自动收音、自动定位输入框，并把语音交给 OpenAI／DeepSeek／Claude 整理后写入当前应用，减少听写后改写与跨工具粘贴两步，因此频繁口述的办公用户会尝试它。
+  usage_reason_en: 'Inference: versus hand-editing after built-in dictation, JarvisVoice stays in the
+    menu bar, captures speech automatically, locates the input field and has OpenAI/DeepSeek/Claude tidy
+    the text into the active app, removing the post-dictation rewrite and cross-tool paste steps, so office
+    users who dictate often would try it.'

@@ -1,0 +1,87 @@
+- id: req-initial-floqer推出ai智能体客户知识库-助力销售团队自动获客-2026-10-20
+  project_slug: floqer推出ai智能体客户知识库-助力销售团队自动获客
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售筛选客户时资料分散、整理耗时的问题，旧做法是手工搜索与复制粘贴，结构上成立；买方是否为销售团队尚待核验。
+    evidence_ids:
+    - ev-d25b940d7a6d102e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有中文报道转述发布，未见用户评价、客户案例或社区讨论，无法判断销售团队是否真的采用。
+    evidence_ids:
+    - ev-d25b940d7a6d102e
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价、计费方式或买方类型，钱从哪来只能推断为 B2B 销售工具订阅，属判断非事实。
+    evidence_ids:
+    - ev-d25b940d7a6d102e
+  - gate: truth
+    status: insufficient
+    reason: 未见线索准确率、人工复核边界或交付结果的可核对证据，承诺能否确定性交付尚不清楚。
+    evidence_ids:
+    - ev-d25b940d7a6d102e
+  next_validation: 收集 Floqer 官方定价页或公开客户案例，核验其计费方式与线索交付结果。
+  market: ''
+  job: 销售开发代表在筛选目标客户时，把公司官网、新闻和公开资料整理成客户画像与触达话术，以决定先联系谁、怎么开口。
+  job_en: Sales development reps compile company websites, news and public materials into account profiles
+    and outreach scripts when prioritizing prospects, to decide whom to contact first and how to open.
+  pain: 公开资料分散在官网、新闻和多个来源，人工逐个整理耗时且容易遗漏关键触发事件，导致触达时机和话术质量不稳定。
+  pain_en: Public information is scattered across websites, news and multiple sources; manual compilation
+    is slow and easily misses key trigger events, making timing and script quality inconsistent.
+  current_alternative: 销售代表手工搜索、复制粘贴到表格或 CRM，再凭经验写开场话术；部分团队用通用聊天助手零散生成。
+  current_alternative_en: Reps manually search, copy-paste into spreadsheets or CRM, and write openers
+    from experience; some teams use general chat assistants piecemeal.
+  usage_reason: 推断：相较手工逐站查资料，产品让智能体先汇总客户公开信息并生成画像与话术，减少资料收集与初稿撰写这一步，因此需要批量筛选线索的销售团队会在日常获客时选择它；线索质量与留存尚无公开证据。
+  usage_reason_en: 'Inference: versus manual site-by-site research, the agent first aggregates public
+    account information and drafts profiles and scripts, cutting the collection and first-draft step,
+    so sales teams screening leads at volume would choose it in daily prospecting; lead quality and retention
+    have no public evidence yet.'
+- id: req-full-floqer推出ai智能体客户知识库-助力销售团队自动获客-2026-10-20
+  project_slug: floqer推出ai智能体客户知识库-助力销售团队自动获客
+  level: full
+  reviewed_at: '2026-10-20T01:43:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售筛选客户时公开资料分散、整理耗时且易漏触发事件的问题，旧做法是手工搜索与复制粘贴，产品以智能体汇总画像与话术完成交付，结构上成立；买方是否为销售团队尚待核验。
+    evidence_ids:
+    - ev-d25b940d7a6d102e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有中文报道转述产品发布，未见用户评价、客户案例或社区讨论，无法判断销售团队是否真的采用或形成使用共识。
+    evidence_ids:
+    - ev-d25b940d7a6d102e
+  - gate: model
+    status: insufficient
+    reason: 报道未披露定价、计费方式或买方类型，钱从哪来只能推断为 B2B 销售工具订阅，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d25b940d7a6d102e
+  - gate: truth
+    status: insufficient
+    reason: 未见线索准确率、人工复核边界或交付结果的可核对证据，承诺能否确定性交付尚不清楚。
+    evidence_ids:
+    - ev-d25b940d7a6d102e
+  next_validation: 收集 Floqer 官方定价页或公开客户案例，核验其计费方式与线索交付结果。
+  market: ''
+  job: 销售开发代表在批量筛选目标客户时，把公司官网、新闻和公开资料整理成客户画像与触达话术，以决定先联系谁、怎么开口。
+  job_en: Sales development reps, when screening prospects in batches, compile company websites, news
+    and public materials into account profiles and outreach scripts to decide whom to contact first and
+    how to open.
+  pain: 公开资料分散在官网、新闻和多个来源，人工逐个整理耗时且容易漏掉关键触发事件，导致触达时机和开场话术质量不稳定。
+  pain_en: Public information is scattered across websites, news and multiple sources; manual compilation
+    is slow and easily misses key trigger events, making timing and opener quality inconsistent.
+  current_alternative: 销售代表手工搜索、复制粘贴到表格或 CRM，再凭经验写开场话术；部分团队用通用聊天助手零散生成。
+  current_alternative_en: Reps manually search, copy-paste into spreadsheets or CRM, and write openers
+    from experience; some teams use general chat assistants piecemeal.
+  usage_reason: 推断：相较手工逐站查资料，产品让智能体先汇总客户公开信息并生成画像与话术，减少资料收集与初稿撰写这一步，因此需要批量筛选线索的销售团队会在日常获客时选择它；线索质量与留存尚无公开证据。
+  usage_reason_en: 'Inference: versus manual site-by-site research, the agent first aggregates public
+    account information and drafts profiles and scripts, cutting the collection and first-draft step,
+    so sales teams screening leads at volume would choose it in daily prospecting; lead quality and retention
+    have no public evidence yet.'

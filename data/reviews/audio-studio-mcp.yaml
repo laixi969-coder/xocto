@@ -1,0 +1,93 @@
+- id: req-initial-audio-studio-mcp-2026-10-20
+  project_slug: audio-studio-mcp
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在本地工程中快速获得背景音乐或音效的需求，痛点是素材检索、授权核对与导入的额外步骤；结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-765e6360d513e07e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库收藏数，缺少用户评价、客户案例或社区讨论，无法判断创作者是否真的把它放进工作流。
+    evidence_ids:
+    - ev-765e6360d513e07e
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径；买方可能是个人创作者或工作室，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-765e6360d513e07e
+  - gate: truth
+    status: insufficient
+    reason: 生成音频的商用授权、质量与人工确认边界未在材料中说明，交付确定性仍待核验。
+    evidence_ids:
+    - ev-765e6360d513e07e
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于生成音频授权条款与商用许可的公开说明。
+  market: ''
+  job: 视频剪辑师或游戏开发者在本地工程中需要一段背景音乐或音效时，通过 MCP 客户端描述需求，让工具在本机生成音频并试听选用。
+  job_en: A video editor or game developer needing background music or a sound effect in a local project
+    describes the need through an MCP client, has the tool generate audio locally, and auditions it for
+    use.
+  pain: 找无版权或可商用音频要在素材库间切换、核对授权，临时占位素材还要额外下载；不解决则剪辑和原型节奏被打断。
+  pain_en: Finding royalty-free or commercially usable audio means switching between stock libraries and
+    checking licenses, and placeholder assets need extra downloads; leaving it unsolved interrupts editing
+    and prototyping rhythm.
+  current_alternative: 素材库检索购买、免费音效站下载，或用云端音频生成 API 再手动导入工程。
+  current_alternative_en: Searching and buying from stock libraries, downloading from free sound sites,
+    or using a cloud audio-generation API and manually importing into the project.
+  usage_reason: 推断：相较在素材库检索并核对授权，它在剪辑或开发环境内直接按描述生成并落盘，省去跨平台搜索和导入这一步，因此对版权敏感、素材需求高频的小团队会在原型和粗剪阶段选择它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: compared with searching stock libraries and checking licenses, it generates
+    from a description and writes files directly inside the editing or development environment, removing
+    the cross-platform search and import step, so copyright-sensitive teams with frequent asset needs
+    would choose it during prototyping and rough cuts; there is no retention or payment evidence yet.'
+- id: req-full-audio-studio-mcp-2026-10-20
+  project_slug: audio-studio-mcp
+  level: full
+  reviewed_at: '2026-10-20T01:42:12Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在本地工程中快速获得背景音乐或音效的需求，痛点是素材检索、授权核对与导入的额外步骤；结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-765e6360d513e07e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库收藏数，缺少用户评价、客户案例或社区讨论，无法判断创作者是否真的把它放进工作流。
+    evidence_ids:
+    - ev-765e6360d513e07e
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径；买方可能是个人创作者或工作室，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-765e6360d513e07e
+  - gate: truth
+    status: insufficient
+    reason: 生成音频的商用授权、质量与人工确认边界未在材料中说明，交付确定性仍待核验。
+    evidence_ids:
+    - ev-765e6360d513e07e
+  next_validation: 收集该仓库的 issue、discussion 或 README 中关于生成音频授权条款与商用许可的公开说明。
+  market: ''
+  job: 视频剪辑师或游戏开发者在本地剪辑工程或开发环境中需要一段背景音乐或临时音效时，通过 Claude Code 等 MCP 客户端输入描述，让工具在本机生成音频文件，试听后决定是否采用或替换为正式素材。
+  job_en: A video editor or game developer needing background music or a temporary sound effect in a local
+    editing project or development environment describes it through an MCP client such as Claude Code,
+    has the tool generate an audio file locally, and auditions it to decide whether to use or replace
+    it with final assets.
+  pain: 公开材料显示其定位是本地生成、无需云端和 API key；由此可推断的痛点是找可商用音频需在素材库间切换、核对授权，临时占位素材还要额外下载导入，打断剪辑与原型节奏。这是工作流结构推理，尚无用户抱怨或案例直接佐证。
+  pain_en: Public material positions it as local generation with no cloud or API key; the inferred pain
+    is that finding commercially usable audio requires switching between stock libraries and checking
+    licenses, while placeholder assets need extra downloads and imports, interrupting editing and prototyping
+    rhythm. This is workflow-structure inference, not yet backed by user complaints or cases.
+  current_alternative: 素材库检索购买、免费音效站下载，或用云端音频生成 API 再手动导入工程。
+  current_alternative_en: Searching and buying from stock libraries, downloading from free sound sites,
+    or using a cloud audio-generation API and manually importing into the project.
+  usage_reason: 推断：相较在素材库检索并核对授权再导入，它在剪辑或开发环境内按描述直接生成并落盘，省去跨平台搜索、下载和导入这几步，因此对版权敏感、素材需求高频的小团队会在原型和粗剪阶段选择它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: compared with searching stock libraries, checking licenses and importing,
+    it generates from a description and writes files directly inside the editing or development environment,
+    removing the cross-platform search, download and import steps, so copyright-sensitive teams with frequent
+    asset needs would choose it during prototyping and rough cuts; there is no retention or payment evidence
+    yet.'

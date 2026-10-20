@@ -176,3 +176,55 @@
     versus self-built scripts, it packages memory, tasks and scheduled reminders into a deployable unit,
     cutting stitching and upkeep. Technical users who care about data ownership and are willing to operate
     a cloud account would therefore choose it for personal task assistance.'
+- id: req-full-talorys-2-2026-10-20
+  project_slug: talorys-2
+  level: full
+  reviewed_at: '2026-10-20T01:45:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人事务中聊天、记忆、任务与提醒分散且托管在厂商处的需求，痛点是数据归属与迁移受限；一条命令部署到自有账号可确定交付，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-bac13493f932cff0
+    - ev-f92828bf26a8f46e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 1,300 增至 1,342，属关注度信号；公开材料只有作者自述部署顺利，没有用户反馈说明日常使用、留存或重复使用。
+    evidence_ids:
+    - ev-bac13493f932cff0
+    - ev-ed1b76518f5a04cf
+    - ev-97c017b5c61f7977
+    - ev-26d38f5a39052e22
+  - gate: model
+    status: insufficient
+    reason: 开源免费、无遥测，公开材料未见定价或付费路径；钱可能来自托管部署服务或支持，这是判断而非已验证事实，存在靠关注度而非收入续命的风险。
+    evidence_ids:
+    - ev-bac13493f932cff0
+    - ev-f92828bf26a8f46e
+  - gate: truth
+    status: insufficient
+    reason: 依赖用户自己的 Cloudflare 账号与免费额度，部署后模型调用成本、维护负担和安全边界未披露；单用户无遥测也意味着交付结果难以从外部核对。
+    evidence_ids:
+    - ev-338d61082da73b49
+    - ev-f92828bf26a8f46e
+  next_validation: 追踪 talorys 公开代码仓库 仓库的 issue 与 discussion，收集部署后实际使用、维护问题与重复使用反馈。
+  market: ''
+  job: 在意数据归属的个人开发者或小团队，在需要把聊天记录、待办、笔记和定时提醒集中到一个助手时，用一条命令把 Talorys 部署进自己的 Cloudflare 账号，让助手在自己的云资源里记住并处理这些个人事务。
+  job_en: Privacy-minded individual developers or small teams who want chats, to-dos, notes and scheduled
+    reminders in one assistant deploy Talorys into their own Cloudflare account with one command, so the
+    assistant remembers and handles personal affairs inside their own cloud resources.
+  pain: 旧做法把聊天与记忆交给厂商托管助手，数据存在别人服务器上、难以迁移，也难确认如何使用；自建脚本加笔记软件则要自己拼接记忆、任务与提醒，维护负担重。
+  pain_en: The old way hands chats and memory to vendor-hosted assistants, where data sits on someone
+    else's servers, is hard to migrate and hard to audit; self-built scripts plus note apps require stitching
+    memory, tasks and reminders together with heavy maintenance.
+  current_alternative: 厂商托管的通用 AI 助手、自建脚本配合笔记与待办应用，或手动使用日历和提醒工具。
+  current_alternative_en: Vendor-hosted general AI assistants, self-built scripts combined with note and
+    to-do apps, or manually using calendars and reminder tools.
+  usage_reason: 推断：相较托管助手，一条命令把聊天、记忆、任务和提醒部署到自有 Cloudflare 账号，省掉了数据托管与迁移顾虑，也免去自行拼接多个工具；因此在意数据归属、又愿意维护云账号的开发者会在个人事务管理场景选择它。公开材料尚无留存或日常使用证据，长期留在工作流仍缺一环。
+  usage_reason_en: 'Inference: compared with hosted assistants, one-command deployment of chat, memory,
+    tasks and reminders into one''s own Cloudflare account removes data-hosting and migration concerns
+    and avoids stitching multiple tools together; developers who care about data ownership and are willing
+    to maintain a cloud account would therefore choose it for personal affairs. Public material still
+    lacks retention or daily-use evidence, so long-term workflow presence remains unverified.'

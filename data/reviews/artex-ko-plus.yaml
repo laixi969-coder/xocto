@@ -253,3 +253,47 @@
   usage_reason_en: 'Inference: if the Korean interface and response steps are genuinely combined, translation
     and assembly steps could shrink; but public evidence does not describe the AI actions, output quality,
     or repeated use by security teams, so why users would choose it cannot be confirmed.'
+- id: req-full-artex-ko-plus-2026-10-20
+  project_slug: artex-ko-plus
+  level: full
+  reviewed_at: '2026-10-20T01:42:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据全部指向同名无关的航空信标与保险机构，未出现韩语事故响应、告警输入或报告交付的任何公开事实，连需求与痛点都无法写出，价值关不成立。
+    evidence_ids:
+    - ev-3688666b94cf231d
+    - ev-d8f2cd6756553026
+    - ev-2f795361dd2345af
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪上游仓库 Autumn-27/ARTEX 的 README、release 与 issue/discussion，确认韩语分支的实际输入、AI 动作、交付物与 AGPL
+    商用说明。
+  market: ''
+  job: 安全分析师在收到入侵告警后，处理韩语日志与告警材料，要梳理攻击链并产出事故响应报告；但公开证据未描述该产品的输入格式、AI 动作与交付物。
+  job_en: After an intrusion alert, a security analyst handles Korean-language logs and alerts to reconstruct
+    the attack chain and produce an incident-response report; however, public evidence does not describe
+    this product's input formats, AI actions, or deliverables.
+  pain: 公开材料没有给出任何用户痛点、抱怨或旧流程描述；现有证据只涉及同名但无关的航空信标与保险机构，无法支撑韩语安全团队的具体痛点。
+  pain_en: Public material provides no user pain, complaint, or legacy-workflow description; the available
+    evidence concerns unrelated namesakes (aviation beacons and an insurance firm) and cannot support
+    a concrete pain for Korean security teams.
+  current_alternative: 无可用公开证据说明安全分析师当前用什么替代方式完成韩语事故响应报告；不能凭产品功能反推旧做法。
+  current_alternative_en: No usable public evidence describes how analysts currently produce Korean incident-response
+    reports; the legacy approach cannot be inferred from product features alone.
+  usage_reason: 无法判断用户为何选择它：证据中没有用户反馈、客户案例或可核对的结果，仅有同名无关站点，因此使用理由不成立，属推断缺口而非事实。
+  usage_reason_en: 'Why users would choose it cannot be judged: there is no user feedback, customer case,
+    or checkable outcome, only unrelated namesake sites, so the usage rationale is a gap rather than a
+    fact.'

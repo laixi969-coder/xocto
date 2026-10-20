@@ -1,6 +1,6 @@
 ---
 slug: ai-chip-startup-tenstorrent-raised-15-billion-in-series-e-fu
-name: AI chip startup Tenstorrent raised $1.5 billion in Series E funding
+name: Tenstorrent
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMie0FVX3lxTE5oMERNRXlGN1ls
 summary: AI chip startup Tenstorrent raised $1.5 billion in Series E funding Quartz
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI chip startup Tenstorrent raised $1.5 billion in Series E funding
+# Tenstorrent
 
 AI chip startup Tenstorrent raised $1.5 billion in Series E funding Quartz
 

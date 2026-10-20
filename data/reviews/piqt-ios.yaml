@@ -1,0 +1,42 @@
+- id: req-initial-piqt-ios-2026-10-20
+  project_slug: piqt-ios
+  level: initial
+  reviewed_at: '2026-08-31T00:37:17Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手机相册素材过多、人工筛选耗时的问题，且以本地处理回避上传顾虑；但筛选标准与交付形态仅有一句描述。
+    evidence_ids:
+    - ev-3ac3ad12518cf872
+  - gate: consensus
+    status: insufficient
+    reason: 几乎没有社区讨论与用户评价，无法判断用户是否真的把它用于日常整理。
+    evidence_ids:
+    - ev-3ac3ad12518cf872
+  - gate: model
+    status: insufficient
+    reason: 面向个人用户的 iOS 应用，可能靠订阅或买断收费，但公开材料未披露定价，这是判断不是事实。
+    evidence_ids:
+    - ev-3ac3ad12518cf872
+  - gate: truth
+    status: insufficient
+    reason: 本地处理贴近隐私诉求，但筛选结果是否准确、是否需要人工复核，公开材料未说明。
+    evidence_ids:
+    - ev-3ac3ad12518cf872
+  next_validation: 收集 Piqt 官网的定价页与功能说明，核验筛选标准、输出形态及是否提供用户案例。
+  market: ''
+  job: iPhone 用户在相册积累大量照片和视频后，用 Piqt 在设备本地筛选整理素材，挑出可用片段。
+  job_en: iPhone users with large photo and video libraries use Piqt on-device to sort and curate footage
+    and pick usable clips.
+  pain: 手机相册素材量大，人工逐张翻看和删除耗时，上传云端整理又有隐私与流量顾虑。
+  pain_en: Phone libraries are large, so reviewing and deleting item by item is slow, while cloud-based
+    curation raises privacy and data concerns.
+  current_alternative: 用户手动在系统相册里翻找删除，或把素材导入电脑与云端工具再整理。
+  current_alternative_en: Users manually browse and delete in the system photo app, or import footage
+    into desktop and cloud tools to sort it.
+  usage_reason: 推断：Piqt 在设备本地完成筛选，省去上传云端这一步，也避免素材离开手机，因此在意隐私、又不想逐张翻看的 iPhone 用户会在整理相册时选择它；筛选准确度与留存尚无公开证据。
+  usage_reason_en: 'Inference: Piqt curates on the device, removing the upload step and keeping footage
+    off the cloud, so privacy-conscious iPhone users who dislike item-by-item review would pick it when
+    tidying their library; accuracy and retention have no public evidence yet.'

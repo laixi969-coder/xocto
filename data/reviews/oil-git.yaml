@@ -175,3 +175,47 @@
     cutting the back-and-forth of terminal commands so reviewers locate changed lines faster; hence individual
     developers or small teams who care about traceable AI edits would pick it after an agent finishes
     coding.'
+- id: req-full-oil-git-2026-10-20
+  project_slug: oil-git
+  level: full
+  reviewed_at: '2026-10-20T01:44:37Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选摘要称其为只读 Git 差异查看器，但全部证据均为原油价格与能源新闻页面，与代码审查任务无关，无法还原用户任务、痛点与旧替代，价值结构无法成立。
+    evidence_ids:
+    - ev-57561197a7a8ee4f
+    - ev-40bf8fe85ba49248
+    - ev-8b2e9f31cbfc3427
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Oil Git 官方产品页或代码仓库的 README、issue 与 discussion，确认其实际功能范围、用户反馈与是否披露定价或团队版。
+  market: ''
+  job: 使用 AI 编码代理的开发者，在代理完成一轮改动后，面对仓库中新增的提交与差异，需要逐文件、逐行确认改了什么，再决定是否保留。
+  job_en: A developer using an AI coding agent, after the agent finishes a round of edits, faces new commits
+    and diffs in the repo and must confirm file by file and line by line what changed before deciding
+    what to keep.
+  pain: 公开证据中没有一条材料描述该产品的用户痛点、抱怨或替代行为；现有证据全部是原油价格与能源新闻页面，与代码审查任务无关，无法据此写出可信痛点。
+  pain_en: None of the public evidence describes this product's user pain, complaints or workaround behavior;
+    all collected items are crude-oil price and energy-news pages unrelated to code review, so no credible
+    pain can be stated.
+  current_alternative: 公开材料未提供任何关于旧做法的信息；按任务结构只能推测为 git 命令行 diff、编辑器内置差异视图或通用 Git 客户端，但这是推理而非证据。
+  current_alternative_en: The public material provides no information on prior practice; by task structure
+    one can only infer git CLI diffs, editor built-in diff views or general Git clients, which is inference
+    rather than evidence.
+  usage_reason: 无法判断：证据中没有产品页面、用户反馈或客户案例说明它相较旧做法减少了哪一步负担，因此不能解释哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be determined: no product page, user feedback or customer case in the evidence
+    shows which step it removes versus prior practice, so it cannot explain which users would choose it
+    and when.'

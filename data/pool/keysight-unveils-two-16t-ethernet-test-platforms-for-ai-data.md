@@ -1,6 +1,6 @@
 ---
 slug: keysight-unveils-two-16t-ethernet-test-platforms-for-ai-data
-name: Keysight unveils two 1.6T Ethernet test platforms for AI data center validation
+name: Keysight Technologies
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNUlRicVN5SEtw
 summary: Keysight unveils two 1.6T Ethernet test platforms for AI data center validation varindia
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Keysight unveils two 1.6T Ethernet test platforms for AI data center validation
+# Keysight Technologies
 
 Keysight unveils two 1.6T Ethernet test platforms for AI data center validation varindia
 

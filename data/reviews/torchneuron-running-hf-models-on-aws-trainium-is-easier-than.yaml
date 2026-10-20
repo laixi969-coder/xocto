@@ -1,0 +1,86 @@
+- id: req-initial-torchneuron-running-hf-models-on-aws-trainium-is-easier-than-2026-10-20
+  project_slug: torchneuron-running-hf-models-on-aws-trainium-is-easier-than
+  level: initial
+  reviewed_at: '2026-10-20T01:06:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图降低 Trainium 迁移成本，但材料未说明具体动作，价值结构无法核验。
+    evidence_ids:
+    - ev-36b463cae97aa382
+  - gate: consensus
+    status: insufficient
+    reason: 无采用、讨论或客户证据。
+    evidence_ids:
+    - ev-36b463cae97aa382
+  - gate: model
+    status: insufficient
+    reason: 开源工具，付费路径未披露。
+    evidence_ids:
+    - ev-36b463cae97aa382
+  - gate: truth
+    status: insufficient
+    reason: 无法核对迁移后部署是否确定可用。
+    evidence_ids:
+    - ev-36b463cae97aa382
+  next_validation: 收集 TorchNeuron 官方仓库文档与 issue 讨论，核验其具体适配动作与可复现部署结果。
+  market: ''
+  job: 机器学习工程师在把模型部署到 AWS Trainium 时，处理模型适配与迁移，要完成可运行的推理部署。
+  job_en: ML engineers deploying models to AWS Trainium handle model adaptation and migration to complete
+    a working inference deployment.
+  pain: 非英伟达芯片的软件栈适配复杂，迁移需要额外工程投入。
+  pain_en: Software stack adaptation for non-Nvidia chips is complex, requiring extra engineering for
+    migration.
+  current_alternative: 手工改写模型代码或依赖厂商提供的迁移文档。
+  current_alternative_en: Manually rewriting model code or relying on vendor migration docs.
+  usage_reason: 材料未提供具体功能细节，无法说明它减少哪一步负担；这是推断缺口，不能以博客标题代替。
+  usage_reason_en: The material gives no concrete feature details, so which step it reduces cannot be
+    stated; this is an inference gap, and a blog title cannot substitute.
+- id: req-full-torchneuron-running-hf-models-on-aws-trainium-is-easier-than-2026-10-20
+  project_slug: torchneuron-running-hf-models-on-aws-trainium-is-easier-than
+  level: full
+  reviewed_at: '2026-10-20T01:45:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把已有 公开模型社区 模型迁到 AWS Trainium 的适配需求，痛点是芯片软件栈差异带来的额外改写与调试成本，不解决就只能留在英伟达或手工迁移；交付目标是可运行推理。这是基于芯片栈差异与产品定位的工作流结构推理，尚无实测结果。
+    evidence_ids:
+    - ev-36b463cae97aa382
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一篇 公开模型社区 官方博客介绍，未见用户讨论、issue、客户案例或采用数据，无法判断工程师是否已把它纳入迁移流程。
+    evidence_ids:
+    - ev-36b463cae97aa382
+  - gate: model
+    status: insufficient
+    reason: 作为 公开模型社区 生态工具，可能通过云厂商合作或开源引流变现，但公开材料未披露定价、买方或商业路径；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-36b463cae97aa382
+  - gate: truth
+    status: insufficient
+    reason: 博客标题承诺更简便，但未公开支持哪些模型、适配动作细节与可复现的部署结果，交付确定性尚无法核对。
+    evidence_ids:
+    - ev-36b463cae97aa382
+  next_validation: 追踪 TorchNeuron 官方仓库或 公开模型社区 文档页，核验其支持的模型清单、适配步骤与可复现的 Trainium 部署示例。
+  market: ''
+  job: 机器学习工程师在已有 公开模型社区 模型、需要部署到 AWS Trainium 而非英伟达 GPU 时，处理模型代码与算子适配，要完成一个能在 Trainium 上跑起来的推理部署。
+  job_en: ML engineers with existing public model community models who must deploy to AWS Trainium instead
+    of Nvidia GPUs handle model code and operator adaptation to complete a working inference deployment
+    on Trainium.
+  pain: Trainium 的软件栈与 CUDA 生态不同，模型迁移需要额外改写与调试，工程师在拿到可用推理前要投入大量适配工作；这是从芯片栈差异推出的结构判断。
+  pain_en: Trainium's software stack differs from the CUDA ecosystem, so migrating a model requires extra
+    rewriting and debugging before a usable inference exists; this is a structural inference from the
+    chip-stack gap.
+  current_alternative: 手工改写模型代码、依赖 AWS 厂商迁移文档，或干脆继续留在英伟达 GPU 上以避免适配成本。
+  current_alternative_en: Manually rewriting model code, relying on AWS vendor migration docs, or staying
+    on Nvidia GPUs to avoid adaptation cost.
+  usage_reason: 推断：TorchNeuron 若把 公开模型社区 模型到 Trainium 的适配动作封装成固定流程，工程师就不必逐步手改代码，可直接得到可运行的推理部署；已在 Trainium
+    上投入算力、希望复用现有 HF 模型的团队会因此选择它。公开材料尚未给出具体适配动作与实测结果。
+  usage_reason_en: 'Inference: if TorchNeuron packages the public model community-to-Trainium adaptation
+    into a fixed flow, engineers avoid step-by-step manual code changes and get a runnable inference deployment;
+    teams already invested in Trainium compute and wanting to reuse existing HF models would choose it.
+    Public material does not yet detail the concrete adaptation steps or measured results.'

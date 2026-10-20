@@ -297,3 +297,54 @@
     after a redesign. Asking before acting and keeping passwords in the page reduce the worry of handing
     an account to a third party, so individuals doing repetitive web work without scripting skills are
     the likely first triers.'
+- id: req-full-dsh-browser-crossplatform-2026-10-20
+  project_slug: dsh-browser-crossplatform
+  level: full
+  reviewed_at: '2026-10-20T01:43:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人用户在多步网页任务中反复点击、填表和翻页的问题，痛点具体且重复发生；旧做法是手工操作或写脚本，脚本随改版失效且普通用户写不出。产品把页面读成带编号控件再执行动作，交付路径可确定，这是工作流结构推理。
+    evidence_ids:
+    - ev-b18855c040637664
+    - ev-a8f6138a8a5794d4
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标在 50 至 103 之间波动的关注度信号，没有用户评价、客户案例或持续使用证据，无法判断是否形成采用共识；星标不能解释用户为何选择它。
+    evidence_ids:
+    - ev-b18855c040637664
+    - ev-2989bbc830d987a7
+    - ev-5dd13c26e15bc3ee
+  - gate: model
+    status: insufficient
+    reason: 这是开源浏览器扩展，未见定价页或付费路径；买方是个人订阅、随 DeepSeek Harness 桌面端打包收费还是纯开源免费，公开材料未说明，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-b18855c040637664
+  - gate: truth
+    status: insufficient
+    reason: 执行前询问、密码留在页面内是安全设计，但公开材料未说明支持哪些网站、误操作如何回滚、验证码和登录态如何处理，交付确定性仍缺关键一环。
+    evidence_ids:
+    - ev-b18855c040637664
+    - ev-a8f6138a8a5794d4
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认实际支持的网站范围、失败与回滚机制，以及是否有用户报告在真实工作流中重复使用。
+  market: ''
+  job: 个人用户（尤其是不写脚本的普通用户）在浏览器里遇到需要多步点击、填表、翻页和切换标签页的网页任务时，让 DeepSeek Harness 桌面端读取当前页面并代为执行操作，自己只做执行前确认。
+  job_en: Individual users, especially non-scripting users, facing multi-step web tasks that require clicking,
+    form filling, paging and tab switching, let the DeepSeek Harness desktop app read the current page
+    and act on their behalf, while they only confirm before execution.
+  pain: 公开材料显示这类网页操作步骤碎、重复度高，用户要反复找按钮、填相同字段并在页面间切换；旧脚本或 RPA 录制流程一旦页面改版就失效，普通用户又写不出脚本，出错后往往要重来。
+  pain_en: 'Public materials indicate such web tasks are fragmented and repetitive: users repeatedly locate
+    buttons, retype the same fields and switch between pages; old scripts or RPA recordings break when
+    a page is redesigned, ordinary users cannot write scripts, and a mistake often means starting over.'
+  current_alternative: 当前替代是人工逐页点击填表，或用脚本、RPA 录制固定流程；前者费时且易错，后者随页面改版失效且门槛高。
+  current_alternative_en: Current alternatives are manual page-by-page clicking and form filling, or scripts
+    and RPA recordings of fixed flows; the former is slow and error-prone, the latter breaks on redesigns
+    and has a high skill barrier.
+  usage_reason: 推断：产品把页面读成带编号控件的文本再执行点击、输入、滚动和跳转，用户不必自己找按钮和填字段，页面改版后也无需重写脚本；执行前询问、密码留在页面内，降低了把账号交给第三方的顾虑。因此常做重复网页操作、又不会写脚本的个人用户会在遇到多步网页任务时选择它。
+  usage_reason_en: 'Inference: the product reads the page as numbered controls and then performs clicks,
+    typing, scrolling and navigation, so users need not hunt for buttons or fill fields, and a redesign
+    does not require rewriting a script. Asking before acting and keeping passwords in the page reduce
+    the worry of handing an account to a third party, so individual users who do repetitive web work but
+    cannot script would choose it for multi-step web tasks.'

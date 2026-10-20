@@ -1,0 +1,86 @@
+- id: req-initial-tori-2-2026-10-20
+  project_slug: tori-2
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决客服逐条读工单、查资料、写回复的负担，重复问题占用资深人力，旧做法是宏模板加关键词机器人，痛点具体。
+    evidence_ids:
+    - ev-e20bbe41a63a14e3
+  - gate: consensus
+    status: insufficient
+    reason: 只有一句产品定位，没有客户案例、用户评价或采用数据，无法判断客户成功团队是否真的把它接入工作流。
+    evidence_ids:
+    - ev-e20bbe41a63a14e3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按席位还是按工单收费，买方可能是企业客服部门，但付费路径与可重复交付均未核验。
+    evidence_ids:
+    - ev-e20bbe41a63a14e3
+  - gate: truth
+    status: insufficient
+    reason: 无法确认它接入哪些渠道、自动处理到什么边界、人工确认环节如何设计，承诺能否确定性交付尚不清楚。
+    evidence_ids:
+    - ev-e20bbe41a63a14e3
+  next_validation: 收集 Tori 官方产品页或文档，核验其接入渠道、自动处理边界与定价方式。
+  market: ''
+  job: 客户成功团队在收到用户工单时，把问题描述和账户资料交给 AI 支持代理，由它生成回复或处理请求，最终由人工确认后发出。
+  job_en: Customer success teams receiving user tickets hand the issue description and account context
+    to an AI support agent, which drafts replies or handles requests, with a human confirming before sending.
+  pain: 工单量大时人工逐条阅读、查资料、写回复，响应慢且质量不稳定；重复问题占用资深客服时间。
+  pain_en: With high ticket volume, staff read, look up context, and write each reply by hand, making
+    responses slow and uneven; repetitive issues consume senior agents' time.
+  current_alternative: 人工客服逐条回复，配合帮助中心文档、宏模板和关键词机器人；复杂问题仍需转人工。
+  current_alternative_en: Human agents reply one by one, aided by help-center docs, canned macros, and
+    keyword bots; complex issues still escalate to people.
+  usage_reason: 推断：相较宏模板和关键词机器人，Tori 直接读取工单内容与账户背景生成针对性回复或执行请求，减少客服查资料和起草这一步；客户成功团队在工单积压、重复问题多时会选择它。候选材料未提供客户案例或留存数据，实际效果尚不可核对。
+  usage_reason_en: 'Inference: compared with macros and keyword bots, Tori reads the ticket content and
+    account context to draft a targeted reply or execute the request, cutting the lookup-and-draft step;
+    customer success teams would choose it when tickets pile up and repetitive issues dominate. The candidate
+    material provides no customer cases or retention data, so actual results are not yet verifiable.'
+- id: req-full-tori-2-2026-10-20
+  project_slug: tori-2
+  level: full
+  reviewed_at: '2026-10-20T01:45:49Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选材料只有一句“AI 客户支持代理”定位，所附证据全部是下颌隆突的医学词条与词典释义，与客服工单场景无关，无法还原用户任务、痛点、旧替代或不解决的后果，价值结构无法成立。
+    evidence_ids:
+    - ev-1ecb3b9ec347b1d4
+    - ev-75b26ae55e651489
+    - ev-04492aeb16f420a9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Tori 官方产品页或文档，核验其接入渠道、自动处理边界与定价方式，并确认其与客服工单场景的对应关系。
+  market: ''
+  job: 客户成功团队在收到用户工单时，把问题描述和账户背景交给 AI 支持代理，由它生成回复或处理请求，人工确认后发出。
+  job_en: Customer success teams receiving user tickets hand the issue description and account context
+    to an AI support agent, which drafts replies or handles requests, with a human confirming before sending.
+  pain: 公开材料只有一句定位描述，没有工单积压、响应时长、重复问题占比或人工负担的任何用户侧事实，无法确认痛点真实存在及其强度。
+  pain_en: The public material contains only a one-line positioning statement, with no user-side facts
+    on ticket backlog, response time, repetitive-issue share, or manual burden, so the pain's existence
+    and intensity cannot be confirmed.
+  current_alternative: 公开材料未说明客户成功团队现在用什么方式处理工单，无法确认旧替代是人工回复、宏模板、帮助中心还是关键词机器人。
+  current_alternative_en: The public material does not state how customer success teams currently handle
+    tickets, so the prior alternative cannot be confirmed as manual replies, macros, help center, or keyword
+    bots.
+  usage_reason: 推断：若产品能读取工单与账户背景并生成针对性回复，可减少查资料和起草这一步；但候选材料未提供任何产品文档、客户案例或使用反馈，无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Inference: if the product can read tickets and account context to draft targeted replies,
+    it could cut the lookup-and-draft step; but the candidate material offers no product docs, customer
+    cases, or usage feedback to explain which users would choose it and when.'

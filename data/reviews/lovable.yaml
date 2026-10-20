@@ -43,3 +43,48 @@
     without engineering backgrounds get a deployable app before committing engineering resources; this
     is an inference from product capability and task structure, as public materials provide no retention
     or repeat-use evidence.
+- id: req-initial-lovable-2026-10-20
+  project_slug: lovable
+  level: initial
+  reviewed_at: '2026-10-15T00:32:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决没有工程团队的人把想法变成可运行网页应用的需求，痛点是外包周期长、改版沟通成本高；买方与付费路径公开材料未说明。
+    evidence_ids:
+    - ev-671f22b463fc2be4
+  - gate: consensus
+    status: insufficient
+    reason: 材料只提到入选名单与融资，没有公开的用户采用、留存或客户案例，无法判断共识是否形成。
+    evidence_ids:
+    - ev-671f22b463fc2be4
+  - gate: model
+    status: insufficient
+    reason: 融资规模说明资本看好，但公开材料未给出定价、付费客户或收入结构，钱从哪来仍是判断而非事实。
+    evidence_ids:
+    - ev-671f22b463fc2be4
+  - gate: truth
+    status: insufficient
+    reason: 生成的应用能否确定性上线、逻辑错误由谁兜底，公开材料未说明，交付边界仍待核验。
+    evidence_ids:
+    - ev-671f22b463fc2be4
+  next_validation: 收集 Lovable 官方定价页与公开客户案例，核验其按什么计价、客户实际交付了什么可上线应用。
+  market: ''
+  job: 非技术背景的创业者或小团队负责人在需要把想法变成可上线的网页应用时，用自然语言描述需求，由产品生成并迭代界面与功能，最终拿到可部署的应用。
+  job_en: Non-technical founders or small-team leads who need to turn an idea into a deployable web app
+    describe requirements in natural language, and the product generates and iterates UI and features
+    to deliver a deployable app.
+  pain: 没有工程团队的人要把需求变成可运行软件，过去要么学编程，要么花钱外包，周期长、沟通成本高，改一版就要再走一轮。
+  pain_en: People without an engineering team who want requirements turned into working software previously
+    had to learn to code or pay an agency, with long cycles, high communication cost, and a new round
+    of work for every revision.
+  current_alternative: 雇外包团队、用模板建站工具、或自己学编程与低代码平台，逐页搭建并反复沟通修改。
+  current_alternative_en: Hiring an agency, using template site builders, or learning to code and low-code
+    platforms, building page by page with repeated back-and-forth.
+  usage_reason: 相较外包或模板建站，产品把“描述需求—生成界面与功能—继续对话修改”压缩成同一轮动作，减少了写需求文档和逐页沟通的步骤；推断非技术创业者在小团队、预算有限且需要快速验证想法时会选择它。
+  usage_reason_en: 'Compared with agencies or template builders, the product compresses describe-generate-revise
+    into one loop, cutting the requirements-document and page-by-page communication steps; inference:
+    non-technical founders with small teams and limited budgets who need fast idea validation would choose
+    it.'

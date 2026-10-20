@@ -1,0 +1,42 @@
+- id: req-initial-bobvault-for-bobcli-2026-10-20
+  project_slug: bobvault-for-bobcli
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决命令行中仓库密钥管理的问题，但材料未说明旧流程痛点与频率，价值结构不完整。
+    evidence_ids:
+    - ev-7547481e133e2242
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句话描述，没有用户评价、采用或社区讨论证据。
+    evidence_ids:
+    - ev-7547481e133e2242
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-7547481e133e2242
+  - gate: truth
+    status: insufficient
+    reason: 无法核验零知识架构的实际安全边界与交付确定性。
+    evidence_ids:
+    - ev-7547481e133e2242
+  next_validation: 收集 BobVault for BobCLI 官方产品页或文档，确认支持的仓库类型、密钥保管方式与是否收费。
+  market: ''
+  job: 开发者在命令行中处理代码仓库时，需要管理仓库访问与密钥，以安全地完成代码操作。
+  job_en: When handling code repositories in the command line, a developer needs to manage repository
+    access and keys to complete code operations securely.
+  pain: 材料只说明零知识架构，没有说明原来密钥管理哪一步难受、频率多高，也没有用户抱怨或替代做法。
+  pain_en: The material only describes a zero-knowledge architecture; it does not show which key-management
+    step was painful, how often, or any user complaint or workaround.
+  current_alternative: 现有替代可能是环境变量、密钥管理服务或手动配置；材料未说明这些做法哪里不够。
+  current_alternative_en: Current alternatives may be environment variables, secret-management services
+    or manual configuration; the material does not say where these fall short.
+  usage_reason: 推断：若零知识架构能减少密钥暴露风险，使用编码代理的开发者可能选择它；但缺少用户反馈与实测，无法确认这一负担是否真实存在。
+  usage_reason_en: 'Inference: if the zero-knowledge architecture reduces key exposure risk, developers
+    using coding agents may choose it; without user feedback or testing, it is unclear whether this burden
+    is real.'

@@ -608,3 +608,49 @@
     and evidence recording into the same step as AI execution, cutting the after-the-fact tracing step,
     so teams under review or audit constraints would choose it when introducing AI code changes. This
     is an inference from product capability, not confirmed by user feedback.
+- id: req-full-autoloom-2026-10-20
+  project_slug: autoloom
+  level: full
+  reviewed_at: '2026-10-20T01:42:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 改代码后变更依据与验收证据缺失的需求，痛点具体，旧做法是人工写说明翻 diff，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-1d665117bf37f471
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标从 350 升至约 1000 的关注度变化，没有团队采用、持续使用或评审流程落地的记录。
+    evidence_ids:
+    - ev-1d665117bf37f471
+    - ev-840be95928044e59
+  - gate: model
+    status: insufficient
+    reason: 桌面客户端免费且未披露定价，买方与收费路径属判断而非已验证事实，可能靠开源社区或后续商业化。
+    evidence_ids:
+    - ev-1d665117bf37f471
+  - gate: truth
+    status: insufficient
+    reason: 未说明治理规则如何配置、证据以何形式产出、能否被评审方采信，交付确定性缺少公开材料支持。
+    evidence_ids:
+    - ev-1d665117bf37f471
+  next_validation: 追踪该 公开代码仓库 仓库的 README、文档与 issue/discussion，确认变更证据的实际产出形式及是否有团队在评审流程中采用。
+  market: ''
+  job: 开发团队在让 AI 修改既有代码库时，打开桌面客户端，对改动前后的代码基线做记录，并产出可追溯的变更与验收材料，供评审或交付使用。
+  job_en: When letting AI modify an existing codebase, a development team opens the desktop client to
+    record the pre-change baseline and produce traceable change and acceptance material for review or
+    delivery.
+  pain: AI 改动代码后，团队难以说清改了哪一步、依据是什么；评审和验收时缺少可核对材料，只能靠人工回忆和翻 diff，责任边界模糊。
+  pain_en: After AI edits code, teams struggle to explain which step changed and on what basis; reviews
+    and acceptance lack checkable material, forcing reliance on memory and diff reading, with blurred
+    accountability.
+  current_alternative: 旧做法是人工写提交说明、翻看 diff，或用通用版本控制与代码评审流程事后补记录。
+  current_alternative_en: The old way is writing commit messages by hand, reading diffs, or patching records
+    afterward through generic version control and code review processes.
+  usage_reason: 相较人工补写提交说明和翻 diff，它把基线与证据记录放进 AI 执行的同一步，减少事后追溯这一步，因此受评审或审计约束的团队在引入 AI 改代码时会选择它。这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with manually writing commit messages and reading diffs, it puts baseline
+    and evidence recording into the same step as AI execution, cutting the after-the-fact tracing step,
+    so teams under review or audit constraints would choose it when introducing AI code changes. This
+    is an inference from product capability, not yet backed by user feedback.

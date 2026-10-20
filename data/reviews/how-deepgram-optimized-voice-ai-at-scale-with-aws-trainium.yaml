@@ -1,0 +1,95 @@
+- id: req-initial-how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium-2026-10-20
+  project_slug: how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium
+  level: initial
+  reviewed_at: '2026-10-20T01:06:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决成批录音转文字与分析的需求，痛点是人工回听慢、通用 API 成本随量线性上升；买方与付费路径尚待核验。
+    evidence_ids:
+    - ev-7d95d0612ba05e3f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出开发者与机构数量，未见客户对转写质量或工作流替代的具体评价。
+    evidence_ids:
+    - ev-7d95d0612ba05e3f
+  - gate: model
+    status: insufficient
+    reason: 按 API 调用或自建部署收费的方向可推断，但本次材料未披露定价与合同结构。
+    evidence_ids:
+    - ev-7d95d0612ba05e3f
+  - gate: truth
+    status: insufficient
+    reason: 批量转写贴近第一性目标，但医疗与呼叫中心场景的准确率、脱敏与人工复核边界未在材料中说明。
+    evidence_ids:
+    - ev-7d95d0612ba05e3f
+  next_validation: 收集 Deepgram 官方定价页或客户案例页，核对其按音频时长或部署方式的计价与已披露的行业客户交付结果。
+  market: ''
+  job: 呼叫中心质检、医院病案和媒体字幕团队需要把成批录音转成可检索、可分析的文字，并在此基础上完成合规检查、病历整理或字幕交付。
+  job_en: Contact-centre QA, hospital records and media subtitle teams need to turn batches of recordings
+    into searchable, analysable text and then complete compliance checks, medical records or subtitle
+    delivery.
+  pain: 人工回听与逐字转写耗时且难以规模化，批量任务对算力预算敏感，同样的基础设施开销能处理多少音频直接决定单位成本。
+  pain_en: Manual listening and verbatim transcription are slow and hard to scale, and batch jobs are
+    sensitive to compute budgets, so how much audio a fixed infrastructure spend covers directly sets
+    unit cost.
+  current_alternative: 过去靠人工回听抽检、外包转写或按分钟计费的通用云语音 API，成本随音频量线性上升。
+  current_alternative_en: Previously teams relied on manual spot-check listening, outsourced transcription
+    or per-minute general cloud speech APIs, with costs rising linearly with audio volume.
+  usage_reason: 推断：把 Nova-3 移植到 Trainium2 并以单实例八副本运行，使同样的加速器小时能处理更多离线音频，批量质检和病案转写团队因此在处理量上升时不必同比增加算力开支，从而更可能选择它而非按分钟计费的通用
+    API。
+  usage_reason_en: 'Inference: porting Nova-3 to Trainium2 with eight replicas per instance lets the same
+    accelerator hour process more offline audio, so batch QA and medical transcription teams facing rising
+    volume need not scale compute spend proportionally, making it more likely they choose it over per-minute
+    general APIs.'
+- id: req-full-how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium-2026-10-20
+  project_slug: how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium
+  level: full
+  reviewed_at: '2026-10-20T01:43:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决成批录音转文字与分析的需求，痛点是人工回听慢、通用 API 成本随量线性上升；官方定价页显示按语音识别与语音代理能力售卖，说明有明确使用场景。这是工作流结构推理，买方与合同结构尚待核验。
+    evidence_ids:
+    - ev-6999daf9ee3cfa90
+    - ev-16a16a7ce596054f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只给出 20 万开发者和 1400 家机构的总量，未见客户对转写质量、批量交付结果或替代旧流程的具体评价，无法判断持续采用。
+    evidence_ids:
+    - ev-16a16a7ce596054f
+  - gate: model
+    status: insufficient
+    reason: 定价页按语音识别与语音代理能力展示，可推断按 API 调用或自建部署收费，但本次材料未披露具体单价、合同结构与 Trainium2 部署的计价方式。
+    evidence_ids:
+    - ev-6999daf9ee3cfa90
+    - ev-8ed36796e21c3d28
+  - gate: truth
+    status: insufficient
+    reason: 批量转写贴近第一性目标，但医疗与呼叫中心场景的准确率、脱敏与人工复核边界未在材料中说明，交付确定性尚缺公开证据。
+    evidence_ids:
+    - ev-16a16a7ce596054f
+  next_validation: 收集 Deepgram 官方客户案例页或定价页中关于 Trainium2 批量部署的计价与已披露行业客户的交付结果。
+  market: ''
+  job: 呼叫中心质检人员、医院病案转写人员和媒体字幕团队在积累了大量通话、门诊或节目录音后，需要把这些音频批量转成可检索、可分析的文字稿，再完成合规抽检、结构化病历或字幕交付。
+  job_en: Contact-centre QA staff, hospital transcription staff and media subtitle teams accumulate large
+    volumes of call, clinic or programme recordings and need to batch-convert them into searchable, analysable
+    transcripts before completing compliance checks, structured medical records or subtitle delivery.
+  pain: 人工回听与逐字转写慢且难以规模化，批量离线任务对算力预算高度敏感；同样的基础设施开销能处理多少音频，直接决定单位转写成本与能否承接更大批量。
+  pain_en: Manual listening and verbatim transcription are slow and hard to scale, and offline batch jobs
+    are highly sensitive to compute budgets; how much audio a fixed infrastructure spend covers directly
+    sets unit transcription cost and whether larger batches can be taken on.
+  current_alternative: 过去靠人工回听抽检、外包转写，或按音频分钟计费的通用云语音 API；成本随音频量线性上升，大批量时预算压力明显。
+  current_alternative_en: Teams previously relied on manual spot-check listening, outsourced transcription,
+    or per-minute general cloud speech APIs, where cost rises linearly with audio volume and budget pressure
+    is acute at large batch sizes.
+  usage_reason: 推断：把 Nova-3 移植到 Trainium2 并以单实例八副本运行，使同样的加速器小时能处理更多离线音频，批量质检和病案转写团队在处理量上升时不必同比增加算力开支，因此在成本敏感的批量场景下更可能选择它而非按分钟计费的通用
+    API。
+  usage_reason_en: 'Inference: porting Nova-3 to Trainium2 with eight replicas per instance lets the same
+    accelerator hour process more offline audio, so batch QA and medical transcription teams facing rising
+    volume need not scale compute spend proportionally, making it more likely they choose it over per-minute
+    general APIs in cost-sensitive batch scenarios.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LbDhUNnhCYmJn
 summary: AI产业景气度追踪：AI板块持续回调，融资担忧上升_趋势策略_研报 证券之星
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

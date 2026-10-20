@@ -124,3 +124,50 @@
     and all available coupons at once and returns the cheapest combination, removing the item-by-item
     comparison step, so price-sensitive frequent orderers would use it before ordering; this motive is
     not yet confirmed by user feedback or cases.'
+- id: req-full-mcd-saver-strategist-2-2026-10-20
+  project_slug: mcd-saver-strategist-2
+  level: full
+  reviewed_at: '2026-10-20T01:44:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是点餐前在菜单与多张优惠券间找最省组合的需求，痛点是人工比价易漏、易多花钱，属高频刚性小额支出；公开示例给出 ¥47→¥21.9 的具体交付，结构上交付可确定，但优惠券数据来源与更新方式未公开，属工作流推理。
+    evidence_ids:
+    - ev-1ded220feafb550d
+    - ev-8af5e60448a02caa
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 524 增至 705，说明开发者社区关注度上升，但这是关注度而非目标消费者持续使用证据；公开材料未见用户评价、复购或留存数据，强场景是否成立仍缺一环。
+    evidence_ids:
+    - ev-1ded220feafb550d
+    - ev-8af5e60448a02caa
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径；作为参赛 Skill 与开源项目，可能走 to C 免费或 to VC 关注路线，但这是判断而非已验证事实，缺可核验的付费路径。
+    evidence_ids:
+    - ev-1ded220feafb550d
+  - gate: truth
+    status: insufficient
+    reason: 交付依赖麦当劳 MCP 与优惠券数据的实时准确性，公开材料未说明数据来源、更新频率与失效处理；若券信息过期，最省方案可能失真，安全与人工边界尚缺可复现证据。
+    evidence_ids:
+    - ev-1ded220feafb550d
+    - ev-896fde7fca678f6b
+  next_validation: 追踪项目仓库的 README、issue 与 discussion，确认麦当劳 MCP 优惠券数据来源、更新频率及是否有真实用户反馈其方案可复现。
+  market: ''
+  job: 消费者在麦当劳点餐前，把当前菜单和手上可用的优惠券交给助手，要求算出一份最省钱的点餐组合，再按方案自行下单。
+  job_en: Before ordering at McDonald's, a consumer gives the assistant the current menu and their available
+    coupons, asks for the cheapest order combination, and then places the order themselves.
+  pain: 麦当劳优惠券种类多、叠加规则与套餐组合复杂，用户逐张比对券和单品价格容易漏掉更省的组合，点完才发现多花钱；这是高频小额消费中的比价负担。
+  pain_en: McDonald's coupons are numerous with complex stacking and combo rules; comparing each coupon
+    against item prices by hand easily misses the cheapest combination, so users overpay and only notice
+    afterward. This is a recurring comparison burden in frequent small purchases.
+  current_alternative: 用户目前靠人工翻看 App 内优惠券、凭经验拼套餐，或在社交平台搜现成省钱攻略，逐项心算比价。
+  current_alternative_en: Users currently scroll coupons in the app, assemble combos from experience,
+    or search social platforms for ready-made saving tips, comparing prices mentally item by item.
+  usage_reason: 推断：相较人工逐张比对，它一次性拉取菜单与全部可用券并直接输出最省组合（公开示例为巨无霸套餐 ¥47→¥21.9），省去用户自己枚举组合和心算的步骤，因此对价格敏感、点单前愿意多花一分钟比价的消费者有吸引力。
+  usage_reason_en: 'Inference: unlike manual coupon-by-coupon comparison, it pulls the menu and all available
+    coupons at once and outputs the cheapest combination (public example: Big Mac meal ¥47→¥21.9), removing
+    the step of enumerating combos and doing mental math, which appeals to price-sensitive consumers willing
+    to spend an extra minute before ordering.'

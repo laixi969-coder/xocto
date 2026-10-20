@@ -21,7 +21,7 @@ canonical_url: https://docs.hypermass.io/docs/cli
 summary: Stream live open data in two commands
 first_seen: '2026-10-14T01:13:55Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

@@ -342,3 +342,53 @@
     developers who already run a local model and require communication to stay in WeChat would choose
     it for everyday questions. Stars rising from 142 to 235 only shows growing attention; without retention
     or repeat-use evidence, it cannot be claimed as long-term workflow placement.'
+- id: req-full-dsh-wechat-2026-10-20
+  project_slug: dsh-wechat
+  level: full
+  reviewed_at: '2026-10-20T01:43:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地模型缺少日常入口的需求：团队沟通在微信、模型只在终端或网页，来回切换是刚性摩擦，不解决则模型难以进入日常使用；仓库描述与星数增长支持结构推理，但无用户抱怨或采用记录。
+    evidence_ids:
+    - ev-324b5445554c85cd
+    - ev-b736edb6b121012f
+  - gate: consensus
+    status: insufficient
+    reason: 星数从 160 增至 250 只说明开发者关注度上升，属关注度证据；没有 issue、discussion 或用户反馈证明团队已把它放进日常工作流。
+    evidence_ids:
+    - ev-324b5445554c85cd
+    - ev-b736edb6b121012f
+  - gate: model
+    status: insufficient
+    reason: 开源仓库无定价页、付费路径或客户案例，钱可能来自部署与运维服务，这是判断而非已验证事实；也未说明买方是个人开发者还是团队。
+    evidence_ids:
+    - ev-4b46fdbe255c441f
+  - gate: truth
+    status: insufficient
+    reason: 微信通道涉及平台规则与账号安全边界，公开材料未说明支持的消息类型、部署步骤、合规方式与人工确认环节，交付确定性无法核对。
+    evidence_ids:
+    - ev-324b5445554c85cd
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认支持的消息类型、部署步骤、微信侧合规说明以及是否有使用者反馈。
+  market: ''
+  job: 已自建或本地部署 DeepSeek Harness 的开发者，在团队日常沟通发生在微信里的情况下，处理日常问答或内部查询，希望不切换应用就在微信会话中调用自己的模型。
+  job_en: A developer who has already self-hosted or locally deployed DeepSeek Harness, in a situation
+    where team communication happens in WeChat, handles everyday questions or internal lookups and wants
+    to invoke their own model inside WeChat conversations without switching apps.
+  pain: 本地模型通常只有命令行或网页界面，而团队沟通在微信里，来回切换或另建客户端增加摩擦；公开材料只有仓库描述和星数，没有用户抱怨或采用记录，痛点强度属工作流结构推理。
+  pain_en: Local models usually expose only a CLI or web UI while team communication lives in WeChat,
+    so switching back and forth or building another client adds friction; public material offers only
+    the repo description and star counts, no user complaints or adoption records, so pain intensity is
+    a workflow-structure inference.
+  current_alternative: 直接在终端或网页界面调用本地模型，或使用现成云端聊天助手；也可能自行开发微信机器人，需要额外对接与维护。
+  current_alternative_en: Calling the local model from a terminal or web UI, or using an existing cloud
+    chat assistant; some teams build their own WeChat bot, requiring extra integration and maintenance.
+  usage_reason: 推断：相较终端或网页调用，它把模型调用搬进用户已打开的微信会话，省掉切换应用和自建机器人对接这一步，因此对已部署本地模型、又要求沟通留在微信内的开发者有吸引力；星数从 160
+    增至 250 只说明关注度，缺少留存或重复使用证据，不能确认已长期留在工作流中。
+  usage_reason_en: 'Inference: compared with terminal or web calls, it moves model invocation into the
+    WeChat conversation users already have open, removing the app-switching and self-built-bot integration
+    step, which appeals to developers who already run a local model and require communication to stay
+    inside WeChat; stars rising from 160 to 250 only show attention, and without retention or repeat-use
+    evidence long-term workflow placement cannot be confirmed.'

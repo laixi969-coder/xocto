@@ -1,0 +1,92 @@
+- id: req-initial-blender-skills-2026-10-20
+  project_slug: blender-skills
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决三维美术流程中重复且易错的手工步骤，旧流程明确，结构上成立，但缺少用户反馈。
+    evidence_ids:
+    - ev-16c5a954e06a8c2c
+    - ev-50d4061fc102876e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 203 增至 286，说明关注度上升，但没有评价或采用证据说明持续使用。
+    evidence_ids:
+    - ev-16c5a954e06a8c2c
+    - ev-50d4061fc102876e
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，买方可能是工作室或外包团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-50d4061fc102876e
+  - gate: truth
+    status: insufficient
+    reason: 无法核验代理执行后资产质量与人工确认边界，交付确定性未知。
+    evidence_ids:
+    - ev-16c5a954e06a8c2c
+  next_validation: 查看仓库 issue 与 discussion，确认用户实际使用中哪些 Blender 步骤被代理执行、哪些仍需人工确认。
+  market: ''
+  job: 三维美术师在 Blender 中完成建模、UV、PBR 材质、烘焙、绑定、动画与导出时，需要让编码代理按固定流程执行重复步骤并做质量检查，最终交付可用的场景文件。
+  job_en: When completing modeling, UVs, PBR materials, baking, rigging, animation and export in Blender,
+    a 3D artist needs a coding agent to execute repetitive steps in a fixed workflow and run QA, delivering
+    usable scene files.
+  pain: 这些步骤在 Blender 中大量重复且容易出错，美术师需要逐项手动操作和检查；仓库把流程写成代理步骤，说明作者认为这一步值得自动化。
+  pain_en: These steps are highly repetitive and error-prone in Blender, requiring manual operation and
+    checking item by item; the repository encodes the workflow as agent steps, indicating the author saw
+    this step as worth automating.
+  current_alternative: 现有替代是美术师在 Blender 中手动操作，或使用脚本与插件完成部分步骤；材料未说明这些做法具体哪里不够。
+  current_alternative_en: Current alternatives are manual work in Blender or scripts and add-ons for some
+    steps; the material does not say where these fall short.
+  usage_reason: 推断：代理按预设步骤执行建模、UV、烘焙与导出，可减少美术师逐项手动操作和重复检查的步骤，因此处理批量资产的美术师可能选择它；尚无用户反馈证明持续使用。
+  usage_reason_en: 'Inference: an agent executing modeling, UV, baking and export steps could reduce item-by-item
+    manual work and repeated checks, so artists handling batch assets may choose it; no user feedback
+    yet proves sustained use.'
+- id: req-full-blender-skills-2026-10-20
+  project_slug: blender-skills
+  level: full
+  reviewed_at: '2026-10-20T01:42:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决三维美术流程中重复且易错的手工步骤，旧流程是手动操作或零散脚本，结构上成立；缺少用户反馈，属工作流推理。
+    evidence_ids:
+    - ev-16c5a954e06a8c2c
+    - ev-50d4061fc102876e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 203 增至 286，说明关注度上升；但没有评价、客户案例或重复使用证据说明它已进入工作流。
+    evidence_ids:
+    - ev-16c5a954e06a8c2c
+    - ev-50d4061fc102876e
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，买方可能是工作室或外包团队，属判断而非已验证事实；无定价页不取消真需求判定。
+    evidence_ids:
+    - ev-50d4061fc102876e
+  - gate: truth
+    status: insufficient
+    reason: 无法核验代理执行后资产质量与人工确认边界，交付确定性未知，需看实际使用反馈。
+    evidence_ids:
+    - ev-16c5a954e06a8c2c
+  next_validation: 追踪该仓库 issue 与 discussion，确认用户实际使用中哪些 Blender 步骤被代理执行、哪些仍需人工确认。
+  market: ''
+  job: 三维美术师在 Blender 中处理建模、UV、PBR 材质、烘焙、绑定、动画与导出时，让 Claude Code、Codex 等编码代理按仓库预设流程执行重复步骤并做质量检查，交付可用的场景文件。
+  job_en: A 3D artist handling modeling, UVs, PBR materials, baking, rigging, animation and export in
+    Blender has coding agents such as Claude Code or Codex execute repetitive steps per the repository's
+    preset workflow and run QA, delivering usable scene files.
+  pain: 这些 Blender 步骤大量重复且容易出错，美术师需逐项手动操作和检查；仓库把流程写成代理步骤，说明作者认为这一环节值得自动化（结构推理）。
+  pain_en: These Blender steps are highly repetitive and error-prone, requiring item-by-item manual operation
+    and checking; the repository encodes the workflow as agent steps, indicating the author saw this step
+    as worth automating (structural inference).
+  current_alternative: 美术师在 Blender 中手动操作，或使用脚本与插件完成部分步骤；公开材料未说明这些做法具体哪里不够。
+  current_alternative_en: Artists work manually in Blender, or use scripts and add-ons for some steps;
+    the public material does not say where these fall short.
+  usage_reason: 推断：代理按预设步骤执行建模、UV、烘焙与导出，减少美术师逐项手动操作和重复检查这一步，因此处理批量资产的美术师可能选择它；星数增长只说明关注度，尚无用户反馈证明持续使用。
+  usage_reason_en: 'Inference: an agent executing modeling, UV, baking and export steps reduces item-by-item
+    manual work and repeated checks, so artists handling batch assets may choose it; star growth only
+    shows attention, and no user feedback yet proves sustained use.'

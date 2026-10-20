@@ -233,3 +233,53 @@
     services into agent-callable interfaces and removes per-platform adaptation, so developers building
     Persian-language agent apps would adopt it first; public material shows only star growth, with no
     call volume or customer cases, so long-term reliance cannot be confirmed.'
+- id: req-full-awesome-iran-mcp-2026-10-20
+  project_slug: awesome-iran-mcp
+  level: full
+  reviewed_at: '2026-10-20T01:42:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理无法访问伊朗本地平台数据的需求，痛点是这些平台没有代理接口、逐个写爬虫成本高且价格库存不稳定；旧替代是自建爬虫或让代理给通用答案，不解决则代理无法完成本地查询，交付为可调用的
+      MCP 工具集，属工作流结构推理。
+    evidence_ids:
+    - ev-bfef878b3ca3206c
+    - ev-1d869171553ec092
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有仓库星标从 89 增至 133、工具从 308 扩到 385，属关注度与维护活跃度，不是调用方、集成案例或持续采用证据，无法确认开发者已将其留在工作流。
+    evidence_ids:
+    - ev-bfef878b3ca3206c
+    - ev-1d869171553ec092
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价、付费或商业路径；钱可能来自开发者赞助、企业接入服务或按调用分成，这是判断不是已验证事实，公开材料未披露任何收入或采购记录。
+    evidence_ids:
+    - ev-1d869171553ec092
+  - gate: truth
+    status: insufficient
+    reason: 接口涉及本地平台账号、下单与个人数据，公开材料未说明鉴权方式、平台授权与合规边界，也未说明下单等动作是否需人工确认，交付确定性无法核对。
+    evidence_ids:
+    - ev-bfef878b3ca3206c
+    - ev-1d869171553ec092
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认各 MCP 服务器实际覆盖的动作范围、鉴权与平台授权方式，以及是否有外部项目声明接入使用。
+  market: ''
+  job: 开发波斯语市场 AI 代理的开发者，在需要让代理查询 Digikala、Snappfood、Jabama 等伊朗本地平台的商品、价格与预订信息时，处理这些平台没有代理接口的材料，要完成让代理直接调用本地服务数据并返回结果的任务。
+  job_en: Developers building Persian-language AI agents need their agents to query products, prices and
+    booking information on Iranian platforms such as Digikala, Snappfood and Jabama, handling platforms
+    that expose no agent-facing interfaces, so the agent can call local service data and return results.
+  pain: 这些伊朗本地平台没有面向代理的接口，开发者要么逐个平台写爬虫和适配脚本，要么让代理给出不准确的通用回答；价格以托曼计价、库存与预约状态无法稳定获取，接入成本重复且易失效。
+  pain_en: These Iranian platforms expose no agent-facing interfaces, so developers either write per-platform
+    scrapers and adapters or let the agent answer generically and inaccurately; Toman-denominated prices,
+    stock and booking status cannot be reliably obtained, and integration work is repetitive and fragile.
+  current_alternative: 自己为每个平台写爬虫或脚本对接，或让代理直接给出不准确的通用回答；也可用通用网页抓取工具临时拼装。
+  current_alternative_en: Writing one-off scrapers or scripts per platform, letting the agent answer generically
+    and inaccurately, or temporarily gluing together generic web-scraping tools.
+  usage_reason: 推断：相较逐个平台自建爬虫，它把 24 个服务的 385 个工具统一成代理可直接调用的 MCP 接口，省掉每个平台单独适配这一步，因此做波斯语市场代理应用的开发者会在需要接入多个本地服务时先接入它；公开材料只有仓库星标，没有调用量、客户案例或留存证据，是否被长期依赖无法确认。
+  usage_reason_en: 'Inference: versus building a scraper per platform, it unifies 385 tools across 24
+    services into agent-callable MCP interfaces and removes per-platform adaptation, so developers building
+    Persian-language agent apps would adopt it first when integrating multiple local services; public
+    material only shows repository stars, with no call volume, customer case or retention evidence, so
+    long-term reliance cannot be confirmed.'

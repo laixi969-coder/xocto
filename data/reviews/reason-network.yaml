@@ -120,3 +120,43 @@
   usage_reason: 无法从公开事实说明用户为何会选择它：缺少具体动作、可核对结果与适用用户情境，现有证据仅指向同名无关网站。
   usage_reason_en: 'Public facts cannot explain why users would choose it: no specific action, verifiable
     result, or user context is given; existing evidence points only to unrelated same-name websites.'
+- id: req-full-reason-network-2026-10-20
+  project_slug: reason-network
+  level: full
+  reviewed_at: '2026-10-20T01:45:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称协调并行编码代理的改动，但公开证据全部指向同名音乐软件与新闻网站，未说明用户任务、痛点或不解决的后果，无法还原交付闭环。
+    evidence_ids:
+    - ev-84e7f88478ddf607
+    - ev-7a3880b605715a46
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Reason Network 官方仓库或官网的 README、issue 与 discussion，确认其是否真实存在并说明并行编码代理的协调流程与交付方式。
+  market: ''
+  job: 软件团队在多名编码代理并行修改同一代码库时，需要协调各代理的改动并汇总为可合并的结果。
+  job_en: Software teams coordinating and merging changes when multiple coding agents work on the same
+    codebase in parallel.
+  pain: 公开材料没有说明并行代理改动带来的具体痛点、发生频率或不解决的后果；现有证据只涉及同名音乐软件与新闻网站，无法支持该任务。
+  pain_en: Public materials do not describe the specific pain, frequency, or consequence of parallel agent
+    edits; the available evidence concerns an unrelated music DAW and news site, not this task.
+  current_alternative: 公开材料未说明用户目前如何协调并行编码代理，例如人工合并、分支隔离或现有代理编排工具。
+  current_alternative_en: Public materials do not show how users currently coordinate parallel coding
+    agents, such as manual merging, branch isolation, or existing agent orchestration tools.
+  usage_reason: 无法判断用户为何会选择它：现有证据与编码代理协作无关，缺少产品文档、使用反馈或客户案例说明其具体动作与可核对结果。
+  usage_reason_en: 'It is not possible to explain why users would choose it: the available evidence is
+    unrelated to coding-agent coordination, and there are no product docs, user feedback, or customer
+    cases describing concrete actions or verifiable outcomes.'

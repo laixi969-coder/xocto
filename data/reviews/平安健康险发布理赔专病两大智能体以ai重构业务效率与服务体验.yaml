@@ -1,0 +1,93 @@
+- id: req-initial-平安健康险发布理赔专病两大智能体以ai重构业务效率与服务体验-2026-10-20
+  project_slug: 平安健康险发布理赔专病两大智能体以ai重构业务效率与服务体验
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决理赔与专病服务中材料核对耗时、判断口径不一的问题，痛点刚性明确；买方为保险公司自身，但公开材料未给效果数据。
+    evidence_ids:
+    - ev-992b166c86da2b04
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，未见一线人员反馈、客户案例或内部采用范围，无法判断是否进入实际工作流。
+    evidence_ids:
+    - ev-992b166c86da2b04
+  - gate: model
+    status: insufficient
+    reason: 报道未说明智能体是自建还是采购、按件还是按项目收费，付费路径只能推断为保险公司内部预算。
+    evidence_ids:
+    - ev-992b166c86da2b04
+  - gate: truth
+    status: insufficient
+    reason: 理赔判断涉及合规与人工复核边界，报道未披露准确率、复核机制与差错处理，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-992b166c86da2b04
+  next_validation: 收集平安健康险官方发布的理赔与专病智能体上线公告或年报材料，核实处理件量、人工复核比例与准确率指标。
+  market: ''
+  job: 健康险理赔与专病服务人员在接到客户报案或咨询时，处理报案单、病历与保单材料，要完成审核判断或服务方案。
+  job_en: Health insurance claims and disease-specific service staff receive claim reports or inquiries,
+    process reports, medical records and policy documents, and must complete a review decision or a service
+    plan.
+  pain: 材料分散且专业性强，人工逐份核对耗时，判断口径不一致会带来赔付争议与服务体验落差。
+  pain_en: Documents are scattered and highly specialized; manual cross-checking is slow, and inconsistent
+    judgment causes payout disputes and uneven service experience.
+  current_alternative: 由理赔与专病服务人员人工阅读材料、按内部规则判断，辅以传统规则引擎和客服系统。
+  current_alternative_en: Claims and service staff read documents manually and apply internal rules, supported
+    by conventional rule engines and customer service systems.
+  usage_reason: 推断：智能体先读取并结构化报案与病历材料，把人工从逐份翻找和初步比对中解放出来，使人员只需复核结论；若报道所称效率提升可被处理量与复核比例核实，理赔与专病团队会在高峰件量时选择它。
+  usage_reason_en: 'Inference: the agents first read and structure claim and medical documents, freeing
+    staff from page-by-page searching and initial comparison so they only review conclusions; if the claimed
+    efficiency gains are confirmed by case volume and review ratios, claims and disease-service teams
+    would choose it at peak volumes.'
+- id: req-full-平安健康险发布理赔专病两大智能体以ai重构业务效率与服务体验-2026-10-20
+  project_slug: 平安健康险发布理赔专病两大智能体以ai重构业务效率与服务体验
+  level: full
+  reviewed_at: '2026-10-20T01:46:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决理赔与专病服务中材料核对耗时、判断口径不一的问题，痛点刚性明确；交付为智能体先处理材料再由人工确认，闭环可确定。买方为保险公司自身，公开材料未给效果数据，属工作流结构推理。
+    evidence_ids:
+    - ev-f1d5a034d29b99bb
+    - ev-a490ab6ac97ea417
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道与官网服务介绍，未见一线理赔或专病人员反馈、客户案例或内部采用范围，无法判断智能体是否已进入实际工作流。
+    evidence_ids:
+    - ev-a490ab6ac97ea417
+    - ev-bb089fb9d44e9ca7
+  - gate: model
+    status: insufficient
+    reason: 报道未说明智能体是自建还是采购、按件还是按项目收费，付费路径只能推断为保险公司内部预算，属判断而非已验证事实。
+    evidence_ids:
+    - ev-f1d5a034d29b99bb
+    - ev-35cdf15bab690117
+  - gate: truth
+    status: insufficient
+    reason: 理赔判断涉及合规与人工复核边界，公开材料未披露准确率、复核机制与差错处理，承诺能否确定性交付仍未知。
+    evidence_ids:
+    - ev-a490ab6ac97ea417
+    - ev-bb089fb9d44e9ca7
+  next_validation: 追踪平安健康险官网或年报中关于理赔与专病智能体的上线公告，核实处理件量、人工复核比例与准确率指标。
+  market: ''
+  job: 健康险理赔人员在受理客户报案时，处理报案单、病历与保单材料，完成审核与赔付判断；专病服务人员在客户咨询时处理病史与保单材料，给出服务方案。
+  job_en: Health-insurance claims staff process claim forms, medical records and policy documents when
+    a customer reports a claim, and must complete a review and payout decision; disease-specific service
+    staff process medical history and policy documents during inquiries and must produce a service plan.
+  pain: 材料分散、专业术语密集，人工逐份翻阅比对耗时，且不同人员判断口径不一致，容易造成赔付争议与服务体验落差；件量高峰时积压更明显。
+  pain_en: Documents are scattered and jargon-heavy; reading and cross-checking each one manually is slow,
+    and inconsistent judgment across staff causes payout disputes and uneven service experience, with
+    backlogs worsening at peak volume.
+  current_alternative: 由理赔与专病服务人员人工阅读材料、按内部规则判断，辅以传统规则引擎和客服工单系统。
+  current_alternative_en: Claims and disease-service staff read documents manually and apply internal
+    rules, supported by conventional rule engines and customer-service ticketing systems.
+  usage_reason: 推断：智能体先读取并结构化报案与病历材料，把人工从逐份翻找和初步比对中解放出来，人员只需复核结论；若报道所称效率提升能被处理件量与人工复核比例核实，理赔与专病团队会在件量高峰时选择它。
+  usage_reason_en: 'Inference: the agents first read and structure claim and medical documents, freeing
+    staff from page-by-page searching and initial comparison so they only review conclusions; if the claimed
+    efficiency gains are confirmed by case volume and manual review ratios, claims and disease-service
+    teams would choose it at peak volumes.'

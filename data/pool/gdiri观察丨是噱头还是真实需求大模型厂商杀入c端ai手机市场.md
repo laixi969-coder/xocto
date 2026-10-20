@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yUXNRS2RfWWpT
 summary: GDIRI观察丨是噱头还是真实需求？大模型厂商杀入C端AI手机市场 观点网
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

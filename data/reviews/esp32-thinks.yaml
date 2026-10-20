@@ -86,3 +86,47 @@
   usage_reason_en: 'Inference: it packages wake word, STT, chat and TTS into out-of-the-box firmware with
     mix-and-match OpenAI-compatible models, cutting the step of wiring each model and pipeline by hand,
     so users wanting a quickly working, modifiable voice device choose it for self-built setups.'
+- id: req-full-esp32-thinks-2026-10-20
+  project_slug: esp32-thinks
+  level: full
+  reviewed_at: '2026-10-20T01:43:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自制语音硬件要分别对接识别、对话与合成的痛点，旧做法是逐个调试开源组件；公开说明已能还原输入—动作—交付闭环，属工作流结构推理，痛点刚性成立。
+    evidence_ids:
+    - ev-b0803ba9b1fe4eae
+    - ev-081803ddd1226bd7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从103升至233只反映关注度，缺少用户评价、issue或实际使用反馈，无法判断是否形成稳定使用。
+    evidence_ids:
+    - ev-081803ddd1226bd7
+    - ev-2d616621863dbf9e
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径，买方与收费方式不明；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b0803ba9b1fe4eae
+  - gate: truth
+    status: insufficient
+    reason: 未见识别准确率、离线能力或部署确定性的公开材料，承诺能否兑现缺少可核对结果。
+    evidence_ids:
+    - ev-b0803ba9b1fe4eae
+  next_validation: 追踪该仓库的 issue 与 discussion，查看用户对识别准确率、离线运行和部署难度的实际反馈。
+  market: ''
+  job: 硬件爱好者在自制 ESP32 语音设备上，通过唤醒词或旋钮输入语音，要完成免手操作的问答或设备控制任务。
+  job_en: Hobbyists on a self-built ESP32 voice device speak via wake word or knob to complete hands-free
+    Q&A or device control.
+  pain: 现成智能音箱绑定厂商、难以改造；自建语音链路要分别对接识别、对话与合成，逐个调试成本高。
+  pain_en: Ready-made smart speakers are vendor-locked and hard to modify, while a self-built voice pipeline
+    requires separately wiring recognition, chat and synthesis with high debugging cost.
+  current_alternative: 用现成智能音箱，或自己拼开源语音组件并逐个调试。
+  current_alternative_en: Using a ready-made smart speaker, or assembling open-source voice components
+    and debugging each one.
+  usage_reason: 推断：它把唤醒、识别、对话、合成打包成开箱即用固件，并允许混搭任意 OpenAI 兼容模型，减少爱好者逐个对接模型与调流的步骤，因此想快速做出可改语音硬件的人会选用它。
+  usage_reason_en: 'Inference: it packages wake word, recognition, chat and synthesis into out-of-the-box
+    firmware and lets users mix any OpenAI-compatible model, cutting the step of wiring each model and
+    pipeline by hand, so hobbyists wanting a quickly working, modifiable voice device pick it.'

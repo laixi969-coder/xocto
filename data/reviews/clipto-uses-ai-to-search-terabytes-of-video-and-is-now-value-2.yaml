@@ -1,0 +1,42 @@
+- id: req-initial-clipto-uses-ai-to-search-terabytes-of-video-and-is-now-value-2-2026-10-20
+  project_slug: clipto-uses-ai-to-search-terabytes-of-video-and-is-now-value-2
+  level: initial
+  reviewed_at: '2026-09-01T14:56:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决海量视频素材无法按内容检索、只能人工翻找的痛点，任务具体且素材量越大越刚性。
+    evidence_ids:
+    - ev-748d4aaed7d3f302
+  - gate: consensus
+    status: insufficient
+    reason: 有收入与融资规模，但未见具体客户案例或用户评价说明谁在持续使用。
+    evidence_ids:
+    - ev-748d4aaed7d3f302
+  - gate: model
+    status: supported
+    reason: 已披露1500万美元 ARR 并实现盈利，说明存在可重复的付费路径；具体定价与计费方式未公开。
+    evidence_ids:
+    - ev-748d4aaed7d3f302
+  - gate: truth
+    status: insufficient
+    reason: 检索准确率、人工复核边界与长期留存均无公开材料可核对。
+    evidence_ids:
+    - ev-748d4aaed7d3f302
+  next_validation: 收集 Clipto 官方定价页或客户案例，确认其计费方式与检索结果在实际剪辑流程中的准确率与使用情况。
+  market: ''
+  job: 影视或媒体团队在数 TB 素材中查找某段画面、台词或人物时，需要快速定位可用片段以完成剪辑或选题。
+  job_en: Film or media teams need to quickly locate a specific shot, line or person across terabytes
+    of footage to finish an edit or story.
+  pain: 海量视频无法按文件名或时间码有效检索，人工拖时间轴翻找耗时且容易漏掉素材。
+  pain_en: Large video archives cannot be searched effectively by filename or timecode, and manual timeline
+    scrubbing is slow and error-prone.
+  current_alternative: 人工逐条预览素材、依赖剪辑师记忆或手工打标签整理素材库。
+  current_alternative_en: Manually previewing clips, relying on editors' memory, or hand-tagging an asset
+    library.
+  usage_reason: 推断：Clipto 通过按视频内容检索，让用户用描述直接定位片段，省去逐条预览和手工打标签的步骤；其已披露的 ARR 与盈利说明存在付费使用，但公开材料未给出客户案例或留存数据。
+  usage_reason_en: 'Inference: Clipto lets users locate clips by describing content, skipping manual preview
+    and hand-tagging. Its disclosed ARR and profitability indicate paying use, but no customer cases or
+    retention data are public.'

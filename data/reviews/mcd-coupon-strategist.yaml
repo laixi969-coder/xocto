@@ -265,3 +265,50 @@
     rules and outputs one orderable cheapest combination while flagging which add-ons are threshold traps,
     removing the step of checking each threshold by hand; price-sensitive users ordering several times
     a week get a definite answer even after rules change, so they would reach for it.'
+- id: req-full-mcd-coupon-strategist-2026-10-20
+  project_slug: mcd-coupon-strategist
+  level: full
+  reviewed_at: '2026-10-20T01:44:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决点餐前算最省组合、避免凑单多花钱的需求，痛点具体且高频；公开材料未说明门店菜单与券数据的实际来源，属证据边界，但任务与交付闭环可由产品说明还原，属工作流结构推理。
+    evidence_ids:
+    - ev-fd7d10242fda77cf
+    - ev-9b60873d52d2345f
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 278 增至 555，说明开发者关注度上升，但公开材料没有用户反馈或使用数据证明点餐者已把它放进日常点餐流程，关注度不等于持续采用。
+    evidence_ids:
+    - ev-fd7d10242fda77cf
+    - ev-9b60873d52d2345f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式；判断上可能按省下的钱抽成或向品牌方收费，均非已验证事实，谁付钱仍不清。
+    evidence_ids:
+    - ev-fd7d10242fda77cf
+  - gate: truth
+    status: insufficient
+    reason: 交付依赖第三方麦当劳 MCP 接口与门店数据，规则或接口变动会直接影响最省方案的正确性，公开材料未说明容错与人工确认边界。
+    evidence_ids:
+    - ev-fd7d10242fda77cf
+    - ev-9b60873d52d2345f
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认门店菜单与优惠券数据的实际来源、更新方式及用户反馈。
+  market: ''
+  job: 价格敏感的麦当劳消费者在门店点餐前，面对当前门店菜单、可用优惠券和满减凑单规则，要决定买哪几样、如何组合才能花最少的钱并直接下单。
+  job_en: A price-sensitive McDonald's customer, before ordering at a store, faces the store menu, available
+    coupons and spend-threshold rules and must decide which items and combination cost the least, then
+    order directly.
+  pain: 优惠券、第二份半价、满减门槛叠加后人工比价很费神，还容易为凑单多买不需要的东西，反而多花钱。
+  pain_en: Stacked coupons, second-item discounts and spend thresholds make manual comparison tedious,
+    and users often buy unneeded items just to hit a threshold, spending more overall.
+  current_alternative: 自己心算或凭经验点单，或在社交平台搜别人整理的省钱攻略，规则一变就失效。
+  current_alternative_en: Mental math or habit-based ordering, or reading user-compiled money-saving guides
+    on social platforms that go stale when rules change.
+  usage_reason: 推断：相比自己逐条比对券门槛，它读取门店菜单与券规则后直接输出一个可下单的最省组合，并标出哪些加购是凑单陷阱，省掉人工比价这一步；对每周多次点单、对价格敏感的人，在规则更新后仍能拿到确定答案，因此会优先用它而不是搜攻略。
+  usage_reason_en: 'Inference: versus checking each coupon threshold by hand, it reads the store menu
+    and coupon rules and outputs one cheapest orderable combination, flagging which add-ons are threshold
+    traps, removing the manual comparison step; price-sensitive users ordering several times a week get
+    a definite answer even after rules change, so they would reach for it instead of searching guides.'

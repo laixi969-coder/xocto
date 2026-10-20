@@ -1,0 +1,86 @@
+- id: req-initial-hycli-2026-10-20
+  project_slug: hycli
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理操作网页时脚本易失效、结果难核对的问题，旧做法是手写脚本或人工点击，痛点具体。
+    evidence_ids:
+    - ev-180b52ca27ed7613
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 308 星但无 issue 与使用反馈，尚不能说明开发者已把它放进工作流。
+    evidence_ids:
+    - ev-180b52ca27ed7613
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费方或商业路径，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-180b52ca27ed7613
+  - gate: truth
+    status: insufficient
+    reason: 动作的验证机制与页面改版后的可靠性未在材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-180b52ca27ed7613
+  next_validation: 收集 Hycli 仓库的 issue、discussion 与 README 中的验证流程说明，确认是否有外部团队实际接入。
+  market: ''
+  job: 开发者或自动化工程师在搭建 AI 代理时，需要让代理在具体网站上完成登录、填表、查询等操作，并把结果变成可复用的动作。
+  job_en: Developers or automation engineers building AI agents need the agent to log in, fill forms and
+    query on specific websites, turning those steps into reusable actions.
+  pain: 网页操作原本靠人工点击或一次性脚本，脚本随页面改版失效，代理执行结果也难以核对。
+  pain_en: Website operations rely on manual clicking or one-off scripts that break when pages change,
+    and agent results are hard to verify.
+  current_alternative: 手写 Playwright/Selenium 脚本，或让代理直接操作浏览器，缺少可复用与可核验的动作层。
+  current_alternative_en: Hand-written Playwright/Selenium scripts, or letting agents drive the browser
+    directly, without a reusable and verifiable action layer.
+  usage_reason: 推断：Hycli 把网页任务封装成 CLI 与 MCP 动作，代理可直接调用同一套动作，减少每次重写脚本和人工核对结果的步骤，因此需要稳定接入多个网站的自动化团队会尝试它。
+  usage_reason_en: 'Inference: Hycli packages website tasks as CLI and MCP actions that agents can call,
+    reducing script rewriting and manual result checking, so automation teams integrating multiple sites
+    would try it.'
+- id: req-full-hycli-2026-10-20
+  project_slug: hycli
+  level: full
+  reviewed_at: '2026-10-20T01:43:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理操作具体网站时脚本易失效、结果难核对的问题，旧做法是手写脚本或人工点击，痛点具体且交付物是可调用动作；这是工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-180b52ca27ed7613
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 308 星，但公开材料没有 issue、讨论或使用反馈，无法说明开发者已把它放进日常工作流，关注度不等于持续采用。
+    evidence_ids:
+    - ev-180b52ca27ed7613
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费方、定价或商业路径，钱可能来自企业服务或托管版，但这是判断不是已验证事实。
+    evidence_ids:
+    - ev-180b52ca27ed7613
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明动作的验证机制、页面改版后的可靠性及人工边界，承诺能否确定性交付仍缺公开证据。
+    evidence_ids:
+    - ev-180b52ca27ed7613
+  next_validation: 追踪 Hycli 仓库的 issue、discussion 与 README 中的验证流程说明，确认是否有外部团队实际接入并报告结果。
+  market: ''
+  job: 开发者或自动化工程师在搭建 AI 代理时，需要让代理在具体网站上完成登录、填表、查询等操作，并把网页任务转成可复用的命令行或 MCP 动作，再核对执行结果。
+  job_en: Developers or automation engineers building AI agents need the agent to log in, fill forms and
+    query on specific websites, turning those website tasks into reusable CLI or MCP actions and checking
+    the results.
+  pain: 网页操作原本靠人工点击或一次性脚本，脚本随页面改版失效，代理执行结果也难以核对；公开材料只给出产品定位，未提供用户抱怨或案例，痛点是工作流结构推理。
+  pain_en: Website operations rely on manual clicking or one-off scripts that break when pages change,
+    and agent results are hard to verify; public material only gives the product positioning, so this
+    pain is a workflow inference.
+  current_alternative: 手写 Playwright/Selenium 脚本，或让代理直接操作浏览器，缺少可复用、可核验的动作层。
+  current_alternative_en: Hand-written Playwright/Selenium scripts, or letting agents drive the browser
+    directly, without a reusable and verifiable action layer.
+  usage_reason: 推断：Hycli 把网页任务封装成 CLI 与 MCP 动作，代理可直接调用同一套动作，减少每次重写脚本和人工核对结果的步骤，因此需要稳定接入多个网站的自动化团队会尝试它；尚无用户反馈证明长期留存。
+  usage_reason_en: 'Inference: Hycli packages website tasks as CLI and MCP actions that agents can call,
+    reducing script rewriting and manual result checking, so automation teams integrating multiple sites
+    would try it; no user feedback yet proves long-term retention.'

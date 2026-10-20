@@ -1,0 +1,92 @@
+- id: req-initial-timestral-2026-10-20
+  project_slug: timestral
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决时间序列预测中人工调参与特征工程的负担，旧流程明确，痛点刚性。
+    evidence_ids:
+    - ev-ae916d31dd5fc2fe
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度不等于持续采用，无客户或复购证据。
+    evidence_ids:
+    - ev-ae916d31dd5fc2fe
+  - gate: model
+    status: insufficient
+    reason: 可能通过 API 或授权收费，但定价与买方未披露，属判断非事实。
+    evidence_ids:
+    - ev-ae916d31dd5fc2fe
+  - gate: truth
+    status: insufficient
+    reason: 预测准确率与交付确定性未披露，无法核对结果。
+    evidence_ids:
+    - ev-ae916d31dd5fc2fe
+  next_validation: 收集 Mistral 官方 Timestral 文档或定价页，核验其预测准确率基准与调用方式。
+  market: ''
+  job: 运营分析师在预测销量或设备负荷时，处理历史时间序列数据，要产出可用于排产或补货的预测。
+  job_en: Operations analysts forecasting sales or equipment load process historical time-series data
+    to produce forecasts usable for scheduling or replenishment.
+  pain: 传统统计预测需要人工调参和特征工程，跨品类或跨设备时维护成本高。
+  pain_en: Traditional statistical forecasting needs manual tuning and feature engineering, costly to
+    maintain across categories or equipment.
+  current_alternative: 使用 Excel、传统统计模型或自建预测管道。
+  current_alternative_en: Using Excel, classical statistical models or self-built forecasting pipelines.
+  usage_reason: 推断：基础模型可直接接收原始序列并输出预测，减少人工特征工程这一步；但材料未披露准确率或客户案例，是否优于旧方法尚不可核对。
+  usage_reason_en: 'Inference: a foundation model can take raw series and output forecasts, cutting the
+    manual feature-engineering step; but accuracy or customer cases are undisclosed, so superiority over
+    old methods is not yet verifiable.'
+- id: req-full-timestral-2026-10-20
+  project_slug: timestral
+  level: full
+  reviewed_at: '2026-10-20T01:45:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决运营分析师做销量或负荷预测时逐序列调参、特征工程与点预测不表达不确定性的痛点；公开材料显示模型支持多变量概率预测与过去/未来协变量，旧流程与不解决的后果可还原，属工作流结构推理，尚无客户准确率数据。
+    evidence_ids:
+    - ev-8a09eca622973f0e
+    - ev-0eeaf1985a294a94
+    - ev-fa3c548c26e1988d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官方发布与仓库说明，未见用户评价、客户案例或重复使用记录；209M 参数与基准领先属产品宣称，不能证明团队已把它留在预测工作流里。
+    evidence_ids:
+    - ev-0eeaf1985a294a94
+    - ev-fa3c548c26e1988d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露 Timestral 的定价、API 计费或授权方式，买方可能是使用 Mistral 平台的企业数据团队，但这是判断而非已验证事实；仓库开源推理是否免费亦未说明。
+    evidence_ids:
+    - ev-8a09eca622973f0e
+    - ev-2e7c671661f53eb3
+  - gate: truth
+    status: insufficient
+    reason: 官方称在关键基准上超越更大模型，但未公开可复现的评测细节、协变量缺失时的降级行为与人工复核边界；预测交付是否确定发生尚不可核对。
+    evidence_ids:
+    - ev-0eeaf1985a294a94
+    - ev-fa3c548c26e1988d
+  next_validation: 追踪 Mistral 官方 Timestral 文档与定价页，核验调用方式、计费与公开基准评测细节。
+  market: ''
+  job: 运营分析师在预测销量、设备负荷或需求曲线时，把历史时间序列及已知未来协变量交给模型，要产出可用于排产、补货或容量安排的概率预测。
+  job_en: Operations analysts forecasting sales, equipment load or demand curves feed historical time
+    series and known-future covariates into a model to produce probabilistic forecasts usable for scheduling,
+    replenishment or capacity planning.
+  pain: 公开材料显示模型面向多变量概率预测并支持过去与未来协变量；结构推理上，旧流程需为每条序列单独做特征工程与调参，跨品类、跨设备维护成本高，且点预测无法表达不确定性。
+  pain_en: Public materials show the model targets multivariate probabilistic forecasting with past and
+    future covariates; by structural inference, the old workflow requires per-series feature engineering
+    and tuning, costly to maintain across categories or equipment, and point forecasts cannot express
+    uncertainty.
+  current_alternative: 用 Excel、传统统计模型（如 ARIMA、指数平滑）或自建预测管道，逐序列调参并人工拼接协变量。
+  current_alternative_en: Using Excel, classical statistical models (e.g. ARIMA, exponential smoothing)
+    or self-built pipelines, tuning per series and manually joining covariates.
+  usage_reason: 推断：仓库提供独立推理，模型可在 CPU 上零样本出预测，减少逐序列特征工程与调参这一步；但公开材料未给出客户准确率对比或持续使用证据，因此哪类用户会长期选择它仍属推断。
+  usage_reason_en: 'Inference: the repository offers standalone inference and the model forecasts zero-shot
+    on CPU, cutting the per-series feature-engineering and tuning step; however public materials give
+    no customer accuracy comparison or sustained-use evidence, so which users would keep choosing it remains
+    inference.'

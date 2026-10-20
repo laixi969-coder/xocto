@@ -456,3 +456,45 @@
   usage_reason_en: 'Inference: if it truly runs always-on and directly operates the browser and files,
     users could skip writing scripts or clicking step by step; but there is no usage feedback or repeat-use
     evidence, so it is unconfirmed that users would choose it for this reason.'
+- id: req-full-comma-2026-10-20
+  project_slug: comma
+  level: full
+  reviewed_at: '2026-10-20T01:42:41Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决常驻代理代替手动浏览器与文件操作的需求，但材料只有功能罗列，没有用户任务、痛点或旧替代行为，连需求与痛点都还原不出。
+    evidence_ids:
+    - ev-aaac20f577178d3b
+    - ev-6ed963461e0fa008
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 README、部署文档与 issue/discussion，确认它实际能完成的操作、运行环境要求与已知失败场景。
+  market: ''
+  job: 个人用户在自己机器上自托管一个常驻代理，在离开电脑时让它代为执行浏览器点击、电脑操作与文件处理，并通过远程控制接管这些任务。
+  job_en: An individual self-hosts an always-on agent on their own machine, lets it perform browser clicks,
+    computer actions and file handling while they are away, and takes over those tasks via remote control.
+  pain: 候选材料只罗列功能，没有任何用户抱怨、旧替代行为或采用记录，无法说明反复手动操作浏览器与整理文件究竟带来多大负担。
+  pain_en: The candidate material only lists features; there are no user complaints, prior workarounds
+    or adoption records, so it cannot show how much burden repeated manual browser actions and file tidying
+    actually cause.
+  current_alternative: 公开证据未描述用户当前用什么方式完成这些操作，脚本、浏览器自动化插件或纯手工都只是推测，材料未给出可核对的旧流程。
+  current_alternative_en: The public evidence does not describe how users currently complete these tasks;
+    scripts, browser automation extensions or manual work are only guesses, and no verifiable old workflow
+    is given.
+  usage_reason: 推断：若它真能常驻并直接操作浏览器与文件，用户可省去自己写脚本或逐步点击的环节；但材料没有使用反馈或重复使用证据，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it truly runs always-on and directly operates the browser and files,
+    users could skip writing scripts or clicking step by step; but there is no usage feedback or repeat-use
+    evidence, so it is unconfirmed that users would choose it for this reason.'

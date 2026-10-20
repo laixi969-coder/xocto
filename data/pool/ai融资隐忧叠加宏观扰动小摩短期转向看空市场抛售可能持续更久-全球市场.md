@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE50MjhHVDA0OVJj
 summary: AI融资隐忧叠加宏观扰动！小摩短期转向看空：市场抛售可能持续更久_全球市场 证券之星
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

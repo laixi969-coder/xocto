@@ -1,0 +1,90 @@
+- id: req-initial-medasystems-launches-mcp-server-in-beta-bringing-expanded-ac-2026-10-20
+  project_slug: medasystems-launches-mcp-server-in-beta-bringing-expanded-ac
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决扩展用药项目信息分散、人工检索慢的问题，痛点对重症患者有刚性；买方与付费路径尚未披露。
+    evidence_ids:
+    - ev-2e6f9471f5fadfe9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布标题，没有客户、采用或行业讨论证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-2e6f9471f5fadfe9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方是药企还是医院，也未说明数据授权与更新如何收费。
+    evidence_ids:
+    - ev-2e6f9471f5fadfe9
+  - gate: truth
+    status: insufficient
+    reason: 未说明数据字段、更新频率与人工复核边界，合规交付能否确定发生仍不清楚。
+    evidence_ids:
+    - ev-2e6f9471f5fadfe9
+  next_validation: 收集 MedaSystems 官方 MCP 服务器文档或产品页，确认接入的数据字段、覆盖项目范围与使用条款。
+  market: ''
+  job: 药企扩展用药项目负责人或临床团队在评估患者是否符合同情用药条件时，处理项目资格与药品资料，要定位可用项目并决定下一步申请动作。
+  job_en: Expanded-access leads or clinical teams at drugmakers assess whether a patient qualifies for
+    compassionate use, working through program eligibility and drug documents to locate available programs
+    and decide the next application step.
+  pain: 扩展用药项目信息分散在各药企、字段不统一，人工查找慢且容易漏掉可用项目；判断错误会延误重症患者的用药机会。
+  pain_en: Expanded-access program information is scattered across drugmakers with inconsistent fields,
+    so manual lookup is slow and can miss available programs; a wrong judgment delays access for seriously
+    ill patients.
+  current_alternative: 目前多靠人工检索药企项目页面、行业目录和邮件询问，或依赖个人关系网络。
+  current_alternative_en: Today this mostly relies on manually searching drugmaker program pages and industry
+    directories, emailing contacts, or personal networks.
+  usage_reason: 推断：相较逐页人工检索，MCP 服务器让 AI 助手直接调取结构化项目数据，减少定位与比对项目这一步；药企或临床团队在需要快速筛查多个项目时会选择它，但公开材料未给出用户反馈或采用数据。
+  usage_reason_en: 'Inference: compared with page-by-page manual search, the MCP server lets AI assistants
+    pull structured program data directly, cutting the step of locating and comparing programs; drugmakers
+    or clinical teams screening multiple programs quickly would choose it, but no user feedback or adoption
+    data is public.'
+- id: req-full-medasystems-launches-mcp-server-in-beta-bringing-expanded-ac-2026-10-20
+  project_slug: medasystems-launches-mcp-server-in-beta-bringing-expanded-ac
+  level: full
+  reviewed_at: '2026-10-20T01:44:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决扩展用药项目信息分散、人工检索慢且易漏项的需求，痛点对重症患者具有刚性；但公开材料仅见发布标题，字段与交付边界未披露，属工作流结构推理。
+    evidence_ids:
+    - ev-2e6f9471f5fadfe9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布标题，没有客户案例、行业讨论或采用数据，无法判断药企与临床团队是否已形成使用共识。
+    evidence_ids:
+    - ev-2e6f9471f5fadfe9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方是药企还是医院，也未说明数据授权与更新如何收费；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2e6f9471f5fadfe9
+  - gate: truth
+    status: insufficient
+    reason: 未说明数据字段、更新频率与人工复核边界，合规场景下交付能否确定发生仍不清楚。
+    evidence_ids:
+    - ev-2e6f9471f5fadfe9
+  next_validation: 追踪 MedaSystems 官网 MCP 服务器产品页或部署文档，确认接入的数据字段、覆盖项目范围与使用条款。
+  market: ''
+  job: 药企扩展用药项目负责人或临床团队在评估重症患者能否进入同情用药时，处理各项目资格条件与药品资料，要定位可用项目并判断下一步申请动作。
+  job_en: Expanded-access leads or clinical teams at drugmakers assess whether a seriously ill patient
+    can enter compassionate use, working through program eligibility and drug documents to locate available
+    programs and decide the next application step.
+  pain: 扩展用药项目信息分散在不同药企、字段不统一，人工逐页检索慢且易漏掉可用项目；判断偏差会延误重症患者的用药机会。
+  pain_en: Expanded-access program information is scattered across drugmakers with inconsistent fields,
+    so manual page-by-page lookup is slow and can miss available programs; a wrong judgment delays access
+    for seriously ill patients.
+  current_alternative: 目前多靠人工检索药企项目页面、行业目录、邮件询问或依赖个人关系网络。
+  current_alternative_en: Today this mostly relies on manually searching drugmaker program pages and industry
+    directories, emailing contacts, or personal networks.
+  usage_reason: 推断：相较逐页人工检索，MCP 服务器让 AI 助手在对话中直接调取结构化项目数据，减少定位与比对项目这一步；需要快速筛查多个项目的药企或临床团队会在这种情况下选择它，但公开材料尚无用户反馈或采用数据。
+  usage_reason_en: 'Inference: compared with page-by-page manual search, the MCP server lets AI assistants
+    pull structured program data directly in conversation, cutting the step of locating and comparing
+    programs; drugmakers or clinical teams screening multiple programs quickly would choose it in that
+    situation, but no user feedback or adoption data is public.'

@@ -510,3 +510,51 @@
     constraints can put AI editing into their pipeline; chat instructions replace segment-by-segment timeline
     dragging and cut one repetitive step. Public material has no user reviews, retention or repeat-use
     evidence, so long-term workflow adoption cannot be claimed.'
+- id: req-full-opencardboard-2026-10-20
+  project_slug: opencardboard
+  level: full
+  reviewed_at: '2026-10-20T01:44:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决素材不能上云时仍想用 AI 做粗剪的需求，痛点是有保密或版权约束的剪辑师被迫放弃 AI 或纯手工拖时间轴；本地处理加对话指令直接对应这一约束，属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-f780f10222fdb93f
+    - ev-e28511c13706eb27
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 80 缓慢增至 93，属早期关注度而非采用证据；没有用户评价、issue 讨论或案例说明剪辑师是否真的改用对话式剪辑，强场景存在但共识未形成。
+    evidence_ids:
+    - ev-f780f10222fdb93f
+    - ev-e28511c13706eb27
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露任何收费方式，钱可能来自托管服务、企业支持或纯社区维护，这是判断而非已验证事实；买方与付费路径均未在公开材料中出现。
+    evidence_ids:
+    - ev-e28511c13706eb27
+  - gate: truth
+    status: insufficient
+    reason: 对话指令能否稳定产出可用成片、本地算力是否够用、人工复核边界在哪，公开材料均未说明；承诺的确定性交付尚未被文档或实测证实。
+    evidence_ids:
+    - ev-f780f10222fdb93f
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认支持的素材格式、对话指令的实际产出与本地运行要求。
+  market: ''
+  job: 视频剪辑师或独立创作者在素材涉及客户保密、未公开内容或版权约束、不能上传云端的情况下，把本地视频素材交给 OpenCardboard，用对话指令完成粗剪和片段调整，产出可交付的剪辑版本。
+  job_en: Video editors or independent creators whose footage involves client confidentiality, unreleased
+    content, or copyright constraints that prevent cloud upload hand local footage to OpenCardboard and
+    use chat instructions to complete rough cuts and clip adjustments, producing a deliverable edit.
+  pain: 云端 AI 剪辑要求先上传原始素材，保密与版权风险让部分团队直接放弃 AI 辅助；退回本地剪辑软件则要逐段拖拽时间轴、重复操作，粗剪耗时且机械。
+  pain_en: Cloud AI editing requires uploading raw footage, and confidentiality or copyright risk makes
+    some teams abandon AI assistance entirely; falling back to local editing software means dragging the
+    timeline segment by segment, making rough cuts slow and mechanical.
+  current_alternative: 现在要么把素材上传到云端 AI 剪辑工具，要么在 Premiere、DaVinci 等本地剪辑软件里手动完成全部剪辑操作。
+  current_alternative_en: Today teams either upload footage to cloud AI editors or do all editing manually
+    in local software such as Premiere or DaVinci.
+  usage_reason: 推断：相较上传云端或纯手动拖时间轴，本地优先让素材不出本机，直接消除保密团队采用 AI 的前置障碍；对话指令替代逐段拖拽，减少粗剪中的重复操作。因此有保密约束、又想做快速粗剪的剪辑师会在素材不能外传时选择它。公开材料尚无留存或复购证据，不能声称已长期留在工作流中。
+  usage_reason_en: 'Inference: compared with cloud upload or purely manual timeline dragging, local-first
+    keeps footage on the machine and removes the precondition blocking confidentiality-bound teams from
+    using AI; chat instructions replace segment-by-segment dragging and cut repetitive rough-cut work.
+    Editors with confidentiality constraints who want fast rough cuts would therefore choose it when footage
+    cannot leave the machine. Public material has no retention or repeat-use evidence, so long'

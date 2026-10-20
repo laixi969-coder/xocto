@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE4yaG5ZN1RZVzNE
 summary: 启云方CEO苏立清：以工业软件为底座 构建企业AI新质生产力|对话科创家 财联社电报
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

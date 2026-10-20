@@ -1,0 +1,91 @@
+- id: req-initial-vessla-exits-stealth-with-33m-to-bring-ai-agents-to-property-2026-10-20
+  project_slug: vessla-exits-stealth-with-33m-to-bring-ai-agents-to-property
+  level: initial
+  reviewed_at: '2026-10-20T01:06:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决物业维修与应付流程中跨系统手工搬运信息的需求，痛点具体且旧流程清晰，交付可确定。
+    evidence_ids:
+    - ev-5e739f16e146c092
+  - gate: consensus
+    status: insufficient
+    reason: 已与北欧部分大型物业持有方合作，但无公开使用规模或持续采用数据。
+    evidence_ids:
+    - ev-5e739f16e146c092
+  - gate: model
+    status: insufficient
+    reason: 买方为物业持有与运营方，付费路径合理，但定价与合同细节未公开，属判断非已验证。
+    evidence_ids:
+    - ev-5e739f16e146c092
+  - gate: truth
+    status: supported
+    reason: 贴近物业运营第一性目标，保留人工审批边界，交付依赖已连接系统，确定性尚可。
+    evidence_ids:
+    - ev-5e739f16e146c092
+  next_validation: 收集 Vessla 官方定价页或公开客户案例，确认按什么计价及已上线流程的实际交付结果。
+  market: ''
+  job: 物业经理在收到租户维修请求时，需跨物业档案、合同、发票与供应商沟通多个系统核对信息并推进处理。
+  job_en: A property manager handling a tenant maintenance request must cross-check property records,
+    contracts, invoices and supplier communication across several systems to move it forward.
+  pain: 信息分散在多个系统，需人工搬运，维修请求涉及查档案、核合同、管发票、联系供应商多步，易出错且慢。
+  pain_en: Information is scattered across systems and moved manually; a maintenance request spans records,
+    contracts, invoices and supplier contact, making it slow and error-prone.
+  current_alternative: 员工在多个物业管理系统、邮件和表格间手工复制信息并逐项核对。
+  current_alternative_en: Staff manually copy information between property systems, email and spreadsheets
+    and check each item by hand.
+  usage_reason: 相较人工跨系统搬运，Vessla 的代理直接读取已连接系统中的档案、合同与发票，按机构规则执行流程并保留人工审批，减少逐系统查找与转录这一步；推断，物业运营方在维修与应付流程量大的情况下会选用。
+  usage_reason_en: Compared with manual cross-system copying, Vessla's agents read records, contracts
+    and invoices from connected systems, apply operating rules and keep human approval, cutting the per-system
+    lookup and transcription step; this is an inference, and property operators with high maintenance
+    and AP volume would choose it.
+- id: req-full-vessla-exits-stealth-with-33m-to-bring-ai-agents-to-property-2026-10-20
+  project_slug: vessla-exits-stealth-with-33m-to-bring-ai-agents-to-property
+  level: full
+  reviewed_at: '2026-10-20T01:45:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决物业维修与应付流程中跨系统手工搬运信息的需求，痛点具体、旧流程清晰，交付可确定；这是工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-ea9d764f70a1ec97
+    - ev-257e2c7274f6553b
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料称已与北欧部分大型物业持有方合作，但无使用规模、留存或重复使用数据，无法确认已进入日常工作流。
+    evidence_ids:
+    - ev-257e2c7274f6553b
+  - gate: model
+    status: insufficient
+    reason: 买方应为物业持有与运营方，付费路径合理，但定价与合同细节未公开，属判断而非已验证事实。
+    evidence_ids:
+    - ev-ea9d764f70a1ec97
+    - ev-257e2c7274f6553b
+  - gate: truth
+    status: supported
+    reason: 贴近物业运营第一性目标，保留人工审批边界，交付依赖已连接系统；但具体交付结果与安全边界细节未公开。
+    evidence_ids:
+    - ev-ea9d764f70a1ec97
+  next_validation: 追踪 Vessla 官网定价页或公开客户案例，确认按什么计价及已上线维修/应付流程的实际交付结果。
+  market: ''
+  job: 物业经理收到租户维修请求后，需在物业档案、合同、发票与供应商沟通等多个系统间核对信息并推进工单；物业财务人员处理供应商发票时需对照合同与工单确认后付款。
+  job_en: When a property manager receives a tenant maintenance request, they must cross-check property
+    records, contracts, invoices and supplier communication across several systems to advance the work
+    order; property finance staff must match supplier invoices against contracts and work orders before
+    paying.
+  pain: 信息分散在多个物业系统、邮件与表格中，需人工逐项搬运核对；维修请求横跨查档案、核合同、管发票、联系供应商多步，慢且易错。
+  pain_en: Information is scattered across property systems, email and spreadsheets and must be copied
+    and checked by hand; a maintenance request spans records, contracts, invoices and supplier contact,
+    making it slow and error-prone.
+  current_alternative: 员工在多个物业管理系统、邮件和表格之间手工复制信息并逐项核对，再分别推进工单与付款。
+  current_alternative_en: Staff manually copy information between property systems, email and spreadsheets,
+    check each item by hand, then advance the work order and payment separately.
+  usage_reason: 相较人工跨系统搬运，Vessla 的代理直接读取已连接系统中的档案、合同与发票，按机构运营规则执行流程并保留人工审批，减少逐系统查找与转录这一步；这是基于产品能力与任务结构的推断，维修与应付流程量大的物业运营方会因此选用。
+  usage_reason_en: Compared with manual cross-system copying, Vessla's agents read records, contracts
+    and invoices from connected systems, apply operating rules and keep human approval, cutting the per-system
+    lookup and transcription step; this is an inference from product capability and task structure, and
+    property operators with high maintenance and AP volume would choose it.

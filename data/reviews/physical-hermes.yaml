@@ -1,0 +1,86 @@
+- id: req-initial-physical-hermes-2026-10-20
+  project_slug: physical-hermes
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自建本地语音终端时硬件、固件与模型链路需自行拼装的问题，痛点具体；交付为可语音交互的实体设备。
+    evidence_ids:
+    - ev-69c35862c92e056f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与 fork，缺少用户评价或改造案例，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-69c35862c92e056f
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价或付费路径；可能靠硬件套件或部署服务变现，属推断。
+    evidence_ids:
+    - ev-69c35862c92e056f
+  - gate: truth
+    status: insufficient
+    reason: 本地推理与无厂商云符合隐私目标，但支持的指令范围、延迟与稳定性未见实测材料。
+    evidence_ids:
+    - ev-69c35862c92e056f
+  next_validation: 收集该仓库的 issue 与 discussion，确认用户实际改造的硬件型号、可用指令范围与部署反馈。
+  market: ''
+  job: 个人开发者或智能家居爱好者把廉价桌面机器人玩具改造成本地语音终端，接入自建 Hermes Agent，完成语音问答与设备控制。
+  job_en: Individual developers or smart-home hobbyists convert a cheap desktop robot toy into a local
+    voice terminal connected to a self-hosted Hermes Agent for voice Q&A and device control.
+  pain: 现成语音音箱依赖厂商云，隐私与可用性受制于平台；自建语音终端需要自己拼硬件、固件和模型链路，门槛高。
+  pain_en: Off-the-shelf voice speakers depend on vendor clouds, so privacy and availability are controlled
+    by the platform; building a self-hosted voice terminal requires assembling hardware, firmware and
+    model plumbing, which is hard.
+  current_alternative: 购买成品智能音箱，或自行用树莓派等硬件加开源语音组件手工搭建。
+  current_alternative_en: Buying a finished smart speaker, or hand-building with Raspberry Pi-class hardware
+    and open-source voice components.
+  usage_reason: 推断：它把玩具改造、本地模型接入和语音链路打包成一套可复用的开源方案，省去用户逐项选硬件、写固件和对接 agent 的步骤，因此注重隐私、想自建语音入口的开发者会尝试。
+  usage_reason_en: 'Inference: it packages toy retrofitting, local model hookup and the voice pipeline
+    into one reusable open-source setup, sparing users from picking hardware, writing firmware and wiring
+    the agent step by step, so privacy-minded developers wanting a self-hosted voice entry point would
+    try it.'
+- id: req-full-physical-hermes-2026-10-20
+  project_slug: physical-hermes
+  level: full
+  reviewed_at: '2026-10-20T01:45:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据均为词典释义与检索占位，未包含任何用户任务、痛点或改造行为，无法还原需求与旧替代，价值关不成立。
+    evidence_ids:
+    - ev-9a1a25aea43f2b79
+    - ev-01ff14d3dabd4659
+    - ev-8986ccb8e5b3fd86
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该项目的 公开代码仓库 仓库 README、issue 与 discussion，确认实际改造的硬件型号、可用指令范围与部署反馈。
+  market: ''
+  job: 个人开发者或智能家居爱好者把廉价桌面机器人玩具改造成本地语音终端，接入自建 Hermes Agent，完成语音问答与设备控制。
+  job_en: Individual developers or smart-home hobbyists convert a cheap desktop robot toy into a local
+    voice terminal connected to a self-hosted Hermes Agent for voice Q&A and device control.
+  pain: 公开证据中没有任何用户抱怨、改造记录或使用反馈，无法确认现成音箱的隐私顾虑或自建门槛是否构成真实痛点。
+  pain_en: The public evidence contains no user complaints, retrofit logs, or usage feedback, so it is
+    unconfirmed whether vendor-cloud privacy concerns or self-build difficulty are real pain points.
+  current_alternative: 公开材料未提供用户当前如何绕过该问题的任何证据；只能从产品描述推断为购买成品智能音箱或自行用树莓派等硬件加开源语音组件手工搭建。
+  current_alternative_en: The public material offers no evidence of how users currently work around this;
+    only the product description implies buying a finished smart speaker or hand-building with Raspberry
+    Pi-class hardware and open-source voice components.
+  usage_reason: 推断：若产品真能把玩具改造、本地模型接入和语音链路打包成可复用方案，注重隐私的开发者可能尝试；但缺少任何用户反馈或案例支持这一动机。
+  usage_reason_en: 'Inference: if the product truly packages toy retrofitting, local model hookup and
+    the voice pipeline into a reusable setup, privacy-minded developers might try it; but no user feedback
+    or case supports this motive.'

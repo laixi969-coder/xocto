@@ -21,7 +21,7 @@ canonical_url: https://github.com/kinduff/TLKRecomp
 summary: The Lion King (SNES, 1994), running as a native PC program
 first_seen: '2026-10-20T01:06:26Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

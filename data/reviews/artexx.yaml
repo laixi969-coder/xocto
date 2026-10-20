@@ -183,3 +183,46 @@
     by one, it lets multiple agents chain probing to verification in a single run, cutting staff time
     on repetitive steps, so thinly staffed teams needing periodic exercises would try it first; this is
     inference from capability, with no customer case or retention evidence yet.
+- id: req-full-artexx-2026-10-20
+  project_slug: artexx
+  level: full
+  reviewed_at: '2026-10-20T01:42:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选称其为攻防挑战赛冠军的 AI 渗透测试系统，但所引证据全部是 SoundCloud、YouTube、Instagram 上的同名 DJ 账号，与安全产品无关；连用户任务、痛点与旧替代都无法由公开事实还原，价值结构不成立。
+    evidence_ids:
+    - ev-7aef4b73e72406bc
+    - ev-1dd65da2a44815b3
+    - ev-ef247a957ea3654b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪百度“agent+”攻防挑战赛官方获奖公示或 Autumn-27/ARTEX 仓库 README 与演示文档，确认产品真实存在、授权校验方式与可复现输出样例。
+  market: ''
+  job: 安全团队在授权攻防演练或内部自查时，把自有系统交给 AI 代理执行探测与攻击尝试，最终要拿到可复核的漏洞结论用于整改。
+  job_en: During authorized exercises or internal self-checks, a security team hands its own systems to
+    AI agents that attempt probing and attacks, and needs reviewable vulnerability conclusions for remediation.
+  pain: 公开材料未提供任何用户痛点、抱怨或旧流程描述；现有证据全部指向同名 DJ/音乐人账号，与渗透测试无关，无法确认该产品真实存在及其要缓解的负担。
+  pain_en: The public material provides no user pain, complaint, or legacy-workflow description; all evidence
+    points to a same-named DJ/music account unrelated to penetration testing, so neither the product's
+    existence nor the burden it relieves can be confirmed.
+  current_alternative: 无法从证据确认当前替代方式；按任务结构推断可能为人工渗透测试、开源扫描器加人工验证或外包安全服务，但这是推理而非公开事实。
+  current_alternative_en: The current alternative cannot be confirmed from evidence; by task structure
+    it would plausibly be manual penetration testing, open-source scanners plus human verification, or
+    outsourced security services, but this is inference, not public fact.
+  usage_reason: 无法给出有依据的使用理由：现有证据是音乐人社交账号，未包含任何产品页面、文档或用户反馈，无法说明相较旧做法减少了哪一步负担；任何选择动机都只能是推断。
+  usage_reason_en: 'No grounded usage reason can be given: the evidence consists of a musician''s social
+    accounts with no product page, documentation, or user feedback, so no step saved versus the old approach
+    can be shown; any adoption motive would be pure inference.'

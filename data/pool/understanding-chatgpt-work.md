@@ -1,20 +1,40 @@
 ---
 slug: understanding-chatgpt-work
-name: Understanding ChatGPT Work
+name: ChatGPT Work
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 通用助手
+summary_zh: 知识工作者在网页、移动端或桌面应用里打开 ChatGPT Work，把文档、本地文件和需要运行的程序交给它，由它读取材料并执行多步任务，最终产出整理结果或程序输出；桌面版可访问本地文件并运行程序，人工仍需核对结果。具体流程与交付边界仍待核验。
+inspiration: 趋势：大厂把通用助手从对话推进到能读文件、跑程序的工作代理，办公与开发之间的旧分工正在被重新切分。切入：不要正面做通用工作代理；可从某个垂直行业的具体交付物切入，例如把本地文件处理与结果核对封装成按份交付的服务，卖结果而非席位。
+summary_en: Knowledge workers open ChatGPT Work on web, mobile or desktop, hand over documents, local
+  files and programs to run, and it reads the material and executes multi-step tasks, producing organized
+  output or program results; the desktop version can access local files and run programs, and a person
+  still has to check the results. The exact workflow and delivery boundary remain to be verified.
+inspiration_en: 'Trend: a major lab is pushing the general assistant from chat toward a work agent that
+  reads files and runs programs, redrawing the old split between office and development work. Entry: do
+  not build a general work agent head-on; start from one vertical deliverable, for example packaging local-file
+  handling and result checking into a per-deliverable service that sells outcomes rather than seats.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 专业服务
+- 软件开发
+- 办公行政
+industries_en:
+- professional services
+- software development
+- office administration
+jobs:
+- 知识工作者在整理本地文件与运行脚本时，让云端或桌面版 ChatGPT Work 读取材料并执行多步任务，最终拿到整理结果或程序输出，仍需人工核对
+- 办公团队在跨网页与桌面环境处理文档和程序时，用 ChatGPT Work 串联读取、执行与产出，交付前由人确认
+jobs_en:
+- Knowledge workers handling local files and scripts ask cloud or desktop ChatGPT Work to read materials
+  and run multi-step tasks, receiving organized output or program results that still need human review
+- Office teams working across web and desktop environments use ChatGPT Work to chain reading, execution
+  and output, with a person confirming before delivery
+regions:
+- 全球
+regions_en:
+- global
 open_source: false
 url: https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/
 canonical_url: https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work
@@ -110,7 +130,7 @@ summary: "OpenAI  announced ChatGPT Work  on July 9th, and have been furiously i
   \  ai ,  openai ,  generative-ai ,  chatgpt ,  llms ,  code-interpreter ,  general-agents"
 first_seen: '2026-08-30T23:59:47Z'
 last_seen: '2026-08-31T00:37:42Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -121,7 +141,7 @@ sightings:
   kind: news
 ---
 
-# Understanding ChatGPT Work
+# ChatGPT Work
 
 OpenAI  announced ChatGPT Work  on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. 
  ChatGPT Work is actually two products 

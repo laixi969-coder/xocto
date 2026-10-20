@@ -21,7 +21,7 @@ canonical_url: https://theatlantic.com/ideas/2026/10/ai-regulation-transhumanism
 summary: Big Tech Oligarchs Have a Terrible Plan for Humanity
 first_seen: '2026-10-20T01:06:26Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

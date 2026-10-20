@@ -132,3 +132,48 @@
     it passes the target style as a parameter to Claude Code that performs the edit, removing the clip-by-clip
     comparison and manual tuning step, so creators wanting consistent talking-head style would try it
     at the editing stage; the repository shows only stars, with no retention or payment evidence.'
+- id: req-full-ai-video-editor-cooked-2026-10-20
+  project_slug: ai-video-editor-cooked
+  level: full
+  reviewed_at: '2026-10-20T01:41:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播创作者把成片剪成特定参考风格的需求，痛点是节奏字幕转场靠手工反复调、风格模仿需逐段对照，旧做法是手动比对或套通用模板；这是基于产品说明的工作流结构推理，仓库无用户反馈。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从68升至106，仅说明开发者关注度上升，无创作者评价、采用案例或重复使用证据，无法判断共识卡在感知、想象还是场景。
+    evidence_ids:
+    - ev-530d6326b64df46c
+    - ev-5df3f003f0794495
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或付费路径，买方是个人创作者还是剪辑服务商属推断而非已验证事实，也无收入或采购记录。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  - gate: truth
+    status: insufficient
+    reason: 模仿他人风格涉及授权与合规边界，成片质量能否稳定交付缺少实测或案例；仓库仅提供说明与星标，未展示输入格式与人工确认点。
+    evidence_ids:
+    - ev-530d6326b64df46c
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认实际接收的素材格式、剪辑输出范围、风格授权说明及是否有创作者使用反馈。
+  market: ''
+  job: 做口播视频的创作者在剪辑环节，处理自己录制的口播素材，要完成一条节奏、字幕和转场接近某位参考创作者风格的成片。
+  job_en: A talking-head creator at the editing stage handles their own recorded footage to produce a
+    finished video whose pacing, captions and transitions approximate a chosen reference creator's style.
+  pain: 口播剪辑的节奏、字幕与转场需手工反复调整，模仿某位创作者的风格要逐段对照参考视频，耗时且难以稳定复现。
+  pain_en: Pacing, captions and transitions in talking-head editing require repeated manual tuning, and
+    imitating a creator's style means comparing against reference videos segment by segment, which is
+    slow and hard to reproduce consistently.
+  current_alternative: 旧做法是剪辑师手动对照参考视频逐段调整，或套用通用剪辑模板，风格接近度靠个人经验。
+  current_alternative_en: The old way is an editor manually adjusting segment by segment against reference
+    videos, or applying generic editing templates, with style closeness depending on personal experience.
+  usage_reason: 推断：相较手动逐段比对参考视频，它把目标风格作为参数交给 Claude Code 执行剪辑动作，省掉逐条对照与手动调参这一步，因此想稳定输出某种风格的口播创作者会在剪辑环节试用；仓库未提供留存或付费证据。
+  usage_reason_en: 'Inference: versus manually comparing against reference videos segment by segment,
+    it passes the target style as a parameter to Claude Code to perform the edit, removing the clip-by-clip
+    comparison and manual tuning step, so talking-head creators seeking consistent style output would
+    try it at the editing stage; the repository provides no retention or payment evidence.'

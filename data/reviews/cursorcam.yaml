@@ -128,3 +128,54 @@
     agent and auto-produces a video with zoomed clicks, removing the retake and per-segment zoom steps;
     developers who produce demo videos often and do not want to maintain an editing pipeline would choose
     it when re-recording after a UI change. This is structural reasoning, not yet backed by user feedback.'
+- id: req-full-cursorcam-2026-10-20
+  project_slug: cursorcam
+  level: full
+  reviewed_at: '2026-10-20T01:42:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把网页操作路径转成带点击放大的演示视频这一任务，痛点是手工录屏与后期加缩放需反复重录、页面改动即作废；公开说明已能还原输入（点击路径）、动作（代理或 CLI 自动点击录制）与交付（MP4），属工作流结构推理，尚无用户痛点材料。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+    - ev-0b8a8fe91f3ce883
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 58 增至 61，说明有开发者关注，但无 issue、讨论或客户案例表明目标用户在真实演示场景中持续使用；关注度不能替代采用证据。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+    - ev-c703f0d928a44545
+    - ev-0b8a8fe91f3ce883
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或分发方式，无法判断钱来自开发者个人、团队订阅还是开源赞助；这是商业证据缺口，不反推需求不存在。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+  - gate: truth
+    status: insufficient
+    reason: 说明称可配合任意 AI 代理或独立 CLI 使用，但未公开失败处理、登录态与敏感页面录制的人工边界，也无部署文档或可复现实测证明交付稳定发生。
+    evidence_ids:
+    - ev-dc2c68dda5a49600
+    - ev-c703f0d928a44545
+  next_validation: 追踪 cursorcam 仓库的 issue 与 discussion，确认是否有开发者在真实演示场景中报告使用、失败处理与替代的旧录屏流程。
+  market: ''
+  job: 开发者或产品团队在向客户、团队或投资人演示网页应用时，需要把一段可复现的点击操作路径录成带点击放大效果的演示视频，交给 AI 代理或 CLI 自动完成点击与录制。
+  job_en: When demoing a web app to clients, teammates, or investors, developers or product teams need
+    to turn a repeatable click path into a demo video with zoomed clicks, letting an AI agent or CLI drive
+    the clicking and recording.
+  pain: 公开说明只支持“自动点击并返回带放大的 MP4”这一交付形态，未提供用户抱怨或耗时数据；从工作流结构推理，手工录屏需反复重录、后期加缩放与光标强调，且每次页面改动都要重做，这是可识别的重复劳动，但痛点强度尚无用户证据。
+  pain_en: The public description only supports the deliverable of auto-clicking and returning a zoomed
+    MP4, with no user complaints or time data; by workflow inference, manual screen recording requires
+    repeated retakes plus post-editing for zoom and cursor emphasis, and must be redone after each UI
+    change—a recognizable repetitive burden, though pain intensity lacks user evidence.
+  current_alternative: 旧做法是人工用录屏工具走一遍流程，再在剪辑软件里加缩放、光标高亮和字幕；或干脆用截图和文字说明代替视频。公开材料未说明用户实际使用哪种替代。
+  current_alternative_en: The old approach is manually screen-recording a walkthrough, then adding zoom,
+    cursor highlights, and captions in an editor—or replacing video with screenshots and text. Public
+    materials do not state which alternative users actually use.
+  usage_reason: 推断：相较手工录屏加后期，产品把“点击路径执行”和“按点击自动放大”合并为一次代理或 CLI 调用，省去重录与逐帧加缩放这两步；因此需要频繁产出演示视频、且页面仍在迭代的开发者会在交付演示时选择它。这是结构推理，非用户反馈。
+  usage_reason_en: 'Inference: versus manual recording plus post-editing, the product merges click-path
+    execution and automatic per-click zoom into one agent or CLI call, removing the retake and frame-by-frame
+    zoom steps; developers who frequently produce demo videos while the UI is still changing would therefore
+    choose it at delivery time. This is structural reasoning, not user feedback.'

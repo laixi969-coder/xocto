@@ -779,3 +779,42 @@
   usage_reason: 公开记录显示 mau 39.81M、环比 10.79%；这解释了它为何受到关注，但产品级留存与付费仍未核验。
   usage_reason_en: A public record shows 39.81M mau and 10.79% month-over-month growth. That explains
     the attention, but product-level retention and payment are not yet verified.
+- id: req-full-claude-by-anthropic-2026-10-20
+  project_slug: claude-by-anthropic
+  level: full
+  reviewed_at: '2026-10-20T01:42:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“Anthropic 的对话助手，主攻写代码、长文和复杂推理，靠用得深来收费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官网 Claude 定价页与客户案例，确认其具体任务场景、计费方式及是否有公开的使用或付费结果数据。
+  market: ''
+  job: 开发者与知识工作者在写代码、处理长文和复杂推理任务时，把材料交给 Anthropic 的对话助手，获得可用的代码、文稿或分析结果。
+  job_en: Developers and knowledge workers hand coding, long-document, and hard-reasoning tasks to Anthropic's
+    chat assistant to get usable code, drafts, or analysis.
+  pain: 公开材料只有一句产品定位，未说明用户在写代码或长文时具体卡在哪一步、不解决会付出什么代价；无法从现有证据还原痛点。
+  pain_en: Public material offers only a positioning line and does not show where users get stuck in coding
+    or long-form work or what it costs to leave unsolved; the pain cannot be reconstructed from available
+    evidence.
+  current_alternative: 公开材料未说明用户目前如何完成这些任务，也未说明它替代了哪些旧工具或流程。
+  current_alternative_en: Public materials do not show how users currently complete these tasks or which
+    older tools or workflows it replaces.
+  usage_reason: 推断：若助手能在长上下文与复杂推理上给出可直接采用的结果，用户可省去自行拆解与反复改写；但缺少功能细节与用户反馈，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if the assistant returns directly usable output on long context and hard
+    reasoning, users skip manual decomposition and repeated rewriting; feature detail and user feedback
+    are missing, so which users would choose it cannot be confirmed.'

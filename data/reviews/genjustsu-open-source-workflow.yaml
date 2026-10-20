@@ -449,3 +449,56 @@
     masks and generations in the same place, cutting export/import hops and audio re-alignment; post-production
     staff replacing elements in already-shot footage would therefore choose it when they must keep original
     audio and quickly try replacement looks. This is inferred from product capability'
+- id: req-full-genjustsu-open-source-workflow-2026-10-20
+  project_slug: genjustsu-open-source-workflow
+  level: full
+  reviewed_at: '2026-10-20T01:43:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是已拍素材中替换特定人物或物体、同时保留原声与镜头一致性的需求；痛点是逐帧抠像、遮罩核对和跨工具对齐耗时且易返工。公开说明已能还原输入、动作与交付闭环，属工作流结构推理，尚无用户抱怨或案例直接佐证。
+    evidence_ids:
+    - ev-91bc5a4f86286d70
+    - ev-9a53ce805cf7a921
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 803 增至 1,074，说明开发者持续关注；但收藏与关注只属规模信号，公开材料没有目标后期人员的采用、复购或重复使用证据，无法判断是否进入稳定工作流。
+    evidence_ids:
+    - ev-91bc5a4f86286d70
+    - ev-9a53ce805cf7a921
+  - gate: model
+    status: insufficient
+    reason: 项目为开源工作流，公开材料未见定价、付费主体或商业授权方式；钱可能来自 to B 后期团队或 to VC 赞助，但这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-91bc5a4f86286d70
+  - gate: truth
+    status: insufficient
+    reason: 公开说明只描述流程与本地界面，未见替换质量的实测对比、失败案例或人工复核边界；交付能否稳定达到可播出质量尚缺可复现证据。
+    evidence_ids:
+    - ev-91bc5a4f86286d70
+    - ev-7bc497e832ae856a
+  next_validation: 追踪该仓库的 issue 与 discussion，收集后期人员实际替换镜头的前后对比、失败案例与重复使用记录，以核验交付质量与持续采用。
+  market: ''
+  job: 视频后期或视觉特效人员拿到一条已拍摄完成的素材，需要把其中某个人物或物体替换成新形象，同时保留原声与镜头运动；他们在本地 Web UI 中导入素材，用深度图、SAM 分割和人脸网格圈定替换区域，再交给
+    Seedance 生成新画面并逐帧核对遮罩与结果后导出。
+  job_en: A video post-production or VFX artist receives already-shot footage and must replace a character
+    or object with a new look while preserving original audio and camera motion; they import the footage
+    into a local web UI, use depth maps, SAM segmentation and face meshes to define the replacement region,
+    send it to Seedance for generation, then review masks and results frame by frame before exporting.
+  pain: 公开说明显示替换前需要人工逐帧抠像、对齐人脸与深度关系，并在生成后反复核对遮罩；这类工作耗时且容易在边缘、遮挡和原声同步上出错，返工成本高。这是从工作流结构推出的痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: The public description shows that before replacement, artists must manually rotoscope frame
+    by frame, align faces and depth relationships, and re-check masks after generation; this is time-consuming
+    and error-prone at edges, occlusions and audio sync, with high rework cost. This pain is inferred
+    from workflow structure, not directly supported by user complaints or cases.
+  current_alternative: 旧做法是手工抠像加合成软件逐帧处理，或直接用通用视频生成模型重绘整段画面再人工修补；前者慢，后者难以保持原声、镜头和未替换区域的一致性。
+  current_alternative_en: The old approach is manual rotoscoping plus compositing software frame by frame,
+    or using a general video generation model to repaint the whole clip and then manually patching; the
+    former is slow, the latter struggles to preserve audio, camera motion and untouched regions.
+  usage_reason: 推断：相较手工抠像，它把深度图、SAM 分割和人脸网格串成一次输入准备，并在同一界面里预览遮罩与生成结果，减少了在多个工具间来回导出、对齐和复查的步骤；因此需要替换镜头中特定人物或物体、又要求保留原声的后期人员会在单镜头修改场景下选择它。
+  usage_reason_en: 'Inference: compared with manual rotoscoping, it chains depth maps, SAM segmentation
+    and face meshes into one input-preparation step and previews masks and generations in the same interface,
+    reducing export, alignment and re-check steps across multiple tools; therefore post-production staff
+    who must replace a specific character or object while keeping original audio would choose it for single-shot
+    edits.'

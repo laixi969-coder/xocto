@@ -21,7 +21,7 @@ canonical_url: https://theverge.com/ai-artificial-intelligence/1009802/character
 summary: Character.ai Files for Bankruptcy
 first_seen: '2026-10-14T01:13:55Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

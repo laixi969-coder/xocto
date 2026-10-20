@@ -1,0 +1,93 @@
+- id: req-initial-laplace-intelligence-red-teams-robots-and-self-driving-cars-2026-10-20
+  project_slug: laplace-intelligence-red-teams-robots-and-self-driving-cars
+  level: initial
+  reviewed_at: '2026-10-20T01:06:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决部署前长尾危险场景验证的需求，痛点是实车路测贵且难复现，旧流程清晰，价值结构成立。
+    evidence_ids:
+    - ev-a2282e30891f2d21
+    - ev-0fce14588f3fa25a
+  - gate: consensus
+    status: insufficient
+    reason: 材料称其已盈利，但未给出客户名单、采用规模或用户评价，共识证据不足。
+    evidence_ids:
+    - ev-a2282e30891f2d21
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方推测为机器人或车企的测试与安全部门，属判断而非已验证事实。
+    evidence_ids:
+    - ev-a2282e30891f2d21
+  - gate: truth
+    status: insufficient
+    reason: 仿真结果与真实世界失效的相关性、人工复核边界未在材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-a2282e30891f2d21
+    - ev-0fce14588f3fa25a
+  next_validation: 收集Laplace Intelligence官网的客户案例或部署文档，核验其测试覆盖范围与交付形式。
+  market: ''
+  job: 机器人或自动驾驶团队在部署前需要覆盖长尾危险场景时，用Laplace Intelligence的仿真环境跑AI代理驱动的压力测试，找出失效场景并修改设计。
+  job_en: Robotics or autonomous-driving teams needing long-tail hazardous-scenario coverage before deployment
+    use Laplace Intelligence's simulation to run AI-agent-driven stress tests, find failure cases and
+    revise designs.
+  pain: 实车或实机路测成本高、危险场景难复现，长尾失效往往在部署后才暴露，代价大。
+  pain_en: Physical road or field testing is costly and hard to reproduce hazardous scenarios, so long-tail
+    failures often surface only after deployment, at high cost.
+  current_alternative: 传统做法是实车路测、人工设计测试用例或使用通用仿真软件，覆盖长尾场景慢且依赖人工。
+  current_alternative_en: The old route is physical road testing, manually designed test cases or generic
+    simulation software, which covers long-tail scenarios slowly and relies on manual effort.
+  usage_reason: 推断：相较人工设计用例和实车路测，它用AI代理自动生成并执行对抗性场景，把“想危险场景”和“复现危险场景”两步交给仿真批量完成，工程师只需处理输出的失效清单；因此安全测试团队会在版本发布前选择它。
+  usage_reason_en: 'Inference: versus manual test design and road testing, it uses AI agents to auto-generate
+    and run adversarial scenarios, moving both ''invent hazardous cases'' and ''reproduce them'' into
+    batch simulation, leaving engineers to handle the failure list; safety teams would choose it before
+    a release.'
+- id: req-full-laplace-intelligence-red-teams-robots-and-self-driving-cars-2026-10-20
+  project_slug: laplace-intelligence-red-teams-robots-and-self-driving-cars
+  level: full
+  reviewed_at: '2026-10-20T01:44:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决部署前长尾危险场景验证的需求，痛点是实车路测贵、危险场景难复现、人工用例覆盖慢，旧流程与交付闭环清晰，属工作流结构推理。
+    evidence_ids:
+    - ev-7232d67e64174a2d
+  - gate: consensus
+    status: insufficient
+    reason: 材料仅称其为密歇根大学衍生且已盈利，未给出客户名单、采用规模或用户评价，无法确认测试团队已持续使用。
+    evidence_ids:
+    - ev-7232d67e64174a2d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式；买方推测为机器人或车企的测试与安全部门，这是判断而非已验证的付费事实。
+    evidence_ids:
+    - ev-7232d67e64174a2d
+  - gate: truth
+    status: insufficient
+    reason: 仿真失效与真实世界风险的相关性、AI代理生成场景的覆盖边界及人工复核环节均未公开，交付确定性尚缺证据。
+    evidence_ids:
+    - ev-7232d67e64174a2d
+  next_validation: 追踪Laplace Intelligence官网的客户案例或部署文档，核验其仿真测试覆盖范围、交付形式与真实失效的对应关系。
+  market: ''
+  job: 机器人或自动驾驶团队的安全与测试工程师，在版本发布或实车部署前，把待测系统接入Laplace Intelligence的交互式仿真环境，用AI代理批量生成并执行长尾危险场景，得到失效清单后修改设计。
+  job_en: Safety and test engineers at robotics or autonomous-driving teams connect their system to Laplace
+    Intelligence's interactive simulation before a release or real-world deployment, use AI agents to
+    batch-generate and run long-tail hazardous scenarios, and revise designs from the resulting failure
+    list.
+  pain: 实车或实机路测成本高、危险场景难以安全复现，人工设计测试用例覆盖长尾慢，失效往往在部署后才暴露，返工代价大。
+  pain_en: Physical road or field testing is expensive and hazardous scenarios are hard to reproduce safely;
+    manually designed test cases cover long tails slowly, so failures often surface only after deployment
+    at high rework cost.
+  current_alternative: 传统做法是实车路测、人工编写测试用例，或使用通用仿真软件自行搭建场景，长尾覆盖依赖工程师经验且迭代慢。
+  current_alternative_en: The old route is physical road testing, hand-written test cases, or generic
+    simulation software with self-built scenarios, where long-tail coverage depends on engineer experience
+    and iterates slowly.
+  usage_reason: 推断：相较人工设计用例和实车路测，它把“设想危险场景”和“批量复现执行”两步交给AI代理在仿真中完成，工程师只需处理输出的失效清单，减少逐条手工搭建与实车复现的负担；因此安全测试团队会在版本发布前选择它。
+  usage_reason_en: 'Inference: versus manual test design and road testing, it moves both ''invent hazardous
+    cases'' and ''reproduce them at batch scale'' into AI-agent-driven simulation, leaving engineers to
+    triage the failure list and cutting manual scenario-building and physical reproduction; safety teams
+    would therefore choose it before a release.'

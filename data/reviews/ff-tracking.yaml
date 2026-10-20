@@ -317,3 +317,44 @@
     into one reproducible pipeline, cutting the work of building tracking and scoring step by step in
     general editors, so post-production people making agent demos would try it; star growth only shows
     attention, with no user cases or retention evidence yet.'
+- id: req-full-ff-tracking-2026-10-20
+  project_slug: ff-tracking
+  level: full
+  reviewed_at: '2026-10-20T01:43:23Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图把代理屏幕录制做成带字形跟踪与音效的成片素材，但公开材料只有功能描述，没有用户痛点、旧流程耗时或必须解决的后果；这种风格化效果属于可选装饰，不用也不影响演示视频交付，接近自嗨拼凑。
+    evidence_ids:
+    - ev-556525d07c573191
+    - ev-37e8294b28c67724
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认是否有真实用户报告用它完成代理演示或特效短片，以及输入输出规格与依赖环境。
+  market: ''
+  job: 视频剪辑师或视觉特效师在制作 AI 代理演示、教程或特效短片时，处理代理屏幕录制素材，要完成字形跟踪、画面合成与音效制作。
+  job_en: A video editor or VFX artist producing an AI agent demo, tutorial or effects short works with
+    agent screen recordings to complete glyph tracking, compositing and sound design.
+  pain: 公开材料只说明它能跟踪字形并合成声音，未给出任何用户抱怨、旧流程耗时或错位案例；代理屏幕录制是否需要逐字形跟踪，本身是创作者的可选风格选择，而非刚性痛点。
+  pain_en: Public materials only state that it tracks glyphs and synthesizes sound; there are no user
+    complaints, old-workflow time costs or drift cases. Whether agent screen recordings need per-glyph
+    tracking is an optional stylistic choice, not a rigid pain point.
+  current_alternative: 在 After Effects 等软件里手动做跟踪与合成，或直接使用未加工的屏幕录制；这些旧做法已能满足多数演示视频需求。
+  current_alternative_en: Manual tracking and compositing in tools like After Effects, or shipping raw
+    screen recordings; these already satisfy most demo-video needs.
+  usage_reason: 推断：它把跟踪、两遍 fframes 处理、着色器与声音合成打包成一条可复现管线，减少在通用剪辑软件里逐步搭建的负担；但公开材料没有用户反馈或案例说明这一风格化效果是必须的，因此更可能被当作技术演示而非工作流工具。
+  usage_reason_en: 'Inference: it packages tracking, two fframes passes, a shader and sound synthesis
+    into one reproducible pipeline, cutting step-by-step setup in general editors. But no public feedback
+    or cases show this stylized effect is necessary, so it reads more as a tech demo than a workflow tool.'

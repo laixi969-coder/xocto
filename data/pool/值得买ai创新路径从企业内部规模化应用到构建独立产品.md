@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tbWI1RUg4YkhT
 summary: 值得买AI创新路径：从“企业内部规模化应用”到“构建独立产品” 驱动之家
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

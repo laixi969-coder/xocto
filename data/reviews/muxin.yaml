@@ -130,3 +130,53 @@
     lets AI agents reach those machines via MCP, removing the step of logging in machine by machine and
     reassembling context; developers running AI agent sessions across heterogeneous machines would therefore
     choose it when they need cross-machine inspection or operations. This motive is not yet bac'
+- id: req-full-muxin-2026-10-20
+  project_slug: muxin
+  level: full
+  reviewed_at: '2026-10-20T01:44:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多机环境下代理会话、桌面、文件、日志与仓库分散、需逐台切换查看的需求，痛点在于多机操作与 AI 代理接入的摩擦；公开仓库说明已给出输入、动作与统一交付入口，属工作流结构推理，尚无用户抱怨或频率数据。
+    evidence_ids:
+    - ev-1b6798ae67132d99
+    - ev-c13286f7ae19f145
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 312 升至 319，说明有开发者关注，但收藏与排名只属关注度，未见目标用户持续使用、复购或工作流留存的公开证据。
+    evidence_ids:
+    - ev-1b6798ae67132d99
+    - ev-c13286f7ae19f145
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或单位经济，钱可能来自开发者自付订阅或团队采购，这是判断而非已验证事实；公开材料只有开源仓库，付费路径尚未核验。
+    evidence_ids:
+    - ev-1b6798ae67132d99
+  - gate: truth
+    status: insufficient
+    reason: 跨机访问涉及权限边界与安全，公开材料未说明认证方式、最小权限、审计或人工确认机制，交付能否确定性发生尚缺可复现文档。
+    evidence_ids:
+    - ev-1b6798ae67132d99
+    - ev-c13286f7ae19f145
+  next_validation: 追踪 muxin.dev 仓库的 README、部署文档与 issue/discussion，确认权限模型、MCP 接入方式及是否有用户报告实际替代旧流程。
+  market: ''
+  job: 开发者或运维人员同时管理多台 Mac、Linux、Windows 机器时，需要在一个应用里查看各机的代理会话、桌面、文件、日志和 公开代码仓库 仓库，并让 AI 代理通过 MCP 服务器接入这些机器执行操作。
+  job_en: When managing several Mac, Linux and Windows machines, developers or operators need one app
+    to view agent sessions, desktops, files, logs and public code repository repositories across them,
+    and to let AI agents reach those machines through an MCP server.
+  pain: 多机分散导致用户要在多套 SSH、远程桌面、日志工具和仓库页面之间来回切换，代理会话与文件状态难以统一掌握；公开材料只给出产品能力，未提供用户抱怨或频率数据，痛点强度属工作流结构推理。
+  pain_en: Machines are scattered across separate SSH, remote-desktop, log and repository tools, so agent
+    sessions and file state are hard to see in one place; public material only states product capability,
+    not user complaints or frequency, so pain intensity is a workflow inference.
+  current_alternative: 旧做法是分别用 SSH、远程桌面、各机日志命令、公开代码仓库 网页和自建脚本拼合多机视图，AI 代理则需逐台配置接入；公开材料未展示用户实际替代过程。
+  current_alternative_en: The old approach is to stitch a multi-machine view from SSH, remote desktop,
+    per-machine log commands, public code repository web pages and custom scripts, while wiring AI agents
+    machine by machine; public material does not show actual substitution.
+  usage_reason: 推断：相较逐台切换 SSH 与日志工具，它把多机代理会话、桌面、文件、日志和仓库收进一个入口，并通过 MCP 服务器让代理直接接入，减少逐机配置与切换这一步；常在多机调试或让
+    AI 代理跨机执行任务时被选择。
+  usage_reason_en: 'Inference: instead of switching SSH and log tools per machine, it puts multi-machine
+    agent sessions, desktops, files, logs and repositories into one entry point and lets agents connect
+    via an MCP server, removing per-machine setup and switching; chosen when debugging across machines
+    or running AI agents across them.'

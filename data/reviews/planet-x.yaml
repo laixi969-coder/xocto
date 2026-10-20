@@ -1,0 +1,83 @@
+- id: req-initial-planet-x-2026-10-20
+  project_slug: planet-x
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决纪念亲人的需求，但材料未说明具体痛点、旧流程与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-63ce36086982a11c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有用户评价、采用或社区讨论证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-63ce36086982a11c
+  - gate: model
+    status: insufficient
+    reason: 未进入：买方与付费路径均未披露，无法判断钱来自家属、殡葬机构还是其他方。
+    evidence_ids:
+    - ev-63ce36086982a11c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对 AI 是否贴近纪念整理的第一性目标，也无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-63ce36086982a11c
+  next_validation: 收集 Planet-X 官方产品页或演示，确认它接收哪些材料、执行什么整理动作、最终交付形态与是否收费。
+  market: ''
+  job: 家属在亲人离世后整理照片、文字与回忆，希望把分散材料集中成可长期回看的纪念空间。
+  job_en: Family members gather photos, text and memories after a loved one's death and want to consolidate
+    scattered material into a long-term memorial space.
+  pain: 公开材料未说明具体痛点，只能推断分散的影像与口述难以整理成可回看的纪念内容。
+  pain_en: The public material does not state a concrete pain; it can only be inferred that scattered
+    images and oral accounts are hard to organize into reviewable memorial content.
+  current_alternative: 公开材料未提及现有替代方式；常见做法可能是相册、云盘或社交平台纪念页，但候选未证实。
+  current_alternative_en: The public material names no current alternative; common practice may be photo
+    albums, cloud drives or social memorial pages, but the candidate does not confirm this.
+  usage_reason: 无法判断：候选只有一句产品描述，没有说明相较旧做法减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'Cannot be judged: the candidate has only one product description and does not explain
+    which step burden is reduced or which checkable result improves versus the old approach.'
+- id: req-full-planet-x-2026-10-20
+  project_slug: planet-x
+  level: full
+  reviewed_at: '2026-10-20T01:45:09Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决亲人离世后集中照片与回忆的纪念需求，但公开材料只有一句“活地球”描述，未说明具体痛点、旧流程、输入动作与交付形态；无法还原不解决的后果，价值结构不成立。
+    evidence_ids:
+    - ev-63ce36086982a11c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Planet-X 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 家属在亲人离世后，把散落在相册、手机和口述中的照片与回忆集中到一个可长期回看的纪念空间。
+  job_en: After a loved one's death, family members consolidate photos and memories scattered across albums,
+    phones and oral accounts into a long-term reviewable memorial space.
+  pain: 公开材料只有一句“可探索并纪念亲人的活地球”，未说明整理照片、文字或回忆时具体卡在哪一步，也未说明不解决会失去什么；只能推断分散材料难以形成可回看的纪念内容，但这是结构推理，不是公开事实。
+  pain_en: The public material offers only one line, 'a living globe to explore and remember loved ones,'
+    and does not state where organizing photos, text or memories actually hurts or what is lost if unsolved;
+    it can only be inferred that scattered material is hard to turn into reviewable memorial content,
+    and this is structural reasoning, not public fact.
+  current_alternative: 公开材料未提及任何现有替代方式；相册、云盘或社交平台纪念页只是常见做法的推测，候选未证实。
+  current_alternative_en: The public material names no current alternative; photo albums, cloud drives
+    or social memorial pages are only guesses at common practice and are not confirmed by the candidate.
+  usage_reason: 无法判断：材料没有说明产品接收哪些材料、执行什么整理动作、交付是纪念页还是时间线，因此无法解释相较旧做法减少了哪一步负担；仅凭一句描述，用户没有明确理由选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say what inputs the product takes, what organizing
+    action it performs, or whether the deliverable is a memorial page or timeline, so it cannot explain
+    which step burden is reduced versus the old approach; with only one description, users have no clear
+    reason to choose it.'

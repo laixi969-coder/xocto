@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE1WMXVOSWZDWWRv
 summary: 重磅嘉宾| 美的集团美云智数行业生态总经理邢成玉确认参加WAIE（第十届）2026人工智能产业大会暨AI智能体产业应用大会 OFweek
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

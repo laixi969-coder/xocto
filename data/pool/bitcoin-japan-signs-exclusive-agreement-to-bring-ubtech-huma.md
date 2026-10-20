@@ -1,6 +1,6 @@
 ---
 slug: bitcoin-japan-signs-exclusive-agreement-to-bring-ubtech-huma
-name: Bitcoin Japan Signs Exclusive Agreement to Bring UBTECH Humanoid Robots to Japan
+name: UBTECH
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZGtvTWxtaDZk
 summary: Bitcoin Japan Signs Exclusive Agreement to Bring UBTECH Humanoid Robots to Japan The Manila Times
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Bitcoin Japan Signs Exclusive Agreement to Bring UBTECH Humanoid Robots to Japan
+# UBTECH
 
 Bitcoin Japan Signs Exclusive Agreement to Bring UBTECH Humanoid Robots to Japan The Manila Times
 

@@ -1,0 +1,88 @@
+- id: req-initial-multilangbench-2026-10-20
+  project_slug: multilangbench
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多语言模型上线前缺少可复现对照口径的问题，痛点是评测结论难横向比较；买方尚不明确。
+    evidence_ids:
+    - ev-d5a9f093c7e16290
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库描述与 4 个星标，没有外部团队采用、引用或讨论的公开证据。
+    evidence_ids:
+    - ev-d5a9f093c7e16290
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费或服务方式，钱可能来自模型厂商内部使用或企业定制评测，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-d5a9f093c7e16290
+  - gate: truth
+    status: insufficient
+    reason: 未披露题目构成、评分方式与语言覆盖，无法核对它是否贴近真实上线决策所需的多语言证据。
+    evidence_ids:
+    - ev-d5a9f093c7e16290
+  next_validation: 收集该仓库 README 与 issue/discussion，确认语言覆盖、评分方式以及是否有外部团队在发布前评测中引用它。
+  market: ''
+  job: 模型评测工程师或本地化负责人在某语言版本上线前，用多语言测试题跑分并对比不同模型，判断该语言能否交付。
+  job_en: Model evaluation engineers or localization leads run multilingual test items and compare models
+    before a language version ships, deciding whether that language can be delivered.
+  pain: 多语言能力缺少统一、可复现的对照口径，团队各自拼测试题，结论难以横向比较，上线决策容易凭印象。
+  pain_en: Multilingual capability lacks a unified, reproducible comparison basis; teams assemble their
+    own test items, results are hard to compare, and launch decisions rest on impressions.
+  current_alternative: 团队自建测试集、参考零散的单语言榜单，或直接依赖模型厂商自报的多语言成绩。
+  current_alternative_en: Teams build their own test sets, consult scattered single-language leaderboards,
+    or rely on vendor-reported multilingual scores.
+  usage_reason: 推断：相较自建测试集，它把多语言题目集中到可复现的基准中，减少重新出题与对齐口径的步骤，因此需要跨语言上线判断的团队会先试用它；是否被长期采用尚无公开证据。
+  usage_reason_en: 'Inference: compared with building test sets in-house, it centralizes multilingual
+    items into a reproducible benchmark, cutting the steps of writing items and aligning criteria, so
+    teams facing cross-language launch decisions would try it first; there is no public evidence of sustained
+    adoption yet.'
+- id: req-full-multilangbench-2026-10-20
+  project_slug: multilangbench
+  level: full
+  reviewed_at: '2026-10-20T01:44:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多语言模型上线前缺少可复现对照口径的问题，痛点是评测结论难横向比较、上线决策凭印象；这是从评测工作流推出的结构判断，公开材料只有仓库描述，买方尚不明确。
+    evidence_ids:
+    - ev-d5a9f093c7e16290
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库描述与 4 个星标，没有外部团队采用、引用或讨论的公开证据，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-d5a9f093c7e16290
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费或服务方式，钱可能来自模型厂商内部使用或企业定制评测，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-d5a9f093c7e16290
+  - gate: truth
+    status: insufficient
+    reason: 未披露题目构成、评分方式与语言覆盖，无法核对它是否贴近真实上线决策所需的多语言证据，交付确定性待补。
+    evidence_ids:
+    - ev-d5a9f093c7e16290
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认语言覆盖、评分方式以及是否有外部团队在发布前评测中引用它。
+  market: ''
+  job: 模型评测工程师或本地化负责人在某语言版本上线前，把同一批多语言测试题喂给不同模型跑分，横向比较后决定该语言能否交付。
+  job_en: Model evaluation engineers or localization leads run the same multilingual test items across
+    models before a language launch, compare scores side by side, and decide whether that language can
+    ship.
+  pain: 多语言能力缺少统一、可复现的对照口径，团队各自拼测试题，结论难以横向比较，上线决策容易凭印象；这是从评测工作流推出的痛点，公开材料未给出用户抱怨。
+  pain_en: Multilingual capability lacks a unified, reproducible comparison basis; teams assemble their
+    own test items, results are hard to compare, and launch decisions rest on impressions. This is inferred
+    from the evaluation workflow; public materials show no user complaints.
+  current_alternative: 团队自建测试集、参考零散的单语言榜单，或直接依赖模型厂商自报的多语言成绩。
+  current_alternative_en: Teams build their own test sets, consult scattered single-language leaderboards,
+    or rely on vendor-reported multilingual scores.
+  usage_reason: 推断：相较自建测试集，它把多语言题目集中到可复现的基准中，减少重新出题与对齐口径的步骤，因此需要跨语言上线判断的团队会先试用它；是否被长期采用尚无公开证据。
+  usage_reason_en: 'Inference: compared with building test sets in-house, it centralizes multilingual
+    items into a reproducible benchmark, cutting the steps of writing items and aligning criteria, so
+    teams facing cross-language launch decisions would try it first; there is no public evidence of sustained
+    adoption yet.'

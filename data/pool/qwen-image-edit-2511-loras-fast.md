@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/a333ffff/Qwen-Image-Edit-2511-Custo
 summary: Demo of the Collection of Qwen Image Edit LoRAs
 first_seen: '2026-10-20T01:06:53Z'
 last_seen: '2026-10-20T01:06:53Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

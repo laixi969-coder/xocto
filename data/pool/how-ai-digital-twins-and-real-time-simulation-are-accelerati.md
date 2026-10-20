@@ -22,7 +22,7 @@ summary: How AI, digital twins and real-time simulation are accelerating manufac
   Dive
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,84 @@
+- id: req-initial-ari-2026-10-20
+  project_slug: ari
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决纸笔学习缺少即时讲解的问题，但公开材料只有一句自述，无法确认输入、动作与交付，痛点刚性未明。
+    evidence_ids:
+    - ev-79f694d2b84048b0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有约 154 星与 14 次 fork，属关注度信号，不能说明学习者已把它放进日常学习流程。
+    evidence_ids:
+    - ev-79f694d2b84048b0
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价、买方或付费路径，钱从哪来只能作为判断而非事实。
+    evidence_ids:
+    - ev-79f694d2b84048b0
+  - gate: truth
+    status: insufficient
+    reason: 纸面内容如何被读取、讲解是否准确、人工是否需复核均无公开说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-79f694d2b84048b0
+  next_validation: 收集该仓库 README 与 issue/discussion，核验纸面内容如何被读取、AI 输出形态以及是否已有使用者反馈。
+  market: ''
+  job: 自学者在纸笔做题或整理笔记时，把写下的内容交给工具，希望得到讲解或反馈以完成学习任务。
+  job_en: Self-learners working through exercises or notes on paper hand the written material to a tool
+    to get explanations or feedback and finish a learning task.
+  pain: 纸笔练习缺少即时讲解和纠错，遇到卡点只能自己翻书或等他人解答；公开材料未说明该工具如何缓解这一点。
+  pain_en: Paper practice lacks instant explanation and correction, so a stuck learner must consult books
+    or wait for someone else; the public material does not say how the tool eases this.
+  current_alternative: 翻教材答案、搜索题目或把题目拍照输入通用聊天助手。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：若它能直接读取纸面内容并给出讲解，就省去把题目重新打字或拍照转述的一步；但公开材料只有一句自述，读取方式与交付结果均未核验，尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it can read paper content directly and explain it, it removes the step
+    of retyping or photographing the problem; but the public material is one line, and neither the capture
+    method nor the output is verified, so user choice cannot yet be confirmed.'
+- id: req-full-ari-2026-10-20
+  project_slug: ari
+  level: full
+  reviewed_at: '2026-10-20T01:42:12Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决纸笔学习缺少即时讲解的问题，但公开材料只有一句自述，且同名证据混入汽车维修软件与自行车站，无法确认输入、动作与交付，需求与痛点均未成形。
+    evidence_ids:
+    - ev-b279b3fbd1d8dff2
+    - ev-dd3fa309abfc2d28
+    - ev-35227e72d009233e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 web.ari.app 的登录后产品页或帮助文档，确认纸面内容如何被读取、AI 输出形态以及是否已有学习者反馈。
+  market: ''
+  job: 自学者在纸笔做题或整理笔记时，把写下的内容交给工具，希望得到讲解或反馈以完成学习任务。
+  job_en: Self-learners working through exercises or notes on paper hand the written material to a tool
+    to get explanations or feedback and finish a learning task.
+  pain: 纸笔练习缺少即时讲解和纠错，卡住时只能翻书或等人解答；但公开材料只有一句自述，无法确认它针对的具体痛点。
+  pain_en: Paper practice lacks instant explanation and correction, so a stuck learner must consult books
+    or wait for someone; but the public material is one line and does not confirm the specific pain it
+    targets.
+  current_alternative: 翻教材答案、搜索题目，或把题目拍照输入通用聊天助手。
+  current_alternative_en: Checking textbook answers, searching the problem, or photographing it into a
+    general chat assistant.
+  usage_reason: 推断：若它能直接读取纸面内容并给出讲解，就省去重新打字或拍照转述的一步；但公开材料未说明读取方式与输出形态，无法确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it can read paper content directly and explain it, it removes the step
+    of retyping or photographing the problem; but the public material does not describe capture or output,
+    so user choice cannot be confirmed.'

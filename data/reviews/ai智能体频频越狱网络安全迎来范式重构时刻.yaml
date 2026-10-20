@@ -1,0 +1,47 @@
+- id: req-initial-ai智能体频频越狱网络安全迎来范式重构时刻-2026-10-20
+  project_slug: ai智能体频频越狱网络安全迎来范式重构时刻
+  level: initial
+  reviewed_at: '2026-10-07T01:33:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体访问企业数据时的越权与泄露风险，痛点刚性，交付为风险发现与处置；买方与具体流程仍待核验。
+    evidence_ids:
+    - ev-6b9f741b396adbf6
+    - ev-6a8021c643078e3b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有媒体报道的越狱担忧与融资消息，缺少客户采用或安全团队实际使用的公开证据。
+    evidence_ids:
+    - ev-6b9f741b396adbf6
+  - gate: model
+    status: insufficient
+    reason: 报道只提融资与布局，未披露定价、客户付费或采购方式，收入模式无法核验。
+    evidence_ids:
+    - ev-35d4b0fa01ed371c
+    - ev-192bba8a508f93be
+  - gate: truth
+    status: insufficient
+    reason: 产品能否确定性交付智能体安全结果、人工边界如何划分，公开材料未说明。
+    evidence_ids:
+    - ev-35d4b0fa01ed371c
+  next_validation: 收集Cyera官方产品页或客户案例，核验其智能体安全的具体交付物与已披露的付费客户。
+  market: ''
+  job: 企业安全团队在把AI智能体接入内部数据系统前，需要盘点智能体可访问的数据与权限，并在上线后监控其调用行为、处置越权风险。
+  job_en: Before connecting AI agents to internal data systems, enterprise security teams must inventory
+    the data and permissions agents can reach, then monitor their calls and handle privilege-escalation
+    risk after launch.
+  pain: 智能体自主调用数据，越权或越狱一旦发生，敏感数据可能被批量读取或外泄；旧的数据分类和人工权限审批跟不上代理的高频调用。
+  pain_en: Agents call data autonomously; once privilege escalation or jailbreak occurs, sensitive data
+    can be read or leaked at scale, and legacy classification and manual permission approval cannot keep
+    up with high-frequency agent calls.
+  current_alternative: 企业目前多靠人工梳理数据资产、静态权限配置和通用DLP工具，缺少针对智能体行为的专门监控。
+  current_alternative_en: Firms currently rely on manual data-asset mapping, static permission settings
+    and general DLP tools, lacking monitoring specific to agent behavior.
+  usage_reason: 推断：相较人工盘点和静态权限，Cyera通过自动识别智能体可触达的数据并持续监控调用，把“上线前逐项排查、上线后靠日志回溯”压缩为可核对的发现与处置清单，因此急于上智能体又受合规约束的安全团队会选用它。
+  usage_reason_en: 'Inference: versus manual inventory and static permissions, Cyera automatically identifies
+    data agents can reach and continuously monitors calls, compressing pre-launch item-by-item checks
+    and post-launch log forensics into a checkable findings-and-remediation list, so compliance-bound
+    teams rushing agents into use would choose it.'

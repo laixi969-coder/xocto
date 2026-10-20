@@ -369,3 +369,54 @@
     and vanish by itself, it could remove the manual circling or screenshot-annotation step; but public
     material has no user feedback or cases showing that step is actually burdensome, nor retention or
     repeat-use evidence, so why users choose it cannot be confirmed.'
+- id: req-full-big-arrow-on-the-screen-2026-10-20
+  project_slug: big-arrow-on-the-screen
+  level: full
+  reviewed_at: '2026-10-20T01:42:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决讲解时实时指向屏幕位置的需求，痛点在于口头描述或鼠标圈画打断节奏且不精确；产品以一条 CLI 命令让 AI 代理画出可点击穿透、自动消失的标注，交付确定。此为工作流结构推理，公开材料未直接描述旧流程痛点。
+    evidence_ids:
+    - ev-bc05ef5ae8495f13
+    - ev-8ce19a512d384d1e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 770 增至 788 只反映关注度，未见用户评价、issue 讨论或持续使用证据，无法确认开发者已将其留在演示工作流中。
+    evidence_ids:
+    - ev-bc05ef5ae8495f13
+    - ev-8ce19a512d384d1e
+  - gate: model
+    status: insufficient
+    reason: 项目为 MIT 开源且未披露定价，付费路径尚不明确；可能来自 to C 开发者捐赠或 to B 定制，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-bc05ef5ae8495f13
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明标注在真实讲解中是否稳定出现、多屏或权限异常时如何处理，也未见人工确认边界，交付确定性尚缺实测。
+    evidence_ids:
+    - ev-bc05ef5ae8495f13
+    - ev-adb477070286848b
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认实际演示场景、标注稳定性及多屏或权限异常的处理反馈。
+  market: ''
+  job: 开发者在向他人演示或讲解 Mac 上的界面、代码或操作流程时，让 Claude Code 或 Codex 等 AI 代理通过一条 CLI 命令在屏幕上画出箭头、方框和文字，指向正在说明的位置，完成实时视觉指引。
+  job_en: While demoing or walking through a Mac interface, code, or workflow, a developer has an AI agent
+    such as Claude Code or Codex draw arrows, boxes, and text on screen via a single CLI command to point
+    at what is being explained, delivering live visual guidance.
+  pain: 公开材料只说明代理可在屏幕上标注，未直接描述讲解者原来的痛点；从工作流结构推理，讲解时口头描述位置容易让观众找不到焦点，用鼠标临时圈画会打断操作且难以精确，截图后再加标注则脱离实时讲解节奏。
+  pain_en: Public material only says an agent can annotate the screen and does not directly describe the
+    presenter's prior pain; inferred from workflow structure, verbally describing positions makes it hard
+    for viewers to find the focus, ad-hoc mouse circling interrupts the operation and is imprecise, and
+    annotating screenshots afterwards breaks the live pacing.
+  current_alternative: 讲解者用鼠标临时圈画、口头描述位置、截图后加标注，或借助屏幕批注类工具手动绘制。
+  current_alternative_en: Presenters circle with the mouse ad hoc, describe positions verbally, annotate
+    screenshots afterwards, or manually draw with screen-annotation tools.
+  usage_reason: 推断：相较鼠标圈画或截图加标注，产品让 AI 代理用一条 CLI 命令直接在屏幕上画出箭头、方框和文字，标注可点击穿透且自动消失，省去手动绘制与事后清理的步骤；经常在 Mac
+    上做实时演示、又已使用 Claude Code 或 Codex 的开发者，会在需要快速指向屏幕位置时选择它。
+  usage_reason_en: 'Inference: compared with mouse circling or screenshot annotation, the product lets
+    an AI agent draw arrows, boxes, and text directly on screen with one CLI command, with click-through
+    and auto-dismiss annotations, removing manual drawing and cleanup steps; developers who frequently
+    give live demos on Mac and already use Claude Code or Codex would choose it when they need to quickly
+    point at on-screen locations.'

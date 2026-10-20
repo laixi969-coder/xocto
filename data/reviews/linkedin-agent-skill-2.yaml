@@ -245,3 +245,55 @@
     from scratch and rewriting sentence by sentence, so frequent-posting B2B sellers or personal-brand
     operators would pick it when producing drafts in batches; stars rising from 40 to 86 only show attention,
     with no feedback proving content effectiveness.'
+- id: req-full-linkedin-agent-skill-2-2026-10-20
+  project_slug: linkedin-agent-skill-2
+  level: full
+  reviewed_at: '2026-10-20T01:44:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决持续产出 LinkedIn 帖子与评论耗时、通用 AI 文本易被识别的需求；旧做法是手写、模板或通用聊天工具生成后改写。公开材料仅描述技能覆盖，未记录用户抱怨，故这是工作流结构推理而非采用事实。
+    evidence_ids:
+    - ev-b32cec064e1e82e2
+    - ev-f3792e14df7157a4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 50 增至 89，属关注度而非持续采用；没有用户评价、issue 讨论或案例说明生成内容真能带来互动，强场景存在但采用证据缺位。
+    evidence_ids:
+    - ev-b32cec064e1e82e2
+    - ev-f3792e14df7157a4
+  - gate: model
+    status: insufficient
+    reason: 项目以免费开源技能包形式发布，公开材料未见定价、付费或代运营收费路径；谁付钱尚属判断而非已验证事实，存在仅靠关注度维持的风险。
+    evidence_ids:
+    - ev-b32cec064e1e82e2
+  - gate: truth
+    status: insufficient
+    reason: 去 AI 痕迹与钩子公式的实际效果无公开测试、反馈或交付结果可核对；产品贴近发帖任务，但承诺能否确定性交付尚未被公开证据支持。
+    evidence_ids:
+    - ev-b32cec064e1e82e2
+    - ev-e183339a950c7f70
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，收集使用者对生成内容效果与去 AI 痕迹的实际反馈。
+  market: ''
+  job: 个人品牌运营者或 B2B 销售在维护 LinkedIn 账号、需要按周持续发帖和互动时，把选题、钩子、帖子、评论回复和资料页交给这组 Claude 技能，产出可直接发布的文案与每周计划，实际发布仍由本人完成。
+  job_en: Personal-brand operators or B2B sellers maintaining a LinkedIn account and needing to post and
+    engage weekly hand topic selection, hooks, posts, comment replies and profile copy to this Claude
+    skill pack to get publish-ready copy and a weekly plan, while publishing stays with the person.
+  pain: 公开材料只说明技能覆盖发帖、评论、回复、资料评分与去 AI 痕迹，未直接记录用户抱怨；结构推理上，痛点是持续产出符合平台调性的内容耗时，通用模型生成文本易被识别为 AI 而损害账号可信度，且每次都要重写提示词。
+  pain_en: Public material only describes the skills' coverage (posts, comments, replies, profile score,
+    de-AI humanizer) and records no user complaint; by structural inference the pain is the time cost
+    of sustained on-tone output, the credibility risk of generic AI-sounding text, and re-authoring prompts
+    each time.
+  current_alternative: 自己写或套模板，用通用聊天工具生成后手工改写，或购买代运营/内容服务；这些做法要么耗时，要么需要额外改写步骤。
+  current_alternative_en: Writing by hand or from templates, generating with a general chat tool then
+    rewriting manually, or paying a managed content service; these either cost time or add a rewriting
+    step.
+  usage_reason: 推断：相较通用聊天工具，它把 21 条钩子公式、评论回复模板、资料评分和去 AI 痕迹打包成固定技能流程，减少每次重新设计提示词与逐句改写的一步负担，因此高频发帖的 B2B
+    销售或个人品牌运营者会在需要批量产出可发布文案时选择它；仓库星标从 50 增至 89 只说明关注度，尚无用户反馈证明内容效果。
+  usage_reason_en: 'Inference: versus a general chat tool it packages 21 hook formulas, comment/reply
+    templates, profile scoring and de-AI rewriting into a fixed skill flow, removing the step of redesigning
+    prompts and rewriting line by line each time, so frequent-posting B2B sellers or personal-brand operators
+    would pick it when they need publish-ready copy in bulk; stars rising from 50 to 89 only shows attention,
+    with no user feedback proving content effectiveness.'

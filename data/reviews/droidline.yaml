@@ -132,3 +132,50 @@
     into Python, Node.js, CLI or HTTP calls, removing setup and cable-swapping, so mobile teams needing
     parallel regression or agent-run repetitive flows would choose it; stars rising from 153 to 254 only
     show attention, not sustained use.'
+- id: req-full-droidline-2026-10-20
+  project_slug: droidline
+  level: full
+  reviewed_at: '2026-10-20T01:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决真机自动化依赖 ADB、线缆和 root、多设备并行与远程执行难复现的问题，痛点具体，交付是可复现的执行结果；这是从产品说明还原的工作流推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 153 增至 287 的关注度证据，缺少 issue、讨论或客户案例说明它已进入持续工作流，强场景存在但采用共识未核验。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+    - ev-49aef36bd30f139b
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、托管设备供给或付费路径，钱可能来自开发者订阅或团队设备托管，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  - gate: truth
+    status: insufficient
+    reason: 真机执行的稳定性、设备兼容范围、代理操作失败处理与安全边界均未在公开材料说明，交付确定性尚缺文档核验。
+    evidence_ids:
+    - ev-293bb89ab25a58bb
+  next_validation: 追踪 Droidline 仓库的 issue 与 discussion，核认真机执行稳定性、设备兼容范围及是否存在托管收费或付费计划。
+  market: ''
+  job: 移动端测试或自动化工程师在需要真机回归或批量验证时，用 Python、Node.js、CLI、HTTP 或 Appium 客户端把重复操作写成脚本，在多台真实手机上执行，或让 AI 代理操作其中一台设备，拿到可复现的执行结果。
+  job_en: Mobile QA or automation engineers, when they need real-device regression or batch verification,
+    write repeated actions as scripts via Python, Node.js, CLI, HTTP or Appium clients, run them across
+    multiple real phones, or let an AI agent operate one device, and obtain reproducible execution results.
+  pain: 公开说明指出真机自动化通常要处理 ADB、USB 线缆和 root，多设备并行与远程执行的环境搭建和插拔负担重，重复操作消耗人工；这是从产品描述还原的工作流推理，尚无用户抱怨或案例直接佐证。
+  pain_en: The public description indicates real-device automation usually involves ADB, USB cables and
+    root, with heavy setup and cable-swapping burden for parallel and remote runs, and repeated actions
+    consuming manual effort; this is workflow inference from the product description, not yet backed by
+    user complaints or cases.
+  current_alternative: 用 ADB 脚本、Appium 加本地设备农场，或人工逐台手机点击验证。
+  current_alternative_en: ADB scripts, Appium with a local device farm, or people manually tapping through
+    each phone to verify.
+  usage_reason: 推断：相较逐台配置 ADB 与线缆的旧做法，它把设备控制收敛成 Python、Node.js、CLI 或 HTTP 调用，省去环境搭建和插拔设备这一步，因此需要多机并行回归或让代理跑重复流程的移动团队会在真机验证场景选择它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus configuring ADB and cables per device, it collapses device control
+    into Python, Node.js, CLI or HTTP calls, removing setup and cable-swapping, so mobile teams needing
+    parallel regression or agent-run repetitive flows would choose it for real-device verification; no
+    user feedback yet confirms this motive.'

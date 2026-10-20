@@ -677,3 +677,49 @@
   usage_reason_en: 'Inference: it replaces sentence-by-sentence manual proofreading with a targeted rewrite,
     aimed at teams producing Japanese content at volume without native reviewers; but no rewrite quality
     or usage feedback is public, so whether it truly reduces human final review remains unverified.'
+- id: req-full-yomiyasu-2026-10-20
+  project_slug: yomiyasu
+  level: full
+  reviewed_at: '2026-10-20T01:46:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成日文不自然、发布前需人工逐句改写的问题，旧做法是人工校对或请母语者审稿，不处理的后果是内容不可直接发布；这是基于产品说明与旧流程的结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-0a295b76926b2351
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 1948 增至 2267，说明开源关注度上升，但无用户评价、案例或 issue 讨论证明它被持续放进内容工作流，关注度不能替代采用证据。
+    evidence_ids:
+    - ev-0a295b76926b2351
+    - ev-f3dbc9a796a65b81
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是内容团队或本地化公司，付费路径属判断而非已验证事实，也无采购或订阅记录可核对。
+    evidence_ids:
+    - ev-0a295b76926b2351
+  - gate: truth
+    status: insufficient
+    reason: 缺少改写质量评测与人工终审边界的说明，能否确定性交付可发布文本、错误改写风险如何控制，公开材料无法核对。
+    evidence_ids:
+    - ev-0a295b76926b2351
+  next_validation: 追踪该 公开代码仓库 仓库的 README 示例对比与 issue/discussion，查找改写前后样例、质量评测及是否仍需人工终审的公开说明。
+  market: ''
+  job: 日文内容编辑、本地化人员或市场运营在拿到 AI 生成的日文草稿后，处理这些草稿文本，要完成把不自然表达改成可直接发布的自然日语这一任务。
+  job_en: Japanese content editors, localization staff, or marketing operators receive AI-generated Japanese
+    drafts and must turn unnatural phrasing into publishable natural Japanese.
+  pain: AI 生成的日文常带不自然表达，逐句人工改写耗时，非母语者又难判断哪里不自然；不处理就发布会影响内容可信度，这是发布前的真实卡点。
+  pain_en: AI-generated Japanese often contains unnatural phrasing; rewriting it sentence by sentence
+    is slow, and non-native speakers struggle to identify what is unnatural. Publishing without fixing
+    it undermines content credibility, a real bottleneck before release.
+  current_alternative: 现有做法是人工逐句校对、请母语者审稿，或反复让通用模型重写整段。
+  current_alternative_en: Current practice is manual sentence-by-sentence proofreading, hiring native
+    reviewers, or repeatedly asking a general model to rewrite whole passages.
+  usage_reason: 推断：它把“找出不自然表达并改写”从人工逐句校对收敛为一次针对性改写动作，减少编辑逐句标记和反复提示通用模型的负担，因此缺少母语审稿人、又要批量产出日文内容的团队会在发布前选择它；公开材料尚无改写质量或使用反馈，是否减少人工终审未核验。
+  usage_reason_en: 'Inference: it collapses ''find unnatural phrasing and rewrite it'' from sentence-by-sentence
+    manual proofreading into one targeted rewrite action, reducing the burden of marking each sentence
+    and repeatedly prompting a general model. Teams producing Japanese content at volume without native
+    reviewers would choose it before publishing; no public rewrite-quality or usage feedback yet confirms
+    reduced human final review.'

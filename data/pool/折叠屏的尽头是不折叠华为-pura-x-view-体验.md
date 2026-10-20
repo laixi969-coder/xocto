@@ -1,6 +1,6 @@
 ---
 slug: 折叠屏的尽头是不折叠华为-pura-x-view-体验
-name: 折叠屏的尽头，是不折叠：华为 Pura X View 体验
+name: 华为 Pura X View
 builder: ''
 category: ''
 summary_zh: ''
@@ -49,7 +49,7 @@ summary: "阔直板不是「发明」，是用户投出来的票 \n \n  作者�
   \ 你要更宽还是更长"
 first_seen: '2026-08-30T20:25:08Z'
 last_seen: '2026-08-31T00:37:42Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -60,7 +60,7 @@ sightings:
   kind: news
 ---
 
-# 折叠屏的尽头，是不折叠：华为 Pura X View 体验
+# 华为 Pura X View
 
 阔直板不是「发明」，是用户投出来的票 
  

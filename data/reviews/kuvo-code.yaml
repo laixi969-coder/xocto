@@ -82,3 +82,51 @@
   usage_reason_en: 'Inference: versus switching among terminals and plugins, it unifies any model behind
     one native harness on the opencode engine, removing per-tool setup, so macOS developers comparing
     models or managing agents centrally would try it.'
+- id: req-full-kuvo-code-2026-10-20
+  project_slug: kuvo-code
+  level: full
+  reviewed_at: '2026-10-20T01:44:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 macOS 开发者让编码代理执行任务时模型与外壳分散、换模型需反复配置的问题，痛点具体且属刚性开发流程；公开材料仅给出原生外壳与 opencode 引擎，交互与交付细节未披露，价值判断基于工作流结构推理。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 46 增至 61，属早期关注度，不能证明持续采用或形成共识；中文生态未检索到相关公开讨论，场景是否强仍缺用户反馈。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+    - ev-beb91afd76421c93
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或商业路径；买方可能是个人开发者或团队，这是判断而非已验证事实，付费路径尚未在公开材料中核验。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+  - gate: truth
+    status: insufficient
+    reason: 编码代理外壳赛道拥挤、开源替代多，产品差异化与安全边界未说明，承诺能否确定性交付未明；需核验其与 opencode 引擎的实际集成深度。
+    evidence_ids:
+    - ev-c7f2b54af0678672
+    - ev-beb91afd76421c93
+  next_validation: 追踪 kuvo-code 仓库 README 与 issue/discussion，核验支持的模型范围、实际交互流程及是否有团队协作或审计能力。
+  market: ''
+  job: macOS 上的开发者在需要让编码代理执行改代码、跑命令等任务时，把任务交给 kuvo-code 这一原生外壳，接入自选模型并在 opencode 引擎上运行，再查看代理产出。
+  job_en: macOS developers who need a coding agent to edit code or run commands hand the task to the kuvo-code
+    native harness, connect a model of their choice, run it on the opencode engine, and review the agent's
+    output.
+  pain: 编码代理分散在各家 CLI 与编辑器插件中，换模型或统一查看代理产出要反复配置；公开材料只说明它是原生外壳，未披露具体交互与交付细节，痛点强度属工作流推理。
+  pain_en: Coding agents are scattered across vendor CLIs and editor plugins, so switching models or reviewing
+    agent output uniformly requires repeated setup; public material only describes a native harness and
+    does not disclose interaction or delivery details, so pain intensity is a workflow inference.
+  current_alternative: 直接在终端运行各家编码代理 CLI，或使用单一厂商绑定的编辑器插件，模型与外壳被绑定。
+  current_alternative_en: Running each vendor's coding agent CLI in the terminal, or using a single-vendor
+    editor plugin where model and harness are bound together.
+  usage_reason: 推断：相较在多个终端与插件间切换，它用一个原生 macOS 外壳接入任意模型并在 opencode 引擎上运行，省去逐工具配置这一步，因此需要跨模型对比或统一管理代理的 macOS
+    开发者会在这种情况下选择它；尚无用户反馈或案例证实这一动机。
+  usage_reason_en: 'Inference: versus switching among terminals and plugins, it puts any model behind
+    one native macOS harness on the opencode engine, removing per-tool setup, so macOS developers comparing
+    models or managing agents centrally would choose it in that situation; no user feedback or case yet
+    confirms this motive.'

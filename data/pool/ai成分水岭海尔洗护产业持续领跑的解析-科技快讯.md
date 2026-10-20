@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1TE5ibF9HNjd6
 summary: AI成分水岭！海尔洗护产业持续领跑的解析- 科技快讯 news.zdwang.com
 first_seen: '2026-08-31T07:34:06Z'
 last_seen: '2026-09-01T14:56:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

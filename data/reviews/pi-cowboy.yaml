@@ -1,0 +1,88 @@
+- id: req-initial-pi-cowboy-2026-10-20
+  project_slug: pi-cowboy
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多编码代理并行使用时任务分发与结果汇总的重复劳动，痛点具体；但合并与校验能力仅由一句仓库描述支持。
+    evidence_ids:
+    - ev-5514ea3dfd1e4343
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有用户反馈或案例说明开发者是否真的把它放进日常流程。
+    evidence_ids:
+    - ev-5514ea3dfd1e4343
+  - gate: model
+    status: insufficient
+    reason: 开源项目，付费方与收费方式未披露；可能靠团队订阅或托管服务变现，这是判断不是事实。
+    evidence_ids:
+    - ev-5514ea3dfd1e4343
+  - gate: truth
+    status: insufficient
+    reason: 调度多个代理贴近开发任务本身，但结果冲突如何处理、人工确认边界在哪，公开材料未说明。
+    evidence_ids:
+    - ev-5514ea3dfd1e4343
+  next_validation: 收集该仓库的 README、issue 与 discussion，核验多代理结果合并、冲突处理与人工确认的具体机制。
+  market: ''
+  job: 开发者在本地终端同时调度 Codex、Claude Code、OpenCode 等多个编码代理，把同一任务拆分给不同代理执行并汇总结果。
+  job_en: Developers orchestrate Codex, Claude Code and OpenCode coding agents from a local terminal,
+    splitting one task across agents and collecting results.
+  pain: 多个编码代理各自有界面和上下文，开发者要手工复制任务、来回切换并自行比对输出，重复劳动且容易漏掉冲突。
+  pain_en: Each coding agent has its own interface and context, so developers manually copy tasks, switch
+    back and forth and compare outputs themselves, which is repetitive and easily misses conflicts.
+  current_alternative: 开发者分别打开各代理的终端或网页，手工粘贴同一任务，再人工比对结果；或只用单一代理完成全部工作。
+  current_alternative_en: Developers open each agent's terminal or web page separately, paste the same
+    task by hand and compare results manually, or just use one agent for everything.
+  usage_reason: 推断：Pi-cowboy 把多个代理收进同一终端并作为子代理调度，省去逐个切换和手工粘贴这一步，让已有多个代理订阅的开发者在一个入口发起分工任务；合并与校验环节是否可靠尚无公开证据。
+  usage_reason_en: 'Inference: Pi-cowboy pulls several agents into one terminal and drives them as subagents,
+    removing the step of switching and pasting by hand so developers with multiple agent subscriptions
+    can launch split tasks from one entry point; whether merging and checking are reliable has no public
+    evidence yet.'
+- id: req-full-pi-cowboy-2026-10-20
+  project_slug: pi-cowboy
+  level: full
+  reviewed_at: '2026-10-20T01:45:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多编码代理并行使用时任务分发与结果汇总的重复劳动，痛点具体；但合并与校验能力仅由一句仓库描述支持，属工作流结构推理。
+    evidence_ids:
+    - ev-5514ea3dfd1e4343
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库自述与检索覆盖记录，没有用户反馈或案例说明开发者是否真的把它放进日常流程，强场景尚未被公开行为证实。
+    evidence_ids:
+    - ev-5514ea3dfd1e4343
+    - ev-47cb37b124a8a248
+  - gate: model
+    status: insufficient
+    reason: 开源项目，付费方与收费方式未披露；可能靠团队订阅或托管服务变现，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-5514ea3dfd1e4343
+  - gate: truth
+    status: insufficient
+    reason: 调度多个代理贴近开发任务本身，但结果冲突如何处理、人工确认边界在哪，公开材料未说明，交付确定性待核。
+    evidence_ids:
+    - ev-5514ea3dfd1e4343
+  next_validation: 收集该仓库的 README、issue 与 discussion，核验多代理结果合并、冲突处理与人工确认的具体机制。
+  market: ''
+  job: 开发者在本地终端处理一项编码任务时，把任务拆分给 Codex、Claude Code、OpenCode 等编码代理分别执行，再收集各代理返回的结果，用于完成同一开发任务。
+  job_en: In a local terminal, a developer splits one coding task across Codex, Claude Code and OpenCode
+    agents, then collects each agent's returned results to complete the same development task.
+  pain: 多个编码代理各有独立界面与上下文，开发者需手工复制任务、反复切换窗口并自行比对输出，重复劳动且容易漏掉代理间的冲突或遗漏。
+  pain_en: Each coding agent has its own interface and context, so developers manually copy tasks, switch
+    windows repeatedly and compare outputs themselves, which is repetitive and easily misses conflicts
+    or omissions between agents.
+  current_alternative: 开发者分别打开各代理的终端或网页，手工粘贴同一任务，再人工比对结果；或只用一个代理完成全部工作。
+  current_alternative_en: Developers open each agent's terminal or web page separately, paste the same
+    task by hand and compare results manually, or use a single agent for everything.
+  usage_reason: 推断：Pi-cowboy 把多个代理收进同一终端并作为子代理调度，省去逐个切换和手工粘贴这一步，使已订阅多个代理的开发者能在一个入口发起分工任务；合并与校验是否可靠尚无公开证据。
+  usage_reason_en: 'Inference: Pi-cowboy pulls several agents into one terminal and drives them as subagents,
+    removing the step of switching and pasting by hand so developers with multiple agent subscriptions
+    can launch split tasks from one entry point; whether merging and checking are reliable has no public
+    evidence yet.'

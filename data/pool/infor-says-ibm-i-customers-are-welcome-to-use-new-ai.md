@@ -1,6 +1,6 @@
 ---
 slug: infor-says-ibm-i-customers-are-welcome-to-use-new-ai
-name: Infor Says IBM i Customers Are Welcome To Use New AI
+name: Infor
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxOQlEyY0RibDdt
 summary: Infor Says IBM i Customers Are Welcome To Use New AI IT Jungle
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Infor Says IBM i Customers Are Welcome To Use New AI
+# Infor
 
 Infor Says IBM i Customers Are Welcome To Use New AI IT Jungle
 

@@ -184,3 +184,47 @@
   usage_reason_en: 'Inference: it merges seeing the result and getting a usable artifact into one live
     preview plus copy, removing the back-and-forth between docs and editor and the manual style writing,
     so front-end developers and designers on a deadline would try it first when picking styles.'
+- id: req-full-lucian-uxui-prompt-2026-10-20
+  project_slug: lucian-uxui-prompt
+  level: full
+  reviewed_at: '2026-10-20T01:44:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决挑组件样式再转成代码或提示词的需求，痛点是文档与编辑器之间反复对照、手写样式耗时；公开说明已能还原输入、动作与交付，属工作流结构推理，尚无用户评价佐证。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+    - ev-d0022da5c0df18be
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 68 增至 209，说明有关注，但公开材料没有用户评价、issue 讨论或持续使用证据，无法确认共识已形成。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+    - ev-bf26e0a1a3e4ee98
+  - gate: model
+    status: insufficient
+    reason: MIT 开源且未见定价或赞助入口，买方与付费路径不明；这是判断不是已验证事实，不因此取消真需求判定。
+    evidence_ids:
+    - ev-d0022da5c0df18be
+  - gate: truth
+    status: supported
+    reason: 交付物是可直接复制的提示词或代码，结果可核对；但样式是否适配仍需人工确认，产品未承诺自动完成整页实现。
+    evidence_ids:
+    - ev-a76754ba2d9a8027
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有用户反馈把它用于实际项目而非仅收藏。
+  market: ''
+  job: 前端开发者与产品设计师在搭建界面时，需要从大量 UI 元素中挑出合适样式，并把它变成可用的代码或 AI 提示词。
+  job_en: Front-end developers and product designers building an interface need to pick a suitable style
+    from many UI elements and turn it into usable code or an AI prompt.
+  pain: 挑组件样式通常要在组件库文档、设计稿截图和编辑器之间来回对照，再手写或改写代码，这一步重复且打断搭建节奏。
+  pain_en: Choosing a component style usually means cross-referencing component-library docs, design screenshots
+    and the editor, then hand-writing or rewriting code, a repetitive step that interrupts the build flow.
+  current_alternative: 旧做法是翻组件库文档、看设计稿截图，再手动把样式写成代码，或直接向模型描述想要的效果。
+  current_alternative_en: The old way is browsing component-library docs, looking at design screenshots,
+    then manually writing the style into code, or describing the desired look to a model.
+  usage_reason: 推断：它把“先看效果再写代码”合并成一次实时预览加复制，省掉在文档与编辑器之间来回对照的一步，因此赶界面进度的前端与设计师会先试它；仓库星标从 68 增至 209 只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: it merges see-the-result and write-the-code into one live preview plus
+    copy, removing the back-and-forth between docs and editor, so front-end developers and designers on
+    a deadline would try it first; stars rising from 68 to 209 only show attention, not sustained use.'

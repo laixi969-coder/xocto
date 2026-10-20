@@ -30,7 +30,7 @@ summary: 'My obituary for programming Jeremy Scheff poignantly captures the key 
   ai , generative-ai , llms , coding-agents , deep-blue'
 first_seen: '2026-10-20T01:06:54Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

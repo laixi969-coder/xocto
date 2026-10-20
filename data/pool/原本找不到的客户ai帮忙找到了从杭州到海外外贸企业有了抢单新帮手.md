@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTE5QUTBZYWdPVGl0
 summary: 原本找不到的客户，AI帮忙找到了！从杭州到海外，外贸企业有了“抢单”新帮手 杭州网
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

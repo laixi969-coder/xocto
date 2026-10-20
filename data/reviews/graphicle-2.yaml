@@ -193,3 +193,54 @@
     with exact files and lines, cutting the step of picking files and restating decisions each time; developers
     using several coding agents on a large repo would choose it when switching clients. This causal chain
     is structural reasoning, with no adoption or retention evidence yet.'
+- id: req-full-graphicle-2-2026-10-20
+  project_slug: graphicle-2
+  level: full
+  reviewed_at: '2026-10-20T01:43:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理跨文件工作时缺仓库结构与历史记忆的需求，痛点是代理丢上下文后开发者反复手动挑文件；公开材料说明其把仓库映射为代码图并返回带文件行号的引用，交付闭环可还原，但痛点强度属工作流结构推理，无用户抱怨或量化损失。
+    evidence_ids:
+    - ev-835652314ba3edc6
+    - ev-e0577546c262b97c
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有 324 星标，仅属关注度，不能证明持续采用；公开材料未见用户评价、issue 讨论或客户案例说明开发者为何留下，共识卡在真实使用反馈这一环。
+    evidence_ids:
+    - ev-d22020508a9a7fbe
+    - ev-835652314ba3edc6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页、付费层级或买方类型，谁付钱与收费方式未知；这是判断而非已验证事实，不能据此否定需求，但商业路径尚未核验。
+    evidence_ids:
+    - ev-835652314ba3edc6
+    - ev-d22020508a9a7fbe
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近给代理提供可引用上下文这一目标，但公开材料未说明代码图构建准确性、记忆过期处理与人工边界，交付确定性无法核验，存在拼装多能力的貂丁风险。
+    evidence_ids:
+    - ev-835652314ba3edc6
+    - ev-e0577546c262b97c
+  next_validation: 追踪 Graphicle-AI/graphicle 仓库的 issue 与 discussion，确认开发者实际使用中代码图与记忆的输入输出、可复现效果及是否出现付费或部署文档。
+  market: ''
+  job: 使用 Claude Code、Codex、Cursor 等编码代理的开发者，在代理需要理解大型仓库结构、项目文档与历史决策时，让代理拿到带文件与行号引用的代码图与记忆片段，以完成跨文件修改和延续上下文。
+  job_en: Developers using coding agents such as Claude Code, Codex and Cursor need the agent to understand
+    large-repository structure, project docs and past decisions, so they supply cited code-graph and memory
+    excerpts with exact files and lines to complete cross-file edits and continue context.
+  pain: 编码代理在跨文件任务中容易丢失仓库结构与历史决策，开发者需反复手动挑选文件、粘贴上下文；公开材料只说明产品同时提供代码图与记忆，未给出开发者抱怨或量化损失，痛点强度属结构推理。
+  pain_en: Coding agents lose repository structure and past decisions on cross-file tasks, forcing developers
+    to repeatedly pick files and paste context; public material only states the product combines code
+    graph and memory, without user complaints or quantified loss, so pain intensity is a structural inference.
+  current_alternative: 开发者目前依赖各客户端自带的仓库索引、手动挑选文件，或分别配置记忆与检索工具；这是从品类与产品定位作出的推断，候选材料未直接描述旧做法。
+  current_alternative_en: Developers currently rely on each client's built-in repo indexing, manual file
+    selection, or separately configured memory and retrieval tools; this is inferred from the category
+    and positioning, not directly described in the candidate material.
+  usage_reason: 推断：相较每个客户端各配一套索引与记忆，Graphicle 用一个 Rust 程序把仓库映射成代码图并记住文档、决策与历史会话，向代理返回带精确文件与行号的引用，减少开发者手动挑选文件和跨客户端重复配置的步骤，因此多客户端并用、仓库较大的开发者会在跨文件任务中尝试它。
+  usage_reason_en: 'Inference: instead of configuring indexing and memory per client, Graphicle uses one
+    Rust program to map the repo into a code graph and remember docs, decisions and past sessions, returning
+    cited excerpts with exact files and lines to the agent, cutting manual file-picking and cross-client
+    reconfiguration, so developers juggling multiple clients on larger repos would try it for cross-file
+    tasks.'

@@ -223,3 +223,55 @@
     removing the steps of sourcing assets, tuning layout and rooting, so tinkering power users may try
     it when switching phones or reworking the home screen; the material does not show reliably usable
     output or repeated use.'
+- id: req-full-omalauncher-2026-10-20
+  project_slug: omalauncher
+  level: full
+  reviewed_at: '2026-10-20T01:44:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决安卓用户改造主屏时手动摆放图标、小组件与主题来源分散的痛点，并以免 root 的 Arch Linux 扩展桌面能力；这是从产品说明与旧流程推出的结构判断，痛点刚性与交付边界仍缺用户反馈佐证。
+    evidence_ids:
+    - ev-d61f329c6c0d6f5b
+    - ev-997b1cc024102e60
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 公开代码仓库 393 星标与 Google Play 上架，属于关注度和分发渠道，未见评价、下载量或重复使用证据，无法判断是否被留在日常桌面。
+    evidence_ids:
+    - ev-86541d7516e77bb3
+    - ev-997b1cc024102e60
+  - gate: model
+    status: insufficient
+    reason: 开源项目并在 Google Play 分发，可能通过应用内付费、捐赠或后续服务变现，但材料未给出定价页或付费记录，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6e658fc8fe69b5cc
+    - ev-997b1cc024102e60
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 代理生成的小组件能否稳定安装运行、是否需要人工确认，以及 proot 下 Arch Linux 的性能与安全边界，交付确定性缺材料支持。
+    evidence_ids:
+    - ev-d61f329c6c0d6f5b
+    - ev-f944ae2f7087c189
+  next_validation: 追踪该仓库的 issue 与 discussion，确认 AI 代理生成的小组件能否稳定安装运行、proot 下 Arch Linux 的实际可用性，以及是否有用户重复使用反馈。
+  market: ''
+  job: 喜欢折腾桌面的安卓极客在换机或想改造主屏时，处理图标、小组件与主题，要完成一套自己满意、可长期使用的桌面布局，并可选在手机上运行 Arch Linux 应用。
+  job_en: Android power users who enjoy tinkering with their home screen, when switching phones or reworking
+    the launcher, handle icons, widgets and themes to finish a layout they are satisfied with and can
+    keep using, optionally running Arch Linux apps on the phone.
+  pain: 公开材料显示现有启动器需要逐个手动摆放图标与小组件，主题和小组件来源分散，改一次桌面耗时且难以复现；这是从产品说明与旧流程推出的结构判断，材料未给出用户抱怨原文。
+  pain_en: Public material shows existing launchers require placing icons and widgets one by one, with
+    themes and widgets scattered across sources, so redoing a home screen is time-consuming and hard to
+    reproduce; this is a structural inference from product descriptions and the old workflow, not quoted
+    user complaints.
+  current_alternative: 使用 Nova 等第三方启动器手动摆放图标、下载主题包，或直接用系统默认桌面；想在手机上跑 Linux 则需 root 或复杂配置。
+  current_alternative_en: Manually placing icons in third-party launchers such as Nova, downloading theme
+    packs, or keeping the stock launcher; running Linux on a phone otherwise needs root or complex setup.
+  usage_reason: 推断：相比逐个手动摆放，它让 AI 代理直接生成应用与小组件并套用 Omarchy 主题，省掉找素材和调布局的步骤；同时以 proot 免 root 运行 Arch Linux，把原本需要
+    root 的折腾变成可安装的启动器，因此愿意折腾桌面的极客会在换机或重做主屏时尝试。材料未显示生成结果稳定可用或重复使用。
+  usage_reason_en: 'Inference: compared with placing items manually one by one, it lets AI agents generate
+    apps and widgets directly and apply Omarchy themes, removing the steps of sourcing assets and tuning
+    layout; it also runs Arch Linux under proot without root, turning a root-required tinkering task into
+    an installable launcher, so power users reworking a home screen may try it. The material does not
+    show generated results are reliably usable or repeatedly used.'

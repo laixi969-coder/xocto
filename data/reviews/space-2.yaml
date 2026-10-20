@@ -167,3 +167,44 @@
   usage_reason_en: 'Why users would choose it cannot be determined: the available evidence is entirely
     mismatched with the product, with no user feedback or customer cases, leaving no chain from prior
     practice to this product.'
+- id: req-full-space-2-2026-10-20
+  project_slug: space-2
+  level: full
+  reviewed_at: '2026-10-20T01:45:34Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开证据全部是 NASA 与 Space.com 的太空新闻页面，与 agent 代码隔离执行无关，无法据此写出用户任务、痛点与替代方式，需求结构不成立。
+    evidence_ids:
+    - ev-527cfccc3c992bc3
+    - ev-d13c8106cc97f4ca
+    - ev-28678d7de0cdf951
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 SPACE 官方仓库或官网的 README、部署文档与 issue/discussion，确认其隔离执行能力、运行时支持范围及是否有外部团队接入。
+  market: ''
+  job: 平台工程师在自建 agent 执行环境时，需要把 agent 生成的代码和用户提交的代码放进隔离环境运行并回收结果。
+  job_en: Platform engineers building an agent execution environment need to run agent-generated and user-submitted
+    code in isolation and retrieve results.
+  pain: 公开材料没有提供任何关于不可信代码执行、越权或数据污染的痛点证据；现有证据全部是 NASA 与 Space.com 的太空新闻页面，与产品无关。
+  pain_en: The public materials provide no evidence of pain around untrusted code execution, privilege
+    escalation, or data contamination; all evidence is NASA and Space.com space-news pages unrelated to
+    the product.
+  current_alternative: 无法从公开材料确认当前替代方式；自建容器或通用沙箱只是推测，没有证据支持。
+  current_alternative_en: The current alternative cannot be confirmed from public materials; self-built
+    containers or generic sandboxes are speculation without evidence.
+  usage_reason: 无法判断用户为何选择它：证据中没有产品文档、接入方式或用户反馈，只有与产品无关的太空新闻页面。
+  usage_reason_en: 'Cannot determine why users would choose it: the evidence contains no product documentation,
+    integration path, or user feedback, only unrelated space-news pages.'

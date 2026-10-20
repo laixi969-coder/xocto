@@ -21,7 +21,7 @@ canonical_url: https://news.ycombinator.com/item?id=50151036
 summary: How to deal with shipping AI-written code you don't understand?
 first_seen: '2026-10-20T01:06:26Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

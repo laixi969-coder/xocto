@@ -1,0 +1,85 @@
+- id: req-initial-ai-hiring-startup-hunarai-raises-rs-40-crore-from-blume-vent-2026-10-20
+  project_slug: ai-hiring-startup-hunarai-raises-rs-40-crore-from-blume-vent
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决一线岗位批量招聘中人工逐份筛简历慢、易漏人的问题，旧流程与不采用的后果清楚。
+    evidence_ids:
+    - ev-1872b8581b4c6254
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见雇主采用规模、客户案例或招聘顾问的公开反馈。
+    evidence_ids:
+    - ev-1872b8581b4c6254
+  - gate: model
+    status: insufficient
+    reason: 买方应为招聘企业与人力服务商，但材料未披露定价、按岗还是按席位收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1872b8581b4c6254
+  - gate: truth
+    status: insufficient
+    reason: 匹配准确率、人工复核边界与候选人公平性均无公开材料，交付确定性未核验。
+    evidence_ids:
+    - ev-1872b8581b4c6254
+  next_validation: 收集 Hunar.AI 官方产品页或客户案例，核验其初筛匹配的交付形式与雇主使用结果。
+  market: ''
+  job: 招聘顾问或中小企业雇主在需要为一线岗位批量筛人时，处理大量简历与岗位要求，要完成初筛和候选人排序。
+  job_en: Recruiters or small-business employers screening at volume for frontline roles work through
+    many resumes and job requirements to complete initial screening and candidate ranking.
+  pain: 一线岗位招聘量大、单岗预算低，人工逐份看简历耗时且容易漏掉合适人选。
+  pain_en: Frontline hiring is high-volume and low-budget per role; reading resumes one by one is slow
+    and easily misses suitable candidates.
+  current_alternative: 靠招聘顾问人工翻简历、在招聘平台按关键词搜索，或用通用表格自行筛选。
+  current_alternative_en: Recruiters manually scan resumes, search job boards by keyword, or filter in
+    generic spreadsheets.
+  usage_reason: 推断：相较人工逐份阅读，系统先按岗位要求解析简历并给出排序，减少初筛阶段的阅读量，使招聘方在批量岗位下更快得到可面试名单；尚无公开的准确率或复购数据。
+  usage_reason_en: 'Inference: instead of reading every resume, the system parses resumes against job
+    requirements and ranks them, cutting the reading load in initial screening so employers get an interview-ready
+    list faster at volume; no public accuracy or repeat-use data yet.'
+- id: req-full-ai-hiring-startup-hunarai-raises-rs-40-crore-from-blume-vent-2026-10-20
+  project_slug: ai-hiring-startup-hunarai-raises-rs-40-crore-from-blume-vent
+  level: full
+  reviewed_at: '2026-10-20T01:41:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决一线岗位批量招聘中人工逐份筛简历慢、易漏人的需求，旧流程与不采用的后果清楚；这是基于招聘工作流的结构推理，公开材料仅有融资报道，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-1872b8581b4c6254
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见雇主采用规模、客户案例或招聘顾问的公开反馈，无法判断是否已进入持续使用。
+    evidence_ids:
+    - ev-1872b8581b4c6254
+  - gate: model
+    status: insufficient
+    reason: 买方应为招聘企业与人力服务商，但材料未披露定价、按岗还是按席位收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1872b8581b4c6254
+  - gate: truth
+    status: insufficient
+    reason: 匹配准确率、人工复核边界与候选人公平性均无公开材料，交付确定性未核验。
+    evidence_ids:
+    - ev-1872b8581b4c6254
+  next_validation: 追踪 Hunar.AI 官网产品页或客户案例，核验其初筛匹配的交付形式、人工复核环节与雇主使用结果。
+  market: ''
+  job: 招聘顾问或中小企业雇主在需要为一线岗位批量补人时，处理大量简历与岗位要求，要完成初筛并排出可进入面试的候选人名单。
+  job_en: Recruiters or small-business employers filling frontline roles at volume process many resumes
+    against job requirements to complete initial screening and produce an interview-ready candidate list.
+  pain: 一线岗位招聘量大、单岗预算低，人工逐份读简历慢且容易漏掉合适人选；公开材料只支持这一结构性痛点，尚无用户抱怨或案例直接佐证。
+  pain_en: Frontline hiring is high-volume and low-budget per role; reading resumes one by one is slow
+    and easily misses suitable candidates. Public material supports this only as a structural pain, with
+    no direct user complaint or case yet.
+  current_alternative: 招聘顾问人工翻简历、在招聘平台按关键词搜索，或用通用表格自行筛选排序。
+  current_alternative_en: Recruiters manually scan resumes, search job boards by keyword, or filter and
+    rank in generic spreadsheets.
+  usage_reason: 推断：相较人工逐份阅读，系统按岗位要求解析简历并给出匹配排序，减少初筛阶段的阅读与比对步骤，使招聘方在批量岗位下更快拿到可面试名单；尚无公开准确率或重复使用证据。
+  usage_reason_en: 'Inference: instead of reading every resume, the system parses resumes against job
+    requirements and ranks matches, cutting the reading and comparison steps in initial screening so employers
+    get an interview-ready list faster at volume; no public accuracy or repeat-use evidence yet.'

@@ -21,7 +21,7 @@ canonical_url: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instruction
 summary: 'WhatsApp''s help pages hid LLM instructions: dont recommend a regulator'
 first_seen: '2026-10-20T01:06:26Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,91 @@
+- id: req-initial-opencalque-2026-10-20
+  project_slug: opencalque
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决二维平面图绘制与修改的具体任务，旧流程依赖专业软件逐项操作，痛点结构成立。
+    evidence_ids:
+    - ev-9c8b9c1c2663337e
+    - ev-d5400fd6d58bb80d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量仓库关注，没有用户评价或采用证据。
+    evidence_ids:
+    - ev-9c8b9c1c2663337e
+    - ev-d5400fd6d58bb80d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，买方与付费路径未披露，属判断而非已验证事实。
+    evidence_ids:
+    - ev-9c8b9c1c2663337e
+  - gate: truth
+    status: insufficient
+    reason: 未说明 AI 代理在绘图中的具体动作与人工确认边界，交付确定性待核。
+    evidence_ids:
+    - ev-9c8b9c1c2663337e
+  next_validation: 收集该仓库 README 与 issue/discussion，核对 AI 代理在平面图编辑中的具体动作与用户实际使用反馈。
+  market: ''
+  job: 建筑设计师或绘图人员在绘制二维平面图时，需要编辑墙体、房间等图元并导出图纸，以完成方案草图或施工前的基础平面。
+  job_en: Architects or drafters drawing 2D floor plans need to edit walls, rooms, and other elements
+    and export drawings to complete schematic or pre-construction base plans.
+  pain: 二维平面图绘制依赖专业软件，重复修改和批量调整耗时；这是从绘图工作流推断的痛点。
+  pain_en: 2D floor plan drafting depends on professional software, and repeated edits and batch adjustments
+    are time-consuming; this pain is inferred from the drafting workflow.
+  current_alternative: AutoCAD、SketchUp、Figma 等通用绘图工具，或手工在专业软件中逐项修改。
+  current_alternative_en: AutoCAD, SketchUp, Figma, or manual item-by-item edits in professional software.
+  usage_reason: 推断：本地命令行让 AI 代理直接操作图元，可能减少逐项手工修改这一步；但候选未给出用户反馈或客户案例，采用理由仍属结构推理。
+  usage_reason_en: 'Inference: a local CLI lets AI agents operate on drawing elements directly, potentially
+    cutting item-by-item manual edits; but the candidate gives no user feedback or customer cases, so
+    adoption remains structural reasoning.'
+- id: req-full-opencalque-2026-10-20
+  project_slug: opencalque
+  level: full
+  reviewed_at: '2026-10-20T01:44:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决二维平面图绘制与修改的具体任务，旧流程依赖专业软件逐项操作，不解决则草图迭代慢、批量调整靠手工；这是工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-9c8b9c1c2663337e
+    - ev-d5400fd6d58bb80d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 40 星，没有用户评价、采用案例或讨论记录说明设计师是否在真实项目中用它出图，场景感知强度无法确认。
+    evidence_ids:
+    - ev-9c8b9c1c2663337e
+    - ev-d5400fd6d58bb80d
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、商业授权或企业支持路径，买方可能是设计工作室或施工方，但钱从哪来属判断而非已验证事实。
+    evidence_ids:
+    - ev-9c8b9c1c2663337e
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 代理在绘图中具体接收什么、执行哪一步、人工确认边界与导出格式，交付确定性无法核对。
+    evidence_ids:
+    - ev-9c8b9c1c2663337e
+    - ev-d5400fd6d58bb80d
+  next_validation: 追踪该仓库 README 与 issue/discussion，核对 AI 代理在平面图编辑中的具体动作、导出格式与用户实际使用反馈。
+  market: ''
+  job: 建筑设计师或绘图人员在绘制二维平面图时，打开编辑器编辑墙体、房间等图元，并通过本地命令行让 AI 代理参与操作，最终导出方案草图或施工前的基础平面图。
+  job_en: Architects or drafters drawing 2D floor plans open the editor to edit walls, rooms and other
+    elements, let AI agents participate through a local CLI, and export schematic or pre-construction
+    base plans.
+  pain: 二维平面图绘制依赖专业软件逐项修改，重复调整和批量变更耗时；这是从绘图工作流推断的痛点，公开材料未给出用户抱怨或耗时数据。
+  pain_en: 2D floor plan drafting depends on professional software with item-by-item edits, and repeated
+    or batch changes are time-consuming; this is inferred from the drafting workflow, with no public user
+    complaints or time data.
+  current_alternative: AutoCAD、SketchUp、Figma 等通用绘图工具，或手工在专业软件中逐项修改图元。
+  current_alternative_en: General drafting tools such as AutoCAD, SketchUp and Figma, or manual item-by-item
+    edits in professional software.
+  usage_reason: 推断：本地命令行让 AI 代理直接操作图元，可能减少逐项手工修改这一步，因此需要快速改图或批量调整的方案阶段设计师会在草图迭代时选择它；仓库仅 40 星，无用户反馈或客户案例，采用理由仍属结构推理。
+  usage_reason_en: 'Inference: a local CLI lets AI agents operate on drawing elements directly, potentially
+    cutting item-by-item manual edits, so designers iterating schematic plans who need fast or batch changes
+    would choose it at sketch stage; with only 40 stars and no user feedback or cases, adoption remains
+    structural reasoning.'

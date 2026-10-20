@@ -21,7 +21,7 @@ canonical_url: https://mochow13.github.io/keen-code/docs/task-classification-usi
 summary: task classifier and auto model router in Keen Code
 first_seen: '2026-10-20T01:06:26Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -938,3 +938,42 @@
   usage_reason: 公开代码仓库有 1,995 个收藏、253 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,995 stars and 253 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-cindy-2026-10-20
+  project_slug: cindy
+  level: full
+  reviewed_at: '2026-10-20T01:42:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 cindy 官方仓库 README、issue 与 discussion，确认其具体输入输出、切换模型时保留什么状态，以及是否有用户反馈或使用记录。
+  market: ''
+  job: 开发者把不同厂商的写代码助手收进同一工作区，在任务中途切换模型，同时保留记忆与未完成的工作。
+  job_en: Developers put coding assistants from different vendors into one workspace so they can switch
+    models mid-task while keeping memory and unfinished work.
+  pain: 公开材料只有一句产品口号，未说明用户在切换模型时具体丢失什么、发生频率多高、不解决会付出什么代价；无法从现有证据还原痛点。
+  pain_en: Public material offers only a product tagline and does not show what users actually lose when
+    switching models, how often it happens, or what it costs to leave unsolved; the pain cannot be reconstructed
+    from available evidence.
+  current_alternative: 公开材料未说明用户目前如何完成跨模型协作，也未说明它替代了哪些旧做法。
+  current_alternative_en: Public materials do not show how users currently handle cross-model work or
+    what existing practices it replaces.
+  usage_reason: 推断：若同一工作区能在换模型时保留上下文与任务状态，开发者可省去复制粘贴和重建提示的步骤；但缺少功能细节与用户反馈，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: if one workspace preserves context and task state across model switches,
+    developers skip copy-paste and prompt rebuilding; feature detail and user feedback are missing, so
+    which users would choose it cannot be confirmed.'

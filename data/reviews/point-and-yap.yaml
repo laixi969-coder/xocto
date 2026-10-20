@@ -1,0 +1,82 @@
+- id: req-initial-point-and-yap-2026-10-20
+  project_slug: point-and-yap
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决向代理指认屏幕对象的需求，但材料未说明具体痛点、旧流程与交付，价值结构无法还原。
+    evidence_ids:
+    - ev-b9eba0617edee946
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：没有用户评价、采用或社区讨论证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-b9eba0617edee946
+  - gate: model
+    status: insufficient
+    reason: 未进入：买方与付费路径均未披露，无法判断钱来自个人开发者还是团队。
+    evidence_ids:
+    - ev-b9eba0617edee946
+  - gate: truth
+    status: insufficient
+    reason: 未进入：无法核对指向与语音输入是否贴近调试任务的第一性目标，也无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-b9eba0617edee946
+  next_validation: 收集 Point and Yap 官方产品页或演示，确认它接收的屏幕信息形式、代理执行的动作、交付结果与是否收费。
+  market: ''
+  job: 开发者在调试界面或查看屏幕内容时，指向具体位置并用语音向代理描述问题，希望代理直接理解所指对象并执行操作。
+  job_en: Developers debugging an interface or viewing screen content point at a specific spot and describe
+    the issue by voice, expecting the agent to understand the referenced object and act.
+  pain: 公开材料未说明痛点，只能推断用文字描述界面位置和问题比直接指认更费劲。
+  pain_en: The public material states no pain; it can only be inferred that describing interface locations
+    and issues in text is more effortful than pointing directly.
+  current_alternative: 公开材料未提及现有替代方式；可能包括截图加文字说明或直接手动操作，但候选未证实。
+  current_alternative_en: The public material names no current alternative; possible ones include screenshots
+    with text explanations or manual operation, but the candidate does not confirm this.
+  usage_reason: 无法判断：候选只有一句描述，没有说明相较截图加文字说明减少了哪一步负担或改善了哪项可核对结果。
+  usage_reason_en: 'Cannot be judged: the candidate has only one description and does not explain which
+    step burden is reduced or which checkable result improves versus screenshots plus text explanations.'
+- id: req-full-point-and-yap-2026-10-20
+  project_slug: point-and-yap
+  level: full
+  reviewed_at: '2026-10-20T01:45:09Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决向代理指认屏幕对象的需求，但公开材料只有一句描述，未说明具体痛点、旧流程、输入形式与交付结果；无法还原不解决的后果，价值结构不成立。
+    evidence_ids:
+    - ev-8a459c0325ea63b0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Point and Yap 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 开发者在调试界面或查看屏幕内容时，指向具体位置并用语音向代理描述问题，希望代理理解所指对象并执行操作。
+  job_en: Developers debugging an interface or viewing screen content point at a specific spot and describe
+    the issue by voice, expecting the agent to understand the referenced object and act.
+  pain: 公开材料只有一句“指向屏幕并通过 MCP 对代理说话”，未说明用文字描述界面位置时具体卡在哪一步，也未说明不解决会失去什么；只能推断指认比文字描述省力，但这是结构推理，不是公开事实。
+  pain_en: The public material offers only one line, 'point at your screen and start yapping to your agent
+    via MCP,' and does not state where describing interface locations in text actually hurts or what is
+    lost if unsolved; it can only be inferred that pointing is less effortful than text description, and
+    this is structural reasoning, not public fact.
+  current_alternative: 公开材料未提及任何现有替代方式；截图加文字说明或直接手动操作只是常见做法的推测，候选未证实。
+  current_alternative_en: The public material names no current alternative; screenshots with text explanations
+    or manual operation are only guesses at common practice and are not confirmed by the candidate.
+  usage_reason: 无法判断：材料没有说明代理接收的是截图、坐标还是界面元素，执行什么动作，交付是代码修改还是操作回放，因此无法解释相较截图加文字说明减少了哪一步负担。
+  usage_reason_en: 'Cannot be judged: the material does not say whether the agent receives a screenshot,
+    coordinates or interface elements, what action it performs, or whether the deliverable is a code change
+    or action replay, so it cannot explain which step burden is reduced versus screenshots plus text explanations.'

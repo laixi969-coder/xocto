@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWmhSX1dGOVNC
 summary: Nvidia's Research Ledger Grows as Software Push Meets Customer-Silicon Threat ad-hoc-news.de
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -180,3 +180,47 @@
   usage_reason_en: 'Inference: versus a general model plus manual checking, it stores verified rules in
     memory for reuse, cutting the burden of re-checking the same derivation, so math or engineering teams
     needing auditable derivations are more likely to choose it.'
+- id: req-full-resimind-2026-10-20
+  project_slug: resimind
+  level: full
+  reviewed_at: '2026-10-20T01:45:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学与代数推导不可校验、已验证规则无法复用的问题，痛点在于错误步骤会被继续沿用、同类问题重复推导。公开材料仅给出功能描述，交付闭环属工作流结构推理。
+    evidence_ids:
+    - ev-438681460da8eda5
+    - ev-8d1aa13190609747
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 113 增至 208，属关注度信号；没有可归因到该项目的持续使用、团队采用或外部提交结果，无法判断是否进入工作流。
+    evidence_ids:
+    - ev-438681460da8eda5
+    - ev-3d257920d82aa206
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明托管、企业支持或按解题计费的路径，买方与定价属判断而非已验证事实。
+    evidence_ids:
+    - ev-438681460da8eda5
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明校验由谁执行、错误规则如何回滚，以及人工确认在流程中的位置，承诺能否确定性交付尚不可核对。
+    evidence_ids:
+    - ev-438681460da8eda5
+  next_validation: 追踪 resimind 仓库 README 与 open challenge 页面，确认校验机制、规则复用方式以及是否有外部使用者提交结果。
+  market: ''
+  job: 研究或工程人员在求解数学与代数问题时，用 agent 生成推导，并需要逐步核对每一步、把校验通过的规则留存下来供后续同类问题复用。
+  job_en: Researchers or engineers solving math and algebra problems use an agent to generate derivations,
+    need to check each step, and keep verified rules for reuse on similar problems.
+  pain: 通用大模型给出的推导无法逐步核对，错误步骤容易被当作结论继续使用；同类问题重复求解时又要从头推导，已确认的规则无法沉淀。
+  pain_en: Derivations from general LLMs cannot be checked step by step, wrong steps get reused as conclusions,
+    and repeated solving of similar problems starts from scratch with no accumulation of confirmed rules.
+  current_alternative: 用通用大模型求解后人工逐步核对，或依赖符号计算软件手工搭建并维护规则。
+  current_alternative_en: Solving with general LLMs and checking each step by hand, or manually building
+    and maintaining rules in symbolic computation software.
+  usage_reason: 推断：相较通用模型加人工核对，它把校验通过的规则存入记忆并在后续求解中复用，减少重复核对同一步推导的负担；对推导可审计性有要求的数学或工程人员，在需要复用已验证结论时会选择它。
+  usage_reason_en: 'Inference: versus a general model plus manual checking, it stores verified rules in
+    memory and reuses them in later solving, cutting the burden of re-checking the same derivation; math
+    or engineering users who need auditable derivations would choose it when reusing verified conclusions.'

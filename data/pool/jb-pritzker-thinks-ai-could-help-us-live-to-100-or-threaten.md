@@ -31,7 +31,7 @@ summary: 'Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of 
   on YouTube , where we put out new episodes'
 first_seen: '2026-10-20T01:06:54Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

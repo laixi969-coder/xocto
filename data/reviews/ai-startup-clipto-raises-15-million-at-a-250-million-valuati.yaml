@@ -76,3 +76,47 @@
   usage_reason: 融资和媒体报道表明市场关注，但实际采用和付费情况尚未核验。
   usage_reason_en: Funding and media coverage indicate market interest, but actual adoption and payment
     are not yet verified.
+- id: req-initial-ai-startup-clipto-raises-15-million-at-a-250-million-valuati-2026-10-20
+  project_slug: ai-startup-clipto-raises-15-million-at-a-250-million-valuati
+  level: initial
+  reviewed_at: '2026-09-01T14:56:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均未在材料中出现，只有融资标题，价值关无法成立。
+    evidence_ids:
+    - ev-887afd248ec7cb72
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-887afd248ec7cb72
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均未披露。
+    evidence_ids:
+    - ev-887afd248ec7cb72
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-887afd248ec7cb72
+  next_validation: 收集 Clipto 官方产品页或官方发布说明，确认其检索对象、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点；只能推断为需要快速检索并核对信息来源的知识工作者，在处理大量资料时寻找答案，但任务、输入与交付均未披露。
+  job_en: Public material does not identify the user or work step; it can only be inferred that knowledge
+    workers who need fast retrieval and source checking search for answers across large document sets,
+    but the task, input, and deliverable are undisclosed.
+  pain: 候选材料未提供任何用户痛点、抱怨或替代行为的描述，无法确认它缓解的是检索慢、引用难核，还是别的环节。
+  pain_en: The candidate material provides no description of user pain, complaints, or substitute behavior,
+    so it is impossible to confirm whether it eases slow retrieval, hard-to-check citations, or another
+    step.
+  current_alternative: 未披露；按品类推断可能替代通用搜索引擎加人工逐条核对来源的旧做法，但这只是推断。
+  current_alternative_en: Undisclosed; by category it may replace general search engines plus manual source-by-source
+    checking, but this is only an inference.
+  usage_reason: 缺少产品功能、输入输出与用户反馈，无法说明相较旧做法减少了哪一步负担；融资额与估值只属关注度证据，不能解释用户为何选择它。
+  usage_reason_en: With no product features, inputs and outputs, or user feedback, it is impossible to
+    say which step of the old workflow it reduces; the funding amount and valuation are attention evidence
+    only and do not explain why users would choose it.

@@ -1,0 +1,86 @@
+- id: req-initial-autocharteu-2026-10-20
+  project_slug: autocharteu
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决节奏游戏玩家为无谱面歌曲制作可玩谱面的需求，痛点是手工打谱耗时且冷门曲目无人做谱，旧替代行为明确存在。
+    evidence_ids:
+    - ev-a8d30eb40d8e9c92
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句说明，没有社区讨论、下载或使用反馈，无法判断玩家是否真的采用。
+    evidence_ids:
+    - ev-a8d30eb40d8e9c92
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按份收费还是订阅，买方可能是玩家个人，但付费路径没有公开材料支持。
+    evidence_ids:
+    - ev-a8d30eb40d8e9c92
+  - gate: truth
+    status: insufficient
+    reason: 谱面生成质量、支持乐器轨和是否需要人工校对均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-a8d30eb40d8e9c92
+  next_validation: 收集 AutoChart.eu 官方页面或社区帖中关于生成谱面质量、支持乐器轨与收费方式的公开说明。
+  market: ''
+  job: 节奏游戏玩家在 YARG 或 Clone Hero 中想玩一首尚无谱面的歌时，需要把歌曲文件转成可导入游戏的全乐队谱面。
+  job_en: Rhythm-game players who want to play a song with no existing chart in YARG or Clone Hero need
+    to turn the audio file into an importable full-band chart.
+  pain: 手工打谱需要逐段对齐节拍、分配各乐器轨，耗时且需要乐理与工具经验；冷门歌曲和自制曲目往往根本没人做谱。
+  pain_en: Hand-charting requires beat-aligning each section and assigning instrument tracks, which is
+    slow and needs music and tooling skill; obscure songs and self-made tracks often have no chart at
+    all.
+  current_alternative: 玩家自己用谱面编辑器手工制作，或在社区寻找他人分享的谱面，找不到就只能放弃这首歌。
+  current_alternative_en: Players hand-build charts in chart editors or search community-shared charts,
+    and give up on the song when none exists.
+  usage_reason: 推断：相较手工打谱，产品把整首歌一次性转成可导入的谱面文件，省去逐段对齐节拍和分轨编排的步骤，因此找不到现成谱面的玩家会先试它；生成质量是否够玩仍需核验。
+  usage_reason_en: 'Inference: versus hand-charting, the product converts a whole song into an importable
+    chart file in one pass, skipping manual beat alignment and track arrangement, so players without an
+    existing chart would try it first; whether output quality is playable still needs verification.'
+- id: req-full-autocharteu-2026-10-20
+  project_slug: autocharteu
+  level: full
+  reviewed_at: '2026-10-20T01:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决节奏游戏玩家为无谱面歌曲制作可玩谱面的需求，痛点是手工打谱耗时且冷门曲目无人做谱，旧替代行为明确存在；这是基于产品说明与打谱工作流的结构推理。
+    evidence_ids:
+    - ev-a8d30eb40d8e9c92
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句说明，没有社区讨论、下载或使用反馈，无法判断玩家是否真的采用。
+    evidence_ids:
+    - ev-a8d30eb40d8e9c92
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按份收费还是订阅，买方可能是玩家个人，但付费路径没有公开材料支持。
+    evidence_ids:
+    - ev-a8d30eb40d8e9c92
+  - gate: truth
+    status: insufficient
+    reason: 谱面生成质量、支持乐器轨和是否需要人工校对均未说明，交付确定性无法核对。
+    evidence_ids:
+    - ev-a8d30eb40d8e9c92
+  next_validation: 追踪 AutoChart.eu 官方页面或 YARG/Clone Hero 社区帖中关于生成谱面质量、支持乐器轨与收费方式的公开说明。
+  market: ''
+  job: 节奏游戏玩家在 YARG 或 Clone Hero 中想玩一首尚无现成谱面的歌时，把本地歌曲文件交给 AutoChart.eu，生成可导入游戏的全乐队谱面并试玩。
+  job_en: Rhythm-game players who want to play a song with no existing chart in YARG or Clone Hero submit
+    a local audio file to AutoChart.eu to generate an importable full-band chart and try it in-game.
+  pain: 手工打谱要逐段对齐节拍、分配各乐器轨，耗时且需要乐理与工具经验；冷门歌曲和自制曲目往往无人做谱，玩家只能放弃这首歌。
+  pain_en: Hand-charting requires beat-aligning each section and assigning instrument tracks, which is
+    slow and needs music and tooling skill; obscure songs and self-made tracks often have no chart at
+    all, so players give up on the song.
+  current_alternative: 玩家用谱面编辑器手工制作，或在社区寻找他人分享的谱面，找不到就只能放弃。
+  current_alternative_en: Players hand-build charts in chart editors or search community-shared charts,
+    and give up when none exists.
+  usage_reason: 推断：相较手工打谱，产品把整首歌一次性转成可导入的谱面文件，省去逐段对齐节拍和分轨编排的步骤，因此找不到现成谱面的玩家会先试它；生成质量是否够玩仍需核验。
+  usage_reason_en: 'Inference: versus hand-charting, the product converts a whole song into an importable
+    chart file in one pass, skipping manual beat alignment and track arrangement, so players without an
+    existing chart would try it first; whether output quality is playable still needs verification.'

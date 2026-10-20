@@ -364,3 +364,41 @@
   usage_reason_en: 'Inference: if bots can hold their own email and phone and operate systems directly,
     it could remove manual per-item sending and data entry; but public material gives no user feedback
     or deployment cases, so why users choose it cannot be confirmed.'
+- id: req-full-bops-2026-10-20
+  project_slug: bops
+  level: full
+  reviewed_at: '2026-10-20T01:42:33Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 仅有一句产品定位，未呈现具体用户任务、旧流程、痛点强度或不解决的后果，无法还原需求结构；同名的冰淇淋店与俚语页面不构成证据。
+    evidence_ids:
+    - ev-37f667b94c3d5df1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 bops.bot 官网是否发布客户案例或部署文档，说明具体接入了哪些系统、由谁使用及结果如何确认。
+  market: ''
+  job: 小团队运营或行政人员需要把发邮件、打电话、在网页后台录入等重复事务交给可独立操作的代理执行，自己只做结果确认。
+  job_en: Small-team ops or admin staff need repetitive tasks—sending emails, making calls, entering data
+    in web backends—executed by agents that can operate independently, leaving them only to confirm results.
+  pain: 公开材料只有一句产品定位，没有用户抱怨、旧流程耗时或出错代价的记录，无法确认这类事务对谁构成刚性痛点。
+  pain_en: Public material contains only a one-line positioning; there is no record of user complaints,
+    time cost, or error consequences, so the rigidity of this pain cannot be confirmed.
+  current_alternative: 公开材料未说明用户目前是自行处理、雇助理还是用 RPA/脚本，替代关系无法还原。
+  current_alternative_en: Public material does not show whether users currently handle this themselves,
+    hire assistants, or use RPA/scripts; the substitution relationship cannot be reconstructed.
+  usage_reason: 仅能推断：拥有独立邮箱和电话的机器人可减少人工切换系统与转述的步骤，但缺少用户反馈或案例支持这一动机。
+  usage_reason_en: 'Inference only: bots with their own email and phone could cut the steps of switching
+    systems and relaying instructions, but no user feedback or case supports this motive.'

@@ -1,0 +1,90 @@
+- id: req-initial-opengcua-2026-10-20
+  project_slug: opengcua
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只说明技术栈组合，未说清替代哪一步旧工作、谁在什么情况下使用，价值结构无法确认。
+    evidence_ids:
+    - ev-e5c62eb65673bdd9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数，属于关注度而非持续采用证据，无法判断共识。
+    evidence_ids:
+    - ev-e5c62eb65673bdd9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，商业模式无法判断。
+    evidence_ids:
+    - ev-e5c62eb65673bdd9
+  - gate: truth
+    status: insufficient
+    reason: 缺少部署文档、实测结果与安全边界说明，交付确定性无法核验。
+    evidence_ids:
+    - ev-e5c62eb65673bdd9
+  next_validation: 收集该仓库的部署文档与 issue/discussion，确认是否有具体任务场景与可复现实测结果。
+  market: ''
+  job: 开发者需要在跨设备环境中编排代码执行与图形界面操作，构建可复用的计算机使用代理。
+  job_en: Developers need to orchestrate code execution and GUI interaction across devices to build reusable
+    computer-use agents.
+  pain: 公开材料只描述技术栈组合，未说明它替代了哪一步具体旧工作或谁的哪项负担，痛点强度无法从现有事实判断。
+  pain_en: Public material only describes a technical stack combination and does not say which concrete
+    legacy step or whose burden it replaces, so pain intensity cannot be judged from available facts.
+  current_alternative: 开发者目前自行拼接浏览器自动化、脚本执行与远程控制工具，或使用其他计算机使用代理框架。
+  current_alternative_en: Developers currently stitch together browser automation, script execution and
+    remote-control tools, or use other computer-use agent frameworks.
+  usage_reason: 推断：若它能把代码执行与界面操作统一在一个可复用栈中，开发者可减少在多种工具间切换和自行搭建编排层的负担；但公开材料未给出用户反馈或采用案例，选择动机仍属推断。
+  usage_reason_en: 'Inference: if it unifies code execution and GUI interaction in one reusable stack,
+    developers could reduce switching among tools and building their own orchestration layer; however,
+    public material gives no user feedback or adoption cases, so the motivation remains inferred.'
+- id: req-full-opengcua-2026-10-20
+  project_slug: opengcua
+  level: full
+  reviewed_at: '2026-10-20T01:44:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者构建通用计算机使用代理时需统一代码执行、界面操作与跨设备控制的需求；痛点是自行拼接多套工具导致编排层重复搭建、跨设备失败难定位。公开材料仅描述栈组合，未给用户抱怨，价值判断属工作流结构推理。
+    evidence_ids:
+    - ev-e5c62eb65673bdd9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 229 星，属关注度而非持续采用；缺少 issue、discussion 或用户反馈说明开发者是否真把它放进工作流，共识强度无法确认。
+    evidence_ids:
+    - ev-e5c62eb65673bdd9
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价、商业支持或买方路径；钱可能来自企业定制或托管服务，但这是判断而非已验证事实，付费路径尚不明确。
+    evidence_ids:
+    - ev-e5c62eb65673bdd9
+  - gate: truth
+    status: insufficient
+    reason: 缺少部署文档、可复现实测与安全边界说明，无法核验跨设备控制能否确定性交付，也未见人工接管边界的公开描述。
+    evidence_ids:
+    - ev-e5c62eb65673bdd9
+  next_validation: 追踪该仓库的 issue/discussion 与部署文档，确认是否有具体跨设备任务场景、可复现实测结果及安全接管说明。
+  market: ''
+  job: 开发者在构建通用计算机使用代理时，需要把代码执行、图形界面点击与跨设备控制编排进同一条可复用流程，处理的是多设备上的界面与脚本混合任务，交付一个能重复运行的代理栈。
+  job_en: Developers building generalist computer-use agents need to orchestrate code execution, GUI clicking
+    and cross-device control into one reusable pipeline, handling mixed interface-and-script tasks across
+    devices and delivering a repeatable agent stack.
+  pain: 公开材料只给出技术栈组合，未直接陈述用户抱怨；结构推理上，开发者若自行拼接浏览器自动化、脚本执行与远程控制，需分别维护多套接口、状态与设备连接，跨设备任务失败后难以定位是哪一层出错。
+  pain_en: Public material only states the stack combination and records no user complaint; by structural
+    inference, developers stitching together browser automation, script execution and remote control must
+    maintain separate interfaces, state and device connections, and failures in cross-device tasks are
+    hard to attribute to a layer.
+  current_alternative: 开发者目前自行组合浏览器自动化框架、脚本执行环境与远程控制工具，或采用其他计算机使用代理框架，各自搭建编排层。
+  current_alternative_en: Developers currently combine browser automation frameworks, script execution
+    environments and remote-control tools themselves, or adopt other computer-use agent frameworks, each
+    building its own orchestration layer.
+  usage_reason: 推断：相较自行拼接多套工具，它把代码执行与界面操作放进同一开源栈，开发者可省去自建编排层与跨设备连接适配这一步，因此在需要同时操作界面和跑脚本、且要跨设备复现的代理开发场景中会选择它；公开材料尚无用户反馈或采用案例，动机属推断。
+  usage_reason_en: 'Inference: compared with stitching multiple tools, it puts code execution and GUI
+    interaction in one open-source stack, saving developers the step of building their own orchestration
+    layer and cross-device connection adapters, so they would choose it when developing agents that must
+    both drive interfaces and run scripts repeatably across devices; public material has no user feedback
+    or adoption cases, so the motivation is inferred.'

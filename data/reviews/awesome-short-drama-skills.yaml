@@ -1,0 +1,88 @@
+- id: req-initial-awesome-short-drama-skills-2026-10-20
+  project_slug: awesome-short-drama-skills
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短剧创作者从剧本到分镜再到视频提示词的重复起草问题，旧做法是人工逐条写提示词，痛点具体。
+    evidence_ids:
+    - ev-e804c0933ffaab0f
+  - gate: consensus
+    status: insufficient
+    reason: 只有仓库收藏与分叉数，属于关注度，没有创作者使用反馈或案例说明它进入实际制作流程。
+    evidence_ids:
+    - ev-e804c0933ffaab0f
+  - gate: model
+    status: insufficient
+    reason: 开源免费，未见付费或服务收费路径，买方与收入模式没有公开材料支持。
+    evidence_ids:
+    - ev-e804c0933ffaab0f
+  - gate: truth
+    status: insufficient
+    reason: 提示词与技能集合能否稳定产出可用分镜和视频提示词、需要多少人工修改，均未说明。
+    evidence_ids:
+    - ev-e804c0933ffaab0f
+  next_validation: 收集该仓库 issue、讨论或使用案例中关于生成分镜与视频提示词实际可用性和人工修改量的公开记录。
+  market: ''
+  job: 短剧与漫剧创作者在剧本改编和分镜阶段，需要把故事拆成分镜并转成可用的视频生成提示词。
+  job_en: Short-drama and comic-drama creators at the adaptation and storyboard stage need to break a
+    story into shots and turn them into usable video-generation prompts.
+  pain: 分镜到视频提示词需要反复试写和统一风格，人工逐条写耗时，且不同模型提示词格式不一致。
+  pain_en: Going from storyboard to video prompt requires repeated drafting and style consistency; writing
+    each one by hand is slow and prompt formats differ across models.
+  current_alternative: 创作者自己写提示词、在群里交换模板，或直接凭经验在视频模型里反复试。
+  current_alternative_en: Creators write prompts themselves, swap templates in group chats, or trial-and-error
+    directly in video models.
+  usage_reason: 推断：相较自己逐条写提示词，技能包把剧本、分镜和多家视频模型的提示词模板打包给智能体调用，减少从分镜到提示词的重复起草；是否真被工作室长期使用尚无公开证据。
+  usage_reason_en: 'Inference: versus writing prompts one by one, the pack bundles script, storyboard
+    and multi-model video prompt templates for an agent to call, cutting repeated drafting from storyboard
+    to prompt; there is no public evidence yet that studios keep using it.'
+- id: req-full-awesome-short-drama-skills-2026-10-20
+  project_slug: awesome-short-drama-skills
+  level: full
+  reviewed_at: '2026-10-20T01:42:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短剧/漫剧创作者从剧本、改编到分镜和视频提示词的重复起草需求，旧做法是人工逐条写提示词并适配不同视频模型，痛点具体且交付物明确；这是基于产品说明的工作流结构推理，尚无创作者耗时或返工数据。
+    evidence_ids:
+    - ev-e804c0933ffaab0f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 216 个收藏，属于关注度；没有创作者使用反馈、案例或讨论说明技能包已进入实际制作流程，无法判断强场景是否成立。
+    evidence_ids:
+    - ev-e804c0933ffaab0f
+  - gate: model
+    status: insufficient
+    reason: 项目为开源免费技能集合，公开材料未见定价、付费服务或企业采购路径，钱可能来自 to C 创作者或 to B 工作室，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e804c0933ffaab0f
+  - gate: truth
+    status: insufficient
+    reason: 技能包能否稳定产出可用分镜和视频提示词、需要多少人工修改、跨模型提示词是否真能复用，公开材料均未说明，交付确定性缺可核对证据。
+    evidence_ids:
+    - ev-e804c0933ffaab0f
+  next_validation: 追踪该仓库的 issue、discussion 或使用案例，收集创作者关于生成分镜与视频提示词实际可用性及人工修改量的公开记录。
+  market: ''
+  job: 短剧或漫剧创作者在剧本改编与分镜阶段，把故事素材交给千问、豆包、Claude Code 等智能体，调用技能包中的模板，产出剧本、分镜和 Seedance/可灵/MiniMax 视频提示词。
+  job_en: Short-drama or comic-drama creators at the script-adaptation and storyboard stage hand story
+    material to agents such as Qwen, Doubao or Claude Code, which call the pack's templates to produce
+    scripts, storyboards and Seedance/Kling/MiniMax video prompts.
+  pain: 从分镜到视频提示词要逐条试写并保持风格统一，不同视频模型提示词格式不一致，人工重复起草耗时；公开材料只说明技能包覆盖这些环节，未给出创作者耗时或返工数据。
+  pain_en: Going from storyboard to video prompt means drafting each shot by hand while keeping style
+    consistent, and prompt formats differ across video models, so repeated drafting is costly; public
+    material only says the pack covers these stages, without creator time or rework data.
+  current_alternative: 创作者自己写提示词、在群里交换模板，或直接在视频模型里反复试错；这是从产品定位推断的旧做法，公开材料未直接描述。
+  current_alternative_en: Creators write prompts themselves, swap templates in group chats, or trial-and-error
+    directly in video models; this is inferred from the product positioning, not directly described in
+    public material.
+  usage_reason: 推断：相较自己逐条写提示词，技能包把剧本、分镜与多家视频模型的提示词模板打包成智能体可调用的技能，减少从分镜到提示词的重复起草；哪类创作者会在什么情况下选用、是否长期留在工作流，公开材料尚无反馈或案例支持。
+  usage_reason_en: 'Inference: versus writing prompts one by one, the pack bundles script, storyboard
+    and multi-model video prompt templates into agent-callable skills, cutting repeated drafting from
+    storyboard to prompt; which creators choose it and whether it stays in their workflow is not yet supported
+    by public feedback or cases.'

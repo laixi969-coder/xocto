@@ -487,3 +487,50 @@
     manual per-post publishing and confirmation step and avoiding API-key and paid-scraper prerequisites,
     so individual operators or small teams without API access who must sustain posting frequency would
     try it.'
+- id: req-full-tweetytweets-2026-10-20
+  project_slug: tweetytweets
+  level: full
+  reviewed_at: '2026-10-20T01:45:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决持续运营 X/Twitter 账号时选题、按语气写作、发布与回查分散重复的需求，断更会损失曝光，痛点刚性来自日更节奏；无 API key、浏览器发布并自检构成可确定交付闭环。此为工作流结构推理，尚无用户痛点原话。
+    evidence_ids:
+    - ev-3fc33dd10ae18244
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 62 缓慢增至 69，说明有开发者关注，但收藏与关注只属关注度证据，未见 issue、讨论或用户案例说明谁在真实场景持续使用，也未证明它已留在工作流中。
+    evidence_ids:
+    - ev-3fc33dd10ae18244
+    - ev-7e7d340bbc10639b
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，未见定价页、付费版本或采购记录，钱可能来自 to C 开发者自托管或后续 to B 服务，但均属判断而非已验证事实；目前无收入路径公开证据。
+    evidence_ids:
+    - ev-3fc33dd10ae18244
+  - gate: truth
+    status: insufficient
+    reason: 浏览器自动发布与自检能否稳定交付、账号授权与内容审核的人工边界如何，公开说明未给出部署文档或失败处理细节，缺可复现的交付证据。
+    evidence_ids:
+    - ev-3fc33dd10ae18244
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 discussion，确认是否有用户报告实际部署、替代了何种手工发帖流程及发布失败处理情况。
+  market: ''
+  job: 个人品牌运营者或小团队社媒负责人，在需要维持 X/Twitter 账号持续更新时，处理所在领域的话题素材，要完成从选题调研、按本人语气撰写到实际发布并确认发布结果的一整条发帖任务。
+  job_en: 'A personal-brand operator or small-team social media owner, when maintaining a continuously
+    updated X/Twitter account, works with niche topic material to complete the full posting task: research
+    topics, write in their own voice, publish, and confirm the post went out.'
+  pain: 持续发帖要求每天选题、写作、登录发布并回查是否成功，这些步骤重复且分散；一旦断更账号曝光下滑，而逐条手工操作又占用大量时间。公开材料只给出产品能力描述，痛点强度属工作流结构推理。
+  pain_en: Continuous posting requires daily topic selection, writing, logging in to publish, and checking
+    success; these steps are repetitive and scattered. Gaps in posting hurt reach, while manual work consumes
+    time. Public material only describes product capability, so pain intensity is a workflow inference.
+  current_alternative: 旧做法是人工刷信息流找选题、手写帖子、在浏览器或客户端手动发布，再回看主页确认；或用带 API key 的第三方调度工具与付费抓取服务拼装流程。
+  current_alternative_en: The old way is manually scanning feeds for topics, writing posts by hand, publishing
+    in a browser or client, then checking the profile; or stitching together third-party schedulers requiring
+    API keys and paid scraping services.
+  usage_reason: 推断：相较手工逐条发帖，它把调研、按语气成文、浏览器发布和发布后回查串成一个自动流程，省去切换工具与手动确认的步骤，因此需要低维护维持账号更新的个人运营者和小团队会在日常发帖时选择它；尚无用户反馈证实这一动机。
+  usage_reason_en: 'Inference: versus manual posting, it chains research, voice-matched drafting, browser
+    publishing, and post-publish verification into one automated flow, removing tool-switching and manual
+    confirmation. Operators and small teams needing low-maintenance account updates would choose it for
+    routine posting; no user feedback yet confirms this motive.'

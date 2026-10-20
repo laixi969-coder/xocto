@@ -23,7 +23,7 @@ summary: '"Just hearing the sound of soup boiling tells me when it''s about to o
   get smarter with AI 머니투데이'
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

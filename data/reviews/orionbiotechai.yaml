@@ -1,0 +1,88 @@
+- id: req-initial-orionbiotechai-2026-10-20
+  project_slug: orionbiotechai
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出核对催化剂这一任务，但未说明旧流程耗时与不核对的后果，价值结构证据不足。
+    evidence_ids:
+    - ev-c3062eb988052ff0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无持续采用或付费信号，共识无法判断。
+    evidence_ids:
+    - ev-c3062eb988052ff0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，商业模式无法判断。
+    evidence_ids:
+    - ev-c3062eb988052ff0
+  - gate: truth
+    status: insufficient
+    reason: 未说明数据覆盖范围与更新机制，交付确定性无法核验。
+    evidence_ids:
+    - ev-c3062eb988052ff0
+  next_validation: 收集该产品的官方定价页或客户案例，确认是否有付费用户与数据覆盖范围。
+  market: ''
+  job: 生物科技投资者在跟踪临床与监管催化剂时，需要把日历上的每个日期对应回 SEC 文件原句以核实事件。
+  job_en: Biotech investors tracking clinical and regulatory catalysts need to map each calendar date
+    back to the original SEC filing sentence to verify the event.
+  pain: 公开材料只给出日历与原文链接这一描述，未说明原来核对催化剂要花多少步骤、错误代价多大，痛点强度无法确认。
+  pain_en: Public material only describes a calendar linked to source text and does not say how many steps
+    verification previously took or how costly errors were, so pain intensity cannot be confirmed.
+  current_alternative: 投资者目前手工查阅 SEC 文件、财经日历与新闻来核对催化剂日期。
+  current_alternative_en: Investors currently check SEC filings, financial calendars and news manually
+    to verify catalyst dates.
+  usage_reason: 推断：若每个日期都能直接跳到 SEC 原句，投资者可减少在日历与文件之间来回检索的步骤；但公开材料没有用户反馈或采用案例，选择动机仍属推断。
+  usage_reason_en: 'Inference: if each date jumps directly to the SEC sentence, investors could reduce
+    back-and-forth searching between calendar and filings; however, public material has no user feedback
+    or adoption cases, so the motivation remains inferred.'
+- id: req-full-orionbiotechai-2026-10-20
+  project_slug: orionbiotechai
+  level: full
+  reviewed_at: '2026-10-20T01:44:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决催化剂日期核实需求，痛点是日期散落多份文件、口径不一、需反复检索原文；官网描述支持日历与 SEC 原句链接这一交付形态，但痛点强度属工作流结构推理，尚无用户抱怨佐证。
+    evidence_ids:
+    - ev-c3062eb988052ff0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网一句产品描述，未见用户评价、订阅或持续使用记录，无法判断投资者是否已把它纳入日常跟踪流程。
+    evidence_ids:
+    - ev-c3062eb988052ff0
+  - gate: model
+    status: insufficient
+    reason: 这是判断而非已验证事实：买方可能是个人生物科技投资者或小型基金，但官网未披露定价、订阅方式或机构采购，收入路径无法确认。
+    evidence_ids:
+    - ev-c3062eb988052ff0
+  - gate: truth
+    status: insufficient
+    reason: 未说明覆盖多少家公司、SEC 文件更新频率与日期解析是否人工复核，交付的完整性与准确性边界尚缺公开文档。
+    evidence_ids:
+    - ev-c3062eb988052ff0
+  next_validation: 追踪 orionbiotechai 官网的定价页、覆盖公司清单与更新说明，确认是否有付费订阅及 SEC 文件更新机制。
+  market: ''
+  job: 生物科技投资者在跟踪某家公司的临床或监管催化剂日期时，打开催化剂日历，把每个日期对应回 SEC 文件原句，以核实事件是否真实存在及其表述。
+  job_en: Biotech investors tracking a company's clinical or regulatory catalyst dates open the catalyst
+    calendar and map each date back to the original SEC filing sentence to verify the event exists and
+    how it is worded.
+  pain: 公开材料只给出日历加原文链接的描述，未展示用户抱怨；从任务结构推断，痛点是催化剂日期散落在财报、8-K 与新闻中，投资者需在日历与文件间反复检索，日期口径不一致时难以判断哪个可信。
+  pain_en: Public material only describes a calendar with source links and shows no user complaints; inferred
+    from the task structure, the pain is that catalyst dates are scattered across earnings reports, 8-Ks
+    and news, forcing repeated searching between calendar and filings, and inconsistent dates make it
+    hard to judge which is trustworthy.
+  current_alternative: 投资者目前手工查阅 SEC 文件、财经日历与新闻稿，自行拼出催化剂时间表并逐条核对。
+  current_alternative_en: Investors currently manually check SEC filings, financial calendars and press
+    releases, assembling catalyst timelines themselves and verifying each entry.
+  usage_reason: 推断：相较手工在日历与文件间来回检索，Orbia 类日历把每个日期直接链到 SEC 原句，减少一次定位原文的检索步骤，并让日期可被追溯核对，因此需要快速核实催化剂真实性的生物科技投资者会在建仓或事件前复核时选用它；公开材料尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus manually searching between calendar and filings, linking each date
+    directly to the SEC sentence removes one retrieval step and makes dates traceable, so biotech investors
+    verifying catalyst authenticity before a position or event would choose it; public material has no
+    user feedback confirming this.'

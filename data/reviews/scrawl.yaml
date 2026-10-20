@@ -1,0 +1,84 @@
+- id: req-initial-scrawl-2026-10-20
+  project_slug: scrawl
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者向编码 agent 交代界面问题时描述不全、需多轮追问的痛点，旧做法是手写描述加截图，结构上成立。
+    evidence_ids:
+    - ev-5ba64135c7fbdbd9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与复刻数，属于关注度信号，没有用户反馈说明它已进入日常缺陷流程。
+    evidence_ids:
+    - ev-5ba64135c7fbdbd9
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明买方、定价或收费方式，钱从哪来是判断而非已验证事实。
+    evidence_ids:
+    - ev-5ba64135c7fbdbd9
+  - gate: truth
+    status: insufficient
+    reason: 标注与录屏能否让 agent 稳定定位并修复问题，缺少可复现实测或交付结果证据。
+    evidence_ids:
+    - ev-5ba64135c7fbdbd9
+  next_validation: 收集该仓库的 issue 与 discussion，查看是否有开发者报告标注录屏后 agent 成功定位并修复问题的可复现案例。
+  market: ''
+  job: 开发者在向编码 agent 描述界面缺陷或复现步骤时，用标注和录屏把问题材料整理成可发送的输入，以便 agent 定位并处理该问题。
+  job_en: Developers describing a UI defect or reproduction steps to a coding agent annotate and record
+    the problem material into a sendable input so the agent can locate and act on it.
+  pain: 用文字描述界面问题容易遗漏上下文，agent 需要多轮追问才能复现，开发者要反复补充截图和步骤。
+  pain_en: Describing UI problems in text easily loses context, so the agent needs repeated follow-ups
+    to reproduce, and the developer keeps adding screenshots and steps.
+  current_alternative: 旧做法是手写缺陷描述、截屏加文字标注，或直接口头向同事说明，再粘贴进对话。
+  current_alternative_en: The old way is to hand-write a defect description, screenshot with text annotations,
+    or explain verbally to a colleague, then paste it into the conversation.
+  usage_reason: 推断：相较手写描述加零散截图，它把标注和录屏合成一段可直接发送的材料，减少开发者反复补充复现步骤的那一步；需要向 agent 交代界面问题的开发者会因此选择它。
+  usage_reason_en: 'Inference: compared with hand-written descriptions plus scattered screenshots, it
+    combines markup and recording into one sendable piece, removing the step of repeatedly adding reproduction
+    details; developers who must explain UI issues to an agent would choose it for that reason.'
+- id: req-full-scrawl-2026-10-20
+  project_slug: scrawl
+  level: full
+  reviewed_at: '2026-10-20T01:45:20Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 现有证据全部指向同名 D&D 地图工具和词典释义，没有该产品的功能说明或用户材料，连它解决什么需求、什么痛点都无法从公开事实还原。
+    evidence_ids:
+    - ev-641eb0ff54121356
+    - ev-ac28f7744d0f9213
+    - ev-f4506c79b2389e03
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或代码仓库的 README 与 issue/discussion，确认其真实功能说明及是否有开发者报告标注录屏后 agent 成功定位问题的案例。
+  market: ''
+  job: 开发者在向编码 agent 描述界面缺陷或复现步骤时，用标注和录屏把问题材料整理成可发送的输入，以便 agent 定位并处理该问题。
+  job_en: Developers describing a UI defect or reproduction steps to a coding agent annotate and record
+    the problem material into a sendable input so the agent can locate and act on it.
+  pain: 公开证据中没有关于该产品用户痛点的任何材料；现有证据只涉及同名 D&D 地图工具和词典释义，无法确认开发者描述界面问题时存在何种具体负担。
+  pain_en: No public evidence describes this product's user pain; the available evidence concerns a same-named
+    D&D map tool and dictionary definitions, so no specific burden in describing UI issues to agents can
+    be confirmed.
+  current_alternative: 公开证据未记录开发者当前如何向编码 agent 转交界面问题材料，无法确认旧替代方式。
+  current_alternative_en: Public evidence does not record how developers currently hand UI problem material
+    to coding agents, so the prior alternative cannot be confirmed.
+  usage_reason: 公开证据无法归因到该产品，缺少产品页面、文档或用户反馈说明标注录屏相较旧做法减少哪一步负担，因此无法解释用户为何选择它。
+  usage_reason_en: Public evidence cannot be attributed to this product; there is no product page, documentation,
+    or user feedback showing which step annotation and recording remove versus the old approach, so why
+    users would choose it cannot be explained.

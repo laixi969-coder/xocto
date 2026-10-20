@@ -1,0 +1,93 @@
+- id: req-initial-tolan-snags-30m-for-its-ai-companion-that-helps-users-naviga-2026-10-20
+  project_slug: tolan-snags-30m-for-its-ai-companion-that-helps-users-naviga
+  level: initial
+  reviewed_at: '2026-10-20T01:06:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决孤独与情绪困扰时缺少随时倾诉对象的问题，旧替代明确，痛点真实。
+    evidence_ids:
+    - ev-ec68c77b1179f2b8
+  - gate: consensus
+    status: insufficient
+    reason: 有 25 万活跃用户，但无留存或复购证据，不能证明长期留在工作流。
+    evidence_ids:
+    - ev-ec68c77b1179f2b8
+  - gate: model
+    status: insufficient
+    reason: 可能为 to C 订阅，但定价与付费转化未披露，属判断非事实。
+    evidence_ids:
+    - ev-ec68c77b1179f2b8
+  - gate: truth
+    status: insufficient
+    reason: 陪伴类产品的情绪安全边界与人工介入机制未披露。
+    evidence_ids:
+    - ev-ec68c77b1179f2b8
+  next_validation: 收集 Tolan 官方定价页或应用商店订阅说明，核验其付费方式与订阅转化。
+  market: ''
+  job: 普通用户在情绪低落或需要梳理日常困惑时，与 AI 角色对话，要获得陪伴与思路整理。
+  job_en: Everyday users feeling low or sorting daily confusion talk with an AI character to get companionship
+    and clarity.
+  pain: 孤独或情绪困扰时缺少随时可用的倾诉对象，专业咨询成本高且需预约。
+  pain_en: Loneliness or emotional distress lacks an always-available listener, while professional counseling
+    is costly and requires appointments.
+  current_alternative: 向朋友倾诉、写日记或使用通用聊天机器人。
+  current_alternative_en: Talking to friends, journaling or using general chatbots.
+  usage_reason: 推断：有角色设定的陪伴产品比通用聊天机器人更持续地维持关系感，降低开口倾诉的心理门槛；25 万活跃用户是规模信号，但留存与付费动机未披露。
+  usage_reason_en: 'Inference: a character-driven companion sustains a sense of relationship better than
+    a general chatbot, lowering the barrier to opening up; 250,000 active users is a scale signal, but
+    retention and payment motives are undisclosed.'
+- id: req-full-tolan-snags-30m-for-its-ai-companion-that-helps-users-naviga-2026-10-20
+  project_slug: tolan-snags-30m-for-its-ai-companion-that-helps-users-naviga
+  level: full
+  reviewed_at: '2026-10-20T01:45:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决情绪低落或困惑时缺少随时可用的倾诉与梳理对象这一需求，痛点是即时陪伴与低门槛开口；旧替代为朋友、日记、付费咨询或通用聊天机器人，不解决则情绪无处安放。官网定位为倾听与引导的陪伴者，交付闭环可辨，属工作流结构推理。
+    evidence_ids:
+    - ev-384ab6a98b826fe5
+    - ev-36d5c9401d70d91b
+  - gate: consensus
+    status: insufficient
+    reason: 摘要称已有超 25 万活跃用户，属规模信号；但公开证据只有应用商店页与官网介绍，未见留存、复购或长期使用数据，无法证明用户已把它留在日常情绪处理流程中。
+    evidence_ids:
+    - ev-36d5c9401d70d91b
+    - ev-06ec19dabd482716
+  - gate: model
+    status: insufficient
+    reason: 钱可能来自 to C 订阅或应用内付费，但公开材料未披露定价页与付费转化，属判断而非已验证事实；另有 3000 万美元融资，需警惕以融资叙事替代用户付费路径。
+    evidence_ids:
+    - ev-36d5c9401d70d91b
+    - ev-543c620d6186130f
+  - gate: truth
+    status: insufficient
+    reason: 陪伴类产品贴近情绪支持的第一性目标，但公开材料未说明危机识别、人工转介与安全边界；承诺能否确定性交付、出问题时如何兜底仍缺公开依据。
+    evidence_ids:
+    - ev-384ab6a98b826fe5
+    - ev-543c620d6186130f
+  next_validation: 追踪 Tolan 官方定价页或 App Store 应用内购买说明，核验订阅价格、付费层级与是否披露留存或订阅转化数据。
+  market: ''
+  job: 普通用户在情绪低落、孤独或需要梳理日常困惑时，打开 Tolan 与有固定人设的 AI 角色对话，处理自己的情绪与生活困惑，要获得被倾听的陪伴感和可继续的思路。
+  job_en: When feeling low, lonely or sorting daily confusion, everyday users open Tolan and talk with
+    a persistent AI character about their emotions and life puzzles, seeking a sense of being heard and
+    a workable next step.
+  pain: 情绪低落时缺少随时可用的倾诉对象：朋友不一定在线，专业咨询价格高且需预约，写日记又缺少回应；公开材料把 Tolan 定位为帮助用户感到 grounded、inspired、connected
+    的倾听与引导者，说明痛点是即时陪伴与思路整理的可获得性。
+  pain_en: 'In low moments there is no always-available listener: friends may be offline, professional
+    counseling is costly and appointment-bound, and journaling gives no response; Tolan''s public positioning
+    as a listener and guide that helps users feel grounded, inspired and connected points to the pain
+    of unavailable, on-demand companionship and clarity.'
+  current_alternative: 向朋友或家人倾诉、写日记自我梳理、预约心理咨询，或使用 ChatGPT、Gemini 等通用聊天机器人临时对话。
+  current_alternative_en: Talking to friends or family, journaling alone, booking a counselor, or using
+    general chatbots such as ChatGPT and Gemini for ad-hoc conversation.
+  usage_reason: 推断：相较通用聊天机器人每次从零开始，Tolan 以固定角色人设和持续关系承接对话，减少用户重复交代背景、重新建立信任的那一步；相较朋友或咨询师，它随时可用且无社交负担，因此情绪低落又不想打扰他人、或暂时不愿付费咨询的用户会在当下选择它。公开材料未披露留存与付费动机，此为用户选择的结构推理。
+  usage_reason_en: 'Inference: unlike a general chatbot that starts from zero each time, Tolan carries
+    conversation through a persistent character and relationship, removing the step of re-explaining context
+    and rebuilding trust; versus friends or counselors it is always available with no social burden, so
+    users who feel low but do not want to bother others or pay for counseling would pick it in that moment.
+    Public materials do not disclose retention or payment motives; this is structural reason'

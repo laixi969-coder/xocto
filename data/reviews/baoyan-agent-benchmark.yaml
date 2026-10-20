@@ -91,3 +91,53 @@
   usage_reason_en: 'Inference: compared with judging by feel or reputation, it turns Baoyan advising and
     application-planning tasks into a unified evaluation, giving advisors or students a comparable basis
     for selection, so admissions practitioners concerned about agent reliability would check results first.'
+- id: req-full-baoyan-agent-benchmark-2026-10-20
+  project_slug: baoyan-agent-benchmark
+  level: full
+  reviewed_at: '2026-10-20T01:42:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决保研场景中 AI agent 建议质量难比较的需求，痛点是信息不对称、决策后果重且旧做法只能凭经验口碑判断；产品以统一评测集交付可比较结果，属工作流结构推理，评测任务是否贴近真实申请仍缺公开材料。
+    evidence_ids:
+    - ev-2d64a3e344f16404
+    - ev-b7ca558bd07279bf
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 336 增至 701，只能说明开发者关注度上升，不能证明学生或升学机构持续采用；缺少使用反馈、issue 讨论或客户案例来支撑共识。
+    evidence_ids:
+    - ev-2d64a3e344f16404
+    - ev-3dd474fb4cfa4154
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径；推断可能面向升学咨询机构或 agent 厂商，但这是判断而非已验证事实，公开材料未见采购或付费记录。
+    evidence_ids:
+    - ev-3f204f13f1300e76
+    - ev-c775d4fa900e6ad6
+  - gate: truth
+    status: insufficient
+    reason: 评测任务设计、评分可靠性与是否被实际用于 agent 选型均无公开材料支持；开源仓库本身可复现，但贴近保研第一性目标的程度尚未核验。
+    evidence_ids:
+    - ev-2d64a3e344f16404
+    - ev-c775d4fa900e6ad6
+  next_validation: 追踪该 公开代码仓库 仓库的公开 issue/discussion 与 README 更新，核验评测任务设计、评分方法及是否有升学机构公开说明将其用于 agent 选型。
+  market: ''
+  job: 保研申请学生或升学顾问在规划保研申请、准备材料时，面对多个 AI agent 给出的咨询与规划建议，需要判断哪一方的建议更可靠、能否依赖，于是用该开源基准测试对 agent 在保研咨询与申请规划任务上的表现做横向评测。
+  job_en: Baoyan applicants or admissions advisors planning applications and preparing materials face
+    advice from multiple AI agents and need to judge which advice is reliable enough to rely on, so they
+    use this open-source benchmark to compare agent performance on Baoyan advising and application-planning
+    tasks.
+  pain: 保研规划信息不对称、决策后果重，AI agent 给出的建议质量参差且缺少可比较的评测依据；不解决则只能凭个人经验、论坛帖子和机构口碑判断 agent 是否可信，选错建议的代价由学生承担。
+  pain_en: Baoyan planning has asymmetric information and high-stakes outcomes; AI agent advice varies
+    in quality and lacks a comparable evaluation basis. Without it, users can only judge agent credibility
+    by personal experience, forum posts and agency reputation, and students bear the cost of bad advice.
+  current_alternative: 靠个人经验、论坛帖子和咨询机构口碑判断 AI 建议是否可信，或直接试用单个 agent 凭感觉评估。
+  current_alternative_en: Judging AI advice credibility through personal experience, forum posts and consulting-firm
+    reputation, or trying a single agent and evaluating it by feel.
+  usage_reason: 推断：相较凭感觉逐个试用，它把保研咨询与申请规划任务整理成统一评测集，让顾问或学生在选型时拿到可横向比较的结果，减少反复试错和口碑猜测这一步负担，因此关注 agent 可靠性的升学从业者会先看评测结果。
+  usage_reason_en: 'Inference: rather than trying agents one by one by feel, it packages Baoyan advising
+    and application-planning tasks into a unified evaluation set, giving advisors or students comparable
+    results for selection and reducing trial-and-error and reputation guessing, so admissions practitioners
+    concerned about agent reliability would check the results first.'

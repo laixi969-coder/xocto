@@ -149,3 +149,54 @@
     deterministic linter that points to violations in one scan, removing the step of reading the whole
     text to find problems, so teams needing a fast compliance verdict at review time would try it first;
     this is an inference from product capability, not user feedback.
+- id: req-full-asd-ste100-skill-zh-2026-10-20
+  project_slug: asd-ste100-skill-zh
+  level: full
+  reviewed_at: '2026-10-20T01:42:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中文技术文档缺少受控语言规则集、人工逐句核对慢且结论难复现的问题，痛点刚性来自合规与安全文本的低歧义要求；买方尚不明确。
+    evidence_ids:
+    - ev-16510192fe78ca5a
+    - ev-3fb2282dcc9805c7
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 41 缓慢增至 57，属关注度而非采用证据，未见文档团队或企业使用的公开记录。
+    evidence_ids:
+    - ev-16510192fe78ca5a
+    - ev-eda5a8673bed142f
+    - ev-b10cc784b3ea88a3
+    - ev-3fb2282dcc9805c7
+    - ev-74ed1c27b2fc9fe2
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费路径或企业采购信息，钱可能来自文档团队订阅或企业定制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3fb2282dcc9805c7
+  - gate: truth
+    status: insufficient
+    reason: 规则覆盖范围、linter 准确率与人工复核边界均未在材料中说明，无法确认交付是否确定发生。
+    evidence_ids:
+    - ev-16510192fe78ca5a
+  next_validation: 收集该仓库的 README 与 issue/discussion，确认规则覆盖范围、linter 输出样例及是否有文档团队报告实际使用。
+  market: ''
+  job: 技术文档作者和本地化工程师在把英文受控技术写作规范落到中文说明书、维修手册或本地化稿件时，需要逐条核对用词、句长和歧义表达，产出一份可复核的合规检查结果。
+  job_en: Technical writers and localization engineers applying English controlled-language rules to Chinese
+    manuals, maintenance documents or localized drafts must check wording, sentence length and ambiguity
+    item by item and produce a reviewable compliance result.
+  pain: 受控语言规范条目多、人工逐句核对慢且容易漏，中文又没有现成的对应规则集，团队往往靠资深作者口头把关，评审结论难以复现。
+  pain_en: Controlled-language rules are numerous, manual sentence-by-sentence checking is slow and error-prone,
+    and no ready Chinese counterpart rule set exists, so teams rely on senior writers' verbal judgment
+    and review conclusions are hard to reproduce.
+  current_alternative: 现在多靠人工对照英文 STE 规范逐句改写，或使用通用拼写与风格检查工具，后者不理解受控语言的句长、单义动词等约束。
+  current_alternative_en: Today teams rewrite sentence by sentence against the English STE standard by
+    hand, or use generic spelling and style checkers that do not understand controlled-language constraints
+    such as sentence length and single-meaning verbs.
+  usage_reason: 相较人工逐句比对，它把规则固化成确定性 linter，一次扫描直接指出违规位置，省掉通读全文找问题的步骤，因此文档评审阶段需要快速出合规结论的团队会先试它；这是基于产品能力的推断，尚无用户反馈佐证。
+  usage_reason_en: Compared with manual sentence-by-sentence comparison, it hardcodes the rules into a
+    deterministic linter that points to violations in one scan, removing the step of reading the whole
+    text to find problems, so teams needing a fast compliance verdict at review time would try it first;
+    this is an inference from product capability, not user feedback.

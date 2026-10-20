@@ -21,7 +21,7 @@ canonical_url: https://wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?refl
 summary: The obscure trust looming over Anthropic's IPO
 first_seen: '2026-10-20T01:06:26Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

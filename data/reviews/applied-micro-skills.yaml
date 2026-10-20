@@ -1120,3 +1120,44 @@
     actions, reducing the burden of cell-by-cell debugging when table numbers disagree with regression
     output and making reproduction checkable by script; researchers writing empirical papers who repeatedly
     change specifications and regenerate tables would therefore choose it when altering models'
+- id: req-full-applied-micro-skills-2026-10-20
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-10-20T01:42:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认是否已有研究者报告复现审计或制表的实际使用结果。
+  market: ''
+  job: 应用微观经济学研究者（博士生、助理教授、RA）在拿到 WRDS 等受限数据后，用 Stata 做事件研究或回归，并把结果整理成可投稿的论文表格，同时要能复现每一个数字。
+  job_en: Applied micro researchers (PhD students, assistant professors, RAs) take restricted data such
+    as WRDS, run event studies or regressions in Stata, turn results into publication-grade tables, and
+    must be able to reproduce every number.
+  pain: 从原始数据到论文表要跨数据授权、清洗、回归、制表多道手工环节，任何一步脚本或版本不一致都会让复现失败；审稿与期刊复现要求会直接卡住发表。
+  pain_en: Going from raw data to paper tables crosses data licensing, cleaning, regression and table
+    formatting; any script or version mismatch breaks reproducibility, and referee or journal replication
+    checks can block publication.
+  current_alternative: 研究者自己写 Stata do 文件、手工整理 LaTeX 表、靠个人笔记和邮件传递复现步骤，或使用现成的复现包模板。
+  current_alternative_en: Researchers write their own Stata do-files, format LaTeX tables by hand, pass
+    replication steps through personal notes and email, or start from existing replication-package templates.
+  usage_reason: 推断：它把复现审计、事件研究、WRDS/Stata 调用和出版级表格封装成 Claude Code/Codex 可直接调用的技能，减少研究者逐条重写脚本和手工对表的一步；当研究者需要在投稿前自查复现或接手他人数据时，会倾向选择它。
+  usage_reason_en: 'Inference: it packages reproducibility auditing, event studies, WRDS/Stata calls and
+    publication-grade tables as skills callable from Claude Code/Codex, removing the step of rewriting
+    scripts line by line and hand-checking tables; researchers facing a pre-submission replication check
+    or inheriting someone else''s data would be inclined to use it.'

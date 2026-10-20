@@ -1,6 +1,6 @@
 ---
 slug: huggingface-transformers-patch-release-v5202
-name: 'huggingface/transformers: Patch release v5.20.2'
+name: Transformers
 builder: huggingface
 category: ''
 summary_zh: ''
@@ -27,7 +27,7 @@ summary: "# Patch release: v5.20.2\r\n\r\nThis patch notably solves an issue whe
   \ \r\n- Avoid a host-to-device copy in eager_mask (#49684) by @hmellor"
 first_seen: '2026-10-20T01:06:30Z'
 last_seen: '2026-10-20T01:06:30Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -39,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# huggingface/transformers: Patch release v5.20.2
+# Transformers
 
 # Patch release: v5.20.2
 

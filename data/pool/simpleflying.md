@@ -21,7 +21,7 @@ canonical_url: https://simpleflying.com/chicago-ohare-digs-up-50-ton-boulder-pub
 summary: Chicago O'Hare digs up 50-ton boulder under airfield, asks public for name ideas
 first_seen: '2026-10-20T01:06:26Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

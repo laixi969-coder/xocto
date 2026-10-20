@@ -1,0 +1,85 @@
+- id: req-initial-laminar-yc-s24-2026-10-20
+  project_slug: laminar-yc-s24
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体失败后难定位错误步骤的问题，旧做法是人工读日志回放。
+    evidence_ids:
+    - ev-90f77cd5201e70b6
+  - gate: consensus
+    status: insufficient
+    reason: 只有社区讨论，没有客户采用或团队工作流留存的公开证据。
+    evidence_ids:
+    - ev-90f77cd5201e70b6
+  - gate: model
+    status: insufficient
+    reason: 买方为开发团队，但定价与收费方式未在材料中披露。
+    evidence_ids:
+    - ev-90f77cd5201e70b6
+  - gate: truth
+    status: insufficient
+    reason: 错误检测准确率与人工确认边界缺少可核验材料。
+    evidence_ids:
+    - ev-90f77cd5201e70b6
+  next_validation: 收集 Laminar 官方文档或定价页，核验其错误检测的接入方式、准确率说明与收费模式。
+  market: ''
+  job: AI 应用开发者在智能体任务失败后，需要从冗长的执行轨迹里找出是哪一步出错，才能修复并重新上线。
+  job_en: After an agent task fails, AI application developers need to find which step went wrong in a
+    long execution trace so they can fix it and redeploy.
+  pain: 轨迹长、步骤多，人工逐条读日志定位错误耗时且容易漏掉根因。
+  pain_en: Traces are long and multi-step, so reading logs line by line to locate errors is slow and easily
+    misses the root cause.
+  current_alternative: 开发者靠日志检索、可观测平台和人工回放轨迹排查。
+  current_alternative_en: Developers rely on log search, observability platforms and manual trace replay
+    to investigate.
+  usage_reason: 推断：Laminar 用训练过的模型直接标出轨迹中的错误步骤，省去开发者逐条读日志的定位环节，因此被长轨迹排障拖住的团队会试用；是否持续使用缺少留存证据。
+  usage_reason_en: 'Inference: Laminar uses a trained model to flag the erroneous step in a trace directly,
+    skipping the manual log-reading step, so teams stuck debugging long traces would try it; there is
+    no retention evidence for continued use.'
+- id: req-full-laminar-yc-s24-2026-10-20
+  project_slug: laminar-yc-s24
+  level: full
+  reviewed_at: '2026-10-20T01:44:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体失败后难定位错误步骤的问题，痛点是长轨迹人工回放耗时且易漏根因，旧做法是日志检索与人工回放；交付为标出错误位置，属工作流结构推理，付费方未明。
+    evidence_ids:
+    - ev-a9226009b0178ff9
+    - ev-b73a2272f8696711
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官网自述的追踪、评估与调试能力，未发现客户采用、团队工作流留存或公开评价，强场景可判但采用共识未核验。
+    evidence_ids:
+    - ev-a9226009b0178ff9
+  - gate: model
+    status: insufficient
+    reason: 买方可能是使用智能体的开发团队，但材料未披露定价、收费方式或采购记录，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-699869717d36b5ca
+  - gate: truth
+    status: insufficient
+    reason: 错误检测准确率、人工确认边界与接入流程缺少可核验材料，无法确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-7438c94a89ac80bc
+  next_validation: 追踪 Laminar 官方文档与定价页，核验错误检测的接入方式、准确率说明与收费模式。
+  market: ''
+  job: 构建智能体应用的开发者在智能体任务失败后，把冗长的执行轨迹交给 Laminar，要定位到具体出错步骤，再人工确认并修复后重新上线。
+  job_en: After an agent task fails, developers building agent applications feed the long execution trace
+    to Laminar to locate the specific failing step, then manually confirm and fix it before redeploying.
+  pain: 智能体轨迹步骤多、链路长，人工逐条读日志回放定位根因耗时且容易漏掉真正出错的那一步。
+  pain_en: Agent traces are long and multi-step; reading logs line by line to replay and locate the root
+    cause is slow and easily misses the actual failing step.
+  current_alternative: 开发者靠日志检索、通用可观测平台和人工回放轨迹排查错误。
+  current_alternative_en: Developers rely on log search, general observability platforms and manual trace
+    replay to investigate errors.
+  usage_reason: 推断：Laminar 用训练过的模型直接标出轨迹中的错误位置，省去开发者逐条读日志的定位环节，因此被长轨迹排障拖住的团队会在任务失败时试用；是否长期留在工作流缺少留存证据。
+  usage_reason_en: 'Inference: Laminar uses a trained model to flag the erroneous position in a trace
+    directly, skipping the manual log-reading step, so teams stuck debugging long traces would try it
+    when a task fails; there is no retention evidence for long-term workflow use.'

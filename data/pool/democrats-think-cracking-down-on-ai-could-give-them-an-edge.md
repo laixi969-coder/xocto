@@ -27,7 +27,7 @@ summary: 'Democrats could win back control of Congress this November, and if the
   take over, allowing them to call CEOs to … Read the full story at The Verge.'
 first_seen: '2026-10-20T01:06:54Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

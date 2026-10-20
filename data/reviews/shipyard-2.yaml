@@ -82,3 +82,48 @@
   usage_reason_en: Without first-party pages, docs or user feedback, it is impossible to say which step
     it removes versus the old approach; all current evidence is unrelated same-name pages and cannot support
     a usage reason.
+- id: req-full-shipyard-2-2026-10-20
+  project_slug: shipyard-2
+  level: full
+  reviewed_at: '2026-10-20T01:45:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多编码代理并行时分支、终端与自动化分散、需手工切换核对的需求，旧做法是多终端加手工 worktree 与脚本，痛点具体且交付闭环可还原；此为工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-de3afd4a6af6bfc2
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库 324 星，属关注度而非持续采用；未见开发者把它留在工作流的评价或案例，强场景只能从任务结构推断。
+    evidence_ids:
+    - ev-de3afd4a6af6bfc2
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页或付费路径，买方与收费方式不明；这是判断不是已验证事实，不因此取消真需求。
+    evidence_ids:
+    - ev-de3afd4a6af6bfc2
+  - gate: truth
+    status: insufficient
+    reason: 未见代理运行结果的可复现实测、部署文档或安全与人工确认边界说明，承诺能否确定性交付仍缺证据。
+    evidence_ids:
+    - ev-de3afd4a6af6bfc2
+  next_validation: 追踪该仓库的 issue 与 discussion，查看开发者对多代理编排实际使用、故障与人工确认环节的公开反馈。
+  market: ''
+  job: 开发者在本地开发机上同时运行多个编码代理时，打开桌面应用，处理多个 git worktree、终端会话与自动化任务，要完成统一编排、切换和查看各代理产出结果的任务。
+  job_en: When running multiple coding agents on a local dev box, developers open the desktop app to handle
+    multiple git worktrees, terminal sessions and automation tasks, aiming to orchestrate, switch between
+    and review each agent's output in one place.
+  pain: 多个编码代理并行时，分支、终端和自动化分散在不同窗口，开发者需手工切换与核对，容易漏掉某个代理的产出或产生冲突；这是从产品能力与任务结构推出的痛点，尚无用户抱怨原文。
+  pain_en: With parallel coding agents, branches, terminals and automations scatter across windows, forcing
+    manual switching and checking and risking missed outputs or conflicts; this is inferred from product
+    capability and task structure, not from user complaints.
+  current_alternative: 开发者目前靠多个终端窗口、手工 git worktree 和自写脚本拼凑，或干脆只跑单个代理。
+  current_alternative_en: Developers currently stitch together multiple terminal windows, manual git worktrees
+    and self-written scripts, or simply run a single agent.
+  usage_reason: 推断：相较多窗口加手工 worktree 的旧做法，它把分支、终端与自动化收进一个桌面应用统一编排，减少开发者在窗口间切换和手工核对代理产出的步骤，因此并行跑多个代理、任务变多的开发者会在需要集中查看结果时选择它；尚无用户反馈或留存证据。
+  usage_reason_en: 'Inference: versus multi-window plus manual worktree practice, it consolidates branches,
+    terminals and automations into one desktop app for orchestration, cutting window switching and manual
+    output checking, so developers running several parallel agents may choose it when they need centralized
+    result review; no user feedback or retention evidence yet.'

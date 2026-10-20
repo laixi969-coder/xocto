@@ -1,0 +1,84 @@
+- id: req-initial-doone-2026-10-20
+  project_slug: doone
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决开发者专注与任务关联的问题，但材料只有一句功能描述，未说明具体痛点与不采用的后果，价值结构尚不清晰。
+    evidence_ids:
+    - ev-a92632b07e3bebbb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页信息，无用户评价、采用或社区讨论证据，无法判断场景共识。
+    evidence_ids:
+    - ev-a92632b07e3bebbb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱从 to C 还是 to B 来，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a92632b07e3bebbb
+  - gate: truth
+    status: insufficient
+    reason: 无法确认 AI 是否真正参与任务处理，还是仅为计时器外壳，交付确定性未明。
+    evidence_ids:
+    - ev-a92632b07e3bebbb
+  next_validation: 收集 DoOne 官方产品页或文档，确认 AI 在任务与计时流程中具体执行什么动作、交付什么结果。
+  market: ''
+  job: 开发者在处理 公开代码仓库 或 GitLab 上的任务时，用专注计时器把待办与代码平台关联，完成一段可计时的专注工作。
+  job_en: Developers working through public code repository or GitLab tasks use a focus timer linked to
+    their code platform to complete a timed focus session.
+  pain: 候选材料未说明具体痛点，只能推断开发者存在任务切换与专注被打断的问题，但缺少用户反馈或案例支持。
+  pain_en: The candidate states no specific pain; one can only infer developers face task switching and
+    interrupted focus, without user feedback or cases to support it.
+  current_alternative: 开发者目前多用通用番茄钟、系统计时器或手动记录时间，与代码平台分离。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 推断：相较通用计时器，DoOne 把计时与 公开代码仓库、GitLab 任务直接关联，省去手动对照任务与时间的一步；但材料未说明 AI 在其中做了什么，也未提供留存或重复使用证据，因此无法确认用户会持续选择它。
+  usage_reason_en: 'Inference: versus generic timers, DoOne links timing directly to public code repository
+    and GitLab tasks, removing the manual step of matching tasks to time; but the material does not say
+    what AI does here, nor offer retention or repeat-use evidence, so continued adoption cannot be confirmed.'
+- id: req-full-doone-2026-10-20
+  project_slug: doone
+  level: full
+  reviewed_at: '2026-10-20T01:43:04Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图把专注计时与 公开代码仓库/GitLab 待办绑定，但公开材料只有一句功能描述，未说明具体痛点、不采用后果与交付形态；计时器加集成属于“没有也行”的辅助工具，价值刚性不足。
+    evidence_ids:
+    - ev-a92632b07e3bebbb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 DoOne 官方产品页或文档，确认 AI 在任务与计时流程中具体执行什么动作、交付什么结果，以及是否披露定价或客户案例。
+  market: ''
+  job: 开发者在处理 公开代码仓库 或 GitLab 上的待办任务时，打开 DoOne 把任务与专注计时绑定，按番茄钟节奏推进，最终得到一段被计时的专注记录。
+  job_en: Developers working through public code repository or GitLab tasks open DoOne to bind a task
+    to a focus timer, work in pomodoro-style intervals, and end with a timed focus record.
+  pain: 公开材料只有一句“带集成的专注计时器”，未说明开发者具体哪里难受、不采用会失去什么；只能推断存在任务切换与专注被打断，但无用户反馈或案例支持。
+  pain_en: The only public fact is a one-line description of a focus timer with integrations; it does
+    not state what specifically hurts or what is lost without it. Task-switching and interrupted focus
+    are inferred, with no user feedback or cases.
+  current_alternative: 开发者目前多用通用番茄钟、系统计时器或手动记录时间，与代码平台分离；公开材料未展示 DoOne 用户实际替换了什么。
+  current_alternative_en: Developers today mostly use generic pomodoro apps, system timers, or manual
+    time logging separate from code platforms; public material does not show what DoOne users actually
+    replace.
+  usage_reason: 推断：相较通用计时器，DoOne 把计时与 公开代码仓库/GitLab 任务直接关联，省去手动对照任务与时间的一步；但材料未说明 AI 具体做了什么，也无留存或重复使用证据，仅凭“计时器加集成”难以证明用户会持续选择它。
+  usage_reason_en: 'Inference: versus generic timers, DoOne links timing directly to public code repository/GitLab
+    tasks, removing the manual step of matching tasks to time; but the material does not say what AI does,
+    and there is no retention or repeat-use evidence, so a timer plus integrations alone does not show
+    users would keep choosing it.'

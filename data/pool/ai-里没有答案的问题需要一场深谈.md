@@ -38,7 +38,7 @@ summary: 去年，极客公园创新大会第一次办起「小场深谈」。�
   的兴趣，能有多大的想象空间？
 first_seen: '2026-10-20T01:06:54Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

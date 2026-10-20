@@ -85,3 +85,48 @@
     and screening into one programmable call, removing the step of stitching sources and writing parsers,
     so developers and researchers scripting strategies or querying Indonesian stocks via AI agents would
     pick it when they need fast data access.'
+- id: req-full-idx-2026-10-20
+  project_slug: idx
+  level: full
+  reviewed_at: '2026-10-20T01:43:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决印尼股市数据分散、缺少免 key 可编程统一入口的需求，痛点具体且刚性；但数据来源、更新频率与筛选口径未披露，交付确定性仍待核验，属工作流结构推理。
+    evidence_ids:
+    - ev-b51aed76b819b855
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅见项目发布与检索覆盖，未见用户评价、客户案例或持续采用证据，无法确认已形成使用共识。
+    evidence_ids:
+    - ev-b51aed76b819b855
+  - gate: model
+    status: insufficient
+    reason: 产品免费且无需 API key，未见定价或付费路径；买方可能是散户订阅或券商数据采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-b51aed76b819b855
+  - gate: truth
+    status: insufficient
+    reason: 未披露数据授权、更新频率与准确性，金融数据对真实性和时效要求高，交付边界不清。
+    evidence_ids:
+    - ev-b51aed76b819b855
+  next_validation: 追踪该项目 公开代码仓库 仓库 README 与 CHANGELOG，核验数据来源、更新频率及是否获得交易所或数据商授权。
+  market: ''
+  job: 关注印尼股市的散户投资者或量化研究员，在需要查 IHSG 行情、看个股基本面或按条件筛选标的时，通过网页终端、命令行或 AI 代理的 MCP 接口提交查询，拿到价格、基本面与筛选结果。
+  job_en: Retail investors or quant researchers following Indonesian equities query IHSG prices, per-stock
+    fundamentals or screen stocks through a web terminal, CLI or AI-agent MCP interface, and receive prices,
+    fundamentals and screening results.
+  pain: 印尼股市数据分散在券商终端、交易所页面和零散财经网站，缺少免 API key、可被脚本或 AI 代理直接调用的统一入口，手动跨源查询和拼接数据费时。
+  pain_en: Indonesian market data is scattered across broker terminals, exchange pages and ad-hoc finance
+    sites, with no key-free unified entry point callable by scripts or AI agents, making manual cross-source
+    lookup and stitching slow.
+  current_alternative: 券商自带终端、交易所或财经网站逐页查询，或自行抓取网页数据并写解析脚本。
+  current_alternative_en: Broker-provided terminals, exchange or finance websites queried page by page,
+    or self-built web scraping with custom parsers.
+  usage_reason: 推断：相较逐页查网站或自建抓取，它把价格、基本面与筛选封装成一次可编程调用，省去拼接数据源和写解析脚本这一步，因此写策略脚本或让 AI 代理查印尼股的开发者与研究员会在需要快速取数时优先试用。
+  usage_reason_en: 'Inference: versus page-by-page sites or self-built scraping, it wraps prices, fundamentals
+    and screening into one programmable call, removing the step of stitching sources and writing parsers,
+    so developers and researchers scripting strategies or querying Indonesian stocks via AI agents would
+    try it first when they need fast data access.'

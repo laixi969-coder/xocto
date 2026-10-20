@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/jeff-1-0-large
 summary: Calibrated decision model - state+question to probabilities
 first_seen: '2026-10-20T01:06:53Z'
 last_seen: '2026-10-20T01:06:53Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

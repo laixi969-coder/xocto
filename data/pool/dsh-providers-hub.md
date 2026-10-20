@@ -22,7 +22,7 @@ summary: 'deepseek-harness plugin: sign in and manage accounts across multiple A
   multi-account pools and silent credential refresh'
 first_seen: '2026-10-20T01:06:30Z'
 last_seen: '2026-10-20T01:06:30Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

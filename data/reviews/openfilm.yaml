@@ -286,3 +286,52 @@
     a user changing one segment need not rerun the whole generation; short-video or ad creators who iterate
     on drafts would try it first inside an existing coding-agent setup. Public materials provide no user
     feedback or finished-film cases, so this motive is structural reasoning.'
+- id: req-full-openfilm-2026-10-20
+  project_slug: openfilm
+  level: full
+  reviewed_at: '2026-10-20T01:44:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决脚本到成片之间缺少可回改中间层、改一处要重跑整段的需求；旧替代是生成工具加人工剪辑或手工拼接，不解决则反复改稿成本高。这是从产品输入—动作—交付闭环作出的工作流结构推理，非用户采用事实。
+    evidence_ids:
+    - ev-e59bf75dcf73db95
+    - ev-d9c4676cf95ee7b1
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有官网与 README 的功能说明，未见创作者评价、成片案例或重复使用证据，无法判断是否被持续留在工作流里。
+    evidence_ids:
+    - ev-b13a0a580a442e14
+    - ev-2a36e8d760887887
+  - gate: model
+    status: insufficient
+    reason: 项目 MIT 开源且免费，智能体与媒体服务按用户自有套餐和密钥计费，OpenFilm 自身无收费路径；谁付钱给项目方未核验，这是判断不是事实。
+    evidence_ids:
+    - ev-a9ef65d51b8ac1d1
+    - ev-ccc5825f98fbf283
+  - gate: truth
+    status: insufficient
+    reason: 未核验生成质量、可编辑粒度与人工确认边界，交付能否确定性发生缺少公开材料；仅凭功能说明不能证明成片可用。
+    evidence_ids:
+    - ev-31d649421af14235
+    - ev-64cdc36ba23d5294
+  next_validation: 追踪 openfilm 公开代码仓库 仓库的 issue 与 discussion，确认生成片段的可编辑粒度、实际成片案例与用户反馈。
+  market: ''
+  job: 使用 Codex、Claude Code 等编码代理的创作者或剪辑师，在已有代理工作环境里把脚本或素材交给代理，让代理把片子写成网页，再在浏览器本地 Studio 中逐段查看并修改，最终得到可交付的视频。
+  job_en: Creators or editors already using coding agents such as Codex or Claude Code hand a script or
+    footage to the agent, which writes the film as web pages; they then watch and revise it segment by
+    segment in the local browser Studio to produce a deliverable video.
+  pain: 生成式视频工具通常只给一次性结果，改一处就要重跑整段，脚本到成片之间缺少可回改的中间层；创作者反复改稿时承担重复生成成本。
+  pain_en: Generative video tools usually return one-shot results, so changing one part means rerunning
+    the whole clip; there is no revisable middle layer between script and finished cut, and creators pay
+    repeated generation costs when iterating.
+  current_alternative: Runway、可灵等生成工具配合人工剪辑软件，或让编码代理写脚本再手工拼接成片。
+  current_alternative_en: Generation tools such as Runway or Kling combined with manual editing software,
+    or having a coding agent write scripts and stitching the output by hand.
+  usage_reason: 推断：openfilm 把代理产出保留为可逐段编辑的网页，Studio 实时显示成形过程，用户改一处只需在编辑器里动手或对代理说，而不必重跑整段生成；因此需要反复改稿的短视频或广告创作者会在已有编码代理的情况下先试它。
+  usage_reason_en: 'Inference: openfilm keeps agent output as segment-editable web pages and Studio shows
+    the film forming in real time, so a single change is made in the editor or by telling the agent rather
+    than rerunning a whole generation; short-video or ad creators who iterate on drafts would try it first
+    when already using a coding agent.'

@@ -1566,3 +1566,52 @@
     and command list context composition and compression/pruning events directly, cutting the step of
     locating where information was lost, so developers debugging long sessions or sensitive to context
     will choose it when tracking down forgotten facts.'
+- id: req-full-dsh-context-2026-10-20
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-10-20T01:43:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话中上下文组成与压缩不可见的问题，痛点是在关键任务上悄悄丢失约束、只能靠输出异常反推；公开材料显示同生态已有上下文裁剪插件，说明该工作流真实存在，但本产品自身用户反馈缺失，判断属工作流结构推理。
+    evidence_ids:
+    - ev-333213b9c3e46874
+    - ev-ef4881db8cf0e1cc
+  - gate: consensus
+    status: insufficient
+    reason: 仅见同生态 dsh-sieve 与 dsh-tool-todo-plus 的星数增长，属相邻产品关注度，不能归因为本插件的采用；本产品无独立星数、下载、评价或案例，无法判断开发者是否把它留在工作流。
+    evidence_ids:
+    - ev-333213b9c3e46874
+    - ev-251b9791d1b92ac8
+  - gate: model
+    status: insufficient
+    reason: 未见定价页、付费主体或赞助渠道，插件形态下钱可能来自个人开发者捐赠或生态方，但均为判断而非已验证事实；买方与单位经济尚不可核。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 公开材料只有功能描述，缺少部署文档、可复现实测与安全边界说明，无法确认面板展示与实际压缩事件一致、承诺能否确定性交付。
+    evidence_ids:
+    - ev-333213b9c3e46874
+  next_validation: 追踪 dsh-context 在 npm 的独立页面与仓库 issue/discussion，确认是否有开发者报告实际用它排查上下文丢失，以及是否出现定价或赞助入口。
+  market: ''
+  job: 使用 DeepSeek Harness 进行长会话或多轮工具调用的开发者，在上下文被压缩、剪枝或工具输出挤占时，需要查看当前上下文由哪些消息、工具结果和技能说明组成，以及哪些内容被丢弃，从而判断关键信息是否还在、要不要补回或调整。
+  job_en: Developers running long or tool-heavy DeepSeek Harness sessions need to inspect what messages,
+    tool outputs and skill instructions currently make up the context, and what was dropped during compaction
+    or pruning, so they can judge whether key facts survived and whether to restore or adjust them.
+  pain: 长会话中上下文压缩与剪枝是隐式发生的，开发者看不到组成与演进，只能凭模型输出异常反推，容易在关键任务上悄悄丢失约束或事实，排查成本高。
+  pain_en: Compaction and pruning happen implicitly in long sessions; developers cannot see composition
+    or evolution and can only infer from degraded model output, so constraints or facts can silently vanish
+    on important tasks and debugging is costly.
+  current_alternative: 当前替代是阅读原始会话日志、手动统计 token、凭模型回答异常猜测，或安装 dsh-sieve 这类侧重裁剪与节省的插件，但后者解决的是压缩而非透视。
+  current_alternative_en: Today developers read raw session logs, manually estimate tokens, guess from
+    degraded answers, or install pruning-oriented plugins such as dsh-sieve, which optimize size rather
+    than provide visibility.
+  usage_reason: 推断：相较翻日志和猜，该插件把上下文组成、压缩与剪枝事件直接呈现为面板和命令，省去手工还原这一步，使开发者在长任务出错时能先核对上下文再改提示或配置；同生态 dsh-sieve
+    已有 109 星，说明该工作流存在关注，但本产品自身的使用与留存尚无公开证据。
+  usage_reason_en: 'Inference: instead of grepping logs and guessing, the plugin surfaces context composition
+    and compaction/pruning events as a panel and command, removing the manual reconstruction step so developers
+    can check context before editing prompts or config when a long task misbehaves; sibling dsh-sieve
+    at 109 stars shows workflow attention, but this product''s own usage and retention are not publicly
+    evidenced.'

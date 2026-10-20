@@ -22,7 +22,7 @@ summary: 'AEiC 2027 submissions welcome: International Conference on Reliable So
   Berlin datensicherheit.de'
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

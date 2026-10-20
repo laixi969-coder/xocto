@@ -22,7 +22,7 @@ summary: 'I am not a robot — a captcha solver for macOS: local model, Gemini v
   for checkbox captchas, RuCaptcha as the last resort. 2Captcha-compatible API and an MCP server.'
 first_seen: '2026-10-20T01:06:30Z'
 last_seen: '2026-10-20T01:06:30Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -24,7 +24,7 @@ summary: AI labs have staked their reputations on model benchmarking — the sup
   Face’s chief policy officer, during a discussion at TechCrunch […]
 first_seen: '2026-10-20T01:06:54Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

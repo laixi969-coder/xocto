@@ -122,3 +122,48 @@
     the old approach or which checkable result it improves; the repo only organizes material under thematic
     titles with borderline erotic content, so it is hard to say which users would choose it and when,
     suggesting novelty value rather than a stable workflow need.'
+- id: req-full-ai-voice-breath-kiss-water-3-2026-10-20
+  project_slug: ai-voice-breath-kiss-water-3
+  level: full
+  reviewed_at: '2026-10-20T01:41:59Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决角色语音缺少呼吸与停顿的自然度问题，但公开材料只有主题式标题和星数，未说明旧流程、卡点与不解决的后果；素材合集形态下，用户不用它也几乎无损失，属自嗨拼凑，价值关不成立。
+    evidence_ids:
+    - ev-67450b11fc76e7cd
+    - ev-a20d41b41e9e66a6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库 README 与 issue/discussion 是否补充输入格式、生成流程与产出音频样例，以核验其是否为可确定交付的工具而非素材合集。
+  market: ''
+  job: 做 AI 陪伴角色语音的创作者，在给角色录制或合成台词时，处理台词文本以及呼吸、喘息、重复念白等声音细节，最终要交付可直接用于角色语音的音频片段。
+  job_en: Creators producing AI companion character voices handle dialogue text plus breath, gasps and
+    repeated lines when recording or synthesizing lines, and need to deliver audio clips usable directly
+    as character voice.
+  pain: 公开材料只给出“气贴着话、床上的喘和响动、一句念两遍”这类素材主题，没有说明创作者此前卡在哪一步、不解决会失去什么；从结构上看，通用 TTS 念白偏平、缺少呼吸与停顿，需要人工补录或剪辑，但这是工作流推理，不是用户陈述。
+  pain_en: Public material only gives thematic labels such as breath against speech, bed gasps and repeated
+    lines; it does not say where creators previously got stuck or what is lost if unsolved. Structurally,
+    generic TTS delivery is flat and lacks breath and pauses, requiring manual re-recording or editing,
+    but this is workflow inference, not user statement.
+  current_alternative: 候选未提供替代做法；按常见做法推断，创作者会用通用 TTS 生成干声，再人工剪辑、拼接呼吸与停顿，或用真人补录，这属于推断而非材料事实。
+  current_alternative_en: The candidate gives no alternative practice; by common practice, creators would
+    use generic TTS for dry voice and then manually edit and splice breath and pauses, or re-record with
+    a human, which is inference rather than material fact.
+  usage_reason: 无法给出因果解释：材料没有说明它相较通用 TTS 加人工剪辑减少了哪一步负担，也没有可核对的交付结果或用户反馈；仓库仅以主题式标题组织素材，更像内容合集而非可确定交付的工具，因此推断创作者缺少选择它的具体理由。
+  usage_reason_en: 'No causal reason can be given: the material does not say which step it removes versus
+    generic TTS plus manual editing, nor any checkable delivery result or user feedback; the repository
+    organizes material under thematic titles, resembling a content collection rather than a tool with
+    deterministic delivery, so by inference creators lack a concrete reason to choose it.'

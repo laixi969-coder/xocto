@@ -83,3 +83,47 @@
   usage_reason_en: 'Inference: it gathers scene generation, timeline, narration and subtitles into one
     local workspace, removing cross-tool export/import and cloud upload steps, so creators with many assets
     who value local processing and privacy would choose it for one-stop finishing.'
+- id: req-full-frameweaver-2026-10-20
+  project_slug: frameweaver
+  level: full
+  reviewed_at: '2026-10-20T01:43:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频创作者把生成、剪辑、旁白与字幕分散在多个工具、素材反复搬运对齐的需求，痛点来自流程割裂且不解决会持续增加时间与素材管理成本；这是基于功能边界的工作流推理，尚无用户抱怨原文。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数从 59 增至 62，属于关注度而非持续采用；缺少用户评价、issue 讨论或客户案例说明创作者是否真的把它放进工作流。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+    - ev-9b0e356db413e85d
+  - gate: model
+    status: insufficient
+    reason: 公开材料只显示为开源仓库，未见定价页、赞助、商业授权或企业采购路径，谁付费与如何收费均未披露；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  - gate: truth
+    status: insufficient
+    reason: 公开说明列出场景生成、时间线、语音分析与混音等能力，但未见生成质量、支持格式、部署要求或成片效果的公开材料，交付确定性无法核对。
+    evidence_ids:
+    - ev-4bbafcb8f7280a33
+  next_validation: 追踪该 公开代码仓库 仓库的 issue 与 README/文档更新，核对生成质量、支持格式、本地部署要求及用户实际使用反馈。
+  market: ''
+  job: 视频创作者在本地工作区处理拍摄或生成的素材，把 AI 场景生成、时间线剪辑、旁白、字幕与混音串成一条流程，最终导出成片。
+  job_en: Video creators process shot or generated footage in a local workspace, chaining AI scene generation,
+    timeline editing, narration, subtitles and audio mixing into one flow, and export a finished video.
+  pain: 公开说明显示生成、剪辑、配音、字幕与混音被拆在不同工具里，创作者需要在多个软件间反复导出导入素材并手工对齐音画与字幕，素材管理成本高；这是从功能边界作出的工作流推理，尚无用户抱怨原文。
+  pain_en: The public description shows generation, editing, dubbing, subtitles and mixing split across
+    tools, forcing repeated export/import and manual alignment of audio, video and subtitles; this is
+    workflow inference from feature boundaries, not quoted user complaints.
+  current_alternative: 通用剪辑软件（如 Premiere、DaVinci）搭配独立的 AI 生成工具、配音工具和字幕工具，手动搬运与对齐素材。
+  current_alternative_en: A general editor (e.g. Premiere, DaVinci) plus separate AI generation, dubbing
+    and subtitle tools, with assets moved and aligned by hand.
+  usage_reason: 推断：它把生成、剪辑、旁白与字幕收进同一本地工作区，减少跨工具导出导入和手工对齐这一步，因此素材多、希望少切换工具且在意本地处理的创作者会在这种情况下选用它；目前无用户反馈证实该动机。
+  usage_reason_en: 'Inference: it puts generation, editing, narration and subtitles in one local workspace,
+    removing cross-tool export/import and manual alignment, so creators with many assets who want fewer
+    tool switches and local processing would choose it; no user feedback yet confirms this motive.'

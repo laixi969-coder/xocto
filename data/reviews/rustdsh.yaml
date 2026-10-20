@@ -421,3 +421,53 @@
     setup, command entry and guarded tools into one start, cutting reconfiguration when switching tools
     and routing writes through guardrails, so developers migrating to DeepSeek Harness who care about
     local control would try it.'
+- id: req-full-rustdsh-2026-10-20
+  project_slug: rustdsh
+  level: full
+  reviewed_at: '2026-10-20T01:45:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在本地用 DSH 跑 agent 任务时的启动与迁移摩擦：模型配置、命令执行和受约束工具调用分散，旧做法要手工拼接。公开说明给出输入、动作与本地面板交付闭环，痛点刚性来自
+      agent 工具迁移成本，属工作流结构推理，尚无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-b367e9185c1b713f
+    - ev-bc5d78348ac2cceb
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 73 升至 89，说明有开发者关注，但这是关注度而非持续采用；公开材料没有 issue、讨论或使用反馈说明谁在什么场景长期使用，强场景共识尚未形成。
+    evidence_ids:
+    - ev-b367e9185c1b713f
+    - ev-bc5d78348ac2cceb
+  - gate: model
+    status: insufficient
+    reason: 这是开源仓库，公开材料未见定价、赞助、企业支持或采购路径，谁付钱无法判断；开源维护者可获声誉或咨询，但属推断，不是已验证收入。
+    evidence_ids:
+    - ev-b367e9185c1b713f
+  - gate: truth
+    status: insufficient
+    reason: 公开说明提到受约束 agent 工具与本地面板，但缺少部署文档、权限边界说明和可复现实测，无法确认工具调用的人工确认与安全边界能否稳定交付。
+    evidence_ids:
+    - ev-b367e9185c1b713f
+  next_validation: 追踪 rustdsh 仓库的 issue 与 discussion，确认开发者实际部署场景、迁移自哪些旧工具，以及受约束工具调用的人工确认与安全边界如何落地。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者，在本地项目目录中启动 agent 会话时，需要把命令行指令、模型配置和受约束的工具调用串成一次可执行的开发任务，并在本地面板查看执行结果。
+  job_en: Developers using DeepSeek Harness start an agent session in a local project directory and need
+    to chain CLI commands, model setup and guarded tool calls into one executable development task, then
+    inspect results in a local dashboard.
+  pain: 公开说明强调“快速 Rust 启动器”和“清晰的 Claude Code/Codex 迁移”，指向的痛点是：从既有 agent 工具迁移到 DSH 时配置与模型设置步骤繁琐，启动与工具调用链路慢且缺少约束，开发者要在多个环节手工拼接。
+  pain_en: The public description emphasizes a fast Rust launcher and clear Claude Code/Codex migration,
+    pointing to friction in reconfiguring model setup when moving from existing agent tools, plus slow
+    startup and unguarded tool calls that developers must stitch together manually.
+  current_alternative: 旧做法是继续使用 Claude Code 或 Codex 等既有 agent 工具，或手工配置 DSH 的模型与命令环境；公开材料未给出用户对旧流程的具体抱怨记录。
+  current_alternative_en: The prior approach is to keep using existing agent tools such as Claude Code
+    or Codex, or to hand-configure DSH's model and command environment; public materials do not include
+    recorded user complaints about that old workflow.
+  usage_reason: 推断：相较手工配置旧工具，它用一个 Rust 启动器把模型设置、命令执行和受约束工具调用收拢到一次启动中，减少迁移与逐项配置的步骤，因此正在从 Claude Code/Codex
+    转向 DSH 的开发者会在本地项目里选择它；这是基于产品说明的结构推理，尚无用户反馈佐证。
+  usage_reason_en: 'Inference: versus hand-configuring prior tools, it folds model setup, command execution
+    and guarded tool calls into a single Rust-launched session, cutting migration and per-item configuration
+    steps, so developers moving from Claude Code/Codex to DSH would pick it for local projects; this is
+    structural reasoning from the product description, not yet backed by user feedback.'

@@ -91,3 +91,52 @@
     hunting across platforms, so developers who need to quickly judge whether someone has already done
     it would check here first; index accuracy and actual reuse outcomes are not yet supported by user
     feedback.'
+- id: req-full-awesome-reverse-engineered-2026-10-20
+  project_slug: awesome-reverse-engineered
+  level: full
+  reviewed_at: '2026-10-20T01:42:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者复现闭源行为时重复逆向、成果分散的痛点，旧做法是跨平台零散搜索；索引聚合约 1.2 万工具并每晚刷新，交付为候选仓库清单，结构上成立，但索引质量与可用性属推理未核验。
+    evidence_ids:
+    - ev-45e7c4d1622de3a2
+    - ev-36f1768fb216fca6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有仓库星标从 40 增至 48 的关注度信号，没有用户评价、案例或重复使用证据，无法证明开发者已把它留在工作流里。
+    evidence_ids:
+    - ev-45e7c4d1622de3a2
+    - ev-8def67bac58a171c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径；推断可能面向开发者订阅或团队授权，但这是判断而非已验证事实，公开材料也未见企业采购或赞助记录。
+    evidence_ids:
+    - ev-45e7c4d1622de3a2
+  - gate: truth
+    status: insufficient
+    reason: 索引是否准确、是否持续维护、agent skill 实际交付质量均无公开材料支持；仅凭每晚刷新声明不能确认交付确定性。
+    evidence_ids:
+    - ev-45e7c4d1622de3a2
+    - ev-36f1768fb216fca6
+  next_validation: 追踪该站点仓库的 issue/discussion 与公开使用反馈，核验索引准确性、agent skill 实际交付效果及是否出现付费或赞助记录。
+  market: ''
+  job: 开发者在需要复现某个闭源应用、API、设备协议或文件格式的行为时，处理的是自己手头的逆向目标与零散的开源实现线索，要完成的任务是快速判断是否已有可复用的逆向工程实现，从而决定复用还是自行重做。
+  job_en: When developers need to reproduce the behavior of a closed app, API, device protocol or file
+    format, they work from their own reverse-engineering target and scattered leads on open-source implementations,
+    and must quickly judge whether a reusable reverse-engineered implementation already exists, deciding
+    whether to reuse or rebuild.
+  pain: 逆向工程成果分散在各处，重复逆向同一目标既耗时又容易踩同样的坑；公开材料只说明索引聚合了约 1.2 万个工具，未提供用户抱怨或案例，痛点强度属工作流结构推理。
+  pain_en: Reverse-engineering results are scattered, so re-reverse-engineering the same target wastes
+    time and repeats the same pitfalls; public material only shows the index aggregates about 12,000 tools,
+    with no user complaints or cases, so pain intensity is a workflow-structure inference.
+  current_alternative: 靠搜索引擎、公开代码仓库关键词检索、个人收藏或社区帖子零散查找，逐个平台翻找后再自行核对可用性。
+  current_alternative_en: Scattered searching via search engines, public code repository keyword queries,
+    personal bookmarks or community posts, hunting across platforms and then checking usability by hand.
+  usage_reason: 推断：相较零散搜索，它把约 1.2 万个逆向工程工具集中到一个可检索索引并每晚刷新，减少逐个平台翻找这一步，因此需要快速判断“是否已有人做过”的开发者会在动手前先来这里查；索引准确性与实际复用效果尚无公开反馈支持。
+  usage_reason_en: 'Inference: compared with scattered searching, it consolidates roughly 12,000 reverse-engineering
+    tools into one searchable index refreshed nightly, cutting the step of hunting across platforms, so
+    developers who need to quickly judge whether someone has already done it would check here before starting;
+    index accuracy and real reuse outcomes have no public feedback yet.'

@@ -1,0 +1,41 @@
+- id: req-initial-nodeterm-2026-10-20
+  project_slug: nodeterm
+  level: initial
+  reviewed_at: '2026-09-01T14:55:58Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决多终端会话的组织与切换问题，但候选未说明相较 tmux 或分屏的具体改进，价值结构尚不清晰。
+    evidence_ids:
+    - ev-4900755bf2100d8e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句描述，没有用户评价、讨论或采用信号。
+    evidence_ids:
+    - ev-4900755bf2100d8e
+  - gate: model
+    status: insufficient
+    reason: 免费开源，买方与付费路径均未披露，无法判断商业模式。
+    evidence_ids:
+    - ev-4900755bf2100d8e
+  - gate: truth
+    status: insufficient
+    reason: 未说明 AI 在终端管理中的具体动作，也未说明交付是否确定发生。
+    evidence_ids:
+    - ev-4900755bf2100d8e
+  next_validation: 收集该开源仓库的 README 与 issue/discussion，核对其 AI 功能的具体动作与用户实际使用反馈。
+  market: ''
+  job: 开发者在同时运行多个终端会话时，需要整理和切换不同项目的命令行窗口，以完成构建、调试和日志查看任务。
+  job_en: Developers juggling multiple terminal sessions need to organize and switch between command-line
+    windows for different projects to run builds, debugging, and log viewing.
+  pain: 多项目并行时终端窗口散乱、切换成本高，容易看错日志或漏掉某个服务的输出；这是从终端使用场景推断的痛点。
+  pain_en: With parallel projects, terminal windows scatter and switching is costly, making it easy to
+    misread logs or miss one service's output; this pain is inferred from terminal usage.
+  current_alternative: tmux、iTerm 分屏、多个终端标签页或 IDE 内置终端。
+  current_alternative_en: tmux, iTerm split panes, multiple terminal tabs, or IDE built-in terminals.
+  usage_reason: 推断：节点式布局把多个会话放在同一画布上，可能减少在窗口间反复切换这一步；但候选未说明 AI 具体做什么，也未给出用户反馈，因此为何选择它尚不成立。
+  usage_reason_en: 'Inference: a node-based layout puts several sessions on one canvas and may cut repeated
+    window switching; but the candidate does not say what the AI does or cite user feedback, so why users
+    would choose it is not established.'

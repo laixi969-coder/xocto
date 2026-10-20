@@ -133,3 +133,45 @@
     removing the steps of recalling filenames, tidying folders and pasting each time; Mac developers who
     often feed local context to coding agents would choose it in that situation. Public material does
     not describe indexing scope or permission boundaries.'
+- id: req-full-pensieve-2-2026-10-20
+  project_slug: pensieve-2
+  level: full
+  reviewed_at: '2026-10-20T01:45:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决本机资料语义检索并供 AI 代理调用，但所引证据全是哈利·波特百科和一个同名 AI 评分工具，没有一条说明该产品的输入、动作与交付，需求与痛点无法从公开事实还原。
+    evidence_ids:
+    - ev-013e05d427342a44
+    - ev-45e9a91a2cad4ae6
+    - ev-abc1a6a8954d23b9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 pensieve 官方产品页或仓库 README，确认其 Mac 语义索引的输入范围、权限处理与交付方式，以替换当前无关的同名证据。
+  market: ''
+  job: Mac 用户在自己或 AI 代理需要引用本机资料时，用自然语言描述要找的内容，从本地文件中取回相关材料再交给代理使用。
+  job_en: A Mac user, or their AI agent, describes in natural language what is needed and retrieves relevant
+    material from local files to pass to the agent.
+  pain: 公开材料未提供任何关于本机文件检索痛点的用户陈述或案例；现有证据是哈利·波特百科与一个同名的 AI 评分工具，均不涉及 Mac 语义检索。
+  pain_en: The public material contains no user statement or case about local file retrieval pain; the
+    available evidence is a Harry Potter encyclopedia and an unrelated same-named AI grading tool, neither
+    about Mac semantic search.
+  current_alternative: 无法从公开证据确认用户当前用什么方式替代；按文件名搜索或手工复制只是常识推测，缺少可引用的旧流程记录。
+  current_alternative_en: Public evidence does not establish what users currently use instead; filename
+    search or manual copying is only common-sense speculation without a citable old workflow.
+  usage_reason: 无法判断用户为何选择它：现有证据中没有产品说明、文档或用户反馈能说明它相较旧做法减少了哪一步负担，因此使用理由无法成立。
+  usage_reason_en: 'There is no basis to explain why users would choose it: no product description, documentation,
+    or user feedback shows which step it removes versus the old approach, so a usage reason cannot be
+    established.'

@@ -32,7 +32,7 @@ summary: What do AI agents do if you don’t tell them to do anything? The answe
   of basketball and an activity resembling “the floor
 first_seen: '2026-10-20T01:06:54Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

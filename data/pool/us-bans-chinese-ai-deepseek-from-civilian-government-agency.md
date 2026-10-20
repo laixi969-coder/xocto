@@ -1,11 +1,13 @@
 ---
 slug: us-bans-chinese-ai-deepseek-from-civilian-government-agency
-name: US bans Chinese AI DeepSeek from civilian government agency IT systems
+name: DeepSeek
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 美国禁止中国 AI 公司 DeepSeek 进入民用政府机构 IT 系统。这一监管限制将压缩 DeepSeek 在美国公共部门的采用空间，并可能促使政府机构转向本土模型供应商；对成本与竞争格局的影响属推断。
 inspiration: ''
-summary_en: ''
+summary_en: The US banned Chinese AI company DeepSeek from civilian government agency IT systems. This
+  regulatory restriction will narrow DeepSeek's adoption in the US public sector and may push agencies
+  toward domestic model providers; the effect on costs and competition is an inference.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxOanR0V0YxaFJ3
 summary: US bans Chinese AI DeepSeek from civilian government agency IT systems Business Standard
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# US bans Chinese AI DeepSeek from civilian government agency IT systems
+# DeepSeek
 
 US bans Chinese AI DeepSeek from civilian government agency IT systems Business Standard
 

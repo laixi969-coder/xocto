@@ -1,0 +1,84 @@
+- id: req-initial-own-1-2026-10-20
+  project_slug: own-1
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 只有口号，未说清解决什么任务与痛点，价值结构无法确认。
+    evidence_ids:
+    - ev-a105b62943281943
+  - gate: consensus
+    status: insufficient
+    reason: 无采用或讨论数据，共识无法判断。
+    evidence_ids:
+    - ev-a105b62943281943
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，商业模式无法判断。
+    evidence_ids:
+    - ev-a105b62943281943
+  - gate: truth
+    status: insufficient
+    reason: 未说明数据归属如何实现与核验，交付确定性无法判断。
+    evidence_ids:
+    - ev-a105b62943281943
+  next_validation: 收集该产品的官方页面或发布说明，确认具体功能、数据归属实现方式与定价。
+  market: ''
+  job: 公开材料未说明具体用户与工作节点，无法确定它要帮谁完成什么任务。
+  job_en: Public material does not identify specific users or work steps, so it is unclear whose task
+    it is meant to complete.
+  pain: 只有数据与 AI 归用户所有这一口号，未说明替代哪一步旧工作或谁的哪项负担，痛点无法判断。
+  pain_en: Only a slogan about owning data and AI is given, with no statement of which legacy step or
+    whose burden it replaces, so the pain cannot be judged.
+  current_alternative: 用户目前使用云端通用助手或本地部署的开源模型来满足个人 AI 需求。
+  current_alternative_en: Users currently rely on cloud general assistants or locally deployed open-source
+    models for personal AI needs.
+  usage_reason: 推断：若数据归属能在本地可核验地实现，对敏感材料用户可减少对云端托管的顾虑；但公开材料无功能细节与用户反馈，选择动机仍属推断。
+  usage_reason_en: 'Inference: if data ownership is verifiably local, users with sensitive material could
+    reduce concerns about cloud hosting; however, public material has no feature detail or user feedback,
+    so the motivation remains inferred.'
+- id: req-full-own-1-2026-10-20
+  project_slug: own-1
+  level: full
+  reviewed_at: '2026-10-20T01:45:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料只有“拥有数据与 AI”一句口号，未说明用户任务、输入材料、替代的旧做法与不解决的后果，连需求与痛点都无法还原，价值结构不能成立。
+    evidence_ids:
+    - ev-a4d3e3f5f9aa0ddb
+    - ev-57d39ccb74ef0eb7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或发布说明页，确认其具体功能、数据归属实现方式与定价，以判断是否具备可还原的用户任务与交付闭环。
+  market: ''
+  job: 公开材料未说明具体用户、触发情境与输入材料，无法确定谁在什么工作节点打开它、让 AI 处理什么并交付什么结果。
+  job_en: Public material does not identify the specific user, trigger situation, or input material, so
+    it is unclear who opens it at which work step, what the AI processes, and what result is delivered.
+  pain: 只有“拥有数据与 AI”的口号，未说明替代哪一步旧工作、谁的哪项负担或哪项可核对结果会改善，痛点无法从公开事实还原。
+  pain_en: Only the slogan of owning data and AI is given; it does not state which legacy step is replaced,
+    whose burden is reduced, or which checkable result improves, so the pain cannot be reconstructed from
+    public facts.
+  current_alternative: 公开材料未描述现有替代方式；按常见做法推断，用户可能使用云端通用助手或本地部署的开源模型，但这是推理而非事实。
+  current_alternative_en: Public material does not describe current alternatives; by common practice one
+    may infer cloud general assistants or locally deployed open-source models, but this is inference,
+    not fact.
+  usage_reason: 推断：若数据归属能在本地可核验地实现，处理敏感材料的用户可能因减少云端托管顾虑而选择它；但公开材料无功能细节、无用户反馈，选择动机无法确认为事实。
+  usage_reason_en: 'Inference: if data ownership were verifiably local, users handling sensitive material
+    might choose it to reduce cloud-hosting concerns; however, public material has no feature detail or
+    user feedback, so the motivation cannot be confirmed as fact.'

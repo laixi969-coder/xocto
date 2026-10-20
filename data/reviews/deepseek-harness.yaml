@@ -1045,3 +1045,51 @@
     and UI into swappable units, so replacing one component adjusts the local assistant without rewriting
     the whole call chain; technical users wanting local, customizable assistants would try it. Stars rising
     from 177 to 184 show attention only, not sustained use.'
+- id: req-full-deepseek-harness-2026-10-20
+  project_slug: deepseek-harness
+  level: full
+  reviewed_at: '2026-10-20T01:43:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地运行助手时工具、记忆、界面不可替换的需求，痛点是通用助手绑定组件、难以按任务定制；公开仓库显示内部组件被使用，但缺用户抱怨与频率，属工作流结构推理，交付闭环可确定。
+    evidence_ids:
+    - ev-af1155d548a126b8
+    - ev-b13541854a27aa6f
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据只有内部组件仓库的收藏数，从 180 缓慢增至 185，说明开发者有关注，但没有用户评价、案例或持续采用证据，无法判断强场景共识。
+    evidence_ids:
+    - ev-af1155d548a126b8
+    - ev-b876cc58803e6bf5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径；这是判断而非已验证事实，开源组件可能靠生态或母公司投入，买方与单位经济仍不明。
+    evidence_ids:
+    - ev-b13541854a27aa6f
+  - gate: truth
+    status: insufficient
+    reason: 插件化架构能否稳定交付、安全边界与人工介入规则，公开材料只有内部组件说明，缺部署文档与可复现实测，交付确定性尚未核验。
+    evidence_ids:
+    - ev-af1155d548a126b8
+    - ev-b13541854a27aa6f
+  next_validation: 追踪 DeepSeek Harness 官方文档与仓库 issue/discussion，确认插件部署方式、实际使用场景与是否出现付费或企业采用记录。
+  market: ''
+  job: 开发者或技术用户在本地电脑上运行 DeepSeek 助手，处理文档、代码等材料，需要把工具、记忆和界面按自己的任务替换组合，完成可定制的本地助手工作流。
+  job_en: Developers or technical users run a DeepSeek assistant on their own machine, handling documents
+    and code, and need to swap tools, memory, and interface to fit their task, completing a customizable
+    local assistant workflow.
+  pain: 通用助手把工具、记忆和界面绑死，用户无法按本地任务替换组件，也难以在自有电脑上控制数据与流程；公开材料只给出插件化架构，未提供用户抱怨或频率证据，痛点强度属工作流结构推理。
+  pain_en: General assistants hard-wire tools, memory, and interface, so users cannot swap components
+    for local tasks or control data and flow on their own machine; public material only shows the plugin
+    architecture, not user complaints or frequency, so pain intensity is a workflow inference.
+  current_alternative: 用户目前可能直接使用封闭的云端助手，或自行拼装脚本和本地工具链；公开材料未说明具体替代流程。
+  current_alternative_en: Users today likely use closed cloud assistants or hand-assemble scripts and
+    local toolchains; public material does not describe the specific replaced workflow.
+  usage_reason: 推断：相较封闭助手，插件化让用户按任务替换工具与界面，减少为适配本地材料而重写胶水代码的步骤，因此需要本地可控、可定制的技术用户会在处理自有文档或代码时选择它；尚无用户反馈证实。
+  usage_reason_en: 'Inference: versus closed assistants, the plugin design lets users swap tools and interface
+    per task, cutting the glue-code step needed to fit local material, so technical users needing local
+    control and customization would choose it when handling their own documents or code; no user feedback
+    confirms this yet.'

@@ -1,0 +1,86 @@
+- id: req-initial-融资丨ai城市虚拟电厂运营商原力能源完成数亿元战略融资-2026-10-20
+  project_slug: 融资丨ai城市虚拟电厂运营商原力能源完成数亿元战略融资
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分散负荷难以实时汇总、人工决定削减哪部分用电的问题，不参与则放弃电网侧补偿，痛点具体。
+    evidence_ids:
+    - ev-98dfc5f519f8f7c6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户名单、接入负荷规模或需求响应实际执行记录。
+    evidence_ids:
+    - ev-98dfc5f519f8f7c6
+  - gate: model
+    status: insufficient
+    reason: 报道未说明收入来自电网补偿分成、服务费还是其他方式，买方与计价方式不明。
+    evidence_ids:
+    - ev-98dfc5f519f8f7c6
+  - gate: truth
+    status: insufficient
+    reason: 未见调度准确性、结算结果或安全边界材料，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-98dfc5f519f8f7c6
+  next_validation: 收集原力能源官方披露的虚拟电厂项目案例或电网需求响应执行公告，核实其接入负荷规模与结算方式。
+  market: ''
+  job: 工业园区与商业楼宇的能源管理人员在用电高峰或需求响应时段，需要汇总可调负荷并决定削减哪部分用电，以完成电网调度任务。
+  job_en: Energy managers at industrial parks and commercial buildings must aggregate flexible loads and
+    decide which consumption to curtail during peak or demand-response periods to fulfil grid dispatch
+    tasks.
+  pain: 分散负荷难以实时汇总，人工判断削减哪部分用电既慢又容易影响生产；不参与需求响应则放弃电网侧补偿。
+  pain_en: Distributed loads are hard to aggregate in real time, and manually deciding what to curtail
+    is slow and risks disrupting operations; not participating forgoes grid-side compensation.
+  current_alternative: 过去多由园区或楼宇能源人员手工统计负荷、电话协调，或干脆不参与需求响应。
+  current_alternative_en: Previously, park or building energy staff tallied loads manually, coordinated
+    by phone, or simply did not participate in demand response.
+  usage_reason: 推断：若其系统能自动聚合可调负荷并给出削减指令，用户可省去手工统计与逐户协调这一步，并按实际削峰获得补偿；这依赖其调度与结算能力，公开材料尚未核验。
+  usage_reason_en: 'Inference: if its system automatically aggregates adjustable loads and issues curtailment
+    instructions, users skip manual tallying and unit-by-unit coordination and are compensated for actual
+    peak reduction; this depends on dispatch and settlement capability not yet verified publicly.'
+- id: req-full-融资丨ai城市虚拟电厂运营商原力能源完成数亿元战略融资-2026-10-20
+  project_slug: 融资丨ai城市虚拟电厂运营商原力能源完成数亿元战略融资
+  level: full
+  reviewed_at: '2026-10-20T01:46:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决分散负荷难以实时汇总、人工决定削减哪部分用电的问题，不参与则放弃电网侧补偿，痛点具体；但接入设备与交付结果仅由融资报道间接支持，属工作流结构推理。
+    evidence_ids:
+    - ev-98dfc5f519f8f7c6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，未见客户名单、接入负荷规模或需求响应实际执行记录，无法判断是否有用户持续采用。
+    evidence_ids:
+    - ev-98dfc5f519f8f7c6
+  - gate: model
+    status: insufficient
+    reason: 报道未说明收入来自电网补偿分成、服务费还是其他方式，买方与计价方式不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-98dfc5f519f8f7c6
+  - gate: truth
+    status: insufficient
+    reason: 未见调度准确性、结算结果或安全边界材料，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-98dfc5f519f8f7c6
+  next_validation: 追踪原力能源官网或电网公司公开的需求响应项目公告，核实其接入负荷规模、调度执行记录与结算方式。
+  market: ''
+  job: 工业园区与商业楼宇的能源管理人员在用电高峰或需求响应时段，需要汇总园区内可调负荷、决定削减哪部分用电，并按电网要求完成调度任务。
+  job_en: Energy managers at industrial parks and commercial buildings must aggregate adjustable loads,
+    decide which consumption to curtail during peak or demand-response periods, and fulfil grid dispatch
+    requirements.
+  pain: 分散负荷难以实时汇总，人工判断削减哪部分用电既慢又可能影响生产；不参与需求响应则放弃电网侧补偿。
+  pain_en: Distributed loads are hard to aggregate in real time; manually deciding what to curtail is
+    slow and may disrupt operations, while not participating forgoes grid-side compensation.
+  current_alternative: 过去多由园区或楼宇能源人员手工统计负荷、电话逐户协调，或干脆不参与需求响应。
+  current_alternative_en: Previously, park or building energy staff tallied loads manually, coordinated
+    unit by unit by phone, or simply did not participate in demand response.
+  usage_reason: 推断：若其系统能自动聚合可调负荷并下发削减指令，用户可省去手工统计与逐户协调，并按实际削峰获得补偿；这依赖其调度与结算能力，公开材料尚未核验。
+  usage_reason_en: 'Inference: if its system automatically aggregates adjustable loads and issues curtailment
+    instructions, users skip manual tallying and unit-by-unit coordination and are compensated for actual
+    peak reduction; this depends on dispatch and settlement capability not yet verified publicly.'

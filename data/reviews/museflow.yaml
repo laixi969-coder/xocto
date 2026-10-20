@@ -233,3 +233,54 @@
     generation and chaining into a reusable pipeline, so users need not re-describe and manually re-stitch
     the same sequence each time; high-volume content teams producing similar assets repeatedly would choose
     it, though user feedback, adoption or retention evidence is still missing.'
+- id: req-full-museflow-2026-10-20
+  project_slug: museflow
+  level: full
+  reviewed_at: '2026-10-20T01:44:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决批量出图出片时重复描述提示词、手工串联素材的流程复用需求；痛点刚性来自逐条生成再整理的旧流程，节点化可固化步骤，交付为可剪辑素材。以上为工作流结构推理，公开材料未给出用户抱怨或耗时数据。
+    evidence_ids:
+    - ev-80ebfc6534a793ac
+    - ev-c2ff071a44cc0958
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 62 缓慢升至 79，属关注度而非持续采用；没有用户评价、案例或重复使用证据，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-80ebfc6534a793ac
+    - ev-c2ff071a44cc0958
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；作为 Muse.ai 扩展，钱可能来自创作者订阅或平台分成，但这是判断而非已验证事实，存在依赖上游平台的收入风险。
+    evidence_ids:
+    - ev-80ebfc6534a793ac
+  - gate: truth
+    status: insufficient
+    reason: 无法核对节点生成结果是否稳定可复现、人工确认边界在哪，也未见版权与安全处理说明；仅凭仓库描述不能确认承诺可确定性交付。
+    evidence_ids:
+    - ev-80ebfc6534a793ac
+    - ev-c2ff071a44cc0958
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认节点输入输出、可复现生成流程说明及是否有用户报告实际用于出片。
+  market: ''
+  job: 内容创作者在已有分镜或提示词构思后，打开 Muse.ai 的节点式扩展，把图像与视频生成步骤串成可重复执行的流程，批量产出可继续剪辑或投放的素材。
+  job_en: After storyboarding or drafting prompts, content creators open the Muse.ai node-based extension
+    to chain image and video generation steps into a repeatable pipeline and batch-produce assets ready
+    for editing or delivery.
+  pain: 公开材料只说明它是 Muse.ai 的节点式生成扩展，未说明原先由谁、用什么工具、花多久完成同一件事，也没有用户抱怨或替代行为记录；痛点只能从“逐条生成再手工整理”的旧流程结构推断，属于工作流推理而非用户口述。
+  pain_en: Public material only describes it as a node-based generation extension for Muse.ai; it does
+    not say who previously did this work, with what tools, or how long it took, and records no user complaints
+    or workarounds. The pain is inferred from the structure of the old item-by-item generation and manual
+    sorting workflow, not from user statements.
+  current_alternative: 推断：创作者目前可能直接在 Muse.ai 或同类生成工具的对话界面里逐条生成图像与视频，再手工整理、重命名和串联素材；该替代路径未经材料证实。
+  current_alternative_en: 'Inference: creators likely generate images and videos one by one in Muse.ai
+    or similar tools'' chat interfaces, then manually sort, rename and chain the assets; this alternative
+    path is not confirmed by the material.'
+  usage_reason: 推断：相较逐条重新描述提示词并手工串联，节点流程把重复的生成步骤固化为可复用管线，减少每次重新描述与手工搬运素材的步骤，因此高频出片、需要复用同一分镜结构的创作者会在批量生产时选择它；缺少用户反馈与留存证据，这一选择尚未被证实。
+  usage_reason_en: 'Inference: compared with re-describing prompts and manually chaining steps each time,
+    the node graph freezes repeated generation steps into a reusable pipeline, cutting the re-description
+    and manual asset-shuttling steps, so creators producing at high volume with reusable storyboard structures
+    would choose it for batch work; without user feedback or retention evidence, this choice is not yet
+    confirmed.'

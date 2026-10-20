@@ -131,3 +131,53 @@
     and the cost of maintaining auth and rollback in custom scripts. Teams managing multiple Meta accounts
     that already use CLIs or AI agents would pick it for routine checks and batch launches. The 51→58
     star count reflects attention only, not adoption.'
+- id: req-full-adsctl-2026-10-20
+  project_slug: adsctl
+  level: full
+  reviewed_at: '2026-10-20T01:41:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Meta 投放运营的重复监控、报告整理与活动上线需求，痛点在于后台手工操作频繁、出错回退成本高；产品以确定性监控、报告生成和可回滚上线形成闭环。此为工作流结构推理，仓库说明是公开事实，尚无用户痛点材料。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+    - ev-32533901b62d19c3
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 51 增至 62，说明开发者有初步关注，但无 issue、讨论或客户案例显示投放运营持续使用；关注度不能替代采用证据。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+    - ev-959fd8da836f4b2f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径；可能面向使用 Meta 账户的投放团队或代理机构按订阅付费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+  - gate: truth
+    status: insufficient
+    reason: 仓库说明承诺可回滚上线，但无部署文档、实测记录或安全边界说明证明交付稳定发生；广告账户写操作的风险控制尚缺公开证据。
+    evidence_ids:
+    - ev-6bfa1aa994bcff32
+    - ev-32533901b62d19c3
+  next_validation: 追踪 adsctl 仓库的 issue、discussion 与 README 更新，确认是否有投放团队公开报告实际部署、替代旧流程及上线回滚的使用记录。
+  market: ''
+  job: Meta 广告投放运营人员在日常账户巡检和活动上线时，处理账户指标、投放配置与活动参数，用命令行或 AI 代理完成监控、生成洞察报告并执行可回滚的广告活动上线。
+  job_en: Meta ad operations staff, during routine account checks and campaign launches, handle account
+    metrics, ad configurations and campaign parameters, using a CLI or AI agent to run monitoring, generate
+    insight reports and execute recoverable campaign launches.
+  pain: 公开说明显示该工具针对 Meta 账户的重复监控、报告整理与上线操作；这类工作需反复登录后台、手工核对指标并逐项配置活动，出错后回退成本高。痛点强度属工作流结构推理，尚无用户抱怨或案例直接佐证。
+  pain_en: The public description targets repetitive Meta account monitoring, report assembly and launch
+    operations; such work requires repeated dashboard logins, manual metric checks and item-by-item campaign
+    setup, with costly rollback on error. Pain intensity is a workflow inference, not yet backed by user
+    complaints or cases.
+  current_alternative: 旧做法是投放运营在 Meta 广告管理后台手工巡检、导出数据做报告、逐项创建活动；部分团队用脚本或第三方投放工具。公开材料未说明它具体替代哪一种。
+  current_alternative_en: The old way is manual inspection in Meta Ads Manager, exporting data for reports
+    and creating campaigns item by item; some teams use scripts or third-party ad tools. Public materials
+    do not specify which one it replaces.
+  usage_reason: 推断：相较后台手工操作，它把监控、报告和上线收敛为可脚本化、可被 AI 代理调用的命令，并让上线动作可回滚，减少重复点击与误操作后的恢复负担；因此已在用命令行或代理工作流的投放团队会在批量巡检和活动上线时选择它。
+  usage_reason_en: 'Inference: versus manual dashboard work, it collapses monitoring, reporting and launch
+    into scriptable, agent-callable commands with recoverable launches, cutting repeated clicks and recovery
+    burden after mistakes; ad teams already using CLI or agent workflows would choose it for batch checks
+    and campaign launches.'

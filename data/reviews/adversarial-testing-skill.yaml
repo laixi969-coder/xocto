@@ -1121,3 +1121,40 @@
     external test scheduling and manual payload construction; versus pure scanners, it adds a black-box
     attack perspective to verify reachability. Hence it would be chosen by small teams doing pre-release
     self-checks without a security budget.'
+- id: req-full-adversarial-testing-skill-2026-10-20
+  project_slug: adversarial-testing-skill
+  level: full
+  reviewed_at: '2026-10-20T01:41:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让两个 AI 对打来测你的产品：一个读源码，一个蒙着眼当黑客”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README、issue 与 discussion，确认是否写明具体使用场景、输入材料与测试交付结果。
+  market: ''
+  job: 公开材料仅说明让两个 AI 对打测试产品，未写明谁在什么情况下、处理什么材料、完成什么具体任务。
+  job_en: Public materials only describe pitting two AIs against a product; they do not state who, under
+    what circumstances, with what materials, completes what specific task.
+  pain: 公开材料未说明用户的具体痛点、发生频率或不解决的后果；仅能推断安全测试存在人工成本，但无证据支撑。
+  pain_en: Public materials do not state the specific pain, frequency or consequence of leaving it unsolved;
+    one can only infer manual security-testing cost, without evidence.
+  current_alternative: 公开材料未说明用户目前如何做对抗性测试，也未说明它替代渗透测试、代码审计还是其他流程。
+  current_alternative_en: Public materials do not state how users currently do adversarial testing, nor
+    whether it replaces penetration testing, code audit or another process.
+  usage_reason: 公开材料仅有仓库收藏数，未说明相较旧做法减少哪一步负担或改善哪项可核对结果，无法解释用户为何选择它。
+  usage_reason_en: Public materials only show repository stars and do not explain which step burden is
+    reduced or which verifiable result improves versus the old approach, so user choice cannot be explained.

@@ -133,3 +133,51 @@
     removing the from-scratch reverse-engineering and sync stage, so players and mod authors with a concrete
     co-op goal may try it when no patch exists; public material shows no completed co-op case or retention
     evidence.'
+- id: req-full-coop-anything-2026-10-20
+  project_slug: coop-anything
+  level: full
+  reviewed_at: '2026-10-20T01:42:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决单人游戏无法联机、个人改不动的需求，痛点刚性且交付可确定：代理完成逆向、改动、测试、打包。公开事实仅仓库说明与星数，旧流程耗时与不采用后果属工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+    - ev-53edaa3101e7c63d
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 53 升至 591，说明关注度上升，但公开材料没有玩家反馈、成功联机案例或 issue 讨论，无法判断共识卡在感知、场景还是交付环节。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+    - ev-53edaa3101e7c63d
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未见定价或收费方式，买方可能是玩家、模组作者或赞助者，属判断而非已验证事实；星数增长只反映关注，不构成付费路径。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+    - ev-bbc77318c65d8d44
+  - gate: truth
+    status: challenged
+    reason: 代理改包与联机的承诺可核验，但公开材料未说明版权边界、反作弊与发行商许可风险，也未交代人工确认环节，交付确定性存疑。
+    evidence_ids:
+    - ev-8d7c606c58e1393d
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认是否有代理成功产出可玩联机版本的公开记录及对版权、反作弊边界的说明。
+  market: ''
+  job: 想让某款单人游戏和朋友一起玩的玩家或模组作者，把 AI 代理指向该游戏，由代理逆向分析、修改、测试并打包联机改动，最终产出可在线或分屏共玩的版本。
+  job_en: A player or mod author who wants to play a specific single-player game with friends points an
+    AI agent at that game so it reverse-engineers, patches, tests and packages multiplayer support, ending
+    with a playable online or splitscreen build.
+  pain: 给单人游戏加联机通常要懂逆向工程与网络同步，个人玩家或小模组作者往往做不动、半途放弃，或只能等别人做补丁。
+  pain_en: Adding multiplayer to a single-player game usually requires reverse-engineering and network-sync
+    skills that individual players or small mod authors lack, so they stall or wait for someone else's
+    patch.
+  current_alternative: 在模组社区找现成联机补丁，或自己啃代码、看教程慢慢改，找不到补丁的游戏就只能放弃联机。
+  current_alternative_en: Hunting for an existing multiplayer patch in mod communities, or grinding through
+    code and tutorials alone; games without a patch simply stay single-player.
+  usage_reason: 推断：它把逆向、改动、测试、打包串成代理可执行的一步，省掉个人啃代码和搭网络同步这一环，因此有明确联机诉求、又找不到现成补丁的玩家和模组作者会试用；公开材料尚无成功联机案例，动机属结构推断。
+  usage_reason_en: 'Inference: it chains reverse engineering, patching, testing and packaging into agent-runnable
+    steps, removing the solo code-grinding and network-sync setup stage, so players and mod authors with
+    a concrete co-op wish and no existing patch may try it; public material shows no completed co-op case,
+    so the motive is structural inference.'

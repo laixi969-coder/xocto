@@ -1,0 +1,88 @@
+- id: req-initial-brandpose-2026-10-20
+  project_slug: brandpose
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决门店陈列与广告位效果评估中顾客视线难以量化的问题，旧做法是人工观察或昂贵专用设备，痛点具体。
+    evidence_ids:
+    - ev-1dee1f9e5dcf8a01
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 138 星标的开源关注度，没有门店客户案例或使用反馈，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-1dee1f9e5dcf8a01
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是零售品牌或商场运营方，但付费路径尚未核验。
+    evidence_ids:
+    - ev-1dee1f9e5dcf8a01
+  - gate: truth
+    status: insufficient
+    reason: 视线估计精度、隐私合规与真实门店部署效果均无公开材料，交付确定性未核验。
+    evidence_ids:
+    - ev-1dee1f9e5dcf8a01
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认是否披露精度评测、部署文档或真实门店试用案例。
+  market: ''
+  job: 零售门店或品牌营销人员在复盘货架陈列和店内广告位效果时，处理普通监控摄像头拍到的顾客画面，要判断顾客实际看向哪里。
+  job_en: Retail store or brand marketing staff reviewing shelf displays and in-store ad placements process
+    shopper footage from ordinary security cameras to determine where shoppers actually look.
+  pain: 过去判断陈列和广告位效果靠人工观察、销量对比或专用眼动设备，前者主观、后者昂贵且部署门槛高。
+  pain_en: Judging display and ad effectiveness used to rely on manual observation, sales comparisons
+    or dedicated eye-tracking hardware; the first is subjective and the latter is costly and hard to deploy.
+  current_alternative: 人工巡店记录、A/B 陈列对比销量，或采购专用眼动追踪设备与第三方客流分析服务。
+  current_alternative_en: Manual store walks, A/B display tests against sales, or purchasing dedicated
+    eye-tracking devices and third-party foot-traffic analytics.
+  usage_reason: 推断：它直接复用门店已有的普通摄像头画面，用开源模型估算视线落点，省去采购专用眼动设备和现场标注这一步，因此预算有限、已有摄像头的零售运营方会在陈列复盘时尝试它；目前缺少精度与真实门店采用证据。
+  usage_reason_en: 'Inference: it reuses existing ordinary store cameras and estimates gaze targets with
+    open models, removing the need to buy dedicated eye-tracking hardware and manually annotate footage,
+    so budget-constrained retail operators with cameras may try it during display reviews; accuracy and
+    real store adoption evidence are still missing.'
+- id: req-full-brandpose-2026-10-20
+  project_slug: brandpose
+  level: full
+  reviewed_at: '2026-10-20T01:42:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决门店陈列与广告位效果评估中顾客视线难以量化的问题，旧做法是人工观察或昂贵专用设备，痛点具体且交付物为视线落点估计；这是基于产品说明的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-1dee1f9e5dcf8a01
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 138 星标的开源关注度，没有门店客户案例、用户评价或重复使用记录，无法判断是否形成采用共识。
+    evidence_ids:
+    - ev-1dee1f9e5dcf8a01
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是零售品牌或商场运营方，但付费路径尚未核验，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-1dee1f9e5dcf8a01
+  - gate: truth
+    status: insufficient
+    reason: 视线估计精度、隐私合规与真实门店部署效果均无公开材料，交付确定性未核验。
+    evidence_ids:
+    - ev-1dee1f9e5dcf8a01
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，确认是否披露精度评测、部署文档或真实门店试用案例。
+  market: ''
+  job: 零售门店或品牌营销人员在复盘货架陈列和店内广告位效果时，处理普通监控摄像头拍到的顾客画面，要判断顾客实际看向哪里、哪些货架被关注。
+  job_en: Retail store or brand marketing staff reviewing shelf displays and in-store ad placements process
+    shopper footage from ordinary security cameras to determine where shoppers actually look and which
+    shelves draw attention.
+  pain: 过去判断陈列和广告位效果靠人工巡店观察、销量对比或专用眼动设备，前者主观且不可回溯，后者昂贵、部署门槛高，普通门店难以持续获得视线数据。
+  pain_en: Judging display and ad effectiveness relied on manual store walks, sales comparisons or dedicated
+    eye-tracking hardware; the first is subjective and non-auditable, the latter costly and hard to deploy,
+    so ordinary stores rarely get continuous gaze data.
+  current_alternative: 人工巡店记录、A/B 陈列对比销量，或采购专用眼动追踪设备与第三方客流分析服务。
+  current_alternative_en: Manual store walks, A/B display tests against sales, or purchasing dedicated
+    eye-tracking devices and third-party foot-traffic analytics.
+  usage_reason: 推断：它直接复用门店已有的普通摄像头画面，用开源模型估算视线落点，省去采购专用眼动设备和现场人工标注这一步，因此已有摄像头、预算有限的零售运营方会在陈列复盘时尝试；目前缺少精度评测与真实门店采用证据。
+  usage_reason_en: 'Inference: it reuses existing ordinary store cameras and estimates gaze targets with
+    open models, removing the step of buying dedicated eye-tracking hardware and manually annotating footage,
+    so budget-constrained retail operators with cameras may try it during display reviews; accuracy benchmarks
+    and real store adoption evidence are still missing.'

@@ -282,3 +282,51 @@
     onto one always-on screen, removing the repeated lookup and login-switching step, so developers running
     several accounts during long coding sessions may choose it when quota interruption risk matters; retention
     and payment evidence are missing, and the hardware form limits spread.'
+- id: req-full-token-tv-2026-10-20
+  project_slug: token-tv
+  level: full
+  reviewed_at: '2026-10-20T01:45:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多账号额度分散、超限才发现的需求，痛点在连续编码时较刚性；产品把用量集中到常亮屏幕，交付动作可确定。数据来源与刷新方式未公开，属工作流结构推理，非采用数据。
+    evidence_ids:
+    - ev-a5125b58df75a1b3
+    - ev-69828f7c294bab05
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 68 缓慢增至 71，仅说明关注度，没有用户反馈、issue 讨论或持续使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-a5125b58df75a1b3
+    - ev-69828f7c294bab05
+  - gate: model
+    status: insufficient
+    reason: 开源硬件项目，未见定价、付费或采购路径；钱可能来自开发者自购硬件或后续订阅，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-a5125b58df75a1b3
+  - gate: truth
+    status: insufficient
+    reason: 无法核对用量数据是否准确、刷新是否及时、账号授权是否合规，交付确定性尚不清楚。
+    evidence_ids:
+    - ev-a5125b58df75a1b3
+  next_validation: 追踪该仓库 README 与 issue，确认用量数据来源、刷新频率与账号授权方式。
+  market: ''
+  job: 同时使用 Claude、Codex 等多个 AI 编码账号的开发者，在连续编码、需要随时掌握各账号剩余额度时，处理分散的账号用量数据，要完成在桌面常亮设备上判断是否接近限额的任务。
+  job_en: A developer running several Claude and Codex accounts, while coding continuously and needing
+    to track remaining quota across accounts, works on scattered account usage data to judge on an always-on
+    desk device whether a limit is near.
+  pain: 多账号额度分散在各平台后台，需反复登录或切换页面查看，往往在触发限额、任务中断后才发现；公开材料未说明数据来源与刷新方式，痛点方向由产品说明与工作流推理得出。
+  pain_en: Quota across accounts is scattered in separate dashboards, requiring repeated logins or page
+    switches, and overruns are often discovered only after a task is interrupted; the public material
+    does not state the data source or refresh method, so the pain is inferred from the product description
+    and workflow.
+  current_alternative: 开发者目前逐个登录各平台后台查看用量，或干脆不监控、等报错再处理。
+  current_alternative_en: Developers currently log into each platform dashboard to check usage, or skip
+    monitoring and react after an error.
+  usage_reason: 推断：相较逐个登录后台，它把多账号用量集中到一块常亮的约 5 美元时钟屏幕上，省去反复查询这一步，因此同时开多个账号、又不想频繁切页面的开发者会在编码过程中选择它；仓库星标只说明关注度，尚无留存或付费证据。
+  usage_reason_en: 'Inference: versus logging into each dashboard, it puts multi-account usage on one
+    always-on ~$5 clock screen and removes the repeated lookup step, so developers running several accounts
+    who dislike page switching may choose it while coding; repository stars only show attention, with
+    no retention or payment evidence yet.'

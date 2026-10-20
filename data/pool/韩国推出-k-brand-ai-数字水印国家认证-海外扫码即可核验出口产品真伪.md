@@ -1,11 +1,14 @@
 ---
 slug: 韩国推出-k-brand-ai-数字水印国家认证-海外扫码即可核验出口产品真伪
-name: 韩国推出 K-Brand AI 数字水印国家认证 海外扫码即可核验出口产品真伪
+name: K-Brand AI 数字水印国家认证
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 韩国推出 K-Brand AI 数字水印国家认证，海外消费者扫码即可核验出口产品真伪，这是政府主导的认证与溯源机制变化，将影响出口产品的防伪交付方式与相关 AI 水印技术的采用。
 inspiration: ''
-summary_en: ''
+summary_en: South Korea launched the K-Brand AI digital watermark national certification, letting overseas
+  consumers verify the authenticity of exported products by scanning, a government-led certification and
+  traceability mechanism change that will affect anti-counterfeiting delivery for exports and adoption
+  of related AI watermarking technology.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTE1XczJ4S3BzWGFh
 summary: 韩国推出 K-Brand AI 数字水印国家认证 海外扫码即可核验出口产品真伪 风闻
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# 韩国推出 K-Brand AI 数字水印国家认证 海外扫码即可核验出口产品真伪
+# K-Brand AI 数字水印国家认证
 
 韩国推出 K-Brand AI 数字水印国家认证 海外扫码即可核验出口产品真伪 风闻
 

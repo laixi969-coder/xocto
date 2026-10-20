@@ -1,0 +1,82 @@
+- id: req-initial-beamwin-2026-10-20
+  project_slug: beamwin
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨机照看 AI 代理窗口的任务，但材料未说明旧流程的具体痛点与频率，价值结构尚不完整。
+    evidence_ids:
+    - ev-3a2f7d9bea0a96ac
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品页一句话描述，没有用户评价、采用或社区讨论证据。
+    evidence_ids:
+    - ev-3a2f7d9bea0a96ac
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-3a2f7d9bea0a96ac
+  - gate: truth
+    status: insufficient
+    reason: 无法核验跨机连接是否稳定、权限与安全边界如何，交付确定性未知。
+    evidence_ids:
+    - ev-3a2f7d9bea0a96ac
+  next_validation: 收集 Beam.win 官方产品页或文档，确认跨机连接方式、权限边界与是否收费。
+  market: ''
+  job: 开发者在两台 Mac 之间工作时，需要让 AI 编码代理在一台机器上持续运行，并在另一台机器上查看和接管它的窗口，以完成同一段编码任务。
+  job_en: Working across two Macs, a developer needs an AI coding agent to keep running on one machine
+    while viewing and taking over its window on the other to finish the same coding task.
+  pain: 公开材料只说明跨机使用代理窗口，没有说明原来哪一步手工操作难受、频率多高，也没有用户抱怨或替代做法。
+  pain_en: The public material only describes using agent windows across machines; it does not show which
+    manual step was painful, how often, or any user complaint or workaround.
+  current_alternative: 现有替代可能是远程桌面、SSH、屏幕共享，或直接在单台机器上运行代理；材料未说明这些做法哪里不够。
+  current_alternative_en: Current alternatives may be remote desktop, SSH, screen sharing, or simply running
+    the agent on one machine; the material does not say where these fall short.
+  usage_reason: 推断：若代理窗口能跨机直接操作，用户可省去远程桌面配置或在两台机器间搬运代码的步骤；但缺少用户反馈与实测，无法确认这一负担是否真实存在。
+  usage_reason_en: 'Inference: if agent windows can be operated across machines directly, users could
+    skip remote-desktop setup or moving code between machines; without user feedback or testing, it is
+    unclear whether this burden is real.'
+- id: req-full-beamwin-2026-10-20
+  project_slug: beamwin
+  level: full
+  reviewed_at: '2026-10-20T01:42:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨机照看 AI 代理窗口的任务，但公开材料只有一句产品描述，未说明旧流程的具体痛点、频率与不解决的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-9706ea98de8826b3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Beam.win 官方产品页或文档，确认跨机连接方式、权限边界与是否收费。
+  market: ''
+  job: 开发者在两台 Mac 之间切换时，需要让 AI 编码代理在一台机器上持续运行，并在另一台机器上查看和接管它的窗口，以继续同一段编码任务。
+  job_en: When switching between two Macs, a developer needs an AI coding agent to keep running on one
+    machine while viewing and taking over its window on the other to continue the same coding task.
+  pain: 公开材料只有一句产品描述，没有说明旧流程中哪一步手工操作难受、发生频率多高，也没有用户抱怨或替代做法，痛点无法从证据中还原。
+  pain_en: The public material is a single product description; it does not show which manual step was
+    painful, how often it occurs, or any user complaint or workaround, so the pain cannot be reconstructed
+    from evidence.
+  current_alternative: 现有替代可能是远程桌面、SSH、屏幕共享，或直接在单台机器上运行代理；材料未说明这些做法哪里不够。
+  current_alternative_en: Current alternatives may be remote desktop, SSH, screen sharing, or simply running
+    the agent on one machine; the material does not say where these fall short.
+  usage_reason: 推断：若代理窗口能跨机直接操作，用户可省去远程桌面配置或在两台机器间搬运代码的步骤；但缺少用户反馈与实测，无法确认这一负担是否真实存在。
+  usage_reason_en: 'Inference: if agent windows can be operated across machines directly, users could
+    skip remote-desktop setup or moving code between machines; without user feedback or testing, it is
+    unclear whether this burden is real.'

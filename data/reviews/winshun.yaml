@@ -245,3 +245,50 @@
     text and clipboard history behind one double-Ctrl entry, removing the step of switching tools and
     digging through folders, so Chinese-language office users would choose it for frequent file lookup
     (inference; no user feedback or retention evidence yet).
+- id: req-full-winshun-2026-10-20
+  project_slug: winshun
+  level: full
+  reviewed_at: '2026-10-20T01:46:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Windows 办公人员找本地文件、文档正文与剪贴板旧内容慢的问题，痛点高频且已有 Everything、Listary、Win+V 等替代行为，交付是直接打开或粘贴，结构上成立（工作流推理）。
+    evidence_ids:
+    - ev-1c05ab70ddcab843
+    - ev-312a00bb150aed22
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 333 增至 452，说明关注度上升，但缺少用户评价、issue 讨论与重复使用证据，不能证明已进入持续工作流。
+    evidence_ids:
+    - ev-312a00bb150aed22
+    - ev-9d0326a4d8e481aa
+  - gate: model
+    status: insufficient
+    reason: 产品免费开源，公开材料未给出付费路径，钱可能来自捐赠、企业定制或托管版，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-312a00bb150aed22
+  - gate: truth
+    status: insufficient
+    reason: AI 助手 MCP 环节的具体动作、索引隐私与本地数据边界公开材料未说明，承诺能否确定性交付仍待核验。
+    evidence_ids:
+    - ev-1c05ab70ddcab843
+  next_validation: 追踪该仓库 issue 与 discussion 区，确认用户实际使用场景、AI 助手接入方式与索引隐私处理。
+  market: ''
+  job: Windows 办公人员在写报告或整理资料时，需要从本机大量文件、Word/Excel/PDF 正文和刚复制过的内容中快速定位一份材料，并直接打开或粘贴到当前文档。
+  job_en: Windows office workers writing reports or organizing materials need to quickly locate a document
+    among many local files, Word/Excel/PDF body text, or recently copied content, then open or paste it
+    into the current document.
+  pain: Windows 自带搜索慢且不支持拼音与文档正文，剪贴板历史入口分散，找一份文件或一段旧内容要反复翻目录、切换多个工具。
+  pain_en: Windows built-in search is slow and supports neither pinyin nor document body text; clipboard
+    history is scattered, so finding a file or an old snippet means repeatedly digging through folders
+    and switching tools.
+  current_alternative: 此前依赖 Windows 自带搜索、Everything、Listary 或手动翻目录，剪贴板靠 Win+V。
+  current_alternative_en: Previously this relied on Windows built-in search, Everything, Listary or manual
+    folder browsing, with Win+V for clipboard.
+  usage_reason: 相较系统搜索与 Everything，它把拼音检索、Office/PDF 全文与剪贴板历史收进同一个双击 Ctrl 入口，省掉切换工具与逐层翻目录这一步，因此中文办公用户会在高频找文件时选择它（推断）。
+  usage_reason_en: Compared with system search and Everything, it puts pinyin lookup, Office/PDF full
+    text and clipboard history behind one double-Ctrl entry, removing the step of switching tools and
+    digging through folders, so Chinese-language office users would choose it for frequent file lookup
+    (inference).

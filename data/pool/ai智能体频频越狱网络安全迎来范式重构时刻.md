@@ -2,27 +2,47 @@
 slug: ai智能体频频越狱网络安全迎来范式重构时刻
 name: Cyera
 builder: ''
-category: ''
-summary_zh: AI智能体频繁被“越狱”，引发网络安全范式重构，需要新的防护措施。
-inspiration: ''
-summary_en: AI agents are frequently 'jailbroken', triggering a paradigm shift in cybersecurity, requiring
-  new defense measures.
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 企业安全团队在部署AI智能体前后，需要弄清智能体能触达哪些数据、权限是否越界。Cyera以数据安全平台切入，对智能体可访问的数据与行为做识别和管控，最终交付风险发现与处置结果；具体产品流程与交付形态仍待核验。
+inspiration: 趋势：智能体开始替人调用企业数据，安全边界从“人访问系统”变成“代理访问数据”，旧的数据分类与权限工具跟不上。切入：从已有大量敏感数据、又急于上智能体的金融、医疗企业安全预算入手，卖审计与持续监控结果，而非再卖一套通用安全平台。
+summary_en: Before and after deploying AI agents, enterprise security teams must know which data the agents
+  can reach and whether permissions are over-broad. Cyera enters through data security, identifying and
+  controlling the data and behavior agents can access and delivering risk findings and remediation; the
+  exact workflow and deliverables still need verification.
+inspiration_en: 'Trend: agents now call enterprise data on people''s behalf, so the security boundary
+  shifts from human-to-system access to agent-to-data access, which legacy classification and permission
+  tools do not cover. Entry: target security budgets at data-heavy finance and healthcare firms rushing
+  agents into production, selling audit and continuous-monitoring outcomes rather than another general
+  security platform.'
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 网络安全
+- 企业数据安全
+industries_en:
+- Cybersecurity
+- Enterprise Data Security
+jobs:
+- 企业安全团队在部署AI智能体前，需要梳理智能体可访问的数据范围与权限，并评估越权访问风险
+- 企业安全负责人在智能体上线后，需要持续监控其数据访问行为并处置异常调用
+jobs_en:
+- Enterprise security teams need to map the data scope and permissions AI agents can reach and assess
+  privilege-escalation risk before deployment
+- Security leads need to continuously monitor agents' data-access behavior after launch and handle anomalous
+  calls
+regions:
+- 美国
+- 以色列
+regions_en:
+- United States
+- Israel
 open_source: false
 url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CcWtfNlQ1T0FCdFFqcS0wZnFweG9MeHJHbzFpeVh3UGtJNGhFUGNIY0E4eGhiMWYtZW9yQUN4cXZDYWI3UmNLS0JocjIxTGV3Ympn?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CcWtfNlQ1T0FCdFFqcS0wZnFweG9MeHJHbzFpeVh3UGtJNGhFUGNIY0E4eGhiMWYtZW9yQUN4cXZDYWI3UmNLS0JocjIxTGV3Ympn?oc=5
 summary: AI智能体频频“越狱”：网络安全迎来范式重构时刻！ FX168财经
 first_seen: '2026-08-29T08:52:10Z'
 last_seen: '2026-10-07T01:33:02Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:

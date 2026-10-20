@@ -32,7 +32,7 @@ summary: '“I think I have good news about the nature of neural networks.” Wi
   Another called it “the most important'
 first_seen: '2026-10-20T01:06:54Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

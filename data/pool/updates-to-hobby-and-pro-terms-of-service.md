@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-se
 summary: ''
 first_seen: '2026-10-20T01:06:54Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

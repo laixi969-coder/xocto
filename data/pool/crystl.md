@@ -21,7 +21,7 @@ canonical_url: https://crystl.dev/guides/tmux-for-ai-agents
 summary: 'Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling'
 first_seen: '2026-10-20T01:06:26Z'
 last_seen: '2026-10-20T01:06:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

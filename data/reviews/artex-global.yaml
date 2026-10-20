@@ -186,3 +186,46 @@
   usage_reason_en: The three linked sources point to a marine beacon manufacturer, an insurance broker
     and a same-named public code repository repository, and cannot be confirmed to describe the same product,
     so why users would choose it cannot be stated; this is an evidence gap, not a usage motive.
+- id: req-full-artex-global-2026-10-20
+  project_slug: artex-global
+  level: full
+  reviewed_at: '2026-10-20T01:42:03Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 证据链全部指向 ACR 航空信标与 Artex 保险，与 AI 渗透测试框架无关；无法从公开事实还原用户任务、痛点与旧替代，需求结构写不出来。
+    evidence_ids:
+    - ev-beed9a320517e021
+    - ev-c2c0c8863c24f115
+    - ev-04d46c0b894ee58e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪上游仓库 Autumn-27/ARTEX 的 README、部署文档与 issue/discussion，确认授权范围校验机制与可复现的测试输出格式。
+  market: ''
+  job: 安全工程师在获得客户书面授权的渗透测试项目中，把目标系统或资产清单交给该框架，由 AI 代理执行探测与攻击链尝试，最终产出可复核的漏洞结果与测试记录。
+  job_en: In a client-authorized penetration-testing engagement, a security engineer hands target systems
+    or an asset list to the framework, AI agents attempt probing and attack chains, and the engineer needs
+    reviewable vulnerability findings and test records.
+  pain: 公开证据中没有一条描述安全工程师的渗透测试痛点、旧流程或抱怨；现有证据全部指向无关的航空信标厂商与保险机构，无法支持任何痛点陈述。
+  pain_en: No public evidence describes a security engineer's pentest pain, old workflow, or complaint;
+    all evidence points to unrelated aviation-beacon and insurance firms, so no pain statement can be
+    supported.
+  current_alternative: 公开材料未提供任何关于人工渗透测试服务、扫描器加人工验证或跳过定期测试的替代行为证据。
+  current_alternative_en: The public material provides no evidence of manual pentest services, scanner-plus-human
+    verification, or skipping periodic testing as alternatives.
+  usage_reason: 无法从证据判断用户为何选择它：现有链接与 ARTEX 渗透测试框架无关，缺少 README、部署文档或使用反馈，任何采用动机都只能凭空编造，故不给出。
+  usage_reason_en: 'Why users would choose it cannot be judged: the linked pages are unrelated to an ARTEX
+    pentest framework, and README, deployment docs, or usage feedback are absent, so any adoption motive
+    would be fabricated and is not given.'

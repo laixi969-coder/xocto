@@ -1,0 +1,85 @@
+- id: req-initial-spotnote-2026-10-20
+  project_slug: spotnote
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把界面问题准确指给编码代理的负担，痛点具体，交付是代理据此修改的代码；但标注到代理输入的链路未公开。
+    evidence_ids:
+    - ev-389cd7fe70d872ee
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论且无评论，没有开发者使用记录或案例，共识未形成。
+    evidence_ids:
+    - ev-389cd7fe70d872ee
+  - gate: model
+    status: insufficient
+    reason: 开源插件，未披露任何收费或团队版路径；买方可能是使用编码代理的前端团队，这是判断而非事实。
+    evidence_ids:
+    - ev-389cd7fe70d872ee
+  - gate: truth
+    status: insufficient
+    reason: 标注如何转成代理可读输入、是否需人工复核、与哪些代理兼容，均无公开材料。
+    evidence_ids:
+    - ev-389cd7fe70d872ee
+  next_validation: 查看该仓库的 README 与 issue，确认标注转成代理输入的格式及已支持的编码代理。
+  market: ''
+  job: 前端开发者在本地跑 Vite 开发服务器时，直接在页面上标注界面问题，把带位置的反馈交给编码代理去改代码。
+  job_en: A front-end developer running a local Vite dev server annotates UI issues directly on the page
+    and hands located feedback to a coding agent to change the code.
+  pain: 向编码代理描述界面哪里不对要靠文字和截图，位置说不清，代理常改错地方，来回沟通成本高。
+  pain_en: Describing to a coding agent what is wrong on screen relies on text and screenshots, locations
+    are ambiguous, the agent often edits the wrong place, and back-and-forth is costly.
+  current_alternative: 用文字描述加截图贴给代理，或自己手动定位文件与行号再改。
+  current_alternative_en: Pasting text descriptions and screenshots to the agent, or manually locating
+    the file and line before editing.
+  usage_reason: 推断：相较文字加截图，它在页面元素上直接留下带位置的标注，省掉开发者把视觉问题翻译成文件路径和行号的一步，使用编码代理的前端开发者会在界面走查时选它；尚无公开使用反馈。
+  usage_reason_en: 'Inference: compared with text plus screenshots, it leaves located annotations on page
+    elements, skipping the step of translating a visual issue into file paths and line numbers, so front-end
+    developers using coding agents would pick it during UI walkthroughs; no public usage feedback yet.'
+- id: req-full-spotnote-2026-10-20
+  project_slug: spotnote
+  level: full
+  reviewed_at: '2026-10-20T01:45:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把界面问题准确指给编码代理的需求，痛点是位置说不清导致代理改错，旧做法是文字加截图或手动定位；交付是代理据此修改的代码，结构上成立，属工作流推理。
+    evidence_ids:
+    - ev-389cd7fe70d872ee
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库一句产品描述，没有使用记录、案例或讨论，无法判断开发者是否已把它留在工作流里。
+    evidence_ids:
+    - ev-389cd7fe70d872ee
+  - gate: model
+    status: insufficient
+    reason: 开源 Vite 插件，未披露收费或团队版路径；买方可能是使用编码代理的前端团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-389cd7fe70d872ee
+  - gate: truth
+    status: insufficient
+    reason: 标注如何转成代理可读输入、是否需人工复核、兼容哪些编码代理，公开材料均未说明，交付确定性待核。
+    evidence_ids:
+    - ev-389cd7fe70d872ee
+  next_validation: 追踪 Spotnote 仓库 README 与 issue，确认标注转成代理输入的格式、已支持的编码代理及是否有外部开发者使用反馈。
+  market: ''
+  job: 前端开发者在本地运行 Vite 开发服务器时，在页面上直接标注界面问题，把带位置的反馈交给编码代理去改代码。
+  job_en: A front-end developer running a local Vite dev server annotates UI issues directly on the page
+    and hands located feedback to a coding agent to change the code.
+  pain: 用文字和截图向编码代理描述界面哪里不对，位置说不清，代理容易改错地方，来回沟通成本高；这是从任务结构推出的痛点，公开材料只有一句产品描述。
+  pain_en: Describing to a coding agent what is wrong on screen via text and screenshots leaves locations
+    ambiguous, the agent often edits the wrong place, and back-and-forth is costly; this is inferred from
+    the task structure, as public material is only a one-line product description.
+  current_alternative: 用文字描述加截图贴给代理，或自己手动定位文件与行号再改。
+  current_alternative_en: Pasting text descriptions and screenshots to the agent, or manually locating
+    the file and line before editing.
+  usage_reason: 推断：相较文字加截图，它在页面元素上直接留下带位置的标注，省掉开发者把视觉问题翻译成文件路径和行号的一步，使用编码代理的前端开发者会在界面走查时选它；尚无公开使用反馈。
+  usage_reason_en: 'Inference: compared with text plus screenshots, it leaves located annotations on page
+    elements, skipping the step of translating a visual issue into file paths and line numbers, so front-end
+    developers using coding agents would pick it during UI walkthroughs; no public usage feedback yet.'

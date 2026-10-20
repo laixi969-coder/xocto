@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxPRjltUzFDak9V
 summary: Where AI costs are made or saved in software development IBM
 first_seen: '2026-08-31T07:00:00Z'
 last_seen: '2026-09-01T14:56:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

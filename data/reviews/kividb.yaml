@@ -1,0 +1,88 @@
+- id: req-initial-kividb-2026-10-20
+  project_slug: kividb
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决缓存与向量检索分两套维护的问题，痛点具体，旧替代是 Redis 加独立向量库拼接。
+    evidence_ids:
+    - ev-e920a9b6485d4da2
+  - gate: consensus
+    status: insufficient
+    reason: 只有社区讨论热度，没有采用规模或团队迁移案例。
+    evidence_ids:
+    - ev-e920a9b6485d4da2
+  - gate: model
+    status: insufficient
+    reason: 开源项目，托管或支持收费路径未披露，买方与定价不明。
+    evidence_ids:
+    - ev-e920a9b6485d4da2
+  - gate: truth
+    status: insufficient
+    reason: 兼容性与性能宣称缺少可复现实测和文档核验。
+    evidence_ids:
+    - ev-e920a9b6485d4da2
+  next_validation: 收集 KiviDB 仓库的 README、基准测试与 issue 讨论，核验其 Redis 兼容范围和向量检索性能是否可复现。
+  market: ''
+  job: AI 应用开发者在已有 Redis 缓存之外还要维护向量检索时，需要把两类存储合并到一套兼容接口里，完成低延迟读写。
+  job_en: AI application developers who must maintain vector retrieval alongside an existing Redis cache
+    need to merge both into one compatible interface for low-latency reads and writes.
+  pain: 同时维护缓存和向量库意味着两套部署、两份数据同步和两处故障点，延迟与一致性都要分别调优。
+  pain_en: Running a cache and a vector store side by side means two deployments, duplicated data sync
+    and two failure points, with latency and consistency tuned separately.
+  current_alternative: 多数团队用 Redis 加独立向量数据库拼接，或自己写同步脚本。
+  current_alternative_en: Most teams stitch Redis together with a separate vector database, or write their
+    own sync scripts.
+  usage_reason: 推断：KiviDB 以 Redis 兼容接口同时承载记忆数据和向量缓存，团队可少维护一套存储与同步链路，因此已有 Redis 部署又要加向量检索的团队会先试用它；是否长期留在工作流尚无留存证据。
+  usage_reason_en: 'Inference: KiviDB serves both memory data and vector cache behind a Redis-compatible
+    interface, so teams maintain one less store and sync path; teams already on Redis that need vector
+    search would try it first, though there is no retention evidence yet.'
+- id: req-full-kividb-2026-10-20
+  project_slug: kividb
+  level: full
+  reviewed_at: '2026-10-20T01:43:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决缓存与向量检索分两套维护的需求，痛点具体：两套部署、两份同步、两处故障点。旧替代是 Redis 加独立向量库拼接。该判断基于仓库简介与工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-e920a9b6485d4da2
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库一句简介，没有采用规模、迁移案例或开发者讨论，无法判断是否形成场景共识；中文检索也未发现相关项目资料。
+    evidence_ids:
+    - ev-e920a9b6485d4da2
+    - ev-8342083bbdb5518c
+  - gate: model
+    status: insufficient
+    reason: 开源项目，托管服务或商业支持收费路径未披露，买方与定价均不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-e920a9b6485d4da2
+  - gate: truth
+    status: insufficient
+    reason: Redis 兼容范围与“更快”的性能宣称缺少 README 细节、基准测试和可复现实测，交付确定性尚未核验。
+    evidence_ids:
+    - ev-e920a9b6485d4da2
+  next_validation: 追踪 KiviDB 仓库的 README、基准测试文件与 issue/discussion，核验其 Redis 兼容命令范围和向量检索性能是否可复现。
+  market: ''
+  job: AI 应用开发者在已有 Redis 缓存之外还要加向量检索时，打开 KiviDB 这个开源数据库，把记忆数据和向量缓存交给同一套 Redis 兼容接口读写，完成低延迟检索。
+  job_en: AI application developers who need vector retrieval on top of an existing Redis cache open the
+    open-source KiviDB database and route both memory data and vector cache through one Redis-compatible
+    interface for low-latency retrieval.
+  pain: 缓存与向量库分两套维护，意味着两套部署、两份数据同步和两处故障点，延迟与一致性要分别调优；这是从产品定位推导的工作流痛点，尚无用户抱怨或案例佐证。
+  pain_en: Maintaining a cache and a vector store separately means two deployments, duplicated data sync
+    and two failure points, with latency and consistency tuned separately; this is inferred from the product
+    positioning, with no user complaints or cases yet.
+  current_alternative: 团队通常用 Redis 加独立向量数据库拼接，或自己写同步脚本维持两边一致。
+  current_alternative_en: Teams typically stitch Redis together with a separate vector database, or write
+    their own sync scripts to keep both sides consistent.
+  usage_reason: 推断：KiviDB 以 Redis 兼容接口同时承载记忆数据和向量缓存，团队可少维护一套存储与同步链路，因此已有 Redis 部署又要加向量检索的团队会先试用它；公开材料只有一句仓库简介，是否长期留在工作流尚无留存证据。
+  usage_reason_en: 'Inference: KiviDB serves both memory data and vector cache behind a Redis-compatible
+    interface, so teams maintain one less store and sync path; teams already on Redis that need vector
+    search would try it first, though the only public material is a one-line repo description and there
+    is no retention evidence.'

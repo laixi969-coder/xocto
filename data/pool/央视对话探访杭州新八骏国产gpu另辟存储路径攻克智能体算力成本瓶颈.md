@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE1aUHRRRm9GX0RG
 summary: 央视《对话》探访杭州“新八骏”：国产GPU另辟存储路径，攻克智能体算力成本瓶颈 中国日报网
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

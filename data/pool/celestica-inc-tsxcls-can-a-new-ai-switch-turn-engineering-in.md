@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOOHVYeEY5dWJl
 summary: 'Celestica Inc. (TSX:CLS): Can a New AI Switch Turn Engineering Into Orders? Kalkine Media'
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

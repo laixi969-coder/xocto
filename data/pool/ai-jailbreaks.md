@@ -23,7 +23,7 @@ summary: 'AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier an
   testing.'
 first_seen: '2026-10-20T01:06:30Z'
 last_seen: '2026-10-20T01:06:30Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

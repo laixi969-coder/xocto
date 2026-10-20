@@ -3,10 +3,14 @@ slug: instagram-cracks-down-on-ai-accounts-pretending-to-be-human
 name: Instagram
 builder: ''
 category: ''
-summary_zh: Instagram 更新政策，限制未披露的 AI 资料，并更名标签以增加透明度。这是平台政策变化，影响 AI 影响者账户。
+summary_zh: 2026年8月31日，Instagram 宣布限制未披露 AI 属性的账号触达范围，并将“AI creator”标签更名为“AI-generated profile”，以标明资料由
+  AI 生成人物构成。该平台政策变化意味着 AI 生成内容在社交分发中需显式标注，否则面临降权，直接影响 AI 内容创作者的分发成本与合规交付方式。
 inspiration: ''
-summary_en: Instagram updated policies to limit undisclosed AI profiles and renamed labels for transparency.
-  This is a platform policy change affecting AI influencer accounts.
+summary_en: On 31 August 2026, Instagram announced it would limit the reach of profiles that do not disclose
+  AI use and renamed its "AI creator" label to "AI-generated profile" to flag profiles featuring AI-generated
+  people. This platform policy change means AI-generated content on the social network must be explicitly
+  labeled or face reduced distribution, directly affecting distribution costs and compliance delivery
+  for AI content creators.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +29,7 @@ summary: Instagram is finally taking steps to address the rise of fake AI-influe
   people don't like seeing a profile […]
 first_seen: '2026-08-31T13:00:00Z'
 last_seen: '2026-09-01T14:56:33Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

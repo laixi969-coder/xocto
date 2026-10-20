@@ -349,3 +349,46 @@
   usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus manual cross-app
     work or which checkable result it improves, and no user feedback or case supports the choice motive,
     so it cannot explain why users would choose it.'
+- id: req-full-open-instinct-2026-10-20
+  project_slug: open-instinct
+  level: full
+  reviewed_at: '2026-10-20T01:44:45Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决个人事务跨应用执行的需求，但公开材料只有仓库简介与星标，未说明旧流程、卡点与不解决的后果；iMessage 入口和自有计算机属于功能描述，无法证明痛点刚性，结构推理也缺少可还原的交付闭环。
+    evidence_ids:
+    - ev-1eeb7beb77722c2f
+    - ev-830821c33e2fd557
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 收集 open-instinct 仓库的 README 与 issue 讨论，确认它实际能完成的任务类型、执行环境与交付确认方式。
+  market: ''
+  job: 个人用户在手机上通过 iMessage 给个人代理发消息，让它在自己的计算机上执行任务，并与其他代理协作完成事项。
+  job_en: An individual texts a personal agent over iMessage so it executes tasks on its own computer
+    and coordinates with other agents to complete errands.
+  pain: 公开材料只有仓库简介，未说明用户原来如何处理这些事务、卡在哪一步、不解决会失去什么；从结构上看，用户确实存在跨应用手动操作、切换工具与复制粘贴的负担，但材料没有给出任何用户抱怨或旧流程证据，痛点强度无法确认。
+  pain_en: The public material is only a repository blurb; it does not say how users handled these tasks
+    before, where they got stuck, or what they lose. Structurally there is a burden of manual cross-app
+    work and copy-paste, but no user complaint or old-workflow evidence is given, so pain intensity cannot
+    be confirmed.
+  current_alternative: 候选未提供旧做法信息；按常识推断可能是用户自己在多个 App 间手动操作，或使用通用聊天助手逐条复制指令，但这是推断，不是材料事实。
+  current_alternative_en: The candidate gives no information on prior practice; by inference users may
+    have handled it manually across multiple apps or used a general chat assistant to copy instructions
+    one by one, but this is inference, not a material fact.
+  usage_reason: 无法判断：材料未说明它相较手动跨应用操作减少了哪一步负担或改善了哪项可核对结果；iMessage 入口与自有计算机只是功能描述，不能解释用户为何选择它，因此不能作为使用理由。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus manual cross-app
+    work or which checkable result it improves; the iMessage entry and own computer are only feature descriptions,
+    not reasons users would choose it.'

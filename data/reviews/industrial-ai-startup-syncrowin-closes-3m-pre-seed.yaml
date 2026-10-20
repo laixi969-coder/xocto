@@ -1,0 +1,84 @@
+- id: req-initial-industrial-ai-startup-syncrowin-closes-3m-pre-seed-2026-10-20
+  project_slug: industrial-ai-startup-syncrowin-closes-3m-pre-seed
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决工业设备诊断与维护排程，但公开材料未说明具体任务、输入和交付，连痛点环节都无法定位。
+    evidence_ids:
+    - ev-5297b007edc0c326
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资报道，没有客户采用、试点或行业共识证据。
+    evidence_ids:
+    - ev-5297b007edc0c326
+  - gate: model
+    status: insufficient
+    reason: 未披露买方、定价或收费方式；300 万美元 pre-seed 只说明投资方出资，不构成客户付费路径。
+    evidence_ids:
+    - ev-5297b007edc0c326
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近工业维护的第一性目标，也无法判断交付是否确定发生。
+    evidence_ids:
+    - ev-5297b007edc0c326
+  next_validation: 收集 Syncrowin 官方产品页或部署文档，确认其接收的工业数据类型、输出交付物与目标客户。
+  market: ''
+  job: 工厂运营或工程团队在设备与产线数据分散时，需要判断异常原因并安排维护；Syncrowin 具体接收什么材料、完成哪一步仍待核验。
+  job_en: Plant operations or engineering teams need to diagnose equipment and line anomalies and schedule
+    maintenance when data is scattered; what Syncrowin receives and which step it completes still need
+    verification.
+  pain: 工业停机和误判维修代价高，但公开材料没有说明 Syncrowin 针对哪类故障、替代哪一步人工判断。
+  pain_en: Industrial downtime and misdiagnosed repairs are costly, but public material does not say which
+    faults Syncrowin targets or which manual judgement step it replaces.
+  current_alternative: 现有做法可能是人工巡检记录、老师傅经验判断和工单系统，但报道未描述客户原来的流程。
+  current_alternative_en: The existing approach may be manual inspection logs, veteran engineers' judgement
+    and work-order systems, but the report does not describe customers' prior process.
+  usage_reason: 无法判断：公开材料只有融资事实，没有产品动作、交付结果或用户反馈，因而说不清相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Cannot be judged: public material contains only the funding fact, with no product
+    action, deliverable or user feedback, so it is unclear which burden is reduced versus the old approach.'
+- id: req-full-industrial-ai-startup-syncrowin-closes-3m-pre-seed-2026-10-20
+  project_slug: industrial-ai-startup-syncrowin-closes-3m-pre-seed
+  level: full
+  reviewed_at: '2026-10-20T01:43:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开报道只说明它是工业 AI 初创公司并完成 300 万美元 pre-seed 融资，未披露具体任务、输入数据、输出交付和痛点环节，连需求与痛点都无法还原，不能形成结构推理。
+    evidence_ids:
+    - ev-5297b007edc0c326
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Syncrowin 官网产品页或部署文档，确认其接收的工业数据类型、输出交付物与目标客户。
+  market: ''
+  job: 工厂运营或工程团队在设备与产线数据分散时，需要判断异常原因并安排维护；但公开材料未说明 Syncrowin 由谁在哪个工作节点打开、接收哪些设备或产线数据、输出什么结论或工单。
+  job_en: Plant operations or engineering teams need to diagnose equipment and line anomalies and schedule
+    maintenance when data is scattered; however, public material does not say who opens Syncrowin at which
+    work step, what equipment or line data it ingests, or what conclusion or work order it outputs.
+  pain: 公开材料只确认 Syncrowin 是工业 AI 初创公司并完成 300 万美元 pre-seed 融资，未披露它针对哪类故障、替代哪一步人工判断，因此无法确认具体痛点。
+  pain_en: Public material only confirms Syncrowin is an industrial AI startup that raised a $3m pre-seed
+    round; it does not disclose which faults it targets or which manual judgement step it replaces, so
+    the specific pain cannot be confirmed.
+  current_alternative: 报道未描述客户原有流程；人工巡检记录、老师傅经验判断和工单系统只是对工业维护旧做法的推测，不能作为该产品的替代证据。
+  current_alternative_en: The report does not describe customers' prior process; manual inspection logs,
+    veteran engineers' judgement and work-order systems are only inferences about industrial maintenance
+    practice, not evidence of this product's substitute.
+  usage_reason: 无法判断：公开材料只有融资事实，没有产品动作、交付结果或用户反馈，说不清相较旧做法减少了哪一步负担，也无法推断哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: public material contains only the funding fact, with no product
+    action, deliverable or user feedback, so it is unclear which burden is reduced versus the old approach
+    or which users would choose it under what circumstances.'

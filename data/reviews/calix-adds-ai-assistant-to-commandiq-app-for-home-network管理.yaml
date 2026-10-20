@@ -1,0 +1,92 @@
+- id: req-initial-calix-adds-ai-assistant-to-commandiq-app-for-home-network管理-2026-10-20
+  project_slug: calix-adds-ai-assistant-to-commandiq-app-for-home-network管理
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭宽带故障时用户无法自行判断问题、只能求助客服的需求，痛点具体且高频；但助手具体动作未公开，交付确定性存疑。
+    evidence_ids:
+    - ev-a38000e24ae31789
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道标题，未见用户评价、采用规模或运营商客户案例。
+    evidence_ids:
+    - ev-a38000e24ae31789
+  - gate: model
+    status: insufficient
+    reason: 买方应为宽带运营商，但公开材料未说明该助手的定价、打包方式或是否单独收费。
+    evidence_ids:
+    - ev-a38000e24ae31789
+  - gate: truth
+    status: insufficient
+    reason: 无法核对助手是否真正减少工单或提升自助解决率，也未见人工兜底边界。
+    evidence_ids:
+    - ev-a38000e24ae31789
+  next_validation: 收集 Calix 官方关于 CommandIQ AI 助手的产品说明或新闻稿，确认其具体功能、上线范围与是否披露工单减少等结果数据。
+  market: ''
+  job: 家庭宽带用户在自家 Wi-Fi 掉线、变慢或设备连不上时，打开运营商应用查看网络状态并尝试自行排查，避免等待人工客服。
+  job_en: When home Wi-Fi drops, slows or a device cannot connect, broadband subscribers open their carrier
+    app to check network status and try to fix it themselves instead of waiting for phone support.
+  pain: 家庭网络故障时用户不知道问题出在路由器、设备还是线路，只能打客服电话或等上门，耗时且体验差。
+  pain_en: When home networking fails, users cannot tell whether the router, a device or the line is at
+    fault, so they call support or wait for a technician, which is slow and frustrating.
+  current_alternative: 拨打运营商客服热线、按语音菜单重启设备，或等待技术人员上门。
+  current_alternative_en: Calling the carrier's support line, rebooting devices per voice prompts, or
+    waiting for a technician visit.
+  usage_reason: 推断：若助手能在应用内读取网络状态并直接给出可执行的排查步骤，用户可省去打电话和等待坐席的一步；但公开材料未说明助手具体做什么，因此该理由为结构推断，缺少功能细节与使用反馈支撑。
+  usage_reason_en: 'Inference: if the assistant reads network status in-app and gives actionable troubleshooting
+    steps, users skip a support call and agent wait; public material does not describe what the assistant
+    does, so this is structural inference lacking feature detail and user feedback.'
+- id: req-full-calix-adds-ai-assistant-to-commandiq-app-for-home-network管理-2026-10-20
+  project_slug: calix-adds-ai-assistant-to-commandiq-app-for-home-network管理
+  level: full
+  reviewed_at: '2026-10-20T01:42:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭宽带故障时用户无法自行判断问题、只能求助客服或等上门的痛点，痛点具体且随网络使用反复出现；Calix 作为面向运营商的宽带软件平台，应用是既有自助渠道，AI 助手的具体动作未公开，交付确定性属结构推理而非已验证事实。
+    evidence_ids:
+    - ev-86326d11fd2a4b5d
+    - ev-27d7662f71f27c87
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有 Calix 公司定位与门户介绍，未见 CommandIQ 用户评价、采用规模、运营商客户案例或助手使用反馈，无法判断是否形成持续使用共识。
+    evidence_ids:
+    - ev-86326d11fd2a4b5d
+    - ev-aa9d675dc8910c67
+  - gate: model
+    status: insufficient
+    reason: 买方应为采购 Calix 平台的宽带运营商，而非家庭用户直接付费；公开材料未说明该 AI 助手是否单独收费、打包进平台还是作为增值功能，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-86326d11fd2a4b5d
+    - ev-27d7662f71f27c87
+  - gate: truth
+    status: insufficient
+    reason: 无法核对助手是否真正减少客服工单或提升自助解决率，也未见人工兜底与安全边界说明；Calix 平台定位只能说明方向，不能证明交付结果。
+    evidence_ids:
+    - ev-86326d11fd2a4b5d
+  next_validation: 追踪 Calix 官网 CommandIQ 产品页或官方新闻稿，确认 AI 助手的具体功能、上线运营商范围及是否披露工单减少或自助解决率等结果数据。
+  market: ''
+  job: 家庭宽带用户在自家 Wi-Fi 掉线、变慢或设备连不上时，打开运营商提供的 Calix CommandIQ 应用查看网络状态并尝试自行排查，避免等待人工客服或上门维修。
+  job_en: When home Wi-Fi drops, slows, or a device cannot connect, broadband subscribers open their carrier's
+    Calix CommandIQ app to check network status and try to troubleshoot themselves instead of waiting
+    for phone support or a technician visit.
+  pain: 家庭网络故障时，用户分不清问题出在路由器、终端设备还是运营商线路，只能拨打客服或等待上门，耗时长且体验差；这是从产品定位与家庭宽带运维流程推出的结构判断，公开材料未给出用户抱怨原文。
+  pain_en: When home networking fails, subscribers cannot tell whether the router, a device, or the carrier
+    line is at fault, so they call support or wait for a technician, which is slow and frustrating; this
+    is a structural inference from the product positioning and broadband support workflow, not a quoted
+    user complaint.
+  current_alternative: 拨打运营商客服热线、按语音提示重启设备，或等待技术人员上门；Calix 作为面向运营商的软件平台公司，其应用本身即是替代电话客服的自助渠道。
+  current_alternative_en: Calling the carrier's support line, rebooting devices per voice prompts, or
+    waiting for a technician visit; Calix, as a software platform vendor serving service providers, positions
+    its app as the self-service channel replacing phone support.
+  usage_reason: 推断：若 AI 助手能在应用内读取家庭网络状态并直接给出可执行的排查步骤，用户可省去打电话、排队等坐席和等待上门这一步；但公开材料未说明助手具体接收什么信息、执行什么动作，因此该理由为工作流结构推理，缺少功能细节与使用反馈支撑。
+  usage_reason_en: 'Inference: if the AI assistant reads home network status in-app and returns actionable
+    troubleshooting steps, subscribers skip the support call, agent queue, and technician wait; public
+    material does not describe what the assistant ingests or does, so this is workflow-structural inference
+    lacking feature detail and user feedback.'

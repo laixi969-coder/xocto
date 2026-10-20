@@ -87,3 +87,53 @@
     removing the steps of switching clients and writing glue code, so developers holding multiple subscriptions
     who care about data ownership would pick it when continuing the same conversations across desktop,
     phone and Telegram; public material shows no retention or repeat-use evidence.'
+- id: req-full-conch-agent-2026-10-20
+  project_slug: conch-agent
+  level: full
+  reviewed_at: '2026-10-20T01:42:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型入口分散与数据自持的需求：用户已为多个模型付费，却要逐个切换客户端并担心凭证外流；自托管统一入口可确定交付。这是从产品说明与旧流程作出的工作流结构推理，尚无用户反馈佐证痛点强度。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+    - ev-04a3d7f40a821082
+  - gate: consensus
+    status: insufficient
+    reason: 仅见仓库星标从 52 增至 90 与一句产品描述，没有用户评价、客户案例或采用规模，无法判断共识卡在感知、场景还是利益环节；星标只属关注度，不能证明持续使用。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+    - ev-04a3d7f40a821082
+  - gate: model
+    status: insufficient
+    reason: 开源自托管，未见定价页或付费路径；钱可能来自自付的开发者，也可能来自需要内网部署的小团队，这是判断而非已验证事实，存在靠关注度而非付费续命的风险。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+  - gate: truth
+    status: insufficient
+    reason: 统一入口与自托管承诺可核验，但多模型凭证如何存储、数据落在何处、Telegram 通道的安全边界与人工确认环节均未见文档说明，交付确定性尚不能确认。
+    evidence_ids:
+    - ev-a72303844f60d9a9
+    - ev-04a3d7f40a821082
+  next_validation: 追踪该仓库 README 与部署文档，确认多模型凭证存储方式、数据存放位置及 Telegram 通道的安全边界说明。
+  market: ''
+  job: 已为 Claude Code、Codex、Copilot、Gemini、Ollama 等多个模型付费的个人开发者或小团队，在需要把对话与凭证留在自己服务器时，部署一个自托管应用，从桌面、手机或
+    Telegram 统一发起对话并调用这些模型。
+  job_en: An individual developer or small team already paying for Claude Code, Codex, Copilot, Gemini,
+    Ollama and similar models deploys one self-hosted app to keep conversations and credentials on their
+    own server, then starts chats and calls those models from desktop, phone or Telegram.
+  pain: 多个模型各有客户端与订阅入口，切换和对话记录分散；对数据敏感的用户不愿把内容与 API 凭证交给第三方托管，自建脚本又要反复维护各家接口。
+  pain_en: Each model has its own client and subscription entry point, so switching and conversation history
+    are scattered; data-sensitive users do not want content and API credentials hosted by a third party,
+    while self-written scripts require repeatedly maintaining each vendor's interface.
+  current_alternative: 分别打开各家网页或客户端，或自己写脚本直接调用各家 API，再自行拼接记录与移动端访问。
+  current_alternative_en: Opening each vendor's web app or client separately, or writing scripts that
+    call each vendor's API directly and then stitching together records and mobile access themselves.
+  usage_reason: 推断：它把多个已付费模型收进一个自托管入口，并用桌面、手机、Telegram 三个通道复用同一会话，省去逐个切换客户端和自建胶水代码这两步；因此已持有多订阅、又要求数据留在自有服务器的开发者会在这种情境下试用。公开材料未给出留存或重复使用证据。
+  usage_reason_en: 'Inference: it puts several already-paid models behind one self-hosted entry point
+    and reuses the same session across desktop, phone and Telegram, removing the steps of switching clients
+    and writing glue code; developers who already hold multiple subscriptions and require data to stay
+    on their own server would try it in that situation. Public material gives no retention or repeat-use
+    evidence.'

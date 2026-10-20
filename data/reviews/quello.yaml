@@ -1,0 +1,81 @@
+- id: req-initial-quello-2026-10-20
+  project_slug: quello
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决跨多个工具找信息要逐个打开的问题，但材料只有一句口号，未说明接入范围与交付，痛点强度无法判断。
+    evidence_ids:
+    - ev-a0eb118aa67d4843
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页描述，无用户评价、采用或重复使用信号。
+    evidence_ids:
+    - ev-a0eb118aa67d4843
+  - gate: model
+    status: insufficient
+    reason: 买方与收费方式未披露；跨工具接入可能依赖各平台授权，交付确定性未知。
+    evidence_ids:
+    - ev-a0eb118aa67d4843
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真能读取并合并多源内容，也未说明人工确认边界。
+    evidence_ids:
+    - ev-a0eb118aa67d4843
+  next_validation: 收集 Quello 官方产品页或文档，确认它接入哪些工具、输入输出形式及是否披露定价。
+  market: ''
+  job: 推断：同时使用多个工具的用户在需要跨工具找信息时，把问题集中提出，希望一次拿到汇总答案。
+  job_en: 'Inference: users juggling several tools ask a question in one place when they need information
+    spread across tools, hoping for one consolidated answer.'
+  pain: 信息分散在多个已有工具中，逐个打开查找费步骤；候选材料未给出用户抱怨或案例，痛感强度未明。
+  pain_en: Information is scattered across several existing tools and checking each one costs steps; the
+    candidate gives no user complaints or cases, so pain intensity is unclear.
+  current_alternative: 逐个打开各工具分别搜索，或把内容复制到通用聊天助手里再问。
+  current_alternative_en: Opening each tool and searching separately, or copying content into a general
+    chat assistant and asking there.
+  usage_reason: 推断：若它真能直接读取用户已有工具并合并作答，可省去逐个打开与复制粘贴这一步；但接入范围与交付形式未披露，尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it truly reads the user''s existing tools and merges answers, it could
+    remove the step of opening each tool and copy-pasting; but integration scope and output form are undisclosed,
+    so user choice cannot yet be confirmed.'
+- id: req-full-quello-2026-10-20
+  project_slug: quello
+  level: full
+  reviewed_at: '2026-10-20T01:45:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选材料只有一句口号，未说明接入哪些工具、接收什么材料、返回什么答案；无法还原旧流程与交付闭环，连需求与痛点都难以具体写出。
+    evidence_ids:
+    - ev-1eaca2cde66f1b57
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Quello 官方产品页或文档，确认其接入的工具清单、输入输出形式及是否披露定价。
+  market: ''
+  job: 推断：同时使用多个工具的用户在需要跨工具找信息时，把问题集中提出，希望一次拿到汇总答案。
+  job_en: 'Inference: users juggling several tools ask a question in one place when they need information
+    spread across tools, hoping for one consolidated answer.'
+  pain: 信息分散在多个已有工具中，逐个打开查找费步骤；候选材料未给出用户抱怨或案例，痛感强度未明。
+  pain_en: Information is scattered across several existing tools and checking each one costs steps; the
+    candidate gives no user complaints or cases, so pain intensity is unclear.
+  current_alternative: 逐个打开各工具分别搜索，或把内容复制到通用聊天助手里再问。
+  current_alternative_en: Opening each tool and searching separately, or copying content into a general
+    chat assistant and asking there.
+  usage_reason: 推断：若它真能直接读取用户已有工具并合并作答，可省去逐个打开与复制粘贴这一步；但接入范围与交付形式未披露，尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it truly reads the user''s existing tools and merges answers, it could
+    remove the step of opening each tool and copy-pasting; but integration scope and output form are undisclosed,
+    so user choice cannot yet be confirmed.'

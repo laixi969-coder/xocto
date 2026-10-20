@@ -23,7 +23,7 @@ summary: Thomson Reuters Stock Rises 1.67% as AI-Powered Professional Software a
   Positive Momentum kalkine.ca
 first_seen: '2026-08-31T14:04:00Z'
 last_seen: '2026-09-01T14:56:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

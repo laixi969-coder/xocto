@@ -589,3 +589,49 @@
     switching and per-segment asset prep steps, so solo creators with only an idea and no production capacity
     would pick it when they need steady uploads; public materials contain no user feedback or case confirming
     this motive.'
+- id: req-full-bang-story-2026-10-20
+  project_slug: bang-story
+  level: full
+  reviewed_at: '2026-10-20T01:42:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 YouTube 故事类创作者把创意变成脚本、图片和视频的整段制作需求，旧做法是跨写作、图像、视频工具分别制作再手动拼接，痛点具体、交付物为可上传视频；这是基于产品说明的工作流结构推理，尚无成片质量或耗时数据。
+    evidence_ids:
+    - ev-f8b3afa0ce88c874
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 76 增至 146，属于关注度增长；没有创作者使用反馈、案例或讨论说明它已进入实际视频制作流程，强场景是否成立无法判断。
+    evidence_ids:
+    - ev-c2a5c67537edc8e5
+    - ev-f8b3afa0ce88c874
+  - gate: model
+    status: insufficient
+    reason: 公开材料未见定价、付费或订阅路径，钱可能来自 to C 创作者，但这是判断而非已验证事实；仅有仓库关注度，不构成收入证据。
+    evidence_ids:
+    - ev-f8b3afa0ce88c874
+  - gate: truth
+    status: insufficient
+    reason: 应用能否稳定产出可上传的成片、人工修改环节多少、AI 生成内容的安全与版权边界如何，公开材料均未说明，交付确定性缺可核对证据。
+    evidence_ids:
+    - ev-f8b3afa0ce88c874
+  next_validation: 追踪该项目的官方文档、issue 或 discussion，收集创作者关于成片可直接上传程度与人工修改量的公开记录。
+  market: ''
+  job: 做 YouTube 故事类视频的创作者在有一个故事创意时，打开桌面应用，让 AI 依次生成脚本、图片和视频，最终拿到可上传的视频文件。
+  job_en: A YouTube story-video creator with a story idea opens the desktop app and has AI generate script,
+    images and video in sequence, ending with an uploadable video file.
+  pain: 故事类视频需要脚本、配图和多段视频素材，分别制作并拼接耗时；公开材料只说明应用把三步自动化，未给出创作者制作时长、返工或质量数据。
+  pain_en: Story videos need scripts, images and multiple video clips produced and assembled separately,
+    which is time-consuming; public material only says the app automates the three steps, without creator
+    time, rework or quality data.
+  current_alternative: 创作者分别用写作工具写脚本、用图像和视频模型生成素材，再手动剪辑拼接；这是从产品定位推断的旧做法，公开材料未直接描述。
+  current_alternative_en: Creators write scripts in writing tools, generate assets with image and video
+    models, then edit and assemble manually; this is inferred from the product positioning, not directly
+    described in public material.
+  usage_reason: 推断：相较分别写脚本、生成图片和视频再手动拼接，应用把故事创意一次性串成脚本、图片、视频的流水线，减少跨工具切换和手工拼接；哪类创作者会在什么情况下选用、成片是否可直接上传，公开材料尚无反馈或案例支持。
+  usage_reason_en: 'Inference: versus writing a script, generating images and video separately and assembling
+    by hand, the app chains a story idea into a script-image-video pipeline, cutting tool switching and
+    manual assembly; which creators choose it and whether output is upload-ready is not yet supported
+    by public feedback or cases.'

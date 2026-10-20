@@ -436,3 +436,55 @@
     moving the ''discover after push, then triage each alert'' step to before push and collapsing it into
     one verdict; developers who want to catch security and quality issues pre-push would choose it, though
     this motive lacks user feedback or case evidence.'
+- id: req-full-openqodex-2026-10-20
+  project_slug: openqodex
+  level: full
+  reviewed_at: '2026-10-20T01:44:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是提交前对改动行做安全与质量复核的需求，痛点是问题在 push 后才暴露导致返工、密钥与依赖缺陷入库代价高；产品在编码代理内对改动行扫描并由独立进程复核，交付闭环可确定。这是工作流结构推理，误报率与人工确认比例尚无公开数据。
+    evidence_ids:
+    - ev-19cd239aee940a07
+    - ev-545381621fb5fc49
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库收藏从 653 增至 771，说明开发者持续关注；但收藏与关注只属规模信号，缺少 issue、discussion 或用户反馈证明它被留在提交前工作流中，强场景是否成立仍缺直接证据。
+    evidence_ids:
+    - ev-19cd239aee940a07
+    - ev-545381621fb5fc49
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或单位经济；开源项目可能靠托管服务或企业版变现，但这是判断而非已验证事实，to B 与 to C 付费路径均未核验。
+    evidence_ids:
+    - ev-19cd239aee940a07
+  - gate: truth
+    status: insufficient
+    reason: 扫描与独立复核的误报率、人工确认比例、以及是否贴近提交前安全第一性目标，均缺可复现的公开实测或部署文档；交付能否稳定发生尚未核验。
+    evidence_ids:
+    - ev-19cd239aee940a07
+    - ev-ba1088f1c9b3ef74
+  next_validation: 追踪 openqodex 仓库的 issue 与 discussion，确认开发者是否报告在 push 前实际部署、替代了哪些旧扫描流程及误报处理情况。
+  market: ''
+  job: 开发者在 Claude Code 或 Codex 中完成一段改动、准备 push 之前，对本次变更的代码行运行 SAST、密钥、依赖与 lint 扫描，并由独立审查进程复核扫描发现，得到可决定是否提交的审查结论。
+  job_en: Before pushing, a developer working in Claude Code or Codex runs SAST, secret, dependency and
+    lint scans on the changed lines, then has a separate reviewer process re-check the scanner findings
+    to decide whether the change is safe to commit.
+  pain: 公开说明只支持结构性推理：提交前安全与质量检查通常散落在多个工具和 CI 环节，开发者要在 push 后才发现问题，返工成本高；密钥与依赖问题一旦进入仓库，清理代价更大。具体误报率与人工确认比例尚无公开数据。
+  pain_en: 'Structural inference only: pre-push security and quality checks are typically split across
+    tools and CI, so problems surface after push and force rework; leaked secrets or bad dependencies
+    are costly to clean once in the repo. Public data on false-positive rates and manual confirmation
+    ratios is absent.'
+  current_alternative: 旧做法是依赖 CI 流水线、独立 SAST/密钥扫描工具、人工 code review，或让编码代理自行判断；这些环节与改动行之间缺少一次统一的、在 push
+    前的复核。
+  current_alternative_en: The old approach is CI pipelines, standalone SAST/secret scanners, human code
+    review, or leaving it to the coding agent itself; none of these gives a single pre-push re-check tied
+    to the changed lines.
+  usage_reason: 推断：相较 push 后等 CI 报错或另开扫描工具，它在编码代理内直接对改动行跑扫描并由独立进程复核，把发现问题的时点前移到提交之前，减少一轮返工；关注提交前安全的开发者和工程团队会因此在
+    push 前选择它。
+  usage_reason_en: 'Inference: instead of waiting for CI after push or opening a separate scanner, it
+    runs scans on changed lines inside the coding agent and has a separate process re-check findings,
+    moving detection before commit and cutting one rework loop; security-conscious developers and teams
+    would choose it pre-push.'

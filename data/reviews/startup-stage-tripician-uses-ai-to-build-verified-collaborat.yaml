@@ -1,0 +1,89 @@
+- id: req-initial-startup-stage-tripician-uses-ai-to-build-verified-collaborat-2026-10-20
+  project_slug: startup-stage-tripician-uses-ai-to-build-verified-collaborat
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决行程信息分散、手工拼接耗时且改动需重排的问题，旧做法是表格与攻略站手工整理，痛点具体。
+    evidence_ids:
+    - ev-8fd8f2efe91681ca
+  - gate: consensus
+    status: insufficient
+    reason: 仅有媒体报道标题，未见旅行顾问或游客的实际使用反馈与采用规模。
+    evidence_ids:
+    - ev-8fd8f2efe91681ca
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能是旅行顾问订阅或按单收费，属判断而非已验证事实。
+    evidence_ids:
+    - ev-8fd8f2efe91681ca
+  - gate: truth
+    status: insufficient
+    reason: “核验”与“协作”的具体实现和交付结果未公开，无法确认承诺能否确定性交付。
+    evidence_ids:
+    - ev-8fd8f2efe91681ca
+  next_validation: 收集 Tripician 官方产品页或定价页，确认核验字段、协作方式与收费模式。
+  market: ''
+  job: 旅行顾问或自由行规划者在为客户安排多城市行程时，处理航班、住宿与活动信息，要产出一份可协作、信息经过核验的行程单。
+  job_en: A travel advisor or independent planner assembling a multi-city trip processes flight, lodging
+    and activity information to produce a collaborative, verified itinerary.
+  pain: 行程信息分散在多个预订与点评平台，手工拼接耗时且容易出错，客户改一处就要重排整份行程。
+  pain_en: Itinerary information is scattered across booking and review platforms; manual assembly is
+    slow and error-prone, and one client change forces a full re-plan.
+  current_alternative: 用电子表格、文档或攻略网站手工整理，再通过邮件或聊天反复与客户确认。
+  current_alternative_en: Manually compiling in spreadsheets, documents or guide sites, then confirming
+    with clients repeatedly over email or chat.
+  usage_reason: 推断：若产品能自动抓取并核验航班与住宿信息、生成可共享的行程，规划者就省去逐条查证和排版这一步，客户改行程时也能在同一份文档上协作；这依赖核验与协作功能真实可用，公开材料尚未展示。
+  usage_reason_en: 'Inference: if the product automatically gathers and verifies flight and lodging details
+    and produces a shareable itinerary, planners skip manual cross-checking and formatting, and clients
+    can collaborate on one document when plans change; this depends on verification and collaboration
+    actually working, which public materials do not yet show.'
+- id: req-full-startup-stage-tripician-uses-ai-to-build-verified-collaborat-2026-10-20
+  project_slug: startup-stage-tripician-uses-ai-to-build-verified-collaborat
+  level: full
+  reviewed_at: '2026-10-20T01:45:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多城市行程信息分散、手工拼接耗时且改动需重排的需求，旧做法是表格与攻略站手工整理，痛点具体；但核验与协作如何交付仅有标题级公开事实，属工作流结构推理。
+    evidence_ids:
+    - ev-8fd8f2efe91681ca
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 PhocusWire 报道标题，未见旅行顾问或游客的实际使用反馈、采用规模或重复使用证据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-8fd8f2efe91681ca
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能是旅行顾问订阅或按单收费，属判断而非已验证事实；其余检索结果为通用 AI 工具页，不能归因到该产品。
+    evidence_ids:
+    - ev-8fd8f2efe91681ca
+    - ev-29fb65a6d0621eb4
+  - gate: truth
+    status: insufficient
+    reason: “核验”具体核对哪些字段、协作如何发生、最终交付形态均未公开，无法确认承诺能否确定性交付，也未见人工复核边界说明。
+    evidence_ids:
+    - ev-8fd8f2efe91681ca
+  next_validation: 追踪 Tripician 官方产品页或定价页，确认核验字段、协作方式与收费模式。
+  market: ''
+  job: 旅行顾问或自由行规划者在为客户或自己安排多城市行程时，处理航班、住宿与活动信息，要产出一份可协作、信息经过核验的行程单。
+  job_en: A travel advisor or independent planner assembling a multi-city trip processes flight, lodging
+    and activity information to produce a collaborative, verified itinerary.
+  pain: 行程信息分散在多个预订与点评平台，手工拼接耗时且易出错，客户改一处就要重排整份行程；公开材料只以标题形式提到“核验”与“协作”，未展示具体痛点反馈。
+  pain_en: Itinerary details are scattered across booking and review platforms; manual assembly is slow
+    and error-prone, and one client change forces a full re-plan. Public material only names 'verified'
+    and 'collaborative' in a headline, without user pain feedback.
+  current_alternative: 用电子表格、文档或攻略网站手工整理，再通过邮件或聊天反复与客户确认；这是从任务结构推断的旧做法，公开材料未直接描述。
+  current_alternative_en: Manually compiling in spreadsheets, documents or guide sites, then confirming
+    with clients repeatedly over email or chat; this is inferred from the task structure, not directly
+    described in public material.
+  usage_reason: 推断：若产品能自动汇总并核验航班与住宿信息、生成可共享行程，规划者就省去逐条查证和排版这一步，客户改行程时可在同一份文档上协作；这依赖核验与协作功能真实可用，公开材料尚未展示。
+  usage_reason_en: 'Inference: if the product automatically gathers and verifies flight and lodging details
+    and produces a shareable itinerary, planners skip manual cross-checking and formatting, and clients
+    can collaborate on one document when plans change; this depends on verification and collaboration
+    actually working, which public materials do not yet show.'

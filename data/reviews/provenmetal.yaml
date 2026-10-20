@@ -1,0 +1,86 @@
+- id: req-initial-provenmetal-2026-10-20
+  project_slug: provenmetal
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决打样下单时规格与报价信息在多个渠道间转抄的问题，痛点具体且出错有返工代价；买方与付费方式尚不清楚。
+    evidence_ids:
+    - ev-ff7a2d979504eb94
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，没有客户案例或重复使用证据，无法判断硬件团队是否把它纳入常规下单流程。
+    evidence_ids:
+    - ev-ff7a2d979504eb94
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与由谁付费，是板厂侧收费还是工程师侧收费无法判断。
+    evidence_ids:
+    - ev-ff7a2d979504eb94
+  - gate: truth
+    status: insufficient
+    reason: 下单涉及金额与交期承诺，公开材料未说明报价准确性、错误订单责任与人工确认环节。
+    evidence_ids:
+    - ev-ff7a2d979504eb94
+  next_validation: 收集 provenmetal 官方页面上的定价、下单流程说明或客户案例，确认报价与交期由谁确认。
+  market: ''
+  job: 硬件工程师在打样阶段整理 PCB 规格、数量与组装要求，通过 AI 客户端提交组装板订购并取得报价或订单确认。
+  job_en: Hardware engineers preparing prototype PCB specs, quantities and assembly requirements submit
+    assembled-board orders via an AI client and obtain a quote or order confirmation.
+  pain: 打样下单要在规格表、邮件和板厂报价之间来回搬运信息，参数或数量出错会直接造成返工和交期损失。
+  pain_en: Prototype ordering requires shuttling information between spec sheets, email and fabricator
+    quotes; a wrong parameter or quantity directly causes rework and schedule loss.
+  current_alternative: 工程师手工整理规格表，通过邮件或板厂网站在线下单，再等待人工报价与确认。
+  current_alternative_en: Engineers manually compile spec sheets, order by email or a fabricator website,
+    then wait for a human quote and confirmation.
+  usage_reason: 推断：相较手工填表与邮件往返，产品让 AI 客户端直接接收订购信息并触发下单动作，减少信息转抄这一步；但报价准确性、交期承诺与人工复核边界尚无公开证据。
+  usage_reason_en: 'Inference: versus manual forms and email back-and-forth, the product lets an AI client
+    receive order information and trigger the ordering action, removing a transcription step; quote accuracy,
+    lead-time commitments and human review boundaries have no public evidence yet.'
+- id: req-full-provenmetal-2026-10-20
+  project_slug: provenmetal
+  level: full
+  reviewed_at: '2026-10-20T01:45:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决打样下单时规格、数量与组装要求在多渠道间转抄的需求，痛点具体且出错有返工与交期代价；这是基于产品说明的工作流推理，谁付费尚不清楚。
+    evidence_ids:
+    - ev-ff7a2d979504eb94
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品页面一句功能描述，没有客户案例、用户评价或重复使用证据，无法判断硬件团队是否把它纳入常规打样下单流程。
+    evidence_ids:
+    - ev-ff7a2d979504eb94
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方，是板厂侧按订单收费还是工程师侧订阅无法判断；这是判断缺口，不是已验证事实。
+    evidence_ids:
+    - ev-ff7a2d979504eb94
+  - gate: truth
+    status: insufficient
+    reason: 下单涉及金额与交期承诺，公开材料未说明报价准确性、错误订单责任归属与人工确认环节，交付确定性无法核对。
+    evidence_ids:
+    - ev-ff7a2d979504eb94
+  next_validation: 追踪 provenmetal 官网 /mcp 页面后续是否公开定价、下单流程说明或客户案例，以确认报价与交期由谁确认及付费方。
+  market: ''
+  job: 硬件工程师在打样阶段整理 PCB 板规格、数量与组装要求，通过 AI 客户端经 MCP 接口提交组装板订购需求，并取得报价或订单确认。
+  job_en: Hardware engineers preparing prototype PCB specs, quantities and assembly requirements submit
+    assembled-board orders through an AI client via an MCP interface and obtain a quote or order confirmation.
+  pain: 打样下单需要在规格表、邮件和板厂报价之间反复转抄参数与数量，任何一处出错都会造成返工和交期损失；公开材料只说明产品提供 MCP 下单入口，未披露具体痛点反馈。
+  pain_en: Prototype ordering requires repeatedly transcribing parameters and quantities between spec
+    sheets, email and fabricator quotes; any error causes rework and schedule loss. Public material only
+    shows an MCP ordering entry point, not user-reported pain.
+  current_alternative: 工程师手工整理规格表，通过邮件或板厂网站下单，再等待人工报价与确认。
+  current_alternative_en: Engineers manually compile spec sheets, order by email or a fabricator website,
+    then wait for a human quote and confirmation.
+  usage_reason: 推断：相较手工填表与邮件往返，产品让 AI 客户端直接接收订购信息并触发下单动作，减少信息转抄这一步；报价准确性、交期承诺与人工复核边界尚无公开证据，因此不能断言用户已长期采用。
+  usage_reason_en: 'Inference: versus manual forms and email back-and-forth, the product lets an AI client
+    receive order information and trigger the ordering action, removing a transcription step; quote accuracy,
+    lead-time commitments and human review boundaries have no public evidence, so long-term adoption cannot
+    be claimed.'

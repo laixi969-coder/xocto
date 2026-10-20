@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTAxMmdLZ1Rr
 summary: 用AI“诈骗”诈骗分子！澳公司部署AI代理假扮受害者，专门浪费骗子时间 新浪网
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

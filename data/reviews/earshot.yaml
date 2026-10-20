@@ -125,3 +125,44 @@
   usage_reason_en: 'Inference: if the product truly lets an agent hear and review audio directly, it could
     remove a transcription and tool-switch step; but with no integration method, supported tasks, or user
     feedback, it is unclear which users would choose it and when.'
+- id: req-full-earshot-2026-10-20
+  project_slug: earshot
+  level: full
+  reviewed_at: '2026-10-20T01:43:18Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 候选证据全部指向同名乐队、词典释义与官网，没有任何材料说明编码代理处理音频的任务、痛点或旧替代，连需求与痛点都无法还原，价值关不成立。
+    evidence_ids:
+    - ev-6581ae3bc1981617
+    - ev-478014dfdacf1196
+    - ev-b310d573ea27129f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源项目仓库的 README 与 issue/discussion，确认其是否真实存在、支持的音频任务与接入方式，以及是否有开发者实际使用反馈。
+  market: ''
+  job: 使用编码代理的开发者，在调试或运行代理时，需要让代理处理声音输入并给出可核对的音频结果。
+  job_en: Developers using coding agents, while debugging or running an agent, need the agent to process
+    sound input and return a checkable audio result.
+  pain: 公开证据中没有任何材料描述编码代理处理音频时的具体痛点、失败场景或用户抱怨，无法确认该缺口真实存在。
+  pain_en: No public evidence describes a concrete pain, failure mode, or user complaint about coding
+    agents handling audio, so the gap cannot be confirmed.
+  current_alternative: 公开材料未披露开发者当前如何绕过音频任务，无法确认旧替代方式。
+  current_alternative_en: Public materials do not disclose how developers currently work around audio
+    tasks, so the old alternative is unknown.
+  usage_reason: 推断：若产品能让代理直接听取并审查音频，可省去手动转写或另接接口的一步；但缺少用户反馈或案例支持，无法确认开发者会因此选择它。
+  usage_reason_en: 'Inference: if the product lets an agent hear and review audio directly, it could remove
+    a manual transcription or separate-API step; but without user feedback or cases, it is unconfirmed
+    that developers would choose it.'

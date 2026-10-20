@@ -1,0 +1,87 @@
+- id: req-initial-darwin-ai-launches-finch-the-first-ai-assistant-built-for-pu-2026-10-20
+  project_slug: darwin-ai-launches-finch-the-first-ai-assistant-built-for-pu
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决公共部门整理 AI 治理要求与评估记录的痛点，任务具体；但助手实际动作未公开，交付确定性存疑。
+    evidence_ids:
+    - ev-6ab4c90f4579634a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，未见公共机构采用、用户评价或试点案例。
+    evidence_ids:
+    - ev-6ab4c90f4579634a
+  - gate: model
+    status: insufficient
+    reason: 买方应为公共机构，但公开材料未说明采购方式、定价或是否单独收费。
+    evidence_ids:
+    - ev-6ab4c90f4579634a
+  - gate: truth
+    status: insufficient
+    reason: 无法核对治理建议的准确性与人工复核边界，也未见监管合规结果。
+    evidence_ids:
+    - ev-6ab4c90f4579634a
+  next_validation: 收集 Darwin AI 官方关于 Finch 的产品页或新闻稿，确认其具体功能、目标机构类型与是否披露试点或采购案例。
+  market: ''
+  job: 公共部门合规或政策人员在制定和审查内部 AI 使用规则时，需要整理治理要求、比对政策并留下可审计记录。
+  job_en: Public-sector compliance or policy staff drafting and reviewing internal AI-use rules need to
+    organize governance requirements, compare policies and keep auditable records.
+  pain: AI 治理规则新且分散，人工整理政策依据和评估记录耗时，且难以保证一致性。
+  pain_en: AI governance rules are new and scattered, so manually assembling policy references and assessment
+    records is slow and hard to keep consistent.
+  current_alternative: 人工查阅法规与内部文件、用文档和表格手工整理治理记录。
+  current_alternative_en: Manually reading regulations and internal documents, and compiling governance
+    records in documents and spreadsheets.
+  usage_reason: 推断：若 Finch 能直接读取治理材料并生成可核对的政策比对或评估记录，合规人员可省去手工检索与整理的一步；但公开材料未说明其具体动作，该理由为结构推断。
+  usage_reason_en: 'Inference: if Finch reads governance material and produces checkable policy comparisons
+    or assessment records, compliance staff skip manual search and drafting; public material does not
+    describe its actions, so this is structural inference.'
+- id: req-full-darwin-ai-launches-finch-the-first-ai-assistant-built-for-pu-2026-10-20
+  project_slug: darwin-ai-launches-finch-the-first-ai-assistant-built-for-pu
+  level: full
+  reviewed_at: '2026-10-20T01:42:55Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 公开材料仅有发布标题，未说明 Finch 的输入、动作与交付，也未呈现合规人员的具体痛点或现有替代行为；现有证据中的 Finch 指向宠物自我关怀应用与鸟类词条，与公共部门治理无关，无法还原需求结构。
+    evidence_ids:
+    - ev-a604fe0d9af507a8
+    - ev-6ed341752f0b43c8
+    - ev-29d71a9529aa2343
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Darwin AI 官网或新闻稿中关于 Finch 的产品页，确认其面向公共部门的具体功能、输入材料与交付物，以及是否披露试点机构或采购记录。
+  market: ''
+  job: 公共部门合规或政策人员在起草、审查内部 AI 使用规则时，需要整理治理要求、比对政策依据并留下可审计记录；但公开材料只有发布标题，未说明 Finch 接收什么材料、执行什么动作、交付什么结果。
+  job_en: Public-sector compliance or policy staff drafting and reviewing internal AI-use rules need to
+    organize governance requirements, compare policy bases and keep auditable records; public material
+    is only a launch headline and does not state what Finch ingests, what it does, or what it delivers.
+  pain: 公开材料未提供任何关于用户痛点的描述：既没有合规人员整理治理材料的耗时、出错或审计压力的证据，也没有用户抱怨或工作流记录；无法确认痛点存在及其刚性。
+  pain_en: 'Public material provides no description of user pain: no evidence of time cost, error risk
+    or audit pressure in assembling governance material, and no user complaints or workflow records; the
+    pain''s existence and rigidity cannot be established.'
+  current_alternative: 公开材料未说明目标用户当前如何完成该任务，无法确认其替代方式是人工查阅法规、使用通用大模型，还是沿用既有合规工具。
+  current_alternative_en: Public material does not state how the target users currently complete this
+    task, so it is unknown whether they rely on manual regulation review, general-purpose LLMs, or existing
+    compliance tools.
+  usage_reason: 无法判断：公开材料未说明 Finch 的具体动作与交付物，也没有用户反馈或案例支持选择动机；现有证据中的 Finch 条目指向自我关怀宠物应用与鸟类词条，与公共部门治理无关，不能作为使用理由。
+  usage_reason_en: 'Cannot be determined: public material does not describe Finch''s actions or deliverables,
+    and no user feedback or case supports a choice motive; the Finch evidence items point to a self-care
+    pet app and a bird article, unrelated to public-sector governance, so they cannot serve as a usage
+    reason.'

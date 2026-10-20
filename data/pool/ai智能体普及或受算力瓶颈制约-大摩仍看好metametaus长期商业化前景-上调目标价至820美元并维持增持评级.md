@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4Mm45WUVueDRT
 summary: AI智能体普及或受算力瓶颈制约 大摩仍看好Meta(META.US)长期商业化前景 上调目标价至820美元并维持“增持”评级 证券之星
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

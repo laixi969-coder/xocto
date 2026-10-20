@@ -1,0 +1,89 @@
+- id: req-initial-strot-2026-10-20
+  project_slug: strot
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图降低高频决策的调用成本，痛点方向可推，但仓库说明未交代编译对象、任务类型与准确率。
+    evidence_ids:
+    - ev-349d0cbd8e39aeba
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无采用或复现证据，共识未形成。
+    evidence_ids:
+    - ev-349d0cbd8e39aeba
+  - gate: model
+    status: insufficient
+    reason: 开源项目，付费路径未披露，可能靠托管或支持服务，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-349d0cbd8e39aeba
+  - gate: truth
+    status: insufficient
+    reason: 本地执行与模型判断的一致性、安全边界均无公开材料可核对。
+    evidence_ids:
+    - ev-349d0cbd8e39aeba
+  next_validation: 查看 Strot 仓库 README 与 issue，确认编译对象、支持任务类型及与模型判断的一致性实测。
+  market: ''
+  job: 开发者把大模型的决策意图一次性编译，之后在本地执行判断以降低调用成本。
+  job_en: Developers compile an LLM's decision intent once and then run decisions locally to cut call
+    costs.
+  pain: 高频决策每次都调用大模型，延迟与调用费用累积；这是从产品定位作出的推断，公开材料未给出用户成本数据。
+  pain_en: Calling an LLM for every high-frequency decision accumulates latency and cost; this is inferred
+    from the positioning, as no user cost data is public.
+  current_alternative: 开发者目前直接按次调用模型 API，或手工写规则与小型分类模型替代。
+  current_alternative_en: Developers currently call model APIs per request, or hand-write rules and small
+    classifiers as substitutes.
+  usage_reason: 推断：相较每次决策都调用模型，它把意图编译一次后在本地执行，减少单次调用这一步；但编译范围与准确率损失未公开，无法判断是否值得替换现有规则。
+  usage_reason_en: 'Inference: compared with calling the model per decision, it compiles intent once and
+    runs locally, removing the per-call step; but compile scope and accuracy loss are not public, so whether
+    it beats existing rules cannot be judged.'
+- id: req-full-strot-2026-10-20
+  project_slug: strot
+  level: full
+  reviewed_at: '2026-10-20T01:45:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决高频决策每次调用大模型导致费用与延迟累积的需求，痛点在请求量放大时刚性；仓库定位已能还原“编译一次—本地执行”的输入动作与交付，属工作流结构推理，编译范围与准确率未公开。
+    evidence_ids:
+    - ev-349d0cbd8e39aeba
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库自述定位与一条检索覆盖记录，未见开发者复现、讨论或采用反馈，强场景是否形成无法从公开材料确认。
+    evidence_ids:
+    - ev-349d0cbd8e39aeba
+    - ev-343d0bf3c38138da
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或托管服务，钱可能来自企业支持、托管部署或 to VC，这是判断不是已验证事实；中文市场未发现供给。
+    evidence_ids:
+    - ev-349d0cbd8e39aeba
+    - ev-343d0bf3c38138da
+  - gate: truth
+    status: insufficient
+    reason: 本地执行与模型判断的一致性、编译后准确率损失及安全边界均无公开材料可核对，承诺能否确定性交付尚不明确。
+    evidence_ids:
+    - ev-349d0cbd8e39aeba
+  next_validation: 追踪 Strot 仓库 README 与 issue/discussion，确认编译对象、支持任务类型及本地执行与模型判断一致性的实测说明。
+  market: ''
+  job: 开发者在构建需要高频、低延迟判断的应用（如分类、路由、策略决策）时，把大模型的决策意图一次性编译成本地可执行的逻辑，之后在本地运行判断，而不再每次请求都调用模型。
+  job_en: Developers building high-frequency, low-latency decision applications (e.g., classification,
+    routing, policy decisions) compile an LLM's decision intent once into locally executable logic, then
+    run decisions locally instead of calling the model on every request.
+  pain: 公开材料只给出“编译一次、本地运行”的定位，未披露用户成本或延迟数据；从工作流结构推断，痛点是每次决策都调用大模型带来的调用费用与延迟随请求量线性累积，高频场景下难以承受。
+  pain_en: Public material only states the 'compile once, run locally' positioning and gives no user cost
+    or latency data; inferred from workflow structure, the pain is that per-decision LLM calls make cost
+    and latency scale linearly with request volume, which is hard to sustain in high-frequency settings.
+  current_alternative: 开发者目前按次调用模型 API，或手工编写规则、训练小型分类模型来替代高频模型调用。
+  current_alternative_en: Developers currently call model APIs per request, or hand-write rules and train
+    small classifiers to replace high-frequency model calls.
+  usage_reason: 推断：相较每次决策都调用模型，它把意图编译一次后在本地执行，省去单次请求的模型调用这一步，从而降低随请求量增长的调用费用与延迟；但编译对象、支持任务类型与准确率取舍未公开，哪类用户会实际替换现有规则尚无法核对。
+  usage_reason_en: 'Inference: compared with calling the model per decision, it compiles intent once and
+    executes locally, removing the per-request model call and thus cutting cost and latency that grow
+    with request volume; however, compile targets, supported task types and accuracy trade-offs are not
+    public, so which users would actually replace existing rules cannot be verified.'

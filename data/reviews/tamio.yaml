@@ -1,0 +1,86 @@
+- id: req-initial-tamio-2026-10-20
+  project_slug: tamio
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多服务器操作分散、切换与重复登录的问题，痛点具体，输入与交付可还原，属工作流推理。
+    evidence_ids:
+    - ev-19c47c4fba4fe9de
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量仓库关注度，无用户评价或采用证据，共识未形成。
+    evidence_ids:
+    - ev-19c47c4fba4fe9de
+  - gate: model
+    status: insufficient
+    reason: 开源免费，付费路径未披露，可能靠托管或支持服务，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-19c47c4fba4fe9de
+  - gate: truth
+    status: insufficient
+    reason: 代理通过 MCP 可执行的动作范围与安全边界未公开，交付确定性待核。
+    evidence_ids:
+    - ev-19c47c4fba4fe9de
+  next_validation: 查看 tamio 仓库 README 与 issue，确认 MCP 服务允许代理执行的动作范围及权限控制方式。
+  market: ''
+  job: 运维与后端开发者在 macOS 上连接多台服务器时，管理 SSH 会话、传输文件并让代理读取服务器状态。
+  job_en: Ops and backend developers connecting to several servers on macOS manage SSH sessions, transfer
+    files, and let agents read server status.
+  pain: 服务器操作分散在终端与独立 SFTP 工具之间，切换与重复登录消耗时间；这是从功能组合作出的推断，公开材料未给出用户抱怨。
+  pain_en: Server operations split between a terminal and separate SFTP tools, with switching and repeated
+    logins costing time; this is inferred from the feature set, as no user complaint is public.
+  current_alternative: 开发者目前用系统终端加独立 SFTP 客户端，或使用已有的商业 SSH 客户端。
+  current_alternative_en: Developers currently use the system terminal plus a separate SFTP client, or
+    an existing commercial SSH client.
+  usage_reason: 推断：相较在终端与 SFTP 工具间切换，它把命令执行、文件传输与服务器状态放在同一客户端，并通过 MCP 让代理直接读取服务器信息，减少重复登录和手工复制这一步；是否长期留在工作流尚无留存证据。
+  usage_reason_en: 'Inference: compared with switching between a terminal and an SFTP tool, it puts command
+    execution, file transfer, and server status in one client and lets agents read server info via MCP,
+    reducing repeated logins and manual copying; there is no retention evidence yet.'
+- id: req-full-tamio-2026-10-20
+  project_slug: tamio
+  level: full
+  reviewed_at: '2026-10-20T01:45:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多服务器操作分散、切换与重复登录的问题，输入、动作与交付可还原，属工作流结构推理；公开材料未给出用户抱怨或采用数据。
+    evidence_ids:
+    - ev-d1def1443820bff3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库自述与项目描述，未见用户评价、issue 讨论或采用案例，共识尚未形成；关注度不等于持续使用。
+    evidence_ids:
+    - ev-d1def1443820bff3
+  - gate: model
+    status: insufficient
+    reason: 仓库未披露定价或付费路径，可能走开源加托管或支持服务，这是判断不是已验证事实；买方与收入均未公开。
+    evidence_ids:
+    - ev-ed6cdf8703219089
+  - gate: truth
+    status: insufficient
+    reason: MCP 服务允许代理执行的动作范围、权限控制与安全边界未公开，交付确定性无法核对；需看部署文档或 issue。
+    evidence_ids:
+    - ev-e1c54232e8f59db6
+  next_validation: 追踪 tamio 仓库 README 与 issue，确认 MCP 服务允许代理执行的动作范围及权限控制方式。
+  market: ''
+  job: 运维与后端开发者在 macOS 上同时连接多台服务器时，处理命令执行、文件传输与服务器状态查看等材料，要完成一次会话内的部署、排障与文件同步任务。
+  job_en: Ops and backend developers connecting to multiple servers on macOS handle command execution,
+    file transfer, and server status checks to complete deployment, troubleshooting, and file-sync tasks
+    within one session.
+  pain: 公开材料只给出功能组合，未披露用户抱怨；结构推理上，旧流程把命令执行、SFTP 传输与状态查看分散在终端和独立工具中，多服务器场景需反复切换与重复登录，这是工作流推理而非用户口述。
+  pain_en: Public materials only show the feature set, not user complaints; structurally, the old workflow
+    splits command execution, SFTP transfer, and status checks across a terminal and separate tools, forcing
+    repeated switching and logins across servers. This is workflow inference, not user testimony.
+  current_alternative: 开发者目前用系统终端加独立 SFTP 客户端，或使用已有的商业 SSH 客户端（如 Termius 类工具）分别完成连接与传输。
+  current_alternative_en: Developers currently use the system terminal plus a separate SFTP client, or
+    existing commercial SSH clients, to handle connections and transfers separately.
+  usage_reason: 推断：相较在终端与 SFTP 工具间来回切换，它把命令执行、双栏文件传输与服务器状态放在同一 macOS 客户端，并用 MCP 让代理直接读取服务器信息，减少重复登录与手工复制这一步；哪类用户会长期留下尚无留存证据。
+  usage_reason_en: 'Inference: instead of switching between a terminal and an SFTP tool, it puts command
+    execution, dual-pane transfer, and server status in one macOS client and lets agents read server info
+    via MCP, cutting repeated logins and manual copying; there is no retention evidence on who stays long-term.'

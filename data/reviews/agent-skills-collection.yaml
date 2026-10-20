@@ -1146,3 +1146,42 @@
   usage_reason_en: 'Inference: developers may try it because a collection saves searching for skills one
     by one, but installation requires disabling antivirus and elevation, and there is no retention or
     repeat-use evidence; 209 stars only reflect attention.'
+- id: req-full-agent-skills-collection-2026-10-20
+  project_slug: agent-skills-collection
+  level: full
+  reviewed_at: '2026-10-20T01:41:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 agent-skills-collection 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 公开材料只说明它是面向 LLM Agent 的模块化技能合集，未写明谁在什么情况下、处理什么材料、要完成什么具体任务，使用场景无法还原。
+  job_en: Public materials only describe a curated collection of modular skills for LLM-based agents;
+    they do not state who, in what situation, with what materials, completes what concrete task, so the
+    usage scenario cannot be reconstructed.
+  pain: 材料未给出用户痛点，只提到安装需关闭杀毒并以管理员权限运行安装包，这更像交付方式带来的安全摩擦，而非被解决的用户问题。
+  pain_en: No user pain is stated; the only detail is that installation requires disabling antivirus and
+    running a setup file as administrator, which is delivery friction rather than a solved user problem.
+  current_alternative: 公开材料未说明用户目前如何为 Agent 添加技能，也未说明它替代了什么旧做法。
+  current_alternative_en: Public materials do not show how users currently add skills to agents or what
+    prior practice it replaces.
+  usage_reason: 无法判断：没有用户反馈或客户案例说明选择理由，安装需关杀毒、提权运行安装包反而构成采用障碍；缺少能解释用户为何选择它的公开事实。
+  usage_reason_en: 'Cannot be determined: no user feedback or customer case explains the choice, and requiring
+    antivirus off plus admin-privileged install is itself an adoption barrier; public facts explaining
+    why users choose it are missing.'

@@ -1,0 +1,86 @@
+- id: req-initial-github-12-2026-10-20
+  project_slug: github-12
+  level: initial
+  reviewed_at: '2026-10-20T01:06:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多年本地曲库的歌词、标签、目录与重复文件整理需求，痛点是手工逐首处理耗时且一键写入不可回退，旧替代行为明确存在。
+    evidence_ids:
+    - ev-960de068a0f1ecba
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅见一条社区发布帖与一条评论，没有用户反馈或采用规模，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-960de068a0f1ecba
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，未见定价、赞助或托管服务等付费路径，买方与收入模式尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-960de068a0f1ecba
+  - gate: truth
+    status: insufficient
+    reason: 预览、冲突不覆盖、回收站与撤销等设计贴近可核对交付，但缺少实际运行结果与用户验证，交付确定性尚未核验。
+    evidence_ids:
+    - ev-960de068a0f1ecba
+  next_validation: 收集 Lyra 仓库的 issue 与 discussion，查看用户对批量写入结果、撤销与重复检测的实际反馈。
+  market: ''
+  job: 拥有多年本地曲库的 NAS 用户在整理收藏时，需要为大量音频文件补齐歌词与标签、统一目录结构并找出重复文件，同时要能核对并撤销每一次改动。
+  job_en: NAS owners with years of local music need to fill in lyrics and tags, normalize folder structure
+    and find duplicates across many audio files, while being able to review and undo every change.
+  pain: 曲库积累多年后标签和歌词状态混乱，手工逐首补写耗时；用现成工具一键写入又无法知道改了什么，出错难以回退。
+  pain_en: After years of accumulation, tags and lyrics are messy and fixing them track by track is slow,
+    while one-click tools leave users unable to see what changed or roll back mistakes.
+  current_alternative: MusicBrainz Picard、beets 等标签工具配合手工整理目录，或干脆不整理、忍受混乱的曲库。
+  current_alternative_en: Tagging tools such as MusicBrainz Picard or beets combined with manual folder
+    cleanup, or simply leaving the library messy.
+  usage_reason: 推断：相较一键写入的旧工具，Lyra 把每个字段的本地值、来源值和冲突并列展示，移动与删除先预览、可批量撤销，用户因此不必在写入前手工备份或事后逐项排查，愿意在曲库规模大到无法逐首核对时选择它。
+  usage_reason_en: 'Inference: unlike one-click writers, Lyra shows local value, source value and conflicts
+    side by side and previews moves and deletions with batch undo, so users need not back up beforehand
+    or audit afterwards, and will pick it once the library is too large to check track by track.'
+- id: req-full-github-12-2026-10-20
+  project_slug: github-12
+  level: full
+  reviewed_at: '2026-10-20T01:43:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多年本地曲库的歌词、标签、目录与重复文件整理需求，痛点是手工逐首处理耗时且一键写入不可回退，旧替代行为明确存在；这是基于产品说明的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-960de068a0f1ecba
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅见一条社区发布帖，没有用户反馈、采用规模或重复使用证据，无法判断是否形成使用共识；发布者自述的曲库痛点只是作者个人陈述。
+    evidence_ids:
+    - ev-960de068a0f1ecba
+  - gate: model
+    status: insufficient
+    reason: 开源自托管项目，未见定价、赞助或托管服务等付费路径，买方与收入模式尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-960de068a0f1ecba
+  - gate: truth
+    status: insufficient
+    reason: 预览、冲突不覆盖、回收站与撤销等设计贴近可核对交付，但缺少实际运行结果与用户验证，交付确定性尚未核验。
+    evidence_ids:
+    - ev-960de068a0f1ecba
+  next_validation: 收集 Lyra 仓库的 issue 与 discussion，查看用户对批量写入结果、撤销与重复检测的实际反馈。
+  market: ''
+  job: 拥有多年本地曲库的 NAS 用户在整理收藏时，打开 Lyra 处理已有音频文件，为大量曲目补齐歌词与标签、统一目录结构并找出重复文件，同时要能逐项核对并撤销每一次改动。
+  job_en: NAS owners with years of local music open Lyra to process existing audio files, filling in lyrics
+    and tags, normalizing folder structure and finding duplicates across many tracks, while being able
+    to review and undo every change.
+  pain: 曲库积累多年后标签和歌词状态混乱，手工逐首补写耗时；现成工具一键写入后不知道改了什么，冲突被直接覆盖，出错也退不回去。
+  pain_en: After years of accumulation, tags and lyrics are messy and fixing them track by track is slow;
+    one-click tools leave users unable to see what changed, silently overwrite conflicts, and offer no
+    rollback after mistakes.
+  current_alternative: MusicBrainz Picard、beets 等标签工具配合手工整理目录，或干脆不整理、忍受混乱的曲库。
+  current_alternative_en: Tagging tools such as MusicBrainz Picard or beets combined with manual folder
+    cleanup, or simply leaving the library messy.
+  usage_reason: 推断：相较一键写入的旧工具，Lyra 把每个字段的本地值、来源值和冲突并列展示，移动与删除先预览、可批量撤销，用户因此不必在写入前手工备份或事后逐项排查，愿意在曲库规模大到无法逐首核对时选择它。
+  usage_reason_en: 'Inference: unlike one-click writers, Lyra shows local value, source value and conflicts
+    side by side and previews moves and deletions with batch undo, so users need not back up beforehand
+    or audit afterwards, and will pick it once the library is too large to check track by track.'

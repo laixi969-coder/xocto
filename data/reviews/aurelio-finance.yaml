@@ -371,3 +371,50 @@
     removing item-by-item consolidation and self-calculation; therefore privacy-conscious individual investors
     unwilling to upload account data but wanting on-demand answers about their position would choose it
     when reviewing their assets.'
+- id: req-full-aurelio-finance-2026-10-20
+  project_slug: aurelio-finance
+  level: full
+  reviewed_at: '2026-10-20T01:42:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地汇总多类资产并随时询问资产状况的需求，痛点是云端隐私顾虑与手工汇总费时；这是从产品定位与旧流程作出的结构推理，具体导入方式与建议边界仍缺公开说明。
+    evidence_ids:
+    - ev-6554932919042563
+    - ev-a04149c5390cff44
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从约3370升至约3959，只说明关注度增长，未见可归因到该产品的持续使用、留存或用户评价，无法证明已进入日常工作流。
+    evidence_ids:
+    - ev-6554932919042563
+    - ev-c1981e672f881035
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页或付费路径；钱可能来自捐赠、托管或增值服务，这是判断而非已验证事实，买方与收入结构尚不明确。
+    evidence_ids:
+    - ev-a04149c5390cff44
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明 AI 顾问的建议边界、数据准确性与人工确认环节，也未说明本地存储与导入实现，交付确定性尚缺可核对证据。
+    evidence_ids:
+    - ev-6554932919042563
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认支持的数据导入方式、AI 顾问输出边界与本地存储实现。
+  market: ''
+  job: 在意隐私的个人投资者在自己的电脑上，把净值、投资、ETF、现金与债务数据录入同一应用，向内置 AI 顾问询问资产状况，得到本地保存的财务视图。
+  job_en: Privacy-conscious individual investors enter net worth, investments, ETFs, cash and debts into
+    one app on their own computer, ask the built-in AI advisor about their position, and get a locally
+    stored financial view.
+  pain: 公开材料只说明产品定位，未直接记录用户抱怨；结构推理上，把账户数据交给云端聚合平台有隐私顾虑，用表格手工汇总多类资产费时且难持续更新。
+  pain_en: Public materials state only the product positioning, not user complaints; structurally, handing
+    account data to cloud aggregators raises privacy concerns, and manually consolidating multiple asset
+    types in spreadsheets is time-consuming and hard to keep current.
+  current_alternative: 用 Excel 或记账软件手工汇总，或使用云端资产聚合服务。
+  current_alternative_en: Manual consolidation in Excel or bookkeeping software, or cloud asset-aggregation
+    services.
+  usage_reason: 推断：相较手工表格，它把多类资产放进同一本地视图，并由 AI 顾问直接回答资产问题，省去逐项整理与自行计算；因此不愿上传账户数据、又想随时问资产状况的人会在盘点资产时选择它。
+  usage_reason_en: 'Inference: versus manual spreadsheets, it puts multiple asset types in one local view
+    and has the AI advisor answer asset questions directly, removing item-by-item consolidation and self-calculation;
+    people unwilling to upload account data yet wanting on-demand answers would choose it when reviewing
+    their position.'

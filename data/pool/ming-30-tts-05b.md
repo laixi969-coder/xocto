@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/ming-3-tts-05b
 summary: Multilingual TTS with voice cloning & voice design
 first_seen: '2026-10-20T01:06:53Z'
 last_seen: '2026-10-20T01:06:53Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

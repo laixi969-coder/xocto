@@ -193,3 +193,53 @@
     window, engineers need not copy errors elsewhere and switch back; end-to-end encrypted sync through
     the user''s own Cloudflare account removes per-machine manual config upkeep. Engineers who troubleshoot
     across many machines and care about config privacy would choose it in that situation.'
+- id: req-full-hatoba-2-2026-10-20
+  project_slug: hatoba-2
+  level: full
+  reviewed_at: '2026-10-20T01:43:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SSH 排障时读懂命令输出与多机配置同步的需求，痛点在于报错需外部查证、配置手工维护易漂移；公开材料仅说明产品带 AI 助手与加密同步，未给出用户陈述，故痛点强度属工作流结构推理，交付闭环可确定。
+    evidence_ids:
+    - ev-515fd169136d50b0
+    - ev-2627a6aa7af86c64
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 67 增至 126 只反映关注度，不能证明持续采用；公开材料没有用户评价、issue 讨论或客户案例说明工程师在什么场景下留下使用，共识卡在场景与感知环节。
+    evidence_ids:
+    - ev-515fd169136d50b0
+    - ev-7b9f3d335ca96b5e
+  - gate: model
+    status: insufficient
+    reason: 开源桌面客户端，公开材料未披露定价、付费版本或企业采购路径；钱可能来自个人开发者订阅或企业支持，但这是判断而非已验证事实，付费路径尚未核验。
+    evidence_ids:
+    - ev-515fd169136d50b0
+  - gate: truth
+    status: insufficient
+    reason: AI 助手接收什么输入、执行什么动作、输出什么结果均未说明，无法核验其是否贴近排障第一性目标；同步依赖用户自建 Cloudflare 账号，交付确定性与人工边界缺少文档支撑。
+    evidence_ids:
+    - ev-2880f3774b7ce77b
+    - ev-d920da2b41a1359d
+  next_validation: 抓取 Hatoba 仓库 README 与官方文档，确认 AI 助手在 SSH 会话中的输入、动作与输出，以及 Cloudflare 同步的部署步骤与限制。
+  market: ''
+  job: 运维与后端工程师在通过 SSH 登录多台服务器排查故障时，需要读懂命令输出、定位问题，并让各机器的连接配置保持一致。
+  job_en: Ops and backend engineers logging into multiple servers over SSH to diagnose faults need to
+    interpret command output, locate the problem, and keep connection settings consistent across machines.
+  pain: SSH 排障时命令输出分散、报错含义需要另行查证，多机连接配置靠手工维护容易漂移；公开材料只说明产品带 AI 助手与加密同步，未给出工程师具体卡点的用户陈述，痛点强度属工作流结构推理。
+  pain_en: During SSH troubleshooting, command output is scattered and error meanings need separate lookup,
+    while multi-machine connection settings drift under manual upkeep; the public material only states
+    the product has an AI assistant and encrypted sync, without user statements on the exact sticking
+    point, so pain intensity is a workflow-structure inference.
+  current_alternative: 工程师通常使用传统 SSH 客户端自行保存配置，遇到报错时另开搜索或聊天窗口查询；这是从品类常识作出的推断，候选材料未直接提供。
+  current_alternative_en: Engineers typically use traditional SSH clients with self-managed configs and
+    open a separate search or chat window when an error appears; this is inferred from category knowledge,
+    not directly provided by the candidate material.
+  usage_reason: 推断：若助手能在同一会话窗口解释当前命令输出，工程师可省去复制报错到外部再切回的一步；通过用户自己的 Cloudflare 账号同步，则省去手工维护多机配置。因此经常在多台服务器间切换排障的工程师会在意减少上下文切换时选择它，但公开材料未给出可核对的结果或采用反馈。
+  usage_reason_en: 'Inference: if the assistant explains current command output within the same session
+    window, engineers skip copying errors out and switching back; syncing through the user''s own Cloudflare
+    account removes manual multi-machine config upkeep. Engineers frequently switching among servers for
+    troubleshooting would thus choose it to cut context switching, but the public material gives no checkable
+    outcome or adoption feedback.'

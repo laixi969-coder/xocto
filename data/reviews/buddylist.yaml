@@ -1,0 +1,84 @@
+- id: req-initial-buddylist-2026-10-20
+  project_slug: buddylist
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 多代理管理确有切换成本，但材料只有一句标语，无法确认它实际解决哪一步、交付什么。
+    evidence_ids:
+    - ev-e439ff0a9cba4f8e
+  - gate: consensus
+    status: insufficient
+    reason: 无用户评价、采用数据或社区讨论，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-e439ff0a9cba4f8e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、目标买方或收费方式，付费路径完全未知。
+    evidence_ids:
+    - ev-e439ff0a9cba4f8e
+  - gate: truth
+    status: insufficient
+    reason: 无法核验它是否真正接入编码代理并确定性交付，还是仅停留在界面概念。
+    evidence_ids:
+    - ev-e439ff0a9cba4f8e
+  next_validation: 收集该产品官网或产品页的功能说明与接入文档，确认它支持哪些编码代理、如何交付任务结果。
+  market: ''
+  job: 软件开发者同时运行多个编码代理时，需要在一个界面里查看各代理状态、发送指令并跟进代码任务。
+  job_en: Software developers running several coding agents at once need one interface to view each agent's
+    status, send instructions and follow up on coding tasks.
+  pain: 多代理并行时，开发者要在多个终端或窗口间切换，难以统一查看进度和下达指令。
+  pain_en: With multiple agents in parallel, developers switch among terminals or windows and struggle
+    to see progress and issue instructions in one place.
+  current_alternative: 多个终端标签页、IDE 内置代理面板，或分别打开各代理的网页界面。
+  current_alternative_en: Multiple terminal tabs, IDE-built-in agent panels, or opening each agent's web
+    interface separately.
+  usage_reason: 推断：聊天式界面把多个编码代理的对话集中到一处，减少在终端和窗口间切换的步骤，因此同时跑多个编码任务的开发者可能尝试；但公开材料只有一句标语，无法确认它实际接入哪些代理、是否只是聊天外壳。
+  usage_reason_en: 'Inference: a chat-style interface centralizes conversations with several coding agents,
+    cutting the step of switching among terminals and windows, so developers running multiple coding tasks
+    may try it; but public material is only a tagline, so it is unclear which agents it connects to or
+    whether it is just a chat shell.'
+- id: req-full-buddylist-2026-10-20
+  project_slug: buddylist
+  level: full
+  reviewed_at: '2026-10-20T01:42:36Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 多代理管理确有切换成本，但材料只有一句标语，无法确认它实际解决哪一步、交付什么，连需求和痛点都难以具体写出。
+    evidence_ids:
+    - ev-e439ff0a9cba4f8e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该产品官网或 公开资料 页面的功能说明与接入文档，确认它支持哪些编码代理、如何交付任务结果。
+  market: ''
+  job: 软件开发者同时运行多个编码代理时，需要在一个聊天式界面里查看各代理状态、发送指令并跟进代码任务。
+  job_en: Software developers running several coding agents at once need one chat-style interface to view
+    each agent's status, send instructions and follow up on coding tasks.
+  pain: 公开材料只有一句标语，无法确认多代理并行时开发者具体卡在哪一步、切换成本有多强，痛点强度缺乏可引用事实。
+  pain_en: Public material is only a tagline, so it is unclear where developers actually get stuck when
+    running multiple agents in parallel or how strong the switching cost is; pain intensity lacks citable
+    facts.
+  current_alternative: 多个终端标签页、IDE 内置代理面板，或分别打开各代理的网页界面。
+  current_alternative_en: Multiple terminal tabs, IDE-built-in agent panels, or opening each agent's web
+    interface separately.
+  usage_reason: 推断：聊天式界面理论上把多个编码代理的对话集中到一处，减少在终端和窗口间切换的步骤，因此同时跑多个编码任务的开发者可能尝试；但公开材料只有一句标语，无法确认它实际接入哪些代理、是否只是聊天外壳。
+  usage_reason_en: 'Inference: a chat-style interface could centralize conversations with several coding
+    agents, cutting the step of switching among terminals and windows, so developers running multiple
+    coding tasks may try it; but public material is only a tagline, so it is unclear which agents it connects
+    to or whether it is just a chat shell.'

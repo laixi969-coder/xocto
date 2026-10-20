@@ -85,3 +85,49 @@
     AI invoke scene tools and generate bpy scripts via chat, removing documentation lookup and manual
     item-by-item operation; 3D artists unfamiliar with Python would choose it when quickly building scenes
     or doing batch operations.'
+- id: req-full-blender-ai-mcp-addon-2-2026-10-20
+  project_slug: blender-ai-mcp-addon-2
+  level: full
+  reviewed_at: '2026-10-20T01:42:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Blender 场景搭建与 bpy 脚本编写的操作与学习负担，旧流程是手动操作或手写脚本，结构上成立；生成结果可用性尚无公开反馈，属工作流推理。
+    evidence_ids:
+    - ev-1642b1cc44644e02
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 785 增至 929，只说明关注度上升；缺少用户评价、工作室采用案例或重复使用证据说明它已进入工作流。
+    evidence_ids:
+    - ev-1642b1cc44644e02
+    - ev-5738b79f9aa86d80
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价或付费路径，买方可能是个人美术或工作室，这是判断而非已验证事实；无融资叙事，暂不构成续命风险。
+    evidence_ids:
+    - ev-1642b1cc44644e02
+  - gate: truth
+    status: insufficient
+    reason: 多代理工作流生成场景与脚本的返工成本、人工确认边界无公开证据，交付确定性无法核验。
+    evidence_ids:
+    - ev-1642b1cc44644e02
+  next_validation: 追踪该仓库 issue/discussion 中用户对生成场景与 bpy 脚本可用性、返工和人工确认环节的实际反馈。
+  market: ''
+  job: 3D 美术或动画师在 Blender 中搭建场景或编写 bpy 脚本时，通过聊天让 AI 调用场景工具与多代理工作流，完成场景搭建或脚本生成。
+  job_en: A 3D artist or animator building a scene or writing bpy scripts in Blender uses chat to have
+    AI invoke scene tools and multi-agent workflows to complete scene setup or script generation.
+  pain: Blender 场景搭建与 bpy 脚本编写依赖界面操作和 Python 知识，重复操作与查文档耗时；仓库把场景工具与脚本生成做成聊天入口，说明作者认为这一环节值得自动化（结构推理）。
+  pain_en: Blender scene building and bpy scripting depend on UI operation and Python knowledge, with
+    repetitive work and documentation lookup consuming time; the repository turns scene tools and script
+    generation into a chat entry, indicating the author saw this step as worth automating (structural
+    inference).
+  current_alternative: 美术手动在 Blender 界面逐项操作，或自行编写、调试 bpy 脚本并查阅文档。
+  current_alternative_en: Artists operate the Blender UI item by item manually, or write and debug bpy
+    scripts themselves and consult documentation.
+  usage_reason: 推断：相较手动点击与手写脚本，插件通过聊天让 AI 调用场景工具并生成 bpy 脚本，减少查文档和逐项操作这一步；不熟悉 Python 的 3D 美术在搭建场景或写脚本时会因此选择它。仓库星数只说明关注度，不能证明持续使用。
+  usage_reason_en: 'Inference: versus manual clicking and hand-written scripts, the add-on lets AI invoke
+    scene tools and generate bpy scripts via chat, removing documentation lookup and item-by-item operation;
+    3D artists unfamiliar with Python would choose it when building scenes or writing scripts. Repository
+    stars only show attention, not sustained use.'

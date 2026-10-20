@@ -251,3 +251,44 @@
   usage_reason_en: 'Inference: it saves the step of hand-drawing status animation via ready components,
     but status display is not a rigid task—a spinner or text already conveys progress—so it is more likely
     decorative than workflow-essential.'
+- id: req-full-robot-heads-2026-10-20
+  project_slug: robot-heads
+  level: full
+  reviewed_at: '2026-10-20T01:45:17Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决代理状态可视化需求，但痛点偏装饰：状态文字加进度条已够用，LED 表情动画属于锦上添花，不用也不会失去关键可读性，存在玛蒂尔德风险。
+    evidence_ids:
+    - ev-2342aa10e1549b89
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库的 issue 或 discussion，确认是否有团队报告将其接入真实代理产品并持续使用，而非仅收藏或演示。
+  market: ''
+  job: 做 AI 代理产品的前端开发者，在向终端用户展示代理执行进度时，需要把内部状态渲染成可理解的界面元素，让用户知道代理当前在做什么。
+  job_en: A front-end developer building an AI agent product needs to render internal agent state into
+    understandable UI elements so end users can see what the agent is currently doing.
+  pain: 代理状态抽象且变化快，从零做状态动画成本高，多数团队退化成转圈或一行文字，用户难以判断代理是否卡住。但这一痛点强度有限：状态文字加进度条已能满足基本可读性，动画表情属于锦上添花。
+  pain_en: 'Agent state is abstract and fast-changing; building status animation from scratch is costly,
+    so teams fall back to spinners or a line of text. Yet the pain is weak: text plus a progress bar already
+    gives basic readability, and animated faces are a nice-to-have.'
+  current_alternative: 自己写加载动画或状态文字，复用通用 UI 库的进度组件，或直接用流式输出文本展示代理步骤。
+  current_alternative_en: Hand-writing loading animations or status text, reusing generic progress components
+    from a UI library, or simply streaming text output to show agent steps.
+  usage_reason: 推断：相较自建状态动画，它提供现成 React 组件与 LED 表情动画，省掉设计与实现一步；但省下的是装饰性工作而非核心可读性，开发者只在做演示或追求视觉风格时才会选用，缺少必须采用的因果。
+  usage_reason_en: 'Inference: versus building status animation in-house, it ships ready React components
+    and LED-face animation, skipping a design and implementation step. But what it saves is decorative
+    work, not core readability, so developers would pick it only for demos or visual style, lacking a
+    must-adopt rationale.'

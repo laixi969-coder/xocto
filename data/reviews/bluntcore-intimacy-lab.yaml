@@ -1,0 +1,89 @@
+- id: req-initial-bluntcore-intimacy-lab-2026-10-20
+  project_slug: bluntcore-intimacy-lab
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向成人向陪伴对话的记忆与人格整理，但材料未说明具体任务痛点与旧流程，价值结构不完整。
+    evidence_ids:
+    - ev-ee7973058ea07a6f
+    - ev-f2a2bd45d8459dc5
+    - ev-6797aec9dc19753a
+  - gate: consensus
+    status: insufficient
+    reason: 星数从 274 增至 488，说明关注度上升，但没有评价或采用证据说明持续使用。
+    evidence_ids:
+    - ev-ee7973058ea07a6f
+    - ev-f2a2bd45d8459dc5
+    - ev-6797aec9dc19753a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式或买方，无法判断钱从哪来。
+    evidence_ids:
+    - ev-6797aec9dc19753a
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其内容是否可复现、是否涉及安全边界，交付确定性未知。
+    evidence_ids:
+    - ev-ee7973058ea07a6f
+  next_validation: 查看仓库 README 与 issue，确认它提供的是可复用工具还是实验记录，以及用户实际如何使用。
+  market: ''
+  job: 对成人向人机亲密关系感兴趣的用户，在搭建或调整陪伴对话时，需要整理提示词、记忆与代理设置，并参考模型测试记录。
+  job_en: Users interested in adult human-AI intimacy need to organize prompts, memory and agent settings
+    and consult model test records when building or adjusting companion conversations.
+  pain: 材料只列出人机恋、提示词、记忆、代理与模型测试等主题，没有说明用户具体卡在哪一步、现有做法哪里不够。
+  pain_en: The material only lists topics such as human-AI romance, prompts, memory, agents and model
+    tests; it does not say which step users are stuck on or where current practices fall short.
+  current_alternative: 现有替代可能是通用聊天产品、角色扮演社区或自行拼装提示词；材料未说明这些做法的不足。
+  current_alternative_en: Current alternatives may be general chat products, role-play communities or
+    self-assembled prompts; the material does not describe their shortcomings.
+  usage_reason: 推断：若仓库提供可复用的记忆与人格实验记录，用户可少走试错弯路；但缺少用户反馈，无法确认这是真实负担还是兴趣收藏。
+  usage_reason_en: 'Inference: if the repository offers reusable memory and persona experiment records,
+    users could avoid trial and error; without user feedback, it is unclear whether this is a real burden
+    or just interest-driven bookmarking.'
+- id: req-full-bluntcore-intimacy-lab-2026-10-20
+  project_slug: bluntcore-intimacy-lab
+  level: full
+  reviewed_at: '2026-10-20T01:42:33Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它指向成人向陪伴对话的提示词与记忆整理，但材料只列主题，未说明用户具体卡点、旧流程不足与不解决后果，价值结构不完整，属兴趣收藏而非刚性需求。
+    evidence_ids:
+    - ev-ee7973058ea07a6f
+    - ev-f2a2bd45d8459dc5
+    - ev-6797aec9dc19753a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该仓库 README 与 issue 讨论，确认它提供的是可复用工具还是实验记录，以及用户实际如何使用。
+  market: ''
+  job: 对成人向人机亲密关系感兴趣的用户，在自行搭建或调整陪伴对话时，处理提示词、记忆与代理配置，参考该仓库的模型测试与实验笔记来完成人格设定与对话调优。
+  job_en: Users interested in adult human-AI intimacy, while building or tuning companion conversations,
+    work with prompts, memory and agent settings and consult this repository's model tests and experiment
+    notes to configure persona and dialogue.
+  pain: 公开材料只列出人机恋、提示词、记忆、代理与模型测试等主题，未说明用户在搭建陪伴对话时具体卡在哪一步、旧做法哪里不够，也未给出不解决的后果。
+  pain_en: Public material only lists topics such as human-AI romance, prompts, memory, agents and model
+    tests; it does not say which step users are stuck on, where current practice falls short, or what
+    happens if unsolved.
+  current_alternative: 现有替代可能是通用聊天产品、角色扮演社区或自行拼装提示词；材料未说明这些做法的具体不足。
+  current_alternative_en: Current alternatives may be general chat products, role-play communities or
+    self-assembled prompts; the material does not describe their specific shortcomings.
+  usage_reason: 推断：若仓库提供可复用的记忆与人格实验记录，用户可少走试错弯路；但仅有星标增长，缺少用户反馈或案例说明动机，无法确认这是真实负担还是兴趣收藏。
+  usage_reason_en: 'Inference: if the repository offers reusable memory and persona experiment records,
+    users could avoid trial and error; but only star growth is present, with no user feedback or cases
+    explaining motivation, so whether this is a real burden or interest-driven bookmarking cannot be confirmed.'

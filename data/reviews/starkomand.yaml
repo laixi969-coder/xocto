@@ -1,0 +1,87 @@
+- id: req-initial-starkomand-2026-10-20
+  project_slug: starkomand
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决多代理并行时任务分散、核对麻烦的问题，痛点结构可推，但公开材料只有一句定位，未说明输入、动作与交付。
+    evidence_ids:
+    - ev-1794b40a9758d712
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页说明，无用户评价、采用或讨论证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-1794b40a9758d712
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，可能面向个人开发者或团队订阅，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-1794b40a9758d712
+  - gate: truth
+    status: insufficient
+    reason: 无法核对多代理结果如何合并、人工如何确认，交付确定性未明。
+    evidence_ids:
+    - ev-1794b40a9758d712
+  next_validation: 收集 Starkomand 官方产品页或文档，确认多代理任务的输入、结果合并与人工确认流程。
+  market: ''
+  job: 开发者同时运行多个 AI 编码代理时，在画布上查看并调度各代理的任务与产出。
+  job_en: Developers running several AI coding agents at once view and orchestrate each agent's tasks
+    and outputs on a canvas.
+  pain: 多代理并行后，任务分散在多个终端或会话，切换和核对产出变麻烦；这是从产品定位作出的推断，公开材料未给出用户抱怨。
+  pain_en: With many agents in parallel, tasks scatter across terminals or sessions, making switching
+    and checking outputs cumbersome; this is inferred from the positioning, as no user complaint is public.
+  current_alternative: 开发者目前用多个终端标签、IDE 分屏或手工记录来分别管理各代理会话。
+  current_alternative_en: Developers currently manage agent sessions separately with multiple terminal
+    tabs, IDE splits, or manual notes.
+  usage_reason: 推断：相较在多个终端间来回切换，它把各代理的任务与状态集中到一张画布，减少定位和对照这一步负担；但合并结果与人工确认方式未公开，尚不能判断用户是否会持续使用。
+  usage_reason_en: 'Inference: compared with switching among terminals, it gathers agent tasks and status
+    onto one canvas, reducing the step of locating and cross-checking; but result merging and human confirmation
+    are not public, so sustained use cannot be judged.'
+- id: req-full-starkomand-2026-10-20
+  project_slug: starkomand
+  level: full
+  reviewed_at: '2026-10-20T01:45:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时任务分散、核对麻烦的需求，痛点是开发者要反复切换终端确认各代理进度；从定位可还原输入为编码任务、动作为画布调度、交付为各代理产出与状态，属工作流结构推理，公开材料仅一句定位，交付细节未明。
+    evidence_ids:
+    - ev-1794b40a9758d712
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条产品页定位说明，无用户评价、讨论或采用证据，无法判断开发者是否已形成集中调度多代理的共识；公开关注度也不能替代持续使用。
+    evidence_ids:
+    - ev-1794b40a9758d712
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自个人开发者订阅或团队席位，这是判断不是已验证事实；无付费或采购记录，商业路径尚未核验。
+    evidence_ids:
+    - ev-1794b40a9758d712
+  - gate: truth
+    status: insufficient
+    reason: 无法核对多代理结果如何合并、人工如何确认与回滚，交付确定性未明；画布调度是否贴近编码第一性目标也缺公开文档支撑。
+    evidence_ids:
+    - ev-1794b40a9758d712
+  next_validation: 追踪 Starkomand 官方产品页或文档，确认多代理任务的输入、结果合并与人工确认流程是否公开。
+  market: ''
+  job: 同时运行多个 AI 编码代理的开发者，在多个代理并行产出代码与状态时，打开一张无限画布集中查看、调度各代理的任务与产出，以完成多代理协作的编码任务。
+  job_en: Developers running several AI coding agents at once open an infinite canvas to view and orchestrate
+    each agent's tasks and outputs while the agents work in parallel, completing a multi-agent coding
+    task.
+  pain: 多代理并行后，任务与产出分散在多个终端或会话，开发者需要反复切换、手工对照才能知道哪个代理做到哪一步；这是从产品定位作出的工作流推理，公开材料未给出用户抱怨。
+  pain_en: With agents running in parallel, tasks and outputs scatter across terminals or sessions, forcing
+    developers to switch repeatedly and cross-check manually to know each agent's progress; this is a
+    workflow inference from the positioning, not a public user complaint.
+  current_alternative: 开发者目前用多个终端标签、IDE 分屏或手工笔记分别管理各代理会话，并靠人工记忆对照产出。
+  current_alternative_en: Developers currently manage agent sessions separately with multiple terminal
+    tabs, IDE splits, or manual notes, and rely on memory to cross-check outputs.
+  usage_reason: 推断：相较在多个终端间来回切换，它把各代理的任务与状态集中到一张画布，减少定位和对照这一步负担，因此同时跑多个代理、需要一眼掌握全局的开发者会在并行任务变多时选择它；但结果合并与人工确认方式未公开，持续使用尚无证据。
+  usage_reason_en: 'Inference: compared with switching among terminals, it gathers agent tasks and status
+    onto one canvas, reducing the step of locating and cross-checking, so developers running several agents
+    who need a global view would choose it as parallel tasks grow; but result merging and human confirmation
+    are not public, and sustained use has no evidence.'

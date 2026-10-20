@@ -133,3 +133,51 @@
     coding agents into a flow that executes experiments automatically, removing the step of repeatedly
     hand-writing and dispatching experiment code, so labs with many directions and limited hands would
     try it first; the repository provides no sustained-use or payment evidence.'
+- id: req-full-ai-scientist-v3-2026-10-20
+  project_slug: ai-scientist-v3
+  level: full
+  reviewed_at: '2026-10-20T01:41:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决科研人员把假设落成实验代码并批量试跑的需求，痛点是手写脚本与反复调度耗时、探索方向多于人力；旧做法为研究者自写脚本或研究生代跑。此为工作流结构推理，仓库仅提供定位与星标，无用户抱怨或案例佐证。
+    evidence_ids:
+    - ev-2a18cdf6c7a16bb4
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从304增至400，仅说明开发者关注度上升，不能归因为研究者持续采用；无评价、复现或客户案例，无法判断共识卡在感知、场景还是利益环节。
+    evidence_ids:
+    - ev-2a18cdf6c7a16bb4
+    - ev-caf0a27e44f5a32c
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或商业条款，买方可能是高校实验室、科研机构或研究者个人，属推断而非已验证事实；也无付费或采购记录可核。
+    evidence_ids:
+    - ev-2a18cdf6c7a16bb4
+  - gate: truth
+    status: insufficient
+    reason: 自动产出的实验结果能否被复核、人工判断边界在哪、代理编排是否确定性交付，公开材料未给出实测或交付结果证据，需看README与issue中的复现记录。
+    evidence_ids:
+    - ev-2a18cdf6c7a16bb4
+  next_validation: 抓取该仓库 README 与 issue/discussion，确认代理编排的实验流程、产出物形式，以及是否有研究者公开复现或引用其产出。
+  market: ''
+  job: 实验室研究员在形成假设后，需要把实验想法落成可运行的代码、批量跑实验并整理结果时，打开该仓库编排编码代理，完成一轮可复核的科学探索。
+  job_en: A lab researcher, after forming a hypothesis, needs to turn the idea into runnable code, run
+    experiments in batch and organize results; they open this repository to orchestrate coding agents
+    and complete one round of checkable scientific exploration.
+  pain: 公开材料只说明其定位为编排编码代理做自动科学发现；从工作流结构推理，痛点是实验代码编写与反复试跑占用研究者大量时间，探索方向多于人力，一轮实验周期长。仓库未提供用户抱怨或案例佐证。
+  pain_en: Public material only states its positioning as orchestrating coding agents for automated scientific
+    discovery; by workflow inference the pain is that writing experiment code and repeated trial runs
+    consume researcher time, exploration directions outnumber hands, and one round takes long. The repo
+    offers no user complaints or cases.
+  current_alternative: 旧做法是研究者自己写实验脚本、手动跑实验并整理结果，或由研究生承担重复性实验工作；这是结构推理，非公开采用数据。
+  current_alternative_en: The old way is researchers writing experiment scripts themselves, running experiments
+    manually and organizing results, or graduate students doing repetitive experiment work; this is structural
+    inference, not public adoption data.
+  usage_reason: 推断：相较研究者逐个手写并调度实验脚本，它把编码代理编排成自动执行实验的流程，省掉反复手写与调度代码这一步，因此探索方向多、人力有限的实验室会先试用；仓库仅有星标增长，无持续使用或付费证据。
+  usage_reason_en: 'Inference: versus hand-writing and dispatching each experiment script, it orchestrates
+    coding agents into a flow that executes experiments automatically, removing the step of repeatedly
+    writing and dispatching code, so labs with many directions and limited hands would try it first; the
+    repo shows only star growth, no sustained-use or payment evidence.'

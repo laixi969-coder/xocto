@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxPN1V4TlRwMFkt
 summary: AI Startups Secure $1.6B as Early-Stage Rounds Reach $7.5B n24.com.tr
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

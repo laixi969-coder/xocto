@@ -175,3 +175,48 @@
     layer work with a sentence, it could save the setup and manual masking steps; but all current evidence
     points to a same-named yarn brand, so product capability cannot be checked and no user segment can
     be confirmed to choose it on that basis.'
+- id: req-full-kokon-2026-10-20
+  project_slug: kokon
+  level: full
+  reviewed_at: '2026-10-20T01:44:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地按描述改图、免配环境的需求，痛点在于云端上传付费、手动图层门槛高、本地跑模型要配 Python；仓库描述已能还原输入—动作—交付闭环，属工作流结构推理，尚无用户反馈。
+    evidence_ids:
+    - ev-70b64582d92b4673
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库 152 个星标，属关注度，不能证明修图师已把它留在工作流里；缺少用户评价、案例或重复使用证据。
+    evidence_ids:
+    - ev-70b64582d92b4673
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价或收费方式，买方与付费路径不明；这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-70b64582d92b4673
+  - gate: truth
+    status: insufficient
+    reason: 仓库描述未说明支持的照片类型、输出格式、人工复核边界与本地修图的确定性交付，无法核对承诺能否稳定兑现。
+    evidence_ids:
+    - ev-70b64582d92b4673
+  next_validation: 追踪 kokon 官网或仓库文档，确认支持的照片类型、输出格式、人工复核边界与是否披露定价或付费方式。
+  market: ''
+  job: 摄影师或修图师在本地 Windows 或 Mac 上处理待修改的照片，用一句话描述想要的改动，由本机 GPU 上的 Qwen-Image 2.1 执行，最终拿到改好的成品图。
+  job_en: Photographers or retouchers on a local Windows or Mac machine take a photo needing changes,
+    describe the desired edit in one sentence, have Qwen-Image 2.1 on the local GPU execute it, and obtain
+    the finished image.
+  pain: 云端修图要上传素材并按量付费，手动图层操作对非专业用户门槛高，本地跑模型又要自己配 Python 环境；公开材料只给出产品描述，未提供用户抱怨或案例。
+  pain_en: Cloud editing requires uploading assets and paying by usage, manual layer work is hard for
+    non-experts, and running models locally means configuring a Python environment yourself; public material
+    gives only product description, not user complaints or cases.
+  current_alternative: 使用云端修图服务，或在 Photoshop 等软件里手动分层调整，或自行配置 Python 环境跑开源模型。
+  current_alternative_en: Using cloud editing services, adjusting layers manually in software such as
+    Photoshop, or self-configuring a Python environment to run open models.
+  usage_reason: 推断：一个安装包免去配 Python 环境，一句话描述替代图层操作，可能省去搭环境和手动抠改两步；但公开材料只有仓库描述与 152 个星标，没有用户反馈或案例，无法确认修图师会持续使用。
+  usage_reason_en: 'Inference: one installer removes Python setup and a one-sentence description replaces
+    layer work, potentially saving both the setup and manual masking steps; but public material has only
+    the repository description and 152 stars, with no user feedback or cases, so sustained use by retouchers
+    cannot be confirmed.'

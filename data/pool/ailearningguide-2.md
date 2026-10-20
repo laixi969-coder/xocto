@@ -22,7 +22,7 @@ summary: Interactive desktop app with 51 labs covering ML fundamentals, transfor
   and quantization and more.
 first_seen: '2026-10-20T01:06:30Z'
 last_seen: '2026-10-20T01:06:30Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

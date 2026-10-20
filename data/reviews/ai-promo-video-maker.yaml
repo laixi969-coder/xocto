@@ -326,3 +326,51 @@
     beat-cutting, voiceover and visual review into one agent run, leaving the user only to confirm requirements
     and audition music, removing frame-by-frame editing and revision rounds, so small teams with tight
     launch schedules and no budget for ongoing outsourcing would try it first at product launch.'
+- id: req-full-ai-promo-video-maker-2026-10-20
+  project_slug: ai-promo-video-maker
+  level: full
+  reviewed_at: '2026-10-20T01:41:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决发布期做产品宣传片的需求，痛点是学剪辑耗时或外包改稿慢、页面更新后视频难同步；交付物为成片，旧替代明确，属工作流结构推理。
+    evidence_ids:
+    - ev-2013550aef9c6ec9
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 250 增至 332，说明开发者关注度上升，但公开材料未见真实成片案例、客户评价或团队持续使用记录，共识仅停留在关注层。
+    evidence_ids:
+    - ev-2013550aef9c6ec9
+    - ev-7a400140b3ae71f7
+  - gate: model
+    status: insufficient
+    reason: 开源可克隆并支持安装为 Agent Skill，未见定价页或收费方式；买方可能是自用开发者或代做服务方，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2013550aef9c6ec9
+  - gate: truth
+    status: insufficient
+    reason: 旁白逐句转写校验与自动审图贴近交付质量，但成片是否达到可投放水准、人工需确认到哪一步，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-2013550aef9c6ec9
+  next_validation: 追踪该仓库 README、issue 或 discussion 中公开的真实成片案例与二次使用记录，核验交付质量与重复使用情况。
+  market: ''
+  job: 独立开发者、SaaS 或课程团队在发布新品时，把产品名或网址交给 Cursor、Claude Code 等编程代理，要完成一支可用于官网、社媒和发布渠道的 4K 产品宣传片。
+  job_en: Indie developers, SaaS or course teams launching a product hand a product name or URL to coding
+    agents such as Cursor or Claude Code and need a 4K promo video usable on their site, social channels
+    and launch posts.
+  pain: 公开说明指出用户不想学剪辑软件、也不想花钱找外包；旧流程需要自己准备素材、脚本、卡点与配音，改稿慢且产品页面更新后视频难同步。这是从产品说明与旧替代行为推出的结构判断。
+  pain_en: The public description states users do not want to learn editing software or pay an outsourcer;
+    the old path requires preparing assets, scripts, beat timing and voiceover, with slow revisions and
+    videos that lag behind page updates. This is a structural inference from the product description and
+    prior alternatives.
+  current_alternative: 自己用剪辑软件逐帧手工做，或按条付费找剪辑外包；也有人用通用视频生成工具，但仍需自备素材、脚本和卡点。
+  current_alternative_en: Editing frame by frame by hand, or paying an editor per video; some use generic
+    video generators but still supply assets, scripts and beat timing themselves.
+  usage_reason: 推断：相较手工剪辑或外包，它把调研、截取 4K 页面、按节拍剪辑、生成并转写校验旁白、自动审图串成一次代理执行，用户只需确认需求和试听配乐，省掉逐帧剪辑与多轮改稿；因此发布节奏紧、预算不足以长期外包的小团队会在发布期优先试用。
+  usage_reason_en: 'Inference: versus hand editing or outsourcing, it chains research, 4K page capture,
+    beat-synced cutting, voiceover generation with transcript checks and visual review into one agent
+    run, leaving the user only to confirm requirements and audition music, removing frame-by-frame editing
+    and revision rounds; small teams with tight launch schedules and no budget for ongoing outsourcing
+    would try it first at launch.'

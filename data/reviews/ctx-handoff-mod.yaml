@@ -439,3 +439,54 @@
     and re-explain steps into one automatic action while persisting taught content as project notes; thus
     Claude Code users running long coding tasks and repeatedly hitting the context limit would choose
     it as a session nears full.'
+- id: req-full-ctx-handoff-mod-2026-10-20
+  project_slug: ctx-handoff-mod
+  level: full
+  reviewed_at: '2026-10-20T01:42:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Claude Code 长会话上下文写满后任务中断、需手动重述项目背景的痛点，交付是可继续的会话与项目笔记；痛点刚性来自上下文窗口硬限制，交付动作明确，但属工作流结构推理，缺用户自述佐证。
+    evidence_ids:
+    - ev-3743a499cfab90c8
+    - ev-58eac35fb93e4b59
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏由 81 增至 119，说明开发者社区有关注，但无 issue、discussion 或用户反馈表明目标用户在真实长任务中持续采用，强场景是否成立仍缺行为证据。
+    evidence_ids:
+    - ev-3743a499cfab90c8
+    - ev-58eac35fb93e4b59
+  - gate: model
+    status: insufficient
+    reason: 这是开源模块，公开材料未见定价、赞助或商业授权路径，谁付钱无法判断；按开源惯例可能靠捐赠或后续托管服务，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-3743a499cfab90c8
+  - gate: truth
+    status: insufficient
+    reason: 自动交接与笔记生成能否稳定交付、笔记是否需人工确认、缓存保持是否可靠，公开材料只有功能描述，缺部署文档或可复现实测来核对交付确定性。
+    evidence_ids:
+    - ev-3743a499cfab90c8
+  next_validation: 追踪该仓库的 issue 与 discussion，确认是否有开发者报告在真实长任务中部署该模块、交接后任务是否连续完成。
+  market: ''
+  job: 使用 Claude Code 的开发者在一个编码任务持续到上下文窗口写满时，需要把当前任务状态、已教给 Claude 的项目约定和未完成工作交接给一个新会话，让编码任务不中断地继续。
+  job_en: A developer using Claude Code whose coding task has filled the context window needs to hand
+    the task state, project conventions already taught to Claude, and unfinished work to a fresh session
+    so the coding task continues without interruption.
+  pain: 上下文写满后，旧会话无法继续承载任务，开发者必须手动开新会话并重新交代项目背景和约定，重复输入且容易遗漏；离开期间缓存冷却还会增加重新预热成本。这是从产品说明与 Claude Code 长会话工作流推出的结构判断，尚无用户抱怨或案例直接佐证。
+  pain_en: When context fills, the old session can no longer carry the task; the developer must manually
+    open a new session and restate project background and conventions, which is repetitive and error-prone,
+    and cache cooling during absence adds re-warm cost. This is a structural inference from the product
+    description and Claude Code long-session workflow, not yet backed by user complaints or cases.
+  current_alternative: 开发者目前手动新建会话、复制粘贴关键上下文或重述项目约定，并自行维护项目笔记；也可能在上下文将满时提前拆分任务。公开材料未展示这些替代做法的用户自述。
+  current_alternative_en: Developers currently open a new session manually, copy-paste key context or
+    restate conventions, and maintain project notes by hand; some may split tasks preemptively before
+    context fills. Public materials do not show user accounts of these workarounds.
+  usage_reason: 推断：相较手动重述，该模块在上下文耗尽时自动触发交接、把已教内容整理成项目笔记并保持缓存，减少的是“重新交代背景”这一步和遗漏约定的风险；因此频繁跑长任务的 Claude
+    Code 用户会在上下文将满时选择它。仓库收藏从 81 增至 119 只说明关注度，不构成持续使用证据。
+  usage_reason_en: 'Inference: versus manual restatement, the module auto-triggers handoff when context
+    is exhausted, turns taught content into project notes, and keeps the cache warm, removing the ''restate
+    background'' step and the risk of missing conventions; thus Claude Code users running long tasks would
+    choose it as context nears its limit. Stars rising from 81 to 119 indicate attention only, not sustained
+    use.'

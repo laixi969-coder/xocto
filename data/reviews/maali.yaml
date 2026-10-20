@@ -1,0 +1,84 @@
+- id: req-initial-maali-2026-10-20
+  project_slug: maali
+  level: initial
+  reviewed_at: '2026-10-20T01:06:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人整理流水、归类支出的需求，手工分类耗时且云端工具有隐私顾虑，痛点具体。
+    evidence_ids:
+    - ev-2796386f74ba054a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，未见用户反馈或采用规模，强场景是否成立尚不明。
+    evidence_ids:
+    - ev-2796386f74ba054a
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是个人订阅，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2796386f74ba054a
+  - gate: truth
+    status: insufficient
+    reason: 本地分析能否确定性交付准确归类、人工复核边界如何，公开材料未说明。
+    evidence_ids:
+    - ev-2796386f74ba054a
+  next_validation: 收集 Maali 官方定价页或隐私/本地处理说明文档，确认收费方式与数据是否确实不上传。
+  market: ''
+  job: 个人在月底或做预算时，整理银行流水与消费记录，需要把杂乱的交易归类并看清钱花在哪。
+  job_en: At month-end or when budgeting, an individual sorts bank transactions and expense records, needing
+    to categorize messy transactions and see where money goes.
+  pain: 手工在表格里逐条归类耗时且易错；把完整流水交给云端理财应用又担心隐私泄露。
+  pain_en: Categorizing line by line in a spreadsheet is slow and error-prone; handing full statements
+    to a cloud finance app raises privacy fears.
+  current_alternative: 用 Excel 或记账 App 手工分类，或使用 Mint 类云端聚合工具。
+  current_alternative_en: Manual categorization in Excel or budgeting apps, or cloud aggregators like
+    Mint-style tools.
+  usage_reason: 推断：相较手工逐条分类，本地 AI 直接读取流水并自动归类，省去逐笔打标签这一步；对在意隐私、不愿上传流水的用户，本地运行是选择它的具体理由。
+  usage_reason_en: 'Inference: versus manual line-by-line sorting, a local AI reads statements and auto-categorizes,
+    removing the per-transaction tagging step; for privacy-conscious users unwilling to upload statements,
+    on-device running is the concrete reason to choose it.'
+- id: req-full-maali-2026-10-20
+  project_slug: maali
+  level: full
+  reviewed_at: '2026-10-20T01:44:10Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人整理流水、归类支出的需求：手工分类耗时易错，云端工具又有隐私顾虑，痛点具体且交付可确定；这是基于产品说明的工作流结构推理，尚无用户反馈佐证。
+    evidence_ids:
+    - ev-2796386f74ba054a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有产品自述，未见用户评价、社区讨论或采用规模，强场景是否被真实用户认可尚无法确认。
+    evidence_ids:
+    - ev-2796386f74ba054a
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方可能是个人订阅，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-2796386f74ba054a
+  - gate: truth
+    status: insufficient
+    reason: 本地分析能否确定性交付准确归类、人工复核边界如何，公开材料未说明，交付确定性存疑。
+    evidence_ids:
+    - ev-2796386f74ba054a
+  next_validation: 追踪 Maali 官网定价页与隐私/本地处理说明文档，确认收费方式及数据是否确实不上传。
+  market: ''
+  job: 个人在月底或做预算时，整理银行流水与消费记录，需要把杂乱交易归类并看清钱花在哪。
+  job_en: At month-end or when budgeting, an individual sorts bank statements and expense records, needing
+    to categorize messy transactions and see where money goes.
+  pain: 手工在表格里逐条归类耗时易错；把完整流水交给云端理财应用又担心隐私泄露。
+  pain_en: Categorizing line by line in a spreadsheet is slow and error-prone; handing full statements
+    to a cloud finance app raises privacy fears.
+  current_alternative: 用 Excel 或记账 App 手工分类，或使用 Mint 类云端聚合工具。
+  current_alternative_en: Manual categorization in Excel or budgeting apps, or cloud aggregators like
+    Mint-style tools.
+  usage_reason: 推断：相较手工逐笔打标签，本地 AI 直接读取流水并自动归类，省去逐条分类这一步；对不愿上传完整流水的用户，本地运行是具体选择理由。
+  usage_reason_en: 'Inference: versus manual per-transaction tagging, a local AI reads statements and
+    auto-categorizes, removing the line-by-line sorting step; for users unwilling to upload full statements,
+    on-device running is the concrete reason to choose it.'

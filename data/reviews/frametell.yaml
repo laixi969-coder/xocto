@@ -129,3 +129,51 @@
     ideas and material directly into an explainer video, removing the shot-planning and rough-cut step,
     so marketing and training staff lacking editing skill who need a quick explainer or course video would
     pick it when material is ready; this is structural reasoning, not user feedback.'
+- id: req-full-frametell-2026-10-20
+  project_slug: frametell
+  level: full
+  reviewed_at: '2026-10-20T01:43:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是非视频岗位把文字与素材转成讲解视频的需求，痛点在于分镜、配音、画面组织多道工序难以独立完成；这是工作流结构推理，公开材料仅有产品说明与仓库关注，尚无用户痛点或案例佐证。
+    evidence_ids:
+    - ev-02b4b9b0546bf903
+    - ev-47214e7813f1d662
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏从 173 增至 296，说明开发者社区持续关注；但收藏与关注只属规模信号，公开材料没有目标用户持续使用、复购或评价证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-02b4b9b0546bf903
+    - ev-47214e7813f1d662
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价、付费主体或收入路径，本地优先与可接任意模型暗示可能面向开发者或自部署用户，但这是判断而非已验证事实，付费路径仍缺公开证据。
+    evidence_ids:
+    - ev-02b4b9b0546bf903
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明分镜控制、导出规格与人工确认环节，交付能否稳定产出可用讲解视频、以及安全与人工边界，尚缺可复现的文档或实测证据。
+    evidence_ids:
+    - ev-02b4b9b0546bf903
+  next_validation: 追踪 frametell 官方文档与仓库 issue/discussion，确认是否有用户公开描述从素材到成片的实际使用流程与交付结果。
+  market: ''
+  job: 市场或培训人员手上已有产品说明、课程讲义等文字与素材，需要在没有视频团队的情况下，把这些材料组织成可对外说明或课程讲解的讲解视频。
+  job_en: Marketing or training staff who already hold product notes, course handouts and raw material
+    need to turn them into an explainer video for external communication or course narration without a
+    video team.
+  pain: 公开材料只说明产品把想法和素材交给 AI 导演代理生成讲解视频；从任务结构看，痛点在于从文字素材到成片之间要完成分镜、配音、画面组织等多道工序，非视频专业岗位难以独立完成。这是工作流推理，尚无用户抱怨或案例佐证。
+  pain_en: Public material only states that ideas and material are handed to an AI director agent to produce
+    an explainer video; structurally the pain is the multi-step gap between text material and a finished
+    video (storyboard, narration, visuals) that non-video staff cannot complete alone. This is workflow
+    inference, not user-reported evidence.
+  current_alternative: 公开材料未说明现有替代方式；按任务结构推断，用户目前可能依赖外包视频团队、通用剪辑软件或通用文生视频工具自行拼接，但这些替代均未被证据确认。
+  current_alternative_en: Public material does not state the current alternative; by task structure users
+    likely rely on outsourced video teams, general editing software, or generic text-to-video tools assembled
+    by hand, but none of these alternatives is confirmed by evidence.
+  usage_reason: 推断：相较外包或自行剪辑，产品用一个导演代理把素材直接组织成讲解视频，减少分镜与剪辑环节的人工负担；但公开材料未给出用户反馈或案例，无法确认哪类用户会因此选择它。
+  usage_reason_en: 'Inference: versus outsourcing or self-editing, the product uses a director agent to
+    organize material directly into an explainer video, reducing manual storyboard and editing work; however
+    no user feedback or case is public, so which users would choose it cannot be confirmed.'

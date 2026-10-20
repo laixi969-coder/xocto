@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPNzVmMDNzQlFi
 summary: Auros Study Finds Consumers Wary of AI Retail Ads but Open to AI Shopping MarTech Cube
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

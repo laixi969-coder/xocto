@@ -1,6 +1,6 @@
 ---
 slug: nvidia-launches-open-ai-models-for-pcs-and-enterprises
-name: Nvidia Launches Open AI Models for PCs and Enterprises
+name: NVIDIA
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQV3ltcl83eUVF
 summary: Nvidia Launches Open AI Models for PCs and Enterprises Innovation Village
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Nvidia Launches Open AI Models for PCs and Enterprises
+# NVIDIA
 
 Nvidia Launches Open AI Models for PCs and Enterprises Innovation Village
 

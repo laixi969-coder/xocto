@@ -1,0 +1,91 @@
+- id: req-initial-github-10-2026-10-20
+  project_slug: github-10
+  level: initial
+  reviewed_at: '2026-10-20T01:06:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多机并行编码代理时看不过来、切换断上下文的问题，痛点具体，交付是一个可用的多机会话总览页。
+    evidence_ids:
+    - ev-ad9a44f70376ec8a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区发布帖和两条评论，没有独立用户反馈或团队采用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-ad9a44f70376ec8a
+  - gate: model
+    status: insufficient
+    reason: 开源自用项目，未披露定价或付费路径；可能靠开源维护或后续团队版收费，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-ad9a44f70376ec8a
+  - gate: truth
+    status: insufficient
+    reason: 依赖官方会话页与凭据下发，官方接口变动或封禁会直接影响交付确定性，目前无兼容性说明。
+    evidence_ids:
+    - ev-ad9a44f70376ec8a
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有官方接口变动导致的失效报告及维护者响应。
+  market: ''
+  job: 同时维护多台开发机的程序员，在办公室、家中和云主机上并行运行编码代理时，需要在一个界面里查看各会话进度、批准权限并补充指令。
+  job_en: Programmers running coding agents across office, home and cloud machines need one view to check
+    each session's progress, approve permissions and add instructions.
+  pain: 每台机器一个窗口，切换会打断上下文；想看某台机器的测试结果或批一个权限，得先把对应窗口找出来，多机并行时看不过来。
+  pain_en: One window per machine breaks context on every switch; checking a test result or approving
+    a permission requires finding the right window first, and with many machines running it becomes hard
+    to keep up.
+  current_alternative: 为每台机器开一个远程桌面或终端窗口，用 Cmd+Tab 切换；或只在单机上运行代理，放弃并行。
+  current_alternative_en: Opening a remote desktop or terminal window per machine and switching with Cmd+Tab,
+    or running the agent on a single machine and giving up parallelism.
+  usage_reason: 推断：它把多台机器的官方会话页聚合成一个可切换的网格，省掉了逐个找窗口这一步，因此同时跑多台机器的人会在日常巡检和批权限时选择它；但作者自述为内测自用，尚无留存或团队采用证据。
+  usage_reason_en: 'Inference: it aggregates the official session pages of several machines into one switchable
+    grid, removing the step of hunting for each window, so people running many machines would pick it
+    for routine checks and permission approvals; the author calls it a self-use beta and there is no retention
+    or team-adoption evidence yet.'
+- id: req-full-github-10-2026-10-20
+  project_slug: github-10
+  level: full
+  reviewed_at: '2026-10-20T01:43:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多机并行跑编码代理时看不过来、切换断上下文的需求，痛点是作者自述的具体操作负担，交付物是一个可切换的多机会话总览页；这是工作流结构推理，尚无第三方用户反馈佐证。
+    evidence_ids:
+    - ev-ad9a44f70376ec8a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条 V2EX 发布帖，作者自述日常使用，没有独立用户评价、issue 或团队采用记录，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-ad9a44f70376ec8a
+  - gate: model
+    status: insufficient
+    reason: 开源自用项目，未披露定价或付费路径；可能靠开源维护或后续团队版收费，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-ad9a44f70376ec8a
+  - gate: truth
+    status: insufficient
+    reason: 依赖官方会话页与凭据下发，官方接口变动或封禁会直接影响交付确定性，目前无兼容性说明或失效报告。
+    evidence_ids:
+    - ev-ad9a44f70376ec8a
+  next_validation: 追踪该仓库 公开代码仓库 issue 与 discussion，确认是否有官方接口变动导致的失效报告及维护者响应。
+  market: ''
+  job: 同时维护多台开发机的程序员，在办公室台式、家里笔记本、云主机和 Mac mini 上并行运行 ZCode 编码代理时，需要在一个页面里查看各会话进度、批准权限并补充 prompt，而不必逐台切换窗口。
+  job_en: Programmers running ZCode coding agents in parallel on an office desktop, home laptop, cloud
+    host and Mac mini need one page to check each session's progress, approve permissions and add prompts
+    without switching windows machine by machine.
+  pain: 公开帖自述每台机器一个窗口，切来切去导致上下文全断；想看 e2e 结果、批一个权限或补一句 prompt，得先把对应窗口找出来，多机并行时看不过来。这是作者自述的痛点，不是第三方用户调研。
+  pain_en: The public post states that one window per machine means constant switching and broken context;
+    checking an e2e result, approving a permission or adding a prompt requires first finding the right
+    window, and with several machines running it becomes hard to keep up. This is the author's own account,
+    not third-party user research.
+  current_alternative: 为每台机器开一个远程桌面或终端窗口，用 Cmd+Tab 切换；或只在单机上跑代理，放弃多机并行。
+  current_alternative_en: Opening a remote desktop or terminal window per machine and switching with Cmd+Tab,
+    or running the agent on a single machine and giving up multi-machine parallelism.
+  usage_reason: 推断：它把多台机器的官方会话页聚合成单屏、双列或四宫格，省掉逐个找窗口这一步，并让 PC 浏览器直连官方云、不经手机转发，因此同时跑多台机器的人会在日常巡检和批权限时选择它；作者自述为内测自用，尚无留存或团队采用证据。
+  usage_reason_en: 'Inference: it aggregates the official session pages of several machines into a single,
+    dual or quad grid, removing the step of hunting for each window and letting the PC browser connect
+    directly to the official cloud without phone relay, so people running many machines would pick it
+    for routine checks and permission approvals; the author calls it a self-use beta and there is no retention
+    or team-adoption evidence yet.'

@@ -1,11 +1,14 @@
 ---
 slug: meta-grants-itself-rights-to-scrape-business-customer-conten
-name: Meta Grants Itself Rights to Scrape Business Customer Content for AI Training
+name: Meta
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Meta 于 2026 年 10 月修改条款，授予自身抓取商业客户内容用于 AI 训练的权利。这一政策变化扩大了企业客户数据被用于模型训练的范围，可能加剧企业对数据治理与合规的担忧，并影响其选择
+  AI 平台的意愿（推断）。
 inspiration: ''
-summary_en: ''
+summary_en: In October 2026 Meta changed its terms to grant itself the right to scrape business customer
+  content for AI training. This policy shift broadens the use of enterprise customer data in model training,
+  likely heightening data-governance and compliance concerns and influencing platform choices (inference).
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZEVBT2NlNEtt
 summary: Meta Grants Itself Rights to Scrape Business Customer Content for AI Training news.lavx.hu
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Meta Grants Itself Rights to Scrape Business Customer Content for AI Training
+# Meta
 
 Meta Grants Itself Rights to Scrape Business Customer Content for AI Training news.lavx.hu
 

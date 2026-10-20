@@ -133,3 +133,43 @@
   usage_reason_en: 'Inference: versus recording on a phone and organizing later, it compresses capture
     into one button press on the device and lands directly in Obsidian, removing the manual transfer step,
     so students who write often and want to avoid phone distraction would pick it in class.'
+- id: req-full-unidex-2026-10-20
+  project_slug: unidex
+  level: full
+  reviewed_at: '2026-10-20T01:45:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决学生随身看课表与口述笔记进 Obsidian 的任务，但公开材料只有产品功能罗列，没有任何用户痛点、旧替代行为或使用反馈；课表与笔记痛点属编辑推测，无法确认刚性，故价值关不成立。
+    evidence_ids:
+    - ev-e019e4f967b6dcbf
+    - ev-9265eb4e5711563a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 unidex-site.vercel.app 的官网与等待列表页面，确认是否公开语音转写与 Obsidian 同步的实际流程、交付格式及真实用户使用反馈。
+  market: ''
+  job: 学生在上课或自习时，用 Waveshare ESP32-S3 墨水屏开发板查看与日历同步的课表，并口述笔记同步到 Obsidian。
+  job_en: A student in class or self-study uses a Waveshare ESP32-S3 e-ink board to check a calendar-synced
+    timetable and dictate notes into Obsidian.
+  pain: 公开材料未提供任何用户痛点陈述或反馈；课表分散、手机分心、笔记搬运等痛点均为编辑推测，无证据支撑。
+  pain_en: No public material states a user pain or feedback; timetable fragmentation, phone distraction,
+    and note transfer are editorial speculation without evidence.
+  current_alternative: 公开材料未说明用户当前用什么替代；手机日历、备忘录或录音 App 只是常见做法，未被该项目证据确认。
+  current_alternative_en: Public material does not describe current alternatives; phone calendars, memo
+    or voice apps are common practice but not confirmed by this project's evidence.
+  usage_reason: 推断：若语音转写与 Obsidian 同步确实可用，它可省去事后手动搬运笔记这一步；但转写流程、同步格式与离线能力均未公开，无法确认交付确定性。
+  usage_reason_en: 'Inference: if voice transcription and Obsidian sync actually work, it could remove
+    the manual note-transfer step; but the transcription flow, sync format, and offline capability are
+    undisclosed, so deterministic delivery cannot be confirmed.'

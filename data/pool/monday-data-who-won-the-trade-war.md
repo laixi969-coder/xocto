@@ -32,7 +32,7 @@ summary: 'In the AI Investment Brief today: Early AI adopters report gains, plus
   to other countries. A product made in Vietnam or Mexico can'
 first_seen: '2026-10-20T01:06:54Z'
 last_seen: '2026-10-20T01:06:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,93 @@
+- id: req-initial-kling-40上线快手的ai生意开始进入深水区-2026-10-20
+  project_slug: kling-40上线快手的ai生意开始进入深水区
+  level: initial
+  reviewed_at: '2026-10-20T01:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投放和发布前批量获取视频素材的需求，痛点是实拍与采购成本高、周期长；旧流程清晰，价值结构成立。
+    evidence_ids:
+    - ev-279d72e20edcd7ff
+  - gate: consensus
+    status: insufficient
+    reason: 材料只提到4.0上线，没有用户评价、客户案例或采用数据，无法判断成片可用率是否被认可。
+    evidence_ids:
+    - ev-279d72e20edcd7ff
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与计费方式，买方可能是营销团队或创作者，但付费路径未经核验，属判断而非事实。
+    evidence_ids:
+    - ev-279d72e20edcd7ff
+  - gate: truth
+    status: insufficient
+    reason: 生成视频的版权、可控性与人工审核边界未在材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-279d72e20edcd7ff
+  next_validation: 收集Kling官方定价页与4.0版本功能说明，核验计费方式与输出规格。
+  market: ''
+  job: 营销团队和内容创作者在投放或发布前需要大量短视频素材时，用Kling把文字或图片描述转成视频片段，再人工挑选剪辑成成片。
+  job_en: Marketing teams and creators needing large volumes of short-video assets before a campaign or
+    post use Kling to turn text or image prompts into clips, then manually select and edit them into finished
+    videos.
+  pain: 实拍和采购素材成本高、周期长，临时改脚本还要重拍；素材需求却是持续且批量的。
+  pain_en: Filming and stock footage are costly and slow, and script changes force reshoots, while asset
+    demand is continuous and high-volume.
+  current_alternative: 传统做法是实拍、采购图库视频或外包剪辑，周期以天计，单条成本高。
+  current_alternative_en: The old route is filming, buying stock video or outsourcing editing, which takes
+    days and costs a lot per clip.
+  usage_reason: 推断：相较实拍或采购素材，Kling把“先有镜头”这一步从拍摄或采购变成输入描述直接生成候选片段，用户只需在生成结果里挑选和剪辑，省掉拍摄与素材采购环节；因此缺实拍条件的营销团队和创作者会在赶素材时选择它。
+  usage_reason_en: 'Inference: versus filming or buying stock, Kling turns the ''get a shot first'' step
+    from shooting or sourcing into generating candidate clips from a prompt, so users only select and
+    edit among outputs, skipping filming and sourcing; marketing teams and creators without filming resources
+    would choose it when racing to produce assets.'
+- id: req-full-kling-40上线快手的ai生意开始进入深水区-2026-10-20
+  project_slug: kling-40上线快手的ai生意开始进入深水区
+  level: full
+  reviewed_at: '2026-10-20T01:44:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投放和发布前批量获取视频素材的需求，痛点是实拍与采购成本高、周期长、改脚本要重拍；官网说明可由文字或参考图生成视频并设定分辨率、时长与音频，旧流程与交付闭环清晰，属工作流结构推理。
+    evidence_ids:
+    - ev-9efdab8b1fc5450a
+    - ev-3c3080e66857d2cb
+    - ev-d64313825a71840b
+  - gate: consensus
+    status: insufficient
+    reason: 官网仅说明生成能力与工作区形态，未提供用户评价、客户案例或成片可用率反馈，无法判断创作者是否认可其输出质量并持续使用。
+    evidence_ids:
+    - ev-9efdab8b1fc5450a
+    - ev-3c3080e66857d2cb
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露Kling 4.0的定价与计费方式，买方可能是营销团队或创作者，付费路径属判断而非已验证事实。
+    evidence_ids:
+    - ev-d64313825a71840b
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明生成视频的版权归属、可控性与人工审核边界，承诺能否确定性交付成片仍缺公开依据。
+    evidence_ids:
+    - ev-9efdab8b1fc5450a
+    - ev-d64313825a71840b
+  next_validation: 追踪Kling官网定价页与4.0版本功能说明，核验计费方式、输出规格与商用授权条款。
+  market: ''
+  job: 营销团队或内容创作者在投放或发布前缺少实拍条件、又需要批量短视频素材时，把文字或图片描述交给Kling生成视频片段，再人工挑选剪辑成可投放成片。
+  job_en: Marketing teams or creators lacking filming resources but needing batch short-video assets before
+    a campaign or post hand text or image prompts to Kling to generate clips, then manually select and
+    edit them into publishable videos.
+  pain: 实拍与采购图库素材成本高、周期以天计，脚本改动还要重拍；而投放和发布对视频素材的需求是持续且批量的，缺素材会直接拖慢上线节奏。
+  pain_en: Filming and stock footage are costly and take days, and script changes force reshoots, while
+    campaign and publishing demand for video assets is continuous and high-volume; missing assets directly
+    delays launch.
+  current_alternative: 传统做法是自行实拍、采购图库视频或外包剪辑团队，单条成本高、周期长，临时改需求还要重新组织拍摄。
+  current_alternative_en: The old route is self-filming, buying stock video or outsourcing an editing
+    team, with high per-clip cost and long lead times, and late changes require re-organizing shoots.
+  usage_reason: 推断：相较实拍或采购素材，Kling把“先拿到镜头”这一步从组织拍摄或采购变成输入描述直接生成候选片段，用户只需在生成结果中挑选和剪辑，省掉拍摄与素材采购环节；因此缺实拍条件的营销团队和创作者会在赶素材时选择它。
+  usage_reason_en: 'Inference: versus filming or sourcing stock, Kling turns ''getting a shot first''
+    from organizing a shoot or purchase into generating candidate clips from a prompt, so users only select
+    and edit among outputs, skipping filming and sourcing; marketing teams and creators without filming
+    resources would choose it when racing to produce assets.'

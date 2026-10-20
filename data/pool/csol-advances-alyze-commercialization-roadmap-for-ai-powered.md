@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTEsxMllhQnRO
 summary: CSOL Advances Alyze Commercialization Roadmap for AI-Powered Audience Intelligence TradingView
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

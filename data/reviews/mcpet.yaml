@@ -81,3 +81,46 @@
   usage_reason_en: 'Inference: it puts progress, balance and meal reminders into an always-on desktop
     character, saving window switches and delivery-app opens; but there is no user feedback or case showing
     these reminders are used repeatedly, and skipping it causes no clear loss, so the need is not rigid.'
+- id: req-full-mcpet-2026-10-20
+  project_slug: mcpet
+  level: full
+  reviewed_at: '2026-10-20T01:44:22Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决长任务中查看进度与午间选餐的小麻烦，但终端、用量页和外卖 App 已能低成本替代；公开材料只有功能描述，没有用户抱怨或案例证明痛点刚性，属于可有无的陪伴型拼装。
+    evidence_ids:
+    - ev-6c2edbde5ae59fd4
+    - ev-03805f03f9234d0e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该 公开代码仓库 仓库的 README、issue 与 discussion，核验提醒、券信息和进度同步是否被实际使用及是否有可复现的部署说明。
+  market: ''
+  job: 开发者在长时间运行编码任务时，把麦当劳主题的桌面 AI 搭子放在角落，让它播报项目进度与 token 余额，并在 11:30 提醒吃饭、汇报最划算的券，帮助完成午间选餐与任务监控。
+  job_en: While running long coding tasks, a developer keeps a McDonald's-themed desktop AI companion
+    in the corner to announce project progress and token balance, remind them to eat at 11:30, and report
+    the best coupon, supporting midday meal choice and task monitoring.
+  pain: 长任务期间切换窗口查看进度和余额会打断专注，午间比券选餐是反复出现的小决策；但公开材料只描述功能，没有用户抱怨、workaround 或案例证明这些痛点足够刚性。
+  pain_en: Switching windows to check progress and balance during long tasks breaks focus, and comparing
+    coupons at midday is a recurring small decision; but public material only describes features, with
+    no user complaints, workarounds or cases showing these pains are rigid enough.
+  current_alternative: 开发者直接看终端或 IDE 输出、查平台用量页，吃饭靠外卖 App 或同事招呼；这些旧做法已能低成本完成同样任务。
+  current_alternative_en: Developers watch terminal or IDE output, check platform usage pages, and rely
+    on delivery apps or colleagues for lunch; these existing methods already complete the same tasks at
+    low cost.
+  usage_reason: 推断：它把进度、余额和用餐提醒收进桌面常驻角色，省去切换窗口和打开外卖 App 的步骤；但缺少用户反馈或案例证明这些提醒被持续使用，且不用它也不损失关键结果，因此选择动机偏弱。
+  usage_reason_en: 'Inference: it folds progress, balance and meal reminders into an always-on desktop
+    character, saving window switches and delivery-app opens; but there is no user feedback or case showing
+    repeated use, and skipping it loses no key outcome, so the reason to choose it is weak.'

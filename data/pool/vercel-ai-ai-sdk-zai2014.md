@@ -21,7 +21,7 @@ canonical_url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/zai%402.0.14
 summary: "### Patch Changes\n\n- Updated dependencies [b3c2bb4]\n  - @ai-sdk/openai-compatible@2.0.86"
 first_seen: '2026-10-20T01:06:30Z'
 last_seen: '2026-10-20T01:06:30Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

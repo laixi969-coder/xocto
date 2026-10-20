@@ -1,0 +1,86 @@
+- id: req-initial-free247editor-2026-10-20
+  project_slug: free247editor
+  level: initial
+  reviewed_at: '2026-10-20T01:06:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人创作者粗剪视频时逐段拖时间线、反复试错的负担，旧做法明确，需求结构成立；但剪辑质量与交付确定性尚无公开证据。
+    evidence_ids:
+    - ev-021cd0a90cb14a74
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度信号，没有用户评价或采用证据说明创作者是否真的把它放进剪辑流程。
+    evidence_ids:
+    - ev-021cd0a90cb14a74
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径；可能靠托管服务或按成片收费，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-021cd0a90cb14a74
+  - gate: truth
+    status: insufficient
+    reason: 未读到剪辑质量、导出格式与人工复核边界的公开材料，承诺能否确定性交付仍缺一环。
+    evidence_ids:
+    - ev-021cd0a90cb14a74
+  next_validation: 收集该仓库的 README、issue 与 discussion，核验实际支持的剪辑动作、导出格式和用户反馈的成片质量。
+  market: ''
+  job: 个人创作者或小团队在拿到原始视频素材后，用自然语言说明剪辑要求，让工具完成粗剪并拿到可继续修改的视频版本。
+  job_en: Individual creators or small teams hand raw footage to a tool, describe edits in plain language,
+    and receive a rough-cut video they can revise.
+  pain: 粗剪需要在时间线上逐段裁切、拼接和试错，对不熟悉剪辑软件的个人创作者是重复且耗时的负担。
+  pain_en: Rough cutting means trimming, joining and trial-and-error on a timeline, a repetitive and time-consuming
+    burden for individual creators unfamiliar with editing software.
+  current_alternative: 用剪映、Premiere 等编辑器手动拖时间线，或把素材交给剪辑师按条付费。
+  current_alternative_en: Manually dragging timelines in editors such as CapCut or Premiere, or paying
+    an editor per clip.
+  usage_reason: 推断：相较手动拖时间线，用户只需用口语描述修改点，由 AI 直接执行裁切与拼接，省去逐段定位和试错这一步，因此不熟悉剪辑软件、素材结构简单的个人创作者会在需要快速出粗剪时选择它。
+  usage_reason_en: 'Inference: compared with dragging a timeline by hand, users only describe changes
+    in plain language and the AI performs the cuts and joins, removing the step of locating and retrying
+    each segment; creators unfamiliar with editing software and working with simple footage would choose
+    it when they need a fast rough cut.'
+- id: req-full-free247editor-2026-10-20
+  project_slug: free247editor
+  level: full
+  reviewed_at: '2026-10-20T01:43:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人创作者粗剪视频时逐段拖时间线、反复试错的负担，旧做法明确，需求结构成立；但剪辑质量与交付确定性尚无公开证据。
+    evidence_ids:
+    - ev-021cd0a90cb14a74
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度信号，没有用户评价或采用证据说明创作者是否真的把它放进剪辑流程。
+    evidence_ids:
+    - ev-021cd0a90cb14a74
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径；可能靠托管服务或按成片收费，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-021cd0a90cb14a74
+  - gate: truth
+    status: insufficient
+    reason: 未读到剪辑质量、导出格式与人工复核边界的公开材料，承诺能否确定性交付仍缺一环。
+    evidence_ids:
+    - ev-021cd0a90cb14a74
+  next_validation: 收集该仓库的 README、issue 与 discussion，核验实际支持的剪辑动作、导出格式和用户反馈的成片质量。
+  market: ''
+  job: 个人创作者或小团队拿到原始视频素材后，用自然语言说明剪辑要求，让这个开源编辑器完成粗剪，并拿到可继续修改的视频版本。
+  job_en: Individual creators or small teams hand raw footage to this open-source editor, describe edits
+    in plain language, and receive a rough-cut video they can revise.
+  pain: 粗剪需要在时间线上逐段裁切、拼接和反复试错，对不熟悉剪辑软件的个人创作者是重复且耗时的负担。
+  pain_en: Rough cutting requires trimming, joining and trial-and-error on a timeline, a repetitive and
+    time-consuming burden for individual creators unfamiliar with editing software.
+  current_alternative: 用剪映、Premiere 等编辑器手动拖时间线，或把素材交给剪辑师按条付费。
+  current_alternative_en: Manually dragging timelines in editors such as CapCut or Premiere, or paying
+    an editor per clip.
+  usage_reason: 推断：相较手动拖时间线，用户只需用口语描述修改点，由 AI 直接执行裁切与拼接，省去逐段定位和试错这一步，因此不熟悉剪辑软件、素材结构简单的个人创作者会在需要快速出粗剪时选择它。
+  usage_reason_en: 'Inference: compared with dragging a timeline by hand, users only describe changes
+    in plain language and the AI performs the cuts and joins, removing the step of locating and retrying
+    each segment; creators unfamiliar with editing software and working with simple footage would choose
+    it when they need a fast rough cut.'

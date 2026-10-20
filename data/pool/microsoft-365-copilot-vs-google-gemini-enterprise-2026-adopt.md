@@ -23,7 +23,7 @@ summary: 'Microsoft 365 Copilot vs Google Gemini Enterprise: 2026 Adoption, Prod
   AI Deployments InfotechLead'
 first_seen: '2026-10-20T01:07:01Z'
 last_seen: '2026-10-20T01:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -130,3 +130,50 @@
     blur, and 3D depth of field in one local render, reducing manual frame-fixing and compositing steps;
     developers with existing web-animation scripts who need repeatable finished video would therefore
     choose it for batch output.'
+- id: req-full-multiplane-2026-10-20
+  project_slug: multiplane
+  level: full
+  reviewed_at: '2026-10-20T01:44:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决网页动画脚本导出成片时逐帧拼接、后期补运动模糊与景深、多次渲染不一致的问题；这是从渲染工作流推出的结构判断，公开材料只有仓库描述，痛点强度尚无用户材料佐证。
+    evidence_ids:
+    - ev-aafeb71843ac257a
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 59 增至 87，说明关注度上升，但没有外部团队采用、引用或讨论的公开证据，不能证明持续使用。
+    evidence_ids:
+    - ev-697faa6a9be7a01b
+    - ev-aafeb71843ac257a
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费或服务方式，钱可能来自开发者自用或企业定制渲染服务，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-aafeb71843ac257a
+  - gate: truth
+    status: insufficient
+    reason: 未披露确定性校验的具体口径、渲染耗时与人工校对环节，无法核对成片质量能否稳定交付。
+    evidence_ids:
+    - ev-aafeb71843ac257a
+  next_validation: 追踪该仓库 README 与 issue/discussion，确认确定性校验口径、渲染耗时以及是否有外部团队在成片流程中引用它。
+  market: ''
+  job: 视频制作者或给 AI 代理搭流程的开发者，在已有网页动画脚本、需要导出成片时，把每个镜头当作由 render(t) 驱动的网页，在本地无头渲染成带运动模糊和景深的视频文件。
+  job_en: Video producers or developers building AI-agent pipelines who already have web-page animation
+    scripts render each shot as a render(t)-driven page into a local headless video file with motion blur
+    and depth of field.
+  pain: 网页动画脚本要变成可交付成片，通常得逐帧截屏再拼接，运动模糊和景深需另做后期，且同一脚本多次渲染结果可能不一致；这是从渲染工作流推出的痛点，公开材料未给出用户抱怨。
+  pain_en: Turning web animation scripts into deliverable video usually means frame-by-frame capture and
+    stitching, with motion blur and depth of field added in post, and repeated renders of the same script
+    may not match. This is inferred from the rendering workflow; public materials show no user complaints.
+  current_alternative: 用录屏或逐帧截屏工具抓取网页动画，再进剪辑软件拼接、加运动模糊与景深，或改用传统视频合成工具重做。
+  current_alternative_en: Capture web animation with screen recording or frame-by-frame screenshots, then
+    stitch and add motion blur and depth of field in an editor, or rebuild in a traditional compositing
+    tool.
+  usage_reason: 推断：相较录屏加后期，它把渲染、确定性校验、按剪辑点运动模糊和景深叠层收进一次本地无头渲染，省去逐帧拼接与后期补效果，因此需要可重复出片的代理开发者会先试用；是否长期留在工作流尚无公开证据。
+  usage_reason_en: 'Inference: compared with screen capture plus post-production, it folds rendering,
+    determinism checks, cut-aware motion blur and depth layering into one local headless render, removing
+    frame stitching and post-effect steps, so agent developers needing reproducible output would try it
+    first; there is no public evidence of sustained use.'
