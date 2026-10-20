@@ -18,3 +18,13 @@
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 macOS 上的开发者在需要让编码代理执行任务时，通过 kuvo-code 这一原生外壳接入任意模型，在
     opencode 引擎上运行并查看代理产出'
+- id: ev-beb91afd76421c93
+  project_slug: kuvo-code
+  url: https://kuvo.run/code
+  title: kuvo-code
+  published_at: '2026-10-13T13:25:16Z'
+  collected_at: '2026-10-20T01:06:30Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'A native macOS harness for coding agents that works with any model, on the opencode engine. |
+    repository stars: 61'

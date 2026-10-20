@@ -21,18 +21,18 @@ canonical_url: https://github.com/nodemaven/google-browser-scraper
 summary: Google search scraper with a real browser and your own proxy. Self-hosted SerpApi alternative
   with an HTTP API and an MCP server.
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nodemaven/google-browser-scraper
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 43
+    stars: 46
     forks: 3
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

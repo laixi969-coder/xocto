@@ -1,0 +1,82 @@
+---
+slug: github-10
+name: Github
+builder: houjinxin
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://github.com/woshihoujinxin/zcode-mobile-android
+canonical_url: https://github.com/woshihoujinxin/zcode-mobile-android
+summary: "四台机器，一个页面，零次切窗。\r\n\r\n我有四台机器在跑 ZCode：公司台式、家里笔记本、云主机、Mac mini。\r\n\r\n以前最烦的不是看不到进度，而是看不过来。每台机器一个窗口，切来切去，上下文全断。想看眼\
+  \ e2e、批个权限、补一句 prompt，得先把窗口找出来。\r\n\r\n所以我写了个 Android 客户端。做完才发现，手机扫码只是入口，真正解决问题的是多机聚合：\r\n\r\n手机扫码，一次绑定多台桌面；\r\
+  \n手机本地起一个群控台 Web 服务；\r\n同一 Wi-Fi 下，PC 浏览器打开这个地址；\r\n每台机器一个独立会话，单屏 / 双列 / 四宫格随便切；\r\nPC 直连官方云，不经过手机转发。页面不关，就能一直连着多台机器。\r\
+  \n现在的日常：早上到公司，四台机器同屏。\r\n\r\n左上：办公室 MacBook 在重构登录模块\r\n右上：家里台式机在跑全量 e2e\r\n左下：云主机在部署 staging\r\n右下：Mac\
+  \ mini 在等我看 PR #42\r\n不用 Cmd+Tab，也不用给每台机器开一个远程桌面。它不是远程桌面，只是把官方会话页聚合成一个多机控制台。\r\n\r\n技术实现也很直接：WebView\
+  \ 承载官方手机页，扫码或通过深链接绑定，凭据只存本机，https + 官方域名白名单 + sid/hash 校验；群控台本质上就是把凭据下发给浏览器，让 PC 自己连官方云。\r\n\r\n手机端本身也能单独扫码接管，通勤、出门、躺床上都能看进度、批权限、补\
+  \ prompt。\r\n\r\n适合同时开多台开发机、多环境跑 Agent 的人；只有一台机器的话，手机端扫码接管也够用。\r\n\r\n非官方客户端，Android 8.0+，APK 5.7 MB，直接装。debug\
+  \ 签名，内测/自用没问题，别拿去上架。 代码在 GitHub / Gitee，欢迎 Issue / PR。\r\n\r\nGitHub： https://github.com/woshihoujinxin/zcode-mobile-android\
+  \ \r\nGitee： https://gitee.com/houjinxin/zcode-mobile-android\r\n\r\n最近 GLM 降智严重，大家可以在本地配置好别的模型，推荐 DS"
+first_seen: '2026-10-20T01:06:24Z'
+last_seen: '2026-10-20T01:06:24Z'
+status: pending_filter
+sources:
+- v2ex
+sightings:
+- source: v2ex
+  url: https://github.com/woshihoujinxin/zcode-mobile-android
+  seen_at: '2026-10-20T01:06:24Z'
+  metrics:
+    comments: 2
+  kind: product
+---
+
+# Github
+
+四台机器，一个页面，零次切窗。
+
+我有四台机器在跑 ZCode：公司台式、家里笔记本、云主机、Mac mini。
+
+以前最烦的不是看不到进度，而是看不过来。每台机器一个窗口，切来切去，上下文全断。想看眼 e2e、批个权限、补一句 prompt，得先把窗口找出来。
+
+所以我写了个 Android 客户端。做完才发现，手机扫码只是入口，真正解决问题的是多机聚合：
+
+手机扫码，一次绑定多台桌面；
+手机本地起一个群控台 Web 服务；
+同一 Wi-Fi 下，PC 浏览器打开这个地址；
+每台机器一个独立会话，单屏 / 双列 / 四宫格随便切；
+PC 直连官方云，不经过手机转发。页面不关，就能一直连着多台机器。
+现在的日常：早上到公司，四台机器同屏。
+
+左上：办公室 MacBook 在重构登录模块
+右上：家里台式机在跑全量 e2e
+左下：云主机在部署 staging
+右下：Mac mini 在等我看 PR #42
+不用 Cmd+Tab，也不用给每台机器开一个远程桌面。它不是远程桌面，只是把官方会话页聚合成一个多机控制台。
+
+技术实现也很直接：WebView 承载官方手机页，扫码或通过深链接绑定，凭据只存本机，https + 官方域名白名单 + sid/hash 校验；群控台本质上就是把凭据下发给浏览器，让 PC 自己连官方云。
+
+手机端本身也能单独扫码接管，通勤、出门、躺床上都能看进度、批权限、补 prompt。
+
+适合同时开多台开发机、多环境跑 Agent 的人；只有一台机器的话，手机端扫码接管也够用。
+
+非官方客户端，Android 8.0+，APK 5.7 MB，直接装。debug 签名，内测/自用没问题，别拿去上架。 代码在 GitHub / Gitee，欢迎 Issue / PR。
+
+GitHub： https://github.com/woshihoujinxin/zcode-mobile-android 
+Gitee： https://gitee.com/houjinxin/zcode-mobile-android
+
+最近 GLM 降智严重，大家可以在本地配置好别的模型，推荐 DS
+
+## 笔记
+
+

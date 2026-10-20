@@ -33,16 +33,16 @@ canonical_url: https://github.com/Chengjun023/agent-smith
 summary: Token 超支？快给史密斯打电话！ Better Call Smith. Adaptive model routing, a glassy Codex usage monitor, and
   reproducible benchmarks with receipts.
 first_seen: '2026-09-30T15:58:32Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Chengjun023/agent-smith
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 318
+    stars: 308
     forks: 8
     open_issues: 0
   kind: product

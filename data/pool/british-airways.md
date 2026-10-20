@@ -20,17 +20,17 @@ url: https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/
 canonical_url: https://liveandletsfly.com/british-airways-meta-smart-glasses-filming
 summary: Filming Crew W Meta Glasses Could Get Your Tickets Cancelled
 first_seen: '2026-10-19T00:13:33Z'
-last_seen: '2026-10-19T00:13:33Z'
-status: rejected
+last_seen: '2026-10-20T01:06:26Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://liveandletsfly.com/british-airways-meta-smart-glasses-filming/
-  seen_at: '2026-10-19T00:13:33Z'
+  seen_at: '2026-10-20T01:06:26Z'
   metrics:
-    points: 89
-    comments: 144
+    points: 93
+    comments: 161
   kind: news
 ---
 

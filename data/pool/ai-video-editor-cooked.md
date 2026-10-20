@@ -34,17 +34,17 @@ url: https://github.com/nextwork-projects/ai-video-editor-cooked
 canonical_url: https://github.com/nextwork-projects/ai-video-editor-cooked
 summary: Edit your talking-head video in the style of a creator you like, with Claude Code
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nextwork-projects/ai-video-editor-cooked
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 101
-    forks: 35
+    stars: 106
+    forks: 37
     open_issues: 4
   kind: product
 ---

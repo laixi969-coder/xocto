@@ -21,17 +21,17 @@ canonical_url: https://github.com/jddevtime/open-lakehouse-compute-fabric
 summary: 'Open Lakehouse Compute Fabric: an open-source lakehouse platform with Microsoft Fabric Compute
   Extension.'
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-18T00:03:49Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jddevtime/open-lakehouse-compute-fabric
-  seen_at: '2026-10-18T00:03:49Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 236
-    forks: 235
+    stars: 277
+    forks: 276
     open_issues: 1
   kind: product
 ---

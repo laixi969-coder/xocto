@@ -28,17 +28,17 @@ url: https://entelligence.ai/agentplay
 canonical_url: https://entelligence.ai/agentplay
 summary: Replay your coding agent sessions as a map and a timeline
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://entelligence.ai/agentplay
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 255
-    forks: 12
+    stars: 261
+    forks: 14
     open_issues: 0
   kind: product
 ---

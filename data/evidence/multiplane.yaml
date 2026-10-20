@@ -38,3 +38,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 视频制作 广告与营销 视频制作者或代理开发者把网页动画脚本渲染成带运动模糊和景深的成片视频'
+- id: ev-aafeb71843ac257a
+  project_slug: multiplane
+  url: https://github.com/LBEILC/Multiplane
+  title: Multiplane
+  published_at: '2026-10-11T04:38:04Z'
+  collected_at: '2026-10-20T01:06:30Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Local headless HTML-to-video renderer for AI agents. Shots are plain web pages driven by render(t);
+    includes determinism checks, cut-aware motion blur, and a 3D layer with accumulated depth of field.
+    | repository stars: 87'

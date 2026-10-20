@@ -34,18 +34,18 @@ url: https://github.com/c1overzz/dsh-bili-scroll
 canonical_url: https://github.com/c1overzz/dsh-bili-scroll
 summary: DSH 插件：每天替你刷一轮 B站，读字幕挑出值得的、写一份日报，值得的 @ 你
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/c1overzz/dsh-bili-scroll
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 132
-    forks: 15
-    open_issues: 24
+    stars: 188
+    forks: 26
+    open_issues: 38
   kind: product
 ---
 

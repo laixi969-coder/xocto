@@ -20,17 +20,17 @@ url: https://arxiv.org/abs/2610.18861
 canonical_url: https://arxiv.org/abs/2610.18861
 summary: LLM agents that think in latent space, act through text
 first_seen: '2026-10-19T00:13:33Z'
-last_seen: '2026-10-19T00:13:33Z'
-status: rejected
+last_seen: '2026-10-20T01:06:26Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://arxiv.org/abs/2610.18861
-  seen_at: '2026-10-19T00:13:33Z'
+  seen_at: '2026-10-20T01:06:26Z'
   metrics:
-    points: 162
-    comments: 97
+    points: 502
+    comments: 236
   kind: news
 ---
 

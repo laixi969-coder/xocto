@@ -21,8 +21,8 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-10-16T00:25:40Z'
-status: rejected
+last_seen: '2026-10-20T01:07:01Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -130,6 +130,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/
   seen_at: '2026-10-16T00:25:40Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQWElaRERFYkdyMDk2Sm1IUGxscjIzamowNFc4Vmx0TlQ4T0lWcjY1MHVuaEp4TEtJSXlWOWxBZnR4QlFIZU0yc1k4UjI4aUZ6M1RYTHpaVmZzM0pCb3hxQi02RFJGX0loRU1BbFdjcmk0ZHlVLVJEZFRKNl9MYTg1clFmVXRhTGVVOUNycA?oc=5
+  seen_at: '2026-10-20T01:07:01Z'
   metrics: {}
   kind: news
 ---

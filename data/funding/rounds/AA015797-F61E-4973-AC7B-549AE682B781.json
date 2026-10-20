@@ -28,7 +28,21 @@
     "sectors": [
       "AI"
     ],
-    "signals": null,
+    "signals": {
+      "confidence": "medium",
+      "exit": null,
+      "heat": 52,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          }
+        ],
+        "score": 18
+      }
+    },
     "source": "Tech.eu Funding Explorer",
     "totalEur": 2878828,
     "url": "https://funding.tech.eu/companies/DCCAAAB3-57E3-48C6-ABA7-278D135978BC",

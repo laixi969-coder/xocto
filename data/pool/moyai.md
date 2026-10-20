@@ -32,17 +32,17 @@ canonical_url: https://github.com/BerriAI/moyai
 summary: A self-hosted coding agent for background work - works with Claude Code, Codex, OpenCode & 100+
   providers
 first_seen: '2026-09-30T01:41:01Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/BerriAI/moyai
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 266
-    forks: 35
+    stars: 270
+    forks: 36
     open_issues: 4
   kind: product
 ---

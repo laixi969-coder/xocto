@@ -31,8 +31,8 @@ summary: Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, In
   TechCrunch that it only allows AI agents that pay for its data licensing program, while Delta Air Lines
   is preventing them from booking ticket … Read the full story at The Verge.
 first_seen: '2026-10-18T00:04:10Z'
-last_seen: '2026-10-19T00:13:33Z'
-status: market_context
+last_seen: '2026-10-20T01:06:26Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -44,10 +44,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web
-  seen_at: '2026-10-19T00:13:33Z'
+  seen_at: '2026-10-20T01:06:26Z'
   metrics:
-    points: 133
-    comments: 125
+    points: 153
+    comments: 149
   kind: news
 ---
 

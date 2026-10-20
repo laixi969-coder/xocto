@@ -21,17 +21,17 @@ canonical_url: https://github.com/Ebony-Vinyl/EAC-Pack
 summary: Embracing All Creation (Plugin Suite) — Dedicated to the Harmonious Coexistence of Hundreds of
   DSH Plugins / 揽尽万象（插件整合包） —— 致力于让数百个DSH插件和谐共存
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Ebony-Vinyl/EAC-Pack
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 72
-    forks: 1
+    stars: 82
+    forks: 2
     open_issues: 4
   kind: product
 ---

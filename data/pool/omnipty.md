@@ -20,17 +20,17 @@ url: https://github.com/omnipty-terminal/omnipty
 canonical_url: https://github.com/omnipty-terminal/omnipty
 summary: Opinionated terminal emulator for macOS and Linux
 first_seen: '2026-10-19T00:13:33Z'
-last_seen: '2026-10-19T00:13:33Z'
+last_seen: '2026-10-20T01:06:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/omnipty-terminal/omnipty
-  seen_at: '2026-10-19T00:13:33Z'
+  seen_at: '2026-10-20T01:06:26Z'
   metrics:
-    points: 8
-    comments: 2
+    points: 14
+    comments: 4
   kind: product
 ---
 

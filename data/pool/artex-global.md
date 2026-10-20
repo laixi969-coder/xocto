@@ -38,17 +38,17 @@ url: https://github.com/jiwoochris/artex-global
 canonical_url: https://github.com/jiwoochris/artex-global
 summary: 'ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)'
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jiwoochris/artex-global
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 1662
-    forks: 1953
+    stars: 1716
+    forks: 2000
     open_issues: 12
   kind: product
 ---

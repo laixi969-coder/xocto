@@ -1,0 +1,18 @@
+- id: ev-57c951d334bf5dbc
+  project_slug: structured-outputs-for-anthropic-claude-models-on-amazon-bed
+  url: https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/
+  title: Structured outputs for Anthropic Claude models on Amazon Bedrock
+  published_at: '2026-10-19T23:32:19Z'
+  collected_at: '2026-10-20T01:06:54Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Amazon Bedrock now supports structured outputs for all Anthropic Claude models, on both the bedrock-runtime
+    and bedrock-mantle endpoints, where the model is available. Whether you call Claude through Boto3
+    and the bedrock-runtime APIs or through the Messages API and the bedrock-mantle endpoint, you can
+    now receive schema-compliant JSON responses that conform to a defined structure. You no longer need
+    custom parsing, retry logic, or post-processing. Practical applications With structured outputs for
+    Claude on Amazon Bedrock, you can automate reliable, schema-compliant tasks across industries. Examples
+    include extracting every required field from financial earnings reports and compliance documents,
+    parsing clinical notes into Electronic Health Records (EHR), and enriching product catalogs with consistent,
+    validated results. You can also analyze contracts for key terms, parties, and obligations, or power
+    intelligent support ticket routing where intents, sentiments, and entities always mat

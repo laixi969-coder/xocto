@@ -31,7 +31,7 @@ url: https://github.com/swax/dub-anything
 canonical_url: https://github.com/swax/dub-anything
 summary: Dub videos in each actor's own voice
 first_seen: '2026-10-16T00:25:14Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - hackernews
@@ -46,9 +46,9 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/swax/dub-anything
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 58
+    stars: 67
     forks: 6
     open_issues: 2
   kind: product

@@ -1,0 +1,18 @@
+- id: ev-7d95d0612ba05e3f
+  project_slug: how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium
+  url: https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/
+  title: How Deepgram optimized voice AI at scale with AWS Trainium
+  published_at: '2026-10-19T16:23:22Z'
+  collected_at: '2026-10-20T01:06:54Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: As voice becomes a first-class modality for AI, Deepgram’s models span speech-to-text, text-to-speech,
+    and voice agents. They now process quadrillions of audio tokens a year for more than 200,000 developers
+    and 1,400 organizations. Customers use them through the Deepgram API or run them in their own environments,
+    including on Amazon SageMaker AI. For Deepgram, serving efficiency determines how much audio the system
+    can process for a given infrastructure budget. High-volume batch workloads put heavy pressure on that
+    budget, so the more efficiently each accelerator hour is used, the more audio Deepgram can serve on
+    the same fleet. That made inference efficiency a natural target and Deepgram turned to AWS AI chips
+    to improve it. They worked with AWS to bring its Nova-3 speech-to-text model to AWS Trainium2 for
+    offline batch workloads such as contact-center analytics and medical transcription. The engagement
+    began with Deepgram delivering Nova-3 as standard PyTorch code. Over several month

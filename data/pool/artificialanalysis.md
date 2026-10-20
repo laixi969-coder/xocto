@@ -24,8 +24,8 @@ url: https://artificialanalysis.ai/optima
 canonical_url: https://artificialanalysis.ai/optima
 summary: Artificial Analysis tool to create custom benchmarks for any use case
 first_seen: '2026-08-13T16:28:02Z'
-last_seen: '2026-10-02T01:41:51Z'
-status: market_context
+last_seen: '2026-10-20T01:06:26Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -77,6 +77,13 @@ sightings:
   metrics:
     points: 79
     comments: 97
+  kind: news
+- source: hackernews
+  url: https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017
+  seen_at: '2026-10-20T01:06:26Z'
+  metrics:
+    points: 186
+    comments: 90
   kind: news
 ---
 

@@ -20,8 +20,8 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-10-17T00:31:16Z'
-status: rejected
+last_seen: '2026-10-20T01:07:01Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -140,6 +140,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNNm94bFE2TndJN2NjLUxQd2JsM1kyTy16dnpjVVFkOUhtNF8zQ29IdXB1ZlpnWlJWUlRLR2JSWmlmQkZmLWFwMEpDRkZSb25qOGd4ZFQ0Q0gxNHhQZUQwUjRlLThIUGYtVnpYQVNya1JtZ0NYdUw0OFRGc3IydkJHY3JBdEFseFN4ZzRfZGNOYVF6Z2NZRlptb3oxRVJWTU9oaDVha2R3?oc=5
   seen_at: '2026-10-17T00:31:16Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free
+  seen_at: '2026-10-20T01:06:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiggFBVV95cUxQT0licGxxWVlDR0hCNEFlWkVyRWs0WUxUQThkZ2lOMHhjTkVSNUp2dG9tc1JLNUFNbWxNOWVQMzR4SGlveS05MnBvYlpvVWZUbXVsUmh4SGdRbTIyUGhEM0dDQkYxTWhxQlRwQmVPdldsckVrb3ktbnZpUGszcnJHbTVR?oc=5
+  seen_at: '2026-10-20T01:07:01Z'
   metrics: {}
   kind: news
 ---

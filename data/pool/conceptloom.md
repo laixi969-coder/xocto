@@ -34,16 +34,16 @@ canonical_url: https://github.com/Zproger/ConceptLoom
 summary: AI-powered learning workflow for Codex, Claude Code, and OpenCode that maps your knowledge, builds
   a personalized learning path, checks understanding, and saves progress across sessions.
 first_seen: '2026-10-01T14:29:47Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Zproger/ConceptLoom
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 168
+    stars: 173
     forks: 18
     open_issues: 3
   kind: product

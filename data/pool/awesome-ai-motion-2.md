@@ -21,16 +21,16 @@ canonical_url: https://gongnyang.github.io/awesome-ai-motion
 summary: 637 motion techniques for AI video, infographics and scroll decks — rendered clips, recipes,
   routes and an agent skill (ko/en)
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://gongnyang.github.io/awesome-ai-motion/
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 249
+    stars: 255
     forks: 37
     open_issues: 1
   kind: product

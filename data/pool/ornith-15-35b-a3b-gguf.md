@@ -20,7 +20,7 @@ url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 summary: 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-10-19T00:13:33Z'
+last_seen: '2026-10-20T01:06:26Z'
 status: rejected
 sources:
 - modelscope
@@ -183,17 +183,31 @@ sightings:
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/meta-models/Muse-Spark-Open-816B-A42B
-  seen_at: '2026-10-19T00:13:33Z'
+  seen_at: '2026-10-20T01:06:26Z'
   metrics:
-    likes: 47
-    downloads: 301
+    likes: 56
+    downloads: 424
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash-1017
-  seen_at: '2026-10-19T00:13:33Z'
+  seen_at: '2026-10-20T01:06:26Z'
   metrics:
-    likes: 117
-    downloads: 5034
+    likes: 178
+    downloads: 6882
+  kind: product
+- source: modelscope
+  url: https://modelscope.cn/models/openmoss/MOSS-Image-SFT
+  seen_at: '2026-10-20T01:06:26Z'
+  metrics:
+    likes: 34
+    downloads: 8275
+  kind: product
+- source: modelscope
+  url: https://modelscope.cn/models/Tencent-Hunyuan/Hy-Memory-30B-A3B
+  seen_at: '2026-10-20T01:06:26Z'
+  metrics:
+    likes: 22
+    downloads: 77
   kind: product
 ---
 

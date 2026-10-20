@@ -31,18 +31,18 @@ summary: 'Co-op Anything: point your AI agent at any single-player game and play
   and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share
   what it learns.'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cranebeaker/coop-anything
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 406
-    forks: 36
-    open_issues: 18
+    stars: 591
+    forks: 57
+    open_issues: 44
   kind: product
 ---
 

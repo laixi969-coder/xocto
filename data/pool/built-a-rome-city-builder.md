@@ -20,7 +20,7 @@ url: https://tiberava.pages.dev/
 canonical_url: https://tiberava.pages.dev
 summary: ''
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-19T00:13:33Z'
+last_seen: '2026-10-20T01:06:26Z'
 status: pending_filter
 sources:
 - hackernews
@@ -34,10 +34,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://tiberava.pages.dev
-  seen_at: '2026-10-19T00:13:33Z'
+  seen_at: '2026-10-20T01:06:26Z'
   metrics:
-    points: 8
-    comments: 14
+    points: 10
+    comments: 15
   kind: product
 ---
 

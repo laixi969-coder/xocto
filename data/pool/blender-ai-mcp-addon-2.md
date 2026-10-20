@@ -34,17 +34,17 @@ summary: 'AI assistant and MCP server for Blender: visual chat, scene tools, mul
   with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D,
   bpy Python scripting, MCP integration.'
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LiCinCan/blender-ai-mcp-addon
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 785
-    forks: 377
+    stars: 929
+    forks: 381
     open_issues: 31
   kind: product
 ---

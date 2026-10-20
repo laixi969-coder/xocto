@@ -1,0 +1,43 @@
+---
+slug: mercury-3
+name: Mercury 3
+builder: cmrdporcupine
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://www.inceptionlabs.ai/blog/introducing-mercury-3
+canonical_url: https://inceptionlabs.ai/blog/introducing-mercury-3
+summary: Diffusion at scale
+first_seen: '2026-10-20T01:06:26Z'
+last_seen: '2026-10-20T01:06:26Z'
+status: pending_filter
+sources:
+- hackernews
+sightings:
+- source: hackernews
+  url: https://www.inceptionlabs.ai/blog/introducing-mercury-3
+  seen_at: '2026-10-20T01:06:26Z'
+  metrics:
+    points: 219
+    comments: 85
+  kind: news
+---
+
+# Mercury 3
+
+Diffusion at scale
+
+## 笔记
+
+

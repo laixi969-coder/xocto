@@ -21,18 +21,18 @@ canonical_url: https://github.com/morluto/awesome-reverse-engineering
 summary: Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats,
   and protocols.
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/morluto/awesome-reverse-engineering
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 832
-    forks: 184
-    open_issues: 1
+    stars: 924
+    forks: 207
+    open_issues: 7
   kind: product
 ---
 

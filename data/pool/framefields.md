@@ -32,17 +32,17 @@ url: https://framefields.dev
 canonical_url: https://framefields.dev
 summary: Code-first video, rendered natively on WebGPU.
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://framefields.dev
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 420
-    forks: 21
+    stars: 436
+    forks: 25
     open_issues: 1
   kind: product
 ---

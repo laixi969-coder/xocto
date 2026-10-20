@@ -20,7 +20,7 @@ url: https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-fi
 canonical_url: https://theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney
 summary: Character.ai Files for Bankruptcy
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-14T01:13:55Z'
+last_seen: '2026-10-20T01:06:26Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 145
     comments: 21
+  kind: news
+- source: hackernews
+  url: https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins
+  seen_at: '2026-10-20T01:06:26Z'
+  metrics:
+    points: 59
+    comments: 3
   kind: news
 ---
 

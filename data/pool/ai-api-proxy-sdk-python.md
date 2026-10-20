@@ -21,7 +21,7 @@ canonical_url: https://go.apimart.ai/k-831e06
 summary: 'AI API proxy SDK for Python: retry with idempotency keys, rate-limit backoff, task polling,
   cost accounting and typed errors for OpenAI-compatible AI API gateways.'
 first_seen: '2026-09-17T09:51:41Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: rejected
 sources:
 - github
@@ -207,6 +207,30 @@ sightings:
   seen_at: '2026-10-19T00:13:37Z'
   metrics:
     stars: 54
+    forks: 0
+    open_issues: 0
+  kind: product
+- source: github
+  url: https://go.apimart.ai/k-d44bff
+  seen_at: '2026-10-20T01:06:30Z'
+  metrics:
+    stars: 53
+    forks: 0
+    open_issues: 0
+  kind: product
+- source: github
+  url: https://go.apimart.ai/k-84e396
+  seen_at: '2026-10-20T01:06:30Z'
+  metrics:
+    stars: 51
+    forks: 0
+    open_issues: 0
+  kind: product
+- source: github
+  url: https://go.apimart.ai/k-c8978f
+  seen_at: '2026-10-20T01:06:30Z'
+  metrics:
+    stars: 49
     forks: 0
     open_issues: 0
   kind: product

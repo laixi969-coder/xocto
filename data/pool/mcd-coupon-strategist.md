@@ -29,16 +29,16 @@ url: https://github.com/Ayzzz123/mcd-coupon-strategist/blob/main/MCP_INTEGRATION
 canonical_url: https://github.com/Ayzzz123/mcd-coupon-strategist/blob/main/MCP_INTEGRATION.md
 summary: 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Ayzzz123/mcd-coupon-strategist/blob/main/MCP_INTEGRATION.md
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 491
+    stars: 555
     forks: 20
     open_issues: 0
   kind: product

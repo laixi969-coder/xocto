@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeHlWaWRETE1RUk1UampBak
 canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeHlWaWRETE1RUk1UampBakZ6dmVUc0dPWEF0NlkxMi1xdnBNMEdxRzlaNEJxemtiY0k3NlluQlQ1NHlIeGtkOFpYTGJXaEY2RzNOWUstRmVhcWlXSkViMmhFV29iNmJ1dmFxWEtUcENrUVJ0Z3l4cHYxdnRjWTl3U0k4elZWN041Nlk2YmtOVUZiQ2FNaUN4OHd2TE4yRUd3U2JhVkFRWjFvRnZtdFRId1dwUUZkME1fejdF?oc=5
 summary: October 2026 Global Sources Hong Kong Shows Phase II Opens Today StreetInsider
 first_seen: '2026-10-19T00:14:04Z'
-last_seen: '2026-10-19T00:14:04Z'
-status: rejected
+last_seen: '2026-10-20T01:07:01Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeHlWaWRETE1RUk1UampBakZ6dmVUc0dPWEF0NlkxMi1xdnBNMEdxRzlaNEJxemtiY0k3NlluQlQ1NHlIeGtkOFpYTGJXaEY2RzNOWUstRmVhcWlXSkViMmhFV29iNmJ1dmFxWEtUcENrUVJ0Z3l4cHYxdnRjWTl3U0k4elZWN041Nlk2YmtOVUZiQ2FNaUN4OHd2TE4yRUd3U2JhVkFRWjFvRnZtdFRId1dwUUZkME1fejdF?oc=5
   seen_at: '2026-10-19T00:14:04Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNVGFBbkJfbzROM1pYUzdYU0wzQ1ZWUGZNU2VZTUlWbjl0M1JoejBSX0k3ZGJBVGFfUUxmaWZBYmY0OVNseW1PemROMkNQcV9TMmhkcHBlb3gxSTdlOU04RVdGa2ZJa0ZDMXNUeE4yS0VoR2NUVGhnckNuczlldnd3QjQ2VExmMTlFRG9vbHp2YXFBQUVEMXlIT1JwNHFIOW9nZ0cyblJYOXd6OTgxR0ktZW53?oc=5
+  seen_at: '2026-10-20T01:07:01Z'
   metrics: {}
   kind: news
 ---

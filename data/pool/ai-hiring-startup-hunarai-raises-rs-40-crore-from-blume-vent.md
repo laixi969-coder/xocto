@@ -1,0 +1,41 @@
+---
+slug: ai-hiring-startup-hunarai-raises-rs-40-crore-from-blume-vent
+name: AI hiring startup Hunar.AI raises Rs 40 crore from Blume Ventures, others
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcFR2OUgyQzFPcEtScnBlU2ZmUVlqZUxwRlZ6VWc3UTRYZGp0UTItaHYyVlNoU2trYkRTdFZJcnl4MFJMTkp1bTBoVTMxUmRSR2wydlVfVkNuc1pPQllKVDBvcFV2OTlQMktFWks4X0lVbm5LRms0YWVqSWFHRXRBOFoyNVVGR0tIN1RMdXRZNHdpZFlVUVFfd0F6R3pUWTJ3S1ZlcUcyN2lsTXIwUTZIMGFKd2pJbUt1ejF0eHUxaUJJckxabmpSOE1IOGxPTjF1RVRtMG1yYXnSAd4BQVVfeXFMT0draktzRno1S2JaSTlnVUpJTjBXRld5emFaVDdONEE4QnJ4aUNGM0VZeVJ1ZnpLQWFROWtQSkZRa05HUUFiOVVXRG5TT3hHQ3pWRnNYZ3N4U1BURHBscGpvQTY0emZHeTNLVzA2NlFqOVIycjl5dTE0clp1ekRCZGlJUm51WldielhyenQ1dF9iVFJqclJFWnF1ejhBWjd2VmpYeWpmc2stbFRFcHNfZVZMdWVYdEs2eGZuUDY2M2NDOFBXU1RWN2dDaHRjekRkQnZDVFo2Y1NSVkNUbGVR?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcFR2OUgyQzFPcEtScnBlU2ZmUVlqZUxwRlZ6VWc3UTRYZGp0UTItaHYyVlNoU2trYkRTdFZJcnl4MFJMTkp1bTBoVTMxUmRSR2wydlVfVkNuc1pPQllKVDBvcFV2OTlQMktFWks4X0lVbm5LRms0YWVqSWFHRXRBOFoyNVVGR0tIN1RMdXRZNHdpZFlVUVFfd0F6R3pUWTJ3S1ZlcUcyN2lsTXIwUTZIMGFKd2pJbUt1ejF0eHUxaUJJckxabmpSOE1IOGxPTjF1RVRtMG1yYXnSAd4BQVVfeXFMT0draktzRno1S2JaSTlnVUpJTjBXRld5emFaVDdONEE4QnJ4aUNGM0VZeVJ1ZnpLQWFROWtQSkZRa05HUUFiOVVXRG5TT3hHQ3pWRnNYZ3N4U1BURHBscGpvQTY0emZHeTNLVzA2NlFqOVIycjl5dTE0clp1ekRCZGlJUm51WldielhyenQ1dF9iVFJqclJFWnF1ejhBWjd2VmpYeWpmc2stbFRFcHNfZVZMdWVYdEs2eGZuUDY2M2NDOFBXU1RWN2dDaHRjekRkQnZDVFo2Y1NSVkNUbGVR?oc=5
+summary: AI hiring startup Hunar.AI raises Rs 40 crore from Blume Ventures, others The Economic Times
+first_seen: '2026-10-20T01:07:01Z'
+last_seen: '2026-10-20T01:07:01Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcFR2OUgyQzFPcEtScnBlU2ZmUVlqZUxwRlZ6VWc3UTRYZGp0UTItaHYyVlNoU2trYkRTdFZJcnl4MFJMTkp1bTBoVTMxUmRSR2wydlVfVkNuc1pPQllKVDBvcFV2OTlQMktFWks4X0lVbm5LRms0YWVqSWFHRXRBOFoyNVVGR0tIN1RMdXRZNHdpZFlVUVFfd0F6R3pUWTJ3S1ZlcUcyN2lsTXIwUTZIMGFKd2pJbUt1ejF0eHUxaUJJckxabmpSOE1IOGxPTjF1RVRtMG1yYXnSAd4BQVVfeXFMT0draktzRno1S2JaSTlnVUpJTjBXRld5emFaVDdONEE4QnJ4aUNGM0VZeVJ1ZnpLQWFROWtQSkZRa05HUUFiOVVXRG5TT3hHQ3pWRnNYZ3N4U1BURHBscGpvQTY0emZHeTNLVzA2NlFqOVIycjl5dTE0clp1ekRCZGlJUm51WldielhyenQ1dF9iVFJqclJFWnF1ejhBWjd2VmpYeWpmc2stbFRFcHNfZVZMdWVYdEs2eGZuUDY2M2NDOFBXU1RWN2dDaHRjekRkQnZDVFo2Y1NSVkNUbGVR?oc=5
+  seen_at: '2026-10-20T01:07:01Z'
+  metrics: {}
+  kind: news
+---
+
+# AI hiring startup Hunar.AI raises Rs 40 crore from Blume Ventures, others
+
+AI hiring startup Hunar.AI raises Rs 40 crore from Blume Ventures, others The Economic Times
+
+## 笔记
+
+

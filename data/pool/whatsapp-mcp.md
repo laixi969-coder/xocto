@@ -20,17 +20,26 @@ url: https://github.com/finereli/whatsapp-mcp
 canonical_url: https://github.com/finereli/whatsapp-mcp
 summary: WhatsApp MCP running free on Cloudflare
 first_seen: '2026-10-19T00:13:33Z'
-last_seen: '2026-10-19T00:13:33Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: pending_filter
 sources:
 - hackernews
+- github
 sightings:
 - source: hackernews
   url: https://github.com/finereli/whatsapp-mcp
-  seen_at: '2026-10-19T00:13:33Z'
+  seen_at: '2026-10-20T01:06:26Z'
   metrics:
-    points: 27
-    comments: 16
+    points: 146
+    comments: 78
+  kind: product
+- source: github
+  url: https://github.com/finereli/whatsapp-mcp
+  seen_at: '2026-10-20T01:06:30Z'
+  metrics:
+    stars: 285
+    forks: 18
+    open_issues: 1
   kind: product
 ---
 

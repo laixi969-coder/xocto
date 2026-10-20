@@ -20,18 +20,18 @@ url: https://github.com/AienTech/dossier
 canonical_url: https://github.com/AienTech/dossier
 summary: A self-hosted job search app that writes tailored resumes and cover letters from your profile.
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AienTech/dossier
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 166
-    forks: 34
-    open_issues: 1
+    stars: 225
+    forks: 48
+    open_issues: 0
   kind: product
 ---
 

@@ -22,16 +22,16 @@ summary: Free, open-source screen recorder for macOS. A share link the moment yo
   smooth cursor and captions under the same link. Native Swift, your own S3/R2 bucket, CLI and MCP server.
   A Loom and Screen Studio alternative.
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://reelbird.app
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 40
+    stars: 41
     forks: 6
     open_issues: 0
   kind: product

@@ -30,17 +30,17 @@ canonical_url: https://openui.com/demo/intelligent-ui
 summary: 'An open-source take on ChatGPT''s Intelligent UI: answers stream as interactive UI (maps, photos,
   charts, drawings and working tools). Built with OpenUI.'
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.openui.com/demo/intelligent-ui
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 538
-    forks: 45
+    stars: 656
+    forks: 48
     open_issues: 27
   kind: product
 ---

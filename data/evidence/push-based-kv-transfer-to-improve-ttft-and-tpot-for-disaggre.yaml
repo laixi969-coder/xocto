@@ -1,0 +1,18 @@
+- id: ev-b313f70530727600
+  project_slug: push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggre
+  url: https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/
+  title: Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM
+  published_at: '2026-10-19T16:05:17Z'
+  collected_at: '2026-10-20T01:06:54Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'vLLM is an open-source inference and serving engine for large language models (LLMs). LLM inference
+    has two distinct phases: prefill, which processes the input prompt and builds the key-value (KV) cache,
+    and decode, which uses that cache to generate output one token at a time. These phases have different
+    compute, memory, and scaling characteristics. Prefill-decode (P-D) disaggregation runs them on separate
+    engine instances, allowing each phase to scale and be optimized independently. This can improve resource
+    utilization, throughput, and latency under load. However, it also requires transferring the KV cache
+    from the prefill instance to the decode instance before token generation can begin, making efficient
+    KV transfer critical to time-to-first-token (TTFT). One of the ways vLLM performs this transfer is
+    through the NVIDIA Inference Xfer Library (NIXL) connector , which moves KV blocks over interconnects
+    that support Remote Direct Memory Access (RDMA), such as AWS Elastic Fabric Adapte'

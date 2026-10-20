@@ -20,16 +20,16 @@ url: http://bs.ell.dev/
 canonical_url: https://bs.ell.dev
 summary: a Lisp(y) VM for shmup bullet patterns
 first_seen: '2026-10-19T00:13:33Z'
-last_seen: '2026-10-19T00:13:33Z'
+last_seen: '2026-10-20T01:06:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: http://bs.ell.dev/
-  seen_at: '2026-10-19T00:13:33Z'
+  seen_at: '2026-10-20T01:06:26Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

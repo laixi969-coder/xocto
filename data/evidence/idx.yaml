@@ -169,3 +169,14 @@
   tier: independent
   fact: 'Public-material coverage query for zh: AI 金融服务 证券投资 散户投资者或研究员在查看印尼股市行情、基本面与筛选标的时，通过网页终端、命令行或
     AI 代理的 MCP 接口获取 IHSG 价格与筛选结果'
+- id: ev-37448fe7d96f7cb0
+  project_slug: idx
+  url: https://ihsg.midoriresearch.com
+  title: idx
+  published_at: '2026-10-16T17:51:21Z'
+  collected_at: '2026-10-20T01:06:30Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Analyze the Indonesian stock market (IDX/IHSG) from web terminal, CLI, or any AI agents via MCP
+    server. IHSG Prices, Fundamentals, and Screening. Free and No API keys required. Changelog: https://github.com/fzn0x/idx/blob/main/CHANGELOG.md
+    | repository stars: 148'

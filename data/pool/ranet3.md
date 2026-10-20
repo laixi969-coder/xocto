@@ -20,17 +20,17 @@ url: https://ranet3.com/
 canonical_url: https://ranet3.com
 summary: High performance policy routed IPsec mesh SD-WAN
 first_seen: '2026-10-19T00:13:33Z'
-last_seen: '2026-10-19T00:13:33Z'
+last_seen: '2026-10-20T01:06:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://ranet3.com/
-  seen_at: '2026-10-19T00:13:33Z'
+  seen_at: '2026-10-20T01:06:26Z'
   metrics:
-    points: 25
-    comments: 5
+    points: 40
+    comments: 12
   kind: product
 ---
 

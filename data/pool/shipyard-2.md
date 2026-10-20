@@ -33,18 +33,18 @@ canonical_url: https://coss.com/shipyard
 summary: 'Run coding agents on your dev boxes: worktrees, terminals, orchestration, kits and automations,
   with a desktop app.'
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-20T01:06:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://coss.com/shipyard
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-20T01:06:30Z'
   metrics:
-    stars: 321
+    stars: 324
     forks: 36
-    open_issues: 9
+    open_issues: 10
   kind: product
 ---
 
