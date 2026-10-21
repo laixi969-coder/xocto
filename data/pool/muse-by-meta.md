@@ -27,8 +27,8 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-10-16T00:25:46Z'
-status: watching
+last_seen: '2026-10-21T00:38:25Z'
+status: pending_filter
 sources:
 - producthunt
 - marketfeeds
@@ -373,6 +373,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlY2tLT1l5UG9RVVptR0p3UUpBbjNkYTJQWlZrajkzZHYwODBmMWNzeHhnU0JDZnhWRkVKYmE1ZktxT0dRd1dSUkNaVnF2bnVLbmFJTA?oc=5
   seen_at: '2026-10-16T00:25:46Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/
+  seen_at: '2026-10-21T00:38:25Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats
+  seen_at: '2026-10-21T00:38:25Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/
+  seen_at: '2026-10-21T00:38:25Z'
   metrics: {}
   kind: news
 ---

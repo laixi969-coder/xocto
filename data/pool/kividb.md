@@ -26,17 +26,17 @@ url: https://github.com/kividbio/kividb
 canonical_url: https://github.com/kividbio/kividb
 summary: a faster Redis-compatible memory database and vector cache
 first_seen: '2026-10-20T01:06:26Z'
-last_seen: '2026-10-20T01:06:26Z'
+last_seen: '2026-10-21T00:37:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/kividbio/kividb
-  seen_at: '2026-10-20T01:06:26Z'
+  seen_at: '2026-10-21T00:37:59Z'
   metrics:
-    points: 62
-    comments: 39
+    points: 68
+    comments: 42
   kind: product
 ---
 

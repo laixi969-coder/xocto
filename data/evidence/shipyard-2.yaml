@@ -206,3 +206,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 开发者在本地开发机上并行运行多个编码代理，处理代码分支、终端与自动化任务，并需要统一编排与查看结果'
+- id: ev-cbfc0dcbc28791ba
+  project_slug: shipyard-2
+  url: https://coss.com/shipyard
+  title: shipyard
+  published_at: '2026-10-02T19:49:23Z'
+  collected_at: '2026-10-21T00:38:03Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Run coding agents on your dev boxes: worktrees, terminals, orchestration, kits and automations,
+    with a desktop app. | repository stars: 323'

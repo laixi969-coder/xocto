@@ -1,0 +1,157 @@
+{
+  "company": {
+    "city": "Gilching",
+    "country": "Germany",
+    "description": "Agile Robots is an artificial intelligence robot maker.",
+    "exit": null,
+    "founded": 2018,
+    "founders": [],
+    "id": "F8DC2BCE-D5E8-4D97-881F-3666E1EB6456",
+    "investors": [
+      "Abu Dhabi Royal Group",
+      "C Ventures",
+      "Foxconn",
+      "Foxconn Industrial Internet (FII)",
+      "Hillhouse Ventures",
+      "Linear Capital",
+      "Midas",
+      "Nvidia",
+      "Sequoia Capital",
+      "SoftBank",
+      "Xiaomi Group"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Agile Robots",
+    "rounds": [
+      {
+        "amountEur": null,
+        "date": "2026-10-20T00:00:00.000Z",
+        "id": "A166A410-8584-4AE5-B2C8-90DABF4DC591",
+        "investors": [
+          "Nvidia"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/A166A410-8584-4AE5-B2C8-90DABF4DC591"
+      },
+      {
+        "amountEur": 27917365,
+        "date": "2022-04-25T00:00:00.000Z",
+        "id": "7AF3A6BD-F36C-474C-9A18-2A8C00DD434F",
+        "investors": [
+          "Foxconn Industrial Internet (FII)"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/7AF3A6BD-F36C-474C-9A18-2A8C00DD434F"
+      },
+      {
+        "amountEur": 185842203,
+        "date": "2021-09-09T00:00:00.000Z",
+        "id": "2A0DEF89-C58E-40C0-8B34-DE9D1DE63D19",
+        "investors": [
+          "Abu Dhabi Royal Group",
+          "Foxconn",
+          "Hillhouse Ventures",
+          "Linear Capital",
+          "Midas",
+          "Sequoia Capital",
+          "SoftBank",
+          "Xiaomi Group"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/2A0DEF89-C58E-40C0-8B34-DE9D1DE63D19"
+      },
+      {
+        "amountEur": 0,
+        "date": "2020-07-03T22:00:00.000Z",
+        "id": "5C895A8D-584F-41CD-E316-08D91092C887",
+        "investors": [
+          "C Ventures"
+        ],
+        "stage": "Series A",
+        "url": "https://funding.tech.eu/deals/5C895A8D-584F-41CD-E316-08D91092C887"
+      }
+    ],
+    "roundsCount": 4,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "medium",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "up",
+            "label": "€100M+ raised"
+          },
+          {
+            "effect": "up",
+            "label": "4 rounds raised"
+          },
+          {
+            "effect": "up",
+            "label": "8y since founding (typical exit age)"
+          },
+          {
+            "effect": "up",
+            "label": "Recent equity round, but funding momentum is down (may be rescue financing)"
+          }
+        ],
+        "score": 26
+      },
+      "heat": 44,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Down/flat last round"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 213759568,
+    "url": "https://funding.tech.eu/companies/F8DC2BCE-D5E8-4D97-881F-3666E1EB6456",
+    "website": "http://www.agile-robots.com/"
+  },
+  "round": {
+    "amountEur": null,
+    "amountEurStored": null,
+    "amountNative": null,
+    "company": {
+      "city": "Gilching",
+      "country": "Germany",
+      "founded": 2018,
+      "id": "F8DC2BCE-D5E8-4D97-881F-3666E1EB6456",
+      "name": "Agile Robots",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "none",
+    "currency": "",
+    "date": "2026-10-20",
+    "fx": null,
+    "id": "A166A410-8584-4AE5-B2C8-90DABF4DC591",
+    "investors": [
+      "Nvidia"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Other",
+    "url": "/deals/A166A410-8584-4AE5-B2C8-90DABF4DC591"
+  }
+}

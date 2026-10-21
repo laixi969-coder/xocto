@@ -1,0 +1,103 @@
+{
+  "company": {
+    "city": "Stockholm",
+    "country": "Sweden",
+    "description": "Vessla is building an AI-powered platform designed to automate workflows across the systems used by residential and commercial property owners and managers.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "D1259E12-C6BD-44E0-88FF-0BD377FF1B6C",
+    "investors": [
+      "Angel Investors",
+      "Fredrik Hjelm",
+      "Inception Fund",
+      "Lukas Saari",
+      "Seedcamp",
+      "Tiny VC"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Vessla",
+    "rounds": [
+      {
+        "amountEur": 2939866,
+        "date": "2026-10-19T00:00:00.000Z",
+        "id": "ADB068D8-48DC-4CFD-8D87-46ED6C89FEA4",
+        "investors": [
+          "Angel Investors",
+          "Fredrik Hjelm",
+          "Inception Fund",
+          "Lukas Saari",
+          "Seedcamp",
+          "Tiny VC"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/ADB068D8-48DC-4CFD-8D87-46ED6C89FEA4"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 58,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 2939866,
+    "url": "https://funding.tech.eu/companies/D1259E12-C6BD-44E0-88FF-0BD377FF1B6C",
+    "website": "https://vessla.ai/"
+  },
+  "round": {
+    "amountEur": 2939866,
+    "amountEurStored": null,
+    "amountNative": 3300000,
+    "company": {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "founded": null,
+      "id": "D1259E12-C6BD-44E0-88FF-0BD377FF1B6C",
+      "name": "Vessla",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-10-19",
+    "fx": {
+      "asOf": "2026-10-19",
+      "rate": 1.1225,
+      "source": "ECB"
+    },
+    "id": "ADB068D8-48DC-4CFD-8D87-46ED6C89FEA4",
+    "investors": [
+      "Tiny VC",
+      "Fredrik Hjelm",
+      "Seedcamp",
+      "Inception Fund",
+      "Lukas Saari"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/ADB068D8-48DC-4CFD-8D87-46ED6C89FEA4"
+  }
+}

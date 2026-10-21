@@ -24,17 +24,17 @@ url: https://www.inceptionlabs.ai/blog/introducing-mercury-3
 canonical_url: https://inceptionlabs.ai/blog/introducing-mercury-3
 summary: Diffusion at scale
 first_seen: '2026-10-20T01:06:26Z'
-last_seen: '2026-10-20T01:06:26Z'
-status: market_context
+last_seen: '2026-10-21T00:37:59Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.inceptionlabs.ai/blog/introducing-mercury-3
-  seen_at: '2026-10-20T01:06:26Z'
+  seen_at: '2026-10-21T00:37:59Z'
   metrics:
-    points: 219
-    comments: 85
+    points: 255
+    comments: 91
   kind: news
 ---
 

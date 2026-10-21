@@ -18,3 +18,13 @@
   tier: independent
   fact: 'Public-material coverage query for zh: AI 影视与视频制作 游戏开发 视频剪辑师在本地剪辑工程里需要一段无版权背景音乐或音效时，通过 MCP 客户端输入描述，让工具在本机生成音频文件并试听后决定是否采用
     游戏开发者在原型阶段需要临时音效时，在本地开发环境中调用该工具生成占位音频，再决定是否替换为正式素材'
+- id: ev-79b44d98494ba0cc
+  project_slug: audio-studio-mcp
+  url: https://kanaworksai-hue.github.io/audio-studio-mcp/
+  title: audio-studio-mcp
+  published_at: '2026-10-18T11:13:56Z'
+  collected_at: '2026-10-21T00:38:03Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon
+    (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key. | repository stars: 349'

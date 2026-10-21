@@ -21,17 +21,17 @@ canonical_url: https://fazmin.github.io/AILearningGuide
 summary: Interactive desktop app with 51 labs covering ML fundamentals, transformers, RAG, agents, fine-tuning
   and quantization and more.
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://fazmin.github.io/AILearningGuide
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 211
-    forks: 17
+    stars: 217
+    forks: 19
     open_issues: 3
   kind: product
 ---

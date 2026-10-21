@@ -20,16 +20,16 @@ url: https://norforge.com/blog/inside_cairn
 canonical_url: https://norforge.com/blog/inside_cairn
 summary: Open windows into AI-driven cyber operations
 first_seen: '2026-10-20T01:06:26Z'
-last_seen: '2026-10-20T01:06:26Z'
+last_seen: '2026-10-21T00:37:59Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://norforge.com/blog/inside_cairn
-  seen_at: '2026-10-20T01:06:26Z'
+  seen_at: '2026-10-21T00:37:59Z'
   metrics:
-    points: 26
+    points: 29
     comments: 9
   kind: news
 ---

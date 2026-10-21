@@ -553,3 +553,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 摄影与图像服务 摄影师或修图师在本地电脑上按描述修改照片'
+- id: ev-b82e5fbb68cc8e6c
+  project_slug: kokon
+  url: https://kokon.app
+  title: kokon
+  published_at: '2026-10-08T20:33:25Z'
+  collected_at: '2026-10-21T00:38:03Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Edit photos by describing the change, on your own GPU. One installer, no Python, no cloud. Qwen-Image
+    2.1 for Windows and Mac, with an MCP server for AI agents. | repository stars: 171'

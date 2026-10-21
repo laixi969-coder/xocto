@@ -33,16 +33,16 @@ url: https://provenmetal.com/mcp
 canonical_url: https://provenmetal.com/mcp
 summary: MCP for Ordering Assembled PCBs
 first_seen: '2026-10-20T01:06:26Z'
-last_seen: '2026-10-20T01:06:26Z'
+last_seen: '2026-10-21T00:37:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://provenmetal.com/mcp
-  seen_at: '2026-10-20T01:06:26Z'
+  seen_at: '2026-10-21T00:37:59Z'
   metrics:
-    points: 7
+    points: 8
     comments: 7
   kind: product
 ---

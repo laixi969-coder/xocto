@@ -32,17 +32,17 @@ url: https://mailcheap.ai
 canonical_url: https://mailcheap.ai
 summary: 'The affordable newsletter for the agentic era. Open source: self-host it, or use mailcheap.ai.'
 first_seen: '2026-10-15T00:32:09Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://mailcheap.ai
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 1252
-    forks: 318
+    stars: 1275
+    forks: 324
     open_issues: 13
   kind: product
 ---

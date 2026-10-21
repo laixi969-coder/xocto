@@ -20,7 +20,7 @@ url: https://news.ycombinator.lol
 canonical_url: https://news.ycombinator.lol
 summary: Pointless but mostly-exact clone of Hacker News
 first_seen: '2026-10-07T18:05:35Z'
-last_seen: '2026-10-18T00:04:10Z'
+last_seen: '2026-10-21T00:38:32Z'
 status: pending_filter
 sources:
 - hackernews
@@ -57,6 +57,16 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites
   seen_at: '2026-10-18T00:04:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE80bkpibkY0NjZUMnYxV1RMMENBOF9hQXFPR29FbEtRZ0ZPLUlJcW82ZGstcW5HblRMdGV0c3BqOXlyMW1pWDVOV3N6VXFyYzRTUHNsTnc2bjRlZw?oc=5
+  seen_at: '2026-10-21T00:38:32Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPVG9YSGR3c2pDdzlNWEM2UFU2dUhWMmROTTE0NHJ0dnN1YUR5MGpXcW9Qa1Y4SkhicDNTQUtKeERFSC0zQy1lck1fazNMLUZOZmlFWmo4NDk0bUphSTB1Mk0zX0o0M1JGekViVm1MLXZfRkRWS1JWZmlYT1FGaHFZaHNQd1dLeEdaZDFfNw?oc=5
+  seen_at: '2026-10-21T00:38:32Z'
   metrics: {}
   kind: news
 ---

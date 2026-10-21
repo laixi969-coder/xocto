@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1LX1g1SnRXZHV0bzBXN0V4bl
 canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1LX1g1SnRXZHV0bzBXN0V4blZlWlVKS0xnSnN4RS10bXpYZF9fTF95RHFrS3ZYdnY4QV85Z0dEd0FwRjdlSWRaYnpBSXptWWFRcV9kcXlPeVF0SExSRDlLWE5OanVQRzZDaG8waGVKb2VXVjZsUjNnZXpIVVpNYkU?oc=5
 summary: 微软警示前沿AI模型不可信：AI智能体堪比内部威胁，推出Guardian Agents防护方案 新浪网
 first_seen: '2026-10-20T01:07:01Z'
-last_seen: '2026-10-20T01:07:01Z'
+last_seen: '2026-10-21T00:38:32Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1LX1g1SnRXZHV0bzBXN0V4blZlWlVKS0xnSnN4RS10bXpYZF9fTF95RHFrS3ZYdnY4QV85Z0dEd0FwRjdlSWRaYnpBSXptWWFRcV9kcXlPeVF0SExSRDlLWE5OanVQRzZDaG8waGVKb2VXVjZsUjNnZXpIVVpNYkU?oc=5
   seen_at: '2026-10-20T01:07:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQMXJTbWtHM0cwSGx3WVMwUU5xLXdhbmNYVDhHQ05LSHcwWUgwblpYUWx2M2tBUWtRamgydDVYMnBfTXJRVjR3amFlSUlScVNOZTVmWTF3cExZRXVaOFRGbFQ2N2tyMFBaSk5OSnpnVkd6c1g0VWVKX2piQUFWdVl3V19Ed0dqby1tZmo3RkxzU19ZNVJocWg4Q2RGY1ZKX3JMcUxiMlFlWkdMc3Uybk4tcHRn?oc=5
+  seen_at: '2026-10-21T00:38:32Z'
   metrics: {}
   kind: news
 ---

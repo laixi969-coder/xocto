@@ -20,17 +20,17 @@ url: https://heymaxwell.ai/
 canonical_url: https://heymaxwell.ai
 summary: A new kind of model that sits between code and hardware
 first_seen: '2026-10-20T01:06:26Z'
-last_seen: '2026-10-20T01:06:26Z'
+last_seen: '2026-10-21T00:37:59Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://heymaxwell.ai/
-  seen_at: '2026-10-20T01:06:26Z'
+  seen_at: '2026-10-21T00:37:59Z'
   metrics:
-    points: 42
-    comments: 21
+    points: 128
+    comments: 64
   kind: news
 ---
 

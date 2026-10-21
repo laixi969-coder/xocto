@@ -20,17 +20,17 @@ url: https://3anddoneapp.com/try
 canonical_url: https://3anddoneapp.com/try
 summary: I built a task system to handle the drudgery so I could focus on tasks
 first_seen: '2026-10-20T01:06:26Z'
-last_seen: '2026-10-20T01:06:26Z'
+last_seen: '2026-10-21T00:37:59Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://3anddoneapp.com/try
-  seen_at: '2026-10-20T01:06:26Z'
+  seen_at: '2026-10-21T00:37:59Z'
   metrics:
-    points: 45
-    comments: 47
+    points: 59
+    comments: 53
   kind: product
 ---
 

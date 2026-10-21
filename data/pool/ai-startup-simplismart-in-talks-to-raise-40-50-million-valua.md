@@ -1,0 +1,41 @@
+---
+slug: ai-startup-simplismart-in-talks-to-raise-40-50-million-valua
+name: AI startup Simplismart in talks to raise $40-50 million; valuation may triple
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQUl1a3VsczFGOFl6Z0ljTGxpNHIxTGp3ckF5Vy1hU1I5YjJBME9xMHhtd0NfMkxBc0pLWEtGZWhrMnNwazNac0IwWmRySG15cF8zanlvVURqWWxoSXBGMWlrZlBhWE91bDUta1oxWHVYMmFlV0wtMTk1SWpfTFlhX09POXhGU1JCTW04dnY3VkdYRlN0bkxsZ290TGtMNG4yLWNHcXBDOThQbHRvYmhzTElCUG52RWFhdVc4RmJ4ZWU5OGRLaVU1c1VwOXZ5OTFLSmY0dm5ZZWlHd9IB3wFBVV95cUxNYnVBX1NYblJRbjlnbjkxUXJXUUN6eWhlaFJhZzhSbFlnVVhsVjdMZE1wQ2dFTzVOSjVpMHgzbG5CUlNVaXpla0h2U29GTGthdVRod3RBcUZSQTB0ZEdPTmV2YW5VSk9XcUg3aWUzV0xRUTlfd0d3bWJ2akZLNDRaTUJjWXZkMXEwU0t2T3U4UDhoRzRZTnhzcWljRjlJYlVPZlBMNDBjOVN3TVJxMTIxQ3JZaU9mcUY0UnRoWENuMURXMm00cFVGRmptN3dCdHNxQnRKd0JqZDZScG5Nd0Nr?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQUl1a3VsczFGOFl6Z0ljTGxpNHIxTGp3ckF5Vy1hU1I5YjJBME9xMHhtd0NfMkxBc0pLWEtGZWhrMnNwazNac0IwWmRySG15cF8zanlvVURqWWxoSXBGMWlrZlBhWE91bDUta1oxWHVYMmFlV0wtMTk1SWpfTFlhX09POXhGU1JCTW04dnY3VkdYRlN0bkxsZ290TGtMNG4yLWNHcXBDOThQbHRvYmhzTElCUG52RWFhdVc4RmJ4ZWU5OGRLaVU1c1VwOXZ5OTFLSmY0dm5ZZWlHd9IB3wFBVV95cUxNYnVBX1NYblJRbjlnbjkxUXJXUUN6eWhlaFJhZzhSbFlnVVhsVjdMZE1wQ2dFTzVOSjVpMHgzbG5CUlNVaXpla0h2U29GTGthdVRod3RBcUZSQTB0ZEdPTmV2YW5VSk9XcUg3aWUzV0xRUTlfd0d3bWJ2akZLNDRaTUJjWXZkMXEwU0t2T3U4UDhoRzRZTnhzcWljRjlJYlVPZlBMNDBjOVN3TVJxMTIxQ3JZaU9mcUY0UnRoWENuMURXMm00cFVGRmptN3dCdHNxQnRKd0JqZDZScG5Nd0Nr?oc=5
+summary: AI startup Simplismart in talks to raise $40-50 million; valuation may triple The Economic Times
+first_seen: '2026-10-21T00:38:32Z'
+last_seen: '2026-10-21T00:38:32Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQUl1a3VsczFGOFl6Z0ljTGxpNHIxTGp3ckF5Vy1hU1I5YjJBME9xMHhtd0NfMkxBc0pLWEtGZWhrMnNwazNac0IwWmRySG15cF8zanlvVURqWWxoSXBGMWlrZlBhWE91bDUta1oxWHVYMmFlV0wtMTk1SWpfTFlhX09POXhGU1JCTW04dnY3VkdYRlN0bkxsZ290TGtMNG4yLWNHcXBDOThQbHRvYmhzTElCUG52RWFhdVc4RmJ4ZWU5OGRLaVU1c1VwOXZ5OTFLSmY0dm5ZZWlHd9IB3wFBVV95cUxNYnVBX1NYblJRbjlnbjkxUXJXUUN6eWhlaFJhZzhSbFlnVVhsVjdMZE1wQ2dFTzVOSjVpMHgzbG5CUlNVaXpla0h2U29GTGthdVRod3RBcUZSQTB0ZEdPTmV2YW5VSk9XcUg3aWUzV0xRUTlfd0d3bWJ2akZLNDRaTUJjWXZkMXEwU0t2T3U4UDhoRzRZTnhzcWljRjlJYlVPZlBMNDBjOVN3TVJxMTIxQ3JZaU9mcUY0UnRoWENuMURXMm00cFVGRmptN3dCdHNxQnRKd0JqZDZScG5Nd0Nr?oc=5
+  seen_at: '2026-10-21T00:38:32Z'
+  metrics: {}
+  kind: news
+---
+
+# AI startup Simplismart in talks to raise $40-50 million; valuation may triple
+
+AI startup Simplismart in talks to raise $40-50 million; valuation may triple The Economic Times
+
+## 笔记
+
+

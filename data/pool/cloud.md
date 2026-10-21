@@ -23,8 +23,8 @@ summary: "这个网站注册就送 15 美元额度，用来注册 Muse 只用几
   \ 也可以直接地址栏输入这个路径:  https://cloud.browser-use.com/browser\r\n- 点击右上角 “Launch & Open” ,   这时候会弹出一个浏览器窗口,\
   \ 地址栏输入 http://muse.ai ,  \r\n- 按正常流程注册即可\r\n- 结束后记得右上角关闭这个实例，确保安全"
 first_seen: '2026-09-25T04:43:34Z'
-last_seen: '2026-10-20T01:07:01Z'
-status: rejected
+last_seen: '2026-10-21T00:38:32Z'
+status: pending_filter
 sources:
 - v2ex
 - newssearch
@@ -125,6 +125,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimgFBVV95cUxNUHJhUnF5aG45Z1ZnWHFlODdldzdXZkVKZS1oR3ZESVZaUkt2amNFTjRTZk5qVDVqdV9YZDdXUDk2ZXZELWpmZkJPZXQ1SVpIRXd2TEZ4d081LUsyb3IxSzVCV2JzeVhkcFpGbk1XTkp3S0plMkVlSDRzNzZYbDhnLWcyOVIyVlI2SUVnNlh6S19sTmlxRHlYUElR?oc=5
   seen_at: '2026-10-20T01:07:01Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/
+  seen_at: '2026-10-21T00:38:23Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/
+  seen_at: '2026-10-21T00:38:25Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/10/20/daytona-hits-1b-valuation-with-60m-series-b-for-ai-agent-cloud/
+  seen_at: '2026-10-21T00:38:25Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOaThmSzZMdDVvNU1rVXNtemZrVnU3WnZMQ2QxWTR3eXdaTTlxczN2T2RZZU5URHZ6aTJRd0l1WlRQSk5ObFdHMjVNUUJfZkUxMTlnZ2lZd1Q3YTJTakJnN0hXQW9TRlp2MXFRYjQ0dlpuS3JJTTYyaUw2RS1RRDR4VHByVDhUaV9lT0g4WWtTbEl4V2k0SVJEOXhGSVpuN1JrQUxuYTlueFh0R0VqYmo2VzhQU1liZVhSOGc?oc=5
+  seen_at: '2026-10-21T00:38:32Z'
   metrics: {}
   kind: news
 ---

@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTAxMmdLZ1RrQnNwSncyVH
 canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTAxMmdLZ1RrQnNwSncyVHdIOUc3dEk0VVpISXJqbVBmdm5VdHZFRFQyN21pWnZ6QjdIcFV1QlNVRVl0eFBoVUJhUFo0N19id2dRREV2bnE1UlNCVW9SY1h2eDB2LWQ0ZXE1dUVVdlNUSWV0Qk5HdmJNTkx5SXBHaWlPOUNQVjJZRmp3WkZDbw?oc=5
 summary: 用AI“诈骗”诈骗分子！澳公司部署AI代理假扮受害者，专门浪费骗子时间 新浪网
 first_seen: '2026-10-20T01:07:01Z'
-last_seen: '2026-10-20T01:07:01Z'
-status: rejected
+last_seen: '2026-10-21T00:38:32Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQTTAxMmdLZ1RrQnNwSncyVHdIOUc3dEk0VVpISXJqbVBmdm5VdHZFRFQyN21pWnZ6QjdIcFV1QlNVRVl0eFBoVUJhUFo0N19id2dRREV2bnE1UlNCVW9SY1h2eDB2LWQ0ZXE1dUVVdlNUSWV0Qk5HdmJNTkx5SXBHaWlPOUNQVjJZRmp3WkZDbw?oc=5
   seen_at: '2026-10-20T01:07:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GaV9XZWtrV2lhM2dyQVNZOHNRVTMzZUtTZk9rWUF1V1RJc0JMYU5XVnlqOGJvLVdrNnlncEJubVNGZXJvX2JZcWlLc0JpSjFSQ3c?oc=5
+  seen_at: '2026-10-21T00:38:32Z'
   metrics: {}
   kind: news
 ---

@@ -22,17 +22,17 @@ summary: Road Rash was one of my favourite PC games growing up. I wanted to play
   emulators I tried felt sluggish, so I decided to build a browser version using Three.js. This started
   mostly out of nostal…
 first_seen: '2026-10-20T01:06:26Z'
-last_seen: '2026-10-20T01:06:26Z'
+last_seen: '2026-10-21T00:37:59Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://roadrash.pages.dev
-  seen_at: '2026-10-20T01:06:26Z'
+  seen_at: '2026-10-21T00:37:59Z'
   metrics:
-    points: 8
-    comments: 1
+    points: 31
+    comments: 8
   kind: product
 ---
 

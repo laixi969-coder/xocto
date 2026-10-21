@@ -31,18 +31,18 @@ url: https://kuvo.run/code
 canonical_url: https://kuvo.run/code
 summary: A native macOS harness for coding agents that works with any model, on the opencode engine.
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://kuvo.run/code
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 61
-    forks: 7
-    open_issues: 3
+    stars: 65
+    forks: 8
+    open_issues: 7
   kind: product
 ---
 

@@ -873,3 +873,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息技术服务 二进制与移动应用逆向分析'
+- id: ev-8d0e850cdcb9159e
+  project_slug: eleven
+  url: https://eleven.chizi.app
+  title: eleven
+  published_at: '2026-10-13T13:47:31Z'
+  collected_at: '2026-10-21T00:38:03Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and
+    patches binaries, Android apps and GPU kernels next to you. | repository stars: 812'

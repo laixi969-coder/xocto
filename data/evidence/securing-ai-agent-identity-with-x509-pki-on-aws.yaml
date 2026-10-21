@@ -1,0 +1,18 @@
+- id: ev-1341b6b5564f7816
+  project_slug: securing-ai-agent-identity-with-x509-pki-on-aws
+  url: https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws/
+  title: Securing AI agent identity with X.509 PKI on AWS
+  published_at: '2026-10-20T16:03:48Z'
+  collected_at: '2026-10-21T00:38:23Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'When AI agents access databases, APIs, and sensitive business operations, establishing cryptographic
+    identity through X.509 public key infrastructure (PKI) becomes a critical requirement. The core challenge
+    is proving which agent made a request, preventing forgery between agents, and confirming that each
+    agent acts only on behalf of an authorized user. Traditional approaches such as sharing API keys between
+    components or passing OAuth tokens through agent chains fall short of the zero-trust requirements
+    that enterprise deployments demand. Multi-agent AI frameworks increasingly use the Model Context Protocol
+    (MCP) to connect agents to external tools and data sources. MCP defines how a large language model
+    (LLM)-powered agent invokes tools such as database queries or email operations. However, MCP has no
+    built-in authentication standard. It is transport-agnostic by design. This creates a critical gap:
+    Without proper identity mechanisms, any component could impersonate an agent, replay in'

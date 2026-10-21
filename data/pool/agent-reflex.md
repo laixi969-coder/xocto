@@ -20,18 +20,18 @@ url: https://github.com/RUC-NLPIR/Agent-Reflex
 canonical_url: https://github.com/RUC-NLPIR/Agent-Reflex
 summary: 'Official code for Agent-Reflex: Teaching Language Agents to Act Reflectively'
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/RUC-NLPIR/Agent-Reflex
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 234
+    stars: 238
     forks: 4
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

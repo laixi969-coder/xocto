@@ -37,16 +37,16 @@ summary: 'Self-hosted AI social media studio: one piece of material in, platform
   router, self-critique, pre-publish risk gate, real OAuth publishing. Web app + CLI + MCP server + agent
   skill.'
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://yomin.love/projects/yominpost/
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 102
+    stars: 104
     forks: 1
     open_issues: 0
   kind: product

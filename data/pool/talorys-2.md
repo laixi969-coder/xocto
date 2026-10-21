@@ -31,17 +31,17 @@ summary: 'Your personal AI agent in your own Cloudflare account. Chat, memory, t
   reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no
   telemetry.'
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://rociiu.github.io/talorys/
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 1342
-    forks: 114
+    stars: 1358
+    forks: 116
     open_issues: 9
   kind: product
 ---

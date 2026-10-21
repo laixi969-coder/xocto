@@ -30,16 +30,16 @@ url: https://github.com/Aryanutkarsh/SeeCode
 canonical_url: https://github.com/Aryanutkarsh/SeeCode
 summary: Animated, explorable diagrams for Claude and other coding agents, from a short JSON spec.
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Aryanutkarsh/SeeCode
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 677
+    stars: 692
     forks: 38
     open_issues: 0
   kind: product

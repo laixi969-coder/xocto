@@ -21,17 +21,17 @@ canonical_url: https://github.com/huaizhuanghub/dsh-persona-dafeiyu
 summary: 'Persona library plugin for DeepSeek Harness: built-in personas, import your own, switch without
   restart.'
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huaizhuanghub/dsh-persona-dafeiyu
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 50
-    forks: 1
+    stars: 56
+    forks: 2
     open_issues: 0
   kind: product
 ---

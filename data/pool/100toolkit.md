@@ -20,17 +20,17 @@ url: https://100toolkit.com/blog/deslop-model/
 canonical_url: https://100toolkit.com/blog/deslop-model
 summary: Qwen3-4B with the AI writing tics trained out
 first_seen: '2026-10-20T01:06:26Z'
-last_seen: '2026-10-20T01:06:26Z'
+last_seen: '2026-10-21T00:37:59Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://100toolkit.com/blog/deslop-model/
-  seen_at: '2026-10-20T01:06:26Z'
+  seen_at: '2026-10-21T00:37:59Z'
   metrics:
-    points: 145
-    comments: 107
+    points: 154
+    comments: 110
   kind: news
 ---
 

@@ -1,0 +1,18 @@
+- id: ev-b66ec26db2e73d98
+  project_slug: build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore/
+  title: Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore
+  published_at: '2026-10-20T15:39:04Z'
+  collected_at: '2026-10-21T00:38:23Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Agentic AI applications need governed access to live enterprise data. That data can live in operational
+    systems, analytical warehouses, SaaS applications, other clouds, or on premises. In the previous post
+    in this series , we built a semantic layer on AWS using Stardog’s knowledge graph over Amazon Aurora
+    and Amazon Redshift. A Strands agent on Amazon Bedrock AgentCore queried that layer. Amazon Bedrock
+    AgentCore is a platform to build, connect, and optimize agents at scale, with any framework or model.
+    This post uses the same customer 360 pattern, but swaps in a different semantic layer implementation
+    and extends the source mix. Two things change here. First, the semantic layer is the Denodo Platform:
+    an AI data layer that provides active context and live, zero-copy access to distributed enterprise
+    data. The agent talks to it in VQL , Denodo’s SQL dialect. Second, the source mix includes an on-premises
+    PostgreSQL database alongside Amazon Aurora and Amazon Redshift, so the federation'

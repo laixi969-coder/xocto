@@ -31,16 +31,16 @@ url: https://maali.app/
 canonical_url: https://maali.app
 summary: Privacy-first personal finance app with a local AI analyst
 first_seen: '2026-10-20T01:06:26Z'
-last_seen: '2026-10-20T01:06:26Z'
+last_seen: '2026-10-21T00:37:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://maali.app/
-  seen_at: '2026-10-20T01:06:26Z'
+  seen_at: '2026-10-21T00:37:59Z'
   metrics:
-    points: 5
+    points: 7
     comments: 2
   kind: product
 ---

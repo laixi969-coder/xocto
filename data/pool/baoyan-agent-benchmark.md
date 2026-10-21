@@ -34,16 +34,16 @@ canonical_url: https://github.com/yeyuxin777/baoyan-agent-benchmark
 summary: Sprix AI at 屿智同行 × 保研岛 — an open-source benchmark for AI agents in Baoyan advising and application
   planning.
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yeyuxin777/baoyan-agent-benchmark
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 701
+    stars: 699
     forks: 1
     open_issues: 0
   kind: product

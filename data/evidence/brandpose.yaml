@@ -17,3 +17,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 零售 广告营销 零售门店或品牌营销人员用普通监控摄像头拍摄的店内画面，估算顾客视线落点与货架关注情况，用于评估陈列和广告位效果'
+- id: ev-53a0a3f068017e16
+  project_slug: brandpose
+  url: https://github.com/escudero/brandpose
+  title: brandpose
+  published_at: '2026-10-15T03:11:47Z'
+  collected_at: '2026-10-21T00:38:03Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Personal project: where shoppers look, estimated from an ordinary security camera and open source
+    AI (YOLO11, Gaze-LLE, Depth Anything V2) | repository stars: 149'

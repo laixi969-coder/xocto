@@ -1,0 +1,32 @@
+- id: ev-34ebf1ac0bda5982
+  project_slug: anthropics-anthropic-sdk-python-v1170
+  url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.17.0
+  title: 'anthropics/anthropic-sdk-python: v1.17.0'
+  published_at: '2026-10-20T22:13:01Z'
+  collected_at: '2026-10-21T00:38:03Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '### Features
+
+
+    * **api:** add org webhook endpoints and user profile enforcement events
+
+    * **api:** add RBAC Group owner-access error codes to the Admin API
+
+    * **api:** document the unsupported_charset error code for plugin uploads
+
+
+
+    ### Bug Fixes
+
+
+    * **bedrock:** keep a workspace ID set in default_headers on the Bedrock and Mantle clients
+
+    * **google-cloud:** keep workspace and user profile IDs set in default_headers
+
+
+
+    ### Chores
+
+
+    * **ci:** run the changelog check on a standard runner'

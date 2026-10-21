@@ -113,3 +113,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件与信息服务 运维与后端工程师在通过 SSH 登录服务器排查故障时，需要理解命令输出并同步多台机器的连接配置'
+- id: ev-3053f5ffa121f54a
+  project_slug: hatoba-2
+  url: https://hatoba.fog.moe
+  title: Hatoba
+  published_at: '2026-10-07T23:43:36Z'
+  collected_at: '2026-10-21T00:38:03Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Open-source desktop SSH client with an AI assistant and end-to-end encrypted sync through your
+    own Cloudflare account | repository stars: 129'

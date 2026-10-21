@@ -1,0 +1,13 @@
+- id: ev-f0efdebd8d135a6e
+  project_slug: i-2
+  url: https://www.v2ex.com/t/1250453
+  title: '[开源][本地][无需显卡] 做了个针对直播的字幕&翻译工具'
+  published_at: '2026-10-20T14:39:22Z'
+  collected_at: '2026-10-21T00:37:57Z'
+  source_kind: product
+  tier: independent
+  fact: "把之前做的工具整理了下， 直接 npm install -g livesub && livesub 就可以使用，内置本地模型的管理，模型推理部分只依赖 cpu, 稍微新一点的电脑就可以跑。\r\
+    \n\r\nASR 和 翻译部分可以分开选择的。qwen-asr + firefox translate 是集成好的纯本地方案，在 UI 里下载模型就能用。\r\n\r\n我自己一般是选择本地的\
+    \ ASR + deepseek 翻译来综合隐私速度和准确率。\r\n\r\n\r\nhttps://i.imgur.com/92aXKUr.png\r\nhttps://i.imgur.com/fAjkCIP.png\r\
+    \n\r\nASR 除了本地的 qwen3-asr 还支持阿里百炼的 qwen 和 openai\r\n翻译除了本地的 firefox translate 还支持 openai/claude/deepseek.\
+    \ (LLM 除了翻译还能顺带纠错会比较好用）\r\n\r\n目前自用就偷懒只做了 webui, 靠 PWA 和 chrome 的画中画来运行，等有人用再改桌面端:)"

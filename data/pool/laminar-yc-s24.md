@@ -30,17 +30,17 @@ url: https://news.ycombinator.com/item?id=50154029
 canonical_url: https://news.ycombinator.com/item?id=50154029
 summary: RL-trained model that finds errors in agent traces
 first_seen: '2026-10-20T01:06:26Z'
-last_seen: '2026-10-20T01:06:26Z'
+last_seen: '2026-10-21T00:37:59Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50154029
-  seen_at: '2026-10-20T01:06:26Z'
+  seen_at: '2026-10-21T00:37:59Z'
   metrics:
-    points: 45
-    comments: 22
+    points: 58
+    comments: 27
   kind: product
 ---
 

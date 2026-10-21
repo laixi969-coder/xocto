@@ -196,3 +196,61 @@
   source_kind: customer_case
   tier: independent
   fact: Cognizant 与 Google Cloud 成立 Gemini 前沿能力团队 Unite.AI
+- id: ev-78661f307e62d7ba
+  project_slug: cloud
+  url: https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/
+  title: How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore
+  published_at: '2026-10-20T15:57:57Z'
+  collected_at: '2026-10-21T00:38:23Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: This is a guest post co-written with Roei Zavida from Eon. Independent software vendors (ISVs)
+    building AI-powered products need to connect agents and humans to dozens of operational tools across
+    clouds, each with different authentication models, network boundaries, and access policies. When those
+    tools span AWS, GCP, and Azure simultaneously, the integration surface multiplies. This post describes
+    how Eon used Amazon Bedrock AgentCore, a platform to build, connect, and optimize agents at scale,
+    with any framework or model. Eon used it to replace per-tool credentials and local Model Context Protocol
+    (MCP) processes with a single authenticated gateway. The result gives developers and autonomous agents
+    unified access to investigation tooling across three clouds. New engineers now reach all their investigation
+    tools in about two minutes instead of the two days it previously took to configure credentials and
+    local MCP servers. About Eon Eon provides the Autonomous Data Foundation for the A
+- id: ev-f127ea09ceb6d85c
+  project_slug: cloud
+  url: https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/
+  title: Anthropic’s cloud partnerships are getting messy
+  published_at: '2026-10-20T21:25:22Z'
+  collected_at: '2026-10-21T00:38:25Z'
+  source_kind: market_signal
+  tier: independent
+  fact: Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly
+    view it as a competitor, even as its infrastructure spending balloons ahead of a planned November
+    IPO.
+- id: ev-1dddfdba31be8a9d
+  project_slug: cloud
+  url: https://tech.eu/2026/10/20/daytona-hits-1b-valuation-with-60m-series-b-for-ai-agent-cloud/
+  title: Daytona hits $1B valuation with $60M Series B for AI agent cloud
+  published_at: '2026-10-20T14:08:42Z'
+  collected_at: '2026-10-21T00:38:25Z'
+  source_kind: market_signal
+  tier: independent
+  fact: Daytona , a company developing cloud infrastructure for AI agents, has raised $60 million in a
+    Series B funding round at a $1 billion valuation, bringing its total funding to $91 million. The round
+    was led by FirstMark , with participation from Patrick Collison (Stripe), Adam D’Angelo (Quora), Brendan
+    Foody (Mercor), Tobi Lütke (Shopify), Olivier Pomel (Datadog), Aravind Srinivas (Perplexity) and Eric
+    Yuan (Zoom). Other investors included Alumni Ventures, Evergreen Fund, Okta Ventures, Qualcomm Ventures,
+    Samsung Next and Torch Capital. Existing investors also increased their commitments, with Pace Capital
+    doubling its investment, Upfront Ventures tripling and E2VC quadrupling theirs. Daytona develops cloud
+    infrastructure that provides secure, isolated computing environments where AI agents can execute code,
+    use software tools and perform tasks. Its platform enables AI developers and enterprises to train
+    and evaluate models, as well as deploy and manage AI agents in production. As AI sy
+- id: ev-31e08d0fbae46c9d
+  project_slug: cloud
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOaThmSzZMdDVvNU1rVXNtemZrVnU3WnZMQ2QxWTR3eXdaTTlxczN2T2RZZU5URHZ6aTJRd0l1WlRQSk5ObFdHMjVNUUJfZkUxMTlnZ2lZd1Q3YTJTakJnN0hXQW9TRlp2MXFRYjQ0dlpuS3JJTTYyaUw2RS1RRDR4VHByVDhUaV9lT0g4WWtTbEl4V2k0SVJEOXhGSVpuN1JrQUxuYTlueFh0R0VqYmo2VzhQU1liZVhSOGc?oc=5
+  title: 'Exclusive: Daytona, a startup building the ‘agentic cloud,’ valued at $1 billion in latest funding
+    round'
+  published_at: '2026-10-20T12:00:00Z'
+  collected_at: '2026-10-21T00:38:32Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'Exclusive: Daytona, a startup building the ‘agentic cloud,’ valued at $1 billion in latest funding
+    round Fortune'

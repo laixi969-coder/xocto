@@ -1,0 +1,41 @@
+---
+slug: indias-law-startups-have-a-market-to-crack
+name: India’s law startups have a market to crack
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPU3dYSHZ0U1E2enhRWVBkam1CdzlGcVlYaG5JQlVaMk1KLW5BbnhiTUgxMFpVYmJJYVY0c0FoNG1DQ0UxRGd5NjRxU1lFOTAwTWw4NnRPYmVTalN2UlExY2FpRzZGSFJVM3hlWjRzcUxFcVI5WnZaeFFsaVNrRVNrZF9tNHBhemFTU1pxX3JnTmhMVzRtR2ZzS2RTczVKRjE5QWFreGViaS1fQVBiOHRYdEthYURmQXA1dXfSAb8BQVVfeXFMTWkxUFdyM0luUjAzdUVpYjQyUXE1dV9UZ25BcS1GQXd3MDByMDh5SzBEaklkdk9PdnlhUjczalRwQmFBNjhEVURJXzlnZ1huSVBzbE0yY3NwakxYYnllS2V5Yk5zVUpmVXI3bzdkZU9pTjdSZ3NycjA3Z0U2WTV2RXJBMTVNbk1lMllIWHgtbjRxNXFEZDVLYWlFV2VJV2N3Z3VQdkowUGM1aGI2anpqTWhFTmhIcHJ5Q1ZEYUgwYUE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPU3dYSHZ0U1E2enhRWVBkam1CdzlGcVlYaG5JQlVaMk1KLW5BbnhiTUgxMFpVYmJJYVY0c0FoNG1DQ0UxRGd5NjRxU1lFOTAwTWw4NnRPYmVTalN2UlExY2FpRzZGSFJVM3hlWjRzcUxFcVI5WnZaeFFsaVNrRVNrZF9tNHBhemFTU1pxX3JnTmhMVzRtR2ZzS2RTczVKRjE5QWFreGViaS1fQVBiOHRYdEthYURmQXA1dXfSAb8BQVVfeXFMTWkxUFdyM0luUjAzdUVpYjQyUXE1dV9UZ25BcS1GQXd3MDByMDh5SzBEaklkdk9PdnlhUjczalRwQmFBNjhEVURJXzlnZ1huSVBzbE0yY3NwakxYYnllS2V5Yk5zVUpmVXI3bzdkZU9pTjdSZ3NycjA3Z0U2WTV2RXJBMTVNbk1lMllIWHgtbjRxNXFEZDVLYWlFV2VJV2N3Z3VQdkowUGM1aGI2anpqTWhFTmhIcHJ5Q1ZEYUgwYUE?oc=5
+summary: India’s law startups have a market to crack ET Entrepreneur
+first_seen: '2026-10-21T00:38:32Z'
+last_seen: '2026-10-21T00:38:32Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxPU3dYSHZ0U1E2enhRWVBkam1CdzlGcVlYaG5JQlVaMk1KLW5BbnhiTUgxMFpVYmJJYVY0c0FoNG1DQ0UxRGd5NjRxU1lFOTAwTWw4NnRPYmVTalN2UlExY2FpRzZGSFJVM3hlWjRzcUxFcVI5WnZaeFFsaVNrRVNrZF9tNHBhemFTU1pxX3JnTmhMVzRtR2ZzS2RTczVKRjE5QWFreGViaS1fQVBiOHRYdEthYURmQXA1dXfSAb8BQVVfeXFMTWkxUFdyM0luUjAzdUVpYjQyUXE1dV9UZ25BcS1GQXd3MDByMDh5SzBEaklkdk9PdnlhUjczalRwQmFBNjhEVURJXzlnZ1huSVBzbE0yY3NwakxYYnllS2V5Yk5zVUpmVXI3bzdkZU9pTjdSZ3NycjA3Z0U2WTV2RXJBMTVNbk1lMllIWHgtbjRxNXFEZDVLYWlFV2VJV2N3Z3VQdkowUGM1aGI2anpqTWhFTmhIcHJ5Q1ZEYUgwYUE?oc=5
+  seen_at: '2026-10-21T00:38:32Z'
+  metrics: {}
+  kind: news
+---
+
+# India’s law startups have a market to crack
+
+India’s law startups have a market to crack ET Entrepreneur
+
+## 笔记
+
+

@@ -1,0 +1,18 @@
+- id: ev-22acd1635974ad00
+  project_slug: fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon
+  url: https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/
+  title: Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod
+  published_at: '2026-10-20T17:48:27Z'
+  collected_at: '2026-10-21T00:38:23Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'GPT-OSS-20B is an open-weight reasoning model that thinks in English. Ask it to reason in French,
+    German, Spanish, or Italian and it acknowledges the instruction, then produces its chain-of-thought
+    in English anyway. On a 50-example multilingual reasoning test, the base model reasoned in the correct
+    target language only 22 percent of the time. That 22 percent was almost entirely the English examples
+    (English 100 percent, French 0 percent, German 10 percent, Spanish 0 percent, Italian 0 percent).
+    For teams deploying reasoning models for non-English users, that gap matters. A user who asks a question
+    in French expects the model to reason and answer in French, not to switch to English mid-thought.
+    Closing that gap is a fine-tuning problem. It raises a question every team faces once they start customizing
+    open-weight models: supervised fine-tuning (SFT), reinforcement learning with Group Relative Policy
+    Optimization (GRPO), or both? In this post, we walk through how we fine-tuned GPT-OSS-2'

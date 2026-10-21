@@ -1,0 +1,18 @@
+- id: ev-ddf2126f434c6439
+  project_slug: access-openai-gpt-models-on-amazon-bedrock-from-canada-with
+  url: https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/
+  title: Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference
+  published_at: '2026-10-20T16:42:53Z'
+  collected_at: '2026-10-21T00:38:23Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Canadian organizations building generative AI applications on Amazon Bedrock often need the latest
+    foundation models (FMs), such as OpenAI GPT-6.1, OpenAI GPT-6, and GPT-5.6, accessible from the Canadian
+    AWS Regions. With Amazon Bedrock cross-Region inference (CRIS), you can now access these models from
+    Canada. OpenAI GPT-5.6 models (Sol, Terra, and Luna), GPT-6 (Astra, Sol, and Luna), and GPT-6.1 Sol
+    are available from the Canada (Central) and Canada West (Calgary) Regions. Inference is processed
+    in North America, with data-residency controls described later in this post. Cross-Region inference
+    is a capacity mechanism. Your application calls the Amazon Bedrock Runtime endpoint in your source
+    Region. Amazon Bedrock then routes the request to a supported destination Region for processing. With
+    this approach, you get access to a broader capacity pool that can help your application sustain throughput
+    during demand spikes. You don’t need to manage destination Region routing in your applica

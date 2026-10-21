@@ -18,3 +18,13 @@
   tier: independent
   fact: 'Public-material coverage query for zh: AI 人工智能模型研发 软件与信息服务 模型评测工程师在准备多语言模型发布前，用多语言测试题跑分并对比不同模型表现，以决定是否上线某语言版本
     本地化负责人在评估某语言市场能否上线时，需要一份可复现的多语言能力对照结果'
+- id: ev-696f0ef85046dddd
+  project_slug: multilangbench
+  url: https://github.com/openai/MultiLangBench
+  title: MultiLangBench
+  published_at: '2026-10-19T20:58:00Z'
+  collected_at: '2026-10-21T00:38:03Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'An eval based on SQLite that benchmarks language models in multiple languages. | repository stars:
+    13'

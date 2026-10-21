@@ -888,3 +888,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 游戏 软件逆向工程 游戏二进制逆向与反编译 遗留代码还原与移植'
+- id: ev-090f7415739b7c1b
+  project_slug: decompwtf
+  url: https://decomp.wtf
+  title: decomp.wtf
+  published_at: '2026-10-13T08:19:01Z'
+  collected_at: '2026-10-21T00:38:03Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'What The Function: your AI agent decompiles games you own into C that compiles to the exact same
+    bytes. Runs locally. | repository stars: 523'

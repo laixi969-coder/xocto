@@ -20,12 +20,13 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-10-19T00:13:57Z'
-status: rejected
+last_seen: '2026-10-21T00:38:23Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
 - marketfeeds
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://tools.techtransit.org/nginx-generator
@@ -169,6 +170,11 @@ sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Oct/18/llm-tools-datasette/
   seen_at: '2026-10-19T00:13:57Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/
+  seen_at: '2026-10-21T00:38:23Z'
   metrics: {}
   kind: news
 ---

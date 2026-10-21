@@ -1,0 +1,42 @@
+---
+slug: dhs-orders-federal-agencies-to-ban-chinese-ai-startup-deepse
+name: DHS Orders Federal Agencies to Ban Chinese AI Startup DeepSeek Over Security Concerns – DTH
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOLVhiMGtvYjkxcEcybzI3cktVa3hwSXBiNkdXTzRjaFFEaEg2clAzRTF6d1Jyblk0WEl4YV9SSXlIaUFfdmg4WkdyeHdNNEQ3RFkxRmItZU5XdVRFcEt3cC00VUdJQnhiREEzVWU0TGhVbjNJWi11M0NkVmZrQUR5S1ppSEJWNlg0aFcwUThrTkdjbzEtaTYwWkNRdHlZamlWSlpLbHF5UjIxNWNacFpWOXQ2WFJiZ2loRlpyc2R0NmYyY2VEcUhxVmxQa9IB0AFBVV95cUxPa3FUcF9TOGtGWWlZMXd3cGN4SEJjVE1jOEYzazNpN2dwc3c4bjdnUGtjNkwtY0dCamZGUjV0anhXNmI1Z2daR3dnekFqVk8yZVJUU0FOcm8xeGFDM0xRUk1tLWVYTlZiSmRjTnRLQmdoYmN0ME9nM29xT0hpaURxekE1UFQ5dVpYZy0xNlUwazVGWXprc0duWVhJOEhLT01qNzlTSkR1czViSU1jeWFmcnA1anlod1JIX0hOeU1JeHl3NHRnTk4yOWprZ1ExYnJO?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOLVhiMGtvYjkxcEcybzI3cktVa3hwSXBiNkdXTzRjaFFEaEg2clAzRTF6d1Jyblk0WEl4YV9SSXlIaUFfdmg4WkdyeHdNNEQ3RFkxRmItZU5XdVRFcEt3cC00VUdJQnhiREEzVWU0TGhVbjNJWi11M0NkVmZrQUR5S1ppSEJWNlg0aFcwUThrTkdjbzEtaTYwWkNRdHlZamlWSlpLbHF5UjIxNWNacFpWOXQ2WFJiZ2loRlpyc2R0NmYyY2VEcUhxVmxQa9IB0AFBVV95cUxPa3FUcF9TOGtGWWlZMXd3cGN4SEJjVE1jOEYzazNpN2dwc3c4bjdnUGtjNkwtY0dCamZGUjV0anhXNmI1Z2daR3dnekFqVk8yZVJUU0FOcm8xeGFDM0xRUk1tLWVYTlZiSmRjTnRLQmdoYmN0ME9nM29xT0hpaURxekE1UFQ5dVpYZy0xNlUwazVGWXprc0duWVhJOEhLT01qNzlTSkR1czViSU1jeWFmcnA1anlod1JIX0hOeU1JeHl3NHRnTk4yOWprZ1ExYnJO?oc=5
+summary: DHS Orders Federal Agencies to Ban Chinese AI Startup DeepSeek Over Security Concerns – DTH Daily
+  Tech News Show
+first_seen: '2026-10-21T00:38:32Z'
+last_seen: '2026-10-21T00:38:32Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOLVhiMGtvYjkxcEcybzI3cktVa3hwSXBiNkdXTzRjaFFEaEg2clAzRTF6d1Jyblk0WEl4YV9SSXlIaUFfdmg4WkdyeHdNNEQ3RFkxRmItZU5XdVRFcEt3cC00VUdJQnhiREEzVWU0TGhVbjNJWi11M0NkVmZrQUR5S1ppSEJWNlg0aFcwUThrTkdjbzEtaTYwWkNRdHlZamlWSlpLbHF5UjIxNWNacFpWOXQ2WFJiZ2loRlpyc2R0NmYyY2VEcUhxVmxQa9IB0AFBVV95cUxPa3FUcF9TOGtGWWlZMXd3cGN4SEJjVE1jOEYzazNpN2dwc3c4bjdnUGtjNkwtY0dCamZGUjV0anhXNmI1Z2daR3dnekFqVk8yZVJUU0FOcm8xeGFDM0xRUk1tLWVYTlZiSmRjTnRLQmdoYmN0ME9nM29xT0hpaURxekE1UFQ5dVpYZy0xNlUwazVGWXprc0duWVhJOEhLT01qNzlTSkR1czViSU1jeWFmcnA1anlod1JIX0hOeU1JeHl3NHRnTk4yOWprZ1ExYnJO?oc=5
+  seen_at: '2026-10-21T00:38:32Z'
+  metrics: {}
+  kind: news
+---
+
+# DHS Orders Federal Agencies to Ban Chinese AI Startup DeepSeek Over Security Concerns – DTH
+
+DHS Orders Federal Agencies to Ban Chinese AI Startup DeepSeek Over Security Concerns – DTH Daily Tech News Show
+
+## 笔记
+
+

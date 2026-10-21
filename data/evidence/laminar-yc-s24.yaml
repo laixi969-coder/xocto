@@ -176,3 +176,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 AI 应用开发者排查智能体执行轨迹中的错误'
+- id: ev-2e53609eeb561df9
+  project_slug: laminar-yc-s24
+  url: https://news.ycombinator.com/item?id=50154029
+  title: Laminar (YC S24)
+  published_at: '2026-10-19T16:00:18Z'
+  collected_at: '2026-10-21T00:37:59Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: RL-trained model that finds errors in agent traces

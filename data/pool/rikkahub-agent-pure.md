@@ -33,18 +33,18 @@ summary: 'RikkaHub Agent · Pure — an Android AI agent that survives long runs
   on the rikkahub on-device agent: usage ledger & budgets, on-demand tools, expert sub-agents, cold memory,
   chained workflows. Kotlin/Compose, Shizuku/Termux/MCP. QQ group 1030362371.'
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wuyhong715/rikkahub-agent-pure/releases/latest
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 51
+    stars: 54
     forks: 8
-    open_issues: 7
+    open_issues: 6
   kind: product
 ---
 

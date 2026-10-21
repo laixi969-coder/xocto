@@ -36,18 +36,18 @@ canonical_url: https://github.com/perplexityai/SPACE
 summary: 'Sandboxed Platform for Agentic Code Execution: pluggable-runtime sandboxes for running agent
   and user code in isolation.'
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/perplexityai/SPACE
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 1683
-    forks: 140
-    open_issues: 106
+    stars: 1747
+    forks: 145
+    open_issues: 114
   kind: product
 ---
 

@@ -1,0 +1,41 @@
+---
+slug: tcs-offers-industrial-intelligence-foundry-to-boost-agentic
+name: TCS offers industrial intelligence foundry to boost agentic AI scaling for enterprises
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNcVZwZ1JtRFQ4RlMzQy05cUh3VWlXSnZqRDFTc0loOE12Z3RaalNuaHAtR251VGVOenNJS1Q2Wk5aQ19jTk9FQ3N1cFR1Y2xIdzRiN3hCQUhHbE04OURxQS0wZVBIVzVLVGRiOGY3RzN5ckVmOWE0VmRXSG1TcWRqV2pwOHFPMTZqZHZ6aExkVTlkVXJublFCckNJYUNUNkYtb3p0OVQzT3BTdUtwWHhpRWRrWjNlNVZxSW8zQml0RlNaZ2ZrSGg40gHHAUFVX3lxTE1xVnBnUm1EVDhGUzNDLTlxSHdVaVdKdmpEMVNzSWg4TXZndFpqU25ocC1HbnVUZU56c0lLVDZaTlpDX2NOT0VDc3VwVHVjbEh3NGI3eEJBSEdsTTg5RHFBLTBlUEhXNUtUZGI4ZjdHM3lyRWY5YTRWZFdIbVNxZGpXanA4cU8xNmpkdnpoTGRVOWRVcm5uUUJyQ0lhQ1Q2Ri1venQ5VDNPcFN1S3BYeGlFZGtaM2U1VnFJbzNCaXRGU1pnZmtIaDg?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNcVZwZ1JtRFQ4RlMzQy05cUh3VWlXSnZqRDFTc0loOE12Z3RaalNuaHAtR251VGVOenNJS1Q2Wk5aQ19jTk9FQ3N1cFR1Y2xIdzRiN3hCQUhHbE04OURxQS0wZVBIVzVLVGRiOGY3RzN5ckVmOWE0VmRXSG1TcWRqV2pwOHFPMTZqZHZ6aExkVTlkVXJublFCckNJYUNUNkYtb3p0OVQzT3BTdUtwWHhpRWRrWjNlNVZxSW8zQml0RlNaZ2ZrSGg40gHHAUFVX3lxTE1xVnBnUm1EVDhGUzNDLTlxSHdVaVdKdmpEMVNzSWg4TXZndFpqU25ocC1HbnVUZU56c0lLVDZaTlpDX2NOT0VDc3VwVHVjbEh3NGI3eEJBSEdsTTg5RHFBLTBlUEhXNUtUZGI4ZjdHM3lyRWY5YTRWZFdIbVNxZGpXanA4cU8xNmpkdnpoTGRVOWRVcm5uUUJyQ0lhQ1Q2Ri1venQ5VDNPcFN1S3BYeGlFZGtaM2U1VnFJbzNCaXRGU1pnZmtIaDg?oc=5
+summary: TCS offers industrial intelligence foundry to boost agentic AI scaling for enterprises Consultancy.uk
+first_seen: '2026-10-21T00:38:32Z'
+last_seen: '2026-10-21T00:38:32Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNcVZwZ1JtRFQ4RlMzQy05cUh3VWlXSnZqRDFTc0loOE12Z3RaalNuaHAtR251VGVOenNJS1Q2Wk5aQ19jTk9FQ3N1cFR1Y2xIdzRiN3hCQUhHbE04OURxQS0wZVBIVzVLVGRiOGY3RzN5ckVmOWE0VmRXSG1TcWRqV2pwOHFPMTZqZHZ6aExkVTlkVXJublFCckNJYUNUNkYtb3p0OVQzT3BTdUtwWHhpRWRrWjNlNVZxSW8zQml0RlNaZ2ZrSGg40gHHAUFVX3lxTE1xVnBnUm1EVDhGUzNDLTlxSHdVaVdKdmpEMVNzSWg4TXZndFpqU25ocC1HbnVUZU56c0lLVDZaTlpDX2NOT0VDc3VwVHVjbEh3NGI3eEJBSEdsTTg5RHFBLTBlUEhXNUtUZGI4ZjdHM3lyRWY5YTRWZFdIbVNxZGpXanA4cU8xNmpkdnpoTGRVOWRVcm5uUUJyQ0lhQ1Q2Ri1venQ5VDNPcFN1S3BYeGlFZGtaM2U1VnFJbzNCaXRGU1pnZmtIaDg?oc=5
+  seen_at: '2026-10-21T00:38:32Z'
+  metrics: {}
+  kind: news
+---
+
+# TCS offers industrial intelligence foundry to boost agentic AI scaling for enterprises
+
+TCS offers industrial intelligence foundry to boost agentic AI scaling for enterprises Consultancy.uk
+
+## 笔记
+
+

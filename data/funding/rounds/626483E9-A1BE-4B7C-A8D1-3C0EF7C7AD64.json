@@ -1,0 +1,119 @@
+{
+  "company": {
+    "city": "Berlin",
+    "country": "Germany",
+    "description": "A Berlin-based audio startup, which leverages its own AI models to let users generate synced sound for video",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "944F4D9E-CCC1-40D1-A950-1EFA92C2F16B",
+    "investors": [
+      "Andreessen Horowitz",
+      "Atlantic",
+      "Index Ventures",
+      "Nvidia",
+      "TriplePoint Capital"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Mirelo",
+    "rounds": [
+      {
+        "amountEur": null,
+        "date": "2026-10-20T00:00:00.000Z",
+        "id": "626483E9-A1BE-4B7C-A8D1-3C0EF7C7AD64",
+        "investors": [
+          "Nvidia"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/626483E9-A1BE-4B7C-A8D1-3C0EF7C7AD64"
+      },
+      {
+        "amountEur": 34884710,
+        "date": "2025-12-15T00:00:00.000Z",
+        "id": "557208E0-8DBF-4C40-831A-8CC4434F4116",
+        "investors": [
+          "Andreessen Horowitz",
+          "Atlantic",
+          "Index Ventures",
+          "TriplePoint Capital"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/557208E0-8DBF-4C40-831A-8CC4434F4116"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "medium",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "up",
+            "label": "€30M+ raised"
+          },
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 19
+      },
+      "heat": 50,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 34884710,
+    "url": "https://funding.tech.eu/companies/944F4D9E-CCC1-40D1-A950-1EFA92C2F16B",
+    "website": "https://www.mirelo.ai/"
+  },
+  "round": {
+    "amountEur": null,
+    "amountEurStored": null,
+    "amountNative": null,
+    "company": {
+      "city": "Berlin",
+      "country": "Germany",
+      "founded": null,
+      "id": "944F4D9E-CCC1-40D1-A950-1EFA92C2F16B",
+      "name": "Mirelo",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "none",
+    "currency": "",
+    "date": "2026-10-20",
+    "fx": null,
+    "id": "626483E9-A1BE-4B7C-A8D1-3C0EF7C7AD64",
+    "investors": [
+      "Nvidia"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Other",
+    "url": "/deals/626483E9-A1BE-4B7C-A8D1-3C0EF7C7AD64"
+  }
+}

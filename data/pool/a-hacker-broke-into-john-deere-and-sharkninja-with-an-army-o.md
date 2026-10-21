@@ -1,7 +1,7 @@
 ---
 slug: a-hacker-broke-into-john-deere-and-sharkninja-with-an-army-o
 name: AI agent mass website intrusion campaign
-builder: ''
+builder: dkobia
 category: ''
 summary_zh: 2026年10月，安全公司 Norforge 披露一名攻击者使用大量基本自主运行的 AI 代理入侵超过 100 个网站，受害方包括 John Deere、SharkNinja 和
   Cummins。该事件表明 AI 代理可被用于规模化攻击，企业需将代理行为监控与访问控制纳入安全交付，并可能推高 AI 安全防护的采购需求（后者为推断）。
@@ -31,15 +31,23 @@ summary: A hacker broke into more than 100 websites using an army of AI agents t
   out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered
   the attacks through exposed work on Cai … Read the full story at The Verge.
 first_seen: '2026-10-20T01:06:54Z'
-last_seen: '2026-10-20T01:06:54Z'
-status: market_context
+last_seen: '2026-10-21T00:37:59Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins
   seen_at: '2026-10-20T01:06:54Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins
+  seen_at: '2026-10-21T00:37:59Z'
+  metrics:
+    points: 59
+    comments: 3
   kind: news
 ---
 

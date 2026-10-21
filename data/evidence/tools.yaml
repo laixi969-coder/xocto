@@ -261,3 +261,21 @@
   fact: 'Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that
     this would break any plugins which used https without directly depending on it. llm-tools-datasette
     was one of those plugins, now fixed. Tags: datasette , llm'
+- id: ev-9ce2da5b1cf52475
+  project_slug: tools
+  url: https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/
+  title: Discover tools at runtime with AWS Agent Registry
+  published_at: '2026-10-20T16:22:24Z'
+  collected_at: '2026-10-21T00:38:23Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Runtime discovery with AWS Agent Registry can help address a problem that agent demos might hide.
+    Hardcoded tools work fine for a handful, start to degrade at a few dozen, and become unmanageable
+    beyond that. Enterprise systems expose hundreds of internal APIs for pricing, support, orders, inventory,
+    and customer data. In these systems, the model can spend more tokens disambiguating tool names than
+    reasoning about the user’s request. Each new capability requires a code change in the orchestrator,
+    a redeploy, and a coordinated release across teams that would much rather ship on their own cadence.
+    This pattern can arise across enterprise software as a service (SaaS) engagements where teams expose
+    large internal API surfaces to agentic consumers. Build-time wiring can become a bottleneck as the
+    catalog expands. One approach is to change how the orchestrator accesses its tools: instead of compiling
+    every tool into the agent, the agent can discover relevant tools at runtime. AWS Agent Regis'

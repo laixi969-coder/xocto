@@ -21,17 +21,17 @@ canonical_url: https://github.com/rlaope/deepseek-bot
 summary: DeepSeek Harness gonna be your personal agent, a self-hosted AI teammate that remembers you,
   ultrafast model and TUI
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/rlaope/deepseek-bot
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 48
-    forks: 6
+    stars: 58
+    forks: 8
     open_issues: 1
   kind: product
 ---

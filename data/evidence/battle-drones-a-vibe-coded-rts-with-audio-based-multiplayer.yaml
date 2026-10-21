@@ -1,0 +1,18 @@
+- id: ev-293df4b8257d700f
+  project_slug: battle-drones-a-vibe-coded-rts-with-audio-based-multiplayer
+  url: https://simonwillison.net/2026/Oct/20/battledrones/
+  title: Battle Drones - a vibe coded RTS with audio-based multiplayer
+  published_at: '2026-10-20T19:34:19Z'
+  collected_at: '2026-10-21T00:38:25Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game
+    called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to
+    play . I''m somewhat embarrassed to admit that I got there by telling Claude to "Make it a LOT more
+    fun". It also supports multiplayer between nearby devices using audio to synchronize game state! Here''s
+    what I''ve built so far, and some of the things I learned along the way. Battle Drones How I built
+    this v1: the initial prototype v2: full sprites v3: varied terrain v4: the fun update v5: Battle Drones
+    goes 3D v8: Archipelago v10: Goliath, and agent battles Agent battles v11: Random Maps v12: Multiplayer
+    via sound Some thoughts Update: Online multiplayer support Battle Drones My initial goal was to build
+    an RTS game I could play on my phone, in the style of Command & Conquer . I have fond memories of
+    the 1995 original (I liked Red Alert too) and wanted to recapture a little bit of the magic. Af'

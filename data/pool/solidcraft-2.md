@@ -38,18 +38,18 @@ canonical_url: https://github.com/tangency-labs/solidcraft
 summary: 'SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and
   automation through MCP.'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-20T01:06:30Z'
+last_seen: '2026-10-21T00:38:03Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tangency-labs/solidcraft
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-21T00:38:03Z'
   metrics:
-    stars: 7304
-    forks: 821
-    open_issues: 1459
+    stars: 8276
+    forks: 956
+    open_issues: 1793
   kind: product
 ---
 
