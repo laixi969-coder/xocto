@@ -1,0 +1,111 @@
+{
+  "company_id": "F8DC2BCE-D5E8-4D97-881F-3666E1EB6456",
+  "zh": {
+    "summary": "Agile Robots 是一家源自德国航空航天中心（DLR）研究团队的物理 AI 机器人公司，产品线覆盖工业人形机器人 Agile ONE、力控机械臂 Diana 7、Thor 系列、灵巧手 Agile Hand、移动机器人以及 AgileCore 软件平台。",
+    "judgment": "最关键的问题是：它能否把“人形 + 力控臂 + 灵巧手 + 软件平台”的组合，从面向汽车、电子等大客户的定制集成，转化为可复制、可规模交付的标准化产品收入；目前公开证据只支持产品存在，不支持单位经济与复购。",
+    "replaces": "替代传统固定式工业自动化产线中难以适应多品种、小批量与柔性换线的工位，以及需要人工完成的精细抓取、上下料和工位间搬运环节。",
+    "segment": "物理 AI / 工业机器人与具身智能",
+    "product": "官网披露的产品矩阵包括：面向工业场景的人形机器人 Agile ONE，强调灵巧手、视觉与语音感知、自主移动与人机协作；七轴全关节力矩传感的力控机械臂 Diana 7；载荷覆盖 3、7、12、20 公斤的 Thor 系列；五指模块化设计的 Agile Hand；与 BÄR Automation、idealworks 合作开发的 AMR 移动机器人；以及供系统集成商和操作者开发部署自动化方案的 AgileCore 软件平台，其中 AgileAI 被描述为可用自然语言编程的“大脑”。这些是公司自述的能力范围，具体精度、节拍、可靠性与安全认证参数在已抓取页面中未给出。",
+    "customer": "官网点名汽车、电子、医疗和服务行业为需求最苛刻的客户群，并称已服务其中领先企业，但未列出具体客户名称、合同规模或部署数量。使用者应分为两类：一是工厂产线工程师与系统集成商，负责把机器人接入现有工位；二是制造与物流运营负责人，为柔性换线、招工难和精细操作人力缺口付费。痛点频率取决于换线频次与工位复杂度，公开材料无法量化。",
+    "workflow": "典型流程是：客户提出工位任务，Agile Robots 或其集成伙伴用 AgileCore/AgileAI 配置机器人行为，选择 Diana 7 力控臂、Thor 系列或 Agile ONE 人形本体，配合 Agile Hand 完成抓取与装配；Agile ONE 依靠相机、LiDAR 与语音识别在工作站间自主移动并与人交互，通过胸部显示屏和灯光反馈状态。官网称其机器人基础模型使用产线真实数据、仿真数据以及遥操作与数据农场采集的人类数据训练，但数据采集规模、训练周期和现场调试时长均未披露。",
+    "business_model": "已抓取页面没有任何定价、订阅或授权条款，收费方式属于未披露。可条件式推断：硬件本体销售或租赁、AgileCore 软件授权、以及围绕集成部署的工程服务可能是收入构成，但这只是推断，未经证据验证。单位经济性——单台毛利、部署人力成本、软件续费率——完全缺失，不能据融资或产品页推断。",
+    "traction": "可确认的采用信号仅为公司自述：2018 年由 DLR 机器人研究者创立，拥有 2,000 名以上研发专家，产品面向汽车、电子、医疗与服务行业的领先客户，并与 Hitachi 建立物理 AI 制造合作、在印度投资 XNG Automation。这些均为 company-reported，未经审计。缺少客户案例页、部署台数、收入、复购与留存数据，因此不能把合作公告当作需求验证。",
+    "moat": "壁垒条件在于三点：一是 DLR 背景带来的力控与灵巧操作工程积累，二是把硬件、AgileCore 软件与基础模型打通的系统集成能力，三是大客户现场数据形成的训练飞轮。与通用大模型相比，其差异在具身硬件与实时控制闭环；与旧自动化产线相比，差异在柔性换线与自然语言编程。但这些优势能否成立，取决于交付是否标准化、数据飞轮是否真的闭合，公开证据尚不足以判断。",
+    "funding_read": "融资记录显示这是一轮由 Nvidia 参与、日期为 2026-10-20 的融资，轮次标注为 Other，金额与原币均未披露，因此不能判断估值、稀释或领投方——投资方名单不等于领投名单。该轮说明产业资本对物理 AI 方向的关注，但不构成收入或产品胜出的证据。资金用途未披露；下一里程碑应是可核验的标准化产品交付与客户复购，而非更多合作公告。",
+    "risks": "第一，若人形机器人仍停留在演示与试点，无法在节拍、良率与安全认证上达到产线要求，收入将长期依赖定制集成项目，难以规模化。第二，若 AgileCore 与基础模型的现场调试仍需大量工程师驻场，部署成本会吞噬毛利，客户换线收益不足以支撑溢价。第三，大客户集中与汽车、电子资本开支周期波动会放大订单风险。第四，Nvidia 等产业投资方带来的生态绑定可能限制其在其他算力与软件栈上的中立性。",
+    "takeaway": "对同类创业者可借鉴的是：以力控臂、灵巧手等可单独交付的部件先进入产线，再用软件平台与数据把部件串成系统，最后才推人形整机；这种“由部件到系统”的路径比直接卖人形更容易获得真实工况数据。同时应尽早公开可核验的部署指标，而不是只发布合作新闻。",
+    "watch_next": "下一阶段应关注：是否披露定价或租赁模式、是否出现具名客户案例与部署台数、Agile ONE 是否公布节拍/负载/安全认证等硬指标、AgileCore 是否开放文档与开发者生态，以及该轮融资的金额与用途是否补充披露。",
+    "citations": [
+      {
+        "label": "Agile Robots 官网首页（company claim）",
+        "url": "http://www.agile-robots.com/"
+      },
+      {
+        "label": "Agile Robots 产品页（company claim）",
+        "url": "http://www.agile-robots.com/en/products/"
+      },
+      {
+        "label": "Agile ONE 产品页（company claim）",
+        "url": "http://www.agile-robots.com/en/products/humanoid-robots/agile-one/"
+      },
+      {
+        "label": "tech.eu 融资记录",
+        "url": "https://funding.tech.eu/deals/A166A410-8584-4AE5-B2C8-90DABF4DC591"
+      }
+    ]
+  },
+  "en": {
+    "summary": "Agile Robots is a physical-AI robotics company founded by researchers from the German Aerospace Center (DLR), with a portfolio spanning the Agile ONE industrial humanoid, the Diana 7 force-controlled arm, the Thor series, the Agile Hand, mobile robotics, and the AgileCore software platform.",
+    "judgment": "The key question is whether it can turn a bundle of humanoid, force-controlled arms, dexterous hands and software into repeatable, standardized product revenue rather than bespoke integration for a few large automotive and electronics customers; public evidence supports product existence, not unit economics or repeat purchase.",
+    "replaces": "Rigid fixed-function industrial automation cells that struggle with high-mix, low-volume and frequent line changeovers, plus manual work in delicate grasping, machine tending and inter-station transport.",
+    "segment": "Physical AI / industrial robotics and embodied intelligence",
+    "product": "Company-reported product scope includes Agile ONE, an industrial humanoid with dexterous hands, camera/LiDAR/speech perception, autonomous movement and human collaboration; Diana 7, a seven-axis arm with torque sensors on every axis; the Thor series with 3, 7, 12 and 20 kg payload options; the five-finger modular Agile Hand; AMR solutions developed with BÄR Automation and idealworks; and AgileCore, a software platform for integrators and operators, with AgileAI described as a natural-language-programmable brain. Precision, cycle time, reliability and safety-certification figures are not given on the retrieved pages.",
+    "customer": "The site names automotive, electronics, healthcare and service industries as its most demanding customers and claims to serve leading companies among them, without naming accounts, contract sizes or deployment counts. Two buyer groups are implied: plant engineers and system integrators who must fit robots into existing stations, and manufacturing or logistics operations leaders paying for flexible changeover, labor shortages and delicate-manipulation gaps. Pain frequency depends on changeover rates and task complexity, which public material cannot quantify.",
+    "workflow": "A typical flow: a customer defines a station task; Agile Robots or an integration partner configures behavior through AgileCore/AgileAI, selecting Diana 7, Thor or the Agile ONE humanoid, paired with Agile Hand for grasping and assembly; Agile ONE moves between workstations using cameras, LiDAR and speech recognition and signals status via a chest display and lights. The site says its robot foundation models are trained on real production data, simulated datasets, and teleoperation and human data from data farms, but data volume, training cycles and on-site commissioning time are undisclosed.",
+    "business_model": "No pricing, subscription or licensing terms appear on the retrieved pages, so the charging model is undisclosed. A conditional inference is that revenue may combine hardware sales or leasing, AgileCore software licensing and engineering services around deployment, but this is inference, not verified evidence. Unit economics — per-unit gross margin, deployment labor cost, software renewal — are entirely missing and cannot be inferred from the funding record or product pages.",
+    "traction": "Confirmable adoption signals are company-reported only: founded in 2018 by DLR robotics researchers, 2,000+ R&D experts, products aimed at leading automotive, electronics, healthcare and service customers, a physical-AI manufacturing partnership with Hitachi, and an investment in India's XNG Automation. These are unaudited. Customer case pages, deployed unit counts, revenue, repeat purchase and retention data are absent, so partnership announcements should not be read as demand validation.",
+    "moat": "The moat conditions are threefold: DLR-rooted engineering in force control and dexterous manipulation; the ability to integrate hardware, AgileCore software and foundation models into one system; and a training flywheel built from large-customer field data. Versus general-purpose models, the difference is embodied hardware and a real-time control loop; versus legacy automation lines, it is flexible changeover and natural-language programming. Whether these hold depends on standardized delivery and a genuinely closed data loop, which public evidence cannot yet establish.",
+    "funding_read": "The record shows a funding round dated 2026-10-20 with Nvidia among investors, labeled Other, with amount and original currency undisclosed, so valuation, dilution and lead investor cannot be determined — an investor list is not a lead-investor list. The round signals industrial-capital interest in physical AI but is not evidence of revenue or product success. Use of proceeds is undisclosed; the next milestone should be verifiable standardized delivery and repeat orders, not more partnership announcements.",
+    "risks": "First, if humanoids remain demos and pilots that miss line requirements on cycle time, yield and safety certification, revenue stays dependent on bespoke integration and does not scale. Second, if AgileCore and foundation models still require heavy on-site engineering, deployment cost erodes gross margin and changeover savings fail to justify a premium. Third, customer concentration and capex cycles in automotive and electronics amplify order risk. Fourth, ecosystem ties to an industrial investor such as Nvidia may constrain neutrality across other compute and software stacks.",
+    "takeaway": "A transferable lesson for peers: enter production lines first with separately sellable components such as force-controlled arms and dexterous hands, then connect them through a software platform and data, and only then push a full humanoid. This component-to-system path yields real operating data more readily than selling a humanoid outright. Publish verifiable deployment metrics early rather than only partnership news.",
+    "watch_next": "Watch for disclosed pricing or leasing terms, named customer cases and deployed unit counts, hard specs for Agile ONE such as cycle time, payload and safety certification, open documentation and a developer ecosystem for AgileCore, and any supplemental disclosure of this round's amount and use of proceeds.",
+    "citations": [
+      {
+        "label": "Agile Robots homepage (company claim)",
+        "url": "http://www.agile-robots.com/"
+      },
+      {
+        "label": "Agile Robots products page (company claim)",
+        "url": "http://www.agile-robots.com/en/products/"
+      },
+      {
+        "label": "Agile ONE product page (company claim)",
+        "url": "http://www.agile-robots.com/en/products/humanoid-robots/agile-one/"
+      },
+      {
+        "label": "tech.eu funding record",
+        "url": "https://funding.tech.eu/deals/A166A410-8584-4AE5-B2C8-90DABF4DC591"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/A166A410-8584-4AE5-B2C8-90DABF4DC591",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Agile Robots is an artificial intelligence robot maker.",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "url": "http://www.agile-robots.com/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-10-21",
+      "status": "retrieved",
+      "text": "We are Agile Robots | Driving industries forward | Agile Robots SE Skip main navigation About us Products Agile ONE Diana 7 Thor series Agile Hand Mobile robotics AgileCore Physical AI Career News & more Contact us EN EN - English DE - German You are now on the European site Visit the Chinese site © Agile Robots SE 2026 Imprint Privacy policy GTC Privacy Settings EN EN - English DE - German You are now on the European site Visit the Chinese site Driving industries forward Our products Physical AI products that deliver​ From humanoids to robotic arms, we deliver robotic products that are precise, flexible and intelligent. We build them to solve our customers' most complex challenges — wherever they arise.​ For us, quality is the name of the game. Our products meet the requirements of the world’s most demanding customers, including leading companies in the automotive, electronics, healthcare, and service industries.​ Explore our products Founded in 2018 by a passionate team of robotics researchers from the German Aerospace Center (DLR), we’ve grown into a global leader for physical AI and intelligent robotics products. Today we change industries for the better. ​ ​ Explore our company Our 2,000+ R&D experts are constantly developing cutting edge-products – and our engineers are rapidly deploying them in the field.​ Explore Physical AI Make an impact Join our team! Whether you’re starting a new career or looking for a change, we’re always on the lookout for people like you to bring passion and ingenuity to our dynamic teams across the globe. Explore career options Unveiling the future: Latest innovations and news News 29.09.2026 / 2 min read Agile Robots and Hitachi partner on Physical AI for manufacturing Read article Blog 16.09.2026 / 5 min read From lab to line: six months to a humanoid factory Read blog News 03.08.2026 / 3 min read Agile Robots SE grows in India with investment in XNG Automation Read article Catch up on News Agile Robots is a world-class provider of next-generation automation solutions based in Munich. By combining artificial intelligence and robotics, the company makes industries smarter, more flexible, and more efficient. © Agile Robots SE 2026 Imprint Privacy policy GTC Privacy Settings EN EN - English DE - German You are now on the European site Visit the Chinese site"
+    },
+    {
+      "url": "http://www.agile-robots.com/en/products/",
+      "kind": "company_claim",
+      "role": "product",
+      "checked_on": "2026-10-21",
+      "status": "retrieved",
+      "text": "Products at Agile Robots | Cutting-edge automation | Agile Robots SE Skip main navigation About us Products Agile ONE Diana 7 Thor series Agile Hand Mobile robotics AgileCore Physical AI Career News & more Contact us EN EN - English DE - German You are now on the European site Visit the Chinese site © Agile Robots SE 2026 Imprint Privacy policy GTC Privacy Settings EN EN - English DE - German You are now on the European site Visit the Chinese site Built to perform, built to last Automation has changed how industry operates. We have delivered rapid robotization at scale. Now we are developing and deploying Physical AI products that use intelligence, flexibility and adaptability to go a step beyond traditional automation. Agile ONE: the humanoid for industry Agile ONE brings physical AI to industry. With unprecedentedly dexterous hands, advanced perception, and intuitive human interaction, the humanoid robot handles industrial tasks autonomously, precisely, and efficiently. Find out more Diana 7: The art of dexterity Developed to intuitively perform any automation task, this force-controlled robotic arm is equipped with torque sensors in all seven axes and is supported by our AI-driven software. Find out more Thor series: Precision meets payload The Thor series is engineered to meet diverse industrial needs, providing payload options of 3, 7, 12, and 20 kilograms along with unique features tailored to different applications. This versatility allows Thor to excel in both ultra-precise operations and heavy-duty applications. Find out more Human-like touch: Agile Hand The anthropomorphic Agile Hand is composed of five identical, modularly designed robotic fingers. Thanks to its humanoid dexterity, it can perform delicate tasks and offers a hand where we humans can’t. Find out more Shared Expertise: Mobile robotics We develop our cutting-edge Autonomous Mobile Robot (AMR) solution in partnership with our experts at BÄR Automation and idealworks. Components can be flexibly combined with each other so that individual steps can be synchronized optimally, to enhance efficiency and flexibility, streamline operations and boost productivity in a wide range of environments. Find out more Everything connected: AgileCore Our powerful software platform enables system integrators and operators to develop and deploy next-generation automation solutions. It’s like a one-stop shop for all your robotic software needs. Cutting-edge AI technology powers our robotic systems: AgileAI is the brain of our automation solutions, enabling them to process data, make real-time decisions and flexibly adapt to changing conditions. It can be programmed using natural language. This advanced platform enhances our robots’ performance, driving innovation and efficiency across various applications. Find out more We are proud of our long track record of consistently developing the right solutions to meet specific application needs across a broad range of industries and services. Driving innovation We are pushing the boundaries of physical AI products: intelligent, flexible and adaptable robots that get tasks done. Explore Physical AI Agile Robots is a world-class provider of next-generation automation solutions based in Munich. By combining artificial intelligence and robotics, the company makes industries smarter, more flexible, and more efficient. © Agile Robots SE 2026 Imprint Privacy policy GTC Privacy Settings EN EN - English DE - German You are now on the European site Visit the Chinese site"
+    },
+    {
+      "url": "http://www.agile-robots.com/en/products/humanoid-robots/agile-one/",
+      "kind": "company_claim",
+      "role": "product",
+      "checked_on": "2026-10-21",
+      "status": "retrieved",
+      "text": "Agile ONE – Physical AI for the production floor | Agile Robots SE Skip main navigation About us Products Agile ONE Diana 7 Thor series Agile Hand Mobile robotics AgileCore Physical AI Career News & more Contact us EN EN - English DE - German You are now on the European site Visit the Chinese site © Agile Robots SE 2026 Imprint Privacy policy GTC Privacy Settings EN EN - English DE - German You are now on the European site Visit the Chinese site Physical AI for the production floor: Agile ONE Agile ONE brings Physical AI to industry. With unprecedentedly dexterous hands, advanced perception, and intuitive human interaction, the humanoid robot handles industrial tasks autonomously, precisely, and efficiently. Designed for industry Agile ONE is your reliable co-worker on the production floor. It moves autonomously between workstations, collaborates seamlessly with humans, and gets the job done – in manufacturing, logistics, and beyond. Powered by real-world industrial data, Agile ONE learns, adapts, and evolves with every task, optimizing performance and efficiency across your operations. Discover the features Sensitive perception Agile ONE sees, hears, understands, and responds. Equipped with intelligent cameras, LiDARs and advanced speech recognition, the humanoid dynamically interacts and communicates with its environment. Real-time feedback Agile ONE constantly communicates. A chest information display, expressive eyes, and a proximity sensor signal spatial awareness and provide real-time feedback - creating intuitive and safe interactions. Powerful arms Designed to closely mirror the human anatomy, Agile ONE’s dexterous robotic arms deliver precision and strength in every movement. Human-like dexterity With modular fingers, 21 joints, and integrated force and tactile sensors, Agile ONE‘s hands closely imitate the human hand, enabling precise manipulation, reliable grasping, and natural interaction with a variety of objects. Natural movements With a walking speed of 2 meters per second, Agile ONE moves with human-like speed. A life-sized presence in the workplace Engineered for stability and movement Walks at your pace, works to your rhythm powerful payload The production line is our training ground Constantly evolving, Agile ONE draws on real industrial data from the production floor, extensive simulated datasets, and robot teleoperation and human data gathered at our data farms. This extensive and diverse data is used to train our Robot Foundation Models. These models enable the humanoid to autonomously execute complex tasks with greater accuracy, adaptability, and safety across diverse industrial environments. Advanced perception, tangible results Sensitive touch With integrated force and tactile sensors, Agile ONE’s hands redefine robotic dexterity - mastering delicate and powerful tasks with unmatched precision and adaptability. Intelligent vision Agile ONE’s superhuman vision enables advanced spatial awareness, tracks movements and detects obstacles – even while carrying oversized objects humans can’t see past. Intuitive interactions Agile ONE‘s responsive eyes, light signals, chest display, and vocal responses enable intuitive communication, delivering real-time updates on its current status. Autonomous decision-making The Robotic Foundation Model behind Agile ONE is trained on real-world industrial data – giving it the edge in handling real-world industrial tasks. Standing ready. Not stand-alone Agile ONE is more than a stand-alone system - it’s a part of a wider, integrated production ecosystem. It’s designed to work seamlessly alongside our other robotic solutions, each part of the system intelligent, interlinked, and continuously learning. The result? Manufacturing systems that adapt in real time and continuously learn from every process – and factories that are smarter, more adaptable and more efficient. Driving innovation We are pushing the boundaries of physical AI products: intelligent, flexible and adaptable robots that get tasks done. Explore Physical AI Agile Robots is a world-class provider of next-generation automation solutions based in Munich. By combining artificial intelligence and robotics, the company makes industries smarter, more flexible, and more efficient. © Agile Robots SE 2026 Imprint Privacy policy GTC Privacy Settings EN EN - English DE - German You are now on the European site Visit the Chinese site"
+    }
+  ],
+  "round_id": "A166A410-8584-4AE5-B2C8-90DABF4DC591",
+  "fingerprint": "3186a0857306f187e98b29d7f3a16888b181c89150e1e942e0fbff7d6b8849f6",
+  "analyzed_at": "2026-10-21T01:15:03Z",
+  "research_version": 2,
+  "research_fingerprint": "b624df88df4c33cf18133e76e111ec30281d9558a3af0bd5afa019f2671298c3",
+  "checked_on": "2026-10-21"
+}
