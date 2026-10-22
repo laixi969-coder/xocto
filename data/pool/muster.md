@@ -30,18 +30,18 @@ canonical_url: https://agentmuster.app
 summary: 'Never keep an agent waiting. A free, open-source Mac menu bar app for Claude Code, Codex and
   Cursor: see which session needs you and answer it with one keystroke.'
 first_seen: '2026-10-15T00:32:09Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://agentmuster.app
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 90
+    stars: 91
     forks: 1
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

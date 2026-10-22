@@ -31,17 +31,17 @@ canonical_url: https://muxin.dev
 summary: 'All your machines, one app. For you and your AI agents: agent sessions, desktops, files, logs
   and GitHub across your Macs, Linux and Windows machines, with an MCP server.'
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://muxin.dev
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 344
-    forks: 49
+    stars: 347
+    forks: 50
     open_issues: 0
   kind: product
 ---

@@ -1,0 +1,41 @@
+---
+slug: eternal-to-launch-privacy-focused-ai-assistant-darkai-target
+name: Eternal to launch privacy-focused AI assistant dark.ai, targets global rollout this year
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYi0xcVNSVWdsWEJGWGdoNjAxdW44U1YtWThFVGxaUXpsU2Q1bWJ5ZVlCUzU5YWFZTlZsT0ZiY1pLRWZFWFlMTzVQWjFZMGtCNmRIWEtpdEEyaXFTU0ZGa3hYQlJreC1MeWwyWXlkQlFRaHFiQnVsdWFZWDh2S29mUGQtWEhtdFVBM3Z0MTRaU2FRekJPUjVDV24wUGlTOVljRk9EY1l5Qk5DeUp0WUFqS0h2cGdFdXU4RUg0QkhfTGI2Nm8tLW80ckRZUVFkd0hqeTA1emNoRk91dzNGVms4NUIwT2dLRmfSAewBQVVfeXFMTXNMN2ZiQjFJSko3bGo0Y2tjVXA3ZjNFc0pkUVJMSVh6bU1kYmdtN0phWnU5MWhIY3hvbFdLdGpnTm1SeE9JM0JhaGdpeWZzeHFsM0x3bTFNZEJBV0VjdDNNNVJjMXVqR2M4RXk5TmFPVExXWl8tcXU2blF5TndaNVBjTXNCUHJ4TVptX3dKRDZBR1dzem13UGFNYllMTC1FeTFIQTRFWl9kUUtsVl9VSU1UVnpPaUIwaG4wbVg5REhOQzg0N3p5OG1SNDJpa0hNbkRlQWEtdkE5Z3Z6Z3JEdjNGNF9iYUU2UUcxeXU?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYi0xcVNSVWdsWEJGWGdoNjAxdW44U1YtWThFVGxaUXpsU2Q1bWJ5ZVlCUzU5YWFZTlZsT0ZiY1pLRWZFWFlMTzVQWjFZMGtCNmRIWEtpdEEyaXFTU0ZGa3hYQlJreC1MeWwyWXlkQlFRaHFiQnVsdWFZWDh2S29mUGQtWEhtdFVBM3Z0MTRaU2FRekJPUjVDV24wUGlTOVljRk9EY1l5Qk5DeUp0WUFqS0h2cGdFdXU4RUg0QkhfTGI2Nm8tLW80ckRZUVFkd0hqeTA1emNoRk91dzNGVms4NUIwT2dLRmfSAewBQVVfeXFMTXNMN2ZiQjFJSko3bGo0Y2tjVXA3ZjNFc0pkUVJMSVh6bU1kYmdtN0phWnU5MWhIY3hvbFdLdGpnTm1SeE9JM0JhaGdpeWZzeHFsM0x3bTFNZEJBV0VjdDNNNVJjMXVqR2M4RXk5TmFPVExXWl8tcXU2blF5TndaNVBjTXNCUHJ4TVptX3dKRDZBR1dzem13UGFNYllMTC1FeTFIQTRFWl9kUUtsVl9VSU1UVnpPaUIwaG4wbVg5REhOQzg0N3p5OG1SNDJpa0hNbkRlQWEtdkE5Z3Z6Z3JEdjNGNF9iYUU2UUcxeXU?oc=5
+summary: Eternal to launch privacy-focused AI assistant dark.ai, targets global rollout this year Moneycontrol.com
+first_seen: '2026-10-22T00:42:55Z'
+last_seen: '2026-10-22T00:42:55Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYi0xcVNSVWdsWEJGWGdoNjAxdW44U1YtWThFVGxaUXpsU2Q1bWJ5ZVlCUzU5YWFZTlZsT0ZiY1pLRWZFWFlMTzVQWjFZMGtCNmRIWEtpdEEyaXFTU0ZGa3hYQlJreC1MeWwyWXlkQlFRaHFiQnVsdWFZWDh2S29mUGQtWEhtdFVBM3Z0MTRaU2FRekJPUjVDV24wUGlTOVljRk9EY1l5Qk5DeUp0WUFqS0h2cGdFdXU4RUg0QkhfTGI2Nm8tLW80ckRZUVFkd0hqeTA1emNoRk91dzNGVms4NUIwT2dLRmfSAewBQVVfeXFMTXNMN2ZiQjFJSko3bGo0Y2tjVXA3ZjNFc0pkUVJMSVh6bU1kYmdtN0phWnU5MWhIY3hvbFdLdGpnTm1SeE9JM0JhaGdpeWZzeHFsM0x3bTFNZEJBV0VjdDNNNVJjMXVqR2M4RXk5TmFPVExXWl8tcXU2blF5TndaNVBjTXNCUHJ4TVptX3dKRDZBR1dzem13UGFNYllMTC1FeTFIQTRFWl9kUUtsVl9VSU1UVnpPaUIwaG4wbVg5REhOQzg0N3p5OG1SNDJpa0hNbkRlQWEtdkE5Z3Z6Z3JEdjNGNF9iYUU2UUcxeXU?oc=5
+  seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+---
+
+# Eternal to launch privacy-focused AI assistant dark.ai, targets global rollout this year
+
+Eternal to launch privacy-focused AI assistant dark.ai, targets global rollout this year Moneycontrol.com
+
+## 笔记
+
+

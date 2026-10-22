@@ -32,18 +32,18 @@ canonical_url: https://github.com/SimonSchubert/omalauncher
 summary: 'Agentic Android launcher: build your own apps and widgets with AI agents, Omarchy themes, Arch
   Linux without root'
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SimonSchubert/omalauncher
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 405
-    forks: 91
-    open_issues: 102
+    stars: 424
+    forks: 92
+    open_issues: 105
   kind: product
 ---
 

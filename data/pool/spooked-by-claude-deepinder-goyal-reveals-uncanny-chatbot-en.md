@@ -1,0 +1,42 @@
+---
+slug: spooked-by-claude-deepinder-goyal-reveals-uncanny-chatbot-en
+name: 'Spooked By Claude: Deepinder Goyal Reveals Uncanny Chatbot Encounter Behind Dark.ai Launch'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb1hpd1M5XzBjSkc4YTZhdDR3ZlB2T2h2VUpWVS1TUUlLVWRWZTZzTHV3VzVXb2xoRTZvUlh0Mzk1T1VMUjBuemlyTTMwbFg4U3gzclByZzBNTlA5SDNwbzdQLVhZUFR2VExmUnZKYXNDTldTcHRGbFhWTjVDN2tBMm1ITFNYaTBkYTE1Z1dBYURiN1p1Tl9iOHp4RTU4Q3dndTBqcHZlRGNtOG9uWlpmbXRzaVAwQmgycDVrbEZIckU1MDB3RFYtOVFFTXJJRGpGUnpPSnRPODB6Z9IB4gFBVV95cUxOTWZQVURfaWhNVUVPTHNvZzdWajNTNkdlbjFoQVhzQnNMeEF1MnFEcEMyRUNaUV9mRVRsYThjVzJTeEdQNVV0SUZLWnNMTXg0NjBQc01TS29XNWVqdU1zRjlCU3kxQ0ZfRGNzTllHRG9Pc21tQmVNWTVmMV9CdER0NkRYSWluM2dsbDZXTTJod3RubktNY3lya21mMEt1Wnl3aW5zMFhpMjJEbTJWSUYzcXdMSVpSZ0xpNzM1dnVKb0o4QWl2VktOZ2hEczhKR1VlRWRWYXN4NTVQTEhUVWtCM3Bn?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb1hpd1M5XzBjSkc4YTZhdDR3ZlB2T2h2VUpWVS1TUUlLVWRWZTZzTHV3VzVXb2xoRTZvUlh0Mzk1T1VMUjBuemlyTTMwbFg4U3gzclByZzBNTlA5SDNwbzdQLVhZUFR2VExmUnZKYXNDTldTcHRGbFhWTjVDN2tBMm1ITFNYaTBkYTE1Z1dBYURiN1p1Tl9iOHp4RTU4Q3dndTBqcHZlRGNtOG9uWlpmbXRzaVAwQmgycDVrbEZIckU1MDB3RFYtOVFFTXJJRGpGUnpPSnRPODB6Z9IB4gFBVV95cUxOTWZQVURfaWhNVUVPTHNvZzdWajNTNkdlbjFoQVhzQnNMeEF1MnFEcEMyRUNaUV9mRVRsYThjVzJTeEdQNVV0SUZLWnNMTXg0NjBQc01TS29XNWVqdU1zRjlCU3kxQ0ZfRGNzTllHRG9Pc21tQmVNWTVmMV9CdER0NkRYSWluM2dsbDZXTTJod3RubktNY3lya21mMEt1Wnl3aW5zMFhpMjJEbTJWSUYzcXdMSVpSZ0xpNzM1dnVKb0o4QWl2VktOZ2hEczhKR1VlRWRWYXN4NTVQTEhUVWtCM3Bn?oc=5
+summary: 'Spooked By Claude: Deepinder Goyal Reveals Uncanny Chatbot Encounter Behind Dark.ai Launch NDTV
+  Profit'
+first_seen: '2026-10-22T00:42:55Z'
+last_seen: '2026-10-22T00:42:55Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb1hpd1M5XzBjSkc4YTZhdDR3ZlB2T2h2VUpWVS1TUUlLVWRWZTZzTHV3VzVXb2xoRTZvUlh0Mzk1T1VMUjBuemlyTTMwbFg4U3gzclByZzBNTlA5SDNwbzdQLVhZUFR2VExmUnZKYXNDTldTcHRGbFhWTjVDN2tBMm1ITFNYaTBkYTE1Z1dBYURiN1p1Tl9iOHp4RTU4Q3dndTBqcHZlRGNtOG9uWlpmbXRzaVAwQmgycDVrbEZIckU1MDB3RFYtOVFFTXJJRGpGUnpPSnRPODB6Z9IB4gFBVV95cUxOTWZQVURfaWhNVUVPTHNvZzdWajNTNkdlbjFoQVhzQnNMeEF1MnFEcEMyRUNaUV9mRVRsYThjVzJTeEdQNVV0SUZLWnNMTXg0NjBQc01TS29XNWVqdU1zRjlCU3kxQ0ZfRGNzTllHRG9Pc21tQmVNWTVmMV9CdER0NkRYSWluM2dsbDZXTTJod3RubktNY3lya21mMEt1Wnl3aW5zMFhpMjJEbTJWSUYzcXdMSVpSZ0xpNzM1dnVKb0o4QWl2VktOZ2hEczhKR1VlRWRWYXN4NTVQTEhUVWtCM3Bn?oc=5
+  seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+---
+
+# Spooked By Claude: Deepinder Goyal Reveals Uncanny Chatbot Encounter Behind Dark.ai Launch
+
+Spooked By Claude: Deepinder Goyal Reveals Uncanny Chatbot Encounter Behind Dark.ai Launch NDTV Profit
+
+## 笔记
+
+

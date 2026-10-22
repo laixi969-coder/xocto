@@ -21,8 +21,8 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-10-20T01:07:01Z'
-status: rejected
+last_seen: '2026-10-22T00:42:55Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -135,6 +135,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQWElaRERFYkdyMDk2Sm1IUGxscjIzamowNFc4Vmx0TlQ4T0lWcjY1MHVuaEp4TEtJSXlWOWxBZnR4QlFIZU0yc1k4UjI4aUZ6M1RYTHpaVmZzM0pCb3hxQi02RFJGX0loRU1BbFdjcmk0ZHlVLVJEZFRKNl9MYTg1clFmVXRhTGVVOUNycA?oc=5
   seen_at: '2026-10-20T01:07:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KQlRXN3EwbmQxbzI1VUVhaEtGQ2xNczFDNG9VQ0dKZmtiV2Q2dHZrMjJzNzdNenZScENJbFRYbE5MczVmSmY1cUxpYWpkTXJtZlQw?oc=5
+  seen_at: '2026-10-22T00:42:55Z'
   metrics: {}
   kind: news
 ---

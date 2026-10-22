@@ -1,0 +1,103 @@
+{
+  "company": {
+    "city": "Milan",
+    "country": "Italy",
+    "description": "Rulen is developing an agentic AI platform that automates tax workflows.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "A6B1BBB8-3E89-4A77-B534-5825805B33FB",
+    "investors": [
+      "Alpha Ventures",
+      "Ame Ventures",
+      "Business Angels",
+      "Growth Engine ",
+      "VC Partners",
+      "Zest"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Rulen",
+    "rounds": [
+      {
+        "amountEur": 1800000,
+        "date": "2026-10-21T00:00:00.000Z",
+        "id": "2A06A2FB-1219-4B43-9DA7-8437B7DC9023",
+        "investors": [
+          "Alpha Ventures",
+          "Ame Ventures",
+          "Business Angels",
+          "Growth Engine ",
+          "VC Partners",
+          "Zest"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/2A06A2FB-1219-4B43-9DA7-8437B7DC9023"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 1800000,
+    "url": "https://funding.tech.eu/companies/A6B1BBB8-3E89-4A77-B534-5825805B33FB",
+    "website": "https://rulen.ai/"
+  },
+  "round": {
+    "amountEur": 1800000,
+    "amountEurStored": null,
+    "amountNative": 1800000,
+    "company": {
+      "city": "Milano",
+      "country": "Italy",
+      "founded": null,
+      "id": "A6B1BBB8-3E89-4A77-B534-5825805B33FB",
+      "name": "Rulen",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-10-21",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "2A06A2FB-1219-4B43-9DA7-8437B7DC9023",
+    "investors": [
+      "Alpha Ventures",
+      "Ame Ventures",
+      "VC Partners",
+      "Zest",
+      "Growth Engine"
+    ],
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Other",
+    "url": "/deals/2A06A2FB-1219-4B43-9DA7-8437B7DC9023"
+  }
+}

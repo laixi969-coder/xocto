@@ -37,7 +37,7 @@ summary: 'Win顺：免费开源的 Windows 快速搜索启动器。双击 Ctrl�
   助手 MCP。Free Windows search launcher: pinyin file search, full-text search, clipboard history, MCP server.
   Everything/Listary alternative.'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: queued
 sources:
 - github
@@ -45,11 +45,11 @@ sources:
 sightings:
 - source: github
   url: https://github.com/LingCore/WinShun
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 472
+    stars: 480
     forks: 34
-    open_issues: 17
+    open_issues: 20
   kind: product
 - source: v2ex
   url: https://github.com/LingCore/WinShun

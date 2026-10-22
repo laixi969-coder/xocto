@@ -21,16 +21,16 @@ canonical_url: https://github.com/webkubor/dsh-museav-assets
 summary: DeepSeek Harness 素材浏览插件：按工作区查看 MUSE AV 素材与出图记录，复制素材直链。DSH asset browser for MUSE AV workspaces,
   image libraries and generation history.
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/webkubor/dsh-museav-assets
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 50
+    stars: 49
     forks: 6
     open_issues: 0
   kind: product

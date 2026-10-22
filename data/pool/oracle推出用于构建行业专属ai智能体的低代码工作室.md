@@ -1,0 +1,41 @@
+---
+slug: oracle推出用于构建行业专属ai智能体的低代码工作室
+name: Oracle推出用于构建行业专属AI智能体的低代码工作室
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPVFVGSDd1ZGRlNUFkcXN4Mi13cUxMTlRUT0kxSlJMZEhQQmdPeEZHaHJrSEpLV0FzNy14M0UzTV9sa2RVcG50OW5IVXEtWFhHTll3dC10Z3ZwNE1nOXBxVXdBajczVWJLbHhybjFQd0k5Tjk1czBRS2FVNktaMzduMThlM3RRdjRQVExtSG5DN1lmY0VYYmlwSDdOWmRWUFU?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPVFVGSDd1ZGRlNUFkcXN4Mi13cUxMTlRUT0kxSlJMZEhQQmdPeEZHaHJrSEpLV0FzNy14M0UzTV9sa2RVcG50OW5IVXEtWFhHTll3dC10Z3ZwNE1nOXBxVXdBajczVWJLbHhybjFQd0k5Tjk1czBRS2FVNktaMzduMThlM3RRdjRQVExtSG5DN1lmY0VYYmlwSDdOWmRWUFU?oc=5
+summary: Oracle推出用于构建行业专属AI智能体的低代码工作室 Unite.AI
+first_seen: '2026-10-22T00:42:55Z'
+last_seen: '2026-10-22T00:42:55Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPVFVGSDd1ZGRlNUFkcXN4Mi13cUxMTlRUT0kxSlJMZEhQQmdPeEZHaHJrSEpLV0FzNy14M0UzTV9sa2RVcG50OW5IVXEtWFhHTll3dC10Z3ZwNE1nOXBxVXdBajczVWJLbHhybjFQd0k5Tjk1czBRS2FVNktaMzduMThlM3RRdjRQVExtSG5DN1lmY0VYYmlwSDdOWmRWUFU?oc=5
+  seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+---
+
+# Oracle推出用于构建行业专属AI智能体的低代码工作室
+
+Oracle推出用于构建行业专属AI智能体的低代码工作室 Unite.AI
+
+## 笔记
+
+

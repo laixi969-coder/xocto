@@ -1,0 +1,18 @@
+- id: ev-d9af2385344222ea
+  project_slug: train-qwen3-on-aws-trainium-with-torchtitan
+  url: https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/
+  title: Train Qwen3 on AWS Trainium with torchtitan
+  published_at: '2026-10-21T20:00:22Z'
+  collected_at: '2026-10-22T00:42:46Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Using torchtitan on AWS Trainium means using it the way you always have. TorchNeuron registers
+    Trainium as a native PyTorch device, which lets torchtitan use it through standard PyTorch interfaces.
+    You can use these configurations to pre-train from random initialization or fine-tune published weights.
+    You can also customize the model implementation and kernels for your workload. In this post, you train
+    Qwen3 three ways on a single trn2.48xlarge . The first method uses Transformers v5 as a modeling backend
+    in torchtitan. It runs Hub models through AutoModelForCausalLM and reads and writes published safetensors
+    directly. The second method switches to torchtitan’s native Qwen3 by changing config.model_spec .
+    The third adds Neuron Kernel Interface (NKI) mixture-of-experts (MoE) kernels from the torchtitan-neuron
+    recipes and then uses torchtitan’s override registry to attach your own kernel. All three configurations
+    use the same torchrun launch pattern and config structure. Prerequisites To

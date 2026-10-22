@@ -21,17 +21,17 @@ canonical_url: https://github.com/NB-Corp/gpt-with-taste
 summary: Better judgment. Better taste. Less ceremony. System instructions and source-aware steering for
   GPT in Codex.
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/NB-Corp/gpt-with-taste
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 412
-    forks: 21
+    stars: 425
+    forks: 22
     open_issues: 1
   kind: product
 ---

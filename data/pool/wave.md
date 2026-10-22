@@ -20,10 +20,11 @@ url: https://wave.subworkflow.ai/
 canonical_url: https://wave.subworkflow.ai
 summary: Layered gradient wave backgrounds using Three.js and shaders
 first_seen: '2026-09-25T12:34:56Z'
-last_seen: '2026-09-26T00:37:52Z'
+last_seen: '2026-10-22T00:42:46Z'
 status: pending_filter
 sources:
 - hackernews
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://wave.subworkflow.ai/
@@ -32,6 +33,11 @@ sightings:
     points: 5
     comments: 0
   kind: product
+- source: officialfeeds
+  url: https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/
+  seen_at: '2026-10-22T00:42:46Z'
+  metrics: {}
+  kind: news
 ---
 
 # Wave

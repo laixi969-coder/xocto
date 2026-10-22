@@ -23,7 +23,7 @@ summary: "这个网站注册就送 15 美元额度，用来注册 Muse 只用几
   \ 也可以直接地址栏输入这个路径:  https://cloud.browser-use.com/browser\r\n- 点击右上角 “Launch & Open” ,   这时候会弹出一个浏览器窗口,\
   \ 地址栏输入 http://muse.ai ,  \r\n- 按正常流程注册即可\r\n- 结束后记得右上角关闭这个实例，确保安全"
 first_seen: '2026-09-25T04:43:34Z'
-last_seen: '2026-10-21T00:38:32Z'
+last_seen: '2026-10-22T00:42:55Z'
 status: pending_filter
 sources:
 - v2ex
@@ -145,6 +145,36 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOaThmSzZMdDVvNU1rVXNtemZrVnU3WnZMQ2QxWTR3eXdaTTlxczN2T2RZZU5URHZ6aTJRd0l1WlRQSk5ObFdHMjVNUUJfZkUxMTlnZ2lZd1Q3YTJTakJnN0hXQW9TRlp2MXFRYjQ0dlpuS3JJTTYyaUw2RS1RRDR4VHByVDhUaV9lT0g4WWtTbEl4V2k0SVJEOXhGSVpuN1JrQUxuYTlueFh0R0VqYmo2VzhQU1liZVhSOGc?oc=5
   seen_at: '2026-10-21T00:38:32Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/openai-models-google-cloud
+  seen_at: '2026-10-22T00:42:46Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/
+  seen_at: '2026-10-22T00:42:46Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/
+  seen_at: '2026-10-22T00:42:46Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/
+  seen_at: '2026-10-22T00:42:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQMExFckU1d3lYUk1JRGdacDVnUm5Tb00waHR2NnZuOVI5dWdMbXNZMDY1NmZmcVdYeWMxWGJaZFplclNVODR0aWZFaklOTHhWbWR6WFNNWUtoOE9PLUJWY0VOSWtSdFhOTlV5OVA2cmlpLVJXaHBBcjVNa1ZBLU9fc3Ztd3lod08ycXVNMjRhQ1ptZUoyWXh3cjFn?oc=5
+  seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fYkRfUXFLSXRtdjQzbFpyUENqa0M4Z3c2NWxtVm84Mm1qSFlIRXU5cHp5TlFVYWpoZnkxX1hGY3RENzdMMWxtbGNhN0VOSk5VdGQxWlRCX0Q?oc=5
+  seen_at: '2026-10-22T00:42:55Z'
   metrics: {}
   kind: news
 ---

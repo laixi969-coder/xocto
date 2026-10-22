@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-10-21T00:38:25Z'
+last_seen: '2026-10-22T00:42:55Z'
 status: pending_filter
 sources:
 - producthunt
@@ -388,6 +388,21 @@ sightings:
 - source: marketfeeds
   url: https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/
   seen_at: '2026-10-21T00:38:25Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/
+  seen_at: '2026-10-22T00:42:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimgFBVV95cUxNT3ZHZ3d6dlM3WHM4YzV5dWE5UjQ4VTQtYUx0S2Myc0ppdDNvRXdmLTFPbzVxS29iWkZ6RUtRcDZ6NGNMUTBQZ3pzWTVsbXVzWDJ5bW8xWnZ4Z1VsV3YxempNcDY2NmhsYUEwYWZ1WTlfQ29OSF9VREFKTVN1REI2M2ZDZG43QkhVM2lZYWE2VFE3SmhqcDB5M0VR?oc=5
+  seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yaEZ3OGxGanpUNkEtWUIwQVZEck15VmJEMFVVYzlVeWVGTzQ2Q3dVam9NV2FTUllZdG5aelVoWTNfandsc1phVElTTTVodE5wZkR4Q1RQRm8?oc=5
+  seen_at: '2026-10-22T00:42:55Z'
   metrics: {}
   kind: news
 ---

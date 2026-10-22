@@ -20,17 +20,17 @@ url: https://www.bolkunov.com/p/on-ai-writing
 canonical_url: https://bolkunov.com/p/on-ai-writing
 summary: ''
 first_seen: '2026-10-21T00:37:59Z'
-last_seen: '2026-10-21T00:37:59Z'
+last_seen: '2026-10-22T00:42:20Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.bolkunov.com/p/on-ai-writing
-  seen_at: '2026-10-21T00:37:59Z'
+  seen_at: '2026-10-22T00:42:20Z'
   metrics:
-    points: 77
-    comments: 53
+    points: 92
+    comments: 60
   kind: news
 ---
 

@@ -8,3 +8,13 @@
   tier: behavioural
   fact: 'Security-hardened MCP server for Docker with read-only defaults, restart deny-lists, and secret
     redaction | repository stars: 52'
+- id: ev-11df441f89b0fc5a
+  project_slug: docker-mcp-guardian
+  url: https://github.com/SivaSaiKrishnaSuryadevara/docker-mcp-guardian
+  title: docker-mcp-guardian
+  published_at: '2026-10-05T20:34:19Z'
+  collected_at: '2026-10-22T00:42:25Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Security-hardened MCP server for Docker with read-only defaults, restart deny-lists, and secret
+    redaction | repository stars: 108'

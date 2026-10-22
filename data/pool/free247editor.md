@@ -34,17 +34,17 @@ canonical_url: https://github.com/riecodes/free247editor
 summary: Free, open-source personal AI video editor for Claude. Drop in a raw video, say "edit this",
   give notes in plain words.
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/riecodes/free247editor
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 93
-    forks: 28
+    stars: 110
+    forks: 35
     open_issues: 0
   kind: product
 ---

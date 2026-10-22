@@ -1,0 +1,120 @@
+{
+  "company": {
+    "city": "Oslo",
+    "country": "Norway",
+    "description": "Jenz is developing an AI-powered platform that helps retailers connect data across business systems, automate operational tasks and improve decision-making.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "5077AF06-E0A9-463E-B160-D69A110BEDB0",
+    "investors": [
+      "Ada Ventures",
+      "Antler",
+      "Innovation Norway"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Jenz",
+    "rounds": [
+      {
+        "amountEur": 92000,
+        "date": "2026-10-21T00:00:00.000Z",
+        "id": "E708F107-C7AF-45A0-BDA8-3D212C63230E",
+        "investors": [
+          "Innovation Norway"
+        ],
+        "stage": "Grant",
+        "url": "https://funding.tech.eu/deals/E708F107-C7AF-45A0-BDA8-3D212C63230E"
+      },
+      {
+        "amountEur": 540000,
+        "date": "2026-10-21T00:00:00.000Z",
+        "id": "88AE5EF1-4B06-49A7-B125-37AD90F09294",
+        "investors": [
+          "Ada Ventures",
+          "Antler"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/88AE5EF1-4B06-49A7-B125-37AD90F09294"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recent equity round, but funding momentum is down (may be rescue financing)"
+          }
+        ],
+        "score": 8
+      },
+      "heat": 45,
+      "raiseNext": {
+        "base": 45,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Down/flat last round"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 12
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 632000,
+    "url": "https://funding.tech.eu/companies/5077AF06-E0A9-463E-B160-D69A110BEDB0",
+    "website": "https://meetjenz.com/"
+  },
+  "round": {
+    "amountEur": 540000,
+    "amountEurStored": null,
+    "amountNative": 540000,
+    "company": {
+      "city": "Oslo",
+      "country": "Norway",
+      "founded": null,
+      "id": "5077AF06-E0A9-463E-B160-D69A110BEDB0",
+      "name": "Jenz",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-10-21",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "88AE5EF1-4B06-49A7-B125-37AD90F09294",
+    "investors": [
+      "Antler",
+      "Ada Ventures"
+    ],
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/88AE5EF1-4B06-49A7-B125-37AD90F09294"
+  }
+}

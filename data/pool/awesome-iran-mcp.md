@@ -44,17 +44,17 @@ canonical_url: https://github.com/sepehr071/awesome-iran-mcp
 summary: '19 open-source MCP servers (308 tools) that give AI agents the Iranian web: Digikala, Snappfood,
   Jabama, MrBilit, Paziresh24, Taaghche and more. Prices in Toman.'
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sepehr071/awesome-iran-mcp
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 135
-    forks: 14
+    stars: 144
+    forks: 16
     open_issues: 0
   kind: product
 ---

@@ -1,0 +1,28 @@
+- id: ev-da8fa9a3cd37968b
+  project_slug: openai-openai-python-v3360
+  url: https://github.com/openai/openai-python/releases/tag/v3.36.0
+  title: 'openai/openai-python: v3.36.0'
+  published_at: '2026-10-21T15:53:22Z'
+  collected_at: '2026-10-22T00:42:25Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## [3.36.0](https://github.com/openai/openai-python/compare/v3.35.1...v3.36.0) (2026-10-21)
+
+
+
+    ### Features
+
+
+    * add Vertex AI support for the Responses API ([#4139](https://github.com/openai/openai-python/issues/4139))
+    ([3e63d33](https://github.com/openai/openai-python/commit/3e63d33f6258f47285007aaee30df251d5127820))
+
+    * **api:** add 30-minute cache-write usage counts ([#4111](https://github.com/openai/openai-python/issues/4111))
+    ([5589146](https://github.com/openai/openai-python/commit/5589146d738e0c38758e117b8383a02c2e4e2ee7))
+
+    * **api:** add compaction trigger IDs ([#4122](https://github.com/openai/openai-python/issues/4122))
+    ([0e5794d](https://github.com/openai/openai-python/commit/0e5794dc48b8f8d51f6047f8a0b1814eb1e65850))
+
+    * **api:** add custom voice consent management ([#4135](https://github.com/openai/openai-python/issues/4135))
+    ([de6d70d](https://github.com/openai/openai-python/commit/de6d70d5c50ef1b9d3e5068b6e25ea52f447a8cb))
+
+    * **types:** prepare native synchronous WebSocket optio'

@@ -22,16 +22,16 @@ summary: 'A 1:1 fan port of Bully: Scholarship Edition to Unreal Engine 5 — 10
   Bring your own copy: 100% original code, zero game assets. Built with AI on a Mac in days. Talk to any
   NPC by voice; fight anyone. Not affiliated with Rockstar/Take-Two — buy the game, it rules.'
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/oh-ashen-one/bully-remake
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 43
+    stars: 49
     forks: 1
     open_issues: 0
   kind: product

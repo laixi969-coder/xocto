@@ -33,18 +33,18 @@ canonical_url: https://github.com/imrenagicom/adsctl
 summary: AI-agent-ready CLI for programmatic advertising. Manage Meta ad accounts, run deterministic monitoring,
   generate insights reports, and execute recoverable campaign launches via shell or AI agents.
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/imrenagicom/adsctl
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
     stars: 64
     forks: 5
-    open_issues: 2
+    open_issues: 4
   kind: product
 ---
 

@@ -29,18 +29,18 @@ canonical_url: https://conchagent.com
 summary: '🐚 The AI assistant that just works. One self-hosted app for every model you already pay for:
   Claude Code, Codex, Copilot, Gemini, Ollama and more. Chat from your desktop, phone or Telegram.'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://conchagent.com
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 99
-    forks: 2
-    open_issues: 2
+    stars: 114
+    forks: 7
+    open_issues: 1
   kind: product
 ---
 

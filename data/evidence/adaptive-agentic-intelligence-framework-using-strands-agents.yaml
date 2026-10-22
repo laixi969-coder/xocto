@@ -1,0 +1,18 @@
+- id: ev-cad1ad65c38cd300
+  project_slug: adaptive-agentic-intelligence-framework-using-strands-agents
+  url: https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/
+  title: Adaptive agentic intelligence framework using Strands Agents
+  published_at: '2026-10-21T21:23:26Z'
+  collected_at: '2026-10-22T00:42:46Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Organizations building AI agents face a common challenge: Every request, whether a routine status
+    check or complex analysis, typically gets routed to a single large, expensive model. This one-size-fits-all
+    approach can drive up API costs, introduce unpredictable latency, and remove the possibility of offline
+    operation. Even routine queries that could resolve locally end up requiring a full network round-trip
+    to a cloud-hosted large language model (LLM). The Adaptive Agentic Intelligence Framework (AAIF),
+    built with Strands Agents, takes a different approach. Instead of routing all requests to a single
+    large model, AAIF uses small language models (SLMs) to handle routine tasks locally. More complex
+    requests are routed to cloud-hosted models through Amazon Bedrock . This approach builds on the research
+    position from Belcak et al. at NVIDIA . They argue that small language models are “sufficiently powerful,
+    inherently more suitable, and necessarily more economical for many invocations in'

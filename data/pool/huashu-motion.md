@@ -33,18 +33,18 @@ canonical_url: https://github.com/alchaincyf/huashu-motion
 summary: 让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at
   the frame to change it.
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/alchaincyf/huashu-motion
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 1149
-    forks: 118
-    open_issues: 0
+    stars: 1272
+    forks: 126
+    open_issues: 2
   kind: product
 ---
 

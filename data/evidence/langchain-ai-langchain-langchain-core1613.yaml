@@ -1,0 +1,16 @@
+- id: ev-dde53edc7c60016c
+  project_slug: langchain-ai-langchain-langchain-core1613
+  url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13
+  title: 'langchain-ai/langchain: langchain-core==1.6.13'
+  published_at: '2026-10-21T20:43:48Z'
+  collected_at: '2026-10-22T00:42:25Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Changes since langchain-core==1.6.12
+
+
+    release(core): 1.6.13 (#41397)
+
+    chore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/core (#41373)
+
+    feat(core,langchain,standard-tests): read `tool-call-delta` in stream consumers (#41246)'

@@ -30,7 +30,7 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Enabler stage). An
   or that same 92% of the cohort’s total. Anthropic added $34.5 billion in debt financing in June, not
   to build a bigger model, but specifically to buy the compute it needs to serve paying customers.
 first_seen: '2026-10-10T01:56:49Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: market_context
 sources:
 - ia40
@@ -45,11 +45,11 @@ sightings:
   kind: product
 - source: github
   url: https://www.anthropic.com/engineering/redesigning-source-control
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 1269
-    forks: 123
-    open_issues: 1
+    stars: 916
+    forks: 83
+    open_issues: 4
   kind: product
 ---
 

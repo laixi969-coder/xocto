@@ -20,7 +20,7 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-10-15T00:32:05Z'
+last_seen: '2026-10-22T00:42:20Z'
 status: pending_filter
 sources:
 - hackernews
@@ -100,6 +100,13 @@ sightings:
   metrics:
     points: 74
     comments: 17
+  kind: news
+- source: hackernews
+  url: https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/
+  seen_at: '2026-10-22T00:42:20Z'
+  metrics:
+    points: 45
+    comments: 6
   kind: news
 ---
 

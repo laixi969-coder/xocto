@@ -30,17 +30,17 @@ url: https://github.com/lmliheng/Adelie
 canonical_url: https://github.com/lmliheng/Adelie
 summary: A local-first multi-agent app development platform, built on PenguinHarness
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-14T01:14:00Z'
+last_seen: '2026-10-22T00:42:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lmliheng/Adelie
-  seen_at: '2026-10-14T01:14:00Z'
+  seen_at: '2026-10-22T00:42:25Z'
   metrics:
-    stars: 45
-    forks: 2
+    stars: 123
+    forks: 0
     open_issues: 17
   kind: product
 ---

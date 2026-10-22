@@ -20,8 +20,8 @@ url: https://games.yanisfalaki.com/
 canonical_url: https://games.yanisfalaki.com
 summary: Two browser games set inside one real Gaussian-splat scan
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-16T00:25:40Z'
-status: rejected
+last_seen: '2026-10-22T00:42:47Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -46,6 +46,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/
   seen_at: '2026-10-16T00:25:40Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/10/21/mika-games-gets-10m-boost-to-support-mobile-game-developers/
+  seen_at: '2026-10-22T00:42:47Z'
   metrics: {}
   kind: news
 ---
