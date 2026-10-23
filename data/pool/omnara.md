@@ -20,17 +20,17 @@ url: https://github.com/omnara-ai/omnara
 canonical_url: https://github.com/omnara-ai/omnara
 summary: Open-Source Alternative to Claude Managed Agents
 first_seen: '2026-10-22T00:42:20Z'
-last_seen: '2026-10-22T00:42:20Z'
+last_seen: '2026-10-23T00:40:52Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/omnara-ai/omnara
-  seen_at: '2026-10-22T00:42:20Z'
+  seen_at: '2026-10-23T00:40:52Z'
   metrics:
-    points: 19
-    comments: 6
+    points: 108
+    comments: 33
   kind: product
 ---
 

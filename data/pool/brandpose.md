@@ -34,17 +34,17 @@ canonical_url: https://github.com/escudero/brandpose
 summary: 'Personal project: where shoppers look, estimated from an ordinary security camera and open source
   AI (YOLO11, Gaze-LLE, Depth Anything V2)'
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/escudero/brandpose
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 162
-    forks: 37
+    stars: 170
+    forks: 39
     open_issues: 0
   kind: product
 ---

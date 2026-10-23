@@ -20,7 +20,7 @@ url: https://openai.com/index/scaling-ai-research-for-complex-biological-data/
 canonical_url: https://openai.com/index/scaling-ai-research-for-complex-biological-data
 summary: Using thousands of AI agents to uncover new leads in biological data
 first_seen: '2026-10-22T00:42:20Z'
-last_seen: '2026-10-22T00:42:46Z'
+last_seen: '2026-10-23T00:40:52Z'
 status: pending_filter
 sources:
 - hackernews
@@ -28,10 +28,10 @@ sources:
 sightings:
 - source: hackernews
   url: https://openai.com/index/scaling-ai-research-for-complex-biological-data/
-  seen_at: '2026-10-22T00:42:20Z'
+  seen_at: '2026-10-23T00:40:52Z'
   metrics:
-    points: 129
-    comments: 81
+    points: 155
+    comments: 104
   kind: news
 - source: officialfeeds
   url: https://openai.com/index/scaling-ai-research-for-complex-biological-data

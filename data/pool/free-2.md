@@ -20,7 +20,7 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-10-22T00:42:55Z'
+last_seen: '2026-10-23T00:41:16Z'
 status: pending_filter
 sources:
 - hackernews
@@ -155,6 +155,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi-gFBVV95cUxOaV9xYUVoRlJDREJ3X0lqaDdBM3l4WjRSYTk4N1Bzc3prZkROS0pOU1MtUDlZdThTRENzT1JFUEhKRVZKbWF5VVpUNFNMQWVlU3BxbmYwd3NzUWEtNFkwQTRxMTQxWTlPeWVId2NSaHhZcEJieGNITm1VZWJWMFQwbGVSenZ5Qmx6UkgtMkE4M2JVMk9KcTk2R1dsZ3Z4Tk9HY0FHUWwxZWNiWXh3bWNkSkE5RG53NFhtcnZwb0E1aERjWG40dXhhZ1VidEFsMFRrc041ZHdhMzN0VW9fTnc1Wng0MmVxdnljc1d4cDVpSVhydWhnNlZZU09R0gH6AUFVX3lxTE5pX3FhRWhGUkNEQndfSWpoN0EzeXhaNFJhOTg3UHNzemtmRE5LSk5TUy1QOVl1OFNEQ3NPUkVQSEpFVkptYXlVWlQ0U0xBZWVTcHFuZjB3c3NRYS00WTBBNHExNDFZOU95ZUh3Y1JoeFlwQmJ4Y0hObVVlYlYwVDBsZVJ6dnlCbHpSSC0yQTgzYlUyT0pxOTZHV2xndnhOT0djQUdRbDFlY2JZeHdtY2RKQTlEbnc0WG1ydnBvQTVoRGNYbjR1eGFnVWJ0QWwwVGtzTjVkd2EzM3RVb19OdzVaeDQyZXF2eWNzV3hwNWlJWHJ1aGc2VllTT1E?oc=5
   seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro
+  seen_at: '2026-10-23T00:41:16Z'
   metrics: {}
   kind: news
 ---

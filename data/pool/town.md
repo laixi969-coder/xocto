@@ -20,7 +20,7 @@ url: https://town.com/
 canonical_url: https://town.com
 summary: Named to Madrona's 2026 Intelligent Applications 40 (Mid stage).
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-10-20T01:07:01Z'
+last_seen: '2026-10-23T00:41:23Z'
 status: pending_filter
 sources:
 - ia40
@@ -52,6 +52,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidkFVX3lxTFBham1CV0VPeTZ4cjJvbi1KcUZrOFI2WV9PZHdJQ1FadG1IcUd0YW9ZOGhiWm5rd1h2UER2YzA1ZE4yLW50YTUtM01EZXh1S1YtdWZYaEFxZE5oOUVhQU5ONHhkM0pSXzJrOUZ2YldBOU52OXdNX0E?oc=5
   seen_at: '2026-10-20T01:07:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOY1FIT3B1T2VpLWhnWTlVU1RKWkNsTEh6OGJ6aXltYkRHLWVmamlib2lWeWUtTHZKbnAyeWFBVVBGWkdyVWt2S01XWVktQlNkV3BNT1U1MUVzbWFnZkdwV3l4RmtfVHVqdFpiblowMkd1MjhrZjhKeGZrLUVNaUh2OFE2b1FlVXU5R1ZEcjRZQUNrcWhCLVNoc2EyNGQ2Ym05Q21BbUxSZzFrclhMYjVjT0Nn?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
   metrics: {}
   kind: news
 ---

@@ -20,17 +20,17 @@ url: https://qerssd.github.io/HowToAvoidScams/
 canonical_url: https://qerssd.github.io/HowToAvoidScams
 summary: 人间防骗指南：373 篇骗局拆解，覆盖刷单、杀猪盘、AI 换脸、养老诈骗等 16 类；附真实案例报道、生活自查清单、PDF/EPUB/Anki 下载，还有 12 局防骗小游戏
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://qerssd.github.io/HowToAvoidScams/
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 48
-    forks: 4
+    stars: 64
+    forks: 6
     open_issues: 0
   kind: product
 ---

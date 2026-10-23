@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUs0SDNWSjRTUGQxWWNGel
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUs0SDNWSjRTUGQxWWNGelpPX3cxUThHRUc1ZUh4RnpEUGw5SmZKcldHcW5UcDRqUDdOdlY0OEZQV25TYWgzMEpReXNueXprQXlwY0VaRThkUFRTZ3lWZXRWZ0Fxd3VsOFlCNHVCYkxrUEdqUnJPVjNORTltRWdRejR0RlZGbkJG?oc=5
 summary: 重磅发布！新致软件“保险新一代 AI 原生架构” 搜狐
 first_seen: '2026-10-20T01:07:01Z'
-last_seen: '2026-10-20T01:07:01Z'
+last_seen: '2026-10-23T00:41:23Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUs0SDNWSjRTUGQxWWNGelpPX3cxUThHRUc1ZUh4RnpEUGw5SmZKcldHcW5UcDRqUDdOdlY0OEZQV25TYWgzMEpReXNueXprQXlwY0VaRThkUFRTZ3lWZXRWZ0Fxd3VsOFlCNHVCYkxrUEdqUnJPVjNORTltRWdRejR0RlZGbkJG?oc=5
   seen_at: '2026-10-20T01:07:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE9IOC0wajJSeDZyZFlKcVFCLUZDWU02ZFdNMVhMVEZLY1BsdE5tNURrZVlBUTZtbm1zZ0JQWWpGUHUzNEZjR1RoZGxtd1ZySGJqWWNObG02LW9kU0VyZnhfYTRxc0VqYUExbmFRRUc1SEdnR1hhWXc?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
   metrics: {}
   kind: news
 ---

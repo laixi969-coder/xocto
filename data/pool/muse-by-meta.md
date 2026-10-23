@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-10-22T00:42:55Z'
+last_seen: '2026-10-23T00:41:23Z'
 status: pending_filter
 sources:
 - producthunt
@@ -403,6 +403,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yaEZ3OGxGanpUNkEtWUIwQVZEck15VmJEMFVVYzlVeWVGTzQ2Q3dVam9NV2FTUllZdG5aelVoWTNfandsc1phVElTTTVodE5wZkR4Q1RQRm8?oc=5
   seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts
+  seen_at: '2026-10-23T00:41:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network
+  seen_at: '2026-10-23T00:41:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWEx1dzZ3WUpXSnp1a3dNMFhOVU5FX3luenZBU3FtVXlqLVRMdjlKNlJRdVBVYUdHYUc0eG9WX3IzQlpYR3J4Y3hHSkFHekRBODltYVVXb0VSU2JNbjJyNWpFbmsydGI5T1lyYlpIeU44Z1JhU042Y2hnM2FoZ2ZpNktmTWJreHRLQ0gyWS1zbXM2MGtSUzFyYlk3T1JSbEE1SFpzS1VhVEdmVFd5d25scTBYOFhZd08wYmtZeHVjRHdLTUJZV1RXOGRzU21VRHRhckUwUGpsWWM?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigAFBVV95cUxNeExmUzdTeTkzSE53UEpodktfVjU1X25kZVlkMFVxOEpSVFdwUVpRYldURlEyRzBZT1NfeFJiYmZiSnU4QzBYNjFWdF9OWGZxdEI5d3pxNkJhRXpXbVpyYzM0cGFSeldNTXFrYy1kYi0zSV80RzBMZXVMTG1KWkItOA?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
   metrics: {}
   kind: news
 ---

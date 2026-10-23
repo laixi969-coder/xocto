@@ -1,0 +1,19 @@
+- id: ev-c675805e77feac87
+  project_slug: stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemak
+  url: https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/
+  title: Stop guessing auto scaling targets for TTS on Amazon SageMaker AI
+  published_at: '2026-10-22T16:30:06Z'
+  collected_at: '2026-10-23T00:41:16Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: A traffic spike hits your self-hosted text-to-speech (TTS) endpoint, and requests start queueing.
+    Latency climbs past your service level objective (SLO) right when the most callers are listening.
+    The auto scaling policy behind that endpoint was supposed to prevent this, but the target value it
+    scales on was a guess, and guesses like that fail silently until real traffic proves them wrong. Get
+    that number wrong, and it’s paid for in one of two ways, and neither shows up as an alarm. Guess too
+    conservative, and the fleet runs GPU instances that sit mostly idle. That cost lands on every invoice
+    but never trips an incident report. Guess too aggressive, and the fleet carries a risk nobody sees.
+    Each instance holds more concurrent requests than it can serve inside its latency promise. Nothing
+    looks wrong until a real traffic spike pushes queueing time past the SLO. That happens right when
+    the most callers are listening. That’s the hidden gap. A policy that looks fine on the console can
+    alrea

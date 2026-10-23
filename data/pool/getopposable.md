@@ -20,17 +20,17 @@ url: https://getopposable.com/blog/computer-use-on-the-phone
 canonical_url: https://getopposable.com/blog/computer-use-on-the-phone
 summary: 'Computer use on the phone itself: a 2B model that operates Android apps'
 first_seen: '2026-10-22T00:42:20Z'
-last_seen: '2026-10-22T00:42:20Z'
+last_seen: '2026-10-23T00:40:52Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://getopposable.com/blog/computer-use-on-the-phone
-  seen_at: '2026-10-22T00:42:20Z'
+  seen_at: '2026-10-23T00:40:52Z'
   metrics:
-    points: 12
-    comments: 2
+    points: 15
+    comments: 4
   kind: news
 ---
 

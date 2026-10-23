@@ -21,16 +21,16 @@ canonical_url: https://github.com/tomtomsatnav/agent-orchestration-standard
 summary: 'A live, local-first dashboard for Claude Code sessions: project graph of agents, tokens, tool
   feed, replay, alerts. Plugin + terminal UI + MCP server. Includes the AOS-1 agent orchestration spec.'
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tomtomsatnav/agent-orchestration-standard
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 71
+    stars: 72
     forks: 10
     open_issues: 0
   kind: product

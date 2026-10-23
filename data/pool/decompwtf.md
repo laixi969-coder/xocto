@@ -36,17 +36,17 @@ canonical_url: https://decomp.wtf
 summary: 'What The Function: your AI agent decompiles games you own into C that compiles to the exact
   same bytes. Runs locally.'
 first_seen: '2026-10-15T00:32:09Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://decomp.wtf
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
     stars: 533
-    forks: 300
+    forks: 311
     open_issues: 0
   kind: product
 ---

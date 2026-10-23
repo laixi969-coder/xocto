@@ -20,17 +20,17 @@ url: https://rustoffrails.org/
 canonical_url: https://rustoffrails.org
 summary: The opinionated web stack for the AI era
 first_seen: '2026-10-22T00:42:20Z'
-last_seen: '2026-10-22T00:42:20Z'
+last_seen: '2026-10-23T00:40:52Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://rustoffrails.org/
-  seen_at: '2026-10-22T00:42:20Z'
+  seen_at: '2026-10-23T00:40:52Z'
   metrics:
-    points: 67
-    comments: 74
+    points: 75
+    comments: 76
   kind: news
 ---
 

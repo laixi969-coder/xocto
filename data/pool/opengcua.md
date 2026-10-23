@@ -32,18 +32,18 @@ canonical_url: https://tongyi-mai.github.io/OpenGCUA
 summary: An open-source stack for generalist computer-use agents, combining code execution, GUI interaction,
   and cross-device control.
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://tongyi-mai.github.io/OpenGCUA/
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 399
-    forks: 31
-    open_issues: 2
+    stars: 432
+    forks: 37
+    open_issues: 0
   kind: product
 ---
 

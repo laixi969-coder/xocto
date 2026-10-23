@@ -1,0 +1,41 @@
+---
+slug: women-led-indian-ai-startup-bharatai-becomes-a-case-study-on
+name: Women-led Indian AI startup BharatAI becomes a case study on Harvard’s platform
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNQkg4WGtvLWxfRzdTNDNpOWgyb1dZRDZVaFN4dDR4SGNvYVh4OFZUMHVOX1BoZVd5cGlmc09BODU2YTlKcnJEcmVDLVZVdF9aSV93NjJXMzdwblNHZVlnaTd3bjFZMHlRaHZwUzVXbHdiU3dLUklldXNGOXdJY1ZLVVRjZ3hybzBwdGdvNUxmanhQMkIwTzNiNE15aDZBSjNYZV9yaGh5WjZnaTVZdy1waDhnMmJrLTBocUp1VWZWTdIBwwFBVV95cUxNZHN2NTMxbS13MmptWmkzeTNVU21zTmc5X1hjdUxpNjdNa0Nfc2tOTkd1LVRVU2hEQ3ltSWtRTlVRYk41aXVhMUVJRUhvdXdzZ1pKaGpWbmpsd3kzbXAzc1liR3dNOWhiZ2VDRTlGdEgyRWJtdEt1eTFMZEVYYnQ0Z2NHUEc1RklCS0RDbEU0UjlKell5eFB1RUhURkxwSkw5czRjRnQtb0RzajQ0cXQ5Rjhnd3M5MUNtZXBZV2FHWVhZb2s?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNQkg4WGtvLWxfRzdTNDNpOWgyb1dZRDZVaFN4dDR4SGNvYVh4OFZUMHVOX1BoZVd5cGlmc09BODU2YTlKcnJEcmVDLVZVdF9aSV93NjJXMzdwblNHZVlnaTd3bjFZMHlRaHZwUzVXbHdiU3dLUklldXNGOXdJY1ZLVVRjZ3hybzBwdGdvNUxmanhQMkIwTzNiNE15aDZBSjNYZV9yaGh5WjZnaTVZdy1waDhnMmJrLTBocUp1VWZWTdIBwwFBVV95cUxNZHN2NTMxbS13MmptWmkzeTNVU21zTmc5X1hjdUxpNjdNa0Nfc2tOTkd1LVRVU2hEQ3ltSWtRTlVRYk41aXVhMUVJRUhvdXdzZ1pKaGpWbmpsd3kzbXAzc1liR3dNOWhiZ2VDRTlGdEgyRWJtdEt1eTFMZEVYYnQ0Z2NHUEc1RklCS0RDbEU0UjlKell5eFB1RUhURkxwSkw5czRjRnQtb0RzajQ0cXQ5Rjhnd3M5MUNtZXBZV2FHWVhZb2s?oc=5
+summary: Women-led Indian AI startup BharatAI becomes a case study on Harvard’s platform The Tribune
+first_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-23T00:41:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxNQkg4WGtvLWxfRzdTNDNpOWgyb1dZRDZVaFN4dDR4SGNvYVh4OFZUMHVOX1BoZVd5cGlmc09BODU2YTlKcnJEcmVDLVZVdF9aSV93NjJXMzdwblNHZVlnaTd3bjFZMHlRaHZwUzVXbHdiU3dLUklldXNGOXdJY1ZLVVRjZ3hybzBwdGdvNUxmanhQMkIwTzNiNE15aDZBSjNYZV9yaGh5WjZnaTVZdy1waDhnMmJrLTBocUp1VWZWTdIBwwFBVV95cUxNZHN2NTMxbS13MmptWmkzeTNVU21zTmc5X1hjdUxpNjdNa0Nfc2tOTkd1LVRVU2hEQ3ltSWtRTlVRYk41aXVhMUVJRUhvdXdzZ1pKaGpWbmpsd3kzbXAzc1liR3dNOWhiZ2VDRTlGdEgyRWJtdEt1eTFMZEVYYnQ0Z2NHUEc1RklCS0RDbEU0UjlKell5eFB1RUhURkxwSkw5czRjRnQtb0RzajQ0cXQ5Rjhnd3M5MUNtZXBZV2FHWVhZb2s?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+---
+
+# Women-led Indian AI startup BharatAI becomes a case study on Harvard’s platform
+
+Women-led Indian AI startup BharatAI becomes a case study on Harvard’s platform The Tribune
+
+## 笔记
+
+

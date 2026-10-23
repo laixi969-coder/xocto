@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-10-21T00:38:23Z'
+last_seen: '2026-10-23T00:41:23Z'
 status: pending_filter
 sources:
 - hackernews
@@ -175,6 +175,16 @@ sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/
   seen_at: '2026-10-21T00:38:23Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/
+  seen_at: '2026-10-23T00:41:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigAFBVV95cUxOOXpKaDl3My1XVmpOZUllRGZITXd5aHNSMHZYODRJYjljZUdKSzNrMjFXcjFwREZ3VzR3QkhnTVB0eUYxVXpIM2hKa3FCakswLXNTZEJsaFZKOXg0MklSb0t2RzRiRzd6cWFvWUYwMTlpUjRWeW9BSTJ2NlZ4SUpHdA?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
   metrics: {}
   kind: news
 ---

@@ -20,17 +20,17 @@ url: https://elk.zone/m.webtoo.ls/@elise@katze.sh/117479383721672027
 canonical_url: https://elk.zone/m.webtoo.ls/@elise@katze.sh/117479383721672027
 summary: Potential third critical PHP CVE
 first_seen: '2026-10-22T00:42:20Z'
-last_seen: '2026-10-22T00:42:20Z'
+last_seen: '2026-10-23T00:40:52Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://elk.zone/m.webtoo.ls/@elise@katze.sh/117479383721672027
-  seen_at: '2026-10-22T00:42:20Z'
+  seen_at: '2026-10-23T00:40:52Z'
   metrics:
-    points: 56
-    comments: 16
+    points: 70
+    comments: 17
   kind: news
 ---
 

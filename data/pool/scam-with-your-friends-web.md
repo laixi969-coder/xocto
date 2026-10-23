@@ -34,18 +34,18 @@ canonical_url: https://scam.gamefun.world
 summary: 'Scam With Your Friends Web: unofficial open-source browser remake. Co-op AI call center game
   with a 3D office, voice chat and daily quotas. React + Three.js; self-host on Cloudflare.'
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://scam.gamefun.world
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
     stars: 239
     forks: 21
-    open_issues: 7
+    open_issues: 8
   kind: product
 ---
 

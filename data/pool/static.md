@@ -20,8 +20,8 @@ url: https://static.laszlokorte.de/rotor-reflect/
 canonical_url: https://static.laszlokorte.de/rotor-reflect
 summary: Rotation via Double Reflection
 first_seen: '2026-08-21T17:18:06Z'
-last_seen: '2026-09-11T00:10:51Z'
-status: rejected
+last_seen: '2026-10-23T00:41:16Z'
+status: pending_filter
 sources:
 - hackernews
 - officialfeeds
@@ -36,6 +36,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn
   seen_at: '2026-09-11T00:10:51Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/blog/death-to-long-lived-static-credentials
+  seen_at: '2026-10-23T00:41:16Z'
   metrics: {}
   kind: news
 ---

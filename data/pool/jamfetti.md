@@ -20,17 +20,17 @@ url: https://jamfetti.boondoggle.studio/
 canonical_url: https://jamfetti.boondoggle.studio
 summary: I created instruments for people who have no idea how to play one
 first_seen: '2026-10-22T00:42:20Z'
-last_seen: '2026-10-22T00:42:20Z'
+last_seen: '2026-10-23T00:40:52Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://jamfetti.boondoggle.studio/
-  seen_at: '2026-10-22T00:42:20Z'
+  seen_at: '2026-10-23T00:40:52Z'
   metrics:
-    points: 7
-    comments: 7
+    points: 10
+    comments: 10
   kind: product
 ---
 

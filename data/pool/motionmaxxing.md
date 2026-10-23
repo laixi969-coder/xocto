@@ -37,17 +37,17 @@ canonical_url: https://github.com/Tejashmakwana/motionmaxxing
 summary: Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look
   made by a motion designer.
 first_seen: '2026-10-06T18:18:49Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Tejashmakwana/motionmaxxing
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 958
-    forks: 88
+    stars: 986
+    forks: 92
     open_issues: 1
   kind: product
 ---

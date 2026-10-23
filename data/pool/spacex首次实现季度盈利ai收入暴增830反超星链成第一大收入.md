@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3JEcVBPTGFfcUxoUHBXVX
 canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3JEcVBPTGFfcUxoUHBXVXJfa3dtWUpTUmNaNTdtd2RVTWlYenJKX3FkUVdFRlBudFo4WHRfdjVoMG0wSWZ6MHdUOXdFWklaN2RDR2R0aGJ1SFkwYWVQY0hYWUNwdzZ4aFFMWEF4Z25EbzN4MnBkcHR5SmlEYk9GUUlJaw?oc=5
 summary: SpaceX首次实现季度盈利：AI收入暴增830%反超星链成第一大收入 新浪网
 first_seen: '2026-10-22T00:42:55Z'
-last_seen: '2026-10-22T00:42:55Z'
+last_seen: '2026-10-23T00:41:23Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3JEcVBPTGFfcUxoUHBXVXJfa3dtWUpTUmNaNTdtd2RVTWlYenJKX3FkUVdFRlBudFo4WHRfdjVoMG0wSWZ6MHdUOXdFWklaN2RDR2R0aGJ1SFkwYWVQY0hYWUNwdzZ4aFFMWEF4Z25EbzN4MnBkcHR5SmlEYk9GUUlJaw?oc=5
   seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbUk4N3JpUEFXZjE5QkNqWXpsVVI2RDBLNDJ4T2tOUXVNLW5vTmplRFE2Z3ZfUkhSTXg4dUpxaFJrTG4xM3JOMEVMM183QmpGcVhCdHdn?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
   metrics: {}
   kind: news
 ---

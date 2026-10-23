@@ -20,18 +20,18 @@ url: https://github.com/Ebony-Vinyl/EAC-design-world
 canonical_url: https://github.com/Ebony-Vinyl/EAC-design-world
 summary: DeepSeek Harness 本地视频制作与设计插件：多轨剪辑、模板与设计体系、原生预览画布和真实文件导出
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Ebony-Vinyl/EAC-design-world
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 87
-    forks: 5
-    open_issues: 1
+    stars: 118
+    forks: 11
+    open_issues: 2
   kind: product
 ---
 

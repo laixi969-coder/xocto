@@ -29,16 +29,16 @@ summary: "<p align=\"center\"><img width=\"160\" alt=\"flint-logo\" src=\"https:
   \ run flint\r\n```\r\n\r\n\r\nNote: Flint is supported on MacOS.  Other GPU support will be enabled\
   \ in a subsequent release.\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.7...v0.40.8"
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.40.8
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    reactions: 18
+    reactions: 28
   kind: news
 ---
 

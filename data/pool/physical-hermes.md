@@ -35,17 +35,17 @@ summary: Physical Hermes - Give your Hermes Agent a body.  This turns a cheap Al
   into a voice device for Hermes Agent — running entirely on your own machine, using your own model, with
   no vendor cloud in the loop.
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/RegeneratusLabs/physical-hermes
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 77
-    forks: 10
+    stars: 81
+    forks: 11
     open_issues: 1
   kind: product
 ---

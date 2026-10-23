@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQRU1GWWpfS1hoUTEta0FqOW
 canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQRU1GWWpfS1hoUTEta0FqOWFxYkZRd0JZdHJBc21ERktNS3djRDQxdldtRkVWblFpLUNMLV9LalU5d243U2hGR2d6NnM1WmZFQ2dLcHlLaXZBdFFGc2FtQ3ZtZDJtZzNRSXJ5aHkxTHpPLURTS3VvTWhRTHZpOTU3RXpDR3ZQQ3pfMzFhWGlKQjJ2UGNhSWtmYk9aYk9aTWV6a3pGenFOT2ZjSHdkS2Rn?oc=5
 summary: Legal AI startup Legora raises $550M at $8.8B to change the face of the law SiliconANGLE
 first_seen: '2026-10-22T00:42:55Z'
-last_seen: '2026-10-22T00:42:55Z'
+last_seen: '2026-10-23T00:41:23Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQRU1GWWpfS1hoUTEta0FqOWFxYkZRd0JZdHJBc21ERktNS3djRDQxdldtRkVWblFpLUNMLV9LalU5d243U2hGR2d6NnM1WmZFQ2dLcHlLaXZBdFFGc2FtQ3ZtZDJtZzNRSXJ5aHkxTHpPLURTS3VvTWhRTHZpOTU3RXpDR3ZQQ3pfMzFhWGlKQjJ2UGNhSWtmYk9aYk9aTWV6a3pGenFOT2ZjSHdkS2Rn?oc=5
   seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUF9vUzh5d1V5Zjk5NmdOMTBWeXNYSW9JaDZHZ0M0N3VRaHlhTzE0UEM5WGt5R3NFNEdDZk8tMzFPaUotc01QdnR1SG92Z1pfc1ljcFJ0T1BONFFjMzRZMFNVdWpsRHZMRk80aHcxWXVrMDV3UEZBWkYxMXJEdTNoNDRsaEtBVGYtZDJwQ2UzamJxNGlya1B2QXR1cnViMXIzUExPSDhITlJKQQ?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
   metrics: {}
   kind: news
 ---

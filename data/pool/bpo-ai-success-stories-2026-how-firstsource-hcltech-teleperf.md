@@ -1,0 +1,43 @@
+---
+slug: bpo-ai-success-stories-2026-how-firstsource-hcltech-teleperf
+name: 'BPO AI Success Stories 2026: How Firstsource, HCLTech, Teleperformance and Others Achieved Productivity
+  Gains and Cost Savings'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcmpSZkxFV3VNTVFqR3JJQkE4UTY2TmthWnFGSi1iV3UtU3Nsd2Z3dWFQaW1zcGRCV1otOEt5Wk0yRUE4b1RyTU9wc3FPcmc2cDM1LTZmOWlRQS1PWVZUdG9ibFRkUDRIQU9NakRJeEhTc0JpNm9RN1RXWHVEVHRuZFViV2pqNkMyNlcwNmFHZDJGd0M1S09wN1BSNnl0X3Z1WWhWbDFHUjgzNjVhWkNpaVZQS1hDSURlRDdSYVdVMWQ4R3JzQ3ZmRGtsTVdHc29FRkpSUm5wSVpNcXUyYjlnTGZtLVF6R2hFSUJDNVBrQdIB9wFBVV95cUxNTC1nUTZsN1c4WmZ6c1h4NkY5S2U2VjJoWk1pbno1MnFLa3d2OFVWU1A1eGVPblNuVFNuVF95aHlkZzFsWloxenhtb2Vxb3FkamhyaDNuazItdnFGV3JMNHV2WXdLcXNmWVkxR0c5eS1tUEQtVG9LV2pOMXp3dDlmM1B0X01ySHpkb0ZhVlpEWlBUYUFCSVRDRnNTWlgwb21jRGQ4MU9oTXpMTDNTNnR3OXdkeFE5ZWNkR3c0Nk50ZlkxbWRqMXktSzdGY3JfQktwSnhKTm1KWUdJeHg2dzR3YXh3Um9kR00taGxlUjNRMDJaRm5oWWdN?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcmpSZkxFV3VNTVFqR3JJQkE4UTY2TmthWnFGSi1iV3UtU3Nsd2Z3dWFQaW1zcGRCV1otOEt5Wk0yRUE4b1RyTU9wc3FPcmc2cDM1LTZmOWlRQS1PWVZUdG9ibFRkUDRIQU9NakRJeEhTc0JpNm9RN1RXWHVEVHRuZFViV2pqNkMyNlcwNmFHZDJGd0M1S09wN1BSNnl0X3Z1WWhWbDFHUjgzNjVhWkNpaVZQS1hDSURlRDdSYVdVMWQ4R3JzQ3ZmRGtsTVdHc29FRkpSUm5wSVpNcXUyYjlnTGZtLVF6R2hFSUJDNVBrQdIB9wFBVV95cUxNTC1nUTZsN1c4WmZ6c1h4NkY5S2U2VjJoWk1pbno1MnFLa3d2OFVWU1A1eGVPblNuVFNuVF95aHlkZzFsWloxenhtb2Vxb3FkamhyaDNuazItdnFGV3JMNHV2WXdLcXNmWVkxR0c5eS1tUEQtVG9LV2pOMXp3dDlmM1B0X01ySHpkb0ZhVlpEWlBUYUFCSVRDRnNTWlgwb21jRGQ4MU9oTXpMTDNTNnR3OXdkeFE5ZWNkR3c0Nk50ZlkxbWRqMXktSzdGY3JfQktwSnhKTm1KWUdJeHg2dzR3YXh3Um9kR00taGxlUjNRMDJaRm5oWWdN?oc=5
+summary: 'BPO AI Success Stories 2026: How Firstsource, HCLTech, Teleperformance and Others Achieved Productivity
+  Gains and Cost Savings InfotechLead'
+first_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-23T00:41:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcmpSZkxFV3VNTVFqR3JJQkE4UTY2TmthWnFGSi1iV3UtU3Nsd2Z3dWFQaW1zcGRCV1otOEt5Wk0yRUE4b1RyTU9wc3FPcmc2cDM1LTZmOWlRQS1PWVZUdG9ibFRkUDRIQU9NakRJeEhTc0JpNm9RN1RXWHVEVHRuZFViV2pqNkMyNlcwNmFHZDJGd0M1S09wN1BSNnl0X3Z1WWhWbDFHUjgzNjVhWkNpaVZQS1hDSURlRDdSYVdVMWQ4R3JzQ3ZmRGtsTVdHc29FRkpSUm5wSVpNcXUyYjlnTGZtLVF6R2hFSUJDNVBrQdIB9wFBVV95cUxNTC1nUTZsN1c4WmZ6c1h4NkY5S2U2VjJoWk1pbno1MnFLa3d2OFVWU1A1eGVPblNuVFNuVF95aHlkZzFsWloxenhtb2Vxb3FkamhyaDNuazItdnFGV3JMNHV2WXdLcXNmWVkxR0c5eS1tUEQtVG9LV2pOMXp3dDlmM1B0X01ySHpkb0ZhVlpEWlBUYUFCSVRDRnNTWlgwb21jRGQ4MU9oTXpMTDNTNnR3OXdkeFE5ZWNkR3c0Nk50ZlkxbWRqMXktSzdGY3JfQktwSnhKTm1KWUdJeHg2dzR3YXh3Um9kR00taGxlUjNRMDJaRm5oWWdN?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+---
+
+# BPO AI Success Stories 2026: How Firstsource, HCLTech, Teleperformance and Others Achieved Productivity Gains and Cost Savings
+
+BPO AI Success Stories 2026: How Firstsource, HCLTech, Teleperformance and Others Achieved Productivity Gains and Cost Savings InfotechLead
+
+## 笔记
+
+

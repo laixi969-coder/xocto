@@ -20,17 +20,17 @@ url: https://github.com/vladocar/Sumi.css
 canonical_url: https://github.com/vladocar/Sumi.css
 summary: CSS Framework
 first_seen: '2026-10-22T00:42:20Z'
-last_seen: '2026-10-22T00:42:20Z'
+last_seen: '2026-10-23T00:40:52Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/vladocar/Sumi.css
-  seen_at: '2026-10-22T00:42:20Z'
+  seen_at: '2026-10-23T00:40:52Z'
   metrics:
-    points: 72
-    comments: 18
+    points: 96
+    comments: 27
   kind: product
 ---
 

@@ -20,8 +20,8 @@ url: https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-pla
 canonical_url: https://washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media
 summary: Iranian campaign planted fake articles in real U.S. publications using ChatGPT
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-10-10T01:45:59Z'
-status: rejected
+last_seen: '2026-10-23T00:40:52Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 180
     comments: 162
+  kind: news
+- source: hackernews
+  url: https://www.washingtonpost.com/technology/2026/10/21/poll-finds-most-americans-disapprove-how-trump-handling-ai/
+  seen_at: '2026-10-23T00:40:52Z'
+  metrics:
+    points: 8
+    comments: 3
   kind: news
 ---
 

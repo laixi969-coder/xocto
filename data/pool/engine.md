@@ -30,12 +30,13 @@ url: https://engine.tastelabs.com/
 canonical_url: https://engine.tastelabs.com
 summary: The Brand API, a taste tool for agents
 first_seen: '2026-09-15T18:45:31Z'
-last_seen: '2026-10-21T00:38:32Z'
+last_seen: '2026-10-23T00:41:23Z'
 status: pending_filter
 sources:
 - hackernews
 - newssearch
 - marketfeeds
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://engine.tastelabs.com/
@@ -82,6 +83,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPSXAzaDlJYWRsOUVrTjA1YUxCU2VGSHZybVFFcXhwLWZDbmJGX2l6SW8zQmhIN3daQVVQN2Rkb3dNSzJwaTF4a3BybUNKZnZoSGVGbXU0OG56WWYxcC1tTjNPS2VudUNOZ3pDN2FqYVlrUXRVY05mcjU5em5RUkJoWlNvdTRIcHFhcC1BY2FKbk9wLVE?oc=5
   seen_at: '2026-10-21T00:38:32Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/
+  seen_at: '2026-10-23T00:41:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihAFBVV95cUxQNzVfRGlQSnVUV1N3cVc2Y1ZrOHkyWDhzT3RvdFlMSWxwbGg3S0dBX2ZvamVQb1NQZmFkei0wREJrUFV5OTNLWHhHaW5ZOU9VX1lobHhFbUJjOFRpQ1BvQTlxUUo2bUdGU3VkQlJpVVlWU09fR1RUbkppdkVnZVVUaUpITm0?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
   metrics: {}
   kind: news
 ---

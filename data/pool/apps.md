@@ -21,12 +21,13 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-10-22T00:42:55Z'
+last_seen: '2026-10-23T00:41:16Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
 - newssearch
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
@@ -140,6 +141,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KQlRXN3EwbmQxbzI1VUVhaEtGQ2xNczFDNG9VQ0dKZmtiV2Q2dHZrMjJzNzdNenZScENJbFRYbE5MczVmSmY1cUxpYWpkTXJtZlQw?oc=5
   seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/decisions-api
+  seen_at: '2026-10-23T00:41:16Z'
   metrics: {}
   kind: news
 ---

@@ -33,16 +33,16 @@ summary: Agent 客户端与 AI 编辑器实例管理，以实例为单位的通�
   等。 Agent client & AI editor instance manager. Codex supported; evaluating Claude Code, Claude Desktop,
   WorkBuddy, Deepseek-harness、OpenCode, Cursor, and more.
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sv3nbeast/agent-manager-lite
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 450
+    stars: 461
     forks: 14
     open_issues: 0
   kind: product

@@ -26,7 +26,7 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: queued
 sources:
 - github
@@ -289,19 +289,27 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-sieve
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 110
-    forks: 5
+    stars: 103
+    forks: 4
     open_issues: 5
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-tool-todo-plus
-  seen_at: '2026-10-20T01:06:30Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 103
+    stars: 95
     forks: 0
     open_issues: 1
+  kind: product
+- source: github
+  url: https://npmjs.com/package/dsh-whale-catch
+  seen_at: '2026-10-23T00:40:56Z'
+  metrics:
+    stars: 47
+    forks: 0
+    open_issues: 0
   kind: product
 ---
 

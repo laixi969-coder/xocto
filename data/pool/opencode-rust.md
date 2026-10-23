@@ -31,18 +31,18 @@ canonical_url: https://vakandi.github.io/opencode-rust
 summary: The open source AI coding agent, in Rust. CLI, TUI and HTTP server for local AI agents — no Docker
   required.
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-19T00:13:37Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://vakandi.github.io/opencode-rust/
-  seen_at: '2026-10-19T00:13:37Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
     stars: 73
     forks: 1
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

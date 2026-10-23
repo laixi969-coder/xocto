@@ -1,0 +1,18 @@
+- id: ev-5f1862ddb7b5fad8
+  project_slug: ais-hidden-storage-bill-what-inference-leaves-behind
+  url: https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/
+  title: 'AI’s hidden storage bill: What inference leaves behind'
+  published_at: '2026-10-22T08:41:18Z'
+  collected_at: '2026-10-23T00:41:16Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators
+    with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage
+    costs. What happens to data after a model responds? Much of the back-end data that’s generated—from
+    billions of daily prompts, images, and videos—needs to be stored. But data storage is one of the harder
+    infrastructure costs to plan for, and it’s often overlooked in initial AI infrastructure planning.
+    As inference scales, the data footprint grows with it Traditionally, AI infrastructure conversations
+    have centered on the compute-intensive process of training a model. Training is finite: a run starts,
+    burns through compute, and ends. But inference runs continuously, every time a model answers a prompt.
+    For infrastructure planning, that difference matters: A training run is a project you can budget for
+    and retire. Inference doesn’t retire; every inference request leaves something behind. Tak'

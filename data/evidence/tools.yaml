@@ -279,3 +279,30 @@
     large internal API surfaces to agentic consumers. Build-time wiring can become a bottleneck as the
     catalog expands. One approach is to change how the orchestrator accesses its tools: instead of compiling
     every tool into the agent, the agent can discover relevant tools at runtime. AWS Agent Regis'
+- id: ev-3bf8c07d04dc6722
+  project_slug: tools
+  url: https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/
+  title: NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models
+  published_at: '2026-10-22T05:00:27Z'
+  collected_at: '2026-10-23T00:41:16Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: To help developers rapidly build world models , which help physical AI systems understand and
+    simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation
+    checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards,
+    the NVIDIA Cosmos platform gives world model builders the frontier open models — as well as data,
+    training and optimization tools and recipes — to scale training data, adapt models, test behavior
+    and optimize for performance before deployment. Build Better Training Data Building world models begins
+    with multimodal, multisensory data. NVIDIA Cosmos Data Factory brings together the tools and skills
+    for labeling, curating, augmenting and evaluating data at scale for training physical AI. Cosmos Curator,
+    a GPU-accelerated solution for curating video training datasets, has now added support for multimodal
+    multisensory inputs and processing blocks. Read All NVIDIA in Europe Announcements Cosmos
+- id: ev-e2dca7d52d7b8c64
+  project_slug: tools
+  url: https://news.google.com/rss/articles/CBMigAFBVV95cUxOOXpKaDl3My1XVmpOZUllRGZITXd5aHNSMHZYODRJYjljZUdKSzNrMjFXcjFwREZ3VzR3QkhnTVB0eUYxVXpIM2hKa3FCakswLXNTZEJsaFZKOXg0MklSb0t2RzRiRzd6cWFvWUYwMTlpUjRWeW9BSTJ2NlZ4SUpHdA?oc=5
+  title: 'Software Monetization Platform Guide: 10 Tools by Use Case'
+  published_at: '2026-10-22T04:59:00Z'
+  collected_at: '2026-10-23T00:41:23Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'Software Monetization Platform Guide: 10 Tools by Use Case Technology Org'

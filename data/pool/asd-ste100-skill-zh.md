@@ -40,16 +40,16 @@ canonical_url: https://github.com/lemonhall/asd-ste100-skill-zh
 summary: 受控中文技术写作技能：ASD-STE100 的中文对应物，含 stdlib-only 确定性 linter。Controlled Chinese technical writing skill
   for agents.
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lemonhall/asd-ste100-skill-zh
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 60
+    stars: 63
     forks: 7
     open_issues: 2
   kind: product

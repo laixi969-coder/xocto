@@ -20,17 +20,17 @@ url: https://mistral.ai/news/mistral-large-4/
 canonical_url: https://mistral.ai/news/mistral-large-4
 summary: https:&#x2F;&#x2F;docs.mistral.ai&#x2F;models&#x2F;mistral-large-4-0
 first_seen: '2026-10-22T00:42:20Z'
-last_seen: '2026-10-22T00:42:20Z'
+last_seen: '2026-10-23T00:40:52Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://mistral.ai/news/mistral-large-4/
-  seen_at: '2026-10-22T00:42:20Z'
+  seen_at: '2026-10-23T00:40:52Z'
   metrics:
-    points: 315
-    comments: 93
+    points: 322
+    comments: 102
   kind: news
 ---
 

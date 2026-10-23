@@ -23,16 +23,16 @@ summary: 'AI-KIT is a practical starter kit for development: ChatGPT/Codex, Clau
   conservative installation and updates, testing and review workflows, security guidance, Docker and Kubernetes
   readiness, and clean project templates.'
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tigusigalpa/ai-kit
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 49
+    stars: 46
     forks: 0
     open_issues: 0
   kind: product

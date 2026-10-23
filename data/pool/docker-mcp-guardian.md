@@ -21,16 +21,16 @@ canonical_url: https://github.com/SivaSaiKrishnaSuryadevara/docker-mcp-guardian
 summary: Security-hardened MCP server for Docker with read-only defaults, restart deny-lists, and secret
   redaction
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SivaSaiKrishnaSuryadevara/docker-mcp-guardian
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 108
+    stars: 109
     forks: 108
     open_issues: 0
   kind: product

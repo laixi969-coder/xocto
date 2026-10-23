@@ -7,3 +7,12 @@
   source_kind: market_signal
   tier: first_party
   fact: DeepSeek banned from U.S. federal civilian agencies under new DHS order
+- id: ev-1209b85e5b22a181
+  project_slug: reuters-5
+  url: https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/
+  title: reuters
+  published_at: '2026-10-22T21:43:46Z'
+  collected_at: '2026-10-23T00:40:52Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: US banks are blocking third-party AI agents access to customer accounts

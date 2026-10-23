@@ -1,0 +1,42 @@
+---
+slug: voice-ai-startup-karta-ai-raises-3-million-in-seed-funding-l
+name: Voice AI startup Karta AI raises $3 million in seed funding led by PeerCapital and Cedar Hill
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbG5pcnJ0b2VJOGVLRGc3Rk9IUHN3UWF5LXRSNktWWGxWak1HXzlCaFhnY0h2NmNSZUJCOHl5UU9tOFFKT3B6SWhIajdGNWJPMWpGc040NEJqaW9ZUWkxNlRaYTNBRV8tdDFHQ0tTTUdYOGlBVDhpXy1qRWFxTDBQUXlLOXlLV2ZYUGNTeHhuNEhlc3E2OUtKLTRYOW1zb3ZxTThxX3hlWXlTUEE5VC1pTmtGWVRzNlVpdTBKZHNHV2lhb2ZESUJlTzNIdEZXdm9Sd1MyWG9R0gHWAUFVX3lxTE1sbmlycnRvZUk4ZUtEZzdGT0hQc3dRYXktdFI2S1ZYbFZqTUdfOUJoWGdjSHY2Y1JlQkI4eXlRT204UUpPcHpJaEhqN0Y1Yk8xakZzTjQ0Qmppb1lRaTE2VFphM0FFXy10MUdDS1NNR1g4aUFUOGlfLWpFYXFMMFBReUs5eUtXZlhQY1N4eG40SGVzcTY5S0otNFg5bXNvdnFNOHFfeGVZeVNQQTlULWlOa0ZZVHM2VWl1MEpkc0dXaWFvZkRJQmVPM0h0Rld2b1J3UzJYb1E?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbG5pcnJ0b2VJOGVLRGc3Rk9IUHN3UWF5LXRSNktWWGxWak1HXzlCaFhnY0h2NmNSZUJCOHl5UU9tOFFKT3B6SWhIajdGNWJPMWpGc040NEJqaW9ZUWkxNlRaYTNBRV8tdDFHQ0tTTUdYOGlBVDhpXy1qRWFxTDBQUXlLOXlLV2ZYUGNTeHhuNEhlc3E2OUtKLTRYOW1zb3ZxTThxX3hlWXlTUEE5VC1pTmtGWVRzNlVpdTBKZHNHV2lhb2ZESUJlTzNIdEZXdm9Sd1MyWG9R0gHWAUFVX3lxTE1sbmlycnRvZUk4ZUtEZzdGT0hQc3dRYXktdFI2S1ZYbFZqTUdfOUJoWGdjSHY2Y1JlQkI4eXlRT204UUpPcHpJaEhqN0Y1Yk8xakZzTjQ0Qmppb1lRaTE2VFphM0FFXy10MUdDS1NNR1g4aUFUOGlfLWpFYXFMMFBReUs5eUtXZlhQY1N4eG40SGVzcTY5S0otNFg5bXNvdnFNOHFfeGVZeVNQQTlULWlOa0ZZVHM2VWl1MEpkc0dXaWFvZkRJQmVPM0h0Rld2b1J3UzJYb1E?oc=5
+summary: Voice AI startup Karta AI raises $3 million in seed funding led by PeerCapital and Cedar Hill
+  Indian Startup News
+first_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-23T00:41:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbG5pcnJ0b2VJOGVLRGc3Rk9IUHN3UWF5LXRSNktWWGxWak1HXzlCaFhnY0h2NmNSZUJCOHl5UU9tOFFKT3B6SWhIajdGNWJPMWpGc040NEJqaW9ZUWkxNlRaYTNBRV8tdDFHQ0tTTUdYOGlBVDhpXy1qRWFxTDBQUXlLOXlLV2ZYUGNTeHhuNEhlc3E2OUtKLTRYOW1zb3ZxTThxX3hlWXlTUEE5VC1pTmtGWVRzNlVpdTBKZHNHV2lhb2ZESUJlTzNIdEZXdm9Sd1MyWG9R0gHWAUFVX3lxTE1sbmlycnRvZUk4ZUtEZzdGT0hQc3dRYXktdFI2S1ZYbFZqTUdfOUJoWGdjSHY2Y1JlQkI4eXlRT204UUpPcHpJaEhqN0Y1Yk8xakZzTjQ0Qmppb1lRaTE2VFphM0FFXy10MUdDS1NNR1g4aUFUOGlfLWpFYXFMMFBReUs5eUtXZlhQY1N4eG40SGVzcTY5S0otNFg5bXNvdnFNOHFfeGVZeVNQQTlULWlOa0ZZVHM2VWl1MEpkc0dXaWFvZkRJQmVPM0h0Rld2b1J3UzJYb1E?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+---
+
+# Voice AI startup Karta AI raises $3 million in seed funding led by PeerCapital and Cedar Hill
+
+Voice AI startup Karta AI raises $3 million in seed funding led by PeerCapital and Cedar Hill Indian Startup News
+
+## 笔记
+
+

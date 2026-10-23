@@ -1,0 +1,19 @@
+- id: ev-a577fefa7be268a9
+  project_slug: write-your-own-training-loop-without-managing-gpus-with-amaz
+  url: https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/
+  title: Write your own training loop — without managing GPUs — with Amazon SageMaker training session
+    APIs
+  published_at: '2026-10-22T18:00:01Z'
+  collected_at: '2026-10-23T00:41:16Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Fine-tuning a large language model (LLM) today usually forces a tradeoff between training loop
+    control and operational simplicity. With fully managed services you select a base model, provide data
+    and hyperparameters, and the service owns everything else, which works well when a standard, prepackaged
+    recipe fits your problem. Less managed services give you more control, but you also manage more of
+    the underlying infrastructure and training frameworks. Sometimes a standard recipe isn’t enough: you
+    need a custom loss or data curriculum for supervised fine-tuning (SFT), your own preference optimization,
+    a reinforcement learning (RL) reward function, or an alignment algorithm published last week. As soon
+    as you need to shape the training procedure yourself, you take on that infrastructure work to gain
+    algorithmic freedom. Today, serverless model customization in Amazon SageMaker AI expands with training
+    session APIs, which remove that tradeoff by drawing the abstraction boundary one level'

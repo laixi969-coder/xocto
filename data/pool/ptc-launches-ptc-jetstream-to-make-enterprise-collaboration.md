@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAJBVV95cUxPRlE4Y0Q5cFQ5
 summary: PTC Launches PTC Jetstream to Make Enterprise Collaboration a Connected Part of the Product Development
   Lifecycle TradingView
 first_seen: '2026-10-22T00:42:55Z'
-last_seen: '2026-10-22T00:42:55Z'
+last_seen: '2026-10-23T00:41:23Z'
 status: pending_filter
 sources:
 - newssearch
@@ -30,6 +30,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMihAJBVV95cUxPRlE4Y0Q5cFQ5RHBaTnEwakk3WVhuWkZtNmN4WEd1Q3hPenpwMUVIVUpFRWdQZkVDNlAzSVVOaGFqU0dyYjJJdDhpZmNCcWZpZjJDUmNQZXFQU0Q2N21VdVBVeXd0b0hUek9HM2FFUVJmX3dxNk5mQVBfU0dnRHVTZ1I2b29lWWxidW9LRWh0M0lTbXgtWVBRZnFIMXBtOFZZUmsyM1J3N2RSaHpxSWpaa1J1bFlwcG1aa1BaQjdyLUlzc1ktUC1UUEdoOGd4LUlFMnB0dTcwWGZtUmNOR3FhQjVqcWtVLWdPLXY0b2RVQjV4Ql9YVVRBV05PakJvTzFjMVpCRg?oc=5
   seen_at: '2026-10-22T00:42:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTmNReWUtU3ljZk9hV0p0SXhVcmxGaDZ1ZTM4dmlPemRLenRpbTVud3QyTlFuTng0REFHTERZOERGU0RyeTAzMEhja0ZjWGU4aXNieGotTkNHMkFKM0dONHVhdzU3aERHTUtGUHNiN0x6UVd4Ql9wSFRGcnZjRDY0UFUydmZMTUdzM1JrbkMyRWREallVWUUyX1BkT093VVRXbndyOVlVXzlfOEhDSDFmVGp4SVd2WXlQZ3ZmZ09zMlVUbVZmR2hHeG9YT3Vzd3haQmxONEV0aGZnbVJ0S196X0lYVXo2X3hmeENr?oc=5
+  seen_at: '2026-10-23T00:41:23Z'
   metrics: {}
   kind: news
 ---

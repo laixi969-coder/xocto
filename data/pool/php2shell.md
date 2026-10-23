@@ -20,17 +20,17 @@ url: https://www.wiz.io/blog/php2shell-php-rce
 canonical_url: https://wiz.io/blog/php2shell-php-rce
 summary: AI uncovers critical RCE in PHP
 first_seen: '2026-10-22T00:42:20Z'
-last_seen: '2026-10-22T00:42:20Z'
+last_seen: '2026-10-23T00:40:52Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.wiz.io/blog/php2shell-php-rce
-  seen_at: '2026-10-22T00:42:20Z'
+  seen_at: '2026-10-23T00:40:52Z'
   metrics:
-    points: 432
-    comments: 172
+    points: 446
+    comments: 184
   kind: news
 ---
 

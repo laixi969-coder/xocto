@@ -21,18 +21,18 @@ canonical_url: https://github.com/timoncool/speech-studio
 summary: Free offline AI voice studio for Windows — text-to-speech with cloned and built-in voices, and
   speech recognition with speakers. Russian done right. 100% local, one native .exe, zero Python.
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/timoncool/speech-studio
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 43
-    forks: 4
-    open_issues: 5
+    stars: 61
+    forks: 7
+    open_issues: 11
   kind: product
 ---
 

@@ -1,0 +1,18 @@
+- id: ev-7e6cbd7643f08da2
+  project_slug: stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on
+  url: https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai/
+  title: Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI
+  published_at: '2026-10-22T17:45:58Z'
+  collected_at: '2026-10-23T00:41:16Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: A customer asks an AI voice agent a question and waits. The agent already has an answer, it’s
+    midway through generating a long, multi-paragraph response, but the customer hears nothing for five
+    seconds. By the time an answer arrives, the customer is frustrated, confused, and no longer paying
+    attention. Text-to-speech integrations create exactly that gap. A one-sentence response might generate
+    in 600 milliseconds, but the full response takes five seconds, and the integration waits for all of
+    it before synthesis starts. This post shows how to close that gap. We stream each sentence to a hosted
+    Kokoro-82M text-to-speech (TTS) model on Amazon SageMaker AI as soon as an agent produces it, so synthesis
+    begins on sentence one instead of the finished response. Getting that audio back to a browser needs
+    its own solution too, so we also cover both transports for doing it and what each costs in practice.
+    Solution overview This solution closes the gap by streaming synthesis alongside generation in

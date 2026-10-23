@@ -33,18 +33,18 @@ url: https://github.com/T-Auto/dsh-ops
 canonical_url: https://github.com/T-Auto/dsh-ops
 summary: Bash, PowerShell 7, and Rust-based tools for dsh on Windows to cut token usage. / 为windows的dsh提供bash、powershell7及rust的高性能tools来减少token消耗
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-23T00:40:56Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/T-Auto/dsh-ops
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-23T00:40:56Z'
   metrics:
-    stars: 3668
-    forks: 101
-    open_issues: 48
+    stars: 3855
+    forks: 110
+    open_issues: 54
   kind: product
 ---
 
