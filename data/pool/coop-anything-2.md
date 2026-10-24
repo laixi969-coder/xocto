@@ -22,18 +22,18 @@ summary: 'Co-op Anything: point your AI agent at any single-player game and play
   and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share
   what it learns.'
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://coopanything.app
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 842
-    forks: 113
-    open_issues: 85
+    stars: 1052
+    forks: 139
+    open_issues: 112
   kind: product
 ---
 

@@ -31,7 +31,7 @@ summary: 'Tickets and applications now live for AIE CODE - the last flagship AIE
   Watch Anekha Sokhal on YouTube Show notes Moshi — Anekha’s company Anekha Sokhal — background and work
   GIQ research paper — research discussed in the interview Reducto — document'
 first_seen: '2026-10-23T00:41:16Z'
-last_seen: '2026-10-23T00:41:16Z'
+last_seen: '2026-10-24T00:43:48Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -39,6 +39,11 @@ sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/moshi
   seen_at: '2026-10-23T00:41:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://latent.space/p/moshi/
+  seen_at: '2026-10-24T00:43:48Z'
   metrics: {}
   kind: news
 ---

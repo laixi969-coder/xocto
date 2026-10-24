@@ -39,16 +39,16 @@ summary: Memory-safe Rust controller for your own Sonos speakers on your own LAN
   interoperability (S1 + S2), a Spotify-library classical DJ, and a CLI + HTTP API + MCP server so AI
   agents can run the house, including off-LAN over Tailscale.
 first_seen: '2026-10-06T23:30:08Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Dicklesworthstone/frankensonos
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 96
+    stars: 104
     forks: 6
     open_issues: 1
   kind: product

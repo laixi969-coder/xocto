@@ -20,17 +20,17 @@ url: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans
 canonical_url: https://modelcompare.ai/blog/ai-models-controversial-take-on-humans
 summary: Every AI model has the same "controversial" take on humans
 first_seen: '2026-10-23T00:40:52Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-10-24T00:43:20Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans
-  seen_at: '2026-10-23T00:40:52Z'
+  seen_at: '2026-10-24T00:43:20Z'
   metrics:
-    points: 219
-    comments: 264
+    points: 614
+    comments: 593
   kind: news
 ---
 

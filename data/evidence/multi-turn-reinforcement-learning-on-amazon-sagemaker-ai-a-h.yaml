@@ -1,0 +1,19 @@
+- id: ev-fc41483a570c97f0
+  project_slug: multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-h
+  url: https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/
+  title: 'Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide'
+  published_at: '2026-10-23T17:48:54Z'
+  collected_at: '2026-10-24T00:43:47Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Most fine-tuning teaches a model to produce a better answer to a single prompt. Agentic tasks
+    are different. An agent that files an expense report or triages a support ticket takes a sequence
+    of actions, and each step depends on what came before. There’s rarely one correct sequence to imitate,
+    and the only reliable feedback is whether the whole sequence succeeded. Supervised fine-tuning has
+    no labels for that, and single-turn reinforcement learning cannot credit a decision made three steps
+    before the outcome. Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models
+    on exactly that signal. SageMaker AI sends prompts to an agent you host on Amazon Bedrock AgentCore,
+    or on your own infrastructure, such as Amazon Elastic Kubernetes Service (Amazon EKS), Amazon Elastic
+    Compute Cloud (Amazon EC2), or AWS Fargate, through an AWS Lambda forwarder . The example here uses
+    AgentCore. The agent calls the policy model being trained, acts in your environment over as many turns
+    a

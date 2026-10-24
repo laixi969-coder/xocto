@@ -22,18 +22,18 @@ summary: 'An open-source IDE for C# and .NET, built with Avalonia, for Windows, 
   editor, its own debugger with Hot Reload, a CPU and memory profiler, XAML tooling for Avalonia and WPF,
   and an MCP server for coding agents.'
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://passenger-ide.net
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 164
+    stars: 171
     forks: 13
-    open_issues: 42
+    open_issues: 40
   kind: product
 ---
 

@@ -20,16 +20,16 @@ url: https://kino.ai/tools/transcode
 canonical_url: https://kino.ai/tools/transcode
 summary: Open Red and Blackmagic Raw Files in the Browser
 first_seen: '2026-10-23T00:40:52Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-10-24T00:43:20Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://kino.ai/tools/transcode
-  seen_at: '2026-10-23T00:40:52Z'
+  seen_at: '2026-10-24T00:43:20Z'
   metrics:
-    points: 8
+    points: 9
     comments: 2
   kind: product
 ---

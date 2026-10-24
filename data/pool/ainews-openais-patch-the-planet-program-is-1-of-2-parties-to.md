@@ -32,7 +32,7 @@ summary: 'Almost 2 months ago, OpenAI introduced Daybreak for Frontline Defender
   the messenger for finding them; rather it is good to know that our critical software is generally getting
   the biggest security audit it has ever'
 first_seen: '2026-10-23T00:41:16Z'
-last_seen: '2026-10-23T00:41:16Z'
+last_seen: '2026-10-24T00:43:48Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -40,6 +40,11 @@ sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/ainews-openais-patch-the-planet-program
   seen_at: '2026-10-23T00:41:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://latent.space/p/ainews-openais-patch-the-planet-program/
+  seen_at: '2026-10-24T00:43:48Z'
   metrics: {}
   kind: news
 ---

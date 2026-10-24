@@ -1,0 +1,41 @@
+---
+slug: tellia-opens-its-20-a-month-voice-ai-assistant-to-independen
+name: Tellia opens its $20-a-month voice AI assistant to independent agronomists and growers
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNcFNxbTJLTkRteHBjZmNQSTNtQjdYR1dzcUZBcGIyU3RHc1FVVTQwckpaSU9VaGVIWDVYNTdqYVEwck95dmNsbW5IRFlnd09LdGZvTDJ2SGlKdkRBM0hWeFlPZlRjWlhlRFh3UmxfaWw0TFBsNGZKamtycDlXQWZ1bFdrbjlrUmNxSTdsRGVtUVBQaEdIUmxrQ1lMRlVYWEs4S0RkNkdVWVVVV245X2tVWkF0eV9hT3oyZkxNMUIzcTB2bHBUMDJ3QlBmZ0Q4QdIB0wFBVV95cUxOcjNYYVMtSzczOU1jX1dLUzVFRlp5SVZBV0xWRDNkM1N2VkpidmFtY2R3alo1MnFyaXJmMVhKT1lzbUpObGpjTzdKXzhnMWlNTVI0SDRySTJ4VkViZmdSckthNEtwTFdDbENNQTVCU05LbGQyV3U4RUxSYmJWRHlPOFhKc3d0RjJMZDRwWGxNcG5qUUN1SUd0NUhfRjlDXzFRSTZ1RTM0YmplUFo3SHZzYTBoQXJXZnNBZXdUTjlHNm5mQ3gzc3JfTGZpMTlwZmhsVUZV?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNcFNxbTJLTkRteHBjZmNQSTNtQjdYR1dzcUZBcGIyU3RHc1FVVTQwckpaSU9VaGVIWDVYNTdqYVEwck95dmNsbW5IRFlnd09LdGZvTDJ2SGlKdkRBM0hWeFlPZlRjWlhlRFh3UmxfaWw0TFBsNGZKamtycDlXQWZ1bFdrbjlrUmNxSTdsRGVtUVBQaEdIUmxrQ1lMRlVYWEs4S0RkNkdVWVVVV245X2tVWkF0eV9hT3oyZkxNMUIzcTB2bHBUMDJ3QlBmZ0Q4QdIB0wFBVV95cUxOcjNYYVMtSzczOU1jX1dLUzVFRlp5SVZBV0xWRDNkM1N2VkpidmFtY2R3alo1MnFyaXJmMVhKT1lzbUpObGpjTzdKXzhnMWlNTVI0SDRySTJ4VkViZmdSckthNEtwTFdDbENNQTVCU05LbGQyV3U4RUxSYmJWRHlPOFhKc3d0RjJMZDRwWGxNcG5qUUN1SUd0NUhfRjlDXzFRSTZ1RTM0YmplUFo3SHZzYTBoQXJXZnNBZXdUTjlHNm5mQ3gzc3JfTGZpMTlwZmhsVUZV?oc=5
+summary: Tellia opens its $20-a-month voice AI assistant to independent agronomists and growers Vinetur
+first_seen: '2026-10-24T00:43:55Z'
+last_seen: '2026-10-24T00:43:55Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxNcFNxbTJLTkRteHBjZmNQSTNtQjdYR1dzcUZBcGIyU3RHc1FVVTQwckpaSU9VaGVIWDVYNTdqYVEwck95dmNsbW5IRFlnd09LdGZvTDJ2SGlKdkRBM0hWeFlPZlRjWlhlRFh3UmxfaWw0TFBsNGZKamtycDlXQWZ1bFdrbjlrUmNxSTdsRGVtUVBQaEdIUmxrQ1lMRlVYWEs4S0RkNkdVWVVVV245X2tVWkF0eV9hT3oyZkxNMUIzcTB2bHBUMDJ3QlBmZ0Q4QdIB0wFBVV95cUxOcjNYYVMtSzczOU1jX1dLUzVFRlp5SVZBV0xWRDNkM1N2VkpidmFtY2R3alo1MnFyaXJmMVhKT1lzbUpObGpjTzdKXzhnMWlNTVI0SDRySTJ4VkViZmdSckthNEtwTFdDbENNQTVCU05LbGQyV3U4RUxSYmJWRHlPOFhKc3d0RjJMZDRwWGxNcG5qUUN1SUd0NUhfRjlDXzFRSTZ1RTM0YmplUFo3SHZzYTBoQXJXZnNBZXdUTjlHNm5mQ3gzc3JfTGZpMTlwZmhsVUZV?oc=5
+  seen_at: '2026-10-24T00:43:55Z'
+  metrics: {}
+  kind: news
+---
+
+# Tellia opens its $20-a-month voice AI assistant to independent agronomists and growers
+
+Tellia opens its $20-a-month voice AI assistant to independent agronomists and growers Vinetur
+
+## 笔记
+
+

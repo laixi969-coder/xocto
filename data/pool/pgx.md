@@ -21,17 +21,17 @@ canonical_url: https://pgx.dev
 summary: PGX — Lightweight Postgres for AI agents. Written in Rust. Thousands of isolated databases in
   one runtime. 🐘
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://pgx.dev
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 353
-    forks: 24
+    stars: 415
+    forks: 26
     open_issues: 6
   kind: product
 ---

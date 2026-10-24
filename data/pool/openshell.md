@@ -20,17 +20,17 @@ url: https://github.com/NVIDIA/OpenShell
 canonical_url: https://github.com/NVIDIA/OpenShell
 summary: A safe, private runtime for fleets of autonomous AI agents
 first_seen: '2026-10-23T00:40:52Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-10-24T00:43:20Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/NVIDIA/OpenShell
-  seen_at: '2026-10-23T00:40:52Z'
+  seen_at: '2026-10-24T00:43:20Z'
   metrics:
-    points: 286
-    comments: 144
+    points: 489
+    comments: 213
   kind: news
 ---
 

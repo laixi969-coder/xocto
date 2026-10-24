@@ -31,7 +31,7 @@ summary: 'Warm welcome to Basil Chatha , our newest cohost from the Forward Depl
   YouTube → GPU demand isn’t rectangular A typical capacity contract gives a customer a fixed number of
   GPUs for a fixed period. Plot'
 first_seen: '2026-10-23T00:41:16Z'
-last_seen: '2026-10-23T00:41:16Z'
+last_seen: '2026-10-24T00:43:48Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -39,6 +39,11 @@ sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/modal-d
   seen_at: '2026-10-23T00:41:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://latent.space/p/modal-d/
+  seen_at: '2026-10-24T00:43:48Z'
   metrics: {}
   kind: news
 ---

@@ -33,18 +33,18 @@ canonical_url: https://github.com/pycodebr/heditor
 summary: 'Creative vertical video editing skill for AI agents (Claude Code, Codex, OpenCode, Cursor, Hermes):
   named styles, creative mode, HyperFrames + voice-first mix.'
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/pycodebr/heditor
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 88
+    stars: 91
     forks: 9
-    open_issues: 2
+    open_issues: 1
   kind: product
 ---
 

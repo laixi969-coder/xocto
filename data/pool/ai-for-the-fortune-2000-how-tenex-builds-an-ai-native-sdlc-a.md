@@ -31,7 +31,7 @@ summary: 'Last year , Alex Lieberman and his cofounder joined us to explain Tene
   AI strategists are responsible for customer retention and growth, giving them an incentive to push back
   on work that doesn’t serve the client.'
 first_seen: '2026-10-22T00:42:47Z'
-last_seen: '2026-10-22T00:42:47Z'
+last_seen: '2026-10-24T00:43:48Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -39,6 +39,11 @@ sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/tenex
   seen_at: '2026-10-22T00:42:47Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://latent.space/p/tenex/
+  seen_at: '2026-10-24T00:43:48Z'
   metrics: {}
   kind: news
 ---

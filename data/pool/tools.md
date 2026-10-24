@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-24T00:43:55Z'
 status: pending_filter
 sources:
 - hackernews
@@ -185,6 +185,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMigAFBVV95cUxOOXpKaDl3My1XVmpOZUllRGZITXd5aHNSMHZYODRJYjljZUdKSzNrMjFXcjFwREZ3VzR3QkhnTVB0eUYxVXpIM2hKa3FCakswLXNTZEJsaFZKOXg0MklSb0t2RzRiRzd6cWFvWUYwMTlpUjRWeW9BSTJ2NlZ4SUpHdA?oc=5
   seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum/
+  seen_at: '2026-10-24T00:43:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTVJYR0E1RG12SFhLN0VHZ1o4Zk5VMEJKT09jRzRIYmxLQTgtaEVxVW9nZ2lTQ2JTenlGMlhvbGRIWmtLWUZyRTlHaWNaZGthMVAyOVlsY0hPNVlXdV9rMnhxQkZJVDdLWkFCR1labm1udDFNWWNOVm5YQjdKT2JQbHpYTU5ObEtOWGYw?oc=5
+  seen_at: '2026-10-24T00:43:55Z'
   metrics: {}
   kind: news
 ---

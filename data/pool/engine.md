@@ -30,7 +30,7 @@ url: https://engine.tastelabs.com/
 canonical_url: https://engine.tastelabs.com
 summary: The Brand API, a taste tool for agents
 first_seen: '2026-09-15T18:45:31Z'
-last_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-24T00:43:47Z'
 status: pending_filter
 sources:
 - hackernews
@@ -93,6 +93,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMihAFBVV95cUxQNzVfRGlQSnVUV1N3cVc2Y1ZrOHkyWDhzT3RvdFlMSWxwbGg3S0dBX2ZvamVQb1NQZmFkei0wREJrUFV5OTNLWHhHaW5ZOU9VX1lobHhFbUJjOFRpQ1BvQTlxUUo2bUdGU3VkQlJpVVlWU09fR1RUbkppdkVnZVVUaUpITm0?oc=5
   seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/
+  seen_at: '2026-10-24T00:43:47Z'
   metrics: {}
   kind: news
 ---

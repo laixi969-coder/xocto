@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLW11ZlRnSDlJSkVfY2ljY0
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLW11ZlRnSDlJSkVfY2ljY0F0cWhpR3phVXZxMHQ1UTNuLTVLcktjeTdOaS1pQVV0NVV6cklleDRjWW9QdmEzZlZXLV8zaEFKT1Q4OWtQVVlsWV9QSU4tUkpkYkZGV0JVei01TmkxOXI3bWZBblAtX2dQSVJHZGRrLUx0X2ZQUjA5?oc=5
 summary: 实丰文化推出AI硬件品牌Rootix 搜狐
 first_seen: '2026-10-23T00:41:23Z'
-last_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-24T00:43:55Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLW11ZlRnSDlJSkVfY2ljY0F0cWhpR3phVXZxMHQ1UTNuLTVLcktjeTdOaS1pQVV0NVV6cklleDRjWW9QdmEzZlZXLV8zaEFKT1Q4OWtQVVlsWV9QSU4tUkpkYkZGV0JVei01TmkxOXI3bWZBblAtX2dQSVJHZGRrLUx0X2ZQUjA5?oc=5
   seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiakFVX3lxTE1tOVhYU3YwVTRyYlhvOG5SaGgybnA3aDU3WWVZQjk1ZEhUSkdPR3JJRmE0U1FrU3k4dDhYVlpCMDhrZHVDZmlpLU1La0FVXzU2cDVoeTh2cXZJc0dNOXozOEtSSjNGNGJONGc?oc=5
+  seen_at: '2026-10-24T00:43:55Z'
   metrics: {}
   kind: news
 ---

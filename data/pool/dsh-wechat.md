@@ -30,16 +30,16 @@ url: https://github.com/xcisxc29/dsh-wechat
 canonical_url: https://github.com/xcisxc29/dsh-wechat
 summary: WeChat channel for DeepSeek Harness
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xcisxc29/dsh-wechat
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 294
+    stars: 307
     forks: 21
     open_issues: 17
   kind: product

@@ -20,17 +20,17 @@ url: https://wordpress.org/plugins/gdpr-compliant-recaptcha-for-all-forms/
 canonical_url: https://wordpress.org/plugins/gdpr-compliant-recaptcha-for-all-forms
 summary: Replacing CAPTCHAs with adaptive proof-of-work in WordPress
 first_seen: '2026-10-23T00:40:52Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-10-24T00:43:20Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://wordpress.org/plugins/gdpr-compliant-recaptcha-for-all-forms/
-  seen_at: '2026-10-23T00:40:52Z'
+  seen_at: '2026-10-24T00:43:20Z'
   metrics:
-    points: 8
-    comments: 7
+    points: 14
+    comments: 9
   kind: product
 ---
 

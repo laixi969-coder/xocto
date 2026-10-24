@@ -1,0 +1,41 @@
+---
+slug: can-ai-keep-your-secrets-safe-eternals-darkai-to-offer-encry
+name: Can AI keep your secrets safe? Eternal's dark.ai to offer encrypted chats
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMHU3S1N3UGRoQmRuWjJjeFhUazNWVTNNRFlaMEhSSGMtREtiWG8yX0dWRktkM2pBLXdTUmNDNHZCTGU2NkhLUGhXTDF5RmpQT0stdUpyUDg0RDBfZzBFdFJETFZuYlBBVVJMY0FETTQ4c0hNU2NYeFZWbFVVa3RNbTZzQjJPRVh3M1dvQ2dGY1EySnFDRzM0cFVpWVBEeGRNUGQ2VHlJSzU4dmFFLUVPZHh6U3BFTE9PWjFjQlhXei1qdEdhWFhoamF4V21DR1NVa0pnV0VrZ0ZJUFhEUFHSAd4BQVVfeXFMUDB1N0tTd1BkaEJkbloyY3hYVGszVlUzTURZWjBIUkhjLURLYlhvMl9HVkZLZDNqQS13U1JjQzR2QkxlNjZIS1BoV0wxeUZqUE9LLXVKclA4NEQwX2cwRXRSRExWbmJQQVVSTGNBRE00OHNITVNjWHhWVmxVVWt0TW02c0IyT0VYdzNXb0NnRmNRMkpxQ0czNHBVaVlQRHhkTVBkNlR5SUs1OHZhRS1FT2R4elNwRUxPT1oxY0JYV3otanRHYVhYaGpheFdtQ0dTVWtKZ1dFa2dGSVBYRFBR?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMHU3S1N3UGRoQmRuWjJjeFhUazNWVTNNRFlaMEhSSGMtREtiWG8yX0dWRktkM2pBLXdTUmNDNHZCTGU2NkhLUGhXTDF5RmpQT0stdUpyUDg0RDBfZzBFdFJETFZuYlBBVVJMY0FETTQ4c0hNU2NYeFZWbFVVa3RNbTZzQjJPRVh3M1dvQ2dGY1EySnFDRzM0cFVpWVBEeGRNUGQ2VHlJSzU4dmFFLUVPZHh6U3BFTE9PWjFjQlhXei1qdEdhWFhoamF4V21DR1NVa0pnV0VrZ0ZJUFhEUFHSAd4BQVVfeXFMUDB1N0tTd1BkaEJkbloyY3hYVGszVlUzTURZWjBIUkhjLURLYlhvMl9HVkZLZDNqQS13U1JjQzR2QkxlNjZIS1BoV0wxeUZqUE9LLXVKclA4NEQwX2cwRXRSRExWbmJQQVVSTGNBRE00OHNITVNjWHhWVmxVVWt0TW02c0IyT0VYdzNXb0NnRmNRMkpxQ0czNHBVaVlQRHhkTVBkNlR5SUs1OHZhRS1FT2R4elNwRUxPT1oxY0JYV3otanRHYVhYaGpheFdtQ0dTVWtKZ1dFa2dGSVBYRFBR?oc=5
+summary: Can AI keep your secrets safe? Eternal's dark.ai to offer encrypted chats Business Standard
+first_seen: '2026-10-24T00:43:55Z'
+last_seen: '2026-10-24T00:43:55Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMHU3S1N3UGRoQmRuWjJjeFhUazNWVTNNRFlaMEhSSGMtREtiWG8yX0dWRktkM2pBLXdTUmNDNHZCTGU2NkhLUGhXTDF5RmpQT0stdUpyUDg0RDBfZzBFdFJETFZuYlBBVVJMY0FETTQ4c0hNU2NYeFZWbFVVa3RNbTZzQjJPRVh3M1dvQ2dGY1EySnFDRzM0cFVpWVBEeGRNUGQ2VHlJSzU4dmFFLUVPZHh6U3BFTE9PWjFjQlhXei1qdEdhWFhoamF4V21DR1NVa0pnV0VrZ0ZJUFhEUFHSAd4BQVVfeXFMUDB1N0tTd1BkaEJkbloyY3hYVGszVlUzTURZWjBIUkhjLURLYlhvMl9HVkZLZDNqQS13U1JjQzR2QkxlNjZIS1BoV0wxeUZqUE9LLXVKclA4NEQwX2cwRXRSRExWbmJQQVVSTGNBRE00OHNITVNjWHhWVmxVVWt0TW02c0IyT0VYdzNXb0NnRmNRMkpxQ0czNHBVaVlQRHhkTVBkNlR5SUs1OHZhRS1FT2R4elNwRUxPT1oxY0JYV3otanRHYVhYaGpheFdtQ0dTVWtKZ1dFa2dGSVBYRFBR?oc=5
+  seen_at: '2026-10-24T00:43:55Z'
+  metrics: {}
+  kind: news
+---
+
+# Can AI keep your secrets safe? Eternal's dark.ai to offer encrypted chats
+
+Can AI keep your secrets safe? Eternal's dark.ai to offer encrypted chats Business Standard
+
+## 笔记
+
+

@@ -20,17 +20,17 @@ url: https://github.com/dsmurrell/onkey
 canonical_url: https://github.com/dsmurrell/onkey
 summary: I'm a bad singer, so I built an app to show where I'm off-key
 first_seen: '2026-10-23T00:40:52Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-10-24T00:43:20Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/dsmurrell/onkey
-  seen_at: '2026-10-23T00:40:52Z'
+  seen_at: '2026-10-24T00:43:20Z'
   metrics:
-    points: 6
-    comments: 3
+    points: 214
+    comments: 89
   kind: product
 ---
 

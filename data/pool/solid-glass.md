@@ -32,16 +32,16 @@ url: https://deeplethe.github.io/solid-glass
 canonical_url: https://deeplethe.github.io/solid-glass
 summary: A design system for AI applications. Material, physical, tactile, technical.
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://deeplethe.github.io/solid-glass
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 2114
+    stars: 2128
     forks: 35
     open_issues: 3
   kind: product

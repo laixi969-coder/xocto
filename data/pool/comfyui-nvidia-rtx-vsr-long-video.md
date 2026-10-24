@@ -22,17 +22,17 @@ summary: NVIDIA RTX Video Super Resolution for ComfyUI, optimized for long video
   and low RAM usage. Supports AI upscaling, denoising, deblurring, H.264/HEVC NVENC encoding, audio preservation,
   and an integrated video preview.
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-22T00:42:25Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tritant/ComfyUI_NVIDIA_RTX_VSR_Long_Video
-  seen_at: '2026-10-22T00:42:25Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
     stars: 54
-    forks: 9
+    forks: 10
     open_issues: 0
   kind: product
 ---

@@ -33,18 +33,18 @@ canonical_url: https://cursorcam.vercel.app
 summary: Ask your AI agent for a demo video. It clicks through your web app and hands back a polished
   MP4 that zooms in on each click. Works with any AI agent, or on its own as a CLI.
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://cursorcam.vercel.app
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 70
-    forks: 4
-    open_issues: 1
+    stars: 71
+    forks: 5
+    open_issues: 0
   kind: product
 ---
 

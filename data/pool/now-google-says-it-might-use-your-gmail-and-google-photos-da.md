@@ -1,0 +1,47 @@
+---
+slug: now-google-says-it-might-use-your-gmail-and-google-photos-da
+name: Now Google says it might use your Gmail and Google Photos data to target ads
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update
+canonical_url: https://theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update
+summary: Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads
+  based on your personal data if you're using personalized AI features. The update, spotted by Android
+  Authority , adds an exception to its promise about not using your Drive, Gmail, or Google Photos for
+  personalized ads. While the previous version simply said it wouldn't do that, as of October 16th, Google
+  has added the line, "unless you choose to make data from these services available to other Google services
+  that support personalized ads." That means anyone who has connected their Drive, Gmail, or Google Photos
+  to AI Mode and other Search tools … Read the full story at The Verge.
+first_seen: '2026-10-24T00:43:48Z'
+last_seen: '2026-10-24T00:43:48Z'
+status: pending_filter
+sources:
+- marketfeeds
+sightings:
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update
+  seen_at: '2026-10-24T00:43:48Z'
+  metrics: {}
+  kind: news
+---
+
+# Now Google says it might use your Gmail and Google Photos data to target ads
+
+Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority , adds an exception to its promise about not using your Drive, Gmail, or Google Photos for personalized ads. While the previous version simply said it wouldn't do that, as of October 16th, Google has added the line, "unless you choose to make data from these services available to other Google services that support personalized ads." That means anyone who has connected their Drive, Gmail, or Google Photos to AI Mode and other Search tools … Read the full story at The Verge.
+
+## 笔记
+
+

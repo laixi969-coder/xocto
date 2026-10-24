@@ -35,18 +35,18 @@ canonical_url: https://openfilm.dev
 summary: 'The open source AI video agent: turns any coding agent into a video agent, with an editor to
   change anything it makes.'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://openfilm.dev
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 2110
-    forks: 206
-    open_issues: 20
+    stars: 2333
+    forks: 225
+    open_issues: 23
   kind: product
 ---
 

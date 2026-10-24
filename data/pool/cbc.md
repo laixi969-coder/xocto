@@ -20,17 +20,17 @@ url: https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.738
 canonical_url: https://cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888
 summary: MPs moving to restrict gambling ads in Canada
 first_seen: '2026-10-23T00:40:52Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-10-24T00:43:20Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888
-  seen_at: '2026-10-23T00:40:52Z'
+  seen_at: '2026-10-24T00:43:20Z'
   metrics:
-    points: 229
-    comments: 119
+    points: 260
+    comments: 136
   kind: news
 ---
 

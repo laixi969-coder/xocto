@@ -32,18 +32,18 @@ canonical_url: https://karlex.ai
 summary: Code graph and memory for your coding agents, in one Rust program. For Claude Code, Codex, Cursor
   and any MCP client.
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.karlex.ai
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 343
+    stars: 349
     forks: 27
-    open_issues: 2
+    open_issues: 3
   kind: product
 ---
 

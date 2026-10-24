@@ -20,16 +20,16 @@ url: https://github.com/xiazhuo123456789/vibe-knowledge-video
 canonical_url: https://github.com/xiazhuo123456789/vibe-knowledge-video
 summary: Vibe知识大赏风格 AI 知识视频 Skill — 纯代码生成电影感知识短视频（无配音·双语字幕·合成BGM·历史文献再现），风格规范逆向自 8 条抖音爆款原片（1091 帧逐秒分析）
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xiazhuo123456789/vibe-knowledge-video
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 71
+    stars: 78
     forks: 10
     open_issues: 0
   kind: product

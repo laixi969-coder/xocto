@@ -1,0 +1,47 @@
+---
+slug: the-iphone-duo-should-have-been-an-ipad
+name: The iPhone Duo should have been an iPad
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast
+canonical_url: https://theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast
+summary: We gave the iPhone Duo a 7 /10 . But that wasn't always the score we planned, and it might not
+  be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about
+  the most popular smartphone in history. On this episode of The Vergecast , David and Nilay debate whether
+  the Duo deserved the score it got, and try to work through how this device might change over time. Is
+  the outer screen, as Daring Fireball's John Gruber suggested, the worst iPhone ever ? Would it be a
+  better product if it started as an iPad rather than an iPhone? Would we feel differently about this
+  thing if it were simply called the iPad Du … Read the full story at The Verge.
+first_seen: '2026-10-24T00:43:48Z'
+last_seen: '2026-10-24T00:43:48Z'
+status: pending_filter
+sources:
+- marketfeeds
+sightings:
+- source: marketfeeds
+  url: https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast
+  seen_at: '2026-10-24T00:43:48Z'
+  metrics: {}
+  kind: news
+---
+
+# The iPhone Duo should have been an iPad
+
+We gave the iPhone Duo a 7 /10 . But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast , David and Nilay debate whether the Duo deserved the score it got, and try to work through how this device might change over time. Is the outer screen, as Daring Fireball's John Gruber suggested, the worst iPhone ever ? Would it be a better product if it started as an iPad rather than an iPhone? Would we feel differently about this thing if it were simply called the iPad Du … Read the full story at The Verge.
+
+## 笔记
+
+

@@ -38,17 +38,17 @@ url: https://github.com/bdg9412/artex-ko-plus
 canonical_url: https://github.com/bdg9412/artex-ko-plus
 summary: 'ARTEX 한국어판 ·AI 기반 침해사고 대응 기능 추가 (upstream: Autumn-27/ARTEX, AGPL-3.0)'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bdg9412/artex-ko-plus
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 215
-    forks: 202
+    stars: 216
+    forks: 206
     open_issues: 0
   kind: product
 ---

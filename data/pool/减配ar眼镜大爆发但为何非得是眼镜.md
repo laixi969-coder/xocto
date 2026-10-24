@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0aXd6aWJCMUZHYzlXLUdRa3
 canonical_url: https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0aXd6aWJCMUZHYzlXLUdRa3FVZjdpUDNTaHhFcmtVXzhNZEVxc2MwRjBrcjVGbV9NMDJLOWVUdV9MSTljTVloSGU5MmRkVVl0WmR0SmxZTVJBWnAwc2Zv?oc=5
 summary: “减配”AR眼镜大爆发，但为何非得是眼镜 飞象网
 first_seen: '2026-10-23T00:41:23Z'
-last_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-24T00:43:55Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0aXd6aWJCMUZHYzlXLUdRa3FVZjdpUDNTaHhFcmtVXzhNZEVxc2MwRjBrcjVGbV9NMDJLOWVUdV9MSTljTVloSGU5MmRkVVl0WmR0SmxZTVJBWnAwc2Zv?oc=5
   seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1MeXJqRDk1MGZhSm1HeU1yTWpDZ2ZTQ1kwMnRXa0ViQUt2T1dlQWgzeXR0MlpVQ3VyUHBWcU5OcFZiWHVwNlg3ZW1scnI?oc=5
+  seen_at: '2026-10-24T00:43:55Z'
   metrics: {}
   kind: news
 ---

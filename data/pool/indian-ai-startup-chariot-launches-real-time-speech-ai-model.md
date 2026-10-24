@@ -1,0 +1,42 @@
+---
+slug: indian-ai-startup-chariot-launches-real-time-speech-ai-model
+name: Indian AI startup Chariot launches real-time speech AI model, claims edge over Google and Sarvam
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRW1YQjR2dzV1eEdEU25aTXlyWU02cXk0ZHVLMkUwbTJyVnM4RUw3TkVPZkR1WmdjQ242RTdFM3dKNmtXR3NhLThtalBaM0t1bmg1Q0NOaEFocmRIZVRtSUV3a2Qzb0htdnVWZGpyZGt2SDV1WHYyQi1GUDdPX2Uxci00TFJaSjhiZjFzcDFnS2RIb2l3UXRzMkpPdkFkYXdEWk5Penk0elg1a2w1Y3p5a1ZLVm1GYjNBd2RFb0I5S1ZkcnZvWk5aSmFIbVRPa1I3dUFPNDl4LTVqVDlVNmt1RktaTWpNdE9HMFNjdEhscUM2NTNoYmFBbEJQMUt1QdIBgwJBVV95cUxNYUlUZjdOWHNfM1dCaFkxRW83TXh0Ui0wc3M5TV9MMU1odVdHZXhldHJIakJfSU1wb2o2cFAtSHFFSVpBSndxWm52MktodjZtWmkxTnk1Z1dMdEt0aUdFY2lfbTE2Zk1iakppSFlVX3VDOE9IWUZyZ0FLckNfUl9vZTBKZEE1VW8wMGJYTTBlcnVzRWkxZ0owSEJmM19oQTh6RHFjVENmSGR0S3BCelZBb0VzWDBvVDRsVURWWVlFaG9RYlY2MnRBbG5vSllGWU15YmdZOTYySnEzNWJkT1pjZXBVTXRhdzZMYXJtRkNlcXFaYV9fTWZ2YUFrRmFfUnN4Mm9B?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRW1YQjR2dzV1eEdEU25aTXlyWU02cXk0ZHVLMkUwbTJyVnM4RUw3TkVPZkR1WmdjQ242RTdFM3dKNmtXR3NhLThtalBaM0t1bmg1Q0NOaEFocmRIZVRtSUV3a2Qzb0htdnVWZGpyZGt2SDV1WHYyQi1GUDdPX2Uxci00TFJaSjhiZjFzcDFnS2RIb2l3UXRzMkpPdkFkYXdEWk5Penk0elg1a2w1Y3p5a1ZLVm1GYjNBd2RFb0I5S1ZkcnZvWk5aSmFIbVRPa1I3dUFPNDl4LTVqVDlVNmt1RktaTWpNdE9HMFNjdEhscUM2NTNoYmFBbEJQMUt1QdIBgwJBVV95cUxNYUlUZjdOWHNfM1dCaFkxRW83TXh0Ui0wc3M5TV9MMU1odVdHZXhldHJIakJfSU1wb2o2cFAtSHFFSVpBSndxWm52MktodjZtWmkxTnk1Z1dMdEt0aUdFY2lfbTE2Zk1iakppSFlVX3VDOE9IWUZyZ0FLckNfUl9vZTBKZEE1VW8wMGJYTTBlcnVzRWkxZ0owSEJmM19oQTh6RHFjVENmSGR0S3BCelZBb0VzWDBvVDRsVURWWVlFaG9RYlY2MnRBbG5vSllGWU15YmdZOTYySnEzNWJkT1pjZXBVTXRhdzZMYXJtRkNlcXFaYV9fTWZ2YUFrRmFfUnN4Mm9B?oc=5
+summary: Indian AI startup Chariot launches real-time speech AI model, claims edge over Google and Sarvam
+  ET Enterprise AI
+first_seen: '2026-10-24T00:43:55Z'
+last_seen: '2026-10-24T00:43:55Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRW1YQjR2dzV1eEdEU25aTXlyWU02cXk0ZHVLMkUwbTJyVnM4RUw3TkVPZkR1WmdjQ242RTdFM3dKNmtXR3NhLThtalBaM0t1bmg1Q0NOaEFocmRIZVRtSUV3a2Qzb0htdnVWZGpyZGt2SDV1WHYyQi1GUDdPX2Uxci00TFJaSjhiZjFzcDFnS2RIb2l3UXRzMkpPdkFkYXdEWk5Penk0elg1a2w1Y3p5a1ZLVm1GYjNBd2RFb0I5S1ZkcnZvWk5aSmFIbVRPa1I3dUFPNDl4LTVqVDlVNmt1RktaTWpNdE9HMFNjdEhscUM2NTNoYmFBbEJQMUt1QdIBgwJBVV95cUxNYUlUZjdOWHNfM1dCaFkxRW83TXh0Ui0wc3M5TV9MMU1odVdHZXhldHJIakJfSU1wb2o2cFAtSHFFSVpBSndxWm52MktodjZtWmkxTnk1Z1dMdEt0aUdFY2lfbTE2Zk1iakppSFlVX3VDOE9IWUZyZ0FLckNfUl9vZTBKZEE1VW8wMGJYTTBlcnVzRWkxZ0owSEJmM19oQTh6RHFjVENmSGR0S3BCelZBb0VzWDBvVDRsVURWWVlFaG9RYlY2MnRBbG5vSllGWU15YmdZOTYySnEzNWJkT1pjZXBVTXRhdzZMYXJtRkNlcXFaYV9fTWZ2YUFrRmFfUnN4Mm9B?oc=5
+  seen_at: '2026-10-24T00:43:55Z'
+  metrics: {}
+  kind: news
+---
+
+# Indian AI startup Chariot launches real-time speech AI model, claims edge over Google and Sarvam
+
+Indian AI startup Chariot launches real-time speech AI model, claims edge over Google and Sarvam ET Enterprise AI
+
+## 笔记
+
+

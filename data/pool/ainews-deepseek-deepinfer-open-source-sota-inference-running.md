@@ -32,7 +32,7 @@ summary: 'Proudly brought to you by SerpAPI: Today’s release covers a LOT of g
   additional disclosure , their claim to serve 155T tokens/day gets them $38 per SM100/A950 card per hour
   at off peak prices'
 first_seen: '2026-10-22T00:42:47Z'
-last_seen: '2026-10-22T00:42:47Z'
+last_seen: '2026-10-24T00:43:48Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -40,6 +40,11 @@ sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/ainews-deepseek-deepinfer-open-source
   seen_at: '2026-10-22T00:42:47Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://latent.space/p/ainews-deepseek-deepinfer-open-source/
+  seen_at: '2026-10-24T00:43:48Z'
   metrics: {}
   kind: news
 ---

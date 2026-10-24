@@ -1,0 +1,18 @@
+- id: ev-674aa7e8bafc508b
+  project_slug: orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cd
+  url: https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/
+  title: Orchestrating SageMaker AI endpoint auto scaling with AWS CDK
+  published_at: '2026-10-23T16:30:10Z'
+  collected_at: '2026-10-24T00:43:47Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Updating the Amazon Sagemaker AI real-time endpoint configuration (changing the instance type,
+    instance count, or environment variables) causes deployments through AWS CloudFormation or the AWS
+    Cloud Development Kit (AWS CDK) to fail. SageMaker AI requires you to deregister the scalable target
+    before updating the endpoint, but when you deregister it, CloudFormation can’t track the AWS Application
+    Auto Scaling resources. In this post, we show you how to use a reusable CDK construct with AWS CloudFormation
+    custom resources to orchestrate deregister and register auto scaling automatically during endpoint
+    updates. You can update your endpoint configuration and auto scaling parameters in a single deployment
+    without manual intervention. Why this problem occurs When you deploy a SageMaker AI endpoint with
+    native CloudFormation auto scaling resources, then change the endpoint configuration and redeploy,
+    several failure modes emerge. The specific failure depends on what you change and how you w

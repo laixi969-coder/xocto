@@ -33,16 +33,16 @@ url: https://github.com/nichochar/ari
 canonical_url: https://github.com/nichochar/ari
 summary: learn stuff with pen + paper + AI
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nichochar/ari
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 192
+    stars: 198
     forks: 17
     open_issues: 0
   kind: product

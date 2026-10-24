@@ -20,17 +20,17 @@ url: https://jamesyu.org/award-winning-ai-literature/
 canonical_url: https://jamesyu.org/award-winning-ai-literature
 summary: ''
 first_seen: '2026-10-23T00:40:52Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-10-24T00:43:20Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://jamesyu.org/award-winning-ai-literature/
-  seen_at: '2026-10-23T00:40:52Z'
+  seen_at: '2026-10-24T00:43:20Z'
   metrics:
-    points: 58
-    comments: 61
+    points: 65
+    comments: 75
   kind: news
 ---
 

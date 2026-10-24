@@ -21,17 +21,17 @@ canonical_url: https://github.com/petergyang/video-short
 summary: Turn a raw recording into a polished video short with B-roll, motion graphics, captions, and
   music using your favorite AI agent
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/petergyang/video-short
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 120
-    forks: 19
+    stars: 146
+    forks: 20
     open_issues: 0
   kind: product
 ---

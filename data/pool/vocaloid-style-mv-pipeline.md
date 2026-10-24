@@ -41,17 +41,17 @@ summary: 'Production pipeline and Claude Code skill for Vocaloid-style hand-draw
   deterministic Canvas2D/WebGL2 animation engine, JIZURA lyric motion, AI illustration, Blender toon 3D,
   headless rendering to 16:9 and 9:16.'
 first_seen: '2026-10-04T10:23:26Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/EGSECDA/vocaloid-style-mv-pipeline
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 190
-    forks: 13
+    stars: 201
+    forks: 14
     open_issues: 0
   kind: product
 ---

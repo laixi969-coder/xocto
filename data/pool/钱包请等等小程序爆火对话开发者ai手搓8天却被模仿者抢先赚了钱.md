@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQWG9RWURmNC1ObDRXOUE0cH
 canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQWG9RWURmNC1ObDRXOUE0cHVQSEx2R2JDUWd4T3BhTnhpODNHdmpHYW45UG1lbGJtakVlRkc0NVpRU3k0MDhKOXRnbDJFMkZUNm50eTQ4WkxIZE95SmkyVTJvNlZTLVdrbm9abl9WYlJkX0k5Z3kxczFXN0RaUnYwbTRLdjdmMjJxOWp0RkVGdw?oc=5
 summary: “钱包请等等”小程序爆火，对话开发者：AI手搓8天，却被模仿者抢先赚了钱 搜狐网
 first_seen: '2026-10-23T00:41:23Z'
-last_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-24T00:43:55Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQWG9RWURmNC1ObDRXOUE0cHVQSEx2R2JDUWd4T3BhTnhpODNHdmpHYW45UG1lbGJtakVlRkc0NVpRU3k0MDhKOXRnbDJFMkZUNm50eTQ4WkxIZE95SmkyVTJvNlZTLVdrbm9abl9WYlJkX0k5Z3kxczFXN0RaUnYwbTRLdjdmMjJxOWp0RkVGdw?oc=5
   seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQbUlRLTdadFpFcVlUSlVwazVia2FLSFFoVVFfN2h4LWUwTWV1b1VsS1cxU3JkdTJhZ1h4ZTdzTDlnWGw2b29KamRBNElIVnB1cEZxYzU0N25sMzdFZDdRLS1HLVhiZ0tXTWZxX3ctWDMtajFOX2NIUzVYZEtDaGhzRGhzcXJTaTdsbXdVSg?oc=5
+  seen_at: '2026-10-24T00:43:55Z'
   metrics: {}
   kind: news
 ---

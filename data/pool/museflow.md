@@ -33,18 +33,18 @@ url: https://github.com/bynne2602/museflow
 canonical_url: https://github.com/bynne2602/museflow
 summary: A visual node-based workflow extension for generating images and videos with Muse.ai.
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bynne2602/museflow
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
     stars: 82
     forks: 65
-    open_issues: 2
+    open_issues: 1
   kind: product
 ---
 

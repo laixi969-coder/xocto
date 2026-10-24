@@ -1,0 +1,13 @@
+- id: ev-5c341366dc0eafa0
+  project_slug: vercel-ai-ai-sdk-harness-pi10166
+  url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/harness-pi%401.0.166
+  title: 'vercel/ai: @ai-sdk/harness-pi@1.0.166'
+  published_at: '2026-10-23T21:21:01Z'
+  collected_at: '2026-10-24T00:43:23Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '### Patch Changes
+
+
+    - 893ade1: feat(harness): consistently use `harnessStateDirectoryPath()` for session storage of in-process
+    harnesses'

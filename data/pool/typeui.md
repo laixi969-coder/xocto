@@ -20,17 +20,17 @@ url: https://www.typeui.sh/micro-interactions
 canonical_url: https://typeui.sh/micro-interactions
 summary: UI micro interactions prompts for AI
 first_seen: '2026-10-23T00:40:52Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-10-24T00:43:20Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.typeui.sh/micro-interactions
-  seen_at: '2026-10-23T00:40:52Z'
+  seen_at: '2026-10-24T00:43:20Z'
   metrics:
-    points: 68
-    comments: 42
+    points: 78
+    comments: 44
   kind: product
 ---
 

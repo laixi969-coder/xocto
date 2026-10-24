@@ -20,16 +20,16 @@ url: https://github.com/axernel-labs/stackdome
 canonical_url: https://github.com/axernel-labs/stackdome
 summary: An open source self-hostable Railway alternative on K8s
 first_seen: '2026-10-23T00:40:52Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-10-24T00:43:20Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/axernel-labs/stackdome
-  seen_at: '2026-10-23T00:40:52Z'
+  seen_at: '2026-10-24T00:43:20Z'
   metrics:
-    points: 8
+    points: 9
     comments: 0
   kind: product
 ---

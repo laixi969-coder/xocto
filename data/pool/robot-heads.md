@@ -31,16 +31,16 @@ canonical_url: https://robot-heads.fayaz.workers.dev
 summary: 'Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is
   doing.'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://robot-heads.fayaz.workers.dev
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 396
+    stars: 400
     forks: 57
     open_issues: 3
   kind: product

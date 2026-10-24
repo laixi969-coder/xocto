@@ -33,17 +33,17 @@ canonical_url: https://hermes-agent.nousresearch.com/docs/plugins
 summary: '☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant,
   Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.'
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://hermes-agent.nousresearch.com/docs/plugins
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 378
-    forks: 62
+    stars: 405
+    forks: 68
     open_issues: 72
   kind: product
 ---

@@ -31,17 +31,17 @@ url: https://github.com/songconmaisaix31-design/mcpet
 canonical_url: https://github.com/songconmaisaix31-design/mcpet
 summary: 把写代码时的 AI 搭子换上麦当劳制服，养在桌面角落：11:30 喊你干饭、汇报最划算的券、用营养数据把关；跑长任务时同步项目进度与 token 余额。
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/songconmaisaix31-design/mcpet
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 311
-    forks: 17
+    stars: 313
+    forks: 18
     open_issues: 0
   kind: product
 ---

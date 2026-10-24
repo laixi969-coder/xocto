@@ -22,18 +22,18 @@ summary: 'Imagination Studio by keys+Wasserman powered by TensorFold: an AI film
   DGX Spark. Plan a film like a crew (Slate workflow by Sam Wasserman), render Qwen-Image-2.1 / FLUX3-K
   pictures and MiniMax H3 / FastH3 video with sound on TensorFold.'
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/drowzeys/Imagination-Studio-by-keys-Wasserman
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 180
+    stars: 183
     forks: 20
-    open_issues: 21
+    open_issues: 3
   kind: product
 ---
 

@@ -231,3 +231,22 @@
   source_kind: market_signal
   tier: first_party
   fact: Fast, focused, low-cost decisions for any application.
+- id: ev-ddabc7d6d211aa61
+  project_slug: apps
+  url: https://github.com/langgenius/dify/releases/tag/1.18.0
+  title: 'langgenius/dify: v1.18.0 — Smarter Agent Routing, Portable Apps, Deeper Workflow Visibility'
+  published_at: '2026-10-23T06:33:50Z'
+  collected_at: '2026-10-24T00:43:23Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "Dify 1.18.0 brings **Agents that route workflows**, **portable app packages**, **deeper visibility\
+    \ into nested workflow runs**, and the opt-in **Agent Knowledge Base** experience. OpenAPI and the\
+    \ new difyctl expand how you build and manage apps from the command line.\r\n\r\n> [!IMPORTANT]\r\n\
+    > **Read the upgrade guide below before deploying.** Upgrade the API, workers, Agent Backend, and\
+    \ Agent runtime images together. Local Agent sandboxes require a non-empty authentication token, and\
+    \ Agent Backend uses a new run protocol. Source installations require Python 3.13. Install the new\
+    \ difyctl client and sign in again. Preserve your existing `PASSWORD_PEPPER` configuration.\r\n\r\n\
+    ### Release highlights\r\n\r\n#### Agents that choose the next step\r\n\r\nLet an Agent decide which\
+    \ workflow branch to take. Enable **Output Routes**, give each route a selection condition, and connect\
+    \ it to the next step—such as resolving a request directly or handing it to a specialist. The read-only\
+    \ `switch` output exposes the c"

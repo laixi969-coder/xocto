@@ -37,18 +37,18 @@ url: https://artex-demo.vercel.app/
 canonical_url: https://artex-demo.vercel.app
 summary: AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 Autumn-27/ARTEX
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-24T00:43:23Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://artex-demo.vercel.app/
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-24T00:43:23Z'
   metrics:
-    stars: 1703
-    forks: 837
-    open_issues: 1
+    stars: 1815
+    forks: 891
+    open_issues: 3
   kind: product
 ---
 
