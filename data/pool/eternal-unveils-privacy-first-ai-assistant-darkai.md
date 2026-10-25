@@ -1,0 +1,41 @@
+---
+slug: eternal-unveils-privacy-first-ai-assistant-darkai
+name: Eternal unveils privacy-first AI assistant Dark.ai
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQTFU3TS05WEEwVUF6dXBuWWpqSDVzZk9qX184Z0JDX1FOSXF6QnFCSHZaRTM4MGJrY1VtMnNGU0tjSlg0dlB5NTV2aE5lUXpxU2dKd25TQjVkM2tqMWVyWU50MkEyajZVUllPQVROVk9taDdmUnpMLUpraFBWZThxSmFxV2pvSG4yU0Q2QndLVEliazdzR0Fhbk1GbWR1bEpVN0NyNTNmeGRtODEyZEJZ0gG2AUFVX3lxTE9KeGNRUVBFY1JZZzU3NXkzTFBrUWpWNHZXb3owRU9kZUE1OWVBY2ZKYmlyQ0Z2ZkM2OGtqNGtQb2p4cmV5ekxROXpRci1JRFN5Mlc5ajBlUUxtVm96UEZFMU1YaVRrMW1nQUcxZ1JFazFRLTNMY2FUcWg5NWlWRHg0Znh5MlpUQ2tLUTdZaTg1VnpQSWpFMnRmRjJ4aklMLXZ5NFZnV0FtZVdFeUItTURDc1FfRzR3?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQTFU3TS05WEEwVUF6dXBuWWpqSDVzZk9qX184Z0JDX1FOSXF6QnFCSHZaRTM4MGJrY1VtMnNGU0tjSlg0dlB5NTV2aE5lUXpxU2dKd25TQjVkM2tqMWVyWU50MkEyajZVUllPQVROVk9taDdmUnpMLUpraFBWZThxSmFxV2pvSG4yU0Q2QndLVEliazdzR0Fhbk1GbWR1bEpVN0NyNTNmeGRtODEyZEJZ0gG2AUFVX3lxTE9KeGNRUVBFY1JZZzU3NXkzTFBrUWpWNHZXb3owRU9kZUE1OWVBY2ZKYmlyQ0Z2ZkM2OGtqNGtQb2p4cmV5ekxROXpRci1JRFN5Mlc5ajBlUUxtVm96UEZFMU1YaVRrMW1nQUcxZ1JFazFRLTNMY2FUcWg5NWlWRHg0Znh5MlpUQ2tLUTdZaTg1VnpQSWpFMnRmRjJ4aklMLXZ5NFZnV0FtZVdFeUItTURDc1FfRzR3?oc=5
+summary: Eternal unveils privacy-first AI assistant Dark.ai The Financial Express
+first_seen: '2026-10-25T00:21:40Z'
+last_seen: '2026-10-25T00:21:40Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxQTFU3TS05WEEwVUF6dXBuWWpqSDVzZk9qX184Z0JDX1FOSXF6QnFCSHZaRTM4MGJrY1VtMnNGU0tjSlg0dlB5NTV2aE5lUXpxU2dKd25TQjVkM2tqMWVyWU50MkEyajZVUllPQVROVk9taDdmUnpMLUpraFBWZThxSmFxV2pvSG4yU0Q2QndLVEliazdzR0Fhbk1GbWR1bEpVN0NyNTNmeGRtODEyZEJZ0gG2AUFVX3lxTE9KeGNRUVBFY1JZZzU3NXkzTFBrUWpWNHZXb3owRU9kZUE1OWVBY2ZKYmlyQ0Z2ZkM2OGtqNGtQb2p4cmV5ekxROXpRci1JRFN5Mlc5ajBlUUxtVm96UEZFMU1YaVRrMW1nQUcxZ1JFazFRLTNMY2FUcWg5NWlWRHg0Znh5MlpUQ2tLUTdZaTg1VnpQSWpFMnRmRjJ4aklMLXZ5NFZnV0FtZVdFeUItTURDc1FfRzR3?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
+  metrics: {}
+  kind: news
+---
+
+# Eternal unveils privacy-first AI assistant Dark.ai
+
+Eternal unveils privacy-first AI assistant Dark.ai The Financial Express
+
+## 笔记
+
+

@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYm9rT0xTYzFz
 summary: Up to Half of the “Best Tools” Lists Cited by AI Search Are Written by the Vendors Themselves,
   New Minuttia Study Finds Inter Press Service
 first_seen: '2026-10-23T00:41:23Z'
-last_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-25T00:21:40Z'
 status: pending_filter
 sources:
 - newssearch
@@ -30,6 +30,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxPYm9rT0xTYzFzR3RVbzZYWWNpamVXN0ZfMDR4c3J4ZG9sRjZpZWtxemFkTFpvS0FYdkQtQkxRSGpOYzZMRkNhWG1NODVvTmFSYlh2LXhBTE03bFE3V1J5Si1MZVF4U0ZxTWl3c2VSYWh5Umt2YUtCV3Jla05qd3pjS2l4c3BSZ1FLM1R1SWU1elVEMlFJUXpOekV0MFdmRWxqcXYyRVpCdlZRZHNOOGVpNDFfSTFUSUs5YjEtTkdmRXBTNTkzRE5XTDQ2NHllUUdNSW90a0VkdUxuVjVwNjMtU0dkeFNsQjRPZ1ZXdVNB?oc=5
   seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxNcWxkMmpLenR4RG9iYzUwcUxlS3JuOFNDNExGeEFQSVc2UDI1dmlvWTJ4X240M0MxelFYZ01VMTc2TUdGZ21JR19fUWdRbHM5UFhuTzJqR2lqMC1TZVhKYk9aTzlVQ29jS3Z4RW5rVk53emR1TVpZTWtqQ3E0N1ZYMHZiRmszVWVBSU43Wlo2RFdvc3RKYzUxZC02M3U5YmRzQzZCRnJTQ3NxUDliNWVsblVyanNFYzNZcDMtYll6ZUY5dFhVX29SbFQ4ektxMVFvamZwa2VoZ1J5UDlKcjNMZF9qM2lKQjh6U1FhQUJMS0VQb3dS?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
   metrics: {}
   kind: news
 ---

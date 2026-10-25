@@ -20,17 +20,17 @@ url: https://www.jefftk.com/p/air-purifiers-as-white-noise-machines
 canonical_url: https://jefftk.com/p/air-purifiers-as-white-noise-machines
 summary: Air Purifiers as White Noise Machines
 first_seen: '2026-10-24T00:43:20Z'
-last_seen: '2026-10-24T00:43:20Z'
+last_seen: '2026-10-25T00:21:02Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.jefftk.com/p/air-purifiers-as-white-noise-machines
-  seen_at: '2026-10-24T00:43:20Z'
+  seen_at: '2026-10-25T00:21:02Z'
   metrics:
-    points: 55
-    comments: 82
+    points: 170
+    comments: 156
   kind: news
 ---
 

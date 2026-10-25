@@ -31,18 +31,18 @@ canonical_url: https://github.com/Fei2411/DeepSeek-Bot
 summary: A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group
   chats.
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Fei2411/DeepSeek-Bot
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 3465
-    forks: 325
-    open_issues: 93
+    stars: 3753
+    forks: 349
+    open_issues: 104
   kind: product
 ---
 

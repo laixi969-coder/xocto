@@ -22,17 +22,17 @@ summary: MCP (Model Context Protocol) server for game hacking & reverse engineer
   base of **4,100+ skills** with full source code archives, specialized agents, and workflow tools --
   designed to be plugged into Claude, Cursor, or any MCP-compatible client.
 first_seen: '2026-10-24T00:43:23Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/1llu50ry/mcp-gamehacking
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 264
-    forks: 53
+    stars: 350
+    forks: 67
     open_issues: 1
   kind: product
 ---

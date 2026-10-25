@@ -54,16 +54,16 @@ summary: '## [3.37.0](https://github.com/openai/openai-python/compare/v3.36.1...
   * **deps:** bump astral-sh/setup-uv from 10.2.0 to 10.3.0 ([#4109](https://github.com/openai/openai-python/issues/4109))
   ([fa9a161](https://github.com/openai/openai-python/commit/fa9a1616fd175e68dec9960d33dee2caefc0e8d3))'
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/openai-python/releases/tag/v3.37.0
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    reactions: 0
+    reactions: 5
   kind: news
 ---
 

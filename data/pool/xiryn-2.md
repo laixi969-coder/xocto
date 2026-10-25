@@ -22,17 +22,17 @@ summary: 'Xiryn — the open-source personal agent. Does everything Muse, Grok B
   own computer: each agent gets its own Linux desktop in Docker, any model with your keys, an encrypted
   vault, and control from Telegram.'
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://xiryn.com
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 307
-    forks: 48
+    stars: 312
+    forks: 51
     open_issues: 2
   kind: product
 ---

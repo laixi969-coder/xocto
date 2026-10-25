@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdGRyd1BrNFZ0
 summary: Bazaarvoice and DaVinci Commerce bring authentic shopper reviews to AI shopping agents The Manila
   Times
 first_seen: '2026-10-23T00:41:23Z'
-last_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-25T00:21:40Z'
 status: pending_filter
 sources:
 - newssearch
@@ -29,6 +29,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdGRyd1BrNFZ0aHV3SExzblBMTmNmX0xQMy1FOFR1a1V5dkpwQkpHQnNiSFNmckY2cjVxQ2hLdnpVcGtQd2NkM1BGMnRVRll3UklITDVrRnZBRm1CaGlzNU5URTlBdXhHVTlXRW9hTGdyd0UySEdMcEpXdWN4Tkhxanh4WUlqdl95OHg4Zlk3WjcxVVppWm05dHBjQ3lfRTZlVmUtODdHWUYyck9BdmE0aVpib3p3V253NmR6V2o3Q2xTbHVDaW01NkRqblFPME0zWkc4blBYcEU1OUdOVlp6WUp1bTI4d3dILUp0d2tYaEdaclB4amVB0gH3AUFVX3lxTFB0ZHJ3UGs0VnRodXdITHNuUExOY2ZfTFAzLUU4VHVrVXl2SnBCSkdCc2JIU2ZyRjZyNXFDaEt2elVwa1B3Y2QzUEYydFVGWXdSSUhMNWtGdkFGbUJoaXM1TlRFOUF1eEdVOVdFb2FMZ3J3RTJIR0xwSld1Y3hOSHFqeHhZSWp2X3k4eDhmWTdaNzFVWmlabTl0cGNDeV9FNmVWZS04N0dZRjJyT0F2YTRpWmJvendXbnc2ZHpXajdDbFNsdUNpbTU2RGpuUU8wTTNaRzhuUFhwRTU5R05WWnpZSnVtMjh3d0gtSnR3a1hoR1pyUHhqZUE?oc=5
   seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPSWY3X256c2FGYjdZNGJZSS1pUUdFajZ3OTdjYVVHTDlvczVnSTZtMU1Jd2lJbDR1QXhDTkJNUHFLME9tOUZFWnZNVzZaTVNEM05YbjRqMXJZYmdTTFZnZTNJTDR3OUF3SjJjdEVLSmRZUzZkZGpxWDg1TnJ1TFBLVGdmSi1VVVRVTmpfNTR5M0N4dTNIRjg1ZFZ2Tkd1MldleXQ4WWU5RUlWN2hT?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
   metrics: {}
   kind: news
 ---

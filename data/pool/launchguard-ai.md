@@ -30,16 +30,16 @@ canonical_url: https://github.com/Jack81st/launchguard-ai
 summary: Durable evidence-first LangGraph workflow for policy-cited pricing, human approval, and safe
   Shopify draft delivery.
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Jack81st/launchguard-ai
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 56
+    stars: 69
     forks: 1
     open_issues: 0
   kind: product

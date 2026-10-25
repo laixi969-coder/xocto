@@ -22,16 +22,16 @@ summary: In the era of Generative AI, the data is the primary attack surface. Th
   the ML data pipeline from ingestion to vector storage, ensuring that the foundation of the AI model
   remains uncompromised and privacy-compliant.
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-21T00:38:03Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CyberDefenderAI/AI-Data-Security-Governance
-  seen_at: '2026-10-21T00:38:03Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 59
+    stars: 45
     forks: 0
     open_issues: 0
   kind: product

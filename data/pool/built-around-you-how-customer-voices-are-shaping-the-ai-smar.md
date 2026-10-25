@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk9nMFRxbjEtNmZhVnJXVz
 canonical_url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWk9nMFRxbjEtNmZhVnJXVzZMQTJZRmoxeXRDVjYwOS1iTXpIeDhOaXNHc2FvbnNrcng0SjA1UTRGdTJBZFlmbDZmZExoWkZJYkV3UXJiZFFMVjBBWVJ6eU9VMTlaQTFKU3MtMm43VGlNUEtzbHY1LUNWZjhLQUVUMHBtRGtKdWZoMmdwRHh6YzBwcUREdEZ4OGxsT0MwNXZFcHU4S2lZbEhaRy1SYTI5SlozR1E5d0k5bGxQWVhaLWdzcUxQTTZhUmVwMU5aSHVjdFMyWExKSlFIeG1XQzdvYnoyUdIB4wFBVV95cUxNWk9nMFRxbjEtNmZhVnJXVzZMQTJZRmoxeXRDVjYwOS1iTXpIeDhOaXNHc2FvbnNrcng0SjA1UTRGdTJBZFlmbDZmZExoWkZJYkV3UXJiZFFMVjBBWVJ6eU9VMTlaQTFKU3MtMm43VGlNUEtzbHY1LUNWZjhLQUVUMHBtRGtKdWZoMmdwRHh6YzBwcUREdEZ4OGxsT0MwNXZFcHU4S2lZbEhaRy1SYTI5SlozR1E5d0k5bGxQWVhaLWdzcUxQTTZhUmVwMU5aSHVjdFMyWExKSlFIeG1XQzdvYnoyUQ?oc=5
 summary: 'Built Around You: How Customer Voices Are Shaping the Ai+ Smartphone Experience The Tribune'
 first_seen: '2026-10-17T00:31:16Z'
-last_seen: '2026-10-21T00:38:32Z'
+last_seen: '2026-10-25T00:21:40Z'
 status: pending_filter
 sources:
 - newssearch
@@ -48,6 +48,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9aeDRVNnYxQ0x2eXZnMDRZajJKdEJPekplczJNQk5TbGRMZzBJaXRvalhUQUVsYWNaelFTTmtJWXptT1M2T1pTYnA4bFNoOTBBanEyelgyb0J1a2ZndExrNll4VFFpeWlaZGpqMGpVZUw5Z0E2WkVRd1BWblZtTlk?oc=5
   seen_at: '2026-10-21T00:38:32Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivAFBVV95cUxNT1FCWFhsNXVpZHRWdWxfX2NUWVhVRTdjZ0pKRU9vdnRmNGNqU2h0dTJtc0haUTRxUnRxS2k5YjA3alZoZ2IxSk5tazNWY1pTN3B1ckpTMmRmWDlMd1lEcjgwclg3Z1hsODM2WkxOVnQxbk9aNkFqMVlDOWEwdm9iRWZEMDVtcHZOTTl2Mm5vZGxEZGJMdTFabjJHMk13SHRNM3MwQmdqUzlWdVJkLUkxYWVEVVA1RTBBcHZkVA?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
   metrics: {}
   kind: news
 ---

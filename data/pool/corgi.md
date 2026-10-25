@@ -20,17 +20,17 @@ url: https://corgi.computer/
 canonical_url: https://corgi.computer
 summary: a helpful {agent, terminal} multiplexer
 first_seen: '2026-10-24T00:43:20Z'
-last_seen: '2026-10-24T00:43:20Z'
+last_seen: '2026-10-25T00:21:02Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://corgi.computer/
-  seen_at: '2026-10-24T00:43:20Z'
+  seen_at: '2026-10-25T00:21:02Z'
   metrics:
-    points: 25
-    comments: 3
+    points: 125
+    comments: 42
   kind: product
 ---
 

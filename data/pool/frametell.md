@@ -35,17 +35,17 @@ canonical_url: https://frametell.ai
 summary: 'Frametell: turn your ideas and material into vivid explainer videos with an AI director agent.
   Local-first, any model.'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://frametell.ai
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 391
-    forks: 79
+    stars: 398
+    forks: 80
     open_issues: 7
   kind: product
 ---

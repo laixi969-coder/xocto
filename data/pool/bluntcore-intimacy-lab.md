@@ -31,17 +31,17 @@ url: https://github.com/VITASID57/bluntcore-intimacy-lab
 canonical_url: https://github.com/VITASID57/bluntcore-intimacy-lab
 summary: 🧬 钝核｜人机亲密实验室 · Bluntcore Intimacy Lab｜人机恋、成人 AI、Prompt、Memory、Agent、模型床测与实验记录。
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/VITASID57/bluntcore-intimacy-lab
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 591
-    forks: 101
+    stars: 607
+    forks: 102
     open_issues: 0
   kind: product
 ---

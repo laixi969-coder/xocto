@@ -34,17 +34,17 @@ canonical_url: https://opencalque.com
 summary: Open-source 2D architectural editor with a Figma-like interface, a local CLI, and practical workflows
   for humans and AI agents.
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://opencalque.com
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 41
-    forks: 3
+    stars: 42
+    forks: 4
     open_issues: 3
   kind: product
 ---

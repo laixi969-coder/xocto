@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkxyUktrLVhVMVNlRUxaQk
 canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkxyUktrLVhVMVNlRUxaQkFuNU85SmxzdXRFaG96dWltMXRhN2xrRmRmVEZ1cHBrV3IyeG5wLU4zQ2UySldpblVnQnNLSnNSbmJtbXJmYVpJWHFhSm0yRGE4VHRTUUt4MmlIa1FnXzNnNjdFZVFPbHVHUlYzUG9wdk85N3ItVG9Zb3BMLWVjeEVpZUNaZ1RlWHJFVTJaejhuOF91NWI3bXMtZmJuNmZNVTRBOUk?oc=5
 summary: 'AAOI vs. CBRS: Which AI Infrastructure Stock Has an Edge Now? TradingView'
 first_seen: '2026-10-24T00:43:55Z'
-last_seen: '2026-10-24T00:43:55Z'
+last_seen: '2026-10-25T00:21:40Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkxyUktrLVhVMVNlRUxaQkFuNU85SmxzdXRFaG96dWltMXRhN2xrRmRmVEZ1cHBrV3IyeG5wLU4zQ2UySldpblVnQnNLSnNSbmJtbXJmYVpJWHFhSm0yRGE4VHRTUUt4MmlIa1FnXzNnNjdFZVFPbHVHUlYzUG9wdk85N3ItVG9Zb3BMLWVjeEVpZUNaZ1RlWHJFVTJaejhuOF91NWI3bXMtZmJuNmZNVTRBOUk?oc=5
   seen_at: '2026-10-24T00:43:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxNLVRvbDFXcEVDYkFBaWxKX2J4M1plbkhJa3U0VW8wTFdKR0prRGY4aU5pLWJaQ1h3TGdHbjFGRlZscndYSTRnNy1UdENpY0tveFpzaGE0bm1vWGVBTTNCLUctSWs0ODAzN242ZHlReXI4LXh2Mk9CczBhWEE1RkttRGRyT2N4UUJiSFpPVHB6cTVoOEZydDBfQmE2WnU0Q0Y5N2VfTVNORU9oUnQxVS1WZzM1bw?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
   metrics: {}
   kind: news
 ---

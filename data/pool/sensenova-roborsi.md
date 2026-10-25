@@ -21,18 +21,18 @@ canonical_url: https://github.com/OpenSenseNova/SenseNova-RoboRSI
 summary: A unified framework for building, evaluating, and recursively improving embodied agents. 🚀 Code
   release coming soon.
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/OpenSenseNova/SenseNova-RoboRSI
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 261
-    forks: 7
-    open_issues: 3
+    stars: 268
+    forks: 8
+    open_issues: 2
   kind: product
 ---
 

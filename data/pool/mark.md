@@ -31,8 +31,8 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-10-17T00:31:00Z'
-status: rejected
+last_seen: '2026-10-25T00:21:40Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -459,6 +459,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/
   seen_at: '2026-10-17T00:31:00Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTh4WmR0WVRCOXE2LXBVUmFkVWt4dE5UMVVXLXlZcFUzbFFZc2tQZWxFenJCVnNKSUtMUDQ1Z05va21sMXZlS3cycEdnZ2V4NjRBNVJWb2pRczRYRm1OYWVfdENUTlh6OE9BTE9LUlNlWjhON1dOX015cWRNelJxX2w3X0ZhNVdOdkVPX3l3X2FPX3VCNy1INHBvWWI1N3h2WG1VOE9VRDlJOGFoa0lR?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
   metrics: {}
   kind: news
 ---

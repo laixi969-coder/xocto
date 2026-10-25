@@ -1,0 +1,18 @@
+- id: ev-d25cbae1eb8ccda7
+  project_slug: github-15
+  url: https://www.v2ex.com/t/1251473
+  title: '[dsh-gitea-search 发布] DSH+Gitea 引入 SQLite FTS 索引+向量记忆副库'
+  published_at: '2026-10-24T06:18:10Z'
+  collected_at: '2026-10-25T00:21:00Z'
+  source_kind: product
+  tier: independent
+  fact: "终于搓完发布了 #dsh #dsh-gitea-search `欢迎试用、提建议`\r\n\r\n**项目地址**： https://github.com/offzen/dsh-gitea-search\r\
+    \n\r\n**开发的动机**：token 不够烧的，还经常因为重复的任务延长等待，无数的 429 限流...原理上很多任务可以在本地加速。\r\n\r\nDSH 的插件机制很适合自己改造，只有一个搜索框显然是太弱了；手动去输脚本使用上不现实。\r\
+    \n\r\n**跨会话检索和长期记忆**：用 SQLite 全文索引加快关键词查找，再用向量副库做语义相近内容的检索，方便找回以前的方案、命令和报错等片段。（你通常记得的就只有片段信息，如果让 AI\
+    \ 检索会很慢）\r\n  大量代码和信息本来就在本地，不必整包丢给云端模型去耗时间和 token 。本地先找出来，再只把命中的上下文交给模型，交互会更快，也更省上下文。模型看到的是筛过的历史方案、命令和报错，而不是整份会话，回答也会更准。\r\
+    \n\r\n原理部分：\r\n[见链接]( https://tof.cloudns.ch/default/95.html)\r\n## 增强 dsh 的搜索-引入 SQLite FTS 索引+向量记忆副库\r\
+    \n在 DSH （ DeepSeek Harness ） 及大模型 Agent 架构中，保存会话、上下文并解决“文件保存难以搜索”的问题，通常有两类存储需求：\r\n\r\n会话状态与事件回放（\
+    \ Session State & Event Replay ）：要求保证上下文完整性、严格时序、确定性重放与分支（ Fork ）。\r\n上下文检索与长期记忆（ Context Retrieval\
+    \ & Memory/RAG ）：要求能够跨会话精准定位历史方案、命令、错误记录或语义相似内容。\r\n\r\n### 术语解释：rg 逐次扫描 SQLite FTS 索引 向量记忆副库 Qdrant\
+    \ \r\n[见链接]( https://tof.cloudns.ch/tech/98.html) 以后再放到 github 文档里 \r\n\r\n在大模型 Agent （代理）架构中引入了 **SQLite\
+    \ FTS (全文索引)** 与 **向量记忆副库**，并将检索功能与本地的 Gitea （私有代码托管平台）以及本地历史会话进行了深度绑定。\r\n\r\n### \U0001F6E0️ 它解决了什么核心问题？"

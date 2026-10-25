@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5HUUZldEFHOHMwTEpGUlBlS0
 canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5HUUZldEFHOHMwTEpGUlBlS0JuTFkxMHFTM3VHbWxMY282U3E2aHIydWx4UTVUT202X2pyWmt4WUdka01wamJERw?oc=5
 summary: Anthropic杀入AI智能体战场：Claude Duet重磅亮相 财联社
 first_seen: '2026-10-23T00:41:23Z'
-last_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-25T00:21:40Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5HUUZldEFHOHMwTEpGUlBlS0JuTFkxMHFTM3VHbWxMY282U3E2aHIydWx4UTVUT202X2pyWmt4WUdka01wamJERw?oc=5
   seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBJV1FreV9QaUNHeUNJVDBnblBmNTIzdFRIZmVtQUp3cXE5NC1VSE1OTmJjZ1NHMUwwOVczaU0waUN3N3VQOHd0TFRWdlBpT0c5MnppQ0owMnlwdXJ5ZmVfUnpoeVhuQQ?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
   metrics: {}
   kind: news
 ---

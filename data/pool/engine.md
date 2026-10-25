@@ -30,7 +30,7 @@ url: https://engine.tastelabs.com/
 canonical_url: https://engine.tastelabs.com
 summary: The Brand API, a taste tool for agents
 first_seen: '2026-09-15T18:45:31Z'
-last_seen: '2026-10-24T00:43:47Z'
+last_seen: '2026-10-25T00:21:40Z'
 status: pending_filter
 sources:
 - hackernews
@@ -98,6 +98,11 @@ sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/
   seen_at: '2026-10-24T00:43:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxPT3dDblZwSGFhNHd5Nm1kZURWbFNaYlFfS3VhXy0xd0FlS0dlVnZJUEV0R0lKSkZBTkZHT242MTFHSTd6a3JRb29tSDhOd2tQeGt1V2NTQ1I5dm0wZ3Iya3JxRGtKenpGUlVQcWN3d3FJUWJFd1Q0cFlQanAwc0lIR0tEY0FPVV96UzQ4NnJ2X0F0TGpFWHc2eC01LU5MZ0c2RWtLZFVMYW1tSnNQSmx5QWE3RWE0ZXZqalVDWjU2NS1FM291U0tRT2N0X0x0MEpiV0VfZHpaai14czBSdEp6Z1ZB0gHnAUFVX3lxTE9nYUlFMnA1N201am45X25LUjFIaUdvYmllRWNQRUgxSDF5V0JRWG5tb0tJd0JCUGFPQzhNcGtFZU1VZFV2dkhmSjhkTmtZSklPNWJ3aWgzRE9UWEpUTm40ZTRXa1ZqRDhodXNVWmR5SjNlRG9tM0V0TURORjZsYVFsVmZGaExuYlJUYTRZM2lnaXVaUVpnR3FVTGxUVmFUZ1N4ZlJCbkNrdlZwVHl0SFowcENCM01OZ3hxemlWRng1d3F5WVE0MkNYYmNzN0VhWExZbUtBYjNMNXQ5c3Bfc1pvSHNOQWt2cw?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
   metrics: {}
   kind: news
 ---

@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNWUVFMjQ4R0RV
 summary: Insurity Showcases the Next Generation of Intelligent Insurance Software at Largest Excellence
   in AI & Insurance Conference Yet Carroll County Mirror-Democrat
 first_seen: '2026-10-24T00:43:55Z'
-last_seen: '2026-10-24T00:43:55Z'
+last_seen: '2026-10-25T00:21:40Z'
 status: pending_filter
 sources:
 - newssearch
@@ -30,6 +30,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNWUVFMjQ4R0RVc3Q4bEYwMjlYWEFHTGVQd0RTclNwbFlHZUN6UzFCRS1iRFBmTUxMX2M3VlA1QkpYNkluY04xaG16ZmZNVFFrUFFRZ042MFU0THpGMVJidzlGNEt3M0pCempSU0dJS2NnQXI2SE5jVUcxWkFhVDdCSDNhaTI1TVM5S3JFSHNIc1F6ejJfV3h5OWdoM1VIRnRHeTlFVjlndlg5ZUJtdU1EanJ2ZkdCbDQ?oc=5
   seen_at: '2026-10-24T00:43:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwJBVV95cUxPT3FRZHBUMnM0Qmswc0FtWVJvN2dwZmVJN01jeFFSSVZZOFd5b3JvMkxvLV9oVXNyZzhMVUJKbGxSV3dJV25XOEt6TDd5aEpHbER1TzRRUkJPclFKejZmVnRWaEJvLXhFUFJGc3ZxbDlQTnJDdjEzU2wyV2xxcnJ4ZnVJTURTVjNPZHhlcks1dDZTRDF0endjWFBIaThDU3VRVlRXcG9mTEttaHRXeUZwUUtuZ3JpemNERDVwamlUa1ZYNDZOMko5Qk9YaFBNZm5zYTEwOHlmX0k0S1BidnI3X05mTkdsaXZDYnBuY1BrWV9XU0s1UFhNTnJsam5JV3JEUE9xUXgzaXhFRkhIQWxJ?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
   metrics: {}
   kind: news
 ---

@@ -1,0 +1,42 @@
+---
+slug: we-cannot-take-advisors-out-of-the-equation-capgeminis-kiran
+name: '‘We cannot take advisors out of the equation’: Capgemini’s Kiran Kumar Boosam on AI in insurance'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMGM4VGxUN1B4TEhLcDQxd2NsaXhyVER1NjJaMmlmT2ZEYjVuS2xxYmIxYmlRbmFnQUpvSlBLMml1c3FhcDZ6d2ZMVUE5VDZWei0tU0IwbFRYMk42Zkl4Rk0tcUxtd2lvUWFlNXhLbExUYmxZRGZmV0c5MUk1UGJsWUJ2QkNpV1k2SzhNVThZSXNGcGQ5S3hVR0Fla3VJOUI2ZndZbTY1Z0dpWEdNRFU5cnVubm95TDFaNjlqR1ZMWkc1VWw0ZDlNNmRuUlZQOHV1d0FQTWZRZXZONndocldIejdvVGRGOC1UNVZldTlIbTh4Z9IB9wFBVV95cUxPZ0JsOUhrN2hIM01CR09fMWZNbkVyZTROU3dmMEZCUTJCbzlTeXhiVWIwWkFJV0d6NVVIa3h3SzlqUmNNenJiS2JyOU5XYWpPM3I2TVhRcFk1MTQ2NGZjUzBtSkJmckRXWDEzS0ZLU00zeVZ2NF9XYnZsOU9SdFFncktsQ3owR0VKc1NoSnB4MW91ZHZUOUp3S2IxNGRjZGpEZk0wUWs2dEpOdjFMVDJJQ3E5UnpQcHhBMTJLM3RUdkh3N3R4cDNnclhZQlZLTDNmeUFwbWliVDlKQU5IWDgwSW0zNkRFRXcxNnM2bkFpVlZoUzNGcjRB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMGM4VGxUN1B4TEhLcDQxd2NsaXhyVER1NjJaMmlmT2ZEYjVuS2xxYmIxYmlRbmFnQUpvSlBLMml1c3FhcDZ6d2ZMVUE5VDZWei0tU0IwbFRYMk42Zkl4Rk0tcUxtd2lvUWFlNXhLbExUYmxZRGZmV0c5MUk1UGJsWUJ2QkNpV1k2SzhNVThZSXNGcGQ5S3hVR0Fla3VJOUI2ZndZbTY1Z0dpWEdNRFU5cnVubm95TDFaNjlqR1ZMWkc1VWw0ZDlNNmRuUlZQOHV1d0FQTWZRZXZONndocldIejdvVGRGOC1UNVZldTlIbTh4Z9IB9wFBVV95cUxPZ0JsOUhrN2hIM01CR09fMWZNbkVyZTROU3dmMEZCUTJCbzlTeXhiVWIwWkFJV0d6NVVIa3h3SzlqUmNNenJiS2JyOU5XYWpPM3I2TVhRcFk1MTQ2NGZjUzBtSkJmckRXWDEzS0ZLU00zeVZ2NF9XYnZsOU9SdFFncktsQ3owR0VKc1NoSnB4MW91ZHZUOUp3S2IxNGRjZGpEZk0wUWs2dEpOdjFMVDJJQ3E5UnpQcHhBMTJLM3RUdkh3N3R4cDNnclhZQlZLTDNmeUFwbWliVDlKQU5IWDgwSW0zNkRFRXcxNnM2bkFpVlZoUzNGcjRB?oc=5
+summary: '‘We cannot take advisors out of the equation’: Capgemini’s Kiran Kumar Boosam on AI in insurance
+  Moneycontrol.com'
+first_seen: '2026-10-25T00:21:40Z'
+last_seen: '2026-10-25T00:21:40Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMGM4VGxUN1B4TEhLcDQxd2NsaXhyVER1NjJaMmlmT2ZEYjVuS2xxYmIxYmlRbmFnQUpvSlBLMml1c3FhcDZ6d2ZMVUE5VDZWei0tU0IwbFRYMk42Zkl4Rk0tcUxtd2lvUWFlNXhLbExUYmxZRGZmV0c5MUk1UGJsWUJ2QkNpV1k2SzhNVThZSXNGcGQ5S3hVR0Fla3VJOUI2ZndZbTY1Z0dpWEdNRFU5cnVubm95TDFaNjlqR1ZMWkc1VWw0ZDlNNmRuUlZQOHV1d0FQTWZRZXZONndocldIejdvVGRGOC1UNVZldTlIbTh4Z9IB9wFBVV95cUxPZ0JsOUhrN2hIM01CR09fMWZNbkVyZTROU3dmMEZCUTJCbzlTeXhiVWIwWkFJV0d6NVVIa3h3SzlqUmNNenJiS2JyOU5XYWpPM3I2TVhRcFk1MTQ2NGZjUzBtSkJmckRXWDEzS0ZLU00zeVZ2NF9XYnZsOU9SdFFncktsQ3owR0VKc1NoSnB4MW91ZHZUOUp3S2IxNGRjZGpEZk0wUWs2dEpOdjFMVDJJQ3E5UnpQcHhBMTJLM3RUdkh3N3R4cDNnclhZQlZLTDNmeUFwbWliVDlKQU5IWDgwSW0zNkRFRXcxNnM2bkFpVlZoUzNGcjRB?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
+  metrics: {}
+  kind: news
+---
+
+# ‘We cannot take advisors out of the equation’: Capgemini’s Kiran Kumar Boosam on AI in insurance
+
+‘We cannot take advisors out of the equation’: Capgemini’s Kiran Kumar Boosam on AI in insurance Moneycontrol.com
+
+## 笔记
+
+

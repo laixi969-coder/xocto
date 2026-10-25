@@ -31,18 +31,18 @@ canonical_url: https://github.com/yi-yezhiqiu/dsh-prompt-market
 summary: 'DeepSeek Harness 提示词市场插件：对话框内一键浏览、搜索、收藏提示词，选中即写入输入框。零后端、免构建、数据只存本机。 | A prompt marketplace for
   DSH: browse, search and insert prompts straight into the composer.'
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yi-yezhiqiu/dsh-prompt-market
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 104
+    stars: 106
     forks: 0
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPdEpLUlhIVjNNeHhnaXNGaE
 canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPdEpLUlhIVjNNeHhnaXNGaEJxZWpNQUdfcUZzWXB0MEpPbS1zQndrT1pUS2lGN1Z2YWlJSzMybkwwaDBuT1lFc1dVSXd6ekRYcF8ydXpELXpRWGZfcno1Y1A1THZORlhuMzdnc0ROWHEybXVMSU1ILU1Ka1IzZllPdXFhb1AxUmhTZXJ6bndZaw?oc=5
 summary: 多个App拒绝豆包手机助手，金融机构对外部智能体说“不” 21财经
 first_seen: '2026-10-24T00:43:55Z'
-last_seen: '2026-10-24T00:43:55Z'
+last_seen: '2026-10-25T00:21:40Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPdEpLUlhIVjNNeHhnaXNGaEJxZWpNQUdfcUZzWXB0MEpPbS1zQndrT1pUS2lGN1Z2YWlJSzMybkwwaDBuT1lFc1dVSXd6ekRYcF8ydXpELXpRWGZfcno1Y1A1THZORlhuMzdnc0ROWHEybXVMSU1ILU1Ka1IzZllPdXFhb1AxUmhTZXJ6bndZaw?oc=5
   seen_at: '2026-10-24T00:43:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWHd0ajdjLUxIVzVXTDZKODBkUTE2d1hUVzRNN0RiTHYtUDBKcVF0NGVEdG1wV3ZhWUduSEF5OE5pVkN4QzJRYlRvSmZYNzVLLWFPWUtHYks4WlJ3bEtVWGFTdEVrN3ZUb3VIME5QLWJFNXJhd3Q2QktHbWxQek9jX3p5dHdJYUluTkRB?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
   metrics: {}
   kind: news
 ---

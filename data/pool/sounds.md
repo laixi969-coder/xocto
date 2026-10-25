@@ -11,14 +11,23 @@ inspiration_en: Asset use is moving from hunting a catalog to making on demand. 
   generation becoming supply for everyone. The entry is finding drum and melody loops while arranging,
   free as a path into paid full-song generation.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://elevenmusic.io/sounds
 canonical_url: https://elevenmusic.io/sounds
 summary: Infinite funk fusion rhodes licks (or any other loop you want)
 first_seen: '2026-08-13T15:26:55Z'
-last_seen: '2026-08-13T23:03:00Z'
-status: analyzed
+last_seen: '2026-10-25T00:21:33Z'
+status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://elevenmusic.io/sounds
@@ -26,6 +35,12 @@ sightings:
   metrics:
     points: 5
     comments: 2
+  kind: product
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/
+  seen_at: '2026-10-25T00:21:33Z'
+  metrics: {}
+  kind: news
 ---
 
 # Sounds

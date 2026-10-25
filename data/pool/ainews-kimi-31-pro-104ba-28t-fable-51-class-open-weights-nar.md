@@ -1,0 +1,53 @@
+---
+slug: ainews-kimi-31-pro-104ba-28t-fable-51-class-open-weights-nar
+name: '[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month...
+  and Pro Highspeed API with 2-3× speed'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://latent.space/p/ainews-kimi-31/
+canonical_url: https://latent.space/p/ainews-kimi-31
+summary: '2 months ago we covered Z.ai CEO Prof Jie Tang’s prediction that we’d get a Fable-class open
+  weights model by year end . 2 weeks ago Meta achieved a Fable-class model in closed source , but, with
+  2.5 months left to go, we finally got it - a 2.8T open weights model beating Fable 5.1, not just Fable
+  5, at that: View post on X ↗ with even better efficiency: View post on X ↗ You can tell Kimi is proud
+  of their latest model by how fancy their landing page is: As usual we don’t get much research detail
+  - the update is somewhat similar to Z.ai ’s 5.2-5.3 bump - a minor version bump for a lot more post-training:
+  Kimi K3.1 Pro is a post-trained version of Kimi K3, with substantially larger post-training compute.
+  To enable large-scale joint RL across hundreds of downstream domains , we optimized every layer of the
+  stack — the RL framework, long-context inference, training efficiency, sandbox infrastructure, rollout
+  scheduling, and a shared platform for environment quality checks — so that each increment of RL compute
+  delivers stable, predictable returns. As a result, K3.1 Pro achieves consistent gains in every domain.
+  AI News for'
+first_seen: '2026-10-25T00:21:33Z'
+last_seen: '2026-10-25T00:21:33Z'
+status: pending_filter
+sources:
+- marketfeeds
+sightings:
+- source: marketfeeds
+  url: https://latent.space/p/ainews-kimi-31/
+  seen_at: '2026-10-25T00:21:33Z'
+  metrics: {}
+  kind: news
+---
+
+# [AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed
+
+2 months ago we covered Z.ai CEO Prof Jie Tang’s prediction that we’d get a Fable-class open weights model by year end . 2 weeks ago Meta achieved a Fable-class model in closed source , but, with 2.5 months left to go, we finally got it - a 2.8T open weights model beating Fable 5.1, not just Fable 5, at that: View post on X ↗ with even better efficiency: View post on X ↗ You can tell Kimi is proud of their latest model by how fancy their landing page is: As usual we don’t get much research detail - the update is somewhat similar to Z.ai ’s 5.2-5.3 bump - a minor version bump for a lot more post-training: Kimi K3.1 Pro is a post-trained version of Kimi K3, with substantially larger post-training compute. To enable large-scale joint RL across hundreds of downstream domains , we optimized every layer of the stack — the RL framework, long-context inference, training efficiency, sandbox infrastructure, rollout scheduling, and a shared platform for environment quality checks — so that each increment of RL compute delivers stable, predictable returns. As a result, K3.1 Pro achieves consistent gains in every domain. AI News for
+
+## 笔记
+
+

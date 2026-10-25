@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBwMXVmbU1mVXcxQ3FiTFR2T0
 canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBwMXVmbU1mVXcxQ3FiTFR2T0tra0U5TlpyOUUydDBSdUVJS1dlQkw4RkhRRzU1c3NJU0pXZFdSQXhVNmhSQ05PVmNzUUlBWER1LWJxcVdnVFVXTWV5SUp4Zl9hUXhxZnRCcWljYnhQeEl4aThTZldpbjVOSG5MVVU?oc=5
 summary: AI玩具，瞄准互动陪伴 新浪网
 first_seen: '2026-10-23T00:41:23Z'
-last_seen: '2026-10-23T00:41:23Z'
+last_seen: '2026-10-25T00:21:40Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBwMXVmbU1mVXcxQ3FiTFR2T0tra0U5TlpyOUUydDBSdUVJS1dlQkw4RkhRRzU1c3NJU0pXZFdSQXhVNmhSQ05PVmNzUUlBWER1LWJxcVdnVFVXTWV5SUp4Zl9hUXhxZnRCcWljYnhQeEl4aThTZldpbjVOSG5MVVU?oc=5
   seen_at: '2026-10-23T00:41:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzd2WGZfRUFWT04xWF9HOGJ0WUlRazBUWEF3UkFiRWI0bld1eFJBTTNfNl9JYTdTY0lja19IMW1jVFNWN19WX1dYS1VwM3BtS0pDdmFBVWRKQjlvSnctX2xpY21FcFdGeUd6NklhX0ZMaW1aWFRQMWF4Vl9Fa1JwSjVHSTY3b1l4Sks4cHdYaw?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
   metrics: {}
   kind: news
 ---

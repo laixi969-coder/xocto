@@ -1,0 +1,41 @@
+---
+slug: ltm-launches-industrial-ai-lab-in-chennai-to-scale-enterpris
+name: LTM launches Industrial AI Lab in Chennai to scale enterprise AI adoption
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVWQ4SVZacFFWV09JangyM24tOFZ3M3ppNm1TZEVYSE1oN3FqeUdzSFVSbDlGYmJCdEZ0SHBfTGJfT293WE5CTnpWRkIzbjhfei1mS1otUHljTUllMU9XNjF5YU1wOWFSUjBBZy1ERUFiUlpDNUhjeXE5cExpeXpXSkdRUXJ6enRPVHFnakVORnV1bkRfMEdOb0NVaDNaRWxsWDhfT2VrQjVKekdzdHY2bkpmVUdjRC0xV1RNajZYWGNOc1k2VkoxOFREZkpPVFJxek82Y0RTNXVZcjhvVFJkN2tyMktBUdIB5gFBVV95cUxPVWQ4SVZacFFWV09JangyM24tOFZ3M3ppNm1TZEVYSE1oN3FqeUdzSFVSbDlGYmJCdEZ0SHBfTGJfT293WE5CTnpWRkIzbjhfei1mS1otUHljTUllMU9XNjF5YU1wOWFSUjBBZy1ERUFiUlpDNUhjeXE5cExpeXpXSkdRUXJ6enRPVHFnakVORnV1bkRfMEdOb0NVaDNaRWxsWDhfT2VrQjVKekdzdHY2bkpmVUdjRC0xV1RNajZYWGNOc1k2VkoxOFREZkpPVFJxek82Y0RTNXVZcjhvVFJkN2tyMktBUQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVWQ4SVZacFFWV09JangyM24tOFZ3M3ppNm1TZEVYSE1oN3FqeUdzSFVSbDlGYmJCdEZ0SHBfTGJfT293WE5CTnpWRkIzbjhfei1mS1otUHljTUllMU9XNjF5YU1wOWFSUjBBZy1ERUFiUlpDNUhjeXE5cExpeXpXSkdRUXJ6enRPVHFnakVORnV1bkRfMEdOb0NVaDNaRWxsWDhfT2VrQjVKekdzdHY2bkpmVUdjRC0xV1RNajZYWGNOc1k2VkoxOFREZkpPVFJxek82Y0RTNXVZcjhvVFJkN2tyMktBUdIB5gFBVV95cUxPVWQ4SVZacFFWV09JangyM24tOFZ3M3ppNm1TZEVYSE1oN3FqeUdzSFVSbDlGYmJCdEZ0SHBfTGJfT293WE5CTnpWRkIzbjhfei1mS1otUHljTUllMU9XNjF5YU1wOWFSUjBBZy1ERUFiUlpDNUhjeXE5cExpeXpXSkdRUXJ6enRPVHFnakVORnV1bkRfMEdOb0NVaDNaRWxsWDhfT2VrQjVKekdzdHY2bkpmVUdjRC0xV1RNajZYWGNOc1k2VkoxOFREZkpPVFJxek82Y0RTNXVZcjhvVFJkN2tyMktBUQ?oc=5
+summary: LTM launches Industrial AI Lab in Chennai to scale enterprise AI adoption ET Enterprise AI
+first_seen: '2026-10-25T00:21:40Z'
+last_seen: '2026-10-25T00:21:40Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVWQ4SVZacFFWV09JangyM24tOFZ3M3ppNm1TZEVYSE1oN3FqeUdzSFVSbDlGYmJCdEZ0SHBfTGJfT293WE5CTnpWRkIzbjhfei1mS1otUHljTUllMU9XNjF5YU1wOWFSUjBBZy1ERUFiUlpDNUhjeXE5cExpeXpXSkdRUXJ6enRPVHFnakVORnV1bkRfMEdOb0NVaDNaRWxsWDhfT2VrQjVKekdzdHY2bkpmVUdjRC0xV1RNajZYWGNOc1k2VkoxOFREZkpPVFJxek82Y0RTNXVZcjhvVFJkN2tyMktBUdIB5gFBVV95cUxPVWQ4SVZacFFWV09JangyM24tOFZ3M3ppNm1TZEVYSE1oN3FqeUdzSFVSbDlGYmJCdEZ0SHBfTGJfT293WE5CTnpWRkIzbjhfei1mS1otUHljTUllMU9XNjF5YU1wOWFSUjBBZy1ERUFiUlpDNUhjeXE5cExpeXpXSkdRUXJ6enRPVHFnakVORnV1bkRfMEdOb0NVaDNaRWxsWDhfT2VrQjVKekdzdHY2bkpmVUdjRC0xV1RNajZYWGNOc1k2VkoxOFREZkpPVFJxek82Y0RTNXVZcjhvVFJkN2tyMktBUQ?oc=5
+  seen_at: '2026-10-25T00:21:40Z'
+  metrics: {}
+  kind: news
+---
+
+# LTM launches Industrial AI Lab in Chennai to scale enterprise AI adoption
+
+LTM launches Industrial AI Lab in Chennai to scale enterprise AI adoption ET Enterprise AI
+
+## 笔记
+
+

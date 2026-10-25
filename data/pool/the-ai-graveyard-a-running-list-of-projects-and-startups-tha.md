@@ -21,8 +21,8 @@ canonical_url: https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list
 summary: From Apple's repeatedly delayed Siri AI to OpenAI's messy "super app" launch, here's a look at
   the AI projects that shut down or missed expectations.
 first_seen: '2026-09-15T19:00:00Z'
-last_seen: '2026-09-16T00:21:13Z'
-status: rejected
+last_seen: '2026-10-25T00:21:33Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -35,6 +35,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPZV9LSzJkUmRfNlM0T1J1WGlTVjVReXhlUlhwd3owZGRhUnV6X05nNTR4TVQ3VzBGM2dLZHZpakx4LTNXaGZPSFF0ZVZZbjQzX2dTRTZRVGlicmhMNEVSYkJsZlJjVjZSZ25jazZWaDRfMmZZd19GSmExb0NZblR2QVFjeENuT1dvLUMwMnJXLUdwU09yV1FWcE1qREFBdXBRVjRUVHNneEJreEw4ekFN?oc=5
   seen_at: '2026-09-16T00:21:13Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/
+  seen_at: '2026-10-25T00:21:33Z'
   metrics: {}
   kind: news
 ---

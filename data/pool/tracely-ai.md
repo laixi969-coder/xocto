@@ -21,16 +21,16 @@ canonical_url: https://tracely-ai.com
 summary: 'Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into
   replayable regression tests, and block PRs that regress. Self-hostable.'
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://tracely-ai.com
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
-    stars: 1163
+    stars: 1167
     forks: 140
     open_issues: 22
   kind: product

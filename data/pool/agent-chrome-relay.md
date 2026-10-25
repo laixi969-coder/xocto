@@ -37,18 +37,18 @@ canonical_url: https://agent-chrome-relay.aindeev.com
 summary: 'Let your AI agents use your Chrome, signed in as you, in background tabs. By Alexey Indeev ·
   blog: read.aindeev.com · X: @AlexeyIndeev'
 first_seen: '2026-10-12T01:20:35Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-25T00:21:05Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://agent-chrome-relay.aindeev.com
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-25T00:21:05Z'
   metrics:
     stars: 281
     forks: 11
-    open_issues: 3
+    open_issues: 6
   kind: product
 ---
 
