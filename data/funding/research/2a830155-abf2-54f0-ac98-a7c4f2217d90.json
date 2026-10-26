@@ -2,7 +2,7 @@
   "version": 2,
   "company_id": "2a830155-abf2-54f0-ac98-a7c4f2217d90",
   "round_fingerprint": "ce8589fcef53b0c11ded5669974651a011cf2b518309da7abdb1501fe8459142",
-  "last_attempt": "2026-10-17",
+  "last_attempt": "2026-10-26",
   "status": "blocked",
   "gaps": [
     "product",
@@ -17,13 +17,13 @@
       "role": "funding",
       "status": "retrieved",
       "text": "raised $255.5 million in Series B funding",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-26"
     },
     {
       "url": "https://www.armadin.com/",
       "kind": "retrieval_gap",
       "role": "overview",
-      "checked_on": "2026-10-17",
+      "checked_on": "2026-10-26",
       "status": "unavailable",
       "text": "",
       "error": "HttpError: https://www.armadin.com/ 返回 403（请求有问题，不重试）"
@@ -32,7 +32,7 @@
       "url": "https://www.armadin.com/platform",
       "kind": "retrieval_gap",
       "role": "product",
-      "checked_on": "2026-10-17",
+      "checked_on": "2026-10-26",
       "status": "unavailable",
       "text": "",
       "error": "HttpError: https://www.armadin.com/platform 返回 403（请求有问题，不重试）"

@@ -1,20 +1,20 @@
 {
   "company_id": "79932754-0dfe-5ac6-833f-98c41e912560",
   "zh": {
-    "summary": "Instinct 是一款通过短信或电话调用的个人助理，能像用户一样操作手机和电脑，代为完成订食材、订火车票、买日用品、送花、找场地等日常事务。",
-    "judgment": "它押注的不是更聪明的聊天，而是让 AI 直接接管真实设备与账户去执行跨应用任务；成败取决于执行可靠性与授权安全，而非模型能力本身。",
-    "replaces": "替代用户自己在多个 App 之间切换、比价、填表和下单的重复操作，也部分替代传统人工助理与跑腿代办。",
-    "segment": "面向消费者的通用任务执行型 AI 助理（设备操作代理）",
-    "product": "官网披露的能力范围是：用户通过短信或电话提出需求，助理理解用户正在做什么、在意什么，并以与用户相同的方式使用手机和电脑完成操作。官网列举的场景包括为新菜谱订购食材、订周末回家的火车票、买日用品、给朋友送花、找周末球场。这说明产品定位是跨应用的端到端执行，而不是单一垂直服务；但官网未说明支持哪些应用、地区、设备系统，也未说明失败重试与人工接管机制，这些属于检索缺口。",
-    "customer": "使用者是希望把琐碎事务外包出去的普通消费者，付费者大概率也是个人用户本人，痛点是高频但单次价值低的多应用操作摩擦。官网没有披露目标人群画像、地域覆盖或任何客户案例，因此无法判断早期用户是尝鲜者还是有稳定重复需求的人群；企业或家庭账户形态亦未见证据。",
-    "workflow": "典型流程是：用户以自然语言（短信或语音）描述目标，助理解析意图与约束，然后在手机和电脑上执行搜索、选择、填写与提交，最后向用户回报结果。官网强调“没有新界面”，意味着交互入口复用现有通信渠道，降低学习成本；但支付授权、身份验证、异常处理与用户确认节点均未在抓取文本中说明，属于关键流程缺口。",
-    "business_model": "输入证据未包含定价页或收费说明，无法确认是按次、订阅还是抽成，也不能写为免费。可推断的方向（非已验证）是按订阅收费或对代下单交易收取服务费，但单位经济取决于每次任务的人工介入率、支付失败率与第三方平台风控成本，这些数据均缺失。",
-    "traction": "唯一可核实的进展是公司完成了一轮大额融资，投资方名单包含 Sequoia Capital、Benchmark、Coatue；投资方名单不等于领投名单。官网未披露用户数、任务完成量、留存或合作商户，因此融资不能当作需求验证或产品胜出的证据。",
-    "moat": "与通用模型相比，其潜在壁垒在于设备操作层、账户授权体系、跨应用执行的可靠性工程与失败恢复经验，而非模型本身。与旧流程相比，优势是把多步人工操作压缩为一次对话。但壁垒成立的前提是执行成功率显著高于用户自己动手，且安全与信任机制足以让用户交出支付权限；目前没有公开数据支持这一点。",
-    "funding_read": "Series C 且金额规模很大，说明资本市场愿意为“执行型代理”这一方向下重注，也意味着公司需要在此阶段证明可规模化的可靠性而非仅演示效果。资金用途未披露，下一里程碑应是公开可验证的任务完成率、留存与安全事件指标。",
-    "risks": "第一，执行失败或误操作（下错单、重复支付）会直接造成金钱损失并摧毁信任；第二，账户与支付授权带来严重安全与合规风险，一旦发生泄露或滥用将面临监管与诉讼；第三，第三方平台可能封禁自动化操作，导致能力随时失效；第四，若每次任务人工介入成本高，规模越大亏损越大。",
-    "takeaway": "对创业者而言，可借鉴的是把 AI 能力包装成“复用用户已有入口、替用户完成动作”的形态，降低采用门槛；但必须同步建设授权、确认与回滚机制，否则执行型产品的信任成本会吞掉体验收益。",
-    "watch_next": "值得跟踪的可验证指标：官网是否公布支持的应用与地区清单、是否上线定价页、是否披露任务成功率与人工接管率，以及融资后是否出现真实用户案例或安全白皮书。",
+    "summary": "Instinct 是一款通过短信或电话调用、能像用户一样操作手机与电脑的个人 AI 助理，替用户完成订食材、订火车票、买日用品、送花、找场地等日常事务。",
+    "judgment": "最关键的商业判断是：它押注“无新界面 + 代操作真实设备”的通用个人助理，而非垂直场景工具；但官网只证明意图与交互形态，尚未证明任务成功率、单位成本与付费意愿，因此当前更像高信任门槛的代理执行平台赌注。",
+    "replaces": "替代用户自己在多个 App 与网站间切换、比价、填表、下单的碎片化手工操作，也部分替代传统人工助理与仅会对话不会执行的聊天机器人。",
+    "segment": "面向消费者的通用个人 AI 助理 / 设备操作型智能代理",
+    "product": "官网披露的能力范围是：用户通过短信或电话提出需求，助理理解用户正在做什么、在意什么，并以与用户相同的方式使用手机和电脑。示例任务包括为新菜谱订购食材、周末订回家的火车票、买杂货、给朋友送花、找周末球场。官网未提供产品文档、任务成功率、支持的应用或地区范围，因此能力边界仍不清晰；homepage 单独支撑的分析中，具体功能深度、费用与采用证据均缺失。",
+    "customer": "使用者是希望把琐碎事务外包出去的普通消费者，付费者推测同为个人用户，但官网未披露任何定价或企业方案。痛点是这些任务高频、跨应用、需要账号与支付权限，且单次耗时虽短但累计摩擦大。由于缺少客户案例与用户调研，无法判断哪类人群（忙碌职场人、家庭采购者、老年人）最先付费，也无法判断使用频率。",
+    "workflow": "输入是一句自然语言请求，经短信或电话进入；系统需解析意图、确认约束（时间、地点、预算、偏好），再在手机与电脑上执行多步操作，如下单、填表、支付，最后向用户回报结果。官网没有说明确认环节、支付授权方式、失败回滚与人工接管机制，这些恰是代理执行类产品的核心流程证据，目前缺失。",
+    "business_model": "官网未披露收费方式，不能推断为订阅、按任务计费或免费。若按代理执行逻辑推断（属推断而非事实），成本主要来自模型调用、浏览器/设备操作时长与支付失败处理，单位经济取决于单任务完成率与人工兜底比例；在定价与成功率未知前，无法判断毛利结构。",
+    "traction": "可确认的采用证据仅为公司披露的官网定位与示例场景，没有客户数、任务量、留存或收入数据。融资报道确认其完成一轮大额 Series C，投资方名单包括 Sequoia Capital、Benchmark、Coatue，但名单不等于领投，资金也不构成需求验证。产品页、文档、定价页与客户案例均未抓到，属于实际检索缺口。",
+    "moat": "与通用模型相比，壁垒不在对话能力，而在设备操作可靠性、账号与支付权限的安全治理、失败恢复，以及跨应用任务的长尾覆盖。与旧流程相比，它把多步手工操作压缩为一次请求，但只有当任务成功率足够高、错误代价可控时，这种便利才形成留存壁垒；否则用户会退回手动操作。",
+    "funding_read": "Series C 说明资本市场愿意为“通用个人代理”这一形态下重注，但金额与原币由确定性层渲染，资金用途未披露。下一里程碑应是可验证的任务完成率、单任务成本与复购/留存，而非更多场景罗列；在缺少这些指标前，融资只能说明资金支持，不能说明产品胜出。",
+    "risks": "第一，代理代操作涉及支付与个人账号，一旦出现误下单、超额扣款或隐私泄露，信任崩塌速度远快于获客速度。第二，若任务成功率不足或人工兜底成本过高，单位经济无法成立，规模越大亏损越大。第三，平台方（应用、支付、运营商）可能限制自动化操作或短信通道，形成外部依赖风险。",
+    "takeaway": "可借鉴之处是把交互降到用户已有的短信与电话，把复杂度留给后台执行，而不是要求用户学习新界面；同时应尽早公开成功率、失败处理与权限模型，把“能执行”转化为可核验的信任资产。",
+    "watch_next": "下一项可验证指标是官方是否披露任务成功率、平均单任务成本与用户留存；另一个关键问题是它如何获得支付与账号授权、失败时由谁兜底。",
     "citations": [
       {
         "label": "Crunchbase 融资报道",
@@ -27,27 +27,27 @@
     ]
   },
   "en": {
-    "summary": "Instinct is a personal assistant reached by text or phone call that operates a phone and computer the way a user would, handling tasks such as ordering ingredients, booking train tickets, buying groceries, sending flowers, and finding a court.",
-    "judgment": "The bet is not a smarter chatbot but an AI that takes over real devices and accounts to execute cross-app tasks; success hinges on execution reliability and authorization safety rather than model capability alone.",
-    "replaces": "It replaces the user's own app-switching, comparing, form-filling, and checkout loops, and partially replaces human assistants and errand services.",
-    "segment": "Consumer general-purpose task-execution AI assistant (device-operating agent)",
-    "product": "Per the company site, the assistant understands what the user is working on and what matters to them, and uses a phone and computer the same way the user does. Listed examples include ordering ingredients for a new recipe, booking a train home for the weekend, ordering groceries, sending flowers to a friend, and finding a court for the weekend. That points to end-to-end execution across apps rather than a single vertical; however, the site does not state which apps, regions, or device platforms are supported, nor how retries and human handoff work, which remain research gaps.",
-    "customer": "Users are ordinary consumers who want to offload errands, and the payer is most likely the individual user, with the pain being frequent, low-value-per-task friction across many apps. The site discloses no target persona, geographic coverage, or customer case, so it is unclear whether early users are novelty seekers or people with recurring needs; no evidence of enterprise or family account structures was found.",
-    "workflow": "The flow is: the user describes a goal in natural language via text or voice, the assistant parses intent and constraints, then executes searches, selections, form fills, and submissions on phone and computer, and reports back. The site stresses there are no new interfaces, meaning the entry point reuses existing messaging channels and lowers learning cost; payment authorization, identity verification, exception handling, and user confirmation points are not described in the retrieved text and are key process gaps.",
-    "business_model": "The input evidence contains no pricing page or fee description, so per-task, subscription, or commission models cannot be confirmed and the service must not be described as free. A subscription or a service fee on placed orders is a plausible but unverified direction; unit economics depend on human-intervention rate, payment failure rate, and third-party platform risk controls, none of which are disclosed.",
-    "traction": "The only verifiable progress is a large financing round with investors including Sequoia Capital, Benchmark, and Coatue; an investor list is not a lead-investor list. The site discloses no user counts, task volumes, retention, or merchant partnerships, so funding is not evidence of demand validation or product success.",
-    "moat": "Versus general models, the potential moat lies in the device-operation layer, account authorization systems, reliability engineering for cross-app execution, and failure-recovery experience, not the model itself. Versus the old workflow, the advantage is compressing multi-step manual work into one conversation. That moat only holds if execution success clearly beats doing it yourself and if security and trust mechanisms justify handing over payment access; no public data supports this yet.",
-    "funding_read": "A Series C at this scale signals that investors are willing to make a large bet on execution-oriented agents, and that the company now needs to prove scalable reliability rather than demo quality. Use of proceeds is undisclosed; the next milestone should be publicly verifiable task-completion, retention, and security-incident metrics.",
-    "risks": "First, execution errors or wrong actions (incorrect orders, duplicate payments) cause direct financial loss and destroy trust. Second, account and payment authorization creates serious security and compliance exposure, with regulatory and legal risk if breached or abused. Third, third-party platforms may block automated operation, making capabilities fragile. Fourth, if human intervention per task is costly, scale increases losses.",
-    "takeaway": "For founders, the transferable idea is packaging AI as something that reuses the user's existing entry points and completes actions on their behalf, lowering adoption friction; but authorization, confirmation, and rollback mechanisms must be built in parallel, or trust costs will consume the experience gains.",
-    "watch_next": "Verifiable indicators to track: whether the site publishes a supported-app and region list, launches a pricing page, discloses task success and human-handoff rates, and whether real user cases or a security whitepaper appear after the round.",
+    "summary": "Instinct is a personal AI assistant reached by text or phone call that operates a phone and computer the way a user would, handling tasks such as ordering ingredients, booking train tickets, buying groceries, sending flowers, and finding a court.",
+    "judgment": "The key commercial judgment is that Instinct is betting on a general-purpose, no-new-interface assistant that acts on real devices rather than a vertical tool; the homepage proves intent and interaction form, not task success rates, unit costs, or willingness to pay, so it remains a high-trust agent-execution bet.",
+    "replaces": "It replaces the fragmented manual work of switching among apps and websites to compare, fill forms, and place orders, and partially replaces human assistants and chatbots that converse but cannot execute.",
+    "segment": "Consumer general-purpose personal AI assistant / device-operating agent",
+    "product": "Company-reported scope: users text or call, the assistant understands what they are working on and what matters to them, and uses a phone and computer the same way the user does. Examples include ordering ingredients for a recipe, booking a train home for the weekend, ordering groceries, sending flowers, and finding a court. No documentation, success rates, supported apps, or regional coverage were retrieved, so the capability boundary is unclear; homepage-only analysis leaves specific feature depth, fees, and adoption evidence missing.",
+    "customer": "Users are consumers who want to outsource errands; the payer is presumably the same individual, but no pricing or enterprise offering is disclosed. The pain is frequent, cross-app, account- and payment-permission-heavy work whose individual friction is small but cumulative. Without customer cases or research, it is impossible to say which segment (busy professionals, household buyers, older users) pays first or how often they use it.",
+    "workflow": "Input is a natural-language request via text or call; the system must parse intent, confirm constraints such as time, place, budget, and preference, then execute multi-step actions on phone and computer, including ordering, form filling, and payment, and report back. The homepage does not describe confirmation steps, payment authorization, failure rollback, or human takeover, which are core process evidence for agent-execution products and are currently missing.",
+    "business_model": "No pricing is disclosed, so subscription, per-task fees, or free use cannot be inferred. By agent-execution logic (inference, not fact), costs would come from model calls, browser/device operation time, and payment-failure handling; unit economics depend on task completion rates and human fallback ratios, and margin structure cannot be judged without pricing and success data.",
+    "traction": "The only confirmable adoption evidence is company-reported positioning and example scenarios; there are no customer counts, task volumes, retention, or revenue figures. Funding coverage confirms a large Series C with investors including Sequoia Capital, Benchmark, and Coatue, but the list is not a lead-investor list and funding is not demand validation. Product pages, documentation, pricing pages, and customer cases were not retrieved and remain actual research gaps.",
+    "moat": "Versus general models, the moat is not conversation but device-operation reliability, security governance for account and payment permissions, failure recovery, and long-tail coverage across apps. Versus the old workflow, it compresses multi-step manual work into one request, but that convenience becomes a retention moat only when success rates are high enough and error costs are controlled; otherwise users revert to manual operation.",
+    "funding_read": "The Series C shows investors are willing to make a large bet on the general personal-agent form, but amount and currency are rendered by the deterministic layer and use of proceeds is undisclosed. The next milestone should be verifiable task completion, per-task cost, and repeat/retention metrics rather than more scenario lists; without these, funding indicates capital support, not product victory.",
+    "risks": "First, acting on payments and personal accounts means a single wrong order, overcharge, or privacy leak can destroy trust faster than acquisition builds it. Second, if success rates are low or human fallback is expensive, unit economics fail and scale increases losses. Third, platforms (apps, payments, carriers) may restrict automated operation or messaging channels, creating external dependency risk.",
+    "takeaway": "A transferable practice is to reduce interaction to channels users already have, text and phone, and absorb complexity in the backend instead of teaching a new interface; publishing success rates, failure handling, and permission models early would turn “it can execute” into a verifiable trust asset.",
+    "watch_next": "The next verifiable indicator is whether the company discloses task success rates, average per-task cost, and user retention; another key question is how it obtains payment and account authorization and who bears responsibility when a task fails.",
     "citations": [
       {
-        "label": "Crunchbase funding report",
+        "label": "Crunchbase funding coverage",
         "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-cyber-real-estate-instinct/"
       },
       {
-        "label": "Instinct website",
+        "label": "Instinct homepage",
         "url": "https://instinct.com/"
       }
     ]
@@ -59,21 +59,21 @@
       "role": "funding",
       "status": "retrieved",
       "text": "secured $1 billion in a Series C round",
-      "checked_on": "2026-10-18"
+      "checked_on": "2026-10-26"
     },
     {
       "url": "https://instinct.com/",
       "kind": "company_claim",
       "role": "overview",
-      "checked_on": "2026-10-18",
+      "checked_on": "2026-10-26",
       "status": "retrieved",
       "text": "Instinct Instinct is a personal assistant that understands what you're working on and what's important to you. The interface is simple: there are no new interfaces. You can text or call it. It can use a phone and computer in the same way that you do. It can order ingredients for a new recipe , book a train home for the weekend , order groceries , send flowers to a friend , or find a court for the weekend . Text Instinct Copyright © 2026 Instinct Privacy policy Terms of service comms[at]instinct[dot]com"
     }
   ],
   "round_id": "0020033b-5b40-533a-8039-213878a114dd",
   "fingerprint": "6a0b98e9de3cab941e9f1869f6272d931885c37938e1a21b3aab8875fb8b44a6",
-  "analyzed_at": "2026-10-18T00:40:46Z",
+  "analyzed_at": "2026-10-26T01:01:34Z",
   "research_version": 2,
   "research_fingerprint": "af4b327d34723ac49e5cd3fa178642891a4e38a13f06d4aa5c54f54f73e8f90c",
-  "checked_on": "2026-10-18"
+  "checked_on": "2026-10-26"
 }
