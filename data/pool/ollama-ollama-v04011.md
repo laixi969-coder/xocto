@@ -29,16 +29,16 @@ summary: "## Speech\r\n\r\nOllama can now generate [speech](https://docs.ollama.
   \ their first contribution in https://github.com/ollama/ollama/pull/19173\r\n\r\n**Full Changelog**:\
   \ https://github.com/ollama/ollama/compare/v0.40.10...v0.40.11-rc0"
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.40.11
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    reactions: 11
+    reactions: 20
   kind: news
 ---
 

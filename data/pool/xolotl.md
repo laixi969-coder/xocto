@@ -23,18 +23,18 @@ summary: 'Xolotl (formerly Strata-DSV4.1): run DeepSeek-V4.1-Flash, all 552B, as
   Plus GLM-5.3-Flash and Qwen3.8. MoE experts tiered across VRAM, pinned RAM and NVMe; OpenAI + Anthropic
   API.'
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Niko1221/Strata
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 338
-    forks: 43
-    open_issues: 10
+    stars: 356
+    forks: 45
+    open_issues: 13
   kind: product
 ---
 

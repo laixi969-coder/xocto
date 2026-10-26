@@ -20,17 +20,17 @@ url: https://bbtree.xiangpeng.systems/post/
 canonical_url: https://bbtree.xiangpeng.systems/post
 summary: Fastest Ordered Map
 first_seen: '2026-10-25T00:21:02Z'
-last_seen: '2026-10-25T00:21:02Z'
+last_seen: '2026-10-26T00:24:18Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://bbtree.xiangpeng.systems/post/
-  seen_at: '2026-10-25T00:21:02Z'
+  seen_at: '2026-10-26T00:24:18Z'
   metrics:
-    points: 38
-    comments: 2
+    points: 154
+    comments: 21
   kind: news
 ---
 

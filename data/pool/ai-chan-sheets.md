@@ -20,17 +20,17 @@ url: https://蓝色大肥鱼.com
 canonical_url: https://蓝色大肥鱼.com
 summary: 基于 ZipZipPipe（胖次狐）AI 娘立绘的横版完整设定图补全：拆解为三视图/表情/服装/道具独立素材，推定补全侧背面，原生像素 1:1 拼接。CC BY-NC-SA 4.0 非商业。
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://蓝色大肥鱼.com
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 311
-    forks: 23
+    stars: 327
+    forks: 27
     open_issues: 0
   kind: product
 ---

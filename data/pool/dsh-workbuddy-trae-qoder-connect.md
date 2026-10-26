@@ -22,16 +22,16 @@ summary: '把 WorkBuddy（多账号/企业版）、Trae CN / TRAE SOLO CN、Qode
   Agent 工具调用。One DSH plugin aggregating WorkBuddy / Trae / Qoder subscriptions into one model picker:
   mid-session switching, credit multipliers, reasoning effort, daily check-in, vision, tools.'
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/chengshenyangtai/dsh-workbuddy-trae-qoder-connect#安装
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 41
+    stars: 42
     forks: 10
     open_issues: 9
   kind: product

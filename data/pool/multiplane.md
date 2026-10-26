@@ -35,18 +35,18 @@ canonical_url: https://github.com/LBEILC/Multiplane
 summary: Local headless HTML-to-video renderer for AI agents. Shots are plain web pages driven by render(t);
   includes determinism checks, cut-aware motion blur, and a 3D layer with accumulated depth of field.
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LBEILC/Multiplane
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 113
+    stars: 117
     forks: 5
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

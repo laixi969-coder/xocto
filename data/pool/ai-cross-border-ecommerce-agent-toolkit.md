@@ -37,17 +37,17 @@ url: https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit
 canonical_url: https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit
 summary: AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 628
-    forks: 671
+    stars: 671
+    forks: 695
     open_issues: 2
   kind: product
 ---

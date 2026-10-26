@@ -20,17 +20,17 @@ url: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-o
 canonical_url: https://apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector
 summary: No signs of AI payoff outside the tech sector
 first_seen: '2026-10-25T00:21:02Z'
-last_seen: '2026-10-25T00:21:02Z'
+last_seen: '2026-10-26T00:24:18Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector
-  seen_at: '2026-10-25T00:21:02Z'
+  seen_at: '2026-10-26T00:24:18Z'
   metrics:
-    points: 451
-    comments: 437
+    points: 610
+    comments: 645
   kind: news
 ---
 

@@ -20,16 +20,16 @@ url: https://github.com/swrdfish/narro
 canonical_url: https://github.com/swrdfish/narro
 summary: Read web pages and Kindle books using local AI voices
 first_seen: '2026-10-25T00:21:02Z'
-last_seen: '2026-10-25T00:21:02Z'
+last_seen: '2026-10-26T00:24:18Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/swrdfish/narro
-  seen_at: '2026-10-25T00:21:02Z'
+  seen_at: '2026-10-26T00:24:18Z'
   metrics:
-    points: 5
+    points: 9
     comments: 1
   kind: product
 ---

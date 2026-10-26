@@ -41,3 +41,17 @@
     \n\r\n地址： https://algo.illegalscreed.cn/\r\n\r\n源码： https://github.com/IllegalCreed/algorithms-visualization\r\
     \n\r\n说实话，目前的效果还远远没达到我想要的样子，后面有机会再慢慢优化。\r\n\r\n最讽刺的是，都用 AI 做了，反而背离了我的初衷：做完这个网站，我还是没学会算法。不过转念一想，大 AI\
     \ 时代，学算法还有个屁用呀……这么一想，这个网站好像也没啥用了 \U0001F602\r\n\r\n还是那句话，大 AI 时代，学算法还有个屁用呀。欢迎来反驳。"
+- id: ev-932f22f4e34f13bc
+  project_slug: raw
+  url: https://www.v2ex.com/t/1251677
+  title: Runner 0.18.0 发布 - 桌面端远程控制
+  published_at: '2026-10-25T11:33:16Z'
+  collected_at: '2026-10-26T00:24:16Z'
+  source_kind: product
+  tier: independent
+  fact: "花了大概一周的时间，终于肝完了初版的远程控制功能，通过 runner hub 官网的 relay ，实现了端到端加密通信，所有的连上同一个账户的 host 都可以实现相互控制。\r\n\r\
+    \nRunner 是我做的一个管理 CLI agent 的桌面工具，之前在 V 站[介绍过]( https://www.v2ex.com/t/1249284)。可以在同一个 app 里面用 Claude\
+    \ Code 、Codex 等，也可以在一个 mission 里同步多个 agent 的上下文，并实现通信。\r\n\r\n![Runner 的电脑选择器]( https://raw.githubusercontent.com/yicheng47/runner/817bd69e51c235fdb0e0a34595f2948834c2e9a6/assets/remote_control.png)\r\
+    \n\r\n\r\n目前远程服务只在中国大陆开放内测，想试的朋友可以在下面留个言，我在评论里发邀请码。本地使用不需要邀请码，和之前一样。后续移动端的支持会优先开发 ios 端，有兴趣的朋友可以关注下后续的帖子。\r\
+    \n\r\nDemo: https://youtu.be/WCbhvvlJORI\r\n\r\n下载： https://runnersh.dev/downloads/\r\n\r\nRepo： https://github.com/yicheng47/runner\r\
+    \n\r\n[远程访问设置说明]( https://runnersh.dev/docs/guides/remote-access/)"

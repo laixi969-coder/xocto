@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE53RlFFTmlmdWE4MkRZblhlZU
 canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE53RlFFTmlmdWE4MkRZblhlZUtSSEFsZnVWYXJPeVlQbnZneXpGejBPZHJwTm90YVM0RXpXODhMTW5uclJWZ1FZSHgySW1ZeGdYbmNHTDRHd2pneG91bDJwSEJHWVVOZw?oc=5
 summary: Meta三季报带崩AI全产业链！AI融资焦虑集中爆发，费城半导体指数暴跌6.72%，消费防御板块成为资金避风港 金融界
 first_seen: '2026-10-24T00:43:55Z'
-last_seen: '2026-10-24T00:43:55Z'
+last_seen: '2026-10-26T00:24:54Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE53RlFFTmlmdWE4MkRZblhlZUtSSEFsZnVWYXJPeVlQbnZneXpGejBPZHJwTm90YVM0RXpXODhMTW5uclJWZ1FZSHgySW1ZeGdYbmNHTDRHd2pneG91bDJwSEJHWVVOZw?oc=5
   seen_at: '2026-10-24T00:43:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidEFVX3lxTE1iaVJMVWJSU3JfRVg4YkRIdGMwNkJkaE9WaF9KWVBKaWwwRUNIQWVtdVlVXzJlZUktbGRTanFQVnJETUdheUJZSGV2Nk1wMEZDRl9GSzg3VVgxTnNvU0hIZGMtLXdPTFo4Y1FrUGN4MWpYRFVN?oc=5
+  seen_at: '2026-10-26T00:24:54Z'
   metrics: {}
   kind: news
 ---

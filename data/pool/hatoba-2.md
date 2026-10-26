@@ -33,7 +33,7 @@ canonical_url: https://hatoba.fog.moe
 summary: Open-source desktop SSH client with an AI assistant and end-to-end encrypted sync through your
   own Cloudflare account
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: watching
 sources:
 - github
@@ -48,11 +48,11 @@ sightings:
   kind: product
 - source: github
   url: http://hatoba.fog.moe/
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 146
+    stars: 152
     forks: 11
-    open_issues: 42
+    open_issues: 46
   kind: product
 ---
 

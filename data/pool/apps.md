@@ -21,7 +21,7 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - hackernews
@@ -151,9 +151,9 @@ sightings:
   kind: news
 - source: github
   url: https://github.com/langgenius/dify/releases/tag/1.18.0
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    reactions: 6
+    reactions: 7
   kind: news
 ---
 

@@ -20,7 +20,7 @@ url: https://raw.githubusercontent.com/kbr-/math-research/3979e0cc0a75dde9b845df
 canonical_url: https://raw.githubusercontent.com/kbr-/math-research/3979e0cc0a75dde9b845df7ec8869d033dfcd8d4/publications/bit-php-resolution-over-parities/whitepaper.pdf
 summary: I solved a 12yr math problem using AI (formalized; awaiting review) [pdf]
 first_seen: '2026-09-15T19:24:06Z'
-last_seen: '2026-10-09T02:10:12Z'
+last_seen: '2026-10-26T00:24:16Z'
 status: rejected
 sources:
 - hackernews
@@ -44,6 +44,12 @@ sightings:
   seen_at: '2026-10-09T02:10:12Z'
   metrics:
     comments: 9
+  kind: product
+- source: v2ex
+  url: https://raw.githubusercontent.com/yicheng47/runner/817bd69e51c235fdb0e0a34595f2948834c2e9a6/assets/remote_control.png
+  seen_at: '2026-10-26T00:24:16Z'
+  metrics:
+    comments: 4
   kind: product
 ---
 

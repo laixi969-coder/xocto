@@ -21,18 +21,18 @@ canonical_url: https://github.com/jayleaton/localrouter
 summary: 'Fast & opinionated local AI routing: one MCP server that loads local image and video models
   on demand on your own GPU box (DGX Spark first)'
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jayleaton/localrouter
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 69
+    stars: 80
     forks: 5
-    open_issues: 5
+    open_issues: 7
   kind: product
 ---
 

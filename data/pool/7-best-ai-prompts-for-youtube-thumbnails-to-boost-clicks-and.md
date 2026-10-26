@@ -1,0 +1,41 @@
+---
+slug: 7-best-ai-prompts-for-youtube-thumbnails-to-boost-clicks-and
+name: 7 Best AI Prompts for YouTube Thumbnails to Boost Clicks and Grab Attention
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPalpYRmVfbjRNUzJlYUNZLWY2TUFWMVZiYVpzbEFsZ19JM29rdGRMNWliVDE3cVFvN3BMbzhBY0hTVE5XMm43WmRGQV9CU1EyLXkwUm5aUnFvQTgxdU9uM1ZGQlFBYW0zX0htenl5T2NtSExOUHBXaERjRWpnbXVDX2N6NkVtWjBOdlVQZ1FjeDZxNjU1aENwS0UyNVdkZWVCLU5CbXNQSXFCVnUweGRuVkNNOGhjVGYwNmRLSmpmVFpub08wMnfSAcYBQVVfeXFMT2paWEZlX240TVMyZWFDWS1mNk1BVjFWYmFac2xBbGdfSTNva3RkTDVpYlQxN3FRbzdwTG84QWNIU1ROVzJuN1pkRkFfQlNRMi15MFJuWlJxb0E4MXVPbjNWRkJRQWFtM19IbXp5eU9jbUhMTlBwV2hEY0VqZ211Q19jejZFbVowTnZVUGdRY3g2cTY1NWhDcEtFMjVXZGVlQi1OQm1zUElxQlZ1MHhkblZDTThoY1RmMDZkS0pqZlRabm9PMDJ3?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPalpYRmVfbjRNUzJlYUNZLWY2TUFWMVZiYVpzbEFsZ19JM29rdGRMNWliVDE3cVFvN3BMbzhBY0hTVE5XMm43WmRGQV9CU1EyLXkwUm5aUnFvQTgxdU9uM1ZGQlFBYW0zX0htenl5T2NtSExOUHBXaERjRWpnbXVDX2N6NkVtWjBOdlVQZ1FjeDZxNjU1aENwS0UyNVdkZWVCLU5CbXNQSXFCVnUweGRuVkNNOGhjVGYwNmRLSmpmVFpub08wMnfSAcYBQVVfeXFMT2paWEZlX240TVMyZWFDWS1mNk1BVjFWYmFac2xBbGdfSTNva3RkTDVpYlQxN3FRbzdwTG84QWNIU1ROVzJuN1pkRkFfQlNRMi15MFJuWlJxb0E4MXVPbjNWRkJRQWFtM19IbXp5eU9jbUhMTlBwV2hEY0VqZ211Q19jejZFbVowTnZVUGdRY3g2cTY1NWhDcEtFMjVXZGVlQi1OQm1zUElxQlZ1MHhkblZDTThoY1RmMDZkS0pqZlRabm9PMDJ3?oc=5
+summary: 7 Best AI Prompts for YouTube Thumbnails to Boost Clicks and Grab Attention The Sunday Guardian
+first_seen: '2026-10-26T00:24:54Z'
+last_seen: '2026-10-26T00:24:54Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPalpYRmVfbjRNUzJlYUNZLWY2TUFWMVZiYVpzbEFsZ19JM29rdGRMNWliVDE3cVFvN3BMbzhBY0hTVE5XMm43WmRGQV9CU1EyLXkwUm5aUnFvQTgxdU9uM1ZGQlFBYW0zX0htenl5T2NtSExOUHBXaERjRWpnbXVDX2N6NkVtWjBOdlVQZ1FjeDZxNjU1aENwS0UyNVdkZWVCLU5CbXNQSXFCVnUweGRuVkNNOGhjVGYwNmRLSmpmVFpub08wMnfSAcYBQVVfeXFMT2paWEZlX240TVMyZWFDWS1mNk1BVjFWYmFac2xBbGdfSTNva3RkTDVpYlQxN3FRbzdwTG84QWNIU1ROVzJuN1pkRkFfQlNRMi15MFJuWlJxb0E4MXVPbjNWRkJRQWFtM19IbXp5eU9jbUhMTlBwV2hEY0VqZ211Q19jejZFbVowTnZVUGdRY3g2cTY1NWhDcEtFMjVXZGVlQi1OQm1zUElxQlZ1MHhkblZDTThoY1RmMDZkS0pqZlRabm9PMDJ3?oc=5
+  seen_at: '2026-10-26T00:24:54Z'
+  metrics: {}
+  kind: news
+---
+
+# 7 Best AI Prompts for YouTube Thumbnails to Boost Clicks and Grab Attention
+
+7 Best AI Prompts for YouTube Thumbnails to Boost Clicks and Grab Attention The Sunday Guardian
+
+## 笔记
+
+

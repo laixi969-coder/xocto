@@ -21,18 +21,18 @@ canonical_url: https://brains.ceo
 summary: The smartest brains on earth, in an MCP. Cited, searchable MCP servers built from founders' talks,
   essays and posts.
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://brains.ceo
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 76
-    forks: 7
-    open_issues: 0
+    stars: 81
+    forks: 8
+    open_issues: 1
   kind: product
 ---
 

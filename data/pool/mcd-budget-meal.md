@@ -20,16 +20,16 @@ url: https://sam-hui-dot.github.io/mcd-budget-meal/
 canonical_url: https://sam-hui-dot.github.io/mcd-budget-meal
 summary: 麦麦预算餐：基于麦当劳 MCP 的真实核价、预算比较与餐品替换 Skill
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://sam-hui-dot.github.io/mcd-budget-meal/
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 1321
+    stars: 1434
     forks: 44
     open_issues: 0
   kind: product

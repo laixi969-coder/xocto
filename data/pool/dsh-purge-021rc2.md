@@ -20,17 +20,17 @@ url: https://github.com/evilevil/dsh-purge-021rc2
 canonical_url: https://github.com/evilevil/dsh-purge-021rc2
 summary: dsh-purge 社区适配版：上游已停更，这里让它继续跑在 DeepSeek Harness 0.2.1-rc.2 上（基于 1.1.72）
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/evilevil/dsh-purge-021rc2
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 144
-    forks: 118
+    stars: 152
+    forks: 119
     open_issues: 0
   kind: product
 ---

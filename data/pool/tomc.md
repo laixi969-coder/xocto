@@ -21,17 +21,17 @@ canonical_url: https://github.com/ZipengWu365/TOMC
 summary: 'TOMC Memory: CPU context compression and task memory for Codex, Claude Code, Cursor, TRAE, WorkBuddy
   and other MCP clients.'
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ZipengWu365/TOMC
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 237
-    forks: 19
+    stars: 263
+    forks: 24
     open_issues: 1
   kind: product
 ---

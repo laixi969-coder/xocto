@@ -21,17 +21,17 @@ canonical_url: https://github.com/JeffKeeping/dsh-purge-plus
 summary: dsh-purge 的非官方分支（fork）：适配 DeepSeek Harness 0.2.1-rc.2、破甲内核 v3、设置页 UI 重做 / unofficial fork of
   YuJunZhiXue/dsh-purge (MIT)
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JeffKeeping/dsh-purge-plus
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 425
-    forks: 371
+    stars: 464
+    forks: 391
     open_issues: 2
   kind: product
 ---

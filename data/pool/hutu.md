@@ -1,0 +1,59 @@
+---
+slug: hutu
+name: Hutu
+builder: hutusi
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://hutu.si/
+canonical_url: https://hutu.si
+summary: "月初的时候，看新闻说 A 国大统领认为 AI (Artificial Intelligence)这个词不好，应该叫 SI (Super Intelligence)，并命令美国行政部门都改称呼。有一些商业公司跟风响应，其中最积极的当属马斯克，他将旗下的\
+  \ SpaceXAI 改名成 SpaceXSI ，特斯拉的 X 账号也改名成了 Tesla SI.\r\n\r\n与此同时，与之前 AI 兴起时带火 .ai 国别域名类似的情形发生了，.si 域名的热度也上来了。.si\
+  \ 是斯洛文尼亚的国别域名，注册费用比 .ai 低，并且没有注册限制。我突然想到，自己的网名 hutusi 刚好是 si 结尾，想着看能否注册到 hutu.si 这个域名。\r\n\r\n以前也有过注册这个域名的想法，但因为\
+  \ .si 域名比较小众，一些主流的域名注册网站都没法购买，我就放弃了尝试。这次在 AI 的帮助下，了解到 spaceship 这个域名注册网站，它是 Namecheap 创始人新创业的项目，网站设计得比\
+  \ Namecheap 现代多了，体验也好多了。没想到这个域名还没有被注册，于是我顺利抢到了 hutu.si, 并且打算用来做个人主页用（也是 AI 给的建议）。\r\n\r\n这个周末，我让 Claude\
+  \ Design 设计个人主页，反复讨论了几十个版本，Claude 不厌其烦地修改了一遍又一遍，最后终于定稿，然后让 Claude Code 生成，并部署到 Cloudflare 上，大家可以在电脑或手机上访问\
+  \ [hutu.si]( https://hutu.si/) , 也欢迎收藏和提建议。\r\n\r\n附上手机版本截图。主体部分是名片的形式，这是我在 Claude Design 设计的诸多版本中选择的最为满意的，而背景近似水墨画风格的画，来自我小时候临摹的一幅画的印象，好像就叫“喜上梅梢”，现在看来，有那么点怀旧的意思吧。\r\
+  \n\r\n![hutu-si-mobile-en]( https://cdn.hutusi.com/images/site/hutu-si-mobile-en.jpeg)"
+first_seen: '2026-10-26T00:24:16Z'
+last_seen: '2026-10-26T00:24:16Z'
+status: pending_filter
+sources:
+- v2ex
+sightings:
+- source: v2ex
+  url: https://hutu.si/
+  seen_at: '2026-10-26T00:24:16Z'
+  metrics:
+    comments: 3
+  kind: product
+---
+
+# Hutu
+
+月初的时候，看新闻说 A 国大统领认为 AI (Artificial Intelligence)这个词不好，应该叫 SI (Super Intelligence)，并命令美国行政部门都改称呼。有一些商业公司跟风响应，其中最积极的当属马斯克，他将旗下的 SpaceXAI 改名成 SpaceXSI ，特斯拉的 X 账号也改名成了 Tesla SI.
+
+与此同时，与之前 AI 兴起时带火 .ai 国别域名类似的情形发生了，.si 域名的热度也上来了。.si 是斯洛文尼亚的国别域名，注册费用比 .ai 低，并且没有注册限制。我突然想到，自己的网名 hutusi 刚好是 si 结尾，想着看能否注册到 hutu.si 这个域名。
+
+以前也有过注册这个域名的想法，但因为 .si 域名比较小众，一些主流的域名注册网站都没法购买，我就放弃了尝试。这次在 AI 的帮助下，了解到 spaceship 这个域名注册网站，它是 Namecheap 创始人新创业的项目，网站设计得比 Namecheap 现代多了，体验也好多了。没想到这个域名还没有被注册，于是我顺利抢到了 hutu.si, 并且打算用来做个人主页用（也是 AI 给的建议）。
+
+这个周末，我让 Claude Design 设计个人主页，反复讨论了几十个版本，Claude 不厌其烦地修改了一遍又一遍，最后终于定稿，然后让 Claude Code 生成，并部署到 Cloudflare 上，大家可以在电脑或手机上访问 [hutu.si]( https://hutu.si/) , 也欢迎收藏和提建议。
+
+附上手机版本截图。主体部分是名片的形式，这是我在 Claude Design 设计的诸多版本中选择的最为满意的，而背景近似水墨画风格的画，来自我小时候临摹的一幅画的印象，好像就叫“喜上梅梢”，现在看来，有那么点怀旧的意思吧。
+
+![hutu-si-mobile-en]( https://cdn.hutusi.com/images/site/hutu-si-mobile-en.jpeg)
+
+## 笔记
+
+

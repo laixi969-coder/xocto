@@ -20,17 +20,17 @@ url: https://sandboxworld.online
 canonical_url: https://sandboxworld.online
 summary: Terraria 1.4.5.8 Web Rewrite,  using GLM-5.3-Flash and GLM-5.3
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://sandboxworld.online
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 121
-    forks: 45
+    stars: 126
+    forks: 46
     open_issues: 0
   kind: product
 ---

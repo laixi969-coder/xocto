@@ -31,16 +31,16 @@ canonical_url: https://lucianlabs.dev/uxui-prompt
 summary: 200 interactive UI elements you can try live, then copy as an AI prompt or working code. Light/dark,
   MIT.
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://lucianlabs.dev/uxui-prompt/
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 239
+    stars: 242
     forks: 32
     open_issues: 1
   kind: product

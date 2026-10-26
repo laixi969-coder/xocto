@@ -20,16 +20,16 @@ url: https://github.com/byenzyme/enzyme
 canonical_url: https://github.com/byenzyme/enzyme
 summary: a programming language that compiles wikis for agents
 first_seen: '2026-10-25T00:21:02Z'
-last_seen: '2026-10-25T00:21:02Z'
+last_seen: '2026-10-26T00:24:18Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/byenzyme/enzyme
-  seen_at: '2026-10-25T00:21:02Z'
+  seen_at: '2026-10-26T00:24:18Z'
   metrics:
-    points: 18
+    points: 22
     comments: 9
   kind: product
 ---

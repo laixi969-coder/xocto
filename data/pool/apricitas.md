@@ -20,17 +20,17 @@ url: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class
 canonical_url: https://apricitas.io/p/ai-and-the-fall-of-the-creative-class
 summary: America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?
 first_seen: '2026-10-25T00:21:02Z'
-last_seen: '2026-10-25T00:21:02Z'
+last_seen: '2026-10-26T00:24:18Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class
-  seen_at: '2026-10-25T00:21:02Z'
+  seen_at: '2026-10-26T00:24:18Z'
   metrics:
-    points: 49
-    comments: 17
+    points: 501
+    comments: 539
   kind: news
 ---
 

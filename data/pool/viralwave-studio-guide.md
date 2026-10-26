@@ -31,16 +31,16 @@ canonical_url: https://viralwavestudio.com
 summary: 'The complete guide to ViralWave Studio: put your social media content on autopilot. Setup walkthrough,
   features, brand voice, review workflow, AI agent integrations, plans, and FAQ.'
 first_seen: '2026-10-10T01:46:04Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://viralwavestudio.com
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 59
+    stars: 60
     forks: 19
     open_issues: 0
   kind: product

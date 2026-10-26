@@ -20,17 +20,17 @@ url: https://github.com/mengwEX/dsh-block-ptc#readme
 canonical_url: https://github.com/mengwEX/dsh-block-ptc
 summary: Model-controlled context blocks for DeepSeek Harness PTC mode
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-26T00:24:22Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mengwEX/dsh-block-ptc#readme
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-26T00:24:22Z'
   metrics:
-    stars: 104
-    forks: 8
+    stars: 100
+    forks: 7
     open_issues: 0
   kind: product
 ---
