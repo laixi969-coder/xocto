@@ -32,17 +32,17 @@ canonical_url: https://github.com/missuo/tamio
 summary: 'Native SSH client for macOS: Ghostty terminal, dual-pane SFTP, live server status, E2EE iCloud
   sync and an MCP server for agents.'
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/missuo/tamio
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 116
-    forks: 7
+    stars: 121
+    forks: 8
     open_issues: 0
   kind: product
 ---

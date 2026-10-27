@@ -20,17 +20,17 @@ url: https://proton.me/flock-camera-map
 canonical_url: https://proton.me/flock-camera-map
 summary: Proton Flock Camera Map
 first_seen: '2026-10-26T00:24:18Z'
-last_seen: '2026-10-26T00:24:18Z'
+last_seen: '2026-10-27T01:29:46Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://proton.me/flock-camera-map
-  seen_at: '2026-10-26T00:24:18Z'
+  seen_at: '2026-10-27T01:29:46Z'
   metrics:
-    points: 30
-    comments: 1
+    points: 120
+    comments: 29
   kind: news
 ---
 

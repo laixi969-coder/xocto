@@ -21,16 +21,16 @@ canonical_url: https://github.com/hitkeeen/blender-ai-addon
 summary: 'Blender add-on: create and edit 3D models by chatting with AI - send text or an image, get working
   bpy code'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/hitkeeen/blender-ai-addon
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 68
+    stars: 49
     forks: 1
     open_issues: 0
   kind: product

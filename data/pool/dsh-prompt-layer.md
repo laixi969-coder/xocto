@@ -20,16 +20,16 @@ url: https://github.com/AtinyFurina/dsh-prompt-layer
 canonical_url: https://github.com/AtinyFurina/dsh-prompt-layer
 summary: Configurable system-prompt section for DeepSeek Harness, rendered after every built-in section.
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AtinyFurina/dsh-prompt-layer
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 51
+    stars: 53
     forks: 9
     open_issues: 1
   kind: product

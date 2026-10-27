@@ -20,17 +20,17 @@ url: https://liuda30201.github.io/AI-Coding/
 canonical_url: https://liuda30201.github.io/AI-Coding
 summary: AI 编程福利导航：汇总 Claude Code、Codex、Cursor 中转站与公益站，整理免费额度、注册福利、签到活动和评测记录，提供可视化看板与 Python 数据采集工具。
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://liuda30201.github.io/AI-Coding/
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 375
-    forks: 30
+    stars: 435
+    forks: 38
     open_issues: 0
   kind: product
 ---

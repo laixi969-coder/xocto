@@ -1,0 +1,41 @@
+---
+slug: legora-plans-india-hiring-push-as-legal-ai-adoption-grows
+name: Legora plans India hiring push as legal AI adoption grows
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUXQwejB2NXpGRGM1bmtXS0gzMmRJZ0dhZHowdXZ0bWY2T1dmU3NPZFh6NmFoWHVPV3ZmcmdvSnpFRlZvbnQtNzFwYzc2R2RjNlJhY0pTd0NHNlVQRkRscHU4bFdqbElKWTRiMml3eE9haVI4c0c2SnBjeVBmd1ZkMjRGNlVhUXdCYWhRazdsMnV0NDFoM3lnMzY2Z3pMM2FXOUZsLVFyLXhOX0NNOGVGX25lMjk5Q1djRS0xTEMxWERKNDNTbmZRdzJfc2pkVTc4cjZB0gHTAUFVX3lxTE9RdDB6MHY1ekZEYzVua1dLSDMyZElnR2FkejB1dnRtZjZPV2ZTc09kWHo2YWhYdU9XdmZyZ29KekVGVm9udC03MXBjNzZHZGM2UmFjSlN3Q0c2VVBGRGxwdThsV2psSUpZNGIyaXd4T2FpUjhzRzZKcGN5UGZ3VmQyNEY2VWFRd0JhaFFrN2wydXQ0MWgzeWczNjZnekwzYVc5RmwtUXIteE5fQ004ZUZfbmUyOTlDV2NFLTFMQzFYREo0M1NuZlF3Ml9zamRVNzhyNkE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUXQwejB2NXpGRGM1bmtXS0gzMmRJZ0dhZHowdXZ0bWY2T1dmU3NPZFh6NmFoWHVPV3ZmcmdvSnpFRlZvbnQtNzFwYzc2R2RjNlJhY0pTd0NHNlVQRkRscHU4bFdqbElKWTRiMml3eE9haVI4c0c2SnBjeVBmd1ZkMjRGNlVhUXdCYWhRazdsMnV0NDFoM3lnMzY2Z3pMM2FXOUZsLVFyLXhOX0NNOGVGX25lMjk5Q1djRS0xTEMxWERKNDNTbmZRdzJfc2pkVTc4cjZB0gHTAUFVX3lxTE9RdDB6MHY1ekZEYzVua1dLSDMyZElnR2FkejB1dnRtZjZPV2ZTc09kWHo2YWhYdU9XdmZyZ29KekVGVm9udC03MXBjNzZHZGM2UmFjSlN3Q0c2VVBGRGxwdThsV2psSUpZNGIyaXd4T2FpUjhzRzZKcGN5UGZ3VmQyNEY2VWFRd0JhaFFrN2wydXQ0MWgzeWczNjZnekwzYVc5RmwtUXIteE5fQ004ZUZfbmUyOTlDV2NFLTFMQzFYREo0M1NuZlF3Ml9zamRVNzhyNkE?oc=5
+summary: Legora plans India hiring push as legal AI adoption grows ETLegalWorld.com
+first_seen: '2026-10-27T01:30:31Z'
+last_seen: '2026-10-27T01:30:31Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUXQwejB2NXpGRGM1bmtXS0gzMmRJZ0dhZHowdXZ0bWY2T1dmU3NPZFh6NmFoWHVPV3ZmcmdvSnpFRlZvbnQtNzFwYzc2R2RjNlJhY0pTd0NHNlVQRkRscHU4bFdqbElKWTRiMml3eE9haVI4c0c2SnBjeVBmd1ZkMjRGNlVhUXdCYWhRazdsMnV0NDFoM3lnMzY2Z3pMM2FXOUZsLVFyLXhOX0NNOGVGX25lMjk5Q1djRS0xTEMxWERKNDNTbmZRdzJfc2pkVTc4cjZB0gHTAUFVX3lxTE9RdDB6MHY1ekZEYzVua1dLSDMyZElnR2FkejB1dnRtZjZPV2ZTc09kWHo2YWhYdU9XdmZyZ29KekVGVm9udC03MXBjNzZHZGM2UmFjSlN3Q0c2VVBGRGxwdThsV2psSUpZNGIyaXd4T2FpUjhzRzZKcGN5UGZ3VmQyNEY2VWFRd0JhaFFrN2wydXQ0MWgzeWczNjZnekwzYVc5RmwtUXIteE5fQ004ZUZfbmUyOTlDV2NFLTFMQzFYREo0M1NuZlF3Ml9zamRVNzhyNkE?oc=5
+  seen_at: '2026-10-27T01:30:31Z'
+  metrics: {}
+  kind: news
+---
+
+# Legora plans India hiring push as legal AI adoption grows
+
+Legora plans India hiring push as legal AI adoption grows ETLegalWorld.com
+
+## 笔记
+
+

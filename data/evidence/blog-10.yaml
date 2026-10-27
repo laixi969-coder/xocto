@@ -133,3 +133,12 @@
   source_kind: market_signal
   tier: first_party
   fact: AI agent fixed the bug, but what else did it change?
+- id: ev-a2f7df56f426d37b
+  project_slug: blog-10
+  url: https://blog.cloudflare.com/kv-cache-exposure-remediation/
+  title: blog
+  published_at: '2026-10-26T22:41:48Z'
+  collected_at: '2026-10-27T01:29:46Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)

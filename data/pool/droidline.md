@@ -36,16 +36,16 @@ summary: Android automation from code. Test your apps on real phones, script the
   a shelf of phones, or let an AI agent use one, from Python, Node.js, the CLI, HTTP or Appium clients.
   No ADB, no USB cable, no root.
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://droidline.dev
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 332
+    stars: 339
     forks: 27
     open_issues: 1
   kind: product

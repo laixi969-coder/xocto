@@ -21,18 +21,18 @@ canonical_url: https://solidcraft.io
 summary: 'SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and
   automation through MCP.'
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://solidcraft.io
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 10479
-    forks: 1296
-    open_issues: 3352
+    stars: 10834
+    forks: 1365
+    open_issues: 3561
   kind: product
 ---
 

@@ -45,17 +45,17 @@ summary: 一句话让 AI 帮你做产品宣传片！把产品名或网址告诉 
   AI 旁白并逐句转写校验、自动审图，最后交付一支 4K 商业宣传视频和可在线播放的网页版。App、网站、SaaS、开源项目、课程、AI 模型都能做，你只需确认需求、试听配乐。不用学剪辑软件，也不用花钱找外包。基于
   Remotion + ElevenLabs，可直接克隆使用，也能一键安装为 Agent Skill。
 first_seen: '2026-10-11T01:01:22Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/liyupi/ai-promo-video-maker
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 379
-    forks: 60
+    stars: 386
+    forks: 62
     open_issues: 0
   kind: product
 ---

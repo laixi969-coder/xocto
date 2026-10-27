@@ -20,17 +20,17 @@ url: https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-mat
 canonical_url: https://dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html
 summary: AI use leads UC Berkeley math professor to see 'no point' in grading homework
 first_seen: '2026-10-26T00:24:18Z'
-last_seen: '2026-10-26T00:24:18Z'
+last_seen: '2026-10-27T01:29:46Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html
-  seen_at: '2026-10-26T00:24:18Z'
+  seen_at: '2026-10-27T01:29:46Z'
   metrics:
-    points: 192
-    comments: 267
+    points: 237
+    comments: 328
   kind: news
 ---
 

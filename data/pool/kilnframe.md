@@ -21,17 +21,17 @@ canonical_url: https://kilnframe.com
 summary: 'Free, open source plugin for Premiere Pro and DaVinci Resolve: turns what you say into animated
   inserts and music, rendered on your own computer'
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://kilnframe.com
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 47
-    forks: 4
+    stars: 63
+    forks: 7
     open_issues: 2
   kind: product
 ---

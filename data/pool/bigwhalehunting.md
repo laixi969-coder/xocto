@@ -20,17 +20,17 @@ url: https://bigwhalehunting.com/workforce/
 canonical_url: https://bigwhalehunting.com/workforce
 summary: I put employees inside S&P 500 market-cap bubbles
 first_seen: '2026-10-26T00:24:18Z'
-last_seen: '2026-10-26T00:24:18Z'
+last_seen: '2026-10-27T01:29:46Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://bigwhalehunting.com/workforce/
-  seen_at: '2026-10-26T00:24:18Z'
+  seen_at: '2026-10-27T01:29:46Z'
   metrics:
-    points: 164
-    comments: 47
+    points: 177
+    comments: 48
   kind: product
 ---
 

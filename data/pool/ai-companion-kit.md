@@ -20,18 +20,18 @@ url: https://github.com/pinganbbOvO/ai-companion-kit
 canonical_url: https://github.com/pinganbbOvO/ai-companion-kit
 summary: 给你的 AI 一副身体，和一点人味 —— 会记事、会看场合的 QQ 陪聊 + 能控制安卓手机的 MCP
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/pinganbbOvO/ai-companion-kit
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 469
+    stars: 496
     forks: 37
-    open_issues: 4
+    open_issues: 5
   kind: product
 ---
 

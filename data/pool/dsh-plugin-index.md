@@ -20,18 +20,18 @@ url: https://dshopen.org
 canonical_url: https://dshopen.org
 summary: Open Plugin Market — Community plugin index for DeepSeek Harness (DSH).  照顾小开发者的插件索引、插件市场、开放插件市场
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://dshopen.org
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 49
+    stars: 54
     forks: 5
-    open_issues: 12
+    open_issues: 13
   kind: product
 ---
 

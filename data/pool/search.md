@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-10-26T00:24:46Z'
+last_seen: '2026-10-27T01:30:31Z'
 status: pending_filter
 sources:
 - hackernews
@@ -128,6 +128,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/column/1017983/google-ai-search-online-publishing
   seen_at: '2026-10-26T00:24:46Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiakFVX3lxTFBlT01teHl1Q1ZLNDlUczd6UUhfdW43bWFkd0JhVTJhTnQ2RTlEZHJNZFpkNGd0UkhuWUtPSkdUb21wSlJ2NFdiWklGWVViRFR6UlNZa0NscEhFUjViTWVQNktTRGVYczNSdUE?oc=5
+  seen_at: '2026-10-27T01:30:31Z'
   metrics: {}
   kind: news
 ---

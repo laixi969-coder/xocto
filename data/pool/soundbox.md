@@ -22,18 +22,18 @@ summary: Free, open-source, local alternative to ElevenLabs and Suno. AI sound e
   text-to-speech and voice cloning on your own GPU (Stable Audio, ACE-Step and more). No account, no credits,
   offline. Windows/macOS app, HTTP API and a 21-tool MCP server for Claude Code and Cursor.
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://hamsanders.github.io/soundbox/
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 40
+    stars: 46
     forks: 6
-    open_issues: 10
+    open_issues: 8
   kind: product
 ---
 

@@ -1,0 +1,41 @@
+---
+slug: chasing-us-capital-indian-ai-startups-weigh-cost-of-moving-a
+name: Chasing US capital, Indian AI startups weigh cost of moving amid challenges
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQk52UF9SeHBBMzNFQzdFN3FMSnUtbV9BQzNoaDBBWVVxT1hVNC1nbXEwRGhrTkd5NDlRQmxOcjkwQkdDb2c2Um0yaUJ3dlVldFFaVGdIMURPU0ZxSEJLRERydnMyMkFHTzA0Q3hENEw0VFBVQ0JFZFJSb1BEZUdxR1ktWFFMNWw5aXNHRTRza0pPOTU0c2lhTVRMQXk1VXQwZlhQdUZYaWR3aFNlWWxjbElxaDhsMmlvRGJvVl9nazNSTldvVm16Y1YwU244dUpMSmU4dG1EdldlLTl3ZDdXeHF1cFcwQVnSAecBQVVfeXFMTUJOdlBfUnhwQTMzRUM3RTdxTEp1LW1fQUMzaGgwQVlVcU9YVTQtZ21xMERoa05HeTQ5UUJsTnI5MEJHQ29nNlJtMmlCd3ZVZXRRWlRnSDFET1NGcUhCS0REcnZzMjJBR08wNEN4RDRMNFRQVUNCRWRSUm9QRGVHcUdZLVhRTDVsOWlzR0U0c2tKTzk1NHNpYU1UTEF5NVV0MGZYUHVGWGlkd2hTZVlsY2xJcWg4bDJpb0Rib1ZfZ2szUk5Xb1ZtemNWMFNuOHVKTEplOHRtRHZXZS05d2Q3V3hxdXBXMEFZ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQk52UF9SeHBBMzNFQzdFN3FMSnUtbV9BQzNoaDBBWVVxT1hVNC1nbXEwRGhrTkd5NDlRQmxOcjkwQkdDb2c2Um0yaUJ3dlVldFFaVGdIMURPU0ZxSEJLRERydnMyMkFHTzA0Q3hENEw0VFBVQ0JFZFJSb1BEZUdxR1ktWFFMNWw5aXNHRTRza0pPOTU0c2lhTVRMQXk1VXQwZlhQdUZYaWR3aFNlWWxjbElxaDhsMmlvRGJvVl9nazNSTldvVm16Y1YwU244dUpMSmU4dG1EdldlLTl3ZDdXeHF1cFcwQVnSAecBQVVfeXFMTUJOdlBfUnhwQTMzRUM3RTdxTEp1LW1fQUMzaGgwQVlVcU9YVTQtZ21xMERoa05HeTQ5UUJsTnI5MEJHQ29nNlJtMmlCd3ZVZXRRWlRnSDFET1NGcUhCS0REcnZzMjJBR08wNEN4RDRMNFRQVUNCRWRSUm9QRGVHcUdZLVhRTDVsOWlzR0U0c2tKTzk1NHNpYU1UTEF5NVV0MGZYUHVGWGlkd2hTZVlsY2xJcWg4bDJpb0Rib1ZfZ2szUk5Xb1ZtemNWMFNuOHVKTEplOHRtRHZXZS05d2Q3V3hxdXBXMEFZ?oc=5
+summary: Chasing US capital, Indian AI startups weigh cost of moving amid challenges Business Standard
+first_seen: '2026-10-27T01:30:31Z'
+last_seen: '2026-10-27T01:30:31Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQk52UF9SeHBBMzNFQzdFN3FMSnUtbV9BQzNoaDBBWVVxT1hVNC1nbXEwRGhrTkd5NDlRQmxOcjkwQkdDb2c2Um0yaUJ3dlVldFFaVGdIMURPU0ZxSEJLRERydnMyMkFHTzA0Q3hENEw0VFBVQ0JFZFJSb1BEZUdxR1ktWFFMNWw5aXNHRTRza0pPOTU0c2lhTVRMQXk1VXQwZlhQdUZYaWR3aFNlWWxjbElxaDhsMmlvRGJvVl9nazNSTldvVm16Y1YwU244dUpMSmU4dG1EdldlLTl3ZDdXeHF1cFcwQVnSAecBQVVfeXFMTUJOdlBfUnhwQTMzRUM3RTdxTEp1LW1fQUMzaGgwQVlVcU9YVTQtZ21xMERoa05HeTQ5UUJsTnI5MEJHQ29nNlJtMmlCd3ZVZXRRWlRnSDFET1NGcUhCS0REcnZzMjJBR08wNEN4RDRMNFRQVUNCRWRSUm9QRGVHcUdZLVhRTDVsOWlzR0U0c2tKTzk1NHNpYU1UTEF5NVV0MGZYUHVGWGlkd2hTZVlsY2xJcWg4bDJpb0Rib1ZfZ2szUk5Xb1ZtemNWMFNuOHVKTEplOHRtRHZXZS05d2Q3V3hxdXBXMEFZ?oc=5
+  seen_at: '2026-10-27T01:30:31Z'
+  metrics: {}
+  kind: news
+---
+
+# Chasing US capital, Indian AI startups weigh cost of moving amid challenges
+
+Chasing US capital, Indian AI startups weigh cost of moving amid challenges Business Standard
+
+## 笔记
+
+

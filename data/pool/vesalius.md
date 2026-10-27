@@ -21,17 +21,17 @@ canonical_url: https://github.com/haplollc/Vesalius
 summary: 'A map of your codebase for Claude Code: an on-device code graph with an MCP server, a CLI, a
   Mac app and a VS Code extension.'
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/haplollc/Vesalius
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 71
-    forks: 2
+    stars: 78
+    forks: 4
     open_issues: 2
   kind: product
 ---

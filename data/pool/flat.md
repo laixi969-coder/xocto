@@ -33,11 +33,12 @@ url: https://flat.social
 canonical_url: https://flat.social
 summary: I built a new version of my fun spatial 3D online meeting app
 first_seen: '2026-09-17T12:57:09Z'
-last_seen: '2026-09-30T01:18:45Z'
-status: rejected
+last_seen: '2026-10-27T01:30:31Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://flat.social
@@ -59,6 +60,11 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/nordic-fintech-week-dispatch/
   seen_at: '2026-09-30T01:18:45Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVFo3Y053anR0V1dPN09tbUdsOGNXSmctd0ppeGJvUW1fT1JRbV9WYWx2MVhvaHhnU2U5d1BqZ3lxRVdlWFJfcTFjVktkQnowODNVT01hNGpyY0I5QW9SY3o1R2hIN2dwaE9oMkZDSFREamlLNVVfZmJfNVlJZXdTX194SElqQmt3elRmMzN5OUJ5WGFBTTZuMUtwRzE3dEMxRDUyRzhLQk01RFFLZTZPVTRYeTUwbHpVb2F30gG7AUFVX3lxTFBUWjdjTndqdHRXV083T21tR2w4Y1dKZy13Sml4Ym9RbV9PUlFtX1ZhbHYxWG9oeGdTZTl3UGpneXFFV2VYUl9xMWNWS2RCejA4M1VPTWE0anJjQjlBb1JjejVHaEg3Z3BoT2gyRkNIVERqaUs1VV9mYl81WUlld1NfX3hISWpCa3d6VGYzM3k5QnlYYUFNNm4xS3BHMTd0QzFENTJHOEtCTTVEUUtlNk9VNFh5NTBselVvYXc?oc=5
+  seen_at: '2026-10-27T01:30:31Z'
   metrics: {}
   kind: news
 ---

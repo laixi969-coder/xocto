@@ -20,17 +20,17 @@ url: https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valu
 canonical_url: https://reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai
 summary: R/open source bans all solo projects and projects using LLMs
 first_seen: '2026-10-26T00:24:18Z'
-last_seen: '2026-10-26T00:24:18Z'
+last_seen: '2026-10-27T01:29:46Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai
-  seen_at: '2026-10-26T00:24:18Z'
+  seen_at: '2026-10-27T01:29:46Z'
   metrics:
-    points: 77
-    comments: 106
+    points: 90
+    comments: 128
   kind: news
 ---
 

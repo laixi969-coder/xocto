@@ -21,17 +21,17 @@ canonical_url: https://github.com/MultiX0/ip-nas
 summary: 'Raspberry Pi 5 home NAS: CasaOS apps, Nur Hub and the Nur app (local AI, Fish Audio voice),
   a 3D-printed case and an ESP32-S3 touch screen'
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MultiX0/ip-nas
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 45
-    forks: 9
+    stars: 53
+    forks: 11
     open_issues: 0
   kind: product
 ---

@@ -33,18 +33,18 @@ summary: Don't reverse engineer it twice. 12,000+ open-source tools built by rev
   apps, APIs, devices, protocols, file formats, games and AI tools. Search site + agent skill, refreshed
   nightly.
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://awesome.alexgaoth.com
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 701
-    forks: 128
-    open_issues: 3
+    stars: 772
+    forks: 141
+    open_issues: 4
   kind: product
 ---
 

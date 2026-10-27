@@ -37,16 +37,16 @@ summary: 'Claude Code plugin to see, review and iterate on your agent''s work wi
   inside the Claude Code terminal. Works in any terminal that supports the kitty graphics protocol, fully
   cross-platform on macOS, Linux and Windows.'
 first_seen: '2026-10-15T00:32:09Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/iamumeransari/claude-show-your-work
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 266
+    stars: 267
     forks: 18
     open_issues: 0
   kind: product

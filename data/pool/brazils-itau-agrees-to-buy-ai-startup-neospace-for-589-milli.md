@@ -1,0 +1,41 @@
+---
+slug: brazils-itau-agrees-to-buy-ai-startup-neospace-for-589-milli
+name: Brazil's Itau agrees to buy AI startup NeoSpace for $589 million
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOM2RkeDZacmdsUHZETFdvbno4Rmw2ODBFWnhmRjdIMHV0cDJHVnNOWm52OFhwTklxTDk4UXd2SFd6dUJXcEZ1bWpna09SbTlBWkUwQ2RLYmF0a3JVdFVSb1FYX0p3T2FkcmY1TTg3bUR1eWNib3cwMVhjZWNrU1hWeGtSQWNlMXNPMDZESkhxWF9vMk8zVzJRRGFjOEFlNFhfblFMNjh0UkFLbWY4UmdzY1dIcEE4djJjZW5KcjRsU29GRnN0X0x4ZkozdjQ3cEgteE5RYUxKSXY1SEpCdEHSAeMBQVVfeXFMTmZ1VHcyMEp0WXdLaEM3eWZSbFJ0aklMdERlSFBFeHp2aHQybTdkSmNjeVVLYVcyRVRfdS1SSC01dUlGY3FKVGlJZUU2X1pNeU1yQzlwb2hFTHZxZl9Zb3RlVk9VS1AxYWxvNEVqNFVLZFVjdGRvRk9qYmExeWlCMnBFd2hvRjI2NGloOVNVWWVnYlFGREkxSmtlVmxVd0hLLUZ6NXBHMVdIM3I5SE5QX1V2Rzc4QTdJMmZXVVpnYUVVQ1RUM29JODdJUDNjaHBBa0JwVzVCLWc5dldOMmF2V3BjRmc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOM2RkeDZacmdsUHZETFdvbno4Rmw2ODBFWnhmRjdIMHV0cDJHVnNOWm52OFhwTklxTDk4UXd2SFd6dUJXcEZ1bWpna09SbTlBWkUwQ2RLYmF0a3JVdFVSb1FYX0p3T2FkcmY1TTg3bUR1eWNib3cwMVhjZWNrU1hWeGtSQWNlMXNPMDZESkhxWF9vMk8zVzJRRGFjOEFlNFhfblFMNjh0UkFLbWY4UmdzY1dIcEE4djJjZW5KcjRsU29GRnN0X0x4ZkozdjQ3cEgteE5RYUxKSXY1SEpCdEHSAeMBQVVfeXFMTmZ1VHcyMEp0WXdLaEM3eWZSbFJ0aklMdERlSFBFeHp2aHQybTdkSmNjeVVLYVcyRVRfdS1SSC01dUlGY3FKVGlJZUU2X1pNeU1yQzlwb2hFTHZxZl9Zb3RlVk9VS1AxYWxvNEVqNFVLZFVjdGRvRk9qYmExeWlCMnBFd2hvRjI2NGloOVNVWWVnYlFGREkxSmtlVmxVd0hLLUZ6NXBHMVdIM3I5SE5QX1V2Rzc4QTdJMmZXVVpnYUVVQ1RUM29JODdJUDNjaHBBa0JwVzVCLWc5dldOMmF2V3BjRmc?oc=5
+summary: Brazil's Itau agrees to buy AI startup NeoSpace for $589 million The Economic Times
+first_seen: '2026-10-27T01:30:31Z'
+last_seen: '2026-10-27T01:30:31Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOM2RkeDZacmdsUHZETFdvbno4Rmw2ODBFWnhmRjdIMHV0cDJHVnNOWm52OFhwTklxTDk4UXd2SFd6dUJXcEZ1bWpna09SbTlBWkUwQ2RLYmF0a3JVdFVSb1FYX0p3T2FkcmY1TTg3bUR1eWNib3cwMVhjZWNrU1hWeGtSQWNlMXNPMDZESkhxWF9vMk8zVzJRRGFjOEFlNFhfblFMNjh0UkFLbWY4UmdzY1dIcEE4djJjZW5KcjRsU29GRnN0X0x4ZkozdjQ3cEgteE5RYUxKSXY1SEpCdEHSAeMBQVVfeXFMTmZ1VHcyMEp0WXdLaEM3eWZSbFJ0aklMdERlSFBFeHp2aHQybTdkSmNjeVVLYVcyRVRfdS1SSC01dUlGY3FKVGlJZUU2X1pNeU1yQzlwb2hFTHZxZl9Zb3RlVk9VS1AxYWxvNEVqNFVLZFVjdGRvRk9qYmExeWlCMnBFd2hvRjI2NGloOVNVWWVnYlFGREkxSmtlVmxVd0hLLUZ6NXBHMVdIM3I5SE5QX1V2Rzc4QTdJMmZXVVpnYUVVQ1RUM29JODdJUDNjaHBBa0JwVzVCLWc5dldOMmF2V3BjRmc?oc=5
+  seen_at: '2026-10-27T01:30:31Z'
+  metrics: {}
+  kind: news
+---
+
+# Brazil's Itau agrees to buy AI startup NeoSpace for $589 million
+
+Brazil's Itau agrees to buy AI startup NeoSpace for $589 million The Economic Times
+
+## 笔记
+
+

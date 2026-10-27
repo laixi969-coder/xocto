@@ -20,18 +20,18 @@ url: https://generatedcomputers.com
 canonical_url: https://generatedcomputers.com
 summary: Run many AI agents at once on your Mac, up to 3x faster.
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-27T01:29:50Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://generatedcomputers.com
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-27T01:29:50Z'
   metrics:
-    stars: 348
+    stars: 355
     forks: 27
-    open_issues: 5
+    open_issues: 6
   kind: product
 ---
 

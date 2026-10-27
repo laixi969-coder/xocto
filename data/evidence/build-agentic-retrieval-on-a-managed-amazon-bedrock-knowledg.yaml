@@ -1,0 +1,19 @@
+- id: ev-cf2bc970f1535399
+  project_slug: build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledg
+  url: https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/
+  title: Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK
+  published_at: '2026-10-26T17:15:14Z'
+  collected_at: '2026-10-27T01:30:17Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'This post builds enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with
+    the AWS Cloud Development Kit (AWS CDK). To see why that’s worth building, it helps to start with
+    where ordinary Retrieval Augmented Generation (RAG) breaks down. Most RAG systems start the same way:
+    they embed the question, fetch the nearest chunks from one index, hand them to a model, and return
+    the answer. One retrieval, one generation. For a large class of questions that’s the right design,
+    and there’s no reason to build anything more complicated. It fails in a recognizable way. Ask a question
+    whose answer spans two corpora, and a single retrieval returns half of what the model needs, which
+    is worse than returning nothing, because the answer comes back fluent and incomplete. Ask a question
+    where the right source depends on the question , and a single index has no mechanism to choose. Ask
+    a question that needs a second look at the corpus after seeing the first result, and there is nowhere
+    f'
