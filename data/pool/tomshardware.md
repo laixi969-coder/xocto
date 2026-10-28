@@ -20,7 +20,7 @@ url: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for
 canonical_url: https://tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg
 summary: US Customs supervisor busted for stealing hardware from Homeland Security PCs
 first_seen: '2026-09-13T13:24:28Z'
-last_seen: '2026-10-26T00:24:18Z'
+last_seen: '2026-10-28T01:22:30Z'
 status: pending_filter
 sources:
 - hackernews
@@ -66,6 +66,13 @@ sightings:
   metrics:
     points: 59
     comments: 9
+  kind: news
+- source: hackernews
+  url: https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform
+  seen_at: '2026-10-28T01:22:30Z'
+  metrics:
+    points: 40
+    comments: 23
   kind: news
 ---
 

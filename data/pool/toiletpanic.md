@@ -20,16 +20,16 @@ url: https://toiletpanic-119.netlify.app
 canonical_url: https://toiletpanic-119.netlify.app
 summary: A static survival guide for bathroom emergencies
 first_seen: '2026-10-27T01:29:46Z'
-last_seen: '2026-10-27T01:29:46Z'
+last_seen: '2026-10-28T01:22:30Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://toiletpanic-119.netlify.app
-  seen_at: '2026-10-27T01:29:46Z'
+  seen_at: '2026-10-28T01:22:30Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

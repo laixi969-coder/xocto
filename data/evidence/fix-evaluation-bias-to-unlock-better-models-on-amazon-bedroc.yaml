@@ -1,0 +1,18 @@
+- id: ev-58d263d33c9eb5e8
+  project_slug: fix-evaluation-bias-to-unlock-better-models-on-amazon-bedroc
+  url: https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/
+  title: Fix evaluation bias to unlock better models on Amazon Bedrock
+  published_at: '2026-10-27T16:53:02Z'
+  collected_at: '2026-10-28T01:23:01Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: This post was co-authored with Khaled Thabit, Meriem Boughrara, and Mohamed Desouky from Property
+    Finder. The engineering team at Property Finder , a digital real estate application, discovered that
+    96.8 percent of their evaluation labels had been inherited directly from a single model’s predictions
+    rather than verified by human experts. Their ground truth was systematically skewed toward the incumbent
+    model, making every alternative appear to underperform. The labels also had errors, but the bias was
+    what blocked objective model comparison. They uncovered this when migrating their vision AI workload
+    to a more cost-effective option on Amazon Bedrock . Property Finder processes tens of thousands of
+    property images every day across the Middle East and North Africa (MENA). Their system evaluates 11
+    quality attributes per image. These cover watermark detection, room classification, furnishing status,
+    photo quality, and construction indicators. That’s thousands of new property listings with

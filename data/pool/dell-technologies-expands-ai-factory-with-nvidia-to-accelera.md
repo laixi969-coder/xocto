@@ -1,0 +1,42 @@
+---
+slug: dell-technologies-expands-ai-factory-with-nvidia-to-accelera
+name: Dell Technologies Expands AI Factory with NVIDIA to Accelerate Enterprise Agentic AI Adoption
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZ0dBMGtndFpyRUZlOUUxMHVZc1k2MzBQSC1ObE9kWjRIeGJaTm1aUnlmQVJZX2FjQmdHdzM4MnZ6MEFDbHE2aWVCV1Vsc0dTZkgtMHAyVGxyOW5zMkF3WHFHREVRX08xQVBqdDR4eWpyOTd2N24zdGRBOUtzMC1iMXlPQl9kcGFRd09mSWVsMTZyNk5YNU4xdnhqZU8wUmg2QkhpOWJkUFhyTmhnMnhHckhFTFpNbVBTZWVuRUo2bHJaYzJRQlMyb1plWk15TTFsWmhrc3BENTbSAdgBQVVfeXFMT2dHQTBrZ3RackVGZTlFMTB1WXNZNjMwUEgtTmxPZFo0SHhiWk5tWlJ5ZkFSWV9hY0JnR3czODJ2ejBBQ2xxNmllQldVbHNHU2ZILTBwMlRscjluczJBd1hxR0RFUV9PMUFQanQ0eHlqcjk3djduM3RkQTlLczAtYjF5T0JfZHBhUXdPZkllbDE2cjZOWDVOMXZ4amVPMFJoNkJIaTliZFBYck5oZzJ4R3JIRUxaTW1QU2VlbkVKNmxyWmMyUUJTMm9aZVpNeU0xbFpoa3NwRDU2?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZ0dBMGtndFpyRUZlOUUxMHVZc1k2MzBQSC1ObE9kWjRIeGJaTm1aUnlmQVJZX2FjQmdHdzM4MnZ6MEFDbHE2aWVCV1Vsc0dTZkgtMHAyVGxyOW5zMkF3WHFHREVRX08xQVBqdDR4eWpyOTd2N24zdGRBOUtzMC1iMXlPQl9kcGFRd09mSWVsMTZyNk5YNU4xdnhqZU8wUmg2QkhpOWJkUFhyTmhnMnhHckhFTFpNbVBTZWVuRUo2bHJaYzJRQlMyb1plWk15TTFsWmhrc3BENTbSAdgBQVVfeXFMT2dHQTBrZ3RackVGZTlFMTB1WXNZNjMwUEgtTmxPZFo0SHhiWk5tWlJ5ZkFSWV9hY0JnR3czODJ2ejBBQ2xxNmllQldVbHNHU2ZILTBwMlRscjluczJBd1hxR0RFUV9PMUFQanQ0eHlqcjk3djduM3RkQTlLczAtYjF5T0JfZHBhUXdPZkllbDE2cjZOWDVOMXZ4amVPMFJoNkJIaTliZFBYck5oZzJ4R3JIRUxaTW1QU2VlbkVKNmxyWmMyUUJTMm9aZVpNeU0xbFpoa3NwRDU2?oc=5
+summary: Dell Technologies Expands AI Factory with NVIDIA to Accelerate Enterprise Agentic AI Adoption
+  digital terminal
+first_seen: '2026-10-28T01:23:09Z'
+last_seen: '2026-10-28T01:23:09Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZ0dBMGtndFpyRUZlOUUxMHVZc1k2MzBQSC1ObE9kWjRIeGJaTm1aUnlmQVJZX2FjQmdHdzM4MnZ6MEFDbHE2aWVCV1Vsc0dTZkgtMHAyVGxyOW5zMkF3WHFHREVRX08xQVBqdDR4eWpyOTd2N24zdGRBOUtzMC1iMXlPQl9kcGFRd09mSWVsMTZyNk5YNU4xdnhqZU8wUmg2QkhpOWJkUFhyTmhnMnhHckhFTFpNbVBTZWVuRUo2bHJaYzJRQlMyb1plWk15TTFsWmhrc3BENTbSAdgBQVVfeXFMT2dHQTBrZ3RackVGZTlFMTB1WXNZNjMwUEgtTmxPZFo0SHhiWk5tWlJ5ZkFSWV9hY0JnR3czODJ2ejBBQ2xxNmllQldVbHNHU2ZILTBwMlRscjluczJBd1hxR0RFUV9PMUFQanQ0eHlqcjk3djduM3RkQTlLczAtYjF5T0JfZHBhUXdPZkllbDE2cjZOWDVOMXZ4amVPMFJoNkJIaTliZFBYck5oZzJ4R3JIRUxaTW1QU2VlbkVKNmxyWmMyUUJTMm9aZVpNeU0xbFpoa3NwRDU2?oc=5
+  seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+---
+
+# Dell Technologies Expands AI Factory with NVIDIA to Accelerate Enterprise Agentic AI Adoption
+
+Dell Technologies Expands AI Factory with NVIDIA to Accelerate Enterprise Agentic AI Adoption digital terminal
+
+## 笔记
+
+

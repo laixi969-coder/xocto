@@ -20,17 +20,17 @@ url: https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-ge
 canonical_url: https://404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job
 summary: Proton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job
 first_seen: '2026-10-27T01:29:46Z'
-last_seen: '2026-10-27T01:29:46Z'
+last_seen: '2026-10-28T01:22:30Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/
-  seen_at: '2026-10-27T01:29:46Z'
+  seen_at: '2026-10-28T01:22:30Z'
   metrics:
-    points: 44
-    comments: 19
+    points: 81
+    comments: 41
   kind: news
 ---
 

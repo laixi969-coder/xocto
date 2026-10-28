@@ -20,17 +20,17 @@ url: https://github.com/FrigadeHQ/hob
 canonical_url: https://github.com/FrigadeHQ/hob
 summary: Open-source, on device alternative to Claude Cowork and ChatGPT
 first_seen: '2026-10-27T01:29:46Z'
-last_seen: '2026-10-27T01:29:46Z'
+last_seen: '2026-10-28T01:22:30Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/FrigadeHQ/hob
-  seen_at: '2026-10-27T01:29:46Z'
+  seen_at: '2026-10-28T01:22:30Z'
   metrics:
-    points: 112
-    comments: 26
+    points: 164
+    comments: 42
   kind: product
 ---
 

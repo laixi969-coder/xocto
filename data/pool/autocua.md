@@ -20,18 +20,18 @@ url: https://computeruse.uk
 canonical_url: https://computeruse.uk
 summary: One Computer Use agent for everything (macOS, Windows, Linux, Browser, iOS & Code).
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://computeruse.uk
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 666
+    stars: 667
     forks: 36
-    open_issues: 5
+    open_issues: 1
   kind: product
 ---
 

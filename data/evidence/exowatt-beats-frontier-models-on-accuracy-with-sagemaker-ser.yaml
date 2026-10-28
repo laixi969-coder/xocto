@@ -1,0 +1,18 @@
+- id: ev-22e65859a8e7556d
+  project_slug: exowatt-beats-frontier-models-on-accuracy-with-sagemaker-ser
+  url: https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/
+  title: Exowatt beats frontier models on accuracy with SageMaker serverless model customization
+  published_at: '2026-10-27T16:50:55Z'
+  collected_at: '2026-10-28T01:23:01Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Exowatt builds modular, dispatchable solar systems that deliver reliable power for energy-intensive
+    applications such as AI data centers. Its flagship product, the Exowatt P3, captures solar energy
+    through optical lenses, stores it as heat in a long-duration thermal battery, and dispatches electricity
+    on demand through a heat engine. Unlike grid-tied photovoltaic solar systems, P3 powers data centers
+    directly behind the meter, helping data centers come online without waiting in multi-year grid interconnection
+    queues. Exowatt builds a fleet of AI agents that monitor and triage live alarms and support operational
+    decisions for solar systems, often at the edge, with limited or no connectivity. As its fleet scales
+    from test benches toward manufacturing and thousands of deployed field units, the intelligence layer
+    that operates these systems must scale with it. In this post, we show how Exowatt used Amazon SageMaker
+    AI serverless model customization to build a repeatable AI pipeline. The pi

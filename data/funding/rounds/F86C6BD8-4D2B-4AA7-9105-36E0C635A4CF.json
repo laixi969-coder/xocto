@@ -1,0 +1,88 @@
+{
+  "company": {
+    "city": "London",
+    "country": "UK",
+    "description": "Machenta is an AI company building a new kind of foundation model for robots.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "4A2FA246-31A9-45F2-A91E-FAF7D0AEE785",
+    "investors": [
+      "Creandum",
+      "Union Square Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Machenta",
+    "rounds": [
+      {
+        "amountEur": 35874439,
+        "date": "2026-10-27",
+        "id": "F86C6BD8-4D2B-4AA7-9105-36E0C635A4CF",
+        "investors": [
+          "Creandum",
+          "Union Square Ventures"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/F86C6BD8-4D2B-4AA7-9105-36E0C635A4CF"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 74,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          }
+        ],
+        "score": 15
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 35874439,
+    "url": "https://funding.tech.eu/companies/4A2FA246-31A9-45F2-A91E-FAF7D0AEE785",
+    "website": "https://machenta.com/"
+  },
+  "round": {
+    "amountEur": 35874439,
+    "amountEurStored": null,
+    "amountNative": 40000000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "4A2FA246-31A9-45F2-A91E-FAF7D0AEE785",
+      "name": "Machenta",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-10-27",
+    "fx": {
+      "asOf": "2026-10-27",
+      "rate": 1.115,
+      "source": "ECB"
+    },
+    "id": "F86C6BD8-4D2B-4AA7-9105-36E0C635A4CF",
+    "investors": [
+      "Creandum",
+      "Union Square Ventures"
+    ],
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Seed",
+    "url": "/deals/F86C6BD8-4D2B-4AA7-9105-36E0C635A4CF"
+  }
+}

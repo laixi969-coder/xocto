@@ -20,17 +20,17 @@ url: https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model
 canonical_url: https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model
 summary: Concerning behavior from a popular open-weight AI model
 first_seen: '2026-10-27T01:29:46Z'
-last_seen: '2026-10-27T01:29:46Z'
+last_seen: '2026-10-28T01:22:30Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model
-  seen_at: '2026-10-27T01:29:46Z'
+  seen_at: '2026-10-28T01:22:30Z'
   metrics:
-    points: 254
-    comments: 109
+    points: 324
+    comments: 124
   kind: news
 ---
 

@@ -20,7 +20,7 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-10-27T01:29:46Z'
+last_seen: '2026-10-28T01:22:30Z'
 status: pending_filter
 sources:
 - hackernews
@@ -110,10 +110,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://blog.cloudflare.com/kv-cache-exposure-remediation/
-  seen_at: '2026-10-27T01:29:46Z'
+  seen_at: '2026-10-28T01:22:30Z'
   metrics:
-    points: 64
-    comments: 12
+    points: 178
+    comments: 73
   kind: news
 ---
 

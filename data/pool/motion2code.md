@@ -21,17 +21,17 @@ canonical_url: https://github.com/lovisdotio/motion2code
 summary: 'Skills for coding agents: rebuild a motion design video as looping SVG + GSAP code, checked
   frame by frame against the source'
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lovisdotio/motion2code
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 280
-    forks: 24
+    stars: 293
+    forks: 26
     open_issues: 2
   kind: product
 ---

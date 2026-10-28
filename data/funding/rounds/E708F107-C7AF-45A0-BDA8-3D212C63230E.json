@@ -17,7 +17,7 @@
     "rounds": [
       {
         "amountEur": 92000,
-        "date": "2026-10-21T00:00:00.000Z",
+        "date": "2026-10-21",
         "id": "E708F107-C7AF-45A0-BDA8-3D212C63230E",
         "investors": [
           "Innovation Norway"
@@ -27,7 +27,7 @@
       },
       {
         "amountEur": 540000,
-        "date": "2026-10-21T00:00:00.000Z",
+        "date": "2026-10-21",
         "id": "88AE5EF1-4B06-49A7-B125-37AD90F09294",
         "investors": [
           "Ada Ventures",
@@ -52,29 +52,29 @@
           },
           {
             "effect": "up",
-            "label": "Recent equity round, but funding momentum is down (may be rescue financing)"
+            "label": "Recently backed by strong-exit-track investors"
           }
         ],
         "score": 8
       },
-      "heat": 46,
+      "heat": 68,
       "raiseNext": {
-        "base": 45,
+        "base": 24,
         "factors": [
           {
             "effect": "down",
             "label": "Raised very recently"
           },
           {
-            "effect": "down",
-            "label": "Down/flat last round"
+            "effect": "up",
+            "label": "Up-round momentum"
           },
           {
             "effect": "down",
             "label": "Low backer re-investment"
           }
         ],
-        "score": 13
+        "score": 9
       }
     },
     "source": "Tech.eu Funding Explorer",

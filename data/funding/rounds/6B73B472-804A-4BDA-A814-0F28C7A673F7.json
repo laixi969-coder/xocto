@@ -1,0 +1,107 @@
+{
+  "company": {
+    "city": "London",
+    "country": "UK",
+    "description": "Nevis develops an AI-powered platform that helps wealth management firms automate administrative tasks, streamline workflows and manage client relationships.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "1E474D8C-0E62-4EE6-B755-F9114D0C448E",
+    "investors": [
+      "EQT Ventures",
+      "ICONIQ Capital",
+      "Nik Storonsky",
+      "QuantumLight",
+      "Ribbit Capital",
+      "Sequoia Capital",
+      "The Charles Schwab Corporation"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Nevis",
+    "rounds": [
+      {
+        "amountEur": 62567036,
+        "date": "2026-10-26",
+        "id": "6B73B472-804A-4BDA-A814-0F28C7A673F7",
+        "investors": [
+          "EQT Ventures",
+          "ICONIQ Capital",
+          "Nik Storonsky",
+          "QuantumLight",
+          "Ribbit Capital",
+          "Sequoia Capital",
+          "The Charles Schwab Corporation"
+        ],
+        "stage": "Series B",
+        "url": "https://funding.tech.eu/deals/6B73B472-804A-4BDA-A814-0F28C7A673F7"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 60,
+      "raiseNext": {
+        "base": 48,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 16
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 62567036,
+    "url": "https://funding.tech.eu/companies/1E474D8C-0E62-4EE6-B755-F9114D0C448E",
+    "website": "https://www.neviswealth.com/"
+  },
+  "round": {
+    "amountEur": 62567036,
+    "amountEurStored": null,
+    "amountNative": 70000000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "1E474D8C-0E62-4EE6-B755-F9114D0C448E",
+      "name": "Nevis",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-10-26",
+    "fx": {
+      "asOf": "2026-10-26",
+      "rate": 1.1188,
+      "source": "ECB"
+    },
+    "id": "6B73B472-804A-4BDA-A814-0F28C7A673F7",
+    "investors": [
+      "The Charles Schwab Corporation",
+      "Ribbit Capital",
+      "ICONIQ Capital",
+      "Sequoia Capital",
+      "EQT Ventures",
+      "Nik Storonsky",
+      "QuantumLight"
+    ],
+    "rawRoundType": "series b",
+    "source": {
+      "domain": "eu-startups.com",
+      "tier": "established"
+    },
+    "stage": "Series B",
+    "url": "/deals/6B73B472-804A-4BDA-A814-0F28C7A673F7"
+  }
+}

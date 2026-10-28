@@ -20,17 +20,17 @@ url: https://fontfam.net/
 canonical_url: https://fontfam.net
 summary: A directory of 2,181 open-source fonts
 first_seen: '2026-10-27T01:29:46Z'
-last_seen: '2026-10-27T01:29:46Z'
+last_seen: '2026-10-28T01:22:30Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://fontfam.net/
-  seen_at: '2026-10-27T01:29:46Z'
+  seen_at: '2026-10-28T01:22:30Z'
   metrics:
     points: 5
-    comments: 2
+    comments: 3
   kind: product
 ---
 

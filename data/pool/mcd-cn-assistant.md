@@ -22,16 +22,16 @@ summary: '🍟 麦当劳中国官方 MCP 智能助手技能：把 35 个原子�
   真算，下单必二次确认。｜McDonald''s China MCP agent skill: campaigns, collab watch, best-value ordering, group bill
   splitting.'
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/junxchan54-maker/mcd-cn-assistant
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 396
+    stars: 398
     forks: 9
     open_issues: 1
   kind: product

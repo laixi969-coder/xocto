@@ -21,16 +21,16 @@ canonical_url: https://github.com/dominikmartn/harp
 summary: Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs
   you. An unofficial fork of Warp.
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dominikmartn/harp
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 658
+    stars: 676
     forks: 43
     open_issues: 10
   kind: product

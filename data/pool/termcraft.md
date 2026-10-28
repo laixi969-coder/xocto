@@ -20,17 +20,17 @@ url: https://github.com/pagel-s/termcraft/tree/v0.2.0
 canonical_url: https://github.com/pagel-s/termcraft/tree/v0.2.0
 summary: 2D terminal survival with multiplayer support
 first_seen: '2026-10-27T01:29:46Z'
-last_seen: '2026-10-27T01:29:46Z'
+last_seen: '2026-10-28T01:22:30Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/pagel-s/termcraft/tree/v0.2.0
-  seen_at: '2026-10-27T01:29:46Z'
+  seen_at: '2026-10-28T01:22:30Z'
   metrics:
     points: 7
-    comments: 3
+    comments: 4
   kind: product
 ---
 

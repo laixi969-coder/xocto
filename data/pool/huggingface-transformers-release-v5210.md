@@ -262,16 +262,16 @@ summary: "# Release v5.21.0\r\n\r\n\r\n## New Model additions\r\n\r\n### MiniCPM
   \ (#49660)\r\n* @yonigozlan\r\n    * Fix small bug in auto mappings (#49664)\r\n* @ArthurZucker\r\n\
   \    * Quantization cleanpup (#49548)"
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huggingface/transformers/releases/tag/v5.21
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    reactions: 0
+    reactions: 1
   kind: news
 ---
 

@@ -36,17 +36,17 @@ canonical_url: https://hujjun.github.io/mcd-saver-strategist
 summary: 麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省 53%）。McDonalds
   MCP（麦当劳 MCP）coupon optimizer · McDonalds China MCP Server · Agent Skill for WorkBuddy · 麦当劳程序员创意开发大赛参赛作品
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://hujjun.github.io/mcd-saver-strategist/
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 1588
-    forks: 87
+    stars: 1545
+    forks: 88
     open_issues: 2
   kind: product
 ---

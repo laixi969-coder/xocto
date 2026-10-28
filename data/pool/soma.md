@@ -21,18 +21,18 @@ canonical_url: https://somacad.app
 summary: Desktop app for designing parametric 3D models in CadQuery together with the coding agent of
   your choice
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://somacad.app/
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 383
-    forks: 34
-    open_issues: 3
+    stars: 397
+    forks: 35
+    open_issues: 4
   kind: product
 ---
 

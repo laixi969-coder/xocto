@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-10-24T00:43:55Z'
+last_seen: '2026-10-28T01:23:09Z'
 status: pending_filter
 sources:
 - hackernews
@@ -195,6 +195,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTVJYR0E1RG12SFhLN0VHZ1o4Zk5VMEJKT09jRzRIYmxLQTgtaEVxVW9nZ2lTQ2JTenlGMlhvbGRIWmtLWUZyRTlHaWNaZGthMVAyOVlsY0hPNVlXdV9rMnhxQkZJVDdLWkFCR1labm1udDFNWWNOVm5YQjdKT2JQbHpYTU5ObEtOWGYw?oc=5
   seen_at: '2026-10-24T00:43:55Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/
+  seen_at: '2026-10-28T01:23:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxQMEZLdzVGdzhkbnZuS0xicXB0S0V3VmRIcVJSTWtOdXpFQUYxMG05dm4wZ3A3QkNkRXhxd3FBRVY5RTkwRW5zOVlkS19uRUlMaGM5YU9tenZuQXZnanpabHdlb29jb2xfeG5CdU9sRElqalotM1ExcWdIdkZtLWN1X2FsSmhqY3d0ejJmVHY2ZWZfVG80dFNnUmtHaw?oc=5
+  seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPb2dzRUx0X0ZobVQ2cExncXhqakdGbWprTHAwSHROdFhGWWZWaEk4NGFOSU5aU2l3S08tOUJRSU9fZkFlNFFsU25IV2czME5SeVRWM3NESFBtWElnWTRMaEdLUGlZRkstYzRVUVBWZll4d1JxNElyTlYyZV9lZkFKLWp0QVpxMm9VNzB3U0hBd0daNDNraDIwck9mLW5qTmtDRVFCMmdsY0E0MDdyYXN4b29YTHJqcWZDWkktXzZqUWpERnIxMGc?oc=5
+  seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSXhERjJobG91S1JmZTNGMHFYeFB5X01LVlhFS2ctdXczaTByX0VCcFNxbFNMblZMUUlZWDN4NXdLMmJ4UXZoQzV0MzFXaTNNTUhFSWlLWWxTYVB3YXNEQWNfVGVYcm1TWi10VHZEUnZyNG9fNWlLRGcwWXlTa1M1azlYX2V1T2l0T1V0YWpsVGpsU1dnbGZZeXR2YndoSTBuNDNFc2lhWnRDZ2hnMmdJa2VmVV9uS1VfcHJ0OUQxMURlMUtjTkRpcUhDS3lHU1pPeDdrNEZ0VHA1YmFHcnBiY1JRWmZvRi10NUVpN2tFVkdPMDQ?oc=5
+  seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiggFBVV95cUxNbWNoWjQyMnA0NXRmUUp6UDlGUno0RTAzRW5KX3QwcU9YVE1YV2lGdmVScnFidHQ2RDU2UXFDeUhXQjYxMGJjVklfQ3p2YUpOUEZNWjhHMWVMSWs2WVZwVldIWmRtbnV0blB4T2pjNWxuQ0Nnck8tSFp0QnJubU5qaFRn?oc=5
+  seen_at: '2026-10-28T01:23:09Z'
   metrics: {}
   kind: news
 ---

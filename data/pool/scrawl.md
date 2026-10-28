@@ -31,18 +31,18 @@ url: https://scrawl.kitlangton.com
 canonical_url: https://scrawl.kitlangton.com
 summary: 'Show an agent a problem: mark up, record, send'
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://scrawl.kitlangton.com
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 767
+    stars: 776
     forks: 74
-    open_issues: 36
+    open_issues: 37
   kind: product
 ---
 

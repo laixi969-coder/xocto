@@ -1,0 +1,19 @@
+- id: ev-8f6f485ab32dd2a7
+  project_slug: announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs
+  url: https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/
+  title: Announcing SOCI-indexed images for faster SageMaker AI jobs
+  published_at: '2026-10-27T17:00:39Z'
+  collected_at: '2026-10-28T01:23:01Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Every minute your deep learning container image spends downloading is a minute you pay for and
+    a minute your team waits. Container image download is pure overhead: billable job time that produces
+    no model progress. For modern deep learning images, that overhead is several minutes on every single
+    job. Today, we’re excited to announce Seekable OCI (SOCI) indexing for Amazon SageMaker AI Training
+    and Amazon SageMaker AI processing jobs , which takes full container image download off the critical
+    path of every job. With SOCI indexing, SageMaker AI lazy-loads your container image. It fetches only
+    the files needed to start the container and streams the rest in the background as your code runs,
+    so your job begins in seconds instead of minutes. You adopt it by pointing to a pre-indexed AWS Deep
+    Learning Container (DLC) or adding an index to your own image. Neither approach requires changes to
+    your job definition, entry point, or data channels. The result is faster job starts, lower job cost,
+    a'

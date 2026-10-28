@@ -21,18 +21,18 @@ canonical_url: https://dewiar.pro
 summary: Голосовая помощница с командой ИИ-персонажей для Windows, Ubuntu и Android — делает дела голосом
   · Voice AI assistant that actually does things
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://dewiar.pro
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 329
-    forks: 31
-    open_issues: 5
+    stars: 356
+    forks: 32
+    open_issues: 6
   kind: product
 ---
 

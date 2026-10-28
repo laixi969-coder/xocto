@@ -36,16 +36,16 @@ url: https://github.com/openai/MultiLangBench
 canonical_url: https://github.com/openai/MultiLangBench
 summary: An eval based on SQLite that benchmarks language models in multiple languages.
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/MultiLangBench
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 37
+    stars: 39
     forks: 4
     open_issues: 0
   kind: product

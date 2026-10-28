@@ -21,18 +21,18 @@ canonical_url: https://awesomerea.org
 summary: 'Awesome Reverse Engineering Anything: tools, projects, case studies and research papers for
   websites, games, apps, binaries, firmware and communication protocols.'
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://awesomerea.org
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 447
-    forks: 151
-    open_issues: 1130
+    stars: 494
+    forks: 191
+    open_issues: 1115
   kind: product
 ---
 

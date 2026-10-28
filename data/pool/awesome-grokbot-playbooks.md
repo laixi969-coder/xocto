@@ -21,18 +21,18 @@ canonical_url: https://github.com/sit-in/awesome-grokbot-playbooks
 summary: 中文 Grok Bot 玩法与可抄配方清单：作战室、雷达 Routine、额度体检… 由 Grok Bot + Claude 协作维护 | Chinese-first Grok Bot
   playbooks
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sit-in/awesome-grokbot-playbooks
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 387
-    forks: 46
-    open_issues: 10
+    stars: 416
+    forks: 49
+    open_issues: 11
   kind: product
 ---
 

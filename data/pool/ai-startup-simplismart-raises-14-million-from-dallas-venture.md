@@ -1,0 +1,43 @@
+---
+slug: ai-startup-simplismart-raises-14-million-from-dallas-venture
+name: AI startup Simplismart raises $14 million from Dallas Venture Capital, Nvidia as demand for inference
+  grow
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiggJBVV95cUxONktubGJFWjVLX1JlSjc2M193TFBxeDNLUzdsTzBSNjI0bUVJRlNjTjZiUXIya0kyU2xUbEt0djh6VGtXUjBZTjNYR2FJcTBMdW1UdzNOaTBINnhHb2JXVUlqY1ZaMVJSOGdBbldsUXhoRHlqUHVqMkc4SjhqOHdlcmVXd1hJUG92YWg1X0YyRFFEYlhYaFVFSTlsWDZLSFM5NUlfdDU2Rkd1QnVvNzJsT3VCQ181bkc2TkxqZzhxTVlIaWxpTHRrb1QwZ2hTNE03ZmNkeERmS2ZxUXE4TGFSYXZidmUyVWlJdHM3NkdlVklLT0d4R3B4TVQ3RWxxbjY5WlHSAYcCQVVfeXFMTjRRV195M1d0SHV6cjZWbG96MlBzNGc3MlNvc2dueHVMUEVSVFNUX1M1dkFkVk1oLVE4RzUwQ1o0OExfVkM0VHlucDh1dndTblF6dnRBRmdrejgxaGpzZkRELWJUOTdvOVVmTzU3Tl8wMFJydFFLSGEzdmNYSk96cHBMaTdxMExrVG9Uc2tnLW1fWXRfNkpQdDR3VkxiMUl4OGVzeUgtak9LcmRRbHlZbTBsQnpRZWFUTHYzbEtoQjNiZHZ3RUhqeW5LMDZrbTZyZkJLRmpKeGVjTFlmWFNyZ2UyZ2VkRjFNaGptZ3dpdlF3a1k2ajM2Q1FVbXJFMWdISmRxUE9ZekE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiggJBVV95cUxONktubGJFWjVLX1JlSjc2M193TFBxeDNLUzdsTzBSNjI0bUVJRlNjTjZiUXIya0kyU2xUbEt0djh6VGtXUjBZTjNYR2FJcTBMdW1UdzNOaTBINnhHb2JXVUlqY1ZaMVJSOGdBbldsUXhoRHlqUHVqMkc4SjhqOHdlcmVXd1hJUG92YWg1X0YyRFFEYlhYaFVFSTlsWDZLSFM5NUlfdDU2Rkd1QnVvNzJsT3VCQ181bkc2TkxqZzhxTVlIaWxpTHRrb1QwZ2hTNE03ZmNkeERmS2ZxUXE4TGFSYXZidmUyVWlJdHM3NkdlVklLT0d4R3B4TVQ3RWxxbjY5WlHSAYcCQVVfeXFMTjRRV195M1d0SHV6cjZWbG96MlBzNGc3MlNvc2dueHVMUEVSVFNUX1M1dkFkVk1oLVE4RzUwQ1o0OExfVkM0VHlucDh1dndTblF6dnRBRmdrejgxaGpzZkRELWJUOTdvOVVmTzU3Tl8wMFJydFFLSGEzdmNYSk96cHBMaTdxMExrVG9Uc2tnLW1fWXRfNkpQdDR3VkxiMUl4OGVzeUgtak9LcmRRbHlZbTBsQnpRZWFUTHYzbEtoQjNiZHZ3RUhqeW5LMDZrbTZyZkJLRmpKeGVjTFlmWFNyZ2UyZ2VkRjFNaGptZ3dpdlF3a1k2ajM2Q1FVbXJFMWdISmRxUE9ZekE?oc=5
+summary: AI startup Simplismart raises $14 million from Dallas Venture Capital, Nvidia as demand for inference
+  grow The Economic Times
+first_seen: '2026-10-28T01:23:09Z'
+last_seen: '2026-10-28T01:23:09Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiggJBVV95cUxONktubGJFWjVLX1JlSjc2M193TFBxeDNLUzdsTzBSNjI0bUVJRlNjTjZiUXIya0kyU2xUbEt0djh6VGtXUjBZTjNYR2FJcTBMdW1UdzNOaTBINnhHb2JXVUlqY1ZaMVJSOGdBbldsUXhoRHlqUHVqMkc4SjhqOHdlcmVXd1hJUG92YWg1X0YyRFFEYlhYaFVFSTlsWDZLSFM5NUlfdDU2Rkd1QnVvNzJsT3VCQ181bkc2TkxqZzhxTVlIaWxpTHRrb1QwZ2hTNE03ZmNkeERmS2ZxUXE4TGFSYXZidmUyVWlJdHM3NkdlVklLT0d4R3B4TVQ3RWxxbjY5WlHSAYcCQVVfeXFMTjRRV195M1d0SHV6cjZWbG96MlBzNGc3MlNvc2dueHVMUEVSVFNUX1M1dkFkVk1oLVE4RzUwQ1o0OExfVkM0VHlucDh1dndTblF6dnRBRmdrejgxaGpzZkRELWJUOTdvOVVmTzU3Tl8wMFJydFFLSGEzdmNYSk96cHBMaTdxMExrVG9Uc2tnLW1fWXRfNkpQdDR3VkxiMUl4OGVzeUgtak9LcmRRbHlZbTBsQnpRZWFUTHYzbEtoQjNiZHZ3RUhqeW5LMDZrbTZyZkJLRmpKeGVjTFlmWFNyZ2UyZ2VkRjFNaGptZ3dpdlF3a1k2ajM2Q1FVbXJFMWdISmRxUE9ZekE?oc=5
+  seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+---
+
+# AI startup Simplismart raises $14 million from Dallas Venture Capital, Nvidia as demand for inference grow
+
+AI startup Simplismart raises $14 million from Dallas Venture Capital, Nvidia as demand for inference grow The Economic Times
+
+## 笔记
+
+

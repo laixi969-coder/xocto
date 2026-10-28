@@ -20,18 +20,18 @@ url: https://github.com/InariNGT-Ofiicial/dsh-bili-humanism
 canonical_url: https://github.com/InariNGT-Ofiicial/dsh-bili-humanism
 summary: 用多彩的人类世界，训练 DSH 的人格：默认积累信笺反思于专用 human-world.md；允许通过 DSH 与外部插件接驳。历史、收藏、点赞与投币独立默认关闭；本项目不提供评论接口。
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/InariNGT-Ofiicial/dsh-bili-humanism
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
-    stars: 176
+    stars: 190
     forks: 12
-    open_issues: 10
+    open_issues: 12
   kind: product
 ---
 

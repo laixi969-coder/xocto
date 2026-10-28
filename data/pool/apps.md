@@ -21,7 +21,7 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-28T01:23:09Z'
 status: pending_filter
 sources:
 - hackernews
@@ -154,6 +154,21 @@ sightings:
   seen_at: '2026-10-26T00:24:22Z'
   metrics:
     reactions: 7
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/oracle-apps-in-chatgpt
+  seen_at: '2026-10-28T01:23:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ2dRMjhiNTRYdWpZUE5nTFd1eUduN3lybHJCSjBOdFphbnJYV0hIVkk2Q1RxbXBzQTVqVFhZZDVYYl9LOG5hX0Vzd1g3VFl4VDR6UGk4cU9tNjJJWjZpbGlXRTloNW1FZExtQ1B2MllGNU9fbjJBNWhsakZYRElTTWl6N0doZlhrRmNLRFI4dm1hYm5MalpWY0tWaWlaM084SmFnZmIwVXJybHZsRjhDMEdxVklwU0pv?oc=5
+  seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTFBZT2E0cHN3d0FGT0hpTTlkLTU4cGtudTVCWTJQVThEZDZoNjMtMndhWWxDNnIwbV9aNEwwZVI0eW5zVGFRYUhURkl0d1NuNGJBOEVUVmJOZUNrWFAxVXFlMmliaXZvNzk5VnlRQm5zbGtBcTJXbkE?oc=5
+  seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
   kind: news
 ---
 

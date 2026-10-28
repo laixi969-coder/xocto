@@ -31,7 +31,7 @@ url: https://github.com/RayenMlayeh/jevcrawl
 canonical_url: https://github.com/RayenMlayeh/jevcrawl
 summary: A web crawler for AI agents with no LLM in the crawl loop
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-28T01:22:33Z'
 status: watching
 sources:
 - hackernews
@@ -46,11 +46,11 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/RayenMlayeh/jevcrawl
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-28T01:22:33Z'
   metrics:
     stars: 82
-    forks: 7
-    open_issues: 6
+    forks: 8
+    open_issues: 7
   kind: product
 ---
 
