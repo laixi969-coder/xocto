@@ -36,16 +36,16 @@ canonical_url: https://arcmira.com
 summary: YouTube transcript search for your AI. Find who said what with timestamps, mentions, sponsors,
   and recommendations. Remote MCP and agent skills.
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://arcmira.com
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 76
+    stars: 78
     forks: 0
     open_issues: 8
   kind: product

@@ -32,16 +32,16 @@ canonical_url: https://github.com/Hybirdss/Hycli
 summary: Websites, ready for AI. Turn website tasks into verified CLI and MCP actions, with a local dashboard
   and 20 languages.
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Hybirdss/Hycli
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 429
+    stars: 433
     forks: 102
     open_issues: 4
   kind: product

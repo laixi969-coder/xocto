@@ -20,17 +20,17 @@ url: https://www.liquid.ai/blog/lfm3
 canonical_url: https://liquid.ai/blog/lfm3
 summary: 'Introducing LFM3: Every Modality for Specialized Intelligence'
 first_seen: '2026-10-28T01:22:30Z'
-last_seen: '2026-10-28T01:22:30Z'
+last_seen: '2026-10-29T01:48:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.liquid.ai/blog/lfm3
-  seen_at: '2026-10-28T01:22:30Z'
+  seen_at: '2026-10-29T01:48:26Z'
   metrics:
-    points: 120
-    comments: 50
+    points: 167
+    comments: 65
   kind: news
 ---
 

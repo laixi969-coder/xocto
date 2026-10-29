@@ -22,18 +22,18 @@ summary: Self-hosted web and AI crawler analytics for Generative Engine Optimiza
   AI search referrals, crawl logs, content coverage, and conversions. Jointly published by 猎看科技 · 北京日报社智源GEO.
   MIT licensed.
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yaojingang/GEOInflow
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 604
-    forks: 181
-    open_issues: 3
+    stars: 689
+    forks: 223
+    open_issues: 5
   kind: product
 ---
 

@@ -1,0 +1,18 @@
+- id: ev-105e8f876c4c1c53
+  project_slug: distributed-training-with-ray-train-dlcs-and-efa-on-eks
+  url: https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/
+  title: Distributed training with Ray Train DLCs and EFA on EKS
+  published_at: '2026-10-28T18:19:54Z'
+  collected_at: '2026-10-29T01:48:58Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'What usually stops PyTorch training from scaling out to a cluster is the container, not the model
+    code. Every container needs the same CUDA runtime , a PyTorch build compiled against it, NCCL (NVIDIA
+    Collective Communications Library), the Elastic Fabric Adapter (EFA) userspace libraries, the AWS
+    OFI NCCL plugin that connects NCCL to EFA, and a Ray version the cluster operator agrees with. Building
+    that image and rebuilding it each time one of those pieces moves is a project of its own, and it has
+    nothing to do with the model you set out to train. The Ray Train Deep Learning Container (DLC) is
+    that image, built by AWS. AWS assembles the stack, tests it as one unit, publishes it in Amazon Elastic
+    Container Registry (Amazon ECR) Public and keeps it patched. Figure 1: One EKS cluster with a control
+    plane managed by AWS, a CPU system node (m7i.xlarge) running the KubeRay operator and Ray head, and
+    two EFA-enabled g6.12xlarge nodes in one Availability Zone. KubeRay builds it from one RayClu'

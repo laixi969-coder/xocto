@@ -22,17 +22,17 @@ summary: 'Accessibility-first browser & computer use for AI agents — one MCP s
   (Codex, Claude Code, OpenCode, Antigravity). Instruments the DOM/accessibility tree via CDP instead
   of screenshot loops: diffed snapshots, stable element refs, trusted input, typed errors. Zero dependencies'
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://ax-use.com
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 541
-    forks: 28
+    stars: 577
+    forks: 31
     open_issues: 3
   kind: product
 ---

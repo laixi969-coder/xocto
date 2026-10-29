@@ -20,7 +20,7 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-10-28T01:23:09Z'
+last_seen: '2026-10-29T01:49:06Z'
 status: pending_filter
 sources:
 - hackernews
@@ -170,6 +170,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQSUhtYzh5ejJycVRHNXFnaEVnQTlRQVdiTkMxQmMxcEtUQU1xTS05TzJmU3lCd3RTREtSb2dtMnAzd1h6U09GNktjaE5haTNHcHNuRnZ1NFdNSlJiNVh4VWlWSVRKUnVSclJWVUt0VTFZcEFOYXdpR2hBVXA1eEpabnQwN3ZULVMtRDJ0VVFEWTMteEN6NXFNT0FHakZGR19YbV81T0xBTXlBX3hwc3ZidjM1MTRka05UOHEzX0c3WllKa0pl?oc=5
   seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNLXJfZkszUjlFX0YxTklTUF9qLTZPWDB3LU8wX0NWWmgyZUptNmJPNzU3UFJYOGNLLTk2SllGVFI5aUltcU8ycURmdDNFdHM0VFpqekxnQUlVZERmYjIyYXM3Zm9ENkxkQXUwb1VqTWdIX1ktMlpzdWhDS1RuMmxjcVNqdTZwUjJsbk1RVGtqd3haT254Y2dwUkxVdE96LVpxSGZn?oc=5
+  seen_at: '2026-10-29T01:49:06Z'
   metrics: {}
   kind: news
 ---

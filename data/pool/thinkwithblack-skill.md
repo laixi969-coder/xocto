@@ -21,16 +21,16 @@ canonical_url: https://thinkwithblack.com/marketing-skills
 summary: 365 free AI marketing skills (zh-TW/en) for ChatGPT, Claude, Gemini, Claude Code & Cursor — copywriting,
   ads budget, margin, CRM, email. 365 個免費 AI 行銷 Skills
 first_seen: '2026-10-24T00:43:23Z'
-last_seen: '2026-10-25T00:21:05Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://thinkwithblack.com/marketing-skills/
-  seen_at: '2026-10-25T00:21:05Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 241
+    stars: 248
     forks: 23
     open_issues: 1
   kind: product

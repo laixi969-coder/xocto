@@ -30,17 +30,17 @@ canonical_url: https://eleven.chizi.app
 summary: 'Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and
   patches binaries, Android apps and GPU kernels next to you.'
 first_seen: '2026-10-16T00:25:17Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://eleven.chizi.app
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 902
-    forks: 135
+    stars: 920
+    forks: 137
     open_issues: 6
   kind: product
 ---

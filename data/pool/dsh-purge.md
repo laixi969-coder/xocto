@@ -21,17 +21,17 @@ canonical_url: https://github.com/YuJunZhiXue/dsh-purge
 summary: DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts
   per model. 求 Star 收藏 ⭐
 first_seen: '2026-08-19T07:41:12Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/YuJunZhiXue/dsh-purge
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 2531
-    forks: 3013
+    stars: 2607
+    forks: 3097
     open_issues: 4
   kind: product
 ---

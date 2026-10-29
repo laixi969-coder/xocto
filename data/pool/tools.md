@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-10-28T01:23:09Z'
+last_seen: '2026-10-29T01:48:59Z'
 status: pending_filter
 sources:
 - hackernews
@@ -220,6 +220,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiggFBVV95cUxNbWNoWjQyMnA0NXRmUUp6UDlGUno0RTAzRW5KX3QwcU9YVE1YV2lGdmVScnFidHQ2RDU2UXFDeUhXQjYxMGJjVklfQ3p2YUpOUEZNWjhHMWVMSWs2WVZwVldIWmRtbnV0blB4T2pjNWxuQ0Nnck8tSFp0QnJubU5qaFRn?oc=5
   seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/
+  seen_at: '2026-10-29T01:48:59Z'
   metrics: {}
   kind: news
 ---

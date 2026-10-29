@@ -20,7 +20,7 @@ url: https://stoppels.ch/goalposts/
 canonical_url: https://stoppels.ch/goalposts
 summary: Vote on which of Hacker News' challenges for AI have been met
 first_seen: '2026-10-01T17:32:43Z'
-last_seen: '2026-10-03T01:12:27Z'
+last_seen: '2026-10-29T01:48:26Z'
 status: rejected
 sources:
 - hackernews
@@ -32,6 +32,13 @@ sightings:
     points: 195
     comments: 257
   kind: news
+- source: hackernews
+  url: https://stoppels.ch/tar/
+  seen_at: '2026-10-29T01:48:26Z'
+  metrics:
+    points: 6
+    comments: 2
+  kind: product
 ---
 
 # stoppels

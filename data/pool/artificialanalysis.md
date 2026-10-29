@@ -24,10 +24,11 @@ url: https://artificialanalysis.ai/optima
 canonical_url: https://artificialanalysis.ai/optima
 summary: Artificial Analysis tool to create custom benchmarks for any use case
 first_seen: '2026-08-13T16:28:02Z'
-last_seen: '2026-10-25T00:21:02Z'
+last_seen: '2026-10-29T01:48:59Z'
 status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://artificialanalysis.ai/optima
@@ -91,6 +92,18 @@ sightings:
   metrics:
     points: 119
     comments: 41
+  kind: news
+- source: hackernews
+  url: https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5
+  seen_at: '2026-10-29T01:48:26Z'
+  metrics:
+    points: 90
+    comments: 82
+  kind: news
+- source: marketfeeds
+  url: https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers
+  seen_at: '2026-10-29T01:48:59Z'
+  metrics: {}
   kind: news
 ---
 

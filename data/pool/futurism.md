@@ -20,17 +20,17 @@ url: https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nov
 canonical_url: https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova
 summary: Amazon Is Gutting Its AI Division After Sustained Failure
 first_seen: '2026-10-28T01:22:30Z'
-last_seen: '2026-10-28T01:22:30Z'
+last_seen: '2026-10-29T01:48:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova
-  seen_at: '2026-10-28T01:22:30Z'
+  seen_at: '2026-10-29T01:48:26Z'
   metrics:
-    points: 251
-    comments: 170
+    points: 369
+    comments: 283
   kind: news
 ---
 

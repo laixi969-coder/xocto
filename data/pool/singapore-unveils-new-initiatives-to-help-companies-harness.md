@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWlB3aXlSNlEw
 summary: Singapore unveils new initiatives to help companies harness AI, such as to develop new products
   The Straits Times
 first_seen: '2026-10-28T01:23:09Z'
-last_seen: '2026-10-28T01:23:09Z'
+last_seen: '2026-10-29T01:49:06Z'
 status: pending_filter
 sources:
 - newssearch
@@ -29,6 +29,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWlB3aXlSNlEwMW5icmN4R2loYTlMc1hVeXBoQjQwNXBPbHVLNzZLM1RLajNqZTNKc2NzZ3Q4bktqcVJlRWRaS2JiQkdRaVVNMnZrdUdQYWxWWlRiQ3NIODBJbVIwdFFzOUtYdlctZV9ET1JnWW1nc0Y3YkRxM05fVnBqd3dWeWhxRW1QXzlJVWh2VFNkSVdfeWpNZ2haSGV3bDVZcE02dXBpUUpFd0dmaENHUTgyQ3h4OG9DMXE1VVUyRE9uQnBzOEhUeF9PT2tsOUFMNjN1eW5pbTlIZUJZT3FjNmJKbHFIeTluTTFrWVJ3U0E?oc=5
   seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeEswYTdvQ0xCbFVfTGJJTlZIcGFDd0FmUUdWZENfZ2hRUjRCV2ZOZ0RQUE54VVVWOUhGSzNiNmtYMExURDIzR3pmZ0FIVlVuemh6eWtBNTJ2X3hkcllJOWpxbHhBQ0g0OUpFanR3ZW1BU1h2cHFYSFJQV2hUcXNkMkdtWloyVTVQVmlMcnN2ZlJoVlRHbUxBTDBmM2RjRERRM25jOG9yQVZVRWhiRkpnelJ2M09TMlJ0YnFIYTY2YXgxZUEzMEhFNDhwUjZDWUJVaW5lUG9JRQ?oc=5
+  seen_at: '2026-10-29T01:49:06Z'
   metrics: {}
   kind: news
 ---

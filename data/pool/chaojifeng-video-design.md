@@ -20,17 +20,17 @@ url: https://github.com/mileson/chaojifeng-video-design
 canonical_url: https://github.com/mileson/chaojifeng-video-design
 summary: 超级峰的视频设计方法论｜面向 AI Agent 的视频主线、分镜、声画节奏、制作与交付验收 Skill
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mileson/chaojifeng-video-design
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 230
-    forks: 35
+    stars: 423
+    forks: 54
     open_issues: 0
   kind: product
 ---

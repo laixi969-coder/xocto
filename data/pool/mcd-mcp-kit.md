@@ -20,18 +20,18 @@ url: https://github.com/CRFXN5C/mcd-mcp-kit
 canonical_url: https://github.com/CRFXN5C/mcd-mcp-kit
 summary: MCP integration health check and measured pitfalls for McDonald's China MCP Server
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-10-26T00:24:22Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CRFXN5C/mcd-mcp-kit
-  seen_at: '2026-10-26T00:24:22Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
     stars: 122
     forks: 0
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

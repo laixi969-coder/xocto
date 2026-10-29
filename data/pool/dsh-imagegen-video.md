@@ -21,17 +21,17 @@ canonical_url: https://github.com/q253595422/dsh-imagegen-video
 summary: 'DeepSeek Harness plugin: image + video generation studio with an infinite canvas. Fork of dickpy/dsh-imagegen
   with a complete video pipeline and clip stitching.'
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/q253595422/dsh-imagegen-video
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 62
-    forks: 10
+    stars: 65
+    forks: 11
     open_issues: 0
   kind: product
 ---

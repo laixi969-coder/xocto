@@ -21,18 +21,18 @@ canonical_url: https://github.com/sepehr071/iran-mcp
 summary: '39 MCP servers (488 tools) that give AI agents the Iranian web: Digikala, Torob, Divar, Snappfood,
   Jabama, MrBilit, Paziresh24, Taaghche, laws, tax, crypto, stocks, news and more. Prices in Toman.'
 first_seen: '2026-10-24T00:43:23Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sepehr071/iran-mcp
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 162
+    stars: 168
     forks: 18
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

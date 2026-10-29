@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOTlJFU3czUjJ5MDBfS3RPMW
 canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOTlJFU3czUjJ5MDBfS3RPMW5OTGFMbVQ5b21RYlU3bzlDcTZraTRSeS1QdUVuRm51RWY3NGxQblUwSHFvdnZrUjlxeGdsY0NOUnFIOUJPTml5ZHFEZnFDUU8tcXk4OUVKbG9CUzRsZXlMeFFQSC1RRUdRUlg1RFRrZlZ4aGRKSlEtVXQzdGdZUQ?oc=5
 summary: 事关加快发展新一代智能制造 上海最新发文！研制推广物理AI装备 21财经
 first_seen: '2026-10-28T01:23:09Z'
-last_seen: '2026-10-28T01:23:09Z'
+last_seen: '2026-10-29T01:49:06Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOTlJFU3czUjJ5MDBfS3RPMW5OTGFMbVQ5b21RYlU3bzlDcTZraTRSeS1QdUVuRm51RWY3NGxQblUwSHFvdnZrUjlxeGdsY0NOUnFIOUJPTml5ZHFEZnFDUU8tcXk4OUVKbG9CUzRsZXlMeFFQSC1RRUdRUlg1RFRrZlZ4aGRKSlEtVXQzdGdZUQ?oc=5
   seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9sRGc3Q0NPMVUxVzNzdHBQYmtTX3RrbDAweVNKb1UzNHdTMGdhX1lxWUREMVdsSzRQZW55Rmw1aTdBT184UWItb3VEWU1VWnpPczdrS29YdVBZRDVHMDhTSA?oc=5
+  seen_at: '2026-10-29T01:49:06Z'
   metrics: {}
   kind: news
 ---

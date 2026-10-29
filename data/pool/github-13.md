@@ -20,7 +20,7 @@ url: https://github.com/deepseek-ai/DeepInfer
 canonical_url: https://github.com/deepseek-ai/DeepInfer
 summary: "https://github.com/deepseek-ai/DeepInfer\r\n\r\n看有没有大神优化大幅降低本地部署要求"
 first_seen: '2026-10-21T00:37:57Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - v2ex
@@ -42,11 +42,11 @@ sightings:
   kind: news
 - source: github
   url: https://github.com/deepseek-ai/DeepInfer
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 23403
-    forks: 2746
-    open_issues: 216
+    stars: 23940
+    forks: 2851
+    open_issues: 220
   kind: product
 ---
 

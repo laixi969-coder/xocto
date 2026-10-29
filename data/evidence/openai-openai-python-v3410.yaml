@@ -1,0 +1,33 @@
+- id: ev-c54ef5bacd27d1f5
+  project_slug: openai-openai-python-v3410
+  url: https://github.com/openai/openai-python/releases/tag/v3.41.0
+  title: 'openai/openai-python: v3.41.0'
+  published_at: '2026-10-28T22:26:54Z'
+  collected_at: '2026-10-29T01:48:31Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## [3.41.0](https://github.com/openai/openai-python/compare/v3.40.0...v3.41.0) (2026-10-28)
+
+
+
+    ### Features
+
+
+    * **api:** accept typed references in Realtime response inputs ([#4189](https://github.com/openai/openai-python/issues/4189))
+    ([8ecb487](https://github.com/openai/openai-python/commit/8ecb487ceb746f3af492c2d94083eb4e5d82a14f))
+
+    * **api:** add response tool usage models ([#4201](https://github.com/openai/openai-python/issues/4201))
+    ([55fc500](https://github.com/openai/openai-python/commit/55fc5008533deef3ad99ab6ffe48021e95aa22c2))
+
+    * **api:** filter agent sessions by metadata ([#4200](https://github.com/openai/openai-python/issues/4200))
+    ([77fd116](https://github.com/openai/openai-python/commit/77fd116d2326bc828bb23d4fd7960142972293a4))
+
+    * **websocket:** recover queued binary frames after reconnect ([#4191](https://github.com/openai/openai-python/issues/4191))
+    ([f079868](https://github.com/openai/openai-python/commit/f0798682d36be3bb79293d40c260cd93dbabf939))
+
+
+
+    ### Bug Fixes
+
+
+    * **exa'

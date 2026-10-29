@@ -22,17 +22,17 @@ summary: Open-source template for "one photo → AI video that follows a viral t
   site per trending keyword. Cloudflare Workers + D1/R2/KV/Queues, TanStack Start + Hono, Google sign-in,
   credit packs (Waffo/Dodo), fal.ai video generation, admin console.
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/qianshuixia/shrimpreel
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 291
-    forks: 121
+    stars: 306
+    forks: 128
     open_issues: 1
   kind: product
 ---

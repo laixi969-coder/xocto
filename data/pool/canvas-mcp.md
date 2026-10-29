@@ -20,16 +20,16 @@ url: https://github.com/boyuchengz/canvas-mcp
 canonical_url: https://github.com/boyuchengz/canvas-mcp
 summary: Read-only MCP server that connects Claude, ChatGPT and other AI assistants to Canvas LMS.
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/boyuchengz/canvas-mcp
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 116
+    stars: 117
     forks: 29
     open_issues: 0
   kind: product

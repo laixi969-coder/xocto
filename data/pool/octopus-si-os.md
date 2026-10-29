@@ -21,18 +21,18 @@ canonical_url: https://github.com/miuuyy/Octopus-SI-OS
 summary: A self-evolving agentic OS. A new architecture for agent execution, built on operating-system
   principles, with the harness as a path toward superintelligence.
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/miuuyy/Octopus-SI-OS
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 587
-    forks: 65
-    open_issues: 3
+    stars: 606
+    forks: 66
+    open_issues: 1
   kind: product
 ---
 

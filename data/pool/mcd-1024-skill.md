@@ -21,16 +21,16 @@ canonical_url: https://github.com/zhuxian518/mcd-1024-skill
 summary: McDonald's China MCP innovation skill - entry for MCD Developer Innovation Challenge 2026 (1024
   Programmers' Day)
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zhuxian518/mcd-1024-skill
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 282
+    stars: 305
     forks: 0
     open_issues: 0
   kind: product

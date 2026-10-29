@@ -22,18 +22,18 @@ summary: Which AI coding model, at which effort, on which plan? Recommended effo
   those efforts and plan advice from modelplan.ai, in Claude Code, Codex and the terminal (plugins, Skill,
   CLI).
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://modelplan.ai
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
     stars: 41
     forks: 3
-    open_issues: 5
+    open_issues: 8
   kind: product
 ---
 

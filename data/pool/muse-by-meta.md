@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-10-28T01:23:01Z'
+last_seen: '2026-10-29T01:49:06Z'
 status: pending_filter
 sources:
 - producthunt
@@ -428,6 +428,11 @@ sightings:
 - source: officialfeeds
   url: https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/
   seen_at: '2026-10-28T01:23:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxQWTAtUjkwVExfbDFVS2loMUxjVFBoeldoT2MwejFaMHY5MmNvc3dlZlk4cEJXcEx6S2N6TVFJSTlYZnRIeXZKcVY2eDFIOTZ2ZXpWM2NPMFFLZEM1T2d1NS1LdFpFeVdPN1dsX0JuRHBsUUxvOXBYVXRCZ1QtdG9jZUM5bUdDWUhWVzN0ZXNGbmhzaHpMY2N1TW9KRUcyYlVYVkh6ZjF5bllFVnBfbm1iQm9IdGQ?oc=5
+  seen_at: '2026-10-29T01:49:06Z'
   metrics: {}
   kind: news
 ---

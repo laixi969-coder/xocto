@@ -34,16 +34,16 @@ summary: "## Liquid AI LFM3\r\n\r\n[LFM3](https://ollama.com/library/lfm3) is Li
   \ more detail in small images\r\n- `ollama launch` now works with OpenCode v2\r\n- Fixed tool-only assistant\
   \ turns from Kimi CLI\r\n- Updated MLX and llama.cpp\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.11...v0.40.12"
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.40.12
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    reactions: 19
+    reactions: 26
   kind: news
 ---
 

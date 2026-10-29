@@ -20,17 +20,17 @@ url: https://cfsg.axiommath.ai/
 canonical_url: https://cfsg.axiommath.ai
 summary: Classification of Finite Simple Groups Formalized in Lean
 first_seen: '2026-10-28T01:22:30Z'
-last_seen: '2026-10-28T01:22:30Z'
+last_seen: '2026-10-29T01:48:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://cfsg.axiommath.ai/
-  seen_at: '2026-10-28T01:22:30Z'
+  seen_at: '2026-10-29T01:48:26Z'
   metrics:
-    points: 167
-    comments: 44
+    points: 236
+    comments: 74
   kind: news
 ---
 

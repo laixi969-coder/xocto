@@ -21,16 +21,16 @@ canonical_url: https://whatsapp.finereli.com
 summary: A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Use
   it free at whatsapp.finereli.com, or run your own copy on Cloudflare.
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://whatsapp.finereli.com
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 390
+    stars: 393
     forks: 34
     open_issues: 2
   kind: product

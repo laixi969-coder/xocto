@@ -17,3 +17,22 @@
     \ makes decisions about text and images, and [d1-omni](https://ollama.com/library/d1-omni) adds audio.\r\
     \n\r\n```sh\r\nollama run d1:2b \"I was charged twice for order 4417.\" --ask \"Is this a billing\
     \ issue?\"\r\n```\r\n\r\nNote: lfm3 and d1 2b are"
+- id: ev-22ee3ead6f66c658
+  project_slug: ollama-ollama-v04012
+  url: https://github.com/ollama/ollama/releases/tag/v0.40.12
+  title: 'ollama/ollama: v0.40.12'
+  published_at: '2026-10-27T00:07:12Z'
+  collected_at: '2026-10-29T01:48:31Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## Liquid AI LFM3\r\n\r\n[LFM3](https://ollama.com/library/lfm3) is Liquid AI's new family of\
+    \ small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid\
+    \ architecture. The family includes:\r\n\r\n- [lfm3](https://ollama.com/library/lfm3): a 1.7B text\
+    \ model with a 256K-token context window\r\n- [lfm3-vl](https://ollama.com/library/lfm3-vl): adds\
+    \ image understanding\r\n- [lfm3-audio](https://ollama.com/library/lfm3-audio): speech recognition,\
+    \ translation, and text-to-speech in 18 languages\r\n- [lfm3-omni](https://ollama.com/library/lfm3-omni):\
+    \ text, images, and audio in one model\r\n\r\n```sh\r\nollama run lfm3\r\n```\r\n\r\n## d1 decision\
+    \ models\r\n\r\nLiquid AI's d1 models now come in a 2B size, built on LFM3. [d1](https://ollama.com/library/d1)\
+    \ makes decisions about text and images, and [d1-omni](https://ollama.com/library/d1-omni) adds audio.\r\
+    \n\r\n```sh\r\nollama run d1:2b \"I was charged twice for order 4417.\" --ask \"Is this a billing\
+    \ issue?\"\r\n```\r\n\r\nNote: lfm3 and d1 2b are"

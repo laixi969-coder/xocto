@@ -35,16 +35,16 @@ url: https://github.com/lvzuojing/mcd-wrapped
 canonical_url: https://github.com/lvzuojing/mcd-wrapped
 summary: M-CODE WRAPPED · 麦当劳数据全景报告 + 个人年报 + 方言播报
 first_seen: '2026-10-14T01:14:00Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lvzuojing/mcd-wrapped
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 510
+    stars: 517
     forks: 29
     open_issues: 0
   kind: product

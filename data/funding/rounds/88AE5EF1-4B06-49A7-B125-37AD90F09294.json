@@ -1,5 +1,6 @@
 {
   "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/jenz-5077af06",
     "city": "Oslo",
     "country": "Norway",
     "description": "Jenz is developing an AI-powered platform that helps retailers connect data across business systems, automate operational tasks and improve decision-making.",
@@ -52,29 +53,29 @@
           },
           {
             "effect": "up",
-            "label": "Recently backed by strong-exit-track investors"
+            "label": "Recent equity round, but funding momentum is down (may be rescue financing)"
           }
         ],
         "score": 8
       },
-      "heat": 68,
+      "heat": 46,
       "raiseNext": {
-        "base": 24,
+        "base": 45,
         "factors": [
           {
             "effect": "down",
             "label": "Raised very recently"
           },
           {
-            "effect": "up",
-            "label": "Up-round momentum"
+            "effect": "down",
+            "label": "Down/flat last round"
           },
           {
             "effect": "down",
             "label": "Low backer re-investment"
           }
         ],
-        "score": 9
+        "score": 13
       }
     },
     "source": "Tech.eu Funding Explorer",
@@ -92,6 +93,7 @@
       "founded": null,
       "id": "5077AF06-E0A9-463E-B160-D69A110BEDB0",
       "name": "Jenz",
+      "pageUrl": "https://funding.tech.eu/companies/jenz-5077af06",
       "sectors": [
         "AI"
       ]
@@ -109,6 +111,7 @@
       "Antler",
       "Ada Ventures"
     ],
+    "pageUrl": "https://funding.tech.eu/deals/88AE5EF1-4B06-49A7-B125-37AD90F09294",
     "rawRoundType": "pre-seed",
     "source": {
       "domain": "tech.eu",

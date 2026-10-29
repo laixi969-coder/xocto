@@ -20,18 +20,18 @@ url: https://github.com/thomasunise/casecite
 canonical_url: https://github.com/thomasunise/casecite
 summary: Free RAG caselaw research and document analysis for lawyers
 first_seen: '2026-10-26T00:24:18Z'
-last_seen: '2026-10-26T00:24:18Z'
+last_seen: '2026-10-29T01:48:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/thomasunise/casecite
-  seen_at: '2026-10-26T00:24:18Z'
+  seen_at: '2026-10-29T01:48:26Z'
   metrics:
-    points: 14
-    comments: 2
-  kind: product
+    points: 69
+    comments: 37
+  kind: news
 ---
 
 # CaseCite

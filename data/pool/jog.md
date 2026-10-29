@@ -20,16 +20,16 @@ url: https://usejog.com/
 canonical_url: https://usejog.com
 summary: GitHub runners for 80% less
 first_seen: '2026-10-28T01:22:30Z'
-last_seen: '2026-10-28T01:22:30Z'
+last_seen: '2026-10-29T01:48:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://usejog.com/
-  seen_at: '2026-10-28T01:22:30Z'
+  seen_at: '2026-10-29T01:48:26Z'
   metrics:
-    points: 6
+    points: 10
     comments: 2
   kind: product
 ---

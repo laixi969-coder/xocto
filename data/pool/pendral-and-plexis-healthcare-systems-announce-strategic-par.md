@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi_wFBVV95cUxNRWJIWndEdUl2
 summary: Pendral and PLEXIS Healthcare Systems Announce Strategic Partnership to Bring Governed AI to
   PLEXIS Payer Clients Business Wire
 first_seen: '2026-10-28T01:23:09Z'
-last_seen: '2026-10-28T01:23:09Z'
+last_seen: '2026-10-29T01:49:06Z'
 status: pending_filter
 sources:
 - newssearch
@@ -30,6 +30,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi_wFBVV95cUxNRWJIWndEdUl2aDcyTldmdVpReld0eUJQN0hDUTVmZUg0LVZzTFBvOXg0TEJaWTY1b3hfUmVZVUJmMnd6aTVyd3piZDBTUm42Y1REZ0g5SFp4Qi1hNWhfZU1lTFpnS1pJM01Yd3RWNzJrdm55M3BvNzF3THVGcnVheFk0NE1wbFBOS2NXMUt1dUNkTmJrOV9nQVJUN0x4WndHMjc3OXdkaU81dzR3QUJFdnkyT2hRemI2dHkxTWdDWEZHT1hHbVRyd3N5VmNlcXVBRXFLb1poZVJGcWJvTEN4ZXVTbUhwSndQYTRKam5XaC16aTJhanBiYm1TTUdkSDg?oc=5
   seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOXzZQQUlxdWtVLUR0QmY3dnAxNENUd1h2MjNhYl9FdVJWcEgtMklaWWZnMU40VzVVMnNFUV93b24xQ0UtWE9ZdVMzdVlMa3NLdHJLdDV6TGJnT2tYOXVaWnVSRnlTdzNSS2E0VENRUlBza1VsTUtqcjhZMV9MYXRCNkY1Y3BuaE9ZUVlNNTRmbTFkazV2dW5hNmpZQVM4eXdDc3NoRmpydWtCQXdwVml2S2p6VDFvUU9LX3B3c25XaFg3dDQ5ZTlfX0lmWjlNczFT?oc=5
+  seen_at: '2026-10-29T01:49:06Z'
   metrics: {}
   kind: news
 ---

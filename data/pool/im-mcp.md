@@ -21,17 +21,17 @@ canonical_url: https://github.com/stkoecn/im-mcp
 summary: Fast, local, read-only MCP Server for WeChat (4.x/3.x) & DingTalk (7.x V2/V3) chat history with
   FTS5 search
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/stkoecn/im-mcp
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 69
-    forks: 37
+    stars: 72
+    forks: 38
     open_issues: 8
   kind: product
 ---

@@ -1,0 +1,18 @@
+- id: ev-47182dc68bd73358
+  project_slug: building-an-agentic-ai-platform-on-amazon-bedrock-agentcore
+  url: https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/
+  title: Building an Agentic AI Platform on Amazon Bedrock AgentCore
+  published_at: '2026-10-28T18:28:26Z'
+  collected_at: '2026-10-29T01:48:58Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'If you’ve tried to get an agent into production, the model and tool use are not the blocker.
+    The main bottleneck is everything around them: how many teams can build within a secure environment,
+    which team owns each model and tool, how AgentOps and error handling stay inside a pre-defined boundary,
+    and how platform, Workstream, and finance teams see cost and health across accounts. For a Platform
+    team that wants to support many agentic use cases, that’s a platform product to design and operate.
+    In this post, we refer to the team that manages the platform as the Platform team, and to the teams
+    that build on it as Workstream teams. Workstream teams are the domain or product teams that build
+    and own agents on the platform. Each Workstream team needs a paved road with approved models and tools,
+    short-lived workload identity, isolated runtime and memory, automated evaluation, rollback, telemetry,
+    and cost attribution. These controls need to remain consistent as Workstream teams customize pro'

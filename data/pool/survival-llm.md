@@ -20,17 +20,17 @@ url: https://www.brangus.io/survival-llm
 canonical_url: https://brangus.io/survival-llm
 summary: AI assistant and emergency library that runs on your own computer
 first_seen: '2026-10-28T01:22:30Z'
-last_seen: '2026-10-28T01:22:30Z'
+last_seen: '2026-10-29T01:48:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.brangus.io/survival-llm
-  seen_at: '2026-10-28T01:22:30Z'
+  seen_at: '2026-10-29T01:48:26Z'
   metrics:
-    points: 175
-    comments: 97
+    points: 517
+    comments: 194
   kind: news
 ---
 

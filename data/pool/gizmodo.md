@@ -20,7 +20,7 @@ url: https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at
 canonical_url: https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562
 summary: New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors
 first_seen: '2026-10-25T00:21:02Z'
-last_seen: '2026-10-28T01:22:30Z'
+last_seen: '2026-10-29T01:48:26Z'
 status: pending_filter
 sources:
 - hackernews
@@ -34,10 +34,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220
-  seen_at: '2026-10-28T01:22:30Z'
+  seen_at: '2026-10-29T01:48:26Z'
   metrics:
-    points: 338
-    comments: 274
+    points: 392
+    comments: 308
   kind: news
 ---
 

@@ -20,17 +20,17 @@ url: https://spec-first.dev/
 canonical_url: https://spec-first.dev
 summary: Specification First Agentic Development Plugin and Prove
 first_seen: '2026-10-28T01:22:30Z'
-last_seen: '2026-10-28T01:22:30Z'
+last_seen: '2026-10-29T01:48:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://spec-first.dev/
-  seen_at: '2026-10-28T01:22:30Z'
+  seen_at: '2026-10-29T01:48:26Z'
   metrics:
-    points: 26
-    comments: 18
+    points: 34
+    comments: 31
   kind: product
 ---
 

@@ -21,7 +21,7 @@ canonical_url: https://handsy.tech
 summary: 'Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible
   vision model. No Mac, no developer account, no jailbreak.'
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
@@ -36,10 +36,10 @@ sightings:
   kind: product
 - source: github
   url: https://handsy.tech?ref=github
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 4016
-    forks: 531
+    stars: 4066
+    forks: 538
     open_issues: 14
   kind: product
 ---

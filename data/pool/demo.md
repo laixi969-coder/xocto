@@ -20,11 +20,12 @@ url: https://demo.costura.ai/overview
 canonical_url: https://demo.costura.ai/overview
 summary: Self-hosted AI spend attribution
 first_seen: '2026-10-21T00:37:59Z'
-last_seen: '2026-10-23T00:41:16Z'
+last_seen: '2026-10-29T01:49:06Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://demo.costura.ai/overview
@@ -36,6 +37,11 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/sifteds-first-onstage-demo-day/
   seen_at: '2026-10-23T00:41:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMingFBVV95cUxNU1NqVmJrbVoxeDZtUUlCcEpWaHBDa3FPUm5wUjlHbEtSekljUkNVM3N3ZEhySjVTZzI0bXZOTWl2aGVXcXp2UTVqa2l2Y3hIY3M1UDJ0aVMwQldOQmNXU1NIN21xVTFnZXBhRkJOa3JYQ3A1Z19uQXhPR1dlTWtoSVc4SjB6MHJsVmdJdV82UHctc09GanQ0dWxnMkU4QQ?oc=5
+  seen_at: '2026-10-29T01:49:06Z'
   metrics: {}
   kind: news
 ---

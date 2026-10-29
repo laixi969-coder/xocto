@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-10-27T01:30:31Z'
+last_seen: '2026-10-29T01:49:06Z'
 status: pending_filter
 sources:
 - hackernews
@@ -133,6 +133,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiakFVX3lxTFBlT01teHl1Q1ZLNDlUczd6UUhfdW43bWFkd0JhVTJhTnQ2RTlEZHJNZFpkNGd0UkhuWUtPSkdUb21wSlJ2NFdiWklGWVViRFR6UlNZa0NscEhFUjViTWVQNktTRGVYczNSdUE?oc=5
   seen_at: '2026-10-27T01:30:31Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/
+  seen_at: '2026-10-29T01:48:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxObDJnT0hHMGJfeGpXREVmUVhORHh0UWpGVnFacEgyN2FMSWk1bnQxeE1idjJ4LTVLVktaWkY0TkxfRjRJM3AwOVFzaW8wZzZubHdFQ1I1WDctRVdBSjRBVm9QejVsSkI3QTRWYVNKSEZqMUpQVG5jY1NMNmR4ZHZfaWhrM1pUWVNxQmljNXZfUDJGLUw4SHpBd0R3b1RrZHVDbC1vNl9wYWp6WEZnRzBZNGstX1cxcmVJ?oc=5
+  seen_at: '2026-10-29T01:49:06Z'
   metrics: {}
   kind: news
 ---

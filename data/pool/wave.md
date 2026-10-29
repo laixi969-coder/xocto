@@ -20,7 +20,7 @@ url: https://wave.subworkflow.ai/
 canonical_url: https://wave.subworkflow.ai
 summary: Layered gradient wave backgrounds using Three.js and shaders
 first_seen: '2026-09-25T12:34:56Z'
-last_seen: '2026-10-23T00:41:16Z'
+last_seen: '2026-10-29T01:48:59Z'
 status: pending_filter
 sources:
 - hackernews
@@ -47,6 +47,11 @@ sightings:
 - source: marketfeeds
   url: https://news.crunchbase.com/public/ai-ipo-wave-anthropic-openai-delay-gurtu-airrived/
   seen_at: '2026-10-23T00:41:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/
+  seen_at: '2026-10-29T01:48:59Z'
   metrics: {}
   kind: news
 ---

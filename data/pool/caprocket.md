@@ -22,16 +22,16 @@ summary: 'Free, open-source desktop video editor in the style of CapCut: timelin
   captions (Whisper), GPU animated effects & transitions, music/SFX & stock libraries, and an AI assistant.
   Electron + React + FFmpeg. No account, no watermark.'
 first_seen: '2026-10-24T00:43:23Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-29T01:48:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/medhachim/CapRocket
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-29T01:48:31Z'
   metrics:
-    stars: 64
+    stars: 65
     forks: 7
     open_issues: 1
   kind: product
