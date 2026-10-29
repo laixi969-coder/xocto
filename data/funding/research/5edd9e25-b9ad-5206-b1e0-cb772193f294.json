@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "company_id": "5edd9e25-b9ad-5206-b1e0-cb772193f294",
+  "round_fingerprint": "e2d608e01c36884e30629c33154f51ccf802d6f643630daabf14f6ec7c73bc36",
+  "last_attempt": "2026-10-29",
+  "status": "blocked",
+  "gaps": [
+    "official_website",
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/numeracle-raise-edison-ai-spam-communications-johnson/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Numeracle has raised $28 million from Edison Partners to help businesses whose calls are incorrectly labeled as spam or blocked by phone carriers",
+      "checked_on": "2026-10-29"
+    }
+  ],
+  "fingerprint": "59c6e0586178bbdb894be7a302aa468d288fbcd87064a1a52cfe329c44a15e0b"
+}
