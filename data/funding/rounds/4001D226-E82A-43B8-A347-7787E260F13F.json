@@ -1,0 +1,128 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/ravical-9c278231",
+    "city": "Ghent",
+    "country": "Belgium",
+    "description": "Ravical delivers AI agents, “virtual employees,” that combine domain-specific expertise, firm know-how, and client context to automate and scale up to 80 per cent of professional services work.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "9C278231-573D-437F-8F23-E1FDCC9F00CB",
+    "investors": [
+      "Lakestar",
+      "MMC Ventures",
+      "Pitchdrive",
+      "Shapers"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Ravical",
+    "rounds": [
+      {
+        "amountEur": 15274034,
+        "date": "2026-10-29",
+        "id": "4001D226-E82A-43B8-A347-7787E260F13F",
+        "investors": [
+          "Lakestar",
+          "MMC Ventures",
+          "Pitchdrive",
+          "Shapers"
+        ],
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/4001D226-E82A-43B8-A347-7787E260F13F"
+      },
+      {
+        "amountEur": 7300000,
+        "date": "2025-05-21",
+        "id": "8D174CFD-5EB8-4C90-9776-E8387180EA8E",
+        "investors": [
+          "Lakestar"
+        ],
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/8D174CFD-5EB8-4C90-9776-E8387180EA8E"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 17
+      },
+      "heat": 89,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 16
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 22574034,
+    "url": "https://funding.tech.eu/companies/9C278231-573D-437F-8F23-E1FDCC9F00CB",
+    "website": "https://ravical.com/"
+  },
+  "round": {
+    "amountEur": 15274034,
+    "amountEurStored": null,
+    "amountNative": 17000000,
+    "company": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "founded": null,
+      "id": "9C278231-573D-437F-8F23-E1FDCC9F00CB",
+      "name": "Ravical",
+      "pageUrl": "https://funding.tech.eu/companies/ravical-9c278231",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-10-29",
+    "fx": {
+      "asOf": "2026-10-29",
+      "rate": 1.113,
+      "source": "ECB"
+    },
+    "id": "4001D226-E82A-43B8-A347-7787E260F13F",
+    "investors": [
+      "Lakestar",
+      "Pitchdrive",
+      "MMC Ventures",
+      "Shapers"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/4001D226-E82A-43B8-A347-7787E260F13F",
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Seed",
+    "url": "/deals/4001D226-E82A-43B8-A347-7787E260F13F"
+  }
+}

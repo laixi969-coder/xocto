@@ -1,0 +1,18 @@
+- id: ev-7a17a57f92aabe75
+  project_slug: accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon
+  url: https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/
+  title: Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS
+  published_at: '2026-10-29T16:11:08Z'
+  collected_at: '2026-10-30T01:59:07Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'NVIDIA Nemotron 3.5 Super VL joins the NVIDIA Nemotron 3 Nano , Nano Omni , Super , Ultra , and
+    Nemotron 3.5 Lightning models already available on AWS. It’s a 120B-parameter mixture-of-experts (MoE)
+    model that activates 12B parameters per token. It combines reasoning and tool use with text, image,
+    document, and video understanding, so one model serves both text and visual tasks. This post explores
+    its architecture and use cases, then shows how to deploy it on Amazon Elastic Kubernetes Service (Amazon
+    EKS) , Amazon EKS Auto Mode , and Amazon SageMaker HyperPod EKS . About Nemotron 3.5 Super VL NVIDIA
+    Nemotron 3.5 Super VL is an open multimodal model distilled from Nemotron 3 Ultra. NVIDIA publishes
+    the weights, training datasets, and post-training recipes, so you can customize the model for domain-specific
+    workloads and run it on infrastructure you control. Model details: 120B total parameters, 12B active
+    per token. Hybrid Mamba-2, MoE , and attention layers with a RADIO vision encoder.'

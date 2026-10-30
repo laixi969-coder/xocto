@@ -30,17 +30,17 @@ url: https://github.com/Leonxlnx/earshot
 canonical_url: https://github.com/Leonxlnx/earshot
 summary: 'Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-29T01:48:31Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Leonxlnx/earshot
-  seen_at: '2026-10-29T01:48:31Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 3150
-    forks: 195
+    stars: 3242
+    forks: 203
     open_issues: 14
   kind: product
 ---

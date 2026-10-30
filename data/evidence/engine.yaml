@@ -391,3 +391,21 @@
   tier: independent
   fact: 'Hyundai Bayon Launched In India At ₹9.99 Lakh: 1.5L NA Petrol Engine, Dual-Display, And More
     The Daily Jagran'
+- id: ev-de7e7f1ff143ee4c
+  project_slug: engine
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/
+  title: Build a repeatable PHP-to-Java migration engine with Kiro
+  published_at: '2026-10-29T18:14:17Z'
+  collected_at: '2026-10-30T01:59:07Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'When your team moves a mature PHP application to Java, you gain stronger type safety, broader
+    library support, and more predictable scaling. A PHP codebase built over the years with Laravel, Symfony,
+    or Doctrine carries business rules in places that are not obvious, from Eloquent traits to XML mapping
+    files, so a structurally similar Java port can compile cleanly and still behave differently. This
+    post shows how to turn PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable
+    process using Kiro . Kiro is an AI integrated development environment (IDE) that pairs an AI agent
+    with your codebase to run multi-step engineering tasks with you in the loop. The approach centers
+    on a reusable engine: a shared methodology, a mechanical discovery scanner, and an eight-phase workflow.
+    This engine treats the original PHP application as the specification and refuses to declare the Java
+    port correct until a parity harness verifies it. Prerequisites Before getting started, you'

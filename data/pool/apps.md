@@ -21,7 +21,7 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-10-28T01:23:09Z'
+last_seen: '2026-10-30T01:59:08Z'
 status: pending_filter
 sources:
 - hackernews
@@ -168,6 +168,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidkFVX3lxTFBZT2E0cHN3d0FGT0hpTTlkLTU4cGtudTVCWTJQVThEZDZoNjMtMndhWWxDNnIwbV9aNEwwZVI0eW5zVGFRYUhURkl0d1NuNGJBOEVUVmJOZUNrWFAxVXFlMmliaXZvNzk5VnlRQm5zbGtBcTJXbkE?oc=5
   seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/
+  seen_at: '2026-10-30T01:59:08Z'
   metrics: {}
   kind: news
 ---

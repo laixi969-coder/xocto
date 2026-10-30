@@ -20,7 +20,7 @@ url: https://mega.dev/autonomous-product-development
 canonical_url: https://mega.dev/autonomous-product-development
 summary: I rebuilt a 4-year-old app in 5 days using many agents – here's harness
 first_seen: '2026-09-14T16:55:32Z'
-last_seen: '2026-10-22T00:42:47Z'
+last_seen: '2026-10-30T01:59:08Z'
 status: pending_filter
 sources:
 - hackernews
@@ -42,6 +42,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/10/21/europes-tech-funding-rebounds-to-eur278b-fuelled-by-billion-euro-mega-rounds/
   seen_at: '2026-10-22T00:42:47Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: http://www.geekpark.net/news/373154
+  seen_at: '2026-10-30T01:59:08Z'
   metrics: {}
   kind: news
 ---

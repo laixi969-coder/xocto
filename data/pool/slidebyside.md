@@ -20,17 +20,17 @@ url: https://slidebyside.com/
 canonical_url: https://slidebyside.com
 summary: Present slides without sharing your screen
 first_seen: '2026-10-29T01:48:26Z'
-last_seen: '2026-10-29T01:48:26Z'
+last_seen: '2026-10-30T01:58:40Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://slidebyside.com/
-  seen_at: '2026-10-29T01:48:26Z'
+  seen_at: '2026-10-30T01:58:40Z'
   metrics:
-    points: 59
-    comments: 24
+    points: 80
+    comments: 34
   kind: product
 ---
 

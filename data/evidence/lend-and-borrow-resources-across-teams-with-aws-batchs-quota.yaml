@@ -1,0 +1,19 @@
+- id: ev-efa7248b6c04664a
+  project_slug: lend-and-borrow-resources-across-teams-with-aws-batchs-quota
+  url: https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/
+  title: Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training
+    jobs
+  published_at: '2026-10-29T16:58:57Z'
+  collected_at: '2026-10-30T01:59:07Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: With the launch of AWS Batch support for Amazon SageMaker Training jobs, customers gained a new
+    fully managed way to queue, schedule, and retry machine learning (ML) training workloads without building
+    their own infrastructure. Instead, they use the queuing and scheduling features of AWS Batch. As organizations
+    scale their artificial intelligence and machine learning (AI/ML) operations and onboard more teams,
+    coordinating access to shared graphics processing unit (GPU) capacity can introduce additional communication,
+    coordination, and configuration overhead for administrators. This overhead includes setting up separate
+    queues, adjusting capacity limits, and carefully orchestrating the right workloads to get the right
+    resources at the right time. A core value proposition of AWS Batch is helping customers increase utilization
+    of their compute, and as training environments grow, so does the opportunity to do more with existing
+    capacity. Working backward from customers managing multi-team

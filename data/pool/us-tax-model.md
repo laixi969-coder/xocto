@@ -20,17 +20,17 @@ url: https://github.com/emmilco/us-tax-model
 canonical_url: https://github.com/emmilco/us-tax-model
 summary: A proof-of-concept formalization of the IRS federal tax forms
 first_seen: '2026-10-29T01:48:26Z'
-last_seen: '2026-10-29T01:48:26Z'
+last_seen: '2026-10-30T01:58:40Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/emmilco/us-tax-model
-  seen_at: '2026-10-29T01:48:26Z'
+  seen_at: '2026-10-30T01:58:40Z'
   metrics:
-    points: 5
-    comments: 0
+    points: 62
+    comments: 12
   kind: product
 ---
 

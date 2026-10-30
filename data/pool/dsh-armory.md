@@ -22,18 +22,18 @@ summary: 'All-in-one board for DeepSeek Harness: MCP manager + Skills + WorkBudd
   any time) + tool-usage tailor + three direct markets (WorkBuddy connectors, SkillHub 190k+ skills) with
   one-click install · DSH 一体化看板：MCP/技能/专家随时挂换/工具账本/三大市场直连安装'
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-29T01:48:31Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/2026heshao/dsh-armory#readme
-  seen_at: '2026-10-29T01:48:31Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 45
+    stars: 51
     forks: 11
-    open_issues: 4
+    open_issues: 6
   kind: product
 ---
 

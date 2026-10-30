@@ -1,0 +1,42 @@
+---
+slug: indic-ai-startup-funding-surges-17-fold-to-399-million-in-20
+name: 'Indic AI startup funding surges 17-fold to $399 million in 2026, driven by Sarvam: Report'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxPWFFaWGl2dGVteFN5SVNrdmZmYV9ycjBuVjlONEZmNGhQVkw2UzRjdEhobFNvNkVMQ3ctcDZCc2ozYUI2VW9zMzBvS0FRSE0xTEpuRFNtRjdNOW4yWl9MVURKTjk2dXB0d1ZzcWQyejNDeHkyaHVUdEg3dkhLLVpFT0pGc2hSSzRlaTQya01MM2tuckYyd0U2cVh5V2RHdWJEU19rT1ZXZjVGY3U2VnpYVGI4QV9zVG5hSDBLcWRSM1Y2Z0tHZHJLV1pKajNsNUo3bG03bnhRYjhRV3BaR29qckNaYS11bmRLa19TdzNGbzJIQdIB9wFBVV95cUxOZnFySEFVdkR0Tk9tdDAyNG1kSzNVdXJYRVI4dVRGVjlrWkFjNl93Mnhpc2RiaENSekxZa0V4TUVVX2ItbFNTWkh3MlU1cE1hQm45MndFcjF1NUwyRzR0SmZYVHpmTGNvcV81QkNfN0VxRFdZU2xmSjNaREJJcWhzZFA3a0FNSWE3RHAwdUZRNEhWQk9MQzNlZ1lvVWpNTzhEZXprNnp5THI0eVB5U3lhYVEycVQ0amYyTTI1S2wwZWJtSnNPZ1RhWF9DR29iLWJNaDJ0cjRfN3dtNUpKX3dnS1JSOGdOUFZpT2dUT1RrUm16dFF6UTVF?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxPWFFaWGl2dGVteFN5SVNrdmZmYV9ycjBuVjlONEZmNGhQVkw2UzRjdEhobFNvNkVMQ3ctcDZCc2ozYUI2VW9zMzBvS0FRSE0xTEpuRFNtRjdNOW4yWl9MVURKTjk2dXB0d1ZzcWQyejNDeHkyaHVUdEg3dkhLLVpFT0pGc2hSSzRlaTQya01MM2tuckYyd0U2cVh5V2RHdWJEU19rT1ZXZjVGY3U2VnpYVGI4QV9zVG5hSDBLcWRSM1Y2Z0tHZHJLV1pKajNsNUo3bG03bnhRYjhRV3BaR29qckNaYS11bmRLa19TdzNGbzJIQdIB9wFBVV95cUxOZnFySEFVdkR0Tk9tdDAyNG1kSzNVdXJYRVI4dVRGVjlrWkFjNl93Mnhpc2RiaENSekxZa0V4TUVVX2ItbFNTWkh3MlU1cE1hQm45MndFcjF1NUwyRzR0SmZYVHpmTGNvcV81QkNfN0VxRFdZU2xmSjNaREJJcWhzZFA3a0FNSWE3RHAwdUZRNEhWQk9MQzNlZ1lvVWpNTzhEZXprNnp5THI0eVB5U3lhYVEycVQ0amYyTTI1S2wwZWJtSnNPZ1RhWF9DR29iLWJNaDJ0cjRfN3dtNUpKX3dnS1JSOGdOUFZpT2dUT1RrUm16dFF6UTVF?oc=5
+summary: 'Indic AI startup funding surges 17-fold to $399 million in 2026, driven by Sarvam: Report ET
+  Enterprise AI'
+first_seen: '2026-10-30T01:59:15Z'
+last_seen: '2026-10-30T01:59:15Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxPWFFaWGl2dGVteFN5SVNrdmZmYV9ycjBuVjlONEZmNGhQVkw2UzRjdEhobFNvNkVMQ3ctcDZCc2ozYUI2VW9zMzBvS0FRSE0xTEpuRFNtRjdNOW4yWl9MVURKTjk2dXB0d1ZzcWQyejNDeHkyaHVUdEg3dkhLLVpFT0pGc2hSSzRlaTQya01MM2tuckYyd0U2cVh5V2RHdWJEU19rT1ZXZjVGY3U2VnpYVGI4QV9zVG5hSDBLcWRSM1Y2Z0tHZHJLV1pKajNsNUo3bG03bnhRYjhRV3BaR29qckNaYS11bmRLa19TdzNGbzJIQdIB9wFBVV95cUxOZnFySEFVdkR0Tk9tdDAyNG1kSzNVdXJYRVI4dVRGVjlrWkFjNl93Mnhpc2RiaENSekxZa0V4TUVVX2ItbFNTWkh3MlU1cE1hQm45MndFcjF1NUwyRzR0SmZYVHpmTGNvcV81QkNfN0VxRFdZU2xmSjNaREJJcWhzZFA3a0FNSWE3RHAwdUZRNEhWQk9MQzNlZ1lvVWpNTzhEZXprNnp5THI0eVB5U3lhYVEycVQ0amYyTTI1S2wwZWJtSnNPZ1RhWF9DR29iLWJNaDJ0cjRfN3dtNUpKX3dnS1JSOGdOUFZpT2dUT1RrUm16dFF6UTVF?oc=5
+  seen_at: '2026-10-30T01:59:15Z'
+  metrics: {}
+  kind: news
+---
+
+# Indic AI startup funding surges 17-fold to $399 million in 2026, driven by Sarvam: Report
+
+Indic AI startup funding surges 17-fold to $399 million in 2026, driven by Sarvam: Report ET Enterprise AI
+
+## 笔记
+
+

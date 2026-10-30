@@ -20,18 +20,18 @@ url: https://github.com/aicodeking/pandacode
 canonical_url: https://github.com/aicodeking/pandacode
 summary: 'PandaCode: a calm desktop workspace for coding agents'
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-29T01:48:31Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/aicodeking/pandacode
-  seen_at: '2026-10-29T01:48:31Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 844
-    forks: 160
-    open_issues: 32
+    stars: 872
+    forks: 163
+    open_issues: 53
   kind: product
 ---
 

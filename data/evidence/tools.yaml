@@ -391,3 +391,22 @@
   tier: independent
   fact: The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned
     IPO.
+- id: ev-c59a8f0a9628212e
+  project_slug: tools
+  url: https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/
+  title: How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway
+  published_at: '2026-10-29T16:54:52Z'
+  collected_at: '2026-10-30T01:59:07Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: This post was co-written with Nikhil Kumar and Shakir Khan from MoEngage. When engineering teams
+    start building AI agents, the capabilities those agents need usually already exist as internal APIs.
+    Campaign creation, segment queries, delivery stats. The challenge isn’t building new functionality.
+    The challenge is making hundreds of private APIs safely reachable by agents without exposing them
+    to the public internet, without giving models control over identity, and without flooding context
+    windows with hundreds of tool definitions. MoEngage, the agentic customer engagement platform that
+    more than 1,350 consumer brands use to deliver personalized experiences across push, email, in-app,
+    SMS, WhatsApp, and RCS, faced exactly this problem. Behind the product sit roughly 400 internal REST
+    APIs, built by 25 engineering teams, running in private virtual private clouds (VPCs) across seven
+    AWS Regions. MoEngage isolates these APIs regionally to meet data residency commitments and doesn’t
+    expose

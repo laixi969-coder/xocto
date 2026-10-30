@@ -20,18 +20,18 @@ url: https://github.com/kingcharleslzy-ai/dsh-purge/releases
 canonical_url: https://github.com/kingcharleslzy-ai/dsh-purge/releases
 summary: dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-10-29T01:48:31Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kingcharleslzy-ai/dsh-purge/releases
-  seen_at: '2026-10-29T01:48:31Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 3243
-    forks: 1709
-    open_issues: 23
+    stars: 3395
+    forks: 1787
+    open_issues: 27
   kind: product
 ---
 

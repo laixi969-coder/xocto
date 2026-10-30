@@ -33,16 +33,16 @@ summary: '🔒 Your private AI assistant, 100% local on Windows: chat, vision, d
   images, videos with sound, voice, code projects, MCP tools — one-line install, models picked for your
   PC.'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anisayari/sparky
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 61
+    stars: 62
     forks: 5
     open_issues: 1
   kind: product

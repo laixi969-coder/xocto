@@ -1,7 +1,7 @@
 ---
 slug: google-ai-gets-cagey-when-asked-who-won-the-2020-elections
 name: Google AI gets cagey when asked who won the 2020 elections
-builder: ''
+builder: jacquesm
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -32,15 +32,23 @@ summary: 'If you ask some prominent US politicians who won the 2020 presidential
   But AI Mode seemed perfectly willing to give me a detailed and correct responses for the winner of every
   other presidential election going back'
 first_seen: '2026-10-29T01:48:59Z'
-last_seen: '2026-10-29T01:48:59Z'
+last_seen: '2026-10-30T01:58:40Z'
 status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/
   seen_at: '2026-10-29T01:48:59Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/
+  seen_at: '2026-10-30T01:58:40Z'
+  metrics:
+    points: 165
+    comments: 76
   kind: news
 ---
 

@@ -20,7 +20,7 @@ url: https://news.ycombinator.lol
 canonical_url: https://news.ycombinator.lol
 summary: Pointless but mostly-exact clone of Hacker News
 first_seen: '2026-10-07T18:05:35Z'
-last_seen: '2026-10-23T00:41:16Z'
+last_seen: '2026-10-30T01:59:15Z'
 status: pending_filter
 sources:
 - hackernews
@@ -72,6 +72,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns
   seen_at: '2026-10-23T00:41:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivwFBVV95cUxPYjdhRGNEdDNpWFVTWWFKNjdQMTFXOWVBRmN6YVhMckI2OG5jY0ZhckZ1TVo1aElaSWQzdVBLSHlpRk5WRU5LWDZtZ3Q1SnpqQXEtaGpaRF9ETHl3T0ZkNVY5UGt5enN3cm1YTjZIbEtXaGE2WUEwMzdfRXNxUkhaWUdxdmN0aTg1Si1BMWdUX1p0cjQzdER3Mk1nUnZTRW5aN0daLWQ5aHRSZVBjUXYyaWZQMkZ2cTRqd05PdkFyMA?oc=5
+  seen_at: '2026-10-30T01:59:15Z'
   metrics: {}
   kind: news
 ---

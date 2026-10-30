@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JTUVlakpDTGgzeEZ3bV9uTH
 canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JTUVlakpDTGgzeEZ3bV9uTHRmVFdPU2wzY3BTNEVmYTVfeFJ6Y1RKdWRHbzlyNTlvNXBnZUR4dEFDV0dZdFUwZjVjbkZYSkMxVFNveGl5d2laQ0ZvZ2ZaYW4yczdhQQ?oc=5
 summary: 网易智企AI编程新产品能“自己交付软件”，安全关怎么过？ 东方财富
 first_seen: '2026-10-29T01:49:06Z'
-last_seen: '2026-10-29T01:49:06Z'
+last_seen: '2026-10-30T01:59:15Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1JTUVlakpDTGgzeEZ3bV9uTHRmVFdPU2wzY3BTNEVmYTVfeFJ6Y1RKdWRHbzlyNTlvNXBnZUR4dEFDV0dZdFUwZjVjbkZYSkMxVFNveGl5d2laQ0ZvZ2ZaYW4yczdhQQ?oc=5
   seen_at: '2026-10-29T01:49:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHbGZmWjhTdXhUdGpncnFXbGJzanZkMFBkRGhsTjdHa05vUXVkdWY4bDFUVjVXQVRxVFFjUTltLVFYRF9VY2JHVDJ1dFpwVlNuWEE?oc=5
+  seen_at: '2026-10-30T01:59:15Z'
   metrics: {}
   kind: news
 ---

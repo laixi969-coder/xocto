@@ -21,18 +21,18 @@ canonical_url: https://github.com/murongg/Tervia
 summary: A native terminal workspace for AI coding, with integrated Git, lightweight editing, and multi-project
   management.
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/murongg/Tervia
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 40
+    stars: 41
     forks: 4
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

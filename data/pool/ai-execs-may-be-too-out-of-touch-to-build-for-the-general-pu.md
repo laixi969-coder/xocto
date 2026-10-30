@@ -1,7 +1,7 @@
 ---
 slug: ai-execs-may-be-too-out-of-touch-to-build-for-the-general-pu
 name: AI execs may be too out of touch to build for the general public
-builder: ''
+builder: pavel_lishin
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -21,15 +21,23 @@ canonical_url: https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touc
 summary: Tech leaders are flaunting how out of touch they are when they brag about using AI to connect
   with their families.
 first_seen: '2026-10-29T01:48:59Z'
-last_seen: '2026-10-29T01:48:59Z'
+last_seen: '2026-10-30T01:58:40Z'
 status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/
   seen_at: '2026-10-29T01:48:59Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/
+  seen_at: '2026-10-30T01:58:40Z'
+  metrics:
+    points: 88
+    comments: 70
   kind: news
 ---
 

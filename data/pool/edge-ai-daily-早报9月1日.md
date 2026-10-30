@@ -20,8 +20,8 @@ url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1jYW45WXhnMkM4MVlrZnJHVE
 canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1jYW45WXhnMkM4MVlrZnJHVERCcDRjUmQzVnp1d0RRc1lMdHUycUdqOEpTZEI2U1p0THI1aXhGY0FNdzRtbVdmaERIeDg?oc=5
 summary: Edge AI Daily 早报（9月1日） 钛媒体
 first_seen: '2026-09-01T00:28:00Z'
-last_seen: '2026-10-20T01:07:01Z'
-status: rejected
+last_seen: '2026-10-30T01:59:15Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -48,6 +48,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE54b045VVV1b055TUxwcGpGWms1TXNvU2VuRHBwVWdxNDhHdzJrTVYzeW9xVVQ2bUQ5QVlQWUZZMS1HNEptaURON2hKc0M?oc=5
   seen_at: '2026-10-20T01:07:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE5OaU5neE5ZTDlNMEtEVGViVWgyRm9DMTJ1SEtsbkZsY25QZFRBbzdsWHJTTEdyaWczTUljMVBSZlBWNG5nc1haZlQ1Ny0?oc=5
+  seen_at: '2026-10-30T01:59:15Z'
   metrics: {}
   kind: news
 ---

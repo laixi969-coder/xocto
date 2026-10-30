@@ -21,16 +21,16 @@ canonical_url: https://github.com/varsian/ghost
 summary: GHOST Community Edition - local, realtime Live2D digital human plugin stack for DeepSeek Harness
   (DSH), with VoxCPM 1.5 TTS.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-29T01:48:31Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/varsian/ghost
-  seen_at: '2026-10-29T01:48:31Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 41
+    stars: 45
     forks: 5
     open_issues: 1
   kind: product

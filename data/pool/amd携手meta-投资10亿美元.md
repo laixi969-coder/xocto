@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMieEFVX3lxTE1NS2JEWEtXWWlBRlhwcUJZY2
 canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE1NS2JEWEtXWWlBRlhwcUJZY2FsV3hpbTNwZE1pZG5wdHQ5NjZDaXJRLTJEbC15X2pxLUF2aVU5MTZ0LXF0YkQxQ2JjbjRKSEpzVmRaOE10TGdtVlF3X2JXQ0FKcEstSmZfeUo0c0N3QU9XVmRwQnBCYQ?oc=5
 summary: AMD携手Meta 投资10亿美元 讯石光通讯网
 first_seen: '2026-10-28T01:23:09Z'
-last_seen: '2026-10-28T01:23:09Z'
+last_seen: '2026-10-30T01:59:15Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMieEFVX3lxTE1NS2JEWEtXWWlBRlhwcUJZY2FsV3hpbTNwZE1pZG5wdHQ5NjZDaXJRLTJEbC15X2pxLUF2aVU5MTZ0LXF0YkQxQ2JjbjRKSEpzVmRaOE10TGdtVlF3X2JXQ0FKcEstSmZfeUo0c0N3QU9XVmRwQnBCYQ?oc=5
   seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMid0FVX3lxTE1UTHN2dDlqQzJNS2liUk1FVFg4V3lNMTU3aEJDMmRQOUlMVzR6R2c0dEJlRXFiaEk2Y1RXTUJCT25YUzNJaHdHU1huYXhnSjBsckVWV2dkdU0zVm9saXJzbDFOeEtjajM5WWlmemp6blFMYkFLZkNF?oc=5
+  seen_at: '2026-10-30T01:59:15Z'
   metrics: {}
   kind: news
 ---

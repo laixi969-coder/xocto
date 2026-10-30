@@ -20,17 +20,17 @@ url: https://www.studio3e8.com/post/studio-3e8-launch
 canonical_url: https://studio3e8.com/post/studio-3e8-launch
 summary: Mesa 1, affordable Metal 3D Printer
 first_seen: '2026-10-29T01:48:26Z'
-last_seen: '2026-10-29T01:48:26Z'
+last_seen: '2026-10-30T01:58:40Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.studio3e8.com/post/studio-3e8-launch
-  seen_at: '2026-10-29T01:48:26Z'
+  seen_at: '2026-10-30T01:58:40Z'
   metrics:
-    points: 6
-    comments: 1
+    points: 8
+    comments: 2
   kind: product
 ---
 

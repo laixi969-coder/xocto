@@ -21,17 +21,17 @@ canonical_url: https://github.com/yaojingang/profound-clone
 summary: Profound (tryprofound.com) 前后台 1:1 学习复刻 · Next.js 16 / React 19 / SQLite · Educational replica
   for learning only, not affiliated with Profound Inc.
 first_seen: '2026-10-15T00:32:09Z'
-last_seen: '2026-10-23T00:40:56Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yaojingang/profound-clone
-  seen_at: '2026-10-23T00:40:56Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
     stars: 80
-    forks: 63
+    forks: 64
     open_issues: 0
   kind: product
 ---

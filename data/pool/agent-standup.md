@@ -33,18 +33,18 @@ summary: 'Your Claude Code, Codex and Mistral Vibe sessions as a live, animated 
   who waits on whom, who needs you. VS Code extension, terminal command, desktop app. Runs locally, zero
   tokens.'
 first_seen: '2026-10-13T03:03:58Z'
-last_seen: '2026-10-29T01:48:31Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://agent-standup.com
-  seen_at: '2026-10-29T01:48:31Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 332
-    forks: 50
-    open_issues: 1
+    stars: 339
+    forks: 51
+    open_issues: 2
   kind: product
 ---
 

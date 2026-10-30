@@ -1,0 +1,42 @@
+---
+slug: artificial-intelligence-gains-ground-in-commerce-productivit
+name: 'Artificial intelligence gains ground in commerce: productivity, logistics, and customer service'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSjkwLXM4YXJvUHZEWWloZ0dWUS0xSndyeE5leWdGOWJSUGl5ZGZQM2tzYms0a25ScUJQdHFDTEZ1UWkxN2JPeHdFTzIzVkc3dTJoMkQ5MEtjSXJKVVozSjJDVVlZWFpJT1U5RHI2MFV5cVhVRmJwQkVGNVJfSGJwT0JBQmlXXzZjSFM5bklCNEp2a3ZqVUtuREsxOW5qejV5RXlVLU9hazVyODB5UjdqMEVTNTdXY1FaTDR30gHAAUFVX3lxTE1jZmNQVDRMV0dlUTRRZTVHSlBxWXROM1dRSHJJZHZQZVRNWFhyWFNmTDJzTnRhbDdxQVNJV2VnZm96bWVUM1pMakpOdVEwc21xZ09STGN2dnFNUHJzaTJfYUtrUlctLVdBVDlJVjdIdzh4clFGRGNKVl9fVDNvX2t2dW9qZXRyZkhwS1NzM0JCak5nVFZKNGVERG1rd29qOGNYNkdtM0J1WTM1ZXV5VFNYZE9pX0tuNjhsR3JiVFlldw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSjkwLXM4YXJvUHZEWWloZ0dWUS0xSndyeE5leWdGOWJSUGl5ZGZQM2tzYms0a25ScUJQdHFDTEZ1UWkxN2JPeHdFTzIzVkc3dTJoMkQ5MEtjSXJKVVozSjJDVVlZWFpJT1U5RHI2MFV5cVhVRmJwQkVGNVJfSGJwT0JBQmlXXzZjSFM5bklCNEp2a3ZqVUtuREsxOW5qejV5RXlVLU9hazVyODB5UjdqMEVTNTdXY1FaTDR30gHAAUFVX3lxTE1jZmNQVDRMV0dlUTRRZTVHSlBxWXROM1dRSHJJZHZQZVRNWFhyWFNmTDJzTnRhbDdxQVNJV2VnZm96bWVUM1pMakpOdVEwc21xZ09STGN2dnFNUHJzaTJfYUtrUlctLVdBVDlJVjdIdzh4clFGRGNKVl9fVDNvX2t2dW9qZXRyZkhwS1NzM0JCak5nVFZKNGVERG1rd29qOGNYNkdtM0J1WTM1ZXV5VFNYZE9pX0tuNjhsR3JiVFlldw?oc=5
+summary: 'Artificial intelligence gains ground in commerce: productivity, logistics, and customer service
+  Demócrata'
+first_seen: '2026-10-30T01:59:15Z'
+last_seen: '2026-10-30T01:59:15Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSjkwLXM4YXJvUHZEWWloZ0dWUS0xSndyeE5leWdGOWJSUGl5ZGZQM2tzYms0a25ScUJQdHFDTEZ1UWkxN2JPeHdFTzIzVkc3dTJoMkQ5MEtjSXJKVVozSjJDVVlZWFpJT1U5RHI2MFV5cVhVRmJwQkVGNVJfSGJwT0JBQmlXXzZjSFM5bklCNEp2a3ZqVUtuREsxOW5qejV5RXlVLU9hazVyODB5UjdqMEVTNTdXY1FaTDR30gHAAUFVX3lxTE1jZmNQVDRMV0dlUTRRZTVHSlBxWXROM1dRSHJJZHZQZVRNWFhyWFNmTDJzTnRhbDdxQVNJV2VnZm96bWVUM1pMakpOdVEwc21xZ09STGN2dnFNUHJzaTJfYUtrUlctLVdBVDlJVjdIdzh4clFGRGNKVl9fVDNvX2t2dW9qZXRyZkhwS1NzM0JCak5nVFZKNGVERG1rd29qOGNYNkdtM0J1WTM1ZXV5VFNYZE9pX0tuNjhsR3JiVFlldw?oc=5
+  seen_at: '2026-10-30T01:59:15Z'
+  metrics: {}
+  kind: news
+---
+
+# Artificial intelligence gains ground in commerce: productivity, logistics, and customer service
+
+Artificial intelligence gains ground in commerce: productivity, logistics, and customer service Demócrata
+
+## 笔记
+
+

@@ -20,17 +20,17 @@ url: https://divagr.com/blog/qwenputer
 canonical_url: https://divagr.com/blog/qwenputer
 summary: A functioning, deterministic RISC-V CPU inside Qwen3.5
 first_seen: '2026-10-29T01:48:26Z'
-last_seen: '2026-10-29T01:48:26Z'
+last_seen: '2026-10-30T01:58:40Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://divagr.com/blog/qwenputer
-  seen_at: '2026-10-29T01:48:26Z'
+  seen_at: '2026-10-30T01:58:40Z'
   metrics:
-    points: 58
-    comments: 11
+    points: 679
+    comments: 144
   kind: news
 ---
 

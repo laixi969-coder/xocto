@@ -37,16 +37,16 @@ canonical_url: https://github.com/christos-antono/NPCTalk
 summary: 'Make any NPC in any game talk back with Fish Audio: skills, a self-hosted voice server and tools
   for AI coding agents, with a full GTA V example.'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-29T01:48:31Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/christos-antono/NPCTalk
-  seen_at: '2026-10-29T01:48:31Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 212
+    stars: 213
     forks: 18
     open_issues: 2
   kind: product

@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-10-29T01:49:06Z'
+last_seen: '2026-10-30T01:59:15Z'
 status: pending_filter
 sources:
 - hackernews
@@ -143,6 +143,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxObDJnT0hHMGJfeGpXREVmUVhORHh0UWpGVnFacEgyN2FMSWk1bnQxeE1idjJ4LTVLVktaWkY0TkxfRjRJM3AwOVFzaW8wZzZubHdFQ1I1WDctRVdBSjRBVm9QejVsSkI3QTRWYVNKSEZqMUpQVG5jY1NMNmR4ZHZfaWhrM1pUWVNxQmljNXZfUDJGLUw4SHpBd0R3b1RrZHVDbC1vNl9wYWp6WEZnRzBZNGstX1cxcmVJ?oc=5
   seen_at: '2026-10-29T01:49:06Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/
+  seen_at: '2026-10-30T01:59:08Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/
+  seen_at: '2026-10-30T01:59:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzh1SU9YakxwUjZibjd1STExTGdtRkNJMHlTc1FsQjBIOWViYkNUS0paY1V4WmhxejdNdnJBV0VpNFlBNHlTaW5XelF0eUJfTkI4SUpsV3hZcVZxMF9XOFZoamtic2sxZUpET1k4TVRnUGcxeloyRnFVWVFSQTlYOUtWMnRqSXZOMmU0bjR1MmE?oc=5
+  seen_at: '2026-10-30T01:59:15Z'
   metrics: {}
   kind: news
 ---

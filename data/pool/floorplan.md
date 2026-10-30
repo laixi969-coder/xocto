@@ -21,18 +21,18 @@ canonical_url: https://haydenschmitty.github.io/floorplan-demo
 summary: See how your app actually fits together. An interactive, plain-English map of your codebase,
   drawn by Claude or Codex.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-29T01:48:31Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://haydenschmitty.github.io/floorplan-demo/
-  seen_at: '2026-10-29T01:48:31Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 265
-    forks: 23
-    open_issues: 4
+    stars: 393
+    forks: 35
+    open_issues: 13
   kind: product
 ---
 

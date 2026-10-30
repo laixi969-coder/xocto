@@ -37,10 +37,11 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Mid stage). Granol
   theme is voice and meeting capture as a wedge, with Wispr Flow, Granola, and adjacently HeyGen for video,
   where individual-productivity products are racing to become enterprise knowledge layers.
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-09-10T16:51:24Z'
-status: watching
+last_seen: '2026-10-30T01:59:08Z'
+status: pending_filter
 sources:
 - ia40
+- marketfeeds
 sightings:
 - source: ia40
   url: https://www.granola.ai/
@@ -49,6 +50,11 @@ sightings:
     stage: Mid
     edition: '2026'
   kind: product
+- source: marketfeeds
+  url: https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/
+  seen_at: '2026-10-30T01:59:08Z'
+  metrics: {}
+  kind: news
 ---
 
 # Granola

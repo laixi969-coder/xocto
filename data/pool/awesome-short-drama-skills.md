@@ -37,18 +37,18 @@ summary: 'AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分
   Code、Codex 等智能体可用 | Curated agent skills for AI short drama, micro drama / microdrama, vertical drama
   and manju (AI comic drama): screenwriting, storyboards, Seedance / Kling / MiniMax video prompts'
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-29T01:48:31Z'
+last_seen: '2026-10-30T01:58:43Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://shortdramaskills.com
-  seen_at: '2026-10-29T01:48:31Z'
+  seen_at: '2026-10-30T01:58:43Z'
   metrics:
-    stars: 1152
-    forks: 141
-    open_issues: 6
+    stars: 1278
+    forks: 154
+    open_issues: 8
   kind: product
 ---
 

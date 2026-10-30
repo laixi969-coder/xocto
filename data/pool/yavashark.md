@@ -20,17 +20,17 @@ url: https://yavashark.dev/blog/announcing-yavashark/
 canonical_url: https://yavashark.dev/blog/announcing-yavashark
 summary: I've Built a JavaScript Engine Every Day for 950 Days
 first_seen: '2026-10-29T01:48:26Z'
-last_seen: '2026-10-29T01:48:26Z'
+last_seen: '2026-10-30T01:58:40Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://yavashark.dev/blog/announcing-yavashark/
-  seen_at: '2026-10-29T01:48:26Z'
+  seen_at: '2026-10-30T01:58:40Z'
   metrics:
-    points: 21
-    comments: 2
+    points: 38
+    comments: 3
   kind: news
 ---
 

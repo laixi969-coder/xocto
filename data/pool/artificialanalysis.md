@@ -24,7 +24,7 @@ url: https://artificialanalysis.ai/optima
 canonical_url: https://artificialanalysis.ai/optima
 summary: Artificial Analysis tool to create custom benchmarks for any use case
 first_seen: '2026-08-13T16:28:02Z'
-last_seen: '2026-10-29T01:48:59Z'
+last_seen: '2026-10-30T01:58:40Z'
 status: pending_filter
 sources:
 - hackernews
@@ -104,6 +104,13 @@ sightings:
   url: https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers
   seen_at: '2026-10-29T01:48:59Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1
+  seen_at: '2026-10-30T01:58:40Z'
+  metrics:
+    points: 328
+    comments: 240
   kind: news
 ---
 

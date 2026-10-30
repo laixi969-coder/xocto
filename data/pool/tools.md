@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-10-29T01:48:59Z'
+last_seen: '2026-10-30T01:59:07Z'
 status: pending_filter
 sources:
 - hackernews
@@ -225,6 +225,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/
   seen_at: '2026-10-29T01:48:59Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/
+  seen_at: '2026-10-30T01:59:07Z'
   metrics: {}
   kind: news
 ---

@@ -30,7 +30,7 @@ url: https://engine.tastelabs.com/
 canonical_url: https://engine.tastelabs.com
 summary: The Brand API, a taste tool for agents
 first_seen: '2026-09-15T18:45:31Z'
-last_seen: '2026-10-27T01:30:31Z'
+last_seen: '2026-10-30T01:59:07Z'
 status: pending_filter
 sources:
 - hackernews
@@ -108,6 +108,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOYWNZQnVhQ2tlZ1ZIR2pEUFlhc05kZng0SmRTM3pVWG9FQ1NuWjl6NldhcHkyNVUyNHBwa3Y5R0QycGRhbWpuOWk1SzZxV0g1TWd4ZU42MUJrMDFYZ0lveDBkY1pnZFpYRmdKUTFVX1JwWFNpOUtrQzJXVm8xRjhIZUVUWFJ1dlIzb3RIMHEtMy1JbDVzcHBOWkdiNGhvMENkLTg5N1lNQVJrVjZ1VWtXMHI4dUljNk1VdWdMVExoeU5vbGZQN2NYeFFRNNIB0gFBVV95cUxQNzZldnlvc1o4T25zdUxCNEZuMVhqM0Fud25ydHhzWlRfRF85S1AwM0pfQVRWS3RZZE9JRmJYRnZuTVYxNVU0WVpTQ1pWYmJkYVlJQ1lNVFBlT3JZYXB3dFJ3dng0NXc5RVBydkF6N3V4Y3ZBSWRvRjRya1lhZ1dWMmxsUk16cE5sSmh3a2s2LVhRanVVbjY4QVdOOEtDb1JvNVBQRW50ck9FNm52Nnc5WVZCSXFyMzBXLU9FdmpkUDY3M3ZuZ3gxVDBGQVczVUY5cnc?oc=5
   seen_at: '2026-10-27T01:30:31Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/
+  seen_at: '2026-10-30T01:59:07Z'
   metrics: {}
   kind: news
 ---

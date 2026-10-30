@@ -36,7 +36,7 @@ url: https://carbon.ms/self-hosted
 canonical_url: https://carbon.ms/self-hosted
 summary: An open-source manufacturing ERP/MES/QMS
 first_seen: '2026-09-24T00:45:17Z'
-last_seen: '2026-10-29T01:49:06Z'
+last_seen: '2026-10-30T01:59:08Z'
 status: pending_filter
 sources:
 - hackernews
@@ -53,10 +53,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
-  seen_at: '2026-10-29T01:48:26Z'
+  seen_at: '2026-10-30T01:58:40Z'
   metrics:
-    points: 808
-    comments: 663
+    points: 1001
+    comments: 796
   kind: news
 - source: officialfeeds
   url: https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/
@@ -76,6 +76,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YS3dVbXF2bWpraGtCem54WGRfdjR1b040SHM3QjRpLVNQc2tWQVEyMzlpMDR2LVlNOGpGMjl5MHRoVTdrdGk4Y0hVWG53T2c5U3ktNHo2YVNYaHljOUE?oc=5
   seen_at: '2026-10-29T01:49:06Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://latent.space/p/ainews-gemini-4-carbon/
+  seen_at: '2026-10-30T01:59:08Z'
   metrics: {}
   kind: news
 ---

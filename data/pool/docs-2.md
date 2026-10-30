@@ -20,8 +20,8 @@ url: https://docs.hypermass.io/docs/cli/
 canonical_url: https://docs.hypermass.io/docs/cli
 summary: Stream live open data in two commands
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-20T01:06:54Z'
-status: rejected
+last_seen: '2026-10-30T01:59:08Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -42,6 +42,11 @@ sightings:
 - source: marketfeeds
   url: https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/
   seen_at: '2026-10-20T01:06:54Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs
+  seen_at: '2026-10-30T01:59:08Z'
   metrics: {}
   kind: news
 ---
