@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "company_id": "ba8435a6-baa3-56f0-8037-33f8013a8806",
+  "round_fingerprint": "c1a2599ccf2d4234b626a51e627d54940c43e7ff0b8e10f8f4b2b418fe74d951",
+  "last_attempt": "2026-10-30",
+  "status": "blocked",
+  "gaps": [
+    "official_website",
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Waymo , which launched inside Google in 2009 and spun out as an independent company 10 years ago, picked up $16 billion in February.",
+      "checked_on": "2026-10-30"
+    }
+  ],
+  "fingerprint": "e8451f51453e3c0fb78360d45dea7927d4a50fc65ef2470805dacbc32b719f35"
+}

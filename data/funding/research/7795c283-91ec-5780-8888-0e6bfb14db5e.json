@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "company_id": "7795c283-91ec-5780-8888-0e6bfb14db5e",
+  "round_fingerprint": "a2a133c77e346c14d1cc1816bcaf1e3070e6de1730ae5b1dd7f8143a0fb081f4",
+  "last_attempt": "2026-10-30",
+  "status": "blocked",
+  "gaps": [
+    "official_website",
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Another old-timer is Databricks , which picked up $5 billion in August.",
+      "checked_on": "2026-10-30"
+    }
+  ],
+  "fingerprint": "e5d383b0e13554c190fef12076c778b9994f4689f2df64d74d4f8f68807b0355"
+}

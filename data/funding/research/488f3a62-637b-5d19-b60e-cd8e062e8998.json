@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "company_id": "488f3a62-637b-5d19-b60e-cd8e062e8998",
+  "round_fingerprint": "b0487741b26247775c60a8b9920565bac7ccff543e464b4f358513521f9f910a",
+  "last_attempt": "2026-10-30",
+  "status": "blocked",
+  "gaps": [
+    "official_website",
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "And AI model startup Safe Superintelligence landed $5 billion in a Nvidia -led round this summer.",
+      "checked_on": "2026-10-30"
+    }
+  ],
+  "fingerprint": "cb2e3358d6a98c9dc0a65dfc219309deb38da7a92e48773b0d40febfc530c7f4"
+}

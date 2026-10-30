@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "company_id": "525a4524-fd4a-5591-b187-3a084cccee45",
+  "round_fingerprint": "af4e3cfe50e52ba06b2260e13d31ba3c6b0796da313705152f5c079f88823ac5",
+  "last_attempt": "2026-10-30",
+  "status": "blocked",
+  "gaps": [
+    "official_website",
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Prometheus , the physical AI startup co-founded and led by Jeff Bezos and launched last year, pulled in $12 billion in new funding this spring.",
+      "checked_on": "2026-10-30"
+    }
+  ],
+  "fingerprint": "1f2c4a2e4b40733679643b088ab6119b28aeedf41b16d05bff4d6d4d59e2d9cc"
+}
