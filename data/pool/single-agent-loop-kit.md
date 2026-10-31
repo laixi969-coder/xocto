@@ -20,17 +20,17 @@ url: https://github.com/anthropics/single-agent-loop-kit
 canonical_url: https://github.com/anthropics/single-agent-loop-kit
 summary: ''
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/single-agent-loop-kit
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 430
-    forks: 37
+    stars: 455
+    forks: 40
     open_issues: 0
   kind: product
 ---

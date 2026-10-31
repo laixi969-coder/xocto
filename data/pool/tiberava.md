@@ -20,17 +20,17 @@ url: https://tiberava.online
 canonical_url: https://tiberava.online
 summary: My vibecoded game got a glow up
 first_seen: '2026-10-23T00:40:52Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tiberava.online
-  seen_at: '2026-10-23T00:40:52Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 6
-    comments: 0
+    points: 9
+    comments: 2
   kind: product
 ---
 

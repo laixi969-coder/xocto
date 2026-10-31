@@ -20,17 +20,17 @@ url: https://www.bostonglobe.com/2026/10/23/opinion/ai-impact-cognitive-ability-
 canonical_url: https://bostonglobe.com/2026/10/23/opinion/ai-impact-cognitive-ability-eric-so
 summary: MIT professor says AI is taking over your brain
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.bostonglobe.com/2026/10/23/opinion/ai-impact-cognitive-ability-eric-so/
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 41
-    comments: 23
+    points: 44
+    comments: 25
   kind: news
 ---
 

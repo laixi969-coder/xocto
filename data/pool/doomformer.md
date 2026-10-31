@@ -20,17 +20,17 @@ url: https://github.com/mottopanikeiku/doomformer
 canonical_url: https://github.com/mottopanikeiku/doomformer
 summary: I Turned DOOM into a Transformer
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/mottopanikeiku/doomformer
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 36
-    comments: 8
+    points: 123
+    comments: 36
   kind: product
 ---
 

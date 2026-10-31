@@ -42,17 +42,17 @@ canonical_url: https://kanaworksai-hue.github.io/audio-studio-mcp
 summary: Local AI BGM and sound effects for Claude Code and any MCP client. Stable Audio 3 on Apple Silicon
   (MLX) and Windows NVIDIA GPUs (PyTorch). No cloud, no API key.
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://kanaworksai-hue.github.io/audio-studio-mcp/
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 537
-    forks: 40
+    stars: 544
+    forks: 41
     open_issues: 0
   kind: product
 ---

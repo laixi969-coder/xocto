@@ -34,17 +34,17 @@ url: https://github.com/bronyacccxz/dsh-bilibili-reply
 canonical_url: https://github.com/bronyacccxz/dsh-bilibili-reply
 summary: 让 AI 读懂你在 B 站 @ 它的视频，自动回一条带可跳转时间戳的评论。DSH / AI Agent 技能。
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bronyacccxz/dsh-bilibili-reply
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
     stars: 111
-    forks: 5
+    forks: 6
     open_issues: 0
   kind: product
 ---

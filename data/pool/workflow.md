@@ -21,17 +21,17 @@ canonical_url: https://github.com/etherfunlab/workflow
 summary: 'An AI-agent development workflow: principles, rules, skills, and an ADOPT procedure your agent
   can follow.'
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/etherfunlab/workflow
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 57
-    forks: 12
+    stars: 67
+    forks: 16
     open_issues: 0
   kind: product
 ---

@@ -21,7 +21,7 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-10-30T01:59:08Z'
+last_seen: '2026-10-31T01:37:06Z'
 status: pending_filter
 sources:
 - hackernews
@@ -173,6 +173,16 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/
   seen_at: '2026-10-30T01:59:08Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/
+  seen_at: '2026-10-31T01:36:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOdlU2bk9SZ1JlWlQ4eHYzb2F4ZFlUWEttQ1hnSW1WSF9IdHhrcUc2c0VzNFBnQnV2ZHQwOFhWVncxWU5uMDNNb1M5MHVTOE93OXdWQXRPOXJJVDZmLWw4T2tERUtUeVlWSlRuc0pRZGxERWJ2VXd1OFNuaGpWSHJnck00c1JrdkJXLXdMUElTSzlBR0ZTNlk1a3BXYllyRGtsYlM4R2tRUVJCbk9kNnNtVGwwbw?oc=5
+  seen_at: '2026-10-31T01:37:06Z'
   metrics: {}
   kind: news
 ---

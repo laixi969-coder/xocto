@@ -21,17 +21,17 @@ canonical_url: https://github.com/irraz/vulnerator-ai
 summary: Autonomous OODA-loop pentesting agent. Hermes brain, Kali + Playwright tools over MCP, ATT&CK
   as the Orient language.
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/irraz/vulnerator-ai
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 100
-    forks: 27
+    stars: 174
+    forks: 43
     open_issues: 1
   kind: product
 ---

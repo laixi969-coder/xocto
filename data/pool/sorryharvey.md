@@ -20,16 +20,16 @@ url: https://sorryharvey.com/
 canonical_url: https://sorryharvey.com
 summary: Sorry Harvey! I Made a Free Open-Source Alternative to Your Overpriced Legal AI
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://sorryharvey.com/
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 16
+    points: 17
     comments: 4
   kind: news
 ---

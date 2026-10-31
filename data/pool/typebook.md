@@ -20,17 +20,17 @@ url: https://typebook.lol/
 canonical_url: https://typebook.lol
 summary: Typebook.lol read books by typing the letters only
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://typebook.lol/
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 7
-    comments: 11
+    points: 10
+    comments: 12
   kind: product
 ---
 

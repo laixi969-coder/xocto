@@ -20,18 +20,18 @@ url: https://github.com/joeseesun/qiaomu-ui-learn-dsh
 canonical_url: https://github.com/joeseesun/qiaomu-ui-learn-dsh
 summary: 原版乔木 UI 学习的 DeepSeek Harness 迁移版：13561 设计参考、106 交互标本、审美测验与 Markdown 学习笔记
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/joeseesun/qiaomu-ui-learn-dsh
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 67
+    stars: 72
     forks: 7
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

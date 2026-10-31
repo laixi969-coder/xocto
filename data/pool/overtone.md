@@ -20,17 +20,17 @@ url: https://github.com/lonthq/overtone-captions
 canonical_url: https://github.com/lonthq/overtone-captions
 summary: Transcribe, correct and cut captions for any screen shape
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/lonthq/overtone-captions
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 37
-    comments: 2
+    points: 43
+    comments: 9
   kind: product
 ---
 

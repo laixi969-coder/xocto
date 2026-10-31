@@ -1,0 +1,42 @@
+---
+slug: microsoft-salesforce-dell-oracle-and-adobe-direct-sales-thre
+name: Microsoft, Salesforce, Dell, Oracle and Adobe Direct Sales Threaten Channel Partner Revenue in 2026
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNlBySHlRUzBNelkwRVBHd1g3MXdJcHZ3T3cxa3l6UWNUbU5oQTVva296STBERUV4Sk9ybkpSMnBIWnZhYWpodzU5TF9LdDNlYjI1bmhOQVpWX01UbWNKeFl1RDJnSllJWUs4QkdNVHhEZHhOdVlWU3JRSER3RmNhUmFtdFZXbEEwMVVWMWIwWEdWYUc0TTZBQ0hwLTlKQlV1aEh1eEhIRVZieEJNWWhqbEk0b1RiNGdrZWd4cmY5dmFrYUtoamZkWXpPdkZFVTEwanfSAdoBQVVfeXFMTk8tS2N6dUNEOTRtV0NQS2MwTUh0VkJWQWdQTEhMdmdQMHg0MVZnUTlOSkF4M0tnaVF1RUFTcllFYTdhSjJCM3F4OTE0WlhsUkFjb213enpxWmJYNTB4Y0JlOHZTcmdrelprZGZiRlptNFBqelEzTW1ldnpuNmx0Uzh2Y3BzRWxpT1IydnhzX1ZIRWlwVnFpbWQxcWoydlFUbTZIWElxbXNkMkJVUjRDTlpnQjZ0N3hxaVdVcGZjU0JUNGR1NnlXUWpJX0RTS1p3TDVUS0ZBSmFMZ2c?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNlBySHlRUzBNelkwRVBHd1g3MXdJcHZ3T3cxa3l6UWNUbU5oQTVva296STBERUV4Sk9ybkpSMnBIWnZhYWpodzU5TF9LdDNlYjI1bmhOQVpWX01UbWNKeFl1RDJnSllJWUs4QkdNVHhEZHhOdVlWU3JRSER3RmNhUmFtdFZXbEEwMVVWMWIwWEdWYUc0TTZBQ0hwLTlKQlV1aEh1eEhIRVZieEJNWWhqbEk0b1RiNGdrZWd4cmY5dmFrYUtoamZkWXpPdkZFVTEwanfSAdoBQVVfeXFMTk8tS2N6dUNEOTRtV0NQS2MwTUh0VkJWQWdQTEhMdmdQMHg0MVZnUTlOSkF4M0tnaVF1RUFTcllFYTdhSjJCM3F4OTE0WlhsUkFjb213enpxWmJYNTB4Y0JlOHZTcmdrelprZGZiRlptNFBqelEzTW1ldnpuNmx0Uzh2Y3BzRWxpT1IydnhzX1ZIRWlwVnFpbWQxcWoydlFUbTZIWElxbXNkMkJVUjRDTlpnQjZ0N3hxaVdVcGZjU0JUNGR1NnlXUWpJX0RTS1p3TDVUS0ZBSmFMZ2c?oc=5
+summary: Microsoft, Salesforce, Dell, Oracle and Adobe Direct Sales Threaten Channel Partner Revenue in
+  2026 InfotechLead
+first_seen: '2026-10-31T01:37:06Z'
+last_seen: '2026-10-31T01:37:06Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNlBySHlRUzBNelkwRVBHd1g3MXdJcHZ3T3cxa3l6UWNUbU5oQTVva296STBERUV4Sk9ybkpSMnBIWnZhYWpodzU5TF9LdDNlYjI1bmhOQVpWX01UbWNKeFl1RDJnSllJWUs4QkdNVHhEZHhOdVlWU3JRSER3RmNhUmFtdFZXbEEwMVVWMWIwWEdWYUc0TTZBQ0hwLTlKQlV1aEh1eEhIRVZieEJNWWhqbEk0b1RiNGdrZWd4cmY5dmFrYUtoamZkWXpPdkZFVTEwanfSAdoBQVVfeXFMTk8tS2N6dUNEOTRtV0NQS2MwTUh0VkJWQWdQTEhMdmdQMHg0MVZnUTlOSkF4M0tnaVF1RUFTcllFYTdhSjJCM3F4OTE0WlhsUkFjb213enpxWmJYNTB4Y0JlOHZTcmdrelprZGZiRlptNFBqelEzTW1ldnpuNmx0Uzh2Y3BzRWxpT1IydnhzX1ZIRWlwVnFpbWQxcWoydlFUbTZIWElxbXNkMkJVUjRDTlpnQjZ0N3hxaVdVcGZjU0JUNGR1NnlXUWpJX0RTS1p3TDVUS0ZBSmFMZ2c?oc=5
+  seen_at: '2026-10-31T01:37:06Z'
+  metrics: {}
+  kind: news
+---
+
+# Microsoft, Salesforce, Dell, Oracle and Adobe Direct Sales Threaten Channel Partner Revenue in 2026
+
+Microsoft, Salesforce, Dell, Oracle and Adobe Direct Sales Threaten Channel Partner Revenue in 2026 InfotechLead
+
+## 笔记
+
+

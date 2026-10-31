@@ -36,17 +36,17 @@ url: https://github.com/SakanaAI/AI-Scientist-v3
 canonical_url: https://github.com/SakanaAI/AI-Scientist-v3
 summary: 'The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery'
 first_seen: '2026-10-17T00:30:30Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SakanaAI/AI-Scientist-v3
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 559
-    forks: 80
+    stars: 562
+    forks: 81
     open_issues: 1
   kind: product
 ---

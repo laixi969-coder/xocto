@@ -20,17 +20,17 @@ url: https://github.com/blakeandersonw/ai-app-playbook
 canonical_url: https://github.com/blakeandersonw/ai-app-playbook
 summary: How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/blakeandersonw/ai-app-playbook
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 579
-    forks: 80
+    stars: 590
+    forks: 82
     open_issues: 0
   kind: product
 ---

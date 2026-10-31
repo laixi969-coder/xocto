@@ -20,17 +20,17 @@ url: https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler
 canonical_url: https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler
 summary: 'Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks'
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 129
-    comments: 21
+    points: 143
+    comments: 22
   kind: news
 ---
 

@@ -21,17 +21,17 @@ canonical_url: https://chums.club
 summary: Talk to Claude Code and Codex agents from an Apple Watch and an iPhone. Each agent is a character
   on the watch.
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://chums.club
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 279
-    forks: 37
+    stars: 287
+    forks: 38
     open_issues: 3
   kind: product
 ---

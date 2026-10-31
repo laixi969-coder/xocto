@@ -1,0 +1,46 @@
+---
+slug: 65-of-ai-assisted-shoppers-trust-creator-reviews-to-validate
+name: '65% of AI-assisted shoppers trust creator reviews to validate product recommendations: IAB'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdXNFZHRpZzNqYXIyZE05V3B5WFZ6M0p5OFNteUlTM1cwUFlvZmpkN2RHdFV6UFB5ZUw1dXYxMWJhRHpzRnBRaHVWazFDVktKd1V1Z0pCMlg2NDNVTzhOWEdRdVFjeVNzUnFoMDdRUkJxajF5Z1dtRVR1LVBURkw3UDJCU1drekplWUhDbDh2VEg3MVJzVGI3TWtMTlBJN2FiTjBQZnFQSGctalFCOU05QjRvMmFDNGFJVUdaOXdBMElXaGU2YmhwcnhuVzViWUk1WkFsRXhVT1NZMExKR19aStIB5gFBVV95cUxQdlFJRmtidFYwQzR5N0EzUmQxYzhGWjFSQkRaUS01a2dReGx0SEdiOURYMjA1VVBUb3VsT2MtN2NrV3NVWHRRQ0tGQXBUODBObDVrRS1OM1h0WEpJdkpvNlZQd01VdFBWMWhhQXJKeHJJRjZLNmhIMlQyT3BEcW1wVHk0MENra0pIeVc4LVBHYUU1UGppUUMtaFJQYmhZVGNLWnVybTFQdXJYWmIzQUQxU2NwVmpISmVUTWhqcXdfZ3dCYWhCZDJJcFN0OFpqSXNfX3o1T2gtczZtaEFlcXB4WHZaU0ZaUQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdXNFZHRpZzNqYXIyZE05V3B5WFZ6M0p5OFNteUlTM1cwUFlvZmpkN2RHdFV6UFB5ZUw1dXYxMWJhRHpzRnBRaHVWazFDVktKd1V1Z0pCMlg2NDNVTzhOWEdRdVFjeVNzUnFoMDdRUkJxajF5Z1dtRVR1LVBURkw3UDJCU1drekplWUhDbDh2VEg3MVJzVGI3TWtMTlBJN2FiTjBQZnFQSGctalFCOU05QjRvMmFDNGFJVUdaOXdBMElXaGU2YmhwcnhuVzViWUk1WkFsRXhVT1NZMExKR19aStIB5gFBVV95cUxQdlFJRmtidFYwQzR5N0EzUmQxYzhGWjFSQkRaUS01a2dReGx0SEdiOURYMjA1VVBUb3VsT2MtN2NrV3NVWHRRQ0tGQXBUODBObDVrRS1OM1h0WEpJdkpvNlZQd01VdFBWMWhhQXJKeHJJRjZLNmhIMlQyT3BEcW1wVHk0MENra0pIeVc4LVBHYUU1UGppUUMtaFJQYmhZVGNLWnVybTFQdXJYWmIzQUQxU2NwVmpISmVUTWhqcXdfZ3dCYWhCZDJJcFN0OFpqSXNfX3o1T2gtczZtaEFlcXB4WHZaU0ZaUQ?oc=5
+summary: '65% of AI-assisted shoppers trust creator reviews to validate product recommendations: IAB Storyboard18'
+first_seen: '2026-10-31T01:37:06Z'
+last_seen: '2026-10-31T01:37:06Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdXNFZHRpZzNqYXIyZE05V3B5WFZ6M0p5OFNteUlTM1cwUFlvZmpkN2RHdFV6UFB5ZUw1dXYxMWJhRHpzRnBRaHVWazFDVktKd1V1Z0pCMlg2NDNVTzhOWEdRdVFjeVNzUnFoMDdRUkJxajF5Z1dtRVR1LVBURkw3UDJCU1drekplWUhDbDh2VEg3MVJzVGI3TWtMTlBJN2FiTjBQZnFQSGctalFCOU05QjRvMmFDNGFJVUdaOXdBMElXaGU2YmhwcnhuVzViWUk1WkFsRXhVT1NZMExKR19aStIB5gFBVV95cUxQdlFJRmtidFYwQzR5N0EzUmQxYzhGWjFSQkRaUS01a2dReGx0SEdiOURYMjA1VVBUb3VsT2MtN2NrV3NVWHRRQ0tGQXBUODBObDVrRS1OM1h0WEpJdkpvNlZQd01VdFBWMWhhQXJKeHJJRjZLNmhIMlQyT3BEcW1wVHk0MENra0pIeVc4LVBHYUU1UGppUUMtaFJQYmhZVGNLWnVybTFQdXJYWmIzQUQxU2NwVmpISmVUTWhqcXdfZ3dCYWhCZDJJcFN0OFpqSXNfX3o1T2gtczZtaEFlcXB4WHZaU0ZaUQ?oc=5
+  seen_at: '2026-10-31T01:37:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZFFrZ01uS3NUWVlJSjhiZTRJTkRRVThBSVh6MnR6ZVBVaG1lV0lCZDhIZHN0d0d4LU9UbXRIWGhRTElWYzBjUlBfcWU2QWg3RzJMM2Iyb05DOVJKdUpfOHN3ZWM3X1dQU3FXbWNWOHdkLXE1Z3VtQkJtajJMY0Y4WUZLMHEzajBlT21Jd25hZV8tSl8yRlBlTUtEMkYyN2J6VW5nTzhnSFkzc3JBNEF5ZVdDd0Y3UUNKYnRrV25DWFh0bURxTF9RbVFqZEFFYzlnckYzR2pwWlkzRTRfTzZkLU9ZVTZuMmZNaTBtYk5tc1RCUQ?oc=5
+  seen_at: '2026-10-31T01:37:06Z'
+  metrics: {}
+  kind: news
+---
+
+# 65% of AI-assisted shoppers trust creator reviews to validate product recommendations: IAB
+
+65% of AI-assisted shoppers trust creator reviews to validate product recommendations: IAB Storyboard18
+
+## 笔记
+
+

@@ -1,0 +1,13 @@
+- id: ev-cdf1bc361e10dca0
+  project_slug: vercel-ai-ai-sdk-xai5035
+  url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.35
+  title: 'vercel/ai: @ai-sdk/xai@5.0.35'
+  published_at: '2026-10-30T22:19:56Z'
+  collected_at: '2026-10-31T01:36:36Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '### Patch Changes
+
+
+    - 89b76ce: Centralize xAI language, image, speech, transcription, and realtime capabilities in a shared
+    model catalog, preserving request policies and generating capability tables from the same declarations.'

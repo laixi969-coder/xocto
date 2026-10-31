@@ -20,17 +20,17 @@ url: https://github.com/johncassil/dontallow
 canonical_url: https://github.com/johncassil/dontallow
 summary: Auto Dismiss Mac OS "Allow <app> to find devices on local networks?"
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/johncassil/dontallow
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 101
-    comments: 76
+    points: 149
+    comments: 124
   kind: product
 ---
 

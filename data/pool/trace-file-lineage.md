@@ -22,7 +22,7 @@ canonical_url: https://pypi.org/project/trace-file-lineage
 summary: Find which script, notebook, data, command, or AI agent produced a file — locally, with evidence
   and honest uncertainty.
 first_seen: '2026-07-29T22:05:47Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: rejected
 sources:
 - github
@@ -60,10 +60,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://pypi.org/project/capo-s3/
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 11
-    comments: 2
+    points: 16
+    comments: 3
   kind: product
 ---
 

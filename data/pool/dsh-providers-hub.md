@@ -21,18 +21,18 @@ canonical_url: https://github.com/iJetLi/dsh-providers-hub
 summary: 'deepseek-harness plugin: sign in and manage accounts across multiple AI coding providers, with
   multi-account pools and silent credential refresh'
 first_seen: '2026-10-20T01:06:30Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/iJetLi/dsh-providers-hub
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 51
-    forks: 12
-    open_issues: 15
+    stars: 55
+    forks: 14
+    open_issues: 12
   kind: product
 ---
 

@@ -1,0 +1,41 @@
+---
+slug: funding-wrap-live2ai-rotoris-chosen-raise-fresh-capital
+name: 'Funding Wrap: Live2.ai, Rotoris, CHOSEN raise fresh capital'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS0FUODROQk84NFpNWWh1OGFrNm51dXgxd2Npb3AxbzEta3JVcjRQUVlsYTBzTTJ3NHJodGZtS2JfWmJYQ2Jnb1RTdVNnbXlSX1ltSGJVVHozd2pUYXhHX0QwR3pMdFRrQ05EN3pMRFdoaVVvRnZ1RmdqdFU1Z0RDY2QwZ1NHQ2hDNEJNcnBib3lnMzZ0Uld5S3VmU3NHRmQxWEVaejJNSi1NUHF3SlA2OEdPT1dvLVZzZ2tPSmZtMGZvNnBydkNCSdIBzgFBVV95cUxPZEtvUVJMTURuMnVMcEhFREcySDQ5R202djJRb3h5TTZfM0xZVDRtT2hSMFR3ZFB4UnFlTDZod1VocEk3X20xOTZ6UU5XOFdsODYzdzJCdFNQTzExcHFlam9XTmtyWHhPOENwV09zNjNxbFplaTQ4cWxJVHdVVXFrWVg4NzZRYTk4Qk5OSnNqM1RCVjExMUR2VUhVa1NHamljbHpwckI0MWhVZk1KQVNRc1NqNVNUcXVPVHBsVjA5eE9MRjJWUXdPNVZ5V3B2dw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS0FUODROQk84NFpNWWh1OGFrNm51dXgxd2Npb3AxbzEta3JVcjRQUVlsYTBzTTJ3NHJodGZtS2JfWmJYQ2Jnb1RTdVNnbXlSX1ltSGJVVHozd2pUYXhHX0QwR3pMdFRrQ05EN3pMRFdoaVVvRnZ1RmdqdFU1Z0RDY2QwZ1NHQ2hDNEJNcnBib3lnMzZ0Uld5S3VmU3NHRmQxWEVaejJNSi1NUHF3SlA2OEdPT1dvLVZzZ2tPSmZtMGZvNnBydkNCSdIBzgFBVV95cUxPZEtvUVJMTURuMnVMcEhFREcySDQ5R202djJRb3h5TTZfM0xZVDRtT2hSMFR3ZFB4UnFlTDZod1VocEk3X20xOTZ6UU5XOFdsODYzdzJCdFNQTzExcHFlam9XTmtyWHhPOENwV09zNjNxbFplaTQ4cWxJVHdVVXFrWVg4NzZRYTk4Qk5OSnNqM1RCVjExMUR2VUhVa1NHamljbHpwckI0MWhVZk1KQVNRc1NqNVNUcXVPVHBsVjA5eE9MRjJWUXdPNVZ5V3B2dw?oc=5
+summary: 'Funding Wrap: Live2.ai, Rotoris, CHOSEN raise fresh capital ET Entrepreneur'
+first_seen: '2026-10-31T01:37:06Z'
+last_seen: '2026-10-31T01:37:06Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS0FUODROQk84NFpNWWh1OGFrNm51dXgxd2Npb3AxbzEta3JVcjRQUVlsYTBzTTJ3NHJodGZtS2JfWmJYQ2Jnb1RTdVNnbXlSX1ltSGJVVHozd2pUYXhHX0QwR3pMdFRrQ05EN3pMRFdoaVVvRnZ1RmdqdFU1Z0RDY2QwZ1NHQ2hDNEJNcnBib3lnMzZ0Uld5S3VmU3NHRmQxWEVaejJNSi1NUHF3SlA2OEdPT1dvLVZzZ2tPSmZtMGZvNnBydkNCSdIBzgFBVV95cUxPZEtvUVJMTURuMnVMcEhFREcySDQ5R202djJRb3h5TTZfM0xZVDRtT2hSMFR3ZFB4UnFlTDZod1VocEk3X20xOTZ6UU5XOFdsODYzdzJCdFNQTzExcHFlam9XTmtyWHhPOENwV09zNjNxbFplaTQ4cWxJVHdVVXFrWVg4NzZRYTk4Qk5OSnNqM1RCVjExMUR2VUhVa1NHamljbHpwckI0MWhVZk1KQVNRc1NqNVNUcXVPVHBsVjA5eE9MRjJWUXdPNVZ5V3B2dw?oc=5
+  seen_at: '2026-10-31T01:37:06Z'
+  metrics: {}
+  kind: news
+---
+
+# Funding Wrap: Live2.ai, Rotoris, CHOSEN raise fresh capital
+
+Funding Wrap: Live2.ai, Rotoris, CHOSEN raise fresh capital ET Entrepreneur
+
+## 笔记
+
+

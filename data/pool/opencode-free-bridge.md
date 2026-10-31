@@ -20,16 +20,16 @@ url: https://github.com/azrinaldi/opencode-free-bridge
 canonical_url: https://github.com/azrinaldi/opencode-free-bridge
 summary: OpenAI-compatible bridge for OpenCode free-tier models — no account required
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/azrinaldi/opencode-free-bridge
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 79
+    stars: 84
     forks: 16
     open_issues: 0
   kind: product

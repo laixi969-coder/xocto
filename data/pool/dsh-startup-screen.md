@@ -20,16 +20,16 @@ url: https://github.com/QIFANAI/dsh-startup-screen
 canonical_url: https://github.com/QIFANAI/dsh-startup-screen
 summary: DeepSeek Harness 启动动画插件：Canvas 光场 + 中文清晰度优化
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/QIFANAI/dsh-startup-screen
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 43
+    stars: 44
     forks: 5
     open_issues: 2
   kind: product

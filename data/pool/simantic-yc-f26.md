@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50291116
 canonical_url: https://news.ycombinator.com/item?id=50291116
 summary: Firmware Simulation for AI Agents
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50291116
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 50
-    comments: 14
+    points: 76
+    comments: 33
   kind: product
 ---
 

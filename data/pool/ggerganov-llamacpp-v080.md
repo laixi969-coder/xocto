@@ -362,16 +362,16 @@ summary: "## Overview\r\n\r\nThis release adds the LiquidAI LFM3 family (text, v
   \ always be 1540, native resolution is the default (#30600)\r\nba3c05f71 model: add Muse Spark Open\
   \ (text, vision and audio) (#30616)\r\nb76b13379 pi : expand AI disclosure with hardware and stats (#30615)"
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    reactions: 34
+    reactions: 38
   kind: news
 ---
 

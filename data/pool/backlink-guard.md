@@ -21,16 +21,16 @@ canonical_url: https://github.com/zhuyansen/backlink-guard
 summary: Check a link source before you submit to it, verify the listing, and audit your own backlinks
   for link-spam patterns. A CLI and an agent skill.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zhuyansen/backlink-guard
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 55
+    stars: 60
     forks: 9
     open_issues: 0
   kind: product

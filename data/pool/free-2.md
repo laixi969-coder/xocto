@@ -20,7 +20,7 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-10-29T01:49:06Z'
+last_seen: '2026-10-31T01:36:58Z'
 status: pending_filter
 sources:
 - hackernews
@@ -175,6 +175,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiowFBVV95cUxNLXJfZkszUjlFX0YxTklTUF9qLTZPWDB3LU8wX0NWWmgyZUptNmJPNzU3UFJYOGNLLTk2SllGVFI5aUltcU8ycURmdDNFdHM0VFpqekxnQUlVZERmYjIyYXM3Zm9ENkxkQXUwb1VqTWdIX1ktMlpzdWhDS1RuMmxjcVNqdTZwUjJsbk1RVGtqd3haT254Y2dwUkxVdE96LVpxSGZn?oc=5
   seen_at: '2026-10-29T01:49:06Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/ling-3-1-flash-1019-now-available-on-ai-gateway-for-free
+  seen_at: '2026-10-31T01:36:58Z'
   metrics: {}
   kind: news
 ---

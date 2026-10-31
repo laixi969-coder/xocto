@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMifEFVX3lxTE1XSFlkRi1wSlJ2dEtmQVI2RU
 canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE1XSFlkRi1wSlJ2dEtmQVI2RUhRUGZkbHFmSUMwMzluLTRYLUdsdG1XeTZqblpmVGJQNWNoaERiTzdQYWVuZEgxbDI2VHBab2I3QWt2MnRBREtGa0NQRm0tZHV6LWJmU2VYYk9qM2NMVDQ5aWQtUVZKVEJkc04?oc=5
 summary: Meta AI负责人罗希特·帕特尔离职创业，打造微软Office替代方案Ndoc 新浪财经
 first_seen: '2026-10-28T01:23:09Z'
-last_seen: '2026-10-30T01:59:15Z'
+last_seen: '2026-10-31T01:37:06Z'
 status: pending_filter
 sources:
 - newssearch
@@ -43,6 +43,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMifkFVX3lxTFB0MFZMMUdpQjJZM1ZmenlHYjhFVXdYbDRvVGpTdEpMRGZTbHBxOXJBRXlGTDRDdEkyczdqQ0UxdWYwNm1aRzlGOUI5Q3NkWFB0cUFOYU1jMmlCMDRtZjliNHg2YlhKb3pvRGdUUldEcVNJXzk2Zjk1ZWxmbmkxZw?oc=5
   seen_at: '2026-10-30T01:59:15Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE93YnFvUk1wMHl3SGQ1djVIRUNSYkVqMUVla0QxYU5QLXg2WXl1VDlGMVJOdmJnMWMxR3hueDhmMlZxWGFVYVNiNnFMMUdIRXZyMDk0OGpILWpFcXhsR2hPSTBxRlpqZmN0c215TVNIMGVLR2t4bG1MY2FSVE5SY1U?oc=5
+  seen_at: '2026-10-31T01:37:06Z'
   metrics: {}
   kind: news
 ---

@@ -21,17 +21,17 @@ canonical_url: https://github.com/JungleJimJim/AI-Image-Video-Studio
 summary: Windows desktop studio for local image generation, editing, video generation, and model-specific
   LoRAs.
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JungleJimJim/AI-Image-Video-Studio
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 41
-    forks: 4
+    stars: 46
+    forks: 5
     open_issues: 1
   kind: product
 ---

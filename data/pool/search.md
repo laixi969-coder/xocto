@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-10-30T01:59:15Z'
+last_seen: '2026-10-31T01:36:58Z'
 status: pending_filter
 sources:
 - hackernews
@@ -158,6 +158,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxQMzh1SU9YakxwUjZibjd1STExTGdtRkNJMHlTc1FsQjBIOWViYkNUS0paY1V4WmhxejdNdnJBV0VpNFlBNHlTaW5XelF0eUJfTkI4SUpsV3hZcVZxMF9XOFZoamtic2sxZUpET1k4TVRnUGcxeloyRnFVWVFSQTlYOUtWMnRqSXZOMmU0bjR1MmE?oc=5
   seen_at: '2026-10-30T01:59:15Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/
+  seen_at: '2026-10-31T01:36:58Z'
   metrics: {}
   kind: news
 ---

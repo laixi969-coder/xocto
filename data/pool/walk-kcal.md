@@ -20,18 +20,18 @@ url: https://adexbn.github.io/walk-kcal/
 canonical_url: https://adexbn.github.io/walk-kcal
 summary: 你今天还能吃多少卡，取决于你愿意走多远 —— 用步行距离换卡路里额度的吃饭决策。麦当劳官方营养值 × 周边餐厅，算你这顿还吃得下什么。
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-24T00:43:23Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://adexbn.github.io/walk-kcal/
-  seen_at: '2026-10-24T00:43:23Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 209
+    stars: 206
     forks: 0
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

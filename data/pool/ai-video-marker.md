@@ -21,17 +21,17 @@ canonical_url: https://github.com/Lanqiao-Luca/ai-video-marker
 summary: 🎬 AI 视频创作工作流｜🧩 Graph · Loop · Workflow · Agent · Skill · Standards 六层协作，8条制作流程｜统一公共入口 · 可选多层平面揭示
   · 宣传封面 · 节奏调整 · 跨窗口接续｜📦 可运行像素示例、AI漫画成片、原创配乐与素材库
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Lanqiao-Luca/ai-video-marker
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 95
-    forks: 2
+    stars: 116
+    forks: 4
     open_issues: 0
   kind: product
 ---

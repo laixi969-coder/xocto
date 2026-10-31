@@ -20,17 +20,17 @@ url: https://github.com/SheepSeb/tinyworldformer
 canonical_url: https://github.com/SheepSeb/tinyworldformer
 summary: A tiny world model running games on a Raspberry Pi Pico 2 W
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/SheepSeb/tinyworldformer
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 130
-    comments: 8
+    points: 268
+    comments: 18
   kind: news
 ---
 

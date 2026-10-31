@@ -20,16 +20,16 @@ url: https://github.com/huzhengcai471-crypto/dsh-startup-secret
 canonical_url: https://github.com/huzhengcai471-crypto/dsh-startup-secret
 summary: DeepSeek Harness 启动动画插件（二次创作版）：暗色赛博风格开机动画，徽章标识 + 赛博电子风人物立绘 + 访问密码功能
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huzhengcai471-crypto/dsh-startup-secret
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 168
+    stars: 175
     forks: 7
     open_issues: 2
   kind: product

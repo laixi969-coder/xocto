@@ -1,0 +1,28 @@
+- id: ev-b27f3c5de2d6850b
+  project_slug: openai-openai-python-v3420
+  url: https://github.com/openai/openai-python/releases/tag/v3.42.0
+  title: 'openai/openai-python: v3.42.0'
+  published_at: '2026-10-31T00:26:41Z'
+  collected_at: '2026-10-31T01:36:36Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## [3.42.0](https://github.com/openai/openai-python/compare/v3.41.0...v3.42.0) (2026-10-31)
+
+
+
+    ### Features
+
+
+    * **api:** add agent context compaction settings ([#4209](https://github.com/openai/openai-python/issues/4209))
+    ([f552fcf](https://github.com/openai/openai-python/commit/f552fcffcf774520e946121704b5fbbf7ba986e8))
+
+    * **api:** add agent session review and tool settings ([#4217](https://github.com/openai/openai-python/issues/4217))
+    ([a63c4cd](https://github.com/openai/openai-python/commit/a63c4cdb1c758af3a2ca8edace3b5291f8b0318a))
+
+    * **api:** add experimental agent time awareness ([#4211](https://github.com/openai/openai-python/issues/4211))
+    ([10f9dd0](https://github.com/openai/openai-python/commit/10f9dd012363229a6c6f3fddb73403427fcd5eef))
+
+    * **api:** add image edit markup overlays ([#4210](https://github.com/openai/openai-python/issues/4210))
+    ([72c656d](https://github.com/openai/openai-python/commit/72c656df672989eed60c85bfafeb57f578fcc2ef))
+
+    * **api:** add organization external key m'

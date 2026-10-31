@@ -18,3 +18,22 @@
   source_kind: adoption
   tier: behavioural
   fact: Right-click any log line to see its call stack in VS Code
+- id: ev-c05c92094d8d7d89
+  project_slug: deepseek-harness-for-vscode
+  url: https://www.v2ex.com/t/1253217
+  title: 做了一个 VS Code 插件：把 DeepSeek Harness Agent 放进侧边栏，支持权限控制和 Diff 追踪
+  published_at: '2026-10-30T07:23:22Z'
+  collected_at: '2026-10-31T01:36:29Z'
+  source_kind: product
+  tier: independent
+  fact: "大家好，最近做了一个 VS Code 插件 **SeekDock**，想在这里分享一下。\r\n\r\n项目的初衷是希望把 DeepSeek Harness（DSH）的 Agent 能力集成到\
+    \ VS Code 中，让 AI 不只是回答问题，还能直接参与日常开发工作，比如读写代码、执行命令、搜索文件、浏览网页等。\r\n\r\n项目目前是 0.1.0 版本，MIT 开源，属于社区非官方扩展。\r\
+    \n\r\n**项目地址：**\r\n\r\n- VS Code Marketplace： https://marketplace.visualstudio.com/items?itemName=JerryHu.seekdock\r\
+    \n- GitHub： https://github.com/jerryhu/seekdock\r\n\r\n### 一、侧边栏里的 AI Agent\r\n\r\nSeekDock 将聊天面板放在\
+    \ VS Code 右侧辅助侧边栏，不需要切换窗口，可以一边查看代码，一边与 Agent 对话。\r\n\r\n支持三种打开方式：\r\n\r\n- 编辑器右上角图标\r\n- 快捷键：macOS\
+    \ `Cmd+Alt+L`，Windows/Linux `Ctrl+Alt+L`\r\n- 命令面板：`SeekDock: Open SeekDock`\r\n\r\n内置 DeepSeek Harness\
+    \ 运行时，不需要额外安装 Python、CLI 或单独启动服务。安装插件后，配置自己的 DeepSeek API Key 即可使用。\r\n\r\n### 二、Agent 不只是聊天，还能执行任务\r\
+    \n\r\n支持多种工具调用：\r\n\r\n- 读取、创建、修改文件\r\n- 搜索文件和代码\r\n- 执行终端命令\r\n- 浏览网页、访问 URL\r\n- 使用 Skills 扩展 Agent\
+    \ 能力\r\n- 通过 MCP 接入外部工具和服务\r\n\r\n工具调用过程会以卡片形式展示，可以展开查看参数、执行结果和输出内容。\r\n\r\n回答支持流式输出，思考过程可以折叠展示，任务执行过程中也可以随时停止。\r\
+    \n\r\n### 三、四档权限控制，避免 AI 随意修改代码\r\n\r\n这是我比较重视的一个功能。\r\n\r\nSeekDock 提供四种权限模式：\r\n\r\n- **仅可查看**：只允许读取文件，不允许修改。\r\
+    \n- **工作区内修改**：允许修改当前工作区文件，超出范围需要审批。\r\n- **完全权限**：减少确"

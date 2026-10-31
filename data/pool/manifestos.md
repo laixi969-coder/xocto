@@ -20,17 +20,17 @@ url: https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-a
 canonical_url: https://404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning
 summary: 'Fear, and ''Loser Thinking'': Inside Proton''s AI Reckoning'
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-10-31T01:36:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/
-  seen_at: '2026-10-30T01:58:40Z'
+  seen_at: '2026-10-31T01:36:31Z'
   metrics:
-    points: 141
-    comments: 51
+    points: 222
+    comments: 80
   kind: news
 ---
 

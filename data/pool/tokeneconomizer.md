@@ -20,18 +20,18 @@ url: https://github.com/microsoft/TokenEconomizer
 canonical_url: https://github.com/microsoft/TokenEconomizer
 summary: Experience-Driven Black-Box Cost Control for Coding Agents
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/microsoft/TokenEconomizer
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 724
-    forks: 61
-    open_issues: 2
+    stars: 2034
+    forks: 118
+    open_issues: 4
   kind: product
 ---
 

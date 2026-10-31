@@ -1,0 +1,92 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/pixel-systems-57635c98",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "description": "Pixel Systems is a Swedish technology company developing AI-powered solutions to detect manipulated and AI-generated images, videos and documents, helping organisations verify digital content and prevent fraud.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "57635C98-669B-4D5A-8F90-AFED85E1140D",
+    "investors": [
+      "Unconventional Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Pixel Systems",
+    "rounds": [
+      {
+        "amountEur": 2700000,
+        "date": "2026-10-30",
+        "id": "3F07E487-FB64-4551-B983-C751F92379C7",
+        "investors": [
+          "Unconventional Ventures"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/3F07E487-FB64-4551-B983-C751F92379C7"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 2700000,
+    "url": "https://funding.tech.eu/companies/57635C98-669B-4D5A-8F90-AFED85E1140D",
+    "website": "https://pixelsystems.com/"
+  },
+  "round": {
+    "amountEur": 2700000,
+    "amountEurStored": null,
+    "amountNative": 2700000,
+    "company": {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "founded": null,
+      "id": "57635C98-669B-4D5A-8F90-AFED85E1140D",
+      "name": "Pixel Systems",
+      "pageUrl": "https://funding.tech.eu/companies/pixel-systems-57635c98",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-10-30",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "3F07E487-FB64-4551-B983-C751F92379C7",
+    "investors": [
+      "Unconventional Ventures"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/3F07E487-FB64-4551-B983-C751F92379C7",
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "eu-startups.com",
+      "tier": "established"
+    },
+    "stage": "Other",
+    "url": "/deals/3F07E487-FB64-4551-B983-C751F92379C7"
+  }
+}

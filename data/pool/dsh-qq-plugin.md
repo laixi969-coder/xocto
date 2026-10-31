@@ -20,17 +20,17 @@ url: https://github.com/xcisxc29/dsh-qq-plugin
 canonical_url: https://github.com/xcisxc29/dsh-qq-plugin
 summary: ''
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-10-31T01:36:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xcisxc29/dsh-qq-plugin
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-10-31T01:36:36Z'
   metrics:
-    stars: 43
-    forks: 0
+    stars: 44
+    forks: 1
     open_issues: 1
   kind: product
 ---

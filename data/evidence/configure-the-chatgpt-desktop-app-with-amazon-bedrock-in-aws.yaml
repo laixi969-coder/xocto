@@ -1,0 +1,18 @@
+- id: ev-35bd33b2983f713d
+  project_slug: configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws
+  url: https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/
+  title: Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)
+  published_at: '2026-10-30T17:27:45Z'
+  collected_at: '2026-10-31T01:36:58Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US) , providing access
+    to OpenAI’s frontier models through two components. Work completes complex, multi-step tasks and delivers
+    review-ready results, and Codex is a coding agent for developing, testing, and reviewing software.
+    This walkthrough is intended for organizations whose security architecture requires model inference
+    to use AWS GovCloud (US) identities, endpoints, and Regional controls. It configures Codex to route
+    model requests through Amazon Bedrock Mantle in us-gov-west-1 , where access can be governed using
+    AWS Identity and Access Management (IAM) and existing AWS GovCloud (US) network controls. Codex is
+    the OpenAI coding agent for AI-powered software development. With GPT models powering inference, Codex
+    introduces a new class of intelligence optimized for complex, long-horizon developer workflows. You
+    can use the ChatGPT desktop app, the Codex CLI, and IDE integrations with Visual Studio Code, J

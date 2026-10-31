@@ -36,3 +36,22 @@
     \ them. Finally, `ggml` was bumped to v0.28.0, bringing `GGML_OP_TOP_K_MASK`, `-1` expert-index semantics\
     \ and large backend performance work (CUDA chunked graph launches, SYCL graph replay, OpenCL Q2_K/Q3_K,\
     \ Hexagon H"
+- id: ev-7fc30e73060f5f34
+  project_slug: ggerganov-llamacpp-v080
+  url: https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0
+  title: 'ggerganov/llama.cpp: v0.8.0'
+  published_at: '2026-10-28T12:47:51Z'
+  collected_at: '2026-10-31T01:36:36Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## Overview\r\n\r\nThis release adds the LiquidAI LFM3 family (text, vision, audio and omni)\
+    \ together with a new experimental streaming-audio API in `mtmd`, and wires realtime audio in and\
+    \ out of the server through the new `/v1/realtime` and `/tts` endpoints. A batch of new architectures\
+    \ landed: DeepSeek V4.1 Flash, SenseNova U1, Beam, Kolibri-1, Flint, Muse Spark, Granite Switch Decision,\
+    \ plus decision/embedding models from LiquidAI, Baidu and NVIDIA. The core got sparse-attention (QSA/DSA)\
+    \ reworked onto a fused masking op, a 50/50 SLRU cache for host-resident MoE experts, and cleaner\
+    \ `no_alloc` memory handling; the server got router memory-management and tool-calling improvements;\
+    \ the UI can now browse and download models straight from HF Hub, search conversations and compact\
+    \ them. Finally, `ggml` was bumped to v0.28.0, bringing `GGML_OP_TOP_K_MASK`, `-1` expert-index semantics\
+    \ and large backend performance work (CUDA chunked graph launches, SYCL graph replay, OpenCL Q2_K/Q3_K,\
+    \ Hexagon H"
