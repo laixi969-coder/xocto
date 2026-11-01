@@ -1,0 +1,18 @@
+- id: ev-fd7d8c735f616714
+  project_slug: how-we-took-over-chatgpt-accounts
+  url: https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/
+  title: How We Took Over ChatGPT Accounts
+  published_at: '2026-10-31T23:15:22Z'
+  collected_at: '2026-11-01T01:10:59Z'
+  source_kind: market_signal
+  tier: independent
+  fact: How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's
+    implementation of the artifacts pattern (OpenAI used to call this "Canvas" but it looks like the latest
+    revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed
+    iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting
+    with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI
+    use the MathLive JavaScript library as part of their graph support, and that library includes its
+    own virtual keyboard , which can be triggered in the parent page via postMessage() from the sandboxed
+    iframe. That message receiving code uses innerHTML , so anything that sends a message can add custom
+    HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML
+    preview frames, from calling that method. This meant untrusted code in an iframe could insert HTML,

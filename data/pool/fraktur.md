@@ -20,17 +20,17 @@ url: https://greenvitriol.com/posts/fraktur
 canonical_url: https://greenvitriol.com/posts/fraktur
 summary: a DJ mixing app in the browser
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://greenvitriol.com/posts/fraktur
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 17
-    comments: 0
+    points: 25
+    comments: 3
   kind: product
 ---
 

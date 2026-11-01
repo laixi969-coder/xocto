@@ -22,16 +22,16 @@ summary: 'Open-source live workspace where AI agents work alongside your team in
   sheets and slides, a shared browser, a Linux desktop and full-duplex voice. Bring Claude Code, Codex,
   Gemini CLI or any LLM. Self-hosted, MIT. Built by MemoAir (memoair.ai).'
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://memoair.ai
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 47
+    stars: 48
     forks: 2
     open_issues: 8
   kind: product

@@ -20,17 +20,17 @@ url: https://www.youtube.com/watch?v=Ii-aeW5pHPQ
 canonical_url: https://youtube.com/watch?v=Ii-aeW5pHPQ
 summary: Neal Stephenson on AI and What Comes Next [video]
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.youtube.com/watch?v=Ii-aeW5pHPQ
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 51
-    comments: 23
+    points: 55
+    comments: 24
   kind: news
 ---
 

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMikgFBVV95cUxOcWRTQ192VFZQV0tJenB1ck
 canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxOcWRTQ192VFZQV0tJenB1ckpmTXUxS1g1VzJFTXNPTFBndlpaR2VVVzMtQldOajRkRkg2V2lueFU5Y1lkTDBHWTBWZTk4M2o5N3ZTM2FURDhsNHpMdXNubWxXY2NqaklRV3hxYzYxYnhkdGFhaEFCSVdMY0FsMHNGbEZWNHlWZFpZQ0t0VVFUZUg3Zw?oc=5
 summary: Agoda rolls out AI assistant across 21 travel markets Australia
 first_seen: '2026-10-31T01:37:06Z'
-last_seen: '2026-10-31T01:37:06Z'
+last_seen: '2026-11-01T01:11:07Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxOcWRTQ192VFZQV0tJenB1ckpmTXUxS1g1VzJFTXNPTFBndlpaR2VVVzMtQldOajRkRkg2V2lueFU5Y1lkTDBHWTBWZTk4M2o5N3ZTM2FURDhsNHpMdXNubWxXY2NqaklRV3hxYzYxYnhkdGFhaEFCSVdMY0FsMHNGbEZWNHlWZFpZQ0t0VVFUZUg3Zw?oc=5
   seen_at: '2026-10-31T01:37:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdHViUlYzQjJNRURta2pYTzIzUDE1VGpoMjA3UklxUXRjTURDU2tNVXB3Um1hSHo1dVpUaUN2bFQ5T3VPM2c0UGJCZXF3aFNMZlFvNFRSTWc4aDVpamF2ZTRqTXVpelVzcU41eU1ZbHJ6NWRBU2I2RHAtajRjQ1hMbVpPbUQtZVVO?oc=5
+  seen_at: '2026-11-01T01:11:07Z'
   metrics: {}
   kind: news
 ---

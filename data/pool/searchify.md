@@ -21,16 +21,16 @@ canonical_url: https://github.com/sami-mag07/searchify
 summary: 'Web search for AI agents on your own machine: search, clean extraction and a fast reranker.
   No API key needed.'
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sami-mag07/searchify
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 42
+    stars: 44
     forks: 3
     open_issues: 1
   kind: product

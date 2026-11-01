@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZ181Tk03WlZv
 summary: Johnson Kendall Johnson Partners with Outmarket to Elevate Client Service and Grow the Next Generation
   of Insurance Leaders With AI 01net
 first_seen: '2026-10-30T01:59:15Z'
-last_seen: '2026-10-30T01:59:15Z'
+last_seen: '2026-11-01T01:11:07Z'
 status: pending_filter
 sources:
 - newssearch
@@ -30,6 +30,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZ181Tk03WlZvaGE5NkJwVDBkMWRpZGV4blBkSFN1RUhIR0E4aThHT1VfYTc2bEItMEZDM2NjaEhoQXFacU1DNkVjMHVvNUNlMExKbmgxbGVMNzRxUTBnYnh3OUxVb1F2X2diYmtTeGM2LXQ2QWxqTjlCcFpROXFXbnczREdhRjZSZFlNWThfVU8zekVKNUhiVUVSUW5FVTU2NVNveFBsTjhrd1N4bVl2UzdwTjBrRVhnRURaNHhjbXR6cmU3NDJSYzdBdUY5dXN0QUJXc0pLZlZ0Rloxb19xWWo0dEFYemRq?oc=5
   seen_at: '2026-10-30T01:59:15Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilwJBVV95cUxOVmFsb0lIOVFKYk9rZk1wODcwT2tLWFVmU0xlZXBIOHBWYl82YXlnWHBaYmVjeXVDczFHLVhZOTk2cTJfQV9tb19jQV9oREVJOVpuOGEtWDU4bHpFaWFxUF9ITVBHb0ZaN2JOekpGR1ZwcTlMb3RnTnRINW9uc3pLdy00dGdZSkExc19ibXA2cVRpcU0xbnAtSzAwMDFtMlFsNUFVS2FURzBzQTAwQ3NXbnMwakZJd0ZOZjRlVDF1S1o5S2QtNXpSNHprZnRCOU9lRjJhNlNKXzZUX1o4NmhCTFdIYWY0eHdmajh6LU9QS0hKYlJOZU1ESXhwb2wzYWtnSmZRUnJFOHBuSTRfSGRPZTBtd0VXcVU?oc=5
+  seen_at: '2026-11-01T01:11:07Z'
   metrics: {}
   kind: news
 ---

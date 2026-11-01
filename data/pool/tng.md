@@ -20,17 +20,17 @@ url: https://tng.episodle.com/
 canonical_url: https://tng.episodle.com
 summary: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tng.episodle.com/
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 44
-    comments: 13
+    points: 234
+    comments: 73
   kind: product
 ---
 

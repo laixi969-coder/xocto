@@ -1,0 +1,41 @@
+---
+slug: nemetschek-group-scales-ai-across-architecture-engineering-a
+name: Nemetschek Group Scales AI Across Architecture, Engineering and Construction
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPV0VSTGl3SUVGeVdkSE92Vm92a2p5N09fMUdHMzZvR21EajZ5aXpNWThGRm5JMjZtLU9fa3BTdDh0c0FKWXVjVjVEbThuaUtPQzcybkxDX1pRdndjZEVIT01WM2hiYWVENEE0SkszOHQzM0NZaVJ0NG8yNW8wY1ZFUEdVb3ZYOXRBamdpa3ZfZjRzODM0bmNlU1dfbU1xYzdybV9MOU9IY200eHNteFVtMHdTa2xraUnSAbcBQVVfeXFMT1dFUkxpd0lFRnlXZEhPdlZvdmtqeTdPXzFHRzM2b0dtRGo2eWl6TVk4RkZuSTI2bS1PX2twU3Q4dHNBSll1Y1Y1RG04bmlLT0M3Mm5MQ19aUXZ3Y2RFSE9NVjNoYmFlRDRBNEpLMzh0MzNDWWlSdDRvMjVvMGNWRVBHVW92WDl0QWpnaWt2X2Y0czgzNG5jZVNXX21NcWM3cm1fTDlPSGNtNHhzbXhVbTB3U2tsa2lJ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPV0VSTGl3SUVGeVdkSE92Vm92a2p5N09fMUdHMzZvR21EajZ5aXpNWThGRm5JMjZtLU9fa3BTdDh0c0FKWXVjVjVEbThuaUtPQzcybkxDX1pRdndjZEVIT01WM2hiYWVENEE0SkszOHQzM0NZaVJ0NG8yNW8wY1ZFUEdVb3ZYOXRBamdpa3ZfZjRzODM0bmNlU1dfbU1xYzdybV9MOU9IY200eHNteFVtMHdTa2xraUnSAbcBQVVfeXFMT1dFUkxpd0lFRnlXZEhPdlZvdmtqeTdPXzFHRzM2b0dtRGo2eWl6TVk4RkZuSTI2bS1PX2twU3Q4dHNBSll1Y1Y1RG04bmlLT0M3Mm5MQ19aUXZ3Y2RFSE9NVjNoYmFlRDRBNEpLMzh0MzNDWWlSdDRvMjVvMGNWRVBHVW92WDl0QWpnaWt2X2Y0czgzNG5jZVNXX21NcWM3cm1fTDlPSGNtNHhzbXhVbTB3U2tsa2lJ?oc=5
+summary: Nemetschek Group Scales AI Across Architecture, Engineering and Construction SMEStreet
+first_seen: '2026-11-01T01:11:07Z'
+last_seen: '2026-11-01T01:11:07Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPV0VSTGl3SUVGeVdkSE92Vm92a2p5N09fMUdHMzZvR21EajZ5aXpNWThGRm5JMjZtLU9fa3BTdDh0c0FKWXVjVjVEbThuaUtPQzcybkxDX1pRdndjZEVIT01WM2hiYWVENEE0SkszOHQzM0NZaVJ0NG8yNW8wY1ZFUEdVb3ZYOXRBamdpa3ZfZjRzODM0bmNlU1dfbU1xYzdybV9MOU9IY200eHNteFVtMHdTa2xraUnSAbcBQVVfeXFMT1dFUkxpd0lFRnlXZEhPdlZvdmtqeTdPXzFHRzM2b0dtRGo2eWl6TVk4RkZuSTI2bS1PX2twU3Q4dHNBSll1Y1Y1RG04bmlLT0M3Mm5MQ19aUXZ3Y2RFSE9NVjNoYmFlRDRBNEpLMzh0MzNDWWlSdDRvMjVvMGNWRVBHVW92WDl0QWpnaWt2X2Y0czgzNG5jZVNXX21NcWM3cm1fTDlPSGNtNHhzbXhVbTB3U2tsa2lJ?oc=5
+  seen_at: '2026-11-01T01:11:07Z'
+  metrics: {}
+  kind: news
+---
+
+# Nemetschek Group Scales AI Across Architecture, Engineering and Construction
+
+Nemetschek Group Scales AI Across Architecture, Engineering and Construction SMEStreet
+
+## 笔记
+
+

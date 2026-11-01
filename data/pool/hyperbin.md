@@ -20,16 +20,16 @@ url: https://hypernuclear.com/hyperbin/
 canonical_url: https://hypernuclear.com/hyperbin
 summary: This Halloween, take out your Trash before monsters move in
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hypernuclear.com/hyperbin/
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 15
+    points: 16
     comments: 3
   kind: product
 ---

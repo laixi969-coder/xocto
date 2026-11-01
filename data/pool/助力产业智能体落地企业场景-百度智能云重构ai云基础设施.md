@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJQi1od1RQT0trVk5yVUJQdD
 canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJQi1od1RQT0trVk5yVUJQdDRRZWIxQVFfOWJWSDRZRS1Ncy1NQ0o2S29mZHgyZFg0U3o4S293RnpHUXhqcmJBTHgydHpudl9meHE4bThjS2RONGlvTEE?oc=5
 summary: 助力产业智能体落地企业场景 百度智能云重构AI云基础设施 DoNews
 first_seen: '2026-10-31T01:37:06Z'
-last_seen: '2026-10-31T01:37:06Z'
+last_seen: '2026-11-01T01:11:07Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJQi1od1RQT0trVk5yVUJQdDRRZWIxQVFfOWJWSDRZRS1Ncy1NQ0o2S29mZHgyZFg0U3o4S293RnpHUXhqcmJBTHgydHpudl9meHE4bThjS2RONGlvTEE?oc=5
   seen_at: '2026-10-31T01:37:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMicEFVX3lxTE10Vi1VOXVDcjZEYVlUUTVOLXpmMk5lSWJTQzhVcDEzQjNDOFBhZFl5bmlPSVh0Y3VvdWMzdnE4Q0xrYWVhTzd3eFdZMGhZWUViZmhFVjR5VktqWV83bG5xUVJKQVBzck9tNVdnVVJYYUc?oc=5
+  seen_at: '2026-11-01T01:11:07Z'
   metrics: {}
   kind: news
 ---

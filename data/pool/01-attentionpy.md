@@ -20,17 +20,17 @@ url: https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b8
 canonical_url: https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b89baae2a31a6/benchmarks/ml/01_attention.py
 summary: Automatic deduction of FlashAttention kernel from ~25 lines of SQL
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b89baae2a31a6/benchmarks/ml/01_attention.py
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 23
-    comments: 1
+    points: 27
+    comments: 2
   kind: product
 ---
 

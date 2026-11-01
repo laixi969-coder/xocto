@@ -20,17 +20,17 @@ url: https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling
 canonical_url: https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling
 summary: AI isn't replacing SREs, it's deskilling them
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 503
-    comments: 379
+    points: 647
+    comments: 474
   kind: news
 ---
 

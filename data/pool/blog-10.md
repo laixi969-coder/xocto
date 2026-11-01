@@ -20,7 +20,7 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-10-28T01:22:30Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
@@ -114,6 +114,13 @@ sightings:
   metrics:
     points: 178
     comments: 73
+  kind: news
+- source: hackernews
+  url: https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/
+  seen_at: '2026-11-01T01:10:25Z'
+  metrics:
+    points: 230
+    comments: 126
   kind: news
 ---
 

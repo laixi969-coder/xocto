@@ -2353,3 +2353,20 @@
   source_kind: customer_case
   tier: independent
   fact: Meta 加码采购英伟达 Vera Rubin 与 Vera CPU 机架，用于 Muse AI 模型 人工智能
+- id: ev-69d149ea5e406e4d
+  project_slug: muse-by-meta
+  url: http://www.geekpark.net/news/373243
+  title: DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人
+  published_at: '2026-11-01T00:29:48Z'
+  collected_at: '2026-11-01T01:10:59Z'
+  source_kind: market_signal
+  tier: independent
+  fact: ​DeepSeek 发布全新 Agent 架构 10 月 31 日晚间，DeepSeek Harness 团队在官方公众号发表技术文章《Super-agent 设计探索：迈向更自主的 Agent
+    系统》。 DeepSeek 表示，模型能力提升催生了新的应用形态，个人助手（Personal Agent）开始集中涌现。然而，现有主流 Agent 设计还难以在多任务和团队协作的规模上支撑这一模式，多任务上限取决于人的注意力。
+    要突破这些限制，需要打破 Agent 与单次手动会话的绑定，使其成为一个能跨会话保持上下文、同时推进多项复杂任务且互不干扰的连续实体。DeepSeek 把这种 Agent 形态及其系统架构称为 Super-agent。
+    通过双层架构、事件驱动、异步多信道交互、存算分离与外部 Watchdog 等思路，DeepSeek 团队突破了这些限制，系统在底层接管了繁琐的会话管理与上下文同步，使人类得以从具体的执行细节进一步上移到更高层的决策与验收。
+    目前，基于这套思路构建的内部 Super-agent 实例已经在持续运行，日常参与问题复现与修复、代码审查响应与 DeepSeek Harness 自身的迭代。（来源：上海证券报） AI 基建掀起军备竞赛：微软、谷歌、甲骨文等巨头承诺投入超
+    3 万亿美元 据彭博社 10 月 31 日凌晨报道，AI 基础设施建设仍将吸引巨额资金。Alphabet、Meta、微软、亚马逊和甲骨文五大科技巨头承诺，未来数年将在数据中心等领域投入超过 3 万亿美元（现汇率约合
+    20.01 万亿元人民币）。 随着数据中心建设竞赛愈演愈烈，五家公司披露的租赁、建筑、能源及设备采购承诺大幅增长。这些资金有的将在短期内支出，有的则涉及未来数十年的长期合同。 今年商界的一大争论，是科技企业斥资数千亿美元建设
+    AI 数据中心，究竟能否收回投资。Alphabet 和 Meta 都是全球最赚钱的企业之一，却因投资有望改变行业格局的新业务，出现自由现金流由正转负的情况。 不过，五家公司的支出并非全部用于数据中心，披露口径也不完全一致，因此很难直接比较。
+    例如，Meta 的部分预算用于 Reality Labs 部门的消费级硬件产品，Alphabet 和亚马逊的计划支出则包括内容授权费用。本次统计也没有计入现有租约和债务等其他大额支出。 五家公司未来的租赁付

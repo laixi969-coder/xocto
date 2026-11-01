@@ -7,3 +7,12 @@
   source_kind: adoption
   tier: behavioural
   fact: Automatic deduction of FlashAttention kernel from ~25 lines of SQL
+- id: ev-308e600ddb839d0e
+  project_slug: 01-attentionpy
+  url: https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b89baae2a31a6/benchmarks/ml/01_attention.py
+  title: 01_attention.py
+  published_at: '2026-10-30T20:09:47Z'
+  collected_at: '2026-11-01T01:10:25Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: Automatic deduction of FlashAttention kernel from ~25 lines of SQL

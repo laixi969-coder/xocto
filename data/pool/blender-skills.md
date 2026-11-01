@@ -32,17 +32,17 @@ canonical_url: https://github.com/EL4CTEO/blender-skills
 summary: 'Professional Blender 5.2 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot
   and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.'
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/EL4CTEO/blender-skills
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 604
-    forks: 52
+    stars: 624
+    forks: 60
     open_issues: 0
   kind: product
 ---

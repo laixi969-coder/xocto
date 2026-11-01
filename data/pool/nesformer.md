@@ -20,17 +20,17 @@ url: https://github.com/dbreunig/nesformer
 canonical_url: https://github.com/dbreunig/nesformer
 summary: A working Nintendo in ~1GB of Qwen weights
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/dbreunig/nesformer
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 190
-    comments: 111
+    points: 282
+    comments: 144
   kind: product
 ---
 

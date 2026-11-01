@@ -20,17 +20,17 @@ url: https://lucaskostka.com/posts/ai-challenges-more-than-devs
 canonical_url: https://lucaskostka.com/posts/ai-challenges-more-than-devs
 summary: Product Managers aren't safe either
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://lucaskostka.com/posts/ai-challenges-more-than-devs
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 52
-    comments: 75
+    points: 56
+    comments: 77
   kind: news
 ---
 

@@ -20,17 +20,17 @@ url: https://github.com/meta-models/legal-agent-workshop
 canonical_url: https://github.com/meta-models/legal-agent-workshop
 summary: Code for building an AI legal agent using Muse Code and Muse Spark
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/meta-models/legal-agent-workshop
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 63
-    forks: 31
+    stars: 64
+    forks: 33
     open_issues: 3
   kind: product
 ---

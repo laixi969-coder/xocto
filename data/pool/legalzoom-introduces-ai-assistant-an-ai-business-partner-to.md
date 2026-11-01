@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxOdHRMYXlGUlZD
 summary: 'LegalZoom Introduces AI Assistant: An AI Business Partner to Help Every Owner Start, Run, and
   Grow Yahoo Finance'
 first_seen: '2026-10-31T01:37:06Z'
-last_seen: '2026-10-31T01:37:06Z'
+last_seen: '2026-11-01T01:11:07Z'
 status: pending_filter
 sources:
 - newssearch
@@ -29,6 +29,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiowFBVV95cUxOdHRMYXlGUlZDRW9nQkZEN2c2ZkZROWNPcWVTd1haZ0pGYllCRlRJN0ZYOWxvb3BSd0VjRmFVT0JoeGpTejFpbU9CZ3kyN29WZVJHclh5QUVRZmlVb0RqV3I4T1RiTGhLcVpXVGRFQ2Q3OVBlRm8tR25HRFI0VGVsQkJ1V3VmZjU1TmQwMTR4MTJhMkxPNHhCUWhiX283WlJvQ2lB?oc=5
   seen_at: '2026-10-31T01:37:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOGpwTXR0VlJrU29yR1VmTEhxNGxvX2VTbWFDWThoOHJPdW1GVFlYVlctazdzVnJlaTR5eENBYmd0X2tWVnl5YU0tYnNQSVdxalQxQVBHbHJ1SmNlUGoxZ19SbmlkOTRFQU01WUthU1hQY2FXejhwdHJaaDI2M2lqQXc1VHhjSHFtZGNVdnVuU182eC1BcmJKV3dtbk1ueXE4dmNDYkJVNFNkRWhjSlg3OUdvQXBKNGNlVHd6bVIxbDkyQ3NRcGlReG1KSTBXM0lQV3NLUDN0cnByck5NeXBwYXNHLUJXTVU?oc=5
+  seen_at: '2026-11-01T01:11:07Z'
   metrics: {}
   kind: news
 ---

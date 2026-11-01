@@ -20,17 +20,17 @@ url: https://catcopter.com
 canonical_url: https://catcopter.com
 summary: I built a multiplayer game where you're an aerial fighter cat
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://catcopter.com
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 79
-    comments: 39
+    points: 83
+    comments: 42
   kind: product
 ---
 

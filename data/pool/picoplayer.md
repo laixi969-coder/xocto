@@ -20,17 +20,17 @@ url: https://picoplayer.net/
 canonical_url: https://picoplayer.net
 summary: A tiny, open-source website for playing quality webgames
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://picoplayer.net/
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 8
-    comments: 7
+    points: 12
+    comments: 8
   kind: product
 ---
 

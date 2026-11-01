@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-10-31T01:36:58Z'
+last_seen: '2026-11-01T01:11:07Z'
 status: pending_filter
 sources:
 - hackernews
@@ -163,6 +163,11 @@ sightings:
 - source: officialfeeds
   url: https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/
   seen_at: '2026-10-31T01:36:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOREJWUHZIc0FyOEIzazJxTm55THVZVk96ZHB6aXFLWVFtV01LeUFYTjlnTDZyVXJ1eFR2LTZLOXZRZDRtQXZVMnR6RFktMXZBZTFiRjhScjRsbjdaRHpWeXhLTlZiQk16c3BXSHQyQkYxdE9pQzZmWVlQVmdvS2FESGZzeWcxLUpHZTNzc0tJVGtrRWtsYVBxOE9GblR1OWZlb2Z4TjVuaHNPbW9XQmQ5WVQ2VEhMUTZKOFpadDFrR1dheXAteHc5YUNJOXjSAcwBQVVfeXFMTkRCVlB2SHNBcjhCM2sycU5ueUx1WVZPemRwemlxS1lRbVdNS3lBWE45Z0w2clVydXhUdi02Szl2UWQ0bUF2VTJ0ekRZLTF2QWUxYkY4UnI0bG43WkR6Vnl4S05WYkJNenNwV0h0MkJGMXRPaUM2ZllZUFZnb0thREhmc3lnMS1KR2Uzc3NLSVRra0VrbGFQcThPRm5UdTlmZW9meE41bmhzT21vV0JkOVlUNlRITFE2SjhaWnQxa0dXYXlwLXh3OWFDSTl4?oc=5
+  seen_at: '2026-11-01T01:11:07Z'
   metrics: {}
   kind: news
 ---

@@ -21,18 +21,18 @@ canonical_url: https://github.com/wangzan101/Mika
 summary: Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and
   the web to get things done for you.
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wangzan101/Mika
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 1387
-    forks: 222
-    open_issues: 15
+    stars: 2751
+    forks: 442
+    open_issues: 30
   kind: product
 ---
 

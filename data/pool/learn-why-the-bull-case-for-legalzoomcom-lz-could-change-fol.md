@@ -1,0 +1,42 @@
+---
+slug: learn-why-the-bull-case-for-legalzoomcom-lz-could-change-fol
+name: Learn Why The Bull Case For LegalZoom.com (LZ) Could Change Following AI Assistant Launch
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLVMwUlQtbG10cFF3SVgzZ3VULU15bzFVeGpuaWhjY0NiODhKY0NhOEdGbHFpZUU3Tm54UjFxYmlyZzBLX09sU1RHQjhWOElKRUtIVXR4QjFoZ054dkp2aUc2OXN1aExDYm1qMjFSYlFoSnR1TU1VTnRDaE1OZmVuWGhRcWs5UXJSdVdoNEhGU0Nvd2hqc2ZlZk4wS1pMMW52QXN6ZHFiUDFBZDR3YmtGbUE3aVJZeUpsYXJYb2ZkWnhKWjlwUE5VdXRXSmVlbm9fLVQzV29xd9IB3AFBVV95cUxPZ3Z2Ty1MM3BjXzZsMzVudDlNMDlyam56eHB6XzI2OVJ2YmdHYV9mek9Hc0dsVEhfbEwxcE9ueUZmZ3lxcG16eGdGWmxtaTdlOUVwbURNZndNV0ZsaDk3cGFRaHBGMnVKaC03aU51bkhQYUNnUm5Qd0FGZjNaZW5zSlNYSUd0WE1vMHFrY0J4SWFnSUg4Q2tvMGpNRnVsTWVCclpqdTduelN3b2hmblBzVTFiWFpBaUZ6cDFwVWhFY1I5clBXbkJwd1NxMzE2d0ctWmo5Wmo1ei1OZ1pk?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLVMwUlQtbG10cFF3SVgzZ3VULU15bzFVeGpuaWhjY0NiODhKY0NhOEdGbHFpZUU3Tm54UjFxYmlyZzBLX09sU1RHQjhWOElKRUtIVXR4QjFoZ054dkp2aUc2OXN1aExDYm1qMjFSYlFoSnR1TU1VTnRDaE1OZmVuWGhRcWs5UXJSdVdoNEhGU0Nvd2hqc2ZlZk4wS1pMMW52QXN6ZHFiUDFBZDR3YmtGbUE3aVJZeUpsYXJYb2ZkWnhKWjlwUE5VdXRXSmVlbm9fLVQzV29xd9IB3AFBVV95cUxPZ3Z2Ty1MM3BjXzZsMzVudDlNMDlyam56eHB6XzI2OVJ2YmdHYV9mek9Hc0dsVEhfbEwxcE9ueUZmZ3lxcG16eGdGWmxtaTdlOUVwbURNZndNV0ZsaDk3cGFRaHBGMnVKaC03aU51bkhQYUNnUm5Qd0FGZjNaZW5zSlNYSUd0WE1vMHFrY0J4SWFnSUg4Q2tvMGpNRnVsTWVCclpqdTduelN3b2hmblBzVTFiWFpBaUZ6cDFwVWhFY1I5clBXbkJwd1NxMzE2d0ctWmo5Wmo1ei1OZ1pk?oc=5
+summary: Learn Why The Bull Case For LegalZoom.com (LZ) Could Change Following AI Assistant Launch Simply
+  Wall St
+first_seen: '2026-11-01T01:11:07Z'
+last_seen: '2026-11-01T01:11:07Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLVMwUlQtbG10cFF3SVgzZ3VULU15bzFVeGpuaWhjY0NiODhKY0NhOEdGbHFpZUU3Tm54UjFxYmlyZzBLX09sU1RHQjhWOElKRUtIVXR4QjFoZ054dkp2aUc2OXN1aExDYm1qMjFSYlFoSnR1TU1VTnRDaE1OZmVuWGhRcWs5UXJSdVdoNEhGU0Nvd2hqc2ZlZk4wS1pMMW52QXN6ZHFiUDFBZDR3YmtGbUE3aVJZeUpsYXJYb2ZkWnhKWjlwUE5VdXRXSmVlbm9fLVQzV29xd9IB3AFBVV95cUxPZ3Z2Ty1MM3BjXzZsMzVudDlNMDlyam56eHB6XzI2OVJ2YmdHYV9mek9Hc0dsVEhfbEwxcE9ueUZmZ3lxcG16eGdGWmxtaTdlOUVwbURNZndNV0ZsaDk3cGFRaHBGMnVKaC03aU51bkhQYUNnUm5Qd0FGZjNaZW5zSlNYSUd0WE1vMHFrY0J4SWFnSUg4Q2tvMGpNRnVsTWVCclpqdTduelN3b2hmblBzVTFiWFpBaUZ6cDFwVWhFY1I5clBXbkJwd1NxMzE2d0ctWmo5Wmo1ei1OZ1pk?oc=5
+  seen_at: '2026-11-01T01:11:07Z'
+  metrics: {}
+  kind: news
+---
+
+# Learn Why The Bull Case For LegalZoom.com (LZ) Could Change Following AI Assistant Launch
+
+Learn Why The Bull Case For LegalZoom.com (LZ) Could Change Following AI Assistant Launch Simply Wall St
+
+## 笔记
+
+

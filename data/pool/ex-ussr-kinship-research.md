@@ -21,18 +21,18 @@ canonical_url: https://github.com/DenisSergeevitch/ex-ussr-kinship-research
 summary: 'Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military,
   deportation and repression records across the former USSR. Replies in your language.'
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/DenisSergeevitch/ex-ussr-kinship-research
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 1346
-    forks: 138
-    open_issues: 1
+    stars: 1404
+    forks: 149
+    open_issues: 2
   kind: product
 ---
 

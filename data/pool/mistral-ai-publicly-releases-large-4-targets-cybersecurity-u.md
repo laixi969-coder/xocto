@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxORGVVeXl0bmw1cnBiUkdkU2
 canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxORGVVeXl0bmw1cnBiUkdkU2VRT2VPcWtxSHdNTmQxQ2xlOUxiSW1aY0J5eVd2T2RPYXJQdlEwdWpSSzBuRlZmcHlHU1F3LTVCVmo3ZzZqbXRDZ1pmaDdEMkd0OFIycWhkWXhydlQ4Z0UzZ3FHbUdaaXJOMGVSRFhwSkZRYmFGcWoxeUlQUWtBUVBlZXM3NkgtRGN0dE81LWxkMTRGVnFSSnJWUU83SXRONUJPQm84a0pl?oc=5
 summary: Mistral AI publicly releases Large 4, targets cybersecurity users Reuters
 first_seen: '2026-10-30T01:59:15Z'
-last_seen: '2026-10-30T01:59:15Z'
+last_seen: '2026-11-01T01:11:07Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxORGVVeXl0bmw1cnBiUkdkU2VRT2VPcWtxSHdNTmQxQ2xlOUxiSW1aY0J5eVd2T2RPYXJQdlEwdWpSSzBuRlZmcHlHU1F3LTVCVmo3ZzZqbXRDZ1pmaDdEMkd0OFIycWhkWXhydlQ4Z0UzZ3FHbUdaaXJOMGVSRFhwSkZRYmFGcWoxeUlQUWtBUVBlZXM3NkgtRGN0dE81LWxkMTRGVnFSSnJWUU83SXRONUJPQm84a0pl?oc=5
   seen_at: '2026-10-30T01:59:15Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijgFBVV95cUxPS0NFak5QYnQyRkpSY0FFT3dXMDRZRnhvZlVTVE5od2ZNXzgtUE51dDRzZTVVZ2ZJYUVFaHRzTzZPVEZ6WmVkNmVRUHZYYks1TnI0dG5JeTJRTVJMT3Y4dUZ1bFJIV0FBYUUzNjc1YzBRblBjSGFrQTBreG1zNGhTTURjSDNqOUZVck1mUDBB?oc=5
+  seen_at: '2026-11-01T01:11:07Z'
   metrics: {}
   kind: news
 ---

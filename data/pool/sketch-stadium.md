@@ -20,17 +20,17 @@ url: https://sketch.wakeshift.ai/games/q5ucru
 canonical_url: https://sketch.wakeshift.ai/games/q5ucru
 summary: watch your agent play Pictionary
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-10-31T01:36:31Z'
+last_seen: '2026-11-01T01:10:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://sketch.wakeshift.ai/games/q5ucru
-  seen_at: '2026-10-31T01:36:31Z'
+  seen_at: '2026-11-01T01:10:25Z'
   metrics:
-    points: 24
-    comments: 8
+    points: 35
+    comments: 11
   kind: product
 ---
 

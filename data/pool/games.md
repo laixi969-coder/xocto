@@ -20,12 +20,13 @@ url: https://games.yanisfalaki.com/
 canonical_url: https://games.yanisfalaki.com
 summary: Two browser games set inside one real Gaussian-splat scan
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-28T01:23:01Z'
+last_seen: '2026-11-01T01:11:07Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
 - officialfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://games.yanisfalaki.com/
@@ -57,6 +58,11 @@ sightings:
 - source: officialfeeds
   url: https://www.meta.com/blog/halloween-2026-vr-games-meta-quest-five-nights-at-freddys-resident-evil-arizona-sunshine/
   seen_at: '2026-10-28T01:23:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZjFVWWkyUjQxaDh6d0xXbjl1cU56TVBLVWZUc2RSZzA4WkhIREtwOXdkbkJyem9fcWNzUW1VNGY4WmoyS2tXVXBjMVNpZkRDR2RMMVRpZUJXU2NtT2V3b2pCajlSOE9XeVdPRkVUQ2FuWVM5R1R4TXN5XzBRb2hsZUxjUHZVd3FIc243WFB6Q0hRVEJkTXlialN3QTBRSzVwNC1rdDBmRFFqQkctMy1fRllCYUJVSGVFQXdCS05RMXRXVWtheS1Bd2hyU1BzbW9yalFTT9IB1AFBVV95cUxQZjFVWWkyUjQxaDh6d0xXbjl1cU56TVBLVWZUc2RSZzA4WkhIREtwOXdkbkJyem9fcWNzUW1VNGY4WmoyS2tXVXBjMVNpZkRDR2RMMVRpZUJXU2NtT2V3b2pCajlSOE9XeVdPRkVUQ2FuWVM5R1R4TXN5XzBRb2hsZUxjUHZVd3FIc243WFB6Q0hRVEJkTXlialN3QTBRSzVwNC1rdDBmRFFqQkctMy1fRllCYUJVSGVFQXdCS05RMXRXVWtheS1Bd2hyU1BzbW9yalFTTw?oc=5
+  seen_at: '2026-11-01T01:11:07Z'
   metrics: {}
   kind: news
 ---

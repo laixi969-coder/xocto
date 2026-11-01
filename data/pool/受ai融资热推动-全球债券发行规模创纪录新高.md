@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU1pKXzkxS2RVRUg3NUlqU1
 canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU1pKXzkxS2RVRUg3NUlqU1J5NVpHdUVhdmFveHF5VzNyR1NDX2tYeHhaTzU2SUh1RGxfcVlaaFhLX3lyaFlWMmwxYWZualRZUEcyM1lIX3g1UkV4eFFLZ3Q3ajZpTmhaT2pzUjJTVmFXQURLOVR5aHJJQ2xPLU9iRlFiSlAwdU9WLW9GcTY2a2FBaHNrN1ZIXzEwVEN6WEpJMVZIelNqV1JfeFllSFJGRWJ5Y2NTT3JFZ3RZenIzaGczQUMyQlROM2NTc1RMN1hUQ3hud1g0eUNVMUpUZlE?oc=5
 summary: 受AI融资热推动 全球债券发行规模创纪录新高 新浪财经
 first_seen: '2026-10-30T01:59:15Z'
-last_seen: '2026-10-30T01:59:15Z'
+last_seen: '2026-11-01T01:11:07Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU1pKXzkxS2RVRUg3NUlqU1J5NVpHdUVhdmFveHF5VzNyR1NDX2tYeHhaTzU2SUh1RGxfcVlaaFhLX3lyaFlWMmwxYWZualRZUEcyM1lIX3g1UkV4eFFLZ3Q3ajZpTmhaT2pzUjJTVmFXQURLOVR5aHJJQ2xPLU9iRlFiSlAwdU9WLW9GcTY2a2FBaHNrN1ZIXzEwVEN6WEpJMVZIelNqV1JfeFllSFJGRWJ5Y2NTT3JFZ3RZenIzaGczQUMyQlROM2NTc1RMN1hUQ3hud1g0eUNVMUpUZlE?oc=5
   seen_at: '2026-10-30T01:59:15Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihwFBVV95cUxONjhkd05ucHZpTEJ5b1hOQjBVZm04MXJFdG9TeW9uQ0puaWgwWWVLLTMzblFLckd3WlM0NjVvcldaR1Q5TkVsRGU2ZXFobFN0TVhZczJvWGFUaGZkR0d5ZFZIV29nazhYdnJvdFdYMGxwVGFCeWlhZ1VEME5WbXUxcWdFNEVJeFk?oc=5
+  seen_at: '2026-11-01T01:11:07Z'
   metrics: {}
   kind: news
 ---

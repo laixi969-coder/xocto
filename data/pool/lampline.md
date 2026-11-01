@@ -21,16 +21,16 @@ canonical_url: https://github.com/C4rohan/Lampline
 summary: Build AI phone agents on your own computer and test every change with an AI caller. Open source,
   runs free with no API keys, cents per call with your own keys. Imports Dialogflow CX.
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/C4rohan/Lampline
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 548
+    stars: 531
     forks: 56
     open_issues: 6
   kind: product

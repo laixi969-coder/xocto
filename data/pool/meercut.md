@@ -21,16 +21,16 @@ canonical_url: https://github.com/CodeWithAmeer/MeerCut
 summary: 'Free, open-source video editor for Windows 11: multitrack editing, titles, transitions, effects,
   colour grading, audio mixing and local AI tools.'
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CodeWithAmeer/MeerCut
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 74
+    stars: 91
     forks: 0
     open_issues: 0
   kind: product

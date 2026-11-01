@@ -55,3 +55,21 @@
     \n\r\n\r\n目前远程服务只在中国大陆开放内测，想试的朋友可以在下面留个言，我在评论里发邀请码。本地使用不需要邀请码，和之前一样。后续移动端的支持会优先开发 ios 端，有兴趣的朋友可以关注下后续的帖子。\r\
     \n\r\nDemo: https://youtu.be/WCbhvvlJORI\r\n\r\n下载： https://runnersh.dev/downloads/\r\n\r\nRepo： https://github.com/yicheng47/runner\r\
     \n\r\n[远程访问设置说明]( https://runnersh.dev/docs/guides/remote-access/)"
+- id: ev-2307b87178c94a8b
+  project_slug: raw
+  url: https://www.v2ex.com/t/1253445
+  title: 'Runner 0.19.0 发布: 分屏采用 island 布局，提供 Linux 支持'
+  published_at: '2026-10-31T13:00:27Z'
+  collected_at: '2026-11-01T01:10:23Z'
+  source_kind: product
+  tier: independent
+  fact: "Recap 下[上次发帖（ 0.18 ）]( https://www.v2ex.com/t/1251677)之后的进展。0.19.0 主要调整了分屏和新建会话的 UI ，中间的 0.18.2\
+    \ 也加上了 Linux 支持，目前还是 beta 。\r\n\r\n第一次看到这个项目的朋友，Runner 是我做的一个管理 CLI agent 的开源桌面工具。可以在同一个 app 里面用 Claude\
+    \ Code 、Codex 等，也可以把不同的 agent 放进一个 crew 里一起做任务，通过 `runner` 命令互相发消息。\r\n\r\n### 1. 分屏里的每个 pane 都有自己的卡片\r\
+    \n\r\n现在每个 chat 和 terminal 都放在各自独立的卡片里，状态、停止和恢复按钮直接放在标题栏上，旁边是菜单、分屏和关闭按钮。会话停下来以后，中间会显示停止原因和 Resume\
+    \ 按钮，可以直接接着原来的对话继续。\r\n\r\n![新版分屏布局：Codex 、Claude Code 、Grok 和 pi 各自使用一个 pane]( https://raw.githubusercontent.com/yicheng47/runner/a23d578f1b6a07312df580f658de3a46f3f14248/assets/chat_split.png)\r\
+    \n\r\nMission 也做了同样的调整，内容区、成员侧栏和 terminal 抽屉分别放在独立的卡片里。浅色主题的配色也调整了一下，列表和侧栏的滚动条只在鼠标经过或者滚动的时候显示。\r\n\
+    \r\n另外去掉了 chat 下方的 terminal 抽屉，需要跑命令的话可以直接拆一个 pane ，或者开一个 terminal tab 。Mission 里的抽屉保留，还是用 Alt-F12\
+    \ 打开。旧 chat 抽屉里的 shell 会在升级时关闭。\r\n\r\n### 2. 新建 chat 和 terminal 用同一个启动器\r\n\r\n之前从不同地方新建会话，操作上有些不一致。这次把\
+    \ ⌘N 、侧栏、项目和空 pane 的入口统一了，都会在当前位置打开同一个启动器，可以搜索 agent 和 role ，也会显示最近用过的四个，按 1–4 就能直接启动，沿用保存的配置。Terminal\
+    \ 和 Mission 的入口也放在下面。\r\n\r\n![新的启动器：搜索 agent"

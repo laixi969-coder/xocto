@@ -33,17 +33,17 @@ url: https://github.com/Fangx-AI/geo-doctor
 canonical_url: https://github.com/Fangx-AI/geo-doctor
 summary: GEO 医生：一句话装进 AI 助手，查清豆包、DeepSeek、ChatGPT、Claude 为什么不推荐你，改资料、写内容、再复查。开源中英双语 GEO（生成式引擎优化）skill。
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Fangx-AI/geo-doctor
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 132
-    forks: 110
+    stars: 218
+    forks: 113
     open_issues: 6
   kind: product
 ---

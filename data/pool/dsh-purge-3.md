@@ -21,17 +21,17 @@ canonical_url: https://github.com/realMisakaMikoto/dsh-purge
 summary: 'dsh-purge 1.1.71 适配 DSH 0.2.0-rc.2 的可用副本：修复 #40 complete-prompt keep-inject、hostFs closeSync/readSync、redteam
   preset toolFilter'
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/realMisakaMikoto/dsh-purge
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 51
-    forks: 30
+    stars: 52
+    forks: 37
     open_issues: 0
   kind: product
 ---

@@ -22,17 +22,17 @@ summary: 'Watson — free OSINT tool for Windows: people search across 3,100+ pu
   email, phone or website. Open-source intelligence made simple: digital footprint check, username lookup,
   social media search. No account, no tracking. Site: watsonfind.icu'
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://watsonfind.icu
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 352
-    forks: 20
+    stars: 360
+    forks: 22
     open_issues: 1
   kind: product
 ---

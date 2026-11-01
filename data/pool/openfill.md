@@ -21,18 +21,18 @@ canonical_url: https://github.com/beckettharriman/openfill/releases
 summary: Generative Fill, Remove object, Generative Expand and Text to Image for PhotoCraft and GIMP 3.
   Free, local, on your own GPU through ComfyUI.
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-01T01:10:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/beckettharriman/openfill/releases
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-01T01:10:29Z'
   metrics:
-    stars: 185
+    stars: 195
     forks: 9
-    open_issues: 1
+    open_issues: 2
   kind: product
 ---
 
