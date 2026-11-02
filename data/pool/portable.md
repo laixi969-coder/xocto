@@ -20,7 +20,7 @@ url: https://covenant-common.github.io/covenant-docs/
 canonical_url: https://covenant-common.github.io/covenant-docs
 summary: signed agreements for AI agents
 first_seen: '2026-10-28T01:22:30Z'
-last_seen: '2026-10-28T01:22:30Z'
+last_seen: '2026-11-02T01:31:06Z'
 status: pending_filter
 sources:
 - hackernews
@@ -30,6 +30,13 @@ sightings:
   seen_at: '2026-10-28T01:22:30Z'
   metrics:
     points: 6
+    comments: 2
+  kind: product
+- source: hackernews
+  url: https://covenant-common.github.io/covenant-docs/docs/TERMINAL.html
+  seen_at: '2026-11-02T01:31:06Z'
+  metrics:
+    points: 11
     comments: 2
   kind: product
 ---

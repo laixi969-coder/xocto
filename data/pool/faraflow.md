@@ -20,16 +20,16 @@ url: https://faraflow.ai
 canonical_url: https://faraflow.ai
 summary: Visual builder and execution engine for AI powered organizations
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-10-28T01:22:33Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://faraflow.ai
-  seen_at: '2026-10-28T01:22:33Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 49
+    stars: 50
     forks: 0
     open_issues: 0
   kind: product

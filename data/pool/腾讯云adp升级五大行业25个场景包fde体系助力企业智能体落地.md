@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE02ajdXaWFLX2NKRGJablpXOH
 canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE02ajdXaWFLX2NKRGJablpXOHF3bjEwMm1IUFlBb2JndG9WSXpqMkRCRy0yajVOMzJMbXlKNVBGSUR3WUQwaDlYUUxQZnFocnVHXzg3SXJaTWwxaTZsVmc?oc=5
 summary: 腾讯云ADP升级：五大行业、25个场景包，FDE体系助力企业智能体落地 CSDN
 first_seen: '2026-11-01T01:11:07Z'
-last_seen: '2026-11-01T01:11:07Z'
+last_seen: '2026-11-02T01:31:58Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE02ajdXaWFLX2NKRGJablpXOHF3bjEwMm1IUFlBb2JndG9WSXpqMkRCRy0yajVOMzJMbXlKNVBGSUR3WUQwaDlYUUxQZnFocnVHXzg3SXJaTWwxaTZsVmc?oc=5
   seen_at: '2026-11-01T01:11:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1jelo0ci1qU3gwOXdTb2gzS2habGlSdTBZMHZ4djkxRjZQakNBMGlPVHdvR3pldlZZdXFpdzliTmdoUXpVQVFKUlNIbl96X1BPQ2RrWWg3S3M?oc=5
+  seen_at: '2026-11-02T01:31:58Z'
   metrics: {}
   kind: news
 ---

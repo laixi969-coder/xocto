@@ -20,12 +20,13 @@ url: https://wave.subworkflow.ai/
 canonical_url: https://wave.subworkflow.ai
 summary: Layered gradient wave backgrounds using Three.js and shaders
 first_seen: '2026-09-25T12:34:56Z'
-last_seen: '2026-10-29T01:48:59Z'
+last_seen: '2026-11-02T01:31:58Z'
 status: pending_filter
 sources:
 - hackernews
 - officialfeeds
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://wave.subworkflow.ai/
@@ -52,6 +53,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/
   seen_at: '2026-10-29T01:48:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOdklWRTkzLS02dlZmbnh1NlJrUUxRZm9xbmFHYzVmTWlaNkNpOW5ueHFVNkpKRzVaS0U3ck91NGd5aUkwdVRQejhOM0RyUGRsV3FzeGhVVC1QOVRmQ2R0WEY0b3N5dHZNMVlEUGxaS3BIMFFvWGJRa0swVFN3enZnbHFEeTBrZ0w0d3MwQUNDbmo?oc=5
+  seen_at: '2026-11-02T01:31:58Z'
   metrics: {}
   kind: news
 ---

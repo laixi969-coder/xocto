@@ -22,16 +22,16 @@ summary: Next-Gen Multi-Agent Swarm Orchestration Engine. Coordinate 50+ LLM nod
   DeepSeek-V4) in a high-speed mesh network.  "Redefining enterprise AI infrastructure. The operating
   system for collective machine intelligence in the AGI era."
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/unitshaperextol/Legion-os
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 75
+    stars: 48
     forks: 0
     open_issues: 0
   kind: product

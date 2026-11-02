@@ -1,7 +1,7 @@
 ---
 slug: ai-delivers-zero-financial-payoff-to-most-companies-apollo-e
 name: AI delivers ‘zero financial payoff’ to most companies, Apollo economist says
-builder: ''
+builder: throwoutway
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -21,15 +21,23 @@ canonical_url: https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payo
 summary: '"Despite massive investments and widespread hype around artificial intelligence, the technology
   has delivered zero financial payoff to corporate America outside of tech."'
 first_seen: '2026-10-26T00:24:46Z'
-last_seen: '2026-10-26T00:24:46Z'
+last_seen: '2026-11-02T01:31:06Z'
 status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
   seen_at: '2026-10-26T00:24:46Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
+  seen_at: '2026-11-02T01:31:06Z'
+  metrics:
+    points: 153
+    comments: 127
   kind: news
 ---
 

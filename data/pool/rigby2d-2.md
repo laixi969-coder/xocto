@@ -22,18 +22,18 @@ summary: 'Open-source 2D skeletal animation editor for games and film. AutoRig l
   meshes, IK and physics, lip-sync from audio, render video, export JSON/.skel. JavaScript, Rust, Godot
   and Unity runtimes. Built-in MCP server for AI assistants. Docs: rigby2d.com/docs'
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://rigby2d.com
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 99
+    stars: 109
     forks: 12
-    open_issues: 2
+    open_issues: 3
   kind: product
 ---
 

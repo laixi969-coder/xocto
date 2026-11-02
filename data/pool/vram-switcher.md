@@ -21,16 +21,16 @@ canonical_url: https://github.com/xiaoxiao150/vram-switcher
 summary: 'GPU coordination for local AI companions on AstrBot / DeepSeek Harness: persona LLM, IndexTTS
   voice and ComfyUI selfies take turns on one 12 GB card. No proxy.'
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xiaoxiao150/vram-switcher#readme
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 60
+    stars: 64
     forks: 0
     open_issues: 1
   kind: product

@@ -20,17 +20,17 @@ url: https://hellojomp.com/
 canonical_url: https://hellojomp.com
 summary: Quit everything to make one website
 first_seen: '2026-11-01T01:10:25Z'
-last_seen: '2026-11-01T01:10:25Z'
+last_seen: '2026-11-02T01:31:06Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hellojomp.com/
-  seen_at: '2026-11-01T01:10:25Z'
+  seen_at: '2026-11-02T01:31:06Z'
   metrics:
-    points: 9
-    comments: 0
+    points: 19
+    comments: 3
   kind: product
 ---
 

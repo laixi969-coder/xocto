@@ -20,18 +20,18 @@ url: https://github.com/robot-agent-exploration/rax
 canonical_url: https://github.com/robot-agent-exploration/rax
 summary: 'RAX harness: coding agents that learn robot tasks by online exploration'
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/robot-agent-exploration/rax
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 281
+    stars: 285
     forks: 22
-    open_issues: 2
+    open_issues: 3
   kind: product
 ---
 

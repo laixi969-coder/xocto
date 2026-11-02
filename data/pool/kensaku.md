@@ -21,18 +21,18 @@ canonical_url: https://github.com/yjid/kensaku
 summary: Search inside documents, code, and even screenshots - instantly and locally. A free, open-source
   file launcher with OCR, semantic search, and MCP agent access.
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yjid/kensaku
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 361
-    forks: 25
-    open_issues: 11
+    stars: 483
+    forks: 34
+    open_issues: 13
   kind: product
 ---
 

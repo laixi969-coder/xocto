@@ -32,16 +32,16 @@ summary: "最近把之前关于压缩的各种折腾整理成了一篇长文，�
   \ 玩法，有没有其他格式可以继续挑战？\r\n4. AI 生成这种复杂但能跑的代码，你觉得是解放生产力，还是让人越来越看不懂基础设施？\r\n\r\n欢迎拍砖、补充算法和格式，也欢迎试试文中的 zstd/ZIP\
   \ 生成器～"
 first_seen: '2026-11-01T01:10:23Z'
-last_seen: '2026-11-01T01:10:23Z'
+last_seen: '2026-11-02T01:31:04Z'
 status: pending_filter
 sources:
 - v2ex
 sightings:
 - source: v2ex
   url: https://mabbs.github.io/2026/11/01/compress.html
-  seen_at: '2026-11-01T01:10:23Z'
+  seen_at: '2026-11-02T01:31:04Z'
   metrics:
-    comments: 4
+    comments: 10
   kind: product
 ---
 

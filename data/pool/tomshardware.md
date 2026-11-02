@@ -20,7 +20,7 @@ url: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for
 canonical_url: https://tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg
 summary: US Customs supervisor busted for stealing hardware from Homeland Security PCs
 first_seen: '2026-09-13T13:24:28Z'
-last_seen: '2026-11-01T01:10:25Z'
+last_seen: '2026-11-02T01:31:06Z'
 status: pending_filter
 sources:
 - hackernews
@@ -80,6 +80,13 @@ sightings:
   metrics:
     points: 62
     comments: 38
+  kind: news
+- source: hackernews
+  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy
+  seen_at: '2026-11-02T01:31:06Z'
+  metrics:
+    points: 149
+    comments: 72
   kind: news
 ---
 

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHZGbWpJalI4Vnk2ZUN6V2
 canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHZGbWpJalI4Vnk2ZUN6V2kxVDFuTnlaYjBqLWtUdnNJWTdtR01peXBpOXJRZjJEdlQ4dS0wenYzM3Y1UHRvUE1IWTl3eHlNcERjSGpwUGEwakNlUHlDUXI4UVFKR3F0U0lGS1I3ZzRNS2J1RkMzWnVCTnpCRmc4b3BFbG16U0dITkJpa0lNYURlVHN2eWJLS2ZnS3VDeE1Bc3ExaGNDUlFJS1U?oc=5
 summary: AXA Wins Eight Accolades at The Hong Kong Insurance Awards 2026 The Malaysian Reserve
 first_seen: '2026-10-31T01:37:06Z'
-last_seen: '2026-11-01T01:11:07Z'
+last_seen: '2026-11-02T01:31:58Z'
 status: pending_filter
 sources:
 - newssearch
@@ -33,6 +33,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE56RnVxYXJIQ3dJdWgzSmJuS1B6UGZGdVZCX1k4dEJkSC02UHVmYnY2aFpnZkpFUGhwRjNTb2hBTjU5cWtqaFJRS0pIeDRIWVNqQS1yM0llWko?oc=5
   seen_at: '2026-11-01T01:11:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yY0RJamVNbEhBR3JaQ2NadUtTdUVwRnlmcFRNNjF0R054bDRJeGxCTXFmam5xYXpodEpBSUlLb2JJRF9vdEFRMS14c0luek12eVhzMzNRcGx3LWoz?oc=5
+  seen_at: '2026-11-02T01:31:58Z'
   metrics: {}
   kind: news
 ---

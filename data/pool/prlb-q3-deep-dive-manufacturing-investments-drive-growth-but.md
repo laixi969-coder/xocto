@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRlVzM2J2blhx
 summary: 'PRLB Q3 deep dive: manufacturing investments drive growth, but margins and outlook raise questions
   StockStory'
 first_seen: '2026-11-01T01:11:07Z'
-last_seen: '2026-11-01T01:11:07Z'
+last_seen: '2026-11-02T01:31:58Z'
 status: pending_filter
 sources:
 - newssearch
@@ -29,6 +29,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRlVzM2J2blhxUzZ4d1NBOHBzaEVzUDlPU3ZnMGVkdzEzaVQwS0MtMGJ2VzZmbzhYTy1PZzRzVHh5bVdtZkZXdmxrYmYzRzh6SFdUSUhCWE0yMGxMV0RjNTRYX0NkNllYcF95R0dDNUFGUnUtX1Jzc05KNUNmem1Gc182dnJ0SjJOTDdCeTV5Q0pDRFdQcko2U1RtRWEzTTZyWmpmYkU5LWVFYmdqWjhxaFZmT3BtZ2N4a1EyWEMxd0ozZkFzMzlfaGhHbmNWOXpOc3g1NDZ2NFE4ekdaVGhwUzhUSG9WazJZN0pUclZqdw?oc=5
   seen_at: '2026-11-01T01:11:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVWdFdVRhdnVZZlI3bm5LdWgxZG1sZGg2WkdVZzdtQXFyQjJURUFHVWxQT2hveHdkZ2ltNW5fSE5YTkxOMmxncWJQYXRrWjFVb0d3enhCeFRJZXV3VUJRQ0F2RDd6TDlONDZqNm1iNXBnZHY5R1RVaTFOYm90aWRTZjZUb191SGFlakVYcjlGNTlCdlZ5X3l3R3REQ1daVWo0eVZQREd3VTYzWTk3eXVrbjZ4Y2dINmFPTklpMGxNR3hjVDVwTUdQZHpKUDI0Y0dfZHNWemlrQWQ4TVJ4NXEzSG01NzdmUkF4NjV1WUFB?oc=5
+  seen_at: '2026-11-02T01:31:58Z'
   metrics: {}
   kind: news
 ---

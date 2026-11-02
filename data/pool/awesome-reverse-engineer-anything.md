@@ -21,18 +21,18 @@ canonical_url: https://github.com/AIshihzong/awesome-reverse-engineer-anything/b
 summary: 'Awesome list of AI reverse engineering and rebuilds: what AI agents took apart and recreated,
   and which ones really used REA (Reverse Engineer Anything).'
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AIshihzong/awesome-reverse-engineer-anything/blob/main/docs/by-app.md
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 335
-    forks: 102
-    open_issues: 1
+    stars: 367
+    forks: 108
+    open_issues: 3
   kind: product
 ---
 

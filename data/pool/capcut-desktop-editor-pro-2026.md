@@ -21,17 +21,17 @@ canonical_url: https://github.com/jasminemitchell23/CapCut-Desktop-Editor-Pro-20
 summary: CapCut Desktop Pro 2026 full video editor for Windows. Create stunning short-form and long-form
   videos with AI captions, effects, keyframes, transitions and 4K export tools.
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jasminemitchell23/CapCut-Desktop-Editor-Pro-2026
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 52
-    forks: 10
+    stars: 41
+    forks: 8
     open_issues: 0
   kind: product
 ---

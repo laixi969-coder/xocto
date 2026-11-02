@@ -20,16 +20,16 @@ url: https://fatsearch.com
 canonical_url: https://fatsearch.com
 summary: Search and read the web for AI agents at 99% fewer tokens. Free CLI + MCP.
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-10-27T01:29:50Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://fatsearch.com
-  seen_at: '2026-10-27T01:29:50Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 50
+    stars: 51
     forks: 1
     open_issues: 0
   kind: product

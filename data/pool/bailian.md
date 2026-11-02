@@ -70,16 +70,16 @@ summary: "最近把自己的 AI Coding Agent 记忆底座迁移到了自建的 O
   \ + 大上下文（ 128K ）直接锁死，避免以后二次重建；而 VLM 和 Rerank 这种纯推理节点，谁快谁便宜就换谁。\r\n3. **专用小模型在垂直场景吊打通用大模型**：意图分析这种讲究“分类、提取、严格\
   \ JSON 格式、极速”的任务，微调过的对话分析小模型比动不动就写小作文、开思考链的通用大模型好用太多倍。"
 first_seen: '2026-11-01T01:10:23Z'
-last_seen: '2026-11-01T01:10:23Z'
+last_seen: '2026-11-02T01:31:04Z'
 status: pending_filter
 sources:
 - v2ex
 sightings:
 - source: v2ex
   url: https://bailian.console.aliyun.com/cn-beijing/model/market/detail/tongyi-xiaomi-analysis-flash?serviceSite=asia-pacific-china&ref=list
-  seen_at: '2026-11-01T01:10:23Z'
+  seen_at: '2026-11-02T01:31:04Z'
   metrics:
-    comments: 4
+    comments: 14
   kind: product
 ---
 

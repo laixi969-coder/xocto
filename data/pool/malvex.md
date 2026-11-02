@@ -20,17 +20,17 @@ url: https://github.com/JoasASantos/Malvex
 canonical_url: https://github.com/JoasASantos/Malvex
 summary: AI-driven malware analysis framework with 30+ integrated tools, web REPL, and MCP server
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JoasASantos/Malvex
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 54
-    forks: 7
+    stars: 57
+    forks: 8
     open_issues: 0
   kind: product
 ---

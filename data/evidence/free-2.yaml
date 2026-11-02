@@ -286,3 +286,12 @@
   source_kind: market_signal
   tier: first_party
   fact: CVE-2026-98432 / CVSS 9.8
+- id: ev-a7bc9be9bf07a03e
+  project_slug: free-2
+  url: https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf
+  title: TCP Use-After-Free
+  published_at: '2026-10-31T19:16:30Z'
+  collected_at: '2026-11-02T01:31:06Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: CVE-2026-98432 / CVSS 9.8

@@ -20,17 +20,17 @@ url: https://dl.acm.org/doi/full/10.1145/3706598.3713778
 canonical_url: https://dl.acm.org/doi/full/10.1145/3706598.3713778
 summary: 'The Impact of Generative AI on Critical Thinking: Self-Reported (2025)'
 first_seen: '2026-11-01T01:10:25Z'
-last_seen: '2026-11-01T01:10:25Z'
+last_seen: '2026-11-02T01:31:06Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://dl.acm.org/doi/full/10.1145/3706598.3713778
-  seen_at: '2026-11-01T01:10:25Z'
+  seen_at: '2026-11-02T01:31:06Z'
   metrics:
-    points: 73
-    comments: 49
+    points: 79
+    comments: 54
   kind: news
 ---
 

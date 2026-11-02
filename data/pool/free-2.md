@@ -20,7 +20,7 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-11-01T01:10:25Z'
+last_seen: '2026-11-02T01:31:06Z'
 status: pending_filter
 sources:
 - hackernews
@@ -184,10 +184,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf
-  seen_at: '2026-11-01T01:10:25Z'
+  seen_at: '2026-11-02T01:31:06Z'
   metrics:
-    points: 322
-    comments: 154
+    points: 703
+    comments: 325
   kind: news
 ---
 

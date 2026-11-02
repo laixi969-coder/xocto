@@ -23,18 +23,18 @@ summary: 'One open-source modeler for structures, heat and fluids, built from sc
   FEA, heat transfer and lattice Boltzmann CFD — every result checked against theory. For engineers and
   AI agents alike. Free, forever.'
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://tangency-labs.github.io/fieldcraft/
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 259
-    forks: 32
-    open_issues: 76
+    stars: 270
+    forks: 33
+    open_issues: 72
   kind: product
 ---
 

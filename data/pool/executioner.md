@@ -21,16 +21,16 @@ canonical_url: https://github.com/dbx0/executioner/releases/latest
 summary: The agentic pentesting environment that lives on your machine. AI agent teams, visual workflows
   and your own tools, 100% local.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dbx0/executioner/releases/latest
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 108
+    stars: 110
     forks: 25
     open_issues: 0
   kind: product

@@ -21,17 +21,17 @@ canonical_url: https://github.com/MiniMax-AI/mcode-stack
 summary: The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install
   and use.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MiniMax-AI/mcode-stack
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 484
-    forks: 36
+    stars: 495
+    forks: 39
     open_issues: 1
   kind: product
 ---

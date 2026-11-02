@@ -1,0 +1,12 @@
+- id: ev-8614c3daa3ff425b
+  project_slug: dsh-confirm-gate
+  url: https://github.com/SteelUnion/dsh-confirm-gate#readme
+  title: dsh-confirm-gate
+  published_at: '2026-10-17T07:14:39Z'
+  collected_at: '2026-11-02T01:31:13Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DeepSeek Harness gate - per-turn persistent-operation counter: remind, instruct the model to
+    stop, then ask for confirmation. Steps aside under sandbox/read-only modes; follows a live permission
+    switch without restart. Verified on real hardware (full -> workspace-write -> read-only -> full).
+    Crafted on an estimated 0.27 USD of model spend. | repository stars: 47'

@@ -20,17 +20,17 @@ url: https://www.jointter.com/
 canonical_url: https://jointter.com
 summary: A daily word puzzle using dots and lines
 first_seen: '2026-11-01T01:10:25Z'
-last_seen: '2026-11-01T01:10:25Z'
+last_seen: '2026-11-02T01:31:06Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.jointter.com/
-  seen_at: '2026-11-01T01:10:25Z'
+  seen_at: '2026-11-02T01:31:06Z'
   metrics:
-    points: 12
-    comments: 19
+    points: 14
+    comments: 27
   kind: product
 ---
 

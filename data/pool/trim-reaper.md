@@ -22,16 +22,16 @@ summary: 'Dependency reduction for AI coding agents: point Claude Code, Codex or
   and remove unnecessary libraries while preserving behavior and security. 8 reduction prompts, a library
   policy, MIT.'
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jmanico/trim-reaper
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 48
+    stars: 50
     forks: 3
     open_issues: 0
   kind: product

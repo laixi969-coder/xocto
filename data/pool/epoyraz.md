@@ -20,17 +20,17 @@ url: https://epoyraz.github.io/nes-contra-us/
 canonical_url: https://epoyraz.github.io/nes-contra-us
 summary: NES Contra (1987) port (ASM –> C and then C –> WebAssembly)
 first_seen: '2026-11-01T01:10:25Z'
-last_seen: '2026-11-01T01:10:25Z'
+last_seen: '2026-11-02T01:31:06Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://epoyraz.github.io/nes-contra-us/
-  seen_at: '2026-11-01T01:10:25Z'
+  seen_at: '2026-11-02T01:31:06Z'
   metrics:
-    points: 44
-    comments: 28
+    points: 89
+    comments: 81
   kind: product
 ---
 

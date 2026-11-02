@@ -20,17 +20,17 @@ url: https://github.com/t3dotgg/tstack
 canonical_url: https://github.com/t3dotgg/tstack
 summary: The agent skills I use every day. Works with Claude Code and Codex.
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/t3dotgg/tstack
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 2536
-    forks: 161
+    stars: 2589
+    forks: 169
     open_issues: 12
   kind: product
 ---

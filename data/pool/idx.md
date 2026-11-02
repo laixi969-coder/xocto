@@ -38,16 +38,16 @@ canonical_url: https://ihsg.midoriresearch.com
 summary: 'Analyze the Indonesian stock market (IDX/IHSG) from web terminal, CLI, or any AI agents via
   MCP server. IHSG Prices, Fundamentals, and Screening. Free and No API keys required. Changelog: https://github.com/fzn0x/idx/blob/main/CHANGELOG.md'
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-02T01:31:13Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://ihsg.midoriresearch.com
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-02T01:31:13Z'
   metrics:
-    stars: 204
+    stars: 205
     forks: 18
     open_issues: 0
   kind: product
