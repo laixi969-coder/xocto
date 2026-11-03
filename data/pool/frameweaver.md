@@ -33,17 +33,17 @@ canonical_url: https://github.com/phucnguyentvp1/frameweaver
 summary: Local video workspace for AI scene generation, timeline editing, speech analysis, narration,
   subtitles, audio mixing, and media management.
 first_seen: '2026-10-19T00:13:37Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/phucnguyentvp1/frameweaver
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
     stars: 112
-    forks: 70
+    forks: 71
     open_issues: 1
   kind: product
 ---

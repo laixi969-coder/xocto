@@ -20,18 +20,18 @@ url: https://github.com/kukemc/bili-cli
 canonical_url: https://github.com/kukemc/bili-cli
 summary: 为 AI Agent 设计的哔哩哔哩命令行工具：扫码登录、看视频、评论、私信、发动态、投稿，全部 JSON 输出
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kukemc/bili-cli
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 336
-    forks: 23
-    open_issues: 6
+    stars: 343
+    forks: 24
+    open_issues: 7
   kind: product
 ---
 

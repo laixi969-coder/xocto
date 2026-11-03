@@ -20,18 +20,18 @@ url: https://reveric.app/
 canonical_url: https://reveric.app
 summary: Agent Native 一站式 AI 小说，短剧桌面创作工作台
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://reveric.app/
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 512
-    forks: 114
-    open_issues: 3
+    stars: 560
+    forks: 136
+    open_issues: 1
   kind: product
 ---
 

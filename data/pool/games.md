@@ -20,7 +20,7 @@ url: https://games.yanisfalaki.com/
 canonical_url: https://games.yanisfalaki.com
 summary: Two browser games set inside one real Gaussian-splat scan
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-11-01T01:11:07Z'
+last_seen: '2026-11-03T03:29:26Z'
 status: pending_filter
 sources:
 - hackernews
@@ -63,6 +63,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZjFVWWkyUjQxaDh6d0xXbjl1cU56TVBLVWZUc2RSZzA4WkhIREtwOXdkbkJyem9fcWNzUW1VNGY4WmoyS2tXVXBjMVNpZkRDR2RMMVRpZUJXU2NtT2V3b2pCajlSOE9XeVdPRkVUQ2FuWVM5R1R4TXN5XzBRb2hsZUxjUHZVd3FIc243WFB6Q0hRVEJkTXlialN3QTBRSzVwNC1rdDBmRFFqQkctMy1fRllCYUJVSGVFQXdCS05RMXRXVWtheS1Bd2hyU1BzbW9yalFTT9IB1AFBVV95cUxQZjFVWWkyUjQxaDh6d0xXbjl1cU56TVBLVWZUc2RSZzA4WkhIREtwOXdkbkJyem9fcWNzUW1VNGY4WmoyS2tXVXBjMVNpZkRDR2RMMVRpZUJXU2NtT2V3b2pCajlSOE9XeVdPRkVUQ2FuWVM5R1R4TXN5XzBRb2hsZUxjUHZVd3FIc243WFB6Q0hRVEJkTXlialN3QTBRSzVwNC1rdDBmRFFqQkctMy1fRllCYUJVSGVFQXdCS05RMXRXVWtheS1Bd2hyU1BzbW9yalFTTw?oc=5
   seen_at: '2026-11-01T01:11:07Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://www.meta.com/blog/meta-lionsgate-bring-hunger-games-sunrise-on-the-reaping-theaters-meta-vr-glasses-3d/
+  seen_at: '2026-11-03T03:29:26Z'
   metrics: {}
   kind: news
 ---

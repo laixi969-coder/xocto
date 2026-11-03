@@ -20,7 +20,7 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-11-02T01:31:06Z'
+last_seen: '2026-11-03T03:28:53Z'
 status: pending_filter
 sources:
 - hackernews
@@ -124,10 +124,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://blog.raed.dev/posts/proton-loser-thinking/
-  seen_at: '2026-11-02T01:31:06Z'
+  seen_at: '2026-11-03T03:28:53Z'
   metrics:
-    points: 141
-    comments: 81
+    points: 165
+    comments: 99
   kind: news
 - source: hackernews
   url: https://blog.keyvan.net/p/ai-text-watermarking-and-quality

@@ -53,7 +53,7 @@ summary: "前几天，我在一个平台发了条动态，预告自己在做的�
   \n\r\n没人看是常态，不是判决。我先写一批只有我能写的东西，再写更多我想写的东西，然后看它值不值得活下去。\r\n\r\nAI 可以读它、引用它、忽略它。但源头在这里。\r\n\r\n至于这是不是\
   \ 49 年入国军——我现在不知道。我只是觉得，与其等一个确定的答案，不如先把自己的那一份留下来。\r\n\r\n---\r\n\r\n*本文首发并持续更新于 [yishuai.wang]( https://yishuai.wang)。*"
 first_seen: '2026-10-31T01:36:29Z'
-last_seen: '2026-10-31T01:36:29Z'
+last_seen: '2026-11-03T03:28:51Z'
 status: pending_filter
 sources:
 - v2ex
@@ -63,6 +63,12 @@ sightings:
   seen_at: '2026-10-31T01:36:29Z'
   metrics:
     comments: 3
+  kind: product
+- source: v2ex
+  url: https://cdn.jsdelivr.net/gh/kingshuaishuai/ys-imgs@main/quirepub/1265bad3a98395d90da5fe409b0dd439.gif
+  seen_at: '2026-11-03T03:28:51Z'
+  metrics:
+    comments: 6
   kind: product
 ---
 

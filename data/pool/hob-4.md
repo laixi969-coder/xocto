@@ -22,16 +22,16 @@ summary: An easier way to use AI on your own computer. A free, open-source alter
   that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and
   works offline.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://hob.chat
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 428
+    stars: 454
     forks: 38
     open_issues: 2
   kind: product

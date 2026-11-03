@@ -1,0 +1,18 @@
+- id: ev-4c352abf20530353
+  project_slug: github-20
+  url: https://www.v2ex.com/t/1253950
+  title: 我把自己的 Agent 从 Wails 迁到了 MyGo 原生 GUI，全程踩坑和实践分享
+  published_at: '2026-11-02T13:57:17Z'
+  collected_at: '2026-11-03T03:28:51Z'
+  source_kind: product
+  tier: independent
+  fact: "最近把自己写的工作 agent [Ally agent]( https://github.com/Bronya0/ally-agent) 的界面重写了一遍，起因是无意中看到有人推荐 MyGo\
+    \ ，加上我对内存和性能一直有点追求，多年来一直在用 wails ，想换个试试，就想拿自己的项目试点，没想到结果意外的不错。\r\n\r\n旧版本的技术栈是典型的 Go + Wails + Vue\
+    \ （**wails 我用了很多年 最近终于 V3 发正式版了 等了四年，可惜我也老了**），界面用 Naive UI ，样式美观，效果也相当不错。但做久了有几个地方比较麻烦（ tarui 应该也是一样）：\r\
+    \n\r\n跨平台界面的细节不一致，构建链比较长，还有前端内存出了问题以后，我这个写后端的人不太容易排查。\r\n\r\n折腾了一段时间，现在主要页面已经迁到 [MyGo]( https://github.com/egoist/mygo)\
+    \ 了，记录一下过程中比较有感触的地方。\r\n\r\n先说一下技术路线：Wails 的界面通过系统 WebView 展示网页； MyGo 既支持这种方式，也支持用 Go 写 Native UI\
+    \ ，由框架自己绘制。WebView 也有自己的优势，MyGo 两种都支持，相当于有个兜底，下面会说。\r\n\r\nAlly 现在的聊天、设置等常用页面用 Native UI ，插件页面和部分预览仍然按需使用\
+    \ WebView 。\r\n\r\n## 一、UI 跨平台一致性\r\n\r\n这是我这次迁移最重视的一点。\r\n\r\n之前用 Wails 做界面，Windows 上调好的页面，到了 macOS\
+    \ 上经常还要再看一遍。字体、行高、滚动条、输入框这些地方，偶尔就会有一点不一样。\r\n\r\n比如我画的表格，不知道为啥线条在 macOS 上看着发虚，Windows 上就正常。单看问题都不大，但调整完一个平台还得顾着另一个平台，挺烦的。\r\
+    \n\r\nWails 使用系统 WebView ，Windows 和 macOS 背后的浏览器引擎不一样，前端样式最终要经过各自的渲染实现。\r\n\r\nMyGo 的 Native UI 由框架自己负责布局和绘制。迁移后，我在\
+    \ Windows 上调好的主体界面，拿到 macOS 上看到的效果接近得多，需要针对平台单独修的地方也少了。\r\n\r\n当然，自绘也不等于所有像素都完全一致。MyGo 的文字排版仍然使用[各"

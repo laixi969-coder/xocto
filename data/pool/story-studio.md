@@ -20,17 +20,17 @@ url: https://github.com/konlu/story-studio
 canonical_url: https://github.com/konlu/story-studio
 summary: 从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/konlu/story-studio
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 633
-    forks: 138
+    stars: 689
+    forks: 145
     open_issues: 0
   kind: product
 ---

@@ -1,0 +1,41 @@
+---
+slug: ai烧钱叙事遇冷openai融资目标砍掉100亿
+name: AI“烧钱叙事”遇冷？OpenAI融资目标砍掉100亿
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5AJBVV95cUxNMnAzRUhuWFM2V1hrWGVGbHhlYTBiZDRZLU9WMjZqWU9hbmJfM0loVUxCYmJTWnphYmZ0c1BpX0lyc05NSURaRV9DVzZ1MWlYNzRmU3B0eTFBanMwUWJ0ZnRhbGJmNmxvNUJpZU0wT0ptbUFzem1pWU1KMVBMM2ZYajVNRGRHVkpPSGNlaG9JTXppbVNoamxwMnVtR2JxZU1DcG53LWhPTkh2NjJEVkwtOVVRMndBRW82dTRZWVplUVRPWFk3YTNuRkZFMWJHQU00NnJSek1yUGNpY0tTV1ZTQU9GU2FFbnd0YlE3RFA3ZHQwaHdLbUVrMGdtVkNEMVdtUE1ZYmk2LTh3TGhWRjNDTmlvSjZDNTFLbnhzd1NNQlpNbVZtNDJhZkMzbkxXclBxRWRFYUdVaDEwX1BtcThmQ2NVaEtJZVNPNUJJNzFuOWNOZnJrT0c3WXQza1VVd2NCX1pBTA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5AJBVV95cUxNMnAzRUhuWFM2V1hrWGVGbHhlYTBiZDRZLU9WMjZqWU9hbmJfM0loVUxCYmJTWnphYmZ0c1BpX0lyc05NSURaRV9DVzZ1MWlYNzRmU3B0eTFBanMwUWJ0ZnRhbGJmNmxvNUJpZU0wT0ptbUFzem1pWU1KMVBMM2ZYajVNRGRHVkpPSGNlaG9JTXppbVNoamxwMnVtR2JxZU1DcG53LWhPTkh2NjJEVkwtOVVRMndBRW82dTRZWVplUVRPWFk3YTNuRkZFMWJHQU00NnJSek1yUGNpY0tTV1ZTQU9GU2FFbnd0YlE3RFA3ZHQwaHdLbUVrMGdtVkNEMVdtUE1ZYmk2LTh3TGhWRjNDTmlvSjZDNTFLbnhzd1NNQlpNbVZtNDJhZkMzbkxXclBxRWRFYUdVaDEwX1BtcThmQ2NVaEtJZVNPNUJJNzFuOWNOZnJrT0c3WXQza1VVd2NCX1pBTA?oc=5
+summary: AI“烧钱叙事”遇冷？OpenAI融资目标砍掉100亿 手机新浪网
+first_seen: '2026-11-03T03:29:33Z'
+last_seen: '2026-11-03T03:29:33Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5AJBVV95cUxNMnAzRUhuWFM2V1hrWGVGbHhlYTBiZDRZLU9WMjZqWU9hbmJfM0loVUxCYmJTWnphYmZ0c1BpX0lyc05NSURaRV9DVzZ1MWlYNzRmU3B0eTFBanMwUWJ0ZnRhbGJmNmxvNUJpZU0wT0ptbUFzem1pWU1KMVBMM2ZYajVNRGRHVkpPSGNlaG9JTXppbVNoamxwMnVtR2JxZU1DcG53LWhPTkh2NjJEVkwtOVVRMndBRW82dTRZWVplUVRPWFk3YTNuRkZFMWJHQU00NnJSek1yUGNpY0tTV1ZTQU9GU2FFbnd0YlE3RFA3ZHQwaHdLbUVrMGdtVkNEMVdtUE1ZYmk2LTh3TGhWRjNDTmlvSjZDNTFLbnhzd1NNQlpNbVZtNDJhZkMzbkxXclBxRWRFYUdVaDEwX1BtcThmQ2NVaEtJZVNPNUJJNzFuOWNOZnJrT0c3WXQza1VVd2NCX1pBTA?oc=5
+  seen_at: '2026-11-03T03:29:33Z'
+  metrics: {}
+  kind: news
+---
+
+# AI“烧钱叙事”遇冷？OpenAI融资目标砍掉100亿
+
+AI“烧钱叙事”遇冷？OpenAI融资目标砍掉100亿 手机新浪网
+
+## 笔记
+
+

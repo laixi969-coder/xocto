@@ -21,18 +21,18 @@ canonical_url: https://github.com/udhaykumarbala/cleanyourtv-app
 summary: 'A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop,
   no coding agent, nothing uninstalled.'
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/udhaykumarbala/cleanyourtv-app
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 1369
-    forks: 118
-    open_issues: 3755
+    stars: 1471
+    forks: 127
+    open_issues: 4319
   kind: product
 ---
 

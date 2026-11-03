@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Sa0pUaHVCTk8takZaS24tTF
 canonical_url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Sa0pUaHVCTk8takZaS24tTFdIRWpvakl2V3pYYTBfNUlEV0twbWJrYS1fal9FOGVObmV3UVBoakV6RExDN0NUMXJQWk5JLWdUUkp0UWUtbFNPM3ZuQ3FB?oc=5
 summary: 华西医院联手华为，让医疗AI跨过“单点应用”难关 科技行者
 first_seen: '2026-11-02T01:31:58Z'
-last_seen: '2026-11-02T01:31:58Z'
+last_seen: '2026-11-03T03:29:33Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Sa0pUaHVCTk8takZaS24tTFdIRWpvakl2V3pYYTBfNUlEV0twbWJrYS1fal9FOGVObmV3UVBoakV6RExDN0NUMXJQWk5JLWdUUkp0UWUtbFNPM3ZuQ3FB?oc=5
   seen_at: '2026-11-02T01:31:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9iTXpQcHZJMXFQUHV0U1BUYnA1Z0YwMlQ4UXVTWFIxVWdQdjFlUjdVd2JJYlRwTEVWeWlKNmdtVmNYS0t4MU02dll4Y0t4MjRfWXJZZk9CTjRnYUxidTRIcDM0cXNRQXBjR3dZSTY4R2ZRRjU0NW5QZXVVdnpacFk?oc=5
+  seen_at: '2026-11-03T03:29:33Z'
   metrics: {}
   kind: news
 ---

@@ -20,8 +20,8 @@ url: https://www.cnbc.com/2026/10/10/ai-lawyers-billable-hour-legal-careers.html
 canonical_url: https://cnbc.com/2026/10/10/ai-lawyers-billable-hour-legal-careers.html
 summary: AI is changing how Lawyers work – and putting the billable hour under pressure
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-10-13T03:03:54Z'
-status: rejected
+last_seen: '2026-11-03T03:28:53Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 10
     comments: 1
+  kind: news
+- source: hackernews
+  url: https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html
+  seen_at: '2026-11-03T03:28:53Z'
+  metrics:
+    points: 171
+    comments: 145
   kind: news
 ---
 

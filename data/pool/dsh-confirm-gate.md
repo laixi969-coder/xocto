@@ -23,16 +23,16 @@ summary: 'DeepSeek Harness gate - per-turn persistent-operation counter: remind,
   switch without restart. Verified on real hardware (full -> workspace-write -> read-only -> full). Crafted
   on an estimated 0.27 USD of model spend.'
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SteelUnion/dsh-confirm-gate#readme
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 47
+    stars: 57
     forks: 0
     open_issues: 0
   kind: product

@@ -1,0 +1,42 @@
+---
+slug: two-indian-teenage-founders-raise-13-million-for-y-combinato
+name: Two Indian teenage founders raise $1.3 million for Y Combinator-backed AI startup | Trending
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbUt6RGU4Szg5LVZRN21PeUl1X0dJLVhDZ1U1dnR2YkRaTWh6WkkwV0ZWRkI1cTRUdW8xdlpmajVfM2VBVUJDR3J3c1hSS3pNcS1pZ3FtTE1TYUUzLWIwWjFWLXd4Y2N4eXkwSUxJZmhac3E2cXdXYW8xdzltUGNJRnlSa255SEUwYWRHUWxBdGdwclhkMzVRa3E3YUROOGJaX1JkbFZpcFNENXk5aml4eUlwS3pyYkljNWFVUnllTmQ3R21Bd3BBRm5TYVlyTmRpbUlVaHp1QzXSAd4BQVVfeXFMTmN6X2dfa2FfTHdqa09Bb2oxcWpONUozYlA0NTBJVnFvVWFfQ3VRMGFOdV9qR1J1S1JBdzcxaE81OGpfWUFha0stb2haTGRPQUw0TlFVeUtTQkxISFdpelpQZW1ZUlJhQ18tMmJ6cXNSSEJTUkw3MTJoNklsblhoX3JfSlhjQzEzRjRXOWNIdUV4U0JodUFVM3F1UzNLRnhKWEY2cnM3ZkNucHhaNkJxd2VBOTh2UWtGMlRkTzJoamd5TkNrQ21hbkZpN2VKckdBQWRGcnJUb0FVakcwZ2dn?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbUt6RGU4Szg5LVZRN21PeUl1X0dJLVhDZ1U1dnR2YkRaTWh6WkkwV0ZWRkI1cTRUdW8xdlpmajVfM2VBVUJDR3J3c1hSS3pNcS1pZ3FtTE1TYUUzLWIwWjFWLXd4Y2N4eXkwSUxJZmhac3E2cXdXYW8xdzltUGNJRnlSa255SEUwYWRHUWxBdGdwclhkMzVRa3E3YUROOGJaX1JkbFZpcFNENXk5aml4eUlwS3pyYkljNWFVUnllTmQ3R21Bd3BBRm5TYVlyTmRpbUlVaHp1QzXSAd4BQVVfeXFMTmN6X2dfa2FfTHdqa09Bb2oxcWpONUozYlA0NTBJVnFvVWFfQ3VRMGFOdV9qR1J1S1JBdzcxaE81OGpfWUFha0stb2haTGRPQUw0TlFVeUtTQkxISFdpelpQZW1ZUlJhQ18tMmJ6cXNSSEJTUkw3MTJoNklsblhoX3JfSlhjQzEzRjRXOWNIdUV4U0JodUFVM3F1UzNLRnhKWEY2cnM3ZkNucHhaNkJxd2VBOTh2UWtGMlRkTzJoamd5TkNrQ21hbkZpN2VKckdBQWRGcnJUb0FVakcwZ2dn?oc=5
+summary: Two Indian teenage founders raise $1.3 million for Y Combinator-backed AI startup | Trending
+  Hindustan Times
+first_seen: '2026-11-03T03:29:33Z'
+last_seen: '2026-11-03T03:29:33Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbUt6RGU4Szg5LVZRN21PeUl1X0dJLVhDZ1U1dnR2YkRaTWh6WkkwV0ZWRkI1cTRUdW8xdlpmajVfM2VBVUJDR3J3c1hSS3pNcS1pZ3FtTE1TYUUzLWIwWjFWLXd4Y2N4eXkwSUxJZmhac3E2cXdXYW8xdzltUGNJRnlSa255SEUwYWRHUWxBdGdwclhkMzVRa3E3YUROOGJaX1JkbFZpcFNENXk5aml4eUlwS3pyYkljNWFVUnllTmQ3R21Bd3BBRm5TYVlyTmRpbUlVaHp1QzXSAd4BQVVfeXFMTmN6X2dfa2FfTHdqa09Bb2oxcWpONUozYlA0NTBJVnFvVWFfQ3VRMGFOdV9qR1J1S1JBdzcxaE81OGpfWUFha0stb2haTGRPQUw0TlFVeUtTQkxISFdpelpQZW1ZUlJhQ18tMmJ6cXNSSEJTUkw3MTJoNklsblhoX3JfSlhjQzEzRjRXOWNIdUV4U0JodUFVM3F1UzNLRnhKWEY2cnM3ZkNucHhaNkJxd2VBOTh2UWtGMlRkTzJoamd5TkNrQ21hbkZpN2VKckdBQWRGcnJUb0FVakcwZ2dn?oc=5
+  seen_at: '2026-11-03T03:29:33Z'
+  metrics: {}
+  kind: news
+---
+
+# Two Indian teenage founders raise $1.3 million for Y Combinator-backed AI startup | Trending
+
+Two Indian teenage founders raise $1.3 million for Y Combinator-backed AI startup | Trending Hindustan Times
+
+## 笔记
+
+

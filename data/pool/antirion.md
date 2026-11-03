@@ -21,18 +21,18 @@ canonical_url: https://antirion.ai
 summary: ⚡ The fastest open-source AI gateway — one Rust binary with a built-in console to route, secure,
   budget and observe every LLM call across OpenAI, Anthropic, Gemini, Bedrock and more.
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://antirion.ai
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 606
+    stars: 638
     forks: 15
-    open_issues: 18
+    open_issues: 20
   kind: product
 ---
 

@@ -23,17 +23,17 @@ summary: '推量牛 BullFlow — 开源企业级 RAG 解决方案：从企业知
   创作图文 / 图片 / 视频，一键发布抖音、小红书、公众号、LinkedIn、YouTube 等 17 个平台。Commercial-grade, multi-tenant, billing & admin
   built in. MIT'
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jaikydota/BullFlow
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 274
-    forks: 20
+    stars: 296
+    forks: 21
     open_issues: 0
   kind: product
 ---

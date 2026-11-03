@@ -21,17 +21,17 @@ canonical_url: https://github.com/abcampbel/open-bots
 summary: 'Open-source AI agents : web search, code sandbox, file analysis, agent teamwork, payments and
   sign-ups. Hosted or fully local.'
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/abcampbel/open-bots
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 82
-    forks: 12
+    stars: 79
+    forks: 10
     open_issues: 0
   kind: product
 ---

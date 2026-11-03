@@ -32,17 +32,17 @@ canonical_url: https://reasonmachines.com
 summary: 'Reason Network: your team''s coding agents, talking to each other. The engine behind `reason
   network`.'
 first_seen: '2026-10-18T00:03:49Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://reasonmachines.com
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 1438
-    forks: 126
+    stars: 1480
+    forks: 127
     open_issues: 31
   kind: product
 ---

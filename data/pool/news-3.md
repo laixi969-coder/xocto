@@ -20,12 +20,13 @@ url: https://news.ycombinator.lol
 canonical_url: https://news.ycombinator.lol
 summary: Pointless but mostly-exact clone of Hacker News
 first_seen: '2026-10-07T18:05:35Z'
-last_seen: '2026-11-02T01:31:58Z'
+last_seen: '2026-11-03T03:29:26Z'
 status: pending_filter
 sources:
 - hackernews
 - newssearch
 - marketfeeds
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://news.ycombinator.lol
@@ -82,6 +83,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBiRFBCV0ZVbTE2aWh5ZTY0dkIwYnBMV3c4VUVpMXpaaG5jWElkbi02YlBMWTlCUjYyc3pIMk8zcnl5ZnYyZHVMMjZkZzdFbXBTOUNz?oc=5
   seen_at: '2026-11-02T01:31:58Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/
+  seen_at: '2026-11-03T03:29:26Z'
   metrics: {}
   kind: news
 ---

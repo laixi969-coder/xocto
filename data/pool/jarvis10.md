@@ -23,16 +23,16 @@ summary: An ai assistant that can do tasks for you like open app and close apps 
   installed and just done just click the start.bat file and dont forget to put an api key in the setting
   tab and now you are good to go
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/haadoRamiz/Jarvis1.0
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 64
+    stars: 67
     forks: 0
     open_issues: 0
   kind: product

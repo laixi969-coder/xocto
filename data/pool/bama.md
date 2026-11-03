@@ -21,17 +21,17 @@ canonical_url: https://github.com/daveebbelaar/bama
 summary: 'BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test
   native macOS apps with Swift and SwiftUI.'
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/daveebbelaar/bama
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 1316
-    forks: 171
+    stars: 1453
+    forks: 181
     open_issues: 5
   kind: product
 ---

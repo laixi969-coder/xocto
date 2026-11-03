@@ -20,17 +20,17 @@ url: https://github.com/MemTensor/MemT-1.0
 canonical_url: https://github.com/MemTensor/MemT-1.0
 summary: Official repository for MemT-1.0
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MemTensor/MemT-1.0
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 485
-    forks: 34
+    stars: 507
+    forks: 37
     open_issues: 5
   kind: product
 ---

@@ -20,7 +20,7 @@ url: https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-deta
 canonical_url: https://businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10
 summary: My personal AI agent posted my bank details on company Slack
 first_seen: '2026-10-11T01:01:01Z'
-last_seen: '2026-10-27T01:29:46Z'
+last_seen: '2026-11-03T03:28:53Z'
 status: pending_filter
 sources:
 - hackernews
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 70
     comments: 50
+  kind: news
+- source: hackernews
+  url: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11
+  seen_at: '2026-11-03T03:28:53Z'
+  metrics:
+    points: 297
+    comments: 240
   kind: news
 ---
 

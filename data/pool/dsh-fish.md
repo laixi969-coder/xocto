@@ -20,18 +20,18 @@ url: https://github.com/ssamurias/dsh-fish
 canonical_url: https://github.com/ssamurias/dsh-fish
 summary: DSH插件：养一个会自己刷b站会成长的agent：不通过面板配置，通过学习诞生人格。
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ssamurias/dsh-fish
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 96
+    stars: 103
     forks: 8
-    open_issues: 3
+    open_issues: 2
   kind: product
 ---
 

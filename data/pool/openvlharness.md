@@ -20,16 +20,16 @@ url: https://openvlharness.github.io/
 canonical_url: https://openvlharness.github.io
 summary: 'Official Code for OpenVLHarness: Real-World Visual Agentic Tool‑Use with Multimodal Memory'
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://openvlharness.github.io/
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 344
+    stars: 356
     forks: 6
     open_issues: 2
   kind: product

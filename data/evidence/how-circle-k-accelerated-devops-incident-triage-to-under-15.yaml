@@ -1,0 +1,19 @@
+- id: ev-932be4b287ff8535
+  project_slug: how-circle-k-accelerated-devops-incident-triage-to-under-15
+  url: https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/
+  title: How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock
+  published_at: '2026-11-02T17:00:58Z'
+  collected_at: '2026-11-03T03:29:26Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'This post was co-written with Marek Klatowicz, Cloud DevOps Engineer at Circle K. Many DevOps
+    teams know the incident triage pattern: An alert fires, and before anyone can fix the problem, an
+    engineer spends 45–60 minutes figuring out what happened. They pull logs, check service health, and
+    correlate symptoms across a handful of tools. All of this happens before remediation can begin. At
+    Circle K, this challenge scaled with the business. The company operates more than 17,200 convenience
+    and fuel retail stores across 27 countries. Behind the storefronts, a cloud-native infrastructure
+    supports point-of-sale systems, loyalty applications, and electric vehicle (EV) charging applications
+    running on AWS. As the company expanded its digital operations, the triage overhead grew with it.
+    More services meant more alerts, and each one required the same manual investigation before remediation
+    could begin. To address it, Circle K built an automated triage system using Amazon Bedrock , a fully
+    manag'

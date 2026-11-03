@@ -20,16 +20,16 @@ url: https://github.com/yaklang/DropYourGunKid
 canonical_url: https://github.com/yaklang/DropYourGunKid
 summary: 'DYGK: Web deception and honeypot defenses against automated AI security agents'
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yaklang/DropYourGunKid
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 47
+    stars: 49
     forks: 11
     open_issues: 0
   kind: product

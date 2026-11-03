@@ -1,0 +1,18 @@
+- id: ev-08d1e9b9cd1e038b
+  project_slug: prepare-web-content-for-amazon-bedrock-knowledge-bases-with
+  url: https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/
+  title: Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI
+  published_at: '2026-11-02T17:11:21Z'
+  collected_at: '2026-11-03T03:29:26Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: When you build Retrieval Augmented Generation (RAG) applications, answer quality depends on the
+    data that you ingest. Amazon Bedrock Knowledge Bases is the fully managed RAG capability of Amazon
+    Bedrock. With Amazon Bedrock Managed Knowledge Base , you connect your data sources, and Amazon Bedrock
+    manages ingestion, storage, indexing, and retrieval for you. You don’t provision or scale a vector
+    store, and embedding and reranking use service-managed models by default. For web content, start with
+    the Amazon Bedrock Web Crawler data source connector for managed knowledge bases. You give it the
+    seed URLs or sitemaps that you’re authorized to crawl, and it crawls within the scope and rate limits
+    that you set. Scheduled syncs keep your knowledge base current as pages change, and the connector
+    can wait for content that loads with JavaScript. There’s no crawler for you to build, host, or operate,
+    so this connector is the starting point for most public website content. Some sources need more co

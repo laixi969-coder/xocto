@@ -22,17 +22,17 @@ summary: 'Agent skill to reverse engineer a SaaS product through the browser int
   rebuilding it: screens, rules, data model, design tokens and production barriers, without touching production
   data.'
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://alextnetto.github.io/res/examples/pipedrive/REPORT.html
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 248
-    forks: 59
+    stars: 251
+    forks: 60
     open_issues: 13
   kind: product
 ---

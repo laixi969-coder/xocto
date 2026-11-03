@@ -20,16 +20,16 @@ url: https://github.com/MiHjy12138/DSH-agent-procedures
 canonical_url: https://github.com/MiHjy12138/DSH-agent-procedures
 summary: 文件化经验库：让 AI agent 不再重复踩同一个坑。方法论 + 模板 + 可选工具。
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MiHjy12138/DSH-agent-procedures
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 41
+    stars: 43
     forks: 3
     open_issues: 2
   kind: product

@@ -20,17 +20,17 @@ url: https://github.com/openai/php2shell-checker
 canonical_url: https://github.com/openai/php2shell-checker
 summary: ''
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/php2shell-checker
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 1459
-    forks: 145
+    stars: 1458
+    forks: 147
     open_issues: 2
   kind: product
 ---

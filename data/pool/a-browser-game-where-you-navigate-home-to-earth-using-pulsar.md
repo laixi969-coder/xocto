@@ -22,17 +22,17 @@ summary: Hi, I vibecoded a game where one is lost somewhere in the Milky Way and
   to get back to Earth. Right now it only uses pulsars and spectrum analysis and is very basic and I am
   looking for feedback to d…
 first_seen: '2026-11-02T01:31:06Z'
-last_seen: '2026-11-02T01:31:06Z'
+last_seen: '2026-11-03T03:28:53Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://lightyears-home.pages.dev/
-  seen_at: '2026-11-02T01:31:06Z'
+  seen_at: '2026-11-03T03:28:53Z'
   metrics:
     points: 5
-    comments: 0
+    comments: 2
   kind: product
 ---
 

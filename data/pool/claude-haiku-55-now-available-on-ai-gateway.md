@@ -21,7 +21,7 @@ url: https://vercel.com/changelog/claude-haiku-5-5-now-available-on-ai-gateway
 canonical_url: https://vercel.com/changelog/claude-haiku-5-5-now-available-on-ai-gateway
 summary: Anthropic's fastest and most capable Haiku yet
 first_seen: '2026-10-07T00:00:00Z'
-last_seen: '2026-10-31T01:36:36Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: market_context
 sources:
 - officialfeeds
@@ -48,10 +48,10 @@ sightings:
   kind: product
 - source: github
   url: https://vercel.com/docs/agent-harnesses
-  seen_at: '2026-10-31T01:36:36Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 274
-    forks: 14
+    stars: 282
+    forks: 17
     open_issues: 10
   kind: product
 ---

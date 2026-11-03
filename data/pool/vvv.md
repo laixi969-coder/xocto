@@ -21,17 +21,17 @@ canonical_url: https://vibevision.video
 summary: Build a video template once, reuse it across coding agents. Editable Remotion templates and an
   Agent Skill for Claude Code, Codex and 25+ agents.
 first_seen: '2026-10-24T00:43:23Z'
-last_seen: '2026-11-02T01:31:13Z'
+last_seen: '2026-11-03T03:28:57Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://vibevision.video
-  seen_at: '2026-11-02T01:31:13Z'
+  seen_at: '2026-11-03T03:28:57Z'
   metrics:
-    stars: 511
-    forks: 145
+    stars: 517
+    forks: 148
     open_issues: 0
   kind: product
 ---

@@ -1,0 +1,41 @@
+---
+slug: beyond-ai-why-businesses-should-start-paying-attention-to-di
+name: 'Beyond AI: Why businesses should start paying attention to digital twins'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNSkgyZXFtRVk4cUhEcEtnTC14UFBVRjk2V2pBQVBjdXFEZE10ZURmWi1OSnVZQUlVc0pPbEZRNnh3akh5dlNnUzA2ZGFvdTl3OVp1UUQzR1VrWmZ4VFBQcHFmeVpaSFhaUUhHel9XbEJkVVZ3Wl9ERDA5Qk5oMHlQWUJscHE3bEp4LVUxU2ktelBPRE9mMWxmdHVqSGtBWXNSdVdlUklrUXh4UzhqUnV4NVA3al9ZM3FhbGpDb3lWOElFOTlDTGfSAcYBQVVfeXFMTUpIMmVxbUVZOHFIRHBLZ0wteFBQVUY5NldqQUFQY3VxRGRNdGVEZlotTkp1WUFJVXNKT2xGUTZ4d2pIeXZTZ1MwNmRhb3U5dzladVFEM0dVa1pmeFRQUHBxZnlaWkhYWlFIR3pfV2xCZFVWd1pfREQwOUJOaDB5UFlCbHBxN2xKeC1VMVNpLXpQT0RPZjFsZnR1akhrQVlzUnVXZVJJa1F4eFM4alJ1eDVQN2pfWTNxYWxqQ295VjhJRTk5Q0xn?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNSkgyZXFtRVk4cUhEcEtnTC14UFBVRjk2V2pBQVBjdXFEZE10ZURmWi1OSnVZQUlVc0pPbEZRNnh3akh5dlNnUzA2ZGFvdTl3OVp1UUQzR1VrWmZ4VFBQcHFmeVpaSFhaUUhHel9XbEJkVVZ3Wl9ERDA5Qk5oMHlQWUJscHE3bEp4LVUxU2ktelBPRE9mMWxmdHVqSGtBWXNSdVdlUklrUXh4UzhqUnV4NVA3al9ZM3FhbGpDb3lWOElFOTlDTGfSAcYBQVVfeXFMTUpIMmVxbUVZOHFIRHBLZ0wteFBQVUY5NldqQUFQY3VxRGRNdGVEZlotTkp1WUFJVXNKT2xGUTZ4d2pIeXZTZ1MwNmRhb3U5dzladVFEM0dVa1pmeFRQUHBxZnlaWkhYWlFIR3pfV2xCZFVWd1pfREQwOUJOaDB5UFlCbHBxN2xKeC1VMVNpLXpQT0RPZjFsZnR1akhrQVlzUnVXZVJJa1F4eFM4alJ1eDVQN2pfWTNxYWxqQ295VjhJRTk5Q0xn?oc=5
+summary: 'Beyond AI: Why businesses should start paying attention to digital twins Mathrubhumi English'
+first_seen: '2026-11-03T03:29:33Z'
+last_seen: '2026-11-03T03:29:33Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNSkgyZXFtRVk4cUhEcEtnTC14UFBVRjk2V2pBQVBjdXFEZE10ZURmWi1OSnVZQUlVc0pPbEZRNnh3akh5dlNnUzA2ZGFvdTl3OVp1UUQzR1VrWmZ4VFBQcHFmeVpaSFhaUUhHel9XbEJkVVZ3Wl9ERDA5Qk5oMHlQWUJscHE3bEp4LVUxU2ktelBPRE9mMWxmdHVqSGtBWXNSdVdlUklrUXh4UzhqUnV4NVA3al9ZM3FhbGpDb3lWOElFOTlDTGfSAcYBQVVfeXFMTUpIMmVxbUVZOHFIRHBLZ0wteFBQVUY5NldqQUFQY3VxRGRNdGVEZlotTkp1WUFJVXNKT2xGUTZ4d2pIeXZTZ1MwNmRhb3U5dzladVFEM0dVa1pmeFRQUHBxZnlaWkhYWlFIR3pfV2xCZFVWd1pfREQwOUJOaDB5UFlCbHBxN2xKeC1VMVNpLXpQT0RPZjFsZnR1akhrQVlzUnVXZVJJa1F4eFM4alJ1eDVQN2pfWTNxYWxqQ295VjhJRTk5Q0xn?oc=5
+  seen_at: '2026-11-03T03:29:33Z'
+  metrics: {}
+  kind: news
+---
+
+# Beyond AI: Why businesses should start paying attention to digital twins
+
+Beyond AI: Why businesses should start paying attention to digital twins Mathrubhumi English
+
+## 笔记
+
+

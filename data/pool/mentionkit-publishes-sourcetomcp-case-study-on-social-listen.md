@@ -1,0 +1,41 @@
+---
+slug: mentionkit-publishes-sourcetomcp-case-study-on-social-listen
+name: Mentionkit Publishes SourcetoMCP Case Study on Social Listening for B2B SaaS
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxNT29RelcyUHoxa2xXdWp0LUEyc1E0SmxaS09SSHlPQXlhanc1OWF2alFQSThMV2NfS1p5WS1WM2pzQXNkTlhkTHBuX0o1b3hXajhsV0tfWks2NXBpdEd3a0hLdVcyY2REejQ3Ry1EVVZMTHUyZnVSNXNndjZPUVR4Ri1iMGRJTzFSTU1CSmcwbzBYb2tYTDF1SDFiZlFVNl96TUo2X1R1RkJlUHJva19hUmhsdW56cEN1Vk1aeEgtcmd6R2J5YU5OUFNsRmxpRURjZ2dqbXRmVExQLXd0aUhKSEg4UzfSAeoBQVVfeXFMTk9SdHVRZTN0OGp2S21XbW82UTdxSXdDMjUzRkN5SEllcmcyU1VlSXRTY2N3QlRWUkl3TktkUUJiWFExRTZ0bWRfOVJUbDlPenBmbl9wVEdMbU5BU0c2VTlXN1ppbHhYZ1QtUW9lNlJVZXlnS2RwUnR4TkNUOG5mZWpvMmI2MVVUYkpuYjlrUzdBUXZvRUxsZnlDMDMyd2NlZ0NYZmlQTzB0d1p2SWx3bE51bDJWMlZjd0o5RzE0T1lRYXVNVlc4emVvUHR6Z3NKRHlkRUFJOW4zdHlySll3VnFJakcxaWtjQjh3?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxNT29RelcyUHoxa2xXdWp0LUEyc1E0SmxaS09SSHlPQXlhanc1OWF2alFQSThMV2NfS1p5WS1WM2pzQXNkTlhkTHBuX0o1b3hXajhsV0tfWks2NXBpdEd3a0hLdVcyY2REejQ3Ry1EVVZMTHUyZnVSNXNndjZPUVR4Ri1iMGRJTzFSTU1CSmcwbzBYb2tYTDF1SDFiZlFVNl96TUo2X1R1RkJlUHJva19hUmhsdW56cEN1Vk1aeEgtcmd6R2J5YU5OUFNsRmxpRURjZ2dqbXRmVExQLXd0aUhKSEg4UzfSAeoBQVVfeXFMTk9SdHVRZTN0OGp2S21XbW82UTdxSXdDMjUzRkN5SEllcmcyU1VlSXRTY2N3QlRWUkl3TktkUUJiWFExRTZ0bWRfOVJUbDlPenBmbl9wVEdMbU5BU0c2VTlXN1ppbHhYZ1QtUW9lNlJVZXlnS2RwUnR4TkNUOG5mZWpvMmI2MVVUYkpuYjlrUzdBUXZvRUxsZnlDMDMyd2NlZ0NYZmlQTzB0d1p2SWx3bE51bDJWMlZjd0o5RzE0T1lRYXVNVlc4emVvUHR6Z3NKRHlkRUFJOW4zdHlySll3VnFJakcxaWtjQjh3?oc=5
+summary: Mentionkit Publishes SourcetoMCP Case Study on Social Listening for B2B SaaS The Manila Times
+first_seen: '2026-11-03T03:29:33Z'
+last_seen: '2026-11-03T03:29:33Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxNT29RelcyUHoxa2xXdWp0LUEyc1E0SmxaS09SSHlPQXlhanc1OWF2alFQSThMV2NfS1p5WS1WM2pzQXNkTlhkTHBuX0o1b3hXajhsV0tfWks2NXBpdEd3a0hLdVcyY2REejQ3Ry1EVVZMTHUyZnVSNXNndjZPUVR4Ri1iMGRJTzFSTU1CSmcwbzBYb2tYTDF1SDFiZlFVNl96TUo2X1R1RkJlUHJva19hUmhsdW56cEN1Vk1aeEgtcmd6R2J5YU5OUFNsRmxpRURjZ2dqbXRmVExQLXd0aUhKSEg4UzfSAeoBQVVfeXFMTk9SdHVRZTN0OGp2S21XbW82UTdxSXdDMjUzRkN5SEllcmcyU1VlSXRTY2N3QlRWUkl3TktkUUJiWFExRTZ0bWRfOVJUbDlPenBmbl9wVEdMbU5BU0c2VTlXN1ppbHhYZ1QtUW9lNlJVZXlnS2RwUnR4TkNUOG5mZWpvMmI2MVVUYkpuYjlrUzdBUXZvRUxsZnlDMDMyd2NlZ0NYZmlQTzB0d1p2SWx3bE51bDJWMlZjd0o5RzE0T1lRYXVNVlc4emVvUHR6Z3NKRHlkRUFJOW4zdHlySll3VnFJakcxaWtjQjh3?oc=5
+  seen_at: '2026-11-03T03:29:33Z'
+  metrics: {}
+  kind: news
+---
+
+# Mentionkit Publishes SourcetoMCP Case Study on Social Listening for B2B SaaS
+
+Mentionkit Publishes SourcetoMCP Case Study on Social Listening for B2B SaaS The Manila Times
+
+## 笔记
+
+

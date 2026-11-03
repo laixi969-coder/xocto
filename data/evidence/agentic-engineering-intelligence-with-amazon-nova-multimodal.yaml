@@ -1,0 +1,19 @@
+- id: ev-f557fc1d697343bd
+  project_slug: agentic-engineering-intelligence-with-amazon-nova-multimodal
+  url: https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/
+  title: Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore
+  published_at: '2026-11-02T17:01:16Z'
+  collected_at: '2026-11-03T03:29:26Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: When a qualified aerospace component goes obsolete or hits a long lead time, an engineer spends
+    days cross-referencing specifications across vendor datasheets, interface control documents (ICDs),
+    and qualification records before documenting a substitution justification for review. An incorrect
+    substitution on a flight-critical component can cause mission failure, yet the evidence trail behind
+    each decision is often spread across email and undocumented institutional knowledge, so there is no
+    formal, repeatable package for a reviewer to check. A previous post, Manufacturing intelligence with
+    Amazon Nova Multimodal Embeddings , showed how the model retrieves answers locked inside engineering
+    diagrams, thermal plots, and datasheet charts that text-only pipelines miss. This post picks up where
+    that retrieval work left off, putting those capabilities inside a multi-agent system that assembles
+    substitution evidence, from retrieval to a drafted assessment. In this post, we show how to build
+    a

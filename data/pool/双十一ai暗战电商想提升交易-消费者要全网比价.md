@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBFeDlVb2hvd29KWHFLVDFzRk
 canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBFeDlVb2hvd29KWHFLVDFzRkxqbFh6XzM5RFpyWks1Ym9TY2pSMDZ5VXBDcDdvYjBTMW5hWG5oUjh3VXFCdktSdVI0d0o?oc=5
 summary: 双十一AI暗战：电商想提升交易 消费者要全网比价 凤凰网科技
 first_seen: '2026-11-02T01:31:58Z'
-last_seen: '2026-11-02T01:31:58Z'
+last_seen: '2026-11-03T03:29:33Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBFeDlVb2hvd29KWHFLVDFzRkxqbFh6XzM5RFpyWks1Ym9TY2pSMDZ5VXBDcDdvYjBTMW5hWG5oUjh3VXFCdktSdVI0d0o?oc=5
   seen_at: '2026-11-02T01:31:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1yMEItRzRzeUNPT2YxMGdpMzBjQUZzTzhIUkl6X2drRjNENTdYLW43aTJUODNxcTlfYVlMZzJTbzZmVmdzeFBaXw?oc=5
+  seen_at: '2026-11-03T03:29:33Z'
   metrics: {}
   kind: news
 ---

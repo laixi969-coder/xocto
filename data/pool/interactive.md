@@ -20,7 +20,7 @@ url: https://modelmap.cc
 canonical_url: https://modelmap.cc
 summary: animated architecture of any HuggingFace models
 first_seen: '2026-08-18T23:57:36Z'
-last_seen: '2026-10-22T00:42:46Z'
+last_seen: '2026-11-03T03:29:26Z'
 status: pending_filter
 sources:
 - hackernews
@@ -62,6 +62,11 @@ sightings:
 - source: officialfeeds
   url: https://www.meta.com/blog/new-museum-exhibition-shows-evolution-of-interactive-wearable-technology/
   seen_at: '2026-10-22T00:42:46Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt
+  seen_at: '2026-11-03T03:29:26Z'
   metrics: {}
   kind: news
 ---

@@ -20,17 +20,17 @@ url: https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/
 canonical_url: https://reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam
 summary: Frontier Airlines Likely Breached
 first_seen: '2026-11-02T01:31:06Z'
-last_seen: '2026-11-02T01:31:06Z'
+last_seen: '2026-11-03T03:28:53Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/
-  seen_at: '2026-11-02T01:31:06Z'
+  seen_at: '2026-11-03T03:28:53Z'
   metrics:
-    points: 171
-    comments: 63
+    points: 223
+    comments: 87
   kind: news
 ---
 

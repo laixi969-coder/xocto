@@ -20,8 +20,8 @@ url: https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-ma
 canonical_url: https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics
 summary: A Misalignment of AI in Mathematics
 first_seen: '2026-09-11T17:30:26Z'
-last_seen: '2026-10-11T01:01:01Z'
-status: rejected
+last_seen: '2026-11-03T03:28:53Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 193
     comments: 57
+  kind: news
+- source: hackernews
+  url: https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/
+  seen_at: '2026-11-03T03:28:53Z'
+  metrics:
+    points: 126
+    comments: 86
   kind: news
 ---
 

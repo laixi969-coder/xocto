@@ -13,3 +13,21 @@
     \ 靠 SEO 等自然流量、靠广告联盟变现、靠批量更新维持权重——这套玩法在 AI 把内容供给打到无限之后，基本没有胜算。AI 一秒能生成的通稿，你写十篇也没人看，搜索引擎也未必收录。这个意义上，49\
     \ 年入国军不是玩笑。\r\n\r\n不成立的一半是：**49 年入国军是押注一个正在崩塌的旧秩序；我不是押注“独立博客会重新成为流量中心”。** 我不认为独立站会回到 2010 年那种“写博客—被搜索引擎收录—拿流量—接广告”的黄金年代。那个年代确实结束了。\r\
     \n\r\n我押的是另一件事：**AI 内容越泛滥，一手经历、真实项目、可验证署名，可能越稀缺。**\r\n\r\n现在下结论还太早。AI 可以帮我查资料、改代码、润色句子，但它没有做过我做的项目，没有踩过我踩的坑，没有在四个月里对着分页排版一个像素一个像素地改。它写不出“我当时为什么决定不用现成方案”这种判断，因为它没有“当时”。但这套东西到底有没有人认"
+- id: ev-d5b36e5e31f7c4f3
+  project_slug: cdn
+  url: https://www.v2ex.com/t/1253992
+  title: QuireKit 编辑器的 AI-Native 是如何设计的？谈谈我对真正 AI-Native 的理解
+  published_at: '2026-11-03T00:06:54Z'
+  collected_at: '2026-11-03T03:28:51Z'
+  source_kind: product
+  tier: independent
+  fact: "先说结论，我个人认为，AI-Native 的编辑器，不在于形式，无论是左编辑器右输入框，还是选中后弹出 AI 润色、续写框，又或是正文下方放类似对话形式的输入框，本质并没有任何不同。在\
+    \ Tiptap 体系下，只要不是通过命令原生操作，我认为就全都不算 Native 。个人认为真正的 Native ，是模型能原生操作编辑器，不是先生成 markdown 再通过兼容层转为编辑器内容，也不是将\
+    \ markdown 转为兼容的 HTML 再通过兼容层转为编辑器内容，并且你不需要为每个功能都为模型编写提示词，你只需要一种机制，让模型能够知道编辑器有哪些能力，并且知道这些能力的参数，调用方式就够了，至于如何调用，那就得看模型的调度能力到底几何了。\r\
+    \n\r\n下面是 QuireKit Classic 里的一次真实运行：一句话让 AI 把第一行设为标题并居中、改写第二段、把百分比和日期加粗标红，再在文末插入表格。修改先以修订呈现，最后一次批准。演示用的模型是\
+    \ DeepSeek Flash ，后面两段也一样。\r\n\r\n![AI 在 QuireKit 里一句话完成改写、排版和插入表格]( https://cdn.jsdelivr.net/gh/kingshuaishuai/ys-imgs@main/quirepub/1265bad3a98395d90da5fe409b0dd439.gif)\r\
+    \n\r\n## 具体的实现方案来自一个之前做的 CLI\r\n\r\n前段时间想要把公司后端的所有接口包装成一套对 AI 友好的 CLI ，让 Codex 、Claude Code 、DSH 、WorkBuddy\
+    \ 等任何 Agent 都能自己学会使用我们的产品。接口有上百个，版本有几十条标准包、几千家定制包，给每个 Agent 写提示词显然不现实，所以我设计了一套自描述的方案，Agent 只需要会三个命令：\r\
+    \n\r\n```bash\r\ncli api list    --target test --json        # 这个环境能用哪些能力\r\ncli api explain <id>\
+    \ --target test --json   # 能力的参数 Schema 、风险、认证方式\r\ncli api call    <id> --target test --input @request.json\
+    \ --json\r\n```"
