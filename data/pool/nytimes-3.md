@@ -20,7 +20,7 @@ url: https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html
 canonical_url: https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html
 summary: Religious scholars met with Anthropic
 first_seen: '2026-10-04T02:34:22Z'
-last_seen: '2026-10-29T01:48:26Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 59
     comments: 20
+  kind: news
+- source: hackernews
+  url: https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html
+  seen_at: '2026-11-04T02:20:47Z'
+  metrics:
+    points: 561
+    comments: 411
   kind: news
 ---
 

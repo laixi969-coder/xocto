@@ -1,0 +1,41 @@
+---
+slug: wonderful-ai香港设大中华枢纽-助企业解决ai应用痛点落实转型
+name: Wonderful AI香港设大中华枢纽 助企业解决AI应用痛点落实转型
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiigNBVV95cUxNaXRkM2NzZGNtcEJabmlIcmlXRkdyWjM4b3dCZGRZUlY1ckQ0VkFpd01PcHQxYmRHUVBDOXF2NFlqYVc0dlhnS2ZNYlVEUkxUaE95eU0tTjNSX1YxaGM5N3dpQ1htRU9sWVBOMkIycWlEdU96N1BKWGtnN3dtOTlvVTlwdTNrMzBMS1VQbWNOQ3c4UmkzbnBWaEl6UzdDTkoxa3ZGcUhFakJpLU9kLTZjOW1PZ09wRXBQMlJFNE93V0ZYcEdxVC1rbTZMdEVvVHBUVTJHTGpWdkVERVppWTdEZlgxUVo0QjRHNWhWQ3kxY2NOREUtSjFnWG1TWTFRcm5RSi1oVFZadlp3VXkwbWlGdk90eklOaDBzZU9FaW9rUEJyZnc0dlY3WXZ4S1pBMFlkUDRQQmV4cVhWdld5YlU2bTBhUFBVVnFGakk3Zi1YMDFBS21WbHZZakduWUNwMGJaWDVDc0puaDBBSDBEbFVXb0JROVRNSXRpYUYzRHlHZUZkSXJKeXR5MV9n?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiigNBVV95cUxNaXRkM2NzZGNtcEJabmlIcmlXRkdyWjM4b3dCZGRZUlY1ckQ0VkFpd01PcHQxYmRHUVBDOXF2NFlqYVc0dlhnS2ZNYlVEUkxUaE95eU0tTjNSX1YxaGM5N3dpQ1htRU9sWVBOMkIycWlEdU96N1BKWGtnN3dtOTlvVTlwdTNrMzBMS1VQbWNOQ3c4UmkzbnBWaEl6UzdDTkoxa3ZGcUhFakJpLU9kLTZjOW1PZ09wRXBQMlJFNE93V0ZYcEdxVC1rbTZMdEVvVHBUVTJHTGpWdkVERVppWTdEZlgxUVo0QjRHNWhWQ3kxY2NOREUtSjFnWG1TWTFRcm5RSi1oVFZadlp3VXkwbWlGdk90eklOaDBzZU9FaW9rUEJyZnc0dlY3WXZ4S1pBMFlkUDRQQmV4cVhWdld5YlU2bTBhUFBVVnFGakk3Zi1YMDFBS21WbHZZakduWUNwMGJaWDVDc0puaDBBSDBEbFVXb0JROVRNSXRpYUYzRHlHZUZkSXJKeXR5MV9n?oc=5
+summary: Wonderful AI香港设大中华枢纽 助企业解决AI应用痛点落实转型 香港01
+first_seen: '2026-11-04T02:21:23Z'
+last_seen: '2026-11-04T02:21:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiigNBVV95cUxNaXRkM2NzZGNtcEJabmlIcmlXRkdyWjM4b3dCZGRZUlY1ckQ0VkFpd01PcHQxYmRHUVBDOXF2NFlqYVc0dlhnS2ZNYlVEUkxUaE95eU0tTjNSX1YxaGM5N3dpQ1htRU9sWVBOMkIycWlEdU96N1BKWGtnN3dtOTlvVTlwdTNrMzBMS1VQbWNOQ3c4UmkzbnBWaEl6UzdDTkoxa3ZGcUhFakJpLU9kLTZjOW1PZ09wRXBQMlJFNE93V0ZYcEdxVC1rbTZMdEVvVHBUVTJHTGpWdkVERVppWTdEZlgxUVo0QjRHNWhWQ3kxY2NOREUtSjFnWG1TWTFRcm5RSi1oVFZadlp3VXkwbWlGdk90eklOaDBzZU9FaW9rUEJyZnc0dlY3WXZ4S1pBMFlkUDRQQmV4cVhWdld5YlU2bTBhUFBVVnFGakk3Zi1YMDFBS21WbHZZakduWUNwMGJaWDVDc0puaDBBSDBEbFVXb0JROVRNSXRpYUYzRHlHZUZkSXJKeXR5MV9n?oc=5
+  seen_at: '2026-11-04T02:21:23Z'
+  metrics: {}
+  kind: news
+---
+
+# Wonderful AI香港设大中华枢纽 助企业解决AI应用痛点落实转型
+
+Wonderful AI香港设大中华枢纽 助企业解决AI应用痛点落实转型 香港01
+
+## 笔记
+
+

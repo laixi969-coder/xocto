@@ -21,18 +21,18 @@ canonical_url: https://github.com/jacke-pp/open-yoki
 summary: 'An AI live-stream host that runs on one server: voice, face, chat, memory, posts. The base yoki
   runs on. By Jacke_pp · contact: DM @Jacke_pp on X'
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jacke-pp/open-yoki
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 866
-    forks: 57
-    open_issues: 1
+    stars: 976
+    forks: 64
+    open_issues: 3
   kind: product
 ---
 

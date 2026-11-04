@@ -22,16 +22,16 @@ summary: Free, open-source video editor for gaming videos, video essays and docu
   shortcuts and edit rules, GPU playback, local AI captions and smart search. Windows · C++23 · Qt 6 ·
   FFmpeg
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://wabcut.zyphite.com/
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 55
+    stars: 54
     forks: 5
     open_issues: 2
   kind: product

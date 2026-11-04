@@ -23,7 +23,7 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Enabler stage). Ba
   capacity and multi-model routing outstrips supply, and although all well-funded there is not yet one
   clear winner pulling away.
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-10-21T00:38:32Z'
+last_seen: '2026-11-04T02:21:23Z'
 status: pending_filter
 sources:
 - ia40
@@ -39,6 +39,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPdW56SlZzdHVGUDIyYlFpU3RLRVVjTmZ5a0ZLcGUwYUFvcWIzYzNjdng2cjJFQXg2Z0ZqeDFabFlCa3FCZ19kMXMzWlUyTkUtZUdvWl83aXllekVKWWhKN21icjU2c0I2Vl85bGlTS1gyWXpfMnlPd1c0UzNSaXpOQ3UzOVEtSjBKNi1tZl9ybGpKYzFmd1FBYXhLUQ?oc=5
   seen_at: '2026-10-21T00:38:32Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNcDdLTjRHOFpraXNkLTlHTFRPd2lZMklCRjhwZk5vODc5TFZJT0ZaNG9obEltX3UtMExLWEpVdlMyRWtVbEhwNEh0QlBUSDVEQjZzUlVGckZIRlVEdkVzRHBUM0VYbXhxUlpuN0ljeW9qRlMyeWJhNE5XNy1lNUpsT2gtYUNTWWpseGlrNW1xSGZjdkdKRmFuaFFNVQ?oc=5
+  seen_at: '2026-11-04T02:21:23Z'
   metrics: {}
   kind: news
 ---

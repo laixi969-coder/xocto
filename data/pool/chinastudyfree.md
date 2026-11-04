@@ -20,18 +20,18 @@ url: https://github.com/tanle-mtr/ChinaStudyFree
 canonical_url: https://github.com/tanle-mtr/ChinaStudyFree
 summary: 聪聪学堂 · 四端（Web/桌面/安卓/iOS）+ 四学段（小学/初中/高中/大学）免费公益 AI 学习平台，MIT 开源。免费 EdgeTTS 语音、148 本教材互动课程。
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tanle-mtr/ChinaStudyFree
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 81
-    forks: 27
-    open_issues: 18
+    stars: 91
+    forks: 31
+    open_issues: 19
   kind: product
 ---
 

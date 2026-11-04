@@ -1,0 +1,129 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/granter-ai-7b00b8c2",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "description": "The startup  Granter AI , which specializes in using artificial intelligence to facilitate access to European funding",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "7B00B8C2-4D13-41AA-A66B-6F35D7CF3F29",
+    "investors": [
+      "3xP Global",
+      "Angel Ways",
+      "Celtis Venture Partners",
+      "Deel",
+      "Gateway Ventures"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Granter AI",
+    "rounds": [
+      {
+        "amountEur": 1600000,
+        "date": "2026-11-03",
+        "id": "785CCECB-5248-473F-BD50-67632FB3BB06",
+        "investors": [
+          "3xP Global",
+          "Celtis Venture Partners",
+          "Deel",
+          "Gateway Ventures"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/785CCECB-5248-473F-BD50-67632FB3BB06"
+      },
+      {
+        "amountEur": 50000,
+        "date": "2025-03-17",
+        "id": "2D9170FD-A6A3-4172-9054-34A3DCB5C2F1",
+        "investors": [
+          "Angel Ways"
+        ],
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/2D9170FD-A6A3-4172-9054-34A3DCB5C2F1"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 10
+      },
+      "heat": 68,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 11
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 1650000,
+    "url": "https://funding.tech.eu/companies/7B00B8C2-4D13-41AA-A66B-6F35D7CF3F29",
+    "website": "https://granter.ai/"
+  },
+  "round": {
+    "amountEur": 1600000,
+    "amountEurStored": null,
+    "amountNative": 1600000,
+    "company": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "founded": null,
+      "id": "7B00B8C2-4D13-41AA-A66B-6F35D7CF3F29",
+      "name": "Granter AI",
+      "pageUrl": "https://funding.tech.eu/companies/granter-ai-7b00b8c2",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-11-03",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "785CCECB-5248-473F-BD50-67632FB3BB06",
+    "investors": [
+      "Gateway Ventures",
+      "Deel",
+      "3xP Global",
+      "Celtis Venture Partners"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/785CCECB-5248-473F-BD50-67632FB3BB06",
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Other",
+    "url": "/deals/785CCECB-5248-473F-BD50-67632FB3BB06"
+  }
+}

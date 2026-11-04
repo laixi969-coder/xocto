@@ -21,17 +21,17 @@ canonical_url: https://anubis.locker
 summary: 🛡️ Anubis-Security-Tool — terminal, SSH/SFTP and remote-session client for Windows, macOS and
   Linux.
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://anubis.locker
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 233
-    forks: 16
+    stars: 387
+    forks: 50
     open_issues: 6
   kind: product
 ---

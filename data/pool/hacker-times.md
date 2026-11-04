@@ -20,17 +20,17 @@ url: https://hackertimes.ca/
 canonical_url: https://hackertimes.ca
 summary: a New York Times-Inspired Version Hacker News
 first_seen: '2026-11-03T03:28:53Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hackertimes.ca/
-  seen_at: '2026-11-03T03:28:53Z'
+  seen_at: '2026-11-04T02:20:47Z'
   metrics:
-    points: 62
-    comments: 19
+    points: 451
+    comments: 145
   kind: product
 ---
 

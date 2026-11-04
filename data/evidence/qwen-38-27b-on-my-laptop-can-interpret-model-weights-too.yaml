@@ -1,0 +1,19 @@
+- id: ev-5fa7937924a99a37
+  project_slug: qwen-38-27b-on-my-laptop-can-interpret-model-weights-too
+  url: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/
+  title: Qwen 3.8 27B on my laptop can interpret model weights, too
+  published_at: '2026-11-03T16:29:48Z'
+  collected_at: '2026-11-04T02:21:17Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'Yesterday''s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write
+    neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK,
+    the authors classify is as a "blog post", but it''s paper-shaped) found that frontier models, in particular
+    GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally
+    a text description of the model containing a bunch of floating point numbers. I''ve been playing with
+    one of the examples from the paper and I''m delighted to share that Qwen 3.8 27B running on my laptop
+    can do this as well! Weight-Space Programming Here''s the highlight from their abstract, describing
+    impressive capabilities for GPT-6 Astra and coining the term Weight-Space Programming for when LLMs
+    analyze and modify model weights: Just by looking at the raw weights, GPT-6 Astra can tell what a
+    network was trained to do . And without any environment feedback, it has no trouble writing, from
+    scrat'

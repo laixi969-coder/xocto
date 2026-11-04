@@ -21,17 +21,17 @@ canonical_url: https://awesomecua.github.io
 summary: 'Open, source-backed catalog of computer-use agents: reviewed papers, GUI models, datasets, benchmarks,
   tools, and reusable JSONL/SQLite data.'
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://awesomecua.github.io/
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 403
-    forks: 137
+    stars: 435
+    forks: 136
     open_issues: 4062
   kind: product
 ---

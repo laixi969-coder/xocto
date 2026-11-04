@@ -22,17 +22,17 @@ summary: 🔓 An AI web-pentest skill for Claude Code. Point it at a site you're
   maps the attack surface, works through the OWASP WSTG, validates findings, and writes dev + stakeholder
   reports (PDF).
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/hassan-algo/open-sesame
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 101
-    forks: 20
+    stars: 102
+    forks: 21
     open_issues: 0
   kind: product
 ---

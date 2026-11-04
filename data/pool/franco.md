@@ -20,18 +20,18 @@ url: https://gortex.ai
 canonical_url: https://gortex.ai
 summary: 'Franco: an outbound sales agent that runs on your Claude Code or Codex subscription'
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://gortex.ai
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 922
-    forks: 525
-    open_issues: 9
+    stars: 929
+    forks: 542
+    open_issues: 10
   kind: product
 ---
 

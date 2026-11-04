@@ -22,17 +22,17 @@ summary: 'It&#x27;s not on their website or Trust center yet, but we received th
   from WorkOS: We are writing to notify you of a data security incident that we detected on October 30,
   2026 and are con…'
 first_seen: '2026-11-03T03:28:53Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50345712
-  seen_at: '2026-11-03T03:28:53Z'
+  seen_at: '2026-11-04T02:20:47Z'
   metrics:
-    points: 47
-    comments: 6
+    points: 77
+    comments: 11
   kind: news
 ---
 

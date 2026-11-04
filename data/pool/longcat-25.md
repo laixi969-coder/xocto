@@ -20,17 +20,17 @@ url: https://longcat.ai/blog/longcat-2.5/
 canonical_url: https://longcat.ai/blog/longcat-2.5
 summary: Native Multimodality for Agentic Tasks
 first_seen: '2026-11-03T03:28:53Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://longcat.ai/blog/longcat-2.5/
-  seen_at: '2026-11-03T03:28:53Z'
+  seen_at: '2026-11-04T02:20:47Z'
   metrics:
-    points: 79
-    comments: 22
+    points: 85
+    comments: 26
   kind: news
 ---
 

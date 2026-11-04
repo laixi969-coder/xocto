@@ -21,18 +21,18 @@ canonical_url: https://ryugi.innei.dev
 summary: '流儀 — a development workflow for coding agents: brainstorm with mockups, approve a spec, build
   it under TDD'
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://ryugi.innei.dev
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 321
+    stars: 330
     forks: 14
-    open_issues: 5
+    open_issues: 3
   kind: product
 ---
 

@@ -20,16 +20,16 @@ url: https://munorai.com
 canonical_url: https://munorai.com
 summary: Supercharge the AI you already use. Greener. Better. Faster. Cheaper.
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://munorai.com
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 248
+    stars: 251
     forks: 3
     open_issues: 0
   kind: product

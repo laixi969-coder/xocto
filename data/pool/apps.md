@@ -21,7 +21,7 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-11-03T03:29:27Z'
+last_seen: '2026-11-04T02:21:17Z'
 status: pending_filter
 sources:
 - hackernews
@@ -193,6 +193,21 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/
   seen_at: '2026-11-03T03:29:27Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform
+  seen_at: '2026-11-04T02:21:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/
+  seen_at: '2026-11-04T02:21:17Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps
+  seen_at: '2026-11-04T02:21:17Z'
   metrics: {}
   kind: news
 ---

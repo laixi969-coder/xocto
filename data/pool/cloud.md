@@ -23,7 +23,7 @@ summary: "这个网站注册就送 15 美元额度，用来注册 Muse 只用几
   \ 也可以直接地址栏输入这个路径:  https://cloud.browser-use.com/browser\r\n- 点击右上角 “Launch & Open” ,   这时候会弹出一个浏览器窗口,\
   \ 地址栏输入 http://muse.ai ,  \r\n- 按正常流程注册即可\r\n- 结束后记得右上角关闭这个实例，确保安全"
 first_seen: '2026-09-25T04:43:34Z'
-last_seen: '2026-11-01T01:11:07Z'
+last_seen: '2026-11-04T02:21:23Z'
 status: pending_filter
 sources:
 - v2ex
@@ -210,6 +210,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQenB5Qng4SGJsbXZSaGpzLVBGRkdWclo5aFpOeG1BUE8wS3RsRVRJTk53MFpfdzVVZTVLc3hJY045NFVqd08zLXhpbTFDbnAwUHYxeDFTejJxak5oZUZvVlRMcHd3Nl9EbWkwekpSQlZLNGNBS0I1bHhpcnVmN3ZLR2RjSHZQQUJkSTNYSEZvRU9zRmt1TGlCQTFYNVBNV2g4N1JPTEhDenA5UGRtXzhBaXRuWWtQTk15SHpEU3V0UnVJMnpKejlxMXRkVTAwSGEy0gHWAUFVX3lxTE5DSnVBME5TaGVkS0liVGUyZUtuakstSk94X0h2NDdnSHVhOW92NGxPd3dSR2lYeElUWWdTc3VLNkxPeU14RlJsWkVlckhucVRoTXVZQzFZVDJzSTNmUUlpSi0wdEVLZ2trUWt4TndiTkNLcmdSc3FPeThvUGVSYUhYWm1qYXFSS2U0VVhCVjdyaXItUVpXckZvNmxXUk1VX01vR2FhY21uRFRERU9DbVhFSUcteUZuTmNPSFJua2ZEU2d2N1pjSUMtTkRvVVNacUh3LVhvd0E?oc=5
   seen_at: '2026-11-01T01:11:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNVnk5MUhrd0xVUGFCWUhpSWg3TzJpSlZpMXBwSTZ1d0U3aXFpZGVXSy13dGR5MUdKaVBnZ3I0emRPM1llRjJXdEZxTWFvb09tdEVDSlpXUzdhcHNnOG4yQ0pYSFRUbUZmaDVrbGdmR2ZUOUtlS3M0cFlLMGJLSXFtUHg1eE1IWlQ5TUVEaTRBTlJrM1lSV19wVENiaGRmUl9yTkpTS2FobF9nMUJ0SnVFcHktREY1Rk1PeGc?oc=5
+  seen_at: '2026-11-04T02:21:23Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxPWDVIRmM0U2JHSEptbnhaVFRRY2RiMmpEcTRzVkJuZXdJOHpVdnhlS0xpNG1MUVc2d0Jiem12WXY3dW9CTHQwdzNmNjY3Wm41ZmdoNnNJc1lKRHljOVo4ZExMdjh6a2VuVFZaVDNkYWxNM3ljWWZKVlRiS3NobUQ2bUFDX09vYWt5OEFZVXliMTdYRTA2MFp2eVAzRk84OTNqZ3QzX3FjZFBxdHBsOU5nOWtSZHo?oc=5
+  seen_at: '2026-11-04T02:21:23Z'
   metrics: {}
   kind: news
 ---

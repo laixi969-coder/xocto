@@ -1,0 +1,43 @@
+---
+slug: anthropics-new-consulting-venture-why-are-ai-model-companies
+name: 'Anthropic’s new consulting venture: Why are AI model companies moving into the services business?
+  | Explained'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMndLOU9TelRkNzNHZGUweTFtUnBGQ01xQUlxN2tvVE5LeHgwX25ZaDlxUURDdkdLdmFzME9kRHpPVTBpaF9XeHgxajlQakFUelpGVGR3MEppQWNuVGMwYlFEenBkM0NocUFQN3BOemozYVhLdTJ2cG5jazZFTjgyUEk2TEd5VkdkRkQ2czNCejVoZjhQOTZKOFZ5aW1XRkRydzNrOXBxNS03S0NIMTItMXdRWDd3MDVnTW9qY0xxcFpfVGtQYU5hSzQwTzVtV2dNY3VGUVd0QzRIMEJhTzVsM2FRYmhMU3otTlFHWkVWbVVwSzBOcUHSAfYBQVVfeXFMTzJ3SzlPU3pUZDczR2RlMHkxbVJwRkNNcUFJcTdrb1ROS3h4MF9uWWg5cVFEQ3ZHS3ZhczBPZER6T1UwaWhfV3h4MWo5UGpBVHpaRlRkdzBKaUFjblRjMGJRRHpwZDNDaHFBUDdwTnpqM2FYS3UydnBuY2s2RU44MlBJNkxHeVZHZEZENnMzQno1aGY4UDk2SjhWeWltV0ZEcnczazlwcTUtN0tDSDEyLTF3UVg3dzA1Z01vamNMcXBaX1RrUGFOYUs0ME81bVdnTWN1RlFXdEM0SDBCYU81bDNhUWJoTFN6LU5RR1pFVm1VcEswTnFB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMndLOU9TelRkNzNHZGUweTFtUnBGQ01xQUlxN2tvVE5LeHgwX25ZaDlxUURDdkdLdmFzME9kRHpPVTBpaF9XeHgxajlQakFUelpGVGR3MEppQWNuVGMwYlFEenBkM0NocUFQN3BOemozYVhLdTJ2cG5jazZFTjgyUEk2TEd5VkdkRkQ2czNCejVoZjhQOTZKOFZ5aW1XRkRydzNrOXBxNS03S0NIMTItMXdRWDd3MDVnTW9qY0xxcFpfVGtQYU5hSzQwTzVtV2dNY3VGUVd0QzRIMEJhTzVsM2FRYmhMU3otTlFHWkVWbVVwSzBOcUHSAfYBQVVfeXFMTzJ3SzlPU3pUZDczR2RlMHkxbVJwRkNNcUFJcTdrb1ROS3h4MF9uWWg5cVFEQ3ZHS3ZhczBPZER6T1UwaWhfV3h4MWo5UGpBVHpaRlRkdzBKaUFjblRjMGJRRHpwZDNDaHFBUDdwTnpqM2FYS3UydnBuY2s2RU44MlBJNkxHeVZHZEZENnMzQno1aGY4UDk2SjhWeWltV0ZEcnczazlwcTUtN0tDSDEyLTF3UVg3dzA1Z01vamNMcXBaX1RrUGFOYUs0ME81bVdnTWN1RlFXdEM0SDBCYU81bDNhUWJoTFN6LU5RR1pFVm1VcEswTnFB?oc=5
+summary: 'Anthropic’s new consulting venture: Why are AI model companies moving into the services business?
+  | Explained The Hindu'
+first_seen: '2026-11-04T02:21:23Z'
+last_seen: '2026-11-04T02:21:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMndLOU9TelRkNzNHZGUweTFtUnBGQ01xQUlxN2tvVE5LeHgwX25ZaDlxUURDdkdLdmFzME9kRHpPVTBpaF9XeHgxajlQakFUelpGVGR3MEppQWNuVGMwYlFEenBkM0NocUFQN3BOemozYVhLdTJ2cG5jazZFTjgyUEk2TEd5VkdkRkQ2czNCejVoZjhQOTZKOFZ5aW1XRkRydzNrOXBxNS03S0NIMTItMXdRWDd3MDVnTW9qY0xxcFpfVGtQYU5hSzQwTzVtV2dNY3VGUVd0QzRIMEJhTzVsM2FRYmhMU3otTlFHWkVWbVVwSzBOcUHSAfYBQVVfeXFMTzJ3SzlPU3pUZDczR2RlMHkxbVJwRkNNcUFJcTdrb1ROS3h4MF9uWWg5cVFEQ3ZHS3ZhczBPZER6T1UwaWhfV3h4MWo5UGpBVHpaRlRkdzBKaUFjblRjMGJRRHpwZDNDaHFBUDdwTnpqM2FYS3UydnBuY2s2RU44MlBJNkxHeVZHZEZENnMzQno1aGY4UDk2SjhWeWltV0ZEcnczazlwcTUtN0tDSDEyLTF3UVg3dzA1Z01vamNMcXBaX1RrUGFOYUs0ME81bVdnTWN1RlFXdEM0SDBCYU81bDNhUWJoTFN6LU5RR1pFVm1VcEswTnFB?oc=5
+  seen_at: '2026-11-04T02:21:23Z'
+  metrics: {}
+  kind: news
+---
+
+# Anthropic’s new consulting venture: Why are AI model companies moving into the services business? | Explained
+
+Anthropic’s new consulting venture: Why are AI model companies moving into the services business? | Explained The Hindu
+
+## 笔记
+
+

@@ -22,17 +22,17 @@ summary: Always-on AI Gods that work inside Claude Code, and you can talk to the
   computer use (browser, terminal & files), real-time voice like Jarvis, workers on a call in their own
   voice, Slack, and Spaces for your projects.
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AKamaly/CludeGods
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
     stars: 49
-    forks: 7
+    forks: 6
     open_issues: 0
   kind: product
 ---

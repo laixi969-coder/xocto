@@ -20,17 +20,17 @@ url: https://p.migdal.pl/warsaw-vibe-voxel/
 canonical_url: https://p.migdal.pl/warsaw-vibe-voxel
 summary: An interactive 3D map of the city centre
 first_seen: '2026-11-03T03:28:53Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://p.migdal.pl/warsaw-vibe-voxel/
-  seen_at: '2026-11-03T03:28:53Z'
+  seen_at: '2026-11-04T02:20:47Z'
   metrics:
-    points: 222
-    comments: 36
+    points: 315
+    comments: 52
   kind: product
 ---
 

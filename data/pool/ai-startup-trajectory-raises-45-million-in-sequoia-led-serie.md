@@ -1,0 +1,42 @@
+---
+slug: ai-startup-trajectory-raises-45-million-in-sequoia-led-serie
+name: AI startup Trajectory raises $45 million in Sequoia-led Series A at $300 million valuation
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLUpWYS0yWHZaUVhYMmFXWkpUNGJoWnZFLWZhekpoajExMXo5eXotU2F4NnVnT3pkLWJ4WG5OOEdaXzdCXy1HWUJtWUdTdXBKUmRaSDlyR3dLdDZZTFR0T09nc1AwTWROczFQc0lmdzcwRl9fek4zRm1jQ0tJckhzVVRVVVJxUHk4clFiaW8teDhGeDFEcC1ldHZ2ekJCRnhtM0xSQm5kd3hoU0EyTmJqOE9wNE5kOWotaXZXQU1XRTh6YUlnRWdzcHY0aWtkZ0JlcjNCRHNSaGJDemtyS1VnNktIbFhXelJzOFNEV0pvUTBCOWNH0gH6AUFVX3lxTE5sNzBmWUdoV0JQWUEyeUJoV0l4UXJjZWFkLWZhSmZaVld1amw3WkNSMWdlRmFaV2NZdlZMdTMyTTc5WWxvdEoyMFV1UjZmS3FxZWFSbVhiTlY4S3dMa2VBU3EtbVdkRlRnUlRfeG5paGtFbTlGWkg0SWxFYmEwT2hsbWJ4aGhyZjlGYXM2RThFb2E4RXZqTVQ4NXY4UU9lU3VyY1JpazhiMnN2Ym1QcDZxZW0ybVc4a1NvNXE5ZHdheFZfanRrdmstVHc4endYR1lQc2lkNk1MX2V5eThEU3pTTHFPQlpZZzZyNG1TZW92TWJHdVJMZzZQMmc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLUpWYS0yWHZaUVhYMmFXWkpUNGJoWnZFLWZhekpoajExMXo5eXotU2F4NnVnT3pkLWJ4WG5OOEdaXzdCXy1HWUJtWUdTdXBKUmRaSDlyR3dLdDZZTFR0T09nc1AwTWROczFQc0lmdzcwRl9fek4zRm1jQ0tJckhzVVRVVVJxUHk4clFiaW8teDhGeDFEcC1ldHZ2ekJCRnhtM0xSQm5kd3hoU0EyTmJqOE9wNE5kOWotaXZXQU1XRTh6YUlnRWdzcHY0aWtkZ0JlcjNCRHNSaGJDemtyS1VnNktIbFhXelJzOFNEV0pvUTBCOWNH0gH6AUFVX3lxTE5sNzBmWUdoV0JQWUEyeUJoV0l4UXJjZWFkLWZhSmZaVld1amw3WkNSMWdlRmFaV2NZdlZMdTMyTTc5WWxvdEoyMFV1UjZmS3FxZWFSbVhiTlY4S3dMa2VBU3EtbVdkRlRnUlRfeG5paGtFbTlGWkg0SWxFYmEwT2hsbWJ4aGhyZjlGYXM2RThFb2E4RXZqTVQ4NXY4UU9lU3VyY1JpazhiMnN2Ym1QcDZxZW0ybVc4a1NvNXE5ZHdheFZfanRrdmstVHc4endYR1lQc2lkNk1MX2V5eThEU3pTTHFPQlpZZzZyNG1TZW92TWJHdVJMZzZQMmc?oc=5
+summary: AI startup Trajectory raises $45 million in Sequoia-led Series A at $300 million valuation ET
+  Enterprise AI
+first_seen: '2026-11-04T02:21:23Z'
+last_seen: '2026-11-04T02:21:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLUpWYS0yWHZaUVhYMmFXWkpUNGJoWnZFLWZhekpoajExMXo5eXotU2F4NnVnT3pkLWJ4WG5OOEdaXzdCXy1HWUJtWUdTdXBKUmRaSDlyR3dLdDZZTFR0T09nc1AwTWROczFQc0lmdzcwRl9fek4zRm1jQ0tJckhzVVRVVVJxUHk4clFiaW8teDhGeDFEcC1ldHZ2ekJCRnhtM0xSQm5kd3hoU0EyTmJqOE9wNE5kOWotaXZXQU1XRTh6YUlnRWdzcHY0aWtkZ0JlcjNCRHNSaGJDemtyS1VnNktIbFhXelJzOFNEV0pvUTBCOWNH0gH6AUFVX3lxTE5sNzBmWUdoV0JQWUEyeUJoV0l4UXJjZWFkLWZhSmZaVld1amw3WkNSMWdlRmFaV2NZdlZMdTMyTTc5WWxvdEoyMFV1UjZmS3FxZWFSbVhiTlY4S3dMa2VBU3EtbVdkRlRnUlRfeG5paGtFbTlGWkg0SWxFYmEwT2hsbWJ4aGhyZjlGYXM2RThFb2E4RXZqTVQ4NXY4UU9lU3VyY1JpazhiMnN2Ym1QcDZxZW0ybVc4a1NvNXE5ZHdheFZfanRrdmstVHc4endYR1lQc2lkNk1MX2V5eThEU3pTTHFPQlpZZzZyNG1TZW92TWJHdVJMZzZQMmc?oc=5
+  seen_at: '2026-11-04T02:21:23Z'
+  metrics: {}
+  kind: news
+---
+
+# AI startup Trajectory raises $45 million in Sequoia-led Series A at $300 million valuation
+
+AI startup Trajectory raises $45 million in Sequoia-led Series A at $300 million valuation ET Enterprise AI
+
+## 笔记
+
+

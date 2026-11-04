@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50340088
 canonical_url: https://news.ycombinator.com/item?id=50340088
 summary: Talk to your computer without making noise
 first_seen: '2026-11-03T03:28:53Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50340088
-  seen_at: '2026-11-03T03:28:53Z'
+  seen_at: '2026-11-04T02:20:47Z'
   metrics:
-    points: 585
-    comments: 313
+    points: 813
+    comments: 383
   kind: product
 ---
 

@@ -1,0 +1,42 @@
+---
+slug: the-integration-tax-why-ai-agents-are-forcing-a-rethink-of-t
+name: 'The Integration Tax: Why AI Agents Are Forcing a Rethink of the Small Business Software Stack'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQcmhtUG9QcWFqZEExVUFZUlZxM1JkaDl6NUFhZlJOTUNTVS1Vb2NSRnVjWUl2Y3RmOVZYdV9POE85X05hLUJCZEgtbU9VSlVuMXp5T1pSOWdnbEpfRkJDRmM0UkNGUTdlUVp4UFNYNE5VYlJIZUFpaFF3ekpEMXZsdWd5Z3dDU3djMGtsbkNMb2J2S2xrX0xVVHFfdGR4OUdpQmkxU1ZvRDlLWXAtRURZSEZnQkpOTm5wTS1lN1VSLTRRb09Lbm9CazUweUJMQdIB1gFBVV95cUxOdVlSUDF6QVMyZk1wcGlQREFNazF3T3MtSzk2Z3BOck1pSURZY2d5SnptOTl4d3pqeERrc015UGpqSmgtRjNrWDdwWmFlcV8wT0xtOXpIbWhQa2ZnNWJsSi1yWGt2WC1hWnFGU0EyZFBYV0lpMDdWZ1M3MjltT2xTdlBiaGxwejlQb2dpSTA3Z1ZnZ2dFMTR5TXFSb2RpQ29TaFlGdXJOQ2Etb1pVVzRKWnFPS3Q5MUZaV2JLYjM5TVhDRXBtSGl5Z2Zud2Ffd1ItTUlUSkZn?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQcmhtUG9QcWFqZEExVUFZUlZxM1JkaDl6NUFhZlJOTUNTVS1Vb2NSRnVjWUl2Y3RmOVZYdV9POE85X05hLUJCZEgtbU9VSlVuMXp5T1pSOWdnbEpfRkJDRmM0UkNGUTdlUVp4UFNYNE5VYlJIZUFpaFF3ekpEMXZsdWd5Z3dDU3djMGtsbkNMb2J2S2xrX0xVVHFfdGR4OUdpQmkxU1ZvRDlLWXAtRURZSEZnQkpOTm5wTS1lN1VSLTRRb09Lbm9CazUweUJMQdIB1gFBVV95cUxOdVlSUDF6QVMyZk1wcGlQREFNazF3T3MtSzk2Z3BOck1pSURZY2d5SnptOTl4d3pqeERrc015UGpqSmgtRjNrWDdwWmFlcV8wT0xtOXpIbWhQa2ZnNWJsSi1yWGt2WC1hWnFGU0EyZFBYV0lpMDdWZ1M3MjltT2xTdlBiaGxwejlQb2dpSTA3Z1ZnZ2dFMTR5TXFSb2RpQ29TaFlGdXJOQ2Etb1pVVzRKWnFPS3Q5MUZaV2JLYjM5TVhDRXBtSGl5Z2Zud2Ffd1ItTUlUSkZn?oc=5
+summary: 'The Integration Tax: Why AI Agents Are Forcing a Rethink of the Small Business Software Stack
+  TechFinancials'
+first_seen: '2026-11-04T02:21:23Z'
+last_seen: '2026-11-04T02:21:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQcmhtUG9QcWFqZEExVUFZUlZxM1JkaDl6NUFhZlJOTUNTVS1Vb2NSRnVjWUl2Y3RmOVZYdV9POE85X05hLUJCZEgtbU9VSlVuMXp5T1pSOWdnbEpfRkJDRmM0UkNGUTdlUVp4UFNYNE5VYlJIZUFpaFF3ekpEMXZsdWd5Z3dDU3djMGtsbkNMb2J2S2xrX0xVVHFfdGR4OUdpQmkxU1ZvRDlLWXAtRURZSEZnQkpOTm5wTS1lN1VSLTRRb09Lbm9CazUweUJMQdIB1gFBVV95cUxOdVlSUDF6QVMyZk1wcGlQREFNazF3T3MtSzk2Z3BOck1pSURZY2d5SnptOTl4d3pqeERrc015UGpqSmgtRjNrWDdwWmFlcV8wT0xtOXpIbWhQa2ZnNWJsSi1yWGt2WC1hWnFGU0EyZFBYV0lpMDdWZ1M3MjltT2xTdlBiaGxwejlQb2dpSTA3Z1ZnZ2dFMTR5TXFSb2RpQ29TaFlGdXJOQ2Etb1pVVzRKWnFPS3Q5MUZaV2JLYjM5TVhDRXBtSGl5Z2Zud2Ffd1ItTUlUSkZn?oc=5
+  seen_at: '2026-11-04T02:21:23Z'
+  metrics: {}
+  kind: news
+---
+
+# The Integration Tax: Why AI Agents Are Forcing a Rethink of the Small Business Software Stack
+
+The Integration Tax: Why AI Agents Are Forcing a Rethink of the Small Business Software Stack TechFinancials
+
+## 笔记
+
+

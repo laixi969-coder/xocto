@@ -20,16 +20,16 @@ url: https://suikv000.github.io/mai-you-pu/
 canonical_url: https://suikv000.github.io/mai-you-pu
 summary: 麦有谱：同样的麦当劳，不同的吃法。基于麦当劳 MCP 的组合吃法 Skill 与交互演示。
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://suikv000.github.io/mai-you-pu/
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 209
+    stars: 206
     forks: 0
     open_issues: 0
   kind: product

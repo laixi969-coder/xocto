@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-11-03T03:29:33Z'
+last_seen: '2026-11-04T02:21:17Z'
 status: pending_filter
 sources:
 - hackernews
@@ -173,6 +173,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMibkFVX3lxTE9PZTg1TmZ3UTkzd1UtcURBaTdpUUVzdzdqdTRCT1dLTmxVV2t6UFpDYXgxNkZLandyWWs0b0VNY3NxbWxYQ0JoOXA5WXpmT2xrOXJfcWtEamE1b1lfaDBjTHFkb19SSTlHSmgyN0ZR?oc=5
   seen_at: '2026-11-03T03:29:33Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search
+  seen_at: '2026-11-04T02:21:17Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features
+  seen_at: '2026-11-04T02:21:17Z'
   metrics: {}
   kind: news
 ---

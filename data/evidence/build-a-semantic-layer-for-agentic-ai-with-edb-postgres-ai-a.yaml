@@ -1,0 +1,19 @@
+- id: ev-9dc091b5e25cb7d4
+  project_slug: build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-a
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore/
+  title: Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore
+  published_at: '2026-11-03T16:41:13Z'
+  collected_at: '2026-11-04T02:21:16Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'In this post, we show how to build a semantic layer for agentic AI using EDB Postgres AI . We
+    run a Strands Agents agent on Amazon Bedrock AgentCore that queries the layer to answer customer 360
+    (C360) questions. Earlier posts in this series built the same C360 pattern with Stardog’s knowledge
+    graph , Denodo’s data virtualization platform , AtScale’s dimensional model , and Strategy Mosaic’s
+    linked models . EDB Postgres AI puts the semantic layer inside the operational Postgres database as
+    an AIDB extension . Business meaning lives next to the data in standard Postgres COMMENT statements,
+    the join graph comes from Postgres foreign keys, and governance uses Postgres GRANT and row-level
+    security through the Model Context Protocol (MCP) endpoint that ships with AIDB. By the end of this
+    post you will know: How to build an AIDB semantic knowledge base (SemKB) over a Postgres schema, how
+    COMMENT ON statements and aidb.create_semantic_alias behave as the authoring surface, and how foreign
+    key'

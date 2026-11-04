@@ -20,16 +20,16 @@ url: https://github.com/Yuuyuko-uu/dsh-speak-up
 canonical_url: https://github.com/Yuuyuko-uu/dsh-speak-up
 summary: DSH 插件：让她在没人跟她说话的时候主动搭话（本地掷骰子，掷中就走 DSH 自己的一轮）
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Yuuyuko-uu/dsh-speak-up
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 211
+    stars: 214
     forks: 5
     open_issues: 0
   kind: product

@@ -21,18 +21,18 @@ canonical_url: https://github.com/glincker/awesome-selfhosted-ai/blob/main/LIVE.
 summary: 'Curated list of self-hosted open-source AI: local LLMs, chat UIs, agents, MCP servers, RAG,
   speech and image generation. Health-checked weekly, dead projects removed automatically.'
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/glincker/awesome-selfhosted-ai/blob/main/LIVE.md
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 90
-    forks: 10
-    open_issues: 0
+    stars: 99
+    forks: 11
+    open_issues: 1
   kind: product
 ---
 

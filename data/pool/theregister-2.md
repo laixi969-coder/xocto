@@ -20,8 +20,8 @@ url: https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people
 canonical_url: https://theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368
 summary: AI models don't kill people – people kill people
 first_seen: '2026-09-13T13:33:34Z'
-last_seen: '2026-10-18T00:03:44Z'
-status: rejected
+last_seen: '2026-11-04T02:20:47Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -79,6 +79,13 @@ sightings:
   metrics:
     points: 208
     comments: 86
+  kind: news
+- source: hackernews
+  url: https://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-percent-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132
+  seen_at: '2026-11-04T02:20:47Z'
+  metrics:
+    points: 27
+    comments: 4
   kind: news
 ---
 

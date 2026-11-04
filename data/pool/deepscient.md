@@ -20,17 +20,17 @@ url: https://github.com/yzlin286-wq/Deepscient
 canonical_url: https://github.com/yzlin286-wq/Deepscient
 summary: 让 AI 与人类一起攻克真正的科学难题 —— 12 阶段 55 门 · 36 工具 · 98 条技能 · 证据链与可复现
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yzlin286-wq/Deepscient
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 726
-    forks: 0
+    stars: 767
+    forks: 2
     open_issues: 0
   kind: product
 ---

@@ -1,0 +1,19 @@
+- id: ev-f3af5063fe4cc95a
+  project_slug: servicenow-on-behalf-of-token-exchange-with-bedrock-agentcor
+  url: https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/
+  title: ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway
+  published_at: '2026-11-03T16:47:40Z'
+  collected_at: '2026-11-04T02:21:16Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: AI agents that interact with enterprise APIs on behalf of users need to maintain user identity
+    throughout the request chain. Without identity propagation, API calls arrive at downstream services
+    as the application itself rather than the user who initiated the action. This breaks audit trails,
+    bypasses user-level access controls, and violates the principle of least privilege. Amazon Bedrock
+    AgentCore is a platform to build, connect, and optimize agents at scale, with any framework or model.
+    This post shows how to configure AgentCore Gateway , a capability of Amazon Bedrock AgentCore, for
+    an on-behalf-of (OBO) token exchange with Microsoft Entra ID. An AI agent can then call the ServiceNow
+    REST API while preserving the calling user’s identity. You configure the token exchange on the gateway
+    target, and AgentCore Gateway performs the exchange on each request. The pattern can be applied to
+    other REST APIs protected by OAuth. In production, you can additionally pair identity propagation
+    wit

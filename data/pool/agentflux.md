@@ -21,17 +21,17 @@ canonical_url: https://agentflux.cloud
 summary: Agentic AI platform for visual workflows and autonomous agents. Run it with Docker on your own
   computer or server.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://agentflux.cloud
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 248
-    forks: 1
+    stars: 251
+    forks: 3
     open_issues: 0
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://momandpop.network/2026/11/02/cant-fish-ethernet-use-invisible-fiber
 canonical_url: https://momandpop.network/2026/11/02/cant-fish-ethernet-use-invisible-fiber-instead
 summary: Can’t fish Ethernet? Use “invisible” fiber instead
 first_seen: '2026-11-03T03:28:53Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://momandpop.network/2026/11/02/cant-fish-ethernet-use-invisible-fiber-instead/
-  seen_at: '2026-11-03T03:28:53Z'
+  seen_at: '2026-11-04T02:20:47Z'
   metrics:
-    points: 54
-    comments: 60
+    points: 62
+    comments: 65
   kind: news
 ---
 

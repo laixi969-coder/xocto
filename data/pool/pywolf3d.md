@@ -20,17 +20,17 @@ url: https://github.com/atifcodesalot/pyWolf3D
 canonical_url: https://github.com/atifcodesalot/pyWolf3D
 summary: a wolfenstein3D clone written from scratch in Python
 first_seen: '2026-11-03T03:28:53Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/atifcodesalot/pyWolf3D
-  seen_at: '2026-11-03T03:28:53Z'
+  seen_at: '2026-11-04T02:20:47Z'
   metrics:
-    points: 17
-    comments: 3
+    points: 30
+    comments: 8
   kind: product
 ---
 

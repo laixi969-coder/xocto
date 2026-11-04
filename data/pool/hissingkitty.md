@@ -20,7 +20,7 @@ url: https://hissingkitty.com/
 canonical_url: https://hissingkitty.com
 summary: what teams pay for software and what replaced it
 first_seen: '2026-10-26T00:24:18Z'
-last_seen: '2026-10-28T01:22:30Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 5
     comments: 3
+  kind: product
+- source: hackernews
+  url: https://hissingkitty.com/hacker-churn
+  seen_at: '2026-11-04T02:20:47Z'
+  metrics:
+    points: 68
+    comments: 24
   kind: product
 ---
 

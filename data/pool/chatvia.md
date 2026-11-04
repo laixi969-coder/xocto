@@ -23,16 +23,16 @@ summary: Open-source platform for AI chat agents that answer from your own knowl
   page, a website widget, Slack, Teams, WhatsApp, Telegram or a REST API. Self-host with Docker and open-weight
   models.
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://chatvia.ai
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
-    stars: 112
+    stars: 116
     forks: 0
     open_issues: 2
   kind: product

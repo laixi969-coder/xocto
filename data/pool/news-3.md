@@ -20,7 +20,7 @@ url: https://news.ycombinator.lol
 canonical_url: https://news.ycombinator.lol
 summary: Pointless but mostly-exact clone of Hacker News
 first_seen: '2026-10-07T18:05:35Z'
-last_seen: '2026-11-03T03:29:26Z'
+last_seen: '2026-11-04T02:21:17Z'
 status: pending_filter
 sources:
 - hackernews
@@ -88,6 +88,11 @@ sightings:
 - source: officialfeeds
   url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/
   seen_at: '2026-11-03T03:29:26Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news
+  seen_at: '2026-11-04T02:21:17Z'
   metrics: {}
   kind: news
 ---

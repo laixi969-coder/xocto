@@ -21,18 +21,18 @@ canonical_url: https://cedr.dev
 summary: 'Developer tools for humans and agents: route work to the right AI coding agent, merge multi-vendor
   reviews into one gate, and pin the skills and MCP servers agents load.'
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-04T02:20:51Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://cedr.dev
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-04T02:20:51Z'
   metrics:
     stars: 65
     forks: 1
-    open_issues: 4
+    open_issues: 3
   kind: product
 ---
 

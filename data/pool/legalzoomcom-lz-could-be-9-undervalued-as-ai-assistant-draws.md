@@ -1,0 +1,41 @@
+---
+slug: legalzoomcom-lz-could-be-9-undervalued-as-ai-assistant-draws
+name: LegalZoom.com (LZ) Could Be 9% Undervalued As AI Assistant Draws Early Interest
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY0h2MS1nVjEwSk5PRk5FN2xuQ3h5djk5WjYxNkMyUGltVDFKVWRFMWdDMTdQem5GZUZfLVJLRnpaMFJ4N3ctS21KWi1WVHppRndBazZFYXVOekVVNnUyaTRCV3U2NHRoZzBqSmxlSEp2eFdzSjh1NzloZ3ozSm5QUXlNbldzeVFoelBXX0NCc0hUNUtOM2FWUWxmaURSd1BTM3cwZzVOQ2s1ZlRPZnhFZ09US29hTFZIWm1jSTJVNW03bEdpdDR6d01EaEFvMU92VFcwNnBSUdIB3AFBVV95cUxQckM0M2d0OFNCSy1YWHAzQ21VZWUtR1lzNVVob0Q0bmFDZGl0U0FpbnQ0THFPd09XbzBtSS1LZ19uTXNFRHFYLWUwaTlQS2tTdllQQUVGRU9qOHhKLUsyTFVIaFhCMF9pLWxTTE9URUNVSGw2YXM4cF9RbGxEbndRX2gzZ0NlSk4xNVN3ZWFqV1UzalRrVkdIU3RzY2N2elp2eEhwSWY0aDQtaG5NWE5HYnYxRXl0YlRqVFVfdXpBTWZSSDNTckE2MllYelozQjh0NU1uYlpwTUhsUDVV?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY0h2MS1nVjEwSk5PRk5FN2xuQ3h5djk5WjYxNkMyUGltVDFKVWRFMWdDMTdQem5GZUZfLVJLRnpaMFJ4N3ctS21KWi1WVHppRndBazZFYXVOekVVNnUyaTRCV3U2NHRoZzBqSmxlSEp2eFdzSjh1NzloZ3ozSm5QUXlNbldzeVFoelBXX0NCc0hUNUtOM2FWUWxmaURSd1BTM3cwZzVOQ2s1ZlRPZnhFZ09US29hTFZIWm1jSTJVNW03bEdpdDR6d01EaEFvMU92VFcwNnBSUdIB3AFBVV95cUxQckM0M2d0OFNCSy1YWHAzQ21VZWUtR1lzNVVob0Q0bmFDZGl0U0FpbnQ0THFPd09XbzBtSS1LZ19uTXNFRHFYLWUwaTlQS2tTdllQQUVGRU9qOHhKLUsyTFVIaFhCMF9pLWxTTE9URUNVSGw2YXM4cF9RbGxEbndRX2gzZ0NlSk4xNVN3ZWFqV1UzalRrVkdIU3RzY2N2elp2eEhwSWY0aDQtaG5NWE5HYnYxRXl0YlRqVFVfdXpBTWZSSDNTckE2MllYelozQjh0NU1uYlpwTUhsUDVV?oc=5
+summary: LegalZoom.com (LZ) Could Be 9% Undervalued As AI Assistant Draws Early Interest Simply Wall St
+first_seen: '2026-11-04T02:21:23Z'
+last_seen: '2026-11-04T02:21:23Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY0h2MS1nVjEwSk5PRk5FN2xuQ3h5djk5WjYxNkMyUGltVDFKVWRFMWdDMTdQem5GZUZfLVJLRnpaMFJ4N3ctS21KWi1WVHppRndBazZFYXVOekVVNnUyaTRCV3U2NHRoZzBqSmxlSEp2eFdzSjh1NzloZ3ozSm5QUXlNbldzeVFoelBXX0NCc0hUNUtOM2FWUWxmaURSd1BTM3cwZzVOQ2s1ZlRPZnhFZ09US29hTFZIWm1jSTJVNW03bEdpdDR6d01EaEFvMU92VFcwNnBSUdIB3AFBVV95cUxQckM0M2d0OFNCSy1YWHAzQ21VZWUtR1lzNVVob0Q0bmFDZGl0U0FpbnQ0THFPd09XbzBtSS1LZ19uTXNFRHFYLWUwaTlQS2tTdllQQUVGRU9qOHhKLUsyTFVIaFhCMF9pLWxTTE9URUNVSGw2YXM4cF9RbGxEbndRX2gzZ0NlSk4xNVN3ZWFqV1UzalRrVkdIU3RzY2N2elp2eEhwSWY0aDQtaG5NWE5HYnYxRXl0YlRqVFVfdXpBTWZSSDNTckE2MllYelozQjh0NU1uYlpwTUhsUDVV?oc=5
+  seen_at: '2026-11-04T02:21:23Z'
+  metrics: {}
+  kind: news
+---
+
+# LegalZoom.com (LZ) Could Be 9% Undervalued As AI Assistant Draws Early Interest
+
+LegalZoom.com (LZ) Could Be 9% Undervalued As AI Assistant Draws Early Interest Simply Wall St
+
+## 笔记
+
+

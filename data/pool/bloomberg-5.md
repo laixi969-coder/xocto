@@ -20,7 +20,7 @@ url: https://www.bloomberg.com/news/articles/2026-09-24/oracle-cites-force-majeu
 canonical_url: https://bloomberg.com/news/articles/2026-09-24/oracle-cites-force-majeure-to-shield-itself-on-controversial-data-center
 summary: Oracle cites 'force majeure' to shield itself on controversial data center
 first_seen: '2026-09-24T13:04:21Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
@@ -41,10 +41,17 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near
-  seen_at: '2026-11-03T03:28:53Z'
+  seen_at: '2026-11-04T02:20:47Z'
   metrics:
-    points: 166
-    comments: 239
+    points: 188
+    comments: 253
+  kind: news
+- source: hackernews
+  url: https://www.bloomberg.com/opinion/articles/2026-11-03/ai-investment-boom-demands-stronger-financial-oversight
+  seen_at: '2026-11-04T02:20:47Z'
+  metrics:
+    points: 69
+    comments: 66
   kind: news
 ---
 

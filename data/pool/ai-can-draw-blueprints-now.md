@@ -20,17 +20,17 @@ url: https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now
 canonical_url: https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now
 summary: Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings
 first_seen: '2026-11-03T03:28:53Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-04T02:20:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now
-  seen_at: '2026-11-03T03:28:53Z'
+  seen_at: '2026-11-04T02:20:47Z'
   metrics:
-    points: 87
-    comments: 29
+    points: 105
+    comments: 37
   kind: news
 ---
 
