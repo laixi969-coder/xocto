@@ -1,0 +1,95 @@
+{
+  "company_id": "88576D89-1F28-4BD7-83D2-5B61A331E5CE",
+  "zh": {
+    "summary": "Marble Cognition 是一家慕尼黑 AI 公司，先记录员工跨工具的日常工作、绘制流程地图并评估自动化潜力，再部署需人工审批的 AI 同事。",
+    "judgment": "其关键商业判断是把“该自动化什么”作为切入点，用流程发现与治理层绑定客户，而不是直接售卖又一个通用 agent 构建器；但这一判断尚未被公开的付费与留存数据验证。",
+    "replaces": "替代靠访谈和手工梳理的流程盘点、过时的 SOP 文档，以及团队各自零散试用通用 agent 的摸索过程。",
+    "segment": "企业流程发现与 AI 工作流自动化（AI 同事治理层）",
+    "product": "公司披露的产品链路是 Capture、Understand、Identify、Automate、Measure：在员工本机跨标签页、遗留系统、VPN 和虚拟桌面记录工作，把操作转成流程地图，按复杂度与自动化潜力排序，再用真实案例测试 AI 同事，关键判断保留人工审批。首页还展示发票审批场景中的姓名、地址、账号脱敏，并声称具备 SOC 2 认证与可选欧盟托管、可在客户自有环境完成匿名化。产品页列出客服、财务、保险理赔、应收账款、支付匹配、私募投后整合等用例，但这些是场景清单而非已交付案例。",
+    "customer": "使用者是淹没在多个标签页和重复操作中的一线团队，如客服、财务与会计、保险理赔与佣金、专业服务应收与月结、金融支付匹配；付费者更可能是这些职能的负责人或运营/转型负责人，因为产品承诺按流程和团队量化节省工时与审批率。痛点频率高：退款、发票匹配、付款批次等属于每日重复且带例外分支的工作，正是流程发现价值最大的地方。但公开材料没有说明具体买家画像、团队规模或采购触发点。",
+    "workflow": "典型流程是：员工自行开关记录，Marble 采集跨工具操作；系统把操作归纳为带边界情况的流程，并给出自动化潜力评分（页面示例中退款处理 86%、发票匹配 79%）；随后在真实历史案例上测试 AI 同事，低风险案件自动处理，超过阈值（示例为 500 欧元以上退款）转人工审批；最后按流程和团队统计节省小时数、处理量与无修改通过率，并自动生成随实际做法更新的 SOP。输入是屏幕操作与业务单据，交付是流程地图、可审计的 AI 执行与影响报表。",
+    "business_model": "输入证据未披露定价、计费单位（按席位、按流程还是按处理量）、试用条款或实施费用，因此无法判断单位经济。可推断（非公司披露）其销售偏企业级：需要本机采集代理、安全审查与流程梳理服务，落地周期以“几周”计，可能采用订阅加实施的组合；若按自动化处理量计费，收入会随客户流程迁移深度增长，但也更依赖可验证的 ROI 报表。",
+    "traction": "可确认的采用证据仅限于投资方 Heartcore Capital 与 Seedcamp 参与的一轮 pre-seed 融资，以及官网自述的客户行业与用例；公司未公开客户数量、付费合同、留存、处理量或收入。官网展示的 4828 笔当日退款、50% 无修改通过率等数字是产品界面示意，不能当作真实客户业绩。缺少案例页、文档与定价页，使产品成熟度和部署可行性仍待核验。",
+    "moat": "相对通用模型与 agent 构建器，Marble 的差异在于先掌握组织真实流程与例外，再据此约束和评估 AI 执行，并把审批、审计与脱敏做进采集链路；相对旧流程，它把隐性知识转成持续更新的流程资产。壁垒成立的条件是：跨遗留系统与虚拟桌面的采集稳定、脱敏与合规经得起企业审查、流程地图能持续准确，以及客户迁移成本随流程沉淀而上升。若通用模型厂商直接提供企业级流程发现，或客户认为采集监控侵入性过强，这一层优势会被削弱。",
+    "funding_read": "这是一轮 pre-seed，说明公司处于产品与早期客户验证阶段，资金支持其继续打磨采集、治理与部署能力；投资方名单不等于领投名单，金额与原币以确定性层为准。资金用途未披露，因此不能推断具体投向。下一里程碑应是公开可核验的付费客户案例、部署周期与流程级 ROI 数据，而非更多场景清单。",
+    "risks": "第一，员工屏幕记录涉及隐私与劳资敏感，若脱敏或同意机制在实际部署中被质疑，销售会被安全与法务阻断。第二，流程发现若不能稳定覆盖遗留系统与例外分支，自动化潜力评分会失真，客户在试点后难以扩展。第三，若无法证明按流程量化的节省与审批质量，采购会把它视为又一个试用后搁置的 AI 工具；此外，定价与实施成本不透明也会拉长成交周期。",
+    "takeaway": "可借鉴的做法是把“先理解工作、再自动化”产品化：用真实操作而非访谈建立流程基线，用历史案例测试 AI，用人工审批守住高风险节点，并把节省与通过率做成可审计报表。对创业者而言，治理与可测量性本身可以成为差异化卖点，但必须尽早用付费客户数据替代界面示意。",
+    "watch_next": "接下来应关注：是否公开定价与部署文档；是否出现具名客户案例及流程级前后对比；采集代理在虚拟桌面与 VPN 环境下的稳定性；以及公司能否披露付费客户数、扩展率和人工审批比例的变化。",
+    "citations": [
+      {
+        "label": "Marble Cognition 官网首页",
+        "url": "https://marblecognition.com/"
+      },
+      {
+        "label": "Marble Cognition 产品页",
+        "url": "https://marblecognition.com/product/"
+      },
+      {
+        "label": "tech.eu 融资记录",
+        "url": "https://funding.tech.eu/deals/C33E0FDF-1EBD-4819-9480-AE968F67E20E"
+      }
+    ]
+  },
+  "en": {
+    "summary": "Marble Cognition is a Munich-based AI company that records employees' everyday work across tools, maps processes and ranks automation potential, then deploys human-approved AI coworkers.",
+    "judgment": "Its key commercial bet is to enter through process discovery and governance rather than sell another generic agent builder; that bet is not yet validated by public pricing, paid-customer or retention data.",
+    "replaces": "Interview-driven process audits, stale SOP documents, and scattered individual experiments with general-purpose agents.",
+    "segment": "Enterprise process discovery and AI workflow automation (governance layer for AI coworkers)",
+    "product": "Company-reported product flow is Capture, Understand, Identify, Automate and Measure: Marble records work on the employee's local machine across tabs, legacy tools, VPNs and virtual desktops, turns actions into a process map, ranks processes by complexity and automation potential, tests AI coworkers on real cases, and keeps human approval where judgment matters. The homepage shows redaction of names, addresses and account numbers in an invoice-approval screen, and claims SOC 2 certification, optional EU hosting and the ability to run full anonymization in the customer's own environment. The product page lists use cases in customer support, finance, insurance claims and commissions, accounts receivable, payment matching and private-equity integration, but these are scenario lists rather than delivered case studies.",
+    "customer": "Users are frontline teams drowning in tabs and repetitive work: support, finance and accounting, insurance claims and commissions, professional-services receivables and month-end closing, and financial-services payment matching. The payer is more likely a function head or operations/transformation lead, because the product promises per-process and per-team measurement of hours saved and approval rates. Pain frequency is high: refunds, invoice matching and payment runs are daily work with exception branches, exactly where process discovery matters. Public material does not identify buyer profiles, team sizes or purchase triggers.",
+    "workflow": "Employees switch recording on themselves; Marble captures cross-tool actions, consolidates them into processes with edge cases, and scores automation potential (the page shows refund handling at 86% and invoice matching at 79%). AI coworkers are then tested on real historical cases; low-risk cases are auto-approved while cases above a threshold (the example is refunds over EUR 500) go to a person. Finally, Marble reports hours saved, cases handled and approval-without-edit rates per process and team, and generates SOPs that update as work changes. Inputs are screen actions and business documents; outputs are process maps, auditable AI execution and impact reports.",
+    "business_model": "The input evidence does not disclose pricing, billing unit (seat, process or volume), trial terms or implementation fees, so unit economics cannot be assessed. An inference, not a company disclosure: sales look enterprise-oriented, requiring a local capture agent, security review and process-mapping services, with onboarding measured in weeks, likely a subscription-plus-implementation mix. Volume-based pricing would grow revenue with migration depth but depend more heavily on verifiable ROI reporting.",
+    "traction": "Confirmed adoption evidence is limited to a pre-seed round with Heartcore Capital and Seedcamp and the company's own industry and use-case descriptions; no customer count, paid contracts, retention, processing volume or revenue is public. Figures such as 4,828 refunds handled in a day and a 50% approval-without-edit rate are product-interface illustrations, not audited customer results. Missing case pages, documentation and pricing leave product maturity and deployability unverified.",
+    "moat": "Versus general models and agent builders, Marble's difference is knowing the organization's real processes and exceptions first, then constraining and evaluating AI execution against them, with approval, audit and redaction built into capture; versus old workflows, it turns tacit knowledge into a continuously updated process asset. The moat holds only if capture across legacy systems and virtual desktops is reliable, redaction and compliance survive enterprise review, process maps stay accurate, and switching costs rise as processes accumulate. It weakens if model vendors offer enterprise process discovery directly or if customers find screen capture too intrusive.",
+    "funding_read": "This is a pre-seed round, indicating a product and early-customer validation stage; the capital supports work on capture, governance and deployment. The investor list is not a lead-investor list, and amount and currency follow the deterministic layer. Use of funds is undisclosed, so no specific allocation can be inferred. The next milestone should be publicly verifiable paid case studies, deployment timelines and process-level ROI data, not more scenario lists.",
+    "risks": "First, employee screen recording is privacy- and labor-sensitive; if redaction or consent mechanisms are challenged in real deployments, security and legal reviews can block sales. Second, if process discovery cannot reliably cover legacy systems and exception branches, automation-potential scores will be wrong and pilots will not expand. Third, without proof of process-level savings and approval quality, buyers may treat it as another AI tool shelved after a trial; opaque pricing and implementation costs can also lengthen sales cycles.",
+    "takeaway": "A transferable practice is productizing 'understand the work before automating it': build a process baseline from real actions rather than interviews, test AI on historical cases, keep human approval at high-risk steps, and make savings and approval rates auditable. For founders, governance and measurability can be a differentiator, but interface illustrations must quickly be replaced by paid-customer data.",
+    "watch_next": "Watch for published pricing and deployment documentation; named customer cases with before-and-after process metrics; capture-agent reliability on virtual desktops and VPNs; and disclosure of paid customer counts, expansion rates and changes in human-approval share.",
+    "citations": [
+      {
+        "label": "Marble Cognition homepage",
+        "url": "https://marblecognition.com/"
+      },
+      {
+        "label": "Marble Cognition product page",
+        "url": "https://marblecognition.com/product/"
+      },
+      {
+        "label": "tech.eu funding record",
+        "url": "https://funding.tech.eu/deals/C33E0FDF-1EBD-4819-9480-AE968F67E20E"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/C33E0FDF-1EBD-4819-9480-AE968F67E20E",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Marble develops AI-powered technology designed to help companies identify, understand and automate their internal business processes.",
+      "checked_on": "2026-11-04"
+    },
+    {
+      "url": "https://marblecognition.com/",
+      "kind": "company_claim",
+      "role": "overview",
+      "checked_on": "2026-11-04",
+      "status": "retrieved",
+      "text": "Marble Cognition Marble Cognition Product Governance Conviction Join us Get in touch Menu Product Governance Conviction Give your team their best week, every week. Identify and automate work that shouldn’t be done by humans. Get in touch See how it works ↓ Anyone can build an agent now. Only Marble knows what yours should do. Built for teams drowning in tabs Technology ↗ Customer support · Finance & accounting · PO management Insurance ↗ Claims intake · Commission management · Quoting Professional services ↗ Accounts receivable · Payroll services · Month-end closing Financial services ↗ Payment matching · Quoting · Document processing Private equity ↗ Value creation strategy · Post-merger integration · Portfolio operations Security & privacy Employees decide when Marble records. Personal data is redacted before anything is processed, and nothing Marble shows can be traced back to an individual. On screen Invoice INV-5203 €1,860.00 Customer Anna Weber Address Lindenstraße 14, Berlin Account DE89 3704 0044 0532 0130 00 Anna Weber asked for the payment to go to DE89 3704 0044 0532 0130 00 by Friday. Please send the confirmation to Lindenstraße 14, Berlin . What Marble sees Invoice INV-5203 €1,860.00 Customer Anna Weber Name redacted Address Lindenstraße 14, Berlin Address redacted Account DE89 3704 0044 0532 0130 00 Account no. redacted Anna Weber Name redacted asked for the payment to go to DE89 3704 0044 0532 0130 00 Account no. redacted by Friday. Please send the confirmation to Lindenstraße 14, Berlin Address redacted . The same invoice approval screen as captured and as Marble sees it after redaction: the customer’s name, address and account number are redacted, in the fields and in the note; the invoice number, amount and the work itself stay readable. PII anonymization SOC 2 certified An independent audit of the controls that keep customer data secure. GDPR EU hosting available. Deployment options Full anonymization can run in your own environment, so no personal data leaves it. Aggregate analysis Nothing can be traced back to an individual. All data is analyzed in aggregate. How we protect your data → What should your AI coworkers do? In a few weeks, Marble shows how your team really works and which work to hand over first. Get in touch ↗ How Marble works → Pages Product Governance Conviction Company Careers Contact LinkedIn Legal Imprint Privacy Cookie settings Marble Cognition “ Made with the time we didn’t have ” © 2026 Marble Cognition GmbH"
+    },
+    {
+      "url": "https://marblecognition.com/product/",
+      "kind": "company_claim",
+      "role": "product",
+      "checked_on": "2026-11-04",
+      "status": "retrieved",
+      "text": "Product · Marble Cognition Marble Cognition Product Governance Conviction Join us Get in touch Menu Product Governance Conviction Understand the work first Marble turns everyday work across every tool into a map of your processes, so you know exactly what to hand to AI coworkers and what to keep. How Marble works Capture my work Capture Off On November 2 · 9:23 am 9:59 am Resolve a refund request Where to start Process Automation potential Resolve a refund request 86% Invoice matching 79% Payment runs 61% Update an order 29% Refund requests 4828 handled today Request Amount Status #4828 €412.08 Auto approved #4829 €58.71 Auto approved #4831 €143.56 Auto approved #4830 €620.37 Needs review Refund request #4830 Refund €620.37 Proposed reply Edit Approve Processing Approved Refund requests Last 6 weeks 50 % approved without edits 0 h given back a week Approved Edited Open case Check payment Refund Reply Close case 86% Refund over €500 a person decides · 14% of cases Your team is in full control when Marble is capturing. Marble learns from your best performers across all tools. Every process mapped, with every edge case. Assessed by complexity and ranked by automation potential. AI coworkers, tested on your real cases. Where judgment matters, a person approves. Measure impact and audit every AI coworker. Capture Understand Identify Automate Measure Your team is in full control when Marble is capturing. Marble learns from your best performers across all tools. Every process mapped, with every edge case. Assessed by complexity and ranked by automation potential. AI coworkers, tested on your real cases. Where judgment matters, a person approves. Measure impact and audit every AI coworker. Use cases & industries Technology Customer support Technology Finance & accounting Technology Release management Insurance Claims intake Insurance Commission management Insurance Quoting Insurance Customer support & coverage checks Professional services Accounts receivable Professional services Client services Professional services Payroll services Professional services Month-end closing Financial services Payment matching Financial services Settlement exceptions Financial services Document processing Private equity Value creation strategy Private equity Post-merger integration Private equity Portfolio operations Private equity Financial reporting Technology Customer support Technology Finance & accounting Technology Release management Insurance Claims intake Insurance Commission management Insurance Quoting Insurance Customer support & coverage checks Professional services Accounts receivable Professional services Client services Professional services Payroll services Professional services Month-end closing Financial services Payment matching Financial services Settlement exceptions Financial services Document processing Private equity Value creation strategy Private equity Post-merger integration Private equity Portfolio operations Private equity Financial reporting Technology Customer support Technology Finance & accounting Technology Release management Insurance Claims intake Insurance Commission management Insurance Quoting Insurance Customer support & coverage checks Professional services Accounts receivable Professional services Client services Professional services Payroll services Professional services Month-end closing Financial services Payment matching Financial services Settlement exceptions Financial services Document processing Private equity Value creation strategy Private equity Post-merger integration Private equity Portfolio operations Private equity Financial reporting Company superintelligence One living model of how your organization works. Understand how and where time is spent, and identify friction and opportunities. Tool agnostic Marble runs on the local machine and works across legacy tools, VPNs and virtual desktops. Understand process efficiency Assess how well a process runs, how it differs from the existing documentation, and which steps or edge cases cause friction. Always up-to-date SOPs Every procedure comes with its documentation, written from how it is really done and redrawn as the work changes. No one has to maintain it. AI adoption and usage Understand whether and how Marble’s AI coworkers and your other AI tools are used across your organization, and quantify their impact. Measured impact Hours back, cases handled, approval rate: per process and per team, from the first week. Every project reports its own return. Best practices, shared AI isn’t always the answer. Sometimes ten people do the same process ten different ways: Marble finds the best one, so it can become everyone’s way. Stop guessing where AI works Marble shows exactly which work to automate, how much time it frees and where people stay in control. Book a demo ↗ How we protect your data → Pages Product Governance Conviction Company Careers Contact LinkedIn Legal Imprint Privacy Cookie settings Marble Cognition “ Made with the time we didn’t have ” © 2026 Marble Cognition GmbH"
+    }
+  ],
+  "round_id": "C33E0FDF-1EBD-4819-9480-AE968F67E20E",
+  "fingerprint": "ebb888fc4482a263b09b613af654549dacd67455f53bd6194c7e13a3ca041b74",
+  "analyzed_at": "2026-11-04T03:15:45Z",
+  "research_version": 2,
+  "research_fingerprint": "cbdd0aa4257ff0935fc1d657cb2dd2ee56517b590950c49d7fea41454d8575c0",
+  "checked_on": "2026-11-04"
+}
