@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-11-04T02:21:17Z'
+last_seen: '2026-11-05T02:30:34Z'
 status: pending_filter
 sources:
 - hackernews
@@ -183,6 +183,21 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features
   seen_at: '2026-11-04T02:21:17Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/
+  seen_at: '2026-11-05T02:30:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2ZWRmYyZW9YZng5SmhjYnpjQ213dnRKVjVjNW1rcS1RRFoxVUFKYnl2VlVjMk1abE1kQTE2Qk1Ea09WcHlvMjFNbTREWnhmYXZiTjE5RTY0bUdMZGsyRFRCNDNWQjg0SG90WXlaSVV1d19iV0x4UEVnVlFzS3dyVWZB?oc=5
+  seen_at: '2026-11-05T02:30:34Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV21lX2JhVDhYVEVsUjNZY3pzeFFKNGhxZUJiZnVhQTQ3N2NKdXNRN3dScU1FR21PRnAzTHlGYkpHV1YzUk5QUmJDQmJlRHpoaWRZbXM1WUlKNVFwNGRRQXlFbkdrMG84QXU4bmwtT05zckpuU1YtNFVTNlB4TEpoeEhBckxTQktpaWdKY3JIY1E4NUpWbXVjVENjQUk2M0tEc045LWdtNlo?oc=5
+  seen_at: '2026-11-05T02:30:34Z'
   metrics: {}
   kind: news
 ---

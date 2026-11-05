@@ -20,7 +20,7 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-11-02T01:31:06Z'
+last_seen: '2026-11-05T02:30:06Z'
 status: pending_filter
 sources:
 - hackernews
@@ -188,6 +188,11 @@ sightings:
   metrics:
     points: 703
     comments: 325
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei
+  seen_at: '2026-11-05T02:30:06Z'
+  metrics: {}
   kind: news
 ---
 

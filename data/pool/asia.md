@@ -20,17 +20,17 @@ url: https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech
 canonical_url: https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months
 summary: US tech giants' hidden AI debt swells 90% to $3.2T in 6 months
 first_seen: '2026-11-04T02:20:47Z'
-last_seen: '2026-11-04T02:20:47Z'
+last_seen: '2026-11-05T02:29:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months
-  seen_at: '2026-11-04T02:20:47Z'
+  seen_at: '2026-11-05T02:29:35Z'
   metrics:
-    points: 257
-    comments: 115
+    points: 410
+    comments: 166
   kind: news
 ---
 

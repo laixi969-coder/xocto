@@ -1,0 +1,18 @@
+- id: ev-bfebfcc48a60ba8c
+  project_slug: smart-approvals-in-amazon-quick-human-oversight-where-it-mat
+  url: https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters/
+  title: 'Smart Approvals in Amazon Quick: Human oversight where it matters'
+  published_at: '2026-11-04T16:33:03Z'
+  collected_at: '2026-11-05T02:30:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: How should security leaders preserve human oversight as AI agents take on more work? Permissions
+    establish which actions agents can take, but a permitted action can still warrant a person’s judgment.
+    Requiring approval for every step might seem like the safest approach, yet multi-step tasks can produce
+    repeated prompts , even for routine actions. Research on security warnings shows that attention and
+    adherence can decline with repetition. The challenge isn’t to require more approvals, but to preserve
+    attention for decisions that need human review. Smart Approvals in Amazon Quick addresses this challenge
+    by reviewing eligible actions within your existing controls. It evaluates each proposed action against
+    the user’s request and either approves it automatically or returns it to the user for review. It does
+    this without granting additional permissions or removing required human approvals. Security leaders
+    retain control over which actions must always go to a person, while Smart Approvals

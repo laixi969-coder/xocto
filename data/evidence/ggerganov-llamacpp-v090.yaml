@@ -1,0 +1,18 @@
+- id: ev-f16b6def1d8eabea
+  project_slug: ggerganov-llamacpp-v090
+  url: https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0
+  title: 'ggerganov/llama.cpp: v0.9.0'
+  published_at: '2026-11-04T13:08:06Z'
+  collected_at: '2026-11-05T02:29:39Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## Overview\r\n\r\nThis release adds OCP FP8 E4M3 quantization support, a new `flash_attn_ext_rows`\
+    \ op that makes the unified KV cache efficient for multi-sequence inference, and a generic batched\
+    \ tensor copy API. Four new architectures are supported (Clover, Limite, Metis-1.6 and Mistral Large\
+    \ 4), audio generation and transcription expand with Chatterbox TTS, Nemotron 3.5 Transcribe and predefined\
+    \ Pocket TTS voices, and the Gemma 4 E2B/E4B models get major prefill optimizations. `ggml` is updated\
+    \ to v0.29.0, bringing FP8 E4M3, flash attention rows, NCCL-based multi-node tensor parallelism and\
+    \ performance work across the CPU, CUDA, SYCL, Metal, Vulkan, OpenCL and Hexagon backends. The server\
+    \ and UI receive a round of fixes and refinements.\r\n\r\n### Highlights\r\n\r\n- Quant: OCP FP8 E4M3\
+    \ tensor type (saturating mode) with conversion helpers and a new ftype ([#27512](https://github.com/ggml-org/llama.cpp/pull/27512))\r\
+    \n- llama: `flash_attn_ext_rows` - more efficient unified KV for multi-seq, resto"

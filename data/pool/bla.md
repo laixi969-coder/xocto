@@ -22,17 +22,17 @@ summary: 🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that prot
   JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust
   -> Hallucinate.
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://bla.tools
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 2073
-    forks: 279
+    stars: 2306
+    forks: 306
     open_issues: 19
   kind: product
 ---

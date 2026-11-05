@@ -20,7 +20,7 @@ url: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for
 canonical_url: https://tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg
 summary: US Customs supervisor busted for stealing hardware from Homeland Security PCs
 first_seen: '2026-09-13T13:24:28Z'
-last_seen: '2026-11-02T01:31:06Z'
+last_seen: '2026-11-05T02:29:35Z'
 status: pending_filter
 sources:
 - hackernews
@@ -87,6 +87,20 @@ sightings:
   metrics:
     points: 149
     comments: 72
+  kind: news
+- source: hackernews
+  url: https://www.tomshardware.com/tech-industry/data-centers/ai-data-centers-comprehensively-defeated-at-us-midterm-elections-45-measures-put-on-the-ballot-as-americans-overwhelmingly-vote-against-developments
+  seen_at: '2026-11-05T02:29:35Z'
+  metrics:
+    points: 55
+    comments: 2
+  kind: news
+- source: hackernews
+  url: https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections
+  seen_at: '2026-11-05T02:29:35Z'
+  metrics:
+    points: 480
+    comments: 175
   kind: news
 ---
 

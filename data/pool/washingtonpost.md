@@ -20,7 +20,7 @@ url: https://www.washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-pla
 canonical_url: https://washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media
 summary: Iranian campaign planted fake articles in real U.S. publications using ChatGPT
 first_seen: '2026-10-10T01:45:59Z'
-last_seen: '2026-11-04T02:20:47Z'
+last_seen: '2026-11-05T02:29:35Z'
 status: pending_filter
 sources:
 - hackernews
@@ -41,10 +41,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/
-  seen_at: '2026-11-04T02:20:47Z'
+  seen_at: '2026-11-05T02:29:35Z'
   metrics:
-    points: 84
-    comments: 103
+    points: 91
+    comments: 107
   kind: news
 ---
 

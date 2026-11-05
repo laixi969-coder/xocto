@@ -1,0 +1,19 @@
+- id: ev-a8f71c45328e30bf
+  project_slug: four-layers-of-context-engineering-for-production-ai-agents
+  url: https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code/
+  title: 'Four layers of context engineering for production AI agents: How Deep Insight applies them in
+    working code'
+  published_at: '2026-11-04T16:30:40Z'
+  collected_at: '2026-11-05T02:30:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'When production AI agents handle tasks such as data analysis and report generation, context management
+    can become a major bottleneck. A 200K-token window sounds generous until a real-world task burns through
+    most of it in minutes. Data analysis and report generation leave the agent failing mid-execution,
+    losing accuracy, or driving up costs. A body of published guidance already addresses this, but the
+    individual techniques are easier to read about than to apply. Applied together, they make a measurable
+    difference: in the reference implementation this post walks through, a single write-and-execute tool
+    cuts the tokens each script adds to context by about 95 percent, and loading skills on demand shrinks
+    the system prompt by about 97 percent. This series organizes that guidance into practices you can
+    apply directly. Anthropic’s engineering posts, together with features built into the Strands Agents
+    SDK, converge on four layers of context engineering: isolate context at the architecture le'

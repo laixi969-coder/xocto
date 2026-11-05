@@ -21,17 +21,17 @@ canonical_url: https://github.com/YOLOW92/pagesift
 summary: 'Rust web scraper & crawler for AI agents: URLs, PDFs and Office files → clean Markdown/JSON.
   Firecrawl- and Jina Reader-compatible API, MCP server, Python/Node SDKs. Self-hosted single binary.'
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/YOLOW92/pagesift
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 191
-    forks: 21
+    stars: 205
+    forks: 25
     open_issues: 0
   kind: product
 ---

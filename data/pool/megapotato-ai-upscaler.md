@@ -20,16 +20,16 @@ url: https://huggingface.co/spaces/MegaPotatoAI/AI-Image-Upscaler
 canonical_url: https://huggingface.co/spaces/MegaPotatoAI/AI-Image-Upscaler
 summary: 'AI image upscaler: 2x, 4x, 8x with before/after comparison'
 first_seen: '2026-11-01T01:10:57Z'
-last_seen: '2026-11-01T01:10:57Z'
+last_seen: '2026-11-05T02:30:04Z'
 status: pending_filter
 sources:
 - huggingface
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/MegaPotatoAI/AI-Image-Upscaler
-  seen_at: '2026-11-01T01:10:57Z'
+  seen_at: '2026-11-05T02:30:04Z'
   metrics:
-    likes: 5
+    likes: 11
   kind: product
 ---
 

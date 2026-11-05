@@ -20,17 +20,17 @@ url: https://github.com/uumit-ai/dsh-uumit-remote
 canonical_url: https://github.com/uumit-ai/dsh-uumit-remote
 summary: ''
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/uumit-ai/dsh-uumit-remote
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 459
-    forks: 13
+    stars: 487
+    forks: 15
     open_issues: 0
   kind: product
 ---

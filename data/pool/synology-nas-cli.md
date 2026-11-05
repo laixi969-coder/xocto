@@ -22,16 +22,16 @@ summary: 'nas: a zero-dependency Python CLI + MCP server for Synology DSM 7. One
   for the C3RB3R / .L0CK3D ransomware campaign; hand it to your AI agent. Mirror; canonical repo and issues:
   gitlab.com/aa22396584/synology-nas-cli'
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://gitlab.com/aa22396584/synology-nas-cli
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 90
+    stars: 92
     forks: 10
     open_issues: 0
   kind: product

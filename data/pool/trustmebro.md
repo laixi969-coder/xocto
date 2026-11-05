@@ -20,7 +20,7 @@ url: https://www.trustmebro.reviews/r/hackernews
 canonical_url: https://trustmebro.reviews/r/hackernews
 summary: 13M opinions on 48k products extracted from Reddit and HN
 first_seen: '2026-11-03T03:28:53Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-05T02:29:35Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 9
     comments: 0
+  kind: product
+- source: hackernews
+  url: https://www.trustmebro.reviews/
+  seen_at: '2026-11-05T02:29:35Z'
+  metrics:
+    points: 11
+    comments: 9
   kind: product
 ---
 

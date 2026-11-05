@@ -22,16 +22,16 @@ summary: 'Free, open-source desktop video editor in the style of CapCut: timelin
   captions (Whisper), GPU animated effects & transitions, music/SFX & stock libraries, and an AI assistant.
   Electron + React + FFmpeg. No account, no watermark.'
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: http://caprocket.site/
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 78
+    stars: 79
     forks: 7
     open_issues: 1
   kind: product

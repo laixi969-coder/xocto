@@ -1,0 +1,19 @@
+- id: ev-92c485080f1e52be
+  project_slug: langgenius-dify-v1190-trace-your-workflows-layer-by-layer
+  url: https://github.com/langgenius/dify/releases/tag/1.19.0
+  title: 'langgenius/dify: v1.19.0 - Trace Your Workflows, Layer by Layer'
+  published_at: '2026-11-04T07:36:16Z'
+  collected_at: '2026-11-05T02:29:39Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "**Dify 1.19.0 brings nested workflow tracing to your observability tools.** Follow a workflow\
+    \ into the Workflow Tools it calls, inspect the steps inside each invocation, and keep the LLM context\
+    \ alongside the execution tree.\r\n\r\nThis release also makes Workflow Tools portable with App packages,\
+    \ adds Skill Hub automation, and makes Agent files easier to upload and preview. The bundled plugin\
+    \ daemon is upgraded to **0.6.14-local**.\r\n\r\n[Release highlights](#user-content-release-highlights)\
+    \ · [Upgrade guide](#user-content-upgrade-guide) · [Detailed changes](#user-content-detailed-changes)\r\
+    \n\r\n<a id=\"release-highlights\"></a>\r\n\r\n## Release highlights\r\n\r\n### Nested workflow tracing\r\
+    \n\r\n**See what happens inside a Workflow Tool, all the way down to its LLM calls.**\r\n\r\nBuilding\
+    \ on the Console drilldown introduced in 1.18.0, new external traces now include the persisted execution\
+    \ steps inside called Workflow Tools. Child steps appear beneath the Tool span that invoked them,\
+    \ preserving the hierarchy"

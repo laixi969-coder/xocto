@@ -21,17 +21,17 @@ canonical_url: https://harshpreet931.github.io/harshpreet-hand
 summary: I gave Claude Code 120 pages of my handwritten college notes. It gave me back my handwriting
   as a real font, in 66 minutes for $13.68.
 first_seen: '2026-10-21T00:38:03Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://harshpreet931.github.io/harshpreet-hand/
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 59
-    forks: 1
+    stars: 60
+    forks: 2
     open_issues: 0
   kind: product
 ---

@@ -20,7 +20,7 @@ url: https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup
 canonical_url: https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup
 summary: Wikipedia's Cleanup of AI-Generated Content
 first_seen: '2026-10-28T01:22:30Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-11-05T02:29:35Z'
 status: pending_filter
 sources:
 - hackernews
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 47
     comments: 26
+  kind: news
+- source: hackernews
+  url: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability
+  seen_at: '2026-11-05T02:29:35Z'
+  metrics:
+    points: 1082
+    comments: 639
   kind: news
 ---
 

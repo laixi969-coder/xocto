@@ -1,0 +1,43 @@
+- id: ev-ad329fb985112eb1
+  project_slug: anthropics-anthropic-sdk-python-v250
+  url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.5.0
+  title: 'anthropics/anthropic-sdk-python: v2.5.0'
+  published_at: '2026-11-04T20:27:20Z'
+  collected_at: '2026-11-05T02:29:39Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '### Features
+
+
+    * **api:** add error details types and new error type values
+
+    * **api:** add ids filter to list workspaces
+
+    * **client:** add error classes for HTTP statuses and API error codes, and error_code, details and
+    api_message on APIStatusError
+
+
+
+    ### Bug Fixes
+
+
+    * **api:** capitalize CMEK in error details type names
+
+    * **api:** move some error details types to the resource they describe
+
+    * **bedrock:** raise a ValueError when model is "." or ".." instead of sending the request to a different
+    path
+
+    * **bedrock:** raise a ValueError when model is empty instead of sending the request to `/model//invoke`
+
+    * **client:** make OverloadedError and ServiceUnavailableError subclasses of InternalServerError
+
+    * **client:** make the first parse of each response model thread-safe
+
+    * **client:** reject path parameters such as ''..;x'' and '';x''
+
+    * **client:** validate unions correctly across threads on pydantic v1
+
+    * **tools:** keep the memory tool from renaming or deleting the /memories directory
+
+    * **vertex'

@@ -20,16 +20,16 @@ url: https://github.com/heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server
 canonical_url: https://github.com/heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server
 summary: WhatsApp MCP Server for AI Agents - TypeScript, Baileys and Cloud API
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/heitorcarvalhohlbryzeis6-cloud/whatsapp-mcp-server
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 63
+    stars: 65
     forks: 1
     open_issues: 0
   kind: product

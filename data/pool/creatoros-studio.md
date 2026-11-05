@@ -22,17 +22,17 @@ summary: 'Open-source Higgsfield on your own GPU: train a recurring character, t
   an edited reel, move the camera, re-shoot an angle, block shots in 3D, sketch to video, restore old
   footage. Runs on local ComfyUI, open-weights models only.'
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://forge.taila06702.ts.net:8443
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 52
-    forks: 9
+    stars: 57
+    forks: 10
     open_issues: 0
   kind: product
 ---

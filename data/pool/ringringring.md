@@ -20,17 +20,17 @@ url: https://github.com/yanyan1115/ringringring
 canonical_url: https://github.com/yanyan1115/ringringring
 summary: 0 成本让 AI 给你打电话📞：iOS 原生通话，无需 Mac／开发者账号，无需购买或编写 App。Zero-cost AI phone calls over free SIP.
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yanyan1115/ringringring
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 47
-    forks: 4
+    stars: 48
+    forks: 5
     open_issues: 0
   kind: product
 ---

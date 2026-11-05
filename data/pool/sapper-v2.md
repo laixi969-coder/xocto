@@ -22,17 +22,17 @@ summary: 'Autonomous pentest legion — AI commander + worker swarm + layered fa
   Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa
   Test: give AIs Create/Language/History, let a civilization grow.'
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/N1nEmAn/sapper-v2
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 664
-    forks: 521
+    stars: 877
+    forks: 599
     open_issues: 1
   kind: product
 ---

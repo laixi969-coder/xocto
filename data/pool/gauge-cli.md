@@ -20,17 +20,17 @@ url: https://github.com/gauge-sh/gauge-cli
 canonical_url: https://github.com/gauge-sh/gauge-cli
 summary: Open-Source Hillclimbing for Agent Experience
 first_seen: '2026-10-21T00:37:59Z'
-last_seen: '2026-10-21T00:37:59Z'
+last_seen: '2026-11-05T02:29:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/gauge-sh/gauge-cli
-  seen_at: '2026-10-21T00:37:59Z'
+  seen_at: '2026-11-05T02:29:35Z'
   metrics:
-    points: 5
-    comments: 0
+    points: 17
+    comments: 3
   kind: product
 ---
 

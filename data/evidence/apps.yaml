@@ -389,3 +389,21 @@
     of a Developer Preview, also adds a new "app skills" feature that third-party developers can create
     to combine several tasks into a single action. In Apple's developer documentation , the company says
     users won't have to mention an app's name in their … Read the full story at The Verge.
+- id: ev-b3cad82f7c1dcd9c
+  project_slug: apps
+  url: https://simonwillison.net/2026/Nov/4/datasette-apps/
+  title: datasette-apps 0.3a0
+  published_at: '2026-11-04T00:29:36Z'
+  collected_at: '2026-11-05T02:30:06Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML
+    applications inside of Datasette. These can be created by hand, but it''s easier to create them using
+    LLMs via Datasette Agent . This release improves that integration: Apps can now be tagged in Datasette
+    Agent chat messages by typing # , which autocompletes from the apps the user has permission to view.
+    New app_add_stored_queries() and app_remove_stored_queries() tools let the agent manage which stored
+    queries an app is allowed to call. Granting a write query requires approval from the user first. app_create()
+    now checks that each requested stored query exists and that the user can view it, and asks the user
+    to approve any write queries before the app is created. The "View app" buttons shown by the agent
+    tools, and the links on # app references, now open the app full screen in the Datasette Agent panel.
+    Tags: datasette , datasette-agent , datasette-apps'

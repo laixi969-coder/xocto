@@ -21,17 +21,17 @@ canonical_url: https://github.com/gary-gibson85/capcut-pro-for-windows
 summary: CapCut Pro for Windows — free professional video editor with AI auto captions, effects, keyframes,
   transitions and high-quality 4K export for content creators.
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/gary-gibson85/capcut-pro-for-windows
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 77
-    forks: 7
+    stars: 43
+    forks: 4
     open_issues: 0
   kind: product
 ---

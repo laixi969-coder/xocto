@@ -22,16 +22,16 @@ summary: Wag na kayo magbayad ng 5k PHP. Ito na — libre.  MCP server that lets
   Antigravity, OpenCode & KiloCode edit videos in CapCut and OpenCut. 50 tools, dry-run safe, path-traversal
   hardened.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-03T03:28:57Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AISEO-VirtualabDigital/mcp-video-editor
-  seen_at: '2026-11-03T03:28:57Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 77
+    stars: 78
     forks: 22
     open_issues: 0
   kind: product

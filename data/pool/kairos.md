@@ -20,17 +20,17 @@ url: https://github.com/finic-ai/kairos
 canonical_url: https://github.com/finic-ai/kairos
 summary: Open-source risk and fraud decisioning platform
 first_seen: '2026-11-04T02:20:47Z'
-last_seen: '2026-11-04T02:20:47Z'
+last_seen: '2026-11-05T02:29:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/finic-ai/kairos
-  seen_at: '2026-11-04T02:20:47Z'
+  seen_at: '2026-11-05T02:29:35Z'
   metrics:
-    points: 63
-    comments: 7
+    points: 104
+    comments: 31
   kind: product
 ---
 

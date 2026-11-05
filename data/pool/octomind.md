@@ -20,17 +20,17 @@ url: https://github.com/Muvon/octomind
 canonical_url: https://github.com/Muvon/octomind
 summary: open-source AI harness that saves your tokens, static rust
 first_seen: '2026-11-04T02:20:47Z'
-last_seen: '2026-11-04T02:20:47Z'
+last_seen: '2026-11-05T02:29:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Muvon/octomind
-  seen_at: '2026-11-04T02:20:47Z'
+  seen_at: '2026-11-05T02:29:35Z'
   metrics:
-    points: 51
-    comments: 34
+    points: 56
+    comments: 39
   kind: news
 ---
 

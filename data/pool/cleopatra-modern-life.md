@@ -21,17 +21,17 @@ canonical_url: https://github.com/10291124jcjc-dotcom/cleopatra-modern-life
 summary: 'Cleopatra''s Modern Life: the full workflow for an AI ''ancient person, modern life'' short
   — gags, Seedance prompts, beat-synced editing scripts, and a Claude Skill. 埃及艳后的现代日常完整制作流程'
 first_seen: '2026-10-24T00:43:23Z'
-last_seen: '2026-10-30T01:58:43Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/10291124jcjc-dotcom/cleopatra-modern-life
-  seen_at: '2026-10-30T01:58:43Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 52
-    forks: 11
+    stars: 53
+    forks: 12
     open_issues: 0
   kind: product
 ---

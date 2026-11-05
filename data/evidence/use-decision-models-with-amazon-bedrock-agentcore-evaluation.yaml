@@ -1,0 +1,18 @@
+- id: ev-bd139d15b0f5b7bb
+  project_slug: use-decision-models-with-amazon-bedrock-agentcore-evaluation
+  url: https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/
+  title: Use decision models with Amazon Bedrock AgentCore Evaluations
+  published_at: '2026-11-04T18:46:36Z'
+  collected_at: '2026-11-05T02:30:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Some of the questions you ask when evaluating an agent are narrow and repeatable. Did this response
+    stay on policy? Is this tool call safe to approve? Does this answer match the retrieved context? Decision
+    models answer exactly that kind of question. They take a structured state and a fixed set of allowed
+    answers and return a calibrated probability over them, rather than free-form text whose confidence
+    drifts from run to run. That makes them a strong fit for the scoring step in an agent evaluation,
+    where you want a label and a number you can threshold and trust. Amazon Bedrock AgentCore Evaluations
+    , a capability of Amazon Bedrock AgentCore, scores an agent through its entire lifecycle, on demand
+    during development, in batch jobs against stored sessions, and online against production traffic.
+    Alongside 15 built-in evaluators, AgentCore Evaluations supports custom evaluators that you define
+    as either an LLM-as-a-judge or a code-based evaluator. Custom LLM-as-a-judge evaluators apply you

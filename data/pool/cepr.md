@@ -20,17 +20,17 @@ url: https://cepr.net/publications/ai-bubble-monitor/
 canonical_url: https://cepr.net/publications/ai-bubble-monitor
 summary: The AI Bubble Monitor
 first_seen: '2026-11-04T02:20:47Z'
-last_seen: '2026-11-04T02:20:47Z'
+last_seen: '2026-11-05T02:29:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://cepr.net/publications/ai-bubble-monitor/
-  seen_at: '2026-11-04T02:20:47Z'
+  seen_at: '2026-11-05T02:29:35Z'
   metrics:
-    points: 61
-    comments: 35
+    points: 66
+    comments: 37
   kind: news
 ---
 

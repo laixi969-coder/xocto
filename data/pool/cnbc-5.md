@@ -20,7 +20,7 @@ url: https://www.cnbc.com/2026/10/10/ai-lawyers-billable-hour-legal-careers.html
 canonical_url: https://cnbc.com/2026/10/10/ai-lawyers-billable-hour-legal-careers.html
 summary: AI is changing how Lawyers work – and putting the billable hour under pressure
 first_seen: '2026-10-13T03:03:54Z'
-last_seen: '2026-11-04T02:20:47Z'
+last_seen: '2026-11-05T02:29:35Z'
 status: pending_filter
 sources:
 - hackernews
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 197
     comments: 173
+  kind: news
+- source: hackernews
+  url: https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html
+  seen_at: '2026-11-05T02:29:35Z'
+  metrics:
+    points: 53
+    comments: 75
   kind: news
 ---
 

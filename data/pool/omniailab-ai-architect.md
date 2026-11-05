@@ -22,16 +22,16 @@ summary: 'OmniAiLab AI Architect｜建筑与室内设计全流程 AI 总设计�
   DXF、三维模型、工程量清单与可编辑 PPTX。An end-to-end AI architecture & interior design Skill: requirements first, discipline-led
   spatial reasoning, from brief to construction-depth DXF, 3D models and editable decks.'
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.omniailabx.com/
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 41
+    stars: 53
     forks: 3
     open_issues: 0
   kind: product

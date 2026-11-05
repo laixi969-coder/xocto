@@ -20,18 +20,18 @@ url: https://herdr.dev/core
 canonical_url: https://herdr.dev/core
 summary: 'herdr-core: terminals for coding agents'
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://herdr.dev/core
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    stars: 364
-    forks: 70
-    open_issues: 66
+    stars: 393
+    forks: 82
+    open_issues: 79
   kind: product
 ---
 

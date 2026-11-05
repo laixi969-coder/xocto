@@ -29,16 +29,16 @@ summary: "## What's Changed\r\n* `ollama launch claude` now applies the model's 
   \ routing is unavailable\r\n* Faster top-k sampling on MLX for large vocabularies\r\n\r\n**Full Changelog**:\
   \ https://github.com/ollama/ollama/compare/v0.40.13...v0.40.14"
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-05T02:29:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.40.14
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-05T02:29:39Z'
   metrics:
-    reactions: 21
+    reactions: 24
   kind: news
 ---
 
