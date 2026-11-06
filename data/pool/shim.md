@@ -21,18 +21,18 @@ canonical_url: https://github.com/Balanov/shim
 summary: 'Tiny local-first AI harness: any model, MCP and Agent Skills, natural-language CLI. Zero dependencies.
   MIT.'
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Balanov/shim
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 452
-    forks: 6
-    open_issues: 1
+    stars: 463
+    forks: 10
+    open_issues: 3
   kind: product
 ---
 

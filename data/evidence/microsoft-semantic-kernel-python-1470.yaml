@@ -1,0 +1,30 @@
+- id: ev-358fc42254df3d2a
+  project_slug: microsoft-semantic-kernel-python-1470
+  url: https://github.com/microsoft/semantic-kernel/releases/tag/python-1.47.0
+  title: 'microsoft/semantic-kernel: python-1.47.0'
+  published_at: '2026-11-05T10:19:23Z'
+  collected_at: '2026-11-06T02:26:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## Python compatibility
+
+
+    This release requires Python 3.11 or later. Python 3.10 support has been removed. Supported and tested
+    Python versions are 3.11 through 3.14.
+
+
+    Includes consolidated Python dependency updates and the bug fixes listed below.
+
+    ## What''s Changed
+
+    * .Net: Remove migrated .NET Milvus connector by @adamsitnik in https://github.com/microsoft/semantic-kernel/pull/14682
+
+    * .Net: Bump Aspire.Azure.Search.Documents from 13.4.6 to 13.5.4 by @dependabot[bot] in https://github.com/microsoft/semantic-kernel/pull/14499
+
+    * .Net: Bump Aspire.Hosting.Azure.CognitiveServices from 13.4.6 to 13.5.4 by @dependabot[bot] in https://github.com/microsoft/semantic-kernel/pull/14501
+
+    * .Net: [BREAKING] Consolidate file access by @westey-m in https://github.com/microsoft/semantic-kernel/pull/14679
+
+    * Python: preserve path case in OpenAPI allowed URLs by @eavanvalkenburg in https://github.com/microsoft/semantic-kernel/pull/14693
+
+    * Python: normalize OpenAPI allowlist paths before prefix match by @ma'

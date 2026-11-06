@@ -22,7 +22,7 @@ summary: Y Combinator Garry Tan has jokingly admitted that he's suffered from "c
   sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter
   Isaacson’s podcast, The Builders, Tan put a price tag on his passion.
 first_seen: '2026-11-03T03:29:27Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -35,10 +35,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 66
-    comments: 76
+    points: 101
+    comments: 167
   kind: news
 ---
 

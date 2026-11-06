@@ -22,18 +22,18 @@ summary: Arkdraw is an open-source diagramming app for creating flowcharts, UML,
   maps, wireframes, and mind maps with a built-in AI assistant that generates and edits diagrams from
   natural-language prompts.
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://arkdraw.com/
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 61
+    stars: 48
     forks: 4
-    open_issues: 22
+    open_issues: 54
   kind: product
 ---
 

@@ -20,17 +20,17 @@ url: https://www.apple.com/shop/buy-mac/mac-studio/m5-ultra-chip-36-core-cpu-80-
 canonical_url: https://apple.com/shop/buy-mac/mac-studio/m5-ultra-chip-36-core-cpu-80-core-gpu-512gb-memory-1tb-storage
 summary: ''
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.apple.com/shop/buy-mac/mac-studio/m5-ultra-chip-36-core-cpu-80-core-gpu-512gb-memory-1tb-storage
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 25
-    comments: 15
+    points: 43
+    comments: 50
   kind: news
 ---
 

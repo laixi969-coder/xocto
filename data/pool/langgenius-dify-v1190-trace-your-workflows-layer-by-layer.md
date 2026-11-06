@@ -299,16 +299,16 @@ summary: "**Dify 1.19.0 brings nested workflow tracing to your observability too
   \ token. The corresponding internal billing service must support this response contract. (#45165)\r\n\
   \r\n</details>\r\n\r\n**Full Changelog:** [1.18.0 to the 1.19.0](https://github.com/langgenius/dify/compare/1.18.0...1.19.0)"
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/langgenius/dify/releases/tag/1.19.0
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    reactions: 1
+    reactions: 2
   kind: news
 ---
 

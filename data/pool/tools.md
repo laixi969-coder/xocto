@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-04T02:21:23Z'
+last_seen: '2026-11-06T02:27:28Z'
 status: pending_filter
 sources:
 - hackernews
@@ -255,6 +255,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNcXV1b3FpY0h5NHRPTjYyN2tPYTFUbWsyb3F3WTRoMDZWenF6SUpucGUyZEVGNkNyWGRvV0lYYkJfQjJWMlhLbWlBcVhTa1dKY0p5MWNFanJjNVh2LV9kaExid3BNa05PcllveUZUN0NNR1dkYXRWWmJuT0ctek1mR1JQcDZQenRVSHoxaVFHNEh5cm00ZUJTSA?oc=5
   seen_at: '2026-11-04T02:21:23Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/merge-builds-with-openai
+  seen_at: '2026-11-06T02:27:19Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNekVnbC1hRVJTYzdCNXFWbTFlZUdFVEhfckttbHluUjY2Qkc5Sml6OHhhSS0yODhqYnJad1cwYm5hckpINlp4UTNhOW9XaHZKQnFKNUdoa1FwakpTNzJFZ1BBTVZkYkh2QXczUHJWeXdWTTg3amJxRThsZFpKNGdqa0tJWFVvUQ?oc=5
+  seen_at: '2026-11-06T02:27:28Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxOV2R5M0diV0tnU2NaU1JrTTFHcGEyWmhPOFlDNWxRS1F6cTVkbXlPck1OSjYxT0Z5WTBHaTI4NFBGMU9LNGhyRVJhNTZvM0VmNEpoQ18xbkN5X3ptTzBCRHBOdFJFdHZuTEMzRXliRHdnd29SLXMyWTRZRmF3NU5BNjZ5Vmp3VlJ0M0d6NnJfM0tZR3hJTXQ4NWpJdw?oc=5
+  seen_at: '2026-11-06T02:27:28Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE05TEE5RTNuOUpuOHdySnQ2QzR2WURSU3dvdlk1bXVTVWFHMEtnNEFlckh1NzBROVpaanNCM0xmN0VOWU9sQk9NVnR5aHJGTlZYdHFPT0cxSUJ1aThXS040?oc=5
+  seen_at: '2026-11-06T02:27:28Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMic0FVX3lxTE5VSTExb2txd3JCNTJXYktEYTNaWTQtZkVPY25YVEZ1dm5IdXdoRFZIalFxbW5VREVjWm9UMGtrZGd3ekdpWnV5UWdlWnFuazRtN1VQWlVDMFE4TEprWER5RnhQUFlPQ19CU1N0QjFqa2s3aTjSAXNBVV95cUxQb3BuNUN5M0E3eUV0NnNrSlJUTGdUYkh5OUpUdWU4Y2xzeUlGMjc4QVpuZGQxaGlNRUJLcER3cWxzUlFHS0E4RDhFc2U0bVFwTTJDamtMcU41Rm5kaE9JaE00cGpmV0t2a0NYTjBGZ3ZtSWNJ?oc=5
+  seen_at: '2026-11-06T02:27:28Z'
   metrics: {}
   kind: news
 ---

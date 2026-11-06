@@ -20,7 +20,7 @@ url: https://www.linum.ai/field-notes/jit-ddt
 canonical_url: https://linum.ai/field-notes/jit-ddt
 summary: Training Text-to-Image Models 3.6× Faster
 first_seen: '2026-09-16T16:58:13Z'
-last_seen: '2026-09-18T00:19:45Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
@@ -32,6 +32,13 @@ sightings:
     points: 55
     comments: 10
   kind: news
+- source: hackernews
+  url: https://www.linum.ai/field-notes/pjit-21k
+  seen_at: '2026-11-06T02:26:51Z'
+  metrics:
+    points: 158
+    comments: 14
+  kind: product
 ---
 
 # linum

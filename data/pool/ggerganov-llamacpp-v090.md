@@ -211,16 +211,16 @@ summary: "## Overview\r\n\r\nThis release adds OCP FP8 E4M3 quantization support
   \ sycl: work-group argmax for short TOP_K rows (#31110)\r\nf5222f25c cuda: fuse MoE (MUL_MAT_ID) gate/up\
   \ and GLU in MMQ (#31188)\r\n28cb47c7c gguf-py: fix np_roundf dropping the sign (#31310)"
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    reactions: 28
+    reactions: 45
   kind: news
 ---
 

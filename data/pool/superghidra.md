@@ -20,16 +20,16 @@ url: https://github.com/yuatemycat/SuperGhidra
 canonical_url: https://github.com/yuatemycat/SuperGhidra
 summary: 'SuperGhidra: Autonomous Agent Reverse Engineering, Lock-Free Ghidra Daemon & C++ Recovery Suite'
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yuatemycat/SuperGhidra
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 191
+    stars: 190
     forks: 13
     open_issues: 1
   kind: product

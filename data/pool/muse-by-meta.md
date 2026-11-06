@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-04T02:20:22Z'
+last_seen: '2026-11-06T02:27:21Z'
 status: pending_filter
 sources:
 - producthunt
@@ -296,9 +296,9 @@ sightings:
   kind: news
 - source: trackedproducts
   url: https://muse.ai/
-  seen_at: '2026-11-04T02:20:22Z'
+  seen_at: '2026-11-06T02:26:32Z'
   metrics:
-    content_hash: bc9aafb2e2ef7d20
+    content_hash: d099b4c3e8c7c22f
   kind: product
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORW9sQkhpQzZKTVdLYk5RYVUwcjUwZ3NFNU1maDhtTU9NRTVsUzcwMTcxd2c5THZNZjJLaWNsYkt5SEhHR1ZNYW5oV05ZVFZJV1VxTWdOYXRYTWt5bjUtT0x3NWhRLXlwUDhjT3gza01RTW1zMzZDVm91V3BpdWRBMGVjSlgySlRDcG80RkpldzJzMC1aZGlaalZCTVNLSHNIZ1ZUS2tmcXFxei1IRW5NdHRIbDVoUQ?oc=5
@@ -443,6 +443,16 @@ sightings:
 - source: marketfeeds
   url: http://www.geekpark.net/news/373243
   seen_at: '2026-11-01T01:10:59Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/
+  seen_at: '2026-11-06T02:27:19Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/
+  seen_at: '2026-11-06T02:27:21Z'
   metrics: {}
   kind: news
 ---

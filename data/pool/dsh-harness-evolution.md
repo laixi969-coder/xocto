@@ -21,16 +21,16 @@ canonical_url: https://github.com/HuangShengZeBlueSky/dsh-harness-evolution
 summary: Evolved DSH plugin harnesses for five agent benchmarks, with versioned artifacts, evolution curves
   and Life-Harness comparisons
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/HuangShengZeBlueSky/dsh-harness-evolution
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 100
+    stars: 104
     forks: 0
     open_issues: 0
   kind: product

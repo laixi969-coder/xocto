@@ -20,17 +20,17 @@ url: https://www.ricursive.com/ripple
 canonical_url: https://ricursive.com/ripple
 summary: U.S. Open-Weight SOTA on Agentic Coding
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.ricursive.com/ripple
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 228
-    comments: 79
+    points: 332
+    comments: 121
   kind: news
 ---
 

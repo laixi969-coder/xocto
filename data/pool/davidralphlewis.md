@@ -20,17 +20,17 @@ url: https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/
 canonical_url: https://davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now
 summary: Everything is an AI scam now
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 129
-    comments: 44
+    points: 148
+    comments: 62
   kind: news
 ---
 

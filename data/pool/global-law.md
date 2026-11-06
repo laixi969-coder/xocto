@@ -20,18 +20,18 @@ url: https://lexifina.com
 canonical_url: https://lexifina.com
 summary: 'The world''s law in git: any provision, any country, any date, and the law that wrote each word.'
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://lexifina.com
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 1802
-    forks: 170
-    open_issues: 2
+    stars: 1820
+    forks: 171
+    open_issues: 0
   kind: product
 ---
 

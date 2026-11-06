@@ -21,18 +21,18 @@ canonical_url: https://github.com/sarpstar/cinecode
 summary: 'Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an
   AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.'
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sarpstar/cinecode
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 254
-    forks: 43
-    open_issues: 0
+    stars: 419
+    forks: 71
+    open_issues: 1
   kind: product
 ---
 

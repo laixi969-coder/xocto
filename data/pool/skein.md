@@ -20,16 +20,16 @@ url: https://github.com/Balanov/skein
 canonical_url: https://github.com/Balanov/skein
 summary: Fail-closed swarm orchestration with epoch-fenced work and late-completion rejection.
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Balanov/skein
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 264
+    stars: 265
     forks: 1
     open_issues: 0
   kind: product

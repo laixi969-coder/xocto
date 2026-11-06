@@ -1,0 +1,19 @@
+- id: ev-ecd18e44ab5e4baa
+  project_slug: ollama-ollama-v04015
+  url: https://github.com/ollama/ollama/releases/tag/v0.40.15
+  title: 'ollama/ollama: v0.40.15'
+  published_at: '2026-11-03T22:52:31Z'
+  collected_at: '2026-11-06T02:26:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## MiMo V2.6\r\n\r\nXiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model\
+    \ built for code and agent workflows, is now supported in Ollama.\r\n\r\n```sh\r\nollama run mimo-v2.6\r\
+    \n```\r\n\r\n## AutoTrust decision models\r\n\r\n[AutoTrust](https://ollama.com/library/autotrust-jev)\
+    \ decision models read text and return choices, yes or no probabilities, and ratings for the questions\
+    \ you supply. The family includes 9b, 35b, and 27b-vl sizes — the 35b and 27b-vl sizes can also read\
+    \ images.\r\n\r\n```sh\r\nollama run autotrust-jev \"A customer says their card was charged twice.\"\
+    \ --ask \"Is this a billing issue?\"\r\n```\r\n\r\nNote: autotrust-jev is supported on Apple silicon\
+    \ in this release.\r\n\r\n## What's Changed\r\n\r\n - ollama launch now supports Kimi Code CLI — the\
+    \ successor to kimi-cli — and offers to migrate existing kimi-cli setups\r\n - ollama launch now fills\
+    \ in Pi's model list automatically so models can be picked inside Pi, and Claude Desktop's model\r\
+    \n   picker shows Ollama's actual model names\r\n - Rec"

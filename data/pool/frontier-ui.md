@@ -22,16 +22,16 @@ summary: 'ChatGPT-style generative UI for Open WebUI: photo galleries, live maps
   trips, budgets, calculators, live weather & stocks, link previews, and one-click Word/Excel/PowerPoint
   exports via ArtCraft. One file, no API keys.'
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://openwebui.com/posts/35572bd7-6dc8-42dc-9e54-bebfb9e978cb
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 60
+    stars: 63
     forks: 4
     open_issues: 0
   kind: product

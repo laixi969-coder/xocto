@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXpKNVNpQ1hhR3lxTGJuem
 canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXpKNVNpQ1hhR3lxTGJuem9WcDNINW00TE1ORVZuX0xaWDFtcGhXdENBblhnWTBrVFNkRGU1SzM2S1oyRHJtUUVkSEJEUi1wUXh4Tk5XbWFDZ3FySEZ0U19xRVpwbmVFaWZRZnh1Sm81MnkybWtpY2tuNEhSSFNwOHdQRnZuTm54aWZVcWM4M0l5T0N6ekdVUllFSkFwTU94TWVfanNWSUEybUo3eDRIZi1kRQ?oc=5
 summary: AI sales startup Nooks secures $500 million in funding for expansion Reuters
 first_seen: '2026-11-05T02:30:34Z'
-last_seen: '2026-11-05T02:30:34Z'
+last_seen: '2026-11-06T02:27:28Z'
 status: pending_filter
 sources:
 - newssearch
@@ -38,6 +38,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZ0RyQU50VjFWZTZhUGtPdTdMb3RSRF9SaXRFN1E5Q0NCYmVXa1R2ZGw2UmFJY1ZyRGJjZTY1a0xGSXVzLUZlRUt1cXV2S3VnOThXYVVXWUdsaS1XZ3ZrNTJrSkdSVGpiR2l5ZTZ0R0RLbDl1NDg2V3dFcHlnUDJFT3UwcW9QMjFxdi1ubkR5UXBMV0M0R0VYZVkwZEpmVl9rajFYRjhMTDBXeURMdGtvWU8yeGQ4QUhQYlhhdUxUd2stTWxnLWZsY3RybXJoSTBBamdnOUhFcU5yM1NGZnd5WGpFamotY0VKY1VVU01Ca2jSAeoBQVVfeXFMUEhaMGpMTkJGNUpLRVUtaGNfZExYaXc2X3BNM1lsbWIzdEwydE04b3hReWIwTTc2b0dud1Zsb2tpUFhtYlBGUk10Vi00Y280VFFkRGk0X2ZqVlNSOHNCT1RxNWdUY3E4VnR2WEdfQkxVampfRDNFTUR5MTlhcmhTT1A3RWE4MkJYbjZHTlVfRFVxamFES1hrQ0I5R0V2TkFRQzE1alQ4RGpDd1J1OUFlWXRLVm5UOGJrUmxLUzFudkFjQVNGMURJYUFWMzAzZDZKMWM1MURhVzlGcmljbGJOdWJ0eVNwcXVyZTdn?oc=5
   seen_at: '2026-11-05T02:30:34Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinAFBVV95cUxPQnN3Ty1PY3RjSUtXc2JSNGY0QkNkdDRLR2ZnMGRoWFpHcjBsbmI4V2tIWW10UFZCX3RDZEgxdGRwLWF0YU1ibW12Wk5ISDJXQmMteDBDcWxmanRXMU5QV0JVeWNFLVFuZmVaT0FLcVZZYXdveGotbjZ5T1hWQTNsbWJYMDBmZ3dKZXAyUngtMExJNEMyeFdlV1Jpd3I?oc=5
+  seen_at: '2026-11-06T02:27:28Z'
   metrics: {}
   kind: news
 ---

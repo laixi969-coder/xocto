@@ -20,7 +20,7 @@ url: https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-governmen
 canonical_url: https://reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19
 summary: DeepSeek banned from U.S. federal civilian agencies under new DHS order
 first_seen: '2026-10-21T00:37:59Z'
-last_seen: '2026-11-01T01:10:25Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
@@ -52,6 +52,13 @@ sightings:
   metrics:
     points: 69
     comments: 15
+  kind: news
+- source: hackernews
+  url: https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/
+  seen_at: '2026-11-06T02:26:51Z'
+  metrics:
+    points: 27
+    comments: 3
   kind: news
 ---
 

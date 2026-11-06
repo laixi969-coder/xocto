@@ -20,16 +20,16 @@ url: https://github.com/wing0828/ai-job-search-kr
 canonical_url: https://github.com/wing0828/ai-job-search-kr
 summary: 한국 채용시장용 AI 구직·지원 스킬 (Claude Code / Codex). MadsLorentzen/ai-job-search 한국판, MIT
 first_seen: '2026-10-24T00:43:23Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wing0828/ai-job-search-kr
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 78
+    stars: 79
     forks: 5
     open_issues: 0
   kind: product

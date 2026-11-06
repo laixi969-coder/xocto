@@ -20,17 +20,17 @@ url: https://fireflyk64.github.io/wcmulti/
 canonical_url: https://fireflyk64.github.io/wcmulti
 summary: After a decade of reversing, I got co-op working in DOS Wing Commander
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://fireflyk64.github.io/wcmulti/
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 108
-    comments: 15
+    points: 248
+    comments: 36
   kind: product
 ---
 

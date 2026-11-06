@@ -1,0 +1,14 @@
+- id: ev-9cbd2a00082a3c3f
+  project_slug: faster-retrieval-for-better-more-efficient-rag
+  url: https://machinelearning.apple.com/research/faster-retrieval
+  title: Faster Retrieval for Better, More Efficient RAG
+  published_at: '2026-11-05T00:00:00Z'
+  collected_at: '2026-11-06T02:27:19Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented
+    generation (RAG). Given a query vector, MIPS systems search within a database of millions of candidate
+    key vectors for the one that best matches the query. The original data point associated with that
+    best-matching key is then used to handle the query: in RAG, the document that is best suited to answer
+    the question is typically prefixed to the query. As the number of keys grows to millions and vector
+    dimensions reach thousands, the computational cost of running an exhaustive…'

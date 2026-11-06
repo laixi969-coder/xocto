@@ -22,16 +22,16 @@ summary: '自媒体运营 Skill（技能包）精选：小红书、抖音、公�
   Code、Codex 等智能体可用 | Curated agent skills for social media: Xiaohongshu (RedNote), Douyin, WeChat, X,
   YouTube, TikTok and LinkedIn'
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/UnderleveledBuilder/awesome-social-media-skills
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 190
+    stars: 200
     forks: 32
     open_issues: 3
   kind: product

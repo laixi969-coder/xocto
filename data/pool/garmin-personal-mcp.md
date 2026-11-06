@@ -21,17 +21,17 @@ canonical_url: https://github.com/Mason-Levyy/garmin-personal-mcp
 summary: 'MCP server for Garmin Connect on Garmin''s official Personal API: sleep, HRV, body battery,
   activities, and more from Claude or any MCP client'
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Mason-Levyy/garmin-personal-mcp
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 56
-    forks: 9
+    stars: 57
+    forks: 10
     open_issues: 9
   kind: product
 ---

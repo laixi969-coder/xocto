@@ -20,17 +20,17 @@ url: https://unclickbait.app/
 canonical_url: https://unclickbait.app
 summary: Replace clickbait YouTube thumbnails
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://unclickbait.app/
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 9
-    comments: 6
+    points: 14
+    comments: 9
   kind: product
 ---
 

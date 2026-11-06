@@ -21,17 +21,17 @@ canonical_url: https://beautifulrust.dev
 summary: Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested
   clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.beautifulrust.dev
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 1713
-    forks: 90
+    stars: 1730
+    forks: 91
     open_issues: 4
   kind: product
 ---

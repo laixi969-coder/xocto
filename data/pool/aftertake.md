@@ -21,16 +21,16 @@ canonical_url: https://itssnowmobile.github.io/aftertake
 summary: 'The open-source AI video studio that runs on your own GPU: generate, recast, enhance and cut
   video with open-weight models and native ComfyUI.'
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://itssnowmobile.github.io/aftertake/
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 82
+    stars: 43
     forks: 0
     open_issues: 0
   kind: product

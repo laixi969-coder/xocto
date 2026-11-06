@@ -20,7 +20,7 @@ url: https://wave.subworkflow.ai/
 canonical_url: https://wave.subworkflow.ai
 summary: Layered gradient wave backgrounds using Three.js and shaders
 first_seen: '2026-09-25T12:34:56Z'
-last_seen: '2026-11-02T01:31:58Z'
+last_seen: '2026-11-06T02:27:21Z'
 status: pending_filter
 sources:
 - hackernews
@@ -58,6 +58,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOdklWRTkzLS02dlZmbnh1NlJrUUxRZm9xbmFHYzVmTWlaNkNpOW5ueHFVNkpKRzVaS0U3ck91NGd5aUkwdVRQejhOM0RyUGRsV3FzeGhVVC1QOVRmQ2R0WEY0b3N5dHZNMVlEUGxaS3BIMFFvWGJRa0swVFN3enZnbHFEeTBrZ0w0d3MwQUNDbmo?oc=5
   seen_at: '2026-11-02T01:31:58Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai
+  seen_at: '2026-11-06T02:27:21Z'
   metrics: {}
   kind: news
 ---

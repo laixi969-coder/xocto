@@ -34,11 +34,12 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Early stage). A la
   companies, Pierre is also building the infrastructure platform to store code and other artifacts to
   power agentic workloads as companies all leverage AI to scale.
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-11-05T02:30:05Z'
+last_seen: '2026-11-06T02:27:28Z'
 status: pending_filter
 sources:
 - ia40
 - officialfeeds
+- newssearch
 sightings:
 - source: ia40
   url: https://pierre.computer/
@@ -50,6 +51,11 @@ sightings:
 - source: officialfeeds
   url: https://openai.com/index/openai-to-acquire-pierre
   seen_at: '2026-11-05T02:30:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXoyOGE1akhvYVlrLWJiQ0cxWWd0cE1NdFVUYWJQVGNNRGwwQ0lVYjFKYkVHcUQzdXB2dUlEcDR4d09zbHVob2NyMWtKZlQzd3QzbmRpRkhWY0FxM0JqVkZCOEFaTmpPSFZ4dVN4ZGhLVkNUT2VsMmVrSDVRSGlzaEE0QzN3UmdmRXR1VG1ZNnByc0w1ajZtdWhnYWJyNTRsRndPYVVabk5UZU9uSU5aUTFlYXh4TXpxY2haTEhkcmpKUDRG?oc=5
+  seen_at: '2026-11-06T02:27:28Z'
   metrics: {}
   kind: news
 ---

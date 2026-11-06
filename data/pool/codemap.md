@@ -20,17 +20,17 @@ url: https://github.com/peterretief/codemap
 canonical_url: https://github.com/peterretief/codemap
 summary: one-page interactive map of any Go repository
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/peterretief/codemap
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 41
-    comments: 18
+    points: 44
+    comments: 23
   kind: product
 ---
 

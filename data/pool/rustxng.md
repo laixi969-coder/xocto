@@ -20,18 +20,18 @@ url: https://github.com/sahenjp/RustXNG
 canonical_url: https://github.com/sahenjp/RustXNG
 summary: Self-hosted, SSRF-hardened web search and grounding engine for local AI agents (AGPL-3.0-or-later)
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sahenjp/RustXNG
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 819
+    stars: 849
     forks: 64
-    open_issues: 7
+    open_issues: 1
   kind: product
 ---
 

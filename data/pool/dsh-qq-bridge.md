@@ -21,18 +21,18 @@ canonical_url: https://github.com/Yuuyuko-uu/dsh-qq-bridge
 summary: 通到 QQ：DSH 里的 AI 伙伴和 QQ 双向互通 —— 它说完话自动发到 QQ，你在 QQ 说的话自动转进 DSH（走 OneBot 11 HTTP，NapCat / SnowLuma
   都行）
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Yuuyuko-uu/dsh-qq-bridge
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 164
+    stars: 171
     forks: 12
-    open_issues: 3
+    open_issues: 4
   kind: product
 ---
 

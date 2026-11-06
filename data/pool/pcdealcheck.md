@@ -20,17 +20,17 @@ url: https://pcdealcheck.com/
 canonical_url: https://pcdealcheck.com
 summary: I built a tool that prices a pre-built PC part by part
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pcdealcheck.com/
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 95
-    comments: 67
+    points: 116
+    comments: 80
   kind: product
 ---
 

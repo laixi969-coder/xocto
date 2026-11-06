@@ -20,7 +20,7 @@ url: https://modelmap.cc
 canonical_url: https://modelmap.cc
 summary: animated architecture of any HuggingFace models
 first_seen: '2026-08-18T23:57:36Z'
-last_seen: '2026-11-03T03:29:26Z'
+last_seen: '2026-11-06T02:27:19Z'
 status: pending_filter
 sources:
 - hackernews
@@ -67,6 +67,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt
   seen_at: '2026-11-03T03:29:26Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation
+  seen_at: '2026-11-06T02:27:19Z'
   metrics: {}
   kind: news
 ---

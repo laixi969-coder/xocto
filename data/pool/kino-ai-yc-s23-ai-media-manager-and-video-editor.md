@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50368804
 canonical_url: https://news.ycombinator.com/item?id=50368804
 summary: AI media manager and video editor
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50368804
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 71
-    comments: 26
+    points: 103
+    comments: 34
   kind: product
 ---
 

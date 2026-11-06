@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50366117
 canonical_url: https://news.ycombinator.com/item?id=50366117
 summary: What's your current AI agentic setup?
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50366117
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 131
-    comments: 155
+    points: 505
+    comments: 633
   kind: news
 ---
 

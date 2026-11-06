@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5iN2thTl92dlFDMUxoSzBMc3
 canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5iN2thTl92dlFDMUxoSzBMc3M0ejFiMzBZellER2hsYWVIZE5mOHh0a3FrYTJMcUJab1Z2VUdVMTBPallNTTFXdFJDWGFjVUR4cThNRDhMaExNQjdYZDBlYzQ1cE5LaGVKUGpEMDg4NFY2Y3V5V2JvLWlfd3hTQVE?oc=5
 summary: 'AI Shopper Revolution: What Retailers Need to Know leger360.com'
 first_seen: '2026-11-05T02:30:34Z'
-last_seen: '2026-11-05T02:30:34Z'
+last_seen: '2026-11-06T02:27:28Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5iN2thTl92dlFDMUxoSzBMc3M0ejFiMzBZellER2hsYWVIZE5mOHh0a3FrYTJMcUJab1Z2VUdVMTBPallNTTFXdFJDWGFjVUR4cThNRDhMaExNQjdYZDBlYzQ1cE5LaGVKUGpEMDg4NFY2Y3V5V2JvLWlfd3hTQVE?oc=5
   seen_at: '2026-11-05T02:30:34Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiekFVX3lxTE9tQXRzYnRjMlgxYlMxbGRBeS1HY1RvMzg1VHhHd2NkZjBBNDZpdGRmTTA4MkdmdjkzUjBjV3pWNWI4Tndoa0M3LTRsbG1aTlpzd2hhd0JlRlNiR1YtY0xoR0NiMFpvd3QySndmZ0ZOT2NhX095NjJRdVZ3?oc=5
+  seen_at: '2026-11-06T02:27:28Z'
   metrics: {}
   kind: news
 ---

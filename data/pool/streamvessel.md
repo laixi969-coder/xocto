@@ -20,17 +20,17 @@ url: https://streamvessel.com/blog/mcp-trusted-redirect-uris
 canonical_url: https://streamvessel.com/blog/mcp-trusted-redirect-uris
 summary: Letting users trust their own MCP clients, without opening a phishing hole
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://streamvessel.com/blog/mcp-trusted-redirect-uris
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 32
-    comments: 5
+    points: 34
+    comments: 6
   kind: news
 ---
 

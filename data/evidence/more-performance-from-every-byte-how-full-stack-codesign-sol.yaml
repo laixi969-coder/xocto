@@ -1,0 +1,18 @@
+- id: ev-35a1c9d6d751e378
+  project_slug: more-performance-from-every-byte-how-full-stack-codesign-sol
+  url: https://blogs.nvidia.com/blog/memory-full-stack-codesign/
+  title: 'More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge'
+  published_at: '2026-11-05T16:00:00Z'
+  collected_at: '2026-11-06T02:27:19Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Larger models, longer contexts and agentic applications are increasing GPU memory pressure while
+    supply tightens and prices rise — a trend expected to continue through the near term. NVIDIA works
+    closely with memory partners to rapidly adopt the latest memory technologies. NVIDIA was first to
+    adopt HBM3e and HBM4 technologies into an accelerated computing stack. But the approach isn’t to simply
+    pack more memory onto the GPU. It’s full-stack codesign. NVIDIA intentionally designs GPUs, CPUs,
+    networking, storage and software together to get more useful work out of memory at every layer of
+    the AI factory. That matters because an AI factory runs on a memory and storage hierarchy. GPU high-bandwidth
+    memory (HBM) is the fastest, most expensive and most contested tier — with model weights and KV cache
+    competing for limited capacity. Below it sit CPU memory, local SSDs and shared storage, each trading
+    speed for more capacity at a lower cost per bit. How much useful work a byte does depends on

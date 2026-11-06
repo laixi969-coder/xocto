@@ -20,7 +20,7 @@ url: https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-ge
 canonical_url: https://404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job
 summary: Proton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job
 first_seen: '2026-10-27T01:29:46Z'
-last_seen: '2026-11-01T01:10:25Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 290
     comments: 248
+  kind: news
+- source: hackernews
+  url: https://www.404media.co/american-voters-overwhelmingly-reject-ai-data-centers/
+  seen_at: '2026-11-06T02:26:51Z'
+  metrics:
+    points: 61
+    comments: 2
   kind: news
 ---
 

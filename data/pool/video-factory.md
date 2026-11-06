@@ -21,17 +21,17 @@ canonical_url: https://github.com/LordVayron/video-factory
 summary: 'An AI video studio your coding agent installs and runs: UGC ads, micro-dramas, sitcoms, launch
   films, fantasy shorts, hour-long meditations. Claude Code / Codex + APIMart + Kie.ai + ElevenLabs.'
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-11-04T02:20:51Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LordVayron/video-factory
-  seen_at: '2026-11-04T02:20:51Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
     stars: 62
-    forks: 13
+    forks: 14
     open_issues: 0
   kind: product
 ---

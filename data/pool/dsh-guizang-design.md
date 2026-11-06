@@ -20,17 +20,17 @@ url: https://github.com/op7418/dsh-guizang-design
 canonical_url: https://github.com/op7418/dsh-guizang-design
 summary: 歸藏设计 · DeepSeek Harness 插件：网页 PPT、图文卡片、网页排版、去 AI 味四个 skill，一套设计系统；作品库、内容生产工作流、语气档案
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-06T02:26:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/op7418/dsh-guizang-design
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-06T02:26:55Z'
   metrics:
-    stars: 437
-    forks: 28
+    stars: 492
+    forks: 32
     open_issues: 0
   kind: product
 ---

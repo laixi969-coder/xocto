@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-11-05T02:30:34Z'
+last_seen: '2026-11-06T02:27:21Z'
 status: pending_filter
 sources:
 - hackernews
@@ -198,6 +198,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV21lX2JhVDhYVEVsUjNZY3pzeFFKNGhxZUJiZnVhQTQ3N2NKdXNRN3dScU1FR21PRnAzTHlGYkpHV1YzUk5QUmJDQmJlRHpoaWRZbXM1WUlKNVFwNGRRQXlFbkdrMG84QXU4bmwtT05zckpuU1YtNFVTNlB4TEpoeEhBckxTQktpaWdKY3JIY1E4NUpWbXVjVENjQUk2M0tEc045LWdtNlo?oc=5
   seen_at: '2026-11-05T02:30:34Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/
+  seen_at: '2026-11-06T02:27:21Z'
   metrics: {}
   kind: news
 ---

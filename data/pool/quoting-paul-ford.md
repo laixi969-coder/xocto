@@ -26,14 +26,19 @@ summary: "For a while, I must admit, it looked as if software developer roles li
   \ code, it’s become clearer why many shouldn’t.  \n —  Paul Ford , A.I. Was Supposed to Give Us New\
   \ Killer Apps. What Happened? \n\n     Tags:  paul-ford ,  generative-ai ,  deep-blue ,  ai ,  llms"
 first_seen: '2026-09-12T18:00:21Z'
-last_seen: '2026-09-13T00:01:15Z'
-status: rejected
+last_seen: '2026-11-06T02:27:21Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Sep/12/paul-ford/
   seen_at: '2026-09-13T00:01:15Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Nov/5/paul-ford/
+  seen_at: '2026-11-06T02:27:21Z'
   metrics: {}
   kind: news
 ---

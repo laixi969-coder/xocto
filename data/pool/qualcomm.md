@@ -20,17 +20,17 @@ url: https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra
 canonical_url: https://qualcomm.com/data-center/products/cloud-ai-100-ultra
 summary: Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s
 first_seen: '2026-11-05T02:29:35Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-06T02:26:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra
-  seen_at: '2026-11-05T02:29:35Z'
+  seen_at: '2026-11-06T02:26:51Z'
   metrics:
-    points: 104
-    comments: 43
+    points: 170
+    comments: 63
   kind: news
 ---
 
