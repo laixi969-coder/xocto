@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "company_id": "cb62d969-1126-58e9-8352-81b28e994729",
+  "round_fingerprint": "c179f12884091ddad3e9e2851b2e1d334032d92fbdf99306a286539ced56c3e8",
+  "last_attempt": "2026-11-06",
+  "status": "blocked",
+  "gaps": [
+    "official_website",
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/venture/nurx-journey-clinical-founders-raise-mental-health-startup-siggy/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Siggy has raised $6 million in pre-seed funding to build a mental health service that uses AI to collect patients’ histories and track progress between appointments with licensed clinicians",
+      "checked_on": "2026-11-06"
+    }
+  ],
+  "fingerprint": "e4dc1e066385ebcf18e794f615f6ea59c31abe81bd969236ed3c3a010967a8d2"
+}
