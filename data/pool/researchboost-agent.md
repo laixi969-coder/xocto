@@ -20,17 +20,17 @@ url: https://github.com/DAGroup-PKU/ResearchBoost-Agent
 canonical_url: https://github.com/DAGroup-PKU/ResearchBoost-Agent
 summary: An autonomous agent that profiles, optimizes, and validates AI training code.
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/DAGroup-PKU/ResearchBoost-Agent
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 230
-    forks: 9
+    stars: 241
+    forks: 10
     open_issues: 2
   kind: product
 ---

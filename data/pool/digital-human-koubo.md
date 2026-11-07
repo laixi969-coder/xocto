@@ -22,17 +22,17 @@ summary: 'AI digital-human talking-head videos from one photo: Renoise MCP gener
   + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy
   …'
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/andyhuo520/digital-human-koubo
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 1815
-    forks: 410
+    stars: 1851
+    forks: 424
     open_issues: 4
   kind: product
 ---

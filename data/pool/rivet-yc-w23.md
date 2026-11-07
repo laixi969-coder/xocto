@@ -20,17 +20,17 @@ url: https://github.com/rivet-dev/rivet
 canonical_url: https://github.com/rivet-dev/rivet
 summary: Scale and Orchestrate Agents on S3
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/rivet-dev/rivet
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 75
-    comments: 42
+    points: 118
+    comments: 58
   kind: product
 ---
 

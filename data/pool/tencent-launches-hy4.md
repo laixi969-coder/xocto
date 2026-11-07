@@ -20,17 +20,17 @@ url: https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-world
 canonical_url: https://tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models
 summary: One of the Leading Open-Source AI Models
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 89
-    comments: 2
+    points: 95
+    comments: 4
   kind: news
 ---
 

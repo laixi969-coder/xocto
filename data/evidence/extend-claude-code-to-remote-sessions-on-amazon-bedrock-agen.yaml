@@ -1,0 +1,19 @@
+- id: ev-839c1a31cc066854
+  project_slug: extend-claude-code-to-remote-sessions-on-amazon-bedrock-agen
+  url: https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/
+  title: Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls
+  published_at: '2026-11-06T16:45:58Z'
+  collected_at: '2026-11-07T01:57:08Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'You might already run Claude Code locally on your laptop, backed by Amazon Bedrock. This post
+    shows how to go a step further: run it as a remote agent on Amazon Bedrock AgentCore, a platform to
+    build, connect, and optimize agents at scale, with any framework or model. The sample uses AgentCore
+    runtime, a capability of Amazon Bedrock AgentCore, so every task runs in its own isolated session
+    inside your AWS account. You offload a coding task, close the laptop, and come back to the result.
+    We first discuss why teams choose Amazon Bedrock for Claude Code and highlight a few key security
+    characteristics. Then, we discuss the remote agent architecture and walk through an accompanying sample,
+    sample-remote-coding-agent , that implements it. The sample runs each task in its own AgentCore runtime
+    session and returns a GitHub pull request for you to review and merge. Along the way, we show how
+    the Amazon Bedrock data controls stay intact when a task runs remotely. Why customers run Claude Code
+    o'

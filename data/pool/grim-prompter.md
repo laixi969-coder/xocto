@@ -21,16 +21,16 @@ canonical_url: https://github.com/jmanico/grim-prompter
 summary: 'Threat modeling for AI coding agents: point Claude Code, Codex or any agent at your repo and
   get an evidence-traced threat model. 36 architectures, 29 methods, MIT.'
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jmanico/grim-prompter
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 369
+    stars: 383
     forks: 31
     open_issues: 1
   kind: product

@@ -21,18 +21,18 @@ canonical_url: https://github.com/tshi-dev/UrTV/releases/tag/apk-latest
 summary: Arabic home screen and Saudi screensaver for Android TV / Google TV, plus a safe speed-up. Your
   AI agent sets it all up. واجهة عربية وشاشة توقف سعودية لتلفزيونات أندرويد، يركّبها لك مساعد الذكاء الاصطناعي.
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tshi-dev/UrTV/releases/tag/apk-latest
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 233
+    stars: 236
     forks: 88
-    open_issues: 6
+    open_issues: 9
   kind: product
 ---
 

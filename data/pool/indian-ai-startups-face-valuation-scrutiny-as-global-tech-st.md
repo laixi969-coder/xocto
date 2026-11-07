@@ -1,0 +1,41 @@
+---
+slug: indian-ai-startups-face-valuation-scrutiny-as-global-tech-st
+name: Indian AI startups face valuation scrutiny as global tech stocks slide
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS25tTmxWd0NSQkl5aGM0WGJ3WGx3TmZRXzcwQkE2c3ZaRTkyT24zOUdnWDZfd3JGRHlGWVlmbmtjamlibVN0U0xlVmtDNExENUtsZ0VEbHROMk53bElYU2dwM1JZWXRRbjdQVDI1MGR5SkliTk9uc0JtcWFWVGdDZG9uS09jMGFPbTBwdUxHV1dQYTFrcDVNblRHSndfeGxqTkVrUTBOZ3VYQVFMVjlab1c4bDAwYzE2c05BWVVjSWRBUdIBzwFBVV95cUxNRHpxcHUyRWp0SGZHNUVHNVJnQVI5cTZ4RW5oOVpRa3ZBMVZiSkhvTElNSVVjTWd0OERSRVRteGx1Y2xBNWNRVHh4QkowQ0ZTbW5WZFR3bGVobXJoWUptT3lPSUtZVVhrS0ZWdDFLemVrYXdUb1MyTnFpdXBfUWxpTUxWQXRrN2NfNVNCdjEteldlUEQ4WXZUYkZxeU94SlN1aFNlYXlsV2VhWmRGWC1KOVFDR29rQVNLekNLVmFoMHFXLUpaY2hRLWpNemtvc2s?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS25tTmxWd0NSQkl5aGM0WGJ3WGx3TmZRXzcwQkE2c3ZaRTkyT24zOUdnWDZfd3JGRHlGWVlmbmtjamlibVN0U0xlVmtDNExENUtsZ0VEbHROMk53bElYU2dwM1JZWXRRbjdQVDI1MGR5SkliTk9uc0JtcWFWVGdDZG9uS09jMGFPbTBwdUxHV1dQYTFrcDVNblRHSndfeGxqTkVrUTBOZ3VYQVFMVjlab1c4bDAwYzE2c05BWVVjSWRBUdIBzwFBVV95cUxNRHpxcHUyRWp0SGZHNUVHNVJnQVI5cTZ4RW5oOVpRa3ZBMVZiSkhvTElNSVVjTWd0OERSRVRteGx1Y2xBNWNRVHh4QkowQ0ZTbW5WZFR3bGVobXJoWUptT3lPSUtZVVhrS0ZWdDFLemVrYXdUb1MyTnFpdXBfUWxpTUxWQXRrN2NfNVNCdjEteldlUEQ4WXZUYkZxeU94SlN1aFNlYXlsV2VhWmRGWC1KOVFDR29rQVNLekNLVmFoMHFXLUpaY2hRLWpNemtvc2s?oc=5
+summary: Indian AI startups face valuation scrutiny as global tech stocks slide The New Indian Express
+first_seen: '2026-11-07T01:57:16Z'
+last_seen: '2026-11-07T01:57:16Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS25tTmxWd0NSQkl5aGM0WGJ3WGx3TmZRXzcwQkE2c3ZaRTkyT24zOUdnWDZfd3JGRHlGWVlmbmtjamlibVN0U0xlVmtDNExENUtsZ0VEbHROMk53bElYU2dwM1JZWXRRbjdQVDI1MGR5SkliTk9uc0JtcWFWVGdDZG9uS09jMGFPbTBwdUxHV1dQYTFrcDVNblRHSndfeGxqTkVrUTBOZ3VYQVFMVjlab1c4bDAwYzE2c05BWVVjSWRBUdIBzwFBVV95cUxNRHpxcHUyRWp0SGZHNUVHNVJnQVI5cTZ4RW5oOVpRa3ZBMVZiSkhvTElNSVVjTWd0OERSRVRteGx1Y2xBNWNRVHh4QkowQ0ZTbW5WZFR3bGVobXJoWUptT3lPSUtZVVhrS0ZWdDFLemVrYXdUb1MyTnFpdXBfUWxpTUxWQXRrN2NfNVNCdjEteldlUEQ4WXZUYkZxeU94SlN1aFNlYXlsV2VhWmRGWC1KOVFDR29rQVNLekNLVmFoMHFXLUpaY2hRLWpNemtvc2s?oc=5
+  seen_at: '2026-11-07T01:57:16Z'
+  metrics: {}
+  kind: news
+---
+
+# Indian AI startups face valuation scrutiny as global tech stocks slide
+
+Indian AI startups face valuation scrutiny as global tech stocks slide The New Indian Express
+
+## 笔记
+
+

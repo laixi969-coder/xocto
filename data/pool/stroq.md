@@ -20,17 +20,17 @@ url: https://github.com/AGGIB/Stroq
 canonical_url: https://github.com/AGGIB/Stroq
 summary: a local audit of what your coding agent did and why
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/AGGIB/Stroq
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 72
-    comments: 15
+    points: 90
+    comments: 34
   kind: product
 ---
 

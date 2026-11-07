@@ -1,0 +1,41 @@
+---
+slug: 拓尔思新一代网察舆情智能体netinsight-harness正式发布告别态势看板重构舆情业务
+name: 拓尔思新一代网察舆情智能体NetInsight Harness正式发布：告别态势看板，重构舆情业务
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE55ZUQyd2hrOWlxYm5pSFViVV9oS3ktaEtqRTB0UWdUVWF3UnQ2S3pPdUNNLTk2dGY2TmNBVFBjWHdpS0xldFhsbE1KX1lIMnlvZGtfYlVwWXlPMjk5dlRHbVln?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE55ZUQyd2hrOWlxYm5pSFViVV9oS3ktaEtqRTB0UWdUVWF3UnQ2S3pPdUNNLTk2dGY2TmNBVFBjWHdpS0xldFhsbE1KX1lIMnlvZGtfYlVwWXlPMjk5dlRHbVln?oc=5
+summary: 拓尔思新一代网察舆情智能体NetInsight Harness正式发布：告别态势看板，重构舆情业务 同花顺
+first_seen: '2026-11-07T01:57:16Z'
+last_seen: '2026-11-07T01:57:16Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE55ZUQyd2hrOWlxYm5pSFViVV9oS3ktaEtqRTB0UWdUVWF3UnQ2S3pPdUNNLTk2dGY2TmNBVFBjWHdpS0xldFhsbE1KX1lIMnlvZGtfYlVwWXlPMjk5dlRHbVln?oc=5
+  seen_at: '2026-11-07T01:57:16Z'
+  metrics: {}
+  kind: news
+---
+
+# 拓尔思新一代网察舆情智能体NetInsight Harness正式发布：告别态势看板，重构舆情业务
+
+拓尔思新一代网察舆情智能体NetInsight Harness正式发布：告别态势看板，重构舆情业务 同花顺
+
+## 笔记
+
+

@@ -20,16 +20,16 @@ url: https://kidsshelf.org/
 canonical_url: https://kidsshelf.org
 summary: your kids' own little internet
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://kidsshelf.org/
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 5
+    points: 7
     comments: 2
   kind: product
 ---

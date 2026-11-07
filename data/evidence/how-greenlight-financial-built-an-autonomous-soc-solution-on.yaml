@@ -1,0 +1,18 @@
+- id: ev-0e2da73bbe3fbda8
+  project_slug: how-greenlight-financial-built-an-autonomous-soc-solution-on
+  url: https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/
+  title: How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore
+  published_at: '2026-11-06T16:55:05Z'
+  collected_at: '2026-11-07T01:57:08Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Greenlight Financial resolves more than 90 percent of up to 4,000 security and risk cases each
+    month without human intervention. Greenlight’s Luna uses Amazon Bedrock AgentCore , infrastructure
+    for building, connecting, and optimizing agents at scale. Specifically, Greenlight uses AgentCore
+    runtime, a capability of Amazon Bedrock AgentCore, to host Luna’s agent code. It uses AgentCore memory,
+    a capability of Amazon Bedrock AgentCore, to support its tiered multi-agent system. This avoids the
+    need to build and operate these capabilities in-house. Luna triages dark web breach-card alerts, identity
+    anomalies, and financial-risk events in seconds. This post explains how Greenlight Financial built
+    an autonomous security operations center (SOC) solution on Amazon Bedrock AgentCore. We cover its
+    multi-tiered supervisor architecture, more than 30 specialized agents, episodic memory for continuous
+    learning, and expansion from SOC use cases into financial risk triage. We share production metrics,

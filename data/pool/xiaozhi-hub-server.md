@@ -22,18 +22,18 @@ summary: '小智协议的 AI 语音中枢网关：叫谁的名字就交给谁干
   Xiaozhi-protocol devices: call a name to hand the job to Claude Code or any LLM; runs on your computer
   or a cloud server, with an admin console and one-click install'
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/justhalfbit/xiaozhi-hub-server
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 121
+    stars: 122
     forks: 28
-    open_issues: 2
+    open_issues: 1
   kind: product
 ---
 

@@ -21,18 +21,18 @@ canonical_url: https://cheapag.com
 summary: 50x your Claude usage with cheap-ag. Opus plans, a dirt-cheap model writes every line, and tests
   decide what ships. Your $20 plan stops hitting limits. One MCP server for Claude Code.
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://cheapag.com
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 289
-    forks: 20
-    open_issues: 4
+    stars: 306
+    forks: 28
+    open_issues: 8
   kind: product
 ---
 

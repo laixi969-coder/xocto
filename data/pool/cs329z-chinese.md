@@ -21,17 +21,17 @@ canonical_url: https://cs329z-course-review-20261029.wanghao162263.chatgpt.site
 summary: 斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整
   Markdown、在线与离线 HTML。Chinese course notes.
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://cs329z-course-review-20261029.wanghao162263.chatgpt.site
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 501
-    forks: 56
+    stars: 503
+    forks: 57
     open_issues: 0
   kind: product
 ---

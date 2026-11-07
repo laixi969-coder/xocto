@@ -21,17 +21,17 @@ canonical_url: https://github.com/Moessif/code-video-showcase
 summary: 'A pure-code beat-synced showcase-video Agent Skill: HTML/Canvas/SVG/Three.js frame-by-frame
   + Python numpy/scipy score + FFmpeg. No generative models.'
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Moessif/code-video-showcase
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 346
-    forks: 26
+    stars: 365
+    forks: 27
     open_issues: 0
   kind: product
 ---

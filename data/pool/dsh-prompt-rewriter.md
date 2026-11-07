@@ -21,16 +21,16 @@ canonical_url: https://github.com/huaguoxingkong/dsh-prompt-rewriter
 summary: 'One-click prompt enhancement beside the DeepSeek Harness composer: rewrites a draft in place
   without sending it.'
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huaguoxingkong/dsh-prompt-rewriter
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 250
+    stars: 251
     forks: 3
     open_issues: 1
   kind: product

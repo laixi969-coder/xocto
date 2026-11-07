@@ -1,0 +1,18 @@
+- id: ev-437789bf7a5b8b86
+  project_slug: serverless-mcp-server-for-ai-agent-data-lake-access-on-amazo
+  url: https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/
+  title: Serverless MCP server for AI agent data lake access on Amazon ECS Fargate
+  published_at: '2026-11-06T17:13:13Z'
+  collected_at: '2026-11-07T01:57:08Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Organizations building applications powered by artificial intelligence (AI) face a recurring
+    challenge: giving large language model (LLM) agents access to enterprise data lakes without duplicating
+    integration logic across every agent and application. Most teams begin by wiring agents directly to
+    databases and APIs, with no shared gateway such as a Model Context Protocol (MCP) server in between.
+    Each new dataset demands custom code, and each agent reimplements its own access control. As the number
+    of datasets or agents grows, permission enforcement drifts, and onboarding a new data source becomes
+    a multi-day engineering effort. Our team supports Amazon’s North America Sort Center (NASC) network,
+    where planning teams rely on operational data to manage capacity, labor, and package flow. To give
+    those teams conversational access to that data, we built a serverless Model Context Protocol (MCP)
+    server on Amazon Elastic Container Service (Amazon ECS) with AWS Fargate to address this problem f'

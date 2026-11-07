@@ -21,17 +21,17 @@ canonical_url: https://github.com/sirioberati/YouTube-AI-Video-Editing-System
 summary: 'Open-source YouTube AI video editing system: Eyeline teleprompter, editing agents, JSON, Claude
   Design, animation and motion graphics.'
 first_seen: '2026-10-23T00:40:56Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sirioberati/YouTube-AI-Video-Editing-System
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 116
-    forks: 31
+    stars: 125
+    forks: 32
     open_issues: 0
   kind: product
 ---

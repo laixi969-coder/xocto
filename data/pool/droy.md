@@ -20,16 +20,16 @@ url: https://github.com/moonoops/Droy
 canonical_url: https://github.com/moonoops/Droy
 summary: An Android AI Agent built on DeepSeek Harness, with Android Use tools, voice and a cat companion.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/moonoops/Droy
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 343
+    stars: 344
     forks: 3
     open_issues: 1
   kind: product

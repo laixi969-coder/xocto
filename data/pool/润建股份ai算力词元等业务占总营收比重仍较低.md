@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MRlBmMlVSbXBIWVpnQVU1TH
 canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MRlBmMlVSbXBIWVpnQVU1THRCOE5tVnBVdVAyTjdNZ2ZScEdST01HWjBLWTJ6ME1UQU9qSTFXM1pobXZyeGJwQVRDQlllcmhqUEZzeXp5WTBiZWpYb2t2cjV5eXpRUQ?oc=5
 summary: 润建股份：AI、算力、词元等业务占总营收比重仍较低 东方财富
 first_seen: '2026-10-21T00:38:32Z'
-last_seen: '2026-10-21T00:38:32Z'
+last_seen: '2026-11-07T01:57:16Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MRlBmMlVSbXBIWVpnQVU1THRCOE5tVnBVdVAyTjdNZ2ZScEdST01HWjBLWTJ6ME1UQU9qSTFXM1pobXZyeGJwQVRDQlllcmhqUEZzeXp5WTBiZWpYb2t2cjV5eXpRUQ?oc=5
   seen_at: '2026-10-21T00:38:32Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5senE4eHB5WnNEclQ3N1NzVkxIRGRfY2FUbWR1eGd2RVkxYkt2Y2xpSF85ZkxqellqMDN1eXhtdld0aEw4bVpMMmlaS0xYbG1qcktRVkF3dTVOZFhjNFBQVk5SRzVKdw?oc=5
+  seen_at: '2026-11-07T01:57:16Z'
   metrics: {}
   kind: news
 ---

@@ -20,17 +20,17 @@ url: https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/
 canonical_url: https://naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai
 summary: The Hackintosh Reborn
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 210
-    comments: 102
+    points: 402
+    comments: 233
   kind: news
 ---
 

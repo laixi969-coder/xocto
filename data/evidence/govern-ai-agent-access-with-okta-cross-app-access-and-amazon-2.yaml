@@ -1,0 +1,18 @@
+- id: ev-56b71b0d9b012d5c
+  project_slug: govern-ai-agent-access-with-okta-cross-app-access-and-amazon-2
+  url: https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/
+  title: Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1
+  published_at: '2026-11-06T17:09:18Z'
+  collected_at: '2026-11-07T01:57:08Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'An AI agent that updates a ticket or reads a customer record acts for a person, inside applications
+    that person can reach. Your identity team then has to answer a question that per-app OAuth consent
+    and shared service accounts leave open: which agent might act for which user in which application,
+    and how you stop it. Okta Cross App Access (XAA) answers it in your identity provider (IdP). You register
+    the agent in Okta, an administrator approves the applications it might reach, and Okta evaluates policy
+    each time the agent asks to act for a user. In our tests, after an administrator removed a user’s
+    assignment to the agent, Okta refused the agent’s new requests for that user within about 1 second,
+    and tokens already issued expired within 5 minutes. Amazon Bedrock AgentCore is a platform to build,
+    connect, and optimize agents at scale, with any framework or model. This solution uses two of its
+    capabilities to carry out Okta’s decision on AWS. Amazon Bedrock AgentCore runtime, a capabilit'

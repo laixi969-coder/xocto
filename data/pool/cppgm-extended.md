@@ -20,17 +20,17 @@ url: https://github.com/vishvananda/cppgm-extended
 canonical_url: https://github.com/vishvananda/cppgm-extended
 summary: A C++ Compiler That Is Faster Than GCC and Clang
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/vishvananda/cppgm-extended
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 7
-    comments: 2
+    points: 8
+    comments: 3
   kind: product
 ---
 

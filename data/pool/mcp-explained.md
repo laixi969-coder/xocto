@@ -20,17 +20,17 @@ url: https://mcp-explained.com/
 canonical_url: https://mcp-explained.com
 summary: ''
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://mcp-explained.com/
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 251
-    comments: 113
+    points: 331
+    comments: 133
   kind: news
 ---
 

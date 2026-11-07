@@ -20,17 +20,17 @@ url: https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf
 canonical_url: https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf
 summary: My psychophysics as a bilateral cochlear implant user
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 164
-    comments: 74
+    points: 184
+    comments: 91
   kind: news
 ---
 

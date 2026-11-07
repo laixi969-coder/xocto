@@ -20,8 +20,8 @@ url: https://www.lesswrong.com/posts/ySXuvJcqRindQwAk7/how-my-students-think-abo
 canonical_url: https://lesswrong.com/posts/ySXuvJcqRindQwAk7/how-my-students-think-about-ai
 summary: How My Students Think About AI
 first_seen: '2026-09-11T01:33:36Z'
-last_seen: '2026-10-06T02:18:31Z'
-status: rejected
+last_seen: '2026-11-07T01:56:36Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -45,6 +45,13 @@ sightings:
   metrics:
     points: 22
     comments: 20
+  kind: news
+- source: hackernews
+  url: https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL
+  seen_at: '2026-11-07T01:56:36Z'
+  metrics:
+    points: 179
+    comments: 184
   kind: news
 ---
 

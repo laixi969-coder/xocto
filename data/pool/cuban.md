@@ -20,17 +20,17 @@ url: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-k
 canonical_url: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html
 summary: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 109
-    comments: 45
+    points: 495
+    comments: 222
   kind: news
 ---
 

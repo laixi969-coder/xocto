@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSU9Ka2VQT2ZX
 summary: Evergreen’s Lyra Technology Group Invests in AI Talent Across Its MSP Portfolio, Launching Its
   Forward-Deployed Engineer Program 01net
 first_seen: '2026-11-05T02:30:34Z'
-last_seen: '2026-11-06T02:27:28Z'
+last_seen: '2026-11-07T01:57:16Z'
 status: pending_filter
 sources:
 - newssearch
@@ -35,6 +35,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNQlZxcmNhNHY2alpZaXR0N3ljQ1V6d2JTamRHTjRGWEpiMEM4TkxoT1dFVlpITHgzUUkyTkgwSG5LNzRsa0lMcnEyZEJSWTdqV0EwQWhHNUJFYjZHQlMwa255el9pSmZ2Y0RhRENQWWptVWZDT180Z1R4bmN2aEVpYjM1UUlNaGM5VlhaMVFDMHJSX0Z4TXcwRF8tazE5MzhYVVN4bDh3?oc=5
   seen_at: '2026-11-06T02:27:28Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikAJBVV95cUxOUm10SUZ4SW5Udzctd2FyV2U0RXZQcko2T1FTQ1BLUlI3Z2NfNUpfWmFpdVFpbW03WG4zUmZaUWFMY2xoaUtZeEtub1dRZ0FJZUpJLThmaElSMGRZbUExTmFOVmRBRGNFMEhOT3ozcVc5R3NUM0ZabjVLUjFrQ0ZSbWc4T2NQOE9YRks0cjJoQXVqdGZLMmRRSW9qMTBKWGp6Mk1Ed1Y3bUxxUGZYcUhqamJJQTdXQkJLSnFzMXZYdkZ1UkdEN3VNdUdvd1E1WlN4X2l0U3lZQUpkMkVnV3BjWFdKeUJOMmZRX1FSdUpvc2pNOHozUkhDRE5sWlZSb0kwUEhzdDIzM0h3SWsxVG5CZA?oc=5
+  seen_at: '2026-11-07T01:57:16Z'
   metrics: {}
   kind: news
 ---

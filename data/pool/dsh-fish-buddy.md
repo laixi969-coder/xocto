@@ -20,17 +20,17 @@ url: https://github.com/Yuuyuko-uu/dsh-fish-buddy
 canonical_url: https://github.com/Yuuyuko-uu/dsh-fish-buddy
 summary: 鱼搭子：桌面小鲸鱼挂件 + DSH 插件（语音送话、陪看字幕、游戏弹幕、截图）
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Yuuyuko-uu/dsh-fish-buddy
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 45
-    forks: 2
+    stars: 47
+    forks: 3
     open_issues: 5
   kind: product
 ---

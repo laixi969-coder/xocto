@@ -26,7 +26,7 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: queued
 sources:
 - github
@@ -321,17 +321,17 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-nekowhale-stickers
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 154
+    stars: 158
     forks: 3
     open_issues: 0
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-baton-mcp
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 177
+    stars: 179
     forks: 9
     open_issues: 0
   kind: product
@@ -345,19 +345,27 @@ sightings:
   kind: product
 - source: github
   url: https://npmjs.com/package/@cyrusdoyle/dsh-plugins
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 66
-    forks: 56
+    stars: 79
+    forks: 55
     open_issues: 0
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-media-desk
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 224
-    forks: 11
-    open_issues: 2
+    stars: 361
+    forks: 26
+    open_issues: 1
+  kind: product
+- source: github
+  url: https://www.npmjs.com/package/@cogit/cli
+  seen_at: '2026-11-07T01:56:40Z'
+  metrics:
+    stars: 66
+    forks: 6
+    open_issues: 1
   kind: product
 ---
 

@@ -20,17 +20,17 @@ url: https://axiommath.ai/research/the-stacks-project-formalized/
 canonical_url: https://axiommath.ai/research/the-stacks-project-formalized
 summary: The Stacks Project, Formalized in Lean
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://axiommath.ai/research/the-stacks-project-formalized/
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 71
-    comments: 20
+    points: 97
+    comments: 26
   kind: news
 ---
 

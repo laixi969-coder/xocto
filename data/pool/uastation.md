@@ -20,17 +20,17 @@ url: https://github.com/freyrswift/UaStation
 canonical_url: https://github.com/freyrswift/UaStation
 summary: 一键给 18 款 AI 编程工具注入提示词和技能的 Windows 桌面工具 · Qt / 20 MB · 134 skills · 两层任务路由
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/freyrswift/UaStation
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 58
-    forks: 24
+    stars: 60
+    forks: 25
     open_issues: 0
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://makermaker.ai/breakthroughs/inference/simulation/
 canonical_url: https://makermaker.ai/breakthroughs/inference/simulation
 summary: don't go broke, rent GPUs, serve tokens
 first_seen: '2026-11-06T02:26:51Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://makermaker.ai/breakthroughs/inference/simulation/
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 8
-    comments: 1
+    points: 11
+    comments: 5
   kind: product
 ---
 

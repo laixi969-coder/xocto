@@ -20,7 +20,7 @@ url: https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-governmen
 canonical_url: https://reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19
 summary: DeepSeek banned from U.S. federal civilian agencies under new DHS order
 first_seen: '2026-10-21T00:37:59Z'
-last_seen: '2026-11-06T02:26:51Z'
+last_seen: '2026-11-07T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
@@ -55,10 +55,24 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.reuters.com/legal/transactional/ai-data-center-stocks-slip-democratic-sweep-clouds-expansion-plans-2026-11-05/
-  seen_at: '2026-11-06T02:26:51Z'
+  seen_at: '2026-11-07T01:56:36Z'
   metrics:
-    points: 27
-    comments: 3
+    points: 46
+    comments: 18
+  kind: news
+- source: hackernews
+  url: https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/
+  seen_at: '2026-11-07T01:56:36Z'
+  metrics:
+    points: 80
+    comments: 16
+  kind: news
+- source: hackernews
+  url: https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/
+  seen_at: '2026-11-07T01:56:36Z'
+  metrics:
+    points: 278
+    comments: 222
   kind: news
 ---
 

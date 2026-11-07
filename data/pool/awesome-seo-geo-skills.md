@@ -22,16 +22,16 @@ summary: 'SEO 和 GEO Skill（技能包）精选：关键词、内容、技术�
   GEO，Claude Code、Codex、龙虾 OpenClaw 等智能体可用 | Curated agent skills for SEO and GEO (generative engine optimization):
   keyword research, technical audits and AI search visibility'
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-11-05T02:29:39Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/UnderleveledBuilder/awesome-seo-geo-skills
-  seen_at: '2026-11-05T02:29:39Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 49
+    stars: 50
     forks: 7
     open_issues: 1
   kind: product

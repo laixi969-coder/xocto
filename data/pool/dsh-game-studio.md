@@ -21,17 +21,17 @@ canonical_url: https://github.com/ZSeven-W/dsh-game-studio
 summary: Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art,
   export one HTML file.
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ZSeven-W/dsh-game-studio
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 51
-    forks: 4
+    stars: 211
+    forks: 27
     open_issues: 0
   kind: product
 ---

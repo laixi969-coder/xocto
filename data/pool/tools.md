@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-06T02:27:28Z'
+last_seen: '2026-11-07T01:57:16Z'
 status: pending_filter
 sources:
 - hackernews
@@ -280,6 +280,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMic0FVX3lxTE5VSTExb2txd3JCNTJXYktEYTNaWTQtZkVPY25YVEZ1dm5IdXdoRFZIalFxbW5VREVjWm9UMGtrZGd3ekdpWnV5UWdlWnFuazRtN1VQWlVDMFE4TEprWER5RnhQUFlPQ19CU1N0QjFqa2s3aTjSAXNBVV95cUxQb3BuNUN5M0E3eUV0NnNrSlJUTGdUYkh5OUpUdWU4Y2xzeUlGMjc4QVpuZGQxaGlNRUJLcER3cWxzUlFHS0E4RDhFc2U0bVFwTTJDamtMcU41Rm5kaE9JaE00cGpmV0t2a0NYTjBGZ3ZtSWNJ?oc=5
   seen_at: '2026-11-06T02:27:28Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/
+  seen_at: '2026-11-07T01:57:08Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/
+  seen_at: '2026-11-07T01:57:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQUHNHUHZncHYzcE5DNWhJNGk1aWJra29NT1dfU3YwVkp6R3lUWmsyZFVPd3pUZHN4eEJTd20zZ3lQcGNfN3k3dlMzZ0loRTZvM1B2TGVUR3pkNmtQYnNSVTQzQm4tMTBwd1E0SEZJc3Y5NExMQzlMQmp5bXJJWWM5emNCS1dPQQ?oc=5
+  seen_at: '2026-11-07T01:57:16Z'
   metrics: {}
   kind: news
 ---

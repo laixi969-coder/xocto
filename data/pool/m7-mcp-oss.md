@@ -21,16 +21,16 @@ canonical_url: https://github.com/DukeDeSouth/m7-mcp-oss
 summary: MCP server that makes an AI coding agent work through a fixed 7-phase cycle with enforced reflection
   gates, persistent project memory and multi-model Hive
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/DukeDeSouth/m7-mcp-oss
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 65
+    stars: 66
     forks: 19
     open_issues: 2
   kind: product

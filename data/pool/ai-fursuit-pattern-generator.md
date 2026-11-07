@@ -20,17 +20,17 @@ url: https://github.com/Pyramidriseize/ai-fursuit-pattern-generator
 canonical_url: https://github.com/Pyramidriseize/ai-fursuit-pattern-generator
 summary: Free studio for fursuit patterns and furry art. Local, portable, no account.
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Pyramidriseize/ai-fursuit-pattern-generator
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 159
-    forks: 10
+    stars: 152
+    forks: 9
     open_issues: 0
   kind: product
 ---

@@ -20,16 +20,16 @@ url: https://github.com/LeeRolling/dsh-boot-suite
 canonical_url: https://github.com/LeeRolling/dsh-boot-suite
 summary: DeepSeek Harness 开机动画 + 聊天壁纸，一个插件：六幕冷启动动画（真声台词/可交互）+ 开场视频/底图/大字横幅。双击 安装.cmd 即可，出问题双击 卸载.cmd。
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LeeRolling/dsh-boot-suite
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 65
+    stars: 76
     forks: 8
     open_issues: 4
   kind: product

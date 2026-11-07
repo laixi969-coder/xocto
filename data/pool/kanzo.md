@@ -20,18 +20,18 @@ url: https://github.com/emanuele-em/kanzo
 canonical_url: https://github.com/emanuele-em/kanzo
 summary: Self-hosted kanban for humans and agents. One 4 MB binary, starts in 2 ms, zero setup.
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/emanuele-em/kanzo
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 1036
-    forks: 72
-    open_issues: 6
+    stars: 1070
+    forks: 77
+    open_issues: 1
   kind: product
 ---
 

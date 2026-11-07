@@ -20,18 +20,18 @@ url: https://kinetograph.dev
 canonical_url: https://kinetograph.dev
 summary: A blazingly fast programmatic video engine, made for agents.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://kinetograph.dev
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 468
+    stars: 476
     forks: 33
-    open_issues: 14
+    open_issues: 15
   kind: product
 ---
 

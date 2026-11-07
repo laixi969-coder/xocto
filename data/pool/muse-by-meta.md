@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-06T02:27:21Z'
+last_seen: '2026-11-07T01:57:16Z'
 status: pending_filter
 sources:
 - producthunt
@@ -453,6 +453,26 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/
   seen_at: '2026-11-06T02:27:21Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/
+  seen_at: '2026-11-07T01:57:08Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/
+  seen_at: '2026-11-07T01:57:09Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1028871/meta-muse-ai-spaces
+  seen_at: '2026-11-07T01:57:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE14ZnhKRHUxVFljdW5VQlpISm5UeXdlaUJVdjFqTGlBZ1pTSkJtX3hQanA5Tlk1NXZ3MHh4Tmt2SXZ4R1dBTEhWT0xXa0ZGTlNqR0RISWdPVFd3Zw?oc=5
+  seen_at: '2026-11-07T01:57:16Z'
   metrics: {}
   kind: news
 ---

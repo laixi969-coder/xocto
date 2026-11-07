@@ -22,17 +22,17 @@ summary: 'Evidence-chain whiteboard + MCP server for AI research agents: every c
   run and code that produced it. 讓 AI agent 做研究時，每個結論都能追到產生它的程式碼。Claude Code · Codex · Cursor · Gemini
   CLI'
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-07T01:56:40Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/chutingyean/Agent-Cockpit
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-07T01:56:40Z'
   metrics:
-    stars: 353
-    forks: 6
+    stars: 396
+    forks: 8
     open_issues: 0
   kind: product
 ---
