@@ -20,17 +20,17 @@ url: https://pwn.ai/blog/firecracker-escape
 canonical_url: https://pwn.ai/blog/firecracker-escape
 summary: PwnEscape Part 2
 first_seen: '2026-11-07T01:56:36Z'
-last_seen: '2026-11-07T01:56:36Z'
+last_seen: '2026-11-08T01:27:07Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pwn.ai/blog/firecracker-escape
-  seen_at: '2026-11-07T01:56:36Z'
+  seen_at: '2026-11-08T01:27:07Z'
   metrics:
-    points: 175
-    comments: 77
+    points: 281
+    comments: 133
   kind: news
 ---
 

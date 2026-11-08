@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPNG4tOVcyZ0pT
 summary: OpenAI, NVIDIA, and KPMG among major firms that have set up AI centres, labs in Singapore Singapore
   Economic Development Board (EDB)
 first_seen: '2026-10-28T01:23:09Z'
-last_seen: '2026-10-28T01:23:09Z'
+last_seen: '2026-11-08T01:27:39Z'
 status: pending_filter
 sources:
 - newssearch
@@ -29,6 +29,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPNG4tOVcyZ0pTWGNhRV9JakxVY1NGNWEyMHVtRl9OQjNCX1h4ekl5dGtpV1ZyNmE2c2REU2hyWEllWk1CZVo0QnQ0M21UZ0ZVa3dOd3p6bFExZXFscGZtcllfei0wWkNUYjNHRWd5ZHE1dVoxUzJBWG9wLVRjY0l6UWctU2lqRGROdlRGUUFoekM0RC10a19GZnYyRENCMzNzM2Z0cGgwMTZpMHZJLUtKZGg0TkdOQ3hRODZsdlN3cDZSVVRlOUx1M0dB?oc=5
   seen_at: '2026-10-28T01:23:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0I0U3U5ajJUZXYzcm9rVUl4bi1UMm1FYzBtdmxXdTNDZ1hUMW5uVFZFdG5VNXZGZFFlWkN5RlVBNUxaZ1QxNEVDVzMwTlB5cTFrZjFwZEZOTUx4enFQcGpiYmRrVDJGbE1NaGtybFNySkViWXBSNzZFdUtfU3pONVZWWUVYelBTSHVTeEN1TWR6ZTczVkNMazVib2VwQnEydUVfSVNVTFF0UzlVTUhsNlJPWDhUVkpsYmtzMDhoWW01eWlyV0E?oc=5
+  seen_at: '2026-11-08T01:27:39Z'
   metrics: {}
   kind: news
 ---

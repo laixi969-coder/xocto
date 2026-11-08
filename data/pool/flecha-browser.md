@@ -21,16 +21,16 @@ canonical_url: https://flecha.dev
 summary: 'Open-source Arc alternative for macOS: a Chromium browser for developers with Spaces, a dev
   command bar and a built-in MCP server for coding agents.'
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://flecha.dev
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 121
+    stars: 122
     forks: 19
     open_issues: 11
   kind: product

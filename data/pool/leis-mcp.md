@@ -22,16 +22,16 @@ summary: 'Servidor MCP para buscar e citar a legislação brasileira no Claude e
   de IA: texto exato de 1,2 milhão de normas (CF, CLT, CDC, Código Civil, LGPD…), com fonte oficial e
   avisos de revogação. MCP server for Brazilian law.'
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mazulo/leis-mcp
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 57
+    stars: 61
     forks: 13
     open_issues: 1
   kind: product

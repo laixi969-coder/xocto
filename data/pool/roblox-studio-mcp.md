@@ -21,16 +21,16 @@ canonical_url: https://github.com/HerdBuilderEstimate/roblox-studio-mcp
 summary: Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read
   object trees, edit scripts, and run playtests safely. Open-source and lightweight
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/HerdBuilderEstimate/roblox-studio-mcp
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 427
+    stars: 428
     forks: 260
     open_issues: 0
   kind: product

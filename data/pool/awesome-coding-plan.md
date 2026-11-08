@@ -21,17 +21,17 @@ canonical_url: https://plan.supercli.site
 summary: TokenPlan：AI 编程套餐与 API 价格对比，涵盖云厂商 Coding / Token Plan、缓存与峰谷计费、模型性价比及官方购买入口。 / AI coding plans,
   API pricing and model value comparisons.
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://plan.supercli.site
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
     stars: 102
-    forks: 13
+    forks: 15
     open_issues: 0
   kind: product
 ---

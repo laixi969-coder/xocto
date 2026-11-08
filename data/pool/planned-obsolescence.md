@@ -20,17 +20,17 @@ url: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai
 canonical_url: https://planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai
 summary: AI is dramatically accelerating AI research
 first_seen: '2026-11-07T01:56:36Z'
-last_seen: '2026-11-07T01:56:36Z'
+last_seen: '2026-11-08T01:27:07Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai
-  seen_at: '2026-11-07T01:56:36Z'
+  seen_at: '2026-11-08T01:27:07Z'
   metrics:
-    points: 202
-    comments: 155
+    points: 362
+    comments: 338
   kind: news
 ---
 

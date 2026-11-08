@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsY2RLa0t6QXAzcko1ZHhOMW
 canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsY2RLa0t6QXAzcko1ZHhOMWpYVUZ3M1I4ZjRodVJxbHVlRjh1MzhpRU5RdDJNQk9jQ2NESjJJbm9kLTFzVERaX2RKV0VpTlBvYVV0QTJaTXY?oc=5
 summary: GS1 Hong Kong Summit 2026 Data, AI, Transparency and Assurance Driving Future Growth Taiwan News
 first_seen: '2026-11-07T01:57:16Z'
-last_seen: '2026-11-07T01:57:16Z'
+last_seen: '2026-11-08T01:27:39Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsY2RLa0t6QXAzcko1ZHhOMWpYVUZ3M1I4ZjRodVJxbHVlRjh1MzhpRU5RdDJNQk9jQ2NESjJJbm9kLTFzVERaX2RKV0VpTlBvYVV0QTJaTXY?oc=5
   seen_at: '2026-11-07T01:57:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPczBudHRlNXNSS1BaeHpiQVZlTE9RTVlBWGktLVdiY3pKdVNRV2hKVVJSbmJQWktRZ2VjTmpHa2FfZzhnNVVzaDhPSDNKcGJOaHdnVEY3bGxVUllvX3NmTllhYnh6a3hHbldKb3Z0cVFHdDFMYXk0VkxQR1hXV1k2ZFh3M3d0amVjUVJJNHd6N0FNQkhuaEJXbWYyY0FwcnZQQm5HemtWVTFCQ2Nid0d6azNnTm1rSWhFdlFQZG10R1UwVG1F?oc=5
+  seen_at: '2026-11-08T01:27:39Z'
   metrics: {}
   kind: news
 ---

@@ -20,16 +20,16 @@ url: https://github.com/tharun208/cloneguard
 canonical_url: https://github.com/tharun208/cloneguard
 summary: Scan a repo for credential-stealing tricks before it runs
 first_seen: '2026-11-07T01:56:36Z'
-last_seen: '2026-11-07T01:56:36Z'
+last_seen: '2026-11-08T01:27:07Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/tharun208/cloneguard
-  seen_at: '2026-11-07T01:56:36Z'
+  seen_at: '2026-11-08T01:27:07Z'
   metrics:
-    points: 28
+    points: 31
     comments: 7
   kind: product
 ---

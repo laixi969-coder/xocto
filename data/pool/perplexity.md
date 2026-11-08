@@ -20,17 +20,17 @@ url: https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-o
 canonical_url: https://perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work
 summary: Perplexity launches AI agents for work
 first_seen: '2026-11-07T01:56:36Z'
-last_seen: '2026-11-07T01:56:36Z'
+last_seen: '2026-11-08T01:27:07Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work
-  seen_at: '2026-11-07T01:56:36Z'
+  seen_at: '2026-11-08T01:27:07Z'
   metrics:
-    points: 59
-    comments: 51
+    points: 64
+    comments: 54
   kind: news
 ---
 

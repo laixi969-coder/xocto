@@ -20,16 +20,16 @@ url: https://github.com/seaison/dsh-plugin-eva-theme#readme
 canonical_url: https://github.com/seaison/dsh-plugin-eva-theme
 summary: DSH / DeepSeek Harness EVA 主题插件：明日香暗色、绫波丽亮色，含驾驶员选择、启动语音、时钟与音乐播放器
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/seaison/dsh-plugin-eva-theme#readme
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 40
+    stars: 42
     forks: 6
     open_issues: 2
   kind: product

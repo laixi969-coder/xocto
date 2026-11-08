@@ -20,17 +20,17 @@ url: https://stashdock.app
 canonical_url: https://stashdock.app
 summary: Your AI-native personal context library. Collect, organize and reuse context across AI conversations.
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://stashdock.app
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 146
-    forks: 4
+    stars: 160
+    forks: 6
     open_issues: 0
   kind: product
 ---

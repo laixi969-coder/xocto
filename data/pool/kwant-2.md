@@ -22,18 +22,18 @@ summary: 'Your own team of AI bots in one self-hosted binary: spaces, every acco
   approvals and routines. Open-source, self-hosted alternative to Grok Bot, Claude Duet and OpenAI dots.
   Rust + React.'
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://kwant.si
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 175
-    forks: 12
-    open_issues: 11
+    stars: 292
+    forks: 20
+    open_issues: 28
   kind: product
 ---
 

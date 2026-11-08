@@ -21,18 +21,18 @@ canonical_url: https://github.com/JuneYaooo/rea-video
 summary: 逆向一切视频：实拍口播、桌拍、AI 视频、3D、代码动效、混剪，逐镜拆出画面、花字、剪辑和声音是怎么做的，并给出复刻方案。Reverse-engineer any video, shot
   by shot.
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JuneYaooo/rea-video
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 3057
-    forks: 433
-    open_issues: 2
+    stars: 3693
+    forks: 530
+    open_issues: 1
   kind: product
 ---
 

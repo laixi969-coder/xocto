@@ -20,18 +20,18 @@ url: https://poki.bot
 canonical_url: https://poki.bot
 summary: Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://poki.bot
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 422
-    forks: 86
-    open_issues: 12
+    stars: 512
+    forks: 106
+    open_issues: 14
   kind: product
 ---
 

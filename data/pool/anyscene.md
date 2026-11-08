@@ -21,16 +21,16 @@ canonical_url: https://github.com/apekshik/anyscene
 summary: 'Photoreal Blender scenes from a one-paragraph brief, built by AI agents: image→3D props on fal,
   scripted layout, lighting, camera and grade.'
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/apekshik/anyscene
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 322
+    stars: 326
     forks: 34
     open_issues: 1
   kind: product

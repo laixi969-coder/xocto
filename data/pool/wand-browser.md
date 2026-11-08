@@ -20,16 +20,16 @@ url: https://github.com/hito-dev/wand-browser
 canonical_url: https://github.com/hito-dev/wand-browser
 summary: An open source webbluetooth and NFC browser for iOS
 first_seen: '2026-11-07T01:56:36Z'
-last_seen: '2026-11-07T01:56:36Z'
+last_seen: '2026-11-08T01:27:07Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/hito-dev/wand-browser
-  seen_at: '2026-11-07T01:56:36Z'
+  seen_at: '2026-11-08T01:27:07Z'
   metrics:
-    points: 14
+    points: 15
     comments: 0
   kind: product
 ---

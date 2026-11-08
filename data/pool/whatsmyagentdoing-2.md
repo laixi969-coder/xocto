@@ -20,18 +20,18 @@ url: https://charonyuu.github.io/whatsmyagentdoing/
 canonical_url: https://charonyuu.github.io/whatsmyagentdoing
 summary: See what every Claude Code and Codex agent on your machine is doing — live, in a little office.
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://charonyuu.github.io/whatsmyagentdoing/
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 383
-    forks: 56
-    open_issues: 2
+    stars: 386
+    forks: 57
+    open_issues: 0
   kind: product
 ---
 

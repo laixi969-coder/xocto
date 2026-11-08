@@ -1,0 +1,45 @@
+---
+slug: manus-ai
+name: manus-ai
+builder: abhinay-h
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: open_source
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: true
+url: https://github.com/abhinay-h/manus-ai
+canonical_url: https://github.com/abhinay-h/manus-ai
+summary: AI Manus is a general-purpose AI Agent system that supports running various tools and operations
+  in a sandbox environment.
+first_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-08T01:27:11Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://github.com/abhinay-h/manus-ai
+  seen_at: '2026-11-08T01:27:11Z'
+  metrics:
+    stars: 92
+    forks: 49
+    open_issues: 0
+  kind: product
+---
+
+# manus-ai
+
+AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.
+
+## 笔记
+
+

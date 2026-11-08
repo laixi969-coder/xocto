@@ -20,17 +20,17 @@ url: https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.
 canonical_url: https://cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287
 summary: University libraries are being swarmed by AI bots, putting public access at risk
 first_seen: '2026-11-07T01:56:36Z'
-last_seen: '2026-11-07T01:56:36Z'
+last_seen: '2026-11-08T01:27:07Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287
-  seen_at: '2026-11-07T01:56:36Z'
+  seen_at: '2026-11-08T01:27:07Z'
   metrics:
-    points: 125
-    comments: 56
+    points: 135
+    comments: 63
   kind: news
 ---
 

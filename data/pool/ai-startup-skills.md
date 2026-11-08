@@ -20,16 +20,16 @@ url: https://github.com/huaxialucaicaizi/ai-startup-skills
 canonical_url: https://github.com/huaxialucaicaizi/ai-startup-skills
 summary: 创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huaxialucaicaizi/ai-startup-skills
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 920
+    stars: 921
     forks: 64
     open_issues: 1
   kind: product

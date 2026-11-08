@@ -20,17 +20,17 @@ url: https://github.com/666ghj/auday-skill
 canonical_url: https://github.com/666ghj/auday-skill
 summary: Bring your Auday memories and recordings into your AI workflows.
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/666ghj/auday-skill
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 44
-    forks: 7
+    stars: 49
+    forks: 8
     open_issues: 8
   kind: product
 ---

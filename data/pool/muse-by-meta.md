@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-07T01:57:16Z'
+last_seen: '2026-11-08T01:27:39Z'
 status: pending_filter
 sources:
 - producthunt
@@ -473,6 +473,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE14ZnhKRHUxVFljdW5VQlpISm5UeXdlaUJVdjFqTGlBZ1pTSkJtX3hQanA5Tlk1NXZ3MHh4Tmt2SXZ4R1dBTEhWT0xXa0ZGTlNqR0RISWdPVFd3Zw?oc=5
   seen_at: '2026-11-07T01:57:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibkFVX3lxTFBqVlppaG9XcUc4YmlRYkdTLUxyeEgydnotTnRxdUhjOVoweHBIbkZxVE5uZTBlM2xlbkdvN0J6anJHbkp6ZmlUZGFKSGpMR0VRbkdSTlF5TDgwYzlQWWNGS0VibTNLbmM1SDhERV9R?oc=5
+  seen_at: '2026-11-08T01:27:39Z'
   metrics: {}
   kind: news
 ---

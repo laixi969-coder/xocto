@@ -7,3 +7,12 @@
   source_kind: adoption
   tier: behavioural
   fact: Scan a repo for credential-stealing tricks before it runs
+- id: ev-f69c828619de95ba
+  project_slug: cloneguard
+  url: https://github.com/tharun208/cloneguard
+  title: CloneGuard
+  published_at: '2026-11-06T19:49:27Z'
+  collected_at: '2026-11-08T01:27:07Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: Scan a repo for credential-stealing tricks before it runs

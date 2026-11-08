@@ -20,17 +20,17 @@ url: https://halfnarp.events.ccc.de
 canonical_url: https://halfnarp.events.ccc.de
 summary: Submit talk preferences to aid scheduling
 first_seen: '2026-11-07T01:56:36Z'
-last_seen: '2026-11-07T01:56:36Z'
+last_seen: '2026-11-08T01:27:07Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://halfnarp.events.ccc.de
-  seen_at: '2026-11-07T01:56:36Z'
+  seen_at: '2026-11-08T01:27:07Z'
   metrics:
-    points: 45
-    comments: 9
+    points: 53
+    comments: 13
   kind: news
 ---
 

@@ -22,18 +22,18 @@ summary: Your coding agents, working together as one team. Claude Code, Codex, C
   to each other, split the work on a shared board and check each other's work, each in its own git worktree.
   Free, open source, on your own plans and your own computer. macOS, Windows, Linux.
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.tryfridaywork.com
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 49
-    forks: 8
-    open_issues: 3
+    stars: 51
+    forks: 9
+    open_issues: 2
   kind: product
 ---
 

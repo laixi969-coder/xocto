@@ -1,0 +1,42 @@
+---
+slug: ai-in-uk-financial-services-fca-highlights-good-practice-and
+name: 'AI in UK Financial Services: FCA Highlights Good Practice and Areas for Improvement'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNeXZ1bFIzX0FtQVFSZTc4WEp3dDNsWndPRUNfSG1GSkt5aW9HbnB6cVhmY1dWQV80M0l2emp1SklGRERMTExJNDNHSlItWUUtYjU4MmNNaVZFVUY4Szh1UzZ1QkFvaVVweXFnN2lnUERsZ3Q1WVY5cUE5SE4wcmdoTzZzMUFhRWZxR25jYVA3U3R6VTI1QmFGQ3BSV3RkbmRQa2RCTThrRzF2V1Bo0gGyAUFVX3lxTE4wOVlRSWdYb3FmWnFuekRHRXptc2U1UFlLaEtOOHJfeEU1ZUJxdGhoVC1IbDA4SnpCeTVnelc0TWxEX3hpUnpUTVdoRnJtQlk4a0lsbnFBUGFHRHVvUXJjRzJZa2g2a1JCcjhzanpVc3Z3QXdLdXFxUEdmM1hPSFREYWhMdVVHV1lBekpEbnJhcXdRZ2s2UWRpZHl2NUFVSHRBOEYxQUdBQXpkUjZpeU9YOFE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNeXZ1bFIzX0FtQVFSZTc4WEp3dDNsWndPRUNfSG1GSkt5aW9HbnB6cVhmY1dWQV80M0l2emp1SklGRERMTExJNDNHSlItWUUtYjU4MmNNaVZFVUY4Szh1UzZ1QkFvaVVweXFnN2lnUERsZ3Q1WVY5cUE5SE4wcmdoTzZzMUFhRWZxR25jYVA3U3R6VTI1QmFGQ3BSV3RkbmRQa2RCTThrRzF2V1Bo0gGyAUFVX3lxTE4wOVlRSWdYb3FmWnFuekRHRXptc2U1UFlLaEtOOHJfeEU1ZUJxdGhoVC1IbDA4SnpCeTVnelc0TWxEX3hpUnpUTVdoRnJtQlk4a0lsbnFBUGFHRHVvUXJjRzJZa2g2a1JCcjhzanpVc3Z3QXdLdXFxUEdmM1hPSFREYWhMdVVHV1lBekpEbnJhcXdRZ2s2UWRpZHl2NUFVSHRBOEYxQUdBQXpkUjZpeU9YOFE?oc=5
+summary: 'AI in UK Financial Services: FCA Highlights Good Practice and Areas for Improvement The National
+  Law Review'
+first_seen: '2026-11-08T01:27:39Z'
+last_seen: '2026-11-08T01:27:39Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNeXZ1bFIzX0FtQVFSZTc4WEp3dDNsWndPRUNfSG1GSkt5aW9HbnB6cVhmY1dWQV80M0l2emp1SklGRERMTExJNDNHSlItWUUtYjU4MmNNaVZFVUY4Szh1UzZ1QkFvaVVweXFnN2lnUERsZ3Q1WVY5cUE5SE4wcmdoTzZzMUFhRWZxR25jYVA3U3R6VTI1QmFGQ3BSV3RkbmRQa2RCTThrRzF2V1Bo0gGyAUFVX3lxTE4wOVlRSWdYb3FmWnFuekRHRXptc2U1UFlLaEtOOHJfeEU1ZUJxdGhoVC1IbDA4SnpCeTVnelc0TWxEX3hpUnpUTVdoRnJtQlk4a0lsbnFBUGFHRHVvUXJjRzJZa2g2a1JCcjhzanpVc3Z3QXdLdXFxUEdmM1hPSFREYWhMdVVHV1lBekpEbnJhcXdRZ2s2UWRpZHl2NUFVSHRBOEYxQUdBQXpkUjZpeU9YOFE?oc=5
+  seen_at: '2026-11-08T01:27:39Z'
+  metrics: {}
+  kind: news
+---
+
+# AI in UK Financial Services: FCA Highlights Good Practice and Areas for Improvement
+
+AI in UK Financial Services: FCA Highlights Good Practice and Areas for Improvement The National Law Review
+
+## 笔记
+
+

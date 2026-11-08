@@ -291,16 +291,16 @@ summary: '## Changes:
 
   This list of changes was [auto generated](https://msdata.visualstudio.com/Vienna/_build/results?buildId=245259946&view=logs).</details>'
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.82.0
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    reactions: 0
+    reactions: 1
   kind: news
 ---
 

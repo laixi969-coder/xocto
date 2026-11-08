@@ -21,26 +21,26 @@ canonical_url: https://mekahime.com/sakura
 summary: 'OpenSakura: MekaHime''s first AI companion, open source. 3D VRoid avatar, real-time voice, emotion
   state, OpenRouter or Ollama brain.'
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.mekahime.com/sakura
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 90
-    forks: 15
+    stars: 93
+    forks: 16
     open_issues: 1
   kind: product
 - source: github
   url: https://www.mekahime.com/openamika
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 440
-    forks: 60
-    open_issues: 5
+    stars: 504
+    forks: 68
+    open_issues: 7
   kind: product
 ---
 

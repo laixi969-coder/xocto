@@ -30,3 +30,35 @@
     * 703eb5f0fce714a33347fb198a5c36cde634695d Python: Send the NVIDIA nvext setting in extra_body (#14698)
 
     * e68f977a5c9d18acf02ef9fb8116d46315bcb06f Python:'
+- id: ev-d87d2aa61567a12c
+  project_slug: microsoft-semantic-kernel-dotnet-1820
+  url: https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.82.0
+  title: 'microsoft/semantic-kernel: dotnet-1.82.0'
+  published_at: '2026-11-07T01:00:07Z'
+  collected_at: '2026-11-08T01:27:11Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## Changes:
+
+
+    * df1cb33d0d32699c8d6a2e5b3ea7e5f8990d86d5 .Net: Bump package version to 1.82.0 (#14721)
+
+    * d08a482fab9c6980fa50de5eee79895ba702069d Python: Prepare 1.47.0 release and consolidate dependency
+    updates (#14720) [ #14708, #14596, #14597, #14598, #14599, #14600, #14627 ]
+
+    * 28c0d60222b128efc5a41d825ea74e8836231e9c .Net: Harden structured data mutation boundaries (#14718)
+
+    * 1a3ccd8dda169ddf195e40e39c86082a3232eea4 .Net: Bind validated HTTP addresses to connections (#14719)
+
+    * c36f221e61d7ceb96ab245a3cca25da1dd686565 Python: Fix OracleCollection search with multiple filters
+    (#14541) [ #14539 ]
+
+    * 530f2e88161634c7aa4c8132fff0c8dfd2104343 Python: Use storage_name for hybrid search fields and vector
+    queries (#14684) (#14688)
+
+    * 78f612433829a9bd858e92521c1249d79865bb4f Python: close native generators when stream invocations
+    end (#14701)
+
+    * 703eb5f0fce714a33347fb198a5c36cde634695d Python: Send the NVIDIA nvext setting in extra_body (#14698)
+
+    * e68f977a5c9d18acf02ef9fb8116d46315bcb06f Python:'

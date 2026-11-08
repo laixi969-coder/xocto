@@ -21,16 +21,16 @@ canonical_url: https://github.com/frostming/dsh-hongguo
 summary: 'DSH plugin: watch Hongguo short dramas in the right sidebar while the agent works (built on
   openhongguo)'
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/frostming/dsh-hongguo
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 151
+    stars: 159
     forks: 20
     open_issues: 0
   kind: product

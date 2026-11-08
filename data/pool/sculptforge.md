@@ -21,18 +21,18 @@ canonical_url: https://islandmed.github.io/SculptForge
 summary: The free, open-source alternative to ZBrush. Sculpting for Linux, macOS and Windows with free
   built-in AI (image/text to 3D), Send to Unreal, game-ready LODs, Gaussian splats and OpenUSD.
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://islandmed.github.io/SculptForge/
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 615
-    forks: 75
-    open_issues: 29
+    stars: 631
+    forks: 76
+    open_issues: 6
   kind: product
 ---
 

@@ -20,7 +20,7 @@ url: https://book.humanexperiences.io/
 canonical_url: https://book.humanexperiences.io
 summary: Building an LLM from Scratch in TypeScript
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-11-05T02:30:06Z'
+last_seen: '2026-11-08T01:27:39Z'
 status: pending_filter
 sources:
 - hackernews
@@ -42,6 +42,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/
   seen_at: '2026-11-05T02:30:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1wMll3OFY4TGtRNUpEMml2amxmVE40TXhvNEJ1eHBfX0JfVm1DUEktYWw4MlVicm1jS3ROa21OREg1S1otVkxXYXRkTzFvSF9UcURWbnAxcXRIRS1TQ3ZkQ2NwMmEwbHNFQ3d0VzAwcktNekRGWXc?oc=5
+  seen_at: '2026-11-08T01:27:39Z'
   metrics: {}
   kind: news
 ---

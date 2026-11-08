@@ -20,17 +20,17 @@ url: https://github.com/555bbbAAA/dsh-purge/releases
 canonical_url: https://github.com/555bbbAAA/dsh-purge/releases
 summary: 基于上游 1.1.71 维护的 dsh-purge 社区兼容包：只负责 DeepSeek Harness 的版本与本地 Windows 运行问题兼容。
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/555bbbAAA/dsh-purge/releases
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 54
-    forks: 29
+    stars: 56
+    forks: 30
     open_issues: 1
   kind: product
 ---

@@ -21,16 +21,16 @@ canonical_url: https://github.com/CircuitNewtSubway/capcut-pro-for-windows
 summary: 'Video Editing Studio 2026: Standalone desktop package for timeline editing, AI captions, effects
   and high-quality export workflows on Windows x64.'
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CircuitNewtSubway/capcut-pro-for-windows
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 91
+    stars: 87
     forks: 0
     open_issues: 0
   kind: product

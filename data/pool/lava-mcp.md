@@ -20,18 +20,18 @@ url: https://lava.ai-dolphin.com
 canonical_url: https://lava.ai-dolphin.com
 summary: 熔岩 Lava：A 股股票与概念板块的消息面热度监测（结构化只读 MCP/REST，支持量化交易工具与 AI Agent 股市研究接入）
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://lava.ai-dolphin.com
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
     stars: 75
     forks: 0
-    open_issues: 1
+    open_issues: 2
   kind: product
 ---
 

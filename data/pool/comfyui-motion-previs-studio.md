@@ -21,17 +21,17 @@ canonical_url: https://github.com/navarisun1982/comfyui-motion-previs-studio
 summary: Open-source 3D camera, character & motion previs studio replacing Higgsfield 3D-Jutsu for AI
   video.
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/navarisun1982/comfyui-motion-previs-studio
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 43
-    forks: 8
+    stars: 44
+    forks: 9
     open_issues: 0
   kind: product
 ---

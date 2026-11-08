@@ -21,17 +21,17 @@ canonical_url: https://github.com/CopilotKit/OpenDuet
 summary: An Open Source template for a proactive AI agent that gets your work done and keeps you in the
   loop.
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CopilotKit/OpenDuet
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 1974
-    forks: 262
+    stars: 1988
+    forks: 268
     open_issues: 12
   kind: product
 ---

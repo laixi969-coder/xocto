@@ -21,16 +21,16 @@ canonical_url: https://github.com/0xProbabillity/claudeberry
 summary: 'Claude Code in your pocket: an SSH client for BlackBerry OS 7, tuned for AI coding agents, tmux
   and voice input. Built on berryssh.'
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-08T01:27:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/0xProbabillity/claudeberry
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-08T01:27:11Z'
   metrics:
-    stars: 42
+    stars: 43
     forks: 0
     open_issues: 0
   kind: product

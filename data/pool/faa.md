@@ -20,17 +20,17 @@ url: https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-b
 canonical_url: https://faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air
 summary: FAA begins retiring decades old floppy disks from air traffic control
 first_seen: '2026-11-07T01:56:36Z'
-last_seen: '2026-11-07T01:56:36Z'
+last_seen: '2026-11-08T01:27:07Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.faa.gov/newsroom/trumps-transportation-secretary-sean-p-duffy-begins-retiring-decades-old-floppy-disks-air
-  seen_at: '2026-11-07T01:56:36Z'
+  seen_at: '2026-11-08T01:27:07Z'
   metrics:
     points: 89
-    comments: 1
+    comments: 2
   kind: news
 ---
 
