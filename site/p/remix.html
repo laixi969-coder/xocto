@@ -480,6 +480,7 @@ GitHub、Vercel、各类 preview environment 平台都在往这个方向走。</
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

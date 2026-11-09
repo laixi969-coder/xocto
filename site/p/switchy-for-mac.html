@@ -486,6 +486,7 @@ Universal Control 的适用条件（同 Apple ID、都唤醒、同网），让�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

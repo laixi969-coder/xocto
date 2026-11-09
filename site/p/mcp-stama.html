@@ -476,6 +476,7 @@ agent 的工具箱，Cursor 自己就有等价物。它没回答&quot;为什么 
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

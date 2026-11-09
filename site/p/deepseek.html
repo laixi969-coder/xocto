@@ -661,6 +661,7 @@ App 线（slug: deepseek-ai-智能助手）的 -1.5% 方向一致，
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

@@ -493,6 +493,7 @@ MetaLaw 在律师群体有真用户。搜索的价值是品牌与获客，不是
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

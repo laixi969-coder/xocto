@@ -513,6 +513,7 @@ Gen-2.5 发布带来的「4 秒生成」话题度、千万人级 UGC 游戏的�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

@@ -543,6 +543,7 @@ Optima 的价值随使用频率线性增长；如果只是选型时用一次，�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

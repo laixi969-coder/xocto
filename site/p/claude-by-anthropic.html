@@ -503,6 +503,7 @@ Claude Code 教的不是「写更多代码」而是「把什么交给 agent」�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

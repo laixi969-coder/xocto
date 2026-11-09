@@ -487,6 +487,7 @@ Approving 做的是&quot;交付流程层&quot;（把 agent 变成带审批的流
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

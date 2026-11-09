@@ -479,6 +479,7 @@ PolyForm Noncommercial License 1.0.0，非商业免费；商业使用需另行�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

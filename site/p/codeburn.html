@@ -468,6 +468,7 @@ Claude Code、Cursor、Codex、Copilot 等 37-40 种工具留下的会话日志�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

@@ -78,7 +78,7 @@
     </article>
     <article class="desk-prose-block">
       <h2>使用的服务</h2>
-      <p>网站使用 Google Analytics 了解整体流量与内容表现，并使用 Microsoft Clarity 了解点击、滚动与页面体验。Clarity 默认会遮蔽敏感内容；这些服务各自按其隐私政策处理数据。</p>
+      <p>网站使用 Vercel Web Analytics 和 Google Analytics 了解整体流量与内容表现，并使用 Microsoft Clarity 了解点击、滚动与页面体验。Clarity 默认会遮蔽敏感内容；这些服务各自按其隐私政策处理数据。</p>
     </article>
     <article class="desk-prose-block">
       <h2>我们不收集什么</h2>
@@ -178,6 +178,7 @@
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

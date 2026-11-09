@@ -467,6 +467,7 @@ ROI 和增长节奏——比笼统算&quot;总 MAU&quot;更能看清钱花在哪
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

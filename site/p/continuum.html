@@ -554,6 +554,7 @@ $249 买断把&quot;这是个小工具&quot;的顾虑一次清掉。但它本质
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

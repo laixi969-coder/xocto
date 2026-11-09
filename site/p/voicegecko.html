@@ -482,6 +482,7 @@ VoiceGecko 的每一步（本地模型、本地历史、无账号）都在兑现
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

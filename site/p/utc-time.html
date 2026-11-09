@@ -479,6 +479,7 @@ worldtimeapi.org 的&quot;兼容别名 + 迁移指南&quot;，是开发者工具
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

@@ -484,6 +484,7 @@ mom -1.71% 是高基数下的正常波动，不是异常——它不需要增长
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

@@ -484,6 +484,7 @@ Claw Plan 等）——同一个基座模型，按&quot;用户拿它干什么&quo
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

@@ -473,6 +473,7 @@ $10/月锁终身是&quot;早期支持者&quot;的心理定价，不是可持续�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

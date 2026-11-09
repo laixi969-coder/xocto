@@ -474,6 +474,7 @@ macOS 14+，免费档还卡导出步数。差异化的前提是用户承认&quot
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

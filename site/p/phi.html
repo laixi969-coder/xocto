@@ -514,6 +514,7 @@ headless-strict（自动拒绝，等同只读）；支持按工具配 allow/deny
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

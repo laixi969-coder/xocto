@@ -481,6 +481,7 @@ RL 框架的人&quot;——如果这些人 fork 了它、学会了、用在了 v
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

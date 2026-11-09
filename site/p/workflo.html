@@ -666,6 +666,7 @@ $19.99 买断也意味着它没有足够的收入支撑长期迭代。</p>
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

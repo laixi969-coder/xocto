@@ -485,6 +485,7 @@ LLM 只负责把查询结果组织成话术，并让&quot;查不到就明说&quo
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

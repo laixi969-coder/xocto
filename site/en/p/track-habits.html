@@ -523,6 +523,7 @@ Android, no reminders, and 6 points of traction. Treat it as a reference, not a 
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

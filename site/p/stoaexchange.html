@@ -480,6 +480,7 @@ SKU），持有周期缩短了（模型迭代快，两年前的卡就落后）�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

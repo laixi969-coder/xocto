@@ -475,6 +475,7 @@ mini-SWE-agent + Fable/Sol 快 <strong>35-67%</strong>；宣传口径是&quot;�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

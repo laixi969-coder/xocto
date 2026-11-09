@@ -480,6 +480,7 @@ star 数字已经证明了需求，剩下要验证的是词汇能不能被行业
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

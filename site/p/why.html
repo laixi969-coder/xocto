@@ -476,6 +476,7 @@ rome's collapse）。作者在 HN 回复中披露：why.com/app 是另一个独�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

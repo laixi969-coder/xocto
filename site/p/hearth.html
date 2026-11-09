@@ -477,6 +477,7 @@ agent 产品，把&quot;让 agent 在用户数据之上生成自己的 UI/工具
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

@@ -479,6 +479,7 @@ bug 就报 bug，中间偷看的结果被反转就警告别人不要提前读表
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

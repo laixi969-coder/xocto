@@ -480,6 +480,7 @@ README 让&quot;人负责语义和访问模式选择&quot;，等于把最难的�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

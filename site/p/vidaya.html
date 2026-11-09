@@ -482,6 +482,7 @@ Levels（CGM + 代谢）、SiPhox（居家血检）在垂直深挖。&quot;60+ �
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

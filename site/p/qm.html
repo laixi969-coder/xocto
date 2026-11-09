@@ -477,6 +477,7 @@ qm 的分域结构值得参考 —— 每人一个隔离工作区 + 一个共享
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

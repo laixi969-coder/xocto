@@ -484,6 +484,7 @@ MCP 工具链&quot;这一套组装方式，是可迁移到任何垂直场景的�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

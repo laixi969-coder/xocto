@@ -529,6 +529,7 @@ agent 在推理过程中自己调用。对做 agent 周边工具的人来说，
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

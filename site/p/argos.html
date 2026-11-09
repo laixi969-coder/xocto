@@ -492,6 +492,7 @@ Google 未验证的扩展，且隐私政策显示&quot;数据留在本机&quot;�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

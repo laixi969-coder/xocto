@@ -395,6 +395,7 @@ agent 的动作发生在别人的进程里、走别人的 API，EDR 只看得到
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

@@ -476,6 +476,7 @@ DeepSeek 爆火但自家 App 又卡又慢，元宝把它接进来，等于在微
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

@@ -481,6 +481,7 @@ AGPL 许可让部分企业法务皱眉。它的&quot;默认位置&quot;远没锁
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

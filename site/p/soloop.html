@@ -494,6 +494,7 @@ PH 第 2 名的热度也说明它踩中了群体情绪。但产品还早：
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

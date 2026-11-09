@@ -497,6 +497,7 @@ HN 5 分 0 评论，没有用户、没有商业意图——但它不该按产品
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

@@ -478,6 +478,7 @@ Prime Intellect 就能在自己熟悉的算力/基础设施层做文章。</em><
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

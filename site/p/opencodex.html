@@ -484,6 +484,7 @@ HN 只有 6 分，41 star，无用户数据——按简报的规矩，这属于&
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

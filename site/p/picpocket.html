@@ -475,6 +475,7 @@ PicPocket 认为&quot;建群发照片&quot;这个动作本身就完成了最重�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

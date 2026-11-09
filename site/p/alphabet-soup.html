@@ -476,6 +476,7 @@ Alphabet Soup 用&quot;最长词&quot;替代&quot;最多词&quot;，把游戏从
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

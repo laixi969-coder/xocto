@@ -484,6 +484,7 @@ College Confidential 论坛，高年级才匆匆忙忙开始，边刷手机边�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

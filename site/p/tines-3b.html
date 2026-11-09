@@ -481,6 +481,7 @@ Autotune 自动修复，让守规矩比不守规矩更省力。安全产品卖�
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());

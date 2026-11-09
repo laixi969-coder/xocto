@@ -535,6 +535,7 @@ FunctionGemma、LFM2.5、Apple FM 同场竞技，Needle 用&quot;原生 2bit 训
     function enable() {
       if (enabled) return;
       enabled = true;
+      loadScript('/_vercel/insights/script.js');
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());
