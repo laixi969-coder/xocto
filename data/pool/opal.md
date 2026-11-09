@@ -20,17 +20,17 @@ url: https://xingjianbai.com/reactive-optimizers/
 canonical_url: https://xingjianbai.com/reactive-optimizers
 summary: 'OPAL: a reactive optimizer. A coding agent rewrites the optimizer while your model trains.'
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-09T01:44:47Z'
+last_seen: '2026-11-09T09:12:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://xingjianbai.com/reactive-optimizers/
-  seen_at: '2026-11-09T01:44:47Z'
+  seen_at: '2026-11-09T09:12:39Z'
   metrics:
-    stars: 405
-    forks: 23
+    stars: 411
+    forks: 24
     open_issues: 0
   kind: product
 ---

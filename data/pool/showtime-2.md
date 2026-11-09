@@ -20,16 +20,16 @@ url: https://github.com/mishanaer/showtime
 canonical_url: https://github.com/mishanaer/showtime
 summary: Create app demo videos with your AI agent.
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T09:12:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mishanaer/showtime
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T09:12:39Z'
   metrics:
-    stars: 46
+    stars: 47
     forks: 5
     open_issues: 0
   kind: product

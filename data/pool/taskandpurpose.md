@@ -20,17 +20,17 @@ url: https://taskandpurpose.com/news/drone-mimicking-bird-test/
 canonical_url: https://taskandpurpose.com/news/drone-mimicking-bird-test
 summary: Drones built to look like birds evaded detection at Air Force tech exercise
 first_seen: '2026-11-09T01:44:43Z'
-last_seen: '2026-11-09T01:44:43Z'
+last_seen: '2026-11-09T09:12:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://taskandpurpose.com/news/drone-mimicking-bird-test/
-  seen_at: '2026-11-09T01:44:43Z'
+  seen_at: '2026-11-09T09:12:35Z'
   metrics:
     points: 54
-    comments: 41
+    comments: 43
   kind: news
 ---
 

@@ -20,16 +20,16 @@ url: https://eyesrhythm.com/
 canonical_url: https://eyesrhythm.com
 summary: An offline desktop companion to help maintain a healthy blink rhythm
 first_seen: '2026-11-08T01:27:07Z'
-last_seen: '2026-11-09T01:44:43Z'
+last_seen: '2026-11-09T09:12:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://eyesrhythm.com/
-  seen_at: '2026-11-09T01:44:43Z'
+  seen_at: '2026-11-09T09:12:35Z'
   metrics:
-    points: 38
+    points: 39
     comments: 23
   kind: product
 ---

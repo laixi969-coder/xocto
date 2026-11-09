@@ -22,16 +22,16 @@ summary: 'Open-source alternative to Google''s Circle to Search for Windows & Li
   search, translate the whole screen in place (great for games), ask AI, or snip & annotate. Rust, private,
   lightweight.'
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-09T01:44:47Z'
+last_seen: '2026-11-09T09:12:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://ameralreyahi.com/projects/opencircle
-  seen_at: '2026-11-09T01:44:47Z'
+  seen_at: '2026-11-09T09:12:39Z'
   metrics:
-    stars: 40
+    stars: 42
     forks: 2
     open_issues: 10
   kind: product
