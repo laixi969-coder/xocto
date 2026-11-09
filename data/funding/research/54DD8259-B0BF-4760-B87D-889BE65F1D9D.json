@@ -1,8 +1,8 @@
 {
   "version": 2,
   "company_id": "54DD8259-B0BF-4760-B87D-889BE65F1D9D",
-  "round_fingerprint": "7da5bd075185ccfc2638697a64690315998f268b4885372404375b0d35453a34",
-  "last_attempt": "2026-10-28",
+  "round_fingerprint": "0d70c37be3fc90dadb991147c080aeea738c4e6e5b3148da395049068256582d",
+  "last_attempt": "2026-11-09",
   "status": "blocked",
   "gaps": [
     "product",
@@ -17,13 +17,13 @@
       "role": "funding",
       "status": "retrieved",
       "text": "PlannerPal is a provider of an AI workflow platform for financial advice and wealth management firms.",
-      "checked_on": "2026-10-28"
+      "checked_on": "2026-11-09"
     },
     {
       "url": "https://www.plannerpal.co.uk/",
       "kind": "retrieval_gap",
       "role": "overview",
-      "checked_on": "2026-10-28",
+      "checked_on": "2026-11-09",
       "status": "unavailable",
       "text": "",
       "error": "ValueError: Page has no usable product text or is a parked/challenge page"

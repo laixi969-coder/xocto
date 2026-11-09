@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>Session 专注计时与网站屏蔽应用 · 真实案例拆解 · x-octo</title>
+<meta name="description" content="雅加达的独立开发者 Philip 做了一款 macOS/iOS 专注计时应用，通过屏蔽干扰网站和应用帮创意工作者进入深度工作，靠 freemium 订阅收费，2021 年 5 月约 5800 美元/月，2022 年自报 10 万美元 ARR。">
+<link rel="canonical" href="https://xocto.vercel.app/c/i-built-a-timer-app-that-generates-66k-year-in-profit.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/c/i-built-a-timer-app-that-generates-66k-year-in-profit.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/c/i-built-a-timer-app-that-generates-66k-year-in-profit.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/c/i-built-a-timer-app-that-generates-66k-year-in-profit.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="Session 专注计时与网站屏蔽应用 · x-octo">
+<meta property="og:description" content="雅加达的独立开发者 Philip 做了一款 macOS/iOS 专注计时应用，通过屏蔽干扰网站和应用帮创意工作者进入深度工作，靠 freemium 订阅收费，2021 年 5 月约 5800 美元/月，2022 年自报 10 万美元 ARR。">
+<meta property="og:url" content="https://xocto.vercel.app/c/i-built-a-timer-app-that-generates-66k-year-in-profit.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/c/i-built-a-timer-app-that-generates-66k-year-in-profit.html#webpage", "@type": "WebPage", "description": "\u96c5\u52a0\u8fbe\u7684\u72ec\u7acb\u5f00\u53d1\u8005 Philip \u505a\u4e86\u4e00\u6b3e macOS/iOS \u4e13\u6ce8\u8ba1\u65f6\u5e94\u7528\uff0c\u901a\u8fc7\u5c4f\u853d\u5e72\u6270\u7f51\u7ad9\u548c\u5e94\u7528\u5e2e\u521b\u610f\u5de5\u4f5c\u8005\u8fdb\u5165\u6df1\u5ea6\u5de5\u4f5c\uff0c\u9760 freemium \u8ba2\u9605\u6536\u8d39\uff0c2021 \u5e74 5 \u6708\u7ea6 5800 \u7f8e\u5143/\u6708\uff0c2022 \u5e74\u81ea\u62a5 10 \u4e07\u7f8e\u5143 ARR\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Session \u4e13\u6ce8\u8ba1\u65f6\u4e0e\u7f51\u7ad9\u5c4f\u853d\u5e94\u7528 \u00b7 \u771f\u5b9e\u6848\u4f8b\u62c6\u89e3", "url": "https://xocto.vercel.app/c/i-built-a-timer-app-that-generates-66k-year-in-profit.html"}]}</script><link rel="stylesheet" href="../style.css?v=09d24ad54337">
+<link rel="stylesheet" href="../funding.css?v=09d24ad54337">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class=""><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../funding.html" class=""><svg class="ico" data-ico="trend" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 17 L9 11 L13 15 L21 5"/><path d="M15 5 L21 5 L21 11"/></svg><span>AI 融资</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/c/i-built-a-timer-app-that-generates-66k-year-in-profit.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">真实收入案例</p>
+      <div class="product-title-row">
+        <h1>Session 专注计时与网站屏蔽应用</h1>
+<span class="verdict v-strong">真需求</span>      </div>
+<p class="product-lede">雅加达的独立开发者 Philip 做了一款 macOS/iOS 专注计时应用，通过屏蔽干扰网站和应用帮创意工作者进入深度工作，靠 freemium 订阅收费，2021 年 5 月约 5800 美元/月，2022 年自报 10 万美元 ARR。</p>      <div class="meta product-meta">
+        <span class="tag sig">创始人采访自报</span>
+<span class="tag">约 9 个月开发（每周 20 小时），2020 年 8 月上线，2021 年 5 月约 5800 美元/月</span><span class="tag">Twitter 个人账号</span><span class="tag">Product Hunt 发布</span><span class="tag">用户口碑与反馈迭代</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>一手来源</dt><dd><a href="https://www.starterstory.com/stories/i-built-a-timer-app-that-generates-66k-year-in-profit" target="_blank" rel="noopener">查看原文</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>真需求判断</h2>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel product-panel-call">
+        <span class="field-k">真需求判断</span>
+        <h3>真需求</h3>
+        <p>它替代的是番茄钟加手动自律这类旧做法，把屏蔽干扰和记录工作时长合到一个原生应用里；用户愿意为持续订阅付费，说明这是反复使用的日常工具而非一次性尝鲜。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">如何赚钱</span>
+        <p>用户订阅付费，基础功能免费，实时同步和额外功能需订阅解锁；成本只有服务器和邮件发送，约每月 10 美元。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">它替代了什么旧行为</span>
+        <p>番茄钟类计时器和靠意志力手动屏蔽干扰网站的做法</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>首批用户来源</h2>
+      </div>
+    </div>
+<p class="product-lead">创始人在 Twitter 上的关注者，先作为 beta 测试者使用早期版本（当时叫 Focus Timer）。</p>    <div class="meta product-meta">
+      <span class="field-k">获客渠道</span>
+<span class="tag">Twitter 个人账号</span><span class="tag">Product Hunt 发布</span><span class="tag">用户口碑与反馈迭代</span>    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">03</p>
+        <h2>可借鉴的打法</h2>
+      </div>
+    </div>
+    <ol class="desk-evidence-list case-playbooks">
+      <li><span class="num">01</span><span>把开发进度持续发在个人 Twitter 上，用公开 build-in-public 积累第一批测试者和发布时的投票。</span></li>
+      <li><span class="num">02</span><span>功能只做至少 3 个独立用户提过的需求，用这个门槛过滤伪需求、控制单人开发的范围。</span></li>
+      <li><span class="num">03</span><span>先做免费 MVP 给 beta 用户，再直接上订阅收费验证付费意愿，而不是先免费攒量。</span></li>
+      <li><span class="num">04</span><span>Product Hunt 发布前把截图、描述、图标（带动画）三样都打磨好，因为算法看总投票数。</span></li>
+    </ol>
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">迁移到 AI 生意</span>
+        <p>对 AI 工具创业者：这套打法的核心是单人用公开开发进度换早期用户、用『3 人提过才做』控制功能范围、MVP 阶段就上订阅验证付费。迁到 AI 应用上同样适用，尤其适合订阅制、单人维护的垂直工具。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>证据与边界</h2>
+      </div>
+      <span class="note">自报数字未经审计，仅作线索，不应视为事实</span>
+    </div>
+    <div class="decision-grid desk-summary">
+      <div class="field">
+        <span class="field-k">创始人采访自报</span>
+        <p>收入口径<span class="decision-sep"> · </span>创始人自报，未经审计（以来源页为准）</p>
+      </div>
+      <div class="field">
+        <span class="field-k">尚缺哪些证据</span>
+        <p>收入为创始人自报、未经审计，且素材内数字不一致：标题称 10 万美元/年、正文称 2021 年 5 月约 5800 美元/月、2022 年 10 万美元 ARR，无法交叉核验。<br>缺少订阅价格、付费用户数、churn 率等关键单位经济数据。<br>获客主要靠创始人个人 Twitter 粉丝，规模上限和可复制性存疑，素材未给出各渠道的实际转化数据。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">一手来源</span>
+        <p><a href="https://www.starterstory.com/stories/i-built-a-timer-app-that-generates-66k-year-in-profit" target="_blank" rel="noopener">https://www.starterstory.com/stories/i-built-a-timer-app-that-generates-66k-year-in-profit ↗</a></p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>3417 个案例 · 178 份生意判断</span>
+    <span class="gen">数据截至 2026-11-09</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>
