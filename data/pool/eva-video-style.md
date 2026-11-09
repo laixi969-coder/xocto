@@ -22,16 +22,16 @@ summary: Open-source AI video editing skill for talking-head videos. Features re
   cinematic effects, motion graphics, and animated captions. Choose a style and let AI edit!  开源 AI 口播视频剪辑工具，内置多种模板、电影级特效、动态图形及动画字幕。选择风格，导入视频，让
   AI 帮你高效完成剪辑！
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/RoverEva/eva-video-style
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 44
+    stars: 47
     forks: 6
     open_issues: 0
   kind: product

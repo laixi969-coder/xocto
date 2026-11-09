@@ -20,11 +20,12 @@ url: https://chinese.vedranb.com/
 canonical_url: https://chinese.vedranb.com
 summary: I made a game about the 3k-year evolution of Chinese characters
 first_seen: '2026-11-02T01:31:06Z'
-last_seen: '2026-11-06T02:27:28Z'
+last_seen: '2026-11-09T01:45:11Z'
 status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://chinese.vedranb.com/
@@ -41,6 +42,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMifkFVX3lxTFA4Y25SMHpnUGZMMk55OWIxQ1NEVUJFTHphLUhHNlJBOGNDTURPaF9md0pMX3BoMU5RTXhIN1VycVRYV1I1Tk05LXpPSlJSQlFpaVZ0cmpvRlJwX055dGVsYS13VG04QjhFZXc1dTNHaERlQ0lmc3h0aDNuWEpfdw?oc=5
   seen_at: '2026-11-06T02:27:28Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/
+  seen_at: '2026-11-09T01:45:11Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy
+  seen_at: '2026-11-09T01:45:11Z'
   metrics: {}
   kind: news
 ---

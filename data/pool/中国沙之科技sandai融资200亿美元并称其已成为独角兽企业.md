@@ -1,0 +1,41 @@
+---
+slug: 中国沙之科技sandai融资200亿美元并称其已成为独角兽企业
+name: 中国沙之科技（Sand.ai）融资200亿美元，并称其已成为独角兽企业。
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMinANBVV95cUxNQnJoZ2FCYzdxc0U0cFlzcGNfZmZsXy1Qb3pzNDJvVmx0Q0hwTkZGeFpReHFNaGdEZWFuRGtxRkItd09YR2E1ZjZHWHgtMmwzY1M2VGRON2xqN1F2QVVWQ1k0eFRQN0JMSXJETUFGTDVEbmVKd0tTNmVmYVhXVlliUld0d29TeEM5WHFqWFBPSDZBYjFfSlBCVzVXVTI4WkFBanBlTDh2QW5QYVViVnpZOTB1QjA5X1YyOGY2NUZxRkx3LTlDTW5oWEJpOVZGWHlsM0ttMkxOZWgzZWhzU01udGdpbjZQeEwxbUtWOE8yMnZuS1hOQ1h4NkwyREdmbU1uOTBVcW1LTEpHY0ZJVE5ucHFveHMzU3VKeVh6S2FobDVwSWF3QTEzQ3U2cmFXb1RLd2tNcTVJVVFsWW9RcTk3Q05yMW10TXpNUVFoYXdGQUVzQ204UnFoUFl0YUlSQ1NoYUNORklHVF9pTHhFX19XYzJwVWJadHd5VldLN0ZBZk5DRnZabUp5RnFrQmZnTTN3c1ZwZWJYSXZJdjNk?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMinANBVV95cUxNQnJoZ2FCYzdxc0U0cFlzcGNfZmZsXy1Qb3pzNDJvVmx0Q0hwTkZGeFpReHFNaGdEZWFuRGtxRkItd09YR2E1ZjZHWHgtMmwzY1M2VGRON2xqN1F2QVVWQ1k0eFRQN0JMSXJETUFGTDVEbmVKd0tTNmVmYVhXVlliUld0d29TeEM5WHFqWFBPSDZBYjFfSlBCVzVXVTI4WkFBanBlTDh2QW5QYVViVnpZOTB1QjA5X1YyOGY2NUZxRkx3LTlDTW5oWEJpOVZGWHlsM0ttMkxOZWgzZWhzU01udGdpbjZQeEwxbUtWOE8yMnZuS1hOQ1h4NkwyREdmbU1uOTBVcW1LTEpHY0ZJVE5ucHFveHMzU3VKeVh6S2FobDVwSWF3QTEzQ3U2cmFXb1RLd2tNcTVJVVFsWW9RcTk3Q05yMW10TXpNUVFoYXdGQUVzQ204UnFoUFl0YUlSQ1NoYUNORklHVF9pTHhFX19XYzJwVWJadHd5VldLN0ZBZk5DRnZabUp5RnFrQmZnTTN3c1ZwZWJYSXZJdjNk?oc=5
+summary: 中国沙之科技（Sand.ai）融资200亿美元，并称其已成为独角兽企业。 FourWeekMBA
+first_seen: '2026-11-09T01:45:22Z'
+last_seen: '2026-11-09T01:45:22Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinANBVV95cUxNQnJoZ2FCYzdxc0U0cFlzcGNfZmZsXy1Qb3pzNDJvVmx0Q0hwTkZGeFpReHFNaGdEZWFuRGtxRkItd09YR2E1ZjZHWHgtMmwzY1M2VGRON2xqN1F2QVVWQ1k0eFRQN0JMSXJETUFGTDVEbmVKd0tTNmVmYVhXVlliUld0d29TeEM5WHFqWFBPSDZBYjFfSlBCVzVXVTI4WkFBanBlTDh2QW5QYVViVnpZOTB1QjA5X1YyOGY2NUZxRkx3LTlDTW5oWEJpOVZGWHlsM0ttMkxOZWgzZWhzU01udGdpbjZQeEwxbUtWOE8yMnZuS1hOQ1h4NkwyREdmbU1uOTBVcW1LTEpHY0ZJVE5ucHFveHMzU3VKeVh6S2FobDVwSWF3QTEzQ3U2cmFXb1RLd2tNcTVJVVFsWW9RcTk3Q05yMW10TXpNUVFoYXdGQUVzQ204UnFoUFl0YUlSQ1NoYUNORklHVF9pTHhFX19XYzJwVWJadHd5VldLN0ZBZk5DRnZabUp5RnFrQmZnTTN3c1ZwZWJYSXZJdjNk?oc=5
+  seen_at: '2026-11-09T01:45:22Z'
+  metrics: {}
+  kind: news
+---
+
+# 中国沙之科技（Sand.ai）融资200亿美元，并称其已成为独角兽企业。
+
+中国沙之科技（Sand.ai）融资200亿美元，并称其已成为独角兽企业。 FourWeekMBA
+
+## 笔记
+
+

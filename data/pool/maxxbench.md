@@ -20,17 +20,17 @@ url: https://maxxbench.unlap.ai/research/why-maxxbench/
 canonical_url: https://maxxbench.unlap.ai/research/why-maxxbench
 summary: '"Nice DeepSWE score. But is it true?"'
 first_seen: '2026-11-08T01:27:07Z'
-last_seen: '2026-11-08T01:27:07Z'
+last_seen: '2026-11-09T01:44:43Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://maxxbench.unlap.ai/research/why-maxxbench/
-  seen_at: '2026-11-08T01:27:07Z'
+  seen_at: '2026-11-09T01:44:43Z'
   metrics:
-    points: 199
-    comments: 57
+    points: 387
+    comments: 104
   kind: news
 ---
 

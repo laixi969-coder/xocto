@@ -20,17 +20,17 @@ url: https://github.com/deepseek-ai/dsh-superagent-prototype
 canonical_url: https://github.com/deepseek-ai/dsh-superagent-prototype
 summary: Towards a More Autonomous Agent System
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/deepseek-ai/dsh-superagent-prototype
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 20832
-    forks: 2459
+    stars: 21215
+    forks: 2540
     open_issues: 0
   kind: product
 ---

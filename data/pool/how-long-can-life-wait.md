@@ -20,17 +20,17 @@ url: https://mceglowski.substack.com/p/how-long-can-life-wait
 canonical_url: https://mceglowski.substack.com/p/how-long-can-life-wait
 summary: How Long Can Life Wait?
 first_seen: '2026-11-08T01:27:07Z'
-last_seen: '2026-11-08T01:27:07Z'
+last_seen: '2026-11-09T01:44:43Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://mceglowski.substack.com/p/how-long-can-life-wait
-  seen_at: '2026-11-08T01:27:07Z'
+  seen_at: '2026-11-09T01:44:43Z'
   metrics:
-    points: 125
-    comments: 73
+    points: 147
+    comments: 100
   kind: news
 ---
 

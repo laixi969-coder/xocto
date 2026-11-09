@@ -20,17 +20,17 @@ url: https://github.com/hedgerow-dev/coldframe
 canonical_url: https://github.com/hedgerow-dev/coldframe
 summary: a honeypot that poses as a supermarket fridge controller
 first_seen: '2026-11-08T01:27:07Z'
-last_seen: '2026-11-08T01:27:07Z'
+last_seen: '2026-11-09T01:44:43Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/hedgerow-dev/coldframe
-  seen_at: '2026-11-08T01:27:07Z'
+  seen_at: '2026-11-09T01:44:43Z'
   metrics:
-    points: 191
-    comments: 39
+    points: 278
+    comments: 64
   kind: product
 ---
 

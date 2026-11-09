@@ -22,17 +22,17 @@ summary: Beat-driven sci-fi light-ring visualization. Pure Canvas, single HTML, 
   use only. RYDER CODE / Ms MAIKEBAIs CAT ｜ 节拍驱动的科幻光环数据可视化，纯原生 Canvas 单文件 HTML、零依赖，支持 Wallpaper Engine
   动态壁纸。仅限非商业使用，严禁商用。
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://ryder191.github.io/haloflux/
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 500
-    forks: 39
+    stars: 540
+    forks: 43
     open_issues: 2
   kind: product
 ---

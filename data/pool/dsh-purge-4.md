@@ -21,17 +21,17 @@ canonical_url: https://github.com/ZXEB/dsh-purge
 summary: dsh-purge v1.1.71 完整源码镜像（原仓库 YuJunZhiXue/dsh-purge 与 npm 包均已删除）。DeepSeek Harness 破甲 / 红队评测插件，支持官方
   web 与桌面宿主。
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ZXEB/dsh-purge
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 198
-    forks: 236
+    stars: 233
+    forks: 269
     open_issues: 1
   kind: product
 ---

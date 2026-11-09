@@ -20,17 +20,17 @@ url: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again
 canonical_url: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again
 summary: Claude Code's "Don't Ask Again" exposes passwords in 1,122 public GitHub files
 first_seen: '2026-11-08T01:27:07Z'
-last_seen: '2026-11-08T01:27:07Z'
+last_seen: '2026-11-09T01:44:43Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again
-  seen_at: '2026-11-08T01:27:07Z'
+  seen_at: '2026-11-09T01:44:43Z'
   metrics:
-    points: 169
-    comments: 121
+    points: 585
+    comments: 397
   kind: news
 ---
 

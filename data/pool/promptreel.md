@@ -22,17 +22,17 @@ summary: 'Free desktop app that turns a text prompt into a short video clip on y
   with Wan 2.2: type a scene, pick wide, vertical or square, get an MP4. No credits, no subscription,
   no queue. Windows 10/11.'
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://promptreel.xo.je
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
     stars: 210
-    forks: 0
+    forks: 30
     open_issues: 0
   kind: product
 ---

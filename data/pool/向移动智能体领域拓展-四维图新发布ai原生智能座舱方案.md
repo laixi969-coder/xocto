@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6NjlfN1RZRlFWMFlWOTA1OD
 canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6NjlfN1RZRlFWMFlWOTA1ODNLaTlJbk9BekRKdGhET2g5TnBVc2cwWnVLaHl6TXBDY0F1OE9HN1BvXzJ4bTBQb3ZISnM1U28ydzJhR1p2Y3pqbkZTbUFIMw?oc=5
 summary: 向移动智能体领域拓展 四维图新发布AI原生智能座舱方案 东方财富
 first_seen: '2026-11-08T01:27:39Z'
-last_seen: '2026-11-08T01:27:39Z'
+last_seen: '2026-11-09T01:45:22Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6NjlfN1RZRlFWMFlWOTA1ODNLaTlJbk9BekRKdGhET2g5TnBVc2cwWnVLaHl6TXBDY0F1OE9HN1BvXzJ4bTBQb3ZISnM1U28ydzJhR1p2Y3pqbkZTbUFIMw?oc=5
   seen_at: '2026-11-08T01:27:39Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwb2JFaHlESldjd2VFM1hxZkRFeldOWEdpVFJnb2R3MktIVi1vUTllWGVIazdoSTJrRXgzcjgzTG12LU95UC1uaDBjdVFrVGh6dkw1NkZUaFBZeGItOXR1Vm1RRUdSdw?oc=5
+  seen_at: '2026-11-09T01:45:22Z'
   metrics: {}
   kind: news
 ---

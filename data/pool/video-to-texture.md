@@ -21,16 +21,16 @@ canonical_url: https://github.com/lovisdotio/video-to-texture
 summary: 'Turn an AI video into a real UV texture on your 3D mesh: Blender orbit, Seedance 2.5, nvdiffrast
   fit, Seedream 5 Pro atlas completion.'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lovisdotio/video-to-texture
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 44
+    stars: 45
     forks: 2
     open_issues: 0
   kind: product

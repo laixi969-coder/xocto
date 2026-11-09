@@ -22,18 +22,18 @@ summary: Your team of AI agents, on your Mac, Windows or Linux. Agents that talk
   review each other and use your tools, on the Claude Code, Codex, OpenCode or Pi you already have. Anything
   that touches the real world waits for your yes.
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://tucano.sh
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 288
-    forks: 54
-    open_issues: 34
+    stars: 323
+    forks: 58
+    open_issues: 44
   kind: product
 ---
 

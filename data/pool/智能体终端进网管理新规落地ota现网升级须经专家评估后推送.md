@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DZ2NnMFhjTXZ3UzNWaWMxbG
 canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DZ2NnMFhjTXZ3UzNWaWMxbGtReEdYeGJSOGVlVVhtYkIyMlUxaUd5N2dZM3JyLXp2T0lqbC1TZjJXa2FNNkVmZHNacFJmMWctak5iUlZR?oc=5
 summary: 智能体终端进网管理新规落地，OTA现网升级须经专家评估后推送 腾讯新闻
 first_seen: '2026-11-07T01:57:16Z'
-last_seen: '2026-11-07T01:57:16Z'
+last_seen: '2026-11-09T01:45:22Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DZ2NnMFhjTXZ3UzNWaWMxbGtReEdYeGJSOGVlVVhtYkIyMlUxaUd5N2dZM3JyLXp2T0lqbC1TZjJXa2FNNkVmZHNacFJmMWctak5iUlZR?oc=5
   seen_at: '2026-11-07T01:57:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBab2g0bXBHbW5PNGMtNVdmTkE1WkpxUXVZVlE0RUdlTVJxc2pEOFpIOHZFOWs0MWhzUThkaUhPbzJJZ1d0ZjRTQl9PVlNaMGkyMVFZ?oc=5
+  seen_at: '2026-11-09T01:45:22Z'
   metrics: {}
   kind: news
 ---

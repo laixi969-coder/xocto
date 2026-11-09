@@ -22,16 +22,16 @@ summary: Let your AI agents call your phone over VoIP, and call them back. Your 
   call, even locked; a voice AI talks it through and returns the transcript. Self-hosted, open source,
   no phone numbers or Twilio.
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://agentring.io
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 300
+    stars: 305
     forks: 38
     open_issues: 7
   kind: product

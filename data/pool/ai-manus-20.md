@@ -21,17 +21,17 @@ canonical_url: https://github.com/EpicGiantite13205/ai--manus
 summary: AI Manus is a general-purpose AI Agent system that supports running various tools and operations
   in a sandbox environment.
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/EpicGiantite13205/ai--manus
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 92
-    forks: 12
+    stars: 54
+    forks: 10
     open_issues: 0
   kind: product
 ---

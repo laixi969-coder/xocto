@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQU0xmbktnQVdI
 summary: Norck Launches AI-Powered Material Discovery, Optimization and Manufacturing Service The Des
   Moines Register
 first_seen: '2026-11-08T01:27:39Z'
-last_seen: '2026-11-08T01:27:39Z'
+last_seen: '2026-11-09T01:45:22Z'
 status: pending_filter
 sources:
 - newssearch
@@ -29,6 +29,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxQU0xmbktnQVdIVnpxLUpCVlJyZ1d0LXBoSjF3LWttUGVtMFh0ODZBelA0SGpqcW1GMjU5LWVpdGVHMHJBcVNicFZSRWRPSURFU205NFp1MW5JVlN2cmpqcE9Nd3FPbUZqZ3pnSGRFMVdFNFlhWFNNZ3oxTTZlTVNvaTc3NHRqaTFIa2dPWjdabkRrOVo5RU9XQ2pkeFVCSjJkanZzckp4dGNkb3NJOTVXdF9sQ04zaWR0UThDQXBSVHBZWmpDZFd1MXY4TEs5aE1fYzBHbU40LWVoaklhaWc?oc=5
   seen_at: '2026-11-08T01:27:39Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTjRFaVlZZm5mNTBxY3NCaDBCV3ZjR1dHdnJ4U2cxNDF0NWpKaWxmMzhMd1dnZzFKa2FObVoyWXlhWUtHeW54VldGdkRza2tXTTRGeWUzTDdmb1QyWU9NMGRlU1FUT0xtU1lWVDFLU1lxd3otNWkyeXJRLTVaUFlTZGQxUHRGSEhVUGFyYjVDSHZkN01GQU5Kby0wNVNkYTlfSUcxdl9YZDlxX2p4UDBaVm1jVWEzOTNIS2FYWTBIYnRZMXBlRW5aMUZOVmxHTzhRQ2xYa3Bn?oc=5
+  seen_at: '2026-11-09T01:45:22Z'
   metrics: {}
   kind: news
 ---

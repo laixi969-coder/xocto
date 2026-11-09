@@ -22,18 +22,18 @@ summary: 'Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows 
   up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from
   your own dump; no game files included. Measured on one PC so far.'
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.reddit.com/r/WeepingOfTheEmpire/
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 303
-    forks: 12
-    open_issues: 43
+    stars: 309
+    forks: 14
+    open_issues: 46
   kind: product
 ---
 

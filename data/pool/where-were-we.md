@@ -22,17 +22,17 @@ summary: A little web game I made as an anniversary present for my wife. Upload 
   them into a game. WWW uses EXIF to determine where and when the photo was taken. This is then turned
   into a game you can sen…
 first_seen: '2026-11-08T01:27:07Z'
-last_seen: '2026-11-08T01:27:07Z'
+last_seen: '2026-11-09T01:44:43Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://wherewerewe.app/
-  seen_at: '2026-11-08T01:27:07Z'
+  seen_at: '2026-11-09T01:44:43Z'
   metrics:
-    points: 23
-    comments: 9
+    points: 53
+    comments: 19
   kind: product
 ---
 

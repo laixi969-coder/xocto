@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qVXJVUHhPR05CRWZFRE9Ial
 canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qVXJVUHhPR05CRWZFRE9IalF0NThtZmlyR2RDUkY2aDRJWGowLTBYUHJaWnZwTnhnWnlHbHpMZWd3QklNam9KdEJwaVdPSmZMVkZOMVNINFZNWDRpVXg1TVhtSkp2UTg?oc=5
 summary: 英矽智能发布全天候多智能体系统“个人长寿超级智能“（PLSI） Insilico Medicine
 first_seen: '2026-11-07T01:57:16Z'
-last_seen: '2026-11-07T01:57:16Z'
+last_seen: '2026-11-09T01:45:22Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qVXJVUHhPR05CRWZFRE9IalF0NThtZmlyR2RDUkY2aDRJWGowLTBYUHJaWnZwTnhnWnlHbHpMZWd3QklNam9KdEJwaVdPSmZMVkZOMVNINFZNWDRpVXg1TVhtSkp2UTg?oc=5
   seen_at: '2026-11-07T01:57:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1zS0ZVNVItTWczVjR4VzJ6dlZ1cE9TTEY0dXBvX0UxZTkxX25ReS1EUS1vMWUxS2pnTWF1N2xGWEZ2ZXJXX3hVcA?oc=5
+  seen_at: '2026-11-09T01:45:22Z'
   metrics: {}
   kind: news
 ---

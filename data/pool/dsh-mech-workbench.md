@@ -20,16 +20,16 @@ url: https://github.com/insideyou-0501/dsh-mech-workbench
 canonical_url: https://github.com/insideyou-0501/dsh-mech-workbench
 summary: Engineering & math problem workbench for DSH · 工科与数学题解工作台：读题图、求解、出图、自检，9 个工具 + 4 个技能
 first_seen: '2026-10-26T00:24:22Z'
-last_seen: '2026-11-01T01:10:29Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/insideyou-0501/dsh-mech-workbench
-  seen_at: '2026-11-01T01:10:29Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 57
+    stars: 60
     forks: 4
     open_issues: 2
   kind: product

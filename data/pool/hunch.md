@@ -20,17 +20,17 @@ url: https://hunch.net/?p=13764006
 canonical_url: https://hunch.net?p=13764006
 summary: The End of AI Frontiers
 first_seen: '2026-11-08T01:27:07Z'
-last_seen: '2026-11-08T01:27:07Z'
+last_seen: '2026-11-09T01:44:43Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hunch.net/?p=13764006
-  seen_at: '2026-11-08T01:27:07Z'
+  seen_at: '2026-11-09T01:44:43Z'
   metrics:
-    points: 375
-    comments: 220
+    points: 496
+    comments: 305
   kind: news
 ---
 

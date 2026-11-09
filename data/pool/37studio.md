@@ -21,18 +21,18 @@ canonical_url: https://studio.shaitrish.com
 summary: 'Open-source AI alternative to Buffer and Opus Clip: Claude Code makes on-brand videos, posts
   them to 9 platforms and drafts replies. Self-hosted, your own keys.'
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://studio.shaitrish.com
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 135
+    stars: 140
     forks: 21
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

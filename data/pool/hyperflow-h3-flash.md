@@ -20,17 +20,17 @@ url: https://github.com/Video-Rebirth/hyperflow-h3-flash
 canonical_url: https://github.com/Video-Rebirth/hyperflow-h3-flash
 summary: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8
 first_seen: '2026-11-08T01:27:07Z'
-last_seen: '2026-11-08T01:27:07Z'
+last_seen: '2026-11-09T01:44:43Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Video-Rebirth/hyperflow-h3-flash
-  seen_at: '2026-11-08T01:27:07Z'
+  seen_at: '2026-11-09T01:44:43Z'
   metrics:
-    points: 57
-    comments: 12
+    points: 76
+    comments: 14
   kind: product
 ---
 

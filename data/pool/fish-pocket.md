@@ -21,18 +21,18 @@ canonical_url: https://vibevibi.com/@sai/fish-pocket
 summary: Run DeepSeek Harness on iPhone and iPad, with a fully native SwiftUI interface. No computer,
   no server. 在 iPhone 和 iPad 上本机运行 DeepSeek Harness，界面完全原生。
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://vibevibi.com/@sai/fish-pocket
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 125
+    stars: 153
     forks: 17
-    open_issues: 8
+    open_issues: 14
   kind: product
 ---
 

@@ -1,0 +1,41 @@
+---
+slug: 中美ai竞赛-deepseekai智能体平台harness日活跃用户达到154万
+name: 中美AI竞赛｜DeepSeek︰AI智能体平台Harness日活跃用户达到154万
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5gJBVV95cUxQaVJoRk9tVy1pSnBHRDNFNFctdzJrbGdUeFhiNTRqVDh0QkpMZHZQc25XY05hcUN2TFB6Nk9lanJzbEgyc3AyODVEcVJQYU00ak54SE5XcjNQRnIydEFCdW5hazJrT2hqd2dBb3h1eEpRcE5wekJ0c2VLcEtUcF9pUUFxOEZ6VHE2S1ZrUWxkbjBxNnVKT3MxdHJQbVpRSzdPT3dtWVlYaVNaeWtDYm4xZ3V1RXB5TGItQlZ3LXc0by1fcW9HUWlGdmtLSm5KcnNnZWxUUi0teWpncTcxdjVZalpiZUFwQjhxVDFSOWFveHhDRW5RVU1iVzRoenhBX1RmVnNnUVozZTZDeEMzS2N1ckVYX3hGN2tvTFpHd1MyYlJramdzWDM3cGxWQUwtQlpROW5ST1BZZk02TFVlaGxJWHRsbHJOTkpHZGpmMkR2NDhiSW4wNWw5Ty1vNll6b2lCSjd4SU93?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5gJBVV95cUxQaVJoRk9tVy1pSnBHRDNFNFctdzJrbGdUeFhiNTRqVDh0QkpMZHZQc25XY05hcUN2TFB6Nk9lanJzbEgyc3AyODVEcVJQYU00ak54SE5XcjNQRnIydEFCdW5hazJrT2hqd2dBb3h1eEpRcE5wekJ0c2VLcEtUcF9pUUFxOEZ6VHE2S1ZrUWxkbjBxNnVKT3MxdHJQbVpRSzdPT3dtWVlYaVNaeWtDYm4xZ3V1RXB5TGItQlZ3LXc0by1fcW9HUWlGdmtLSm5KcnNnZWxUUi0teWpncTcxdjVZalpiZUFwQjhxVDFSOWFveHhDRW5RVU1iVzRoenhBX1RmVnNnUVozZTZDeEMzS2N1ckVYX3hGN2tvTFpHd1MyYlJramdzWDM3cGxWQUwtQlpROW5ST1BZZk02TFVlaGxJWHRsbHJOTkpHZGpmMkR2NDhiSW4wNWw5Ty1vNll6b2lCSjd4SU93?oc=5
+summary: 中美AI竞赛｜DeepSeek︰AI智能体平台Harness日活跃用户达到154万 香港01
+first_seen: '2026-11-09T01:45:22Z'
+last_seen: '2026-11-09T01:45:22Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5gJBVV95cUxQaVJoRk9tVy1pSnBHRDNFNFctdzJrbGdUeFhiNTRqVDh0QkpMZHZQc25XY05hcUN2TFB6Nk9lanJzbEgyc3AyODVEcVJQYU00ak54SE5XcjNQRnIydEFCdW5hazJrT2hqd2dBb3h1eEpRcE5wekJ0c2VLcEtUcF9pUUFxOEZ6VHE2S1ZrUWxkbjBxNnVKT3MxdHJQbVpRSzdPT3dtWVlYaVNaeWtDYm4xZ3V1RXB5TGItQlZ3LXc0by1fcW9HUWlGdmtLSm5KcnNnZWxUUi0teWpncTcxdjVZalpiZUFwQjhxVDFSOWFveHhDRW5RVU1iVzRoenhBX1RmVnNnUVozZTZDeEMzS2N1ckVYX3hGN2tvTFpHd1MyYlJramdzWDM3cGxWQUwtQlpROW5ST1BZZk02TFVlaGxJWHRsbHJOTkpHZGpmMkR2NDhiSW4wNWw5Ty1vNll6b2lCSjd4SU93?oc=5
+  seen_at: '2026-11-09T01:45:22Z'
+  metrics: {}
+  kind: news
+---
+
+# 中美AI竞赛｜DeepSeek︰AI智能体平台Harness日活跃用户达到154万
+
+中美AI竞赛｜DeepSeek︰AI智能体平台Harness日活跃用户达到154万 香港01
+
+## 笔记
+
+

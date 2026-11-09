@@ -22,16 +22,16 @@ summary: Capri is an open-source, Cyberpunk-inspired desktop companion that live
   Built with local AI using Ollama, she can hang out and chat with you. Voice interaction and more animations
   are planned. Contributions, ideas, and feedback are welcome!
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-06T02:26:55Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Juliowiwiwiwi/Capri-Capricorn-The-Desktop-Construct
-  seen_at: '2026-11-06T02:26:55Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 55
+    stars: 54
     forks: 8
     open_issues: 0
   kind: product

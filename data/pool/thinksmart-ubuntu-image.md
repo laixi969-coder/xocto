@@ -23,18 +23,18 @@ summary: '联想 ThinkSmart View（CD-18781Y）语音助手系统镜像：基于
   boots straight into the voice UI; flashing guide in Chinese and English (for people and AI agents),
   image build scripts and device fixes'
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/justhalfbit/thinksmart-ubuntu-image
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 86
-    forks: 23
-    open_issues: 6
+    stars: 90
+    forks: 25
+    open_issues: 7
   kind: product
 ---
 

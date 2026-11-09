@@ -21,17 +21,17 @@ canonical_url: https://github.com/sloemo01/diorama
 summary: 'Pixel-art diorama playbook and Three.js code kit: research-first build workflow, locked camera,
   palette snap, ordered dither, inked contour, animated toy-scale cast, per-entity frame QA.'
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T01:44:47Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sloemo01/diorama
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T01:44:47Z'
   metrics:
-    stars: 351
-    forks: 23
+    stars: 353
+    forks: 24
     open_issues: 0
   kind: product
 ---
