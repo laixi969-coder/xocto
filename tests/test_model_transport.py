@@ -76,3 +76,25 @@ class TransportTests(unittest.TestCase):
         self.assertIn('8000/12345', str(error.exception))
         self.assertNotIn('secret', str(error.exception))
         self.assertNotIn('org-id', str(error.exception))
+
+class BatchCheckpointTests(unittest.TestCase):
+    def test_successful_batches_after_failure_are_saved_before_error(self):
+        from xocto.brief import _run_batches_parallel
+        saved = []
+        def process(batch):
+            if batch == 1:
+                raise BriefError('failed')
+            return batch * 2
+        with self.assertRaises(BriefError):
+            _run_batches_parallel(process, [0, 1, 2], lambda batch, result: saved.append((batch, result)))
+        self.assertEqual(saved, [(0, 0), (2, 4)])
+
+    def test_groq_is_optional_and_selectable(self):
+        from xocto.brief import _model_providers
+        with patch.dict('os.environ', {'GROQ_API_KEY': 'test-key', 'MODEL_PROVIDER': 'groq'}, clear=True):
+            self.assertEqual(_model_providers(), [('groq', 'https://api.groq.com/openai/v1/chat/completions', 'test-key', 'llama-3.3-70b-versatile')])
+
+    def test_agnes_is_optional_and_selectable(self):
+        from xocto.brief import _model_providers
+        with patch.dict('os.environ', {'AGNES_API_KEY': 'test-key', 'MODEL_PROVIDER': 'agnes'}, clear=True):
+            self.assertEqual(_model_providers(), [('agnes', 'https://apihub.agnes-ai.com/v1/chat/completions', 'test-key', 'agnes-2.5-flash')])

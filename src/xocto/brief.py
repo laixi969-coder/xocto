@@ -46,10 +46,12 @@ from .editorial import has_context_copy
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
 GLM_API_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+AGNES_API_URL = "https://apihub.agnes-ai.com/v1/chat/completions"
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-flash"
 DEFAULT_GEMINI_MODEL = "gemini-3.7-flash"
 DEFAULT_GLM_MODEL = "glm-5.3-flash"
-FALLBACK_PROVIDER_ORDER = ("deepseek", "gemini", "glm")
+FALLBACK_PROVIDER_ORDER = ("deepseek", "gemini", "glm", "agnes", "groq")
 ALLOWED_DECISIONS = {STATUS_REJECTED, STATUS_MARKET_CONTEXT, STATUS_QUEUED, STATUS_WATCHING}
 EMPTY_DAY_MARKERS = (
     "今天没有值得展开",
@@ -504,7 +506,7 @@ def _decode_json_object(content: str) -> dict[str, Any]:
 
 
 def _model_providers() -> list[tuple[str, str, str, str]]:
-    """返回可用模型链；DeepSeek 默认主用，Gemini 与 GLM 自动兜底。"""
+    """返回已配置的模型链；默认使用 DeepSeek，其他供应商按顺序兜底。"""
     providers: dict[str, tuple[str, str, str]] = {}
     if key := os.environ.get("DEEPSEEK_API_KEY"):
         providers["deepseek"] = (
@@ -518,9 +520,13 @@ def _model_providers() -> list[tuple[str, str, str, str]]:
         providers["glm"] = (
             GLM_API_URL, key, os.environ.get("GLM_MODEL") or DEFAULT_GLM_MODEL
         )
+    if key := os.environ.get("AGNES_API_KEY"):
+        providers["agnes"] = (AGNES_API_URL, key, os.environ.get("AGNES_MODEL") or "agnes-2.5-flash")
+    if key := os.environ.get("GROQ_API_KEY"):
+        providers["groq"] = (GROQ_API_URL, key, os.environ.get("GROQ_MODEL") or "llama-3.3-70b-versatile")
     if not providers:
         raise BriefError(
-            "缺少可用模型密钥；请配置 DEEPSEEK_API_KEY、GEMINI_API_KEY 或 ZHIPU_API_KEY"
+            "缺少可用模型密钥；请配置 DEEPSEEK_API_KEY、GEMINI_API_KEY、ZHIPU_API_KEY、AGNES_API_KEY 或 GROQ_API_KEY"
         )
     preferred = os.environ.get("MODEL_PROVIDER", "deepseek").strip().lower()
     names = [preferred] if preferred in providers else []
@@ -589,33 +595,30 @@ def _fit_messages(batch: list[Product], build: Any) -> list[dict[str, str]]:
 def _run_batches_parallel(process: Any, batches: list[Any], on_result: Any) -> None:
     """并发处理批次；每个成功批次立刻由 on_result 落断点，失败按批序传播。
 
-    请求与校验在少量工作线程里并发执行（限流等待和其它供应商的请求可以
-    重叠）。所有批次跑完后，主线程按原批序逐个写入断点并合并结果——这与
-    串行版本的幂等语义一致；遇到第一个失败的批次先完成它之前批次的写入，
-    再把异常抛给调用方（整天失败、断点重试），并发中其它成功批次不丢。
+    请求与校验在少量工作线程里并发执行。全部批次结束后，主线程按原批序
+    保存所有成功结果，然后传播第一个错误，让重试保留成功批次的断点。
     """
     outcomes: list[Any] = [None] * len(batches)
-    first_error: tuple[int, BaseException] | None = None
+    errors: dict[int, Exception] = {}
     if len(batches) <= 1 or _PARALLEL_BATCH_WORKERS <= 1:
         for index, batch in enumerate(batches):
             try:
                 outcomes[index] = process(batch)
-            except BaseException as exc:
-                first_error = (index, exc)
-                break
+            except Exception as exc:
+                errors[index] = exc
     else:
         with ThreadPoolExecutor(max_workers=min(_PARALLEL_BATCH_WORKERS, len(batches))) as pool:
             futures = [pool.submit(process, batch) for batch in batches]
             for index, future in enumerate(futures):
                 try:
                     outcomes[index] = future.result()
-                except BaseException as exc:
-                    if first_error is None:
-                        first_error = (index, exc)
+                except Exception as exc:
+                    errors[index] = exc
     for index, batch in enumerate(batches):
-        if first_error is not None and index == first_error[0]:
-            raise first_error[1]
-        on_result(batch, outcomes[index])
+        if index not in errors:
+            on_result(batch, outcomes[index])
+    if errors:
+        raise errors[min(errors)]
 
 
 def _request(
