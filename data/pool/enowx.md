@@ -21,18 +21,18 @@ canonical_url: https://enowx.ai
 summary: 'Run and control every coding agent from one desktop app: Claude Code, Codex, OpenCode and more,
   across your Mac and servers, with GOD of Agents on top.'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-09T09:12:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://enowx.ai
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-09T09:12:39Z'
   metrics:
     stars: 41
     forks: 13
-    open_issues: 4
+    open_issues: 5
   kind: product
 ---
 

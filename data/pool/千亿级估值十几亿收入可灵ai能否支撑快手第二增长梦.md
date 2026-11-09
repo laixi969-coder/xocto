@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmQ0IxT29KeldmTmZSNm9mRm
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmQ0IxT29KeldmTmZSNm9mRmRyYWhuT0NyREJsU0xKRGVjT3BwcTI5bUtOdm1hLTJjZHNEeDI2MzVGUWFsb1o4VktTb2FYVGV4amxR?oc=5
 summary: 千亿级估值，十几亿收入，可灵AI能否支撑快手第二增长梦？ 电子工程专辑EE Times China
 first_seen: '2026-11-07T01:57:16Z'
-last_seen: '2026-11-07T01:57:16Z'
+last_seen: '2026-11-09T09:13:10Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmQ0IxT29KeldmTmZSNm9mRmRyYWhuT0NyREJsU0xKRGVjT3BwcTI5bUtOdm1hLTJjZHNEeDI2MzVGUWFsb1o4VktTb2FYVGV4amxR?oc=5
   seen_at: '2026-11-07T01:57:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OZG9aRnh3eHhpUFVQOTNWMkw4cXNhQ3NodnlNbEtWX0xWQVV1d0diaDBROEtzcnZpSkRNSmZvM2p1VXdNc3U0dGJQVlJwc1lHRFZvdGU1Y3EtTXBMYzRyLXp4Y2c?oc=5
+  seen_at: '2026-11-09T09:13:10Z'
   metrics: {}
   kind: news
 ---

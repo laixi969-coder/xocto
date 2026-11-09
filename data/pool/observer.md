@@ -20,17 +20,17 @@ url: https://observer.co.uk/news/national/article/fight-to-block-child-sexual-ab
 canonical_url: https://observer.co.uk/news/national/article/fight-to-block-child-sexual-abuse-images-unites-peers-and-mps-in-cross-party-campaign
 summary: UK House of Lords to propose mandatory CSAM detection software on smartphones
 first_seen: '2026-11-09T01:44:43Z'
-last_seen: '2026-11-09T01:44:43Z'
+last_seen: '2026-11-09T09:12:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://observer.co.uk/news/national/article/fight-to-block-child-sexual-abuse-images-unites-peers-and-mps-in-cross-party-campaign
-  seen_at: '2026-11-09T01:44:43Z'
+  seen_at: '2026-11-09T09:12:35Z'
   metrics:
-    points: 78
-    comments: 82
+    points: 85
+    comments: 86
   kind: news
 ---
 

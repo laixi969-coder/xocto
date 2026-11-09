@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRTh3TmxQT2VqLVpSaTRkdl
 canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRTh3TmxQT2VqLVpSaTRkdlBkck16azBpSTllMmhiYXNTVHY0VG5VTHo5UjhlYkNvMmRXYURBOVRhS0xMeE5zYS01X0MyMWhLTDJiaWpOZ25ORUZQdDYyRWhuN0IzNTlIakdEOXFLYWpxYWZtejQyS3QwSzdWcmpicGcwa2ZBdG1TM1JPbGdlN055cWlGMjFWWU83a0pIVktPUmtuNWdLRkRaWFBsVVpVSjQ0VmtQYnloa0RLQUcwbEhMRThMMXg4ZUlDTmJHcVc1djR0OExB?oc=5
 summary: 'SignalPulse: Weekly Signals, Startups & Deals To Watch Alert The Tech Buzz'
 first_seen: '2026-09-28T13:27:34Z'
-last_seen: '2026-11-03T03:29:33Z'
+last_seen: '2026-11-09T09:13:10Z'
 status: pending_filter
 sources:
 - newssearch
@@ -43,6 +43,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPLVFDUTJCWkZnNGZfLUFsRmJfbHRfcEpBX01BbmFYVm9MUVYyUHNtY2JHRWRhVXJkRHJpZURxcW16LVk5VDRoVjF4MlF4MUpVdjNBQTRPMjYwNVRHc3lDZmRYVEJydnFRNXRHQnVuTGZ4NWl1Nkw5RS1RekdDbTNjeEF0UEJETVNmWG9QSnVPZ1Z0OGYzNWgzUWVvRUJzaHB0U3hTOTFSWklkUl9WOUhENktsUTBtMWV1YlExdXFOeHNxZlJhVlRiZ2VIRVA2VTdHT0RPanFB?oc=5
   seen_at: '2026-11-03T03:29:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZ01vb2UxWmM4UVdJWWFsVG92eElGVHE4eVFlMjBvbDVHa2FKN0E4Ynk2UENEeXlLODMwelVnZ3hrLTlfTHU4TVNBNU0xLTdhNDVQcy1veFRoN3FPU0lqRFdCZFBNZmZ1QnJvbGZQb3Y1S1Y5ZUhEUUhpWDc5WnBmXzhEamExUUNFZl9GQl9pYl9veDNJeVVoRTVjNVVvUzVLRFQxZDhXSE1IMDhURFJhWnJlS0I2ZHlJZmt6YUxjTzR1cl9ISExpeE1QOUxINXpnRGpkMVlB?oc=5
+  seen_at: '2026-11-09T09:13:10Z'
   metrics: {}
   kind: news
 ---

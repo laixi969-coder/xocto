@@ -22,17 +22,17 @@ summary: AI 订阅与卡网比价，聚合 ChatGPT / Codex、Claude、Gemini、G
   检测。Compare AI subscription and account offers across shops, with price history, official regional pricing,
   and AI/IP checks.
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-09T01:44:47Z'
+last_seen: '2026-11-09T09:12:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://price.yufu.pub
-  seen_at: '2026-11-09T01:44:47Z'
+  seen_at: '2026-11-09T09:12:39Z'
   metrics:
-    stars: 276
-    forks: 6
+    stars: 278
+    forks: 7
     open_issues: 0
   kind: product
 ---

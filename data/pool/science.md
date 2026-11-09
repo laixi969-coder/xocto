@@ -20,7 +20,7 @@ url: https://www.science.org/content/article/how-ai-math-breakthrough-ignited-co
 canonical_url: https://science.org/content/article/how-ai-math-breakthrough-ignited-controversy
 summary: How An AI math breakthrough ignited a controversy
 first_seen: '2026-09-09T10:25:41Z'
-last_seen: '2026-11-09T01:44:43Z'
+last_seen: '2026-11-09T09:12:35Z'
 status: pending_filter
 sources:
 - hackernews
@@ -90,10 +90,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F
-  seen_at: '2026-11-09T01:44:43Z'
+  seen_at: '2026-11-09T09:12:35Z'
   metrics:
-    points: 116
-    comments: 91
+    points: 117
+    comments: 92
   kind: news
 ---
 
