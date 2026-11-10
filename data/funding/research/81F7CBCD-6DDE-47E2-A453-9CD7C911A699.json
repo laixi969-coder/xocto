@@ -2,7 +2,7 @@
   "version": 2,
   "company_id": "81F7CBCD-6DDE-47E2-A453-9CD7C911A699",
   "round_fingerprint": "1a0efc087ebca9eb0ddc64d20fad8cbffa174ce73315872362c87f2d4b50d2cd",
-  "last_attempt": "2026-10-31",
+  "last_attempt": "2026-11-10",
   "status": "blocked",
   "gaps": [
     "product",
@@ -17,13 +17,13 @@
       "role": "funding",
       "status": "retrieved",
       "text": "JustSolve is a startup that develops agentic AI infrastructure for credit management and collection.",
-      "checked_on": "2026-10-31"
+      "checked_on": "2026-11-10"
     },
     {
       "url": "https://just-solve.com/",
       "kind": "retrieval_gap",
       "role": "overview",
-      "checked_on": "2026-10-31",
+      "checked_on": "2026-11-10",
       "status": "unavailable",
       "text": "",
       "error": "HttpError: https://just-solve.com/ 返回 403（请求有问题，不重试）"
