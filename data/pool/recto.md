@@ -20,7 +20,7 @@ url: https://recto.design
 canonical_url: https://recto.design
 summary: A desktop app where you can design with AI, edit with your mouse
 first_seen: '2026-11-04T02:20:47Z'
-last_seen: '2026-11-09T09:12:35Z'
+last_seen: '2026-11-10T04:07:34Z'
 status: pending_filter
 sources:
 - hackernews
@@ -34,10 +34,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://recto.design/
-  seen_at: '2026-11-09T09:12:35Z'
+  seen_at: '2026-11-10T04:07:34Z'
   metrics:
     points: 8
-    comments: 5
+    comments: 4
   kind: product
 ---
 

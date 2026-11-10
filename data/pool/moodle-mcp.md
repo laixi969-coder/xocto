@@ -22,16 +22,16 @@ summary: Zero-dependency MCP server for the Moodle Web Service API — read-only
   deadline and file tools for Claude, Cursor and any MCP client. Actively maintained · v1.4.0 · 10 tools
   · docs in 10 languages.
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-09T01:44:47Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Faixiang/Moodle-MCP
-  seen_at: '2026-11-09T01:44:47Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 204
+    stars: 205
     forks: 0
     open_issues: 0
   kind: product

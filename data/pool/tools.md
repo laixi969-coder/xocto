@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-07T01:57:16Z'
+last_seen: '2026-11-10T04:08:03Z'
 status: pending_filter
 sources:
 - hackernews
@@ -295,6 +295,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQUHNHUHZncHYzcE5DNWhJNGk1aWJra29NT1dfU3YwVkp6R3lUWmsyZFVPd3pUZHN4eEJTd20zZ3lQcGNfN3k3dlMzZ0loRTZvM1B2TGVUR3pkNmtQYnNSVTQzQm4tMTBwd1E0SEZJc3Y5NExMQzlMQmp5bXJJWWM5emNCS1dPQQ?oc=5
   seen_at: '2026-11-07T01:57:16Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick/
+  seen_at: '2026-11-10T04:08:02Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership
+  seen_at: '2026-11-10T04:08:03Z'
   metrics: {}
   kind: news
 ---

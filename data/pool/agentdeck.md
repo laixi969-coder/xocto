@@ -21,17 +21,17 @@ canonical_url: https://github.com/jakeparkcolde/agentdeck
 summary: Turn an Ulanzi D200 into a desk dashboard for AI coding agents, LLM quotas and Mac health. No
   vendor app, no firmware changes.
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jakeparkcolde/agentdeck
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 42
-    forks: 16
+    stars: 43
+    forks: 17
     open_issues: 0
   kind: product
 ---

@@ -1,0 +1,18 @@
+- id: ev-f57b79fbe7ef9eb1
+  project_slug: nvidia-nemotron-35-super-vl-is-now-available-in-amazon-sagem
+  url: https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart/
+  title: NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart
+  published_at: '2026-11-09T20:01:20Z'
+  collected_at: '2026-11-10T04:08:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Today, we’re announcing that NVIDIA Nemotron 3.5 Super VL is available in Amazon SageMaker JumpStart.
+    You can deploy it with a few steps in SageMaker Studio or with a few lines of the SageMaker Python
+    SDK. Super VL is the vision-language model (VLM) in the NVIDIA Nemotron 3.5 family. It accepts images,
+    video, and text as input and generates text. The model pairs a 120B-parameter hybrid Mixture-of-Experts
+    (MoE) language backbone with 12B active parameters and a C-RADIO vision encoder. It supports context
+    lengths of up to 1 million tokens and includes a built-in Multi-Token Prediction (MTP) head that supports
+    speculative decoding. You can configure reasoning per request. NVIDIA built Super VL for document
+    intelligence, GUI understanding for computer-use agents, video question answering, and multimodal
+    agentic applications. JumpStart offers two variants: NVFP4, quantized from BF16 with quantization-aware
+    distillation for optimized inference, and the BF16 full-precision reference weights.'

@@ -22,17 +22,17 @@ summary: 'AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier an
   system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team
   testing.'
 first_seen: '2026-10-22T00:42:25Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Alejandros17487/ai-jailbreaks
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 559
-    forks: 112
+    stars: 428
+    forks: 93
     open_issues: 3
   kind: product
 ---

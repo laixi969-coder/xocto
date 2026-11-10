@@ -21,16 +21,16 @@ canonical_url: https://github.com/ngocanhnckh/renderlint
 summary: 'Lint the rendered UI: catches overflowing text, low contrast, overlaps, broken responsive layouts,
   emoji icons and more in any web framework. Built for AI coding agents.'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ngocanhnckh/renderlint
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 265
+    stars: 311
     forks: 56
     open_issues: 1
   kind: product

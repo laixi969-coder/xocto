@@ -20,7 +20,7 @@ url: https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-
 canonical_url: https://stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget
 summary: Apple capped engineers at a $200 daily AI budget
 first_seen: '2026-11-09T09:12:35Z'
-last_seen: '2026-11-09T09:12:35Z'
+last_seen: '2026-11-10T04:07:34Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 83
     comments: 87
+  kind: news
+- source: hackernews
+  url: https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget
+  seen_at: '2026-11-10T04:07:34Z'
+  metrics:
+    points: 113
+    comments: 121
   kind: news
 ---
 

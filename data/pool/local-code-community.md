@@ -21,16 +21,16 @@ canonical_url: https://getlocalcode.app
 summary: Source code of Local Code, a private AI agent for Mac, iPad and iPhone. Runs DeepSeek 4.1 on
   device, with Python, Node.js and a shell built into the app.
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://getlocalcode.app
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 126
+    stars: 128
     forks: 10
     open_issues: 3
   kind: product

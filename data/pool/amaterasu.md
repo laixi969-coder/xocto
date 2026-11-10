@@ -20,16 +20,16 @@ url: https://github.com/verycoolapps/AMATERASU
 canonical_url: https://github.com/verycoolapps/AMATERASU
 summary: '☀️ Universal AI Super-Skill: Token-Efficient, Security-First, World-Class Output'
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/verycoolapps/AMATERASU
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 73
+    stars: 74
     forks: 10
     open_issues: 0
   kind: product

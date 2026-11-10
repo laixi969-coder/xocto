@@ -1,0 +1,41 @@
+---
+slug: openssf-welcomes-new-members-and-expands-ai-security-resourc
+name: OpenSSF Welcomes New Members and Expands AI Security Resources
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPVTYzVG5XTV9KVzZEVUdTWGt2QktfUWUyeGVwZHRuSTVRaFRCOEd3eENDLXBpVjBxT0VyXzh6NmhmRXdtSThvXzF3bjlDcVd4YzVYN0NTdzB1bnZUTjNGTjM4dXl3MHM1VDNneTk3OEdPcXZyNnBJVk5Db2NIa1NBeW5uNEdYamhjWUl6WUd0bGctUG55V2pVendkU0U5WWdZdWtoeXhWRXNDU29hM2ZjVll30gGyAUFVX3lxTE9VNjNUbldNX0pXNkRVR1NYa3ZCS19RZTJ4ZXBkdG5JNVFoVEI4R3d4Q0MtcGlWMHFPRXJfOHo2aGZFd21JOG9fMXduOUNxV3hjNVg3Q1N3MHVudlROM0ZOMzh1eXcwczVUM2d5OTc4R09xdnI2cElWTkNvY0hrU0F5bm40R1hqaGNZSXpZR3RsZy1QbnlXalV6d2RTRTlZZ1l1a2h5eFZFc0NTb2EzZmNWWXc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPVTYzVG5XTV9KVzZEVUdTWGt2QktfUWUyeGVwZHRuSTVRaFRCOEd3eENDLXBpVjBxT0VyXzh6NmhmRXdtSThvXzF3bjlDcVd4YzVYN0NTdzB1bnZUTjNGTjM4dXl3MHM1VDNneTk3OEdPcXZyNnBJVk5Db2NIa1NBeW5uNEdYamhjWUl6WUd0bGctUG55V2pVendkU0U5WWdZdWtoeXhWRXNDU29hM2ZjVll30gGyAUFVX3lxTE9VNjNUbldNX0pXNkRVR1NYa3ZCS19RZTJ4ZXBkdG5JNVFoVEI4R3d4Q0MtcGlWMHFPRXJfOHo2aGZFd21JOG9fMXduOUNxV3hjNVg3Q1N3MHVudlROM0ZOMzh1eXcwczVUM2d5OTc4R09xdnI2cElWTkNvY0hrU0F5bm40R1hqaGNZSXpZR3RsZy1QbnlXalV6d2RTRTlZZ1l1a2h5eFZFc0NTb2EzZmNWWXc?oc=5
+summary: OpenSSF Welcomes New Members and Expands AI Security Resources Linux Foundation
+first_seen: '2026-11-10T04:08:13Z'
+last_seen: '2026-11-10T04:08:13Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPVTYzVG5XTV9KVzZEVUdTWGt2QktfUWUyeGVwZHRuSTVRaFRCOEd3eENDLXBpVjBxT0VyXzh6NmhmRXdtSThvXzF3bjlDcVd4YzVYN0NTdzB1bnZUTjNGTjM4dXl3MHM1VDNneTk3OEdPcXZyNnBJVk5Db2NIa1NBeW5uNEdYamhjWUl6WUd0bGctUG55V2pVendkU0U5WWdZdWtoeXhWRXNDU29hM2ZjVll30gGyAUFVX3lxTE9VNjNUbldNX0pXNkRVR1NYa3ZCS19RZTJ4ZXBkdG5JNVFoVEI4R3d4Q0MtcGlWMHFPRXJfOHo2aGZFd21JOG9fMXduOUNxV3hjNVg3Q1N3MHVudlROM0ZOMzh1eXcwczVUM2d5OTc4R09xdnI2cElWTkNvY0hrU0F5bm40R1hqaGNZSXpZR3RsZy1QbnlXalV6d2RTRTlZZ1l1a2h5eFZFc0NTb2EzZmNWWXc?oc=5
+  seen_at: '2026-11-10T04:08:13Z'
+  metrics: {}
+  kind: news
+---
+
+# OpenSSF Welcomes New Members and Expands AI Security Resources
+
+OpenSSF Welcomes New Members and Expands AI Security Resources Linux Foundation
+
+## 笔记
+
+

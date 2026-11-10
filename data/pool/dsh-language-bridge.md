@@ -21,17 +21,17 @@ canonical_url: https://github.com/tonyzdev/dsh-language-bridge
 summary: 'DeepSeek Harness plugin: per-model working languages, with DeepSeek translating prompts and
   replies'
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tonyzdev/dsh-language-bridge
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 45
-    forks: 8
+    stars: 50
+    forks: 10
     open_issues: 0
   kind: product
 ---

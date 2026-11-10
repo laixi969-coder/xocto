@@ -21,7 +21,7 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-11-05T02:30:06Z'
+last_seen: '2026-11-10T04:08:03Z'
 status: pending_filter
 sources:
 - hackernews
@@ -213,6 +213,11 @@ sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Nov/4/datasette-apps/
   seen_at: '2026-11-05T02:30:06Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/
+  seen_at: '2026-11-10T04:08:03Z'
   metrics: {}
   kind: news
 ---

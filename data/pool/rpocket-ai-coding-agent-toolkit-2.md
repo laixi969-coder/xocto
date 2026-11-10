@@ -22,16 +22,16 @@ summary: A powerful all-in-one AI Coding Agent toolkit for Claude Code, OpenAI C
   in just a few clicks with a simple setup designed for effortless installation, flexible workflows, and
   smarter AI-powered development across any project.
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AcrossCryrepo/rpocket-AI-Coding-Agent-Toolkit
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 65
+    stars: 56
     forks: 0
     open_issues: 0
   kind: product

@@ -20,17 +20,17 @@ url: https://github.com/jamesalmeida/agent-honeypot
 canonical_url: https://github.com/jamesalmeida/agent-honeypot
 summary: A honeypot and guestbook for AI agents that land on a machine they weren't invited to
 first_seen: '2026-10-28T01:22:33Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jamesalmeida/agent-honeypot
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
     stars: 64
-    forks: 8
+    forks: 9
     open_issues: 1
   kind: product
 ---

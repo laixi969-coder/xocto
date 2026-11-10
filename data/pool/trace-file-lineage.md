@@ -22,7 +22,7 @@ canonical_url: https://pypi.org/project/trace-file-lineage
 summary: Find which script, notebook, data, command, or AI agent produced a file — locally, with evidence
   and honest uncertainty.
 first_seen: '2026-07-29T22:05:47Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: rejected
 sources:
 - github
@@ -67,9 +67,9 @@ sightings:
   kind: product
 - source: github
   url: https://pypi.org/project/mnemos-continuity/
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 146
+    stars: 150
     forks: 21
     open_issues: 8
   kind: product

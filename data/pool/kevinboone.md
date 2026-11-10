@@ -20,17 +20,17 @@ url: https://kevinboone.me/cpmzork.html
 canonical_url: https://kevinboone.me/cpmzork.html
 summary: Playing Zork 1 on a CP/M emulator on Linux (2021)
 first_seen: '2026-11-09T01:44:43Z'
-last_seen: '2026-11-09T09:12:35Z'
+last_seen: '2026-11-10T04:07:34Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://kevinboone.me/cpmzork.html
-  seen_at: '2026-11-09T09:12:35Z'
+  seen_at: '2026-11-10T04:07:34Z'
   metrics:
-    points: 39
-    comments: 14
+    points: 43
+    comments: 17
   kind: news
 ---
 

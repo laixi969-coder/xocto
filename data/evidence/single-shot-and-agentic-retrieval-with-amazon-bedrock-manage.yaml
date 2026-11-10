@@ -1,0 +1,18 @@
+- id: ev-acb2d43386bc4afd
+  project_slug: single-shot-and-agentic-retrieval-with-amazon-bedrock-manage
+  url: https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/
+  title: Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base
+  published_at: '2026-11-09T20:13:18Z'
+  collected_at: '2026-11-10T04:08:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: A banking operations employee starts the morning by asking an internal AI assistant which documents
+    are needed to open a business account. The answer is in a single checklist. A few hours later, the
+    same employee asks how those requirements differ across sole proprietorships, LLCs, and partnerships
+    with multiple owners. That answer is spread across several policy guides. One assistant has to handle
+    both questions, quickly and cheaply for the first and thoroughly for the second. Applications need
+    a way to match retrieval effort to each request without building separate systems for simple and complex
+    questions. Amazon Bedrock Managed Knowledge Base now supports single-shot Retrieval Augmented Generation
+    (RAG) and retrieval-only requests through AgenticRetrieveStream . With single-shot RAG, the service
+    searches your knowledge bases once and uses a foundation model (FM) to generate an answer from the
+    passages it finds. With retrieval-only requests, the service returns the matching passages

@@ -21,16 +21,16 @@ canonical_url: https://github.com/nengong/download-anything
 summary: '面向 AI Agent 与终端的全能下载与归档工具 / All-in-one CLI & Skill to download anything: videos, docs, cloud
   drives, music, papers & books'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nengong/download-anything#readme
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 122
+    stars: 185
     forks: 2
     open_issues: 0
   kind: product

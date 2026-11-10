@@ -20,18 +20,18 @@ url: https://github.com/ccch1mneyyy/dsh-Go
 canonical_url: https://github.com/ccch1mneyyy/dsh-Go
 summary: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ccch1mneyyy/dsh-Go
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 16889
-    forks: 725
-    open_issues: 413
+    stars: 17781
+    forks: 768
+    open_issues: 474
   kind: product
 ---
 

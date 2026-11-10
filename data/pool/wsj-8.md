@@ -20,17 +20,17 @@ url: https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-dr
 canonical_url: https://wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
 summary: Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It
 first_seen: '2026-11-09T01:44:43Z'
-last_seen: '2026-11-09T09:12:35Z'
+last_seen: '2026-11-10T04:07:34Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c
-  seen_at: '2026-11-09T09:12:35Z'
+  seen_at: '2026-11-10T04:07:34Z'
   metrics:
-    points: 95
-    comments: 121
+    points: 98
+    comments: 126
   kind: news
 ---
 

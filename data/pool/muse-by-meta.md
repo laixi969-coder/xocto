@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-09T01:45:22Z'
+last_seen: '2026-11-10T04:08:13Z'
 status: pending_filter
 sources:
 - producthunt
@@ -488,6 +488,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMixwFBVV95cUxPUDlScnQwTlJOU1pRM0lpck9yOEpVRDg2R0JCQTVOTC1ETlpmVXNyYm9JM3p0Y3BwWDFrbnZmenBKVnF0MEhsWk9JYm15MXZaQmFzLU5yWEtmY1BJNFJkbUJUZzNXVEtZR2FBVmZUVTZFdjVJZGNXb2NqSDMtVENDYkU4dXFSNjdVNDNpX1V5XzVOR0ZzaUJnaTNjWXBsOTZNMGdPZWdEbWVSLXVLRXAxTllPbnUxV3hsaE83R2otWHlWUEhudHBN?oc=5
   seen_at: '2026-11-09T01:45:22Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/
+  seen_at: '2026-11-10T04:08:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibkFVX3lxTFBiWTY1TFVjdUJUNzlSQkw3RTZ2eV9FUzVDQ2lEUHRiLVNLdjloZ2pfcGpYeWZPWnlYX0dCNTlmbTNGX2tBbE1kenA2dnhkWTRxbXhxVEZDdU9VLTNDS0NUcmpwZmdXYW5ybXlEUWFR?oc=5
+  seen_at: '2026-11-10T04:08:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPd1NkUDZ5SGFpUTZTM01yMmRLOTFLeDByYm9yNDZDUmJqM2drUXNNSlNhZG5ta2ZYMW1yYUd3el9lSUczQnVjVm1yNzNHd0NwZWZob3VmYnV2OEpxczdlc2M2VFdxSzkycEhkSXhQaFIwckFmQjBoNE5kcnpTWkF4VzlRb1pmdk9WNHZydTBtRTNPWG8?oc=5
+  seen_at: '2026-11-10T04:08:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOZnRReHhZaXNCVl9FcWZaZGo2V2RGVW1rZ3pRTkF2Vkc1YUhsZ3ZmV0JOZnFpSnM0elItQlpQcTN0eEh6bGM3TldQU3Y2TzVWUktiNDlfcVpWSVlFbndDRWNBSjV0X0Q0S3JKQk5Lc3RQWWhGZkJuOXVkMkt6bEl0RFJCY2Z0ZTl4QUl1Y2FUdmlEUFRETUE1czlaRGw?oc=5
+  seen_at: '2026-11-10T04:08:13Z'
   metrics: {}
   kind: news
 ---

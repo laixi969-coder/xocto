@@ -20,7 +20,7 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-11-03T03:28:53Z'
+last_seen: '2026-11-10T04:07:34Z'
 status: pending_filter
 sources:
 - hackernews
@@ -135,6 +135,13 @@ sightings:
   metrics:
     points: 66
     comments: 16
+  kind: news
+- source: hackernews
+  url: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/
+  seen_at: '2026-11-10T04:07:34Z'
+  metrics:
+    points: 226
+    comments: 67
   kind: news
 ---
 

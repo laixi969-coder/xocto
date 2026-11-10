@@ -21,16 +21,16 @@ canonical_url: https://github.com/MerekellebayCelestial/mimiga-ai-bot-resp
 summary: 🐿️ Интерактивный AI Telegram-бот на Python (DeepSeek API, RAG Web Search, PostgreSQL) со встроенным
   набором Smoke QA автотестов
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MerekellebayCelestial/mimiga-ai-bot-resp
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 67
+    stars: 57
     forks: 0
     open_issues: 0
   kind: product

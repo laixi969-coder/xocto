@@ -20,17 +20,17 @@ url: https://github.com/saipradeep77964/jarvis-ai-assistant
 canonical_url: https://github.com/saipradeep77964/jarvis-ai-assistant
 summary: Free AI Personal Assistant with Voice Control, Stock Market Analysis & Holographic HUD
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/saipradeep77964/jarvis-ai-assistant
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 44
-    forks: 15
+    stars: 45
+    forks: 16
     open_issues: 0
   kind: product
 ---

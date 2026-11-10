@@ -20,17 +20,17 @@ url: https://plannotator.ai/inbox/
 canonical_url: https://plannotator.ai/inbox
 summary: Email-like interface to review, decide, and annotate agent work
 first_seen: '2026-11-09T01:44:43Z'
-last_seen: '2026-11-09T01:44:43Z'
+last_seen: '2026-11-10T04:07:34Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://plannotator.ai/inbox/
-  seen_at: '2026-11-09T01:44:43Z'
+  seen_at: '2026-11-10T04:07:34Z'
   metrics:
     points: 7
-    comments: 1
+    comments: 0
   kind: product
 ---
 

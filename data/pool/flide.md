@@ -20,17 +20,17 @@ url: https://github.com/OmniJev/Flide
 canonical_url: https://github.com/OmniJev/Flide
 summary: Make Jev-like decision models up to 9.5x faster
 first_seen: '2026-11-09T09:12:35Z'
-last_seen: '2026-11-09T09:12:35Z'
+last_seen: '2026-11-10T04:07:34Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/OmniJev/Flide
-  seen_at: '2026-11-09T09:12:35Z'
+  seen_at: '2026-11-10T04:07:34Z'
   metrics:
-    points: 21
-    comments: 4
+    points: 121
+    comments: 29
   kind: product
 ---
 

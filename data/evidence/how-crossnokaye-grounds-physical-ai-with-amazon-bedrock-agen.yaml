@@ -1,0 +1,18 @@
+- id: ev-2d492207a2457891
+  project_slug: how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agen
+  url: https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/
+  title: How CrossnoKaye grounds physical AI with Amazon Bedrock AgentCore
+  published_at: '2026-11-09T18:55:43Z'
+  collected_at: '2026-11-10T04:08:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Industrial operations present AI challenges that don’t show up in typical enterprise software.
+    In most facilities, plant data and control logic are spread across separate systems from different
+    vendors: programmable logic controllers (PLCs) and distributed control systems (DCS) run the equipment
+    logic, historians record time-series tags under site-specific naming schemes, supervisory control
+    and data acquisition (SCADA) systems drive operator screens, and standalone optimization tools or
+    alarm loggers sit on the side. Bolting an external AI agent onto that stack rarely works well in practice.
+    Each system uses its own naming conventions. The logic that actually governs how equipment behaves
+    (the control sequences, state machines, and safety interlocks) is locked inside proprietary controller
+    code that an external tool can’t inspect. Giving a bolt-on agent access across multiple operational
+    technology (OT) systems also means distributing credentials across the plant network. CrossnoKaye'

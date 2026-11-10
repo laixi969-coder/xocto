@@ -20,16 +20,16 @@ url: https://github.com/yang0/dsh-handraw-style
 canonical_url: https://github.com/yang0/dsh-handraw-style
 summary: DSH 图像创作工作台插件：单张/套图/封面/知识卡，共享画风、配色、版式、人物与姿势素材
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yang0/dsh-handraw-style
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 70
+    stars: 72
     forks: 18
     open_issues: 0
   kind: product

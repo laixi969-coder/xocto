@@ -21,16 +21,16 @@ canonical_url: https://github.com/A-new/aidbg
 summary: AI-first Windows x86/x64 命令行调试器 | JSONL output, MCP server, anti-anti-debug (ScyllaHide-style),
   snapshot rollback, IAT rebuild, PDB types
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-09T01:44:47Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/A-new/aidbg
-  seen_at: '2026-11-09T01:44:47Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 56
+    stars: 57
     forks: 12
     open_issues: 1
   kind: product

@@ -22,18 +22,18 @@ summary: A HUD for Claude Code, Codex and 25 more coding agents. Know your quota
   at a glance, answer requests and jump back in one click. On Mac, Windows and Linux, your phone and your
   watch.
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://agenthud.app
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 200
-    forks: 31
-    open_issues: 6
+    stars: 263
+    forks: 42
+    open_issues: 7
   kind: product
 ---
 

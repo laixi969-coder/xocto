@@ -23,17 +23,17 @@ summary: '🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and
   key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands
   and use your computer. Pay per use.'
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://anymodel.bot/
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 2741
-    forks: 45
+    stars: 2828
+    forks: 46
     open_issues: 1
   kind: product
 ---

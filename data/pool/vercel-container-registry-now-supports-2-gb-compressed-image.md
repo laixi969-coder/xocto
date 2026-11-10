@@ -20,7 +20,7 @@ url: https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-co
 canonical_url: https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new
 summary: ''
 first_seen: '2026-10-29T01:48:58Z'
-last_seen: '2026-10-29T01:48:58Z'
+last_seen: '2026-11-10T04:08:02Z'
 status: pending_filter
 sources:
 - officialfeeds
@@ -28,6 +28,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new
   seen_at: '2026-10-29T01:48:58Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers
+  seen_at: '2026-11-10T04:08:02Z'
   metrics: {}
   kind: news
 ---

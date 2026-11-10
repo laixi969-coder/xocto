@@ -73,3 +73,19 @@
     \ 打开。旧 chat 抽屉里的 shell 会在升级时关闭。\r\n\r\n### 2. 新建 chat 和 terminal 用同一个启动器\r\n\r\n之前从不同地方新建会话，操作上有些不一致。这次把\
     \ ⌘N 、侧栏、项目和空 pane 的入口统一了，都会在当前位置打开同一个启动器，可以搜索 agent 和 role ，也会显示最近用过的四个，按 1–4 就能直接启动，沿用保存的配置。Terminal\
     \ 和 Mission 的入口也放在下面。\r\n\r\n![新的启动器：搜索 agent"
+- id: ev-80c66e17ec3817b5
+  project_slug: raw
+  url: https://www.v2ex.com/t/1255790
+  title: '[开源] 微子中枢 v0.6.0：一键部署面板 + 智能访问路由'
+  published_at: '2026-11-10T02:43:25Z'
+  collected_at: '2026-11-10T04:07:32Z'
+  source_kind: product
+  tier: independent
+  fact: "微子·中枢是一键部署面板和智能访问路由，你在自己电脑上部署的应用，出门用任何客户端都能访问，另外也支持零客户端 Web 分享，你发个链接给同事，他们用浏览器也能访问，不用买服务器和域名。所有的应用都经过安全的\
+    \ 8443 服务端口访问，由微子中枢统一控制访问权限，避免安全问题。\r\n\r\n![微子·中枢]( https://raw.githubusercontent.com/iffiX/neutrino/a06965b2871fa05a9f981b0091cb310b0dbc5e67/images/promo/0.6.0/post.png)\r\
+    \n\r\n## 链接\r\n\r\n- GitHub： https://github.com/iffiX/neutrino\r\n- 主站和安装： https://neutrinohub.net/\r\
+    \n- 在线演示： https://neutrinohub.net/demo/\r\n\r\n好用的话请务必给我个 Star ！\r\n\r\n## 一键部署\r\n\r\n- 系统访问：远程桌面、传文件、终端、SSH\r\
+    \n- 写代码：VS Code 、code-server 、Gitea\r\n- AI 工作流：Claude Code 、Codex 、CloudCLI 、Codeg 、Hermes WebUI\r\
+    \n- 写论文：Ayakaleaf\r\n- 记笔记：思源笔记\r\n- 跑容器：Windows 、macOS 、Linux 都能跑\r\n\r\n![一键部署]( https://raw.githubusercontent.com/iffiX/neutrino/b43772397d260a6348d03fa337fb3305c9f93838/images/promo/0.6.0/deploy.png)\r\
+    \n\r\n## 到处使用\r\n\r\n- 6 种连接方式：NetBird 、EasyTier 、SSH 中继、直连、SakuraFrp 、OpenFrp\r\n- 智能路由：客户端自动用最快的一条\r\
+    \n- 客户端：Windows 、macOS 、Linux 、Android 、iOS\r\n\r\n![到处使用]( https://raw.githubusercontent.com/iffiX/neutrino/b43772397d260a6348d03fa337fb3305c9f93838/images/promo/0"

@@ -21,16 +21,16 @@ canonical_url: https://github.com/UponNuclearastro/claude-resocket-plugin
 summary: 'Uiprobe plugin for Claude Code: a check Claude can run against your Figma design. It compares
   the built page with the frame, value by value, and Claude fixes the differences.'
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/UponNuclearastro/claude-resocket-plugin
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 68
+    stars: 59
     forks: 0
     open_issues: 0
   kind: product

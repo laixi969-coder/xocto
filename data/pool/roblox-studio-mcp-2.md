@@ -21,17 +21,17 @@ canonical_url: https://github.com/Nanoutrolley/roblox-studio-mcp
 summary: Model Context Protocol (MCP) server for Roblox Studio. Connect AI assistants (Claude, Cursor,
   Cline) to read object trees, automate Lua scripting, and run playtests safely. Open-source AI bridge.
 first_seen: '2026-11-09T09:12:39Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-10T04:07:38Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Nanoutrolley/roblox-studio-mcp
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-10T04:07:38Z'
   metrics:
-    stars: 80
-    forks: 0
+    stars: 281
+    forks: 215
     open_issues: 0
   kind: product
 ---

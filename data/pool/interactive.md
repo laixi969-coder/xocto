@@ -20,7 +20,7 @@ url: https://modelmap.cc
 canonical_url: https://modelmap.cc
 summary: animated architecture of any HuggingFace models
 first_seen: '2026-08-18T23:57:36Z'
-last_seen: '2026-11-06T02:27:19Z'
+last_seen: '2026-11-10T04:08:13Z'
 status: pending_filter
 sources:
 - hackernews
@@ -72,6 +72,11 @@ sightings:
 - source: officialfeeds
   url: https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation
   seen_at: '2026-11-06T02:27:19Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ3BPZGdEOG5QQnhOdlFPS2VmcmlscGx3d091RU81Qm5nRzRFWTd2N2RuU1BUVTQwclBRTjJhZi1fWkhfSEpzVHg5dW1PQ3NNMklEa2hQaXB5RC1kdi01Y0pnc1cxNlFwX0JTR2htOHJtWjI4aVhCWVFoTUVJYkIzSUc0M2FDX3ZkM2d1My1oTFFPRUdDOVlJWnRTeXhXa3dqNm9pY3ZucjFwVGFXbGJpZjdmOEk5Zw?oc=5
+  seen_at: '2026-11-10T04:08:13Z'
   metrics: {}
   kind: news
 ---

@@ -20,17 +20,17 @@ url: https://sergeykuhne.com/blog/fighting-ai-brain-fry
 canonical_url: https://sergeykuhne.com/blog/fighting-ai-brain-fry
 summary: How I Fight AI Brain Fry
 first_seen: '2026-11-09T01:44:43Z'
-last_seen: '2026-11-09T09:12:35Z'
+last_seen: '2026-11-10T04:07:34Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://sergeykuhne.com/blog/fighting-ai-brain-fry
-  seen_at: '2026-11-09T09:12:35Z'
+  seen_at: '2026-11-10T04:07:34Z'
   metrics:
-    points: 242
-    comments: 170
+    points: 303
+    comments: 210
   kind: news
 ---
 
