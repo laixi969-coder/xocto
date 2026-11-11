@@ -20,7 +20,7 @@ url: https://news.ycombinator.lol
 canonical_url: https://news.ycombinator.lol
 summary: Pointless but mostly-exact clone of Hacker News
 first_seen: '2026-10-07T18:05:35Z'
-last_seen: '2026-11-09T01:45:22Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
@@ -104,6 +104,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMi9wFBVV95cUxPSzlic2RfZS14ZDgzOUI4VncxSDJSRHFHUEkyOUFqLVBZSmI5SVBJUWZaWHBDTU1FRDVyNnM1Q3VPOHJrcFZmdnJMcXNBbVJfeVdLT1R2YUdyMUVxS2ppRGRRYzRTRmhsZWUyWnMtdERpRXNsdVN5RzNLS2JkNVo5T2cwNzgtNlFHYTV0MHlzWUlJNThMMWZLM1AwejcwRXBkWmhSMDRhUnAxN3lLM3RJQU5iZnZ2RVJWdmlMbWhMaVhuX2NoeS03VEFTTHJfcmVONTlyR2YzSlozd1hkcnMzcXJ4U3oya0U3aV9PWkgzdDMtTW9HNkFR?oc=5
   seen_at: '2026-11-09T01:45:22Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://news.columbia.edu/news/research-finds-outright-grants-cash-are-surprisingly-effective-form-aid-poor
+  seen_at: '2026-11-11T01:56:51Z'
+  metrics:
+    points: 42
+    comments: 9
   kind: news
 ---
 

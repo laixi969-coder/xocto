@@ -21,7 +21,7 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-11-10T04:08:03Z'
+last_seen: '2026-11-11T01:57:31Z'
 status: pending_filter
 sources:
 - hackernews
@@ -218,6 +218,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/
   seen_at: '2026-11-10T04:08:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zU1BYWXFWV1pKeTlLdjBLc0k0OUp1eV81ZWdieW4yZXdZMm1kV040YlhOWFZmb2xfZzNLWFpScTlFeXliMnhfTEZnV1A1X24yMFhQMXh5VjBFZjA?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
   metrics: {}
   kind: news
 ---

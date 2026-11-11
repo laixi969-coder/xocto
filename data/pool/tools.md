@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-10T04:08:03Z'
+last_seen: '2026-11-11T01:57:31Z'
 status: pending_filter
 sources:
 - hackernews
@@ -305,6 +305,31 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership
   seen_at: '2026-11-10T04:08:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/
+  seen_at: '2026-11-11T01:57:21Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizwFBVV95cUxOT0dma3FBeTd0REpXNlRVZGxDUlJVOWxWbTB5c2I3dzRxdHl3U2ZqVThGWi1sQWdia0RuUEhGc3VHYkVMazh3M0dJMlBSU0w0aXVWYVpYSlRTaXoyeVo4TTNZb0JBX3VsdS1FWTNqX2xPWTVtOHI2WWpwX2MtQV93ZU0zNjRHNHdPVG1zWkY3czFnRXhRLUdleXBWb0xCREhUWG9Lc1JFNTRpYjBvMkZQZTNXWmdRY2tyT2tBV0xrZHVBOFIyb1dFLTZ1RTBPZlk?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGUDE4VGtTTDZZblhnYVdjSXZPVU5oZkRkbVVuTzdzQUYycGV0a0czMTFaT0NoTnRURzE1SHgzM01xZ3FvTy04alhJTm5BbDFtYUFUQ1h4QU95alpHNi1FcklkY0thS2RK?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYXgya0dzQ1d5ZVo1M01ZempYRy0wQzlEc3pHVnBBQ1lOU2RuV2J2M1dyN3I2UFI4RHJ5aVB3S1JrbnNOQU9xSmVHazEyTXlrTjBpUXktcC1fWEd4ZFBUeFluRTc1UzVHYzR5Y3NBaGJiZ1VBeWlRNThDb2tFSEw5T3ZRZ2w1WVl4?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX01fVnBXcE9tMF9HN05FbTJJNHVSTU5SQkdHOU00N0JLbFAyMUdtelhYU3lyYTNxZFZnT08zZjgxcGZ1LTRTb3pZQUhGS0N5TzhhUzBYU0dvVWl5NDVtWDNCaDZUNXVCT0JCYm1TQUtrYlJqM2hkRGpCcENISXFlbVFmRzVmRm11V09xMnFOeWJaQlpNRFNVaV9rRjlycnd5d3ZoSlZhYTU0dDliMGZyNS1kM0VneC1FWlFSNTI2NFBTeGdmNFluVHdfQWdmX0FaSTZFYXhSYmlobWhYVjZMX1ZURDgzSTN5bkw3b2U5NTJ2UlJlVnlleVBMWdIBgAJBVV95cUxNOG5tNG9qVjRLbVpoUmJmX2l5WFEyOXBHbVh6djhRcGlSNHdMcGVPT1NNazFjZS1NN1hDVkFZSXUtRE9kZXhfeXRwdjhVQWFINXozMk9LN1oyTWNzbmVtTEZxM3RMbmo0ZEZMNDJYR0hjYU1ra2ZpNDYtR3p5a1U1NUFBWExLMGNzcW9STTNQMldKWTBuNFZFUEIxbXpiRWVQVk0xVG5MNUxEZVJRSGE2VzdKOVhkNm81WGtJaDNfbU11RVVybXByT3UyOTZfYlRuc0JrQ0FmTW5qWEszUXlDaFd6ZEsxZVBrbllZZXhqUWRKQmt6QjdLeUFDV0w3WWhC?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
   metrics: {}
   kind: news
 ---

@@ -1,0 +1,41 @@
+---
+slug: reddit-brings-community-opinions-into-ai-generated-product-r
+name: Reddit Brings Community Opinions Into AI-Generated Product Reviews
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNSjVlLUZ1bzJwSlF1SFAyQmFaUGszTkJxbW9OZWYtZDBSZmhJaVJZa2lwbHV6RTdwUWt0Wk5mVlFzUnJ6cDExNXZ2YUpNb0NsZkkyV2Z0dXJKYXp6Ync2M3JhQlBXdmQ1Y1VtQXVzOVhNUk9IWF83aUplcUJuLUc4YmhWS1lIX2VwYmJTZDJfTTdKU0wweDJIdVhOcWRBMUEzZ2tJR0ZkT2NFOUFLUk14UE5tY27SAbQBQVVfeXFMTUo1ZS1GdW8ycEpRdUhQMkJhWlBrM05CcW1vTmVmLWQwUmZoSWlSWWtpcGx1ekU3cFFrdFpOZlZRc1JyenAxMTV2dmFKTW9DbGZJMldmdHVySmF6emJ3NjNyYUJQV3ZkNWNVbUF1czlYTVJPSFhfN2lKZXFCbi1HOGJoVktZSF9lcGJiU2QyX003SlNMMHgySHVYTnFkQTFBM2drSUdGZE9jRTlBS1JNeFBObWNu?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNSjVlLUZ1bzJwSlF1SFAyQmFaUGszTkJxbW9OZWYtZDBSZmhJaVJZa2lwbHV6RTdwUWt0Wk5mVlFzUnJ6cDExNXZ2YUpNb0NsZkkyV2Z0dXJKYXp6Ync2M3JhQlBXdmQ1Y1VtQXVzOVhNUk9IWF83aUplcUJuLUc4YmhWS1lIX2VwYmJTZDJfTTdKU0wweDJIdVhOcWRBMUEzZ2tJR0ZkT2NFOUFLUk14UE5tY27SAbQBQVVfeXFMTUo1ZS1GdW8ycEpRdUhQMkJhWlBrM05CcW1vTmVmLWQwUmZoSWlSWWtpcGx1ekU3cFFrdFpOZlZRc1JyenAxMTV2dmFKTW9DbGZJMldmdHVySmF6emJ3NjNyYUJQV3ZkNWNVbUF1czlYTVJPSFhfN2lKZXFCbi1HOGJoVktZSF9lcGJiU2QyX003SlNMMHgySHVYTnFkQTFBM2drSUdGZE9jRTlBS1JNeFBObWNu?oc=5
+summary: Reddit Brings Community Opinions Into AI-Generated Product Reviews Analytics Insight
+first_seen: '2026-11-11T01:57:31Z'
+last_seen: '2026-11-11T01:57:31Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNSjVlLUZ1bzJwSlF1SFAyQmFaUGszTkJxbW9OZWYtZDBSZmhJaVJZa2lwbHV6RTdwUWt0Wk5mVlFzUnJ6cDExNXZ2YUpNb0NsZkkyV2Z0dXJKYXp6Ync2M3JhQlBXdmQ1Y1VtQXVzOVhNUk9IWF83aUplcUJuLUc4YmhWS1lIX2VwYmJTZDJfTTdKU0wweDJIdVhOcWRBMUEzZ2tJR0ZkT2NFOUFLUk14UE5tY27SAbQBQVVfeXFMTUo1ZS1GdW8ycEpRdUhQMkJhWlBrM05CcW1vTmVmLWQwUmZoSWlSWWtpcGx1ekU3cFFrdFpOZlZRc1JyenAxMTV2dmFKTW9DbGZJMldmdHVySmF6emJ3NjNyYUJQV3ZkNWNVbUF1czlYTVJPSFhfN2lKZXFCbi1HOGJoVktZSF9lcGJiU2QyX003SlNMMHgySHVYTnFkQTFBM2drSUdGZE9jRTlBS1JNeFBObWNu?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
+  metrics: {}
+  kind: news
+---
+
+# Reddit Brings Community Opinions Into AI-Generated Product Reviews
+
+Reddit Brings Community Opinions Into AI-Generated Product Reviews Analytics Insight
+
+## 笔记
+
+

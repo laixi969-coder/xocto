@@ -21,18 +21,18 @@ canonical_url: https://agentero.app
 summary: 给 DeepSeek Harness 用的科研文献库插件：搜论文、带出处、审批入库、把笔记线索交给同会话其他插件。Academic research library for DSH —
   search, cite, approve imports, hand off notes.
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://agentero.app
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 163
-    forks: 6
-    open_issues: 1
+    stars: 180
+    forks: 8
+    open_issues: 5
   kind: product
 ---
 

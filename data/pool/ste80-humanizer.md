@@ -20,17 +20,17 @@ url: https://github.com/Dodaios/ste80-humanizer
 canonical_url: https://github.com/Dodaios/ste80-humanizer
 summary: de-AI text by writing 80% of the way to ASD-STE100
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Dodaios/ste80-humanizer
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 67
-    comments: 21
+    points: 105
+    comments: 39
   kind: product
 ---
 

@@ -20,17 +20,17 @@ url: https://www.watched.earth
 canonical_url: https://watched.earth
 summary: Every satellite that passed over any place this week, and its photos
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.watched.earth
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 257
-    comments: 45
+    points: 456
+    comments: 81
   kind: product
 ---
 

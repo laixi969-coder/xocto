@@ -21,17 +21,17 @@ canonical_url: https://github.com/mokevnin/dev-quality-gates
 summary: 'An opinionated, curated list of tools for enforcing software development standards: one recommended
   tool per job, with limits.'
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mokevnin/dev-quality-gates
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 346
-    forks: 18
+    stars: 352
+    forks: 20
     open_issues: 0
   kind: product
 ---

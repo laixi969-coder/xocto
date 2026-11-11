@@ -20,17 +20,17 @@ url: https://someonewashere.app/
 canonical_url: https://someonewashere.app
 summary: Find out who used your Mac while you were away
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://someonewashere.app/
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 73
-    comments: 27
+    points: 113
+    comments: 42
   kind: product
 ---
 

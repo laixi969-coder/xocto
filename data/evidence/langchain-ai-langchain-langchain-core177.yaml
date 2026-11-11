@@ -1,0 +1,16 @@
+- id: ev-5aa0e76f078fa738
+  project_slug: langchain-ai-langchain-langchain-core177
+  url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7
+  title: 'langchain-ai/langchain: langchain-core==1.7.7'
+  published_at: '2026-11-10T04:08:27Z'
+  collected_at: '2026-11-11T01:56:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Changes since langchain-core==1.7.6
+
+
+    release(core): 1.7.7 (#41776)
+
+    fix(core): cap nesting depth in `load()` (#41742)
+
+    chore(deps): patch newer-python security lock resolutions (#41585)'

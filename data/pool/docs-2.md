@@ -20,7 +20,7 @@ url: https://docs.hypermass.io/docs/cli/
 canonical_url: https://docs.hypermass.io/docs/cli
 summary: Stream live open data in two commands
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-30T01:59:08Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
@@ -48,6 +48,13 @@ sightings:
   url: https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs
   seen_at: '2026-10-30T01:59:08Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://docs.modelplane.ai/guides/inference-guide
+  seen_at: '2026-11-11T01:56:51Z'
+  metrics:
+    points: 71
+    comments: 8
   kind: news
 ---
 

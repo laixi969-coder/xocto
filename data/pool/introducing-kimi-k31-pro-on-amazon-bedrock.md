@@ -1,0 +1,53 @@
+---
+slug: introducing-kimi-k31-pro-on-amazon-bedrock
+name: Introducing Kimi K3.1 Pro on Amazon Bedrock
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/
+canonical_url: https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock
+summary: Kimi K3.1 Pro Highspeed from Moonshot AI is now available on Amazon Bedrock . Part of Moonshot
+  AI’s new K3.1 series, it’s a post-trained version of Kimi K3 with the same 3T-class open-weight architecture
+  and 1-million-token context window, trained with substantially more post-training compute. According
+  to Moonshot AI, that extra training targets long-horizon agentic work and fewer factual errors. It also
+  improves professional tasks such as financial modeling and office documents, and coding for game engines,
+  3D scenes, and computer-aided design (CAD) scripts. Kimi K3.1 Pro Highspeed generates output tokens
+  at a higher rate and Moonshot AI reports 2–3 times the speed of Kimi K3.1 Pro. Kimi K3.1 Pro Highspeed
+  uses the same endpoint, APIs, and features as Kimi K3 on Amazon Bedrock. If you already build with Kimi
+  K3, you can try it by changing the model ID in your existing code. Kimi K3.1 Pro Highspeed supports
+  tool calling, structured output, configurable reasoning, image input, and streaming. You can adopt Kimi
+  K3.1 Pro Highspeed without changing your security posture. Your data is processed within the AWS data
+  boundary, isn’t shared with Moonshot AI, and isn’t used to train the model. Zero data retention is always
+  enabled for inference requests,
+first_seen: '2026-11-11T01:57:20Z'
+last_seen: '2026-11-11T01:57:20Z'
+status: pending_filter
+sources:
+- officialfeeds
+sightings:
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/
+  seen_at: '2026-11-11T01:57:20Z'
+  metrics: {}
+  kind: news
+---
+
+# Introducing Kimi K3.1 Pro on Amazon Bedrock
+
+Kimi K3.1 Pro Highspeed from Moonshot AI is now available on Amazon Bedrock . Part of Moonshot AI’s new K3.1 series, it’s a post-trained version of Kimi K3 with the same 3T-class open-weight architecture and 1-million-token context window, trained with substantially more post-training compute. According to Moonshot AI, that extra training targets long-horizon agentic work and fewer factual errors. It also improves professional tasks such as financial modeling and office documents, and coding for game engines, 3D scenes, and computer-aided design (CAD) scripts. Kimi K3.1 Pro Highspeed generates output tokens at a higher rate and Moonshot AI reports 2–3 times the speed of Kimi K3.1 Pro. Kimi K3.1 Pro Highspeed uses the same endpoint, APIs, and features as Kimi K3 on Amazon Bedrock. If you already build with Kimi K3, you can try it by changing the model ID in your existing code. Kimi K3.1 Pro Highspeed supports tool calling, structured output, configurable reasoning, image input, and streaming. You can adopt Kimi K3.1 Pro Highspeed without changing your security posture. Your data is processed within the AWS data boundary, isn’t shared with Moonshot AI, and isn’t used to train the model. Zero data retention is always enabled for inference requests,
+
+## 笔记
+
+

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE1nT0w1cWFkc3dVWW83ZTVfdX
 canonical_url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE1nT0w1cWFkc3dVWW83ZTVfdXRqQ1R3dEx2LVBIclN0X1NIMWRfSUZsTUQ3SmozcnFPOUdJZUQtUXdLYWoxcVE?oc=5
 summary: 万亿债务撞上高息再融资！AI基建即将面临“利率冲击波”？ 财联社电报
 first_seen: '2026-11-10T04:08:13Z'
-last_seen: '2026-11-10T04:08:13Z'
+last_seen: '2026-11-11T01:57:31Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE1nT0w1cWFkc3dVWW83ZTVfdXRqQ1R3dEx2LVBIclN0X1NIMWRfSUZsTUQ3SmozcnFPOUdJZUQtUXdLYWoxcVE?oc=5
   seen_at: '2026-11-10T04:08:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QaVliZEM1RXVENUJLc2lPT3pZVXpIMHlWMnhKM2xnem8xamE5NU1STEtuaUdPVXBZVDB2WlN5MURFNlJKYWhkQg?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
   metrics: {}
   kind: news
 ---

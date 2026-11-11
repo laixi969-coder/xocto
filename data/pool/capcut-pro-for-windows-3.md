@@ -1,0 +1,45 @@
+---
+slug: capcut-pro-for-windows-3
+name: Capcut-Pro-For-Windows
+builder: Arafilaksmana
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: open_source
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: true
+url: https://github.com/Arafilaksmana/Capcut-Pro-For-Windows
+canonical_url: https://github.com/Arafilaksmana/Capcut-Pro-For-Windows
+summary: CapCut Pro for Windows — free professional video editor with AI auto captions, effects, keyframes,
+  transitions and high-quality 4K export for content creators.
+first_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-11T01:56:55Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://github.com/Arafilaksmana/Capcut-Pro-For-Windows
+  seen_at: '2026-11-11T01:56:55Z'
+  metrics:
+    stars: 94
+    forks: 0
+    open_issues: 0
+  kind: product
+---
+
+# Capcut-Pro-For-Windows
+
+CapCut Pro for Windows — free professional video editor with AI auto captions, effects, keyframes, transitions and high-quality 4K export for content creators.
+
+## 笔记
+
+

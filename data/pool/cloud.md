@@ -23,7 +23,7 @@ summary: "这个网站注册就送 15 美元额度，用来注册 Muse 只用几
   \ 也可以直接地址栏输入这个路径:  https://cloud.browser-use.com/browser\r\n- 点击右上角 “Launch & Open” ,   这时候会弹出一个浏览器窗口,\
   \ 地址栏输入 http://muse.ai ,  \r\n- 按正常流程注册即可\r\n- 结束后记得右上角关闭这个实例，确保安全"
 first_seen: '2026-09-25T04:43:34Z'
-last_seen: '2026-11-09T09:13:10Z'
+last_seen: '2026-11-11T01:57:31Z'
 status: pending_filter
 sources:
 - v2ex
@@ -245,6 +245,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMingFBVV95cUxQYUYzamxVTlRmV0p1cmoxSHg0YzVfUWRuSG1zNWhtYkw4N2J6TVZpYTRYTVpXV3E4b0dqRGQ5Qkx1cVJjTThrR0RpY0Z1Wk5ZdTNTeUdWSk1NalFJNFB1ajd6WVYteTZ3Uk0wNkpxZmo1cUMtYUJza2xWc1JUM090ZjFJM2JYaWZ4WTRQS0xWcGNCSzZsbzhiNkpUUDcwQQ?oc=5
   seen_at: '2026-11-09T09:13:10Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://huggingface.co/blog/hub-gcp-marketplace
+  seen_at: '2026-11-11T01:57:20Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/
+  seen_at: '2026-11-11T01:57:20Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipgFBVV95cUxOUHN0X1dFSWFIejhVR3JYZ3l3QzlwRjhuNUtVZlRZWnhPU0k4LXdsUTQwOHdTY3pibC1ZZ25VM1NlV0x2emVJVGRXSkx5NS14TUFyOUZHaWowaVVrRGF3dHExdFAtaUZsdDRrb0xHT1dtbDRKV05XQXBUTFMxdHRicFlMb1lwR3NjSFZUWDFCMUg0cnpTd0JRZUJyY0lqQWF1X0czUnBR?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdE5UN1gzRW83MDI5NVRZOE9DdDFEYkU5Z29rQWVwMHlDX1lYamM4b3luVzRlOVJST05USmhaLXF6Q0dCajBqc3B4NzlaZUUtRWo4VmRieEVWbDF3UG56YXJVSVBBZW1sZTFiVnp3ZGxFLW9TWDl5TFpFdV9ZbFpZR0YzUWpsdFVvYS1jaG8tbk5rb2QzQjlJdkg5Z0JHNlliakVwSHFpMHo4Ry1ZZzdXMHhZUVBDRG1WSUxZc1lCS054VXB5UDV3S2llS3hQVUxWUXhRMQ?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZGZxOUhNbDFzVTF4Vm8tMk5wY3pZYjBFOEJKRmZ2djBHYWpuaFBGSm5TTXBqN0FieTJEX2VCS1NXVnU4VDdCV29SWkMyRHVDRWJ4NGhFR19DbEI3Z2ZUelVxVG1xZ1VFYWNwUGdtQ0tsek8wTEdKVXAzSjA5b25JalJPUkpZOVNxSlU3d1dldmI4OS1UWDQ1N2tKb2YwNFdIZ1JuTlFESmw1QQ?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
   metrics: {}
   kind: news
 ---

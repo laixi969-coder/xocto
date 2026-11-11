@@ -1,0 +1,19 @@
+- id: ev-2209a4e1bd6d0c82
+  project_slug: the-agent-evaluation-playbook-built-in-deepeval-and-autoeval
+  url: https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/
+  title: 'The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore
+    Evaluations'
+  published_at: '2026-11-10T22:35:03Z'
+  collected_at: '2026-11-11T01:57:20Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'When you deploy an agent to production, one of the hardest questions is whether it’s actually
+    working? The bar isn’t whether it runs. It’s whether it does what the business needs, at scale. Many
+    teams will tell you they can’t really see this. They spot-check outputs, watch latency, and collect
+    user feedback when they can get it. None of that tells you whether the agent finished the user’s task,
+    stayed on topic across a long session, leaked personally identifiable information (PII), or quietly
+    skipped half the steps it was supposed to follow. Figure 1: Teams usually watch surface signals, but
+    business outcomes are decided by the agent behaviors below the waterline Agent evaluation solves this
+    problem. What makes this challenging is that a good score on one metric can hide a failure on another.
+    A support agent can resolve every ticket and still expose personal information in its replies. In
+    this case, the agent is failing although it has a high completion rate. To get evaluation right, m'

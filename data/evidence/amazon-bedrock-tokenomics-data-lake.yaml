@@ -1,0 +1,19 @@
+- id: ev-15d6fbfc1c3e886e
+  project_slug: amazon-bedrock-tokenomics-data-lake
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-tokenomics-data-lake/
+  title: Amazon Bedrock tokenomics data lake
+  published_at: '2026-11-10T16:56:36Z'
+  collected_at: '2026-11-11T01:57:20Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'If you need an observability data lake for your Amazon Bedrock workloads, you’re not alone. When
+    you’re running thousands of model invocations a day across multiple accounts, after a request is sent
+    you might be wondering, what happened? You can see the aggregate bill, but you can’t see what happened
+    inside each call. You might start to ask questions: what prompt was sent, what the model returned,
+    how many tokens it used, which model handled it, and whether the response was any good! If you’re
+    a platform or machine learning (ML) engineer looking after a fleet of Amazon Bedrock workloads across
+    teams, that’s a real problem. You can’t debug a spike, you can’t spot wasteful prompts, and you can’t
+    tell one team’s usage from another’s. We built something to help: a centralized observability data
+    lake for your Amazon Bedrock invocations. In this post, I cover what native data you have and how
+    we designed the lake. I also show how to use it to see your prompts and derive the per-invocation
+    co'

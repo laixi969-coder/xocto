@@ -24,7 +24,7 @@ url: https://artificialanalysis.ai/optima
 canonical_url: https://artificialanalysis.ai/optima
 summary: Artificial Analysis tool to create custom benchmarks for any use case
 first_seen: '2026-08-13T16:28:02Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
@@ -114,10 +114,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://artificialanalysis.ai/models/claude-fable-5-2
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 306
-    comments: 229
+    points: 372
+    comments: 268
   kind: news
 ---
 

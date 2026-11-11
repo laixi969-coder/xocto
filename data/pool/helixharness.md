@@ -20,18 +20,18 @@ url: https://github.com/didi/helixharness
 canonical_url: https://github.com/didi/helixharness
 summary: HelixHarness 提供完整的 AI Coding 工程化基础能力，还支持不同企业和团队结合自身的业务知识、工程规范和研发流程，持续构建和演进属于自己的专属 Harness
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/didi/helixharness
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 398
-    forks: 56
-    open_issues: 11
+    stars: 410
+    forks: 58
+    open_issues: 12
   kind: product
 ---
 

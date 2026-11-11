@@ -21,18 +21,18 @@ canonical_url: https://github.com/jainiakhil/Libreon
 summary: 'Work freely. A private, fully offline office suite for Android: no ads, no accounts, no trackers,
   no AI.'
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jainiakhil/Libreon
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
     stars: 85
     forks: 4
-    open_issues: 4
+    open_issues: 5
   kind: product
 ---
 

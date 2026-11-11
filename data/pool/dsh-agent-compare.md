@@ -20,18 +20,18 @@ url: https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare
 canonical_url: https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare
 summary: 同一需求，两版真跑，体验后审查采用。Two live builds for one task in DeepSeek Harness.
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 263
+    stars: 298
     forks: 3
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

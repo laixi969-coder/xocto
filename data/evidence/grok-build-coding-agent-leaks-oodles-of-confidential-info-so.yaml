@@ -1,0 +1,18 @@
+- id: ev-c791d76ff7a1549e
+  project_slug: grok-build-coding-agent-leaks-oodles-of-confidential-info-so
+  url: https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/
+  title: Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI
+  published_at: '2026-11-10T21:12:59Z'
+  collected_at: '2026-11-11T01:57:21Z'
+  source_kind: market_signal
+  tier: independent
+  fact: Grok Build, the vibe-coding agent from SpaceXSI, is leaking data—some of it proprietary business
+    information and other sensitive secrets—from thousands of its users, including the very same Elon
+    Musk-owned company that offers the platform, new research shows. The information is revealed through
+    links allowing Grok Build users to share their apps with others. Grok takes steps to randomize the
+    URLs so only people who know the exact URL can access the data stored there. A design decision by
+    developers of the platform, however, completely torpedoes that objective and makes it possible for
+    anyone to enumerate thousands of live Grok Build projects. Except in rare cases, clicking those links
+    opens the app and reveals all data associated with it. You had one job Research from security firm
+    Claroc shows that the exposed data includes things like internal business plans, ad proposals, medical
+    exam results, galley checklists from a celebrity cruise line, and employee names and ID numbers. Ironica

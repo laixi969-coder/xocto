@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE12dXVLZU9MYVA1Zm1pMDNTSj
 canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE12dXVLZU9MYVA1Zm1pMDNTSjA0UjJnSHFhOVlTcUFpSE9mWFNxenpHVGhIOGFGZ1dVazZnT1VnY2wzaUplZ0lBUg?oc=5
 summary: 招行信用卡接入外部AI智能体，银行业能否掀起一波落地小高潮？业内：还需更长时间 财联社
 first_seen: '2026-11-10T04:08:13Z'
-last_seen: '2026-11-10T04:08:13Z'
+last_seen: '2026-11-11T01:57:31Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE12dXVLZU9MYVA1Zm1pMDNTSjA0UjJnSHFhOVlTcUFpSE9mWFNxenpHVGhIOGFGZ1dVazZnT1VnY2wzaUplZ0lBUg?oc=5
   seen_at: '2026-11-10T04:08:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE8tOGJiN3RQMDJGdkNDdU9vajFZMGlwX3Z0cUdSTnpqNVNYVTN3SDFaUEhVWTFxSE8zZGdYT2dCZEFzNEpHZnc?oc=5
+  seen_at: '2026-11-11T01:57:31Z'
   metrics: {}
   kind: news
 ---

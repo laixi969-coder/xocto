@@ -20,17 +20,17 @@ url: https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_a
 canonical_url: https://reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody
 summary: A year after the 100% AI mandate nobody understands our code
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 116
-    comments: 141
+    points: 151
+    comments: 192
   kind: news
 ---
 

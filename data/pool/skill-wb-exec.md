@@ -21,16 +21,16 @@ canonical_url: https://github.com/Luminousyyh/skill-wb-exec
 summary: Delegate bounded coding tasks to a headless WorkBuddy/CodeBuddy CLI agent from DeepSeek Harness
   — structured result, real diff, path whitelist and worktree isolation.
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Luminousyyh/skill-wb-exec
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 103
+    stars: 156
     forks: 0
     open_issues: 0
   kind: product

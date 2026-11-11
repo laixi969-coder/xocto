@@ -401,3 +401,21 @@
   source_kind: pain
   tier: independent
   fact: How To Prepare For An AI Search Interview in 2026 Forbes
+- id: ev-40e90053f48bfa0a
+  project_slug: search
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/
+  title: Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search
+  published_at: '2026-11-10T23:34:05Z'
+  collected_at: '2026-11-11T01:57:20Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: AI agents increasingly handle work that depends on what changed today, such as security advisories,
+    product releases, prices, and regulations. A model’s training data can’t answer those questions, so
+    agents need web search. For production use, teams also need results they can cite, and control over
+    which sources count. They want search queries to stay inside their cloud environment because those
+    queries often reveal internal work. The Web Search API in Amazon Bedrock AgentCore is now available.
+    It gives agents and applications current web results through a single API call, signed with the AWS
+    credentials they already use. AWS serves every query from a web index that Amazon operates, and doesn’t
+    send it to a third-party search engine. Each result includes the page’s title, URL, publication date,
+    and an extract relevant to the query. Requests can include or exclude domains, and limit results to
+    a publication date range. On AWS Lambda , Amazon Elastic Container Service (Amazon ECS) , or A

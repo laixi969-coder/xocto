@@ -22,16 +22,16 @@ summary: 'AI job-search coach for Berlin and the rest of Germany: find jobs, che
   requirements, write a Lebenslauf or CV, practise interviews, track applications. Works in Claude Code,
   Codex, Cursor, Gemini CLI, OpenCode and ChatGPT.'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/umutyesildal/berlin-job-search
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 48
+    stars: 52
     forks: 4
     open_issues: 5
   kind: product

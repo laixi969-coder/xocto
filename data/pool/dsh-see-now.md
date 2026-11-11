@@ -20,18 +20,18 @@ url: https://github.com/SAOS-3624/dsh-see-now
 canonical_url: https://github.com/SAOS-3624/dsh-see-now
 summary: 让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SAOS-3624/dsh-see-now
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 534
-    forks: 54
-    open_issues: 3
+    stars: 571
+    forks: 57
+    open_issues: 0
   kind: product
 ---
 

@@ -20,16 +20,16 @@ url: https://github.com/ElysiumForge-Labs
 canonical_url: https://github.com/ElysiumForge-Labs
 summary: MCP server for AI agents to read and interact with Elysium, Kinetiq’s Arbitrum Orbit L2 on Hyperliquid
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ElysiumForge-Labs
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 144
+    stars: 145
     forks: 0
     open_issues: 0
   kind: product

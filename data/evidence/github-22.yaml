@@ -1,0 +1,17 @@
+- id: ev-0601bdd23634e247
+  project_slug: github-22
+  url: https://www.v2ex.com/t/1255952
+  title: '[开源]OxideTerm： Rust+GPUI，让终端飞起来！'
+  published_at: '2026-11-10T11:37:34Z'
+  collected_at: '2026-11-11T01:56:49Z'
+  source_kind: product
+  tier: independent
+  fact: "大家好，我是 OxideTerm 的作者。https://github.com/AnalyseDeCircuit/oxideterm\r\n\r\n7 月底我在这里[发过一帖]( https://www.v2ex.com/t/1229777)，介绍了将\
+    \ OxideTerm 从 WebView 迁移到 Rust + GPUI 的过程。我也希望借鉴 WindTerm 等知名 SSH 客户端和终端的一些好用设计，继续打磨这个免费开源、功能丰富（ SSH\
+    \ ，Mosh ，Serial ，Telnet ，RDP ，VNC ，BLE 等）的原生 SSH 客户端。\r\n\r\n\r\n原生版持续迭代了近四个月，兼容性和日常交互一直在完善，目前已经比较稳定了。从当时的\
+    \ 2.0.11 到前几天发布的 2.3.1 ，我们还花了不少精力打磨终端的基本功：吞吐、绘制和历史存储，希望持续追赶 WindTerm 、Ghostty 、Alacritty 等成熟终端的表现。\r\
+    \n\r\n![OxideTerm 工作区]( https://analysedecircuit.github.io/oxideterm-media/screenshots/2.3.1/workspace-docker-framed.png)\r\
+    \n\r\n既然说要让终端飞起来，那就拿实际输出比划比划。\r\n\r\n## 刷日志的时候，让终端速度跟上\r\n\r\n跑构建、看大量诊断信息时，数据已经到了本机，如果终端却还在慢慢处理，眼前的内容就会落后；想滚动回看、切换会话，界面线程又忙着解析输出。我们想减少的，就是终端自己带来的这部分等待。\r\
+    \n\r\n下面是 8 月早期发布构建与现在 2.3.1 的吞吐测试记录对比。每类负载输出 **16 MiB**，预热一次，测量三次取中位数，具体[测试方法]( https://github.com/AnalyseDeCircuit/oxideterm/blob/v2.3.1/benchmark/README.md)在仓库里。\r\
+    \n\r\n![OxideTerm 终端吞吐对比]( https://analysedecircuit.github.io/oxideterm-media/benchmarks/2.3.1/throughput.png)\r\
+    \n\r\n\r\n\r\n**其实这背后没有什么黑魔法**，就是反复测试、找瓶颈：把 SSH 终端解析放到后台线程，"

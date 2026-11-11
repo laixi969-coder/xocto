@@ -27,16 +27,16 @@ summary: "## Ripple Preview\r\n\r\n[Ripple Preview](https://ollama.com/library/r
   \ installed\r\n- CUDA 13.5 support for Windows on ARM\r\n- Updated llama.cpp\r\n\r\n**Full Changelog**:\
   \ https://github.com/ollama/ollama/compare/v0.40.15...v0.40.16"
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.40.16
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    reactions: 17
+    reactions: 23
   kind: news
 ---
 

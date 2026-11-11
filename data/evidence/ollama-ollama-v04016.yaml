@@ -14,3 +14,19 @@
     \ and no longer silently truncates by default\r\n- `/v1/models` returns an empty list instead of `null`\
     \ when no models are installed\r\n- CUDA 13.5 support for Windows on ARM\r\n- Updated llama.cpp\r\n\
     \r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.15...v0.40.16"
+- id: ev-5286a6588e521460
+  project_slug: ollama-ollama-v04016
+  url: https://github.com/ollama/ollama/releases/tag/v0.40.16
+  title: 'ollama/ollama: v0.40.16'
+  published_at: '2026-11-09T18:21:19Z'
+  collected_at: '2026-11-11T01:56:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## Ripple Preview\r\n\r\n[Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive\
+    \ Intelligence is a 65B dense model built for agentic coding.\r\n\r\n```sh\r\nollama run ripple-preview\r\
+    \n```\r\n\r\n## What's Changed\r\n\r\n- Qwen3.8 Flash Next uses about 27 GiB less memory on Apple\
+    \ silicon\r\n- `ollama launch claude` always routes Claude Code to the selected model\r\n- `ollama\
+    \ launch` explains when a cloud model has been retired\r\n- `/v1/responses` respects `truncation`\
+    \ and no longer silently truncates by default\r\n- `/v1/models` returns an empty list instead of `null`\
+    \ when no models are installed\r\n- CUDA 13.5 support for Windows on ARM\r\n- Updated llama.cpp\r\n\
+    \r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.15...v0.40.16"

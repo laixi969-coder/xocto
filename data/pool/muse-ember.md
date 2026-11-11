@@ -20,17 +20,17 @@ url: https://research.meta.ai/blog/muse-ember
 canonical_url: https://research.meta.ai/blog/muse-ember
 summary: Our smallest, most efficient model
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://research.meta.ai/blog/muse-ember
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 263
-    comments: 111
+    points: 328
+    comments: 140
   kind: news
 ---
 

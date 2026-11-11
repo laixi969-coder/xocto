@@ -20,16 +20,16 @@ url: https://github.com/NorthGateChat/dsh-think-game
 canonical_url: https://github.com/NorthGateChat/dsh-think-game
 summary: Inline mini-game arcade for DSH streaming reasoning / 流式思考下方的轻量小游戏（7 款游戏，自动暂停/淡出，可继续上一局）
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/NorthGateChat/dsh-think-game
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 95
+    stars: 100
     forks: 0
     open_issues: 0
   kind: product

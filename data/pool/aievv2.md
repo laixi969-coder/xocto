@@ -22,16 +22,16 @@ summary: 'Automatic AI video editing: Claude directs HyperFrames (HTML + GSAP mo
   (timeline assembly). Karaoke subtitles, kinetic typography, sound effects, a timeline editor, text-to-video,
   video translation and dubbing - self-hosted web dashboard, built for Vietnamese.'
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://noti.vn
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 138
+    stars: 140
     forks: 66
     open_issues: 4
   kind: product

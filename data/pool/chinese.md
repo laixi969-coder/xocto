@@ -20,7 +20,7 @@ url: https://chinese.vedranb.com/
 canonical_url: https://chinese.vedranb.com
 summary: I made a game about the 3k-year evolution of Chinese characters
 first_seen: '2026-11-02T01:31:06Z'
-last_seen: '2026-11-10T04:08:03Z'
+last_seen: '2026-11-11T01:57:21Z'
 status: pending_filter
 sources:
 - hackernews
@@ -62,6 +62,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/
   seen_at: '2026-11-10T04:08:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/
+  seen_at: '2026-11-11T01:57:21Z'
   metrics: {}
   kind: news
 ---

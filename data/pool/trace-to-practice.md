@@ -21,16 +21,16 @@ canonical_url: https://github.com/wssfk12138/trace-to-practice
 summary: Evidence-backed retrospectives for AI coding-agent histories. Offline indexing, scoped workflow
   improvements, and bilingual documentation.
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-07T01:56:40Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wssfk12138/trace-to-practice
-  seen_at: '2026-11-07T01:56:40Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 42
+    stars: 44
     forks: 1
     open_issues: 0
   kind: product

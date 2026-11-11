@@ -20,17 +20,17 @@ url: https://meowdisplay.app/
 canonical_url: https://meowdisplay.app
 summary: MeowDisplay Is iPhone Mirroring, but in Reverse
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://meowdisplay.app/
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 80
-    comments: 31
+    points: 114
+    comments: 45
   kind: product
 ---
 

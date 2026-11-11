@@ -20,8 +20,8 @@ url: https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/
 canonical_url: https://wired.com/story/insurance-claims-adjusters-really-hate-ai
 summary: You Know Who Hates AI? Insurance Claims Adjusters
 first_seen: '2026-08-31T11:01:19Z'
-last_seen: '2026-09-16T00:20:36Z'
-status: rejected
+last_seen: '2026-11-11T01:56:51Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -51,6 +51,13 @@ sightings:
   metrics:
     points: 13
     comments: 5
+  kind: news
+- source: hackernews
+  url: https://www.wired.com/story/meet-the-sad-wives-of-ai/
+  seen_at: '2026-11-11T01:56:51Z'
+  metrics:
+    points: 75
+    comments: 67
   kind: news
 ---
 

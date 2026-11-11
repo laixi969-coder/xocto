@@ -20,16 +20,16 @@ url: https://github.com/humanethq/airgap-check
 canonical_url: https://github.com/humanethq/airgap-check
 summary: find what your AI app silently downloads offline
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/humanethq/airgap-check
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 5
+    points: 11
     comments: 0
   kind: product
 ---

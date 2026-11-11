@@ -20,8 +20,8 @@ url: https://alexwang.ai/posts/associative-memory/
 canonical_url: https://alexwang.ai/posts/associative-memory
 summary: You could have invented transformers from memory
 first_seen: '2026-10-17T00:30:22Z'
-last_seen: '2026-10-18T00:03:44Z'
-status: rejected
+last_seen: '2026-11-11T01:56:51Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 491
     comments: 116
+  kind: news
+- source: hackernews
+  url: https://alexwang.ai/posts/reasoning-as-pathfinding/
+  seen_at: '2026-11-11T01:56:51Z'
+  metrics:
+    points: 104
+    comments: 45
   kind: news
 ---
 

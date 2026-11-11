@@ -20,16 +20,16 @@ url: https://rollare.com/
 canonical_url: https://rollare.com
 summary: Bracket maker with registration and live scoring
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://rollare.com/
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 6
+    points: 7
     comments: 1
   kind: product
 ---

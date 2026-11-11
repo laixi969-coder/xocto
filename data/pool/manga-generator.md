@@ -20,16 +20,16 @@ url: https://github.com/stockedge/manga-generator
 canonical_url: https://github.com/stockedge/manga-generator
 summary: 原作から脚本・画像生成・組版・PDF出力まで進める、Codex向け漫画制作ツール
 first_seen: '2026-10-25T00:21:05Z'
-last_seen: '2026-11-08T01:27:11Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/stockedge/manga-generator
-  seen_at: '2026-11-08T01:27:11Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 165
+    stars: 166
     forks: 35
     open_issues: 5
   kind: product

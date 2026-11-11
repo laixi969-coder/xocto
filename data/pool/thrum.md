@@ -20,17 +20,17 @@ url: https://thrum.team/
 canonical_url: https://thrum.team
 summary: run Claude Code, Codex and other coding agents as one team
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://thrum.team/
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
     points: 6
-    comments: 7
+    comments: 8
   kind: product
 ---
 

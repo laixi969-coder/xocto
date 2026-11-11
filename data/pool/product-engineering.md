@@ -21,7 +21,7 @@ canonical_url: https://productcompass.pm
 summary: Agent skills for shipping real products with coding agents, from the first idea to paying users.
   No coding.
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
@@ -36,10 +36,10 @@ sightings:
   kind: product
 - source: github
   url: https://www.productcompass.pm/p/product-engineering-skills
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 415
-    forks: 58
+    stars: 467
+    forks: 61
     open_issues: 0
   kind: product
 ---

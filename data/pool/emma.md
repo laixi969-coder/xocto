@@ -20,17 +20,17 @@ url: https://app.nuancelabs.ai/try
 canonical_url: https://app.nuancelabs.ai/try
 summary: a real-time AI video persona from Nuance Labs
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://app.nuancelabs.ai/try
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 7
-    comments: 1
+    points: 9
+    comments: 2
   kind: product
 ---
 

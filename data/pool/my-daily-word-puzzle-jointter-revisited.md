@@ -22,17 +22,17 @@ summary: Hello. This is a follow-up to the post https:&#x2F;&#x2F;news.ycombinat
   I&#x27;ve got tons of feedback. Thank you all so much for that! The main issue was an absence of tutorial.
   I&#x27;ve add…
 first_seen: '2026-11-10T04:07:34Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50426593
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 8
-    comments: 4
+    points: 9
+    comments: 8
   kind: product
 ---
 

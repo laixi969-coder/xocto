@@ -20,7 +20,7 @@ url: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for
 canonical_url: https://tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg
 summary: US Customs supervisor busted for stealing hardware from Homeland Security PCs
 first_seen: '2026-09-13T13:24:28Z'
-last_seen: '2026-11-10T04:07:34Z'
+last_seen: '2026-11-11T01:56:51Z'
 status: pending_filter
 sources:
 - hackernews
@@ -104,9 +104,9 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.tomshardware.com/peripherals/docking-stations-hubs/synaptics-sends-cease-and-desist-order-to-creator-of-open-source-displaylink-driver-dares-him-to-publicize-its-threats-dev-reverse-engineers-displaylink-using-claude-ai-and-rust-synaptics-threatens-to-bill-creator-for-legal-documentation
-  seen_at: '2026-11-10T04:07:34Z'
+  seen_at: '2026-11-11T01:56:51Z'
   metrics:
-    points: 14
+    points: 15
     comments: 4
   kind: news
 ---

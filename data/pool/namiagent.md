@@ -21,17 +21,17 @@ canonical_url: https://namiai.tech/agent
 summary: 零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解
   Claude Code、Codex 等主流 Agent
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://namiai.tech/agent/
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 470
-    forks: 51
+    stars: 487
+    forks: 54
     open_issues: 1
   kind: product
 ---

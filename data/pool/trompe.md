@@ -21,17 +21,17 @@ canonical_url: https://patch.gg
 summary: 'Texture a whole game level from a gray blockout with image models: plan cameras, paint, project,
   bake. Real shadows, glTF out.'
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-11T01:56:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://patch.gg
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-11T01:56:55Z'
   metrics:
-    stars: 206
-    forks: 14
+    stars: 210
+    forks: 16
     open_issues: 0
   kind: product
 ---
