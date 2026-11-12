@@ -21,17 +21,17 @@ canonical_url: https://github.com/orailnoor/hush-studio
 summary: 'Offline AI narration studio for Android: turn scripts into natural speech and clone your voice,
   all on-device. No cloud, no account.'
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/orailnoor/hush-studio
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 45
-    forks: 7
+    stars: 46
+    forks: 8
     open_issues: 1
   kind: product
 ---

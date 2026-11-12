@@ -21,18 +21,18 @@ canonical_url: https://getlilo.app
 summary: A Mac browser on WebKit, not another Chromium, that still runs Chrome extensions. Arc-style Spaces,
   terminal tabs, and a built-in MCP server so your AI agents browse beside you. MIT, no account.
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://getlilo.app
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
     stars: 54
-    forks: 10
-    open_issues: 3
+    forks: 12
+    open_issues: 5
   kind: product
 ---
 

@@ -20,17 +20,17 @@ url: https://github.com/GoogleChrome/modern-web-guidance
 canonical_url: https://github.com/GoogleChrome/modern-web-guidance
 summary: Get your coding agent off ~2019 JavaScript, onto modern web primitives
 first_seen: '2026-11-11T01:56:51Z'
-last_seen: '2026-11-11T01:56:51Z'
+last_seen: '2026-11-12T02:59:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/GoogleChrome/modern-web-guidance
-  seen_at: '2026-11-11T01:56:51Z'
+  seen_at: '2026-11-12T02:59:38Z'
   metrics:
-    points: 263
-    comments: 77
+    points: 425
+    comments: 142
   kind: product
 ---
 

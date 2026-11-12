@@ -20,7 +20,7 @@ url: https://demo.costura.ai/overview
 canonical_url: https://demo.costura.ai/overview
 summary: Self-hosted AI spend attribution
 first_seen: '2026-10-21T00:37:59Z'
-last_seen: '2026-11-07T01:57:09Z'
+last_seen: '2026-11-12T03:01:17Z'
 status: pending_filter
 sources:
 - hackernews
@@ -47,6 +47,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/
   seen_at: '2026-11-07T01:57:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcUhHTlhFRzdzMTdwQll0OTlONE1IQ05ZX19pellNWUN5U0VCOTRnTFl5MUpuS0hkZXNST1VrWXlMNS1EOUI5MTg0U1pPcEZFOGMwalJLai1MQUJveEx6UmhPcEJXbGhvXzZTeHNSRzdOVDkxNmx6YmpZVDMxZ0NhNmtDb20zN01oSXFoRURsLWVTU1hUTmE3ZjU3anVxT3BVS01zSDJ5WWU4anZaS0ZueTRxMDByYnhyMkdzN2RyeUN0QjhfTzZNQlhuV2x5bFgteE1QVW5B?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
   metrics: {}
   kind: news
 ---

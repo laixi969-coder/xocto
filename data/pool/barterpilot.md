@@ -20,17 +20,17 @@ url: https://barterpilot.com/
 canonical_url: https://barterpilot.com
 summary: AI agents that barter your stuff for things you want
 first_seen: '2026-11-11T01:56:51Z'
-last_seen: '2026-11-11T01:56:51Z'
+last_seen: '2026-11-12T02:59:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://barterpilot.com/
-  seen_at: '2026-11-11T01:56:51Z'
+  seen_at: '2026-11-12T02:59:38Z'
   metrics:
-    points: 5
-    comments: 2
+    points: 7
+    comments: 4
   kind: product
 ---
 

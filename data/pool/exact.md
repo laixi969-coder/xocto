@@ -21,18 +21,18 @@ canonical_url: https://github.com/expo/exact
 summary: Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build
   it, run it, see it, and test it on every one of them.
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/expo/exact
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 2213
-    forks: 48
-    open_issues: 60
+    stars: 2969
+    forks: 66
+    open_issues: 101
   kind: product
 ---
 

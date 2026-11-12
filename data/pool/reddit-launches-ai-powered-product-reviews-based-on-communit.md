@@ -1,0 +1,41 @@
+---
+slug: reddit-launches-ai-powered-product-reviews-based-on-communit
+name: Reddit launches AI-powered product reviews based on community conversations
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZEtBdmZPMXA0Z0dIMzM0NGg1UkoyVFFveEFueWEwT0ktNzJlcHdxMzlrblFxUHBsQVRQdjVMckdwNkZfZG54X3VEei1OUzFoOEV2RDFwQlcxd1o5SjBCSlljVktwNmdsbEpteFNKQWRGeVVVU1pveFZMVEFLYURhQWNvYjRsX1A5d1NtY1BRNWhIZVNfdFctUEtfNnBsVlNTQjJ2X0Z6Szc5Sl9FT3ljLW01VHFQQjl4aW5ibzZpQlrSAcYBQVVfeXFMTm5zYlpDcmFTa0hTSVZPa3BvMU9uaEFCOUV4ZVFYVWZCRVpUM2ZGNkZOMlJwc2ZaM01UOF9Kdm5sTWpHTEltNnNyMVVjamRLM1BUQlhGUFBsMFQ4YVhWWmZxSDc0Vk53dmFSeGNmbEJKdG1OMTVZMDF6Y284VXVsdFhWVXJwMTlHYlQ5Y3RTaVkwYTJ6eTNrUzhScXRXQ19xOU0wV3FFcWRwOVVpWm9lSjRqZU10OEJtNlVJV090dWsxZUJIekNR?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZEtBdmZPMXA0Z0dIMzM0NGg1UkoyVFFveEFueWEwT0ktNzJlcHdxMzlrblFxUHBsQVRQdjVMckdwNkZfZG54X3VEei1OUzFoOEV2RDFwQlcxd1o5SjBCSlljVktwNmdsbEpteFNKQWRGeVVVU1pveFZMVEFLYURhQWNvYjRsX1A5d1NtY1BRNWhIZVNfdFctUEtfNnBsVlNTQjJ2X0Z6Szc5Sl9FT3ljLW01VHFQQjl4aW5ibzZpQlrSAcYBQVVfeXFMTm5zYlpDcmFTa0hTSVZPa3BvMU9uaEFCOUV4ZVFYVWZCRVpUM2ZGNkZOMlJwc2ZaM01UOF9Kdm5sTWpHTEltNnNyMVVjamRLM1BUQlhGUFBsMFQ4YVhWWmZxSDc0Vk53dmFSeGNmbEJKdG1OMTVZMDF6Y284VXVsdFhWVXJwMTlHYlQ5Y3RTaVkwYTJ6eTNrUzhScXRXQ19xOU0wV3FFcWRwOVVpWm9lSjRqZU10OEJtNlVJV090dWsxZUJIekNR?oc=5
+summary: Reddit launches AI-powered product reviews based on community conversations Storyboard18
+first_seen: '2026-11-12T03:01:17Z'
+last_seen: '2026-11-12T03:01:17Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZEtBdmZPMXA0Z0dIMzM0NGg1UkoyVFFveEFueWEwT0ktNzJlcHdxMzlrblFxUHBsQVRQdjVMckdwNkZfZG54X3VEei1OUzFoOEV2RDFwQlcxd1o5SjBCSlljVktwNmdsbEpteFNKQWRGeVVVU1pveFZMVEFLYURhQWNvYjRsX1A5d1NtY1BRNWhIZVNfdFctUEtfNnBsVlNTQjJ2X0Z6Szc5Sl9FT3ljLW01VHFQQjl4aW5ibzZpQlrSAcYBQVVfeXFMTm5zYlpDcmFTa0hTSVZPa3BvMU9uaEFCOUV4ZVFYVWZCRVpUM2ZGNkZOMlJwc2ZaM01UOF9Kdm5sTWpHTEltNnNyMVVjamRLM1BUQlhGUFBsMFQ4YVhWWmZxSDc0Vk53dmFSeGNmbEJKdG1OMTVZMDF6Y284VXVsdFhWVXJwMTlHYlQ5Y3RTaVkwYTJ6eTNrUzhScXRXQ19xOU0wV3FFcWRwOVVpWm9lSjRqZU10OEJtNlVJV090dWsxZUJIekNR?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
+  kind: news
+---
+
+# Reddit launches AI-powered product reviews based on community conversations
+
+Reddit launches AI-powered product reviews based on community conversations Storyboard18
+
+## 笔记
+
+

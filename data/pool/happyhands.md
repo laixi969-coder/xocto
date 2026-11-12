@@ -21,18 +21,18 @@ canonical_url: https://happyhands.cc
 summary: Open-source, AI-assisted UI design review for coding agents. Inspect screenshots, scope code
   changes and compare results in a local workbench. Alpha.
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://happyhands.cc
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 395
+    stars: 436
     forks: 10
-    open_issues: 2
+    open_issues: 6
   kind: product
 ---
 

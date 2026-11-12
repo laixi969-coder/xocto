@@ -20,16 +20,16 @@ url: https://github.com/dhruvthakur11/youtube-ai-video-editing-system
 canonical_url: https://github.com/dhruvthakur11/youtube-ai-video-editing-system
 summary: 'Eyeline teleprompter meets editing agents: JSON-driven animation and motion graphics workflow'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dhruvthakur11/youtube-ai-video-editing-system
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 481
+    stars: 483
     forks: 1
     open_issues: 0
   kind: product

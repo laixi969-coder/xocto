@@ -21,17 +21,17 @@ canonical_url: https://github.com/lemonadesaltbagel/sill
 summary: Native Windows Bash for AI coding agents. Run Claude Code, Codex, opencode & Gemini CLI without
   Git Bash, MSYS2 or WSL. Built in Rust, with MCP support.
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lemonadesaltbagel/sill
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 235
-    forks: 46
+    stars: 249
+    forks: 48
     open_issues: 0
   kind: product
 ---

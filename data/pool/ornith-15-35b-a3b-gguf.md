@@ -20,7 +20,7 @@ url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 summary: 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-11-11T01:56:51Z'
+last_seen: '2026-11-12T02:59:37Z'
 status: rejected
 sources:
 - modelscope
@@ -253,10 +253,17 @@ sightings:
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/meituan-longcat/LongCat-2.5
-  seen_at: '2026-11-11T01:56:51Z'
+  seen_at: '2026-11-12T02:59:37Z'
   metrics:
-    likes: 37
-    downloads: 98
+    likes: 46
+    downloads: 232
+  kind: product
+- source: modelscope
+  url: https://modelscope.cn/models/MiniMax/MiniMax-H3-Image
+  seen_at: '2026-11-12T02:59:37Z'
+  metrics:
+    likes: 128
+    downloads: 3407
   kind: product
 ---
 

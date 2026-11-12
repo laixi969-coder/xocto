@@ -21,16 +21,16 @@ canonical_url: https://github.com/DevCrabs-Inc/yandex-metrika-mcp
 summary: 'Read-only MCP server for Yandex Metrika (Яндекс Метрика): verifiable reports, period comparisons,
   time series and exports for Claude, Cursor, VS Code and Codex.'
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/DevCrabs-Inc/yandex-metrika-mcp
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 127
+    stars: 130
     forks: 1
     open_issues: 7
   kind: product

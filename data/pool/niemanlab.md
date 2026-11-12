@@ -20,7 +20,7 @@ url: https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-feat
 canonical_url: https://niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled
 summary: New York Times adds more AI features to its Cooking app. Users aren't thrilled
 first_seen: '2026-10-30T01:58:40Z'
-last_seen: '2026-10-30T01:58:40Z'
+last_seen: '2026-11-12T02:59:38Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 57
     comments: 108
+  kind: news
+- source: hackernews
+  url: https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/
+  seen_at: '2026-11-12T02:59:38Z'
+  metrics:
+    points: 57
+    comments: 78
   kind: news
 ---
 

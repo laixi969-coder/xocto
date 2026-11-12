@@ -22,16 +22,16 @@ summary: Open-source AI clipboard manager and PopClip-style text selection toolb
   history, OCR search, AI translation, an extension market and a bring-your-own-model agent. Native Swift,
   no dependencies.
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/skingko/PastAi/releases/latest
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 56
+    stars: 55
     forks: 1
     open_issues: 0
   kind: product

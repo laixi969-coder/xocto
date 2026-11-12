@@ -21,17 +21,17 @@ canonical_url: https://github.com/ZiChuanLan/agent-purge
 summary: One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode,
   grok, omp, hermes, pi, zcode - with a local web console.
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ZiChuanLan/agent-purge
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 1572
-    forks: 956
+    stars: 1641
+    forks: 971
     open_issues: 1
   kind: product
 ---

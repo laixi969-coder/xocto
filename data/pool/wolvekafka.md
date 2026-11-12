@@ -20,17 +20,17 @@ url: https://github.com/wolveflake/wolvekafka
 canonical_url: https://github.com/wolveflake/wolvekafka
 summary: Consume Kafka with a plain HTTP endpoint
 first_seen: '2026-11-11T01:56:51Z'
-last_seen: '2026-11-11T01:56:51Z'
+last_seen: '2026-11-12T02:59:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/wolveflake/wolvekafka
-  seen_at: '2026-11-11T01:56:51Z'
+  seen_at: '2026-11-12T02:59:38Z'
   metrics:
-    points: 10
-    comments: 2
+    points: 11
+    comments: 4
   kind: product
 ---
 

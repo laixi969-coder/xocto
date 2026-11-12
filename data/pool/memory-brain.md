@@ -20,17 +20,17 @@ url: https://github.com/peterpoal134/memory-brain
 canonical_url: https://github.com/peterpoal134/memory-brain
 summary: 忆核大脑 / Memory Brain：独立记忆服务 + DSH 插件，原话证据、后台整理、3D 面板、生活与情绪规则。
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/peterpoal134/memory-brain
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 169
-    forks: 20
+    stars: 173
+    forks: 23
     open_issues: 0
   kind: product
 ---

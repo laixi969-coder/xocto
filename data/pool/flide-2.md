@@ -20,18 +20,18 @@ url: https://flide.org
 canonical_url: https://flide.org
 summary: 🔥🔥 The extremely fast inference engine for decision model
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://flide.org
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 378
-    forks: 25
-    open_issues: 6
+    stars: 451
+    forks: 28
+    open_issues: 8
   kind: product
 ---
 

@@ -1,0 +1,14 @@
+- id: ev-5733844e8bb2f449
+  project_slug: evaluating-the-evaluators-investigating-llm-judges-for-perso
+  url: https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges
+  title: 'Evaluating the Evaluators: Investigating LLM Judges for Personalized Writing Style Assessment'
+  published_at: '2026-11-10T00:00:00Z'
+  collected_at: '2026-11-12T03:00:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: This paper was accepted at the Can We Trust AI Evaluation? Workshop at NeurIPS 2026. We evaluate
+    how good large language model (LLM) judges are for personalized writing tasks. This is important when
+    a user’s preferred writing style is known (e.g., “upbeat”) and an LLM judge is used to evaluate whether
+    generated text adheres to this preference. We examine how the writing task, the combination of generator
+    and judge LLM, the evaluation objective, and general commonsense and reasoning ability impact LLM
+    judge performance. To this end, we generate text with four LLMs for three long-form writing…

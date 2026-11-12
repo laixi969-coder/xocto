@@ -1,0 +1,18 @@
+- id: ev-dbd84b4bb54cfc98
+  project_slug: detecting-and-recovering-from-silent-data-corruption-on-amaz
+  url: https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/
+  title: Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod
+  published_at: '2026-11-11T23:30:03Z'
+  collected_at: '2026-11-12T03:00:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Silent data corruption (SDC) happens when hardware, such as a GPU, returns a wrong but plausible
+    number and raises no error. In distributed training, the wrong number can flow into the gradients
+    and weights of every replica. Loss can still look normal for hours, and by the time a team notices
+    an unexplained divergence or a weaker model, the compute is spent. It happens at scale: during a 54-day
+    period of Llama 3 405B pre-training on up to 16K H100 GPUs, Meta attributed 6 of 419 unexpected job
+    interruptions to silent data corruption, and those were only the cases that interrupted the job and
+    were traced to SDC. Amazon SageMaker HyperPod already replaces nodes that report a fault: the health-monitoring
+    agent watches for GPU errors, deep health checks stress-test nodes, and automatic node recovery swaps
+    out bad hardware. SDC slips past all of these features, because the hardware never reports anything.
+    Detection has to come from the training job itself. In this post, we add three checks t'

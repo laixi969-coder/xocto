@@ -1,0 +1,18 @@
+- id: ev-2f3204b77ae05ad5
+  project_slug: automating-aws-agent-registry-updates-with-push-based-archit
+  url: https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/
+  title: Automating AWS Agent Registry updates with push-based architecture
+  published_at: '2026-11-11T20:52:48Z'
+  collected_at: '2026-11-12T03:00:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Every time a Model Context Protocol (MCP) server published in the AWS Agent Registry, a capability
+    of Amazon Bedrock AgentCore, gains a new tool or updates its schema, the registry record must be updated
+    too. Without automated push-based sync, consumers discover stale metadata. For organizations managing
+    multiple MCP servers across accounts, such a sync keeps catalog records current within an existing
+    governance workflow. In most enterprise deployments, a catalog’s value depends on its freshness. If
+    a developer deploys a new tool on Monday, but the registry record still reflects last week’s schema,
+    consumers lose trust in the catalog. Stale metadata directly reduces registry reliability, leading
+    teams to inadvertently build dependencies on inaccurate information. When an engineer adds a tool
+    to an MCP server but forgets to update the catalog: Consumers miss out on the new capability entirely.
+    Applications might call the tool using an outdated schema, causing unexpected runtime behavior'

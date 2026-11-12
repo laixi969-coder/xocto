@@ -1,0 +1,21 @@
+- id: ev-6daab33cb3203121
+  project_slug: langchain-ai-langchain-langchain-core180
+  url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0
+  title: 'langchain-ai/langchain: langchain-core==1.8.0'
+  published_at: '2026-11-11T15:22:07Z'
+  collected_at: '2026-11-12T02:59:41Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '**`langchain-core` 1.8.0 drops support for Python 3.10**, which has reached end-of-life. The
+    minimum supported version is now Python 3.11. Users on Python 3.10 will continue to resolve `langchain-core`
+    1.7.x.
+
+
+    Changes since langchain-core==1.7.7
+
+
+    release(core): 1.8.0 (#41796)
+
+    feat(core): Remove EOL Python 3.10 support (#41267)
+
+    feat(core): add decision models (#41765)'

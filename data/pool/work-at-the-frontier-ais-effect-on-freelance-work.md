@@ -1,7 +1,7 @@
 ---
 slug: work-at-the-frontier-ais-effect-on-freelance-work
 name: 'Work at the Frontier: AI’s effect on freelance work'
-builder: ''
+builder: swolpers
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -21,15 +21,23 @@ canonical_url: https://openai.com/index/ai-effect-on-freelance-work
 summary: New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations,
   and larger budgets and more hours for AI-related projects.
 first_seen: '2026-11-11T01:57:20Z'
-last_seen: '2026-11-11T01:57:20Z'
+last_seen: '2026-11-12T02:59:38Z'
 status: pending_filter
 sources:
 - officialfeeds
+- hackernews
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/ai-effect-on-freelance-work
   seen_at: '2026-11-11T01:57:20Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://openai.com/index/ai-effect-on-freelance-work
+  seen_at: '2026-11-12T02:59:38Z'
+  metrics:
+    points: 43
+    comments: 21
   kind: news
 ---
 

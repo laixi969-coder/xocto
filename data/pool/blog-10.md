@@ -20,7 +20,7 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-11-11T01:56:51Z'
+last_seen: '2026-11-12T02:59:38Z'
 status: pending_filter
 sources:
 - hackernews
@@ -145,10 +145,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/
-  seen_at: '2026-11-11T01:56:51Z'
+  seen_at: '2026-11-12T02:59:38Z'
   metrics:
-    points: 275
-    comments: 149
+    points: 291
+    comments: 164
   kind: news
 ---
 

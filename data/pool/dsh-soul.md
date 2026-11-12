@@ -21,18 +21,18 @@ canonical_url: https://github.com/icyaaaww/dsh-soul
 summary: DSH experience compilation and evolution across eight harness components, with paired validation,
   trial activation, rollback and budget auditing.
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/icyaaaww/dsh-soul
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 76
-    forks: 2
-    open_issues: 2
+    stars: 77
+    forks: 3
+    open_issues: 3
   kind: product
 ---
 

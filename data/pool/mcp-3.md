@@ -20,18 +20,18 @@ url: https://phone-harness.com
 canonical_url: https://phone-harness.com
 summary: Connect AI agents to real iPhones and Androids
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://phone-harness.com
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 782
+    stars: 790
     forks: 68
-    open_issues: 1
+    open_issues: 3
   kind: product
 ---
 

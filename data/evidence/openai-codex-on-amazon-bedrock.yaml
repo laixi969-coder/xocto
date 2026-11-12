@@ -1,0 +1,18 @@
+- id: ev-e159f1188a6bdff8
+  project_slug: openai-codex-on-amazon-bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/
+  title: OpenAI Codex on Amazon Bedrock
+  published_at: '2026-11-11T23:35:47Z'
+  collected_at: '2026-11-12T03:00:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Developers increasingly use Codex with Amazon Bedrock to explore unfamiliar code, make changes,
+    and handle repetitive engineering work. For platform teams, the challenge is to make those tools available
+    without creating a second model-access, identity, and operations stack. Codex can use Amazon Bedrock
+    for inference with supported OpenAI models. In this post, we show how to fit that path into the AWS
+    identity, AWS Identity and Access Management (IAM), Regional, and observability practices your organization
+    already uses. Codex still runs on the developer workstation. The main design choice is how its model
+    requests reach Amazon Bedrock and where your organization applies policy and operational controls.
+    We begin with a small, least-privilege pilot and work through the checks that matter before access
+    expands. The examples use GPT-5.6 Sol. Before starting the pilot, review Supported models by AWS Region
+    in Amazon Bedrock to confirm that Sol, Terra, or Luna is available in the AWS Region

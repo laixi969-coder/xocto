@@ -21,18 +21,18 @@ canonical_url: https://github.com/Burns1028/moa-plus
 summary: 'Multi-agent collaboration for DeepSeek Harness: persistent agents, shared knowledge, direct
   communication, and independent review.'
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Burns1028/moa-plus#see-it-in-action
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 70
+    stars: 80
     forks: 0
-    open_issues: 2
+    open_issues: 1
   kind: product
 ---
 

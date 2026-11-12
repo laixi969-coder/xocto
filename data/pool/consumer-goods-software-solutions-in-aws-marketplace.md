@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQSDdKRlp5UW1xUEZvNk1mcV
 canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQSDdKRlp5UW1xUEZvNk1mcVppck9vaDBpQlZLZnpwUER2enpYblhkQWpjM3lkOWltQlo0aEdNREZGeFVCVmNHNTJucmJkTFpoTWltTEZsOEhUeTRYUjY4RzgwTFo2OG9nbjZFdFJndUxhem1qTW1DVmdCUnhuV1I2ZW55b21tTTl1RzBITl9pSW1ZOHlybmctNVNfUFNTdlRlS1I3aA?oc=5
 summary: Consumer Goods Software Solutions in AWS Marketplace Amazon Web Services (AWS)
 first_seen: '2026-08-29T15:37:06Z'
-last_seen: '2026-11-08T01:27:39Z'
+last_seen: '2026-11-12T03:01:17Z'
 status: pending_filter
 sources:
 - newssearch
@@ -43,6 +43,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBGU055TnZXbjRGbWpRUnZjYmVwUWE2WDl6dFFHUHIwYl9fRFFpTzRuYXJrZDFIemdKamlDUmRIZGVyQlNvYUhiQ2o2TjdwVGdXUnY4elJDd2YwVFdiQVZ6YmRzQXl2ekNMTTNnVHVqblBlNlRRVzVLTG5PLWMzZw?oc=5
   seen_at: '2026-11-08T01:27:39Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBzanFoejVHMmlXY09Xd0tobWtSWkthdmoxb3hhX3J3cXVlSkJTaTNibG4xTnJEWlNGbGhVNy1Fa3NpdzBOUFNMTEVaS21zVkg4aV9NMjR1YXZRM0xIdFRRV0RubVJSaVFFWExQX1BMS1RDeWRCLUlBYTdRZTdJUQ?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
   metrics: {}
   kind: news
 ---

@@ -1,0 +1,18 @@
+- id: ev-5107a5701801efcf
+  project_slug: introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidi
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/
+  title: Introducing usage-based pricing for Amazon SageMaker AI bidirectional streaming
+  published_at: '2026-11-11T15:10:23Z'
+  collected_at: '2026-11-12T03:00:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Usage-based metering for bidirectional streaming solves a software billing problem for real-time
+    speech AI. Customers deploying streaming models on Amazon SageMaker AI bidirectional streaming pay
+    for the endpoint infrastructure that hosts the model. Separately, model providers listing on AWS Marketplace
+    need a way to charge for what customers consume during a live stream. Today, we’re announcing usage-based
+    metering for Amazon SageMaker bidirectional (bidi) streaming inference, so model providers can report
+    actual usage for the AWS Marketplace software charge. Amazon SageMaker AI endpoint infrastructure
+    charges still apply. Deepgram , the real-time speech AI company, is the launch partner for this capability,
+    bringing usage-based Speech-to-Text (STT) and Text-to-Speech (TTS) billing to AWS Marketplace. This
+    post builds on a series of innovations between Deepgram and AWS. First, we introduced bidirectional
+    streaming for real-time inference on Amazon SageMaker AI , which supports long-li

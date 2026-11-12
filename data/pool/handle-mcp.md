@@ -21,18 +21,18 @@ canonical_url: https://handlemcp.dk
 summary: 'MCP server for nemlig.com, BilkaToGo (More to come): search, cart and price comparison. Always
   pay yourself.'
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://handlemcp.dk
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 115
-    forks: 14
-    open_issues: 0
+    stars: 129
+    forks: 17
+    open_issues: 2
   kind: product
 ---
 

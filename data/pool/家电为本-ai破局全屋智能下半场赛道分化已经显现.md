@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZaHQwenUxMWVidVJVc0REYm
 canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZaHQwenUxMWVidVJVc0REYmdzZDIyWFUza3RJejBaTVhDcjRkT29PMDVaOXAyb3BxcmxfTm5ySl9INnFtbVJFQmRHRnRvVzQ?oc=5
 summary: 家电为本 AI破局！全屋智能下半场，赛道分化已经显现 凤凰网
 first_seen: '2026-11-10T04:08:13Z'
-last_seen: '2026-11-10T04:08:13Z'
+last_seen: '2026-11-12T03:01:17Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZaHQwenUxMWVidVJVc0REYmdzZDIyWFUza3RJejBaTVhDcjRkT29PMDVaOXAyb3BxcmxfTm5ySl9INnFtbVJFQmRHRnRvVzQ?oc=5
   seen_at: '2026-11-10T04:08:13Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMia0FVX3lxTE1LYWhaYVZNYXl4UWVuQkt4TWRvaGhKVFFkSjdPOGFwWHU2RkZhcDQ3WkZXRFRYaDN0ZHRoMlZ4c0xoNExwV3drc0ZlUHV0STFndU01T2p5My1MOU9EN2NQUmwtUHVKOXVBbGVB?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
   metrics: {}
   kind: news
 ---

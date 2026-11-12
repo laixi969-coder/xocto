@@ -22,17 +22,17 @@ summary: I&#x27;m having a really hard time working with claude. In the past whe
   manually, it was always carefully reviewed and architected, with all possible flows carefully mapped
   out. Now, my code is most…
 first_seen: '2026-11-11T01:56:51Z'
-last_seen: '2026-11-11T01:56:51Z'
+last_seen: '2026-11-12T02:59:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50444380
-  seen_at: '2026-11-11T01:56:51Z'
+  seen_at: '2026-11-12T02:59:38Z'
   metrics:
-    points: 24
-    comments: 20
+    points: 35
+    comments: 35
   kind: news
 ---
 

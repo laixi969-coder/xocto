@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRFVjcnl5RVI3eldkcTVtVH
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRFVjcnl5RVI3eldkcTVtVHdSZDJYWGc4N2RDV1JRck9CN09ydHllMjJXd0ZZWi1aRFdLWTBNRzVSWnFoVy1Jb2I1ODItUmpLVDJKS2hUSEg3RmxRMDF1SkVXU25XYlc0QkRuSVFRdTRiVWtLRkJvRmJ1dkQ1eklGUlVmaEg3Mkoy?oc=5
 summary: 千问办公推出团队协作Agent，AI办公走向下半场 Sohu
 first_seen: '2026-11-11T01:57:31Z'
-last_seen: '2026-11-11T01:57:31Z'
+last_seen: '2026-11-12T03:01:17Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRFVjcnl5RVI3eldkcTVtVHdSZDJYWGc4N2RDV1JRck9CN09ydHllMjJXd0ZZWi1aRFdLWTBNRzVSWnFoVy1Jb2I1ODItUmpLVDJKS2hUSEg3RmxRMDF1SkVXU25XYlc0QkRuSVFRdTRiVWtLRkJvRmJ1dkQ1eklGUlVmaEg3Mkoy?oc=5
   seen_at: '2026-11-11T01:57:31Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE5RQk9QQzY5Z2VfTHVDaEtWbGpNZWZONURGYkc3Ry1NamYzQWtzNDFkOGdLSnRCVUJrRTBza2NOSGRpTkhEbGtqVkY3NkMzbGhzeVVIZ2h1aE0?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
   metrics: {}
   kind: news
 ---

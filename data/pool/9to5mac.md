@@ -20,17 +20,17 @@ url: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running
 canonical_url: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy
 summary: Apple has new Mac app coming to make running local AI models easy
 first_seen: '2026-11-11T01:56:51Z'
-last_seen: '2026-11-11T01:56:51Z'
+last_seen: '2026-11-12T02:59:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/
-  seen_at: '2026-11-11T01:56:51Z'
+  seen_at: '2026-11-12T02:59:38Z'
   metrics:
-    points: 107
-    comments: 90
+    points: 517
+    comments: 528
   kind: news
 ---
 

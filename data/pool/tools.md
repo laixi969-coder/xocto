@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-11T01:57:31Z'
+last_seen: '2026-11-12T03:01:17Z'
 status: pending_filter
 sources:
 - hackernews
@@ -330,6 +330,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX01fVnBXcE9tMF9HN05FbTJJNHVSTU5SQkdHOU00N0JLbFAyMUdtelhYU3lyYTNxZFZnT08zZjgxcGZ1LTRTb3pZQUhGS0N5TzhhUzBYU0dvVWl5NDVtWDNCaDZUNXVCT0JCYm1TQUtrYlJqM2hkRGpCcENISXFlbVFmRzVmRm11V09xMnFOeWJaQlpNRFNVaV9rRjlycnd5d3ZoSlZhYTU0dDliMGZyNS1kM0VneC1FWlFSNTI2NFBTeGdmNFluVHdfQWdmX0FaSTZFYXhSYmlobWhYVjZMX1ZURDgzSTN5bkw3b2U5NTJ2UlJlVnlleVBMWdIBgAJBVV95cUxNOG5tNG9qVjRLbVpoUmJmX2l5WFEyOXBHbVh6djhRcGlSNHdMcGVPT1NNazFjZS1NN1hDVkFZSXUtRE9kZXhfeXRwdjhVQWFINXozMk9LN1oyTWNzbmVtTEZxM3RMbmo0ZEZMNDJYR0hjYU1ra2ZpNDYtR3p5a1U1NUFBWExLMGNzcW9STTNQMldKWTBuNFZFUEIxbXpiRWVQVk0xVG5MNUxEZVJRSGE2VzdKOVhkNm81WGtJaDNfbU11RVVybXByT3UyOTZfYlRuc0JrQ0FmTW5qWEszUXlDaFd6ZEsxZVBrbllZZXhqUWRKQmt6QjdLeUFDV0w3WWhC?oc=5
   seen_at: '2026-11-11T01:57:31Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Nov/11/tools-tags/
+  seen_at: '2026-11-12T03:00:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMivgFBVV95cUxQS0ZLTHRwT0ZiODUyM3YzODVRTHJrUG1wWnJ3WTg0ZmNLY2MtRHdCS3luelhzM2J2eGk3Z2RPV2pTMEl5RTZHX3Ita2tER293MzJxcUdic2t0UlppUi0tV2xmaUxBWjM3MGZOWDMwUi1qRm03c1V0Z1pmMzMxcHNJSnUtV3NfRUVHRzBKZTVmQUxMbEZOVUg2Q2doMDcxMnRjbGZDcE9La0FGZFp6YXdPc3pCTks5Um5VWWlOb1ZR?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMid0FVX3lxTE1TOVZWcWNRMDVNWkk5d2dBMVd2NHA2dTA0cjRJd1ZiRWZXYmNYREljWHhCSzNNOFRERklEQkd3NDdCc3dWYlNDWTNzNnJpMU5tUUVqdnFRQXJfYzFUVUo0SlQybEdud0JfVkh1U3ZnVWtRclpDRkpB?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
   metrics: {}
   kind: news
 ---

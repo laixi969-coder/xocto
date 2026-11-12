@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-11T01:57:21Z'
+last_seen: '2026-11-12T03:01:17Z'
 status: pending_filter
 sources:
 - producthunt
@@ -296,9 +296,9 @@ sightings:
   kind: news
 - source: trackedproducts
   url: https://muse.ai/
-  seen_at: '2026-11-11T01:56:31Z'
+  seen_at: '2026-11-12T02:59:22Z'
   metrics:
-    content_hash: 20c4b3285337f001
+    content_hash: 004ac7b41e29a6f9
   kind: product
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORW9sQkhpQzZKTVdLYk5RYVUwcjUwZ3NFNU1maDhtTU9NRTVsUzcwMTcxd2c5THZNZjJLaWNsYkt5SEhHR1ZNYW5oV05ZVFZJV1VxTWdOYXRYTWt5bjUtT0x3NWhRLXlwUDhjT3gza01RTW1zMzZDVm91V3BpdWRBMGVjSlgySlRDcG80RkpldzJzMC1aZGlaalZCTVNLSHNIZ1ZUS2tmcXFxei1IRW5NdHRIbDVoUQ?oc=5
@@ -513,6 +513,16 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/
   seen_at: '2026-11-11T01:57:21Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPUkdJWWsyYl9XTUJDMDZUa1h3akZES290OGtiUVU0ZjJIZU9KRExjRV9EZUJuYWlGeE5EdzNfOVZMeUIyckhSa2Z5MHB3WDhVOGdKWFNVdVoxX1drYkVzYzN5TEdKc21rSlROeU0yMFhGREFxTHBhekV4ZElsWWlseHZVYjl5bzJTdWgxY2dLRkVEem1CY1dYRF9HTE80eGg5S3ZzQnpCOA?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSVlLbDAwMnp2cUhSYTB2M0RYd0dKNkJpRENIYU93UVpqZWlWdW5fczE1RWFwcXdCbU1LVzJmSms0ZktwZVhHOG1FNnF3Q2J2dGdyVzlqM0RJQVFRelJjX0hGVzFPdXNnOGZVTW91MGxhOHRRRHdmc3RpSEdNalF5Q2Yxa2U1bmdzY1BuLVBKM1ZjVmM1UHFzallvbGpKdklsUDloU04zOHh4Q21DS3lFR2tkNk9STS1HbGIyWWJrdnRzVXdma0FGUC1KVTduQXNLc0lIV0xZdm41M1I3QzllaA?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
   metrics: {}
   kind: news
 ---

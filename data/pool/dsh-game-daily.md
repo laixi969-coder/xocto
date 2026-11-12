@@ -20,16 +20,16 @@ url: https://github.com/gychen-NJU/dsh-game-daily
 canonical_url: https://github.com/gychen-NJU/dsh-game-daily
 summary: DSH 桌面端插件：游戏日常代理（原神 / 崩坏3 / 星穹铁道）—设置页逐游戏开关、排班、计划任务自动执行并汇报 | DSH plugin for daily game automation
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/gychen-NJU/dsh-game-daily
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 48
+    stars: 52
     forks: 4
     open_issues: 1
   kind: product

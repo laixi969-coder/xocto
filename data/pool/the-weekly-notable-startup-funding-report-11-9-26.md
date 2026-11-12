@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNNzlrVXJ0WE1jaWF1ZGhENk
 canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNNzlrVXJ0WE1jaWF1ZGhENk1zbUZOdXJGNEIyWE1zZ0xCLUJQcUJPNnJ6OVF3aVV3NU5KSnJCQ24wZ1RlNS1hZVJna3pQQTdzY1hrM0oyYWpxZ1BJSkM1WWdHSkdGS0dqMHF0WmVGdTlFeTl2dTVYXzJWOWd3SVc0ajdVZW9wRC05QUw2eFN3?oc=5
 summary: 'The Weekly Notable Startup Funding Report: 11/9/26 AlleyWatch'
 first_seen: '2026-11-09T01:45:22Z'
-last_seen: '2026-11-09T01:45:22Z'
+last_seen: '2026-11-12T03:01:17Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNNzlrVXJ0WE1jaWF1ZGhENk1zbUZOdXJGNEIyWE1zZ0xCLUJQcUJPNnJ6OVF3aVV3NU5KSnJCQ24wZ1RlNS1hZVJna3pQQTdzY1hrM0oyYWpxZ1BJSkM1WWdHSkdGS0dqMHF0WmVGdTlFeTl2dTVYXzJWOWd3SVc0ajdVZW9wRC05QUw2eFN3?oc=5
   seen_at: '2026-11-09T01:45:22Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWGxiRC1fN09VeGhiT1A2eUt4Y0NlWmNkQ0FQUkhKYm1meVdnaFZKS1JET1ZGQlozWkRQTUlwMExEV0RtMEUydW5zUm5ZMlhudTdwc0hiWlBSc2tlWXRKUzZMQWlSOHdqcXQ0WjBLQ0Jhck52MXVoYXNYaUxDRFZraFZuc0JJRHBL?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
   metrics: {}
   kind: news
 ---

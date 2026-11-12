@@ -1,0 +1,18 @@
+- id: ev-eceb383b2d2ee52c
+  project_slug: semantic-diffing-of-formal-policies-with-anti-unification
+  url: https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/
+  title: Semantic diffing of formal policies with anti-unification
+  published_at: '2026-11-11T23:33:03Z'
+  collected_at: '2026-11-12T03:00:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: When reviewing code, you start with a diff. You wouldn’t compare two 3,000-line files by eye and
+    hope to spot every change. Formal policies can be even harder to compare because a textual diff often
+    highlights syntactic changes that don’t affect meaning. Reorder two conjuncts, swap the arguments
+    of an equality, or use an equivalent predicate, and much of the file might appear changed. A real
+    change in behavior, such as an Or where the requirement says and , can get lost in that noise. A semantic
+    diff shows what two policies have in common and where they disagree. The open source engine used in
+    this post computes this diff using anti-unification , which finds a most specific common pattern for
+    two expressions. Plotkin’s 1970 paper gives the classical formulation. The engine works over an e-graph,
+    which keeps track of expressions known to be equal. We supply the algebraic laws and domain rules
+    that justify those equalities, such as equating an external destination with one that isn’t int

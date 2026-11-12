@@ -21,17 +21,17 @@ canonical_url: https://github.com/Lanqiao-Luca/ai-java-workflow
 summary: ☕ 用 AI 辅助 Java / Spring Boot 研发（AI for Java / AI for Spring）｜需求、实现、测试、审查与交付｜Graph → Loop → Workflow
   → Agent / Skill、虚构可运行案例及 worktree / Docker 工具｜面向业务开发，非 Spring AI 框架实现
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Lanqiao-Luca/ai-java-workflow
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 275
-    forks: 12
+    stars: 303
+    forks: 13
     open_issues: 0
   kind: product
 ---

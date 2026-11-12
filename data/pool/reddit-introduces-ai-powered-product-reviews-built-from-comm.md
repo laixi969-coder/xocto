@@ -1,0 +1,41 @@
+---
+slug: reddit-introduces-ai-powered-product-reviews-built-from-comm
+name: Reddit introduces AI-powered product reviews built from community discussions
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOFZ1RkNrZ2Jrc0h3RlJsaHlnSDgyTjhXMEl6WDl5ZGNuTUt4TGRtZVpESi02eEsyaFZwZEFGdjM2Qi1FTDE2Q3hJNWtmZVc0OFRBZVczY1lMeFZ4QUxLVFZrdUVKMVQ3YmNWWVZLOS0tb0E3YzFBVjNQb3JBQ0RRVGR0cU1lUVd4Z3JLTDBLQlR3YWFTRGNkZXhNSzRQZW01aldKS0hDblJBVWJNd1NjdXhwS3ZVbEpKVGFqY2NLX25rT3FKbW5TUWh0NUpyUmlFdDJQN3RPZ9IB1wFBVV95cUxPOFZ1RkNrZ2Jrc0h3RlJsaHlnSDgyTjhXMEl6WDl5ZGNuTUt4TGRtZVpESi02eEsyaFZwZEFGdjM2Qi1FTDE2Q3hJNWtmZVc0OFRBZVczY1lMeFZ4QUxLVFZrdUVKMVQ3YmNWWVZLOS0tb0E3YzFBVjNQb3JBQ0RRVGR0cU1lUVd4Z3JLTDBLQlR3YWFTRGNkZXhNSzRQZW01aldKS0hDblJBVWJNd1NjdXhwS3ZVbEpKVGFqY2NLX25rT3FKbW5TUWh0NUpyUmlFdDJQN3RPZw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOFZ1RkNrZ2Jrc0h3RlJsaHlnSDgyTjhXMEl6WDl5ZGNuTUt4TGRtZVpESi02eEsyaFZwZEFGdjM2Qi1FTDE2Q3hJNWtmZVc0OFRBZVczY1lMeFZ4QUxLVFZrdUVKMVQ3YmNWWVZLOS0tb0E3YzFBVjNQb3JBQ0RRVGR0cU1lUVd4Z3JLTDBLQlR3YWFTRGNkZXhNSzRQZW01aldKS0hDblJBVWJNd1NjdXhwS3ZVbEpKVGFqY2NLX25rT3FKbW5TUWh0NUpyUmlFdDJQN3RPZ9IB1wFBVV95cUxPOFZ1RkNrZ2Jrc0h3RlJsaHlnSDgyTjhXMEl6WDl5ZGNuTUt4TGRtZVpESi02eEsyaFZwZEFGdjM2Qi1FTDE2Q3hJNWtmZVc0OFRBZVczY1lMeFZ4QUxLVFZrdUVKMVQ3YmNWWVZLOS0tb0E3YzFBVjNQb3JBQ0RRVGR0cU1lUVd4Z3JLTDBLQlR3YWFTRGNkZXhNSzRQZW01aldKS0hDblJBVWJNd1NjdXhwS3ZVbEpKVGFqY2NLX25rT3FKbW5TUWh0NUpyUmlFdDJQN3RPZw?oc=5
+summary: Reddit introduces AI-powered product reviews built from community discussions BMI
+first_seen: '2026-11-12T03:01:17Z'
+last_seen: '2026-11-12T03:01:17Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOFZ1RkNrZ2Jrc0h3RlJsaHlnSDgyTjhXMEl6WDl5ZGNuTUt4TGRtZVpESi02eEsyaFZwZEFGdjM2Qi1FTDE2Q3hJNWtmZVc0OFRBZVczY1lMeFZ4QUxLVFZrdUVKMVQ3YmNWWVZLOS0tb0E3YzFBVjNQb3JBQ0RRVGR0cU1lUVd4Z3JLTDBLQlR3YWFTRGNkZXhNSzRQZW01aldKS0hDblJBVWJNd1NjdXhwS3ZVbEpKVGFqY2NLX25rT3FKbW5TUWh0NUpyUmlFdDJQN3RPZ9IB1wFBVV95cUxPOFZ1RkNrZ2Jrc0h3RlJsaHlnSDgyTjhXMEl6WDl5ZGNuTUt4TGRtZVpESi02eEsyaFZwZEFGdjM2Qi1FTDE2Q3hJNWtmZVc0OFRBZVczY1lMeFZ4QUxLVFZrdUVKMVQ3YmNWWVZLOS0tb0E3YzFBVjNQb3JBQ0RRVGR0cU1lUVd4Z3JLTDBLQlR3YWFTRGNkZXhNSzRQZW01aldKS0hDblJBVWJNd1NjdXhwS3ZVbEpKVGFqY2NLX25rT3FKbW5TUWh0NUpyUmlFdDJQN3RPZw?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
+  kind: news
+---
+
+# Reddit introduces AI-powered product reviews built from community discussions
+
+Reddit introduces AI-powered product reviews built from community discussions BMI
+
+## 笔记
+
+

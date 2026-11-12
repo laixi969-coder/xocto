@@ -419,3 +419,32 @@
     send it to a third-party search engine. Each result includes the page’s title, URL, publication date,
     and an extract relevant to the query. Requests can include or exclude domains, and limit results to
     a publication date range. On AWS Lambda , Amazon Elastic Container Service (Amazon ECS) , or A
+- id: ev-1754e1cb490d5eb4
+  project_slug: search
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/
+  title: Introducing the Web Search API on Amazon Bedrock AgentCore
+  published_at: '2026-11-11T23:13:16Z'
+  collected_at: '2026-11-12T03:00:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: AI agents and applications that answer questions about recent events, product releases, prices,
+    or regulations need information newer than their model’s training data. Until now, Web Search on Amazon
+    Bedrock AgentCore delivered that information to agents through AgentCore Gateway , a capability of
+    Amazon Bedrock AgentCore. That means creating a gateway and a web search target and calling the tool
+    from an MCP client. The setup fits platform teams that share one search policy across many agents,
+    but it’s more than you need when your own code only requires search results. Today, we’re announcing
+    the Web Search API on Amazon Bedrock AgentCore. With it, your own code can search the web with a single
+    API call. It returns ranked results from a web index that Amazon operates, each with a text extract
+    and, when available, the page title, URL, and publication time. You call it from the AWS SDKs or the
+    AWS Command Line Interface (AWS CLI), signed with the same AWS Identity and Access Management (
+- id: ev-1dd701fa67c9b43a
+  project_slug: search
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE41WVBSXzBMV0llX0xoZVItcmRNcE1jbTJldkxRVnVSeTRpaDk1ZFl0a0h4UDdrczVwSloyOEk3eVNYRHBYclQyU3RFM1BSOW1nUUlN?oc=5
+  title: AI Startup Trina Raises USD 114,000 from Partners Lounge for Team AI and AI Search Marketing
+    Services
+  published_at: '2026-11-11T07:51:09Z'
+  collected_at: '2026-11-12T03:01:17Z'
+  source_kind: market_signal
+  tier: independent
+  fact: AI Startup Trina Raises USD 114,000 from Partners Lounge for Team AI and AI Search Marketing Services
+    Wowtale

@@ -21,18 +21,18 @@ canonical_url: https://github.com/dabingfy-dot/solo-to-team-skills
 summary: 'Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn
   from real cases. 一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dabingfy-dot/solo-to-team-skills
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 566
-    forks: 59
-    open_issues: 19
+    stars: 682
+    forks: 67
+    open_issues: 22
   kind: product
 ---
 

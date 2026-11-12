@@ -20,16 +20,16 @@ url: https://www.hirundo.io/blog/decision-models-inherit-their-base-models-risks
 canonical_url: https://hirundo.io/blog/decision-models-inherit-their-base-models-risks-hirundo-fixes-them
 summary: We built a way to remove inherited biases from decision models
 first_seen: '2026-11-11T01:56:51Z'
-last_seen: '2026-11-11T01:56:51Z'
+last_seen: '2026-11-12T02:59:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.hirundo.io/blog/decision-models-inherit-their-base-models-risks-hirundo-fixes-them
-  seen_at: '2026-11-11T01:56:51Z'
+  seen_at: '2026-11-12T02:59:38Z'
   metrics:
-    points: 5
+    points: 6
     comments: 2
   kind: news
 ---

@@ -1,0 +1,18 @@
+- id: ev-922eaeab9e72fe4e
+  project_slug: how-dxc-technology-built-a-multi-model-ai-substrate-on-amazo
+  url: https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/
+  title: How DXC Technology built a multi-model AI substrate on Amazon Bedrock
+  published_at: '2026-11-11T20:45:45Z'
+  collected_at: '2026-11-12T03:00:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'This post is co-written with Nick Tamburro of DXC Technology. When an AI agent can act on a production
+    server at a bank or a hospital, access to a capable foundation model is only the starting point. Recent
+    public incidents, in which autonomous agents took destructive actions their operators never intended,
+    show that the real risk is rarely the model alone. It’s an agent holding more authority than its task
+    requires, with nothing in the architecture to stop it. Avoiding that starts with a substrate that
+    governs model access at the infrastructure level. Amazon Bedrock provides that substrate. Through
+    a single managed interface, it gives DXC OASIS access to multiple foundation models: Anthropic Claude,
+    Amazon Nova , Meta Llama, and open-weight families. Amazon Bedrock Guardrails enforce content filtering,
+    personally identifiable information (PII) redaction, and denied-topic policies uniformly across every
+    model. AWS PrivateLink keeps inference traffic within the customer’s virtual privat'

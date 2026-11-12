@@ -22,16 +22,16 @@ summary: 'Self-hosted media center for live TV, a Jellyfin and Plex alternative:
   (IPTV) playlists you are entitled to use, EPG guide, timeshift, DVR, movies and series. Apps for Android,
   Android TV, Fire TV and LG webOS.'
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://vodmax.silirim.com
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 73
+    stars: 75
     forks: 8
     open_issues: 8
   kind: product

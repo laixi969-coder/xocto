@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-11-11T01:57:20Z'
+last_seen: '2026-11-12T03:01:17Z'
 status: pending_filter
 sources:
 - hackernews
@@ -218,6 +218,16 @@ sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/
   seen_at: '2026-11-11T01:57:20Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/
+  seen_at: '2026-11-12T03:00:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE41WVBSXzBMV0llX0xoZVItcmRNcE1jbTJldkxRVnVSeTRpaDk1ZFl0a0h4UDdrczVwSloyOEk3eVNYRHBYclQyU3RFM1BSOW1nUUlN?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
   metrics: {}
   kind: news
 ---

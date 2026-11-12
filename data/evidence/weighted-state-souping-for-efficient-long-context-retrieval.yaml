@@ -1,0 +1,14 @@
+- id: ev-3a04919a9937290f
+  project_slug: weighted-state-souping-for-efficient-long-context-retrieval
+  url: https://machinelearning.apple.com/research/weighted-state-souping
+  title: Weighted State Souping for Efficient Long-Context Retrieval
+  published_at: '2026-11-10T00:00:00Z'
+  collected_at: '2026-11-12T03:00:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: This paper was accepted at the Workshop on Personalized, Aligned, Long-term Memory for AI Systems
+    (PALM) at NeurIPS 2026. State space models (SSMs) combine fast inference and fixed state size with
+    competitive language-modeling performance. Recently, state souping has been proposed as a procedure
+    whereby an SSM independently encodes chunks of tokens like documents, tool definitions, or memory
+    records. The resulting state encodings may be cached and recombined to cheaply construct a context
+    for downstream queries. However, both state souping and vanilla SSMs deteriorate on long, crowded…

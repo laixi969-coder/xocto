@@ -21,16 +21,16 @@ canonical_url: https://github.com/alexturkey/dubworld
 summary: 'Local-first AI video dubbing pipeline: transcription, translation, speech synthesis and timing
   alignment.'
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/alexturkey/dubworld
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 57
+    stars: 59
     forks: 6
     open_issues: 7
   kind: product

@@ -1,0 +1,14 @@
+- id: ev-8c2838eaeed7ff0c
+  project_slug: on-the-importance-of-gating-memorization-vs-in-context-learn
+  url: https://machinelearning.apple.com/research/gating-memorization-in-context
+  title: 'On the Importance of Gating: Memorization vs. In-Context Learning in State Space Models'
+  published_at: '2026-11-10T00:00:00Z'
+  collected_at: '2026-11-12T03:00:02Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: State Space Models (SSMs) have emerged as a compelling alternative to Transformers, enabling sequence
+    modeling with constant memory and linear compute. Although SSMs exhibit reasonable performance and
+    favorable computational characteristics, they continue to lag behind Transformers on tasks that require
+    in-context learning and precise retrieval, slowing their adoption for large-scale language modeling.
+    In this work, we demonstrate that both the success and failure of SSMs in these domains can be explained
+    by studying the role of the gating mechanism, a prevalent component in modern recurrent…

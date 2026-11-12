@@ -21,18 +21,18 @@ canonical_url: https://github.com/owenliu0924/Miyoria
 summary: An autonomous AI VTuber for Discord. She chats, joins voice, sings song requests, plays Minecraft
   and goes live, and she decides what to do herself, inside the guardrails you set.
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/owenliu0924/Miyoria
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 54
+    stars: 55
     forks: 3
-    open_issues: 3
+    open_issues: 9
   kind: product
 ---
 

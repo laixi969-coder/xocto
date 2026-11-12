@@ -20,7 +20,7 @@ url: https://news.ycombinator.lol
 canonical_url: https://news.ycombinator.lol
 summary: Pointless but mostly-exact clone of Hacker News
 first_seen: '2026-10-07T18:05:35Z'
-last_seen: '2026-11-11T01:56:51Z'
+last_seen: '2026-11-12T03:01:17Z'
 status: pending_filter
 sources:
 - hackernews
@@ -111,6 +111,11 @@ sightings:
   metrics:
     points: 42
     comments: 9
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNS29ndktNY05wLUFpY0c4VmtnMzNKdUVJdUUyQ1NObnMtNGpXbjJ1ZlIxMWhRYV9zd2ctVkloVDlfQlZ0VXE0MDZtS3BaYThYVEU4UktaNk1pNWswZ3ZSOFBabV9OeF81bTVXd3Z5RG0xd3Z5a1QtVUpCbC1SeTVETUN4NGFRTnFES05HS2RiZ3dzTkx3TE1WZ3ptQ3VFb1NvNTQ3WHFraUZyOHI0ZU1Ec2F6cjFxYWxSc3Z4RzdGZzRkQktWQjRMRjdRUS1Jd1R4ZVNFM25VOEItSnlhamgwbGNRZk8yZjA?oc=5
+  seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
   kind: news
 ---
 

@@ -20,18 +20,18 @@ url: https://github.com/QriDoki/in-search-of-lost-time-translation-project
 canonical_url: https://github.com/QriDoki/in-search-of-lost-time-translation-project
 summary: 《追忆似水年华》AI翻译
 first_seen: '2026-11-09T09:12:39Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/QriDoki/in-search-of-lost-time-translation-project
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 158
+    stars: 159
     forks: 4
-    open_issues: 0
+    open_issues: 4
   kind: product
 ---
 

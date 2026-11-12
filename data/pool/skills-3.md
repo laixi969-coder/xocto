@@ -20,17 +20,17 @@ url: https://github.com/benjitaylor/skills
 canonical_url: https://github.com/benjitaylor/skills
 summary: Skills for AI coding agents.
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/benjitaylor/skills
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 3012
-    forks: 205
+    stars: 3116
+    forks: 209
     open_issues: 0
   kind: product
 ---

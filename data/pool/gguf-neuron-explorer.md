@@ -21,17 +21,17 @@ canonical_url: https://github.com/balaena01/gguf-neuron-explorer
 summary: Find, rank and steer MLP neurons of GGUF models on llama.cpp; export control vectors; 3D web
   UI and MCP server
 first_seen: '2026-10-29T01:48:31Z'
-last_seen: '2026-11-09T01:44:47Z'
+last_seen: '2026-11-12T02:59:41Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/balaena01/gguf-neuron-explorer
-  seen_at: '2026-11-09T01:44:47Z'
+  seen_at: '2026-11-12T02:59:41Z'
   metrics:
-    stars: 92
-    forks: 8
+    stars: 95
+    forks: 9
     open_issues: 0
   kind: product
 ---
