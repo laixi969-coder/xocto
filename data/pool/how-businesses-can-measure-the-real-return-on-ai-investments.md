@@ -1,0 +1,41 @@
+---
+slug: how-businesses-can-measure-the-real-return-on-ai-investments
+name: How businesses can measure the real return on AI investments
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU3ZUVy1aLWZJcG1nOEVVTWJQVjl4OGc1cndWb2lGWmpCN0xVWHJEMm9yS1lrYzFQbG16MjA5eVI3UFVhUk4xZ24wbGhxQ2FOQU1lS3EwcFNGVEZpTEtKNWVlbUxQZ0NvXzQ3NV9LMF9DUmVDcDJwdDd6MXNEaUtMT1BDRWVvRXVGYjNuRUhhcW5zUjZwZHhJTXlkelJMLU1YR2ZsV3FRQk5lNHpIcWxVTmFlWl9IYlhIbTQzU2Vib1BoWU1KY0hfQWtKb2hzWjRsajhz0gHYAUFVX3lxTE5RYjNmeDlJOUZSV2p5SVVCM1BGQ1A1eEZ4V29ZQ3lzZ2p0Vjh4ajhsYlpCR0VWNmszZ29LbDRzNTl3NHdmS3VDOEVjcWNOSEM2UWhwMXRRMVNvWEtFbW1lclAyRFBaX3J4a1ZiX3BXWHJxUTFzdXV1endXUXlnS0lFZVF6TVFSaW9CZzFvWmhQSXlGUkszVllKRTdGVUI3TlMzcHBUWE1CTHViNmE2MjVMQ1BWNlZVYTBUc3JPVUk1RndSYnNYaGhWRi1BLW1WdmxmaTRkYjM3bQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU3ZUVy1aLWZJcG1nOEVVTWJQVjl4OGc1cndWb2lGWmpCN0xVWHJEMm9yS1lrYzFQbG16MjA5eVI3UFVhUk4xZ24wbGhxQ2FOQU1lS3EwcFNGVEZpTEtKNWVlbUxQZ0NvXzQ3NV9LMF9DUmVDcDJwdDd6MXNEaUtMT1BDRWVvRXVGYjNuRUhhcW5zUjZwZHhJTXlkelJMLU1YR2ZsV3FRQk5lNHpIcWxVTmFlWl9IYlhIbTQzU2Vib1BoWU1KY0hfQWtKb2hzWjRsajhz0gHYAUFVX3lxTE5RYjNmeDlJOUZSV2p5SVVCM1BGQ1A1eEZ4V29ZQ3lzZ2p0Vjh4ajhsYlpCR0VWNmszZ29LbDRzNTl3NHdmS3VDOEVjcWNOSEM2UWhwMXRRMVNvWEtFbW1lclAyRFBaX3J4a1ZiX3BXWHJxUTFzdXV1endXUXlnS0lFZVF6TVFSaW9CZzFvWmhQSXlGUkszVllKRTdGVUI3TlMzcHBUWE1CTHViNmE2MjVMQ1BWNlZVYTBUc3JPVUk1RndSYnNYaGhWRi1BLW1WdmxmaTRkYjM3bQ?oc=5
+summary: How businesses can measure the real return on AI investments The Times of India
+first_seen: '2026-11-13T02:39:12Z'
+last_seen: '2026-11-13T02:39:12Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU3ZUVy1aLWZJcG1nOEVVTWJQVjl4OGc1cndWb2lGWmpCN0xVWHJEMm9yS1lrYzFQbG16MjA5eVI3UFVhUk4xZ24wbGhxQ2FOQU1lS3EwcFNGVEZpTEtKNWVlbUxQZ0NvXzQ3NV9LMF9DUmVDcDJwdDd6MXNEaUtMT1BDRWVvRXVGYjNuRUhhcW5zUjZwZHhJTXlkelJMLU1YR2ZsV3FRQk5lNHpIcWxVTmFlWl9IYlhIbTQzU2Vib1BoWU1KY0hfQWtKb2hzWjRsajhz0gHYAUFVX3lxTE5RYjNmeDlJOUZSV2p5SVVCM1BGQ1A1eEZ4V29ZQ3lzZ2p0Vjh4ajhsYlpCR0VWNmszZ29LbDRzNTl3NHdmS3VDOEVjcWNOSEM2UWhwMXRRMVNvWEtFbW1lclAyRFBaX3J4a1ZiX3BXWHJxUTFzdXV1endXUXlnS0lFZVF6TVFSaW9CZzFvWmhQSXlGUkszVllKRTdGVUI3TlMzcHBUWE1CTHViNmE2MjVMQ1BWNlZVYTBUc3JPVUk1RndSYnNYaGhWRi1BLW1WdmxmaTRkYjM3bQ?oc=5
+  seen_at: '2026-11-13T02:39:12Z'
+  metrics: {}
+  kind: news
+---
+
+# How businesses can measure the real return on AI investments
+
+How businesses can measure the real return on AI investments The Times of India
+
+## 笔记
+
+

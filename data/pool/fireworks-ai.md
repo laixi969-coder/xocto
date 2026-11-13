@@ -23,11 +23,12 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Enabler stage). Ba
   capacity and multi-model routing outstrips supply, and although all well-funded there is not yet one
   clear winner pulling away.
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-11-11T01:57:31Z'
+last_seen: '2026-11-13T02:39:05Z'
 status: pending_filter
 sources:
 - ia40
 - newssearch
+- marketfeeds
 sightings:
 - source: ia40
   url: https://fireworks.ai/
@@ -64,6 +65,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMic0FVX3lxTE85YlBzVEY0M1ByVW9IM0lCRWJ5Tm9QOGZiVldFMkw2WGRkYmFyTDRqWDdKS0kwVlhXbUhwYmZxTkE5RlFuYks1MEpUSHhqV1dfbVRqcF9tMlB4NGphYVpxNWpTMDBjTkdfVU5OY3BVbjZ2enc?oc=5
   seen_at: '2026-11-11T01:57:31Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/
+  seen_at: '2026-11-13T02:39:05Z'
   metrics: {}
   kind: news
 ---

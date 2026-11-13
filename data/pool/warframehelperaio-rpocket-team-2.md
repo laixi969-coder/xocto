@@ -22,16 +22,16 @@ summary: 🎯 Warframe Hack 2026 — free Warframe cheat for Windows 10/11. Enem
   Mode, Infinite Energy Ammo, NoClip, Z-Axis Teleport, Auto-Farm, Unlock All Mods, Streamproof. Works
   on Steam.
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/UntoYorwraith/WarframeHelperAIO-rpocket-team
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 40
+    stars: 50
     forks: 0
     open_issues: 0
   kind: product

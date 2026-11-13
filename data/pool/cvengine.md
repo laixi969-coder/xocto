@@ -21,17 +21,17 @@ canonical_url: https://github.com/hevnsnt/CVEngine
 summary: AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability
   validation, and developer-agent MCP integration.
 first_seen: '2026-10-27T01:29:50Z'
-last_seen: '2026-11-12T02:59:41Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/hevnsnt/CVEngine
-  seen_at: '2026-11-12T02:59:41Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 711
-    forks: 115
+    stars: 712
+    forks: 116
     open_issues: 8
   kind: product
 ---

@@ -1,0 +1,187 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/agile-robots-f8dc2bce",
+    "city": "Gilching",
+    "country": "Germany",
+    "description": "Agile Robots is an artificial intelligence robot maker.",
+    "exit": null,
+    "founded": 2018,
+    "founders": [],
+    "id": "F8DC2BCE-D5E8-4D97-881F-3666E1EB6456",
+    "investors": [
+      "Abu Dhabi Royal Group",
+      "C Ventures",
+      "Foxconn",
+      "Foxconn Industrial Internet (FII)",
+      "Hillhouse Ventures",
+      "Hitachi Ventures",
+      "Linear Capital",
+      "Midas",
+      "Nvidia",
+      "Sequoia Capital",
+      "SoftBank",
+      "T Capital",
+      "Xiaomi Group"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Agile Robots",
+    "rounds": [
+      {
+        "amountEur": 451222814,
+        "date": "2026-11-12",
+        "id": "2C817F55-81DD-4811-8C3C-1BF8EEAA93CD",
+        "investors": [
+          "Hitachi Ventures",
+          "Nvidia",
+          "SoftBank",
+          "T Capital"
+        ],
+        "rawRoundType": "series f",
+        "stage": "Series D+",
+        "url": "https://funding.tech.eu/deals/2C817F55-81DD-4811-8C3C-1BF8EEAA93CD"
+      },
+      {
+        "amountEur": null,
+        "date": "2026-10-20",
+        "id": "A166A410-8584-4AE5-B2C8-90DABF4DC591",
+        "investors": [
+          "Nvidia"
+        ],
+        "rawRoundType": "funding round",
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/A166A410-8584-4AE5-B2C8-90DABF4DC591"
+      },
+      {
+        "amountEur": 27917365,
+        "date": "2022-04-25",
+        "id": "7AF3A6BD-F36C-474C-9A18-2A8C00DD434F",
+        "investors": [
+          "Foxconn Industrial Internet (FII)"
+        ],
+        "rawRoundType": "funding round",
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/7AF3A6BD-F36C-474C-9A18-2A8C00DD434F"
+      },
+      {
+        "amountEur": 185842203,
+        "date": "2021-09-09",
+        "id": "2A0DEF89-C58E-40C0-8B34-DE9D1DE63D19",
+        "investors": [
+          "Abu Dhabi Royal Group",
+          "Foxconn",
+          "Hillhouse Ventures",
+          "Linear Capital",
+          "Midas",
+          "Sequoia Capital",
+          "SoftBank",
+          "Xiaomi Group"
+        ],
+        "rawRoundType": "funding round",
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/2A0DEF89-C58E-40C0-8B34-DE9D1DE63D19"
+      },
+      {
+        "amountEur": 0,
+        "date": "2020-07-04",
+        "id": "5C895A8D-584F-41CD-E316-08D91092C887",
+        "investors": [
+          "C Ventures"
+        ],
+        "rawRoundType": "series a",
+        "stage": "Series A",
+        "url": "https://funding.tech.eu/deals/5C895A8D-584F-41CD-E316-08D91092C887"
+      }
+    ],
+    "roundsCount": 5,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "up",
+            "label": "€100M+ raised"
+          },
+          {
+            "effect": "up",
+            "label": "5 rounds raised"
+          },
+          {
+            "effect": "up",
+            "label": "8y since founding (typical exit age)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 39
+      },
+      "heat": 77,
+      "raiseNext": {
+        "base": 53,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 19
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 664982382,
+    "url": "https://funding.tech.eu/companies/F8DC2BCE-D5E8-4D97-881F-3666E1EB6456",
+    "website": "http://www.agile-robots.com/"
+  },
+  "round": {
+    "amountEur": 451222814,
+    "amountEurStored": null,
+    "amountNative": 500000000,
+    "company": {
+      "city": "Gilching",
+      "country": "Germany",
+      "founded": 2018,
+      "id": "F8DC2BCE-D5E8-4D97-881F-3666E1EB6456",
+      "name": "Agile Robots",
+      "pageUrl": "https://funding.tech.eu/companies/agile-robots-f8dc2bce",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-11-12",
+    "fx": {
+      "asOf": "2026-11-12",
+      "rate": 1.1081,
+      "source": "ECB"
+    },
+    "id": "2C817F55-81DD-4811-8C3C-1BF8EEAA93CD",
+    "investors": [
+      "SoftBank",
+      "T Capital",
+      "Hitachi Ventures",
+      "Nvidia"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/2C817F55-81DD-4811-8C3C-1BF8EEAA93CD",
+    "rawRoundType": "series f",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Series D+",
+    "url": "/deals/2C817F55-81DD-4811-8C3C-1BF8EEAA93CD"
+  }
+}

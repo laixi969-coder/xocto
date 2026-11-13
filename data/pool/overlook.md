@@ -20,18 +20,18 @@ url: https://bnlqn.github.io/overlook/
 canonical_url: https://bnlqn.github.io/overlook
 summary: Your whole homelab on one page, laid out for you.
 first_seen: '2026-11-09T09:12:39Z'
-last_seen: '2026-11-12T02:59:41Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://bnlqn.github.io/overlook/
-  seen_at: '2026-11-12T02:59:41Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 243
+    stars: 249
     forks: 13
-    open_issues: 14
+    open_issues: 18
   kind: product
 ---
 

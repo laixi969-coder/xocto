@@ -22,16 +22,16 @@ summary: Remote control for your pi coding agent. Pi-Remote mirrors live pi term
   so you can watch runs, answer prompts, and send commands from your phone — end-to-end encrypted over
   a self-hosted relay.
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-12T02:59:41Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Xpropel/Pi-Remote
-  seen_at: '2026-11-12T02:59:41Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 329
+    stars: 328
     forks: 10
     open_issues: 0
   kind: product

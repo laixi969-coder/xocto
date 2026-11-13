@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-12T03:01:17Z'
+last_seen: '2026-11-13T02:39:04Z'
 status: pending_filter
 sources:
 - hackernews
@@ -345,6 +345,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMid0FVX3lxTE1TOVZWcWNRMDVNWkk5d2dBMVd2NHA2dTA0cjRJd1ZiRWZXYmNYREljWHhCSzNNOFRERklEQkd3NDdCc3dWYlNDWTNzNnJpMU5tUUVqdnFRQXJfYzFUVUo0SlQybEdud0JfVkh1U3ZnVWtRclpDRkpB?oc=5
   seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/
+  seen_at: '2026-11-13T02:39:04Z'
   metrics: {}
   kind: news
 ---

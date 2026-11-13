@@ -52,3 +52,13 @@
   tier: behavioural
   fact: 'Run 284B DeepSeek-V4-Flash (<59GiB RAM: 41.1 cold pp, 9.1 N=1 tg, up to 25.3 spec tok/s) & 30B
     MoEs (22.4 N=1 / 111.6 spec tok/s) on 64GB CPU (0 GPUs). | repository stars: 942'
+- id: ev-be95344d82469cc3
+  project_slug: llama-modchip
+  url: https://github.com/synchopate/llama-modchip#readme
+  title: llama-modchip
+  published_at: '2026-10-29T10:17:33Z'
+  collected_at: '2026-11-13T02:38:42Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Run 284B DeepSeek-V4-Flash (<59GiB RAM: 41.1 cold pp, 9.1 N=1 tg, up to 25.3 spec tok/s) & 30B
+    MoEs (22.4 N=1 / 111.6 spec tok/s) on 64GB CPU (0 GPUs). | repository stars: 1,125'

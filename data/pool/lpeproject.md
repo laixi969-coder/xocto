@@ -20,17 +20,17 @@ url: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubb
 canonical_url: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble
 summary: Retirement Savings Are Fueling the AI Bubble
 first_seen: '2026-11-12T02:59:38Z'
-last_seen: '2026-11-12T02:59:38Z'
+last_seen: '2026-11-13T02:38:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/
-  seen_at: '2026-11-12T02:59:38Z'
+  seen_at: '2026-11-13T02:38:38Z'
   metrics:
-    points: 140
-    comments: 148
+    points: 165
+    comments: 194
   kind: news
 ---
 

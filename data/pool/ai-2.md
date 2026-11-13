@@ -20,17 +20,17 @@ url: https://cabird.com/talks/shipping-faster/
 canonical_url: https://cabird.com/talks/shipping-faster
 summary: activity, and outcomes in software engineering
 first_seen: '2026-11-12T02:59:38Z'
-last_seen: '2026-11-12T02:59:38Z'
+last_seen: '2026-11-13T02:38:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://cabird.com/talks/shipping-faster/
-  seen_at: '2026-11-12T02:59:38Z'
+  seen_at: '2026-11-13T02:38:38Z'
   metrics:
-    points: 107
-    comments: 102
+    points: 125
+    comments: 112
   kind: news
 ---
 

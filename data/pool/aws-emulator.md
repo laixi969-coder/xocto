@@ -20,17 +20,17 @@ url: https://github.com/aws/aws-emulator
 canonical_url: https://github.com/aws/aws-emulator
 summary: https:&#x2F;&#x2F;www.aboutamazon.com&#x2F;news&#x2F;aws&#x2F;how-autonomous-ai-agent... https:&#x2F;&#x2F;www.allthingsdistributed.com&#x2F;2026&#x2F;11&#x2F;aws-emulator-an...
 first_seen: '2026-11-12T02:59:38Z'
-last_seen: '2026-11-12T02:59:38Z'
+last_seen: '2026-11-13T02:38:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/aws/aws-emulator
-  seen_at: '2026-11-12T02:59:38Z'
+  seen_at: '2026-11-13T02:38:38Z'
   metrics:
-    points: 708
-    comments: 220
+    points: 967
+    comments: 264
   kind: news
 ---
 

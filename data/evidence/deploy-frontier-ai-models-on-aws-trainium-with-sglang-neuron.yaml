@@ -1,0 +1,18 @@
+- id: ev-869c379a3a3faa8d
+  project_slug: deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron
+  url: https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/
+  title: Deploy frontier AI models on AWS Trainium with SGLang-Neuron
+  published_at: '2026-11-12T22:03:34Z'
+  collected_at: '2026-11-13T02:39:04Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Today, Amazon announced that SGLang-Neuron is publicly available and can be accessed through
+    an AWS Deep Learning Container, released by RadixArk in collaboration with Annapurna Labs. With SGLang-Neuron,
+    you can serve models and generate reinforcement learning (RL) rollouts with SGLang on AWS Trainium
+    using the same SGLang interface you use today. Trainium is a portfolio of AWS AI chips that delivers
+    strong economics for AI training and inference at scale. Now, running SGLang on Trainium follows the
+    SGLang workflow you already know: you launch models through SGLang’s server interface and invoke the
+    endpoint using the same generation APIs. Underneath that interface, SGLang-Neuron runs on native PyTorch.
+    With its out-of-tree plugin design, Trainium support and SGLang core develop independently and iterate
+    faster. How SGLang runs on Trainium SGLang-Neuron is an out-of-tree plugin that connects SGLang with
+    AWS Trainium. Installing the plugin registers the neuron platform through SGLang’s p'

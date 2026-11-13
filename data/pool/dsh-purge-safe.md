@@ -21,17 +21,17 @@ canonical_url: https://github.com/CallMeGuLab/dsh-purge-safe
 summary: DeepSeek Harness 破甲：默认提示词面向国模「鸢码」，完整开放版，无付费墙，技能库与知识库全含。破解市面上收费 388u 的版本，免费公开。Jailbreak for every
   model — swap prompts per model. 求 Star 收藏 ⭐
 first_seen: '2026-11-09T09:12:39Z'
-last_seen: '2026-11-12T02:59:41Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CallMeGuLab/dsh-purge-safe
-  seen_at: '2026-11-12T02:59:41Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 153
-    forks: 129
+    stars: 169
+    forks: 138
     open_issues: 0
   kind: product
 ---

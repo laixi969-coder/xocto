@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-11-12T03:01:17Z'
+last_seen: '2026-11-13T02:39:05Z'
 status: pending_filter
 sources:
 - hackernews
@@ -228,6 +228,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE41WVBSXzBMV0llX0xoZVItcmRNcE1jbTJldkxRVnVSeTRpaDk1ZFl0a0h4UDdrczVwSloyOEk3eVNYRHBYclQyU3RFM1BSOW1nUUlN?oc=5
   seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/
+  seen_at: '2026-11-13T02:39:04Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/
+  seen_at: '2026-11-13T02:39:05Z'
   metrics: {}
   kind: news
 ---

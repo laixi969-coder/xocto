@@ -21,7 +21,7 @@ canonical_url: https://blog.google/innovation-and-ai/technology/developers-tools
 summary: Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast,
   calibrated multimodal decisions.
 first_seen: '2026-11-12T02:59:38Z'
-last_seen: '2026-11-12T03:00:02Z'
+last_seen: '2026-11-13T02:38:38Z'
 status: pending_filter
 sources:
 - hackernews
@@ -29,10 +29,10 @@ sources:
 sightings:
 - source: hackernews
   url: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
-  seen_at: '2026-11-12T02:59:38Z'
+  seen_at: '2026-11-13T02:38:38Z'
   metrics:
-    points: 293
-    comments: 93
+    points: 554
+    comments: 157
   kind: news
 - source: officialfeeds
   url: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/

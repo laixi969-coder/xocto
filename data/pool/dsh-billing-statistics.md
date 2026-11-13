@@ -22,16 +22,16 @@ summary: 'Local billing dashboard for DSH model calls: multi-platform provider/m
   tokens and spend, peak/off-peak pricing, manual CSV price import with peak windows, official-bill reconciliation,
   and HTML/PDF/CSV export.'
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-12T02:59:41Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SuLiuCanYing/dsh-billing-statistics#readme
-  seen_at: '2026-11-12T02:59:41Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 78
+    stars: 88
     forks: 0
     open_issues: 0
   kind: product

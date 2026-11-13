@@ -20,17 +20,17 @@ url: https://github.com/klad-app/klad
 canonical_url: https://github.com/klad-app/klad
 summary: a paint app your coding agent can drive (source-available)
 first_seen: '2026-11-12T02:59:38Z'
-last_seen: '2026-11-12T02:59:38Z'
+last_seen: '2026-11-13T02:38:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/klad-app/klad
-  seen_at: '2026-11-12T02:59:38Z'
+  seen_at: '2026-11-13T02:38:38Z'
   metrics:
-    points: 72
-    comments: 29
+    points: 83
+    comments: 32
   kind: product
 ---
 

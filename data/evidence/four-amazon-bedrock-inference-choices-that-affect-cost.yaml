@@ -1,0 +1,18 @@
+- id: ev-ffabff61a67361d8
+  project_slug: four-amazon-bedrock-inference-choices-that-affect-cost
+  url: https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/
+  title: Four Amazon Bedrock inference choices that affect cost
+  published_at: '2026-11-12T20:51:55Z'
+  collected_at: '2026-11-13T02:39:04Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Your Amazon Bedrock inference bill can keep climbing after you tune prompts and application logic.
+    Request-level choices can still change how many tokens the service processes and the rate applied
+    to them. Cache duration, service tier, reasoning effort, and maxTokens can affect cost without changing
+    your model or prompt. Each choice depends on the model and workload. This post shows how we tested
+    each choice and how to verify its effect from response metadata, logs, and billing data. To try these
+    settings yourself, start with the Amazon Bedrock Samples notebooks Mixed TTL Caching and Tenant Isolation
+    with Prompt Caching . For maxTokens and reasoning effort, see the 01-low-effort folder of the sample-code-for-genai-cost-management-workshop
+    GitHub repo. Each sample sets its own model ID, so change it, and the inference parameters, to match
+    the model you call. For model availability by AWS Region, refer to Models at a glance . For broader
+    decisions such as model selection, batch inference

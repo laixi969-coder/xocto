@@ -21,16 +21,16 @@ canonical_url: https://duyunzhoudyz.github.io/dyz-med-paper-skills
 summary: 医学论文写作与科研助手：面向中国医生和医学研究生的 32 个 Agent Skills，适用于 Claude Code、Codex，覆盖选题、PubMed 文献检索、中英写作、选刊投稿与审稿修回。Medical
   writing & research skills.
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://duyunzhoudyz.github.io/dyz-med-paper-skills/
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 368
+    stars: 369
     forks: 3
     open_issues: 0
   kind: product

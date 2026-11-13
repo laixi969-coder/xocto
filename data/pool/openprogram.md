@@ -20,17 +20,17 @@ url: https://github.com/FuzzyKuji/OpenProgram
 canonical_url: https://github.com/FuzzyKuji/OpenProgram
 summary: 'OpenProgram: an agent harness and desktop App for building and running programs with LLMs'
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-12T02:59:41Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/FuzzyKuji/OpenProgram
-  seen_at: '2026-11-12T02:59:41Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 58
-    forks: 6
+    stars: 71
+    forks: 7
     open_issues: 0
   kind: product
 ---

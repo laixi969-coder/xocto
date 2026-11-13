@@ -14,16 +14,32 @@
       "Foxconn",
       "Foxconn Industrial Internet (FII)",
       "Hillhouse Ventures",
+      "Hitachi Ventures",
       "Linear Capital",
       "Midas",
       "Nvidia",
       "Sequoia Capital",
       "SoftBank",
+      "T Capital",
       "Xiaomi Group"
     ],
     "methodology": "https://funding.tech.eu/methodology",
     "name": "Agile Robots",
     "rounds": [
+      {
+        "amountEur": 451222814,
+        "date": "2026-11-12",
+        "id": "2C817F55-81DD-4811-8C3C-1BF8EEAA93CD",
+        "investors": [
+          "Hitachi Ventures",
+          "Nvidia",
+          "SoftBank",
+          "T Capital"
+        ],
+        "rawRoundType": "series f",
+        "stage": "Series D+",
+        "url": "https://funding.tech.eu/deals/2C817F55-81DD-4811-8C3C-1BF8EEAA93CD"
+      },
       {
         "amountEur": null,
         "date": "2026-10-20",
@@ -76,12 +92,12 @@
         "url": "https://funding.tech.eu/deals/5C895A8D-584F-41CD-E316-08D91092C887"
       }
     ],
-    "roundsCount": 4,
+    "roundsCount": 5,
     "sectors": [
       "AI"
     ],
     "signals": {
-      "confidence": "medium",
+      "confidence": "high",
       "exit": {
         "base": 11,
         "factors": [
@@ -91,7 +107,7 @@
           },
           {
             "effect": "up",
-            "label": "4 rounds raised"
+            "label": "5 rounds raised"
           },
           {
             "effect": "up",
@@ -99,33 +115,33 @@
           },
           {
             "effect": "up",
-            "label": "Recent equity round, but funding momentum is down (may be rescue financing)"
+            "label": "Recently backed by strong-exit-track investors"
           }
         ],
-        "score": 26
+        "score": 39
       },
-      "heat": 44,
+      "heat": 77,
       "raiseNext": {
-        "base": 30,
+        "base": 53,
         "factors": [
           {
             "effect": "down",
             "label": "Raised very recently"
           },
           {
-            "effect": "down",
-            "label": "Down/flat last round"
+            "effect": "up",
+            "label": "Up-round momentum"
           },
           {
             "effect": "down",
             "label": "Low backer re-investment"
           }
         ],
-        "score": 9
+        "score": 19
       }
     },
     "source": "Tech.eu Funding Explorer",
-    "totalEur": 213759568,
+    "totalEur": 664982382,
     "url": "https://funding.tech.eu/companies/F8DC2BCE-D5E8-4D97-881F-3666E1EB6456",
     "website": "http://www.agile-robots.com/"
   },

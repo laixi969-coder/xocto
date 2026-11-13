@@ -23,7 +23,7 @@ summary: "这个网站注册就送 15 美元额度，用来注册 Muse 只用几
   \ 也可以直接地址栏输入这个路径:  https://cloud.browser-use.com/browser\r\n- 点击右上角 “Launch & Open” ,   这时候会弹出一个浏览器窗口,\
   \ 地址栏输入 http://muse.ai ,  \r\n- 按正常流程注册即可\r\n- 结束后记得右上角关闭这个实例，确保安全"
 first_seen: '2026-09-25T04:43:34Z'
-last_seen: '2026-11-12T03:01:17Z'
+last_seen: '2026-11-13T02:39:05Z'
 status: pending_filter
 sources:
 - v2ex
@@ -275,6 +275,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNZEpmaVo1QUtueWlqZ0o2QWc1TGVMbVhGMG15R2tOVnNXWWZzLTgweUdpNVpfalE2RTVwakh1VHNqZFlFTDNocUhJYUp3akJFM2hTMDVXZmEwbVpNU045eGxjdGZDV2FtNGwycGx1T2ZGRlZYX3Z6b2JnVnBOOHU0SlVlSEhKZ3RBNEdqNFdCLW00VXlvWERTOQ?oc=5
   seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/
+  seen_at: '2026-11-13T02:39:04Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/
+  seen_at: '2026-11-13T02:39:05Z'
   metrics: {}
   kind: news
 ---

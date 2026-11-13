@@ -21,16 +21,16 @@ canonical_url: https://github.com/DruidavShadow23464/local-ai-resocket-telegram
 summary: An Autonomous Dual-Model Private AI Assistant with Telegram Voice/Chat interface, ComfyUI 720p
   HD Video Generation, Dynamic Scheduling, Real-Time Web Browsing & Self-Evolving Markdown Skill Memory.
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-10T04:07:38Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/DruidavShadow23464/local-ai-resocket-telegram
-  seen_at: '2026-11-10T04:07:38Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 57
+    stars: 64
     forks: 0
     open_issues: 0
   kind: product

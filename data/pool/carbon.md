@@ -36,7 +36,7 @@ url: https://carbon.ms/self-hosted
 canonical_url: https://carbon.ms/self-hosted
 summary: An open-source manufacturing ERP/MES/QMS
 first_seen: '2026-09-24T00:45:17Z'
-last_seen: '2026-11-11T01:57:21Z'
+last_seen: '2026-11-13T02:39:12Z'
 status: pending_filter
 sources:
 - hackernews
@@ -96,6 +96,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout
   seen_at: '2026-11-11T01:57:21Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WRzktT1l4ZTB4RnEwYUJUVEM1dEJlYXRHYzEwVXIwTUJZS2xabW1HNVNEajJDM0sySVpxRjVKN0pxMWdndnJDa3VDY0pOX3R5VWphLVN5cUVHNkwyaWlmZA?oc=5
+  seen_at: '2026-11-13T02:39:12Z'
   metrics: {}
   kind: news
 ---

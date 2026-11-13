@@ -20,7 +20,7 @@ url: https://wave.subworkflow.ai/
 canonical_url: https://wave.subworkflow.ai
 summary: Layered gradient wave backgrounds using Three.js and shaders
 first_seen: '2026-09-25T12:34:56Z'
-last_seen: '2026-11-12T03:00:03Z'
+last_seen: '2026-11-13T02:39:12Z'
 status: pending_filter
 sources:
 - hackernews
@@ -73,6 +73,16 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/
   seen_at: '2026-11-12T03:00:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaVZUOG9HRmZyRmRyTG5ROEFyVF9xaG81aXhxbTZKd19GT0FZRnptRXNTZFYyeUh4MXpCTThxc2pDUmFYaFhlTlp3T1RRanFiY1NpeXpvR3EyenRvNnlVZjU4dDB0eXpTRmZFYmlNWWctVWF5YnBPNWxZNzhhNTgyZC1uTzZLQXRIbFpKQTIyT2FzVHhEQ0pyUGtUVlk1b3FJRDY0NTFLV3kybjlIWThFNzJQQWRGbXlyVWJjZkxVVGpia0RuRUtJNzhuUGI2TFZSR2FHbg?oc=5
+  seen_at: '2026-11-13T02:39:12Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE9FbVo3Smx0M0NyM0NhM3JfU1lZMTQ3NU5udmJaWXJDSmhsTlRUU29HWW5mbjVvSlNvU01ma1Nqa2VBODdROXdZSEhIYTJMV2JuSE1CbDdBT3VabFpQUDlvcUdKVV94YnJQSlpUQlBlSHI5Mm5sR2c?oc=5
+  seen_at: '2026-11-13T02:39:12Z'
   metrics: {}
   kind: news
 ---

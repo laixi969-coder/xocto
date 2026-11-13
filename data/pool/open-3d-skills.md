@@ -22,17 +22,17 @@ summary: 'Eight agent skills for 3D and animated websites: three.js scenes from 
   video, cursor rigs, exploded views, AI motion assets, browser checks and 60 fps recording. Claude Code,
   Codex, Cursor, Gemini CLI.'
 first_seen: '2026-11-02T01:31:13Z'
-last_seen: '2026-11-12T02:59:41Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Moh4696/open-3d-skills
-  seen_at: '2026-11-12T02:59:41Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 346
-    forks: 46
+    stars: 358
+    forks: 47
     open_issues: 2
   kind: product
 ---

@@ -1,0 +1,18 @@
+- id: ev-6c24f8f0f9f4c071
+  project_slug: build-composable-interoperable-multi-agent-systems-with-a2a
+  url: https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/
+  title: Build composable, interoperable multi-agent systems with A2A on AWS
+  published_at: '2026-11-12T15:42:21Z'
+  collected_at: '2026-11-13T02:39:04Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Agents in multi-agent systems that span organizational boundaries often need to collaborate in
+    a composable, interoperable way, with agents that other organizations build and run. They need a way
+    to discover each other, communicate, and exchange tasks without exposing internals or requiring the
+    same framework on both sides. The Agent-to-Agent (A2A) protocol addresses this constraint. Without
+    A2A, building composable multi-agent systems across organizational boundaries requires custom integration
+    code for each customer and framework. Independent software vendors (ISVs) can instead build composable,
+    interoperable agents that work with the A2A-compatible frameworks their customers already use. While
+    we frame this post around the ISV use case, the pattern also applies to organizations that expose
+    agents across boundaries, whether to partners, customers, or internal teams that use different frameworks.
+    As your system grows, you add skills by registering Agent Cards with the orchestrator, wi

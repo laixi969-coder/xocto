@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-12T03:01:17Z'
+last_seen: '2026-11-13T02:39:12Z'
 status: pending_filter
 sources:
 - producthunt
@@ -523,6 +523,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSVlLbDAwMnp2cUhSYTB2M0RYd0dKNkJpRENIYU93UVpqZWlWdW5fczE1RWFwcXdCbU1LVzJmSms0ZktwZVhHOG1FNnF3Q2J2dGdyVzlqM0RJQVFRelJjX0hGVzFPdXNnOGZVTW91MGxhOHRRRHdmc3RpSEdNalF5Q2Yxa2U1bmdzY1BuLVBKM1ZjVmM1UHFzallvbGpKdklsUDloU04zOHh4Q21DS3lFR2tkNk9STS1HbGIyWWJrdnRzVXdma0FGUC1KVTduQXNLc0lIV0xZdm41M1I3QzllaA?oc=5
   seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiO0FVX3lxTE1RZDBheFdQTEtHS1hMS3Etdlc2Rk1taWNZS0VmM29yckx1d2hqV05WS3ZLVEtvMjlCMjFV?oc=5
+  seen_at: '2026-11-13T02:39:12Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxQdFQ1RGYzMWhoSFRvZkhIX1dFZjBZUnVuRklob1hJLVFKX2pkMmFQQU9Ra0JhMjczaTVndm9kdENzZnFoOGJVbGgxSVdNQmE0cHVvZzJNZVNxTkVFRmdueTBBM0F2MTY0ZWh0ME9zZ3J1ZnFlSE9GN0VOTmpfOVZxQ2RiTEJvLWFlVGNUUnFsQ1dzWWlOY1BBLTJKQk94d3ZLVXhjU3h5bTZ0MU9WbzJka3JUaXBnc2xQeHFnVElJUU5OZnN2amtJ0gHMAUFVX3lxTFBtV3dRLVFwMGNUNWN3bkdBSU1PV0I5cml6VjAzMl91dmJVZXNzXzB2N2t6X0tBeEphSmRfdzJCN3N4TGJVdnR3RDZ1UkRmNjBOc0ZrR3g0UzllZEE5WGU4Y29ZeWdKOUdNeUthdTh1VVFMckFKX0YycHgxd0s1N2hEYnlrZXd5VXJGVGdOcDY4VVQ2RU9IVUN6aTM0a2xQZlFIZVpJWEd6QkVnSXg4dWtkajZqaDBHNjZZMlN3WHk5VGtTSzNKT1Q1RlFFUA?oc=5
+  seen_at: '2026-11-13T02:39:12Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMDM2OWl2eE9NOEptWUhEX3lOYkZvRmhIVzEwNEdKSlFUeXM4djBaalpuc1o0VzQ3QldfLWprVFF4WEJVUURkYXhvbkVPUkF6cUZFRzcyX29IOVZWUl84STNHNEg3akp3MjFQRzNkZkRGT2ctZzBZZHc5TnM2QmhKSVVMR2NuOU1NSVpaYXh5WEFYYkw3Y3g4aGJYaURFMDNMOGtrWFRucVBPc1NDMm1mRWpqaXpUZ3VncmMyQXdzSnVPbkFWTEZXTFBsZEtyb2JOSzdjUHFtcGNPSGwxRDQw0gHkAUFVX3lxTE5ELUM1azdsS05zVVFqZXVUU2dCdHlkcWNKZU9GZDFIdXdCMGh6MTB3blhVdHJ0bkxoS2poakxYdkdMZUFtd21qU0ptQVBHRnEzakQ1UnFNZm1qYzgyN296NUhGRk9mRmJGSGtjRWlraGpGaVdqVWM3ektEVDFabDVOdlh3aWdqQWo4VkJ0VGQ5R191S29USklMZENfbHoxZzNuT0ZjOUw0eW95cnB3SkVKdmRBMW9pa1ZyZm5DeFI5TnIxMmdXTlBQdHBoLW9Eb1dOUFZSdEllSlBEeUZlbXpkN3kxbQ?oc=5
+  seen_at: '2026-11-13T02:39:12Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5AFBVV95cUxORC1DNWs3bEtOc1VRamV1VFNnQnR5ZHFjSmVPRmQxSHV3QjBoejEwd25YVXRydG5MaEtqaGpMWHZHTGVBbXdtalNKbUFQR0ZxM2pENVJxTWZtamM4MjdvejVIRkZPZkZiRkhrY0Vpa2hqRmlXalVjN3pLRFQxWmw1TnZYd2lnakFqOFZCdFRkOUdfdUtvVEpJTGRDX2x6MWczbk9GYzlMNHlveXJwd0pFSnZkQTFvaWtWcmZuQ3hSOU5yMTJnV05QUHRwaC1vRG9XTlBWUnRJZUpQRHlGZW16ZDd5MW3SAeQBQVVfeXFMTkQtQzVrN2xLTnNVUWpldVRTZ0J0eWRxY0plT0ZkMUh1d0IwaHoxMHduWFV0cnRuTGhLamhqTFh2R0xlQW13bWpTSm1BUEdGcTNqRDVScU1mbWpjODI3b3o1SEZGT2ZGYkZIa2NFaWtoakZpV2pVYzd6S0RUMVpsNU52WHdpZ2pBajhWQnRUZDlHX3VLb1RKSUxkQ19sejFnM25PRmM5TDR5b3lycHdKRUp2ZEExb2lrVnJmbkN4UjlOcjEyZ1dOUFB0cGgtb0RvV05QVlJ0SWVKUER5RmVtemQ3eTFt?oc=5
+  seen_at: '2026-11-13T02:39:12Z'
   metrics: {}
   kind: news
 ---

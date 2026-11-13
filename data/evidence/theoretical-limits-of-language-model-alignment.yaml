@@ -1,0 +1,14 @@
+- id: ev-008d86fae66603c3
+  project_slug: theoretical-limits-of-language-model-alignment
+  url: https://machinelearning.apple.com/research/theoretical-limits-alignment
+  title: Theoretical Limits of Language Model Alignment
+  published_at: '2026-11-12T00:00:00Z'
+  collected_at: '2026-11-13T02:39:04Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Language model (LM) alignment improves model outputs to reflect human preferences while preserving
+    the capabilities of the base model. The most common alignment approaches are (i) reinforcement learning,
+    which maximizes the expected reward under a KL-divergence constraint, and (ii) best-of-NNN alignment,
+    which selects the highest-reward output among NNN independent samples. Despite their widespread use,
+    the fundamental limits of reward improvement under a KL budget remain poorly understood. We characterize
+    the information-theoretic limits of KL-regularized alignment by deriving the maximum…

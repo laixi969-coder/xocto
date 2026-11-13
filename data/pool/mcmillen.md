@@ -20,17 +20,17 @@ url: https://www.mcmillen.dev/sigbovik/
 canonical_url: https://mcmillen.dev/sigbovik
 summary: 93% of paint splatters are valid Perl programs (2019)
 first_seen: '2026-11-12T02:59:38Z'
-last_seen: '2026-11-12T02:59:38Z'
+last_seen: '2026-11-13T02:38:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.mcmillen.dev/sigbovik/
-  seen_at: '2026-11-12T02:59:38Z'
+  seen_at: '2026-11-13T02:38:38Z'
   metrics:
-    points: 194
-    comments: 27
+    points: 566
+    comments: 79
   kind: news
 ---
 

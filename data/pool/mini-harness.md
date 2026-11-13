@@ -21,16 +21,16 @@ canonical_url: https://github.com/phuryn/mini-harness
 summary: 'An agent harness built for teaching: ~1,400 lines of Python with goal mode, permissions, skills,
   MCP and Claude''s server-side compaction'
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-12T02:59:41Z'
+last_seen: '2026-11-13T02:38:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/phuryn/mini-harness
-  seen_at: '2026-11-12T02:59:41Z'
+  seen_at: '2026-11-13T02:38:42Z'
   metrics:
-    stars: 175
+    stars: 176
     forks: 19
     open_issues: 0
   kind: product

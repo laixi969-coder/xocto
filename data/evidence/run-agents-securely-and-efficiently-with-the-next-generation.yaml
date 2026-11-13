@@ -1,0 +1,18 @@
+- id: ev-251f4ca324de9717
+  project_slug: run-agents-securely-and-efficiently-with-the-next-generation
+  url: https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/
+  title: Run agents securely and efficiently with the next generation AgentCore runtime
+  published_at: '2026-11-12T17:59:59Z'
+  collected_at: '2026-11-13T02:39:04Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'AI agents have moved past one-off prompts. They now run multi-step workloads for hours at a time.
+    The length of task that frontier agents can complete on their own doubles about every four months
+    ( METR ), and 40 percent of large enterprises are scaling AI agents, up from 27 percent a year ago
+    ( McKinsey ). As agents run longer and with more autonomy, the focus shifts from what agents can do
+    to how securely, reliably, and economically they can operate at scale. Agents do more than traditional
+    software: they execute code, navigate browsers, access sensitive data, and act on behalf of users.
+    These capabilities introduce new security and infrastructure demands, making strong isolation essential
+    for production deployments. Every agent session needs a secure, isolated environment. But delivering
+    that isolation at scale introduces a fundamental challenge: balancing performance, cost, and efficiency.
+    Pre-provisioned environments consume resources even when idle, driving up costs. On-demand en'

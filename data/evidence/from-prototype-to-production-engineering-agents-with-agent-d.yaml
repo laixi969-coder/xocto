@@ -1,0 +1,18 @@
+- id: ev-5f6718db269561d4
+  project_slug: from-prototype-to-production-engineering-agents-with-agent-d
+  url: https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/
+  title: 'From prototype to production: Engineering agents with Agent DLC'
+  published_at: '2026-11-12T15:38:47Z'
+  collected_at: '2026-11-13T02:39:04Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Over the past year, AI agents have moved from exploration into engineering. Enterprise teams
+    are shipping large language model (LLM) systems that call tools, orchestrate APIs, and answer questions
+    over internal knowledge. A successful demo can show what an agent is capable of. Before release, the
+    team needs to answer a further question: “ Is this agent ready for production? ” The person responsible
+    for that decision needs evidence that the agent meets the agreed requirements. To make that decision
+    consistently, teams need a repeatable, affordable way to assess the agent’s current behavior and whether
+    the latest change has improved it. In traditional software development, teams answer these questions
+    with unit tests, continuous integration and continuous delivery (CI/CD), and passing builds. Those
+    mechanisms are necessary but not sufficient for agents, for three reasons, each requiring additional
+    checks. This post explains these three properties and presents a measured case where an agg'

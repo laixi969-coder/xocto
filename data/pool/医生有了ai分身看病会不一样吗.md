@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9Pd0NhOUstQ0JhUmJ3LWVULV
 canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9Pd0NhOUstQ0JhUmJ3LWVULVUzcTY2cGhFcTZZUVVpNEVTUXJwRjFsUE9lM25QdHp3T21OQkJLT3pwclRnOXFaUGdtYV9GeGExdGRHU2lUNjhzamFRLXktTDluMHVEQWFBMzJ1R2lqaw?oc=5
 summary: 医生有了AI分身，看病会不一样吗 中国经济网
 first_seen: '2026-11-11T01:57:31Z'
-last_seen: '2026-11-11T01:57:31Z'
+last_seen: '2026-11-13T02:39:12Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9Pd0NhOUstQ0JhUmJ3LWVULVUzcTY2cGhFcTZZUVVpNEVTUXJwRjFsUE9lM25QdHp3T21OQkJLT3pwclRnOXFaUGdtYV9GeGExdGRHU2lUNjhzamFRLXktTDluMHVEQWFBMzJ1R2lqaw?oc=5
   seen_at: '2026-11-11T01:57:31Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tM3cwVWU3XzA5V19IOG9PXzQ5VGpwblhKNW1neUtCdW1mWm5wVXVvY1kyQXFwSlpQbC12QmVfUHBYMW9yTURWLWlJOExpUGUzcDlVOUVBOTR5TDkzc0ljTUwwVEEyX2cy?oc=5
+  seen_at: '2026-11-13T02:39:12Z'
   metrics: {}
   kind: news
 ---

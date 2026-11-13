@@ -20,7 +20,7 @@ url: https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses
 canonical_url: https://techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html
 summary: Nikon photography contest winner loses title after scientists spot signs of AI
 first_seen: '2026-10-26T00:24:18Z'
-last_seen: '2026-10-26T00:24:18Z'
+last_seen: '2026-11-13T02:38:38Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 130
     comments: 68
+  kind: news
+- source: hackernews
+  url: https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html
+  seen_at: '2026-11-13T02:38:38Z'
+  metrics:
+    points: 54
+    comments: 18
   kind: news
 ---
 

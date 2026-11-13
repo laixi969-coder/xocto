@@ -1,0 +1,13 @@
+- id: ev-35f368f1de03bf5c
+  project_slug: vercel-ai-ai-sdk-scaledown300
+  url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/scaledown%403.0.0
+  title: 'vercel/ai: @ai-sdk/scaledown@3.0.0'
+  published_at: '2026-11-12T21:28:13Z'
+  collected_at: '2026-11-13T02:38:42Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '### Major Changes
+
+
+    - c6db718: Add the ScaleDown provider with support for choice, boolean, and score questions through
+    the Decisions API, and text and text-list extraction through the Extract API.'

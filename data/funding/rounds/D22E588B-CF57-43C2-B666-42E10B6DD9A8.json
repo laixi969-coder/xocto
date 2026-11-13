@@ -1,0 +1,107 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/mondrio-8317d17f",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "description": "Mondrio develops an AI-powered B2B pricing platform that helps businesses optimise pricing strategies, automate quoting and deal execution, and adapt to changing market conditions through AI agents and pricing intelligence.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "8317D17F-3657-4E80-9A1A-60BA77C788B6",
+    "investors": [
+      "Angel Investors",
+      "Cambrena Capital",
+      "Heartcore Capital",
+      "Hersir Ventures",
+      "Momo VC",
+      "Pretiosum VC"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Mondrio",
+    "rounds": [
+      {
+        "amountEur": 3384171,
+        "date": "2026-11-12",
+        "id": "D22E588B-CF57-43C2-B666-42E10B6DD9A8",
+        "investors": [
+          "Angel Investors",
+          "Cambrena Capital",
+          "Heartcore Capital",
+          "Hersir Ventures",
+          "Momo VC",
+          "Pretiosum VC"
+        ],
+        "rawRoundType": "funding round",
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/D22E588B-CF57-43C2-B666-42E10B6DD9A8"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 49,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 3384171,
+    "url": "https://funding.tech.eu/companies/8317D17F-3657-4E80-9A1A-60BA77C788B6",
+    "website": "https://mondrio.io/"
+  },
+  "round": {
+    "amountEur": 3384171,
+    "amountEurStored": null,
+    "amountNative": 3750000,
+    "company": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "founded": null,
+      "id": "8317D17F-3657-4E80-9A1A-60BA77C788B6",
+      "name": "Mondrio",
+      "pageUrl": "https://funding.tech.eu/companies/mondrio-8317d17f",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-11-12",
+    "fx": {
+      "asOf": "2026-11-12",
+      "rate": 1.1081,
+      "source": "ECB"
+    },
+    "id": "D22E588B-CF57-43C2-B666-42E10B6DD9A8",
+    "investors": [
+      "Momo VC",
+      "Hersir Ventures",
+      "Cambrena Capital",
+      "Pretiosum VC",
+      "Heartcore Capital"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/D22E588B-CF57-43C2-B666-42E10B6DD9A8",
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Other",
+    "url": "/deals/D22E588B-CF57-43C2-B666-42E10B6DD9A8"
+  }
+}
