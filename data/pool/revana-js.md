@@ -21,16 +21,16 @@ canonical_url: https://revana.si
 summary: 'Official JavaScript/TypeScript SDK and CLI for Revana: one API key for Seedance, Veo, Kling,
   Nano Banana and 200+ AI video, image and chat models'
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-13T02:38:42Z'
+last_seen: '2026-11-14T02:27:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://revana.si
-  seen_at: '2026-11-13T02:38:42Z'
+  seen_at: '2026-11-14T02:27:37Z'
   metrics:
-    stars: 61
+    stars: 64
     forks: 0
     open_issues: 0
   kind: product

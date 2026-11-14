@@ -1,0 +1,18 @@
+- id: ev-55529d7184fba6c6
+  project_slug: production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-p
+  url: https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/
+  title: Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1
+  published_at: '2026-11-13T23:22:09Z'
+  collected_at: '2026-11-14T02:28:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: GS Caltex uses Amazon SageMaker Canvas and Amazon SageMaker Pipelines to connect process engineers’
+    models to production workflows. The South Korean energy and chemical company divides model development
+    and operations between engineers with complementary skills. Process engineers build and validate models
+    in SageMaker Canvas without writing code, drawing on their process knowledge. Machine learning (ML)
+    engineers configure SageMaker Pipelines workflows for deployment and scheduled inference. Moving assets
+    from SageMaker Canvas into SageMaker Pipelines still required integration work. ML engineers had to
+    set data paths for production, supply the model configuration, and connect preprocessing and inference
+    jobs. GS Caltex automated this handoff while reusing the assets created in SageMaker Canvas. GS Caltex
+    reports that its ML engineers now deploy models within a few hours, compared with about a week before.
+    The company runs batch inference every 30 minutes, reducing the need for continu

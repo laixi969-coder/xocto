@@ -20,16 +20,16 @@ url: https://github.com/Roland0511/dsh-marktext
 canonical_url: https://github.com/Roland0511/dsh-marktext
 summary: MarkText (muya) WYSIWYG Markdown editor for the DeepSeek Harness right sidebar
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-13T02:38:42Z'
+last_seen: '2026-11-14T02:27:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Roland0511/dsh-marktext
-  seen_at: '2026-11-13T02:38:42Z'
+  seen_at: '2026-11-14T02:27:37Z'
   metrics:
-    stars: 551
+    stars: 604
     forks: 50
     open_issues: 0
   kind: product

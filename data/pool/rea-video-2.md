@@ -21,17 +21,17 @@ canonical_url: https://reavideo.ai
 summary: 'Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it.
   逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。'
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-13T02:38:42Z'
+last_seen: '2026-11-14T02:27:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.reavideo.ai/
-  seen_at: '2026-11-13T02:38:42Z'
+  seen_at: '2026-11-14T02:27:37Z'
   metrics:
-    stars: 7549
-    forks: 1111
+    stars: 8003
+    forks: 1193
     open_issues: 3
   kind: product
 ---

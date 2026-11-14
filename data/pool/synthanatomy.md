@@ -20,17 +20,17 @@ url: https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-in
 canonical_url: https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html
 summary: AI is turning Apple's app review process into a nightmare for synth developers
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 111
-    comments: 106
+    points: 196
+    comments: 232
   kind: news
 ---
 

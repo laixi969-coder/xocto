@@ -20,17 +20,17 @@ url: https://yourairedlines.com
 canonical_url: https://yourairedlines.com
 summary: write down what would make you act on AI
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://yourairedlines.com
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 33
-    comments: 29
+    points: 39
+    comments: 33
   kind: product
 ---
 

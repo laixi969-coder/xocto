@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNW5xQ2NMRHZqcHVON0xMam
 canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNW5xQ2NMRHZqcHVON0xMamRPclJTRFFPbjRhd0ZTU1VjWHFUWDRZMEd5MGVLRU9qZG00VExqQWF0bFdCOGlwLUowdG1JdUlaYjI0NmJ0bVBKbkpvSkVVcG95TU5Lc1pma25pUkl6WHR6RTJRejBaSGNQQUNqNzlGSEJpUTduV0k0SHdJ?oc=5
 summary: 思科Q1财季营收创十五年来最快增速，上调全年指引，AI相关收入料将翻倍｜财报见闻 Sohu
 first_seen: '2026-11-13T02:39:12Z'
-last_seen: '2026-11-13T02:39:12Z'
+last_seen: '2026-11-14T02:28:20Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNW5xQ2NMRHZqcHVON0xMamRPclJTRFFPbjRhd0ZTU1VjWHFUWDRZMEd5MGVLRU9qZG00VExqQWF0bFdCOGlwLUowdG1JdUlaYjI0NmJ0bVBKbkpvSkVVcG95TU5Lc1pma25pUkl6WHR6RTJRejBaSGNQQUNqNzlGSEJpUTduV0k0SHdJ?oc=5
   seen_at: '2026-11-13T02:39:12Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZbXJENlQ4TlRmTVNNX0pvSmRLUDB4NUF3NW5oVzBRVlVlLXYtQ0ZjV0Z6WG1UNVM4SkJYYTRWRURRNVdvYmZJcHNqTkNNRGl2ek1F?oc=5
+  seen_at: '2026-11-14T02:28:20Z'
   metrics: {}
   kind: news
 ---

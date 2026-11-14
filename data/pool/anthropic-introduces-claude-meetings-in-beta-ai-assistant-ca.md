@@ -1,0 +1,43 @@
+---
+slug: anthropic-introduces-claude-meetings-in-beta-ai-assistant-ca
+name: 'Anthropic introduces Claude Meetings in beta: AI assistant can join video calls, create documents
+  and take...'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiggJBVV95cUxNaFU1WXJDamZwaWtybno3TDlmM3JWQjhsRUszS3FHU0Y3T2YxcjdCSklOY091c2FZbmpCc2tVdlEweTRnOEJjWHRRVS1rTUpMMVE5Y2VnWTVMN2JtX0tjSHNxQXBlSkJIV1BXYmdSTGgxLWxCazk3TzBEeGRFVDAyOVhjVUlvM29xOWNqMG9ZSUNXMjI3TF9HaFFfY0I2ZkpyR282a2hpajFsbmhhQmx6WjdyVjdEbE9IeFB6X01GMjNNdUtrbE9BczBhNUpscEdGWkpvRk8wR1FSZllOdTUzZ2RDeWlhUGcxWTdiSmdXeHVSZGZDeVdyY2Qwa3pmNldGblHSAYcCQVVfeXFMT0dwMl8tYXk5TEduZDJDMEYzaldwYWpOQUZRUGVBNEF0OGRETUFtb1FSZlVJQk9Qa3BWLTl5WmdrVWdLLXFmUkJ1YmhoaURrdi01cDlNMWo3cG9QVFJmazVBYVFtTjRSWTE4OHZxZlpZcXJMM2h0Um9SOENpaW5oeUpya3dWR0tJTGthTU1reGI5VVVVbTkyb29DY2dlbEhJZkgyanZBamRjZjM1dEtpbXlkdlV5dmNRUkVpUklYckd5OWVFS2xhSHMyUVhFZ1ZpUDN5aDJBeEN3Nk1qVUZ4RG1EMkZPeVV5QUFlY21ST09KNlV0VkFYYUdjUERLNzV1d3Ftc1NMZDA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiggJBVV95cUxNaFU1WXJDamZwaWtybno3TDlmM3JWQjhsRUszS3FHU0Y3T2YxcjdCSklOY091c2FZbmpCc2tVdlEweTRnOEJjWHRRVS1rTUpMMVE5Y2VnWTVMN2JtX0tjSHNxQXBlSkJIV1BXYmdSTGgxLWxCazk3TzBEeGRFVDAyOVhjVUlvM29xOWNqMG9ZSUNXMjI3TF9HaFFfY0I2ZkpyR282a2hpajFsbmhhQmx6WjdyVjdEbE9IeFB6X01GMjNNdUtrbE9BczBhNUpscEdGWkpvRk8wR1FSZllOdTUzZ2RDeWlhUGcxWTdiSmdXeHVSZGZDeVdyY2Qwa3pmNldGblHSAYcCQVVfeXFMT0dwMl8tYXk5TEduZDJDMEYzaldwYWpOQUZRUGVBNEF0OGRETUFtb1FSZlVJQk9Qa3BWLTl5WmdrVWdLLXFmUkJ1YmhoaURrdi01cDlNMWo3cG9QVFJmazVBYVFtTjRSWTE4OHZxZlpZcXJMM2h0Um9SOENpaW5oeUpya3dWR0tJTGthTU1reGI5VVVVbTkyb29DY2dlbEhJZkgyanZBamRjZjM1dEtpbXlkdlV5dmNRUkVpUklYckd5OWVFS2xhSHMyUVhFZ1ZpUDN5aDJBeEN3Nk1qVUZ4RG1EMkZPeVV5QUFlY21ST09KNlV0VkFYYUdjUERLNzV1d3Ftc1NMZDA?oc=5
+summary: 'Anthropic introduces Claude Meetings in beta: AI assistant can join video calls, create documents
+  and take... Moneycontrol.com'
+first_seen: '2026-11-14T02:28:20Z'
+last_seen: '2026-11-14T02:28:20Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiggJBVV95cUxNaFU1WXJDamZwaWtybno3TDlmM3JWQjhsRUszS3FHU0Y3T2YxcjdCSklOY091c2FZbmpCc2tVdlEweTRnOEJjWHRRVS1rTUpMMVE5Y2VnWTVMN2JtX0tjSHNxQXBlSkJIV1BXYmdSTGgxLWxCazk3TzBEeGRFVDAyOVhjVUlvM29xOWNqMG9ZSUNXMjI3TF9HaFFfY0I2ZkpyR282a2hpajFsbmhhQmx6WjdyVjdEbE9IeFB6X01GMjNNdUtrbE9BczBhNUpscEdGWkpvRk8wR1FSZllOdTUzZ2RDeWlhUGcxWTdiSmdXeHVSZGZDeVdyY2Qwa3pmNldGblHSAYcCQVVfeXFMT0dwMl8tYXk5TEduZDJDMEYzaldwYWpOQUZRUGVBNEF0OGRETUFtb1FSZlVJQk9Qa3BWLTl5WmdrVWdLLXFmUkJ1YmhoaURrdi01cDlNMWo3cG9QVFJmazVBYVFtTjRSWTE4OHZxZlpZcXJMM2h0Um9SOENpaW5oeUpya3dWR0tJTGthTU1reGI5VVVVbTkyb29DY2dlbEhJZkgyanZBamRjZjM1dEtpbXlkdlV5dmNRUkVpUklYckd5OWVFS2xhSHMyUVhFZ1ZpUDN5aDJBeEN3Nk1qVUZ4RG1EMkZPeVV5QUFlY21ST09KNlV0VkFYYUdjUERLNzV1d3Ftc1NMZDA?oc=5
+  seen_at: '2026-11-14T02:28:20Z'
+  metrics: {}
+  kind: news
+---
+
+# Anthropic introduces Claude Meetings in beta: AI assistant can join video calls, create documents and take...
+
+Anthropic introduces Claude Meetings in beta: AI assistant can join video calls, create documents and take... Moneycontrol.com
+
+## 笔记
+
+

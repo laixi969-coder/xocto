@@ -681,3 +681,21 @@
     searching internal documents until it has enough information. Employees in department B ask the same
     assistant the same question. If the application doesn’t scope searches to each user, the department
     B business plan can end up in an answer to an employee in department A. If you rep
+- id: ev-03f8ab071d90529b
+  project_slug: tools
+  url: https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/
+  title: Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock
+  published_at: '2026-11-13T18:44:02Z'
+  collected_at: '2026-11-14T02:28:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Amazon Bedrock provides built-in, zero-instrumentation cost attribution that traces every inference
+    call back to the IAM principal that made it. The identity flows along with organizational tags, into
+    AWS Cost and Usage Reports (CUR 2.0) and AWS Cost Explorer while keeping data inside the AWS security
+    boundary. This post shows you how to use these capabilities to answer three questions that every FinOps
+    and AI Platform leader asks as AI tool adoption scales: What is the real per-user cost? Which teams
+    generate the most spend, and does that spend correlate with the value they deliver? How should next
+    year’s budget scale with headcount and adoption? The approach works identically regardless of which
+    AI coding or productivity tool makes the call. Claude Code, Claude Desktop, OpenAI Codex, ChatGPT
+    Work, and OpenCode all invoke Amazon Bedrock through one of two inference endpoints: bedrock-runtime
+    or bedrock-mantle , and Bedrock’s attribution mechanism operates at the endpoint layer, beneat'

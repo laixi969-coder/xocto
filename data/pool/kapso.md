@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50471281
 canonical_url: https://news.ycombinator.com/item?id=50471281
 summary: Iterative learning from enterprise data
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50471281
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 38
-    comments: 10
+    points: 58
+    comments: 13
   kind: product
 ---
 

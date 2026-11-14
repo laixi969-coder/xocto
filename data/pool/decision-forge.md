@@ -20,18 +20,18 @@ url: https://github.com/Juneo-Lab/decision-forge
 canonical_url: https://github.com/Juneo-Lab/decision-forge
 summary: Compile organizational policy into verifiable decision training data.
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-13T02:38:42Z'
+last_seen: '2026-11-14T02:27:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Juneo-Lab/decision-forge
-  seen_at: '2026-11-13T02:38:42Z'
+  seen_at: '2026-11-14T02:27:37Z'
   metrics:
-    stars: 339
+    stars: 387
     forks: 35
-    open_issues: 17
+    open_issues: 20
   kind: product
 ---
 

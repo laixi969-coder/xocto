@@ -21,16 +21,16 @@ canonical_url: https://pstack.xiaoxiaodong.ai
 summary: 'Your AI says “fixed” and it''s still broken. pstack makes it try its own work first. A plain-language
   guide to pstack for Claude Code, Cursor and Codex: start with no coding, in 10 languages.'
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-13T02:38:42Z'
+last_seen: '2026-11-14T02:27:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://pstack.xiaoxiaodong.ai
-  seen_at: '2026-11-13T02:38:42Z'
+  seen_at: '2026-11-14T02:27:37Z'
   metrics:
-    stars: 60
+    stars: 62
     forks: 0
     open_issues: 0
   kind: product

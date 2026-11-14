@@ -20,7 +20,7 @@ url: https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-th
 canonical_url: https://economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market
 summary: AI compute is the new oil–and needs a new market
 first_seen: '2026-10-24T00:43:20Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
@@ -34,10 +34,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 82
-    comments: 68
+    points: 101
+    comments: 84
   kind: news
 ---
 

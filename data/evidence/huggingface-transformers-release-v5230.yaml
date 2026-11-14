@@ -1,0 +1,18 @@
+- id: ev-4a20fb5e44562ef0
+  project_slug: huggingface-transformers-release-v5230
+  url: https://github.com/huggingface/transformers/releases/tag/v5.23.0
+  title: 'huggingface/transformers: Release v5.23.0'
+  published_at: '2026-11-13T14:10:57Z'
+  collected_at: '2026-11-14T02:27:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "# Release v5.23.0\r\n\r\n\r\n## New Model additions\r\n\r\n### Inkling2\r\n\r\n<img width=\"\
+    1200\" height=\"675\" alt=\"image\" src=\"https://github.com/user-attachments/assets/9115e142-1be3-4f79-a51d-ea0e5c25b152\"\
+    \ />\r\n\r\nInkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and\
+    \ image inputs and generates text outputs, and it is intended for use in English and other languages\
+    \ and across multiple coding languages. Its language backbone has 48 mixture-of-experts decoder layers,\
+    \ each routing tokens to 8 of 384 experts, for 594B total and 17B active parameters. It keeps the\
+    \ Inkling decoder (learned relative attention, short causal convolutions, mixture-of-experts layers)\
+    \ and adds block attention residuals, gated attention with a learned sink, and dynamic key/value convolutions.\
+    \ Images are encoded by a Perception Encoder-based vision transformer and projected into the language\
+    \ model embeddings, one embedding per 40x40 pixel patch.\r\n\r\n**Links:** [Documentation](https://huggingface.co/"

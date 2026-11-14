@@ -21,18 +21,18 @@ canonical_url: https://github.com/Seagey/couch-tv
 summary: Your own Google TV home screen and phone remote, with an optional Claude assistant. Set it up
   by handing this repo to your AI agent.
 first_seen: '2026-11-09T09:12:39Z'
-last_seen: '2026-11-13T02:38:42Z'
+last_seen: '2026-11-14T02:27:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Seagey/couch-tv
-  seen_at: '2026-11-13T02:38:42Z'
+  seen_at: '2026-11-14T02:27:37Z'
   metrics:
-    stars: 978
-    forks: 140
-    open_issues: 56
+    stars: 1127
+    forks: 161
+    open_issues: 68
   kind: product
 ---
 

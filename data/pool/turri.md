@@ -20,17 +20,17 @@ url: https://github.com/turri-oss/turri
 canonical_url: https://github.com/turri-oss/turri
 summary: a coding agent with the power of regenerative software
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/turri-oss/turri
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 7
-    comments: 9
+    points: 9
+    comments: 11
   kind: product
 ---
 

@@ -20,17 +20,17 @@ url: https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-yo
 canonical_url: https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer
 summary: Frontier AI Capabilities on Your Own Computer
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 69
-    comments: 18
+    points: 338
+    comments: 104
   kind: news
 ---
 

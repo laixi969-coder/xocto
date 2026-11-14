@@ -22,17 +22,17 @@ summary: Hi HN friends - I&#x27;ve been obsessed with chat protocols for ages - 
   ssh-chat ( https:&#x2F;&#x2F;ssh.chat&#x2F; ) I come bringing a new kind of chat protocol that I&#x27;ve
   been working on sinc…
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://apron.chat/
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 31
-    comments: 0
+    points: 56
+    comments: 4
   kind: product
 ---
 

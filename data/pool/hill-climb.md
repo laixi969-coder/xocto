@@ -21,18 +21,18 @@ canonical_url: https://github.com/Bil0000/Hill-Climb
 summary: Make your coding agent prove "done". Each change is kept only if a locked test or benchmark scores
   it better. Claude Code and Codex skill.
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-13T02:38:42Z'
+last_seen: '2026-11-14T02:27:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Bil0000/Hill-Climb
-  seen_at: '2026-11-13T02:38:42Z'
+  seen_at: '2026-11-14T02:27:37Z'
   metrics:
-    stars: 108
-    forks: 5
-    open_issues: 1
+    stars: 122
+    forks: 6
+    open_issues: 3
   kind: product
 ---
 

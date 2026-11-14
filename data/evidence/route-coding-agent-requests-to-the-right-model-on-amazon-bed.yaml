@@ -1,0 +1,19 @@
+- id: ev-0f92fb7e5a1e2c0d
+  project_slug: route-coding-agent-requests-to-the-right-model-on-amazon-bed
+  url: https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/
+  title: Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard
+  published_at: '2026-11-13T22:30:12Z'
+  collected_at: '2026-11-14T02:28:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Coding agents such as Claude Code and OpenAI Codex CLI work in tasks. A developer asks for a
+    change, and the agent reads files, edits code, and runs tests until the work is done. One task can
+    take a few model calls or dozens. What the developer pays for is the task, not one call. The price
+    per token alone doesn’t tell you what a whole task costs. The total depends on how many turns a model
+    needs, how much history each turn replays, and how often a task has to be retried or never finishes.
+    You pay for every attempt, including attempts on tasks that never finish. So when you route a coding
+    agent’s requests between models, judge the routing by cost per solved task: the total cost of your
+    runs divided by the number of runs whose tests pass. NVIDIA NeMo Switchyard is an open source library
+    that helps an AI agent choose which model handles each request. You define the models that it can
+    use and the strategy that it follows. Its LiteLLM integration supports two strategies. Stage routing
+    reads'

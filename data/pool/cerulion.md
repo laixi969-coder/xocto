@@ -20,17 +20,17 @@ url: https://github.com/cerulion-inc/cerulion
 canonical_url: https://github.com/cerulion-inc/cerulion
 summary: ROS 2-compatible robotics runtime with multi-process replay
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/cerulion-inc/cerulion
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 9
-    comments: 3
+    points: 12
+    comments: 8
   kind: product
 ---
 

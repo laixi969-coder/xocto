@@ -7,3 +7,12 @@
   source_kind: adoption
   tier: behavioural
   fact: trading false positives for 110ms earlier end-of-speech
+- id: ev-5405d375e6d8dd64
+  project_slug: realtimevad
+  url: https://github.com/KoljaB/RealtimeVAD
+  title: RealtimeVAD
+  published_at: '2026-11-12T21:30:57Z'
+  collected_at: '2026-11-14T02:27:33Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: trading false positives for 110ms earlier end-of-speech

@@ -20,17 +20,17 @@ url: https://github.com/simpsoka/zigzag
 canonical_url: https://github.com/simpsoka/zigzag
 summary: My $300 embroidery machine needed a subscription, so I built my own app
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/simpsoka/zigzag
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 358
-    comments: 143
+    points: 719
+    comments: 245
   kind: product
 ---
 

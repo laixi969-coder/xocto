@@ -1,0 +1,41 @@
+---
+slug: cag-to-deploy-ai-assistant-for-auditors-enhancing-efficiency
+name: CAG to deploy AI assistant for auditors, enhancing efficiency
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQeFFUemprTk00bjVYVWlSbzl6Sk9KaGVOVTRiaTdxWXBrMFZoSVIzTkZWVGxPRFNYZTlacHVvaUttdXlQcFRMdExVVDRienlEX0VKejBpeXd4ZWt5cENWVExURHdIYWJrX3lLUkI4Qk5vQ2ZzUW1EZGU5eXN4dGRvdGtVNFR5amtSV3NFdlAwVjd0ck5PYXZ5X1Rhci1hME9jV3pGdkVRczJCWC1nSFhHZ28wTUpPTjA2MHVCVGtCX1JJLW1ZZ1HSAcgBQVVfeXFMTXYwT3ZpWFFZRERzZW1fY09LSEtqNDMyNlVUSDRwUk5WV3BoYlM1RW9mUEoxZWZpcnlTcFBoUzlyck0xR0EzTzFmNGhsd2lfZFpMVUNCNFJTaC1ta2lTWEhlM0MwOWhwcEFRdTY1bGw1Z3NNYW9XclhqOEliQTBBcUVuZ3hLM3cyMENRMHg2bFFWVF91M0VMbEF3aktlcHBrLWtXaVRQUGU1RWMtSzllUXFYM1R3ZGdXM1JZRk5OTFdpcG9MemFYbU8?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQeFFUemprTk00bjVYVWlSbzl6Sk9KaGVOVTRiaTdxWXBrMFZoSVIzTkZWVGxPRFNYZTlacHVvaUttdXlQcFRMdExVVDRienlEX0VKejBpeXd4ZWt5cENWVExURHdIYWJrX3lLUkI4Qk5vQ2ZzUW1EZGU5eXN4dGRvdGtVNFR5amtSV3NFdlAwVjd0ck5PYXZ5X1Rhci1hME9jV3pGdkVRczJCWC1nSFhHZ28wTUpPTjA2MHVCVGtCX1JJLW1ZZ1HSAcgBQVVfeXFMTXYwT3ZpWFFZRERzZW1fY09LSEtqNDMyNlVUSDRwUk5WV3BoYlM1RW9mUEoxZWZpcnlTcFBoUzlyck0xR0EzTzFmNGhsd2lfZFpMVUNCNFJTaC1ta2lTWEhlM0MwOWhwcEFRdTY1bGw1Z3NNYW9XclhqOEliQTBBcUVuZ3hLM3cyMENRMHg2bFFWVF91M0VMbEF3aktlcHBrLWtXaVRQUGU1RWMtSzllUXFYM1R3ZGdXM1JZRk5OTFdpcG9MemFYbU8?oc=5
+summary: CAG to deploy AI assistant for auditors, enhancing efficiency Rediff
+first_seen: '2026-11-14T02:28:20Z'
+last_seen: '2026-11-14T02:28:20Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQeFFUemprTk00bjVYVWlSbzl6Sk9KaGVOVTRiaTdxWXBrMFZoSVIzTkZWVGxPRFNYZTlacHVvaUttdXlQcFRMdExVVDRienlEX0VKejBpeXd4ZWt5cENWVExURHdIYWJrX3lLUkI4Qk5vQ2ZzUW1EZGU5eXN4dGRvdGtVNFR5amtSV3NFdlAwVjd0ck5PYXZ5X1Rhci1hME9jV3pGdkVRczJCWC1nSFhHZ28wTUpPTjA2MHVCVGtCX1JJLW1ZZ1HSAcgBQVVfeXFMTXYwT3ZpWFFZRERzZW1fY09LSEtqNDMyNlVUSDRwUk5WV3BoYlM1RW9mUEoxZWZpcnlTcFBoUzlyck0xR0EzTzFmNGhsd2lfZFpMVUNCNFJTaC1ta2lTWEhlM0MwOWhwcEFRdTY1bGw1Z3NNYW9XclhqOEliQTBBcUVuZ3hLM3cyMENRMHg2bFFWVF91M0VMbEF3aktlcHBrLWtXaVRQUGU1RWMtSzllUXFYM1R3ZGdXM1JZRk5OTFdpcG9MemFYbU8?oc=5
+  seen_at: '2026-11-14T02:28:20Z'
+  metrics: {}
+  kind: news
+---
+
+# CAG to deploy AI assistant for auditors, enhancing efficiency
+
+CAG to deploy AI assistant for auditors, enhancing efficiency Rediff
+
+## 笔记
+
+

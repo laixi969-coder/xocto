@@ -1,0 +1,18 @@
+- id: ev-6ec0e2c893ac07f7
+  project_slug: ggerganov-llamacpp-v100
+  url: https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0
+  title: 'ggerganov/llama.cpp: v1.0.0'
+  published_at: '2026-11-13T10:20:19Z'
+  collected_at: '2026-11-14T02:27:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "<img width=\"1600\" height=\"900\" alt=\"llama-cpp-v1\" src=\"https://github.com/user-attachments/assets/ed94ed55-ebe2-4aee-bdfc-81bdaa3a3f59\"\
+    \ />\r\n\r\nBlog post: https://huggingface.co/blog/ggml-org/llama-cpp-v1\r\n\r\n## Overview\r\n\r\n\
+    llama.cpp v1.0.0 removes the deprecated public API and promotes the NextN/speculative API to `llama.h`,\
+    \ adds OCP FP8 KV caches, a host-memory MoE expert cache with a configurable CPU share, and loading\
+    \ of external PLE shards. It adds three text architectures (Kimi-K3.1-Pro, Ripple and xing4_0), drama-3\
+    \ TTS, and MageVL-Cowork and Kimi-K3.1 vision, hardens `llama-server` (SSRF, CORS, DNS rebinding,\
+    \ MCP tool cancellation) and adds a `/v1/audio/speech` endpoint, ships a redesigned web UI with chat\
+    \ groups and a markdown editor, and updates `ggml` to v1.0.0.\r\n\r\n### API changes\r\n\r\n- llama.h:\
+    \ remove `llama_set_warmup`, 35 deprecated functions, `defrag_thold` and `--defrag-thold` ([#30565](https://github.com/ggml-org/llama.cpp/pull/30565))\r\
+    \n- llama.h: promote the NextN API from"

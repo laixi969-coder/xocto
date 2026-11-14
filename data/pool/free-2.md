@@ -20,7 +20,7 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-11-13T02:39:04Z'
+last_seen: '2026-11-14T02:28:05Z'
 status: pending_filter
 sources:
 - hackernews
@@ -202,6 +202,11 @@ sightings:
 - source: officialfeeds
   url: https://www.meta.com/blog/ost-9-is-out-now-in-beat-saber-with-seven-free-tracks/
   seen_at: '2026-11-13T02:39:04Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free
+  seen_at: '2026-11-14T02:28:05Z'
   metrics: {}
   kind: news
 ---

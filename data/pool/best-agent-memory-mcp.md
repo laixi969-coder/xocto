@@ -23,16 +23,16 @@ summary: 'Best Agent Memory MCP servers, ranked and compared: long-term memory f
   Cognee, the official memory server and more, with storage, capture model, team sharing, license and
   live stars.'
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-09T09:12:39Z'
+last_seen: '2026-11-14T02:27:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Glen-Web-App/best-agent-memory-mcp
-  seen_at: '2026-11-09T09:12:39Z'
+  seen_at: '2026-11-14T02:27:37Z'
   metrics:
-    stars: 238
+    stars: 239
     forks: 8
     open_issues: 0
   kind: product

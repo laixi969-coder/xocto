@@ -1,0 +1,18 @@
+- id: ev-a0fc68dc4c13fe37
+  project_slug: openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular
+  url: https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/
+  title: 'OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures'
+  published_at: '2026-11-13T21:53:40Z'
+  collected_at: '2026-11-14T02:28:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: You can deploy OpenFold3-preview from Amazon SageMaker JumpStart . The OpenFold Consortium and
+    the AlQuraishi Lab at Columbia University developed OpenFold3 as an open source biomolecular structure
+    prediction model. With a few lines of code, you can typically deploy OpenFold3 into your own AWS account.
+    You can then predict the 3D structures of proteins, DNA, RNA, small-molecule ligands, and the complexes
+    they form. The endpoint runs with network isolation, which you can use to help keep your sequences
+    within your AWS account. Computational drug discovery teams now use structure prediction as a core
+    part of their work. Teams use it in target identification, antibody and protein engineering, and structure-based
+    virtual screening. Teams have found running these models challenging. You need GPU infrastructure,
+    a working CUDA and PyTorch stack, large model checkpoints, and a serving layer that handles requests
+    that take minutes rather than milliseconds. SageMaker JumpStart can handle much o

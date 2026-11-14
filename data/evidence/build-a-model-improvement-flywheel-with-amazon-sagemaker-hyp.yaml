@@ -1,0 +1,19 @@
+- id: ev-13d235074db30b66
+  project_slug: build-a-model-improvement-flywheel-with-amazon-sagemaker-hyp
+  url: https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/
+  title: Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture
+  published_at: '2026-11-13T18:01:15Z'
+  collected_at: '2026-11-14T02:28:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Foundation models deployed on Amazon SageMaker HyperPod meet inputs that no pre-curated dataset
+    covers: domain-specific jargon, unexpected formats, new products, and changing user behavior. Without
+    a record of production inference data, teams can’t detect drift, find failure patterns, or use real
+    interactions to improve the model. Amazon SageMaker HyperPod now provides Data Capture, a built-in
+    capability that records live inference inputs and outputs to Amazon Simple Storage Service (Amazon
+    S3) at three independent tiers, with minimal latency impact and zero impact on model availability.
+    In this post, we walk through one complete example on a single SageMaker HyperPod cluster. A home-appliance
+    support router captures its production traffic, Amazon Athena queries surface a new-product blind
+    spot, a SQL policy labels the captured records, and a fine-tune on that data teaches the router the
+    new product. We measure accuracy before and after, on data that could not have existed before the
+    m'

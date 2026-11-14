@@ -20,17 +20,17 @@ url: https://fable52.games
 canonical_url: https://fable52.games
 summary: Play and inspect Fable 5.2 single-file HTML games
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://fable52.games
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 63
-    comments: 54
+    points: 72
+    comments: 59
   kind: product
 ---
 

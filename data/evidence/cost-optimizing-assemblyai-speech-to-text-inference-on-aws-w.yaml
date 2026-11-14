@@ -1,0 +1,18 @@
+- id: ev-aa2c0c6d77aff984
+  project_slug: cost-optimizing-assemblyai-speech-to-text-inference-on-aws-w
+  url: https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/
+  title: Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot
+  published_at: '2026-11-13T19:35:35Z'
+  collected_at: '2026-11-14T02:28:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Speech-to-text inference is computationally intensive. Each audio file triggers a pipeline of
+    deep learning models (acoustic models, language models, and post-processing stages) running on NVIDIA
+    GPUs to meet latency requirements. At scale, this means thousands of GPU instances running continuously.
+    AssemblyAI needed a way to run GPU-intensive inference workloads cost-effectively at scale, without
+    sacrificing the availability and latency guarantees their customers depend on. Running entirely on
+    On-Demand Instances would be cost-prohibitive. Spot Instances offer significant savings, while Amazon
+    Elastic Compute Cloud (Amazon EC2) can reclaim them with a 2-minute warning when capacity is needed
+    elsewhere. AssemblyAI needed an architecture that absorbs Spot interruptions gracefully while maintaining
+    service level agreement (SLA) commitments. Additionally, customers in regulated industries, including
+    healthcare, finance, and legal, must keep audio data within specific geographic boundaries

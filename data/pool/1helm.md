@@ -21,16 +21,16 @@ canonical_url: https://1helm.com
 summary: A personal AI workspace on your own Cloudflare account, with persistent memory, channel computers,
   and your choice of AI provider.
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-13T02:38:42Z'
+last_seen: '2026-11-14T02:27:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://1helm.com
-  seen_at: '2026-11-13T02:38:42Z'
+  seen_at: '2026-11-14T02:27:37Z'
   metrics:
-    stars: 61
+    stars: 62
     forks: 0
     open_issues: 4
   kind: product

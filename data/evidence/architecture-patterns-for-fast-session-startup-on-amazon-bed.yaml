@@ -1,0 +1,18 @@
+- id: ev-ff15b7c3090a9a22
+  project_slug: architecture-patterns-for-fast-session-startup-on-amazon-bed
+  url: https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/
+  title: Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime
+  published_at: '2026-11-13T22:02:39Z'
+  collected_at: '2026-11-14T02:28:05Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Agents today review code, process claims, and run unattended for hours. Many also sit behind
+    interactive experiences where a person waits for the first response. Amazon Bedrock AgentCore runtime
+    gives these agents a fully managed, serverless environment: each session runs in its own isolated
+    microVM, the platform scales to zero when there’s no work, and you only pay for the resources your
+    sessions consume. AgentCore runtime with platformVersion set to “V2” changes how sessions start. Instead
+    of initializing your container for every session, it prepares your environment once, snapshots it,
+    and restores that snapshot for each new session. Session start times are faster and more consistent.
+    V2 also reclaims memory your sessions don’t use, so your bill tracks what your agent uses. For most
+    agents, switching to V2 is all it takes. Some agents need restructuring to get the full benefit, and
+    for chat and voice experiences even 2 seconds is too slow. This post explains how V2 starts a session,'

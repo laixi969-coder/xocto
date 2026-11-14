@@ -20,18 +20,18 @@ url: https://ui-sdk.dev
 canonical_url: https://ui-sdk.dev
 summary: A library of behaviors for agents to build the next generation of user interfaces.
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-13T02:38:42Z'
+last_seen: '2026-11-14T02:27:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://ui-sdk.dev
-  seen_at: '2026-11-13T02:38:42Z'
+  seen_at: '2026-11-14T02:27:37Z'
   metrics:
-    stars: 1743
-    forks: 34
-    open_issues: 3
+    stars: 3888
+    forks: 97
+    open_issues: 34
   kind: product
 ---
 

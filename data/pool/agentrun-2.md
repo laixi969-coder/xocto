@@ -20,17 +20,17 @@ url: https://github.com/Parcha-ai/agentrun/blob/main/README.md
 canonical_url: https://github.com/Parcha-ai/agentrun/blob/main/README.md
 summary: open-source, Self-improving Managed Agents
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-13T02:38:38Z'
+last_seen: '2026-11-14T02:27:33Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Parcha-ai/agentrun/blob/main/README.md
-  seen_at: '2026-11-13T02:38:38Z'
+  seen_at: '2026-11-14T02:27:33Z'
   metrics:
-    points: 79
-    comments: 18
+    points: 134
+    comments: 39
   kind: product
 ---
 
