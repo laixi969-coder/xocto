@@ -21,16 +21,16 @@ canonical_url: https://github.com/kilolonion/agent-vscreen/releases/latest
 summary: 'A background virtual screen for any Android AI agent: it operates apps on an invisible display
   while you keep using your phone. CLI / MCP / HTTP, Shizuku, no root. 给任何手机 agent 用的后台副屏。'
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kilolonion/agent-vscreen/releases/latest
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 66
+    stars: 67
     forks: 8
     open_issues: 2
   kind: product

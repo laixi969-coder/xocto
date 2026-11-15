@@ -20,18 +20,18 @@ url: https://flawless-ui-ux.vercel.app/
 canonical_url: https://flawless-ui-ux.vercel.app
 summary: A UI/UX skill for coding agents to build distinctive, usable interfaces.
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://flawless-ui-ux.vercel.app/
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 238
+    stars: 240
     forks: 9
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

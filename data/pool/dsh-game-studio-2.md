@@ -21,17 +21,17 @@ canonical_url: https://finiking.github.io/dsh-games/wall
 summary: Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art,
   and publish to GitHub Pages or Cloudflare in one click.
 first_seen: '2026-11-09T09:12:39Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://finiking.github.io/dsh-games/wall/
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 546
-    forks: 45
+    stars: 554
+    forks: 46
     open_issues: 1
   kind: product
 ---

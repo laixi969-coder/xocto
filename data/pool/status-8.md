@@ -20,17 +20,17 @@ url: https://twitter.com/flightradar24/status/2121347654714077605
 canonical_url: https://twitter.com/flightradar24/status/2121347654714077605
 summary: All US airports are currently ground stopped
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-14T02:27:33Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://twitter.com/flightradar24/status/2121347654714077605
-  seen_at: '2026-11-14T02:27:33Z'
+  seen_at: '2026-11-15T01:56:01Z'
   metrics:
-    points: 169
-    comments: 33
+    points: 211
+    comments: 43
   kind: news
 ---
 

@@ -20,17 +20,17 @@ url: https://grounds.top/
 canonical_url: https://grounds.top
 summary: Live map of U.S. flights during tonight's FAA nationwide ground stop
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-14T02:27:33Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://grounds.top/
-  seen_at: '2026-11-14T02:27:33Z'
+  seen_at: '2026-11-15T01:56:01Z'
   metrics:
-    points: 35
-    comments: 7
+    points: 211
+    comments: 27
   kind: product
 ---
 

@@ -20,17 +20,17 @@ url: https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buyin
 canonical_url: https://forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why
 summary: Are we just going to ignore that books are destroyed for AI?
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-14T02:27:33Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/
-  seen_at: '2026-11-14T02:27:33Z'
+  seen_at: '2026-11-15T01:56:01Z'
   metrics:
-    points: 54
-    comments: 52
+    points: 58
+    comments: 69
   kind: news
 ---
 

@@ -21,18 +21,18 @@ canonical_url: https://old-friends-gathering.github.io/sedimem
 summary: sedimem · 本地跨会话「自我迭代」记忆层：DSH / Codex CLI / Claude Code 共用一份只追加的真相层，重点治冗余·重复·冲突·过时（MCP + 四道写入卫生
   + Agent 裁决闭环）
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://old-friends-gathering.github.io/sedimem/
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 64
+    stars: 88
     forks: 5
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

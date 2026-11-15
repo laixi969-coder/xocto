@@ -20,17 +20,17 @@ url: https://www.dwarkesh.com/p/rsi
 canonical_url: https://dwarkesh.com/p/rsi
 summary: The avalanche that hit math is coming for AI development
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-14T02:27:33Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.dwarkesh.com/p/rsi
-  seen_at: '2026-11-14T02:27:33Z'
+  seen_at: '2026-11-15T01:56:01Z'
   metrics:
-    points: 60
-    comments: 101
+    points: 66
+    comments: 110
   kind: news
 ---
 

@@ -40,3 +40,21 @@
     \n\r\n他竟然会自己开了 4 个任务：\r\n![d238c18ed7be80082df649dba6443d2e]( https://i.imgur.com/Xj3xSQA.png)\r\n\
     \r\nPS.基础功能由 Haiku 5.5 ，fable5.2 主要用于处理复杂问题。\r\n\r\n已经开源到 Git： https://github.com/lnys/starTower\r\
     \n\r\n大家试完下看看效果咋样？"
+- id: ev-275a58859d8aeed7
+  project_slug: i-2
+  url: https://www.v2ex.com/t/1257087
+  title: 做了一份 AI 顶会论文数据集&一份具身智能数据集，有需要的自取~
+  published_at: '2026-11-14T11:47:33Z'
+  collected_at: '2026-11-15T01:55:58Z'
+  source_kind: product
+  tier: independent
+  fact: "之前我发过 2023 年和 2024 年的 AI 论文数据集，还挺多人收藏的： https://www.v2ex.com/t/1237157#reply3\r\n\r\n现在我又来更新了。\r\
+    \n\r\n这次我整理了 2025 年 AI 顶会论文数据集，总共 11945 篇，主要内容如下：\r\n\r\n![]( https://i.imgur.com/Xime2J3.png) \r\n\
+    \ \r\n在等更新的各位可以自取啦\U0001F449：\U0001F917 huggingface.co/datasets/JensCS/top-ml-conference-papers-2025\r\
+    \n \r\n![]( https://i.imgur.com/kCdEhRY.jpeg) \r\n  \r\n还有 2023—2025 年的具身智能论文数据集，一并奉上。想做跨年份分析或关注机器人、具身智能方向的朋友，也可以一起查看\U0001F449\
+    ：\U0001F917 huggingface.co/datasets/JensCS/embodie…nference-papers-2023-2025\r\n  \r\n我是做科研的，平时也会自己搞点小项目，所以数据集对我们研究\
+    \ AI 技术发展是很有用的，毕竟技术的前沿，还得看 7 公主们的捣鼓。但是靠我们自己人力手翻肯定是不现实的，我一般都是借助 AI 的力量。\r\n  \r\n你可以把数据直接交给 Agent ，让它帮你快速筛选论文、梳理一个方向的技术路线，也可以辅助技术选型和写报告综述。平时干活、学习、做技术分享，都能用上。\r\
+    \n  \r\n不过，这些数据集一般都很大，如果硬喂的话，会比较耗 token 。所以，我一般都是结合我自己手搓的一个小工具 Knowhere 来用。简而言之，它是一个 AI-native 的解析器，会把生产环境里的脏文档转成\
+    \ Agent 直接可用的材料。这个中间件不止是为了识别文件，它会把后续的 chunking 、embedding 一块做了，所以在 Agent 里面使用的时候，能在节省一半 token 的同时获得更好的解析效果。\r\
+    \n  \r\n这些数据集也是用来给 Knowhere 做能力测试的产物。因为论文看起来规整，实际上很难处理。它的双栏排版很容易串行，公式、图表和图注经常在不同位置，还有附录跟实验距离十万八千里。Knowhere\
+    \ 拿到这些论文后，会先解析每篇论文，把正文拆成带章节路径的内容片段；接着重建完整的章节树，让每段内容都知道自"

@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-11-13T02:39:05Z'
+last_seen: '2026-11-15T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
@@ -238,6 +238,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/
   seen_at: '2026-11-13T02:39:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxQa2ZuZnhIbElJOXJEblVxRWFsYjI0V21jcHU0TGhwR0xBcnJjcjNESFB0NTRqdlc3QWFCQVJIWi1jNGJUQm5IQi1xX0taNm1IRkdqcXRmLW12bXlpNUZXQzdvbUp5bnJtNHdNODJBc0FOU0hFbTl5UkwzY2pEWnFJYXUzTVVMdWtQZzhrTXhOUFY4ZUdaSTdDVkpFbFg3X1VyZ2QwWjNickZPZzAxWThhMTVnRnhmSHBSRWpXYm0wR0VRZ3FKRElvRmlBcDQ5Z1VTdDJmU2N4TVVxd3M?oc=5
+  seen_at: '2026-11-15T01:56:36Z'
   metrics: {}
   kind: news
 ---

@@ -22,16 +22,16 @@ summary: This is a Claude Code skill for comprehensive website analysis, audits,
   search optimization. It analyzes your target site, evaluates search signals, and produces an actionable,
   prioritized roadmap directly inside Claude.
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.instagram.com/samknows.ai
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 48
+    stars: 47
     forks: 0
     open_issues: 0
   kind: product

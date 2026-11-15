@@ -20,7 +20,7 @@ url: https://huggingface.co/blog/ggml-org/llama-cpp-v1
 canonical_url: https://huggingface.co/blog/ggml-org/llama-cpp-v1
 summary: Llama.cpp v1 Is Out
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-14T02:28:05Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
@@ -28,10 +28,10 @@ sources:
 sightings:
 - source: hackernews
   url: https://huggingface.co/blog/ggml-org/llama-cpp-v1
-  seen_at: '2026-11-14T02:27:33Z'
+  seen_at: '2026-11-15T01:56:01Z'
   metrics:
-    points: 20
-    comments: 2
+    points: 25
+    comments: 4
   kind: news
 - source: officialfeeds
   url: https://huggingface.co/blog/ggml-org/llama-cpp-v1

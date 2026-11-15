@@ -20,18 +20,18 @@ url: https://github.com/anomalyco/browse
 canonical_url: https://github.com/anomalyco/browse
 summary: 'Let your AI agents use your real browser: an MCP server and a Chromium extension'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anomalyco/browse
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 555
-    forks: 39
-    open_issues: 24
+    stars: 584
+    forks: 41
+    open_issues: 26
   kind: product
 ---
 

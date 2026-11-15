@@ -23,18 +23,18 @@ summary: 'A controlled AI workflow for Blender: every copilot edit is a supervis
   studio with a built-in MCP server. · blender-ai-copilot-flow · blender · blender 3d · blender addon
   · blender plugin · blender extension'
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tiobeharxi1987/blender-ai-copilot-flow
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 174
-    forks: 3
-    open_issues: 41
+    stars: 348
+    forks: 5
+    open_issues: 45
   kind: product
 ---
 

@@ -21,16 +21,16 @@ canonical_url: https://github.com/RapidSailorFreeze/studsmith
 summary: 'Free AI agent for Roblox Studio: plans, writes Luau, shows a diff and playtests its own changes.
   Windows app. 免费的 Roblox Studio AI 智能体。'
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-09T01:44:47Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/RapidSailorFreeze/studsmith
-  seen_at: '2026-11-09T01:44:47Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 95
+    stars: 96
     forks: 60
     open_issues: 0
   kind: product

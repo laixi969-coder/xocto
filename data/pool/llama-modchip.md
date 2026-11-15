@@ -21,18 +21,18 @@ canonical_url: https://github.com/synchopate/llama-modchip
 summary: 🐋 Run 284B DeepSeek-V4-Flash (<59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) & 30B MoEs (25-111 tok/s)
   on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 & 13ms Claude Code restore.
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/synchopate/llama-modchip#readme
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 1195
-    forks: 108
-    open_issues: 28
+    stars: 1238
+    forks: 111
+    open_issues: 29
   kind: product
 ---
 

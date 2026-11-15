@@ -22,18 +22,18 @@ summary: 'Deep PTC for DeepSeek Harness: interruptible jobs, selectable shells, 
   outputs and compact subagent rows, general SSH and DSH Go assistance, bilingual UI, and on-demand tools
   and skills for drawing, design and research.'
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lishize20040802-rgb/dsh-deep-ptc-mode#readme
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 41
-    forks: 5
-    open_issues: 9
+    stars: 46
+    forks: 6
+    open_issues: 1
   kind: product
 ---
 

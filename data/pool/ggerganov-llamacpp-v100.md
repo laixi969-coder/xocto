@@ -299,16 +299,16 @@ summary: "<img width=\"1600\" height=\"900\" alt=\"llama-cpp-v1\" src=\"https://
   00df7c22d sycl : fix docker issue (#31605)\r\n034e2535a gguf-py : validate every tokenizer merge pair,\
   \ not only the first (#31631)\r\n52e53a76d common : delete common_get_path_from_env() (#31444)"
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    reactions: 149
+    reactions: 175
   kind: news
 ---
 

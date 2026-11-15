@@ -20,7 +20,7 @@ url: https://bonguynvan.github.io/tradecanvas/
 canonical_url: https://bonguynvan.github.io/tradecanvas
 summary: zero-dependency charting engine for Svelte
 first_seen: '2026-09-27T15:22:52Z'
-last_seen: '2026-11-13T02:39:12Z'
+last_seen: '2026-11-15T01:56:36Z'
 status: pending_filter
 sources:
 - hackernews
@@ -36,6 +36,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimgJBVV95cUxQaW42THlLS05xYXpmd3VKV1VzelhhakM2UUt0clVtRTR3V1hoVmJ0Y1ZFM3F0OVdyWTJfczZkOGlYLVg3eTBORW5ja2hORWdpM2tlVDV0bEQxbGQtYmo5OXRKX3FHdkdGclFuSDdmNXpVLXpENkJWOWtlT1Nfb1M1Z1hzeE9mZ0NvbGJUb3ZKUmszRFJUR1hSY1lNcVMycTJxWGlKX3FmVm1zM3Nmbi1qdUU0b3dUbWhINmRXem9neUpNeVUxeERyLWVtS3hzbzUzVnFUYW12UjdzU1VsYlpCOTBscDFWbXdsMENSekFaT2xIWDBzTUJZN3NwdHJCeTZKU0xiR2lVaEdzUlpETnh6TWRiY2R3cjFid3c?oc=5
   seen_at: '2026-11-13T02:39:12Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilwJBVV95cUxQVnp3Zi1oeTlBWktvbHJCU1dQUUQ3c3ZvakdpTUpkWC1mTDI4bG1GMVlQaEZzWjdkYWxZYk91RGVKNXJNdWFnMkg4bmU5TTRaN3hURlJmaHNqOV9udXpocDhGaS1MaUZMU2VGTWZEMWR5Q04zR3RtbUc1SlJmMnhRcTg0U1pGR2xxOElvUnBteGFHd1RXWTZhaWhRNkUwSHJGVWRrN2FUS216SUpLZ1V4WnRRWXI3ZllqTXRXYzhFVWVpTU9nMURGRm9qVmU4RnZPTHN6ZS1MMzNkdXMwRWVtNkJJczFYWjE4c3pNS1hzWk1CaDc1U2hfSnlhclRhZWd2RE5CbXhLVlBOUmN5a3d2dkpEeFg0V2s?oc=5
+  seen_at: '2026-11-15T01:56:36Z'
   metrics: {}
   kind: news
 ---

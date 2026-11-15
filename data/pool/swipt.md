@@ -20,18 +20,18 @@ url: https://swipt.io
 canonical_url: https://swipt.io
 summary: The universal iOS automation platform
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://swipt.io
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 476
-    forks: 23
-    open_issues: 10
+    stars: 482
+    forks: 22
+    open_issues: 9
   kind: product
 ---
 

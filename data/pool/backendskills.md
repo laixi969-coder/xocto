@@ -21,18 +21,18 @@ canonical_url: https://github.com/globalmpc/backendskills
 summary: 'Skills that stop AI agents from writing backend code that passes the demo and breaks in production.
   Critical mistakes: 25/150 runs without, 2/150 with. Claude Code, Codex, Cursor.'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-11T01:56:55Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/globalmpc/backendskills
-  seen_at: '2026-11-11T01:56:55Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 53
+    stars: 59
     forks: 2
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

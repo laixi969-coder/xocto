@@ -20,7 +20,7 @@ url: https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for
 canonical_url: https://tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg
 summary: US Customs supervisor busted for stealing hardware from Homeland Security PCs
 first_seen: '2026-09-13T13:24:28Z'
-last_seen: '2026-11-11T01:56:51Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
@@ -108,6 +108,20 @@ sightings:
   metrics:
     points: 15
     comments: 4
+  kind: news
+- source: hackernews
+  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits
+  seen_at: '2026-11-15T01:56:01Z'
+  metrics:
+    points: 43
+    comments: 62
+  kind: news
+- source: hackernews
+  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls
+  seen_at: '2026-11-15T01:56:01Z'
+  metrics:
+    points: 47
+    comments: 32
   kind: news
 ---
 

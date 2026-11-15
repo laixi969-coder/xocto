@@ -20,17 +20,17 @@ url: https://www.youtube.com/watch?v=IRK8h67ol7Q
 canonical_url: https://youtube.com/watch?v=IRK8h67ol7Q
 summary: If AI Solved Coding, Why Is My Software Still the Same? [video]
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-14T02:27:33Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.youtube.com/watch?v=IRK8h67ol7Q
-  seen_at: '2026-11-14T02:27:33Z'
+  seen_at: '2026-11-15T01:56:01Z'
   metrics:
-    points: 147
-    comments: 134
+    points: 460
+    comments: 671
   kind: news
 ---
 

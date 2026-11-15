@@ -89,3 +89,21 @@
     \n- 写论文：Ayakaleaf\r\n- 记笔记：思源笔记\r\n- 跑容器：Windows 、macOS 、Linux 都能跑\r\n\r\n![一键部署]( https://raw.githubusercontent.com/iffiX/neutrino/b43772397d260a6348d03fa337fb3305c9f93838/images/promo/0.6.0/deploy.png)\r\
     \n\r\n## 到处使用\r\n\r\n- 6 种连接方式：NetBird 、EasyTier 、SSH 中继、直连、SakuraFrp 、OpenFrp\r\n- 智能路由：客户端自动用最快的一条\r\
     \n- 客户端：Windows 、macOS 、Linux 、Android 、iOS\r\n\r\n![到处使用]( https://raw.githubusercontent.com/iffiX/neutrino/b43772397d260a6348d03fa337fb3305c9f93838/images/promo/0"
+- id: ev-5fe6ac39a445cd06
+  project_slug: raw
+  url: https://www.v2ex.com/t/1257131
+  title: Runner iPhone 版开启 TestFlight 内测：在手机上看终端、回消息、带 crew 干活
+  published_at: '2026-11-14T16:24:00Z'
+  collected_at: '2026-11-15T01:55:58Z'
+  source_kind: product
+  tier: independent
+  fact: "Runner 是我做的一个管理 CLI agent 的开源桌面工具，之前在 V 站[介绍过]( https://www.v2ex.com/t/1249284)，可以在同一个 app 里用\
+    \ Claude Code 、Codex 等，也可以把不同的 agent 放进一个 crew 里一起做任务。上次发 [0.18 桌面端远程控制]( https://www.v2ex.com/t/1251677)的时候提过移动端会优先做\
+    \ iOS ，最近把 Runner iPhone 版的 UI 和主要交互定下来了，已经上传 TestFlight ，开放给想试试的朋友一起内测。\r\n\r\n手机端通过和桌面端一样的端到端加密\
+    \ relay 连回你的 Mac 、Windows 或 Linux 电脑，agent 仍然跑在电脑后台的 `runnerd` 里，手机上用 6 位 PIN 配对一次就能连上。打开之后是当前电脑的会话列表，可以看到正在运行的\
+    \ chat 和关联在 chat 下面的 mission ，琥珀色图标会标出正在等你处理的会话，底部可以切换同一账号下已配对的不同电脑。\r\n\r\n![Runner iPhone 版会话列表：展示正在运行的\
+    \ chat 、关联的 mission 以及需要处理的琥珀色标记]( https://raw.githubusercontent.com/yicheng47/runner/70ab2cf06a1f68f5fa8db405f221d6372959d3f7/assets/ios-sessions-0.1.0.png)\r\
+    \n\r\n点进 mission 可以直接看 `@coder`、`@reviewer` 之间的协作消息。当某个 agent 有问题需要你拍板时，消息流里会显示待回答的选项卡片，点一下就能把决定发回去让\
+    \ crew 继续干活，也可以在底部随时给整个 crew 或指定成员发消息。\r\n\r\n![Runner iPhone 版 mission 消息流：展示成员消息、待回答的选项卡片与底部输入框](\
+    \ https://raw.githubusercontent.com/yicheng47/runner/70ab2cf06a1f68f5fa8db405f221d6372959d3f7/assets/ios-mission-feed-0.1.0.png)\r\
+    \n\r\n单个会话点开就是电脑"

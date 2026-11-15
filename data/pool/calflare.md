@@ -20,16 +20,16 @@ url: https://github.com/ralphbibera/cal.flare
 canonical_url: https://github.com/ralphbibera/cal.flare
 summary: cal.diy ported to Cloudflare Workers
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-14T02:27:33Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/ralphbibera/cal.flare
-  seen_at: '2026-11-14T02:27:33Z'
+  seen_at: '2026-11-15T01:56:01Z'
   metrics:
-    points: 8
+    points: 9
     comments: 0
   kind: product
 ---

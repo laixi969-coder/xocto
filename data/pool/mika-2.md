@@ -20,18 +20,18 @@ url: https://mikaphone.com
 canonical_url: https://mikaphone.com
 summary: An on-device AI agent for Android that operates apps and the web to get things done for you.
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://mikaphone.com
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 8531
-    forks: 1948
-    open_issues: 134
+    stars: 8624
+    forks: 1968
+    open_issues: 122
   kind: product
 ---
 

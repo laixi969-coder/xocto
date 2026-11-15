@@ -20,17 +20,17 @@ url: https://orcasairband.com/
 canonical_url: https://orcasairband.com
 summary: Live airband on all frequencies from KORS. Victoria, CA also ground stopped
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-14T02:27:33Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://orcasairband.com/
-  seen_at: '2026-11-14T02:27:33Z'
+  seen_at: '2026-11-15T01:56:01Z'
   metrics:
-    points: 211
-    comments: 48
+    points: 291
+    comments: 70
   kind: news
 ---
 

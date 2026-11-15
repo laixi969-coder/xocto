@@ -22,17 +22,17 @@ summary: 'Hand your SaaS growth chores to an agent: new-term radar, keyword-to-s
   backlinks, directory submissions, plus a social analysis pack with a Douyin comments skill. Works with
   Grok Bot, Muse, Dot, Hermes, OpenClaw, Claude Code and Codex.'
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Pluviobyte/saas-growth-agents
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 533
-    forks: 131
+    stars: 537
+    forks: 132
     open_issues: 0
   kind: product
 ---

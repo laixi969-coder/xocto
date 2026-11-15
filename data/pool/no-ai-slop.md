@@ -20,17 +20,17 @@ url: https://www.slopmanifesto.com/
 canonical_url: https://slopmanifesto.com
 summary: A Manifesto
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-14T02:27:33Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.slopmanifesto.com/
-  seen_at: '2026-11-14T02:27:33Z'
+  seen_at: '2026-11-15T01:56:01Z'
   metrics:
-    points: 185
-    comments: 106
+    points: 216
+    comments: 129
   kind: news
 ---
 

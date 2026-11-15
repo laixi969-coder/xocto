@@ -22,17 +22,17 @@ summary: This is a lightweight, headless browser purpose-built for AI agents (su
   Code) to perform browser automation tasks; it is designed to navigate through various web protection
   systems, login processes, and reverse-engineering scenarios
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://cutetailbud.github.io/ff-ruyijs/
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 1242
-    forks: 354
+    stars: 1245
+    forks: 357
     open_issues: 14
   kind: product
 ---

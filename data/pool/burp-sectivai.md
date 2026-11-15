@@ -22,17 +22,17 @@ summary: Sectiv is a  skill-driven AI security review for Burp Suite. Pick captu
   goal (IDOR, XSS, SQLi, SSRF…),     and get a severity dashboard with description, steps to reproduce,
   impact, PoC, CWE/CVE and HTML/MD/JSON export. Built with     Kotlin + Swing on the Montoya API.
 first_seen: '2026-11-06T02:26:55Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zack0x01/burp-sectivai
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
     stars: 114
-    forks: 22
+    forks: 23
     open_issues: 1
   kind: product
 ---

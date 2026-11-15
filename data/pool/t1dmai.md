@@ -20,17 +20,17 @@ url: https://github.com/0xdeadf1sh/T1DMAI
 canonical_url: https://github.com/0xdeadf1sh/T1DMAI
 summary: I have trained 15 blood glucose forecasting models on my own data
 first_seen: '2026-11-11T01:56:51Z'
-last_seen: '2026-11-12T02:59:38Z'
+last_seen: '2026-11-15T01:56:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/0xdeadf1sh/T1DMAI
-  seen_at: '2026-11-12T02:59:38Z'
+  seen_at: '2026-11-15T01:56:01Z'
   metrics:
-    points: 20
-    comments: 7
+    points: 5
+    comments: 2
   kind: product
 ---
 

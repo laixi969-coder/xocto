@@ -21,16 +21,16 @@ canonical_url: https://devvm.dev
 summary: One VM for every project. An isolated sandbox with your project’s toolchain, ready for you or
   a coding agent to start coding
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-14T02:27:37Z'
+last_seen: '2026-11-15T01:56:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://devvm.dev
-  seen_at: '2026-11-14T02:27:37Z'
+  seen_at: '2026-11-15T01:56:04Z'
   metrics:
-    stars: 617
+    stars: 633
     forks: 31
     open_issues: 2
   kind: product
