@@ -2,7 +2,7 @@
   "version": 2,
   "company_id": "67BE8582-BCB8-45B7-99DC-B746067BC2F5",
   "round_fingerprint": "4a516c5f7c98bfa8c8c1074497f3ec9ae80afe287dce1d373b86f47cfac26448",
-  "last_attempt": "2026-11-04",
+  "last_attempt": "2026-11-15",
   "status": "blocked",
   "gaps": [
     "product",
@@ -17,13 +17,13 @@
       "role": "funding",
       "status": "retrieved",
       "text": "Sortrace develops AI-powered waste analysis technology that uses cameras and computer vision to monitor household waste sorting, helping municipalities and waste management companies identify sorting issues and improve recycling processes.",
-      "checked_on": "2026-11-04"
+      "checked_on": "2026-11-15"
     },
     {
       "url": "https://sortrace.com/",
       "kind": "retrieval_gap",
       "role": "overview",
-      "checked_on": "2026-11-04",
+      "checked_on": "2026-11-15",
       "status": "unavailable",
       "text": "",
       "error": "ValueError: Page has no usable product text or is a parked/challenge page"
