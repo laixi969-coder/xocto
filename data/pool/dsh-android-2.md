@@ -21,17 +21,17 @@ canonical_url: https://github.com/jackwener/DSH-Android
 summary: 免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选
   Shizuku
 first_seen: '2026-10-31T01:36:36Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jackwener/DSH-Android
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 937
-    forks: 105
+    stars: 972
+    forks: 111
     open_issues: 29
   kind: product
 ---

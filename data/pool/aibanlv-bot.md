@@ -20,16 +20,16 @@ url: https://aibanlv.ai
 canonical_url: https://aibanlv.ai
 summary: AIBanlv Bot — An Open-Source AI Agent with a Face.
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://aibanlv.ai
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 96
+    stars: 107
     forks: 1
     open_issues: 0
   kind: product

@@ -22,18 +22,18 @@ summary: An agent skill that draws animated icons in one consistent style, for C
   other coding agents. Comes with 2,600+ open-source icons for React, Vue and SVG, and a website to browse
   them.
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://icons.kubai.design
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 831
-    forks: 39
-    open_issues: 0
+    stars: 877
+    forks: 40
+    open_issues: 1
   kind: product
 ---
 

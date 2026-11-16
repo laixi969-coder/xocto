@@ -22,18 +22,18 @@ summary: Turn your notes, slides, recordings and past exams, or just a topic, in
   it with an AI tutor that lives on your computer. Lessons with figures and 3D, exercises checked as you
   answer, flashcards, mock exams. macOS, Windows, Linux, iPad and iPhone. Free and open source.
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/luumlabs/aula
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 56
-    forks: 4
-    open_issues: 4
+    stars: 59
+    forks: 6
+    open_issues: 6
   kind: product
 ---
 

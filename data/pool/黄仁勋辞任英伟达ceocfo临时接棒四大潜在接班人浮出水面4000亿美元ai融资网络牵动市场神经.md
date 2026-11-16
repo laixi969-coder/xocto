@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uRFRGOWJMYlJRZUVXWDFLQm
 canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uRFRGOWJMYlJRZUVXWDFLQmI3cGpXRzVWbFpKWjdBYmQ4VktuNi1NMGF3bzNDcDN2WU04a2tXWndESEpGVGtLQWYzQjJlMTdVWjc2cF82TmhhczhoaGU2V2hXdWduQQ?oc=5
 summary: 黄仁勋辞任英伟达CEO！CFO临时接棒，四大潜在接班人浮出水面，4000亿美元AI融资网络牵动市场神经 每日经济新闻
 first_seen: '2026-11-13T02:39:12Z'
-last_seen: '2026-11-13T02:39:12Z'
+last_seen: '2026-11-16T02:09:00Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uRFRGOWJMYlJRZUVXWDFLQmI3cGpXRzVWbFpKWjdBYmQ4VktuNi1NMGF3bzNDcDN2WU04a2tXWndESEpGVGtLQWYzQjJlMTdVWjc2cF82TmhhczhoaGU2V2hXdWduQQ?oc=5
   seen_at: '2026-11-13T02:39:12Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibkFVX3lxTE1UMVlkeWtHVW5sVTBQN3FvZGk2bXZLZG14c0twT3A5X1QwSWo5UzdkQ2FJZHJGM1R2TV9EZEF5cmJLd1duSU5GMS1YbWZteHF5YVZ4dU0ybnM4bkVnamdJYS1FYUFvR1kwSGNyREln?oc=5
+  seen_at: '2026-11-16T02:09:00Z'
   metrics: {}
   kind: news
 ---

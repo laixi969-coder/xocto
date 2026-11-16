@@ -20,17 +20,17 @@ url: https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax
 canonical_url: https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax
 summary: DeepSeek V3 in ~200 lines of pure Jax
 first_seen: '2026-11-15T01:56:01Z'
-last_seen: '2026-11-15T01:56:01Z'
+last_seen: '2026-11-16T02:08:18Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax
-  seen_at: '2026-11-15T01:56:01Z'
+  seen_at: '2026-11-16T02:08:18Z'
   metrics:
-    points: 175
-    comments: 9
+    points: 272
+    comments: 27
   kind: product
 ---
 

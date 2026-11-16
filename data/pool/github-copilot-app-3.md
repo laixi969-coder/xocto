@@ -21,17 +21,17 @@ canonical_url: https://github.com/trackersnailgrip/GitHub-Copilot-app
 summary: The GitHub Copilot app is an agent-native desktop experience for finding, running, steering,
   and landing software work across your GitHub repositories.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/trackersnailgrip/GitHub-Copilot-app
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 666
-    forks: 12
+    stars: 385
+    forks: 11
     open_issues: 0
   kind: product
 ---

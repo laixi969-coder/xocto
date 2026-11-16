@@ -1,0 +1,43 @@
+---
+slug: infinite-shaders
+name: Infinite Shaders
+builder: andrewray
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://shaderfrog.com/infinite
+canonical_url: https://shaderfrog.com/infinite
+summary: ''
+first_seen: '2026-11-16T02:08:18Z'
+last_seen: '2026-11-16T02:08:18Z'
+status: pending_filter
+sources:
+- hackernews
+sightings:
+- source: hackernews
+  url: https://shaderfrog.com/infinite
+  seen_at: '2026-11-16T02:08:18Z'
+  metrics:
+    points: 9
+    comments: 4
+  kind: product
+---
+
+# Infinite Shaders
+
+_（源没给简介）_
+
+## 笔记
+
+

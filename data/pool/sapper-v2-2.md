@@ -22,17 +22,17 @@ summary: 'The first fruit of the Nüwa tree — an autonomous AI pentest legion 
   1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation
   (Create/Language/History).'
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/N1nEmAn/nvwabase
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 2095
-    forks: 1064
+    stars: 2113
+    forks: 1077
     open_issues: 3
   kind: product
 ---

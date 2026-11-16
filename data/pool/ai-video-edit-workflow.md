@@ -22,16 +22,16 @@ summary: 'Yapay zeka ile video edit: formu doldur, brif otomatik hazırlansın. 
   Gemini CLI videoyu analiz edip Remotion şeffaf katmanı ve ffmpeg ile birleştirir. 25 efekt, kamera tespiti,
   müzik, Windows tek tık kurulum.'
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://ai-video-edit-workflow.vercel.app
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 61
+    stars: 62
     forks: 11
     open_issues: 0
   kind: product

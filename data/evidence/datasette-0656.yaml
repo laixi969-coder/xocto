@@ -1,0 +1,12 @@
+- id: ev-4aceab1d0d72bc9f
+  project_slug: datasette-0656
+  url: https://simonwillison.net/2026/Nov/15/datasette-2/
+  title: datasette 0.65.6
+  published_at: '2026-11-15T23:18:17Z'
+  collected_at: '2026-11-16T02:08:53Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue
+    where a database registered using add_database(db, name=..., route=...) with a route that differs
+    from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags:
+    security , datasette'

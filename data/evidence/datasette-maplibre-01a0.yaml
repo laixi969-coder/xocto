@@ -1,0 +1,18 @@
+- id: ev-0af4b0d75a7c8462
+  project_slug: datasette-maplibre-01a0
+  url: https://simonwillison.net/2026/Nov/15/datasette-maplibre/
+  title: datasette-maplibre 0.1a0
+  published_at: '2026-11-15T23:58:36Z'
+  collected_at: '2026-11-16T02:08:53Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while!
+    This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server
+    operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt
+    to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look
+    at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL
+    and openfreemap and combines the features of those other two plugins - but be creative and think outside
+    the box for other useful features the plugin might have "Be creative and think outside the box" resulted
+    in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a
+    WebGL preview only when they scroll into view. I also had Claude build a comprehensive demo which
+    works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo datab'

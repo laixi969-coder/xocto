@@ -21,16 +21,16 @@ canonical_url: https://github.com/thunderifang/rpocket-team-tube-assistant
 summary: 'Autonomous YouTube AI agent: LLM script, TTS voice, stock clips, FFmpeg editing, AI thumbnail,
   auto-upload — 100% free, Telegram-controlled.'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/thunderifang/rpocket-team-tube-assistant
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 83
+    stars: 82
     forks: 1
     open_issues: 0
   kind: product

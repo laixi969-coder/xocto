@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-14T02:28:05Z'
+last_seen: '2026-11-16T02:09:00Z'
 status: pending_filter
 sources:
 - hackernews
@@ -355,6 +355,16 @@ sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/
   seen_at: '2026-11-14T02:28:05Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools
+  seen_at: '2026-11-16T02:08:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNRl9qVklxZHhOWlNpNjh3UFdQRk1JZ3lfNVNqZWhvN1dubW90WDNCWVVEOFFmdlRmTy1KZ0xlSlZRM0NBeUZNTFVWTWd1TnFfR3JBM1BZWVVZbXRNTTI1a3p1VE9KaGU3UEFycmt2S2FlVnFhQXM2c0d0aTRhT3FiSjFfRQ?oc=5
+  seen_at: '2026-11-16T02:09:00Z'
   metrics: {}
   kind: news
 ---

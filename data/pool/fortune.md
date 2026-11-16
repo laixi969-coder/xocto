@@ -20,7 +20,7 @@ url: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-ol
 canonical_url: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs
 summary: Cisco gives engineer unlimited AI tokens to rewrite legacy code
 first_seen: '2026-10-31T01:36:31Z'
-last_seen: '2026-11-01T01:10:25Z'
+last_seen: '2026-11-16T02:08:18Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 302
     comments: 370
+  kind: news
+- source: hackernews
+  url: https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/
+  seen_at: '2026-11-16T02:08:18Z'
+  metrics:
+    points: 63
+    comments: 61
   kind: news
 ---
 

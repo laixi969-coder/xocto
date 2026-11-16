@@ -23,18 +23,18 @@ summary: An MCP bridge for Blender that exposes 27 supervised scene tools to Ope
   on the inside. · blender-ai-copilot-bridge · blender · blender 3d · blender addon · blender plugin ·
   blender extension · blender scripting
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/benzgasfuncring197110/blender-ai-copilot-bridge
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 332
-    forks: 4
-    open_issues: 44
+    stars: 491
+    forks: 13
+    open_issues: 47
   kind: product
 ---
 

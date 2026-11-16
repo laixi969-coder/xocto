@@ -21,16 +21,16 @@ canonical_url: https://github.com/LordOmegabit6093/short-video-resp-maker
 summary: Create short vertical videos for TikTok, YouTube Shorts, and Instagram Reels using AI. Fully
   automated pipeline with traceability. 🚀🎥
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LordOmegabit6093/short-video-resp-maker
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 84
+    stars: 83
     forks: 0
     open_issues: 0
   kind: product

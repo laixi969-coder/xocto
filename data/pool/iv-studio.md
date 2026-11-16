@@ -22,17 +22,17 @@ summary: Free, open-source AI film studio on your own PC. Recurring characters, 
   shots, voices, music, a short-film wizard and a real editor, on your ComfyUI or your own cloud GPU.
   Windows, Mac and Linux, with 214 MCP tools so Claude Code, Codex or Hermes can run it.
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://infinitevariance.ai/studio
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 104
-    forks: 20
+    stars: 105
+    forks: 21
     open_issues: 5
   kind: product
 ---

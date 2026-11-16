@@ -23,18 +23,18 @@ summary: Blender AI MCP Suite is an AI assistant and built-in Model Context Prot
   a visual Studio workspace, multi-agent teams, 21+ scene tools and your choice of AI models. · blender
   ai mcp suite · blender ai mcp · ai for blender
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/findavoulot1973/Blender-AI-MCP-Suite
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 342
-    forks: 5
-    open_issues: 44
+    stars: 497
+    forks: 12
+    open_issues: 47
   kind: product
 ---
 

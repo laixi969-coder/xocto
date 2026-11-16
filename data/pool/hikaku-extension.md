@@ -21,16 +21,16 @@ canonical_url: https://hikaku.io
 summary: Open-source browser extension that flags AI-generated images and video as you browse. Runs entirely
   on your device. Chrome, Edge and Firefox.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://hikaku.io
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 319
+    stars: 396
     forks: 1
     open_issues: 0
   kind: product

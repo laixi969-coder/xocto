@@ -21,17 +21,17 @@ canonical_url: https://github.com/ersinkoc/AI-Video-Factory
 summary: 'AI video factory: from one topic to a finished, multilingual YouTube video. Claude agents write,
   plan, draw and review; a Studio keeps the human in charge.'
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ersinkoc/AI-Video-Factory
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 439
-    forks: 62
+    stars: 461
+    forks: 64
     open_issues: 1
   kind: product
 ---

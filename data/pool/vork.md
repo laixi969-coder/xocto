@@ -20,18 +20,18 @@ url: https://voyager.so/vork
 canonical_url: https://voyager.so/vork
 summary: Headless 3D and VFX engine for agents. Research preview.
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://voyager.so/vork
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 1576
-    forks: 130
-    open_issues: 12
+    stars: 1597
+    forks: 134
+    open_issues: 5
   kind: product
 ---
 

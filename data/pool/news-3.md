@@ -20,7 +20,7 @@ url: https://news.ycombinator.lol
 canonical_url: https://news.ycombinator.lol
 summary: Pointless but mostly-exact clone of Hacker News
 first_seen: '2026-10-07T18:05:35Z'
-last_seen: '2026-11-14T02:28:20Z'
+last_seen: '2026-11-16T02:09:00Z'
 status: pending_filter
 sources:
 - hackernews
@@ -120,6 +120,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5oZ3NJUzRQWmIxZXdweFVucnlWZmpKck5oYmIwTDFjb0lKc094X3A1emVmQm9tQVRfaEVBZ2FXTEFsZ2t6MUJYazVleE1VUTJtOFBj?oc=5
   seen_at: '2026-11-14T02:28:20Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/
+  seen_at: '2026-11-16T02:08:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zUWFxVDVJQ2lpWk14UWRPMUxyakhleGF3Q3NJTWV3Y0tTdHNzbFQ1MVBmbHR5VFRORjJVeXVyRmZnVXMwR3ZYVXFUbDMzMzZaaktV?oc=5
+  seen_at: '2026-11-16T02:09:00Z'
   metrics: {}
   kind: news
 ---

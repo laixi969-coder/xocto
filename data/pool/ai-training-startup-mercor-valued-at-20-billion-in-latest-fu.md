@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBNVnFJVjU2WndjUnhxMkhEWG
 canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBNVnFJVjU2WndjUnhxMkhEWGhwRkdKeWF2cXJGMm5TSWVOM1hYX2x2YndSYWJsVHhGcm9LR2F1SzEweDhPWnQtLUlGbDh3WV8zQWJ1MnE3TEpXY0xZTXplaVRDcktCengzbm9yRk0zZ3RpSlRf?oc=5
 summary: AI training startup Mercor valued at $20 billion in latest funding round Tacoma News Tribune
 first_seen: '2026-11-11T01:57:31Z'
-last_seen: '2026-11-12T03:01:17Z'
+last_seen: '2026-11-16T02:09:00Z'
 status: pending_filter
 sources:
 - newssearch
@@ -43,6 +43,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5vVG0xWFJyY1Y1bW55bkl4RzUydjNwQ29tQ0Z1SVVRRS1aTGV0UVhuMG5xM2NZbW9KTTNQNzVqdy1HSi1ZWjRtZzl6YURzUmxKOVhqTDdzZUROZHFoQkdldUJRUzdSTkhOSjNMSVdJX1ljSmJsaWc?oc=5
   seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi_wFBVV95cUxNQkxhNVBFZFpCOXQ3ODBYRnVvSkR4X2NjTmFuc3pFMks1MWpNU0NTbGVlcjY0VVQyVFB5QV80NTdTWDR0ZnJzakVvZTFTczhjbjNnUllSemZoTlhveHNPOHFyUHhkZXNtb2JNajVfdTR6cGx6bUZycGJkcGtuM3BqRjNtMmRLQzRsMU8yMlMwcWZkRDZiQ21tUHdMWXZLeHRoa3hzMkc2UE1QaHhlRXV5R0tCMkJyMS1zb3l0VmdPNk9iWG9JcVpSYUJQMFlPWDJVUXl1RDhOOVhwWnRDblctaXRMVkZEQkNTNXVNRDVEZm5ncEZDRTh5dzVqRkJyVXc?oc=5
+  seen_at: '2026-11-16T02:09:00Z'
   metrics: {}
   kind: news
 ---

@@ -22,18 +22,18 @@ summary: 自部署 Grok Bot：Linux 服务端支持 x86_64 和 ARM64，已在甲
   客户端补丁；自开发 Android App（非官方）。Self-hosted Grok Bot for x86_64 and ARM64 Linux, with an independently developed,
   unofficial Android app.
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ferretgeek/prokbot-plus
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 49
-    forks: 16
-    open_issues: 0
+    stars: 58
+    forks: 17
+    open_issues: 1
   kind: product
 ---
 

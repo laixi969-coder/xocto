@@ -23,18 +23,18 @@ summary: An AI lab for Blender where manager–worker–reviewer agent teams run
   named undo, and a built-in MCP server. · blender-ai-copilot-lab · blender · blender 3d · blender addon
   · blender plugin · blender extension
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/precygtrucqui1981/blender-ai-copilot-lab
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 345
-    forks: 5
-    open_issues: 42
+    stars: 506
+    forks: 13
+    open_issues: 45
   kind: product
 ---
 

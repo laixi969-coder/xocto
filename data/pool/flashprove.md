@@ -20,17 +20,17 @@ url: https://github.com/anthropics/FlashProve
 canonical_url: https://github.com/anthropics/FlashProve
 summary: A research prototype for zero-knowledge proofs of AI inference. Not maintained.
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/FlashProve
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 1049
-    forks: 112
+    stars: 1054
+    forks: 113
     open_issues: 4
   kind: product
 ---

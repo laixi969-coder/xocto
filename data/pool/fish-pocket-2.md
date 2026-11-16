@@ -21,18 +21,18 @@ canonical_url: https://fish.deepseek1024.com
 summary: 'DSH iOS 移动版：在 iPhone 和 iPad 上本机运行 DeepSeek Harness，界面完全原生，不连电脑和服务器。Run DSH (DeepSeek Harness)
   natively on iPhone and iPad: no computer, no server.'
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-16T02:08:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://fish.deepseek1024.com
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-16T02:08:21Z'
   metrics:
-    stars: 264
-    forks: 26
-    open_issues: 40
+    stars: 277
+    forks: 29
+    open_issues: 25
   kind: product
 ---
 

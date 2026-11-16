@@ -20,11 +20,12 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-11-12T02:59:38Z'
+last_seen: '2026-11-16T02:08:52Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
@@ -149,6 +150,11 @@ sightings:
   metrics:
     points: 291
     comments: 164
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/our-new-blog-for-science
+  seen_at: '2026-11-16T02:08:52Z'
+  metrics: {}
   kind: news
 ---
 
