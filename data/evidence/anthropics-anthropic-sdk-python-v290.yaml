@@ -1,0 +1,19 @@
+- id: ev-54b952779f4b63a5
+  project_slug: anthropics-anthropic-sdk-python-v290
+  url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.9.0
+  title: 'anthropics/anthropic-sdk-python: v2.9.0'
+  published_at: '2026-11-16T16:47:17Z'
+  collected_at: '2026-11-17T04:29:18Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "### Features\n\n* **api:** add source and error codes to the RBAC Role read endpoints\n* **api:**\
+    \ add Update Bundle, which sets a Claude Tag Bundle's instructions, and return instructions on Bundle\n\
+    \n\n### Bug Fixes\n\n* **credentials:** write the credentials file on Windows with Python 3.12 and\
+    \ earlier\n* **tools:** compare directory names exactly when confining file tool and upload paths\
+    \ on Windows\n* **tools:** fully resolve file tool paths that pass through a dangling symlink\n* **tools:**\
+    \ ignore ripgrep config files in the agent toolset's grep tool\n* **tools:** keep an existing skill\
+    \ directory when the download or extraction that would replace it fails\n* **tools:** keep the session\
+    \ tool runner's max_idle countdown running when a session thread terminates\n\n  If the runner fails\
+    \ to read the session's event history after a reconnect, a termination that then arrives on the event\
+    \ stream still cancels the countdown, until the next idle or successful read.\n\n* **tools:** leave\
+    \ symlinks that point o"

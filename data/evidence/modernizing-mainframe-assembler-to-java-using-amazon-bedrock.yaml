@@ -1,0 +1,18 @@
+- id: ev-dba652acea658c9c
+  project_slug: modernizing-mainframe-assembler-to-java-using-amazon-bedrock
+  url: https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform/
+  title: Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform
+  published_at: '2026-11-16T17:29:29Z'
+  collected_at: '2026-11-17T04:29:39Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Imagine a batch job that has run every night for decades without failing, and the only person
+    who understands its code is about to retire. We have seen this situation again and again while working
+    with banking, insurance, and airline customers. Their Assembler programs still run critical business
+    operations, but fewer people can read them each year. Rewriting them by hand takes years, risks breaking
+    business rules nobody remembers writing, and still depends on the same experts who are leaving. Amazon
+    Bedrock and AWS Transform change that equation. This post shows you a multi-stage transformation methodology
+    using Amazon Bedrock , Kiro IDE (an AI-powered integrated development environment), and AWS Transform
+    that can help reduce modernization time compared to manual approaches while maintaining business logic
+    integrity through validation checkpoints. You will learn how to systematically extract business rules
+    from Assembler code, convert them through an intermediate COBOL stage, and dep

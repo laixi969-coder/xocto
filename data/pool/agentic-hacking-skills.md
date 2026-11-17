@@ -21,17 +21,17 @@ canonical_url: https://github.com/mrhlaingbwardev/agentic-hacking-skills
 summary: AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic
   Hacking' ebook (28 SKILL.md templates)
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mrhlaingbwardev/agentic-hacking-skills
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 331
-    forks: 52
+    stars: 328
+    forks: 51
     open_issues: 3
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://github.com/huggingface/safeagents
 canonical_url: https://github.com/huggingface/safeagents
 summary: Safely run your agents using any coding harness
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huggingface/safeagents
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 267
-    forks: 26
+    stars: 310
+    forks: 33
     open_issues: 10
   kind: product
 ---

@@ -22,7 +22,7 @@ canonical_url: https://pypi.org/project/trace-file-lineage
 summary: Find which script, notebook, data, command, or AI agent produced a file — locally, with evidence
   and honest uncertainty.
 first_seen: '2026-07-29T22:05:47Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: rejected
 sources:
 - github
@@ -83,10 +83,10 @@ sightings:
   kind: product
 - source: github
   url: https://pypi.org/project/assetcat/
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 47
-    forks: 5
+    stars: 51
+    forks: 6
     open_issues: 0
   kind: product
 ---

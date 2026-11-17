@@ -1,0 +1,53 @@
+---
+slug: customize-answers-per-tenant-in-amazon-bedrock-managed-knowl
+name: Customize answers per tenant in Amazon Bedrock Managed Knowledge Base
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/
+canonical_url: https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base
+summary: With retrieval instructions in Amazon Bedrock Managed Knowledge Base , you can customize answers
+  per tenant. The same product and policy documents often serve several audiences, such as customers in
+  different regions or internal teams, and each audience needs its own answer. You set the voice, format,
+  retrieval guidance, and answer policy that agentic retrieval applies to each request. Before this feature,
+  you couldn’t set the answer style, so agentic retrieval could use a different style from one request
+  to the next. For a fixed voice or structured output, you had to turn off response generation, call a
+  model yourself, and maintain the prompt in every application. Now you write that guidance once, as a
+  managed, versioned Amazon Bedrock resource, and each request references it. When you change an instruction,
+  you can pin a version so that each application switches to the new version when you’re ready. Take AnyCompany
+  Smart Home, a fictitious company that sells a home controller and room sensors in three sales regions.
+  Its customer assistant serves all three regions, and its support, field sales, and legal teams use internal
+  assistants that they built on the same documents. AnyCompany defines each region and internal team as
+  a
+first_seen: '2026-11-17T04:29:39Z'
+last_seen: '2026-11-17T04:29:39Z'
+status: pending_filter
+sources:
+- officialfeeds
+sightings:
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/
+  seen_at: '2026-11-17T04:29:39Z'
+  metrics: {}
+  kind: news
+---
+
+# Customize answers per tenant in Amazon Bedrock Managed Knowledge Base
+
+With retrieval instructions in Amazon Bedrock Managed Knowledge Base , you can customize answers per tenant. The same product and policy documents often serve several audiences, such as customers in different regions or internal teams, and each audience needs its own answer. You set the voice, format, retrieval guidance, and answer policy that agentic retrieval applies to each request. Before this feature, you couldn’t set the answer style, so agentic retrieval could use a different style from one request to the next. For a fixed voice or structured output, you had to turn off response generation, call a model yourself, and maintain the prompt in every application. Now you write that guidance once, as a managed, versioned Amazon Bedrock resource, and each request references it. When you change an instruction, you can pin a version so that each application switches to the new version when you’re ready. Take AnyCompany Smart Home, a fictitious company that sells a home controller and room sensors in three sales regions. Its customer assistant serves all three regions, and its support, field sales, and legal teams use internal assistants that they built on the same documents. AnyCompany defines each region and internal team as a
+
+## 笔记
+
+

@@ -1,0 +1,43 @@
+---
+slug: anthropic-launches-claude-meetings-in-beta-ai-assistant-can
+name: 'Anthropic launches Claude Meetings in Beta: AI assistant can join Google Meet, take notes and create
+  documents'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMigAJBVV95cUxPSlVUczYwRXBPYmt0SEZXc1NSVWxoYWFNSEM2NG9OcjBjSzNDNXp5OFRmdEpVSVBFSFVXazgxMGlkSjh1VTNMQUNRYjhiVVNxZzNXU0NZczJ3SEdRc2h5NE93ZHFLYU9oQWM0SUV0cUk1QnNoMGhlOWdQYnNtdmI5NzF3UlJtRHpubFVleGp4RXljZWtSalZxbzk5bW1fWW1EUmh1Y1YzQnZrRERXbmVXZ2lSR29FQ2s4c3h0cE5QM2JiSzVYSTlyUnNpV1BIbFpOaEtzY3F5R2VyTUZyT2swY0VSTGNBQjIzWWtTZldscHZtbmZkNUNRUVhKZUxTMUlj0gGGAkFVX3lxTFBEUFAtMHhoZ0lXVTEtWVM5cUY3VE4wcFBJT0xoZUJ6RG1PQVlhbmlXVVFXY3IwVVZxTGxJaXBhMXI0VHdnWEM3bVkwRko3OEhVWXRSOVk3OXhjQ2pseVVXdEtQRjJLOUloaDg2X05iRVMzellMczlYRldaN3loWXlBekY5Y0NmX1B3WVZIdTV6dGhYOGZLUlJJUlo5eDFrd05TMHZucDh1aGNCUE4zdGNNbjZ2Z3ljY2otZVZ4NmJoRWtWWXE2YjVVZk81aVV0Y1g5aHU2aDJzdlV5SVBMSXJOZDVWU1dySG96amZvVHdvc19oaGwtS0tjckZUaHlNWWg3Y0gxUlE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMigAJBVV95cUxPSlVUczYwRXBPYmt0SEZXc1NSVWxoYWFNSEM2NG9OcjBjSzNDNXp5OFRmdEpVSVBFSFVXazgxMGlkSjh1VTNMQUNRYjhiVVNxZzNXU0NZczJ3SEdRc2h5NE93ZHFLYU9oQWM0SUV0cUk1QnNoMGhlOWdQYnNtdmI5NzF3UlJtRHpubFVleGp4RXljZWtSalZxbzk5bW1fWW1EUmh1Y1YzQnZrRERXbmVXZ2lSR29FQ2s4c3h0cE5QM2JiSzVYSTlyUnNpV1BIbFpOaEtzY3F5R2VyTUZyT2swY0VSTGNBQjIzWWtTZldscHZtbmZkNUNRUVhKZUxTMUlj0gGGAkFVX3lxTFBEUFAtMHhoZ0lXVTEtWVM5cUY3VE4wcFBJT0xoZUJ6RG1PQVlhbmlXVVFXY3IwVVZxTGxJaXBhMXI0VHdnWEM3bVkwRko3OEhVWXRSOVk3OXhjQ2pseVVXdEtQRjJLOUloaDg2X05iRVMzellMczlYRldaN3loWXlBekY5Y0NmX1B3WVZIdTV6dGhYOGZLUlJJUlo5eDFrd05TMHZucDh1aGNCUE4zdGNNbjZ2Z3ljY2otZVZ4NmJoRWtWWXE2YjVVZk81aVV0Y1g5aHU2aDJzdlV5SVBMSXJOZDVWU1dySG96amZvVHdvc19oaGwtS0tjckZUaHlNWWg3Y0gxUlE?oc=5
+summary: 'Anthropic launches Claude Meetings in Beta: AI assistant can join Google Meet, take notes and
+  create documents India TV News'
+first_seen: '2026-11-17T04:29:47Z'
+last_seen: '2026-11-17T04:29:47Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigAJBVV95cUxPSlVUczYwRXBPYmt0SEZXc1NSVWxoYWFNSEM2NG9OcjBjSzNDNXp5OFRmdEpVSVBFSFVXazgxMGlkSjh1VTNMQUNRYjhiVVNxZzNXU0NZczJ3SEdRc2h5NE93ZHFLYU9oQWM0SUV0cUk1QnNoMGhlOWdQYnNtdmI5NzF3UlJtRHpubFVleGp4RXljZWtSalZxbzk5bW1fWW1EUmh1Y1YzQnZrRERXbmVXZ2lSR29FQ2s4c3h0cE5QM2JiSzVYSTlyUnNpV1BIbFpOaEtzY3F5R2VyTUZyT2swY0VSTGNBQjIzWWtTZldscHZtbmZkNUNRUVhKZUxTMUlj0gGGAkFVX3lxTFBEUFAtMHhoZ0lXVTEtWVM5cUY3VE4wcFBJT0xoZUJ6RG1PQVlhbmlXVVFXY3IwVVZxTGxJaXBhMXI0VHdnWEM3bVkwRko3OEhVWXRSOVk3OXhjQ2pseVVXdEtQRjJLOUloaDg2X05iRVMzellMczlYRldaN3loWXlBekY5Y0NmX1B3WVZIdTV6dGhYOGZLUlJJUlo5eDFrd05TMHZucDh1aGNCUE4zdGNNbjZ2Z3ljY2otZVZ4NmJoRWtWWXE2YjVVZk81aVV0Y1g5aHU2aDJzdlV5SVBMSXJOZDVWU1dySG96amZvVHdvc19oaGwtS0tjckZUaHlNWWg3Y0gxUlE?oc=5
+  seen_at: '2026-11-17T04:29:47Z'
+  metrics: {}
+  kind: news
+---
+
+# Anthropic launches Claude Meetings in Beta: AI assistant can join Google Meet, take notes and create documents
+
+Anthropic launches Claude Meetings in Beta: AI assistant can join Google Meet, take notes and create documents India TV News
+
+## 笔记
+
+

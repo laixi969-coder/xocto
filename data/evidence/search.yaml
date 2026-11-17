@@ -478,3 +478,22 @@
   tier: independent
   fact: AISEOTX.com Launches AI Visibility Reviews to Help Businesses Assess AI Search Presence The Detroit
     News
+- id: ev-79cb5e050a1e73be
+  project_slug: search
+  url: https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/
+  title: Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base
+  published_at: '2026-11-16T16:12:16Z'
+  collected_at: '2026-11-17T04:29:39Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Amazon Bedrock Managed Knowledge Base now supports tabular search, so you can get answers from
+    tables through agentic retrieval. When a question needs data from CSV, XLSX, or XLS files, tabular
+    search looks up values and runs calculations across every relevant row in one or more tables or sheets.
+    It then combines the results with facts from related documents to answer analytical questions that
+    take several steps. A finance team closing the quarter needs to know “Which departments must write
+    variance commentary?” No single file has the answer. It depends on the variance policy’s threshold,
+    the quarter-close memo’s budget revisions, and math over every department in the profit and loss (P&L)
+    workbook. Like this finance team, most teams keep their narratives and data in the same place. For
+    example, a Microsoft SharePoint site holds workbooks next to policies, and an Amazon Simple Storage
+    Service (Amazon S3) bucket holds CSV exports next to PDFs. Tabular search answers questions across
+    the

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxPWlJkUUxLd09Z
 summary: 'Chatbot privacy lawsuits: AI wiretapping claims and the legal fight over customer conversations
   News Channel 3-12'
 first_seen: '2026-11-14T02:28:20Z'
-last_seen: '2026-11-16T02:09:00Z'
+last_seen: '2026-11-17T04:29:47Z'
 status: pending_filter
 sources:
 - newssearch
@@ -39,6 +39,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMizwFBVV95cUxOZUl4RDI4dFNKSW0zWUJrUG1lWTlwTVRiMGo0MDNuSUFhdk5NZ2dPdjU2cEM3RzdMUEU0NDd6b1pxS0IxcUN1YU5oVUxtWHJsUTcyY1J0eGphYlNQX2dUbWt6MC03aVZOb25fRnA3MDI0ejJOVURHcUlDdHlaY1pmZ1ZRMFctU2ZaZnl5VUc1VzRaZkdxZXZzeXJvQzRmS2o0MEo3MEJBSFhweFcwWGo2bmJwMGFwMWlSTGdJekhXNVRnZU1rNmlKWXlOcVBVaUk?oc=5
   seen_at: '2026-11-16T02:09:00Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizwFBVV95cUxOZUU5bG5KMmJTRy1TSEl4cHhldzJWNk1lcFBpNkRRaVVENlI2eFlNVGJwSm13cVEzRXRNV2dZNFpjTnFONFd6VWQ5VE5lRUN3U1ppT2xzbnNkUmR1eUY4d3NJZUQ0LWtad1NhSDV6ZndTMkJPNlAwZTFBTUVWWENINHY3ZnBWU3ZhNlVxdEI2R3c2UDRRRGVzLWdsNjRUNk1paGhDMkJvbl9mNzMxT3ZHdWhhQ2ZEWG5yQTlScmNHaEtCNi1iRDFpSWpwWmkyeUk?oc=5
+  seen_at: '2026-11-17T04:29:47Z'
   metrics: {}
   kind: news
 ---

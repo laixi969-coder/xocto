@@ -23,16 +23,16 @@ summary: An AI copilot and MCP server for Blender that turns plain-language brie
   · blender-ai-copilot-studio · blender ai · ai for blender · blender copilot · blender ai copilot · blender
   ai assistant · blender mcp server
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/credoksopho1984/blender-ai-copilot-studio
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 513
+    stars: 516
     forks: 14
     open_issues: 48
   kind: product

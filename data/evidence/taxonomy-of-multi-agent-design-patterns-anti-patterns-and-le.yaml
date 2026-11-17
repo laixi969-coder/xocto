@@ -1,0 +1,19 @@
+- id: ev-8560a0e5c1c62d59
+  project_slug: taxonomy-of-multi-agent-design-patterns-anti-patterns-and-le
+  url: https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/
+  title: Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing
+  published_at: '2026-11-16T21:53:46Z'
+  collected_at: '2026-11-17T04:29:39Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Enterprise teams are building multi-agent systems, and when early implementations fall short,
+    the cause is rarely the model. Multi-agent coordination is a distributed systems problem, and many
+    teams taking it on haven’t yet built distributed systems instincts. The numbers are consistent across
+    sources: ~88% of AI pilots never reach production . Stanford HAI demonstrated that two models can
+    perform worse collaborating than either alone when coordination overhead exceeds the benefit. The
+    pattern is clear: teams are adding complexity faster than they build understanding. Ten steps that
+    are each 95 percent reliable deliver only 59.9 percent end-to-end reliability, and 20 steps deliver
+    35.8 percent. This illustrative model assumes a strictly sequential chain with no retries, but the
+    direction holds: each dependent handoff multiplies risk. In this post, you learn how to decide whether
+    a use case needs multiple agents, choose a coordination pattern, and spot costly anti-patterns early.
+    You al'

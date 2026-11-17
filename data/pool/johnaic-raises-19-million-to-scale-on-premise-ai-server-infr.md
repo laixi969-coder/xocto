@@ -1,0 +1,41 @@
+---
+slug: johnaic-raises-19-million-to-scale-on-premise-ai-server-infr
+name: JohnAIC raises $1.9 million to scale on-premise AI server infrastructure
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZS1PWW9PYUtUaHBjTUE3TEFuQkdhdEdseTFzbUJfYWpVbGVVR2dtLTZHMU5WWl81YjgwRnpYY29teXFxaEdfNUJDMEtqNkNiZi00TXZxWTV2ZDlQN3ZPaV9PVUI3ZDZRV3ZqOXR0UDlkS0lHWWhvUVNSTEZqN2tIeWVlcDNxUm9lbjVmRzJ0UENpRHFPN1FZOXA2dmd4eGhseXpjb2F2TjZhQ21OT0FWMW1heUlPS2lyMEpTNW1HSkU1bXlJNk1YcW9kY1c4ZTBC0gHWAUFVX3lxTE4xbjdDcGJQd1JORG1ZS2E3MHR1Y2l0VmJjNnhFRjZnUjloOUt2VFRDWVM1eTk3LWZRc3Zfa1FhSV9BRkZFZ2pESWQ2XzhJUlVaU0pGaktDODZVVUUyTmlUR1NJblBOeXFlSmRTSHZ2SjdWc0hfVElXckpSSExHTW1yU0hhNTVJaUNtVEthR1UyQ3dtM1RJcTJFQ04zY2lsVDNKX0tpTUVOazVhRHNaSlZrSjFBU2Y1X2tqcmwtbTBUcDNtRDNkOThKUmFqOGpZc1Jhc1FtQlE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZS1PWW9PYUtUaHBjTUE3TEFuQkdhdEdseTFzbUJfYWpVbGVVR2dtLTZHMU5WWl81YjgwRnpYY29teXFxaEdfNUJDMEtqNkNiZi00TXZxWTV2ZDlQN3ZPaV9PVUI3ZDZRV3ZqOXR0UDlkS0lHWWhvUVNSTEZqN2tIeWVlcDNxUm9lbjVmRzJ0UENpRHFPN1FZOXA2dmd4eGhseXpjb2F2TjZhQ21OT0FWMW1heUlPS2lyMEpTNW1HSkU1bXlJNk1YcW9kY1c4ZTBC0gHWAUFVX3lxTE4xbjdDcGJQd1JORG1ZS2E3MHR1Y2l0VmJjNnhFRjZnUjloOUt2VFRDWVM1eTk3LWZRc3Zfa1FhSV9BRkZFZ2pESWQ2XzhJUlVaU0pGaktDODZVVUUyTmlUR1NJblBOeXFlSmRTSHZ2SjdWc0hfVElXckpSSExHTW1yU0hhNTVJaUNtVEthR1UyQ3dtM1RJcTJFQ04zY2lsVDNKX0tpTUVOazVhRHNaSlZrSjFBU2Y1X2tqcmwtbTBUcDNtRDNkOThKUmFqOGpZc1Jhc1FtQlE?oc=5
+summary: JohnAIC raises $1.9 million to scale on-premise AI server infrastructure Business Standard
+first_seen: '2026-11-17T04:29:47Z'
+last_seen: '2026-11-17T04:29:47Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZS1PWW9PYUtUaHBjTUE3TEFuQkdhdEdseTFzbUJfYWpVbGVVR2dtLTZHMU5WWl81YjgwRnpYY29teXFxaEdfNUJDMEtqNkNiZi00TXZxWTV2ZDlQN3ZPaV9PVUI3ZDZRV3ZqOXR0UDlkS0lHWWhvUVNSTEZqN2tIeWVlcDNxUm9lbjVmRzJ0UENpRHFPN1FZOXA2dmd4eGhseXpjb2F2TjZhQ21OT0FWMW1heUlPS2lyMEpTNW1HSkU1bXlJNk1YcW9kY1c4ZTBC0gHWAUFVX3lxTE4xbjdDcGJQd1JORG1ZS2E3MHR1Y2l0VmJjNnhFRjZnUjloOUt2VFRDWVM1eTk3LWZRc3Zfa1FhSV9BRkZFZ2pESWQ2XzhJUlVaU0pGaktDODZVVUUyTmlUR1NJblBOeXFlSmRTSHZ2SjdWc0hfVElXckpSSExHTW1yU0hhNTVJaUNtVEthR1UyQ3dtM1RJcTJFQ04zY2lsVDNKX0tpTUVOazVhRHNaSlZrSjFBU2Y1X2tqcmwtbTBUcDNtRDNkOThKUmFqOGpZc1Jhc1FtQlE?oc=5
+  seen_at: '2026-11-17T04:29:47Z'
+  metrics: {}
+  kind: news
+---
+
+# JohnAIC raises $1.9 million to scale on-premise AI server infrastructure
+
+JohnAIC raises $1.9 million to scale on-premise AI server infrastructure Business Standard
+
+## 笔记
+
+

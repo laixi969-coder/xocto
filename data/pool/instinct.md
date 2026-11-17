@@ -29,7 +29,7 @@ url: https://instinct.com/
 canonical_url: https://instinct.com
 summary: A personal AI assistant accessed through text and phone calls.
 first_seen: '2026-08-29T03:43:29Z'
-last_seen: '2026-11-08T01:26:51Z'
+last_seen: '2026-11-17T04:29:01Z'
 status: pending_filter
 sources:
 - newssearch
@@ -98,9 +98,9 @@ sightings:
   kind: news
 - source: trackedproducts
   url: https://instinct.com/
-  seen_at: '2026-11-08T01:26:51Z'
+  seen_at: '2026-11-17T04:29:01Z'
   metrics:
-    content_hash: a96737bfa5376833
+    content_hash: 5d729fb49259a16a
   kind: product
 - source: marketfeeds
   url: https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/

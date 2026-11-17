@@ -20,17 +20,17 @@ url: https://bruceroettgers.eu/blog/protomaps/
 canonical_url: https://bruceroettgers.eu/blog/protomaps
 summary: Self-hosting map tiles has gotten cheap and easy
 first_seen: '2026-11-16T02:08:18Z'
-last_seen: '2026-11-16T02:08:18Z'
+last_seen: '2026-11-17T04:29:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://bruceroettgers.eu/blog/protomaps/
-  seen_at: '2026-11-16T02:08:18Z'
+  seen_at: '2026-11-17T04:29:14Z'
   metrics:
-    points: 169
-    comments: 42
+    points: 455
+    comments: 84
   kind: news
 ---
 

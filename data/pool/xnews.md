@@ -20,16 +20,16 @@ url: https://xnews.qiaomu.ai
 canonical_url: https://xnews.qiaomu.ai
 summary: X News — overseas founder posts & AI videos, rewritten in Qiaomu Chinese
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://xnews.qiaomu.ai
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 137
+    stars: 138
     forks: 16
     open_issues: 0
   kind: product

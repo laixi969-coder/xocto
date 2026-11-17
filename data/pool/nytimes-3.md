@@ -20,7 +20,7 @@ url: https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html
 canonical_url: https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html
 summary: Religious scholars met with Anthropic
 first_seen: '2026-10-04T02:34:22Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-17T04:29:14Z'
 status: pending_filter
 sources:
 - hackernews
@@ -45,6 +45,13 @@ sightings:
   metrics:
     points: 662
     comments: 460
+  kind: news
+- source: hackernews
+  url: https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html
+  seen_at: '2026-11-17T04:29:14Z'
+  metrics:
+    points: 83
+    comments: 41
   kind: news
 ---
 

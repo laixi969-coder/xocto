@@ -21,18 +21,18 @@ canonical_url: https://github.com/ARSI-LAB/ARSI-Evaluator
 summary: Many ways to evaluate. One framework to bring them together. Unify benchmarks, agent evaluations,
   and performance testing across coding, terminal, office, web, and more.
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ARSI-LAB/ARSI-Evaluator
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 40
-    forks: 6
-    open_issues: 9
+    stars: 41
+    forks: 7
+    open_issues: 6
   kind: product
 ---
 

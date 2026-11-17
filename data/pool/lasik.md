@@ -22,18 +22,18 @@ summary: BLA blinds your agent. LASIK gives it its sight back. Static de-blindin
   undoes BLA (Blind LLM Agents) hardening so coding agents and REA can read the real code again. Never
   executes the target.
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/pktq/lasik
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 133
+    stars: 134
     forks: 14
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

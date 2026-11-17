@@ -1,0 +1,42 @@
+---
+slug: indias-ai-startups-raise-191-billion-across-102-funding-roun
+name: India's AI startups raise $1.91 billion across 102 funding rounds in 2026 so far
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWDFDQjNUeUwxempBQjM2RVQtOVNYSk9EQ3JwRWd6MnNrVnI4WGlDSFE1bGh5WFE4bWJhdWJ0VHVyOVpWMEJGLXppSlRzODBHZDVPQloyamhtUmt6UEZDWGVfVEJxSUlKaHlMVDJPZllDcTkxTkVLSXlXMC1semM3ZkZtSV9FNGVrVDJzLUhjNEdqZXFsMm1mYkdfa2JyVkdsTHNGTHN3OU42WDhsYmhJMkJWN29ob3JwM05uaWVzSWFvT2I2c0pVVkhqS2YzcGJJM1FqNW5mU2RBZDczQ29ET2lQeHdLZjjSAewBQVVfeXFMTWJFVmNOX2dxekJiWFRscG9hd0lDTUk2bGlZSTNJUGlCcnFOLVdjZDJ6ODYyNE5pcHFfellPYlU4QlYxTFBhX0xWQ0lZSy1OU1ZvQndMeE93YU9yRWVqNVM5Zng3Y0pNdXpFRlhHYnF1VDlqaWdKSU9MUmR3WmRpb2FxNnVCQWFKVHdjdS1mY28xQjhlekhrUjJ3SWR2ck01YmluYzN2X3FYV193S19LaDRZQ1lmZzc1WEo3ZFdnLUNGMWhzTzA0YS1obDFOajNyb1lDemx6bFFxMjh2RWtVc1FtV21GbXphOXVldGQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWDFDQjNUeUwxempBQjM2RVQtOVNYSk9EQ3JwRWd6MnNrVnI4WGlDSFE1bGh5WFE4bWJhdWJ0VHVyOVpWMEJGLXppSlRzODBHZDVPQloyamhtUmt6UEZDWGVfVEJxSUlKaHlMVDJPZllDcTkxTkVLSXlXMC1semM3ZkZtSV9FNGVrVDJzLUhjNEdqZXFsMm1mYkdfa2JyVkdsTHNGTHN3OU42WDhsYmhJMkJWN29ob3JwM05uaWVzSWFvT2I2c0pVVkhqS2YzcGJJM1FqNW5mU2RBZDczQ29ET2lQeHdLZjjSAewBQVVfeXFMTWJFVmNOX2dxekJiWFRscG9hd0lDTUk2bGlZSTNJUGlCcnFOLVdjZDJ6ODYyNE5pcHFfellPYlU4QlYxTFBhX0xWQ0lZSy1OU1ZvQndMeE93YU9yRWVqNVM5Zng3Y0pNdXpFRlhHYnF1VDlqaWdKSU9MUmR3WmRpb2FxNnVCQWFKVHdjdS1mY28xQjhlekhrUjJ3SWR2ck01YmluYzN2X3FYV193S19LaDRZQ1lmZzc1WEo3ZFdnLUNGMWhzTzA0YS1obDFOajNyb1lDemx6bFFxMjh2RWtVc1FtV21GbXphOXVldGQ?oc=5
+summary: India's AI startups raise $1.91 billion across 102 funding rounds in 2026 so far ET Enterprise
+  AI
+first_seen: '2026-11-17T04:29:47Z'
+last_seen: '2026-11-17T04:29:47Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWDFDQjNUeUwxempBQjM2RVQtOVNYSk9EQ3JwRWd6MnNrVnI4WGlDSFE1bGh5WFE4bWJhdWJ0VHVyOVpWMEJGLXppSlRzODBHZDVPQloyamhtUmt6UEZDWGVfVEJxSUlKaHlMVDJPZllDcTkxTkVLSXlXMC1semM3ZkZtSV9FNGVrVDJzLUhjNEdqZXFsMm1mYkdfa2JyVkdsTHNGTHN3OU42WDhsYmhJMkJWN29ob3JwM05uaWVzSWFvT2I2c0pVVkhqS2YzcGJJM1FqNW5mU2RBZDczQ29ET2lQeHdLZjjSAewBQVVfeXFMTWJFVmNOX2dxekJiWFRscG9hd0lDTUk2bGlZSTNJUGlCcnFOLVdjZDJ6ODYyNE5pcHFfellPYlU4QlYxTFBhX0xWQ0lZSy1OU1ZvQndMeE93YU9yRWVqNVM5Zng3Y0pNdXpFRlhHYnF1VDlqaWdKSU9MUmR3WmRpb2FxNnVCQWFKVHdjdS1mY28xQjhlekhrUjJ3SWR2ck01YmluYzN2X3FYV193S19LaDRZQ1lmZzc1WEo3ZFdnLUNGMWhzTzA0YS1obDFOajNyb1lDemx6bFFxMjh2RWtVc1FtV21GbXphOXVldGQ?oc=5
+  seen_at: '2026-11-17T04:29:47Z'
+  metrics: {}
+  kind: news
+---
+
+# India's AI startups raise $1.91 billion across 102 funding rounds in 2026 so far
+
+India's AI startups raise $1.91 billion across 102 funding rounds in 2026 so far ET Enterprise AI
+
+## 笔记
+
+

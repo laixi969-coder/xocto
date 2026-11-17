@@ -20,16 +20,16 @@ url: https://github.com/Marcian15350/mt5-tradeprotocol
 canonical_url: https://github.com/Marcian15350/mt5-tradeprotocol
 summary: ''
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Marcian15350/mt5-tradeprotocol
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 1105
+    stars: 1106
     forks: 0
     open_issues: 0
   kind: product

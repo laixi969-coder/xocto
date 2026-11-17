@@ -1,0 +1,18 @@
+- id: ev-01174223bac91914
+  project_slug: build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon
+  url: https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/
+  title: Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base
+  published_at: '2026-11-16T22:43:30Z'
+  collected_at: '2026-11-17T04:29:39Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Users of a knowledge-grounded application expect it to remember them, not only to search well.
+    They ask follow-up questions that make sense only in the context of the previous turn. They expect
+    an answer about a policy or a procedure to reflect what they told the application about themselves
+    last month. And they still expect every answer to be grounded in the documents they are allowed to
+    read, with citations. Whether the application is a customer support assistant, a document chat inside
+    a SaaS product, or an internal assistant over company policies, the expectation is the same. Meeting
+    that expectation is hard, because the context that would sharpen a search lives outside the knowledge
+    base. A user’s location, role, or product tier was often mentioned in an unrelated conversation weeks
+    ago. To use it, the application has to store every conversation, extract durable facts from it, decide
+    which facts matter for the current question, and inject them into the request. When many users sha

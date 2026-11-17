@@ -1,0 +1,41 @@
+---
+slug: phunware-reports-third-quarter-2026-financial-results
+name: Phunware Reports Third Quarter 2026 Financial Results
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOajBBc0w3M2ZkWmptTk9oQzkycEI3MGxhY25UR0hiU1BNMVplR1dCMkdHTzZJMDg4a05ESG11YWtWVkZwN1pkRVZSTGRiYkRzR2UzelRWRXdheGFCMUNQN05iRThaWFNmdjM1UzY4UlJ4ZS12UUhBd0tNM2E1ZHZGVEpxd1NKNk9GTFh2bDNBQm0ydENsVTBUQ3JrOXN1WnZBb29TQzJhNU4yVFA4U2R3bFRNdlBmcDVsMzd4MnNHSTlnRGZWMkxsRnY3WdIBywFBVV95cUxOajBBc0w3M2ZkWmptTk9oQzkycEI3MGxhY25UR0hiU1BNMVplR1dCMkdHTzZJMDg4a05ESG11YWtWVkZwN1pkRVZSTGRiYkRzR2UzelRWRXdheGFCMUNQN05iRThaWFNmdjM1UzY4UlJ4ZS12UUhBd0tNM2E1ZHZGVEpxd1NKNk9GTFh2bDNBQm0ydENsVTBUQ3JrOXN1WnZBb29TQzJhNU4yVFA4U2R3bFRNdlBmcDVsMzd4MnNHSTlnRGZWMkxsRnY3WQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOajBBc0w3M2ZkWmptTk9oQzkycEI3MGxhY25UR0hiU1BNMVplR1dCMkdHTzZJMDg4a05ESG11YWtWVkZwN1pkRVZSTGRiYkRzR2UzelRWRXdheGFCMUNQN05iRThaWFNmdjM1UzY4UlJ4ZS12UUhBd0tNM2E1ZHZGVEpxd1NKNk9GTFh2bDNBQm0ydENsVTBUQ3JrOXN1WnZBb29TQzJhNU4yVFA4U2R3bFRNdlBmcDVsMzd4MnNHSTlnRGZWMkxsRnY3WdIBywFBVV95cUxOajBBc0w3M2ZkWmptTk9oQzkycEI3MGxhY25UR0hiU1BNMVplR1dCMkdHTzZJMDg4a05ESG11YWtWVkZwN1pkRVZSTGRiYkRzR2UzelRWRXdheGFCMUNQN05iRThaWFNmdjM1UzY4UlJ4ZS12UUhBd0tNM2E1ZHZGVEpxd1NKNk9GTFh2bDNBQm0ydENsVTBUQ3JrOXN1WnZBb29TQzJhNU4yVFA4U2R3bFRNdlBmcDVsMzd4MnNHSTlnRGZWMkxsRnY3WQ?oc=5
+summary: Phunware Reports Third Quarter 2026 Financial Results The Manila Times
+first_seen: '2026-11-17T04:29:47Z'
+last_seen: '2026-11-17T04:29:47Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOajBBc0w3M2ZkWmptTk9oQzkycEI3MGxhY25UR0hiU1BNMVplR1dCMkdHTzZJMDg4a05ESG11YWtWVkZwN1pkRVZSTGRiYkRzR2UzelRWRXdheGFCMUNQN05iRThaWFNmdjM1UzY4UlJ4ZS12UUhBd0tNM2E1ZHZGVEpxd1NKNk9GTFh2bDNBQm0ydENsVTBUQ3JrOXN1WnZBb29TQzJhNU4yVFA4U2R3bFRNdlBmcDVsMzd4MnNHSTlnRGZWMkxsRnY3WdIBywFBVV95cUxOajBBc0w3M2ZkWmptTk9oQzkycEI3MGxhY25UR0hiU1BNMVplR1dCMkdHTzZJMDg4a05ESG11YWtWVkZwN1pkRVZSTGRiYkRzR2UzelRWRXdheGFCMUNQN05iRThaWFNmdjM1UzY4UlJ4ZS12UUhBd0tNM2E1ZHZGVEpxd1NKNk9GTFh2bDNBQm0ydENsVTBUQ3JrOXN1WnZBb29TQzJhNU4yVFA4U2R3bFRNdlBmcDVsMzd4MnNHSTlnRGZWMkxsRnY3WQ?oc=5
+  seen_at: '2026-11-17T04:29:47Z'
+  metrics: {}
+  kind: news
+---
+
+# Phunware Reports Third Quarter 2026 Financial Results
+
+Phunware Reports Third Quarter 2026 Financial Results The Manila Times
+
+## 笔记
+
+

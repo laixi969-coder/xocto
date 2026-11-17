@@ -20,18 +20,18 @@ url: https://github.com/JinJieBeWater/herdr-t3
 canonical_url: https://github.com/JinJieBeWater/herdr-t3
 summary: 'T3 Code-like layout for Herdr App: Spaces/Agents or a Focus sidebar with T3-style Settle'
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JinJieBeWater/herdr-t3
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 167
-    forks: 11
-    open_issues: 2
+    stars: 170
+    forks: 12
+    open_issues: 6
   kind: product
 ---
 

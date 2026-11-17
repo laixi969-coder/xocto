@@ -20,17 +20,17 @@ url: https://github.com/DandanLLab/SnowCatQQ
 canonical_url: https://github.com/DandanLLab/SnowCatQQ
 summary: SnowCat 雪猫：NapCat + SnowLuma 融合第三方 QQ 客户端，社区接力维护，V8 通道全功能适配 QQ 9.9.37，全工具全源码公开
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/DandanLLab/SnowCatQQ
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 333
-    forks: 130
+    stars: 351
+    forks: 135
     open_issues: 11
   kind: product
 ---

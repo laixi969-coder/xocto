@@ -20,16 +20,16 @@ url: https://github.com/BeneathSpearMeteor69415/resp-line-ai-notebook
 canonical_url: https://github.com/BeneathSpearMeteor69415/resp-line-ai-notebook
 summary: A self-hosted LINE assistant for notes, reminders, file storage, and hybrid search.
 first_seen: '2026-11-01T01:10:29Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/BeneathSpearMeteor69415/resp-line-ai-notebook
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
-    stars: 82
+    stars: 52
     forks: 0
     open_issues: 0
   kind: product

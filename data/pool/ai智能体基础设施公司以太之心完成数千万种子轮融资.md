@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaM2lER3hzSXkwUVd6N2s5Sz
 canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaM2lER3hzSXkwUVd6N2s5SzhucElFUE1aV05GbHVVYktrWU5WRFlXMi1YVUxTa1AwVE5pUnlCcnVJeFhyZzhScE1qSHFfOWNlNXQ2M25B?oc=5
 summary: AI智能体基础设施公司「以太之心」完成数千万种子轮融资 投资界
 first_seen: '2026-11-14T02:28:20Z'
-last_seen: '2026-11-14T02:28:20Z'
+last_seen: '2026-11-17T04:29:47Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaM2lER3hzSXkwUVd6N2s5SzhucElFUE1aV05GbHVVYktrWU5WRFlXMi1YVUxTa1AwVE5pUnlCcnVJeFhyZzhScE1qSHFfOWNlNXQ2M25B?oc=5
   seen_at: '2026-11-14T02:28:20Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE0wenh5TTJYaW5YUkxGSEpLVTA3UDNLSXFXTXY1bWdwaEdJVW81VExNTzU1M1hJTGl0QllFN244UnF4elplazhvMw?oc=5
+  seen_at: '2026-11-17T04:29:47Z'
   metrics: {}
   kind: news
 ---

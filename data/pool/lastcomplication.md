@@ -20,17 +20,17 @@ url: https://lastcomplication.com/
 canonical_url: https://lastcomplication.com
 summary: The Last Complication, a Zachtronics-style watchmaking puzzle game
 first_seen: '2026-11-16T02:08:18Z'
-last_seen: '2026-11-16T02:08:18Z'
+last_seen: '2026-11-17T04:29:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://lastcomplication.com/
-  seen_at: '2026-11-16T02:08:18Z'
+  seen_at: '2026-11-17T04:29:14Z'
   metrics:
-    points: 48
-    comments: 6
+    points: 85
+    comments: 17
   kind: product
 ---
 

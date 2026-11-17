@@ -1,0 +1,18 @@
+- id: ev-cc33ddeef9835cfe
+  project_slug: best-practices-for-writing-denied-topics-in-amazon-bedrock-g
+  url: https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/
+  title: Best practices for writing Denied Topics in Amazon Bedrock Guardrails
+  published_at: '2026-11-16T15:48:01Z'
+  collected_at: '2026-11-17T04:29:39Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'With Denied Topics in Amazon Bedrock Guardrails , you block a content category by describing
+    it in plain language, and the guardrail applies that description to every request by meaning rather
+    than by keyword. That same mechanism can also match more than you intend. A topic named Finance, meant
+    to keep an assistant out of investment advice, also blocks “When does my direct deposit clear?”. Inputs
+    close in meaning to the topic can get caught, not only the requests you intended. When Denied Topics
+    blocks too much or too little, the cause is usually one of four authoring patterns: Topics that block
+    legitimate queries. A topic framed around a subject domain (Finance, Legal, Compensation) rather than
+    the user’s intention can match queries semantically near that domain. This is a frequent failure mode.
+    Topics that miss the requests they were written to catch. A definition built from keyword lists (“words
+    like invest, portfolio, stock…”) misses phrasings that use other vocabulary and fires on'

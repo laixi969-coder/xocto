@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-16T02:09:00Z'
+last_seen: '2026-11-17T04:29:39Z'
 status: pending_filter
 sources:
 - hackernews
@@ -365,6 +365,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNRl9qVklxZHhOWlNpNjh3UFdQRk1JZ3lfNVNqZWhvN1dubW90WDNCWVVEOFFmdlRmTy1KZ0xlSlZRM0NBeUZNTFVWTWd1TnFfR3JBM1BZWVVZbXRNTTI1a3p1VE9KaGU3UEFycmt2S2FlVnFhQXM2c0d0aTRhT3FiSjFfRQ?oc=5
   seen_at: '2026-11-16T02:09:00Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/strengthening-online-child-safety
+  seen_at: '2026-11-17T04:29:39Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/
+  seen_at: '2026-11-17T04:29:39Z'
   metrics: {}
   kind: news
 ---

@@ -20,17 +20,17 @@ url: https://github.com/jjyr/canban
 canonical_url: https://github.com/jjyr/canban
 summary: Kanban and Workflow and Herdr Workbench for CLI Agents
 first_seen: '2026-11-16T02:08:18Z'
-last_seen: '2026-11-16T02:08:18Z'
+last_seen: '2026-11-17T04:29:14Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/jjyr/canban
-  seen_at: '2026-11-16T02:08:18Z'
+  seen_at: '2026-11-17T04:29:14Z'
   metrics:
-    points: 5
-    comments: 1
+    points: 13
+    comments: 3
   kind: product
 ---
 

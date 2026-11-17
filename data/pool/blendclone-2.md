@@ -21,17 +21,17 @@ canonical_url: https://discord.gg/grokbot
 summary: 'Turn a reference video into an editable Blender project: AI scene analysis, declarative compiler,
   side-by-side fidelity scoring, .blend export.'
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-17T04:29:18Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://discord.gg/grokbot
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-17T04:29:18Z'
   metrics:
     stars: 66
-    forks: 5
+    forks: 8
     open_issues: 22
   kind: product
 ---
