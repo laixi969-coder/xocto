@@ -20,16 +20,16 @@ url: https://github.com/aryamandarda/tamserve
 canonical_url: https://github.com/aryamandarda/tamserve
 summary: Open-source, real-time object tracking for live video feeds
 first_seen: '2026-11-17T04:29:14Z'
-last_seen: '2026-11-17T04:29:14Z'
+last_seen: '2026-11-18T03:43:13Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/aryamandarda/tamserve
-  seen_at: '2026-11-17T04:29:14Z'
+  seen_at: '2026-11-18T03:43:13Z'
   metrics:
-    points: 16
+    points: 36
     comments: 2
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://studio.sinapsdata.com.br
 canonical_url: https://studio.sinapsdata.com.br
 summary: A free interactive course on AI agent governance
 first_seen: '2026-11-17T04:29:14Z'
-last_seen: '2026-11-17T04:29:14Z'
+last_seen: '2026-11-18T03:43:13Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://studio.sinapsdata.com.br
-  seen_at: '2026-11-17T04:29:14Z'
+  seen_at: '2026-11-18T03:43:13Z'
   metrics:
     points: 12
-    comments: 6
+    comments: 8
   kind: product
 ---
 

@@ -1,0 +1,42 @@
+---
+slug: ask-approve-done-admavens-ai-assistant-mave-lets-advertisers
+name: 'Ask, Approve, Done: AdMaven''s AI Assistant Mave Lets Advertisers Manage Campaigns by Chat'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQnJnVjc3dW93UEkzTUpjMms3bGhkc1FlRlU2eDFlNHBnZXpVR21ubWl3RXFDV1BsalRPUzAtVTdhNEYtcVdmTXBZTm4zQ2NXdWsyd1NNR3dNT3B0UEEtaDZYMVhIVURjRURiemsyOUdSRDBlcElxVTdJNDhsS3M2dGtvdXpvdmNfc1BaZnFyUWV4bzRIb3dTc3BOWDhOMVlIM09WLVFydWNETzZLcXVsRWdGWG5NV005ci1GOHFsR0d3eEgzV1o0dENUdjU2MWZtOGhTa1pLVGNNSnRyeDdZSWdQdTFyamJYWUhOMjVB0gHzAUFVX3lxTE5lUUwyTEFES2RXWmR6dElrdkZtcU9uZ1dYMUxtcjdhSDJTcUF4UUVNQVZlRzN5Y19NZEJBZ3lXR0NtN1J4cEFtd3pSa2NJaVltbTV1M21rQ3lidFM0VUJtVlBqTkY2dGJaeVJLekJtZGlpTjk3UlBIaTBUV0tDcHVvM094VDdwdEtUNV9ZblBTdUVweWhIV2l0dEtsakVsbWVkc0YwY2ZVUDloZ1o5QUtBNVMzck9iVG9DMEJpUHdjTzAwbVZoX1NGYnlMRldRbkF4QTF5MnY1U2std2ZmQjRKem13SEhvN0dneEtudU4zNTBPYw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQnJnVjc3dW93UEkzTUpjMms3bGhkc1FlRlU2eDFlNHBnZXpVR21ubWl3RXFDV1BsalRPUzAtVTdhNEYtcVdmTXBZTm4zQ2NXdWsyd1NNR3dNT3B0UEEtaDZYMVhIVURjRURiemsyOUdSRDBlcElxVTdJNDhsS3M2dGtvdXpvdmNfc1BaZnFyUWV4bzRIb3dTc3BOWDhOMVlIM09WLVFydWNETzZLcXVsRWdGWG5NV005ci1GOHFsR0d3eEgzV1o0dENUdjU2MWZtOGhTa1pLVGNNSnRyeDdZSWdQdTFyamJYWUhOMjVB0gHzAUFVX3lxTE5lUUwyTEFES2RXWmR6dElrdkZtcU9uZ1dYMUxtcjdhSDJTcUF4UUVNQVZlRzN5Y19NZEJBZ3lXR0NtN1J4cEFtd3pSa2NJaVltbTV1M21rQ3lidFM0VUJtVlBqTkY2dGJaeVJLekJtZGlpTjk3UlBIaTBUV0tDcHVvM094VDdwdEtUNV9ZblBTdUVweWhIV2l0dEtsakVsbWVkc0YwY2ZVUDloZ1o5QUtBNVMzck9iVG9DMEJpUHdjTzAwbVZoX1NGYnlMRldRbkF4QTF5MnY1U2std2ZmQjRKem13SEhvN0dneEtudU4zNTBPYw?oc=5
+summary: 'Ask, Approve, Done: AdMaven''s AI Assistant Mave Lets Advertisers Manage Campaigns by Chat The
+  Manila Times'
+first_seen: '2026-11-18T03:43:57Z'
+last_seen: '2026-11-18T03:43:57Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQnJnVjc3dW93UEkzTUpjMms3bGhkc1FlRlU2eDFlNHBnZXpVR21ubWl3RXFDV1BsalRPUzAtVTdhNEYtcVdmTXBZTm4zQ2NXdWsyd1NNR3dNT3B0UEEtaDZYMVhIVURjRURiemsyOUdSRDBlcElxVTdJNDhsS3M2dGtvdXpvdmNfc1BaZnFyUWV4bzRIb3dTc3BOWDhOMVlIM09WLVFydWNETzZLcXVsRWdGWG5NV005ci1GOHFsR0d3eEgzV1o0dENUdjU2MWZtOGhTa1pLVGNNSnRyeDdZSWdQdTFyamJYWUhOMjVB0gHzAUFVX3lxTE5lUUwyTEFES2RXWmR6dElrdkZtcU9uZ1dYMUxtcjdhSDJTcUF4UUVNQVZlRzN5Y19NZEJBZ3lXR0NtN1J4cEFtd3pSa2NJaVltbTV1M21rQ3lidFM0VUJtVlBqTkY2dGJaeVJLekJtZGlpTjk3UlBIaTBUV0tDcHVvM094VDdwdEtUNV9ZblBTdUVweWhIV2l0dEtsakVsbWVkc0YwY2ZVUDloZ1o5QUtBNVMzck9iVG9DMEJpUHdjTzAwbVZoX1NGYnlMRldRbkF4QTF5MnY1U2std2ZmQjRKem13SEhvN0dneEtudU4zNTBPYw?oc=5
+  seen_at: '2026-11-18T03:43:57Z'
+  metrics: {}
+  kind: news
+---
+
+# Ask, Approve, Done: AdMaven's AI Assistant Mave Lets Advertisers Manage Campaigns by Chat
+
+Ask, Approve, Done: AdMaven's AI Assistant Mave Lets Advertisers Manage Campaigns by Chat The Manila Times
+
+## 笔记
+
+

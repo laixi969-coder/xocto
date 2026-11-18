@@ -20,16 +20,16 @@ url: https://netrix-console.com/
 canonical_url: https://netrix-console.com
 summary: ''
 first_seen: '2026-11-17T04:29:14Z'
-last_seen: '2026-11-17T04:29:14Z'
+last_seen: '2026-11-18T03:43:13Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://netrix-console.com/
-  seen_at: '2026-11-17T04:29:14Z'
+  seen_at: '2026-11-18T03:43:13Z'
   metrics:
-    points: 5
+    points: 6
     comments: 1
   kind: product
 ---

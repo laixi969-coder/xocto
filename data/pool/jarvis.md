@@ -21,17 +21,17 @@ canonical_url: https://github.com/AbuZar-Ansarii/Jarvis
 summary: An autonomous, local-first on-device AI agent and Android OS automation framework featuring full
   accessibility control,   │ continuous voice intelligence, and self-evolving workflow execution.
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AbuZar-Ansarii/Jarvis
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 135
-    forks: 57
+    stars: 137
+    forks: 59
     open_issues: 4
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://github.com/xai-org/customer-education-workshops
 canonical_url: https://github.com/xai-org/customer-education-workshops
 summary: Public demos for customer education workshops
 first_seen: '2026-10-30T01:58:43Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xai-org/customer-education-workshops
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
     stars: 3
-    forks: 8
+    forks: 9
     open_issues: 0
   kind: product
 ---

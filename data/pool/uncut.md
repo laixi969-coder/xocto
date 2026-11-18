@@ -21,7 +21,7 @@ canonical_url: https://balanov.pro/uncut
 summary: The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout,
   no silent cuts.
 first_seen: '2026-11-03T03:28:57Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
@@ -33,6 +33,14 @@ sightings:
     stars: 270
     forks: 21
     open_issues: 1
+  kind: product
+- source: github
+  url: https://balanov.pro/shim/
+  seen_at: '2026-11-18T03:43:16Z'
+  metrics:
+    stars: 193
+    forks: 15
+    open_issues: 2
   kind: product
 ---
 

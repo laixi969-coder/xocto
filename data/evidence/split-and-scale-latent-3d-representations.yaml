@@ -1,0 +1,14 @@
+- id: ev-e5e0fdfbd8aa99b7
+  project_slug: split-and-scale-latent-3d-representations
+  url: https://machinelearning.apple.com/research/split-scale-latent-3d
+  title: Split-and-Scale Latent 3D Representations
+  published_at: '2026-11-16T00:00:00Z'
+  collected_at: '2026-11-18T03:43:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Latent 3D representations have significantly expanded the capabilities of modern shape modeling,
+    enabling compact encoding of 3D scenes and supporting powerful 3D generative models. Despite this
+    progress, current representations struggle to capture the fine details of complex objects, fundamentally
+    limited by the capacity of their latents. However, scaling latent capacity at training time is computationally
+    expensive and often infeasible under memory limits, and naively increasing the number of latents at
+    inference fails to make effective use of the added capacity. In this paper, we address…

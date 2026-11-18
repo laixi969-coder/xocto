@@ -1,0 +1,18 @@
+- id: ev-a8b249c46b45954d
+  project_slug: managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference
+  url: https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/
+  title: Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference
+  published_at: '2026-11-17T23:33:26Z'
+  collected_at: '2026-11-18T03:43:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Serving large language models (LLMs) efficiently requires sufficient GPU memory and careful coordination
+    of prompt processing and token generation. GLM-5.3’s FP8 weights, for example, exceed the 640 GB of
+    GPU memory on a single ml.p5.48xlarge instance, before accounting for KV cache and runtime overhead.
+    Long prompts can also slow token generation when both share the same GPUs. Amazon SageMaker HyperPod
+    Inference now supports NVIDIA Dynamo , combining Dynamo’s distributed inference capabilities with
+    the infrastructure management of HyperPod to address these challenges. Dynamo is an open source distributed
+    inference framework that supports multi-node deployment, disaggregated prefill and decode, and KV-aware
+    routing with engines such as vLLM, SGLang, and TensorRT-LLM. HyperPod supports these deployments with
+    high-performance Elastic Fabric Adapter (EFA) networking, coordinated GPU scheduling, and node health
+    monitoring and recovery. In this post, we illustrate multi-node and disaggregat

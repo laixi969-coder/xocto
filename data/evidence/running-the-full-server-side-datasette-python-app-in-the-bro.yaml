@@ -1,0 +1,19 @@
+- id: ev-d6a24d69e0e3ffbb
+  project_slug: running-the-full-server-side-datasette-python-app-in-the-bro
+  url: https://simonwillison.net/2026/Nov/17/datasette-lite/
+  title: Running the full server-side Datasette Python app in the browser with service workers and Pyodide
+  published_at: '2026-11-17T16:48:33Z'
+  collected_at: '2026-11-18T03:43:38Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'Datasette Lite is my port of the Datasette Python application to run directly in the browser
+    using WebAssembly and Pyodide . I''ve released a complete rewrite of Datasette Lite using service
+    workers, and it''s now almost indistinguishable from the real server-side application. You can now
+    do all of the following, using a carefully crafted URL to lite.datasette.io : Load client-side Datasette
+    to browse any SQLite database, JSON file, CSV file or SQL script Select a released version of Datasette
+    to load from PyPI Load a specific commit, tag, or branch name from the Datasette GitHub repository
+    Pick from over 100 versions of SQLite to use with Datasette Install additional Datasette plugins from
+    PyPI or URLs to wheel files, including JavaScript visualization tools The ability to load specific
+    Datasette references, plugins, and SQLite versions makes this a fantastic tool for linking to demos
+    of work-in-progress features or bug reproductions, without needing to spin up a full web server to
+    serv'

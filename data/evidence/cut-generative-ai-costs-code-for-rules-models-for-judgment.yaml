@@ -1,0 +1,18 @@
+- id: ev-5294d644c90c1868
+  project_slug: cut-generative-ai-costs-code-for-rules-models-for-judgment
+  url: https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/
+  title: 'Cut generative AI costs: Code for rules, models for judgment'
+  published_at: '2026-11-17T21:14:55Z'
+  collected_at: '2026-11-18T03:43:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'The biggest cost lever in a generative AI system is whether you call a model at all. We often
+    see teams route every task through a large language model (LLM), including input validation, formatting,
+    and routing. Each call is cheap in isolation, but at production scale these small costs become one
+    of the largest line items in the architecture. Wherever a deterministic rule can do the job, skipping
+    the model saves money, cuts latency, and removes a source of non-determinism. In this post, you learn
+    how to decide whether each step in a workflow needs a model at all. You can then map each option to
+    AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock . Why
+    unneeded model calls add up The pattern usually starts in a prototype. A model call works for one
+    step, so it becomes the default for the next. Those steps include validating input, reformatting a
+    request body, and picking a route. At prototype volume, nobody notices the cost. At production volum'

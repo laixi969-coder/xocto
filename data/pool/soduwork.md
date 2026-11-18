@@ -20,18 +20,18 @@ url: https://www.soduwork.ai
 canonical_url: https://soduwork.ai
 summary: The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.soduwork.ai
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 1152
-    forks: 166
-    open_issues: 67
+    stars: 1811
+    forks: 215
+    open_issues: 108
   kind: product
 ---
 

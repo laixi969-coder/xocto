@@ -20,7 +20,7 @@ url: https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-too
 canonical_url: https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours
 summary: FBI says Artex AI open-source hacking tool used to breach networks
 first_seen: '2026-11-17T04:29:14Z'
-last_seen: '2026-11-17T04:29:40Z'
+last_seen: '2026-11-18T03:43:13Z'
 status: pending_filter
 sources:
 - hackernews
@@ -28,10 +28,10 @@ sources:
 sightings:
 - source: hackernews
   url: https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/
-  seen_at: '2026-11-17T04:29:14Z'
+  seen_at: '2026-11-18T03:43:13Z'
   metrics:
-    points: 45
-    comments: 9
+    points: 49
+    comments: 15
   kind: news
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/

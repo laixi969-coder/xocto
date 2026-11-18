@@ -21,16 +21,16 @@ canonical_url: https://github.com/avivgerz-hue/vibe-shield
 summary: 92-rule static security scanner, Agent Skill & MCP server for AI-generated Next.js, Supabase
   & TypeScript apps (OWASP Top 10:2025 + MCP/Skill poisoning).
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/avivgerz-hue/vibe-shield
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 45
+    stars: 60
     forks: 2
     open_issues: 0
   kind: product

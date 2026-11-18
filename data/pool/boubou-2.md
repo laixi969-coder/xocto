@@ -20,17 +20,17 @@ url: https://runboubou.com
 canonical_url: https://runboubou.com
 summary: Run voice AI locally with open-source models. Bring it to any device with one command.
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://runboubou.com
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 95
-    forks: 13
+    stars: 96
+    forks: 14
     open_issues: 2
   kind: product
 ---

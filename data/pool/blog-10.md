@@ -20,7 +20,7 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-11-17T04:29:14Z'
+last_seen: '2026-11-18T03:43:13Z'
 status: pending_filter
 sources:
 - hackernews
@@ -158,10 +158,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://blog.antonio.cx/running-agents-with-lend
-  seen_at: '2026-11-17T04:29:14Z'
+  seen_at: '2026-11-18T03:43:13Z'
   metrics:
-    points: 59
-    comments: 25
+    points: 130
+    comments: 112
   kind: news
 ---
 

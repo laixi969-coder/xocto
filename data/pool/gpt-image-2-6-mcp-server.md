@@ -20,7 +20,7 @@ url: https://gola.apimart.ai/k-EXCk8v
 canonical_url: https://gola.apimart.ai/k-EXCk8v
 summary: Use GPT Image 2.6 from Claude, Cursor and VS Code via MCP.
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
@@ -35,9 +35,9 @@ sightings:
   kind: product
 - source: github
   url: https://gola.apimart.ai/k-rQYkFg
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 79
+    stars: 201
     forks: 0
     open_issues: 0
   kind: product

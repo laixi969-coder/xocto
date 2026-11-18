@@ -20,17 +20,17 @@ url: https://opencode.ai/product/browse
 canonical_url: https://opencode.ai/product/browse
 summary: ''
 first_seen: '2026-11-17T04:29:14Z'
-last_seen: '2026-11-17T04:29:14Z'
+last_seen: '2026-11-18T03:43:13Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://opencode.ai/product/browse
-  seen_at: '2026-11-17T04:29:14Z'
+  seen_at: '2026-11-18T03:43:13Z'
   metrics:
-    points: 168
-    comments: 76
+    points: 324
+    comments: 210
   kind: news
 ---
 

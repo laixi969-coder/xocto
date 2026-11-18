@@ -21,18 +21,18 @@ canonical_url: https://apps.apple.com/cn/app/fish-pocket/id6830703602
 summary: 'DSH iOS 移动版：在 iPhone 和 iPad 上本机运行 DeepSeek Harness，界面完全原生，不连电脑和服务器。Run DSH (DeepSeek Harness)
   natively on iPhone and iPad: no computer, no server.'
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://apps.apple.com/cn/app/fish-pocket/id6830703602
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 294
-    forks: 33
-    open_issues: 28
+    stars: 329
+    forks: 37
+    open_issues: 29
   kind: product
 ---
 

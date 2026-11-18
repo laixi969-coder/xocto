@@ -1,0 +1,41 @@
+---
+slug: 百度披露三季度财报ai云业务收入实现高速增长
+name: 百度披露三季度财报，AI云业务收入实现高速增长
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiyAJBVV95cUxQNndoanpFS0dyQ1pVV25DN3A5bGxVTWJjUEozQmhVZWNHbXJsTkR0ZWJMYlF2MERtbEhGaG1NajdZRzgzSWZUd3dxTDM3VEdiM1NNUVJ5Q0laaUtIS0xzLVZYM1Vhb1BnWEpqWG9qblFFd05UWG9va2Q3czJoLWVHVmxyWmloTHBVZXN5TXQtUV9CbzR3Ujljd0lSTTgxdDl4dmhOZ0ZtcnU4NVFMWmlwd2tOSzhlelZCQnJ5UUVkcTVyMVVRTF9ielpjaU13VmF3dTRyRVlqUFUxTVY0b0lQUzNSMjZkZXNDQUR1RzUxUHRyZUVWNHVjYWIzZGFpRDdhaVNYZ2draVgyRWZPcmNXWjJUclVodG1ESHg2elI4MnU0NnZoc1Vja2NNd3JIM3pZczVEUTFoZ1hKbVhvVy01UVBoVmMxN2tV?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiyAJBVV95cUxQNndoanpFS0dyQ1pVV25DN3A5bGxVTWJjUEozQmhVZWNHbXJsTkR0ZWJMYlF2MERtbEhGaG1NajdZRzgzSWZUd3dxTDM3VEdiM1NNUVJ5Q0laaUtIS0xzLVZYM1Vhb1BnWEpqWG9qblFFd05UWG9va2Q3czJoLWVHVmxyWmloTHBVZXN5TXQtUV9CbzR3Ujljd0lSTTgxdDl4dmhOZ0ZtcnU4NVFMWmlwd2tOSzhlelZCQnJ5UUVkcTVyMVVRTF9ielpjaU13VmF3dTRyRVlqUFUxTVY0b0lQUzNSMjZkZXNDQUR1RzUxUHRyZUVWNHVjYWIzZGFpRDdhaVNYZ2draVgyRWZPcmNXWjJUclVodG1ESHg2elI4MnU0NnZoc1Vja2NNd3JIM3pZczVEUTFoZ1hKbVhvVy01UVBoVmMxN2tV?oc=5
+summary: 百度披露三季度财报，AI云业务收入实现高速增长 NAI500
+first_seen: '2026-11-18T03:43:57Z'
+last_seen: '2026-11-18T03:43:57Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiyAJBVV95cUxQNndoanpFS0dyQ1pVV25DN3A5bGxVTWJjUEozQmhVZWNHbXJsTkR0ZWJMYlF2MERtbEhGaG1NajdZRzgzSWZUd3dxTDM3VEdiM1NNUVJ5Q0laaUtIS0xzLVZYM1Vhb1BnWEpqWG9qblFFd05UWG9va2Q3czJoLWVHVmxyWmloTHBVZXN5TXQtUV9CbzR3Ujljd0lSTTgxdDl4dmhOZ0ZtcnU4NVFMWmlwd2tOSzhlelZCQnJ5UUVkcTVyMVVRTF9ielpjaU13VmF3dTRyRVlqUFUxTVY0b0lQUzNSMjZkZXNDQUR1RzUxUHRyZUVWNHVjYWIzZGFpRDdhaVNYZ2draVgyRWZPcmNXWjJUclVodG1ESHg2elI4MnU0NnZoc1Vja2NNd3JIM3pZczVEUTFoZ1hKbVhvVy01UVBoVmMxN2tV?oc=5
+  seen_at: '2026-11-18T03:43:57Z'
+  metrics: {}
+  kind: news
+---
+
+# 百度披露三季度财报，AI云业务收入实现高速增长
+
+百度披露三季度财报，AI云业务收入实现高速增长 NAI500
+
+## 笔记
+
+

@@ -21,16 +21,16 @@ canonical_url: https://bradburns2001.github.io/topaz-video-ai-desktop
 summary: Topaz Video AI 2026 desktop setup with AI upscaling up to 16K with detail recovery, frame interpolation
   for smooth slow-motion, plus deinterlace, denoise and stabilize footage for Windows 11
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://bradburns2001.github.io/topaz-video-ai-desktop/
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 360
+    stars: 409
     forks: 0
     open_issues: 0
   kind: product

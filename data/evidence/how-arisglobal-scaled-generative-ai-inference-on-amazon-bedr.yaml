@@ -1,0 +1,18 @@
+- id: ev-1e7dc1ca82c1b211
+  project_slug: how-arisglobal-scaled-generative-ai-inference-on-amazon-bedr
+  url: https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/
+  title: How ArisGlobal scaled generative AI inference on Amazon Bedrock
+  published_at: '2026-11-17T15:57:09Z'
+  collected_at: '2026-11-18T03:43:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: ArisGlobal, a provider of life sciences technology spanning pharmacovigilance, regulatory, medical
+    affairs, clinical, and quality functions, developed NavaX, an AI engine purpose-built for life sciences
+    on Amazon Bedrock , to automate adverse-event case processing. ArisGlobal chose Amazon Bedrock for
+    managed access to foundation models, EU geographic cross-Region inference, and managed prompt caching.
+    As enterprise customers added distinct compliance requirements, the shared prompt prefix grew by about
+    150% over 6 months, while per-case inference costs increased by more than 200%. ArisGlobal first cached
+    each source document because it was the largest part of a request. That left the growing shared prompt
+    prefix outside the cache. By reversing the order and caching the shared prefix instead, ArisGlobal
+    reduced effective input cost and supported additional tenants without proportional cost growth. Who
+    is ArisGlobal? ArisGlobal is the creator of LifeSphere, a unified SaaS platform for ph

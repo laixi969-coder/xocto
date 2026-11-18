@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNUlZQUF91NXBQTnZ4NVZBTX
 canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNUlZQUF91NXBQTnZ4NVZBTXN3OFJabjdIUjhDUW9zU0pxeFF1Z1JUbkN0OVpzY1NxZ2E1eUxpRUdhMGNGZmRVS3hXMzl3d1ozaEV0dXVzT1RoLXBReGVUMzFaeHhyTU5Qalk0U3k1TFRyWHduNmM1SU9Zbl9PejhZdVpxMXE1U1ZLQjRTaw?oc=5
 summary: 以“原生安全”贯穿AI落地，安全部署融入系统生态助力政企更有序调用 Sohu
 first_seen: '2026-11-17T04:29:47Z'
-last_seen: '2026-11-17T04:29:47Z'
+last_seen: '2026-11-18T03:43:57Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNUlZQUF91NXBQTnZ4NVZBTXN3OFJabjdIUjhDUW9zU0pxeFF1Z1JUbkN0OVpzY1NxZ2E1eUxpRUdhMGNGZmRVS3hXMzl3d1ozaEV0dXVzT1RoLXBReGVUMzFaeHhyTU5Qalk0U3k1TFRyWHduNmM1SU9Zbl9PejhZdVpxMXE1U1ZLQjRTaw?oc=5
   seen_at: '2026-11-17T04:29:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE44bkkwbXBfSGpNS3hUM0dKMmlmM2FQeTYzTjlMMkdTajg2M2NJei1lNG14X0JQVU5mS1FDYTVtMTBBQUozVjQyTE5TQmxNTUtkR0xFMi1fVFZFdXZYN3ZiVEtEd05fOFhpQWNYcDZjNHBXcVM3Mjk3eUltZkE1azA?oc=5
+  seen_at: '2026-11-18T03:43:57Z'
   metrics: {}
   kind: news
 ---

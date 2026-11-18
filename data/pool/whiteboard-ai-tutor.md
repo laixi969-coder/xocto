@@ -21,17 +21,17 @@ canonical_url: https://molly554.github.io/whiteboard-ai-tutor
 summary: 'Open-source AI tutor that teaches on a whiteboard. Benchmark of 6 LLMs (Claude, Gemini, DeepSeek):
   288 lessons drawn stroke by stroke, blind-reviewed. 白板 AI 导师 / AI 老师讲课评测'
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://molly554.github.io/whiteboard-ai-tutor/
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 208
-    forks: 7
+    stars: 222
+    forks: 11
     open_issues: 2
   kind: product
 ---

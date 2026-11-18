@@ -1,0 +1,18 @@
+- id: ev-07aa599100564368
+  project_slug: secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon
+  url: https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/
+  title: Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore
+  published_at: '2026-11-17T20:25:23Z'
+  collected_at: '2026-11-18T03:43:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Enterprises today need a clear way to extend their authentication and authorization controls
+    into the agentic layer, often requiring either broad service account permissions or custom-built auth
+    integrations that add operational overhead. When an AI agent running on Amazon Bedrock AgentCore (a
+    platform to build, connect, and optimize agents at scale, with any framework or model) needs to call
+    the Snowflake-managed MCP server (which exposes Snowflake Cortex Agents as one of its tool types)
+    through the Model Context Protocol (MCP), the first question enterprises must answer is: how does
+    the agent authenticate? In this post, we walk through three Open Authorization (OAuth) configurations
+    we tested on Amazon Bedrock AgentCore Identity , a capability of Amazon Bedrock AgentCore: Snowflake
+    OAuth (per-user, no external Identity Provider, or IdP), three-legged OAuth with a third-party Identity
+    Provider (corporate single sign-on, or SSO), and two-legged OAuth with a third-party Identity Provide'

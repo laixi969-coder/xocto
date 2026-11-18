@@ -1,0 +1,18 @@
+- id: ev-108486bd1ee4f546
+  project_slug: amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/
+  title: Amazon SageMaker AI real-time endpoints now support KV cache aware routing
+  published_at: '2026-11-17T21:11:51Z'
+  collected_at: '2026-11-18T03:43:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Today, Amazon SageMaker AI introduces KV cache-aware routing (KV-aware routing), a new routing
+    strategy for real-time endpoints. It uses the cache state that the model container reports. It sends
+    each request to an instance that already holds a long cached match for its prompt and isn’t too busy.
+    It’s for teams that serve large language models (LLMs) with multi-turn conversations, long shared
+    prompts, or heavy load. You turn it on in two places: add one environment variable to your model so
+    the container reports its cache contents, and set RoutingStrategy to KV_AWARE in the endpoint configuration.
+    Your clients call the endpoint with the same APIs as before. Here’s the problem it solves: LLM applications
+    such as chat assistants, Retrieval Augmented Generation (RAG), and agents with long system prompts
+    send many requests that start with the same text. A model keeps the work it did on a prompt in GPU
+    memory, the KV cache, and skips that work when the same start reaches the same instance a'

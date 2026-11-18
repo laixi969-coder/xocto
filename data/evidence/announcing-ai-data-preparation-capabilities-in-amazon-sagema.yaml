@@ -1,0 +1,19 @@
+- id: ev-e5e3c1129e6b5aa4
+  project_slug: announcing-ai-data-preparation-capabilities-in-amazon-sagema
+  url: https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/
+  title: 'Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets
+    for model development workflows'
+  published_at: '2026-11-17T19:40:01Z'
+  collected_at: '2026-11-18T03:43:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Teams that ship generative AI to production know that a model is only as good as its data. That
+    is why preparing high-quality training and evaluation data comes first. Fine-tuning an open-weight
+    model, running reinforcement learning, or building an evaluation suite all depend on data that is
+    accurate, well-labeled, and representative of your task. For narrow, well-defined tasks, a smaller
+    model customized on clean, task-specific data can often match or exceed the accuracy of a larger general-purpose
+    model prompted into shape, at a lower cost per inference. In practice, though, preparing that data
+    is often the slowest part of the project. Labeled examples are scarce or expensive, and privacy rules
+    limit what you can use. Quality problems such as duplicates, label noise, and answer leakage go unnoticed
+    until a training run disappoints, and every training technique expects data in its own format. As
+    a result, data scientists spend weeks wrangling data instead of building models. Today, we

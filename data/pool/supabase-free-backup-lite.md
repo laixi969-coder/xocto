@@ -20,16 +20,16 @@ url: https://github.com/liulewis/supabase-free-backup-lite
 canonical_url: https://github.com/liulewis/supabase-free-backup-lite
 summary: Free weekly backups for Supabase Free projects (pg_dump to R2)
 first_seen: '2026-11-17T04:29:14Z'
-last_seen: '2026-11-17T04:29:14Z'
+last_seen: '2026-11-18T03:43:13Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/liulewis/supabase-free-backup-lite
-  seen_at: '2026-11-17T04:29:14Z'
+  seen_at: '2026-11-18T03:43:13Z'
   metrics:
-    points: 6
+    points: 10
     comments: 0
   kind: product
 ---

@@ -20,12 +20,13 @@ url: https://demo.costura.ai/overview
 canonical_url: https://demo.costura.ai/overview
 summary: Self-hosted AI spend attribution
 first_seen: '2026-10-21T00:37:59Z'
-last_seen: '2026-11-12T03:01:17Z'
+last_seen: '2026-11-18T03:43:37Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
 - newssearch
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://demo.costura.ai/overview
@@ -52,6 +53,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcUhHTlhFRzdzMTdwQll0OTlONE1IQ05ZX19pellNWUN5U0VCOTRnTFl5MUpuS0hkZXNST1VrWXlMNS1EOUI5MTg0U1pPcEZFOGMwalJLai1MQUJveEx6UmhPcEJXbGhvXzZTeHNSRzdOVDkxNmx6YmpZVDMxZ0NhNmtDb20zN01oSXFoRURsLWVTU1hUTmE3ZjU3anVxT3BVS01zSDJ5WWU4anZaS0ZueTRxMDByYnhyMkdzN2RyeUN0QjhfTzZNQlhuV2x5bFgteE1QVW5B?oc=5
   seen_at: '2026-11-12T03:01:17Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/
+  seen_at: '2026-11-18T03:43:37Z'
   metrics: {}
   kind: news
 ---

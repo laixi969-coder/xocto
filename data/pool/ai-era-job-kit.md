@@ -22,16 +22,16 @@ summary: A free, portfolio-first job search kit for software engineers in the AI
   LinkedIn, GitHub and portfolio against live O*NET and BLS data, then rebuilds them. 7 skills, 7 agents,
   3 commands, no API keys. Built by Vets Who Code for the Master.dev workshop.
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Vets-Who-Code/ai-era-job-kit
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 66
+    stars: 67
     forks: 22
     open_issues: 2
   kind: product

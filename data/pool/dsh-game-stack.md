@@ -20,16 +20,16 @@ url: https://github.com/yuanstarstar/dsh-game-stack
 canonical_url: https://github.com/yuanstarstar/dsh-game-stack
 summary: DSH 打游戏插件合集：游戏感知 / 视觉实体 / 游戏学习（规则+流程+闸门+知识库）/ 直播桥 / 启动器，5 个可安装 bundle 一键安装
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yuanstarstar/dsh-game-stack
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 47
+    stars: 48
     forks: 4
     open_issues: 3
   kind: product

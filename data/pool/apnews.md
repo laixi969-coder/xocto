@@ -20,17 +20,24 @@ url: https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901
 canonical_url: https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff
 summary: United Airlines has a widespread system outage
 first_seen: '2026-11-17T04:29:14Z'
-last_seen: '2026-11-17T04:29:14Z'
+last_seen: '2026-11-18T03:43:13Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff
-  seen_at: '2026-11-17T04:29:14Z'
+  seen_at: '2026-11-18T03:43:13Z'
   metrics:
     points: 48
-    comments: 12
+    comments: 13
+  kind: news
+- source: hackernews
+  url: https://apnews.com/article/south-korea-exam-cheating-ai-college-e25b5612dbf4bd09fdf9197254c4547e
+  seen_at: '2026-11-18T03:43:13Z'
+  metrics:
+    points: 67
+    comments: 85
   kind: news
 ---
 

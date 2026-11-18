@@ -21,16 +21,16 @@ canonical_url: https://cromma.ai/code
 summary: CrommaCode — the gamified IDE for coding agents. Watch Claude Code, Codex, Gemini CLI, Cursor
   CLI or OpenCode work as a game, and send a swarm of worker agents. Free for macOS, Windows and Linux.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-18T03:43:16Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://cromma.ai/code
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-18T03:43:16Z'
   metrics:
-    stars: 63
+    stars: 70
     forks: 6
     open_issues: 0
   kind: product

@@ -1,0 +1,18 @@
+- id: ev-4fc162e5f96d6de9
+  project_slug: govern-and-discover-records-with-common-metadata-in-aws-agen
+  url: https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/
+  title: Govern and discover records with common metadata in AWS Agent Registry
+  published_at: '2026-11-17T20:31:04Z'
+  collected_at: '2026-11-18T03:43:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: As organizations build more agents, Model Context Protocol (MCP) servers and skills, they need
+    a consistent way to describe, govern, and find them. AWS Agent Registry provides a catalog for registering,
+    approving, and discovering these resources and custom records. Each record carries a name, a description,
+    a protocol descriptor, and an approval status. However, every organization has attributes and facts
+    that it wants to track, and some are unique to that organization, such as its business units, resource
+    owners, risk classifications, and development environments. Organizations want one common definition
+    for each of these attributes, and they want every agent, MCP server, and skill in the registry to
+    carry these facts. Until now, organizations had no way to define these facts in AWS Agent Registry
+    and store them on each record. Custom metadata schemas are now available in AWS Agent Registry. A
+    custom metadata schema is a set of organization-defined key-value pairs that records in an A

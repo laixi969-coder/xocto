@@ -1,0 +1,18 @@
+- id: ev-1f60fb956f9fd047
+  project_slug: reducing-token-costs-and-latency-in-amazon-bedrock-agentcore
+  url: https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/
+  title: Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads
+  published_at: '2026-11-17T22:44:51Z'
+  collected_at: '2026-11-18T03:43:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: As enterprises build production agents with dozens of tools and large structured inputs, token
+    consumption and latency become the primary blockers to a good user experience. When these agents process
+    large JSON data, every additional tool invocation injects the full payload into the large language
+    model (LLM) context window, causing token usage and response latency to spike. Over multi-turn conversations,
+    this pressure compounds, driving up costs and degrading response quality. Effectively managing context-window
+    pressure in agentic systems is key to reliability and responsiveness at scale. In this post, we share
+    three composable strategies we used to build a production agent for Flightscape that handles 20 MB+
+    JSON payloads. You can apply them to reduce token costs, lower latency, and maintain full reasoning
+    capability across extended sessions. Together, these optimizations reduced token consumption by up
+    to 71% and cut average latency by up to 80% across our benchmark runs on a repre

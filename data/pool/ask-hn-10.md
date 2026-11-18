@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50520076
 canonical_url: https://news.ycombinator.com/item?id=50520076
 summary: If AI tools are so good, why isn't your bug backlog empty?
 first_seen: '2026-11-17T04:29:14Z'
-last_seen: '2026-11-17T04:29:14Z'
+last_seen: '2026-11-18T03:43:13Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50520076
-  seen_at: '2026-11-17T04:29:14Z'
+  seen_at: '2026-11-18T03:43:13Z'
   metrics:
-    points: 41
-    comments: 70
+    points: 91
+    comments: 108
   kind: news
 ---
 

@@ -20,17 +20,17 @@ url: https://xusheng.dev/posts/windows-coding-agent-telemetry/
 canonical_url: https://xusheng.dev/posts/windows-coding-agent-telemetry
 summary: Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use
 first_seen: '2026-11-17T04:29:14Z'
-last_seen: '2026-11-17T04:29:14Z'
+last_seen: '2026-11-18T03:43:13Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://xusheng.dev/posts/windows-coding-agent-telemetry/
-  seen_at: '2026-11-17T04:29:14Z'
+  seen_at: '2026-11-18T03:43:13Z'
   metrics:
-    points: 360
-    comments: 223
+    points: 713
+    comments: 593
   kind: news
 ---
 

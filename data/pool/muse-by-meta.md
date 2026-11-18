@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-14T02:28:20Z'
+last_seen: '2026-11-18T03:43:37Z'
 status: pending_filter
 sources:
 - producthunt
@@ -548,6 +548,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxPNkE5dm9EVnpDNE1leUhBTlkwZ1J5Nkl0T1l5bTE3S2VZSDlCTk9LQUc3OF9CZ2xyMzRTd1diVWlQY1ViMno3dUU3ZmI4LThTSVVRTWJXZDlheVhMR3daWk1mTi12NWRRVS1VUVNXTURlZFZMNkRwTFpYWGZCdzVnZkdiMkZVV2h1MXZCUFRjMy1LUQ?oc=5
   seen_at: '2026-11-14T02:28:20Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/
+  seen_at: '2026-11-18T03:43:37Z'
   metrics: {}
   kind: news
 ---
