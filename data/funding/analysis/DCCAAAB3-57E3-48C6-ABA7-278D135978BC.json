@@ -1,23 +1,23 @@
 {
   "company_id": "DCCAAAB3-57E3-48C6-ABA7-278D135978BC",
   "zh": {
-    "summary": "Elergi Labs 是一家斯德哥尔摩的早期公司，做面向电网规划的 agentic AI，用自动化代理编排并执行从接入申请到方案审查的完整电力系统分析流程。",
-    "judgment": "它切中的是电网接入与投资决策中真实存在的人工排队瓶颈，但当前公开证据只到首页定位层面，产品深度、定价与客户采用均未验证，商业判断只能停留在条件式。",
-    "replaces": "替代电网接入团队与规划工程师手工整理申请、拼装研究方案、逐项做物理校验并撰写审查证据的重复性工作，以及部分依赖通用脚本和咨询顾问的临时分析流程。",
-    "segment": "能源与电力系统 AI，具体为电网规划与并网接入工作流自动化（agentic AI for grid planning）。",
-    "product": "按公司自述，产品是面向电网规划的 agentic AI：代理负责申请受理、网络上下文构建、研究方案组合与物理校验，并生成可供工程师复核的证据。首页还宣称可并行探索数千个情景，指出每个方案在何处失效。需要说明的是，这些均为公司披露，官网未展示具体模型、仿真引擎、支持的电网标准或与既有电力系统软件的接口，产品边界仍不清楚。",
-    "customer": "公司列出的使用者包括电网接入团队、电网规划人员、数据中心与大型项目方、发电与工业用户以及开发商和运营商。付费者很可能是公用事业公司与大型用能/开发企业，痛点是并网申请积压与投资选址决策周期长、频率高。但官网没有客户名单、案例或采购路径，谁真正付费、决策链多长均属未知。",
-    "workflow": "从首页描述可还原的流程是：接收接入申请，加载网络上下文，组合研究方案，执行物理校验，输出供人工审查的证据，并支持大规模情景并行比较。这一流程对应工程师从“收到请求”到“给出可辩护的接入或投资结论”的链条。但输入数据格式、人工介入节点、结果如何回写至既有规划系统，均缺少文档支撑，无法确认端到端闭环程度。",
-    "business_model": "收费方式未披露：没有定价页、套餐或合同结构信息，不能推断是按席位、按项目还是按电网规模订阅。若面向公用事业公司，通常需要长销售周期与试点转正式采购的路径，单位经济性在缺少价格与部署成本数据时无法判断，任何毛利或回本推断都只能标注为推测。",
-    "traction": "可确认的采用证据仅限于公司自称“与公用事业和行业领导者合作”，没有具名客户、部署数量、处理申请量或性能基准。融资事件本身说明有外部资本支持，但不构成需求验证。缺少案例页、文档与定价，使产品成熟度和客户留存完全无法评估。",
-    "moat": "相对通用大模型，其潜在壁垒在于把电力系统物理校验、网络上下文与审查证据链嵌入具体工作流，形成领域数据与流程耦合；相对旧流程，价值在于把分散的人工步骤并行化。但壁垒成立的前提是仿真准确性可被工程师信任、能与既有工具集成并积累专有场景库，这些目前都未获证据支持。",
-    "funding_read": "本轮为种子轮，金额以美元原币披露，另有按欧洲央行汇率折算的欧元值；投资方名单为空，领投方与资金用途均未知。该阶段说明公司尚在产品与早期客户验证期，下一里程碑应是把首页宣称的工作流变成可复现的客户试点结果。不能把融资解读为产品胜出或收入验证。",
-    "risks": "第一，若代理输出的物理校验或情景结论无法被电网工程师复核和信任，产品会被挡在审查环节之外；第二，公用事业采购周期长、集成要求高，若无法在资金周期内完成从试点到付费合同的转化，商业化会停滞。此外，首页宣称的“数万亿美元资产积压”是公司叙事，不能当作可服务市场规模的审计结论。",
-    "takeaway": "对同类创业者可借鉴的是：选择一个有明确排队瓶颈、结果可被专业审查的工程流程作为切入点，把“生成证据”而非“替代工程师”作为产品定位，更容易进入受监管行业。同时应尽早公开可验证的试点指标，否则融资叙事难以转化为客户信任。",
-    "watch_next": "下一步应观察是否出现具名公用事业客户或试点、是否发布产品文档与定价、以及能否给出可复核的准确性或处理效率基准；另一个关键问题是它如何与现有电网规划软件集成，以及代理在人工审查环节承担何种责任边界。",
+    "summary": "Elergi Labs 是一家位于斯德哥尔摩的早期 AI 公司，面向电网规划场景提供“代理式 AI”（agentic AI），帮助电力公司、数据中心与大型工业项目处理并网申请、方案编制与投资决策。",
+    "judgment": "最关键的商业判断是：它押注的不是通用聊天助手，而是把电网规划中高门槛、强合规、长周期的工程分析流程代理化；能否成立取决于能否证明其输出可被持证工程师复核采纳，而非仅生成看似合理的方案。",
+    "replaces": "替代或压缩电网连接团队与规划工程师目前手工完成的申请受理、网络背景梳理、研究方案组合、物理校验与评审材料准备等重复性分析工作。",
+    "segment": "能源与电力系统 AI，聚焦电网规划与并网流程自动化。",
+    "product": "根据官网，Elergi 的产品是面向电网规划的代理式 AI：它声称编排并自动化“完整工作流与分析”，覆盖申请受理、网络背景、研究方案组合、物理校验和为评审准备证据，并能并行探索大量情景，指出每个方案在何处失效。官网还列出连接团队、电网规划者、数据中心与大型项目、运营商和开发商等使用角色。需要说明的是，这些能力描述均为公司自述，公开材料中没有产品文档、界面细节或技术白皮书可供核验，因此无法判断其自动化程度是辅助建议还是端到端执行。",
+    "customer": "目标使用者是电力公司的并网连接团队与电网规划工程师，付费方大概率是公用事业公司及需要接入电网的大型负荷方（数据中心、工业与发电项目）。痛点是并网排队积压严重、单个申请研究耗时长、工程师人力稀缺，且方案需要可审计的证据链。官网以“2 万亿美元资产卡在规划队列”作为问题规模的表述，属于公司披露，未经独立审计；实际客户名单、合同规模与使用频率均未公开。",
+    "workflow": "从官网描述推断的流程是：接收并结构化并网申请（request intake），补充网络拓扑与运行背景，生成候选研究方案（study composition），执行物理与电气校验，再输出可供工程师评审的证据包；代理可并行跑大量情景，标出方案失效点。这一流程若成立，价值在于把数周的人工迭代压缩为可比较的方案集。但输入数据格式、与现有电网仿真工具的集成方式、人工复核节点均未披露，属于关键未知。",
+    "business_model": "公开证据未披露任何定价、合同结构或收费方式，不能推断为订阅制或按项目收费。合理的条件式推断是：面向公用事业的工程软件通常采用年度许可加实施服务，若按并网申请量或研究次数计费，则收入与客户实际排队量挂钩；以上均为推断，非公司披露。单位经济性（单次研究成本、部署周期、毛利率）完全缺失。",
+    "traction": "可确认的采用证据非常有限：官网称“与公用事业和行业领导者合作”，但没有点名客户、没有案例研究、没有部署数量或性能基准。融资事件本身只说明有资本支持，不构成需求验证。因此当前应把 Elergi 视为产品早期、客户证据待补的公司，而非已验证规模化采用。",
+    "moat": "相对通用大模型，其潜在壁垒在于电网领域的流程知识、与规划工具和数据标准的集成、以及让工程师信任的校验与证据机制；相对旧流程，壁垒在于把分散的手工步骤串成可复用管线。但这些壁垒只有在积累真实项目数据、形成可复现的准确性记录、并嵌入客户既有工作流后才成立。若只是调用通用模型做文本与情景生成，护城河会很薄。",
+    "funding_read": "本轮为种子轮，金额以原币披露并经汇率折算，投资方名单在证据中为空，因此无法判断领投方与背书质量。该阶段说明公司尚在产品与早期客户验证之间，资金用途未披露；下一里程碑应是公开可核验的公用事业试点或付费合同，以及可复现的规划准确性指标。",
+    "risks": "第一，若代理输出无法通过持证工程师的复核与监管审计，产品会被挡在关键决策之外，沦为演示工具。第二，电网数据敏感且系统割裂，集成成本与销售周期可能远超种子轮资金所能支撑，导致收入迟迟无法验证。第三，若通用模型厂商或现有电网软件厂商把类似代理功能内置，其差异化空间会被压缩。",
+    "takeaway": "对同类创业者可借鉴的是：选择一个排队严重、人工密集且结果可被客观校验的工程流程作为切入点，把“证据可复核”而非“生成速度”作为产品核心卖点；同时尽早用真实客户试点替代官网上的规模叙事。",
+    "watch_next": "下一步应观察：是否出现具名公用事业客户或付费试点公告；是否发布产品文档、与主流电网仿真工具的集成说明；以及能否给出方案准确率或研究周期缩短的可复核数据。",
     "citations": [
       {
-        "label": "Elergi 官网首页（公司披露）",
+        "label": "Elergi 官网（公司自述）",
         "url": "https://elergi.com/"
       },
       {
@@ -27,23 +27,23 @@
     ]
   },
   "en": {
-    "summary": "Elergi Labs is an early-stage Stockholm company building agentic AI for grid planning, orchestrating the workflow from connection requests through study composition and physics checks to reviewable evidence.",
-    "judgment": "It targets a real queueing bottleneck in grid interconnection and investment decisions, but public evidence stops at homepage positioning, so product depth, pricing and customer adoption remain unverified and the commercial judgment must stay conditional.",
-    "replaces": "It replaces manual work by connection teams and planners who triage requests, assemble study cases, run physics checks and write review evidence, plus some ad hoc scripting or consultant-led analysis.",
-    "segment": "Energy and power-systems AI, specifically workflow automation for grid planning and interconnection (agentic AI for grid planning).",
-    "product": "Per the company, the product is agentic AI for grid planning: agents handle request intake, network context, study composition and physics checks, and produce evidence for engineer review. The homepage also claims parallel exploration of thousands of scenarios and identification of where each plan breaks. These are company-reported claims; the site does not show models, simulation engines, supported grid standards or integrations with incumbent planning software, so the product boundary is unclear.",
-    "customer": "The company names connection teams, grid planners, data centres and large projects, generation and industrials, and developers and operators. Likely payers are utilities and large energy or development firms facing interconnection backlogs and repeated siting decisions. No customer names, case studies or procurement paths are published, so who actually pays and how long the decision cycle is remain unknown.",
-    "workflow": "The homepage implies a flow of receiving a connection request, loading network context, composing study cases, running physics checks, emitting evidence for human review, and comparing scenarios at scale. That maps to an engineer's path from request to a defensible interconnection or investment conclusion. Input formats, human checkpoints and how results feed back into existing planning systems are undocumented, so end-to-end closure cannot be confirmed.",
-    "business_model": "Pricing is undisclosed: no pricing page, packages or contract structure, so per-seat, per-project or grid-scale subscription models cannot be inferred. Selling to utilities typically implies long cycles and pilot-to-procurement paths; without price and deployment-cost data, unit economics cannot be judged and any margin or payback estimate must be labelled speculative.",
-    "traction": "The only adoption evidence is the company's own statement that it partners with utilities and industry leaders; there are no named customers, deployment counts, request volumes or performance benchmarks. The funding event shows external capital support but is not demand validation. Missing case pages, documentation and pricing make maturity and retention impossible to assess.",
-    "moat": "Versus general-purpose models, the potential moat is embedding power-system physics checks, network context and an evidence trail into a specific workflow, coupling domain data with process. Versus the old process, the value is parallelising scattered manual steps. That moat depends on engineers trusting simulation accuracy, integration with incumbent tools and an accumulating proprietary scenario library, none of which is evidenced yet.",
-    "funding_read": "This is a seed round with a native USD amount and a separate ECB-derived euro figure; the investor list is empty, so lead investor and use of funds are unknown. The stage suggests product and early-customer validation, and the next milestone should be reproducible pilot results for the workflow claimed on the homepage. The round should not be read as product success or revenue validation.",
-    "risks": "First, if agent outputs on physics checks or scenario conclusions cannot be reviewed and trusted by grid engineers, the product will be excluded at the review gate. Second, long utility procurement cycles and integration demands could stall commercialisation if pilots do not convert to paid contracts within the funding runway. The homepage's multi-trillion-dollar backlog figure is company narrative, not an audited addressable-market estimate.",
-    "takeaway": "A transferable lesson for similar founders is to pick an engineering workflow with a clear queueing bottleneck and reviewable outputs, and to position the product as generating evidence rather than replacing engineers, which eases entry into regulated industries. Publishing verifiable pilot metrics early would help convert a funding narrative into customer trust.",
-    "watch_next": "Watch for a named utility customer or pilot, published product documentation and pricing, and any reviewable accuracy or throughput benchmark. Another key question is how it integrates with incumbent grid-planning software and what responsibility boundary the agents have in human review.",
+    "summary": "Elergi Labs is an early-stage Stockholm-based AI company offering agentic AI for grid planning, aimed at utilities, data centres and large industrial projects dealing with interconnection requests, study composition and investment decisions.",
+    "judgment": "The key commercial question is whether Elergi can make agentic automation of a high-stakes, regulated engineering workflow trustworthy enough for licensed engineers to rely on; if its outputs cannot be reviewed and defended, it remains a demo rather than a decision tool.",
+    "replaces": "It substitutes for or compresses manual work currently done by interconnection teams and grid planners: request intake, network context gathering, study composition, physics checks and preparation of review evidence.",
+    "segment": "Energy and power-systems AI, focused on grid planning and interconnection workflow automation.",
+    "product": "According to its website, Elergi provides agentic AI for grid planning that orchestrates and automates the full workflow and analysis: request intake, network context, study composition, physics checks and evidence for review, with agents exploring thousands of scenarios in parallel and surfacing where each plan breaks. The site names connection teams, grid planners, data centres and large projects, operators and developers as users. These are company-reported claims only; no product documentation, interface detail or technical whitepaper is available in the evidence, so the degree of automation—advisory versus end-to-end execution—cannot be verified.",
+    "customer": "The users are utility interconnection teams and grid planning engineers; the likely payers are utilities and large load owners such as data centres, industrials and generation developers. The pain is a severe interconnection queue backlog, long per-request study cycles, scarce engineering capacity and the need for auditable evidence. The website's claim that $2 trillion of assets are stuck in the planning queue is company-reported and not independently audited; named customers, contract sizes and usage frequency are not disclosed.",
+    "workflow": "The inferred flow is: ingest and structure interconnection requests, add network topology and operating context, compose candidate study cases, run physics and electrical checks, then produce an evidence package for engineer review, with agents running many scenarios in parallel and flagging failure points. If real, the value is compressing weeks of manual iteration into a comparable set of options. Input formats, integration with existing grid simulation tools and human review checkpoints are undisclosed and are key unknowns.",
+    "business_model": "No pricing, contract structure or charging method is disclosed, so subscription or project-based models cannot be assumed. A conditional inference—not a company statement—is that utility engineering software often uses annual licences plus implementation services, and per-request or per-study pricing would tie revenue to queue volume. Unit economics such as cost per study, deployment time and gross margin are entirely missing.",
+    "traction": "Verifiable adoption evidence is thin: the site says it partners with utilities and industry leaders but names no customers and offers no case studies, deployment counts or performance benchmarks. The funding event shows capital support, not demand validation. Elergi should therefore be treated as early-stage with customer evidence still to be established, not as a proven scaled deployment.",
+    "moat": "Versus general-purpose models, the potential moat lies in grid-domain process knowledge, integration with planning tools and data standards, and validation and evidence mechanisms engineers trust; versus legacy workflows, it lies in stitching fragmented manual steps into a reusable pipeline. These only hold once real project data, a reproducible accuracy record and embedding in customer workflows exist. If it is merely a wrapper generating text and scenarios, the moat is thin.",
+    "funding_read": "This is a seed round with the amount disclosed in native currency and converted at an FX rate; the investor list in the evidence is empty, so lead investor and backing quality cannot be assessed. The stage places the company between product build and early customer validation, and use of funds is undisclosed. The next milestone should be a publicly verifiable utility pilot or paid contract plus reproducible planning-accuracy metrics.",
+    "risks": "First, if agent outputs cannot pass licensed-engineer review and regulatory audit, the product is shut out of real decisions and remains a demo. Second, sensitive, fragmented utility data implies high integration cost and long sales cycles that may exceed seed funding, delaying revenue validation. Third, general-model vendors or incumbent grid-software providers could bundle similar agent features, compressing differentiation.",
+    "takeaway": "A transferable lesson for similar founders: pick a backlogged, labour-intensive engineering process whose outputs can be objectively checked, and make reviewable evidence—not generation speed—the core selling point, replacing website-scale narratives with real customer pilots early.",
+    "watch_next": "Watch for a named utility customer or paid pilot announcement, published product documentation and integration notes for mainstream grid simulation tools, and verifiable data on study accuracy or cycle-time reduction.",
     "citations": [
       {
-        "label": "Elergi homepage (company-reported)",
+        "label": "Elergi website (company-reported)",
         "url": "https://elergi.com/"
       },
       {
@@ -59,21 +59,21 @@
       "role": "funding",
       "status": "retrieved",
       "text": "Elergi is an early-stage technology company operating at the intersection of AI and energy.",
-      "checked_on": "2026-11-07"
+      "checked_on": "2026-11-19"
     },
     {
       "url": "https://elergi.com/",
       "kind": "company_claim",
       "role": "overview",
-      "checked_on": "2026-11-07",
+      "checked_on": "2026-11-19",
       "status": "retrieved",
       "text": "elergi · Agentic AI for grid planning elergi contact Agentic AI for grid planning. Agentic AI\nfor grid planning. Request a demo Join the team $2 trillion of assets are stuck in the grid planning queue We partner with utilities and industry leaders to change that. Data centres Generation Industrials Built for the people who decide how the grid grows. Connection teams Clear the queue of connection requests Grid planners Decide where to invest and reinforce Data centres and large projects Choose where to build what comes next Operators Developers Power systems engineering just got agentic. We orchestrate and automate the full workflow and analysis. Request intake Network context Study composition Physics checks Evidence for review Explore thousands of scenarios in parallel. Elergi’s agents surface where each plan breaks and give engineers the evidence to choose what gets built. [email protected] elergi Request a demo Join the team Careers Contact Terms © 2026 MADE IN"
     }
   ],
   "round_id": "AA015797-F61E-4973-AC7B-549AE682B781",
   "fingerprint": "be26cb32494503511e44643873eff3d2b059306bed23ad9d9bdac6743b13d2df",
-  "analyzed_at": "2026-11-07T02:52:19Z",
+  "analyzed_at": "2026-11-19T04:13:03Z",
   "research_version": 2,
   "research_fingerprint": "7efaee47916f0648367f1f17661d154885ed498b7bac2bd1324e80ba08d1b3ff",
-  "checked_on": "2026-11-07"
+  "checked_on": "2026-11-19"
 }
