@@ -21,18 +21,18 @@ canonical_url: https://mutinybim.com
 summary: Open-source building model engine. One shared kernel, trade add-ons, and a script-first tool
   server so people and AI agents can edit the same model together.
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://mutinybim.com
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 100
-    forks: 12
-    open_issues: 46
+    stars: 101
+    forks: 14
+    open_issues: 50
   kind: product
 ---
 

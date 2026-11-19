@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-17T04:29:39Z'
+last_seen: '2026-11-19T03:28:45Z'
 status: pending_filter
 sources:
 - hackernews
@@ -375,6 +375,21 @@ sightings:
 - source: officialfeeds
   url: https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/
   seen_at: '2026-11-17T04:29:39Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPQjRoNS1ybF9WanhTYUhPR0F1WXA2YVlHd1I5cC1aYXRqREo0ZUNPbVRWZ2piZjFjcGdzOUJHNlZkYjl2N2xMaUp2YXQxR2c5TkpTRjdJajhaQlFSR2xrVGFKVnNXY0NqbS0xVVNQNEREWld0aDZQN3FEVEFTSWUxczJ3MXdjZnZkU3RpdlMyMA?oc=5
+  seen_at: '2026-11-19T03:28:45Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMie0FVX3lxTE1PT1c5UjN6SXNsTFViaVE4QXdXZXl2NGNRcmd6UHpJV3J5SVcxODFzM3pfOFRxdXhqMkRDZDBHZzQzd1hzSU1OaS1Pekp3MV9IdXE5eV9sNWlJYWxPNkFxczlXMjZsTEtNcXN5Ni1tVFlDeUtKa1ZoUF84UQ?oc=5
+  seen_at: '2026-11-19T03:28:45Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiigFBVV95cUxORVpJbEtxdUR4NzJSS1VzaC1mekVJVXMtWGpWc3k4Rk9FOTZvTHJVa25KdjBFdExkMXhta1BoRGN0SWpSclY3SEZJNldQZW9yRnpuZ1p6alVpMWZrUzZHTEpfMEd0dmpjdXNVNllET3A0V3FiX1BVR1dwOHVOWTVzQUlfX1RORmdET2c?oc=5
+  seen_at: '2026-11-19T03:28:45Z'
   metrics: {}
   kind: news
 ---

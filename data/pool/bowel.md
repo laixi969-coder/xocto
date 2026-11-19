@@ -20,18 +20,18 @@ url: https://bowel.dev
 canonical_url: https://bowel.dev
 summary: Bowel is a mihomo client for macOS, Windows, Linux and Android.
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://bowel.dev
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 583
+    stars: 591
     forks: 32
-    open_issues: 10
+    open_issues: 13
   kind: product
 ---
 

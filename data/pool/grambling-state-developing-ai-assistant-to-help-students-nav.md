@@ -1,0 +1,41 @@
+---
+slug: grambling-state-developing-ai-assistant-to-help-students-nav
+name: Grambling State developing AI assistant to help students navigate campus services
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPWkdKX1JxallqOGM0a2xSNDJFeDYwVnZuZ3MxMlNfc1ZPU1kwX1FxajdUZ3pCZmNSSEs3VDc4NkwyV05HMDktdUVQNTAzMUIxSU4tYVh0YW9RTXVyOUl1akVObzdWbnhYdVJfRllGTUJPUndhOXk0LUU0NGowN3FHbTFVWjlrYzNXOTFMZ3JUOEdMN3Y4cEU2bFBmRE01NlZsVU1IcU5Mdm9mZG1Uc3BzaGNnY0ZxQ0RlMFp1TGJpUmZOcUlD0gHEAUFVX3lxTE9aR0pfUnFqWWo4YzRrbFI0MkV4NjBWdm5nczEyU19zVk9TWTBfUXFqN1RnekJmY1JISzdUNzg2TDJXTkcwOS11RVA1MDMxQjFJTi1hWHRhb1FNdXI5SXVqRU5vN1ZueFh1Ul9GWUZNQk9Sd2E5eTQtRTQ0ajA3cUdtMVVaOWtjM1c5MUxnclQ4R0w3djhwRTZsUGZETTU2VmxVTUhxTkx2b2ZkbVRzcHNoY2djRnFDRGUwWnVMYmlSZk5xSUM?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPWkdKX1JxallqOGM0a2xSNDJFeDYwVnZuZ3MxMlNfc1ZPU1kwX1FxajdUZ3pCZmNSSEs3VDc4NkwyV05HMDktdUVQNTAzMUIxSU4tYVh0YW9RTXVyOUl1akVObzdWbnhYdVJfRllGTUJPUndhOXk0LUU0NGowN3FHbTFVWjlrYzNXOTFMZ3JUOEdMN3Y4cEU2bFBmRE01NlZsVU1IcU5Mdm9mZG1Uc3BzaGNnY0ZxQ0RlMFp1TGJpUmZOcUlD0gHEAUFVX3lxTE9aR0pfUnFqWWo4YzRrbFI0MkV4NjBWdm5nczEyU19zVk9TWTBfUXFqN1RnekJmY1JISzdUNzg2TDJXTkcwOS11RVA1MDMxQjFJTi1hWHRhb1FNdXI5SXVqRU5vN1ZueFh1Ul9GWUZNQk9Sd2E5eTQtRTQ0ajA3cUdtMVVaOWtjM1c5MUxnclQ4R0w3djhwRTZsUGZETTU2VmxVTUhxTkx2b2ZkbVRzcHNoY2djRnFDRGUwWnVMYmlSZk5xSUM?oc=5
+summary: Grambling State developing AI assistant to help students navigate campus services KNOE
+first_seen: '2026-11-19T03:28:45Z'
+last_seen: '2026-11-19T03:28:45Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPWkdKX1JxallqOGM0a2xSNDJFeDYwVnZuZ3MxMlNfc1ZPU1kwX1FxajdUZ3pCZmNSSEs3VDc4NkwyV05HMDktdUVQNTAzMUIxSU4tYVh0YW9RTXVyOUl1akVObzdWbnhYdVJfRllGTUJPUndhOXk0LUU0NGowN3FHbTFVWjlrYzNXOTFMZ3JUOEdMN3Y4cEU2bFBmRE01NlZsVU1IcU5Mdm9mZG1Uc3BzaGNnY0ZxQ0RlMFp1TGJpUmZOcUlD0gHEAUFVX3lxTE9aR0pfUnFqWWo4YzRrbFI0MkV4NjBWdm5nczEyU19zVk9TWTBfUXFqN1RnekJmY1JISzdUNzg2TDJXTkcwOS11RVA1MDMxQjFJTi1hWHRhb1FNdXI5SXVqRU5vN1ZueFh1Ul9GWUZNQk9Sd2E5eTQtRTQ0ajA3cUdtMVVaOWtjM1c5MUxnclQ4R0w3djhwRTZsUGZETTU2VmxVTUhxTkx2b2ZkbVRzcHNoY2djRnFDRGUwWnVMYmlSZk5xSUM?oc=5
+  seen_at: '2026-11-19T03:28:45Z'
+  metrics: {}
+  kind: news
+---
+
+# Grambling State developing AI assistant to help students navigate campus services
+
+Grambling State developing AI assistant to help students navigate campus services KNOE
+
+## 笔记
+
+

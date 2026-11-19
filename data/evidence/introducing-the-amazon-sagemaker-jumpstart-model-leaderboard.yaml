@@ -1,0 +1,19 @@
+- id: ev-e7cb8d0fd2cc0183
+  project_slug: introducing-the-amazon-sagemaker-jumpstart-model-leaderboard
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard/
+  title: Introducing the Amazon SageMaker JumpStart Model Leaderboard
+  published_at: '2026-11-18T22:31:04Z'
+  collected_at: '2026-11-19T03:28:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Amazon SageMaker JumpStart gives you hundreds of open-weight foundation models you can deploy
+    quickly. That choice is powerful, but it also creates a real question: Which model should you start
+    with? Comparing models usually means reading model cards one at a time and hunting for benchmark scores
+    that different sources published under different conditions. Then you still must guess how each model
+    will perform, and what it will cost, for your use case. Today we are launching the Amazon SageMaker
+    JumpStart Model Leaderboard , a new way to compare JumpStart models side by side on quality, speed,
+    and cost, directly in Amazon SageMaker Studio. In this post, we explain what the leaderboard shows,
+    define the key terms in plain language, and walk through how to go from a shortlist to a deployed
+    model. What is the JumpStart Model Leaderboard? The leaderboard is a new view of the JumpStart base
+    models page in SageMaker Studio, right next to the Categories and All models views. It uses the same
+    s'

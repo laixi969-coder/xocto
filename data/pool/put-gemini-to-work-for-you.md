@@ -1,7 +1,7 @@
 ---
 slug: put-gemini-to-work-for-you
 name: Put Gemini to work for you
-builder: ''
+builder: hackeratrandom
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -21,15 +21,23 @@ canonical_url: https://blog.google/innovation-and-ai/products/gemini-app/tasks-i
 summary: Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S.
   and deeper Google Workspace integration to get things done on your behalf.
 first_seen: '2026-11-18T03:43:37Z'
-last_seen: '2026-11-18T03:43:37Z'
+last_seen: '2026-11-19T03:28:02Z'
 status: pending_filter
 sources:
 - officialfeeds
+- hackernews
 sightings:
 - source: officialfeeds
   url: https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/
   seen_at: '2026-11-18T03:43:37Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/
+  seen_at: '2026-11-19T03:28:02Z'
+  metrics:
+    points: 51
+    comments: 68
   kind: news
 ---
 

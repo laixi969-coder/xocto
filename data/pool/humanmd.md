@@ -20,17 +20,17 @@ url: https://www.human-md.ai/
 canonical_url: https://human-md.ai
 summary: ''
 first_seen: '2026-11-18T03:43:13Z'
-last_seen: '2026-11-18T03:43:13Z'
+last_seen: '2026-11-19T03:28:02Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.human-md.ai/
-  seen_at: '2026-11-18T03:43:13Z'
+  seen_at: '2026-11-19T03:28:02Z'
   metrics:
-    points: 79
-    comments: 53
+    points: 119
+    comments: 77
   kind: news
 ---
 

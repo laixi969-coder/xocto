@@ -21,16 +21,16 @@ canonical_url: https://github.com/FrostPillage/CapCut-Pro-Version
 summary: CapCut Pro for Windows — free professional video editor with AI auto captions, effects, keyframes,
   transitions and high-quality 4K export for content creators.
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/FrostPillage/CapCut-Pro-Version
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 75
+    stars: 72
     forks: 0
     open_issues: 0
   kind: product

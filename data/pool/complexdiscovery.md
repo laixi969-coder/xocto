@@ -20,17 +20,17 @@ url: https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shif
 canonical_url: https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review
 summary: Harvard researchers find AI coding agents shifted the bottleneck to code review
 first_seen: '2026-11-18T03:43:13Z'
-last_seen: '2026-11-18T03:43:13Z'
+last_seen: '2026-11-19T03:28:02Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/
-  seen_at: '2026-11-18T03:43:13Z'
+  seen_at: '2026-11-19T03:28:02Z'
   metrics:
-    points: 81
-    comments: 125
+    points: 320
+    comments: 440
   kind: news
 ---
 

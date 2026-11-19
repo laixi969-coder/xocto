@@ -20,16 +20,16 @@ url: https://github.com/Deiael/dsh-live-vibeCoding
 canonical_url: https://github.com/Deiael/dsh-live-vibeCoding
 summary: ''
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Deiael/dsh-live-vibeCoding
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 77
+    stars: 86
     forks: 0
     open_issues: 0
   kind: product

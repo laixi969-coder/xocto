@@ -20,16 +20,16 @@ url: https://www.dialup.net/farcall/
 canonical_url: https://dialup.net/farcall
 summary: I wrote an x86 (IBM PC) emulator
 first_seen: '2026-11-18T03:43:13Z'
-last_seen: '2026-11-18T03:43:13Z'
+last_seen: '2026-11-19T03:28:02Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.dialup.net/farcall/
-  seen_at: '2026-11-18T03:43:13Z'
+  seen_at: '2026-11-19T03:28:02Z'
   metrics:
-    points: 15
+    points: 22
     comments: 3
   kind: product
 ---

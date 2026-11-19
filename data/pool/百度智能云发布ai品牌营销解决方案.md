@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MTFhHUU5Xd084SFlkTjk1UT
 canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MTFhHUU5Xd084SFlkTjk1UTc0MmFSTk5fT2puZUJJUVNJRnM5dHhmLWlaUTlYWjNMdzQzOGtOcHB2em83ZUxyRkVWS1dSTzUzUENmY3ZCRUR3UThReXBJeXZ3Vml0Zw?oc=5
 summary: 百度智能云发布AI+品牌营销解决方案 东方财富
 first_seen: '2026-11-17T04:29:47Z'
-last_seen: '2026-11-17T04:29:47Z'
+last_seen: '2026-11-19T03:28:45Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MTFhHUU5Xd084SFlkTjk1UTc0MmFSTk5fT2puZUJJUVNJRnM5dHhmLWlaUTlYWjNMdzQzOGtOcHB2em83ZUxyRkVWS1dSTzUzUENmY3ZCRUR3UThReXBJeXZ3Vml0Zw?oc=5
   seen_at: '2026-11-17T04:29:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQMnluVzgyYjgySkpkZzZyT25VS1FZc3haNF9aank4cXVtQTdpbEZ6ek5CSEZ5VE5QX25qTG1JTzloNGNZVkVqOE9kY0NFWEUxTy1uTktSVFZRM3lWM3J6Tg?oc=5
+  seen_at: '2026-11-19T03:28:45Z'
   metrics: {}
   kind: news
 ---

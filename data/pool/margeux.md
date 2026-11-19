@@ -20,7 +20,7 @@ url: https://margeux.com/rb338.html
 canonical_url: https://margeux.com/rb338.html
 summary: ReBirth 338 in Browser
 first_seen: '2026-11-04T02:20:47Z'
-last_seen: '2026-11-04T02:20:47Z'
+last_seen: '2026-11-19T03:28:02Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 24
     comments: 11
+  kind: product
+- source: hackernews
+  url: https://margeux.com/studio.html
+  seen_at: '2026-11-19T03:28:02Z'
+  metrics:
+    points: 7
+    comments: 5
   kind: product
 ---
 

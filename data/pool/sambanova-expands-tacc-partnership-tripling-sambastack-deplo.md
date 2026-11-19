@@ -1,0 +1,42 @@
+---
+slug: sambanova-expands-tacc-partnership-tripling-sambastack-deplo
+name: SambaNova Expands TACC Partnership, Tripling SambaStack Deployment to Accelerate Scientific AI
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOdUR3S2RaeGR1QUktSFVGMC1ESU45Vl82MTBZT3BUZGkxVmREY0c4WjUzTnVIODNkOF9CSEM5QURnMld6RExjSUNxZjd3UVNqLWtBdFRER3BGZzJDakNISFh0U0xOQmw0X1dOOUdKaEdYek4yRmRFUjdqWU1BMGczTFNfLVFpWG9pUDVDdU90NFFLdzlBWjZ4YzZOU2RGNWNnYmlUT09aQzY3Y1gtaWNkb0w3TGdKdWlOS2hjemdyT2VqZ1BSaFBmeXNOWnbSAcwBQVVfeXFMTnVEd0tkWnhkdUFJLUhVRjAtRElOOVZfNjEwWU9wVGRpMVZkRGNHOFo1M051SDgzZDhfQkhDOUFEZzJXekRMY0lDcWY3d1FTai1rQXRUREdwRmcyQ2pDSEhYdFNMTkJsNF9XTjlHSmhHWHpOMkZkRVI3allNQTBnM0xTXy1RaVhvaVA1Q3VPdDRRS3c5QVo2eGM2TlNkRjVjZ2JpVE9PWkM2N2NYLWljZG9MN0xnSnVpTktoY3pnck9lamdQUmhQZnlzTlp2?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOdUR3S2RaeGR1QUktSFVGMC1ESU45Vl82MTBZT3BUZGkxVmREY0c4WjUzTnVIODNkOF9CSEM5QURnMld6RExjSUNxZjd3UVNqLWtBdFRER3BGZzJDakNISFh0U0xOQmw0X1dOOUdKaEdYek4yRmRFUjdqWU1BMGczTFNfLVFpWG9pUDVDdU90NFFLdzlBWjZ4YzZOU2RGNWNnYmlUT09aQzY3Y1gtaWNkb0w3TGdKdWlOS2hjemdyT2VqZ1BSaFBmeXNOWnbSAcwBQVVfeXFMTnVEd0tkWnhkdUFJLUhVRjAtRElOOVZfNjEwWU9wVGRpMVZkRGNHOFo1M051SDgzZDhfQkhDOUFEZzJXekRMY0lDcWY3d1FTai1rQXRUREdwRmcyQ2pDSEhYdFNMTkJsNF9XTjlHSmhHWHpOMkZkRVI3allNQTBnM0xTXy1RaVhvaVA1Q3VPdDRRS3c5QVo2eGM2TlNkRjVjZ2JpVE9PWkM2N2NYLWljZG9MN0xnSnVpTktoY3pnck9lamdQUmhQZnlzTlp2?oc=5
+summary: SambaNova Expands TACC Partnership, Tripling SambaStack Deployment to Accelerate Scientific AI
+  SambaNova
+first_seen: '2026-11-19T03:28:45Z'
+last_seen: '2026-11-19T03:28:45Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizAFBVV95cUxOdUR3S2RaeGR1QUktSFVGMC1ESU45Vl82MTBZT3BUZGkxVmREY0c4WjUzTnVIODNkOF9CSEM5QURnMld6RExjSUNxZjd3UVNqLWtBdFRER3BGZzJDakNISFh0U0xOQmw0X1dOOUdKaEdYek4yRmRFUjdqWU1BMGczTFNfLVFpWG9pUDVDdU90NFFLdzlBWjZ4YzZOU2RGNWNnYmlUT09aQzY3Y1gtaWNkb0w3TGdKdWlOS2hjemdyT2VqZ1BSaFBmeXNOWnbSAcwBQVVfeXFMTnVEd0tkWnhkdUFJLUhVRjAtRElOOVZfNjEwWU9wVGRpMVZkRGNHOFo1M051SDgzZDhfQkhDOUFEZzJXekRMY0lDcWY3d1FTai1rQXRUREdwRmcyQ2pDSEhYdFNMTkJsNF9XTjlHSmhHWHpOMkZkRVI3allNQTBnM0xTXy1RaVhvaVA1Q3VPdDRRS3c5QVo2eGM2TlNkRjVjZ2JpVE9PWkM2N2NYLWljZG9MN0xnSnVpTktoY3pnck9lamdQUmhQZnlzTlp2?oc=5
+  seen_at: '2026-11-19T03:28:45Z'
+  metrics: {}
+  kind: news
+---
+
+# SambaNova Expands TACC Partnership, Tripling SambaStack Deployment to Accelerate Scientific AI
+
+SambaNova Expands TACC Partnership, Tripling SambaStack Deployment to Accelerate Scientific AI SambaNova
+
+## 笔记
+
+

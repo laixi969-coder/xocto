@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-18T03:43:37Z'
+last_seen: '2026-11-19T03:28:45Z'
 status: pending_filter
 sources:
 - producthunt
@@ -553,6 +553,21 @@ sightings:
 - source: officialfeeds
   url: https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/
   seen_at: '2026-11-18T03:43:37Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/
+  seen_at: '2026-11-19T03:28:37Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/
+  seen_at: '2026-11-19T03:28:38Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa0xCYVRiTDY5UnJiTkFKUUJZWXUtT0Q3UHREYm42MjROSjk4MXlhV1c5dk55Y0NkLWpGVmZOZXFWdDNEbWtBX0ZCbUxQeUl0OUlzVXR3TnFZdFFsODhHTjYwakkyV3Q2a0lFRk5jLTlCU0pacWtrbXduZDJtaU4xZzJTZTQ4QmRIalY2b2NrdzZDLUdRZVJmaVo4aTd0WFNLZG83cV90VGt1alBNb3l5NUhNdUJWZ0JReWU4?oc=5
+  seen_at: '2026-11-19T03:28:45Z'
   metrics: {}
   kind: news
 ---

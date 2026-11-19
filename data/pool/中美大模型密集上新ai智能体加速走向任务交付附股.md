@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOR24tYUV0dTJCMHM5U2xJbm
 canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOR24tYUV0dTJCMHM5U2xJbmk3cTBuX0d2bDI4UDViTU15SWt0VDdwbXM3bVk0UTdiYkV1dExJcU5xczNNeDB3UUN2NEExX2c2dGwzTC1NRWUxeVBObTVBODF3cjVBZl8wUHI3SDlyMGtzY0RTM0p5WFNlRjM5TWFZRGtSazNHZUR1Nm9td1FGNA?oc=5
 summary: 中美大模型密集“上新”！AI智能体加速走向任务交付(附股) 21财经
 first_seen: '2026-11-18T03:43:57Z'
-last_seen: '2026-11-18T03:43:57Z'
+last_seen: '2026-11-19T03:28:45Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOR24tYUV0dTJCMHM5U2xJbmk3cTBuX0d2bDI4UDViTU15SWt0VDdwbXM3bVk0UTdiYkV1dExJcU5xczNNeDB3UUN2NEExX2c2dGwzTC1NRWUxeVBObTVBODF3cjVBZl8wUHI3SDlyMGtzY0RTM0p5WFNlRjM5TWFZRGtSazNHZUR1Nm9td1FGNA?oc=5
   seen_at: '2026-11-18T03:43:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IWkltRGhCQ29nVUM0NXV5bkc5ZmZHSG0yaDhvMUx5VTdLdGhSTExLOVJKeWhENE5BSEF5LTJHcUFjbm5VTF9FTjcyc1ZOckREek05aGVwR0Rwa1hEb0hMZHA2S0hUQQ?oc=5
+  seen_at: '2026-11-19T03:28:45Z'
   metrics: {}
   kind: news
 ---

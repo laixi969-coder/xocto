@@ -22,16 +22,16 @@ summary: 'OpenAI / Anthropic compatible API for Google''s official Antigravity C
   AI Studio as an optional second source: multi-account, per-account proxy, tool calling for agents (Codex,
   LangChain, Cline...)'
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/czg86389-hub/ACP-Ant
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 50
+    stars: 51
     forks: 8
     open_issues: 3
   kind: product

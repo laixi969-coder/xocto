@@ -20,7 +20,7 @@ url: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-mode
 canonical_url: https://cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras
 summary: Cerebras Deploys Trillion-Parameter AI Models
 first_seen: '2026-10-26T00:24:18Z'
-last_seen: '2026-10-26T00:24:18Z'
+last_seen: '2026-11-19T03:28:02Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 350
     comments: 127
+  kind: news
+- source: hackernews
+  url: https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference
+  seen_at: '2026-11-19T03:28:02Z'
+  metrics:
+    points: 105
+    comments: 26
   kind: news
 ---
 

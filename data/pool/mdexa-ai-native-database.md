@@ -21,17 +21,17 @@ canonical_url: https://mdexa.com/database
 summary: 'Verified license and provenance records for datasets behind medical AI: information cards, JSON
   Schema, decision rules and evidence index (hashes only). Cards CC BY 4.0, scripts MIT.'
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-17T04:29:18Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://mdexa.com/database/
-  seen_at: '2026-11-17T04:29:18Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 127
-    forks: 0
+    stars: 201
+    forks: 11
     open_issues: 0
   kind: product
 ---

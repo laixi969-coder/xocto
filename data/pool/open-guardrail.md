@@ -21,18 +21,18 @@ canonical_url: https://github.com/alibaba/open-guardrail
 summary: Evidence-based guardrails for AI agents and automated workflows. Versioned policies, structured
   evidence, and auditable allow/deny decisions.
 first_seen: '2026-11-09T09:12:39Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/alibaba/open-guardrail
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 78
+    stars: 79
     forks: 4
-    open_issues: 3
+    open_issues: 2
   kind: product
 ---
 

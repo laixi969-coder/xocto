@@ -22,16 +22,16 @@ summary: '便签墙 (NoteWall) — a sticky-notes wall for DeepSeek Harness: ric
   auto pastel colors, drag-to-reorder, hover preview, per-note alarms, one-click / scheduled delivery
   into any session, zh/en i18n.'
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/liaoangbo-droid/dsh-notewall
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 40
+    stars: 48
     forks: 2
     open_issues: 0
   kind: product

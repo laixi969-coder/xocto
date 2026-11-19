@@ -26,7 +26,7 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: queued
 sources:
 - github
@@ -377,27 +377,27 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/maxagent
-  seen_at: '2026-11-12T02:59:41Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 265
+    stars: 264
     forks: 0
     open_issues: 0
   kind: product
 - source: github
   url: https://www.npmjs.com/package/turbo-browser-mcp
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 130
+    stars: 132
     forks: 6
     open_issues: 0
   kind: product
 - source: github
   url: https://www.npmjs.com/package/rust-anything
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 1583
-    forks: 114
-    open_issues: 2
+    stars: 3525
+    forks: 285
+    open_issues: 9
   kind: product
 ---
 

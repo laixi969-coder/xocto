@@ -1,0 +1,18 @@
+- id: ev-ada31764a182d6a3
+  project_slug: how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-am
+  url: https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/
+  title: How Airbnb uses cost per task to operate coding agents on Amazon Bedrock
+  published_at: '2026-11-18T21:48:19Z'
+  collected_at: '2026-11-19T03:28:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Amazon Bedrock provides access to foundation models from multiple providers through a common API,
+    with AWS managing the model infrastructure. It integrates with AWS access controls and monitoring,
+    and processes prompts, code, and model responses within AWS. As coding agents move into production,
+    changes in models and usage can affect latency, capacity, and cost. Amazon Bedrock runtime metrics
+    in Amazon CloudWatch help teams investigate latency increases, throttling, and changes in token consumption.
+    Evaluations, or evals, complement these operational metrics by assessing the quality of an agent’s
+    work on a fixed set of representative tasks. In this post, we show how Airbnb evaluates models for
+    coding agents and monitors their use on Amazon Bedrock. We explain how cost per task guides model
+    selection and how production data helps us revisit those choices as usage changes. We also describe
+    the runtime signals used to investigate latency, throttling, and spend. At Airbnb, thousands of eng

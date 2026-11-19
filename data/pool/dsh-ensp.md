@@ -21,16 +21,16 @@ canonical_url: https://github.com/lizi600jin/dsh-ensp
 summary: 'Automate Huawei eNSP labs: generate .topo files, start and stop devices, and push configuration
   one command at a time with per-command error reporting.'
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lizi600jin/dsh-ensp
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 126
+    stars: 142
     forks: 0
     open_issues: 0
   kind: product

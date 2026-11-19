@@ -1,0 +1,96 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/cloudbackend-deb6ca17",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "description": "CloudBackend is developing a platform that helps creators turn AI-generated application prototypes into production-ready business solutions without requiring extensive technical expertise.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "DEB6CA17-5FB1-4FFB-8306-C9286D21AA0A",
+    "investors": [
+      "family office of Carl-Henric Svanberg",
+      "M2 Asset Management"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "CloudBackend",
+    "rounds": [
+      {
+        "amountEur": 6600000,
+        "date": "2026-11-18",
+        "id": "1AA7AAD8-13CB-4EAC-BE85-8B2B1798B7B7",
+        "investors": [
+          "family office of Carl-Henric Svanberg",
+          "M2 Asset Management"
+        ],
+        "rawRoundType": "funding round",
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/1AA7AAD8-13CB-4EAC-BE85-8B2B1798B7B7"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 53,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 6600000,
+    "url": "https://funding.tech.eu/companies/DEB6CA17-5FB1-4FFB-8306-C9286D21AA0A",
+    "website": "https://cloudbackend.com/"
+  },
+  "round": {
+    "amountEur": 6600000,
+    "amountEurStored": null,
+    "amountNative": 6600000,
+    "company": {
+      "city": "Stockholm",
+      "country": "Sweden",
+      "founded": null,
+      "id": "DEB6CA17-5FB1-4FFB-8306-C9286D21AA0A",
+      "name": "CloudBackend",
+      "pageUrl": "https://funding.tech.eu/companies/cloudbackend-deb6ca17",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-11-18",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "1AA7AAD8-13CB-4EAC-BE85-8B2B1798B7B7",
+    "investors": [
+      "M2 Asset Management",
+      "family office of Carl-Henric Svanberg"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/1AA7AAD8-13CB-4EAC-BE85-8B2B1798B7B7",
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Other",
+    "url": "/deals/1AA7AAD8-13CB-4EAC-BE85-8B2B1798B7B7"
+  }
+}

@@ -22,16 +22,16 @@ summary: 'One app for every document. Built for AI agents. An open-source deskto
   in Rust: documents, spreadsheets, slides, PDF, Markdown, code and rich text, opened, edited and saved
   in one row of file tabs. The same binary is a command line that AI agents call directly.'
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Jamailar/Weave-Office
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 186
+    stars: 187
     forks: 29
     open_issues: 2
   kind: product

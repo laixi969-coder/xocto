@@ -21,16 +21,16 @@ canonical_url: https://github.com/tonyzdev/dsh-session-messaging
 summary: 'DeepSeek Harness plugin: let top-level sessions find, message, and spawn each other (session_list
   / session_send_message / session_create) · 支持一句话让 DSH 自动安装'
 first_seen: '2026-11-09T09:12:39Z'
-last_seen: '2026-11-15T01:56:04Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tonyzdev/dsh-session-messaging
-  seen_at: '2026-11-15T01:56:04Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 102
+    stars: 103
     forks: 12
     open_issues: 0
   kind: product

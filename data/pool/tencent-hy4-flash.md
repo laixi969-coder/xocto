@@ -20,17 +20,17 @@ url: https://hy.tencent.ai/research/hy4-flash
 canonical_url: https://hy.tencent.ai/research/hy4-flash
 summary: ''
 first_seen: '2026-11-18T03:43:13Z'
-last_seen: '2026-11-18T03:43:13Z'
+last_seen: '2026-11-19T03:28:02Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hy.tencent.ai/research/hy4-flash
-  seen_at: '2026-11-18T03:43:13Z'
+  seen_at: '2026-11-19T03:28:02Z'
   metrics:
-    points: 72
-    comments: 11
+    points: 167
+    comments: 26
   kind: news
 ---
 

@@ -21,16 +21,16 @@ canonical_url: https://cracked-skills.vercel.app
 summary: Skills for getting hired. Company-wise mock interviews, OAs with hidden tests and brutal resume
   roasts for 470+ companies, straight from your terminal.
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://cracked-skills.vercel.app
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 334
+    stars: 338
     forks: 51
     open_issues: 0
   kind: product

@@ -1,0 +1,41 @@
+---
+slug: bengaluru-emerges-as-second-largest-ai-startup-cluster-in-as
+name: Bengaluru emerges as second largest AI startup cluster in Asia
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQam1WQTNRU2hidFF2eWNkX2Y4OEpLU0NWZFluZUo4enZoOGtudGh4ZmJ1SEdZdmhOdkUxWkxsLU9mbHJKcEhlRF9WYW9hbFhOZE56NWZKejFQQTFHSnl2LVNublVYMmVMa2NLYV9Rb3VOd1kyNnpTUkF5UTR3anVldWVtdFZtVW5qZ0RXWHJEeEN5WDhLU0lmQjVRbEFEekg3SDlTM2YwVnBwdWVyVVkxRHEyLXRFWXBFdEwxTkNza1VUZDjSAdABQVVfeXFMTnRCWHJZZDVxdnpzMTFLX216dk9oeE9Cem9ldWhVTlJUYzgtR1JUQnNTOFJDenpJTWVTRUNoX3ZPX3JZOFpXUVdIenJoUXQweGI0Rm4wWl96anR0cnhUZDNHSkh2Ni1jM3hWRzdTbFQyUWFXaEp5ODl1WlNWRVNjVURrWlYxd1duNmMyN0UzQVh5djBHdWNCWmc5OFJ1OUQ3ZU1GYWgzb3pyN3pTQnBoZFpQMnlRVEo5T0R0ejBOVmFZNjRreVBVaG9Fay1xbnZUUA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQam1WQTNRU2hidFF2eWNkX2Y4OEpLU0NWZFluZUo4enZoOGtudGh4ZmJ1SEdZdmhOdkUxWkxsLU9mbHJKcEhlRF9WYW9hbFhOZE56NWZKejFQQTFHSnl2LVNublVYMmVMa2NLYV9Rb3VOd1kyNnpTUkF5UTR3anVldWVtdFZtVW5qZ0RXWHJEeEN5WDhLU0lmQjVRbEFEekg3SDlTM2YwVnBwdWVyVVkxRHEyLXRFWXBFdEwxTkNza1VUZDjSAdABQVVfeXFMTnRCWHJZZDVxdnpzMTFLX216dk9oeE9Cem9ldWhVTlJUYzgtR1JUQnNTOFJDenpJTWVTRUNoX3ZPX3JZOFpXUVdIenJoUXQweGI0Rm4wWl96anR0cnhUZDNHSkh2Ni1jM3hWRzdTbFQyUWFXaEp5ODl1WlNWRVNjVURrWlYxd1duNmMyN0UzQVh5djBHdWNCWmc5OFJ1OUQ3ZU1GYWgzb3pyN3pTQnBoZFpQMnlRVEo5T0R0ejBOVmFZNjRreVBVaG9Fay1xbnZUUA?oc=5
+summary: Bengaluru emerges as second largest AI startup cluster in Asia Deccan Herald
+first_seen: '2026-11-19T03:28:45Z'
+last_seen: '2026-11-19T03:28:45Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQam1WQTNRU2hidFF2eWNkX2Y4OEpLU0NWZFluZUo4enZoOGtudGh4ZmJ1SEdZdmhOdkUxWkxsLU9mbHJKcEhlRF9WYW9hbFhOZE56NWZKejFQQTFHSnl2LVNublVYMmVMa2NLYV9Rb3VOd1kyNnpTUkF5UTR3anVldWVtdFZtVW5qZ0RXWHJEeEN5WDhLU0lmQjVRbEFEekg3SDlTM2YwVnBwdWVyVVkxRHEyLXRFWXBFdEwxTkNza1VUZDjSAdABQVVfeXFMTnRCWHJZZDVxdnpzMTFLX216dk9oeE9Cem9ldWhVTlJUYzgtR1JUQnNTOFJDenpJTWVTRUNoX3ZPX3JZOFpXUVdIenJoUXQweGI0Rm4wWl96anR0cnhUZDNHSkh2Ni1jM3hWRzdTbFQyUWFXaEp5ODl1WlNWRVNjVURrWlYxd1duNmMyN0UzQVh5djBHdWNCWmc5OFJ1OUQ3ZU1GYWgzb3pyN3pTQnBoZFpQMnlRVEo5T0R0ejBOVmFZNjRreVBVaG9Fay1xbnZUUA?oc=5
+  seen_at: '2026-11-19T03:28:45Z'
+  metrics: {}
+  kind: news
+---
+
+# Bengaluru emerges as second largest AI startup cluster in Asia
+
+Bengaluru emerges as second largest AI startup cluster in Asia Deccan Herald
+
+## 笔记
+
+

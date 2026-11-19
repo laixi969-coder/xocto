@@ -20,17 +20,17 @@ url: https://revscope.co/blog/search-seo-geo-2026/
 canonical_url: https://revscope.co/blog/search-seo-geo-2026
 summary: Google's AI answers reducing search traffic by 40%
 first_seen: '2026-11-18T03:43:13Z'
-last_seen: '2026-11-18T03:43:13Z'
+last_seen: '2026-11-19T03:28:02Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://revscope.co/blog/search-seo-geo-2026/
-  seen_at: '2026-11-18T03:43:13Z'
+  seen_at: '2026-11-19T03:28:02Z'
   metrics:
-    points: 153
-    comments: 105
+    points: 691
+    comments: 540
   kind: news
 ---
 

@@ -21,18 +21,18 @@ canonical_url: https://zigzag.diy
 summary: Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery,
   edit stitches visually, and create designs with AI agents via MCP.
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://zigzag.diy/
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 907
-    forks: 54
-    open_issues: 5
+    stars: 940
+    forks: 59
+    open_issues: 6
   kind: product
 ---
 

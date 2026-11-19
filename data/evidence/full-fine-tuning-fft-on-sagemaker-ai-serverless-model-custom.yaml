@@ -1,0 +1,18 @@
+- id: ev-644d828b6789e5e2
+  project_slug: full-fine-tuning-fft-on-sagemaker-ai-serverless-model-custom
+  url: https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/
+  title: Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization
+  published_at: '2026-11-19T00:15:58Z'
+  collected_at: '2026-11-19T03:28:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Fine-tuning is the process of continuing to train a pretrained large language model (LLM) on
+    a company’s own data so it adapts to a specific domain, task, or style rather than relying on general-purpose
+    knowledge alone. For businesses, the value is twofold. A fine-tuned model delivers measurably better
+    accuracy on domain-specific work while reducing costs: a smaller specialized model can match or exceed
+    a frontier model on your task at a fraction of the per-token inference price. Those savings compound
+    across millions of requests. Fine-tuning has therefore become an essential process for businesses
+    looking to get more value from LLMs at lower costs. Parameter-efficient fine-tuning (PEFT) methods
+    like Low-Rank Adaptation (LoRA) have emerged as a practical solution for fine-tuning LLMs to downstream
+    tasks, reducing GPU capacity requirements by updating only a small subset of LLM parameters. LoRA
+    aims to strike a balance between efficiency and expressiveness, however, the low-rank nature'

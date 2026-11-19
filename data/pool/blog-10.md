@@ -20,7 +20,7 @@ url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 canonical_url: https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html
 summary: One Month Without AI
 first_seen: '2026-09-26T10:08:21Z'
-last_seen: '2026-11-18T03:43:13Z'
+last_seen: '2026-11-19T03:28:02Z'
 status: pending_filter
 sources:
 - hackernews
@@ -162,6 +162,13 @@ sightings:
   metrics:
     points: 130
     comments: 112
+  kind: news
+- source: hackernews
+  url: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/
+  seen_at: '2026-11-19T03:28:02Z'
+  metrics:
+    points: 203
+    comments: 143
   kind: news
 ---
 

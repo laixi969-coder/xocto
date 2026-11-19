@@ -3742,3 +3742,34 @@
   source_kind: open_source
   tier: behavioural
   fact: 'DeepSeek Harness 自媒体工作台插件：一句话记灵感，一键生成脚本、封面、配图和分镜 | repository stars: 1,481'
+- id: ev-e420e35fed7c6f34
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/rust-anything
+  title: rust-anything
+  published_at: '2026-11-16T12:10:36Z'
+  collected_at: '2026-11-19T03:28:05Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Rewrite your whole app in Rust, one piece at a time, checked against the original''s recorded
+    behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.
+    | repository stars: 3,525'
+- id: ev-842f8dc6ad3aca9e
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/turbo-browser-mcp
+  title: turbo-browser-mcp
+  published_at: '2026-11-14T12:11:07Z'
+  collected_at: '2026-11-19T03:28:05Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots,
+    batched steps, and a submit guard on by default | repository stars: 132'
+- id: ev-8d09c596904ca718
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/maxagent
+  title: maxagent
+  published_at: '2026-11-08T10:53:47Z'
+  collected_at: '2026-11-19T03:28:05Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Experience for AI agents: hooks that make Claude Code, Codex, Antigravity and OpenClaw recall
+    and record what worked, plus maxagent-bridge for your own Chrome. | repository stars: 264'

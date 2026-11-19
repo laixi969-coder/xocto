@@ -20,18 +20,18 @@ url: https://github.com/zhuchongba-01/dsh-breach
 canonical_url: https://github.com/zhuchongba-01/dsh-breach
 summary: DSH 插件：由 dsh-purge 剥离出的破甲单件 —— 提示词注入 + 可回滚宿主补丁引擎（本机结算 72 项）
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zhuchongba-01/dsh-breach
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 85
+    stars: 87
     forks: 28
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

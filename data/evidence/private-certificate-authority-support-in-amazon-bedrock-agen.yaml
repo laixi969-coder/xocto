@@ -1,0 +1,18 @@
+- id: ev-78de413ff8c1e4a3
+  project_slug: private-certificate-authority-support-in-amazon-bedrock-agen
+  url: https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity/
+  title: Private certificate authority support in Amazon Bedrock AgentCore Identity
+  published_at: '2026-11-18T20:53:41Z'
+  collected_at: '2026-11-19T03:28:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Many teams that build applications self-host their identity provider (IdP), such as Keycloak or
+    PingFederate, inside a private network. These IdPs usually present a TLS server certificate from a
+    private certificate authority (CA). With private CA support in AgentCore Identity , a capability of
+    Amazon Bedrock AgentCore, your agents can now connect to these IdPs while trusting the private CA
+    that your organization already uses. AgentCore Identity now supports private CA certificates for private
+    identity providers. You store the PEM-encoded CA certificate in AWS Secrets Manager or Amazon Simple
+    Storage Service (Amazon S3) and reference it from your credential provider . The CA certificate contains
+    only the public certificate, not its private key. AgentCore Identity uses it to validate the server
+    certificate presented by your IdP’s discovery, JSON Web Key Set (JWKS), and token endpoints. The CA
+    certificate must be a root or intermediate CA certificate. In this post, we show you how to issu

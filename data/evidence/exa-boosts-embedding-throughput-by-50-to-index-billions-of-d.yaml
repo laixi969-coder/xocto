@@ -1,0 +1,18 @@
+- id: ev-622cbc70575709cc
+  project_slug: exa-boosts-embedding-throughput-by-50-to-index-billions-of-d
+  url: https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/
+  title: Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips
+  published_at: '2026-11-18T23:58:22Z'
+  collected_at: '2026-11-19T03:28:37Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: At Exa , we are building one of the few true web indexes by aggregating and serving knowledge
+    from across the web, along with private and synthetic sources. We optimize the index for semantic
+    search, grounding agents and humans in true, high-quality data. We use multi-tower semantic machine
+    learning (ML) models to embed web data and query data into the same vector space, so users can express
+    complex queries in natural language alongside traditional keyword search. The keystone technology
+    behind this is an in-house vector database. It must ingest as much high-quality web data as possible
+    and embed all of it. The unit economics of embedding therefore underlie everything we do. At the scale
+    of tens or hundreds of billions of documents, finding the hardware that delivers the best performance
+    per dollar isn’t a tuning detail. Any per-document cost improvement compounds into a significant number.
+    This post details how we optimized our embedding infrastructure for cheaper, more flexible infer

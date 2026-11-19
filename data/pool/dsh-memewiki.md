@@ -20,18 +20,18 @@ url: https://github.com/thawline/dsh-memewiki
 canonical_url: https://github.com/thawline/dsh-memewiki
 summary: 梗百科：6792 条梗/黑话词库，自动查梗并注入上下文，不让模型硬猜。支持一键下载社区最新词库、提交新梗，与社区共创。
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-19T03:28:05Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/thawline/dsh-memewiki
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-19T03:28:05Z'
   metrics:
-    stars: 90
-    forks: 6
-    open_issues: 3
+    stars: 94
+    forks: 8
+    open_issues: 4
   kind: product
 ---
 
