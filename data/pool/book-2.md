@@ -20,7 +20,7 @@ url: https://book.humanexperiences.io/
 canonical_url: https://book.humanexperiences.io
 summary: Building an LLM from Scratch in TypeScript
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-11-12T03:00:03Z'
+last_seen: '2026-11-20T03:16:32Z'
 status: pending_filter
 sources:
 - hackernews
@@ -52,6 +52,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents
   seen_at: '2026-11-12T03:00:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXYtNUxPc2p6ZVhCY3Myc0ltVjU2a2xjVTZfM25EYkIzNGJtcmdvZ2hlUzJkYWp5T25NOXpwX0EtWEdkLXRxTUdDUnNJd1pQNTFMVUgwbUxqaWV6UlRaSV8tUl83YjJHYmNLUjk3VlYzTUpUT3l0VFlQMDFaaXM3ZkZmMTlQTVlEUnoxcThJM0EtWEhycm9CamtLdXg1ZndlUXVmQkVjNTZoaVBwRFE?oc=5
+  seen_at: '2026-11-20T03:16:32Z'
   metrics: {}
   kind: news
 ---

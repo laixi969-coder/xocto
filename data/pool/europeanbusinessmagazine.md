@@ -20,17 +20,17 @@ url: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/
 canonical_url: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg
 summary: AI agents ask better questions than KPMG accountants in audit trial
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 384
-    comments: 169
+    points: 484
+    comments: 251
   kind: news
 ---
 

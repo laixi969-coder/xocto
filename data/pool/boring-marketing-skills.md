@@ -21,17 +21,17 @@ canonical_url: https://boringmarketing.com
 summary: '31 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search,
   ads, email and content, plus a deep local-business pack. MIT.'
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://boringmarketing.com
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 671
-    forks: 250
+    stars: 720
+    forks: 262
     open_issues: 1
   kind: product
 ---

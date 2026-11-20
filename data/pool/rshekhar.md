@@ -20,17 +20,17 @@ url: https://rshekhar.com/voyager/
 canonical_url: https://rshekhar.com/voyager
 summary: Take Voyager 1 apart, down to a single memory chip
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://rshekhar.com/voyager/
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 163
-    comments: 34
+    points: 234
+    comments: 57
   kind: product
 ---
 

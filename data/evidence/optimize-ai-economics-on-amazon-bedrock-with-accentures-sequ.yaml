@@ -1,0 +1,18 @@
+- id: ev-235ec848086901e6
+  project_slug: optimize-ai-economics-on-amazon-bedrock-with-accentures-sequ
+  url: https://aws.amazon.com/blogs/machine-learning/optimize-ai-economics-on-amazon-bedrock-with-accentures-sequenced-approach/
+  title: Optimize AI economics on Amazon Bedrock with Accenture’s sequenced approach
+  published_at: '2026-11-19T18:48:55Z'
+  collected_at: '2026-11-20T03:16:25Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: As enterprises scale AI on Amazon Bedrock , token spend often grows even as per-token prices fall.
+    Without cost allocation tags in place, your cloud invoice shows AI spend as a single line item rather
+    than by team, workload, agent, or model. Cheaper tokens expand adoption, and agentic workloads multiply
+    invocations. As successful AI use cases scale, consumption can rise faster than unit prices drop.
+    The economic question is whether the business value generated grows faster than the cost of the intelligence
+    required to produce it. The Linux Foundation has launched the Tokenomics Foundation to develop open
+    standards for AI cost economics, a sign that managing the economics of AI is now an industry discipline.
+    In this post, you will learn about six levers for optimizing token spend, how Accenture applied them
+    in production, and how to apply them using Amazon Bedrock. Accenture applied these levers in four
+    client engagements across telecom, insurance, mining, and a large enterprise deploym

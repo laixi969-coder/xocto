@@ -20,16 +20,16 @@ url: https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats
 canonical_url: https://onehouse.ai/blog/lakegres-vector-search-on-open-table-formats
 summary: Vector search on existing Open/Hudi/Iceberg tables
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 40
+    points: 41
     comments: 8
   kind: news
 ---

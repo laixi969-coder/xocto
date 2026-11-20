@@ -21,17 +21,17 @@ canonical_url: https://github.com/drost-ai/tinker-ai-skill
 summary: Agent Skill for fine-tuning an agentic model on your own Claude Code sessions with Tinker. Works
   in Claude Code, Codex and OpenCode.
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/drost-ai/tinker-ai-skill
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 326
-    forks: 39
+    stars: 327
+    forks: 38
     open_issues: 0
   kind: product
 ---

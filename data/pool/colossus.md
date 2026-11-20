@@ -20,17 +20,17 @@ url: https://colossus.com/article/ai-will-not-make-you-rich/
 canonical_url: https://colossus.com/article/ai-will-not-make-you-rich
 summary: AI will not make you rich (2025)
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://colossus.com/article/ai-will-not-make-you-rich/
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 63
-    comments: 36
+    points: 105
+    comments: 68
   kind: news
 ---
 

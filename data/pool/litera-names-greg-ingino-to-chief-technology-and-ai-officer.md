@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQRlh5MnRmSEdsOHFvSHBZdU
 canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQRlh5MnRmSEdsOHFvSHBZdUh2TUtqYUVveXNxUm9BeGtOMFR3bm1vOVhoc2J4WUJYeGxIdGVXbUlGX0JJdnBkdkZFdnFvc0w1ZFZYTkItbDRQNUtlT3JnT1hyc21pOHdEX3c2ZU1oUHdvVWtLR21uOVBQcE9uWExPQklycFM2cHRpV1ZRdjNlWW5Xbm1wMmRFLVZxcXd5YUtYVk85Nk1ybkxvMWtTemVsNEgtSXBSWTA?oc=5
 summary: Litera Names Greg Ingino to Chief Technology and AI Officer Business Wire
 first_seen: '2026-11-19T03:28:45Z'
-last_seen: '2026-11-19T03:28:45Z'
+last_seen: '2026-11-20T03:16:32Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQRlh5MnRmSEdsOHFvSHBZdUh2TUtqYUVveXNxUm9BeGtOMFR3bm1vOVhoc2J4WUJYeGxIdGVXbUlGX0JJdnBkdkZFdnFvc0w1ZFZYTkItbDRQNUtlT3JnT1hyc21pOHdEX3c2ZU1oUHdvVWtLR21uOVBQcE9uWExPQklycFM2cHRpV1ZRdjNlWW5Xbm1wMmRFLVZxcXd5YUtYVk85Nk1ybkxvMWtTemVsNEgtSXBSWTA?oc=5
   seen_at: '2026-11-19T03:28:45Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinAFBVV95cUxNaDBRLXhMeTBhUFdjNnR5bHZ2VTlobHl6NkVhalVHVHJkUk1ENTJkZnBBdEJoZ2lrTlRnVTZINmJpVWQxbWRmdUUzcW1abHZrWU5xWFBNbjBFM080N0hNMkU3VU5tV1JhUk9EWXpLWVRyR1lsaGREeDRNR1ZxOHJXbVl1NUk1Ym1ObldmbFRBQWhQU0wwT3FCLXlZdlE?oc=5
+  seen_at: '2026-11-20T03:16:32Z'
   metrics: {}
   kind: news
 ---

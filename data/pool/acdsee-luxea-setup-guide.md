@@ -21,16 +21,16 @@ canonical_url: https://github.com/schulz577878/acdsee-luxea-setup-guide
 summary: ACDSee Luxea is a Windows video editor for multi-track cuts, screen recording, and polished exports.
   It combines timeline editing, visual effects, and AI upscaling in one desktop studio.
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/schulz577878/acdsee-luxea-setup-guide
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 55
+    stars: 79
     forks: 113
     open_issues: 0
   kind: product

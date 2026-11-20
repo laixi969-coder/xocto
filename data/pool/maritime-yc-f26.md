@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50549188
 canonical_url: https://news.ycombinator.com/item?id=50549188
 summary: A managed cloud for production AI agents
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50549188
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 45
-    comments: 40
+    points: 58
+    comments: 57
   kind: product
 ---
 

@@ -1,0 +1,19 @@
+- id: ev-dd17dd9001aa679e
+  project_slug: postgresql-19-released
+  url: https://simonwillison.net/2026/Nov/19/postgresql-19/
+  title: PostgreSQL 19 Released
+  published_at: '2026-11-19T20:43:57Z'
+  collected_at: '2026-11-20T03:16:26Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year''s
+    release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed
+    to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely
+    worth the wait. My favorite new feature is this one: For applications that send reads to standbys,
+    PostgreSQL 19 adds "read-your-writes" consistency with the new WAIT FOR LSN command. A session on
+    a standby can use WAIT FOR LSN to wait until the standby has replayed the write-ahead log (WAL) up
+    to a specific log sequence number (LSN) before running a query, so the application can read data it
+    just wrote on the primary. In practice, that looks like this: UPDATE movie SET genre = ''Dramatic''
+    WHERE genre = ''Drama''; SELECT pg_current_wal_insert_lsn(); That returns a value like 0/0306EE20
+    . Store that somewhere (a signed cookie would work) such that on a subsequent request your application
+    can do: WAIT'

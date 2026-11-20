@@ -219,16 +219,16 @@ summary: "**Dify 1.20.0 keeps your traces flowing and your knowledge bases safer
   \ locked dependencies if deploying it separately. Preserve existing worker subscriptions and add the\
   \ two HITL queues where needed.\r\n\r\n**Full Changelog:** [1.19.0 → 1.20.0](https://github.com/langgenius/dify/compare/1.19.0...1.20.0)"
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/langgenius/dify/releases/tag/1.20.0
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    reactions: 1
+    reactions: 2
   kind: news
 ---
 

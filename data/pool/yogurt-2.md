@@ -20,18 +20,18 @@ url: https://yogurt.so
 canonical_url: https://yogurt.so
 summary: Private AI meeting notes. Free and open source.
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://yogurt.so
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 2427
-    forks: 168
-    open_issues: 51
+    stars: 2631
+    forks: 199
+    open_issues: 62
   kind: product
 ---
 

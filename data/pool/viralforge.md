@@ -21,17 +21,17 @@ canonical_url: https://github.com/fendouai/ViralForge
 summary: 'Agent-native viral video studio: one-click replicate viral short videos, deconstruct video hooks
   and scripts into a Viral DNA report, and ship 10 costed variants. Skill + MCP + CLI. Apache-2.0.'
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/fendouai/ViralForge
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 334
-    forks: 10
+    stars: 387
+    forks: 13
     open_issues: 2
   kind: product
 ---

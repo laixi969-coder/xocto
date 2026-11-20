@@ -23,18 +23,18 @@ summary: Codex, Claude Code, DeepSeek and other agent CLIs on your computer, tog
   phone. 12 chats side by side. Multi-Bot groups and workflows. Goals split into tasks. Bots message each
   other. Computers join one private network.
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cloveric/tarobird
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 42
-    forks: 9
-    open_issues: 2
+    stars: 99
+    forks: 16
+    open_issues: 8
   kind: product
 ---
 

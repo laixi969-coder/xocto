@@ -779,3 +779,32 @@
   source_kind: pain
   tier: independent
   fact: 'Social Content Is Now a Discovery Asset: Ad Platforms and AI Tools Surface Brands From It ClickZ'
+- id: ev-19df7c25399ea138
+  project_slug: tools
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/
+  title: Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle
+    hooks
+  published_at: '2026-11-19T20:01:06Z'
+  collected_at: '2026-11-20T03:16:25Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: When building an AI agent, selecting a model is only the first step. The agent still needs tools,
+    instructions for finishing the job, a way to manage context growth in long sessions, and guardrails
+    before it executes any consequential actions, like issuing a refund. We are upgrading Amazon Bedrock
+    AgentCore harness to use Strands harness, our open-source agent harness, released earlier this year,
+    available under an Apache 2.0 license. AgentCore harness also introduces lifecycle hooks, so you can
+    apply your own deterministic checks and notifications at defined points in the agent loop. With this
+    upgrade, agents that rely on the managed defaults get a recommended model, a task-oriented system
+    prompt, automatic prompt caching (initially for Anthropic models on Amazon Bedrock), and proactive
+    context management. They also get additional built-in tools for planning, web retrieval, filesystem
+    access, context offloading, and task delegation. This gives agents greater capabilities during long
+    t
+- id: ev-ec6c2424f38d9a0b
+  project_slug: tools
+  url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQMlhjNkd0S085cmkzWVdUcTJwTDlDcWE1VE4td2FkamFVc0NDLTNubjVIdVZPeXVEdFlqeHRkYzZ6R1lmOFdiV1VTR1Ntek1JZUFILTduLU5XU2Fkenl4VzZhSEc4SlJueVNuLTJLTVg4SzJfa2xkQ2FJRkF6MGNFTU5ieG55ZW5weFpONWtJUlF5UQ?oc=5
+  title: K4Connect Raises $8M Funding Round to Expand Senior Living AI Tools
+  published_at: '2026-11-19T15:10:02Z'
+  collected_at: '2026-11-20T03:16:32Z'
+  source_kind: market_signal
+  tier: independent
+  fact: K4Connect Raises $8M Funding Round to Expand Senior Living AI Tools Unite.AI

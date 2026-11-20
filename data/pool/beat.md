@@ -20,17 +20,17 @@ url: https://gobeat.ai/auth/login
 canonical_url: https://gobeat.ai/auth/login
 summary: a to-do list that completes its own tasks
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://gobeat.ai/auth/login
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 12
-    comments: 5
+    points: 15
+    comments: 9
   kind: product
 ---
 

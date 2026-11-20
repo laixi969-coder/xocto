@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-19T03:28:45Z'
+last_seen: '2026-11-20T03:16:26Z'
 status: pending_filter
 sources:
 - producthunt
@@ -568,6 +568,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa0xCYVRiTDY5UnJiTkFKUUJZWXUtT0Q3UHREYm42MjROSjk4MXlhV1c5dk55Y0NkLWpGVmZOZXFWdDNEbWtBX0ZCbUxQeUl0OUlzVXR3TnFZdFFsODhHTjYwakkyV3Q2a0lFRk5jLTlCU0pacWtrbXduZDJtaU4xZzJTZTQ4QmRIalY2b2NrdzZDLUdRZVJmaVo4aTd0WFNLZG83cV90VGt1alBNb3l5NUhNdUJWZ0JReWU4?oc=5
   seen_at: '2026-11-19T03:28:45Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/
+  seen_at: '2026-11-20T03:16:26Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/
+  seen_at: '2026-11-20T03:16:26Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price
+  seen_at: '2026-11-20T03:16:26Z'
   metrics: {}
   kind: news
 ---

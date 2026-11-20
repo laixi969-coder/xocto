@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-19T03:28:45Z'
+last_seen: '2026-11-20T03:16:32Z'
 status: pending_filter
 sources:
 - hackernews
@@ -390,6 +390,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiigFBVV95cUxORVpJbEtxdUR4NzJSS1VzaC1mekVJVXMtWGpWc3k4Rk9FOTZvTHJVa25KdjBFdExkMXhta1BoRGN0SWpSclY3SEZJNldQZW9yRnpuZ1p6alVpMWZrUzZHTEpfMEd0dmpjdXNVNllET3A0V3FiX1BVR1dwOHVOWTVzQUlfX1RORmdET2c?oc=5
   seen_at: '2026-11-19T03:28:45Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/
+  seen_at: '2026-11-20T03:16:25Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQMlhjNkd0S085cmkzWVdUcTJwTDlDcWE1VE4td2FkamFVc0NDLTNubjVIdVZPeXVEdFlqeHRkYzZ6R1lmOFdiV1VTR1Ntek1JZUFILTduLU5XU2Fkenl4VzZhSEc4SlJueVNuLTJLTVg4SzJfa2xkQ2FJRkF6MGNFTU5ieG55ZW5weFpONWtJUlF5UQ?oc=5
+  seen_at: '2026-11-20T03:16:32Z'
   metrics: {}
   kind: news
 ---

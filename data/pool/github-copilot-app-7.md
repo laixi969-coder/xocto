@@ -21,17 +21,17 @@ canonical_url: https://github.com/TurquoiseConsultant/GitHub-Copilot-app
 summary: The GitHub Copilot app is an agent-native desktop experience for finding, running, steering,
   and landing software work across your GitHub repositories.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/TurquoiseConsultant/GitHub-Copilot-app
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 377
-    forks: 156
+    stars: 376
+    forks: 154
     open_issues: 0
   kind: product
 ---

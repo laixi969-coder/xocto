@@ -20,17 +20,17 @@ url: https://microsoft.ai/news/microsoft-ignite-2026/
 canonical_url: https://microsoft.ai/news/microsoft-ignite-2026
 summary: Seven new models at scalable price-performance
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://microsoft.ai/news/microsoft-ignite-2026/
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 469
-    comments: 325
+    points: 593
+    comments: 376
   kind: news
 ---
 

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxObVlqUUEyWWVIMzJwcXVPWV
 canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxObVlqUUEyWWVIMzJwcXVPWVFvMVZKNWprdG83cmdjbERQS1FENS1TT1RGNGp1ZjZmaHp4SVVZaEFuQ0RvYlZjQWltNGNwcXBqMV9MaTZMYU9GWjlGTXB5UFFvakpGSTIyT0hwdEVmSjFpTjgzWjc0VFIzWU1rUWZoUUhVR0JENXhFbG9z?oc=5
 summary: Banks prepare for AI agents to take over the customer front end Insurance Asia
 first_seen: '2026-11-19T03:28:45Z'
-last_seen: '2026-11-19T03:28:45Z'
+last_seen: '2026-11-20T03:16:32Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxObVlqUUEyWWVIMzJwcXVPWVFvMVZKNWprdG83cmdjbERQS1FENS1TT1RGNGp1ZjZmaHp4SVVZaEFuQ0RvYlZjQWltNGNwcXBqMV9MaTZMYU9GWjlGTXB5UFFvakpGSTIyT0hwdEVmSjFpTjgzWjc0VFIzWU1rUWZoUUhVR0JENXhFbG9z?oc=5
   seen_at: '2026-11-19T03:28:45Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilwFBVV95cUxQT1BlWWl5Zk9HN0l1RWFLY1pvX05PVEpzY2djYThZUWJNQWFPSUlFdTNUTFRkcFZycWRFS1pMQkNMSnhOSmNBSUJ6UzY4MWVWU3h0SV9jSy1YX0VXa0xhR1NQd0FMWXhtLVJxX1ctUEZ6RXhIM0otSGtuSUxGbzZid0NCLWlNRDV4TncxS0NtYUdrYjVJZktF?oc=5
+  seen_at: '2026-11-20T03:16:32Z'
   metrics: {}
   kind: news
 ---

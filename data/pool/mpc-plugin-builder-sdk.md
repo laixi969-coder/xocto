@@ -21,17 +21,17 @@ canonical_url: https://akaipro.com
 summary: Build instrument and effect plugins for Akai MPC standalone hardware from a plain-language description,
   with an AI coding agent. You never have to read C++ if you do not want to.
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.akaipro.com
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 191
-    forks: 43
+    stars: 193
+    forks: 45
     open_issues: 19
   kind: product
 ---

@@ -1,0 +1,19 @@
+- id: ev-172d16ce05375b85
+  project_slug: amazon-sagemaker-inference-2026-launches-in-review-part-2
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/
+  title: 'Amazon SageMaker Inference: 2026 launches in review, part 2'
+  published_at: '2026-11-20T00:34:07Z'
+  collected_at: '2026-11-20T03:16:25Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Once a model is in production, the questions change. Teams want to know which configuration the
+    model should run on now that traffic is real, how to fit more models onto GPUs they already pay for,
+    what to do when the next model is too large for one machine, why requests wait in one Region while
+    GPUs sit idle in another, and why latency rose when nobody changed anything. This post takes those
+    questions in the order teams usually meet them. For HyperPod Inference, it listed additional routing
+    strategies, broader support for model serving frameworks, and expanded multi-Region networking. The
+    Inference Gateway delivers the routing, and managed NVIDIA Dynamo is a new serving framework. For
+    managed endpoints, the roadmap pointed to deeper integration with the rest of the AWS AI landscape.
+    Inference recommendations now run from Amazon SageMaker AI Studio, the SageMaker Python SDK, and the
+    coding agents engineers already use, and endpoints can now route requests across Regions and accounts.
+    To

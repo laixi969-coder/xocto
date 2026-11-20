@@ -1,0 +1,16 @@
+- id: ev-210aa281b31548fc
+  project_slug: langchain-ai-langchain-langchain-core184
+  url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.4
+  title: 'langchain-ai/langchain: langchain-core==1.8.4'
+  published_at: '2026-11-19T22:35:57Z'
+  collected_at: '2026-11-20T03:15:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Changes since langchain-core==1.8.3
+
+
+    release(core): 1.8.4 (#41964)
+
+    feat(core): standardize finish reason on message-finish events (#41926)
+
+    feat(langchain): tag synthetic HITL tool messages with source metadata (#41928)'

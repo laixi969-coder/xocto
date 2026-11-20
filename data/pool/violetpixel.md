@@ -1,0 +1,60 @@
+---
+slug: violetpixel
+name: Violetpixel
+builder: jingcoco
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/
+canonical_url: https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit
+summary: "## 起因\r\n- 同事 A 平时就吹国外模型牛,用 gpt pro 会员. \r\n- 最近和 A 冲突, 他不懂我项目代码,但是之前开发一直用我的系统,知道业务. 一直想完全用\
+  \ AI 改我代码, 我很反感.  闹到大领导那,也就是打马虎眼, 说不要吵架.尽量不要互相改. \r\n\r\n\r\n## 目前想法\r\n\r\n- 我还是觉得 vibe coding ,harness\
+  \ ,agent 之类要有约束,审核之类还是需要人来有把控, 最近反正是经常看各种开源项目,能快速理解不同场景/行业/不同开发语言的 项目, 然后遇到各种需求可以快速应对.反正是想这离职.\r\n-\
+  \ 还是感觉自己太较真, 对工作, 不管是加班还是开发. \r\n\r\n## 问题\r\n昨天看了个[世界靠在乎的聪明人维系](https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/)\
+  \  , 文章列举了就在这几天（2026 年 11 月中旬）接连发生的微软 365 宕机、FAA 空中交通管制停飞、美联航系统故障、NSA 网络降级、各大银行和苹果服务中断。作者认为：**一线“聪明且较真的人”不够用了。**\r\
+  \n\r\n我肯定是没有达到这种聪明人水平, 但是还是想了解一下这种想法的人多不多."
+first_seen: '2026-11-20T03:15:49Z'
+last_seen: '2026-11-20T03:15:49Z'
+status: pending_filter
+sources:
+- v2ex
+sightings:
+- source: v2ex
+  url: https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/
+  seen_at: '2026-11-20T03:15:49Z'
+  metrics:
+    comments: 35
+  kind: product
+---
+
+# Violetpixel
+
+## 起因
+- 同事 A 平时就吹国外模型牛,用 gpt pro 会员. 
+- 最近和 A 冲突, 他不懂我项目代码,但是之前开发一直用我的系统,知道业务. 一直想完全用 AI 改我代码, 我很反感.  闹到大领导那,也就是打马虎眼, 说不要吵架.尽量不要互相改. 
+
+
+## 目前想法
+
+- 我还是觉得 vibe coding ,harness ,agent 之类要有约束,审核之类还是需要人来有把控, 最近反正是经常看各种开源项目,能快速理解不同场景/行业/不同开发语言的 项目, 然后遇到各种需求可以快速应对.反正是想这离职.
+- 还是感觉自己太较真, 对工作, 不管是加班还是开发. 
+
+## 问题
+昨天看了个[世界靠在乎的聪明人维系](https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/)  , 文章列举了就在这几天（2026 年 11 月中旬）接连发生的微软 365 宕机、FAA 空中交通管制停飞、美联航系统故障、NSA 网络降级、各大银行和苹果服务中断。作者认为：**一线“聪明且较真的人”不够用了。**
+
+我肯定是没有达到这种聪明人水平, 但是还是想了解一下这种想法的人多不多.
+
+## 笔记
+
+

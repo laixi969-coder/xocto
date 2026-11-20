@@ -20,7 +20,7 @@ url: https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup
 canonical_url: https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup
 summary: Wikipedia's Cleanup of AI-Generated Content
 first_seen: '2026-10-28T01:22:30Z'
-last_seen: '2026-11-05T02:29:35Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
@@ -45,6 +45,13 @@ sightings:
   metrics:
     points: 1082
     comments: 639
+  kind: news
+- source: hackernews
+  url: https://spectrum.ieee.org/ai-superintelligence-debate
+  seen_at: '2026-11-20T03:15:51Z'
+  metrics:
+    points: 102
+    comments: 158
   kind: news
 ---
 

@@ -21,16 +21,16 @@ canonical_url: https://github.com/SparkofSpike/Brain4Agent
 summary: Committed to building the world’s most cutting-edge, CJK-first memory module for all mainstream
   agents. Any issues and PRs are welcome.
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SparkofSpike/Brain4Agent
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 177
+    stars: 181
     forks: 26
     open_issues: 0
   kind: product

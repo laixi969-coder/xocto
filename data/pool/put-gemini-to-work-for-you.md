@@ -21,7 +21,7 @@ canonical_url: https://blog.google/innovation-and-ai/products/gemini-app/tasks-i
 summary: Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S.
   and deeper Google Workspace integration to get things done on your behalf.
 first_seen: '2026-11-18T03:43:37Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - officialfeeds
@@ -34,10 +34,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 51
-    comments: 68
+    points: 57
+    comments: 75
   kind: news
 ---
 

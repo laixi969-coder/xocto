@@ -22,17 +22,17 @@ summary: 'Viết như người: chống giọng văn AI cho tiếng Việt (huma
   Claude Code sửa bài ChatGPT/Claude viết cho tự nhiên như người viết: bỏ văn dịch, giọng công văn, lời
   chatbot. Kèm máy quét 0-100 và công cụ kiểm số liệu.'
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anhnx000/vietnamese-humanizer#readme
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
     stars: 77
-    forks: 16
+    forks: 18
     open_issues: 0
   kind: product
 ---

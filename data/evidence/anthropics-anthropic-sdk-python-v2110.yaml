@@ -1,0 +1,16 @@
+- id: ev-da7f5058bc91433a
+  project_slug: anthropics-anthropic-sdk-python-v2110
+  url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.11.0
+  title: 'anthropics/anthropic-sdk-python: v2.11.0'
+  published_at: '2026-11-19T19:14:21Z'
+  collected_at: '2026-11-20T03:15:55Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "### Features\n\n* **api:** add Claude Code managed settings to the Admin API\n* **api:** add\
+    \ the sandbox_egress_restricted error to Admin API plugin methods\n\n\n### Bug Fixes\n\n* **client:**\
+    \ encode spaces in query strings as %20\n\n  The AWS SigV4 signature of a request now matches its\
+    \ query string when a parameter contains a space.\n\n\n### Performance Improvements\n\n* **structured\
+    \ outputs:** build each call's output schema from a cached raw schema\n\n\n### Chores\n\n* **docs:**\
+    \ explain how the input-token rate limit types differ\n* **docs:** name Claude Security in the usage\
+    \ and cost report descriptions\n* **docs:** note that a Google Cloud external key's provider and key_name\
+    \ can't be changed"

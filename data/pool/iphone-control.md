@@ -21,16 +21,16 @@ canonical_url: https://derrors.github.io/iphone-control
 summary: Control a real USB-connected iPhone from Linux (no Mac, no paid developer account) and expose
   it to AI agents as MCP tools
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://derrors.github.io/iphone-control/
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 44
+    stars: 45
     forks: 8
     open_issues: 2
   kind: product

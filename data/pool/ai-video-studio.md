@@ -22,16 +22,16 @@ summary: 'AI Video Studio của Nguyễn Tất Kiểm: edit video bằng AI ch�
   template tự bám lời thoại, tạo style bằng cách giải mã video bất kỳ, ~200 khối HyperFrames, tự lái,
   agent Telegram. Tặng khoá học AI miễn phí: nguyentatkiem.com.vn/aiplusntk'
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://nguyentatkiem.com.vn/aiplusntk/
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 56
+    stars: 57
     forks: 43
     open_issues: 1
   kind: product

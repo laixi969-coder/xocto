@@ -1,0 +1,18 @@
+- id: ev-5c3e320b8f12300e
+  project_slug: using-nvidia-runai-gpu-fractioning-on-amazon-eks
+  url: https://aws.amazon.com/blogs/machine-learning/using-nvidia-runai-gpu-fractioning-on-amazon-eks/
+  title: Using NVIDIA Run:ai GPU Fractioning on Amazon EKS
+  published_at: '2026-11-19T16:13:51Z'
+  collected_at: '2026-11-20T03:16:25Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'GPU sharing is not new: Multi-Instance GPU (MIG), time-slicing, and Multi-Process Service (MPS)
+    address different isolation and utilization needs. NVIDIA Run:ai GPU Fractioning builds on MPS with
+    Kubernetes-integrated scheduling, per-Pod memory contracts, enforcement, and metrics. NVIDIA Run:ai
+    is AI workload orchestration software for Kubernetes. Its GPU Fractioning Operator can help several
+    teams share one or two GPUs on Amazon Elastic Kubernetes Service (Amazon EKS) . Notebooks, model evaluations,
+    and small inference services can leave teams waiting even when GPU memory remains available. In this
+    walkthrough’s baseline, the NVIDIA device plugin exposes the single GPU as one nvidia.com/gpu resource,
+    with GPU sharing disabled. Two Pods each requesting nvidia.com/gpu: 1 cannot run concurrently on that
+    node, even when their combined GPU-memory demand fits. NVIDIA Run:ai GPU Fractioning adds Kubernetes
+    scheduling integration, enforced GPU-memory limits, and per-Pod metrics to software-ba'

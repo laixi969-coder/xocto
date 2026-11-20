@@ -1,0 +1,101 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/noah-b63b5378",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "description": "Noah develops an AI-powered platform that helps companies identify, evaluate and prioritise AI opportunities by analysing internal processes, estimating potential savings and supporting digital transformation.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "B63B5378-29BE-46BB-B6C1-22DE1A391109",
+    "investors": [
+      "Ben Schrauwen",
+      "Business Angels",
+      "Nicolas Debray",
+      "Rudi Deruytter"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Noah",
+    "rounds": [
+      {
+        "amountEur": 800000,
+        "date": "2026-11-19",
+        "id": "DB7DAC3E-759F-4119-B53C-365E6610B2D6",
+        "investors": [
+          "Ben Schrauwen",
+          "Business Angels",
+          "Nicolas Debray",
+          "Rudi Deruytter"
+        ],
+        "rawRoundType": "funding round",
+        "stage": "Other",
+        "url": "https://funding.tech.eu/deals/DB7DAC3E-759F-4119-B53C-365E6610B2D6"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 49,
+      "raiseNext": {
+        "base": 30,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 10
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 800000,
+    "url": "https://funding.tech.eu/companies/B63B5378-29BE-46BB-B6C1-22DE1A391109",
+    "website": "https://noah.support/"
+  },
+  "round": {
+    "amountEur": 800000,
+    "amountEurStored": null,
+    "amountNative": 800000,
+    "company": {
+      "city": "Antwerp",
+      "country": "Belgium",
+      "founded": null,
+      "id": "B63B5378-29BE-46BB-B6C1-22DE1A391109",
+      "name": "Noah",
+      "pageUrl": "https://funding.tech.eu/companies/noah-b63b5378",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-11-19",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "DB7DAC3E-759F-4119-B53C-365E6610B2D6",
+    "investors": [
+      "Ben Schrauwen",
+      "Rudi Deruytter",
+      "Nicolas Debray"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/DB7DAC3E-759F-4119-B53C-365E6610B2D6",
+    "rawRoundType": "funding round",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Other",
+    "url": "/deals/DB7DAC3E-759F-4119-B53C-365E6610B2D6"
+  }
+}

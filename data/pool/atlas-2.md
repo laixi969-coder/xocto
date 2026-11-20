@@ -20,18 +20,18 @@ url: https://github.com/bloodfeast/atlas
 canonical_url: https://github.com/bloodfeast/atlas
 summary: 'Local project memory and token savings for Claude Code: an MCP server and hooks'
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bloodfeast/atlas
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 122
-    forks: 17
-    open_issues: 4
+    stars: 127
+    forks: 18
+    open_issues: 5
   kind: product
 ---
 

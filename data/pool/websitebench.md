@@ -20,18 +20,18 @@ url: https://website-bench.com/
 canonical_url: https://website-bench.com
 summary: Can AI agents rebuild websites through browser exploration?
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://website-bench.com/
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 537
+    stars: 551
     forks: 49
-    open_issues: 95
+    open_issues: 96
   kind: product
 ---
 

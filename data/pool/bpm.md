@@ -20,17 +20,17 @@ url: https://hberg.com/bpm/
 canonical_url: https://hberg.com/bpm
 summary: Baby Plus Music Visualizer
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hberg.com/bpm/
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 9
-    comments: 6
+    points: 12
+    comments: 7
   kind: product
 ---
 

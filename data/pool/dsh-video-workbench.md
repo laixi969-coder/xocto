@@ -21,17 +21,17 @@ canonical_url: https://github.com/Merziller/dsh-video-workbench
 summary: Dual-Engine (HTML/GSAP & Remotion) Video Workbench + Custom Voice Pack & AI Voice Matching for
   DeepSeek Harness (DSH)
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Merziller/dsh-video-workbench
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 42
-    forks: 12
+    stars: 48
+    forks: 14
     open_issues: 0
   kind: product
 ---

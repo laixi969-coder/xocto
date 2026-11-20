@@ -20,17 +20,17 @@ url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/int
 canonical_url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon
 summary: ''
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 534
-    comments: 489
+    points: 1021
+    comments: 761
   kind: news
 ---
 

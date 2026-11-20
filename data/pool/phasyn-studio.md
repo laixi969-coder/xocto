@@ -21,18 +21,18 @@ canonical_url: https://phasyn.dev
 summary: 'AI filmmaking on your own GPUs: a self-hosted studio that generates short videos with sound
   and still images.'
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://phasyn.dev
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 83
-    forks: 12
-    open_issues: 0
+    stars: 97
+    forks: 15
+    open_issues: 1
   kind: product
 ---
 

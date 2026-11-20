@@ -20,16 +20,16 @@ url: https://www.kradle.ai?1
 canonical_url: https://kradle.ai
 summary: Multi-agent AI evals in Minecraft
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.kradle.ai?1
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 8
+    points: 9
     comments: 7
   kind: product
 ---

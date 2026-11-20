@@ -1,0 +1,41 @@
+---
+slug: an-mit-graduate-turned-missed-calls-into-a-usd-1-billion-ai
+name: An MIT graduate turned missed calls into a USD 1 billion AI startup. Here's his story
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWEVqYUZVMFNqbUhXVTZyaWNDWkZ6bWQ5X0xwTnZMYnZZa1R3Nk9GVEgwYjUxYlIwQ1FzcDMyNE8zNHI0SFdVWWROM2dtLXZEX2RMZnQzOWhQVTRLTW5KZEc5WWlEeENYOVlIVjBrQzdqakdYdDRJYUROZVc3c1dKVzJSY21wdzR1UEgxMGJjWW1XSWJ1Y0ZFczhtVHlDSUFnRGV4eE5JaEhmQldSS0x4bkh1RXFDakZFX1lzMHR4VFloQmVSTkVWWjN5NkhzdWNGQ0dEUWVqMnNfOThxdGZfYk1sM0dqZ1JaVGtuaVJMM2nSAfYBQVVfeXFMTXBqNnNkNVg2VE93ejF1YlhTcUxRX3hzX3Z5dzZxSGQtOGtjRTBOTTBKdExhYUltN01CYXlBS0o5SVBtd0NHMGNpWVZRYjVSM3NMTmRVSFFZdUttQ2dvemxiOVQ5ZmpRR21PYzdLVXZHSEd3NnVxcWs5c0pkcmpLSXdBejk4R045Z1RfbkJCRXZmODkwUXhzRzJNWV9wOUpvOEpNWUlYeTBBcl8yWlZOeERIY3JObl9udlExSXFNZlBITTNsUnkyODFpQkg2Sll1WGp2Vm13RVJySy02TXNQWUpqV3BfY2hoQVUyRHNlc0NxblY0YlNB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWEVqYUZVMFNqbUhXVTZyaWNDWkZ6bWQ5X0xwTnZMYnZZa1R3Nk9GVEgwYjUxYlIwQ1FzcDMyNE8zNHI0SFdVWWROM2dtLXZEX2RMZnQzOWhQVTRLTW5KZEc5WWlEeENYOVlIVjBrQzdqakdYdDRJYUROZVc3c1dKVzJSY21wdzR1UEgxMGJjWW1XSWJ1Y0ZFczhtVHlDSUFnRGV4eE5JaEhmQldSS0x4bkh1RXFDakZFX1lzMHR4VFloQmVSTkVWWjN5NkhzdWNGQ0dEUWVqMnNfOThxdGZfYk1sM0dqZ1JaVGtuaVJMM2nSAfYBQVVfeXFMTXBqNnNkNVg2VE93ejF1YlhTcUxRX3hzX3Z5dzZxSGQtOGtjRTBOTTBKdExhYUltN01CYXlBS0o5SVBtd0NHMGNpWVZRYjVSM3NMTmRVSFFZdUttQ2dvemxiOVQ5ZmpRR21PYzdLVXZHSEd3NnVxcWs5c0pkcmpLSXdBejk4R045Z1RfbkJCRXZmODkwUXhzRzJNWV9wOUpvOEpNWUlYeTBBcl8yWlZOeERIY3JObl9udlExSXFNZlBITTNsUnkyODFpQkg2Sll1WGp2Vm13RVJySy02TXNQWUpqV3BfY2hoQVUyRHNlc0NxblY0YlNB?oc=5
+summary: An MIT graduate turned missed calls into a USD 1 billion AI startup. Here's his story India Today
+first_seen: '2026-11-20T03:16:32Z'
+last_seen: '2026-11-20T03:16:32Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWEVqYUZVMFNqbUhXVTZyaWNDWkZ6bWQ5X0xwTnZMYnZZa1R3Nk9GVEgwYjUxYlIwQ1FzcDMyNE8zNHI0SFdVWWROM2dtLXZEX2RMZnQzOWhQVTRLTW5KZEc5WWlEeENYOVlIVjBrQzdqakdYdDRJYUROZVc3c1dKVzJSY21wdzR1UEgxMGJjWW1XSWJ1Y0ZFczhtVHlDSUFnRGV4eE5JaEhmQldSS0x4bkh1RXFDakZFX1lzMHR4VFloQmVSTkVWWjN5NkhzdWNGQ0dEUWVqMnNfOThxdGZfYk1sM0dqZ1JaVGtuaVJMM2nSAfYBQVVfeXFMTXBqNnNkNVg2VE93ejF1YlhTcUxRX3hzX3Z5dzZxSGQtOGtjRTBOTTBKdExhYUltN01CYXlBS0o5SVBtd0NHMGNpWVZRYjVSM3NMTmRVSFFZdUttQ2dvemxiOVQ5ZmpRR21PYzdLVXZHSEd3NnVxcWs5c0pkcmpLSXdBejk4R045Z1RfbkJCRXZmODkwUXhzRzJNWV9wOUpvOEpNWUlYeTBBcl8yWlZOeERIY3JObl9udlExSXFNZlBITTNsUnkyODFpQkg2Sll1WGp2Vm13RVJySy02TXNQWUpqV3BfY2hoQVUyRHNlc0NxblY0YlNB?oc=5
+  seen_at: '2026-11-20T03:16:32Z'
+  metrics: {}
+  kind: news
+---
+
+# An MIT graduate turned missed calls into a USD 1 billion AI startup. Here's his story
+
+An MIT graduate turned missed calls into a USD 1 billion AI startup. Here's his story India Today
+
+## 笔记
+
+

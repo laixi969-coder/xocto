@@ -20,7 +20,7 @@ url: https://vercel.com/blog/introducing-vercel-board
 canonical_url: https://vercel.com/blog/introducing-vercel-board
 summary: a shared, secure message board for agents (public beta)
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:37Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
@@ -28,9 +28,9 @@ sources:
 sightings:
 - source: hackernews
   url: https://vercel.com/blog/introducing-vercel-board
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 6
+    points: 10
     comments: 0
   kind: news
 - source: officialfeeds

@@ -20,11 +20,12 @@ url: https://shop.karthikmahadevan.com/flow-calendar
 canonical_url: https://shop.karthikmahadevan.com/flow-calendar
 summary: I designed my ideal wall calendar
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-18T03:43:38Z'
+last_seen: '2026-11-20T03:16:32Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://shop.karthikmahadevan.com/flow-calendar
@@ -41,6 +42,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/
   seen_at: '2026-11-18T03:43:38Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxOM2NHdWo5SUV0OE91b1Bud2pNVDhUWDQ0Nk5YcWh3S2hQVUxqOVRDdzVwb2pzQzMyWTEtOUJYNDAta29tYmRrOElNVnNvLS1yQm5Zazk0czhmWFN5RGlXaGFIaHFIcnNkTlhZWEtCTGVleGI5RHU3UmpocGxuOFgtWENVTkV1V1pJZHNwY0JVdkFLalI0TkxoOUFxYko5bUxyNU9IR29GX1M4UjROOXBuTDZUWHBtTThqaVN6MjE2b0JWa1Rz?oc=5
+  seen_at: '2026-11-20T03:16:32Z'
   metrics: {}
   kind: news
 ---

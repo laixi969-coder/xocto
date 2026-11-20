@@ -20,16 +20,16 @@ url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.
 canonical_url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.188
 summary: "### Patch Changes\n\n- Updated dependencies [679b5b5]\n  - @ai-sdk/harness@1.0.188"
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow-harness%401.0.188
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    reactions: 1
+    reactions: 2
   kind: news
 ---
 

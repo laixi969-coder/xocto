@@ -20,17 +20,17 @@ url: https://bozhufarm.com/dsh/
 canonical_url: https://bozhufarm.com/dsh
 summary: DeepSeek Harness 自媒体工作台插件：一句话记灵感，一键生成脚本、封面、配图和分镜
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://bozhufarm.com/dsh/
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 1541
-    forks: 180
+    stars: 1579
+    forks: 184
     open_issues: 7
   kind: product
 ---

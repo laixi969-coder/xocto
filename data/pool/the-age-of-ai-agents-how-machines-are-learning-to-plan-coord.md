@@ -1,0 +1,43 @@
+---
+slug: the-age-of-ai-agents-how-machines-are-learning-to-plan-coord
+name: 'The age of AI agents: How machines are learning to plan, coordinate and get work done with limited
+  human'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMinAJBVV95cUxQV1BUNUk2a0VTTGRGX1R4VTZpamNxT2RtVXVYcW5wMDhhUlNPZUNDNHZEeWV5aGhYSXJ4UjZsNjVVQmpxVFR6WG9COVQtdzVWWWQ5WlNSeXd0M0NoRkxKY3duMU5aT3R4TF9pTHV2RnVhSkJ4dlM0S2ptRkJKdENxd3IySEFYbGpTZVQ0RmI0Y1JfQmNCc0xOQThyQmlEQkQ0V1l4V19YSFdNako1VzlLbzVYQWN4aU10SjFNejNLY2lWeXk1Z3QybWhmaHVFeUpQTTRHZ2djX1FRNTRjRVdlX2hOSXFIOERtdkJSSHY4WHNuMEdXOTJHY2NzQkFiOTBWbWtRN09iRWpMaWhXdmhUQ25ZUUx2NlpaUTJWZ9IBogJBVV95cUxNNkMxM2JzdmtOQXB5dVVIeEtFNTZPV1QzNTVKamM2cllaSWxRSUlKbEtwMDdqbzNZUmZLbWdoSHlnMHd0MkY2WjZEel9ObWUxaGd3MXNrc0RIVlRSZmgwbk5LWlk1MXVnZDhKOGdMaklrak5sNWc1T1Fpb1RnTU9FQ1J6aVBfUVo2SGMwdzNIUFpWM1VHRGxqZ1YzaFJIQk1rVVFXMVB5clNvN0dJRWhpejlaNHgteHlfWGxSRW93ZUFGTmxHQnJUV1B4ZnlzNU5TbkMtX0lsNGxxdXhXdlVBRmhFeFQ4T25RVHQ2bnZJTTc3QS1ueVdYT2pIU3lXVDN6TmFUWWJ6NWJYMTdzLVZ6aGdxbFFqOXRrV2hRY1Y3cWJ3Zw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMinAJBVV95cUxQV1BUNUk2a0VTTGRGX1R4VTZpamNxT2RtVXVYcW5wMDhhUlNPZUNDNHZEeWV5aGhYSXJ4UjZsNjVVQmpxVFR6WG9COVQtdzVWWWQ5WlNSeXd0M0NoRkxKY3duMU5aT3R4TF9pTHV2RnVhSkJ4dlM0S2ptRkJKdENxd3IySEFYbGpTZVQ0RmI0Y1JfQmNCc0xOQThyQmlEQkQ0V1l4V19YSFdNako1VzlLbzVYQWN4aU10SjFNejNLY2lWeXk1Z3QybWhmaHVFeUpQTTRHZ2djX1FRNTRjRVdlX2hOSXFIOERtdkJSSHY4WHNuMEdXOTJHY2NzQkFiOTBWbWtRN09iRWpMaWhXdmhUQ25ZUUx2NlpaUTJWZ9IBogJBVV95cUxNNkMxM2JzdmtOQXB5dVVIeEtFNTZPV1QzNTVKamM2cllaSWxRSUlKbEtwMDdqbzNZUmZLbWdoSHlnMHd0MkY2WjZEel9ObWUxaGd3MXNrc0RIVlRSZmgwbk5LWlk1MXVnZDhKOGdMaklrak5sNWc1T1Fpb1RnTU9FQ1J6aVBfUVo2SGMwdzNIUFpWM1VHRGxqZ1YzaFJIQk1rVVFXMVB5clNvN0dJRWhpejlaNHgteHlfWGxSRW93ZUFGTmxHQnJUV1B4ZnlzNU5TbkMtX0lsNGxxdXhXdlVBRmhFeFQ4T25RVHQ2bnZJTTc3QS1ueVdYT2pIU3lXVDN6TmFUWWJ6NWJYMTdzLVZ6aGdxbFFqOXRrV2hRY1Y3cWJ3Zw?oc=5
+summary: 'The age of AI agents: How machines are learning to plan, coordinate and get work done with limited
+  human The Times of India'
+first_seen: '2026-11-20T03:16:32Z'
+last_seen: '2026-11-20T03:16:32Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinAJBVV95cUxQV1BUNUk2a0VTTGRGX1R4VTZpamNxT2RtVXVYcW5wMDhhUlNPZUNDNHZEeWV5aGhYSXJ4UjZsNjVVQmpxVFR6WG9COVQtdzVWWWQ5WlNSeXd0M0NoRkxKY3duMU5aT3R4TF9pTHV2RnVhSkJ4dlM0S2ptRkJKdENxd3IySEFYbGpTZVQ0RmI0Y1JfQmNCc0xOQThyQmlEQkQ0V1l4V19YSFdNako1VzlLbzVYQWN4aU10SjFNejNLY2lWeXk1Z3QybWhmaHVFeUpQTTRHZ2djX1FRNTRjRVdlX2hOSXFIOERtdkJSSHY4WHNuMEdXOTJHY2NzQkFiOTBWbWtRN09iRWpMaWhXdmhUQ25ZUUx2NlpaUTJWZ9IBogJBVV95cUxNNkMxM2JzdmtOQXB5dVVIeEtFNTZPV1QzNTVKamM2cllaSWxRSUlKbEtwMDdqbzNZUmZLbWdoSHlnMHd0MkY2WjZEel9ObWUxaGd3MXNrc0RIVlRSZmgwbk5LWlk1MXVnZDhKOGdMaklrak5sNWc1T1Fpb1RnTU9FQ1J6aVBfUVo2SGMwdzNIUFpWM1VHRGxqZ1YzaFJIQk1rVVFXMVB5clNvN0dJRWhpejlaNHgteHlfWGxSRW93ZUFGTmxHQnJUV1B4ZnlzNU5TbkMtX0lsNGxxdXhXdlVBRmhFeFQ4T25RVHQ2bnZJTTc3QS1ueVdYT2pIU3lXVDN6TmFUWWJ6NWJYMTdzLVZ6aGdxbFFqOXRrV2hRY1Y3cWJ3Zw?oc=5
+  seen_at: '2026-11-20T03:16:32Z'
+  metrics: {}
+  kind: news
+---
+
+# The age of AI agents: How machines are learning to plan, coordinate and get work done with limited human
+
+The age of AI agents: How machines are learning to plan, coordinate and get work done with limited human The Times of India
+
+## 笔记
+
+

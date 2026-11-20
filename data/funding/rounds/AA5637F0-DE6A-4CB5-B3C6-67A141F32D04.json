@@ -1,0 +1,110 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/lato-67451b86",
+    "city": "London",
+    "country": "UK",
+    "description": "LATO develops AI agents that conduct customer and industry expert interviews, helping investment firms streamline commercial due diligence, assess market opportunities and make informed investment decisions.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "67451B86-8ADC-46CF-BAD6-F70DF9CD0F48",
+    "investors": [
+      " Air Street Capital",
+      "Angel Investors",
+      "Axiom Partners",
+      "Inception Fund",
+      "Montis VC",
+      "Paul Graham",
+      "Y Combinator"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "LATO",
+    "rounds": [
+      {
+        "amountEur": 4275837,
+        "date": "2026-11-19",
+        "id": "AA5637F0-DE6A-4CB5-B3C6-67A141F32D04",
+        "investors": [
+          " Air Street Capital",
+          "Angel Investors",
+          "Axiom Partners",
+          "Inception Fund",
+          "Montis VC",
+          "Paul Graham",
+          "Y Combinator"
+        ],
+        "rawRoundType": "seed",
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/AA5637F0-DE6A-4CB5-B3C6-67A141F32D04"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 51,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 14
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 4275837,
+    "url": "https://funding.tech.eu/companies/67451B86-8ADC-46CF-BAD6-F70DF9CD0F48",
+    "website": "https://www.latolabs.io/"
+  },
+  "round": {
+    "amountEur": 4275837,
+    "amountEurStored": null,
+    "amountNative": 4700000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "67451B86-8ADC-46CF-BAD6-F70DF9CD0F48",
+      "name": "LATO",
+      "pageUrl": "https://funding.tech.eu/companies/lato-67451b86",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-11-19",
+    "fx": {
+      "asOf": "2026-11-19",
+      "rate": 1.0992,
+      "source": "ECB"
+    },
+    "id": "AA5637F0-DE6A-4CB5-B3C6-67A141F32D04",
+    "investors": [
+      "Y Combinator",
+      "Inception Fund",
+      "Montis VC",
+      "Axiom Partners",
+      "Paul Graham",
+      "Air Street Capital"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/AA5637F0-DE6A-4CB5-B3C6-67A141F32D04",
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Seed",
+    "url": "/deals/AA5637F0-DE6A-4CB5-B3C6-67A141F32D04"
+  }
+}

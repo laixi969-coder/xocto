@@ -1,0 +1,18 @@
+- id: ev-b46a673b749e91fe
+  project_slug: enable-ai-agents-to-pay-for-aws-marketplace-x402-products-wi
+  url: https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/
+  title: Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments
+  published_at: '2026-11-19T23:02:16Z'
+  collected_at: '2026-11-20T03:16:25Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'When Amazon Bedrock AgentCore payments became generally available in August 2026, agents could
+    autonomously pay for paid APIs, MCP servers, and web content over open protocols like x402 and MPP
+    with payment limits and full observability. Today we extend that autonomy to AWS Marketplace , so
+    agents can discover and buy x402-enabled software, APIs, data, and content, and pay in USD on the
+    agent developer’s AWS bill, removing the need for stablecoin wallets or API keys. Figure 1: Overview
+    of AgentCore payments showing the new AWS Billing integration for purchasing on AWS Marketplace Developers
+    can also configure and automate discovery through the AWS Marketplace connector in AgentCore Gateway
+    . Existing guardrails carry over, developers can set spending limits and approved sellers using AgentCore
+    policy, and the payment session cap is enforced by AgentCore payments, so an agent is unable to overspend.
+    Transactions are auditable in AWS CloudTrail and AWS Cost Explorer . Because agent purch'

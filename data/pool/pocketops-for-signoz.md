@@ -20,16 +20,16 @@ url: https://github.com/avens19/pocketops
 canonical_url: https://github.com/avens19/pocketops
 summary: The Open Source Datadog Alternative
 first_seen: '2026-11-19T03:28:02Z'
-last_seen: '2026-11-19T03:28:02Z'
+last_seen: '2026-11-20T03:15:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/avens19/pocketops
-  seen_at: '2026-11-19T03:28:02Z'
+  seen_at: '2026-11-20T03:15:51Z'
   metrics:
-    points: 6
+    points: 10
     comments: 0
   kind: product
 ---

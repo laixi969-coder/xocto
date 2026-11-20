@@ -30,7 +30,7 @@ url: https://engine.tastelabs.com/
 canonical_url: https://engine.tastelabs.com
 summary: The Brand API, a taste tool for agents
 first_seen: '2026-09-15T18:45:31Z'
-last_seen: '2026-11-07T01:57:16Z'
+last_seen: '2026-11-20T03:16:26Z'
 status: pending_filter
 sources:
 - hackernews
@@ -118,6 +118,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMibEFVX3lxTFBZcGVNWkpUVnBrNDlKSFdKYmN5YUZ1aTlwZGxRQ194dzBuNXZ0THRBUEdXdi1aOWVJRnQxVGZvVUJ0YVp0OTF6Tm9HM1hCeVc1QTc4bmUtT3FRY2tZdXlpbnM1d3ZTdlRWNkE4Yw?oc=5
   seen_at: '2026-11-07T01:57:16Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://news.crunchbase.com/startups/blue-economy-technology-defense-energy-onetti-mind-the-bridge/
+  seen_at: '2026-11-20T03:16:26Z'
   metrics: {}
   kind: news
 ---

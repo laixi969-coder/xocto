@@ -21,16 +21,16 @@ canonical_url: https://melgoldstein.com
 summary: 'Local flight recorder for AI workflows: inspect tool calls, replay recorded evidence, and fork
   decisions from checkpoints.'
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-16T02:08:21Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://melgoldstein.com/
-  seen_at: '2026-11-16T02:08:21Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 47
+    stars: 43
     forks: 0
     open_issues: 0
   kind: product

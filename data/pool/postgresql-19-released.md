@@ -1,0 +1,52 @@
+---
+slug: postgresql-19-released
+name: PostgreSQL 19 Released
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://simonwillison.net/2026/Nov/19/postgresql-19/
+canonical_url: https://simonwillison.net/2026/Nov/19/postgresql-19
+summary: 'PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year''s
+  release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed
+  to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely
+  worth the wait. My favorite new feature is this one: For applications that send reads to standbys, PostgreSQL
+  19 adds "read-your-writes" consistency with the new WAIT FOR LSN command. A session on a standby can
+  use WAIT FOR LSN to wait until the standby has replayed the write-ahead log (WAL) up to a specific log
+  sequence number (LSN) before running a query, so the application can read data it just wrote on the
+  primary. In practice, that looks like this: UPDATE movie SET genre = ''Dramatic'' WHERE genre = ''Drama'';
+  SELECT pg_current_wal_insert_lsn(); That returns a value like 0/0306EE20 . Store that somewhere (a signed
+  cookie would work) such that on a subsequent request your application can do: WAIT FOR LSN ''0/0306EE20''
+  WITH (TIMEOUT ''0.1s''); SELECT * FROM movie WHERE genre = ''Drama''; The timeout is optional - if you
+  provide one you''ll get an error if the replica you are talking to doesn''t catch'
+first_seen: '2026-11-20T03:16:26Z'
+last_seen: '2026-11-20T03:16:26Z'
+status: pending_filter
+sources:
+- marketfeeds
+sightings:
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Nov/19/postgresql-19/
+  seen_at: '2026-11-20T03:16:26Z'
+  metrics: {}
+  kind: news
+---
+
+# PostgreSQL 19 Released
+
+PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth the wait. My favorite new feature is this one: For applications that send reads to standbys, PostgreSQL 19 adds "read-your-writes" consistency with the new WAIT FOR LSN command. A session on a standby can use WAIT FOR LSN to wait until the standby has replayed the write-ahead log (WAL) up to a specific log sequence number (LSN) before running a query, so the application can read data it just wrote on the primary. In practice, that looks like this: UPDATE movie SET genre = 'Dramatic' WHERE genre = 'Drama'; SELECT pg_current_wal_insert_lsn(); That returns a value like 0/0306EE20 . Store that somewhere (a signed cookie would work) such that on a subsequent request your application can do: WAIT FOR LSN '0/0306EE20' WITH (TIMEOUT '0.1s'); SELECT * FROM movie WHERE genre = 'Drama'; The timeout is optional - if you provide one you'll get an error if the replica you are talking to doesn't catch
+
+## 笔记
+
+

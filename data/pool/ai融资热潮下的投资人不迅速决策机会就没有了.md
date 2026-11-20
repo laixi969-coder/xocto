@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiakFVX3lxTFByMHF4M3Q4eE55aEtwaERSdn
 canonical_url: https://news.google.com/rss/articles/CBMiakFVX3lxTFByMHF4M3Q4eE55aEtwaERSdnRfQTRNemdxaGVOZ0UwMW4yb05SWGdXZ2xmRTVfa1VJTkxTSnZSVmtNUWU5RXQ5T2lfTXRXWjFvajE2UHQ2SHdjXzFqUmdQME9SS0FMVmdKZHc?oc=5
 summary: AI融资热潮下的投资人：“不迅速决策，机会就没有了” 大河财立方
 first_seen: '2026-09-07T03:34:59Z'
-last_seen: '2026-09-07T15:53:24Z'
+last_seen: '2026-11-20T03:16:32Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiakFVX3lxTFByMHF4M3Q4eE55aEtwaERSdnRfQTRNemdxaGVOZ0UwMW4yb05SWGdXZ2xmRTVfa1VJTkxTSnZSVmtNUWU5RXQ5T2lfTXRXWjFvajE2UHQ2SHdjXzFqUmdQME9SS0FMVmdKZHc?oc=5
   seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KQWNITGNCeHJqTE14U1VzeG5BZHlqdGExRlVQSGJuc0Q2aFM3a3BKSlZaMjBxaXJfSnlrcXpNcEwtcFZWQ3hxZHpZRlBQTnFGQUVR?oc=5
+  seen_at: '2026-11-20T03:16:32Z'
   metrics: {}
   kind: news
 ---

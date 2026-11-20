@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAJBVV95cUxQQ1drUDBjMmsz
 summary: 'From returns to restaurant bookings: Klarna’s AI assistant finds the best product & price, buys
   it for you, and you don’t pay until it arrives Business Wire'
 first_seen: '2026-11-18T03:43:57Z'
-last_seen: '2026-11-18T03:43:57Z'
+last_seen: '2026-11-20T03:16:32Z'
 status: pending_filter
 sources:
 - newssearch
@@ -30,6 +30,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMinAJBVV95cUxQQ1drUDBjMmszZFl3TDJGdkd1VEZLbUlaUThnd0Npb1h0dGxfaU5KYmMzYmxaTFhhOUpoY3ZuN3M2NHlwdXBqbENXdnE1T0FCZHZ0bDVYOW1haTJsdWE2Z3pUMGNaLTZYNHhpcGFGcWstZlk0UHZzNlRXb3VwTUdVSU5JOHZfUjFhTkRjMFRCOWpyT0VNQmJGdXlId21EWE9Oamo5bWpHR2I2cXJFYkVudVVkLWtKSHAwWW5jV0E2TFluOG40VllHVUh0SnpjNDhTdUx6RzY1c3pFN1FUcDYxYjdMYUVRSndqbnpYeGdEQTRDaFpOeG9jR1JqTjUtTnlMWGs1S1pKMTBzQU1uZ1BwT2tSckRrLXRoNkxmNA?oc=5
   seen_at: '2026-11-18T03:43:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOd2ZEOFJjRTV0ZTY4eWd5Skh5dG9EUnVPVDFDVUdobWlqUXpYOVV1ZVJaVllycE03c0N2T1otc0JYNDI1a1FTdzc3ODhZOXg4RmNGeUxjUmVTN01ZUE80akRkd0FsdTQ1c1laUkpWd0o0cnBOQWI3TXdXekNiY3poMEJlSWJqMzZLM0RUd2pONA?oc=5
+  seen_at: '2026-11-20T03:16:32Z'
   metrics: {}
   kind: news
 ---

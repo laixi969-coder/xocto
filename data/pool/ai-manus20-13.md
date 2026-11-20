@@ -21,17 +21,17 @@ canonical_url: https://github.com/violetkomodolimit/ai--manus2.0
 summary: AI Manus is a general-purpose AI Agent system that supports running various tools and operations
   in a sandbox environment.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/violetkomodolimit/ai--manus2.0
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 374
-    forks: 302
+    stars: 373
+    forks: 301
     open_issues: 0
   kind: product
 ---

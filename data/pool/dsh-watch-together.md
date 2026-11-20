@@ -22,16 +22,16 @@ summary: '陪看：和智能体一起看视频 —— 跟着真实播放位置�
   together, in sync with the real playback: a storyboard image + subtitle lines per segment, spoken replies
   and live room audio.'
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-20T03:15:55Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SAOS-3624/dsh-watch-together
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-20T03:15:55Z'
   metrics:
-    stars: 50
+    stars: 52
     forks: 10
     open_issues: 0
   kind: product

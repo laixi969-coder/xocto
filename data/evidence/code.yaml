@@ -1,0 +1,37 @@
+- id: ev-15a5db992dfad900
+  project_slug: code
+  url: https://www.v2ex.com/t/1258441
+  title: Claude 被封了，说说我是怎么迁移的，希望能帮到各位
+  published_at: '2026-11-20T02:02:36Z'
+  collected_at: '2026-11-20T03:15:49Z'
+  source_kind: product
+  tier: independent
+  fact: "Claude Max 订阅用了小半年之后，还是被封了。\r\n\r\n简单挣扎之后未果，又没实力付那么高的溢价，只能选择迁移到其他模型。\r\n\r\n目前尝试过的订阅/模型\r\n\r\
+    \n- Deepseek-flash 官方 API\r\n- Gpt：100 刀档\r\n- Gemini：50 刀档\r\n- Qwen Token Plan：首月优惠 19 块\r\n- Grok\
+    \ 首月优惠：具体多少钱忘了，首月大概 100RMB 的左右\r\n- 中转站：具体哪个就不说了，我也只是试用了一下而已\r\n\r\n模型上就是用 cc switch、magpie 等等之类的网关，将模型路由到\
+    \ claude code\r\n\r\n# 配置相关\r\n\r\n## 降低额度消耗\r\n\r\n1. 关掉 Teammate\r\n    \r\n    GPT 非常喜欢使用 SubAgent，屁大点事都要喊一个\
+    \ Agent 帮他来做，所以建议关掉 Teammate 功能，使用更轻量的 Subagent\r\n    \r\n    ```jsx\r\n    {\r\n    \t\"env\": {\r\
+    \n    \t\t\"CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS\": \"0\"\r\n    \t}\r\n    }\r\n    ```\r\n    \r\
+    \n2. 限制 Subagent 可用的模型\r\n    \r\n    我明明没用 Astra，但是用量分析里却有 100 多条 Astra 的请求，怀疑是 Subagent 自动调了，所以还是限制下\r\
+    \n    \r\n    ```json\r\n    {\r\n    \t\"env\": {\r\n    \t\t\"CLAUDE_CODE_SUBAGENT_MODEL\": \"轻量模型\"\
+    ,\r\n    \t\t\"CLAUDE_CODE_SUBAGENT_MODEL_FORCE\": \"1\"\r\n    \t}\r\n    }\r\n    ```\r\n    \r\n\
+    3. 延长缓存时间\r\n    \r\n    官方订阅主会话的 TTL 默认 1 小时，第三方默认 5 分钟\r\n    \r\n    参考：https://code.claude.com/docs/zh-CN/prompt-caching#which-ttl-each-request-gets\r\
+    \n    \r\n    ```json\r\n    {\r\n    \t\"promptCacheTtl\": \"1h\""
+- id: ev-037959047049ad95
+  project_slug: code
+  url: https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/
+  title: Use Kimi Code CLI with models on Amazon Bedrock
+  published_at: '2026-11-20T00:33:30Z'
+  collected_at: '2026-11-20T03:16:25Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Kimi Code CLI is an open source coding agent from Moonshot AI, the creator of the Kimi series
+    of open-weight foundation models. Previously, using Kimi Code with models on Amazon Bedrock meant
+    configuring a generic connection “provider” with an Amazon Bedrock API key. For many AWS customers,
+    this meant introducing an extra credential to obtain and protect. With v2.7.0, Moonshot AI adds a
+    native bedrock provider to the CLI. You can now configure the agent to use your standard AWS credential
+    chain, including named profiles and single sign-on (SSO), instead of creating and managing a separate
+    API key. In this post, we show you how to connect Kimi Code CLI to models on Amazon Bedrock using
+    your existing AWS credentials. We use Kimi K3.1 Pro Highspeed as an example, which supports streaming,
+    configurable reasoning, image input, and client-side tool calling. What’s new Amazon Bedrock provides
+    pay-per-token inference for a range of open and proprietary models from leading providers, available
