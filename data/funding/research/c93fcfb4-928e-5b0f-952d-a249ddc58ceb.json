@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "company_id": "c93fcfb4-928e-5b0f-952d-a249ddc58ceb",
+  "round_fingerprint": "916b729dbb64b4923a3a7060b869fa0b4db931574f3bb4a0ed3d97bb105824be",
+  "last_attempt": "2026-11-20",
+  "status": "blocked",
+  "gaps": [
+    "official_website",
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://news.crunchbase.com/public/ipo/anthropic-prices-ipo-ant-above-range/",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Anthropic also expects to pull in another $26 billion from a private placement slated to close immediately following the IPO.",
+      "checked_on": "2026-11-20"
+    }
+  ],
+  "fingerprint": "e4b42bdb43b1b9a771ff01133f9594941d0c0e29ace7d14c29fb7025b3c7b125"
+}

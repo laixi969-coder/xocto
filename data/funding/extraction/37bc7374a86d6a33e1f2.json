@@ -1,5 +1,8 @@
 {
-  "fingerprint": "915c4513403e4263cfe235ad83a807fd205716171fe4c13dcbaaf5f44dc3a604",
-  "round_ids": [],
-  "reason": "该报道描述的是Anthropic的IPO定价及同步进行的私募配售，而非风险投资融资轮次。IPO和私募配售不属于所定义的融资轮次（Pre-Seed至Angel、Debt、Grant等），且报道未提供美国所在地或AI能力的原文引述。因此未提取任何融资轮次。"
+  "fingerprint": "1382a2a6350426e75099c24d36bd06001defd0864a24d2e1f4502e61105de83a",
+  "round_ids": [
+    "0e6fcc94-c4a1-51c3-8558-475d85c61f4f",
+    "d97dad5e-2fe1-5b33-b0b3-490c359b6ffc"
+  ],
+  "reason": "Two distinct capital raises reported: an ~$80B IPO and a separate $26B private placement, kept separate rather than summed. No explicit announcement date is given, so date_basis=reported using the publication date. No website link for Anthropic was provided in links, so website is empty."
 }
