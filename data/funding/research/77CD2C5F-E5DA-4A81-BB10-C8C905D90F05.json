@@ -2,7 +2,7 @@
   "version": 2,
   "company_id": "77CD2C5F-E5DA-4A81-BB10-C8C905D90F05",
   "round_fingerprint": "da119a219e7da3e8fe5bc97b707556c98542fbe9249b1d36545e4a7480186553",
-  "last_attempt": "2026-11-07",
+  "last_attempt": "2026-11-21",
   "status": "blocked",
   "gaps": [
     "product",
@@ -17,13 +17,13 @@
       "role": "funding",
       "status": "retrieved",
       "text": "a startup that offers optimized agents for brands",
-      "checked_on": "2026-11-07"
+      "checked_on": "2026-11-21"
     },
     {
       "url": "https://loopsai.com/",
       "kind": "retrieval_gap",
       "role": "overview",
-      "checked_on": "2026-11-07",
+      "checked_on": "2026-11-21",
       "status": "unavailable",
       "text": "",
       "error": "ValueError: Page has no usable product text or is a parked/challenge page"
