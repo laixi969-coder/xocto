@@ -20,17 +20,17 @@ url: https://thedataexchange.media/pete-warden-moonshine/
 canonical_url: https://thedataexchange.media/pete-warden-moonshine
 summary: Pete warden on local AI, open models, voice interfaces, the future of hardware
 first_seen: '2026-11-20T03:15:51Z'
-last_seen: '2026-11-20T03:15:51Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://thedataexchange.media/pete-warden-moonshine/
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    points: 217
-    comments: 195
+    points: 269
+    comments: 247
   kind: news
 ---
 

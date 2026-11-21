@@ -21,17 +21,17 @@ canonical_url: https://x.com/exploraX_
 summary: 'Agent skill for narrated cinematic films built entirely from code: one continuous camera over
   photos, maps and cards, timed to the voice. Claude Code, Codex, Cursor, Gemini CLI.'
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://x.com/exploraX_
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 813
-    forks: 127
+    stars: 850
+    forks: 130
     open_issues: 1
   kind: product
 ---

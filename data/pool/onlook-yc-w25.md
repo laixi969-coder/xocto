@@ -20,17 +20,17 @@ url: https://github.com/onlook-dev/onlook/
 canonical_url: https://github.com/onlook-dev/onlook
 summary: An open-source developer tool for designers
 first_seen: '2026-11-20T03:15:51Z'
-last_seen: '2026-11-20T03:15:51Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/onlook-dev/onlook/
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    points: 89
-    comments: 69
+    points: 124
+    comments: 85
   kind: product
 ---
 

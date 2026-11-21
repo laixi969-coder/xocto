@@ -1,0 +1,41 @@
+---
+slug: kantar-and-quiltai-unveil-launchsignals
+name: Kantar and Quilt.AI unveil LaunchSignals
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORzRvS1BfUmFsekdPX0tvai1xQmhVWU5JVkl2bFlfTjFnQmxTNmlWQ3dLTXBITEt3UGhYdzFCOVB6VHk4ekhEaUFWT2hMeUNlQnhIR2xsekludC1LTTNtUk1aRGM2bmpmM1BEUy1INlltZE55VkR2OTV5enBmUm1fUWRoR1lCcmpOb2FwakVXWENOVGZybnp1RWt0M3JFRHdTNG44ekNpaThISHFORlpTZVZ3NHlvd9IBtgFBVV95cUxORzRvS1BfUmFsekdPX0tvai1xQmhVWU5JVkl2bFlfTjFnQmxTNmlWQ3dLTXBITEt3UGhYdzFCOVB6VHk4ekhEaUFWT2hMeUNlQnhIR2xsekludC1LTTNtUk1aRGM2bmpmM1BEUy1INlltZE55VkR2OTV5enBmUm1fUWRoR1lCcmpOb2FwakVXWENOVGZybnp1RWt0M3JFRHdTNG44ekNpaThISHFORlpTZVZ3NHlvdw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORzRvS1BfUmFsekdPX0tvai1xQmhVWU5JVkl2bFlfTjFnQmxTNmlWQ3dLTXBITEt3UGhYdzFCOVB6VHk4ekhEaUFWT2hMeUNlQnhIR2xsekludC1LTTNtUk1aRGM2bmpmM1BEUy1INlltZE55VkR2OTV5enBmUm1fUWRoR1lCcmpOb2FwakVXWENOVGZybnp1RWt0M3JFRHdTNG44ekNpaThISHFORlpTZVZ3NHlvd9IBtgFBVV95cUxORzRvS1BfUmFsekdPX0tvai1xQmhVWU5JVkl2bFlfTjFnQmxTNmlWQ3dLTXBITEt3UGhYdzFCOVB6VHk4ekhEaUFWT2hMeUNlQnhIR2xsekludC1LTTNtUk1aRGM2bmpmM1BEUy1INlltZE55VkR2OTV5enBmUm1fUWRoR1lCcmpOb2FwakVXWENOVGZybnp1RWt0M3JFRHdTNG44ekNpaThISHFORlpTZVZ3NHlvdw?oc=5
+summary: Kantar and Quilt.AI unveil LaunchSignals The Manila Times
+first_seen: '2026-11-21T03:14:40Z'
+last_seen: '2026-11-21T03:14:40Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORzRvS1BfUmFsekdPX0tvai1xQmhVWU5JVkl2bFlfTjFnQmxTNmlWQ3dLTXBITEt3UGhYdzFCOVB6VHk4ekhEaUFWT2hMeUNlQnhIR2xsekludC1LTTNtUk1aRGM2bmpmM1BEUy1INlltZE55VkR2OTV5enBmUm1fUWRoR1lCcmpOb2FwakVXWENOVGZybnp1RWt0M3JFRHdTNG44ekNpaThISHFORlpTZVZ3NHlvd9IBtgFBVV95cUxORzRvS1BfUmFsekdPX0tvai1xQmhVWU5JVkl2bFlfTjFnQmxTNmlWQ3dLTXBITEt3UGhYdzFCOVB6VHk4ekhEaUFWT2hMeUNlQnhIR2xsekludC1LTTNtUk1aRGM2bmpmM1BEUy1INlltZE55VkR2OTV5enBmUm1fUWRoR1lCcmpOb2FwakVXWENOVGZybnp1RWt0M3JFRHdTNG44ekNpaThISHFORlpTZVZ3NHlvdw?oc=5
+  seen_at: '2026-11-21T03:14:40Z'
+  metrics: {}
+  kind: news
+---
+
+# Kantar and Quilt.AI unveil LaunchSignals
+
+Kantar and Quilt.AI unveil LaunchSignals The Manila Times
+
+## 笔记
+
+

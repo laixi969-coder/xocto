@@ -20,18 +20,18 @@ url: https://github.com/haziqahmedqasmi/PeakCut
 canonical_url: https://github.com/haziqahmedqasmi/PeakCut
 summary: AI clipping for long videos and live streams. Self-hosted, bring your own AI key.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/haziqahmedqasmi/PeakCut
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 1354
-    forks: 462
-    open_issues: 51
+    stars: 1553
+    forks: 497
+    open_issues: 42
   kind: product
 ---
 

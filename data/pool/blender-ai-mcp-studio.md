@@ -23,16 +23,16 @@ summary: Blender AI MCP Studio is an AI assistant and built-in Model Context Pro
   a visual chat workspace, multi-agent teams and your choice of AI models. · blender ai mcp studio · mcp-for-blender
   · mcp for blender pro
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 517
+    stars: 516
     forks: 13
     open_issues: 45
   kind: product

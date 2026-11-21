@@ -20,17 +20,17 @@ url: https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-pro
 canonical_url: https://techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say
 summary: No Bailout for the AI Bubble, Anthropic IPO Protesters Say
 first_seen: '2026-11-20T03:15:51Z'
-last_seen: '2026-11-20T03:15:51Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    points: 40
-    comments: 21
+    points: 51
+    comments: 36
   kind: news
 ---
 

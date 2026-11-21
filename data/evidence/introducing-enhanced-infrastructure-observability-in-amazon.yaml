@@ -1,0 +1,18 @@
+- id: ev-f181a0850ee6d41a
+  project_slug: introducing-enhanced-infrastructure-observability-in-amazon
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/
+  title: Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod
+  published_at: '2026-11-20T18:24:06Z'
+  collected_at: '2026-11-21T03:14:15Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Large-scale model training is one of the most expensive workloads you can run on GPUs, and a
+    single unhealthy accelerator can stall an entire distributed job. When training throughput drops,
+    the hard part is rarely noticing that something is wrong. It is figuring out why and where. Teams
+    often spend hours or days sifting through logs and disconnected dashboards to decide whether a slowdown
+    came from a throttled GPU, a saturated network link, or a stalled data pipeline on the host. Today,
+    we are announcing enhanced observability in Amazon SageMaker HyperPod, a new capability that helps
+    you diagnose GPU training issues faster. It brings together diagnostic and profiling capabilities
+    for training workloads that run on both Amazon Elastic Kubernetes Service (Amazon EKS) and Slurm orchestrators:
+    Diagnostic summary uses Amazon CloudWatch’s DetectGroupOutliers API to compare each GPU in a training
+    job on utilization, memory, temperature, power, and SM clock, and flags GPUs that deviate from t'

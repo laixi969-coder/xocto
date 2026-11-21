@@ -21,18 +21,18 @@ canonical_url: https://github.com/jasonsutter87/sketchcraft
 summary: 'Draw an outline. Pull it up. Open-source push/pull 3D modeler in Rust: desktop app, CLI and
   MCP server.'
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jasonsutter87/sketchcraft
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 101
+    stars: 111
     forks: 12
-    open_issues: 56
+    open_issues: 59
   kind: product
 ---
 

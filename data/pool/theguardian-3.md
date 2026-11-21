@@ -20,7 +20,7 @@ url: https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatg
 canonical_url: https://theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks
 summary: Accept 'bad things' in return for benefits of AI, says Sam Altman
 first_seen: '2026-10-05T12:56:18Z'
-last_seen: '2026-11-15T01:56:01Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: pending_filter
 sources:
 - hackernews
@@ -66,6 +66,13 @@ sightings:
   metrics:
     points: 48
     comments: 16
+  kind: news
+- source: hackernews
+  url: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off
+  seen_at: '2026-11-21T03:13:50Z'
+  metrics:
+    points: 192
+    comments: 231
   kind: news
 ---
 

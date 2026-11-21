@@ -1,0 +1,19 @@
+- id: ev-0f0bb4b11408e48b
+  project_slug: introducing-amazon-sagemaker-hyperpod-global-inference-gatew
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/
+  title: 'Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions
+    and clusters'
+  published_at: '2026-11-20T22:35:24Z'
+  collected_at: '2026-11-21T03:14:15Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: During a traffic peak, a request can sit in a queue on a saturated HyperPod cluster while GPUs
+    on another cluster, sometimes in another AWS Region, sit idle. You have already paid for that capacity,
+    but your requests can’t reach it. In Introducing Amazon SageMaker HyperPod Inference Gateway , we
+    showed how the Inference Gateway gives each Amazon SageMaker HyperPod cluster a single, GPU-aware
+    endpoint. It reads real-time signals such as key-value (KV) cache utilization and queue depth to place
+    every request on the best-suited pod. That solves routing inside one cluster, but not across clusters.
+    Today, SageMaker HyperPod introduces the Global Inference Gateway. It is one SageMaker-managed gateway
+    that routes across every cluster you register, in one Region or across Regions. The gateway picks
+    the cluster and carries the request over the AWS backbone, with automatic failover and authentication
+    through AWS Signature Version 4 (SigV4) and AWS Identity and Access Management (IAM). Inside eac

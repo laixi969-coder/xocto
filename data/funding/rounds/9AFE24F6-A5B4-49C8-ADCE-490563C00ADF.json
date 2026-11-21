@@ -1,0 +1,102 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/mountain-db0ccfc8",
+    "city": "Grenoble",
+    "country": "France",
+    "description": "MountAIn is a provider of an edge AI deployment software platform.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "DB0CCFC8-E96C-479E-9B39-F3F39754B512",
+    "investors": [
+      "360 Capital",
+      "Bpifrance",
+      "Crédit Agricole Alpes Développement (C2AD)",
+      "Supernova Invest"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "MountAIn",
+    "rounds": [
+      {
+        "amountEur": 7300000,
+        "date": "2026-11-17",
+        "id": "9AFE24F6-A5B4-49C8-ADCE-490563C00ADF",
+        "investors": [
+          "360 Capital",
+          "Bpifrance",
+          "Crédit Agricole Alpes Développement (C2AD)",
+          "Supernova Invest"
+        ],
+        "rawRoundType": "seed",
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/9AFE24F6-A5B4-49C8-ADCE-490563C00ADF"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 58,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 14
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 7300000,
+    "url": "https://funding.tech.eu/companies/DB0CCFC8-E96C-479E-9B39-F3F39754B512",
+    "website": "https://www.mountainedge.ai/"
+  },
+  "round": {
+    "amountEur": 7300000,
+    "amountEurStored": null,
+    "amountNative": 7300000,
+    "company": {
+      "city": "Grenoble",
+      "country": "France",
+      "founded": null,
+      "id": "DB0CCFC8-E96C-479E-9B39-F3F39754B512",
+      "name": "MountAIn",
+      "pageUrl": "https://funding.tech.eu/companies/mountain-db0ccfc8",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-11-17",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "9AFE24F6-A5B4-49C8-ADCE-490563C00ADF",
+    "investors": [
+      "Crédit Agricole Alpes Développement (C2AD)",
+      "Bpifrance",
+      "360 Capital",
+      "Supernova Invest"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/9AFE24F6-A5B4-49C8-ADCE-490563C00ADF",
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "finsmes.com",
+      "tier": "established"
+    },
+    "stage": "Seed",
+    "url": "/deals/9AFE24F6-A5B4-49C8-ADCE-490563C00ADF"
+  }
+}

@@ -20,7 +20,7 @@ url: https://restofworld.org/2026/ai-datacenters-water-resistance-global/
 canonical_url: https://restofworld.org/2026/ai-datacenters-water-resistance-global
 summary: Big Tech's thirst for water is sparking a global resistance
 first_seen: '2026-10-29T01:48:26Z'
-last_seen: '2026-11-20T03:15:51Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: pending_filter
 sources:
 - hackernews
@@ -34,10 +34,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://restofworld.org/2026/ai-jobs-skills-gig-work/
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    points: 121
-    comments: 60
+    points: 145
+    comments: 80
   kind: news
 ---
 

@@ -20,11 +20,12 @@ url: https://steambrew.app/
 canonical_url: https://steambrew.app
 summary: Steam Homebrew
 first_seen: '2026-08-14T01:47:05Z'
-last_seen: '2026-09-10T05:13:54Z'
-status: rejected
+last_seen: '2026-11-21T03:14:16Z'
+status: pending_filter
 sources:
 - hackernews
 - officialfeeds
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://steambrew.app/
@@ -36,6 +37,11 @@ sightings:
 - source: officialfeeds
   url: https://openai.com/index/navier-stokes-solution
   seen_at: '2026-09-10T05:13:54Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem
+  seen_at: '2026-11-21T03:14:16Z'
   metrics: {}
   kind: news
 ---

@@ -21,17 +21,17 @@ canonical_url: https://github.com/haczen/ai-dialog-manage
 summary: '一个窗口管住 9 种 AI 编程工具的聊天记录：统一浏览/搜索/编辑，会话转生到其它 AI 工具换目录继续聊，零依赖意识上传包 | Unified AI CLI session manager:
   browse / search / edit / transplant'
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/haczen/ai-dialog-manage
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 43
-    forks: 17
+    stars: 45
+    forks: 18
     open_issues: 0
   kind: product
 ---

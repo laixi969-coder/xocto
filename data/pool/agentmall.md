@@ -20,17 +20,17 @@ url: https://getagentmall.com
 canonical_url: https://getagentmall.com
 summary: Let your AI agent buy groceries
 first_seen: '2026-11-20T03:15:51Z'
-last_seen: '2026-11-20T03:15:51Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://getagentmall.com
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    points: 18
-    comments: 4
+    points: 20
+    comments: 9
   kind: product
 ---
 

@@ -1,0 +1,18 @@
+- id: ev-4285c494850267a9
+  project_slug: announcing-amazon-textract-insights-verifiable-generative-ai
+  url: https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/
+  title: 'Announcing Amazon Textract Insights: Verifiable generative AI for documents'
+  published_at: '2026-11-20T20:22:00Z'
+  collected_at: '2026-11-21T03:14:15Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Organizations across financial services, insurance, healthcare, and the public sector depend on
+    document processing. They turn scanned files and paper forms into structured data their systems can
+    act on. As generative AI has matured, these organizations want more than accurate text extraction.
+    They want to describe the information they need in their own words and get dependable, auditable answers
+    from complex documents. Today, we are announcing the general availability of Amazon Textract Insights
+    , a new generative AI feature of Amazon Textract available through a new API within Amazon Textract.
+    With Amazon Textract Insights, you describe the fields you want in natural language and submit a document
+    or a mixed, multi-document packet. You receive structured results in which each value carries a confidence
+    score and page-level grounding, with no model training required. The challenge of extracting data
+    from mixed packets Many of the high-value document workloads involve diverse, mixed pa

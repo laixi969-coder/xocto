@@ -22,16 +22,16 @@ summary: 'Put thousands of live DOM nodes on an infinite canvas: the GPU draws t
   moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point
   at them.'
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://berkantay.github.io/gpucanvas/
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 536
+    stars: 544
     forks: 39
     open_issues: 0
   kind: product

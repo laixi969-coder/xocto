@@ -20,18 +20,18 @@ url: https://github.com/olovalabs/shob
 canonical_url: https://github.com/olovalabs/shob
 summary: The home for your coding agents
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/olovalabs/shob
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 136
-    forks: 4
-    open_issues: 1
+    stars: 144
+    forks: 5
+    open_issues: 0
   kind: product
 ---
 

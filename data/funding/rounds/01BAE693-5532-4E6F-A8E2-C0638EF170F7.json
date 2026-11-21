@@ -1,0 +1,127 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/ranketta-24655dd6",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "description": "The platform helps D2C, e-commerce, and B2B brands track how often and how prominently their products and brands appear across tools such as ChatGPT, Gemini, Perplexity, AI Mode, and AI Overview, and provides data-driven suggestions to improve their placement.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "24655DD6-703D-4969-978A-7C55BCF386B9",
+    "investors": [
+      "Gi21 Capital",
+      "Lighthouse Ventures",
+      "Nápad roku",
+      "Reflex Capital"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Ranketta",
+    "rounds": [
+      {
+        "amountEur": 1000000,
+        "date": "2026-11-20",
+        "id": "01BAE693-5532-4E6F-A8E2-C0638EF170F7",
+        "investors": [
+          "Gi21 Capital",
+          "Lighthouse Ventures",
+          "Nápad roku",
+          "Reflex Capital"
+        ],
+        "rawRoundType": "seed",
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/01BAE693-5532-4E6F-A8E2-C0638EF170F7"
+      },
+      {
+        "amountEur": 1000000,
+        "date": "2025-11-27",
+        "id": "3D459830-19FC-433E-9378-EFA36D17411D",
+        "investors": [
+          "Gi21 Capital",
+          "Lighthouse Ventures"
+        ],
+        "rawRoundType": "pre-seed",
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/3D459830-19FC-433E-9378-EFA36D17411D"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 11
+      },
+      "heat": 50,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 14
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 2000000,
+    "url": "https://funding.tech.eu/companies/24655DD6-703D-4969-978A-7C55BCF386B9",
+    "website": "https://ranketta.com/"
+  },
+  "round": {
+    "amountEur": 1000000,
+    "amountEurStored": null,
+    "amountNative": 1000000,
+    "company": {
+      "city": "Prague",
+      "country": "Czech Republic",
+      "founded": null,
+      "id": "24655DD6-703D-4969-978A-7C55BCF386B9",
+      "name": "Ranketta",
+      "pageUrl": "https://funding.tech.eu/companies/ranketta-24655dd6",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "low",
+    "currency": "EUR",
+    "date": "2026-11-20",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "01BAE693-5532-4E6F-A8E2-C0638EF170F7",
+    "investors": [
+      "Nápad roku",
+      "Reflex Capital",
+      "Lighthouse Ventures",
+      "Gi21 Capital"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/01BAE693-5532-4E6F-A8E2-C0638EF170F7",
+    "rawRoundType": "seed",
+    "source": {
+      "domain": "therecursive.com",
+      "tier": "unknown"
+    },
+    "stage": "Seed",
+    "url": "/deals/01BAE693-5532-4E6F-A8E2-C0638EF170F7"
+  }
+}

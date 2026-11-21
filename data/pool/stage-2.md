@@ -22,16 +22,16 @@ summary: 'Your AI VTuber Studio: give a character a personality, and in minutes 
   or streaming live. Memory, real-time voice, Neuro SDK, face tracking, OBS output. In the browser or
   as a desktop app.'
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://livliv.ai/stage
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 72
+    stars: 75
     forks: 5
     open_issues: 2
   kind: product

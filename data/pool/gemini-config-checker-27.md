@@ -21,16 +21,16 @@ canonical_url: https://github.com/lloweryfn-rgb/Gemini-Config-Checker-
 summary: 'Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in
   browser check, anti-DPI, Windows/macOS/Linux/Android)'
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lloweryfn-rgb/Gemini-Config-Checker-
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 57
+    stars: 56
     forks: 8
     open_issues: 0
   kind: product

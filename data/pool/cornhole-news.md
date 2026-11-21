@@ -20,17 +20,17 @@ url: https://cornholenews.news
 canonical_url: https://cornholenews.news
 summary: A Hacker News inspired site for news across the Midwest
 first_seen: '2026-11-20T03:15:51Z'
-last_seen: '2026-11-20T03:15:51Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://cornholenews.news
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    points: 196
-    comments: 93
+    points: 235
+    comments: 119
   kind: product
 ---
 

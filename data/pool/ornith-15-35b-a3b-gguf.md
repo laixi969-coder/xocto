@@ -20,7 +20,7 @@ url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 summary: 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-11-20T03:15:51Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: rejected
 sources:
 - modelscope
@@ -281,17 +281,17 @@ sightings:
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/apple/FastFrames-L
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    likes: 45
-    downloads: 169
+    likes: 51
+    downloads: 233
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/SenseNova/SenseNova-Loop-9B
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    likes: 5
-    downloads: 2046
+    likes: 42
+    downloads: 2809
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/higurashi-ai/Haru-4B
@@ -299,6 +299,13 @@ sightings:
   metrics:
     likes: 11
     downloads: 340
+  kind: product
+- source: modelscope
+  url: https://modelscope.cn/models/thinkingmachines/Inkling-2-Mini
+  seen_at: '2026-11-21T03:13:50Z'
+  metrics:
+    likes: 3
+    downloads: 32
   kind: product
 ---
 

@@ -21,17 +21,17 @@ canonical_url: https://howznguyen.dev/projects/shorts-kit
 summary: Make narrated vertical shorts (TikTok, YouTube Shorts, Reels) with a coding agent and Remotion.
   9+ agent skills, 20+ story flows, fact ledger, CC0 SFX.
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://howznguyen.dev/projects/shorts-kit
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 197
-    forks: 67
+    stars: 199
+    forks: 68
     open_issues: 0
   kind: product
 ---

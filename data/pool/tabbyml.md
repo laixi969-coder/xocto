@@ -20,17 +20,17 @@ url: https://tabbyml.github.io/weight-space-playground/
 canonical_url: https://tabbyml.github.io/weight-space-playground
 summary: Watch weight-space programming in action with WebGPU
 first_seen: '2026-11-20T03:15:51Z'
-last_seen: '2026-11-20T03:15:51Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tabbyml.github.io/weight-space-playground/
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    points: 33
-    comments: 4
+    points: 40
+    comments: 6
   kind: product
 ---
 

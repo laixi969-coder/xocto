@@ -22,17 +22,17 @@ summary: A lightweight DSH plugin for persistent local WARN/ERROR logs in rotati
   bounded buffering, best-effort secret redaction, and automatic log retention. Zero runtime dependencies.
   Supports DSH on Windows x64.
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/WforEvery/dsh-runtime-log
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 101
-    forks: 8
+    stars: 71
+    forks: 7
     open_issues: 0
   kind: product
 ---

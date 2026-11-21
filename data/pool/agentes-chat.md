@@ -22,18 +22,18 @@ summary: Open-source, self-hosted Slack alternative where your team and AI agent
   and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and
   browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://agentes.chat
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 1763
-    forks: 329
-    open_issues: 372
+    stars: 1855
+    forks: 357
+    open_issues: 393
   kind: product
 ---
 

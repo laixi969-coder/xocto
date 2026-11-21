@@ -21,18 +21,18 @@ canonical_url: https://dusk.bot
 summary: Free Grok Bot alternative that runs on your own models. Use the ChatGPT, Claude, or Grok subscription
   you already pay for, and get a team of bots each with its own memory and computer.
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://dusk.bot
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 487
-    forks: 65
-    open_issues: 47
+    stars: 545
+    forks: 68
+    open_issues: 5
   kind: product
 ---
 

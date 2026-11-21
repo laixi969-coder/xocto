@@ -20,17 +20,17 @@ url: https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understa
 canonical_url: https://robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html
 summary: AI Came for the Coders. Understanding Why Tells Us Who's Next
 first_seen: '2026-11-20T03:15:51Z'
-last_seen: '2026-11-20T03:15:51Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    points: 44
-    comments: 50
+    points: 68
+    comments: 81
   kind: news
 ---
 

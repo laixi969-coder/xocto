@@ -21,17 +21,17 @@ canonical_url: https://github.com/andrew-babo/muse4ai
 summary: Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via
   REST, MCP, and OAuth.
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/andrew-babo/muse4ai
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
-    stars: 272
-    forks: 45
+    stars: 335
+    forks: 51
     open_issues: 6
   kind: product
 ---

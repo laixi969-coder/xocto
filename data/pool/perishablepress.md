@@ -20,17 +20,17 @@ url: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/
 canonical_url: https://perishablepress.com/chrome-ai-wasting-much-bandwidth
 summary: Chrome AI features wasting much bandwidth
 first_seen: '2026-11-20T03:15:51Z'
-last_seen: '2026-11-20T03:15:51Z'
+last_seen: '2026-11-21T03:13:50Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/
-  seen_at: '2026-11-20T03:15:51Z'
+  seen_at: '2026-11-21T03:13:50Z'
   metrics:
-    points: 127
-    comments: 48
+    points: 132
+    comments: 51
   kind: news
 ---
 

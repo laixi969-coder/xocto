@@ -1,0 +1,18 @@
+- id: ev-dfdea2f4cc490f2a
+  project_slug: how-standard-bank-group-automates-ai-risk-assessment-for-gen
+  url: https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/
+  title: How Standard Bank Group automates AI risk assessment for generative AI
+  published_at: '2026-11-20T20:37:31Z'
+  collected_at: '2026-11-21T03:14:15Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: This post is co-written with Tala Qraitem from AWS and Jörg Fischer from Standard Bank Group Having
+    an AI policy is one thing. Proving, one use case at a time, that AI systems follow it is another.
+    Every new generative AI application adds one more system to prove. Teams can now build one in days,
+    but each still needs a risk committee’s approval before it reaches customers or employees. When that
+    approval depends on reviewers reading documents and testing the system by hand, governance becomes
+    the slowest step in the pipeline. Standard Bank Group chose to automate that proof. Working with AWS
+    Professional Services, the bank deployed an automated assessment that scores each generative AI use
+    case against international AI standards and its own policies. The assessment produces reports and
+    a dashboard that show what is already in place, what is working well, and what still needs mitigation.
+    This post explains how the assessment runs on AWS and what Standard Bank Group learned from its firs

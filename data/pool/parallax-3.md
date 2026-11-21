@@ -21,17 +21,17 @@ canonical_url: https://github.com/AI4XE/Parallax
 summary: A hands-off development plugin for AI coding agents (Claude Code, DeepSeek Harness, GitHub Copilot
   and more)
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-21T03:13:53Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AI4XE/Parallax
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-21T03:13:53Z'
   metrics:
     stars: 136
-    forks: 0
+    forks: 1
     open_issues: 1
   kind: product
 ---
