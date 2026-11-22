@@ -20,17 +20,17 @@ url: https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-a
 canonical_url: https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition
 summary: Google workers tell their employer not to punish schools that don't want AI
 first_seen: '2026-11-21T03:13:50Z'
-last_seen: '2026-11-21T03:13:50Z'
+last_seen: '2026-11-22T02:14:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/
-  seen_at: '2026-11-21T03:13:50Z'
+  seen_at: '2026-11-22T02:14:38Z'
   metrics:
-    points: 267
-    comments: 198
+    points: 279
+    comments: 228
   kind: news
 ---
 

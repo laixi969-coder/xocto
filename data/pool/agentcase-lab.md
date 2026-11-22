@@ -20,16 +20,16 @@ url: https://github.com/TngSHoO/agentcase-lab
 canonical_url: https://github.com/TngSHoO/agentcase-lab
 summary: AI Agent failure replay and root cause analysis platform
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/TngSHoO/agentcase-lab
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 392
+    stars: 393
     forks: 59
     open_issues: 0
   kind: product

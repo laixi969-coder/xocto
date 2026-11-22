@@ -21,18 +21,18 @@ canonical_url: https://pi-gpui.dev
 summary: A native GUI for the pi coding agent, built with Rust and GPUI. For macOS (Apple silicon) and
   Linux.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://pi-gpui.dev
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 185
-    forks: 20
-    open_issues: 7
+    stars: 189
+    forks: 21
+    open_issues: 6
   kind: product
 ---
 

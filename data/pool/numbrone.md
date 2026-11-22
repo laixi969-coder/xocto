@@ -21,16 +21,16 @@ canonical_url: https://github.com/stevenmichaelthomas/numbrone
 summary: 'A chief of staff for your coding agents: route requests to per-project manager agents that run
   parallel workers in git worktrees, on herdr.'
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/stevenmichaelthomas/numbrone
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 142
+    stars: 144
     forks: 5
     open_issues: 0
   kind: product

@@ -20,7 +20,7 @@ url: https://games.yanisfalaki.com/
 canonical_url: https://games.yanisfalaki.com
 summary: Two browser games set inside one real Gaussian-splat scan
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-11-04T02:21:17Z'
+last_seen: '2026-11-22T02:15:03Z'
 status: pending_filter
 sources:
 - hackernews
@@ -73,6 +73,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates
   seen_at: '2026-11-04T02:21:17Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai
+  seen_at: '2026-11-22T02:15:03Z'
   metrics: {}
   kind: news
 ---

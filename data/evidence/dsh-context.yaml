@@ -3805,3 +3805,34 @@
   tier: behavioural
   fact: 'Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots,
     batched steps, and a submit guard on by default | repository stars: 133'
+- id: ev-014807286e5ecb65
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/rust-anything
+  title: rust-anything
+  published_at: '2026-11-16T12:10:36Z'
+  collected_at: '2026-11-22T02:14:43Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Rewrite your whole app in Rust, one piece at a time, checked against the original''s recorded
+    behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.
+    | repository stars: 7,460'
+- id: ev-2b4f93da0cb39da9
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/turbo-browser-mcp
+  title: turbo-browser-mcp
+  published_at: '2026-11-14T12:11:07Z'
+  collected_at: '2026-11-22T02:14:43Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots,
+    batched steps, and a submit guard on by default | repository stars: 138'
+- id: ev-0860f155b04fbc3e
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-asuta-cdx-plus
+  title: dsh-cdx-plus
+  published_at: '2026-11-11T23:13:02Z'
+  collected_at: '2026-11-22T02:14:43Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DSH CDX Plus · npm: dsh-asuta-cdx-plus · Codex-inspired DSH 增强合集：选中引用、侧边对话、Git 工作树、代码审查，18 项功能独立启停。
+    | repository stars: 46'

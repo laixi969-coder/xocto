@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiekFVX3lxTFBlT192ajIwVGw0SzVJTnBUTm
 canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTFBlT192ajIwVGw0SzVJTnBUTm5MQlo4b3Z4MThfVVhlMFVPWi15VmRjX1NaU3l0TkU2UHR2VjZIc2NURWw2VURLQ3hXNnRuQjEycWVjaE5uTUJOc0pTS2ItaVZZZmVNaVFkYi1mWGVuSjNCakFXdmZLeDJR?oc=5
 summary: How AI jobs are reshaping customer demand and business growth EY
 first_seen: '2026-11-05T02:30:34Z'
-last_seen: '2026-11-09T09:13:10Z'
+last_seen: '2026-11-22T02:15:21Z'
 status: pending_filter
 sources:
 - newssearch
@@ -33,6 +33,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiekFVX3lxTE9xLXNMd2N2NkdiaWRNNEduRlJJWlZ1dGNfbWlDd05wejh6RTJmdTdpelpmbDBQSFVwZkM3WGJjZ0lUc3BtLUJGOW1rUnlGbXBFN2ZRQXBBc0ZTdG55VFJTdno0c2xSZXBfUFF2c0ZCTDZweG9JcUt6OXBB?oc=5
   seen_at: '2026-11-09T09:13:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiekFVX3lxTE1Ib2JhcVp2Yi1TM2s5ZVdxNDFieWFTb0pSemVhSGVWQnQ3QW9rOUU1UWE2a0RBdE1lREx3TFZUV21TSVZaRTg1N29CVTR2SEV0SlhMQ2NDMjRyV2RLeHphZWdXRlpxVmhCa0t4S2FXYmdCZmVjN19QTHZ3?oc=5
+  seen_at: '2026-11-22T02:15:21Z'
   metrics: {}
   kind: news
 ---

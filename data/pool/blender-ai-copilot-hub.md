@@ -23,16 +23,16 @@ summary: A multi-provider AI copilot hub for Blender—bring OpenAI, Anthropic C
   tools and a built-in MCP server. · blender-ai-copilot-hub · blender · blender 3d · blender addon · blender
   plugin · blender extension
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/baiblinocun1986/blender-ai-copilot-hub
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 502
+    stars: 501
     forks: 16
     open_issues: 44
   kind: product

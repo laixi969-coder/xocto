@@ -22,17 +22,17 @@ summary: Zero-dependency native Gemini HTTP/2 gateway & in-process Pi extension 
   Gemini subscriptions to OpenAI-compatible coding agents (Cursor, Cline, Codex, Pi) with multi-account
   pooling.
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ShawTim/gemini-app2api
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 74
-    forks: 11
+    stars: 89
+    forks: 13
     open_issues: 0
   kind: product
 ---

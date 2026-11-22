@@ -22,17 +22,17 @@ summary: 歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动�
   builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable
   demo included.
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://op7418.github.io/guizang-game-skill/
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 426
-    forks: 69
+    stars: 432
+    forks: 71
     open_issues: 3
   kind: product
 ---

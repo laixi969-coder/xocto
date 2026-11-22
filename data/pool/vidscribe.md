@@ -20,16 +20,16 @@ url: https://github.com/SamuelZ12/vidscribe
 canonical_url: https://github.com/SamuelZ12/vidscribe
 summary: Local transcripts and video frames for AI agents on Apple Silicon
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SamuelZ12/vidscribe
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 170
+    stars: 173
     forks: 6
     open_issues: 6
   kind: product

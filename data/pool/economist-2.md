@@ -20,7 +20,7 @@ url: https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-th
 canonical_url: https://economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market
 summary: AI compute is the new oil–and needs a new market
 first_seen: '2026-10-24T00:43:20Z'
-last_seen: '2026-11-14T02:27:33Z'
+last_seen: '2026-11-22T02:14:38Z'
 status: pending_filter
 sources:
 - hackernews
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 101
     comments: 84
+  kind: news
+- source: hackernews
+  url: https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics
+  seen_at: '2026-11-22T02:14:38Z'
+  metrics:
+    points: 40
+    comments: 7
   kind: news
 ---
 

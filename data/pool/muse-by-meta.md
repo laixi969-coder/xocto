@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-20T03:16:26Z'
+last_seen: '2026-11-22T02:15:21Z'
 status: pending_filter
 sources:
 - producthunt
@@ -583,6 +583,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price
   seen_at: '2026-11-20T03:16:26Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQZXRsbzRRcGhvc2trNEtyM3FfNlV5dGRoSzRMY3dCM1RkV191WVpyel9wZnZvRFFuZjU2NVVTQVNSbXE5dzJ0bGNxVHNYWTdaQ2Foa3hUVmNzalctYnZRU2M0a2tmQjdCNzFGa29tenM5S28wN2N6bUxqV3VwbHhZWmplUEZzWkFxNzN5QkprZUM0QkVCOFZtUjdUWGctdTNvV1HSAaIBQVVfeXFMUGV0bG80UXBob3NrazRLcjNxXzZVeXRkaEs0TGN3QjNUZFdfdVlacnpfcGZ2b0RRbmY1NjVVU0FTUm1xOXcydGxjcVRzWFk3WkNhaGt4VFZjc2pXLWJ2UVNjNGtrZkI3QjcxRmtvbXpzOUtvMDdjem1Mald1cGx4WVpqZVBGc1pBcTczeUJKa2VDNEJFQjhWbVI3VFhnLXUzb1dR?oc=5
+  seen_at: '2026-11-22T02:15:21Z'
   metrics: {}
   kind: news
 ---

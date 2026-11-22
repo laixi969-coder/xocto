@@ -1,0 +1,41 @@
+---
+slug: from-pilots-to-profits-listed-new-age-firms-scale-up-ai-depl
+name: 'From pilots to profits: Listed new-age firms scale up AI deployment'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNFI2S0VWVkV0OWRQOG9UZncteGU0dVRUc1p3Smp2NEk1LUJwbkZ0ejBFMkJiWVZIam9DVlhJMzVxRG1kQkJHMGxyWmh3YkZlbFFsUTEtaURlNFd6eXBoWVpjSDRBOE01T1Rtc19VVjduU0NLbUtsUnA4Ykx6dE44YWV3YkNXcm1jZDV1QjZpTDFhbmM5emRHV0syQng2alVuZVlmZy1PNGxPV0tPeXVkUjQ4VFJhb0g1R2UyWlFiZWdfZGdvTGR1N2JJUE4wOGdIYzFDUXFGUFXSAd4BQVVfeXFMUHdxdzRicmJPQ3R4SU1VNm80SURFQUozZVFsUkpsQ1N4RkdzODc4NzdQN1JzMUVtM1ZSZ0VmOE42VzkwSWxsbFVoNW05TUR0THlHbzJHVVhHY2kyNUhVREF4OWZoZVZMZGcwcUozMGU0RDM2aUs4MlVabW5Za21CcXFRNW5McGhuMDBWaUtLY3NWYWtzSWR4eUtwM09DT09SYUFWLVhuM1ViTzZVdzZ5M3VmamVHQk9OdUFBRkQzLW4yUV93Mm80VWRLbFlnV1doNXdYalVxcWNjQ1BPZDR3?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNFI2S0VWVkV0OWRQOG9UZncteGU0dVRUc1p3Smp2NEk1LUJwbkZ0ejBFMkJiWVZIam9DVlhJMzVxRG1kQkJHMGxyWmh3YkZlbFFsUTEtaURlNFd6eXBoWVpjSDRBOE01T1Rtc19VVjduU0NLbUtsUnA4Ykx6dE44YWV3YkNXcm1jZDV1QjZpTDFhbmM5emRHV0syQng2alVuZVlmZy1PNGxPV0tPeXVkUjQ4VFJhb0g1R2UyWlFiZWdfZGdvTGR1N2JJUE4wOGdIYzFDUXFGUFXSAd4BQVVfeXFMUHdxdzRicmJPQ3R4SU1VNm80SURFQUozZVFsUkpsQ1N4RkdzODc4NzdQN1JzMUVtM1ZSZ0VmOE42VzkwSWxsbFVoNW05TUR0THlHbzJHVVhHY2kyNUhVREF4OWZoZVZMZGcwcUozMGU0RDM2aUs4MlVabW5Za21CcXFRNW5McGhuMDBWaUtLY3NWYWtzSWR4eUtwM09DT09SYUFWLVhuM1ViTzZVdzZ5M3VmamVHQk9OdUFBRkQzLW4yUV93Mm80VWRLbFlnV1doNXdYalVxcWNjQ1BPZDR3?oc=5
+summary: 'From pilots to profits: Listed new-age firms scale up AI deployment Moneycontrol.com'
+first_seen: '2026-11-22T02:15:21Z'
+last_seen: '2026-11-22T02:15:21Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNFI2S0VWVkV0OWRQOG9UZncteGU0dVRUc1p3Smp2NEk1LUJwbkZ0ejBFMkJiWVZIam9DVlhJMzVxRG1kQkJHMGxyWmh3YkZlbFFsUTEtaURlNFd6eXBoWVpjSDRBOE01T1Rtc19VVjduU0NLbUtsUnA4Ykx6dE44YWV3YkNXcm1jZDV1QjZpTDFhbmM5emRHV0syQng2alVuZVlmZy1PNGxPV0tPeXVkUjQ4VFJhb0g1R2UyWlFiZWdfZGdvTGR1N2JJUE4wOGdIYzFDUXFGUFXSAd4BQVVfeXFMUHdxdzRicmJPQ3R4SU1VNm80SURFQUozZVFsUkpsQ1N4RkdzODc4NzdQN1JzMUVtM1ZSZ0VmOE42VzkwSWxsbFVoNW05TUR0THlHbzJHVVhHY2kyNUhVREF4OWZoZVZMZGcwcUozMGU0RDM2aUs4MlVabW5Za21CcXFRNW5McGhuMDBWaUtLY3NWYWtzSWR4eUtwM09DT09SYUFWLVhuM1ViTzZVdzZ5M3VmamVHQk9OdUFBRkQzLW4yUV93Mm80VWRLbFlnV1doNXdYalVxcWNjQ1BPZDR3?oc=5
+  seen_at: '2026-11-22T02:15:21Z'
+  metrics: {}
+  kind: news
+---
+
+# From pilots to profits: Listed new-age firms scale up AI deployment
+
+From pilots to profits: Listed new-age firms scale up AI deployment Moneycontrol.com
+
+## 笔记
+
+

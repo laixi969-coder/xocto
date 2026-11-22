@@ -20,17 +20,17 @@ url: https://charts.ztd.app
 canonical_url: https://charts.ztd.app
 summary: 36 animated, interactive React charts in pure SVG, with a CLI and an MCP server
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-12T02:59:41Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://charts.ztd.app
-  seen_at: '2026-11-12T02:59:41Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 299
-    forks: 41
+    stars: 377
+    forks: 54
     open_issues: 0
   kind: product
 ---

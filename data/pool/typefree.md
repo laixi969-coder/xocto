@@ -21,18 +21,18 @@ canonical_url: https://github.com/dengxuezhao/TypeFree
 summary: 'TypeFree: Modern Native Kotlin + Compose Android AI Voice Keyboard & Floating Bubble with BYOK
   Dual-Engine and Custom Rime IME Tables'
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dengxuezhao/TypeFree
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 56
+    stars: 57
     forks: 3
-    open_issues: 4
+    open_issues: 5
   kind: product
 ---
 

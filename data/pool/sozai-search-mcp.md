@@ -21,16 +21,16 @@ canonical_url: https://github.com/kanaworksai-hue/sozai-search-mcp
 summary: 'Free 3D assets for AI agents: search ~36,000 free (mostly CC0) models, materials and HDRIs with
   real-world sizes, as an MCP server'
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kanaworksai-hue/sozai-search-mcp
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 54
+    stars: 55
     forks: 4
     open_issues: 0
   kind: product

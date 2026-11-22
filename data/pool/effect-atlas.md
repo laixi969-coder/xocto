@@ -21,18 +21,18 @@ canonical_url: https://effectatlas.com
 summary: Web motion effects in plain JavaScript, written for your AI to build into your site. Free to
   use.
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://effectatlas.com
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 116
+    stars: 120
     forks: 13
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

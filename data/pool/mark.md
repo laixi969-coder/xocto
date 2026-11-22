@@ -31,7 +31,7 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-11-18T03:43:38Z'
+last_seen: '2026-11-22T02:15:21Z'
 status: pending_filter
 sources:
 - hackernews
@@ -469,6 +469,16 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang
   seen_at: '2026-11-18T03:43:38Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNaXVSQW9WLVlySzBzcWNBWWJINlBKbG01Z1FpVkJPMHVOd25MTGltX3pFeFVubnJVZ0J3X0RPcE9kV3Q4cWhZQ1RRNmFIT2tKc3MtellqcFhrUDJ1WmhwTmh4MTIxYUtaLUNWY2cxZU5kY1dJeU5fZ2ZicWZZeDJyWkIyUE9wS1JRYlJRTk5KVXYwRFJFek0wRVhIdEJQZmFkNFV1Y19jdE1qY3MtM2xaWExIOENoVlpHR1ZPdmw0OEJ5M240TGxR0gHMAUFVX3lxTE9sd0lLS05JOFowcndQS1lHOThVLXJfWFZ0T1lQRW82cG8tVGlPMDVhWElLbG5WcTUzc18tOHQyVnBEbG8ta21WT1A0ZmhoWk81Y0p2aGktcTUxcjhrdzVyTTRrV2xsVjFvc3JVMGRjUXRsVFZORmstRHpfeU1MaS1nNWZaM25tU3RCU09zeUkwaHA0Ullva1diZktrM3R5eXhicEtzUnJtT29OTTloUllKV0FTSTlMQnc4R3I3WFh1MUI5bjZEM3dIUG9pTQ?oc=5
+  seen_at: '2026-11-22T02:15:21Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yaFlrV0FaaHUwcUtvU0stVVoyRVdnUWh1UU0yOHpSZ2ZyWTh2bWl0SWIzVU16SC1pU1Y2eWx1RnNnRTJSNktiaVNBbHhHSG55WnFv?oc=5
+  seen_at: '2026-11-22T02:15:21Z'
   metrics: {}
   kind: news
 ---

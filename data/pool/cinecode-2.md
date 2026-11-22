@@ -21,18 +21,18 @@ canonical_url: https://x.com/sarpstar
 summary: 'Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an
   AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.'
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://x.com/sarpstar
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 2811
-    forks: 474
-    open_issues: 14
+    stars: 2839
+    forks: 481
+    open_issues: 18
   kind: product
 ---
 

@@ -1,7 +1,7 @@
 ---
 slug: researcher-plants-2m-canaries-into-the-ai-supply-chain-a-pri
 name: Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.
-builder: ''
+builder: BoiledCabbage
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -31,15 +31,23 @@ summary: Researchers planted 2 million digital tripwires in requests sent throug
   potential leakage, researcher HD Moore assembled a collection of Amazon Web Services access keys, functioning
   credentials tied to empty AWS accounts, passwords for services such as SSH, and unique URLs, DNS
 first_seen: '2026-11-21T03:14:16Z'
-last_seen: '2026-11-21T03:14:16Z'
+last_seen: '2026-11-22T02:14:38Z'
 status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/
   seen_at: '2026-11-21T03:14:16Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/
+  seen_at: '2026-11-22T02:14:38Z'
+  metrics:
+    points: 51
+    comments: 6
   kind: news
 ---
 

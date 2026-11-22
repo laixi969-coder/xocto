@@ -7,3 +7,23 @@
   source_kind: market_signal
   tier: first_party
   fact: ''
+- id: ev-1b73e85f75467bcf
+  project_slug: inkling-2-mini
+  url: https://www.v2ex.com/t/1258759
+  title: Inkling 2 Mini 说能在笔记本上跑，模型卡推荐 32GB
+  published_at: '2026-11-21T07:56:25Z'
+  collected_at: '2026-11-22T02:14:35Z'
+  source_kind: product
+  tier: independent
+  fact: "刷到 Thinking Machines Lab 11 月 20 日发了开源权重模型 Inkling 2 Mini。\r\n\r\n[官方发布](https://thinkingmachines.ai/news/inkling-2-mini/)\r\
+    \n\r\n官方博客写能在笔记本上跑，权重大约 20GB。他们演示是在飞行途中用离线的 MacBook Pro 跑的，那台是 48GB 内存。[模型卡列的配置](https://lotook.com/articles/inkling-2-mini/)是\
+    \ 32GB 及以上内存的 Apple silicon，其它 GPU 推荐 32GB 及以上显存。"
+- id: ev-37c5eab03c3bad1e
+  project_slug: inkling-2-mini
+  url: https://thinkingmachines.ai/news/inkling-2-mini/
+  title: Inkling 2 Mini
+  published_at: '2026-11-20T20:12:19Z'
+  collected_at: '2026-11-22T02:14:38Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: ''

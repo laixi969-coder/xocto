@@ -21,17 +21,17 @@ canonical_url: https://github.com/toppatronweave/GitHub-Copilot-app
 summary: The GitHub Copilot app is an agent-native desktop experience for finding, running, steering,
   and landing software work across your GitHub repositories.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/toppatronweave/GitHub-Copilot-app
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 379
-    forks: 173
+    stars: 376
+    forks: 171
     open_issues: 0
   kind: product
 ---

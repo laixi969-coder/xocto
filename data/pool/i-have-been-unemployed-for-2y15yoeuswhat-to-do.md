@@ -22,17 +22,17 @@ summary: I&#x27;m Senior software engineer in the US (DMV area), with 15y of exp
   50+ company and bunch of mid-size companies. Been unemployed for 2y and can&#x27;t find a job, within
   those 2 years, I pr…
 first_seen: '2026-11-21T03:13:50Z'
-last_seen: '2026-11-21T03:13:50Z'
+last_seen: '2026-11-22T02:14:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50583761
-  seen_at: '2026-11-21T03:13:50Z'
+  seen_at: '2026-11-22T02:14:38Z'
   metrics:
-    points: 31
-    comments: 36
+    points: 620
+    comments: 694
   kind: news
 ---
 

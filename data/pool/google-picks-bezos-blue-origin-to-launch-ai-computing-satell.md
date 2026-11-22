@@ -1,0 +1,41 @@
+---
+slug: google-picks-bezos-blue-origin-to-launch-ai-computing-satell
+name: Google picks Bezos' Blue Origin to launch AI computing satellites in 2029
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQlRyZnN1QXJVMzU0WjZBV0xFWTBBU1l5NmdIdEFDMHIyV182ZFIxQWliR1libWpsdDlfVGpDYl9faS1hbWJEaEhYbHJlTzY2X2lOcERvSXZiczlERWs5bXl1aExLcHgwcU1BbkhGNy1zczZIeHhtMjJXTG5jRlMxY3kwRy1wc1E5bUY5Wm5uZUhPWlBEbDR0SXRPSVlyVlhUbk9Pc0Q2d2M5cm42Y3VROWo1a1BWVERoQ3VNazZCa0lVN29iekIwY1JJSWRPX2dPSGhZc1lQRdIB3AFBVV95cUxPeWgxbmQ4LXVrTlNHTFJLX1lCVkdIZnZQXzNSWTF4bFZJeDh0YVhaV0hpemtDNzlLSEVjcTM5YjFweG1ydElnbEtzMW5aQWdaZ0M4a3htLXp5SkxwRUV1SWlDWk5TNVFQTWxvcFY5Q1prbUo3dml6a1dHV2VuVnBqbXdrQ3Y4UUNJTEJlTmpFZGVnUGVLQzJoVmktVU0tNk1YX0thX0ZKWkRBYnZNME9HYWRfZ2pLTEtmWGNwVktZZmR4M0w0MEVGOWtXblVLbFkyZHdKcHdIYlVsR0o1?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQlRyZnN1QXJVMzU0WjZBV0xFWTBBU1l5NmdIdEFDMHIyV182ZFIxQWliR1libWpsdDlfVGpDYl9faS1hbWJEaEhYbHJlTzY2X2lOcERvSXZiczlERWs5bXl1aExLcHgwcU1BbkhGNy1zczZIeHhtMjJXTG5jRlMxY3kwRy1wc1E5bUY5Wm5uZUhPWlBEbDR0SXRPSVlyVlhUbk9Pc0Q2d2M5cm42Y3VROWo1a1BWVERoQ3VNazZCa0lVN29iekIwY1JJSWRPX2dPSGhZc1lQRdIB3AFBVV95cUxPeWgxbmQ4LXVrTlNHTFJLX1lCVkdIZnZQXzNSWTF4bFZJeDh0YVhaV0hpemtDNzlLSEVjcTM5YjFweG1ydElnbEtzMW5aQWdaZ0M4a3htLXp5SkxwRUV1SWlDWk5TNVFQTWxvcFY5Q1prbUo3dml6a1dHV2VuVnBqbXdrQ3Y4UUNJTEJlTmpFZGVnUGVLQzJoVmktVU0tNk1YX0thX0ZKWkRBYnZNME9HYWRfZ2pLTEtmWGNwVktZZmR4M0w0MEVGOWtXblVLbFkyZHdKcHdIYlVsR0o1?oc=5
+summary: Google picks Bezos' Blue Origin to launch AI computing satellites in 2029 The Economic Times
+first_seen: '2026-11-22T02:15:21Z'
+last_seen: '2026-11-22T02:15:21Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQlRyZnN1QXJVMzU0WjZBV0xFWTBBU1l5NmdIdEFDMHIyV182ZFIxQWliR1libWpsdDlfVGpDYl9faS1hbWJEaEhYbHJlTzY2X2lOcERvSXZiczlERWs5bXl1aExLcHgwcU1BbkhGNy1zczZIeHhtMjJXTG5jRlMxY3kwRy1wc1E5bUY5Wm5uZUhPWlBEbDR0SXRPSVlyVlhUbk9Pc0Q2d2M5cm42Y3VROWo1a1BWVERoQ3VNazZCa0lVN29iekIwY1JJSWRPX2dPSGhZc1lQRdIB3AFBVV95cUxPeWgxbmQ4LXVrTlNHTFJLX1lCVkdIZnZQXzNSWTF4bFZJeDh0YVhaV0hpemtDNzlLSEVjcTM5YjFweG1ydElnbEtzMW5aQWdaZ0M4a3htLXp5SkxwRUV1SWlDWk5TNVFQTWxvcFY5Q1prbUo3dml6a1dHV2VuVnBqbXdrQ3Y4UUNJTEJlTmpFZGVnUGVLQzJoVmktVU0tNk1YX0thX0ZKWkRBYnZNME9HYWRfZ2pLTEtmWGNwVktZZmR4M0w0MEVGOWtXblVLbFkyZHdKcHdIYlVsR0o1?oc=5
+  seen_at: '2026-11-22T02:15:21Z'
+  metrics: {}
+  kind: news
+---
+
+# Google picks Bezos' Blue Origin to launch AI computing satellites in 2029
+
+Google picks Bezos' Blue Origin to launch AI computing satellites in 2029 The Economic Times
+
+## 笔记
+
+

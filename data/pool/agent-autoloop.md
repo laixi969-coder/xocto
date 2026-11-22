@@ -20,18 +20,18 @@ url: https://github.com/KKKKhazix/agent-autoloop
 canonical_url: https://github.com/KKKKhazix/agent-autoloop
 summary: 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。
 first_seen: '2026-11-04T02:20:51Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/KKKKhazix/agent-autoloop
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 6130
-    forks: 1142
-    open_issues: 3
+    stars: 6208
+    forks: 1153
+    open_issues: 0
   kind: product
 ---
 

@@ -21,18 +21,18 @@ canonical_url: https://github.com/howznguyen/phonedesk
 summary: Turn an old phone into a Stream Deck-style control panel and dashboard for your Mac or Windows
   PC. No app, no account, no cloud.
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/howznguyen/phonedesk#readme
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 42
-    forks: 15
-    open_issues: 2
+    stars: 44
+    forks: 16
+    open_issues: 3
   kind: product
 ---
 

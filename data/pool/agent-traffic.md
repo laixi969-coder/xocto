@@ -20,16 +20,16 @@ url: https://agent-traffic.mintlify.site
 canonical_url: https://agent-traffic.mintlify.site
 summary: Tell agents, AI crawlers, search crawlers and bots apart from people
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://agent-traffic.mintlify.site
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 87
+    stars: 88
     forks: 4
     open_issues: 2
   kind: product

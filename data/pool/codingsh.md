@@ -21,18 +21,18 @@ canonical_url: https://coding.sh
 summary: 'Open-source, local-first observability and evals for AI agents: see what Claude Code, Codex,
   Cursor and others did and what it cost.'
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://coding.sh
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
     stars: 149
     forks: 6
-    open_issues: 1
+    open_issues: 4
   kind: product
 ---
 

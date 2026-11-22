@@ -20,17 +20,17 @@ url: https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillio
 canonical_url: https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90
 summary: Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street
 first_seen: '2026-11-21T03:13:50Z'
-last_seen: '2026-11-21T03:13:50Z'
+last_seen: '2026-11-22T02:14:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90
-  seen_at: '2026-11-21T03:13:50Z'
+  seen_at: '2026-11-22T02:14:38Z'
   metrics:
-    points: 44
-    comments: 4
+    points: 66
+    comments: 5
   kind: news
 ---
 

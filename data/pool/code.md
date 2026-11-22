@@ -53,11 +53,12 @@ summary: "Claude Max 订阅用了小半年之后，还是被封了。\r\n\r\n简
   \ GPT 100刀 + Gemini 50刀。对比我之前的 Claude Max 125刀（IOS订阅）成本上差别不大。\r\n\r\n目前 Claude 订阅的溢价对我来讲过高了，说到底是个成本的问题，成本允许的话，我早就找个靠谱中转一把梭了。希望我的项目早日扭亏为盈哈哈哈。\r\
   \n\r\n希望能给同样被封各位一些新思路吧，如果有更好的配置、使用方法也欢迎讨论。"
 first_seen: '2026-11-20T03:15:49Z'
-last_seen: '2026-11-20T03:16:25Z'
+last_seen: '2026-11-22T02:15:21Z'
 status: pending_filter
 sources:
 - v2ex
 - officialfeeds
+- newssearch
 sightings:
 - source: v2ex
   url: https://code.claude.com/docs/zh-CN/prompt-caching#which-ttl-each-request-gets
@@ -68,6 +69,11 @@ sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/
   seen_at: '2026-11-20T03:16:25Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxPX3o3eldDLTdvWmRmM3FKcFpKckpoZjczMDg2Um9PMktiRkVfMlZYbFVNX1Z0ZXIzVWNTT0xrT09KTGhtRU5oc1N1aHhGd2lXMWlvN1MzQkhKci13dFNXYVNQbEhiRVVBY0g1b05PUHBHSEQwRlUzcERlYThrZzFSeWxLeGVvMnFYaHZFWUZ6SDhsWjgyYTBuMUxxRkFtMXlEalhLVG8wSklMRG55YVRCWS0wOUZ5dDZqdm9oTXh6ZW5ZUkllLUZldmdNODJ1eDExTlV1dmw2T2k1dw?oc=5
+  seen_at: '2026-11-22T02:15:21Z'
   metrics: {}
   kind: news
 ---

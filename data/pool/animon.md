@@ -20,16 +20,16 @@ url: https://github.com/TobyWang1996/animon
 canonical_url: https://github.com/TobyWang1996/animon
 summary: A character-based AI companion prototype with local memory and optional voice interaction.
 first_seen: '2026-11-21T03:13:53Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/TobyWang1996/animon
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 45
+    stars: 60
     forks: 0
     open_issues: 1
   kind: product

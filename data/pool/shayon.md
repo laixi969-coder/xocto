@@ -20,16 +20,16 @@ url: https://shayon.work/riemann
 canonical_url: https://shayon.work/riemann
 summary: How deep is the Riemann hypothesis? An interactive explainer
 first_seen: '2026-11-21T03:13:50Z'
-last_seen: '2026-11-21T03:13:50Z'
+last_seen: '2026-11-22T02:14:38Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://shayon.work/riemann
-  seen_at: '2026-11-21T03:13:50Z'
+  seen_at: '2026-11-22T02:14:38Z'
   metrics:
-    points: 8
+    points: 9
     comments: 4
   kind: product
 ---

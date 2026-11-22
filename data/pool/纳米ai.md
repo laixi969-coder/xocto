@@ -10,28 +10,33 @@ inspiration_en: Visits in the hundreds of millions are mostly browser traffic. P
   staying. Don't clone another assistant stuffed into a portal—pick one job 纳米AI does widely and shallowly,
   and make the file good enough for one profession to hand in.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.aicpb.com/product/纳米AI/webid1D6F374D9
 canonical_url: https://aicpb.com/product/纳米AI/webid1D6F374D9
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-11T11:08:17Z'
+last_seen: '2026-11-22T02:15:24Z'
 status: analyzed
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/纳米AI/webid1D6F374D9
-  seen_at: '2026-08-11T11:08:17Z'
+  seen_at: '2026-11-22T02:15:24Z'
   metrics:
     raw_value: 151.92M
     value: 151920000.0
     metric: visits
     mom_raw: -2.62%
     mom_percent: -2.62
-    boards:
-    - 智能体榜
-    - 国内总榜
-    - 全球总榜
+  kind: product
 ---
 
 # 纳米AI

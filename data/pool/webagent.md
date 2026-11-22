@@ -21,16 +21,16 @@ canonical_url: https://github.com/ysunyang4/webagent/blob/main/USAGE.md
 summary: Browser extension that connects ChatGPT, Gemini, DeepSeek, and other web AI chats to local MCP
   tools through Nexus.
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ysunyang4/webagent/blob/main/USAGE.md
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 176
+    stars: 186
     forks: 47
     open_issues: 2
   kind: product

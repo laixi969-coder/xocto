@@ -22,16 +22,16 @@ summary: 'Visual UI for Explainroo. Explainer videos and product demos made by y
   open source: a local voice (Kokoro), word timing (Whisper) and a canvas renderer turn a script into
   a narrated MP4.'
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-19T03:28:05Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jastfan/explainroo-ui
-  seen_at: '2026-11-19T03:28:05Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 45
+    stars: 46
     forks: 13
     open_issues: 0
   kind: product

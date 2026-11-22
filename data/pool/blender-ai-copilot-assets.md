@@ -23,16 +23,16 @@ summary: An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab an
   · blender-ai-copilot-assets · blender · blender 3d · blender addon · blender plugin · blender extension
   · blender scripting · blender automation
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zovulrira1974/blender-ai-copilot-assets
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 511
+    stars: 509
     forks: 15
     open_issues: 48
   kind: product

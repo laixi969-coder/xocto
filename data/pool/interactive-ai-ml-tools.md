@@ -22,16 +22,16 @@ summary: 'Free interactive tools for data scientists to learn MLOps, ML system d
   a production ML system map, ML project structure, data drift simulator, agentic analytics system map
   and AI evals.'
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://futureproofds.com/tools?utm_source=github&utm_medium=readme&utm_campaign=andres_vourakis_github&utm_content=interactive_tools
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 298
+    stars: 299
     forks: 28
     open_issues: 0
   kind: product

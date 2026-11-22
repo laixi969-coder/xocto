@@ -11,28 +11,33 @@ inspiration_en: 'One model, several doors: domestic for scale, international for
   become the default. The trend is open models surviving by being built into other people''s stacks. The
   entry is overseas developers and chat users. Chat is free; money is usage on the cloud.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
 canonical_url: https://aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-13T11:28:34Z'
+last_seen: '2026-11-22T02:15:24Z'
 status: analyzed
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
-  seen_at: '2026-08-13T11:28:34Z'
+  seen_at: '2026-11-22T02:15:24Z'
   metrics:
     raw_value: 35.43M
     value: 35430000.0
     metric: visits
     mom_raw: -2.85%
     mom_percent: -2.85
-    boards:
-    - 国内总榜
-    - 聊天机器人榜
-    - 全球总榜
+  kind: product
 ---
 
 # Qwen.ai｜阿里

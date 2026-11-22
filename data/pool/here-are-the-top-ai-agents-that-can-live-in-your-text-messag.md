@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live
 summary: We created a list of the most notable AI agents that can live in your text messages, from general
   assistants to agents designed for families, travel, and work.
 first_seen: '2026-10-11T01:01:42Z'
-last_seen: '2026-10-25T00:21:33Z'
+last_seen: '2026-11-22T02:15:03Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -34,6 +34,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/
   seen_at: '2026-10-25T00:21:33Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/
+  seen_at: '2026-11-22T02:15:03Z'
   metrics: {}
   kind: news
 ---

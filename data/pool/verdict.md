@@ -20,16 +20,16 @@ url: https://github.com/Balanov/verdict
 canonical_url: https://github.com/Balanov/verdict
 summary: A 197 KB local semantic verifier for AI agent tool calls. Exit code 0 is not proof.
 first_seen: '2026-11-05T02:29:39Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Balanov/verdict
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 40
+    stars: 41
     forks: 3
     open_issues: 0
   kind: product

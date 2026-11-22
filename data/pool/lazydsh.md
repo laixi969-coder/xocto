@@ -20,16 +20,16 @@ url: https://github.com/nuskey8/lazydsh
 canonical_url: https://github.com/nuskey8/lazydsh
 summary: A lazier terminal UI for DeepSeek Harness.
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-22T02:14:43Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nuskey8/lazydsh
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-22T02:14:43Z'
   metrics:
-    stars: 79
+    stars: 81
     forks: 3
     open_issues: 0
   kind: product
