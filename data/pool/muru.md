@@ -1,7 +1,7 @@
 ---
 slug: muru
 name: Muru
-builder: ''
+builder: joshcsimmons
 category: ''
 summary_zh: ''
 inspiration: ''
@@ -31,15 +31,23 @@ summary: 'Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thin
   container 2026-11-15 — Muru: working with Kubernetes, not around it 2026-11-16 — Muru: scaling from
   what the workers report 2026-11-17 — Muru: scaling to zero 2026-11-18 — Muru:'
 first_seen: '2026-11-22T02:15:03Z'
-last_seen: '2026-11-22T02:15:03Z'
+last_seen: '2026-11-23T02:45:56Z'
 status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Nov/21/muru/
   seen_at: '2026-11-22T02:15:03Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://simonwillison.net/2026/Nov/21/muru/
+  seen_at: '2026-11-23T02:45:56Z'
+  metrics:
+    points: 73
+    comments: 11
   kind: news
 ---
 

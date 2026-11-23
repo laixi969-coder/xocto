@@ -20,17 +20,17 @@ url: https://onurgumus.github.io/zero-csharp/index.html
 canonical_url: https://onurgumus.github.io/zero-csharp/index.html
 summary: C# without a runtime or GC
 first_seen: '2026-11-22T02:14:38Z'
-last_seen: '2026-11-22T02:14:38Z'
+last_seen: '2026-11-23T02:45:56Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://onurgumus.github.io/zero-csharp/index.html
-  seen_at: '2026-11-22T02:14:38Z'
+  seen_at: '2026-11-23T02:45:56Z'
   metrics:
-    points: 131
-    comments: 98
+    points: 176
+    comments: 125
   kind: product
 ---
 

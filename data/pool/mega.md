@@ -20,7 +20,7 @@ url: https://mega.dev/autonomous-product-development
 canonical_url: https://mega.dev/autonomous-product-development
 summary: I rebuilt a 4-year-old app in 5 days using many agents – here's harness
 first_seen: '2026-09-14T16:55:32Z'
-last_seen: '2026-10-30T01:59:08Z'
+last_seen: '2026-11-23T02:46:34Z'
 status: pending_filter
 sources:
 - hackernews
@@ -47,6 +47,11 @@ sightings:
 - source: marketfeeds
   url: http://www.geekpark.net/news/373154
   seen_at: '2026-10-30T01:59:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYmR4ZG1MbmtEUUNFQVl4aWxDQnJsMEpzeDBrQ2RRZXk0b3ZqdlQ5OFhMWGpaS3N3aDRmSXhQT3VkWXpCYjhCN3JhTWZQV28wMV96aUI2ekx6cjhlWHItdnR4bmJWN29tVkZUeExfblpIakc1NE5wbFY2c3RWZGN0SXF3dFpacG9HbnRuUkxBWTFvSU8yRkJ4cnhlVS1VcE9nZ1NpTS1hMFdRVndMU0Y0c0VGUHM4SHJWZV9mdE9ONGp3SU5EQzI2MA?oc=5
+  seen_at: '2026-11-23T02:46:34Z'
   metrics: {}
   kind: news
 ---

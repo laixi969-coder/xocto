@@ -21,18 +21,18 @@ canonical_url: https://shanselman.github.io/sandbox-mcp
 summary: 'Fresh, throwaway Windows machines for testing your apps: an MCP server and CLI that automate
   Windows Sandbox'
 first_seen: '2026-11-08T01:27:11Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://shanselman.github.io/sandbox-mcp/
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 494
-    forks: 25
-    open_issues: 1
+    stars: 496
+    forks: 26
+    open_issues: 0
   kind: product
 ---
 

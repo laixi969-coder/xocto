@@ -21,16 +21,16 @@ canonical_url: https://github.com/Timaga/noda-local-ai-notes
 summary: 'Local-first AI note-taking app for Windows: Markdown notes, a personal knowledge base, knowledge
   graph, semantic search and chat with cited sources.'
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Timaga/noda-local-ai-notes
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 105
+    stars: 104
     forks: 1
     open_issues: 0
   kind: product

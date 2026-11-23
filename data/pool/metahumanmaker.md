@@ -21,16 +21,16 @@ canonical_url: https://github.com/TREE-Ind/MetahumanMaker
 summary: 'AI-native character authoring for Blender: photo/mesh fitting, agent workflows, source-guided
   skin reconstruction and Unreal MetaHuman delivery.'
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/TREE-Ind/MetahumanMaker
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 67
+    stars: 68
     forks: 8
     open_issues: 0
   kind: product

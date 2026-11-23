@@ -21,17 +21,17 @@ canonical_url: https://github.com/ysunyang4/Nexus
 summary: Connect web AI assistants to local files, terminals, Git, and desktop tools through MCP, with
   user-controlled permissions.
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ysunyang4/Nexus
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 483
-    forks: 87
+    stars: 493
+    forks: 88
     open_issues: 3
   kind: product
 ---

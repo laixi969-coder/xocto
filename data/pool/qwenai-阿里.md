@@ -23,20 +23,24 @@ url: https://www.aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
 canonical_url: https://aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-11-22T02:15:24Z'
+last_seen: '2026-11-23T02:46:36Z'
 status: analyzed
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
-  seen_at: '2026-11-22T02:15:24Z'
+  seen_at: '2026-11-23T02:46:36Z'
   metrics:
     raw_value: 35.43M
     value: 35430000.0
     metric: visits
     mom_raw: -2.85%
     mom_percent: -2.85
+    boards:
+    - 国内总榜
+    - 聊天机器人榜
+    - 全球总榜
   kind: product
 ---
 

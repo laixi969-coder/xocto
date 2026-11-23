@@ -22,17 +22,17 @@ summary: 'Creative & Video Pro Suite Topaz Video AI 6.1 + Photo AI 4 TensorRT Of
   64-bit Windows 10/11 portable x64 build with hot-reloadable JSON configuration, low-overhead runtime,
   and prebuilt portable release.'
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://leon-moore-v9.github.io/creative-video-topaz-ai-photo-ai-portable-x64/
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 322
-    forks: 38
+    stars: 306
+    forks: 33
     open_issues: 0
   kind: product
 ---

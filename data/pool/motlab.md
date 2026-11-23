@@ -21,18 +21,18 @@ canonical_url: https://github.com/staryone/motlab
 summary: 'Video as code: canvas scenes rendered with WebCodecs in headless Chrome, a review viewer, and
   agent skills that build the video from your references.'
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/staryone/motlab
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 350
-    forks: 44
-    open_issues: 11
+    stars: 396
+    forks: 48
+    open_issues: 1
   kind: product
 ---
 

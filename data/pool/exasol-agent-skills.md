@@ -20,16 +20,16 @@ url: https://github.com/SamaEk111/exasol-agent-skills
 canonical_url: https://github.com/SamaEk111/exasol-agent-skills
 summary: 'Exasol Agent Skills: Code-first AI agent skills Exasol'
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-18T03:43:16Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SamaEk111/exasol-agent-skills
-  seen_at: '2026-11-18T03:43:16Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 153
+    stars: 154
     forks: 0
     open_issues: 0
   kind: product

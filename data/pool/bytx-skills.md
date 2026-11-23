@@ -21,17 +21,17 @@ canonical_url: https://byttrade.com
 summary: 'Crypto trading skills for AI assistants on bytx: MCP server + CLI + Claude skills. Paper by
   default, never without your yes.'
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://byttrade.com
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 90
-    forks: 25
+    stars: 89
+    forks: 24
     open_issues: 0
   kind: product
 ---

@@ -21,18 +21,18 @@ canonical_url: https://trysketchcraft.com
 summary: 'Draw an outline. Pull it up. Open-source push/pull 3D modeler in Rust: desktop app, CLI and
   MCP server.'
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://trysketchcraft.com
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 116
-    forks: 13
-    open_issues: 29
+    stars: 134
+    forks: 14
+    open_issues: 30
   kind: product
 ---
 

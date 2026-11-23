@@ -1,7 +1,7 @@
 ---
 slug: together-ai
 name: Together AI
-builder: ''
+builder: Fe2O3
 category: ''
 summary_zh: Together AI 是面向开发者的模型推理与 GPU 容量供给方，被列入 2026 年 Intelligent Applications 40 的 Enabler 阶段。该名单材料显示，GPU
   容量与多模型路由的需求超过供给，同类供给方估值同比大致翻倍或更多，但尚无一家明显拉开差距；这是行业供给结构变化，不是独立应用产品。
@@ -30,11 +30,12 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Enabler stage). To
   are all roughly doubling or more their valuations year over year as demand for GPU capacity and multi-model
   routing outstrips supply, and although all well-funded there is not yet one clear winner pulling away.
 first_seen: '2026-08-31T15:00:01+00:00'
-last_seen: '2026-09-30T01:18:45Z'
-status: rejected
+last_seen: '2026-11-23T02:45:56Z'
+status: pending_filter
 sources:
 - ia40
 - marketfeeds
+- hackernews
 sightings:
 - source: ia40
   url: https://www.together.ai/
@@ -62,6 +63,13 @@ sightings:
   url: https://tech.eu/2026/09/28/plug-and-play-tirana-expo-2026-silicon-valley-meets-balkans/
   seen_at: '2026-09-30T01:18:45Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026
+  seen_at: '2026-11-23T02:45:56Z'
+  metrics:
+    points: 48
+    comments: 11
   kind: news
 ---
 

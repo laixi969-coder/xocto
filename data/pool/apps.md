@@ -21,7 +21,7 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-11-16T02:08:53Z'
+last_seen: '2026-11-23T02:46:34Z'
 status: pending_filter
 sources:
 - hackernews
@@ -233,6 +233,11 @@ sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Nov/15/datasette-apps/
   seen_at: '2026-11-16T02:08:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibkFVX3lxTE55c2Z4SE1pU3g5NXlzeDNPXzNDX2NWR0ZuZGt2eVpTSjZLZVlnTGotWEJfX2JMN3pDRFlLbnROQU15MDk1bDZIckt2R203clg1bTd3Zk5YaEF1cThmUEZoY3NFVDd2U3RXNEhaSlRn?oc=5
+  seen_at: '2026-11-23T02:46:34Z'
   metrics: {}
   kind: news
 ---

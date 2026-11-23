@@ -22,16 +22,16 @@ summary: Compress any video to an exact size (Discord 20 MB, WeChat 20 MB, Whats
   FFmpeg. HDR is tone-mapped to SDR, VMAF/SSIM prove the quality, and it runs as an MCP server for AI
   agents.
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://YKLovePython.github.io/halfsize/
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 116
+    stars: 117
     forks: 9
     open_issues: 0
   kind: product

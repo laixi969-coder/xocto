@@ -20,18 +20,18 @@ url: https://github.com/Tranquillitatis-Lab/dsh-live-compact
 canonical_url: https://github.com/Tranquillitatis-Lab/dsh-live-compact
 summary: 边做边压 Live Compact. Compress the finished turn in place and keep the prefix cache.
 first_seen: '2026-11-07T01:56:40Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Tranquillitatis-Lab/dsh-live-compact
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 333
-    forks: 20
-    open_issues: 39
+    stars: 340
+    forks: 21
+    open_issues: 41
   kind: product
 ---
 

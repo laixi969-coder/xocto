@@ -20,7 +20,7 @@ url: https://book.humanexperiences.io/
 canonical_url: https://book.humanexperiences.io
 summary: Building an LLM from Scratch in TypeScript
 first_seen: '2026-10-15T00:32:05Z'
-last_seen: '2026-11-20T03:16:32Z'
+last_seen: '2026-11-23T02:46:34Z'
 status: pending_filter
 sources:
 - hackernews
@@ -57,6 +57,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXYtNUxPc2p6ZVhCY3Myc0ltVjU2a2xjVTZfM25EYkIzNGJtcmdvZ2hlUzJkYWp5T25NOXpwX0EtWEdkLXRxTUdDUnNJd1pQNTFMVUgwbUxqaWV6UlRaSV8tUl83YjJHYmNLUjk3VlYzTUpUT3l0VFlQMDFaaXM3ZkZmMTlQTVlEUnoxcThJM0EtWEhycm9CamtLdXg1ZndlUXVmQkVjNTZoaVBwRFE?oc=5
   seen_at: '2026-11-20T03:16:32Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWDRwNkNnX1VFN3g1VC1NT195WmVMd2xLZDZ1NHZocWNyRWsxU0FQbk9xekRTNUppNnV3YXNGX2lxOU83aEdiQXV6TTgxY21FYjEtZU4tZEpFRGdPdUt3YUhQNzNKdUNOX0JRUnBScF9nZ3dCQzhFSEJZeS0wMUxFMDhjZWFrdFRxeDY2clNzVUN4TVNVVFNNejJCWGFWZ2lXMlBiY3ZwajN6dUhjTldOczctR2dqSFlzeFRERWFCUkFTSkwxbERlaDF3MGtZSTBjSUYyNHZkdEk5QQ?oc=5
+  seen_at: '2026-11-23T02:46:34Z'
   metrics: {}
   kind: news
 ---

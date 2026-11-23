@@ -1,0 +1,41 @@
+---
+slug: nios-to-launch-6-new-academic-vocational-certificate-courses
+name: NIOS to launch 6 new academic, vocational certificate courses on 37th foundation day
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSDBQSlQ0dW5jNHZuc0w4bmphREEwNmpCVUZabUVIVFJwdk8tQ1dQY1BwYUJuQlp5ajBESEVucm1TR1A5dUtOVGh6eV9OWWtfMUhxcUt5ZXhDNzNpNHRTSG9fUTZxNzRtczh2Szh2aUJVZ2RrVjFTQjdtOS1tTTcyWlRHT2NQbFgtdE9telU0YXhWRnd1aXViQ0hQWXRvWUpfV3Rkc2l3UlhUMTdmYXl4OG11c1o2TGVNRkw3UDViRFJfcktGMjFyWVdIWEhKaG9sN2t4eGtQOHQzdDh4eklSMTF0U2NlaXF6cnVhMlNMRdIB9AFBVV95cUxQcF91dmEyZ2w2Nk5fU1JZd0lsOFFmQjVFUkliMHNlMWwtSS1qWndHNElQVFhNWThjR0dMQ2VQeE5qYUxuTGV3OHg2WWJiNzR3eHNQUy1TazZ6MS0yUGpjeHFqUUcwZXhqelFPTDNxZlZvTmJkdFdNOVFRbVpWM1A1NFlBOW56dFJGSl9KNlRFWkJmbEJRZW45UG53V25mdnhuWmV3VW9fdUtiMmFmTzRjWnhfWjc1WUFKUjVIVm5NcWNfUERlcUtTc3JPc2tYTEpQWVlYejNaU3l1cFZVb19oWWVGX3NEOUx2WHBQTy0teUtydm5L?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSDBQSlQ0dW5jNHZuc0w4bmphREEwNmpCVUZabUVIVFJwdk8tQ1dQY1BwYUJuQlp5ajBESEVucm1TR1A5dUtOVGh6eV9OWWtfMUhxcUt5ZXhDNzNpNHRTSG9fUTZxNzRtczh2Szh2aUJVZ2RrVjFTQjdtOS1tTTcyWlRHT2NQbFgtdE9telU0YXhWRnd1aXViQ0hQWXRvWUpfV3Rkc2l3UlhUMTdmYXl4OG11c1o2TGVNRkw3UDViRFJfcktGMjFyWVdIWEhKaG9sN2t4eGtQOHQzdDh4eklSMTF0U2NlaXF6cnVhMlNMRdIB9AFBVV95cUxQcF91dmEyZ2w2Nk5fU1JZd0lsOFFmQjVFUkliMHNlMWwtSS1qWndHNElQVFhNWThjR0dMQ2VQeE5qYUxuTGV3OHg2WWJiNzR3eHNQUy1TazZ6MS0yUGpjeHFqUUcwZXhqelFPTDNxZlZvTmJkdFdNOVFRbVpWM1A1NFlBOW56dFJGSl9KNlRFWkJmbEJRZW45UG53V25mdnhuWmV3VW9fdUtiMmFmTzRjWnhfWjc1WUFKUjVIVm5NcWNfUERlcUtTc3JPc2tYTEpQWVlYejNaU3l1cFZVb19oWWVGX3NEOUx2WHBQTy0teUtydm5L?oc=5
+summary: NIOS to launch 6 new academic, vocational certificate courses on 37th foundation day Careers360
+first_seen: '2026-11-23T02:46:34Z'
+last_seen: '2026-11-23T02:46:34Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSDBQSlQ0dW5jNHZuc0w4bmphREEwNmpCVUZabUVIVFJwdk8tQ1dQY1BwYUJuQlp5ajBESEVucm1TR1A5dUtOVGh6eV9OWWtfMUhxcUt5ZXhDNzNpNHRTSG9fUTZxNzRtczh2Szh2aUJVZ2RrVjFTQjdtOS1tTTcyWlRHT2NQbFgtdE9telU0YXhWRnd1aXViQ0hQWXRvWUpfV3Rkc2l3UlhUMTdmYXl4OG11c1o2TGVNRkw3UDViRFJfcktGMjFyWVdIWEhKaG9sN2t4eGtQOHQzdDh4eklSMTF0U2NlaXF6cnVhMlNMRdIB9AFBVV95cUxQcF91dmEyZ2w2Nk5fU1JZd0lsOFFmQjVFUkliMHNlMWwtSS1qWndHNElQVFhNWThjR0dMQ2VQeE5qYUxuTGV3OHg2WWJiNzR3eHNQUy1TazZ6MS0yUGpjeHFqUUcwZXhqelFPTDNxZlZvTmJkdFdNOVFRbVpWM1A1NFlBOW56dFJGSl9KNlRFWkJmbEJRZW45UG53V25mdnhuWmV3VW9fdUtiMmFmTzRjWnhfWjc1WUFKUjVIVm5NcWNfUERlcUtTc3JPc2tYTEpQWVlYejNaU3l1cFZVb19oWWVGX3NEOUx2WHBQTy0teUtydm5L?oc=5
+  seen_at: '2026-11-23T02:46:34Z'
+  metrics: {}
+  kind: news
+---
+
+# NIOS to launch 6 new academic, vocational certificate courses on 37th foundation day
+
+NIOS to launch 6 new academic, vocational certificate courses on 37th foundation day Careers360
+
+## 笔记
+
+

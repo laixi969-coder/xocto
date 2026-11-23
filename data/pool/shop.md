@@ -20,7 +20,7 @@ url: https://shop.karthikmahadevan.com/flow-calendar
 canonical_url: https://shop.karthikmahadevan.com/flow-calendar
 summary: I designed my ideal wall calendar
 first_seen: '2026-11-14T02:27:33Z'
-last_seen: '2026-11-22T02:15:21Z'
+last_seen: '2026-11-23T02:46:34Z'
 status: pending_filter
 sources:
 - hackernews
@@ -62,6 +62,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMivAFBVV95cUxPTVUwYms0Y05Lc2VQek9WV1c0bzRNSjduTVZpY3lNemIzVHJPWUtrTUFiMjF2MVczOWl0aGpHMkhrb1c5RlAyaFRfZk53OUxxd3hPNVhJcGVYYUlUT2xCNVY2WEJEMHZtaVFheDl2WExRYjBsWXB6TUU3TEl0NFpreXNMeVBSREtqQTUzN3A2WExBQVY4bFZ4M0lNR3RvV2JJaXM2SnpSNEtmTVFneGU1bHh0TkRrQjRkVi1tVw?oc=5
   seen_at: '2026-11-22T02:15:21Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxQemhybTkxSzR2Tk5aRU9DbDlCdVRiN1JmR0VuSG1lMjFvQk5hbEYwamlSSmt5dzJrU18yb3hXa1hBWGhfMnNMeERLVnZvalphVDBxVnBJV0JqSkZqOE9YV1NMNFJsbml0bkxlYlNDTnN5TEl6Sk1aZjNFWjR5MDUtMUphUjhUSThIN2NnODhkSS16VmxUWHBPc0dZbnRsbVlaM3JualMwaDM4X0FpVnpVeUwzWHZySFIxRzlxRnVBYlA5MUxJ0gHKAUFVX3lxTFBodjN4bjJYbTBBaF9PamstMnlyR25CaUJDZHNGZHdhUlpJcXl1TTRkNjU0cEZUU25idlZJWWw5bi00ZGJaY2Q4SmQ1NmxRTE1sb3JSRHl0WmlMSVZSSFZkcDRGR1RrXzFmVUtNSHdDTVdBU0VhcndOY2R0QklUZndLR18xS2hpS1E2Ui1teWQ1NldUSExvVEtZSkU2QlhJczZkVTZtdTg2azJ3c1R2cWRCdUF4WjZTOFpzR1VwR3JaTUhyaC16cGRkZUE?oc=5
+  seen_at: '2026-11-23T02:46:34Z'
   metrics: {}
   kind: news
 ---

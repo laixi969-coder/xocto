@@ -1,0 +1,41 @@
+---
+slug: 用户从接纳ai-走向价值兑现高频场景体验成为核心标尺idc-2027年中国智能终端用户十大洞察
+name: 用户从接纳AI 走向价值兑现，高频场景体验成为核心标尺——IDC 2027年中国智能终端用户十大洞察
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1gJBVV95cUxPOFVoYUFFbDNUb3BNNkdKbWhuUnNRMGxKNzI1YzBaanoyOV9udHlBV0dpZ09DbmZVajlpbW05SVhoM01NdEF3NGFWU28za3hsSC1PbWpNNjB3YW4zMXNOVk5sUl9FRktOanZTcHVtVmlDX0dLX2FDcnc0Y2NQeGYzYUZrU1NONlNJNmtONC1RQkdWUk9TZ2lOTEtjUG1jM3N5dHpFWTEzSmotWVNkYnlRb0I0aTlHNHNpT3MzR2VGRUFrS3lvWkNHU3QtQ0xGSTZFMEJWOGZzbEVEN0VQWEJCMnNHLU9KdjdUQkE5UTFPdGs3U1ZFdWNSaE5iZkpZazJyRkw0US1WeGJkM3JTWEM0NmZvODBCSGFJRXBkeW1reGp6SVVyTFFXdVhKT0pTaXotbEtxeUtYOXplVTh4N2JRUTBJWmFsY2dySFU4MEsyVGR3enZ0REE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1gJBVV95cUxPOFVoYUFFbDNUb3BNNkdKbWhuUnNRMGxKNzI1YzBaanoyOV9udHlBV0dpZ09DbmZVajlpbW05SVhoM01NdEF3NGFWU28za3hsSC1PbWpNNjB3YW4zMXNOVk5sUl9FRktOanZTcHVtVmlDX0dLX2FDcnc0Y2NQeGYzYUZrU1NONlNJNmtONC1RQkdWUk9TZ2lOTEtjUG1jM3N5dHpFWTEzSmotWVNkYnlRb0I0aTlHNHNpT3MzR2VGRUFrS3lvWkNHU3QtQ0xGSTZFMEJWOGZzbEVEN0VQWEJCMnNHLU9KdjdUQkE5UTFPdGs3U1ZFdWNSaE5iZkpZazJyRkw0US1WeGJkM3JTWEM0NmZvODBCSGFJRXBkeW1reGp6SVVyTFFXdVhKT0pTaXotbEtxeUtYOXplVTh4N2JRUTBJWmFsY2dySFU4MEsyVGR3enZ0REE?oc=5
+summary: 用户从接纳AI 走向价值兑现，高频场景体验成为核心标尺——IDC 2027年中国智能终端用户十大洞察 IDC | Trusted Tech Intelligence
+first_seen: '2026-11-23T02:46:34Z'
+last_seen: '2026-11-23T02:46:34Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gJBVV95cUxPOFVoYUFFbDNUb3BNNkdKbWhuUnNRMGxKNzI1YzBaanoyOV9udHlBV0dpZ09DbmZVajlpbW05SVhoM01NdEF3NGFWU28za3hsSC1PbWpNNjB3YW4zMXNOVk5sUl9FRktOanZTcHVtVmlDX0dLX2FDcnc0Y2NQeGYzYUZrU1NONlNJNmtONC1RQkdWUk9TZ2lOTEtjUG1jM3N5dHpFWTEzSmotWVNkYnlRb0I0aTlHNHNpT3MzR2VGRUFrS3lvWkNHU3QtQ0xGSTZFMEJWOGZzbEVEN0VQWEJCMnNHLU9KdjdUQkE5UTFPdGs3U1ZFdWNSaE5iZkpZazJyRkw0US1WeGJkM3JTWEM0NmZvODBCSGFJRXBkeW1reGp6SVVyTFFXdVhKT0pTaXotbEtxeUtYOXplVTh4N2JRUTBJWmFsY2dySFU4MEsyVGR3enZ0REE?oc=5
+  seen_at: '2026-11-23T02:46:34Z'
+  metrics: {}
+  kind: news
+---
+
+# 用户从接纳AI 走向价值兑现，高频场景体验成为核心标尺——IDC 2027年中国智能终端用户十大洞察
+
+用户从接纳AI 走向价值兑现，高频场景体验成为核心标尺——IDC 2027年中国智能终端用户十大洞察 IDC | Trusted Tech Intelligence
+
+## 笔记
+
+

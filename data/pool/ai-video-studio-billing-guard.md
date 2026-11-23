@@ -20,14 +20,14 @@ url: https://app.coregold.io/signup?invite_code=ADvlj9b
 canonical_url: https://app.coregold.io/signup?invite_code=ADvlj9b
 summary: Sora、Runway Gen-3 与 Midjourney 大额订阅专属卡：防跨境风控拦截、多账号渲染连坐与忘记取消续费。
 first_seen: '2026-11-11T01:56:55Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://app.coregold.io/signup?invite_code=ADvlj9b
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
     stars: 57
     forks: 0

@@ -22,17 +22,17 @@ summary: AI agent skills for YouTube research. Outlier videos, niche finding & v
   research, comment mining, title formulas, thumbnail concepts, script breakdowns, monetization gaps &
   sponsor prospecting. Powered by TubeLab. Works with Claude Code, Cursor, Codex, ChatGPT, Grok.
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://tubelab.net/youtube-mcp
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 285
-    forks: 43
+    stars: 313
+    forks: 49
     open_issues: 0
   kind: product
 ---

@@ -21,16 +21,16 @@ canonical_url: https://github.com/SmallLab2002/perplexity-pro-win
 summary: Perplexity - AI-powered answer engine for cited web research, multi-step reasoning and conversational
   search on Windows 10/11
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SmallLab2002/perplexity-pro-win
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 47
+    stars: 171
     forks: 0
     open_issues: 0
   kind: product

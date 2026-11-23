@@ -1,0 +1,41 @@
+---
+slug: funding-wrap-dreamteam-style-union-cyient-semiconductors-rai
+name: 'Funding Wrap: Dreamteam, Style Union, Cyient Semiconductors raise fresh capital'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNazhHUHdLbGtVbjYyb3YtTGdXMDFjRVlxZ0VqcWs5SHp5V0U2MXVNbURvREUtQ2kzWGo5YS1telFDdGZzcl8wTjVkTFFuTHo5cmUtLWg4a013TVZzVnczeFVwNWcwSVBoSlhMZ3oyRlF4dzhxX0I0ZkhyZW5FMmk2VEhydWNHQkcySVJXS3hLNkU0UXdrMUlNQlpiRUV0cjhOb1dQUV9sdTlnOGFJb2hrUVhRSm9oU3pLUFdUN1lvUXlHd2szdDJWV3RmRXdqS085V3Nqd1dMSnVfNkxTcHV6THBTUdIB6AFBVV95cUxOVmdWQzhEQUxGZWFWamFCOUxta25UWlNYQm45S2ZaMlNBRnVjZnlQSVJ1SHJucjZrZ2ZLc1F0d0E5RElsSWNobWRfMTdPclZrbmcyb2poTHpRdU1xbnFjZkQzVUNaajRtckdLX3ZTd1MxX210VThpLVdfYnRnc1YwTmgwenBQbk5DY1hBQktiT081dUxlTlB6N1pvSjQ2RWRIZHo5N3EzN0J2YkVmejZ6VXJUYmhxYzFlcWVEbWRFVXNrV3dickJMZDFxTm1GbE9IZ2czOU1nYzhOWkFNTE9YZEZONGJyelpF?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNazhHUHdLbGtVbjYyb3YtTGdXMDFjRVlxZ0VqcWs5SHp5V0U2MXVNbURvREUtQ2kzWGo5YS1telFDdGZzcl8wTjVkTFFuTHo5cmUtLWg4a013TVZzVnczeFVwNWcwSVBoSlhMZ3oyRlF4dzhxX0I0ZkhyZW5FMmk2VEhydWNHQkcySVJXS3hLNkU0UXdrMUlNQlpiRUV0cjhOb1dQUV9sdTlnOGFJb2hrUVhRSm9oU3pLUFdUN1lvUXlHd2szdDJWV3RmRXdqS085V3Nqd1dMSnVfNkxTcHV6THBTUdIB6AFBVV95cUxOVmdWQzhEQUxGZWFWamFCOUxta25UWlNYQm45S2ZaMlNBRnVjZnlQSVJ1SHJucjZrZ2ZLc1F0d0E5RElsSWNobWRfMTdPclZrbmcyb2poTHpRdU1xbnFjZkQzVUNaajRtckdLX3ZTd1MxX210VThpLVdfYnRnc1YwTmgwenBQbk5DY1hBQktiT081dUxlTlB6N1pvSjQ2RWRIZHo5N3EzN0J2YkVmejZ6VXJUYmhxYzFlcWVEbWRFVXNrV3dickJMZDFxTm1GbE9IZ2czOU1nYzhOWkFNTE9YZEZONGJyelpF?oc=5
+summary: 'Funding Wrap: Dreamteam, Style Union, Cyient Semiconductors raise fresh capital ET Entrepreneur'
+first_seen: '2026-11-23T02:46:34Z'
+last_seen: '2026-11-23T02:46:34Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNazhHUHdLbGtVbjYyb3YtTGdXMDFjRVlxZ0VqcWs5SHp5V0U2MXVNbURvREUtQ2kzWGo5YS1telFDdGZzcl8wTjVkTFFuTHo5cmUtLWg4a013TVZzVnczeFVwNWcwSVBoSlhMZ3oyRlF4dzhxX0I0ZkhyZW5FMmk2VEhydWNHQkcySVJXS3hLNkU0UXdrMUlNQlpiRUV0cjhOb1dQUV9sdTlnOGFJb2hrUVhRSm9oU3pLUFdUN1lvUXlHd2szdDJWV3RmRXdqS085V3Nqd1dMSnVfNkxTcHV6THBTUdIB6AFBVV95cUxOVmdWQzhEQUxGZWFWamFCOUxta25UWlNYQm45S2ZaMlNBRnVjZnlQSVJ1SHJucjZrZ2ZLc1F0d0E5RElsSWNobWRfMTdPclZrbmcyb2poTHpRdU1xbnFjZkQzVUNaajRtckdLX3ZTd1MxX210VThpLVdfYnRnc1YwTmgwenBQbk5DY1hBQktiT081dUxlTlB6N1pvSjQ2RWRIZHo5N3EzN0J2YkVmejZ6VXJUYmhxYzFlcWVEbWRFVXNrV3dickJMZDFxTm1GbE9IZ2czOU1nYzhOWkFNTE9YZEZONGJyelpF?oc=5
+  seen_at: '2026-11-23T02:46:34Z'
+  metrics: {}
+  kind: news
+---
+
+# Funding Wrap: Dreamteam, Style Union, Cyient Semiconductors raise fresh capital
+
+Funding Wrap: Dreamteam, Style Union, Cyient Semiconductors raise fresh capital ET Entrepreneur
+
+## 笔记
+
+

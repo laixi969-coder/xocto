@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-11-21T03:14:16Z'
+last_seen: '2026-11-23T02:46:34Z'
 status: pending_filter
 sources:
 - hackernews
@@ -273,6 +273,16 @@ sightings:
 - source: marketfeeds
   url: https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/
   seen_at: '2026-11-21T03:14:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOckM3SGR6NWs1UEpwdmtSYTlxYWJZLVJscURxeGdkMy01OVRabGJLQVp1YWQ0VEdMVDkwSERlakNidFBoTVVVRWdEQVpmVE9mYVFNbVVkUVVoT2VwWFI1MWhXYzNnb0Y5aUl5TlUtSG9sNlBuYnJEUjlWZDhpSjNKRHZRajMxQ3MtVHR3dC1GUVEyRWh1c1Rj?oc=5
+  seen_at: '2026-11-23T02:46:34Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE44emZGcFEtemVXXzlWOEtxT0N6Zm1SM2VLS3E5YmUyVm4tYWJPd01KTnpELVZrYThJMmFoQ19IWHppNGxLSktBdkZGdk53MHVqa1djS2ZB?oc=5
+  seen_at: '2026-11-23T02:46:34Z'
   metrics: {}
   kind: news
 ---

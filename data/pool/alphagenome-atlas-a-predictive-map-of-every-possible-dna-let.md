@@ -24,7 +24,7 @@ canonical_url: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-o
 summary: AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the
   human genome.
 first_seen: '2026-09-08T14:00:15Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: market_context
 sources:
 - officialfeeds
@@ -43,10 +43,10 @@ sightings:
   kind: product
 - source: github
   url: https://deepmind.google/models/gemini-robotics/
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 198
-    forks: 19
+    stars: 221
+    forks: 21
     open_issues: 0
   kind: product
 ---

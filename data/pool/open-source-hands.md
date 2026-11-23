@@ -21,16 +21,16 @@ canonical_url: https://abouchedidxcode.github.io/open-source-hands
 summary: Make webcam hand games in the browser, or point your coding agent here and have it make one.
   MediaPipe hand tracking + a gesture engine + a starter game + a playbook.
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://abouchedidxcode.github.io/open-source-hands/
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 220
+    stars: 221
     forks: 31
     open_issues: 1
   kind: product

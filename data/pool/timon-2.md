@@ -20,18 +20,18 @@ url: https://timon-ai.com
 canonical_url: https://timon-ai.com
 summary: Timon is an Agentic Workstation who let you orchestrates all your AI agents in the same place
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-23T02:46:00Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://timon-ai.com
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-23T02:46:00Z'
   metrics:
-    stars: 675
-    forks: 83
-    open_issues: 31
+    stars: 704
+    forks: 86
+    open_issues: 39
   kind: product
 ---
 
