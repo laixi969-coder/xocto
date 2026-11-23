@@ -1,60 +1,65 @@
 {
+  "company_id": "436355F1-3270-4670-A740-BAE1B762F45D",
   "zh": {
-    "summary": "用 Scootrr 把边缘 AI 与微出行车辆的安全运营连接起来。",
-    "judgment": "需求有明确成本承担者，但必须用实地安全效果和单车经济证明硬件与 AI 值得部署。",
-    "replaces": "车队依赖事故发生后的人工调查、运营巡检和粗粒度安全规则。",
-    "segment": "微出行安全",
-    "product": "官网将 Scootrr 定位为电动滑板车、电动自行车等车辆的安全智能，公司团队页描述感知模型、嵌入式固件与运营的全栈工作。具体识别任务、干预能力和可用接口在本次资料中仍不充分，应先做技术核验再谈场景扩张。",
-    "customer": "潜在付费者是车队运营商与车辆厂商，此为商业推断，而非已披露合同。购买动机应落在事故成本、维护、保险和运营许可中的某个可衡量环节；骑手觉得提醒有用，并不自动等于运营商能获得经济收益。",
-    "workflow": "合理的验证链是车辆场景感知、风险事件识别、运营动作和安全结果对照，这是一套尽调标准，不是对已上线功能的完整描述。需要实地确认数据采集方式、边缘设备的离线能力，以及提醒或控制对骑行体验的影响。",
-    "business_model": "本次未找到单车售价、软件收费或合同收入披露。按车辆硬件加持续服务收费是一种可能形态，但分析应同时计算装配、耗电、维修、设备更换和数据运营成本，不能只用模型推理费用估毛利。",
-    "traction": "官网列有合作与支持机构标识，但标识不足以确认部署规模、付费车队或安全改善。尚缺事故率的前后对照、实际装车数和长周期稳定性；融资只是早期资金信号。",
-    "moat": "与云端通用视觉相比，可能的优势是真实道路数据、嵌入式部署经验和车辆系统接入。壁垒成立的条件是数据可合法持续积累并转化为更好的现场效果；硬件集成也可能只是成本负担，需要结果证明。",
-    "funding_read": "种子前轮更适合被理解为技术与客户试点的起点。下一里程碑应是可复制的付费部署和可归因安全收益，而非从融资额推算研发成熟度；本次资料未确认估值或具体资金配置。",
-    "risks": "雨天、夜间和遮挡可能造成视觉识别失效；误报或误干预会影响骑手信任。车队采购周期与设备维护还可能拉长回款时间，这些风险与软件订阅产品不同，必须用现场数据检验。",
-    "takeaway": "值得借鉴的是把 AI 指标翻译成运营账：少多少事故、减少什么费用、每辆车要付多少成本。做物理世界 AI 时，训练集准确率之外还需要可回滚的现场试验与完整设备生命周期经济。",
-    "watch_next": "优先看试点装车数、每千次骑行的事故或危险事件变化、误报率、设备故障率与付费续约。只有在类似路况的对照下仍有收益，才有理由讨论更大规模的部署。",
+    "summary": "Nearhuman 是一家位于布里斯托尔的 AI 研究与产品公司，主打可在设备本地运行、不依赖云端的边缘 AI，首个产品是面向电动滑板车与电动自行车的后装式 AI 摄像头模块 Scootrr。",
+    "judgment": "最关键的商业判断是：它把“边缘 AI 硬件 + 车队安全”作为首个落地场景，但当前证据只到与 Dott 的布里斯托尔试点和一笔 pre-seed 融资，尚不足以证明车队方会持续付费或规模化采购。",
+    "replaces": "替代依赖云端回传视频与集中式视觉分析的微出行安全方案，以及车队仅靠人工巡检和事后投诉处理来发现骑行风险的做法。",
+    "segment": "边缘 AI 视觉硬件与微出行车队安全",
+    "product": "公司自述其核心能力是把更高效的 AI 放到内存和功耗受限的日常设备上，让推理在车辆本体完成而不依赖云端。首个产品 Scootrr 是从零设计的边缘 AI 摄像头模块，可后装到电动滑板车和电动自行车上；官网还列出 Rosabel、MDP 与 BNN research 等研究性项目，但未给出这些产品的功能细节。因此可确认的产品范围是“边缘视觉硬件 + 车载推理”，具体检测对象、准确率与告警类型均未披露。",
+    "customer": "直接使用者应是共享微出行车队的运营与安全团队，以及骑行中的终端用户；付费者更可能是车队运营方，而非个人骑行者。其痛点在于车辆分布广、事故与违规骑行难以实时发现，云端视频回传又带来带宽、延迟与隐私成本。痛点频率理论上很高（每次骑行都可能涉及），但官网没有客户案例页，无法确认除 Dott 试点外还有谁在使用或付费。",
+    "workflow": "从官网可还原的流程是：摄像头模块后装到车队车辆上，在设备端运行视觉模型，对骑行场景做本地推理，从而避免把原始视频全部上传云端。官网未说明输出是告警、事件片段、统计数据还是运营后台，也未说明数据如何回传、由谁处置。因此“输入到交付”的后半段——即车队如何收到结果并采取行动——仍是检索缺口，不能假定已有完整闭环。",
+    "business_model": "官网未披露任何定价、收费单位或合同结构，融资材料也未说明收入模式。可条件式推断其路径是向车队按车辆或按车队订阅收费，或先以试点换取后续采购；但这属于推断而非已验证事实。硬件后装意味着单位经济受模块成本、安装与维护影响，而软件侧边际成本较低，具体毛利结构未知。",
+    "traction": "公司披露其边缘 AI 摄像头模块已在布里斯托尔街头与 Dott 进行试点，并获得 Innovate UK Frontier AI Discovery 项目支持；融资记录显示其完成 pre-seed 轮，投资方名单含 SFC Capital。这些说明技术已进入真实街道环境，但不等于需求验证：试点车辆数、时长、事故减少幅度、续约或付费转化均未披露。研究页面称首批论文“即将发布”，尚无同行评审或 arXiv 链接可核。",
+    "moat": "相对通用大模型，其差异化在于把模型压缩到低功耗、低内存的车载设备上，并结合后装硬件与车队现场部署经验；相对旧流程，它把事后人工排查前移到骑行现场。但壁垒是否成立取决于三点：模型在真实街景中的可靠性、硬件成本与安装便利性，以及能否积累车队专属数据与运营集成。目前这些均缺少公开证据，通用视觉模型厂商或车队自研都可能侵蚀其位置。",
+    "funding_read": "本轮为 pre-seed，金额与轮次由确定性层给出，投资方名单不等于领投名单；官网称该轮由 SFC Capital 领投，属于公司自述。该阶段说明公司尚在把研究转化为可部署产品，资金用途未披露，不能推断用于量产、招聘或市场扩张。下一里程碑应是试点从单城单车队扩展到可量化的商业合同，或至少公布试点规模与效果指标。",
+    "risks": "第一，若车队试点无法转化为付费采购，公司将停留在项目制研究收入，难以支撑硬件量产。第二，边缘视觉在雨雾、夜间和复杂街景下的误报与漏报会直接损害车队信任，而官网未披露任何性能数据。第三，后装硬件的安装、防盗与维护成本可能高于车队预期；第四，隐私与数据合规若处理不当，会限制其在欧洲城市的部署。",
+    "takeaway": "可借鉴之处是把研究能力先锚定在一个具体、可后装的硬件场景，用真实街道试点换取车队合作与技术背书，而不是先做通用平台。同时应尽早公开可验证的试点指标，把“已上线”转化为可比较的效果证据。",
+    "watch_next": "下一项可验证指标是：Dott 试点是否公布车辆规模、运行时长与安全事件变化，以及是否出现第二家车队客户或付费合同；此外可关注其首批 arXiv 论文是否发布、是否披露定价或硬件规格。",
     "citations": [
       {
-        "label": "Tech.eu Funding Explorer",
-        "url": "https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF"
+        "label": "Nearhuman 官网首页",
+        "url": "https://nearhuman.co/"
       },
       {
-        "label": "Nearhuman 核验资料 1",
-        "url": "https://nearhuman.co/"
+        "label": "Nearhuman 研究页",
+        "url": "https://nearhuman.co/research"
+      },
+      {
+        "label": "Tech.eu 融资记录",
+        "url": "https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF"
       }
     ]
   },
   "en": {
-    "summary": "Scootrr connects edge AI with safety operations for micromobility vehicles.",
-    "judgment": "A clear cost owner exists, but field safety outcomes and economics per vehicle must justify deployment.",
-    "replaces": "Reactive accident investigation, manual fleet checks and coarse safety rules.",
-    "segment": "Micromobility safety",
-    "product": "The company positions Scootrr around scooter and bicycle safety; its team describes perception and embedded development. Specific detection tasks, interventions and interfaces remain insufficiently documented in the reviewed material.",
-    "customer": "Fleet operators and vehicle makers are plausible buyers, a commercial inference. The value must connect to an identifiable operating expense or risk. Rider appreciation alone would not demonstrate financial benefit for a fleet.",
-    "workflow": "A diligence sequence would examine sensing, event recognition, operational response and controlled safety outcomes. This is an evaluation framework, not a claim that every capability is live. Offline operation and effects on rider behaviour need field inspection.",
-    "business_model": "Hardware prices, service charges and contract revenue were not established. Hardware plus recurring service is one possible model. Installation, power, repair, replacement and data operations should all enter the cost calculation.",
-    "traction": "Partner and supporter logos appear on the website. They do not establish paid fleets, vehicle counts or improved safety. Comparative incident data and long-term reliability remain missing.",
-    "moat": "Potential advantages include road data, embedded implementation and vehicle connections. Defensibility requires lawful data accumulation to improve field outcomes. Integration complexity can also be a cost rather than an advantage.",
-    "funding_read": "Pre-seed funding is best read as support for technical and customer pilots. Repeatable paid deployments would be a better milestone than inferring maturity from the cheque. Valuation and allocation were not confirmed.",
-    "risks": "Rain, darkness and occlusion may weaken perception. False alerts or interventions could damage rider trust. Procurement and equipment maintenance may also extend cash collection, unlike a simple software subscription.",
-    "takeaway": "Translate AI metrics into fleet economics: incidents avoided, costs removed and total cost per vehicle. Physical AI needs reversible field trials and lifecycle accounting alongside laboratory accuracy.",
-    "watch_next": "Watch installed pilot vehicles, comparable incident rates per ride, false alerts, device failure and paid renewals. Expansion should follow measurable benefits under comparable conditions.",
+    "summary": "Nearhuman is a Bristol-based AI research and product company building efficient on-device AI that runs without the cloud; its first product is Scootrr, a retrofit AI camera module for e-scooters and e-bikes.",
+    "judgment": "The key commercial question is whether its edge-AI hardware plus fleet-safety wedge can convert a single Bristol pilot with Dott into repeatable paid fleet contracts; current evidence supports a pilot and a pre-seed round, not proven demand.",
+    "replaces": "It replaces cloud-dependent video backhaul and centralized vision analytics for micromobility safety, as well as fleets relying on manual inspection and post-hoc complaint handling to catch riding risks.",
+    "segment": "Edge AI vision hardware and micromobility fleet safety",
+    "product": "The company says it builds more efficient AI for devices with limited memory and power, running inference on the vehicle itself rather than in the cloud. Its first product, Scootrr, is described as an edge-AI camera module designed from the ground up to be retrofitted onto e-scooters and e-bikes; the site also lists Rosabel, MDP and BNN research without detailing their functions. The confirmed scope is therefore edge vision hardware plus on-device inference; detection targets, accuracy and alert types are not disclosed.",
+    "customer": "The direct users are likely shared-micromobility operations and safety teams, with riders as end users; the payer is more likely the fleet operator than the individual rider. The pain is that vehicles are dispersed and incidents or unsafe riding are hard to detect in real time, while cloud video backhaul adds bandwidth, latency and privacy cost. The pain frequency is theoretically high, but with no customer-case page it is impossible to confirm users or payers beyond the Dott pilot.",
+    "workflow": "The workflow visible on the site is: a camera module is retrofitted onto fleet vehicles, a vision model runs locally on the device, and raw video is not fully uploaded to the cloud. The site does not say whether the output is an alert, an event clip, aggregate statistics or an operations dashboard, nor how data is returned and who acts on it. The second half of input-to-delivery—how a fleet receives results and acts—remains a research gap and should not be assumed to be a closed loop.",
+    "business_model": "No pricing, billing unit or contract structure is disclosed, and the funding material does not describe a revenue model. A conditional inference is per-vehicle or per-fleet subscription, or pilots converting into procurement, but this is inference rather than verified fact. Retrofit hardware means unit economics depend on module cost, installation and maintenance, while software has low marginal cost; gross-margin structure is unknown.",
+    "traction": "The company reports that its edge-AI camera module is live on Bristol streets in a pilot with Dott and that it received support from Innovate UK's Frontier AI Discovery programme; the funding record shows a pre-seed round with SFC Capital among investors. This shows the technology has entered a real street environment, but it is not demand validation: fleet size, duration, safety improvement, renewal or paid conversion are undisclosed. The research page says first papers are coming to arXiv, with no peer-reviewed or arXiv link yet verifiable.",
+    "moat": "Versus general-purpose models, the differentiation is compressing models onto low-power, low-memory vehicle hardware and combining retrofit hardware with fleet field-deployment experience; versus old processes, it moves post-hoc manual review to the point of riding. Whether this is a moat depends on real-street model reliability, hardware cost and installation ease, and accumulating fleet-specific data and operations integration. Public evidence on these is missing, and general vision vendors or in-house fleet builds could erode its position.",
+    "funding_read": "This is a pre-seed round; amount and stage are rendered deterministically, and the investor list is not a lead-investor list—the site's claim that SFC Capital led is company-reported. The stage indicates the company is still turning research into a deployable product; use of funds is undisclosed and cannot be inferred as production, hiring or market expansion. The next milestone should be expanding from one city and one fleet to a quantified commercial contract, or at least publishing pilot scale and outcome metrics.",
+    "risks": "First, if the fleet pilot does not convert into paid procurement, the company may remain in project-based research revenue that cannot support hardware production. Second, edge vision false positives and misses in rain, fog, night and complex streets directly damage fleet trust, and no performance data is disclosed. Third, retrofit hardware installation, theft and maintenance costs may exceed fleet expectations; fourth, privacy and data-compliance failures could limit deployment in European cities.",
+    "takeaway": "A transferable lesson is to anchor research capability in one concrete retrofit hardware scenario and use real street pilots to earn fleet partnerships and technical credibility rather than building a general platform first. It should also publish verifiable pilot metrics early, turning 'live' into comparable outcome evidence.",
+    "watch_next": "The next verifiable indicator is whether the Dott pilot discloses fleet size, duration and safety-event changes, and whether a second fleet customer or paid contract appears; also watch for the first arXiv papers and any disclosed pricing or hardware specifications.",
     "citations": [
       {
-        "label": "Tech.eu Funding Explorer",
-        "url": "https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF"
+        "label": "Nearhuman homepage",
+        "url": "https://nearhuman.co/"
       },
       {
-        "label": "Nearhuman primary material 1",
-        "url": "https://nearhuman.co/"
+        "label": "Nearhuman research page",
+        "url": "https://nearhuman.co/research"
+      },
+      {
+        "label": "Tech.eu funding record",
+        "url": "https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF"
       }
     ]
   },
-  "company_id": "436355F1-3270-4670-A740-BAE1B762F45D",
-  "round_id": "AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF",
-  "fingerprint": "e0fe22bb98c3dc8b03b42419a77b55c9ee670d0a79890ef70732e28ab92e43b4",
-  "analyzed_at": "2026-10-09T04:59:38Z",
   "evidence": [
     {
       "url": "https://funding.tech.eu/deals/AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF",
@@ -62,18 +67,29 @@
       "role": "funding",
       "status": "retrieved",
       "text": "Nearhuman is a provider of an AI-powered physical safety and computer vision platform for micromobility vehicles.",
-      "checked_on": "2026-10-09"
+      "checked_on": "2026-11-23"
     },
     {
       "url": "https://nearhuman.co/",
       "kind": "company_claim",
       "role": "overview",
-      "checked_on": "2026-10-09",
+      "checked_on": "2026-11-23",
       "status": "retrieved",
-      "text": "Near Human — Edge AI Safety for Micromobility Home About Discover Learn CONTACT Home About Discover Learn CONTACT Scroll Down N e a r h u m a n s t a r t e d w i t h m i c r o m o b i l i t y . s o l v i n g r e a l - w o r l d c h a l l e n g e s w i t h S c o o t r r . S c o o t r r i s t h e s a f e t y i n t e l l i g e n c e f o r e - s c o o t e r s , e - b i k e s a n d o t h e r m i c r o m o b i l i t y v e h i c l e s . The Problem Safety incidents increase operator costs and put lives at risk S a f e t y i n c i d e n t s i n c r e a s e o p e r a t o r c o s t s a n d p u t l i v e s a t r i s k 01 30,000+ injuries across the UK and EU alone 02 1,300 casualties in the UK, costing the NHS and insurers roughly GBP 7M 03 9,425 reported e-scooter accidents in Germany, up 14.1% year over year 04 This means high operational and insurance cost for operators Partners & Supporters Pause Unmute"
+      "text": "Nearhuman — Bringing machines closer to people Home About Products Learn Contact Menu Home About Products Scootrr scootrr.com ↗ Rosabel rosabel.ai ↗ MDP Learn Research Insights News Contact B r i n g i n g m a c h i n e s c l o s e r t o p e o p l e . Nearhuman is an AI research and product company in Bristol. We build efficient AI that runs on everyday devices, and new ways for people to work with it. Explore Nearhuman Research & engineering Discover what’s near Bristol, United Kingdom The company A company built to invent the future. We’re creating new methods, tools and interfaces to change how people use technology. Starting with AI that runs on physical devices themselves, with no reliance on the cloud. We’re developing new methods to make machines intelligent. We bring research and engineering together to carry new ideas through to working technology. Live in Bristol with Dott Innovate UK Frontier AI Backed by SFC Capital How we work Working with Backed by What we build Products from our research. Rosabel MDP BNN research Live pilot in Bristol Our first edge-AI camera module, designed from the ground up to be retrofitted onto e-scooters and e-bikes. It runs its AI on the vehicle itself, and it is live on Bristol’s streets today in a pilot with Dott. Visit scootrr.com ↗ Our approach From research to working technology. Research and engineering happen side by side. We develop and test ideas in hardware and software, carrying what we learn into the next build. New methods for intelligence We’re researching ways to bring more capable AI to devices with limited memory and power. New ways to work with technology We’re developing the tools and interfaces that make new capabilities useful to people. Our team at Bristol Robotics Lab. Our latest research update Why we build M o r e p o s s i b i l i t i e s f o r p e o p l e . We’re building to give people new ways to create, connect and experience the world. More freedom to pursue their ideas. More possibilities for the lives they want to lead. In progress Latest from Nearhuman. All news Research 13 October 2026 New support for original research. Awarded funding through Innovate UK’s Frontier AI Discovery programme. Read the announcement Company 6 October 2026 £350,000 raised for our next chapter. A pre-seed investment round led by SFC Capital. Read the announcement Build with us B e p a r t o f w h a t ’ s n e a r . We’d like to hear from people who want to contribute to this work. Get in touch Bringing machines closer to people. Launch Space, Bristol Robotics Laboratory Bristol BS34 8RB info@nearhuman.co Navigate Home About Research Insights News Contact Products Scootrr ↗ Rosabel ↗ MDP Follow LinkedIn ↗ Instagram ↗ © 2026 Nearhuman Ltd. Registered in England and Wales, company number 16009276. Registered office: 64 Charles Road, Filton, Bristol, BS34 7ER. Privacy policy Back to top"
+    },
+    {
+      "url": "https://nearhuman.co/research",
+      "kind": "company_claim",
+      "role": "documentation",
+      "checked_on": "2026-11-23",
+      "status": "retrieved",
+      "text": "Research | Nearhuman Home About Products Learn Contact Menu Home About Products Scootrr scootrr.com ↗ Rosabel rosabel.ai ↗ MDP Learn Research Insights News Contact Scroll Down Research R e s e a r c h a t N e a r h u m a n New methods to make machines intelligent, and new ways for people to work with them — developed and tested in hardware and software at Bristol Robotics Laboratory. What we research From research to working technology. Research and engineering happen side by side. We develop and test ideas in hardware and software, carrying what we learn into the next build. New methods for intelligence We’re researching ways to bring more capable AI to devices with limited memory and power. New ways to work with technology We’re developing the tools and interfaces that make new capabilities useful to people. Supported by Innovate UK Frontier AI Discovery. Funding from Innovate UK’s Frontier AI Discovery programme supports our research into more efficient AI for physical devices. Read the announcement Papers First papers coming soon. Our first papers are being prepared for arXiv. Each will have its own page here, with the abstract, an official PDF and a citation. Writing How we think about it. The Edge Is Where AI Becomes Useful Designing Technology Around People Trustworthy Autonomy Will Define What Scales Micromobility Needs More Than Hardware Build with us B e p a r t o f w h a t ’ s n e a r . We’d like to hear from people who want to contribute to this work. Get in touch Bringing machines closer to people. Launch Space, Bristol Robotics Laboratory Bristol BS34 8RB info@nearhuman.co Navigate Home About Research Insights News Contact Products Scootrr ↗ Rosabel ↗ MDP Follow LinkedIn ↗ Instagram ↗ © 2026 Nearhuman Ltd. Registered in England and Wales, company number 16009276. Registered office: 64 Charles Road, Filton, Bristol, BS34 7ER. Privacy policy Back to top"
     }
   ],
-  "checked_on": "2026-10-09",
+  "round_id": "AE578D0E-F7E0-4BE3-98FC-8D68F57FD7AF",
+  "fingerprint": "40a261798a5204872157b14368c738ae07fcf1309e8268be2e57c13b89f27c91",
+  "analyzed_at": "2026-11-23T03:21:02Z",
   "research_version": 2,
-  "research_fingerprint": "bf9f52637c9c661135ec71b4510d2e0cf81292a886d36a69dc4a1acd8d50b8a3"
+  "research_fingerprint": "16aedd3c41738f2697130626ff2a452a27de23381b467c6a8b91f67887560134",
+  "checked_on": "2026-11-23"
 }
