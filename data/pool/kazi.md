@@ -21,16 +21,16 @@ canonical_url: https://github.com/syydaniel/kazi
 summary: '卡字 kazi：让 AI 做的讲解动画，画面卡在旁白的关键词上。A skill for AI coding assistants: explainer animations that
   land on the voice-over''s keywords.'
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/syydaniel/kazi
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 40
+    stars: 41
     forks: 7
     open_issues: 0
   kind: product

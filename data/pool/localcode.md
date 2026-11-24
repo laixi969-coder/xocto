@@ -20,17 +20,17 @@ url: https://github.com/mjwsolo/localcode
 canonical_url: https://github.com/mjwsolo/localcode
 summary: open source agentic coding on your Mac with one command
 first_seen: '2026-11-23T02:45:56Z'
-last_seen: '2026-11-23T02:45:56Z'
+last_seen: '2026-11-24T06:02:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/mjwsolo/localcode
-  seen_at: '2026-11-23T02:45:56Z'
+  seen_at: '2026-11-24T06:02:47Z'
   metrics:
-    points: 27
-    comments: 8
+    points: 72
+    comments: 21
   kind: news
 ---
 

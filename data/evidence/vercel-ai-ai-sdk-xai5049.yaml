@@ -1,0 +1,16 @@
+- id: ev-1e24a37a85554317
+  project_slug: vercel-ai-ai-sdk-xai5049
+  url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%405.0.49
+  title: 'vercel/ai: @ai-sdk/xai@5.0.49'
+  published_at: '2026-11-23T21:10:42Z'
+  collected_at: '2026-11-24T06:03:30Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '### Patch Changes
+
+
+    - 6f56c29: keep the mcp call arguments in the `input` of mcpServer tool calls instead of returning
+    an empty object
+
+    - 61ce23e: fix(xai): keep the search arguments in the `input` of xSearch tool calls instead of returning
+    an empty object'

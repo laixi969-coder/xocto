@@ -22,16 +22,16 @@ summary: 'Claude Code skill: pre-flight check for vibe-coded apps before launch 
   control, bad dependencies, runaway costs, unfinished code, Docker/hosting readiness. Plain-language
   report.'
 first_seen: '2026-11-13T02:38:42Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/globalmpc/vibe-preflight
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 74
+    stars: 75
     forks: 1
     open_issues: 0
   kind: product

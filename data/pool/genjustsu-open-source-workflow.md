@@ -36,16 +36,16 @@ summary: Open-source AI video replacement workflow by TEIN. Combine depth maps, 
   meshes, and audio processing to replace characters and objects with Seedance. Includes a local web UI
   to prepare inputs, review masks, preview generations, and export with original audio.
 first_seen: '2026-10-06T23:18:18Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://tein.ai
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 148
+    stars: 155
     forks: 35
     open_issues: 0
   kind: product

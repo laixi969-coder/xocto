@@ -21,17 +21,17 @@ canonical_url: https://github.com/chenhg5/myco/releases/latest
 summary: Connect Claude Code, Codex and any agent CLI across machines. Agents find each other, delegate
   tasks and reply through one hub. Single Go binary, one-line setup.
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/chenhg5/myco/releases/latest
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 155
-    forks: 19
+    stars: 171
+    forks: 22
     open_issues: 1
   kind: product
 ---

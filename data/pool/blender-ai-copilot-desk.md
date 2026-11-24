@@ -23,16 +23,16 @@ summary: A visual AI desk for Blender—chat, scene objects, viewport snapshots,
   · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender
   automation · blender mcp
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/fumbdendade19718/blender-ai-copilot-desk
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 505
+    stars: 506
     forks: 11
     open_issues: 46
   kind: product

@@ -20,17 +20,17 @@ url: https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3
 canonical_url: https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3
 summary: Progress map for the Lean formalization of Alessandro Masullo's manuscript
 first_seen: '2026-11-23T02:45:56Z'
-last_seen: '2026-11-23T02:45:56Z'
+last_seen: '2026-11-24T06:02:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3
-  seen_at: '2026-11-23T02:45:56Z'
+  seen_at: '2026-11-24T06:02:47Z'
   metrics:
-    points: 164
-    comments: 140
+    points: 257
+    comments: 200
   kind: news
 ---
 

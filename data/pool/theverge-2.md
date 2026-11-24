@@ -20,7 +20,7 @@ url: https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-fi
 canonical_url: https://theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney
 summary: Character.ai Files for Bankruptcy
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-10-23T00:40:52Z'
+last_seen: '2026-11-24T06:02:47Z'
 status: pending_filter
 sources:
 - hackernews
@@ -45,6 +45,13 @@ sightings:
   metrics:
     points: 244
     comments: 224
+  kind: news
+- source: hackernews
+  url: https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness
+  seen_at: '2026-11-24T06:02:47Z'
+  metrics:
+    points: 74
+    comments: 82
   kind: news
 ---
 

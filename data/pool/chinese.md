@@ -20,7 +20,7 @@ url: https://chinese.vedranb.com/
 canonical_url: https://chinese.vedranb.com
 summary: I made a game about the 3k-year evolution of Chinese characters
 first_seen: '2026-11-02T01:31:06Z'
-last_seen: '2026-11-20T03:16:26Z'
+last_seen: '2026-11-24T06:04:03Z'
 status: pending_filter
 sources:
 - hackernews
@@ -87,6 +87,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/
   seen_at: '2026-11-20T03:16:26Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQeFlqMlFhaGdoTk1SZUlqWW51Q1dHRU5qY2cwaFJwT0FOWjNxblhfZHdFbWQ3YjhfWjF4ZUJKaFQtcC1sRHRQalo4aGR1ODlXN25BOGdqRzVZUFZ4N01zZFVMQ0d1NjFIa2Rod0xaWnBvWlBaMDYtNHMyckFwT1hlWFk1c290ZUZFdWxNMVRxUjNkSklnY2Q1R3JB?oc=5
+  seen_at: '2026-11-24T06:04:03Z'
   metrics: {}
   kind: news
 ---

@@ -23,16 +23,16 @@ summary: A scene-forging AI copilot for Blender—describe the layout and watch 
   · blender-ai-copilot-forge · blender · blender 3d · blender addon · blender plugin · blender extension
   · blender scripting · blender automation
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Doug-218/blender-ai-copilot-forge
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 509
+    stars: 510
     forks: 13
     open_issues: 48
   kind: product

@@ -21,17 +21,17 @@ canonical_url: https://github.com/Tonephorepair/ai--manus2.0
 summary: AI Manus is a general-purpose AI Agent system that supports running various tools and operations
   in a sandbox environment.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Tonephorepair/ai--manus2.0
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 365
-    forks: 294
+    stars: 362
+    forks: 292
     open_issues: 0
   kind: product
 ---

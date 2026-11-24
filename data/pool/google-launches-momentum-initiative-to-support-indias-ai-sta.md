@@ -1,0 +1,43 @@
+---
+slug: google-launches-momentum-initiative-to-support-indias-ai-sta
+name: Google launches Momentum initiative to support India's AI startups with technology, infrastructure
+  and scale
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUUQxcVh3N2xhdUZ0UXE5SkJHbUMwRWF2d2xybmg2MkRQN3RpeklGc1FoMHZWWEhZZzE2M0xxeUlNZXhXU09wLTdZM2xXQU5BdXJHdVFqVEtjenJUaHFaZmQ1NFEzaDY1STZTWm11T0hFQmVQUERlYkVTOUdTMnQxc1pRY0oxZlB0dDd6TU9PMXFMbGFyajlCeWFiSjlQUGtFaVdiV2J4ckUzNThyaVJIZG9KTlJ1UmVUeHNrTF9vUW5TdHlOU1A3Z0NrU2RhN1dLT05vUl9qTTAyR0FGT3daZWl5OS1JODB0eXpQcG1OdlrSAfYBQVVfeXFMUExqWUUzVk5mNFpOcHNYZ0V0SjJPcWJZV09ZTUFLUjhPczBZNmh1YVliZ05zYnVqclhLSUJqaUlMN09RTjBxeHExV0liYXo2R0xPQllMVEhLOWRRUFVKQ2t0MlNLYVBtY3R5ZktDUTlTNlNlN09mY1lVRm9iYUZRaGNOUm1xZ29pOTVOTGYyRGdIc2JUamxLbDd5OHFuaFVrczVVeUZNX3lYLWZsdkQxdVVJZjdBRV9mTWk2ei1yQWZlM00wMkhqMHlienZOdXlJcGtFaEZBb2Y0UmxmUGdMXzJtZUdjNDNnMloxLUQxWHZaekNlTjZB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUUQxcVh3N2xhdUZ0UXE5SkJHbUMwRWF2d2xybmg2MkRQN3RpeklGc1FoMHZWWEhZZzE2M0xxeUlNZXhXU09wLTdZM2xXQU5BdXJHdVFqVEtjenJUaHFaZmQ1NFEzaDY1STZTWm11T0hFQmVQUERlYkVTOUdTMnQxc1pRY0oxZlB0dDd6TU9PMXFMbGFyajlCeWFiSjlQUGtFaVdiV2J4ckUzNThyaVJIZG9KTlJ1UmVUeHNrTF9vUW5TdHlOU1A3Z0NrU2RhN1dLT05vUl9qTTAyR0FGT3daZWl5OS1JODB0eXpQcG1OdlrSAfYBQVVfeXFMUExqWUUzVk5mNFpOcHNYZ0V0SjJPcWJZV09ZTUFLUjhPczBZNmh1YVliZ05zYnVqclhLSUJqaUlMN09RTjBxeHExV0liYXo2R0xPQllMVEhLOWRRUFVKQ2t0MlNLYVBtY3R5ZktDUTlTNlNlN09mY1lVRm9iYUZRaGNOUm1xZ29pOTVOTGYyRGdIc2JUamxLbDd5OHFuaFVrczVVeUZNX3lYLWZsdkQxdVVJZjdBRV9mTWk2ei1yQWZlM00wMkhqMHlienZOdXlJcGtFaEZBb2Y0UmxmUGdMXzJtZUdjNDNnMloxLUQxWHZaekNlTjZB?oc=5
+summary: Google launches Momentum initiative to support India's AI startups with technology, infrastructure
+  and scale Storyboard18
+first_seen: '2026-11-24T06:04:03Z'
+last_seen: '2026-11-24T06:04:03Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUUQxcVh3N2xhdUZ0UXE5SkJHbUMwRWF2d2xybmg2MkRQN3RpeklGc1FoMHZWWEhZZzE2M0xxeUlNZXhXU09wLTdZM2xXQU5BdXJHdVFqVEtjenJUaHFaZmQ1NFEzaDY1STZTWm11T0hFQmVQUERlYkVTOUdTMnQxc1pRY0oxZlB0dDd6TU9PMXFMbGFyajlCeWFiSjlQUGtFaVdiV2J4ckUzNThyaVJIZG9KTlJ1UmVUeHNrTF9vUW5TdHlOU1A3Z0NrU2RhN1dLT05vUl9qTTAyR0FGT3daZWl5OS1JODB0eXpQcG1OdlrSAfYBQVVfeXFMUExqWUUzVk5mNFpOcHNYZ0V0SjJPcWJZV09ZTUFLUjhPczBZNmh1YVliZ05zYnVqclhLSUJqaUlMN09RTjBxeHExV0liYXo2R0xPQllMVEhLOWRRUFVKQ2t0MlNLYVBtY3R5ZktDUTlTNlNlN09mY1lVRm9iYUZRaGNOUm1xZ29pOTVOTGYyRGdIc2JUamxLbDd5OHFuaFVrczVVeUZNX3lYLWZsdkQxdVVJZjdBRV9mTWk2ei1yQWZlM00wMkhqMHlienZOdXlJcGtFaEZBb2Y0UmxmUGdMXzJtZUdjNDNnMloxLUQxWHZaekNlTjZB?oc=5
+  seen_at: '2026-11-24T06:04:03Z'
+  metrics: {}
+  kind: news
+---
+
+# Google launches Momentum initiative to support India's AI startups with technology, infrastructure and scale
+
+Google launches Momentum initiative to support India's AI startups with technology, infrastructure and scale Storyboard18
+
+## 笔记
+
+

@@ -20,7 +20,7 @@ url: https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html
 canonical_url: https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html
 summary: Religious scholars met with Anthropic
 first_seen: '2026-10-04T02:34:22Z'
-last_seen: '2026-11-18T03:43:13Z'
+last_seen: '2026-11-24T06:02:47Z'
 status: pending_filter
 sources:
 - hackernews
@@ -52,6 +52,13 @@ sightings:
   metrics:
     points: 92
     comments: 53
+  kind: news
+- source: hackernews
+  url: https://www.nytimes.com/2026/11/22/opinion/jensen-huang-ai-ethics-cold-war.html
+  seen_at: '2026-11-24T06:02:47Z'
+  metrics:
+    points: 42
+    comments: 7
   kind: news
 ---
 

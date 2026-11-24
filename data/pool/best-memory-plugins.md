@@ -23,18 +23,18 @@ summary: 'Best Memory Plugins for AI coding agents: Claude Code, Codex, Cursor, 
   automatic capture vs tool calls, local vs hosted, team sharing, privacy and install steps, plus built-in
   agent memory compared.'
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Glen-Web-App/best-memory-plugins
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 102
-    forks: 4
-    open_issues: 1
+    stars: 101
+    forks: 5
+    open_issues: 2
   kind: product
 ---
 

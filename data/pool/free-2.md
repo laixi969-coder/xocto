@@ -20,7 +20,7 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-11-18T03:43:38Z'
+last_seen: '2026-11-24T06:04:03Z'
 status: pending_filter
 sources:
 - hackernews
@@ -212,6 +212,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free
   seen_at: '2026-11-18T03:43:38Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE9fWG92eFpBaDBBRlM3WFJxTjY5Q09HcUotaFlTZldtYmdDRnFkT0pZTFJDaVlvNUVKWGxIZTJYOWpha2JYZXJHRHVyNGZJY0Q4NEducWxwOEFuNmNiYThUMWVuc244SUdyYzV3NWFkbmJMWkFuclE?oc=5
+  seen_at: '2026-11-24T06:04:03Z'
   metrics: {}
   kind: news
 ---

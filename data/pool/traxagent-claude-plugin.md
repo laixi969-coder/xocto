@@ -21,16 +21,16 @@ canonical_url: https://traxagent.io
 summary: Ask Claude, ChatGPT, Claude Code, Cursor or VS Code who spent your AI budget and what to fix.
   TraxAgent's read-only MCP server and Claude Code plugin.
 first_seen: '2026-11-21T03:13:53Z'
-last_seen: '2026-11-21T03:13:53Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.traxagent.io
-  seen_at: '2026-11-21T03:13:53Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 137
+    stars: 136
     forks: 0
     open_issues: 0
   kind: product

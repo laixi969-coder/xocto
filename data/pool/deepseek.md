@@ -43,7 +43,7 @@ url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-10-07T01:33:02Z'
+last_seen: '2026-11-24T06:04:07Z'
 status: queued
 sources:
 - aicpb
@@ -52,17 +52,13 @@ sources:
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
-  seen_at: '2026-08-11T11:08:17Z'
+  seen_at: '2026-11-24T06:04:07Z'
   metrics:
     raw_value: 483.80M
     value: 483800000.0
     metric: visits
     mom_raw: -10.59%
     mom_percent: -10.59
-    boards:
-    - 国内总榜
-    - 聊天机器人榜
-    - 全球总榜
   kind: product
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNN2ZVcER1YXNsaEthelVtNENlUXBCMzdyRV80bWhNWHBHSk5rVmMzZGJyaFZfWS1YclBDWklqc0RFTEZzYm1fSXJzd1RWVDR4U1d2QzZfWTRFTUtfa1Ewa2FBUzRGZU93dkE4dWZJM0YwdHFhaWlrLTF2ajRBaWt2TGZMS1oyclVaM0lpQms1dGx1T3JTVlFLdA?oc=5

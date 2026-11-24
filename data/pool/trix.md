@@ -20,17 +20,17 @@ url: https://trixapp.ai/
 canonical_url: https://trixapp.ai
 summary: A terminal workspace that shows which coding agent needs you
 first_seen: '2026-11-23T02:45:56Z'
-last_seen: '2026-11-23T02:45:56Z'
+last_seen: '2026-11-24T06:02:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://trixapp.ai/
-  seen_at: '2026-11-23T02:45:56Z'
+  seen_at: '2026-11-24T06:02:47Z'
   metrics:
-    points: 5
-    comments: 2
+    points: 7
+    comments: 3
   kind: product
 ---
 

@@ -21,16 +21,16 @@ canonical_url: https://github.com/gokayfem/image-to-sculpt
 summary: 'Turn one image of anything into a 3D sculpt measured against that image: registered views, map-fitting
   passes, Blender replay and timelapse. A skill for coding agents.'
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/gokayfem/image-to-sculpt
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 306
+    stars: 309
     forks: 23
     open_issues: 0
   kind: product

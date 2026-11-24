@@ -1,0 +1,43 @@
+---
+slug: amazon-indias-legal-head-rakesh-bakshi-says-ai-law-enforceme
+name: Amazon India's legal head Rakesh Bakshi says AI, law enforcement key to building trust in digital
+  commerce
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMigAJBVV95cUxQcVVsRV9Ycm5YRjRaUzU5S1JCdUwySGdYcFNrNjBZRTA1aUFrWEpNRk9WTEI4Qk44NHRBNEJYakZEWXZfNTJndHZzS2o5Ym5vSG5UNnhCWEd2RVBIaURYMXI3N2R0MlNmdV9rUjhwR0FOOFhLWVZPMXNSSnM1YmpTWHpld3NjYmU4SVNvVWl4OExuTXZ6WFc3cVhVZmQ4ZWdpS294bjMwc1MyZEZRdmRqQUNObklkQ2lwU3R0RllnNnJZVWJ2WXZVYTFLVlRZQTVFMzdhQmRUcjMxc3BuRDFyVzV5X1BMRUtXYloxY29fcTRScU9LdU9GOVhVWllTYnFk0gGGAkFVX3lxTE40TnExWFh3ZjRudFktUmRLYk9RVk5lbm9KMkY2WnczdEE0WmNVcnR4bGxhOVhVdWZVdmxOY21hWEsya19TSWxYSzF4M2VBaXhwRTl1NWh5dHBUdm5MX1VLdmFfV3k0MFo1Mk1jYng3bnplNTdmUGYwbHdRZURVcGl5Wi0wN3lLZ1U3TUliaXdfVlgxYUI5SmRoZXRNd0t4b2tYV3BYSGRDOGJJYXFXajhqdUJPeEw1MWpraVRYZi1JWVY1bTgtZXFSZV9LRFhVdHlhdUx6M2FTY182OEt2Z0FxeU9YdnlYbjFXbDBsVGpUeDU2ZXpXWXNGS3ZQM3JrMEtWbFFYaFE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMigAJBVV95cUxQcVVsRV9Ycm5YRjRaUzU5S1JCdUwySGdYcFNrNjBZRTA1aUFrWEpNRk9WTEI4Qk44NHRBNEJYakZEWXZfNTJndHZzS2o5Ym5vSG5UNnhCWEd2RVBIaURYMXI3N2R0MlNmdV9rUjhwR0FOOFhLWVZPMXNSSnM1YmpTWHpld3NjYmU4SVNvVWl4OExuTXZ6WFc3cVhVZmQ4ZWdpS294bjMwc1MyZEZRdmRqQUNObklkQ2lwU3R0RllnNnJZVWJ2WXZVYTFLVlRZQTVFMzdhQmRUcjMxc3BuRDFyVzV5X1BMRUtXYloxY29fcTRScU9LdU9GOVhVWllTYnFk0gGGAkFVX3lxTE40TnExWFh3ZjRudFktUmRLYk9RVk5lbm9KMkY2WnczdEE0WmNVcnR4bGxhOVhVdWZVdmxOY21hWEsya19TSWxYSzF4M2VBaXhwRTl1NWh5dHBUdm5MX1VLdmFfV3k0MFo1Mk1jYng3bnplNTdmUGYwbHdRZURVcGl5Wi0wN3lLZ1U3TUliaXdfVlgxYUI5SmRoZXRNd0t4b2tYV3BYSGRDOGJJYXFXajhqdUJPeEw1MWpraVRYZi1JWVY1bTgtZXFSZV9LRFhVdHlhdUx6M2FTY182OEt2Z0FxeU9YdnlYbjFXbDBsVGpUeDU2ZXpXWXNGS3ZQM3JrMEtWbFFYaFE?oc=5
+summary: Amazon India's legal head Rakesh Bakshi says AI, law enforcement key to building trust in digital
+  commerce ETLegalWorld
+first_seen: '2026-11-24T06:04:03Z'
+last_seen: '2026-11-24T06:04:03Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigAJBVV95cUxQcVVsRV9Ycm5YRjRaUzU5S1JCdUwySGdYcFNrNjBZRTA1aUFrWEpNRk9WTEI4Qk44NHRBNEJYakZEWXZfNTJndHZzS2o5Ym5vSG5UNnhCWEd2RVBIaURYMXI3N2R0MlNmdV9rUjhwR0FOOFhLWVZPMXNSSnM1YmpTWHpld3NjYmU4SVNvVWl4OExuTXZ6WFc3cVhVZmQ4ZWdpS294bjMwc1MyZEZRdmRqQUNObklkQ2lwU3R0RllnNnJZVWJ2WXZVYTFLVlRZQTVFMzdhQmRUcjMxc3BuRDFyVzV5X1BMRUtXYloxY29fcTRScU9LdU9GOVhVWllTYnFk0gGGAkFVX3lxTE40TnExWFh3ZjRudFktUmRLYk9RVk5lbm9KMkY2WnczdEE0WmNVcnR4bGxhOVhVdWZVdmxOY21hWEsya19TSWxYSzF4M2VBaXhwRTl1NWh5dHBUdm5MX1VLdmFfV3k0MFo1Mk1jYng3bnplNTdmUGYwbHdRZURVcGl5Wi0wN3lLZ1U3TUliaXdfVlgxYUI5SmRoZXRNd0t4b2tYV3BYSGRDOGJJYXFXajhqdUJPeEw1MWpraVRYZi1JWVY1bTgtZXFSZV9LRFhVdHlhdUx6M2FTY182OEt2Z0FxeU9YdnlYbjFXbDBsVGpUeDU2ZXpXWXNGS3ZQM3JrMEtWbFFYaFE?oc=5
+  seen_at: '2026-11-24T06:04:03Z'
+  metrics: {}
+  kind: news
+---
+
+# Amazon India's legal head Rakesh Bakshi says AI, law enforcement key to building trust in digital commerce
+
+Amazon India's legal head Rakesh Bakshi says AI, law enforcement key to building trust in digital commerce ETLegalWorld
+
+## 笔记
+
+

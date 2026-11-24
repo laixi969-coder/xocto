@@ -21,16 +21,16 @@ canonical_url: https://github.com/topconstableinlet67/ai--manus2.0
 summary: AI Manus is a general-purpose AI Agent system that supports running various tools and operations
   in a sandbox environment.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/topconstableinlet67/ai--manus2.0
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 373
+    stars: 370
     forks: 3
     open_issues: 0
   kind: product

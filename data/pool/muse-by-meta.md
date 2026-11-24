@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-22T02:15:21Z'
+last_seen: '2026-11-24T06:04:03Z'
 status: pending_filter
 sources:
 - producthunt
@@ -588,6 +588,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQZXRsbzRRcGhvc2trNEtyM3FfNlV5dGRoSzRMY3dCM1RkV191WVpyel9wZnZvRFFuZjU2NVVTQVNSbXE5dzJ0bGNxVHNYWTdaQ2Foa3hUVmNzalctYnZRU2M0a2tmQjdCNzFGa29tenM5S28wN2N6bUxqV3VwbHhZWmplUEZzWkFxNzN5QkprZUM0QkVCOFZtUjdUWGctdTNvV1HSAaIBQVVfeXFMUGV0bG80UXBob3NrazRLcjNxXzZVeXRkaEs0TGN3QjNUZFdfdVlacnpfcGZ2b0RRbmY1NjVVU0FTUm1xOXcydGxjcVRzWFk3WkNhaGt4VFZjc2pXLWJ2UVNjNGtrZkI3QjcxRmtvbXpzOUtvMDdjem1Mald1cGx4WVpqZVBGc1pBcTczeUJKa2VDNEJFQjhWbVI3VFhnLXUzb1dR?oc=5
   seen_at: '2026-11-22T02:15:21Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/
+  seen_at: '2026-11-24T06:03:56Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/
+  seen_at: '2026-11-24T06:03:56Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOREV5MVBTLWNhbUdWQ2lzakRzdjVHRnpPYU1Dc2dlbnNaaWhTSHRqRWllaFVYQTA5Z284VkFQQm90UEphd1h5ckRuYW55Ylk1MEFsX3c5QmwtR25LbnpYM2pOOXFha1VEMzFSdWpOMlM1ei1NLUlOZUlLRGVhTkt4S0ZlOVZwQlRWSGJ1dkkzWlRjMkJJRUxBeW5sWUM?oc=5
+  seen_at: '2026-11-24T06:04:03Z'
   metrics: {}
   kind: news
 ---

@@ -31,10 +31,11 @@ url: https://www.runcanary.ai/
 canonical_url: https://runcanary.ai
 summary: Independent verification for AI code
 first_seen: '2026-09-24T20:57:52Z'
-last_seen: '2026-09-26T00:37:52Z'
-status: watching
+last_seen: '2026-11-24T06:03:56Z'
+status: pending_filter
 sources:
 - hackernews
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://www.runcanary.ai/
@@ -43,6 +44,11 @@ sightings:
     points: 7
     comments: 0
   kind: product
+- source: officialfeeds
+  url: https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits
+  seen_at: '2026-11-24T06:03:56Z'
+  metrics: {}
+  kind: news
 ---
 
 # Canary

@@ -1,0 +1,18 @@
+- id: ev-6c6b2f7ecb215bc9
+  project_slug: glm-54-toward-generalized-coding-with-our-first-loop-transfo
+  url: https://simonwillison.net/2026/Nov/23/glm-54/
+  title: 'GLM-5.4: Toward Generalized Coding with Our First Loop Transformer'
+  published_at: '2026-11-23T23:40:49Z'
+  collected_at: '2026-11-24T06:03:57Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 'GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from
+    Chinese AI lab Z.ai. It''s their first model to use a looped transformer architecture, which they
+    describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer,
+    a group of weight-shared layers runs for multiple iterations, refining the hidden states from the
+    previous pass. This gives us a deeper network without increasing the parameter count. This is the
+    second mention of looped transformers I''ve seen in the past week - the first was Inkling 2 Mini from
+    Thinking Machines Lab on November 20th, who said: Inkling 2 Mini is a looped transformer, running
+    the middle layers of the model three times for every token. This allows the model to apply more reasoning
+    and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend
+    on reasoning quality. GLM 5.4 is not (yet?) available as open weights. I tried it out using the'

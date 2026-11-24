@@ -21,17 +21,17 @@ canonical_url: https://github.com/danielwh2/sprite-stacking
 summary: 'Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude
   Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.'
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/danielwh2/sprite-stacking
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 477
-    forks: 35
+    stars: 696
+    forks: 49
     open_issues: 1
   kind: product
 ---

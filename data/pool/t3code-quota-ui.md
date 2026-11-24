@@ -21,17 +21,17 @@ canonical_url: https://github.com/Leobai03/t3code-quota-ui
 summary: One-command macOS UI & multi-account quota enhancement pack for T3 Code (2-column compact Limits
   grid, side-by-side multi-account bars, context breakdown & zh-CN UI)
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Leobai03/t3code-quota-ui
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 41
-    forks: 4
+    stars: 87
+    forks: 6
     open_issues: 0
   kind: product
 ---

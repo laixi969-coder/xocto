@@ -22,18 +22,18 @@ summary: 'Craft Anything for DeepSeek Harness: mcp__craft__* MCP bridge to the l
   with a clean-room/deep mode switch in the composer, a status page, a CLI runner and a SHA256-verified
   installer. 把 Craft Anything 接入 DSH 的插件。'
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/storytold/craft-anything
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 429
-    forks: 94
-    open_issues: 1
+    stars: 442
+    forks: 96
+    open_issues: 0
   kind: product
 ---
 

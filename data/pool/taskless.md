@@ -20,17 +20,17 @@ url: https://www.taskless.io/
 canonical_url: https://taskless.io
 summary: turn AGENTS.md and PR comments into runnable checks
 first_seen: '2026-11-23T02:45:56Z'
-last_seen: '2026-11-23T02:45:56Z'
+last_seen: '2026-11-24T06:02:47Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.taskless.io/
-  seen_at: '2026-11-23T02:45:56Z'
+  seen_at: '2026-11-24T06:02:47Z'
   metrics:
-    points: 5
-    comments: 2
+    points: 7
+    comments: 3
   kind: product
 ---
 

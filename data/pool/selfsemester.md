@@ -21,18 +21,18 @@ canonical_url: https://github.com/munitkala/selfsemester
 summary: Windows app that turns any subject into a full, scheduled, graded course, built and marked by
   your own Claude Code
 first_seen: '2026-11-10T04:07:38Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/munitkala/selfsemester
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 110
+    stars: 112
     forks: 10
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMicEFVX3lxTFBtSVRyZ3lzb1lmQnBxQmE4Rm
 canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTFBtSVRyZ3lzb1lmQnBxQmE4Rm91OU1TTVBJNlhhb2ltdjRWdnZtWXV3ZmlnUHZRSS1HQkRQaGRGQlhkb2JpSTVBaHMwRVBSZVA4aEV0QzdwbzRIQWY3dU5ESHJGbVMzb2l3SkRhOTR6U20?oc=5
 summary: 财跃星辰发布FinWork V1.0 金融智能体开启“按岗位交付”规模化落地新阶段 手机新浪网
 first_seen: '2026-11-21T03:14:40Z'
-last_seen: '2026-11-21T03:14:40Z'
+last_seen: '2026-11-24T06:04:03Z'
 status: pending_filter
 sources:
 - newssearch
@@ -33,6 +33,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE1DVHlFcHAxdS1lSWo0VkNTc1dKYkFVSTZlYnpsU0N5aWxTdVRCUUtWREQ2R3NIUVliUkhHSVE5OUtjM3RNSmc?oc=5
   seen_at: '2026-11-21T03:14:40Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBheFJFTlB0UWVhWTduU0U4VUVFWGhmbEZOMkJLb21ISFIwWnZpZnh0b2M4ajdVZTNhUWd1NmFEM0dHem95dGlodQ?oc=5
+  seen_at: '2026-11-24T06:04:03Z'
   metrics: {}
   kind: news
 ---

@@ -22,16 +22,16 @@ summary: 'Claude memory: the top 10 ways to give Claude persistent, long-term me
   MCP memory servers, CLAUDE.md, memory plugins and tools for Claude Code, Claude Desktop and the Claude
   API. Setup, pros and cons, and which to pick for remembering context across sessions.'
 first_seen: '2026-11-12T02:59:41Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://tryglen.com
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 102
+    stars: 101
     forks: 5
     open_issues: 0
   kind: product

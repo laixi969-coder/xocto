@@ -21,16 +21,16 @@ canonical_url: https://hajdu-patrik.github.io/clippy
 summary: 'Local AI clipper: long videos, podcasts and streams in, vertical 9:16 clips with captions out.
   Chat app + CLI, English.'
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-24T06:03:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://hajdu-patrik.github.io/clippy/
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-24T06:03:30Z'
   metrics:
-    stars: 54
+    stars: 66
     forks: 0
     open_issues: 0
   kind: product
