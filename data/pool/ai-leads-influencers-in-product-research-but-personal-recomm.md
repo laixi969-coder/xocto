@@ -1,0 +1,42 @@
+---
+slug: ai-leads-influencers-in-product-research-but-personal-recomm
+name: 'AI leads influencers in product research, but personal recommendations remain ahead of both: Study'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVjVqOW43YXM1ZzhEQUxic1VqNkVmRVJ3NGU3NzVNMG9tZEFOd2lwVzQ5N1FzLXFBRWRXRi1PdzhpU216SVd5a29mNFlnOU44VTkwbXptOVI5SFBRRmlCZElsdHN2ZjRYNmwyR3BKTVZ0Qy1xVHR2OTdzMFJLWmVmSWFmeWtuaDlJaEY3S1lpY3pCdEZoX2xXV3pHM1h4a1pBZVFWS1o5MjgwWThIdmVMZFBTS2dmTWNVVWNSX01kRTNIR0ZLQnQxT0FlbVVaMTJNTVE3cnI5MNIB1wFBVV95cUxQVjVqOW43YXM1ZzhEQUxic1VqNkVmRVJ3NGU3NzVNMG9tZEFOd2lwVzQ5N1FzLXFBRWRXRi1PdzhpU216SVd5a29mNFlnOU44VTkwbXptOVI5SFBRRmlCZElsdHN2ZjRYNmwyR3BKTVZ0Qy1xVHR2OTdzMFJLWmVmSWFmeWtuaDlJaEY3S1lpY3pCdEZoX2xXV3pHM1h4a1pBZVFWS1o5MjgwWThIdmVMZFBTS2dmTWNVVWNSX01kRTNIR0ZLQnQxT0FlbVVaMTJNTVE3cnI5MA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVjVqOW43YXM1ZzhEQUxic1VqNkVmRVJ3NGU3NzVNMG9tZEFOd2lwVzQ5N1FzLXFBRWRXRi1PdzhpU216SVd5a29mNFlnOU44VTkwbXptOVI5SFBRRmlCZElsdHN2ZjRYNmwyR3BKTVZ0Qy1xVHR2OTdzMFJLWmVmSWFmeWtuaDlJaEY3S1lpY3pCdEZoX2xXV3pHM1h4a1pBZVFWS1o5MjgwWThIdmVMZFBTS2dmTWNVVWNSX01kRTNIR0ZLQnQxT0FlbVVaMTJNTVE3cnI5MNIB1wFBVV95cUxQVjVqOW43YXM1ZzhEQUxic1VqNkVmRVJ3NGU3NzVNMG9tZEFOd2lwVzQ5N1FzLXFBRWRXRi1PdzhpU216SVd5a29mNFlnOU44VTkwbXptOVI5SFBRRmlCZElsdHN2ZjRYNmwyR3BKTVZ0Qy1xVHR2OTdzMFJLWmVmSWFmeWtuaDlJaEY3S1lpY3pCdEZoX2xXV3pHM1h4a1pBZVFWS1o5MjgwWThIdmVMZFBTS2dmTWNVVWNSX01kRTNIR0ZLQnQxT0FlbVVaMTJNTVE3cnI5MA?oc=5
+summary: 'AI leads influencers in product research, but personal recommendations remain ahead of both:
+  Study BMI'
+first_seen: '2026-11-25T04:55:10Z'
+last_seen: '2026-11-25T04:55:10Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVjVqOW43YXM1ZzhEQUxic1VqNkVmRVJ3NGU3NzVNMG9tZEFOd2lwVzQ5N1FzLXFBRWRXRi1PdzhpU216SVd5a29mNFlnOU44VTkwbXptOVI5SFBRRmlCZElsdHN2ZjRYNmwyR3BKTVZ0Qy1xVHR2OTdzMFJLWmVmSWFmeWtuaDlJaEY3S1lpY3pCdEZoX2xXV3pHM1h4a1pBZVFWS1o5MjgwWThIdmVMZFBTS2dmTWNVVWNSX01kRTNIR0ZLQnQxT0FlbVVaMTJNTVE3cnI5MNIB1wFBVV95cUxQVjVqOW43YXM1ZzhEQUxic1VqNkVmRVJ3NGU3NzVNMG9tZEFOd2lwVzQ5N1FzLXFBRWRXRi1PdzhpU216SVd5a29mNFlnOU44VTkwbXptOVI5SFBRRmlCZElsdHN2ZjRYNmwyR3BKTVZ0Qy1xVHR2OTdzMFJLWmVmSWFmeWtuaDlJaEY3S1lpY3pCdEZoX2xXV3pHM1h4a1pBZVFWS1o5MjgwWThIdmVMZFBTS2dmTWNVVWNSX01kRTNIR0ZLQnQxT0FlbVVaMTJNTVE3cnI5MA?oc=5
+  seen_at: '2026-11-25T04:55:10Z'
+  metrics: {}
+  kind: news
+---
+
+# AI leads influencers in product research, but personal recommendations remain ahead of both: Study
+
+AI leads influencers in product research, but personal recommendations remain ahead of both: Study BMI
+
+## 笔记
+
+

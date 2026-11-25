@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-11-24T06:03:57Z'
+last_seen: '2026-11-25T04:55:10Z'
 status: pending_filter
 sources:
 - hackernews
@@ -293,6 +293,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/
   seen_at: '2026-11-24T06:03:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOOUtKNnpDZ3RvVmM3VjJLcExEM0ZxV3ZBN2lhSHRSMVJnNmNVWGVhWWhJNG9UVnlmSFFKTWdjbnZCS1pmTExvS1JoWmtTSDluYzdhRWVHLThXWFVjcHVFaWtkZGY4SUxpVUZDa3pwck1DNDE4SXE3LW1hTzMtaEE2cmZBclBIbm5lQ3pLMmpYc01JUXRQ?oc=5
+  seen_at: '2026-11-25T04:55:10Z'
   metrics: {}
   kind: news
 ---

@@ -21,18 +21,18 @@ canonical_url: https://github.com/mitaku/andon
 summary: 'A one-person software factory: AI coding agents take tasks from a ledger through review to merge,
   and call the human only for decisions only they can make.'
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mitaku/andon
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 210
+    stars: 215
     forks: 11
-    open_issues: 3
+    open_issues: 1
   kind: product
 ---
 

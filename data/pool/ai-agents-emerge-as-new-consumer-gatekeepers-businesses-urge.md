@@ -1,0 +1,43 @@
+---
+slug: ai-agents-emerge-as-new-consumer-gatekeepers-businesses-urge
+name: 'AI agents emerge as new consumer gatekeepers, businesses urged to optimise for Bot-driven purchases:
+  Report'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYUdNUWVNODhVZGpFdmkwNzRLM3VldWEta2RjNVdsQkFNWjkxUnhUeGt4bS00eXpCSzRWcG03Ulg2WmlFUU0wbnRmeUZ6SG5lQXBmdlBOTjdHdmx3NFdTYU9fU1l2dFNhQVNzUldTd2NqaVB5aHQwV3FnQ1lncWtJd0QtSWwxVzJFeTdITTZ3M1dGR2FWVjkxSk5XaDk5YXJzcW1MMUhOYmNGbHh4LWYwTWVXQjlGS19FaDBacmROY2dPUy1MdEhxaUJCSXYwRC1nZ0cwbUswZUpRSkZKNkRKWmZ5eTlhblJ1cXc0QnlKRENHdUnSAfgBQVVfeXFMUG93bG9DeTJ2aFAtV3haS1N4MVN0dUxEWjhxOHotaVE0SFhEa25KdjlIZ0FWSVpYZlF6ZFJJLVBsNmJCRklkbUtNSXplREUxcm1xbXE4LTRKaGVwMGhmWGtwNklOZ3NreC0ydXhGVEpDUjVRY01CWjlYZ0Y4blVheXdpQnF2aGNpRk1uU1FRaUw1bGtXOWpjdmEwY2tfS3NXNjNyMUF5aXdWSUljc0Y4M3VkOHpZZmg0aFV1WG93YWxvLWQyRE9GUTRLUndWdlFzdVNaSFhfV2tmeE93d2VWaWVGRUFRY3ZvN1NiVkpwRTlfZmFfMFlsR1U?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYUdNUWVNODhVZGpFdmkwNzRLM3VldWEta2RjNVdsQkFNWjkxUnhUeGt4bS00eXpCSzRWcG03Ulg2WmlFUU0wbnRmeUZ6SG5lQXBmdlBOTjdHdmx3NFdTYU9fU1l2dFNhQVNzUldTd2NqaVB5aHQwV3FnQ1lncWtJd0QtSWwxVzJFeTdITTZ3M1dGR2FWVjkxSk5XaDk5YXJzcW1MMUhOYmNGbHh4LWYwTWVXQjlGS19FaDBacmROY2dPUy1MdEhxaUJCSXYwRC1nZ0cwbUswZUpRSkZKNkRKWmZ5eTlhblJ1cXc0QnlKRENHdUnSAfgBQVVfeXFMUG93bG9DeTJ2aFAtV3haS1N4MVN0dUxEWjhxOHotaVE0SFhEa25KdjlIZ0FWSVpYZlF6ZFJJLVBsNmJCRklkbUtNSXplREUxcm1xbXE4LTRKaGVwMGhmWGtwNklOZ3NreC0ydXhGVEpDUjVRY01CWjlYZ0Y4blVheXdpQnF2aGNpRk1uU1FRaUw1bGtXOWpjdmEwY2tfS3NXNjNyMUF5aXdWSUljc0Y4M3VkOHpZZmg0aFV1WG93YWxvLWQyRE9GUTRLUndWdlFzdVNaSFhfV2tmeE93d2VWaWVGRUFRY3ZvN1NiVkpwRTlfZmFfMFlsR1U?oc=5
+summary: 'AI agents emerge as new consumer gatekeepers, businesses urged to optimise for Bot-driven purchases:
+  Report Livemint'
+first_seen: '2026-11-25T04:55:10Z'
+last_seen: '2026-11-25T04:55:10Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYUdNUWVNODhVZGpFdmkwNzRLM3VldWEta2RjNVdsQkFNWjkxUnhUeGt4bS00eXpCSzRWcG03Ulg2WmlFUU0wbnRmeUZ6SG5lQXBmdlBOTjdHdmx3NFdTYU9fU1l2dFNhQVNzUldTd2NqaVB5aHQwV3FnQ1lncWtJd0QtSWwxVzJFeTdITTZ3M1dGR2FWVjkxSk5XaDk5YXJzcW1MMUhOYmNGbHh4LWYwTWVXQjlGS19FaDBacmROY2dPUy1MdEhxaUJCSXYwRC1nZ0cwbUswZUpRSkZKNkRKWmZ5eTlhblJ1cXc0QnlKRENHdUnSAfgBQVVfeXFMUG93bG9DeTJ2aFAtV3haS1N4MVN0dUxEWjhxOHotaVE0SFhEa25KdjlIZ0FWSVpYZlF6ZFJJLVBsNmJCRklkbUtNSXplREUxcm1xbXE4LTRKaGVwMGhmWGtwNklOZ3NreC0ydXhGVEpDUjVRY01CWjlYZ0Y4blVheXdpQnF2aGNpRk1uU1FRaUw1bGtXOWpjdmEwY2tfS3NXNjNyMUF5aXdWSUljc0Y4M3VkOHpZZmg0aFV1WG93YWxvLWQyRE9GUTRLUndWdlFzdVNaSFhfV2tmeE93d2VWaWVGRUFRY3ZvN1NiVkpwRTlfZmFfMFlsR1U?oc=5
+  seen_at: '2026-11-25T04:55:10Z'
+  metrics: {}
+  kind: news
+---
+
+# AI agents emerge as new consumer gatekeepers, businesses urged to optimise for Bot-driven purchases: Report
+
+AI agents emerge as new consumer gatekeepers, businesses urged to optimise for Bot-driven purchases: Report Livemint
+
+## 笔记
+
+

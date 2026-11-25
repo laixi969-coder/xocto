@@ -29,7 +29,7 @@ url: https://www.mira.tours/wander
 canonical_url: https://mira.tours/wander
 summary: AI Walking Tours
 first_seen: '2026-10-12T01:20:32Z'
-last_seen: '2026-11-24T06:04:03Z'
+last_seen: '2026-11-25T04:55:10Z'
 status: pending_filter
 sources:
 - hackernews
@@ -70,6 +70,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNU2dxek1kMFZvbElXcjR5RC14anVoZlo3OUdxQzBwQ01qUWFMSGtzSHhZSHVqb2lFWHB5T3Jha0tOa1V5clFXR2ZQNWplY1k3SS1IN3BSbW4xcHBBZ2JIYzVZV2F5aVoxUmRzYnFHN2ZLamMxZkp3c2RNY1JHbVhJUUhvSU8tTHhFVl8tc3VkSjVCVlFNanhWWUNoRWVEQ2xx?oc=5
   seen_at: '2026-11-24T06:04:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOWXJMcWN1RHJXX3QteTFvazhlM3J4NEdSSGRkWnZCd1Z1aktmQmxoazYxMmV6cmlHTXVXaTVnZlNsSnVyZF9CLUtoSENsc1ktOVZZUDdRVWRiZjQ2ajFITnpMVmJ0UzN4bzFKTE51d2V4S0NEYkNBenNGWGlIVWdmaHFOaFlRTzR0TGt4MQ?oc=5
+  seen_at: '2026-11-25T04:55:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQdldna0FFVktRUEs4UVFVcXhreUJObWhBMm0xU2hCQ3VGcHl6a3lWcS0xNXNTc1J3N0pqWHZJV1JXUWx1aHE1UjI4ZldJbU5YbTRnOGtvM0kwTlJ0cWJSZWxQXzA2TWlnaUs5ZXRDYkQySGpqekdWVGhDNDlwMGxXQ1FKX0VhQTJtMllVa1FfaHpXU1R2U29rNzFQUWsya290X3RCT2FEY2xDZE45?oc=5
+  seen_at: '2026-11-25T04:55:10Z'
   metrics: {}
   kind: news
 ---

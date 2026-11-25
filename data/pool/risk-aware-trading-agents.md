@@ -23,25 +23,25 @@ summary: 'AI trading agents for US stocks with news backtesting that can''t see 
   a look-ahead check on every run, LLM agents over MCP, and paper/live trading on 10 brokers. 风险感知美股交易智能体
   · 新闻回测 · LLM 榜单'
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://jackson-cmd.github.io/risk-aware-trading-agents/
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 476
-    forks: 82
+    stars: 477
+    forks: 83
     open_issues: 0
   kind: product
 - source: github
   url: https://jackson-cmd.github.io/claude-multi-desktop/
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 398
-    forks: 28
+    stars: 410
+    forks: 31
     open_issues: 0
   kind: product
 ---

@@ -22,16 +22,16 @@ summary: '面向复杂软件工程与产品设计的旗舰级跨厂商多 Agent 
   AI cluster: Architecture layer outputs PRDs & prototypes (built for PMs), Implementation ships Docker-verified
   code.'
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://johnson-durui.github.io/ApexCluster/
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 157
+    stars: 181
     forks: 15
     open_issues: 0
   kind: product

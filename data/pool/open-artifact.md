@@ -21,18 +21,18 @@ canonical_url: https://github.com/JimLiu/open-artifact
 summary: Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on,
   and export slides, UI designs, design systems, whiteboards, sheets, dashboards, docs, and motion.
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JimLiu/open-artifact
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 454
-    forks: 57
-    open_issues: 1
+    stars: 487
+    forks: 61
+    open_issues: 2
   kind: product
 ---
 

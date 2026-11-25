@@ -21,17 +21,17 @@ canonical_url: https://github.com/dennisyang1986/polymarket-proxy
 summary: 'Polymarket Proxy — a local Polymarket desk inside DeepSeek Harness: deposit address, portfolio,
   market radar and live trading when the official site is unavailable.'
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dennisyang1986/polymarket-proxy
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
     stars: 160
-    forks: 25
+    forks: 26
     open_issues: 0
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://firevoice.fabwaseem.com
 canonical_url: https://firevoice.fabwaseem.com
 summary: free open-source voice studio on your own GPU
 first_seen: '2026-11-24T06:02:47Z'
-last_seen: '2026-11-24T06:02:47Z'
+last_seen: '2026-11-25T04:54:17Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://firevoice.fabwaseem.com
-  seen_at: '2026-11-24T06:02:47Z'
+  seen_at: '2026-11-25T04:54:17Z'
   metrics:
-    points: 8
-    comments: 2
+    points: 15
+    comments: 3
   kind: product
 ---
 

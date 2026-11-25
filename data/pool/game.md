@@ -20,11 +20,12 @@ url: https://game.commoncrawl.org/
 canonical_url: https://game.commoncrawl.org
 summary: Web Crawl Platformer Game
 first_seen: '2026-11-12T02:59:38Z'
-last_seen: '2026-11-19T03:28:38Z'
+last_seen: '2026-11-25T04:54:51Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://game.commoncrawl.org/
@@ -46,6 +47,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview
   seen_at: '2026-11-19T03:28:38Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/
+  seen_at: '2026-11-25T04:54:51Z'
   metrics: {}
   kind: news
 ---

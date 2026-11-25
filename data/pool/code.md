@@ -53,7 +53,7 @@ summary: "Claude Max 订阅用了小半年之后，还是被封了。\r\n\r\n简
   \ GPT 100刀 + Gemini 50刀。对比我之前的 Claude Max 125刀（IOS订阅）成本上差别不大。\r\n\r\n目前 Claude 订阅的溢价对我来讲过高了，说到底是个成本的问题，成本允许的话，我早就找个靠谱中转一把梭了。希望我的项目早日扭亏为盈哈哈哈。\r\
   \n\r\n希望能给同样被封各位一些新思路吧，如果有更好的配置、使用方法也欢迎讨论。"
 first_seen: '2026-11-20T03:15:49Z'
-last_seen: '2026-11-24T06:03:57Z'
+last_seen: '2026-11-25T04:55:10Z'
 status: pending_filter
 sources:
 - v2ex
@@ -80,6 +80,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/
   seen_at: '2026-11-24T06:03:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiigFBVV95cUxNOUx2T3ZlUUF5UEt5blpwSWN5MmVCUmpiRi1kOXRxLXU4bk9UUHNzbERrNnB0dlF6aFRyWVVqZ2ltd2RqYlozQWtRZWQ5MUZsVGUyTktSYU1vSExNNlJacTRSWjRrY2hOclpqcHNtWG5EOWF4TURsX3lUQjR2NnptY2ZHdVNXTVpMOVE?oc=5
+  seen_at: '2026-11-25T04:55:10Z'
   metrics: {}
   kind: news
 ---

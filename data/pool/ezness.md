@@ -23,16 +23,16 @@ summary: Windows desktop AI workbench beyond chat. Hand an agent a project folde
   A built-in Work Director tracks tasks and alerts you on stalls, drift or waiting actions. All prompts,
   knowledge, logs and keys stay local
 first_seen: '2026-11-21T03:13:53Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Easyblue11/ezness
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 123
+    stars: 127
     forks: 0
     open_issues: 0
   kind: product

@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-24T06:04:03Z'
+last_seen: '2026-11-25T04:55:10Z'
 status: pending_filter
 sources:
 - producthunt
@@ -603,6 +603,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOREV5MVBTLWNhbUdWQ2lzakRzdjVHRnpPYU1Dc2dlbnNaaWhTSHRqRWllaFVYQTA5Z284VkFQQm90UEphd1h5ckRuYW55Ylk1MEFsX3c5QmwtR25LbnpYM2pOOXFha1VEMzFSdWpOMlM1ei1NLUlOZUlLRGVhTkt4S0ZlOVZwQlRWSGJ1dkkzWlRjMkJJRUxBeW5sWUM?oc=5
   seen_at: '2026-11-24T06:04:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/
+  seen_at: '2026-11-25T04:54:52Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/
+  seen_at: '2026-11-25T04:54:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibkFVX3lxTE1pcHp0cE96Ylh3UV9GTnV0OFJhR0dQaFZRNk1KbURZa0h5dXJMMkNJUUg0LTI1MnBQSmdTMDJra3VqMm5KYzM2dXk3OGZVM3NOU3dLa3Bqcl96WVFLXzhTZG5qdVB3TDUyNmNKR1Bn?oc=5
+  seen_at: '2026-11-25T04:55:10Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPa0hUak5JZ0pxQzJ6SDhDTUhLRXRpSk5CNVJuS3dFNTlZWU1nZ3NqTjA5UUpFcFFVdjdNUVFPRWNocC1GOWpSRHFhUmhjZFBjbjhfMjFqZkN5cWpCMm9udW1mOWhlSHFUUmdRM2dWY0RFRlByUXdIcXo5U195MXdWTzc2aUZ0dFE?oc=5
+  seen_at: '2026-11-25T04:55:10Z'
   metrics: {}
   kind: news
 ---

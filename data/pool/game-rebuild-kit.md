@@ -20,17 +20,17 @@ url: https://remielle-motion-study.pages.dev/
 canonical_url: https://remielle-motion-study.pages.dev
 summary: AI-assisted game analysis and reconstruction, working toward one-click workflows for any game.
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://remielle-motion-study.pages.dev/
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 95
-    forks: 27
+    stars: 110
+    forks: 30
     open_issues: 0
   kind: product
 ---

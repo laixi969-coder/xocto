@@ -21,17 +21,17 @@ canonical_url: https://mroffice.ai
 summary: 'MR Office: open-source document, spreadsheet, presentation, PDF, handwriting and code editors.
   https://mroffice.ai'
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://mroffice.ai
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 3085
-    forks: 362
+    stars: 4036
+    forks: 434
     open_issues: 0
   kind: product
 ---

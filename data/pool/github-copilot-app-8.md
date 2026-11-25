@@ -21,17 +21,17 @@ canonical_url: https://github.com/TrapBladesmith/GitHub-Copilot-app
 summary: The GitHub Copilot app is an agent-native desktop experience for finding, running, steering,
   and landing software work across your GitHub repositories.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/TrapBladesmith/GitHub-Copilot-app
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 371
-    forks: 6
+    stars: 365
+    forks: 4
     open_issues: 0
   kind: product
 ---

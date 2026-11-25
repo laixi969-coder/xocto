@@ -21,16 +21,16 @@ canonical_url: https://nookdeck.app
 summary: 'Nookdeck (formerly PhoneDesk): turn an old phone into a Stream Deck-style control panel and
   dashboard for your Mac or Windows PC. No app, no account, no cloud.'
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://nookdeck.app
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 54
+    stars: 55
     forks: 17
     open_issues: 0
   kind: product

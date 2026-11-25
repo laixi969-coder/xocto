@@ -21,16 +21,16 @@ canonical_url: https://github.com/Yornii/dsh-session-unfold
 summary: 'A DSH plugin: It unfolds all conversations into a simple card format, eliminating the need to
   switch between multiple conversations. 一个DSH插件：将所有会话展开平铺成简洁卡片形式，避免了在多个会话之间来回切换。'
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Yornii/dsh-session-unfold
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 62
+    stars: 67
     forks: 0
     open_issues: 0
   kind: product

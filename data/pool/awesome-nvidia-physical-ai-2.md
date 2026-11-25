@@ -21,18 +21,18 @@ canonical_url: https://james-joobs.github.io/awesome-nvidia-physical-ai
 summary: An independent bilingual guide to NVIDIA Physical AI. Find tools, models, and workflows for robotics,
   simulation, and autonomous driving.
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://james-joobs.github.io/awesome-nvidia-physical-ai/
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 51
+    stars: 52
     forks: 3
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

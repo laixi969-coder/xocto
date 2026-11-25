@@ -20,18 +20,18 @@ url: https://github.com/Immortal-Protocols/lastbook
 canonical_url: https://github.com/Immortal-Protocols/lastbook
 summary: Offline knowledge AI, maps and videos for survival and rebuilding
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Immortal-Protocols/lastbook
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 3013
-    forks: 368
-    open_issues: 194
+    stars: 3059
+    forks: 377
+    open_issues: 185
   kind: product
 ---
 

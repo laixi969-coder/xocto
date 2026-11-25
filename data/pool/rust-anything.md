@@ -21,18 +21,18 @@ canonical_url: https://github.com/erkamyaman/rust-anything
 summary: Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded
   behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/erkamyaman/rust-anything
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 8847
-    forks: 714
-    open_issues: 51
+    stars: 9301
+    forks: 761
+    open_issues: 60
   kind: product
 ---
 

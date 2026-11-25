@@ -21,17 +21,17 @@ canonical_url: https://github.com/nickvasilescu/parallax
 summary: Open-source AI image, video and audio studio, with an agent chat you can run on your own Hermes
   agent on Orgo.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nickvasilescu/parallax
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 244
-    forks: 173
+    stars: 246
+    forks: 174
     open_issues: 2
   kind: product
 ---

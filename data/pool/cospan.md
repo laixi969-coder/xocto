@@ -21,18 +21,18 @@ canonical_url: https://github.com/keli-wen/cospan
 summary: Unified orchestration across coding agents — connect Antigravity, Codex, Claude Code, and DeepSeek
   Harness through one async delegation protocol.
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/keli-wen/cospan
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 60
-    forks: 6
-    open_issues: 0
+    stars: 66
+    forks: 8
+    open_issues: 2
   kind: product
 ---
 

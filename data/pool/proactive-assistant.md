@@ -21,17 +21,17 @@ canonical_url: https://github.com/Edge-AI-HQ/proactive-assistant
 summary: The proactive personal AI that acts before you ask. Connects your apps and devices, builds a
   lifelong memory, and surfaces proactive cards. Web, macOS and iOS.
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Edge-AI-HQ/proactive-assistant
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 50
-    forks: 3
+    stars: 56
+    forks: 4
     open_issues: 0
   kind: product
 ---

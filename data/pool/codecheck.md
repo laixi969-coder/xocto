@@ -1,0 +1,44 @@
+---
+slug: codecheck
+name: CodeCheck
+builder: Commonwealth-Bank-of-Australia
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: open_source
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: true
+url: https://www.commbank.com.au/codecheck
+canonical_url: https://commbank.com.au/codecheck
+summary: Claude Code and Codex plugin that runs an LLM (AI) powered static security review of source code.
+first_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-25T04:54:21Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://www.commbank.com.au/codecheck
+  seen_at: '2026-11-25T04:54:21Z'
+  metrics:
+    stars: 41
+    forks: 11
+    open_issues: 0
+  kind: product
+---
+
+# CodeCheck
+
+Claude Code and Codex plugin that runs an LLM (AI) powered static security review of source code.
+
+## 笔记
+
+

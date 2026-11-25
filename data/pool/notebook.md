@@ -20,7 +20,7 @@ url: https://notebook.link/@arjxn-py/nepal-flash-flood-review
 canonical_url: https://notebook.link/@arjxn-py/nepal-flash-flood-review
 summary: 'Story map of the 2026 Nepal flood: damage on the ground, lakes above'
 first_seen: '2026-09-09T17:19:00Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-11-25T04:54:17Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 5
     comments: 1
+  kind: product
+- source: hackernews
+  url: https://notebook.link/@arjxn-py/3d-nepal-flood
+  seen_at: '2026-11-25T04:54:17Z'
+  metrics:
+    points: 10
+    comments: 2
   kind: product
 ---
 

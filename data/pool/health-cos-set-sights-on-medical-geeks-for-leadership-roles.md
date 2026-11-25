@@ -1,0 +1,41 @@
+---
+slug: health-cos-set-sights-on-medical-geeks-for-leadership-roles
+name: Health Cos Set Sights on 'Medical Geeks' for Leadership Roles
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPRk9jWlp4VFJEc1JwX21BeGJsWFhuejdlNTk3UEtPbGhjWmpKNTBYbXNldVlDNHFfZUJlcjFVcmJRRjJETndRY3JLT3JJYnNLeWFGaklvUDQwUE1sTFExREMtSUVvNWZVSnFqbElWZVZfblR5Ykp0MFlGVnRDcTVyU0k3X21KajZtNkM4OVNTbklhR3Z0dW9meFByZTlmN25nRy1mT0RCUWp3Y2xDTWh2U0JiNEg1dXYwSmg2Yks1UDk5eWU0ZVHSAcsBQVVfeXFMTXJFRG5LOWFqM3RVQ1dwUnJHdmVRZW1RaE1saW9RZjMtdENHVDdXS1hxbG0xbWFtOEtoNmNLVEpnb1ltMEd3d3ZJOXBUY0szMUNFMlJvUXhOajIwWFBKSVFvZGN4cDNPbGJlSGQtSnlodDByRUZ4em9UNlB2bGJ2b0dnckY5d3R5c3lrQTBwSks4UVF4QWk0cGpyTmtJb3NvMjFQR05uekQtbmlFSEZNZkJSblB1MWczNnBzWmdjQzRHY0J5blNHSEI5SDg?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPRk9jWlp4VFJEc1JwX21BeGJsWFhuejdlNTk3UEtPbGhjWmpKNTBYbXNldVlDNHFfZUJlcjFVcmJRRjJETndRY3JLT3JJYnNLeWFGaklvUDQwUE1sTFExREMtSUVvNWZVSnFqbElWZVZfblR5Ykp0MFlGVnRDcTVyU0k3X21KajZtNkM4OVNTbklhR3Z0dW9meFByZTlmN25nRy1mT0RCUWp3Y2xDTWh2U0JiNEg1dXYwSmg2Yks1UDk5eWU0ZVHSAcsBQVVfeXFMTXJFRG5LOWFqM3RVQ1dwUnJHdmVRZW1RaE1saW9RZjMtdENHVDdXS1hxbG0xbWFtOEtoNmNLVEpnb1ltMEd3d3ZJOXBUY0szMUNFMlJvUXhOajIwWFBKSVFvZGN4cDNPbGJlSGQtSnlodDByRUZ4em9UNlB2bGJ2b0dnckY5d3R5c3lrQTBwSks4UVF4QWk0cGpyTmtJb3NvMjFQR05uekQtbmlFSEZNZkJSblB1MWczNnBzWmdjQzRHY0J5blNHSEI5SDg?oc=5
+summary: Health Cos Set Sights on 'Medical Geeks' for Leadership Roles ET HealthWorld
+first_seen: '2026-11-25T04:55:10Z'
+last_seen: '2026-11-25T04:55:10Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPRk9jWlp4VFJEc1JwX21BeGJsWFhuejdlNTk3UEtPbGhjWmpKNTBYbXNldVlDNHFfZUJlcjFVcmJRRjJETndRY3JLT3JJYnNLeWFGaklvUDQwUE1sTFExREMtSUVvNWZVSnFqbElWZVZfblR5Ykp0MFlGVnRDcTVyU0k3X21KajZtNkM4OVNTbklhR3Z0dW9meFByZTlmN25nRy1mT0RCUWp3Y2xDTWh2U0JiNEg1dXYwSmg2Yks1UDk5eWU0ZVHSAcsBQVVfeXFMTXJFRG5LOWFqM3RVQ1dwUnJHdmVRZW1RaE1saW9RZjMtdENHVDdXS1hxbG0xbWFtOEtoNmNLVEpnb1ltMEd3d3ZJOXBUY0szMUNFMlJvUXhOajIwWFBKSVFvZGN4cDNPbGJlSGQtSnlodDByRUZ4em9UNlB2bGJ2b0dnckY5d3R5c3lrQTBwSks4UVF4QWk0cGpyTmtJb3NvMjFQR05uekQtbmlFSEZNZkJSblB1MWczNnBzWmdjQzRHY0J5blNHSEI5SDg?oc=5
+  seen_at: '2026-11-25T04:55:10Z'
+  metrics: {}
+  kind: news
+---
+
+# Health Cos Set Sights on 'Medical Geeks' for Leadership Roles
+
+Health Cos Set Sights on 'Medical Geeks' for Leadership Roles ET HealthWorld
+
+## 笔记
+
+

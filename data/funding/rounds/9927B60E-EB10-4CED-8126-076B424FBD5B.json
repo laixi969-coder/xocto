@@ -1,0 +1,101 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/reversa-5481b740",
+    "city": "Madrid",
+    "country": "Spain",
+    "description": "Reversa develops AI agents that help businesses and public institutions monitor regulatory changes, automate compliance processes and manage legal workflows across jurisdictions.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "5481B740-6FC5-447B-A92E-895C2924C5A7",
+    "investors": [
+      "Business Angels",
+      "CDTI's Neotec programme",
+      "Enisa",
+      "Itnig"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Reversa",
+    "rounds": [
+      {
+        "amountEur": 750000,
+        "date": "2026-11-24",
+        "id": "9927B60E-EB10-4CED-8126-076B424FBD5B",
+        "investors": [
+          "Business Angels",
+          "CDTI's Neotec programme",
+          "Enisa",
+          "Itnig"
+        ],
+        "rawRoundType": "pre-seed",
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/9927B60E-EB10-4CED-8126-076B424FBD5B"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 48,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 750000,
+    "url": "https://funding.tech.eu/companies/5481B740-6FC5-447B-A92E-895C2924C5A7",
+    "website": "https://reversa.ai/"
+  },
+  "round": {
+    "amountEur": 750000,
+    "amountEurStored": null,
+    "amountNative": 750000,
+    "company": {
+      "city": "Madrid",
+      "country": "Spain",
+      "founded": null,
+      "id": "5481B740-6FC5-447B-A92E-895C2924C5A7",
+      "name": "Reversa",
+      "pageUrl": "https://funding.tech.eu/companies/reversa-5481b740",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "EUR",
+    "date": "2026-11-24",
+    "fx": {
+      "asOf": null,
+      "rate": 1,
+      "source": "ECB"
+    },
+    "id": "9927B60E-EB10-4CED-8126-076B424FBD5B",
+    "investors": [
+      "CDTI's Neotec programme",
+      "Enisa",
+      "Itnig"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/9927B60E-EB10-4CED-8126-076B424FBD5B",
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/9927B60E-EB10-4CED-8126-076B424FBD5B"
+  }
+}

@@ -20,16 +20,16 @@ url: https://github.com/bhushan/getsecondbrain.io
 canonical_url: https://github.com/bhushan/getsecondbrain.io
 summary: One Memory Shared by Claude, ChatGPT and Cursor via MCP
 first_seen: '2026-11-24T06:02:47Z'
-last_seen: '2026-11-24T06:02:47Z'
+last_seen: '2026-11-25T04:54:17Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/bhushan/getsecondbrain.io
-  seen_at: '2026-11-24T06:02:47Z'
+  seen_at: '2026-11-25T04:54:17Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

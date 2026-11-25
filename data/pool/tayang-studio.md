@@ -20,16 +20,16 @@ url: https://studio.tayang.app
 canonical_url: https://studio.tayang.app
 summary: 'Tayang Studio: a free desktop app that helps creators make motion videos with their own AI agent'
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://studio.tayang.app
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 69
+    stars: 70
     forks: 15
     open_issues: 4
   kind: product

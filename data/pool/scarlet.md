@@ -20,18 +20,18 @@ url: https://github.com/Forward-Future/scarlet
 canonical_url: https://github.com/Forward-Future/scarlet
 summary: Scarlet is an AI video editor for macOS and Windows.
 first_seen: '2026-11-14T02:27:37Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Forward-Future/scarlet
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 664
-    forks: 75
-    open_issues: 10
+    stars: 701
+    forks: 78
+    open_issues: 6
   kind: product
 ---
 

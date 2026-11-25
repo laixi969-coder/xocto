@@ -20,16 +20,16 @@ url: https://juncts.com/app?demo=1&utm_source=hackernews&utm_medium=launch&utm_c
 canonical_url: https://juncts.com/app?demo=1
 summary: one DM inbox for five apps that Claude and ChatGPT can work in
 first_seen: '2026-11-24T06:02:47Z'
-last_seen: '2026-11-24T06:02:47Z'
+last_seen: '2026-11-25T04:54:17Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://juncts.com/app?demo=1&utm_source=hackernews&utm_medium=launch&utm_campaign=launch-nov26
-  seen_at: '2026-11-24T06:02:47Z'
+  seen_at: '2026-11-25T04:54:17Z'
   metrics:
-    points: 8
+    points: 9
     comments: 0
   kind: product
 ---

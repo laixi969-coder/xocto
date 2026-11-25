@@ -1,0 +1,160 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/agon-949830ab",
+    "city": "London",
+    "country": "UK",
+    "description": "Agon is building the foundational AI infrastructure for the era of agentic warfare.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "949830AB-9D53-4EE7-B02D-263DF597B155",
+    "investors": [
+      "201 Ventures",
+      "Angel Investors",
+      "D3 VC",
+      "Existing investors",
+      "Global Founders Capital",
+      "Lakestar",
+      "Lux Capital",
+      "Northzone",
+      "Speedinvest",
+      "the National Security Strategic Investment Fund (NSSIF)",
+      "The UK Sovereign AI Fund",
+      "XYZ Venture Capital"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Agon",
+    "rounds": [
+      {
+        "amountEur": 63991224,
+        "date": "2026-11-23",
+        "id": "222E85D2-9909-4D92-B865-6B92E3D7986B",
+        "investors": [
+          "Existing investors",
+          "Global Founders Capital",
+          "Lakestar",
+          "Lux Capital",
+          "Northzone",
+          "Speedinvest",
+          "the National Security Strategic Investment Fund (NSSIF)",
+          "The UK Sovereign AI Fund",
+          "XYZ Venture Capital"
+        ],
+        "rawRoundType": "series a",
+        "stage": "Series A",
+        "url": "https://funding.tech.eu/deals/222E85D2-9909-4D92-B865-6B92E3D7986B"
+      },
+      {
+        "amountEur": 26362039,
+        "date": "2026-07-29",
+        "id": "E69DC492-300C-4B95-8EB2-A385358E26EA",
+        "investors": [
+          "201 Ventures",
+          "Angel Investors",
+          "D3 VC",
+          "Existing investors",
+          "Lakestar",
+          "Lux Capital",
+          "Northzone",
+          "XYZ Venture Capital"
+        ],
+        "rawRoundType": "seed",
+        "stage": "Seed",
+        "url": "https://funding.tech.eu/deals/E69DC492-300C-4B95-8EB2-A385358E26EA"
+      }
+    ],
+    "roundsCount": 2,
+    "sectors": [
+      "AI",
+      "Defence"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": {
+        "base": 11,
+        "factors": [
+          {
+            "effect": "up",
+            "label": "€30M+ raised"
+          },
+          {
+            "effect": "down",
+            "label": "Young (<3y)"
+          },
+          {
+            "effect": "up",
+            "label": "Recently backed by strong-exit-track investors"
+          }
+        ],
+        "score": 19
+      },
+      "heat": 92,
+      "raiseNext": {
+        "base": 44,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "up",
+            "label": "Up-round momentum"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 16
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 90353263,
+    "url": "https://funding.tech.eu/companies/949830AB-9D53-4EE7-B02D-263DF597B155",
+    "website": "https://www.agon.com/"
+  },
+  "round": {
+    "amountEur": 63991224,
+    "amountEurStored": null,
+    "amountNative": 70000000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "949830AB-9D53-4EE7-B02D-263DF597B155",
+      "name": "Agon",
+      "pageUrl": "https://funding.tech.eu/companies/agon-949830ab",
+      "sectors": [
+        "AI",
+        "Defence"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-11-23",
+    "fx": {
+      "asOf": "2026-11-23",
+      "rate": 1.0939,
+      "source": "ECB"
+    },
+    "id": "222E85D2-9909-4D92-B865-6B92E3D7986B",
+    "investors": [
+      "Lux Capital",
+      "Speedinvest",
+      "Global Founders Capital",
+      "XYZ Venture Capital",
+      "the National Security Strategic Investment Fund (NSSIF)",
+      "Lakestar",
+      "The UK Sovereign AI Fund",
+      "Northzone"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/222E85D2-9909-4D92-B865-6B92E3D7986B",
+    "rawRoundType": "series a",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Series A",
+    "url": "/deals/222E85D2-9909-4D92-B865-6B92E3D7986B"
+  }
+}

@@ -21,16 +21,16 @@ canonical_url: https://wearai.net/ai-video-generator
 summary: 'Agent-native viral video studio: deconstruct scripts, replicate structures, export editable
   projects and costed variants. Website: https://wearai.net/ai-video-generator'
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-25T04:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://wearai.net/ai-video-generator
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-25T04:54:21Z'
   metrics:
-    stars: 556
+    stars: 557
     forks: 18
     open_issues: 2
   kind: product
