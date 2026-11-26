@@ -21,17 +21,17 @@ canonical_url: https://interstateweather.com
 summary: In case you&#x27;re going on a road trip this week in the lower 48 (Thanksgiving is a big U.S
   holiday on Thursday).
 first_seen: '2026-11-25T04:54:17Z'
-last_seen: '2026-11-25T04:54:17Z'
+last_seen: '2026-11-26T04:10:27Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.interstateweather.com/
-  seen_at: '2026-11-25T04:54:17Z'
+  seen_at: '2026-11-26T04:10:27Z'
   metrics:
-    points: 6
-    comments: 1
+    points: 26
+    comments: 7
   kind: product
 ---
 

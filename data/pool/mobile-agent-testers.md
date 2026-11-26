@@ -22,18 +22,18 @@ summary: '20 AI testers on 20 different phones, in parallel, on GitHub''s free r
   on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility
   bugs'
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/pierridotite/mobile-agent-testers
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 1905
-    forks: 188
-    open_issues: 1
+    stars: 2353
+    forks: 240
+    open_issues: 12
   kind: product
 ---
 

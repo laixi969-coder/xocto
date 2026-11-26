@@ -20,17 +20,17 @@ url: https://hnpredictions.com/
 canonical_url: https://hnpredictions.com
 summary: Analysis of Hacker News predictions since 2008
 first_seen: '2026-11-25T04:54:17Z'
-last_seen: '2026-11-25T04:54:17Z'
+last_seen: '2026-11-26T04:10:27Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hnpredictions.com/
-  seen_at: '2026-11-25T04:54:17Z'
+  seen_at: '2026-11-26T04:10:27Z'
   metrics:
-    points: 10
-    comments: 3
+    points: 12
+    comments: 9
   kind: product
 ---
 

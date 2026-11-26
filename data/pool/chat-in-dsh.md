@@ -21,18 +21,18 @@ canonical_url: https://github.com/YinkaiYu/chat-in-dsh
 summary: 在 DeepSeek Harness 里使用 DeepSeek 网页版聊天 | The authentic DeepSeek web chat inside DeepSeek Harness
   (DSH).
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/YinkaiYu/chat-in-dsh
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
     stars: 46
     forks: 5
-    open_issues: 2
+    open_issues: 1
   kind: product
 ---
 

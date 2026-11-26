@@ -20,16 +20,16 @@ url: https://github.com/crobyskigh/izotope-ozone-11-mastering-suite
 canonical_url: https://github.com/crobyskigh/izotope-ozone-11-mastering-suite
 summary: AI-Assisted Mastering Workflow with Spectral Shaping and Codec Preview
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-23T02:46:00Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/crobyskigh/izotope-ozone-11-mastering-suite
-  seen_at: '2026-11-23T02:46:00Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 335
+    stars: 334
     forks: 0
     open_issues: 0
   kind: product

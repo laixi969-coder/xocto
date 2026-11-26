@@ -21,17 +21,17 @@ canonical_url: https://tokensafe.dev
 summary: Your AI agent is smart enough to code all day. Now it actually can. Local runtime firewall &
   zero-loss context optimizer for AI coding agents.
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-22T02:14:43Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://tokensafe.dev
-  seen_at: '2026-11-22T02:14:43Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 47
-    forks: 2
+    stars: 48
+    forks: 3
     open_issues: 0
   kind: product
 ---

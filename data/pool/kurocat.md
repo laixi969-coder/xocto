@@ -21,18 +21,18 @@ canonical_url: https://qianyi.one/kurocat
 summary: KuroCat — Free open-source desktop typing cat pet & OBS overlay (Bongo Cat alternative, Tauri
   v2 + Rust + MCP)｜轻量级透明置顶桌面打字小黑猫伴侣（6款猫咪+鲸鱼娘大肥鱼 / 输密码防偷窥 / OBS透明源 / AI捏猫 / Win·Mac·Linux·Android）
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://qianyi.one/kurocat/
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 701
-    forks: 110
-    open_issues: 35
+    stars: 1056
+    forks: 164
+    open_issues: 43
   kind: product
 ---
 

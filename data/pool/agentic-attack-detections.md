@@ -22,18 +22,18 @@ summary: 'Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn,
   Strix, Hermes Agent, Agent Zero. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata,
   Zeek, YARA, Splunk, Elastic, STIX 2.1.'
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://threatdefence.com/article/artex-agentic-attack-framework-detection-hunting
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 639
-    forks: 132
-    open_issues: 5
+    stars: 710
+    forks: 144
+    open_issues: 4
   kind: product
 ---
 

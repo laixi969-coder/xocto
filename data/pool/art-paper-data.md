@@ -20,17 +20,17 @@ url: https://github.com/anthropics/art-paper-data
 canonical_url: https://github.com/anthropics/art-paper-data
 summary: Data package for the ART manuscript.
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/art-paper-data
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
     stars: 2
-    forks: 1
+    forks: 2
     open_issues: 0
   kind: product
 ---

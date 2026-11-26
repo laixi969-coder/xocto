@@ -21,18 +21,18 @@ canonical_url: https://blotato.com/contentskills
 summary: 'Content Skills for AI Agents: create videos, edit videos, full video editor, write scripts,
   100+ themes & effects, post to social media, and create DM automations to turn views into sales.'
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.blotato.com/contentskills
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 82
-    forks: 17
-    open_issues: 1
+    stars: 153
+    forks: 33
+    open_issues: 6
   kind: product
 ---
 

@@ -20,17 +20,17 @@ url: https://cheso.ai
 canonical_url: https://cheso.ai
 summary: AI Creative Companion for Stunning Presentations, Posters & Videos
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://cheso.ai
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 49
-    forks: 12
+    stars: 50
+    forks: 13
     open_issues: 0
   kind: product
 ---

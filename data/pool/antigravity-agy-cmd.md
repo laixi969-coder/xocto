@@ -23,16 +23,16 @@ summary: 'Google Antigravity Desktop/IDE plugin: task-based command and multi-ag
   and right-hand panel | Google Antigravity 桌面端/IDE 插件：按任务自动路由内置指令与多智能体，对已批准计划与疑难排查自动派工 Boost 、卡壳时换视角只读排查，只读模式防绕过审批，Stop
   钩子测试未过自动续跑，右侧控制面板'
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zou172866/Antigravity-agy-cmd
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 48
+    stars: 55
     forks: 0
     open_issues: 0
   kind: product

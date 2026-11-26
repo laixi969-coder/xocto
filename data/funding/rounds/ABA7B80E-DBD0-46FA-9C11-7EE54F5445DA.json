@@ -1,0 +1,96 @@
+{
+  "company": {
+    "canonicalUrl": "https://funding.tech.eu/companies/sequent-a0779a18",
+    "city": "London",
+    "country": "UK",
+    "description": "Sequent develops AI-powered formal verification tools that use mathematical proofs to verify software correctness and security, with an initial focus on smart contracts.",
+    "exit": null,
+    "founded": null,
+    "founders": [],
+    "id": "A0779A18-1CA9-4308-BC4E-1FCA3AD54A44",
+    "investors": [
+      "Frachtis",
+      "Metaplanet"
+    ],
+    "methodology": "https://funding.tech.eu/methodology",
+    "name": "Sequent",
+    "rounds": [
+      {
+        "amountEur": 2011888,
+        "date": "2026-11-25",
+        "id": "ABA7B80E-DBD0-46FA-9C11-7EE54F5445DA",
+        "investors": [
+          "Frachtis",
+          "Metaplanet"
+        ],
+        "rawRoundType": "pre-seed",
+        "stage": "Pre-Seed",
+        "url": "https://funding.tech.eu/deals/ABA7B80E-DBD0-46FA-9C11-7EE54F5445DA"
+      }
+    ],
+    "roundsCount": 1,
+    "sectors": [
+      "AI"
+    ],
+    "signals": {
+      "confidence": "high",
+      "exit": null,
+      "heat": 50,
+      "raiseNext": {
+        "base": 24,
+        "factors": [
+          {
+            "effect": "down",
+            "label": "Raised very recently"
+          },
+          {
+            "effect": "down",
+            "label": "Low backer re-investment"
+          }
+        ],
+        "score": 8
+      }
+    },
+    "source": "Tech.eu Funding Explorer",
+    "totalEur": 2011888,
+    "url": "https://funding.tech.eu/companies/A0779A18-1CA9-4308-BC4E-1FCA3AD54A44",
+    "website": "https://sequent.inc/company/"
+  },
+  "round": {
+    "amountEur": 2011888,
+    "amountEurStored": null,
+    "amountNative": 2200000,
+    "company": {
+      "city": "London",
+      "country": "UK",
+      "founded": null,
+      "id": "A0779A18-1CA9-4308-BC4E-1FCA3AD54A44",
+      "name": "Sequent",
+      "pageUrl": "https://funding.tech.eu/companies/sequent-a0779a18",
+      "sectors": [
+        "AI"
+      ]
+    },
+    "confidence": "high",
+    "currency": "USD",
+    "date": "2026-11-25",
+    "fx": {
+      "asOf": "2026-11-25",
+      "rate": 1.0935,
+      "source": "ECB"
+    },
+    "id": "ABA7B80E-DBD0-46FA-9C11-7EE54F5445DA",
+    "investors": [
+      "Frachtis",
+      "Metaplanet"
+    ],
+    "pageUrl": "https://funding.tech.eu/deals/ABA7B80E-DBD0-46FA-9C11-7EE54F5445DA",
+    "rawRoundType": "pre-seed",
+    "source": {
+      "domain": "tech.eu",
+      "tier": "own"
+    },
+    "stage": "Pre-Seed",
+    "url": "/deals/ABA7B80E-DBD0-46FA-9C11-7EE54F5445DA"
+  }
+}

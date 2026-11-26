@@ -68,3 +68,26 @@
   fact: 'Run multiple Claude Desktop accounts at the same time on Mac: separate sign-ins, custom icons,
     one shared Claude Code setup, and sessions that message each other across accounts. brew install jackson-cmd/tap/claude-multi-desktop
     | repository stars: 410'
+- id: ev-564ffa1bc70ffcaa
+  project_slug: risk-aware-trading-agents
+  url: https://jackson-cmd.github.io/risk-aware-trading-agents/
+  title: risk-aware-trading-agents
+  published_at: '2026-11-12T02:29:31Z'
+  collected_at: '2026-11-26T04:10:31Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'AI trading agents for US stocks with news backtesting that can''t see the future: a public LLM
+    trading agent leaderboard (rta-bench-1), frozen point-in-time 2020/2022/2026 markets (prices, VIX,
+    news), a look-ahead check on every run, LLM agents over MCP, and paper/live trading on 10 brokers.
+    风险感知美股交易智能体 · 新闻回测 · LLM 榜单 | repository stars: 480'
+- id: ev-3e20189f3726f101
+  project_slug: risk-aware-trading-agents
+  url: https://jackson-cmd.github.io/claude-multi-desktop/
+  title: claude-multi-desktop
+  published_at: '2026-11-16T04:23:02Z'
+  collected_at: '2026-11-26T04:10:31Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Run multiple Claude Desktop accounts at the same time on Mac: separate sign-ins, custom icons,
+    one shared Claude Code setup, and sessions that message each other across accounts. brew install jackson-cmd/tap/claude-multi-desktop
+    | repository stars: 435'

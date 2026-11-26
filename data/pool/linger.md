@@ -22,18 +22,18 @@ summary: Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We
   grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design,
   so everyone can run their own.
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/simplexai-labs/linger
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 4436
-    forks: 422
-    open_issues: 122
+    stars: 4715
+    forks: 443
+    open_issues: 149
   kind: product
 ---
 

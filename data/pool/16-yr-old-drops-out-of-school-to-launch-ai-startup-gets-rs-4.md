@@ -1,0 +1,41 @@
+---
+slug: 16-yr-old-drops-out-of-school-to-launch-ai-startup-gets-rs-4
+name: 16-yr-old drops out of school to launch AI startup, gets Rs 4 crore from Y Combinator
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcnk5QVZCMWl6bmh0ajJGV0tmdWkwOVJWRGZLWnJiejFHdUo3WWk3QUJJLTZrbFVWaVRJcWVVdm1QRno1aWxieHJ5SllkYi1Ud3BrdHBnVi1jLXAwOVQxWTNMUUs3MHVVQk9KbGdBal91ZzQ4WFRJaGtJLVFES2Z1ZzRwUHZKZXRhLVRNSGxMYjVEeDN3eENDMUZDV2g4SFdkN0lZT29CUU1sU2xOXzFsMDV1R040RE5rTUdHWjFJbUNIWEJpU3hrdlJWLTlpZVZQUHF5ZFdGWkJZcTBaUWFTUmNLUUlwd9IB6wFBVV95cUxNbzZEQXhPVGxKX29qTDltUzZlaVlHNTJ4amZRYXI4WllvWGFRNXlfWXJwRjY0ZXV5UC12QlVyYU1BN1pUcUh5VnNNVDZzVGkyNzdjZnFST3VlRXdyRzJncE14dmNMMDNabFhja0NhdEkyX2JqaTZyR0huS0tQOS1SVjZid0tZaDNZeTZOa2xHNW5obXdvMjVOLVhtT09nWWozYXg0aVNnSHkwV1cydmk4bjZpaXkwUl9hN2JpWEpXQ1UyS3YtdVRKSXlHNVgxbEV2bHU5Q3ZSNG5IbHV2bWpBQTlYSzIyeG1iQTdZ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcnk5QVZCMWl6bmh0ajJGV0tmdWkwOVJWRGZLWnJiejFHdUo3WWk3QUJJLTZrbFVWaVRJcWVVdm1QRno1aWxieHJ5SllkYi1Ud3BrdHBnVi1jLXAwOVQxWTNMUUs3MHVVQk9KbGdBal91ZzQ4WFRJaGtJLVFES2Z1ZzRwUHZKZXRhLVRNSGxMYjVEeDN3eENDMUZDV2g4SFdkN0lZT29CUU1sU2xOXzFsMDV1R040RE5rTUdHWjFJbUNIWEJpU3hrdlJWLTlpZVZQUHF5ZFdGWkJZcTBaUWFTUmNLUUlwd9IB6wFBVV95cUxNbzZEQXhPVGxKX29qTDltUzZlaVlHNTJ4amZRYXI4WllvWGFRNXlfWXJwRjY0ZXV5UC12QlVyYU1BN1pUcUh5VnNNVDZzVGkyNzdjZnFST3VlRXdyRzJncE14dmNMMDNabFhja0NhdEkyX2JqaTZyR0huS0tQOS1SVjZid0tZaDNZeTZOa2xHNW5obXdvMjVOLVhtT09nWWozYXg0aVNnSHkwV1cydmk4bjZpaXkwUl9hN2JpWEpXQ1UyS3YtdVRKSXlHNVgxbEV2bHU5Q3ZSNG5IbHV2bWpBQTlYSzIyeG1iQTdZ?oc=5
+summary: 16-yr-old drops out of school to launch AI startup, gets Rs 4 crore from Y Combinator India Today
+first_seen: '2026-11-26T04:11:57Z'
+last_seen: '2026-11-26T04:11:57Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcnk5QVZCMWl6bmh0ajJGV0tmdWkwOVJWRGZLWnJiejFHdUo3WWk3QUJJLTZrbFVWaVRJcWVVdm1QRno1aWxieHJ5SllkYi1Ud3BrdHBnVi1jLXAwOVQxWTNMUUs3MHVVQk9KbGdBal91ZzQ4WFRJaGtJLVFES2Z1ZzRwUHZKZXRhLVRNSGxMYjVEeDN3eENDMUZDV2g4SFdkN0lZT29CUU1sU2xOXzFsMDV1R040RE5rTUdHWjFJbUNIWEJpU3hrdlJWLTlpZVZQUHF5ZFdGWkJZcTBaUWFTUmNLUUlwd9IB6wFBVV95cUxNbzZEQXhPVGxKX29qTDltUzZlaVlHNTJ4amZRYXI4WllvWGFRNXlfWXJwRjY0ZXV5UC12QlVyYU1BN1pUcUh5VnNNVDZzVGkyNzdjZnFST3VlRXdyRzJncE14dmNMMDNabFhja0NhdEkyX2JqaTZyR0huS0tQOS1SVjZid0tZaDNZeTZOa2xHNW5obXdvMjVOLVhtT09nWWozYXg0aVNnSHkwV1cydmk4bjZpaXkwUl9hN2JpWEpXQ1UyS3YtdVRKSXlHNVgxbEV2bHU5Q3ZSNG5IbHV2bWpBQTlYSzIyeG1iQTdZ?oc=5
+  seen_at: '2026-11-26T04:11:57Z'
+  metrics: {}
+  kind: news
+---
+
+# 16-yr-old drops out of school to launch AI startup, gets Rs 4 crore from Y Combinator
+
+16-yr-old drops out of school to launch AI startup, gets Rs 4 crore from Y Combinator India Today
+
+## 笔记
+
+

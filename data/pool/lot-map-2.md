@@ -21,16 +21,16 @@ canonical_url: https://alexeyw.github.io/lot-map
 summary: 'Lot Map for Claude Code: a live map beside the chat that shows what the agent is doing. Tool
   calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.'
 first_seen: '2026-11-21T03:13:53Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://alexeyw.github.io/lot-map/
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 1159
+    stars: 1173
     forks: 121
     open_issues: 2
   kind: product

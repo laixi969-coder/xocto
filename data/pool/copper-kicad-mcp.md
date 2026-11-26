@@ -21,18 +21,18 @@ canonical_url: https://github.com/claynicholson/copper-kicad-mcp
 summary: 'MCP server that lets any AI app design real, orderable KiCad boards: schematic, LCSC parts,
   PCB routing, ERC/DRC, JLCPCB fab files.'
 first_seen: '2026-11-16T02:08:21Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/claynicholson/copper-kicad-mcp
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
     stars: 123
     forks: 6
-    open_issues: 0
+    open_issues: 1
   kind: product
 ---
 

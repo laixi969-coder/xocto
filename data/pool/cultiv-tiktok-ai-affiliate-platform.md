@@ -21,17 +21,17 @@ canonical_url: https://github.com/bhottu/cultiv-tiktok-ai-affiliate-platform
 summary: Platform SaaS berbasis AI untuk riset produk affiliate, analisis peluang, pembuatan konten promosi,
   video generation, dan otomasi workflow affiliate lintas kategori produk.
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bhottu/cultiv-tiktok-ai-affiliate-platform
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 81
-    forks: 21
+    stars: 85
+    forks: 23
     open_issues: 0
   kind: product
 ---

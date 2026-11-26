@@ -21,16 +21,16 @@ canonical_url: https://github.com/nandadogan09/elevenlabs-studio
 summary: Elevenlabs Studio for Windows 10/11. Generates AI voiceovers from scripts, clones and edits voices,
   and exports narrated audio for videos, podcasts and audiobooks.
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nandadogan09/elevenlabs-studio
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 80
+    stars: 191
     forks: 0
     open_issues: 0
   kind: product

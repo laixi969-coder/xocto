@@ -21,16 +21,16 @@ canonical_url: https://github.com/AI4XE/ai4ai
 summary: Let AI manage itself — a cross-harness kit for runtime status, context renewal, self-duplication
   and more
 first_seen: '2026-11-21T03:13:53Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AI4XE/ai4ai
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 135
+    stars: 136
     forks: 0
     open_issues: 0
   kind: product

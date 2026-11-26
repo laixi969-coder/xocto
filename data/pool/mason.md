@@ -20,17 +20,17 @@ url: https://masondata.ai/
 canonical_url: https://masondata.ai
 summary: A lightweight Postgres read-replica, built on columnar storage
 first_seen: '2026-11-25T04:54:17Z'
-last_seen: '2026-11-25T04:54:17Z'
+last_seen: '2026-11-26T04:10:27Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://masondata.ai/
-  seen_at: '2026-11-25T04:54:17Z'
+  seen_at: '2026-11-26T04:10:27Z'
   metrics:
-    points: 89
-    comments: 16
+    points: 101
+    comments: 21
   kind: product
 ---
 

@@ -21,17 +21,17 @@ canonical_url: https://adudir.com
 summary: MEP (Motion Edit Protocol) — open file-based protocol that lets any AI assistant edit a video
   project
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://adudir.com
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 71
-    forks: 6
+    stars: 75
+    forks: 7
     open_issues: 1
   kind: product
 ---

@@ -20,18 +20,18 @@ url: https://github.com/DIYgod/pinky
 canonical_url: https://github.com/DIYgod/pinky
 summary: Let AI agents use your phone, with you in the loop.
 first_seen: '2026-11-09T01:44:47Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/DIYgod/pinky
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 2766
-    forks: 291
-    open_issues: 23
+    stars: 2784
+    forks: 293
+    open_issues: 24
   kind: product
 ---
 

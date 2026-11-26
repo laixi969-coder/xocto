@@ -20,17 +20,17 @@ url: https://vcarl.com/sashay/
 canonical_url: https://vcarl.com/sashay
 summary: Sliding-panes React UI library (inspired by WebOS Enyo)
 first_seen: '2026-11-25T04:54:17Z'
-last_seen: '2026-11-25T04:54:17Z'
+last_seen: '2026-11-26T04:10:27Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://vcarl.com/sashay/
-  seen_at: '2026-11-25T04:54:17Z'
+  seen_at: '2026-11-26T04:10:27Z'
   metrics:
-    points: 13
-    comments: 1
+    points: 37
+    comments: 8
   kind: product
 ---
 

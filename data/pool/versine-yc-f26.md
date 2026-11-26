@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50634426
 canonical_url: https://news.ycombinator.com/item?id=50634426
 summary: MCP to send and receive money
 first_seen: '2026-11-25T04:54:17Z'
-last_seen: '2026-11-25T04:54:17Z'
+last_seen: '2026-11-26T04:10:27Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50634426
-  seen_at: '2026-11-25T04:54:17Z'
+  seen_at: '2026-11-26T04:10:27Z'
   metrics:
-    points: 77
-    comments: 62
+    points: 104
+    comments: 103
   kind: product
 ---
 

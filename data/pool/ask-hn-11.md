@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=50630809
 canonical_url: https://news.ycombinator.com/item?id=50630809
 summary: Anthropic is accusing my company of distilling. How can I prove I'm not?
 first_seen: '2026-11-25T04:54:17Z'
-last_seen: '2026-11-25T04:54:17Z'
+last_seen: '2026-11-26T04:10:27Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=50630809
-  seen_at: '2026-11-25T04:54:17Z'
+  seen_at: '2026-11-26T04:10:27Z'
   metrics:
-    points: 237
-    comments: 177
+    points: 447
+    comments: 342
   kind: news
 ---
 

@@ -23,17 +23,17 @@ summary: A workflow that uses an AI coding agent (Claude Code or Kiro) to turn e
   verifier agent. Use the specs to reimagine the app through spec-driven development, or to maintain the
   current system.
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/aws-samples/sample-reverse-spec-flow
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 71
-    forks: 5
+    stars: 75
+    forks: 6
     open_issues: 0
   kind: product
 ---

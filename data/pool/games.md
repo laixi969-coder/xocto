@@ -20,7 +20,7 @@ url: https://games.yanisfalaki.com/
 canonical_url: https://games.yanisfalaki.com
 summary: Two browser games set inside one real Gaussian-splat scan
 first_seen: '2026-10-14T01:13:55Z'
-last_seen: '2026-11-22T02:15:03Z'
+last_seen: '2026-11-26T04:11:57Z'
 status: pending_filter
 sources:
 - hackernews
@@ -78,6 +78,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai
   seen_at: '2026-11-22T02:15:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkpPd3R4ZGlxaXFTZVd4R2lFQkJtMHhOUlQ4ZWttSjFwU3owYlVyRTJxWGpwcjBiLXVEV1NVX1Z1QmxibzVlZmJUbmU1NkVvYmVyTXRQNnZJR0ZnRGY5QTBhYjhxY25wbkNscEZsWUprMXRyN1Z4dDlzYXNqeFlxRWNFR1hkRjJDelpULUlKSkdlZFdLNFZ1c1FJOA?oc=5
+  seen_at: '2026-11-26T04:11:57Z'
   metrics: {}
   kind: news
 ---

@@ -20,17 +20,17 @@ url: https://github.com/Developing-Gamer/agent-sim
 canonical_url: https://github.com/Developing-Gamer/agent-sim
 summary: iOS simulators for AI agents, on Linux. The agent layer for x86Sim.
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Developing-Gamer/agent-sim
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 571
-    forks: 59
+    stars: 600
+    forks: 62
     open_issues: 11
   kind: product
 ---

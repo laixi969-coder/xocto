@@ -20,18 +20,18 @@ url: https://apexdrama.sxapex.com/
 canonical_url: https://apexdrama.sxapex.com
 summary: 第三方红果短剧客户端，免登录、免广告、免费使用，支持真人剧、AI漫剧、AI短剧等多种短剧。支持Windows和安卓双端播放
 first_seen: '2026-11-21T03:13:53Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://apexdrama.sxapex.com/
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 299
-    forks: 63
-    open_issues: 1
+    stars: 314
+    forks: 66
+    open_issues: 3
   kind: product
 ---
 

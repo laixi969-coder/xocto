@@ -20,17 +20,17 @@ url: https://www.anthropic.com/research/working-with-ai
 canonical_url: https://anthropic.com/research/working-with-ai
 summary: ''
 first_seen: '2026-11-25T04:54:17Z'
-last_seen: '2026-11-25T04:54:17Z'
+last_seen: '2026-11-26T04:10:27Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.anthropic.com/research/working-with-ai
-  seen_at: '2026-11-25T04:54:17Z'
+  seen_at: '2026-11-26T04:10:27Z'
   metrics:
-    points: 65
-    comments: 66
+    points: 88
+    comments: 76
   kind: news
 ---
 

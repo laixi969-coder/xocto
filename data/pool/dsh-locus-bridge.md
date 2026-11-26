@@ -21,16 +21,16 @@ canonical_url: https://github.com/Kide-Lee/dsh-locus-bridge
 summary: DSH plugin acting as a Locus client for the Unity native broker (Win32 named pipe / Unix domain
   socket)
 first_seen: '2026-11-20T03:15:55Z'
-last_seen: '2026-11-20T03:15:55Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Kide-Lee/dsh-locus-bridge
-  seen_at: '2026-11-20T03:15:55Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 57
+    stars: 58
     forks: 0
     open_issues: 0
   kind: product

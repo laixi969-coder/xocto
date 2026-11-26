@@ -27,7 +27,7 @@ url: https://muse.ai/
 canonical_url: https://muse.ai
 summary: Your personal AI agent that gets things done
 first_seen: '2026-09-10T05:13:24Z'
-last_seen: '2026-11-25T04:55:10Z'
+last_seen: '2026-11-26T04:11:57Z'
 status: pending_filter
 sources:
 - producthunt
@@ -296,9 +296,9 @@ sightings:
   kind: news
 - source: trackedproducts
   url: https://muse.ai/
-  seen_at: '2026-11-12T02:59:22Z'
+  seen_at: '2026-11-26T04:10:04Z'
   metrics:
-    content_hash: 004ac7b41e29a6f9
+    content_hash: 3acfd12921656ec1
   kind: product
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitgFBVV95cUxORW9sQkhpQzZKTVdLYk5RYVUwcjUwZ3NFNU1maDhtTU9NRTVsUzcwMTcxd2c5THZNZjJLaWNsYkt5SEhHR1ZNYW5oV05ZVFZJV1VxTWdOYXRYTWt5bjUtT0x3NWhRLXlwUDhjT3gza01RTW1zMzZDVm91V3BpdWRBMGVjSlgySlRDcG80RkpldzJzMC1aZGlaalZCTVNLSHNIZ1ZUS2tmcXFxei1IRW5NdHRIbDVoUQ?oc=5
@@ -623,6 +623,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMihwFBVV95cUxPa0hUak5JZ0pxQzJ6SDhDTUhLRXRpSk5CNVJuS3dFNTlZWU1nZ3NqTjA5UUpFcFFVdjdNUVFPRWNocC1GOWpSRHFhUmhjZFBjbjhfMjFqZkN5cWpCMm9udW1mOWhlSHFUUmdRM2dWY0RFRlByUXdIcXo5U195MXdWTzc2aUZ0dFE?oc=5
   seen_at: '2026-11-25T04:55:10Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/
+  seen_at: '2026-11-26T04:11:00Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinAFBVV95cUxPUE5JWjBTMlhTU2FJSmZaczRVSm5obFNIZVByc2xpRWtmM0VqRHQzN1RvQTdNZG9JM0R1bFBoYlBsTy15X2pxTXoydDVPcnBxS1BqbG1oeVFzWm8tSW53Wkt0ZFZYbzFoSzBsS1pPWi12SVZhaE5qWGpnMmNWd3VFQWIzTVJCLWs1SW5McTI3aXlleVdWTnhiYWJOUmQ?oc=5
+  seen_at: '2026-11-26T04:11:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOVzFJWm90S3NobW9HbzBnWnlUdlBCdlZKcHR2NkxpRmtjTW5Sb2U5c1R3VnhISUFKR05HU0lrc2prekZURElZRDBpcF9nVzYxZl9JbTFNWXZ1NGxQckZ3U3c5WVFVNnZ2OVR2b0YzNFJSTEZ2ZWZNMEs4SlkwQ1dUZDBVU25KSm5jT3NkTw?oc=5
+  seen_at: '2026-11-26T04:11:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZd0ZjY0pqYmdRa01pc2c0cFFiVDBOb3BIdHBqa2gxaXFJbC1TT1RMUUtHcVdzRXFHSGxoMVVoLWoydEV5NXo5VmhQcXdTWS1GUVJmNHZzdHFRMk0?oc=5
+  seen_at: '2026-11-26T04:11:57Z'
   metrics: {}
   kind: news
 ---

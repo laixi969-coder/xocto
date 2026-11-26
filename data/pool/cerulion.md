@@ -20,7 +20,7 @@ url: https://github.com/cerulion-inc/cerulion
 canonical_url: https://github.com/cerulion-inc/cerulion
 summary: ROS 2-compatible robotics runtime with multi-process replay
 first_seen: '2026-11-13T02:38:38Z'
-last_seen: '2026-11-14T02:27:33Z'
+last_seen: '2026-11-26T04:10:27Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 12
     comments: 8
+  kind: product
+- source: hackernews
+  url: https://github.com/cerulion-inc/cerulion#harness-results
+  seen_at: '2026-11-26T04:10:27Z'
+  metrics:
+    points: 8
+    comments: 2
   kind: product
 ---
 

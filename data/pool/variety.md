@@ -20,7 +20,7 @@ url: https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-123687
 canonical_url: https://variety.com/2026/film/news/robin-williams-daughter-ai-videos-1236871568
 summary: 'Robin Williams'' Daughter to Fans Creating AI Videos: ''Have Some Shame'''
 first_seen: '2026-09-22T01:24:49Z'
-last_seen: '2026-11-25T04:54:17Z'
+last_seen: '2026-11-26T04:10:27Z'
 status: pending_filter
 sources:
 - hackernews
@@ -34,10 +34,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/
-  seen_at: '2026-11-25T04:54:17Z'
+  seen_at: '2026-11-26T04:10:27Z'
   metrics:
-    points: 320
-    comments: 308
+    points: 336
+    comments: 333
   kind: news
 ---
 

@@ -21,18 +21,18 @@ canonical_url: https://joungminsung.github.io/OpenPhoneUse
 summary: 'Open-source Computer Use for Android: an AI agent that reads the screen, taps, types and switches
   apps for you. Works with ChatGPT, Claude, Gemini and Grok. No PC, root or ADB.'
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://joungminsung.github.io/OpenPhoneUse/
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 45
-    forks: 15
-    open_issues: 11
+    stars: 47
+    forks: 16
+    open_issues: 12
   kind: product
 ---
 

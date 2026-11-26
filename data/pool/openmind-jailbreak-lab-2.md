@@ -21,16 +21,16 @@ canonical_url: https://openmind-jailbreak-lab.vercel.app
 summary: Open-source AI security research lab for reproducible adversarial testing, jailbreak resistance
   evaluation, and LLM guardrail validation across multiple model providers.
 first_seen: '2026-11-21T03:13:53Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://openmind-jailbreak-lab.vercel.app/
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 43
+    stars: 44
     forks: 6
     open_issues: 0
   kind: product

@@ -21,17 +21,17 @@ canonical_url: https://github.com/YudiG12/second-brain-mcp
 summary: 'My notes in every AI client: a remote MCP server on Cloudflare (Artifacts, Durable Objects,
   Queues, Workflows, D1, Vectorize, OAuth)'
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-26T04:10:31Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/YudiG12/second-brain-mcp
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-26T04:10:31Z'
   metrics:
-    stars: 71
-    forks: 6
+    stars: 85
+    forks: 8
     open_issues: 2
   kind: product
 ---
