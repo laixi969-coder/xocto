@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "company_id": "A0779A18-1CA9-4308-BC4E-1FCA3AD54A44",
+  "round_fingerprint": "3bfd0e7d28de1a9abebb475fee6cc5d6c4c977cdfb61cb06f09273b1172a6834",
+  "last_attempt": "2026-11-26",
+  "status": "blocked",
+  "gaps": [
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/ABA7B80E-DBD0-46FA-9C11-7EE54F5445DA",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Sequent develops AI-powered formal verification tools that use mathematical proofs to verify software correctness and security, with an initial focus on smart contracts.",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://sequent.inc/company/",
+      "kind": "retrieval_gap",
+      "role": "overview",
+      "checked_on": "2026-11-26",
+      "status": "unavailable",
+      "text": "",
+      "error": "ValueError: Page has no usable product text or is a parked/challenge page"
+    }
+  ],
+  "fingerprint": "081c561e093de8bc942c868308b66e1ffe6023f568c4e647a28c642ffecbccc9"
+}

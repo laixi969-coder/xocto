@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "company_id": "3CFFF0BE-C1C5-4476-9ECF-64B7A840D8F7",
+  "round_fingerprint": "cb74f06e1c572421f25ef50deb86adb6ce8bc64eee5bfa8f9555971065d8e218",
+  "last_attempt": "2026-11-26",
+  "status": "blocked",
+  "gaps": [
+    "product",
+    "pricing",
+    "customer_case",
+    "documentation"
+  ],
+  "evidence": [
+    {
+      "url": "https://funding.tech.eu/deals/B8992BB0-C373-469F-A536-478E8ED9AAFF",
+      "kind": "funding",
+      "role": "funding",
+      "status": "retrieved",
+      "text": "Wonderscent develops an AI-powered fragrance discovery platform that provides personalised perfume recommendations based on users’ preferences, moods and personal associations.",
+      "checked_on": "2026-11-26"
+    },
+    {
+      "url": "https://wonderscent.com/get",
+      "kind": "retrieval_gap",
+      "role": "overview",
+      "checked_on": "2026-11-26",
+      "status": "unavailable",
+      "text": "",
+      "error": "ValueError: Page has no usable product text or is a parked/challenge page"
+    }
+  ],
+  "fingerprint": "a9a7d89ad90b1fef13d7a844afedf5504c3cb2f8f91420894e0e37fa8d5abd11"
+}
