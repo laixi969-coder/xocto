@@ -20,7 +20,7 @@ url: https://search.my-yacy-node.org/
 canonical_url: https://search.my-yacy-node.org
 summary: Peer-to-peer web search over the YaCy network
 first_seen: '2026-10-09T01:02:09Z'
-last_seen: '2026-11-26T04:11:57Z'
+last_seen: '2026-11-27T04:16:54Z'
 status: pending_filter
 sources:
 - hackernews
@@ -303,6 +303,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirAFBVV95cUxOc2l5SDB0Q3hnVUFJR2RxSVNfQmpEeThjYy1Fd2loWVJlRzBkcXdHRy1MRzhqMTRReFdiQjI4ZlRUVDZFemJ4SWdYdUxXSVNRakxiQnlUYTNQMXFBcDE3di0xS2huLWVZN3A3dnpvMjNMajlPZG5aZFNYQnZmY01vcmxfeXVaWG1pYnB1Y0J6VVBxRnhxVlpCQ3BHdDlYeVBJb3RoWUNfM2ZZTm9N?oc=5
   seen_at: '2026-11-26T04:11:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxQTWZ3LWRwZl9VV3l1cTdtZlNETFFBSnFxUi01RHRFYUtYS3M2ZkNXNXVGYVhaV2dxLXhlS25Sci05SkNodXRSbnFBX1Q5VGJ1QXUzUnhrN3Q3VEFveTcxVmVYV1pxUnpyOW00dHoxS2Vfakc3UWhFZDFCc1JYeVNyanNmMzIybUlxdmpucE1fTQ?oc=5
+  seen_at: '2026-11-27T04:16:54Z'
   metrics: {}
   kind: news
 ---

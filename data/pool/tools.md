@@ -20,7 +20,7 @@ url: https://tools.techtransit.org/nginx-generator
 canonical_url: https://tools.techtransit.org/nginx-generator
 summary: Browser-based Nginx config generator with live preview
 first_seen: '2026-09-09T00:22:27Z'
-last_seen: '2026-11-26T04:11:57Z'
+last_seen: '2026-11-27T04:16:54Z'
 status: pending_filter
 sources:
 - hackernews
@@ -440,6 +440,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOVmhSRHRycHpTZnlXTzd5OXhETlNFeVpMcENUYWstbW5sV3dRNnNrSU5tUjFGVTlyZmloc2JJaDd0clZCQThXdFlVX1dVem5DYWtzYXdrV1FGQjFvalpjamtkdk8zRjM1Uk5FRzdkeXlWay1KVjkzMUlISHBDSFlOWmo4THhJU0l1dGhPYWdteXk?oc=5
   seen_at: '2026-11-26T04:11:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiggFBVV95cUxNcVMyWUdoMUJTbGV4Y3l5b094WWtBWDVJNlVPOUxGdEdiUmdMbmVsSkNaUmhEMm43SnBQbTFLSF9KMEJJRDl3WVlqUVh3R3BjeUtiRkdrdFk4MF9OUm4wdGZ0clpPRGhmNXl1b1Q2emc1cWwzRG5MSS0tQm5KTS03NkRR?oc=5
+  seen_at: '2026-11-27T04:16:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQU9pc3NXcVk5dDBfMmZydHJKWXZQTDJTMkxkQ3RHaUlKUzlpVVBpWmJMb0NTemU3VlNJc3B4aUlzU1RkUHJtblRkbWl3cUh1YzdSdVVWZHdWT3JPcDRvdU1PQ3dNUzluNnRsLU1hbFNZTFpqY2gxQWJydURqQU5wTGRyMHpseW5ZcE5BMnhqYWxmNjIxU290WXBuUEpIZXlBVllieDV3bGh1NDNSSDhGYk5pMHFFQmc2ZzhsWU9PWkNFWFNUeS12M2N3X0Fsa05sWm5VR25GTDNBX0xDVXhXNHU2Y9IB6wFBVV95cUxQSWN3MmFvaDBURnFpTG9NbDFXOHVMcGw4Z0twUXVENnhDSlZkMWdmdXBZUlI2YjdGY2FqbW5rdGRsQ21XNTBEQUxzZHZ2Mmlack5JWUtwMjhkMWJRXzAtRHU1VGJPcXRXbFBRd0pLSlNXVmxjeFZUY3Q4eGlVamdMU2w3dzBHV3dMNVRrdnEwYnl3YjI0WFJhd1hhVmJBOU5IdHlfVEctNW12VEduZW95TEZCRkJNSXBTWjRRaHdMbmRVWmp1TTJTdjJCZDR4LWhpdzJjMHNWS3VJdkpQV29JN1JRZlBtSUlHdE4w?oc=5
+  seen_at: '2026-11-27T04:16:54Z'
   metrics: {}
   kind: news
 ---

@@ -24,16 +24,16 @@ summary: "## What's Changed\r\n* mlx: fuse Inkling residual mixing on Metal by @
   \n* inkling2: faster Metal decode, prefill and draft rounds by @dhiltgen in https://github.com/ollama/ollama/pull/19843\r\
   \n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.17...v0.40.18-rc0"
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.40.18
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    reactions: 18
+    reactions: 22
   kind: news
 ---
 

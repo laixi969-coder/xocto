@@ -20,16 +20,16 @@ url: https://github.com/onatm/rustling
 canonical_url: https://github.com/onatm/rustling
 summary: Rust agent with an Inkling 2 Mini inference engine for Apple Silicon
 first_seen: '2026-11-26T04:10:27Z'
-last_seen: '2026-11-26T04:10:27Z'
+last_seen: '2026-11-27T04:16:00Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/onatm/rustling
-  seen_at: '2026-11-26T04:10:27Z'
+  seen_at: '2026-11-27T04:16:00Z'
   metrics:
-    points: 11
+    points: 13
     comments: 0
   kind: product
 ---

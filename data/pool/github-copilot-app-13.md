@@ -21,17 +21,17 @@ canonical_url: https://github.com/TarantulaCorrect/GitHub-Copilot-app
 summary: The GitHub Copilot app is an agent-native desktop experience for finding, running, steering,
   and landing software work across your GitHub repositories.
 first_seen: '2026-11-19T03:28:05Z'
-last_seen: '2026-11-24T06:03:30Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/TarantulaCorrect/GitHub-Copilot-app
-  seen_at: '2026-11-24T06:03:30Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 370
-    forks: 189
+    stars: 364
+    forks: 181
     open_issues: 0
   kind: product
 ---

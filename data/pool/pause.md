@@ -20,7 +20,7 @@ url: https://joinpause.co/
 canonical_url: https://joinpause.co
 summary: weekly curated 1:1 coffee matches for London professionals
 first_seen: '2026-08-27T13:45:06Z'
-last_seen: '2026-11-19T03:28:45Z'
+last_seen: '2026-11-27T04:16:33Z'
 status: pending_filter
 sources:
 - hackernews
@@ -42,6 +42,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijgFBVV95cUxPLVZMTnR5dVg5eklQWHp4Mk91MW0ya0ZRMFUtMjRWYlpaaVc2YlpUaC1GVzlJVGxQNXFueGJqUWJpczBiSXBPWV9lVTVQR0E3aTBPVlVHN0J0RUdxRGl5dWN1MHM0Ym96b1p1VmthcXllRmJzbVYwTDZZTklDQjhpaXBkRkM4QXJnY2wzRW1B?oc=5
   seen_at: '2026-11-19T03:28:45Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/
+  seen_at: '2026-11-27T04:16:33Z'
   metrics: {}
   kind: news
 ---

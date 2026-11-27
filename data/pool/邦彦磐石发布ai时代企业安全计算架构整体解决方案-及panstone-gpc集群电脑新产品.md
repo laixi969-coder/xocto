@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMibEFVX3lxTE1SUkhhLVRDR3dvaFJBc2hOTF
 canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE1SUkhhLVRDR3dvaFJBc2hOTFlIZHZUeU9Tb1VsclFPRHBTNVZERTltRGp6OUVzQnNQdjdDRHg0cU5ITUVLY2dkOE5iVmlZQmY1VFBWQUJVMEtRRS1JZ1dfWDZFZF9fVnBhTGhZeA?oc=5
 summary: 邦彦磐石发布AI时代企业安全计算架构整体解决方案 及PANSTONE GPC集群电脑新产品 中华网
 first_seen: '2026-11-26T04:11:57Z'
-last_seen: '2026-11-26T04:11:57Z'
+last_seen: '2026-11-27T04:16:54Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMibEFVX3lxTE1SUkhhLVRDR3dvaFJBc2hOTFlIZHZUeU9Tb1VsclFPRHBTNVZERTltRGp6OUVzQnNQdjdDRHg0cU5ITUVLY2dkOE5iVmlZQmY1VFBWQUJVMEtRRS1JZ1dfWDZFZF9fVnBhTGhZeA?oc=5
   seen_at: '2026-11-26T04:11:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxYl9sd0xjT2NpYmlkb21qX000T2hzZUk2cGpIX0tMbE1LYTlKU01RUV9vRXZzMkNvQVhvaEIzV3B2eEFmRXRkRUZCakhpWGdjNGdGYkRZenY5NHRxeFE?oc=5
+  seen_at: '2026-11-27T04:16:54Z'
   metrics: {}
   kind: news
 ---

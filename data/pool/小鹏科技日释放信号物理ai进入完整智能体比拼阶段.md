@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMicEFVX3lxTE8xRjNzQ3RvQjl5b3U2QWZNNj
 canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE8xRjNzQ3RvQjl5b3U2QWZNNjBzNFhCdkQ0aEJ6dl90Wk9PUEpIWjN0ODhFU1FpZm1GR0xNZDVrc2JpNHZGN2N4Nl9UWUgyR2F1aGJsMGYteTdLTTIzakZUUXBZMHU0ZFNLbVItUUh4M00?oc=5
 summary: 小鹏科技日释放信号：物理AI进入完整智能体比拼阶段？ 手机新浪网
 first_seen: '2026-11-26T04:11:57Z'
-last_seen: '2026-11-26T04:11:57Z'
+last_seen: '2026-11-27T04:16:54Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMicEFVX3lxTE8xRjNzQ3RvQjl5b3U2QWZNNjBzNFhCdkQ0aEJ6dl90Wk9PUEpIWjN0ODhFU1FpZm1GR0xNZDVrc2JpNHZGN2N4Nl9UWUgyR2F1aGJsMGYteTdLTTIzakZUUXBZMHU0ZFNLbVItUUh4M00?oc=5
   seen_at: '2026-11-26T04:11:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMickFVX3lxTE1IQ00zWnF0eElWQzdTS2ttcW5hRGRCcE4zaWtmM2NjRVMzVnozdjNVOEtxVHZaR2R4eHQ2bDVqRzFCamtsUEtJeUplVEk4WjB0U295RXJiMHNzMFlVTm1xTENrNVZSWlIzcnhtazhhdlROQQ?oc=5
+  seen_at: '2026-11-27T04:16:54Z'
   metrics: {}
   kind: news
 ---

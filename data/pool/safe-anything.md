@@ -21,18 +21,18 @@ canonical_url: https://github.com/erkamyaman/safe-anything
 summary: 'Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection,
   leaked secrets, dependency CVEs and AI agent setups.'
 first_seen: '2026-11-23T02:46:00Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/erkamyaman/safe-anything
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 724
-    forks: 73
-    open_issues: 19
+    stars: 795
+    forks: 87
+    open_issues: 10
   kind: product
 ---
 

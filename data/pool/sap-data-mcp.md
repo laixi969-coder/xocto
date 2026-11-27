@@ -21,16 +21,16 @@ canonical_url: https://github.com/w1ccc/sap-data-mcp
 summary: Read-only MCP servers that let AI assistants query SAP S/4HANA through RFC/BAPI, private-cloud
   OData and public-cloud released APIs. Every call audited; credentials stay local.
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/w1ccc/sap-data-mcp
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 161
+    stars: 178
     forks: 0
     open_issues: 1
   kind: product

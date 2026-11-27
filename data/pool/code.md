@@ -53,7 +53,7 @@ summary: "Claude Max 订阅用了小半年之后，还是被封了。\r\n\r\n简
   \ GPT 100刀 + Gemini 50刀。对比我之前的 Claude Max 125刀（IOS订阅）成本上差别不大。\r\n\r\n目前 Claude 订阅的溢价对我来讲过高了，说到底是个成本的问题，成本允许的话，我早就找个靠谱中转一把梭了。希望我的项目早日扭亏为盈哈哈哈。\r\
   \n\r\n希望能给同样被封各位一些新思路吧，如果有更好的配置、使用方法也欢迎讨论。"
 first_seen: '2026-11-20T03:15:49Z'
-last_seen: '2026-11-26T04:11:57Z'
+last_seen: '2026-11-27T04:16:54Z'
 status: pending_filter
 sources:
 - v2ex
@@ -95,6 +95,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMickFVX3lxTE1iRFpFa010UFU2c3FMQjIwLURiUGJMQXlpb0dxNUczRHZXTkh2STd1VFdmT3habjlGSC1WWkJDNmNxUHVabm5qaU5JV0pMdTRsMDU0NkRUblBOUUdabEoxTlFYa3FqLVN3a2JGTmNCZ0Z0UQ?oc=5
   seen_at: '2026-11-26T04:11:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE55QlhJUjhGYkRKVGV6YTZFTHloUU10WHROajU3T3k1V0VaVG1pUTlmMVI0dzJxUlhuSEJvRWdNd21kcjY3YlpkVG8xSVUxME5KTzVIZy1PUHNoREdUeWc?oc=5
+  seen_at: '2026-11-27T04:16:54Z'
   metrics: {}
   kind: news
 ---

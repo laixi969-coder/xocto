@@ -21,17 +21,17 @@ canonical_url: https://openconstructiondesign.com
 summary: 'Free, open-source CAD-BIM editor in Rust that your AI can drive: drafts with Apply, IFC in/out,
   MCP, Lua, ERP link.'
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://openconstructiondesign.com
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 64
-    forks: 11
+    stars: 70
+    forks: 13
     open_issues: 3
   kind: product
 ---

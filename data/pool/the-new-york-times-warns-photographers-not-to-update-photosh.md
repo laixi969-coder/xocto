@@ -26,7 +26,7 @@ summary: The New York Times is asking freelance photographers not to use the new
   with a trove of AI-powered tools. The November update cited by the NYT 's email adds several new AI
   features, including Adobe's new "AI Assiste … Read the full story at The Verge.
 first_seen: '2026-11-25T04:54:52Z'
-last_seen: '2026-11-26T04:10:27Z'
+last_seen: '2026-11-27T04:16:00Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -39,10 +39,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features
-  seen_at: '2026-11-26T04:10:27Z'
+  seen_at: '2026-11-27T04:16:00Z'
   metrics:
-    points: 257
-    comments: 205
+    points: 659
+    comments: 525
   kind: news
 ---
 

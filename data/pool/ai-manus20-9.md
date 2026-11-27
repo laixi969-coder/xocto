@@ -21,17 +21,17 @@ canonical_url: https://github.com/TrapBladesmith/ai--manus2.0
 summary: AI Manus is a general-purpose AI Agent system that supports running various tools and operations
   in a sandbox environment.
 first_seen: '2026-11-15T01:56:04Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/TrapBladesmith/ai--manus2.0
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
     stars: 357
-    forks: 285
+    forks: 284
     open_issues: 0
   kind: product
 ---

@@ -20,7 +20,7 @@ url: https://chinese.vedranb.com/
 canonical_url: https://chinese.vedranb.com
 summary: I made a game about the 3k-year evolution of Chinese characters
 first_seen: '2026-11-02T01:31:06Z'
-last_seen: '2026-11-24T06:04:03Z'
+last_seen: '2026-11-27T04:16:54Z'
 status: pending_filter
 sources:
 - hackernews
@@ -92,6 +92,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQeFlqMlFhaGdoTk1SZUlqWW51Q1dHRU5qY2cwaFJwT0FOWjNxblhfZHdFbWQ3YjhfWjF4ZUJKaFQtcC1sRHRQalo4aGR1ODlXN25BOGdqRzVZUFZ4N01zZFVMQ0d1NjFIa2Rod0xaWnBvWlBaMDYtNHMyckFwT1hlWFk1c290ZUZFdWxNMVRxUjNkSklnY2Q1R3JB?oc=5
   seen_at: '2026-11-24T06:04:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigAJBVV95cUxNQ0dtUDVVTF9NMVRlcGZfbjdYSWVyUU9HN3NObnk3YXIwVzRvbDNGMmYwemhmRmNaX0VMZUZCTVJKajVrT3lVOUZWR2hfaFh3d0xFQ2FpU0JhZVlqQ0ZOeF9GR3BpN29TTldNNG1oYVd2a0lLdFJ4S09aTzlmNDAyV3Z5OTZWc2NtTnFKLVNYV0RSMDVoM2N4LW9PWWpHQTNuOVZuUFZId21LYWEwWWpuT3RrU3UtVjZvenFMMDdIejFOaTY1Y05RdWdlOUtpeTRPZ19QTXpxZUdfdTEwNENlSlhQa2NfSkUwdWdWdFU2bkJaYzRYenJzNl9ia2t3MnZE0gGGAkFVX3lxTE9scEdMUDJNdmZsSEdHQmFVOEdoTVJlbmpsajQzU3hiUXhHQ1czVFZGRWJ6RmVGOVUxT3pWaDNFX3ZndHdEX1dKaEZFMDZMN0dhR2FaNDA4aEN2ZzhiLTRWUjBfY1dpVjRGdkdlQWp0WmU1VEtEMTUwVUg4cHI2S2ZsRTBZeUxTRWh4QUNlNTJ5cVNPa0RIbHc0UTFGMldUUUo1OTg5am5LTEdzcE91X2JYZTlvOHhPYjBzd3VQdWhhcmdPTDR0MzhXYlJiQzdtT0hsWEFYYjlORWFtVEp1cDdFUTFCcTRaUTRMWUJIUEJLVGlkbmdrdDQ3UkVnVDE3NEtFYW9zclE?oc=5
+  seen_at: '2026-11-27T04:16:54Z'
   metrics: {}
   kind: news
 ---

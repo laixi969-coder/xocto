@@ -1,0 +1,41 @@
+---
+slug: acg-launches-qualishield-cl60-ai
+name: ACG launches QualiShield® CL60-AI
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQckFWaG1fa2ZTdU1WcmZDY3NQYXZKU3lFVERUb3VERjdfdVpOc041cnZsSnE5cWJpMU1IaEhua1d6RFE0TWxhU1p6UVh1a2kzSW9STjA4WVBEODBuaE5yelBVS01fcldOSGZ3Njl3V1JHaHJXT0dGWGtRSm1SQS13OGs4OUtiTExWYXU0MUJJMWJfeDJjV3pVS2gxV1BpZG90ZEl1NlRJZFNOUzJRbUVGMmxBQnRSTHE5TTB4ZmpBTkpoRU3SAcMBQVVfeXFMUHJBVmhtX2tmU3VNVnJmQ2NzUGF2SlN5RVREVG91REY3X3VaTnNONXJ2bEpxOXFiaTFNSGhIbmtXekRRNE1sYVNaelFYdWtpM0lvUk4wOFlQRDgwbmhOcnpQVUtNX3JXTkhmdzY5d1dSR2hyV09HRlhrUUptUkEtdzhrODlLYkxMVmF1NDFCSTFiX3gyY1d6VUtoMVdQaWRvdGRJdTZUSWRTTlMyUW1FRjJsQUJ0UkxxOU0weGZqQU5KaEVN?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQckFWaG1fa2ZTdU1WcmZDY3NQYXZKU3lFVERUb3VERjdfdVpOc041cnZsSnE5cWJpMU1IaEhua1d6RFE0TWxhU1p6UVh1a2kzSW9STjA4WVBEODBuaE5yelBVS01fcldOSGZ3Njl3V1JHaHJXT0dGWGtRSm1SQS13OGs4OUtiTExWYXU0MUJJMWJfeDJjV3pVS2gxV1BpZG90ZEl1NlRJZFNOUzJRbUVGMmxBQnRSTHE5TTB4ZmpBTkpoRU3SAcMBQVVfeXFMUHJBVmhtX2tmU3VNVnJmQ2NzUGF2SlN5RVREVG91REY3X3VaTnNONXJ2bEpxOXFiaTFNSGhIbmtXekRRNE1sYVNaelFYdWtpM0lvUk4wOFlQRDgwbmhOcnpQVUtNX3JXTkhmdzY5d1dSR2hyV09HRlhrUUptUkEtdzhrODlLYkxMVmF1NDFCSTFiX3gyY1d6VUtoMVdQaWRvdGRJdTZUSWRTTlMyUW1FRjJsQUJ0UkxxOU0weGZqQU5KaEVN?oc=5
+summary: ACG launches QualiShield® CL60-AI Business Standard
+first_seen: '2026-11-27T04:16:54Z'
+last_seen: '2026-11-27T04:16:54Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQckFWaG1fa2ZTdU1WcmZDY3NQYXZKU3lFVERUb3VERjdfdVpOc041cnZsSnE5cWJpMU1IaEhua1d6RFE0TWxhU1p6UVh1a2kzSW9STjA4WVBEODBuaE5yelBVS01fcldOSGZ3Njl3V1JHaHJXT0dGWGtRSm1SQS13OGs4OUtiTExWYXU0MUJJMWJfeDJjV3pVS2gxV1BpZG90ZEl1NlRJZFNOUzJRbUVGMmxBQnRSTHE5TTB4ZmpBTkpoRU3SAcMBQVVfeXFMUHJBVmhtX2tmU3VNVnJmQ2NzUGF2SlN5RVREVG91REY3X3VaTnNONXJ2bEpxOXFiaTFNSGhIbmtXekRRNE1sYVNaelFYdWtpM0lvUk4wOFlQRDgwbmhOcnpQVUtNX3JXTkhmdzY5d1dSR2hyV09HRlhrUUptUkEtdzhrODlLYkxMVmF1NDFCSTFiX3gyY1d6VUtoMVdQaWRvdGRJdTZUSWRTTlMyUW1FRjJsQUJ0UkxxOU0weGZqQU5KaEVN?oc=5
+  seen_at: '2026-11-27T04:16:54Z'
+  metrics: {}
+  kind: news
+---
+
+# ACG launches QualiShield® CL60-AI
+
+ACG launches QualiShield® CL60-AI Business Standard
+
+## 笔记
+
+

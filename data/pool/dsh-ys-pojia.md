@@ -23,17 +23,17 @@ summary: 'DSH 破甲 解限 越狱 清理 红队 逆向 | DSH (DeepSeek Harness)
   overclock with generic fallback, Android / DSH Go support, no topic exclusion, ASR 46.2%, 95 templates
   / 29 vendors.'
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://yushang657.github.io/DSH-YS-pojia/
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 56
-    forks: 9
+    stars: 121
+    forks: 29
     open_issues: 1
   kind: product
 ---

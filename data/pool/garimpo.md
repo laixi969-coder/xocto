@@ -22,17 +22,17 @@ summary: 'Prospecção open source do Google Maps ao Pix: acha negócios no Maps
   o nome de cada um, conversa no WhatsApp e cobra por Pix, Mercado Pago ou Stripe. Pagou, fecha sozinho.
   Roda no seu PC, VPS ou Vercel, com API para agentes (Claude Code, Codex, n8n).'
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://mamaevireidev.com.br
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 186
-    forks: 59
+    stars: 218
+    forks: 68
     open_issues: 2
   kind: product
 ---

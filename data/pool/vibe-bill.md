@@ -21,17 +21,17 @@ canonical_url: https://github.com/globalmpc/vibe-bill
 summary: Claude Code skill that estimates what your vibe-coded app will cost to run at 100 / 1k / 10k
   / 100k users, flags code patterns that inflate the bill, and renders a shareable receipt.
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-25T04:54:21Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/globalmpc/vibe-bill
-  seen_at: '2026-11-25T04:54:21Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
     stars: 63
-    forks: 0
+    forks: 1
     open_issues: 0
   kind: product
 ---

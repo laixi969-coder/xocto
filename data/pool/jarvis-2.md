@@ -21,17 +21,17 @@ canonical_url: https://github.com/ankitjha67/JARVIS
 summary: Personal AI desktop assistant for Windows. 231 tools, 8 LLM providers, voice control, cinematic
   HUD. Python + React + Kotlin.
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ankitjha67/JARVIS
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 46
-    forks: 5
+    stars: 49
+    forks: 6
     open_issues: 0
   kind: product
 ---

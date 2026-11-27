@@ -22,16 +22,16 @@ summary: WeVisForensics is a self-evolving agent for omni AI-generated video det
   agent calls inspector sub-agents on chosen time windows to check appearance, physics, common sense,
   on-screen text, and audio.
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Tencent/WeVisForensics
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 67
+    stars: 71
     forks: 4
     open_issues: 2
   kind: product

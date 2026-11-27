@@ -21,16 +21,16 @@ canonical_url: https://marilyncardoso.github.io/suno-ai
 summary: Suno Ai for Windows 10/11. Generates original songs from text prompts by writing lyrics and vocals,
   then exports finished tracks for videos, podcasts or personal listening.
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://marilyncardoso.github.io/suno-ai/
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 201
+    stars: 277
     forks: 0
     open_issues: 0
   kind: product

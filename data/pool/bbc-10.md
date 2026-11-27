@@ -20,16 +20,16 @@ url: https://www.bbc.co.uk/news/articles/cmp3vk6vr44po
 canonical_url: https://bbc.co.uk/news/articles/cmp3vk6vr44po
 summary: Duran Duran guitarist Andy Taylor dies aged 65
 first_seen: '2026-11-26T04:10:27Z'
-last_seen: '2026-11-26T04:10:27Z'
+last_seen: '2026-11-27T04:16:00Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.bbc.co.uk/news/articles/cmp3vk6vr44po
-  seen_at: '2026-11-26T04:10:27Z'
+  seen_at: '2026-11-27T04:16:00Z'
   metrics:
-    points: 44
+    points: 52
     comments: 10
   kind: news
 ---

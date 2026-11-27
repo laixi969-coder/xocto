@@ -1,0 +1,18 @@
+- id: ev-7e5368fc4f1dba00
+  project_slug: ggerganov-llamacpp-v110
+  url: https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0
+  title: 'ggerganov/llama.cpp: v1.1.0'
+  published_at: '2026-11-26T09:16:47Z'
+  collected_at: '2026-11-27T04:16:07Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## Overview\r\n\r\nllama.cpp v1.1.0 adds the Inkling 2 family (base, Mini and DSpark), Domyn\
+    \ Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash, splits DFlash speculative decoding into separate draft\
+    \ methods, and deprecates the old `llama_batch` API in favour of `llama_batch_ext`. It brings a large\
+    \ set of TTS and audio models (Kokoro, Zonos3-Mini, tiny-voca, VoxCPM2, MiniMax-Music3, YuE2, Fish\
+    \ S2, Higgs v3/VibeVoice-ASR and Kyutai Hibiki), token-aware chat parsing, named tool choice, automatic\
+    \ per-tensor quantization targeting a bpw or size budget, a slot-scheduling refactor in `llama-server`,\
+    \ a redesigned Llama Chat web UI with voice messages and agent traces, and updates `ggml` to v1.1.1.\r\
+    \n\r\n### API changes\r\n\r\n- llama.h: deprecate the old `llama_batch` API in favour of `llama_batch_ext`\
+    \ and `llama_process` ([#32306](https://github.com/ggml-org/llama.cpp/pull/32306), [#32356](https://github.com/ggml-org/llama.cpp/pull/32356))\r\
+    \n- llama.h: add `llama_dflash_variant` and `llama_model_dflash_varian"

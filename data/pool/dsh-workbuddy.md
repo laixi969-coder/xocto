@@ -21,17 +21,17 @@ canonical_url: https://github.com/LIUFelix2004/dsh-workbuddy
 summary: 'Import WorkBuddy accounts into DeepSeek Harness as model providers: one route per account, full
   model list, per-account credit balance, and an automatic workaround for the gateway 11128 channel check.'
 first_seen: '2026-11-22T02:14:43Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LIUFelix2004/dsh-workbuddy
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 169
-    forks: 51
+    stars: 177
+    forks: 54
     open_issues: 1
   kind: product
 ---

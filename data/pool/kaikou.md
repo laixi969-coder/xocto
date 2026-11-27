@@ -21,16 +21,16 @@ canonical_url: https://github.com/syydaniel/kaikou
 summary: '开口 kaikou：让克隆的声音，一开口就说人话。A skill for AI coding assistants: natural-sounding voice-overs from
   open-source voice cloning, from recording to final mix.'
 first_seen: '2026-11-17T04:29:18Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/syydaniel/kaikou
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 76
+    stars: 78
     forks: 8
     open_issues: 0
   kind: product

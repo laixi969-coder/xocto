@@ -20,16 +20,16 @@ url: https://pansyai.dev
 canonical_url: https://pansyai.dev
 summary: A local gateway that lets every coding agent use every provider's models, with a desktop window
 first_seen: '2026-11-26T04:10:31Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://pansyai.dev
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 122
+    stars: 125
     forks: 0
     open_issues: 2
   kind: product

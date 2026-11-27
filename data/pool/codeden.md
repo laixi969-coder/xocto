@@ -21,18 +21,18 @@ canonical_url: https://codeden.app
 summary: 'A local-first harness for coding agents: orchestrator, project managers and agent sessions,
   traceable through GitHub.'
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://www.codeden.app
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 132
-    forks: 47
-    open_issues: 33
+    stars: 138
+    forks: 51
+    open_issues: 39
   kind: product
 ---
 

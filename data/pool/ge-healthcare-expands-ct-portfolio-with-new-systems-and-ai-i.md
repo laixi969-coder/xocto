@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxQU1BUY1hFeUdyeFBIRHlZLV
 canonical_url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxQU1BUY1hFeUdyeFBIRHlZLVVtVnVSZTk5RENRTEZlX0JyNDZWWHh5MVBvUVBZdGZ1Vmk0NFRDV0ZRSjdxWVZoUmQ4Uld1a0R0WGdEUjJRR0NoUm92QW42QlphYURPRlI2R0VlX1JpVUV4M1hOakRQNDlUb2M0S0UwX3BMNnMzSnQ3SjU4b0NCVGdtRm12SF8xQXRJOEVYVVRYWm5SR1k5YmhBblFVN182LTJRSlJzRXIzTmJlMlo5UVZZTEo1QTRfVGNKTFlRSnY3V1dyNElUeWVTbDFmMEFUaVhLeUdEc3dxU1Vn?oc=5
 summary: GE HealthCare Expands CT Portfolio With New Systems and AI Innovations The Globe and Mail
 first_seen: '2026-11-26T04:11:57Z'
-last_seen: '2026-11-26T04:11:57Z'
+last_seen: '2026-11-27T04:16:54Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxQU1BUY1hFeUdyeFBIRHlZLVVtVnVSZTk5RENRTEZlX0JyNDZWWHh5MVBvUVBZdGZ1Vmk0NFRDV0ZRSjdxWVZoUmQ4Uld1a0R0WGdEUjJRR0NoUm92QW42QlphYURPRlI2R0VlX1JpVUV4M1hOakRQNDlUb2M0S0UwX3BMNnMzSnQ3SjU4b0NCVGdtRm12SF8xQXRJOEVYVVRYWm5SR1k5YmhBblFVN182LTJRSlJzRXIzTmJlMlo5UVZZTEo1QTRfVGNKTFlRSnY3V1dyNElUeWVTbDFmMEFUaVhLeUdEc3dxU1Vn?oc=5
   seen_at: '2026-11-26T04:11:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7gFBVV95cUxOSUNVQm5lN2NJMDhQNmtmNG50ZExhSHg3blFHTFBzeFpXOGVJei1XNkd1dWJUNUdfNjhlZWVYdEdGc0hsLXJQcFcwbC1vUDJMMjlKUUNPaFEteTRjNkNyNWNSajc2alZFakF3RUVId3k3UEI0d0VKOTd0SUtHTm4wZlFUTzY0ZnVSSmhJNzluUzlGb2xWc282M3Vqcnl0Um5TdjNXWG0zS3hYUVk0bFVMOV9mM2wwR3Rib1hVNVBpc0hmWFEycHlobDA5N0hzYXBzQ3RuY2paYW5mRjRQOXR2UnpGeExQMUVNLVVqSmFn?oc=5
+  seen_at: '2026-11-27T04:16:54Z'
   metrics: {}
   kind: news
 ---

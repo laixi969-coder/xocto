@@ -20,10 +20,11 @@ url: https://covenant-common.github.io/covenant-docs/
 canonical_url: https://covenant-common.github.io/covenant-docs
 summary: signed agreements for AI agents
 first_seen: '2026-10-28T01:22:30Z'
-last_seen: '2026-11-02T01:31:06Z'
+last_seen: '2026-11-27T04:16:54Z'
 status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://covenant-common.github.io/covenant-docs/
@@ -39,6 +40,11 @@ sightings:
     points: 11
     comments: 2
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE95aURIMS0xRTk2NDRtWkR5NzBpczFmMjNYSXpkbTZNVklyVmpDc0lVNkYyTnlKSlJTRmh3VmhmcFNEcWNqZHRXaE5NTGdFc3NxUTBJ?oc=5
+  seen_at: '2026-11-27T04:16:54Z'
+  metrics: {}
+  kind: news
 ---
 
 # Portable

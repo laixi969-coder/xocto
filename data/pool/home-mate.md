@@ -21,18 +21,18 @@ canonical_url: https://mymate.homes
 summary: Home Mate — Sovereign, local-first AI voice runtime, multi-room acoustic mesh arbiter, and Vue
   3 console for smart speakers (Xiaomi LX06 & Echo Dot 2)
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://mymate.homes
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 65
-    forks: 9
-    open_issues: 4
+    stars: 81
+    forks: 12
+    open_issues: 2
   kind: product
 ---
 

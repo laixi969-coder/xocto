@@ -20,17 +20,17 @@ url: https://dalewen.substack.com/p/why-are-climate-activists-so-against
 canonical_url: https://dalewen.substack.com/p/why-are-climate-activists-so-against
 summary: Why are climate activists so against nuclear?
 first_seen: '2026-11-26T04:10:27Z'
-last_seen: '2026-11-26T04:10:27Z'
+last_seen: '2026-11-27T04:16:00Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://dalewen.substack.com/p/why-are-climate-activists-so-against
-  seen_at: '2026-11-26T04:10:27Z'
+  seen_at: '2026-11-27T04:16:00Z'
   metrics:
-    points: 24
-    comments: 43
+    points: 32
+    comments: 81
   kind: news
 ---
 

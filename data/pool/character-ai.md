@@ -22,16 +22,16 @@ summary: Character Ai for Windows 10/11. Chats with AI characters, creates custo
   and backstories, and roleplays scenarios in a desktop client for writing, brainstorming and interactive
   storytelling.
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://lukmanwood863.github.io/character-ai/
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 197
+    stars: 270
     forks: 0
     open_issues: 0
   kind: product

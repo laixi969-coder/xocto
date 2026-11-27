@@ -21,18 +21,18 @@ canonical_url: https://poo.morajabi.com
 summary: 'Find and safely free the disk space your dev work eats: builds, caches, simulators and agent
   worktrees. macOS menu bar app, CLI and MCP server.'
 first_seen: '2026-11-18T03:43:16Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://poo.morajabi.com
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 119
-    forks: 1
-    open_issues: 1
+    stars: 120
+    forks: 2
+    open_issues: 0
   kind: product
 ---
 

@@ -20,16 +20,16 @@ url: https://niumabroker.nimbus-nimo.com/
 canonical_url: https://niumabroker.nimbus-nimo.com
 summary: 牛马经纪人 · Personal career broker for DeepSeek Harness
 first_seen: '2026-11-24T06:03:30Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://niumabroker.nimbus-nimo.com/
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 72
+    stars: 76
     forks: 7
     open_issues: 0
   kind: product

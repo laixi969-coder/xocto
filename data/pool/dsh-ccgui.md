@@ -20,16 +20,16 @@ url: https://github.com/zhukunpenglinyutong/dsh-ccgui
 canonical_url: https://github.com/zhukunpenglinyutong/dsh-ccgui
 summary: 在 DeepSeek Harness 里直接使用 Claude Code、Codex、PI、OMP 等 Agent CLI
 first_seen: '2026-11-25T04:54:21Z'
-last_seen: '2026-11-26T04:10:31Z'
+last_seen: '2026-11-27T04:16:07Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zhukunpenglinyutong/dsh-ccgui
-  seen_at: '2026-11-26T04:10:31Z'
+  seen_at: '2026-11-27T04:16:07Z'
   metrics:
-    stars: 54
+    stars: 56
     forks: 5
     open_issues: 4
   kind: product
